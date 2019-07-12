@@ -13,13 +13,13 @@ manager: jillfra
 # Query datasets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-To search for specific records in a dataset,  use the FindBy method on the DataTable, write your own foreach loop over the table's rows collection, or use [LINQ to DataSet](http://msdn.microsoft.com/library/743e3755-3ecb-45a2-8d9b-9ed41f0dcf17). LINQ to DataSet.  
+To search for specific records in a dataset,  use the FindBy method on the DataTable, write your own foreach loop over the table's rows collection, or use [LINQ to DataSet](https://msdn.microsoft.com/library/743e3755-3ecb-45a2-8d9b-9ed41f0dcf17). LINQ to DataSet.  
   
 ## Dataset case sensitivity  
  Within a dataset, table and column names are  case-insensitive by default — that is, a table in a dataset called "Customers" can also be referred to as "customers." This matches the naming conventions in many databases,  including SQL Server.In SQL Server, the default behavior is that the names of data elements cannot be distinguished only by case.  
   
 > [!NOTE]
->  Unlike datasets, XML documents are case-sensitive, so the names of data elements defined in schemas are case-sensitive. For example, schema protocol allows the schema to define a table called "Customers" and a different table called "customers." This can result in name collisions when a schema that contains elements that differ only by case is used to generate a dataset class.  
+> Unlike datasets, XML documents are case-sensitive, so the names of data elements defined in schemas are case-sensitive. For example, schema protocol allows the schema to define a table called "Customers" and a different table called "customers." This can result in name collisions when a schema that contains elements that differ only by case is used to generate a dataset class.  
   
  Case sensitivity, however, can be a factor in how data is interpreted within the dataset. For example, if you filter data in a dataset table, the search criteria might return different results depending on whether the comparison is case-sensitive. You can control the case sensitivity of filtering, searching, and sorting by setting the dataset's <xref:System.Data.DataSet.CaseSensitive%2A> property. All the tables in the dataset inherit the value of this property by default. (You can override this property for each individual table by setting the table's <xref:System.Data.DataTable.CaseSensitive%2A> property.)  
   
@@ -59,7 +59,7 @@ To search for specific records in a dataset,  use the FindBy method on the DataT
   
  You can use a <xref:System.Data.DataRelation> object to locate related records by calling the <xref:System.Data.DataRow.GetChildRows%2A> method of a <xref:System.Data.DataRow> in the parent table.This method returns an array of related child records. Or you can call the <xref:System.Data.DataRow.GetParentRow%2A> method of a <xref:System.Data.DataRow> in the child table.This method returns a single <xref:System.Data.DataRow> from the parent table.  
   
- This page provides examples using typed datasets. For information about navigating relationships in untyped datasets, see [Navigating DataRelations](http://msdn.microsoft.com/library/e5e673f4-9b44-45ae-aaea-c504d1cc5d3e).  
+ This page provides examples using typed datasets. For information about navigating relationships in untyped datasets, see [Navigating DataRelations](https://msdn.microsoft.com/library/e5e673f4-9b44-45ae-aaea-c504d1cc5d3e).  
   
 > [!NOTE]
 > If you are working in a Windows Forms application and using the data-binding features to display data, the designer-generated form might provide enough functionality for your application. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).  

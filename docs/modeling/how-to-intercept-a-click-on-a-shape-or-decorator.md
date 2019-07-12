@@ -28,7 +28,7 @@ public partial class MyShape // change
 ```
 
 > [!NOTE]
->  Set `e.Handled` to `true`, unless you want the event to be passed to the containing shape or diagram.
+> Set `e.Handled` to `true`, unless you want the event to be passed to the containing shape or diagram.
 
 ## To Intercept Clicks on Decorators
  Image decorators are carried on an instance of ImageField class, which has an OnDoubleClick method. You can intercept the clicks if you write an ImageField subclass. The fields are set up in the InitializeShapeFields method. Therefore, you must change that method to instantiate your subclass instead of the regular ImageField. The InitializeShapeFields method is in the generated code of the shape class. You can override the shape class if you set its `Generates Double Derived` property as described in the following procedure.

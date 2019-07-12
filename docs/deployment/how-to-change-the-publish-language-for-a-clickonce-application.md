@@ -1,5 +1,5 @@
 ---
-title: "How to: Change the Publish Language for a ClickOnce Application | Microsoft Docs"
+title: "Change publish language for ClickOnce application"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -24,7 +24,7 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 The `Publish language` property can be set in the **Publish Options** dialog box, accessible from the **Publish** page of the **Project Designer**.
 
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
 
 ## To change the publish language
 

@@ -80,7 +80,7 @@ manager: jillfra
  [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] can divide multiple item lists into batches based on the same metadata. This makes it easy to divide different item lists into batches to build multiple assemblies. For example, you could have an item list of .cs files divided into an application batch and an assembly batch, and an item list of resource files divided into an application batch and an assembly batch. You could then use batching to pass these item lists into one task and build both the application and the assembly.  
   
 > [!NOTE]
->  If an item list being passed into a task contains no items with the referenced metadata, every item in that item list is passed into every batch.  
+> If an item list being passed into a task contains no items with the referenced metadata, every item in that item list is passed into every batch.  
   
  The following example shows how to divide multiple item list into batches based on item metadata. The `ExampColl` and `ExampColl2` item lists are each divided into three batches based on the `Number` item metadata. The presence of `%(Number)`in the `Text` attribute notifies [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] that batching should be performed. The `ExampColl` and `ExampColl2` item lists are divided into three batches based on the `Number` metadata, and each batch is passed separately into the task.  
   

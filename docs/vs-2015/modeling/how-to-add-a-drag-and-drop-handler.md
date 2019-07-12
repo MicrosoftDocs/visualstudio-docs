@@ -21,9 +21,9 @@ You can add handlers for drag-and-drop events to your DSL, so that users can dra
   
 - The first two sections describe alternative methods of defining a gesture handler:  
   
-    - [Defining Gesture Handlers by Overriding ShapeElement methods](#overrideShapeElement). `OnDragDrop`, `OnDoubleClick`, `OnDragOver`, and other methods can be overridden.  
-  
-    - [Defining Gesture Handlers by using MEF](#MEF). Use this method if you want third-party developers to be able to define their own handlers to your DSL. Users can choose to install the third-party extensions after they have installed your DSL.  
+  - [Defining Gesture Handlers by Overriding ShapeElement methods](#overrideShapeElement). `OnDragDrop`, `OnDoubleClick`, `OnDragOver`, and other methods can be overridden.  
+
+  - [Defining Gesture Handlers by using MEF](#MEF). Use this method if you want third-party developers to be able to define their own handlers to your DSL. Users can choose to install the third-party extensions after they have installed your DSL.  
   
 - [How to Decode the Dragged Item](#extracting). Elements can be dragged from any window or from the desktop, as well as from a DSL.  
   
@@ -83,7 +83,7 @@ using System.Linq;
   Define `IsAcceptableDropItem(e)` to determine whether the dragged item is acceptable, and ProcessDragDropItem(e) to update your model when the item is dropped. These methods must first extract the item from the event arguments. For information about how to do that, see [How to get a reference to the dragged item](#extracting).  
   
 ## <a name="MEF"></a> Defining Gesture Handlers by using MEF  
- MEF (Managed Extensibility Framework) lets you define components that can be installed with minimal configuration. For more information, see [Managed Extensibility Framework (MEF)](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde).  
+ MEF (Managed Extensibility Framework) lets you define components that can be installed with minimal configuration. For more information, see [Managed Extensibility Framework (MEF)](https://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde).  
   
 #### To define a MEF gesture handler  
   

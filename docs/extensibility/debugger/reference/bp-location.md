@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_LOCATION union"
 ms.assetid: ed1e874c-f289-4c31-8b6c-04dde03ad0f5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # BP_LOCATION
 Specifies the type of structure used to describe the location of the breakpoint.
@@ -45,52 +48,41 @@ public struct BP_LOCATION {
 ```
 
 ## Members
-`bpLocationType`
+`bpLocationType`\
 A value from the [BP_LOCATION_TYPE](../../../extensibility/debugger/reference/bp-location-type.md) enumeration used to interpret the `bpLocation` union or the `unionmemberX` members.
 
-`bpLocation`.`bplocCodeFileLine`
+`bpLocation`.`bplocCodeFileLine`\
+[C++ only] Contains the [BP_LOCATION_CODE_FILE_LINE](../../../extensibility/debugger/reference/bp-location-code-file-line.md) structure if `bpLocationType` = `BPLT_CODE_FILE_LINE`.
 
- [C++ only] Contains the [BP_LOCATION_CODE_FILE_LINE](../../../extensibility/debugger/reference/bp-location-code-file-line.md) structure if `bpLocationType` = `BPLT_CODE_FILE_LINE`.
+`bpLocation.bplocCodeFuncOffset`\
+[C++ only] Contains the [BP_LOCATION_CODE_FUNC_OFFSET](../../../extensibility/debugger/reference/bp-location-code-func-offset.md) structure if `bpLocationType` = `BPLT_CODE_FUNC_OFFSET`.
 
-`bpLocation.bplocCodeFuncOffset`
+`bpLocation.bplocCodeContext`\
+[C++ only] Contains the [BP_LOCATION_CODE_CONTEXT](../../../extensibility/debugger/reference/bp-location-code-context.md) structure if `bpLocationType` = `BPLT_CODE_CONTEXT`.
 
- [C++ only] Contains the [BP_LOCATION_CODE_FUNC_OFFSET](../../../extensibility/debugger/reference/bp-location-code-func-offset.md) structure if `bpLocationType` = `BPLT_CODE_FUNC_OFFSET`.
+`bpLocation.bplocCodeString`\
+[C++ only] Contains the [BP_LOCATION_CODE_STRING](../../../extensibility/debugger/reference/bp-location-code-string.md) structure if `bpLocationType` = `BPLT_CODE_STRING`.
 
-`bpLocation.bplocCodeContext`
+`bpLocation.bplocCodeAddress`\
+[C++ only] Contains the [BP_LOCATION_CODE_ADDRESS](../../../extensibility/debugger/reference/bp-location-code-address.md) structure if `bpLocationType` = `BPLT_CODE_ADDRESS`.
 
- [C++ only] Contains the [BP_LOCATION_CODE_CONTEXT](../../../extensibility/debugger/reference/bp-location-code-context.md) structure if `bpLocationType` = `BPLT_CODE_CONTEXT`.
+`bpLocation.bplocDataString`\
+[C++ only] Contains the [BP_LOCATION_DATA_STRING](../../../extensibility/debugger/reference/bp-location-data-string.md) structure if `bpLocationType` = `BPLT_DATA_STRING`.
 
-`bpLocation.bplocCodeString`
+`bpLocation.bplocResolution`\
+[C++ only] Contains the [BP_LOCATION_RESOLUTION](../../../extensibility/debugger/reference/bp-location-resolution.md) structure if `bpLocationType` = `BPLT_RESOLUTION`.
 
- [C++ only] Contains the [BP_LOCATION_CODE_STRING](../../../extensibility/debugger/reference/bp-location-code-string.md) structure if `bpLocationType` = `BPLT_CODE_STRING`.
+`unionmember1`\
+[C# only] See Remarks on how to interpret.
 
-`bpLocation.bplocCodeAddress`
+`unionmember2`\
+[C# only] See Remarks on how to interpret.
 
- [C++ only] Contains the [BP_LOCATION_CODE_ADDRESS](../../../extensibility/debugger/reference/bp-location-code-address.md) structure if `bpLocationType` = `BPLT_CODE_ADDRESS`.
+`unionmember3`\
+[C# only] See Remarks on how to interpret.
 
-`bpLocation.bplocDataString`
-
- [C++ only] Contains the [BP_LOCATION_DATA_STRING](../../../extensibility/debugger/reference/bp-location-data-string.md) structure if `bpLocationType` = `BPLT_DATA_STRING`.
-
-`bpLocation.bplocResolution`
-
- [C++ only] Contains the [BP_LOCATION_RESOLUTION](../../../extensibility/debugger/reference/bp-location-resolution.md) structure if `bpLocationType` = `BPLT_RESOLUTION`.
-
-`unionmember1`
-
- [C# only] See Remarks on how to interpret.
-
-`unionmember2`
-
- [C# only] See Remarks on how to interpret.
-
-`unionmember3`
-
- [C# only] See Remarks on how to interpret.
-
-`unionmember4`
-
- [C# only] See Remarks on how to interpret.
+`unionmember4`\
+[C# only] See Remarks on how to interpret.
 
 ## Remarks
 This structure is a member of the [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) and [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md) structures.
@@ -140,7 +132,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)
 - [BP_LOCATION_CODE_FILE_LINE](../../../extensibility/debugger/reference/bp-location-code-file-line.md)

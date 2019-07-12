@@ -35,7 +35,7 @@ You can create several build configurations for a solution. For example, you can
 - In **Solution Explorer**, open the shortcut menu for the solution and then choose **Configuration Manager**.  
   
   > [!NOTE]
-  >  If the **Configuration Manager** command doesn't appear on the shortcut menu, look under the **Build** menu on the menu bar. If it doesn't appear there either, on the menu bar, choose **Tools**, **Options**, and then in the left pane of the **Options** dialog box, expand **Projects and Solutions**, **General**, and in the right pane, select the **Show advanced build configurations** check box.  
+  > If the **Configuration Manager** command doesn't appear on the shortcut menu, look under the **Build** menu on the menu bar. If it doesn't appear there either, on the menu bar, choose **Tools**, **Options**, and then in the left pane of the **Options** dialog box, expand **Projects and Solutions**, **General**, and in the right pane, select the **Show advanced build configurations** check box.  
   
    In the **Configuration Manager** dialog box, you can use the **Active solution configuration** drop-down list to select a solution-wide build configuration, modify an existing one, or create a new configuration. You can use the **Active solution platform** drop-down list to select the platform that the configuration targets, modify an existing one, or add a new platform. The **Project contexts** pane lists the projects in the solution. For each project, you can select a project-specific configuration and platform, modify existing ones, or create a new configuration or add a new platform. You can also select check boxes that indicate whether each project is included when you use the solution-wide configuration to build or deploy the solution.  
   
@@ -47,7 +47,7 @@ You can create several build configurations for a solution. For example, you can
   
      The  **Property Pages** window opens.  
   
-     You can set properties for your configurations. For example, for a Release configuration, you can specify that code is optimized when the solution is built, and for a Debug configuration, you can specify that the `DEBUG` conditional compilation symbol is included. For more information about property page settings, see [Introduction to the Project Designer](http://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7).  
+     You can set properties for your configurations. For example, for a Release configuration, you can specify that code is optimized when the solution is built, and for a Debug configuration, you can specify that the `DEBUG` conditional compilation symbol is included. For more information about property page settings, see [Introduction to the Project Designer](https://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7).  
   
 ## Creating and Modifying Project Configurations  
   
@@ -120,4 +120,4 @@ You can create several build configurations for a solution. For example, you can
 ## See Also  
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
  [Building and Cleaning Projects and Solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)   
- [NIB How to: Modify Project Properties and Configuration Settings](http://msdn.microsoft.com/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)
+ [NIB How to: Modify Project Properties and Configuration Settings](https://msdn.microsoft.com/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)

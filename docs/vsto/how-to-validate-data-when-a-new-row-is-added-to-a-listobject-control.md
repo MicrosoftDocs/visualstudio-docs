@@ -1,5 +1,5 @@
 ---
-title: "How to: Validate data when a new row is added to a ListObject control"
+title: "Validate data when new row is added to ListObject control"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -24,7 +24,7 @@ ms.workload:
  Whenever a row is added to a <xref:Microsoft.Office.Tools.Excel.ListObject> that is bound to data, the <xref:Microsoft.Office.Tools.Excel.ListObject.BeforeAddDataBoundRow> event is raised. You can handle this event to perform your data validation. For example, if your application requires that only employees between the ages of 18 and 65 can be added to the data source, verify that the age entered falls within that range before the row is added.
 
 > [!NOTE]
->  You should always check user input on the server in addition to the client. For more information, see [Secure client applications](/dotnet/framework/data/adonet/secure-client-applications).
+> You should always check user input on the server in addition to the client. For more information, see [Secure client applications](/dotnet/framework/data/adonet/secure-client-applications).
 
 ### To validate data when a new row is added to data-bound ListObject
 

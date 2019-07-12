@@ -25,14 +25,14 @@ You can find Visual Studio samples on the [MSDN Code Gallery](http://go.microsof
 |Area|Description|
 |----------|-----------------|
 |[Windows Developer Center Samples](http://go.microsoft.com/fwlink/?LinkID=255278)|Shows how to develop [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps.|
-|[.NET Framework Samples](http://msdn.microsoft.com/177055f8-4a1f-43e7-aee6-995c196079b1)|Shows various aspects of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] in C# and Visual Basic.|
+|[.NET Framework Samples](https://msdn.microsoft.com/177055f8-4a1f-43e7-aee6-995c196079b1)|Shows various aspects of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] in C# and Visual Basic.|
 |[C# Samples](http://code.msdn.microsoft.com/site/search?f%5B0%5D.Type=ProgrammingLanguage&f%5B0%5D.Value=C%23&f%5B0%5D.Text=C%23)|Shows how to use different features of C#.|
 |[Visual Basic Samples](http://code.msdn.microsoft.com/site/search?f%5B0%5D.Type=ProgrammingLanguage&f%5B0%5D.Value=VB&f%5B0%5D.Text=VB.NET)|Shows how to use different features of Visual Basic.|
 |[F# Samples](http://code.msdn.microsoft.com/site/search?f%5B0%5D.Type=ProgrammingLanguage&f%5B0%5D.Value=F%23&f%5B0%5D.Text=F%23)|Shows how to use different features of F#.|
 |[JavaScript Samples](http://code.msdn.microsoft.com/site/search?f%5B0%5D.Type=ProgrammingLanguage&f%5B0%5D.Value=JavaScript)|Shows how to use different features in JavaScript.|
 |[C++ Samples](http://code.msdn.microsoft.com/site/search?f%5B0%5D.Type=ProgrammingLanguage&f%5B0%5D.Value=C%2B%2B)|Shows how to use different features in C++.|
 |[DirectX Samples](http://code.msdn.microsoft.com/site/search?query=DirectX&f%5B1%5D.Value=DirectX&f%5B1%5D.Type=SearchText&f%5B0%5D.Value=C%20%20&f%5B0%5D.Type=ProgrammingLanguage&f%5B0%5D.Text=Invalid%20Value&ac=2)|Shows how to use DirectX.|
-|[Office Development Samples](http://msdn.microsoft.com/library/9ebc7de2-59dd-414c-888b-7549d3c3543c)|Shows how to use Office development tools in Visual Studio. For the most current samples, see [MSDN Developer Samples: Learn Through Code](http://go.microsoft.com/fwlink/?LinkID=248199).|
+|[Office Development Samples](https://msdn.microsoft.com/library/9ebc7de2-59dd-414c-888b-7549d3c3543c)|Shows how to use Office development tools in Visual Studio. For the most current samples, see [MSDN Developer Samples: Learn Through Code](http://go.microsoft.com/fwlink/?LinkID=248199).|
 |[VSSDK Samples](https://aka.ms/vs2015sdksamples)|Shows how to extend Visual Studio.|
 
 ## See Also

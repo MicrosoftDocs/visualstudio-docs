@@ -94,7 +94,7 @@ Hello!
  You can insert a text block wherever a `Write();` statement would be allowed in the code.  
   
 > [!NOTE]
->  When you embed a text block within a compound statement such as a loop or conditional, always use braces {...} to contain the text block.  
+> When you embed a text block within a compound statement such as a loop or conditional, always use braces {...} to contain the text block.  
   
 ### Expression control blocks  
  An expression control block evaluates an expression and converts it to a string. This is inserted into the output file.  
@@ -191,7 +191,7 @@ private void WriteSquareLine(int i)
 <#@ assembly name="$(SolutionDir)library\MyAssembly.dll" #>  
 ```  
   
- For a list of macros, see [Common Macros for Build Commands and Properties](http://msdn.microsoft.com/library/239bd708-2ea9-4687-b264-043f1febf98b).  
+ For a list of macros, see [Common Macros for Build Commands and Properties](https://msdn.microsoft.com/library/239bd708-2ea9-4687-b264-043f1febf98b).  
   
  The assembly directive has no effect in a [preprocessed text template](../modeling/run-time-text-generation-with-t4-text-templates.md).  
   
@@ -258,7 +258,7 @@ Content of MyFile.txt is:
   
 ```  
   
- You can also obtain other services that are provided by the host. For more information, see [Accessing Visual Studio or other Hosts from a Template](http://msdn.microsoft.com/0556f20c-fef4-41a9-9597-53afab4ab9e4).  
+ You can also obtain other services that are provided by the host. For more information, see [Accessing Visual Studio or other Hosts from a Template](https://msdn.microsoft.com/0556f20c-fef4-41a9-9597-53afab4ab9e4).  
   
 ### Design-time Text Templates run in a separate AppDomain  
  You should be aware that a [design-time text template](../modeling/design-time-code-generation-by-using-t4-text-templates.md) runs in an AppDomain that is separate from the main application. In most cases this is not important, but you might discover restrictions in certain complex cases. For example, if you want to pass data in or out of the template from a separate service, then the service must provide a serializable API.  

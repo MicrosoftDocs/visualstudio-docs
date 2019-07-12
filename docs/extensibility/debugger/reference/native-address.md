@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "NATIVE_ADDRESS structure"
 ms.assetid: 7a0cd085-bfc8-45cc-a3d4-4459070e207a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # NATIVE_ADDRESS
 
@@ -31,10 +34,9 @@ public struct NATIVE_ADDRESS {
 }
 ```
 
-## Terms
+## Members
 
-`unknown`
-
+`unknown`\
 The native address (the meaning of this depends on the runtime and operating system).
 
 ## Remarks

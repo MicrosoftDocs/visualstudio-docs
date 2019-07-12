@@ -35,16 +35,16 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
   The Completion List in C# is also smart enough to filter out irrelevant tokens and pre-select a token based on context. For more information, see [Filtered Completion Lists in C#](../misc/filtered-completion-lists-in-csharp.md) and [Pre-selected Completion List Items in C#](../misc/pre-selected-completion-list-items-in-csharp.md).  
   
 ### <a name="CodeSnippets"></a> Code Snippets in Completion Lists  
- In Visual C#, the completion list includes code snippets to help you easily insert predefined bodies of code into your program. Code snippets appear in the completion list as the snippet's [Shortcut Element (Intellisense Code Snippets)](http://msdn.microsoft.com/052cc97a-5c70-42f8-b398-4c3adf670cfa).  For more information about code snippets that are available in Visual C# by default, see [Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md).  
+ In Visual C#, the completion list includes code snippets to help you easily insert predefined bodies of code into your program. Code snippets appear in the completion list as the snippet's [Shortcut Element (Intellisense Code Snippets)](https://msdn.microsoft.com/052cc97a-5c70-42f8-b398-4c3adf670cfa).  For more information about code snippets that are available in Visual C# by default, see [Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md).  
   
 ### <a name="Keywords"></a> Language Keywords in Completion Lists  
- In Visual C#, the completion list also includes language keywords. For more information about C# language keywords, see [C# Keywords](http://msdn.microsoft.com/library/e929b0f2-4b92-4d37-8060-23d323b098ad).  
+ In Visual C#, the completion list also includes language keywords. For more information about C# language keywords, see [C# Keywords](https://msdn.microsoft.com/library/e929b0f2-4b92-4d37-8060-23d323b098ad).  
   
 ### <a name="ExtensionMethods"></a> Extension Methods in Completion Lists  
  In Visual C#, the completion list includes Extension Methods that are in scope.  
   
 > [!NOTE]
->  The completion list does not display all extension methods for <xref:System.String> objects.  
+> The completion list does not display all extension methods for <xref:System.String> objects.  
   
  Extension methods use a different icon than instance methods. For a listing of list icons, see [Class View and Object Browser Icons](../ide/class-view-and-object-browser-icons.md). When an instance method and extension method with the same name are both in scope, the completion list displays the extension method icon.  
   
@@ -75,7 +75,7 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
  IntelliSense remembers the members that you have recently selected in the pop-up [List Members](../ide/using-intellisense.md) box for automatic object name completion. The next time you use Member List, the most recently used members are shown at the top. The history of most recently used members is cleared between each session in the IDE.  
   
 ## override  
- When you type [override](http://msdn.microsoft.com/library/dd1907a8-acf8-46d3-80b9-c2ca4febada8) and then press SPACEBAR, IntelliSense displays all of the valid base class members that you can override in a pop-up list box. Typing the return type of the method after `override` will prompt IntelliSense to only show methods that return the same type. When IntelliSense cannot find any matches, it will display all of the base class members.  
+ When you type [override](https://msdn.microsoft.com/library/dd1907a8-acf8-46d3-80b9-c2ca4febada8) and then press SPACEBAR, IntelliSense displays all of the valid base class members that you can override in a pop-up list box. Typing the return type of the method after `override` will prompt IntelliSense to only show methods that return the same type. When IntelliSense cannot find any matches, it will display all of the base class members.  
   
 ## Automatic Code Generation  
   
@@ -96,7 +96,7 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
  To see the available options in the Visual Studio IDE, on the **Edit** menu, point to **IntelliSense**, and then point to **Organize Usings**. The IDE provides the following options to organize and remove `usings` directives:  
   
 ### Implement Interface  
- IntelliSense provides an option to help you implement an [interface](http://msdn.microsoft.com/library/7da38e81-4f99-4bc5-b07d-c986b687eeba) while working in the Code Editor. Normally, to implement an interface properly you must create a method declaration for every member of the interface in your class. Using IntelliSense, after you type the name of an interface in a class declaration, a smart tag is displayed. The smart tag gives you the option to implement the interface automatically, using explicit or implicit naming. Under explicit naming, the method declarations carry the name of the interface; under implicit naming, the method declarations do not indicate the interface to which they belong. An explicitly named interface method can only be accessed through an interface instance, and not through a class instance. For more information, see [Explicit Interface Implementation](http://msdn.microsoft.com/library/181c901f-0d4c-4f29-97fc-895079617bf2).  
+ IntelliSense provides an option to help you implement an [interface](https://msdn.microsoft.com/library/7da38e81-4f99-4bc5-b07d-c986b687eeba) while working in the Code Editor. Normally, to implement an interface properly you must create a method declaration for every member of the interface in your class. Using IntelliSense, after you type the name of an interface in a class declaration, a smart tag is displayed. The smart tag gives you the option to implement the interface automatically, using explicit or implicit naming. Under explicit naming, the method declarations carry the name of the interface; under implicit naming, the method declarations do not indicate the interface to which they belong. An explicitly named interface method can only be accessed through an interface instance, and not through a class instance. For more information, see [Explicit Interface Implementation](https://msdn.microsoft.com/library/181c901f-0d4c-4f29-97fc-895079617bf2).  
   
  Implement Interface will generate the minimum number of method stubs that is required to satisfy the interface. If a base class implements parts of the interface, then those stubs are not regenerated.  
   
@@ -142,12 +142,12 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
  ![Generate Event Handler](../ide/media/vxgenerateeventhandler.gif "vxGenerateEventHandler")  
   
 > [!NOTE]
->  If a new delegate that is created by IntelliSense references an existing event handler, IntelliSense communicates this information in the tooltip. You can then modify this reference; the text is already selected in the Code Editor. Otherwise, automatic event hookup is complete at this point.  
+> If a new delegate that is created by IntelliSense references an existing event handler, IntelliSense communicates this information in the tooltip. You can then modify this reference; the text is already selected in the Code Editor. Otherwise, automatic event hookup is complete at this point.  
   
  If you press TAB, IntelliSense stubs out a method with the correct signature and puts the cursor in the body of your event handler.  
   
 > [!NOTE]
->  Use the **Navigate Backward** command on the **View** menu (CTRL+-) to go back to the event hookup statement.  
+> Use the **Navigate Backward** command on the **View** menu (CTRL+-) to go back to the event hookup statement.  
   
  The following task shows how IntelliSense automatically hooks up an event handler named `button1_Click` to an event field named `button1.Click`.  
   

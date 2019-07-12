@@ -54,7 +54,7 @@ The ability to debug another process gives you extremely broad powers that you w
  For more information, see [Remote Debugging](../debugger/remote-debugging.md).  
   
 ### Web Services Debugging Security  
- It is safer to debug locally, but since you probably do not have [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] installed on the web server, local debugging might not be practical. Generally, debugging Web services is done remotely, except during development, so the recommendations for remote debugging security also apply to Web services debugging. Here are some additional best practices. For more information, see [Debugging XML Web Services](http://msdn.microsoft.com/c900b137-9fbd-4f59-91b5-9c2c6ce06f00).  
+ It is safer to debug locally, but since you probably do not have [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] installed on the web server, local debugging might not be practical. Generally, debugging Web services is done remotely, except during development, so the recommendations for remote debugging security also apply to Web services debugging. Here are some additional best practices. For more information, see [Debugging XML Web Services](https://msdn.microsoft.com/c900b137-9fbd-4f59-91b5-9c2c6ce06f00).  
   
 - Do not enable debugging on a Web server that has been compromised.  
   

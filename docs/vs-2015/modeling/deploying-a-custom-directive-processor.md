@@ -19,7 +19,7 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../includes/vsprvs-md.m
   
  The alternative methods are:  
   
-- [Visual Studio Extension (VSIX)](http://msdn.microsoft.com/64ff1452-f7d5-42d9-98b8-76f769f76832). This provides a way to install and uninstall the directive processor both on your own computer and on other computers. Typically, you might package other features in the same VSIX.  
+- [Visual Studio Extension (VSIX)](https://msdn.microsoft.com/64ff1452-f7d5-42d9-98b8-76f769f76832). This provides a way to install and uninstall the directive processor both on your own computer and on other computers. Typically, you might package other features in the same VSIX.  
   
 - [VSPackage](../extensibility/internals/vspackages.md). If you are defining a VSPackage that contains other features in addition to the directive processor, there is a convenient method of registering the directive processor.  
   
@@ -28,7 +28,7 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../includes/vsprvs-md.m
   You need to use one of these methods only if you want to transform your text template in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] or [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]. If you use a custom host in your own application, your custom host is responsible for finding the directive processors for each directive.  
   
 ## Deploying a Directive Processor in a VSIX  
- You can add a custom directive processor to a [Visual Studio Extension (VSIX)](http://msdn.microsoft.com/64ff1452-f7d5-42d9-98b8-76f769f76832).  
+ You can add a custom directive processor to a [Visual Studio Extension (VSIX)](https://msdn.microsoft.com/64ff1452-f7d5-42d9-98b8-76f769f76832).  
   
  You need to make sure that the following two items are contained in the .vsix file:  
   
@@ -142,7 +142,7 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../includes/vsprvs-md.m
 ```  
   
 > [!NOTE]
->  This attribute is placed on the package class, not the directive processor class.  
+> This attribute is placed on the package class, not the directive processor class.  
   
  The .pkgdef file will be generated when you build the project. When you install the VSPackage, the .pkgdef file will register the directive processor.  
   
@@ -154,7 +154,7 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../includes/vsprvs-md.m
  This method of installing a custom directive processor is the least preferred. It does not provide a convenient way enable and disable the directive processor, and does not provide a method of distributing the directive processor to other users.  
   
 > [!CAUTION]
->  Incorrectly editing the registry can severely damage your system. Before making changes to the registry, be sure to back up any valued data on the computer.  
+> Incorrectly editing the registry can severely damage your system. Before making changes to the registry, be sure to back up any valued data on the computer.  
   
 #### To register a directive processor by setting a registry key  
   

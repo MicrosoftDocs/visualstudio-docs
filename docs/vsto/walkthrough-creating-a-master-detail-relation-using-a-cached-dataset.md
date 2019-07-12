@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Create a master detail relation using a cached dataset"
+title: "Create master detail relation using cached dataset"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -30,7 +30,7 @@ ms.workload:
 - Test your project.
 
 > [!NOTE]
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
+> Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 ## Prerequisites
  You need the following components to complete this walkthrough:

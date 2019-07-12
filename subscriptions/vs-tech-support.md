@@ -6,7 +6,6 @@ manager: lank
 ms.date: 2/13/2019
 ms.topic: conceptual
 description: Learn how to activate the technical support benefit included with your Visual Studio subscription.
-searchscope: VS Subscription
 ---
 # Activate and use the Technical Support benefit in Visual Studio subscriptions
 
@@ -85,6 +84,9 @@ When submitting an incident online, you will first be prompted to sign in. Using
    > [!div class="mx-imgBorder"]
    > ![Technical Support Benefit Incident Submission - Choose Plan](_img/vs-tech-support/vs-tech-support-choose-plan.png)
 
+   > [!NOTE]
+   > If you do not see your support plan, go back to the previous page and click **Next** again.  If that fails to display the support plan, copy the text of your support issue to your clipboard, refresh the page and recreate the support issue.
+
 6. Complete the remaining steps (severity, contact information, review).   After you submit your incident, you’ll see a confirmation that your incident has been successfully submitted and you can upload files to the case. A Support Professional will be assigned to your incident and will reach out to you to resolve your issue using the contact method you selected.
 
 #### Submit an incident by phone
@@ -107,8 +109,8 @@ To use your Visual Studio subscription technical support benefit for issues rela
 | Visual Studio Professional (Standard) | VL, Azure, Retail, selected NFR<sup>2</sup>                                        | 2 incidents                                                          |Yes         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | 2 incidents                                             |  Yes         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | 2 incidents                                               | Yes         |
-| Visual Studio Dev Essentials | NA | Not available |NA|
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
+||
 
 <sup>1</sup> *Includes: Imagine Premium, BizSpark. Excludes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, Imagine Standard, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services.*
 

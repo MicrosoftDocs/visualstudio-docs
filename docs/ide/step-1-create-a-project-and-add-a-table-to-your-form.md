@@ -1,6 +1,6 @@
 ---
 title: "Step 1: Create a project and add a table to your form"
-ms.date: 11/04/2016
+ms.date: 05/31/2019
 ms.topic: conceptual
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
@@ -21,33 +21,55 @@ The first step in creating a matching game is to create the project and add a ta
 
 1. On the menu bar, choose **File** > **New** > **Project**.
 
+1. Choose either **Visual C#** or **Visual Basic** on the left side of the **New Project** dialog box, and then choose **Windows Desktop**.
+
+1. In the list of templates, choose the **Windows Forms App (.NET Framework)** template, name it *MatchingGame*, and then choose the **OK** button.
+
+    A form that's named *Form1.cs* or *Form1.vb* appears, depending on the programming language that you chose.
+
+   > [!NOTE]
+   > If you don't see the **Windows Forms App (.NET Framework)** template, use the Visual Studio Installer to install the **.NET desktop development** workload.<br/><br/>![.NET desktop development workload in the Visual Studio Installer](../ide/media/dot-net-desktop-dev-workload.png)<br/><br/> For more information, see the [Install Visual Studio](../install/install-visual-studio.md) page.
+
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
 1. On the start window, choose **Create a new project**.
 
-1. In the search box, type "WPF", choose **WPF App (.NET Framework)**, and then choose **Next**.
+   ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-   (If you don't see the **WPF App (.NET Framework)** template, use the Visual Studio Installer to install the **.NET desktop development** workload.)
+1. On the **Create a new project** window, enter or type *Windows Forms* in the search box.
 
-1. Give the project a name, **MatchingGame**, and choose **Create**
+1. Choose the **Windows Forms App (.NET Framework)** template, and then choose **Next**.
+
+   ![Choose the Visual Basic template for the Windows Forms App (.NET Framework)](../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png)
+
+   > [!NOTE]
+   > If you do not see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   >
+   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png)
+   >
+   > Next, in the Visual Studio Installer, choose the Choose the **.NET desktop development** workload.
+   >
+   > ![.NET Core workload in the Visual Studio Installer](../ide/media/install-dot-net-desktop-env.png)
+   >
+   > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload.
+
+1. In the **Configure your new project** window, type or enter *MatchingGame* in the **Project name** box. Then, choose **Create**.
 
 ::: moniker-end
 
-2. If you're not using Visual Studio Express, you need to select a programming language first. From the **Installed Templates** list, choose either **Visual C#** or **Visual Basic**.
+## To set properties for a form
 
-3. In the list of project templates, choose **Windows Forms Application**, name the project **MatchingGame**, and then choose the **OK** button.
-
-4. In the **Properties** window, set the following form properties.
+1. In the **Properties** window, set the following form properties.
 
    1. Change the form's **Text** property from **Form1** to **Matching Game**. This text appears at the top of the game window.
 
    2. Set the size of the form to 550 pixels wide by 550 tall. You can do this either by setting the **Size** property to **550, 550**, or by dragging the corner of the form until you see the correct size in the lower-right corner of the integrated development environment (IDE).
 
-5. Display the toolbox by choosing the **Toolbox** tab on the left side of the IDE.
+2. Display the toolbox by choosing the **Toolbox** tab on the left side of the IDE.
 
-6. Drag a <xref:System.Windows.Forms.TableLayoutPanel> control from the **Containers** category in the toolbox, and then set the following properties for it.
+3. Drag a <xref:System.Windows.Forms.TableLayoutPanel> control from the **Containers** category in the toolbox, and then set the following properties for it.
 
    1. Set the **BackColor** property to **CornflowerBlue**. To do this, open the **BackColor** dialog box by choosing the drop-down arrow next to the **BackColor** property in the **Properties** window.  Then, choose the **Web** tab in the **BackColor** dialog box to view a list of available color names.
 
@@ -66,7 +88,7 @@ The first step in creating a matching game is to create the project and add a ta
 
       Your TableLayoutPanel should now be a 4x4 grid, with sixteen equally sized square cells. These rows and columns are where the icon images will appear later.
 
-7. Be certain that the TableLayoutPanel is selected in the form editor. To verify this, you should see **tableLayoutPanel1** at the top of the **Properties** window. If it is not selected, choose the TableLayoutPanel on the form, or choose it in the dropdown control at the top of the **Properties** window.
+4. Be certain that the TableLayoutPanel is selected in the form editor. To verify this, you should see **tableLayoutPanel1** at the top of the **Properties** window. If it is not selected, choose the TableLayoutPanel on the form, or choose it in the dropdown control at the top of the **Properties** window.
 
     While the TableLayoutPanel is selected, open the toolbox and add a <xref:System.Windows.Forms.Label> control (located in the **Common Controls** category) to the upper-left cell of the TableLayoutPanel. The label control should now be selected in the IDE. Set the following properties for it.
 
@@ -89,15 +111,14 @@ The first step in creating a matching game is to create the project and add a ta
        > [!NOTE]
        > The Webdings font is a font of icons that ships with the Windows operating system. In your matching game, the player needs to match pairs of icons, so you use this font to display the icons to match. Instead of putting **c** in the **Text** property, try entering different letters to see what icons are displayed. An exclamation point is a spider, an uppercase N is an eye, and a comma is a chili pepper.
 
-8. Choose your Label control and copy it to the next cell in the TableLayoutPanel. (Choose the **Ctrl**+**C** keys, or on the menu bar, choose **Edit** > **Copy**.) Then paste it. (Choose the **Ctrl**+**V** keys, or on the menu bar, choose **Edit** > **Paste**.) A copy of the first Label appears in the second cell of the TableLayoutPanel. Paste it again, and another Label appears in the third cell. Keep pasting Label controls until all of the cells are filled.
+5. Choose your Label control and copy it to the next cell in the TableLayoutPanel. (Choose the **Ctrl**+**C** keys, or on the menu bar, choose **Edit** > **Copy**.) Then paste it. (Choose the **Ctrl**+**V** keys, or on the menu bar, choose **Edit** > **Paste**.) A copy of the first Label appears in the second cell of the TableLayoutPanel. Paste it again, and another Label appears in the third cell. Keep pasting Label controls until all of the cells are filled.
 
    > [!NOTE]
    > If you paste too many times, the IDE adds a new row to the TableLayoutPanel so that it has a place to add your new Label control. You can undo it. To remove the new cell, choose the **Ctrl**+**Z** keys, or on the menu bar, choose **Edit** > **Undo**.
 
     Now your form is laid out. It should look like the following picture.
 
-    ![Initial matching game form](../ide/media/express_tut4step1.png)
-   Initial matching game form
+    ![Initial matching game form](../ide/media/express_tut4step1.png)<br/>   Initial matching game form
 
 ## To continue or review
 

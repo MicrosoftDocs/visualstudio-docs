@@ -96,7 +96,7 @@ ms.workload:
 3. In the **Available Processes** list, choose *vssphost.exe*.
 
     > [!NOTE]
-    >  If vssphost.exe does not appear in the list, you must start the *vssphost4.exe* process in the instance of Visual Studio in which you are running the extension. Typically, you do this by performing an action that causes Visual Studio to connect to the SharePoint site on the development computer. For example, Visual Studio starts *vssphost4.exe* when you expand a site connection node (a node that displays a site URL) under the **SharePoint Connections** node in the **Server Explorer** window, or when you add certain SharePoint project items, such as **List Instance** or **Event Receiver** items, to a SharePoint project.
+    > If vssphost.exe does not appear in the list, you must start the *vssphost4.exe* process in the instance of Visual Studio in which you are running the extension. Typically, you do this by performing an action that causes Visual Studio to connect to the SharePoint site on the development computer. For example, Visual Studio starts *vssphost4.exe* when you expand a site connection node (a node that displays a site URL) under the **SharePoint Connections** node in the **Server Explorer** window, or when you add certain SharePoint project items, such as **List Instance** or **Event Receiver** items, to a SharePoint project.
 
 4. Choose the **Attach** button.
 

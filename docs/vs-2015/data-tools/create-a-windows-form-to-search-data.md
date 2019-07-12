@@ -122,7 +122,7 @@ A common application scenario is to display selected data on a form. For example
      `WHERE City = @City`  
   
     > [!NOTE]
-    >  Access and OLE DB data sources use the question mark ('?') to denote parameters, so the WHERE clause would look like this: `WHERE City = ?`.  
+    > Access and OLE DB data sources use the question mark ('?') to denote parameters, so the WHERE clause would look like this: `WHERE City = ?`.  
   
 4. Click **OK** to close the **Search Criteria Builder** dialog box.  
   

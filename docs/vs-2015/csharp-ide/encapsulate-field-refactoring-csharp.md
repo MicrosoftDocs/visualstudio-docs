@@ -22,9 +22,9 @@ manager: jillfra
 
 The **Encapsulate Field** refactoring operation enables you to quickly create a property from an existing field, and then seamlessly update your code with references to the new property.  
   
- When a [field](http://msdn.microsoft.com/library/3cbb2f61-75f8-4cce-b4ef-f5d1b3de0db7) is [public](http://msdn.microsoft.com/library/0ae45d16-a551-4b74-9845-57208de1328e), other objects have direct access to that field and can modify it, undetected by the object that owns that field. By using [properties](http://msdn.microsoft.com/library/e295a8a2-b357-4ee7-a12e-385a44146fa8) to encapsulate that field, you can disallow direct access to fields.  
+ When a [field](https://msdn.microsoft.com/library/3cbb2f61-75f8-4cce-b4ef-f5d1b3de0db7) is [public](https://msdn.microsoft.com/library/0ae45d16-a551-4b74-9845-57208de1328e), other objects have direct access to that field and can modify it, undetected by the object that owns that field. By using [properties](https://msdn.microsoft.com/library/e295a8a2-b357-4ee7-a12e-385a44146fa8) to encapsulate that field, you can disallow direct access to fields.  
   
- To create the new property, the **Encapsulate Field** operation changes the access modifier for the field that you want to encapsulate to [private](http://msdn.microsoft.com/library/654c0bb8-e6ac-4086-bf96-7474fa6aa1c8), and then generates [get](http://msdn.microsoft.com/library/a52de048-fbe0-41b0-82ec-8e4ac04d3a71) and [set](http://msdn.microsoft.com/library/30d7e4e5-cc2e-4635-a597-14a724879619) accessors for that field. In some cases, only a `get` accessor is generated, such as when the field is declared read-only.  
+ To create the new property, the **Encapsulate Field** operation changes the access modifier for the field that you want to encapsulate to [private](https://msdn.microsoft.com/library/654c0bb8-e6ac-4086-bf96-7474fa6aa1c8), and then generates [get](https://msdn.microsoft.com/library/a52de048-fbe0-41b0-82ec-8e4ac04d3a71) and [set](https://msdn.microsoft.com/library/30d7e4e5-cc2e-4635-a597-14a724879619) accessors for that field. In some cases, only a `get` accessor is generated, such as when the field is declared read-only.  
   
  The refactoring engine updates your code with references to the new property in the areas specified in the **Update References** section of the **Encapsulate Field** dialog box.  
   

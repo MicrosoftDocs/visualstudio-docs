@@ -39,12 +39,12 @@ To create an inheritance relationship between two types on a class diagram using
 4. Optionally, when you have a derived type from a generic type, click the inheritance line. In the **Properties** window, set the **Type Arguments** property to match the type that you want for the generic type.  
   
     > [!NOTE]
-    >  If a parent abstract class contains at least one abstract member, then all abstract members are implemented as non-abstract inheriting classes.   
+    > If a parent abstract class contains at least one abstract member, then all abstract members are implemented as non-abstract inheriting classes.   
     >   
     >  Although you can visualize existing generic types, you can't create new generic types. You also can't change the type parameters for existing generic types.  
   
 ## See Also  
- [Inheritance](http://msdn.microsoft.com/library/81d64ee4-50f9-4d6c-a8dc-257c348d2eea)   
- [Inheritance Basics](http://msdn.microsoft.com/library/dfc8deba-f5b3-4d1d-a937-7cb826446fc5)   
+ [Inheritance](https://msdn.microsoft.com/library/81d64ee4-50f9-4d6c-a8dc-257c348d2eea)   
+ [Inheritance Basics](https://msdn.microsoft.com/library/dfc8deba-f5b3-4d1d-a937-7cb826446fc5)   
  [How to: View Inheritance Between Types (Class Designer)](../ide/how-to-view-inheritance-between-types-class-designer.md)   
  [Visual C++ Classes in Class Designer](../ide/visual-cpp-classes-in-class-designer.md)

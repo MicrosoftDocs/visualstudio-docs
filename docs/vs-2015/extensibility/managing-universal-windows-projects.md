@@ -12,7 +12,7 @@ manager: jillfra
 # Managing Universal Windows Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8.1, allowing developers to use code and other assets on both platforms. The shared code and resources are kept in a shared project, while the platform-specific code and resources are kept in separate projects, one for Windows and the other for Windows Phone. For more information about universal Windows apps, see [Universal Windows Apps](http://msdn.microsoft.com/library/windows/apps/dn609832.aspx). Visual Studio extensions that manage projects should be aware that universal Windows app projects have a structure that differs from single-platform apps. This walkthrough shows you how to navigate the shared project and manage the shared items.  
+Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8.1, allowing developers to use code and other assets on both platforms. The shared code and resources are kept in a shared project, while the platform-specific code and resources are kept in separate projects, one for Windows and the other for Windows Phone. For more information about universal Windows apps, see [Universal Windows Apps](https://msdn.microsoft.com/library/windows/apps/dn609832.aspx). Visual Studio extensions that manage projects should be aware that universal Windows app projects have a structure that differs from single-platform apps. This walkthrough shows you how to navigate the shared project and manage the shared items.  
   
 ## Prerequisites  
  Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
@@ -229,7 +229,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
     ```  
   
     > [!IMPORTANT]
-    >  If the user has opened a C++ universal Windows app project in the experimental instance, the code above throws an exception. This is a known issue. To avoid the exception, replace the `foreach` block above with the following:  
+    > If the user has opened a C++ universal Windows app project in the experimental instance, the code above throws an exception. This is a known issue. To avoid the exception, replace the `foreach` block above with the following:  
   
     ```csharp  
     var importingProjects = sharedAssetsProject.EnumImportingProjects();  
@@ -519,7 +519,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
 9. Modify the shared item. You can’t modify shared items in a platform project; instead, you must modify them in the shared project that is the actual owner of these items. You can get the corresponding item ID in the shared project with <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject.IsDocumentInProject%2A>, giving it the shared item’s full path. Then you can modify the shared item. The change is propagated to the platform projects.  
   
     > [!IMPORTANT]
-    >  You should find out whether or not a project item is a shared item before modifying it.  
+    > You should find out whether or not a project item is a shared item before modifying it.  
   
      The following method modifies the name of a project item file.  
   

@@ -1,5 +1,5 @@
 ---
-title: "Workflow Designer - How to: Debug XAML with the Workflow Designer"
+title: "Workflow Designer: Debug XAML"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: d9305dbc-af62-4bdd-b03f-c54e3fe9ecc7

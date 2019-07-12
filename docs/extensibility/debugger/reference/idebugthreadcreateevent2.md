@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugThreadCreateEvent2"
 ms.assetid: aee34a14-4f9c-4ad3-845f-c96ee938cefd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -35,7 +35,7 @@ IDebugThreadCreateEvent2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)
 - [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)

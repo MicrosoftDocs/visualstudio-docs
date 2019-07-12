@@ -73,7 +73,7 @@ The IDE has a powerful tool called IntelliSense that helps you write code. As yo
          To learn more about DialogResult, see [DialogResult](<xref:System.Windows.Forms.DialogResult>).
 
         > [!NOTE]
-        >  The first line of code should be complete. For Visual C#, it should be the following.
+        > The first line of code should be complete. For Visual C#, it should be the following.
         >
         >  `if (openFileDialog1.ShowDialog() == DialogResult.OK)`
         >
@@ -81,7 +81,7 @@ The IDE has a powerful tool called IntelliSense that helps you write code. As yo
         >
         >  `If OpenFileDialog1.ShowDialog() = DialogResult.OK Then`
 
-    9. Now add one more line of code. You can type it (or copy and paste it), but consider using IntelliSense to add it. The more familiar you are with IntelliSense, the more quickly you can write your own code. Your final `showButton_Click()` method looks like the following. (Choose the **VB** tab to view the Visual Basic version of the code.)
+    9. Now add one more line of code. You can type it (or copy and paste it), but consider using IntelliSense to add it. The more familiar you are with IntelliSense, the more quickly you can write your own code. Your final `showButton_Click()` method looks like the following.
 
          [!code-csharp[VbExpressTutorial1Step8#1](../ide/codesnippet/CSharp/step-8-write-code-for-the-show-a-picture-button-event-handler_1.cs)]
          [!code-vb[VbExpressTutorial1Step8#1](../ide/codesnippet/VisualBasic/step-8-write-code-for-the-show-a-picture-button-event-handler_1.vb)]

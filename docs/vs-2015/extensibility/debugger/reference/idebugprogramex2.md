@@ -28,7 +28,7 @@ IDebugProgramEx2 : IUnknown
  A custom port supplier implements this interface on the same object as the [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface in order to let the SDM attach to a program while at the same time allowing the port supplier to track all sessions attached to the program. The custom port supplier can implement this interface if it chooses.  
   
 ## Notes for Callers  
- The SDM calls [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on an `IDebugProgram2` interface to obtain this interface to track sessions that have attached to programs.  
+ The SDM calls [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on an `IDebugProgram2` interface to obtain this interface to track sessions that have attached to programs.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugProgramEx2`.  

@@ -2,7 +2,7 @@
 title: "Update Visual Studio"
 titleSuffix: ""
 description: "Learn how to update Visual Studio to the most recent release, step-by-step."
-ms.date: 03/30/2019
+ms.date: 06/19/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 ms.prod: visual-studio-windows
@@ -22,9 +22,9 @@ ms.technology: vs-installation
 
 ::: moniker range="vs-2017"
 
-We encourage you to update to the most [recent version](/visualstudio/releasenotes/vs2017-relnotes/) of Visual Studio 2017 so that you always get the latest features, fixes, and improvements.
+We encourage you to update to the most [recent release](/visualstudio/releasenotes/vs2017-relnotes/) of Visual Studio 2017 so that you always get the latest features, fixes, and improvements.
 
-And if you'd like to try out the next version, consider downloading the [release candidate](//visualstudio/releases/2019/release-notes/) of Visual Studio 2019, too.
+And if you'd like to try out our newest version, consider downloading and installing [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019) instead.
 
 > [!IMPORTANT]
 > You must log on with an account that has administrative permissions to install, update, or modify Visual Studio. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
@@ -38,7 +38,7 @@ We've streamlined the installation and update experience to make it easier to us
 
 ### Using the Notifications hub
 
-When there is an update, there's a corresponding notification flag in Visual Studio.
+When there's an update, there's a corresponding notification flag in Visual Studio.
 
 1. Save your work.
 
@@ -90,7 +90,7 @@ As in earlier versions of Visual Studio, you can use the Visual Studio Installer
    > [!NOTE]
    > On a computer running Windows 10, you can find the installer under the letter **V** as the **Visual Studio Installer**, or under the letter **M** as the **Microsoft Visual Studio Installer**.
 
-1. On the **Product** page in the installer, look for the edition of Visual Studio that you have installed.
+1. On the **Product** page in the installer, look for the edition of Visual Studio that you installed previously.
 
 1. If an update is available, you see an **Update** button. (It might take a few seconds for the installer to determine whether an update is available.)
 
@@ -100,7 +100,7 @@ As in earlier versions of Visual Studio, you can use the Visual Studio Installer
 
 ## Update Visual Studio 2017 version 15.5 or earlier
 
-If you are using an earlier version, here's how to apply an update from Visual Studio 2017 version 15.0 through version 15.5.
+If you're using an earlier version, here's how to apply an update from Visual Studio 2017 version 15.0 through version 15.5.
 
 ### Update by using the Notifications hub
 
@@ -127,8 +127,8 @@ If you are using an earlier version, here's how to apply an update from Visual S
 
 Visual Studio notifies you when an update is available for Visual Studio itself or for any components, and also when certain events occur in the Visual Studio environment.
 
-* When the notification flag is yellow, there is a Visual Studio product update available for you to install.
-* When the notification flag is red, there is a problem with your license.
+* When the notification flag is yellow, there's a Visual Studio product update available for you to install.
+* When the notification flag is red, there's a problem with your license.
 * When the notification flag is black, there are optional or informational messages to review.
 
 Choose the notifications flag to open the **Notifications** hub and then choose the notifications that you want to act on. Or, choose to ignore or dismiss a notification.
@@ -141,12 +141,12 @@ If you choose to ignore a notification, Visual Studio stops showing it. If you w
 
 ### Update by using the Visual Studio Installer
 
-1. Open the installer. You might need to update the installer before continuing. If this is the case, you are prompted to do so.
+1. Open the installer. You might need to update the installer before continuing. If this is the case, you're prompted to do so.
 
    > [!NOTE]
    > On a computer running Windows 10, you can find the installer under the letter **V** as the **Visual Studio Installer**, or under the letter **M** as the **Microsoft Visual Studio Installer**.
 
-1. On the **Product** page in the installer, look for the edition of Visual Studio that you have installed.
+1. On the **Product** page in the installer, look for the edition of Visual Studio that installed previously.
 
 1. If an update is available, you see an **Update** button. (It might take a few seconds for the installer to determine whether an update is available.)
 
@@ -158,7 +158,9 @@ If you choose to ignore a notification, Visual Studio stops showing it. If you w
 
 ::: moniker range="vs-2019"
 
-We encourage you to update to the most [recent version](/visualstudio/releases/2019/release-notes/) of Visual Studio 2019 so that you always get the latest features, fixes, and improvements.
+We encourage you to update to the most [recent release](/visualstudio/releases/2019/release-notes/) of Visual Studio 2019 so that you always get the latest features, fixes, and improvements.
+
+And if you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
 
 > [!IMPORTANT]
 > You must log on with an account that has administrative permissions to install, update, or modify Visual Studio. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
@@ -166,7 +168,7 @@ We encourage you to update to the most [recent version](/visualstudio/releases/2
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Update Visual Studio for Mac](/visualstudio/mac/update).
 
-Here's how to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;Studio&nbsp;2019&nbsp;RC.
+Here's how to update Visual&nbsp;Studio&nbsp;2019.
 
 ## Use the Visual Studio Installer
 
@@ -178,7 +180,7 @@ Here's how to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;St
 
 1. In the installer, look for the edition of Visual Studio that you installed.
 
-   For example, if you previously installed Visual&nbsp;Studio Community&nbsp;2019&nbsp;RC and there is an update for it, then an **Update available** message appears in the installer.
+   For example, if you previously installed Visual&nbsp;Studio Community&nbsp;2019 and there's an update for it, then an **Update available** message appears in the installer.
 
      ![Select the edition of Visual Studio 2019 that you want to update](media/vs2019-update-visual-studio-community-rc.png "Select the edition of Visual Studio 2019 that you want to update")
 
@@ -198,7 +200,7 @@ You can check for an update and then install it by using the menu bar or the sea
 
 1. From the Windows **Start** menu, choose **Visual Studio 2019**.
 
-    ![Open the Visual Studio 2019 RC](media/vs2019-visual-studio-rc.png "Open Visual Studio 2019 from Windows")
+    ![Open Visual Studio 2019](media/vs2019-visual-studio-rc.png "Open Visual Studio 2019 from Windows")
 
 1. Under **Get started**, choose any option to open the IDE.
 
@@ -258,7 +260,9 @@ You can check for an update and then install it by using the menu bar or the sea
 
 ## See also
 
+* [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md)
 * [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
+* [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)
 * [Update Visual Studio for Mac](/visualstudio/mac/update)
 * [Modify Visual Studio](modify-visual-studio.md)
 * [Uninstall Visual Studio](uninstall-visual-studio.md)

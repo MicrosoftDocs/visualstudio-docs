@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugSymbolSearchEvent2"
 ms.assetid: 9b946d55-ff85-44eb-b40a-efbf8282eafd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -47,7 +47,7 @@ IDebugSymbolSearchEvent2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)
 - [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)

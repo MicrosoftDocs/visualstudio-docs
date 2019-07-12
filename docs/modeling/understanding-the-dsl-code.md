@@ -54,7 +54,7 @@ Press **F5** and experiment if you are not familiar with this solution template.
 
  *YourDsl* `Schema.xsd`
 
- The schema for files that contains instances of your DSL. This file is copied to the compilation (**bin**) directory. When you install your DSL, you can copy this file to **\Program Files\Microsoft Visual Studio 11.0\Xml\Schemas** so that model files can be validated. For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
+ The schema for files that contains instances of your DSL. This file is copied to the compilation (**bin**) directory. When you install your DSL, you can copy this file to **\Program Files\Microsoft Visual Studio 11.0\Xml\Schemas** so that model files can be validated. For more information, see [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md).
 
  If you customize serialization by setting options in DSL Explorer, the schema will change accordingly. However, if you write your own serialization code, this file might no longer represent the actual schema. For more information, see [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md).
 
@@ -125,7 +125,7 @@ Press **F5** and experiment if you are not familiar with this solution template.
   The class that represents the domain model. It is derived from <xref:Microsoft.VisualStudio.Modeling.DomainModel>.
 
 > [!NOTE]
->  This is not the same as the root class of the model.
+> This is not the same as the root class of the model.
 
  Copy and Delete Closures define what other elements should be included when an element is copied or deleted. You can control this behavior by setting the **Propagates Copy** and **Propagates Delete** properties of the roles at each side of every relationship. If you want the values to be determined dynamically, you can write code to override the methods of the Closure classes.
 
@@ -133,7 +133,7 @@ Press **F5** and experiment if you are not familiar with this solution template.
 
  This contains strings such as the descriptions of domain classes and properties, property names, toolbox labels, standard error messages, and other strings that could be displayed to the user. It also contains tool icons and images for image shapes.
 
- This file is bound into the built assembly, and provides the default values of these resources. You can localize your DSL by creating a satellite assembly that contains a localized version of the resources. That version will be used when the DSL is installed in a culture matching the localized resources. For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
+ This file is bound into the built assembly, and provides the default values of these resources. You can localize your DSL by creating a satellite assembly that contains a localized version of the resources. That version will be used when the DSL is installed in a culture matching the localized resources. For more information, see [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md).
 
  `DomainRelationships.cs`
 
@@ -334,9 +334,9 @@ explorerWindow.TreeContainer.ObjectModelBrowser.SelectedNode = treeNode;
  To customize this file, edit the `.tt` file.
 
 > [!WARNING]
->  If you edit the .tt file to include resources such as icons or images, make sure that the resource is included in the VSIX build. In Solution Explorer, select the file and make sure that the **Include in VSIX** property is `True`.
+> If you edit the .tt file to include resources such as icons or images, make sure that the resource is included in the VSIX build. In Solution Explorer, select the file and make sure that the **Include in VSIX** property is `True`.
 
- This file controls how the DSL is packaged into a Visual Studio Integration Extension (VSIX). For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
+ This file controls how the DSL is packaged into a Visual Studio Integration Extension (VSIX). For more information, see [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md).
 
 ## See Also
 

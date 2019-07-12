@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn how to activate the Parasoft Virtualize/SOA Test Professional subscription included in your Visual Studio subscription.
-searchscope: VS Subscription
 ---
 
 # Parasoft Virtualize/SOAtest Professional Desktop in Visual Studio subscriptions
@@ -71,8 +70,8 @@ Test earlier and more often.  Simulate and test the behavior of unavailable evol
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Not available                                                           |NA         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                                           |NA         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                                           |NA         |
-| Visual Studio Dev Essentials | NA  | Not available|NA |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
+||
 
 <sup>1</sup>  *Includes: Microsoft Partner Network (Enterprise).  Excludes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD).  MCT Software & Services.*
 
@@ -81,7 +80,7 @@ Test earlier and more often.  Simulate and test the behavior of unavailable evol
 
 ## Support resources
 - Need help with Parasoft products?  Check out these resources:
-    - Technical Support:  https://www.parasoft.com/support/
-    - Parasoft Resource Center:  https://www.parasoft.com/resources/
+  - Technical Support:  https://www.parasoft.com/support/
+  - Parasoft Resource Center:  https://www.parasoft.com/resources/
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

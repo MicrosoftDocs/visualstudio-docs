@@ -113,7 +113,7 @@ You can access forums, blogs, chats, and other resources on the [Microsoft Techn
 
 ## Product support
 
-If you still have questions after you try the other resources, you can contact Microsoft support services by visiting the [Microsoft Support](http://go.microsoft.com/fwlink/?linkid=1782) website. For information about product support available in your area, see [Talk to Us](../../ide/talk-to-us.md).
+If you still have questions after you try the other resources, you can contact Microsoft support services by visiting the [Microsoft Support](http://go.microsoft.com/fwlink/?linkid=1782) website. For information about product support available in your area, see the [Visual Studio feedback options](../../ide/feedback-options.md) page.
 
 ## See also
 

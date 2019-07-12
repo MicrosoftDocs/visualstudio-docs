@@ -43,7 +43,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  This topic describes how to start a debugging session for Store apps written in XAML and Visual C++, Visual C#, or Visual Basic. Debugging an app involves both configuring the debugging session and choosing the way to start the app.
 
 > [!NOTE]
->  For apps written in JavaScript and HTML see [Start a debug session  (JavaScript)](../debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md).
+> For apps written in JavaScript and HTML see [Start a debug session  (JavaScript)](../debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md).
 
 ## <a name="BKMK_In_this_topic"></a> In this topic
  [The easy way to start debugging](#BKMK_The_easy_way_to_start_debugging)
@@ -146,7 +146,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
     ![Select Remote Debugger Connection dialog box](../debugger/media/vsrun-selectremotedebuggerdlg.png "VSRUN_SelectRemoteDebuggerDlg")
 
   > [!NOTE]
-  >  The **Select Remote Debugger Connection** dialog box displays machines that are on the local sub-net and machines that are directly connected to the Visual Studio machine by an Ethernet cable. To specify another machine, enter the name in the **Machine Name** box.
+  > The **Select Remote Debugger Connection** dialog box displays machines that are on the local sub-net and machines that are directly connected to the Visual Studio machine by an Ethernet cable. To specify another machine, enter the name in the **Machine Name** box.
 
   ![Applies to Windows Phone only](../debugger/media/phone-only-content.png "phone_only_content")
 
@@ -204,7 +204,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  By default, you must supply credentials to run the remote debugger.
 
 > [!IMPORTANT]
->  You can choose to run the remote debugger in No Authentication mode, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose the No Authentication mode only if you are sure that the network is not at risk of from malicious or hostile traffic.
+> You can choose to run the remote debugger in No Authentication mode, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose the No Authentication mode only if you are sure that the network is not at risk of from malicious or hostile traffic.
 
  To remove the authentication requirement:
 
@@ -244,7 +244,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  To set an installed app to run in debug mode, do this:
 
 > [!NOTE]
->  The app must not be running when you start this procedure.
+> The app must not be running when you start this procedure.
 
 1. On the **Debug** menu, choose **Debug Installed App Package**
 
@@ -279,7 +279,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
 #### <a name="BKMK_Set_the_app_to_run_in_debug_mode"></a> Set the app to run in debug mode
 
-1. Install the Visual Studio Remote Tools on the device where the app is installed. See [Installing the Remote Tools](http://msdn.microsoft.com/library/windows/apps/hh441469.aspx#BKMK_Installing_the_Remote_Tools).
+1. Install the Visual Studio Remote Tools on the device where the app is installed. See [Installing the Remote Tools](https://msdn.microsoft.com/library/windows/apps/hh441469.aspx#BKMK_Installing_the_Remote_Tools).
 
 2. On the Start screen, search for `Debuggable Package Manager` and then start it.
 

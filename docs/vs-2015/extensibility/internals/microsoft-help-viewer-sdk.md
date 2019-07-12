@@ -139,7 +139,7 @@ This article contains the following tasks for Visual Studio Help Viewer integrat
 6. Add page links: `<a href="ms-xhelp://?Id=ContosoTopic1">Main Topic</a>`
 
 > [!NOTE]
->  Note: for non-supported new “Display Language” (example, F#, Cobol, Fortran) code colorization in the code snippet will be monochrome.
+> Note: for non-supported new “Display Language” (example, F#, Cobol, Fortran) code colorization in the code snippet will be monochrome.
 
  **Example Help Viewer Topic** The code illustrates how to define metadata, a code snippet, a collapsible area, and language specific text.
 
@@ -688,7 +688,7 @@ some F# code
 
 1. [!INCLUDE[vs_dev12](../../includes/vs-dev12-md.md)]
 
-2. [Visual Studio 2013 Isolated Shell Redist](http://www.microsoft.com/visualstudio/11/downloads#vs-shell)
+2. [Visual Studio 2013 Isolated Shell Redist](https://aka.ms/VS2013/IsoShell-LP/all)
 
    **Overview**
 
@@ -814,7 +814,7 @@ some F# code
 
 ### Additional Resources
 
-For the Runtime API, see [Windows Help API](http://msdn.microsoft.com/library/windows/desktop/hh447318\(v=vs.85\).aspx).
+For the Runtime API, see [Windows Help API](https://msdn.microsoft.com/library/windows/desktop/hh447318\(v=vs.85\).aspx).
 
 For more information on how to leverage the Help API, see [Help Viewer Code Examples](http://visualstudiogallery.msdn.microsoft.com/f08f296f-7076-4aec-8da3-8f0fbe04461e).
 

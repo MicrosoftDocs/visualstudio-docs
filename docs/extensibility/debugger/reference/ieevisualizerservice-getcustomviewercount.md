@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IEEVisualizerService::GetCustomViewerCount method"
 ms.assetid: f7b095c2-e538-4352-8cad-d4c6d4f6bdbc
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEEVisualizerService::GetCustomViewerCount
 This method gets the number of type visualizers available from this service.
@@ -30,10 +33,9 @@ int GetCustomViewerCount(
 );
 ```
 
-#### Parameters
- `pcelt`
-
- [out] Returns the number of type visualizers available.
+## Parameters
+`pcelt`\
+[out] Returns the number of type visualizers available.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -41,6 +43,6 @@ int GetCustomViewerCount(
 ## Remarks
 - [GetCustomViewerCount](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewercount.md) passes the request to this method in its support for type visualizers.
 
-## See Also
+## See also
 - [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md)
 - [GetCustomViewerCount](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewercount.md)

@@ -18,7 +18,7 @@ manager: "ghogen"
 Provides more functionality for the [IDebugApplicationThread Interface](../../winscript/reference/idebugapplicationthread-interface.md) interface.  
   
 > [!IMPORTANT]
->  This interface is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> This interface is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Methods  
  The `IDebugApplicationThread110` interface exposes the following methods.  

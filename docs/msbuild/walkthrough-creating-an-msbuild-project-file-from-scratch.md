@@ -142,11 +142,13 @@ Your minimal project file should resemble the following code:
 Tasks in the Build target are executed sequentially. In this case, the Visual C# compiler `Csc` task is the only task. It expects a list of source files to compile, and this is given by the value of the `Compile` item. The `Compile` item references just one source file, *Helloworld.cs*.
 
 > [!NOTE]
->  In the item element, you can use the asterisk wildcard character (\*) to reference all files that have the *.cs* file name extension, as follows:
+> In the item element, you can use the asterisk wildcard character (\*) to reference all files that have the *.cs* file name extension, as follows:
 >
->  `<Compile Include="*.cs" />`
+> ```xml
+> <Compile Include="*.cs" />
+> ```
 >
->  However, we do not recommend the use of wildcard characters because it makes debugging and selective targeting more difficult if source files are added or deleted.
+> However, we do not recommend the use of wildcard characters because it makes debugging and selective targeting more difficult if source files are added or deleted.
 
 ## Extend the path to include MSBuild
  Before you can access MSBuild, you must extend the PATH environment variable to include the .NET Framework folder.
@@ -173,9 +175,9 @@ Tasks in the Build target are executed sequentially. In this case, the Visual C#
      The **Hello, world!** message should be displayed.
 
 > [!NOTE]
->  You can see more details about the build by increasing the verbosity level. To set the verbosity level to "detailed", type this command at the command prompt:
+> You can see more details about the build by increasing the verbosity level. To set the verbosity level to "detailed", type this command at the command prompt:
 >
->  **msbuild helloworld.csproj -t:Build -verbosity:detailed**
+> **msbuild helloworld.csproj -t:Build -verbosity:detailed**
 
 ## Add build properties
  You can add build properties to the project file to further control the build. Now add these properties:
@@ -234,17 +236,17 @@ Your project file should now resemble the following code:
 ```
 
 > [!NOTE]
->  We recommend that you add the backslash (\\) path delimiter at the end of the folder name when you specify it in the `OutputPath` element, instead of adding it in the `OutputAssembly` attribute of the `Csc` task. Therefore,
+> We recommend that you add the backslash (\\) path delimiter at the end of the folder name when you specify it in the `OutputPath` element, instead of adding it in the `OutputAssembly` attribute of the `Csc` task. Therefore,
 >
->  `<OutputPath>Bin\</OutputPath>`
+> `<OutputPath>Bin\</OutputPath>`
 >
->  `OutputAssembly=="$(OutputPath)$(AssemblyName).exe" />`
+> `OutputAssembly=="$(OutputPath)$(AssemblyName).exe" />`
 >
->  is better than
+> is better than
 >
->  `<OutputPath>Bin</OutputPath>`
+> `<OutputPath>Bin</OutputPath>`
 >
->  `OutputAssembly=="$(OutputPath)\$(AssemblyName).exe" />`
+> `OutputAssembly=="$(OutputPath)\$(AssemblyName).exe" />`
 
 ## Test the build properties
  Now you can build the application by using the project file in which you used build properties to specify the output folder and application name.

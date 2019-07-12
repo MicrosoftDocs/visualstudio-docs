@@ -8,7 +8,7 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ---
-# Configure test agents and test controllers for running load tests
+# Overview of test agents and test controllers for running load tests
 
 Visual Studio can generate simulated load for your app by using physical or virtual machines. These machines must be set up as a single test controller and one or more test agents. You can use the test controller and test agents to generate more load than a single computer can generate alone.
 

@@ -19,7 +19,7 @@ manager: jillfra
 A debug engine (DE) is a component that allows debugging of particular run-time architectures. There is typically only one DE implementation per run-time environment.  
   
 > [!NOTE]
->  While there are separate DE implementations for Transact-SQL and JScript, VBScript and JScript share a single DE.  
+> While there are separate DE implementations for Transact-SQL and JScript, VBScript and JScript share a single DE.  
   
  A DE works with the interpreter or operation system to provide such debugging services as execution control, breakpoints, and expression evaluation. These services are implemented through the DE interfaces and can cause the debugger to transition between different operational modes. For more information, see [Operational Modes](../../extensibility/debugger/operational-modes.md).  
   

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramDestroyEvent2::GetExitCode"
 ms.assetid: 7f540cf6-e2d1-42b0-913e-a26d654b7659
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramDestroyEvent2::GetExitCode
 Gets the program's exit code.
@@ -30,13 +33,12 @@ int GetExitCode( 
 );
 ```
 
-#### Parameters
- `pdwExit`
-
- [out] Returns the program's exit code.
+## Parameters
+`pdwExit`\
+[out] Returns the program's exit code.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugProgramDestroyEvent2](../../../extensibility/debugger/reference/idebugprogramdestroyevent2.md)

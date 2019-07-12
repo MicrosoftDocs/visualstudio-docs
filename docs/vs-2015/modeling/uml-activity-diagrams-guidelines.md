@@ -70,7 +70,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
      Start by placing the main activities on the diagram, connecting them, and then adding final touches such as the initial and final nodes.  
   
     > [!NOTE]
-    >  You cannot drag existing elements onto the diagram from UML Model Explorer.  
+    > You cannot drag existing elements onto the diagram from UML Model Explorer.  
   
 2. To connect the elements, follow these steps:  
   
@@ -81,7 +81,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
     3. Click the target element.  
   
         > [!NOTE]
-        >  To use a tool multiple times, double-click the tool in the toolbox.  
+        > To use a tool multiple times, double-click the tool in the toolbox.  
   
 #### To move an activity to another package  
   
@@ -92,7 +92,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
 - In **UML Model Explorer**, right-click the activity and click **Cut**. Then right-click the package and click **Paste**.  
   
     > [!NOTE]
-    >  The activity will appear in UML Model Explorer only when you add the first element to the diagram.  
+    > The activity will appear in UML Model Explorer only when you add the first element to the diagram.  
   
 ## <a name="SimpleControlFlow"></a> Describing Control Flow  
  An activity diagram describes a business process or software algorithm as a series of actions. Connector arrows show how control is passed sequentially from one action to the next. Ordinarily, an action can start only after the previous action has been completed.  
@@ -106,7 +106,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
 - Create an **Action** (1) for each major task that is performed by a user, the system, or both in collaboration.  
   
   > [!NOTE]
-  >  Try to describe your process or algorithm with just a few actions. You can use **Call Behavior Actions** to define each action in more detail in a separate diagram, as described in [Describing Sub-activities with Call Behavior Actions](#Subactivities).  
+  > Try to describe your process or algorithm with just a few actions. You can use **Call Behavior Actions** to define each action in more detail in a separate diagram, as described in [Describing Sub-activities with Call Behavior Actions](#Subactivities).  
   
 - Make sure that the title of each action clearly indicates what it typically achieves.  
   
@@ -127,12 +127,12 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
 - Use a **Merge Node** (5) to bring together two or more alternative flows that branched at a **Decision Node**.  
   
     > [!NOTE]
-    >  You should use a **Merge Node** to bring together alternative flows, instead of bringing the flows together at an action. In the example, it would not be correct to connect from the decision node directly back to **Choose Menu Item**. This is because an action does not start until threads of control have arrived at all its incoming connectors. Therefore, you should bring only concurrent flows together at an action. For more information, see [Concurrent Flows](#Concurrent).  
+    > You should use a **Merge Node** to bring together alternative flows, instead of bringing the flows together at an action. In the example, it would not be correct to connect from the decision node directly back to **Choose Menu Item**. This is because an action does not start until threads of control have arrived at all its incoming connectors. Therefore, you should bring only concurrent flows together at an action. For more information, see [Concurrent Flows](#Concurrent).  
   
 - Use branches to describe loops, as shown in the example.  
   
     > [!NOTE]
-    >  Try to nest loops in a well-structured way, as you would in program code. If you are describing an existing business process, this might reveal some opportunities for improving it.  
+    > Try to nest loops in a well-structured way, as you would in program code. If you are describing an existing business process, this might reveal some opportunities for improving it.  
   
 ### Starting the Activity  
  There are two ways to indicate entry points into an activity:  
@@ -176,7 +176,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
 - Use an **Output Pin** and an **Input Pin**. This method lets you separately describe the outputs from one action and the inputs to another. Pins are like parameters in a program. Pins represent ports where objects can enter and leave an action.  
   
     > [!NOTE]
-    >  For an overview of the elements used in this section, see the Data Flows section of the topic see [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md).  
+    > For an overview of the elements used in this section, see the Data Flows section of the topic see [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md).  
   
 ### Describing Data Flow with Object Nodes  
  Most control flows carry data. For example, the output flow from the "Customer provides details" action carries a reference to the shipping address.  
@@ -192,7 +192,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
  You can set the **Type** of the object node in the Properties window. The type can be a primitive type such as Integer, or a class, interface, or enumeration that you have defined in a class diagram. For example, you could create a class Shipment Address, with attributes of Street Address, City, and so on, together with an association to another class that is named Customer. For more information, see [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md).  
   
 > [!NOTE]
->  If you type the name of a type that has not yet been defined, an item will be added under **Unspecified Types** in UML Model Explorer. If you subsequently define a type of that name in a class diagram, you should reset the type of the object node so that it refers to the new type.  
+> If you type the name of a type that has not yet been defined, an item will be added under **Unspecified Types** in UML Model Explorer. If you subsequently define a type of that name in a class diagram, you should reset the type of the object node so that it refers to the new type.  
   
 #### Buffering data in object nodes  
  An object node can act as a buffer for multiple objects. In the following illustration, the control flow shows that the user can go around the [choose more] loop (1) many times, while the Chosen Menu Items object node (2) accumulates the user's choices. Finally, when the user has completed his or her selection, control passes to the Confirm Order action (3), which accepts the complete list of choices from the Chosen Menu Items buffer.  
@@ -202,15 +202,15 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
  You can specify how the items in a buffer are stored by setting properties of the object node:  
   
 - Set the **Ordering** property:  
-  
-    - **Unordered** to specify a random or unspecified order. (Default.)  
-  
-    - **Ordered** to specify an order according to a specific key.  
-  
-    - **Fifo** to specify an order of first-in, first-out.  
-  
-    - **Lifo** to specify an order of last-in, first-out.  
-  
+
+  - **Unordered** to specify a random or unspecified order. (Default.)  
+
+  - **Ordered** to specify an order according to a specific key.  
+
+  - **Fifo** to specify an order of first-in, first-out.  
+
+  - **Lifo** to specify an order of last-in, first-out.  
+
 - Set the **Upper Bound** property to specify the maximum number of objects that can be contained in the buffer. The default is *. This means that there is no limit.  
   
 ### Describing Data Flow with Input and Output Pins  
@@ -259,7 +259,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
 4. Set the **Behavior** property of the **Call Behavior Action** to refer to the called behavior diagram.  
   
     > [!NOTE]
-    >  The sub-activity diagram must have some elements on it or the diagram will not be available in the drop-down list for the **Behavior** property. Also, the trident icon will not appear on your **Call Behavior Action** shape until you set its **Behavior** property.  
+    > The sub-activity diagram must have some elements on it or the diagram will not be available in the drop-down list for the **Behavior** property. Also, the trident icon will not appear on your **Call Behavior Action** shape until you set its **Behavior** property.  
   
 5. Set the **Is Synchronous** property of the action to indicate whether your activity waits for the called activity to complete.  
   
@@ -273,7 +273,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
 - In the sub-activity diagram, create an **Activity Parameter Node** (2) for each input and output pin on the calling action. Give each node the same name as its corresponding pin.  
   
   > [!NOTE]
-  >  An activity parameter node resembles an object node. To check what type of node that you are looking at, right-click the node and then click **Properties**. The type of node is shown in the header of the Properties window.  
+  > An activity parameter node resembles an object node. To check what type of node that you are looking at, right-click the node and then click **Properties**. The type of node is shown in the header of the Properties window.  
   
 - In the sub-activity diagram, draw connectors that show the flow of objects into or out of each activity parameter node.  
   
@@ -311,7 +311,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
 - You can set the **Is Synchronous** property of the action to indicate whether your activity waits for the operation to complete.  
   
-    - If you set **Is Synchronous** to false, you are indicating that the flow can continue to the next action before the called operation is complete. You should not define output pins or outgoing data flows from the action.  
+  - If you set **Is Synchronous** to false, you are indicating that the flow can continue to the next action before the called operation is complete. You should not define output pins or outgoing data flows from the action.  
   
 ## <a name="Concurrent"></a> Concurrent Flows  
  You can use the **Fork Node** and the **Join Node** to describe two or more threads of activities that can execute at the same time.  

@@ -28,7 +28,7 @@ manager: jillfra
 It is not uncommon for an application to contain components that have different locales. In this scenario, you would create a solution that has several projects, and then publish separate projects for each locale. This procedure shows how to use a macro to publish the first project in a solution by using the 'en' locale. If you want to try this procedure with a locale other than 'en', make sure to set `localeString` in the macro to match the locale that you are using (for example, 'de' or 'de-DE').  
   
 > [!NOTE]
->  When you use this macro, the Publish Location should be a valid URL or Universal Naming Convention (UNC) share. Also, Internet Information Services (IIS) has to be installed on your computer. To install IIS, on the **Start** menu, click **Control Panel**. Double-click **Add or Remove Programs**. In **Add or Remove Programs**, click **Add/Remove Windows Components**. In the **Windows Components Wizard**, select the **Internet Information Services (IIS)** check box in the **Components** list. Then click **Finish** to close the wizard.  
+> When you use this macro, the Publish Location should be a valid URL or Universal Naming Convention (UNC) share. Also, Internet Information Services (IIS) has to be installed on your computer. To install IIS, on the **Start** menu, click **Control Panel**. Double-click **Add or Remove Programs**. In **Add or Remove Programs**, click **Add/Remove Windows Components**. In the **Windows Components Wizard**, select the **Internet Information Services (IIS)** check box in the **Components** list. Then click **Finish** to close the wizard.  
   
 ### To create the publishing macro  
   
@@ -160,6 +160,6 @@ It is not uncommon for an application to contain components that have different 
   
 ## See Also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
- [Macros Development Environment](http://msdn.microsoft.com/d23105d8-34fe-4ad9-8278-fae2c660aeac)   
- [Macro Explorer Window](http://msdn.microsoft.com/762169e6-f83f-44b4-bffa-d0f107cae9a3)   
- [How to: Edit and Programmatically Create Macros](http://msdn.microsoft.com/6716f820-1feb-48ad-a718-27eb6b473c5a)
+ [Macros Development Environment](https://msdn.microsoft.com/d23105d8-34fe-4ad9-8278-fae2c660aeac)   
+ [Macro Explorer Window](https://msdn.microsoft.com/762169e6-f83f-44b4-bffa-d0f107cae9a3)   
+ [How to: Edit and Programmatically Create Macros](https://msdn.microsoft.com/6716f820-1feb-48ad-a718-27eb6b473c5a)

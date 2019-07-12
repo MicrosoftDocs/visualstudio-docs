@@ -73,4 +73,4 @@ Make sure your app meets user requirements by using Visual Studio architecture a
 ## See Also  
 
 - [What's new for modeling in Visual Studio 2015](../modeling/what-s-new-for-design-in-visual-studio.md)   
-- [DevOps and Application Lifecycle Management](http://msdn.microsoft.com/library/74a1f71d-7f23-4c71-8fd7-89ede614fab6)
+- [DevOps and Application Lifecycle Management](https://msdn.microsoft.com/library/74a1f71d-7f23-4c71-8fd7-89ede614fab6)

@@ -228,7 +228,7 @@ In this walkthrough, you use Visual Studio to create a small database that conta
 2. Under **Installed**, expand the **Templates** node, expand the **Other Languages** node, select the **SQL Server** category, and then select the **SQL Server Database Project** template.  
   
     > [!NOTE]
-    >  The **Other Languages** node doesn’t appear in all installations of Visual Studio.  
+    > The **Other Languages** node doesn’t appear in all installations of Visual Studio.  
   
 3. In the **Name** box, enter `Small Database`.  
   

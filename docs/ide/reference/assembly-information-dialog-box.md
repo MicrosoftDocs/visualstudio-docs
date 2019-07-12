@@ -14,7 +14,7 @@ ms.workload:
   - "multiple"
 ---
 # Assembly Information Dialog Box
-The **Assembly Information** dialog box is used to specify the values of the [!INCLUDE[dnprdnshort](../../code-quality/includes/dnprdnshort_md.md)] global assembly attributes, which are stored in the AssemblyInfo file created automatically with your project. In **Solution Explorer**, the file is located in the **My Project** node in [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] (click **Show All files** to view it); it is located under **Properties** in [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)]. For more information about assembly attributes, see [Attributes](https://msdn.microsoft.com/Library/ae334cee-d96c-4243-a5e3-06dd7fcaf205).
+The **Assembly Information** dialog box is used to specify the values of the .NET Framework global assembly attributes, which are stored in the AssemblyInfo file created automatically with your project. In **Solution Explorer**, the file is located in the **My Project** node in [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] (click **Show All files** to view it); it is located under **Properties** in [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)]. For more information about assembly attributes, see [Attributes](https://msdn.microsoft.com/Library/ae334cee-d96c-4243-a5e3-06dd7fcaf205).
 
  To access this dialog box, select a project node in **Solution Explorer**, and then, on the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Application** tab. On the **Application** page, click the **Assembly Information** button.
 

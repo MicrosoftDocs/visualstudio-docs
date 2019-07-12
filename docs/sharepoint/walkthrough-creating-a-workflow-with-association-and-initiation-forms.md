@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Workflow with Association and Initiation Forms | Microsoft Docs"
+title: "Create workflow with association and initiation forms"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -44,9 +44,9 @@ ms.workload:
 - Manually starting the workflow.
 
 > [!NOTE]
->  Although this walkthrough uses a sequential workflow project, the process is the same for state machine workflows.
+> Although this walkthrough uses a sequential workflow project, the process is the same for state machine workflows.
 >
->  Also, your computer might show different names or locations for some of the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] user interface elements in the following instructions. The [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
+> Also, your computer might show different names or locations for some of the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] user interface elements in the following instructions. The [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 ## Prerequisites
  You need the following components to complete this walkthrough:
@@ -128,7 +128,7 @@ ms.workload:
 3. Expand the **ExpenseReportAssocForm.aspx** file in **Solution Explorer** to display its dependent files.
 
     > [!NOTE]
-    >  If your project is in [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)], you must choose the **View All Files** button to perform this step.
+    > If your project is in [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)], you must choose the **View All Files** button to perform this step.
 
 4. Open the shortcut menu for the ExpenseReportAssocForm.aspx file and choose **View Code**.
 
@@ -319,7 +319,7 @@ ms.workload:
     ```
 
     > [!NOTE]
-    >  In the code, replace `somedomain\\someuser` with a domain and user name for which a task will be created, such as, "`Office\\JoeSch`". For testing it is easiest to use the account you are developing with.
+    > In the code, replace `somedomain\\someuser` with a domain and user name for which a task will be created, such as, "`Office\\JoeSch`". For testing it is easiest to use the account you are developing with.
 
 3. Below the `MethodInvoking` method, add the following example:
 

@@ -5,13 +5,17 @@
 - name: Visual Studio Debugging Samples
   href: visual-studio-debugging-samples.md
 - name: Creating a Custom Debug Engine
-  href: creating-a-custom-debug-engine.md
+# Auto-expanded node
   items:
+  - name: Creating a Custom Debug Engine
+    href: creating-a-custom-debug-engine.md
   - name: Registering a Custom Debug Engine
     href: registering-a-custom-debug-engine.md
   - name: Enabling a Program to Be Debugged
-    href: enabling-a-program-to-be-debugged.md
+# Auto-expanded node
     items:
+    - name: Enabling a Program to Be Debugged
+      href: enabling-a-program-to-be-debugged.md
     - name: Getting a Port
       href: getting-a-port.md
     - name: Registering the Program
@@ -23,8 +27,10 @@
     - name: Sending the Required Events
       href: sending-the-required-events.md
   - name: Execution Control and State Evaluation
-    href: execution-control-and-state-evaluation.md
+# Auto-expanded node
     items:
+    - name: Execution Control and State Evaluation
+      href: execution-control-and-state-evaluation.md
     - name: Program Control
       href: program-control.md
     - name: Breakpoint-Related Methods
@@ -36,8 +42,10 @@
     - name: Control Events
       href: control-events.md
   - name: Sending Events
-    href: sending-events.md
+# Auto-expanded node
     items:
+    - name: Sending Events
+      href: sending-events.md
     - name: Event Sources (Visual Studio SDK)
       href: event-sources-visual-studio-sdk.md
     - name: Supported Event Types
@@ -47,8 +55,10 @@
   - name: Termination and Detaching
     href: termination-and-detaching.md
   - name: Calling Debugger Events
-    href: calling-debugger-events.md
+# Auto-expanded node
     items:
+    - name: Calling Debugger Events
+      href: calling-debugger-events.md
     - name: Attaching and Detaching to a Program
       href: attaching-and-detaching-to-a-program.md
     - name: Launching the Debugger
@@ -76,13 +86,17 @@
   - name: "How To: Debug a Custom Debug Engine"
     href: how-to-debug-a-custom-debug-engine.md
 - name: Getting Started with Debugger Extensibility
-  href: getting-started-with-debugger-extensibility.md
+# Auto-expanded node
   items:
+  - name: Getting Started with Debugger Extensibility
+    href: getting-started-with-debugger-extensibility.md
   - name: Roadmap for Extending the Debugger
     href: roadmap-for-extending-the-debugger.md
   - name: Debugger Components
-    href: debugger-components.md
+# Auto-expanded node
     items:
+    - name: Debugger Components
+      href: debugger-components.md
     - name: Debug Package
       href: debug-package.md
     - name: Process Debug Manager
@@ -100,8 +114,10 @@
     - name: Type Visualizer and Custom Viewer
       href: type-visualizer-and-custom-viewer.md
   - name: Debugger Concepts
-    href: debugger-concepts.md
+# Auto-expanded node
     items:
+    - name: Debugger Concepts
+      href: debugger-concepts.md
     - name: Debug Session
       href: debug-session.md
     - name: Servers (Visual Studio SDK)
@@ -125,8 +141,10 @@
     - name: Breakpoints (Visual Studio SDK)
       href: breakpoints-visual-studio-sdk.md
   - name: Debugger Contexts
-    href: debugger-contexts.md
+# Auto-expanded node
     items:
+    - name: Debugger Contexts
+      href: debugger-contexts.md
     - name: Code Context
       href: code-context.md
     - name: Document Position
@@ -136,13 +154,17 @@
     - name: Expression Evaluation Context
       href: expression-evaluation-context.md
   - name: Debugging Tasks
-    href: debugging-tasks.md
+# Auto-expanded node
     items:
+    - name: Debugging Tasks
+      href: debugging-tasks.md
     - name: Security Issues
       href: security-issues.md
     - name: Launching a Program
-      href: launching-a-program.md
+# Auto-expanded node
       items:
+      - name: Launching a Program
+        href: launching-a-program.md
       - name: Notifying the Port
         href: notifying-the-port.md
       - name: Attaching After a Launch
@@ -160,13 +182,17 @@
     - name: Visualizing and Viewing Data
       href: visualizing-and-viewing-data.md
 - name: Writing a Common Language Runtime Expression Evaluator
-  href: writing-a-common-language-runtime-expression-evaluator.md
+# Auto-expanded node
   items:
+  - name: Writing a Common Language Runtime Expression Evaluator
+    href: writing-a-common-language-runtime-expression-evaluator.md
   - name: Common Language Runtime and Expression Evaluation
     href: common-language-runtime-and-expression-evaluation.md
   - name: Expression Evaluator Architecture
-    href: expression-evaluator-architecture.md
+# Auto-expanded node
     items:
+    - name: Expression Evaluator Architecture
+      href: expression-evaluator-architecture.md
     - name: Evaluation Context
       href: evaluation-context.md
     - name: Key Expression Evaluator Interfaces
@@ -174,16 +200,22 @@
   - name: Registering an Expression Evaluator
     href: registering-an-expression-evaluator.md
   - name: Implementing an Expression Evaluator
-    href: implementing-an-expression-evaluator.md
+# Auto-expanded node
     items:
+    - name: Implementing an Expression Evaluator
+      href: implementing-an-expression-evaluator.md
     - name: Expression Evaluator Implementation Strategy
       href: expression-evaluator-implementation-strategy.md
   - name: Displaying Locals
-    href: displaying-locals.md
+# Auto-expanded node
     items:
+    - name: Displaying Locals
+      href: displaying-locals.md
     - name: Sample Implementation of Locals
-      href: sample-implementation-of-locals.md
+# Auto-expanded node
       items:
+      - name: Sample Implementation of Locals
+        href: sample-implementation-of-locals.md
       - name: Implementing GetMethodProperty
         href: implementing-getmethodproperty.md
       - name: Enumerating Locals
@@ -195,32 +227,42 @@
       - name: Evaluating Locals
         href: evaluating-locals.md
   - name: Evaluating a Watch Window Expression
-    href: evaluating-a-watch-window-expression.md
+# Auto-expanded node
     items:
+    - name: Evaluating a Watch Window Expression
+      href: evaluating-a-watch-window-expression.md
     - name: Sample Implementation of Expression Evaluation
       href: sample-implementation-of-expression-evaluation.md
     - name: Evaluating a Watch Expression
       href: evaluating-a-watch-expression.md
   - name: Changing the Value of a Local
-    href: changing-the-value-of-a-local.md
+# Auto-expanded node
     items:
+    - name: Changing the Value of a Local
+      href: changing-the-value-of-a-local.md
     - name: Sample Implementation of Changing Values
       href: sample-implementation-of-changing-values.md
   - name: Implementing Type Visualizers and Custom Viewers
     href: implementing-type-visualizers-and-custom-viewers.md
 - name: Implementing a Port Supplier
-  href: implementing-a-port-supplier.md
+# Auto-expanded node
   items:
+  - name: Implementing a Port Supplier
+    href: implementing-a-port-supplier.md
   - name: Implementing and Registering a Port Supplier
     href: implementing-and-registering-a-port-supplier.md
   - name: Required Port Supplier Interfaces
     href: required-port-supplier-interfaces.md
 - name: Parallel Extension Internals for the .NET Framework
-  href: parallel-extension-internals-for-the-dotnet-framework.md
+# Auto-expanded node
   items:
+  - name: Parallel Extension Internals for the .NET Framework
+    href: parallel-extension-internals-for-the-dotnet-framework.md
   - name: Task Class - Internal Members
-    href: task-class-internal-members.md
+# Auto-expanded node
     items:
+    - name: Task Class - Internal Members
+      href: task-class-internal-members.md
     - name: m_action Field
       href: m-action-field.md
     - name: m_contingentProperties Field
@@ -250,34 +292,44 @@
     - name: NotifyDebuggerOfWaitCompletion Method
       href: notifydebuggerofwaitcompletion-method.md
   - name: TaskScheduler Class - Internal Members
-    href: taskscheduler-class-internal-members.md
+# Auto-expanded node
     items:
+    - name: TaskScheduler Class - Internal Members
+      href: taskscheduler-class-internal-members.md
     - name: GetScheduledTasksForDebugger Method
       href: getscheduledtasksfordebugger-method.md
     - name: GetTaskSchedulersForDebugger Method
       href: gettaskschedulersfordebugger-method.md
   - name: ContingentProperties Class - Internal Members
-    href: contingentproperties-class-internal-members.md
+# Auto-expanded node
     items:
+    - name: ContingentProperties Class - Internal Members
+      href: contingentproperties-class-internal-members.md
     - name: m_children Field
       href: m-children-field.md
   - name: AsyncTaskMethodBuilder Structure - Internal Members
-    href: asynctaskmethodbuilder-structure-internal-members.md
+# Auto-expanded node
     items:
+    - name: AsyncTaskMethodBuilder Structure - Internal Members
+      href: asynctaskmethodbuilder-structure-internal-members.md
     - name: AsyncTaskMethodBuilder.ObjectIdForDebugger Property
       href: asynctaskmethodbuilder-objectidfordebugger-property.md
     - name: AsyncTaskMethodBuilder.m_builder Field
       href: asynctaskmethodbuilder-m-builder-field.md
   - name: AsyncTaskMethodBuilder<TResult> Structure - Internal Members
-    href: asynctaskmethodbuilder-tresult-structure-internal-members.md
+# Auto-expanded node
     items:
+    - name: AsyncTaskMethodBuilder<TResult> Structure - Internal Members
+      href: asynctaskmethodbuilder-tresult-structure-internal-members.md
     - name: AsyncTaskMethodBuilder<TResult>.ObjectIdForDebugger Property
       href: asynctaskmethodbuilder-tresult-objectidfordebugger-property.md
     - name: AsyncTaskMethodBuilder<TResult>.m_task Field
       href: asynctaskmethodbuilder-tresult-m-task-field.md
   - name: AsyncVoidMethodBuilder Structure - Internal Members
-    href: asyncvoidmethodbuilder-structure-internal-members.md
+# Auto-expanded node
     items:
+    - name: AsyncVoidMethodBuilder Structure - Internal Members
+      href: asyncvoidmethodbuilder-structure-internal-members.md
     - name: AsyncVoidMethodBuilder.ObjectIdForDebugger Property
       href: asyncvoidmethodbuilder-objectidfordebugger-property.md
     - name: AsyncVoidMethodBuilder.m_objectIdForDebugger Field

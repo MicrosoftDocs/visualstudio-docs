@@ -56,7 +56,7 @@ The Coded UI Test Editor lets you easily modify your coded UI tests. Using the C
  In Solution Explorer, open the shortcut menu for **UIMap.uitest** and choose **Open**. The coded UI test is displayed in the Coded UI Test Editor. You can now view and edit the recorded methods, actions, and corresponding controls in the coded UI test.  
   
 > [!TIP]
->  When you select a UI action that is located in a method in the **UI Actions** pane, the corresponding control is highlighted. You can also modify the UI action or the controls properties.  
+> When you select a UI action that is located in a method in the **UI Actions** pane, the corresponding control is highlighted. You can also modify the UI action or the controls properties.  
   
  *I don't see* the Coded UI Test Editor.  
  You might be using version of Visual Studio Enterprise prior to 2012. The Coded UI Test Editor was also available in Visual Studio 2010 Feature Pack 2 with an MSDN subscription. [!INCLUDE[crdefault](../includes/crdefault-md.md)][Microsoft Visual Studio 2010 Feature Pack 2](http://go.microsoft.com/fwlink/?LinkID=204119).  
@@ -213,5 +213,5 @@ Edit control properties
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
  [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)   
  [Creating a Data-Driven Coded UI Test](../test/creating-a-data-driven-coded-ui-test.md)   
- [Generating a Coded UI Test from an Existing Action Recording](http://msdn.microsoft.com/library/56736963-9027-493b-b5c4-2d4e86d1d497)   
+ [Generating a Coded UI Test from an Existing Action Recording](https://msdn.microsoft.com/library/56736963-9027-493b-b5c4-2d4e86d1d497)   
  [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)

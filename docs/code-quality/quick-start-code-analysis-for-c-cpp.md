@@ -1,5 +1,6 @@
 ---
 title: "Quick Start: Code Analysis for C/C++"
+description: Run static analysis on C++ code in Visual Studio to detect common coding problems and defects.
 ms.date: 11/04/2016
 ms.topic: "conceptual"
 helpviewer_keywords:

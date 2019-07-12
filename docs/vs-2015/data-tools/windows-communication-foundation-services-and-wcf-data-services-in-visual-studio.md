@@ -37,7 +37,7 @@ manager: jillfra
 # Windows Communication Foundation Services and WCF Data Services in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio provides tools for working with Windows Communication Foundation (WCF) and [!INCLUDE[ssAstoria](../includes/ssastoria-md.md)], Microsoft technologies for creating distributed applications. This topic provides an introduction to services from a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] perspective. For the full documentation, see [WCF Data Services 4.5](http://msdn.microsoft.com/library/73d2bec3-7c92-4110-b905-11bb0462357a).
+Visual Studio provides tools for working with Windows Communication Foundation (WCF) and [!INCLUDE[ssAstoria](../includes/ssastoria-md.md)], Microsoft technologies for creating distributed applications. This topic provides an introduction to services from a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] perspective. For the full documentation, see [WCF Data Services 4.5](https://msdn.microsoft.com/library/73d2bec3-7c92-4110-b905-11bb0462357a).
 
 ## What Is WCF?
  [!INCLUDE[vsindigo](../includes/vsindigo-md.md)] is a unified framework for creating secure, reliable, transacted, and interoperable distributed applications. It replaces older interprocess communication technologies such as ASMX Web services, .NET Remoting, Enterprise Services (DCOM), and MSMQ. WCF brings together the functionality of all those technologies under a unified programming model. This simplifies the experience of developing distributed applications.
@@ -86,21 +86,21 @@ Visual Studio provides tools for working with Windows Communication Foundation (
 
  When you select a template, files are added for a service contract, a service implementation, and a service configuration. All necessary attributes are already added, creating a simple "Hello World" type of service, and you did not have to write any code. You will, of course, want to add code to provide functions and methods for your real world service, but the templates provide the basic foundation.
 
- To learn more about WCF templates, see [WCF Visual Studio Templates](http://msdn.microsoft.com/library/6a608575-3535-4190-89da-911e24c8374f).
+ To learn more about WCF templates, see [WCF Visual Studio Templates](https://msdn.microsoft.com/library/6a608575-3535-4190-89da-911e24c8374f).
 
 #### WCF Service Host
  When you start the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] debugger (by pressing F5) for a WCF service project, the WCF Service Host tool is automatically started to host the service locally. WCF Service Host enumerates the services in a WCF service project, loads the project’s configuration, and instantiates a host for each service that it finds.
 
  By using WCF Service Host, you can test a WCF service without writing extra code or committing to a specific host during development.
 
- To learn more about WCF Service Host, see [WCF Service Host (WcfSvcHost.exe)](http://msdn.microsoft.com/library/8643a63d-a357-4c39-bd6c-cdfdf71e370e).
+ To learn more about WCF Service Host, see [WCF Service Host (WcfSvcHost.exe)](https://msdn.microsoft.com/library/8643a63d-a357-4c39-bd6c-cdfdf71e370e).
 
 #### WCF Test Client
  The WCF Test Client tool enables you to input test parameters, submit that input to a WCF service, and view the response that the service sends back. It provides a convenient service testing experience when you combine it with WCF Service Host. The tool can be found in the \Common7\IDE folder, which for Visual Studio 2015 installed in drive C: is here: **C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\\**.
 
  When you press F5 to debug a WCF service project, WCF Test Client opens and displays a list of service endpoints that are defined in the configuration file. You can test the parameters and start the service, and repeat this process to continuously test and validate your service.
 
- To learn more about WCF Test Client, see [WCF Test Client (WcfTestClient.exe)](http://msdn.microsoft.com/library/d4302855-677f-4640-aa90-c5d785d72fb7).
+ To learn more about WCF Test Client, see [WCF Test Client (WcfTestClient.exe)](https://msdn.microsoft.com/library/d4302855-677f-4640-aa90-c5d785d72fb7).
 
 ### Accessing WCF Services in Visual Studio
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] simplifies the task of creating WCF clients, automatically generating a proxy and an endpoint for services that you add by using the **Add Service Reference** dialog box. All necessary configuration information is added to the app.config file. Most of the time, all that you have to do is instantiate the service in order to use it.
@@ -131,14 +131,14 @@ Visual Studio provides tools for working with Windows Communication Foundation (
     ```
 
     > [!NOTE]
-    >  Replace *ServiceReference* with the namespace for the service reference and replace *Service1Client* with the name of the service.
+    > Replace *ServiceReference* with the namespace for the service reference and replace *Service1Client* with the name of the service.
 
 3. An IntelliSense list will be displayed with the overloads for the constructor. Select the `endpointConfigurationName As String` overload.
 
 4. Following the overload, type `=` *ConfigurationName*, where *ConfigurationName* is the name of the endpoint that you want to use.
 
     > [!NOTE]
-    >  If you do not know the names of the available endpoints, you can find them in the app.config file.
+    > If you do not know the names of the available endpoints, you can find them in the app.config file.
 
 #### To find the available endpoints for a WCF service
 
@@ -158,7 +158,7 @@ Visual Studio provides tools for working with Windows Communication Foundation (
  By default, when a service reference is added to a project it is configured to call methods synchronously. You can change the behavior to call methods asynchronously by changing a setting in the **Configure Service Reference** dialog box.
 
 > [!NOTE]
->  This option is set on a per-service basis. If one method for a service is called asynchronously, all methods must be called asynchronously.
+> This option is set on a per-service basis. If one method for a service is called asynchronously, all methods must be called asynchronously.
 
  [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]
 
@@ -230,12 +230,12 @@ Visual Studio provides tools for working with Windows Communication Foundation (
 |-----------|-----------------|
 |[Walkthrough: Creating a simple WCF Service in Windows Forms](../data-tools/walkthrough-creating-a-simple-wcf-service-in-windows-forms.md)|Provides a step-by-step demonstration of creating and using WCF services in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].|
 |[Walkthrough: Creating a WCF Data Service with WPF and Entity Framework](../data-tools/walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework.md)|Provides a step-by-step demonstration of how to create and use [!INCLUDE[ssAstoria](../includes/ssastoria-md.md)] in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].|
-|[Using the WCF Development Tools](http://msdn.microsoft.com/library/054adb87-c244-4d5a-83d1-0b2b44bd454b)|Discusses how to create and test WCF services in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].|
-|[How to: Add, Update, or Remove a Service Reference](http://msdn.microsoft.com/library/cacc14bd-4455-4a44-be78-d2ac16113dd9)|Describes how to add, update, or remove WCF services from a project.|
+|[Using the WCF Development Tools](https://msdn.microsoft.com/library/054adb87-c244-4d5a-83d1-0b2b44bd454b)|Discusses how to create and test WCF services in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].|
+|[How to: Add, Update, or Remove a Service Reference](https://msdn.microsoft.com/library/cacc14bd-4455-4a44-be78-d2ac16113dd9)|Describes how to add, update, or remove WCF services from a project.|
 |[How to: Add, Update, or Remove a WCF Data Service Reference](../data-tools/how-to-add-update-or-remove-a-wcf-data-service-reference.md)|Discusses how to reference and use [!INCLUDE[ssAstoria](../includes/ssastoria-md.md)] in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].|
 |[Troubleshooting Service References](../data-tools/troubleshooting-service-references.md)|Presents some common errors that can occur with service references and how to prevent them.|
 |[Debugging WCF Services](../debugger/debugging-wcf-services.md)|Describes common debugging problems and techniques you might encounter when debugging WCF services.|
-|[Windows Communication Foundation Authentication Service Overview](http://msdn.microsoft.com/library/6e121a28-89e8-4974-88a8-70aaa6a7d52b)|Describes how to use WCF to provide a role service for a Web site.|
+|[Windows Communication Foundation Authentication Service Overview](https://msdn.microsoft.com/library/6e121a28-89e8-4974-88a8-70aaa6a7d52b)|Describes how to use WCF to provide a role service for a Web site.|
 |[Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)|Provides step-by-step instructions for creating a typed dataset and separating the TableAdapter and dataset code into multiple projects.|
 |[Configure Service Reference Dialog Box](../data-tools/configure-service-reference-dialog-box.md)|Describes the user interface elements of the **Configure Service Reference** dialog box.|
 

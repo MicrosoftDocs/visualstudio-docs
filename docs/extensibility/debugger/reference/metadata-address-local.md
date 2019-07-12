@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "METADATA_ADDRESS_LOCAL structure"
 ms.assetid: 635f6bc5-c486-4e0e-83db-36f15e543843
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # METADATA_ADDRESS_LOCAL
 
@@ -35,20 +38,17 @@ public struct METADATA_ADDRESS_LOCAL {
 }
 ```
 
-## Terms
+## Members
 
-`tokMethod`
-
+`tokMethod`\
 The ID of the method or function the local variable is part of.
 
 [C++] `_mdToken` is a `typedef` for a 32-bit `int`.
 
-`pLocal`
-
+`pLocal`\
 The token whose address this structure represents.
 
-`dwIndex`
-
+`dwIndex`\
 Can be the index of this local variable in the method or function, or some other value (language-specific).
 
 ## Remarks

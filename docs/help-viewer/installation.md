@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "installing Help Viewer"
   - "Help Viewer, installing"
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

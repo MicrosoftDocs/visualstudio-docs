@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "UNMANAGED_ADDRESS_THIS_RELATIVE structure"
 ms.assetid: e6a91ace-2d47-4ff9-aefb-8d8b68eab0b2
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # UNMANAGED_ADDRESS_THIS_RELATIVE
 This structure represents an address that is relative to a `this` pointer (`Me` in Visual Basic).
@@ -34,14 +37,14 @@ public struct UNMANAGED_THIS_RELATIVE {
 }
 ```
 
-## Terms
- dwOffset
+## Members
+ `dwOffset`\
  Byte offset from a base position (for example, start of a class vtable).
 
- dwBitOffset
+ `dwBitOffset`\
  Offset in bits from a base position (always 0 unless referring to a bit field).
 
- dwBitLength
+ `dwBitLength`\
  Number of bits representing the address (always 0 unless referring to a bit field).
 
 ## Remarks
@@ -54,6 +57,6 @@ public struct UNMANAGED_THIS_RELATIVE {
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)

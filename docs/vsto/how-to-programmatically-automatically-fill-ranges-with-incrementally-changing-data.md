@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically automatically fill ranges with incrementally changing data"
+title: "Autofill incrementally changing data ranges programmatically"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -28,7 +28,7 @@ ms.workload:
 - The range that you want to fill, passed as a parameter to the <xref:Microsoft.Office.Interop.Excel.Range.AutoFill%2A> method. This destination range must include the range that contains the initial value.
 
     > [!NOTE]
-    >  You cannot pass a <xref:Microsoft.Office.Tools.Excel.NamedRange> control in place of the <xref:Microsoft.Office.Interop.Excel.Range>. For more information, see [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md).
+    > You cannot pass a <xref:Microsoft.Office.Tools.Excel.NamedRange> control in place of the <xref:Microsoft.Office.Interop.Excel.Range>. For more information, see [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md).
 
 ## Example
  [!code-csharp[Trin_VstcoreExcelAutomation#49](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#49)]

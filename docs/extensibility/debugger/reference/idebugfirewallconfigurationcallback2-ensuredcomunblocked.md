@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "EnsureDCOMUnblocked"
   - "IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked"
 ms.assetid: acf54d27-32a6-47e7-aba6-3cc0004edc7f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked
 Requests that the firewall not block remote debugging.
@@ -30,5 +33,5 @@ public int EnsureDCOMUnblocked();
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugFirewallConfigurationCallback2](../../../extensibility/debugger/reference/idebugfirewallconfigurationcallback2.md)

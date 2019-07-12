@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Using a Configuration File to Define a Data Source"
+title: "Use config file to define data source"
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -56,16 +56,16 @@ Examine the *app.config* file. It contains at least the XML declaration and a ro
 
 2. Within the **configSections** element, create a **section** element.
 
-3. In the **section** element, add an attribute called `name` and assign it a value of `microsoft.visualstudio.testtools`. Add another attribute called `type` and assign it a value of `Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a`.
+3. In the **section** element, add an attribute called `name` and assign it a value of `microsoft.visualstudio.testtools`. Add another attribute called `type` and assign it a value of `Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection, Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions`.
 
 The **section** element should look similar to this:
 
 ```xml
-<section name="microsoft.visualstudio.testtools" type="Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+<section name="microsoft.visualstudio.testtools" type="Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection, Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions" />
 ```
 
 > [!NOTE]
-> The assembly name must match the Microsoft Visual Studio .NET Framework build that you are using. Set the Version to 9.0.0.0 if you are using the Visual Studio .NET Framework 3.5. If you are using the Visual Studio .NET Framework 2.0, set the Version to 8.0.0.0.
+> The assembly name must match the version that you are using.
 
 ## Define connection strings
 

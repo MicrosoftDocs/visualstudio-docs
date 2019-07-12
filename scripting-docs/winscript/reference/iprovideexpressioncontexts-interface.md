@@ -20,7 +20,7 @@ Provides a way to enumerate expression contexts known by a certain component. Sc
  The process debug manager uses this interface to find all global expression contexts associated with a given thread.  
   
 > [!NOTE]
->  This interface is called from within the thread of interest. It is up to the implementer to identify the current thread and return an appropriate enumerator.  
+> This interface is called from within the thread of interest. It is up to the implementer to identify the current thread and return an appropriate enumerator.  
   
 ## Methods  
  In addition to the methods inherited from `IUnknown`, the `IProvideExpressionContexts` interface exposes the following methods.  

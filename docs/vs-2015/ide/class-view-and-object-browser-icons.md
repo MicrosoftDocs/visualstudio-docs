@@ -44,7 +44,7 @@ Class View** and the **Object Browser** display icons that represent code entiti
  The following signal icons apply to all the previous icons and indicate their accessibility.  
   
 > [!NOTE]
->  If your project is included in a source control database, additional signal icons may be displayed to indicate source-control status, such as checked in or checked out.  
+> If your project is included in a source control database, additional signal icons may be displayed to indicate source-control status, such as checked in or checked out.  
   
 |Icon|Description|  
 |----------|-----------------|  

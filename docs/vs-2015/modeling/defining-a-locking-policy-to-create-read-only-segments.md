@@ -18,7 +18,7 @@ The Immutability API of the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visuali
  In addition, as author of a DSL, you can define a *locking policy.* A locking policy defines which locks are permitted, not permitted, or mandatory. For example, when you publish a DSL, you can encourage third-party developers to extend it with new commands. But you could also use a locking policy to prevent them from altering the read-only status of specified parts of the model.  
   
 > [!NOTE]
->  A locking policy can be circumvented by using reflection. It provides a clear boundary for third-party developers, but does not provide strong security.  
+> A locking policy can be circumvented by using reflection. It provides a clear boundary for third-party developers, but does not provide strong security.  
   
  More information and samples are available at the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkId=186128) Web site.  
   

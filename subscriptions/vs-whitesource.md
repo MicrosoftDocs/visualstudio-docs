@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn how to activate the WhiteSource Bolt subscription included with your Visual Studio subscription.
-searchscope: VS Subscription
 ---
 # WhiteSource Bolt in Visual Studio subscriptions
 
@@ -72,8 +71,8 @@ Click the green **Install** button if you are using Azure DevOps Services, or th
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Not Available                                                           |NA         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                             |  NA         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              | NA         |
-| Visual Studio Dev Essentials | NA  | Not available |NA |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
+||
 
 <sup>1</sup>  *Includes:  Microsoft Partner Network (Enterprise).  Excludes: Other Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services, Microsoft Partner Network (Professional).*
 

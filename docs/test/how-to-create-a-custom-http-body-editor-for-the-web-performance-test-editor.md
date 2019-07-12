@@ -1,5 +1,5 @@
 ---
-title: "Create a Custom HTTP Body Editor for the Web Performance Test Editor"
+title: "Create custom HTTP body editor for Web Performance Test Editor"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -37,7 +37,7 @@ These interfaces are contained in the <xref:Microsoft.VisualStudio.TestTools.Web
 
 1. In the **Properties**, select the **Application** tab.
 
-1. In the **Target framework** drop-down list, select **.NET Framework 4**.
+1. In the **Target framework** drop-down list, select .NET Framework 4 (or later).
 
 1. The **Target Framework Change** dialog box is displayed.
 

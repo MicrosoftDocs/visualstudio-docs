@@ -97,7 +97,7 @@ Tells the Visual Studio debugger to get source files from source servers that im
     Tells the Visual Studio debugger to download source files for *.pdb* files that contain Source Link information. For more information about Source Link, see the [Source link specification](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/source_link.md).
 
 > [!IMPORTANT]
->  Because Source Link will download files using http or https, make sure you trust the *.pdb* file.
+> Because Source Link will download files using http or https, make sure you trust the *.pdb* file.
 
 - **Fall back to Git Credential Manager authentication for all Source Link requests**:
     When Source Link support is enabled, and a Source Link request fails authentication, Visual Studio then calls the Git Credential Manager.
@@ -168,8 +168,8 @@ The Live Visual Tree and the Live Property Explore windows will appear when you 
 - **Show runtime tools in application**:
     Shows the **Live Visual Tree** commands in a toolbar on the main window of the XAML application that is being debugged. This option was introduced in Visual Studio 2015 Update 2.
 
-- **Enable XAML Edit and Continue**:
-    Allows you to use the Edit and Continue feature with XAML code.
+- **Enable XAML Hot Reload**:
+    Allows you to use the XAML hot reload feature with XAML code when your app is running. (This feature was previously called "XAML Edit and Continue")
 
 **Enable Diagnostic Tools while debugging**:
 The **Diagnostic Tools** window appears while you are debugging.
@@ -194,6 +194,11 @@ When this option is selected, the [Run to Click](../debugger/debugger-feature-to
 
 **Automatically close the console when debugging stops**:
 Tells Visual Studio to close the console at the end of a debugging session.
+
+::: moniker range=">= vs-2019" 
+**Enable fast expression evaluation (Managed only)**:
+Allows the debugger to attempt faster evaluation by simulating execution of simple properties and methods.
+::: moniker-end
 
 ## Options available in older versions of Visual Studio
 

@@ -17,7 +17,7 @@ manager: jillfra
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
+> In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
  This interface represents a function.  
   
@@ -31,7 +31,7 @@ IDebugFunctionObject : IDebugObject
  An expression evaluator implements this interface to represent a function.  
   
 ## Notes for Callers  
- This interface is a specialization of the [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface and is obtained using [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on the `IDebugObject` interface.  
+ This interface is a specialization of the [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface and is obtained using [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on the `IDebugObject` interface.  
   
 ## Methods in Vtable Order  
  In addition to the methods inherited from [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md), the `IDebugFunctionObject` interface exposes the following methods.  

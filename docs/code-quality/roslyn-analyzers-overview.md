@@ -14,9 +14,9 @@ ms.workload:
 ---
 # Overview of .NET Compiler Platform analyzers
 
-.NET Compiler Platform ("Roslyn") analyzers analyze your code for style, quality and maintainability, design, and other issues. Visual Studio includes a built-in set of analyzers that analyze your C# or Visual Basic code as you type. You configure preferences for these built-in analyzers on the [text editor Options](../ide/code-styles-and-quick-actions.md) page or in an [.editorconfig file](../ide/editorconfig-code-style-settings-reference.md). You can install additional analyzers as a Visual Studio extension or a NuGet package.
+.NET Compiler Platform ("Roslyn") analyzers analyze your code for style, quality and maintainability, design, and other issues. Visual Studio includes a built-in set of analyzers that analyze your C# or Visual Basic code as you type. You configure preferences for these built-in analyzers on the [text editor Options](../ide/code-styles-and-code-cleanup.md) page or in an [.editorconfig file](../ide/editorconfig-code-style-settings-reference.md). You can install additional analyzers as a Visual Studio extension or a NuGet package.
 
-If rule violations are found by an analyzer, they are reported in the code editor (as a *squiggly* under the offending code) and in the **Error List** window.
+If rule violations are found by an analyzer, they are reported in the code editor (as a *squiggle* under the offending code) and in the **Error List** window.
 
 Many analyzer rules, or *diagnostics*, have one or more associated *code fixes* that you can apply to correct the problem. The analyzer diagnostics that are built into Visual Studio each have an associated code fix. Code fixes are shown in the light bulb icon menu along with other types of [Quick Actions](../ide/quick-actions.md). For information about these code fixes, see [Common Quick Actions](../ide/common-quick-actions.md).
 
@@ -26,9 +26,9 @@ Many analyzer rules, or *diagnostics*, have one or more associated *code fixes* 
 
 .NET Compiler Platform ("Roslyn") analyzers will eventually replace [static code analysis](../code-quality/code-analysis-for-managed-code-overview.md) for managed code. Many of the static code analysis rules have already been rewritten as Roslyn analyzer diagnostics.
 
-Like static code analysis rule violations, Roslyn analyzer violations appear in **Error List**. In addition, Roslyn analyzer violations also show up in the code editor as *squigglies* under the offending code. The color of the squiggly depends on the [severity setting](../code-quality/use-roslyn-analyzers.md#rule-severity) of the rule. The following screenshot shows three violations&mdash;one red, one green, and one gray:
+Like static code analysis rule violations, Roslyn analyzer violations appear in **Error List**. In addition, Roslyn analyzer violations also show up in the code editor as *squiggles* under the offending code. The color of the squiggle depends on the [severity setting](../code-quality/use-roslyn-analyzers.md#rule-severity) of the rule. The following screenshot shows three violations&mdash;one red, one green, and one gray:
 
-![Squigglies in the code editor](media/diagnostics-severity-colors.png)
+![Squiggles in the code editor](media/diagnostics-severity-colors.png)
 
 Roslyn analyzers analyze code at build time, like static code analysis if it's enabled, but also live as you type. If you enable [full solution analysis](../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md#to-toggle-full-solution-analysis), Roslyn analyzers also provide design-time analysis of code files that aren't open in the editor.
 
@@ -73,6 +73,14 @@ The following screenshot shows the command-line build output from building a pro
 ### Rule severity
 
 You cannot set the severity of rules from analyzers that were installed as a Visual Studio extension. To configure [rule severity](../code-quality/use-roslyn-analyzers.md#rule-severity), install the analyzers as a NuGet package.
+
+### Categories
+
+Below are the different types of analyzers that help analyze your code. 
+
+- Microsoft's recommended analyzers: [FxCop Analyzers](../code-quality/fxcop-analyzers.yml)
+- Visual Studio IDE analyzers: [EditorConfig](../ide/code-styles-and-code-cleanup.md)
+- Third party analyzers: [StyleCop](https://www.nuget.org/packages/StyleCop.Analyzers/), [Roslynator](https://www.nuget.org/packages/Roslynator/), [XUnit Analyzers](https://www.nuget.org/packages/xunit.analyzers/), [Sonar Analyzer](https://www.nuget.org/packages/SonarAnalyzer.CSharp/)
 
 ## Next steps
 

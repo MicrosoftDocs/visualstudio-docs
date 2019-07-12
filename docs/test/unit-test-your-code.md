@@ -18,7 +18,7 @@ Unit tests give developers and testers a quick way to look for logic errors in t
 
 The unit test tools include:
 
-* **Test Explorer**&mdash;You can run unit tests and see their results in **Test Explorer**. You can use any unit test framework, including a third-party framework, that has an adapter for **Test Explorer**.
+* **Test Explorer**&mdash;Run unit tests and see their results in **Test Explorer**. You can use any unit test framework, including a third-party framework, that has an adapter for **Test Explorer**.
 
 * **Microsoft unit test framework for managed code**&mdash;The Microsoft unit test framework for managed code is installed with Visual Studio and provides a framework for testing .NET code.
 
@@ -32,18 +32,18 @@ You can also use [IntelliTest](../test/generate-unit-tests-for-your-code-with-in
 
 ## Key tasks
 
-Use the following topics to help with understanding and creating unit tests:
+Use the following articles to help with understanding and creating unit tests:
 
 |Tasks|Associated Topics|
 |-|-----------------------|
-|**Quick starts and walkthroughs:** Use the following topics to learn unit testing in Visual Studio from code examples.|-   [Walkthrough: Creating and running unit tests for managed code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)<br />-   [Quickstart: Test-driven development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)<br />-   [Add unit tests to existing C++ applications](../test/how-to-use-microsoft-test-framework-for-cpp.md)|
-|**Unit testing with Test Explorer:** Learn how Test Explorer can help create more productive and efficient unit tests.|-   [Unit test basics](../test/unit-test-basics.md)<br />-   [Create a unit test project](../test/create-a-unit-test-project.md)<br />-   [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)<br />-   [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)|
-|**Unit testing C++ code**|-   [Write unit tests for C/C++ with the Microsoft Unit Testing Framework for C++](../test/writing-unit-tests-for-c-cpp.md)|
-|**Isolating unit tests**|-   [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)|
-|**Use code coverage to identify what proportion of your project's code is tested:** Learn about the code coverage feature of Visual Studio testing tools.|-   [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)|
-|**Perform stress and performance analysis by using load tests:** You can create a load test and add your unit tests to it to help isolate performance and stress issues in your application.|-   [Load testing (Azure Test Plans and TFS)](/azure/devops/test/load-test/index?view=vsts)|
-|**Set quality gates:** You can create quality gates to enforce that tests are run before code is checked in or merged, to help ensure the quality of the code.|-   [Check-in policies (Azure Repos TFVC)](/azure/devops/repos/tfvc/add-check-policies?view=vsts)|
-|**Set testing options:** For example, you can specify where test results are stored.|[Configure unit tests by using a .runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)|
+|**Quickstarts and walkthroughs:** Learn about unit testing in Visual Studio from code examples.|- [Walkthrough: Create and run unit tests for managed code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)<br />- [Quickstart: Test-driven development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)<br />- [How to: Add unit tests to C++ apps](../test/how-to-use-microsoft-test-framework-for-cpp.md)|
+|**Unit testing with Test Explorer:** Learn how Test Explorer can help create more productive and efficient unit tests.|- [Unit test basics](../test/unit-test-basics.md)<br />- [Create a unit test project](../test/create-a-unit-test-project.md)<br />- [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)<br />- [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)|
+|**Unit test C++ code**|- [Write unit tests for C/C++](../test/writing-unit-tests-for-c-cpp.md)|
+|**Isolating unit tests**|- [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)|
+|**Use code coverage to identify what proportion of your project's code is tested:** Learn about the code coverage feature of Visual Studio testing tools.|- [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)|
+|**Perform stress and performance analysis by using load tests:** Learn how to create load tests to help isolate performance and stress issues in your application.|- [Quickstart: Create a load test project](../test/quickstart-create-a-load-test-project.md)<br />- [Load testing (Azure Test Plans and TFS)](/azure/devops/test/load-test/index?view=vsts)|
+|**Set quality gates:** Learn how to create quality gates to enforce that tests are run before code is checked in or merged.|- [Check-in policies (Azure Repos TFVC)](/azure/devops/repos/tfvc/add-check-policies?view=vsts)|
+|**Set testing options:** Learn how to configure test options, for example, where test results are stored.|[Configure unit tests by using a .runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)|
 
 ## API reference documentation
 

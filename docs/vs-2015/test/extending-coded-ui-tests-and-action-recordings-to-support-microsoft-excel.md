@@ -37,7 +37,7 @@ The testing framework for coded UI tests and action recordings does not support 
   Get the sample from this [blog post](http://go.microsoft.com/fwlink/?LinkID=185592).  
   
 > [!NOTE]
->  The sample is intended for use with Microsoft Excel 2010. The sample may work with other versions of Microsoft Excel, but it is not currently supported.  
+> The sample is intended for use with Microsoft Excel 2010. The sample may work with other versions of Microsoft Excel, but it is not currently supported.  
   
 ## Details about the sample  
  The following sections provide information about the sample and its structure.  
@@ -45,7 +45,7 @@ The testing framework for coded UI tests and action recordings does not support 
 ### Microsoft Excel Add-in: ExcelCodedUIAddinHelper  
  This project includes an add-in that runs in the Excel process. See [Sample Excel Add-In for Coded UI Testing](../test/sample-excel-add-in-for-coded-ui-testing.md) for a brief overview of the add-in project.  
   
- For more information, see [Walkthrough: Creating Your First VSTO Add-in for Excel](http://msdn.microsoft.com/library/a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f).  
+ For more information, see [Walkthrough: Creating Your First VSTO Add-in for Excel](https://msdn.microsoft.com/library/a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f).  
   
 ### Excel UI communication: ExcelUIcommunicationHelper  
  This project includes the `IExcelUICommunication` interface and the information classes that are used to pass data between the Coded UI Testing Framework and Excel. For more information, see [Sample Excel Communicator Interface](../test/sample-excel-communicator-interface.md).  

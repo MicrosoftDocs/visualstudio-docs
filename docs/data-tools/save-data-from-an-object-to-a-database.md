@@ -66,7 +66,7 @@ By default, `DBDirect` methods are created on a TableAdapter that can be run dir
      [!code-csharp[VbRaddataSaving#25](../data-tools/codesnippet/CSharp/save-data-from-an-object-to-a-database_3.cs)]
      [!code-vb[VbRaddataSaving#25](../data-tools/codesnippet/VisualBasic/save-data-from-an-object-to-a-database_3.vb)]
 
-## .NET Framework security
+## .NET security
 
 You must have permission to perform the selected `INSERT`, `UPDATE`, or `DELETE` on the table in the database.
 

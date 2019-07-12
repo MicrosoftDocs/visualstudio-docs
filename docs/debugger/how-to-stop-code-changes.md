@@ -22,7 +22,7 @@ ms.workload:
 While Edit and Continue is in the process of applying code changes, you can stop the operation.
 
 > [!CAUTION]
->  Stopping code changes in managed code can produce unexpected results. Applying changes to managed code is normally a quick process, so there is seldom a need to stop code changes in managed code.
+> Stopping code changes in managed code can produce unexpected results. Applying changes to managed code is normally a quick process, so there is seldom a need to stop code changes in managed code.
 
 ### To stop applying code changes
 

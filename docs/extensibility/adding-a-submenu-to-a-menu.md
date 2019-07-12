@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "cascading submenus"
   - "menus, creating cascading submenus"
 ms.assetid: 692600cb-d052-40e2-bdae-4354ae7c6c84
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -122,7 +122,7 @@ This walkthrough builds on the demonstration in [Add a Menu to the Visual Studio
     ```csharp
     private void SubItemCallback(object sender, EventArgs e)
     {
-        IVsUIShell uiShell = (IVsUIShell)this.ServiceProvider.GetService(typeof(SVsUIShell));
+        IVsUIShell uiShell = (IVsUIShell)this.ServiceProvider.GetServiceAsync(typeof(SVsUIShell));
         Guid clsid = Guid.Empty;
         int result;
         uiShell.ShowMessageBox(

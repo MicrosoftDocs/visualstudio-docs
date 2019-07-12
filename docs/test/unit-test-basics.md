@@ -1,6 +1,6 @@
 ---
-title: "Unit Test Basics"
-ms.date: 01/07/2016
+title: Unit testing fundamentals
+ms.date: 06/06/2019
 ms.topic: conceptual
 f1_keywords:
   - "vs.UnitTest.CreateUnitTest"
@@ -159,26 +159,24 @@ public void Withdraw_ValidAmount_ChangesBalance()
     double withdrawal = 1.0;
     double expected = 9.0;
     var account = new CheckingAccount("JohnDoe", currentBalance);
+
     // act
     account.Withdraw(withdrawal);
-    double actual = account.Balance;
+
     // assert
-    Assert.AreEqual(expected, actual);
+    Assert.AreEqual(expected, account.Balance);
 }
 
 [TestMethod]
-[ExpectedException(typeof(ArgumentException))]
 public void Withdraw_AmountMoreThanBalance_Throws()
 {
     // arrange
     var account = new CheckingAccount("John Doe", 10.0);
-    // act
-    account.Withdraw(20.0);
-    // assert is handled by the ExpectedException
+
+    // act and assert
+    Assert.ThrowsException<System.ArgumentException>(() => account.Withdraw(20.0));
 }
 ```
-
-Note that `Withdraw_ValidAmount_ChangesBalance` uses an explicit `Assert` statement to determine whether the test method passes or fails, while `Withdraw_AmountMoreThanBalance_Throws` uses the `ExpectedException` attribute to determine the success of the test method. Under the covers, a unit test framework wraps test methods in try/catch statements. In most cases, if an exception is caught, the test method fails and the exception is ignored. The `ExpectedException` attribute causes the test method to pass if the specified exception is thrown.
 
 For more information about the Microsoft unit testing frameworks, see one of the following topics:
 

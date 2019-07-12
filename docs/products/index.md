@@ -4,6 +4,7 @@ hide_bc: true
 title: Visual Studio Products | Microsoft Docs
 description: Explore the Visual Studio family of products.
 ms.topic: landing-page
+ms.date: 07/02/2019
 searchScope: []
 ---
 <!-- markdownlint-disable MD033 -->
@@ -24,7 +25,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-ide-2019.svg" src="./images/vs-ide-2019.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-ide-2019.svg" src="./images/vs-ide-2019.svg" alt="Visual Studio 2019 logo" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -43,7 +44,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-mac-2019.svg" src="./images/vs-mac-2019.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-mac-2019.svg" src="./images/vs-mac-2019.svg" alt="Visual Studio for Mac" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -61,8 +62,8 @@ searchScope: []
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-code.svg" src="./images/vs-code.svg" alt="" />
+                                                    <div class="cardImage"> 
+                                                        <img data-scaleimage="./images/vs-code-logo.svg" src="./images/vs-code-logo.svg" alt="Visual Studio Code" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -81,7 +82,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-mobile-center.svg" src="./images/vs-mobile-center.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-mobile-center.svg" src="./images/vs-mobile-center.svg" alt="Visual Studio App Center" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -100,7 +101,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-subscription-temp.svg" src="./images/vs-subscription-temp.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-subscription-temp.svg" src="./images/vs-subscription-temp.svg" alt="Visual Studio Subscriptions" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -119,7 +120,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="Azure DevOps Services - formerly Visual Studio Team Services (VSTS)" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -138,7 +139,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="Azure DevOps Server - formerly Team Foundation Server (TFS)" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">

@@ -1,5 +1,5 @@
 ---
-title: "Collecting Detailed Timing Data for an ASP.NET Web Application Using the Profiler Instrumentation Method from the Command Line | Microsoft Docs"
+title: "VSPerfCmd: Get timing data for ASP.NET web app using instrumentation"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -16,7 +16,7 @@ ms.workload:
 This section describes the procedures and options for collecting detailed performance data for an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application by using the **VSPerfCmd** command line tool and the instrumentation method.
 
 > [!NOTE]
->  The **VSPerfCmd** tool provides you with complete access to Profiling Tools functionality, including pausing and resuming profiling, and collecting additional data from processor and Windows performance counters. You can also use the  **VSPerfASPNETCmd** command-line tool when you do not need this functionality. In comparison to the [VSPerfCmd](../profiling/vsperfcmd.md) command-line tool, no environment variables have to be set, and rebooting the computer is not required. For more information, see [Rapid web site profiling with VSPerfASPNETCmd](../profiling/rapid-web-site-profiling-with-vsperfaspnetcmd.md).
+> The **VSPerfCmd** tool provides you with complete access to Profiling Tools functionality, including pausing and resuming profiling, and collecting additional data from processor and Windows performance counters. You can also use the  **VSPerfASPNETCmd** command-line tool when you do not need this functionality. In comparison to the [VSPerfCmd](../profiling/vsperfcmd.md) command-line tool, no environment variables have to be set, and rebooting the computer is not required. For more information, see [Rapid web site profiling with VSPerfASPNETCmd](../profiling/rapid-web-site-profiling-with-vsperfaspnetcmd.md).
 
 ## Common tasks
 

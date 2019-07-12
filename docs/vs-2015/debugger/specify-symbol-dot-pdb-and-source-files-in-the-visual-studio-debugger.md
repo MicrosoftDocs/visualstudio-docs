@@ -66,7 +66,7 @@ A program database (.pdb) file, also called a symbol file, maps the identifiers 
 4. To improve symbol loading performance type the path a local directory where symbols can be copied by symbol servers in the **Cache symbols in this directory** box a local directory that symbols can be copied to.
 
    > [!NOTE]
-   >  Do not place your symbol cache in a protected folder (such as the C:\Windows folder or one of its subfolders). Use a read-write folder instead.
+   > Do not place your symbol cache in a protected folder (such as the C:\Windows folder or one of its subfolders). Use a read-write folder instead.
 
    **Specify symbol loading behavior**
 
@@ -88,10 +88,10 @@ A program database (.pdb) file, also called a symbol file, maps the identifiers 
 
    When selected, loads DLL export tables. Symbolic information from DLL export tables can be useful if you are working with Windows messages, Windows procedures (WindowProcs), COM objects, or marshaling, or any DLL for which you do not have symbols. Reading DLL export information involves some overhead. Therefore, this capability is turned off by default.
 
-   To see what symbols are available in the export table of a DLL, use `dumpbin /exports`. Symbols are available for any 32-bit system DLL. By reading the `dumpbin /exports` output, you can see the exact function name, including non-alphanumeric characters. This is useful for setting a breakpoint on a function. Function names from DLL export tables might appear truncated elsewhere in the debugger. The calls are listed in the calling order, with the current function (the most deeply nested) at the top. For more information, see [dumpbin /exports](http://msdn.microsoft.com/library/2971ab7e-4ee6-478b-9c85-cda42a4ce1bf).
+   To see what symbols are available in the export table of a DLL, use `dumpbin /exports`. Symbols are available for any 32-bit system DLL. By reading the `dumpbin /exports` output, you can see the exact function name, including non-alphanumeric characters. This is useful for setting a breakpoint on a function. Function names from DLL export tables might appear truncated elsewhere in the debugger. The calls are listed in the calling order, with the current function (the most deeply nested) at the top. For more information, see [dumpbin /exports](https://msdn.microsoft.com/library/2971ab7e-4ee6-478b-9c85-cda42a4ce1bf).
 
 ### <a name="BKMK_Use_symbol_servers_to_find_symbol_files_not_on_your_local_machine"></a> Use symbol servers to find symbol files not on your local machine
- [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] can download debugging symbol files from symbol servers that implement the symsrv protocol. [Visual Studio Team Foundation Server](http://msdn.microsoft.com/library/bd6977ca-e30a-491a-a153-671d81222ce6) and the [Debugging Tools for Windows](http://msdn.microsoft.com/library/windows/hardware/ff551063\(v=VS.85\).aspx) are two tools that can implement symbol servers. You specify the symbol servers to use in the VS **Options** dialog box.
+ [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] can download debugging symbol files from symbol servers that implement the symsrv protocol. [Visual Studio Team Foundation Server](https://msdn.microsoft.com/library/bd6977ca-e30a-491a-a153-671d81222ce6) and the [Debugging Tools for Windows](https://msdn.microsoft.com/library/windows/hardware/ff551063\(v=VS.85\).aspx) are two tools that can implement symbol servers. You specify the symbol servers to use in the VS **Options** dialog box.
 
  Symbol servers that you might use include:
 
@@ -110,7 +110,7 @@ A program database (.pdb) file, also called a symbol file, maps the identifiers 
  Third-party providers of Windows applications and libraries can provide access to symbol server on the internet. You also enter the URL of these symbol servers on the **Debugging**/**Symbols** page,
 
 > [!NOTE]
->  If you use a symbol server other than the Microsoft public symbol servers, make sure that the symbol server and its path are trustworthy. Because symbol files can contain arbitrary executable code, you can become exposed to security threats.
+> If you use a symbol server other than the Microsoft public symbol servers, make sure that the symbol server and its path are trustworthy. Because symbol files can contain arbitrary executable code, you can become exposed to security threats.
 
 ### <a name="BKMK_Find_and_load_symbols_while_debugging"></a> Find and load symbols while debugging
  At any time that the debugger is in break mode, you can load symbols for a module that was previously excluded by debugger options or that the compiler could not find. You can load symbols from the shortcut menus of the Call Stack, Modules, Locals, Autos, and all Watch windows. If the debugger breaks in code that does not have symbol or source files available, a document window appears. Here you can find information about the missing files and take actions to locate and load them.
@@ -159,9 +159,9 @@ A program database (.pdb) file, also called a symbol file, maps the identifiers 
 
  **C++ options**
 
- A program database (.pdb) file holds debugging and project state information that allows incremental linking of a Debug configuration of your program. A .pdb file is created when you build with [/ZI or /Zi](http://msdn.microsoft.com/library/ce9fa7e1-0c9b-47e3-98ea-26d1a16257c8) (for C/C++).
+ A program database (.pdb) file holds debugging and project state information that allows incremental linking of a Debug configuration of your program. A .pdb file is created when you build with [/ZI or /Zi](https://msdn.microsoft.com/library/ce9fa7e1-0c9b-47e3-98ea-26d1a16257c8) (for C/C++).
 
- In [!INCLUDE[vcprvc](../includes/vcprvc-md.md)], the [/Fd](http://msdn.microsoft.com/library/3977a9ed-f0ac-45df-bf06-01cedd2ba85a) option names the .pdb file created by the compiler. When you create a project in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] using wizards, the **/Fd** option is set to create a .pdb file named *project*.pdb.
+ In [!INCLUDE[vcprvc](../includes/vcprvc-md.md)], the [/Fd](https://msdn.microsoft.com/library/3977a9ed-f0ac-45df-bf06-01cedd2ba85a) option names the .pdb file created by the compiler. When you create a project in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] using wizards, the **/Fd** option is set to create a .pdb file named *project*.pdb.
 
  If you build your C/C++ application using a makefile, and you specify **/ZI** or **/Zi** without **/Fd**, you end up with two .pdb files:
 
@@ -177,7 +177,7 @@ A program database (.pdb) file, also called a symbol file, maps the identifiers 
 
   **.NET Framework options**
 
-  A program database (.pdb) file holds debugging and project state information that allows incremental linking of a debug configuration of your program. A .pdb file is created when you build with **/debug**. You can build applications with **/debug:full** or **/debug:pdbonly**. Building with **/debug:full** generates debuggable code. Building with **/debug:pdbonly** generates .pdb files but does not generate the `DebuggableAttribute` that tells the JIT compiler that debug information is available. Use **/debug:pdbonly** if you want to generate .pdb files for a release build that you do not want to be debuggable. For more information, see [/debug (C# Compiler Options)](http://msdn.microsoft.com/library/e2b48c07-01bc-45cc-a52c-92e9085eb969) or [/debug (Visual Basic)](http://msdn.microsoft.com/library/c2b0bea5-1d5e-499f-9bd5-4f6c6b715ea2).
+  A program database (.pdb) file holds debugging and project state information that allows incremental linking of a debug configuration of your program. A .pdb file is created when you build with **/debug**. You can build applications with **/debug:full** or **/debug:pdbonly**. Building with **/debug:full** generates debuggable code. Building with **/debug:pdbonly** generates .pdb files but does not generate the `DebuggableAttribute` that tells the JIT compiler that debug information is available. Use **/debug:pdbonly** if you want to generate .pdb files for a release build that you do not want to be debuggable. For more information, see [/debug (C# Compiler Options)](https://msdn.microsoft.com/library/e2b48c07-01bc-45cc-a52c-92e9085eb969) or [/debug (Visual Basic)](https://msdn.microsoft.com/library/c2b0bea5-1d5e-499f-9bd5-4f6c6b715ea2).
 
   The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] debugger uses the path to the .pdb file in the EXE or DLL file to find the project.pdb file. If the debugger cannot find the .pdb file at that location, or if the path is invalid, the debugger searches the path containing the EXE, and then the symbol paths specified in the **Options** dialog box. This path is generally the **Debugging** folder in the **Symbols** node. The debugger will not load a .pdb file that does not match the executable file being debugged. If the debugger cannot find a .pdb file, a **Find Symbols** dialog box appears, which allows you to search for symbols or to add additional locations to the search path.
 
@@ -218,7 +218,7 @@ A program database (.pdb) file, also called a symbol file, maps the identifiers 
  When there is no source code on the local machine or the .pdb file does not match the source code, you can use Source Server to help debug an application. Source Server takes requests for files and returns the actual files. Source Server runs by means of a DLL file named srcsrv.dll. Source Server reads the application's .pdb file, which contains pointers to the source code repository, as well as commands used to retrieve source code from the repository. You can limit what commands are allowed to be executed from the application's .pdb file by listing the allowed commands inside a file named srcsrv.ini, which must be placed in the same directory as srcsrv.dll and devenv.exe.
 
 > [!IMPORTANT]
->  Arbitrary commands can be embedded in the application's .pdb file, so make sure you put only the ones you want to execute in the srcsrv.ini file. Any attempt to execute a command not in the srcsvr.ini file will cause a confirmation dialog box to appear. For more information, see [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning-debugger-must-execute-untrusted-command.md). No validation is done on command parameters, so be careful with trusted commands. For example, if you trusted cmd.exe, a malicious user might specify parameters that would make the command dangerous.
+> Arbitrary commands can be embedded in the application's .pdb file, so make sure you put only the ones you want to execute in the srcsrv.ini file. Any attempt to execute a command not in the srcsvr.ini file will cause a confirmation dialog box to appear. For more information, see [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning-debugger-must-execute-untrusted-command.md). No validation is done on command parameters, so be careful with trusted commands. For example, if you trusted cmd.exe, a malicious user might specify parameters that would make the command dangerous.
 
  **To enable the use of a Source Server**
 

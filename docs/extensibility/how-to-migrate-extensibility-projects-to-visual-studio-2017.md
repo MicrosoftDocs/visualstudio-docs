@@ -3,8 +3,8 @@ title: "How to: Migrate Extensibility Projects to Visual Studio 2017 | Microsoft
 ms.date: "11/09/2016"
 ms.topic: "conceptual"
 ms.assetid: 8ca07b00-a3ff-40ab-b647-c0a93b55e86a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -56,8 +56,8 @@ To ensure that the user's installation of Visual Studio has all the assemblies r
 * Edit the extension manifest file (usually called *source.extension.vsixmanifest*).
 * Ensure `InstallationTarget` includes 15.0.
 * Add required installation prerequisites (as shown in the example below).
-   * We recommend you specify only Component IDs for installation prerequisites.
-   * See the section at the end of this document for [instructions on identifying Component IDs](#find-component-ids).
+  * We recommend you specify only Component IDs for installation prerequisites.
+  * See the section at the end of this document for [instructions on identifying Component IDs](#find-component-ids).
 
 Example:
 
@@ -114,12 +114,12 @@ It might look like: *C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterpr
 
 * Build the VSIX project.
 * Unzip the generated VSIX.
-   * By default, the VSIX file lives inside *bin/Debug* or *bin/Release* as *[YourCustomExtension].vsix*.
-   * Rename *.vsix* to *.zip* to easily view the contents.
+  * By default, the VSIX file lives inside *bin/Debug* or *bin/Release* as *[YourCustomExtension].vsix*.
+  * Rename *.vsix* to *.zip* to easily view the contents.
 * Check for the existence of three files:
-   * *extension.vsixmanifest*
-   * *manifest.json*
-   * *catalog.json*
+  * *extension.vsixmanifest*
+  * *manifest.json*
+  * *catalog.json*
 
 ## Check when all required prerequisites are installed
 
@@ -135,11 +135,11 @@ Attempt to install the extension:
 ![VSIX installer on Visual Studio 2017](media/vsixinstaller-vs-2017.png)
 
 * Optional: Check on previous versions of Visual Studio.
-   * Proves backward compatibility.
-   * Should work for Visual Studio 2012, Visual Studio 2013, Visual Studio 2015.
+  * Proves backward compatibility.
+  * Should work for Visual Studio 2012, Visual Studio 2013, Visual Studio 2015.
 * Optional: Check that VSIX Installer Version Checker offers a choice of versions.
-   * Includes previous versions of Visual Studio (if installed).
-   * Includes Visual Studio 2017.
+  * Includes previous versions of Visual Studio (if installed).
+  * Includes Visual Studio 2017.
 
 If Visual Studio was recently opened, you might see a dialog box like this:
 

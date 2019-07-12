@@ -1,5 +1,5 @@
 ---
-title: "Trigger suspend, resume, and background events while debugging UWP | Microsoft Docs"
+title: "Trigger suspend/resume/background events when debugging UWP"
 ms.custom: "seodec18"
 ms.date: "01/16/2018"
 ms.topic: "conceptual"
@@ -46,7 +46,7 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
  You can trigger the events that start background tasks for your app from the debugger.
 
 > [!NOTE]
->  The debugger can trigger only those events that do not contain data, such as events that indicate a change of state in the device. You have to manually trigger background tasks that require user input or other data.
+> The debugger can trigger only those events that do not contain data, such as events that indicate a change of state in the device. You have to manually trigger background tasks that require user input or other data.
 
  The most realistic way to trigger a background task event is when your app is not running. However, triggering the event in a standard debugging session is also supported.
 

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API Using the Designer | Microsoft Docs"
+title: "Download assemblies on demand with ClickOnce using the designer"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -34,7 +34,7 @@ By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deploymen
 1. Create a new Windows Forms project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. On the **File** menu, point to **Add**, and then click **New Project**. Choose a **Class Library** project in the dialog box and name it `ClickOnceLibrary`.
 
    > [!NOTE]
-   >  In Visual Basic, we recommend that you modify the project properties to change the root namespace for this project to `Microsoft.Samples.ClickOnceOnDemand` or to a namespace of your choice. For simplicity, the two projects in this walkthrough are in the same namespace.
+   > In Visual Basic, we recommend that you modify the project properties to change the root namespace for this project to `Microsoft.Samples.ClickOnceOnDemand` or to a namespace of your choice. For simplicity, the two projects in this walkthrough are in the same namespace.
 
 2. Define a class named `DynamicClass` with a single property named `Message`.
 
@@ -44,7 +44,7 @@ By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deploymen
 3. Select the Windows Forms project in **Solution Explorer**. Add a reference to the <xref:System.Deployment.Application> assembly and a project reference to the `ClickOnceLibrary` project.
 
    > [!NOTE]
-   >  In Visual Basic, we recommend that you modify the project properties to change the root namespace for this project to `Microsoft.Samples.ClickOnceOnDemand` or to a namespace of your choice. For simplicity, the two projects in this walkthrough are located in the same namespace.
+   > In Visual Basic, we recommend that you modify the project properties to change the root namespace for this project to `Microsoft.Samples.ClickOnceOnDemand` or to a namespace of your choice. For simplicity, the two projects in this walkthrough are located in the same namespace.
 
 4. Right-click the form, click **View Code** from the menu, and add the following references to the form.
 

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Custom Deployment Step for SharePoint Projects | Microsoft Docs"
+title: "Create custom deployment step for SharePoint projects"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -23,9 +23,9 @@ ms.workload:
 
 - Creating a Visual Studio extension that performs two main tasks:
 
-    - The extension defines a custom deployment step to upgrade SharePoint solutions.
+  - The extension defines a custom deployment step to upgrade SharePoint solutions.
 
-    - The extension creates a project extension that defines a new deployment configuration, which is a set of deployment steps that are executed for a given project. The new deployment configuration includes the custom deployment step and several built-in deployment steps.
+  - The extension creates a project extension that defines a new deployment configuration, which is a set of deployment steps that are executed for a given project. The new deployment configuration includes the custom deployment step and several built-in deployment steps.
 
 - Create two custom SharePoint commands that the extension assembly calls. SharePoint commands are methods that can be called by extension assemblies to use APIs in the server object model for SharePoint. For more information, see [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md).
 
@@ -68,7 +68,7 @@ ms.workload:
 3. In the **New Project** dialog box, expand the **Visual C#** or **Visual Basic** nodes, and then choose the **Extensibility** node.
 
     > [!NOTE]
-    >  The **Extensibility** node is available only if you install the Visual Studio SDK. For more information, see the prerequisites section earlier in this topic.
+    > The **Extensibility** node is available only if you install the Visual Studio SDK. For more information, see the prerequisites section earlier in this topic.
 
 4. At the top of the dialog box, choose **.NET Framework 4.5** in the list of versions of the .NET Framework.
 
@@ -141,7 +141,7 @@ ms.workload:
 1. In the **DeploymentStepExtension** project, open the UpgradeStep code file, and then paste the following code into it.
 
     > [!NOTE]
-    >  After you add this code, the project will have some compile errors, but they'll go away when you add code in later steps.
+    > After you add this code, the project will have some compile errors, but they'll go away when you add code in later steps.
 
      [!code-csharp[SPExtensibility.ProjectExtension.UpgradeDeploymentStep#1](../sharepoint/codesnippet/CSharp/UpgradeDeploymentStep/deploymentstepextension/upgradestep.cs#1)]
      [!code-vb[SPExtensibility.ProjectExtension.UpgradeDeploymentStep#1](../sharepoint/codesnippet/VisualBasic/upgradedeploymentstep/deploymentstepextension/upgradestep.vb#1)]
@@ -199,7 +199,7 @@ ms.workload:
 6. In the **Type** list, choose **Microsoft.VisualStudio.MefComponent**.
 
     > [!NOTE]
-    >  This value corresponds to the `MefComponent` element in the extension.vsixmanifest file. This element specifies the name of an extension assembly in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\)).
+    > This value corresponds to the `MefComponent` element in the extension.vsixmanifest file. This element specifies the name of an extension assembly in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\)).
 
 7. In the **Source** list, choose **A project in current solution**.
 
@@ -212,7 +212,7 @@ ms.workload:
 10. In the **Type** list, enter **SharePoint.Commands.v4**.
 
     > [!NOTE]
-    >  This element specifies a custom extension that you want to include in the Visual Studio extension. For more information, see [Asset Element (VSX Schema)](https://msdn.microsoft.com/9fcfc098-edc7-484b-9d4c-acd17829d737).
+    > This element specifies a custom extension that you want to include in the Visual Studio extension. For more information, see [Asset Element (VSX Schema)](https://msdn.microsoft.com/9fcfc098-edc7-484b-9d4c-acd17829d737).
 
 11. In the **Source** list, choose **A project in current solution**.
 
@@ -256,7 +256,7 @@ ms.workload:
 6. Under **What is the trust level for this SharePoint solution**, choose the **Deploy as a farm solution** option button.
 
    > [!NOTE]
-   >  The upgrade deployment step doesn't support sandboxed solutions.
+   > The upgrade deployment step doesn't support sandboxed solutions.
 
 7. Choose the **Finish** button.
 

@@ -28,7 +28,7 @@ IDebugQueryEngine2 : IUnknown
  The DE implements this interface on the objects that implement the most common DE interfaces (such as [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md), [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md), and [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)) in order to allow access to the [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md) interface of the DE itself.  
   
 ## Notes for Callers  
- Call [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on a typical DE interface to obtain this interface.  
+ Call [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on a typical DE interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugQueryEngine2`.  

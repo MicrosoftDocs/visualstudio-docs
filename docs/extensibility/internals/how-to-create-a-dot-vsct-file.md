@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "VSCT files, creating"
 ms.assetid: b955f51c-f9f9-49c3-a8e4-63b6eb0e0341
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -74,7 +74,7 @@ You can create an XML-based *.vsct* file from an existing command table *.ctc* s
     This action creates a new *.vsct* XML command table source file. You can compile the file by using *Vsct.exe*, the VSCT compiler, as you would any other *.vsct* file.
 
    > [!NOTE]
-   >  You can improve the readability of the *.vsct* file by reformatting the XML comments.
+   > You can improve the readability of the *.vsct* file by reformatting the XML comments.
 
 <a name="how-to-create-a-dot-vsct-file-from-an-existing-dot-cto-file"></a>
 

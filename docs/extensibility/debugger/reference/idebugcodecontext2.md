@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCodeContext2 interface"
 ms.assetid: 3670439e-2171-405d-9d77-dedb0f1cba93
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -46,7 +46,7 @@ IDebugCodeContext2 : IDebugMemoryContext2
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [GetDisassemblyStream](../../../extensibility/debugger/reference/idebugprogram2-getdisassemblystream.md)
 - [CanSetNextStatement](../../../extensibility/debugger/reference/idebugthread2-cansetnextstatement.md)
 - [SetNextStatement](../../../extensibility/debugger/reference/idebugthread2-setnextstatement.md)

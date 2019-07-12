@@ -103,7 +103,7 @@ If you change the information persisted in the project file between different Vi
   4. The environment calls `IVsProjectUpgrade::UpgradeProject` for a second time to determine whether the project object should be upgraded. However, this call is made on a new, second, instance of the project, Project2. This is the project that is opened in the solution.  
   
       > [!NOTE]
-      >  In the instance that your first project, Project1, is placed in the inactive state, then you must return <xref:Microsoft.VisualStudio.VSConstants.S_OK> from the first call to your <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject%2A> implementation. See [Basic Project](http://msdn.microsoft.com/385fd2a3-d9f1-4808-87c2-a3f05a91fc36) for an implementation of `IVsProjectUpgrade::UpgradeProject`.  
+      > In the instance that your first project, Project1, is placed in the inactive state, then you must return <xref:Microsoft.VisualStudio.VSConstants.S_OK> from the first call to your <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject%2A> implementation. See [Basic Project](https://msdn.microsoft.com/385fd2a3-d9f1-4808-87c2-a3f05a91fc36) for an implementation of `IVsProjectUpgrade::UpgradeProject`.  
   
   5. You call <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> and pass in a value of <xref:Microsoft.VisualStudio.Shell.Interop.tagVSQueryEditFlags> for the `rgfQueryEdit` parameter.  
   
@@ -112,6 +112,6 @@ If you change the information persisted in the project file between different Vi
   If you fail to upgrade, return <xref:Microsoft.VisualStudio.Shell.Interop.VSErrorCodes> from `IVsProjectUpgrade::UpgradeProject`. If no upgrade is necessary or you choose not to upgrade, treat the `IVsProjectUpgrade::UpgradeProject` call as a no-op. If you return <xref:Microsoft.VisualStudio.Shell.Interop.VSErrorCodes>, a placeholder node is added to the solution for your project.  
   
 ## See Also  
- [Visual Studio Conversion Wizard](http://msdn.microsoft.com/4acfd30e-c192-4184-a86f-2da5e4c3d83c)   
+ [Visual Studio Conversion Wizard](https://msdn.microsoft.com/4acfd30e-c192-4184-a86f-2da5e4c3d83c)   
  [Upgrading Project Items](../misc/upgrading-project-items.md)   
  [Projects](../extensibility/internals/projects.md)

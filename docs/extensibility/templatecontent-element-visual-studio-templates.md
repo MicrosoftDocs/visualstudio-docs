@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
   - "TemplateContent element [Visual Studio project templates]"
 ms.assetid: 90ae401c-b294-49ac-98da-e0d274f5bebb
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -75,7 +75,7 @@ Element hierarchy:
     </TemplateData>
     <TemplateContent>
         <Project File="MyStarterKit.csproj">
-            <ProjectItem>Form1.cs<ProjectItem>
+            <ProjectItem>Form1.cs</ProjectItem>
             <ProjectItem>Form1.Designer.cs</ProjectItem>
             <ProjectItem>Program.cs</ProjectItem>
             <ProjectItem>Properties\AssemblyInfo.cs</ProjectItem>

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumDebugPorts2::Reset"
 ms.assetid: 67da406c-eadb-421e-ae12-e26e9866f262
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEnumDebugPorts2::Reset
 Resets the enumeration to the first element.
@@ -34,5 +37,5 @@ int Reset();
 ## Remarks
  After this method is called, the next call to the [Next](../../../extensibility/debugger/reference/ienumdebugports2-next.md) method returns the first element of the enumeration.
 
-## See Also
+## See also
 - [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md)

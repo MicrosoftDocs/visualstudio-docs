@@ -123,7 +123,7 @@ If you have access to a MEF-enabled DSL created by yourself or someone else, you
 
    - This assembly usually has a name that ends with ".Dsl.dll".
 
-   - If you have access to the DSL project, you can find the assembly file under the directory **Dsl\bin\\\\***
+   - If you have access to the DSL project, you can find the assembly file under the directory **Dsl\\bin\\\***
 
    - If you have access to the DSL VSIX file, you can find the assembly by changing the file name extension of the VSIX file to ".zip". Decompress the .zip file.
 
@@ -151,7 +151,7 @@ If you have access to a MEF-enabled DSL created by yourself or someone else, you
 
    1. In **source.extension.vsixmanifest**, click **Add Reference**
 
-   2. In the dialog box, click **Add Payload** and then locate the VSIX file of the DSL. The VSIX file is built in the DSL solution, in **DslPackage\bin\\\\***.
+   2. In the dialog box, click **Add Payload** and then locate the VSIX file of the DSL. The VSIX file is built in the DSL solution, in **DslPackage\\bin\\\***.
 
        This lets users install the DSL and your extension at the same time. If the user has already installed the DSL, only your extension will be installed.
 

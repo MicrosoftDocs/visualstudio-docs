@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "PENDING_BP_STATE_INFO structure"
 ms.assetid: 4d73ceff-43f9-4e95-8dba-88e1fab2def3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # PENDING_BP_STATE_INFO
 Contains information about the state of a breakpoint that is ready to bind to a code location.
@@ -33,10 +36,10 @@ public struct PENDING_BP_STATE_INFO { 
 ```
 
 ## Members
- state
+ `state`\
  A value from the [PENDING_BP_STATE](../../../extensibility/debugger/reference/pending-bp-state.md) enumeration that specifies the state of the pending breakpoint.
 
- flags
+ `flags`\
  A combination of flags from the [PENDING_BP_STATE_FLAGS](../../../extensibility/debugger/reference/pending-bp-state-flags.md) enumeration that specifies whether the breakpoint is virtualized.
 
 ## Remarks
@@ -49,7 +52,7 @@ public struct PENDING_BP_STATE_INFO { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [GetState](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-getstate.md)
 - [PENDING_BP_STATE](../../../extensibility/debugger/reference/pending-bp-state.md)

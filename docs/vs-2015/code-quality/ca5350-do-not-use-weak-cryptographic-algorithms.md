@@ -20,7 +20,7 @@ manager: "wpickett"
 |Breaking Change|Non Breaking|  
   
 > [!NOTE]
->  This warning was last updated on November 2015.  
+> This warning was last updated on November 2015.  
   
 ## Cause  
  Encryption algorithms such as <xref:System.Security.Cryptography.TripleDES> and hashing algorithms such as <xref:System.Security.Cryptography.SHA1> and <xref:System.Security.Cryptography.RIPEMD160> are considered to be weak.  

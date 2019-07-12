@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Custom Installer for a ClickOnce Application | Microsoft Docs"
+title: "Create custom installer for ClickOnce application"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -47,7 +47,7 @@ Any ClickOnce application based on an *.exe* file can be silently installed and 
      These methods call <xref:System.Deployment.Application.InPlaceHostingManager> methods to download the deployment manifest, assert appropriate permissions, ask the user for permission to install, and then download and install the application into the ClickOnce cache. A custom installer can specify that a ClickOnce application is pre-trusted, or can defer the trust decision to the <xref:System.Deployment.Application.InPlaceHostingManager.AssertApplicationRequirements%2A> method call. This code pre-trusts the application.
 
     > [!NOTE]
-    >  Permissions assigned by pre-trusting cannot exceed the permissions of the custom installer code.
+    > Permissions assigned by pre-trusting cannot exceed the permissions of the custom installer code.
 
      [!code-vb[System.Deployment.Application.InPlaceHostingManager#1](../deployment/codesnippet/VisualBasic/walkthrough-creating-a-custom-installer-for-a-clickonce-application_1.vb)]
      [!code-csharp[System.Deployment.Application.InPlaceHostingManager#1](../deployment/codesnippet/CSharp/walkthrough-creating-a-custom-installer-for-a-clickonce-application_1.cs)]

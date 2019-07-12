@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 01/25/2019
 ms.topic: conceptual
 description:  Learn about the Pluralsight training subscription included with selected Visual Studio subscriptions.
-searchscope: VS Subscription
 ---
 
 # Pluralsight training benefits in Visual Studio subscriptions
@@ -36,7 +35,7 @@ The table below details what Pluralsight subscription benefits are available to 
    - Click the checkbox to accept the terms of use and privacy policy
    - Click **I agree, activate benefit**.
      > [!div class="mx-imgBorder"]
-     > ![Pluralsight Benefit Activation](_img/vs-pluralsight/vs-pluralsight-create-account-no-code.png)
+     > ![Pluralsight Benefit Activation](_img/vs-pluralsight/vs-pluralsight-create-account-no-code.png)  
      > [!div class="mx-imgBorder"]
      > ![Pluralsight Benefit Terms](_img/vs-pluralsight/vs-pluralsight-terms.png)
 
@@ -67,9 +66,9 @@ The table below details what Pluralsight subscription benefits are available to 
 |         Visual Studio Professional (Standard)          | VL, Azure, Retail |   3 months    | Yes<sup>2</sup> |
 |              Visual Studio Test Professional (Standard)              |    VL, Retail     |   3 months    | No |
 |                      MSDN Platforms (Standard)                       |    VL, Retail     |   3 months    | No |
-|                     Visual Studio Dev Essentials                     |        NA         |   1 month    |       No       |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) |       Azure       | Not available |       NA       |
 |             Visual Studio Enterprise (NFR<sup>1</sup> )              |      Program      | Not available |       NA       |
+||
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Partner Network (MPN), FTE, Imagine.*
 

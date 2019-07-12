@@ -41,7 +41,7 @@ manager: jillfra
   
      A new console project appears. When the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called Module1.vb, Program.cs, or MyThreadWalkthroughApp.cpp  
   
-6. Delete the code that appears in the source file and replace it with the example code that appears in the section "Creating a Thread" of the topic [Creating Threads and Passing Data at Start Time](http://msdn.microsoft.com/library/52b32222-e185-4f42-91a7-eaca65c0ab6d).  
+6. Delete the code that appears in the source file and replace it with the example code that appears in the section "Creating a Thread" of the topic [Creating Threads and Passing Data at Start Time](https://msdn.microsoft.com/library/52b32222-e185-4f42-91a7-eaca65c0ab6d).  
   
 7. On the **File** menu, click **Save All**.  
   
@@ -118,7 +118,7 @@ Thread::Sleep(3000);
 2. Go to the **Debugging Location** toolbar and click the **Thread** list.  
   
     > [!NOTE]
-    >  You can recognize this toolbar by three prominent lists: **Process**, **Thread**, and **Stack Frame**.  
+    > You can recognize this toolbar by three prominent lists: **Process**, **Thread**, and **Stack Frame**.  
   
 3. Notice how many threads appear in the list.  
   

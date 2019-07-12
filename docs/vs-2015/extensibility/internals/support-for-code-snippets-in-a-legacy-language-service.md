@@ -23,7 +23,7 @@ A code snippet is a piece of code that is inserted into the source file. The sni
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more, see [Walkthrough: Implementing Code Snippets](../../extensibility/walkthrough-implementing-code-snippets.md).  
   
 > [!NOTE]
->  We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.  
+> We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.  
   
 ## Managed Package Framework Support for Code Snippets  
  The managed package framework (MPF) supports most snippet functionality, from reading the template to inserting the snippet and enabling the special edit mode. Support is managed through the <xref:Microsoft.VisualStudio.Package.ExpansionProvider> class.  
@@ -111,7 +111,7 @@ A code snippet is a piece of code that is inserted into the source file. The sni
 ### Inserting a Code Snippet by using a Menu Command  
  To use a menu command to display the snippet browser, you add a menu command and then call the <xref:Microsoft.VisualStudio.Package.ExpansionProvider.DisplayExpansionBrowser%2A> method in the <xref:Microsoft.VisualStudio.Package.ExpansionProvider> interface in response to that menu command.  
   
-1. Add a command and a button to your .vsct file. You can find instructions for doing so in [Walkthrough: Creating a Menu Command By Using the Visual Studio Package Template](http://msdn.microsoft.com/library/1985fa7d-aad4-4866-b356-a125b6a246de).  
+1. Add a command and a button to your .vsct file. You can find instructions for doing so in [Walkthrough: Creating a Menu Command By Using the Visual Studio Package Template](https://msdn.microsoft.com/library/1985fa7d-aad4-4866-b356-a125b6a246de).  
   
 2. Derive a class from the <xref:Microsoft.VisualStudio.Package.ViewFilter> class and override the <xref:Microsoft.VisualStudio.Package.ViewFilter.QueryCommandStatus%2A> method to indicate support for the new menu command. This example always enables the menu command.  
   

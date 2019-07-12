@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "TaskScheduler class [.NET Framework debug engines]"
   - "debug engines, TaskScheduler class [.NET Framework]"
 ms.assetid: 87f1c969-0217-4464-8907-7609c1bf61d3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

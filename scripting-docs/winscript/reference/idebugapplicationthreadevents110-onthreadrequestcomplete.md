@@ -18,7 +18,7 @@ manager: "ghogen"
 A call into the thread using the PDM's thread switching has completed.  
   
 > [!IMPORTANT]
->  [IDebugApplicationThreadEvents110 Interface](../../winscript/reference/idebugapplicationthreadevents110-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> [IDebugApplicationThreadEvents110 Interface](../../winscript/reference/idebugapplicationthreadevents110-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   

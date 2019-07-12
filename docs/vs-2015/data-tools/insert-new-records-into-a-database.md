@@ -41,7 +41,7 @@ To insert new records into a database, you can use the `TableAdapter.Update` met
   
 #### To insert new records into a database by using the TableAdapter.Update method  
   
-1. Add new records to the desired <xref:System.Data.DataTable> by creating a new <xref:System.Data.DataRow> and adding it to the <xref:System.Data.DataTable.Rows%2A> collection. For more information, see [How to: Add Rows to a DataTable](http://msdn.microsoft.com/library/78ebbb43-c402-49cf-81da-0715289487bf).  
+1. Add new records to the desired <xref:System.Data.DataTable> by creating a new <xref:System.Data.DataRow> and adding it to the <xref:System.Data.DataTable.Rows%2A> collection. For more information, see [How to: Add Rows to a DataTable](https://msdn.microsoft.com/library/78ebbb43-c402-49cf-81da-0715289487bf).  
   
 2. After the new rows are added to the <xref:System.Data.DataTable>, call the `TableAdapter.Update` method. You can control the amount of data to update by passing in either an entire <xref:System.Data.DataSet>, a <xref:System.Data.DataTable>, an array of <xref:System.Data.DataRow>s, or a single <xref:System.Data.DataRow>.  
   
@@ -59,7 +59,7 @@ To insert new records into a database, you can use the `TableAdapter.Update` met
 - Call the TableAdapter's `Insert` method, passing in the values for each column as parameters.  
   
     > [!NOTE]
-    >  If you do not have an instance available, instantiate the TableAdapter you want to use.  
+    > If you do not have an instance available, instantiate the TableAdapter you want to use.  
   
      [!code-csharp[VbRaddataSaving#15](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs#15)]
      [!code-vb[VbRaddataSaving#15](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb#15)]  

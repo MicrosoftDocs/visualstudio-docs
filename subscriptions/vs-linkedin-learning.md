@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn about the LinkedIn Learning benefit included as part of a LinkedIn Premium subscription included in selected Visual Studio subscriptions.
-searchscope: VS Subscription
 ---
 
 # The LinkedIn Learning benefit in Visual Studio subscriptions
@@ -90,7 +89,6 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | 3 months                                                            |No.  Available to new subscribers only         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | 3 months                                             |  No.  Available to new subscribers only         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | 3 months                                              | No.  Available to new subscribers only         |
-| Visual Studio Dev Essentials | NA  | Not available |NA|
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP).  Excludes:  Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD).  MCT Software & Services.*
@@ -106,7 +104,7 @@ A:  No, the LinkedIn Learning offer is available to new subscribers only.
 
 ## Support resources
 - Need help with LinkedIn Learning?  Check out these resources:
-    - Help with [using LinkedIn Learning](https://www.linkedin.com/help/learning).
-    - Help with general questions about [LinkedIn](https://www.linkedin.com/help/linkedin) such as creating accounts and profiles, and maintaining your network.
+  - Help with [using LinkedIn Learning](https://www.linkedin.com/help/learning).
+  - Help with general questions about [LinkedIn](https://www.linkedin.com/help/linkedin) such as creating accounts and profiles, and maintaining your network.
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

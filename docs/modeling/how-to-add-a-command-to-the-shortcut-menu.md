@@ -112,7 +112,7 @@ Use the method in this topic if:
 5. Replace `{000...000}` with a GUID that identifies your groups and menu items. To obtain a new GUID, use the **Create GUID** tool on the **Tools** menu.
 
     > [!NOTE]
-    >  If you add more groups or menu items, you can use the same GUID. However, you must use new values for the `IDSymbols`.
+    > If you add more groups or menu items, you can use the same GUID. However, you must use new values for the `IDSymbols`.
 
 6. In the code you have copied from this procedure, replace each occurrence of the following strings with your own strings:
 
@@ -290,7 +290,7 @@ private const int cmdidMyContextMenuCommand = 1;
  Use the same GUID value as you inserted in **Commands.vsct**.
 
 > [!NOTE]
->  If you change the Symbols section of the VSCT file, you must also change these declarations to match. You should also increment the version number in Package.tt
+> If you change the Symbols section of the VSCT file, you must also change these declarations to match. You should also increment the version number in Package.tt
 
  Register your menu commands as part of this command set. `GetMenuCommands()` is called once when the diagram is initialized:
 
@@ -328,7 +328,7 @@ protected override IList<MenuCommand> GetMenuCommands()
 
 **Command does not appear in menu:**
 
-- The command will appear only in debugging instances of Visual Studio, until you install the DSL package. For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
+- The command will appear only in debugging instances of Visual Studio, until you install the DSL package. For more information, see [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md).
 
 - Make sure that your experimental sample has the correct file name extension for this DSL. To check the file name extension, open DslDefinition.dsl in the main instance of Visual Studio. Then in DSL Explorer, right-click the Editor node, and then click Properties. In the Properties window, examine the FileExtension property.
 
@@ -356,7 +356,7 @@ protected override IList<MenuCommand> GetMenuCommands()
 
 - [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
 - [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md)
-- [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md)
+- [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md)
 - [Sample code: Circuit Diagrams](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

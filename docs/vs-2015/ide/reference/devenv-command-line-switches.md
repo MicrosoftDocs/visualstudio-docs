@@ -28,10 +28,10 @@ manager: jillfra
 Devenv lets you set various options for the integrated development environment (IDE), and also build, debug, and deploy projects, from the command line. Use these switches to run the IDE from a script or a .bat file, for example, a nightly build script, or to start the IDE in a particular configuration.  
   
 > [!NOTE]
->  For build-related tasks, it is now recommended that you use MSBuild instead of devenv. For more information, see [Command-Line Reference](../../msbuild/msbuild-command-line-reference.md).  
+> For build-related tasks, it is now recommended that you use MSBuild instead of devenv. For more information, see [Command-Line Reference](../../msbuild/msbuild-command-line-reference.md).  
   
 > [!NOTE]
->  You must run devenv as an adminstrator in order to use the [/Setup (devenv.exe)](../../ide/reference/setup-devenv-exe.md) and [/InstallVSTemplates (devenv.exe)](../../ide/reference/installvstemplates-devenv-exe.md) switches.  
+> You must run devenv as an adminstrator in order to use the [/Setup (devenv.exe)](../../ide/reference/setup-devenv-exe.md) and [/InstallVSTemplates (devenv.exe)](../../ide/reference/installvstemplates-devenv-exe.md) switches.  
   
 ## Devenv Switch Syntax  
  By default, devenv commands pass switches to the devenv.com utility.  
@@ -51,7 +51,7 @@ Devenv lets you set various options for the integrated development environment (
 - When you supply a project file name instead of a solution file name, a `devenv` command will search the parent folder of the project file for a solution file that has the same name. For example, the command `devenv /build myproject1.vbproj` will search the parent folder for a solution file that is named "myproject1.sln".  
   
     > [!NOTE]
-    >  One and only one solution file that references this project should be located in its parent folder. If the parent folder contains no solution file that references this project, or if the parent folder contains two or more solution files that reference it, then a temporary solution file will be created that is named for this project and references it.  
+    > One and only one solution file that references this project should be located in its parent folder. If the parent folder contains no solution file that references this project, or if the parent folder contains two or more solution files that reference it, then a temporary solution file will be created that is named for this project and references it.  
   
 - When file paths and file names include spaces, you must enclose them in double quotation marks (""). For example, "c:\project a\\".  
   
@@ -70,7 +70,7 @@ Devenv lets you set various options for the integrated development environment (
 |[/Log (devenv.exe)](../../ide/reference/log-devenv-exe.md)|Starts [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] and logs all activity to the log file.|  
 |[/Run (devenv.exe)](../../ide/reference/run-devenv-exe.md) or `/r`|Compiles and runs the specified solution.|  
 |[/Runexit (devenv.exe)](../../ide/reference/runexit-devenv-exe.md)|Compiles and runs the specified solution, minimizes the IDE when the solution is run, and closes the IDE after the solution has finished running.|  
-|[/UseEnv (devenv.exe)](../../ide/reference/useenv-devenv-exe.md)|Causes the IDE to use PATH, INCLUDE, and LIB environment variables for [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] compilation instead of the settings specified in the VC++ Directories section of **Projects** options in the **Options** dialog box. For more information, see [Setting the Path and Environment Variables for Command-Line Builds](http://msdn.microsoft.com/library/99389528-deb5-43b9-b99a-03c8773ebaf4)|  
+|[/UseEnv (devenv.exe)](../../ide/reference/useenv-devenv-exe.md)|Causes the IDE to use PATH, INCLUDE, and LIB environment variables for [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] compilation instead of the settings specified in the VC++ Directories section of **Projects** options in the **Options** dialog box. For more information, see [Setting the Path and Environment Variables for Command-Line Builds](https://msdn.microsoft.com/library/99389528-deb5-43b9-b99a-03c8773ebaf4)|  
 |[/Edit (devenv.exe)](../../ide/reference/edit-devenv-exe.md)|Opens the specified files in a running instance of this application. If there are no running instances, it will start a new instance with a simplified window layout.|  
 |[/ResetAddin (devenv.exe)](../../ide/reference/resetaddin-devenv-exe.md)|Starts an instance of the Visual Studio IDE without loading the specified Add-in.|  
 |[/SafeMode (devenv.exe)](../../ide/reference/safemode-devenv-exe.md)|Starts [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] in safe mode, and loads only the default environment and services, and shipped versions of third-party packages.|  

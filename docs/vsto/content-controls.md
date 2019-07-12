@@ -66,7 +66,7 @@ ms.workload:
   In document-level projects, you can add content controls to your document at design time or at run time. In VSTO Add-in projects, you can add content controls to any open document at run time. For more information, see [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md).
 
 > [!NOTE]
->  You can use content controls only in documents that are saved in the Open XML format. You cannot use content controls in documents that are saved in the Word 97-2003 document (*.doc*) format.
+> You can use content controls only in documents that are saved in the Open XML format. You cannot use content controls in documents that are saved in the Word 97-2003 document (*.doc*) format.
 
 ## Types of content controls
  There are nine different types of content controls that you can add to documents. Most of the content controls have a corresponding type in the <xref:Microsoft.Office.Tools.Word> namespace. You can also use a generic <xref:Microsoft.Office.Tools.Word.ContentControl>, which can represent any of the available content controls. For a walkthrough that demonstrates how to use each of the available content controls, see [Walkthrough: Create a template by using content controls](../vsto/walkthrough-creating-a-template-by-using-content-controls.md).
@@ -131,7 +131,7 @@ ms.workload:
   If the area you want to protect is not inside a content control, or if you want to protect an area that contains content controls and other types of content, you can put the whole area in a <xref:Microsoft.Office.Tools.Word.GroupContentControl>. Unlike other content controls, a <xref:Microsoft.Office.Tools.Word.GroupContentControl> provides no UI that is visible to the user. Its only purpose is to define a region that users cannot edit.
 
 > [!NOTE]
->  If you create a <xref:Microsoft.Office.Tools.Word.GroupContentControl> that contains embedded content controls, the embedded content controls are not automatically protected. You must use the **LockContents** property of each embedded control to prevent users from editing their contents.
+> If you create a <xref:Microsoft.Office.Tools.Word.GroupContentControl> that contains embedded content controls, the embedded content controls are not automatically protected. You must use the **LockContents** property of each embedded control to prevent users from editing their contents.
 
  For more information about how to use content controls to protect parts of documents, see [How to: Protect parts of documents by using content controls](../vsto/how-to-protect-parts-of-documents-by-using-content-controls.md).
 
@@ -164,7 +164,7 @@ ms.workload:
  Content controls also support two-way data binding, in which changes in the control are updated to the data source. For more information, see [How to: Update a data source with data from a host control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md).
 
 > [!NOTE]
->  Content controls do not support complex data binding. If you bind a <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> or <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl> to a data source by using the Windows Forms data model, users will see only a single value when they click the control. If you want to bind these controls to a set of data values that users can choose from, you can bind these controls to elements in a custom XML part.
+> Content controls do not support complex data binding. If you bind a <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> or <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl> to a data source by using the Windows Forms data model, users will see only a single value when they click the control. If you want to bind these controls to a set of data values that users can choose from, you can bind these controls to elements in a custom XML part.
 
 ### Bind content controls to custom XML parts
  You can bind some content controls to elements in custom XML parts that are embedded in the document. For more information about custom XML parts, see [Custom XML parts overview](../vsto/custom-xml-parts-overview.md).

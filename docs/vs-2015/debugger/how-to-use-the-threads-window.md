@@ -66,11 +66,11 @@ In the **Threads** window, you can examine and work with threads in the applicat
   
 - Perform either of the following steps:  
   
-    - Double-click any thread.  
-  
-    - Right-click a thread and click **Switch to Thread**.  
-  
-         The yellow arrow appears next to the new active thread. The gray outline of an arrow identifies the thread where execution broke into the debugger.  
+  - Double-click any thread.  
+
+  - Right-click a thread and click **Switch to Thread**.  
+
+    The yellow arrow appears next to the new active thread. The gray outline of an arrow identifies the thread where execution broke into the debugger.  
   
 ## Grouping and Sorting Threads  
  When you group threads, a heading appears in the table for each group. The heading contains a group description, such as "Worker Thread" or "Unflagged Threads," and a tree control. The member threads of each group appear under the group heading. If you want to hide the member threads for a group, you can use the tree control to collapse the group.  
@@ -110,23 +110,23 @@ In the **Threads** window, you can examine and work with threads in the applicat
   
 - In the toolbar at the top of the **Threads** window, go to the **Search** box and either:  
   
-    - Type a search string and then press ENTER.  
-  
-         \- or -  
-  
-    - Click the drop-down list next to the **Search** box and select a search string from a previous search.  
+  - Type a search string and then press ENTER.  
+
+    \- or -  
+
+  - Click the drop-down list next to the **Search** box and select a search string from a previous search.  
   
 - (Optional) To include the full call stack in your search, select **Search Call Stack**.  
   
 ## Freezing and Thawing Threads  
  When you freeze a thread, the system will not start execution of the thread even if resources are available.  
   
- In native code, you can suspend or resume threads by calling the Windows functions `SuspendThread` and `ResumeThread` or the MFC functions [CWinThread::SuspendThread](http://msdn.microsoft.com/library/57189c7e-fd71-42e5-bc4b-3de7cd373d28) and [CWinThread::ResumeThread](http://msdn.microsoft.com/library/d6f97a2f-5c9f-4ee1-b978-d74938784db5). If you call `SuspendThread` or `ResumeThread`, you change the *suspended count*, which appears in the **Threads** window. However, if you freeze or thaw a native thread, you do not change the suspended count. In native code, a thread cannot execute unless it is thawed and has a suspended count of zero.  
+ In native code, you can suspend or resume threads by calling the Windows functions `SuspendThread` and `ResumeThread` or the MFC functions [CWinThread::SuspendThread](https://msdn.microsoft.com/library/57189c7e-fd71-42e5-bc4b-3de7cd373d28) and [CWinThread::ResumeThread](https://msdn.microsoft.com/library/d6f97a2f-5c9f-4ee1-b978-d74938784db5). If you call `SuspendThread` or `ResumeThread`, you change the *suspended count*, which appears in the **Threads** window. However, if you freeze or thaw a native thread, you do not change the suspended count. In native code, a thread cannot execute unless it is thawed and has a suspended count of zero.  
   
  In managed code, freezing or thawing a thread does change the suspended count. In managed code, a frozen thread has a suspended count of 1. In native code, a frozen thread has a suspended count of 0 unless the thread has been suspended by a `SuspendThread` call.  
   
 > [!NOTE]
->  When you debug a call from native code to managed code, the managed code runs in the same physical thread as the native code that called it. Suspending or freezing the native thread freezes the managed code also.  
+> When you debug a call from native code to managed code, the managed code runs in the same physical thread as the native code that called it. Suspending or freezing the native thread freezes the managed code also.  
   
 #### To freeze or thaw execution of a thread  
   

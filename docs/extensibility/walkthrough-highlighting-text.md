@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "editors [Visual Studio SDK], new - highlight text"
 ms.assetid: 64b772ad-4392-42e9-a237-5137f0384bf0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -345,7 +345,7 @@ You can add different visual effects to the editor by creating Managed Extensibi
  To create your tagger, you must implement a <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider>. This class is a MEF component part, so you must set the correct attributes so that this extension is recognized.
 
 > [!NOTE]
->  For more information about MEF, see [Managed Extensibility Framework (MEF)](/dotnet/framework/mef/index).
+> For more information about MEF, see [Managed Extensibility Framework (MEF)](/dotnet/framework/mef/index).
 
 ### To create a tagger provider
 

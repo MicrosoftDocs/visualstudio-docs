@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "user settings [Visual Studio SDK], registering persistence support"
   - "persistence, registering settings"
 ms.assetid: ad9beac3-4f8d-4093-ad0e-6fb00444a709
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -28,7 +28,7 @@ A VSPackage may define one or more settings categories, which are groups of stat
  Custom Settings Points are created in a registry entry in the following location: HKLM\Software\Microsoft\VisualStudio\\*\<Version>*\UserSettings\\`<CSPName>`, where `<CSPName>` is the name of the Custom Settings Point the VSPackage supports and *\<Version>* is the version of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], for example 8.0.
 
 > [!NOTE]
->  The root path of HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>* can be overridden with an alternate root when the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) is initialized. For more information, see [Command-Line Switches](../../extensibility/command-line-switches-visual-studio-sdk.md).
+> The root path of HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>* can be overridden with an alternate root when the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) is initialized. For more information, see [Command-Line Switches](../../extensibility/command-line-switches-visual-studio-sdk.md).
 
  The structure of the registry entry is illustrated below:
 

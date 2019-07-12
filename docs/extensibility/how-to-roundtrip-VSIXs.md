@@ -4,7 +4,7 @@ ms.date: "06/25/2017"
 ms.topic: "conceptual"
 ms.assetid: 2d6cf53c-011e-4c9e-9935-417edca8c486
 author: "willbrown"
-ms.author: gregvanl
+ms.author: madsk
 manager: "justinclareburt"
 ms.workload:
   - "willbrown"
@@ -51,8 +51,8 @@ If your project contains a *project.json* file:
 * Take a note of the references in *project.json*.
 * From the **Solution Explorer**, delete the *project.json* file from the project. This deletes the *project.json* file and removes it from the project.
 * Add the NuGet references back in to the project:
-    * Right-click on the **Solution** and choose **Manage NuGet Packages for Solution**.
-    * Visual Studio automatically creates the *packages.config* file for you.
+  * Right-click on the **Solution** and choose **Manage NuGet Packages for Solution**.
+  * Visual Studio automatically creates the *packages.config* file for you.
 
 > [!NOTE]
 > If your project contained EnvDTE packages, they may need to be added by right clicking on **References** selecting **Add reference** and adding the appropriate reference. Using NuGet packages may create errors while trying to build your project.

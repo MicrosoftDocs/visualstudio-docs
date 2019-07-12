@@ -25,7 +25,7 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
 - A GPU and driver that support the necessary timing instrumentation.  
   
   > [!NOTE]
-  >  For more information on supported hardware and drivers, see [Hardware and driver support](#hwsupport) at the end of this document.  
+  > For more information on supported hardware and drivers, see [Hardware and driver support](#hwsupport) at the end of this document.  
   
   For more information about Graphics Diagnostics requirements, see [Getting Started](../debugger/getting-started-with-visual-studio-graphics-diagnostics.md).  
   
@@ -41,7 +41,7 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
     ![Choose the diagnostic tools you want to use.](../debugger/media/gfx-diag-diagsession-tools.png "gfx_diag_diagsession_tools")  
   
    > [!NOTE]
-   >  Not all Performance and Diagnostics tools can be used at the same time.  
+   > Not all Performance and Diagnostics tools can be used at the same time.  
   
 3. Choose the blue **Start** button at the bottom of the Performance and Diagnostics hub to run your app under the tools you selected.  
   
@@ -104,7 +104,7 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
 |**Thread ID**|The thread ID from which the event came.|  
   
 > [!IMPORTANT]
->  Windows 8.1 is required for event attribution. Additionally, if your GPU or driver don’t support the necessary instrumentation features, all events will appear as 'unattributed'. Make sure to update your GPU driver and try again if you experience this problem. For more information, see [Hardware and driver support](#hwsupport) below.  
+> Windows 8.1 is required for event attribution. Additionally, if your GPU or driver don’t support the necessary instrumentation features, all events will appear as 'unattributed'. Make sure to update your GPU driver and try again if you experience this problem. For more information, see [Hardware and driver support](#hwsupport) below.  
   
 ## GPU Usage settings  
  You can configure the GPU Usage tool to postpone collection of profiling information, rather than starting to collect information as soon as the app starts. Because the size of the profiling information can be significant, this is useful when you know that slowdowns in your app’s performance won’t appear until later.  
@@ -120,7 +120,7 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
      ![Configure when GPU Usage collection starts](../debugger/media/gfx-diag-gpu-usage-config.png "gfx_diag_gpu_usage_config")  
   
 > [!IMPORTANT]
->  Postponing profiling is not currently supported for Direct3D 12 apps.  
+> Postponing profiling is not currently supported for Direct3D 12 apps.  
   
  When you postpone the collection of profiling information by using this setting, an additional link becomes available in the bottom portion of the GPU Usage tool window when you run your app under the GPU Usage tool. To start collecting profiling information, choose the **Start** link in the **Start collecting additional detailed GPU Usage Data** message.  
   

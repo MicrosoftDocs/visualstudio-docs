@@ -91,7 +91,7 @@ Threads View is the most detailed and feature-rich view in the Concurrency Visua
  When you select a point in an execution segment, the Concurrency Visualizer looks for that point in time on the relevant call stack and then displays a black caret above the selected point in the execution segment and displays the call stack itself on the **Current stack** tab. You can select multiple points on the execution segment.  
   
 > [!NOTE]
->  The Concurrency Visualizer might not be able to resolve a selection on an execution segment. Typically, this occurs when the duration of the segment is less than one millisecond.  
+> The Concurrency Visualizer might not be able to resolve a selection on an execution segment. Typically, this occurs when the duration of the segment is less than one millisecond.  
   
  To get an execution profile for all enabled (unhidden) threads in the currently selected time range, choose the **Execution** button in the active legend.  
   

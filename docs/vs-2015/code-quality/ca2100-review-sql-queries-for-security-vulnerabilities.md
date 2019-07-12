@@ -81,4 +81,4 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
  [!code-vb[FxCop.Security.ReviewSqlQueries#1](../snippets/visualbasic/VS_Snippets_CodeAnalysis/FxCop.Security.ReviewSqlQueries/vb/FxCop.Security.ReviewSqlQueries.vb#1)]
 
 ## See Also
- [Security Overview](http://msdn.microsoft.com/library/33e09965-61d5-48cc-9e8c-3b047cc4f194)
+ [Security Overview](https://msdn.microsoft.com/library/33e09965-61d5-48cc-9e8c-3b047cc4f194)

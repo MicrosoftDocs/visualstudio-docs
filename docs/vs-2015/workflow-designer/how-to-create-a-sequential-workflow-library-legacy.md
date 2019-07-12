@@ -29,7 +29,7 @@ Follow these steps to create a Sequential Workflow Library project using the leg
 3. Select either the **.NET Framework 3.0** option or the **.NET Framework 3.5** option in the drop down list at the top of the **New Project** window to access the legacy designer.  
   
     > [!NOTE]
-    >  The default option in [!INCLUDE[vs2010](../includes/vs2010-md.md)] is **.NET Framework 4**. This option is used to create [!INCLUDE[wf](../includes/wf-md.md)] applications that target the [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] and it does not use the legacy designer.  
+    > The default option in [!INCLUDE[vs2010](../includes/vs2010-md.md)] is **.NET Framework 4**. This option is used to create [!INCLUDE[wf](../includes/wf-md.md)] applications that target the [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] and it does not use the legacy designer.  
   
 4. In the **Project Types** pane, select Visual C# or Visual Basic (under **Other Languages**), and then select **Workflow**.  
   
@@ -45,4 +45,4 @@ Follow these steps to create a Sequential Workflow Library project using the leg
   
 ## See Also  
  [Creating Legacy Workflow Projects](../workflow-designer/creating-legacy-workflow-projects.md)   
- [Workflow Authoring Styles](http://msdn.microsoft.com/aacf4ec6-da05-4974-958a-974769dda739)
+ [Workflow Authoring Styles](https://msdn.microsoft.com/aacf4ec6-da05-4974-958a-974769dda739)

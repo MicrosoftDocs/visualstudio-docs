@@ -90,7 +90,7 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
 |Current|Jim Wilson|James C. Wilson|  
   
 > [!CAUTION]
->  In the `preserveChanges = true` scenario, if the <xref:System.Data.DataSet.RejectChanges%2A> method is called on a record in the target dataset, then it reverts to the original data from the *source* dataset. This means that if you try to update the original data source with the target dataset, it might not be able to find the original row to update. You can prevent a concurrency violation by filling another dataset with the updated records from the data source and then performing a merge to prevent a concurrency violation. (A concurrency violation occurs when another user modifies a record in the data source after the dataset has been filled.)  
+> In the `preserveChanges = true` scenario, if the <xref:System.Data.DataSet.RejectChanges%2A> method is called on a record in the target dataset, then it reverts to the original data from the *source* dataset. This means that if you try to update the original data source with the target dataset, it might not be able to find the original row to update. You can prevent a concurrency violation by filling another dataset with the updated records from the data source and then performing a merge to prevent a concurrency violation. (A concurrency violation occurs when another user modifies a record in the data source after the dataset has been filled.)  
   
 ## Update constraints  
  To make changes to an existing data row,  add or update data in the individual columns. If the dataset contains constraints (such as foreign keys or non-nullable constraints), it's possible that the record can temporarily be in an error state as you update it. That is, it can be in an error state after you finish updating one column but before you get to the next one.  
@@ -104,7 +104,7 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
   After you complete an update, you can re-enable constraint checking, which also re-enables update events and raises them.  
   
 > [!NOTE]
->  In Windows Forms, the data binding architecture that's built into the datagrid suspends constraint checking until focus moves out of a row, and you do not have to explicitly call the <xref:System.Data.DataRow.BeginEdit%2A>, <xref:System.Data.DataRow.EndEdit%2A>, or <xref:System.Data.DataRow.CancelEdit%2A> methods.  
+> In Windows Forms, the data binding architecture that's built into the datagrid suspends constraint checking until focus moves out of a row, and you do not have to explicitly call the <xref:System.Data.DataRow.BeginEdit%2A>, <xref:System.Data.DataRow.EndEdit%2A>, or <xref:System.Data.DataRow.CancelEdit%2A> methods.  
   
  Constraints are automatically disabled when the <xref:System.Data.DataSet.Merge%2A> method is invoked on a dataset. When the merge is complete, if there are any constraints on the dataset that cannot be enabled,  a <xref:System.Data.ConstraintException> is thrown. In this situation, the <xref:System.Data.DataSet.EnforceConstraints%2A> property is set to `false,` and all constraint violations must be resolved before resetting the <xref:System.Data.DataSet.EnforceConstraints%2A> property to `true`.  
   
@@ -160,7 +160,7 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
   
  `GetChanges` by itself  returns all changed records. In contrast, by passing the desired <xref:System.Data.DataRowState> as a parameter to the `GetChanges` method, you can specify what subset of changed records you want: newly added records, records that are marked for deletion, detached records, or modified records.  
   
- Getting a subset of changed records is useful when you want to send records to another component for processing. Instead of sending the entire dataset, you can reduce the overhead of communicating with the other component by getting only the records that the component needs. For more information, see [How to: Retrieve Changed Rows](http://msdn.microsoft.com/library/6ff0cbd0-5253-48e7-888a-144d56c2e0a9).  
+ Getting a subset of changed records is useful when you want to send records to another component for processing. Instead of sending the entire dataset, you can reduce the overhead of communicating with the other component by getting only the records that the component needs. For more information, see [How to: Retrieve Changed Rows](https://msdn.microsoft.com/library/6ff0cbd0-5253-48e7-888a-144d56c2e0a9).  
   
 ## Committing changes in the dataset  
  As changes are made in the dataset, the <xref:System.Data.DataRow.RowState%2A> property of changed rows is set. The original and current versions of records are established, maintained, and made available to you by the <xref:System.Data.DataRowView.RowVersion%2A> property. The metadata that's stored in the properties of these changed rows is necessary for sending the correct updates to the data source.  
@@ -176,12 +176,12 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
 - After you load the dataset. If you load a dataset by calling a TableAdapter's `Fill` method, then the adapter automatically commits changes for you. However, if you load a dataset by merging another dataset into it, then you have to commit the changes manually.  
   
   > [!NOTE]
-  >  You can prevent the adapter from automatically committing the changes when you call the `Fill` method by setting the `AcceptChangesDuringFill` property of the adapter to `false`. If it's set to `false`, then the <xref:System.Data.DataRow.RowState%2A> of each row that's inserted during the fill is set to <xref:System.Data.DataRowState>.  
+  > You can prevent the adapter from automatically committing the changes when you call the `Fill` method by setting the `AcceptChangesDuringFill` property of the adapter to `false`. If it's set to `false`, then the <xref:System.Data.DataRow.RowState%2A> of each row that's inserted during the fill is set to <xref:System.Data.DataRowState>.  
   
 - After you send dataset changes to another process, such as an XML Web service.  
   
   > [!CAUTION]
-  >  Committing the change this way erases any change information. Do not commit changes until after you  finish performing operations that require your application to know what changes have been made in the dataset.  
+  > Committing the change this way erases any change information. Do not commit changes until after you  finish performing operations that require your application to know what changes have been made in the dataset.  
   
   This method accomplishes the following:  
   
@@ -202,7 +202,7 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
 |<xref:System.Data.DataSet.AcceptChanges%2A?displayProperty=fullName>|Changes are committed on all rows in all tables of the dataset.|  
   
 > [!NOTE]
->  If you load a dataset by calling a TableAdapter's `Fill` method, you don't have to explicitly accept changes. By default, the `Fill` method calls the `AcceptChanges` method after it finishes populating the data table.  
+> If you load a dataset by calling a TableAdapter's `Fill` method, you don't have to explicitly accept changes. By default, the `Fill` method calls the `AcceptChanges` method after it finishes populating the data table.  
   
  A related method, `RejectChanges`, undoes the effect of changes by copying the <xref:System.Data.DataRowVersion> version back into the <xref:System.Data.DataRowVersion> version of records. It also sets the <xref:System.Data.DataRow.RowState%2A> of each record back to <xref:System.Data.DataRowState>.  
   
@@ -213,12 +213,12 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
   
 - In the business layer, by adding code to your application to validate data. The dataset is one place you can do this. The DataSet Designer provides some of the advantages of back-end validation — such as the ability to validate changes as column and row values are changing. For more information, see [Validate data in datasets](../data-tools/validate-data-in-datasets.md).  
   
-- In the presentation layer, by adding validation to forms. For more information, see [User Input Validation in Windows Forms](http://msdn.microsoft.com/library/4ec07681-1dee-4bf9-be5e-718f635a33a1).  
+- In the presentation layer, by adding validation to forms. For more information, see [User Input Validation in Windows Forms](https://msdn.microsoft.com/library/4ec07681-1dee-4bf9-be5e-718f635a33a1).  
   
 - In the data back end, by sending data to the data source — for example, the database — and allowing it to accept or reject the data. If you are working with a database that has sophisticated facilities for validating data and providing error information, this can be a practical approach because you can validate the data no matter where it comes from. However, this approach might not accommodate application-specific validation requirements. Additionally, having the data source validate data can result in numerous round trips to the data source, depending on how your application facilitates the resolution of validation errors raised by the back end.  
   
   > [!IMPORTANT]
-  >  When using data commands with a <xref:System.Data.SqlClient.SqlCommand.CommandType%2A> property that's set to <xref:System.Data.CommandType>, carefully check information that is sent from a client before passing it to your database. Malicious users might try to send (inject) modified or additional SQL statements in an effort to gain unauthorized access or damage the database. Before you transfer user input to a database, always verify that the information is valid. It's a best practice to always use parameterized queries or stored procedures when possible. For more information, see [Script Exploits Overview](http://msdn.microsoft.com/library/772c7312-211a-4eb3-8d6e-eec0aa1dcc07).  
+  > When using data commands with a <xref:System.Data.SqlClient.SqlCommand.CommandType%2A> property that's set to <xref:System.Data.CommandType>, carefully check information that is sent from a client before passing it to your database. Malicious users might try to send (inject) modified or additional SQL statements in an effort to gain unauthorized access or damage the database. Before you transfer user input to a database, always verify that the information is valid. It's a best practice to always use parameterized queries or stored procedures when possible. For more information, see [Script Exploits Overview](https://msdn.microsoft.com/library/772c7312-211a-4eb3-8d6e-eec0aa1dcc07).  
   
   After changes have been made in a dataset, you can transmit the changes to a data source. Most commonly, you do this by calling the `Update` method of a TableAdapter (or data adapter). The method loops through each record in a data table, determines what type of update is required (update, insert, or delete), if any, and then runs the appropriate command.  
   
@@ -250,7 +250,7 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
 - The transmitted SQL statement includes the SET clause, to set the new values of the modified columns.  
   
     > [!NOTE]
-    >  If the TableAdapter's `UpdateCommand` property has been set to the name of a stored procedure, the adapter does not construct an SQL statement. Instead, it invokes the stored procedure with the appropriate parameters passed in.  
+    > If the TableAdapter's `UpdateCommand` property has been set to the name of a stored procedure, the adapter does not construct an SQL statement. Instead, it invokes the stored procedure with the appropriate parameters passed in.  
   
 ## Passing parameters  
  You usually use parameters to pass the values for records that are going to be updated in the database.  When the TableAdapter's `Update` method runs an UPDATE statement, it needs to fill in the parameter values. It gets these values from the `Parameters` collection for the appropriate data command — in this case, the `UpdateCommand` object in the TableAdapter.  
@@ -262,10 +262,10 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
  In an UPDATE statement, you need to specify both the new values (those that will be written to the record) as well as the old values (so that the record can be located in the database). There are therefore two parameters for each value: one for the SET clause and a different one for the WHERE clause. Both parameters read data from the record that's being updated, but they get different versions of the column value based on the parameter's [SqlParameter.SourceVersion Property](https://msdn.microsoft.com/library/system.data.sqlclient.sqlparameter.sourceversion.aspx). The parameter for the SET clause gets the current version, and the parameter for the WHERE clause gets the original version.  
   
 > [!NOTE]
->  You can also set values in the `Parameters` collection yourself in code, which you would typically do in an event handler for the data adapter's <xref:System.Data.DataTable.RowChanging> event.  
+> You can also set values in the `Parameters` collection yourself in code, which you would typically do in an event handler for the data adapter's <xref:System.Data.DataTable.RowChanging> event.  
   
 ## See Also  
  [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md)   
- [Preparing Your Application to Receive Data](http://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
+ [Preparing Your Application to Receive Data](https://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
- [Validating Data](http://msdn.microsoft.com/library/b3a9ee4e-5d4d-4411-9c56-c811f2b4ee7e)   
+ [Validating Data](https://msdn.microsoft.com/library/b3a9ee4e-5d4d-4411-9c56-c811f2b4ee7e)   

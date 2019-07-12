@@ -20,7 +20,7 @@ manager: "wpickett"
 You can require that code analysis be run on all code projects in a team project by using the code analysis check-in policy. Requiring code analysis can improve the quality of the code that is checked into the code base.  
   
 > [!NOTE]
->  This feature is available only if you are using Team Foundation Server.  
+> This feature is available only if you are using Team Foundation Server.  
   
  Code analysis check-in policies are set in the team project settings and apply to each code project in the team project. Code analysis runs are configured for code projects in the project (.xxproj) file for the code project. Code analysis runs are performed on the local computer. When you enable a code analysis check-in policy, files in a code project that are to be checked in must be compiled after their last edit and a code analysis run that contains, at a minimum, the rules in the team project settings must be performed on the computer where the changes have been made.  
   
@@ -58,13 +58,13 @@ You can require that code analysis be run on all code projects in a team project
   
 - From the **Run this rule set** list, use one of the following methods:  
   
-    - Select a Microsoft standard rule set.  
-  
-    - To select a custom rule set, click **\<Select Rule Set from Source Control...>**, and then type the version control path of the rule set in the source control browser. The syntax of a version control path is:  
-  
-    - **$/** `TeamProjectName` **/** `VersionControlPath`  
-  
-    - For more information about how to create and implement a custom check-in policy rule set, see [Implementing Custom Check-in Policies for Managed Code](../code-quality/implementing-custom-code-analysis-check-in-policies-for-managed-code.md).  
+  - Select a Microsoft standard rule set.  
+
+  - To select a custom rule set, click **\<Select Rule Set from Source Control...>**, and then type the version control path of the rule set in the source control browser. The syntax of a version control path is:  
+
+  - **$/** `TeamProjectName` **/** `VersionControlPath`  
+
+  - For more information about how to create and implement a custom check-in policy rule set, see [Implementing Custom Check-in Policies for Managed Code](../code-quality/implementing-custom-code-analysis-check-in-policies-for-managed-code.md).  
   
 ## See Also  
  [Creating and Using Code Analysis Check-In Policies](../code-quality/creating-and-using-code-analysis-check-in-policies.md)

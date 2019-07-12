@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumDebugFrameInfo2::Reset"
 ms.assetid: e149b559-f072-480b-9552-a452b147f3a8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEnumDebugFrameInfo2::Reset
 Resets the enumeration to the first element.
@@ -34,5 +37,5 @@ int Reset();
 ## Remarks
  After this method is called, the next call to the [Next](../../../extensibility/debugger/reference/ienumdebugframeinfo2-next.md) method returns the first element of the enumeration.
 
-## See Also
+## See also
 - [IEnumDebugFrameInfo2](../../../extensibility/debugger/reference/ienumdebugframeinfo2.md)

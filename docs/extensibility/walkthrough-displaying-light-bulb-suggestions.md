@@ -3,8 +3,8 @@ title: "Walkthrough: Displaying Light Bulb Suggestions | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 99e5566d-450e-4660-9bca-454e1c056a02
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -171,7 +171,7 @@ Light bulbs are icons in the Visual Studio editor that expand to display a set o
 6. Implement the <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource.GetSuggestedActions%2A> method, which returns an array of <xref:Microsoft.VisualStudio.Language.Intellisense.SuggestedActionSet> objects that contain the different <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction> objects. This method is called when the light bulb is expanded.
 
     > [!WARNING]
-    >  You should make sure that the implementations of `HasSuggestedActionsAsync()` and `GetSuggestedActions()` are consistent; that is, if `HasSuggestedActionsAsync()` returns `true`, then `GetSuggestedActions()` should have some actions to display. In many cases, `HasSuggestedActionsAsync()` is called just before `GetSuggestedActions()`, but this is not always the case. For example, if the user invokes the light bulb actions by pressing (**CTRL+** .) only `GetSuggestedActions()` is called.
+    > You should make sure that the implementations of `HasSuggestedActionsAsync()` and `GetSuggestedActions()` are consistent; that is, if `HasSuggestedActionsAsync()` returns `true`, then `GetSuggestedActions()` should have some actions to display. In many cases, `HasSuggestedActionsAsync()` is called just before `GetSuggestedActions()`, but this is not always the case. For example, if the user invokes the light bulb actions by pressing (**CTRL+** .) only `GetSuggestedActions()` is called.
 
     ```csharp
     public IEnumerable<SuggestedActionSet> GetSuggestedActions(ISuggestedActionCategorySet requestedActionCategories, SnapshotSpan range, CancellationToken cancellationToken)
@@ -320,7 +320,7 @@ Light bulbs are icons in the Visual Studio editor that expand to display a set o
     ```
 
     > [!WARNING]
-    >  The light bulb action **Invoke** method is not expected to show UI. If your action does bring up new UI (for example a preview or selection dialog), do not display the UI directly from within the **Invoke** method but instead schedule to display your UI after returning from **Invoke**.
+    > The light bulb action **Invoke** method is not expected to show UI. If your action does bring up new UI (for example a preview or selection dialog), do not display the UI directly from within the **Invoke** method but instead schedule to display your UI after returning from **Invoke**.
 
 10. To complete the implementation, add the `Dispose()` and `TryGetTelemetryId()` methods.
 

@@ -24,11 +24,11 @@ ms.workload:
 
 - Creating a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension for SharePoint projects that does the following:
 
-    - Adds a custom project property to the Properties window. The property applies to any SharePoint project.
+  - Adds a custom project property to the Properties window. The property applies to any SharePoint project.
 
-    - Uses the SharePoint project object model to add a mapped folder to a project.
+  - Uses the SharePoint project object model to add a mapped folder to a project.
 
-    - Uses the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] automation object model (DTE) to delete a mapped folder from the project.
+  - Uses the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] automation object model (DTE) to delete a mapped folder from the project.
 
 - Building a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Extension (VSIX) package to deploy the project property's extension assembly.
 
@@ -59,7 +59,7 @@ ms.workload:
 3. In the **New Project** dialog box, expand the **Visual C#** or **Visual Basic** nodes, and then choose the **Extensibility** node.
 
     > [!NOTE]
-    >  This node is available only if you install the Visual Studio SDK. For more information, see the prerequisites section earlier in this topic.
+    > This node is available only if you install the Visual Studio SDK. For more information, see the prerequisites section earlier in this topic.
 
 4. At the top of the dialog box, choose **.NET Framework 4.5** in the list of versions of the .NET Framework, and then choose the **VSIX Project** template.
 
@@ -137,7 +137,7 @@ ms.workload:
 6. In the **Type** list, choose **Microsoft.VisualStudio.MefComponent**.
 
     > [!NOTE]
-    >  This value corresponds to the `MEFComponent` element in the extension.vsixmanifest file. This element specifies the name of an extension assembly in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\)).
+    > This value corresponds to the `MEFComponent` element in the extension.vsixmanifest file. This element specifies the name of an extension assembly in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\)).
 
 7. In the **Source** list, choose the **A project in current solution** option button.
 

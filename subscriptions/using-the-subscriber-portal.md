@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 01/04/2018
 ms.topic: conceptual
 description: Learn about the full range of benefits available to you on the Visual Studio subscriptions portal
-searchscope: VS Subscription
 ---
 
 # Using the subscriber portal - my.visualstudio.com

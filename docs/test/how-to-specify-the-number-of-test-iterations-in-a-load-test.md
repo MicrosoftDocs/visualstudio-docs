@@ -1,5 +1,5 @@
 ---
-title: "Specify the Number of Test Iterations in a Load Test Run Setting"
+title: "Specify number of test iterations in load test run setting"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

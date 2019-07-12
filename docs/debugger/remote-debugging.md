@@ -92,7 +92,7 @@ You can change some aspects of the configuration of the remote debugger after yo
      For a listing of the port numbers used by default, see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md).
 
      > [!WARNING]
-     >  You can choose to run the remote tools in No Authentication mode, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose the No Authentication mode only if you are sure that the network is not at risk from malicious or hostile traffic.
+     > You can choose to run the remote tools in No Authentication mode, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose the No Authentication mode only if you are sure that the network is not at risk from malicious or hostile traffic.
 
 ## <a name="bkmk_configureService"></a> (Optional) Configure the remote debugger as a service
 For debugging in ASP.NET and other server environments, you must either run the remote debugger as an Administrator or, if you want it always running,  run the remote debugger as a service.
@@ -119,7 +119,7 @@ For debugging in ASP.NET and other server environments, you must either run the 
 
    You can stop and start the remote debugger service from **Control Panel > Services**.
 
-## Set Up Debugging with Remote Symbols
+## Set up debugging with remote symbols
 
 [!INCLUDE [remote-debugger-symbols](../debugger/includes/remote-debugger-symbols.md)]
 

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccGetProjPath function"
 ms.assetid: 1079847e-d45f-4cb8-9d92-1e01ce5d08f6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -99,7 +99,7 @@ SCCRTN SccGetProjPath (
  For `lpUser`, the IDE may pass in a user name, or it may simply pass in a pointer to an empty string. If there is a user name, the source control plug-in should use it as a default. However, if no name was passed or if the login failed with the given name, the plug-in should prompt the user for a login and pass the name back in `lpUser` when it receives a valid login. Because the plug-in may change this string, the IDE will always allocate a buffer of size (`SCC_USER_LEN`+1).
 
 > [!NOTE]
->  The first action that the IDE performs may be a call to either the `SccOpenProject` function or the `SccGetProjPath` function. Hence, both of them have an identical `lpUser` parameter, which enables the source control plug-in to log the user in at either time. Even if the return from the function indicates a failure, the plug-in must fill this string with a valid login name.
+> The first action that the IDE performs may be a call to either the `SccOpenProject` function or the `SccGetProjPath` function. Hence, both of them have an identical `lpUser` parameter, which enables the source control plug-in to log the user in at either time. Even if the return from the function indicates a failure, the plug-in must fill this string with a valid login name.
 
  `lpLocalPath` is the directory where the user keeps the project. It may be an empty string. If there is no directory currently defined (as in the case of a user attempting to download a project from the source control system) and if `bAllowChangePath` is `TRUE`, the source control plug-in can prompt the user for input or use some other method to place its own string into `lpLocalPath`. If `bAllowChangePath` is `FALSE`, the plug-in should not change the string, because the user is already working in the specified directory.
 

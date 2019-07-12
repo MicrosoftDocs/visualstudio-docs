@@ -31,7 +31,7 @@ In the Parallel Watch window, you can simultaneously display the values that one
 - A configurable column that can display the machine, process, tile, task, and thread.  
   
   > [!TIP]
-  >  You must open the **Parallel Task** window to display the task information in the **Parallel Watch** window.  
+  > You must open the **Parallel Task** window to display the task information in the **Parallel Watch** window.  
   
 - The **\<Add Watch>** column, in which you can enter expressions to watch.  
   
@@ -84,4 +84,4 @@ In the Parallel Watch window, you can simultaneously display the values that one
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [How to: Use the GPU Threads Window](../debugger/how-to-use-the-gpu-threads-window.md)   
- [Walkthrough: Debugging a C++ AMP Application](http://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5)
+ [Walkthrough: Debugging a C++ AMP Application](https://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5)

@@ -53,7 +53,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 - [Switching the script execution context](#Switching)  
   
 > [!TIP]
->  If the JavaScript Console window is closed, choose **Debug**>**Windows** > **JavaScript Console** to re-open it. The window appears only during a script debugging session.  
+> If the JavaScript Console window is closed, choose **Debug**>**Windows** > **JavaScript Console** to re-open it. The window appears only during a script debugging session.  
   
  Using the JavaScript Console window, you can interact with your app without stopping and restarting the debugger. For more info, see [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md). For info on other JavaScript debugging features, such as using the DOM Explorer and setting breakpoints, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md) and [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md).  
   
@@ -61,7 +61,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  The following steps create a `FlipView` app and show how to interactively debug a JavaScript coding error.  
   
 > [!CAUTION]
->  The sample app here is a Windows Store app. However, the console features described here also apply to apps created using Visual Studio Tools for Apache Cordova.  
+> The sample app here is a Windows Store app. However, the console features described here also apply to apps created using Visual Studio Tools for Apache Cordova.  
   
 #### To debug JavaScript code in the FlipView app  
   
@@ -176,7 +176,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
      Copy and paste this code into the JavaScript Console input prompt.  
   
     > [!TIP]
-    >  When you paste multiple lines of code into the JavaScript Console input prompt, the console input prompt automatically switches to multiline mode. You can press Ctrl+Alt+M to turn multiline mode on and off. To run a script in multiline mode, press Ctrl+Enter or choose the arrow symbol in the lower-right corner of the window. For more info, see [Single-line mode and multiline mode in the JavaScript Console window](#SinglelineMultilineMode).  
+    > When you paste multiple lines of code into the JavaScript Console input prompt, the console input prompt automatically switches to multiline mode. You can press Ctrl+Alt+M to turn multiline mode on and off. To run a script in multiline mode, press Ctrl+Enter or choose the arrow symbol in the lower-right corner of the window. For more info, see [Single-line mode and multiline mode in the JavaScript Console window](#SinglelineMultilineMode).  
   
 12. Correct the `push` function calls in the prompt, replacing `pages.push` with `Data.items.setAt`. The corrected code should look like this:  
   
@@ -187,7 +187,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
     ```  
   
     > [!TIP]
-    >  If you want to use the `pages` object instead of `Data.items`, you would need to set a breakpoint in your code to keep the `pages` object in scope.  
+    > If you want to use the `pages` object instead of `Data.items`, you would need to set a breakpoint in your code to keep the `pages` object in scope.  
   
 13. Choose the green arrow symbol to run the script.  
   
@@ -277,4 +277,4 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  [Debug HTML, CSS, and JavaScript sample code](../debugger/debug-html-css-and-javascript-sample-code.md)   
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)   
  [Debug a WebView control](../debugger/debug-a-webview-control.md)   
- [Product Support and Accessibility](http://msdn.microsoft.com/library/tzbxw1af\(VS.120\).aspx)
+ [Product Support and Accessibility](https://msdn.microsoft.com/library/tzbxw1af\(VS.120\).aspx)

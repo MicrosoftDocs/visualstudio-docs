@@ -18,7 +18,7 @@ manager: "ghogen"
 Indicates a set of options and/or capabilities that apply to the attached debugger. Used in [IDebugApplicationNode100::GetExcludedDocuments](../../winscript/reference/idebugapplicationnode100-getexcludeddocuments.md) and [IDebugApplicationNode100::SetFilterForEventSink](../../winscript/reference/idebugapplicationnode100-setfilterforeventsink.md)  
   
 > [!IMPORTANT]
->  These constants are implemented by PDM v10.0 and greater. Found in activdbg100.h.  
+> These constants are implemented by PDM v10.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   

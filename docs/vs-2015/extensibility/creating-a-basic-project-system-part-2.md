@@ -33,7 +33,7 @@ The first walkthrough in this series, [Creating a Basic Project System, Part 1](
 - Create a project property page.  
   
 > [!NOTE]
->  The steps in this walkthrough are based on a C# project. However, except for specifics such as file name extensions and code, you can use the same steps for a Visual Basic project.  
+> The steps in this walkthrough are based on a C# project. However, except for specifics such as file name extensions and code, you can use the same steps for a Visual Basic project.  
   
 ## Creating a Visual Studio Template  
  [Creating a Basic Project System, Part 1](../extensibility/creating-a-basic-project-system-part-1.md) shows how to create a basic project template and add it to the project system. It also shows how to register this template with Visual Studio by using the <xref:Microsoft.VisualStudio.Shell.ProvideProjectFactoryAttribute> attribute, which writes the full path of the \Templates\Projects\SimpleProject\ folder in the system registry.  
@@ -94,7 +94,7 @@ The first walkthrough in this series, [Creating a Basic Project System, Part 1](
 - The \<ProjectType> element names the Project type in the **New Project** dialog box. This name replaces the project name parameter of the ProvideProjectFactory attribute.  
   
   > [!NOTE]
-  >  The \<ProjectType> element must match the `LanguageVsTemplate` argument of the `ProvideProjectFactory` attribute in the SimpleProjectPackage.cs file.  
+  > The \<ProjectType> element must match the `LanguageVsTemplate` argument of the `ProvideProjectFactory` attribute in the SimpleProjectPackage.cs file.  
   
   The \<TemplateContent> section describes these files that are generated when a new project is created:  
   
@@ -109,7 +109,7 @@ The first walkthrough in this series, [Creating a Basic Project System, Part 1](
   For more information about the elements in the Visual Studio Template schema, see the [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md).  
   
 > [!NOTE]
->  If a project has more than one Visual Studio template, every template is in a separate folder. Every file in that folder must have the **Build Action** set to **ZipProject**.  
+> If a project has more than one Visual Studio template, every template is in a separate folder. Every file in that folder must have the **Build Action** set to **ZipProject**.  
   
 ## Adding a Minimal .vsct File  
  Visual Studio must be run in setup mode to recognize a new or modified Visual Studio template. Setup mode requires a .vsct file to be present. Therefore, you must add a minimal .vsct file to the project.  
@@ -275,7 +275,7 @@ ZipProjects:
   
 - $safeprojectname$ is the name provided by a user in the **New Project** dialog box, modified to remove all unsafe characters and spaces.  
   
-  For a complete list of template parameters, see [Template Parameters](../ide/template-parameters.md).  If you want to create your own custom template parameter, see [NIB: How to: Pass Custom Parameters to Templates](http://msdn.microsoft.com/5bc2ad11-84c7-4683-a276-e5e00d85d8fb).  
+  For a complete list of template parameters, see [Template Parameters](../ide/template-parameters.md).  If you want to create your own custom template parameter, see [NIB: How to: Pass Custom Parameters to Templates](https://msdn.microsoft.com/5bc2ad11-84c7-4683-a276-e5e00d85d8fb).  
   
 #### To substitute project template parameters  
   

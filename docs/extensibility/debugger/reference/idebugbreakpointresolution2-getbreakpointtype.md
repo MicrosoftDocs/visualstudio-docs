@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugBreakpointResolution2::GetBreakpointType"
 ms.assetid: 2b707fb9-f703-4c78-91bf-7434f57790a0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBreakpointResolution2::GetBreakpointType
 Gets the type of the breakpoint represented by this resolution.
@@ -30,10 +33,9 @@ int GetBreakpointType( 
 );
 ```
 
-#### Parameters
-`pBPType`
-
- [out] Returns a value from the [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md) enumeration that specifies the type of this breakpoint.
+## Parameters
+`pBPType`\
+[out] Returns a value from the [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md) enumeration that specifies the type of this breakpoint.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise returns an error code. Returns E_FAIL if the `bpResLocation` field in the associated [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md) structure is not valid.
@@ -75,7 +77,7 @@ HRESULT CDebugBreakpointResolution::GetBreakpointType(BP_TYPE* pBPType)
 }
 ```
 
-## See Also
+## See also
 - [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md)
 - [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md)
 - [BPRESI_FIELDS](../../../extensibility/debugger/reference/bpresi-fields.md)

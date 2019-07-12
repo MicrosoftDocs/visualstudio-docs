@@ -33,7 +33,7 @@ HRESULT get_unmodifiedType( 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 > [!NOTE]
->  A return value of `S_FALSE` means the property is not available for the symbol.
+> A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## Remarks
  The current type is a modification of the returned original type. The original type for a symbol can be determined by first getting the type of the symbol and then interrogating that returned type for the original type. Note that some symbols may not have a modified type of the original type.

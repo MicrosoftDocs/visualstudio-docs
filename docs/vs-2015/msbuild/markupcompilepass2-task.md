@@ -70,5 +70,5 @@ The <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass2> task performs second
  [Task Reference](../msbuild/wpf-msbuild-task-reference.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Building a WPF Application (WPF)](http://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c)   
- [WPF XAML Browser Applications Overview](http://msdn.microsoft.com/library/3a7a86a8-75d5-4898-96b9-73da151e5e16)
+ [Building a WPF Application (WPF)](https://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c)   
+ [WPF XAML Browser Applications Overview](https://msdn.microsoft.com/library/3a7a86a8-75d5-4898-96b9-73da151e5e16)

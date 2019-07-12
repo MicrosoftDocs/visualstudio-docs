@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn how to activate the Azure benefit included in your Visual Studio subscription.
-searchscope: VS Subscription
 ---
 # Use Microsoft Azure in Visual Studio subscriptions
 
@@ -24,7 +23,6 @@ As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  
 |              Visual Studio Professional monthly              |        Not available        |                                                             |
 |                    Visual Studio Test Pro                    |     $50 monthly credit      |                             Yes                             |
 |                        MSDN Platforms                        |     $100 monthly credit     |                             Yes                             |
-|                 Visual Studio Dev Essentials                 | Free services + $200 credit | Free services are perpetual.  $200 credit is one-time only. |
 |               Visual Studio Enterprise - NFR\*               |     $150 monthly credit     |                             Yes                             |
 |                Visual Studio Enterprise - FTE                |     $150 monthly credit     |                             Yes                             |
 |     Visual Studio Enterprise - Microsoft Partner Network     |     $150 monthly credit     |                             Yes                             |
@@ -96,14 +94,14 @@ If you have another active Visual Studio subscription at a **different** subscri
 
 If your subscription has a spending limit and you take no action before it expires, the Azure subscription(s) your Azure subscription will be disabled. To convert it to a pay-as-you-go offer and continue to use it, add a payment instrument and [remove your spending limit](/azure/billing/billing-spending-limit/).
 
-If you prefer not to continue this Visual Studio Azure subscription, you may transfer your resources such as virtual machines and databases to another Azure subscription and [cancel](http://azure.microsoft.com/support/cancel-account/) this subscription any time.
+If you prefer not to continue this Visual Studio Azure subscription, you may transfer your resources such as virtual machines and databases to another Azure subscription and [cancel](https://azure.microsoft.com/support/cancel-account/) this subscription any time.
 
 If you believe you’ve received this email in error, please contact [Azure customer support](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade).
 
 ## Support Resources
 
 - Need help with Azure?  Check out these resources:
-    - Technical Support: [https://azure.microsoft.com/support/options/](https://azure.microsoft.com/support/options/)
-    - [Azure documentation](/azure/)
+  - Technical Support: [https://azure.microsoft.com/support/options/](https://azure.microsoft.com/support/options/)
+  - [Azure documentation](/azure/)
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Create your first document-level customization for Word"
+title: "Create your first document-level customization for Word"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -106,7 +106,7 @@ ms.workload:
      [!code-csharp[Trin_WordDocumentTutorial#1](../vsto/codesnippet/CSharp/FirstDocumentCustomization/ThisDocument.cs#1)]
 
     > [!NOTE]
-    >  This code uses the index value 1 to access the first paragraph in the <xref:Microsoft.Office.Tools.Word.Document.Paragraphs%2A> property. Although Visual Basic and Visual C# use 0-based arrays, the lower array bounds of most collections in the Word object model is 1. For more information, see [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md).
+    > This code uses the index value 1 to access the first paragraph in the <xref:Microsoft.Office.Tools.Word.Document.Paragraphs%2A> property. Although Visual Basic and Visual C# use 0-based arrays, the lower array bounds of most collections in the Word object model is 1. For more information, see [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md).
 
 ## Test the project
 

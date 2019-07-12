@@ -29,18 +29,18 @@ The [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)]
 
 - You want to modify the build system. For example, you might want to enable the following actions:
 
-    - Preprocess files before they reach the compiler.
+  - Preprocess files before they reach the compiler.
 
-    - Copy the build outputs to a different place.
+  - Copy the build outputs to a different place.
 
-    - Create compressed files from build outputs.
+  - Create compressed files from build outputs.
 
-    - Do a post-processing step. For example, you might want to stamp an assembly with a different version.
+  - Do a post-processing step. For example, you might want to stamp an assembly with a different version.
 
 You can write code in the Visual Studio IDE but run builds by using MSBuild. As another alternative, you can build code in the IDE on a development computer but use an MSBuild command line to build code that's integrated from multiple developers.
 
 > [!NOTE]
->  You can use Team Foundation Build to automatically compile, test, and deploy your application. Your build system can automatically run builds when developers check in code (for example, as part of a Continuous Integration strategy) or according to a schedule (for example, a nightly Build Verification Test build). Team Foundation Build compiles your code by using MSBuild. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts).
+> You can use Team Foundation Build to automatically compile, test, and deploy your application. Your build system can automatically run builds when developers check in code (for example, as part of a Continuous Integration strategy) or according to a schedule (for example, a nightly Build Verification Test build). Team Foundation Build compiles your code by using MSBuild. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts).
 
  This topic provides an overview of MSBuild. For an introductory tutorial, see [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md).
 
@@ -54,7 +54,7 @@ MSBuild.exe MyProj.proj -property:Configuration=Debug
  For more information about [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] command-line options, see [Command-line reference](../msbuild/msbuild-command-line-reference.md).
 
 > [!IMPORTANT]
->  Before you download a project, determine the trustworthiness of the code.
+> Before you download a project, determine the trustworthiness of the code.
 
 ## Project file
  [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] uses an XML-based project file format that's straightforward and extensible. The [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file format lets developers describe the items that are to be built, and also how they are to be built for different operating systems and configurations. In addition, the project file format lets developers author reusable build rules that can be factored into separate files so that builds can be performed consistently across different projects in the product.

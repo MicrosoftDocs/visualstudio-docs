@@ -3,8 +3,8 @@ title: "Visual Studio User Experience Guidelines | Microsoft Docs"
 ms.date: "10/05/2018"
 ms.topic: "conceptual"
 ms.assetid: 3abbe495-cbbc-4982-a809-38bda34553a7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

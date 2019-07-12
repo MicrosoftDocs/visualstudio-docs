@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Manually Deploying a ClickOnce Application that Does Not Require Re-Signing and that Preserves Branding Information | Microsoft Docs"
+title: "Manually deploy ClickOnce apps preserving branding"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -29,7 +29,7 @@ When you create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
  When you create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application and then give it to a customer to publish and deploy, the application can use the customer's branding or can preserve your branding. For example, if the application is a single proprietary application, you might want to preserve your branding. If the application is highly customized for each customer, you might want to use the customer's branding. The .NET Framework 3.5 enables you to preserve your branding, publisher information and security signature when you give an application to an organization to deploy. For more information, see [Create ClickOnce applications for others to deploy](../deployment/creating-clickonce-applications-for-others-to-deploy.md).
 
 > [!NOTE]
->  In this walkthrough you create deployments manually by using either the command-line tool *Mage.exe* or the graphical tool *MageUI.exe*. For more information about manual deployments, see [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).
+> In this walkthrough you create deployments manually by using either the command-line tool *Mage.exe* or the graphical tool *MageUI.exe*. For more information about manual deployments, see [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).
 
 ## Prerequisites
  To perform the steps in this walkthrough you need the following:
@@ -45,7 +45,7 @@ When you create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 2. Create a directory named after the current version of your deployment. If this is the first time that you are deploying the application, you will likely choose **1.0.0.0**.
 
    > [!NOTE]
-   >  The version of your deployment may be distinct from the version of your application files.
+   > The version of your deployment may be distinct from the version of your application files.
 
 3. Create a subdirectory named **bin** and copy all of your application files here, including executable files, assemblies, resources, and data files.
 
@@ -95,7 +95,7 @@ When you create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 3. Create a subdirectory named after the current version of your deployment. If this is the first time that you are deploying the application, you will likely choose **1.0.0.0**.
 
    > [!NOTE]
-   >  The version of your deployment may be distinct from the version of your application files.
+   > The version of your deployment may be distinct from the version of your application files.
 
 4. Move the \\**bin** directory into the directory you created in step 2.
 

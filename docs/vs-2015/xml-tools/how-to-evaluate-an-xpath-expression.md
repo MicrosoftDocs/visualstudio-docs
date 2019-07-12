@@ -24,7 +24,7 @@ You can evaluate XPath expressions with the **QuickWatch** dialog box. The XPath
 - User-defined functions are not supported.  
   
 > [!NOTE]
->  The following procedure uses the belowAvg.xsl and books.xml files from the [Walkthrough: Debug an XSLT Style Sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md) topic.  
+> The following procedure uses the belowAvg.xsl and books.xml files from the [Walkthrough: Debug an XSLT Style Sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md) topic.  
   
 ### To evaluate an XPath expression  
   

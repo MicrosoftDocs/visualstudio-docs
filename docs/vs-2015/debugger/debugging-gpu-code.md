@@ -24,7 +24,7 @@ You can debug C++ code that is running on the graphics processing unit (GPU). GP
  Debugging is supported on [!INCLUDE[win7](../includes/win7-md.md)], [!INCLUDE[win8](../includes/win8-md.md)], [!INCLUDE[winsvr08_r2](../includes/winsvr08-r2-md.md)], and [!INCLUDE[winserver8](../includes/winserver8-md.md)]. For debugging on the software emulator, [!INCLUDE[win8](../includes/win8-md.md)], or [!INCLUDE[winserver8](../includes/winserver8-md.md)] is required. For debugging on the hardware, you must install the drivers for your graphics card. Not all hardware vendors implement all debugger features. See the vendor documentation for limitations.  
   
 > [!NOTE]
->  Independent hardware vendors who want to support GPU debugging in Visual Studio must create a DLL that implements the VSD3DDebug interface and targets their own drivers.  
+> Independent hardware vendors who want to support GPU debugging in Visual Studio must create a DLL that implements the VSD3DDebug interface and targets their own drivers.  
   
 ## Configuring GPU Debugging  
  The debugger cannot break on both CPU code and GPU code in the same app execution. By default, the debugger breaks on CPU code. To debug GPU code, use one of these two steps:  
@@ -62,7 +62,7 @@ You can debug C++ code that is running on the graphics processing unit (GPU). GP
 ## Troubleshooting  
   
 ### Specifying an accelerator  
- Breakpoints in GPU code are only hit if the code is running on the [accelerator::direct3d_ref](http://msdn.microsoft.com/library/a514b1a7-3b3f-4011-be6c-f7b0d9a42663) (REF) accelerator. If you do not specify an accelerator in your code, the REF accelerator is automatically selected as the **Debugging Accelerator Type** in the project properties. If your code explicitly selects an accelerator, then the REF accelerator will not be used during debugging and the breakpoints will not be hit unless your GPU hardware has debugging support. You can remedy this by writing your code so that it uses the REF accelerator during debugging. For more information, see project properties and [Using accelerator and accelerator_view Objects](http://msdn.microsoft.com/library/18f0dc66-8236-4420-9f46-1a14f2c3fba1) and [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).  
+ Breakpoints in GPU code are only hit if the code is running on the [accelerator::direct3d_ref](https://msdn.microsoft.com/library/a514b1a7-3b3f-4011-be6c-f7b0d9a42663) (REF) accelerator. If you do not specify an accelerator in your code, the REF accelerator is automatically selected as the **Debugging Accelerator Type** in the project properties. If your code explicitly selects an accelerator, then the REF accelerator will not be used during debugging and the breakpoints will not be hit unless your GPU hardware has debugging support. You can remedy this by writing your code so that it uses the REF accelerator during debugging. For more information, see project properties and [Using accelerator and accelerator_view Objects](https://msdn.microsoft.com/library/18f0dc66-8236-4420-9f46-1a14f2c3fba1) and [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).  
   
 ### Conditional Breakpoints  
  Conditional breakpoints in GPU code are supported, but not every expression can be evaluated on the device. When an expression can't be evaluated on the device, it is evaluated on the debugger. The debugger is likely to run more slowly than the device.  
@@ -77,6 +77,6 @@ You can debug C++ code that is running on the graphics processing unit (GPU). GP
  It is possible for C++ AMP computations to exceed the default time interval that's set by the Windows timeout detection and recovery process (TDR). When that happens, the computation is canceled and the data is lost. For more information, see [Handling TDRs in C++ AMP](http://go.microsoft.com/fwlink/p/?LinkId=249154).  
   
 ## See Also  
- [Walkthrough: Debugging a C++ AMP Application](http://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5)   
+ [Walkthrough: Debugging a C++ AMP Application](https://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5)   
  [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)   
  [Start GPU Debugging in Visual Studio](http://go.microsoft.com/fwlink/p/?LinkId=255381)

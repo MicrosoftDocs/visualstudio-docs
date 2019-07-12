@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "IVsMethodData interface"
   - "Parameter Info (IntelliSense)"
 ms.assetid: f367295e-45b6-45d2-9ec8-77481743beef
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -21,7 +21,7 @@ The IntelliSense Parameter Info tooltip provides users with hints about where th
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more, see [Extending the Editor and Language Services](../../extensibility/extending-the-editor-and-language-services.md).
 
 > [!NOTE]
->  We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.
+> We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.
 
 ## How Parameter Info Tooltips Work
  When you type a statement in the editor, the VSPackage displays a small tooltip window containing the definition of the statement being typed. For example, if you type a Microsoft Foundation Classes (MFC) statement (such as `pMainFrame ->UpdateWindow`) and press the opening parenthesis key to begin listing parameters, a method tip appears displaying the definition of the `UpdateWindow` method.

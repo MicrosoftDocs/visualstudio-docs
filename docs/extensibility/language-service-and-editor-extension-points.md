@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "editors [Visual Studio SDK], new - extension points"
 ms.assetid: 91a6417e-a6fe-4bc2-9d9f-5173c634a99b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -107,7 +107,7 @@ internal IContentTypeRegistryService ContentTypeRegistryService { get; set; }
  To associate a content type with a file name extension, use <xref:Microsoft.VisualStudio.Utilities.FileExtensionToContentTypeDefinition>.
 
 > [!NOTE]
->  In Visual Studio, file name extensions are registered by using the <xref:Microsoft.VisualStudio.Shell.ProvideLanguageExtensionAttribute> on a language service package. The <xref:Microsoft.VisualStudio.Utilities.FileExtensionToContentTypeDefinition> associates a MEF content type with a file name extension that has been registered in this manner.
+> In Visual Studio, file name extensions are registered by using the <xref:Microsoft.VisualStudio.Shell.ProvideLanguageExtensionAttribute> on a language service package. The <xref:Microsoft.VisualStudio.Utilities.FileExtensionToContentTypeDefinition> associates a MEF content type with a file name extension that has been registered in this manner.
 
  To export the file name extension to the content type definition, you must include the following attributes:
 
@@ -264,7 +264,7 @@ internal IEditorFormatMapService FormatMapService { get; set; }
 - <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>: associated with an adornment.
 
   > [!NOTE]
-  >  For an example of a <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>, see the HighlightWordTag definition in [Walkthrough: Highlighting Text](../extensibility/walkthrough-highlighting-text.md).
+  > For an example of a <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>, see the HighlightWordTag definition in [Walkthrough: Highlighting Text](../extensibility/walkthrough-highlighting-text.md).
 
 - <xref:Microsoft.VisualStudio.Text.Tagging.OutliningRegionTag>: associated with regions that can be expanded or collapsed in outlining.
 
@@ -310,7 +310,7 @@ internal class HighlightWordFormatDefinition : MarkerFormatDefinition
  To apply this format definition to a tag, reference the name you set in the name attribute of the class (not the display name).
 
 > [!NOTE]
->  For an example of a <xref:Microsoft.VisualStudio.Text.Classification.MarkerFormatDefinition>, see the HighlightWordFormatDefinition class in [Walkthrough: Highlighting Text](../extensibility/walkthrough-highlighting-text.md).
+> For an example of a <xref:Microsoft.VisualStudio.Text.Classification.MarkerFormatDefinition>, see the HighlightWordFormatDefinition class in [Walkthrough: Highlighting Text](../extensibility/walkthrough-highlighting-text.md).
 
 ## Extend adornments
  Adornments define visual effects that can be added either to the text that is displayed in a text view or to the text view itself. You can define your own adornment as any type of <xref:System.Windows.UIElement>.
@@ -502,7 +502,7 @@ internal sealed class TestOption : EditorOptionDefinition<bool>
 - <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource>
 
 > [!IMPORTANT]
->  <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagSource> has been deprecated in favor of <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource>.
+> <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagSource> has been deprecated in favor of <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource>.
 
  In addition, you must implement a provider of the same kind:
 
@@ -515,7 +515,7 @@ internal sealed class TestOption : EditorOptionDefinition<bool>
 - <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider>
 
 > [!IMPORTANT]
->  <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagSourceProvider> has been deprecated in favor of <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider>.
+> <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagSourceProvider> has been deprecated in favor of <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider>.
 
  You must export the provider together with the following attributes:
 

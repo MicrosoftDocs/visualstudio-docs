@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "project configurations, output"
 ms.assetid: a4517f73-45af-4745-9d7f-9fddf887b636
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -19,7 +19,7 @@ Every configuration can support a set of build processes that produce output ite
  The construct developed by implementing `IVsOutputGroup` allows projects to group outputs according to usage. For instance, a DLL might be grouped with its program database (PDB).
 
 > [!NOTE]
->  A PDB file contains debugging information and it is created when 'Generate Debug Info' option is specified when building the .dll or .exe. The .pdb file is usually generated for Debug project configuration only.
+> A PDB file contains debugging information and it is created when 'Generate Debug Info' option is specified when building the .dll or .exe. The .pdb file is usually generated for Debug project configuration only.
 
  The project must return the same number of groups for each configuration that it supports, even though the number of outputs contained within a group may vary from configuration to configuration. For example, the project Matt's DLL might include mattd.dll and mattd.pdb in Debug configuration, but only include matt.dll in Retail configuration.
 

@@ -1,7 +1,7 @@
 ---
 title: "Create a network-based installation"
 description: "Learn how to create a network install point for deploying Visual Studio within an enterprise."
-ms.date: 03/30/2019
+ms.date: 04/26/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
@@ -18,7 +18,7 @@ ms.technology: vs-installation
 ---
 # Create a network installation of Visual Studio
 
-Typically, an enterprise administrator creates a network install point to deploy to client workstations. We've designed Visual Studio to enable you to cache the files for the initial installation along with all product updates to a single folder. (This process is also referred to as _creating a layout_.) 
+Typically, an enterprise administrator creates a network install point to deploy to client workstations. We've designed Visual Studio to enable you to cache the files for the initial installation along with all product updates to a single folder. (This process is also referred to as _creating a layout_.)
 
 We've done this so that client workstations can use the same network location to manage their installation even if they haven't yet updated to the latest servicing update.
 
@@ -139,13 +139,13 @@ Here are a few examples of how to create a custom partial layout.
 * To download two workloads and all of their recommended components:
 
     ```cmd
-    vs_enterprise.exe --layout C:\vsoffline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeRecommended 
+    vs_enterprise.exe --layout C:\vsoffline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeRecommended
     ```
 
 * To download two workloads and all of their recommended and optional components, run:
 
     ```cmd
-    vs_enterprise.exe --layout C:\vsoffline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeOptional 
+    vs_enterprise.exe --layout C:\vsoffline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeOptional
     ```
 
 ::: moniker range="vs-2017"
@@ -219,11 +219,7 @@ When you install from a layout, the content that is installed is acquired from t
 
 If you used the `--wait` parameter, then depending on the result of the operation, the `%ERRORLEVEL%` environment variable is set to one of the following values:
 
-  | **Value** | **Result** |
-  | --------- | ---------- |
-  | 0 | Operation completed successfully |
-  | 3010 | Operation completed successfully, but install requires reboot before it can be used |
-  | Other | Failure condition occurred - check the logs for more information |
+[!INCLUDE[install-error-codes-md](includes/install-error-codes-md.md)]
 
 ## Update a network install layout
 
@@ -235,9 +231,9 @@ As product updates become available, you might want to [update the network insta
 
 > [!NOTE]
 > The Visual Studio bootstrappers that are available on [visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) download and install the latest Visual Studio release that's available whenever they are run.
-> 
+>
 > So, if you download a Visual Studio *bootstrapper* today and run it six months from now, it installs the Visual Studio release that is current at the time you run the bootstrapper.
-> 
+>
 > But, if you create a *layout* and then install from it, the layout installs the specific version of Visual Studio that exists in the layout. Even though a newer version might exist online, you get the version of Visual Studio that is in the layout.
 
 ::: moniker-end
@@ -246,9 +242,9 @@ As product updates become available, you might want to [update the network insta
 
 > [!NOTE]
 > The Visual Studio bootstrappers that are available on [visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) download and install the latest Visual Studio release that's available whenever they are run.
-> 
+>
 > So, if you download a Visual Studio *bootstrapper* today and run it six months from now, it installs the Visual Studio release that is current at the time you run the bootstrapper.
-> 
+>
 > But, if you create a *layout* and then install from it, the layout installs the specific version of Visual Studio that exists in the layout. Even though a newer version might exist online, you get the version of Visual Studio that is in the layout.
 
 ::: moniker-end
@@ -261,13 +257,14 @@ If you experience a problem with your offline installation, we want to know abou
 
 We also offer a [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 
-We have other support options available, too. For a list, see our [Talk to us](../ide/talk-to-us.md) page.
+We have other support options available, too. For a list, see our [Feedback](../ide/feedback-options.md) page.
 
 ## See also
 
-* [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
-* [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
-* [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
-* [Visual Studio administrator guide](visual-studio-administrator-guide.md)
-* [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
-* [Visual Studio workload and component IDs](workload-and-component-ids.md)
+- [Visual Studio administrator guide](visual-studio-administrator-guide.md)
+- [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
+- [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
+- [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
+- [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)
+- [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
+- [Visual Studio workload and component IDs](workload-and-component-ids.md)

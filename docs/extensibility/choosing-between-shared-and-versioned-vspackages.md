@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "side-by-side installation"
   - "installation [Visual Studio SDK], side-by-side"
 ms.assetid: e3128ac3-2e92-48e9-87ab-3b6c9d80e8c9
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -16,7 +16,7 @@ ms.workload:
 # Choose between shared and versioned VSPackages
 Different versions of Visual Studio can coexist on the same computer. VSPackages can support any mix of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] versions.
 
- You can enable side-by-side installations of VSPackages through either of two strategies, the shared strategy or the versioned strategy. Both accommodate the presence of multiple versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and associated versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].
+ You can enable side-by-side installations of VSPackages through either of two strategies, the shared strategy or the versioned strategy. Both accommodate the presence of multiple versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and associated versions of the .NET Framework.
 
  In the shared strategy, one VSPackage is registered for use in multiple versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. In the versioned strategy, multiple VSPackage DLLs are installed, one for each version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that you support.
 

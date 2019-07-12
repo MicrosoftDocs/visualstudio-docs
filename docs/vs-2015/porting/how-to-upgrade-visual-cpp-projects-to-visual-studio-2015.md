@@ -30,12 +30,12 @@ When you first open a Visual C++ project that was created in an earlier version 
 
 - If the project (.vcxproj) was created in [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)],  [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], or [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] you have two options:
 
-    - You can skip the update. [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)] will load the project without making any changes if it has access to the Visual C++ tools in [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] with SP1,  [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], or [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]. You can provide this access by installing the version of Visual Studio that the project was created with on the same machine that has [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)]. For more information, see [Installing Visual Studio Versions Side-by-Side](../install/install-visual-studio-versions-side-by-side.md).
+  - You can skip the update. [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)] will load the project without making any changes if it has access to the Visual C++ tools in [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] with SP1,  [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], or [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]. You can provide this access by installing the version of Visual Studio that the project was created with on the same machine that has [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)]. For more information, see [Installing Visual Studio Versions Side-by-Side](../install/install-visual-studio-versions-side-by-side.md).
 
-    - You can update the project by allowing [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to make the changes that are described later in this topic. If you have more than one Visual C++ project in your solution, you must update all of them.
+  - You can update the project by allowing [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to make the changes that are described later in this topic. If you have more than one Visual C++ project in your solution, you must update all of them.
 
-        > [!NOTE]
-        >  If you decline the update when you're first prompted, you can update the project later by choosing **Update VC++ project** on the **Project** menu. If the command doesn't appear, then an update isn't required.
+    > [!NOTE]
+    > If you decline the update when you're first prompted, you can update the project later by choosing **Update VC++ project** on the **Project** menu. If the command doesn't appear, then an update isn't required.
 
 ## Upgrading a Visual C++ Project
  If you allow [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)] to automatically update the project, these changes are made:
@@ -48,5 +48,5 @@ When you first open a Visual C++ project that was created in an earlier version 
  If you want to continue to work with a custom PlatformToolset in [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)], the toolset must be located under %ProgramFiles%\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\PlatformToolsets\ on an x86 machine, or under %ProgramFiles (x86)%\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\PlatformToolsets\ on an x64 machine. For information about how to create a custom PlatformToolset, see [C++ Native Multi-Targeting](http://go.microsoft.com/fwlink/?LinkId=248587) on the Visual C++ Team blog.
 
 ## See Also
- [Visual C++ Porting and Upgrading Guide](http://msdn.microsoft.com/library/f5fbcc3d-aa72-41a6-ad9a-a706af2166fb)
+ [Visual C++ Porting and Upgrading Guide](https://msdn.microsoft.com/library/f5fbcc3d-aa72-41a6-ad9a-a706af2166fb)
  [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)

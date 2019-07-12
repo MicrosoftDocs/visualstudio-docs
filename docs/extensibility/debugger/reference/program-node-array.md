@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "PROGRAM_NODE_ARRAY structure"
 ms.assetid: 8eeea600-eda5-4b7c-868a-0b86d177b0a5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # PROGRAM_NODE_ARRAY
 Contains an array of objects that describe programs of interest.
@@ -33,10 +36,10 @@ public struct tagPROGRAM_NODE_ARRAY {
 ```
 
 ## Members
- dwCount
+ `dwCount`\
  Number of objects in the `Members` array.
 
- Members
+ `Members`\
  An array of [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) objects describing the programs requested.
 
 ## Remarks
@@ -49,7 +52,7 @@ public struct tagPROGRAM_NODE_ARRAY {
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [PROVIDER_PROCESS_DATA](../../../extensibility/debugger/reference/provider-process-data.md)
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

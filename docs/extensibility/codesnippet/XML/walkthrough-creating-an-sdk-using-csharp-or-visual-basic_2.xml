@@ -1,12 +1,15 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="WinRTMathCS" Version="1.0" Language="en-US" Publisher="[YourName]" />
-    <DisplayName>WinRT Math Library (CS)</DisplayName>
+    <Identity Id="SimpleMath" Version="1.0" Language="en-US" Publisher="[YourName]" />
+    <DisplayName>SimpleMath Library</DisplayName>
     <Description xml:space="preserve">Basic arithmetic operations in a WinRT-compatible library. Implemented in C#.</Description>
   </Metadata>
   <Installation Scope="Global" AllUsers="true">
-    <InstallationTarget Id="Microsoft.ExtensionSDK" TargetPlatformIdentifier="Windows" TargetPlatformVersion="v8.0" SdkName="WinRT Math (CS)" SdkVersion="1.0" />
+    <InstallationTarget Id="Microsoft.ExtensionSDK" TargetPlatformIdentifier="Windows" TargetPlatformVersion="v8.0" SdkName="SimpleMath" SdkVersion="1.0" />
   </Installation>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[14.0,16.0]" />
+  </Prerequisites>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.5" />
   </Dependencies>

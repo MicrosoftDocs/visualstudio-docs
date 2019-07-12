@@ -22,7 +22,7 @@ manager: jillfra
  The overview map displays a small version of the entire activity at the current breadcrumb root, including all of its children and all of their expanded children. There is a viewport, a rectangle with an orange border, which highlights the portion of the activity currently displayed inside the editor. Dragging the rectangle around the overview map scrolls the workflow designer and changes the view of the editor.  
   
 > [!NOTE]
->  The [!INCLUDE[wfd2](../includes/wfd2-md.md)] user interface is virtualized. The activity designers are rendered only when required. If a portion of the workflow has never been drawn on the designer surface, that portion appears as white on the overview map. Scrolling around the overview map completely draws the workflow.  
+> The [!INCLUDE[wfd2](../includes/wfd2-md.md)] user interface is virtualized. The activity designers are rendered only when required. If a portion of the workflow has never been drawn on the designer surface, that portion appears as white on the overview map. Scrolling around the overview map completely draws the workflow.  
   
 ## Copying or Saving Workflows as Images  
  Workflows can be copied in bitmap format or saved in bitmap or vector format. Copying or saving an image provides a way to export a view of entire activity at the current breadcrumb root, including all of its children and all of their expanded children to another program.  

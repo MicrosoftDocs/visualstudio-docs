@@ -29,7 +29,7 @@ Class diagrams help you understand the class structure of projects others have w
  After you have fine-tuned one or more class diagrams, you can copy them into Microsoft Office documents and print them, or export them as image files. For more information, see [How to: Copy Class Diagram Elements to a Microsoft Office Document (Class Designer)](../ide/how-to-copy-class-diagram-elements-to-a-microsoft-office-document-class-designer.md), [How to: Print Class Diagrams (Class Designer)](../ide/how-to-print-class-diagrams-class-designer.md) and [How to: Export Class Diagrams As Images (Class Designer)](../ide/how-to-export-class-diagrams-as-images-class-designer.md).  
   
 > [!NOTE]
->  Class Designer does not track the location of your source files, so changing your project structure or moving source files in the project can cause Class Designer to lose track of the type, especially the source type of a typedef, base classes, or association types. You might get an error, like **Class Designer is unable to display this type**. If you do, drag the modified or relocated source code to the class diagram again to redisplay it.  
+> Class Designer does not track the location of your source files, so changing your project structure or moving source files in the project can cause Class Designer to lose track of the type, especially the source type of a typedef, base classes, or association types. You might get an error, like **Class Designer is unable to display this type**. If you do, drag the modified or relocated source code to the class diagram again to redisplay it.  
   
 ## In This Section  
  [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)  
@@ -63,4 +63,4 @@ Class diagrams help you understand the class structure of projects others have w
 ## See Also  
  [Viewing Types and Relationships (Class Designer)](../ide/viewing-types-and-relationships-class-designer.md)   
  [How to: Customize Class Diagrams (Class Designer)](../ide/how-to-customize-class-diagrams-class-designer.md)   
- [How to: Remove Type Shapes from Class Diagrams (Class Designer)](http://msdn.microsoft.com/ae41897d-d066-4b8c-bb9b-05436e12ff39)
+ [How to: Remove Type Shapes from Class Diagrams (Class Designer)](https://msdn.microsoft.com/ae41897d-d066-4b8c-bb9b-05436e12ff39)

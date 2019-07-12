@@ -138,9 +138,9 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
 
 4. Add the following to the **Function Name** box, and select **C++** language.
 
-    ```C++
-    ((my_class *) 0xcccccccc)->my_method
-    ```
+   ```cpp
+   ((my_class *) 0xcccccccc)->my_method
+   ```
 
 ::: moniker range=">= vs-2019"
 
@@ -161,7 +161,7 @@ Data breakpoints in .NET Core won't work for:
 - Properties that are not expandable in the tooltip, Locals, Autos, or Watch window
 - Static variables
 - Classes with the DebuggerTypeProxy Attribute
-- Fields inside of structs 
+- Fields inside of structs
 
 ::: moniker-end
 
@@ -183,11 +183,12 @@ Data breakpoints don't work under the following conditions:
 - A process that is not being debugged writes to the memory location.
 - The memory location is shared between two or more processes.
 - The memory location is updated within the kernel. For example, if memory is passed to the 32-bit Windows `ReadFile` function, the memory will be updated from kernel mode, so the debugger won't break on the update.
+- Where the watch expression is larger than 4 bytes on 32-bit hardware and 8 bytes on 64-bit hardware. This is a limitation of the x86 architecture.
 
->[!NOTE]
->- Data breakpoints depend on specific memory addresses. The address of a variable changes from one debugging session to the next, so data breakpoints are automatically disabled at the end of each debugging session.
+> [!NOTE]
+> - Data breakpoints depend on specific memory addresses. The address of a variable changes from one debugging session to the next, so data breakpoints are automatically disabled at the end of each debugging session.
 >
->- If you set a data breakpoint on a local variable, the breakpoint remains enabled when the function ends, but the memory address is no longer applicable, so the behavior of the breakpoint is unpredictable. If you set a data breakpoint on a local variable, you should delete or disable the breakpoint before the function ends.
+> - If you set a data breakpoint on a local variable, the breakpoint remains enabled when the function ends, but the memory address is no longer applicable, so the behavior of the breakpoint is unpredictable. If you set a data breakpoint on a local variable, you should delete or disable the breakpoint before the function ends.
 
 ## <a name="BKMK_Specify_advanced_properties_of_a_breakpoint_"></a> Manage breakpoints in the Breakpoints window
 
@@ -261,7 +262,7 @@ When you select **Conditional Expression**, you can choose between two condition
 
 2. Start debugging, and when execution pauses at the breakpoint, select **Debug** > **Windows** > **Locals** or **Alt**+**4** to open the **Locals** window.
 
-   Find the breakpoint in the **Locals** window, right-click it, and select **Make Object ID**.
+   Find the specific object instance in the **Locals** window, right-click it, and select **Make Object ID**.
 
    You should see a **$** plus a number in the **Locals** window. This is the object ID.
 

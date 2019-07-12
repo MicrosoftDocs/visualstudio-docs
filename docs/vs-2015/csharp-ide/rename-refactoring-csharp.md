@@ -23,7 +23,7 @@ manager: jillfra
 **Rename** is a refactoring feature in the Visual Studio integrated development environment (IDE) that provides an easy way to rename identifiers for code symbols such as fields, local variables, methods, namespaces, properties, and types. **Rename** can be used to change the names in comments and in strings and to change the declarations and calls of an identifier.  
   
 > [!NOTE]
->  When using Source Control for Visual Studio, get the latest version of sources before you try to perform rename refactoring.  
+> When using Source Control for Visual Studio, get the latest version of sources before you try to perform rename refactoring.  
   
  Rename refactoring is available from the following Visual Studio features:  
   
@@ -42,7 +42,7 @@ manager: jillfra
 |-----------------|----------------------|  
 |Field|Changes the declaration and usages of the field to the new name.|  
 |Local variable|Changes the declaration and usages of the variable to the new name.|  
-|Method|Changes the name of the method and all references to that method to the new name. **Note:**  When you rename an extension method, the rename operation propagates to all instances of the method that are in scope, regardless of whether the extension method is being used as a static method or an instance method. For more information, see [Extension Methods](http://msdn.microsoft.com/library/175ce3ff-9bbf-4e64-8421-faeb81a0bb51).|  
+|Method|Changes the name of the method and all references to that method to the new name. **Note:**  When you rename an extension method, the rename operation propagates to all instances of the method that are in scope, regardless of whether the extension method is being used as a static method or an instance method. For more information, see [Extension Methods](https://msdn.microsoft.com/library/175ce3ff-9bbf-4e64-8421-faeb81a0bb51).|  
 |Namespace|Changes the name of the namespace to the new name in the declaration, all `using` statements, and fully qualified names. **Note:**  When renaming a namespace, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] also updates the **Default Namespace** property on the **Application** page of the **Project Designer**. This property cannot be reset by selecting **Undo** from the **Edit** menu. To reset the **Default Namespace** property value, you must modify the property in the **Project Designer**. For more information, see [Application Page](../ide/reference/application-page-project-designer-csharp.md).|  
 |Property|Changes the declaration and usages of the property to the new name.|  
 |Type|Changes all declarations and all usages of the type to the new name, including constructors and destructors. For partial types, the rename operation will propagate to all parts.|  
@@ -110,7 +110,7 @@ manager: jillfra
 2. In the declaration for `MethodB`, type or backspace over the method identifier. A smart tag prompt will appear below this identifier.  
   
     > [!NOTE]
-    >  You can only invoke rename refactoring using smart tags at the declaration of an identifier.  
+    > You can only invoke rename refactoring using smart tags at the declaration of an identifier.  
   
 3. Type the keyboard shortcut SHIFT+ALT+F10, and then press the DOWN ARROW to display the smart tag menu.  
   
@@ -138,7 +138,7 @@ manager: jillfra
  If **Rename overloads** is checked, the refactor engine renames `Derived.Method(int i)` because it overloads `Derived.Method()`, `Base.Method(int i)` because it is overridden by `Derived.Method(int i)`, and `Base.Method()` because it is an overload of `Base.Method(int i)`.  
   
 > [!NOTE]
->  When you rename a member that was defined in a referenced assembly, a dialog box explains that renaming will cause build errors.  
+> When you rename a member that was defined in a referenced assembly, a dialog box explains that renaming will cause build errors.  
   
 ## Renaming Properties of Anonymous Types  
  When you rename a property in anonymous types, the rename operation will propagate to properties in other anonymous types that have the same properties. The following examples illustrate this behavior.  
@@ -164,4 +164,4 @@ var orderIDs =
   
 ## See Also  
  [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)   
- [Anonymous Types](http://msdn.microsoft.com/library/59c9d7a4-3b0e-475e-b620-0ab86c088e9b)
+ [Anonymous Types](https://msdn.microsoft.com/library/59c9d7a4-3b0e-475e-b620-0ab86c088e9b)

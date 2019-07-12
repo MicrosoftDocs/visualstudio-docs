@@ -12,17 +12,15 @@
 ### [Download Software](subscriber-downloads.md)
 #### [List of Available Software Downloads](software-download-list.md)
 ### [Obtain & Manage Product Keys](product-keys.md)
-### Visual Studio Dev Essentials
-#### [Join Visual Studio Dev Essentials](join-dev-essentials.md)
-#### [Opt Out of Visual Studio Dev Essentials](leave-vsde.md)
+### [Visual Studio with GitHub Enterprise](access-github.md)
 ### [Subscriber Benefits](subscriber-benefits.md)
+### [Visual Studio Dev Essentials](join-dev-essentials.md)
 ## Using Subscriber Benefits
 ### Tools
 #### [Visual Studio IDE](vs-ide-benefit.md)
 #### [Azure DevOps](vs-azure-devops.md)
 #### [Azure Credit](vs-azure.md)
 #### [Office 365 Developer subscription](vs-office-dev.md)
-#### [RStudio](vs-rstudio.md)
 #### [CAST Highlight](vs-cast.md)
 #### [CloudPilot](vs-cloudpilot.md)
 #### [Visual Studio App Center](vs-visual-studio-app-center.md)
@@ -32,14 +30,11 @@
 #### [Windows Developer Account](vs-windows-dev.md)
 #### [Office 365 subscription](vs-office365.md)
 #### [Power BI Pro](vs-pbi.md)
-#### [Modern Requirements4TFS](vs-modernreq.md)
 #### [Azure Pay-As-You-Go](vs-azure-payg.md)
 ### [Professional Development](professional-development.md)
 #### [LinkedIn Learning](vs-linkedin-learning.md)
 #### [DataCamp](vs-datacamp.md)
-#### [Skill Me Up](vs-opsgility.md)
 #### [Pluralsight](vs-pluralsight.md)
-#### [Xamarin University Training](vs-xamarin.md)
 #### [MSDN Magazine subscription](vs-msdn.md)
 ### [Support Benefits](technical-support.md)
 #### [Azure Advisory Chat](vs-azure-advisory-chat.md)
@@ -72,6 +67,7 @@
 #### [Maximum Usage](maximum-usage.md)
 #### [Expired Subscriptions](handle-expired-license.md)
 #### [Subscribers with Personal Email Sign-ins](personal-email-sign-ins.md)
+### [Managing Visual Studio with GitHub Enterprise](assign-github.md)
 ## Acquiring Visual Studio Subscriptions
 ### [Compare Subscription Options](https://visualstudio.microsoft.com/vs/pricing)
 ### Buying Cloud Subscriptions

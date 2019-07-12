@@ -63,7 +63,7 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
 ```  
   
 > [!WARNING]
->  Symbol resolution can take time, especially when using a remote file location with a lot of assemblies. Therefore, consider copying remote .pdb files to the same local location as the binary (.dll and .exe) files.  
+> Symbol resolution can take time, especially when using a remote file location with a lot of assemblies. Therefore, consider copying remote .pdb files to the same local location as the binary (.dll and .exe) files.  
   
 ### Excluding and including  
  You can exclude specified assemblies from code coverage analysis. For example:  
@@ -128,7 +128,7 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
 ```  
   
 > [!WARNING]
->  If there is an error in a regular expression, such as an unescaped and unmatched parenthesis, then code coverage analysis will not run.  
+> If there is an error in a regular expression, such as an unescaped and unmatched parenthesis, then code coverage analysis will not run.  
   
 ### Other ways to include or exclude elements  
  See the [sample at the end of this topic](#sample) for examples.  
@@ -175,7 +175,7 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
  Choose **Test**, **Test Settings**, **Select Test Settings File** and select the .runsettings file. The file appears on the Test Settings menu, and you can select or cancel it. While selected, your .runsettings file applies whenever you use **Analyze Code Coverage**.  
   
 ### To customize run settings in a command line test  
- To run tests from the command line, use vstest.console.exe. The settings file is a parameter of this utility. For more information, see [Using VSTest.console from the command line](http://msdn.microsoft.com/library/852812d8-b3bb-407e-bc43-04d511fcb27a).  
+ To run tests from the command line, use vstest.console.exe. The settings file is a parameter of this utility. For more information, see [Using VSTest.console from the command line](https://msdn.microsoft.com/library/852812d8-b3bb-407e-bc43-04d511fcb27a).  
   
 1. Launch the Visual Studio Developer Command Prompt:  
   
@@ -231,7 +231,7 @@ Note that searching for symbols increases code coverage runtime. So keep this sm
 <!--  
 About include/exclude lists:  
 Empty "Include" clauses imply all; empty "Exclude" clauses imply none.  
-Each element in the list is a regular expression (ECMAScript syntax). See http://msdn.microsoft.com/library/2k3te2cs.aspx.  
+Each element in the list is a regular expression (ECMAScript syntax). See https://msdn.microsoft.com/library/2k3te2cs.aspx.  
 An item must first match at least one entry in the include list to be included.  
 Included items must then not match any entries in the exclude list to remain included.  
 -->  

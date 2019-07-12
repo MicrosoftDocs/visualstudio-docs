@@ -17,7 +17,7 @@ manager: jillfra
 # IDiaSymbol::get_editAndContinueEnabled
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-Retrieves a flag indicating whether the module was compiled with the [/Z7, /Zi, /ZI (Debug Information Format)](http://msdn.microsoft.com/library/ce9fa7e1-0c9b-47e3-98ea-26d1a16257c8) compiler switch.  
+Retrieves a flag indicating whether the module was compiled with the [/Z7, /Zi, /ZI (Debug Information Format)](https://msdn.microsoft.com/library/ce9fa7e1-0c9b-47e3-98ea-26d1a16257c8) compiler switch.  
   
 ## Syntax  
   
@@ -35,7 +35,7 @@ HRESULT get_editAndContinueEnabled ( 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.  
   
 > [!NOTE]
->  A return value of `S_FALSE` means that the property is not available for the symbol.  
+> A return value of `S_FALSE` means that the property is not available for the symbol.  
   
 ## Requirements  
   
@@ -46,4 +46,4 @@ HRESULT get_editAndContinueEnabled ( 
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [/Z7, /Zi, /ZI (Debug Information Format)](http://msdn.microsoft.com/library/ce9fa7e1-0c9b-47e3-98ea-26d1a16257c8)
+ [/Z7, /Zi, /ZI (Debug Information Format)](https://msdn.microsoft.com/library/ce9fa7e1-0c9b-47e3-98ea-26d1a16257c8)

@@ -26,13 +26,13 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
  ![Enable Just My Code in the Options dialog box](../debugger/media/dbg-justmycode-options.png "DBG_JustMyCode_Options")  
   
 > [!NOTE]
->  The **Enable Just My Code** setting is a global setting that is applied to all Visual Studio projects in all languages.  
+> The **Enable Just My Code** setting is a global setting that is applied to all Visual Studio projects in all languages.  
   
 ### <a name="BKMK_Override_call_stack_filtering"></a> Override call stack filtering  
  In call stack displays, such as the Call Stack and Tasks windows, Just My Code collapses non-user code into an annotated frame labeled `[External Code]`. To view the collapsed frames, choose **Show External Code** on the context menu of the call stack display.  
   
 > [!NOTE]
->  The **Show External Code** setting is saved to the current user’s profiler. It is applied to all projects in all languages that are opened by the user.  
+> The **Show External Code** setting is saved to the current user’s profiler. It is applied to all projects in all languages that are opened by the user.  
   
 ## <a name="BKMK__NET_Framework_Just_My_Code"></a> .NET Framework Just My Code  
   
@@ -216,9 +216,9 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
   
 - If the `debugger` keyword is encountered in:  
   
-    - **LibraryCode** code, the debugger always breaks.  
-  
-    - **UnrelatedCode** code, the debugger doesn’t stop.  
+  - **LibraryCode** code, the debugger always breaks.  
+
+  - **UnrelatedCode** code, the debugger doesn’t stop.  
   
 ### <a name="BKMK_JS_Exception_behavior"></a> Exception behavior  
  If an unhandled exception occurs in:  

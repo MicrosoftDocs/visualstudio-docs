@@ -1,6 +1,6 @@
 ---
 title: Load a subset of projects
-ms.date: 12/04/2018
+ms.date: 04/22/2019
 ms.prod: visual-studio-dev16
 ms.topic: conceptual
 helpviewer_keywords:
@@ -13,9 +13,7 @@ monikerRange: ">= vs-2019"
 ---
 # Filtered solutions in Visual Studio
 
-**New in Visual Studio 2019**
-
-Large development teams often collaborate by using a single large solution with many projects. However, individual developers typically work on a small subset of these projects. To improve performance when opening large solutions, Visual Studio 2019 introduces *solution filtering*. Solution filtering lets you open a solution with only selective projects loaded. Loading a subset of projects in a solution decreases solution load, build, and test run time, and enables more focused review.
+Large development teams often collaborate by using a single large solution with many projects. However, individual developers typically work on a small subset of these projects. To improve performance when opening large solutions, Visual Studio 2019 introduced *solution filtering*. Solution filtering lets you open a solution with only selective projects loaded. Loading a subset of projects in a solution decreases solution load, build, and test run time, and enables more focused review.
 
 The following features are available:
 
@@ -27,7 +25,11 @@ The following features are available:
 
 ## Open a filtered solution
 
-To open a solution with only some of its projects loaded, follow these steps:
+You can open a solution without loading any of its projects directly from the **Open Project** dialog or through the [command line](#command-line).
+
+### Open Project dialog
+
+To open a solution without loading any of its projects by using the **Open Project** dialog:
 
 1. Choose **File** > **Open** > **Project/Solution** from the menu bar.
 
@@ -45,15 +47,31 @@ To open a solution with only some of its projects loaded, follow these steps:
 
    Visual Studio will remember which projects are loaded the next time you open the solution locally.
 
+### Command line
+
+(New in Visual Studio 2019 version 16.1.)
+
+To open a solution without loading any of its projects from the command line, use the [`/donotloadprojects`](../ide/reference/donotloadprojects-devenv-exe.md) switch as shown in the following example:
+
+```cmd
+devenv /donotloadprojects MySln.sln
+```
+
 ## Toggle unloaded project visibility
 
 You can choose to see either all the projects in the solution or just the loaded ones using one of the following choices in **Solution Explorer**:
 
 - Right-click on your solution and select **Show Unloaded Projects** or **Hide Unloaded Projects**.
 
-- Select the **Show All Files** button to toggle the visibility of unloaded projects.
+- Select the solution node to enable the **Show All Files** button; then, click the button to toggle the visibility of unloaded projects.
 
    ![Show All Files button in Visual Studio Solution Explorer](media/filtered-solutions/show-all-files.PNG)
+
+## Load project dependencies
+
+In a solution where only selected projects are loaded, you may not have all of a project's project dependencies loaded. Use the **Load project dependencies** menu option to ensure that any projects that a project depends on are also loaded. Right-click on one or more loaded projects in **Solution Explorer** and choose **Load project dependencies**.
+
+![Load project dependencies in Visual Studio 2019](media/filtered-solutions/load-project-dependencies.png)
 
 ## Solution filter files
 

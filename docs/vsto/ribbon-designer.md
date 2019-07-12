@@ -41,7 +41,7 @@ ms.workload:
 - [Add controls to Backstage View](#CustomizingMicrosoftOfficeButton)
 
 > [!NOTE]
->  There are some tasks that you cannot accomplish by using the Ribbon Designer. For more information about these tasks and how you can accomplish them, see [Ribbon overview](../vsto/ribbon-overview.md).
+> There are some tasks that you cannot accomplish by using the Ribbon Designer. For more information about these tasks and how you can accomplish them, see [Ribbon overview](../vsto/ribbon-overview.md).
 
  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use the Ribbon Designer to customize the ribbon in Outlook?](http://go.microsoft.com/fwlink/?LinkID=130312).
 

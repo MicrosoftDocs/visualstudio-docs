@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "vsz files"
   - "wizards, files"
 ms.assetid: 72e1d0f3-eef1-455e-b803-96827f030f50
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

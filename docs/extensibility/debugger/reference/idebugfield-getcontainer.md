@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugField::GetContainer method"
 ms.assetid: 6d6c8213-6181-4adf-9584-3e4cac163dd8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugField::GetContainer
 This method gets the container of a field.
@@ -30,10 +33,9 @@ int GetContainer(
 );
 ```
 
-#### Parameters
- `ppContainerField`
-
- [out] Returns the container as represented by the [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) interface.
+## Parameters
+`ppContainerField`\
+[out] Returns the container as represented by the [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) interface.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -41,6 +43,6 @@ int GetContainer(
 ## Remarks
  If this field does not have a container, the returned `ppContainerField` will be a null value.
 
-## See Also
+## See also
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
 - [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)

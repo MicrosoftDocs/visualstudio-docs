@@ -6,20 +6,20 @@ helpviewer_keywords:
   - "expression evaluation, local values"
   - "debugging [Debugging SDK], expression evaluation"
 ms.assetid: ee2d955b-12ca-4f27-89aa-c2d0e768b6b6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
 ---
 # Sample implementation of changing values
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
+> In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
  Every local displayed in the **Locals** window has an [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) object associated with it. This `IDebugProperty2` object contains the local's name, value, and type. When a user changes the value of a local, Visual Studio calls [SetValueAsString](../../extensibility/debugger/reference/idebugproperty2-setvalueasstring.md) to update the value of the local in memory. In this example, the local is represented by the `CFieldProperty` class that implements the `IDebugProperty2` interface.
 
 > [!NOTE]
->  For **Watch** and **QuickWatch** expressions, the value being changed is represented by the `CValueProperty` class in the MyCEE sample. However, the implementation of `IDebugProperty2::SetValueAsString` is the same as shown here.
+> For **Watch** and **QuickWatch** expressions, the value being changed is represented by the `CValueProperty` class in the MyCEE sample. However, the implementation of `IDebugProperty2::SetValueAsString` is the same as shown here.
 
  The implementation of `IDebugProperty2::SetValueAsString` performs the following tasks:
 

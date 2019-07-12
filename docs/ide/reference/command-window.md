@@ -83,7 +83,7 @@ Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar
 - `var[1-3]+` and `oldpar` are parameters
 
     > [!NOTE]
-    >  Any command, parameter, switch, or value that contains spaces must have double quotation marks on either side.
+    > Any command, parameter, switch, or value that contains spaces must have double quotation marks on either side.
 
 The position of switches and parameters can be interchanged freely on the command line with the exception of the [Shell](../../ide/reference/shell-command.md) command, which requires its switches and parameters in a specific order.
 

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 2 | Microsoft Docs"
+title: "Create custom action project item with item template, part 2"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -28,7 +28,7 @@ ms.workload:
 - Debugging and testing the wizard.
 
 > [!NOTE]
->  You can download a sample from [Github](https://github.com/SharePoint/PnP/tree/master/Samples/Workflow.Activities) that shows how to create custom activities for a workflow.
+> You can download a sample from [Github](https://github.com/SharePoint/PnP/tree/master/Samples/Workflow.Activities) that shows how to create custom activities for a workflow.
 
 ## Prerequisites
  To perform this walkthrough, you must first create the CustomActionProjectItem solution by completing [Walkthrough: Create a custom action project item with an item template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md).
@@ -119,12 +119,12 @@ ms.workload:
 2. In the XAML view, replace the current XAML with the following XAML. The XAML defines a UI that includes a heading, controls for specifying the behavior of the custom action, and navigation buttons at the bottom of the window.
 
     > [!NOTE]
-    >  Your project will have some compile errors after you add this code. These errors will go away when you add code in later steps.
+    > Your project will have some compile errors after you add this code. These errors will go away when you add code in later steps.
 
      [!code-xml[SPExtensibility.ProjectItem.CustomAction#9](../sharepoint/codesnippet/Xaml/customactionprojectitem/itemtemplatewizard/wizardwindow.xaml#9)]
 
     > [!NOTE]
-    >  The window that's created in this XAML is derived from the <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> base class. When you add a custom WPF dialog box to Visual Studio, we recommend that you derive your dialog box from this class to have consistent styling with other dialog boxes in Visual Studio and to avoid issues that might otherwise occur with modal dialog boxes. For more information, see [Creating and Managing Modal Dialog Boxes](/visualstudio/extensibility/creating-and-managing-modal-dialog-boxes).
+    > The window that's created in this XAML is derived from the <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> base class. When you add a custom WPF dialog box to Visual Studio, we recommend that you derive your dialog box from this class to have consistent styling with other dialog boxes in Visual Studio and to avoid issues that might otherwise occur with modal dialog boxes. For more information, see [Creating and Managing Modal Dialog Boxes](/visualstudio/extensibility/creating-and-managing-modal-dialog-boxes).
 
 3. If you're developing a Visual Basic project, remove the `ItemTemplateWizard` namespace from the `WizardWindow` class name in the `x:Class` attribute of the `Window` element. This element is in the first line of the XAML. When you're done, the first line should resemble the following code:
 
@@ -308,7 +308,7 @@ ms.workload:
      The custom action is packaged and deployed to the SharePoint site specified by the **Site URL** property of the project, and the web browser opens to the default page of this site.
 
     > [!NOTE]
-    >  If the **Script Debugging Disabled** dialog box appears, choose the **Yes** button.
+    > If the **Script Debugging Disabled** dialog box appears, choose the **Yes** button.
 
 2. In the Lists area of the SharePoint site, choose the **Tasks** link.
 

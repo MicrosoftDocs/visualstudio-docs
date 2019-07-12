@@ -105,7 +105,7 @@ if (newValue > 10)
  You can also use a ChangeRule to adjust the property’s new value to keep it within a specific range.  
   
 > [!WARNING]
->  If a rule makes changes to the store content, other rules and property handlers might be triggered. If a rule changes the property that triggered it, it will be called again. You must make sure that your rule definitions do not result in endless triggering.  
+> If a rule makes changes to the store content, other rules and property handlers might be triggered. If a rule changes the property that triggered it, it will be called again. You must make sure that your rule definitions do not result in endless triggering.  
   
 ```  
 using Microsoft.VisualStudio.Modeling;   

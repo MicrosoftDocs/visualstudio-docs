@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "debug engines, attaching to programs"
 ms.assetid: 5a3600a1-dc20-4e55-b2a4-809736a6ae65
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -22,7 +22,7 @@ After a program launches, the debug session is ready to attach the debug engine 
 - If it makes more sense to set up the communication between the DE and the program, the run-time environment co-creates the DE. This design leaves the SDM in one address space and the DE, run-time environment, and program together in another. This design is typical of a DE that is implemented with an interpreter to run scripted languages.
 
     > [!NOTE]
-    >  How the DE attaches to the program is implementation-dependent. Communication between the DE and the program is also implementation-dependent.
+    > How the DE attaches to the program is implementation-dependent. Communication between the DE and the program is also implementation-dependent.
 
 ## Implementation
  Programmatically, when the session debug manager (SDM) first receives the [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md) object that represents the program to be launched, it calls the [Attach](../../extensibility/debugger/reference/idebugprogram2-attach.md) method, passing it an [IDebugEventCallback2](../../extensibility/debugger/reference/idebugeventcallback2.md) object, which is later used to pass debug events back to the SDM. The `IDebugProgram2::Attach` method then calls the [OnAttach](../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md) method. For more information on how the SDM receives the `IDebugProgram2` interface, see [Notifying the port](../../extensibility/debugger/notifying-the-port.md).

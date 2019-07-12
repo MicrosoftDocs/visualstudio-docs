@@ -67,7 +67,7 @@ ms.workload:
 - You want to protect an area that already contains content controls, but the text or other items that you want to protect are not in the content controls.
 
 > [!NOTE]
->  If you create a <xref:Microsoft.Office.Tools.Word.GroupContentControl> that contains embedded content controls, the embedded content controls are not automatically protected. To prevent users from editing an embedded content control, use the **LockContents** property of the control.
+> If you create a <xref:Microsoft.Office.Tools.Word.GroupContentControl> that contains embedded content controls, the embedded content controls are not automatically protected. To prevent users from editing an embedded content control, use the **LockContents** property of the control.
 
 ### To protect an area of a document at design time
 
@@ -76,7 +76,7 @@ ms.workload:
 2. On the Ribbon, click the **Developer** tab.
 
     > [!NOTE]
-    >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
+    > If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
 
 3. In the **Controls** group, click the **Group** drop-down button, and then click **Group**.
 

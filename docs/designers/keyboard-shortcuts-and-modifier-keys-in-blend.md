@@ -25,7 +25,7 @@ Keyboard shortcuts can speed up your work by reducing an action that would requi
 
    ![Example shortcut keys](../designers/media/f147fc85-9fc5-4e8a-8039-bead80a3e595.png)
 
-For more information about accessibility and features, see [Accessibility at Microsoft](http://go.microsoft.com/fwlink/?LinkId=75069).
+For more information about accessibility and features, see [Accessibility at Microsoft](https://www.microsoft.com/accessibility/).
 
 ## Modifier keys
 

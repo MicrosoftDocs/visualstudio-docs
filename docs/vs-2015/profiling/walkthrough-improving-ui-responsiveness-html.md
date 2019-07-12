@@ -30,7 +30,7 @@ This walkthrough leads you through the process of identifying and fixing a perfo
 1. In Visual Studio, create a new Windows Universal JavaScript project. (Select **File / New / Project**. Choose **JavaScript** in the left pane, and then choose **Windows**, **Windows 10**, then either **Universal**, or **Windows Phone**.  
   
 2. > [!IMPORTANT]
-    >  The diagnostic results shown in this topic are shown fora Windows 8 app.  
+    > The diagnostic results shown in this topic are shown fora Windows 8 app.  
   
 3. Choose one of the blank project templates in the middle pane, such as **Blank App**.  
   

@@ -6,7 +6,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 03/01/2019
+ms.date: 05/22/2019
 ms.topic: reference
 helpviewer_keywords:
   - "workload ID, Visual Studio"
@@ -24,6 +24,8 @@ ms.technology: vs-installation
 
 [!INCLUDE[workloads-components-header-2017_md](includes/workloads-components-header-2017_md.md)]
 
+To install these components using the manual installer, download and run the [Build Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017).
+
 [!INCLUDE[Visual Studio Build Tools 2017](includes/vs-2017/workload-component-id-vs-build-tools.md)]
 
 ::: moniker-end
@@ -31,6 +33,8 @@ ms.technology: vs-installation
 ::: moniker range=">= vs-2019"
 
 [!INCLUDE[workloads-components-header-2019_md](includes/workloads-components-header-2019_md.md)]
+
+To install these components by using the manual installer, download and run the [Build Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019).
 
 [!INCLUDE[Visual Studio Build Tools 2019](includes/vs-2019/workload-component-id-vs-build-tools.md)]
 

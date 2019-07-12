@@ -1,5 +1,5 @@
 ---
-title: "How to: Target Office applications through primary interop assemblies"
+title: "Target Office apps through primary interop assemblies"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -39,7 +39,7 @@ ms.workload:
      If the project targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, the **Embed Interop Types** property for the assembly reference is set to **True** by default. By using this setting, your solution does not require the PIA on end-user computers. For more information, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).
 
     > [!NOTE]
-    >  In Office projects, always add references to Office PIAs by using the **.NET** tab of the **Add Reference** dialog rather than the **COM** tab. For more information, see [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md).
+    > In Office projects, always add references to Office PIAs by using the **.NET** tab of the **Add Reference** dialog rather than the **COM** tab. For more information, see [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md).
 
 4. Click **OK**.
 

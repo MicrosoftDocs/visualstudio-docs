@@ -22,7 +22,7 @@ manager: jillfra
 Metadata as source enables you to view metadata that appears as C# source code in a read-only buffer. This enables a view of the declarations of the types and members (without implementations). You can view metadata as source by running the **Go To Definition** command for types or members whose source code is not available from your project or solution.  
   
 > [!NOTE]
->  When you try to run the **Go To Definition** command for types or members that are marked as internal, the integrated development environment (IDE) does not display their metadata as source, regardless of whether the referencing assembly is a friend or not.  
+> When you try to run the **Go To Definition** command for types or members that are marked as internal, the integrated development environment (IDE) does not display their metadata as source, regardless of whether the referencing assembly is a friend or not.  
   
  You can view metadata as source in either the Code Editor or the **Code Definition** window.  
   

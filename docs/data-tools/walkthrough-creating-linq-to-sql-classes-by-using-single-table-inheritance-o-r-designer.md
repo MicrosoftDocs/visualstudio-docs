@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O-R Designer)"
+title: "LINQ to SQL classes with single-table inheritance (O-R Designer)"
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -39,7 +39,7 @@ The [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 1. In **Server Explorer** or **Database Explorer**, right-click the **Tables** node and click **Add New Table**.
 
     > [!NOTE]
-    >  You can use the Northwind database or any other database that you can add a table to.
+    > You can use the Northwind database or any other database that you can add a table to.
 
 2. In the **Table Designer**, add the following columns to the table:
 

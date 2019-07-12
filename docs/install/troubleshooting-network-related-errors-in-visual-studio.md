@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot network or proxy errors"
 description: "Find solutions for network- or proxy-related errors that you might encounter when you install or use Visual Studio behind a firewall or a proxy server."
-ms.date: 03/30/2019
+ms.date: 05/22/2019
 ms.topic: troubleshooting
 helpviewer_keywords:
   - "network installation, Visual Studio"
@@ -30,19 +30,19 @@ This error generally occurs when users are connected to the internet through a p
 
 - Restart Visual Studio. A proxy authentication dialog box should appear. Enter your credentials when prompted in the dialog.
 
-- If restarting Visual Studio does not solve the problem, it might be that your proxy server does not prompt for credentials for http:&#47;&#47;go.microsoft.com addresses but does so for &#42;.visualStudio.com addresses. For these servers, consider whitelisting the following URLs to unblock all sign-in scenarios in Visual Studio:
+- If restarting Visual Studio does not solve the problem, it might be that your proxy server does not prompt for credentials for http:&#47;&#47;go.microsoft.com addresses but does so for &#42;.visualStudio.microsoft.com addresses. For these servers, consider adding the following URLs to an allow list to unblock all sign-in scenarios in Visual Studio:
 
-    - &#42;.windows.net
+  - &#42;.windows.net
 
-    - &#42;.microsoftonline.com
+  - &#42;.microsoftonline.com
 
-    - &#42;.visualstudio.com
+  - &#42;.visualstudio.microsoft.com
 
-    - &#42;.microsoft.com
+  - &#42;.microsoft.com
 
-    - &#42;.live.com
+  - &#42;.live.com
 
-- You can otherwise remove the http:&#47;&#47;go.microsoft.com address from the whitelist so that the proxy authentication dialog shows up for both the http:&#47;&#47;go.microsoft.com address and the server endpoints when Visual Studio is restarted.
+- You can otherwise remove the http:&#47;&#47;go.microsoft.com address from the allow list so that the proxy authentication dialog shows up for both the http:&#47;&#47;go.microsoft.com address and the server endpoints when Visual Studio is restarted.
 
   -OR-
 
@@ -114,7 +114,7 @@ Enable connections for the following URLs:
 
 - &#42;.azurewebsites.net (for Azure connections)
 
-- &#42;.visualstudio.com
+- &#42;.visualstudio.microsoft.com
 
 - cdn.vsassets.io (hosts content delivery network, or CDN, content)
 
@@ -132,5 +132,5 @@ Enable connections for the following URLs:
 ## See also
 
 * [Install and use Visual Studio behind a firewall or proxy server](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)
-* [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
+* [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Install Visual Studio](install-visual-studio.md)

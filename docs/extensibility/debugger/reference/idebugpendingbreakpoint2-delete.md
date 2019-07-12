@@ -8,11 +8,14 @@ helpviewer_keywords:
   - "IDebugPendingBreakpoint2::Delete method"
   - "Delete method"
 ms.assetid: 4cb5ed81-6f0c-41ce-a770-5adb6b4bf5d9
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPendingBreakpoint2::Delete
 Deletes this pending breakpoint and all breakpoints bound from it.
@@ -75,5 +78,5 @@ HRESULT CPendingBreakpoint::Delete(void)
 }
 ```
 
-## See Also
+## See also
 - [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)

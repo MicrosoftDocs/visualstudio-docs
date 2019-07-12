@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "IDebugExpressionEvaluator2::PreloadModules"
   - "PreloadModules"
 ms.assetid: bcf9b968-ee14-4a92-88ad-926268a44e03
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExpressionEvaluator2::PreloadModules
 Preloads the modules designated by the specified symbol provider.
@@ -29,10 +32,9 @@ int PreloadModules (
 );
 ```
 
-#### Parameters
-`pSym`
-
- [in] Symbol provider for which the modules will be preloaded.
+## Parameters
+`pSym`\
+[in] Symbol provider for which the modules will be preloaded.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -69,5 +71,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)

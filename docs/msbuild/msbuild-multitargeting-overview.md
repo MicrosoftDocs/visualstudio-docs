@@ -13,7 +13,7 @@ ms.workload:
 By using MSBuild, you can compile an application to run on any one of several versions of the .NET Framework, and on any one of several system platforms. For example, you can compile an application to run on the .NET Framework 2.0 on a 32-bit platform, and compile the same application to run on the .NET Framework 4.5 on a 64-bit platform.
 
 > [!IMPORTANT]
->  Despite the name "multitargeting", a project can target only one framework and only one platform at a time.
+> Despite the name "multitargeting", a project can target only one framework and only one platform at a time.
 
  These are some of the features of MSBuild targeting:
 

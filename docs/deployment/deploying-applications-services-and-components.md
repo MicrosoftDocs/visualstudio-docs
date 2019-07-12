@@ -1,9 +1,9 @@
 ---
-title: "Deployment feature tour"
+title: "First look at deployment"
 description: "Learn about your options for deploying apps from Visual Studio."
 ms.custom: "mvc"
 ms.date: 01/29/2019
-ms.topic: "quickstart"
+ms.topic: quickstart
 dev_langs:
   - "FSharp"
   - "VB"
@@ -35,11 +35,11 @@ See the Quickstarts and Tutorials for step-by-step deployment instructions. For 
 
 Deployment to a local folder is typically used for testing, or to begin a staged deployment in which another tool is used for final deployment.
 
-- **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python**, and .**NET Core**: Use the Publish tool to deploy to a local folder. The exact options available depend on your app type. In Solution Explorer, right-click your project and choose **Publish**. (If you have previously configured any publishing profiles, you must then click **Create new profile**.) Next, choose **Folder**. For more information, see [Deploy to a local folder](quickstart-deploy-to-local-folder.md).
+- **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python**, and .**NET Core**: Use the Publish tool to deploy to a local folder. The exact options available depend on your app type. In Solution Explorer, right-click your project and choose **Publish**. (If you have not previously configured any publishing profiles, you must then click **Create new profile**.) Next, choose **Folder**. For more information, see [Deploy to a local folder](quickstart-deploy-to-local-folder.md).
 
     ![Choose Publish](../deployment/media/quickstart-publish.png)
 
-- **Windows desktop** You can publish a Windows desktop application to a folder using ClickOnce deployment. Users can then install the application with a single click. For more information, see [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) (C# and Visual Basic). For C++/CLR, see [Deploy a native app using ClickOnce](/cpp/ide/clickonce-deployment-for-visual-cpp-applications) or, for C/C++, see [Deploy a native app using a Setup project](/cpp/ide/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project).
+- **Windows desktop** You can publish a Windows desktop application to a folder using ClickOnce deployment. Users can then install the application with a single click. For more information, see [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) (C# and Visual Basic). For C++/CLR, see [Deploy a native app using ClickOnce](/cpp/windows/clickonce-deployment-for-visual-cpp-applications) or, for C/C++, see [Deploy a native app using a Setup project](/cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project).
 
 ## Publish to Azure
 
@@ -78,7 +78,7 @@ Deployment to a local folder is typically used for testing, or to begin a staged
 
     You can also deploy ASP.NET applications and services in a number of other ways. For more information, see [Deploying ASP.NET web applications and services](http://www.asp.net/aspnet/overview/deployment).
 
-- **Windows desktop** You can publish a Windows desktop application to a web server or a network file share using ClickOnce deployment. Users can then install the application with a single click. For more information, see [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) (C# and Visual Basic). For C++/CLR, see [Deploy a native app using ClickOnce](/cpp/ide/clickonce-deployment-for-visual-cpp-applications) or, for C/C++, see [Deploy a native app using a Setup project](/cpp/ide/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project).
+- **Windows desktop** You can publish a Windows desktop application to a web server or a network file share using ClickOnce deployment. Users can then install the application with a single click. For more information, see [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) (C# and Visual Basic). For C++/CLR, see [Deploy a native app using ClickOnce](/cpp/windows/clickonce-deployment-for-visual-cpp-applications) or, for C/C++, see [Deploy a native app using a Setup project](/cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project).
 
 ## Publish to Microsoft Store
 
@@ -115,6 +115,16 @@ You can enable more sophisticated development and testing by deploying your appl
 ## Continuous deployment
 
 You can use Azure Pipelines to enable continuous deployment of your app. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts) and [Deploy to Azure](/azure/devops/deploy-azure/index?view=vsts).
+
+## Deploy a SQL database
+
+- [Change target platform and publish a database project (SQL Server Data Tools (SSDT))](/sql/ssdt/how-to-change-target-platform-and-publish-a-database-project)
+
+- [Deploy an Analysis Services Project (SSAS)](/sql/analysis-services/multidimensional-tutorial/lesson-2-5-deploying-an-analysis-services-project)
+
+- [Deploy Integration Services (SSIS) projects and packages](/sql/integration-services/packages/deploy-integration-services-ssis-projects-and-packages)
+
+- [Build and deploy to a local database](/sql/ssdt/how-to-build-and-deploy-to-a-local-database)
 
 ## Deployment for other app types
 

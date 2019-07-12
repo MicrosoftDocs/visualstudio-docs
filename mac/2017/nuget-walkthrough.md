@@ -38,7 +38,7 @@ When the window opens it loads a list of packages from the default package sourc
 
 ![List NuGet Packages](media/nuget-walkthrough-AddPackages1.png)
 
-Use the search box in the top-right corner to find a specific package, for example `azure`. When you've found a package that you wish to use, select it and click the **Add Package** button to begin installation.
+Use the search box in the top-right corner to find a specific package, for example `azure`. When you've found a package that you wish to use, select it and click the **Add Package** button to begin installation.
 
 [Add Azure NuGet Package](media/nuget-walkthrough-AddPackages2.png)
 
@@ -46,13 +46,13 @@ Once the package has been downloaded, it will be added to your project. The solu
 
 * The **References** node will contain a list of all the assemblies that are part of a NuGet package.
 * The **Packages** node displays each NuGet package that you have downloaded. You can update or remove a package from this list.
-* A **packages.config** file will be added to the project. This XML file is used by the IDE to track which package versions are referenced in this project. This file should not be hand-edited, but you should keep it in version control. Note that a project.json file can be used instead of a packages.config file. The project.json file is a new package file format introduced with NuGet 3, which supports transitive restore. More detailed information on project.json can be found in the [NuGet documentation](http://docs.microsoft.com/NuGet/Schema/Project-Json). The project.json file needs to be added manually and the project closed and re-opened before the project.json file is used in Visual Studio for Mac.
+* A **packages.config** file will be added to the project. This XML file is used by the IDE to track which package versions are referenced in this project. This file should not be hand-edited, but you should keep it in version control. Note that a project.json file can be used instead of a packages.config file. The project.json file is a new package file format introduced with NuGet 3, which supports transitive restore. More detailed information on project.json can be found in the [NuGet documentation](https://docs.microsoft.com/NuGet/Schema/Project-Json). The project.json file needs to be added manually and the project closed and re-opened before the project.json file is used in Visual Studio for Mac.
 
 ## Using NuGet Packages
 
 Once the NuGet package has been added and the project references updated, you can program against the APIs as you would with any project reference.
 
-Ensure that you add any required `using` directives to the top of your file:
+Ensure that you add any required `using` directives to the top of your file:
 
 ```csharp
 using Newtonsoft.Json;

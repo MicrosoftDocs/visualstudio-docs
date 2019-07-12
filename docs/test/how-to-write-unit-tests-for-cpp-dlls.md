@@ -1,9 +1,9 @@
 ---
 title: "Write Unit tests for C++ DLLs"
-ms.date: 11/04/2017
+ms.date: 05/01/2019
 ms.topic: conceptual
 ms.author: mblome
-manager: jillfra
+manager: markl
 ms.workload:
   - "cplusplus"
 author: mikeblome
@@ -12,7 +12,7 @@ author: mikeblome
 
  There are several ways to test DLL code, depending on whether it exports the functions that you want to test. Choose one of the following ways:
 
- **The unit tests call only functions that are exported from the DLL:**
+ **The unit tests call only functions that are exported from the DLL:** 
  Add a separate test project as described in [Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md). In the test project, add a reference to the DLL project.
 
  Go to the procedure [To reference exported functions from the DLL project](#projectRef).
@@ -54,17 +54,25 @@ author: mikeblome
 
   1. Create a Native Unit Test Project.
 
+      ::: moniker range="vs-2019"
+
+      1. On the **File** menu, choose **New** > **Project**. In the **Add a New Project** dialog, set **Language** to C++ and type "test" into the search box. Then choose the **Native Unit Test Project**.
+
+      ::: moniker-end
+
+      ::: moniker range="vs-2017"
+
       1. On the **File** menu, choose **New** > **Project** > **Visual C++** > **Test** > **C++ Unit Test Project**.
 
-  2. In **Solution Explorer**, on the shortcut menu of the test project, choose **References**. The project **Properties** window opens.
+      ::: moniker-end
 
-  3. Select **Common Properties** > **Framework and References**, and then choose the **Add New Reference** button.
+  1. In **Solution Explorer**, right-click on the test project, then choose **Add** > **Reference**.
 
-  4. Select **Projects**, and then the project to be tested.
+  1. Select **Projects**, and then the project to be tested.
 
        Choose the **Add** button.
 
-  5. In the properties for the test project, add the location of the project under test to the Include Directories.
+  1. In the properties for the test project, add the location of the project under test to the Include Directories.
 
        Choose **Configuration Properties** > **VC++ Directories** > **Include Directories**.
 
@@ -78,7 +86,17 @@ author: mikeblome
 
   1. Create a Native Unit Test Project.
 
-      1. On the **File** menu, choose **New** > **Project** > **Visual C++** > **Test** > **Native Unit Test Project**.
+      ::: moniker range="vs-2019"
+
+      1. On the **File** menu, choose **New** > **Project**. In the **Add a New Project** dialog, set **Language** to C++ and type "test" into the search box. Then choose the **Native Unit Test Project**.
+
+      ::: moniker-end
+      
+      ::: moniker range="vs-2017"
+
+      1. On the **File** menu, choose **New** > **Project** > **Visual C++** > **Test** > **C++ Unit Test Project**.
+
+      ::: moniker-end
 
   2. In **Solution Explorer**, on the shortcut menu of the test project, choose **Properties**.
 
@@ -156,4 +174,4 @@ author: mikeblome
 - [Debug native code](../debugger/debugging-native-code.md)
 - [Walkthrough: Creating and using a dynamic link library (C++)](/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp)
 - [Import and export](/cpp/build/importing-and-exporting)
-- [Quick start: Test driven development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
+- [Quickstart: Test driven development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)

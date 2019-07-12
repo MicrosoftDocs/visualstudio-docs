@@ -56,7 +56,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
 ## <a name="BasicSteps"></a> Basic Steps for Drawing Use Case Diagrams  
   
 > [!NOTE]
->  Detailed steps for creating any of the modeling diagrams are described in [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
+> Detailed steps for creating any of the modeling diagrams are described in [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
   
 #### To create a new use case diagram  
   
@@ -109,13 +109,13 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
 - Create **Actors** to represent classes of people, organizations, other systems, software or devices that interact with your system or subsystem.  
   
-    - To learn how to draw actors and other elements, see [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
-  
-    - For each distinct set of goals, identify actors by their type or role, even though the physical persons or entities might be the same. For example, Restaurant and Customer are separate actors, even though a restaurant employee might sometimes be a customer.  
+  - To learn how to draw actors and other elements, see [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
+
+  - For each distinct set of goals, identify actors by their type or role, even though the physical persons or entities might be the same. For example, Restaurant and Customer are separate actors, even though a restaurant employee might sometimes be a customer.  
   
 - Create **Use Cases** for each of the goals that each actor seeks to achieve with the system.  
   
-    - Name and describe the use cases in words that the actor would understand, instead of implementation terms.  
+  - Name and describe the use cases in words that the actor would understand, instead of implementation terms.  
   
 - Use **Associations** to link actors to use cases.  
   
@@ -127,7 +127,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
  The specialized actor can have its own additional use cases that are not available to the other actors.  
   
 > [!CAUTION]
->  You should not make loops of generalization relationships that result in an actor generalizing itself. Loops may generate errors.  
+> You should not make loops of generalization relationships that result in an actor generalizing itself. Loops may generate errors.  
   
 ### Alternative Actor Icons  
  You can use custom icons to represent an actor, instead of the standard stick figure. For example, you could change it to resemble a device, restaurant, bank, and so on.  
@@ -154,7 +154,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
  ![Use case one to one with actor](../modeling/media/uml-ucguidemulti1.png "UML_UCGuideMulti1")  
   
 > [!NOTE]
->  The multiplicities of an association on a use case diagram are hidden if they are both **1**.  
+> The multiplicities of an association on a use case diagram are hidden if they are both **1**.  
   
  By default, each multiplicity is **1**. In a strict interpretation of the model, a multiplicity of 1 means that, for example, only one customer is involved in ordering each meal and that each customer orders only one meal at a time.  
   
@@ -164,11 +164,11 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
  ![Use case showing many to many multiplicity](../modeling/media/uml-ucguidemulti2.png "UML_UCGuideMulti2")  
   
-- To state that several actors of the same class can take part in a single occurrence of a use case, set the multiplicity at the actor end of the association to **1..\\***.  
+- To state that several actors of the same class can take part in a single occurrence of a use case, set the multiplicity at the actor end of the association to **1..\***.  
   
    In the illustration, one or more restaurants can take part in fulfilling the same meal order.  
   
-- To show that each actor can participate at the same time in several occurrences of a use case, set the multiplicity at the use case end of the association to **\\***.  
+- To show that each actor can participate at the same time in several occurrences of a use case, set the multiplicity at the use case end of the association to **\***.  
   
    In the illustration, each restaurant can work on fulfilling more than one order at a time.  
   
@@ -184,14 +184,14 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
    - **1** to state that exactly one instance of this role participates in each link.  
   
-   - **1..\\*** to state that one or more instance of this role participate in each link.  
+   - **1..\*** to state that one or more instance of this role participate in each link.  
   
    - **0..1** to state that participation is optional.  
   
-   - **\\*** to state that zero or more instances of this role participate in the link.  
+   - **\*** to state that zero or more instances of this role participate in the link.  
   
 > [!NOTE]
->  Many teams do not place multiplicity information on use case diagrams, leaving the multiplicities at the default value of 1. Instead, they provide the information in separate descriptions of the use cases. In this case, all the multiplicities in the use case diagrams will be hidden.  
+> Many teams do not place multiplicity information on use case diagrams, leaving the multiplicities at the default value of 1. Instead, they provide the information in separate descriptions of the use cases. In this case, all the multiplicities in the use case diagrams will be hidden.  
   
 ### Using an actor or use case on multiple diagrams  
  You can show the same actors and use cases on several diagrams. For example:  
@@ -209,7 +209,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
 3. Drag an actor or use case off **Model Explorer** onto the new diagram.  
   
     > [!NOTE]
-    >  If you place on the new diagram an actor and a use case that are already associated, the association between them will automatically appear on the new diagram.  
+    > If you place on the new diagram an actor and a use case that are already associated, the association between them will automatically appear on the new diagram.  
   
 ## <a name="Details"></a> Describing use cases in detail  
  A use case represents:  
@@ -271,7 +271,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
 3. With the new artifact selected, type or paste the URL into the **Hyperlink** property.  
   
 > [!NOTE]
->  You can double-click an Artifact to open the diagram or document to which it links.  
+> You can double-click an Artifact to open the diagram or document to which it links.  
   
 ### Linking use cases to work items  
  If your project uses [!INCLUDE[vstsTfsRosarioLong](../includes/vststfsrosariolong-md.md)] and you have [!INCLUDE[esprtfc](../includes/esprtfc-md.md)], you can link each use case to a work item in [!INCLUDE[esprfound](../includes/esprfound-md.md)]. To learn how to make these links, see [Link model elements and work items](../modeling/link-model-elements-and-work-items.md).  
@@ -303,7 +303,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
  Use an **Include** relation to show that one use case describes some of the detail of another. In the illustration, **Order a Meal** includes **Pay**, **Choose Menu**, and **Choose Menu Item**. Each of the included, more detailed use cases is a step that the actor or actors might have to perform to achieve the overall goal of the including use case. The arrow should point at the more detailed, included use case.  
   
 > [!CAUTION]
->  You should not make loops of include relationships that result in a use case including itself. Loops can generate errors.  
+> You should not make loops of include relationships that result in a use case including itself. Loops can generate errors.  
   
  You can share included use cases. In the example, the **Order a Meal** and **Subscribe to Reviews** use cases both include **Pay**.  
   
@@ -340,7 +340,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
  For example, **Pay** generalizes **Pay by Credit Card** and **Pay by Cash**.  
   
 > [!CAUTION]
->  You should not make loops of generalization relationships, that result in an actor generalizing itself. Loops might generate errors.  
+> You should not make loops of generalization relationships, that result in an actor generalizing itself. Loops might generate errors.  
   
  Specialized use cases can help you show different ways that your system can achieve the same goal.  
   
@@ -368,7 +368,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
  ![One use case extending another](../modeling/media/uml-ucguideextend.png "UML_UCGuideExtend")  
   
 > [!CAUTION]
->  You should not make loops of extend relationships, that result in an actor generalizing itself. Loops might generate errors.  
+> You should not make loops of extend relationships, that result in an actor generalizing itself. Loops might generate errors.  
   
  For example, the **Login** use case of a typical Web site can include **Register New User** - but only when the user does not already have an account.  
   
@@ -385,7 +385,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
    3. Click the extended use case (**Login** in the example).  
   
        > [!NOTE]
-       >  Avoid creating a loop of Extend relations in the diagram. It is incorrect for a use case to be an extension of itself.  
+       > Avoid creating a loop of Extend relations in the diagram. It is incorrect for a use case to be an extension of itself.  
   
 3. If you have already created scenarios for the extended use case, move the relevant steps into the scenario of the extension.  
   
@@ -419,7 +419,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
    To create a new use case directly in a subsystem, click **Use Case** in the toolbox, then click inside the subsystem.  
   
 > [!NOTE]
->  The **Subjects** property of a use case indicates what subsystem it is contained within.  
+> The **Subjects** property of a use case indicates what subsystem it is contained within.  
   
 ### Use cases outside the system scope  
  It is frequently useful to include on the diagram use cases that are part of the business but not dealt with by the system that you are developing. This helps developers understand the context of their work. For example, Deliver Meal could be shown as a use case involving the actors Restaurant and Customer, but outside the responsibility of the Meal Ordering Web Site.  

@@ -1,5 +1,5 @@
 ---
-title: "How to: Enable and Disable Full Solution Analysis for Managed Code"
+title: "Enable & disable full solution analysis for managed code"
 ms.date: 03/23/2018
 ms.topic: "conceptual"
 helpviewer_keywords:

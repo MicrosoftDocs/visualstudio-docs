@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn about the Enterprise Mobility + Security benefit included in your Visual Studio subscription.
-searchscope: VS Subscription
 ---
 
 # Enterprise Mobility + Security (EMS) in Visual Studio Subscriptions
@@ -53,7 +52,6 @@ To use EMS, you’ll need to set up an account or sign in using an existing acco
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                             |  N/A          |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              |  N/A          |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
-| Visual Studio Dev Essentials | N/A  | Not available |N/A |
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark.  Excludes: Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services, Imagine, Microsoft Partner Network (Professional).*
 

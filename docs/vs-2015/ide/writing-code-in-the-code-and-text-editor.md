@@ -72,7 +72,7 @@ The Visual Studio editor provides many features that make it easier for you to w
  The different Visual Studio languages offer different sets of features, and in some cases the features behave differently in different languages. Many of these differences are specified in the descriptions of the features, but for more information you can see the sections on specific Visual Studio languages.  
 
 > [!IMPORTANT]
->  The Visual Studio edition and the settings you are using may affect the features in the IDE. They might differ from those described in this topic.  
+> The Visual Studio edition and the settings you are using may affect the features in the IDE. They might differ from those described in this topic.  
 
 ## Editor Features  
 
@@ -182,7 +182,7 @@ This feature is particularly helpful if your code has long names.
 
  For information about language-specific editor options, see the following:  
 
-- [Visual Basic Settings](http://msdn.microsoft.com/library/2712b3b1-18f2-430c-ae91-28468bbf5f32)  
+- [Visual Basic Settings](https://msdn.microsoft.com/library/2712b3b1-18f2-430c-ae91-28468bbf5f32)  
 
 - [Using the Visual Studio Development Environment for C#](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)  
 

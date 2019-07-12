@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "Add New Project dialog box"
   - "registry, Add New Project dialog box"
 ms.assetid: 6b909f93-d7f5-4aec-81c6-ee9ff0f31638
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -111,7 +111,8 @@ Project types must register the directories where their project and project-item
  \WizardFiles
 
 ## See Also
+
 - [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)
 - [Wizards](../../extensibility/internals/wizards.md)
-- [Localizing Applications](../../ide/localizing-applications.md)
+- [Localizing Applications](../../ide/globalizing-and-localizing-applications.md)
 - [CATIDs for Objects That Are Typically Used to Extend Projects](../../extensibility/internals/catids-for-objects-that-are-typically-used-to-extend-projects.md)

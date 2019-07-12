@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 09/19/2018
 ms.topic: conceptual
 description:  Understand how you can use Azure DevOps as a Visual Studio subscriber.
-searchscope: VS Subscription
 ---
 # Azure DevOps benefits for Visual Studio subscribers
 
@@ -20,13 +19,16 @@ When you sign in to Azure DevOps using either the identity that you used for act
 
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard, monthly cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup>, FTE  | Azure Boards & Repos (Basic), Azure Test Plans, Azure Artifacts, Azure Pipelines (self-hosted)       |  Yes          |
-| Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail,                                        | Azure Boards & Repos (Basic)                                                            |  Yes          |
+| Visual Studio Enterprise (Standard, monthly cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup>, FTE  | Azure Boards & Repos (Basic), Azure Test Plans, Azure Artifacts<sup>2</sup>, Azure Pipelines (self-hosted)       |  Yes          |
+| Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail,                                        | Azure Boards & Repos (Basic), Azure Artifacts<sup>2</sup>                                                            |  Yes          |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Azure Boards & Repos (Basic), Azure Test Plans                                              |  Yes          |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Azure Boards & Repos (Basic), Azure Test Plans                                              |  Yes          |
+||
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP),Microsoft Partner Network (Enterprise), BizSpark, MCT Software & Services Developer.
   Excludes: MCT Software & Services, Imagine.*
+
+<sup>2</sup>  *Includes 2GB at no charge*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
@@ -36,7 +38,7 @@ If you don't see all your subscriptions, you may have one or more assigned to a 
 
 Learn more about Azure DevOps features:
 
-- [Azure Boards & Repos (Basic)](https://visualstudio.microsoft.com/team-services/compare-features/)
+- [Azure Boards & Repos (Basic)](https://azure.microsoft.com/services/devops/compare-features/)
 - [Azure Test Plans](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web)
 - [Azure Artifacts](https://marketplace.visualstudio.com/items?itemName=ms.feed)
 

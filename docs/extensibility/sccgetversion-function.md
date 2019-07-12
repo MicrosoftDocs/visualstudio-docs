@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccGetVersion function"
 ms.assetid: a6e786bf-744e-4272-9e21-0be44d23b1a1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

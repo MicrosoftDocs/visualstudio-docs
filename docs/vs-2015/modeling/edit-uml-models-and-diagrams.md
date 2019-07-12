@@ -75,7 +75,7 @@ You can create and edit a UML model through the views provided by several differ
 3. In **Add to modeling project**, select an existing modeling project, or select **Create a new modeling project**.  
   
    > [!NOTE]
-   >  A modeling diagram must exist inside a modeling project.  
+   > A modeling diagram must exist inside a modeling project.  
   
    You can also add a diagram to an existing modeling project in Solution Explorer. Right-click the modeling project, point to **Add**, and then click **New Item**.  
   
@@ -91,7 +91,7 @@ You can create and edit a UML model through the views provided by several differ
  There are two kinds of tools, one for elements and one for relationships. For example, in the UML class diagram Toolbox, **Class** is an element tool, and **Association** is a relationship tool.  
   
 > [!NOTE]
->  If you want information that is specific to particular diagram types, see [Create models for your app](../modeling/create-models-for-your-app.md).  
+> If you want information that is specific to particular diagram types, see [Create models for your app](../modeling/create-models-for-your-app.md).  
   
 #### To create elements and relationships in a UML modeling diagram  
   
@@ -100,14 +100,14 @@ You can create and edit a UML model through the views provided by several differ
     In some cases, you can place a new element inside another element. For example, on a UML class diagram, you can place a class inside a Package.  
   
    > [!NOTE]
-   >  If you cannot see the toolbox, click **Toolbox** on the **View** menu.  
+   > If you cannot see the toolbox, click **Toolbox** on the **View** menu.  
   
 2. To create a relationship, click a relationship tool, click the element where you want the relationship to start, and then click the element where you want it to end.  
   
     Different types of relationships can start or end on different types of elements. For example, on a UML class diagram, an Association relationship cannot start or end on a Comment element.  
   
    > [!NOTE]
-   >  To use the same tool several times, double-click the tool. When you have finished, click the **Pointer** tool.  
+   > To use the same tool several times, double-click the tool. When you have finished, click the **Pointer** tool.  
   
    On some kinds of diagrams, you can also draw simple shapes. These shapes are not part of the model, but you can use them to draw attention to parts of the diagram or to divide it into different areas.  
   
@@ -115,14 +115,14 @@ You can create and edit a UML model through the views provided by several differ
  When you resize or color a shape, or reroute a connector, there is no effect on the underlying model. However, when you rename a shape on the diagram or in the UML Model Explorer, the corresponding element is renamed in UML Model Explorer and in any other diagrams that present that element.  
   
 > [!NOTE]
->  There is a simple way to make new toolbox items from which you can create groups of elements, or elements with your own choice of properties. For more information, see [Define a custom modeling toolbox item](../modeling/define-a-custom-modeling-toolbox-item.md).  
+> There is a simple way to make new toolbox items from which you can create groups of elements, or elements with your own choice of properties. For more information, see [Define a custom modeling toolbox item](../modeling/define-a-custom-modeling-toolbox-item.md).  
   
  The following figure shows how to change the size of a shape or its name.  
   
  ![Adjusting a model element](../modeling/media/uml-drawadjust1.png "UML_DrawAdjust1")  
   
 > [!TIP]
->  The built-in commands do not include a command for neatly aligning shapes. However, you can easily create your own alignment command by copying the code in the example in [Display a UML model on diagrams](../modeling/display-a-uml-model-on-diagrams.md).  
+> The built-in commands do not include a command for neatly aligning shapes. However, you can easily create your own alignment command by copying the code in the example in [Display a UML model on diagrams](../modeling/display-a-uml-model-on-diagrams.md).  
   
  The following figure shows how to adjust the route and position of a connector or its labels.  
   
@@ -172,12 +172,12 @@ You can create and edit a UML model through the views provided by several differ
      On the **Edit** menu, point to **Find and Replace**, and then click **Quick Find**.  
   
     > [!NOTE]
-    >  In the **Find and Replace** dialog box, you must leave the **Look in** field set to **Current Document**. The other options are not supported.  
+    > In the **Find and Replace** dialog box, you must leave the **Look in** field set to **Current Document**. The other options are not supported.  
   
 2. Type the text that you want to find, and then click **Find Next**.  
   
     > [!NOTE]
-    >  If the text you want to find is inside a collapsed shape, the shape will be highlighted. Expand the shape, and then click **Find Next** again.  
+    > If the text you want to find is inside a collapsed shape, the shape will be highlighted. Expand the shape, and then click **Find Next** again.  
   
 ## <a name="Undo"></a> Undoing Changes to the Model  
  You can undo and redo changes that you have made to the model and diagrams by using the **Undo** and **Redo** commands on the **Edit** menu.  
@@ -210,7 +210,7 @@ You can create and edit a UML model through the views provided by several differ
      A shape providing a view of the model element appears, which may be in addition to the views on other diagrams or on the same diagram.  
   
     > [!NOTE]
-    >  The effect is different when you drag a class or component onto a sequence diagram. In that case, a new lifeline is created whose type is that class or component. For more information, see [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md).  
+    > The effect is different when you drag a class or component onto a sequence diagram. In that case, a new lifeline is created whose type is that class or component. For more information, see [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md).  
   
 #### To add a new view of a model element by using Paste Reference  
   
@@ -223,23 +223,23 @@ You can create and edit a UML model through the views provided by several differ
      Another view of the same element appears.  
   
     > [!NOTE]
-    >  This differs from the **Paste** command, which creates a new element in the model. For more information, see [Copying Elements and Groups of Related Elements](#Copying).  
+    > This differs from the **Paste** command, which creates a new element in the model. For more information, see [Copying Elements and Groups of Related Elements](#Copying).  
   
 > [!NOTE]
->  If you add to a diagram views of two model elements that are already connected by a relationship, a view of the relationship will also appear on the diagram. You can delete this view only by removing one of the elements from the diagram, or by deleting the relationship from the model.  
+> If you add to a diagram views of two model elements that are already connected by a relationship, a view of the relationship will also appear on the diagram. You can delete this view only by removing one of the elements from the diagram, or by deleting the relationship from the model.  
   
 ## <a name="Copying"></a> Copying Elements and Groups of Related Elements  
  You can copy and paste model elements, and you can copy and paste groups of elements together with the relationships between them.  
   
 > [!NOTE]
->  The **Paste** and **Paste Reference** commands have different effects. **Paste** creates new elements whose properties are like those of the copied elements. **Paste Reference** creates new views of the same elements.  
+> The **Paste** and **Paste Reference** commands have different effects. **Paste** creates new elements whose properties are like those of the copied elements. **Paste Reference** creates new views of the same elements.  
   
 #### To copy elements and their relationships  
   
 1. In the diagram with the elements that you want to copy, select one or more elements.  
   
     > [!NOTE]
-    >  You cannot copy relationships except as part of a group of elements.  
+    > You cannot copy relationships except as part of a group of elements.  
   
 2. On the **Edit** menu, click **Copy**.  
   
@@ -254,7 +254,7 @@ You can create and edit a UML model through the views provided by several differ
 5. Adjust the positions, names, and other properties of the new elements and relationships.  
   
 > [!NOTE]
->  You cannot copy a model element from one model to another, for example if you have two models in the same solution. But you can copy elements from one diagram to another.  
+> You cannot copy a model element from one model to another, for example if you have two models in the same solution. But you can copy elements from one diagram to another.  
   
 #### To copy an entire diagram  
   
@@ -270,7 +270,7 @@ You can create and edit a UML model through the views provided by several differ
  By contrast, when you delete a relationship from a diagram, you are always deleting it from the model.  
   
 > [!NOTE]
->  Certain kinds of elements on a UML diagram have labels. When you select such elements by drawing a rectangle around them, it is possible to select the labels but not the elements that own those labels. Deleting a subset of elements that are selected in this way is not supported. To select a subset of these elements, press and hold the **CTRL** key while you click each element.  
+> Certain kinds of elements on a UML diagram have labels. When you select such elements by drawing a rectangle around them, it is possible to select the labels but not the elements that own those labels. Deleting a subset of elements that are selected in this way is not supported. To select a subset of these elements, press and hold the **CTRL** key while you click each element.  
   
 #### To remove a classifier's view from a diagram  
   
@@ -288,16 +288,16 @@ You can create and edit a UML model through the views provided by several differ
   
 - Right-click the element either in **UML Model Explorer** or on a diagram, and then click **Delete from Model**.  
   
-    - The element is deleted from every diagram on which it appears.  
-  
-    - Every relationship that terminates at this element is also deleted from the model.  
+  - The element is deleted from every diagram on which it appears.  
+
+  - Every relationship that terminates at this element is also deleted from the model.  
   
 #### To delete a relationship from the model  
   
 - Right-click the relationship on a diagram or in **UML Model Explorer**, and then click **Delete from Model**.  
   
     > [!CAUTION]
-    >  You cannot remove a relationship from a diagram without removing it from the model.  
+    > You cannot remove a relationship from a diagram without removing it from the model.  
   
      The relationship is deleted from the model and is deleted from every diagram on which it appears.  
   

@@ -1,8 +1,8 @@
 ---
-title: "Tutorial: Hello World app with Windows Presentation Foundation (WPF) in Visual Basic"
+title: "Hello World app with WPF in Visual Basic"
 description: Create a simple Windows Desktop .NET app in Visual Basic with Visual Studio using the Windows Presentation Foundation (WPF) UI framework.
 ms.custom: "seodec18, get-started"
-ms.date: 03/14/2019
+ms.date: 04/23/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: conceptual
@@ -125,7 +125,7 @@ Your window should resemble the following illustration:
 The XAML markup should look something like the following example:
 
 ```xaml
-<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" RenderTransformOrigin="4.08,2.312" Margin="237,57,221,238"><Run Text="TextBlock"/><InlineUIContainer><TextBlock TextWrapping="Wrap" Text="TextBlock"/>
+<TextBlock HorizontalAlignment="Left" Margin="381,100,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
 ```
 
 ### Customize the text in the text block
@@ -297,5 +297,16 @@ Congratulations on completing this tutorial! You can find the *.exe* you built u
 
 ## See also
 
-- [What's new in Visual Studio 2017](../../ide/whats-new-visual-studio.md)
-- [Productivity tips](../../ide/productivity-tips-for-visual-studio.md)
+::: moniker range="vs-2017"
+
+- [What's new in Visual Studio 2017](../../ide/whats-new-visual-studio-2017.md)
+- [Productivity tips](../../ide/productivity-features.md)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+- [What's new in Visual Studio 2019](../../ide/whats-new-visual-studio-2019.md)
+- [Productivity tips](../../ide/productivity-features.md)
+
+::: moniker-end

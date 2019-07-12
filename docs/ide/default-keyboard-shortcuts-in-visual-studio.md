@@ -16,25 +16,29 @@ ms.workload:
 ---
 # Default keyboard shortcuts in Visual Studio
 
-For more information about keyboard accessibility, see [Accessibility tips and tricks](../ide/reference/accessibility-tips-and-tricks.md) and [How to: Use the keyboard exclusively](../ide/reference/how-to-use-the-keyboard-exclusively.md).
+You can access a variety of [commands](reference/visual-studio-commands.md) and windows in Visual Studio by choosing the appropriate keyboard shortcut. This page lists the default command shortcuts for the **General** profile, which you might have chosen when you installed Visual Studio. No matter which profile you chose, you can [identify the shortcut](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md) for a command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**. You can also customize your shortcuts by assigning a different shortcut to any given command.
 
-You can access a variety of commands and windows in Visual Studio by choosing the appropriate keyboard shortcut. This topic lists the default shortcuts for the General Development profile, which you might have chosen when you installed Visual Studio. No matter which profile you chose, you can identify the shortcut for a command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**. You can also customize your shortcuts by assigning a different shortcut to any given command.
+For a list of common keyboard shortcuts and other productivity information, see:
 
-For a list of common keyboard shortcuts and other productivity information, see [Default keyboard shortcuts for frequently used commands in Visual Studio](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md),  [Keyboard tips](../ide/tips-and-tricks-for-visual-studio.md), and [Productivity tips](../ide/productivity-tips-for-visual-studio.md).
+- [Keyboard shortcuts for frequently used commands](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)
+- [Keyboard tips](../ide/productivity-shortcuts.md)
+- [Productivity tips](../ide/productivity-features.md).
 
-The sections in the following table include commands that are global in that you can access them from anywhere in Visual Studio by using keyboard shortcuts:
+For more information about accessibility in Visual Studio, see [Accessibility tips and tricks](../ide/reference/accessibility-tips-and-tricks.md) and [How to: Use the keyboard exclusively](../ide/reference/how-to-use-the-keyboard-exclusively.md).
 
 |||||
 |-|-|-|-|
 |[Analyze](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_analyze)|[Edit](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_edit)|[Project](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_project)|[Test](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_test)|
-|[Architecture](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_architecture)|[Editor Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_editorContext)|[Project and Solution Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_projectContext)|[Test Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorerGLOBAL)|
+|[Architecture](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_architecture)|[Editor context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_editorContext)|[Project and Solution context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_projectContext)|[Test Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorerGLOBAL)|
 |[Build](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_build)|[File](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_file)|[Refactor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_refactor)|[Tools](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_tools)|
-|[Class View Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_classview)|[Help](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_help)|[Solution Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_solutionexplorerGLOBAL)|[View](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_view)|
-|[Debug](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debug)|[Load Test](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_loadtest)|[Team](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_team)|[Window](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_window)|
-|[Debugger Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debugger)|[Other Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_otherContext)|[Team Foundation Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TFcontext)|[Azure](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_windowsazure)|
-|[Diagnostics Hub](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_diagnostics)||||
+|[Class View context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_classview)|[Help](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_help)|[Solution Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_solutionexplorerGLOBAL)|[View](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_view)|
+|[Debug](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debug)|[Load test](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_loadtest)|[Team](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_team)|[Window](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_window)|
+|[Debugger context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debugger)|[Other context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_otherContext)|[Team Foundation context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TFcontext)|[Azure](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_windowsazure)|
+|[Diagnostics hub](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_diagnostics)||||
 
-## <a name="bkmk_global"></a> Global
+## Global shortcuts
+
+These keyboard shortcuts are *global*, which means that you can use them when any Visual Studio window has focus.
 
 ### <a name="bkmk_analyze"></a> Analyze
 
@@ -53,6 +57,7 @@ The sections in the following table include commands that are global in that you
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
+|Build.BuildSelection|**Ctrl+B** (Visual Studio 2019)|
 |Build.BuildSolution|**Ctrl+Shift+B**|
 |Build.Cancel|**Ctrl+Break**|
 |Build.Compile|**Ctrl+F7**|
@@ -71,7 +76,6 @@ The sections in the following table include commands that are global in that you
 |Debug.ApplyCodeChanges|**Alt+F10**|
 |Debug.Autos|**Ctrl+Alt+V, A**|
 |Debug.BreakAll|**Ctrl+Alt+Break**|
-|Debug.BreakatFunction|**Ctrl+B**|
 |Debug.Breakpoints|**Ctrl+Alt+B**|
 |Debug.CallStack|**Ctrl+Alt+C**|
 |Debug.DeleteAllBreakpoints|**Ctrl+Shift+F9**|
@@ -80,6 +84,7 @@ The sections in the following table include commands that are global in that you
 |Debug.DOMExplorer|**Ctrl+Alt+V, D**|
 |Debug.EnableBreakpoint|**Ctrl+F9**|
 |Debug.Exceptions|**Ctrl+Alt+E**|
+|Debug.FunctionBreakpoint|**Ctrl+K, B** (Visual Studio 2019)<br />**Ctrl**+**B** (Visual Studio 2017)|
 |Debug.GoToPreviousCallorIntelliTraceEvent|**Ctrl+Shift+F11**|
 |Debug.Graphics.StartDiagnostics|**Alt+F5**|
 |Debug.Immediate|**Ctrl+Alt+I**|
@@ -103,7 +108,7 @@ The sections in the following table include commands that are global in that you
 |Debug.ParallelWatch3|**Ctrl+Shift+D, 3**|
 |Debug.ParallelWatch4|**Ctrl+Shift+D, 4**|
 |Debug.Processes|**Ctrl+Alt+Z**|
-|Debug.QuickWatch|**Shift+F9**<br /><br /> or<br /><br /> **Ctrl+Alt+Q**|
+|Debug.QuickWatch|**Shift+F9** or **Ctrl+Alt+Q**|
 |Debug.RefreshWindowsapp|**Ctrl+Shift+R**|
 |Debug.Registers|**Ctrl+Alt+G**|
 |Debug.Restart|**Ctrl+Shift+F5**|
@@ -119,7 +124,8 @@ The sections in the following table include commands that are global in that you
 |Debug.StepIntoSpecific|**Shift+Alt+F11**|
 |Debug.StepOut|**Shift+F11**|
 |Debug.StepOutCurrentProcess|**Ctrl+Shift+Alt+F11**|
-|Debug.StepOver|**F10**|
+|Debug.StepOver|**F10** (When debugging: Performs a step over action)|
+|Debug.StepOver|**F10** (When not debugging: Starts debugging and stops on the first line of user code)|
 |Debug.StepOverCurrentProcess|**Ctrl+Alt+F10**|
 |Debug.StopDebugging|**Shift+F5**|
 |Debug.StopPerformanceAnalysis|**Shift+Alt+F2**|
@@ -154,6 +160,7 @@ The sections in the following table include commands that are global in that you
 |Edit.Cut|**Ctrl+X**<br /><br /> or<br /><br /> **Shift+Delete**|
 |Edit.CycleClipboardRing|**Ctrl+Shift+V**<br /><br /> or<br /><br /> **Ctrl+Shift+Ins**|
 |Edit.Delete|**Delete**|
+|Edit.Duplicate|**Ctrl+D**|
 |Edit.Find|**Ctrl+F**|
 |Edit.FindAllReferences|**Shift+F12**|
 |Edit.FindinFiles|**Ctrl+Shift+F**|
@@ -163,11 +170,12 @@ The sections in the following table include commands that are global in that you
 |Edit.FindPreviousSelected|**Ctrl+Shift+F3**|
 |Edit.GenerateMethod|**Ctrl+K, Ctrl+M**|
 |Edit.GoTo|**Ctrl+G**|
+|Edit.GoToAll|**Ctrl+,** or **Ctrl+T**|
 |Edit.GoToDeclaration|**Ctrl+F12**|
 |Edit.GoToDefinition|**F12**|
-|Edit.GoToFindCombo|**Ctrl+D**|
-|Edit.GoToNextLocation|**F8**|
-|Edit.GoToPrevLocation|**Shift+F8**|
+|Edit.GoToMember|**Ctrl+1, Ctrl+M** or **Ctrl+1, M** or **Alt+\\**|
+|Edit.GoToNextLocation|**F8** (Next error in Error List or Output window)|
+|Edit.GoToPrevLocation|**Shift+F8** (Previous error in Error List or Output window)|
 |Edit.InsertSnippet|**Ctrl+K, Ctrl+X**|
 |Edit.MoveControlDown|**Ctrl+Down Arrow**|
 |Edit.MoveControlDownGrid|**Down Arrow**|
@@ -177,10 +185,9 @@ The sections in the following table include commands that are global in that you
 |Edit.MoveControlRightGrid|**Right Arrow**|
 |Edit.MoveControlUp|**Ctrl+Up Arrow**|
 |Edit.MoveControlUpGrid|**Up Arrow**|
-|Edit.NavigateTo|**Ctrl+,**|
 |Edit.NextBookmark|**Ctrl+K, Ctrl+N**|
 |Edit.NextBookmarkInFolder|**Ctrl+Shift+K, Ctrl+Shift+N**|
-|Edit.OpenFile|**Ctrl+Shift+G**|
+|Edit.OpenFile|**Ctrl+Shift+G** (Opens the file name under the cursor)|
 |Edit.Paste|**Ctrl+V**<br /><br /> or<br /><br /> **Shift+Ins**|
 |Edit.PreviousBookmark|**Ctrl+K, Ctrl+P**|
 |Edit.PreviousBookmarkInFolder|**Ctrl+Shift+K, Ctrl+Shift+P**|
@@ -339,7 +346,6 @@ The sections in the following table include commands that are global in that you
 |Tools.AttachtoProcess|**Ctrl+Alt+P**|
 |Tools.CodeSnippetsManager|**Ctrl+K, Ctrl+B**|
 |Tools.ForceGC|**Ctrl+Shift+Alt+F12, Ctrl+Shift+Alt+F12**|
-|Tools.GoToCommandLine|**Ctrl+/**|
 
 ### <a name="bkmk_view"></a> View
 
@@ -347,7 +353,7 @@ The sections in the following table include commands that are global in that you
 |--------------| - |
 |View.AllWindows|**Shift+Alt+M**|
 |View.ArchitectureExplorer|**Ctrl+\\, Ctrl+R**|
-|View.Backward|**Alt+Left Arrow**|
+|View.Backward|**Alt+Left Arrow** (Functions differently from View.NavigateBackward in Text Editor)|
 |View.BookmarkWindow|**Ctrl+K, Ctrl+W**|
 |View.BrowseNext|**Ctrl+Shift+1**|
 |View.BrowsePrevious|**Ctrl+Shift+2**|
@@ -362,7 +368,7 @@ The sections in the following table include commands that are global in that you
 |View.ErrorList|**Ctrl+\\, E**<br /><br /> or<br /><br /> **Ctrl+\\, Ctrl+E**|
 |View.F#Interactive|**Ctrl+Alt+F**|
 |View.FindSymbolResults|**Ctrl+Alt+F12**|
-|View.Forward|**Alt+Right Arrow**|
+|View.Forward|**Alt+Right Arrow**  (Functions differently from View.NavigateForward in Text Editor)|
 |View.ForwardBrowseContext|**Ctrl+Shift+7**|
 |View.FullScreen|**Shift+Alt+Enter**|
 |View.NavigateBackward|**Ctrl+-**|
@@ -372,7 +378,7 @@ The sections in the following table include commands that are global in that you
 |View.ObjectBrowser|**Ctrl+Alt+J**|
 |View.ObjectBrowserGoToSearchCombo|**Ctrl+K, Ctrl+R**|
 |View.Output|**Ctrl+Alt+O** (letter 'O')|
-|View.PopBrowseContex|**Ctrl+Shift+8**|
+|View.PopBrowseContext|**Ctrl+Shift+8** (C++ only)|
 |View.PropertiesWindow|**F4**|
 |View.PropertyPages|**Shift+F4**|
 |View.ResourceView|**Ctrl+Shift+E**|
@@ -772,12 +778,12 @@ The sections in the following table include commands that are global in that you
 | Edit.CharRight | **Right Arrow** |
 | Edit.CharRightExtend | **Shift+Right Arrow** |
 | Edit.CharRightExtendColumn | **Shift+Alt+Right Arrow** |
-| Edit.CharTranspose | **Ctrl+T** |
 | Edit.ClearBookmarks | **Ctrl+K, Ctrl+L** |
 | Edit.CollapseAllOutlining | **Ctrl+M, Ctrl+A** |
 | Edit.CollapseCurrentRegion | **Ctrl+M, Ctrl+S** |
 | Edit.CollapseTag | **Ctrl+M, Ctrl+T** |
 | Edit.CollapseToDefinitions | **Ctrl+M, Ctrl+O** (letter 'O') |
+| Edit.ContractSelection | **Shift+Alt+-** (non-C++ only) |
 | Edit.CommentSelection | **Ctrl+K, Ctrl+C** |
 | Edit.CompleteWord | **Ctrl+Space**<br /><br /> or<br /><br /> **Alt+Right Arrow** |
 | Edit.CopyParameterTip | **Ctrl+Shift+Alt+C** |
@@ -790,6 +796,8 @@ The sections in the following table include commands that are global in that you
 | Edit.DocumentStartExtend | **Ctrl+Shift+Home** |
 | Edit.ExpandAllOutlining | **Ctrl+M, Ctrl+X** |
 | Edit.ExpandCurrentRegion | **Ctrl+M, Ctrl+E** |
+| Edit.ExpandSelection | **Shift+Alt+=** (non-C++ only) |
+| Edit.ExpandSelectiontoContainingBlock | **Shift+Alt+]** |
 | Edit.FormatDocument | **Ctrl+K, Ctrl+D** |
 | Edit.FormatSelection | **Ctrl+K, Ctrl+F** |
 | Edit.GotoAll | **Ctrl+T**<br /><br /> or<br /><br /> **Ctrl+,** |
@@ -797,7 +805,7 @@ The sections in the following table include commands that are global in that you
 | Edit.GotoBraceExtend | **Ctrl+Shift+]** |
 | Edit.GotoRecent | **Ctrl+T,R** |
 | Edit.GotoNextIssueinFile | **Alt+PgDn** |
-| Edit.GotoPreviousIssueinFile  **Alt+PgUp** |
+| Edit.GotoPreviousIssueinFile | **Alt+PgUp** |
 | Edit.HideSelection | **Ctrl+M, Ctrl+H** |
 | Edit.IncreaseFilterLevel | **Alt+.** |
 | Edit.IncrementalSearch | **Ctrl+I** |
@@ -1143,5 +1151,4 @@ The sections in the following table include commands that are global in that you
 
 ## See also
 
-- [Image Editor for icons](/cpp/windows/image-editor-for-icons)
-- [Using IntelliSense](../ide/using-intellisense.md)
+- [Visual Studio commands](reference/visual-studio-commands.md)

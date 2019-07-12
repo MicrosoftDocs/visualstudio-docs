@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDocumentText2::GetSize"
 ms.assetid: bf515a8f-dcee-4004-8f81-543d547ceaae
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDocumentText2::GetSize
 Retrieves the size of the text at this position in the document.
@@ -32,14 +35,12 @@ int GetSize( 
 );
 ```
 
-#### Parameters
- `pcNumLines`
+## Parameters
+`pcNumLines`\
+[out] Returns the number of lines of text.
 
- [out] Returns the number of lines of text.
-
- `pcNumChars`
-
- [out] Returns the number of characters of text.
+`pcNumChars`\
+[out] Returns the number of characters of text.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -50,5 +51,5 @@ int GetSize( 
 
  [C# only] Both parameters must be specified.
 
-## See Also
+## See also
 - [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)

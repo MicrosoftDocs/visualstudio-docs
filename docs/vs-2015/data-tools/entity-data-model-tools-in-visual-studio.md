@@ -37,7 +37,7 @@ Entity Framework is an object-relational mapping technology that enables .NET de
 - You can use the **Update Model Wizard** to update your conceptual model, storage model, and mappings when changes have been made to the underlying database.
 
   > [!NOTE]
-  >  Starting with Visual Studio 2010, [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] Tools do not support [!INCLUDE[ss2k](../includes/ss2k-md.md)].
+  > Starting with Visual Studio 2010, [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] Tools do not support [!INCLUDE[ss2k](../includes/ss2k-md.md)].
 
   The tools generate or modify an .edmx file. This file contains information that describes the conceptual model, the storage model, and the mappings between them. For more information, see  [EDMX](https://msdn.microsoft.com/data/jj650889.aspx).
 
@@ -47,8 +47,8 @@ Entity Framework is an object-relational mapping technology that enables .NET de
 
 |Title|Description|
 |-----------|-----------------|
-|[ADO.NET Entity Framework](http://msdn.microsoft.com/library/a437041f-6899-4ae7-96ce-aabf528d7205)|Describes how to use [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] Tools, which [!INCLUDE[adonet_ef](../includes/adonet-ef-md.md)] provides, to create applications.|
-|[Entity Data Model](http://msdn.microsoft.com/library/2dda3d5b-4582-4ba0-a91d-fcd7a1498137)|Provides links and information for working with data that is used by applications built on [!INCLUDE[adonet_ef](../includes/adonet-ef-md.md)].|
+|[ADO.NET Entity Framework](https://msdn.microsoft.com/library/a437041f-6899-4ae7-96ce-aabf528d7205)|Describes how to use [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] Tools, which [!INCLUDE[adonet_ef](../includes/adonet-ef-md.md)] provides, to create applications.|
+|[Entity Data Model](https://msdn.microsoft.com/library/2dda3d5b-4582-4ba0-a91d-fcd7a1498137)|Provides links and information for working with data that is used by applications built on [!INCLUDE[adonet_ef](../includes/adonet-ef-md.md)].|
 |[Getting Started on Full .NET (Console, WinForms, WPF, etc.)](/ef/ef6/get-started)|Provides tutorials on how to create .NET desktop applications that use Entity Framework 7.|
 |[ASP.NET 5 Application to New Database](https://docs.efproject.net/en/latest/platforms/aspnetcore/new-db.html)|Describes how to create a new ASP.NET 5 application by using Entity Framework 7.|
 

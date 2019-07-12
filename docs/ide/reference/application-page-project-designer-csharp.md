@@ -44,14 +44,18 @@ To access this property programmatically, see <xref:VSLangProj.ProjectProperties
 
 **Target Framework**
 
-Specifies the version of the .NET Framework that the application targets. This option can have different values depending on which versions of the .NET Framework are installed on your computer.
+Specifies the version of .NET that the application targets. This option can have different values depending on which versions of .NET are installed on your computer.
 
-By default, the value is the same as the target framework that you selected when you created the project.
+For .NET Framework projects, the default value matches the target framework that you specified when you created the project.
+
+For a project that targets .NET Core, the available versions may appear as follows:
+
+![Target framework versions for a .NET Core project](../media/application-target-framework.png)
 
 > [!NOTE]
 > The prerequisite packages listed in the [Prerequisites Dialog Box](../../ide/reference/prerequisites-dialog-box.md) are set automatically the first time that you open the dialog box. If you subsequently change the project's target framework, you must select the prerequisites manually to match the new target framework.
 
-For more information, see [How to: Target a Version of the .NET Framework](../../ide/how-to-target-a-version-of-the-dotnet-framework.md) and [Visual Studio Multi-Targeting Overview](../../ide/visual-studio-multi-targeting-overview.md).
+For more information, see [Framework targeting overview](../../ide/visual-studio-multi-targeting-overview.md).
 
 **Output type**
 

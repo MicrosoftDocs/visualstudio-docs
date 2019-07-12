@@ -18,7 +18,7 @@ This page contains answers to some frequently asked questions about Roslyn analy
 
 **Q**: Should I use Roslyn analyzers or .editorconfig for code style?
 
-**A**: Roslyn analyzers and .editorconfig files work hand-in-hand. When you define code styles [in an .editorconfig file](../ide/editorconfig-code-style-settings-reference.md) or on the [text editor Options](../ide/code-styles-and-quick-actions.md) page, you're actually configuring the Roslyn analyzers that are built into Visual Studio. EditorConfig files can also be used to configure some third-party analyzer packages, such as [FxCop analyzers](configure-fxcop-analyzers.md).
+**A**: Roslyn analyzers and .editorconfig files work hand-in-hand. When you define code styles [in an .editorconfig file](../ide/editorconfig-code-style-settings-reference.md) or on the [text editor Options](../ide/code-styles-and-code-cleanup.md) page, you're actually configuring the Roslyn analyzers that are built into Visual Studio. EditorConfig files can also be used to configure some third-party analyzer packages, such as [FxCop analyzers](configure-fxcop-analyzers.md).
 
 ## EditorConfig versus rule sets
 

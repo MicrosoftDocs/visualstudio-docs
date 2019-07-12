@@ -32,23 +32,23 @@ If [your build server](/azure/devops/pipelines/agents/agents) runs on a computer
 
 - $(ProgramFiles)\MSBuild\Microsoft\VisualStudio\v*.0\TextTemplating
 
-    - Microsoft.VisualStudio.TextTemplating.Sdk.Host.*.0.dll
+  - Microsoft.VisualStudio.TextTemplating.Sdk.Host.*.0.dll
 
-    - Microsoft.TextTemplating.Build.Tasks.dll
+  - Microsoft.TextTemplating.Build.Tasks.dll
 
-    - Microsoft.TextTemplating.targets
+  - Microsoft.TextTemplating.targets
 
 - $(ProgramFiles)\Microsoft Visual Studio *.0\VSSDK\VisualStudioIntegration\Common\Assemblies\v4.0
 
-    - Microsoft.VisualStudio.TextTemplating.*.0.dll
+  - Microsoft.VisualStudio.TextTemplating.*.0.dll
 
-    - Microsoft.VisualStudio.TextTemplating.Interfaces.*.0.dll (several files)
+  - Microsoft.VisualStudio.TextTemplating.Interfaces.*.0.dll (several files)
 
-    - Microsoft.VisualStudio.TextTemplating.VSHost.*.0.dll
+  - Microsoft.VisualStudio.TextTemplating.VSHost.*.0.dll
 
 - $(ProgramFiles)\Microsoft Visual Studio *.0\Common7\IDE\PublicAssemblies\
 
-    - Microsoft.VisualStudio.TextTemplating.Modeling.*.0.dll
+  - Microsoft.VisualStudio.TextTemplating.Modeling.*.0.dll
 
 ## To edit the project file
 

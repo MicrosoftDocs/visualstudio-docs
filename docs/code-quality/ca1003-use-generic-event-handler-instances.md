@@ -35,7 +35,7 @@ By default, this rule only looks at externally visible types, but this is [confi
 
 ## Rule description
 
-Before .NET, in order to pass custom information to the event handler, a new delegate had to be declared that specified a class that was derived from the <xref:System.EventArgs?displayProperty=fullName> class. This is no longer true in .NET. The .NET Framework introduced the <xref:System.EventHandler%601?displayProperty=fullName> delegate, a generic delegate that allows any class that's derived from <xref:System.EventArgs> to be used together with the event handler.
+Before .NET, in order to pass custom information to the event handler, a new delegate had to be declared that specified a class that was derived from the <xref:System.EventArgs?displayProperty=fullName> class. In .NET, the generic <xref:System.EventHandler%601?displayProperty=fullName> delegate allows any class that's derived from <xref:System.EventArgs> to be used together with the event handler.
 
 ## How to fix violations
 
@@ -51,7 +51,7 @@ Do not suppress a warning from this rule.
 
 If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
 
-```
+```ini
 dotnet_code_quality.ca1003.api_surface = private, internal
 ```
 

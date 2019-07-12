@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEngineLaunch2 interface"
 ms.assetid: 5eaf2ad8-3fbf-446e-b48b-5327ad3f5255
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -45,5 +45,5 @@ IDebugEngineLaunch2 : IDebugEngine2
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)

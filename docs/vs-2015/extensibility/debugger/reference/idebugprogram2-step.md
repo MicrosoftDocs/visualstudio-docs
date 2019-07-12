@@ -19,7 +19,7 @@ manager: jillfra
 Performs a step.  
   
 > [!NOTE]
->  This method is deprecated. Use the [Step](../../../extensibility/debugger/reference/idebugprocess3-step.md) method instead.  
+> This method is deprecated. Use the [Step](../../../extensibility/debugger/reference/idebugprocess3-step.md) method instead.  
   
 ## Syntax  
   
@@ -56,7 +56,7 @@ int Step( 
  In case there is any thread synchronization or communication between threads, other threads in the program should run when a particular thread is stepping.  
   
 > [!WARNING]
->  Do not send a stopping event or an immediate (synchronous) event to [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) while handling this call; otherwise the debugger may hang.  
+> Do not send a stopping event or an immediate (synchronous) event to [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) while handling this call; otherwise the debugger may hang.  
   
 ## See Also  
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)   

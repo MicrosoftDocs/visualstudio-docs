@@ -140,7 +140,7 @@ End Namespace
 ## <a name="Controls"></a> Controls  
  The user experiences that are delivered by the application model are constructed controls. In WPF, "control" is an umbrella term that applies to a category of WPF classes that are hosted in either a window or a page, have a user interface, and implement some behavior.  
   
- For more information, see [Controls](http://msdn.microsoft.com/library/3f255a8a-35a8-4712-9065-472ff7d75599).  
+ For more information, see [Controls](https://msdn.microsoft.com/library/3f255a8a-35a8-4712-9065-472ff7d75599).  
   
 ### WPF Controls by Function  
  The built-in WPF controls are listed here.  
@@ -202,7 +202,7 @@ End Namespace
   The <xref:System.Windows.Controls.DockPanel> allows the child <xref:System.Windows.Controls.TextBox> controls to tell it how to arrange them. To do this, the <xref:System.Windows.Controls.DockPanel> implements a <xref:System.Windows.Controls.DockPanel.Dock%2A> property that is exposed to the child controls to allow each of them to specify a dock style.  
   
 > [!NOTE]
->  A property that is implemented by a parent control for use by child controls is a WPF construct called an [attached property](https://msdn.microsoft.com/library/ms749011\(v=vs.100\).aspx).  
+> A property that is implemented by a parent control for use by child controls is a WPF construct called an [attached property](https://msdn.microsoft.com/library/ms749011\(v=vs.100\).aspx).  
   
  The following figure shows the result of the XAML markup in the preceding example.  
   

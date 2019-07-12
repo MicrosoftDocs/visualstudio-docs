@@ -2,11 +2,11 @@
 title: "Create a Node.js and React app"
 description: In this tutorial, you create an app in using Node.js tools for Visual Studio
 ms.custom: "mvc"
-ms.date: "11/01/2018"
-ms.topic: "tutorial"
+ms.date: 11/01/2018
+ms.topic: tutorial
 ms.devlang: javascript
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 dev_langs:
   - JavaScript
@@ -370,8 +370,10 @@ In the preceding section, you attached the debugger to server-side Node.js code.
     This starts Chrome with debugging enabled.
 
     ::: moniker range=">=vs-2019"
+
     > [!NOTE]
-    > You can also set the `--remote-debugging-port` flag at browser launch by selecting **Browse With...** > from the **Debug** toolbar, then choosing **Add**, and then setting the flag in the **Arguments** field. Use a different friendly name for the browser such as **Chrome with Debugging**. For details, see the [Release Notes](https://docs.microsoft.com/visualstudio/releases/2019/release-notes-preview#browser-cli-params-support).
+    > You can also set the `--remote-debugging-port` flag at browser launch by selecting **Browse With...** > from the **Debug** toolbar, then choosing **Add**, and then setting the flag in the **Arguments** field. Use a different friendly name for the browser such as **Chrome with Debugging**. For details, see the [Release Notes](https://docs.microsoft.com/visualstudio/releases/2019/release-notes-preview).
+
     ::: moniker-end
 
 3. Switch to Visual Studio and set a breakpoint in *app-bundle.js* code in the `render()` function as shown in the following illustration:

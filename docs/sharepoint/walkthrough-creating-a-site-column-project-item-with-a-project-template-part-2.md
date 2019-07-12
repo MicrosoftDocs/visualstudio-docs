@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Site Column Project Item with a Project Template, Part 2 | Microsoft Docs"
+title: "Create site column project item with project template, part 2"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -216,7 +216,7 @@ ms.workload:
  Add XAML to define the UI of the wizard window and the two user controls that provide the UI for the wizard pages, and add code to define the behavior of the window and user controls. The wizard that you create resembles the built-in wizard for SharePoint projects in Visual Studio.
 
 > [!NOTE]
->  In the following steps, your project will have some compile errors after you add XAML or code to your project. These errors will go away when you add code in later steps.
+> In the following steps, your project will have some compile errors after you add XAML or code to your project. These errors will go away when you add code in later steps.
 
 #### To create the wizard window UI
 
@@ -227,7 +227,7 @@ ms.workload:
      [!code-xml[SPExtensibility.ProjectItem.SiteColumn#10](../sharepoint/codesnippet/Xaml/sitecolumnprojectitem/projecttemplatewizard/wizardwindow.xaml#10)]
 
     > [!NOTE]
-    >  The window that's created in this XAML is derived from the <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> base class. When you add a custom WPF dialog box to Visual Studio, we recommend that you derive your dialog box from this class to have consistent styling with other Visual Studio dialog boxes and to avoid modal dialog issues that might otherwise occur. For more information, see [Creating and Managing Modal Dialog Boxes](/visualstudio/extensibility/creating-and-managing-modal-dialog-boxes).
+    > The window that's created in this XAML is derived from the <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> base class. When you add a custom WPF dialog box to Visual Studio, we recommend that you derive your dialog box from this class to have consistent styling with other Visual Studio dialog boxes and to avoid modal dialog issues that might otherwise occur. For more information, see [Creating and Managing Modal Dialog Boxes](/visualstudio/extensibility/creating-and-managing-modal-dialog-boxes).
 
 3. If you're developing a Visual Basic project, remove the `ProjectTemplateWizard` namespace from the `WizardWindow` class name in the `x:Class` attribute of the `Window` element. This element is in the first line of the XAML. When you're done, the first line should look like the following example.
 
@@ -507,7 +507,7 @@ ms.workload:
      The site column is packaged and deployed to the SharePoint site that the **Site URL** property of the project specifies. The web browser opens to the default page of this site.
 
     > [!NOTE]
-    >  If the **Script Debugging Disabled** dialog box appears, choose the **Yes** button to continue to debug the project.
+    > If the **Script Debugging Disabled** dialog box appears, choose the **Yes** button to continue to debug the project.
 
 2. On the **Site Actions** menu, choose **Site Settings**.
 

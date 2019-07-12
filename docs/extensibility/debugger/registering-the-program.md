@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "programs, registration"
   - "debugging [Debugging SDK], program registration"
 ms.assetid: d726a161-7db3-4ef4-b258-9f6a5be68418
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -32,7 +32,7 @@ After the debug engine has acquired a port, represented by an [IDebugPort2](../.
      The following example shows the debug engine launching the program and registering it with a port.
 
     > [!NOTE]
-    >  This code sample is not the only way to launch and resume a process; this code is mainly an example of registering a program with a port.
+    > This code sample is not the only way to launch and resume a process; this code is mainly an example of registering a program with a port.
 
     ```cpp
     // This is an IDebugEngineLaunch2 method.

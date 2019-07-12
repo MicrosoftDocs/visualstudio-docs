@@ -25,16 +25,16 @@ manager: jillfra
 # Update data by using a TableAdapter
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-After the data in your dataset has been modified and validated, you can send the updated data back to a databaseby calling the `Update` method of a TableAdapter. The `Update` method updates a single data table and runs the correct command (INSERT, UPDATE, or DELETE) based on the <xref:System.Data.DataRow.RowState%2A> of each data row in the table. When a dataset has related tables, Visual Studio generates a TableAdapterManager class that you  use to do the updates. The TableAdapterManager class ensures that updates are made in the correct order based on the foreign-key constraints that are defined in the database. When you use data-bound controls, the databinding architecture creates a member variable of the TableAdapterManager class called tableAdapterManager. For more information, see [Hierarchical Update Overview](http://msdn.microsoft.com/library/c4f8e8b9-e4a5-4a02-8462-d03d1e8222d6).  
+After the data in your dataset has been modified and validated, you can send the updated data back to a databaseby calling the `Update` method of a TableAdapter. The `Update` method updates a single data table and runs the correct command (INSERT, UPDATE, or DELETE) based on the <xref:System.Data.DataRow.RowState%2A> of each data row in the table. When a dataset has related tables, Visual Studio generates a TableAdapterManager class that you  use to do the updates. The TableAdapterManager class ensures that updates are made in the correct order based on the foreign-key constraints that are defined in the database. When you use data-bound controls, the databinding architecture creates a member variable of the TableAdapterManager class called tableAdapterManager. For more information, see [Hierarchical Update Overview](https://msdn.microsoft.com/library/c4f8e8b9-e4a5-4a02-8462-d03d1e8222d6).  
   
 > [!NOTE]
->  When you try to update a data source with the contents of a dataset, you can get errors.To avoid errors, we recommend thatyou put the code that calls the adapter's `Update` method inside a `try`/`catch` block.  
+> When you try to update a data source with the contents of a dataset, you can get errors.To avoid errors, we recommend thatyou put the code that calls the adapter's `Update` method inside a `try`/`catch` block.  
   
  The exact procedure for updating a data source can vary depending on business needs, but  includes the following steps:  
   
 1. Call the adapter's `Update` method in a `try`/`catch` block.  
   
-2. If an exception is caught, locate the data row that caused the error. For more information, see [How to: Locate Rows that Have Errors](http://msdn.microsoft.com/library/1fa907c5-fe66-4f29-a253-2b97b900050c).  
+2. If an exception is caught, locate the data row that caused the error. For more information, see [How to: Locate Rows that Have Errors](https://msdn.microsoft.com/library/1fa907c5-fe66-4f29-a253-2b97b900050c).  
   
 3. Reconcile the problem in the data row (programmatically if you can, or by presenting the invalid row to the user for modification), and then try the update again (<xref:System.Data.DataRow.HasErrors%2A>, <xref:System.Data.DataTable.GetErrors%2A>).  
   

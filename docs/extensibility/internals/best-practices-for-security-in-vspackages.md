@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "security best practices, VSPackages"
   - "best practices, security"
 ms.assetid: 212a0504-cf6c-4e50-96b0-f2c1c575c0ff
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

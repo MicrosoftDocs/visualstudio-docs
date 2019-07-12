@@ -38,7 +38,7 @@ HRESULT put_imageAlign ( 
  The current image alignment can be retrieved with a call to the [IDiaAddressMap::get_imageAlign](../../debugger/debug-interface-access/idiaaddressmap-get-imagealign.md) method.
 
 > [!NOTE]
->  The image is already loaded by the time this method can be called. The `put_imageAlign` method is typically used when the image has been moved or changed and a new alignment is required.
+> The image is already loaded by the time this method can be called. The `put_imageAlign` method is typically used when the image has been moved or changed and a new alignment is required.
 
 ## See Also
 - [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)

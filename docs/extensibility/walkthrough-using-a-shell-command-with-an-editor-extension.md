@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "editors [Visual Studio SDK], new - add a menu command"
 ms.assetid: 08526848-a442-4cd4-afa1-b2eac2005adb
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -46,7 +46,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
  Because you are adding a MEF component to the VSPackage, you must specify both kinds of assets in the manifest.
 
 > [!NOTE]
->  For more information about MEF, see [Managed Extensibility Framework (MEF)](/dotnet/framework/mef/index).
+> For more information about MEF, see [Managed Extensibility Framework (MEF)](/dotnet/framework/mef/index).
 
 ### To refer to the MEF component in the VSPackage project
 

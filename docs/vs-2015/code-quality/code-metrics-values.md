@@ -27,7 +27,7 @@ Code metrics is a set of software measures that provide developers better insigh
 - **Cyclomatic Complexity** – Measures the structural complexity of the code. It is created by calculating the number of different code paths in the flow of the program. A program that has complex control flow will require more tests to achieve good code coverage and will be less maintainable.  
   
     > [!NOTE]
-    >  In some cases, the calculation of the cyclomatic complexity for a method in [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] differs from earlier versions. For more information, see the "Changes in Visual Studio 2010 code complexity calculations section" of [Troubleshooting Code Metrics Issues](../code-quality/troubleshooting-code-metrics-issues.md).  
+    > In some cases, the calculation of the cyclomatic complexity for a method in [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] differs from earlier versions. For more information, see the "Changes in Visual Studio 2010 code complexity calculations section" of [Troubleshooting Code Metrics Issues](../code-quality/troubleshooting-code-metrics-issues.md).  
   
 - **Depth of Inheritance** – Indicates the number of class definitions that extend to the root of the class hierarchy. The deeper the hierarchy the more difficult it might be to understand where particular methods and fields are defined or/and redefined.  
   

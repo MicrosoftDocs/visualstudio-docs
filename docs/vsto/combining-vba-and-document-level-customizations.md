@@ -63,7 +63,7 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
 ```
 
 > [!NOTE]
->  For information about using the global `missing` variable in place of optional parameters in Visual C#, see [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md).
+> For information about using the global `missing` variable in place of optional parameters in Visual C#, see [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md).
 
 ## Call code in document-level customizations from VBA
  You can configure a document-level project for Word or Excel so that Visual Basic for Applications (VBA) code in the document can call code in the customization assembly. This is useful in the following scenarios:
@@ -75,16 +75,16 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
   The Office development tools in Visual Studio provide a similar feature for VSTO Add-ins. If you are developing a VSTO Add-in, you can call code in your VSTO Add-in from other Microsoft Office solutions. For more information, see [Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md).
 
 > [!NOTE]
->  This feature cannot be used in Word template projects. It can be used only in Word document, Excel workbook, or Excel template projects.
+> This feature cannot be used in Word template projects. It can be used only in Word document, Excel workbook, or Excel template projects.
 
 ## Requirements
  Before you can enable VBA code to call into the customization assembly, your project must meet the following requirements:
 
 - The document must have one of the following file name extensions:
 
-    - For Word: *.docm* or *.doc*
+  - For Word: *.docm* or *.doc*
 
-    - For Excel: *.xlsm*, *.xltm*, *.xls*, or *.xlt*
+  - For Excel: *.xlsm*, *.xltm*, *.xls*, or *.xlt*
 
 - The document must already contain a VBA project that has VBA code in it.
 
@@ -114,7 +114,7 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
   The **EnableVbaCallers** and **ReferenceAssemblyFromVbaProject** properties are available only in the **Properties** window at design time; they cannot be used at run time. To view the properties, open the designer for a host item in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information about the specific tasks that Visual Studio performs when you set these properties, see [Tasks performed by the host item properties](#PropertyTasks).
 
 > [!NOTE]
->  If the workbook or document does not already contain VBA code or if VBA code in the document is not trusted to run, you will receive an error message when you set the **EnableVbaCallers** or **ReferenceAssemblyFromVbaProject** property to **True**. This is because Visual Studio cannot modify the VBA project in the document in this situation.
+> If the workbook or document does not already contain VBA code or if VBA code in the document is not trusted to run, you will receive an error message when you set the **EnableVbaCallers** or **ReferenceAssemblyFromVbaProject** property to **True**. This is because Visual Studio cannot modify the VBA project in the document in this situation.
 
 ## Use members in VBA code to call into the customization assembly
  After you configure your project to enable VBA code to call into the customization assembly, Visual Studio adds the following members to the VBA project in the document:
@@ -126,7 +126,7 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
   You can use the `CallVSTOAssembly` property or `GetManagedClass` method to access public members of the class that you exposed to VBA code in the project.
 
 > [!NOTE]
->  While you develop and deploy your solution, there are several different copies of the document where you can add the VBA code. For more information, see [Guidelines for adding VBA code to the document](#Guidelines).
+> While you develop and deploy your solution, there are several different copies of the document where you can add the VBA code. For more information, see [Guidelines for adding VBA code to the document](#Guidelines).
 
 ### Use the CallVSTOAssembly property in a Visual Basic project
  Use the `CallVSTOAssembly` property to access public members that you added to the host item class. For example, the following VBA macro calls a method named `MyVSTOMethod` that is defined in the `Sheet1` class in an Excel workbook project.
@@ -183,7 +183,7 @@ GetManagedClass(pdispInteropObject Object) As Object
  You cannot add the VBA code to the document while it is open in the designer. You must first close the document in the designer, and then open the document directly in Word or Excel.
 
 > [!CAUTION]
->  If you add VBA code that runs when the document is opened, in rare cases this code might corrupt the document or prevent it from opening in the designer.
+> If you add VBA code that runs when the document is opened, in rare cases this code might corrupt the document or prevent it from opening in the designer.
 
 ### In the publish or installation folder
  In some cases, it might be suitable to add the VBA code to the document in the publish or installation folder. For example, you might choose this option if the VBA code is written and tested by a different developer on a computer that does not have Visual Studio installed.
@@ -214,7 +214,7 @@ GetManagedClass(pdispInteropObject Object) As Object
 5. It removes the **GetAutomationObject** method from the host item class.
 
    > [!NOTE]
-   >  Visual Studio does not automatically set the **ReferenceAssemblyFromVbaProject** property back to **False**. You can set this property to **False** manually by using the **Properties** window.
+   > Visual Studio does not automatically set the **ReferenceAssemblyFromVbaProject** property back to **False**. You can set this property to **False** manually by using the **Properties** window.
 
 ### ReferenceAssemblyFromVbaProject
  When the **ReferenceAssemblyFromVbaProject** property of any host item in a Visual Basic or Visual C# project is set to **True**, Visual Studio performs the following tasks:

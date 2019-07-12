@@ -1,5 +1,5 @@
 ---
-title: "How to: Provide Hidden Text Support in a Legacy Language Service | Microsoft Docs"
+title: "Provide hidden text support in legacy language service"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], hidden text"
   - "language services, implementing hidden text regions"
 ms.assetid: 1c1dce9f-bbe2-4fc3-a736-5f78a237f4cc
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -29,13 +29,13 @@ You can create hidden text regions in addition to outline regions. Hidden text r
      A pointer to the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextSession> object is returned.
 
     > [!NOTE]
-    >  When you call `CreateHiddenTextSession`, you can specify a hidden text client (that is, <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextClient>). The hidden text client notifies you when hidden text or outlining is expanded or collapsed by the user.
+    > When you call `CreateHiddenTextSession`, you can specify a hidden text client (that is, <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextClient>). The hidden text client notifies you when hidden text or outlining is expanded or collapsed by the user.
 
 4. Call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextSession.AddHiddenRegions%2A> to add one or more new outline regions at a time, specifying the following information in the `reHidReg` (<xref:Microsoft.VisualStudio.TextManager.Interop.NewHiddenRegion>) parameter:
 
     1. Specify a value of `hrtConcealed` in the `iType` member of the <xref:Microsoft.VisualStudio.TextManager.Interop.NewHiddenRegion> structure to indicate that you are creating a hidden region, rather than an outline region.
 
         > [!NOTE]
-        >  When concealed regions are hidden, the editor automatically displays lines around the hidden regions to indicate their presence.
+        > When concealed regions are hidden, the editor automatically displays lines around the hidden regions to indicate their presence.
 
     2. Specify whether the region is client-controlled or editor-controlled in the `dwBehavior` members of the <xref:Microsoft.VisualStudio.TextManager.Interop.NewHiddenRegion> structure. Your smart outlining implementation can contain a mix of editor- and client-controlled outline and hidden text regions.

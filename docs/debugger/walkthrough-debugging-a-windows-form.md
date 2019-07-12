@@ -106,7 +106,7 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
      A red dot appears and the text on the line is highlighted in red. The red dot represents a breakpoint. For more information, see [Breakpoints](https://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583). When you run the application under the debugger, the debugger will break execution at that location when the code is hit. You can then view the state of your application and debug it.
 
     > [!NOTE]
-    >  You can also right-click any line of code, point to **Breakpoint**, and then click **Insert Breakpoint** to add a breakpoint on that line.
+    > You can also right-click any line of code, point to **Breakpoint**, and then click **Insert Breakpoint** to add a breakpoint on that line.
 
 2. ON the **Debug** menu, choose **Start**.
 
@@ -159,6 +159,7 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
 
     ```cpp
     textBox1->Text = "Button was clicked!";
+    ```
 
 2. On the **Debug** menu, select **Start Without Debugging**.
 

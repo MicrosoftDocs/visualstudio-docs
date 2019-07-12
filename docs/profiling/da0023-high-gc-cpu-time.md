@@ -36,7 +36,7 @@ ms.workload:
  This rule fires when the amount of time that is spent in garbage collection is significant compared with the total application processing time.
 
 > [!NOTE]
->  When the proportion of time that is spent in garbage collection is excessive compared with the total application processing time, the [DA0024: Excessive GC CPU Time](../profiling/da0024-excessive-gc-cpu-time.md) warning fires instead of this rule.
+> When the proportion of time that is spent in garbage collection is excessive compared with the total application processing time, the [DA0024: Excessive GC CPU Time](../profiling/da0024-excessive-gc-cpu-time.md) warning fires instead of this rule.
 
 ## How to investigate a warning
  Double-click the message in the Errors List window to navigate to the [Marks View](../profiling/marks-view.md) of the profiling data. Find the **.NET CLR Memory\\% Time in GC** column. Determine if there are specific phases of program execution where the overhead of managed memory garbage collection is heavier than other phases. Compare the values of the % Time in GC value to the rate of garbage collection reported in the **# of Gen 0 Collections**, **# of Gen 1 Collections**, **# of Gen 2 Collections** values.

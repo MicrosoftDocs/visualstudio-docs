@@ -27,7 +27,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  The **Layout** tab of DOM Explorer shows the [CSS box model](http://go.microsoft.com/fwlink/?LinkID=238778) for the selected element in a [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app, Windows Phone Store app, or an app created using Visual Studio Tools for Apache Cordova. You can use this visual representation of the box model to identify and modify layout-related values that affect the appearance of elements.  
   
 > [!TIP]
->  Changes you make in the **Layout** tab aren't permanent. You can make permanent changes to your source code, and then refresh your app by using the **Refresh Windows app** button (Windows Store and Windows Phone Store apps only) on the Debug toolbar. This way, you can avoid restarting the debugger.  
+> Changes you make in the **Layout** tab aren't permanent. You can make permanent changes to your source code, and then refresh your app by using the **Refresh Windows app** button (Windows Store and Windows Phone Store apps only) on the Debug toolbar. This way, you can avoid restarting the debugger.  
   
  To use DOM Explorer to modify aspects of layout that aren’t shown in the box model, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md) and [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md).  
   
@@ -70,21 +70,21 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 7. Open Section 4 by scrolling or flicking.  
   
     > [!TIP]
-    >  Position the Phone Emulator or Simulator right next to the Visual Studio window, so you can immediately see the results of your selections and changes you make to CSS styles.  
+    > Position the Phone Emulator or Simulator right next to the Visual Studio window, so you can immediately see the results of your selections and changes you make to CSS styles.  
   
      When Section 4 loads, you can see that the lower images don't look right. Each item image appears cut in half (with the left half missing).  
   
 8. Switch to Visual Studio and choose **Select Element** in DOM Explorer (or press Ctrl+B). This changes the selection mode so that you can select an item by clicking it, and brings the app into the foreground. The mode reverts back after a single click.  
   
     > [!TIP]
-    >  You can also use arrow keys or other methods to select HTML elements directly in DOM Explorer. For more info on selecting elements, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md).  
+    > You can also use arrow keys or other methods to select HTML elements directly in DOM Explorer. For more info on selecting elements, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md).  
   
 9. In the Phone Emulator or Simulator, select the gray right half of one of the images that are cut in half. Highlighting appears around the selected element, as shown here in the Windows Phone Emulator:  
   
      ![Selecting a DOM element](../debugger/media/js-css-layout-select.png "JS_CSS_Layout_Select")  
   
     > [!TIP]
-    >  The Simulator supports hovering over elements to show box highlighting around DOM elements before you select one. The Windows Phone Emulator does not support this.  
+    > The Simulator supports hovering over elements to show box highlighting around DOM elements before you select one. The Windows Phone Emulator does not support this.  
   
      When you select a DOM element, the DOM Explorer automatically selects the corresponding IMG element in Visual Studio. The element selected in DOM Explorer looks like this:  
   
@@ -108,7 +108,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 11. To see how the margin-left rule is applied, choose the **Computed** tab and look under the margin-left rule. You can see that this rule is set with a 5em value, but the computed value is either 66.66px or 146.66px, depending on your target device.  
   
     > [!TIP]
-    >  The **Computed** tab shows that the margin-left rule is set in the `..hubpage .hub. section4 .sub-image-row img` CSS selector, found in hub.css. In this demo app, that is where you need to make the fix.  
+    > The **Computed** tab shows that the margin-left rule is set in the `..hubpage .hub. section4 .sub-image-row img` CSS selector, found in hub.css. In this demo app, that is where you need to make the fix.  
   
      You can also use the **Layout** tab to test modifications to layout values.  
   

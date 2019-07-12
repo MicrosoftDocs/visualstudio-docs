@@ -43,7 +43,7 @@ This walkthrough takes you through profiling a [!INCLUDE[dnprdnshort](../include
  Instrumentation is a profiling method by which specially built versions of the profiled binaries contain probe functions that collect timing information at the entry and exit to functions in an instrumented module. Because this method of profiling is more invasive than sampling, it incurs a greater amount of overhead. Instrumented binaries are also larger than debug or release binaries and are not intended for deployment.  
   
 > [!NOTE]
->  Do not send instrumented binaries to your customers. Instrumented binaries can contain several risks. The binaries include information that makes your application easier to reverse engineer, as well as security risks.  
+> Do not send instrumented binaries to your customers. Instrumented binaries can contain several risks. The binaries include information that makes your application easier to reverse engineer, as well as security risks.  
   
 #### To profile the PeopleTrax application by using the instrumentation method  
   

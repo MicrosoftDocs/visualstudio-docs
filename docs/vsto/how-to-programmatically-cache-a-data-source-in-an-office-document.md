@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically cache a data source in an Office document"
+title: "Cache data source in Office document programmatically"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -46,7 +46,7 @@ ms.workload:
      [!code-vb[Trin_VstcoreDataExcel#14](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#14)]
 
     > [!NOTE]
-    >  Do not call `StopCaching` from the event handler for the `Shutdown` event of a document or worksheet. By the time the `Shutdown` event is raised, it is too late to modify the data cache. For more information about the `Shutdown` event, see [Events in Office Projects](../vsto/events-in-office-projects.md).
+    > Do not call `StopCaching` from the event handler for the `Shutdown` event of a document or worksheet. By the time the `Shutdown` event is raised, it is too late to modify the data cache. For more information about the `Shutdown` event, see [Events in Office Projects](../vsto/events-in-office-projects.md).
 
 ## See also
 

@@ -20,10 +20,10 @@ You can create a VSIX package to wrap a [!INCLUDE[vsprvs](../includes/vsprvs-md.
   This document describes the third option.  
   
 ## Creating a VSIX Package  
- To manually package an extension, add an extension.manifest file and a [Content_Types].xml file to the extension project, put them in a compressed file together with your build output, and rename the compressed file so that it has a .vsix file name extension. The extension to be packaged must be of a type that is supported by the [VSIX schema](http://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b).  
+ To manually package an extension, add an extension.manifest file and a [Content_Types].xml file to the extension project, put them in a compressed file together with your build output, and rename the compressed file so that it has a .vsix file name extension. The extension to be packaged must be of a type that is supported by the [VSIX schema](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b).  
   
 > [!NOTE]
->  The names of files in VSIX packages must not include spaces, nor characters that are reserved in Uniform Resource Identifiers (URI), as defined under [\[RFC2396\]](http://go.microsoft.com/fwlink/?LinkId=90339).  
+> The names of files in VSIX packages must not include spaces, nor characters that are reserved in Uniform Resource Identifiers (URI), as defined under [\[RFC2396\]](http://go.microsoft.com/fwlink/?LinkId=90339).  
   
 #### To manually create a VSIX package  
   
@@ -31,7 +31,7 @@ You can create a VSIX package to wrap a [!INCLUDE[vsprvs](../includes/vsprvs-md.
   
 2. Create an XML file, and name it `extension.vsixmanifest`.  
   
-3. Fill in the extension.vsixmanifest file according to the VSIX schema. For an example manifest, see [PackageManifest Element (Root Element, VSX Schema)](http://msdn.microsoft.com/f8ae42ba-775a-4d2b-976a-f556e147f187).  
+3. Fill in the extension.vsixmanifest file according to the VSIX schema. For an example manifest, see [PackageManifest Element (Root Element, VSX Schema)](https://msdn.microsoft.com/f8ae42ba-775a-4d2b-976a-f556e147f187).  
   
 4. Create a second XML file, and name it `[Content_Types].xml`.  
   
@@ -50,4 +50,4 @@ You can create a VSIX package to wrap a [!INCLUDE[vsprvs](../includes/vsprvs-md.
 ## See Also  
  [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)   
  [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)   
- [PackageManifest Element (Root Element, VSX Schema)](http://msdn.microsoft.com/f8ae42ba-775a-4d2b-976a-f556e147f187)
+ [PackageManifest Element (Root Element, VSX Schema)](https://msdn.microsoft.com/f8ae42ba-775a-4d2b-976a-f556e147f187)

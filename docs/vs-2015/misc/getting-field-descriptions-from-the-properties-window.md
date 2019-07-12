@@ -20,7 +20,7 @@ At the bottom of the **Properties** window, a description area displays informat
 1. Add the `helpstringdll` attribute to the library statement in the type library (`typelib`).  
   
    > [!NOTE]
-   >  This step is optional if the type library is in an object library (.olb) file.  
+   > This step is optional if the type library is in an object library (.olb) file.  
   
 2. Specify `helpstringcontext` attributes for the strings. You can also specify `helpstring` attributes.  
   
@@ -57,9 +57,9 @@ STDAPI DLLGetDocumentation
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing>   
  [Properties Window Fields and Interfaces](../extensibility/internals/properties-window-fields-and-interfaces.md)   
  [Extending Properties](../extensibility/internals/extending-properties.md)   
- [helpstringdll](http://msdn.microsoft.com/library/121271fa-f061-492b-b87f-bbfcf4b02e7b)   
- [helpstring](http://msdn.microsoft.com/library/0401e905-a63e-4fad-98d0-d1efea111966)   
- [helpstringcontext](http://msdn.microsoft.com/library/d4cd135e-d91c-4aa3-9353-8aeb096f52cf)   
- [helpcontext](http://msdn.microsoft.com/library/6fbb022d-a4b7-4989-a02f-7f18a9b0ad96)   
- [helpfile](http://msdn.microsoft.com/library/d75161c1-1363-4019-ae09-e7e3b8a3971e)   
- [lcid](http://msdn.microsoft.com/library/7f248c69-ee1c-42c3-9411-39cf27c9f43d)
+ [helpstringdll](https://msdn.microsoft.com/library/121271fa-f061-492b-b87f-bbfcf4b02e7b)   
+ [helpstring](https://msdn.microsoft.com/library/0401e905-a63e-4fad-98d0-d1efea111966)   
+ [helpstringcontext](https://msdn.microsoft.com/library/d4cd135e-d91c-4aa3-9353-8aeb096f52cf)   
+ [helpcontext](https://msdn.microsoft.com/library/6fbb022d-a4b7-4989-a02f-7f18a9b0ad96)   
+ [helpfile](https://msdn.microsoft.com/library/d75161c1-1363-4019-ae09-e7e3b8a3971e)   
+ [lcid](https://msdn.microsoft.com/library/7f248c69-ee1c-42c3-9411-39cf27c9f43d)

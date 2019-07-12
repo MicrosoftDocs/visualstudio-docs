@@ -49,7 +49,7 @@ A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsp
        The **Domain-Specific Language Designer Wizard** appears.  
   
       > [!NOTE]
-      >  Preferably, the name that you type should be a valid Visual C# identifier, because it might be used to generate code.  
+      > Preferably, the name that you type should be a valid Visual C# identifier, because it might be used to generate code.  
   
       ![Create DSL dialog](../modeling/media/create-dsldialog.png "Create_DSLDialog")  
   
@@ -70,7 +70,7 @@ A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsp
     The wizard creates a solution that has two projects, which are named **Dsl** and **DslPackage**.  
   
    > [!NOTE]
-   >  If you see a message that alerts you not to run text templates from untrusted sources, click **OK**. You can set this message not to appear again.  
+   > If you see a message that alerts you not to run text templates from untrusted sources, click **OK**. You can set this message not to appear again.  
   
 ## <a name="settings"></a> The DSL Designer Wizard Pages  
  You can leave several of the fields unchanged from their default values. However, make sure that you set the File Extension field.  
@@ -127,4 +127,4 @@ A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsp
   
 ## See Also  
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

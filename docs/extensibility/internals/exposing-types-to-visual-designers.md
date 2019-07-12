@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "designers [Visual Studio SDK], exposing types"
   - "custom tools, exposing types to visual designers"
 ms.assetid: a7a32ad4-3a0a-4eb8-a6ac-491c42885639
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -21,7 +21,7 @@ ms.workload:
  The project system provides full support for tracking changes to the output file of a custom tool, provided that these changes are the result of running the custom tool. Each time the custom tool is run, a new temporary PE is generated, and appropriate notifications are sent to designers.
 
 > [!NOTE]
->  Because temporary program executable generation file happens in the background, no errors are reported to the user if the compilation fails.
+> Because temporary program executable generation file happens in the background, no errors are reported to the user if the compilation fails.
 
  Custom tools that take advantage of temporary PE support must follow the following rules:
 

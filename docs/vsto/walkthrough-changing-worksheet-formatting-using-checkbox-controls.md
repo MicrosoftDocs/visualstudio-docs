@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Change worksheet formatting using CheckBox controls"
+title: "Change worksheet formatting using CheckBox controls"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -29,7 +29,7 @@ ms.workload:
 - Test your project.
 
 > [!NOTE]
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
+> Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 ## Prerequisites
  You need the following components to complete this walkthrough:
@@ -88,7 +88,7 @@ ms.workload:
      Next, you will drag a <xref:Microsoft.Office.Tools.Excel.NamedRange> control to the worksheet.
 
     > [!NOTE]
-    >  You can also add the <xref:Microsoft.Office.Tools.Excel.NamedRange> control by typing **textFont** into the **Name** box.
+    > You can also add the <xref:Microsoft.Office.Tools.Excel.NamedRange> control by typing **textFont** into the **Name** box.
 
 #### To add text to a NamedRange control
 

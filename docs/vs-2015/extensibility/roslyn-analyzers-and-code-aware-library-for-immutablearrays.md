@@ -12,7 +12,7 @@ manager: jillfra
 # Roslyn Analyzers and Code-aware Library for ImmutableArrays
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The [.NET Compiler Platform](https://github.com/dotnet/roslyn) (“Roslyn”) helps you build code-aware libraries. A code-aware library provides functionality you can use and tooling (Roslyn analyzers) to help you use the library in the best way or to avoid errors. This topic shows you how to build a real world Roslyn analyzer to catch common errors when using the [NIB: Immutable Collections](http://msdn.microsoft.com/library/33f4449d-7078-450a-8d60-d9229f66bbca) NuGet package. The example also demonstrates how to provide a code fix for a code issue found by the analyzer. Users see code fixes in the Visual Studio light bulb UI and can apply a fix for the code automatically.
+The [.NET Compiler Platform](https://github.com/dotnet/roslyn) (“Roslyn”) helps you build code-aware libraries. A code-aware library provides functionality you can use and tooling (Roslyn analyzers) to help you use the library in the best way or to avoid errors. This topic shows you how to build a real world Roslyn analyzer to catch common errors when using the [NIB: Immutable Collections](https://msdn.microsoft.com/library/33f4449d-7078-450a-8d60-d9229f66bbca) NuGet package. The example also demonstrates how to provide a code fix for a code issue found by the analyzer. Users see code fixes in the Visual Studio light bulb UI and can apply a fix for the code automatically.
 
 ## Getting Started
 You need the following to build this example:

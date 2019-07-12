@@ -36,7 +36,7 @@ public const uint TEXT_DOC_ATTR_READONLY_2 = 0x00000001;
 ## Remarks  
   
 > [!NOTE]
->  This value is not actually defined in the assembly for C#. Instead, you must copy the definition to your source file.  
+> This value is not actually defined in the assembly for C#. Instead, you must copy the definition to your source file.  
   
  Passed as an argument to the [onUpdateDocumentAttributes](../../../extensibility/debugger/reference/idebugdocumenttextevents2-onupdatedocumentattributes.md) method.  
   

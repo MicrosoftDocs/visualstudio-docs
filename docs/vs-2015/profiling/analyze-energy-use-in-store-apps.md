@@ -24,9 +24,9 @@ The Visual Studio **Energy Consumption** profiler helps you analyze the power an
  The Energy Consumption profiler captures the activities of the display, CPU, and network connections of a device during a profiling session. It then generates estimates of the power used for those activities and the total amount of energy for the profiling session.  
   
 > [!NOTE]
->  The energy profiler estimates power and energy use by using a software model of standard reference device hardware that is representative of the low powered tablet devices your application might run on. To provide the best estimates, we recommend that you collect the profile data on a low powered tablet device.  
+> The energy profiler estimates power and energy use by using a software model of standard reference device hardware that is representative of the low powered tablet devices your application might run on. To provide the best estimates, we recommend that you collect the profile data on a low powered tablet device.  
 >   
->  Although the model provides good estimates for a variety of low-powered devices, the actual values of the device you profile will likely be different. Use the values to find display, CPU, and network activities that are costly relative to other resource uses and so might be good candidates for optimization.  
+> Although the model provides good estimates for a variety of low-powered devices, the actual values of the device you profile will likely be different. Use the values to find display, CPU, and network activities that are costly relative to other resource uses and so might be good candidates for optimization.  
   
  The Energy Consumption profiler uses these definitions of *power* and *energy*:  
   
@@ -49,12 +49,12 @@ The Visual Studio **Energy Consumption** profiler helps you analyze the power an
   
  **Add marks to C#, Visual Basic, C++ code**  
   
- To add a user mark to C#, Visual Basic, C++ code, first create a [Windows.Foundation.Diagnostics LoggingChannel](http://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.aspx) object. Then insert calls to [LoggingChannel.LogMessage](http://msdn.microsoft.com/library/windows/apps/dn264210.aspx) methods at the points in your code that you want to mark. Use [LoggingLevel.Information](http://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.logginglevel.aspx) in the calls.  
+ To add a user mark to C#, Visual Basic, C++ code, first create a [Windows.Foundation.Diagnostics LoggingChannel](https://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.aspx) object. Then insert calls to [LoggingChannel.LogMessage](https://msdn.microsoft.com/library/windows/apps/dn264210.aspx) methods at the points in your code that you want to mark. Use [LoggingLevel.Information](https://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.logginglevel.aspx) in the calls.  
   
  When the method executes, a user mark is added to the profiling data along with a message.  
   
 > [!NOTE]
-> - Windows.Foundation.Diagnostics LoggingChannel implements the [Windows.Foundation.IClosable](http://msdn.microsoft.com/library/windows/apps/windows.foundation.iclosable.aspx) interface  (projected as [System.IDisposable](http://msdn.microsoft.com/library/System.IDisposable.aspx) in C# and VB).To avoid leaking operating system resources, call [LoggingChannel.Close](http://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.close.aspx)() (Windows.Foundation.Diagnostics.LoggingChannel.Dispose() in C# and VB) when you are finished with a logging channel.  
+> - Windows.Foundation.Diagnostics LoggingChannel implements the [Windows.Foundation.IClosable](https://msdn.microsoft.com/library/windows/apps/windows.foundation.iclosable.aspx) interface  (projected as [System.IDisposable](https://msdn.microsoft.com/library/System.IDisposable.aspx) in C# and VB).To avoid leaking operating system resources, call [LoggingChannel.Close](https://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.close.aspx)() (Windows.Foundation.Diagnostics.LoggingChannel.Dispose() in C# and VB) when you are finished with a logging channel.  
 >   - Each open logging channel must have a unique name. Attempting to create a new logging channel with the same name as an undisposed channel causes an exception.  
   
  See the Windows SDK Sample [LoggingSession Sample](http://code.msdn.microsoft.com/windowsapps/LoggingSession-Sample-ccd52336) for examples.  
@@ -88,7 +88,7 @@ if (performance && performance.mark) {
 2. Choose **Energy Consumption** and then choose **Start**.  
   
     > [!NOTE]
-    >  When you start the **Energy Consumption** profiler, you might see a **User Account Control** window requesting your permission to run VsEtwCollector.exe. Choose **Yes**.  
+    > When you start the **Energy Consumption** profiler, you might see a **User Account Control** window requesting your permission to run VsEtwCollector.exe. Choose **Yes**.  
   
 3. Exercise your app to collect data.  
   
@@ -142,7 +142,7 @@ if (performance && performance.mark) {
   
 ## <a name="BKMK_Other_resources"></a> Other resources  
   
-- The **Connection state and cost management** sections for [C#/VB/C++ and XAML](http://msdn.microsoft.com/0ee0b706-8432-4d49-9801-306ed90764e1) and [JavaScript and HTML](http://msdn.microsoft.com/372afa6a-1c7c-4657-967d-03a77cd8e933) in the Windows Dev Center describe the Windows APIs that provide network connectivity information that your app can use to minimize the cost of network traffic.  
+- The **Connection state and cost management** sections for [C#/VB/C++ and XAML](https://msdn.microsoft.com/0ee0b706-8432-4d49-9801-306ed90764e1) and [JavaScript and HTML](https://msdn.microsoft.com/372afa6a-1c7c-4657-967d-03a77cd8e933) in the Windows Dev Center describe the Windows APIs that provide network connectivity information that your app can use to minimize the cost of network traffic.  
   
      The Visual Studio simulator for Windows Store apps enables you to simulate data connection properties of the network information APIs. See [Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md)  
   

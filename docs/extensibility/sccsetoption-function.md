@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccSetOption function"
 ms.assetid: 4b5e6666-c24c-438a-a9df-9c52f58f8175
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

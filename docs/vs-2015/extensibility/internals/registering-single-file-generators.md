@@ -47,7 +47,7 @@ To make a custom tool available in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md
          Required. Indicates whether types from files produced by this custom tool are made available to visual designers. The value of this parameter needs to be (zero) 0 for types not available to visual designers or (one) 1 for types available to visual designers.  
   
     > [!NOTE]
-    >  You must register the custom tool separately for each language for which you want the custom tool to be available.  
+    > You must register the custom tool separately for each language for which you want the custom tool to be available.  
   
      For example, the MSDataSetGenerator registers itself once for each language:  
   
@@ -73,4 +73,4 @@ To make a custom tool available in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md
  [Implementing Single-File Generators](../../extensibility/internals/implementing-single-file-generators.md)   
  [Determining the Default Namespace of a Project](../../misc/determining-the-default-namespace-of-a-project.md)   
  [Exposing Types to Visual Designers](../../extensibility/internals/exposing-types-to-visual-designers.md)   
- [Introduction to the BuildManager Object](http://msdn.microsoft.com/50080ec2-c1c9-412c-98ef-18d7f895e7fa)
+ [Introduction to the BuildManager Object](https://msdn.microsoft.com/50080ec2-c1c9-412c-98ef-18d7f895e7fa)

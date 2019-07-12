@@ -15,7 +15,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
 > [!NOTE]
 > The Text Template Transformation SDK and the Visual Studio Modeling SDK are installed automatically when you install specific features of Visual Studio. For more details, see [this blog post](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/).
 
-If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this site: [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
+If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this site: [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
 
 ## What can you do with a Domain-Specific Language?
 
@@ -131,11 +131,11 @@ You can run the DSL solution as soon as you have created it. Later, you can modi
 
 Your experimental Visual Studio will resemble the following example:
 
-![](../modeling/media/dsl_min.png)
+![Domain specific language sample tree in Visual Studio](../modeling/media/dsl_min.png)
 
 ### The Content of a Model
 
-The content of a file that is an instance of a DSL is called a *model*. The model contains *model*<em>elements</em> and *links* between the elements. The DSL definition specifies what types of model elements and links can exist in the model. For example, in a DSL created from the Minimal Language template, there is one type of model element, and one type of link.
+The content of a file that is an instance of a DSL is called a *model*. The model contains *model* <em>elements</em> and *links* between the elements. The DSL definition specifies what types of model elements and links can exist in the model. For example, in a DSL created from the Minimal Language template, there is one type of model element, and one type of link.
 
 The DSL definition can specify how the model appears on a diagram. You can choose from a variety of styles of shapes and connectors. You can specify that some shapes appear inside other shapes.
 
@@ -174,7 +174,7 @@ You can add any number of text template files to a project. Each template genera
 > [!NOTE]
 > When you change the DSL definition, the sample text template code will not work, unless you update it.
 
-For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md) and [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md).
+For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md) and [Writing Code to Customize a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md).
 
 ## Customizing the DSL
 
@@ -288,7 +288,7 @@ Rename the existing domain classes and relationships. For example, starting from
          Set its name, for example **Town**.
 
         > [!NOTE]
-        >  Every domain class except the root of the model must be the target of at least one embedding relationship, or it must inherit from a class that is the target of an embedding. For this reason, it is frequently convenient to create a domain class by using the Embedding Relationship tool.
+        > Every domain class except the root of the model must be the target of at least one embedding relationship, or it must inherit from a class that is the target of an embedding. For this reason, it is frequently convenient to create a domain class by using the Embedding Relationship tool.
 
     2. Add a domain property to the new class, for example **Name**.
 
@@ -299,7 +299,7 @@ Rename the existing domain classes and relationships. For example, starting from
          ![DSL definition fragment: family tree root](../modeling/media/familyt_root.png)
 
         > [!NOTE]
-        >  Reference relationships represent cross-references from one part of the model tree to another.
+        > Reference relationships represent cross-references from one part of the model tree to another.
 
 3. Add a shape to represent towns on the model diagrams.
 
@@ -386,7 +386,7 @@ Rename the existing domain classes and relationships. For example, starting from
 
  You can use the same procedure to install the DSL on your own computer so that you do not have to use the experimental instance of Visual Studio.
 
- For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
+ For more information, see [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md).
 
 ## <a name="Reset"></a> Removing old Experimental DSLs
  If you have created experimental DSLs that you no longer want, you can remove them from your computer by resetting the Visual Studio Experimental instance.

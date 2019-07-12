@@ -20,7 +20,7 @@ ms.workload:
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]
 
 > [!NOTE]
->  The <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> control is not available on the **Toolbox** or the **Data Sources** window. Additionally, you cannot create <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> controls programmatically.
+> The <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> control is not available on the **Toolbox** or the **Data Sources** window. Additionally, you cannot create <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> controls programmatically.
 
 ## To add an XMLMappedRange control to a worksheet
 
@@ -31,7 +31,7 @@ ms.workload:
 3. On the **Developer** tab, click **Source**.
 
     > [!NOTE]
-    >  If the **Developer** tab is not visible on the Ribbon, you must enable it. For more information, see [How to: Show the Developer tab on the Ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
+    > If the **Developer** tab is not visible on the Ribbon, you must enable it. For more information, see [How to: Show the Developer tab on the Ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
 
      The **XML Source** task pane appears.
 
@@ -52,7 +52,7 @@ ms.workload:
      An <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> is created and added to the project.
 
     > [!NOTE]
-    >  If you drag a parent element from the **XML Source** task pane, a <xref:Microsoft.Office.Tools.Excel.ListObject> control is created.
+    > If you drag a parent element from the **XML Source** task pane, a <xref:Microsoft.Office.Tools.Excel.ListObject> control is created.
 
 ## See also
 - [XmlMappedRange control](../vsto/xmlmappedrange-control.md)

@@ -18,7 +18,7 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
  If you’d like to include the VSSDK in your Visual Studio installation, you must do a custom installation.  
   
 > [!NOTE]
->  In the installation executable, the Visual Studio SDK is called **Visual Studio Extensibility Tools**.  
+> In the installation executable, the Visual Studio SDK is called **Visual Studio Extensibility Tools**.  
   
 1. Start the Visual Studio 2015 installation. You can install any edition of Visual Studio except Express.  
   

@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "Open File command"
   - "persistence, supporting Open File command"
 ms.assetid: 4fff0576-b2f3-4f17-9769-930f926f273c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -25,7 +25,7 @@ The following steps describe how the IDE handles the **Open File** command, whic
     - If the file is not open, the IDE calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject%2A> to query each project to determine which project can open the file.
 
         > [!NOTE]
-        >  In your project implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject%2A>, provide a priority value that indicates the level at which your project opens the file. Priority values are provided in the <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> enumeration.
+        > In your project implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject%2A>, provide a priority value that indicates the level at which your project opens the file. Priority values are provided in the <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> enumeration.
 
 2. Each project responds with a priority level that indicates the importance it places on being the project to open the file.
 

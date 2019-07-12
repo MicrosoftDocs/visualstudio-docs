@@ -1,5 +1,5 @@
 ---
-title: "Information rights management and managed code extensions overview"
+title: "Information rights management & managed code extensions"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

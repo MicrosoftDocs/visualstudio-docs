@@ -73,7 +73,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
     A solution is generated that contains two projects. They are named Dsl and DslPackage. A diagram file opens that is named DslDefinition.dsl.  
   
    > [!NOTE]
-   >  Most of the code that you can see in the folders in the two projects is generated from DslDefinition.dsl. For this reason, most modifications to your DSL are made in this file.  
+   > Most of the code that you can see in the folders in the two projects is generated from DslDefinition.dsl. For this reason, most modifications to your DSL are made in this file.  
   
    The user interface now resembles the following picture.  
   
@@ -98,7 +98,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
 1. Click **Transform All Templates** in the Solution Explorer toolbar. This regenerates most of the source code from DslDefinition.dsl.  
   
    > [!NOTE]
-   >  Whenever you change DslDefinition.dsl, you must click **Transform All Templates** before you rebuild the solution. You can automate this step. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
+   > Whenever you change DslDefinition.dsl, you must click **Transform All Templates** before you rebuild the solution. You can automate this step. For more information, see [How to Automate Transform All Templates](https://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
   
 2. Press F5, or on the **Debug** menu, click **Start Debugging**.  
   
@@ -165,7 +165,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
    You can add any number of text template files to a project. Each template generates one result file.  
   
 > [!NOTE]
->  When you change the DSL definition, the sample text template code will not work, unless you update it.  
+> When you change the DSL definition, the sample text template code will not work, unless you update it.  
   
  For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md) and [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md).  
   
@@ -173,7 +173,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
  When you want to modify the DSL definition, close the experimental instance and update the definition in the main [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] instance.  
   
 > [!NOTE]
->  After you have modified the DSL definition, you might lose information in the test models that you have created by using earlier versions.  For example, the debugging solution contains a file that is named Sample, which contains some shapes and connectors. After you start to develop your DSL definition, they will not be visible, and they will be lost when you save the file.  
+> After you have modified the DSL definition, you might lose information in the test models that you have created by using earlier versions.  For example, the debugging solution contains a file that is named Sample, which contains some shapes and connectors. After you start to develop your DSL definition, they will not be visible, and they will be lost when you save the file.  
   
  You can make a wide variety of extensions to your DSL. The following examples will give you an impression of the possibilities.  
   
@@ -279,7 +279,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
          Set its name, for example **Town**.  
   
         > [!NOTE]
-        >  Every domain class except the root of the model must be the target of at least one embedding relationship, or it must inherit from a class that is the target of an embedding. For this reason, it is frequently convenient to create a domain class by using the Embedding Relationship tool.  
+        > Every domain class except the root of the model must be the target of at least one embedding relationship, or it must inherit from a class that is the target of an embedding. For this reason, it is frequently convenient to create a domain class by using the Embedding Relationship tool.  
   
     2. Add a domain property to the new class, for example **Name**.  
   
@@ -290,7 +290,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
          ![DSL definition fragment: family tree root](../modeling/media/familyt-root.png "FamilyT_Root")  
   
         > [!NOTE]
-        >  Reference relationships represent cross-references from one part of the model tree to another.  
+        > Reference relationships represent cross-references from one part of the model tree to another.  
   
 3. Add a shape to represent towns on the model diagrams.  
   

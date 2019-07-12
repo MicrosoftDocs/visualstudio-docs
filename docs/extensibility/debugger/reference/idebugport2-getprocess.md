@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPort2::GetPortSupplier"
 ms.assetid: 3e2431b0-0e19-450d-8e1d-d7c314c8f872
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPort2::GetProcess
 Gets the specified process running on a port.
@@ -32,19 +35,17 @@ int GetProcess( 
 );
 ```
 
-#### Parameters
- `ProcessId`
+## Parameters
+`ProcessId`\
+[in] An [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) structure that specifies the process identifier.
 
- [in] An [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) structure that specifies the process identifier.
-
- `ppProcess`
-
- [out] Returns an [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) object representing the process.
+`ppProcess`\
+[out] Returns an [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) object representing the process.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
 - [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md)

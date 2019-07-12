@@ -15,7 +15,7 @@ The *VSPerfCmd.exe* **Attach** option begins sample profiling of the running pro
  To use the **Attach** option, you must specify the **Sample** method in the Start option.
 
 > [!NOTE]
->  If the **Start** option was specified with the **Crosssession** option, any calls to **VSPerfCmd /Attach** or to **VSPerfCmd /Detach** must also specify **Crosssession**.
+> If the **Start** option was specified with the **Crosssession** option, any calls to **VSPerfCmd /Attach** or to **VSPerfCmd /Detach** must also specify **Crosssession**.
 
 ## Syntax
 

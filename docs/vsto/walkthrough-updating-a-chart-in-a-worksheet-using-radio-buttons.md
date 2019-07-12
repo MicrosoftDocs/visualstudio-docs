@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Updating a Chart in a Worksheet Using Radio Buttons"
+title: "Update chart in worksheet using radio buttons"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -29,7 +29,7 @@ ms.workload:
 - Changing the chart style when an option is selected.
 
 > [!NOTE]
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
+> Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 ## Prerequisites
  You need the following components to complete this walkthrough:

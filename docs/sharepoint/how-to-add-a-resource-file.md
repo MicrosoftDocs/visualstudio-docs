@@ -26,7 +26,7 @@ ms.workload:
 3. In the **Add New Item** dialog box, choose the **Global Resources File** template, and then choose the **Add** button.
 
    > [!NOTE]
-   >  The Global Resources File project item template appears only when a SharePoint project item is selected.
+   > The Global Resources File project item template appears only when a SharePoint project item is selected.
 
 4. In the **Add Resource** dialog box, choose a culture for the resource file, such as English (United States).
 

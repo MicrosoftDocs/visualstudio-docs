@@ -66,9 +66,9 @@ You can allow an element to be dragged onto another, either from the toolbox or 
    For example, you could set properties in the merged element by using data from its new location in the model.  
   
 > [!NOTE]
->  If you write custom merge code, it affects only merges that are performed by using this EMD. If there are other EMDs that merge the same type of object, or if there is other custom code that creates these objects without using the EMD, then they will not be affected by your custom merge code.  
+> If you write custom merge code, it affects only merges that are performed by using this EMD. If there are other EMDs that merge the same type of object, or if there is other custom code that creates these objects without using the EMD, then they will not be affected by your custom merge code.  
 >   
->  If you want to make sure that a new element or new relationship is always processed by your custom code, consider defining an `AddRule` on the embedding relationship and a `DeleteRule` on the element’s domain class. For more information, see [Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md).  
+> If you want to make sure that a new element or new relationship is always processed by your custom code, consider defining an `AddRule` on the embedding relationship and a `DeleteRule` on the element’s domain class. For more information, see [Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md).  
   
 ## Example: Defining an EMD without custom code  
  The following example lets users create an element and a connector at the same time by dragging from the toolbox onto an existing shape. The example adds an EMD to the DSL Definition. Before this modification, users can drag tools onto the diagram, but not onto existing shapes.  

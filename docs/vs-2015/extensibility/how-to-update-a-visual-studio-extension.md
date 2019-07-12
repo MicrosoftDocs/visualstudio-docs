@@ -39,7 +39,7 @@ You can update a Visual Studio extension on your system by using **Extensions an
 1. In Visual Studio, open the solution for the extension you want to update. Make the changes.
 
     > [!IMPORTANT]
-    >  Unsigned all user extensions do not get updated automatically. You should always sign your extensions.
+    > Unsigned all user extensions do not get updated automatically. You should always sign your extensions.
 
 2. In **Solution Explorer**, open source.extension.manifest.
 
@@ -54,7 +54,7 @@ You can update a Visual Studio extension on your system by using **Extensions an
      You can enable or disable automatic checking for updates at the bottom of the **Updates** pane (**Enable/disable automatic detection of available updates**), which changes the **Check for updates** setting in **Tools / Options / Environment / Extensions and Updates**.
 
     > [!NOTE]
-    >  Starting in Visual Studio 2015 Update 2, you can specify (in **Tools / Options / Environment / Extensions and Updates**) whether you want automatic updates for per-user extensions,  all user extensions or both (the default setting).
+    > Starting in Visual Studio 2015 Update 2, you can specify (in **Tools / Options / Environment / Extensions and Updates**) whether you want automatic updates for per-user extensions,  all user extensions or both (the default setting).
 
 ## See Also
  [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)

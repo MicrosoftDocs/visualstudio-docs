@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], saving custom documents"
   - "editors [Visual Studio SDK], saving custom documents"
 ms.assetid: 040b36d6-1f0a-4579-971c-40fbb46ade1d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,7 +34,7 @@ Save, Save As, and Save All command handling for a custom editor
      In the case of a custom editor, the communication between the document data object and the project is private. Thus, any special persistence concerns are handled between these two objects.
 
     > [!NOTE]
-    >  If you implement your own persistence, be sure to call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFiles%2A> method to save time. This method checks to make sure that it is safe to save the file (for example, the file is not read-only).
+    > If you implement your own persistence, be sure to call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFiles%2A> method to save time. This method checks to make sure that it is safe to save the file (for example, the file is not read-only).
 
 ## See Also
 - <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>

@@ -114,7 +114,7 @@ Make sure that your software system meets users' needs by using the visualizatio
 - [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)  
   
   > [!NOTE]
-  >  Some versions of Visual Studio support layer validation and read-only versions of code maps and UML diagrams for visualization and modeling. To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
+  > Some versions of Visual Studio support layer validation and read-only versions of code maps and UML diagrams for visualization and modeling. To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
 ## <a name="UnderstandingCommunicating"></a> Understanding and Communicating Information about the System  
  There is no prescribed order for using the Visual Studio modeling diagrams, so you can use them as they fit with your needs or approach. Usually, teams revisit their models iteratively and frequently throughout a project. Each diagram offers particular strengths to help you understand, describe, and communicate different aspects of the system under development.  
@@ -291,11 +291,11 @@ Make sure that your software system meets users' needs by using the visualizatio
   
  See:  
   
-- [Define your build process](http://msdn.microsoft.com/library/61593e10-d24b-492f-b19a-af4d85abea6b)  
+- [Define your build process](https://msdn.microsoft.com/library/61593e10-d24b-492f-b19a-af4d85abea6b)  
   
-- [Use a gated check-in build process to validate changes](http://msdn.microsoft.com/library/9cfc8b9c-1023-40fd-8ab5-1b1bd9c172ec)  
+- [Use a gated check-in build process to validate changes](https://msdn.microsoft.com/library/9cfc8b9c-1023-40fd-8ab5-1b1bd9c172ec)  
   
-- [Customize your build process template](http://msdn.microsoft.com/library/b94c58f2-ae6f-4245-bedb-82cd114f6039)  
+- [Customize your build process template](https://msdn.microsoft.com/library/b94c58f2-ae6f-4245-bedb-82cd114f6039)  
   
 ### <a name="GeneralTips"></a> General Tips for Creating and Using Models  
   
@@ -330,13 +330,13 @@ Make sure that your software system meets users' needs by using the visualizatio
   
   See:  
   
-- [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)  
+- [Track work using Visual Studio Team Services or Team Foundation Server](https://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)  
   
 - [Link model elements and work items](../modeling/link-model-elements-and-work-items.md)  
   
-- [Charts, dashboards, and reports for Visual Studio ALM](http://msdn.microsoft.com/library/1f28ba6c-c5e5-46d3-9209-ede24ae78e48)  
+- [Charts, dashboards, and reports for Visual Studio ALM](https://msdn.microsoft.com/library/1f28ba6c-c5e5-46d3-9209-ede24ae78e48)  
   
-- [Create your backlog and tasks using Project](http://msdn.microsoft.com/library/be5cef4f-755f-4ffe-8dd7-876d1e02c330)  
+- [Create your backlog and tasks using Project](https://msdn.microsoft.com/library/be5cef4f-755f-4ffe-8dd7-876d1e02c330)  
   
 ### <a name="TestValidateCheckInCode"></a> Testing, Validating, and Checking In Code  
  As the teams complete each task, they check their code into Team Foundation version control and receive reminders from Team Foundation Server, if they forget. Before Team Foundation Server accepts their check-ins, the teams run unit tests and layer validation to verify the code against their test cases and the design. They use Team Foundation Server to run builds, automated unit tests, and layer validation regularly. This helps make sure that the code meets the following criteria:  
@@ -353,13 +353,13 @@ Make sure that your software system meets users' needs by using the visualizatio
   
   See:  
   
-- [Testing the application](http://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)  
+- [Testing the application](https://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)  
   
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)  
   
 - [Use version control](http://go.microsoft.com/fwlink/?LinkID=525605)  
   
-- [Build the application](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
+- [Build the application](https://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
   
 ## <a name="UpdatingSystem"></a> Updating the System Using Visualization and Modeling  
  Lucerne and Dinner Now must integrate their payment systems. The following sections show the modeling diagrams in Visual Studio help them perform this task:  
@@ -882,6 +882,6 @@ Make sure that your software system meets users' needs by using the visualizatio
  [Visualize code](../modeling/visualize-code.md)   
  [Create models for your app](../modeling/create-models-for-your-app.md)   
  [Use models in your development process](../modeling/use-models-in-your-development-process.md)   
- [Use models in Agile development](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)   
+ [Use models in Agile development](https://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)   
  [Validate your system during development](../modeling/validate-your-system-during-development.md)   
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)

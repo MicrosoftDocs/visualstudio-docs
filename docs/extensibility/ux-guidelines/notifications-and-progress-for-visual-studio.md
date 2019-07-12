@@ -3,8 +3,8 @@ title: "Notifications and Progress for Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: f0ef65e9-0f1f-45f4-9f25-6e2398691168
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -411,7 +411,7 @@ private bool TryCreateInfoBarUI(IVsInfoBar infoBar, out IVsInfoBarUIElement uiEl
 - Within a document tab
 
 > [!IMPORTANT]
->  It's possible to position an infobar to give a message about global context. This would appear between toolbars and the document well. This is not recommended because it causes problems with "jump and jerk" of the IDE and should be avoided unless absolutely necessary and appropriate.
+> It's possible to position an infobar to give a message about global context. This would appear between toolbars and the document well. This is not recommended because it causes problems with "jump and jerk" of the IDE and should be avoided unless absolutely necessary and appropriate.
 
 #### Placing an infobar in a ToolWindowPane
  The ToolWindowPane.AddInfoBar(IVsInfoBar) method can be used to add an infobar to a tool window. This API can either add an IVsInfoBar (of which InfoBarModel is a default implementation), or an IVsUIElement.

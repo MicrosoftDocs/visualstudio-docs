@@ -3,11 +3,14 @@ title: "Walkthrough: Creating an SDK using C# or Visual Basic | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: ef96a249-5eef-402a-a8d5-d74cb49239bd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CSharp
+  - VB
 ---
 # Walkthrough: Create an SDK using C# or Visual Basic
 In this walkthrough, you'll learn how to create a simple Math Library SDK by using Visual C# and then package the SDK as a Visual Studio Extension (VSIX). You'll complete the following procedures:
@@ -22,7 +25,7 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 
 ## <a name="createClassLibrary"></a> To create the SimpleMath Windows Runtime component
 
-1. On the menu bar, choose **File** > **New** > **New Project**.
+1. On the menu bar, choose **File** > **New** > **Project**.
 
 2. In the list of templates, expand **Visual C#** or **Visual Basic**, choose the **Windows Store** node, and then choose the **Windows Runtime Component** template.
 
@@ -44,7 +47,7 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 8. In the **Configuration** column, verify that **SimpleMath** row is set to **Release**, and then choose the **Close** button to accept the change.
 
    > [!IMPORTANT]
-   >  The SDK for the SimpleMath component includes only one configuration. This configuration must be the release build, or apps that use the component won't pass certification for the[!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)].
+   > The SDK for the SimpleMath component includes only one configuration. This configuration must be the release build, or apps that use the component won't pass certification for the [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)].
 
 9. In **Solution Explorer**, open the shortcut menu for the **SimpleMath** project node, and then choose **Build**.
 
@@ -147,7 +150,7 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 
 ## <a name="createSample"></a> To create a sample app that uses the class library
 
-1. On the menu bar, choose **File** > **New** > **New Project**.
+1. On the menu bar, choose **File** > **New** > **Project**.
 
 2. In the list of templates, expand **Visual C#** or **Visual Basic**, and then choose the **Windows Store** node.
 
@@ -157,11 +160,11 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 
 5. In the list of reference types, expand **Windows**, and then choose **Extensions**.
 
-6. In the details pane, choose the **Simple Math SDK** extension.
+6. In the details pane, choose the **WinRT Math Library** extension.
 
     Additional information about your SDK appears. You can choose the **More Information** link to open https://msdn.microsoft.com/, as you specified in the SDKManifest.xml file earlier in this walkthrough.
 
-7. In the **Reference Manager** dialog box, select the **Simple Math SDK** check box, and then choose the **OK** button.
+7. In the **Reference Manager** dialog box, select the **WinRT Math Library** check box, and then choose the **OK** button.
 
 8. On the menu bar, choose **View** > **Object Browser**.
 
@@ -175,11 +178,11 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 
     ```xml
     <Page
-        x:Class="WinRTMathTestCS.MainPage"
+        x:Class="ArithmeticUI.MainPage"
         IsTabStop="False"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:local="using:WinRTMathTestCS"
+        xmlns:local="using:SimpleMath"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d">
@@ -201,11 +204,11 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 
     ```xml
     <Page
-        x:Class="WinRTMathTest.MainPage"
+        x:Class="ArithmeticUI.MainPage"
         IsTabStop="False"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:local="using:WinRTMathTest"
+        xmlns:local="using:SimpleMath"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d">

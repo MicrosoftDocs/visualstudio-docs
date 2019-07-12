@@ -79,7 +79,7 @@ In the **Threads** window, you can examine and work with threads in the applicat
  In managed code, the suspended count changes when you freeze or thaw a thread. If you freeze a thread in managed code, its suspended count is 1. When you freeze a thread in native code, its suspended count is 0, unless you used the `SuspendThread` call.
 
 > [!NOTE]
->  When you debug a call from native code to managed code, the managed code runs in the same physical thread as the native code that called it. Suspending or freezing the native thread freezes the managed code also.
+> When you debug a call from native code to managed code, the managed code runs in the same physical thread as the native code that called it. Suspending or freezing the native thread freezes the managed code also.
 
 ### To freeze or thaw execution of a thread
 
@@ -95,9 +95,9 @@ A yellow arrow indicates the current thread (and the location of the execution p
 
 - Follow either of the following steps:
 
-    - Double-click any thread.
+  - Double-click any thread.
 
-    - Right-click a thread and select **Switch To Thread**.
+  - Right-click a thread and select **Switch To Thread**.
 
 ## Group and sort threads
  When you group threads, a heading appears in the table for each group. The heading contains a group description, such as **Worker Thread** or **Unflagged Threads**, and a tree control. The member threads of each group appear under the group heading. If you want to hide the member threads for a group, use the tree control to collapse the group.

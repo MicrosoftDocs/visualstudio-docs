@@ -67,7 +67,7 @@ This topic is meant for developers working primarily on a Mac who will optionall
      ![Checking for Xamarin updates in Visual Studio options](../cross-platform/media/cross-plat-xamarin-setup-3.png "Cross-Plat Xamarin Setup 3")  
   
     > [!NOTE]
-    >  Be sure to update Xamarin to version 4.0.3.214 or higher to avoid issues with earlier Xamarin licenses.  If you attempt to check for updates and see an error about Microsoft build tools, see the thread on [Xamarin's forums](http://forums.xamarin.com/discussion/69015/xamarin-update-on-vs-2013-says-i-need-the-build-tools-for-vs-2015).
+    > Be sure to update Xamarin to version 4.0.3.214 or higher to avoid issues with earlier Xamarin licenses.  If you attempt to check for updates and see an error about Microsoft build tools, see the thread on [Xamarin's forums](http://forums.xamarin.com/discussion/69015/xamarin-update-on-vs-2013-says-i-need-the-build-tools-for-vs-2015).
   
 6. Once you’ve completed installing Xamarin on both the Windows and Mac computers, follow the instructions on [Connecting to the Mac using XMA](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/#Connecting_to_the_Mac_Using_XMA) (xamarin.com) so that you can work with iOS from Visual Studio.  
   

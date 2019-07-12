@@ -28,7 +28,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  The list on the **Events** tab is dynamic. If you add an event listener while the app is running, the new event listener will appear there. For info on adding and removing event listeners, see [Tips for resolving issues with event listeners](#Tips) in this topic.
 
 > [!NOTE]
->  Event listeners for code elements that aren't DOM elements, such as `xhr`, don't appear on the **Events** tab.
+> Event listeners for code elements that aren't DOM elements, such as `xhr`, don't appear on the **Events** tab.
 
 ## View event listeners for DOM elements
  This example shows a Windows Phone Store app. The DOM Explorer features described here are also supported for Windows Store apps.
@@ -70,9 +70,9 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
      The **Events** tab shows event listeners for any element that you choose in the hierarchy list.
 
 ### <a name="Tips"></a> Tips for resolving issues with event listeners
- In some app scenarios, event listeners must be explicitly removed using [removeEventListener](http://msdn.microsoft.com/library/ie/ff975250\(v=vs.85\).aspx). Use the **Events** tab in the DOM Explorer to test whether event listeners have been removed from DOM elements while running code. Here are some tips to help resolve these types of issues:
+ In some app scenarios, event listeners must be explicitly removed using [removeEventListener](https://msdn.microsoft.com/library/ie/ff975250\(v=vs.85\).aspx). Use the **Events** tab in the DOM Explorer to test whether event listeners have been removed from DOM elements while running code. Here are some tips to help resolve these types of issues:
 
-- For apps that use the single-page navigation model implemented in the Visual Studio [project templates](http://msdn.microsoft.com/library/windows/apps/hh758331.aspx), it's not typically necessary to remove event listeners registered for objects, such as DOM elements, that are part of a page. In this scenario, a DOM element and its associated event listeners have the same lifetime, and they can be garbage-collected.
+- For apps that use the single-page navigation model implemented in the Visual Studio [project templates](https://msdn.microsoft.com/library/windows/apps/hh758331.aspx), it's not typically necessary to remove event listeners registered for objects, such as DOM elements, that are part of a page. In this scenario, a DOM element and its associated event listeners have the same lifetime, and they can be garbage-collected.
 
 - If the lifetime of the DOM element or object is different from the associated event listener, you might have to call the `removeEventListener` method. For example, if you use the `window.onresize` event, you might have to remove the event listener if you navigate away from the page where you handle the event.
 

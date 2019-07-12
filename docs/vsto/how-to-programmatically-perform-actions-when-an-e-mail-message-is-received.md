@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically perform actions when an email message is received"
+title: "Programmatically perform actions if email message is received"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

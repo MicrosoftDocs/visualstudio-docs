@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "code snippets, retrieving list"
   - "GetSnippets method"
 ms.assetid: 7d142f8b-35b1-44c4-a13e-f89f6460c906
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -100,7 +100,7 @@ A code snippet is a piece of code that can be inserted into the source buffer ei
 1. The following method shows how to call the `GetSnippets` method at the completion of a parsing operation. The <xref:Microsoft.VisualStudio.Package.LanguageService.OnParseComplete%2A> method is called after a parsing operation that was started with the reason <xref:Microsoft.VisualStudio.Package.ParseReason>.
 
 > [!NOTE]
->  The `expansionsList` array list is cached for performance reasons. Changes to the snippets are not reflected in the list until the language service is stopped and reloaded (for example, by stopping and restarting [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]).
+> The `expansionsList` array list is cached for performance reasons. Changes to the snippets are not reflected in the list until the language service is stopped and reloaded (for example, by stopping and restarting [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]).
 
 ```csharp
 class TestLanguageService : LanguageService

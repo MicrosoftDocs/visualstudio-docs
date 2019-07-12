@@ -53,5 +53,5 @@ You can save files with specific character encoding to support bi-directional la
 3. Follow Steps 2 and 3 from the preceding procedure.  
   
 ## See Also  
- [Encoding and Windows Forms Globalization](http://msdn.microsoft.com/library/22e8965d-a712-42b3-8167-3ee346bd70f9)   
+ [Encoding and Windows Forms Globalization](https://msdn.microsoft.com/library/22e8965d-a712-42b3-8167-3ee346bd70f9)   
  [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)

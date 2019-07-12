@@ -16,7 +16,7 @@ manager: jillfra
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
+> In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
  When Visual Studio is ready to display the value of a watch expression, it calls [EvaluateSync](../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) which in turn calls [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md). This produces an [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) object that contains the value and type of the expression.  
   

@@ -42,13 +42,13 @@ Select a name that is unique when it is compared to other identifiers in a case-
 
 ## When to suppress warnings
 
-Do not suppress a warning from this rule. The library might not be usable in all available languages in the .NET Framework.
+Do not suppress a warning from this rule. The library might not be usable in all available languages in .NET.
 
 ## Configurability
 
 If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
 
-```
+```ini
 dotnet_code_quality.ca1708.api_surface = private, internal
 ```
 

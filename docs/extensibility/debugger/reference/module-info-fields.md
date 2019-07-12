@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "MODULE_INFO_FIELDS enumeration"
 ms.assetid: 8bed85f4-235f-4192-b58f-5fad7a4d7a78
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # MODULE_INFO_FIELDS
 Specifies the flags for the debug module information.
@@ -55,44 +58,44 @@ public enum enum_MODULE_INFO_FIELDS { 
 };
 ```
 
-## Members
- MIF_NONE
+## Fields
+ `MIF_NONE`\
  Initialize/use none of the fields in the structure.
 
- MIF_NAME
+ `MIF_NAME`\
  Initialize/use the `m_bstrName` field in the [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md) structure.
 
- MIF_URL
+ `MIF_URL`\
  Initialize/use the `m_bstrUrl` field in the `MODULE_INFO` structure.
 
- MIF_VERSION
+ `MIF_VERSION`\
  Initialize/use the `m_bstrVersion` field in the `MODULE_INFO` structure.
 
- MIF_DEBUGMESSAGE
+ `MIF_DEBUGMESSAGE`\
  Initialize/use the `m_bstrDebugMessage` field in the `MODULE_INFO` structure.
 
- MIF_LOADADDRESS
+ `MIF_LOADADDRESS`\
  Initialize/use the `m_addrLoadAddress` field in the `MODULE_INFO` structure.
 
- MIF_PREFFEREDADDRESS
+ `MIF_PREFFEREDADDRESS`\
  Initialize/use the `m_addrPreferredLoadAddress` field in the `MODULE_INFO` structure.
 
- MIF_SIZE
+ `MIF_SIZE`\
  Initialize/use the `m_dwSize` field in the `MODULE_INFO` structure.
 
- MIF_LOADORDER
+ `MIF_LOADORDER`\
  Initialize/use the `m_dwLoadOrder` field in the `MODULE_INFO` structure.
 
- MIF_TIMESTAMP
+ `MIF_TIMESTAMP`\
  Initialize/use the `m_TimeStamp` field in the `MODULE_INFO` structure.
 
- MIF_URLSYMBOLLOCATION
+ `MIF_URLSYMBOLLOCATION`\
  Initialize/use the `m_bstrUrlSymbolLocation` field in the `MODULE_INFO` structure.
 
- MIF_FLAGS
+ `MIF_FLAGS`\
  Initialize/use the `m_dwModuleFlags` field in the `MODULE_INFO` structure.
 
- MIF_ALLFIELDS
+ `MIF_ALLFIELDS`\
  Initialize/use all of the fields in the `MODULE_INFO` structure.
 
 ## Remarks
@@ -109,7 +112,7 @@ public enum enum_MODULE_INFO_FIELDS { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md)
 - [GetInfo](../../../extensibility/debugger/reference/idebugmodule2-getinfo.md)

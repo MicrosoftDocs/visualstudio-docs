@@ -52,25 +52,25 @@ Use this window to view and change the design-time properties and events of sele
  Displays the events for an object.  
   
 > [!NOTE]
->  This **Properties** window toolbar control is only available when a form or control designer is active in the context of a [!INCLUDE[csprcs](../../includes/csprcs-md.md)] project. When editing XAML files, events appear on a separate tab of the properties window.  
+> This **Properties** window toolbar control is only available when a form or control designer is active in the context of a [!INCLUDE[csprcs](../../includes/csprcs-md.md)] project. When editing XAML files, events appear on a separate tab of the properties window.  
   
  Messages  
  Lists all Windows messages. Allows you to add or delete specified handler functions for the messages provided for the selected class.  
   
 > [!NOTE]
->  This **Properties** window toolbar control is only available when **Class View** is the active window in the context of a [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] project.  
+> This **Properties** window toolbar control is only available when **Class View** is the active window in the context of a [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] project.  
   
  Overrides  
  Lists all virtual functions for the selected class and allows you to add or delete overriding functions.  
   
 > [!NOTE]
->  This **Properties** window toolbar control is only available when **Class View** is the active window in the context of a [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] project.  
+> This **Properties** window toolbar control is only available when **Class View** is the active window in the context of a [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] project.  
   
  Description pane  
  Shows the property type and a short description of the property. You can turn the description of the property off and on using the Description command on the shortcut menu.  
   
 > [!NOTE]
->  This **Properties** window toolbar control is not available when editing XAML files in the designer.  
+> This **Properties** window toolbar control is not available when editing XAML files in the designer.  
   
  Thumbnail view  
  Shows a visual representation of the currently selected element when editing XAML files in the designer.  

@@ -25,7 +25,7 @@ The Visual Studio Profiler enables you to collect performance data that was gene
 - [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
 > [!NOTE]
->  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
+> Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
   
 ## Windows Counters  
  Windows counters are part of the Windows diagnostic infrastructure that provides information about the performance of the operating system or an application, a service, or a driver. Windows counters depend on the configuration of the current computer and might not be available on other computers. Windows performance counters are collected in profiling data files as profiling marks, which can then be used to filter views and reports.  

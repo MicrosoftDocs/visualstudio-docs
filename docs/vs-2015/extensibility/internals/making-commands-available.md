@@ -95,7 +95,7 @@ When multiple VSPackages are added to Visual Studio, the user interface (UI) may
 - Turn context `GUID`s on and off (by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.SetCmdUIContext%2A> method).  
   
     > [!CAUTION]
-    >  Make sure that your VSPackage does not affect the state of any existing context GUID because other VSPackages may depend on them.  
+    > Make sure that your VSPackage does not affect the state of any existing context GUID because other VSPackages may depend on them.  
   
 ## Example  
  The following example of a VSPackage command demonstrates the dynamic visibility of a command that is managed by command contexts without loading the VSPackage.  

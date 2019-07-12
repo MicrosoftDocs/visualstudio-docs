@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "commands, implementation"
 ms.assetid: c782175c-cce4-4bd0-8374-4a897ceb1b3d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -61,23 +61,23 @@ if ( null != mcs )
 
 - If your implementation of either method recognizes both the GUID and the command, then the method should set the command-flags field of every command (in the `prgCmds` parameter) by using the following <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> flags:
 
-    - `OLECMDF_SUPPORTED`: The command is supported.
+  - `OLECMDF_SUPPORTED`: The command is supported.
 
-    - `OLECMDF_INVISIBLE`: The command should not be visible.
+  - `OLECMDF_INVISIBLE`: The command should not be visible.
 
-    - `OLECMDF_LATCHED`: The command is toggled on and appears to have been checked.
+  - `OLECMDF_LATCHED`: The command is toggled on and appears to have been checked.
 
-    - `OLECMDF_ENABLED`: The command is enabled.
+  - `OLECMDF_ENABLED`: The command is enabled.
 
-    - `OLECMDF_DEFHIDEONCTXTMENU`: The command should be hidden if it appears on a shortcut menu.
+  - `OLECMDF_DEFHIDEONCTXTMENU`: The command should be hidden if it appears on a shortcut menu.
 
-    - `OLECMDF_NINCHED`: The command is a menu controller and is not enabled, but its drop-down menu list is not empty and is still available. (This flag is rarely used.)
+  - `OLECMDF_NINCHED`: The command is a menu controller and is not enabled, but its drop-down menu list is not empty and is still available. (This flag is rarely used.)
 
 - If the command was defined in the *.vsct* file with the `TextChanges` flag, set the following parameters:
 
-    - Set the `rgwz` element of the `pCmdText` parameter to the new text of the command.
+  - Set the `rgwz` element of the `pCmdText` parameter to the new text of the command.
 
-    - Set the `cwActual` element of the `pCmdText` parameter to the size of the command string.
+  - Set the `cwActual` element of the `pCmdText` parameter to the size of the command string.
 
 Also, make sure that the current context is not an automation function, unless your command is specifically intended to handle automation functions.
 

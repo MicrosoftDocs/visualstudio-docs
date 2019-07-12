@@ -23,9 +23,9 @@ ms.workload:
 
 - Creating a Visual Studio extension that extends **Server Explorer** in the following ways:
 
-    - The extension adds a **Web Part Gallery** node under each SharePoint site node in **Server Explorer**. This new node contains child nodes that represent each Web Part in the Web Part gallery on the site.
+  - The extension adds a **Web Part Gallery** node under each SharePoint site node in **Server Explorer**. This new node contains child nodes that represent each Web Part in the Web Part gallery on the site.
 
-    - The extension defines a new type of node that represents a Web Part instance. This new node type is the basis for the child nodes under the new **Web Part Gallery** node. The new Web Part node type displays information in the **Properties** window about the Web Part that it represents. The node type also includes a custom shortcut menu item that you can use as a starting point for performing other tasks that relate to the Web Part.
+  - The extension defines a new type of node that represents a Web Part instance. This new node type is the basis for the child nodes under the new **Web Part Gallery** node. The new Web Part node type displays information in the **Properties** window about the Web Part that it represents. The node type also includes a custom shortcut menu item that you can use as a starting point for performing other tasks that relate to the Web Part.
 
 - Create two custom SharePoint commands that the extension assembly calls. SharePoint commands are methods that can be called by extension assemblies to use APIs in the server object model for SharePoint. In this walkthrough, you create commands that retrieve Web Part information from the local SharePoint site on the development computer. For more information, see [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md).
 
@@ -34,7 +34,7 @@ ms.workload:
 - Debugging and testing the extension.
 
 > [!NOTE]
->  For an alternate version of this walkthrough that uses the client object model for SharePoint instead of its server object model, see [Walkthrough: Call into the SharePoint client object model in a Server Explorer extension](../sharepoint/walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension.md).
+> For an alternate version of this walkthrough that uses the client object model for SharePoint instead of its server object model, see [Walkthrough: Call into the SharePoint client object model in a Server Explorer extension](../sharepoint/walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension.md).
 
 ## Prerequisites
  You need the following components on the development computer to complete this walkthrough:
@@ -69,7 +69,7 @@ ms.workload:
 3. In the  **New Project** dialog box, expand the **Visual C#** or **Visual Basic** nodes, and then choose the **Extensibility** node.
 
     > [!NOTE]
-    >  The **Extensibility** node is available only if you install the Visual Studio SDK. For more information, see the prerequisites section earlier in this topic.
+    > The **Extensibility** node is available only if you install the Visual Studio SDK. For more information, see the prerequisites section earlier in this topic.
 
 4. At the top of the dialog box, choose **.NET Framework 4.5** in the list of versions of the .NET Framework.
 
@@ -205,7 +205,7 @@ ms.workload:
 1. In the WebPartNodeExtension project, open the SiteNodeExtension code file, and then paste the following code into it.
 
     > [!NOTE]
-    >  After you add this code, the project will have some compile errors, but they'll go away when you add code in later steps.
+    > After you add this code, the project will have some compile errors, but they'll go away when you add code in later steps.
 
      [!code-csharp[SPExtensibility.SPExplorer.WebPartNodeWithCommands#1](../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/sitenodeextension.cs#1)]
      [!code-vb[SPExtensibility.SPExplorer.WebPartNodeWithCommands#1](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/sitenodeextension.vb#1)]
@@ -260,7 +260,7 @@ ms.workload:
 1. On the menu bar, choose **Build** > **Build Solution**.
 
     > [!WARNING]
-    >  At this point, the WebPartNode project may have a build error because the VSIX manifest file doesn't have a value for Author. This error will go away when you add a value in later steps.
+    > At this point, the WebPartNode project may have a build error because the VSIX manifest file doesn't have a value for Author. This error will go away when you add a value in later steps.
 
 ## Create a VSIX package to deploy the extension
  To deploy the extension, use the VSIX project in your solution to create a VSIX package. First, configure the VSIX package by modifying the source.extension.vsixmanifest file in the VSIX project. Then, create the VSIX package by building the solution.
@@ -284,7 +284,7 @@ ms.workload:
 6. In the **Type** list, choose **Microsoft.VisualStudio.MefComponent**.
 
     > [!NOTE]
-    >  This value corresponds to the `MefComponent` element in the extension.vsixmanifest file. This element specifies the name of an extension assembly in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\)).
+    > This value corresponds to the `MefComponent` element in the extension.vsixmanifest file. This element specifies the name of an extension assembly in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\)).
 
 7. In the  **Source** list, choose **A project in current solution**.
 
@@ -297,7 +297,7 @@ ms.workload:
 10. In the **Type** box, enter **SharePoint.Commands.v4**.
 
     > [!NOTE]
-    >  This element specifies a custom extension that you want to include in the Visual Studio extension. For more information, see [Asset Element (VSX Schema)](https://msdn.microsoft.com/9fcfc098-edc7-484b-9d4c-acd17829d737).
+    > This element specifies a custom extension that you want to include in the Visual Studio extension. For more information, see [Asset Element (VSX Schema)](https://msdn.microsoft.com/9fcfc098-edc7-484b-9d4c-acd17829d737).
 
 11. In the **Source** list, choose the **A project in current solution** list item.
 

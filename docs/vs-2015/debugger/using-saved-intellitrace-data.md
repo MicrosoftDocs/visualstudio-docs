@@ -33,8 +33,8 @@ Go to specific points in your application's execution when you start debugging f
     |**Source**|**See**|  
     |----------------|-------------|  
     |An IntelliTrace session in Visual Studio Enterprise (but not Professional or Community editions)|[IntelliTrace Features](../debugger/intellitrace-features.md)|  
-    |A test session in Microsoft Test Manager. This attaches an .iTrace file to a Team Foundation Server work item.|[Collect more diagnostic data in manual tests](http://msdn.microsoft.com/library/bb5a2cc0-84f5-4dfe-9560-ca3d313aefd2)|  
-    |Microsoft Monitoring Agent, either alone or with System Center 2012 R2 Operations Manager, for ASP.NET web apps and SharePoint applications running in deployment|-   [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md)<br />-   [What's New for System Center 2012 R2 Operations Manager](http://technet.microsoft.com/library/dn249700.aspx)|  
+    |A test session in Microsoft Test Manager. This attaches an .iTrace file to a Team Foundation Server work item.|[Collect more diagnostic data in manual tests](https://msdn.microsoft.com/library/bb5a2cc0-84f5-4dfe-9560-ca3d313aefd2)|  
+    |Microsoft Monitoring Agent, either alone or with System Center 2012 R2 Operations Manager, for ASP.NET web apps and SharePoint applications running in deployment|-   [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md)<br />-   [What's New for System Center 2012 R2 Operations Manager](https://technet.microsoft.com/library/dn249700.aspx)|  
   
 ## <a name="GetStarted"></a> What do you want to do?  
   
@@ -53,14 +53,14 @@ Go to specific points in your application's execution when you start debugging f
   
 - If the .iTrace file is attached to a Team Foundation Server work item, follow these steps in the work item:  
   
-    - Under **All Links**, find the .iTrace file. Open it.  
-  
-         \- or -  
-  
-    - Under **Repro Steps**, choose the **IntelliTrace** link.  
+  - Under **All Links**, find the .iTrace file. Open it.  
+
+        \- or -  
+
+  - Under **Repro Steps**, choose the **IntelliTrace** link.  
   
 > [!TIP]
->  If you closed the IntelliTrace file during debugging, you can reopen it easily. Go to the **Debug** menu, choose **IntelliTrace**, **Show Log Summary**. You can also choose **Show Log Summary** in the **IntelliTrace** window. This is available only while debugging with IntelliTrace.  
+> If you closed the IntelliTrace file during debugging, you can reopen it easily. Go to the **Debug** menu, choose **IntelliTrace**, **Show Log Summary**. You can also choose **Show Log Summary** in the **IntelliTrace** window. This is available only while debugging with IntelliTrace.  
   
 ## <a name="Understand"></a> Understand the IntelliTrace log  
  Some of the following sections in the .iTrace file appear only if you collected data from a particular source, for example, from Test Manager or from SharePoint applications.  
@@ -201,7 +201,7 @@ Go to specific points in your application's execution when you start debugging f
   
     ![IntelliTrace log &#45; SharePoint unhandled exceptions](../debugger/media/sharepointunhandledexceptions-intellitrace.png "SharePointUnhandledExceptions_IntelliTrace")  
   
-   For a walkthrough, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](http://msdn.microsoft.com/library/4bd80d2f-f680-4bf4-81c3-f14e8185f6a4). For the kinds of data that the agent records, see [IntelliTrace Features](../debugger/intellitrace-features.md).  
+   For a walkthrough, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](https://msdn.microsoft.com/library/4bd80d2f-f680-4bf4-81c3-f14e8185f6a4). For the kinds of data that the agent records, see [IntelliTrace Features](../debugger/intellitrace-features.md).  
   
 ### <a name="ThreadsList"></a> Threads List  
  Examine the recorded threads that ran in the target process. You can start debugging from the first valid IntelliTrace event in a selected thread.  
@@ -252,14 +252,14 @@ Go to specific points in your application's execution when you start debugging f
 |----------------|-------------------|  
 |**Module Name**|Module file name|  
 |**Module Path**|Disk location where the module was loaded|  
-|**Module ID**|Unique identifier of the module that is version-specific and contributes to the matching symbol (PDB) files. See [Finding symbol (.pdb) files and source files](http://msdn.microsoft.com/05384c85-d264-4e18-abaa-aa482ab25470).|  
+|**Module ID**|Unique identifier of the module that is version-specific and contributes to the matching symbol (PDB) files. See [Finding symbol (.pdb) files and source files](https://msdn.microsoft.com/05384c85-d264-4e18-abaa-aa482ab25470).|  
   
 ### Where can I get more information?  
  [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)  
   
  [IntelliTrace Features](../debugger/intellitrace-features.md)  
   
- [Collect more diagnostic data in manual tests](http://msdn.microsoft.com/library/bb5a2cc0-84f5-4dfe-9560-ca3d313aefd2)  
+ [Collect more diagnostic data in manual tests](https://msdn.microsoft.com/library/bb5a2cc0-84f5-4dfe-9560-ca3d313aefd2)  
   
  [IntelliTrace](../debugger/intellitrace.md)  
   

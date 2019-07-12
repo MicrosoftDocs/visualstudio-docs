@@ -92,7 +92,7 @@ Generalized view of the Visual Studio architecture
  Templates contain the project structure and basic files that are required to build a particular kind of application, control, library, or class. When you want to develop software that resembles one of the templates, create a project that is based on the template and then modify the files in that project.  
   
 > [!NOTE]
->  This template architecture is not supported for [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] projects. For information about how to create [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] project templates, see [Designing a Wizard](http://msdn.microsoft.com/library/a7c0be7e-9297-4fed-83e3-5645c896d56b).  
+> This template architecture is not supported for [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] projects. For information about how to create [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] project templates, see [Designing a Wizard](https://msdn.microsoft.com/library/a7c0be7e-9297-4fed-83e3-5645c896d56b).  
   
  For more information, see [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md).  
   

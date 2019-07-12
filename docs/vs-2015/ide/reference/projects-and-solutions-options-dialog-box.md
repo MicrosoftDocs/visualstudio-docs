@@ -19,7 +19,7 @@ manager: jillfra
 Sets the default path of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] project folders, and determines the default behavior of the **Output** window, **Task List**, and **Solution Explorer** as projects are developed and built. To access this dialog box, click **Tools / Options** expand **Projects and Solutions**, and click **General**.  
   
 > [!NOTE]
->  The options available in dialog boxes, and the names and locations of menu commands you see, might differ from what is described in Help depending on your active settings or edition. This Help page was written with the **General Development settings** in mind. To view or change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The options available in dialog boxes, and the names and locations of menu commands you see, might differ from what is described in Help depending on your active settings or edition. This Help page was written with the **General Development settings** in mind. To view or change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Settings  
  **Projects location**  
@@ -52,7 +52,7 @@ Sets the default path of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] project
  If you attempt to create a new project or open an existing project in a location that is not fully trusted (for example, on a UNC path or an HTTP path), a message is displayed. Use this option to specify whether the message is displayed each time that you attempt to create or open a project in a location that is not fully trusted.  
   
  **Show Output window when build starts**  
- Automatically displays the Output Window in the IDE at the outset of solution builds. For more information, see [How to: Control the Output Window](http://msdn.microsoft.com/library/91aebd15-8854-4a7a-9f7d-57376fb4e858). This option is enabled by default.  
+ Automatically displays the Output Window in the IDE at the outset of solution builds. For more information, see [How to: Control the Output Window](https://msdn.microsoft.com/library/91aebd15-8854-4a7a-9f7d-57376fb4e858). This option is enabled by default.  
   
  **Prompt for symbolic renaming when renaming files**  
  When selected, displays a message box asking whether or not [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] should also rename all references in the project to the code element.  

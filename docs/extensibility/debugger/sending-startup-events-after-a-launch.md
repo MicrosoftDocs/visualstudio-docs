@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugging [Debugging SDK], startup events"
 ms.assetid: 306ea0b4-6d9e-4871-8d8d-a4032d422940
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -25,7 +25,7 @@ Once the debug engine (DE) is attached to the program, it sends a series of star
 - A load complete event, sent when the code is loaded and ready to run, but before any code is executed.
 
   > [!NOTE]
-  >  When this event is continued, global variables are initialized and startup routines run.
+  > When this event is continued, global variables are initialized and startup routines run.
 
 - Possible other thread creation and module load events.
 

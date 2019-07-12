@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a SharePoint Solution Package by Using MSBuild Tasks | Microsoft Docs"
+title: "Create SharePoint solution package using MSBuild tasks"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "glyphs, source control packages"
   - "source control packages, glyphs"
 ms.assetid: b9413b08-b3c3-4fc3-a6e0-3dc0db3652d7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

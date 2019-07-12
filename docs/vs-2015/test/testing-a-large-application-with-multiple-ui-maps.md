@@ -53,7 +53,7 @@ This topic discusses how to use coded UI tests when you are testing a large appl
     The **Add New Item** dialog box is displayed.  
   
    > [!NOTE]
-   >  You must be in a coded UI test project to add a new coded UI test map.  
+   > You must be in a coded UI test project to add a new coded UI test map.  
   
 3. Select **Coded UI Test Map** from the list.  
   

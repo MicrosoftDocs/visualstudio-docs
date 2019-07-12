@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugging [Debugging SDK], control of execution"
 ms.assetid: 6be80904-e66c-4cae-8891-1113b799fb01
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -27,7 +27,7 @@ In Visual Studio debugging, all of the following stepping and continuing routine
 - Resuming the threads contained by the program
 
 > [!NOTE]
->  Viewing the call stack is implemented on the thread level. To enumerate the frame information when viewing the call stack for a thread, you must implement all the methods of the [IEnumDebugFrameInfo2](../../extensibility/debugger/reference/ienumdebugframeinfo2.md) interface.
+> Viewing the call stack is implemented on the thread level. To enumerate the frame information when viewing the call stack for a thread, you must implement all the methods of the [IEnumDebugFrameInfo2](../../extensibility/debugger/reference/ienumdebugframeinfo2.md) interface.
 
 ## Methods of program control
  The following table shows the methods of [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md) that must be implemented for a minimally functional debug engine (DE) and execution control.

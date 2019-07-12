@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "publishing web controls"
   - "web controls, publishing"
 ms.assetid: a7816161-0490-4043-86f5-0f7331ed83b3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

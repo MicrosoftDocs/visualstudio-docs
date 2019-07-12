@@ -51,7 +51,7 @@ You can migrate projects that define and use domain-specific language to [!INCLU
    - Select a project or solution to see a list of changes that the tool will make.  
   
        > [!NOTE]
-       >  The checkboxes that appear next to folder names have no effect. You must expand the folders to inspect the projects and solutions.  
+       > The checkboxes that appear next to folder names have no effect. You must expand the folders to inspect the projects and solutions.  
   
 4. Convert the projects.  
   
@@ -72,7 +72,7 @@ You can migrate projects that define and use domain-specific language to [!INCLU
    2. Click the **Transform All Templates** button in the header of Solution Explorer.  
   
        > [!NOTE]
-       >  You can make this step unnecessary. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
+       > You can make this step unnecessary. For more information, see [How to Automate Transform All Templates](https://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
   
 6. Update your custom code in the converted projects.  
   

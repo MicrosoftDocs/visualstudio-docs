@@ -10,36 +10,41 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Customizing the Properties Window
+# Customize the Properties window
+
 You can customize the appearance and behavior of the properties window in your domain-specific language (DSL) in Visual Studio. In your DSL Definition, you define domain properties on each domain class. By default, when you select an instance of the class, either on a diagram or in Model Explorer, every domain property is listed in the properties window. This lets you see and edit the values of domain properties, even if you have not mapped them to shape fields on the diagram.
 
-## Names, Descriptions, and Categories
- **Name and Display Name**. In your definition of a domain property, the Display Name of the property is the name that appears at runtime in the properties window. By contrast, the Name is used when you write program code to update the property. The Name must be a correct CLR alphanumeric name, but the Display Name can contain spaces.
+## Names, descriptions, and categories
 
- When you set the Name of a property in the DSL Definition, its Display Name is automatically set to a copy of the Name. If you write a Pascal cased name such as "FuelGauge", the Display Name will automatically contain a space: "Fuel Gauge". However, you can set the Display Name explicitly to another value.
+**Name and Display Name**. In your definition of a domain property, the Display Name of the property is the name that appears at runtime in the properties window. By contrast, the Name is used when you write program code to update the property. The Name must be a correct CLR alphanumeric name, but the Display Name can contain spaces.
 
- **Description**. The Description of a domain property appears in two places:
+When you set the Name of a property in the DSL Definition, its Display Name is automatically set to a copy of the Name. If you write a Pascal cased name such as "FuelGauge", the Display Name will automatically contain a space: "Fuel Gauge". However, you can set the Display Name explicitly to another value.
+
+**Description**. The Description of a domain property appears in two places:
 
 - In the bottom of the properties window when the user selects the property. You can use it to explain to the user what the property represents.
 
 - In the generated program code. If you use the documentation facilities to extract API documentation, it will appear as the description of this property in the API.
 
-  **Category**. A category is a heading in the Properties window.
+**Category**. A category is a heading in the Properties window.
 
-## Exposing Style Features
- Some of the dynamic features of graphical elements can be represented or *exposed* as domain properties. A feature that has been exposed in this manner can be updated by the user and can more easily be updated by program code.
+## Expose style features
 
- Right-click a shape class in DSL Definition, point to **Add Exposed**, and then choose a feature.
+Some of the dynamic features of graphical elements can be represented or *exposed* as domain properties. A feature that has been exposed in this manner can be updated by the user and can more easily be updated by program code.
 
- On shapes you can expose the **FillColor**, **OutlineColor**, **TextColor**, **OutlineDashStyle**, **OutlineThickness** and **FillGradientMode** properties. On connectors you can expose the **Color**`,`**TextColor**, **DashStyle**, and **Thickness** properties. On diagrams you can expose the **FillColor** and **TextColor** properties.
+Right-click a shape class in DSL Definition, point to **Add Exposed**, and then choose a feature.
 
-## Forwarding: Displaying Properties of Related Elements
- When the user of your DSL selects an element in a model, that element's properties are displayed in the properties window. However, you can also display the properties of specified related elements. This is useful if you have defined a group of elements that works together. For example, you might define a main element and an optional plug-in element. If the main element is mapped to a shape and the other is not, it is useful to see all their properties as if they were on one element.
+On shapes you can expose the **FillColor**, **OutlineColor**, **TextColor**, **OutlineDashStyle**, **OutlineThickness** and **FillGradientMode** properties. On connectors you can expose the **Color**`,`**TextColor**, **DashStyle**, and **Thickness** properties. On diagrams you can expose the **FillColor** and **TextColor** properties.
 
- This effect is named *property forwarding*, and it happens automatically in several cases. In other cases, you can achieve property forwarding by defining a domain type descriptor.
+## Forwarding: Display properties of related elements
 
-### Default Property Forwarding Cases
- When the user selects a shape or connector, or an element in the Explorer, the following properties are displayed in the Properties window:
+When the user of your DSL selects an element in a model, that element's properties are displayed in the properties window. However, you can also display the properties of specified related elements. This is useful if you have defined a group of elements that works together. For example, you might define a main element and an optional plug-in element. If the main element is mapped to a shape and the other is not, it is useful to see all their properties as if they were on one element.
+
+This effect is named *property forwarding*, and it happens automatically in several cases. In other cases, you can achieve property forwarding by defining a domain type descriptor.
+
+### Default property forwarding cases
+
+When the user selects a shape or connector, or an element in the Explorer, the following properties are displayed in the Properties window:
 
 - The domain properties that are defined on the domain class of the model element, including those that are defined in base classes. An exception is domain properties for which you have set **Is Browsable** to `False`.
 
@@ -49,15 +54,16 @@ You can customize the appearance and behavior of the properties window in your d
 
 - Domain properties that are defined on the selected shape or connector.
 
-### Adding Property Forwarding
- To forward a property, you define a domain type descriptor. If you have a domain relationship between two domain classes, you can use a domain type descriptor to set a domain property in the first class to the value of a domain property in the second domain class. For example, if you have a relationship between a **Book** domain class and an **Author** domain class, you can use a domain type descriptor to make the **Name** property of a Book's **Author** appear in the Properties window when the user selects the Book.
+### Add property forwarding
+
+To forward a property, you define a domain type descriptor. If you have a domain relationship between two domain classes, you can use a domain type descriptor to set a domain property in the first class to the value of a domain property in the second domain class. For example, if you have a relationship between a **Book** domain class and an **Author** domain class, you can use a domain type descriptor to make the **Name** property of a Book's **Author** appear in the Properties window when the user selects the Book.
 
 > [!NOTE]
->  Property forwarding affects only the Properties window when the user is editing a model. It does not define a domain property on the receiving class. If you want to access the forwarded domain property in other parts of the DSL Definition or in program code, you must access the forwarding element.
+> Property forwarding affects only the Properties window when the user is editing a model. It does not define a domain property on the receiving class. If you want to access the forwarded domain property in other parts of the DSL Definition or in program code, you must access the forwarding element.
 
- The following procedure assumes that you have created a DSL. The first few steps summarize the prerequisites.
+The following procedure assumes that you have created a DSL. The first few steps summarize the prerequisites.
 
-##### To forward a property from another element
+#### Forward a property from another element
 
 1. Create a [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] solution that contains at least two classes, which in this example are called **Book** and **Author**. There should be a relationship of either kind between **Book** and **Author**.
 
@@ -83,10 +89,11 @@ You can customize the appearance and behavior of the properties window in your d
 
 8. In a model diagram, create a book, an author, and link them using the reference relationship. Select the book element, and in the Properties window you should see Author Name in addition to the properties of the book. Change the name of the linked author, or link the book to a different author, and observe that the Author Name of the book changes.
 
-## Custom Property Editors
- The property window provides an appropriate default editing experience for the type of each domain property. For example, for an enumerated type, the user sees a drop-down list, and for a numeric property, the user can enter digits. This is only true for the built-in types. If you specify an external type, the user will be able to see the property's values, but not edit it.
+## Custom property editors
 
- However, you can specify the following editors and types:
+The property window provides an appropriate default editing experience for the type of each domain property. For example, for an enumerated type, the user sees a drop-down list, and for a numeric property, the user can enter digits. This is only true for the built-in types. If you specify an external type, the user will be able to see the property's values, but not edit it.
+
+However, you can specify the following editors and types:
 
 1. Another editor that is used with a standard type. For example, you could specify a file path editor for a string property.
 
@@ -94,11 +101,11 @@ You can customize the appearance and behavior of the properties window in your d
 
 3. A .NET editor such as the file path editor, or you can create your own custom property editor.
 
-    A conversion between an external type and an type such as String, which has a default editor.
+   A conversion between an external type and an type such as String, which has a default editor.
 
    In a DSL, an *external type* is any type that is not one of the simple types (such as Boolean or Int32) or String.
 
-#### To define a domain property that has an external type
+### Define a domain property that has an external type
 
 1. In **Solution Explorer**, add a reference to the assembly (DLL) that contains the external type, in the **Dsl** project.
 
@@ -111,7 +118,7 @@ You can customize the appearance and behavior of the properties window in your d
         A new entry appears under the **Domain Types** node.
 
        > [!WARNING]
-       >  The menu item is on the DSL root node, not the **Domain Types** node.
+       > The menu item is on the DSL root node, not the **Domain Types** node.
 
    2. Set the name and the namespace of the new type in the Properties window.
 
@@ -121,8 +128,9 @@ You can customize the appearance and behavior of the properties window in your d
 
    At this stage, users can view the values of the property, but they cannot edit it. The displayed values are obtained from the `ToString()` function. You could write program code that sets the value of the property, for example in a command or rule.
 
-### Setting a Property Editor
- Add a CLR attribute to the domain property, in the following form:
+### Set a property editor
+
+Add a CLR attribute to the domain property, in the following form:
 
 ```csharp
 [System.ComponentModel.Editor (
@@ -130,13 +138,13 @@ You can customize the appearance and behavior of the properties window in your d
    typeof(System.Drawing.Design.UITypeEditor))]
 ```
 
- You can set the attribute on a property by using the **Custom Attribute** entry in the Properties window.
+You can set the attribute on a property by using the **Custom Attribute** entry in the Properties window.
 
- The type of `AnEditor` must be derived from the type specified in the second parameter. The second parameter should be either <xref:System.Drawing.Design.UITypeEditor> or <xref:System.ComponentModel.ComponentEditor>. For more information, see <xref:System.ComponentModel.EditorAttribute>.
+The type of `AnEditor` must be derived from the type specified in the second parameter. The second parameter should be either <xref:System.Drawing.Design.UITypeEditor> or <xref:System.ComponentModel.ComponentEditor>. For more information, see <xref:System.ComponentModel.EditorAttribute>.
 
- You can specify either your own editor, or an editor supplied in the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], such as <xref:System.Windows.Forms.Design.FileNameEditor> or <xref:System.Drawing.Design.ImageEditor>. For example, use the following procedure to have a property in which the user can enter a file name.
+You can specify your own editor or a .NET editor, such as <xref:System.Windows.Forms.Design.FileNameEditor> or <xref:System.Drawing.Design.ImageEditor>. For example, use the following procedure to have a property in which the user can enter a file name.
 
-##### To define a file name domain property
+#### Define a file name domain property
 
 1. Add a domain property to a domain class in your DSL Definition.
 
@@ -159,21 +167,22 @@ You can customize the appearance and behavior of the properties window in your d
 
     3. Click the ellipsis. A file dialog box appears. Select a file and close the dialog box. The file path is now the value of the domain property.
 
-### Defining your own property editor
- You can define your own editor. You would do this to  allow the user either to edit a type that you have defined, or to edit a standard type in a special way. For example, you could allow the user to input a string that represents a formula.
+### Define your own property editor
 
- You define an editor by writing a class that is derived from <xref:System.Drawing.Design.UITypeEditor>. Your class must override:
+You can define your own editor. You would do this to  allow the user either to edit a type that you have defined, or to edit a standard type in a special way. For example, you could allow the user to input a string that represents a formula.
+
+You define an editor by writing a class that is derived from <xref:System.Drawing.Design.UITypeEditor>. Your class must override:
 
 - <xref:System.Drawing.Design.UITypeEditor.EditValue%2A>, to interact with the user and update the property value.
 
 - <xref:System.Drawing.Design.UITypeEditor.GetEditStyle%2A>, to specify whether your editor will open a dialog or provide a drop-down menu.
 
-  You can also provide a graphical representation of the property's value that will be displayed in the property grid. To do this, override `GetPaintValueSupported`, and `PaintValue`.  For more information, see <xref:System.Drawing.Design.UITypeEditor>.
+You can also provide a graphical representation of the property's value that will be displayed in the property grid. To do this, override `GetPaintValueSupported`, and `PaintValue`.  For more information, see <xref:System.Drawing.Design.UITypeEditor>.
 
 > [!NOTE]
->  Add the code in a separate code file in the **Dsl** project.
+> Add the code in a separate code file in the **Dsl** project.
 
- For example:
+For example:
 
 ```csharp
 internal class TextFileNameEditor : System.Windows.Forms.Design.FileNameEditor
@@ -187,7 +196,7 @@ internal class TextFileNameEditor : System.Windows.Forms.Design.FileNameEditor
 }
 ```
 
- To use this editor, set the **Custom Attribute** of a domain property to:
+To use this editor, set the **Custom Attribute** of a domain property to:
 
 ```csharp
 [System.ComponentModel.Editor (
@@ -195,22 +204,23 @@ internal class TextFileNameEditor : System.Windows.Forms.Design.FileNameEditor
    , typeof(System.Drawing.Design.UITypeEditor))]
 ```
 
- For more information, see <xref:System.Drawing.Design.UITypeEditor>.
+For more information, see <xref:System.Drawing.Design.UITypeEditor>.
 
-## Providing a drop-down list of values
- You can provide a list of values for a user to choose from.
+## Provide a drop-down list of values
+
+You can provide a list of values for a user to choose from.
 
 > [!NOTE]
->  This technique provides a list of values that can change at runtime. If you want to provide a list that does not change, consider instead using an enumerated type as the type of your domain property.
+> This technique provides a list of values that can change at runtime. If you want to provide a list that does not change, consider instead using an enumerated type as the type of your domain property.
 
- To define a list of standard values, you add to your domain property a CLR attribute that has the following form:
+To define a list of standard values, you add to your domain property a CLR attribute that has the following form:
 
 ```csharp
 [System.ComponentModel.TypeConverter
 (typeof(MyTypeConverter))]
 ```
 
- Define a class that derives from <xref:System.ComponentModel.TypeConverter>. Add the code in a separate file in the **Dsl** project. For example:
+Define a class that derives from <xref:System.ComponentModel.TypeConverter>. Add the code in a separate file in the **Dsl** project. For example:
 
 ```csharp
 /// <summary>
@@ -303,6 +313,6 @@ public class MyTypeConverter : System.ComponentModel.TypeConverter
 }
 ```
 
-## See Also
+## See also
 
 - [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)

@@ -26,7 +26,7 @@ Some of the UML models that you can draw in Visual Studio might be considered in
 - **Validation command.** To invoke validation at any time, click **Validate UML Model** on the **Architecture** menu.  
   
   > [!NOTE]
-  >  The command will appear only if validation constraints are installed.  
+  > The command will appear only if validation constraints are installed.  
   
 - **On saving a model.** Validation constraints may be applied when you save the model. The purpose of these constraints is to help make sure that you do not save a model that is invalid according to your project's interpretation.  
   

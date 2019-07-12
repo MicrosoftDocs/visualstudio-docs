@@ -22,7 +22,7 @@ To help ensure that your software system or application meets your users' needs,
  The purpose of a model is to reduce the ambiguities that occur in natural-language descriptions, and to help you and your colleagues to visualize the design and to discuss alternative designs. A model should be used together with other documents or discussions. By itself, a model does not represent a complete specification of the architecture.  
   
 > [!NOTE]
->  Throughout this topic, "system" means the software that you are developing. It might be a large collection of many software and hardware components, or a single application, or a part of an application.  
+> Throughout this topic, "system" means the software that you are developing. It might be a large collection of many software and hardware components, or a single application, or a part of an application.  
   
  The architecture of a system can be divided into two areas:  
   
@@ -238,9 +238,9 @@ To help ensure that your software system or application meets your users' needs,
   
 - Model of the major parts and their relationships. These might be classes or components and interfaces, with associations and dependencies between them. The elements usually fall into two categories:  
   
-    - Elements that the developer must replicate in every part of the code where the pattern is used. You can use template types to describe these. For more information, see [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md).  
-  
-    - Elements describing framework classes that the developer should use.  
+  - Elements that the developer must replicate in every part of the code where the pattern is used. You can use template types to describe these. For more information, see [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md).  
+
+  - Elements describing framework classes that the developer should use.  
   
 - Model of the interactions between the parts, using sequence or activity diagrams.  
   

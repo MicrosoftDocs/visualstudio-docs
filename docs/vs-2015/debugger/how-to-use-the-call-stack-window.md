@@ -52,7 +52,7 @@ By using the **Call Stack** window, you can view the function or procedure calls
  By using the shortcut menu, you can choose whether to see calls between threads.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ### To display the Call Stack window in break mode or in run mode  
   
@@ -133,7 +133,7 @@ By using the **Call Stack** window, you can view the function or procedure calls
   
 ## See Also  
  [Mixed Code and Missing Information in the Call Stack Window](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md)   
- [How to: Change the Numeric Format of Debugger Windows](http://msdn.microsoft.com/library/cd593847-a625-411d-a430-b798346ef18f)   
+ [How to: Change the Numeric Format of Debugger Windows](https://msdn.microsoft.com/library/cd593847-a625-411d-a430-b798346ef18f)   
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
  [Using Breakpoints](../debugger/using-breakpoints.md)

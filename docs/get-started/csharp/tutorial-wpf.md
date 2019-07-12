@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Hello World app with Windows Presentation Foundation (WPF) in C#"
+title: "Hello World app with WPF in C#"
 description: Create a simple Windows Desktop .NET app in C# with Visual Studio using the Windows Presentation Foundation (WPF) UI framework.
 ms.custom: "seodec18, get-started"
 ms.date: 03/28/2019
@@ -307,4 +307,4 @@ Congratulations on completing this tutorial! You can find the *.exe* you built u
 
 ## See also
 
-- [Productivity tips](../../ide/productivity-tips-for-visual-studio.md)
+- [Productivity tips](../../ide/productivity-features.md)

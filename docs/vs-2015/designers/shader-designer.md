@@ -78,7 +78,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
 |**Advanced**|Contains advanced commands and options.<br /><br /> **Export**: Enables the export of a shader in several formats.<br /><br /> **Export As**: Exports the shader as either HLSL source code or as compiled shader bytecode. For more information about how to export shaders, see [How to: Export a Shader](../designers/how-to-export-a-shader.md).<br /><br /> **Graphics Engines**: Enables the selection of the renderer that is used to display the design surface.<br /><br /> **Render with D3D11**: Uses Direct3D 11 to render the Shader Designer design surface.<br /><br /> **Render with D3D11WARP**: Uses Direct3D 11 Windows Advanced Rasterization Platform (WARP) to render the Shader Designer design surface.<br /><br /> **View**: Enables the selection of additional information about the Shader Designer.<br /><br /> **Frame Rate**: When enabled, displays the current frame rate in the upper-right corner of the design surface. The frame rate is the number of frames that are drawn per second.  This option is useful when you enable the **Real-Time Rendering Mode** option.|  
   
 > [!TIP]
->  You can choose the **Advanced** button to run the last command again.  
+> You can choose the **Advanced** button to run the last command again.  
   
 ### Working with nodes and connections  
  Use **Select** mode to add, remove, reposition, connect, and configure nodes. Here's how to perform these basic operations:  
@@ -87,17 +87,17 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 - Here's how:  
   
-    - To add a node to the graph, select it in the **Toolbox** and then move it to the design surface.  
-  
-    - To remove a node from the graph, select it and then press Delete.  
-  
-    - To reposition a node, select it and then move it to a new location.  
-  
-    - To connect two nodes, move an output terminal of one node to an input terminal of the other node. Only terminals that have compatible types can be connected. A line between the terminals shows the connection.  
-  
-    - To remove a connection, on the shortcut menu for either one of the connected terminals, choose **Break Links**.  
-  
-    - To configure the properties of a node, select the node, and then, in the **Properties** window, specify new values for the properties.  
+  - To add a node to the graph, select it in the **Toolbox** and then move it to the design surface.  
+
+  - To remove a node from the graph, select it and then press Delete.  
+
+  - To reposition a node, select it and then move it to a new location.  
+
+  - To connect two nodes, move an output terminal of one node to an input terminal of the other node. Only terminals that have compatible types can be connected. A line between the terminals shows the connection.  
+
+  - To remove a connection, on the shortcut menu for either one of the connected terminals, choose **Break Links**.  
+
+  - To configure the properties of a node, select the node, and then, in the **Properties** window, specify new values for the properties.  
   
 ### Previewing shaders  
  To help you understand how a shader will appear in your app, you can configure how your effect is previewed. To approximate your app, you can choose one of several shapes to render, configure textures and other material parameters, enable animation of time-based effects, and examine the preview from different angles.  

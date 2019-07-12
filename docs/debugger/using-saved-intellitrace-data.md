@@ -31,7 +31,6 @@ Go to specific points in your application's execution when you start debugging f
     |**Source**|**See**|
     |----------------|-------------|
     |An IntelliTrace session in Visual Studio Enterprise (but not Professional or Community editions)|[IntelliTrace Features](../debugger/intellitrace-features.md)|
-    |A test session in Microsoft Test Manager. This attaches an .iTrace file to a Team Foundation Server work item.|[Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)|
     |Microsoft Monitoring Agent, either alone or with System Center 2012 R2 Operations Manager, for ASP.NET web apps and SharePoint applications running in deployment|-   [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md)<br />-   [What's New for System Center 2012 R2 Operations Manager](/previous-versions/system-center/system-center-2012-R2/dn249700(v=sc.12))|
 
 ## <a name="GetStarted"></a> What do you want to do?
@@ -51,17 +50,17 @@ Go to specific points in your application's execution when you start debugging f
 
 - If the .iTrace file is attached to a Team Foundation Server work item, follow these steps in the work item:
 
-    - Under **All Links**, find the .iTrace file. Open it.
+  - Under **All Links**, find the .iTrace file. Open it.
 
-         \- or -
+    \- or -
 
-    - Under **Repro Steps**, choose the **IntelliTrace** link.
+  - Under **Repro Steps**, choose the **IntelliTrace** link.
 
 > [!TIP]
->  If you closed the IntelliTrace file during debugging, you can reopen it easily. Go to the **Debug** menu, choose **IntelliTrace**, **Show Log Summary**. You can also choose **Show Log Summary** in the **IntelliTrace** window. This is available only while debugging with IntelliTrace.
+> If you closed the IntelliTrace file during debugging, you can reopen it easily. Go to the **Debug** menu, choose **IntelliTrace**, **Show Log Summary**. You can also choose **Show Log Summary** in the **IntelliTrace** window. This is available only while debugging with IntelliTrace.
 
 ## <a name="Understand"></a> Understand the IntelliTrace log
- Some of the following sections in the .iTrace file appear only if you collected data from a particular source, for example, from Test Manager or from SharePoint applications.
+ Some of the following sections in the .iTrace file appear only if you collected data from a particular source, for example, from SharePoint applications.
 
 |**Section**|**Contains**|**Collection Source**|
 |-----------------|------------------|---------------------------|
@@ -70,7 +69,6 @@ Go to specific points in your application's execution when you start debugging f
 |[Analysis](#Analysis)|For SharePoint 2010 and SharePoint 2013 applications only. Diagnose IntelliTrace and SharePoint events, such as debugger events, ULS events, unhandled exceptions, and other data that the Microsoft Monitoring Agent recorded.|Microsoft Monitoring Agent, either standalone collector or with System Center 2012 R2 Operations Manager|
 |[System Info](#SystemInfo)|Settings and specifications of the host system|All sources|
 |[Threads List](#ThreadsList)|Threads that ran during collection|All sources|
-|[Test Data](#TestData)|Test steps and their results from a test session|Test Manager|
 |[Modules](#Modules)|Modules that the target process loaded in the order that they loaded.|All sources|
 |[Web Request](#Modules)|Web request data for production IIS web applications and SharePoint 2010 and SharePoint 2013|Microsoft Monitoring Agent and the standalone collector|
 
@@ -221,9 +219,6 @@ Go to specific points in your application's execution when you start debugging f
 |**Name**|Thread name. Unnamed threads appear as "\<No Name>".|
 |**Start Time**|Time the thread was created|
 |**End Time**|Time the thread was completed|
-
-### <a name="TestData"></a> Test Data
- Examine the IntelliTrace data that Test Manager recorded while testing your app.
 
 ##### To start debugging from a specific test step
 

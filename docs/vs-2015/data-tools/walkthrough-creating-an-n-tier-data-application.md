@@ -35,7 +35,7 @@ N-tier* data applications are applications that access data and are separated in
   
 - Create a typed dataset by using the **Data Source Configuration Wizard**.  
   
-- Separate the generated [TableAdapters](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364) and dataset code into discrete projects.  
+- Separate the generated [TableAdapters](https://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364) and dataset code into discrete projects.  
   
 - Create a Windows Communication Foundation (WCF) service to call into the data access tier.  
   
@@ -58,14 +58,14 @@ N-tier* data applications are applications that access data and are separated in
  The first step of this walkthrough is to create a solution and two class library projects. The first class library will hold the dataset (the generated typed DataSet class and DataTables that will hold the application's data). This project is used as the data entity layer of the application and is typically located in the middle tier. The Dataset Designer is used to create the initial dataset and automatically separate the code into the two class libraries.  
   
 > [!NOTE]
->  Be sure to name the project and solution correctly before you click **OK**. Doing so will make it easier for you to complete this walkthrough.  
+> Be sure to name the project and solution correctly before you click **OK**. Doing so will make it easier for you to complete this walkthrough.  
   
 #### To create the n-tier solution and DataEntityTier class library  
   
 1. From the **File** menu, create a new project.  
   
     > [!NOTE]
-    >  The **Dataset Designer** is supported in [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] and C# projects. Create the new project in one of these languages.  
+    > The **Dataset Designer** is supported in [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] and C# projects. Create the new project in one of these languages.  
   
 2. In the **New Project** dialog box, in the **Project types** pane, click **Windows**.  
   
@@ -119,7 +119,7 @@ N-tier* data applications are applications that access data and are separated in
 6. If the database requires a password, select the option to include sensitive data, and then click **Next**.  
   
     > [!NOTE]
-    >  If you selected a local database file (instead of connecting to SQL Server) you might be asked if you want to add the file to the project. Click **Yes** to add the database file to the project.  
+    > If you selected a local database file (instead of connecting to SQL Server) you might be asked if you want to add the file to the project. Click **Yes** to add the database file to the project.  
   
 7. Click **Next** on the **Save the Connection String to the Application Configuration File** page.  
   
@@ -147,7 +147,7 @@ N-tier* data applications are applications that access data and are separated in
    The dataset and TableAdapters are separated into the two class library projects. The project that originally contained the whole dataset (DataAccessTier) now contains only the TableAdapters. The project designated in the **DataSet Project** property (DataEntityTier) contains the typed dataset: NorthwindDataSet.Dataset.Designer.vb (or NorthwindDataSet.Dataset.Designer.cs).  
   
 > [!NOTE]
->  When you separate datasets and TableAdapters (by setting the **DataSet Project** property), existing partial dataset classes in the project will not be moved automatically. Existing dataset partial classes must be manually moved to the dataset project.  
+> When you separate datasets and TableAdapters (by setting the **DataSet Project** property), existing partial dataset classes in the project will not be moved automatically. Existing dataset partial classes must be manually moved to the dataset project.  
   
 ## Creating a New Service Application  
  Because this walkthrough demonstrates how to access the data access tier by using a WCF service, create a new WCF service application.  
@@ -214,7 +214,7 @@ N-tier* data applications are applications that access data and are separated in
  Now that the data access tier contains the methods to return data, create methods in the data service to call the methods in the data access tier.  
   
 > [!NOTE]
->  For C# projects, you must add a reference to the `System.Data.DataSetExtensions` assembly for the following code to compile.  
+> For C# projects, you must add a reference to the `System.Data.DataSetExtensions` assembly for the following code to compile.  
   
 #### To create the GetCustomers and GetOrders functions in the data service  
   
@@ -316,7 +316,7 @@ N-tier* data applications are applications that access data and are separated in
 3. Select **Service1** and click **OK**.  
   
     > [!NOTE]
-    >  If you have multiple services on the current computer, select the service that you created previously in this walkthrough (the service that contains the GetCustomers and GetOrders methods).  
+    > If you have multiple services on the current computer, select the service that you created previously in this walkthrough (the service that contains the GetCustomers and GetOrders methods).  
   
 ## Adding DataGridViews to the Form to Display the Data Returned by the Data Service  
  After you add the service reference to the data service, the **Data Sources** window is automatically populated with the data that is returned by the service.  
@@ -355,7 +355,7 @@ N-tier* data applications are applications that access data and are separated in
  Because the service returns data from the Customers and Orders tables, the default value for maxReceivedMessageSize is not large enough to hold the data and must be increased. For this walkthrough, you will change the value to 6553600. You will change the value on the client, and this will automatically update the service reference.  
   
 > [!NOTE]
->  The lower default size is intended to limit exposure to denial of service (DoS) attacks. For more information, see <xref:System.ServiceModel.WSHttpBindingBase.MaxReceivedMessageSize%2A>.  
+> The lower default size is intended to limit exposure to denial of service (DoS) attacks. For more information, see <xref:System.ServiceModel.WSHttpBindingBase.MaxReceivedMessageSize%2A>.  
   
 #### To increase the maxReceivedMessageSize value  
   
@@ -375,7 +375,7 @@ N-tier* data applications are applications that access data and are separated in
 ## Next Steps  
  Depending on your application requirements, there are several steps that you may want to perform after you save related data in the Windows-based application. For example, you could make the following enhancements to this application:  
   
-- Add validation to the dataset. For information, see [Walkthrough: Adding Validation to an N-Tier Data Application](http://msdn.microsoft.com/library/b35d072c-31f0-49ba-a225-69177592c265).  
+- Add validation to the dataset. For information, see [Walkthrough: Adding Validation to an N-Tier Data Application](https://msdn.microsoft.com/library/b35d072c-31f0-49ba-a225-69177592c265).  
   
 - Add additional methods to the service for updating data back to the database.  
   

@@ -42,8 +42,8 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
 |||  
 |-|-|  
-|**Debug my application with IntelliTrace:**<br /><br /> -   Show me past events.<br />-   Show me call information with past events.<br />-   Save my IntelliTrace session.<br />-   Control the data that IntelliTrace collects.|-   [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md)<br />     [IntelliTrace Features](../debugger/intellitrace-features.md)<br />-   [Configure IntelliTrace](http://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e)<br />-   [Historical Debugging](../debugger/historical-debugging.md)|  
-|**Collect IntelliTrace data during a test session in Test Manager**|-   [Collect more diagnostic data in manual tests](http://msdn.microsoft.com/library/bb5a2cc0-84f5-4dfe-9560-ca3d313aefd2)|  
+|**Debug my application with IntelliTrace:**<br /><br /> -   Show me past events.<br />-   Show me call information with past events.<br />-   Save my IntelliTrace session.<br />-   Control the data that IntelliTrace collects.|-   [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md)<br />     [IntelliTrace Features](../debugger/intellitrace-features.md)<br />-   [Configure IntelliTrace](https://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e)<br />-   [Historical Debugging](../debugger/historical-debugging.md)|  
+|**Collect IntelliTrace data during a test session in Test Manager**|-   [Collect more diagnostic data in manual tests](https://msdn.microsoft.com/library/bb5a2cc0-84f5-4dfe-9560-ca3d313aefd2)|  
 |**Collect IntelliTrace data from deployed applications**|-   [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)|  
 |**Start debugging from an IntelliTrace log file (.iTrace file).**|-   [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)|  
   
@@ -51,12 +51,12 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
 |||  
 |-|-|  
-|**Supported**|-   Visual Basic and Visual C# applications that use .NET Framework 2.0 or higher versions.<br />     You can debug most applications, including ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013, and 64-bit apps.<br />     To debug SharePoint applications with IntelliTrace, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](http://msdn.microsoft.com/library/4bd80d2f-f680-4bf4-81c3-f14e8185f6a4).<br />     To debug Microsoft Azure apps with IntelliTrace, see [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](../azure/vs-azure-tools-intellitrace-debug-published-cloud-services.md).|  
+|**Supported**|-   Visual Basic and Visual C# applications that use .NET Framework 2.0 or higher versions.<br />     You can debug most applications, including ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013, and 64-bit apps.<br />     To debug SharePoint applications with IntelliTrace, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](https://msdn.microsoft.com/library/4bd80d2f-f680-4bf4-81c3-f14e8185f6a4).<br />     To debug Microsoft Azure apps with IntelliTrace, see [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](../azure/vs-azure-tools-intellitrace-debug-published-cloud-services.md).|  
 |**Limited support**|-   F# apps on an experimental basis<br />-   Windows Store apps supported for events only|  
 |**Not supported**|-   C++, other languages, and script<br />-   Windows Services, Silverlight, Xbox, or [!INCLUDE[winmobile](../includes/winmobile-md.md)] apps|  
   
 > [!NOTE]
->  If you want to debug a process that is already running, you can’t use IntelliTrace. You must start IntelliTrace when the process starts.  
+> If you want to debug a process that is already running, you can’t use IntelliTrace. You must start IntelliTrace when the process starts.  
   
 ## <a name="IntelliTraceVSTraditional"></a> Why debug with IntelliTrace?  
  Traditional or *live* debugging shows only your application's current state, with limited data about past events. You either have to infer these events based on the application's current state, or you have to recreate these events by rerunning your application.  
@@ -71,7 +71,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
 - A test session in Microsoft Test Manager  
   
-- ASP.NET web apps hosted on IIS, or SharePoint 2010 and SharePoint 2013 applications running in deployment when you use Microsoft Monitoring Agent, either alone or with System Center 2012. See [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md) and [Monitoring with Microsoft Monitoring Agent](http://technet.microsoft.com/library/dn465153.aspx).  
+- ASP.NET web apps hosted on IIS, or SharePoint 2010 and SharePoint 2013 applications running in deployment when you use Microsoft Monitoring Agent, either alone or with System Center 2012. See [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md) and [Monitoring with Microsoft Monitoring Agent](https://technet.microsoft.com/library/dn465153.aspx).  
   
   Here are some examples of how IntelliTrace can help you with debugging:  
   
@@ -85,7 +85,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
 - Your application crashes on a test computer but runs successfully on a development computer.  
   
-   You can collect IntelliTrace data from Microsoft Test Manager, save the data to an .iTrace file, and attach this file to a Team Foundation Server work item for later investigation. See [Collect more diagnostic data in manual tests](http://msdn.microsoft.com/library/bb5a2cc0-84f5-4dfe-9560-ca3d313aefd2) and [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md).  
+   You can collect IntelliTrace data from Microsoft Test Manager, save the data to an .iTrace file, and attach this file to a Team Foundation Server work item for later investigation. See [Collect more diagnostic data in manual tests](https://msdn.microsoft.com/library/bb5a2cc0-84f5-4dfe-9560-ca3d313aefd2) and [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md).  
   
 - A bug or crash happens in a deployed application.  
   
@@ -98,7 +98,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
 ## <a name="WhatData"></a> What data does IntelliTrace collect?  
  **Collecting event information**  
   
- By default, IntelliTrace records only IntelliTrace events: debugger events, exceptions, .NET Framework events, and other system events that can help you with debugging. You can choose the kinds of IntelliTrace events that you want to collect, except for debugger events and exceptions, which are always collected. See [Configure IntelliTrace](http://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e).  
+ By default, IntelliTrace records only IntelliTrace events: debugger events, exceptions, .NET Framework events, and other system events that can help you with debugging. You can choose the kinds of IntelliTrace events that you want to collect, except for debugger events and exceptions, which are always collected. See [Configure IntelliTrace](https://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e).  
   
 - **Debugger events**  
   
@@ -140,7 +140,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
   - [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)  
   
-  - [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](http://msdn.microsoft.com/library/4bd80d2f-f680-4bf4-81c3-f14e8185f6a4)  
+  - [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](https://msdn.microsoft.com/library/4bd80d2f-f680-4bf4-81c3-f14e8185f6a4)  
   
   **Collecting function call information**  
   
@@ -155,25 +155,25 @@ You can spend less time debugging your application when you use IntelliTrace to 
 - Pointers to first-level child objects, but not their values other than if they were null or not  
   
 > [!NOTE]
->  IntelliTrace collects only the first 256 objects in arrays and the first 256 characters for strings.  
+> IntelliTrace collects only the first 256 objects in arrays and the first 256 characters for strings.  
   
- See [Configure IntelliTrace](http://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e).  
+ See [Configure IntelliTrace](https://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e).  
   
  **Collecting module information**  
   
- To control how much call information that IntelliTrace collects, specify only those modules that you care about. This can help improve your application's performance during collection. See [Configure IntelliTrace](http://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e).  
+ To control how much call information that IntelliTrace collects, specify only those modules that you care about. This can help improve your application's performance during collection. See [Configure IntelliTrace](https://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e).  
   
 ## <a name="AffectPerformance"></a> Will IntelliTrace slow down my application?  
  By default, IntelliTrace collects data for selected IntelliTrace events only. This might or might not slow down your application, depending on the structure and organization of your code. For example, if IntelliTrace records an event often, this might slow down your application. It might also make you consider refactoring your application.  
   
- Collecting call information might slow down your application significantly. It might also increase the size of any IntelliTrace log files (.iTrace files) that you’re saving to disk. To minimize these effects, collect call information only for the modules you care about.  To change the maximum size of your .iTrace files, go to **Tools**, **Options**, **IntelliTrace**, **Advanced**. See [Configure IntelliTrace](http://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e).  
+ Collecting call information might slow down your application significantly. It might also increase the size of any IntelliTrace log files (.iTrace files) that you’re saving to disk. To minimize these effects, collect call information only for the modules you care about.  To change the maximum size of your .iTrace files, go to **Tools**, **Options**, **IntelliTrace**, **Advanced**. See [Configure IntelliTrace](https://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e).  
   
 ## In this section  
  [IntelliTrace Features](../debugger/intellitrace-features.md)  
   
- [Configure IntelliTrace](http://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e)  
+ [Configure IntelliTrace](https://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e)  
   
- [Including Diagnostic Trace Data with Bugs that are Difficult to Reproduce](http://msdn.microsoft.com/library/944ae9af-5a55-4c58-b520-0108c03b3564)  
+ [Including Diagnostic Trace Data with Bugs that are Difficult to Reproduce](https://msdn.microsoft.com/library/944ae9af-5a55-4c58-b520-0108c03b3564)  
   
  [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md)  
   

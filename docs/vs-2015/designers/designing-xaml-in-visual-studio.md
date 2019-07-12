@@ -13,7 +13,7 @@ manager: jillfra
 # Designing XAML in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio and Blend for Visual Studio both provide visual tools for building engaging user interfaces and rich media experiences for XAML-based Windows desktop, web, [Windows Phone](http://msdn.microsoft.com/library/windowsphone/develop/jj683071.aspx), and [Windows Store](http://msdn.microsoft.com/library/windows/apps/jj129478.aspx) apps. Both share a common set of design and tool windows and a XAML editor, but Blend for Visual Studio provides additional design tools for more advanced tasks such as animation and behaviors.
+Visual Studio and Blend for Visual Studio both provide visual tools for building engaging user interfaces and rich media experiences for XAML-based Windows desktop, web, [Windows Phone](https://msdn.microsoft.com/library/windowsphone/develop/jj683071.aspx), and [Windows Store](https://msdn.microsoft.com/library/windows/apps/jj129478.aspx) apps. Both share a common set of design and tool windows and a XAML editor, but Blend for Visual Studio provides additional design tools for more advanced tasks such as animation and behaviors.
 
 ## Choosing the Right Tool
  Your choice of design tools is largely dependent on your skill set. If you are more code-oriented, you can write XAML code in Visual Studio to accomplish even advanced design tasks. If you are more design-oriented, Blend for Visual Studio lets you perform advanced tasks without writing code.
@@ -35,11 +35,11 @@ Visual Studio and Blend for Visual Studio both provide visual tools for building
 
      ![File reload experience](../designers/media/blendfilereload.png "BlendFileReload")
 
-- **Synchronized Layouts and Settings:** Custom layouts enable you to save and apply tool window layout customizations. Visual Studio will synchronize these customizations and preferences for both Visual Studio and Blend for Visual Studio across machines when you sign in with the same Microsoft account. See [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).
+- **Synchronized Layouts and Settings:** Custom layouts enable you to save and apply tool window layout customizations. Visual Studio will synchronize these customizations and preferences for both Visual Studio and Blend for Visual Studio across machines when you sign in with the same Microsoft account. See [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).
 
 - **A common Solution Explorer:** The Solution Explorer provides you with an organized view of your projects and their files, as well as ready access to the commands associated with them. With Solution Explorer, it is easier to work with big enterprise projects. See [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md).
 
-- **Team Explorer:** With Team Explorer you can manage your projects with GIT or TFS repositories to facilitate team collaboration. See [Work in Team Explorer](http://msdn.microsoft.com/library/fd7a5cf7-7916-4fa0-b5e6-5a83cf377a02).
+- **Team Explorer:** With Team Explorer you can manage your projects with GIT or TFS repositories to facilitate team collaboration. See [Work in Team Explorer](https://msdn.microsoft.com/library/fd7a5cf7-7916-4fa0-b5e6-5a83cf377a02).
 
 - **NuGet:** You can manage NuGet packages in both Visual Studio and Blend for Visual Studio. NuGet is a package manager for the .NET Framework that simplifies the installation and removal of packages from a solution.
 

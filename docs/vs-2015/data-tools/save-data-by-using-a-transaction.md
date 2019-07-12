@@ -28,9 +28,9 @@ You save data in a transaction by using the <xref:System.Transactions> namespace
  Projects are not created with a reference to the System.Transactions assembly, so you need to manually add a reference to projects that use transactions.  
   
 > [!NOTE]
->  The <xref:System.Transactions> namespace is supported in Windows 2000 or later.  
+> The <xref:System.Transactions> namespace is supported in Windows 2000 or later.  
   
- The easiest way to implement a transaction is to instantiate a <xref:System.Transactions.TransactionScope> object in a `using` statement. (For more information, see [Using Statement](http://msdn.microsoft.com/library/665d1580-dd54-4e96-a9a9-6be2a68948f1), and [using Statement](http://msdn.microsoft.com/library/afc355e6-f0b9-4240-94dd-0d93f17d9fc3).) The code that runs within the `using` statement participates in the transaction.  
+ The easiest way to implement a transaction is to instantiate a <xref:System.Transactions.TransactionScope> object in a `using` statement. (For more information, see [Using Statement](https://msdn.microsoft.com/library/665d1580-dd54-4e96-a9a9-6be2a68948f1), and [using Statement](https://msdn.microsoft.com/library/afc355e6-f0b9-4240-94dd-0d93f17d9fc3).) The code that runs within the `using` statement participates in the transaction.  
   
  To commit the transaction, call the <xref:System.Transactions.TransactionScope.Complete%2A> method as the last statement in the using block.  
   

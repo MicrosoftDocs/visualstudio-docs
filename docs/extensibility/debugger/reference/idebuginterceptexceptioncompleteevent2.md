@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugInterceptExceptionCompleteEvent2"
 ms.assetid: 8ebc256b-5428-4ed6-a505-6aedc8242b8e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -45,6 +45,6 @@ IDebugInterceptExceptionCompleteEvent2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [InterceptCurrentException](../../../extensibility/debugger/reference/idebugstackframe3-interceptcurrentexception.md)

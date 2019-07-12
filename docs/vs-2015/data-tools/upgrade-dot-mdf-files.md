@@ -41,10 +41,10 @@ This topic describes your options for upgrading your database file (.mdf) after 
   You may also be prompted to upgrade a database file that was created through an earlier version of SQL Server Express or LocalDB if the version of the file isn't compatible with the instance of SQL Server Express or LocalDB that’s currently installed. To resolve the issue, Visual Studio will prompt you to upgrade the file.  
   
 > [!IMPORTANT]
->  We recommend that you back up the database file before you upgrade it.  
+> We recommend that you back up the database file before you upgrade it.  
   
 > [!WARNING]
->  If you upgrade an .mdf file that was created in LocalDB 2014 (V12) 32 bit to LocalDB 2016 (V13), you will not be able to open the file again in the 32-bit version of LocalDB.  In Update 2, LocalDB V13 is 64 bit only.  
+> If you upgrade an .mdf file that was created in LocalDB 2014 (V12) 32 bit to LocalDB 2016 (V13), you will not be able to open the file again in the 32-bit version of LocalDB.  In Update 2, LocalDB V13 is 64 bit only.  
   
  Before you upgrade a database, consider the following criteria:  
   
@@ -98,9 +98,9 @@ This topic describes your options for upgrading your database file (.mdf) after 
   
 - In Visual Studio, open the project without upgrading it.  
   
-    - To run the project, select the F5 key.  
-  
-    - To edit the database, open the .mdf file in **Solution Explorer**, and expand the node in **Server Explorer** to work with your database.  
+  - To run the project, select the F5 key.  
+
+  - To edit the database, open the .mdf file in **Solution Explorer**, and expand the node in **Server Explorer** to work with your database.  
   
 ### To make SQL Server Express the default database engine  
   

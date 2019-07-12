@@ -103,7 +103,7 @@ On a Windows Form.
 - **Make Vertical Spacing Equal**
 
 > [!NOTE]
->  In Word projects, these buttons are enabled only if the selected controls are not in line with text. By default, controls that you add to the document at design time are in line with text.
+> In Word projects, these buttons are enabled only if the selected controls are not in line with text. By default, controls that you add to the document at design time are in line with text.
 
 ### Prevent old data from appearing in Excel workbooks during loading
  When you add Windows Forms controls to documents or worksheets at design time, the controls remain in the document when the user closes the document. Controls added at design time are also called *static controls*.

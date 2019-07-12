@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "FunctionHasLineInfo"
   - "IDebugComPlusSymbolProvider2::FunctionHasLineInfo"
 ms.assetid: e1b508f1-6521-492f-b110-ab957744a037
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider2::FunctionHasLineInfo
 Determines if the specified method has line information.
@@ -29,10 +32,9 @@ int FunctionHasLineInfo(
 );
 ```
 
-#### Parameters
-`pAddress`
-
- [in] The debug address that is represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface. This address must be a METHOD_ADDRESS.
+## Parameters
+`pAddress`\
+[in] The debug address that is represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface. This address must be a METHOD_ADDRESS.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns `S_FALSE`.
@@ -77,5 +79,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)

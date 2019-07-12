@@ -24,7 +24,7 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
 
  This topic also describes how to debug **Background tasks**. Background tasks enable you to perform certain operations in a background process, even when you app is not running. You can use the debugger to put your app in debug mode and then— without starting the UI—start and debug the background task.
 
- For more information about Process Lifetime Management and background tasks see [Launching, resuming, and multitasking](http://msdn.microsoft.com/04307b1b-05af-46a6-b639-3f35e297f71b).
+ For more information about Process Lifetime Management and background tasks see [Launching, resuming, and multitasking](https://msdn.microsoft.com/04307b1b-05af-46a6-b639-3f35e297f71b).
 
 ## <a name="BKMK_In_this_topic"></a> In this topic
  [Trigger Process Lifetime Management events](#BKMK_Trigger_Process_Lifecycle_Management_events)
@@ -57,12 +57,12 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
      Note that **Suspend and terminate** closes the app and ends the debug session.
 
 ## <a name="BKMK_Trigger_background_tasks"></a> Trigger background tasks
- Any app can register a background task to respond to certain system events, even when the app is not running. Background tasks can't run code that directly updates the UI; instead, they show information to the user with tile updates, badge updates, and toast notifications. For more information, see [Supporting your app with background tasks](http://msdn.microsoft.com/4c7bb148-eb1f-4640-865e-41f627a46e8e)
+ Any app can register a background task to respond to certain system events, even when the app is not running. Background tasks can't run code that directly updates the UI; instead, they show information to the user with tile updates, badge updates, and toast notifications. For more information, see [Supporting your app with background tasks](https://msdn.microsoft.com/4c7bb148-eb1f-4640-865e-41f627a46e8e)
 
  You can trigger the events that start background tasks for your app from the debugger.
 
 > [!NOTE]
->  The debugger can trigger only those events that do not contain data, such as events that indicate a change of state in the device. You have to manually trigger background tasks that require user input or other data.
+> The debugger can trigger only those events that do not contain data, such as events that indicate a change of state in the device. You have to manually trigger background tasks that require user input or other data.
 
  The most realistic way to trigger a background task event is when your app is not running. However, triggering the event in a standard debugging session is also supported.
 
@@ -121,5 +121,5 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
 ## See Also
  [Testing Store apps with Visual Studio](../test/testing-store-apps-with-visual-studio.md)
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)
- [Application lifecycle](http://msdn.microsoft.com/53cdc987-c547-49d1-a5a4-fd3f96b2259d)
- [Launching, resuming, and multitasking](http://msdn.microsoft.com/04307b1b-05af-46a6-b639-3f35e297f71b)
+ [Application lifecycle](https://msdn.microsoft.com/53cdc987-c547-49d1-a5a4-fd3f96b2259d)
+ [Launching, resuming, and multitasking](https://msdn.microsoft.com/04307b1b-05af-46a6-b639-3f35e297f71b)

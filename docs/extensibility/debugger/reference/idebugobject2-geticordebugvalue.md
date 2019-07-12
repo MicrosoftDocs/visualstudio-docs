@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugObject2::GetICorDebugValue method"
 ms.assetid: bcd4355d-3fbe-483f-bb23-a44348323c6a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugObject2::GetICorDebugValue
 Gets a managed code object representing the value associated with this object.
@@ -30,10 +33,9 @@ int GetICorDebugValue(
 );
 ```
 
-#### Parameters
- `ppUnk`
-
- [out] `IUnknown` interface that represents this alias. This interface can be queried for the `ICorDebugValue` interface.
+## Parameters
+`ppUnk`\
+[out] `IUnknown` interface that represents this alias. This interface can be queried for the `ICorDebugValue` interface.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.
@@ -41,5 +43,5 @@ int GetICorDebugValue(
 ## Remarks
  The `ICorDebugValue` object is a Common Language Runtime interface that represents a value.
 
-## See Also
+## See also
 - [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)

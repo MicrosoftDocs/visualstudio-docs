@@ -2,8 +2,8 @@
 title: "Measure CPU usage in your apps"
 description: "Analyze CPU performance issues in your application using the debugger-integrated diagnostics tools."
 ms.custom: "seodec18"
-ms.date: "04/03/2019"
-ms.topic: "tutorial"
+ms.date: 04/03/2019
+ms.topic: tutorial
 f1_keywords:
   - "vs.performance.wizard.intropage"
 helpviewer_keywords:
@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CPU Usage"
   - "Diagnostics Tools"
 ms.assetid: da2fbf8a-2d41-4654-a509-dd238532d25a
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -142,6 +142,9 @@ We recommend that you begin analyzing your data by examining the list of functio
 
     ![Diagnostics Tools Hot Path](../profiling/media/vs-2019/diag-tools-hot-path.png "DiagToolsHotPath")
     ::: moniker-end
+
+    > [!NOTE]
+    > If you see code in the call tree marked as "broken" code or "unwalkable stack", this indicates that Event Tracing for Windows (ETW) events were likely dropped. Try collecting the same trace a second time to resolve the issue.
 
 ## View external code
 

@@ -25,7 +25,7 @@ manager: jillfra
 Projects are the logical containers for everything that's needed to build your application. When you create a project by choosing **File &#124; New &#124; Project** from the main menu, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] creates a solution to contain it. You can then add more new or existing projects to the solution if necessary. You can create projects from existing code files and you can create temporary projects (.NET only) that will be deleted when you are done with them.  
   
 > [!NOTE]
->  The descriptions in this topic are based on the Visual Studio Community edition. The dialog boxes and menu commands you see might differ from those described here, depending on your settings or Visual Studio edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The descriptions in this topic are based on the Visual Studio Community edition. The dialog boxes and menu commands you see might differ from those described here, depending on your settings or Visual Studio edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Create a project from an installed project template  
  **File &#124; New &#124; Project** from the main menu to bring up the New Project dialog. In the left pane under **Intalled &#124; Templates** chose the programming language and platform or technology, then choose from the available templates in the middle pane.  
@@ -36,7 +36,7 @@ Projects are the logical containers for everything that's needed to build your a
  If you have a collection of loose source files, you can easily create a project that contains them. Choose **File &#124; New &#124;Project From Existing Code** to start the **Create Project from Existing Code Files Wizard** and follow the prompts.  
   
 > [!TIP]
->  This option works best for relatively simple collections of files.  
+> This option works best for relatively simple collections of files.  
   
 ## Create a temporary project (C# and Visual Basic)  
  By working with temporary projects, you can create and experiment with a .NET project without specifying a disk location. When you create a project, you just select a project type and template and specify a name in the **New Project** dialog box. At any time while you are working with the temporary project, you can save it, or you can discard it.  
@@ -77,7 +77,7 @@ Projects are the logical containers for everything that's needed to build your a
  You can delete a solution permanently, but not by using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Before you delete a solution, move any projects that you might want to use again in another solution. Then use File Explorer to delete the directory that contains the .sln and .suo solution files.  
   
 > [!NOTE]
->  The .suo file is a hidden file that is not displayed under default File Explorer settings.  
+> The .suo file is a hidden file that is not displayed under default File Explorer settings.  
   
 ##### To delete a solution  
   
@@ -89,4 +89,4 @@ Projects are the logical containers for everything that's needed to build your a
   
 ## See Also  
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)   
- [NIB How to: Create Multi-Project Solutions](http://msdn.microsoft.com/02ecd6dd-0114-46fe-b335-ba9c5e3020d6)
+ [NIB How to: Create Multi-Project Solutions](https://msdn.microsoft.com/02ecd6dd-0114-46fe-b335-ba9c5e3020d6)

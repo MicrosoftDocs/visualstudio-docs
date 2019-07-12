@@ -28,7 +28,7 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
 > [!NOTE]
->  You must use Team Explorer to create and open links. Make sure your modeling project and diagrams are checked into version control so that others can open linked diagrams.  
+> You must use Team Explorer to create and open links. Make sure your modeling project and diagrams are checked into version control so that others can open linked diagrams.  
   
  For example, you can link:  
   
@@ -55,7 +55,7 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
 - Diagrams. To select a diagram, choose a blank part of the diagram.  
   
 > [!WARNING]
->  You must already be connected to TFS Source Code Control (SCC) to create or link to a work item. If you try to open a connection to a different TFS SCC, Visual Studio closes the current solution automatically. Ensure that you are already connected to the appropriate SCC before attempting to create or link to a work item. In later releases of Visual Studio, the menu commands are not available if you are not connected to an SCC.  
+> You must already be connected to TFS Source Code Control (SCC) to create or link to a work item. If you try to open a connection to a different TFS SCC, Visual Studio closes the current solution automatically. Ensure that you are already connected to the appropriate SCC before attempting to create or link to a work item. In later releases of Visual Studio, the menu commands are not available if you are not connected to an SCC.  
   
 - [Connect to a team project](#ConnectTFS)  
   
@@ -93,7 +93,7 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
      Visual Studio links the model element to the new work item. An icon appears on or near the model element.  
   
 > [!WARNING]
->  You must already be connected to TFS Source Code Control (SCC) to create or link to a work item. If you try to open a connection to a different TFS SCC, Visual Studio closes the current solution automatically. Ensure that you are already connected to the appropriate SCC before attempting to create or link to a work item. In later releases of Visual Studio, the menu commands are not available if you are not connected to an SCC.  
+> You must already be connected to TFS Source Code Control (SCC) to create or link to a work item. If you try to open a connection to a different TFS SCC, Visual Studio closes the current solution automatically. Ensure that you are already connected to the appropriate SCC before attempting to create or link to a work item. In later releases of Visual Studio, the menu commands are not available if you are not connected to an SCC.  
   
 ## <a name="LinkExisting"></a> Link a model element to an existing work item  
  When you link model elements to work items, start from the model element, not from the work item.  
@@ -117,7 +117,7 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
      When you're done, the **Work Items** property of the model element shows a larger number than before. An icon also appears on or near the model element.  
   
 > [!WARNING]
->  You must already be connected to TFS Source Code Control (SCC) to create or link to a work item. If you try to open a connection to a different TFS SCC, Visual Studio closes the current solution automatically. Ensure that you are already connected to the appropriate SCC before attempting to create or link to a work item. In later releases of Visual Studio, the menu commands are not available if you are not connected to an SCC.  
+> You must already be connected to TFS Source Code Control (SCC) to create or link to a work item. If you try to open a connection to a different TFS SCC, Visual Studio closes the current solution automatically. Ensure that you are already connected to the appropriate SCC before attempting to create or link to a work item. In later releases of Visual Studio, the menu commands are not available if you are not connected to an SCC.  
   
 ## <a name="OpenWorkItem"></a> View work items linked to a model element  
   
@@ -126,7 +126,7 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
 2. On the modeling diagram or in **UML Model Explorer**, open the shortcut menu for the model element. Choose **View Work Items** to view the list of linked work items.  
   
     > [!NOTE]
-    >  Only work items from the currently connected server appear. If you don't see any work items, make sure you're connected to the correct server in **Team Explorer**.  
+    > Only work items from the currently connected server appear. If you don't see any work items, make sure you're connected to the correct server in **Team Explorer**.  
   
 ## <a name="ViewLinkedModels"></a> View model elements linked to a work item  
  You can view modeling diagrams and elements that are linked to a work item in Visual Studio Team Services and in Team Foundation Server 2012 or later. For example, a work item might be linked to class models that show the design of new classes to be implemented.  
@@ -134,7 +134,7 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
 1. In **Team Explorer**, make sure you're connected to the team project where the model elements are linked to the work item.  
   
     > [!NOTE]
-    >  You can only use Team Explorer, not Team Web Access, to view linked model elements. Make sure your workspace is mapped to the modeling project that contains the modeling diagrams or elements. If you don't have a workspace, you must create it. See [Troubleshooting](#Troubleshooting) and [Create and work with workspaces](http://msdn.microsoft.com/library/1d7f6ed8-ec7c-48f8-86da-9aea55a90d5a).  
+    > You can only use Team Explorer, not Team Web Access, to view linked model elements. Make sure your workspace is mapped to the modeling project that contains the modeling diagrams or elements. If you don't have a workspace, you must create it. See [Troubleshooting](#Troubleshooting) and [Create and work with workspaces](https://msdn.microsoft.com/library/1d7f6ed8-ec7c-48f8-86da-9aea55a90d5a).  
   
 2. Open the work item, choose **Links**. Under **Model Link**, open the shortcut menu for the linked model element. Choose **Open Linked Item**.  
   
@@ -154,7 +154,7 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
     2. In the **Work Items** property, choose the ellipsis button **[…]**.  
   
         > [!NOTE]
-        >  Only work items on the current server appear. If the list is empty, but the number of work items is not zero, make sure you are connected to the correct server in **Team Explorer**.  
+        > Only work items on the current server appear. If the list is empty, but the number of work items is not zero, make sure you are connected to the correct server in **Team Explorer**.  
   
 3. Under **Remove Links to Work Items**, clear the selected items that you want to unlink. Choose **OK**.  
   
@@ -162,7 +162,7 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
   
 |**Issue**|**Possible cause**|**Resolution**|  
 |---------------|------------------------|--------------------|  
-|Can't find the model element that you want to link.|The element might be on a diagram in a modeling project that is in [!INCLUDE[esprscc](../includes/esprscc-md.md)]. You might not have a workspace that maps to the diagram.|Map your workspace to the modeling project and diagram. If you do not have a workspace, then you must create it.<br /><br /> The error message that appears for this issue contains the path that you can use to map your workspace.<br /><br /> See [Create and work with workspaces](http://msdn.microsoft.com/library/1d7f6ed8-ec7c-48f8-86da-9aea55a90d5a).|  
+|Can't find the model element that you want to link.|The element might be on a diagram in a modeling project that is in [!INCLUDE[esprscc](../includes/esprscc-md.md)]. You might not have a workspace that maps to the diagram.|Map your workspace to the modeling project and diagram. If you do not have a workspace, then you must create it.<br /><br /> The error message that appears for this issue contains the path that you can use to map your workspace.<br /><br /> See [Create and work with workspaces](https://msdn.microsoft.com/library/1d7f6ed8-ec7c-48f8-86da-9aea55a90d5a).|  
 |Can't find the linked model element.|The linked element might be on a diagram that has been moved, renamed, or deleted.|1.  In the work item, delete the link to the model element.<br />2.  Create a new link from the work item to the model element.|  
 |The work item doesn't have the linked model elements that you expect.|A work item shows a linked layer element only if the link was created from the work item. If your team does not use [!INCLUDE[esprscc](../includes/esprscc-md.md)], the local path of the diagrams will be used to create the links. If the modeling project and its diagrams are in [!INCLUDE[esprscc](../includes/esprscc-md.md)], all team members who can access the project can view linked elements in work items.|Try refreshing the work item.|  
 |Deleting a link to a model element from a work item doesn't delete the link from the model element to the work item.||Delete the link to the work item starting from the model element.|  

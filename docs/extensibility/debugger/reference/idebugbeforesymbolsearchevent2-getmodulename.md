@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "GetModuleName"
   - "IDebugBeforeSymbolSearchEvent2::GetModuleName"
 ms.assetid: 0b4abeac-2eaf-4b2e-a2d5-c9ec303bc869
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBeforeSymbolSearchEvent2::GetModuleName
 Retrieves the name of the module currently being debugged.
@@ -29,10 +32,9 @@ public int GetModuleName (
 );
 ```
 
-#### Parameters
-`pbstrModuleName`
-
- [out] Name of the module.
+## Parameters
+`pbstrModuleName`\
+[out] Name of the module.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -60,5 +62,5 @@ STDMETHODIMP CDebugBeforeSymbolSearchEventBase::GetModuleName(BSTR *pbstrModuleN
 }
 ```
 
-## See Also
+## See also
 - [IDebugBeforeSymbolSearchEvent2](../../../extensibility/debugger/reference/idebugbeforesymbolsearchevent2.md)

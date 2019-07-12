@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "debugging [Debugging SDK], core interfaces"
 ms.assetid: 666b9116-8550-4bdd-bc15-55fc57de87df
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -297,6 +297,6 @@ The following interfaces are the core interfaces for extending debugger by using
 |[IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)|EE|Provides methods for getting access to data to be passed to a type visualizer.|
 |[IPropertyProxyProvider](../../../extensibility/debugger/reference/ipropertyproxyprovider.md)|EE|Represents a  property that provides access to [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) implementations.|
 
-## See Also
+## See also
 - [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)
 - [Creating a Custom Debug Engine](../../../extensibility/debugger/creating-a-custom-debug-engine.md)

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccGetEvents function"
 ms.assetid: 32f8147d-6dcc-465e-b07b-42da5824f9b0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

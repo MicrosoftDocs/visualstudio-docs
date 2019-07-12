@@ -81,7 +81,7 @@ In Visual Studio 2015, IntelliSense is available for single code files as well a
 - Line 12 has purple squiggle on identifier BYE; this identifier is not defined in currently inactive Android.NativeActivity project.  
   
 ## Single File IntelliSense  
- When you open a single file outside of any project, you still get IntelliSense. You can enable or disable particular features by going to **Text Editor, C/C++, Advanced** to turn on or off IntelliSense features. To configure IntelliSense for single files that aren't part of a project, look for **IntelliSense and Browsing for Non-Project Files** in the **Advanced** section. See [Visual C++ Guided Tour](http://msdn.microsoft.com/499cb66f-7df1-45d6-8b6b-33d94fd1f17c).  
+ When you open a single file outside of any project, you still get IntelliSense. You can enable or disable particular features by going to **Text Editor, C/C++, Advanced** to turn on or off IntelliSense features. To configure IntelliSense for single files that aren't part of a project, look for **IntelliSense and Browsing for Non-Project Files** in the **Advanced** section. See [Visual C++ Guided Tour](https://msdn.microsoft.com/499cb66f-7df1-45d6-8b6b-33d94fd1f17c).  
   
  ![Visual C&#43;&#43; single file intellisense](../ide/media/vs2015-cpp-single-file-intellisense.png "vs2015_cpp_single_file_intellisense")  
   

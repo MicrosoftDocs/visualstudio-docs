@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "GetBaseIndices"
   - "IDebugArrayObject2::GetBaseIndices"
 ms.assetid: 882951a2-3da0-49bf-8d1e-7daedd13ffe6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugArrayObject2::GetBaseIndices
 Retrieves the base indices (lower bounds) for each index given the number of dimensions in the array.
@@ -31,14 +34,12 @@ int GetBaseIndices (
 );
 ```
 
-#### Parameters
- `dwRank`
+## Parameters
+`dwRank`\
+[in] The number of dimensions (rank) of the array.
 
- [in] The number of dimensions (rank) of the array.
-
- `dwIndices`
-
- [out] The base indices (lower bounds) for the array.
+`dwIndices`\
+[out] The base indices (lower bounds) for the array.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -52,5 +53,5 @@ int[] lowerbounds = { 5 };
 Array.CreateInstance(typeof(int), lengths, lowerbounds);
 ```
 
-## See Also
+## See also
 - [IDebugArrayObject2](../../../extensibility/debugger/reference/idebugarrayobject2.md)

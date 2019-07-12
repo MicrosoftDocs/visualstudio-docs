@@ -31,14 +31,14 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
 4. Calculate the grayscale value by using the **Desaturate** node. In **Select** mode, move the **RGB** terminal of the **Texture Sample** node to the **RGB** terminal of the **Desaturate** node.  
   
    > [!NOTE]
-   >  By default, the **Desaturate** node fully desaturates the input color, and uses the standard luminance weights for greyscale conversion. You can change how the **Desaturate** node behaves by changing the value of the **Luminance** property, or by only partially desaturating the input color. To partially desaturate the input color, provide a scalar value in the range [0,1) to the **Percent** terminal of the **Desaturate** node.  
+   > By default, the **Desaturate** node fully desaturates the input color, and uses the standard luminance weights for greyscale conversion. You can change how the **Desaturate** node behaves by changing the value of the **Luminance** property, or by only partially desaturating the input color. To partially desaturate the input color, provide a scalar value in the range [0,1) to the **Percent** terminal of the **Desaturate** node.  
   
 5. Connect the grayscale color value to the final color. Move the **Output** terminal of the **Desaturate** node to the **RGB** terminal of the **Final Color** node.  
   
    The following illustration shows the completed shader graph and a preview of the shader applied to a cube.  
   
 > [!NOTE]
->  In this illustration, a plane is used as the preview shape, and a texture has been specified to better demonstrate the effect of the shader.  
+> In this illustration, a plane is used as the preview shape, and a texture has been specified to better demonstrate the effect of the shader.  
   
  ![Shader graph and a preview of its effect](../designers/media/digit-grayscale-effect.png "Digit-Grayscale-Effect")  
   

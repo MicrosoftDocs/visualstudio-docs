@@ -33,19 +33,19 @@ Including coded UI tests in a SharePoint application lets you verify that the wh
  ![SharePoint web parts](../test/media/cuit-sharepoint.png "CUIT_SharePoint")  
   
 > [!NOTE]
->  If you are recording action, validate the actions before generating code. Since there are several behaviors associated with Mouse hover, it is on by default. Be careful to remove redundant hovers from your coded UI tests. You can do this by editing the code for the test, or by using the [Coded UI Test Editor](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md).  
+> If you are recording action, validate the actions before generating code. Since there are several behaviors associated with Mouse hover, it is on by default. Be careful to remove redundant hovers from your coded UI tests. You can do this by editing the code for the test, or by using the [Coded UI Test Editor](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md).  
   
 ## Including testing of Office 2010 controls within your SharePoint app  
  To enable automation for some office 2010 web parts in your SharePoint app, you have to make some minor code modifications.  
   
 > [!WARNING]
->  Support for Visio and PowerPoint 2010 controls is not supported.  
+> Support for Visio and PowerPoint 2010 controls is not supported.  
   
 ### Excel 2010 cell controls  
  To include Excel cell controls, you must make some changes in the coded UI test’s code.  
   
 > [!WARNING]
->  Entering text in any Excel cell, followed by an arrow key action, does not record correctly. Use the mouse to select cells.  
+> Entering text in any Excel cell, followed by an arrow key action, does not record correctly. Use the mouse to select cells.  
   
  If you are recording actions on an empty cell, you must modify the code by double clicking on the cell and then performing a set text operation. This is needed because a click on the cell, followed by any keyboard action activates the `textarea` within the cell. Simply recording a `setvalue` on the empty cell would search for the `editbox` which is not present until the cell has been clicked. For example:  
   
@@ -139,8 +139,8 @@ uiGridKeyboardInputEdit.Text=value;
   
 ## See Also  
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
- [Web performance and load testing SharePoint 2010 and 2013 applications](http://msdn.microsoft.com/library/20c2e469-0e4e-4296-a739-c0e8fff36e54)   
- [Create SharePoint Solutions](http://msdn.microsoft.com/library/4bfb1e59-97c9-4594-93f8-3068b4eb9631)   
- [Verifying and Debugging SharePoint Code](http://msdn.microsoft.com/library/b5f3bce2-6a51-41b1-a292-9e384bae420c)   
- [Building and Debugging SharePoint Solutions](http://msdn.microsoft.com/library/c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae)   
- [Profiling the Performance of SharePoint Applications](http://msdn.microsoft.com/library/61ae02e7-3f37-4230-bae1-54a498c2fae8)
+ [Web performance and load testing SharePoint 2010 and 2013 applications](https://msdn.microsoft.com/library/20c2e469-0e4e-4296-a739-c0e8fff36e54)   
+ [Create SharePoint Solutions](https://msdn.microsoft.com/library/4bfb1e59-97c9-4594-93f8-3068b4eb9631)   
+ [Verifying and Debugging SharePoint Code](https://msdn.microsoft.com/library/b5f3bce2-6a51-41b1-a292-9e384bae420c)   
+ [Building and Debugging SharePoint Solutions](https://msdn.microsoft.com/library/c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae)   
+ [Profiling the Performance of SharePoint Applications](https://msdn.microsoft.com/library/61ae02e7-3f37-4230-bae1-54a498c2fae8)

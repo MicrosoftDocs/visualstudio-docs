@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "templates [Visual Studio], wizards"
   - "IWizard interface"
 ms.assetid: 47ee26cf-67b7-4ff1-8a9d-ab11a725405c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -62,7 +62,7 @@ This procedure shows how to create a custom wizard that opens a Windows Form bef
 
 3. Add the assembly as an asset to the VSIX project. Open the *source.extension.vsixmanifest* file and select the **Assets** tab. In the **Add New Asset** window, for **Type** select **Microsoft.VisualStudio.Assembly**, for **Source** select **A project in current solution**, and for **Project** select **MyProjectWizard**.
 
-4. Add the following references to the VSIX project. (In **Solution Explorer**, under the VSIX project node, select **References**, right-click, and select **Add Reference**.) In the **Add Reference** dialog,  in the **Framework** tab, find the **System.Windows Forms** assembly and select it. Now select the **Extensions** tab. Find the **EnvDTE** assembly and select it. Also find the **Microsoft.VisualStudio.TemplateWizardInterface** assembly and select it. Click **OK**.
+4. Add the following references to the VSIX project. (In **Solution Explorer**, under the VSIX project node, select **References**, right-click, and select **Add Reference**.) In the **Add Reference** dialog,  in the **Framework** tab, find the **System.Windows Forms** assembly and select it. Also find and select the **System** and **System.Drawing** assemblies. Now select the **Extensions** tab. Find the **EnvDTE** assembly and select it. Also find the **Microsoft.VisualStudio.TemplateWizardInterface** assembly and select it. Click **OK**.
 
 5. Add a class for the wizard implementation to the VSIX project. (In **Solution Explorer**, right-click the VSIX project node and select **Add**, then **New Item**, then **Class**.) Name the class **WizardImplementation**.
 
@@ -151,7 +151,7 @@ This procedure shows how to create a custom wizard that opens a Windows Form bef
 
    - An <xref:System.Object> array that contains a set of parameters passed to the wizard by Visual Studio.
 
-     This example adds a parameter value from the user input form to the <xref:System.Collections.Generic.Dictionary%602> parameter. Every instance of the `$custommessage$` parameter in the project will be replaced with the text entered by the user. Add the following assemblies to your project: **System** and **System.Drawing**.
+     This example adds a parameter value from the user input form to the <xref:System.Collections.Generic.Dictionary%602> parameter. Every instance of the `$custommessage$` parameter in the project will be replaced with the text entered by the user.
 
 7. Now create the **UserInputForm**. In the *WizardImplementation.cs* file, add the following code after the end of the `WizardImplementation` class.
 

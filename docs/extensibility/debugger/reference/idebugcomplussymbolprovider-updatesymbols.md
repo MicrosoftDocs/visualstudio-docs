@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "UpdateSymbols"
   - "IDebugComPlusSymbolProvider::UpdateSymbols"
 ms.assetid: d530f6f1-4af2-454b-bab0-02478a8fe81e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::UpdateSymbols
 Updates the debug symbols in memory with those from the specified data stream.
@@ -33,18 +36,15 @@ int UpdateSymbols (
 );
 ```
 
-#### Parameters
-`ulAppDomainID`
+## Parameters
+`ulAppDomainID`\
+[in] Identifier of the application domain.
 
- [in] Identifier of the application domain.
+`guidModule`\
+[in] Unique identifier of the module.
 
-`guidModule`
-
- [in] Unique identifier of the module.
-
-`pUpdateStream`
-
- [in] Data stream that contains the updated debug symbols.
+`pUpdateStream`\
+[in] Data stream that contains the updated debug symbols.
 
 ## Example
 The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.
@@ -88,5 +88,5 @@ Error:
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

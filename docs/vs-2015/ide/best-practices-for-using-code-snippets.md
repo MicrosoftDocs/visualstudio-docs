@@ -19,7 +19,7 @@ manager: jillfra
 The code in a code snippet shows only the most basic way to do something. For most applications, the code must be modified to suit the application.  
   
 ## Handling Exceptions  
- Typically, code snippet Try…Catch blocks catch and rethrow all exceptions. That may not be the right choice for your project. For each exception, there are several ways to respond. For examples, see [How to: Handle an Exception Using try/catch (C# Programming Guide)](http://msdn.microsoft.com/library/ca8e3773-980e-4767-8633-7408540e9818) and [Try...Catch...Finally Statement](http://msdn.microsoft.com/library/d6488026-ccb3-42b8-a810-0d97b9d6472b).  
+ Typically, code snippet Try…Catch blocks catch and rethrow all exceptions. That may not be the right choice for your project. For each exception, there are several ways to respond. For examples, see [How to: Handle an Exception Using try/catch (C# Programming Guide)](https://msdn.microsoft.com/library/ca8e3773-980e-4767-8633-7408540e9818) and [Try...Catch...Finally Statement](https://msdn.microsoft.com/library/d6488026-ccb3-42b8-a810-0d97b9d6472b).  
   
 ## File Locations  
  When you adapt file locations to your application, you should think about the following:  
@@ -54,13 +54,13 @@ The code in a code snippet shows only the most basic way to do something. For mo
   
 - Open all downloaded snippet files in Notepad or the XML editor of Visual Studio and review them carefully before installing them. Look for the following issues:  
   
-    - The snippet code could damage your system if you execute it. Read the source code carefully before running it.  
-  
-    - The Help URL block of the snippet file can contain URLs that execute a malicious script file or display an offensive Web site.  
-  
-    - The snippet may contain references that are added silently to your project and may be loaded from anywhere on your system. These references may have been downloaded to your computer from where you downloaded the snippet. The snippet may then make a call to a method in the reference that executes malicious code. To protect yourself against such an attack, review the Imports and References blocks of the snippet file.  
+  - The snippet code could damage your system if you execute it. Read the source code carefully before running it.  
+
+  - The Help URL block of the snippet file can contain URLs that execute a malicious script file or display an offensive Web site.  
+
+  - The snippet may contain references that are added silently to your project and may be loaded from anywhere on your system. These references may have been downloaded to your computer from where you downloaded the snippet. The snippet may then make a call to a method in the reference that executes malicious code. To protect yourself against such an attack, review the Imports and References blocks of the snippet file.  
   
 ## See Also  
- [Visual Basic IntelliSense Code Snippets](http://msdn.microsoft.com/library/ffdde4c9-8141-4906-b09b-15181357a643)   
+ [Visual Basic IntelliSense Code Snippets](https://msdn.microsoft.com/library/ffdde4c9-8141-4906-b09b-15181357a643)   
  [Securing Applications](../ide/securing-applications.md)   
  [Code Snippets](../ide/code-snippets.md)

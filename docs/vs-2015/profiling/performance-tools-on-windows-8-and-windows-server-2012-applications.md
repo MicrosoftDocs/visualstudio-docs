@@ -16,7 +16,7 @@ manager: jillfra
 Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way Visual Studio performance tools collect data on these platforms. Windows Store apps also require new collection techniques. This topic describes the changes for performance tools on Windows 8 and Windows Server 2012 platforms.  
   
 > [!NOTE]
->  Performance tools for other supported versions of Windows (Windows 7, Windows Server 2008 R2) have not changed.  
+> Performance tools for other supported versions of Windows (Windows 7, Windows Server 2008 R2) have not changed.  
   
 ## <a name="BKMK_In_this_topic"></a> In this topic  
  [Collecting data on Windows Store apps from the Visual Studio IDE](#BKMK_Profiling_Windows_Store_apps_from_the_Visual_Studio_IDE)  
@@ -54,19 +54,19 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
   
   [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md)  
   
-  [Analyze app performance](http://msdn.microsoft.com/library/58acb30b-8428-41a6-b195-b0fdedb89575)  
+  [Analyze app performance](https://msdn.microsoft.com/library/58acb30b-8428-41a6-b195-b0fdedb89575)  
   
-- [JavaScript Function Timing](http://msdn.microsoft.com/library/b2bf49fc-aea7-4d9c-8fcf-cff8b8dd0c03)  
+- [JavaScript Function Timing](https://msdn.microsoft.com/library/b2bf49fc-aea7-4d9c-8fcf-cff8b8dd0c03)  
   
-- [JavaScript Function Timing on a Remote Device](http://msdn.microsoft.com/library/d78812b6-a97e-46dc-8d99-e724d1d725d8)  
+- [JavaScript Function Timing on a Remote Device](https://msdn.microsoft.com/library/d78812b6-a97e-46dc-8d99-e724d1d725d8)  
   
-- [Analyze JavaScript Function Timing data](http://msdn.microsoft.com/library/b5aea8d8-36df-47ba-a7ca-95406700ca9b)  
+- [Analyze JavaScript Function Timing data](https://msdn.microsoft.com/library/b5aea8d8-36df-47ba-a7ca-95406700ca9b)  
   
-- [Profile Visual C++, Visual C#, and Visual Basic code in Windows Store apps on a local machine](http://msdn.microsoft.com/2d0c939e-0bac-48c5-b727-46f6c6113060)  
+- [Profile Visual C++, Visual C#, and Visual Basic code in Windows Store apps on a local machine](https://msdn.microsoft.com/2d0c939e-0bac-48c5-b727-46f6c6113060)  
   
-- [Profile Visual C++, Visual C#, and Visual Basic code in Windows Store apps on a remote device](http://msdn.microsoft.com/b932a2be-11b0-40fd-b996-75c6b6a79d22)  
+- [Profile Visual C++, Visual C#, and Visual Basic code in Windows Store apps on a remote device](https://msdn.microsoft.com/b932a2be-11b0-40fd-b996-75c6b6a79d22)  
   
-- [Analyze performance data for Visual C++, Visual C#, and Visual Basic code in Windows Store apps](http://msdn.microsoft.com/5de4a413-d924-425f-afc4-e1ecfb0fca18)  
+- [Analyze performance data for Visual C++, Visual C#, and Visual Basic code in Windows Store apps](https://msdn.microsoft.com/5de4a413-d924-425f-afc4-e1ecfb0fca18)  
   
   [In this topic](#BKMK_In_this_topic)  
   
@@ -99,7 +99,7 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
 - Copy and run the stand-alone profiler tools installation program from your Visual Studio computer. The installation programs are in *%VSInstallDir%* **\Team Tools\Performance Tools\Setups** folder. Choose the setup program for the operating system (x86/x64) of the remote computer.  
   
 > [!NOTE]
->  To collect TIP profiling data, you must install the stand-alone profiler from your Visual Studio machine on the remote computer.  
+> To collect TIP profiling data, you must install the stand-alone profiler from your Visual Studio machine on the remote computer.  
   
  These profiling features and options are not supported when profiling Windows 8 and Windows Server 2012 applications from the command line:  
   
@@ -130,7 +130,7 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
   
    **Collecting TIP data on a remote machine**  
   
-   To collect tier interaction data on a remote machine, you must copy the **vs\_profiler\_**_\<Platform>_**\_**_\<Language>_**.exe** file from the _%VSInstallDir%_**\Team Tools\Performance Tools\Setups** folder of a Visual Studio machine to the remote computer and install it. You cannot use the profiling tools in the [Visual Studio Remote Tools](http://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c) download package.  
+   To collect tier interaction data on a remote machine, you must copy the **vs\_profiler\_**_\<Platform>_**\_**_\<Language>_**.exe** file from the _%VSInstallDir%_**\Team Tools\Performance Tools\Setups** folder of a Visual Studio machine to the remote computer and install it. You cannot use the profiling tools in the [Visual Studio Remote Tools](https://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c) download package.  
   
    You can use [VSPerfCmd](../profiling/vsperfcmd.md) or [VSPerfASPNetCmd](../profiling/vsperfaspnetcmd.md) to collect the profiling data.  
   

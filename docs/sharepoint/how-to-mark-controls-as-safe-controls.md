@@ -21,7 +21,7 @@ ms.workload:
 - [web.config file Settings Change](http://go.microsoft.com/fwlink/?LinkId=178965) and [Registering a Web Part Assembly as a Safe Control](http://go.microsoft.com/fwlink/?LinkId=171013).
 
 > [!IMPORTANT]
->  These procedures are for illustrative purposes. Mark controls safe only if you are certain that they are secure.
+> These procedures are for illustrative purposes. Mark controls safe only if you are certain that they are secure.
 
 ## Marking Safe Controls in the Safe Control Entries Property
 
@@ -88,7 +88,7 @@ ms.workload:
     |Safe Against Script|Leave the **Safe Against Script** check box clear.|
 
     > [!NOTE]
-    >  The **Assembly Name** value for assemblies added through the **Advanced** tab of the **Package Designer** cannot be a token, it must be a strongly-named assembly. For more information, see [Creating and Using Strong-Named Assemblies](http://go.microsoft.com/fwlink/?LinkId=177513).
+    > The **Assembly Name** value for assemblies added through the **Advanced** tab of the **Package Designer** cannot be a token, it must be a strongly-named assembly. For more information, see [Creating and Using Strong-Named Assemblies](http://go.microsoft.com/fwlink/?LinkId=177513).
 
 13. Choose the **Tab** key to create another safe control entry.
 

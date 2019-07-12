@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Display text in a text box in a document using a Button"
+title: "Display text in text box in document using button"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -54,7 +54,7 @@ ms.workload:
 2. From the **Common Controls** tab of the **Toolbox**, drag a <xref:Microsoft.Office.Tools.Word.Controls.TextBox> control to the document.
 
    > [!NOTE]
-   >  In Word, controls are dropped in-line with text by default. You can modify the way controls and shape objects are inserted by changing the default on the **Edit** tab of the **Options** dialog box in Word.
+   > In Word, controls are dropped in-line with text by default. You can modify the way controls and shape objects are inserted by changing the default on the **Edit** tab of the **Options** dialog box in Word.
 
 3. On the **View** menu, click **Properties Window**.
 

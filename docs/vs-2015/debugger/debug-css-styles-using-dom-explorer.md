@@ -37,18 +37,18 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 - Use the **Computed** tab to view the computed values of a style. For example, if you set a size to 1em, the value computed by Internet Explorer might be 16px. Styles in this tab are organized by style name, such as `height`. You can also use this tab to enable or disable specific styles, manually edit values, and to see the immediate results of these changes.  
   
     > [!NOTE]
-    >  In Visual Studio 2013 Update 2, the information provided in the **Trace** tab has been merged with the **Computed** tab, and the **Trace** tab has been removed.  
+    > In Visual Studio 2013 Update 2, the information provided in the **Trace** tab has been merged with the **Computed** tab, and the **Trace** tab has been removed.  
   
 - Use the **Changes** tab (Windows Store and Windows Phone Store apps only) to identify and track CSS styles that you have changed during a debugging session.  
   
 > [!TIP]
->  Changes you make to styles in the **Styles** and **Computed** tabs aren't permanent. They're lost when you stop debugging. To change source code and reload pages without stopping and restarting the debugger, refresh your app by using the  ![Refresh Windows app button](../debugger/media/js-refresh.png "JS_Refresh") button (**Refresh Windows app**) on the **Debug** toolbar (Windows Store and Windows Phone Store apps only). For more info, see [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md).  
+> Changes you make to styles in the **Styles** and **Computed** tabs aren't permanent. They're lost when you stop debugging. To change source code and reload pages without stopping and restarting the debugger, refresh your app by using the  ![Refresh Windows app button](../debugger/media/js-refresh.png "JS_Refresh") button (**Refresh Windows app**) on the **Debug** toolbar (Windows Store and Windows Phone Store apps only). For more info, see [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md).  
   
 ## Example of fixing a CSS rule  
  This example shows how to inspect CSS rules and debug a style issue. For this example, let's say that you want to change the color of a font used to display group titles in the [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] Split App template.  
   
 > [!NOTE]
->  This example shows a Windows Store app, but all the DOM Explorer features shown also apply to a Windows Phone Store app and, except for the Changes tab, an app created using Visual Studio Tools for Apache Cordova.  
+> This example shows a Windows Store app, but all the DOM Explorer features shown also apply to a Windows Phone Store app and, except for the Changes tab, an app created using Visual Studio Tools for Apache Cordova.  
   
 #### To view and change CSS rules  
   
@@ -92,19 +92,19 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
      When the app finishes loading, look at the headings of the list items, such as **Group Title: 1**. The color is unchanged, so the attempt to apply an orange color to the titles didn't work. We'll figure out what went wrong and fix it by using the CSS tabs in DOM Explorer.  
   
     > [!TIP]
-    >  After the app appears in the Simulator, position the Simulator right next to the Visual Studio window so you can immediately see the results of your selections and changes you make to CSS styles.  
+    > After the app appears in the Simulator, position the Simulator right next to the Visual Studio window so you can immediately see the results of your selections and changes you make to CSS styles.  
   
 6. Switch to Visual Studio and click **Select Element** in DOM Explorer (or press Ctrl+B). This changes the selection mode so that you can select an item by clicking it, and brings the app into the foreground. The mode reverts back after a single click. Here is the **Select Element** button. ![Select Element Button in DOM Explorer](../debugger/media/js-dom-select-element-button.png "JS_DOM_Select_Element_Button")  
   
     > [!TIP]
-    >  You can also select HTML elements directly in DOM Explorer. For more info on selecting elements, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md).  
+    > You can also select HTML elements directly in DOM Explorer. For more info on selecting elements, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md).  
   
 7. In the Simulator, hover over the title of the first item in the list, **Group Title: 1**, in the left panel of the home page. The title is highlighted, as shown here:  
   
      ![Using the Select Element button](../debugger/media/js-css-select-element.png "JS_CSS_Select_Element")  
   
     > [!NOTE]
-    >  The Windows Phone Emulator only partially supports highlighting elements by hovering.  
+    > The Windows Phone Emulator only partially supports highlighting elements by hovering.  
   
 8. Click the outlined title. DOM Explorer automatically selects the corresponding HTML element, which looks similar to this.  
   
@@ -121,12 +121,12 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
     - The CSS selector we modified in items.css, `.itemspage .itemslist .item`, is not being used in the final style calculation (it appears in strikethrough text). Several other occurrences of the `color` style also aren't being used.  
   
         > [!TIP]
-        >  For longer selector names, the full name appears in a tooltip.  
+        > For longer selector names, the full name appears in a tooltip.  
   
     - The final computed CSS value, `rgba(255, 255, 255, 0.87)`, is set specifically for the following CSS selector: `.itemspage .itemslist .item .item-overlay .item-title`, which is also defined in items.css.  
   
         > [!TIP]
-        >  Now that we know where the title color is set, we also know where we might change it. However, we can also test changes in DOM Explorer without refreshing the app, as shown in the remaining steps.  
+        > Now that we know where the title color is set, we also know where we might change it. However, we can also test changes in DOM Explorer without refreshing the app, as shown in the remaining steps.  
   
 9. Clear the check box for the first occurrence of the `color` style, which is for the `.itemspage .itemslist .item .item-overlay .item-title` selector. Now, in the Simulator, you see that the color of the item titles all change to orange, as we intended, and the selector we modified in CSS, `.itemspage .itemslist .item`, is no longer overridden (that is, it no longer has strikethrough text applied). Here's the **Computed** tab after we clear the check box.  
   

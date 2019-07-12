@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn about the DataCamp training subscription included with selected Visual Studio subscriptions.
-searchscope: VS Subscription
 ---
 
 # The DataCamp training benefit in Visual Studio subscriptions
@@ -65,7 +64,6 @@ You can stop at any point, and resume your training in your next session.  Just 
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | 3 months                                                            |  No.  Available to new subscribers only           |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | 3-months                                             |  No.  Available to new subscribers only           |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | 3-months                                              |  No.  Available to new subscribers only           |
-| Visual Studio Dev Essentials | N/A  | 2 months | No. Available to new subscribers only |
 | Visual Studio Enterprise (Standard)  | NFR<sup>1</sup> |Not available  | N/A |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
 
@@ -78,8 +76,8 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## Support resources
 - Need help with using DataCamp?  Check out these resources:
-    - [DataCamp Community](https://www.datacamp.com/community/tutorials), featuring forums and tutorials.
-    - [DataCamp Help Center](https://support.datacamp.com/hc), where search support topics and see request user questions.
-    - [Submit a support request](https://support.datacamp.com/hc/requests/new)
+  - [DataCamp Community](https://www.datacamp.com/community/tutorials), featuring forums and tutorials.
+  - [DataCamp Help Center](https://support.datacamp.com/hc), where search support topics and see request user questions.
+  - [Submit a support request](https://support.datacamp.com/hc/requests/new)
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

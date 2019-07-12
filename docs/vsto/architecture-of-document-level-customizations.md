@@ -43,7 +43,7 @@ ms.workload:
  If a user opens multiple document-level customizations at the same time, each assembly is loaded in a different application domain. This means that one solution that behaves incorrectly cannot cause other solutions to fail. Document-level customizations are designed to work with a single document in a single application domain. They are not designed for cross-document communication. For more information about application domains, see [Application domains](/dotnet/framework/app-domains/application-domains).
 
 > [!NOTE]
->  Document-level customizations that you create by using the Office developer tools in Visual Studio are designed to be used only when the application is started by an end user. If the application is started programmatically, for example, by using Automation, the customization might not work as expected.
+> Document-level customizations that you create by using the Office developer tools in Visual Studio are designed to be used only when the application is started by an end user. If the application is started programmatically, for example, by using Automation, the customization might not work as expected.
 
 ### Design-time and run-time experiences
  To understand the architecture of document-level customizations, it helps to understand the experiences of designing a solution and of running a solution.
@@ -112,7 +112,7 @@ ms.workload:
  ![2007 Office customization architecture](../vsto/media/office07-custom.png "2007 Office customization architecture")
 
 > [!NOTE]
->  In Office solutions that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], solutions call into the object model of the host application by using primary interop assembly (PIA) type information that is embedded in the solution assembly, instead of calling into the PIA directly. For more information, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).
+> In Office solutions that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], solutions call into the object model of the host application by using primary interop assembly (PIA) type information that is embedded in the solution assembly, instead of calling into the PIA directly. For more information, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).
 
 ### Loading process
  The following steps occur when a user opens a document that is part of a Microsoft Office solution.

@@ -36,7 +36,7 @@ DataTips provide a convenient way to view information about variables in your pr
     A DataTip appears.  
   
    > [!NOTE]
-   >  Data tips are always evaluated in the context where execution is suspended, and not where the cursor is hovering. If you hover over a variable in another function with the same name as a variable that is in the current context, the value of the variable in the other function is displayed as the value of the variable in the current context.  
+   > Data tips are always evaluated in the context where execution is suspended, and not where the cursor is hovering. If you hover over a variable in another function with the same name as a variable that is in the current context, the value of the variable in the other function is displayed as the value of the variable in the current context.  
   
 2. The DataTip disappears when you remove the mouse pointer. To pin the DataTip so that it remains open, click the **Pin to source** icon, or  
   
@@ -137,6 +137,6 @@ DataTips provide a convenient way to view information about variables in your pr
   
 ## See Also  
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   
- [How to: Use the QuickWatch Dialog Box](http://msdn.microsoft.com/library/ffaee1dd-e5ce-4ef2-9401-d28329398867)   
+ [How to: Use the QuickWatch Dialog Box](https://msdn.microsoft.com/library/ffaee1dd-e5ce-4ef2-9401-d28329398867)   
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)   
- [How to: Change the Numeric Format of Debugger Windows](http://msdn.microsoft.com/library/cd593847-a625-411d-a430-b798346ef18f)
+ [How to: Change the Numeric Format of Debugger Windows](https://msdn.microsoft.com/library/cd593847-a625-411d-a430-b798346ef18f)

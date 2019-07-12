@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "toolbars [Visual Studio], best practices"
   - "menu commands, best practices"
 ms.assetid: 3ffc4312-c6db-4759-a946-a4bb85f4a17a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

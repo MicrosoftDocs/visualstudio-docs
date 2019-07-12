@@ -28,7 +28,7 @@ After you create a bootstrapper package, you can create localized versions of th
 3. Create a package manifest named package.xml, update the strings and culture, and put the file in the new folder. If you have already created a bootstrapper of Visual Studio in the target language, you can copy the Visual Studio package.xml file and modify it in this step.  
   
 > [!NOTE]
->  If you are using a Setup project to deploy applications, you can localize your application by changing the **Localization** property.  
+> If you are using a Setup project to deploy applications, you can localize your application by changing the **Localization** property.  
   
  [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  
   

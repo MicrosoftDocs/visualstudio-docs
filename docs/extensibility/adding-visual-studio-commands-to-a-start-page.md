@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "start page commands"
   - "vs:VSCommands"
 ms.assetid: a8e2765c-cfb5-47b5-a414-6e48b434e0c2
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -44,7 +44,7 @@ You can use the `vscom:` alias to bind Visual Studio commands to XAML controls o
 ```
 
 > [!NOTE]
->  The `x:` alias, which refers to the XAML schema, is required at the beginning of all commands.
+> The `x:` alias, which refers to the XAML schema, is required at the beginning of all commands.
 
  You can set the value of the `Command` property to any command that can be accessed from the **Command** window. For a list of available commands, see [Visual Studio command aliases](../ide/reference/visual-studio-command-aliases.md).
 
@@ -60,7 +60,7 @@ You can use the `vscom:` alias to bind Visual Studio commands to XAML controls o
  You can call commands from registered VSPackages by using the same syntax that is used to call other Visual Studio commands. For example, if an installed VSPackage adds a **Home Page** command to the **View** menu, you can call that command by setting `CommandParameter` to `View.HomePage`.
 
 > [!NOTE]
->  If you call a command that is associated with a VSPackage, the package must be loaded when the command is invoked.
+> If you call a command that is associated with a VSPackage, the package must be loaded when the command is invoked.
 
 ## Add commands from assemblies
  To call a command from an assembly, or to access code in a VSPackage that is not associated with a menu command, you must create an alias for the assembly and then call the alias.
@@ -84,7 +84,7 @@ You can use the `vscom:` alias to bind Visual Studio commands to XAML controls o
     ```
 
 > [!NOTE]
->  You must copy your assembly and then paste it in *..\\{Visual Studio installation folder}\Common7\IDE\PrivateAssemblies\* to make sure it is loaded before it is called.
+> You must copy your assembly and then paste it in *..\\{Visual Studio installation folder}\Common7\IDE\PrivateAssemblies\* to make sure it is loaded before it is called.
 
 ## Add commands with the DTE object
  You can access the DTE object from a Start Page, both in markup and in code.

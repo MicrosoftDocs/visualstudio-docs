@@ -16,7 +16,7 @@ manager: jillfra
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
+> In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
  Here is an overview of how Visual Studio obtains the locals for a method from the expression evaluator (EE):  
   
@@ -60,7 +60,7 @@ manager: jillfra
  [Evaluation Context](../../extensibility/debugger/evaluation-context.md)  
  Provides the arguments that are passed when the DE calls the expression evaluator (EE).  
   
- [MyCEE Sample](http://msdn.microsoft.com/624a018b-9179-402f-9d48-3aec87b48f4f)  
+ [MyCEE Sample](https://msdn.microsoft.com/624a018b-9179-402f-9d48-3aec87b48f4f)  
  Demonstrates one implementation approach to creating an expression evaluator for the MyC language.  
   
 ## See Also  

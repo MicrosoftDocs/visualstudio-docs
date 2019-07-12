@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Site Column Project Item with a Project Template, Part 1 | Microsoft Docs"
+title: "Create site column project item with project template, part 1"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -69,7 +69,7 @@ ms.workload:
 4. Expand the **Visual Basic** or **Visual C#** nodes, and then choose the **Extensibility** node.
 
     > [!NOTE]
-    >  The **Extensibility** node is available only if you install the Visual Studio SDK. For more information, see the prerequisites section earlier in this topic.
+    > The **Extensibility** node is available only if you install the Visual Studio SDK. For more information, see the prerequisites section earlier in this topic.
 
 5. In the list of project templates, choose **VSIX Project**.
 
@@ -156,7 +156,7 @@ ms.workload:
 2. Create a SharePoint 2010 project that's named **BaseSharePointProject**.
 
    > [!IMPORTANT]
-   >  In the **SharePoint Customization Wizard**, don't select the **Deploy as a farm solution** option button.
+   > In the **SharePoint Customization Wizard**, don't select the **Deploy as a farm solution** option button.
 
 3. Add an Empty Element item to the project, and then name the item **Field1**.
 
@@ -169,7 +169,7 @@ ms.workload:
 7. In the directory that contains the BaseSharePointProject project, select the key.snk file, and then choose the **Add** button.
 
    > [!NOTE]
-   >  In this walkthrough, the project template that you create uses the same key.snk file to sign each project that's created by using the template. To learn how to expand this sample to create a different key.snk file for each project instance, see [Walkthrough: Create a site column project item with a project template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md).
+   > In this walkthrough, the project template that you create uses the same key.snk file to sign each project that's created by using the template. To learn how to expand this sample to create a different key.snk file for each project instance, see [Walkthrough: Create a site column project item with a project template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md).
 
 8. Repeat steps 5-8 to add the following files from the specified subfolders in the BaseSharePointProject directory:
 
@@ -648,7 +648,7 @@ ms.workload:
 6. In the **Type** list, choose **Microsoft.VisualStudio.ProjectTemplate**.
 
     > [!NOTE]
-    >  This value corresponds to the `ProjectTemplate` element in the extension.vsixmanifest file. This element identifies the subfolder in the VSIX package that contains the project template. For more information, see [ProjectTemplate Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393735\(v\=vs.100\)).
+    > This value corresponds to the `ProjectTemplate` element in the extension.vsixmanifest file. This element identifies the subfolder in the VSIX package that contains the project template. For more information, see [ProjectTemplate Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393735\(v\=vs.100\)).
 
 7. In the **Source** list, choose **A project in current solution**.
 
@@ -661,7 +661,7 @@ ms.workload:
 10. In the **Type** list, choose **Microsoft.VisualStudio.MefComponent**.
 
     > [!NOTE]
-    >  This value corresponds to the `MefComponent` element in the extension.vsixmanifest file. This element specifies the name of an extension assembly in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\)).
+    > This value corresponds to the `MefComponent` element in the extension.vsixmanifest file. This element specifies the name of an extension assembly in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\)).
 
 11. In the **Source** list, choose **A project in current solution**.
 
@@ -709,14 +709,14 @@ ms.workload:
      This step specifies the local SharePoint site on the development computer that you want to use for debugging.
 
     > [!NOTE]
-    >  The **Site URL** property is empty by default because the Site Column project template doesn't provide a wizard for collecting this value when the project is created. To learn how to add a wizard that asks the developer for this value and then configures this property in the new project, see [Walkthrough: Create a site column project item with a project template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md).
+    > The **Site URL** property is empty by default because the Site Column project template doesn't provide a wizard for collecting this value when the project is created. To learn how to add a wizard that asks the developer for this value and then configures this property in the new project, see [Walkthrough: Create a site column project item with a project template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md).
 
 3. Choose the **F5** key.
 
      The site column is packaged and deployed to the SharePoint site that's specified in the **Site URL** property of the project. The web browser opens to the default page of this site.
 
     > [!NOTE]
-    >  If the **Script Debugging Disabled** dialog box appears, choose the **Yes** button to continue to debug the project.
+    > If the **Script Debugging Disabled** dialog box appears, choose the **Yes** button to continue to debug the project.
 
 4. On the **Site Actions** menu, choose **Site Settings**.
 

@@ -22,12 +22,12 @@ Graphics Diagnostics supports remote debugging of Direct3D apps on ARM-based dev
   
 #### To enable remote debugging on your ARM-based device  
   
-1. Install the [ARM Kits Policy](http://msdn.microsoft.com/windows/desktop/dn469188) on your ARM-based device.  
+1. Install the [ARM Kits Policy](https://msdn.microsoft.com/windows/desktop/dn469188) on your ARM-based device.  
   
 2. Install the [Remote Debugging Tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015) on your ARM-based device.  
   
 > [!IMPORTANT]
->  For Windows Phone 8.1 devices, you might have to register your phone for development. To do so, you must be a registered developer. For more information, see [How to deploy and run an app for Windows Phone 8](http://msdn.microsoft.com/library/windowsphone/develop/ff402565.aspx).  
+> For Windows Phone 8.1 devices, you might have to register your phone for development. To do so, you must be a registered developer. For more information, see [How to deploy and run an app for Windows Phone 8](https://msdn.microsoft.com/library/windowsphone/develop/ff402565.aspx).  
   
  After you've enabled remote debugging on your device, make it your debug target and start Graphics Diagnostics.  
   

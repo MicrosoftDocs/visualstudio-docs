@@ -18,7 +18,7 @@ manager: jillfra
 You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and deploy iOS code to the iOS Simulator or to an iOS device, but because of licensing restrictions, the code must be built and run remotely on a Mac. To build and run iOS apps using Visual Studio, you need to set up and configure the remote agent, [vcremote](http://go.microsoft.com/fwlink/p/?LinkId=534988), on your Mac. The remote agent handles build requests from Visual Studio and runs the app on an iOS device connected to the Mac, or in the iOS Simulator on the Mac.  
   
 > [!NOTE]
->  For information on using cloud-hosted Mac services instead of a Mac, see [Build and Simulate iOS in the Cloud](https://taco.visualstudio.com/docs/build_ios_cloud/). The instructions are for building using Visual Studio Tools for Apache Cordova. To use the instructions to build using Visual C++ for Cross-Platform Mobile Development, substitute vcremote for vs-mda-remote.  
+> For information on using cloud-hosted Mac services instead of a Mac, see [Build and Simulate iOS in the Cloud](https://taco.visualstudio.com/docs/build_ios_cloud/). The instructions are for building using Visual Studio Tools for Apache Cordova. To use the instructions to build using Visual C++ for Cross-Platform Mobile Development, substitute vcremote for vs-mda-remote.  
   
  Once you have installed the tools to build using iOS, refer to this topic for ways to quickly configure and update the remote agent for iOS development in Visual Studio and on your Mac.  
   
@@ -87,7 +87,7 @@ You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and 
    During the installation, vcremote is installed and developer mode is activated on your Mac. [Homebrew](http://brew.sh/) and two npm packages, vcremote-lib and vcremote-utils, are also installed.  
   
   > [!NOTE]
-  >  To install Homebrew, you must have sudo (administrator) access. If you need to install vcremote without sudo, you can install Homebrew manually in a usr/local location and add its bin folder to your path. For more information, see the [Homebrew documentation](https://github.com/Homebrew/homebrew/wiki/Installation). To manually enable developer mode, enter this command in the Terminal app: `DevToolsSecurity –enable`  
+  > To install Homebrew, you must have sudo (administrator) access. If you need to install vcremote without sudo, you can install Homebrew manually in a usr/local location and add its bin folder to your path. For more information, see the [Homebrew documentation](https://github.com/Homebrew/homebrew/wiki/Installation). To manually enable developer mode, enter this command in the Terminal app: `DevToolsSecurity –enable`  
   
   If you update to a new version of Visual Studio, you must update to the current version of the remote agent as well. To update the remote agent, repeat the steps to download and install the remote agent.  
   
@@ -148,7 +148,7 @@ You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and 
 5. In the **Host Name** and **Port** fields, enter the values specified by the remote agent when you started it. The host name can be the DNS name or IP address of your Mac. The default port is 3030.  
   
    > [!NOTE]
-   >  If you cannot ping the Mac using the host name, you may need to use the IP address.  
+   > If you cannot ping the Mac using the host name, you may need to use the IP address.  
   
 6. If you use the remote agent in the default secured connection mode, check the **Secure** checkbox, then enter the PIN value specified by the remote agent in the **Pin** field. If you use the remote agent in unsecured connection mode, clear the **Secure** checkbox and leave the **Pin** field blank.  
   

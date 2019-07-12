@@ -68,7 +68,7 @@ ms.workload:
  [!code-vb[Trin_VstcoreOutlookSecurity#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreOutlookSecurity/ThisAddIn.vb#2)]
 
 > [!NOTE]
->  If Outlook is used with Exchange, then obtaining all Outlook objects from `ThisAddIn.Application` does not guarantee that your VSTO Add-in will be able to access the entire Outlook object model. For example, if an Exchange administrator sets Outlook to automatically deny all attempts to access address information using the Outlook object model, then Outlook will not allow the previous code example to access the To property, even though the code example uses the trusted `ThisAddIn.Application` field.
+> If Outlook is used with Exchange, then obtaining all Outlook objects from `ThisAddIn.Application` does not guarantee that your VSTO Add-in will be able to access the entire Outlook object model. For example, if an Exchange administrator sets Outlook to automatically deny all attempts to access address information using the Outlook object model, then Outlook will not allow the previous code example to access the To property, even though the code example uses the trusted `ThisAddIn.Application` field.
 
 ### Specify which Add-ins to trust when using Exchange
  When Outlook is used with Exchange, administrators can specify that certain VSTO Add-ins can run without encountering the object model guard. Outlook VSTO Add-ins created by using Office solutions in Visual Studio cannot be trusted individually; they can only be trusted as a group.

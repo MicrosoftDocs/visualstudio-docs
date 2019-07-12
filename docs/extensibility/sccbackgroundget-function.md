@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccBackgroundGet function"
 ms.assetid: 69817e52-b9ac-4f4d-820b-2cc9c384f0dc
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -42,7 +42,7 @@ SCCRTN SccBackgroundGet(
 [in, out] Array of names of files to be retrieved.
 
 > [!NOTE]
->  The names must be fully qualified local filenames.
+> The names must be fully qualified local filenames.
 
  dwFlags
 

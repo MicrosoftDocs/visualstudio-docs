@@ -18,7 +18,7 @@ Check that your code is working as expected by creating and running unit tests. 
   
  Unit testing has the greatest effect on the quality of your code when it’s an integral part of your software development workflow. As soon as you write a function or other block of application code, create unit tests that verify the behavior of the code in response to standard, boundary, and incorrect cases of input data, and that check any explicit or implicit assumptions made by the code. With *test driven development*, you create the unit tests before you write the code, so you use the unit tests as both design documentation and functional specifications.  
   
- You can quickly generate test projects and test methods from your code, or manually create the tests as you need them. When you use IntelliTest to explore your .NET code, you can generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. Find out how to [generate unit tests for your code](http://msdn.microsoft.com/library/dn823749.aspx).  
+ You can quickly generate test projects and test methods from your code, or manually create the tests as you need them. When you use IntelliTest to explore your .NET code, you can generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. Find out how to [generate unit tests for your code](https://msdn.microsoft.com/library/dn823749.aspx).  
   
  Test Explorer can also run third-party and open source unit test frameworks that have implemented Test Explorer add-on interfaces. You can add many of these frameworks through the Visual Studio Extension Manager and the Visual Studio gallery. See [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)  
   
@@ -43,7 +43,7 @@ Check that your code is working as expected by creating and running unit tests. 
   
 - [Quick Start: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)  
   
-- [Unit testing native code with Test Explorer](http://msdn.microsoft.com/8a09d6d8-3613-49d8-9ffe-11375ac4736c)  
+- [Unit testing native code with Test Explorer](https://msdn.microsoft.com/8a09d6d8-3613-49d8-9ffe-11375ac4736c)  
   
 ## <a name="BKMK_The_MyBank_Solution_example"></a> The MyBank Solution example  
  In this topic, we use the development of a fictional application called `MyBank` as an example. You don’t need the actual code to follow the explanations in this topic. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code, However, the concepts are easily transferred to other languages and frameworks.  
@@ -118,7 +118,7 @@ public void Withdraw(double amount)
 7. To use one of the Microsoft unit test frameworks, choose **Unit Test Project** from the list of project templates. Otherwise, choose the project template of the unit test framework that you want to use. To test the `Accounts` project of our example, you would name the project `AccountsTests`.  
   
    > [!WARNING]
-   >  Not all third-party and open source unit test frameworks provide a Visual Studio project template. Consult the framework document for information about creating a project.  
+   > Not all third-party and open source unit test frameworks provide a Visual Studio project template. Consult the framework document for information about creating a project.  
   
 8. In your unit test project, add a reference to the code project under test, in our example to the Accounts project.  
   
@@ -232,7 +232,7 @@ public void My_Test ()
 ### <a name="BKMK_Running_tests_after_every_build"></a> Run tests after every build  
   
 > [!WARNING]
->  Running unit tests after every build is supported only in Visual Studio Enterprise.  
+> Running unit tests after every build is supported only in Visual Studio Enterprise.  
   
 |||  
 |-|-|  
@@ -257,7 +257,7 @@ public void My_Test ()
 1. In the Visual Studio editor, set a breakpoint in one or more test methods that you want to debug.  
   
    > [!NOTE]
-   >  Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.  
+   > Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.  
   
 2. In Test Explorer, select the test methods and then choose **Debug Selected Tests** from the shortcut menu.  
   
@@ -274,7 +274,7 @@ public void My_Test ()
    **A:** Yes. *Data-driven test methods* let you test a range of values with a single unit test method. Use a `DataSource` attribute for the test method that specifies the data source and table that contains the variable values that you want to test.  In the method body, you assign the row values to variables using the `TestContext.DataRow[`*ColumnName*`]` indexer.  
   
 > [!NOTE]
->  These procedures apply only to test methods that you write by using the Microsoft unit test framework for managed code. If you’re using a different framework, consult the framework documentation for equivalent functionality.  
+> These procedures apply only to test methods that you write by using the Microsoft unit test framework for managed code. If you’re using a different framework, consult the framework documentation for equivalent functionality.  
   
  For example, assume we add an unnecessary method to the `CheckingAccount` class that is named `AddIntegerHelper`. `AddIntegerHelper` adds two integers.  
   

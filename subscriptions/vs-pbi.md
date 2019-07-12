@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn about the Power BI Pro subscription included with selected Visual Studio subscriptions.
-searchscope: VS Subscription
 ---
 
 # Power BI Pro in Visual Studio subscriptions
@@ -68,8 +67,8 @@ To use Power BI Pro, you’ll need to set up an account or sign in using an exis
 | Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                       | Not available                                                            |NA         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                                            |NA         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Available       |  Yes|
-| Visual Studio Dev Essentials | NA  | Not available |NA|
 | Visual Studio Enterprise (monthly cloud) | Azure                                       | Not available                                  |NA|
+||
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Most Valuable Professional (MVP), Regional Director (RD).  Excludes:  Microsoft Partner Network (MPN), FTE, Imagine.*
 
@@ -106,9 +105,9 @@ A:  No.  The Power BI Pro benefit cannot be added to government tenants.
 
 ## Support resources
 - Need help with Power BI Pro?
-    - Check out the [online documentation](/power-bi/).
-    - Problems signing up?  Check out [Signing up for Power BI as an Individual](/power-bi/service-self-service-signup-for-power-bi)
-    - Explore top issues, get help from the community or submit a support ticket on the [Support page](https://powerbi.microsoft.com/support/).
+  - Check out the [online documentation](/power-bi/).
+  - Problems signing up?  Check out [Signing up for Power BI as an Individual](/power-bi/service-self-service-signup-for-power-bi)
+  - Explore top issues, get help from the community or submit a support ticket on the [Support page](https://powerbi.microsoft.com/support/).
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 

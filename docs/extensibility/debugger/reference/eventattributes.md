@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "EVENTATTRIBUTES enumeration"
 ms.assetid: 04db10f7-df31-4464-98e8-b3777428179e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # EVENTATTRIBUTES
 Specifies the event attributes.
@@ -43,26 +46,26 @@ public enum enum_EVENTATTRIBUTES {
 };
 ```
 
-## Members
-EVENT_ASYNCHRONOUS
+## Fields
+`EVENT_ASYNCHRONOUS`\
 Indicates that the event is asynchronous and no reply to the event is needed.
 
-EVENT_SYNCHRONOUS
+`EVENT_SYNCHRONOUS`\
 Indicates that the event is synchronous; reply by means of [ContinueFromSynchronousEvent](../../../extensibility/debugger/reference/idebugengine2-continuefromsynchronousevent.md).
 
-EVENT_STOPPING
+`EVENT_STOPPING`\
 Indicates that this is a stopping event. Must be combined with either `EVENT_ASYNCHRONOUS` or `EVENT_SYNCHRONOUS`.
 
-EVENT_ASYNC_STOP
+`EVENT_ASYNC_STOP`\
 Indicates an asynchronous stopping event. There is currently no such event. This flag is only a placeholder.
 
-EVENT_SYNC_STOP
+`EVENT_SYNC_STOP`\
 Indicates a synchronous stopping event (a combination of `EVENT_SYNCHRONOUS` and `EVENT_STOPPING`). This value is used by a debug engine (DE) when it sends a stopping event. The reply is made by means of a call to [Execute](../../../extensibility/debugger/reference/idebugprogram2-execute.md), [Step](../../../extensibility/debugger/reference/idebugprogram2-step.md), or [Continue](../../../extensibility/debugger/reference/idebugprogram2-continue.md).
 
-EVENT_IMMEDIATE
+`EVENT_IMMEDIATE`\
 Indicates an event that is sent immediately and synchronously to the IDE. This flag is combined with other flags like `EVENT_ASYNCHRONOUS`, `EVENT_SYNCHRONOUS`, or `EVENT_SYNC_STOP` to indicate the type of event and the fact that the reply mechanism (if any) is known.
 
-EVENT_EXPRESSION_EVALUATION
+`EVENT_EXPRESSION_EVALUATION`\
 The event is a result of expression evaluation.
 
 ## Remarks
@@ -77,7 +80,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [ContinueFromSynchronousEvent](../../../extensibility/debugger/reference/idebugengine2-continuefromsynchronousevent.md)
 - [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)

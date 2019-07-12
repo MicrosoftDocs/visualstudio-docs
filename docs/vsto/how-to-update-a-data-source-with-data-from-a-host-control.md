@@ -55,7 +55,7 @@ ms.workload:
    - To update the data source when the value of the data-bound property of the control changes, set this property to System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged.
 
      > [!NOTE]
-     >  The System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged option does not apply to Word host controls, because Word does not offer document-change or control-change notifications. However, this option can be used for Windows Forms controls on Word documents.
+     > The System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged option does not apply to Word host controls, because Word does not offer document-change or control-change notifications. However, this option can be used for Windows Forms controls on Word documents.
 
      The following example configures a <xref:Microsoft.Office.Tools.Excel.NamedRange> control to automatically update the data source when the value in the control changes. This example assumes that you have a <xref:Microsoft.Office.Tools.Excel.NamedRange> control named `namedRange1` with its <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> property bound to a field in a data source.
 
@@ -79,7 +79,7 @@ ms.workload:
     - To update the data source when the value of the data-bound property of the control changes, select **OnPropertyChanged**.
 
         > [!NOTE]
-        >  The **OnPropertyChanged** option does not apply to Word host controls, because Word does not offer document-change or control-change notifications. However, this option can be used for Windows Forms controls on Word documents.
+        > The **OnPropertyChanged** option does not apply to Word host controls, because Word does not offer document-change or control-change notifications. However, this option can be used for Windows Forms controls on Word documents.
 
 6. Close the **Formatting and Advanced Binding** dialog box.
 

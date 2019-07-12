@@ -4,7 +4,7 @@ description: "An overview of navigation, code analysis, unit testing, and other 
 author: kuhlenh
 ms.author: gewarren
 manager: jillfra
-ms.date: 03/26/2019
+ms.date: 04/25/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "editor"
@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Visual Studio productivity guide for C# developers
 
-Learn how Visual Studio makes developers more productive than ever. Take advantage of our performance and productivity improvements like navigation to decompiled assemblies, variable name suggestions as you type, a hierarchy-view in the **Test Explorer**, Go To All (**Ctrl**+**T**) to navigate to file/type/member/symbol declarations, an intelligent **Exception Helper**, code style configuration and enforcement, and many refactorings and code fixes.
+Learn how Visual Studio makes developers more productive than ever. Take advantage of our performance and productivity improvements like navigation to decompiled assemblies, variable name suggestions as you type, a hierarchy-view in **Test Explorer**, Go To All (**Ctrl**+**T**) to navigate to file/type/member/symbol declarations, an intelligent **Exception Helper**, code style configuration and enforcement, and many refactorings and code fixes.
 
 ## I'm used to keyboard shortcuts from a different editor
 
@@ -48,70 +48,85 @@ The following are popular Visual Studio shortcuts:
 | **Ctrl**+**Q** | Search | Search all Visual Studio settings |
 | **F5** | Start Debugging | Start debugging your application |
 | **Ctrl**+**F5** | Run without Debug | Run your application locally without debugging |
-| **Ctrl**+**K**,**D** (Default Profile) or **Ctrl**+**E**,**D** (C# Profile) | [Format Document](code-styles-and-quick-actions.md#format-document-command) | Cleans up formatting violations in your file based on your newline, spacing, and indentation settings |
+| **Ctrl**+**K**,**D** (Default Profile) or **Ctrl**+**E**,**D** (C# Profile) | Format Document | Cleans up formatting violations in your file based on your newline, spacing, and indentation settings |
 | **Ctrl**+**\\**,**Ctrl**+**E** (Default Profile) or **Ctrl**+**W**,**E** (C# Profile) | View Error List | See all errors in your document, project, or solution |
 | **Alt** + **PgUp/PgDn** | Go to Next/Previous Issue | Jump to the previous/next error, warning, suggestion in your document (available in **Visual Studio 2017 version 15.8** and later) |
+| **Ctrl**+**K**,**/** | Toggle single line comment/uncomment | This command adds or removes a single line comment depending on whether your selection is already commented |
+| **Ctrl**+**Shift**+**/** | Toggle block comment/uncomment | This command adds or removes block comments depending on what you have selected |
 
 > [!NOTE]
 > Some extensions unbind the default Visual Studio keybindings. To use the above commands, restore your keybindings to Visual Studio's defaults by going to **Tools** > **Import and Export Settings** > **Reset all settings** or **Tools** > **Options** > **Keyboard** > **Reset**.
 
-For more information about keyboard shortcuts and commands, see [keyboard shortcuts](../ide/tips-and-tricks-for-visual-studio.md).
+For more information about keyboard shortcuts and commands, see [Productivity shortcuts](../ide/productivity-shortcuts.md) and [Popular keyboard shortcuts](default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md).
 
 ## Navigate quickly to files or types
 
-Visual Studio 2017 has a feature called **Go To All** (**Ctrl**+**T**). **Go To All** enables you to quickly jump to any file, type, member, or symbol declaration.
+Visual Studio has a feature called **Go To All** (**Ctrl**+**T**). **Go To All** enables you to quickly jump to any file, type, member, or symbol declaration.
 
 - Change the location of this search bar or turn off the live navigation preview by using the **gear** icon.
 - Filter results using syntax such as `t mytype`.
 - Scope your search to just the current document.
-- Camelcase matching is supported.
+- Camel case matching is supported.
 
 ![Go To All in Visual Studio](../ide/media/VS2017Guide-go-to-all.png)
 
-## Enforce code style rules on a codebase
+## Enforce code style rules
 
-You can use an *.editorconfig* file to codify coding conventions and have them travel with your source.
+You can use an EditorConfig file to codify coding conventions and have them travel with your source.
 
-::: moniker range="vs-2017"
+![Code style enforcement in Visual Studio](../ide/media/VSGuide_CodeStyle.png)
 
-- You can install the [EditorConfig language services extension](https://aka.ms/editorconfig), which makes it easy to add and edit an *.editorconfig* file in Visual Studio.
+- Add a default or .NET-style EditorConfig file to your project by choosing **Add** > **New Item**. In the **Add New Item** dialog box, search for "editorconfig". Select either of the **editorconfig File** item templates and then choose **Add**.
 
-::: moniker-end
+   ![EditorConfig item templates in Visual Studio](media/editorconfig-item-templates.png)
 
 ::: moniker range=">=vs-2019"
 
-- Automatically create an *.editorconfig* file from your code style settings in **Tools** > **Options** > **Text Editor** > **C#** > **Code Style**.
+- Automatically create an *.editorconfig* file based on your code style settings in **Tools** > **Options** > **Text Editor** > **C#** > **Code Style**.
 
    ![Generate .editorconfig file from settings in VS 2019](media/vs-2019/generate-editorconfig-file.png)
 
 ::: moniker-end
 
-- Try out the [IntelliCode extension for Visual Studio](/visualstudio/intellicode/intellicode-visual-studio). This experimental extension infers your code styles from existing code, and then creates a non-empty *.editorconfig* file with your code style preferences already defined.
+- The [code inference feature](/visualstudio/intellicode/code-style-inference) of IntelliCode for Visual Studio infers your code styles from existing code. It then creates a non-empty EditorConfig file with your code-style preferences already defined.
 
-- Check out the [.NET coding convention options](editorconfig-code-style-settings-reference.md) documentation.
+Check out the [.NET coding convention options](editorconfig-code-style-settings-reference.md) documentation, which also contains an example of a complete EditorConfig file.
 
-- See [this gist](https://gist.github.com/kuhlenh/5471666a7a2c57fea427e81cf0a41da8) for an example *.editorconfig* file.
+::: moniker range=">=vs-2019"
 
-![Code style enforcement in Visual Studio](../ide/media/VSGuide_CodeStyle.png)
+## Code Cleanup
+
+Visual Studio provides on-demand formatting of your code file, including code style preferences, through the **Code Cleanup** feature. To run Code Cleanup, click the broom icon at the bottom of the editor or press **Ctrl**+**K**, **Ctrl**+**E**.
+
+![Code Cleanup button in Visual Studio 2019](media/execute-code-cleanup.png)
+
+You can also run code cleanup across your entire project or solution. Right-click on the project or solution name in **Solution Explorer**, select **Analyze and Code Cleanup**, and then select **Run Code Cleanup**.
+
+![Run Code Cleanup Across Entire Project or Solution](media/run-code-cleanup-project-solution.png)
+
+In addition to formatting your file for spaces, indents, et cetera, **Code Cleanup** also applies selected code styles. Your preferences for each code style are read from the [EditorConfig file](code-styles-and-code-cleanup.md#code-styles-in-editorconfig-files), if you have one for the project, or from the [code style settings](code-styles-and-code-cleanup.md#code-styles-in-the-options-dialog-box) in the **Options** dialog box.
+
+::: moniker-end
 
 ## Refactorings and code fixes
 
-Visual Studio comes with a lot of refactorings, code generation actions, and code fixes. Red squiggles represent errors, green squiggles represent warnings, and three gray dots represent code suggestions. You can access code fixes by clicking the light bulb or screwdriver icon, or by pressing **Ctrl**+**.** or **Alt**+**Enter**. Each fix comes with a preview window that shows a live code diff of how the fix works.
+Visual Studio comes with numerous refactorings, code generation actions, and code fixes. Red squiggles represent errors, green squiggles represent warnings, and three gray dots represent code suggestions. You can access code fixes by clicking the light bulb or screwdriver icon, or by pressing **Ctrl**+**.** or **Alt**+**Enter**. Each fix comes with a preview window that shows a live code diff of how the fix works.
 
 Popular quick fixes and refactorings include:
 
-- *Rename*
-- *Extract Method*
-- *Change Method Signature*
-- *Generate Constructor*
-- *Generate Method*
-- *Move Type to File*
-- *Add Null-Check*
-- *Add Parameter*
-- *Remove Unnecessary Usings*
-- *Foreach Loop to LINQ Query or to LINQ method*
-- *Pull Members Up*
-- For more information, see [code generation features](code-generation-in-visual-studio.md)
+- Rename
+- Extract Method
+- Change Method Signature
+- Generate Constructor
+- Generate Method
+- Move Type to File
+- Add Null-Check
+- Add Parameter
+- Remove Unnecessary Usings
+- Foreach Loop to LINQ Query or to LINQ method
+- Pull Members Up
+
+For more information, see [code generation features](code-generation-in-visual-studio.md).
 
 You can [install FxCop analyzers](../code-quality/install-fxcop-analyzers.md) to flag code issues. Or, write your own refactoring or code fix with [Roslyn analyzers](https://github.com/dotnet/roslyn/wiki/Getting-Started-Writing-a-Custom-Analyzer-&-Code-Fix).
 
@@ -141,17 +156,19 @@ Visual Studio has many features to help you search and [navigate your code](../i
 
 ## Improved IntelliSense
 
-Download the [IntelliCode extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.VSIntelliCode) to get [context-aware code completions](/visualstudio/intellicode/intellicode-visual-studio) instead of just an alphabetical list. You can also train a [custom IntelliSense model](/visualstudio/intellicode/custom-model-faq) based on your own domain-specific libraries.
+Use IntelliCode for Visual Studio to get [context-aware code completions](/visualstudio/intellicode/intellicode-visual-studio) instead of just an alphabetical list. You can also train a [custom IntelliSense model](/visualstudio/intellicode/custom-model-faq) based on your own domain-specific libraries.
 
 ## Unit testing
 
 Starting in Visual Studio 2017, there are numerous improvements to the testing experience. You can test with the MSTest v1, MSTest v2, NUnit, or XUnit test frameworks.
 
 - **Test Explorer** test discovery is fast.
-- Organize your tests in **Test Explorer** with *hierarchical sorting*.
-- [Live unit testing](../test/live-unit-testing.md) continuously runs tests impacted by your code changes and updates inline editor icons to let you know the status of your tests. Include or exclude specific tests or test projects from your live test set.
 
-![Hierarchy view for Text Explorer in Visual Studio](../ide/media/VSGuide_Testing.png)
+- Organize your tests in **Test Explorer** with *hierarchical sorting*.
+
+   ![Hierarchy view for Text Explorer in Visual Studio](../ide/media/VSGuide_Testing.png)
+
+- [Live unit testing](../test/live-unit-testing.md) continuously runs tests impacted by your code changes and updates inline editor icons to let you know the status of your tests. Include or exclude specific tests or test projects from your live test set. (Visual Studio Enterprise edition only.)
 
 ## Debugging
 
@@ -161,7 +178,7 @@ Some of Visual Studio's debugging capabilities include:
 
 - The ability to search for a string within the **Watch**, **Autos**, and **Locals** windows.
 - *Run to click*, which lets you hover next to a line of code, hit the green 'play' icon that appears, and run your program until it reaches that line.
-- The **Exception Helper**, which puts the most important information at the top-level in the dialog, for example, which variable is `null` in a `NullReferenceException`.
+- The **Exception Helper**, which puts the most important information at the top level in the dialog, for example, which variable is `null` in a `NullReferenceException`.
 - [Step back debugging](../debugger/view-historical-application-state.md), which lets you go back to previous breakpoints or steps and view the state of the application as it was in the past.
 - [Snapshot debugging](/azure/application-insights/app-insights-snapshot-debugger), which lets you investigate the state of a live web application at the moment an exception was thrown (must be on Azure).
 
@@ -170,7 +187,7 @@ Some of Visual Studio's debugging capabilities include:
 ::: moniker range="vs-2017"
 
 - *Run to click*, which lets you hover next to a line of code, hit the green 'play' icon that appears, and run your program until it reaches that line.
-- The **Exception Helper**, which puts the most important information at the top-level in the dialog, for example, which variable is `null` in a `NullReferenceException`.
+- The **Exception Helper**, which puts the most important information at the top level in the dialog, for example, which variable is `null` in a `NullReferenceException`.
 - [Step back debugging](../debugger/view-historical-application-state.md), which lets you go back to previous breakpoints or steps and view the state of the application as it was in the past.
 - [Snapshot debugging](/azure/application-insights/app-insights-snapshot-debugger), which lets you investigate the state of a live web application at the moment an exception was thrown (must be on Azure).
 
@@ -205,5 +222,5 @@ Here is a list of editor and productivity features to make writing code more eff
 | Enable full solution analysis | See all errors in your solution in the **Error List** | **Tools** > **Options** > **Text Editor** > **C#** > **Advanced** > **Enable full solution analysis** |
 | Enable navigation to decompiled sources | Allow Go To Definition on types/members from external sources and use the ILSpy decompiler to show method bodies | **Tools** > **Options** > **Text Editor** > **C#** > **Advanced** > **Enable navigation to decompiled sources** |
 | Completion/Suggestion Mode | Changes the completion behavior in IntelliSense. Developers with IntelliJ backgrounds tend to use a non-default setting here. | **Menu** > **Edit** > **IntelliSense** > **Toggle Completion Mode** |
-| [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) | Displays code reference information and change history in the editor | **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens** |
+| [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) | Displays code reference information and change history in the editor. (Source control CodeLens indicators aren't available in Visual Studio Community edition.) | **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens** |
 | [Code snippets](../ide/visual-csharp-code-snippets.md) | Help stub out common boilerplate code | Type a snippet name and press **Tab** twice. |

@@ -28,8 +28,8 @@ When you use a conceptual model to describe the data in a database, you can quer
   
 |Topic|Description|  
 |-----------|-----------------|  
-|[How to: Execute Data Service Queries](http://msdn.microsoft.com/library/62997821-e0c6-4c4d-9fb7-1273fb5e5d18)|Shows how to query a data service from a [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] application.|  
-|[How to: Project Query Results](http://msdn.microsoft.com/library/474ac625-8770-43ba-8320-d3315ea9530f)|Shows how to reduce the amount of data returned through a data service query.|  
+|[How to: Execute Data Service Queries](https://msdn.microsoft.com/library/62997821-e0c6-4c4d-9fb7-1273fb5e5d18)|Shows how to query a data service from a [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] application.|  
+|[How to: Project Query Results](https://msdn.microsoft.com/library/474ac625-8770-43ba-8320-d3315ea9530f)|Shows how to reduce the amount of data returned through a data service query.|  
   
  When you use a conceptual model, you can define what kind of data is valid in the language that matches your domain. You can define valid data in the model, or you can add validation to operations that you perform on an entity or data service.  
   
@@ -37,15 +37,15 @@ When you use a conceptual model to describe the data in a database, you can quer
   
 |Topic|Description|  
 |-----------|-----------------|  
-|[How to: Intercept Data Service Messages](http://msdn.microsoft.com/library/24b9df1b-b54b-4795-a033-edf333675de6)|Shows how to add validation to a data service operation.|  
+|[How to: Intercept Data Service Messages](https://msdn.microsoft.com/library/24b9df1b-b54b-4795-a033-edf333675de6)|Shows how to add validation to a data service operation.|  
   
  The following topics show how to create, update, and delete data by performing operations on entities.  
   
 |Topic|Description|  
 |-----------|-----------------|  
-|[How to: Add, Modify, and Delete Entities](http://msdn.microsoft.com/library/a00f8933-b232-4445-95ba-adc634f055d8)|Shows how to create, update, and delete entity data in a data service.|  
-|[How to: Define Entity Relationships](http://msdn.microsoft.com/library/cc255524-1534-4fae-b83c-250933d5a72b)|Shows how to create or change relationships in a data service.|  
+|[How to: Add, Modify, and Delete Entities](https://msdn.microsoft.com/library/a00f8933-b232-4445-95ba-adc634f055d8)|Shows how to create, update, and delete entity data in a data service.|  
+|[How to: Define Entity Relationships](https://msdn.microsoft.com/library/cc255524-1534-4fae-b83c-250933d5a72b)|Shows how to create or change relationships in a data service.|  
   
 ## See Also  
  [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)   
- [Querying the Data Service](http://msdn.microsoft.com/library/823e9444-27aa-4f1f-be8e-0486d67f54c0)
+ [Querying the Data Service](https://msdn.microsoft.com/library/823e9444-27aa-4f1f-be8e-0486d67f54c0)

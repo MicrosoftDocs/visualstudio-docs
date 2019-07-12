@@ -14,7 +14,7 @@ ms.author: gewarren
 manager: jillfra
 ---
 # How to: Use the Argument Designer
-Compared to previous versions of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)], the argument designer makes it easy to allow data to flow into and out of an activity. The designer is accessed by clicking the **Arguments** button in the lower-left corner of the design canvas. The designer contains a list of arguments that appear in a tabular form and can be sorted by each of the column headers, except for the **Default value** column. Each argument contains a name, in/out/in-out/property direction, type, and default expression value (if any). The name and the default expression value are editable text fields, and the type and direction are drop-downs. [!INCLUDE[crabout](../includes/crabout-md.md)] arguments, see [Variables and Arguments](http://msdn.microsoft.com/library/d03dbe34-5b2e-4f21-8b57-693ee49611b8).  
+Compared to previous versions of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)], the argument designer makes it easy to allow data to flow into and out of an activity. The designer is accessed by clicking the **Arguments** button in the lower-left corner of the design canvas. The designer contains a list of arguments that appear in a tabular form and can be sorted by each of the column headers, except for the **Default value** column. Each argument contains a name, in/out/in-out/property direction, type, and default expression value (if any). The name and the default expression value are editable text fields, and the type and direction are drop-downs. [!INCLUDE[crabout](../includes/crabout-md.md)] arguments, see [Variables and Arguments](https://msdn.microsoft.com/library/d03dbe34-5b2e-4f21-8b57-693ee49611b8).  
   
 ### To create a new argument  
   
@@ -25,8 +25,8 @@ Compared to previous versions of the [!INCLUDE[dnprdnshort](../includes/dnprdnsh
 3. Click the empty row labeled **Create Argument**. This will add a new row with a new argument using the following default values: argumentx for the **Name** where x is an integer with an initial value of 1 that is automatically incremented to create unique argument names, **In** for the **Direction**, and **String** for the **Argument type**. No value is added for **Default value**. You can change these values at any time during the workflow design process.  
   
     > [!NOTE]
-    >  To delete an argument, select the argument by clicking it and then press the **Delete** key.  
+    > To delete an argument, select the argument by clicking it and then press the **Delete** key.  
   
 ## See Also  
  [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)   
- [Variables and Arguments](http://msdn.microsoft.com/library/d03dbe34-5b2e-4f21-8b57-693ee49611b8)
+ [Variables and Arguments](https://msdn.microsoft.com/library/d03dbe34-5b2e-4f21-8b57-693ee49611b8)

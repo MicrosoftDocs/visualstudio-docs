@@ -49,10 +49,10 @@ You next add a comment to your code. A comment is a note that doesn't change the
      [!code-vb[VbExpressTutorial1Step9_10#1](../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial1step9_10/vb/form1.vb#1)]  
   
     > [!NOTE]
-    >  Your **showButton** button's Click event handler is now finished, and it works. You have started writing code, starting with an `if` statement. An `if` statement is how you tell your program, "Check this one thing, and if it's true, do these actions." In this case, you tell your program to open the **Open File** dialog box, and if the user selects a file and chooses the **OK** button, load that file in the PictureBox.  
+    > Your **showButton** button's Click event handler is now finished, and it works. You have started writing code, starting with an `if` statement. An `if` statement is how you tell your program, "Check this one thing, and if it's true, do these actions." In this case, you tell your program to open the **Open File** dialog box, and if the user selects a file and chooses the **OK** button, load that file in the PictureBox.  
   
     > [!TIP]
-    >  The IDE is built to make it easy for you to write code, and *code snippets* are one way it does that. A snippet is a shortcut that gets expanded into a small block of code.  
+    > The IDE is built to make it easy for you to write code, and *code snippets* are one way it does that. A snippet is a shortcut that gets expanded into a small block of code.  
     >   
     >  You can see all of the snippets available. On the menu bar, choose **Tools**, **Code Snippets Manager**. For Visual C#, the `if` snippet is in **Visual C#** . For Visual Basic, the `if` snippets are in **Conditionals and Loops**, **Code Patterns**. You can use this manager to browse existing snippets or add your own snippets.  
     >   
@@ -77,7 +77,7 @@ Picture Viewer
 2. Choose the **Show a picture** button to run the code you just wrote. First, the program opens an **Open File** dialog box. Verify that your filters appear in the **Files of type** drop-down list at the bottom of the dialog box. Then navigate to a picture and open it. You can usually find sample pictures that ship with the Windows operating system in your **My Documents** folder, inside the **My Pictures\Sample Pictures** folder.  
   
     > [!NOTE]
-    >  If you don't see any images in the **Select a picture file** dialog box, be sure that the "All files (*.\*)" filter is selected in the drop-down list on the lower right side of the dialog box.  
+    > If you don't see any images in the **Select a picture file** dialog box, be sure that the "All files (*.\*)" filter is selected in the drop-down list on the lower right side of the dialog box.  
   
 3. Load a picture, and it appears in your PictureBox. Then try resizing your form by dragging its borders. Because you have your PictureBox docked inside a TableLayoutPanel, which itself is docked inside the form, your picture area will resize itself so that it's as wide as the form, and fills the top 90 percent of the form. That's why you used the TableLayoutPanel and FlowLayoutPanel containers: They keep your form sized correctly when the user resizes it.  
   

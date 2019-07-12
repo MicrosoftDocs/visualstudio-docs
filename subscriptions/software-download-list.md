@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/28/2017
 ms.topic: conceptual
 description:  Find a list of the software downloads included with your Visual Studio subscription.
-searchscope: VS Subscription
 ---
 
 # How do I know what software is available for download?

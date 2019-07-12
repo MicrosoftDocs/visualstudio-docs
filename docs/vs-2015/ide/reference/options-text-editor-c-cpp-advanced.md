@@ -24,7 +24,7 @@ By changing these options, you can change the behavior related to IntelliSense a
  To access this page, in the **Options** dialog box, in the left pane, expand **Text Editor**, expand **C/C++**, and then choose **Advanced**.  
   
 > [!NOTE]
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. See [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. See [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Browsing/Navigation  
  You should never choose these options except in the rare case where a solution is so large that the database activity consumes an unacceptable amount of system resources.  
@@ -118,7 +118,7 @@ By changing these options, you can change the behavior related to IntelliSense a
  **Max Cached Translation Units**  
  The maximum number of translation units that will be kept active at any one time for IntelliSense requests. You must specify a value between 2 and 15. This number directly relates to the maximum number of VCPkgSrv.exe processes that will run (for a given instance of Visual Studio). The default value is 2, but if you have available memory, you can increase this value and possibly achieve slightly better performance on IntelliSense.  
   
- For more information about translation units, see [Phases of Translation](http://msdn.microsoft.com/library/a7f7a8c9-e8ba-4321-9e50-ebfbbdcce9db).  
+ For more information about translation units, see [Phases of Translation](https://msdn.microsoft.com/library/a7f7a8c9-e8ba-4321-9e50-ebfbbdcce9db).  
   
  **Disable Aggressive Member List**  
  The member list doesn't appear while you type the name of a type or variable. The list appears only after you type one of the commit characters, as defined in the **Member List Commit Characters** option.  

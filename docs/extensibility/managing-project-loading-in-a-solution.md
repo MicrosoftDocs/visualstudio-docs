@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "solutions, managing project loading"
 ms.assetid: 097c89d0-f76a-4aaf-ada9-9a778bd179a0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -38,7 +38,7 @@ pSolution.SetProperty((int)__VSPROPID4.VSPROPID_ActiveSolutionLoadManager, objLo
  If the solution load manager is meant to manage solution loading in general, it can be implemented as part of a VSPackage. The package should be set to autoload by adding the <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> on the VSPackage with a value of <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionOpening_guid>. The solution load manager can then be activated in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method.
 
 > [!NOTE]
->  For more information about autoloading packages, see [Loading VSPackages](../extensibility/loading-vspackages.md).
+> For more information about autoloading packages, see [Loading VSPackages](../extensibility/loading-vspackages.md).
 
  Since Visual Studio recognizes only the last solution load manager to be activated, general solution load managers should always detect whether there is an existing load manager before activating themselves. If calling `GetProperty()` on the solution service for [__VSPROPID4.VSPROPID_ActiveSolutionLoadManager](<xref:Microsoft.VisualStudio.Shell.Interop.__VSPROPID4.VSPROPID_ActiveSolutionLoadManager>) returns `null`, there is no active solution load manager. If it does not return null, check whether the object is the same as your solution load manager.
 

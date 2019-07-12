@@ -23,7 +23,7 @@ ms.workload:
   The Import SharePoint Solution Package project template lets you reuse elements such as content types and fields from existing SharePoint sites in a new [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint solution. Although you can run most imported solutions without modification, there are certain restrictions and issues to consider, especially if you modify any items after importing them.
 
 > [!NOTE]
->  To import reusable workflows, use the Import Reusable Workflow project template. [!INCLUDE[crdefault](../sharepoint/includes/crdefault-md.md)] [Guidelines for importing reusable workflows](../sharepoint/guidelines-for-importing-reusable-workflows.md).
+> To import reusable workflows, use the Import Reusable Workflow project template. [!INCLUDE[crdefault](../sharepoint/includes/crdefault-md.md)] [Guidelines for importing reusable workflows](../sharepoint/guidelines-for-importing-reusable-workflows.md).
 
 ## Supported SharePoint solutions
  [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)] fully supports the importing of solutions created in [!INCLUDE[wss_14_short](../sharepoint/includes/wss-14-short-md.md)] and [!INCLUDE[moss_14_short](../sharepoint/includes/moss-14-short-md.md)].

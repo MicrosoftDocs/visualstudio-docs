@@ -91,7 +91,7 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
  When a model is saved to file in XML form, embedded elements are nested inside their parents, unless you have customized the serialization.  
   
 > [!NOTE]
->  Embedding is not the same as inheritance. Children in an embedding relationship do not inherit the parent's properties. An embedding is a type of link between model elements. Inheritance is a relationship between classes, and does not create links between model elements.  
+> Embedding is not the same as inheritance. Children in an embedding relationship do not inherit the parent's properties. An embedding is a type of link between model elements. Inheritance is a relationship between classes, and does not create links between model elements.  
   
 ### Embedding rules  
  Every element in an instance model must be the target of exactly one embedding link, except for the root of the model.  
@@ -148,4 +148,4 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
   
 ## See Also  
  [Domain Relationships in the Generated API](../misc/domain-relationships-in-the-generated-api.md)   
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

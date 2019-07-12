@@ -1,8 +1,8 @@
 ---
 title: "Install Visual Studio 2019 for Mac"
 description: "Instructions on how to install Visual Studio 2019 for Mac and additional components required for cross-platform development."
-author: conceptdev
-ms.author: crdun
+author: asb3993
+ms.author: amburns
 ms.date: 04/02/2019
 ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
@@ -11,6 +11,9 @@ ms.custom: video
 # Install Visual Studio 2019 for Mac
 
 To start developing native, cross-platform .NET apps on macOS, install Visual Studio 2019 for Mac following the steps below.
+
+ > [!div class="button"]
+ > [Download Visual Studio for Mac](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=navigation+cta&utm_content=download+vsmac2019)
 
 ## Requirements
 
@@ -37,9 +40,21 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
     [![Follow the links to the privacy and terms, then continue if you agree](media/install-privacy-sml.png)](media/install-privacy.png#lightbox)
 
-6. The list of available workloads is displayed. Select the ones you wish to use:
+6. The list of available workloads is displayed. Select the components you wish to use:
 
-    [![Choose which optional workload features you would like to install](media/install-selection-sml.png)](media/install-selection.png#lightbox)
+    [![Choose which optional workload features you would like to install](media/install-selection.png)](media/install-selection.png#lightbox)
+
+   If you do not wish to install all platforms, use the guide below to help you decide which platforms to install:
+
+   * **Apps using Xamarin**:
+      - Xamarin.Forms – Select **Android** and **iOS** platforms.
+      - iOS only – Select **iOS** platform (Note that you will need to install [**Xcode**](https://developer.apple.com/xcode/)).
+      - Android only – Select **Android** platform (Note that you should also select the relevant dependencies).
+      - Mac only – Select **macOS** platform (Note that you will need to install [**Xcode**](https://developer.apple.com/xcode/)).
+      - Fully cross-platform Xamarin apps – Select **Android**, **iOS**, and **macOS** platforms.
+   * **.NET Core applications** – Select **.NET Core** platform.
+   * **ASP.NET Core Web Applications** – Select **.NET Core** platform.
+   * **Cross-platform Unity Game Development** – No additional platforms need to be installed beyond Visual Studio for Mac. Refer to the [Unity setup guide](/visualstudio/mac/setup-vsmac-tools-unity) for more information on installing the Unity extension.
 
 7. After you have made your selections, press the **Install** button.
 8. The installer will display progress as it downloads and installs Visual Studio for Mac and the selected workloads. You might be prompted to enter your password to grant the privileges necessary for installation.
@@ -49,7 +64,7 @@ If you have network trouble while installing in a corporate environment, review 
 Learn more about the changes in the [release notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes).
 
 > [!NOTE]
-> If you chose not install a platform or tool during the original installation (by unselecting it in step #6), you must run the installer again if you wish to add the components later.
+> If you chose not to install a platform or tool during the original installation (by unselecting it in step #6), you must run the installer again if you wish to add the components later.
 
 ## Install Visual Studio for Mac behind a firewall or proxy server
 
@@ -76,7 +91,7 @@ Installing Visual Studio for Mac allows you to start writing code for your apps.
 
 ### .NET Core apps, ASP.NET Core web apps, Unity game development
 
-For other Workloads, refer to the [Workloads](/visualstudio/mac/workloads) page.
+For other Workloads, refer to the [Workloads](workloads.md) page.
 
 ## Related Video
 

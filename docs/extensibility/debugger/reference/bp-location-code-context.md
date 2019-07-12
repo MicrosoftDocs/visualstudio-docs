@@ -7,11 +7,13 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_LOCATION_CODE_CONTEXT structure"
 ms.assetid: 37412896-021a-4f73-9bb7-4125502c2e18
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
 ---
 # BP_LOCATION_CODE_CONTEXT
 Describes the location of a breakpoint that is bound directly to an address in the program being debugged.
@@ -25,7 +27,7 @@ typedef struct _BP_LOCATION_CODE_CONTEXT {
 ```
 
 ## Members
-pCodeContext
+`pCodeContext`\
 The [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that identifies the position of the breakpoint in the code.
 
 ## Remarks
@@ -38,7 +40,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)
 - [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)

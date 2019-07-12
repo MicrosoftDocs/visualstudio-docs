@@ -3,8 +3,8 @@ title: "Composite Patterns for Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: e48ecfb2-f4b5-4d3a-b4a2-7a4d62fa4ec0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -220,7 +220,7 @@ Composite patterns combine interaction and design elements in distinct configura
 
 - **Always** try to create an indicator that summarizes the information it makes available. Consider providing a count of the number of data items available (for example, "3 references" instead of simply "References") or think of some other way to summarize the data.
 
-    - In cases where the data for an indicator cannot always be computed and displayed, immediately consider providing progressive feedback as the values are computed. For example, consider animating changes that reflect updates to the available data, similar to the way the email live tile on Windows Phone refreshes as the number of unread emails increases.
+  - In cases where the data for an indicator cannot always be computed and displayed, immediately consider providing progressive feedback as the values are computed. For example, consider animating changes that reflect updates to the available data, similar to the way the email live tile on Windows Phone refreshes as the number of unread emails increases.
 
 - **Never** add more indicators than a user can reasonably take in for a given piece of content. Ambient indicators should be useful without requiring any interaction from the user. Indicators lose their ambience if they require overflow and other management controls to bring them into view.
 
@@ -229,11 +229,11 @@ Composite patterns combine interaction and design elements in distinct configura
 
 - **Always** require the user to perform some explicit gesture to open the additional content. Common open gestures include:
 
-    - **Hover:** tooltips or non-interactive informational content
+  - **Hover:** tooltips or non-interactive informational content
 
-    - **Explicit command:** inline presenter
+  - **Explicit command:** inline presenter
 
-    - **Double-click the ambient indicator:** CodeLens pop-up window
+  - **Double-click the ambient indicator:** CodeLens pop-up window
 
 - **Always** dismiss the detail content whenever the user presses the Esc key.
 
@@ -425,7 +425,7 @@ Composite patterns combine interaction and design elements in distinct configura
  The key concept in list selection is that it is row-based, meaning that when a selection is made the whole row is selected as a unit. By contrast, grids can allow specific cells to be selected without affecting any other aspect of the row. Grids might also contain a hierarchy of nested rows (such as in a TreeGrid) that allow entire branches of the hierarchy to be selected and deselected by interacting with the parent rows. Selection in lists is shown by a simple highlight color on the entire row of data. Focus is shown by a single-pixel dotted border around the current editable row or cell (row if all cells are read-only).
 
 > [!NOTE]
->  **Focus** and **selection** are different concepts. *Focus* is an indication of which UI element is targeted to receive input not explicitly directed at another object, while *selection* refers to the state of an object's inclusion in a set of objects on which subsequent operations may take place.
+> **Focus** and **selection** are different concepts. *Focus* is an indication of which UI element is targeted to receive input not explicitly directed at another object, while *selection* refers to the state of an object's inclusion in a set of objects on which subsequent operations may take place.
 
  Selections in lists may be contiguous, disjoint, or region. When multiple selections are allowed, contiguous and disjoint selection should always be supported, while support for region (box) selections is optional. Region selections are initiated by dragging in the white space of the list body.
 

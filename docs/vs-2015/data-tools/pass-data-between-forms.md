@@ -27,13 +27,13 @@ manager: jillfra
 This walkthrough provides step-by-step instructions for passing data from one form to another. Using the customers and orders tables from Northwind, one form allows users to select a customer, and a second form displays the selected customer's orders. This walkthrough shows how to create a method on the second form that receives data from the first form.  
   
 > [!NOTE]
->  This walkthrough demonstrates only one way to pass data between forms. There are other options for passing data to a form, including creating a second constructor to receive data, or creating a public property that can be set with data from the first form.  
+> This walkthrough demonstrates only one way to pass data between forms. There are other options for passing data to a form, including creating a second constructor to receive data, or creating a public property that can be set with data from the first form.  
   
  Tasks illustrated in this walkthrough include:  
   
 - Creating a new **Windows Application** project.  
   
-- Creating and configuring a dataset with the [Data Source Configuration Wizard](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f).  
+- Creating and configuring a dataset with the [Data Source Configuration Wizard](https://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f).  
   
 - Selecting the control to be created on the form when dragging items from the **Data Sources** window. For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
   
@@ -58,7 +58,7 @@ This walkthrough provides step-by-step instructions for passing data from one fo
   
 2. Name the project `PassingDataBetweenForms`.  
   
-3. Select **Windows Forms Application**, and click **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
+3. Select **Windows Forms Application**, and click **OK**. For more information, see [Client Applications](https://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **PassingDataBetweenForms** project is created, and added to **Solution Explorer**.  
   
@@ -136,7 +136,7 @@ This walkthrough provides step-by-step instructions for passing data from one fo
     ```  
   
     > [!NOTE]
-    >  Verify the correct parameter syntax for your database. For example, in Microsoft Access, the WHERE clause would look like: `WHERE CustomerID = ?`.  
+    > Verify the correct parameter syntax for your database. For example, in Microsoft Access, the WHERE clause would look like: `WHERE CustomerID = ?`.  
   
 6. Click **Next**.  
   

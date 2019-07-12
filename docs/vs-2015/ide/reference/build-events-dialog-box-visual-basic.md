@@ -27,13 +27,13 @@ Use the **Build Events** dialog box to specify build configuration instructions.
  Specifies any commands to execute before the build starts. To type long commands, click **Edit Pre-build** to display the [Pre-build Event/Post-build Event Command Line Dialog Box](../../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md).  
   
 > [!NOTE]
->  Pre-build events do not run if the project is up-to-date and no build is triggered.  
+> Pre-build events do not run if the project is up-to-date and no build is triggered.  
   
  **Post-build event command line**  
  Specifies any commands to execute after the build ends. To type long commands, click **Edit Post-build** to display the **Pre-build Event/Post-build Event Command Line d**ialog box.  
   
 > [!NOTE]
->  Add a `call` statement before all post-build commands that run .bat files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.  
+> Add a `call` statement before all post-build commands that run .bat files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.  
   
  **Run the post-build event**  
  Specifies the conditions for the post-build event to run, as shown in the following table.  

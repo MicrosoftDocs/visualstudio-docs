@@ -28,7 +28,7 @@ Follow these steps to create a Workflow Activity Library project using the legac
 3. Select either the **.NET Framework 3.0** option or the **.NET Framework 3.5** option in the drop down list at the top of the **New Project** window to access the legacy designer.  
   
     > [!NOTE]
-    >  The default option in [!INCLUDE[vs2010](../includes/vs2010-md.md)] is **.NET Framework 4**. This option is used to create [!INCLUDE[wf](../includes/wf-md.md)] applications that target the [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] and it does not use the legacy designer.  
+    > The default option in [!INCLUDE[vs2010](../includes/vs2010-md.md)] is **.NET Framework 4**. This option is used to create [!INCLUDE[wf](../includes/wf-md.md)] applications that target the [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] and it does not use the legacy designer.  
   
 4. In the **Project Types** pane, select Visual C# or Visual Basic (under **Other Languages**) and then select **Workflow**.  
   
@@ -46,5 +46,5 @@ Follow these steps to create a Workflow Activity Library project using the legac
  [Creating Legacy Workflow Projects](../workflow-designer/creating-legacy-workflow-projects.md)   
  [Using the Legacy Activity Designer](../workflow-designer/using-the-legacy-activity-designer.md)   
  [Legacy Workflow Activities](../workflow-designer/legacy-workflow-activities.md)   
- [Developing Workflow Activities](http://msdn.microsoft.com/19876dfc-dfa5-4d52-b1f5-1d087474cc52)   
- [Windows Workflow Foundation Activities](http://msdn.microsoft.com/192c4c1e-afb6-4f58-ab11-2b5bbbc2d2c0)
+ [Developing Workflow Activities](https://msdn.microsoft.com/19876dfc-dfa5-4d52-b1f5-1d087474cc52)   
+ [Windows Workflow Foundation Activities](https://msdn.microsoft.com/192c4c1e-afb6-4f58-ab11-2b5bbbc2d2c0)

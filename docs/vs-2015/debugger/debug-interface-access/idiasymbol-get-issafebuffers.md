@@ -35,7 +35,7 @@ HRESULT get_isSafeBuffers( 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.  
   
 > [!NOTE]
->  A return value of `S_FALSE` means the property is not available for the symbol.  
+> A return value of `S_FALSE` means the property is not available for the symbol.  
   
 ## Remarks  
   
@@ -48,4 +48,4 @@ HRESULT get_isSafeBuffers( 
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [strict_gs_check](http://msdn.microsoft.com/library/decfec81-c916-42e0-a07f-8cc26df6a7ce)
+ [strict_gs_check](https://msdn.microsoft.com/library/decfec81-c916-42e0-a07f-8cc26df6a7ce)

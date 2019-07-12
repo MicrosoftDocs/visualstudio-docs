@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "VSCT files, manual authoring"
 ms.assetid: e9f715dc-12b7-439b-bdf3-f3dc75e62f1c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -80,7 +80,7 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
     Set the `guid` and `id` attributes of the `Menu` element, and then set the `type` attribute to the kind of menu you want. You may also set the `priority` attribute to establish the relative position of the menu in the parent group.
 
    > [!NOTE]
-   >  The `priority` attribute does not apply to toolbars and context menus.
+   > The `priority` attribute does not apply to toolbars and context menus.
 
 2. All commands in the Visual Studio IDE must be hosted by command groups, which are the direct children of menus and toolbars. If you are adding new menus or toolbars to the IDE, these must contain new command groups. You may also add command groups to existing menus and toolbars so that you can visually group your commands.
 
@@ -93,14 +93,14 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
    1. Set the `guid` and `id` attributes of each `Button` element, and then set the `type` attribute to the kind of button you want. You may also set the `priority` attribute to establish the relative position of the command in the parent group.
 
        > [!NOTE]
-       >  Use `type="button"` for standard menu commands and buttons on toolbars.
+       > Use `type="button"` for standard menu commands and buttons on toolbars.
 
    2. In the `Button` element, add a [Strings](../../extensibility/strings-element.md) element that contains a [ButtonText](../../extensibility/buttontext-element.md) element and a [CommandName](../../extensibility/commandname-element.md) element. The `ButtonText` element provides the text label for a menu item, or the tooltip for a toolbar button. The `CommandName` element provides the name of the command to use in the command well.
 
    3. If your command will have an icon, create an [Icon](../../extensibility/icon-element.md) element in the `Button` element, and set its `guid` and `id` attributes to the `Bitmap` element for the icon.
 
        > [!NOTE]
-       >  Toolbar buttons must have icons.
+       > Toolbar buttons must have icons.
 
    For more information, see [MenuCommands vs. OleMenuCommands](../../extensibility/menucommands-vs-olemenucommands.md).
 

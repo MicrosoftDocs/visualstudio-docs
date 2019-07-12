@@ -37,7 +37,7 @@ Use the **References** page of the **Project Designer** to manage references, We
  Click this button to access the **Reference Paths** dialog box.  
   
 > [!NOTE]
->  When the project system finds an assembly reference, the system resolves the reference by looking in the following locations, in the following order:  
+> When the project system finds an assembly reference, the system resolves the reference by looking in the following locations, in the following order:  
 > 
 > 1. The project folder. The project folder files appear in **Solution Explorer** when **Show All Files** isn't in effect.  
 >    2. Folders that are specified in the **Reference Paths** dialog box.  
@@ -81,7 +81,7 @@ Use the **References** page of the **Project Designer** to manage references, We
 - XML namespaces, such as `<xmlns:xsl="http://www.w3.org/1999/XSL/Transform">`.  
   
 ## See Also  
- [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   
+ [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   
  [How to: Add or Remove Imported Namespaces (Visual Basic)](../../ide/how-to-add-or-remove-imported-namespaces-visual-basic.md)   
- [NIB: Add Web Reference Dialog Box](http://msdn.microsoft.com/bdf05776-c591-40af-bfd7-e1e2aa1e87b5)   
- [Imports Statement (XML Namespace)](http://msdn.microsoft.com/library/1f4d50a6-08c7-4c2e-8206-ccae35fcd1b4)
+ [NIB: Add Web Reference Dialog Box](https://msdn.microsoft.com/bdf05776-c591-40af-bfd7-e1e2aa1e87b5)   
+ [Imports Statement (XML Namespace)](https://msdn.microsoft.com/library/1f4d50a6-08c7-4c2e-8206-ccae35fcd1b4)

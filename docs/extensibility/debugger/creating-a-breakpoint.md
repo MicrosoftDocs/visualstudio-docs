@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "breakpoints, creating"
   - "debugging [Debugging SDK], creating breakpoints"
 ms.assetid: 6f9f87bb-192e-45e0-9a7a-ffe729e87f7d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -25,7 +25,7 @@ The following describes the process of creating a breakpoint.
 3. [IDebugPendingBreakpoint2::CanBind](../../extensibility/debugger/reference/idebugpendingbreakpoint2-canbind.md)
 
     > [!NOTE]
-    >  **CanBind** is called only when a user makes a breakpoint from the **Breakpoints** window.
+    > **CanBind** is called only when a user makes a breakpoint from the **Breakpoints** window.
 
 4. [IDebugPendingBreakpoint2::Bind](../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md)
 

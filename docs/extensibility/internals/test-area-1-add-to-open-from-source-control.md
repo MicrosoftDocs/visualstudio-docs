@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], adding and opening solutions"
   - "source control plug-ins, adding and opening solutions"
 ms.assetid: 5b3b5b08-5e9b-41be-ac72-c63957faed22
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -31,7 +31,7 @@ This source-control plug-in test area covers placing solutions or projects under
 - For [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)], add from source control is also available from **File**, **Add**, **Existing Project**; look in the [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)] location.
 
   > [!NOTE]
-  >  A path of a local file or a local IIS (web server) can be used in this test.
+  > A path of a local file or a local IIS (web server) can be used in this test.
 
 ## Expected Behavior
 

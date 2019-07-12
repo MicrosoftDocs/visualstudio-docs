@@ -44,7 +44,7 @@ HRESULT GetNext(
  This method retrieves the next `IDispError` object. If this is the last `IDispError` object, this method returns NULL.  
   
 > [!NOTE]
->  This method is not implemented.  
+> This method is not implemented.  
   
 ## See Also  
  [IDispError Interface](../../winscript/reference/idisperror-interface.md)

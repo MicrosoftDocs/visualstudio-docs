@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "VSPackages, autoloading"
   - "VSPackages, loading"
 ms.assetid: f4c3dcea-5051-4065-898f-601269649d92
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -16,7 +16,7 @@ ms.workload:
 VSPackages are loaded into Visual Studio only when their functionality is required. For example, a VSPackage is loaded when Visual Studio uses a project factory or a service that the VSPackage implements. This feature is called delayed loading, which is used whenever possible to improve performance.
 
 > [!NOTE]
->  Visual Studio can determine certain VSPackage information, such as the commands that a VSPackage offers, without loading the VSPackage.
+> Visual Studio can determine certain VSPackage information, such as the commands that a VSPackage offers, without loading the VSPackage.
 
  VSPackages can be set to autoload in a particular user interface (UI) context, for example, when a solution is open. The <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> attribute sets this context.
 

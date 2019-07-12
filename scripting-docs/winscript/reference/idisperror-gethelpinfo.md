@@ -51,7 +51,7 @@ HRESULT GetHelpInfo(
  This method returns the path of the Help file and the context ID of the topic that explains the error, if possible.  
   
 > [!NOTE]
->  This method is not implemented.  
+> This method is not implemented.  
   
 ## See Also  
  [IDispError Interface](../../winscript/reference/idisperror-interface.md)

@@ -5,11 +5,14 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugProcessSecurity::QueryCanSafelyAttach"
 ms.assetid: 63ec1ae8-27da-4574-aa15-1c986fe9fe58
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProcessSecurity::QueryCanSafelyAttach
 This method allows the port supplier to display a warning before the user attaches to an unsafe process.
@@ -33,5 +36,5 @@ int QueryCanSafelyAttach();
 
 - `FAILURE`: Attaching to process fails.
 
-## See Also
+## See also
 - [IDebugProcessSecurity](../../../extensibility/debugger/reference/idebugprocesssecurity.md)

@@ -18,7 +18,7 @@ manager: "ghogen"
 Makes an asynchronous call on the main thread.  
   
 > [!IMPORTANT]
->  [IDebugApplication110 Interface](../../winscript/reference/idebugapplication110-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> [IDebugApplication110 Interface](../../winscript/reference/idebugapplication110-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   

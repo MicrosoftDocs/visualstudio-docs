@@ -97,7 +97,7 @@ To create and run the tasks, use Visual Studio and the **Visual Studio Command P
     `Hello, world!`
 
    > [!NOTE]
-   >  If you do not see the hello message, try saving the project file again and then run the Hello task.
+   > If you do not see the hello message, try saving the project file again and then run the Hello task.
 
    By alternating between the code editor and the **Command Prompt Window**, you can change the project file and quickly see the results.
 

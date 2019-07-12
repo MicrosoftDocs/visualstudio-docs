@@ -32,7 +32,7 @@ manager: jillfra
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 NOTE]
->  This feature is not available for SQL or script debugging.  
+> This feature is not available for SQL or script debugging.  
   
  The **Modules** window lists the DLLs and EXE that are used by your program and shows relevant information for each.  
   
@@ -72,6 +72,6 @@ NOTE]
 2. Point to **Automatic Symbol Load Settings** and then click **Always Load Manually** or **Default**. Changes do not take effect until you restart the debugging session.  
   
 ## See Also  
- [Breaking Execution](http://msdn.microsoft.com/30fc4643-f337-4651-b1ff-f2de2c098d40)   
+ [Breaking Execution](https://msdn.microsoft.com/30fc4643-f337-4651-b1ff-f2de2c098d40)   
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)

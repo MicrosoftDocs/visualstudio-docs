@@ -1,5 +1,5 @@
 ---
-title: "Extending the Properties, Task List, Output, and Options Windows | Microsoft Docs"
+title: "Extend the Properties, Task List, Output, Options windows"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "tutorials"
   - "tool windows"
 ms.assetid: 06990510-5424-44b8-9fd9-6481acec5c76
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -27,7 +27,7 @@ You can access any tool window in Visual Studio. This walkthrough shows how to i
 1. Create a project named **TodoList** using the VSIX template, and add a custom tool window item template named **TodoWindow**.
 
     > [!NOTE]
-    >  For more information about creating an extension with a tool window, see [Create an extension with a tool window](../extensibility/creating-an-extension-with-a-tool-window.md).
+    > For more information about creating an extension with a tool window, see [Create an extension with a tool window](../extensibility/creating-an-extension-with-a-tool-window.md).
 
 ## Set up the tool window
  Add a TextBox in which to type a new ToDo item, a Button to add the new item to the list, and a ListBox to display the items on the list.
@@ -35,7 +35,7 @@ You can access any tool window in Visual Studio. This walkthrough shows how to i
 1. In *TodoWindow.xaml*, delete the Button, TextBox, and StackPanel controls from the UserControl.
 
     > [!NOTE]
-    >  This does not delete the **button1_Click** event handler, which you will reuse in a later step.
+    > This does not delete the **button1_Click** event handler, which you will reuse in a later step.
 
 2. From the **All WPF Controls** section of the **Toolbox**, drag a **Canvas** control to the grid.
 

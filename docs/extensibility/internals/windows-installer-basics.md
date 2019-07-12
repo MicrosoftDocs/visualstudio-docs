@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "Windows Installer, VSPackages"
   - "VSPackages, Windows Installer basics"
 ms.assetid: 497e479b-add8-4644-870a-917f15306b97
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -51,7 +51,7 @@ The Windows Installer installs and uninstalls applications or software products 
  Two sets of rules determine the deployment of resources through your setup's components. One rule set is maintained by the Windows Installer itself, while you should enforce the second set as installation author.
 
 > [!NOTE]
->  Enforcement of Windows Installer rules occurs only if you run a validation of your .msi file. Nevertheless, you are cautioned to treat these rules as best practices. For more information, see [Validating an Installation Database](/windows/desktop/Msi/validating-an-installation-database) and [Package Validation](/windows/desktop/Msi/package-validation).
+> Enforcement of Windows Installer rules occurs only if you run a validation of your .msi file. Nevertheless, you are cautioned to treat these rules as best practices. For more information, see [Validating an Installation Database](/windows/desktop/Msi/validating-an-installation-database) and [Package Validation](/windows/desktop/Msi/package-validation).
 
 #### Installer-Enforced Rules
 

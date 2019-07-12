@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "CONTEXT_INFO_FIELDS enumeration"
 ms.assetid: ef436bd3-738e-47e8-828c-8febce752439
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # CONTEXT_INFO_FIELDS
 Specifies what information to retrieve about a memory context.
@@ -43,23 +46,23 @@ public enum enum_CONTEXT_INFO_FIELDS {
 };
 ```
 
-## Members
-CIF_MODULEURL
+## Fields
+`CIF_MODULEURL`\
 Initialize/use the `bstrModuleUrl` field of the [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md) structure.
 
-CIF_FUNCTION
+`CIF_FUNCTION`\
 Initialize/use the `bstrFunction` field of the `CONTEXT_INFO` structure.
 
-CIF_FUNCTIONOFFSET
+`CIF_FUNCTIONOFFSET`\
 Initialize/use the `posFunctionOffset` field of the `CONTEXT_INFO` structure.
 
-CIF_ADDRESS
+`CIF_ADDRESS`\
 Initialize/use the `bstrAddress` field of the `CONTEXT_INFO` structure.
 
-CIF_ADDRESSOFFSET
+`CIF_ADDRESSOFFSET`\
 Initialize/use the `bstrAddressOffset` field of the `CONTEXT_INFO` structure.
 
-CIF_ALLFIELDS
+`CIF_ALLFIELDS`\
 Initialize/use all fields of the `CONTEXT_INFO` structure.
 
 ## Remarks
@@ -76,7 +79,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md)
 - [GetInfo](../../../extensibility/debugger/reference/idebugmemorycontext2-getinfo.md)

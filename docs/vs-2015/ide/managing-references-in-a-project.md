@@ -62,10 +62,10 @@ Before you write code against an external component or connected service, your p
 2. Go to the site of the vendor who owns the unsupported Extension SDK and install the version of the Extension SDK with dependencies that are compatible with the version of the platform your project is targeting.  
   
     > [!NOTE]
-    >  One way to find out whether an Extension SDK has dependencies on other Extension SDKs is to restart Visual Studio, create a new C# Windows Store project, right-click on the project and choose **Add Reference**, go to the **Windows** tab, go to the **Extensions** sub-tab, select the Extension SDK and look at the right pane in the **Reference Manager**. If it has dependencies, they will be listed there.  
+    > One way to find out whether an Extension SDK has dependencies on other Extension SDKs is to restart Visual Studio, create a new C# Windows Store project, right-click on the project and choose **Add Reference**, go to the **Windows** tab, go to the **Extensions** sub-tab, select the Extension SDK and look at the right pane in the **Reference Manager**. If it has dependencies, they will be listed there.  
   
     > [!IMPORTANT]
-    >  If your project is targeting Windows 10, and the Extension SDK installed in the previous step has a dependency on the Microsoft Visual C++ Runtime Package, the version of Microsoft Visual C++ Runtime Package that is compatible with Windows 10 is v14.0 and is installed with Visual Studio 2015.  
+    > If your project is targeting Windows 10, and the Extension SDK installed in the previous step has a dependency on the Microsoft Visual C++ Runtime Package, the version of Microsoft Visual C++ Runtime Package that is compatible with Windows 10 is v14.0 and is installed with Visual Studio 2015.  
   
 3. If the Extension SDK you installed in the previous step has dependencies on other Extension SDKs, go to the site(s) of the vendor(s) who own the dependencies and install the versions of these dependencies that are compatible with the version of the platform your project is targeting.  
   
@@ -83,12 +83,12 @@ Before you write code against an external component or connected service, your p
 - Other project directories in the same solution. (You can find these assemblies on the **Projects** tab.)  
   
 > [!NOTE]
->  All projects contain an implied reference to mscorlib. Visual Basic projects contain an implied reference to `Microsoft.VisualBasic`.  
+> All projects contain an implied reference to mscorlib. Visual Basic projects contain an implied reference to `Microsoft.VisualBasic`.  
 >   
->  All projects in Visual Studio contain an implied reference to `System.Core`, even if `System.Core` is removed from the list of references.  
+> All projects in Visual Studio contain an implied reference to `System.Core`, even if `System.Core` is removed from the list of references.  
   
 ## References to Shared Components at Run Time  
- At run time, components must be either in the output path of the project or in the [Global Assembly Cache](http://msdn.microsoft.com/library/cf5eacd0-d3ec-4879-b6da-5fd5e4372202) (GAC). If the project contains a reference to an object that is not in one of these locations, you must copy the reference to the output path of the project when you build the project. The <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> property indicates whether this copy has to be made. If the value is **True**, the reference is copied to the project directory when you build the project. If the value is **False**, the reference is not copied.  
+ At run time, components must be either in the output path of the project or in the [Global Assembly Cache](https://msdn.microsoft.com/library/cf5eacd0-d3ec-4879-b6da-5fd5e4372202) (GAC). If the project contains a reference to an object that is not in one of these locations, you must copy the reference to the output path of the project when you build the project. The <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> property indicates whether this copy has to be made. If the value is **True**, the reference is copied to the project directory when you build the project. If the value is **False**, the reference is not copied.  
   
  If you deploy an application that contains a reference to a custom component that is registered in the GAC, the component will not be deployed with the application, regardless of the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> setting. In earlier versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you could set the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> property on a reference to ensure that the assembly was deployed. Now, you must manually add the assembly to the \Bin folder. This puts all custom code under scrutiny, reducing the risk of publishing custom code with which you are not familiar.  
   
@@ -105,12 +105,12 @@ Before you write code against an external component or connected service, your p
  When you have a project that produces an assembly, you should reference the project and not use a file reference (see below). The advantage of a project-to-project reference is that it creates a dependency between the projects in the build system. The dependent project will be built if it has changed since the last time the referencing project was built. A file reference does not create a build dependency, so it is possible to build the referencing project without building the dependent project, and the reference can become obsolete. (That is, the project can reference a previously built version of the project.) This can result in several versions of a single DLL being required in the bin directory, which is not possible. When this conflict occurs, you will see a message such as [Warning: the dependency 'file' in project 'project' cannot be copied to the run directory because it would overwrite the reference 'file.'](../misc/warning-the-dependency-file-in-project-project-cannot-be-copied.md). For more information, see [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md) and [How to: Create and Remove Project Dependencies](../ide/how-to-create-and-remove-project-dependencies.md).  
   
 > [!NOTE]
->  A file reference instead of a project-to-project reference is created if the target version of the .NET Framework of one project is version 4.5, and the target version of the other project is version 2, 3, 3.5, or 4.0.  
+> A file reference instead of a project-to-project reference is created if the target version of the .NET Framework of one project is version 4.5, and the target version of the other project is version 2, 3, 3.5, or 4.0.  
   
 ## File References  
  File references are direct references to assemblies outside the context of a Visual Studio project; you create them by using the **Browse** tab of the **Reference Manager**. Use a file reference when you just have an assembly or component and don't have the project that creates it as output.  
   
 ## See Also  
  [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md)   
- [Programming with Assemblies](http://msdn.microsoft.com/library/25918b15-701d-42c7-95fc-c290d08648d6)   
+ [Programming with Assemblies](https://msdn.microsoft.com/library/25918b15-701d-42c7-95fc-c290d08648d6)   
  [How to: Add or Remove References By Using the Reference Manager](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md)

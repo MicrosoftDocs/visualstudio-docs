@@ -18,7 +18,7 @@ manager: "ghogen"
 The `IDebugApplication110` interface extends the functionality of the [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md). You can get an instance of this interface by calling QueryInterface on an implementation of [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md).  
   
 > [!IMPORTANT]
->  This interface is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> This interface is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Methods  
  The `IDebugApplication110` interface exposes the following methods.  

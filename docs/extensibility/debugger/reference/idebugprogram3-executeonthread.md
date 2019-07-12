@@ -5,11 +5,14 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugProgram3::ExecuteOnThread"
 ms.assetid: 2f5211e3-7a3f-47bf-9595-dfc8b4895d0d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgram3::ExecuteOnThread
 Executes the debugger program. The thread is returned to give the debugger information on which thread the user is viewing when executing the program.
@@ -27,10 +30,9 @@ int ExecuteOnThread(
 );
 ```
 
-#### Parameters
- `pThread`
-
- [in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object.
+## Parameters
+`pThread`\
+[in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -46,6 +48,6 @@ int ExecuteOnThread(
 
   The thread passed to `ExecuteOnThread` is useful when deciding which step to cancel. If you do not know the thread, running execute cancels all steps. With knowledge of the thread, you only need to cancel the step on the active thread.
 
-## See Also
+## See also
 - [Execute](../../../extensibility/debugger/reference/idebugprogram2-execute.md)
 - [IDebugProgram3](../../../extensibility/debugger/reference/idebugprogram3.md)

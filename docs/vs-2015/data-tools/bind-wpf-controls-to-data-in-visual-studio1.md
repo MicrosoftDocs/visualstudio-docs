@@ -28,7 +28,7 @@ manager: jillfra
 
 You can display data to users of your application by binding data to [!INCLUDE[TLA#tla_titlewinclient](../includes/tlasharptla-titlewinclient-md.md)] controls. To create these data-bound controls, you can drag items from the **Data Sources** window onto the [!INCLUDE[wpfdesigner_current_short](../includes/wpfdesigner-current-short-md.md)] in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. This topic describes some of the most common tasks, tools, and classes that you can use to create data-bound [!INCLUDE[TLA#tla_titlewinclient](../includes/tlasharptla-titlewinclient-md.md)] applications.
 
- For general information about how to create data-bound controls in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md). For more information about [!INCLUDE[TLA#tla_titlewinclient](../includes/tlasharptla-titlewinclient-md.md)] data binding, see [Data Binding Overview](http://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211).
+ For general information about how to create data-bound controls in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md). For more information about [!INCLUDE[TLA#tla_titlewinclient](../includes/tlasharptla-titlewinclient-md.md)] data binding, see [Data Binding Overview](https://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211).
 
 ## Tasks involved in binding WPF controls to data
  The following table lists the tasks that can be accomplished by dragging items from the **Data Sources** window to the [!INCLUDE[wpfdesigner_current_short](../includes/wpfdesigner-current-short-md.md)].
@@ -92,7 +92,7 @@ You can display data to users of your application by binding data to [!INCLUDE[T
  When you drag an object or property from the **Data Sources** window to the designer, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] generates [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] that creates a data-bound control (or binds an existing control to the object or property). However, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] does not generate code to fill the object with data. You must write this code yourself.
 
 > [!NOTE]
->  Custom classes must be public and, by default,  have a constructor without parameters. They can't be nested classes that have a "dot" in their syntax. For more information, see [XAML and Custom Classes for WPF](http://msdn.microsoft.com/library/e7313137-581e-4a64-8453-d44e15a6164a).
+> Custom classes must be public and, by default,  have a constructor without parameters. They can't be nested classes that have a "dot" in their syntax. For more information, see [XAML and Custom Classes for WPF](https://msdn.microsoft.com/library/e7313137-581e-4a64-8453-d44e15a6164a).
 
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] generates [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] that does the following:
 

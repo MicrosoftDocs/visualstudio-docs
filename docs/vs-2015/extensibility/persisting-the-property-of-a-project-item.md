@@ -120,7 +120,7 @@ You may want to persist a property you add to a project item, such as the author
 3. Use a breakpoint or otherwise determine that your VSPackage is loaded and that SetItemAttribute runs.  
   
     > [!NOTE]
-    >  You can autoload a VSPackage in the UI context <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionExists_guid>. For more information, see [Loading VSPackages](../extensibility/loading-vspackages.md).  
+    > You can autoload a VSPackage in the UI context <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionExists_guid>. For more information, see [Loading VSPackages](../extensibility/loading-vspackages.md).  
   
 4. Close [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and then open the project file in Notepad. You should see the \<Author> tag with the value Tom, as follows:  
   

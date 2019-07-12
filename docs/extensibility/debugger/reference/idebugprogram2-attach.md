@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgram2::Attach"
 ms.assetid: de069fbf-a565-4905-b102-f5658c55aacd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgram2::Attach
 Attaches to the program.
@@ -30,10 +33,9 @@ int Attach( 
 );
 ```
 
-#### Parameters
- `pCallback`
-
- [in] An [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) object to be used for debug event notification.
+## Parameters
+`pCallback`\
+[in] An [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) object to be used for debug event notification.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. The following table shows some possible error codes.
@@ -47,7 +49,7 @@ int Attach( 
 ## Remarks
  A debug engine (DE) never calls this method to attach to a program. If the DE runs in the program's address space, the [OnAttach](../../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md) method is called. If the DE runs in the session debug manager's (SDM) address space, the [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md) method is called.
 
-## See Also
+## See also
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
 - [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)
 - [OnAttach](../../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md)

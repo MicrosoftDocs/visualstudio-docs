@@ -69,7 +69,7 @@ ms.workload:
  Next, obtain a SharePoint setup (.wsp) file that contains the SharePoint items and elements that you want to import into your [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project. If you do not already have a .wsp file, then you must create one from an existing SharePoint site. For this example, you will export the default SharePoint site into a .wsp file.
 
 > [!IMPORTANT]
->  If you receive a runtime error performing the following procedure, you have to perform the procedure on a system that has access to the SharePoint site.
+> If you receive a runtime error performing the following procedure, you have to perform the procedure on a system that has access to the SharePoint site.
 
 ### To export an existing SharePoint site
 
@@ -111,7 +111,7 @@ ms.workload:
 6. In the **Specify the new project source** page, browse to the location on the system where you saved the *.wsp* file previously and then choose the **Next** button.
 
    > [!NOTE]
-   >  If you choose the **Finish** button on this page, all available items in the *.wsp* file will be imported.
+   > If you choose the **Finish** button on this page, all available items in the *.wsp* file will be imported.
 
 7. In the **Select items to import** box, clear all of the check boxes in the list except for **Test Column**, and then choose the **Finish** button.
 

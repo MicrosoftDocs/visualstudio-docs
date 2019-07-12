@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "AD_PROCESS_ID_TYPE enumeration"
 ms.assetid: 0aab80e9-285a-4697-94ac-c864d42a6aaa
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # AD_PROCESS_ID_TYPE
 Specifies how to interpret a process ID in the [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) structure.
@@ -33,11 +36,11 @@ public enum enum_AD_PROCESS_ID {
 };
 ```
 
-## Members
-AD_PROCESS_ID_SYSTEM
+## Fields
+`AD_PROCESS_ID_SYSTEM`\
 Process ID is a system identifier. Use the `ProcessId.dwProcessId` field of the [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) structure.
 
-AD_PROCESS_ID_GUID
+`AD_PROCESS_ID_GUID`\
 Process ID is a GUID. Use the `ProcessId.guidProcessId` field of the `AD_PROCESS_ID` structure.
 
 ## Remarks
@@ -50,6 +53,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md)

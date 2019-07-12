@@ -84,7 +84,7 @@ The code coverage analysis tool in Visual Studio collects data for native and ma
  Verify that the assembly is not loaded from the native image cache.  
   
  Explanation  
- For performance reasons, native image assemblies are not analyzed. For more information, see [Ngen.exe (Native Image Generator)](http://msdn.microsoft.com/library/44bf97aa-a9a4-4eba-9a0d-cfaa6fc53a66).  
+ For performance reasons, native image assemblies are not analyzed. For more information, see [Ngen.exe (Native Image Generator)](https://msdn.microsoft.com/library/44bf97aa-a9a4-4eba-9a0d-cfaa6fc53a66).  
   
  Resolution  
  Use an MSIL version of the assembly. Do not process it with NGen.  
@@ -107,11 +107,11 @@ The code coverage analysis tool in Visual Studio collects data for native and ma
   
 - **Regular expression error**  
   
-     Each string in the file is a regular expression. Review each one for errors, and in particular look for :  
-  
-    - Mismatched parentheses (...) or unescaped parentheses \\(...\\). If you want to match a parenthesis in the search string, you must escape it. For example, to match a function use: `.*MyFunction\(double\)`  
-  
-    - Asterisk or plus at the start of an expression. To match any string of characters, use a dot followed by an asterisk: `.*`  
+  Each string in the file is a regular expression. Review each one for errors, and in particular look for :  
+
+  - Mismatched parentheses (...) or unescaped parentheses \\(...\\). If you want to match a parenthesis in the search string, you must escape it. For example, to match a function use: `.*MyFunction\(double\)`  
+
+  - Asterisk or plus at the start of an expression. To match any string of characters, use a dot followed by an asterisk: `.*`  
   
 ### Custom .runsettings file with incorrect exclusions  
  Analysis  

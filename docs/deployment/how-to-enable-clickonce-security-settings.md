@@ -35,7 +35,7 @@ Code access security for ClickOnce applications must be enabled in order to publ
      You can now customize the security settings for your application on the Security page.
 
     > [!NOTE]
-    >  This check box is automatically selected each time the application is published with the **Publish** wizard.
+    > This check box is automatically selected each time the application is published with the **Publish** wizard.
 
 ### To disable ClickOnce security settings
 
@@ -48,7 +48,7 @@ Code access security for ClickOnce applications must be enabled in order to publ
      Your application will be run with the full trust security settings; any settings on the **Security** page will be ignored.
 
     > [!NOTE]
-    >  Each time the application is published with the Publish wizard, this check box will be selected; you must clear it again after each successful publish.
+    > Each time the application is published with the Publish wizard, this check box will be selected; you must clear it again after each successful publish.
 
 ## See also
 - [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)

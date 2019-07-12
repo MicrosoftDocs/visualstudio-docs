@@ -57,6 +57,5 @@ In **Virtual Space** mode, spaces are inserted at the end of each line of code. 
 
 ## See also
 
-- [Customize the editor](../ide/customizing-the-editor.md)
 - [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md)
 - [Fonts and Colors, Environment, Options dialog box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md)

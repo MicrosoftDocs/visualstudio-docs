@@ -43,7 +43,7 @@ This walkthrough demonstrates how to profile an application by using command-lin
  Sampling is a profiling method by which a specific process is periodically polled to determine the active function. The resulting data provides a count of how frequently the function was on top of the call stack when the process was sampled.  
   
 > [!NOTE]
->  Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the Visual Studio installation directory. On 64 bit computers, both 64 bit and 32 bit versions of the tools are available. To use the profiler command-line tools, you must add the path to the PATH environment variable of the command prompt window or add it to the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). PeopleTrax is a 32-bit application.  
+> Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the Visual Studio installation directory. On 64 bit computers, both 64 bit and 32 bit versions of the tools are available. To use the profiler command-line tools, you must add the path to the PATH environment variable of the command prompt window or add it to the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). PeopleTrax is a 32-bit application.  
   
 #### To profile the PeopleTrax application by using the sampling method  
   

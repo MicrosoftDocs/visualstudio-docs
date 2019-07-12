@@ -1,5 +1,5 @@
 ---
-title: "How to: Publish a ClickOnce Application using the Publish Wizard | Microsoft Docs"
+title: "Publish ClickOnce application using Publish wizard"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -74,7 +74,7 @@ Before you run the Publish Wizard, you should set the publishing properties appr
 4. On the **How will users install the application?** page, click From a **CD-ROM or DVD-ROM**, and then click **Next**.
 
    > [!NOTE]
-   >  If you want the installation to run automatically when the CD-ROM is inserted into the drive, open the **Publish** page in the **Project Designer** and click the **Options** button, and then, in the **Publish Options** wizard, select **For CD installations, automatically start Setup when CD is inserted**.
+   > If you want the installation to run automatically when the CD-ROM is inserted into the drive, open the **Publish** page in the **Project Designer** and click the **Options** button, and then, in the **Publish Options** wizard, select **For CD installations, automatically start Setup when CD is inserted**.
 
 5. If you distribute your application on CD-ROM, you might want to provide updates from a Web site. In the **Where will the application check for updates?** page, choose an update option:
 
@@ -89,7 +89,7 @@ Before you run the Publish Wizard, you should set the publishing properties appr
     Publishing status is displayed in the status notification area.
 
    > [!NOTE]
-   >  After publishing is complete, you will have to use a CD-Rewriter or DVD-Rewriter to copy the files from the location specified in step 3 to the CD-ROM or DVD-ROM media.
+   > After publishing is complete, you will have to use a CD-Rewriter or DVD-Rewriter to copy the files from the location specified in step 3 to the CD-ROM or DVD-ROM media.
 
 ## See also
 

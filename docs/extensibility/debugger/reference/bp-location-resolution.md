@@ -7,11 +7,13 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_LOCATION_RESOLUTION structure"
 ms.assetid: 86ea2c8a-54a3-48e8-83c7-18a515273129
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
 ---
 # BP_LOCATION_RESOLUTION
 Describes the resolution of a breakpoint at a specific location.
@@ -25,7 +27,7 @@ typedef struct _BP_LOCATION_RESOLUTION {
 ```
 
 ## Members
-pResolution
+`pResolution`\
 The [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md) object that determines the type of the breakpoint and its resolution information.
 
 ## Remarks
@@ -38,7 +40,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)
 - [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md)

@@ -1,6 +1,6 @@
 ---
 title: Create Data-Driven Unit Tests
-ms.date: 11/04/2016
+ms.date: 05/08/2019
 ms.topic: conceptual
 f1_keywords:
   - "vs.test.testresults.unittest.datadriven"
@@ -17,7 +17,7 @@ author: gewarren
 ---
 # How to: Create a data-driven unit test
 
-Using the Microsoft unit test framework for managed code, you can set up a unit test method to retrieve values used in the test method from a data source. The method is run successively for each row in the data source, which makes it easy to test a variety of input by using a single method.
+You can use the Microsoft unit test framework for managed code to set up a unit test method to retrieve values from a data source. The method is run successively for each row in the data source, which makes it easy to test a variety of input by using a single method.
 
 Creating a data-driven unit test involves the following steps:
 
@@ -37,13 +37,13 @@ As an example, let's assume that you have:
 
 2. A project in `MyBank` called `BankDb` that manages the transactions for accounts.
 
-3. A class called `Maths` in the `DbBank` project that performs the mathematical functions to ensure that any transaction is advantageous to the bank.
+3. A class called `Maths` in the `BankDb` project that performs the mathematical functions to ensure that any transaction is advantageous to the bank.
 
 4. A unit test project called `BankDbTests` to test the behavior of the `BankDb` component.
 
 5. A unit test class called `MathsTests` to verify the behavior of the `Maths` class.
 
-We will test a method in `Maths` that adds two integers using a loop:
+We'll test a method in `Maths` that adds two integers using a loop:
 
 ```csharp
 public int AddIntegers(int first, int second)
@@ -82,6 +82,9 @@ public TestContext TestContext
 
 In your test method, you access the data through the `DataRow` indexer property of the `TestContext`.
 
+> [!NOTE]
+> .NET Core does not support the [DataSource](xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute) attribute. If you try to access test data in this way in a .NET Core or UWP unit test project, you'll see an error similar to **"'TestContext' does not contain a definition for 'DataRow' and no accessible extension method 'DataRow' accepting a first argument of type 'TestContext' could be found (are you missing a using directive or an assembly reference?)"**.
+
 ## Write the test method
 
 The test method for `AddIntegers` is fairly simple. For each row in the data source, call `AddIntegers` with the **FirstNumber** and **SecondNumber** column values as parameters, and verify the return value against **Sum** column value:
@@ -104,7 +107,7 @@ public void AddIntegers_FromDataSourceTest()
 }
 ```
 
-The `Assert` method includes a message that displays the `x` and `y` values of a failed iteration. By default, the asserted values, `expected` and `actual`, are already included in the details of a failed test.
+The `Assert` method includes a message that displays the `x` and `y` values of a failed iteration. By default, the asserted values - `expected` and `actual` - are already included in failed test details.
 
 ### Specify the DataSourceAttribute
 
@@ -170,4 +173,4 @@ When the method under test is corrected and the test rerun, the results bar turn
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert?displayProperty=fullName>
 - [Unit test your code](../test/unit-test-your-code.md)
 - [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
-- [Write unit tests for the .NET Framework with the Microsoft unit test framework for managed code](../test/unit-test-your-code.md)
+- [Write unit tests for .NET with the Microsoft unit test framework](../test/unit-test-your-code.md)

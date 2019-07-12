@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDocumentText2::GetText"
 ms.assetid: f8c15a58-da77-473e-a721-7a094e306c63
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDocumentText2::GetText
 Retrieves the text from the specified position in the document.
@@ -36,22 +39,18 @@ int GetText(
 );
 ```
 
-#### Parameters
-`pos`
+## Parameters
+`pos`\
+[in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that indicates the location of the text to be retrieved.
 
- [in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that indicates the location of the text to be retrieved.
+`cMaxChars`\
+[in] The maximum number of characters of the text to be retrieved.
 
-`cMaxChars`
+`pText`\
+[in, out] A pointer to a buffer that is to be filled in with the desired text. This buffer must be able to contain at least `cMaxChars` number of wide characters.
 
- [in] The maximum number of characters of the text to be retrieved.
-
-`pText`
-
- [in, out] A pointer to a buffer that is to be filled in with the desired text. This buffer must be able to contain at least `cMaxChars` number of wide characters.
-
-`pcNumChars`
-
- [out] Returns the number of characters actually retrieved.
+`pcNumChars`\
+[out] Returns the number of characters actually retrieved.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -95,6 +94,6 @@ namespace Mynamespace
 }
 ```
 
-## See Also
+## See also
 - [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)
 - [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)

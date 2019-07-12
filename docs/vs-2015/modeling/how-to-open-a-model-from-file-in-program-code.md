@@ -29,14 +29,14 @@ You can open DSL models in any application.
 3. In the project properties window, on the **Application** tab, set the **Target framework** field to **.NET Framework 4**.  
   
 > [!NOTE]
->  You might need to do this even if you selected **.NET Framework 4** in the project creation dialog box. The target framework should not be **.NET Framework 4 Client Profile**.  
+> You might need to do this even if you selected **.NET Framework 4** in the project creation dialog box. The target framework should not be **.NET Framework 4 Client Profile**.  
   
 ## References  
  You have to add these references to your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] application project:  
   
 - `Microsoft.VisualStudio.Modeling.Sdk.11.0`  
   
-    - If you do not see this under the **.NET** tab in the **Add References** dialog box, click the **Browse** tab and navigate to `%Program Files%\Microsoft Visual Studio 2010 SDK\VisualStudioIntegration\Common\Assemblies\`.  
+  - If you do not see this under the **.NET** tab in the **Add References** dialog box, click the **Browse** tab and navigate to `%Program Files%\Microsoft Visual Studio 2010 SDK\VisualStudioIntegration\Common\Assemblies\`.  
   
 - Your DSL assembly, which you will find under the bin folder your DSL project. Its name is typically of the form: *YourCompany*.*YourProject*`.Dsl.dll`.  
   

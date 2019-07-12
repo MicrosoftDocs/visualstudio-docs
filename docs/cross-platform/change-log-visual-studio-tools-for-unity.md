@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows) | Microsoft Docs"
 ms.custom: ""
-ms.date: "04/02/2019"
+ms.date: "05/28/2019"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
@@ -12,767 +12,867 @@ ms.workload:
   - "unity"
 ---
 # Change log (Visual Studio Tools for Unity, Windows)
+
 Visual Studio Tools for Unity change log.
 
-## 4.0.0.5
- Released February 27, 2019
+## 4.1.1.0
 
-### Bug fixes
-
-- **Integration:**
-
-    - Fixed Visual Studio version detection with the setup package.
-
-    - Removed unused assemblies from the setup package.
-
-## 4.0.0.4
- Released February 13, 2019
+Released May 24, 2019
 
 ### New Features
 
 - **Integration:**
 
-    - Added support to properly detect Unity processes during installation and allow setup engine to better handle file locks.
-    
-    - Updated the ScriptableObject API.
+  - Updated MonoBehaviour API to 2019.1.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed reporting warnings and errors to output when lightweight build is enabled.
+
+  - Fixed lightweight build performance.
+
+## 4.1.0.0
+
+Released May 21, 2019
+
+### New Features
+
+- **Integration:**
+
+  - Added support for the new batch API to reload projects faster.
+
+  - Disabled the full build for Unity projects, in favor of using the IntelliSense errors and warnings. Indeed Unity creates a Visual Studio solution with class library projects that represent what Unity is doing internally. That being said, the result of the build in Visual Studio is never used or picked up by Unity as their compilation pipeline is closed. Building in Visual Studio is just consuming resources for nothing. If you need a full build because you have tools or a setup that depends on it, you can disable this optimization (Tools/Options/Tools for Unity/Disable the full build of projects).
+
+  - Automatically show the Unity Project Explorer (UPE) when a Unity project is loaded. The UPE will be docked next to the Solution Explorer.
+
+  - Updated project name extraction mechanism with Unity 2019.x.
+
+  - Added support for Unity packages in the UPE. Only Referenced packages (using manifest.json in the ```Packages``` folder) and Local packages (embedded in the ```Packages``` folder) are visible.
+
+- **Project Generation:**
+
+  - Preserve external properties when processing the solution file.
+
+- **Evaluation:**
+
+  - Added support for alias-qualified names (only the global namespace for now). So the expression evaluator is now accepting types using the form global::namespace.type.
+
+  - Added support for ```pointer[index]``` form, which is semantically identical to pointer dereference ```*(pointer+index)``` form.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed dependency issues with Microsoft.VisualStudio.MPF.
+
+  - Fixed UWP player attach, without any project loaded.
+
+  - Fixed automatic asset database refresh when Visual Studio was not yet attached.
+
+  - Fixed theme issues with labels and checkboxes.
+
+- **Debugger:**
+
+  - Fixed stepping with static constructors.
+
+## 4.0.0.5
+
+Released February 27, 2019
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed Visual Studio version detection with the setup package.
+
+  - Removed unused assemblies from the setup package.
+
+## 4.0.0.4
+
+Released February 13, 2019
+
+### New Features
+
+- **Integration:**
+
+  - Added support to properly detect Unity processes during installation and allow setup engine to better handle file locks.
+
+  - Updated the ScriptableObject API.
 
 ## 4.0.0.3
- Released January 31, 2019
+
+Released January 31, 2019
 
 ### New Features
 
 - **Project Generation:**
 
-    - Public and serialized fields will no longer cause warnings. We've auto-suppressed the CS0649 and IDE0051 compiler warnings in Unity projects that created these messages.
+  - Public and serialized fields will no longer cause warnings. We've auto-suppressed the CS0649 and IDE0051 compiler warnings in Unity projects that created these messages.
 
 - **Integration:**
 
-    - Improved the user experience for displaying Unity editor and player instances (windows are now resizable, use uniform margins and display a resizing grip). Added Process-Id information for Unity editors.
-    
-    - Updated the MonoBehaviour API.
-    
+  - Improved the user experience for displaying Unity editor and player instances (windows are now resizable, use uniform margins and display a resizing grip). Added Process-Id information for Unity editors.
+
+  - Updated the MonoBehaviour API.
+
 - **Evaluation:**
 
-    - Added support for local functions.
-    
-    - Added support for pseudo variables (exception and object identifiers).
+  - Added support for local functions.
+
+  - Added support for pseudo variables (exception and object identifiers).
 
 ### Bug fixes
 
 - **Integration:**
 
-    - Fixed an issue with moniker images and themes.
+  - Fixed an issue with moniker images and themes.
 
-    - Only write to Output Window while debugging, when auto-refreshing asset database.
+  - Only write to Output Window while debugging, when auto-refreshing asset database.
 
-    - Fixed UI delays with the MonoBehaviour wizard filtering.
-    
+  - Fixed UI delays with the MonoBehaviour wizard filtering.
+
 - **Debugger:**
 
-    - Fixed reading custom attribute on named arguments when using old protocol versions.
+  - Fixed reading custom attribute on named arguments when using old protocol versions.
 
 ## 4.0.0.2
- Released January 23, 2019
+
+Released January 23, 2019
 
 ### Bug fixes
 
 - **Integration:**
 
-    - Fixed experimental build generation.
+  - Fixed experimental build generation.
 
-    - Fixed project file event handling to minimize UI-thread pressure.
+  - Fixed project file event handling to minimize UI-thread pressure.
 
-    - Fixed completion provider with batched text changes.
-    
+  - Fixed completion provider with batched text changes.
+
 - **Debugger:**
 
-    - Fixed the display of user debug messages to the attached debugger.
+  - Fixed the display of user debug messages to the attached debugger.
 
 ## 4.0.0.1
- Released December 10, 2018
+
+Released December 10, 2018
 
 ### New Features
 
 - **Evaluation:**
 
-    - Replaced NRefactory in favor of Roslyn for expression evaluation.
+  - Replaced NRefactory in favor of Roslyn for expression evaluation.
 
-    - Added support for pointers: dereference, casting and pointer arithmetic (both Unity 2018.2+ and the new runtime are required for this).
+  - Added support for pointers: dereference, casting and pointer arithmetic (both Unity 2018.2+ and the new runtime are required for this).
 
-    - Added support for array pointer view (like in C++). Take a pointer expression then append a comma and the number of elements you want to see.
+  - Added support for array pointer view (like in C++). Take a pointer expression then append a comma and the number of elements you want to see.
 
-    - Added support for async constructs.
+  - Added support for async constructs.
 
 - **Integration:**
-    
-    - Added support for automatically refreshing Unity's asset database on save. This is enabled by default and will trigger a recompilation on the Unity side when saving a script in Visual Studio. You can disable this feature in Tools\Options\Tools for Unity\Refresh Unity's AssetDatabase on save.
+
+  - Added support for automatically refreshing Unity's asset database on save. This is enabled by default and will trigger a recompilation on the Unity side when saving a script in Visual Studio. You can disable this feature in Tools\Options\Tools for Unity\Refresh Unity's AssetDatabase on save.
 
 ### Bug fixes
 
 - **Integration:**
 
-    - Fixed bridge activation when Visual Studio is not selected as the preferred external editor.
+  - Fixed bridge activation when Visual Studio is not selected as the preferred external editor.
 
-    - Fixed expression evaluation with malformed or unsupported expressions.
+  - Fixed expression evaluation with malformed or unsupported expressions.
 
 ## 4.0.0.0
- Released December 4, 2018
+
+Released December 4, 2018
 
 ### New Features
 
 - **Integration:**
 
-    - Added support for Visual Studio 2019 (you need at least Unity 2018.3 for being able to use Visual Studio 2019 as an external script editor).
+  - Added support for Visual Studio 2019 (you need at least Unity 2018.3 for being able to use Visual Studio 2019 as an external script editor).
 
-    - Adopted the Visual Studio image service and catalog, with full support for HDPI scaling, pixel perfect images and theming.
+  - Adopted the Visual Studio image service and catalog, with full support for HDPI scaling, pixel perfect images and theming.
 
 ### Deprecated features
 
 - **Integration:**
 
-    - Going forward, Visual Studio Tools for Unity will only support Unity 5.2+ (with Unity’s built-in Visual Studio integration).
+  - Going forward, Visual Studio Tools for Unity will only support Unity 5.2+ (with Unity’s built-in Visual Studio integration).
 
-    - Going forward, Visual Studio Tools for Unity will only support Visual Studio 2015+.
+  - Going forward, Visual Studio Tools for Unity will only support Visual Studio 2015+.
 
-    - Removed legacy language service, error list and status bar.
-    
-    - Removed the Quick Monobehaviour Wizard (in favor of the dedicated intellisense support).
+  - Removed legacy language service, error list and status bar.
+
+  - Removed the Quick Monobehaviour Wizard (in favor of the dedicated intellisense support).
 
 ## 3.9.0.3
- Released November 28, 2018
+
+Released November 28, 2018
 
 ### Bug fixes
 
 - **Integration:**
 
-    - Fixed project reloading and intellisense issues when adding or removing scripts located in the very first project.
+  - Fixed project reloading and intellisense issues when adding or removing scripts located in the very first project.
 
 ## 3.9.0.2
- Released November 19, 2018
+
+Released November 19, 2018
 
 ### Bug fixes
 
 - **Debugger:**
 
-    - Fixed a deadlock in the library used to communicate with Unity’s debugger engine, making Visual Studio or Unity freeze, especially when hitting ‘Attach to Unity’ or restarting game.
+  - Fixed a deadlock in the library used to communicate with Unity’s debugger engine, making Visual Studio or Unity freeze, especially when hitting ‘Attach to Unity’ or restarting game.
 
 ## 3.9.0.1
- Released November 15, 2018
+
+Released November 15, 2018
 
 ### Bug fixes
 
 - **Integration:**
 
-    - Fixed Unity plugin activation when another default editor was selected.
+  - Fixed Unity plugin activation when another default editor was selected.
 
 ## 3.9.0.0
- Released November 13, 2018
+
+Released November 13, 2018
 
 ### Bug fixes
 
 - **Project Generation:**
 
-    - Rolled back the workaround for a Unity performance bug that has been fixed by Unity.
+  - Rolled back the workaround for a Unity performance bug that has been fixed by Unity.
 
 ## 3.8.0.7
- Released September 20, 2018
+
+Released September 20, 2018
 
 ### Bug fixes
 
 - **Debugger:**
 
-    - (Backported from 3.9.0.2) Fixed a deadlock in the library used to communicate with Unity’s debugger engine, making Visual Studio or Unity freeze, especially when hitting ‘Attach to Unity’ or restarting game.
+  - (Backported from 3.9.0.2) Fixed a deadlock in the library used to communicate with Unity’s debugger engine, making Visual Studio or Unity freeze, especially when hitting ‘Attach to Unity’ or restarting game.
 
 ## 3.8.0.6
- Released August 27, 2018
+
+Released August 27, 2018
 
 ### Bug fixes
 
 - **Integration:**
 
-    - Fixed reloading of projects and solution.
+  - Fixed reloading of projects and solution.
 
 ## 3.8.0.5
- Released August 20, 2018
+
+Released August 20, 2018
 
 ### Bug fixes
 
 - **Integration:**
 
-    - Fixed project monitoring subscription disposal.
+  - Fixed project monitoring subscription disposal.
 
 ## 3.8.0.4
- Released August 14, 2018
+
+Released August 14, 2018
 
 ### New Features
 
 - **Evaluation:**
 
-    - Added support for pointer values.
+  - Added support for pointer values.
 
-    - Added support for generic methods.
+  - Added support for generic methods.
 
 ### Bug fixes
 
 - **Integration:**
 
-    - Smart reload with multiple projects changed.
+  - Smart reload with multiple projects changed.
 
 ## 3.8.0.3
- Released July 24, 2018
+
+Released July 24, 2018
 
 ### Bug fixes
 
 - **Project Generation:**
 
-    - (Backported from 3.9.0.0) Rolled back the workaround for a Unity performance bug that has been fixed by Unity.
+  - (Backported from 3.9.0.0) Rolled back the workaround for a Unity performance bug that has been fixed by Unity.
 
 ## 3.8.0.2
- Released July 7, 2018
+
+Released July 7, 2018
 
 ### Bug fixes
 
 - **Project Generation:**
 
-    - Transient workaround for a Unity performance bug: cache MonoIslands when generating projects.
+  - Transient workaround for a Unity performance bug: cache MonoIslands when generating projects.
 
 ## 3.8.0.1
- Released June 26, 2018
+
+Released June 26, 2018
 
 ### New Features
 
 - **Debugging:**
 
-    - Added support for UserLog and UserBreak commands.
+  - Added support for UserLog and UserBreak commands.
 
-    - Added lazy type-load support (optimizing the network load and debugger response latency).
+  - Added lazy type-load support (optimizing the network load and debugger response latency).
 
 ### Bug fixes
 
 - **Evaluation:**
 
-    - Improved binary-operator expression evaluation and method search.
+  - Improved binary-operator expression evaluation and method search.
 
 ## 3.8.0.0
- Released May 30, 2018
+
+Released May 30, 2018
 
 ### New Features
 
 - **Debugging:**
 
-    - Added support for displaying variables in async constructs.
+  - Added support for displaying variables in async constructs.
 
-    - Added support for processing nested types when setting breakpoints, to prevent warnings with compiler constructs.
+  - Added support for processing nested types when setting breakpoints, to prevent warnings with compiler constructs.
 
 - **Integration:**
 
-    - Added support for textmate grammars for Shaders (the C++ workload is no longer needed for Shader code coloration).
+  - Added support for textmate grammars for Shaders (the C++ workload is no longer needed for Shader code coloration).
 
 ### Bug fixes
 
 - **Project Generation:**
 
-    - Do not convert portable pdb to mdb anymore when using the new Unity runtime.
+  - Do not convert portable pdb to mdb anymore when using the new Unity runtime.
 
 ## 3.7.0.1
- Released May 7, 2018
+
+Released May 7, 2018
 
 ### Bug fixes
 
 - **Installer:**
 
-    - Fixed dependency issue when using experimental builds.
+  - Fixed dependency issue when using experimental builds.
 
 ## 3.7.0.0
- Released May 7, 2018
+
+Released May 7, 2018
 
 ### New Features
 
 - **Debugging:**
 
-    - Added support for orchestrated debugging (debugging multiple players/editor with the same Visual Studio session).
+  - Added support for orchestrated debugging (debugging multiple players/editor with the same Visual Studio session).
 
-    - Added support for Android USB player debugging.
+  - Added support for Android USB player debugging.
 
-    - Added support for UWP/IL2CPP player debugging.
+  - Added support for UWP/IL2CPP player debugging.
 
 - **Evaluation:**
 
-    - Added support for hexadecimal specifiers.
+  - Added support for hexadecimal specifiers.
 
-    - Improved watch window evaluation experience.
+  - Improved watch window evaluation experience.
 
 ### Bug fixes
 
 - **Integration:**
 
-    - Fixed usage of exception settings.
+  - Fixed usage of exception settings.
 
 - **Project Generation:**
 
-    - Exclude package manager compilation units from generation.
+  - Exclude package manager compilation units from generation.
 
 ## 3.6.0.5
- Released March 13, 2018
+
+Released March 13, 2018
 
 ### New Features
 
 - **Project Generation:**
 
-    - Added support for the new project generator in Unity 2018.1.
+  - Added support for the new project generator in Unity 2018.1.
 
 ### Bug fixes
 
 - **Integration:**
 
-    - Fixed handling corrupted states with custom projects.
+  - Fixed handling corrupted states with custom projects.
 
 - **Debugger:**
 
-    - Fixed setting the next statement.
+  - Fixed setting the next statement.
 
 ## 3.6.0.4
- Released March 5, 2018
+
+Released March 5, 2018
 
 ### Bug fixes
 
 - **Project Generation:**
 
-    - Fixed Mono version detection.
+  - Fixed Mono version detection.
 
 - **Integration:**
 
-    - Fixed timing issues with 2018.1 and plugin activation.
+  - Fixed timing issues with 2018.1 and plugin activation.
 
 ## 3.6.0.3
- Released February 23, 2018
+
+Released February 23, 2018
 
 ### New Features
 
 - **Project Generation:**
 
-    - Added support for .NET Standard.
+  - Added support for .NET Standard.
 
 ### Bug fixes
 
 - **Project Generation:**
 
-    - Fixed Unity target framework detection.
+  - Fixed Unity target framework detection.
 
 - **Debugger:**
 
-    - Fixed breaking on exceptions that are thrown outside of usercode.
+  - Fixed breaking on exceptions that are thrown outside of usercode.
 
 ## 3.6.0.2
- Released February 7, 2018
+
+Released February 7, 2018
 
 ### New Features
 
 - **Integration:**
 
-    - Update UnityMessage API surface for 2017.3.
+  - Update UnityMessage API surface for 2017.3.
 
 ### Bug fixes
 
 - **Integration:**
 
-    - Only reload projects on external change (with throttling).
+  - Only reload projects on external change (with throttling).
 
 ## 3.6.0.1
- Released January 24, 2018
+
+Released January 24, 2018
 
 ### Bug fixes
 
 - **Integration:**
 
-    - Fixed automatic pdb to mdb debug symbol conversion.
+  - Fixed automatic pdb to mdb debug symbol conversion.
 
-    - Fixed indirect call to EditorPrefs.GetBool impacting the inspector while trying to change array size.
+  - Fixed indirect call to EditorPrefs.GetBool impacting the inspector while trying to change array size.
 
 ## 3.6.0.0
- Released January 10, 2018
+
+Released January 10, 2018
 
 ### New Features
 
 - **Project Generation:**
 
-    - Added support for 2018.1 MonoIsland reference model.
+  - Added support for 2018.1 MonoIsland reference model.
 
 - **Evaluation:**
 
-    - Added support for $exception identifier.
+  - Added support for $exception identifier.
 
 - **Debugger:**
 
-    - Added support for DebuggerHidden/DebuggerStepThrough attributes with the new Unity runtime.
+  - Added support for DebuggerHidden/DebuggerStepThrough attributes with the new Unity runtime.
 
 - **Wizards:**
 
-    - Introduce 'Latest' version for wizards.
+  - Introduce 'Latest' version for wizards.
 
 ### Bug fixes
 
 - **Project Generation:**
 
-    - Fixed project guid computation for player projects.
+  - Fixed project guid computation for player projects.
 
 - **Debugger:**
 
-    - Fixed a race in handling breaking events.
+  - Fixed a race in handling breaking events.
 
 - **Wizards:**
 
-    - Refresh roslyn context before inserting method.
+  - Refresh roslyn context before inserting method.
 
 ## 3.5.0.3
- Released January 9, 2018
+
+Released January 9, 2018
 
 ### Bug fixes
 
 - **Integration:**
 
-    - Fixed automatic pdb to mdb debug symbol conversion.
+  - Fixed automatic pdb to mdb debug symbol conversion.
 
 ## 3.5.0.2
- Released December 4, 2017
+
+Released December 4, 2017
 
 ### New Features
 
 - **Integration:**
 
-    - Unity projects are now automatically reloaded in Visual Studio when you add or remove a script from Unity.
+  - Unity projects are now automatically reloaded in Visual Studio when you add or remove a script from Unity.
 
 - **Debugger:**
 
-    - Added an option to use the Mono debugger shared by Xamarin and Visual Studio for Mac to debug the Unity Editor.
+  - Added an option to use the Mono debugger shared by Xamarin and Visual Studio for Mac to debug the Unity Editor.
 
-    - Added support for portable debug symbol files.
+  - Added support for portable debug symbol files.
 
 ### Bug fixes
 
 - **Integration:**
 
-    - Fixed setup dependencies issues.
+  - Fixed setup dependencies issues.
 
-    - Fixed Unity API help menu not showing.
+  - Fixed Unity API help menu not showing.
 
 - **Project Generation:**
 
-    - Fixed player project generation when working on a UWP game with the IL2CPP/.NET 4.6 backend.
+  - Fixed player project generation when working on a UWP game with the IL2CPP/.NET 4.6 backend.
 
-    - Fixed extra .dll extension wrongly added to the assembly filename.
+  - Fixed extra .dll extension wrongly added to the assembly filename.
 
-    - Fixed usage of a specific project API compatibility level instead of the global one.
+  - Fixed usage of a specific project API compatibility level instead of the global one.
 
-    - Do not force the AllowAttachedDebuggingOfEditor Unity flag as the default is now 'true'.
+  - Do not force the AllowAttachedDebuggingOfEditor Unity flag as the default is now 'true'.
 
 ## 3.4.0.2
- Released September 19, 2017
+
+Released September 19, 2017
 
 ### New Features
 
 - **Project Generation:**
 
-    - Added support for assembly.json compilation units.
+  - Added support for assembly.json compilation units.
 
-    - Stopped copying Unity assemblies to the project folder.
+  - Stopped copying Unity assemblies to the project folder.
 
 - **Debugger:**
 
-    - Added support for setting the next statement with the new Unity runtime.
+  - Added support for setting the next statement with the new Unity runtime.
 
-    - Added support for Decimal type with the new Unity runtime.
+  - Added support for Decimal type with the new Unity runtime.
 
-    - Added support for implicit/explicit conversions.
+  - Added support for implicit/explicit conversions.
 
 ### Bug fixes
 
 - **Evaluation:**
 
-    - Fixed array creation with implicit size.
+  - Fixed array creation with implicit size.
 
-    - Fixed compiler generated items with locals.
+  - Fixed compiler generated items with locals.
 
 - **Project Generation:**
 
-    - Fixed reference to Microsoft.CSharp for 4.6 API level.
+  - Fixed reference to Microsoft.CSharp for 4.6 API level.
 
 ## 3.3.0.2
- Released August 15, 2017
+
+Released August 15, 2017
 
 ### Bug fixes
 
 - **Project Generation:**
 
-    - Fixed the Visual Studio solution generation on Unity 5.5 and previous versions.
+  - Fixed the Visual Studio solution generation on Unity 5.5 and previous versions.
 
 ## 3.3.0.0
- Released August 14, 2017
+
+Released August 14, 2017
 
 ### New Features
 
 - **Evaluation:**
 
-    - Added support for creating structs with the new Unity runtime.
+  - Added support for creating structs with the new Unity runtime.
 
-    - Added minimalist support for pointers.
+  - Added minimalist support for pointers.
 
 ### Bug fixes
 
 - **Evaluation:**
 
-    - Fixed method invocation on primitives.
+  - Fixed method invocation on primitives.
 
-    - Fixed field evaluation with types marked with BeforeFieldInit.
+  - Fixed field evaluation with types marked with BeforeFieldInit.
 
-    - Fixed non supported calls with binary operators (substract).
+  - Fixed non supported calls with binary operators (substract).
 
-    - Fixed issues when adding items to the Visual Studio Watch.
+  - Fixed issues when adding items to the Visual Studio Watch.
 
 - **Project Generation:**
 
-    - Fixed assembly name references with mcs.rsp files.
+  - Fixed assembly name references with mcs.rsp files.
 
-    - Fixed defines with API levels.
+  - Fixed defines with API levels.
 
 ## 3.2.0.0
- Released May 10, 2017
+
+Released May 10, 2017
 
 ### New Features
 
 - **Installer:**
 
-    - Added support for cleaning the MEF cache.
+  - Added support for cleaning the MEF cache.
 
 ### Bug fixes
 
 - **Code Editor:**
 
-    - Fixed classification/completion with custom attributes.
+  - Fixed classification/completion with custom attributes.
 
-    - Fixed flickering with Unity messages.
+  - Fixed flickering with Unity messages.
 
 ## 3.1.0.0
- Released April 7, 2017
+
+Released April 7, 2017
 
 ### New Features
 
 - **Debugger:**
 
-    - Added support for the new Unity runtime (with .NET 4.6 / C# 6 compatibility).
+  - Added support for the new Unity runtime (with .NET 4.6 / C# 6 compatibility).
 
 - **Project Generation:**
 
-    - Added support for .NET 4.6 profile.
+  - Added support for .NET 4.6 profile.
 
-    - Added support for mcs.rsp files.
+  - Added support for mcs.rsp files.
 
-    - Always enable unsafe compilation switch when Unity 5.6 is used.
+  - Always enable unsafe compilation switch when Unity 5.6 is used.
 
-    - Added support for "Player" project generation when using Windows Store platform and il2cpp backend.
+  - Added support for "Player" project generation when using Windows Store platform and il2cpp backend.
 
 ### Bug fixes
 
 - **Code Editor:**
 
-    - Fixed caret position after inserting method with auto-completion.
+  - Fixed caret position after inserting method with auto-completion.
 
 - **Project Generation:**
 
-    - Removed assembly version post-processing.
+  - Removed assembly version post-processing.
 
 ## 3.0.0.1
- Released March 7, 2017
+
+Released March 7, 2017
 
 ### This version includes all new features and bug fixes introduced with 2.8.x series.
 
 ## 2.8.2.0 - 3.0 Preview 3
- Released January 25, 2017
+Released January 25, 2017
 
 ### Bug fixes
 
 - **Project Generation:**
 
-    - Fixed regression where Plugins projects where referenced twice, first as a binary DLL then as a project reference.
+  - Fixed regression where Plugins projects where referenced twice, first as a binary DLL then as a project reference.
 
 ## 2.8.1.0 - 3.0 Preview 2
- Released January 23, 2017
+Released January 23, 2017
 
 ### Bug fixes
 
 - **Code Editor:**
 
-    - Fixed a crash when starting an attribute declaration without brace completion.
+  - Fixed a crash when starting an attribute declaration without brace completion.
 
 - **Debugger:**
 
-    - Fixed function breakpoints with coroutines under the new Unity compiler/runtime.
+  - Fixed function breakpoints with coroutines under the new Unity compiler/runtime.
 
-    - Added warning in case of an unbindable breakpoint (when no corresponding source-location is found).
+  - Added warning in case of an unbindable breakpoint (when no corresponding source-location is found).
 
 - **Project Generation:**
 
-    - Fixed csproj generation with special/localized characters.
+  - Fixed csproj generation with special/localized characters.
 
-    - Fixed references outside of Assets, such as Library (like the Facebook SDK).
+  - Fixed references outside of Assets, such as Library (like the Facebook SDK).
 
 - **Misc:**
 
-    - Added check to prevent Unity from running when installing or uninstalling.
+  - Added check to prevent Unity from running when installing or uninstalling.
 
-    - Switched to https to target the remote Unity documentation.
+  - Switched to https to target the remote Unity documentation.
 
 ## 2.8.0.0 - 3.0 Preview
- Released November 17, 2016
+Released November 17, 2016
 
 ### New Features
 
 - **General:**
 
-    - Added Visual Studio 2017 installer support.
+  - Added Visual Studio 2017 installer support.
 
-    - Added Visual Studio 2017 extension support.
+  - Added Visual Studio 2017 extension support.
 
-    - Added localization support.
+  - Added localization support.
 
 - **Code Editor:**
 
-    - Added C# IntelliSense for Unity messages.
+  - Added C# IntelliSense for Unity messages.
 
-    - Added C# code coloration for Unity messages.
+  - Added C# code coloration for Unity messages.
 
 - **Debugger:**
 
-    - Added support for `is`, `as`, direct cast, `default`, `new` expressions.
+  - Added support for `is`, `as`, direct cast, `default`, `new` expressions.
 
-    - Added support for string concat expressions.
+  - Added support for string concat expressions.
 
-    - Added support for hexadecimal display of integer values.
+  - Added support for hexadecimal display of integer values.
 
-    - Added support for creating new temporary variables (statements).
+  - Added support for creating new temporary variables (statements).
 
-    - Added support for implicit primitive conversions.
+  - Added support for implicit primitive conversions.
 
-    - Added better error messages when a type is expected or not found.
+  - Added better error messages when a type is expected or not found.
 
 - **Project Generation:**
 
-    - Removed the CSharp suffix from the project names.
+  - Removed the CSharp suffix from the project names.
 
-    - Removed reference to a system wide msbuild targets file.
+  - Removed reference to a system wide msbuild targets file.
 
 - **Wizards:**
 
-    - Added support for Unity messages in non Behaviour types such as Editor or EditorWindow.
+  - Added support for Unity messages in non Behaviour types such as Editor or EditorWindow.
 
-    - Switched to Roslyn to inject and format Unity messages.
+  - Switched to Roslyn to inject and format Unity messages.
 
 ### Bug fixes
 
 - **Debugger:**
 
-    - Fixed a bug crashing Unity when evaluating generic types.
+  - Fixed a bug crashing Unity when evaluating generic types.
 
-    - Fixed handling of nullable types.
+  - Fixed handling of nullable types.
 
-    - Fixed handling of enums.
+  - Fixed handling of enums.
 
-    - Fixed handling of nested member types.
+  - Fixed handling of nested member types.
 
-    - Fixed collection indexer access.
+  - Fixed collection indexer access.
 
-    - Fixed support for debugging iterator frames with new C# compiler.
+  - Fixed support for debugging iterator frames with new C# compiler.
 
 - **Project Generation:**
 
-    - Fixed bug that prevented compilation when targeting the Unity Web player.
+  - Fixed bug that prevented compilation when targeting the Unity Web player.
 
-    - Fixed bug that prevented compilation when compiling a script with a web encoded file name.
+  - Fixed bug that prevented compilation when compiling a script with a web encoded file name.
 
 ## 2.3.0.0
- Released July 14, 2016
+
+Released July 14, 2016
 
 ### New Features
 
 - **General:**
 
-    - Added an option to disable Unity console logs in Visual Studio's error list.
+  - Added an option to disable Unity console logs in Visual Studio's error list.
 
-    - Added an option to allow generated project properties to be modified.
+  - Added an option to allow generated project properties to be modified.
 
 - **Debugger:**
 
-    - Added Text, XML, HTML and JSON string visualizers.
+  - Added Text, XML, HTML and JSON string visualizers.
 
 - **Wizards:**
 
-    - Added missing MonoBehaviors.
+  - Added missing MonoBehaviors.
 
 ### Bug fixes
 
 - **General:**
 
-    - Fixed a conflict with ReSharper that prevented controls inside Visual Studio settings from being displayed.
+  - Fixed a conflict with ReSharper that prevented controls inside Visual Studio settings from being displayed.
 
-    - Fixed a conflict with Xamarin that  prevented debugging in some cases.
+  - Fixed a conflict with Xamarin that  prevented debugging in some cases.
 
 - **Debugger:**
 
-    - Fixed an issue that caused Visual Studio to freeze when debugging.
+  - Fixed an issue that caused Visual Studio to freeze when debugging.
 
-    - Fixed an issue with function breakpoints in Visual Studio 2015.
+  - Fixed an issue with function breakpoints in Visual Studio 2015.
 
-    - Fixed several expression evaluation issues.
+  - Fixed several expression evaluation issues.
 
 ## 2.2.0.0
- Released February 4, 2016
+
+Released February 4, 2016
 
 ### New Features
 
 - **Wizards:**
 
-    - Added smart search in the **Implement MonoBehavior** wizard.
+  - Added smart search in the **Implement MonoBehavior** wizard.
 
-    - Made wizards context aware; for example, NetworkBehavior messages are only available when working with a NetworkBehavior.
+  - Made wizards context aware; for example, NetworkBehavior messages are only available when working with a NetworkBehavior.
 
-    - Added support for NetworkBehavior messages in the wizards.
+  - Added support for NetworkBehavior messages in the wizards.
 
 - **UI:**
 
-    - Added an option to configure the visibility of MonoBehavior messages.
+  - Added an option to configure the visibility of MonoBehavior messages.
 
-    - Removed Visual Studio property pages that are not relevant to Unity projects.
+  - Removed Visual Studio property pages that are not relevant to Unity projects.
 
 ### Bug fixes
 
 - **Project generation:**
 
-    - Fixed references to UnityEngine and UnityEditor on Unity 4.6.
+  - Fixed references to UnityEngine and UnityEditor on Unity 4.6.
 
-    - Fixed generation of project files when Unity is running on OSX.
+  - Fixed generation of project files when Unity is running on OSX.
 
-    - Fixed handling of project names containing hashmark (#) characters.
+  - Fixed handling of project names containing hashmark (#) characters.
 
-    - Restricted generated projects to C# 4.
+  - Restricted generated projects to C# 4.
 
 - **Debugger:**
 
-    - Fixed an issue with expression evaluation when debugging inside a Unity coroutine.
+  - Fixed an issue with expression evaluation when debugging inside a Unity coroutine.
 
-    - Fixed an issue that caused Visual Studio to freeze when debugging.
+  - Fixed an issue that caused Visual Studio to freeze when debugging.
 
 - **UI:**
 
-    - Fixed an incompatibility with the [Tabs Studio](https://tabsstudio.com/) Visual Studio extension.
+  - Fixed an incompatibility with the [Tabs Studio](https://tabsstudio.com/) Visual Studio extension.
 
 - **Installer:**
 
-    - Support machine-wide installation of VSTU (install for all users)  by creating HKLM registry entries.
+  - Support machine-wide installation of VSTU (install for all users)  by creating HKLM registry entries.
 
-    - Fixed issues with uninstallation of VSTU when the same version of VSTU is installed for multiple different versions of Visual Studio. For example, when VSTU **2015** 2.1.0.0 and VSTU **2013** 2.1.0.0 were both installed.
+  - Fixed issues with uninstallation of VSTU when the same version of VSTU is installed for multiple different versions of Visual Studio. For example, when VSTU **2015** 2.1.0.0 and VSTU **2013** 2.1.0.0 were both installed.
 
 ## 2.1.0.0
- Released September 8, 2015
+
+Released September 8, 2015
 
 ### New Features
 
@@ -793,80 +893,81 @@ Visual Studio Tools for Unity change log.
 - Fixed hit-count breakpoints in Visual Studio 2015.
 
 ## 2.0.0.0
- Released July 20, 2015
+
+Released July 20, 2015
 
 ### Bug fixes
 
 - **Unity Integration:**
 
-    - Fixed the conversion of debug symbols created with Visual Studio 2015 when importing a DLL and its debug symbols (PDB).
+  - Fixed the conversion of debug symbols created with Visual Studio 2015 when importing a DLL and its debug symbols (PDB).
 
-    - Always generate MDB files when importing a DLL and its debug symbols (PDB), except when an MDB file is also provided.
+  - Always generate MDB files when importing a DLL and its debug symbols (PDB), except when an MDB file is also provided.
 
-    - Fixed pollution of the Unity project directory with an obj directory.
+  - Fixed pollution of the Unity project directory with an obj directory.
 
-    - Fixed generation of references to System.Xml.Link and System.Runtime.Serialization.
+  - Fixed generation of references to System.Xml.Link and System.Runtime.Serialization.
 
-    - Added support for multiple subscribers to the project file generation API hooks.
+  - Added support for multiple subscribers to the project file generation API hooks.
 
-    - Always complete project file generation even when one of the files to be generated is locked.
+  - Always complete project file generation even when one of the files to be generated is locked.
 
-    - Added support for * wildcards in the extension filter when specifying files to be included in the C# project.
+  - Added support for * wildcards in the extension filter when specifying files to be included in the C# project.
 
 - **Visual Studio integration:**
 
-    - Fixed a compatibility issue with the Productivity Power Tools.
+  - Fixed a compatibility issue with the Productivity Power Tools.
 
-    - Fixed generating MonoBehaviors around events and delegates declarations.
+  - Fixed generating MonoBehaviors around events and delegates declarations.
 
 - **Debugger:**
 
-    - Fixed a potential freeze when debugging.
+  - Fixed a potential freeze when debugging.
 
-    - Fixed an issue where locals would not be displayed in certain stack frames.
+  - Fixed an issue where locals would not be displayed in certain stack frames.
 
-    - Fixed inspecting empty arrays.
+  - Fixed inspecting empty arrays.
 
 ## 1.9.9.0 - 2.0 Preview 2
- Released April 2, 2015
+Released April 2, 2015
 
 ### New features
 
 - **Unity Project Explorer:**
 
-    - Automatically rename class when renaming a file in the Unity Project Explorer (See **Options** dialog).
+  - Automatically rename class when renaming a file in the Unity Project Explorer (See **Options** dialog).
 
-    - Automatically select newly created scripts in the Unity Project Explorer.
+  - Automatically select newly created scripts in the Unity Project Explorer.
 
-    - Track the active script in the Unity Project Explorer (See **Options** dialog).
+  - Track the active script in the Unity Project Explorer (See **Options** dialog).
 
-    - Dual-synchronize the Visual Studio Solution Explorer (See **Options** dialog).
+  - Dual-synchronize the Visual Studio Solution Explorer (See **Options** dialog).
 
-    - Adopt Visual Studio icons in Unity Project Explorer.
+  - Adopt Visual Studio icons in Unity Project Explorer.
 
 - **Debugger:**
 
-    - Select the active debug target from a list of saved or recently-used debug targets (See **Options** dialog).
+  - Select the active debug target from a list of saved or recently-used debug targets (See **Options** dialog).
 
-    - Create function breakpoints on MonoBehavior methods and apply them to multiple MonoBehavior classes.
+  - Create function breakpoints on MonoBehavior methods and apply them to multiple MonoBehavior classes.
 
-    - Support Make Object ID in the debugger.
+  - Support Make Object ID in the debugger.
 
-    - Support breakpoint hit count in the debugger.
+  - Support breakpoint hit count in the debugger.
 
-    - Support break-on-exception in the debugger (Experimental. See **Options** Dialog).
+  - Support break-on-exception in the debugger (Experimental. See **Options** Dialog).
 
-    - Support creation of objects and arrays when evaluating expressions in the debugger.
+  - Support creation of objects and arrays when evaluating expressions in the debugger.
 
-    - Support null comparison when evaluation expressions in the debugger.
+  - Support null comparison when evaluation expressions in the debugger.
 
-    - Filter out obsolete members in debugger watch windows.
+  - Filter out obsolete members in debugger watch windows.
 
 - **Installer:**
 
-    - Optimized Visual Studio Tools for Unity extension registration.
+  - Optimized Visual Studio Tools for Unity extension registration.
 
-    - Install Visual Studio Tools for Unity package for Unity 5.
+  - Install Visual Studio Tools for Unity package for Unity 5.
 
 - **Documentation:** Improve performance of documentation generation.
 
@@ -880,33 +981,33 @@ Visual Studio Tools for Unity change log.
 
 - **Unity Project Explorer:**
 
-    - Refresh the Unity Project Explorer after files are moved or renamed from the Visual Studio Solution Explorer.
+  - Refresh the Unity Project Explorer after files are moved or renamed from the Visual Studio Solution Explorer.
 
-    - Preserve selections when renaming files in the Unity Project Explorer.
+  - Preserve selections when renaming files in the Unity Project Explorer.
 
-    - Prevent automatic expand and collapse when files are double clicked in the Unity Project Explorer.
+  - Prevent automatic expand and collapse when files are double clicked in the Unity Project Explorer.
 
-    - Ensure that newly selected files are visible in the Unity Project Explorer.
+  - Ensure that newly selected files are visible in the Unity Project Explorer.
 
 - **Debugger:**
 
-    - Prevent a possible Visual Studio freeze when evaluating expressions in the debugger.
+  - Prevent a possible Visual Studio freeze when evaluating expressions in the debugger.
 
-    - Ensure that method invocations happen on the proper domain in the debugger.
+  - Ensure that method invocations happen on the proper domain in the debugger.
 
 - **Unity:**
 
-    - Correct the location of UnityVS.OpenFile with Unity 5.
+  - Correct the location of UnityVS.OpenFile with Unity 5.
 
-    - Correct the location of pdb2mdb with Unity 5.
+  - Correct the location of pdb2mdb with Unity 5.
 
-    - Prevent a possible exception during project file generation.
+  - Prevent a possible exception during project file generation.
 
-    - Prevent a possible freeze when running Unity on OSX.
+  - Prevent a possible freeze when running Unity on OSX.
 
-    - Handle internal exceptions.
+  - Handle internal exceptions.
 
-    - Send Unity console logs to the VS error list.
+  - Send Unity console logs to the VS error list.
 
 - **Documentation:** Correct documentation generation for the new unity documentation.
 
@@ -917,7 +1018,7 @@ Visual Studio Tools for Unity change log.
 - **UI:** Support Visual Studio themes for context menu and icons.
 
 ## 1.9.8.0 - 2.0 Preview
- Released November 12, 2014
+Released November 12, 2014
 
 ### New features
 
@@ -927,15 +1028,15 @@ Visual Studio Tools for Unity change log.
 
 - Improved visualization of values when debugging:
 
-    - Better visualization for ArrayLists, Lists, Hashtables and Dictionaries.
+  - Better visualization for ArrayLists, Lists, Hashtables and Dictionaries.
 
-    - Show Non-Public members and Static members as categories in watch and local views.
+  - Show Non-Public members and Static members as categories in watch and local views.
 
-    - Improved display of Unity's SerializedProperty to only evaluate the value field valid for the property.
+  - Improved display of Unity's SerializedProperty to only evaluate the value field valid for the property.
 
-    - DebuggerDisplayAttribute support for classes and structs.
+  - DebuggerDisplayAttribute support for classes and structs.
 
-    - DebuggerTypeProxyAttribute support.
+  - DebuggerTypeProxyAttribute support.
 
 - Make the insertion of MonoBehaviour methods using our wizards to respect the user coding conventions.
 
@@ -956,7 +1057,8 @@ Visual Studio Tools for Unity change log.
 - Do not register the log callback if we don't have to.
 
 ## 1.9.2.0
- Released October 9, 2014
+
+Released October 9, 2014
 
 ### New features
 
@@ -979,7 +1081,8 @@ Visual Studio Tools for Unity change log.
 - Fix bug where all assets were included in the project files if the extension filter was empty.
 
 ## 1.9.1.0
- Released September 22, 2014
+
+Released September 22, 2014
 
 ### New features
 
@@ -1024,7 +1127,8 @@ Visual Studio Tools for Unity change log.
 - Fix opening scripts with VSTU in 64 bits versions of Unity.
 
 ## 1.9.0.0
- Released July 29, 2014
+
+Released July 29, 2014
 
 ### New features
 
@@ -1069,10 +1173,11 @@ Visual Studio Tools for Unity change log.
 - Fix handling of parts of Visual Studio themes.
 
 > [!IMPORTANT]
->  C# being the predominant language in the Unity ecosystem - the new Sample Assets are in C#, the Unity documentation will default to C# - we removed our basic support for UnityScript and Boo to better focus on the C# experience. As a result, VSTU solutions are now C# only and are much faster to load.
+> C# being the predominant language in the Unity ecosystem - the new Sample Assets are in C#, the Unity documentation will default to C# - we removed our basic support for UnityScript and Boo to better focus on the C# experience. As a result, VSTU solutions are now C# only and are much faster to load.
 
 ## 1.8.2.0
- Released January 7, 2014
+
+Released January 7, 2014
 
 ### New features
 
@@ -1099,7 +1204,8 @@ Visual Studio Tools for Unity change log.
 - Prevent crash in Unity when the version specific generated assembly if out of sync.
 
 ## 1.8.1.0
- Released November 21, 2013
+
+Released November 21, 2013
 
 ### New features
 
@@ -1132,7 +1238,8 @@ Visual Studio Tools for Unity change log.
 - Fixed opening scripts from Unity to not confuse the ALT+TAB order for Unity 4.2 and above.
 
 ## 1.8.0.0
- Released September 24, 2013
+
+Released September 24, 2013
 
 ### New features
 
@@ -1173,7 +1280,8 @@ Visual Studio Tools for Unity change log.
 - Fixed changing values of Booleans in the local view.
 
 ## 1.2.2.0
- Released July 9, 2013
+
+Released July 9, 2013
 
 ### Bug fixes
 
@@ -1196,7 +1304,8 @@ Visual Studio Tools for Unity change log.
 - Fixed handling of Unity 4.2 Beta assemblies.
 
 ## 1.2.1.0
- Released April 9, 2013
+
+Released April 9, 2013
 
 ### Bug fixes
 
@@ -1209,7 +1318,8 @@ Visual Studio Tools for Unity change log.
 - Fixed binding of breakpoints in some external DLLs.
 
 ## 1.2.0.0
- Released March 25, 2013
+
+Released March 25, 2013
 
 ### New features
 
@@ -1276,10 +1386,10 @@ Visual Studio Tools for Unity change log.
 - Fixed bug UVS-11: Locals in coroutines.
 
 ## 1.1.0.0 - Beta release
- Released March, 9, 2013
+Released March, 9, 2013
 
 ## 1.0.13.0
- Released January 21, 2013
+Released January 21, 2013
 
 ### Bug fixes
 
@@ -1302,7 +1412,7 @@ Visual Studio Tools for Unity change log.
 - Fixed handling of long messages sent from Unity to UnityVS. Before that, long messages could crash our messaging part of UnityVS. As a consequence, sometimes UnityVS wouldn't open a file from Unity.
 
 ## 1.0.12.0
- Released January 3, 2013
+Released January 3, 2013
 
 ### Bug fixes
 
@@ -1321,7 +1431,7 @@ Visual Studio Tools for Unity change log.
 - Fixed an API glitch where user code could not participate in the log callback handler.
 
 ## 1.0.11.0
- Released November 28, 2012
+Released November 28, 2012
 
 ### New features
 
@@ -1352,7 +1462,7 @@ Visual Studio Tools for Unity change log.
 - Fixed crash if we can't inject our icon in Visual Studio's status bar.
 
 ## 1.0.10.0
- Released October 9, 2012
+Released October 9, 2012
 
 ### Bug Fixes
 
@@ -1365,7 +1475,8 @@ Visual Studio Tools for Unity change log.
 - Fixed how assemblies are retrieved from Unity to avoid locking files and confuse the Unity build process.
 
 ## 1.0.9.0
- Released October 3, 2012
+
+Released October 3, 2012
 
 ### Bug fixes
 
@@ -1384,7 +1495,8 @@ Visual Studio Tools for Unity change log.
 - Fixed bug UVS-21: Invalid pointer when evaluating a method invocation to Unity Math API.
 
 ## 1.0.8.0
- Released September 26, 2012
+
+Released September 26, 2012
 
 ### Bug fixes
 
@@ -1395,7 +1507,8 @@ Visual Studio Tools for Unity change log.
 - Fixed how UnityVS is registered on Visual Studio 2010.
 
 ## 1.0.7.0
- Released September 14, 2012
+
+Released September 14, 2012
 
 ### New features
 
@@ -1408,13 +1521,14 @@ Visual Studio Tools for Unity change log.
 - Fixed the translation of .pdb symbols on Unity 4.
 
 > [!IMPORTANT]
->  Because of the Visual Studio 2012 support, we had to rename a few files and move some other around. The UnityVS package to import Unity is now named either UnityVS 2010 or UnityVS 2012, for respectively Visual Studio 2010 and Visual Studio 2012. This version also requires that the UnityVS project files are regenerated.
+> Because of the Visual Studio 2012 support, we had to rename a few files and move some other around. The UnityVS package to import Unity is now named either UnityVS 2010 or UnityVS 2012, for respectively Visual Studio 2010 and Visual Studio 2012. This version also requires that the UnityVS project files are regenerated.
 
 ## 1.0.6.0 - Internal build
- Released September 12, 2012
+Released September 12, 2012
 
 ## 1.0.5.0
- Released September 10, 2012
+
+Released September 10, 2012
 
 ### Bug fixes
 
@@ -1423,20 +1537,22 @@ Visual Studio Tools for Unity change log.
 - Fixed detection of Unity instances when Unity was connected to the Asset server. This triggered failures to open files from Unity and the automatic connection of the Visual Studio debugger.
 
 ## 1.0.4.0
- Released September 5, 2012
+
+Released September 5, 2012
 
 ### New features
 
 - Automatic conversion of debug symbols in Unity.
 
-     If you have a .NET .dll assembly with its associated .pdb in your Asset folder, simply re-import the assembly and UnityVS will convert the .pdb into a debug symbols file that Unity's scripting engine understands, and you'll be able to step into your .NET assemblies from UnityVS.
+    If you have a .NET .dll assembly with its associated .pdb in your Asset folder, simply re-import the assembly and UnityVS will convert the .pdb into a debug symbols file that Unity's scripting engine understands, and you'll be able to step into your .NET assemblies from UnityVS.
 
 ### Bug fixes
 
 - Fixed UnityVS crash while debugging caused by exceptions thrown by methods or properties inside Unity.
 
 ## 1.0.3.0
- Released September 4, 2012
+
+Released September 4, 2012
 
 ### New features
 
@@ -1451,7 +1567,8 @@ Visual Studio Tools for Unity change log.
 - Fixed random VS crash caused by our custom status bar.
 
 ## 1.0.2.0
- Released August 30, 2012
+
+Released August 30, 2012
 
 ### Bug fixes
 
@@ -1462,7 +1579,8 @@ Visual Studio Tools for Unity change log.
 - Fixed bug in how scripting assemblies were retrieved from Unity with Unity 4 b7.
 
 ## 1.0.1.0
- Released August 28, 2012
+
+Released August 28, 2012
 
 ### New features
 
@@ -1479,4 +1597,4 @@ Visual Studio Tools for Unity change log.
 - Fixed completion for dll inside the Asset folder for UnityScript and Boo.
 
 ## 1.0.0.0 - Initial release
- Released August 22, 2012
+Released August 22, 2012

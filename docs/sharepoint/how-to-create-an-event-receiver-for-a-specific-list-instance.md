@@ -37,7 +37,7 @@ ms.workload:
 6. In the **What type of event receiver do you want?** list, choose **List Item Events**.
 
     > [!NOTE]
-    >  You can also select any other kind of event receiver that scopes to a list definition, for example, **List Email Events** or **List Workflow Events**.
+    > You can also select any other kind of event receiver that scopes to a list definition, for example, **List Email Events** or **List Workflow Events**.
 
 7. In the **What item should be the event source?** list, choose **Announcements**.
 

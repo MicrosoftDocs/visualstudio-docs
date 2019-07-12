@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating and Debugging a SharePoint Workflow Solution | Microsoft Docs"
+title: "Create & debug SharePoint workflow solution"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -29,9 +29,9 @@ ms.workload:
 - Handling workflow activity events.
 
 > [!NOTE]
->  Although this walkthrough uses a sequential workflow project, the process is identical for a state machine workflow project.
+> Although this walkthrough uses a sequential workflow project, the process is identical for a state machine workflow project.
 >
->  Also, your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
+> Also, your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 ## Prerequisites
  You need the following components to complete this walkthrough:

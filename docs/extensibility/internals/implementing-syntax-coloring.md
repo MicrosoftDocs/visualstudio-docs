@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], colorizing text"
   - "text, colorizing in editors"
 ms.assetid: 96e762ca-efd0-41e7-8958-fda4897c8c7a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -21,7 +21,7 @@ When the language service provides syntax colorization, the parser converts a li
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more about the new way to implement syntax coloring, see [Walkthrough: Highlighting Text](../../extensibility/walkthrough-highlighting-text.md).
 
 > [!NOTE]
->  We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.
+> We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.
 
 ## Steps Followed by an Editor to Colorize Text
 

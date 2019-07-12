@@ -2,7 +2,7 @@
 title: Python support in Visual Studio on Windows
 titleSuffix: ""
 description: Summary of Python features in Visual Studio, making it the best Python IDE on Windows (also known as Python Tools for Visual Studio, PTVS).
-ms.date: 03/12/2019
+ms.date: 06/05/2019
 ms.topic: overview
 author: JoshuaPartlow
 ms.author: joshuapa
@@ -32,6 +32,11 @@ To get started:
 - Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md) or [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json).
 ::: moniker-end
 - Follow the [Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) tutorial for a full end-to-end experience.
+
+::: moniker range=">=vs-2019"
+> [!Note]
+> Visual Studio supports Python version 2.7, as well as version 3.5 and greater. While it is possible to use Visual Studio to edit code written in other versions of Python, those versions are not officially supported and features such as IntelliSense and debugging might not work.
+::: moniker-end
 
 ## Support for multiple interpreters
 
@@ -145,9 +150,10 @@ For more information:
 
 ## Azure SDK for Python
 
-The Python workload includes the Azure SDK for Python, which simplifies consuming Azure services from Windows, Mac OS X, and Linux apps.
+The Azure libraries for Python simplify consuming Azure services from Windows, Mac OS X, and Linux apps. You can use them to create and manage Azure resources, as well as to connect to Azure services. 
 
-For more information, see [Azure SDK for Python](/python/azure/?view=azure-python).
+For more information, see [Azure SDK for Python](/python/azure/?view=azure-python) and [Azure libraries for Python](/python/azure/python-sdk-azure-overview?view=azure-python)
+.
 
 ## Questions and answers
 

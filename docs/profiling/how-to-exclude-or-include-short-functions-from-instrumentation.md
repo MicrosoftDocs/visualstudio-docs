@@ -1,5 +1,5 @@
 ---
-title: "How to: Exclude or Include Short Functions from Instrumentation | Microsoft Docs"
+title: "Exclude or include short functions from instrumentation"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

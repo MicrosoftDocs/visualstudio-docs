@@ -49,7 +49,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] looks at the conditions on `PropertyGroup`, `ItemGroup`, `Import`, property, and item elements for this purpose.  
   
 ## Additional Build Actions  
- [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] allows you to change the item type name of a file in a project with the **Build Action** property of the [File Properties](http://msdn.microsoft.com/013c4aed-08d6-4dce-a124-ca807ca08959) window. `Compile`, `EmbeddedResource`, `Content`, and `None` item type names are always listed in this menu, along with any other item type names already in your project. To ensure any custom item type names are always available in this menu, you can add the names to an item type named `AvailableItemName`. For example, adding the following to your project file will add the custom type `JScript` to this menu for all projects that import it:  
+ [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] allows you to change the item type name of a file in a project with the **Build Action** property of the [File Properties](https://msdn.microsoft.com/013c4aed-08d6-4dce-a124-ca807ca08959) window. `Compile`, `EmbeddedResource`, `Content`, and `None` item type names are always listed in this menu, along with any other item type names already in your project. To ensure any custom item type names are always available in this menu, you can add the names to an item type named `AvailableItemName`. For example, adding the following to your project file will add the custom type `JScript` to this menu for all projects that import it:  
   
 ```  
 <ItemGroup>  
@@ -58,7 +58,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ```  
   
 > [!NOTE]
->  Some item type names are special to [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] but not listed in this dropdown.  
+> Some item type names are special to [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] but not listed in this dropdown.  
   
 ## In-Process Compilers  
  When possible, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] will attempt to use the in-process version of the [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] compiler for increased performance. (Not applicable to [!INCLUDE[csprcs](../includes/csprcs-md.md)].) For this to work correctly, the following conditions must be met:  
@@ -154,13 +154,13 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
   
 - Assembly references:  
   
-     The project system calls a target with the well-known name `ResolveAssemblyReferences`. This target should produce items with the item type name `ReferencePath`. Each of these items should have an item specification (the value of the `Include` attribute of an item) containing the full path to the reference. The items should have all the metadata from the input items passed through in addition to the following new metadata:  
-  
-    - `CopyLocal`, indicating whether the assembly should be copied into the output folder, set to true or false.  
-  
-    - `OriginalItemSpec`, containing the original item specification of the reference.  
-  
-    - `ResolvedFrom`, set to "{TargetFrameworkDirectory}" if it was resolved from the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] directory.  
+  The project system calls a target with the well-known name `ResolveAssemblyReferences`. This target should produce items with the item type name `ReferencePath`. Each of these items should have an item specification (the value of the `Include` attribute of an item) containing the full path to the reference. The items should have all the metadata from the input items passed through in addition to the following new metadata:  
+
+  - `CopyLocal`, indicating whether the assembly should be copied into the output folder, set to true or false.  
+
+  - `OriginalItemSpec`, containing the original item specification of the reference.  
+
+  - `ResolvedFrom`, set to "{TargetFrameworkDirectory}" if it was resolved from the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] directory.  
   
 - COM references:  
   

@@ -22,9 +22,9 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 
 - [Build an app for Android, iOS, and Windows (.NET Framework)](#NET)
 
-    - [Target Android, iOS, and Windows from a single code base](../cross-platform/cross-platform-mobile-development-in-visual-studio.md#AndroidHTML)
+  - [Target Android, iOS, and Windows from a single code base](../cross-platform/cross-platform-mobile-development-in-visual-studio.md#AndroidHTML)
 
-    - [Target Windows 10 devices](../cross-platform/cross-platform-mobile-development-in-visual-studio.md#WindowsHTML)
+  - [Target Windows 10 devices](../cross-platform/cross-platform-mobile-development-in-visual-studio.md#WindowsHTML)
 
 - [Build an app for Android, iOS, and Windows (HTML/JavaScript)](#HTML)
 
@@ -70,7 +70,7 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 
 |**Learn more**|
 |--------------------|
-|Choose whether to share your code by using shared projects, Portable Class Library projects, or both.<br /><br /> [Sharing code across platforms](http://blogs.msdn.com/b/dotnet/archive/2014/04/21/sharing-code-across-platforms.aspx) (.NET Framework blog)<br /><br /> [Sharing Code Options](http://developer.xamarin.com/guides/cross-platform/application_fundamentals/building_cross_platform_applications/sharing_code_options/) (Xamarin)<br /><br /> [Code sharing options with the .NET Framework](http://msdn.microsoft.com/library/dn720832.aspx) (MSDN Library)|
+|Choose whether to share your code by using shared projects, Portable Class Library projects, or both.<br /><br /> [Sharing code across platforms](http://blogs.msdn.com/b/dotnet/archive/2014/04/21/sharing-code-across-platforms.aspx) (.NET Framework blog)<br /><br /> [Sharing Code Options](http://developer.xamarin.com/guides/cross-platform/application_fundamentals/building_cross_platform_applications/sharing_code_options/) (Xamarin)<br /><br /> [Code sharing options with the .NET Framework](https://msdn.microsoft.com/library/dn720832.aspx) (MSDN Library)|
 
 ### <a name="WindowsHTML"></a> Target Windows 10 devices
  ![Windows Devices](../cross-platform/media/windowsdevices.png "WindowsDevices")
@@ -84,7 +84,7 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 |**Learn more**|
 |--------------------|
 |[Learn about universal Windows apps](https://msdn.microsoft.com/library/windows/apps/dn894631.aspx) (Windows Dev Center)|
-|[Build your first one](http://msdn.microsoft.com/library/windows/apps/dn609832.aspx) (Windows Dev Center)|
+|[Build your first one](https://msdn.microsoft.com/library/windows/apps/dn609832.aspx) (Windows Dev Center)|
 |[Develop apps for the Universal Windows Platform (UWP)](../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md)|
 |[Migrate apps to the Universal Windows Platform (UWP)](../misc/migrate-apps-to-the-universal-windows-platform-uwp.md)|
 
@@ -165,6 +165,6 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 
 ## See Also
 
-- [Add Office 365 API’s to a Visual Studio project](http://msdn.microsoft.com/library/office/dn605899\(v=office.15\).aspx)
-- [Azure Mobile Services](http://msdn.microsoft.com/library/dn720832\(v=vs.110\).aspx)
+- [Add Office 365 API’s to a Visual Studio project](https://msdn.microsoft.com/library/office/dn605899\(v=office.15\).aspx)
+- [Azure Mobile Services](https://msdn.microsoft.com/library/dn720832\(v=vs.110\).aspx)
 - [Application Insights](/azure/application-insights/app-insights-overview)

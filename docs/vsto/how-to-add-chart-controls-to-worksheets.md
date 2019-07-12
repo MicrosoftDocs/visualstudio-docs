@@ -33,7 +33,7 @@ ms.workload:
  You can add the <xref:Microsoft.Office.Tools.Excel.Chart> control to your worksheet in the same manner you would add a chart from within the application.
 
 > [!NOTE]
->  The <xref:Microsoft.Office.Tools.Excel.Chart> control is not available from the **Toolbox** or the **Data Sources** window.
+> The <xref:Microsoft.Office.Tools.Excel.Chart> control is not available from the **Toolbox** or the **Data Sources** window.
 
 ### To add a Chart host control to a worksheet in Excel
 

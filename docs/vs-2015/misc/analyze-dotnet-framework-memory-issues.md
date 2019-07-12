@@ -41,7 +41,7 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ## <a name="BKMK_Identify_a_memory_issue_in_an_app"></a> Identify a memory issue in an app  
- The most visible symptom of memory issues is the performance of your app, especially if the performance degrades over time. Degradation of the performance of other apps while your app is running might also indicate a memory issue. If you suspect a memory issue, use a tool like Task Manager or [Windows Performance Monitor](http://technet.microsoft.com/library/cc749249.aspx) to investigate further. For example, look for growth in the total size of memory that you cannot explain as a possible source of memory leaks:  
+ The most visible symptom of memory issues is the performance of your app, especially if the performance degrades over time. Degradation of the performance of other apps while your app is running might also indicate a memory issue. If you suspect a memory issue, use a tool like Task Manager or [Windows Performance Monitor](https://technet.microsoft.com/library/cc749249.aspx) to investigate further. For example, look for growth in the total size of memory that you cannot explain as a possible source of memory leaks:  
   
  ![Consistent memory growth in Resource Monitor](../misc/media/mngdmem-resourcemanagerconsistentgrowth.png "MNGDMEM_ResourceManagerConsistentGrowth")  
   
@@ -50,10 +50,10 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
  ![Memory spikes in Resource Manager](../misc/media/mngdmem-resourcemanagerspikes.png "MNGDMEM_ResourceManagerSpikes")  
   
 ## <a name="BKMK_Collect_memory_snapshots"></a> Collect memory snapshots  
- The memory analysis tool analyzes information in *dump files* that contain heap information. You can create dump files in Visual Studio, or you can use a tool like [ProcDump](http://technet.microsoft.com/sysinternals/dd996900.aspx) from [Windows Sysinternals](http://technet.microsoft.com/sysinternals). See [What is a dump, and how do I create one?](http://blogs.msdn.com/b/debugger/archive/2009/12/30/what-is-a-dump-and-how-do-i-create-one.aspx) on the Visual Studio Debugger Team blog.  
+ The memory analysis tool analyzes information in *dump files* that contain heap information. You can create dump files in Visual Studio, or you can use a tool like [ProcDump](https://technet.microsoft.com/sysinternals/dd996900.aspx) from [Windows Sysinternals](https://technet.microsoft.com/sysinternals). See [What is a dump, and how do I create one?](http://blogs.msdn.com/b/debugger/archive/2009/12/30/what-is-a-dump-and-how-do-i-create-one.aspx) on the Visual Studio Debugger Team blog.  
   
 > [!NOTE]
->  Most tools can collect dump information with or without complete heap memory data. The Visual Studio memory analyzer requires full heap information.  
+> Most tools can collect dump information with or without complete heap memory data. The Visual Studio memory analyzer requires full heap information.  
   
  **To collect a dump from Visual Studio**  
   

@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugging [Debugging SDK], required events"
 ms.assetid: 08319157-43fb-44a9-9a63-50b919fe1377
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -28,7 +28,7 @@ Use this procedure for sending required events.
 5. If the application to be debugged is launched, send an [IDebugEntryPointEvent2](../../extensibility/debugger/reference/idebugentrypointevent2.md) event object to the SDM when the first instruction of code in the run-time architecture is about to be executed. This event is always a stopping event. When stepping into the debugging session, the IDE stops on this event.
 
 > [!NOTE]
->  Many languages use global initializers or external, precompiled functions (from the CRT library or _Main) at the beginning of their code. If the language of the program you are debugging contains either of these types of elements before the initial entry point, this code is run and the entry point event is sent when the user entry point, such as **main** or `WinMain`, is reached.
+> Many languages use global initializers or external, precompiled functions (from the CRT library or _Main) at the beginning of their code. If the language of the program you are debugging contains either of these types of elements before the initial entry point, this code is run and the entry point event is sent when the user entry point, such as **main** or `WinMain`, is reached.
 
 ## See also
 - [Enabling a program to be debugged](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)

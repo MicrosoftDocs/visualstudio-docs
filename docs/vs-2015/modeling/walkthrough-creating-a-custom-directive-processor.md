@@ -80,7 +80,7 @@ End Property
 1. In Visual Studio, create a C# or a Visual Basic class library project named CustomDP.  
 
     > [!NOTE]
-    >  If you want to install the directive processor on more than one computer, it is better to use a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension (VSIX) project and include a .pkgdef file in the extension. For more information, see [Deploying a Custom Directive Processor](../modeling/deploying-a-custom-directive-processor.md).  
+    > If you want to install the directive processor on more than one computer, it is better to use a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension (VSIX) project and include a .pkgdef file in the extension. For more information, see [Deploying a Custom Directive Processor](../modeling/deploying-a-custom-directive-processor.md).  
 
 2. Add  references to these assemblies:  
 
@@ -613,7 +613,7 @@ End Property
  Before you can call a directive from a text template in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you must add a registry key for the directive processor.  
 
 > [!NOTE]
->  If you want to install the directive processor on more than one computer, it is better to define a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension (VSIX) that includes a .pkgdef file along with your assembly. For more information, see [Deploying a Custom Directive Processor](../modeling/deploying-a-custom-directive-processor.md).  
+> If you want to install the directive processor on more than one computer, it is better to define a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension (VSIX) that includes a .pkgdef file along with your assembly. For more information, see [Deploying a Custom Directive Processor](../modeling/deploying-a-custom-directive-processor.md).  
 
  Keys for directive processors exist in the registry in the following location:  
 
@@ -630,7 +630,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
  In this section, you add a key for your custom directive processor to the registry in the same location.  
 
 > [!CAUTION]
->  Incorrectly editing the registry can severely damage your system. Before you make changes to the registry, back up any valuable data that is on the computer.  
+> Incorrectly editing the registry can severely damage your system. Before you make changes to the registry, back up any valuable data that is on the computer.  
 
 #### To add a registry key for the directive processor  
 
@@ -643,7 +643,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
 3. Add a new key named CustomDirectiveProcessor.  
 
    > [!NOTE]
-   >  This is the name that you will use in the Processor field of your custom directives. This name does not need to match the name of the directive, the name of the directive processor class, or the directive processor namespace.  
+   > This is the name that you will use in the Processor field of your custom directives. This name does not need to match the name of the directive, the name of the directive processor class, or the directive processor namespace.  
 
 4. Add a new string value named Class that has a value CustomDP.CustomDirectiveProcessor for the name of the new string.  
 
@@ -672,7 +672,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
 ## Testing the Directive Processor  
  To test the directive processor, you need to write a text template that calls it.  
 
- In this example, the text template calls the directive and passes in the name of an XML file that contains documentation for a class file. For more information, see [XML Documentation Comments](http://msdn.microsoft.com/library/803b7f7b-7428-4725-b5db-9a6cff273199).  
+ In this example, the text template calls the directive and passes in the name of an XML file that contains documentation for a class file. For more information, see [XML Documentation Comments](https://msdn.microsoft.com/library/803b7f7b-7428-4725-b5db-9a6cff273199).  
 
  The text template then uses the <xref:System.Xml.XmlDocument> property that the directive creates to navigate the XML and print the documentation comments.  
 
@@ -681,7 +681,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
 1. Create a text file named `DocFile.xml` by using any text editor (for example, Notepad).  
 
     > [!NOTE]
-    >  You can create this file in any location (for example, C:\Test\DocFile.xml).  
+    > You can create this file in any location (for example, C:\Test\DocFile.xml).  
 
 2. Add the following to the text file:  
 
@@ -737,7 +737,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
 4. Change the content of  TestDP.tt to the following text.  
 
     > [!NOTE]
-    >  Make sure to replace the string <`YOUR PATH>` with the path to the DocFile.xml file.  
+    > Make sure to replace the string <`YOUR PATH>` with the path to the DocFile.xml file.  
 
      The language of the text template does not have to match the language of the directive processor.  
 
@@ -824,7 +824,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
     ```  
 
     > [!NOTE]
-    >  In this example, the value of the `Processor` parameter is `CustomDirectiveProcessor`. The value of the `Processor` parameter must match the name of the processor's registry key.  
+    > In this example, the value of the `Processor` parameter is `CustomDirectiveProcessor`. The value of the `Processor` parameter must match the name of the processor's registry key.  
 
 5. On the **File** menu, click **Save All**.  
 
@@ -876,7 +876,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
 1. Replace the code in TestDP.tt with the following. The HTML is highlighted. Make sure to replace the string `YOUR PATH` with the path to the DocFile.xml file.  
 
     > [!NOTE]
-    >  Additional open \<# and close #> tags separate the statement code from the HTML tags.  
+    > Additional open \<# and close #> tags separate the statement code from the HTML tags.  
 
     ```csharp  
     <#@ assembly name="System.Xml" #>  

@@ -23,14 +23,14 @@ manager: jillfra
  This topic provides a basic tutorial on using XML documentation comments. For information about using other elements, such as [\<var>](../ide/var-javascript.md) and [\<value>](../ide/value-javascript.md), and for additional code examples, see [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md). For information about providing IntelliSense information for an asynchronous callback such as a `Promise`, see [\<returns>](../ide/returns-javascript.md).  
   
 > [!NOTE]
->  XML documentation comments are available only from referenced files, assemblies, and services.  
+> XML documentation comments are available only from referenced files, assemblies, and services.  
   
 ### To create XML documentation comments for a JavaScript function  
   
 - In the function, add [\<summary>](../ide/summary-javascript.md), [\<param>](../ide/param-javascript.md), and [\<returns>](../ide/returns-javascript.md) elements, and precede each element with three slash marks (///).  
   
     > [!NOTE]
-    >  Each element must be on a single line.  
+    > Each element must be on a single line.  
   
      The following example shows a JavaScript function.  
   
@@ -112,7 +112,7 @@ manager: jillfra
 1. Create an XML file that has documentation comments in the OpenAjax MessageBundle format.  
   
     > [!IMPORTANT]
-    >  MessageBundle is the recommended format. This format is not supported in Microsoft Ajax or in .winmd files. For information about using the alternative `VSDoc` format, see [\<loc>](../ide/loc-javascript.md).  
+    > MessageBundle is the recommended format. This format is not supported in Microsoft Ajax or in .winmd files. For information about using the alternative `VSDoc` format, see [\<loc>](../ide/loc-javascript.md).  
   
      The following example shows content in a sidecar file that contains the localized IntelliSense information. This is an XML file that's located in a culture-specific folder, like JA. The folder must be in the same location as the .js file that contains the `<loc>` element. The file name of the XML file must match the `filename` parameter specified in the `<loc>` element.  
   
@@ -153,4 +153,4 @@ manager: jillfra
 ## See Also  
  [JavaScript IntelliSense](../ide/javascript-intellisense.md)   
  [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md)   
- [NIB: Walkthrough: JavaScript IntelliSense in ASP.NET](http://msdn.microsoft.com/4f6e0cc2-7f48-4dbf-abb0-7fb743a2d05b)
+ [NIB: Walkthrough: JavaScript IntelliSense in ASP.NET](https://msdn.microsoft.com/4f6e0cc2-7f48-4dbf-abb0-7fb743a2d05b)

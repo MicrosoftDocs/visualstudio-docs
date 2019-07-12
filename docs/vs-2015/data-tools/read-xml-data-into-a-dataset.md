@@ -42,7 +42,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
 5. Adding code to display the XML schema based on the XML file in a <xref:System.Windows.Forms.TextBox> control  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition you're using. To change your settings, on the  **Tools** menu, select**Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition you're using. To change your settings, on the  **Tools** menu, select**Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Create a new project  
  In this step, you  create a Visual Basic or Visual C# project that  contains this walkthrough.  
@@ -53,7 +53,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 2. Name the project `ReadingXML`.  
   
-3. Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
+3. Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](https://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **ReadingXML** project is created and added to **Solution Explorer**.  
   
@@ -141,9 +141,9 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 - Two <xref:System.Windows.Forms.Button> controls.  
   
-    - One button reads the XML file into the dataset and displays it in the <xref:System.Windows.Forms.DataGridView> control.  
-  
-    - A second button extracts the schema from the dataset, and through a <xref:System.IO.StringWriter> displays it in the <xref:System.Windows.Forms.TextBox> control.  
+  - One button reads the XML file into the dataset and displays it in the <xref:System.Windows.Forms.DataGridView> control.  
+
+  - A second button extracts the schema from the dataset, and through a <xref:System.IO.StringWriter> displays it in the <xref:System.Windows.Forms.TextBox> control.  
   
 #### To add controls to the form  
   
@@ -240,7 +240,7 @@ This walkthrough teaches you the basics of reading an XML file into a dataset, a
 - Edit the data in the dataset and write it out to a database.
   
 ## See Also  
- [Data Walkthroughs](http://msdn.microsoft.com/library/15a88fb8-3bee-4962-914d-7a1f8bd40ec4)   
+ [Data Walkthroughs](https://msdn.microsoft.com/library/15a88fb8-3bee-4962-914d-7a1f8bd40ec4)   
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)   
- [Preparing Your Application to Receive Data](http://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
+ [Preparing Your Application to Receive Data](https://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
  [XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)

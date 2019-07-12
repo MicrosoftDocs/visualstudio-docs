@@ -49,7 +49,7 @@ ms.workload:
 |CustomUpgradeActionParameter|Name|
 
 > [!NOTE]
->  Because the only way to modify the CustomUpgradeAction element is in the custom [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] editor, the effect of not merging is low.
+> Because the only way to modify the CustomUpgradeAction element is in the custom [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] editor, the effect of not merging is low.
 
 ## Package manifest elements
  The following table is a list of all package manifest elements that can be merged and their unique key that is used for matching.

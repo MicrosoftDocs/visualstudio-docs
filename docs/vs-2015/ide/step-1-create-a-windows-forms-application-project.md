@@ -33,7 +33,7 @@ New project dialog box
 4. The following illustration shows what you should now see in the Visual Studio interface.  
   
     > [!NOTE]
-    >  Your window layout may not look exactly like this illustration. The precise window layout depends on the version of Visual Studio, the programming language you are using, and other factors. However, you should verify that all three windows appear.  
+    > Your window layout may not look exactly like this illustration. The precise window layout depends on the version of Visual Studio, the programming language you are using, and other factors. However, you should verify that all three windows appear.  
   
      ![IDE window](../ide/media/express-ideoverview-visio.png "Express_IDEOverview_Visio")  
 IDE window  
@@ -51,7 +51,7 @@ IDE window
     - **Properties  window** In this window, you can change the properties of items that you choose in the other windows. For example, if you choose Form1, you can change its title by setting the **Text** property, and you can change the background color by setting the **Backcolor** property.  
   
     > [!NOTE]
-    >  The top line in **Solution Explorer** shows **Solution 'PictureViewer' (1 project)**, which means that Visual Studio created a solution for you. A solution can contain more than one project, but for now, you'll work with solutions that contain only one project.  
+    > The top line in **Solution Explorer** shows **Solution 'PictureViewer' (1 project)**, which means that Visual Studio created a solution for you. A solution can contain more than one project, but for now, you'll work with solutions that contain only one project.  
   
 6. On the menu bar, choose **File**, **Save All**.  
   

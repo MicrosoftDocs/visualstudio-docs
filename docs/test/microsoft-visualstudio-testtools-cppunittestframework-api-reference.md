@@ -1,6 +1,6 @@
 ---
-title: "Microsoft.VisualStudio.TestTools.CppUnitTestFramework API Reference"
-ms.date: 11/04/2017
+title: "Microsoft.VisualStudio.TestTools.CppUnitTestFramework API"
+ms.date: 06/13/2019
 ms.topic: reference
 ms.author: mblome
 manager: jillfra
@@ -19,7 +19,8 @@ This topic lists the public members of the `Microsoft::VisualStudio::CppUnitTest
 Header and lib paths are automatically configured in a Native Test project.
 
 ## <a name="In_this_topic"></a> In this topic
- [CppUnitTest.h](#cppUnitTest_h)
+
+[CppUnitTest.h](#cppUnitTest_h)
 
 - [Create test classes and methods](#create_test_classes_and_methods)
 
@@ -178,7 +179,7 @@ BEGIN_TEST_METHOD_ATTRIBUTE(testMethodName)
 END_TEST_METHOD_ATTRIBUTE()
 ```
 
- Adds the attributes defined with one or more `TEST_METHOD_ATTRIBUTE` macros to the test method *testClassName*.
+ Adds the attributes defined with one or more `TEST_METHOD_ATTRIBUTE` macros to the test method *testMethodName*.
 
  A `TEST_METHOD_ATTRIBUTE` macro defines an attribute with the name *attributeName* and the value *attributeValue*.
 
@@ -209,37 +210,38 @@ END_TEST_MODULE_ATTRIBUTE()
  A `TEST_MODULE_ATTRIBUTE` macro defines an attribute with the name *attributeName* and the value *attributeValue*.
 
 #### <a name="pre_defined_attributes"></a> Pre-defined attributes
- These pre-defined attribute macros can be substituted for the macros `TEST_METHOD_ATTRIBUTE`, `TEST_CLASS_ATTRIBUTE`, OR `TEST_MODULE_ATTRIBUTE` described above.
+
+ These pre-defined attribute macros are provided as a convenience for common cases. They can be substituted for the macro `TEST_METHOD_ATTRIBUTE` described above.
 
 ```cpp
 TEST_OWNER(ownerAlias)
 ```
 
- Defines an attribute with the name `Owner` and the attribute value of *ownerAlias*.
+ Defines a `TEST_METHOD_ATTRIBUTE` with the name `Owner` and the attribute value of *ownerAlias*.
 
 ```cpp
 TEST_DESCRIPTION(description)
 ```
 
- Defines an attribute with the name `Description` and the attribute value of *description*.
+ Defines a `TEST_METHOD_ATTRIBUTE` with the name `Description` and the attribute value of *description*.
 
 ```cpp
 TEST_PRIORITY(priority)
 ```
 
- Defines an attribute with the name `Priority` and the attribute value of *priority*.
+ Defines a `TEST_METHOD_ATTRIBUTE` with the name `Priority` and the attribute value of *priority*.
 
 ```cpp
 TEST_WORKITEM(workitem)
 ```
 
- Defines an attribute with the name `WorkItem` and the attribute value of *workItem*.
+ Defines a `TEST_METHOD_ATTRIBUTE` with the name `WorkItem` and the attribute value of *workItem*.
 
 ```cpp
 TEST_IGNORE()
 ```
 
- Defines an attribute with the name `Ignore` and the attribute value of `true`.
+ Defines a `TEST_METHOD_ATTRIBUTE` with the name `Ignore` and the attribute value of `true`.
 
 ## <a name="cppUnitTestAssert_h"></a> CppUnitTestAssert.h
 

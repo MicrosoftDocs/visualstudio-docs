@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "code snippets, supporting in language services [managed package framework]"
   - "language services [managed package framework], supporting code snippets"
 ms.assetid: 7490325b-acee-4c2d-ac56-1cd5db1a1083
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -21,7 +21,7 @@ A code snippet is a piece of code that is inserted into the source file. The sni
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more, see [Walkthrough: Implementing Code Snippets](../../extensibility/walkthrough-implementing-code-snippets.md).
 
 > [!NOTE]
->  We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.
+> We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.
 
 ## Managed Package Framework Support for Code Snippets
  The managed package framework (MPF) supports most snippet functionality, from reading the template to inserting the snippet and enabling the special edit mode. Support is managed through the <xref:Microsoft.VisualStudio.Package.ExpansionProvider> class.

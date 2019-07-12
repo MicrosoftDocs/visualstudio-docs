@@ -40,7 +40,7 @@ Rule CA1052 assumes that a type that contains only static members is not designe
 
 ## How to fix violations
 
-To fix a violation of this rule, mark the type as `sealed` or `NotInheritable`. If you're targeting .NET Framework 2.0 or later, a better approach is to mark the type as `static` or `Shared`. In this manner, you don't have to declare a private constructor to prevent the class from being created.
+To fix a violation of this rule, mark the type as `sealed` or `NotInheritable`. If the project targets .NET Framework 2.0 or later, a better approach is to mark the type as `static` or `Shared`. In this manner, you don't have to declare a private constructor to prevent the class from being created.
 
 ## When to suppress warnings
 
@@ -50,7 +50,7 @@ Suppress a warning from this rule only if the type is designed to be inherited. 
 
 If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
 
-```
+```ini
 dotnet_code_quality.ca1052.api_surface = private, internal
 ```
 

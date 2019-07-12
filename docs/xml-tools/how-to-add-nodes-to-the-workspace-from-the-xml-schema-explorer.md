@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Nodes to the Workspace from the XML Schema Explorer"
+title: "Add nodes to workspace from XML Schema Explorer"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 3b5a5749-9693-4b29-b0c2-8e07e0e55514

@@ -16,7 +16,7 @@ manager: jillfra
 You can access frequently used commands in Visual Studio by choosing these default keyboard shortcuts. For a complete list of commands that have default shortcuts, see [Default Keyboard Shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
 > [!NOTE]
->  You can look up the shortcut for any command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**.
+> You can look up the shortcut for any command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**.
 
  **In this topic**
 

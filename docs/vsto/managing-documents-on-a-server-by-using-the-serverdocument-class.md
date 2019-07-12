@@ -32,7 +32,7 @@ ms.workload:
  For more information about the Visual Studio 2010 Tools for Office Runtime and the Office extensions for the .NET Framework, see [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).
 
 > [!NOTE]
->  If you have a legacy application that uses the `ServerDocument` class in the `Visual Studio Tools for Office` system (version 3.0 Runtime), the `Visual Studio Tools for Office` system (version 3.0 runtime) must be installed on computers that run the application. The `Visual Studio 2010 Tools for Office runtime` cannot run these applications.
+> If you have a legacy application that uses the `ServerDocument` class in the `Visual Studio Tools for Office` system (version 3.0 Runtime), the `Visual Studio Tools for Office` system (version 3.0 runtime) must be installed on computers that run the application. The `Visual Studio 2010 Tools for Office runtime` cannot run these applications.
 
 ## <a name="CachedData"></a> Work with cached data in the document
  The `ServerDocument` class provides members you can use to work with the data cache in customized documents. For more information about cached data, see [Cache data](../vsto/caching-data.md) and [Access data in documents on the server](../vsto/accessing-data-in-documents-on-the-server.md).

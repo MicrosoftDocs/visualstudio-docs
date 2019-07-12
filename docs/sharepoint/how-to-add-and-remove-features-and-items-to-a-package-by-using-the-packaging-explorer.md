@@ -1,5 +1,5 @@
 ---
-title: "How to: Add and Remove Features and Items to a Package by Using the Packaging Explorer | Microsoft Docs"
+title: "Packaging Explorer: Add & remove features & items to package"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -45,7 +45,7 @@ ms.workload:
     - Open the shortcut menu for a Feature, choose **Cut**, open the shortcut menu for the project to which you want to move the Feature, and then choose **Paste**.
 
     > [!NOTE]
-    >  Use this procedure if you have more than one SharePoint project in your solution.
+    > Use this procedure if you have more than one SharePoint project in your solution.
 
 ## Validate a feature or package
  You can identify potential problems in the SharePoint Features and packages by validating the files. Warnings and errors are displayed in the Output window and Error List window.

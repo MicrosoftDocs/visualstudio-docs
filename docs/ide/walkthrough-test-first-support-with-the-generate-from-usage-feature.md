@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Test-first development with the Generate From Usage feature"
+title: "Test-first development with Generate From Usage feature"
 ms.date: 10/09/2017
 dev_langs:
   - "VB"
@@ -59,7 +59,7 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
 2. Locate the declaration for class `UnitTest1` and rename it to `AutomobileTest`.
 
    > [!NOTE]
-   >  IntelliSense now provides two alternatives for IntelliSense statement completion: *completion mode* and *suggestion mode*. Use suggestion mode for situations in which classes and members are used before they are defined. When an **IntelliSense** window is open, you can press **Ctrl**+**Alt**+**Space** to toggle between completion mode and suggestion mode. See [Use IntelliSense](../ide/using-intellisense.md) for more information. Suggestion mode will help when you are typing `Automobile` in the next step.
+   > IntelliSense now provides two alternatives for IntelliSense statement completion: *completion mode* and *suggestion mode*. Use suggestion mode for situations in which classes and members are used before they are defined. When an **IntelliSense** window is open, you can press **Ctrl**+**Alt**+**Space** to toggle between completion mode and suggestion mode. See [Use IntelliSense](../ide/using-intellisense.md) for more information. Suggestion mode will help when you are typing `Automobile` in the next step.
 
 3. Locate the `TestMethod1()` method and rename it to `DefaultAutomobileIsInitializedCorrectly()`. Inside this method, create a new instance of a class named `Automobile`, as shown in the following screenshots. A wavy underline appears, which indicates a compile-time error, and a [Quick Actions](../ide/quick-actions.md) error light bulb appears in the left margin, or directly below the squiggle if you hover over it.
 
