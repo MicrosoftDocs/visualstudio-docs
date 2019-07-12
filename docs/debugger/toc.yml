@@ -710,6 +710,8 @@
         href: cannot-change-value-dialog-box.md
       - name: Debugger Cannot Display Source Code or Disassembly
         href: debugger-cannot-display-source-code-or-disassembly.md
+      - name: Debugger Services Running Out of Memory
+        href: error-debugger-services-no-memory.md
       - name: Executable for Debugging Session dialog box
         href: executable-for-debugging-session-dialog-box.md
       - name: Edit and Continue dialog box (C++)
