@@ -77,6 +77,7 @@ The style rules in this section are applicable to both C# and Visual Basic.
   - dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method
   - dotnet\_style\_prefer\_conditional\_expression\_over\_assignment
   - dotnet\_style\_prefer\_conditional\_expression\_over\_return
+  - dotnet\_style\_prefer\_compound\_assignment
 - ["Null" checking preferences](#null-checking-preferences)
   - dotnet\_style\_coalesce_expression
   - dotnet\_style\_null_propagation
@@ -549,6 +550,7 @@ dotnet_style_prefer_inferred_anonymous_type_member_names = true:suggestion
 dotnet_style_prefer_auto_properties = true:silent
 dotnet_style_prefer_conditional_expression_over_assignment = true:suggestion
 dotnet_style_prefer_conditional_expression_over_return = true:suggestion
+dotnet_style_prefer_compound_assignment = true:suggestion
 ```
 
 #### dotnet\_style\_object_initializer
@@ -863,6 +865,34 @@ If expr Then
 Else
     Return "world"
 End If
+```
+
+#### dotnet\_style\_prefer\_compound\_assignment
+
+|||
+|-|-|
+| **Rule name** | dotnet_style_prefer_compound_assignment |
+| **Rule ID** | IDE0054 |
+| **Applicable languages** | C# and Visual Basic |
+| **Values** | `true` - Prefer compound assignment<br /><br />`false` - Don't prefer compound assignment |
+| **Visual Studio default** | `true:suggestion` |
+
+Code examples:
+
+```csharp
+// dotnet_style_prefer_compound_assignment = true
+x += 1;
+
+// dotnet_style_prefer_compound_assignment = false
+x = x + 1;
+```
+
+```vb
+' dotnet_style_prefer_compound_assignment = true
+x += 1
+
+' dotnet_style_prefer_compound_assignment = false
+x = x + 1
 ```
 
 ### Null-checking preferences
