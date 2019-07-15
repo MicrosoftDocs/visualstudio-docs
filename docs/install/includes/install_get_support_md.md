@@ -8,7 +8,7 @@ ms.topic: include
 ---
 ## Get support
 
-Sometimes, things can go wrong. If your Visual Studio installation fails, see [Troubleshooting Visual Studio installation and upgrade issues](../troubleshooting-installation-issues.md) for step-by-step guidance.
+Sometimes, things can go wrong. If your Visual Studio installation fails, see [Troubleshoot Visual Studio installation and upgrade issues](../troubleshooting-installation-issues.md) for step-by-step guidance.
 
 We also offer a [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 
