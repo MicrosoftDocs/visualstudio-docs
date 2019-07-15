@@ -17,7 +17,8 @@ ms.workload:
 
 - **Icons**. Small images that appear in commands, hierarchies, templates, and so on. The default icon size used in Visual Studio is a 16x16 PNG. Icons produced by the image service automatically generate the XAML format for HDPI support.
 
-     **NOTE:** While images are used in the menu system, you should not create an icon for every command. Consult [Menus and Commands for Visual Studio](../../extensibility/ux-guidelines/menus-and-commands-for-visual-studio.md) to see whether your command should get an icon.
+    > [!NOTE]
+    > While images are used in the menu system, you should not create an icon for every command. Consult [Menus and Commands for Visual Studio](../../extensibility/ux-guidelines/menus-and-commands-for-visual-studio.md) to see whether your command should get an icon.
 
 - **Thumbnails.** Images used in the preview area of a dialog, such as the New Project dialog.
 
