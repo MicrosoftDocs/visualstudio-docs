@@ -145,7 +145,7 @@ Each member row displays the following elements:
 
 - **Member Modifier**
 
-     Change the visibility modifier of a member to either `Public` (`public`), `Private` (`private`), `Friend` (`internal`) `Protected` (`protected`), `Protected``Friend` (`protected``internal`), or `Default`.
+     Change the visibility modifier of a member to either `Public` (`public`), `Private` (`private`), `Friend` (`internal`) `Protected` (`protected`), `Protected Friend` (`protected internal`), or `Default`.
 
 - **\<add member>**
 
