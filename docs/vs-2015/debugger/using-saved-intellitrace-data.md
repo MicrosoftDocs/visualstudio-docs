@@ -55,7 +55,7 @@ Go to specific points in your application's execution when you start debugging f
   
   - Under **All Links**, find the .iTrace file. Open it.  
 
-        \- or -  
+    \- or -  
 
   - Under **Repro Steps**, choose the **IntelliTrace** link.  
   
