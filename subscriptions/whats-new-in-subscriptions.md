@@ -14,7 +14,7 @@ We update the Subscription benefits package often to make it more useful to you.
 
 ## 2019 Q1 (January-March)
 
-### Maximum Usage added to [Subscriptions Administration portal](https://manage.visualstuido.com)
+### Maximum Usage added to [Subscriptions Administration portal](https://manage.visualstudio.com)
 A new feature in the Visual Studio subscriptions administration portal helps you track how many subscriptions you've purchased and assigned, and identifies the peak number of subscriptions of each level you've assigned, both within the past year and throughout the duration of your agreement(s). This can help you understand your current subscription usage and plan for future purchases. 
 
   > [!div class="mx-imgBorder"]
