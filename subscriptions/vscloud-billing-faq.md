@@ -42,7 +42,7 @@ You need to select an Azure subscription (which is a billing account) from a pre
 Because the name of the Azure subscription defaults to the type of billing account ("Pay-As-You-Go", "Enterprise Agreement", etc.), it is often clear if the
 Azure subscription is part of your Enterprise Agreement.
 
-Another approach is to attempt to visit the [Azure Enterprise Portal](http://ea.azure.com).  If you can reach it successfully, then you already have either
+Another approach is to attempt to visit the [Azure Enterprise Portal](https://ea.azure.com).  If you can reach it successfully, then you already have either
 the Enterprise Admin or the Account Owner role. Only Account Owners can set up new Azure billing accounts in an Enterprise Agreement. If you cannot access
 the Azure Enterprise Portal, then please inquire within your organization to find out who your Enterprise Admin is, and ask that person to add you as an
 Account Owner within the Azure Enterprise Portal.  If you are unable to find this person, you can [submit a support ticket](https://aka.ms/AzureEntSupport)
