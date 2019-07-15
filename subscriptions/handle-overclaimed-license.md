@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 02/13/2018
 ms.topic: conceptual
 description:  Learn how administrators can resolve over-claimed subscriptions
-searchscope: VS Subscription
 ---
 
 # Overallocated subscriptions
@@ -38,8 +37,8 @@ If your organization has an Enterprise Agreement (EA), admins are able to assign
 >
 > It is the customer’s responsibility to ensure that for each GitHub subscription that is assigned there is a corresponding Visual Studio with GitHub subscription assigned in the Manage portal to remain in compliance with the licensing requirements for this subscription.
 
-
 Learn more about managing [Visual Studio Subscriptions with GitHub Enterprise](assign-github.md).
 
 ## Support resources
--  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).

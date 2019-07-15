@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Help Viewer, installing local content"
   - "Help Viewer, downloading content"
 ms.assetid: efd9df4c-2e69-4c50-992c-9678a8d8cf19
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

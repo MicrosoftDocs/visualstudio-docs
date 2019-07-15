@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 03/14/2018
 ms.topic: conceptual
 description:  Visual Studio Subscriptions in a Microsoft Products and Services Agreement (MPSA)
-searchscope: VS Subscription
 ---
 
 # Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA)

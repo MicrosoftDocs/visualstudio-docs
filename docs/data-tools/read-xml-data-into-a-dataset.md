@@ -113,9 +113,9 @@ The user interface for this application consists of the following:
 
 - Two <xref:System.Windows.Forms.Button> controls.
 
-    - One button reads the XML file into the dataset and displays it in the <xref:System.Windows.Forms.DataGridView> control.
+  - One button reads the XML file into the dataset and displays it in the <xref:System.Windows.Forms.DataGridView> control.
 
-    - A second button extracts the schema from the dataset, and through a <xref:System.IO.StringWriter> displays it in the <xref:System.Windows.Forms.TextBox> control.
+  - A second button extracts the schema from the dataset, and through a <xref:System.IO.StringWriter> displays it in the <xref:System.Windows.Forms.TextBox> control.
 
 ### To add controls to the form
 

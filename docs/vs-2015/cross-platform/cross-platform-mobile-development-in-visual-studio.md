@@ -22,9 +22,9 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 
 - [Build an app for Android, iOS, and Windows (.NET Framework)](#NET)
 
-    - [Target Android, iOS, and Windows from a single code base](../cross-platform/cross-platform-mobile-development-in-visual-studio.md#AndroidHTML)
+  - [Target Android, iOS, and Windows from a single code base](../cross-platform/cross-platform-mobile-development-in-visual-studio.md#AndroidHTML)
 
-    - [Target Windows 10 devices](../cross-platform/cross-platform-mobile-development-in-visual-studio.md#WindowsHTML)
+  - [Target Windows 10 devices](../cross-platform/cross-platform-mobile-development-in-visual-studio.md#WindowsHTML)
 
 - [Build an app for Android, iOS, and Windows (HTML/JavaScript)](#HTML)
 

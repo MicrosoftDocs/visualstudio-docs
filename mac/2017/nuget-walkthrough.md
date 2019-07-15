@@ -38,7 +38,7 @@ When the window opens it loads a list of packages from the default package sourc
 
 ![List NuGet Packages](media/nuget-walkthrough-AddPackages1.png)
 
-Use the search box in the top-right corner to find a specific package, for example `azure`. When you've found a package that you wish to use, select it and click the **Add Package** button to begin installation.
+Use the search box in the top-right corner to find a specific package, for example `azure`. When you've found a package that you wish to use, select it and click the **Add Package** button to begin installation.
 
 [Add Azure NuGet Package](media/nuget-walkthrough-AddPackages2.png)
 
@@ -52,7 +52,7 @@ Once the package has been downloaded, it will be added to your project. The solu
 
 Once the NuGet package has been added and the project references updated, you can program against the APIs as you would with any project reference.
 
-Ensure that you add any required `using` directives to the top of your file:
+Ensure that you add any required `using` directives to the top of your file:
 
 ```csharp
 using Newtonsoft.Json;

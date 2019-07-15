@@ -349,11 +349,11 @@ A class diagram has the following major features:
 
 - Types such as classes, interfaces, and enumerations:
 
-    - A *class* is the definition of objects that share specific structural or behavioral characteristics.
+  - A *class* is the definition of objects that share specific structural or behavioral characteristics.
 
-    - An *interface* defines a part of the externally visible behavior of an object.
+  - An *interface* defines a part of the externally visible behavior of an object.
 
-    - An *enumeration* is a classifier that contains a list of literal values.
+  - An *enumeration* is a classifier that contains a list of literal values.
 
 - *Attributes* are values of a certain type that describe each instance of a *classifier*. A classifier is a general name for types, components, use cases, and even actors.
 

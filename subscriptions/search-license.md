@@ -6,7 +6,6 @@ manager: jillfra
 ms.date: 06/27/2018
 ms.topic: conceptual
 description:  Learn how administrators can locate individual subscribers or groups in the Administrator Portal.
-searchscope: VS Subscription
 ---
 
 # Search and filter subscribers in Visual Studio subscriptions

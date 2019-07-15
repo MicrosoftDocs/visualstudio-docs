@@ -1,8 +1,8 @@
 ---
 title: "Including a NuGet package in your project"
 description: This document covers how to include a NuGet package in a Xamarin project. It walks through finding and downloading a package, as well as introducing the IDE integration features.
-author: conceptdev
-ms.author: crdun
+author: jmatthiesen
+ms.author: jomatthi
 ms.date: 04/24/2019
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ms.custom: video
@@ -72,9 +72,9 @@ Right-click on **Packages** to access the context menu:
 
 ![Packages menu](media/nuget-walkthrough-PackagesMenu.png)
 
-*   **Add NuGet Packages** - Opens the window to add more packages to the project.
-*   **Update** - Checks the source server for each package and downloads any newer versions.
-*   **Restore** - Downloads any missing packages (without updating existing packages to newer versions).
+* **Add NuGet Packages** - Opens the window to add more packages to the project.
+* **Update** - Checks the source server for each package and downloads any newer versions.
+* **Restore** - Downloads any missing packages (without updating existing packages to newer versions).
 
 Update and Restore options are also available at the Solution level, and affect all the projects in the solution.
 

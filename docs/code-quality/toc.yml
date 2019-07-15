@@ -102,7 +102,7 @@
         href: fxcopcmd-errors.md
     - name: Check-in policies
       items:
-      - name: How to create or update check in policies
+      - name: How to create or update check-in policies
         href: how-to-create-or-update-standard-code-analysis-check-in-policies.md
       - name: Implement code analysis check-in policies
         href: implementing-custom-code-analysis-check-in-policies-for-managed-code.md
@@ -690,6 +690,14 @@
           href: ca3077-insecure-processing-in-api-design-xml-document-and-xml-text-reader.md
         - name: "CA3147: Mark verb handlers with ValidateAntiForgeryToken"
           href: ca3147-mark-verb-handlers-with-validateantiforgerytoken.md
+        - name: "CA5361: Do not disable SChannel use of strong crypto"
+          href: ca5361.md
+        - name: "CA5364: Do not use deprecated security protocols"
+          href: ca5364.md
+        - name: "CA5378: Do not disable ServicePointManagerSecurityProtocols"
+          href: ca5378.md
+        - name: "CA5386: Avoid hardcoding SecurityProtocolType value"
+          href: ca5386.md
       - name: Usage warnings
         items:
         - name: Overview

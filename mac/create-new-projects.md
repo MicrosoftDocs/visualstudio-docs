@@ -1,8 +1,8 @@
 ---
 title: "Creating new Projects and Solutions"
 description: "This article describes how to create projects and solutions in Visual Studio for Mac"
-author: conceptdev
-ms.author: crdun
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 05/23/2019
 ms.assetid: 5880BB10-0A12-47E2-8A82-7A2D59C4D579
 ---

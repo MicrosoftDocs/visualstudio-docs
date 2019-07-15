@@ -1,5 +1,6 @@
 ---
 title: Add or edit tags on project templates
+description: Learn how to add or edit tags on project templates in Visual Studio.
 ms.date: 04/30/2019
 author: minsa110
 ms.author: somin
@@ -15,27 +16,27 @@ helpviewer_keywords:
 ---
 # Add tags to project templates
 
-Starting in [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) version 16.1 Preview 2, you can add language, platform, and project type tags to your project templates. Tags are used in two places in the new project dialog box:
+Starting in [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) version 16.1 Preview 2, you can add language, platform, and project type tags to your project templates. 
 
-- Tags appear under the template description
+Tags are used in two places in the **New Project** dialog box:
 
-   ![Project template with tags in the new project dialog](media/npd-item-with-template-tags.png)
+- Tags appear under the template description.
 
-- Tags enable the template to be searched and filtered
+   ![Project template with tags in the New Project dialog box](media/npd-item-with-template-tags.png)
 
-   ![Search and filter in the new project dialog](media/npd-search-and-filter.png)
+- Tags enable the template to be searched and filtered.
 
-You can add tags by updating the *.vstemplate* XML file using template tags built into Visual Studio or by creating custom template tags. Template tags only appear in the Visual Studio 2019 new project dialog. They don't affect the template rendering in previous versions of Visual Studio.
+   ![Search and filter in the New Project dialog box](media/npd-search-and-filter.png)
+
+You can add tags by updating the *.vstemplate* XML file. You can either use template tags that are built into Visual Studio or create custom template tags. Template tags appear only in the Visual Studio 2019 **New Project** dialog box. Template tags don't affect how the template renders in earlier versions of Visual Studio.
 
 ## Add or edit tags
 
-You may want to add or edit tags in your project template's *.vstemplate* XML when you:
+You might want to add or edit tags in your project template's *.vstemplate* XML when you take one of the following actions:
 
-* [Create a new project template](/visualstudio/ide/how-to-create-project-templates) by using the Export Template wizard
-
-* [Update your existing project template](/visualstudio/ide/how-to-update-existing-templates)
-
-* [Create a new VSIX project template](/visualstudio/extensibility/getting-started-with-the-vsix-project-template)
+* [Create a new project template](/visualstudio/ide/how-to-create-project-templates) by using the Export Template wizard.
+* [Update your existing project template](/visualstudio/ide/how-to-update-existing-templates).
+* [Create a new VSIX project template](/visualstudio/extensibility/getting-started-with-the-vsix-project-template).
 
 ## Syntax
 
@@ -47,7 +48,7 @@ You may want to add or edit tags in your project template's *.vstemplate* XML wh
 
 ## Attributes
 
-The following attributes are optional and for advanced user scenarios.
+You can use the following optional attributes in advanced user scenarios:
 
 |Attribute|Description|
 |---------------|-----------------|
@@ -72,19 +73,21 @@ None.
 
 |Element|Description|
 |-------------|-----------------|
-|[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|(Required) Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.|
+|[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|(Required) Categorizes the template and defines how it displays in either the **New Project** dialog box or the **Add New Item** dialog box.|
 
 ## Text value
 
-A text value is required unless the `Package` and `ID` attributes are used.
+A text value is required unless you use the `Package` and `ID` attributes.
 
 The text provides the name of the template.
 
 ## Built-in tags
 
-Visual Studio offers a list of built-in tags that, when added, render a localized resource. Following is a list of built-in tags and their corresponding values in parentheses.
+Visual Studio offers a list of built-in tags. When you add a built-in tag, the tag renders a localized resource. 
 
-| Language | Platform | Project Type |
+The following list shows built-in tags that are available in Visual Studio. Corresponding values are shown in parentheses.
+
+| Language | Platform | Project type |
 | -- | -- | -- |
 | C++ (`cpp`) | Android (`android`) | Cloud (`cloud`) |
 | C# (`csharp`) | Azure (`azure`) | Console (`console`) |
@@ -104,7 +107,7 @@ Visual Studio offers a list of built-in tags that, when added, render a localize
 
 ## Example
 
-The following example shows the metadata for a project template for a Visual C# application.
+The following example shows the metadata for a project template for a Visual C# application:
 
 ```xml
 <VSTemplate Type="Project" Version="3.0.0"
@@ -139,6 +142,6 @@ The following example shows the metadata for a project template for a Visual C# 
 ## See also
 
 - [Visual Studio template schema reference](/visualstudio/extensibility/visual-studio-template-schema-reference)
-- [Creating project and item templates](/visualstudio/ide/creating-project-and-item-templates)
+- [Create project and item templates](/visualstudio/ide/creating-project-and-item-templates)
 - [Customize project and item templates](/visualstudio/ide/customizing-project-and-item-templates)
-- [Getting Started with the VSIX Project Template](/visualstudio/extensibility/getting-started-with-the-vsix-project-template)
+- [Get started with the VSIX project template](/visualstudio/extensibility/getting-started-with-the-vsix-project-template)

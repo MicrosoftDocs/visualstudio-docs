@@ -37,15 +37,15 @@ To change the layering order, do one of the following:
 
 - Right-click the element in the Document Outline window or the artboard for which you want to change the layering order, point to **Order**, and then click one of the following:
 
-   - **Bring to Front** to bring the element all the way to the front of the order.
+  - **Bring to Front** to bring the element all the way to the front of the order.
 
-   - **Bring Forward** to bring the element forward one level in the order.
+  - **Bring Forward** to bring the element forward one level in the order.
 
-   - **Send Backward** to send the element back one level in the order.
+  - **Send Backward** to send the element back one level in the order.
 
-   - **Send to Back** to send the element all the way to the back of the order.
+  - **Send to Back** to send the element all the way to the back of the order.
 
-   Change the **ZIndex** property in the **Layout** section in the Properties window. For overlapping elements, the **ZIndex** property takes precedence over the order of elements shown in the Document Outline window. An element that has a higher **ZIndex** value appears in front when elements overlap.
+  Change the **ZIndex** property in the **Layout** section in the Properties window. For overlapping elements, the **ZIndex** property takes precedence over the order of elements shown in the Document Outline window. An element that has a higher **ZIndex** value appears in front when elements overlap.
 
 ## Change the alignment of an element
 

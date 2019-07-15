@@ -1,6 +1,6 @@
 ---
 title: "CA1801: Review unused parameters"
-ms.date: 11/04/2016
+ms.date: 06/24/2019
 ms.topic: reference
 f1_keywords:
   - "AvoidUnusedParameters"
@@ -26,7 +26,10 @@ ms.workload:
 |Breaking Change|Non Breaking - If the member is not visible outside the assembly, regardless of the change you make.<br /><br /> Non Breaking - If you change the member to use the parameter within its body.<br /><br /> Breaking - If you remove the parameter and it is visible outside the assembly.|
 
 ## Cause
- A method signature includes a parameter that is not used in the method body. This rule does not examine the following methods:
+
+A method signature includes a parameter that's not used in the method body.
+
+This rule does not examine the following kinds of methods:
 
 - Methods referenced by a delegate.
 
@@ -41,24 +44,33 @@ ms.workload:
 - Methods declared with the `extern` (`Declare` statement in Visual Basic) modifier.
 
 ## Rule description
- Review parameters in non-virtual methods that are not used in the method body to make sure no correctness exists around failure to access them. Unused parameters incur maintenance and performance costs.
 
- Sometimes a violation of this rule can point to an implementation bug in the method. For example, the parameter should have been used in the method body. Suppress warnings of this rule if the parameter has to exist because of backward compatibility.
+Review parameters in non-virtual methods that are not used in the method body to make sure no correctness exists around failure to access them. Unused parameters incur maintenance and performance costs.
+
+Sometimes a violation of this rule can point to an implementation bug in the method. For example, the parameter should have been used in the method body. Suppress warnings of this rule if the parameter has to exist because of backward compatibility.
 
 ## How to fix violations
- To fix a violation of this rule, remove the unused parameter (a breaking change) or use the parameter in the method body (a non-breaking change).
+
+To fix a violation of this rule, remove the unused parameter (a breaking change) or use the parameter in the method body (a non-breaking change).
 
 ## When to suppress warnings
- It is safe to suppress a warning from this rule for previously shipped code for which the fix would be a breaking change.
+
+It is safe to suppress a warning from this rule:
+
+- For previously shipped code for which the fix would be a breaking change.
+
+- For the `this` parameter in a custom extension method for <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert?displayProperty=nameWithType>. The functions in the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> class are static, so there's no need to access the `this` parameter in the method body.
 
 ## Example
- The following example shows two methods. One method violates the rule and the other method satisfies the rule.
 
- [!code-csharp[FxCop.Usage.ReviewUnusedParameters#1](../code-quality/codesnippet/CSharp/ca1801-review-unused-parameters_1.cs)]
+The following example shows two methods. One method violates the rule and the other method satisfies the rule.
+
+[!code-csharp[FxCop.Usage.ReviewUnusedParameters#1](../code-quality/codesnippet/CSharp/ca1801-review-unused-parameters_1.cs)]
 
 ## Related rules
- [CA1811: Avoid uncalled private code](../code-quality/ca1811-avoid-uncalled-private-code.md)
 
- [CA1812: Avoid uninstantiated internal classes](../code-quality/ca1812-avoid-uninstantiated-internal-classes.md)
+[CA1811: Avoid uncalled private code](../code-quality/ca1811-avoid-uncalled-private-code.md)
 
- [CA1804: Remove unused locals](../code-quality/ca1804-remove-unused-locals.md)
+[CA1812: Avoid uninstantiated internal classes](../code-quality/ca1812-avoid-uninstantiated-internal-classes.md)
+
+[CA1804: Remove unused locals](../code-quality/ca1804-remove-unused-locals.md)

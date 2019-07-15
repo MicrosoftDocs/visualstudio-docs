@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn about the Concierge Chat benefit included in Visual Studio subscriptions.
-searchscope: VS Subscription
 
 ---
 
@@ -41,7 +40,6 @@ Getting help via the Concierge Chat service is very easy.
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Available                                             |  Yes          |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Available                                              |  Yes          |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
-
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark.  Excludes:  FTE, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Partner Network (MPN), Imagine.*
 

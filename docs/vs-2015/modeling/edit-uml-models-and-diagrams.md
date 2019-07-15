@@ -288,9 +288,9 @@ You can create and edit a UML model through the views provided by several differ
   
 - Right-click the element either in **UML Model Explorer** or on a diagram, and then click **Delete from Model**.  
   
-    - The element is deleted from every diagram on which it appears.  
-  
-    - Every relationship that terminates at this element is also deleted from the model.  
+  - The element is deleted from every diagram on which it appears.  
+
+  - Every relationship that terminates at this element is also deleted from the model.  
   
 #### To delete a relationship from the model  
   

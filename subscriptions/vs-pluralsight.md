@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 01/25/2019
 ms.topic: conceptual
 description:  Learn about the Pluralsight training subscription included with selected Visual Studio subscriptions.
-searchscope: VS Subscription
 ---
 
 # Pluralsight training benefits in Visual Studio subscriptions

@@ -1,7 +1,7 @@
 ---
 title: "Known issues for containers"
 description: "Learn more about the known issues that might occur when you install Visual Studio Build Tools into a Windows container."
-ms.date: 04/18/2018
+ms.date: 07/03/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 ms.assetid: "140083f1-05bc-4014-949e-fb5802397c7a"
@@ -47,6 +47,7 @@ The following known issues occur when you install Visual Studio Build Tools into
 The following known issues might occur when you use a Build Tools container. To see whether issues have been fixed or if there are other known issues, visit https://developercommunity.visualstudio.com.
 
 * IntelliTrace might not work in [some scenarios](https://github.com/Microsoft/vstest/issues/940) within a container.
+* On older versions of Docker for Windows, the default container image size is only 20 GB and will not fit Build Tools. Follow [instructions to change image size](https://docs.microsoft.com/virtualization/windowscontainers/manage-containers/container-storage#image-size) to 127 GB or more.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
