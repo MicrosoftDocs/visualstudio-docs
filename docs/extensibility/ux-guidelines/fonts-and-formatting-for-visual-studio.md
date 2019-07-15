@@ -84,7 +84,8 @@ window.ShowModal()
 ### <a name="BKMK_Formatting"></a> Formatting (scaling/bolding) reference
  Some dialogs require particular text to be bold or a size other than the environment font. Previously, fonts larger than the environment font were coded as "`environment font +2`" or similar. Using the provided code snippets will support high-DPI monitors and ensure that display text always appears at the correct size and weight (like Light or Semilight).
 
-> **Note: Before you apply formatting, ensure you are following the guidance found in [Text style](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TextStyle).**
+> [!NOTE]
+> Before you apply formatting, ensure you are following the guidance found in [Text style](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TextStyle).**
 
  To scale the environment font, set the style of the TextBlock or Label as indicated. Each of these code snippets, properly used, will generate the correct font, including the appropriate size and weight variations.
 

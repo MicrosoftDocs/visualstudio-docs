@@ -290,7 +290,7 @@ In Visual Studio, you can define commands that are performed when the user doubl
       IElement target = targetIShape.Element;  
       ```  
 
-        You can cast this to a more specific type of element.  
+      You can cast this to a more specific type of element.  
 
   - To obtain the UML model store that contains the UML model:  
 
