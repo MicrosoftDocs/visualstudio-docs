@@ -551,7 +551,6 @@ dotnet_style_prefer_auto_properties = true:silent
 dotnet_style_prefer_conditional_expression_over_assignment = true:suggestion
 dotnet_style_prefer_conditional_expression_over_return = true:suggestion
 dotnet_style_prefer_compound_assignment = true:suggestion
-dotnet_style_operator_placement_when_wrapping = beginning_of_line
 ```
 
 #### dotnet\_style\_object_initializer
