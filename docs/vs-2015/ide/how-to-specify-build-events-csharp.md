@@ -1,14 +1,9 @@
 ---
 title: "How to: Specify Build Events (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "pre-build events"
   - "events [Visual Studio], builds"
@@ -19,7 +14,7 @@ ms.assetid: b4ce1ad9-5215-4b6f-b6a2-798b249aa335
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Specify Build Events (C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,26 +29,26 @@ Use build events to specify commands that run before the build starts or after t
   
 #### To specify a build event  
   
-1.  In **Solution Explorer**, select the project for which you want to specify the build event.  
+1. In **Solution Explorer**, select the project for which you want to specify the build event.  
   
-2.  On the **Project** menu, click **Properties**.  
+2. On the **Project** menu, click **Properties**.  
   
-3.  Select the **Build Events** tab.  
+3. Select the **Build Events** tab.  
   
-4.  In the **Pre-build event command line** box, specify the syntax of the build event.  
-  
-    > [!NOTE]
-    >  Pre-build events do not run if the project is up to date and no build is triggered.  
-  
-5.  In the **Post-build event command line** box, specify the syntax of the build event.  
+4. In the **Pre-build event command line** box, specify the syntax of the build event.  
   
     > [!NOTE]
-    >  Add a `call` statement before all post-build commands that run .bat files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.  
+    > Pre-build events do not run if the project is up to date and no build is triggered.  
   
-6.  In the **Run the post-build event** box, specify under what conditions to run the post-build event.  
+5. In the **Post-build event command line** box, specify the syntax of the build event.  
   
     > [!NOTE]
-    >  To add lengthy syntax, or to select any build macros from the [Pre-build Event/Post-build Event Command Line Dialog Box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md), click the Ellipsis button (**…**) to display an edit box.  
+    > Add a `call` statement before all post-build commands that run .bat files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.  
+  
+6. In the **Run the post-build event** box, specify under what conditions to run the post-build event.  
+  
+    > [!NOTE]
+    > To add lengthy syntax, or to select any build macros from the [Pre-build Event/Post-build Event Command Line Dialog Box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md), click the Ellipsis button (**…**) to display an edit box.  
   
      The build event syntax can include any command that is valid at a command prompt or in a .bat file. The name of a batch file should be preceded by `call` to ensure that all subsequent commands are executed.  
   
@@ -144,15 +139,15 @@ Use build events to specify commands that run before the build starts or after t
   
 #### To invoke a post-build event to modify the application manifest  
   
-1.  Create a Windows application for the project to be published. From the **File** menu, point to **New**, and then click **Project**.  
+1. Create a Windows application for the project to be published. From the **File** menu, point to **New**, and then click **Project**.  
   
-2.  In the **New Project** dialog box, expand **Visual C#**, click **Windows**, and then click the **Windows Forms Application** template. Name the project `CSWinApp`.  
+2. In the **New Project** dialog box, expand **Visual C#**, click **Windows**, and then click the **Windows Forms Application** template. Name the project `CSWinApp`.  
   
-3.  With the project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
+3. With the project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
   
-4.  In the Project Designer, locate the **Publish** page and set **Publishing location** to `C:\TEMP\`.  
+4. In the Project Designer, locate the **Publish** page and set **Publishing location** to `C:\TEMP\`.  
   
-5.  Publish the project by clicking **Publish Now**.  
+5. Publish the project by clicking **Publish Now**.  
   
      The manifest file will be built and put in `C:\TEMP\CSWinApp_1_0_0_0\CSWinApp.exe.manifest`. To view the manifest, right-click the file, click **Open with**, select **Select the program from a list**, and then click **Notepad**.  
   
@@ -162,9 +157,9 @@ Use build events to specify commands that run before the build starts or after t
     <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />  
     ```  
   
-6.  In the Project Designer, click the **Build Events** tab and click the **Edit Post-build** button.  
+6. In the Project Designer, click the **Build Events** tab and click the **Edit Post-build** button.  
   
-7.  In the **Post-build Event Command Line** box, type the following command:  
+7. In the **Post-build Event Command Line** box, type the following command:  
   
      `C:\TEMP\ChangeOSVersionCS.exe "$(TargetPath).manifest" 5.1.2600.0`  
   
@@ -172,7 +167,7 @@ Use build events to specify commands that run before the build starts or after t
   
      Because the `$(TargetPath)` macro expresses the full path for the executable being created,  the `$(TargetPath)`.manifest will specify the application manifest created in the bin directory. Publishing will copy this manifest to the publishing location that you set earlier.  
   
-8.  Publish the project again. Go to the **Publish** page and click **Publish Now**.  
+8. Publish the project again. Go to the **Publish** page and click **Publish Now**.  
   
      View the manifest again. To view the manifest, open the publish directory, right-click the file, click **Open with**, select **Select the program from a list**, and then click **Notepad**.  
   
@@ -187,6 +182,3 @@ Use build events to specify commands that run before the build starts or after t
  [Pre-build Event/Post-build Event Command Line Dialog Box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)   
  [How to: Specify Build Events (Visual Basic)](../ide/how-to-specify-build-events-visual-basic.md)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)
-
-
-

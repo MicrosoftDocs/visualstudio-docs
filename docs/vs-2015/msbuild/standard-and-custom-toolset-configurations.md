@@ -1,14 +1,9 @@
 ---
 title: "Standard and Custom Toolset Configurations | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MSBuild, custom toolset configurations"
   - "MSBuild, msbuild.exe.config"
@@ -16,17 +11,15 @@ ms.assetid: 15a048c8-5ad3-448e-b6e9-e3c5d7147ed2
 caps.latest.revision: 34
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Standard and Custom Toolset Configurations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
 
 An MSBuild Toolset contains references to tasks, targets, and tools that you can use to build an application project. MSBuild includes a standard Toolset, but you can also create custom Toolsets. For information about how to specify a Toolset, see [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)  
 
 ## Standard Toolset Configurations  
  MSBuild 12.0 includes the following standard Toolsets:  
-
 
 | ToolsVersion | Toolset Path (as specified in the MSBuildToolsPath or MSBuildBinPath build property) |
 |--------------|--------------------------------------------------------------------------------------|
@@ -58,7 +51,7 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
  The `VisualStudioVersion` build property indicates whether a sub-toolset becomes active. For example, a `VisualStudioVersion` value of "12.0" specifies the MSBuild 12.0 sub-toolset. For more information, see the Sub-toolsets section of [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md).  
 
 > [!NOTE]
->  We recommend that you avoid changing these settings. Nevertheless, you can add your own settings and define computer-wide custom toolset definitions, as the next section describes.  
+> We recommend that you avoid changing these settings. Nevertheless, you can add your own settings and define computer-wide custom toolset definitions, as the next section describes.  
 
 ## Custom Toolset Definitions  
  When a standard Toolset does not fulfill your build requirements, you can create a custom Toolset. For example, you may have a build lab scenario in which you must have a separate system for building [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] projects. By using a custom Toolset, you can assign custom values to the `ToolsVersion` attribute when you create projects or run MSBuild.exe. By doing this, you can also use the `$(MSBuildToolsPath)` property to import .targets files from that directory, as well as defining your own custom toolset properties that can be used for any project that uses that toolset.  
@@ -87,12 +80,12 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
 ```  
 
 > [!NOTE]
->  To be read correctly, `<configSections>` must be the first subsection in the `<configuration>` section.  
+> To be read correctly, `<configSections>` must be the first subsection in the `<configuration>` section.  
 
  `ToolsetConfigurationSection` is a custom configuration section that can be used by any MSBuild host for custom configuration. If you use a custom Toolset, a host does not have to do anything to initialize the build engine except provide the configuration file entries. By defining entries in the registry, you can specify computer-wide Toolsets that apply to MSBuild.exe, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], and all hosts of MSBuild.  
 
 > [!NOTE]
->  If a configuration file defines settings for a `ToolsVersion` that was already defined in the registry, the two definitions are not merged. The definition in the configuration file takes precedence and the settings in the registry for that `ToolsVersion` are ignored.  
+> If a configuration file defines settings for a `ToolsVersion` that was already defined in the registry, the two definitions are not merged. The definition in the configuration file takes precedence and the settings in the registry for that `ToolsVersion` are ignored.  
 
  The following properties are specific to the value of `ToolsVersion` that is used in projects:  
 
@@ -104,6 +97,3 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
 
 ## See Also  
  [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)
-
-
-

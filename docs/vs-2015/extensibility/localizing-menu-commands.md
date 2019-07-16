@@ -1,14 +1,9 @@
 ---
 title: "Localizing Menu Commands | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "localize"
   - "localization"
@@ -19,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: b04ee0f6-82ea-47e6-853a-72382267d6da
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Localizing Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,19 +72,19 @@ You can provide localized text for menu and toolbar commands by creating localiz
 ## Localizing Other Text Resources  
  Text resources other than command names are defined in resource (.resx) files.  
   
-1.  Rename VSPackage.resx to VSPackage.en-US.resx.  
+1. Rename VSPackage.resx to VSPackage.en-US.resx.  
   
-2.  Make a copy of the VSPackage.en-US.resx file for each localized language.  
+2. Make a copy of the VSPackage.en-US.resx file for each localized language.  
   
      Name each copy VSPackage.*Locale*.resx, where *Locale* is a particular culture name.  
   
-3.  Rename Resources.resx to Resources.en-US.resx.  
+3. Rename Resources.resx to Resources.en-US.resx.  
   
-4.  Make a copy of the Resources.en-US.resx file for each localized language.  
+4. Make a copy of the Resources.en-US.resx file for each localized language.  
   
      Name each copy Resources.*Locale*.resx, where *Locale* is a particular culture name.  
   
-5.  Open each .resx file to modify the string values as appropriate for the particular language and culture. The following example shows the localized resource definition for the title bar of a tool window.  
+5. Open each .resx file to modify the string values as appropriate for the particular language and culture. The following example shows the localized resource definition for the title bar of a tool window.  
   
      [Resources.en-US.resx]  
   
@@ -111,9 +106,9 @@ You can provide localized text for menu and toolbar commands by creating localiz
 ## Incorporating Localized Resources into the Project  
  You must modify the assemblyinfo.cs file and the project file to incorporate the localized resources.  
   
-1.  From the **Properties** node in **Solution Explorer**, open assemblyinfo.cs or assemblyinfo.vb in the editor.  
+1. From the **Properties** node in **Solution Explorer**, open assemblyinfo.cs or assemblyinfo.vb in the editor.  
   
-2.  Add the following entry.  
+2. Add the following entry.  
   
     ```csharp  
     [assembly: NeutralResourcesLanguage("en-US", UltimateResourceFallbackLocation.Satellite)]  
@@ -121,13 +116,13 @@ You can provide localized text for menu and toolbar commands by creating localiz
   
      This sets US English as the default language.  
   
-3.  Unload the project.  
+3. Unload the project.  
   
-4.  Open the project file in the editor.  
+4. Open the project file in the editor.  
   
-5.  Locate the `ItemGroup` element that contains `EmbeddedResource` elements.  
+5. Locate the `ItemGroup` element that contains `EmbeddedResource` elements.  
   
-6.  In the `EmbeddedResource` element that calls VSPackage.en-US.resx, replace the `ManifestResourceName` element with a `LogicalName` element, set to `VSPackage.en-US.Resources`, as follows.  
+6. In the `EmbeddedResource` element that calls VSPackage.en-US.resx, replace the `ManifestResourceName` element with a `LogicalName` element, set to `VSPackage.en-US.Resources`, as follows.  
   
     ```xml  
     <EmbeddedResource Include="VSPackage.en-US.resx">  
@@ -136,9 +131,9 @@ You can provide localized text for menu and toolbar commands by creating localiz
     </EmbeddedResource>  
     ```  
   
-7.  For each localized language, copy the  `EmbeddedResource` element for VsPackage.en-US, and set the **Include** attribute and **LogicalName** element of the copy to the target locale, as shown in the following example.  
+7. For each localized language, copy the  `EmbeddedResource` element for VsPackage.en-US, and set the **Include** attribute and **LogicalName** element of the copy to the target locale, as shown in the following example.  
   
-8.  To each localized `VSCTCompile` element, add a `ResourceName` element that points to `Menus.ctmenu`, as shown in the following example.  
+8. To each localized `VSCTCompile` element, add a `ResourceName` element that points to `Menus.ctmenu`, as shown in the following example.  
   
     ```xml  
     <ItemGroup>  
@@ -157,5 +152,4 @@ You can provide localized text for menu and toolbar commands by creating localiz
 ## See Also  
  [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)   
  [MenuCommands Vs. OleMenuCommands](../misc/menucommands-vs-olemenucommands.md)   
- [Globalization and Localization](http://msdn.microsoft.com/library/9a59696b-d89b-45bd-946d-c75da4732d02)
-
+ [Globalization and Localization](https://msdn.microsoft.com/library/9a59696b-d89b-45bd-946d-c75da4732d02)

@@ -2,9 +2,6 @@
 title: "Quickstart: Create an ASP.NET Core web service in F#"
 description: "Learn how to create an ASP.NET Core web service in Visual Studio with F#, step-by-step."
 ms.date: 08/24/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
 ms.topic: quickstart
 author: "cartermp"
 ms.author: "phcart"
@@ -15,17 +12,29 @@ ms.workload:
   - "aspnet"
   - "dotnetcore"
 ---
-# Quickstart: Use Visual Studio to create your first ASP.NET Core web service in F#
+# Quickstart: Use Visual Studio to create your first ASP.NET Core web service in F\#
 
 In this 5-10 minute introduction to F# in Visual Studio , you'll create an F# ASP.NET Core web application.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+::: moniker range="vs-2017"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+
+::: moniker-end
 
 ## Create a project
 
 First, you'll create an ASP.NET Core Web API project. The project type comes with template files that constitute a functional web service, before you've even added anything!
 
-1. Open Visual Studio 2017.
+::: moniker range="vs-2017"
+
+1. Open Visual Studio.
 
 2. From the top menu bar, choose **File** > **New** > **Project**.
 
@@ -35,7 +44,23 @@ First, you'll create an ASP.NET Core Web API project. The project type comes wit
 
      ![ASP.NET workload in VS Installer](../ide/media/quickstart-aspnet-workload.png)
 
-4. In the **New ASP.NET Core Web Application** dialog box, select **ASP.NET Core 2.1** from the top drop-down menu. (If you don't see **ASP.NET Core 2.1** in the list, install it by following the **Download** link that should appear in a yellow bar near the top of the dialog box.) Choose **OK**.
+4.In the **New ASP.NET Core Web Application** dialog box, select **ASP.NET Core 2.1** from the top drop-down menu. (If you don't see **ASP.NET Core 2.1** in the list, install it by following the **Download** link that should appear in a yellow bar near the top of the dialog box.) Choose **OK**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Open Visual Studio.
+
+2. On the start window, choose **Create a new project**.
+
+3. On the **Create a new project** page, type **f# web** into the search box, and then choose the **ASP.NET Core Web Application** project template. Choose **Next**.
+
+4. On the **Configure your new project** page, enter a name, and then choose **Create**.
+
+5. On the **Create a new ASP.NET Core Web Application** page, select **ASP.NET Core 2.1** from the top drop-down menu, and then choose **Create**.
+
+::: moniker-end
 
 ## Explore the IDE
 

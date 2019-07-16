@@ -1,10 +1,11 @@
 ---
 title: Working with Git
 description: Using Git in Visual Studio for Mac.
-author: conceptdev
-ms.author: crdun
+author: jmatthiesen
+ms.author: jomatthi
 ms.date: 05/06/2018
 ms.assetid: 852B6A9D-AEFA-4EF4-A5DD-94A506019D20
+ms.custom: video
 ---
 
 # Working with Git
@@ -90,6 +91,10 @@ To commit a file to the remote repository, press **Commit**, enter a commit mess
 ![Committing a file](media/version-control-gitCommit.png)
 
 Once you have committed your changes, push them to the remote repository to allow other users to see them.
+
+## Related Video
+
+> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Manage-Projects-with-Git/player]
 
 ## See also
 

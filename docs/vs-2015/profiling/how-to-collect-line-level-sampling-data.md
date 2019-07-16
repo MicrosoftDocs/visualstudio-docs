@@ -1,21 +1,16 @@
 ---
 title: "How to: Collect Line-Level Sampling Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "performance tools, line-level sampling"
 ms.assetid: 44803aad-dd39-4c2e-9209-d35185d44983
 caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Collect Line-Level Sampling Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,15 +46,12 @@ Line-level sampling is the ability of the profiler to determine where in the cod
 ### Turn Off Line-level Sampling for Managed Code  
  By default, line-level sampling is turned on. You can turn off line-level data collection for managed code by doing one of the following:  
   
--   Before profiling, type **VSPerfCLREnv /samplelineoff**. This affects both applications and services.  
+- Before profiling, type **VSPerfCLREnv /samplelineoff**. This affects both applications and services.  
   
      — or —  
   
--   When starting an application, type **VSPerfCmd /lineoff \<other arguments>**.  
+- When starting an application, type **VSPerfCmd /lineoff \<other arguments>**.  
   
 ## See Also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)
-
-
-

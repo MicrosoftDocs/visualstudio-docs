@@ -1,5 +1,5 @@
 ---
-title: "Coded web performance tests in Visual Studio"
+title: "Coded web performance tests"
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -13,9 +13,7 @@ dev_langs:
   - VB
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Generate and run a coded web performance test
 
@@ -25,13 +23,13 @@ Web performance tests are recorded by browsing through your web app. The tests a
 
 ## Generate a coded web performance test
 
-1.  If you have not created a web performance test, see [Record a web performance test](/azure/devops/test/load-test/run-performance-tests-app-before-release#create-a-web-performance-and-load-test-project?view=vsts).
+1. If you have not created a web performance test, see [Record a web performance test](/azure/devops/test/load-test/run-performance-tests-app-before-release#create-a-web-performance-and-load-test-project).
 
-2.  Generate the coded test.
+2. Generate the coded test.
 
      ![Generate a coded web performance test](../test/media/web_test_coded_generate.png)
 
-3.  Name the test.
+3. Name the test.
 
      ![Enter a name for the coded web performance test](../test/media/web_test_coded_generate_nametest.png)
 
@@ -43,7 +41,7 @@ Web performance tests are recorded by browsing through your web app. The tests a
 
      You can see in the code that the GetRequestEnumerator() method in C#, or the Run() method in Visual Basic, contains each validation rule and web request that was in the recoded test.
 
-4.  To demonstrate adding some simple code, scroll down to the end of the method and after the code for the last web request, and add the following code:
+4. To demonstrate adding some simple code, scroll down to the end of the method and after the code for the last web request, and add the following code:
 
     ```c#
     if (DateTime.Today.DayOfWeek == DayOfWeek.Wednesday)
@@ -68,9 +66,9 @@ Web performance tests are recorded by browsing through your web app. The tests a
     End If
     ```
 
-5.  Build the solution to verify that your custom code compiles.
+5. Build the solution to verify that your custom code compiles.
 
-6.  Run the test.
+6. Run the test.
 
      ![Run the coded web performance test](../test/media/web_test_coded_generate_run.png)
 
@@ -81,7 +79,7 @@ Web performance tests are recorded by browsing through your web app. The tests a
 ## Q&A
 
 ### Q: Can I run more than one test at a time?
- **A:** Yes, use the context menu in **Solution Explorer**.
+ **A:** Yes, use the right-click (context) menu in **Solution Explorer**.
 
 ### Q: Should I add a data source before or after I generate a coded test?
  **A:** It is easier to add a [data source](../test/add-a-data-source-to-a-web-performance-test.md) before you generate the coded test because the code will be automatically generated for you.

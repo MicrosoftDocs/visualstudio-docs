@@ -5,8 +5,6 @@ author: abuchholtzau
 ms.author: allisb
 ms.date: 09/05/2018
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 f1_keywords:
  - VS.ToolsOptionsPages.Environment.PathTrustOptions
 helpviewer_keywords:

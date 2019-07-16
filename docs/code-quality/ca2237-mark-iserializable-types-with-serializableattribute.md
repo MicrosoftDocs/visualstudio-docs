@@ -1,8 +1,6 @@
 ---
 title: "CA2237: Mark ISerializable types with SerializableAttribute"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2237"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 9bd6bb24-a527-43dd-9952-043c0c694f46
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

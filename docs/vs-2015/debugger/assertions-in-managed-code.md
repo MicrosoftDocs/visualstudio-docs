@@ -1,14 +1,9 @@
 ---
 title: "Assertions in Managed Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -30,14 +25,14 @@ ms.assetid: 70ab2522-6486-4076-a1a9-e0f11cd0f3a1
 caps.latest.revision: 32
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Assertions in Managed Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 An assertion, or `Assert` statement, tests a condition, which you specify as an argument to the `Assert` statement. If the condition evaluates to true, no action occurs. If the condition evaluates to false, the assertion fails. If you are running with a debug build, your program enters break mode.  
   
-##  <a name="BKMK_In_this_topic"></a> In this topic  
+## <a name="BKMK_In_this_topic"></a> In this topic  
  [Asserts in the System.Diagnostics Namespace](#BKMK_Asserts_in_the_System_Diagnostics_Namespace)  
   
  [The Debug.Assert method](#BKMK_The_Debug_Assert_method)  
@@ -52,14 +47,14 @@ An assertion, or `Assert` statement, tests a condition, which you specify as an 
   
  [Setting assertions in configuration files](#BKMK_Setting_assertions_in_configuration_files)  
   
-##  <a name="BKMK_Asserts_in_the_System_Diagnostics_Namespace"></a> Asserts in the System.Diagnostics Namespace  
+## <a name="BKMK_Asserts_in_the_System_Diagnostics_Namespace"></a> Asserts in the System.Diagnostics Namespace  
  In Visual Basic and Visual C#, you can use the `Assert` method from either <xref:System.Diagnostics.Debug> or <xref:System.Diagnostics.Trace>, which are in the <xref:System.Diagnostics> namespace. <xref:System.Diagnostics.Debug> class methods are not included in a Release version of your program, so they do not increase the size or reduce the speed of your release code.  
   
  C++ does not support the <xref:System.Diagnostics.Debug> class methods. You can achieve the same effect by using the <xref:System.Diagnostics.Trace> class with conditional compilation, such as `#ifdef DEBUG`... `#endif`.  
   
  [In this topic](#BKMK_In_this_topic)  
   
-##  <a name="BKMK_The_Debug_Assert_method"></a> The Debug.Assert method  
+## <a name="BKMK_The_Debug_Assert_method"></a> The Debug.Assert method  
  Use the <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> method freely to test conditions that should hold true if your code is correct. For example, suppose you have written an integer divide function. By the rules of mathematics, the divisor can never be zero. You might test this using an assertion:  
   
 ```vb  
@@ -113,7 +108,7 @@ savingsAccount.Withdraw ( amount );
   
  [In this topic](#BKMK_In_this_topic)  
   
-##  <a name="BKMK_Side_effects_of_Debug_Assert"></a> Side effects of Debug.Assert  
+## <a name="BKMK_Side_effects_of_Debug_Assert"></a> Side effects of Debug.Assert  
  When you use <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName>, make sure that any code inside `Assert` does not change the results of the program if `Assert` is removed. Otherwise, you might accidentally introduce a bug that only shows up in the Release version of your program. Be especially careful about asserts that contain function or procedure calls, such as the following example:  
   
 ```vb  
@@ -142,7 +137,7 @@ Debug.Assert ( temp != 0 );
   
  [In this topic](#BKMK_In_this_topic)  
   
-##  <a name="BKMK_Trace_and_Debug_Requirements"></a> Trace and Debug Requirements  
+## <a name="BKMK_Trace_and_Debug_Requirements"></a> Trace and Debug Requirements  
  If you create your project using the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] wizards, the TRACE symbol is defined by default in both Release and Debug configurations. The DEBUG symbol is defined by default only in the Debug build.  
   
  Otherwise, for <xref:System.Diagnostics.Trace> methods to work, your program must have one of the following at the top of the source file:  
@@ -161,7 +156,7 @@ Debug.Assert ( temp != 0 );
   
   C++ does not support the <xref:System.Diagnostics.Debug> class methods. You can achieve the same effect by using the <xref:System.Diagnostics.Trace> class with conditional compilation, such as `#ifdef DEBUG`... `#endif`. You can define these symbols in the **\<Project> Property Pages** dialog box. For more information, see [Changing Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md) or [Changing Project Settings for a C or C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).  
   
-##  <a name="BKMK_Assert_arguments"></a> Assert arguments  
+## <a name="BKMK_Assert_arguments"></a> Assert arguments  
  <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> and <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> take up to three arguments. The first argument, which is mandatory, is the condition you want to check. If you call <xref:System.Diagnostics.Trace.Assert%28System.Boolean%29?displayProperty=fullName> or <xref:System.Diagnostics.Debug.Assert%28System.Boolean%29?displayProperty=fullName> with only one argument, the `Assert` method checks the condition and, if the result is false, outputs the contents of the call stack to the **Output** window. The following example shows <xref:System.Diagnostics.Trace.Assert%28System.Boolean%29?displayProperty=fullName> and <xref:System.Diagnostics.Debug.Assert%28System.Boolean%29?displayProperty=fullName>:  
   
 ```vb  
@@ -201,7 +196,7 @@ Trace.Assert ( stacksize > 0, "Out of stack space", "Failed in inctemp" );
   
  [In this topic](#BKMK_In_this_topic)  
   
-##  <a name="BKMK_Customizing_Assert_behavior"></a> Customizing Assert behavior  
+## <a name="BKMK_Customizing_Assert_behavior"></a> Customizing Assert behavior  
  If you run your application in user-interface mode, the `Assert` method displays the **Assertion Failed** dialog box when the condition fails. The actions that occur when an assertion fails are controlled by the <xref:System.Diagnostics.Debug.Listeners%2A> or <xref:System.Diagnostics.Trace.Listeners%2A> property.  
   
  You can customize the output behavior by adding a <xref:System.Diagnostics.TraceListener> object to the `Listeners` collection, by removing a <xref:System.Diagnostics.TraceListener> from the `Listeners` collection, or by overriding the <xref:System.Diagnostics.TraceListener.Fail%2A?displayProperty=fullName> method of an existing `TraceListener` to make it behave differently.  
@@ -210,21 +205,18 @@ Trace.Assert ( stacksize > 0, "Out of stack space", "Failed in inctemp" );
   
  To customize the output in this way, your program must contain a listener, and you must inherit from <xref:System.Diagnostics.TraceListener> and override its <xref:System.Diagnostics.TraceListener.Fail%2A?displayProperty=fullName> method.  
   
- For more Information, see [Trace Listeners](http://msdn.microsoft.com/library/444b0d33-67ea-4c36-9e94-79c50f839025).  
+ For more Information, see [Trace Listeners](https://msdn.microsoft.com/library/444b0d33-67ea-4c36-9e94-79c50f839025).  
   
  [In this topic](#BKMK_In_this_topic)  
   
-##  <a name="BKMK_Setting_assertions_in_configuration_files"></a> Setting assertions in configuration files  
+## <a name="BKMK_Setting_assertions_in_configuration_files"></a> Setting assertions in configuration files  
  You can set assertions in your program configuration file as well as in your code. For more information, see <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> or <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName>.  
   
 ## See Also  
  <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName>   
  <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName>   
  [Debugger Security](../debugger/debugger-security.md)   
- [Tracing and Instrumenting Applications](http://msdn.microsoft.com/library/773b6fc4-9013-4322-b728-5dec7a72e743)   
- [How to: Compile Conditionally with Trace and Debug](http://msdn.microsoft.com/library/56d051c3-012c-42c1-9a58-7270edc624aa)   
+ [Tracing and Instrumenting Applications](https://msdn.microsoft.com/library/773b6fc4-9013-4322-b728-5dec7a72e743)   
+ [How to: Compile Conditionally with Trace and Debug](https://msdn.microsoft.com/library/56d051c3-012c-42c1-9a58-7270edc624aa)   
  [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)
-
-
-

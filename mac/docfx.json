@@ -2,6 +2,8 @@
   "build": {
     "content": [
       {
+        "group": "vsmac-2017",
+        "src": "2017",
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -14,15 +16,49 @@
           "LICENSE-CODE",
           "ThirdPartyNotices"
         ]
+      },{
+        "group": "vsmac-2019",
+        "src": "./",
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "2017/**",
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
       }
     ],
     "resource": [
       {
+        "group": "vsmac-2017",
+        "src": "2017",
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.svg",
+          "**/*.gif"
         ],
         "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      },{
+        "group": "vsmac-2019",
+        "src": "./",
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.svg",
+          "**/*.gif"
+        ],
+        "exclude": [
+          "2017/**",
           "**/obj/**",
           "**/includes/**"
         ]
@@ -31,6 +67,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "uhfHeaderId": "MSDocsHeader-VisualStudioMac",
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
       "feedback_product_url": "https://developercommunity.visualstudio.com/spaces/41/index.html",
@@ -41,7 +78,7 @@
       "breadcrumb_path": "~/_breadcrumb/toc.yml",
       "extendBreadcrumb": true,
       "manager": "crdun",
-      "titleSuffix": "Visual Studio for Mac",
+      "titleSuffix": "Visual Studio 2019 for Mac",
       "ms.topic": "conceptual",
       "audience": "developer",
       "ms.prod": "visual-studio-mac",
@@ -50,9 +87,37 @@
         "Mac"
       ]
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "breadcrumb_path": {
+        "2017/**/*.md": "/visualstudio/mac/_breadcrumb/toc.json",
+        "2017/**/*.yml": "/visualstudio/mac/_breadcrumb/toc.json"
+      },
+      "titleSuffix": {
+        "2017/**/*.md": "Visual Studio 2017 for Mac",
+        "2017/**/*.yml": "Visual Studio 2017 for Mac"
+      },
+      "feedback_system": {
+        "2017/**/*.md": ""
+      },
+      "feedback_github_repo": {
+        "2017/**/*.md": ""
+      },
+      "hideEdit": {
+        "2017/**/*.md": true
+      }
+    },
     "template": [],
     "dest": "mac",
+    "groups": {
+      "vsmac-2017": {
+        "moniker_range": "vsmac-2017",
+        "dest": "2017"
+      },
+      "vsmac-2019": {
+        "moniker_range": "vsmac-2019",
+        "dest": "2019"
+      }
+    },
     "markdownEngineName": "markdig"
   }
 }

@@ -1,19 +1,14 @@
 ---
 title: "How to: Apply a Shader to a 3-D Model | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: a3877bd6-abd8-4a9d-842c-6848b6c2f335
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Apply a Shader to a 3-D Model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +17,7 @@ This document demonstrates how to use the Model Editor to apply a Directed Graph
   
  This document demonstrates this activity:  
   
--   Applying a shader to a 3-D model  
+- Applying a shader to a 3-D model  
   
 ## Applying a shader to a 3-D model  
  You can apply a shader effect to a 3-D model to give it an interesting appearance.  
@@ -46,6 +41,3 @@ This document demonstrates how to use the Model Editor to apply a Directed Graph
  [How to: Create a Basic Color Shader](../designers/how-to-create-a-basic-color-shader.md)   
  [Model Editor](../designers/model-editor.md)   
  [Shader Designer](../designers/shader-designer.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "CA1014: Mark assemblies with CLSCompliantAttribute | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1014"
   - "MarkAssembliesWithClsCompliant"
@@ -54,7 +49,4 @@ manager: "wpickett"
 
 ## See Also
  <xref:System.CLSCompliantAttribute?displayProperty=fullName>
- [Language Independence and Language-Independent Components](http://msdn.microsoft.com/library/4f0b77d0-4844-464f-af73-6e06bedeafc6)
-
-
-
+ [Language Independence and Language-Independent Components](https://msdn.microsoft.com/library/4f0b77d0-4844-464f-af73-6e06bedeafc6)

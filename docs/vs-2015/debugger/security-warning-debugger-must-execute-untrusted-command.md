@@ -1,14 +1,9 @@
 ---
 title: "Security Warning: Debugger Must Execute Untrusted Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.sourceserver.securityalert"
 dev_langs: 
@@ -20,7 +15,7 @@ ms.assetid: e5c004b3-b364-4098-ac98-770076ca9981
 caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Security Warning: Debugger Must Execute Untrusted Command
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +42,4 @@ This warning dialog box appears when you are using Source Server. It indicates t
 ## See Also  
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
  [Debugger Security](../debugger/debugger-security.md)   
- [Source Server](http://msdn.microsoft.com/library/windows/desktop/ms680641\(v=vs.85\).aspx)
-
-
-
+ [Source Server](https://msdn.microsoft.com/library/windows/desktop/ms680641\(v=vs.85\).aspx)

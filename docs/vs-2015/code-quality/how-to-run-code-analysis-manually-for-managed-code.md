@@ -1,14 +1,9 @@
 ---
 title: "How to: Run Code Analysis Manually for Managed Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "code analysis, running"
 ms.assetid: 5086d228-f92e-4515-9708-c5b89b9e9a03
@@ -24,11 +19,6 @@ The code analysis tool provides information to you about possible defects in you
   
 ### To run code analysis manually  
   
-1.  In **Solution Explorer**, click the project.  
+1. In **Solution Explorer**, click the project.  
   
-2.  On the **Analyze** menu, click **Run Code Analysis on** *Project Name*.
-
-
-
-
-
+2. On the **Analyze** menu, click **Run Code Analysis on** *Project Name*.

@@ -2,14 +2,12 @@
 title: "Workflow Designer - How to: Use the Expression Editor"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Presentation.View.ExpressionTextBox.UI"
 ms.assetid: b5f961dd-6dda-41a9-9cae-0383d479ef3d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -32,18 +30,18 @@ The **Expression Editor** behaves as follows:
 
 ## Use the Expression editor
 
-1.  In Visual Studio, open a new or existing workflow project.
+1. In Visual Studio, open a new or existing workflow project.
 
-2.  Add, for example, the <xref:System.Activities.Statements.Assign> activity to your workflow.
+2. Add, for example, the <xref:System.Activities.Statements.Assign> activity to your workflow.
 
     > [!NOTE]
     > Multiple workflow activities have expression editors. Expression TextBlocks also appear in the variable designer, argument designer, and the dynamic argument designer. The <xref:System.Activities.Statements.Assign> activity is used as an example.
 
-3.  Click the left expression editor in the activity designer for the <xref:System.Activities.Statements.Assign> activity.
+3. Click the left expression editor in the activity designer for the <xref:System.Activities.Statements.Assign> activity.
 
      The gray watermark strings **\<To>** and **\<Enter a VB Expression>** are the default text strings for expression editors in the <xref:System.Activities.Statements.Assign> activity.
 
-4.  Enter your expression. If you enter a string, make sure to put quotation marks around the string. If you choose to bind the expression argument to a variable, leave the quotation marks off.
+4. Enter your expression. If you enter a string, make sure to put quotation marks around the string. If you choose to bind the expression argument to a variable, leave the quotation marks off.
 
      When you're done, select a region or area outside of the Expression Editor to shift the focus to another part of the designer. Shifting the focus causes the compiler to validate the expression as described previously.
 

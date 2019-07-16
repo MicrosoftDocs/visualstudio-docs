@@ -2,7 +2,6 @@
 title: "DebugPropertyInfo Structure | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Describes an object of a hierarchical nature that has name, type, and value. It 
   
 ## Syntax  
   
-```  
+```cpp
 typedef struct DebugPropertyInfo{  
    DBGPROP_INFO_FLAGS  dwValidFields;  
    BSTR  bstrName;  

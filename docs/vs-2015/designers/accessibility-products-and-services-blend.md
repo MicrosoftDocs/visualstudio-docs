@@ -1,35 +1,30 @@
 ---
 title: "Accessibility products and services (Blend) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: ba8557f6-231a-4d8b-80dd-80397e87a17f
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Accessibility products and services (Blend)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Microsoft is committed to making its products and services easier for everyone to use. The following sections provide information about the features, products, and services that make Microsoft Windows more accessible for people with disabilities:  
   
--   "Accessibility features of Windows"  
+- "Accessibility features of Windows"  
   
--   "Documentation in alternative formats"  
+- "Documentation in alternative formats"  
   
--   "Customer service for people with hearing impairments"  
+- "Customer service for people with hearing impairments"  
   
--   "For more information"  
+- "For more information"  
   
 > [!NOTE]
->  The information in this section may apply only to users who license Microsoft products in the United States. If you obtained this product outside of the United States, you can use the subsidiary information card that came with your software package or visit the [Microsoft Accessibility site](http://go.microsoft.com/fwlink/?LinkID=75069) for a list of Microsoft support services telephone numbers and addresses. You can contact your subsidiary to find out whether the type of products and services described in this section are available in your area. Information about accessibility is available in other languages, including Japanese and French.  
+> The information in this section may apply only to users who license Microsoft products in the United States. If you obtained this product outside of the United States, you can use the subsidiary information card that came with your software package or visit the [Microsoft Accessibility site](http://go.microsoft.com/fwlink/?LinkID=75069) for a list of Microsoft support services telephone numbers and addresses. You can contact your subsidiary to find out whether the type of products and services described in this section are available in your area. Information about accessibility is available in other languages, including Japanese and French.  
   
 ## Accessibility features of Windows  
  The Windows operating system has many built-in accessibility features that are useful for individuals who have difficulty typing or using a mouse, are blind or have low vision, or who are deaf or have hearing impairments. The features are installed during Setup. For more information about these features, see Help in Windows and the [Microsoft Accessibility site](http://go.microsoft.com/fwlink/?LinkID=75069).  
@@ -76,6 +71,3 @@ Microsoft is committed to making its products and services easier for everyone t
   
 ## For more information  
  For more information about how accessible technology for computers helps to improve the lives of people with disabilities, see the [Microsoft Accessibility site](http://go.microsoft.com/fwlink/?LinkID=75069).
-
-
-

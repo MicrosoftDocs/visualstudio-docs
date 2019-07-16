@@ -1,14 +1,9 @@
 ---
 title: "Adding a Menu Controller to a Toolbar | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "toolbars [Visual Studio], adding menu controllers"
   - "menus, adding menu controllers to toolbars"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 6af9b0b4-037f-404c-bb40-aaa1970768ea
 caps.latest.revision: 39
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Adding a Menu Controller to a Toolbar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -113,7 +108,7 @@ This walkthrough builds on the [Adding a Toolbar to a Tool Window](../extensibil
   
 ## Implementing the Menu Controller Commands  
   
-1.  In TWTestCommandPackageGuids.cs, add command IDs for your three menu items after the existing command IDs.  
+1. In TWTestCommandPackageGuids.cs, add command IDs for your three menu items after the existing command IDs.  
   
     ```csharp  
     public const int cmdidMCItem1 = 0x130;  
@@ -121,13 +116,13 @@ This walkthrough builds on the [Adding a Toolbar to a Tool Window](../extensibil
     public const int cmdidMCItem3 = 0x132;  
     ```  
   
-2.  In TWTestCommand.cs, add the following code at the top of the TWTestCommand class.  
+2. In TWTestCommand.cs, add the following code at the top of the TWTestCommand class.  
   
     ```csharp  
     private int currentMCCommand; // The currently selected menu controller command  
     ```  
   
-3.  In the TWTestCommand constructor, after the last call to the `AddCommand` method, add code to route the events for each command through the same handlers.  
+3. In the TWTestCommand constructor, after the last call to the `AddCommand` method, add code to route the events for each command through the same handlers.  
   
     ```csharp  
     for (int i = TWTestCommandPackageGuids.cmdidMCItem1; i <=  
@@ -148,7 +143,7 @@ This walkthrough builds on the [Adding a Toolbar to a Tool Window](../extensibil
     }  
     ```  
   
-4.  Add an event handler to the TWTestCommand class to mark the selected command as checked.  
+4. Add an event handler to the TWTestCommand class to mark the selected command as checked.  
   
     ```csharp  
     private void OnMCItemQueryStatus(object sender, EventArgs e)  
@@ -161,7 +156,7 @@ This walkthrough builds on the [Adding a Toolbar to a Tool Window](../extensibil
     }  
     ```  
   
-5.  Add an event handler that displays a MessageBox when the user selects a command on the menu controller:  
+5. Add an event handler that displays a MessageBox when the user selects a command on the menu controller:  
   
     ```csharp  
     private void OnMCItemClicked(object sender, EventArgs e)  
@@ -213,13 +208,13 @@ This walkthrough builds on the [Adding a Toolbar to a Tool Window](../extensibil
   
 ## Testing the Menu Controller  
   
-1.  Build the project and start debugging. You should see the experimental instance.  
+1. Build the project and start debugging. You should see the experimental instance.  
   
-2.  Open the **Test ToolWindow** on the **View / Other Windows** menu.  
+2. Open the **Test ToolWindow** on the **View / Other Windows** menu.  
   
      The menu controller appears in the toolbar in the tool window and displays **MC Item 1**.  
   
-3.  Click the menu controller button to the left of the arrow.  
+3. Click the menu controller button to the left of the arrow.  
   
      You should see three items, the first of which is selected and has a highlight box around its icon. Click **MC Item 3**.  
   
@@ -228,4 +223,3 @@ This walkthrough builds on the [Adding a Toolbar to a Tool Window](../extensibil
 ## See Also  
  [Adding a Toolbar to a Tool Window](../extensibility/adding-a-toolbar-to-a-tool-window.md)   
  [Adding a Toolbar](../extensibility/adding-a-toolbar.md)
-

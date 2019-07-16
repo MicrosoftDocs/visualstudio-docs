@@ -1,21 +1,16 @@
 ---
 title: "Deploying Custom Start Pages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "package start page"
   - "deploy start page"
 ms.assetid: 4a7eb360-de83-41d5-be53-3cfb160d19f9
 caps.latest.revision: 22
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Deploying Custom Start Pages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +22,7 @@ You can deploy custom Start Pages by using VSIX deployment or by copying the fil
   
 - You can put the .vsix file on a network share or on a public Web site. When someone opens the file, the Start Page is automatically installed.  
   
-- You can upload the .vsix file to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site so that users can install it by using **Extension Manager**.  
+- You can upload the .vsix file to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site so that users can install it by using **Extension Manager**.  
   
   The Start Page project template creates a copy of the default Visual Studio Start Page so that you can modify the copy and preserve the original.  
   
@@ -56,9 +51,9 @@ You can deploy custom Start Pages by using VSIX deployment or by copying the fil
   
 ##### To create an All-Users deployment  
   
-1.  Open the extension.vsixmanifest file in code view.  
+1. Open the extension.vsixmanifest file in code view.  
   
-2.  In the `Identifier` element of the vsix manifest, add an `AllUsers` element that has a value of `true`.  
+2. In the `Identifier` element of the vsix manifest, add an `AllUsers` element that has a value of `true`.  
   
     ```  
     <AllUsers>true</AllUsers>  
@@ -66,9 +61,9 @@ You can deploy custom Start Pages by using VSIX deployment or by copying the fil
   
      This causes the vsix installer to prompt for administrator permissions, and then install the files to \Common7\IDE\Extensions.  
   
-3.  Open the .pkgdef file.  
+3. Open the .pkgdef file.  
   
-4.  Modify the .pkgdef to set the default start page under HKLM by adding the following, where *MyStartPage.xaml* is the name of the .xaml file that contains your Start Page.  
+4. Modify the .pkgdef to set the default start page under HKLM by adding the following, where *MyStartPage.xaml* is the name of the .xaml file that contains your Start Page.  
   
      [$RootKey$\StartPage\Default]  
   
@@ -83,13 +78,12 @@ You can deploy custom Start Pages by using VSIX deployment or by copying the fil
   
 #### To manually install a custom Start Page  
   
-1.  Copy the .xaml file that contains the Start Page markup, together with any supporting files other than assemblies, and paste them in the user's \StartPages\ folder.  
+1. Copy the .xaml file that contains the Start Page markup, together with any supporting files other than assemblies, and paste them in the user's \StartPages\ folder.  
   
-2.  If the Start Page requires assemblies, copy them and paste them in ..\\*Visual Studio installation folder*\Common7\IDE\PrivateAssemblies\\.  
+2. If the Start Page requires assemblies, copy them and paste them in ..\\*Visual Studio installation folder*\Common7\IDE\PrivateAssemblies\\.  
   
-3.  In the **Customize Start Page** list on the **Startup** options page, select the new Start Page. For more information, see [Customizing the Start Page](../ide/customizing-the-start-page-for-visual-studio.md).  
+3. In the **Customize Start Page** list on the **Startup** options page, select the new Start Page. For more information, see [Customizing the Start Page](../ide/customizing-the-start-page-for-visual-studio.md).  
   
 ## See Also  
  [Customizing the Start Page](../ide/customizing-the-start-page-for-visual-studio.md)   
  [Adding User Control to the Start Page](../extensibility/adding-user-control-to-the-start-page.md)
-

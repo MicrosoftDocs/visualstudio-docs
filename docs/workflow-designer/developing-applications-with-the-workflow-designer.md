@@ -2,8 +2,6 @@
 title: "Developing Applications with the Workflow Designer"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "DefaultWorkflowDesigner"
   - "DefaultWorkflowDesigner.UI"
@@ -15,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 4cd062b1-b496-4668-bbc1-ee85545e066d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -25,7 +23,7 @@ The Workflow Designer is a visual designer and debugger for the graphical constr
 
 ## Install Windows Workflow Foundation
 
-To use Workflow project templates in Visual Studio 2017, first install the **Windows Workflow Foundation** component.
+To use Workflow project templates in Visual Studio, first install the **Windows Workflow Foundation** component.
 
 1. Open Visual Studio Installer. A quick way to open it is by selecting **Tools** > **Get Tools and Features** in Visual Studio.
 
@@ -33,7 +31,7 @@ To use Workflow project templates in Visual Studio 2017, first install the **Win
 
 1. Scroll down to the **Development activities** category and then select the **Windows Workflow Foundation** component.
 
-   ![Windows Workflow Foundation component for Visual Studio 2017](media/windows-workflow-foundation-component.png)
+   ![Windows Workflow Foundation component for Visual Studio](media/windows-workflow-foundation-component.png)
 
 1. Select **Modify**.
 

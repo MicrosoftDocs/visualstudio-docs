@@ -1,8 +1,6 @@
 ---
 title: Add Existing Project Command
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "file.addexistingproject"
@@ -12,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 71cf3e31-c76b-405b-ad6a-1b1bc654bd40
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,14 +1,9 @@
 ---
 title: "How to: Debug COM Clients and Servers Using RPC Debugging | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.com"
 dev_langs: 
@@ -30,7 +25,7 @@ ms.assetid: 3e8526c8-43b5-4b87-8e0d-b22c24f0a3ea
 caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Debug COM Clients and Servers Using RPC Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,23 +34,20 @@ You can use remote procedure call (RPC) debugging to debug COM client/server app
   
 ### To enable RPC debugging  
   
-1.  On the **Tools** menu, click **Options**.  
+1. On the **Tools** menu, click **Options**.  
   
-2.  In the **Options** dialog box, click the **Debugging** folder.  
+2. In the **Options** dialog box, click the **Debugging** folder.  
   
-3.  Click the **Native** page.  
+3. Click the **Native** page.  
   
-4.  Select the **RPC debugging** check box.  
-  
-    > [!NOTE]
-    >  To debug RPC calls, you must have Administrator or Power User privileges.  
+4. Select the **RPC debugging** check box.  
   
     > [!NOTE]
-    >  RPC stepping into a remote server that runs Microsoft Windows Vista will work only if a native debugger is attached to the remote server. Otherwise, the RPC call will fail without an error message. Otherwise the RPC call will complete, but the step-into the RPC call will not work.  
+    > To debug RPC calls, you must have Administrator or Power User privileges.  
+  
+    > [!NOTE]
+    > RPC stepping into a remote server that runs Microsoft Windows Vista will work only if a native debugger is attached to the remote server. Otherwise, the RPC call will fail without an error message. Otherwise the RPC call will complete, but the step-into the RPC call will not work.  
   
 ## See Also  
  [COM Server and Container Debugging](../debugger/com-server-and-container-debugging.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
-
-
-

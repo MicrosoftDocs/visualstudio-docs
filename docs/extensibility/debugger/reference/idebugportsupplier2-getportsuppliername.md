@@ -1,44 +1,44 @@
 ---
 title: "IDebugPortSupplier2::GetPortSupplierName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "IDebugPortSupplier2::GetPortSupplierName"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugPortSupplier2::GetPortSupplierName"
 ms.assetid: e4c368ab-640d-4b5b-9f74-810dc9364d8f
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPortSupplier2::GetPortSupplierName
-Gets the port supplier name.  
-  
-## Syntax  
-  
-```cpp  
-HRESULT GetPortSupplierName(   
-   BSTR* pbstrName  
-);  
-```  
-  
-```csharp  
-int GetPortSupplierName(   
-   out string pbstrName  
-);  
-```  
-  
-#### Parameters  
- `pbstrName`  
- [out] Returns the name of the port supplier.  
-  
-## Return Value  
- If successful, returns `S_OK`; otherwise, returns an error code.  
-  
-## See Also  
- [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)
+Gets the port supplier name.
+
+## Syntax
+
+```cpp
+HRESULT GetPortSupplierName( 
+   BSTR* pbstrName
+);
+```
+
+```csharp
+int GetPortSupplierName( 
+   out string pbstrName
+);
+```
+
+## Parameters
+`pbstrName`\
+[out] Returns the name of the port supplier.
+
+## Return Value
+ If successful, returns `S_OK`; otherwise, returns an error code.
+
+## See also
+- [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)

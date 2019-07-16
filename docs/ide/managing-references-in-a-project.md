@@ -1,8 +1,6 @@
 ---
 title: Manage references in a project
 ms.date: 04/11/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.ProjectPropertiesReferencePaths"
@@ -20,7 +18,7 @@ helpviewer_keywords:
   - "objects [Visual Studio], referencing"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -34,7 +32,7 @@ To add a reference, right click on the **References** or **Dependencies** node i
 
 You can add a reference to the following types of components and services:
 
-- .NET Framework class libraries or assemblies
+- .NET class libraries or assemblies
 
 - UWP apps
 
@@ -97,11 +95,11 @@ If you deploy an application that contains a reference to a custom component tha
 
 By default, the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> property is set to **False** if the assembly or component is in the global assembly cache or is a framework component. Otherwise, the value is set to **True**. Project-to-project references are always set to **True**.
 
-## Reference a project or assembly that targets a different version of the .NET Framework
+## Reference a project or assembly that targets a different version of .NET
 
-You can create applications that reference projects or assemblies that target a different version of the .NET Framework. For example, you could create an application that targets .NET Framework 4.6, that references an assembly that targets .NET Framework 4.5. If you create a project that targets an earlier version of the .NET Framework, you cannot set a reference in that project to a project or assembly that targets a newer version.
+You can create applications that reference projects or assemblies that target a different version of the .NET. For example, you could create an application that targets .NET Framework 4.6, that references an assembly that targets .NET Framework 4.5. If you create a project that targets an earlier version of .NET, you cannot set a reference in that project to a project or assembly that targets a newer version.
 
-For more information, see [Multi-targeting overview](../ide/visual-studio-multi-targeting-overview.md).
+For more information, see [Framework targeting overview](../ide/visual-studio-multi-targeting-overview.md).
 
 ## Project-to project references
 

@@ -1,16 +1,14 @@
 ---
-title: "CA2153: Avoid Handling Corrupted State Exceptions"
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
+title: Code analysis rule CA2153 for Corrupted State Exceptions
+ms.date: 02/19/2019
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# CA2153: Avoid Handling Corrupted State Exceptions
+# CA2153: Avoid handling Corrupted State Exceptions
 
 |||
 |-|-|
@@ -21,25 +19,25 @@ ms.workload:
 
 ## Cause
 
-[Corrupted State Exceptions (CSE)](https://msdn.microsoft.com/magazine/dd419661.aspx) indicate that memory corruption exists in your process. Catching these rather than allowing the process to crash can lead to security vulnerabilities if an attacker can place an exploit into the corrupted memory region.
+[Corrupted State Exceptions (CSEs)](https://msdn.microsoft.com/magazine/dd419661.aspx) indicate that memory corruption exists in your process. Catching these rather than allowing the process to crash can lead to security vulnerabilities if an attacker can place an exploit into the corrupted memory region.
 
 ## Rule description
 
-CSE indicates that the state of a process has been corrupted and not caught by the system. In the corrupted state scenario, a general handler only catches the exception if you mark your method with the proper `HandleProcessCorruptedStateExceptions` attribute. By default, the [Common Language Runtime (CLR)](/dotnet/standard/clr) will not invoke catch handlers for CSEs.
+CSE indicates that the state of a process has been corrupted and not caught by the system. In the corrupted state scenario, a general handler only catches the exception if you mark your method with the <xref:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute?displayProperty=fullName> attribute. By default, the [Common Language Runtime (CLR)](/dotnet/standard/clr) does not invoke catch handlers for CSEs.
 
-Allowing the process to crash without catching these kinds of exceptions is the safest option, as even logging code can allow attackers to exploit memory corruption bugs.
+The safest option is to allow the process to crash without catching these kinds of exceptions. Even logging code can allow attackers to exploit memory corruption bugs.
 
-This warning triggers when catching CSEs with a general handler that catches all exceptions, such as catch(exception) or catch(no exception specification).
+This warning triggers when catching CSEs with a general handler that catches all exceptions, for example, `catch (System.Exception e)` or `catch` with no exception parameter.
 
 ## How to fix violations
 
 To resolve this warning, do one of the following:
 
-- Remove the `HandleProcessCorruptedStateExceptions` attribute. This reverts to the default runtime behavior where CSEs are not passed to catch handlers.
+- Remove the <xref:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute> attribute. This reverts to the default runtime behavior where CSEs are not passed to catch handlers.
 
-- Remove the general catch handler in preference of handlers that catch specific exception types. This may include CSEs assuming the handler code can safely handle them (rare).
+- Remove the general catch handler in preference of handlers that catch specific exception types. This may include CSEs, assuming the handler code can safely handle them (rare).
 
-- Rethrow the CSE in the catch handler, which ensures the exception is passed to the caller and will result in ending the running process.
+- Rethrow the CSE in the catch handler, which passes the exception to the caller and should result in ending the running process.
 
 ## When to suppress warnings
 
@@ -53,7 +51,7 @@ The following pseudo-code illustrates the pattern detected by this rule.
 
 ```csharp
 [HandleProcessCorruptedStateExceptions]
-// Method to handle and log CSE exceptions.
+// Method that handles CSE exceptions.
 void TestMethod1()
 {
     try
@@ -62,14 +60,14 @@ void TestMethod1()
     }
     catch (Exception e)
     {
-        // Handle error.
+        // Handle exception.
     }
 }
 ```
 
-### Solution 1
+### Solution 1 - remove the attribute
 
-Removing the HandleProcessCorruptedExceptions attribute ensures that the exceptions will be not handled.
+Removing the <xref:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute> attribute ensures that Corrupted State Exceptions are not handled by your method.
 
 ```csharp
 void TestMethod1()
@@ -78,18 +76,14 @@ void TestMethod1()
     {
         FileStream fileStream = new FileStream("name", FileMode.Create);
     }
-    catch (IOException e)
+    catch (Exception e)
     {
-        // Handle error.
-    }
-    catch (UnauthorizedAccessException e)
-    {
-        // Handle error.
+        // Handle exception.
     }
 }
 ```
 
-### Solution 2
+### Solution 2 - catch specific exceptions
 
 Remove the general catch handler and catch only specific exception types.
 
@@ -102,20 +96,21 @@ void TestMethod1()
     }
     catch (IOException e)
     {
-        // Handle error.
+        // Handle IOException.
     }
     catch (UnauthorizedAccessException e)
     {
-        // Handle error.
+        // Handle UnauthorizedAccessException.
     }
 }
 ```
 
-### Solution 3
+### Solution 3 - rethrow
 
 Rethrow the exception.
 
 ```csharp
+[HandleProcessCorruptedStateExceptions]
 void TestMethod1()
 {
     try
@@ -124,7 +119,7 @@ void TestMethod1()
     }
     catch (Exception e)
     {
-        // Handle error.
+        // Rethrow the exception.
         throw;
     }
 }

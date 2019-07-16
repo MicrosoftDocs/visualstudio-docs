@@ -1,14 +1,9 @@
 ---
 title: "Add Existing Project Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "file.addexistingproject"
 helpviewer_keywords: 
@@ -18,12 +13,11 @@ ms.assetid: 71cf3e31-c76b-405b-ad6a-1b1bc654bd40
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Add Existing Project Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Adds an existing project to the current solution.  
   
 ## Syntax  
@@ -55,6 +49,3 @@ File.AddExistingProject filename
  [Command Window](../../ide/reference/command-window.md)   
  [Find/Command Box](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

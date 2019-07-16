@@ -1,14 +1,9 @@
 ---
 title: "CreateVisualBasicManifestResourceName Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,12 +16,11 @@ ms.assetid: 251c47b9-de32-414b-a138-bf45290af12e
 caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # CreateVisualBasicManifestResourceName Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Creates a [!INCLUDE[vbprvb](../includes/vbprvb-md.md)]-style manifest name from a given .resx file name or other resource.  
   
 ## Parameters  
@@ -48,6 +42,3 @@ Creates a [!INCLUDE[vbprvb](../includes/vbprvb-md.md)]-style manifest name from 
 ## See Also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

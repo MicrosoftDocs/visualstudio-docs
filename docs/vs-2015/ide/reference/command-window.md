@@ -1,14 +1,9 @@
 ---
 title: "Command Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.CommandWindow"
 helpviewer_keywords: 
@@ -21,12 +16,11 @@ ms.assetid: 48711628-1909-4713-a73e-d7b714c77f8a
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Command Window
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The **Command** window is used to execute commands or aliases directly in the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE). You can execute both menu commands and commands that do not appear on any menu. To display the **Command** window, choose **Other Windows** from the **View** menu, and select **Command Window**.  
   
 ## Displaying the Values of Variables  
@@ -62,7 +56,7 @@ The **Command** window is used to execute commands or aliases directly in the [!
 |Scroll down the window.|Command window contents|DOWN ARROW or CTRL+DOWN ARROW|  
   
 > [!TIP]
->  You can copy all or part of a previous command to the input line by scrolling to it, highlighting all or part of it, and then pressing ENTER.  
+> You can copy all or part of a previous command to the input line by scrolling to it, highlighting all or part of it, and then pressing ENTER.  
   
 ## Mark Mode  
  When you click on any previous line in the **Command** window, you shift automatically into Mark mode. This allows you to select, edit, and copy the text of previous commands as you would in any text editor, and paste them into the current line.  
@@ -104,7 +98,7 @@ Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar
 - `var[1-3]+` and `oldpar` are parameters  
   
   > [!NOTE]
-  >  Any command, parameter, switch, or value that contains spaces must have double quotation marks on either side.  
+  > Any command, parameter, switch, or value that contains spaces must have double quotation marks on either side.  
   
   The position of switches and parameters can be interchanged freely on the command line with the exception of the [Shell](../../ide/reference/shell-command.md) command, which requires its switches and parameters in a specific order.  
   
@@ -127,6 +121,3 @@ Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar
 ## See Also  
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)   
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
-
-
-

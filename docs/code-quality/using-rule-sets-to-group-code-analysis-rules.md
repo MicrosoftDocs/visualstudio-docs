@@ -1,8 +1,6 @@
 ---
 title: Code analysis rule sets
 ms.date: 04/02/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 f1_keywords:
   - "vs.codeanalysis.rulesets.learnmore"
@@ -10,15 +8,15 @@ helpviewer_keywords:
   - "code analysis, rule sets"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Use rule sets to group code analysis rules
 
-When you configure code analysis in Visual Studio, you can choose from a list of built-in *rule sets*. A rule set applies to a project, and is a grouping of code analysis rules that identify targeted issues and specific conditions for that project. For example, you can apply a rule set that is designed to scan code for publicly available APIs, or just the minimum recommended rules. You can also apply a rule set that includes all the rules.
+When you configure code analysis in Visual Studio, you can choose from a list of built-in *rule sets*. A rule set is a grouping of code analysis rules that identify targeted issues and specific conditions for that project. For example, you can apply a rule set that's designed to scan code for publicly available APIs. You can also apply a rule set that includes all the available rules.
 
-You can customize a rule set by adding or deleting rules, or by changing rule severities to appear as either warnings or errors in the **Error List**. Customized rule sets can fulfill a need for your particular development environment. When you customize a rule set, the rule set editor provides search and filtering tools to help you in the process.
+You can customize a rule set by adding or deleting rules or by changing rule severities to appear as either warnings or errors in the **Error List**. Customized rule sets can fulfill a need for your particular development environment. When you customize a rule set, the rule set editor provides search and filtering tools to help you in the process.
 
 Rule sets are available for [static analysis of managed code](how-to-configure-code-analysis-for-a-managed-code-project.md), [analysis of C++ code](using-rule-sets-to-specify-the-cpp-rules-to-run.md), and [Roslyn analyzers](analyzer-rule-sets.md).
 

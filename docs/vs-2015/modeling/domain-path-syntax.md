@@ -1,19 +1,16 @@
 ---
 title: "Domain Path Syntax | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language, domain path"
 ms.assetid: 945994f9-72b9-42e0-81b2-e5fb3d0e282d
 caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Domain Path Syntax
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,6 +35,3 @@ DSL Definitions use an XPath-like syntax to locate specific elements in a model.
   
 ## See Also  
  [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)
-
-
-

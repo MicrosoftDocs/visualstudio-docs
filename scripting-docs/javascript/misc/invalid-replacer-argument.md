@@ -1,14 +1,9 @@
 ---
 title: "Invalid replacer argument | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5035"
 dev_langs: 
@@ -26,7 +21,7 @@ An attempt has been made to invoke `JSON.stringify` with an argument that is not
   
 ### To correct this error  
   
--   Change the `replacer` argument to a function or an array.  
+- Change the `replacer` argument to a function or an array.  
   
 ## Example  
  The code in this example causes a runtime error because `memberfilter` is an object instead of a function or array.  

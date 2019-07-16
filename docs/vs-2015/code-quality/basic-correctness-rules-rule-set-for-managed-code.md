@@ -1,14 +1,9 @@
 ---
 title: "Basic Correctness Rules rule set for managed code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 ms.assetid: 631f0daf-1d42-4c90-a7dc-1a6a9de64c93
 caps.latest.revision: 14
 author: gewarren
@@ -115,6 +110,3 @@ The Basic Correctness Rules rule set focuses on logic errors and common mistakes
 |[CA2226](../code-quality/ca2226-operators-should-have-symmetrical-overloads.md)|Operators should have symmetrical overloads|  
 |[CA2227](../code-quality/ca2227-collection-properties-should-be-read-only.md)|Collection properties should be read only|  
 |[CA2239](../code-quality/ca2239-provide-deserialization-methods-for-optional-fields.md)|Provide deserialization methods for optional fields|
-
-
-

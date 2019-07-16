@@ -1,8 +1,7 @@
 ---
-title: "View register values in the Visual Studio debugger | Microsoft Docs"
-ms.custom: ""
+title: "View register values in the debugger | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/19/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.registers"
@@ -22,7 +21,7 @@ helpviewer_keywords:
 ms.assetid: 2918ffa2-562f-40d6-9053-ef321bbeb767
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -36,6 +35,8 @@ The **Registers** window displays register contents during Visual Studio debuggi
 During debugging, register values change as code executes in your app. Values that have changed recently appear in red in the **Registers** window.
 
 To reduce clutter, the **Registers** window organizes registers into groups, which vary according to platform and processor type. You can display or hide register groups. For more information, see [How to: Display and hide register groups](../debugger/how-to-display-and-hide-register-groups.md).
+
+For info on the flags you see in the **Registers** window, see [About the Registers window](../debugger/debugging-basics-registers-window.md)
 
 You can edit register values. For more information, see [How to: Edit a register value](../debugger/how-to-edit-a-register-value.md).
 

@@ -1,14 +1,9 @@
 ---
 title: "DA0005: Frequent GC2 collections | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.performance.DA0005"
   - "vs.performance.rules.DAManyGC2Collections"
@@ -18,7 +13,7 @@ ms.assetid: 8d3f267c-8a74-4cf4-91a5-0b06a76dc2bd
 caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # DA0005: Frequent GC2 collections
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,6 +38,3 @@ RuleId|DA0005|
  Review the [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md) reports to understand the application’s pattern of memory allocation. Use the [Object Lifetime View](../profiling/object-lifetime-view.md) to determine which of the program’s data objects are surviving into generation 2 and then being reclaimed from there. Use the [Allocations View](../profiling/dotnet-memory-allocations-view.md) to determine the execution path that resulted in these allocations.  
   
  For information about how to improve garbage collection performance, see [Garbage Collector Basics and Performance Hints](http://go.microsoft.com/fwlink/?LinkId=148226) on the Microsoft Web site. For information about the overhead of automatic garbage collection, see [Large Object Heap Uncovered](http://go.microsoft.com/fwlink/?LinkId=177836).
-
-
-

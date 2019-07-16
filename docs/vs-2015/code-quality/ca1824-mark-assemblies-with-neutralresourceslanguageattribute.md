@@ -1,14 +1,9 @@
 ---
 title: "CA1824: Mark assemblies with NeutralResourcesLanguageAttribute | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1824"
   - "MarkAssembliesWithNeutralResourcesLanguage"
@@ -44,16 +39,13 @@ manager: "wpickett"
 
 #### To specify the language of the resource of the neutral culture
 
-1.  In **Solution Explorer**, right-click your project, and then Click **Properties**.
+1. In **Solution Explorer**, right-click your project, and then Click **Properties**.
 
-2.  From the left navigation bar select **Application**, and then click **Assembly Information**.
+2. From the left navigation bar select **Application**, and then click **Assembly Information**.
 
-3.  In the **Assembly Information** dialog box, select the language from the **Neutral Language** drop-down list.
+3. In the **Assembly Information** dialog box, select the language from the **Neutral Language** drop-down list.
 
-4.  Click **OK**.
+4. Click **OK**.
 
 ## When to Suppress Warnings
  It is permissible to suppress a warning from this rule. However, startup performance might decrease.
-
-
-

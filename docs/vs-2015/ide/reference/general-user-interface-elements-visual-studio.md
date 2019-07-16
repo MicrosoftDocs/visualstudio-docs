@@ -1,19 +1,14 @@
 ---
-title: "General User Interface Elements (Visual Studio) | Microsoft Docs"
-ms.custom: ""
+title: "General User Interface Elements | Microsoft Docs"
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 ms.assetid: bc67652d-1001-4979-ba71-d57147d21928
 caps.latest.revision: 40
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # General User Interface Elements (Visual Studio)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -92,8 +87,8 @@ This section describes some user interface elements of the integrated developmen
  [Toolbox, HTML Tab](../../ide/reference/toolbox-html-tab.md)
  Allows you to add html tags to a design surface.
 
- [General, CSS, Text Editor, Options Dialog Box](http://msdn.microsoft.com/library/b33a7617-e69d-4a11-938e-2e218a34a10c)
+ [General, CSS, Text Editor, Options Dialog Box](https://msdn.microsoft.com/library/b33a7617-e69d-4a11-938e-2e218a34a10c)
  Allows you to specify options for CSS files.
 
- [Validation, HTML, Text Editor, Options Dialog Box](http://msdn.microsoft.com/library/9c24ecfe-263e-4bf1-88de-d01be3992863)
+ [Validation, HTML, Text Editor, Options Dialog Box](https://msdn.microsoft.com/library/9c24ecfe-263e-4bf1-88de-d01be3992863)
  Allows you to specify options for HTML pages.

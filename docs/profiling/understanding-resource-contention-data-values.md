@@ -1,16 +1,14 @@
 ---
 title: "Understanding Resource Contention Data Values | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "concurrency profiling method"
   - "Profiling Tools, concurrency method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Understand resource contention data values

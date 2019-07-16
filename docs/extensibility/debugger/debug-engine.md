@@ -1,40 +1,37 @@
 ---
 title: "Debug Engine | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debug engines"
 ms.assetid: 148b1efc-ca07-4d8e-bdfc-c723a760c620
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # Debug engine
-A debug engine (DE) works with the interpreter or operating system to provide debugging services such as execution control, breakpoints, and expression evaluation. The DE is responsible for monitoring the state of a program being debugged. To do accomplish this, the DE uses whatever methods are available to it in the supported runtime, whether from the CPU or from APIs supplied by the runtime.  
-  
- For example, the common language runtime (CLR) supplies mechanisms to monitor a running program through the ICorDebugXXX interfaces. A DE that supports the CLR uses the appropriate ICorDebugXXX interfaces to keep track of a managed code program being debugged. It then communicates any changes of state to the session debug manager (SDM), which forwards such information to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE.  
-  
+A debug engine (DE) works with the interpreter or operating system to provide debugging services such as execution control, breakpoints, and expression evaluation. The DE is responsible for monitoring the state of a program being debugged. To do accomplish this, the DE uses whatever methods are available to it in the supported runtime, whether from the CPU or from APIs supplied by the runtime.
+
+ For example, the common language runtime (CLR) supplies mechanisms to monitor a running program through the ICorDebugXXX interfaces. A DE that supports the CLR uses the appropriate ICorDebugXXX interfaces to keep track of a managed code program being debugged. It then communicates any changes of state to the session debug manager (SDM), which forwards such information to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE.
+
 > [!NOTE]
->  A debug engine targets a specific runtime, that is, the system in which the program being debugged runs. The CLR is the runtime for managed code, and the Win32 runtime is for native Windows applications. If the language you create can target one of these two runtimes, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] already supplies the necessary debug engines. All you have to implement is an expression evaluator.  
-  
-## Debug engine operation  
- The monitoring services are implemented through the DE interfaces and can cause the debug package to transition between different operational modes. For more information, see [Operational modes](../../extensibility/debugger/operational-modes.md). There is typically only one DE implementation per run-time environment.  
-  
+> A debug engine targets a specific runtime, that is, the system in which the program being debugged runs. The CLR is the runtime for managed code, and the Win32 runtime is for native Windows applications. If the language you create can target one of these two runtimes, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] already supplies the necessary debug engines. All you have to implement is an expression evaluator.
+
+## Debug engine operation
+ The monitoring services are implemented through the DE interfaces and can cause the debug package to transition between different operational modes. For more information, see [Operational modes](../../extensibility/debugger/operational-modes.md). There is typically only one DE implementation per run-time environment.
+
 > [!NOTE]
->  While there are separate DE implementations for Transact-SQL and [!INCLUDE[jsprjscript](../../debugger/debug-interface-access/includes/jsprjscript_md.md)], VBScript and [!INCLUDE[jsprjscript](../../debugger/debug-interface-access/includes/jsprjscript_md.md)] share a single DE.  
-  
- [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging enables debug engines to run one of two ways: either in the same process as the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] shell, or in the same process as the target program being debugged. The latter form usually occurs when the process being debugged is actually a script running under an interpreter. The debug engine must have intimate knowledge of the interpreter in order to monitor the script. In this case, the interpreter is actually a runtime; debug engines are for specific runtime implementations. In addition, implementation of a single DE can be split across process and machine boundaries (for example, remote debugging).  
-  
- The DE exposes the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging interfaces. All communication is through COM. Whether the DE is loaded in-process, out-of-process, or on another computer, it does not affect component communication.  
-  
- The DE works with an expression evaluator component to enable the DE for that particular runtime to understand the syntax of expressions. The DE also works with a symbol handler component to access the symbolic debug information generated by the language compiler. For more information, see [Expression evaluator](../../extensibility/debugger/expression-evaluator.md) and [Symbol provider](../../extensibility/debugger/symbol-provider.md).  
-  
-## See also  
- [Debugger components](../../extensibility/debugger/debugger-components.md)   
- [Expression evaluator](../../extensibility/debugger/expression-evaluator.md)   
- [Symbol provider](../../extensibility/debugger/symbol-provider.md)
+> While there are separate DE implementations for Transact-SQL and [!INCLUDE[jsprjscript](../../debugger/debug-interface-access/includes/jsprjscript_md.md)], VBScript and [!INCLUDE[jsprjscript](../../debugger/debug-interface-access/includes/jsprjscript_md.md)] share a single DE.
+
+ [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging enables debug engines to run one of two ways: either in the same process as the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] shell, or in the same process as the target program being debugged. The latter form usually occurs when the process being debugged is actually a script running under an interpreter. The debug engine must have intimate knowledge of the interpreter in order to monitor the script. In this case, the interpreter is actually a runtime; debug engines are for specific runtime implementations. In addition, implementation of a single DE can be split across process and machine boundaries (for example, remote debugging).
+
+ The DE exposes the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging interfaces. All communication is through COM. Whether the DE is loaded in-process, out-of-process, or on another computer, it does not affect component communication.
+
+ The DE works with an expression evaluator component to enable the DE for that particular runtime to understand the syntax of expressions. The DE also works with a symbol handler component to access the symbolic debug information generated by the language compiler. For more information, see [Expression evaluator](../../extensibility/debugger/expression-evaluator.md) and [Symbol provider](../../extensibility/debugger/symbol-provider.md).
+
+## See also
+- [Debugger components](../../extensibility/debugger/debugger-components.md)
+- [Expression evaluator](../../extensibility/debugger/expression-evaluator.md)
+- [Symbol provider](../../extensibility/debugger/symbol-provider.md)

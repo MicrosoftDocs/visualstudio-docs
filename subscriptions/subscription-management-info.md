@@ -4,11 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 03/13/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description:  Find More Information About Subscription Management
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
-searchscope: VS Subscription
 ---
 
 # Learn about subscription management

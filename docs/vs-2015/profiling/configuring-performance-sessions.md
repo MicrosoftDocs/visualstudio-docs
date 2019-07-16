@@ -1,14 +1,9 @@
 ---
 title: "Configuring Performance Sessions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "common tasks, performance"
   - "common tasks, profiling tools"
@@ -18,7 +13,7 @@ ms.assetid: e1c3ba41-ffca-4edf-9a7f-8a5a9244ef9b
 caps.latest.revision: 41
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Configuring Performance Sessions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +21,7 @@ manager: "ghogen"
 By using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools, you can collect a wide variety of performance data for a large number of application types. This section shows you how to use the Performance Wizardand properties of the performance session and target binary to configure Profiling Tools to collect the data that interests you. Profiling Tools configuration properties can also be used to control how much data is collected in a profiling run. For more information, see [Controlling Data Collection](../profiling/controlling-data-collection.md).  
   
 > [!NOTE]
->  In many cases, using the default properties of the Performance Wizard is an effective way of collecting profiling data. For more information, see [Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md) and [Getting Started](../profiling/getting-started-with-performance-tools.md).  
+> In many cases, using the default properties of the Performance Wizard is an effective way of collecting profiling data. For more information, see [Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md) and [Getting Started](../profiling/getting-started-with-performance-tools.md).  
   
 ## Common Tasks  
   
@@ -41,6 +36,3 @@ By using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools, you can c
   
 ## See Also  
  [Performance Explorer](../profiling/performance-explorer.md)
-
-
-

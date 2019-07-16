@@ -1,14 +1,9 @@
 ---
 title: "Additional MSBuild Resources | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 f1_keywords: 
   - "MSBuild.UnregisterAssembly.UnregisterTlbFileNotRegistered"
   - "MSBuild.DollarSignInTaskOutputPropertyName"
@@ -603,12 +598,11 @@ ms.assetid: 29dd85ee-1530-43c1-b085-bb2330ac5a48
 caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Additional MSBuild Resources
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If you are trying to solve a problem and cannot find the information you need in the documentation, you can consult other resources such as Knowledge Base articles, the developer community, or product support.  
   
 ## Knowledge Base Articles  
@@ -624,6 +618,3 @@ If you are trying to solve a problem and cannot find the information you need in
   
 ## See Also  
  [Troubleshooting .NET Framework Targeting Errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md)
-
-
-

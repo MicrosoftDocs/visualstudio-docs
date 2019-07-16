@@ -1,13 +1,11 @@
 ---
 title: Value (XElement Dynamic Property)
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: reference
 ms.assetid: b30e770d-9646-4632-9738-cc9f51bb2343
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -32,5 +30,5 @@ This property is equivalent to the <xref:System.Xml.Linq.XElement.Value%2A> prop
 ## See also
 
 - <xref:System.Xml.Linq.XElement.Value%2A?displayProperty=fullName>
-- [XElement class dynamic properties](../designers/xelement-class-dynamic-properties.md)
+- [XElement class dynamic properties](../designers/attribute-xelement-dynamic-property.md)
 - [Xml](../designers/xml-xelement-dynamic-property.md)

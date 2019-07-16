@@ -1,14 +1,9 @@
 ---
 title: "CPPClean Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "vc.task.cppclean"
 dev_langs: 
@@ -24,17 +19,15 @@ ms.assetid: b62a482e-8fb5-4999-b50b-6605a078e291
 caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # CPPClean Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
 
 Deletes the temporary files that MSBuild creates when a Visual C++ project is built. The process of deleting build files is known as *cleaning*.  
 
 ## Parameters  
  The following table describes the parameters of the **CPPClean** task.  
-
 
 |            Parameter            |                                                                                                Description                                                                                                 |
 |---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -48,6 +41,3 @@ Deletes the temporary files that MSBuild creates when a Visual C++ project is bu
 
 ## See Also  
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

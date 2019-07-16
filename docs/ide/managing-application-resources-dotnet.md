@@ -1,8 +1,6 @@
 ---
 title: Manage application resources (.NET)
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "msvse_resedit.dlg.SetCustomTool"
@@ -16,7 +14,7 @@ helpviewer_keywords:
   - "application resources [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -34,7 +32,7 @@ For more information about resources in .NET desktop apps, see [Resources in des
 In a managed code project, open the project properties window. You can open the properties window by either:
 
 - Right-clicking the project node in **Solution Explorer** and selecting **Properties**
-- Typing "project properties" in the **Quick Launch** window
+- Typing **project properties** in the **Ctrl**+**Q** search box
 - Choosing **Alt**+**Enter** in **Solution Explorer**
 
 Select the **Resources** tab. You can add a *.resx* file if your project does not contain one already, add and delete different kinds of resources, and modify existing resources.

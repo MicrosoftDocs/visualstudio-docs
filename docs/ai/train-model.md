@@ -7,9 +7,6 @@ ms.author: liwong
 manager: routlaw
 ms.date: 11/13/2017
 ms.topic: "conceptual"
-ms.devlang: multiple
-ms.service: multiple
-ms.technology: vs-ai-tools
 ms.workload:
   - "azure"
 ---
@@ -29,7 +26,7 @@ It's integrated with Visual Studio Tools for AI so you can dynamically scale out
 
 3. Select **View > Team Explorer...** to open the **Team Explorer** window in which you can connect to GitHub or Azure DevOps, or clone a repository.
 
-    ![Team explorer window showing Azure DevOps, GitHub, and cloning a repository](media/train-model/team-explorer.png)
+    ![Team explorer window showing Azure DevOps, GitHub, and cloning a repository](media/train-model/team-explorer-devops.png)
 
 4. In the URL field under **Local Git Repositories**, enter `https://github.com/Microsoft/samples-for-ai`, enter a folder for the cloned files, and select **Clone**.
 
@@ -44,11 +41,11 @@ It's integrated with Visual Studio Tools for AI so you can dynamically scale out
 
     ![Sample gallery](media/train-model/tensorflowexamples.png)
 
-7. Set MNIST project as the **Startup Project **
+7. Set MNIST project as the **Startup Project**
 
     ![Sample gallery](media/train-model/mnist-startup.png)
 
-8. <strong>Right-click **MNIST project, **Submit Job</strong>
+8. <strong>Right-click **MNIST project,** **Submit Job**</strong>
 
     ![Sample gallery](media/train-model/submit-job.png)
 9. Select your **Azure Batch AI** cluster, then click **Import**. Select the `AzureBatchAI_TF_MNIST.json` file to quickly populate some default values like which Docker Image to use. Then click **Submit**

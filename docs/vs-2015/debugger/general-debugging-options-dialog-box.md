@@ -1,14 +1,9 @@
 ---
 title: "General, Debugging, Options Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.options.General"
   - "VS.ToolsOptionsPages.Debugger.General"
@@ -26,7 +21,7 @@ ms.assetid: b33aee0b-43c3-4c26-8ed4-bc673f491503
 caps.latest.revision: 50
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # General, Debugging, Options Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,11 +37,11 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
  **Break when exceptions cross AppDomain or managed/native boundaries**  
  In managed or mixed-mode debugging, the common language runtime can catch exceptions that cross application domain boundaries or managed/native boundaries when the following conditions are true:  
   
- 1\) When native code calls managed code by using COM Interop and the managed code throws an exception. See [Introduction to COM Interop](http://msdn.microsoft.com/library/8bd62e68-383d-407f-998b-29aa0ce0fd67).  
+ 1\) When native code calls managed code by using COM Interop and the managed code throws an exception. See [Introduction to COM Interop](https://msdn.microsoft.com/library/8bd62e68-383d-407f-998b-29aa0ce0fd67).  
   
- 2\) When managed code running in application domain 1 calls managed code in application domain 2, and the code in application domain 2 throws an exception. See [Programming with Application Domains](http://msdn.microsoft.com/en-us/bd36055b-56bd-43eb-b4d8-820c37172131).  
+ 2\) When managed code running in application domain 1 calls managed code in application domain 2, and the code in application domain 2 throws an exception. See [Programming with Application Domains](https://msdn.microsoft.com/bd36055b-56bd-43eb-b4d8-820c37172131).  
   
- 3\) When code calls a function by using reflection, and the function throws an exception. See [Reflection](http://msdn.microsoft.com/library/d1a58e7f-fb39-4d50-bf84-e3b8f9bf9775).  
+ 3\) When code calls a function by using reflection, and the function throws an exception. See [Reflection](https://msdn.microsoft.com/library/d1a58e7f-fb39-4d50-bf84-e3b8f9bf9775).  
   
  In 2) and 3), the exception is sometimes caught by managed code in `mscorlib` instead of the common language runtime. This option does not affect breaking on exceptions caught by `mscorlib`.  
   
@@ -60,7 +55,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
  Enables you to set filters on breakpoints so that they will affect only specific processes, threads, or computers.  
   
  **Enable the exception assistant**  
- For managed code only. Managed exceptions open the  exception assistant dialog box.  See [Exception Assistant](http://msdn.microsoft.com/library/992892ac-9d52-44cc-bf09-b44bfc5befeb).  
+ For managed code only. Managed exceptions open the  exception assistant dialog box.  See [Exception Assistant](https://msdn.microsoft.com/library/992892ac-9d52-44cc-bf09-b44bfc5befeb).  
   
  **Unwind the call stack on unhandled exceptions**  
  Causes the **Call Stack** window to roll back the call stack to the point before the unhandled exception occurred.  
@@ -90,7 +85,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
  Tells the Visual Studio debugger to get source files from source servers that implement the SrcSrv (`srcsrv.dll`) protocol. Team Foundation Server and the Debugging Tools for Windows are two source servers that implement the protocol. For more information about SrcSrv setup, see the Debugging Tools for Windows documentation. In addition, see [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).  
   
 > [!IMPORTANT]
->  Because reading .pdb files can execute arbitrary code in the files, make sure that you trust the server.  
+> Because reading .pdb files can execute arbitrary code in the files, make sure that you trust the server.  
   
  **Print source server diagnostic messages to the Output window**  
  When source server support is enabled, this setting turns on diagnostic display.  
@@ -122,7 +117,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
  **Load dll exports**  
  Loads dll export tables. Symbol information from dll export tables can be useful if you are working with Windows messages, Windows procedures (WindowProcs), COM objects, or marshaling, or any dll for which you do not have symbols. Reading dll export information involves some overhead. Therefore, this capability is turned off by default.  
   
- To see what symbols are available in the export table of a dll, use `dumpbin /exports`. Symbols are available for any 32-bit system dll. By reading the `dumpbin /exports` output, you can see the exact function name, including non-alphanumeric characters. This is useful for setting a breakpoint on a function. Function names from dll export tables might appear truncated elsewhere in the debugger. The calls are listed in the calling order, with the current function (the most deeply nested) at the top. For more information, see [dumpbin /exports](http://msdn.microsoft.com/library/2971ab7e-4ee6-478b-9c85-cda42a4ce1bf).  
+ To see what symbols are available in the export table of a dll, use `dumpbin /exports`. Symbols are available for any 32-bit system dll. By reading the `dumpbin /exports` output, you can see the exact function name, including non-alphanumeric characters. This is useful for setting a breakpoint on a function. Function names from dll export tables might appear truncated elsewhere in the debugger. The calls are listed in the calling order, with the current function (the most deeply nested) at the top. For more information, see [dumpbin /exports](https://msdn.microsoft.com/library/2971ab7e-4ee6-478b-9c85-cda42a4ce1bf).  
   
  **Show parallel stacks diagram bottom-up**  
  Controls the direction in which stacks are displayed in the **Parallel Stacks** window.  
@@ -163,7 +158,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
   Shows the **Live Visual Tree** commands in a toolbar on the main window of the XAML application that is being debugged. This option was introduced in Visual Studio 2015 Update 2.  
   
   **Enable Diagnostic Tools while debugging**  
-  The **Diagnostic Tools** window appears while you are debugging. For more information, see [Debugger-integrated profiling](http://msdn.microsoft.com/library/a1f40370-7b61-42c2-afc4-0e13eba98859).  
+  The **Diagnostic Tools** window appears while you are debugging. For more information, see [Debugger-integrated profiling](/visualstudio/profiling/running-profiling-tools-with-or-without-the-debugger).  
   
   **Show elapsed time PerfTip while debugging**  
   The code window displays the elapsed time of a given method call when you are debugging.  
@@ -185,6 +180,3 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
-
-
-

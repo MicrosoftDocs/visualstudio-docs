@@ -1,12 +1,18 @@
 - name: Office and Sharepoint Development in Visual Studio
-  href: office-and-sharepoint-development-in-visual-studio.md
+# Auto-expanded node
   items:
+  - name: Office and Sharepoint Development in Visual Studio
+    href: office-and-sharepoint-development-in-visual-studio.md
   - name: Create VSTO Add-ins for Office
-    href: create-vsto-add-ins-for-office-by-using-visual-studio.md
+# Auto-expanded node
     items:
+    - name: Create VSTO Add-ins for Office
+      href: create-vsto-add-ins-for-office-by-using-visual-studio.md
     - name: Getting Started
-      href: getting-started-office-development-in-visual-studio.md
+# Auto-expanded node
       items:
+      - name: Getting Started
+        href: getting-started-office-development-in-visual-studio.md
       - name: Office Solutions Development Overview
         href: office-solutions-development-overview-vsto.md
       - name: Changes to the Design of Office Projects that Target the .NET Framework 4 or the .NET Framework 4.5
@@ -14,8 +20,10 @@
       - name: Features Available by Office Application and Project Type
         href: features-available-by-office-application-and-project-type.md
       - name: Configuring a Computer to Develop Office Solutions
-        href: configuring-a-computer-to-develop-office-solutions.md
+# Auto-expanded node
         items:
+        - name: Configuring a Computer to Develop Office Solutions
+          href: configuring-a-computer-to-develop-office-solutions.md
         - name: Configure a Computer to Develop Office Solutions
           href: how-to-configure-a-computer-to-develop-office-solutions.md
         - name: Install the Visual Studio Tools for Office Runtime Redistributable
@@ -35,29 +43,37 @@
       - name: Additional Resources for Developing Office Solutions
         href: additional-resources-for-developing-office-solutions.md
     - name: Upgrading and Migrating Office Solutions
-      href: upgrading-and-migrating-office-solutions.md
+# Auto-expanded node
       items:
+      - name: Upgrading and Migrating Office Solutions
+        href: upgrading-and-migrating-office-solutions.md
       - name: Migrating Office Solutions to the .NET Framework 4 or later
-        href: migrating-office-solutions-to-the-dotnet-framework-4-or-later.md
+# Auto-expanded node
         items:
+        - name: Migrating Office Solutions to the .NET Framework 4 or later
+          href: migrating-office-solutions-to-the-dotnet-framework-4-or-later.md
         - name: Required Changes to Run Office Projects
           href: required-changes-to-run-office-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md
         - name: Updating Excel and Word Projects
           href: updating-excel-and-word-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md
         - name: Updating Ribbon Customizations in Office Projects
-          href: updating-ribbon-customizations-in-office-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md
+          href: /visualstudio/vsto/update-ribbon-customizations-in-office-projects-to-migrate-to-dotnet-framework-4-or-4-5
         - name: Updating Form Regions in Outlook Projects
           href: updating-form-regions-in-outlook-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md
     - name: Architecture of Office Solutions in Visual Studio
-      href: architecture-of-office-solutions-in-visual-studio.md
+# Auto-expanded node
       items:
+      - name: Architecture of Office Solutions in Visual Studio
+        href: architecture-of-office-solutions-in-visual-studio.md
       - name: Architecture of Document-Level Customizations
         href: architecture-of-document-level-customizations.md
       - name: Architecture of VSTO Add-ins
         href: architecture-of-vsto-add-ins.md
       - name: Visual Studio Tools for Office Runtime Overview
-        href: visual-studio-tools-for-office-runtime-overview.md
+# Auto-expanded node
         items:
+        - name: Visual Studio Tools for Office Runtime Overview
+          href: visual-studio-tools-for-office-runtime-overview.md
         - name: Visual Studio Tools for Office Runtime Installation Scenarios
           href: visual-studio-tools-for-office-runtime-installation-scenarios.md
         - name: Assemblies in the Visual Studio Tools for Office Runtime
@@ -67,8 +83,10 @@
       - name: Custom Document Properties Overview
         href: custom-document-properties-overview.md
     - name: Designing and Creating Office Solutions
-      href: designing-and-creating-office-solutions.md
+# Auto-expanded node
       items:
+      - name: Designing and Creating Office Solutions
+        href: designing-and-creating-office-solutions.md
       - name: Office Project Templates Overview
         href: office-project-templates-overview.md
       - name: Create Office Projects in Visual Studio
@@ -86,8 +104,10 @@
       - name: Set Up Configuration Information for an Office Solution
         href: how-to-set-up-configuration-information-for-an-office-solution.md
       - name: Using Office Functionality Inside of Visual Studio
-        href: using-office-functionality-inside-of-visual-studio.md
+# Auto-expanded node
         items:
+        - name: Using Office Functionality Inside of Visual Studio
+          href: using-office-functionality-inside-of-visual-studio.md
         - name: Document Protection in Document-Level Solutions
           href: document-protection-in-document-level-solutions.md
         - name: Information Rights Management and Managed Code Extensions Overview
@@ -99,11 +119,15 @@
         - name: Open Office Solutions without Running Code
           href: how-to-open-office-solutions-without-running-code.md
     - name: Developing Office Solutions
-      href: developing-office-solutions.md
+# Auto-expanded node
       items:
+      - name: Developing Office Solutions
+        href: developing-office-solutions.md
       - name: Writing Code in Office Solutions
-        href: writing-code-in-office-solutions.md
+# Auto-expanded node
         items:
+        - name: Writing Code in Office Solutions
+          href: writing-code-in-office-solutions.md
         - name: Optional Parameters in Office Solutions
           href: optional-parameters-in-office-solutions.md
         - name: Late Binding in Office Solutions
@@ -117,8 +141,10 @@
         - name: Collaborative Development of Office Solutions
           href: collaborative-development-of-office-solutions.md
       - name: Programming VSTO Add-Ins
-        href: programming-vsto-add-ins.md
+# Auto-expanded node
         items:
+        - name: Programming VSTO Add-Ins
+          href: programming-vsto-add-ins.md
         - name: Improving the Performance of a VSTO Add-in
           href: improving-the-performance-of-a-vsto-add-in.md
         - name: Extending Word Documents and Excel Workbooks in VSTO Add-ins at Run Time
@@ -130,11 +156,15 @@
         - name: Customizing UI Features By Using Extensibility Interfaces
           href: customizing-ui-features-by-using-extensibility-interfaces.md
       - name: Programming Document-Level Customizations
-        href: programming-document-level-customizations.md
+# Auto-expanded node
         items:
+        - name: Programming Document-Level Customizations
+          href: programming-document-level-customizations.md
         - name: Combining VBA and Document-Level Customizations
-          href: combining-vba-and-document-level-customizations.md
+# Auto-expanded node
           items:
+          - name: Combining VBA and Document-Level Customizations
+            href: combining-vba-and-document-level-customizations.md
           - name: Expose Code to VBA in a Visual Basic Project
             href: how-to-expose-code-to-vba-in-a-visual-basic-project.md
           - name: Expose Code to VBA in a Visual C# Project
@@ -144,25 +174,33 @@
           - name: "Walkthrough: Calling Code from VBA in a Visual C# Project"
             href: walkthrough-calling-code-from-vba-in-a-visual-csharp-project.md
         - name: Managing Documents on a Server by Using the ServerDocument Class
-          href: managing-documents-on-a-server-by-using-the-serverdocument-class.md
+# Auto-expanded node
           items:
+          - name: Managing Documents on a Server by Using the ServerDocument Class
+            href: managing-documents-on-a-server-by-using-the-serverdocument-class.md
           - name: Remove Managed Code Extensions from Documents
             href: how-to-remove-managed-code-extensions-from-documents.md
           - name: Attach Managed Code Extensions to Documents
             href: how-to-attach-managed-code-extensions-to-documents.md
       - name: Office UI Customization
-        href: office-ui-customization.md
+# Auto-expanded node
         items:
+        - name: Office UI Customization
+          href: office-ui-customization.md
         - name: Controls on Office Documents
-          href: controls-on-office-documents.md
+# Auto-expanded node
           items:
+          - name: Controls on Office Documents
+            href: controls-on-office-documents.md
           - name: Host Items and Host Controls Overview
             href: host-items-and-host-controls-overview.md
           - name: Programmatic Limitations of Host Items and Host Controls
             href: programmatic-limitations-of-host-items-and-host-controls.md
           - name: Windows Forms Controls on Office Documents Overview
-            href: windows-forms-controls-on-office-documents-overview.md
+# Auto-expanded node
             items:
+            - name: Windows Forms Controls on Office Documents Overview
+              href: windows-forms-controls-on-office-documents-overview.md
             - name: Limitations of Windows Forms Controls on Office Documents
               href: limitations-of-windows-forms-controls-on-office-documents.md
             - name: Add Windows Forms Controls to Office Documents
@@ -184,13 +222,17 @@
             - name: Hide Controls on Worksheets when Printing
               href: how-to-hide-controls-on-worksheets-when-printing.md
           - name: Adding Controls to Office Documents at Run Time
-            href: adding-controls-to-office-documents-at-run-time.md
+# Auto-expanded node
             items:
+            - name: Adding Controls to Office Documents at Run Time
+              href: adding-controls-to-office-documents-at-run-time.md
             - name: Persisting Dynamic Controls in Office Documents
               href: persisting-dynamic-controls-in-office-documents.md
         - name: Ribbon Overview
-          href: ribbon-overview.md
+# Auto-expanded node
           items:
+          - name: Ribbon Overview
+            href: ribbon-overview.md
           - name: Get Started Customizing the Ribbon
             href: how-to-get-started-customizing-the-ribbon.md
           - name: Ribbon Designer
@@ -222,8 +264,10 @@
           - name: "Walkthrough: Creating a Custom Tab by Using Ribbon XML"
             href: walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md
         - name: Actions Pane Overview
-          href: actions-pane-overview.md
+# Auto-expanded node
           items:
+          - name: Actions Pane Overview
+            href: actions-pane-overview.md
           - name: Add an Actions Pane to Word Documents or Excel Workbooks
             href: how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md
           - name: Manage Control Layout on Actions Panes
@@ -235,8 +279,10 @@
           - name: "Walkthrough: Inserting Text into a Document from an Actions Pane"
             href: walkthrough-inserting-text-into-a-document-from-an-actions-pane.md
         - name: Custom Task Panes
-          href: custom-task-panes.md
+# Auto-expanded node
           items:
+          - name: Custom Task Panes
+            href: custom-task-panes.md
           - name: Add a Custom Task Pane to an Application
             href: how-to-add-a-custom-task-pane-to-an-application.md
           - name: "Walkthrough: Automating an Application from a Custom Task Pane"
@@ -256,11 +302,15 @@
         - name: "Walkthrough: Collecting Data Using a Windows Form"
           href: walkthrough-collecting-data-using-a-windows-form.md
       - name: Data in Office Solutions
-        href: data-in-office-solutions.md
+# Auto-expanded node
         items:
+        - name: Data in Office Solutions
+          href: data-in-office-solutions.md
         - name: Binding Data to Controls in Office Solutions
-          href: binding-data-to-controls-in-office-solutions.md
+# Auto-expanded node
           items:
+          - name: Binding Data to Controls in Office Solutions
+            href: binding-data-to-controls-in-office-solutions.md
           - name: Populate Worksheets with Data from a Database
             href: how-to-populate-worksheets-with-data-from-a-database.md
           - name: Populate Documents with Data from a Database
@@ -284,18 +334,24 @@
           - name: "Walkthrough: Complex Data Binding in VSTO add-in Project"
             href: walkthrough-complex-data-binding-in-vsto-add-in-project.md
         - name: Custom XML Parts Overview
-          href: custom-xml-parts-overview.md
+# Auto-expanded node
           items:
+          - name: Custom XML Parts Overview
+            href: custom-xml-parts-overview.md
           - name: Add Custom XML Parts to Document-Level Customizations
             href: how-to-add-custom-xml-parts-to-document-level-customizations.md
           - name: Add Custom XML Parts to Documents by Using VSTO Add-Ins
             href: how-to-add-custom-xml-parts-to-documents-by-using-vsto-add-ins.md
         - name: Cached Data in Document-Level Customizations
-          href: cached-data-in-document-level-customizations.md
+# Auto-expanded node
           items:
+          - name: Cached Data in Document-Level Customizations
+            href: cached-data-in-document-level-customizations.md
           - name: Caching Data
-            href: caching-data.md
+# Auto-expanded node
             items:
+            - name: Caching Data
+              href: caching-data.md
             - name: Cache Data for Use Offline or on a Server
               href: how-to-cache-data-for-use-offline-or-on-a-server.md
             - name: Programmatically Cache a Data Source in an Office Document
@@ -305,8 +361,10 @@
             - name: "Walkthrough: Creating a Master Detail Relation Using a Cached Dataset"
               href: walkthrough-creating-a-master-detail-relation-using-a-cached-dataset.md
           - name: Accessing Data in Documents on the Server
-            href: accessing-data-in-documents-on-the-server.md
+# Auto-expanded node
             items:
+            - name: Accessing Data in Documents on the Server
+              href: accessing-data-in-documents-on-the-server.md
             - name: "Walkthrough: Inserting Data into a Workbook on a Server"
               href: walkthrough-inserting-data-into-a-workbook-on-a-server.md
             - name: "Walkthrough: Retrieving Cached Data from a Workbook on a Server"
@@ -314,8 +372,10 @@
             - name: "Walkthrough: Changing Cached Data in a Workbook on a Server"
               href: walkthrough-changing-cached-data-in-a-workbook-on-a-server.md
         - name: XML Schemas and Data in Document-Level Customizations
-          href: xml-schemas-and-data-in-document-level-customizations.md
+# Auto-expanded node
           items:
+          - name: XML Schemas and Data in Document-Level Customizations
+            href: xml-schemas-and-data-in-document-level-customizations.md
           - name: Map Schemas to Word Documents Inside Visual Studio
             href: how-to-map-schemas-to-word-documents-inside-visual-studio.md
           - name: Map Schemas to Worksheets Inside Visual Studio
@@ -325,8 +385,10 @@
       - name: How AutoSave Impacts Office Solutions
         href: how-autosave-impacts-office-solutions.md
       - name: Troubleshooting Office Solutions
-        href: troubleshooting-office-solutions.md
+# Auto-expanded node
         items:
+        - name: Troubleshooting Office Solutions
+          href: troubleshooting-office-solutions.md
         - name: Troubleshooting Errors in Office Solutions
           href: troubleshooting-errors-in-office-solutions.md
         - name: Re-enable a VSTO Add-in That Has Been Disabled
@@ -346,14 +408,20 @@
       - name: Accessibility in Office Projects
         href: accessibility-in-office-projects.md
     - name: Excel Solutions
-      href: excel-solutions.md
+# Auto-expanded node
       items:
+      - name: Excel Solutions
+        href: excel-solutions.md
       - name: Excel Object Model Overview
-        href: excel-object-model-overview.md
+# Auto-expanded node
         items:
+        - name: Excel Object Model Overview
+          href: excel-object-model-overview.md
         - name: Working with Workbooks
-          href: working-with-workbooks.md
+# Auto-expanded node
           items:
+          - name: Working with Workbooks
+            href: working-with-workbooks.md
           - name: Programmatically Create New Workbooks
             href: how-to-programmatically-create-new-workbooks.md
           - name: Programmatically Open Workbooks
@@ -369,8 +437,10 @@
           - name: Programmatically Open Text Files as Workbooks
             href: how-to-programmatically-open-text-files-as-workbooks.md
         - name: Working with Worksheets
-          href: working-with-worksheets.md
+# Auto-expanded node
           items:
+          - name: Working with Worksheets
+            href: working-with-worksheets.md
           - name: Programmatically Add New Worksheets to Workbooks
             href: how-to-programmatically-add-new-worksheets-to-workbooks.md
           - name: Programmatically Copy Worksheets
@@ -406,8 +476,10 @@
           - name: Programmatically Sort Data in Worksheets
             href: how-to-programmatically-sort-data-in-worksheets.md
         - name: Working with Ranges
-          href: working-with-ranges.md
+# Auto-expanded node
           items:
+          - name: Working with Ranges
+            href: working-with-ranges.md
           - name: Programmatically Refer to Worksheet Ranges in Code
             href: how-to-programmatically-refer-to-worksheet-ranges-in-code.md
           - name: Programmatically Automatically Fill Ranges with Incrementally Changing Data
@@ -425,8 +497,10 @@
           - name: Programmatically Display a String in a Worksheet Cell
             href: how-to-programmatically-display-a-string-in-a-worksheet-cell.md
       - name: Automating Excel by Using Extended Objects
-        href: automating-excel-by-using-extended-objects.md
+# Auto-expanded node
         items:
+        - name: Automating Excel by Using Extended Objects
+          href: automating-excel-by-using-extended-objects.md
         - name: Workbook Host Item
           href: workbook-host-item.md
         - name: Worksheet Host Item
@@ -474,14 +548,20 @@
     - name: InfoPath Solutions
       href: infopath-solutions.md
     - name: Outlook Solutions
-      href: outlook-solutions.md
+# Auto-expanded node
       items:
+      - name: Outlook Solutions
+        href: outlook-solutions.md
       - name: Outlook Object Model Overview
-        href: outlook-object-model-overview.md
+# Auto-expanded node
         items:
+        - name: Outlook Object Model Overview
+          href: outlook-object-model-overview.md
         - name: Working with Contact Items
-          href: working-with-contact-items.md
+# Auto-expanded node
           items:
+          - name: Working with Contact Items
+            href: working-with-contact-items.md
           - name: Programmatically Access Outlook Contacts
             href: how-to-programmatically-access-outlook-contacts.md
           - name: Programmatically Search for a Specific Contact
@@ -493,8 +573,10 @@
           - name: Programmatically Delete Outlook Contacts
             href: how-to-programmatically-delete-outlook-contacts.md
         - name: Working with Mail Items
-          href: working-with-mail-items.md
+# Auto-expanded node
           items:
+          - name: Working with Mail Items
+            href: working-with-mail-items.md
           - name: Programmatically Create an E-Mail Item
             href: how-to-programmatically-create-an-e-mail-item.md
           - name: Programmatically Send E-Mail
@@ -508,8 +590,10 @@
           - name: Programmatically Retrieve Unread Messages from the Inbox
             href: how-to-programmatically-retrieve-unread-messages-from-the-inbox.md
         - name: Working with Folders
-          href: working-with-folders.md
+# Auto-expanded node
           items:
+          - name: Working with Folders
+            href: working-with-folders.md
           - name: Programmatically Search Within a Specific Folder
             href: how-to-programmatically-search-within-a-specific-folder.md
           - name: Programmatically Retrieve a Folder by Name
@@ -521,8 +605,10 @@
           - name: Programmatically Move Items in Outlook
             href: how-to-programmatically-move-items-in-outlook.md
         - name: Working with Calendar Items
-          href: working-with-calendar-items.md
+# Auto-expanded node
           items:
+          - name: Working with Calendar Items
+            href: working-with-calendar-items.md
           - name: Programmatically Create Appointments
             href: how-to-programmatically-create-appointments.md
           - name: Programmatically Delete Appointments
@@ -534,8 +620,10 @@
         - name: Programmatically Determine the Current Outlook Item
           href: how-to-programmatically-determine-the-current-outlook-item.md
       - name: Creating Outlook Form Regions
-        href: creating-outlook-form-regions.md
+# Auto-expanded node
         items:
+        - name: Creating Outlook Form Regions
+          href: creating-outlook-form-regions.md
         - name: Guidelines for Creating Outlook Form Regions
           href: guidelines-for-creating-outlook-form-regions.md
         - name: Add a Form Region to an Outlook Add-in Project
@@ -555,23 +643,31 @@
       - name: "Walkthrough: Creating Your First VSTO Add-In for Outlook"
         href: walkthrough-creating-your-first-vsto-add-in-for-outlook.md
     - name: PowerPoint Solutions
-      href: powerpoint-solutions.md
+# Auto-expanded node
       items:
+      - name: PowerPoint Solutions
+        href: powerpoint-solutions.md
       - name: "Walkthrough: Creating Your First VSTO Add-in for PowerPoint"
         href: walkthrough-creating-your-first-vsto-add-in-for-powerpoint.md
     - name: Project Solutions
-      href: project-solutions.md
+# Auto-expanded node
       items:
+      - name: Project Solutions
+        href: project-solutions.md
       - name: "Walkthrough: Creating Your First VSTO Add-in for Project"
         href: walkthrough-creating-your-first-vsto-add-in-for-project.md
     - name: Visio Solutions
-      href: visio-solutions.md
+# Auto-expanded node
       items:
+      - name: Visio Solutions
+        href: visio-solutions.md
       - name: Visio Object Model Overview
         href: visio-object-model-overview.md
       - name: Working with Visio Documents
-        href: working-with-visio-documents.md
+# Auto-expanded node
         items:
+        - name: Working with Visio Documents
+          href: working-with-visio-documents.md
         - name: Programmatically Create New Visio Documents
           href: how-to-programmatically-create-new-visio-documents.md
         - name: Programmatically Open Visio Documents
@@ -583,21 +679,29 @@
         - name: Programmatically Print Visio Documents
           href: how-to-programmatically-print-visio-documents.md
       - name: Working with Visio Shapes
-        href: working-with-visio-shapes.md
+# Auto-expanded node
         items:
+        - name: Working with Visio Shapes
+          href: working-with-visio-shapes.md
         - name: Programmatically Add Shapes to a Visio Document
           href: how-to-programmatically-add-shapes-to-a-visio-document.md
         - name: Programmatically Copy and Paste Shapes in a Visio Document
           href: how-to-programmatically-copy-and-paste-shapes-in-a-visio-document.md
     - name: Word Solutions
-      href: word-solutions.md
+# Auto-expanded node
       items:
+      - name: Word Solutions
+        href: word-solutions.md
       - name: Word Object Model Overview
-        href: word-object-model-overview.md
+# Auto-expanded node
         items:
+        - name: Word Object Model Overview
+          href: word-object-model-overview.md
         - name: Working with Documents
-          href: working-with-documents.md
+# Auto-expanded node
           items:
+          - name: Working with Documents
+            href: working-with-documents.md
           - name: Programmatically Create New Documents
             href: how-to-programmatically-create-new-documents.md
           - name: Programmatically Open Existing Documents
@@ -625,8 +729,10 @@
           - name: Programmatically Remove All Comments from Documents
             href: how-to-programmatically-remove-all-comments-from-documents.md
         - name: Working with Text in Documents
-          href: working-with-text-in-documents.md
+# Auto-expanded node
           items:
+          - name: Working with Text in Documents
+            href: working-with-text-in-documents.md
           - name: Programmatically Define and Select Ranges in Documents
             href: how-to-programmatically-define-and-select-ranges-in-documents.md
           - name: Programmatically Retrieve Start and End Characters in Ranges
@@ -660,8 +766,10 @@
           - name: Programmatically Add Comments to Text in Documents
             href: how-to-programmatically-add-comments-to-text-in-documents.md
         - name: Working with Tables
-          href: working-with-tables.md
+# Auto-expanded node
           items:
+          - name: Working with Tables
+            href: working-with-tables.md
           - name: Programmatically Create Word Tables
             href: how-to-programmatically-create-word-tables.md
           - name: Programmatically Populate Word Tables with Document Properties
@@ -671,8 +779,10 @@
           - name: Programmatically Add Text and Formatting to Cells in Word Tables
             href: how-to-programmatically-add-text-and-formatting-to-cells-in-word-tables.md
       - name: Automating Word by Using Extended Objects
-        href: automating-word-by-using-extended-objects.md
+# Auto-expanded node
         items:
+        - name: Automating Word by Using Extended Objects
+          href: automating-word-by-using-extended-objects.md
         - name: Document Host Item
           href: document-host-item.md
         - name: Content Controls
@@ -712,8 +822,10 @@
     - name: Debugging Office Projects
       href: debugging-office-projects.md
     - name: Securing Office Solutions
-      href: securing-office-solutions.md
+# Auto-expanded node
       items:
+      - name: Securing Office Solutions
+        href: securing-office-solutions.md
       - name: Granting Trust to Office Solutions
         href: granting-trust-to-office-solutions.md
       - name: Granting Trust to Documents
@@ -731,20 +843,26 @@
       - name: Troubleshooting Office Solution Security
         href: troubleshooting-office-solution-security.md
     - name: Deploying an Office Solution
-      href: deploying-an-office-solution.md
+# Auto-expanded node
       items:
+      - name: Deploying an Office Solution
+        href: deploying-an-office-solution.md
       - name: Deploying an Office Solution by Using ClickOnce
         href: deploying-an-office-solution-by-using-clickonce.md
       - name: Deploying an Office Solution by Using Windows Installer
         href: deploying-an-office-solution-by-using-windows-installer.md
       - name: Troubleshooting Office Solution Deployment
-        href: troubleshooting-office-solution-deployment.md
+# Auto-expanded node
         items:
+        - name: Troubleshooting Office Solution Deployment
+          href: troubleshooting-office-solution-deployment.md
         - name: Event Logging for Office Solutions
           href: event-logging-for-office-solutions.md
     - name: Samples and Walkthroughs
-      href: office-development-samples-and-walkthroughs.md
+# Auto-expanded node
       items:
+      - name: Samples and Walkthroughs
+        href: office-development-samples-and-walkthroughs.md
       - name: Office Development Samples
         href: office-development-samples.md
       - name: Walkthroughs Using Word
@@ -758,13 +876,17 @@
       - name: Security and Deployment Walkthroughs
         href: security-and-deployment-walkthroughs.md
     - name: General Reference (Office Development in Visual Studio)
-      href: general-reference-office-development-in-visual-studio.md
+# Auto-expanded node
       items:
+      - name: General Reference (Office Development in Visual Studio)
+        href: general-reference-office-development-in-visual-studio.md
       - name: Office Primary Interop Assemblies
         href: office-primary-interop-assemblies.md
       - name: Application Manifests for Office Solutions
-        href: application-manifests-for-office-solutions.md
+# Auto-expanded node
         items:
+        - name: Application Manifests for Office Solutions
+          href: application-manifests-for-office-solutions.md
         - name: <customHostSpecified> Element
           href: customhostspecified-element-office-development-in-visual-studio.md
         - name: <addin> Element
@@ -806,8 +928,10 @@
       - name: Deployment Manifests for Office Solutions
         href: deployment-manifests-for-office-solutions.md
       - name: User Interface Reference (Office Development in Visual Studio)
-        href: user-interface-reference-office-development-in-visual-studio.md
+# Auto-expanded node
         items:
+        - name: User Interface Reference (Office Development in Visual Studio)
+          href: user-interface-reference-office-development-in-visual-studio.md
         - name: Microsoft Office Word Keyboard, Microsoft Office Keyboard Settings, Options Dialog Box
           href: microsoft-office-word-keyboard-microsoft-office-keyboard-settings-options-dialog-box.md
         - name: Microsoft Office Excel Keyboard, Microsoft Office Keyboard Settings, Options Dialog Box
@@ -819,8 +943,10 @@
         - name: Publish Wizard (Office Development in Visual Studio)
           href: publish-wizard-office-development-in-visual-studio.md
       - name: Error Messages (Office Development in Visual Studio)
-        href: error-messages-office-development-in-visual-studio.md
+# Auto-expanded node
         items:
+        - name: Error Messages (Office Development in Visual Studio)
+          href: error-messages-office-development-in-visual-studio.md
         - name: Microsoft Office is not installed on this computer
           href: microsoft-office-is-not-installed-on-this-computer.md
         - name: The workbook used to create this project contains ActiveX controls that the designer cannot load
@@ -832,8 +958,10 @@
     - name: Managed Reference (Office Development in Visual Studio)
       href: managed-reference-office-development-in-visual-studio.md
     - name: Unmanaged API Reference (Office Development in Visual Studio)
-      href: unmanaged-api-reference-office-development-in-visual-studio.md
+# Auto-expanded node
       items:
+      - name: Unmanaged API Reference (Office Development in Visual Studio)
+        href: unmanaged-api-reference-office-development-in-visual-studio.md
       - name: EnsureVSTOComponent Function
         href: ensurevstocomponent-function.md
       - name: GetValidCompatibleFramework Function
@@ -841,15 +969,19 @@
       - name: GetVstoSolutionMetadata Function
         href: getvstosolutionmetadata-function.md
       - name: IManagedAddin Interface
-        href: imanagedaddin-interface.md
+# Auto-expanded node
         items:
+        - name: IManagedAddin Interface
+          href: imanagedaddin-interface.md
         - name: Load Method
           href: imanagedaddin-load.md
         - name: Unload Method
           href: imanagedaddin-unload.md
       - name: IWefDebuggingSupport Interface
-        href: iwefdebuggingsupport-interface.md
+# Auto-expanded node
         items:
+        - name: IWefDebuggingSupport Interface
+          href: iwefdebuggingsupport-interface.md
         - name: GetAutoInsertExtensions Method
           href: getautoinsertextensions-method.md
         - name: SetWefProcessId Method

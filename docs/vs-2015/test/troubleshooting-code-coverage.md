@@ -1,18 +1,13 @@
 ---
 title: "Troubleshooting Code Coverage | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: troubleshooting
 ms.assetid: 26de91b8-45e3-4976-a20e-a3bd1942ddcb
 caps.latest.revision: 13
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Troubleshooting Code Coverage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,9 +39,9 @@ The code coverage analysis tool in Visual Studio collects data for native and ma
 ### You’re looking at a previous result  
  When you modify and re-run your tests, a previous code coverage result can still be visible, including the code coloring from that old run.  
   
-1.  Run Analyze Code Coverage.  
+1. Run Analyze Code Coverage.  
   
-2.  Make sure that you have selected the most recent result set in the Code Coverage results window.  
+2. Make sure that you have selected the most recent result set in the Code Coverage results window.  
   
 ### .pdb (symbol) files are unavailable  
  Analysis  
@@ -89,7 +84,7 @@ The code coverage analysis tool in Visual Studio collects data for native and ma
  Verify that the assembly is not loaded from the native image cache.  
   
  Explanation  
- For performance reasons, native image assemblies are not analyzed. For more information, see [Ngen.exe (Native Image Generator)](http://msdn.microsoft.com/library/44bf97aa-a9a4-4eba-9a0d-cfaa6fc53a66).  
+ For performance reasons, native image assemblies are not analyzed. For more information, see [Ngen.exe (Native Image Generator)](https://msdn.microsoft.com/library/44bf97aa-a9a4-4eba-9a0d-cfaa6fc53a66).  
   
  Resolution  
  Use an MSIL version of the assembly. Do not process it with NGen.  
@@ -106,17 +101,17 @@ The code coverage analysis tool in Visual Studio collects data for native and ma
  Resolution  
  There are two possible types of faults:  
   
--   **XML error**  
+- **XML error**  
   
      Open the .runsettings file in the Visual Studio XML editor. Look for error indications.  
   
--   **Regular expression error**  
+- **Regular expression error**  
   
-     Each string in the file is a regular expression. Review each one for errors, and in particular look for :  
-  
-    -   Mismatched parentheses (...) or unescaped parentheses \\(...\\). If you want to match a parenthesis in the search string, you must escape it. For example, to match a function use: `.*MyFunction\(double\)`  
-  
-    -   Asterisk or plus at the start of an expression. To match any string of characters, use a dot followed by an asterisk: `.*`  
+  Each string in the file is a regular expression. Review each one for errors, and in particular look for :  
+
+  - Mismatched parentheses (...) or unescaped parentheses \\(...\\). If you want to match a parenthesis in the search string, you must escape it. For example, to match a function use: `.*MyFunction\(double\)`  
+
+  - Asterisk or plus at the start of an expression. To match any string of characters, use a dot followed by an asterisk: `.*`  
   
 ### Custom .runsettings file with incorrect exclusions  
  Analysis  
@@ -146,6 +141,3 @@ The code coverage analysis tool in Visual Studio collects data for native and ma
   
 ## See Also  
  [Using Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)
-
-
-

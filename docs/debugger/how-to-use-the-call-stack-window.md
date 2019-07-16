@@ -1,8 +1,7 @@
 ---
-title: "View the call stack in the Visual Studio debugger | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+title: "View the call stack in the debugger | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "10/29/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.callstack"
@@ -27,7 +26,7 @@ helpviewer_keywords:
 ms.assetid: 5154a2a1-4729-4dbb-b675-db611a72a731
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -55,7 +54,7 @@ A yellow arrow identifies the stack frame where the execution pointer is current
 
 ## Display non-user code in the Call Stack window
 
--   Right-click the **Call Stack** window and select **Show External Code**.
+- Right-click the **Call Stack** window and select **Show External Code**.
 
 Non-user code is any code that is not shown when [Just My Code](../debugger/just-my-code.md) is enabled. In managed code, non-user code frames are hidden by default. The following notation appears in place of the non-user code frames:
 
@@ -63,29 +62,29 @@ Non-user code is any code that is not shown when [Just My Code](../debugger/just
 
 ## <a name="bkmk_switch"></a> Switch to another stack frame (change the debugger context)
 
-1.  In the **Call Stack** window, right-click the stack frame whose code and data that you want to view.
+1. In the **Call Stack** window, right-click the stack frame whose code and data that you want to view.
 
     Or, you can double-click a frame in the **Call Stack** window to switch to that frame.
 
-2.  Select **Switch to Frame**.
+2. Select **Switch to Frame**.
 
      A green arrow with a curly tail appears next to the stack frame you selected. The execution pointer remains in the original frame, which is still marked with the yellow arrow. If you select **Step** or **Continue** from the **Debug** menu, execution will continue in the original frame, not the frame you selected.
 
 ## View the source code for a function on the call stack
 
--   In the **Call Stack** window, right-click the function whose source code you want to see and select **Go To Source Code**.
+- In the **Call Stack** window, right-click the function whose source code you want to see and select **Go To Source Code**.
 
 ## Run to a specific function from the Call Stack window
 
--  In the **Call Stack** window, select the function, right-click, and then choose **Run to Cursor**.
+- In the **Call Stack** window, select the function, right-click, and then choose **Run to Cursor**.
 
 ## Set a breakpoint on the exit point of a function call
 
--   See [Set a breakpoint at a call stack function](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_in_the_call_stack_window).
+- See [Set a breakpoint at a call stack function](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_in_the_call_stack_window).
 
 ## Display calls to or from another thread
 
--   Right-click the **Call Stack** window and select **Include Calls To/From Other Threads**.
+- Right-click the **Call Stack** window and select **Include Calls To/From Other Threads**.
 
 ## Visually trace the call stack
 
@@ -99,11 +98,11 @@ In Visual Studio Enterprise (only), you can view code maps for the call stack wh
 
 ## View the disassembly code for a function on the call stack (C#, C++, Visual Basic, F#)
 
--   In the **Call Stack** window, right-click the function whose disassembly code you want to see and select **Go To Disassembly**.
+- In the **Call Stack** window, right-click the function whose disassembly code you want to see and select **Go To Disassembly**.
 
 ## Change the optional information displayed
 
--   Right-click in the **Call Stack** window and set or clear **Show \<**_the information that you want_**>**.
+- Right-click in the **Call Stack** window and set or clear **Show \<**_the information that you want_**>**.
 
 ## <a name="bkmk_symbols"></a> Load symbols for a module (C#, C++, Visual Basic, F#)
 
@@ -113,25 +112,25 @@ See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-
 
 ### To load symbols
 
-1.  In the **Call Stack** window, right-click the stack frame for which symbols are not loaded. The frame will be dimmed.
+1. In the **Call Stack** window, right-click the stack frame for which symbols are not loaded. The frame will be dimmed.
 
-2.  Point to **Load Symbols** and then select **Microsoft Symbol Servers** (if available), or browse to the symbol path.
+2. Point to **Load Symbols** and then select **Microsoft Symbol Servers** (if available), or browse to the symbol path.
 
 ### To set the symbol path
 
-1.  In the **Call Stack** window, choose **Symbol Settings** from the shortcut menu.
+1. In the **Call Stack** window, choose **Symbol Settings** from the shortcut menu.
 
      The **Options** dialog box opens and the **Symbols** page is displayed.
 
-2.  Select **Symbol Settings**.
+2. Select **Symbol Settings**.
 
-3.  In the **Options** dialog box, click the Folder icon.
+3. In the **Options** dialog box, click the Folder icon.
 
      In the **Symbol file (.pdb) locations** box, a cursor appears.
 
-4.  Enter a directory pathname to the symbol location on the computer that you are debugging. For local and remote debugging, this is a path on your local computer.
+4. Enter a directory pathname to the symbol location on the computer that you are debugging. For local and remote debugging, this is a path on your local computer.
 
-5.  Select **OK** to close the **Options** dialog box.
+5. Select **OK** to close the **Options** dialog box.
 
 ## See also
 

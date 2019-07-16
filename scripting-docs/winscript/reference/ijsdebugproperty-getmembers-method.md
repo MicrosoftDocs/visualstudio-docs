@@ -2,7 +2,6 @@
 title: "IJsDebugProperty::GetMembers Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Gets the members of this object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetMembers(  
    JS_PROPERTY_MEMBERS members,  
    IJsEnumDebugProperty **ppEnum  

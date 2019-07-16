@@ -1,14 +1,9 @@
 ---
 title: "Debugging Errors and Warning Dialog Boxes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "VS.WebClient.AccessRequiredDialog"
 dev_langs: 
@@ -26,7 +21,7 @@ ms.assetid: 73baaf39-3026-48c9-be48-8b9ba0063cde
 caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Debugging Errors and Warning Dialog Boxes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,7 +43,7 @@ Below are the errors and warning dialog boxes you may encounter while debugging 
   
  [No Source Code Available for the Current Location Dialog Box](../debugger/no-source-available.md)  
   
- [No Symbolic Information Dialog Box](http://msdn.microsoft.com/en-us/18de4888-9cca-4059-a165-48b135fee4c9)  
+ [No Symbolic Information Dialog Box](https://msdn.microsoft.com/18de4888-9cca-4059-a165-48b135fee4c9)  
   
  [Resolve Ambiguity Dialog Box](../debugger/resolve-ambiguity-dialog-box.md)  
   
@@ -63,13 +58,10 @@ Below are the errors and warning dialog boxes you may encounter while debugging 
   
  [Remote Debugging Errors](../debugger/remote-debugging-errors-and-troubleshooting.md)  
   
- [Attach Errors](http://msdn.microsoft.com/en-us/2820d904-a068-4fcb-bbfb-bbbe5195d6ae)  
+ [Attach Errors](https://msdn.microsoft.com/2820d904-a068-4fcb-bbfb-bbbe5195d6ae)  
   
- [Troubleshooting SQL Debugging Setup](http://msdn.microsoft.com/en-us/b3ec8303-4c0d-449c-8d19-4932c1d820a7)  
+ [Troubleshooting SQL Debugging Setup](https://msdn.microsoft.com/b3ec8303-4c0d-449c-8d19-4932c1d820a7)  
   
  [Debugging Visual C++ FAQs](../debugger/debugging-native-code-faqs.md)  
   
  [Debugger Security](../debugger/debugger-security.md)
-
-
-

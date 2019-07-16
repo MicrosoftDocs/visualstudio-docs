@@ -2,7 +2,6 @@
 title: "DEBUG_TEXT Constants | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,7 +17,7 @@ Used during [IDebugExpressionContext::ParseLanguageText](../../winscript/referen
   
 ## Syntax  
   
-```  
+```cpp
 typedef DWORD DEBUG_TEXT;  
 ```  
   

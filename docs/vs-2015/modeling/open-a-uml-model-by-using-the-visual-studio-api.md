@@ -1,19 +1,16 @@
 ---
 title: "Open a UML model by using the Visual Studio API | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML API, opening models in Visual Studio"
 ms.assetid: 38423682-f2a7-4d2a-a2cd-fd680e9b4b4d
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Open a UML model by using the Visual Studio API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,11 +19,11 @@ You can also open models and diagrams in the Visual Studio user interface by usi
   
  If you only want to read a model in program code without making it visible to the user, you can use the following methods:  
   
--   Visual Studio Model Bus allows you to access models and elements within them, and provides a standard method of making links between one model and another. For more information, see [Integrate UML models with other models and tools](../modeling/integrate-uml-models-with-other-models-and-tools.md).  
+- Visual Studio Model Bus allows you to access models and elements within them, and provides a standard method of making links between one model and another. For more information, see [Integrate UML models with other models and tools](../modeling/integrate-uml-models-with-other-models-and-tools.md).  
   
--   You can open a model in read-only mode. For more information, see [Read a UML model in program code](../modeling/read-a-uml-model-in-program-code.md).  
+- You can open a model in read-only mode. For more information, see [Read a UML model in program code](../modeling/read-a-uml-model-in-program-code.md).  
   
-##  <a name="Showing"></a> Opening Models and Diagrams in Visual Studio  
+## <a name="Showing"></a> Opening Models and Diagrams in Visual Studio  
  To open a model in the user interface, use the standard Visual Studio API `EnvDTE.DTE`. There are two useful casts that you can perform on modeling project items:  
   
 - `EnvDTE.Project` can be cast to and from `IModelingProject`, if the project is a modeling project, and if the project is loaded in the current AppDomain.  
@@ -115,6 +112,3 @@ foreach (ProjectItem item in project.ProjectItems)
 ## See Also  
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)   
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)
-
-
-

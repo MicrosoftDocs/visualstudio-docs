@@ -1,12 +1,9 @@
 ---
 title: "Additional resources for troubleshooting data access errors | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: troubleshooting
 f1_keywords: 
   - "DSD_ImportXmlSchemaSameFileWrnHelpId"
   - "vbdata.ParameterizeFormDialog_NoDataSource"
@@ -232,13 +229,12 @@ ms.assetid: 357c9f0a-9d59-4db4-9b7c-b96cad839961
 caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 robots: noindex,nofollow
 ---
 # Additional resources for troubleshooting data access errors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can find assistance with troubleshooting errors and warnings in the Microsoft Developer Network (MSDN) public forums. The following table lists the data related forums available on MSDN.  
   
  [Windows Forms Data Controls and Databinding](http://go.microsoft.com/fwlink/?LinkId=160179)  
@@ -266,4 +262,3 @@ You can find assistance with troubleshooting errors and warnings in the Microsof
   
 ## See Also  
  [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)
-

@@ -1,177 +1,262 @@
 - name: Design user interfaces
   href: designing-user-interfaces.md
+- name: XAML
   items:
   - name: Design XAML in Visual Studio
     href: designing-xaml-in-visual-studio.md
+  - name: XAML Designer
     items:
-    - name: Create a UI by using XAML Designer
+    - name: Overview
+      displayName: XAML Designer
       href: creating-a-ui-by-using-xaml-designer-in-visual-studio.md
-      items:
-      - name: Work with elements in XAML Designer
-        href: working-with-elements-in-xaml-designer.md
-      - name: Organize objects into layout containers in XAML Designer
-        href: organize-objects-into-layout-containers-in-xaml-designer.md
-      - name: Create and apply a resource
-        href: how-to-create-and-apply-a-resource.md
-      - name: "Walkthrough: Bind to data in XAML Designer"
-        href: walkthrough-binding-to-data-in-xaml-designer.md
-      - name: Keyboard shortcuts for XAML Designer
-        href: keyboard-shortcuts-for-xaml-designer.md
-      - name: Debug or disable project code in XAML Designer
-        href: debugging-or-disabling-project-code-in-xaml-designer.md
-      - name: XAML errors and warnings
-        href: xaml-errors-warnings.md
-    - name: Create a UI by using Blend for Visual Studio
-      href: creating-a-ui-by-using-blend-for-visual-studio.md
-      items:
-      - name: Insert controls and modify their behavior in XAML Designer
-        href: insert-controls-and-modify-their-behavior-in-xaml-designer.md
-      - name: Insert images, videos, and audio clips in XAML Designer
-        href: insert-images-videos-and-audio-clips-in-xaml-designer.md
-      - name: Draw shapes and paths
-        href: draw-shapes-and-paths.md
-      - name: Modify the style of objects in Blend
-        href: modify-the-style-of-objects-in-blend.md
-      - name: Animate objects in XAML Designer
-        href: animate-objects-in-xaml-designer.md
-      - name: Display data
-        href: display-data-in-blend.md
-      - name: Keyboard shortcuts and modifier keys in Blend
-        href: keyboard-shortcuts-and-modifier-keys-in-blend.md
-        items:
-        - name: Keyboard shortcuts
-          href: keyboard-shortcuts-in-blend.md
-        - name: Artboard modifier keys
-          href: artboard-modifier-keys-in-blend.md
-        - name: Pen tool modifier keys
-          href: pen-tool-modifier-keys-in-blend.md
-        - name: Direct selection tool modifier keys
-          href: direct-selection-tool-modifier-keys-in-blend.md
-      - name: Accessibility products and services for Blend
-        href: accessibility-products-and-services-blend.md
-  - name: Windows Presentation Foundation (WPF)
-    href: getting-started-with-wpf.md
+    - name: Work with elements
+      href: working-with-elements-in-xaml-designer.md
+    - name: Organize objects into layout containers
+      href: organize-objects-into-layout-containers-in-xaml-designer.md
+    - name: Create and apply a resource
+      href: how-to-create-and-apply-a-resource.md
+    - name: "Walkthrough: Bind to data in XAML Designer"
+      href: walkthrough-binding-to-data-in-xaml-designer.md
+    - name: Keyboard shortcuts for XAML Designer
+      href: keyboard-shortcuts-for-xaml-designer.md
+    - name: Debug or disable project code
+      href: debugging-or-disabling-project-code-in-xaml-designer.md
+    - name: XAML errors and warnings
+      href: xaml-errors-warnings.md
+  - name: Blend for Visual Studio
     items:
-      - name: WPF overview
-        href: introduction-to-wpf.md
-      - name: WPF data binding with LINQ to XML
-        href: wpf-data-binding-with-linq-to-xml-overview.md
+    - name: Overview
+      displayName: Blend for Visual Studio
+      href: creating-a-ui-by-using-blend-for-visual-studio.md
+    - name: Insert controls and modify their behavior
+      href: insert-controls-and-modify-their-behavior-in-xaml-designer.md
+    - name: Insert images, videos, and audio clips
+      href: insert-images-videos-and-audio-clips-in-xaml-designer.md
+    - name: Draw shapes and paths
+      href: draw-shapes-and-paths.md
+    - name: Modify the style of objects in Blend
+      href: modify-the-style-of-objects-in-blend.md
+    - name: Animate objects
+      href: animate-objects-in-xaml-designer.md
+    - name: Display data
+      href: display-data-in-blend.md
+    - name: Keyboard shortcuts and modifier keys
+      items:
+      - name: Overview
+        href: keyboard-shortcuts-and-modifier-keys-in-blend.md
+      - name: Keyboard shortcuts
+        href: keyboard-shortcuts-in-blend.md
+      - name: Artboard modifier keys
+        href: artboard-modifier-keys-in-blend.md
+      - name: Pen tool modifier keys
+        href: pen-tool-modifier-keys-in-blend.md
+      - name: Direct selection tool modifier keys
+        href: direct-selection-tool-modifier-keys-in-blend.md
+    - name: Accessibility products and services for Blend
+      href: accessibility-products-and-services-blend.md
+- name: Windows Presentation Foundation (WPF)
+  items:
+  - name: Get started
+    displayName: Windows Presentation Foundation (WPF)
+    href: getting-started-with-wpf.md
+  - name: WPF overview
+    href: introduction-to-wpf.md
+  - name: Data binding
+    items:
+    - name: WPF data binding with LINQ to XML
+      href: wpf-data-binding-with-linq-to-xml-overview.md
+    - name: LINQ to XML dynamic properties
+      items:
+      - name: Overview
+        displayName: LINQ to XML dynamic properties
+        href: linq-to-xml-dynamic-properties.md
+      - name: XAttribute class dynamic properties
         items:
-        - name: LINQ to XML dynamic properties
-          href: linq-to-xml-dynamic-properties.md
-          items:
-          - name: XAttribute class dynamic properties
-            href: xattribute-class-dynamic-properties.md
-            items:
-            - name: Value (XAttribute dynamic property)
-              href: value-xattribute-dynamic-property.md
-          - name: XElement class dynamic properties
-            href: xelement-class-dynamic-properties.md
-            items:
-            - name: Attribute (XElement dynamic property)
-              href: attribute-xelement-dynamic-property.md
-            - name: Element (XElement dynamic property)
-              href: element-xelement-dynamic-property.md
-            - name: Elements (XElement dynamic property)
-              href: elements-xelement-dynamic-property.md
-            - name: Descendants (XElement dynamic property)
-              href: descendants-xelement-dynamic-property.md
-            - name: Value (XElement dynamic property)
-              href: value-xelement-dynamic-property.md
-            - name: Xml (XElement dynamic property)
-              href: xml-xelement-dynamic-property.md
-          - name: Example
-            href: wpf-data-binding-using-linq-to-xml-example.md
-            items:
-            - name: Build and run the LinqToXmlDataBinding example
-              href: how-to-build-and-run-the-linqtoxmldatabinding-example.md
-            - name: "Walkthrough: LINQ to XML data binding"
-              href: walkthrough-linqtoxmldatabinding-example.md
-              items:
-              - name: L2DBForm.xaml source code
-                href: l2dbform-xaml-source-code.md
-              - name: L2DBForm.xaml.cs source code
-                href: l2dbform-xaml-cs-source-code.md
+        - name: Value (XAttribute dynamic property)
+          href: value-xattribute-dynamic-property.md
+      - name: XElement class dynamic properties
+        items:
+        - name: Attribute (XElement dynamic property)
+          href: attribute-xelement-dynamic-property.md
+        - name: Element (XElement dynamic property)
+          href: element-xelement-dynamic-property.md
+        - name: Elements (XElement dynamic property)
+          href: elements-xelement-dynamic-property.md
+        - name: Descendants (XElement dynamic property)
+          href: descendants-xelement-dynamic-property.md
+        - name: Value (XElement dynamic property)
+          href: value-xelement-dynamic-property.md
+        - name: Xml (XElement dynamic property)
+          href: xml-xelement-dynamic-property.md
+      - name: Examples
+        items:
+        - name: WPF data binding using LINQ to XML
+          href: wpf-data-binding-using-linq-to-xml-example.md
+        - name: Build and run the LinqToXmlDataBinding example
+          href: how-to-build-and-run-the-linqtoxmldatabinding-example.md
+        - name: "Walkthrough: LINQ to XML data binding"
+          href: walkthrough-linqtoxmldatabinding-example.md
+        - name: L2DBForm.xaml source code
+          href: l2dbform-xaml-source-code.md
+        - name: L2DBForm.xaml.cs source code
+          href: l2dbform-xaml-cs-source-code.md
+- name: Windows Forms
+  items:
+    - name: "Tutorial 1: Create a picture viewer (C#)"
+      items:
+      - name: Overview
+        displayName: Tutorial 1 Picture viewer
+        href: ../ide/tutorial-1-create-a-picture-viewer.md
+      - name: "Step 1: Create a Windows Forms Application project"
+        href: ../ide/step-1-create-a-windows-forms-application-project.md
+      - name: "Step 2: Run your program"
+        href: ../ide/step-2-run-your-program.md
+      - name: "Step 3: Set your form properties"
+        href: ../ide/step-3-set-your-form-properties.md
+      - name: "Step 4: Lay out your form with a TableLayoutPanel control"
+        href: ../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md
+      - name: "Step 5: Add controls to your form"
+        href: ../ide/step-5-add-controls-to-your-form.md
+      - name: "Step 6: Name your button controls"
+        href: ../ide/step-6-name-your-button-controls.md
+      - name: "Step 7: Add dialog components to your form"
+        href: ../ide/step-7-add-dialog-components-to-your-form.md
+      - name: "Step 8: Write code for the Show a Picture button event handler"
+        href: ../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md
+      - name: "Step 9: Review, comment, and test your code"
+        href: ../ide/step-9-review-comment-and-test-your-code.md
+      - name: "Step 10: Write code for additional buttons and a check box"
+        href: ../ide/step-10-write-code-for-additional-buttons-and-a-check-box.md
+      - name: "Step 11: Run your program and try other features"
+        href: ../ide/step-11-run-your-program-and-try-other-features.md
+    - name: "Tutorial 2: Create a timed math quiz (C#)"
+      items:
+      - name: Overview
+        displayName: Tutorial 2 Timed math quiz
+        href: ../ide/tutorial-2-create-a-timed-math-quiz.md
+      - name: "Step 1: Create a project and add labels to your form"
+        href: ../ide/step-1-create-a-project-and-add-labels-to-your-form.md
+      - name: "Step 2: Create a random addition problem"
+        href: ../ide/step-2-create-a-random-addition-problem.md
+      - name: "Step 3: Add a countdown timer"
+        href: ../ide/step-3-add-a-countdown-timer.md
+      - name: "Step 4: Add the CheckTheAnswer() method"
+        href: ../ide/step-4-add-the-checktheanswer-parens-method.md
+      - name: "Step 5: Add Enter event handlers for the NumericUpDown controls"
+        href: ../ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md
+      - name: "Step 6: Add a subtraction problem"
+        href: ../ide/step-6-add-a-subtraction-problem.md
+      - name: "Step 7: Add multiplication and division problems"
+        href: ../ide/step-7-add-multiplication-and-division-problems.md
+      - name: "Step 8: Customize the quiz"
+        href: ../ide/step-8-customize-the-quiz.md
+    - name: "Tutorial 3: Create a matching game (C#)"
+      items:
+      - name: Overview
+        displayName: Tutorial 3 Matching game
+        href: ../ide/tutorial-3-create-a-matching-game.md
+      - name: "Step 1: Create a project and add a table to your form"
+        href: ../ide/step-1-create-a-project-and-add-a-table-to-your-form.md
+      - name: "Step 2: Add a random object and a list of icons"
+        href: ../ide/step-2-add-a-random-object-and-a-list-of-icons.md
+      - name: "Step 3: Assign a random icon to each label"
+        href: ../ide/step-3-assign-a-random-icon-to-each-label.md
+      - name: "Step 4: Add a click event handler to each label"
+        href: ../ide/step-4-add-a-click-event-handler-to-each-label.md
+      - name: "Step 5: Add label references"
+        href: ../ide/step-5-add-label-references.md
+      - name: "Step 6: Add a timer"
+        href: ../ide/step-6-add-a-timer.md
+      - name: "Step 7: Keep pairs visible"
+        href: ../ide/step-7-keep-pairs-visible.md
+      - name: "Step 8: Add a method to verify whether the player won"
+        href: ../ide/step-8-add-a-method-to-verify-whether-the-player-won.md
+      - name: "Step 9: Try other features"
+        href: ../ide/step-9-try-other-features.md
+- name: 3D assets
+  items:
   - name: Work with 3D assets for games and apps
     href: working-with-3-d-assets-for-games-and-apps.md
+  - name: "How to: Use 3D assets in your game or app"
+    href: using-3-d-assets-in-your-game-or-app.md
+  - name: Textures and images
     items:
     - name: Work with textures and images
       href: working-with-textures-and-images.md
+    - name: Image editor
+      href: image-editor.md
+    - name: Image editor examples
       items:
-      - name: Image editor
-        href: image-editor.md
-      - name: Image editor examples
-        href: image-editor-examples.md
-        items:
-        - name: Create a basic texture
-          href: how-to-create-a-basic-texture.md
-        - name: Create and modify MIP levels
-          href: how-to-create-and-modify-mip-levels.md
+      - name: Create a basic texture
+        href: how-to-create-a-basic-texture.md
+      - name: Create and modify MIP levels
+        href: how-to-create-and-modify-mip-levels.md
+  - name: 3D models
+    items:
     - name: Work with 3D models
       href: working-with-3-d-models.md
+    - name: Model editor
+      href: model-editor.md
+    - name: Model editor examples
       items:
-      - name: Model editor
-        href: model-editor.md
-      - name: Model editor examples
-        href: model-editor-examples.md
-        items:
-        - name: Create a basic 3D model
-          href: how-to-create-a-basic-3-d-model.md
-        - name: Modify the pivot point of a 3D model
-          href: how-to-modify-the-pivot-point-of-a-3-d-model.md
-        - name: Model 3D terrain
-          href: how-to-model-3-d-terrain.md
-        - name: Apply a shader to a 3D model
-          href: how-to-apply-a-shader-to-a-3-d-model.md
+      - name: Create a basic 3D model
+        href: how-to-create-a-basic-3-d-model.md
+      - name: Modify the pivot point of a 3D model
+        href: how-to-modify-the-pivot-point-of-a-3-d-model.md
+      - name: Model 3D terrain
+        href: how-to-model-3-d-terrain.md
+      - name: Apply a shader to a 3D model
+        href: how-to-apply-a-shader-to-a-3-d-model.md
+  - name: Shaders
+    items:
     - name: Work with shaders
       href: working-with-shaders.md
+    - name: Shader designer
+      href: shader-designer.md
+    - name: Shader designer nodes
       items:
-      - name: Shader designer
-        href: shader-designer.md
-      - name: Shader designer nodes
+      - name: Overview
+        displayName: Shader designer nodes
         href: shader-designer-nodes.md
-        items:
-        - name: Constant nodes
-          href: constant-nodes.md
-        - name: Parameter nodes
-          href: parameter-nodes.md
-        - name: Texture nodes
-          href: texture-nodes.md
-        - name: Math nodes
-          href: math-nodes.md
-        - name: Utility nodes
-          href: utility-nodes.md
-        - name: Filter nodes
-          href: filter-nodes.md
-      - name: Shader designer examples
-        href: shader-designer-examples.md
-        items:
-        - name: Create a basic color shader
-          href: how-to-create-a-basic-color-shader.md
-        - name: Create a basic Lambert shader
-          href: how-to-create-a-basic-lambert-shader.md
-        - name: Create a basic Phong shader
-          href: how-to-create-a-basic-phong-shader.md
-        - name: Create a basic texture shader
-          href: how-to-create-a-basic-texture-shader.md
-        - name: Create a grayscale texture shader
-          href: how-to-create-a-grayscale-texture-shader.md
-        - name: Create a geometry-based gradient shader
-          href: how-to-create-a-geometry-based-gradient-shader.md
-        - name: "Walkthrough: Create a realistic 3D billiard ball"
-          href: walkthrough-creating-a-realistic-3-d-billiard-ball.md
-        - name: Export a shader
-          href: how-to-export-a-shader.md
-    - name: Use 3D assets in your game or app
-      href: using-3-d-assets-in-your-game-or-app.md
+      - name: Constant nodes
+        href: constant-nodes.md
+      - name: Parameter nodes
+        href: parameter-nodes.md
+      - name: Texture nodes
+        href: texture-nodes.md
+      - name: Math nodes
+        href: math-nodes.md
+      - name: Utility nodes
+        href: utility-nodes.md
+      - name: Filter nodes
+        href: filter-nodes.md
+    - name: Shader designer examples
       items:
-      - name: Export a texture that contains mipmaps
-        href: how-to-export-a-texture-that-contains-mipmaps.md
-      - name: Export a texture that has premultiplied alpha
-        href: how-to-export-a-texture-that-has-premultiplied-alpha.md
-      - name: Export a texture for use with Direct2D or Javascipt apps
-        href: how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md
-  - name: The Visual Studio image library
-    href: the-visual-studio-image-library.md
-- name: Develop apps with Workflow Designer
-  href: ../workflow-designer/developing-applications-with-the-workflow-designer.md
+      - name: Create a basic color shader
+        displayName: Shader designer example
+        href: how-to-create-a-basic-color-shader.md
+      - name: Create a basic Lambert shader
+        href: how-to-create-a-basic-lambert-shader.md
+      - name: Create a basic Phong shader
+        href: how-to-create-a-basic-phong-shader.md
+      - name: Create a basic texture shader
+        href: how-to-create-a-basic-texture-shader.md
+      - name: Create a grayscale texture shader
+        href: how-to-create-a-grayscale-texture-shader.md
+      - name: Create a geometry-based gradient shader
+        href: how-to-create-a-geometry-based-gradient-shader.md
+      - name: "Walkthrough: Create a realistic 3D billiard ball"
+        href: walkthrough-creating-a-realistic-3-d-billiard-ball.md
+      - name: Export a shader
+        href: how-to-export-a-shader.md
+  - name: Export textures
+    items:
+    - name: Export a texture that contains mipmaps
+      href: how-to-export-a-texture-that-contains-mipmaps.md
+    - name: Export a texture that has premultiplied alpha
+      href: how-to-export-a-texture-that-has-premultiplied-alpha.md
+    - name: Export a texture for use with Direct2D or JavaScript apps
+      href: how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md
+- name: The Visual Studio image library
+  href: the-visual-studio-image-library.md
+

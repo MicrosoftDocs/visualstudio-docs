@@ -1,10 +1,11 @@
 ---
 title: "Creating and Editing Build Configurations"
 description: "This article describes creating build configurations in Visual Studio for Mac"
-author: conceptdev
-ms.author: crdun
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 05/06/2018
 ms.assetid: CC1B72D6-12FF-4CCC-A9D4-00F2DC14589F
+ms.custom: video
 ---
 
 # Creating and editing build configurations
@@ -54,6 +55,10 @@ To rename a configuration, select it from the Configuration list in the Project 
 Select the **Rename** button.
 
 ![rename dialog](media/create-and-edit-configurations-image5.png)
+
+## Related Video
+
+> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Launch-Multiple-Projects/player]
 
 ## See also
 

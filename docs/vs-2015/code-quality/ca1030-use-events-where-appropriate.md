@@ -1,14 +1,9 @@
 ---
 title: "CA1030: Use events where appropriate | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "UseEventsWhereAppropriate"
   - "CA1030"
@@ -34,13 +29,13 @@ manager: "wpickett"
 ## Cause
  A public, protected, or private method name begins with one of the following:
 
--   AddOn
+- AddOn
 
--   RemoveOn
+- RemoveOn
 
--   Fire
+- Fire
 
--   Raise
+- Raise
 
 ## Rule Description
  This rule detects methods that have names that ordinarily would be used for events. Events follow the Observer or Publish-Subscribe design pattern; they are used when a state change in one object must be communicated to other objects. If a method gets called in response to a clearly defined state change, the method should be invoked by an event handler. Objects that call the method should raise events instead of calling the method directly.
@@ -52,6 +47,3 @@ manager: "wpickett"
 
 ## When to Suppress Warnings
  Suppress a warning from this rule if the method does not work with the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] event model.
-
-
-

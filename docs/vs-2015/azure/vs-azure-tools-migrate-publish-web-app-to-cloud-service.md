@@ -1,8 +1,8 @@
 ---
-title: How to Migrate and Publish a Web Application to an Azure Cloud Service from Visual Studio | Microsoft Docs
+title: How to Migrate and Publish a Web Application to an Azure Cloud Service
 description: Learn how to migrate and publish your web application to an Azure cloud service by using Visual Studio
 author: ghogen
-manager: douge
+manager: jillfra
 ms.assetid: 9394adfd-a645-4664-9354-dd5df08e8c91
 ms.prod: visual-studio-dev14
 ms.technology: vs-azure
@@ -26,7 +26,7 @@ To take advantage of the hosting services and scaling ability of Azure, you migh
 1. Visual Studio also sets the **Copy Local** property to true for any assemblies that are required for MVC 2, MVC 3, MVC 4, and Silverlight Business Applications. This property adds these assemblies to the service package that is used for deployment.
 
    > [!Important]
-   > If you have other assemblies or files that are required for this web application, you must manually set the properties for these files. For information about how to set these properties, see [Include Files in the Service Package](#include-files-in-the-service-package).
+   > If you have other assemblies or files that are required for this web application, you must manually set the properties for these files. For information about how to set these properties, see [Include Files in the Service Package](vs-azure-tools-publishing-a-cloud-service.md#include-files-in-the-service-package).
 
 ### Errors and warnings
 
@@ -53,7 +53,7 @@ If you have a connection string for your web application that uses an on-premise
 1. Create the necessary cloud service and storage accounts in your Azure subscription as described on [Prepare to publish or deploy an Azure application from Visual Studio](vs-azure-tools-cloud-service-publish-set-up-required-services-in-visual-studio.md).
 1. In Visual Studio, right-click the application project and select **Publish to Microsoft Azure...** (which is different from the "Publish..." command.).
 1. In the **Publish Azure Application** that appears, sign in using the account with your Azure subscription and select **Next >**.
-1. In the **Settings > Common Settings** tab, select the target cloud service from the **Cloud Service** drop-down list, along with your chosen environment and configurations. 
+1. In the **Settings > Common Settings** tab, select the target cloud service from the **Cloud Service** drop-down list, along with your chosen environment and configurations.
 1. In **Settings > Advanced Settings**, select the storage account to use, then select **Next >**.
 1. In **Diagnostics**, choose whether to send information to Application Insights.
 1. Select **Next >** to view a summary, then select **Publish** to start deployment.
@@ -71,13 +71,13 @@ All application types can be started in a browser connected to the Visual Studio
 
 The following table provides details about starting the application in Azure:
 
-   | Web Application Type | Running in Azure |
-   | --- | --- | --- |
-   | ASP.NET Web Application<br/>(including MVC 2, MVC 3, MVC 4) | Select the URL in the **Deployment** tab for the **Azure Activity log**. |
-   | ASP.NET Empty Web Application | If you have a default `.aspx` page in your application, select the URL in the **Deployment** tab for the **Azure Activity log**. To navigate to a different page, enter a URL of the following form in a browser: `<deployment_url>/<page_name>.aspx` |
-   | Silverlight Application<br/>Silverlight Business Application<br/>Silverlight Navigation Application | Navigate to the specific page for your application using the following URL form: `<deployment_url>/<page_name>.aspx` |
-    WCF Service Application<br/>WCF Workflow Service Application | Set the `.svc` file as the start page for your WCF Service project. Then navigate to `<deployment_url>/<service_file>.svc` |
-   | ASP.NET Dynamic Entities<br/>ASP.NET Dynamic Data Linq to SQL | Update the connection string as described in the next section. Then navigate to `<deployment_url>/<page_name>.aspx`. For Linq to SQL, you must use an Azure SQL database. |
+| Web Application Type | Running in Azure |
+| --- | --- |
+| ASP.NET Web Application<br/>(including MVC 2, MVC 3, MVC 4) | Select the URL in the **Deployment** tab for the **Azure Activity log**. |
+| ASP.NET Empty Web Application | If you have a default `.aspx` page in your application, select the URL in the **Deployment** tab for the **Azure Activity log**. To navigate to a different page, enter a URL of the following form in a browser: `<deployment_url>/<page_name>.aspx` |
+| Silverlight Application<br/>Silverlight Business Application<br/>Silverlight Navigation Application | Navigate to the specific page for your application using the following URL form: `<deployment_url>/<page_name>.aspx` |
+| WCF Service Application<br/>WCF Workflow Service Application | Set the `.svc` file as the start page for your WCF Service project. Then navigate to `<deployment_url>/<service_file>.svc` |
+| ASP.NET Dynamic Entities<br/>ASP.NET Dynamic Data Linq to SQL | Update the connection string as described in the next section. Then navigate to `<deployment_url>/<page_name>.aspx`. For Linq to SQL, you must use an Azure SQL database. |
 
 ## Update a Connection String for ASP.NET Dynamic Entities
 

@@ -1,17 +1,14 @@
 ---
 title: "T4 Include Directive | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 8c3de9f3-755a-47c5-a30a-65717dcaaac2
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # T4 Include Directive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -109,7 +106,7 @@ Output message 5 (from top template).
   
 ```  
   
-##  <a name="msbuild"></a> Using project properties in MSBuild and Visual Studio  
+## <a name="msbuild"></a> Using project properties in MSBuild and Visual Studio  
  Although you can use Visual Studio macros like $(SolutionDir) in an include directive, they don’t work in MSBuild. If you want to transform templates in your build machine, you have to use project properties instead.  
   
  Edit your .csproj or .vbproj file to define a project property. This example defines a property named `myIncludeFolder`:  
@@ -134,6 +131,3 @@ Output message 5 (from top template).
 ```  
 <#@ include file="$(myIncludeFolder)\defs.tt" #>  
 ```
-
-
-

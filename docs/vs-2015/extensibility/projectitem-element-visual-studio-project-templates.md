@@ -1,14 +1,9 @@
 ---
 title: "ProjectItem Element (Visual Studio Project Templates) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#ProjectItem"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 82879fbe-7756-42cd-9a07-c10edf5b4673
 caps.latest.revision: 19
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # ProjectItem Element (Visual Studio Project Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +20,7 @@ manager: "ghogen"
 Specifies a file that is included in the project template.  
   
 > [!NOTE]
->  The `ProjectItem` element accepts different attributes depending on whether the template is for a project or an item. This topic explains the `ProjectItem` element for project templates. For an explanation of the `ProjectItem` element for item templates, see [ProjectItem Element (Visual Studio Item Templates)](../extensibility/projectitem-element-visual-studio-item-templates.md).  
+> The `ProjectItem` element accepts different attributes depending on whether the template is for a project or an item. This topic explains the `ProjectItem` element for project templates. For an explanation of the `ProjectItem` element for item templates, see [ProjectItem Element (Visual Studio Item Templates)](../extensibility/projectitem-element-visual-studio-item-templates.md).  
   
  \<VSTemplate>  
  \<TemplateContent>  
@@ -89,21 +84,21 @@ Specifies a file that is included in the project template.
   
 ### To rename files with parameters  
   
-1.  Use the following XML in the .vstemplate file:  
+1. Use the following XML in the .vstemplate file:  
   
     ```  
     <ProjectItem TargetFileName="$safeprojectname$.vb">MyFile.vb</ProjectItem>  
     ```  
   
-2.  Open the project file (.vbproj for a [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] project) in a text editor or [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+2. Open the project file (.vbproj for a [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] project) in a text editor or [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
-3.  Locate the line in the project file that looks similar to the following XML:  
+3. Locate the line in the project file that looks similar to the following XML:  
   
     ```  
     <Compile Include="MyFile.vb">  
     ```  
   
-4.  Replace the line of code with the following XML:  
+4. Replace the line of code with the following XML:  
   
     ```  
     <Compile Include="$safeprojectname$.vb">  
@@ -143,4 +138,3 @@ Specifies a file that is included in the project template.
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [Template Parameters](../ide/template-parameters.md)   
  [ProjectItem Element (Visual Studio Item Templates)](../extensibility/projectitem-element-visual-studio-item-templates.md)
-

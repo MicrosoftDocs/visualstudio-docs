@@ -1,20 +1,15 @@
 ---
 title: "Simplified Embedding | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], custom - simple view embedding"
 ms.assetid: f1292478-a57d-48ec-8c9e-88a23f04ffe5
 caps.latest.revision: 17
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Simplified Embedding
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +20,7 @@ Simplified embedding is enabled in an editor when its document view object is pa
 Editor with simplified embedding  
   
 > [!NOTE]
->  Of the objects in this illustration, only the `CYourEditorFactory` object is required to create a standard file-based editor. If you are creating a custom editor, you are not required to implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2>, because your editor will likely have its own private persistence mechanism. For non-custom editors, however, you must do so.  
+> Of the objects in this illustration, only the `CYourEditorFactory` object is required to create a standard file-based editor. If you are creating a custom editor, you are not required to implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2>, because your editor will likely have its own private persistence mechanism. For non-custom editors, however, you must do so.  
   
  All interfaces implemented to create an editor with simplified embedding are contained in the `CYourEditorDocument` object. However, to support multiple views of document data, split the interfaces onto separate data and view objects as indicated in the following table.  
   
@@ -39,4 +34,3 @@ Editor with simplified embedding
 |<xref:Microsoft.VisualStudio.Shell.Interop.IPersistFileFormat>|Data|Enables the Save As feature for a file type.|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2>|Data|Enables persistence for the document.|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsDocDataFileChangeControl>|Data|Allows suppression of file change events, such as reload triggering.|
-

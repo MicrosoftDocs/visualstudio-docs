@@ -1,8 +1,6 @@
 ---
 title: "CA2224: Override equals on overloading operator equals"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2224"
@@ -14,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 7312afd9-84ba-417f-923e-7a159b53bf70
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

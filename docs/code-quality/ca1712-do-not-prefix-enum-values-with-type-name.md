@@ -1,8 +1,6 @@
 ---
 title: "CA1712: Do not prefix enum values with type name"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1712"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: df0e3a12-67bf-48f1-a10b-2ef60484a5c7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CPP
  - CSharp

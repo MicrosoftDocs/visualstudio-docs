@@ -11,9 +11,7 @@ helpviewer_keywords:
 ms.assetid: 3c4f7874-081a-4ec4-9510-4d6d7d863a11
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Specify virtual network types in a load test scenario
 
@@ -37,17 +35,17 @@ For more information, see [About the mix control](../test/specify-virtual-networ
 
 Visual Studio uses software-based true network emulation for all test types including load tests. True network emulation simulates network conditions by direct manipulation of the network packets. The true network emulator can emulate the behavior of both wired and wireless networks by using a reliable physical link, such as an Ethernet. The following network attributes are incorporated into true network emulation:
 
--   Round-trip time over the network (latency)
+- Round-trip time over the network (latency)
 
--   The amount of available bandwidth
+- The amount of available bandwidth
 
--   Queuing behavior
+- Queuing behavior
 
--   Packet loss
+- Packet loss
 
--   Reordering of packets
+- Reordering of packets
 
--   Error propagations.
+- Error propagations.
 
 True network emulation also provides flexibility in filtering network packets based on IP addresses or protocols such as TCP, UDP, and ICMP.
 
@@ -55,30 +53,30 @@ True network emulation can be used by network-based application developers and t
 
 ## To add new networks to a scenario
 
-1.  During the process of specifying the network mix for a scenario, choose **Add**.
+1. During the process of specifying the network mix for a scenario, choose **Add**.
 
      A new network entry is added to the grid.
 
     > [!NOTE]
     > To display the **Edit Network Mix** dialog box, right-click an existing scenario and then choose **Edit Network Mix**.
 
-2.  In the **Network Type** column, choose the arrow for the new entry. Choose the desired network type.
+2. In the **Network Type** column, choose the arrow for the new entry. Choose the desired network type.
 
-3.  (Optional) Adjust the mix control to specify the test distribution. For more information, see [About the mix control](../test/specify-virtual-network-types-in-a-load-test-scenario.md).
+3. (Optional) Adjust the mix control to specify the test distribution. For more information, see [About the mix control](../test/specify-virtual-network-types-in-a-load-test-scenario.md).
 
-4.  When you are finished adding networks, choose **OK**.
+4. When you are finished adding networks, choose **OK**.
 
 ## To remove networks from a scenario
 
-1.  Open a load test.
+1. Open a load test.
 
-2.  Right-click the scenario from which you want to remove a network, and choose **Edit Network Mix**. The **Edit Network Mix** dialog box is displayed.
+2. Right-click the scenario from which you want to remove a network, and choose **Edit Network Mix**. The **Edit Network Mix** dialog box is displayed.
 
-3.  Select the network in the grid and then choose **Remove**.
+3. Select the network in the grid and then choose **Remove**.
 
-4.  (Optional) Adjust the mix control to specify the test distribution. For more information, see [About the mix control](../test/specify-virtual-network-types-in-a-load-test-scenario.md).
+4. (Optional) Adjust the mix control to specify the test distribution. For more information, see [About the mix control](../test/specify-virtual-network-types-in-a-load-test-scenario.md).
 
-5.  When you are finished removing networks, choose **OK**.
+5. When you are finished removing networks, choose **OK**.
 
 ## About the mix control
 

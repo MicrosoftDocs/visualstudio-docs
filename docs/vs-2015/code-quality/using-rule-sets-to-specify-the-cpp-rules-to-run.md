@@ -1,19 +1,14 @@
 ---
 title: "Using Rule Sets to Specify the C++ Rules to Run | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 ms.assetid: ac3877e6-5349-4c03-9541-3d5be259f1e8
 caps.latest.revision: 7
 author: mikeblome
 ms.author: mblome
-manager: "ghogen"
+manager: jillfra
 ---
 # Using Rule Sets to Specify the C++ Rules to Run
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,13 +37,13 @@ In [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] and [!INCLUDE[vsUltShort
   
 #### To modify a rule set in the rule set editor  
   
--   To change the display name of the rule set, on the **View** menu, choose **Properties Window**. Enter the display name in the **Name** box. Notice that the display name can differ from the file name.  
+- To change the display name of the rule set, on the **View** menu, choose **Properties Window**. Enter the display name in the **Name** box. Notice that the display name can differ from the file name.  
   
--   To add all the rules of the group to a custom rule set, select the check box of the group. To remove all the rules of the group, clear the check box.  
+- To add all the rules of the group to a custom rule set, select the check box of the group. To remove all the rules of the group, clear the check box.  
   
--   To add a specific rule to the custom rule set, select the check box of the rule. To remove the rule from the rule set, clear the check box.  
+- To add a specific rule to the custom rule set, select the check box of the rule. To remove the rule from the rule set, clear the check box.  
   
--   To change the action taken when a rule is violated in a code analysis, choose the **Action** field for the rule and then choose one of the following values:  
+- To change the action taken when a rule is violated in a code analysis, choose the **Action** field for the rule and then choose one of the following values:  
   
      **Warn** - generates a warning.  
   
@@ -58,23 +53,20 @@ In [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] and [!INCLUDE[vsUltShort
   
 #### To group, filter, or change the fields in the rule set editor by using the rule set editor toolbar  
   
--   To expand the rules in all groups, choose **Expand All**.  
+- To expand the rules in all groups, choose **Expand All**.  
   
--   To collapse the rules in all groups, choose **Collapse All**.  
+- To collapse the rules in all groups, choose **Collapse All**.  
   
--   To change the field that rules are grouped by, choose the field from the **Group By** list. To display the rules ungrouped, choose **\<None>**.  
+- To change the field that rules are grouped by, choose the field from the **Group By** list. To display the rules ungrouped, choose **\<None>**.  
   
--   To add or remove fields in rule columns, choose **Column Options**.  
+- To add or remove fields in rule columns, choose **Column Options**.  
   
--   To hide rules that do not apply to the current solution, choose **Hide rules that do not apply to the current solution**.  
+- To hide rules that do not apply to the current solution, choose **Hide rules that do not apply to the current solution**.  
   
--   To switch between showing and hiding rules that are assigned the Error action, choose **Show rules that can generate Code Analysis errors**.  
+- To switch between showing and hiding rules that are assigned the Error action, choose **Show rules that can generate Code Analysis errors**.  
   
--   To switch between showing and hiding rules that are assigned the Warning action, choose **Show rules that can generate Code Analysis warnings**.  
+- To switch between showing and hiding rules that are assigned the Warning action, choose **Show rules that can generate Code Analysis warnings**.  
   
--   To switch between showing and hiding rules that are assigned the **None** action, choose **Show rules that are not enabled**.  
+- To switch between showing and hiding rules that are assigned the **None** action, choose **Show rules that are not enabled**.  
   
--   To add or remove Microsoft default rule sets to the current rule set, choose **Add or remove child rule sets**.
-
-
-
+- To add or remove Microsoft default rule sets to the current rule set, choose **Add or remove child rule sets**.

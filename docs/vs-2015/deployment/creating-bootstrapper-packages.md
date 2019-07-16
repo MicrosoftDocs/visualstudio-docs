@@ -1,14 +1,9 @@
 ---
 title: "Creating Bootstrapper Packages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -25,7 +20,7 @@ ms.assetid: ba1a785b-693d-446b-bcae-b88cadee73d1
 caps.latest.revision: 47
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Creating Bootstrapper Packages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -104,7 +99,7 @@ HKLM\Software\Wow6432Node\Microsoft\GenericBootstrapper\11.0
 |ApplicationName|The name of the application.|  
 |ProcessorArchitecture|The processor and bits-per-word of the platform targeted by an executable. Values include the following:<br /><br /> -   Intel<br />-   IA64<br />-   AMD64|  
 |[Version9x](https://msdn.microsoft.com/library/aa372490\(v=vs.140\).aspx)|The version number for Microsoft Windows 95, Windows 98, or Windows ME operating systems. The syntax of the version is Major.Minor.ServicePack.|  
-|[VersionNT](https://msdn.microsoft.com/library/aa372495\(v=vs.140\).xaspx)|The version number for the Windows NT, Windows 2000, Windows XP, Windows Vista, Windows Server 2008, or Windows 7 operating systems. The syntax of the version is Major.Minor.ServicePack.|  
+|[VersionNT](/windows/desktop/Msi/versionnt)|The version number for the Windows NT, Windows 2000, Windows XP, Windows Vista, Windows Server 2008, or Windows 7 operating systems. The syntax of the version is Major.Minor.ServicePack.|  
 |[VersionMSI](https://msdn.microsoft.com/library/aa372493\(v=vs.140\).aspx)|The version of the Windows Installer assembly (msi.dll) run during the installation.|  
 |[AdminUser](https://msdn.microsoft.com/library/aa367545\(v=vs.140\).aspx)|This property is set if the user has administrator privileges. Values are true or false.|  
 |InstallMode|The installation mode indicates where the component needs to be installed from. Values include the following:<br /><br /> -   HomeSite - prerequisites are installed from the vendor's Web site.<br />-   SpecificSite - prerequisites are installed from the location that you select.<br />-   SameSite - prerequisites are installed from the same location as the application.|  
@@ -128,6 +123,3 @@ HKLM\Software\Wow6432Node\Microsoft\GenericBootstrapper\11.0
  [Prerequisites Dialog Box](../ide/reference/prerequisites-dialog-box.md)   
  [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)   
  [Use the Visual Studio 2005 Bootstrapper to Kick-Start Your Installation](http://go.microsoft.com/fwlink/?LinkId=107537)
-
-
-

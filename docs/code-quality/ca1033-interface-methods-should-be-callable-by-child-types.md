@@ -1,8 +1,6 @@
 ---
 title: "CA1033: Interface methods should be callable by child types"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "InterfaceMethodsShouldBeCallableByChildTypes"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 9f171497-a5e3-4769-a77b-7aed755b2662
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

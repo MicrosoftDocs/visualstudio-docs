@@ -1,17 +1,12 @@
 ---
 title: "VSSDK Samples | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 ms.assetid: 6aefb510-64cd-4a16-882b-58ada1db02bf
 caps.latest.revision: 17
-manager: "douge"
+manager: jillfra
 ---
 # VSSDK Samples
 The official home for Visual Studio Extensibility samples is the [MSDN Code Gallery](http://go.microsoft.com/fwlink/?LinkID=127810) Web site. The site contains introductory samples, samples that illustrate new features in Visual Studio, deep dive documentation, links to shared source projects, and other resources to help you extend Visual Studio. To see a list of these resources, type **VSX** in the **Search for Samples** box on the home page.  

@@ -1,8 +1,6 @@
 ---
 title: "CA1811: Avoid uncalled private code"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "AvoidUncalledPrivateCode"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: aadbba74-7821-475f-8980-34d17c0a0a8b
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

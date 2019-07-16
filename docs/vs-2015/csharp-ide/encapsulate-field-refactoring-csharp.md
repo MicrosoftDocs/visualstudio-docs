@@ -1,14 +1,9 @@
 ---
 title: "Encapsulate Field Refactoring (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords: 
   - "vs.csharp.refactoring.encapsulatefield"
 dev_langs: 
@@ -20,22 +15,22 @@ ms.assetid: bf714a04-ab1e-49ce-99ce-dda1ebb1a17f
 caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
-manager: "wpickett"
+manager: jillfra
 ---
 # Encapsulate Field Refactoring (C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 The **Encapsulate Field** refactoring operation enables you to quickly create a property from an existing field, and then seamlessly update your code with references to the new property.  
   
- When a [field](http://msdn.microsoft.com/library/3cbb2f61-75f8-4cce-b4ef-f5d1b3de0db7) is [public](http://msdn.microsoft.com/library/0ae45d16-a551-4b74-9845-57208de1328e), other objects have direct access to that field and can modify it, undetected by the object that owns that field. By using [properties](http://msdn.microsoft.com/library/e295a8a2-b357-4ee7-a12e-385a44146fa8) to encapsulate that field, you can disallow direct access to fields.  
+ When a [field](https://msdn.microsoft.com/library/3cbb2f61-75f8-4cce-b4ef-f5d1b3de0db7) is [public](https://msdn.microsoft.com/library/0ae45d16-a551-4b74-9845-57208de1328e), other objects have direct access to that field and can modify it, undetected by the object that owns that field. By using [properties](https://msdn.microsoft.com/library/e295a8a2-b357-4ee7-a12e-385a44146fa8) to encapsulate that field, you can disallow direct access to fields.  
   
- To create the new property, the **Encapsulate Field** operation changes the access modifier for the field that you want to encapsulate to [private](http://msdn.microsoft.com/library/654c0bb8-e6ac-4086-bf96-7474fa6aa1c8), and then generates [get](http://msdn.microsoft.com/library/a52de048-fbe0-41b0-82ec-8e4ac04d3a71) and [set](http://msdn.microsoft.com/library/30d7e4e5-cc2e-4635-a597-14a724879619) accessors for that field. In some cases, only a `get` accessor is generated, such as when the field is declared read-only.  
+ To create the new property, the **Encapsulate Field** operation changes the access modifier for the field that you want to encapsulate to [private](https://msdn.microsoft.com/library/654c0bb8-e6ac-4086-bf96-7474fa6aa1c8), and then generates [get](https://msdn.microsoft.com/library/a52de048-fbe0-41b0-82ec-8e4ac04d3a71) and [set](https://msdn.microsoft.com/library/30d7e4e5-cc2e-4635-a597-14a724879619) accessors for that field. In some cases, only a `get` accessor is generated, such as when the field is declared read-only.  
   
  The refactoring engine updates your code with references to the new property in the areas specified in the **Update References** section of the **Encapsulate Field** dialog box.  
   
 ### To create a property from a field  
   
-1.  Create a console application named `EncapsulateFieldExample`, and then replace `Program` with the following example code.  
+1. Create a console application named `EncapsulateFieldExample`, and then replace `Program` with the following example code.  
   
     ```csharp  
     class Square  
@@ -57,13 +52,13 @@ The **Encapsulate Field** refactoring operation enables you to quickly create a 
     }  
     ```  
   
-2.  In the [Code Editor](../ide/writing-code-in-the-code-and-text-editor.md), place the cursor in the declaration, on the name of the field that you want to encapsulate. In the example below, place the cursor on the word `width`:  
+2. In the [Code Editor](../ide/writing-code-in-the-code-and-text-editor.md), place the cursor in the declaration, on the name of the field that you want to encapsulate. In the example below, place the cursor on the word `width`:  
   
     ```csharp  
     public int width, height;  
     ```  
   
-3.  On the **Refactor** menu, click **Encapsulate Field**.  
+3. On the **Refactor** menu, click **Encapsulate Field**.  
   
      The **Encapsulate Field** dialog box appears.  
   
@@ -71,11 +66,11 @@ The **Encapsulate Field** refactoring operation enables you to quickly create a 
   
      You can also right-click the cursor, point to **Refactor**, and then click **Encapsulate Field** to display the **Encapsulate Field** dialog box.  
   
-4.  Specify settings.  
+4. Specify settings.  
   
-5.  Press ENTER, or click the **OK** button.  
+5. Press ENTER, or click the **OK** button.  
   
-6.  If you selected the **Preview reference changes** option, then the **Preview Reference Changes** window opens. Click the **Apply** button.  
+6. If you selected the **Preview reference changes** option, then the **Preview Reference Changes** window opens. Click the **Apply** button.  
   
      The following `get` and `set` accessor code is displayed in your source file:  
   

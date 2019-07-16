@@ -2,14 +2,12 @@
 title: "Workflow Designer - Throw Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.Throw.UI"
 ms.assetid: 5e97c947-be39-4a1f-af04-000e2e09528a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

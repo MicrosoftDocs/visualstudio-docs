@@ -1,52 +1,49 @@
 ---
 title: "IDebugErrorBreakpointResolution2 | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "IDebugErrorBreakpointResolution2"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugErrorBreakpointResolution2"
 ms.assetid: b1234216-0ac8-461d-b2a7-54f60f8f3262
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # IDebugErrorBreakpointResolution2
-This interface represents the resolution of a breakpoint error.  
-  
-## Syntax  
-  
-```  
-IDebugErrorBreakpointResolution2 : IUnknown  
-```  
-  
-## Notes for Implementers  
- A debug engine implements this interface as part of its support for breakpoints. This interface is used to report where a breakpoint failed to bind.  
-  
-## Notes for Callers  
- A call to [GetBreakpointResolution](../../../extensibility/debugger/reference/idebugerrorbreakpoint2-getbreakpointresolution.md) returns this interface to provide information about where the breakpoint failed to bind. The [GetErrorBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2-geterrorbreakpoint.md) method obtains the [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) interface.  
-  
-## Methods in Vtable Order  
- The following table shows the methods of `IDebugErrorBreakpointResolution2`.  
-  
-|Method|Description|  
-|------------|-----------------|  
-|[GetBreakpointType](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2-getbreakpointtype.md)|Gets the breakpoint type.|  
-|[GetResolutionInfo](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2-getresolutioninfo.md)|Gets the breakpoint resolution information.|  
-  
-## Requirements  
- Header: msdbg.h  
-  
- Namespace: Microsoft.VisualStudio.Debugger.Interop  
-  
- Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
-  
-## See Also  
- [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md)   
- [GetBreakpointResolution](../../../extensibility/debugger/reference/idebugerrorbreakpoint2-getbreakpointresolution.md)   
- [GetErrorBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2-geterrorbreakpoint.md)
+This interface represents the resolution of a breakpoint error.
+
+## Syntax
+
+```
+IDebugErrorBreakpointResolution2 : IUnknown
+```
+
+## Notes for Implementers
+ A debug engine implements this interface as part of its support for breakpoints. This interface is used to report where a breakpoint failed to bind.
+
+## Notes for Callers
+ A call to [GetBreakpointResolution](../../../extensibility/debugger/reference/idebugerrorbreakpoint2-getbreakpointresolution.md) returns this interface to provide information about where the breakpoint failed to bind. The [GetErrorBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2-geterrorbreakpoint.md) method obtains the [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) interface.
+
+## Methods in Vtable Order
+ The following table shows the methods of `IDebugErrorBreakpointResolution2`.
+
+|Method|Description|
+|------------|-----------------|
+|[GetBreakpointType](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2-getbreakpointtype.md)|Gets the breakpoint type.|
+|[GetResolutionInfo](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2-getresolutioninfo.md)|Gets the breakpoint resolution information.|
+
+## Requirements
+ Header: msdbg.h
+
+ Namespace: Microsoft.VisualStudio.Debugger.Interop
+
+ Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
+
+## See also
+- [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md)
+- [GetBreakpointResolution](../../../extensibility/debugger/reference/idebugerrorbreakpoint2-getbreakpointresolution.md)
+- [GetErrorBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2-geterrorbreakpoint.md)

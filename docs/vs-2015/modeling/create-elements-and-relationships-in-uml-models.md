@@ -1,19 +1,16 @@
 ---
 title: "Create elements and relationships in UML models | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML API"
 ms.assetid: cae81d32-8cc7-4f7c-9f00-20119952bc51
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Create elements and relationships in UML models
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,11 +81,11 @@ using Microsoft.VisualStudio.Uml.Extensions;
   
 #### To create an association  
   
-1.  Obtain the owner of the association, which is usually the package or model containing the source end of the relationship.  
+1. Obtain the owner of the association, which is usually the package or model containing the source end of the relationship.  
   
-2.  Invoke the required Create method on the owner.  
+2. Invoke the required Create method on the owner.  
   
-3.  Set the relationship's properties such as its name.  
+3. Set the relationship's properties such as its name.  
   
      For example:  
   
@@ -97,7 +94,7 @@ using Microsoft.VisualStudio.Uml.Extensions;
     association .Name = "Observes";  
     ```  
   
-4.  Set the properties of each end of the relationship. There are always two `MemberEnds`. For example:  
+4. Set the properties of each end of the relationship. There are always two `MemberEnds`. For example:  
   
     ```  
     association .MemberEnds[0].Name = "subject";   // role name  
@@ -122,13 +119,10 @@ anElement.Delete();
   
  When you delete an element from a model:  
   
--   Every relationship that links to it is also deleted.  
+- Every relationship that links to it is also deleted.  
   
--   Every shape that represented it on a diagram is also deleted.  
+- Every shape that represented it on a diagram is also deleted.  
   
 ## See Also  
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   
  [Display a UML model on diagrams](../modeling/display-a-uml-model-on-diagrams.md)
-
-
-

@@ -1,8 +1,6 @@
 ---
 title: "CA1816: Call GC.SuppressFinalize correctly"
 ms.date: 06/30/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1816"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 47915fbb-103f-4333-b157-1da16bf49660
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

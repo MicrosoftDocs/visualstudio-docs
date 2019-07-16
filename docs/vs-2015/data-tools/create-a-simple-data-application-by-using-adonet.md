@@ -1,12 +1,9 @@
 ---
 title: "Create a simple data application by using ADO.NET | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,32 +13,31 @@ ms.assetid: 2222841f-e443-4a3d-8c70-4506aa905193
 caps.latest.revision: 46
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Create a simple data application by using ADO.NET
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you create an application that manipulates data in a database, you perform basic tasks such defining connection strings, inserting data, and running stored procedures. By following this topic, you can discover how to interact with a database from within a simple Windows Forms "forms over data" application by using Visual C# or Visual Basic and ADO.NET.  All .NET data technologies—including datasets, LINQ to SQL, and Entity Framework—ultimately perform steps that are very similar to those shown in this article.  
   
  This article demonstrates a simple way to get data out of a database in a very fast manner. If your application needs to modify data in non-trivial ways and update the database, you should consider using Entity Framework and using data binding to automatically sync user interface controls to changes in the underlying data.  
   
 > [!IMPORTANT]
->  To keep the code simple, it doesn’t include production-ready exception handling.  
+> To keep the code simple, it doesn’t include production-ready exception handling.  
   
  **In this topic**  
   
--   [Set up the sample database](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_setupthesampledatabase)  
+- [Set up the sample database](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_setupthesampledatabase)  
   
--   [Create the forms and add controls](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_createtheformsandaddcontrols)  
+- [Create the forms and add controls](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_createtheformsandaddcontrols)  
   
--   [Store the connection string](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_storetheconnectionstring)  
+- [Store the connection string](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_storetheconnectionstring)  
   
--   [Retrieve the connection string](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_retrievetheconnectionstring)  
+- [Retrieve the connection string](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_retrievetheconnectionstring)  
   
--   [Write the code for the forms](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_writethecodefortheforms)  
+- [Write the code for the forms](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_writethecodefortheforms)  
   
--   [Test your application](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_testyourapplication)  
+- [Test your application](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_testyourapplication)  
   
 ## Prerequisites  
  To create the application, you'll need:  
@@ -56,10 +52,10 @@ When you create an application that manipulates data in a database, you perform 
   
   This topic assumes that you're familiar with the basic functionality of the Visual Studio IDE and can create a Windows Forms application, add forms to that project, put buttons and other controls on those forms, set properties of those controls, and code simple events. If you aren't comfortable with these tasks, we suggest that you complete the [Getting Started with Visual C# and Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md) before you start this topic.  
   
-##  <a name="BKMK_setupthesampledatabase"></a> Set up the sample database  
+## <a name="BKMK_setupthesampledatabase"></a> Set up the sample database  
  The sample database for this walkthrough consists of the Customer and Orders tables. The tables contain no data initially, but you’ll add data when you run the application that you'll create. The database also has five simple stored procedures. [Create a SQL database by using a script](../data-tools/create-a-sql-database-by-using-a-script.md) contains a Transact-SQL script that creates the tables, the primary and foreign keys, the constraints, and the stored procedures.  
   
-##  <a name="BKMK_createtheformsandaddcontrols"></a> Create the forms and add controls  
+## <a name="BKMK_createtheformsandaddcontrols"></a> Create the forms and add controls  
   
 1. Create a project for a Windows Forms application, and then name it SimpleDataApp.  
   
@@ -67,16 +63,16 @@ When you create an application that manipulates data in a database, you perform 
   
 2. Add two Windows forms to your project so that it has three forms, and then give them the following names:  
   
-   -   Navigation  
+   - Navigation  
   
-   -   NewCustomer  
+   - NewCustomer  
   
-   -   FillOrCancel  
+   - FillOrCancel  
   
 3. For each form, add the text boxes, buttons, and other controls that appear in the following illustrations. For each control, set the properties that the tables describe.  
   
    > [!NOTE]
-   >  The group box and the label controls add clarity but aren't used in the code.  
+   > The group box and the label controls add clarity but aren't used in the code.  
   
    **Navigation form**  
   
@@ -117,33 +113,33 @@ When you create an application that manipulates data in a database, you perform 
 |Button|Name = btnFillOrder|  
 |Button|Name = btnFinishUpdates|  
   
-##  <a name="BKMK_storetheconnectionstring"></a> Store the connection string  
+## <a name="BKMK_storetheconnectionstring"></a> Store the connection string  
  When your application tries to open a connection to the database, your application must have access to the connection string. To avoid entering the string manually on each form, store the string in the App config file in your project, and create a method that returns the string when the method is called from any form in your application.  
   
  You can find the connection string in **SQL Server Object Explorer** by right-clicking the database, selecting **Properties**, and then finding the ConnectionString property. Use Ctrl+A to select the string.  
   
-1.  In **Solution Explorer**, select the **Properties** node under the project, and then select **Settings.settings**.  
+1. In **Solution Explorer**, select the **Properties** node under the project, and then select **Settings.settings**.  
   
-2.  In the **Name** column, enter `connString`.  
+2. In the **Name** column, enter `connString`.  
   
-3.  In the **Type** list, select **(Connection String)**.  
+3. In the **Type** list, select **(Connection String)**.  
   
-4.  In the **Scope** list, select **Application**.  
+4. In the **Scope** list, select **Application**.  
   
-5.  In the **Value** column, enter your connection string (without any outside quotes), and then save your changes.  
+5. In the **Value** column, enter your connection string (without any outside quotes), and then save your changes.  
   
 > [!NOTE]
->  In a real application, you should store the connection string securely, as described in [Connection Strings and Configuration Files](http://msdn.microsoft.com/library/37df2641-661e-407a-a3fb-7bf9540f01e8).  
+> In a real application, you should store the connection string securely, as described in [Connection Strings and Configuration Files](https://msdn.microsoft.com/library/37df2641-661e-407a-a3fb-7bf9540f01e8).  
   
-##  <a name="BKMK_retrievetheconnectionstring"></a> Retrieve the connection string  
+## <a name="BKMK_retrievetheconnectionstring"></a> Retrieve the connection string  
   
-1.  On the menu bar, select **Project** > **Add Reference**, and then add a reference to System.Configuration.dll.  
+1. On the menu bar, select **Project** > **Add Reference**, and then add a reference to System.Configuration.dll.  
   
-2.  On the menu bar, select **Project** > **Add Class** to add a class file to your project, and then name the file `Utility`.  
+2. On the menu bar, select **Project** > **Add Class** to add a class file to your project, and then name the file `Utility`.  
   
      Visual Studio creates the file and displays it in **Solution Explorer**.  
   
-3.  In the Utility file, replace the placeholder code with the following code. Notice the numbered comments (prefixed with Util-) that identify sections of the code. The table that follows the code calls out key points.  
+3. In the Utility file, replace the placeholder code with the following code. Notice the numbered comments (prefixed with Util-) that identify sections of the code. The table that follows the code calls out key points.  
   
     ```csharp  
     using System;  
@@ -217,7 +213,7 @@ When you create an application that manipulates data in a database, you perform 
     |Util-2|Define a variable, `returnValue`, and initialize it to `null` (C#) or `Nothing` (Visual Basic).|  
     |Util-3|Even though you entered `connString` as the name of the connection string in the **Properties** window, you must specify `"SimpleDataApp.Properties.Settings.connString"` (C#) or `"SimpleDataApp.My.MySettings.connString"` (Visual Basic) in the code.|  
   
-##  <a name="BKMK_writethecodefortheforms"></a> Write the code for the forms  
+## <a name="BKMK_writethecodefortheforms"></a> Write the code for the forms  
  This section contains brief overviews of what each form does and shows the code that creates the forms. Numbered comments identify sections of the code.  
   
 ### Navigation form  
@@ -724,7 +720,7 @@ End Namespace
 |NC-12|Use the `ExecuteNonQuery` method for  `cmdNewCustomer` to run the `Sales.uspNewCustomer` stored procedure. This stored procedure runs an `INSERT` statement, not a query.|  
 |NC-13|The `@CustomerID` value is returned as an IDENTITY value from the database. Because it's an integer, you'll have to convert it to a string to display it in the **Customer ID** text box.<br /><br /> -   You declared `parsedCustomerID` at NC-2.<br />-   Store the `@CustomerID` value in `parsedCustomerID` for later use.<br />-   Convert the returned customer ID to a string, and insert it into `txtCustomerID.Text`.|  
 |NC-14|For this sample, add a simple (not production-quality) catch clause.|  
-|NC-15|Always close a connection after you finish using it, so that it can be released to the connection pool. See [SQL Server Connection Pooling (ADO.NET)](http://msdn.microsoft.com/library/8xx3tyca\(l=en-us,v=VS.110\).aspx).|  
+|NC-15|Always close a connection after you finish using it, so that it can be released to the connection pool. See [SQL Server Connection Pooling (ADO.NET)](https://msdn.microsoft.com/library/8xx3tyca\(l=en-us,v=VS.110\).aspx).|  
 |NC-16|Define a method to verify that a customer name is present.<br /><br /> -   If the text box is empty, display a message and return `false`, because a name is required to create the account.<br />-   If the text box isn't empty, return `true`.|  
 |NC-17|Add code to the Click event handler for the `btnPlaceOrder` button.|  
 |NC-18|Wrap the call to `isPlaceOrderReady` around the `btnPlaceOrder_Click` event code so that `uspPlaceNewOrder` doesn't run if required input isn't present.|  
@@ -1137,6 +1133,5 @@ End Namespace
 |FC-8|Add code to the Click event handler for `btnFillOrder`. This code runs the `Sales.uspFillOrder` stored procedure.|  
 |FC-9|Create a method to verify that `OrderID` is ready to submit as a parameter to the `SqlCommand` object.<br /><br /> -   Make sure that an ID has been entered in `txtOrderID`.<br />-   Use `Regex.IsMatch` to define a simple check for non-integer characters.<br />-   You declared the `parsedOrderID` variable at FC-2.<br />-   If the input is valid, convert the text to an integer, and store the value in the `parsedOrderID` variable.<br />-   Wrap the `isOrderID` method around the `btnFindByOrderID`, `btnCancelOrder`, and `btnFillOrder` Click event handlers.|  
   
-##  <a name="BKMK_testyourapplication"></a> Test your application  
+## <a name="BKMK_testyourapplication"></a> Test your application  
  Select the F5 key to build and test your application after you code each Click event handler, and then after you finish coding.
-

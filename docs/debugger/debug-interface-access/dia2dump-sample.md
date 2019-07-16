@@ -1,8 +1,6 @@
 ---
 title: "Dia2dump Sample | Microsoft Docs"
-ms.custom: ""
 ms.date: "07/24/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs:
   - "C++"
@@ -12,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 492c0893-7043-452f-a020-890a47230d20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -38,7 +36,7 @@ By default, the installation directory is a protected directory. That means you 
 
 1. In **Solution Explorer**, select the Dia2Dump project (not the solution).
 
-1. Open the project's **Property Pages** dialog box. For details, see [Working with Project Properties](/cpp/ide/working-with-project-properties).
+1. Open the project's **Property Pages** dialog box. For details, see [Working with Project Properties](/cpp/build/working-with-project-properties).
 
 1. Open the **Configuration Properties** > **C/C++** > **General** property page.
 
@@ -60,7 +58,7 @@ By default, the installation directory is a protected directory. That means you 
 
 ## Run the Dia2Dump sample
 
-Dia2Dump.exe relies on the msdia*version*.dll COM server to provide its services. In Visual Studio 2015 and Visual Studio 2017, the version is msdia140.dll. If the msdia*version*.dll COM server isn't initialized, you must register it before dia2dump.exe can work. The DIA SDK directory has a bin subdirectory that contains the x86 version of the DLL. A version for x64 architecture machines is in bin\amd64, and a version for ARM is in bin\arm. To register the dll, open an elevated Developer command prompt window, and change to the directory that contains the version for your machine architecture. Enter the command `regsvr32 msdia140.dll` to register the COM server.
+Dia2Dump.exe relies on the msdia*version*.dll COM server to provide its services. Starting in Visual Studio 2015, the version is msdia140.dll. If the msdia*version*.dll COM server isn't initialized, you must register it before dia2dump.exe can work. The DIA SDK directory has a bin subdirectory that contains the x86 version of the DLL. A version for x64 architecture machines is in bin\amd64, and a version for ARM is in bin\arm. To register the dll, open an elevated Developer command prompt window, and change to the directory that contains the version for your machine architecture. Enter the command `regsvr32 msdia140.dll` to register the COM server.
 
 ### To run the sample
 
@@ -72,4 +70,4 @@ Dia2Dump.exe relies on the msdia*version*.dll COM server to provide its services
 
 ## See also
 
-- [Port, Migrate, and Upgrade Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md)  
+- [Port, Migrate, and Upgrade Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md)

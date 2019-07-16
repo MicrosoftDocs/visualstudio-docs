@@ -1,21 +1,16 @@
 ---
 title: "Optional Comparison of Local Project Folder to Source Control Store | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control plug-ins, comparing versions"
   - "source control plug-ins, local project folders"
 ms.assetid: 65217e8b-15a6-4446-92b0-4cff1c6220f5
 caps.latest.revision: 15
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Optional Comparison of Local Project Folder to Source Control Store
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,8 +32,7 @@ In Source control Plug-in API 1.2 the comparison between the local project folde
  The `SccDirQueryInfo` function is called before `SccDirDiff` to determine if the working directory is source-controlled. The `SccDirDiff` function displays the differences between the current local directory and the corresponding source control folder. This command asks the source control plug-in to display the list of changes to the directory. A source control plug-in provides its own UI to display the differences.  
   
 > [!NOTE]
->  This function uses the same command flags as [SccDiff](../../extensibility/sccdiff-function.md). As a source control plug-in provider, you may choose to not support the "quick diff" operation for directories.  
+> This function uses the same command flags as [SccDiff](../../extensibility/sccdiff-function.md). As a source control plug-in provider, you may choose to not support the "quick diff" operation for directories.  
   
 ## See Also  
  [What's New in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)
-

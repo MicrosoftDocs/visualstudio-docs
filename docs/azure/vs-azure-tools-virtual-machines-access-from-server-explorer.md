@@ -2,10 +2,8 @@
 title: Accessing Azure Virtual Machines from Server Explorer | Microsoft Docs
 description: Get an overview of how to view create and manage Azure virtual machines (VMs) in Server Explorer in Visual Studio.
 author: ghogen
-manager: douge
+manager: jillfra
 assetId: eb3afde6-ba90-4308-9ac1-3cc29da4ede0
-ms.prod: visual-studio-dev15
-ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
@@ -29,7 +27,7 @@ If you have virtual machines hosted by Azure, you can access them in Server Expl
    | Status |Values include Starting, Started, Stopping, Stopped, and Retrieving Status. If Retrieving Status appears, the current status is unknown. The values for this property differ from the values that are used on the [Azure portal](http://go.microsoft.com/fwlink/p/?LinkID=525040). |
    | SubscriptionID |The subscription ID for your Azure account. You can show this information on the [Azure portal](http://go.microsoft.com/fwlink/p/?LinkID=525040) by viewing the properties for a subscription. |
 2. Choose an endpoint node, and then view the **Properties** window.
-3. The following table describes the available properties of endpoints, but they are read-only. To add or edit the endpoints for a virtual machine, use the [Azure portal](http://go.microsoft.com/fwlink/p/?LinkID=525040). 
+3. The following table describes the available properties of endpoints, but they are read-only. To add or edit the endpoints for a virtual machine, use the [Azure portal](http://go.microsoft.com/fwlink/p/?LinkID=525040).
 
    | Property | Description |
    | --- | --- |

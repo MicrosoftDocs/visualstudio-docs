@@ -1,14 +1,9 @@
 ---
 title: "Troubleshooting .NET Framework Targeting Errors | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: troubleshooting
 f1_keywords: 
   - "vs.FrameworkTargetingErrors"
   - "MSBuild.ResolveAssemblyReference.FailedToResolveReferenceBecausePrimaryAssemblyInExclusionList"
@@ -22,12 +17,11 @@ ms.assetid: 830e3e45-9a93-4279-a249-75b84599aefb
 caps.latest.revision: 32
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Troubleshooting .NET Framework Targeting Errors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes MSBuild errors that might occur because of reference issues and how you can resolve those errors.  
   
 ## You Have Referenced a Project or Assembly That Targets a Different Version of the .NET Framework  
@@ -54,13 +48,10 @@ This topic describes MSBuild errors that might occur because of reference issues
 ```  
   
 > [!NOTE]
->  After you close and reopen your project, you should also rebuild it to ensure that all references resolve correctly.  
+> After you close and reopen your project, you should also rebuild it to ensure that all references resolve correctly.  
   
 ## See Also  
  [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md)   
- [.NET Framework Client Profile](http://msdn.microsoft.com/library/f0219919-1f02-4588-8704-327a62fd91f1)   
+ [.NET Framework Client Profile](https://msdn.microsoft.com/library/f0219919-1f02-4588-8704-327a62fd91f1)   
  [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md)   
  [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)
-
-
-

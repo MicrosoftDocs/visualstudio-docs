@@ -1,19 +1,16 @@
 ---
 title: "Read models and diagrams in other Visual Studio editions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "models, versions of Visual Studio"
 ms.assetid: 46eee279-a9e4-4742-a024-5bd2cf032b86
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Read models and diagrams in other Visual Studio editions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,20 +25,20 @@ When you open a model in a version of Visual Studio that does not support model 
  For this reason, if you want to read a UML diagram or layer diagram, you must also have access to the modeling project in which it was created. You can do this either by accessing the project from [!INCLUDE[esprscc](../includes/esprscc-md.md)], or by obtaining a copy of the project files.  
   
 > [!NOTE]
->  This does not apply to code maps and .NET class diagrams generated from code. Those diagrams can be viewed independently of a modeling project.  
+> This does not apply to code maps and .NET class diagrams generated from code. Those diagrams can be viewed independently of a modeling project.  
   
  To read a UML diagram or a layer diagram, the minimum set of files that you need is as follows:  
   
--   The two diagram files for the diagram that you want to read, for example, **MyDiagram.classdiagram and MyDiagram.classdiagram.layout**.  
+- The two diagram files for the diagram that you want to read, for example, **MyDiagram.classdiagram and MyDiagram.classdiagram.layout**.  
   
     > [!NOTE]
-    >  For Layer diagrams, you should also have the file that is named _MyDiagram_**.layerdiagram.suppressions**.  
+    > For Layer diagrams, you should also have the file that is named _MyDiagram_**.layerdiagram.suppressions**.  
   
--   The modeling project file (**MyModel.modelproj**)  
+- The modeling project file (**MyModel.modelproj**)  
   
--   The root model file (**ModelDefinition\MyModel.uml**)  
+- The root model file (**ModelDefinition\MyModel.uml**)  
   
--   The package files for any package referenced in the diagram (**ModelDefinition\MyPackage.uml**)  
+- The package files for any package referenced in the diagram (**ModelDefinition\MyPackage.uml**)  
   
 ## Changes that you can Make in Read-Only Mode  
  If you open a model and its diagrams in a version of Visual Studio that does not support model creation, you cannot change the model. That is, you cannot change the elements and relationships that are displayed on the diagrams or in the model explorer. However, you can make some changes to the layout of the diagrams:  
@@ -52,7 +49,7 @@ When you open a model in a version of Visual Studio that does not support model 
   
   You can save these changes. If you want to make your changes visible to other users, you must at least send the updated **.layout** files.  
   
-##  <a name="RelatedTopics"></a> Related Topics  
+## <a name="RelatedTopics"></a> Related Topics  
   
 |Title|Description|  
 |-----------|-----------------|  
@@ -65,6 +62,3 @@ When you open a model in a version of Visual Studio that does not support model 
   
 ## See Also  
  [Create models for your app](../modeling/create-models-for-your-app.md)
-
-
-

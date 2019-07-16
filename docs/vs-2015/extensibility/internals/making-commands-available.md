@@ -1,14 +1,9 @@
 ---
 title: "Making Commands Available | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "menus [Visual Studio SDK], commands"
   - "best practices, menu and toolbar commands"
@@ -17,16 +12,16 @@ helpviewer_keywords:
 ms.assetid: 3ffc4312-c6db-4759-a946-a4bb85f4a17a
 caps.latest.revision: 36
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Making Commands Available
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 When multiple VSPackages are added to Visual Studio, the user interface (UI) may become overcrowded with commands. You can program your package to help reduce this problem, as follows:  
   
--   Program the package so that it is loaded only when a user requires it.  
+- Program the package so that it is loaded only when a user requires it.  
   
--   Program the package so that its commands are displayed only when they may be required in the context of the current state of the integrated development environment (IDE).  
+- Program the package so that its commands are displayed only when they may be required in the context of the current state of the integrated development environment (IDE).  
   
 ## Delayed Loading  
  The typical way to enable delayed loading is to design the VSPackage so that its commands are displayed in the UI, but the package itself is not loaded until a user clicks one of the commands. To accomplish this, in the .vsct file, create commands that have no command flags.  
@@ -93,14 +88,14 @@ When multiple VSPackages are added to Visual Studio, the user interface (UI) may
 ### Custom Context GUIDs  
  If an appropriate command context GUID is not already defined, you can define one in your VSPackage and then program it to be active or inactive as required to control the visibility of your commands. Use the <xref:Microsoft.VisualStudio.Shell.Interop.SVsShellMonitorSelection> service to:  
   
--   Register context GUIDs (by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCmdUIContextCookie%2A> method).  
+- Register context GUIDs (by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCmdUIContextCookie%2A> method).  
   
--   Get the state of a context `GUID` (by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A> method).  
+- Get the state of a context `GUID` (by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A> method).  
   
--   Turn context `GUID`s on and off (by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.SetCmdUIContext%2A> method).  
+- Turn context `GUID`s on and off (by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.SetCmdUIContext%2A> method).  
   
     > [!CAUTION]
-    >  Make sure that your VSPackage does not affect the state of any existing context GUID because other VSPackages may depend on them.  
+    > Make sure that your VSPackage does not affect the state of any existing context GUID because other VSPackages may depend on them.  
   
 ## Example  
  The following example of a VSPackage command demonstrates the dynamic visibility of a command that is managed by command contexts without loading the VSPackage.  
@@ -150,4 +145,3 @@ When multiple VSPackages are added to Visual Studio, the user interface (UI) may
  [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Command Routing in VSPackages](../../extensibility/internals/command-routing-in-vspackages.md)   
  [Dynamically Adding Menu Items](../../extensibility/dynamically-adding-menu-items.md)
-

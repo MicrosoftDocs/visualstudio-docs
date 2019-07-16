@@ -1,8 +1,6 @@
 ---
 title: Intrinsic Functions
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 f1_keywords:
   - "_String_length_"
@@ -43,11 +41,12 @@ An expression in SAL can be a C/C++ expression provided that it is an expression
 |`wcslen(param)`|`param` is the number of elements in the string up to (but not including) a null terminator. This annotation is reserved for use on wide character arrays and resembles the C Runtime function [wcslen()](/cpp/c-runtime-library/reference/strlen-wcslen-mbslen-mbslen-l-mbstrlen-mbstrlen-l).|
 
 ## See Also
- [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
- [Understanding SAL](../code-quality/understanding-sal.md)
- [Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)
- [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)
- [Annotating Structs and Classes](../code-quality/annotating-structs-and-classes.md)
- [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)
- [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)
- [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)
+
+- [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
+- [Understanding SAL](../code-quality/understanding-sal.md)
+- [Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)
+- [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)
+- [Annotating Structs and Classes](../code-quality/annotating-structs-and-classes.md)
+- [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)
+- [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)
+- [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)

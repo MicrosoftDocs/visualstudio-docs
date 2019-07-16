@@ -1,8 +1,6 @@
 ---
 title: Publish Page, Project Designer
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.PropertyPage"
@@ -11,7 +9,7 @@ helpviewer_keywords:
   - "Publish page in Project Designer"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -22,7 +20,6 @@ The **Publish** page of the **Project Designer** is used to configure properties
 
 > [!NOTE]
 > Some of the ClickOnce properties described here can also be set in the **PublishWizard**, available from the **Build** menu or by clicking the **PublishWizard** button on this page.
-
 
 ## UIElement List
  **Publishing Folder Location**

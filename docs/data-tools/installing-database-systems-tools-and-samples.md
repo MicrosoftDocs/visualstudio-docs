@@ -1,5 +1,5 @@
 ---
-title: Visual Studio database compatibility
+title: Database compatibility
 ms.date: 09/06/2017
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,9 +9,7 @@ helpviewer_keywords:
 ms.assetid: 821de34b-eaa9-40af-b9aa-b8305de16899
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---

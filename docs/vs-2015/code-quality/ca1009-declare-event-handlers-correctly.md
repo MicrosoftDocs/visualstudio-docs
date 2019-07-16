@@ -1,14 +1,9 @@
 ---
 title: "CA1009: Declare event handlers correctly | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1009"
   - "DeclareEventHandlersCorrectly"
@@ -58,7 +53,4 @@ manager: "wpickett"
 ## See Also
  <xref:System.EventArgs?displayProperty=fullName>
  <xref:System.Object?displayProperty=fullName>
- [NIB: Events and Delegates](http://msdn.microsoft.com/en-us/d98fd58b-fa4f-4598-8378-addf4355a115)
-
-
-
+ [NIB: Events and Delegates](https://msdn.microsoft.com/d98fd58b-fa4f-4598-8378-addf4355a115)

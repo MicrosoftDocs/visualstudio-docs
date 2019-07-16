@@ -2,9 +2,6 @@
 title: "Resources for designing accessible applications"
 description: "Learn how to create accessible applications to make them easier for people with disabilities to use."
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility, Windows applications"
@@ -14,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 426bf023-bb34-43c4-9edb-c307191c8170
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -40,13 +37,13 @@ Use the following links to find information about technologies that support acce
 
 ## Websites
 
--   [Walkthrough: Accessibility Guidelines for Using Image Controls, Menu Controls, and AutoPostBack](https://msdn.microsoft.com/Library/ff7b5021-48b3-46bf-921f-9fe1e0e32202) This article provides step-by-step instructions for including accessible controls in a sample web page. It also gives some accessibility design tips for the Web.
+- [Walkthrough: Accessibility Guidelines for Using Image Controls, Menu Controls, and AutoPostBack](https://msdn.microsoft.com/Library/ff7b5021-48b3-46bf-921f-9fe1e0e32202) This article provides step-by-step instructions for including accessible controls in a sample web page. It also gives some accessibility design tips for the Web.
 
--   **Creating Accessible Web Pages with DHTML** This technical article lists HTML 4.0 elements that are accessible as well as accessible web design tips. For more information, see [Create accessible web pages with DHTML](https://msdn.microsoft.com/library/ms528445.aspx).
+- **Creating Accessible Web Pages with DHTML** This technical article lists HTML 4.0 elements that are accessible as well as accessible web design tips. For more information, see [Create accessible web pages with DHTML](https://msdn.microsoft.com/library/ms528445.aspx).
 
 ### Third-party resources
 
--   **Web Accessibility Initiative of the World Wide Web Consortium (W3C)** This website provides guidelines and techniques for accessible website development. For more information, see [https://www.w3.org/WAI/GL/](https://www.w3.org/WAI/GL/).
+- **Web Accessibility Initiative of the World Wide Web Consortium (W3C)** This website provides guidelines and techniques for accessible website development. For more information, see [https://www.w3.org/WAI/GL/](https://www.w3.org/WAI/GL/).
 
 ## See also
 

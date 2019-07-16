@@ -13,9 +13,7 @@ helpviewer_keywords:
 ms.assetid: 3b531120-1325-4734-90c6-6e6113bd12ac
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -29,9 +27,9 @@ When you return a `DataSet` or `DataTable` from a service, you may receive a "Th
 
 To fix this error:
 
-1.  In **Solution Explorer**, double-click the *app.config* file to open it.
+1. In **Solution Explorer**, double-click the *app.config* file to open it.
 
-2.  Locate the `MaxReceivedMessageSize` property and change it to a larger value.
+2. Locate the `MaxReceivedMessageSize` property and change it to a larger value.
 
 ## Cannot find a service in my solution
 
@@ -39,7 +37,7 @@ When you click the **Discover** button in the **Add Service References** dialog 
 
 To fix this error:
 
--   In **Solution Explorer**, right-click the WCF Service Library project and click **Build**.
+- In **Solution Explorer**, right-click the WCF Service Library project and click **Build**.
 
 ## Error accessing a service over a remote desktop
 
@@ -47,9 +45,9 @@ When a user accesses a Web-hosted WCF service over a remote desktop connection a
 
 To fix this error:
 
-1.  In the website project, open the **Properties** pages.
+1. In the website project, open the **Properties** pages.
 
-2.  On the **Start Options** tab, clear the **NTLM Authentication** check box.
+2. On the **Start Options** tab, clear the **NTLM Authentication** check box.
 
     > [!NOTE]
     > You should turn off NTLM authentication only for websites that exclusively contain WCF services. Security for WCF services is managed through the configuration in the *web.config* file. This makes NTLM authentication unnecessary.
@@ -70,19 +68,19 @@ If the service project is removed from the solution, this explicit build depende
 
 To fix this error, you have to manually rebuild the service project:
 
-1.  On the **Tools** menu, click **Options**.
+1. On the **Tools** menu, click **Options**.
 
-2.  In the **Options** dialog box, expand **Projects and Solutions**, and then select **General**.
+2. In the **Options** dialog box, expand **Projects and Solutions**, and then select **General**.
 
-3.  Make sure that the **Show advanced build configurations** check box is selected, and then click **OK**.
+3. Make sure that the **Show advanced build configurations** check box is selected, and then click **OK**.
 
-4.  Load the WCF service project.
+4. Load the WCF service project.
 
-5.  In the **Configuration Manager** dialog box, set the **Active solution configuration** to **Debug**. For more information, see [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md).
+5. In the **Configuration Manager** dialog box, set the **Active solution configuration** to **Debug**. For more information, see [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md).
 
-6.  In **Solution Explorer**, select the WCF service project.
+6. In **Solution Explorer**, select the WCF service project.
 
-7.  On the **Build** menu, click **Rebuild** to rebuild the WCF service project.
+7. On the **Build** menu, click **Rebuild** to rebuild the WCF service project.
 
 ## WCF Data Services do not display in the browser
 
@@ -90,13 +88,13 @@ When it attempts to view an XML representation of data in a [!INCLUDE[ss_data_se
 
 To fix this error, disable RSS feeds:
 
-1.  In Internet Explorer, on the **Tools** menu, click **Internet Options**.
+1. In Internet Explorer, on the **Tools** menu, click **Internet Options**.
 
-2.  On the **Content** tab, in the **Feeds** section, click **Settings**.
+2. On the **Content** tab, in the **Feeds** section, click **Settings**.
 
-3.  In the **Feed Settings** dialog box, clear the **Turn on feed reading view** check box, and then click **OK**.
+3. In the **Feed Settings** dialog box, clear the **Turn on feed reading view** check box, and then click **OK**.
 
-4.  Click **OK** to close the **Internet Options** dialog box.
+4. Click **OK** to close the **Internet Options** dialog box.
 
 ## See also
 

@@ -1,14 +1,9 @@
 ---
 title: "How to: Start and End Performance Data Collection | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.wizard.summarypage"
 helpviewer_keywords: 
@@ -20,7 +15,7 @@ ms.assetid: 9f6eb0d5-d9e9-4bec-b627-445065610bce
 caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Start and End Performance Data Collection
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,19 +24,16 @@ You must add the target binary that you want to profile to the performance sessi
   
 ### To start profiling  
   
-1.  Right-click the name of the performance session on the **Performance Explorer** window and choose one of the following options:  
+1. Right-click the name of the performance session on the **Performance Explorer** window and choose one of the following options:  
   
-    -   **Launch with Profiling** - starts the application and immediately begins profiling.  
+    - **Launch with Profiling** - starts the application and immediately begins profiling.  
   
-    -   **Launch with Profiling Paused** - starts the application but does not begin profiling. You can start profiling by selecting **Resume Collection** in the **Data Collection Control** window. For more information, see [How to: Pause and Resume Performance Data Collection](../profiling/how-to-pause-and-resume-performance-data-collection.md).  
+    - **Launch with Profiling Paused** - starts the application but does not begin profiling. You can start profiling by selecting **Resume Collection** in the **Data Collection Control** window. For more information, see [How to: Pause and Resume Performance Data Collection](../profiling/how-to-pause-and-resume-performance-data-collection.md).  
   
 ### To end profiling  
   
--   The preferred method of ending a profiling session is to exit the application. To immediately stop profiling, on the **Performance Explorer** toolbar, click **Stop**.  
+- The preferred method of ending a profiling session is to exit the application. To immediately stop profiling, on the **Performance Explorer** toolbar, click **Stop**.  
   
 ## See Also  
  [Controlling Data Collection](../profiling/controlling-data-collection.md)   
  [How to: Pause and Resume Performance Data Collection](../profiling/how-to-pause-and-resume-performance-data-collection.md)
-
-
-

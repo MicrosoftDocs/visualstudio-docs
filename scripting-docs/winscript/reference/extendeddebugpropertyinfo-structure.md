@@ -2,7 +2,6 @@
 title: "ExtendedDebugPropertyInfo Structure | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Extends the `DebugPropertyInfo` structure with additional members to characteriz
   
 ## Syntax  
   
-```  
+```cpp
 typedef struct ExtendedDebugPropertyInfo{  
    DBGPROP_INFO_FLAGS  dwValidFields;  
    LPOLESTR  bstrName;  

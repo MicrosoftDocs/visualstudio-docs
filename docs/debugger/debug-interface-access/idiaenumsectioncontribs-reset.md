@@ -1,31 +1,29 @@
 ---
 title: "IDiaEnumSectionContribs::Reset | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDiaEnumSectionContribs::Reset method"
 ms.assetid: 97ea62ed-bdf8-4df2-b178-b17b9df20adc
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # IDiaEnumSectionContribs::Reset
-Resets an enumeration sequence to the beginning.  
-  
-## Syntax  
-  
-```C++  
-HRESULT Reset();  
-```  
-  
-## Return Value  
- Returns `S_OK`.  
-  
-## See Also  
- [IDiaEnumSectionContribs](../../debugger/debug-interface-access/idiaenumsectioncontribs.md)
+Resets an enumeration sequence to the beginning.
+
+## Syntax
+
+```C++
+HRESULT Reset();
+```
+
+## Return Value
+ Returns `S_OK`.
+
+## See Also
+- [IDiaEnumSectionContribs](../../debugger/debug-interface-access/idiaenumsectioncontribs.md)

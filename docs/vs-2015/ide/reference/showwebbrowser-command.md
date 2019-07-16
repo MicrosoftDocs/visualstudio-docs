@@ -1,14 +1,9 @@
 ---
 title: "ShowWebBrowser Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "view.showwebbrowser"
 helpviewer_keywords: 
@@ -18,12 +13,11 @@ ms.assetid: c6a4fbd6-8e9d-45cc-8b2f-93990d065e78
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # ShowWebBrowser Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Displays the URL you specify in a Web browser window either within the integrated development environment (IDE) or external to the IDE.  
   
 ## Syntax  
@@ -50,7 +44,7 @@ View.ShowWebBrowser URL [/new][/ext]
  The following example displays the MSDN Online home page in a Web browser outside of the IDE. If an instance of the Web browser is already open, it is used; otherwise a new instance is launched.  
   
 ```  
->View.ShowWebBrowser http://msdn.microsoft.com /ext  
+>View.ShowWebBrowser https://msdn.microsoft.com /ext  
 ```  
   
 ## See Also  
@@ -58,6 +52,3 @@ View.ShowWebBrowser URL [/new][/ext]
  [Command Window](../../ide/reference/command-window.md)   
  [Find/Command Box](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

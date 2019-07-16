@@ -1,26 +1,20 @@
 ---
 title: "Starting a Build from within the IDE | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "build"
 ms.assetid: 936317aa-63b7-4eb0-b9db-b260a0306196
 caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Starting a Build from within the IDE
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Custom project systems must use <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildManagerAccessor> to start builds. This topic describes the reasons for this and outlines the procedure.  
   
 ## Parallel Builds and Threads  
@@ -121,6 +115,3 @@ public bool Build(Project project, bool isDesignTimeBuild)
 }  
   
 ```
-
-
-

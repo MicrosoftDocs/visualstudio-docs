@@ -1,12 +1,9 @@
 ---
 title: "Properties of attributes on UML class diagrams | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 f1_keywords: 
   - "vs.teamarch.logicalclassdiagram.attribute.properties"
 helpviewer_keywords: 
@@ -15,7 +12,7 @@ ms.assetid: ba01e064-7424-4e72-98fa-42fa1c30e153
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Properties of attributes on UML class diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,7 +45,6 @@ On a UML class diagram, you can add *attributes* to classes and interfaces. An a
 
  To view the properties of an attribute, right-click it and then click **Properties**.  
 
-
 |   **Property**    | **Default**  |                                                                                                                                                                                                         Description                                                                                                                                                                                                          |
 |-------------------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Default Value** |   (empty)    |                                                                                                                                                                               The value of the attribute when the classifier is instantiated.                                                                                                                                                                                |
@@ -71,6 +67,3 @@ On a UML class diagram, you can add *attributes* to classes and interfaces. An a
  [Properties of operations on UML class diagrams](../modeling/properties-of-operations-on-uml-class-diagrams.md)   
  [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)   
  [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)
-
-
-

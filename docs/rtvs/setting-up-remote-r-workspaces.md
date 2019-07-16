@@ -2,13 +2,11 @@
 title: Remote workspaces for R
 description: How to set up remote R workspaces and connect to it from Visual Studio.
 ms.date: 12/04/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-rtvs
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - data-science
 ---
 
@@ -93,14 +91,19 @@ To issue a self-signed certificate yourself:
 
 1. SSH or login to your Linux machine.
 2. Install `ssl-cert` package:
+
     ```sh
     sudo apt-get install ssl-cert
     ```
+
 3. Run `make-ssl-cert` to generate the default self-signed SSL certificate:
+
     ```sh
     sudo make-ssl-cert generate-default-snakeoil --force-overwrite
     ```
+
 4. Convert the generated key and PEM files to PFX. The generated PFX should be in your home folder:
+
     ```sh
     openssl pkcs12 -export -out ~/ssl-cert-snakeoil.pfx -inkey /etc/ssl/private/ssl-cert-snakeoil.key -in /etc/ssl/certs/ssl-cert-snakeoil.pem -password pass:SnakeOil
     ```

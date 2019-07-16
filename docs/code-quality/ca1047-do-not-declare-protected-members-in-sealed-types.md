@@ -1,8 +1,6 @@
 ---
 title: "CA1047: Do not declare protected members in sealed types"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "DoNotDeclareProtectedMembersInSealedTypes"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 829033b5-a9d8-4f26-a719-45494c9dd035
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

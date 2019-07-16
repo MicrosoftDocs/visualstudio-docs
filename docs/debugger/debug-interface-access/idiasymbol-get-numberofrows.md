@@ -1,34 +1,33 @@
 ---
 title: "IDiaSymbol::get_numberOfRows | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "C++"
 ms.assetid: cf3eb110-d07f-4995-b68b-08290aa67d6f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_numberOfRows
-Retrieves the number of rows in the matrix.  
-  
-## Syntax  
-  
-```C++  
-HRESULT get_numberOfRows(   
-   DWORD* pRetVal);  
-```  
-  
-#### Parameters  
- `pRetVal`  
- [out] A pointer to a `DWORD` that holds the number of rows in the matrix.  
-  
-## Return Value  
- If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.  
-  
-## See Also  
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+Retrieves the number of rows in the matrix.
+
+## Syntax
+
+```C++
+HRESULT get_numberOfRows(
+   DWORD* pRetVal);
+```
+
+#### Parameters
+ `pRetVal`
+
+[out] A pointer to a `DWORD` that holds the number of rows in the matrix.
+
+## Return Value
+ If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
+
+## See Also
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

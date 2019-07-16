@@ -1,14 +1,9 @@
 ---
 title: "Add Existing Item Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "project.addexistingitem"
 helpviewer_keywords: 
@@ -18,12 +13,11 @@ ms.assetid: 41f56131-d4c7-4f81-83b7-bdac713ea870
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Add Existing Item Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Adds an existing file to the current solution and opens it.  
   
 ## Syntax  
@@ -61,6 +55,3 @@ File.AddExistingItem filename [/e:editorname]
  [Command Window](../../ide/reference/command-window.md)   
  [Find/Command Box](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

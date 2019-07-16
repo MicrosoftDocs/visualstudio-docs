@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Using Profiler APIs | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "profiling tools, walkthroughs"
   - "performance tools, walkthroughs"
@@ -16,7 +11,7 @@ ms.assetid: c2ae0b3e-a0ca-4967-b4df-e319008f520e
 caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Using Profiler APIs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,12 +51,12 @@ DataCollection.CurrentId);
   
 #### To create the code to profile  
   
-1.  Create a new C# project in Visual Studio, or use a command line build, depending on your preference.  
+1. Create a new C# project in Visual Studio, or use a command line build, depending on your preference.  
   
     > [!NOTE]
-    >  Your build must reference the Microsoft.VisualStudio.Profiler.dll library, located in the Microsoft Visual Studio 9\Team Tools\Performance Tools directory.  
+    > Your build must reference the Microsoft.VisualStudio.Profiler.dll library, located in the Microsoft Visual Studio 9\Team Tools\Performance Tools directory.  
   
-2.  Copy and paste the following code into your project:  
+2. Copy and paste the following code into your project:  
   
     ```  
     using System;  
@@ -140,23 +135,23 @@ DataCollection.CurrentId);
   
 #### To collect and view data at the command line  
   
-1.  Compile a debug version of the sample code you created in the "Creating Code to Profile" procedure, earlier in this walkthrough.  
+1. Compile a debug version of the sample code you created in the "Creating Code to Profile" procedure, earlier in this walkthrough.  
   
-2.  To profile a managed application, type the following command to set the appropriate environment variables:  
+2. To profile a managed application, type the following command to set the appropriate environment variables:  
   
      **VsPefCLREnv /traceon**  
   
-3.  Type the following command:**VSInstr \<filename>.exe**  
+3. Type the following command:**VSInstr \<filename>.exe**  
   
-4.  Type the following command:**VSPerfCmd /start:trace /output:\<filename>.vsp**  
+4. Type the following command:**VSPerfCmd /start:trace /output:\<filename>.vsp**  
   
-5.  Type the following command:**VSPerfCmd /globaloff**  
+5. Type the following command:**VSPerfCmd /globaloff**  
   
-6.  Execute your program.  
+6. Execute your program.  
   
-7.  Type the following command:**VSPerfCmd /shutdown**  
+7. Type the following command:**VSPerfCmd /shutdown**  
   
-8.  Type the following command:**VSPerfReport /calltrace:\<filename>.vsp**  
+8. Type the following command:**VSPerfReport /calltrace:\<filename>.vsp**  
   
      A .csv file is created in the current directory with the resulting performance data.  
   
@@ -165,6 +160,3 @@ DataCollection.CurrentId);
  [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference-native.md)   
  [Getting Started](../profiling/getting-started-with-performance-tools.md)   
  [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)
-
-
-

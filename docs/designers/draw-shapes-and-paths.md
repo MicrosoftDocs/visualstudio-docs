@@ -1,13 +1,11 @@
 ---
 title: Draw shapes and paths
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: d5378c59-e2e5-49f0-91f1-aa82d984a33c
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -17,7 +15,7 @@ In XAML Designer, a *shape* is exactly what you'd expect. For example: a rectang
 
 Shapes and paths use vector graphics so they scale well to high resolution displays. If you want to learn more about vector graphics, see [What are Vector Graphics](https://www.youtube.com/watch?v=MoCSwF0n-io) or [vector graphics](http://www.webopedia.com/TERM/V/vector_graphics.html).
 
-##  <a name="Shape"></a> Draw a shape
+## <a name="Shape"></a> Draw a shape
  You can find shapes in the **Assets** panel.
 
  ![Shapes category on the Assets panel](../designers/media/b4_shapes_assetspanel.png)
@@ -26,7 +24,7 @@ Shapes and paths use vector graphics so they scale well to high resolution displ
 
  ![Handles](../designers/media/84261e83-3091-4490-ab58-4218b188439e.png)
 
-##  <a name="Path"></a> Draw a path
+## <a name="Path"></a> Draw a path
  A path is a series of connected lines and curves. Use a path to create interesting shapes that are not available in the **Assets** panel.
 
  You can draw a path by using a line, pen or pencil. You can find these tools in the **Tools** panel.
@@ -76,12 +74,12 @@ Shapes and paths use vector graphics so they scale well to high resolution displ
 
  Use the **Selection** tool  ![Selection tool](../designers/media/2ff91340-477e-4efa-a0f7-af20851e4daa.png) to select the path. Use the **Pen** tool ![Pen tool](../designers/media/894f8612-e0ed-4e00-84cf-a9bc8f38fc54.png) to click anywhere on the path where you want to add the point.
 
-##  <a name="Convert"></a> Convert a shape to a path
+## <a name="Convert"></a> Convert a shape to a path
  To modify a shape in the same ways that you modify a path, convert the shape to a path.
 
  **Watch a short video:** ![Configure installed features](../designers/media/bldadminconsoleinitialconfigicon.png) [Working with paths: Convert a shape to a path](https://www.youtube.com/watch?v=Io5bC0-nH6Q#t=147).
 
-##  <a name="Combine"></a> Combine paths
+## <a name="Combine"></a> Combine paths
  You can combine paths and shapes into a single path.
 
  ![Combine paths](../designers/media/2df17a5d-a338-4ef4-96c5-dae51cc1ca8a.png)
@@ -89,12 +87,12 @@ Shapes and paths use vector graphics so they scale well to high resolution displ
 |||||
 |-|-|-|-|
 |![Two shapes before combining](../designers/media/b1_1.png)|Two shapes before combining|![Intersect](../designers/media/b1_4.png)|Intersect|
-|![Exclude overlap](../designers/media/b1_2.png)|Unite|![](../designers/media/b1_5.png)|Exclude Overlap|
-|![Subtract](../designers/media/b1_3.png)|Divide|![](../designers/media/b1_6.png)|Subtract|
+|![Unite](../designers/media/b1_2.png)|Unite|![Exclude overlap](../designers/media/b1_5.png)|Exclude Overlap|
+|![Divide](../designers/media/b1_3.png)|Divide|![Subtract](../designers/media/b1_6.png)|Subtract|
 
  **Watch a short video:** ![Configure installed features](../designers/media/bldadminconsoleinitialconfigicon.png) [Working with paths: Combine paths](https://www.youtube.com/watch?v=Io5bC0-nH6Q#t=195).
 
-##  <a name="Compound"></a> Create a compound path
+## <a name="Compound"></a> Create a compound path
  When you create a compound path, any intersecting parts of the paths are subtracted from the result, and the resulting path takes on the visual properties of the bottommost path.
 
  You can break apart a compound path any time after you create it.
@@ -103,7 +101,7 @@ Shapes and paths use vector graphics so they scale well to high resolution displ
 
  **Watch a short video:** ![Configure installed features](../designers/media/bldadminconsoleinitialconfigicon.png) [Working with paths: Create a compound path](https://www.youtube.com/watch?v=Io5bC0-nH6Q).
 
-##  <a name="Clipping"></a> Create a clipping path
+## <a name="Clipping"></a> Create a clipping path
  A clipping path is a path or shape that is applied to another object, hiding the parts of the masked object that fall outside the clipping path.
 
  ![Clipping path](../designers/media/22471e98-a841-4f39-a3ef-36090cf5a625.png)

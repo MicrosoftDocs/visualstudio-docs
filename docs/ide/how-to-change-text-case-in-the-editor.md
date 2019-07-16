@@ -1,8 +1,6 @@
 ---
-title: Convert text to uppercase or lowercase in the Visual Studio editor
+title: Convert text to uppercase or lowercase
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "editors, text case"
@@ -10,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: b04d1327-a45e-4c12-a0d0-67672b3fa855
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -23,11 +21,11 @@ You can use menu commands or keyboard shortcuts to convert the case of selected 
 
 ## To switch text to upper case
 
-1.  Select the text you want to convert.
+1. Select the text you want to convert.
 
-2.  On the **Edit** menu, select **Advanced**.
+2. On the **Edit** menu, select **Advanced**.
 
-3.  To convert text to all upper case, choose **Make Uppercase**, or press **Ctrl**+**Shift**+**U**.
+3. To convert text to all upper case, choose **Make Uppercase**, or press **Ctrl**+**Shift**+**U**.
 
     — or —
 
@@ -38,6 +36,5 @@ You can use menu commands or keyboard shortcuts to convert the case of selected 
 
 ## See also
 
-- [Customize the editor](../ide/customizing-the-editor.md)
 - [Text Editor options dialog box](../ide/reference/text-editor-options-dialog-box.md)
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

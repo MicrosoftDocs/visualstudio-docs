@@ -1,18 +1,18 @@
 ---
 layout: LandingPage
 title: Code analysis
-description: Learn how to use Visual Studio 2017 to analyze code quality.
+description: Learn how to use Visual Studio to analyze code quality.
 ms.date: 12/03/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: landing-page
 ms.author: gewarren
 author: gewarren
-manager: douge
+manager: jillfra
 ---
 # Code analysis in Visual Studio
 
 Visual Studio provides several different tools to analyze and improve code quality.
+
+<!-- markdownlint-disable MD033 -->
 
 <br />
 

@@ -1,14 +1,9 @@
 ---
 title: "Image Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 f1_keywords: 
   - "vs.graphics.designer.imageeditor"
   - "vs.graphics.imageeditor"
@@ -16,7 +11,7 @@ ms.assetid: fc71d502-c548-4863-8afc-12a1d3ec90d4
 caps.latest.revision: 47
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Image Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,13 +38,13 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 #### To add an image to your project  
   
-1.  In **Solution Explorer**, open the shortcut menu for the project that you want to add the image to, and then choose **Add**, **New Item**.  
+1. In **Solution Explorer**, open the shortcut menu for the project that you want to add the image to, and then choose **Add**, **New Item**.  
   
-2.  In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select an appropriate file format for the image. For information about how to choose a file format based on your requirements, see the following section.  
+2. In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select an appropriate file format for the image. For information about how to choose a file format based on your requirements, see the following section.  
   
-3.  Specify the **Name** of the image file, and the **Location** where you want it to be created.  
+3. Specify the **Name** of the image file, and the **Location** where you want it to be created.  
   
-4.  Choose the **Add** button.  
+4. Choose the **Add** button.  
   
 ### Choosing the image format  
  Depending on how you plan to use the image, certain file formats might be more appropriate than others. For example, some formats might not support a feature that you need—like transparency or a specific color format—or might not provide suitable compression for the kind of image content you have planned.  
@@ -81,7 +76,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
  Before you begin to work with the image that you just created, you can change its default configuration. For example, you can change its dimensions or the color format that it uses. For information about how to configure these and other properties of the image, see [Image properties](#ImageProperties).  
   
 > [!NOTE]
->  Before you save your work, make sure to set the **Color Format** property if you want to use a specific color format. If the file format supports compression, you can adjust the compression settings when you save the file for the first time or when you choose **Save As**.  
+> Before you save your work, make sure to set the **Color Format** property if you want to use a specific color format. If the file format supports compression, you can adjust the compression settings when you save the file for the first time or when you choose **Save As**.  
   
 ## Working with the Image Editor  
  This section describes how to use the Image Editor to modify textures and images.  
@@ -145,7 +140,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
 |**Pencil**, **Brush**, **Airbrush**, **Line**, **Rectangle**, **Rounded Rectangle**, **Ellipse**, **Text**|To blend the active color selection together with the image, in the **Properties** window, expand the **Channels** property group and set the **Draw** checkbox on the **Alpha** channel, and then draw normally.<br /><br /> To draw by using the active color selection and leave the alpha value of the image in place, clear the **Draw** checkbox of the **Alpha** channel, and then draw normally.|  
 |**Fill**|To blend the active color selection together with the image, just choose the area to fill.<br /><br /> To use the active color selection—including the value of the alpha channel—to overwrite the image, press and hold Shift and then choose the area to fill.|  
   
-###  <a name="ImageProperties"></a> Image properties  
+### <a name="ImageProperties"></a> Image properties  
  You can use the **Properties** window to specify various properties of the image. For example, you can set the Width and Height properties to resize the image.  
   
  The following table describes image properties.  
@@ -165,14 +160,14 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
 |Depth Slice|The current depth slice. Only the first slice can be viewed; all other slices are lost when the image is saved.|  
   
 > [!NOTE]
->  Because the **Rotate by** property applies to all tools and selected regions, it always appears at the bottom of the **Properties** window together with other tool properties. **Rotate by** is always displayed because the whole image is implicitly selected when there is no other selection or active tool. For more information about the **Rotate by** property, see [Tool Properties](#ToolProperties).  
+> Because the **Rotate by** property applies to all tools and selected regions, it always appears at the bottom of the **Properties** window together with other tool properties. **Rotate by** is always displayed because the whole image is implicitly selected when there is no other selection or active tool. For more information about the **Rotate by** property, see [Tool Properties](#ToolProperties).  
   
 #### Resizing images  
  Here are two ways to resize an image. In both cases, the Image Editor uses bi-linear interpolation to resample the image.  
   
--   In the **Properties** window, specify new values for the **Width** and **Height** properties.  
+- In the **Properties** window, specify new values for the **Width** and **Height** properties.  
   
--   Select the entire image and use the border markers to resize the image.  
+- Select the entire image and use the border markers to resize the image.  
   
 ### Working with tools  
   
@@ -206,7 +201,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
 |Ctrl|||Copies and then resizes the content of the selected region.|  
 |Ctrl|Shift||Copies and then proportionally resizes the content of the selected region.|  
   
-####  <a name="ToolProperties"></a> Tool Properties  
+#### <a name="ToolProperties"></a> Tool Properties  
  While a tool is selected, you can use the **Properties** window to specify details about how it affects the image. For example, you can set the thickness of the **Pencil** tool or the color of the **Brush** tool.  
   
  You can set both a foreground color and a background color. Both support an alpha channel to provide user-defined opacity. The settings apply to all tools. If you use a mouse, the left mouse button corresponds to the foreground color, and the right mouse button corresponds to the background color.  
@@ -273,6 +268,3 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
 |[Working with 3-D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the tools that you can use in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to work with graphics assets such as textures and images, 3-D models, and shader effects.|  
 |[Model Editor](../designers/model-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Model Editor to work with 3-D models.|  
 |[Shader Designer](../designers/shader-designer.md)|Describes how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Shader Designer to work with shaders.|
-
-
-

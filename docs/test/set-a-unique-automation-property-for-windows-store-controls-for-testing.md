@@ -1,11 +1,9 @@
 ---
 title: "Set a Unique Automation Property for UWP Controls for Testing"
 ms.date: 05/31/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "uwp"
 author: gewarren

@@ -1,8 +1,6 @@
 ---
 title: "How to: Visualize a Collection Association (Class Designer)"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.classdesigner.collectionassociationline"
@@ -14,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 54e39838-2fc9-4dc2-85b6-7e88a743108e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -24,11 +22,11 @@ Properties and fields that are collections of other types can be displayed on th
 
 ## To create a collection association
 
-1.  In code, create a property or field whose type is itself a strongly-typed collection.
+1. In code, create a property or field whose type is itself a strongly-typed collection.
 
-2.  In the class diagram, expand the class so that properties and fields are shown.
+2. In the class diagram, expand the class so that properties and fields are shown.
 
-3.  In the class, right-click the field or property and choose **Show as Collection Association**.
+3. In the class, right-click the field or property and choose **Show as Collection Association**.
 
 The property or field is shown as an association line linking to the collected type.
 
@@ -36,4 +34,3 @@ The property or field is shown as an association line linking to the collected t
 
 - [How to: Create Associations Between Types](how-to-create-associations-between-types.md)
 - [Designing Classes and Types](designing-and-viewing-classes-and-types.md)
-- [Viewing Types and Relationships](viewing-types-and-relationships.md)

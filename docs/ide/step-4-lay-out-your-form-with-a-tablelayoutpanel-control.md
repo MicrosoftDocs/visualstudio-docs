@@ -1,15 +1,11 @@
 ---
 title: "Step 4: Lay out your form with a TableLayoutPanel control"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 61acde79-e115-4bad-bb06-1fbe37717a3e
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -20,46 +16,46 @@ In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to 
 
 ## To lay out your form with a TableLayoutPanel control
 
-1.  On the left side of the Visual Studio IDE, locate the **Toolbox** tab. Choose the **Toolbox** tab, and the **Toolbox** appears. (Or, on the menu bar, choose **View** > **Toolbox**.)
+1. On the left side of the Visual Studio IDE, locate the **Toolbox** tab. Choose the **Toolbox** tab, and the **Toolbox** appears. (Or, on the menu bar, choose **View** > **Toolbox**.)
 
-2.  Choose the small triangle symbol next to the **Containers** group to open it, as shown in the following picture.
+2. Choose the small triangle symbol next to the **Containers** group to open it, as shown in the following picture.
 
      ![Containers group](../ide/media/express_toolbox.png)
 **Containers** group
 
-3.  You can add controls like buttons, check boxes, and labels to your form. Double-click the TableLayoutPanel control in the **Toolbox**. (Or, you can drag the control from the toolbox onto the form.) When you do this, the IDE adds a TableLayoutPanel control to your form, as shown in the following picture.
+3. You can add controls like buttons, check boxes, and labels to your form. Double-click the TableLayoutPanel control in the **Toolbox**. (Or, you can drag the control from the toolbox onto the form.) When you do this, the IDE adds a TableLayoutPanel control to your form, as shown in the following picture.
 
      ![TableLayoutPanel control](../ide/media/express_formtablelayout.png)
 **TableLayoutPanel** control
 
     > [!NOTE]
-    >  After you add your TableLayoutPanel, if a window appears inside your form with the title **TableLayoutPanel Tasks**, choose anywhere inside the form to close it. You will learn more about this window later in the tutorial.
+    > After you add your TableLayoutPanel, if a window appears inside your form with the title **TableLayoutPanel Tasks**, choose anywhere inside the form to close it. You will learn more about this window later in the tutorial.
 
      Notice how the **Toolbox** expands to cover your form when you choose its tab, and closes after you choose anywhere outside of it. That's the IDE auto-hide feature. You can turn it on or off for any of the windows by choosing the pushpin icon in the upper-right corner of the window to toggle auto-hide and lock it in place. The pushpin icon appears as follows.
 
      ![Pushpin icon](../ide/media/express_pushpintoolbox.png)
 **Pushpin** icon
 
-4.  Be sure the TableLayoutPanel is selected by choosing it. You can verify what control is selected by looking at the drop-down list at the top of the **Properties** window, as shown in the following picture.
+4. Be sure the TableLayoutPanel is selected by choosing it. You can verify what control is selected by looking at the drop-down list at the top of the **Properties** window, as shown in the following picture.
 
      ![Properties window showing TableLayoutPanel control](../ide/media/express_controlspropwin.png)
 **Properties** window showing **TableLayoutPanel** control
 
-5.  Choose the **Alphabetical** button on the toolbar in the **Properties** window. This causes the list of properties in the **Properties** window to display in alphabetical order, which will make it easier to locate properties in this tutorial.
+5. Choose the **Alphabetical** button on the toolbar in the **Properties** window. This causes the list of properties in the **Properties** window to display in alphabetical order, which will make it easier to locate properties in this tutorial.
 
-6.  The control selector is a drop-down list at the top of the **Properties** window. In this example, it shows that a control called `tableLayoutPanel1` is selected. You can select controls either by choosing an area in **Windows Forms Designer** or by choosing from the control selector. Now that the TableLayoutPanel is selected, find the **Dock** property and choose **Dock**, which should be set to **None**. Notice that a drop-down arrow appears next to the value. Choose the arrow, and then select the **Fill** button (the large button in the middle), as shown in the following picture.
+6. The control selector is a drop-down list at the top of the **Properties** window. In this example, it shows that a control called `tableLayoutPanel1` is selected. You can select controls either by choosing an area in **Windows Forms Designer** or by choosing from the control selector. Now that the TableLayoutPanel is selected, find the **Dock** property and choose **Dock**, which should be set to **None**. Notice that a drop-down arrow appears next to the value. Choose the arrow, and then select the **Fill** button (the large button in the middle), as shown in the following picture.
 
      ![Properties window with Fill selected](../ide/media/express_docktable.png)
 **Properties** window with **Fill** selected
 
      *Docking* in Visual Studio refers to when a window is attached to another window or area in the IDE. For example, the **Properties** window can be undocked - that is, unattached and free-floating within Visual Studio - or it can be docked against **Solution Explorer**.
 
-7.  After you set the TableLayoutPanel **Dock** property to **Fill**, the panel fills the entire form. If you resize the form again, the TableLayoutPanel stays docked, and resizes itself to fit.
+7. After you set the TableLayoutPanel **Dock** property to **Fill**, the panel fills the entire form. If you resize the form again, the TableLayoutPanel stays docked, and resizes itself to fit.
 
     > [!NOTE]
-    >  A TableLayoutPanel works like a table in Microsoft Office Word: It has rows and columns, and an individual cell can span multiple rows and columns. Each cell can hold one control (like a button, a check box, or a label). Your TableLayoutPanel will have a <xref:System.Windows.Forms.PictureBox> control spanning its entire top row, a <xref:System.Windows.Forms.CheckBox> control in its lower-left cell, and four <xref:System.Windows.Forms.Button> controls in its lower-right cell.
+    > A TableLayoutPanel works like a table in Microsoft Office Word: It has rows and columns, and an individual cell can span multiple rows and columns. Each cell can hold one control (like a button, a check box, or a label). Your TableLayoutPanel will have a <xref:System.Windows.Forms.PictureBox> control spanning its entire top row, a <xref:System.Windows.Forms.CheckBox> control in its lower-left cell, and four <xref:System.Windows.Forms.Button> controls in its lower-right cell.
 
-8.  Currently, the TableLayoutPanel has two equal-size rows and two equal-size columns. You need to resize them so the top row and right column are both much bigger. In **Windows Forms Designer**, select the TableLayoutPanel. In the upper-right corner, there is a small black triangle button, which appears as follows.
+8. Currently, the TableLayoutPanel has two equal-size rows and two equal-size columns. You need to resize them so the top row and right column are both much bigger. In **Windows Forms Designer**, select the TableLayoutPanel. In the upper-right corner, there is a small black triangle button, which appears as follows.
 
      ![Triangle button](../ide/media/express_iconblacktriangle.gif)
 **Triangle** button
@@ -85,6 +81,6 @@ In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to 
 
 ## To continue or review
 
--   To go to the next tutorial step, see [Step 5: Add controls to your form](../ide/step-5-add-controls-to-your-form.md).
+- To go to the next tutorial step, see [Step 5: Add controls to your form](../ide/step-5-add-controls-to-your-form.md).
 
--   To return to the previous tutorial step, see [Step 3: Set your form properties](../ide/step-3-set-your-form-properties.md).
+- To return to the previous tutorial step, see [Step 3: Set your form properties](../ide/step-3-set-your-form-properties.md).

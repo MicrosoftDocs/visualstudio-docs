@@ -1,21 +1,16 @@
 ---
 title: "Concurrency Visualizer Markers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.markersui"
 ms.assetid: c4692d17-6cd2-4ad1-8590-d7275c771c70
 caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Concurrency Visualizer Markers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,11 +20,11 @@ In the Concurrency Visualizer, markers are icons that represent events in an app
 ## Kinds of Markers  
  The Concurrency Visualizer uses three kinds of markers to represent application events: flags, messages, and spans.  
   
-1.  Use a *flag* to indicate an interesting point in time in your app.  For example, you might use a flag to represent that a variable value has reached a certain threshold or that an exception was thrown.  
+1. Use a *flag* to indicate an interesting point in time in your app.  For example, you might use a flag to represent that a variable value has reached a certain threshold or that an exception was thrown.  
   
-2.  A *message* also marks a point in time, but you can use it for log-style tracing.  For example, what might have been dumped to a log file you can now wrap in a message call so that you can trace it and view it in the Concurrency Visualizer. You can also use the Concurrency Visualizer to export this data to a CSV file.  
+2. A *message* also marks a point in time, but you can use it for log-style tracing.  For example, what might have been dumped to a log file you can now wrap in a message call so that you can trace it and view it in the Concurrency Visualizer. You can also use the Concurrency Visualizer to export this data to a CSV file.  
   
-3.  A *span* represents an interval of time in your app, for example, one of its phases.  
+3. A *span* represents an interval of time in your app, for example, one of its phases.  
   
 ## Marker Linkage to Threads  
  Each thread that generates markers has a separate timeline channel.  The ID of the thread that's responsible for generating the marker events is shown next to the description of the marker channel.  The ID that's shown on the left side of the marker channel matches the ID of another thread in the current process.  
@@ -45,17 +40,17 @@ In the Concurrency Visualizer, markers are icons that represent events in an app
   
 - [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)  
   
-- [Task Parallel Library (TPL)](http://msdn.microsoft.com/library/b8f99f43-9104-45fd-9bff-385a20488a23)  
+- [Task Parallel Library (TPL)](https://msdn.microsoft.com/library/b8f99f43-9104-45fd-9bff-385a20488a23)  
   
-- [Dataflow](http://msdn.microsoft.com/library/643575d0-d26d-4c35-8de7-a9c403e97dd6)  
+- [Dataflow](https://msdn.microsoft.com/library/643575d0-d26d-4c35-8de7-a9c403e97dd6)  
   
-- [Parallel LINQ (PLINQ)](http://msdn.microsoft.com/library/3d4d0cd3-bde4-490b-99e7-f4e41be96455)  
+- [Parallel LINQ (PLINQ)](https://msdn.microsoft.com/library/3d4d0cd3-bde4-490b-99e7-f4e41be96455)  
   
-- [Concurrency Runtime](http://msdn.microsoft.com/library/874bc58f-8dce-483e-a3a1-4dcc9e52ed2c)  
+- [Concurrency Runtime](https://msdn.microsoft.com/library/874bc58f-8dce-483e-a3a1-4dcc9e52ed2c)  
   
-- [Scenario Marker Support](http://msdn.microsoft.com/en-us/e3b55bc2-b451-4214-ae00-0c7f5a5baec8)  
+- [Scenario Marker Support](https://msdn.microsoft.com/e3b55bc2-b451-4214-ae00-0c7f5a5baec8)  
   
-- [C++ AMP (C++ Accelerated Massive Parallelism)](http://msdn.microsoft.com/library/e27824cb-3167-409b-8c3f-a0e476d8f349)  
+- [C++ AMP (C++ Accelerated Massive Parallelism)](https://msdn.microsoft.com/library/e27824cb-3167-409b-8c3f-a0e476d8f349)  
   
   You can use the Markers tab in the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box to control whether markers from various sources are displayed in the Concurrency Visualizer and you can filter for markers based on importance and category.  
   
@@ -67,6 +62,3 @@ In the Concurrency Visualizer, markers are icons that represent events in an app
  [Message Markers](../profiling/message-markers.md)   
  [Span Markers](../profiling/span-markers.md)   
  [Visualizing EventSource Events as Markers](../profiling/visualizing-eventsource-events-as-markers.md)
-
-
-

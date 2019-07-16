@@ -1,8 +1,6 @@
 ---
 title: "IntelliTrace | Microsoft Docs"
-ms.custom: ""
 ms.date: "09/19/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.historicaldebug.overview"
@@ -13,23 +11,21 @@ helpviewer_keywords:
   - "IntelliTrace, debugging applications"
   - "debugger, (See also IntelliTrace [Visual Studio ALM])"
   - "debugging, (See also IntelliTrace [Visual Studio ALM])"
-  - "IntelliTrace, collecting data from Test Manager"
   - "IntelliTrace"
-  - "Test Manager, debugging with IntelliTrace"
   - "IntelliTrace, debugging after a crash"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# IntelliTrace
+# IntelliTrace for Visual Studio Enterprise (C#, Visual Basic, C++)
 
 You can spend less time debugging your application when you use IntelliTrace to record and trace your code's execution history. You can find bugs easily because IntelliTrace lets you:
 
 - Record specific events
 
-   Examine related code, data that appears in the **Locals** window during debugger events, and function call information
+- Examine related code, data that appears in the **Locals** window during debugger events, and function call information
 
 - Debug errors that are hard to reproduce or that happen in deployment
 
@@ -40,7 +36,6 @@ You can use IntelliTrace in Visual Studio Enterprise edition (but not the Profes
 |||
 |-|-|
 |**Debug my application with IntelliTrace:**<br /><br /> - Show me past events.<br />- Show me call information with past events.<br />- Save my IntelliTrace session.<br />- Control the data that IntelliTrace collects.|- [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md)<br />- [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md)<br />- [IntelliTrace Features](../debugger/intellitrace-features.md)<br />- [Historical Debugging](../debugger/historical-debugging.md)|
-|**Collect IntelliTrace data during a test session in Test Manager**|- [Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)|
 |**Collect IntelliTrace data from deployed applications**|- [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)|
 |**Start debugging from an IntelliTrace log file (.iTrace file).**|- [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)|
 
@@ -48,14 +43,14 @@ You can use IntelliTrace in Visual Studio Enterprise edition (but not the Profes
 
 | | |
 |---------------------| - |
-| **Full support** | - Visual Basic and Visual C# applications that use .NET Framework 2.0 or higher versions.<br/>You can debug most applications, including ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013, and 64-bit apps.<br/>To debug SharePoint applications with IntelliTrace, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md).<br/> To debug Microsoft Azure apps with IntelliTrace, see [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](/azure/vs-azure-tools-intellitrace-debug-published-cloud-services). |
-| **Limited support** | - Native apps targeting Windows support viewing snapshots using IntelliTrace step-back. Only debugger and exception events are supported.<br />- .NET Core and ASP.NET Core apps supported for certain events only (MVC Controller, ADO.NET, and HTTPClicent events) in local debugging. The Standalone Collector is not supported for .NET Core or ASP.NET Core apps.<br />- F# apps on an experimental basis<br />- UWP apps supported for events only |
-| **Not supported** | - Other languages and script<br />- Windows Services, Silverlight, Xbox, or [!INCLUDE[winmobile](../debugger/includes/winmobile_md.md)] apps |
+| **Full support** | - Visual Basic and Visual C# applications that use .NET Framework 2.0 or higher versions.<br/>You can debug most applications, including ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013, and 64-bit apps.<br/>To debug SharePoint applications with IntelliTrace, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md).<br/> To debug Microsoft Azure apps with IntelliTrace, see [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](../azure/vs-azure-tools-intellitrace-debug-published-cloud-services.md). |
+| **Limited support** | - C++ apps targeting Windows support viewing snapshots using IntelliTrace step-back. Only debugger and exception events are supported.<br />- .NET Core and ASP.NET Core apps supported for certain events only (MVC Controller, ADO.NET, and HTTPClient events) in local debugging. The Standalone Collector is not supported for .NET Core or ASP.NET Core apps.<br />- F# apps on an experimental basis<br />- UWP apps supported for events only |
+| **Not supported** | - Other languages and script<br />- Windows Services, Silverlight, Xbox, or Windows Mobile apps |
 
 > [!NOTE]
 > If you want to debug a process that is already running, you can collect IntelliTrace events only (no call information). You can attach to a 32-bit or 64-bit process on the local machine only. Events that occur before you attach to the process are not collected.
 
-##  <a name="IntelliTraceVSTraditional"></a> Why debug with IntelliTrace?
+## <a name="IntelliTraceVSTraditional"></a> Why debug with IntelliTrace?
 
 Traditional or *live* debugging shows only your application's current state, with limited data about past events. You either have to infer these events based on the application's current state, or you have to recreate these events by rerunning your application.
 
@@ -65,35 +60,29 @@ IntelliTrace can also help you debug errors that are hard to reproduce or that h
 
 You can save IntelliTrace data from these sources:
 
-- An IntelliTrace session in Visual Studio 2017 Enterprise, Visual Studio 2015 Enterprise, or previous versions of Visual Studio Ultimate.
+- An IntelliTrace session in Visual Studio 2015 Enterprise or later versions, or previous versions of Visual Studio Ultimate.
 
-- A test session in Microsoft Test Manager
+- ASP.NET web apps hosted on IIS, or SharePoint 2010 and SharePoint 2013 applications running in deployment when you use Microsoft Monitoring Agent, either alone or with System Center 2012. See [Use the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md) and [Monitoring with Microsoft Monitoring Agent](https://technet.microsoft.com/library/dn465153.aspx).
 
-- ASP.NET web apps hosted on IIS, or SharePoint 2010 and SharePoint 2013 applications running in deployment when you use Microsoft Monitoring Agent, either alone or with System Center 2012. See [Use the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md) and [Monitoring with Microsoft Monitoring Agent](http://technet.microsoft.com/library/dn465153.aspx).
-
-  Here are some examples of how IntelliTrace can help you with debugging:
+Here are some examples of how IntelliTrace can help you with debugging:
 
 - Your application has corrupted a data file, but you don't know where this event happened.
 
-     Without IntelliTrace, you have to look through the code to find all possible file accesses, put breakpoints on those accesses, and rerun your application to find where the problem happened. With IntelliTrace, you can see all the collected file-access events and specific details about your application when each event happened.
+  Without IntelliTrace, you have to look through the code to find all possible file accesses, put breakpoints on those accesses, and rerun your application to find where the problem happened. With IntelliTrace, you can see all the collected file-access events and specific details about your application when each event happened.
 
 - An exception happens.
 
-     Without IntelliTrace, you get a message about an exception but you don't have much information about the events that led to the exception. You can examine the call stack to see the chain of calls that led to the exception, but you can't see the sequence of events that happened during those calls. With IntelliTrace, you can examine the events that happened before the exception.
-
-- Your application crashes on a test computer but runs successfully on a development computer.
-
-     You can collect IntelliTrace data from Microsoft Test Manager, save the data to an .iTrace file, and attach this file to a Team Foundation Server work item for later investigation. See [Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts) and [Use saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md).
+  Without IntelliTrace, you get a message about an exception but you don't have much information about the events that led to the exception. You can examine the call stack to see the chain of calls that led to the exception, but you can't see the sequence of events that happened during those calls. With IntelliTrace, you can examine the events that happened before the exception.
 
 - A bug or crash happens in a deployed application.
 
-     For Microsoft Azure-based apps, you can configure IntelliTrace data collection before you publish the application. While your application runs, IntelliTrace saves data to an .iTrace file. See [Debug a Published Cloud Service with IntelliTrace and Visual Studio](http://go.microsoft.com/fwlink/?LinkID=262248).
+  For Microsoft Azure-based apps, you can configure IntelliTrace data collection before you publish the application. While your application runs, IntelliTrace saves data to an .iTrace file. See [Debug a Published Cloud Service with IntelliTrace and Visual Studio](../azure/vs-azure-tools-intellitrace-debug-published-cloud-services.md).
 
-     For ASP.NET web apps hosted on IIS 7.0, 7.5, and 8.0, and SharePoint 2010 or SharePoint 2013 applications, use Microsoft Monitoring Agent, either alone or with System Center 2012, to save IntelliTrace data to an .iTrace file.
+  For ASP.NET web apps hosted on IIS 7.0, 7.5, and 8.0, and SharePoint 2010 or SharePoint 2013 applications, use Microsoft Monitoring Agent, either alone or with System Center 2012, to save IntelliTrace data to an .iTrace file.
 
-     This is useful when you want to diagnose problems with apps in deployment. See [Use the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md).
+  This is useful when you want to diagnose problems with apps in deployment. See [Use the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md).
 
-##  <a name="WhatData"></a> What data does IntelliTrace collect?
+## <a name="WhatData"></a> What data does IntelliTrace collect?
 
 **Collect event information**
 
@@ -101,9 +90,9 @@ By default, IntelliTrace records only IntelliTrace events: debugger events, exce
 
 - **Debugger events**
 
-     IntelliTrace always records events that happen in the Visual Studio debugger. For example, starting your application is a debugger event. Other debugger events are stopping events, which cause your application to break execution. For example, your program hits a breakpoint, hits a tracepoint, or executes a **Step** command.
+  IntelliTrace always records events that happen in the Visual Studio debugger. For example, starting your application is a debugger event. Other debugger events are stopping events, which cause your application to break execution. For example, your program hits a breakpoint, hits a tracepoint, or executes a **Step** command.
 
-     By default, to help with performance, IntelliTrace doesn't record every possible value for a debugger event. Instead, it records these values:
+  By default, to help with performance, IntelliTrace doesn't record every possible value for a debugger event. Instead, it records these values:
 
   - Values in the **Locals** window. Keep the **Locals** window open to see these values.
 
@@ -115,33 +104,36 @@ By default, IntelliTrace records only IntelliTrace events: debugger events, exce
 
 - **Exceptions**
 
-     IntelliTrace records the exception type and message for these kinds of exceptions:
+  IntelliTrace records the exception type and message for these kinds of exceptions:
 
-    - Handled exceptions where the exception is thrown and caught
+  - Handled exceptions where the exception is thrown and caught
 
-    - Unhandled exceptions
+  - Unhandled exceptions
 
 - **.NET Framework events**
 
-   By default, IntelliTrace records the most common .NET Framework events. For example, ror a Check Checkbox event, IntelliTrace collects the checkbox state and text.
+  By default, IntelliTrace records the most common .NET Framework events. For example, for a <xref:System.Windows.Forms.CheckBox.CheckedChanged?displayProperty=nameWithType> event, IntelliTrace collects the checkbox state and text.
 
 - **SharePoint 2010 and SharePoint 2013 application events**
 
-     You can record user profile events and a subset of Unified Logging System (ULS) events for SharePoint 2010 and 2013 applications running outside Visual Studio. You can save these events to an .iTrace file. Requires Visual Studio Enterprise 2017, Visual Studio Enterprise 2015, a previous version of Visual Studio Ultimate, or [Microsoft Monitoring Agent](http://go.microsoft.com/fwlink/?LinkId=320384) running in **Trace** mode.
+  You can record user profile events and a subset of Unified Logging System (ULS) events for SharePoint 2010 and 2013 applications running outside Visual Studio. You can save these events to an .iTrace file. Requires Visual Studio Enterprise 2015 or later versions, a previous version of Visual Studio Ultimate, or [Microsoft Monitoring Agent](http://go.microsoft.com/fwlink/?LinkId=320384) running in **Trace** mode.
 
-     When you open the .iTrace file, enter a SharePoint correlation ID to find its matching web request, view the recorded events, and start debugging from a specific event. If the file contains unhandled exceptions, you can choose a correlation ID to start debugging an exception.
+  When you open the .iTrace file, enter a SharePoint correlation ID to find its matching web request, view the recorded events, and start debugging from a specific event. If the file contains unhandled exceptions, you can choose a correlation ID to start debugging an exception.
 
-     See:
+  See:
 
-    - [Use the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)
+  - [Use the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)
 
-    - [Use saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)
+  - [Use saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)
 
-    - [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md)
+  - [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md)
 
 **Capture snapshots**
 
 You can configure IntelliTrace to capture snapshots at every breakpoint and debugger step event. IntelliTrace records the full application state at each snapshot, which allows you to view complex variables and to evaluate expressions.
+
+> [!NOTE]
+> The [IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md) does not support capturing snapshots.
 
 See [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md).
 
@@ -169,17 +161,9 @@ By default, IntelliTrace collects data for selected IntelliTrace events only. Th
 
 Collecting call information might slow down your application significantly. It might also increase the size of any IntelliTrace log files (.iTrace files) that you're saving to disk. To minimize these effects, collect call information only for the modules you care about.  To change the maximum size of your .iTrace files, go to **Tools**, **Options**, **IntelliTrace**, **Advanced**.
 
-## In this section
-
-[IntelliTrace Features](../debugger/intellitrace-features.md)
-
-[Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md)
-
-[Use saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)
-
 ### Blogs
 
-[Microsoft DevOps](https://blogs.msdn.microsoft.com/devops/)
+[Microsoft DevOps](https://devblogs.microsoft.com/devops/)
 
 ### Forums
 

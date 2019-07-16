@@ -1,20 +1,15 @@
 ---
 title: "Debug Package | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], packages"
 ms.assetid: 99947fd4-fb87-4c69-b26c-65634e17d285
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Debug Package
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -32,4 +27,3 @@ The debug package runs in the Visual Studio shell and handles all of the UI. It 
  [Stack Frames](../../extensibility/debugger/stack-frames.md)   
  [Threads](../../extensibility/debugger/threads.md)   
  [Debugger Components](../../extensibility/debugger/debugger-components.md)
-

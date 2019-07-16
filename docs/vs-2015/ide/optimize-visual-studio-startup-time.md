@@ -1,12 +1,8 @@
 ---
-title: "Optimize Visual Studio Startup Time | Microsoft Docs"
-ms.custom: ""
+title: "Optimize Startup Time | Microsoft Docs"
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+ms.topic: conceptual
+helpviewer_keywords:
   - "startup time [Visual Studio]"
   - "optimizing startup time [Visual Studio]"
   - "speed up start time [Visual Studio]"
@@ -14,7 +10,7 @@ ms.assetid: d1508121-8499-4084-8eb5-fa89fa7b17d3
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Optimize Visual Studio Startup Time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,7 +19,7 @@ Ideally, Visual Studio should always start up as quickly as possible. However, V
 
 ## Control startup behavior
 
-To avoid extending startup time, Visual Studio "15" avoids loading extensions during startup, using an on-demand-load approach. This means that extensions don't open immediately after Visual Studio starts, but rather open asynchronously on an as-needed basis after startup. Also, because tool windows left open in a prior Visual Studio session can slow startup time, Visual Studio opens tool windows in a more intelligent way to avoid impacting startup time.
+To avoid extending startup time, Visual Studio 2017 and later avoid loading extensions during startup, using an on-demand-load approach. This means that extensions don't open immediately after Visual Studio starts, but rather open asynchronously on an as-needed basis after startup. Also, because tool windows left open in a prior Visual Studio session can slow startup time, Visual Studio opens tool windows in a more intelligent way to avoid impacting startup time.
 
 If Visual Studio detects slow startup, a pop-up message appears, alerting you to the extension or tool window that's causing the slowdown. The message also provides a link to the **Manage Visual Studio Performance** dialog box, which lists the extensions and tools windows that are affecting startup performance. This dialog box enables you to change extension and tool window settings to improve startup performance.
 
@@ -47,5 +43,3 @@ If a tool window is slowing down Visual Studio startup, you can choose to leave 
 ![Manage Visual Studio Performance - tool windows](../ide/media/vside-perfdialog-toolwindows.PNG "Manage Visual Studio Performance - tool windows")
 
 If you later change your mind, you can revert any of these options in the **Manage Visual Studio Performance** dialog box. To open the **Manage Visual Studio Performance** dialog box, on the menu bar, choose **Help**, **Manage Visual Studio Performance**.
-
-

@@ -1,22 +1,19 @@
 ---
-title: "Use Visual Studio to create an ASP.NET Core web app in C#"
+title: "Create an ASP.NET Core web app in C#"
 description: "Learn how to create a simple Hello World web app in Visual Studio with C# and ASP.NET Core, step-by-step."
-ms.custom: mvc
-ms.date: 10/29/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
+ms.custom: "mvc,seodec18"
+ms.date: 06/06/2019
+ms.technology: vs-ide-general
+ms.prod: visual-studio-windows
 ms.topic: quickstart
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 dev_langs:
   - CSharp
 ms.workload:
   - "aspnet"
   - "dotnetcore"
-experimental: true
-experiment_id: "bef9e21b-00d0-4b"
 ---
 # Quickstart: Use Visual Studio to create your first ASP.NET Core web app
 
@@ -26,11 +23,17 @@ In this 5-10 minute introduction to how to use Visual Studio, you'll create a si
 
 ### Install Visual Studio
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+::: moniker range="vs-2017"
 
-### Update Visual Studio
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
 
-If you've already installed Visual Studio, make sure that you are running the most recent release. For more information about how to update your installation, see the [Update Visual Studio 2017 to the most recent release](../install/update-visual-studio.md) page.
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+
+::: moniker-end
 
 ### Choose your theme (optional)
 
@@ -40,11 +43,13 @@ This quickstart tutorial includes screenshots that use the dark theme. If you ar
 
 To start, you'll create an ASP.NET Core web application project. The project type comes with all template files to create a web app, before you've even added anything!
 
+::: moniker range="vs-2017"
+
 1. Open Visual Studio 2017.
 
 1. From the top menu bar, choose **File** > **New** > **Project**.
 
-1. In the left pane of the **New Project** dialog box, expand **Visual C#**, and then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**. Then, name your file `HelloWorld` and choose **OK**.
+1. In the left pane of the **New Project** dialog box, expand **Visual C#**, and then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**. <br/><br/>Then, name your file `HelloWorld` and choose **OK**.
 
    ![Create the new ASP.NET Core Web Application project for C#](../ide/media/csharp-aspnet-choose-template-name-file.png)
 
@@ -59,24 +64,61 @@ To start, you'll create an ASP.NET Core web application project. The project typ
    >
    > (You might have to close Visual Studio before you can continue installing the new workload.)
 
-1. In the **New ASP.NET Core Web Application** dialog box, select **ASP.NET Core 2.0** or later from the top drop-down menu.
+1. In the **New ASP.NET Core Web Application** dialog box, select **ASP.NET Core 2.1** from the top drop-down menu. Next, choose **Web Application**, and then choose **OK**.
+
+   ![New ASP.NET Core Web Application dialog box](../ide/media/aspnet-core-2dot1.png)
 
    > [!NOTE]
-   > If you don't see **ASP.NET Core 2.0** or later, make sure that you are running the most recent release of Visual Studio. For more information about how to update your installation, see the [Update Visual Studio 2017 to the most recent release](../install/update-visual-studio.md) page.
-
-1. Next, choose **Web Application**, and then choose **OK**.
-
-   ![New ASP.NET Core Web Application dialog box](../ide/media/quickstart-aspnet-core20.png)
+   > If you don't see **ASP.NET Core 2.1**, make sure that you are running the most recent release of Visual Studio. For more information about how to update your installation, see the [Update Visual Studio  to the most recent release](../install/update-visual-studio.md) page.
 
 Soon after, Visual Studio opens your project file.
 
-## Create the app
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. Open Visual Studio.
+
+1. On the start window, choose **Create a new project**.
+
+   ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
+
+1. On the **Create a new project** window, enter or type *ASP.NET* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list.
+
+   After you apply the language and platform filters, choose the **ASP.NET Core Web Application** template, and then choose **Next**.
+
+   ![Choose the C# template for the ASP.NET Core Web Application](../get-started/csharp/media/vs-2019/csharp-create-new-project-search-aspnet-core-filtered.png)
+
+   > [!NOTE]
+   > If you do not see the **ASP.NET Core Web Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   >
+   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png)
+   >
+   > Then, in the Visual Studio Installer, choose the **ASP.NET and web development** workload.
+   >
+   > ![ASP.NET Core Web Application workload in the Visual Studio Installer](../get-started/media/aspnet-core-web-dev-workload.png)
+   >
+   > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
+
+1. In the **Configure your new project** window, type or enter *HelloWorld* in the **Project name** box. Then, choose **Create**.
+
+   ![in the 'Configure your new project' window, name your project 'HelloWorld'](../get-started/csharp/media/vs-2019/csharp-name-your-aspnet-helloworld-project.png)
+
+1. In the **Create a new ASP.NET Core Web Application** window, verify that **ASP.NET Core 2.1** appears in the top drop-down menu. Then, choose **Web Application**, which includes example Razor Pages. Next, choose  **Create**.
+
+   ![The 'Create a new ASP.NET Core Web Application' window](../get-started/csharp/media/vs-2019/csharp-create-aspnet-core-razor-pages-app.png)
+
+   Visual Studio opens your new project.
+
+::: moniker-end
+
+## Create and run the app
 
 1. In the **Solution Explorer**, expand the **Pages** folder, and then choose **About.cshtml**.
 
    ![Choose the About.cshtml file from the Solution Explorer](../ide/media/csharp-aspnet-about-page-html-file.png)
 
-   This file corresponds to a page that's named **About** in the web app.
+   This file corresponds to a page that's named **About** in the web app, which runs in a web browser.
 
    ![The About page in the web app](../ide/media/csharp-aspnet-about-page.png)
 
@@ -88,7 +130,7 @@ Soon after, Visual Studio opens your project file.
 
    ![Change the default The HTML code for the additional information area in the Visual Studio editor](../ide/media/csharp-aspnet-about-cshtml-page-hello-world.png)
 
-1. In the **Solution Explorer**, expand **About.cshtml**, and then choose **About.cshtml.cs**. (This file also corresponds with the **About** page in your web app.)
+1. In the **Solution Explorer**, expand **About.cshtml**, and then choose **About.cshtml.cs**. (This file also corresponds with the **About** page in a web browser.)
 
    ![Choose the About.cshtml file from the Solution Explorer](../ide/media/csharp-aspnet-about-page-code-file.png)
 
@@ -100,22 +142,24 @@ Soon after, Visual Studio opens your project file.
 
    ![Change the default message text for the application description area in the Visual Studio editor](../ide/media/csharp-aspnet-about-cshtml-cs-message.png)
 
-## Run the app
+1. Choose **IIS Express** or press **Ctrl**+**F5** to run the app and open it in a web browser.
 
-1. Press **Ctrl**+**F5** to run the app and open it in a web browser.
+   ![Select the IIS Express button in Visual Studio](../ide/media/csharp-aspnet-helloworld-iisbutton.png)
 
    > [!NOTE]
-   > If you get an error message that says, **Unable to connect to web server 'IIS Express'**, or an error message that mentions an SSL certificate, close Visual Studio. Next, open Visual Studio by using the **Run as administrator** option from the right-click or context menu. Then, run the application again.
+   > If you get an error message that says, **Unable to connect to web server 'IIS Express'**, or an error message that mentions an SSL certificate, close Visual Studio. Next, open Visual Studio by using the **Run as administrator** option from the right-click context menu. Then, run the application again.
 
-1. At the top of the web page, choose **About**.
+1. In the web browser, verify that the **About** page includes your updated text.
 
-   ![Select About from the web page](../ide/media/csharp-aspnet-home-page-about.png)
-
-1. View the updated text that you added to the **About** page.
-
-   ![View the updated About page that includes the text that you added](../ide/media/csharp-aspnet-about-page-hello-world.png)
+   ![View the updated About page that includes the changes you made](../ide/media/csharp-aspnet-about-page-hello-world.png)
 
 1. Close the web browser.
+
+### Review your work
+
+View the following animation to check the work that you completed in the previous section.
+
+  ![View the animated .gif file that shows how to create and run a simple C# ASP.NET Core web app in Visual Studio](../ide/media/csharp-aspnet-animated-hello-world.gif)
 
 Congratulations on completing this Quickstart! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE (integrated development environment).
 
@@ -124,7 +168,7 @@ Congratulations on completing this Quickstart! We hope you learned a little bit 
 To learn more, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
-> [Get started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md)
+> [Get started with C# and ASP.NET in Visual Studio](../get-started/csharp/tutorial-aspnet-core.md)
 
 ## See also
 

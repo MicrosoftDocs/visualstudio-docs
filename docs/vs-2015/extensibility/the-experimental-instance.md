@@ -1,14 +1,9 @@
 ---
 title: "The Experimental Instance | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "experimental builds"
   - "VSPackages, experimental builds"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: ead0df4e-6f88-4b42-9297-581b7902f050
 caps.latest.revision: 37
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # The Experimental Instance
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,9 +25,8 @@ To safeguard your Visual Studio development environment from untested applicatio
  "*\<Visual studio installation path>*\Common7\IDE\devenv.exe" /RootSuffix Exp  
   
 > [!NOTE]
->  The experimental instance is written to the registry under the `<version number>Exp` and `<version number>Exp_Config` nodes. For example the Visual Studio 2015 experimental registry area is  
+> The experimental instance is written to the registry under the `<version number>Exp` and `<version number>Exp_Config` nodes. For example the Visual Studio 2015 experimental registry area is  
 >   
->  `HKCU\Software\Microsoft\VisualStudio\14.0Exp` and `HKCU\Software\Microsoft\VisualStudio\14.0Exp_Config`  
+> `HKCU\Software\Microsoft\VisualStudio\14.0Exp` and `HKCU\Software\Microsoft\VisualStudio\14.0Exp_Config`  
   
  We recommend that you run your extension in the experimental instance while you are developing it. When you deploy the extension, it runs in the development instance. For more information about registering applications, see [Registering VSPackages](../extensibility/internals/registering-vspackages.md).
-

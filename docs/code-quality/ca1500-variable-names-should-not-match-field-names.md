@@ -1,8 +1,6 @@
 ---
 title: "CA1500: Variable names should not match field names"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "VariableNamesShouldNotMatchFieldNames"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: fa0e5029-79e9-4a33-8576-787ac3c26c39
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

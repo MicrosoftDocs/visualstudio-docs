@@ -4,11 +4,9 @@ ms.date: 11/04/2016
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # T4 Assembly Directive
 
@@ -17,7 +15,7 @@ In a Visual Studio design-time text template, the `assembly` directive loads an 
  For a general overview of writing text templates, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).
 
 > [!NOTE]
->  You do not need the `assembly` directive in a run-time (preprocessed) text template. Instead, add the necessary assemblies to the **References** of your Visual Studio project.
+> You do not need the `assembly` directive in a run-time (preprocessed) text template. Instead, add the necessary assemblies to the **References** of your Visual Studio project.
 
 ## Using the Assembly Directive
  The syntax of the directive is as follows:

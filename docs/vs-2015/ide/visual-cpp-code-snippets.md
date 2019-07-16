@@ -1,19 +1,14 @@
 ---
 title: "Visual C++ Code Snippets | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 74e26fd4-e5ca-4611-a816-0a521b4947a0
 caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Visual C++ Code Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -137,7 +132,7 @@ for (int i = length - 1; i >= 0; i--)
 }  
 ```  
   
- The **rfor** snippet provides a [range-based](http://msdn.microsoft.com/library/5750ba1d-ba48-4236-a923-e32de8345c2d) for loop (link):  
+ The **rfor** snippet provides a [range-based](https://msdn.microsoft.com/library/5750ba1d-ba48-4236-a923-e32de8345c2d) for loop (link):  
   
 ```cpp  
 for (auto& i : v)  
@@ -173,6 +168,3 @@ class SomeClass {
 {  
   
 ```
-
-
-

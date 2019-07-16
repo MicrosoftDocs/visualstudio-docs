@@ -1,14 +1,13 @@
 ---
 title: Django web project template for Python
-description: An overview of the Visual Studio templates for web applications written in Python using the Django framework.
+description: Visual Studio provide a comprehensive template for rapid creation of Django web applications with Python.
 ms.date: 11/12/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
-manager: douge
-ms.workload: 
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
+ms.custom: seodec18
+ms.workload:
   - python
   - data-science
 ---
@@ -33,7 +32,7 @@ Visual Studio provides full IntelliSense for Django projects:
 
     ![JavaScript IntelliSense](media/template-django-intellisense-js.png)
 
-Visual Studio also provides full [debugging support](debugging-python-in-visual-studio.md) for Django projects: 
+Visual Studio also provides full [debugging support](debugging-python-in-visual-studio.md) for Django projects:
 
 ![Breakpoints](media/template-django-debugging.png)
 
@@ -45,19 +44,19 @@ The Django management console is accessed through various commands on the **Proj
 
 - **Open Django Shell**: opens a shell in your application context that enables you to manipulate your models:
 
-    ![Console](media/template-django-console-shell.png)
+    ![Results of the Open Django Shell command](media/template-django-console-shell.png)
 
 - **Django Sync DB**: executes `manage.py syncdb` in an **Interactive** window:
 
-    ![Console](media/template-django-console-sync-db.png)
+    ![Result of the Django Sync DB command](media/template-django-console-sync-db.png)
 
 - **Collect Static**: executes `manage.py collectstatic --noinput` to copy all the static files to the path specified by `STATIC_ROOT` in your *settings.py*.
 
-    ![Console](media/template-django-console-collect-static.png)
+    ![Result of the Collect Static command](media/template-django-console-collect-static.png)
 
 - **Validate**: executes `manage.py validate`, which reports any validation errors in the installed models specified by `INSTALLED_APPS` in your *settings.py*:
 
-    ![Console](media/template-django-console-validate.png)
+    ![Result of the Validate command](media/template-django-console-validate.png)
 
 ## See also
 

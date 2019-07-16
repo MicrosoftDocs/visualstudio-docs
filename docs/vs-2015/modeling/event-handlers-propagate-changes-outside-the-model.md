@@ -1,12 +1,9 @@
 ---
 title: "Event Handlers Propagate Changes Outside the Model | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language, programming domain models"
   - "Domain-Specific Language, events"
@@ -14,7 +11,7 @@ ms.assetid: 0ac8d1e4-239f-4370-ba1d-3769bb38b8a5
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Event Handlers Propagate Changes Outside the Model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,13 +24,13 @@ In Visualization and Modeling SDK, you can define store event handlers to propag
   
 1. Choose the type of event that you want to monitor. For a full list, look at the properties of <xref:Microsoft.VisualStudio.Modeling.EventManagerDirectory>. Each property corresponds to a type of event. The most frequently used event types are:  
   
-   -   `ElementAdded` – triggered when a model element, relationship link, shape or connector is created.  
+   - `ElementAdded` – triggered when a model element, relationship link, shape or connector is created.  
   
-   -   ElementPropertyChanged – triggered when the value of a `Normal` domain property is changed. The event is triggered only if the new and old values are not equal. The event cannot be applied to calculated and custom storage properties.  
+   - ElementPropertyChanged – triggered when the value of a `Normal` domain property is changed. The event is triggered only if the new and old values are not equal. The event cannot be applied to calculated and custom storage properties.  
   
         It cannot be applied to the role properties that correspond to relationship links. Instead, use `ElementAdded` to monitor the domain relationship.  
   
-   -   `ElementDeleted` – triggered after a model element, relationship, shape or connector has been deleted. You can still access the property values of the element, but it will have no relationships to other elements.  
+   - `ElementDeleted` – triggered after a model element, relationship, shape or connector has been deleted. You can still access the property values of the element, but it will have no relationships to other elements.  
   
 2. Add a partial class definition for _YourDsl_**DocData** in a separate code file in the **DslPackage** project.  
   
@@ -163,11 +160,11 @@ private static void AlbumTitleAdjuster(object sender,
   
  If you write an event that updates the store:  
   
--   Use `store.InUndoRedoOrRollback` to avoid making changes to model elements in Undo. The transaction manager will set everything in the store back to its original state.  
+- Use `store.InUndoRedoOrRollback` to avoid making changes to model elements in Undo. The transaction manager will set everything in the store back to its original state.  
   
--   Use `store.InSerializationTransaction` to avoid making changes while the model is being loaded from file.  
+- Use `store.InSerializationTransaction` to avoid making changes while the model is being loaded from file.  
   
--   Your changes will cause further events to be triggered. Make sure that you avoid an infinite loop.  
+- Your changes will cause further events to be triggered. Make sure that you avoid an infinite loop.  
   
 ## Store Event types  
  Each event type corresponds to a collection in Store.EventManagerDirectory. You can add or remove event handlers at any time, but it is usual to add them when the document is loaded.  
@@ -189,6 +186,3 @@ private static void AlbumTitleAdjuster(object sender,
 ## See Also  
  [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)   
  [Sample code: Circuit Diagrams](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
-
-
-

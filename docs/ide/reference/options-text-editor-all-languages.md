@@ -1,13 +1,34 @@
 ---
 title: Options, Text Editor, All Languages
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.General"
   - "VS.ToolsOptionsPages.Text_Editor.ResJSON.General"
   - "VS.ToolsOptionsPages.Text_Editor.All_Languages.General"
+  - "VS.ToolsOptionsPages.Text_Editor.Basic.General"
+  - "VS.ToolsOptionsPages.Text_Editor.CSharp.General"
+  - "VS.ToolsOptionsPages.Text_Editor.C/C++.General"
+  - "VS.ToolsOptionsPages.Text_Editor.CoffeeScript.General"
+  - "VS.ToolsOptionsPages.Text_Editor.CSS.General"
+  - "VS.ToolsOptionsPages.Text_Editor.Dockerfile.General"
+  - "VS.ToolsOptionsPages.Text_Editor.F#.General"
+  - "VS.ToolsOptionsPages.Text_Editor.Fsharp.General"
+  - "VS.ToolsOptionsPages.Text_Editor.HQL.General"
+  - "VS.ToolsOptionsPages.Text_Editor.HTML.General"
+  - "VS.ToolsOptionsPages.Text_Editor.HTML_(Web_Forms).General"
+  - "VS.ToolsOptionsPages.Text_Editor.JavaScript.General"
+  - "VS.ToolsOptionsPages.Text_Editor.TypeScript.General"
+  - "VS.ToolsOptionsPages.Text_Editor.JSON.General"
+  - "VS.ToolsOptionsPages.Text_Editor.LESS.General"
+  - "VS.ToolsOptionsPages.Text_Editor.Plain_Text.General"
+  - "VS.ToolsOptionsPages.Text_Editor.SCSS.General"
+  - "VS.TOOLSOPTIONSPAGES.TEXT_EDITOR.SQL_SERVER_TOOLS.GENERAL"
+  - "VS.ToolsOptionsPages.Text_Editor.StreamAnalytics.General"
+  - "VS.ToolsOptionsPages.Text_Editor.T-SQL90.General"
+  - "VS.ToolsOptionsPages.Text_Editor.U-SQL.General"
+  - "VS.ToolsOptionsPages.Text_Editor.XAML.General"
+  - "VS.ToolsOptionsPages.Text_Editor.XML.General"
 helpviewer_keywords:
   - "Text Editor Options dialog box"
   - "statement completion"
@@ -18,7 +39,7 @@ helpviewer_keywords:
 ms.assetid: 49ee7306-9d46-4170-850f-a1716171752d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -88,9 +109,9 @@ When selected, displays the **Navigation bar** at the top of the code editor. It
 
 This option sets the behavior of the editor when you place the insertion point on a blank line, select nothing, and then Copy or Cut.
 
--   When this option is selected, the blank line is copied or cut. If you then Paste, a new, blank line is inserted.
+- When this option is selected, the blank line is copied or cut. If you then Paste, a new, blank line is inserted.
 
--   When this option is cleared, the Cut command removes blank lines. However, the data on the Clipboard is preserved. Therefore, if you then use the Paste command, the content most recently copied onto the Clipboard is pasted. If nothing has been copied previously, nothing is pasted.
+- When this option is cleared, the Cut command removes blank lines. However, the data on the Clipboard is preserved. Therefore, if you then use the Paste command, the content most recently copied onto the Clipboard is pasted. If nothing has been copied previously, nothing is pasted.
 
 This setting has no effect on Copy or Cut when a line is not blank. If nothing is selected, the entire line is copied or cut. If you then Paste, the text of the entire line and its endline character are pasted.
 

@@ -1,11 +1,9 @@
 ---
-title: "Isolating Code Under Test with Microsoft Fakes in Visual Studio"
+title: "Isolating Code Under Test with Microsoft Fakes"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren
@@ -19,19 +17,20 @@ Microsoft Fakes helps you isolate the code you are testing by replacing other pa
 
 Fakes come in two flavors:
 
--   A [stub](#get-started-with-stubs) replaces a class with a small substitute that implements the same interface.  To use stubs, you have to design your application so that each component depends only on interfaces, and not on other components. (By "component" we mean a class or group of classes that are designed and updated together and typically contained in an assembly.)
+- A [stub](#get-started-with-stubs) replaces a class with a small substitute that implements the same interface.  To use stubs, you have to design your application so that each component depends only on interfaces, and not on other components. (By "component" we mean a class or group of classes that are designed and updated together and typically contained in an assembly.)
 
--   A [shim](#get-started-with-shims) modifies the compiled code of your application at run time so that instead of making a specified method call, it runs the shim code that your test provides. Shims can be used to replace calls to assemblies that you cannot modify, such as .NET assemblies.
+- A [shim](#get-started-with-shims) modifies the compiled code of your application at run time so that instead of making a specified method call, it runs the shim code that your test provides. Shims can be used to replace calls to assemblies that you cannot modify, such as .NET assemblies.
 
 ![Fakes replace other components](../test/media/fakes-2.png)
 
 **Requirements**
 
--   Visual Studio Enterprise
--   A .NET Framework project
+- Visual Studio Enterprise
+- A .NET Framework project
 
 > [!NOTE]
-> .NET Standard projects are not supported.
+> - .NET Standard projects are not supported.
+> - Profiling with Visual Studio is not available for tests that use Microsoft Fakes.
 
 ## Choose between stub and shim types
 Typically, you would consider a Visual Studio project to be a component, because you develop and update those classes at the same time. You would consider using stubs and shims for calls that the project makes to other projects in your solution, or to other assemblies that the project references.
@@ -52,10 +51,10 @@ Other considerations are:
 
 In general, we recommend that you use stub types to isolate from dependencies within your codebase. You can do this by hiding the components behind interfaces. Shim types can be used to isolate from third-party components that do not provide a testable API.
 
-##  Get started with stubs
+## Get started with stubs
 For a more detailed description, see [Use stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md).
 
-1.  **Inject interfaces**
+1. **Inject interfaces**
 
      To use stubs, you have to write the code you want to test in such a way that it does not explicitly mention classes in another component of your application. By "component" we mean a class or classes that are developed and updated together, and typically contained in one Visual Studio project. Variables and parameters should be declared by using interfaces and instances of other components should be passed in or created by using a factory. For example, if StockFeed is a class in another component of the application, then this would be considered bad:
 
@@ -64,9 +63,7 @@ For a more detailed description, see [Use stubs to isolate parts of your applica
      Instead, define an interface that can be implemented by the other component, and which can also be implemented by a stub for test purposes:
 
     ```csharp
-    public int GetContosoPrice(IStockFeed feed)
-    { return feed.GetSharePrice("COOO"); }
-
+    public int GetContosoPrice(IStockFeed feed) => feed.GetSharePrice("COOO");
     ```
 
     ```vb
@@ -76,15 +73,15 @@ For a more detailed description, see [Use stubs to isolate parts of your applica
 
     ```
 
-2.  **Add Fakes Assembly**
+2. **Add Fakes Assembly**
 
-    1.  In **Solution Explorer**, expand the test project's reference list. If you are working in Visual Basic, you must choose **Show All Files** in order to see the reference list.
+    1. In **Solution Explorer**, expand the test project's reference list. If you are working in Visual Basic, you must choose **Show All Files** in order to see the reference list.
 
-    2.  Select the reference to the assembly in which the interface (for example IStockFeed) is defined. On the shortcut menu of this reference, choose **Add Fakes Assembly**.
+    2. Select the reference to the assembly in which the interface (for example IStockFeed) is defined. On the shortcut menu of this reference, choose **Add Fakes Assembly**.
 
-    3.  Rebuild the solution.
+    3. Rebuild the solution.
 
-3.  In your tests, construct instances of the stub and provide code for its methods:
+3. In your tests, construct instances of the stub and provide code for its methods:
 
     ```csharp
     [TestClass]
@@ -146,7 +143,7 @@ For a more detailed description, see [Use stubs to isolate parts of your applica
 
     Stubs are also generated for the getters and setters of properties, for events, and for generic methods. For more information, see [Use stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md).
 
-##  Get started with shims
+## Get started with shims
 (For a more detailed description, see [Use shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md).)
 
 Suppose your component contains calls to `DateTime.Now`:
@@ -163,13 +160,13 @@ During testing, you would like to shim the `Now` property, because the real vers
 
 To use shims, you don't have to modify the application code or write it a particular way.
 
-1.  **Add Fakes Assembly**
+1. **Add Fakes Assembly**
 
      In **Solution Explorer**, open your unit test project's references and select the reference to the assembly that contains the method you want to fake. In this example, the `DateTime` class is in *System.dll*.  To see the references in a Visual Basic project, choose **Show All Files**.
 
      Choose **Add Fakes Assembly**.
 
-2.  **Insert a shim in a ShimsContext**
+2. **Insert a shim in a ShimsContext**
 
     ```csharp
     [TestClass]

@@ -1,14 +1,9 @@
 ---
 title: "How to: Use the Parallel Watch Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.parallelwatch"
 dev_langs: 
@@ -22,7 +17,7 @@ ms.assetid: 28004d9b-420c-48f7-b80e-ab1519802558
 caps.latest.revision: 19
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Use the Parallel Watch Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +31,7 @@ In the Parallel Watch window, you can simultaneously display the values that one
 - A configurable column that can display the machine, process, tile, task, and thread.  
   
   > [!TIP]
-  >  You must open the **Parallel Task** window to display the task information in the **Parallel Watch** window.  
+  > You must open the **Parallel Task** window to display the task information in the **Parallel Watch** window.  
   
 - The **\<Add Watch>** column, in which you can enter expressions to watch.  
   
@@ -44,52 +39,49 @@ In the Parallel Watch window, you can simultaneously display the values that one
   
 ### To display the Parallel Watch window  
   
-1.  Set a breakpoint in the code.  
+1. Set a breakpoint in the code.  
   
-2.  On the menu bar, choose **Debug**, **Start Debugging**. Wait for the application to reach the breakpoint.  
+2. On the menu bar, choose **Debug**, **Start Debugging**. Wait for the application to reach the breakpoint.  
   
-3.  On the menu bar, choose **Debug**, **Windows**, **Parallel Watch**, and then choose a watch window. You can open as many as four windows.  
+3. On the menu bar, choose **Debug**, **Windows**, **Parallel Watch**, and then choose a watch window. You can open as many as four windows.  
   
 ### To add a watch expression  
   
--   Select **\<Add Watch>** and then specify a watch expression.  
+- Select **\<Add Watch>** and then specify a watch expression.  
   
 ### To flag or unflag a thread  
   
--   Select the flag column for the row, or open the shortcut menu for the thread and choose **Flag** or **Unflag**.  
+- Select the flag column for the row, or open the shortcut menu for the thread and choose **Flag** or **Unflag**.  
   
 ### To display only flagged threads  
   
--   Choose the Show Flagged Only button in the upper-left corner of the **Parallel Watch** window.  
+- Choose the Show Flagged Only button in the upper-left corner of the **Parallel Watch** window.  
   
 ### To switch frames  
   
--   Double-click the frame column. (Keyboard: Select the row and press Enter.)  
+- Double-click the frame column. (Keyboard: Select the row and press Enter.)  
   
 ### To sort a column  
   
--   Select the column heading.  
+- Select the column heading.  
   
 ### To group threads  
   
--   Open the shortcut menu for the Parallel Watch window, choose **Group By**, and then choose the appropriate submenu item.  
+- Open the shortcut menu for the Parallel Watch window, choose **Group By**, and then choose the appropriate submenu item.  
   
 ### To freeze or thaw threads  
   
--   Open the shortcut menu for the row and choose **Freeze** or **Thaw**.  
+- Open the shortcut menu for the row and choose **Freeze** or **Thaw**.  
   
 ### To export the data in the Parallel Watch window  
   
--   Choose the **Open in Excel** button and then choose **Open in Excel** or **Export to CSV**.  
+- Choose the **Open in Excel** button and then choose **Open in Excel** or **Export to CSV**.  
   
 ### To filter by a Boolean expression  
   
--   Enter a Boolean expression in the **Filter by Boolean Expression** box. The debugger evaluates the expression for each thread context. Only rows where the value is `true` are displayed.  
+- Enter a Boolean expression in the **Filter by Boolean Expression** box. The debugger evaluates the expression for each thread context. Only rows where the value is `true` are displayed.  
   
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [How to: Use the GPU Threads Window](../debugger/how-to-use-the-gpu-threads-window.md)   
- [Walkthrough: Debugging a C++ AMP Application](http://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5)
-
-
-
+ [Walkthrough: Debugging a C++ AMP Application](https://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5)

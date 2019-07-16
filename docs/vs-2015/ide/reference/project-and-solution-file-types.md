@@ -1,14 +1,9 @@
 ---
 title: "Project and Solution File Types | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "File Properties.CopyToOutputDirectory"
   - "File Properties.CustomToolNamespace"
@@ -34,12 +29,11 @@ ms.assetid: 0ba5007b-465d-4efa-b1e4-f0ee68527649
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Project and Solution File Types
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] supports many file types. In a particular installation, the installed components determine which file types are supported. This topic lists solution and project file types that are supported in some typical installations. For information about other file types, search by using the file name extensions for each type.  
   
 ## Solution Files (.sln and .suo)  
@@ -54,14 +48,11 @@ manager: "ghogen"
  [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] uses a variety of file formats to store information specific to projects. For more information, see the following Help topics:  
   
  [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)]  
- [File Types Created for Visual C++ Projects](http://msdn.microsoft.com/library/2b0ee2e0-ae81-4185-9bb9-11da3c99a283)  
+ [File Types Created for Visual C++ Projects](https://msdn.microsoft.com/library/2b0ee2e0-ae81-4185-9bb9-11da3c99a283)  
   
- [Creating and Managing Visual C++ Projects](http://msdn.microsoft.com/library/11003cd8-9046-4630-a189-a32bf3b88047)  
+ [Creating and Managing Visual C++ Projects](https://msdn.microsoft.com/library/11003cd8-9046-4630-a189-a32bf3b88047)  
   
- [Unicode](http://msdn.microsoft.com/library/1002004b-4113-4380-bf63-e1570934b793)  
+ [Unicode](https://msdn.microsoft.com/library/1002004b-4113-4380-bf63-e1570934b793)  
   
 ## See Also  
  [Solutions and Projects](../../ide/solutions-and-projects-in-visual-studio.md)
-
-
-

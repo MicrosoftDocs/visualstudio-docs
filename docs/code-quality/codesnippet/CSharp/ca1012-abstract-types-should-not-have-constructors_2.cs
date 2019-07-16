@@ -2,7 +2,7 @@ using System;
      
 namespace Samples  
 {   
-    // Violates this rule      
+    // Does not violate this rule      
     public abstract class Book      
     {          
         protected Book()          

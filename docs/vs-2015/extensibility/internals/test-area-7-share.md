@@ -1,21 +1,16 @@
 ---
 title: "Test Area 7: Share | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control [Visual Studio SDK], sharing items"
   - "source control plug-ins, sharing items"
 ms.assetid: 6ec4780a-bda4-4327-bb3e-c6c9e7eabf35
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Test Area 7: Share
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -26,13 +21,13 @@ This test area covers sharing items between locations via the **Share** command.
   
  Sharing into folders works if you select a folder with at least one file under source control in it. The share command is disabled under the following conditions:  
   
--   If the selected folder is an empty folder.  
+- If the selected folder is an empty folder.  
   
--   If there is a real folder, but it contains no source control files.  
+- If there is a real folder, but it contains no source control files.  
   
--   If there is a virtual folder, whether files under source control are in it or not.  
+- If there is a virtual folder, whether files under source control are in it or not.  
   
--   If there is a Remote Site Web project.  
+- If there is a Remote Site Web project.  
   
 ## Command Menu Access  
  The following [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment menu paths are used in the test cases.  
@@ -41,11 +36,11 @@ This test area covers sharing items between locations via the **Share** command.
   
 ## Expected Behavior  
   
--   Shared file appears in shared location.  
+- Shared file appears in shared location.  
   
--   Viewing the source control version store history shows that file(s) are shared.  
+- Viewing the source control version store history shows that file(s) are shared.  
   
--   Editing a shared file edits both locations of the file.  
+- Editing a shared file edits both locations of the file.  
   
 ## Test Cases  
  The following are specific test cases for the Share test area.  
@@ -61,4 +56,3 @@ This test area covers sharing items between locations via the **Share** command.
   
 ## See Also  
  [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)
-

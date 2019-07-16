@@ -1,14 +1,9 @@
 ---
 title: "How to: Set Debug and Release Configurations | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.builds"
 dev_langs: 
@@ -39,7 +34,7 @@ ms.assetid: 57b6bbb7-f2af-48f7-8773-127d75034ed2
 caps.latest.revision: 48
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Set Debug and Release Configurations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,9 +51,9 @@ Visual Studio projects have separate release and debug configurations for your p
   
 ### To change the build configuration  
   
-1.  From the Build menu: click **Build / Configuration Manager**, then select **Debug** or **Release**.  
+1. From the Build menu: click **Build / Configuration Manager**, then select **Debug** or **Release**.  
   
-2.  On the toolbar, choose either **Debug** or **Release** from the **Solution Configurations** list box.  
+2. On the toolbar, choose either **Debug** or **Release** from the **Solution Configurations** list box.  
   
      ![toolbar build configuration](../debugger/media/toolbarbuildconfiguration.png "ToolbarBuildConfiguration")  
   
@@ -70,7 +65,4 @@ Visual Studio projects have separate release and debug configurations for your p
  [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)   
  [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)   
  [How to: Create and Edit Configurations](../ide/how-to-create-and-edit-configurations.md)   
- [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e)
-
-
-
+ [Debug and Release Project Configurations](https://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e)

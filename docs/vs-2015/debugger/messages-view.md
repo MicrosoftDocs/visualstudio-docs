@@ -1,14 +1,9 @@
 ---
 title: "Messages View | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.externaltools.spyplus.messagesview"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 14c2a786-c23a-4b2d-acad-8c32a856c70d
 caps.latest.revision: 9
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Messages View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,21 +28,21 @@ Spy++ Messages View
   
 #### To open a Messages view for a window, process, or thread  
   
-1.  Move the focus to a [Windows View](../debugger/windows-view.md), [Processes View](../debugger/processes-view.md), or [Threads View](../debugger/threads-view.md) window.  
+1. Move the focus to a [Windows View](../debugger/windows-view.md), [Processes View](../debugger/processes-view.md), or [Threads View](../debugger/threads-view.md) window.  
   
-2.  Find the node for the item whose messages you want to examine, and select it.  
+2. Find the node for the item whose messages you want to examine, and select it.  
   
-3.  From the **Spy** menu, choose **Log Messages**.  
+3. From the **Spy** menu, choose **Log Messages**.  
   
      The [Message Options Dialog Box](../debugger/message-options-dialog-box.md) opens.  
   
-4.  Select the options for the message you want to display.  
+4. Select the options for the message you want to display.  
   
-5.  Press **OK** to begin logging messages.  
+5. Press **OK** to begin logging messages.  
   
      A Messages view window opens, and a **Messages** menu is added to the Spy++ toolbar. Depending upon the options selected, messages begin streaming into the active Messages view window.  
   
-6.  When you have enough messages, choose **Stop Logging** from the **Messages** menu.  
+6. When you have enough messages, choose **Stop Logging** from the **Messages** menu.  
   
 ## In This Section  
  [Controlling Messages View](../debugger/how-to-control-messages-view.md)  
@@ -83,6 +78,3 @@ Spy++ Messages View
   
  [Spy++ Reference](../debugger/spy-increment-reference.md)  
  Includes sections describing each Spy++ menu and dialog box.
-
-
-

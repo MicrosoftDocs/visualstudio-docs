@@ -1,19 +1,16 @@
 ---
 title: "Properties of Domain Classes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 helpviewer_keywords: 
   - "Domain-Specific Language, domain class"
 ms.assetid: a3993995-19e7-4761-a972-b1de89131a1b
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Properties of Domain Classes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +33,4 @@ Domain classes have the properties in the following table. For information about
 |Help Keyword|The optional keyword that is used to index F1 help for this domain class.|\<none>|  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
-
-
-
+ [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

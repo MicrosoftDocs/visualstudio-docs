@@ -1,14 +1,9 @@
 ---
 title: "Inspect XAML properties while debugging | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -18,7 +13,7 @@ ms.assetid: 390edde4-7b8d-4c89-8d69-55106b7e6b11
 caps.latest.revision: 6
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Inspect XAML properties while debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -102,13 +97,10 @@ private void button_Click(object sender, RoutedEventArgs e)
 ## Using XAML tools with running applications  
  You can use these XAML tools even when you don’t have the source code. When you attach to a running XAML application, you can use the **Live Visual Tree** on the UI elements of that application too. Here’s an example, using the same WPF test application we used before.  
   
-1.  Start the **TestXaml** application in the Release configuration. You cannot attach to a process that is running in a **Debug** configuration.  
+1. Start the **TestXaml** application in the Release configuration. You cannot attach to a process that is running in a **Debug** configuration.  
   
-2.  Open a second instance of Visual Studio and click **Debug / Attach to Process**. Find **TestXaml.exe** in the list of available processes, and click **Attach**.  
+2. Open a second instance of Visual Studio and click **Debug / Attach to Process**. Find **TestXaml.exe** in the list of available processes, and click **Attach**.  
   
-3.  The application starts running.  
+3. The application starts running.  
   
-4.  In the second instance of Visual Studio, open the **Live Visual Tree** (**Debug / Windows / Live Visual Tree**). You should see the **TestXaml** UI elements, and you should be able to manipulate them as you did while debugging the application directly.
-
-
-
+4. In the second instance of Visual Studio, open the **Live Visual Tree** (**Debug / Windows / Live Visual Tree**). You should see the **TestXaml** UI elements, and you should be able to manipulate them as you did while debugging the application directly.

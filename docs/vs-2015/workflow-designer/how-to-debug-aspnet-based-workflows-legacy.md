@@ -1,11 +1,8 @@
 ---
 title: "How to: Debug ASP.NET-Based Workflows (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 helpviewer_keywords: 
   - "ASP.NET, debugging workflows"
@@ -16,7 +13,7 @@ ms.assetid: 79b21edc-9e7d-410d-af68-09c1598b9c30
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # How to: Debug ASP.NET-Based Workflows (Legacy)
 This topic describes how to debug [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]-based [!INCLUDE[wf](../includes/wf-md.md)] applications that target either the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)] in the legacy [!INCLUDE[wfd1](../includes/wfd1-md.md)].  
@@ -25,25 +22,25 @@ This topic describes how to debug [!INCLUDE[vstecasp](../includes/vstecasp-md.md
   
 ### To debug an ASP.NET-based workflow  
   
-1.  Enable debugging for the ASP.NET application by setting **debug = true** in the web.config file.  
+1. Enable debugging for the ASP.NET application by setting **debug = true** in the web.config file.  
   
-2.  Set the workflow library as the startup project, and set breakpoints on the workflow.  
+2. Set the workflow library as the startup project, and set breakpoints on the workflow.  
   
-3.  Enter the URL of the default Web page in the workflow project properties **Debug** option **Start browser with external URL** text box.  
+3. Enter the URL of the default Web page in the workflow project properties **Debug** option **Start browser with external URL** text box.  
   
-4.  Select **Attach to process** on the **Debug** menu.  
+4. Select **Attach to process** on the **Debug** menu.  
   
-5.  Select the process to attach to from the **Available Processes** list.  
+5. Select the process to attach to from the **Available Processes** list.  
   
      Attach to the w3wp.exe, webdev.webserver, or aspnet_wp process in which the workflow is hosted.  
   
-6.  Click **Select** next to the **Attach To** text box.  
+6. Click **Select** next to the **Attach To** text box.  
   
      The **Select Code Type** dialog box appears.  
   
-7.  Select **Debug these code types** and select **Workflow**.  
+7. Select **Debug these code types** and select **Workflow**.  
   
-8.  Click **OK**.  
+8. Click **OK**.  
   
 9. Click **Attach**.  
   

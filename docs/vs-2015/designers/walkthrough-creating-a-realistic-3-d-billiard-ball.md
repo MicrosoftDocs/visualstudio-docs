@@ -1,19 +1,14 @@
 ---
 title: "Walkthrough: Creating a Realistic 3-D Billiard Ball | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: af8eb0f3-bf6a-4d1c-ab47-dcd88ab04efa
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Creating a Realistic 3-D Billiard Ball
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,22 +17,22 @@ This walkthrough demonstrates how to create a realistic 3-D billiard ball by usi
   
  This document demonstrates these activities:  
   
--   Creating the basic appearance of a billiard ball by using shape and texture.  
+- Creating the basic appearance of a billiard ball by using shape and texture.  
   
--   Adding depth by using the Lambert lighting model.  
+- Adding depth by using the Lambert lighting model.  
   
--   Enhancing the basic appearance by using specular highlights.  
+- Enhancing the basic appearance by using specular highlights.  
   
--   Creating a sense of space by reflecting the environment.  
+- Creating a sense of space by reflecting the environment.  
   
 ## Prerequisites  
  You need the following components and skills to complete this walkthrough:  
   
--   A tool for assembling textures into a cube map, such as the DirectX Texture Tool that is included in the June 2010 DirectX SDK.  
+- A tool for assembling textures into a cube map, such as the DirectX Texture Tool that is included in the June 2010 DirectX SDK.  
   
--   Familiarity with the Image Editor in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+- Familiarity with the Image Editor in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
--   Familiarity with the Shader Designer in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+- Familiarity with the Shader Designer in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
 ## Creating the basic appearance with shape and texture  
  In computer graphics, the most-basic elements of appearance are shape and color. In a computer simulation, it is common to use a 3-D model to represent the shape of a real-world object. Color detail is then applied to the surface of the model by using a texture map.  
@@ -219,6 +214,3 @@ This walkthrough demonstrates how to create a realistic 3-D billiard ball by usi
  [Shader Designer](../designers/shader-designer.md)   
  [Image Editor](../designers/image-editor.md)   
  [Shader Designer Nodes](../designers/shader-designer-nodes.md)
-
-
-

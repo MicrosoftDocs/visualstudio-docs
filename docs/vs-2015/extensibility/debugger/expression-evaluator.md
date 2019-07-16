@@ -1,14 +1,9 @@
 ---
 title: "Expression Evaluator | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "expressions [Debugging SDK]"
   - "debugging [Debugging SDK], expression evaluation"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: f9381b2f-99aa-426c-aea0-d9c15f3c859b
 caps.latest.revision: 20
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Expression Evaluator
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -43,4 +38,3 @@ Expression evaluators (EE) examine the syntax of a language to parse and evaluat
   
 ## See Also  
  [Debugger Components](../../extensibility/debugger/debugger-components.md)
-

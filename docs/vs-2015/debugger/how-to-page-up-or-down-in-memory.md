@@ -1,14 +1,9 @@
 ---
 title: "How to: Page Up or Down in Memory | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -27,7 +22,7 @@ ms.assetid: 50b30a68-66f6-43f8-a48b-59ce12c95471
 caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Page Up or Down in Memory
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,14 +43,9 @@ When you view memory contents in a **Memory** window or the **Disassembly** wind
   
 #### To move up or down one instruction  
   
--   Click the arrow at the top or bottom of the vertical scrollbar.  
+- Click the arrow at the top or bottom of the vertical scrollbar.  
   
 ## See Also  
  [Memory Windows](../debugger/memory-windows.md)   
  [How to: Use the Disassembly Window](../debugger/how-to-use-the-disassembly-window.md)   
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)
-
-
-
-
-

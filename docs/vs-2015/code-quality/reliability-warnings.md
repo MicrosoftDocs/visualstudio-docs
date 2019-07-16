@@ -1,14 +1,9 @@
 ---
 title: "Reliability Warnings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codeanalysis.reliabilityrules"
 helpviewer_keywords: 
@@ -36,6 +31,3 @@ Reliability warnings support library and application reliability, such as correc
 |[CA2003: Do not treat fibers as threads](../code-quality/ca2003-do-not-treat-fibers-as-threads.md)|A managed thread is being treated as a Win32 thread.|  
 |[CA2004: Remove calls to GC.KeepAlive](../code-quality/ca2004-remove-calls-to-gc-keepalive.md)|If you are converting to SafeHandle usage, remove all calls to GC.KeepAlive (object). In this case, classes should not have to call GC.KeepAlive, assuming they do not have a finalizer but rely on SafeHandle to finalize the OS handle for them.|  
 |[CA2006: Use SafeHandle to encapsulate native resources](../code-quality/ca2006-use-safehandle-to-encapsulate-native-resources.md)|Use of IntPtr in managed code might indicate a potential security and reliability problem. All uses of IntPtr must be reviewed to determine whether use of a SafeHandle, or similar technology, is required in its place.|
-
-
-

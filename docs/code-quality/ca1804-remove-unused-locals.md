@@ -1,8 +1,6 @@
 ---
 title: "CA1804: Remove unused locals"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1804"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: cc332e67-6543-4813-bd8a-6f6fc75bf22a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB
@@ -36,7 +34,11 @@ ms.workload:
  Unused local variables and unnecessary assignments increase the size of an assembly and decrease performance.
 
 ## How to fix violations
- To fix a violation of this rule, remove or use the local variable. Note that the C# compiler that is included with [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] removes unused local variables when the `optimize` option is enabled.
+
+To fix a violation of this rule, remove or use the local variable.
+
+> [!NOTE]
+> The C# compiler removes unused local variables when the `optimize` option is enabled.
 
 ## When to suppress warnings
  Suppress a warning from this rule if the variable was compiler emitted. It is also safe to suppress a warning from this rule, or to disable the rule, if performance and code maintenance are not primary concerns.

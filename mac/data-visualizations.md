@@ -1,8 +1,8 @@
 ---
 title: Debugging - Data Visualizations
 description: Debugging is a common, and necessary, part of programming. Visual Studio for Mac contains a whole suite of features to make debugging easy. This article looks at the different data visualizations that can be viewed when inspecting objects in the debugger.
-author: conceptdev
-ms.author: crdun
+author: jmatthiesen
+ms.author: jomatthi
 ms.date: 05/06/2018
 ms.technology: vs-ide-debug
 ms.assetid: 527E6BEC-EF15-4002-ACB5-62AE1C16F6B7
@@ -83,18 +83,18 @@ Some other types that also have their own inline visualizers are listed below:
 
 ![Other Visualization](media/data-visualizations-image23.png)
 
-*	**Primitives**
-	*	This will show the raw value of the primitive type.
-*	**Enum**
-	*	This will display the field value without the enum Type qualifier.
-*	**Tuple**
-	*	Displayed in the format (,)
-*	**Null**
-	*	Shows "null" value.
-*	**URL**
-	*	This will display a clickable hyperlink.
-*	**IntPtr**
-	*	This will display a hexadecimal representation of the IntPtr.
+* **Primitives**
+  * This will show the raw value of the primitive type.
+* **Enum**
+  * This will display the field value without the enum Type qualifier.
+* **Tuple**
+  * Displayed in the format (,)
+* **Null**
+  * Shows "null" value.
+* **URL**
+  * This will display a clickable hyperlink.
+* **IntPtr**
+  * This will display a hexadecimal representation of the IntPtr.
 
 ## See also
 

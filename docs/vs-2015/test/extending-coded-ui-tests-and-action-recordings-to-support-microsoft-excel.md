@@ -1,18 +1,13 @@
 ---
 title: "Extending Coded UI Tests and Action Recordings to Support Microsoft Excel | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 6b0f72a4-70ca-4e55-b236-2ea1034fd8a7
 caps.latest.revision: 32
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Extending Coded UI Tests and Action Recordings to Support Microsoft Excel
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,7 +37,7 @@ The testing framework for coded UI tests and action recordings does not support 
   Get the sample from this [blog post](http://go.microsoft.com/fwlink/?LinkID=185592).  
   
 > [!NOTE]
->  The sample is intended for use with Microsoft Excel 2010. The sample may work with other versions of Microsoft Excel, but it is not currently supported.  
+> The sample is intended for use with Microsoft Excel 2010. The sample may work with other versions of Microsoft Excel, but it is not currently supported.  
   
 ## Details about the sample  
  The following sections provide information about the sample and its structure.  
@@ -50,7 +45,7 @@ The testing framework for coded UI tests and action recordings does not support 
 ### Microsoft Excel Add-in: ExcelCodedUIAddinHelper  
  This project includes an add-in that runs in the Excel process. See [Sample Excel Add-In for Coded UI Testing](../test/sample-excel-add-in-for-coded-ui-testing.md) for a brief overview of the add-in project.  
   
- For more information, see [Walkthrough: Creating Your First VSTO Add-in for Excel](http://msdn.microsoft.com/library/a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f).  
+ For more information, see [Walkthrough: Creating Your First VSTO Add-in for Excel](https://msdn.microsoft.com/library/a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f).  
   
 ### Excel UI communication: ExcelUIcommunicationHelper  
  This project includes the `IExcelUICommunication` interface and the information classes that are used to pass data between the Coded UI Testing Framework and Excel. For more information, see [Sample Excel Communicator Interface](../test/sample-excel-communicator-interface.md).  
@@ -78,6 +73,3 @@ The testing framework for coded UI tests and action recordings does not support 
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
  [Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)   
  [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
-
-
-

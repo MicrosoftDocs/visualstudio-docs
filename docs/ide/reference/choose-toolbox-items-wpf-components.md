@@ -1,8 +1,6 @@
 ---
 title: Choose Toolbox Items, WPF Components
 ms.date: 06/21/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "vs.chooseitems.wpfcomponents"
@@ -11,7 +9,7 @@ helpviewer_keywords:
   - "Choose Toolbox Items dialog box, WPF Components tab"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -27,7 +25,7 @@ This tab of the **Choose Toolbox Items** dialog box displays a list of Windows P
 - When the check box next to a component is cleared, the corresponding icon will be removed from **Toolbox**.
 
     > [!NOTE]
-    > The .NET Framework components installed on your computer remain available whether or not icons for them are displayed in the **Toolbox**.
+    > The .NET components installed on your computer remain available whether or not icons for them are displayed in the **Toolbox**.
 
 The columns on the **WPF Components** tab contain the following information:
 
@@ -37,15 +35,15 @@ Lists the names of WPF controls for which entries exist in your computer's regis
 
 **Namespace**
 
-Displays the hierarchy of the [.NET Framework Class API](/dotnet/api/?view=netframework-4.7) namespace that defines the structure of the component. Sort on this column to list the available components within each .NET Framework namespace installed on your computer.
+Displays the hierarchy of the [.NET API](/dotnet/api/?view=netframework-4.7) namespace that defines the structure of the component. Sort on this column to list the available components within each .NET namespace installed on your computer.
 
 **Assembly Name**
 
-Displays the name of the .NET Framework assembly that includes the namespace for each component. Sort on this column to list the namespaces contained in each .NET Framework assembly installed on your computer.
+Displays the name of the .NET assembly that includes the namespace for each component. Sort on this column to list the namespaces contained in each .NET assembly installed on your computer.
 
 **Directory**
 
-Displays the location of the .NET Framework assembly. The default location for all assemblies is the Global Assembly Cache. For further information on the Global Assembly Cache, see [Working with Assemblies and the Global Assembly Cache](/dotnet/framework/app-domains/working-with-assemblies-and-the-gac).
+Displays the location of the .NET assembly. The default location for all assemblies is the Global Assembly Cache. For further information on the Global Assembly Cache, see [Working with Assemblies and the Global Assembly Cache](/dotnet/framework/app-domains/working-with-assemblies-and-the-gac).
 
 ## UIElement List
 

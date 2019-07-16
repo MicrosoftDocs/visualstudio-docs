@@ -1,24 +1,18 @@
 ---
 title: "XML Editor Tasks | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: d069ba3a-266c-45ac-8f9f-7833a72c5a27
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # XML Editor Tasks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section describes how to complete common tasks with the XML Editor.  
   
 ## In This Section  
@@ -54,6 +48,3 @@ This section describes how to complete common tasks with the XML Editor.
   
  [Walkthrough: XSLT Profiler](../xml-tools/walkthrough-xslt-profiler.md)  
  Demonstrates how to create performance reports for XSLT code.
-
-
-

@@ -1,11 +1,7 @@
 ---
 title: "Workspace indexing in Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/21/2018"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
-ms.assetid: 3163e98c-1c79-48a7-813f-7923be894ba1
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"

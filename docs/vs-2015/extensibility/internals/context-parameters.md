@@ -1,21 +1,16 @@
 ---
 title: "Context Parameters | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "wizards, context parameters"
   - "context parameters"
 ms.assetid: 1a062dcb-8a8f-40dd-bea9-3d10f9448966
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Context Parameters
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -65,5 +60,4 @@ In the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development en
  [Custom Parameters](../../extensibility/internals/custom-parameters.md)   
  [Wizards](../../extensibility/internals/wizards.md)   
  [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)   
- [Context Parameters for Launching Wizards](http://msdn.microsoft.com/library/051a10f4-9e45-4604-b344-123044f33a24)
-
+ [Context Parameters for Launching Wizards](https://msdn.microsoft.com/library/051a10f4-9e45-4604-b344-123044f33a24)

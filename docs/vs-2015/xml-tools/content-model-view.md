@@ -1,24 +1,18 @@
 ---
 title: "Content Model View | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: e8db7c7d-31cf-479e-9dcc-299759891795
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Content Model View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Content Model View provides a graphic representation of local and global schema nodes and their components, including simple and complex types, elements, model groups, attributes, and attribute groups. XML comments and processing instructions cannot be viewed in the Content Model View. The Content Model View contains two panels: a **Workspace** panel that contains a list of the nodes in the [XML Schema Designer Workspace](../xml-tools/xml-schema-designer-workspace.md), and the design surface where you can see the content model of schema nodes that are selected in the **Workspace** panel. The Content Model View also includes the XML Schema Designer toolbar and the breadcrumb bar.  
   
  In the following image, the Workspace panel contains six schema nodes. The `purchaseOrder` node is selected in the Workpace panel and is displayed in the design surface.  
@@ -91,13 +85,13 @@ The Content Model View provides a graphic representation of local and global sch
 ## Undo/Redo  
  The undo/redo capability is enabled in the Content Model View for the following actions:  
   
--   Adding a single node by dragging and dropping.  
+- Adding a single node by dragging and dropping.  
   
--   Adding multiple nodes from the search results window in Schema Explorer.  
+- Adding multiple nodes from the search results window in Schema Explorer.  
   
--   Adding nodes from the Start View.  
+- Adding nodes from the Start View.  
   
--   Deleting single or multiple nodes.  
+- Deleting single or multiple nodes.  
   
 ## Zoom  
  Zoom is available in the in the lower right corner of the Content Model View.  
@@ -117,6 +111,3 @@ The Content Model View provides a graphic representation of local and global sch
   
 ## See Also  
  [XML Schema Designer Workspace](../xml-tools/xml-schema-designer-workspace.md)
-
-
-

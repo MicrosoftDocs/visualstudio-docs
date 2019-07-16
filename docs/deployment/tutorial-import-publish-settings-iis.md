@@ -1,14 +1,13 @@
 ---
 title: "Publish to IIS by importing publish settings"
-ms.custom: "Create and import a publishing profile to deploy an application from Visual Studio to IIS"
-ms.date: "05/07/2018"
-ms.technology: vs-ide-deployment
-ms.topic: "tutorial"
+description: "Create and import a publishing profile to deploy an application from Visual Studio to IIS"
+ms.date: 01/31/2019
+ms.topic: tutorial
 helpviewer_keywords:
   - "deployment, publish settings"
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -16,7 +15,7 @@ ms.workload:
 
 You can use the **Publish** tool to import publish settings and then deploy your app. In this article, we use publish settings for IIS, but you can use similar steps to import publish settings for [Azure App Service](../deployment/tutorial-import-publish-settings-azure.md). In some scenarios, use of a publish settings profile can be faster than manually configuring deployment to IIS for each installation of Visual Studio.
 
-These steps apply to ASP.NET, ASP.NET Core, and .NET Core apps in Visual Studio. The steps correspond to Visual Studio 2017 version 15.6.
+These steps apply to ASP.NET, ASP.NET Core, and .NET Core apps in Visual Studio.
 
 In this tutorial, you will:
 
@@ -33,19 +32,31 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
 
 ## Prerequisites
 
-* You must have Visual Studio 2017 installed and the **ASP.NET** and **.NET Framework** development workload. For a .NET Core app, you also need the **.NET Core** workload.
+::: moniker range=">=vs-2019"
 
-    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+* You must have Visual Studio 2019 installed and the **ASP.NET and web development** workload.
 
-* To generate the publish settings file from IIS, you must have a computer running Windows Server 2012 or Windows Server 2016, and you must have the IIS Web Server role correctly configured. Either ASP.NET 4.5 or ASP.NET Core must also be installed. For ASP.NET Core, see [Publishing to IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration). For ASP.NET 4.5, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
+    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+* You must have Visual Studio 2017 installed and the **ASP.NET and web development** workload.
+
+    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+::: moniker-end
+
+* On your server, you must be running Windows Server 2012 or Windows Server 2016, and you must have the [IIS Web Server role](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) correctly installed (required to generate the publish settings file (*\*.publishsettings*)). Either ASP.NET 4.5 or ASP.NET Core must also be installed on the server. To set up ASP.NET 4.5, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45). To set up ASP.NET Core, see [Host ASP.NET Core on Windows with IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration).
 
 ## Create a new ASP.NET project in Visual Studio
 
-1. On the computer running Visual Studio, choose **File** > **New Project**.
+1. On the computer running Visual Studio, create a new project.
 
-1. Under **Visual C#** or **Visual Basic**, choose **Web**, and then in the middle pane choose either **ASP.NET Web Application (.NET Framework)** or (C# only) **ASP.NET Core Web Application**, and then click **OK**.
+    Choose the correct template. In this example, choose either **ASP.NET Web Application (.NET Framework)** or (for C# only) **ASP.NET Core Web Application**, and then click **OK**.
 
-    If you don't see the specified project templates, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. See the prerequisites in this article to identify the required Visual Studio workloads, which you must install.
+    If you don't see the specified project templates, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Install the **ASP.NET and web development** workload.
+
+    The project template you choose (ASP.NET or ASP.NET Core) must correspond to the version of ASP.NET installed on the web server.
 
 1. Choose either **MVC** (.NET Framework) or **Web Application (Model-View-Controller)** (for .NET Core), and make sure that **No Authentication** is selected, and then click **OK**.
 

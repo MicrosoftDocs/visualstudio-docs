@@ -1,10 +1,8 @@
 ---
 title: "Profiling on HPC (High Performance Computing) Clusters | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.performance.hpc.wizard.exeoptions"
   - "vs.performance.hpc.wizard.summary"
   - "vs.performance.hpc.wizard.startoptions"
@@ -13,13 +11,13 @@ f1_keywords:
   - "vs.performance.hpc.wizard.application"
   - "vs.performance.hpc.wizard.clusteroptions"
   - "vs.performance.hpc.property.advanced"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "profililng tools,HPC"
   - "HPC profiling"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Profile on HPC (high performance computing) clusters
@@ -32,9 +30,9 @@ To profile on a HPC compute node, you must do the following:
 
 - Install Microsoft HPC Pack 2008 on the same computer as Visual Studio. The computer does not have to be part of the HPC cluster. You can install the HPC Pack at the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=177414).
 
-- Install the [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] and the stand-alone version of the Profiling Tools on the HPC compute node. Install programs for both the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] and the stand alone profiler are available on the Visual Studio installation media. **Note** You must restart the compute after you have installed [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] and before you install the Profiling Tools.
+- Install the .NET Framework 4 and the stand-alone version of the Profiling Tools on the HPC compute node. Install programs for both the .NET Framework and the stand alone profiler are available on the Visual Studio installation media. **Note** You must restart the compute after you have installed .NET Framework and before you install the Profiling Tools.
 
-  To install the [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] and the stand-alone Profiling Tools on an active HPC compute node and enable profiling on the cluster machine, follow these steps:
+  To install the .NET Framework 4 and the stand-alone Profiling Tools on an active HPC compute node and enable profiling on the cluster machine, follow these steps:
 
 1. Open the command prompt window that is installed with the HPC pack.
 
@@ -49,7 +47,7 @@ To profile on a HPC compute node, you must do the following:
 | | |
 |------------------| - |
 | *%HeadNode%* | Name of the head node for the cluster. |
-| *%FxPath%* | Path to the [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] installer. On the Visual Studio installation media the path is: WCU\dotNetFramework\dotNetFx40_Full_x86_x64.exe |
+| *%FxPath%* | Path to the .NET Framework 4 installer. On the Visual Studio installation media the path is: WCU\dotNetFramework\dotNetFx40_Full_x86_x64.exe |
 | *%ProfilerPath%* | Path to the standalone version of the Profiling Tools installer. On the Visual Studio installation media the path is: Standalone Profiler\x64\vs_profiler.exe |
 
 ## Profile on an HPC compute node
@@ -144,4 +142,3 @@ You can change the performance session properties that you set on the HPC Profil
 | **Pre-profile script arguments** | Specifies the arguments to pass to the pre-profile script. |
 | **Post-profile script** | Specifies the path and file name of a script to run on the local development computer after the profiling session ends. |
 | **Post-profile script arguments** | Specifies the arguments to pass to the post-profile script. |
-

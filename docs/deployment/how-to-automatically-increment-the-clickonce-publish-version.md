@@ -1,8 +1,6 @@
 ---
 title: "How to: Automatically Increment the ClickOnce Publish Version | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -16,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 686ab88a-6305-4914-a05b-fe269cc0ae1e
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -31,11 +29,11 @@ You can disable this behavior on the **Publish** page of the **Project Designer*
 
 ## To disable automatically incrementing the publish version
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
-2.  Click the **Publish** tab.
+2. Click the **Publish** tab.
 
-3.  In the **Publish Version** section, clear the **Automatically increment revision with each release** check box.
+3. In the **Publish Version** section, clear the **Automatically increment revision with each release** check box.
 
 ## See also
 

@@ -1,14 +1,9 @@
 ---
 title: "Add New Item Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "project.addnewitem"
 helpviewer_keywords: 
@@ -18,12 +13,11 @@ ms.assetid: 63b7df32-db83-463b-bbe7-7ff011fe5298
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Add New Item Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Adds a new solution item, such as an .htm, .css, .txt, or frameset to the current solution and opens it.  
   
 ## Syntax  
@@ -71,6 +65,3 @@ File.AddNewItem [filename] [/t:templatename] [/e:editorname]
  [Command Window](../../ide/reference/command-window.md)   
  [Find/Command Box](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

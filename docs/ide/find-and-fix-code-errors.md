@@ -2,13 +2,11 @@
 title: Fix program errors and improve code
 description: This article describes some basic ways Visual Studio can help you find and fix problems in your code, including build errors, code analysis, debugging tools, and unit tests.
 ms.date: 05/02/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -40,7 +38,7 @@ Unless you've made no modifications to code you've previously and successfully c
 
 ![Visual Studio Output and Error List](../ide/media/vs_ide_gs_debug_bad_build_error_list.png)
 
-Click on the error line in the **Error List** window to jump to the line the error occurs in. (Or turn on line numbers by clicking in the **Quick Launch** bar in the upper-right, typing "line numbers" into it, and pressing **Enter**. This is the fastest way to get to the **Options** dialog where you can turn on line numbers. Learn to use the **Quick Launch** bar and save yourself many UI clicks!)
+Click on the error line in the **Error List** window to jump to the line the error occurs in. (Or turn on line numbers by pressing **Ctrl**+**Q**, typing **line numbers**, and then choosing **Turn line numbers on or off** from the results. This is the fastest way to get to the **Options** dialog where you can turn on line numbers.)
 
 ![Visual Studio editor with line numbers](../ide/media/vs_ide_gs_debug_line_numbers.png)
 
@@ -70,7 +68,7 @@ Code analyzers look for common code problems that can lead to run-time errors or
 
 ### C# and Visual Basic code analysis
 
-Visual Studio 2017 includes a built-in set of [.NET Compiler Platform analyzers](../code-quality/roslyn-analyzers-overview.md) that examine C# and Visual Basic code as you type. You can install additional analyzers as a Visual Studio extension, or as a NuGet package. If rule violations are found, they are reported both in the code editor as a squiggly under the offending code, and in the **Error List**.
+Visual Studio includes a built-in set of [.NET Compiler Platform analyzers](../code-quality/roslyn-analyzers-overview.md) that examine C# and Visual Basic code as you type. You can install additional analyzers as a Visual Studio extension, or as a NuGet package. If rule violations are found, they are reported both in the code editor as a squiggly under the offending code, and in the **Error List**.
 
 ### C++ code analysis
 
@@ -84,9 +82,9 @@ Any new or updated warnings appear in the **Error List** tab at the bottom of th
 
 ![Visual Studio Error List with Warnings](../ide/media/cpp-code-analysis-warning.png)
 
-## Use light bulbs to fix or refactor code
+## Use Quick Actions to fix or refactor code
 
-[Quick Actions](../ide/quick-actions.md), available from the light bulb or screwdriver icon, let you refactor code inline. They are an easy way to fix common warnings quickly and effectively in C#, C++, and Visual Basic code. To access them, right-click on a warning squiggle and select **Quick Actions and refactorings**. Or, when your cursor is on the line with the colored squiggle, press **Ctrl**+**.** or select the light bulb or screwdriver icon in the margin. You'll see a list of possible fixes or refactorings you can apply to that line of code.
+[Quick Actions](../ide/quick-actions.md), available from the light bulb or screwdriver icon, let you refactor code inline. They are an easy way to fix common warnings quickly and effectively in C#, C++, and Visual Basic code. To access them, right-click on a warning squiggle and select **Quick Actions and refactorings**. Or, when your cursor is on the line with the colored squiggle, press **Ctrl**+**.** or select the light bulb, error light bulb, or screwdriver icon in the margin. You'll see a list of possible fixes or refactorings you can apply to that line of code.
 
 ![Visual Studio light bulb preview](../ide/media/quick-actions-options.png)
 
@@ -96,13 +94,25 @@ Quick Actions can be used wherever code analyzers determine there's an opportuni
 
 With experience, you can quickly use the arrow keys and **Ctrl**+**.** to check for easy refactoring opportunities and clean up your code!
 
+::: moniker range="vs-2019"
+
+## Run Code Cleanup
+
+Visual Studio provides [on-demand formatting of your C# code file](code-styles-and-code-cleanup.md#apply-code-styles), including code style preferences, through the **Code Cleanup** button at the bottom of the editor.
+
+![Code Cleanup button in Visual Studio 2019](media/execute-code-cleanup.png)
+
+In addition to formatting your file for spaces, indents, et cetera, **Code Cleanup** also applies a set of code style conventions that you define. Your preferences for each code style are read from the [EditorConfig file](code-styles-and-code-cleanup.md#code-styles-in-editorconfig-files), if you have one for the project, or from the [code style settings](code-styles-and-code-cleanup.md#code-styles-in-the-options-dialog-box) in the **Options** dialog box.
+
+::: moniker-end
+
 ## Debug your running code
 
 Now that you've successfully built your code and performed a little clean up, run it by pressing **F5** or selecting **Debug** > **Start Debugging**. This starts your app in a debug environment so you can observe its behavior in detail. The Visual Studio IDE changes while your app is running: the **Output** window is replaced by two new ones (in the default window configuration), the **Autos/Locals/Watch** tabbed window and the **Call Stack/Breakpoints/Exception Settings/Output** tabbed window. These windows have multiple tabs that allow you to inspect and evaluate your app's variables, threads, call stacks, and various other behaviors as it runs.
 
 ![Visual Studio Autos and Call Stack Windows](../ide/media/vs_ide_gs_debug_autos_and_call_stack.png)
 
-Stop your app by pressing **Shift**+**F5** or by clicking the **Stop** button. Or, you can simply close the app's main window (or command-line dialog).
+Stop your app by pressing **Shift**+**F5** or by clicking the **Stop** button. Or, you can just close the app's main window (or command-line dialog).
 
 If your code ran perfectly and exactly as expected, congratulations! However, if it hung, or crashed, or gave you some strange results, you'll need to find the source of those problems and fix the bugs.
 
@@ -138,7 +148,7 @@ While the debugger is paused, you can inspect your variables and call stacks to 
 
 ![Visual Studio run-time value inspection](../ide/media/vs_ide_gs_debug_inspect_value.png)
 
-Hover over a variable to see its current value and references. If you see a value you didn't expect, you probably have a bug in the preceding or calling code. For more in-depth debugging information, [learn more](../debugger/getting-started-with-the-debugger.md) about using the debugger.
+Hover over a variable to see its current value and references. If you see a value you didn't expect, you probably have a bug in the preceding or calling code. For more in-depth debugging information, [learn more](../debugger/debugger-feature-tour.md) about using the debugger.
 
 Additionally, Visual Studio displays the **Diagnostic Tools** window, where you can observe your app's CPU and memory usage over time. Later in your app development, you can use these tools to look for unanticipated heavy CPU usage or memory allocation. Use it in conjunction with the **Watch** window and breakpoints to determine what's causing unexpected heavy usage or unreleased resources. For more information, see [Profiling feature tour](../profiling/profiling-feature-tour.md).
 
@@ -152,6 +162,6 @@ To learn more about unit tests in Visual Studio and how they can help you create
 
 ## See also
 
-- [Debugger feature tour](../debugger/debugger-feature-tour.md)
-- [Learn more about using the debugger](../debugger/getting-started-with-the-debugger.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [Learn more about using the debugger](../debugger/index.md)
 - [Generate and fix code](../ide/code-generation-in-visual-studio.md)

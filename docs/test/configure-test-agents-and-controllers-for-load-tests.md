@@ -1,16 +1,14 @@
 ---
-title: "Configure test agents and test controllers for load tests in Visual Studio"
+title: "Configure test agents and test controllers for load tests"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, test agents and controllers"
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
-# Configure test agents and test controllers for running load tests
+# Overview of test agents and test controllers for running load tests
 
 Visual Studio can generate simulated load for your app by using physical or virtual machines. These machines must be set up as a single test controller and one or more test agents. You can use the test controller and test agents to generate more load than a single computer can generate alone.
 
@@ -23,11 +21,11 @@ Visual Studio can generate simulated load for your app by using physical or virt
 
 The load simulation architecture consists of a Visual Studio client, test controller, and test agents.
 
--   The client is used to develop tests, run tests, and view test results.
+- The client is used to develop tests, run tests, and view test results.
 
--   The test controller is used to administer the test agents and collect test results.
+- The test controller is used to administer the test agents and collect test results.
 
--   The test agents are used to run the tests, and collect data including system information and ASP.NET profiling data defined in the test setting.
+- The test agents are used to run the tests, and collect data including system information and ASP.NET profiling data defined in the test setting.
 
 This architecture provides the following benefits:
 
@@ -73,7 +71,7 @@ The test agent runs as a service that listens for requests from the test control
 
 The following illustration shows the connection points between the test controller, the test agent, and the client. It outlines which ports are used for incoming and outgoing connections as well as security restrictions used on these ports.
 
- ![Test contoller and test agent ports and security](./media/test-controller-agent-firewall.png)
+ ![Test controller and test agent ports and security](./media/test-controller-agent-firewall.png)
 
  For more information see [Configure ports for test controllers and test agents](../test/configure-ports-for-test-controllers-and-test-agents.md).
 

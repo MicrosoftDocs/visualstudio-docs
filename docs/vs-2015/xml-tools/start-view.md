@@ -1,24 +1,18 @@
 ---
 title: "Start View | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: f25e7a2f-7469-4279-b2f4-ee2dfd4d3af1
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Start View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Start View is the launching point for the XML Schema (XSD) Designer. When you create a new XSD file, you will initially see the Start View.  
   
  The Start View contains two main sections, the *watermark* and the **Schema Set Details** pane. It also includes the toolbar, which is available in all the XSD Designer views.  
@@ -49,6 +43,3 @@ The Start View is the launching point for the XML Schema (XSD) Designer. When yo
  [Graph View](../xml-tools/graph-view.md)   
  [Content Model View](../xml-tools/content-model-view.md)   
  [XML Editor](../xml-tools/xml-editor.md)
-
-
-

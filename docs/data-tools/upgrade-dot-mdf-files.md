@@ -11,9 +11,7 @@ helpviewer_keywords:
   - "upgrading to LocalDB"
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -41,37 +39,37 @@ You may also be prompted to upgrade a database file that was created through an 
 
 Before you upgrade a database, consider the following criteria:
 
--   Don't upgrade if you want to work on your project in both an older version and a newer version of Visual Studio.
+- Don't upgrade if you want to work on your project in both an older version and a newer version of Visual Studio.
 
--   Don't upgrade if your application will be used in environments that use SQL Server Express rather than LocalDB.
+- Don't upgrade if your application will be used in environments that use SQL Server Express rather than LocalDB.
 
--   Don't upgrade if your application uses remote connections, because LocalDB doesn't accept them.
+- Don't upgrade if your application uses remote connections, because LocalDB doesn't accept them.
 
--   Don't upgrade if your application relies on Internet Information Services (IIS).
+- Don't upgrade if your application relies on Internet Information Services (IIS).
 
--   Consider upgrading if you want to test database applications in a sandbox environment but don't want to administer a database.
+- Consider upgrading if you want to test database applications in a sandbox environment but don't want to administer a database.
 
 ### To upgrade a database file to use the LocalDB version
 
-1.  In **Server Explorer**, select the **Connect to Database** button.
+1. In **Server Explorer**, select the **Connect to Database** button.
 
-2.  In the **Add Connection** dialog box, specify the following information:
+2. In the **Add Connection** dialog box, specify the following information:
 
-    -   **Data Source**: `Microsoft SQL Server (SqlClient)`
+    - **Data Source**: `Microsoft SQL Server (SqlClient)`
 
-    -   **Server Name**:
+    - **Server Name**:
 
-        -   To use the default version: `(localdb)\MSSQLLocalDB`.  This will specify either ProjectV12 or ProjectV13, depending on which version of Visual Studio  is installed and when the first LocalDB instance was created. The **MSSQLLocalDB** node in **SQL Server Object Explorer** shows which version it is pointing to.
+        - To use the default version: `(localdb)\MSSQLLocalDB`.  This will specify either ProjectV12 or ProjectV13, depending on which version of Visual Studio  is installed and when the first LocalDB instance was created. The **MSSQLLocalDB** node in **SQL Server Object Explorer** shows which version it is pointing to.
 
-        -   To use a specific version: `(localdb)\ProjectsV12` or `(localdb)\ProjectsV13`, where V12 is LocalDB 2014 and V13 is LocalDB 2016.
+        - To use a specific version: `(localdb)\ProjectsV12` or `(localdb)\ProjectsV13`, where V12 is LocalDB 2014 and V13 is LocalDB 2016.
 
-    -   **Attach a database file**: The physical path of the primary *.mdf* file.
+    - **Attach a database file**: The physical path of the primary *.mdf* file.
 
-    -   **Logical Name**: The name that you want to use with the file.
+    - **Logical Name**: The name that you want to use with the file.
 
-3.  Select the **OK** button.
+3. Select the **OK** button.
 
-4.  When you're prompted, select the **Yes** button to upgrade the file.
+4. When you're prompted, select the **Yes** button to upgrade the file.
 
     The database is upgraded, is attached to the LocalDB database engine, and is no longer compatible with the older version of LocalDB.
 
@@ -79,31 +77,31 @@ You can also modify a SQL Server Express connection to use LocalDB by opening th
 
 ### To upgrade a database file to use the SQL Server Express version
 
-1.  On the shortcut menu for the connection to the database, select **Modify Connection**.
+1. On the shortcut menu for the connection to the database, select **Modify Connection**.
 
-2.  In the **Modify Connection** dialog box, select the **Advanced** button.
+2. In the **Modify Connection** dialog box, select the **Advanced** button.
 
-3.  In the **Advanced Properties** dialog box, select the **OK** button without changing the server name.
+3. In the **Advanced Properties** dialog box, select the **OK** button without changing the server name.
 
     The database file is upgraded to match the current version of SQL Server Express.
 
 ### To work with the database in Visual Studio but retain compatibility with SQL Server Express
 
--   In Visual Studio, open the project without upgrading it.
+- In Visual Studio, open the project without upgrading it.
 
-    -   To run the project, select the **F5** key.
+  - To run the project, select the **F5** key.
 
-    -   To edit the database, open the *.mdf* file in **Solution Explorer**, and expand the node in **Server Explorer** to work with your database.
+  - To edit the database, open the *.mdf* file in **Solution Explorer**, and expand the node in **Server Explorer** to work with your database.
 
 ### To make SQL Server Express the default database engine
 
-1.  On the menu bar, select **Tools** > **Options**.
+1. On the menu bar, select **Tools** > **Options**.
 
-2.  In the **Options** dialog box, expand the **Database Tools** options, and then select **Data Connections**.
+2. In the **Options** dialog box, expand the **Database Tools** options, and then select **Data Connections**.
 
-3.  In the **SQL Server Instance Name** text box, specify the name of the instance of SQL Server Express or LocalDB that you want to use. If the instance isn't named, specify `.\SQLEXPRESS or (LocalDB)\MSSQLLocalDB`.
+3. In the **SQL Server Instance Name** text box, specify the name of the instance of SQL Server Express or LocalDB that you want to use. If the instance isn't named, specify `.\SQLEXPRESS or (LocalDB)\MSSQLLocalDB`.
 
-4.  Select the **OK** button.
+4. Select the **OK** button.
 
     SQL Server Express will be the default database engine for your applications.
 

@@ -1,5 +1,5 @@
 ---
-title: "Create a Test Setting for a Distributed Load Test in Visual Studio"
+title: "Create a Test Setting for a Distributed Load Test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,9 +7,7 @@ helpviewer_keywords:
 ms.assetid: b63d4b71-3b74-4872-b2d1-f0bd1a9a8544
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Create a test setting for a distributed load test
 
@@ -21,11 +19,11 @@ For example, you can use the ASP.NET Profiler diagnostic data adapter to collect
 
 Test settings for Visual Studio are stored in a file. The test settings define the following information about each role:
 
--   The set of roles that are required for your application under test
+- The set of roles that are required for your application under test
 
--   The role to use to run your tests
+- The role to use to run your tests
 
--   The diagnostic data adapters to use for each role
+- The diagnostic data adapters to use for each role
 
 When you run your tests, you select the test settings to use as the active test settings depending on what you require for that specific test run. The test settings file is stored as part of your solution. The file name has the extension *.testsettings*.
 
@@ -39,33 +37,33 @@ Follow these steps to create and remove test settings in your solution for load 
 
 ### To add a test settings for a distributed load test
 
-1.  In **Solution Explorer**, right-click **Solution Items**, point to **Add**, and then choose **New Item**.
+1. In **Solution Explorer**, right-click **Solution Items**, point to **Add**, and then choose **New Item**.
 
      The **Add New Item** dialog box appears.
 
-2.  In the **Installed Templates** pane, choose **Test Settings**.
+2. In the **Installed Templates** pane, choose **Test Settings**.
 
-3.  (Optional) In the **Name** box, change the name of the test settings file.
+3. (Optional) In the **Name** box, change the name of the test settings file.
 
-4.  Choose **Add**.
+4. Choose **Add**.
 
      The new test settings file appears in **Solution Explorer**, under the **Solution Items** folder.
 
     > [!NOTE]
     > The list of test settings that Visual Studio Enterprise displays is derived from the list of test settings files in the **Solution Items** folder. For example, test settings files in the **Solution Items** folder are displayed when you use the **Select Active Test Settings** option on the **Test** menu. This means that if you move a test settings file to another location in your solution hierarchy, it can no longer be used as a test setting from within the Visual Studio integrated development environment.
 
-5.  The **Test Settings** dialog box is displayed. The **General** page is selected.
+5. The **Test Settings** dialog box is displayed. The **General** page is selected.
 
      You can now edit and save test settings values.
 
     > [!NOTE]
     > Each test settings that you create is listed as a choice for the **Select Active Test Settings** and **Edit Test Settings** options on the **Test** menu.
 
-6.  Under **Name**, type the name for the test settings.
+6. Under **Name**, type the name for the test settings.
 
-7.  (Optional) Under **Description**, type a description for the test setting so other team members know what it is intended for.
+7. (Optional) Under **Description**, type a description for the test setting so other team members know what it is intended for.
 
-8.  (Optional) To select the default naming scheme for your test runs, select **Default naming scheme**. To define your own naming scheme, select **User-defined scheme** and then type the text that you want in **Prefix text**. To append the date and time stamp to the test run name, select **Append date-time stamp**.
+8. (Optional) To select the default naming scheme for your test runs, select **Default naming scheme**. To define your own naming scheme, select **User-defined scheme** and then type the text that you want in **Prefix text**. To append the date and time stamp to the test run name, select **Append date-time stamp**.
 
 9. Choose **Roles**.
 
@@ -150,27 +148,27 @@ Follow these steps to create and remove test settings in your solution for load 
 
      The **Setup and Cleanup Scripts** page is displayed.
 
-    1.  Type the location of the script file in **Setup script** or choose the ellipsis (**…**) to locate the setup script.
+    1. Type the location of the script file in **Setup script** or choose the ellipsis (**…**) to locate the setup script.
 
-    2.  Type the location of the script file in **Cleanup script** or choose the ellipsis (**…**) to locate the cleanup script.
+    2. Type the location of the script file in **Cleanup script** or choose the ellipsis (**…**) to locate the cleanup script.
 
 24. To run your tests by using a different host, choose **Hosts**.
 
-    1.  In **Host Type**, verify that the **Default** is selected.
+    1. In **Host Type**, verify that the **Default** is selected.
 
         > [!NOTE]
         > The **ASP.NET** in **Host type** is not supported in load tests.
 
-    2.  Use the **Run test in 32-bit or 64-bit** process drop-down to select whether you want the web performance and unit tests in your load test to run as 32-bit or 64-bit processes.
+    2. Use the **Run test in 32-bit or 64-bit** process drop-down to select whether you want the web performance and unit tests in your load test to run as 32-bit or 64-bit processes.
 
         > [!NOTE]
         > For maximum flexibility, you should compile your web performance and load test projects by using the **Any CPU** configuration. Then you can run on both 32-bit and 64-bit agents. Compiling web performance and load test projects by using the **64-bit** configuration offers no advantage.
 
 25. (Optional) To limit the time for each test run and individual tests, choose **Test Timeouts.**
 
-    1.  To abort a test run when a time limit is exceeded, select **Abort a test run if the total time exceeds** and then type a value for this limit.
+    1. To abort a test run when a time limit is exceeded, select **Abort a test run if the total time exceeds** and then type a value for this limit.
 
-    2.  To fail an individual test when a time limit is exceeded, select **Mark an individual test as failed if its execution time exceeds**, and type a value for this limit.
+    2. To fail an individual test when a time limit is exceeded, select **Mark an individual test as failed if its execution time exceeds**, and type a value for this limit.
 
 26. Skip **Unit Test**. Load tests do not use these settings.
 

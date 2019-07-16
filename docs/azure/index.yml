@@ -2,17 +2,18 @@
 documentType: LandingData
 title: Azure Development with Visual Studio
 metadata:
-  title: Azure Development with Visual Studio | Microsoft Docs
-  meta.description: Tutorials and conceptual articles about connecting apps and services to Azure and developing Azure services.
+  title: Azure Development
+  description: Tutorials and conceptual articles about connecting apps and services to Azure and developing Azure services.
   author: ghogen
-  manager: douge
-  ms.prod: visual-studio-dev15
+  manager: jillfra
+  ms.prod: visual-studio-windows
   ms.technology: vs-azure
   ms.topic: landing-page
   ms.date: 10/09/2018
   ms.author: ghogen
+  ms.custom: seodec18
 sections:
-- title: Publish to Azure
+- title: Deploy to Azure App Service
   items:
   - type: paragraph
     text: 'Deploy your app to Azure to staging or production environments with Visual Studio, or set up continuous integration and deployment (CI/CD).'
@@ -25,17 +26,12 @@ sections:
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/logos/logo_NETcore.svg
-      title: Publish an ASP.NET Core app to Azure
+      title: Deploy an ASP.NET Core app to Azure
     - href: https://docs.microsoft.com/azure/app-service/app-service-web-get-started-dotnet-framework
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/logos/logo_NET.svg
-      title: Publish an ASP.NET Web App to Azure
-    - href: https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/azure/media/index/AzureFunctions.svg
-      title: Publish Azure Functions
+      title: Deploy an ASP.NET Web App to Azure
     - href: /aspnet/core/host-and-deploy/azure-apps/azure-continuous-deployment?view=aspnetcore-2.1
       html: <p></p>
       image:
@@ -43,15 +39,15 @@ sections:
       title: Continuous deployment to Azure with Visual Studio and Git
     - href: /azure/devops/pipelines/get-started-yaml?view=vsts&viewFallbackFrom=aspnetcore-2.1
       html: <p></p>
-      image: 
+      image:
         src: https://docs.microsoft.com/azure/devops/_img/index/DevOpsIconPipelines96.svg
       title: Continuous deployment to Azure with Azure Pipelines
     - href: /azure/virtual-machines/windows/publish-web-app-from-visual-studio
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/common/i_vmm-cloud.svg
-      title: Publish an ASP.NET Web App to an Azure VM
-- title: Azure App Services and Azure Functions
+      title: Deploy an ASP.NET Web App to an Azure VM
+- title: Azure App Services, Logic Apps, and Azure Functions
   items:
   - type: paragraph
     text: 'Tutorials for creating web apps and serverless functions hosted in Azure'
@@ -62,12 +58,17 @@ sections:
     items:
     - href: https://docs.microsoft.com/azure/app-service/app-service-web-get-started-dotnet
       html: <p>Build and host a web app in Azure</p>
-      image: 
+      image:
         src: https://docs.microsoft.com/azure/media/index/AppService.svg
       title: ASP.NET Core
-    - href: /azure/azure-functions/functions-develop-vs
+    - href: /azure/logic-apps/quickstart-create-logic-apps-with-visual-studio
+      html: <p>Build automated, scalable workflows with Azure Logic Apps.</p>
+      image:
+        src: https://docs.microsoft.com/azure/media/index/LogicApp.svg
+      title: Azure Logic Apps
+    - href: /azure/azure-functions/functions-create-your-first-function-visual-studio
       html: <p>Process events with serverless code</p>
-      image: 
+      image:
         src: https://docs.microsoft.com/azure/media/index/AzureFunctions.svg
       title: Azure Functions
     - href: https://docs.microsoft.com/dotnet/azure/?view=azure-dotnet
@@ -82,14 +83,14 @@ sections:
   - type: list
     style: icon48
     items:
-    - image: 
+    - image:
         src: https://docs.microsoft.com/media/common/i_categorize.svg
       text: Container development
       href: /visualstudio/containers
     - image:
         src: https://docs.microsoft.com/media/logos/logo_docker.svg
-      text: Docker Tools in Visual Studio
-      href: /visualstudio/docker/vs-azure-tools-docker-setup.md
+      text: Container Tools in Visual Studio
+      href: /visualstudio/docker/docker-tools
     - image:
         src: https://docs.microsoft.com/media/logos/logo_kubernetes.svg
       text: Kubernetes Tools
@@ -129,8 +130,8 @@ sections:
     text: 'Quickly connect your app or service project to a variety of Azure services by using Visual Studio Connected Services to automatically add connection code and configuration.'
   - type: list
     style: icon48
-    items: 
-    - image: 
+    items:
+    - image:
         src: https://docs.microsoft.com/azure/media/index/Storage.svg
       text: Azure Storage
       href: vs-azure-tools-connected-services-storage.md
@@ -138,14 +139,14 @@ sections:
         src: https://docs.microsoft.com/azure/media/index/KeyVault.svg
       text: Azure Key Vault
       href: /azure/key-vault/vs-key-vault-add-connected-service
-    - image: 
+    - image:
         src: https://docs.microsoft.com/azure/media/index/ActiveDirectory.svg
       text: Azure Active Directory
       href: /azure/active-directory/develop/vs-active-directory-add-connected-service
-    - image: 
+    - image:
         src: https://docs.microsoft.com/azure/media/index/i_azure-cognitive-services-color.svg
       text: Cognitive Services
-      href: cognitive-services-connected-services.yml
+      href: /visualstudio/azure/cognitive-services-connected-services
 - title: Azure Cloud Services
   items:
   - type: paragraph
@@ -157,7 +158,7 @@ sections:
     items:
     - href: vs-azure-tools-azure-project-create.md
       html: <p>Create and configure Azure cloud service projects</p>
-      image: 
+      image:
         src: https://docs.microsoft.com/media/common/i_config-tools.svg
       title: Projects
     - href: vs-azure-tools-debugging-cloud-services-overview.md
@@ -171,10 +172,10 @@ sections:
         src: https://docs.microsoft.com//media/common/i_code-performance.svg
       title: Analyze performance
     - href: vs-azure-tools-publishing-a-cloud-service.md
-      html: <p>Publish a cloud service to Azure</p>
+      html: <p>Deploy a cloud service to Azure</p>
       image:
         src: https://docs.microsoft.com//media/common/i_deploy.svg
-      title: Publish
+      title: Deploy
     - href: vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md
       html: <p>Monitor and diagnose cloud services and virtual machines running in Azure</p>
       image:
@@ -191,7 +192,7 @@ sections:
     items:
     - href: vs-azure-tools-storage-resources-server-explorer-browse-manage.md
       html: <p>Access Azure storage accounts in Visual Studio</p>
-      image: 
+      image:
         src: https://docs.microsoft.com/media/common/i_dashboard.svg
       title: Storage
     - href: vs-azure-tools-virtual-machines-access-from-server-explorer.md
@@ -205,17 +206,17 @@ sections:
     text: 'With the Azure development workload installed, Visual Studio provides project templates for a variety of projects that enable you use develop using specific Azure services.'
   - type: list
     style: icon48
-    items: 
+    items:
     - image:
-        src: https://docs.microsoft.com/azure/azure-resource-manager/media/index/azure-resource-manager.svg 
+        src: https://docs.microsoft.com/azure/azure-resource-manager/media/index/azure-resource-manager.svg
       text: Azure Resource Group
       href: https://docs.microsoft.com/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy
-    - image: 
+    - image:
         src: https://docs.microsoft.com/azure/media/index/Azure-Data-Lake-Analytics-COLOR.svg
       text: Data Lake Analytics
       href: https://docs.microsoft.com/azure/data-lake-analytics/data-lake-analytics-data-lake-tools-get-started
     - image:
-        src: https://docs.microsoft.com/azure/media/index/StreamAnalytics.svg 
+        src: https://docs.microsoft.com/azure/media/index/StreamAnalytics.svg
       text: Stream Analytics
       href: https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-vs
     - image:

@@ -1,14 +1,9 @@
 ---
 title: "Microsoft Help Viewer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-help-viewer
+ms.topic: conceptual
 f1_keywords: 
   - "hv_general"
 helpviewer_keywords: 
@@ -24,7 +19,7 @@ ms.assetid: 74e41666-2ce8-4ac0-a0e5-3723d1e322c2
 caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Microsoft Help Viewer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,19 +27,19 @@ manager: "ghogen"
 You can install and view content for various products and technologies on your local computer by using Microsoft Help Viewer.  
   
 > [!WARNING]
->  When you install Visual Studio, you get the Help Viewer. To start reading help topics in the Help Viewer rather than on the MSDN download site, go to the **Help** menu in Visual Studio, select **Set Help Preference**, and then select **Launch in Help Viewer**. The off-line help topics for a given version of Visual Studio are available only after the final release of that version.  
+> When you install Visual Studio, you get the Help Viewer. To start reading help topics in the Help Viewer rather than on the MSDN download site, go to the **Help** menu in Visual Studio, select **Set Help Preference**, and then select **Launch in Help Viewer**. The off-line help topics for a given version of Visual Studio are available only after the final release of that version.  
   
  You can do the following:  
   
--   Find and download sets of content, which are also referred to as books.  
+- Find and download sets of content, which are also referred to as books.  
   
--   Browse and search the table of contents to find topics by title.  
+- Browse and search the table of contents to find topics by title.  
   
--   Look up subjects in the index.  
+- Look up subjects in the index.  
   
--   Find information by using full-text search.  
+- Find information by using full-text search.  
   
--   View, bookmark, and print topics.  
+- View, bookmark, and print topics.  
   
 ## Navigating the Help Viewer  
  You can find information in installed content by using the navigation tabs, view installed content in the topic tab or tabs, and manage content by using the **Manage Content** tab. You can also perform additional tasks by using the buttons on the toolbar and find additional information in the lower-right corner of the window.  
@@ -78,6 +73,3 @@ You can install and view content for various products and technologies on your l
  [Install and Manage Local Content](../ide/install-and-manage-local-content.md)   
  [Locate Information](../ide/locate-information.md)   
  [Troubleshooting the Help Viewer](../ide/troubleshooting-the-help-viewer.md)
-
-
-

@@ -1,34 +1,31 @@
 ---
 title: "Where Can I Look Up Win32 Error Codes? | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vc.errors"
-dev_langs: 
+dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "error codes, Win32"
   - "Win32, error codes"
 ms.assetid: 8fb4ff42-b8eb-4152-b49e-b802d194b05e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Where Can I Look Up Win32 Error Codes?
-WINERROR.H in the INCLUDE directory of your default system installation contains the error code definitions for the Win32 API functions.  
-  
- You can look up an error code by typing the code in the **Watch** window or the **QuickWatch** dialog box. For example:  
-  
-`0x80000004,hr` 
+WINERROR.H in the INCLUDE directory of your default system installation contains the error code definitions for the Win32 API functions.
 
-  
-## See Also  
- [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)   
- [Debugging Native Code](../debugger/debugging-native-code.md)
+ You can look up an error code by typing the code in the **Watch** window or the **QuickWatch** dialog box. For example:
+
+`0x80000004,hr`
+
+## See Also
+- [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
+- [Debugging Native Code](../debugger/debugging-native-code.md)

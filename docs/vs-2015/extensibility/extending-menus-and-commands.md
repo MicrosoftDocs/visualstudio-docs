@@ -1,14 +1,9 @@
 ---
 title: "Extending Menus and Commands | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "menus, common tasks"
   - "VSPackages, menu tasks"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 7b2be4b9-e3fe-4412-874f-ae72ebc84c4b
 caps.latest.revision: 50
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Extending Menus and Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,4 +56,3 @@ Commands are the way you add actions and processes to Visual Studio. In most cas
  Explains how to localize menu commands.  
   
 ## Related Sections
-

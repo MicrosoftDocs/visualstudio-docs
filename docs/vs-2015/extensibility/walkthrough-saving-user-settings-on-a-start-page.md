@@ -1,18 +1,13 @@
 ---
 title: "Walkthrough: Saving User Settings on a Start Page | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: 754b9bf3-8681-4c77-b0a4-09146a4e1d2d
 caps.latest.revision: 19
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Saving User Settings on a Start Page
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,43 +23,43 @@ You can persist user settings for your start page. By following this walkthrough
 ## Prerequisites  
   
 > [!NOTE]
->  To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
+> To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
 >   
->  You can download the Start Page project template by using **Extension Manager**.  
+> You can download the Start Page project template by using **Extension Manager**.  
   
 ## Setting Up the Project  
   
 #### To configure the project for this walkthrough  
   
-1.  Create a Start Page project by using the Start Page project template, as described in [Creating Your Own Start Page](../misc/creating-your-own-start-page.md). Name the project **SaveMySettings**.  
+1. Create a Start Page project by using the Start Page project template, as described in [Creating Your Own Start Page](../misc/creating-your-own-start-page.md). Name the project **SaveMySettings**.  
   
-2.  In **Solution Explorer**, add the following assembly references to the StartPageControl project:  
+2. In **Solution Explorer**, add the following assembly references to the StartPageControl project:  
   
-    -   EnvDTE  
+    - EnvDTE  
   
-    -   EnvDTE80  
+    - EnvDTE80  
   
-    -   Microsoft.VisualStudio.OLE.Interop  
+    - Microsoft.VisualStudio.OLE.Interop  
   
-    -   Microsoft.VisualStudio.Shell.Interop.11.0  
+    - Microsoft.VisualStudio.Shell.Interop.11.0  
   
-3.  Open MyControl.xaml.  
+3. Open MyControl.xaml.  
   
-4.  From the XAML pane, in the top-level <xref:System.Windows.Controls.UserControl> element definition, add the following event declaration after the namespace declarations.  
+4. From the XAML pane, in the top-level <xref:System.Windows.Controls.UserControl> element definition, add the following event declaration after the namespace declarations.  
   
     ```  
     Loaded="OnLoaded"  
     ```  
   
-5.  In the design pane, click the main area of the control, and then press DELETE.  
+5. In the design pane, click the main area of the control, and then press DELETE.  
   
      This removes the <xref:System.Windows.Controls.Border> element and everything in it, and leaves only the top-level <xref:System.Windows.Controls.Grid> element.  
   
-6.  From the **Toolbox**, drag a <xref:System.Windows.Controls.StackPanel> control to the grid.  
+6. From the **Toolbox**, drag a <xref:System.Windows.Controls.StackPanel> control to the grid.  
   
-7.  Now drag a <xref:System.Windows.Controls.TextBlock>, a <xref:System.Windows.Controls.TextBox>, and a Button to the <xref:System.Windows.Controls.StackPanel>.  
+7. Now drag a <xref:System.Windows.Controls.TextBlock>, a <xref:System.Windows.Controls.TextBox>, and a Button to the <xref:System.Windows.Controls.StackPanel>.  
   
-8.  Add an **x:Name** attribute for the <xref:System.Windows.Controls.TextBox>, and a `Click` event for the <xref:System.Windows.Controls.Button>, as shown in the following example.  
+8. Add an **x:Name** attribute for the <xref:System.Windows.Controls.TextBox>, and a `Click` event for the <xref:System.Windows.Controls.Button>, as shown in the following example.  
   
     ```xml  
     <StackPanel Width="300" HorizontalAlignment="Center" VerticalAlignment="Center">  
@@ -78,15 +73,15 @@ You can persist user settings for your start page. By following this walkthrough
   
 #### To implement the user control  
   
-1.  In the XAML pane, right-click the `Click` attribute of the <xref:System.Windows.Controls.Button> element, and then click **Navigate to Event Handler**.  
+1. In the XAML pane, right-click the `Click` attribute of the <xref:System.Windows.Controls.Button> element, and then click **Navigate to Event Handler**.  
   
      This opens MyControl.xaml.cs, and creates a stub handler for the `Button_Click` event.  
   
-2.  Add the following `using` statements to the top of the file.  
+2. Add the following `using` statements to the top of the file.  
   
      [!code-csharp[StartPageDTE#11](../snippets/csharp/VS_Snippets_VSSDK/startpagedte/cs/startpagecontrol/mycontrol.xaml.cs#11)]  
   
-3.  Add a private `SettingsStore` property, as shown in the following example.  
+3. Add a private `SettingsStore` property, as shown in the following example.  
   
     ```csharp  
     private IVsWritableSettingsStore _settingsStore = null;  
@@ -120,7 +115,7 @@ You can persist user settings for your start page. By following this walkthrough
   
      This property first gets a reference to the <xref:EnvDTE80.DTE2> interface, which contains the Automation object model, from the <xref:System.Windows.FrameworkElement.DataContext%2A> of the user control, and then uses the DTE to get an instance of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsManager> interface. Then it uses that instance to return the current user settings.  
   
-4.  Fill in the `Button_Click` event as follows.  
+4. Fill in the `Button_Click` event as follows.  
   
     ```csharp  
     private void Button_Click(object sender, RoutedEventArgs e)  
@@ -137,7 +132,7 @@ You can persist user settings for your start page. By following this walkthrough
   
      This writes the content of the text box to a "MySetting" field in a "MySettings" collection in the registry. If the collection does not exist, it is created.  
   
-5.  Add the following handler for the `OnLoaded` event of the user control.  
+5. Add the following handler for the `OnLoaded` event of the user control.  
   
     ```csharp  
     private void OnLoaded(Object sender, RoutedEventArgs e)  
@@ -151,11 +146,11 @@ You can persist user settings for your start page. By following this walkthrough
   
      This sets the text of the text box to the current value of "MySetting".  
   
-6.  Build the user control.  
+6. Build the user control.  
   
-7.  In **Solution Explorer**, open source.extension.vsixmanifest.  
+7. In **Solution Explorer**, open source.extension.vsixmanifest.  
   
-8.  In the manifest editor, set **Product Name** to **Save My Settings Start Page**.  
+8. In the manifest editor, set **Product Name** to **Save My Settings Start Page**.  
   
      This sets the name of the Start Page as it is to appear in the **Customize Start Page** list in the **Options** dialog box.  
   
@@ -165,27 +160,27 @@ You can persist user settings for your start page. By following this walkthrough
   
 #### To test the user control  
   
-1.  Press F5.  
+1. Press F5.  
   
      The experimental instance of Visual Studio opens.  
   
-2.  In the experimental instance, on the **Tools** menu, click **Options**.  
+2. In the experimental instance, on the **Tools** menu, click **Options**.  
   
-3.  In the **Environment** node, click **Startup**, and then, in the **Customize Start Page** list, select **[Installed Extension] Save My Settings Start Page**.  
+3. In the **Environment** node, click **Startup**, and then, in the **Customize Start Page** list, select **[Installed Extension] Save My Settings Start Page**.  
   
      Click **OK**.  
   
-4.  Close the Start Page if it is open, and then, on the **View** menu, click **Start Page**.  
+4. Close the Start Page if it is open, and then, on the **View** menu, click **Start Page**.  
   
-5.  On the Start Page, click the **MyControl** tab.  
+5. On the Start Page, click the **MyControl** tab.  
   
-6.  In the text box, type **Cat**, and then click **Save My Setting**.  
+6. In the text box, type **Cat**, and then click **Save My Setting**.  
   
-7.  Close the Start Page and then open it again.  
+7. Close the Start Page and then open it again.  
   
      The word "Cat" should be displayed in the text box.  
   
-8.  Replace the word "Cat" with the word "Dog". Do not click the button.  
+8. Replace the word "Cat" with the word "Dog". Do not click the button.  
   
 9. Close the Start Page and then open it again.  
   
@@ -204,4 +199,3 @@ You can persist user settings for your start page. By following this walkthrough
  <xref:EnvDTE80.DTE2?displayProperty=fullName>   
  [Creating Your Own Start Page](../misc/creating-your-own-start-page.md)   
  [Adding Visual Studio Commands to a Start Page](../extensibility/adding-visual-studio-commands-to-a-start-page.md)
-

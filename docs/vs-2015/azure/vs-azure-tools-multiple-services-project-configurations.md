@@ -2,7 +2,7 @@
 title: Configuring your Azure project using multiple service configurations | Microsoft Docs
 description: Learn how to configure an Azure cloud service project by changing the ServiceDefinition.csdef, ServiceConfiguration.Local.cscfg, and ServiceConfiguration.Cloud.cscfg files.
 author: ghogen
-manager: douge
+manager: jillfra
 assetId: a4fb79ed-384f-4183-9f74-5cac257206b9
 ms.prod: visual-studio-dev14
 ms.technology: vs-azure
@@ -23,8 +23,7 @@ Configuration settings are managed and modified in Visual Studio using property 
 
 ![VS_Solution_Explorer_Roles_Properties](./media/vs-azure-tools-multiple-services-project-configurations/IC784076.png)
 
-For information about the underlying schemas for the service definition and service configuration files, see the [.csdef XML Schema](/azure/cloud-services/schema-csdef-file.md) and [.cscfg XML Schema](/azure/cloud-services/schema-cscfg-file.md) articles. For more information about service configuration, see [How to Configure Cloud Services](/azure/cloud-services/cloud-services-how-to-configure-portal).
-
+For information about the underlying schemas for the service definition and service configuration files, see the [.csdef XML Schema](/azure/cloud-services/schema-csdef-file) and [.cscfg XML Schema](/azure/cloud-services/schema-cscfg-file) articles. For more information about service configuration, see [How to Configure Cloud Services](/azure/cloud-services/cloud-services-how-to-configure-portal).
 
 ## Configuration page
 
@@ -71,7 +70,7 @@ For new or existing connection strings, select **...*** on the right of the **Va
 1. Selecting **Manually entered credentials** lets you specify the account name and key directly using information from the Azure portal. To copy the account key:
     1. Navigate to the storage account on the Azure portal and select **Manage Keys**.
     1. To copy the account key, navigate to the storage account on the Azure portal, select **Settings > Access keys**, then use the copy button to copy the primary access key to the clipboard.
-1. Select one of the connection options. **Specify custom endpoints** asks you to specify specific URLs for blobs, tables, and queues. Custom endpoints allow you to use [custom domains](/azure/storage/blobs/storage-custom-domain-name.md) and to control access more exactly. See [Configure Azure Storage Connection Strings](/azure/storage/common/storage-configure-connection-string).
+1. Select one of the connection options. **Specify custom endpoints** asks you to specify specific URLs for blobs, tables, and queues. Custom endpoints allow you to use [custom domains](/azure/storage/blobs/storage-custom-domain-name) and to control access more exactly. See [Configure Azure Storage Connection Strings](/azure/storage/common/storage-configure-connection-string).
 1. Select **OK**, then **File > Save** to update the configuration with the new connection string.
 
 Again, when you publish your application to Azure, choose the service configuration that contains the Azure storage account for the connection string. After your application is published, verify that the application works as expected against the Azure storage services.
@@ -83,7 +82,7 @@ For more information about how to update service configurations, see the section
 A web role typically has a single HTTP endpoint on port 80. A worker role, on the other hand, can have any number of HTTP, HTTPS, or TCP endpoints. Endpoints can be input endpoints, which are available to external clients, or internal endpoints, which are available to other roles that are running in the service.
 
 - To make an HTTP endpoint available to external clients and Web browsers, change the endpoint type to input, and specify a name and a public port number.
-- To make an HTTPS endpoint available to external clients and Web browsers, change the endpoint type to **input**, and specify a name, a public port number, and a management certificate name. You must also define the certificate on the **Certificates** property page before you can specify a management certificate. 
+- To make an HTTPS endpoint available to external clients and Web browsers, change the endpoint type to **input**, and specify a name, a public port number, and a management certificate name. You must also define the certificate on the **Certificates** property page before you can specify a management certificate.
 - To make an endpoint available for internal access by other roles in the cloud service, change the endpoint type to internal, and specify a name and possible private ports for this endpoint.
 
 ## Local storage page

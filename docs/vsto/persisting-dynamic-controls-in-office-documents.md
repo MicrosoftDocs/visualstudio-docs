@@ -1,9 +1,6 @@
 ---
 title: "Persist dynamic controls in Office documents"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -16,9 +13,9 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], Windows Forms controls"
   - "documents [Office development in Visual Studio], host controls"
   - "host controls [Office development in Visual Studio], persisting in the document"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -73,11 +70,11 @@ In VSTO Add-ins, the controls are removed, but the ActiveX wrappers remain in th
 
 You can re-create deleted Windows Forms controls when the user reopens the document. To do this, your solution must perform the following tasks:
 
-1.  Store information about the size, location, and state of the controls when the document is saved or closed. In a document-level customization, you can save the data to the data cache in the document. In a VSTO Add-in, you can save the data to a custom XML part in the document.
+1. Store information about the size, location, and state of the controls when the document is saved or closed. In a document-level customization, you can save the data to the data cache in the document. In a VSTO Add-in, you can save the data to a custom XML part in the document.
 
-2.  Re-create the controls in an event that is raised when the document is opened. In document-level projects, you can do this in the `Sheet`*n*`_Startup` or `ThisDocument_Startup` event handlers. In VSTO Add-in projects, you can do this in the event handlers for the <xref:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookOpen> or <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentOpen> events.
+2. Re-create the controls in an event that is raised when the document is opened. In document-level projects, you can do this in the `Sheet`*n*`_Startup` or `ThisDocument_Startup` event handlers. In VSTO Add-in projects, you can do this in the event handlers for the <xref:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookOpen> or <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentOpen> events.
 
-###  <a name="removingActiveX"></a> Remove ActiveX wrappers in an Add-in
+### <a name="removingActiveX"></a> Remove ActiveX wrappers in an Add-in
 
 When you add dynamic Windows Forms controls to documents by using a VSTO Add-in, you can prevent the ActiveX wrappers for the controls from appearing in the document the next time it is opened in the following ways.
 

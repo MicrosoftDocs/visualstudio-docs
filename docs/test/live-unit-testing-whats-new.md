@@ -1,64 +1,64 @@
 ---
-title: "What's New in Live Unit Testing"
-ms.date: 10-11-2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+title: What's New in Live Unit Testing in Visual Studio 2017
+titleSuffix: ""
+ms.date: 10/11/2017
 ms.topic: conceptual
-helpviewer_keywords: 
-  - "Visual Studio ALM"
+helpviewer_keywords:
   - "Live Unit Testing"
   - "Live Unit Testing What's New"
 author: rpetrusha
 ms.author: "ronpet"
-ms.workload: 
+ms.workload:
   - "dotnet"
+monikerRange: vs-2017
 ---
-# What's new in Live Unit Testing
+# What's new in Live Unit Testing for Visual Studio 2017
 
-This topic lists the new features added to Live Unit Testing in each version of Visual Studio starting with Visual Studio 2017 version 15.3. For an overview of how to use Live Unit Testing, see [Live Unit Testing with Visual Studio 2017](live-unit-testing.md).
+This topic lists the new features added to Live Unit Testing in each version of Visual Studio starting with Visual Studio 2017 version 15.3. For an overview of how to use Live Unit Testing, see [Live Unit Testing with Visual Studio](live-unit-testing.md).
 
-## What's new in Live Unit Testing for Visual Studio 2017 version 15.4
+## Version 15.4
 
 Starting with Visual Studio 2017 version 15.4, Live Unit Testing includes improvements and enhancements in a number of areas:
 
 - **Improved discoverability**. For users who do not know that the Live Unit Testing feature exists, the Visual Studio IDE shows a gold bar that mentions Live Unit Testing whenever the user opens a solution that includes unit tests but Live Unit Testing is not enabled. The information presented in the gold bar allows the user to learn more about Live Unit Testing and to enable it. The gold bar also displays information when Live Unit Testing prerequisites are not met. These include:
 
-   - Test adapters are missing.
-   - Older versions of test adapters are present.
-   - A restore of NuGet packages referenced by the solution is needed. 
+  - Test adapters are missing.
+  - Older versions of test adapters are present.
+  - A restore of NuGet packages referenced by the solution is needed.
 
 - **Integration with Task Center notifications**. The Visual Studio IDE now shows a Live Unit Testing background processing notification in Task Center so that users can easily tell what is happening when Live Unit Testing is enabled. This addresses the key problem of starting Live Unit Testing on a large solution. Previously, for a few minutes until the coverage icons appeared, users couldn’t determine whether Live Unit Testing was really enabled and whether it was working. Not anymore!
 
-- **Support for the MSTest framework version 1**: Live Unit Testing already works with three popular unit testing frameworks: xUnit, NUnit, and MSTest. Previously, Live Unit Testing only worked when MSTest unit test projects used MS Test version 2. Starting with Visual Studio 2017 version 15.4, it now also supports MSTest version 1 as well. 
+- **Support for the MSTest framework version 1**: Live Unit Testing already works with three popular unit testing frameworks: xUnit, NUnit, and MSTest. Previously, Live Unit Testing only worked when MSTest unit test projects used MS Test version 2. Starting with Visual Studio 2017 version 15.4, it now also supports MSTest version 1 as well.
 
-- **Reliability & Performance**: Live Unit Testing now ensures that the system can better detect when projects haven’t completed loading fully and avoids crashing Live Unit Testing. Build performance improvements also avoid reevaluating MSBuild projects when the system knows that nothing in the project file has changed.  
+- **Reliability & Performance**: Live Unit Testing now ensures that the system can better detect when projects haven’t completed loading fully and avoids crashing Live Unit Testing. Build performance improvements also avoid reevaluating MSBuild projects when the system knows that nothing in the project file has changed.
 
 - **Miscellaneous user interface refinements**:  The confusing **Live Test Set – Include/Exclude** option from the right click gesture has been renamed to **Live Unit Testing Include/Exclude**. The **Reset clean** option on the **Test** > **Live Unit Testing** menu has been removed. It is now accessible by selecting **Tools** > **Options** > **Live Unit Testing** and selecting **Delete Persisted Data**.
 
-## What's new in Live Unit Testing for Visual Studio 2017 version 15.3
+## Version 15.3
 
 Starting with Visual Studio 2017 version 15.3, Live Unit Testing features improvements and enhancements in two major areas:
 
 - Support for .NET Core and .NET Standard. You can use Live Unit Testing on .NET Core and .NET Standard solutions written in either C# or Visual Basic.
- 
--  Performance improvements. You'll notice that performance is significantly faster after the first full build and run of tests under Live Unit Testing. You'll also notice significant performance improvement in subsequent starts of Live Unit Testing on the same solution. We now persist data generated by Live Unit Testing and reuse it as much as possible with up-to-date checks. 
- 
-In addition to these major additions, Live Unit Testing includes the following enhancements: 
 
-- A new beaker icon is now used to distinguish a test method from regular methods. An empty beaker icon indicates that the specific test is not included in Live Unit Testing. 
+- Performance improvements. You'll notice that performance is significantly faster after the first full build and run of tests under Live Unit Testing. You'll also notice significant performance improvement in subsequent starts of Live Unit Testing on the same solution. We now persist data generated by Live Unit Testing and reuse it as much as possible with up-to-date checks.
 
-- When clicking on a test method from the pop-up UI window of a Live Unit Testing coverage icon, you now have the option to debug the test right from that context within the UI window and without having to leave the code editor. This is especially useful when you are looking at a failed test.  
+In addition to these major additions, Live Unit Testing includes the following enhancements:
 
-- Several additional configurable options have been added to Tools/Options/Live Unit Testing/General. You can cap the memory used for Live Unit Testing. You can also specify the file path for persisted Live Unit Testing data for your open solution. 
+- A new beaker icon is now used to distinguish a test method from regular methods. An empty beaker icon indicates that the specific test is not included in Live Unit Testing.
+
+- When clicking on a test method from the pop-up UI window of a Live Unit Testing coverage icon, you now have the option to debug the test right from that context within the UI window and without having to leave the code editor. This is especially useful when you are looking at a failed test.
+
+- Several additional configurable options have been added to Tools/Options/Live Unit Testing/General. You can cap the memory used for Live Unit Testing. You can also specify the file path for persisted Live Unit Testing data for your open solution.
 
 - Several additional menu items have been added under the menu bar of Test/Live Unit Testing. **Reset Clean** deletes the persisted data and generates it again. **Option** jumps to Tools/Options/Live Unit Testing/General.
-  
+
 - You can now use the following attributes to specify in source code that you want to exclude targeted test methods from Live Unit Testing:
-   - For xUnit: `[Trait("Category", "SkipWhenLiveUnitTesting")]`
-   - For NUnit: `[Category("SkipWhenLiveUnitTesting")]`
-   - For MSTest: `[TestCategory("SkipWhenLiveUnitTesting")]`
+
+  - For xUnit: `[Trait("Category", "SkipWhenLiveUnitTesting")]`
+  - For NUnit: `[Category("SkipWhenLiveUnitTesting")]`
+  - For MSTest: `[TestCategory("SkipWhenLiveUnitTesting")]`
 
 ## See also
-- [Introducing Live Unit Testing](live-unit-testing-intro.md)   
-- [Live Unit Testing with Visual Studio 2017](live-unit-testing.md)
 
+- [Introducing Live Unit Testing](live-unit-testing-intro.md)
+- [Live Unit Testing with Visual Studio](live-unit-testing.md)

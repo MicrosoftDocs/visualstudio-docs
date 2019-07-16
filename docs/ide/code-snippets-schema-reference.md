@@ -1,8 +1,6 @@
 ---
 title: Code snippets schema reference
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
+ms.date: 02/25/2019
 ms.topic: reference
 helpviewer_keywords:
   - "schema reference [Visual Studio]"
@@ -12,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 58a60621-725f-4763-93b7-62ea5424ef88
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -113,6 +111,7 @@ There are three attributes available for the Code element:
    |`CPP`|Identifies a C++ code snippet.|
    |`XML`|Identifies an XML code snippet.|
    |`JavaScript`|Identifies a JavaScript code snippet.|
+   |`TypeScript`|Identifies a TypeScript code snippet.|
    |`SQL`|Identifies a SQL code snippet.|
    |`HTML`|Identifies an HTML code snippet.|
 
@@ -313,10 +312,7 @@ A text value is required. This text specifies the unique identifier for the obje
 
 ## Import element
 
-Specifies the imported namespaces used by an IntelliSense Code Snippet.
-
-> [!NOTE]
-> The `Import` element is only supported for Visual Basic projects.
+Specifies the imported namespaces used by an IntelliSense code snippet.
 
 ```xml
 <Import>
@@ -335,9 +331,6 @@ Specifies the imported namespaces used by an IntelliSense Code Snippet.
 ## Imports element
 
 Groups individual `Import` elements.
-
-> [!NOTE]
-> The `Imports` element is only supported for Visual Basic projects.
 
 ```xml
 <Imports>
@@ -420,10 +413,7 @@ Literals and objects cannot contain an **ID** element with a value of selected o
 
 ## Namespace element
 
-Specifies the namespace that must be imported for the code snippet to compile and run. The namespace specified in the `Namespace` element is automatically added to an `Imports` statement at the beginning of the code, if it does not already exist.
-
-> [!NOTE]
-> The `Namespace` element is only supported for Visual Basic projects.
+Specifies the namespace that must be imported for the code snippet to compile and run. The namespace specified in the `Namespace` element is automatically added to a `using` directive or `Imports` statement at the beginning of the code if it doesn't already exist.
 
 ```xml
 <Namespace>
@@ -542,7 +532,7 @@ Specifies the references, imports, declarations, and code for the code snippet.
 |[Code element](../ide/code-snippets-schema-reference.md#code-element)|Required element. Specifies the code that you want to insert into a documentation file. There must be exactly one `Code` element in a `Snippet` element.|
 |[Declarations element](../ide/code-snippets-schema-reference.md#declarations-element)|Optional element. Specifies the literals and objects that make up the parts of a code snippet that you can edit. There may be zero or one `Declarations` elements in a `Snippet` element.|
 |[Imports element](../ide/code-snippets-schema-reference.md#imports-element)|Optional element. Groups individual `Import` elements. There may be zero or one `Imports` elements in a `Snippet` element.|
-||Optional element. Groups individual `Reference` elements. There may be zero or one `References` elements in a `Snippet` element.|
+|[References element](../ide/code-snippets-schema-reference.md#references-element)|Optional element. Groups individual `Reference` elements. There may be zero or one `References` elements in a `Snippet` element.|
 
 |Parent element|Description|
 | - |-----------------|
@@ -564,11 +554,11 @@ Specifies how Visual Studio inserts the code snippet.
 
 The text value must be one of the following values:
 
--   `SurroundsWith`: allows the code snippet to be placed around a selected piece of code.
+- `SurroundsWith`: allows the code snippet to be placed around a selected piece of code.
 
--   `Expansion`: allows the code snippet to be inserted at the cursor.
+- `Expansion`: allows the code snippet to be inserted at the cursor.
 
--   `Refactoring`: specifies that the code snippet is used during C# refactoring. `Refactoring` cannot be used in custom code snippets.
+- `Refactoring`: specifies that the code snippet is used during C# refactoring. `Refactoring` cannot be used in custom code snippets.
 
 ## SnippetTypes element
 
@@ -636,7 +626,11 @@ Specifies the type of the object. The `Object` element is used to identify an it
 | - |-----------------|
 |[Object element](../ide/code-snippets-schema-reference.md#object-element)|Defines the object fields of the code snippet that you can edit.|
 
- A text value is required. This text specifies the type of the object.
+A text value is required. This text specifies the type of the object. For example:
+
+```xml
+<Type>System.Data.SqlClient.SqlConnection</Type>
+```
 
 ## Url element
 

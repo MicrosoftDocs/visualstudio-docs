@@ -1,14 +1,12 @@
 ---
-title: "How to: Configure Code Analysis for an ASP.NET Web Application in Visual Studio"
+title: Configure Code Analysis for ASP.NET Web app
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.codeanalysis.propertypages.asp"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "aspnet"
 ---

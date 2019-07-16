@@ -1,14 +1,9 @@
 ---
 title: "IDebugProperty3 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProperty3"
 helpviewer_keywords: 
@@ -16,20 +11,20 @@ helpviewer_keywords:
 ms.assetid: 8f9be68d-4490-4eca-8f6b-8a10ed77e226
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugProperty3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
 This interface provides support for:  
   
--   Retrieving an arbitrarily long string associated with the property.  
+- Retrieving an arbitrarily long string associated with the property.  
   
--   Associating a unique ID with the property.  
+- Associating a unique ID with the property.  
   
--   Retrieving a list of custom viewers for the property.  
+- Retrieving a list of custom viewers for the property.  
   
--   Setting the value of a property with the ability to report any resulting errors  
+- Setting the value of a property with the ability to report any resulting errors  
   
 ## Syntax  
   
@@ -41,7 +36,7 @@ IDebugProperty3 : IDebugProperty2
  The debug engine (DE) implements this interface on the same object that implements [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) to provide support for long strings, property IDs, and custom viewers.  
   
 ## Notes for Callers  
- Call [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on an `IDebugProperty2` interface to obtain this interface.  
+ Call [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on an `IDebugProperty2` interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  In addition to the methods inherited from `IDebugProperty2`, the `IDebugProperty3` interface exposes the following methods.  
@@ -70,4 +65,3 @@ IDebugProperty3 : IDebugProperty2
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
  [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)   
  [IDebugCustomViewer](../../../extensibility/debugger/reference/idebugcustomviewer.md)
-

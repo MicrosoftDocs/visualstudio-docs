@@ -1,14 +1,9 @@
 ---
 title: "Rename Refactoring (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords: 
   - "vs.csharp.refactoring.rename"
 dev_langs: 
@@ -20,7 +15,7 @@ ms.assetid: 268942fc-b142-4dfa-8d90-bedd548c2e4f
 caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
-manager: "wpickett"
+manager: jillfra
 ---
 # Rename Refactoring (C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +23,7 @@ manager: "wpickett"
 **Rename** is a refactoring feature in the Visual Studio integrated development environment (IDE) that provides an easy way to rename identifiers for code symbols such as fields, local variables, methods, namespaces, properties, and types. **Rename** can be used to change the names in comments and in strings and to change the declarations and calls of an identifier.  
   
 > [!NOTE]
->  When using Source Control for Visual Studio, get the latest version of sources before you try to perform rename refactoring.  
+> When using Source Control for Visual Studio, get the latest version of sources before you try to perform rename refactoring.  
   
  Rename refactoring is available from the following Visual Studio features:  
   
@@ -47,14 +42,14 @@ manager: "wpickett"
 |-----------------|----------------------|  
 |Field|Changes the declaration and usages of the field to the new name.|  
 |Local variable|Changes the declaration and usages of the variable to the new name.|  
-|Method|Changes the name of the method and all references to that method to the new name. **Note:**  When you rename an extension method, the rename operation propagates to all instances of the method that are in scope, regardless of whether the extension method is being used as a static method or an instance method. For more information, see [Extension Methods](http://msdn.microsoft.com/library/175ce3ff-9bbf-4e64-8421-faeb81a0bb51).|  
+|Method|Changes the name of the method and all references to that method to the new name. **Note:**  When you rename an extension method, the rename operation propagates to all instances of the method that are in scope, regardless of whether the extension method is being used as a static method or an instance method. For more information, see [Extension Methods](https://msdn.microsoft.com/library/175ce3ff-9bbf-4e64-8421-faeb81a0bb51).|  
 |Namespace|Changes the name of the namespace to the new name in the declaration, all `using` statements, and fully qualified names. **Note:**  When renaming a namespace, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] also updates the **Default Namespace** property on the **Application** page of the **Project Designer**. This property cannot be reset by selecting **Undo** from the **Edit** menu. To reset the **Default Namespace** property value, you must modify the property in the **Project Designer**. For more information, see [Application Page](../ide/reference/application-page-project-designer-csharp.md).|  
 |Property|Changes the declaration and usages of the property to the new name.|  
 |Type|Changes all declarations and all usages of the type to the new name, including constructors and destructors. For partial types, the rename operation will propagate to all parts.|  
   
 #### To rename an identifier  
   
-1.  Create a console application named `RenameIdentifier`, and then replace `Program` with the following example code.  
+1. Create a console application named `RenameIdentifier`, and then replace `Program` with the following example code.  
   
     ```csharp  
     class ProtoClassA  
@@ -75,23 +70,23 @@ manager: "wpickett"
     }  
     ```  
   
-2.  Place the cursor on `MethodB`, either in the method declaration or the method call.  
+2. Place the cursor on `MethodB`, either in the method declaration or the method call.  
   
-3.  From the **Refactor** menu, select **Rename**. The **Rename** dialog box appears.  
+3. From the **Refactor** menu, select **Rename**. The **Rename** dialog box appears.  
   
      You can also right-click the cursor, point to **Refactor** on the context menu, and then click **Rename** to display the **Rename** dialog box.  
   
-4.  In the **New Name** field, type `MethodC`.  
+4. In the **New Name** field, type `MethodC`.  
   
-5.  Select the **Search in Comments** check box.  
+5. Select the **Search in Comments** check box.  
   
-6.  Click **OK**.  
+6. Click **OK**.  
   
-7.  In the **Preview Changes** dialog box, click **Apply**.  
+7. In the **Preview Changes** dialog box, click **Apply**.  
   
 #### To rename an identifier using smart tags  
   
-1.  Create a console application named `RenameIdentifier`, and then replace `Program` with the following example code.  
+1. Create a console application named `RenameIdentifier`, and then replace `Program` with the following example code.  
   
     ```csharp  
     class ProtoClassA  
@@ -112,18 +107,18 @@ manager: "wpickett"
     }  
     ```  
   
-2.  In the declaration for `MethodB`, type or backspace over the method identifier. A smart tag prompt will appear below this identifier.  
+2. In the declaration for `MethodB`, type or backspace over the method identifier. A smart tag prompt will appear below this identifier.  
   
     > [!NOTE]
-    >  You can only invoke rename refactoring using smart tags at the declaration of an identifier.  
+    > You can only invoke rename refactoring using smart tags at the declaration of an identifier.  
   
-3.  Type the keyboard shortcut SHIFT+ALT+F10, and then press the DOWN ARROW to display the smart tag menu.  
+3. Type the keyboard shortcut SHIFT+ALT+F10, and then press the DOWN ARROW to display the smart tag menu.  
   
      -or-  
   
      Move the mouse pointer over the smart tag prompt to display the smart tag. Then move the mouse pointer over the smart tag and click the DOWN ARROW to display the smart tag menu.  
   
-4.  Select the **Rename '\<identifer1>' to '\<identifier2>'** menu item to invoke rename refactoring without a preview of the changes to your code. All references to **\<identifer1>** will automatically be updated to **\<identifier2>**.  
+4. Select the **Rename '\<identifer1>' to '\<identifier2>'** menu item to invoke rename refactoring without a preview of the changes to your code. All references to **\<identifer1>** will automatically be updated to **\<identifier2>**.  
   
      -or-  
   
@@ -143,7 +138,7 @@ manager: "wpickett"
  If **Rename overloads** is checked, the refactor engine renames `Derived.Method(int i)` because it overloads `Derived.Method()`, `Base.Method(int i)` because it is overridden by `Derived.Method(int i)`, and `Base.Method()` because it is an overload of `Base.Method(int i)`.  
   
 > [!NOTE]
->  When you rename a member that was defined in a referenced assembly, a dialog box explains that renaming will cause build errors.  
+> When you rename a member that was defined in a referenced assembly, a dialog box explains that renaming will cause build errors.  
   
 ## Renaming Properties of Anonymous Types  
  When you rename a property in anonymous types, the rename operation will propagate to properties in other anonymous types that have the same properties. The following examples illustrate this behavior.  
@@ -169,4 +164,4 @@ var orderIDs =
   
 ## See Also  
  [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)   
- [Anonymous Types](http://msdn.microsoft.com/library/59c9d7a4-3b0e-475e-b620-0ab86c088e9b)
+ [Anonymous Types](https://msdn.microsoft.com/library/59c9d7a4-3b0e-475e-b620-0ab86c088e9b)

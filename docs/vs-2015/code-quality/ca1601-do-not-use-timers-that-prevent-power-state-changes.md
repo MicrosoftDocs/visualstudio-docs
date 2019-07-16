@@ -1,14 +1,9 @@
 ---
 title: "CA1601: Do not use timers that prevent power state changes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1601"
   - "DoNotUseTimersThatPreventPowerStateChanges"
@@ -42,6 +37,3 @@ manager: "wpickett"
 
 ## When to Suppress Warnings
  This rule should be suppressed only if firing the timer more than one time per second is required and mobility considerations can safely be ignored.
-
-
-

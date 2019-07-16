@@ -1,8 +1,6 @@
 ---
 title: "Set debug and release configurations | Microsoft Docs"
-ms.custom: ""
 ms.date: "10/05/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords:
   - "vs.debug.builds"
@@ -30,7 +28,7 @@ helpviewer_keywords:
 ms.assetid: 57b6bbb7-f2af-48f7-8773-127d75034ed2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -40,7 +38,7 @@ Visual Studio projects have separate release and debug configurations for your p
 
 In debug configuration, your program compiles with full symbolic debug information and no optimization. Optimization complicates debugging, because the relationship between source code and generated instructions is more complex.
 
-The release configuration of your program has no symbolic debug information and is fully optimized. Debug information can be generated in .pdb files, [depending on the compiler options](#BKMK_symbols_release) that are used. Creating .pdb files can be useful if you later have to debug your release version.
+The release configuration of your program has no symbolic debug information and is fully optimized. For managed code and C++ code, debug information can be generated in .pdb files, [depending on the compiler options](#BKMK_symbols_release) that are used. Creating .pdb files can be useful if you later have to debug your release version.
 
 For more information about build configurations, see [Understand build configurations](../ide/understanding-build-configurations.md).
 
@@ -114,10 +112,10 @@ For detailed information on project settings for debug configurations in C# or V
    The compiler creates the symbol file(s) in the same folder as the executable or the main output file.
 
 ## <a name="see-also"></a>See also
- 
-[Specify symbol (.pdb) files and source files in the Visual Studio debugger](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)<br/>
-[Debugger settings and preparation](../debugger/debugger-settings-and-preparation.md)<br/>
-[Project settings for a C++ debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)<br/>
-[Project settings for a C# debug configuration](../debugger/project-settings-for-csharp-debug-configurations.md)<br/>
-[Project settings for a Visual Basic debug configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)<br/>
-[How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md)
+
+- [Specify symbol (.pdb) files and source files in the Visual Studio debugger](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)<br/>
+- [Debugger settings and preparation](../debugger/debugger-settings-and-preparation.md)<br/>
+- [Project settings for a C++ debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)<br/>
+- [Project settings for a C# debug configuration](../debugger/project-settings-for-csharp-debug-configurations.md)<br/>
+- [Project settings for a Visual Basic debug configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)<br/>
+- [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md)

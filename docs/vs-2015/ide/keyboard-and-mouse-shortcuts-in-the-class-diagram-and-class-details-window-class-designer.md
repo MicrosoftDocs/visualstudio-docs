@@ -1,14 +1,9 @@
 ---
 title: "Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.classdetails.window"
 helpviewer_keywords: 
@@ -18,7 +13,7 @@ ms.assetid: c12d8dac-9902-4fde-b721-2a8116da53b7
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,15 +22,15 @@ You can use the keyboard in addition to the mouse to perform navigational action
   
  **In this topic**  
   
--   [Using the Mouse in Class Designer](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md#MouseClassDesigner)  
+- [Using the Mouse in Class Designer](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md#MouseClassDesigner)  
   
--   [Using the Mouse in the Class Details Window](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md#MouseClassDetails)  
+- [Using the Mouse in the Class Details Window](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md#MouseClassDetails)  
   
--   [Using the Keyboard in Class Designer](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md#KeyboardClassDesigner)  
+- [Using the Keyboard in Class Designer](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md#KeyboardClassDesigner)  
   
--   [Using the Keyboard in the Class Details Window](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md#KeyboardClassDetails)  
+- [Using the Keyboard in the Class Details Window](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md#KeyboardClassDetails)  
   
-##  <a name="MouseClassDesigner"></a> Using the Mouse in Class Designer  
+## <a name="MouseClassDesigner"></a> Using the Mouse in Class Designer  
  The following mouse actions are supported in class diagrams:  
   
 |Mouse Combination|Context|Description|  
@@ -48,20 +43,20 @@ You can use the keyboard in addition to the mouse to perform navigational action
 |CTRL + Mouse Wheel|Class diagram|Zoom.|  
 |CTRL + Shift + click|Class diagram|Zoom.|  
   
-##  <a name="MouseClassDetails"></a> Using the Mouse in the Class Details Window  
+## <a name="MouseClassDetails"></a> Using the Mouse in the Class Details Window  
  Using a mouse, you can change the appearance of the Class Details window and the data it displays, in the following ways:  
   
--   Clicking any editable cell lets you edit the contents of that cell. Your changes are reflected in all places that data is stored or displayed, including in the Properties window and in source code.  
+- Clicking any editable cell lets you edit the contents of that cell. Your changes are reflected in all places that data is stored or displayed, including in the Properties window and in source code.  
   
--   Clicking any cell of a row causes the Properties window to display the properties for the element represented by that row.  
+- Clicking any cell of a row causes the Properties window to display the properties for the element represented by that row.  
   
--   To change the width of a column, drag the boundary on the right side of the column heading until the column is the width you want.  
+- To change the width of a column, drag the boundary on the right side of the column heading until the column is the width you want.  
   
--   You can expand or collapse compartment or property nodes by clicking the arrow symbols to the left of the row.  
+- You can expand or collapse compartment or property nodes by clicking the arrow symbols to the left of the row.  
   
--   The Class Details Window offers several buttons for creating new members in the current class and for navigating among the members’ compartments in the Class Details Window grid. For more information, see Class Details Window Buttons.  
+- The Class Details Window offers several buttons for creating new members in the current class and for navigating among the members’ compartments in the Class Details Window grid. For more information, see Class Details Window Buttons.  
   
-##  <a name="KeyboardClassDesigner"></a> Using the Keyboard in Class Designer  
+## <a name="KeyboardClassDesigner"></a> Using the Keyboard in Class Designer  
  The following keyboard actions are supported in class diagrams:  
   
 |Key|Context|Description|  
@@ -88,10 +83,10 @@ You can use the keyboard in addition to the mouse to perform navigational action
 |SHIFT+TAB|All contexts|Navigates to previous child within the same parent (supports wrapping).|  
 |SPACE|All contexts|Toggles selection on the current element.|  
   
-##  <a name="KeyboardClassDetails"></a> Using the Keyboard in the Class Details Window  
+## <a name="KeyboardClassDetails"></a> Using the Keyboard in the Class Details Window  
   
 > [!NOTE]
->  The following key bindings were chosen to specifically to mimic the experience of typing code.  
+> The following key bindings were chosen to specifically to mimic the experience of typing code.  
   
  Use the following keys to navigate the Class Details window:  
   
@@ -110,6 +105,3 @@ You can use the keyboard in addition to the mouse to perform navigational action
   
 ## See Also  
  [Creating and Configuring Type Members (Class Designer)](../ide/creating-and-configuring-type-members-class-designer.md)
-
-
-

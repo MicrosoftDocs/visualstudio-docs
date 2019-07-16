@@ -1,21 +1,16 @@
 ---
 title: "Visual Studio Shell | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "shell, Visual Studio"
   - "Visual Studio, shell"
 ms.assetid: cb124ef4-1a6b-4bfe-bfbf-295ef9c07f36
 caps.latest.revision: 15
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Visual Studio Shell
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,17 +34,17 @@ The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] shell is the primary agent o
   
 - Tracking shell-wide selection, context, and currency. The shell tracks the following types of items:  
   
-  -   The current project  
+  - The current project  
   
-  -   The current project item or ItemID the current <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>  
+  - The current project item or ItemID the current <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>  
   
-  -   The current selection for the **Properties** window or `SelectionContainer`  
+  - The current selection for the **Properties** window or `SelectionContainer`  
   
-  -   The UI context IDs or CmdUIGuids that control the visibility of commands, menus, and toolbars  
+  - The UI context IDs or CmdUIGuids that control the visibility of commands, menus, and toolbars  
   
-  -   The currently active elements such as the active window, document, and undo manager  
+  - The currently active elements such as the active window, document, and undo manager  
   
-  -   The User Context attributes that drive Dynamic Help  
+  - The User Context attributes that drive Dynamic Help  
   
   The shell also mediates communication among installed VSPackages and current services. It supports the core features of the shell and makes them available to all VSPackages integrated in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. These core features include the following items:  
   
@@ -85,4 +80,3 @@ The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] shell is the primary agent o
  <xref:Microsoft.VisualStudio.Shell.Interop.SVsShell>   
  <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>   
  [VSPackages](../../extensibility/internals/vspackages.md)
-

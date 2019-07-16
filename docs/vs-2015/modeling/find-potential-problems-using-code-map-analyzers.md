@@ -1,11 +1,8 @@
 ---
 title: "Find potential problems using code map analyzers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
 ms.topic: conceptual
 f1_keywords: 
   - "vs.progression.codemapanalyzers"
@@ -17,7 +14,7 @@ ms.assetid: 9dd799a7-f7eb-42ff-8612-b19dde7ff4eb
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Find potential problems using code map analyzers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,12 +40,9 @@ Run analyzers on code maps to help you identify code that might be overly comple
    Code map analyzers will continue to run after you apply them. If you change the map, any applied analyzers will automatically reprocess the updated map. To stop running an analyzer, on the map toolbar, choose **Layout**, **Analyzers**. Turn off the selected analyzer.  
   
 > [!TIP]
->  If you have a very large map, running an analyzer might cause an out of memory exception. If this occurs, edit the map to reduce its scope or generate a smaller one, and then run the analyzer.  
+> If you have a very large map, running an analyzer might cause an out of memory exception. If this occurs, edit the map to reduce its scope or generate a smaller one, and then run the analyzer.  
   
 ## See Also  
  [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)   
  [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)   
  [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)
-
-
-

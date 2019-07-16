@@ -1,17 +1,14 @@
 ---
 title: "Setting a Background Image on a Diagram | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: e334a24c-8521-4072-b50f-e59158dde145
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Setting a Background Image on a Diagram
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,21 +19,21 @@ In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visualization and Modeling SDK, 
   
 #### To set a background image for a generated designer  
   
-1.  Copy the image file that you want to use as the diagram's background into the Dsl\Resources directory for the current project.  
+1. Copy the image file that you want to use as the diagram's background into the Dsl\Resources directory for the current project.  
   
-2.  In **Solution Explorer**, right-click the Dsl\Resources folder, point to **Add**, and then click **Existing Item**.  
+2. In **Solution Explorer**, right-click the Dsl\Resources folder, point to **Add**, and then click **Existing Item**.  
   
-3.  In the **Add Existing Item** dialog box, browse to the Dsl\Resources folder.  
+3. In the **Add Existing Item** dialog box, browse to the Dsl\Resources folder.  
   
-4.  In the **Files of type** list, click **Image Files**.  
+4. In the **Files of type** list, click **Image Files**.  
   
-5.  Click the image file that you copied to the directory, and then click **Add**.  
+5. Click the image file that you copied to the directory, and then click **Add**.  
   
-6.  Right-click Dsl, and click **Properties** to open the properties of the Dsl project.  
+6. Right-click Dsl, and click **Properties** to open the properties of the Dsl project.  
   
-7.  On the **Resources** tab, click **This project does not contain a default resources file. Click here to create one.**  
+7. On the **Resources** tab, click **This project does not contain a default resources file. Click here to create one.**  
   
-8.  Add the image file to the resource file by dragging the picture from **Solution Explorer** into the resources window.  
+8. Add the image file to the resource file by dragging the picture from **Solution Explorer** into the resources window.  
   
 9. Open the File menu, and click the option to save the project properties.  
   
@@ -106,6 +103,3 @@ In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visualization and Modeling SDK, 
  [Customizing Text and Image Fields](../modeling/customizing-text-and-image-fields.md)   
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)   
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
-
-
-

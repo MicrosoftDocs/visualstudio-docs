@@ -1,17 +1,14 @@
 ---
 title: "Extend your DSL by using MEF | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 3e7be79a-53ab-4d79-863a-bef8d27839bd
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Extend your DSL by using MEF
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -20,7 +17,7 @@ You can extend your domain-specific language (DSL) by using Managed Extensibilit
   
  In addition, when you enable MEF in your DSL, it can be easier for you to write some of the features of your DSL, even if they are all built together with the DSL.  
   
- For more information about MEF, see [Managed Extensibility Framework (MEF)](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde).  
+ For more information about MEF, see [Managed Extensibility Framework (MEF)](https://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde).  
   
 ### To enable your DSL to be extended by MEF  
   
@@ -29,7 +26,7 @@ You can extend your domain-specific language (DSL) by using Managed Extensibilit
     File name: `CommandExtensionVSCT.tt`  
   
    > [!IMPORTANT]
-   >  Set the GUID in this file to be the same as the GUID CommandSetId that is defined in DslPackage\GeneratedCode\Constants.tt  
+   > Set the GUID in this file to be the same as the GUID CommandSetId that is defined in DslPackage\GeneratedCode\Constants.tt  
   
    ```  
    <#@ Dsl processor="DslDirectiveProcessor" requires="fileName='..\..\Dsl\DslDefinition.dsl'" #>  
@@ -128,21 +125,21 @@ You can extend your domain-specific language (DSL) by using Managed Extensibilit
   
    - This assembly usually has a name that ends with ".Dsl.dll".  
   
-   - If you have access to the DSL project, you can find the assembly file under the directory **Dsl\bin\\\\***  
+   - If you have access to the DSL project, you can find the assembly file under the directory **Dsl\\bin\\\***  
   
    - If you have access to the DSL VSIX file, you can find the assembly by changing the file name extension of the VSIX file to ".zip". Decompress the .zip file.  
   
 3. Add references to the following .NET assemblies:  
   
-   -   Microsoft.VisualStudio.Modeling.Sdk.11.0.dll  
+   - Microsoft.VisualStudio.Modeling.Sdk.11.0.dll  
   
-   -   Microsoft.VisualStudio.Modeling.Sdk.Diagrams.11.0.dll  
+   - Microsoft.VisualStudio.Modeling.Sdk.Diagrams.11.0.dll  
   
-   -   Microsoft.VisualStudio.Modeling.Sdk.Shell.11.0.dll  
+   - Microsoft.VisualStudio.Modeling.Sdk.Shell.11.0.dll  
   
-   -   System.ComponentModel.Composition.dll  
+   - System.ComponentModel.Composition.dll  
   
-   -   System.Windows.Forms.dll  
+   - System.Windows.Forms.dll  
   
 4. Create a VSIX project in the same solution. To do this, in the **New Project** dialog box, expand **Visual Basic** or **Visual C#**, click **Extensibility**, and then select **VSIX project**.  
   
@@ -156,7 +153,7 @@ You can extend your domain-specific language (DSL) by using Managed Extensibilit
   
    1. In **source.extension.vsixmanifest**, click **Add Reference**  
   
-   2. In the dialog box, click **Add Payload** and then locate the VSIX file of the DSL. The VSIX file is built in the DSL solution, in **DslPackage\bin\\\\***.  
+   2. In the dialog box, click **Add Payload** and then locate the VSIX file of the DSL. The VSIX file is built in the DSL solution, in **DslPackage\\bin\\\***.  
   
        This lets users install the DSL and your extension at the same time. If the user has already installed the DSL, only your extension will be installed.  
   
@@ -373,9 +370,6 @@ namespace MefExtension
   
 ## See Also  
  [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)   
- [Managed Extensibility Framework (MEF)](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)   
+ [Managed Extensibility Framework (MEF)](https://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)   
  [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)   
  [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md)
-
-
-

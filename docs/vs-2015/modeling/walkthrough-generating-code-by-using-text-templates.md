@@ -1,12 +1,9 @@
 ---
 title: "Walkthrough: Generating Code by using Text Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "walkthroughs [text templates], generating application code"
   - "walkthroughs [text templates]"
@@ -14,7 +11,7 @@ ms.assetid: 24602ade-baca-425e-a6ce-be09a2c7f7e1
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Walkthrough: Generating Code by using Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +24,7 @@ Code generation allows you to produce program code that is strongly typed, and y
  In this example project, a template reads a sample XML file, and generates classes that correspond to each type of node. In the hand-written code, you can use these classes to navigate the XML file. You can also run your application on any other files that use the same node types. The purpose of the sample XML file is to provide examples of all the node types that you want your application to deal with.  
   
 > [!NOTE]
->  The application [xsd.exe](http://go.microsoft.com/fwlink/?LinkId=178765), which is included with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], can generate strongly-typed classes from XML files. The template shown here is provided as an example.  
+> The application [xsd.exe](http://go.microsoft.com/fwlink/?LinkId=178765), which is included with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], can generate strongly-typed classes from XML files. The template shown here is provided as an example.  
   
  Here is the sample file:  
   
@@ -83,9 +80,9 @@ foreach (XmlNode artist in catalog.SelectNodes("artist"))
   
 ##### To create the project  
   
-1.  On the **File** menu click **New** and then click **Project**.  
+1. On the **File** menu click **New** and then click **Project**.  
   
-2.  Click the **Visual C#** node, and then in the **Templates** pane, click **Console Application.**  
+2. Click the **Visual C#** node, and then in the **Templates** pane, click **Console Application.**  
   
 ### Add a prototype XML file to the project  
  The purpose of this file is to provide samples of the XML node types that you want your application to be able to read. It could be a file that will be used for testing your application. The template will produce a C# class for each node type in this file.  
@@ -139,7 +136,7 @@ namespace MyProject
 2. In the **Add New Item** dialog box select **Text Template** from the **Templates** pane.  
   
    > [!NOTE]
-   >  Make sure that you add a Text Template, and not a Preprocessed Text Template.  
+   > Make sure that you add a Text Template, and not a Preprocessed Text Template.  
   
 3. In the file, in the template directive, change the `hostspecific` attribute to `true`.  
   
@@ -420,6 +417,3 @@ namespace MyProject
 ## See Also  
  [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)   
  [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)
-
-
-

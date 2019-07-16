@@ -1,8 +1,6 @@
 ---
 title: "CA1707: Identifiers should not contain underscores"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "IdentifiersShouldNotContainUnderscores"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 5fb539ef-c304-4323-90c0-b14386da9774
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

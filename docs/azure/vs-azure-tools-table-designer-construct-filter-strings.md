@@ -2,10 +2,8 @@
 title: Constructing filter strings for the table designer | Microsoft Docs
 description: Constructing filter strings for the table designer
 author: ghogen
-manager: douge
+manager: jillfra
 assetId: a1a10ea1-687a-4ee1-a952-6b24c2fe1a22
-ms.prod: visual-studio-dev15
-ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
@@ -44,45 +42,63 @@ When you filter on string properties, enclose the string constant in single quot
 
 The following example filters on the **PartitionKey** and **RowKey** properties; additional non-key properties could also be added to the filter string:
 
-    PartitionKey eq 'Partition1' and RowKey eq '00001'
+```
+PartitionKey eq 'Partition1' and RowKey eq '00001'
+```
 
 You can enclose each filter expression in parentheses, although it is not required:
 
-    (PartitionKey eq 'Partition1') and (RowKey eq '00001')
+```
+(PartitionKey eq 'Partition1') and (RowKey eq '00001')
+```
 
 Note that the Table service does not support wildcard queries, and they are not supported in the Table Designer either. However, you can perform prefix matching by using comparison operators on the desired prefix. The following example returns entities with a LastName property beginning with the letter 'A':
 
-    LastName ge 'A' and LastName lt 'B'
+```
+LastName ge 'A' and LastName lt 'B'
+```
 
 ## Filtering on Numeric Properties
 To filter on an integer or floating-point number, specify the number without quotation marks.
 
 This example returns all entities with an Age property whose value is greater than 30:
 
-    Age gt 30
+```
+Age gt 30
+```
 
 This example returns all entities with an AmountDue property whose value is less than or equal to 100.25:
 
-    AmountDue le 100.25
+```
+AmountDue le 100.25
+```
 
 ## Filtering on Boolean Properties
 To filter on a Boolean value, specify **true** or **false** without quotation marks.
 
 The following example returns all entities where the IsActive property is set to **true**:
 
-    IsActive eq true
+```
+IsActive eq true
+```
 
 You can also write this filter expression without the logical operator. In the following example, the Table service will also return all entities where IsActive is **true**:
 
-    IsActive
+```
+IsActive
+```
 
 To return all entities where IsActive is false, you can use the not operator:
 
-    not IsActive
+```
+not IsActive
+```
 
 ## Filtering on DateTime Properties
 To filter on a DateTime value, specify the **datetime** keyword, followed by the date/time constant in single quotation marks. The date/time constant must be in combined UTC format, as described in [Formatting DateTime Property Values](http://go.microsoft.com/fwlink/p/?LinkId=400449).
 
 The following example returns entities where the CustomerSince property is equal to July 10, 2008:
 
-    CustomerSince eq datetime'2008-07-10T00:00:00Z'
+```
+CustomerSince eq datetime'2008-07-10T00:00:00Z'
+```

@@ -1,21 +1,16 @@
 ---
 title: "Functions View - Instrumentation Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Function view"
 ms.assetid: 595d91c8-a42b-4644-85b8-39e8140a5dfe
 caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Functions View - Instrumentation Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -88,6 +83,3 @@ The Functions report view lists profiling data by function name.
  [Functions View](../profiling/functions-view-sampling-data.md)   
  [Functions View - Sampling](../profiling/functions-view-dotnet-memory-sampling-data.md)   
  [Functions View - Instrumentation](../profiling/functions-view-dotnet-memory-instrumentation-data.md)
-
-
-

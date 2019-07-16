@@ -1,19 +1,14 @@
 ---
 title: "Customizing IntelliSense for RequireJS | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 2be07ef8-9c08-444b-a21a-22a4fe6386a3
 caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Customizing IntelliSense for RequireJS
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,9 +19,9 @@ Starting with Visual Studio 2013 Update 4, support for the popular RequireJS Jav
   
  This topic describes how to:  
   
--   Customize RequireJS in ASP.NET projects  
+- Customize RequireJS in ASP.NET projects  
   
--   Customize RequireJS in JSProj projects, which are used to build Apache Cordova apps, Windows Store apps, and LightSwitch HTML apps  
+- Customize RequireJS in JSProj projects, which are used to build Apache Cordova apps, Windows Store apps, and LightSwitch HTML apps  
   
 ## Customize RequireJS in ASP.NET projects  
  Support for RequireJS is automatically enabled when a file named require.js is referenced by your current JavaScript file (For more information, see the Determining IntelliSense Context section in [JavaScript IntelliSense](../ide/javascript-intellisense.md)). In ASP.NET projects, referencing require.js is typically done using a /// \<reference/> directive within a _references.js file.  
@@ -60,6 +55,3 @@ Starting with Visual Studio 2013 Update 4, support for the popular RequireJS Jav
   
 ## See Also  
  [JavaScript IntelliSense](../ide/javascript-intellisense.md)
-
-
-

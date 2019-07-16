@@ -1,8 +1,6 @@
 ---
 title: "CA1001: Types that own disposable fields should be disposable"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1001"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: c85c126c-2b16-4505-940a-b5ddf873fb22
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

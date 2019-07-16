@@ -11,9 +11,7 @@ helpviewer_keywords:
 ms.assetid: d15e4d31-2839-48d9-9e0e-2e73404d82a2
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -26,23 +24,23 @@ This walkthrough demonstrates how to separate dataset and `TableAdapter` code in
 
 During this walkthrough, you perform the following steps:
 
--   Create a new n-tier solution that contains multiple projects.
+- Create a new n-tier solution that contains multiple projects.
 
--   Add two class library projects to the n-tier solution.
+- Add two class library projects to the n-tier solution.
 
--   Create a typed dataset by using the **Data Source Configuration Wizard**.
+- Create a typed dataset by using the **Data Source Configuration Wizard**.
 
--   Separate the generated [TableAdapters](create-and-configure-tableadapters.md) and dataset code into discrete projects.
+- Separate the generated [TableAdapters](create-and-configure-tableadapters.md) and dataset code into discrete projects.
 
--   Create a Windows Communication Foundation (WCF) service to call into the data access tier.
+- Create a Windows Communication Foundation (WCF) service to call into the data access tier.
 
--   Create functions in the service to retrieve data from the data access tier.
+- Create functions in the service to retrieve data from the data access tier.
 
--   Create a Windows Forms application to serve as the presentation tier.
+- Create a Windows Forms application to serve as the presentation tier.
 
--   Create Windows Forms controls that are bound to the data source.
+- Create Windows Forms controls that are bound to the data source.
 
--   Write code to populate the data tables.
+- Write code to populate the data tables.
 
 ![link to video](../data-tools/media/playvideo.gif) For a video version of this topic, see [Video How to: Creating an n-tier data application](http://go.microsoft.com/fwlink/?LinkId=115188).
 
@@ -297,7 +295,7 @@ We'll set the **PresentationTier** project to be the startup project for the sol
 
 ### To set the new presentation tier project as the startup project
 
--   In **Solution Explorer**, right-click **PresentationTier** and click **Set as StartUp Project**.
+- In **Solution Explorer**, right-click **PresentationTier** and click **Set as StartUp Project**.
 
 ## Add References to the Presentation Tier
  The client application, PresentationTier requires a service reference to the data service in order to access the methods in the service. In addition, a reference to the dataset is required to enable type sharing by the WCF service. Until you enable type sharing through the data service, code added to the partial dataset class is not available to the presentation tier. Because you typically add code, such as validation code to the row and column changing events of a data table, it's likely that you'll want to access this code from the client.
@@ -371,9 +369,9 @@ Run the application by pressing **F5**. The data from the `Customers` and `Order
 ## Next steps
  Depending on your application requirements, there are several steps that you may want to perform after you save related data in the Windows-based application. For example, you could make the following enhancements to this application:
 
--   Add validation to the dataset.
+- Add validation to the dataset.
 
--   Add additional methods to the service for updating data back to the database.
+- Add additional methods to the service for updating data back to the database.
 
 ## See also
 

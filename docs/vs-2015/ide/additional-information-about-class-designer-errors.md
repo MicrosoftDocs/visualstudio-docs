@@ -1,14 +1,9 @@
 ---
 title: "Additional Information About Class Designer Errors | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.classdesigner.CPlusPlusViewInDiagramNoTypeFound"
   - "vs.classdesigner.CPlusPlusNoTypeFound"
@@ -33,7 +28,7 @@ ms.assetid: 79d70e70-704c-4255-ab68-c10d6949470e
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Additional Information About Class Designer Errors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,6 +45,3 @@ Class Designer does not track the location of your source files, so modifying yo
   
 ## See Also  
  [Designing and Viewing Classes and Types](../ide/designing-and-viewing-classes-and-types.md)
-
-
-

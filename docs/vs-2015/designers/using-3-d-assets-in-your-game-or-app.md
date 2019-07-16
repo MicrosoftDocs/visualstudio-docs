@@ -1,14 +1,9 @@
 ---
 title: "Using 3-D Assets in Your Game or App | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 f1_keywords: 
   - "VC.Project.ImageContentTask.ContentOutput"
   - "VC.Project.MeshContentTask.ContentOutput"
@@ -20,7 +15,7 @@ ms.assetid: ea587909-e434-46a8-abf8-9b3e95a58b4f
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Using 3-D Assets in Your Game or App
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,9 +29,9 @@ This article describes how you can use [!INCLUDE[vsprvs](../includes/vsprvs-md.m
   
 #### To add the build customizations to your project  
   
-1.  In **Solution Explorer**, open the shortcut menu for the project, and then choose **Build Dependencies**, **Build Customizations**. The **Visual C++ Build Customizations Files** dialog box is displayed.  
+1. In **Solution Explorer**, open the shortcut menu for the project, and then choose **Build Dependencies**, **Build Customizations**. The **Visual C++ Build Customizations Files** dialog box is displayed.  
   
-2.  Under **Available Build Customization Files**, select the check boxes that correspond to the asset types that you want to use in your project, as described in this table:  
+2. Under **Available Build Customization Files**, select the check boxes that correspond to the asset types that you want to use in your project, as described in this table:  
   
     |Asset type|Build customization Name|  
     |----------------|------------------------------|  
@@ -44,7 +39,7 @@ This article describes how you can use [!INCLUDE[vsprvs](../includes/vsprvs-md.m
     |3-D Models|**MeshContentTask(.targets, .props)**|  
     |Shaders|**ShaderGraphContentTask(.targets, .props)**|  
   
-3.  Choose the **OK** button.  
+3. Choose the **OK** button.  
   
 ## Including assets in your build  
  Now that your project knows about the different kinds of 3-D assets that you want to use, the next step is to tell it which files are 3-D assets, and which kinds of assets they are.  
@@ -58,7 +53,7 @@ This article describes how you can use [!INCLUDE[vsprvs](../includes/vsprvs-md.m
 3. Under **Configuration Properties**, choose **General**, and then in the property grid, under **General**, set the **Item Type** property to the appropriate content pipeline item type. For example, for an image or texture file, choose **Image Content Pipeline**.  
   
    > [!IMPORTANT]
-   >  By default, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] assumes that many kinds of image files should be categorized by using the **Image** item type that's built into [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Therefore, you have to change the **Item Type** property of each image that you want to be processed by the image content pipeline. Other types of content pipeline source files for 3-D models and visual shader graphics default to the correct **Item Type**.  
+   > By default, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] assumes that many kinds of image files should be categorized by using the **Image** item type that's built into [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Therefore, you have to change the **Item Type** property of each image that you want to be processed by the image content pipeline. Other types of content pipeline source files for 3-D models and visual shader graphics default to the correct **Item Type**.  
   
 4. Choose the **OK** button.  
   
@@ -75,13 +70,13 @@ This article describes how you can use [!INCLUDE[vsprvs](../includes/vsprvs-md.m
   
 #### To configure content pipeline properties  
   
-1.  In **Solution Explorer**, in your project, open the shortcut menu for the asset file, and then choose **Properties**. The asset's **Property Page** dialog box is displayed.  
+1. In **Solution Explorer**, in your project, open the shortcut menu for the asset file, and then choose **Properties**. The asset's **Property Page** dialog box is displayed.  
   
-2.  Make sure that the **Configuration** and **Platform** properties are set to the values that you want your changes to apply to.  
+2. Make sure that the **Configuration** and **Platform** properties are set to the values that you want your changes to apply to.  
   
-3.  Under **Configuration Properties**, choose the content pipeline node—for example, **Image Content Pipeline** for texture and image assets—and then in the property grid, set the properties to the appropriate values. For example, to generate mipmaps for a texture asset at build time, set the **Generate Mips** property to **Yes**.  
+3. Under **Configuration Properties**, choose the content pipeline node—for example, **Image Content Pipeline** for texture and image assets—and then in the property grid, set the properties to the appropriate values. For example, to generate mipmaps for a texture asset at build time, set the **Generate Mips** property to **Yes**.  
   
-4.  Choose the **OK** button.  
+4. Choose the **OK** button.  
   
 ### Image content pipeline configuration  
  When you use the image content pipeline tool to build a texture asset, you can compress the texture in various ways, indicate whether MIP levels should be generated at build time, and change the name of the output file.  
@@ -206,6 +201,3 @@ cbuffer MiscVars : register(b3)
 |[How to: Export a Texture for Use with Direct2D or Javascipt Apps](../designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md)|Describes how to use the Image Content Pipeline to export a texture that can be used in a Direct2D or JavaScript app.|  
 |[Working with 3-D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Describes the editing tools that Visual Studio provides for creating and manipulating 3-D assets, which include textures and images, 3-D models, and shaders.|  
 |[How to: Export a Shader](../designers/how-to-export-a-shader.md)|Describes how to export a shader from the Shader Designer.|
-
-
-

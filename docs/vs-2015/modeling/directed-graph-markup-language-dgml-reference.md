@@ -1,17 +1,14 @@
 ---
 title: "Directed Graph Markup Language (DGML) reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 ms.assetid: cc3e4ae7-60fa-4e22-9227-98020b480b73
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Directed Graph Markup Language (DGML) reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -21,9 +18,9 @@ Directed Graph Markup Language (DGML) describes information used for visualizati
  Note that some versions of Visual Studio support only a subset of DGML capabilities, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
 > [!NOTE]
->  When you edit a .dgml file, IntelliSense helps you identify attributes that are available for each element and their values. To specify color in an attribute, use names for common colors, such as "Blue", or ARGB hexadecimal values, such as "#ffa0b1c3". DGML uses a small subset of Windows Presentation Foundation (WPF) color definition formats. For more information, see [Colors Class](http://go.microsoft.com/fwlink/?LinkId=182345).  
+> When you edit a .dgml file, IntelliSense helps you identify attributes that are available for each element and their values. To specify color in an attribute, use names for common colors, such as "Blue", or ARGB hexadecimal values, such as "#ffa0b1c3". DGML uses a small subset of Windows Presentation Foundation (WPF) color definition formats. For more information, see [Colors Class](http://go.microsoft.com/fwlink/?LinkId=182345).  
   
-##  <a name="DGML"></a> DGML syntax  
+## <a name="DGML"></a> DGML syntax  
  The following table describes kinds of elements that are used in DGML:  
   
 - `<DirectedGraph></DirectedGraph>`  
@@ -67,7 +64,7 @@ Directed Graph Markup Language (DGML) describes information used for visualizati
    This optional element contains a list of `<Node/>` elements, which define nodes on the map. For more information, see the `<Node/>` element.  
   
   > [!NOTE]
-  >  When you reference an undefined node in a `<Link/>` element, the map creates a `<Node/>` element automatically.  
+  > When you reference an undefined node in a `<Link/>` element, the map creates a `<Node/>` element automatically.  
   
    Example:  
   
@@ -148,7 +145,7 @@ Directed Graph Markup Language (DGML) describes information used for visualizati
    This element defines a single link that connects a source node to a target node. It appears within the `<Links></Links>` element list.  
   
   > [!NOTE]
-  >  If this element references an undefined node, the map document automatically creates a node that has the specified attributes, if any.  
+  > If this element references an undefined node, the map document automatically creates a node that has the specified attributes, if any.  
   
    This element must include the following attributes:  
   
@@ -299,7 +296,7 @@ Directed Graph Markup Language (DGML) describes information used for visualizati
   </DirectedGraph>  
   ```  
   
-###  <a name="AddAlias"></a> Aliases for commonly-used paths  
+### <a name="AddAlias"></a> Aliases for commonly-used paths  
  Replacing commonly-used paths with aliases helps reduce the size of the .dgml file and the time required to load or save the file. To create an alias, add a `<Paths></Paths>` section at the end of the .dgml file. In this section, add a `<Path/>` element to define an alias for the path:  
   
 ```xml  
@@ -323,6 +320,3 @@ Directed Graph Markup Language (DGML) describes information used for visualizati
  [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)   
  [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)   
  [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)
-
-
-

@@ -1,17 +1,14 @@
 ---
 title: "Runtime Activity Designers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 ms.assetid: be18aa36-7909-4dd6-a786-b46959675a58
 caps.latest.revision: 3
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Runtime Activity Designers
 Runtime activity designers are used to persist and terminate workflow activities. The topics contained in this section provide guidance on how to use the [!INCLUDE[wfd2](../includes/wfd2-md.md)] activity designers.  

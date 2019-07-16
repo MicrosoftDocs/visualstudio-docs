@@ -9,9 +9,7 @@ helpviewer_keywords:
 ms.assetid: 0ba0363b-7f50-4bde-a919-0e3bce7bc115
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Edit load patterns to model virtual user activities
 
@@ -42,7 +40,6 @@ The load pattern is a component of a scenario. The scenarios, together with thei
 
 > [!NOTE]
 > If the total test duration is shorter than the time that is required to step up to the maximum user load, then the test stops after the elapsed duration and does not reach the **Maximum User Count** target.
-
 
  You can use the Step goal to increase the load until the server reaches a point that where performance diminishes significantly. As load increases, the server will eventually run out of resources. The step load is a good way to determine the number of users at which this occurs. With the stepping load, you also have to monitor agent resources closely to make sure that the agents can generate the desired load.
 
@@ -118,36 +115,34 @@ The load pattern is a component of a scenario. The scenarios, together with thei
 > [!NOTE]
 > For a full list of the load test scenario properties and their descriptions, see [Load test scenario properties](../test/load-test-scenario-properties.md).
 
-
  A load pattern specifies the number of virtual users active during a load test, and the rate at which new users are added. You can choose from the three available patterns: step pattern, constant and goal based. For more information, see [Specify the number of virtual users with load patterns in a load test scenario](../test/edit-load-patterns-to-model-virtual-user-activities.md).
 
 > [!NOTE]
 > You can also change your load properties programmatically by using a load test plug-in. For more information, see [How to: Create a load test plug-in](../test/how-to-create-a-load-test-plug-in.md).
 
-
 ### To change the load pattern
 
-1.  Open a load test.
+1. Open a load test.
 
-2.  In the **Load Test Editor**, in the *Scenarios* folder, expand the scenario you want to edit the load pattern for and choose the load pattern for the scenario.
+2. In the **Load Test Editor**, in the *Scenarios* folder, expand the scenario you want to edit the load pattern for and choose the load pattern for the scenario.
 
     > [!NOTE]
     > The wording of the load pattern node, as it is displayed in the scenario tree of your load test, reflects the load profile you that you chose when you created the load test. It can be either **Constant Load Profile** or **Step Load Profile**.
 
-3.  Press **F4** to display the **Properties** window.
+3. Press **F4** to display the **Properties** window.
 
      The **Load Pattern** and the **Parameters** categories are displayed in the **Properties** window.
 
-4.  (Optional) Change the **Pattern** property in the **Load Pattern** category.
+4. (Optional) Change the **Pattern** property in the **Load Pattern** category.
 
      Your choices for the **Pattern** property are **Step**, **Constant**, and **Goal Based**. For more information about the load pattern types, see [Specify the number of virtual users with load patterns in a load test scenario](../test/edit-load-patterns-to-model-virtual-user-activities.md).
 
-5.  (Optional) In the **Parameters** category, change the values.
+5. (Optional) In the **Parameters** category, change the values.
 
     > [!NOTE]
     > The values you can set for **Parameters** differ according to the value that was selected for **Pattern** property.
 
-6.  After you have finished changing the properties, choose **Save** on the **File** menu. You can then run your load test with the new load pattern.
+6. After you have finished changing the properties, choose **Save** on the **File** menu. You can then run your load test with the new load pattern.
 
 ## See also
 

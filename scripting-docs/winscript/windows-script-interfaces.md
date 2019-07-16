@@ -2,7 +2,6 @@
 title: "Windows Script Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -57,21 +56,21 @@ The following illustration shows the interaction between a Windows Script host a
 
 The steps involved in the interaction between the host and engine are given in the following list.
 
-1.  Create a project. The host loads a project or document. (This step is not particular to Windows Script, but is included here for completeness.)
+1. Create a project. The host loads a project or document. (This step is not particular to Windows Script, but is included here for completeness.)
 
-2.  Create the Windows Script engine. The host calls `CoCreateInstance` to create a new Windows Script engine, specifying the class identifier (CLSID) of the specific scripting engine to use. For example, the HTML browser of Internet Explorer receives the scripting engine's class identifier through the CLSID= attribute of the HTML \<OBJECT> tag.
+2. Create the Windows Script engine. The host calls `CoCreateInstance` to create a new Windows Script engine, specifying the class identifier (CLSID) of the specific scripting engine to use. For example, the HTML browser of Internet Explorer receives the scripting engine's class identifier through the CLSID= attribute of the HTML \<OBJECT> tag.
 
-3.  Load the script. If the script contents have been persisted, the host calls the script engine's `IPersist*::Load` method to feed it the script storage, stream, or property bag. Otherwise, the host uses either the `IPersist*::InitNew` or [IActiveScriptParse::InitNew](../winscript/reference/iactivescriptparse-initnew.md) method to create a null script. A host that maintains a script as text can use [IActiveScriptParse::ParseScriptText](../winscript/reference/iactivescriptparse-parsescripttext.md) to feed the scripting engine the text of the script, after calling `IActiveScriptParse::InitNew`.
+3. Load the script. If the script contents have been persisted, the host calls the script engine's `IPersist*::Load` method to feed it the script storage, stream, or property bag. Otherwise, the host uses either the `IPersist*::InitNew` or [IActiveScriptParse::InitNew](../winscript/reference/iactivescriptparse-initnew.md) method to create a null script. A host that maintains a script as text can use [IActiveScriptParse::ParseScriptText](../winscript/reference/iactivescriptparse-parsescripttext.md) to feed the scripting engine the text of the script, after calling `IActiveScriptParse::InitNew`.
 
-4.  Add named items. For each top-level named item (such as pages and forms) imported into the scripting engine's name space, the host calls the [IActiveScript::AddNamedItem](../winscript/reference/iactivescript-addnameditem.md) method to create an entry in the engine's name space. This step is not necessary if top-level named items are already part of the persistent state of the script loaded in step 3. A host does not use `IActiveScript::AddNamedItem` to add sublevel named items (such as controls on an HTML page); rather, the engine indirectly obtains sublevel items from top-level items by using the host's `ITypeInfo` and `IDispatch` interfaces.
+4. Add named items. For each top-level named item (such as pages and forms) imported into the scripting engine's name space, the host calls the [IActiveScript::AddNamedItem](../winscript/reference/iactivescript-addnameditem.md) method to create an entry in the engine's name space. This step is not necessary if top-level named items are already part of the persistent state of the script loaded in step 3. A host does not use `IActiveScript::AddNamedItem` to add sublevel named items (such as controls on an HTML page); rather, the engine indirectly obtains sublevel items from top-level items by using the host's `ITypeInfo` and `IDispatch` interfaces.
 
-5.  Run the script. The host causes the engine to start running the script by setting the SCRIPTSTATE_CONNECTED flag in the [IActiveScript::SetScriptState](../winscript/reference/iactivescript-setscriptstate.md) method. This call would likely perform any scripting engine construction work, including static binding, hooking up to events (see below), and executing code, in a way similar to a scripted `main()` function.
+5. Run the script. The host causes the engine to start running the script by setting the SCRIPTSTATE_CONNECTED flag in the [IActiveScript::SetScriptState](../winscript/reference/iactivescript-setscriptstate.md) method. This call would likely perform any scripting engine construction work, including static binding, hooking up to events (see below), and executing code, in a way similar to a scripted `main()` function.
 
-6.  Get item information. Each time the script engine needs to associate a symbol with a top-level item, it calls the [IActiveScriptSite::GetItemInfo](../winscript/reference/iactivescriptsite-getiteminfo.md) method, which returns information about the given item.
+6. Get item information. Each time the script engine needs to associate a symbol with a top-level item, it calls the [IActiveScriptSite::GetItemInfo](../winscript/reference/iactivescriptsite-getiteminfo.md) method, which returns information about the given item.
 
-7.  Hook up events. Before starting the actual script, the scripting engine connects to the events of all the relevant objects through the `IConnectionPoint` interface.
+7. Hook up events. Before starting the actual script, the scripting engine connects to the events of all the relevant objects through the `IConnectionPoint` interface.
 
-8.  Invoke properties and methods. As the script runs, the scripting engine realizes references to methods and properties on named objects through `IDispatch::Invoke` or other standard OLE binding mechanisms.
+8. Invoke properties and methods. As the script runs, the scripting engine realizes references to methods and properties on named objects through `IDispatch::Invoke` or other standard OLE binding mechanisms.
 
 ## Windows Script Terms
 

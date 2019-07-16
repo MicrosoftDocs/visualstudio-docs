@@ -1,14 +1,9 @@
 ---
 title: "CvInitProvider Function | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "cvmarkers/CvInitProvider"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: ba1863ad-e35f-4d34-a2f2-5e68957d1915
 caps.latest.revision: 8
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # CvInitProvider Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,6 +43,3 @@ HRESULT CvInitProvider(
   
 ## See Also  
  [C++ Library Reference](../profiling/cpp-library-reference.md)
-
-
-

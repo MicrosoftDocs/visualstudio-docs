@@ -1,11 +1,8 @@
 ---
 title: "Choose Operation Dialog Box (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "System.Workflow.Activities.Design.OperationPickerDialog.UI"
@@ -13,7 +10,7 @@ ms.assetid: bc3ec902-7797-494e-af48-e70c97eb6779
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Choose Operation Dialog Box (Legacy)
 This topic describes how use the **Choose Operation** dialog box in the legacy [!INCLUDE[wfd1](../includes/wfd1-md.md)]. Use the legacy [!INCLUDE[wfd2](../includes/wfd2-md.md)] when you need to target either the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)].  
@@ -33,7 +30,7 @@ This topic describes how use the **Choose Operation** dialog box in the legacy [
 |**Permissions**|Tab containing the <xref:System.Workflow.Activities.OperationInfoBase.PrincipalPermissionName%2A> and <xref:System.Workflow.Activities.OperationInfoBase.PrincipalPermissionRole%2A> properties of users that are allowed to call that operation. For example, if only users from the Administrators group were allowed to call that operation, then you would write "Administrators" in the **Role** text box.<br /><br /> This tab is enabled for both operations created through the **ChooseOperation** dialog box and operations that were imported through the **Import** button.|  
   
 > [!NOTE]
->  The **Choose Operation** dialog box shows only contracts or operations that are used by other <xref:System.Workflow.Activities.SendActivity> activities in the workflow. Similarly, the **Choose Operation** dialog box for <xref:System.Workflow.Activities.ReceiveActivity> activities shows only contracts or operations that are used by other **ReceiveActivity** activities in the workflow.  
+> The **Choose Operation** dialog box shows only contracts or operations that are used by other <xref:System.Workflow.Activities.SendActivity> activities in the workflow. Similarly, the **Choose Operation** dialog box for <xref:System.Workflow.Activities.ReceiveActivity> activities shows only contracts or operations that are used by other **ReceiveActivity** activities in the workflow.  
   
 ## See Also  
  [How to: Implement a WCF Contract Operation (Legacy)](../workflow-designer/how-to-implement-a-windows-communication-foundation-contract-operation-legacy.md)   

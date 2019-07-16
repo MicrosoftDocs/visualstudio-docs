@@ -1,11 +1,8 @@
 ---
 title: "Using the Legacy Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 helpviewer_keywords: 
   - "activities, configuring"
@@ -18,7 +15,7 @@ ms.assetid: 2fea8a05-6e58-423d-94bf-a822b15ffb80
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Using the Legacy Activity Designer
 This topic describes how to use the activity designer in the legacy [!INCLUDE[wfd1](../includes/wfd1-md.md)]. Use the legacy designer when targeting the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)].  
@@ -32,9 +29,9 @@ This topic describes how to use the activity designer in the legacy [!INCLUDE[wf
   
 2. Select the **Activity** or **Activity (with code separation)** template.  
   
-   1.  Use the **Activity** template to create an activity with the activity definition and the user code in same code file.  
+   1. Use the **Activity** template to create an activity with the activity definition and the user code in same code file.  
   
-   2.  Use the **Activity (with code separation)** template to create an activity with the activity definition expressed as workflow markup and the user code in a separate code file.  
+   2. Use the **Activity (with code separation)** template to create an activity with the activity definition expressed as workflow markup and the user code in a separate code file.  
   
 3. Type an activity name or keep the default name, and then click **Add**.  
   

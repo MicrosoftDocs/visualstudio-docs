@@ -1,19 +1,16 @@
 ---
 title: "Understanding Models, Classes and Relationships | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language, models"
 ms.assetid: 2ecd569c-b369-41ea-b78e-a61b62e2e4e9
 caps.latest.revision: 37
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Understanding Models, Classes and Relationships
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,13 +59,13 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
   
  To rearrange the DSL Definition diagram, you can:  
   
--   Swap main and reference views by using the **Bring Tree Here** and **Split Tree** commands. Right-click a single domain class to see these commands.  
+- Swap main and reference views by using the **Bring Tree Here** and **Split Tree** commands. Right-click a single domain class to see these commands.  
   
--   Re-order the domain classes and shape classes by pressing Ctrl+Up and Ctrl+Down.  
+- Re-order the domain classes and shape classes by pressing Ctrl+Up and Ctrl+Down.  
   
--   Collapse or expand classes using the icon at the upper-right of each shape.  
+- Collapse or expand classes using the icon at the upper-right of each shape.  
   
--   Collapse parts of the tree by clicking the minus sign (-) at the bottom of a domain class.  
+- Collapse parts of the tree by clicking the minus sign (-) at the bottom of a domain class.  
   
 ## Inheritance  
  Domain classes can be defined using inheritance. To create an inheritance derivation, click the Inheritance tool, click the derived class, and then click the base class. A model element has all the properties that are defined on its own domain class, together with all the properties inherited from the base class. It also inherits its roles in relationships.  
@@ -94,7 +91,7 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
  When a model is saved to file in XML form, embedded elements are nested inside their parents, unless you have customized the serialization.  
   
 > [!NOTE]
->  Embedding is not the same as inheritance. Children in an embedding relationship do not inherit the parent's properties. An embedding is a type of link between model elements. Inheritance is a relationship between classes, and does not create links between model elements.  
+> Embedding is not the same as inheritance. Children in an embedding relationship do not inherit the parent's properties. An embedding is a type of link between model elements. Inheritance is a relationship between classes, and does not create links between model elements.  
   
 ### Embedding rules  
  Every element in an instance model must be the target of exactly one embedding link, except for the root of the model.  
@@ -151,7 +148,4 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
   
 ## See Also  
  [Domain Relationships in the Generated API](../misc/domain-relationships-in-the-generated-api.md)   
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
-
-
-
+ [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

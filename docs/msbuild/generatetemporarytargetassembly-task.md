@@ -1,15 +1,13 @@
 ---
 title: "GenerateTemporaryTargetAssembly Task | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "reference"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "build process [WPF MSBuild], XAML page refers to a locally declared type"
   - "GenerateTemporaryTargetAssembly task [WPF MSBuild]"
   - "GenerateTemporaryTargetAssembly task [WPF MSBuild], parameters"
@@ -17,15 +15,15 @@ helpviewer_keywords:
 ms.assetid: 92b6539c-6897-45e0-8989-0c234bbfe782
 author: mikejo5000
 ms.author: mikejo
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # GenerateTemporaryTargetAssembly task
-The <xref:Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly> task generates an assembly if at least one [!INCLUDE[TLA#tla_xaml](../msbuild/includes/tlasharptla_xaml_md.md)] page in a project references a type that is declared locally in that project. The generated assembly is removed after the build process is completed, or if the build process fails.  
-  
-## Task parameters  
-  
+The <xref:Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly> task generates an assembly if at least one [!INCLUDE[TLA#tla_xaml](../msbuild/includes/tlasharptla_xaml_md.md)] page in a project references a type that is declared locally in that project. The generated assembly is removed after the build process is completed, or if the build process fails.
+
+## Task parameters
+
 | Parameter | Description |
 |--------------------------| - |
 | `AssemblyName` | Required **String** parameter.<br /><br /> Specifies the short name of the assembly that is generated for a project and is also the name of the target assembly that is temporarily generated. For example, if a project generates a [!INCLUDE[TLA#tla_mswin](../code-quality/includes/tlasharptla_mswin_md.md)] executable whose name is *WinExeAssembly.exe*, the **AssemblyName** parameter has a value of **WinExeAssembly**. |
@@ -37,39 +35,39 @@ The <xref:Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly> task ge
 | `MSBuildBinPath` | Required **String** parameter.<br /><br /> Specifies the location of *MSBuild.exe*, which is required to compile the temporary target assembly. |
 | `ReferencePath` | Optional **ITaskItem[]** parameter.<br /><br /> Specifies a list of assemblies, by path and file name, that are referenced by the types that are compiled into the temporary target assembly. |
 | `ReferencePathTypeName` | Required **String** parameter.<br /><br /> Specifies the parameter that is used by the compilation target (**CompileTargetName**) parameter that specifies the list of assembly references (**ReferencePath**). The appropriate value is **ReferencePath**. |
-  
-## Remarks  
- The first markup compilation pass, which is run by the [MarkupCompilePass1](../msbuild/markupcompilepass1-task.md), compiles [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files to binary format. Consequently, the compiler needs a list of the referenced assemblies that contain the types that are used by the [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files. However, if a [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] file uses a type that is defined in the same project, a corresponding assembly for that project is not created until the project is built. Therefore, an assembly reference cannot be provided during the first markup compilation pass.  
-  
- Instead, **MarkupCompilePass1** defers the conversion of [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files that contain references to types in the same project to a second markup compilation pass, which is executed by the [MarkupCompilePass2](../msbuild/markupcompilepass2-task.md). Before **MarkupCompilePass2** is executed, a temporary assembly is generated. This assembly contains the types that are used by the [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files whose markup compilation pass was deferred. A reference to the generated assembly is provided to **MarkupCompilePass2** when it runs to allow the deferred compilation [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files to be converted to binary format.  
-  
-## Example  
- The following example generates a temporary assembly because *Page1.xaml* contains a reference to a type that is in the same project.  
-  
-```xml  
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-  <UsingTask  
-    TaskName="Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly"   
-    AssemblyFile="C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\PresentationBuildTasks.dll" />  
-  <Target Name="GenerateTemporaryTargetAssemblyTask">  
-    <GenerateTemporaryTargetAssembly  
-      AssemblyName="WPFMSBuildSample"  
-      CompileTargetName="CoreCompile"  
-      CompileTypeName="Compile"  
-      CurrentProject="FullBuild.proj"  
-      GeneratedCodeFiles="obj\debug\app.g.cs;obj\debug\Page1.g.cs;obj\debug\Page2.g.cs"  
-      ReferencePath="c:\windows\Microsoft.net\Framework\v2.0.50727\System.dll;C:\Program Files\Reference Assemblies\Microsoft\WinFx\v3.0\PresentationCore.dll;C:\Program Files\Reference Assemblies\Microsoft\WinFx\v3.0\PresentationFramework.dll;C:\Program Files\Reference Assemblies\Microsoft\WinFx\v3.0\WindowsBase.dll"  
-      IntermediateOutputPath=".\obj\debug\"  
-      MSBuildBinPath="$(MSBuildBinPath)"  
-      ReferencePathTypeName="ReferencePath"/>  
-  </Target>  
-</Project>  
-```  
-  
-## See also  
- [WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)   
- [Task reference](../msbuild/wpf-msbuild-task-reference.md)   
- [MSBuild reference](../msbuild/msbuild-reference.md)   
- [Task reference](../msbuild/msbuild-task-reference.md)   
- [Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)   
- [WPF XAML browser applications overview](/dotnet/framework/wpf/app-development/wpf-xaml-browser-applications-overview)
+
+## Remarks
+The first markup compilation pass, which is run by the [MarkupCompilePass1](../msbuild/markupcompilepass1-task.md), compiles [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files to binary format. Consequently, the compiler needs a list of the referenced assemblies that contain the types that are used by the [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files. However, if a [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] file uses a type that is defined in the same project, a corresponding assembly for that project is not created until the project is built. Therefore, an assembly reference cannot be provided during the first markup compilation pass.
+
+Instead, **MarkupCompilePass1** defers the conversion of [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files that contain references to types in the same project to a second markup compilation pass, which is executed by the [MarkupCompilePass2](../msbuild/markupcompilepass2-task.md). Before **MarkupCompilePass2** is executed, a temporary assembly is generated. This assembly contains the types that are used by the [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files whose markup compilation pass was deferred. A reference to the generated assembly is provided to **MarkupCompilePass2** when it runs to allow the deferred compilation [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files to be converted to binary format.
+
+## Example
+The following example generates a temporary assembly because *Page1.xaml* contains a reference to a type that is in the same project.
+
+```xml
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask
+    TaskName="Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly"
+    AssemblyFile="C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\PresentationBuildTasks.dll" />
+  <Target Name="GenerateTemporaryTargetAssemblyTask">
+    <GenerateTemporaryTargetAssembly
+      AssemblyName="WPFMSBuildSample"
+      CompileTargetName="CoreCompile"
+      CompileTypeName="Compile"
+      CurrentProject="FullBuild.proj"
+      GeneratedCodeFiles="obj\debug\app.g.cs;obj\debug\Page1.g.cs;obj\debug\Page2.g.cs"
+      ReferencePath="c:\windows\Microsoft.net\Framework\v2.0.50727\System.dll;C:\Program Files\Reference Assemblies\Microsoft\WinFx\v3.0\PresentationCore.dll;C:\Program Files\Reference Assemblies\Microsoft\WinFx\v3.0\PresentationFramework.dll;C:\Program Files\Reference Assemblies\Microsoft\WinFx\v3.0\WindowsBase.dll"
+      IntermediateOutputPath=".\obj\debug\"
+      MSBuildBinPath="$(MSBuildBinPath)"
+      ReferencePathTypeName="ReferencePath"/>
+  </Target>
+</Project>
+```
+
+## See also
+- [WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)
+- [Task reference](../msbuild/wpf-msbuild-task-reference.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)
+- [WPF XAML browser applications overview](/dotnet/framework/wpf/app-development/wpf-xaml-browser-applications-overview)

@@ -1,19 +1,14 @@
 ---
 title: "Utility Nodes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: ff732221-b731-424c-ad5b-82ef5f21dff5
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Utility Nodes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,6 +26,3 @@ In the Shader Designer, utility nodes represent common, useful shader calculatio
 |**Mask Vector**|Masks components of the specified vector.<br /><br /> You can use this to remove specific color channels from a color value, or to prevent specific components from having an effect on subsequent calculations.<br /><br /> **Input:**<br /><br /> `Vector`: `float4`<br /> The vector to mask.<br /><br /> **Output:**<br /><br /> `Output`: `float4`<br /> The masked vector.|**Red / X**<br /> **False** to mask out the red (x) component; otherwise, **True**.<br /><br /> **Green / Y**<br /> **False** to mask out the green (y) component; otherwise, **True**.<br /><br /> **Blue / Z**<br /> **False** to mask out the blue (z) component; otherwise, **True**.<br /><br /> **Alpha / W**<br /> **False** to mask out the alpha (w) component; otherwise, **True**.|  
 |**Reflection Vector**|Computes the reflection vector for the current pixel in tangent space, based on the camera position.<br /><br /> You can use this to calculate reflections, cubemap coordinates, and specular lighting contributions<br /><br /> **Input:**<br /><br /> `Tangent Space Surface Normal`: `float3`<br /> The surface normal of the current pixel, defined in the current pixel's tangent space. You can use this to perturb the apparent surface normal, as in normal mapping.<br /><br /> **Output:**<br /><br /> `Output`: `float3`<br /> The reflection vector.|None|  
 |**Specular**|Computes the specular lighting contribution according to the Phong lighting model, by using the specified surface normal.<br /><br /> Specular lighting gives a shiny, reflective appearance to an object, for example, water, plastic, or metals.<br /><br /> **Input:**<br /><br /> `Surface Normal`: `float3`<br /> The surface normal of the current pixel, defined in the current pixel's tangent space. You can use this to perturb the apparent surface normal, as in normal mapping.<br /><br /> **Output:**<br /><br /> `Output`: `float3`<br /> The color contribution of specular highlights.|None|
-
-
-

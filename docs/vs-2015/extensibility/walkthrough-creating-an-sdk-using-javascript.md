@@ -1,18 +1,13 @@
 ---
 title: "Walkthrough: Creating an SDK using JavaScript | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: a8c89d5d-5b78-4435-817f-c5f25ca6d715
 caps.latest.revision: 16
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Creating an SDK using JavaScript
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,19 +23,19 @@ This walkthrough teaches how to use JavaScript to create a simple math SDK as a 
 ## Prerequisites  
  To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   
-##  <a name="createSimpleMathVSIX"></a> To create the SimpleMathVSIX extension SDK project  
+## <a name="createSimpleMathVSIX"></a> To create the SimpleMathVSIX extension SDK project  
   
-1.  On the menu bar, choose **File**, **New**, **Project**.  
+1. On the menu bar, choose **File**, **New**, **Project**.  
   
-2.  In the list of template categories, under **Visual C#**, select **Extensibility**, and then select the **VSIX Project** template.  
+2. In the list of template categories, under **Visual C#**, select **Extensibility**, and then select the **VSIX Project** template.  
   
-3.  In the **Name** text box, specify `SimpleMathVSIX` and choose the **OK** button.  
+3. In the **Name** text box, specify `SimpleMathVSIX` and choose the **OK** button.  
   
-4.  If the **Visual Studio Package Wizard** appears, choose the **Next** button on the **Welcome** page, and then on **Page 1 of 7**, choose the **Finish** button.  
+4. If the **Visual Studio Package Wizard** appears, choose the **Next** button on the **Welcome** page, and then on **Page 1 of 7**, choose the **Finish** button.  
   
      Although the **Manifest Designer** opens, we'll keep this walkthrough simple by modifying the manifest file directly.  
   
-5.  In **Solution Explorer**, open the shortcut menu for the source.extension.vsixmanifest file, and then choose **View Code**. Use this code to replace the existing content in the file.  
+5. In **Solution Explorer**, open the shortcut menu for the source.extension.vsixmanifest file, and then choose **View Code**. Use this code to replace the existing content in the file.  
   
     ```  
     <?xml version="1.0" encoding="utf-8"?>  
@@ -62,11 +57,11 @@ This walkthrough teaches how to use JavaScript to create a simple math SDK as a 
     </PackageManifest>  
     ```  
   
-6.  In **Solution Explorer**, open the shortcut menu for the SimpleMathVSIX project, and then choose **Add**, **New Item**.  
+6. In **Solution Explorer**, open the shortcut menu for the SimpleMathVSIX project, and then choose **Add**, **New Item**.  
   
-7.  In the **Data** category, select **XML file**, name the file `SDKManifest.xml`, and choose the **Add** button.  
+7. In the **Data** category, select **XML file**, name the file `SDKManifest.xml`, and choose the **Add** button.  
   
-8.  In **Solution Explorer**, open the shortcut menu for the SDKManifest.xml file, and then choose **Open** to display the file in the **XML Editor**.  
+8. In **Solution Explorer**, open the shortcut menu for the SDKManifest.xml file, and then choose **Open** to display the file in the **XML Editor**.  
   
 9. Add the following code to the SDKManifest.xml file.  
   
@@ -127,9 +122,9 @@ This walkthrough teaches how to use JavaScript to create a simple math SDK as a 
   
 17. In **Solution Explorer**, on the shortcut menu for the arithmetic.js file, choose **Properties**. Make these property changes:  
   
-    -   Set the **Include in VSIX** property to **True**.  
+    - Set the **Include in VSIX** property to **True**.  
   
-    -   Set the **Copy to Output Directory** property to **Copy Always**.  
+    - Set the **Copy to Output Directory** property to **Copy Always**.  
   
 18. In **Solution Explorer**, on the shortcut menu for the SimpleMathVSIX project, choose **Build**.  
   
@@ -139,23 +134,23 @@ This walkthrough teaches how to use JavaScript to create a simple math SDK as a 
   
 21. Restart Visual Studio.  
   
-##  <a name="createSampleApp"></a> To create a sample app that uses the SDK  
+## <a name="createSampleApp"></a> To create a sample app that uses the SDK  
   
-1.  On the menu bar, choose **File**, **New**, **Project**.  
+1. On the menu bar, choose **File**, **New**, **Project**.  
   
-2.  In the list of template categories, under **JavaScript**, select **Windows Store**, and then select the **Blank App** template.  
+2. In the list of template categories, under **JavaScript**, select **Windows Store**, and then select the **Blank App** template.  
   
-3.  In the **Name** box, specify `ArithmeticUI`. Choose the **OK** button.  
+3. In the **Name** box, specify `ArithmeticUI`. Choose the **OK** button.  
   
-4.  In **Solution Explorer**, open the shortcut menu for the ArithmeticUI project, and then choose **Add**, **Reference**.  
+4. In **Solution Explorer**, open the shortcut menu for the ArithmeticUI project, and then choose **Add**, **Reference**.  
   
-5.  Under **Windows**, choose **Extensions**, and notice that **Simple Math** is displayed.  
+5. Under **Windows**, choose **Extensions**, and notice that **Simple Math** is displayed.  
   
-6.  Select the **Simple Math** check box and then choose the **OK** button.  
+6. Select the **Simple Math** check box and then choose the **OK** button.  
   
-7.  In **Solution Explorer**, under **References**, notice that the **Simple Math** reference is displayed. Expand it and notice that there's a \js\ folder that includes arithmetic.js. You can open arithmetic.js to confirm that your source code was installed.  
+7. In **Solution Explorer**, under **References**, notice that the **Simple Math** reference is displayed. Expand it and notice that there's a \js\ folder that includes arithmetic.js. You can open arithmetic.js to confirm that your source code was installed.  
   
-8.  Use the following code to replace the contents of default.htm.  
+8. Use the following code to replace the contents of default.htm.  
   
     ```  
     <!DOCTYPE html>  
@@ -316,4 +311,3 @@ This walkthrough teaches how to use JavaScript to create a simple math SDK as a 
   
 ## See Also  
  [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "MSBuild Task Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,12 +15,11 @@ ms.assetid: b3144b27-a426-4259-b8ae-5f7991b202b6
 caps.latest.revision: 35
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Task Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Tasks provide the code that runs during the build process. The tasks in the following list are included with [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]. When [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] is installed, additional tasks are available that are used to build [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] projects. For more information, see [Visual C++ Tasks](../msbuild/msbuild-tasks-specific-to-visual-cpp.md).  
   
  In addition to the parameters listed in the topics in this section, each task also has the following parameters:  
@@ -229,6 +223,3 @@ Tasks provide the code that runs during the build process. The tasks in the foll
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Task Writing](../msbuild/task-writing.md)   
  [Tasks](../msbuild/msbuild-tasks.md)
-
-
-

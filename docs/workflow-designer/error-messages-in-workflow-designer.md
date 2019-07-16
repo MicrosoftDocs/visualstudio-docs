@@ -2,8 +2,6 @@
 title: "Error Messages in Workflow Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "WFDErrorMessages.UI"
   - "System.Activities.Presentation.ErrorActivity.UI"
@@ -11,7 +9,7 @@ f1_keywords:
 ms.assetid: 4d8bbc2e-34fc-477f-9140-4adfd70c34a0
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -23,13 +21,13 @@ This topic describes the types of error messages that can be encountered when wo
 
 Errors in Workflow Designer occur in the following situations:
 
-1.  There is an error in an expression.
+1. There is an error in an expression.
 
-2.  The validation constraints of an activity have not been satisfied.
+2. The validation constraints of an activity have not been satisfied.
 
-3.  There are errors in the XAML file that cause an activity to fail to load.
+3. There are errors in the XAML file that cause an activity to fail to load.
 
-4.  There are errors in the XAML file that cause the workflow to fail to load.
+4. There are errors in the XAML file that cause the workflow to fail to load.
 
 Invalid expressions and unsatisfied validation constraints do not cause the workflow to fail to build. Building your workflow succeeds, but an <xref:System.Activities.InvalidWorkflowException> is thrown at runtime. If there are errors in the XAML file, the build fails.
 

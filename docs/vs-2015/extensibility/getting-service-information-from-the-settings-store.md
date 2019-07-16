@@ -1,18 +1,13 @@
 ---
 title: "Getting Service Information from the Settings Store | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: 7028d440-d16d-4b08-9b94-eb8cc93b25fc
 caps.latest.revision: 5
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Getting Service Information from the Settings Store
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -21,9 +16,9 @@ You can use the settings store to find all available services or to determine wh
   
 ### To list the available services  
   
-1.  Create a VSIX project named FindServicesExtension and then add a custom command named FindServicesCommand. For more information about how to create a custom command, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)  
+1. Create a VSIX project named FindServicesExtension and then add a custom command named FindServicesCommand. For more information about how to create a custom command, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)  
   
-2.  In FindServicesCommand.cs, add the following using statements:  
+2. In FindServicesCommand.cs, add the following using statements:  
   
     ```vb  
     using System.Collections.Generic;  
@@ -32,7 +27,7 @@ You can use the settings store to find all available services or to determine wh
     using System.Windows.Forms;  
     ```  
   
-3.  Get the configuration settings store, then find the subcollection named Services. This collection includes all the available services. In the MenuItemCommand method, remove the existing code and replace it with the following:  
+3. Get the configuration settings store, then find the subcollection named Services. This collection includes all the available services. In the MenuItemCommand method, remove the existing code and replace it with the following:  
   
     ```  
     private void MenuItemCallback(object sender, EventArgs e)  
@@ -51,9 +46,9 @@ You can use the settings store to find all available services or to determine wh
     }  
     ```  
   
-4.  Build the project and start debugging. The experimental instance appears.  
+4. Build the project and start debugging. The experimental instance appears.  
   
-5.  In the experimental instance, on the **Tools** menu, click **Invoke FindServicesCommand**.  
+5. In the experimental instance, on the **Tools** menu, click **Invoke FindServicesCommand**.  
   
      You should see a message box listing all the services.  
   
@@ -62,7 +57,7 @@ You can use the settings store to find all available services or to determine wh
 ## Finding a Specific Service  
  You can also use the <xref:Microsoft.VisualStudio.Settings.SettingsStore.CollectionExists%2A> method to determine whether a particular service is installed. You must know the type of the service class.  
   
-1.  In the MenuItemCallback of the project you created in the previous procedure, search the configuration settings store for the `Services` collection that has the subcollection named by the GUID of the service. In this case we will look for the Help service.  
+1. In the MenuItemCallback of the project you created in the previous procedure, search the configuration settings store for the `Services` collection that has the subcollection named by the GUID of the service. In this case we will look for the Help service.  
   
     ```  
     private void MenuItemCallback(object sender, EventArgs e)  
@@ -77,9 +72,8 @@ You can use the settings store to find all available services or to determine wh
     }  
     ```  
   
-2.  Build the project and start debugging.  
+2. Build the project and start debugging.  
   
-3.  In the experimental instance, on the **Tools** menu, click **Invoke FindServicesCommand**.  
+3. In the experimental instance, on the **Tools** menu, click **Invoke FindServicesCommand**.  
   
      You should see a message with the text **Help Service Available:**  followed by **True** or **False**. To verify this setting, you can use a registry editor, as shown in the earlier steps.
-

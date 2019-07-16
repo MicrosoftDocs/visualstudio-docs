@@ -1,38 +1,41 @@
 ---
-title: "Overview: Suggest a feature for Visual Studio"
-description: "Describes what suggestions are on Developer Community, how to make a suggestion, and how suggestions are used by Microsoft in the Visual Studio roadmap"
-ms.date: 11/15/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
+title: Suggest a feature
+description: "Describes what suggestions are on Developer Community, how to make a suggestion, and how suggestions are used by Microsoft in the Visual Studio road map."
+ms.date: 12/17/2018
 ms.topic: conceptual
 author: seaniyer
 ms.author: seiyer
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Overview: Suggest a Feature
 
-We've introduced a brand new experience for suggesting features alongside the current ability to report problems on [Visual Studio Developer Community](https://developercommunity.visualstudio.com). This is a new way you can be empowered to engage directly with Visual Studio’s engineering workflow.
+We've introduced a new experience for suggesting features alongside the current ability to report problems on [Visual Studio Developer Community](https://developercommunity.visualstudio.com). This is a new way you can be empowered to engage directly with Visual Studio’s engineering workflow.
 
-Until now, Visual Studio users have used the User Voice forum to propose new feature ideas. The *Suggest a feature* experience in Developer Community allows you to transition from the User Voice forum into a single platform for all your feedback that engages directly with the Visual Studio product teams.  
+![Suggest a Feature button on Developer Community](media/suggest-a-feature/suggest-feature-button.png)
 
-We've migrated an initial set of ideas from the User Voice forum to Developer Community. Migration was done based on the community impact of the feedback and our product roadmap priorities. If you were expecting to see a suggestion here that we may have missed, feel free to add it to Developer Community.
+You can also start a feature suggestion directly from Visual Studio by choosing **Provide a Suggestion** from the **Provide Feedback** icon near the top right of the main Visual Studio window:
 
-## Votes
+![Provide a Suggestion menu in Visual Studio](media/suggest-a-feature/provide-suggestion.png)
 
-The voting system in User Voice operates differently from the votes in the Developer Community. To maintain the integrity of Developer Community vote counts and to avoid skewing of votes, we show the User Voice vote counts prominently as a tag next to each feature suggestion. As you continue to vote on suggestions in the enhanced Developer Community, your new vote counts will show separately from the User Voice vote counts.  
+Choosing **Provide a Suggestion** takes you to [Developer Community](https://developercommunity.visualstudio.com), where you can enter your suggestion.
 
 ## User Voice
 
-The User Voice site is now read-only, allowing you to look back as you need to for context. All new feature suggestions should be submitted on Developer Community.
+Until now, Visual Studio users proposed new feature ideas on User Voice. By adding the *Suggest a feature* functionality to Developer Community, all of your feedback for the Visual Studio product team is now in one place.
+
+The User Voice site has been made read-only. You can look back as you need to for context, but all new feature suggestions should be submitted on Developer Community.
+
+We migrated an initial set of ideas from the User Voice forum to Developer Community. Migration was done based on the community impact of the feedback and our product roadmap priorities. If you were expecting to see a suggestion here that we may have missed, feel free to add it to Developer Community.
+
+## Votes
+
+The voting system in Developer Community is different to User Voice. To maintain the integrity of Developer Community vote counts and to avoid skewing of votes, we show the User Voice vote counts prominently as a tag next to each feature suggestion. As you continue to vote on suggestions in the enhanced Developer Community, your new vote counts will show separately from the User Voice vote counts.
 
 ## Suggestion status
 
-After you submit a feature suggestion, states indicate where your feature submission is in its lifecycle. As we take your feedback into consideration and move it along the workflow, we tag it with the corresponding state.
-
-The various states associated with feature suggestions are listed below, along with a description of their meaning and color indicators.
+After you submit a feature suggestion, states indicate where your feature submission is in its lifecycle. As we take your feedback into consideration and move it along the workflow, we tag it with the corresponding state. The various states associated with feature suggestions are listed here, along with a description of their meaning and color indicators.
 
 ![New state for suggestions on Developer Community](../ide/media/SuggestStates/New.jpg)
 
@@ -72,7 +75,7 @@ A feature suggestion marked **Need More Info** means that we need more details s
 
 - - -
 
-![Closed - Not Enough Info state for suggestions on Developer Community](../ide/media/SuggestStates/ClosedNotEnoughInfo.jpg) 
+![Closed - Not Enough Info state for suggestions on Developer Community](../ide/media/SuggestStates/ClosedNotEnoughInfo.jpg)
 
 **Closed - Not Enough Info** indicates that after several attempts, we haven’t received enough information to understand your feature suggestion fully. We have to close the new feature suggestion as we're unable to take any further action at this stage.
 
@@ -117,3 +120,7 @@ The voting system in User Voice operates differently from the votes in Developer
 We're fully committed to listening to your feature suggestions and taking actions to provide valuable experiences to our customers. Actions on suggestions are prioritized based on impact to the broader community. Even if we can't respond personally to every suggestion, we'll make sure that your feedback gets to the right team and is evaluated carefully.
 
 The response time depends on the status your feedback is in. Please review the explanation of statuses in this document to understand the response times.
+
+## See also
+
+- [Introducing 'Suggest a Feature' in Developer Community (Visual Studio blog)](https://devblogs.microsoft.com/visualstudio/introducing-suggest-a-feature-in-developer-community/?utm_source=vs_developer_news&utm_medium=referral)

@@ -1,14 +1,13 @@
 ---
 title: Item templates for Python projects
 description: A reference list of item templates for Python project that are available through the Add > New Item dialog in Visual Studio.
-ms.date: 09/04/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
+ms.date: 12/06/2018
 ms.topic: tutorial
-author: kraigb
-ms.author: kraigb
-manager: douge
-ms.workload: 
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
+ms.custom: seodec18
+ms.workload:
   - python
   - data-science
 ---

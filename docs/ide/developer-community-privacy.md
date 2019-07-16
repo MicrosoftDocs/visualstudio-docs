@@ -1,15 +1,13 @@
 ---
 title: Private data for problem reports
 ms.date: 06/21/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - developer community privacy
   - privacy, developer community
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -60,26 +58,26 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
 
 - Web debugger log files, if they exist:
 
-   - *%TEMP%\vscode-chrome-debug.txt*
+  - *%TEMP%\vscode-chrome-debug.txt*
 
-   - *%TEMP%\vscode-node-debug2.txt*
+  - *%TEMP%\vscode-node-debug2.txt*
 
-   - *%TEMP%\vscode-edge-debug.txt*
+  - *%TEMP%\vscode-edge-debug.txt*
 
 - A screenshot, if you choose to include it
 
 - Recording data, if you choose to include a recording, which includes:
 
-   - Steps to reproduce the problem
+  - Steps to reproduce the problem
 
-   - ETL trace file
+  - ETL trace file
 
-   - Dump file
+  - Dump file
 
-    > [!NOTE]
-    > You can delete any of the recording data that you don't wish to submit before submitting the report.
+  > [!NOTE]
+  > You can delete any of the recording data that you don't wish to submit before submitting the report.
 
 ## See also
 
-- [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio-2017.md)
+- [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md)
 - [C++ problem report data privacy](/cpp/how-to-report-a-problem-with-the-visual-cpp-toolset#reports-and-privacy)

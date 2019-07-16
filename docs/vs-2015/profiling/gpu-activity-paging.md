@@ -1,14 +1,9 @@
 ---
 title: "GPU Activity (Paging) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.threads.timeline.gpuactivity"
   - "vs.cv.threads.timeline.gpupaging"
@@ -16,7 +11,7 @@ ms.assetid: 95284ac5-3492-4f7b-a79f-7d2840a07679
 caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # GPU Activity (Paging)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,6 +22,3 @@ The **GPU Activity (Paging)** segments on the Threads tab represent times when t
   
 ## See Also  
  [Utilization View](../profiling/utilization-view.md)
-
-
-

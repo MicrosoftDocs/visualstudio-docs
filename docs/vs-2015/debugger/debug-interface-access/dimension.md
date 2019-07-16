@@ -1,14 +1,9 @@
 ---
 title: "Dimension | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 94f791da-bfea-454f-8a14-da31e8e1596a
 caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Dimension
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,6 +34,3 @@ Each FORTRAN array has a dimension that is identified by a `SymTagDimension` sym
 ## See Also  
  [ArrayType](../../debugger/debug-interface-access/arraytype.md)   
  [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
-
-
-

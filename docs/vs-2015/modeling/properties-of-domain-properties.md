@@ -1,19 +1,16 @@
 ---
 title: "Properties of Domain Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 helpviewer_keywords: 
   - "Domain-Specific Language, domain properties"
 ms.assetid: a9471562-d6f2-46bf-9872-e0d66ba03150
 caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Properties of Domain Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -21,7 +18,7 @@ manager: "douge"
 A *domain property* is a feature of a model element that can hold a value. For example, the `Person` domain class could have properties `Name` and `BirthDate`. In the DSL Definition, domain properties are listed in the domain class box on the diagram and under the domain class in DSL Explorer. For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md).  
   
 > [!NOTE]
->  The word "property" has two uses. A *domain property* is a feature that you define on a domain class. By contrast, many elements of a DSL have *properties*, which are listed in the **Properties** window in the DSL Definition. For example, every domain property has a set of properties, which are described in this topic.  
+> The word "property" has two uses. A *domain property* is a feature that you define on a domain class. By contrast, many elements of a DSL have *properties*, which are listed in the **Properties** window in the DSL Definition. For example, every domain property has a set of properties, which are described in this topic.  
   
  At run time, when a user creates instances of the domain class, the values of the domain properties can be seen in the Properties window, and can be displayed on the shapes.  
   
@@ -50,7 +47,4 @@ A *domain property* is a feature of a model element that can hold a value. For e
 |**Type**|The type of property. To add to the list of available types, right-click the root of the DSL in DSL explorer, and click **Add External Type**.|`String`|  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
-
-
-
+ [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

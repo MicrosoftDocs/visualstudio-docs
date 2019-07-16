@@ -1,14 +1,9 @@
 ---
 title: "What&#39;s New in Profiling Tools | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "profiling"
   - "what's new"
@@ -16,7 +11,7 @@ ms.assetid: d4736cc8-8961-4089-be9e-d5190ce8353c
 caps.latest.revision: 47
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # What&#39;s New in Profiling Tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +23,7 @@ For information about everything that’s new in Visual Studio 2015 Update 1 deb
 ## What's New in Update 1  
  Starting in Visual Studio 2015 Update 1, you can see a per-function breakdown of CPU usage without leaving the debugger. For more information, see [Profile Your CPU in the Debugger in Visual Studio 2015](http://blogs.msdn.com/b/visualstudioalm/archive/2015/10/29/profile-your-cpu-in-the-debugger-in-visual-studio-2015.aspx).  
   
- The **Diagnostic Tools** window has added search and filter options to the **Events** tab. For more information, see [Debugger-integrated profiling](http://msdn.microsoft.com/library/a1f40370-7b61-42c2-afc4-0e13eba98859) and  [Searching and filtering the Events tab of the Diagnostic Tools window](http://blogs.msdn.com/b/visualstudioalm/archive/2015/11/12/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window.aspx).  
+ The **Diagnostic Tools** window has added search and filter options to the **Events** tab. For more information, see [Debugger-integrated profiling](/visualstudio/profiling/running-profiling-tools-with-or-without-the-debugger) and  [Searching and filtering the Events tab of the Diagnostic Tools window](http://blogs.msdn.com/b/visualstudioalm/archive/2015/11/12/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window.aspx).  
   
 ## Diagnostics with debugging UI and hotkey changes  
  You can now run diagnostic tools while debugging with the new **Diagnostic Tools** window. The window appears automatically, but you can also open it with the new menu item **Show Diagnostic Tools** (keyboard shortcut **Ctrl+Alt+F2**).  
@@ -44,6 +39,3 @@ For information about everything that’s new in Visual Studio 2015 Update 1 deb
   
 ## See Also  
  [Profiling Tools](../profiling/profiling-tools.md)
-
-
-

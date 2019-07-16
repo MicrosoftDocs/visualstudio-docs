@@ -1,14 +1,9 @@
 ---
 title: "How to: Add Comments to Class Diagrams (Class Designer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.classdesigner.comment"
 helpviewer_keywords: 
@@ -19,7 +14,7 @@ ms.assetid: d54005d5-a29d-4c4e-b153-feb6e84dd44f
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Add Comments to Class Diagrams (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,14 +27,11 @@ You can use comment shapes to annotate class diagrams. A comment shape has one p
   
 ### To add a comment  
   
-1.  Drag a comment from the **Class Designer Toolbox** onto the class diagram.  
+1. Drag a comment from the **Class Designer Toolbox** onto the class diagram.  
   
-2.  Click in the new comment shape on the diagram and type the text you want.  
+2. Click in the new comment shape on the diagram and type the text you want.  
   
 ## See Also  
  [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)   
  [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)   
  [How to: Customize Class Diagrams (Class Designer)](../ide/how-to-customize-class-diagrams-class-designer.md)
-
-
-

@@ -2,7 +2,6 @@
 title: "IDebugApplication::FireDebuggerEvent | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Fires a generic event to the debugger's `IApplicationDebugger` interface.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT FireDebuggerEvent(  
    REFGUID    riid,  
    IUnknown*  punk  

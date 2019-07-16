@@ -1,14 +1,9 @@
 ---
 title: "ReadLinesFromFile Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#ReadLinesFromFile"
 dev_langs: 
@@ -23,12 +18,11 @@ ms.assetid: a18af929-b53a-4d9e-b7bf-e3d3737ee85f
 caps.latest.revision: 13
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # ReadLinesFromFile Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Reads a list of items from a text file.  
   
 ## Parameters  
@@ -68,6 +62,3 @@ Reads a list of items from a text file.
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [Tasks](../msbuild/msbuild-tasks.md)
-
-
-

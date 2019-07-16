@@ -1,14 +1,9 @@
 ---
 title: "Working with Classes and Other Types (Class Designer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.classdesigner.module"
   - "vs.classdesigner.abstractclass"
@@ -29,7 +24,7 @@ ms.assetid: 4909e38d-2ea8-4caf-92b1-857bd162ab7c
 caps.latest.revision: 36
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Working with Classes and Other Types (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,6 +43,3 @@ Focus more easily on the classes and types that you care about the most when you
  [Working with Visual C++ Code (Class Designer)](../ide/working-with-visual-cpp-code-class-designer.md)  
   
  [Additional Information About Class Designer Errors](../ide/additional-information-about-class-designer-errors.md)
-
-
-

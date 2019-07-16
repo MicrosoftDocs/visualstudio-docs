@@ -1,14 +1,9 @@
 ---
 title: "Where Can I Look Up Win32 Error Codes? | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vc.errors"
 dev_langs: 
@@ -24,7 +19,7 @@ ms.assetid: 8fb4ff42-b8eb-4152-b49e-b802d194b05e
 caps.latest.revision: 19
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Where Can I Look Up Win32 Error Codes?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,6 +35,3 @@ WINERROR.H in the INCLUDE directory of your default system installation contains
 ## See Also  
  [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)   
  [Debugging Native Code](../debugger/debugging-native-code.md)
-
-
-

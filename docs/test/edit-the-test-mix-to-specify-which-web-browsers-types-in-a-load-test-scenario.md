@@ -1,5 +1,5 @@
 ---
-title: "Browser test mix for load testing in Visual Studio"
+title: "Browser test mix for load testing"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,9 +10,7 @@ helpviewer_keywords:
 ms.assetid: 47f981d9-3038-45cc-a486-82b9daf9a9a1
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Edit the test mix to specify which web browsers types in a load test scenario
 
@@ -30,34 +28,34 @@ After you have specified a browser mix, you can later add and remove web browser
 
 ### To add new browsers to a scenario
 
-1.  While in the process of specifying the browser mix for a scenario choose **Add**.
+1. While in the process of specifying the browser mix for a scenario choose **Add**.
 
      A new browser entry is added to the grid.
 
     > [!NOTE]
     > To display the **Edit Browser Mix** dialog box, right-click an existing scenario and then choose **Edit Browser Mix**.
 
-2.  In the **Browser Type** column, choose the arrow for the new entry and choose the desired browser type.
+2. In the **Browser Type** column, choose the arrow for the new entry and choose the desired browser type.
 
-3.  (Optional) Adjust the mix control to specify the test distribution.
+3. (Optional) Adjust the mix control to specify the test distribution.
 
-4.  When you are finished adding browsers, choose **OK**.
+4. When you are finished adding browsers, choose **OK**.
 
-##  Remove browsers from a scenario
+## Remove browsers from a scenario
 
 ### To remove browsers from a scenario
 
-1.  Open a load test.
+1. Open a load test.
 
-2.  Right-click the scenario from which you want to remove a browser and then choose **Edit Browser Mix**.
+2. Right-click the scenario from which you want to remove a browser and then choose **Edit Browser Mix**.
 
      The **Edit Browser Mix** dialog box is displayed.
 
-3.  Select the browser in the grid and then choose **Remove**.
+3. Select the browser in the grid and then choose **Remove**.
 
-4.  (Optional) Adjust the mix control to specify the test distribution.
+4. (Optional) Adjust the mix control to specify the test distribution.
 
-5.  When you are finished removing browsers, choose **OK**.
+5. When you are finished removing browsers, choose **OK**.
 
 ## About the mix control
 

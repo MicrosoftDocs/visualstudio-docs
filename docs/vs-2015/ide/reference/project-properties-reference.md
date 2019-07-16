@@ -1,14 +1,9 @@
 ---
 title: "Project Properties Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "user interface [Visual Studio], projects"
   - "projects [Visual Studio], user interface"
@@ -16,12 +11,11 @@ ms.assetid: eec49aec-5474-48a7-889d-709045b9a475
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Project Properties Reference
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Learn more about how to configure and customize project properties.  
   
 ## Project Properties Pages  
@@ -45,8 +39,5 @@ Learn more about how to configure and customize project properties.
 |||  
   
 ## See Also  
- [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7)   
+ [Introduction to the Project Designer](https://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)   
  [Solutions and Projects](../../ide/solutions-and-projects-in-visual-studio.md)
-
-
-

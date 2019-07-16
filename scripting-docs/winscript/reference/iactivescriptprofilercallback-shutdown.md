@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerCallback::Shutdown | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Called to inform the profiler object whenever profiling is stopped on a scriptin
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Shutdown(  
     [in] HRESULT hrReason);  
 ```  

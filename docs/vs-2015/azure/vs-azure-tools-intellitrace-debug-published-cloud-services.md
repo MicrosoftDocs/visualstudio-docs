@@ -2,7 +2,7 @@
 title: Debugging a published an Azure cloud service with Visual Studio and IntelliTrace | Microsoft Docs
 description: Learn how to debug a cloud service with Visual Studio and IntelliTrace
 author: mikejo5000
-manager: douge
+manager: jillfra
 ms.assetid: 5e6662fc-b917-43ea-bf2b-4f2fc3d213dc
 ms.topic: conceptual
 ms.custom: vs-azure
@@ -38,7 +38,7 @@ To enable IntelliTrace for an Azure application, you must create and publish the
    
 1. To customize the basic IntelliTrace configuration, select **Settings** next to **Enable IntelliTrace**.
 
-	![IntelliTrace settings link](./media/vs-azure-tools-intellitrace-debug-published-cloud-services/intellitrace-settings-link.png)
+    ![IntelliTrace settings link](./media/vs-azure-tools-intellitrace-debug-published-cloud-services/intellitrace-settings-link.png)
    
 1. In the **IntelliTrace Settings** dialog, you can specify which events to log, whether to collect call information, which modules and processes to collect logs for, and how much space to allocate to the recording. For more information about IntelliTrace, see [Debugging with IntelliTrace](http://go.microsoft.com/fwlink/?LinkId=214468).
    
@@ -57,7 +57,7 @@ Using Visual Studio, you can download IntelliTrace logs for a role instance by f
 
 1. Right-click the role instance, and from the s context menu, select **View IntelliTrace Logs**. 
 
-	![View IntelliTrace logs menu option](./media/vs-azure-tools-intellitrace-debug-published-cloud-services/view-intellitrace-logs.png)
+    ![View IntelliTrace logs menu option](./media/vs-azure-tools-intellitrace-debug-published-cloud-services/view-intellitrace-logs.png)
 
 1. The IntelliTrace logs are downloaded to a file in a directory on your local computer. Each time that you request the IntelliTrace logs, a new snapshot is created. While the logs are being downloaded, Visual Studio displays the progress of the operation in the **Azure Activity Log** window. As shown in the following figure, you can expand the line item for the operation to see more detail.
 

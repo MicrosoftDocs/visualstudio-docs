@@ -1,29 +1,23 @@
 ---
 title: "Searching the Schema Set | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: ec1395e0-d03c-4130-810d-f2db656937bd
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Searching the Schema Set
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The XML Schema Explorer enables you to search the schema set in the following ways:  
   
--   Keyword search.  
+- Keyword search.  
   
--   Schema-specific search.  
+- Schema-specific search.  
   
 ## Keyword Search  
  You perform keyword searches by entering a substring in the **Search SchemaSet** text box of the XML Schema Explorer toolbar.  
@@ -32,11 +26,11 @@ The XML Schema Explorer enables you to search the schema set in the following wa
   
  The XML Schema Explorer searches the schema set for the following:  
   
--   Any `name` or `ref` attributes that match the specified keyword. This enables you to find elements, attributes, types, and so on by name.  
+- Any `name` or `ref` attributes that match the specified keyword. This enables you to find elements, attributes, types, and so on by name.  
   
--   The `schemaLocation` attributes of include statements.  
+- The `schemaLocation` attributes of include statements.  
   
--   The `namespace` attributes of import statements.  
+- The `namespace` attributes of import statements.  
   
 ## Schema Specific Search  
  The XML Schema Explorer also includes built-in searches that you can access by using the context menu of the XML Schema Explorer. For more information about available context menus, see [Context Menus](../xml-tools/context-menus-xml-schema-explorer.md). You can also perform a schema-specific search from the Start View; for more information, see the "Schema Set Details" section in the [Start View](../xml-tools/start-view.md) topic.  
@@ -53,6 +47,3 @@ The XML Schema Explorer enables you to search the schema set in the following wa
   
 ## See Also  
  [XML Schema Explorer](../xml-tools/xml-schema-explorer.md)
-
-
-

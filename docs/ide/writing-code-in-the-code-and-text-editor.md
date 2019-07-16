@@ -1,15 +1,13 @@
 ---
-title: Code editor features in Visual Studio
+title: Code editor features
 ms.date: 02/23/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "code, editing [Visual Studio]"
   - "code editor [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -48,19 +46,19 @@ You can find a number of advanced features on the **Edit** > **Advanced** menu o
 
 |||
 |-|-|
-|[Format Document](code-styles-and-quick-actions.md#format-document-command)|Sets the proper indentation of lines of code and moves curly braces to separate lines in the document.|
+|Format Document|Sets the proper indentation of lines of code and moves curly braces to separate lines in the document.|
 |Format Selection|Sets the proper indentation of lines of code and moves curly braces to separate lines in the selection.|
 |Tabify Selected Lines|Changes leading spaces to tabs where appropriate.|
 |Untabify Selected Lines|Changes leading tabs to spaces. If you want to convert all the spaces in your file to tabs (or all the tabs to spaces), you can use the `Edit.ConvertSpacesToTabs` and `Edit.ConvertTabsToSpaces` commands. These commands do not appear in Visual Studio menus, but you can call them from the **Quick Access** window or the command window.|
-|Make Uppercase|Changes all characters in the selection to uppercase, or if there is no selection, changes the character at the insertion point to uppercase.|
-|Make Lowercase|Changes all characters in the selection to lowercase, or if there is no selection, changes the character at the insertion point to lowercase.|
+|Make Uppercase|Changes all characters in the selection to uppercase, or if there is no selection, changes the character at the insertion point to uppercase. Shortcut: **Ctrl**+**Shift**+**U**.|
+|Make Lowercase|Changes all characters in the selection to lowercase, or if there is no selection, changes the character at the insertion point to lowercase. Shortcut: **Ctrl**+**U**.|
 |Move selected Lines Up|Moves the selected line up one line. Shortcut: **Alt**+**Up Arrow**.|
 |Move Selected Lines Down|Moves the selected line down one line. Shortcut: **Alt**+**Down Arrow**.|
-|Delete Horizontal White Space|Deletes tabs or spaces at the end of the current line.|
+|Delete Horizontal White Space|Deletes tabs or spaces at the end of the current line. Shortcut: **Ctrl**+**K**, **Ctrl**+**\\**|
 |View White Space|Displays spaces as raised dots, and tabs as arrows. The end of a file is displayed as a rectangular glyph. If **Tools** > **Options** > **Text Editor** > **All Languages** > **Word Wrap** > **Show visible glyphs for word wrap** is selected, that glyph is also displayed.|
 |Word Wrap|Causes all the lines in a document to be visible in the code window. You can turn word wrap off and on in the **Text Editor All Languages** settings (**Tools** > **Options** > **Text Editor** > **All Languages**).|
-|Comment Selection|Adds comment characters to the selection or the current line.|
-|Uncomment Selection|Removes comment characters from the selection or the current line.|
+|Comment Selection|Adds comment characters to the selection or the current line. Shortcut: **Ctrl**+**K**, **Ctrl**+**C**|
+|Uncomment Selection|Removes comment characters from the selection or the current line. Shortcut: **Ctrl**+**K**, **Ctrl**+**U**|
 |Increase Line Indent|Adds a tab (or the equivalent spaces) to the selected lines or the current line.|
 |Decrease Line Indent|Removes a tab (or the equivalent spaces) from the selected lines or the current line.|
 |Select Tag|In a document that contains tags (for example, XML or HTML), selects the tag.|
@@ -72,7 +70,7 @@ You can move around in the code editor in several different ways, including navi
 
 ## Find references in your code base
 
-To find where particular code elements are referenced throughout your codebase, you can use the **Find All References** command. Also, when you click on a type or member, the **reference highlighting** feature automatically highlights all references to that type or member. For more information, see [Find references in your code](finding-references.md).
+To find where particular code elements are referenced throughout your codebase, you can use the **Find All References** command or press **Shift**+**F12**. Also, when you click on a type or member, the **reference highlighting** feature automatically highlights all references to that type or member. For more information, see [Find references in your code](finding-references.md).
 
 ## Customize the editor
 
@@ -80,12 +78,12 @@ You can share your Visual Studio settings with another developer, have your sett
 
 To define new hotkeys or redefine existing hotkeys, go to **Tools** > **Options** > **Environment** > **Keyboard**. For more information about hotkeys, see [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
-For more information about customizing the editor, see [Customize the editor](../ide/customizing-the-editor.md). For JavaScript-specific editor options, see [JavaScript editor options](../ide/reference/options-text-editor-javascript-formatting.md).
+For JavaScript-specific editor options, see [JavaScript editor options](../ide/reference/options-text-editor-javascript-formatting.md).
 
 ## See also
 
 - [Source editor (Visual Studio for Mac)](/visualstudio/mac/source-editor)
-- [Visual Studio IDE](../ide/visual-studio-ide.md)
+- [Visual Studio IDE](../get-started/visual-studio-ide.md)
 - [Get started with C++ in Visual Studio](../ide/getting-started-with-cpp-in-visual-studio.md)
-- [Get started with C# and ASP.NET in Visual Studio](../ide/tutorial-csharp-aspnet-core.md)
+- [Get started with C# and ASP.NET in Visual Studio](../get-started/csharp/tutorial-aspnet-core.md)
 - [Get started with Python in Visual Studio](../ide/quickstart-python.md)

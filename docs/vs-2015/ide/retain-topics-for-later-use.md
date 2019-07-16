@@ -1,14 +1,9 @@
 ---
 title: "Retain Topics for Later Use | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "hv_favorites"
 helpviewer_keywords: 
@@ -21,7 +16,7 @@ ms.assetid: f0a4c657-001d-4604-a403-d46f15782724
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Retain Topics for Later Use
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,6 +28,3 @@ When you locate a useful topic, you can access it later by copying it and pastin
   
 ## See Also  
  [Shortcut Keys (Help Viewer)](../ide/shortcut-keys-help-viewer.md)
-
-
-

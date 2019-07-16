@@ -1,13 +1,11 @@
 ---
-title: "How to: Create LINQ to SQL classes mapped to tables and views (O-R Designer)"
+title: "Map LINQ to SQL classes to tables/views (O-R Designer)"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 0fb78bbc-7a78-4ab4-b32f-85ece912e660
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -28,9 +26,9 @@ By default, the [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] 
 
 ### To create LINQ to SQL classes that are mapped to database tables or views
 
-1.  In **Server** or **Database Explorer**, expand **Tables** or **Views** and locate the database table or view that you want to use in your application.
+1. In **Server** or **Database Explorer**, expand **Tables** or **Views** and locate the database table or view that you want to use in your application.
 
-2.  Drag the table or view onto the **O/R Designer**.
+2. Drag the table or view onto the **O/R Designer**.
 
      An entity class is created and appears on the design surface. The entity class has properties that map to the columns in the selected table or view.
 
@@ -40,22 +38,22 @@ After you create entity classes by using the **O/R Designer**, you can create an
 
 ### To create an object data source based on LINQ to SQL entity classes
 
-1.  On the **Build** menu, click **Build Solution** to build your project.
+1. On the **Build** menu, click **Build Solution** to build your project.
 
-2.  To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
+2. To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
 
-3.  In the **Data Sources** window, click **Add New Data Source**.
+3. In the **Data Sources** window, click **Add New Data Source**.
 
-4.  Click **Object** on the **Choose a Data Source Type** page and then click **Next**.
+4. Click **Object** on the **Choose a Data Source Type** page and then click **Next**.
 
-5.  Expand the nodes and locate and select your class.
+5. Expand the nodes and locate and select your class.
 
     > [!NOTE]
     > If the **Customer** class is not available, cancel out of the wizard, build the project, and run the wizard again.
 
-6.  Click **Finish** to create the data source and add the **Customer** entity class to the **Data Sources** window.
+6. Click **Finish** to create the data source and add the **Customer** entity class to the **Data Sources** window.
 
-7.  Drag items from the **Data Sources** window onto a form.
+7. Drag items from the **Data Sources** window onto a form.
 
 ## See also
 

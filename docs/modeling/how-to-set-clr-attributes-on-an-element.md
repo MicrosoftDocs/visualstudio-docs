@@ -8,30 +8,28 @@ helpviewer_keywords:
   - "Domain-Specific Language, custom attrributes"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # How to: Set CLR Attributes on an Element
 Custom attributes are special attributes that can be added to domain elements, shapes, connectors, and diagrams. You can add any attribute that inherits from the `System.Attribute` class.
 
 ### To add a custom attribute
 
-1.  In the **DSL Explorer**, select the element to which you want to add a custom attribute.
+1. In the **DSL Explorer**, select the element to which you want to add a custom attribute.
 
-2.  In the **Properties** window, next to the **Custom Attributes** property, click the Browse (**...**) icon.
+2. In the **Properties** window, next to the **Custom Attributes** property, click the Browse (**...**) icon.
 
      The **Edit Attributes** dialog box opens.
 
-3.  In the **Name** column, click **\<add attribute>** and type the name of your attribute. Press ENTER.
+3. In the **Name** column, click **\<add attribute>** and type the name of your attribute. Press ENTER.
 
-4.  The line under the attribute name shows parentheses. On this line type a parameter type for the attribute (for example, `string`), and then press ENTER.
+4. The line under the attribute name shows parentheses. On this line type a parameter type for the attribute (for example, `string`), and then press ENTER.
 
-5.  In the **Name Property** column, type an appropriate name, for example, `MyString`.
+5. In the **Name Property** column, type an appropriate name, for example, `MyString`.
 
-6.  Click **OK**.
+6. Click **OK**.
 
      The **Custom Attributes** property now displays the attribute in the following format:
 

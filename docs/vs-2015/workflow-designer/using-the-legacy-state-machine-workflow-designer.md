@@ -1,11 +1,8 @@
 ---
 title: "Using the Legacy State Machine Workflow Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 helpviewer_keywords: 
   - "StateFinalizationActivity activity"
@@ -20,7 +17,7 @@ ms.assetid: 2cd21123-35c2-4eaf-82f6-86fce7a8f04d
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Using the Legacy State Machine Workflow Designer
 When you are creating a new state machine workflow project in [!INCLUDE[vs2010](../includes/vs2010-md.md)] that targets either the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)], you can choose to use either the **State Machine Workflow Console Application** or the **State Machine Workflow Library** legacy project template. If you choose one of these state machine project templates, the state machine designer is presented as the legacy workflow designer user interface. For information about the legacy state machine project templates, see [How to: Create State Machine Workflow Console Applications (Legacy)](../workflow-designer/how-to-create-state-machine-workflow-console-applications-legacy.md) and [How to: Create a State Machine Workflow Library (Legacy)](../workflow-designer/how-to-create-a-state-machine-workflow-library-legacy.md).  
@@ -50,9 +47,9 @@ When you are creating a new state machine workflow project in [!INCLUDE[vs2010](
  When you drag a new **StateActivity** onto the workflow design surface, you can add [EventDrivenActivity](http://go.microsoft.com/fwlink?LinkID=65029), [StateInitializationActivity](http://go.microsoft.com/fwlink?LinkID=65044), [StateFinalizationActivity](http://go.microsoft.com/fwlink?LinkID=65043), or additional **StateActivity** activities as child activities.  
   
 > [!CAUTION]
->  When you use the state machine workflow designer to create workflows, you must monitor the structure of the workflow you are designing with the **Document Outline** view window. The view of the structure of the state machine workflow in the **Document Outline** view window mirrors the logical layout of the activities in the workflow markup file. The physical layout of the workflow activities as they appear on the design surface might not mirror the logical layout of the activities in the workflow markup file.  
+> When you use the state machine workflow designer to create workflows, you must monitor the structure of the workflow you are designing with the **Document Outline** view window. The view of the structure of the state machine workflow in the **Document Outline** view window mirrors the logical layout of the activities in the workflow markup file. The physical layout of the workflow activities as they appear on the design surface might not mirror the logical layout of the activities in the workflow markup file.  
 >   
->  To open the **Document Outline** window, on the **View** menu, point to **Other Windows**, and then select **Document Outline**.  
+> To open the **Document Outline** window, on the **View** menu, point to **Other Windows**, and then select **Document Outline**.  
   
 ## See Also  
  [How to: Create State Machine Workflow Console Applications (Legacy)](../workflow-designer/how-to-create-state-machine-workflow-console-applications-legacy.md)   

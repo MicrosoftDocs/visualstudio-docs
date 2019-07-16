@@ -1,13 +1,11 @@
 ---
-title: "Performance Tools on Windows 8 and Windows Server 2012 applications | Microsoft Docs"
-ms.custom: ""
+title: "Performance tools on Windows 8 & Windows Server 2012 apps"
 ms.date: "06/19/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Performance tools on Windows 8 and Windows Server 2012 applications
@@ -33,7 +31,7 @@ These profiling features and options are not supported when profiling UWP apps:
 
 For more information about profiling UWP apps, see the following articles:
 
-- [Run UWP apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md)
+- [Run UWP apps on the local machine](/visualstudio/debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml)
 - [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md)
 - [First look at profiling tools](profiling-feature-tour.md)
 - [JavaScript memory](../profiling/javascript-memory.md)
@@ -70,7 +68,7 @@ To profile applications on devices that do not have Visual Studio installed, do 
 
 - Download the tools as part of the Remote Tools for Visual Studio from the [MSDN web site](http://go.microsoft.com/fwlink/?LinkID=219549).
 
-- Copy and run the stand-alone profiler tools installation program from your Visual Studio computer. The installation programs are in *%VSInstallDir%\Team Tools\Performance Tools\Setups* folder. Choose the setup program for the operating system (x86/x64) of the remote computer.
+- Copy and run the stand-alone profiler tools installation program from your Visual Studio computer. To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). Choose the setup program for the operating system (x86/x64) of the remote computer.
 
 > [!NOTE]
 > To collect TIP profiling data, you must install the stand-alone profiler from your Visual Studio machine on the remote computer.

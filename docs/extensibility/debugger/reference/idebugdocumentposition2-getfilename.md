@@ -1,47 +1,47 @@
 ---
 title: "IDebugDocumentPosition2::GetFileName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "IDebugDocumentPosition2::GetFileName"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugDocumentPosition2::GetFileName"
 ms.assetid: d713635e-088f-465b-b26d-00ac971c9e86
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDocumentPosition2::GetFileName
-Gets the file name of the source file that contains the document position.  
-  
-## Syntax  
-  
-```cpp  
-HRESULT GetFileName(   
-   BSTR* pbstrFileName  
-);  
-```  
-  
-```csharp  
-int GetFileName(   
-   out string pbstrFileName  
-);  
-```  
-  
-#### Parameters  
- `pbstrFileName`  
- [out] Returns the file name of the source file.  
-  
-## Return Value  
- If successful, returns `S_OK`; otherwise, returns an error code.  
-  
-## Remarks  
- A source file may not always have a file name (the source file may not exist on disk, for example).  
-  
-## See Also  
- [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md)
+Gets the file name of the source file that contains the document position.
+
+## Syntax
+
+```cpp
+HRESULT GetFileName( 
+   BSTR* pbstrFileName
+);
+```
+
+```csharp
+int GetFileName( 
+   out string pbstrFileName
+);
+```
+
+## Parameters
+`pbstrFileName`\
+[out] Returns the file name of the source file.
+
+## Return Value
+ If successful, returns `S_OK`; otherwise, returns an error code.
+
+## Remarks
+ A source file may not always have a file name (the source file may not exist on disk, for example).
+
+## See also
+- [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md)

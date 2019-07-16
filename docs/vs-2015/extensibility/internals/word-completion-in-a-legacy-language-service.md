@@ -1,14 +1,9 @@
 ---
 title: "Word Completion in a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "language services [managed package framework], IntelliSense Complete Word"
   - "IntelliSense, Complete Word"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 0ace5ac3-f9e1-4e6d-add4-42967b1f96a6
 caps.latest.revision: 16
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Word Completion in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -26,7 +21,7 @@ Word completion fills in the missing characters on a partially typed word. If th
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more, see [Extending the Editor and Language Services](../../extensibility/extending-the-editor-and-language-services.md).  
   
 > [!NOTE]
->  We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.  
+> We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.  
   
 ## Implementation Steps  
   
@@ -51,4 +46,3 @@ Word completion fills in the missing characters on a partially typed word. If th
  If the list contains only a single word, then the <xref:Microsoft.VisualStudio.Package.Source> class automatically inserts that word in place of the partial word. If the list contains more than one word, the <xref:Microsoft.VisualStudio.Package.Source> class presents a tool tip list from which the user can select the appropriate choice.  
   
  Also look at the example of a <xref:Microsoft.VisualStudio.Package.Declarations> class implementation in [Member Completion in a Legacy Language Service](../../extensibility/internals/member-completion-in-a-legacy-language-service.md).
-

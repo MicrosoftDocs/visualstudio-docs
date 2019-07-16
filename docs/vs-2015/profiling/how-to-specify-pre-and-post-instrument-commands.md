@@ -1,14 +1,9 @@
 ---
 title: "How to: Specify Pre- and Post-Instrument Commands | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.property.instrument"
 helpviewer_keywords: 
@@ -19,7 +14,7 @@ ms.assetid: 6a8d5340-1d1b-4d81-88dd-8e1f435eb828
 caps.latest.revision: 33
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Specify Pre- and Post-Instrument Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,44 +47,41 @@ You can specify commands that run before or after the binaries in a performance 
   
 ### To specify pre-instrument commands  
   
-1.  Perform one of the following steps:  
+1. Perform one of the following steps:  
   
-    -   To specify pre-instrument commands for all binaries in a performance session, select the performance session node in **Performance Explorer**, and then right-click and select **Properties**.  
+    - To specify pre-instrument commands for all binaries in a performance session, select the performance session node in **Performance Explorer**, and then right-click and select **Properties**.  
   
-    -   To specify pre-instrument commands for a specific binary, right-click the name of the binary in the **Targets** list of the performance session, and then select **Properties**.  
+    - To specify pre-instrument commands for a specific binary, right-click the name of the binary in the **Targets** list of the performance session, and then select **Properties**.  
   
-2.  In the **Property Pages**, click **Instrumentation**.  
+2. In the **Property Pages**, click **Instrumentation**.  
   
-3.  Type the command in the **Command line** text box under **Pre-Instrument events**.  
+3. Type the command in the **Command line** text box under **Pre-Instrument events**.  
   
     > [!NOTE]
-    >  You can click the ellipsis button **(…)** that is adjacent to the **Command line** box to browse to and select the appropriate .exe, .cmd, or .bat file.  
+    > You can click the ellipsis button **(…)** that is adjacent to the **Command line** box to browse to and select the appropriate .exe, .cmd, or .bat file.  
   
-4.  Click **OK**.  
+4. Click **OK**.  
   
      To disable the command from running without removing it, select the **Exclude from instrumentation** check box. To modify compiler or linker settings, use the project property pages.  
   
 ### To specify post-instrument commands  
   
-1.  Perform one of the following steps:  
+1. Perform one of the following steps:  
   
-    -   To specify post-instrument commands for all binaries in a performance session, select the performance session node in **Performance Explorer**, and then right-click and select **Properties**.  
+    - To specify post-instrument commands for all binaries in a performance session, select the performance session node in **Performance Explorer**, and then right-click and select **Properties**.  
   
-    -   To specify post-instrument commands for a specific binary, right-click the name of the binary in the **Targets** list of the performance session, and then select **Properties**.  
+    - To specify post-instrument commands for a specific binary, right-click the name of the binary in the **Targets** list of the performance session, and then select **Properties**.  
   
-2.  In the **Property Pages**, click **Instrumentation**.  
+2. In the **Property Pages**, click **Instrumentation**.  
   
-3.  Type the command in the **Command line** text box under **Post-Instrument events**.  
+3. Type the command in the **Command line** text box under **Post-Instrument events**.  
   
     > [!NOTE]
-    >  You can click the ellipsis button **(…)** that is adjacent to the **Command line** box to browse to and select the appropriate .exe, .cmd, or .bat file.  
+    > You can click the ellipsis button **(…)** that is adjacent to the **Command line** box to browse to and select the appropriate .exe, .cmd, or .bat file.  
   
-4.  Click **OK**.  
+4. Click **OK**.  
   
      To disable the command from running without removing it, select the **Exclude from instrumentation** check box. To modify compiler or linker settings, use the project property pages.  
   
 ## See Also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)
-
-
-

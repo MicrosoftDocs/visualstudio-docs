@@ -1,27 +1,22 @@
 ---
 title: "Run unit tests with Test Explorer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 f1_keywords: 
   - "vs.unittesting.testexplorer.overview"
 ms.assetid: 91b167a3-280a-498b-8fc2-f67859a2c64e
 caps.latest.revision: 29
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Run unit tests with Test Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Use Test Explorer to run unit tests from Visual Studio or third-party unit test projects, group tests into categories, filter the test list, and create, save, and run playlists of tests. You can also debug tests and analyze test performance and code coverage.  
   
-##  <a name="BKMK_Contents"></a> Contents  
+## <a name="BKMK_Contents"></a> Contents  
  [Unit test frameworks and test projects](#BKMK_Unit_test_frameworks_and_test_projects)  
   
  [Run tests in Test Explorer](#BKMK_Run_tests_in_Test_Explorer)  
@@ -36,14 +31,14 @@ Use Test Explorer to run unit tests from Visual Studio or third-party unit test 
   
  [External resources](#BKMK_External_resources)  
   
-##  <a name="BKMK_Unit_test_frameworks_and_test_projects"></a> Unit test frameworks and test projects  
+## <a name="BKMK_Unit_test_frameworks_and_test_projects"></a> Unit test frameworks and test projects  
  Visual Studio includes the Microsoft unit testing frameworks for both managed and native code. However, Test Explorer can also run any unit test framework that has implemented a Test Explorer adapter. For more information about installing third-party unit test frameworks, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)  
   
  Test Explorer can run tests from multiple test projects in a solution and from test classes that are part of the production code projects. Test projects can use different unit test frameworks. When the code under test is written for the .NET Framework, the test project can be written in any language that also targets the .NET Framework, regardless of the language of the target code. Native C/C++ code projects must be tested by using a C++ unit test framework.  
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Run_tests_in_Test_Explorer"></a> Run tests in Test Explorer  
+## <a name="BKMK_Run_tests_in_Test_Explorer"></a> Run tests in Test Explorer  
  [Run tests](#BKMK_Run_tests) **&#124;** [Run tests after every build](#BKMK_Run_tests_after_every_build)  
   
  When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.  
@@ -58,7 +53,7 @@ Use Test Explorer to run unit tests from Visual Studio or third-party unit test 
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-###  <a name="BKMK_Run_tests"></a> Run tests  
+### <a name="BKMK_Run_tests"></a> Run tests  
  You can run all the tests in the solution, all the tests in a group, or a set of tests that you select. Do one of the following:  
   
 - To run all the tests in a solution, choose **Run All**.  
@@ -73,10 +68,10 @@ Use Test Explorer to run unit tests from Visual Studio or third-party unit test 
   
   ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-###  <a name="BKMK_Run_tests_after_every_build"></a> Run tests after every build  
+### <a name="BKMK_Run_tests_after_every_build"></a> Run tests after every build  
   
 > [!WARNING]
->  Running unit tests after every build is supported in Visual Studio Enterprise.  
+> Running unit tests after every build is supported in Visual Studio Enterprise.  
   
 |||  
 |-|-|  
@@ -84,12 +79,12 @@ Use Test Explorer to run unit tests from Visual Studio or third-party unit test 
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_View_test_results"></a> View test results  
+## <a name="BKMK_View_test_results"></a> View test results  
  [View test details](#BKMK_View_test_details) **&#124;** [View the source code of a test method](#BKMK_View_the_source_code_of_a_test_method)  
   
  As you run, write, and rerun your tests, Test Explorer displays the results in groups of **Failed Tests**, **Passed Tests**, **Skipped Tests** and **Not Run Tests**. The details pane at the bottom of Test Explorer displays a summary of the test run.  
   
-###  <a name="BKMK_View_test_details"></a> View test details  
+### <a name="BKMK_View_test_details"></a> View test details  
  To view the details of an individual test, select the test.  
   
  ![Test execution details](../test/media/ute-testdetails.png "UTE_TestDetails")  
@@ -110,17 +105,17 @@ Use Test Explorer to run unit tests from Visual Studio or third-party unit test 
   
   ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-###  <a name="BKMK_View_the_source_code_of_a_test_method"></a> View the source code of a test method  
+### <a name="BKMK_View_the_source_code_of_a_test_method"></a> View the source code of a test method  
  To display the source code for a test method in the Visual Studio editor, select the test and then choose **Open Test** on the context menu (Keyboard: F12).  
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Group_and_filter_the_test_list"></a> Group and filter the test list  
+## <a name="BKMK_Group_and_filter_the_test_list"></a> Group and filter the test list  
  [Grouping the test list](#BKMK_Grouping_the_test_list) **&#124;** [Group by traits](#BKMK_Group_by_traits) **&#124;** [Search and filter the test list](#BKMK_Search_and_filter_the_test_list)  
   
  Test Explorer lets you group your tests into predefined categories. Most unit test frameworks that run in Test Explorer let you define your own categories and category/value pairs to group your tests. You can also filter the list of tests by matching strings against test properties.  
   
-###  <a name="BKMK_Grouping_the_test_list"></a> Grouping the test list  
+### <a name="BKMK_Grouping_the_test_list"></a> Grouping the test list  
  To change the way that tests are organized, choose the down arrow next to the **Group By** button ![Test Explorer group button](../test/media/ute-groupby-btn.png "UTE_GroupBy_btn") and select a new grouping criteria.  
   
  ![Group tests by category in Test Explorer](../test/media/ute-groupbycategory.png "UTE_GroupByCategory")  
@@ -136,7 +131,7 @@ Use Test Explorer to run unit tests from Visual Studio or third-party unit test 
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-###  <a name="BKMK_Group_by_traits"></a> Group by traits  
+### <a name="BKMK_Group_by_traits"></a> Group by traits  
  A trait is usually a category name/value pair, but it can also be a single category. Traits can be assigned to methods that are identified as a test method by the unit test framework. A unit test framework can define trait categories. You can add values to the trait categories to define your own category name/value pairs. The syntax to specify trait categories and values is defined by the unit test framework.  
   
  **Traits in the Microsoft Unit Testing Framework for Managed Code**  
@@ -184,7 +179,7 @@ TEST_METHOD(Method1)
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-###  <a name="BKMK_Search_and_filter_the_test_list"></a> Search and filter the test list  
+### <a name="BKMK_Search_and_filter_the_test_list"></a> Search and filter the test list  
  You can use Test Explorer filters to limit the test methods in your projects that you view and run.  
   
  When you type a string in the Test Explorer search box and choose ENTER, the test list is filtered to display only those tests whose fully qualified names contain the string.  
@@ -200,7 +195,7 @@ TEST_METHOD(Method1)
    ![Filter tests in Test Explorer](../test/media/ute-filtertestlist.png "UTE_FilterTestList")  
   
 > [!NOTE]
->  Searches are case insensitive and match the specified string to any part of the criteria value.  
+> Searches are case insensitive and match the specified string to any part of the criteria value.  
   
 |Qualifier|Description|  
 |---------------|-----------------|  
@@ -228,7 +223,7 @@ FullName:"MyClass" - FullName:"PerfTest"
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Create_custom_playlists"></a> Create custom playlists  
+## <a name="BKMK_Create_custom_playlists"></a> Create custom playlists  
  You can create and save a list of tests that you want to run or view as a group. When you select a playlist, the tests in the list are displayed Test Explorer. You can add a test to more than one playlist, and all tests in your project are available when you choose the default **All Tests** playlist.  
   
  ![Choose a playlist](../test/media/ute-playlist.png "UTE_Playlist")  
@@ -243,16 +238,16 @@ FullName:"MyClass" - FullName:"PerfTest"
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Debug_and_analyze_unit_tests"></a> Debug and analyze unit tests  
+## <a name="BKMK_Debug_and_analyze_unit_tests"></a> Debug and analyze unit tests  
  [Debug unit tests](#BKMK_Debug_unit_tests) **&#124;** [Diagnose test method performance issues](#BKMK_Diagnose_test_method_performance_issues) **&#124;** [Analyze unit test code coverage](#BKMK_Analyzeunit_test_code_coverage)  
   
-###  <a name="BKMK_Debug_unit_tests"></a> Debug unit tests  
+### <a name="BKMK_Debug_unit_tests"></a> Debug unit tests  
  You can use Test Explorer to start a debugging session for your tests. Stepping through your code with the Visual Studio debugger seamlessly takes you back and forth between the unit tests and the project under test. To start debugging:  
   
 1. In the Visual Studio editor, set a breakpoint in one or more test methods that you want to debug.  
   
    > [!NOTE]
-   >  Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.  
+   > Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.  
   
 2. In Test Explorer, select the test methods and then choose **Debug Selected Tests** on the context menu.  
   
@@ -260,13 +255,13 @@ FullName:"MyClass" - FullName:"PerfTest"
   
    ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-###  <a name="BKMK_Diagnose_test_method_performance_issues"></a> Diagnose test method performance issues  
+### <a name="BKMK_Diagnose_test_method_performance_issues"></a> Diagnose test method performance issues  
  To diagnose why a test method is taking too much time, select the method in Test Explorer and then choose Profile on the context menu. See [Performance Explorer](../profiling/performance-explorer.md).  
   
-###  <a name="BKMK_Analyzeunit_test_code_coverage"></a> Analyze unit test code coverage  
+### <a name="BKMK_Analyzeunit_test_code_coverage"></a> Analyze unit test code coverage  
   
 > [!NOTE]
->  Unit test code coverage is available only in Visual Studio Enterprise.  
+> Unit test code coverage is available only in Visual Studio Enterprise.  
   
  You can determine the amount of your product code that is actually being tested by your unit tests by using the Visual Studio code coverage tool. You can run code coverage on selected tests or on all tests in a solution.  
   
@@ -276,9 +271,9 @@ FullName:"MyClass" - FullName:"PerfTest"
   
 2. Choose one of the following commands from the sub-menu:  
   
-   -   **Selected tests** runs the test methods that you have selected in Test Explorer.  
+   - **Selected tests** runs the test methods that you have selected in Test Explorer.  
   
-   -   **All tests** runs all the test methods in the solution.  
+   - **All tests** runs all the test methods in the solution.  
   
    The Code Coverage Results window displays the percentage of the blocks of product code that were exercised by line, function, class, namespace and module.  
   
@@ -286,14 +281,11 @@ FullName:"MyClass" - FullName:"PerfTest"
   
    ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_External_resources"></a> External resources  
+## <a name="BKMK_External_resources"></a> External resources  
   
-###  <a name="BKMK_Guidance"></a> Guidance  
+### <a name="BKMK_Guidance"></a> Guidance  
  [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
 ## See Also  
  [Unit Test Your Code](../test/unit-test-your-code.md)   
  [Run a unit test as a 64-bit process](../test/run-a-unit-test-as-a-64-bit-process.md)
-
-
-

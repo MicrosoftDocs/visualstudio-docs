@@ -1,14 +1,9 @@
 ---
 title: "How to: Create Multi-file Item Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio templates, creating multi-file item templates"
   - "multi-file item templates"
@@ -17,7 +12,7 @@ ms.assetid: fe3c4257-e383-4c80-b8af-c5c521959c33
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Create Multi-file Item Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,9 +29,9 @@ Item templates may only specify one item, but sometimes the item is made up of m
   
 ### To manually create a multi-file item template  
   
-1.  Create the item template as you would create a single-file item template. For more information, see [How to: Create Item Templates](../ide/how-to-create-item-templates.md).  
+1. Create the item template as you would create a single-file item template. For more information, see [How to: Create Item Templates](../ide/how-to-create-item-templates.md).  
   
-2.  Add `TargetFileName` attributes to every `ProjectItem` element. Set the values of the `TargetFileName` attributes to $fileinputname$.*FileExtension*, where *FileExtension* is the file name extension of the file that is being included in the template. For example:  
+2. Add `TargetFileName` attributes to every `ProjectItem` element. Set the values of the `TargetFileName` attributes to $fileinputname$.*FileExtension*, where *FileExtension* is the file name extension of the file that is being included in the template. For example:  
   
     ```  
     <ProjectItem TargetFileName="$fileinputname$.vb">  
@@ -52,9 +47,9 @@ Item templates may only specify one item, but sometimes the item is made up of m
   
      When an item derived from this template is added to a project, the file names will be based on the name that the user typed in the **Add New Item** dialog box.  
   
-3.  Select the files to be included in your template, right-click the selection, click **Send To**, and then click **Compressed (zipped) Folder**. The files that you selected are compressed into a .zip file.  
+3. Select the files to be included in your template, right-click the selection, click **Send To**, and then click **Compressed (zipped) Folder**. The files that you selected are compressed into a .zip file.  
   
-4.  Put the .zip file in the user item template location. By default, the directory is \My Documents\Visual Studio *Version*\Templates\ItemTemplates\\. For more information, see [How to: Locate and Organize Templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).  
+4. Put the .zip file in the user item template location. By default, the directory is \My Documents\Visual Studio *Version*\Templates\ItemTemplates\\. For more information, see [How to: Locate and Organize Templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).  
   
 ## Example  
  The following example shows a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Windows Forms template. When an item is created based on this template, the names of the three files created will match the name entered in the **Add New Item** dialog box.  
@@ -87,6 +82,3 @@ Item templates may only specify one item, but sometimes the item is made up of m
  [How to: Create Item Templates](../ide/how-to-create-item-templates.md)   
  [Template Parameters](../ide/template-parameters.md)   
  [How to: Substitute Parameters in a Template](../ide/how-to-substitute-parameters-in-a-template.md)
-
-
-

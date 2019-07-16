@@ -1,13 +1,11 @@
 ---
 title: "Sample XSD File: Purchase Order Schema"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: sample
 ms.assetid: f92b63b5-ec61-43b5-ae1e-63432a7a7e30
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -82,3 +80,6 @@ The following XSD file is used in various examples in the XSD Schema Designer do
   </xsd:complexType>
 </xsd:schema>
 ```
+
+> [!NOTE]
+> The example companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted herein are fictitious. No association with any real company, organization, product, domain name, e-mail address, logo, person, places, or events is intended or should be inferred.

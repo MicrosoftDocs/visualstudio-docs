@@ -1,13 +1,11 @@
 ---
-title: "Workflow Designer - How to: Add a New Item to a Workflow Project"
+title: "Workflow Designer: Add a new item to workflow project"
 ms.date: 06/25/2018
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 ms.assetid: 5c6180ca-af10-4513-b0cb-7d478fd84eab
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -17,13 +15,12 @@ After you've created a workflow project, you can add workflow activities, design
 
 The following table lists the Windows Workflow Foundation (WF) items that you can add to a workflow project:
 
-
 | Name | Description |
 |-| - |
-| Activity | An activity to be composed of other activities. Selecting this item adds the same XAML file to the project as you would obtain when selecting the **Activity Library** template for a new project. For more information about on this procedure, see [How to: Create an Activity Library](../workflow-designer/how-to-create-an-activity-library.md). |
-| Activity Designer | A designer to customize the design-time experience of an activity. Selecting this item adds the same files to the project as you would obtain when selecting the **Activity Designer Library** template for a new project. For more information about on this procedure, see [How to: Create an Activity Designer Library](../workflow-designer/how-to-create-an-activity-designer-library.md). |
+| Activity | An activity to be composed of other activities. Selecting this item adds the same XAML file to the project as you would obtain when selecting the **Activity Library** template for a new project. For more information about on this procedure, see [Create a workflow project](creating-a-workflow-project.md). |
+| Activity Designer | A designer to customize the design-time experience of an activity. Selecting this item adds the same files to the project as you would obtain when selecting the **Activity Designer Library** template for a new project. |
 | Code Activity | An activity with execution logic written in code. A source code file with an override of the <xref:System.Activities.CodeActivity.Execute%2A> method is already generated for you. |
-| WCF Workflow Service | A [!INCLUDE[indigo2](../workflow-designer/includes/indigo2_md.md)] service built using workflow activities. Selecting this item adds the same files to the project as you would obtain when selecting the **WCF Workflow Service Application** template for a new project. For more information about this procedure, see [How to: Create a WCF Workflow Service Application](../workflow-designer/how-to-create-a-wcf-workflow-service-application.md). |
+| WCF Workflow Service | A [!INCLUDE[indigo2](../workflow-designer/includes/indigo2_md.md)] service built using workflow activities. Selecting this item adds the same files to the project as you would obtain when selecting the **WCF Workflow Service Application** template for a new project. For more information about this procedure, see [How to: Create a WCF Workflow Service Application](/visualstudio/workflow-designer/creating-a-workflow-project). |
 
 ## To add a new item to a workflow project
 
@@ -34,7 +31,7 @@ The following table lists the Windows Workflow Foundation (WF) items that you ca
 1. In the left-hand pane, select the **Workflow** category, and then select a workflow item template.
 
    > [!NOTE]
-   > If you don't see the **Workflow** category, first install the **Windows Workflow Foundation** component of Visual Studio 2017. For detailed instructions, see [Install Windows Workflow Foundation](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation).
+   > If you don't see the **Workflow** category, first install the **Windows Workflow Foundation** component of Visual Studio. For detailed instructions, see [Install Windows Workflow Foundation](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation).
 
 1. Enter a name for the item in the **Name** box at the bottom of the dialog box.
 

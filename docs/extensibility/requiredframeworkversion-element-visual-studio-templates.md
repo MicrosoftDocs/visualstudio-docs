@@ -1,17 +1,15 @@
 ---
 title: "RequiredFrameworkVersion Element (Visual Studio Templates) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-general"
-ms.topic: "conceptual"
+ms.technology: vs-ide-general
+ms.topic: reference
 helpviewer_keywords:
   - "<RequiredFrameworkVersion> (Visual Studio Templates)"
   - "RequiredFrameworkVersion (Visual Studio Templates)"
 ms.assetid: 08a4f609-51a5-4723-b89f-99277fb18871
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
+author: madskristensen
+ms.author: madsk
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---
@@ -84,4 +82,4 @@ In this example, the minimum version of the .NET Framework that is required by t
 
 - [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
 - [Create project and item templates](../ide/creating-project-and-item-templates.md)
-- [Target a specific .NET Framework version](../ide/targeting-a-specific-dotnet-framework-version.md)
+- [Framework targeting overview](../ide/visual-studio-multi-targeting-overview.md)

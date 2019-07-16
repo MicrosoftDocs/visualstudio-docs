@@ -1,20 +1,15 @@
 ---
 title: "Sending Startup Events After a Launch | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], startup events"
 ms.assetid: 306ea0b4-6d9e-4871-8d8d-a4032d422940
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Sending Startup Events After a Launch
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -32,7 +27,7 @@ Once the debug engine (DE) is attached to the program, it sends a series of star
 - A load complete event, sent when the code is loaded and ready to run, but before any code is executed  
   
   > [!NOTE]
-  >  When this event is continued, global variables are initialized and startup routines run.  
+  > When this event is continued, global variables are initialized and startup routines run.  
   
 - Possible other thread creation and module load events.  
   
@@ -47,4 +42,3 @@ Once the debug engine (DE) is attached to the program, it sends a series of star
 ## See Also  
  [Control of Execution](../../extensibility/debugger/control-of-execution.md)   
  [Debugging Tasks](../../extensibility/debugger/debugging-tasks.md)
-

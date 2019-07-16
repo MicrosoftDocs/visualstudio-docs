@@ -1,14 +1,9 @@
 ---
 title: "How to: Enable Debugging for ASP.NET Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -22,7 +17,7 @@ ms.assetid: 3beed819-cece-4864-8184-bd410000973a
 caps.latest.revision: 40
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Enable Debugging for ASP.NET Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,36 +25,36 @@ manager: "ghogen"
 To enable debugging, you must enable it in both the **Project Properties** page and in the application's web.config file.  
   
 > [!NOTE]  
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/library/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/library/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ### To enable ASP.NET debugging in the project properties (Visual Basic/C#)  
   
-1.  In **Solution Explorer**, right-click the name of a Web project and select **Properties**.  
+1. In **Solution Explorer**, right-click the name of a Web project and select **Properties**.  
   
-2.  In the project properties page click the **Web** tab.  
+2. In the project properties page click the **Web** tab.  
   
-3.  Under **Debuggers**, select the **ASP.NET** check box.  
+3. Under **Debuggers**, select the **ASP.NET** check box.  
   
 ### To enable debugging in the web.config file  
   
-1.  Open the web.config file by using any standard text editor or XML parser.  
+1. Open the web.config file by using any standard text editor or XML parser.  
   
     > [!NOTE]  
     > You cannot access the file remotely by using a Web browser, however. For security reasons, [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] configures Microsoft IIS to help prevent direct browser access to Web.config files. If you try to access a configuration file by using a browser, you will get HTTP access error 403 (forbidden).  
   
-2.  Web.config is an XML file, and so contains nested sections marked by tags. Locate the `configuration/system.web/compilation` element. If the compilation element does not exist, create it.  
+2. Web.config is an XML file, and so contains nested sections marked by tags. Locate the `configuration/system.web/compilation` element. If the compilation element does not exist, create it.  
   
-3.  If the `compilation` element does not contain a `debug` attribute, add the attribute to the element.  
+3. If the `compilation` element does not contain a `debug` attribute, add the attribute to the element.  
   
-4.  Make sure the `debug` attribute value is set to `true`.  
+4. Make sure the `debug` attribute value is set to `true`.  
   
 The web.config file should look like the following example. Note that there can be sections between the configuration and system.web elements  
   
--   element sections between the configuration and system.web elements  
+- element sections between the configuration and system.web elements  
   
--   element sections between the system.web and compilation elements  
+- element sections between the system.web and compilation elements  
   
--   The compilation element can contain other attributes and elements  
+- The compilation element can contain other attributes and elements  
   
 ## Example  
   
@@ -88,8 +83,3 @@ Enabling debug mode will greatly affect the performance of your [!INCLUDE[vsteca
   
 ## See Also  
 [Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)  
-  
-
-
-
-

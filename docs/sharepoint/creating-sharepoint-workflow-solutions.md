@@ -1,9 +1,6 @@
 ---
 title: "Creating SharePoint Workflow Solutions | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords:
   - "VSTO.NewSharePointWorkflowWizard.Page3"
@@ -18,9 +15,9 @@ dev_langs:
 helpviewer_keywords:
   - "SharePoint development in Visual Studio, workflows"
   - "workflows [SharePoint development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -54,7 +51,7 @@ For more information about SharePoint, see [Microsoft SharePoint Products and Te
  After you create the workflow, you can modify its properties in the Properties window. Although most workflow properties can be changed directly in the Properties window, some require you to click an ellipsis button (![ASP.NET Mobile Designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")) to change their values. This button restarts the **SharePoint Customization Wizard**. After you make the property value changes, choose the **Finish** button to finalize them.
 
 > [!NOTE]
->  The **Workflow Type** property is read-only and cannot be changed. If you want to change the workflow type, you must create another workflow.
+> The **Workflow Type** property is read-only and cannot be changed. If you want to change the workflow type, you must create another workflow.
 
 ## Design a SharePoint workflow
  After you define all the steps in the business process, use the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] workflow designer to design the SharePoint workflow. To open the designer, double-click Workflow1.cs or Workflow1.vb in **Solution Explorer**, or open the shortcut menu for either of those files and then choose **Open**.
@@ -121,7 +118,7 @@ For more information about SharePoint, see [Microsoft SharePoint Products and Te
 ## Debug a SharePoint workflow template
  You can debug a SharePoint workflow project the same as you debug other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Web-based projects. When you start the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] uses the settings that you specify in the **SharePoint Customization Wizard** to open the appropriate SharePoint Web site and automatically associate the workflow template with the appropriate library or list. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] also attaches the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger to the [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] process named *w3wp.exe*.
 
- To test the workflow, you must start it manually. For more information, see the section "Debugging Workflows" in [Debugging SharePoint Solutions](../sharepoint/debugging-sharepoint-solutions.md). For more information about [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Web application debugging, see [Debug web applications and script](../debugger/debugging-web-applications-and-script.md).
+ To test the workflow, you must start it manually. For more information, see the section "Debugging Workflows" in [Debugging SharePoint Solutions](../sharepoint/debugging-sharepoint-solutions.md). For more information about [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Web application debugging, see [Debug web applications and script](../debugger/how-to-enable-debugging-for-aspnet-applications.md).
 
 ## Deploy a SharePoint workflow template
  [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint workflow projects deploy just like other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint projects. For more information, see [Package and Deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md).

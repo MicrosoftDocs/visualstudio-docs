@@ -1,14 +1,9 @@
 ---
 title: "Getting Local Values | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "expression evaluation, local values"
   - "debugging [Debugging SDK], local values"
@@ -16,25 +11,25 @@ helpviewer_keywords:
 ms.assetid: a10b0764-65ac-476f-bf42-b4a9c38e20de
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Getting Local Values
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
+> In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
  To obtain the value of a local, Visual Studio calls [GetPropertyInfo](../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) for that local. In this implementation, the class `CFieldProperty` implements the IDebugProperty2 interface for each local.  
   
  This implementation of `IDebugProperty2::GetPropertyInfo` performs the following tasks:  
   
-1.  Obtains the local's name, property, and attributes from the [FIELD_INFO](../../extensibility/debugger/reference/field-info.md) structure filled in when the class was instantiated and initialized.  
+1. Obtains the local's name, property, and attributes from the [FIELD_INFO](../../extensibility/debugger/reference/field-info.md) structure filled in when the class was instantiated and initialized.  
   
-2.  Obtains the local's type from the [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object.  
+2. Obtains the local's type from the [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object.  
   
-3.  Obtains the local's value from the `IDebugField` object. This field is bound to the memory location of the local using the [IDebugBinder](../../extensibility/debugger/reference/idebugbinder.md) object and the value is obtained from the resulting [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object.  
+3. Obtains the local's value from the `IDebugField` object. This field is bound to the memory location of the local using the [IDebugBinder](../../extensibility/debugger/reference/idebugbinder.md) object and the value is obtained from the resulting [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object.  
   
-4.  Returns all requested properties in a [DEBUG_PROPERTY_INFO](../../extensibility/debugger/reference/debug-property-info.md) structure.  
+4. Returns all requested properties in a [DEBUG_PROPERTY_INFO](../../extensibility/debugger/reference/debug-property-info.md) structure.  
   
 ## Managed Code  
  This example shows an implementation of `IDebugProperty2::GetPropertyInfo` for a method's local in managed code. It also shows a helper function, `Field.GetType`, that is used to get the field's type. `Field.GetValue` is shown in [Evaluating Locals](../../extensibility/debugger/evaluating-locals.md). The helper function `Field.MapModifiersToAttributes` (not shown) simply converts a field's [FIELD_MODIFIERS](../../extensibility/debugger/reference/field-modifiers.md) flags to [DBG_ATTRIB_FLAGS](../../extensibility/debugger/reference/dbg-attrib-flags.md) values.  
@@ -443,4 +438,3 @@ HRESULT FieldGetValue( in IDebugField* pfield, out VARIANT* pvarValue )
  [Sample Implementation of Locals](../../extensibility/debugger/sample-implementation-of-locals.md)   
  [Getting Local Properties](../../extensibility/debugger/getting-local-properties.md)   
  [Evaluation Context](../../extensibility/debugger/evaluation-context.md)
-

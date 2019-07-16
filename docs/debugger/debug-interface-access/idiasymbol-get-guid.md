@@ -1,47 +1,46 @@
 ---
 title: "IDiaSymbol::get_guid | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDiaSymbol::get_guid method"
 ms.assetid: c02a6c92-f406-4646-82e7-3cd005af900e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_guid
-Retrieves the symbol's globally unique identifier (GUID).  
-  
-## Syntax  
-  
-```C++  
-HRESULT get_guid (   
-   GUID* pRetVal  
-);  
-```  
-  
-#### Parameters  
- `pRetVal`  
- [out] Returns the symbol's GUID.  
-  
-## Return Value  
- If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.  
-  
+Retrieves the symbol's globally unique identifier (GUID).
+
+## Syntax
+
+```C++
+HRESULT get_guid ( 
+   GUID* pRetVal
+);
+```
+
+#### Parameters
+ `pRetVal`
+
+[out] Returns the symbol's GUID.
+
+## Return Value
+ If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.
+
 > [!NOTE]
->  A return value of `S_FALSE` means the property is not available for the symbol.  
-  
-## Requirements  
-  
-|Requirement|Description|  
-|-----------------|-----------------|  
-|Header:|dia2.h|  
-|Version:|DIA SDK v7.0|  
-  
-## See Also  
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+> A return value of `S_FALSE` means the property is not available for the symbol.
+
+## Requirements
+
+|Requirement|Description|
+|-----------------|-----------------|
+|Header:|dia2.h|
+|Version:|DIA SDK v7.0|
+
+## See Also
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

@@ -1,20 +1,15 @@
 ---
 title: "Implementing Command Handling for Nested Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "nested projects, implementing command handling"
 ms.assetid: 48a9d66e-d51c-4376-a95a-15796643a9f2
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Implementing Command Handling for Nested Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -22,7 +17,7 @@ manager: "ghogen"
 The IDE can pass commands that are passed through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> and the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interfaces to nested projects, or parent projects can filter or override the commands.  
   
 > [!NOTE]
->  Only commands ordinarily handled by the parent project can be filtered. Commands such as **Build** and **Deploy** that are handled by the IDE cannot be filtered.  
+> Only commands ordinarily handled by the parent project can be filtered. Commands such as **Build** and **Deploy** that are handled by the IDE cannot be filtered.  
   
  The following steps describe the process for implementing command handling.  
   
@@ -56,4 +51,3 @@ The IDE can pass commands that are passed through the <xref:Microsoft.VisualStud
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy>   
  [Commands, Menus, and Toolbars](../../extensibility/internals/commands-menus-and-toolbars.md)   
  [Nesting Projects](../../extensibility/internals/nesting-projects.md)
-

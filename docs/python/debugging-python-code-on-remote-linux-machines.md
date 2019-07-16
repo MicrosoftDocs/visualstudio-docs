@@ -1,14 +1,13 @@
 ---
-title: Debugging Python code on remote Linux computers
-description: How to use Visual Studio to debug Python code running on remote Linux computers, including necessary configuration steps, security, and troubleshooting.
-ms.date: 10/15/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
+title: Debug Python code on remote Linux computers
+description: Use Visual Studio to debug Python code running on remote Linux computers, including necessary configuration steps, security, and troubleshooting.
+ms.date: 12/06/2018
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
-manager: douge
-ms.workload: 
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
+ms.custom: seodec18
+ms.workload:
   - python
   - data-science
 ---
@@ -61,7 +60,7 @@ For details on creating a firewall rule for an Azure VM, see [Open ports to a VM
         print('Nope. The number I was thinking of was {0}'.format(number))
     ```
 
-1. Install the `ptvsd` package into your environment using `pip3 install ptvsd`. 
+1. Install the `ptvsd` package into your environment using `pip3 install ptvsd`.
    >[!NOTE]
    >It's a good idea to record the version of ptvsd that's installed in case you need it for troubleshooting; the [ptvsd listing](https://pypi.python.org/pypi/ptvsd) also shows available versions.
 
@@ -101,7 +100,7 @@ In these steps, we set a simple breakpoint to stop the remote process.
 
 1. Visual Studio then switches into debugging mode while the script continues to run on the remote computer, providing all the usual [debugging](debugging-python-in-visual-studio.md) capabilities. For example, set a breakpoint on the `if guess < number:` line, then switch over to the remote computer and enter another guess. After you do so, Visual Studio on your local computer stops at that breakpoint, shows local variables, and so on:
 
-    ![Breakpoint is hit](media/remote-debugging-breakpoint-hit.png)
+    ![Visual Studio pauses debugging when breakpoint is hit](media/remote-debugging-breakpoint-hit.png)
 
 1. When you stop debugging, Visual Studio detaches from the program, which continues to run on the remote computer. ptvsd also continues listening for attaching debuggers, so you can reattach to the process again at any time.
 

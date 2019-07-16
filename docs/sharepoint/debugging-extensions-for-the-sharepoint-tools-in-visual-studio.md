@@ -1,18 +1,15 @@
 ---
 title: "Debugging Extensions for the SharePoint Tools in Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
   - "CSharp"
 helpviewer_keywords:
   - "SharePoint development in Visual Studio, debugging extensions"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -26,50 +23,50 @@ ms.workload:
 
  For examples that demonstrate how to debug various types of extensions in the experimental instance of Visual Studio, see the following walkthroughs:
 
--   [Walkthrough: Extend a SharePoint project item type](../sharepoint/walkthrough-extending-a-sharepoint-project-item-type.md)
+- [Walkthrough: Extend a SharePoint project item type](../sharepoint/walkthrough-extending-a-sharepoint-project-item-type.md)
 
--   [Walkthrough: Create custom action project item with an item template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md)
+- [Walkthrough: Create custom action project item with an item template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md)
 
--   [Walkthrough: Create a custom deployment step for SharePoint projects](../sharepoint/walkthrough-creating-a-custom-deployment-step-for-sharepoint-projects.md)
+- [Walkthrough: Create a custom deployment step for SharePoint projects](../sharepoint/walkthrough-creating-a-custom-deployment-step-for-sharepoint-projects.md)
 
--   [Walkthrough: Extend Server Explorer to display web parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md)
+- [Walkthrough: Extend Server Explorer to display web parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md)
 
--   [Walkthrough: Call into the SharePoint client object model in a Server Explorer extension](../sharepoint/walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension.md)
+- [Walkthrough: Call into the SharePoint client object model in a Server Explorer extension](../sharepoint/walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension.md)
 
 ## Debug extensions in the regular instance of Visual Studio
  If you want to debug your extension project in the regular instance of Visual Studio, first install the extension in the regular instance. Then, attach the debugger to a second Visual Studio process. After you are finished, you can remove the extension so that it no longer loads on the development computer.
 
 #### To install the extension
 
-1.  Close all instances of Visual Studio.
+1. Close all instances of Visual Studio.
 
-2.  In the build output folder for the extension project, open the *.vsix* file either by double-clicking it or by opening its shortcut menu and then choosing **Open**:
+2. In the build output folder for the extension project, open the *.vsix* file either by double-clicking it or by opening its shortcut menu and then choosing **Open**:
 
-3.  In the **Visual Studio Extension Installer** dialog box, choose the edition of Visual Studio to which you want to install the extension, and then choose the **Install** button.
+3. In the **Visual Studio Extension Installer** dialog box, choose the edition of Visual Studio to which you want to install the extension, and then choose the **Install** button.
 
      Visual Studio installs the extension files to %UserProfile%\AppData\Local\Microsoft\VisualStudio\11.0\Extensions\\*author name*\\*extension name*\\*version*. The last three folders in this path are constructed from the `Author`, `Name`, and `Version` elements in the *extension.vsixmanifest* file for the extension.
 
-4.  After Visual Studio installs the extension, choose the **Close** button.
+4. After Visual Studio installs the extension, choose the **Close** button.
 
 #### To debug the extension
 
-1.  Start Visual Studio with administrator privileges and open the extension project. The following steps refer to this instance of Visual Studio as the *first instance*.
+1. Open Visual Studio with administrator privileges and open the extension project. The following steps refer to this instance of Visual Studio as the *first instance*.
 
-2.  Start another instance of Visual Studio with administrator privileges. The following steps refer to this instance of Visual Studio as the *second instance*.
+2. Start another instance of Visual Studio with administrator privileges. The following steps refer to this instance of Visual Studio as the *second instance*.
 
-3.  Switch to the first instance of Visual Studio.
+3. Switch to the first instance of Visual Studio.
 
-4.  On the menu bar, choose **Debug**, **Attach to Process**.
+4. On the menu bar, choose **Debug**, **Attach to Process**.
 
-5.  In the **Available Processes** list, choose *devenv.exe*. This entry refers to the second instance of Visual Studio; this is the instance you want to debug your project extension in.
+5. In the **Available Processes** list, choose *devenv.exe*. This entry refers to the second instance of Visual Studio; this is the instance you want to debug your project extension in.
 
-6.  Choose the **Attach** button.
+6. Choose the **Attach** button.
 
      Visual Studio runs the extension project in debug mode.
 
-7.  Switch to the second instance of Visual Studio.
+7. Switch to the second instance of Visual Studio.
 
-8.  Create a new SharePoint project that loads your extension. For example, if you are debugging an extension for list definition project items, create a **List Definition** project.
+8. Create a new SharePoint project that loads your extension. For example, if you are debugging an extension for list definition project items, create a **List Definition** project.
 
 9. Perform whatever steps are required to test your extension code.
 
@@ -77,33 +74,33 @@ ms.workload:
 
 #### To remove the extension
 
-1.  In Visual Studio, on the menu bar, choose **Tools**, **Extensions and Updates**.
+1. In Visual Studio, on the menu bar, choose **Tools**, **Extensions and Updates**.
 
      The **Extensions and Updates** dialog box opens.
 
-2.  In the list of extensions, choose the name of the extension, and then choose the **Uninstall** button.
+2. In the list of extensions, choose the name of the extension, and then choose the **Uninstall** button.
 
-3.  In the dialog box that appears, choose the **Yes** button to confirm that you want to uninstall the extension.
+3. In the dialog box that appears, choose the **Yes** button to confirm that you want to uninstall the extension.
 
-4.  Choose the **Restart Now** button to complete the uninstallation.
+4. Choose the **Restart Now** button to complete the uninstallation.
 
 ## Debug SharePoint commands
  If you want to debug a SharePoint command that is part of a SharePoint tools extension, you must attach the debugger to the *vssphost4.exe* process. This is the 64-bit host process that executes SharePoint commands. For more information about SharePoint commands and *vssphost4.exe*, see [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md).
 
 #### To attach the debugger to the vssphost4.exe process
 
-1.  Start debugging your extension in the experimental instance of Visual Studio or the regular instance of Visual Studio by following the instructions above.
+1. Start debugging your extension in the experimental instance of Visual Studio or the regular instance of Visual Studio by following the instructions above.
 
-2.  In the instance of Visual Studio in which you are running the debugger, on the menu bar, choose **Debug**, **Attach to Process**.
+2. In the instance of Visual Studio in which you are running the debugger, on the menu bar, choose **Debug**, **Attach to Process**.
 
-3.  In the **Available Processes** list, choose *vssphost.exe*.
+3. In the **Available Processes** list, choose *vssphost.exe*.
 
     > [!NOTE]
-    >  If vssphost.exe does not appear in the list, you must start the *vssphost4.exe* process in the instance of Visual Studio in which you are running the extension. Typically, you do this by performing an action that causes Visual Studio to connect to the SharePoint site on the development computer. For example, Visual Studio starts *vssphost4.exe* when you expand a site connection node (a node that displays a site URL) under the **SharePoint Connections** node in the **Server Explorer** window, or when you add certain SharePoint project items, such as **List Instance** or **Event Receiver** items, to a SharePoint project.
+    > If vssphost.exe does not appear in the list, you must start the *vssphost4.exe* process in the instance of Visual Studio in which you are running the extension. Typically, you do this by performing an action that causes Visual Studio to connect to the SharePoint site on the development computer. For example, Visual Studio starts *vssphost4.exe* when you expand a site connection node (a node that displays a site URL) under the **SharePoint Connections** node in the **Server Explorer** window, or when you add certain SharePoint project items, such as **List Instance** or **Event Receiver** items, to a SharePoint project.
 
-4.  Choose the **Attach** button.
+4. Choose the **Attach** button.
 
-5.  In the instance of Visual Studio that is being debugged, perform the steps that are required to execute your command.
+5. In the instance of Visual Studio that is being debugged, perform the steps that are required to execute your command.
 
 ## Modify registry values to help debug SharePoint tools extensions
  When you debug an extension of the SharePoint tools in Visual Studio, you can modify values in the registry to help you troubleshoot the extension. The values exist under the **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\11.0\SharePointTools** key. These values do not exist by default.

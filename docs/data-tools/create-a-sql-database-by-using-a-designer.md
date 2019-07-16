@@ -1,5 +1,6 @@
 ---
 title: Create a database file and use table designer
+description: Tutorial that describes how to add tables and foreign keys to a database by using Table Designer in Visual Studio. It also shows how to add data through the graphical interface.
 ms.date: 11/03/2017
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,9 +10,7 @@ helpviewer_keywords:
 ms.assetid: 99c2b06f-47aa-414e-8057-a3453712fd23
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -21,11 +20,23 @@ You can use Visual Studio to create and update a local database file in SQL Serv
 
 ## Prerequisites
 
-To complete this walkthrough, you must have the optional **Data storage and processing** workload installed in Visual Studio. To install it, open **Visual Studio Installer** and choose the **Workloads** tab. Under **Web & Cloud**, choose **Data storage and processing**. Choose the **Modify** button to add the workload to Visual Studio.
+To complete this walkthrough, you must have the optional **Data storage and processing** workload installed in Visual Studio. To install it, open **Visual Studio Installer** and choose **Modify** or **More** > **Modify** next to the version of Visual Studio you want to modify.
+
+::: moniker range=">=vs-2019"
+
+On the **Workloads** tab, under **Other Toolsets**, choose **Data storage and processing**, and then click **Modify** to add the workload to Visual Studio.
+
+::: moniker-end
+
+::: moniker range="=vs-2017"
+
+On the **Workloads** tab, under **Web & Cloud**, choose **Data storage and processing**, and then click **Modify** to add the workload to Visual Studio.
+
+::: moniker-end
 
 ## Create a project and a local database file
 
-1. Create a Windows Forms project that's named **SampleDatabaseWalkthrough**.
+1. Create a new **Windows Forms App** project and name it **SampleDatabaseWalkthrough**.
 
 2. On the menu bar, select **Project** > **Add New Item**.
 
@@ -33,9 +44,9 @@ To complete this walkthrough, you must have the optional **Data storage and proc
 
      ![Item Templates dialog box](../data-tools/media/raddata-vsitemtemplates.png)
 
-4. Name the database **SampleDatabase**, and then select the **Add** button.
+4. Name the database **SampleDatabase**, and then click **Add**.
 
-### To add a data source
+### Add a data source
 
 1. If the **Data Sources** window isn't open, open it by pressing **Shift**+**Alt**+**D** or selecting **View** > **Other Windows** > **Data Sources** on the menu bar.
 
@@ -53,21 +64,21 @@ To complete this walkthrough, you must have the optional **Data storage and proc
 
 1. One the **Choose your Database Objects** page, you'll see a message that says the database doesn't contain any objects. Choose **Finish**.
 
-### To view properties of the data connection
+### View properties of the data connection
 
 You can view the connection string for the *SampleDatabase.mdf* file by opening the properties window of the data connection:
 
--   In Visual Studio, select **View** > **SQL Server Object Explorer** if that window isn't already open. Open the properties window by expanding the **Data Connections** node, opening the shortcut menu for *SampleDatabase.mdf*, and then selecting **Properties**.
+- Select **View** > **SQL Server Object Explorer** to open the **SQL Server Object Explorer** window. Expand **(localdb)\MSSQLLocalDB** > **Databases**, and then right-click on *SampleDatabase.mdf* and select **Properties**.
 
--   Alternatively, you can select **View** > **Server Explorer**, if that window isn't already open. Open the properties window by expanding the **Data Connections** node. Open the shortcut menu for *SampleDatabase.mdf*, and then select **Properties**.
+- Alternatively, you can select **View** > **Server Explorer**, if that window isn't already open. Open the properties window by expanding the **Data Connections** node, opening the shortcut menu for *SampleDatabase.mdf*, and then selecting **Properties**.
 
 ## Create tables and keys by using Table Designer
 
 In this section, you'll create two tables, a primary key in each table, and a few rows of sample data. You'll also create a foreign key to specify how records in one table correspond to records in the other table.
 
-### To create the Customers table
+### Create the Customers table
 
-1. In **Server Explorer** or **SQL Server Object Explorer**, expand the **Data Connections** node, and then expand the **SampleDatabase.mdf** node.
+1. In **Server Explorer**, expand the **Data Connections** node, and then expand the **SampleDatabase.mdf** node.
 
 2. Open the shortcut menu for **Tables**, and then select **Add New Table**.
 
@@ -96,13 +107,13 @@ In this section, you'll create two tables, a primary key in each table, and a fe
 
     ![Table Designer](../data-tools/media/raddata-table-designer.png)
 
-7. In the upper-left corner of the **Table Designer**, select the **Update** button.
+7. In the upper-left corner of **Table Designer**, select **Update**.
 
-8. In the **Preview Database Updates** dialog box, select the **Update Database** button.
+8. In the **Preview Database Updates** dialog box, select **Update Database**.
 
     Your changes are saved to the local database file.
 
-### To create the Orders table
+### Create the Orders table
 
 1. Add another table, and then add a row for each entry in the following table:
 
@@ -127,7 +138,7 @@ In this section, you'll create two tables, a primary key in each table, and a fe
 
     Your changes are saved to the local database file.
 
-### To create a foreign key
+### Create a foreign key
 
 1. In the context pane on the right side of the grid, open the shortcut menu for **Foreign Keys**, and then select **Add New Foreign Key**, as the following illustration shows.
 

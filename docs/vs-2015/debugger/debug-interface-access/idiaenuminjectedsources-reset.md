@@ -1,14 +1,9 @@
 ---
 title: "IDiaEnumInjectedSources::Reset | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: c28e8820-1c67-4658-821d-b5879f90cce5
 caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaEnumInjectedSources::Reset
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -35,6 +30,3 @@ HRESULT Reset();
   
 ## See Also  
  [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)
-
-
-

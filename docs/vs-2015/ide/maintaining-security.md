@@ -1,14 +1,9 @@
 ---
 title: "Maintaining Security | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "unauthorized access"
   - "Baseline Security Analyzer"
@@ -20,7 +15,7 @@ ms.assetid: 621d10c1-842b-4902-be60-bb9719591751
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Maintaining Security
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,17 +27,14 @@ It is often said that the price of security is constant vigilance. Despite your 
  [Security, Privacy, and Accounts](http://go.microsoft.com/fwlink/?LinkId=72881)  
  Get help with security, privacy, and user accounts, including info about viruses, passwords, parental controls, firewalls, and drive encryption..  
   
- [Microsoft Security Bulletin Search](http://go.microsoft.com/fwlink/?LinkId=110396)  
+ [Microsoft Security Bulletin Search](/security-updates/)  
  This page makes it easy to find previously released bulletins. Intended for IT professionals, security bulletins provide detailed information regarding security updates.  
   
- [Windows Server 2003 Security Guide](http://go.microsoft.com/fwlink/?LinkId=65300)  
+ [Windows Server 2003 Security Guide](/previous-versions/tn-archive/cc163140(v=technet.10) 
  Delivers the guidance necessary for IT Professionals to securely operate a Windows Server 2003 environment while ensuring the right access to the right content by the right people.  
   
- [Best Practices for Enterprise Security](http://go.microsoft.com/fwlink/?LinkId=72879)  
+ [Best Practices for Enterprise Security](/previous-versions/tn-archive/cc750076%28v%3dtechnet.10%29)  
  A collection of whitepapers focusing on the different aspects of security in enterprise networks.  
   
- [Microsoft Baseline Security Analyzer](http://go.microsoft.com/fwlink/?LinkId=9173)  
+ [Microsoft Baseline Security Analyzer](/windows/security/threat-protection/mbsa-removal-and-guidance)  
  The Microsoft Baseline Security Analyzer (MBSA) is a tool that enables an individual home user, a corporate user, or an administrator to scan one or more Windows-based computers for common security configuration mistakes.
-
-
-

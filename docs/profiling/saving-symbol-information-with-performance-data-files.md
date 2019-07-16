@@ -1,16 +1,14 @@
 ---
 title: "Saving Symbol Information with Performance Data Files | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "packsymbols, in profiling tools reports"
   - "profiling tools, packsymbols"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Saving Symbol Information with Performance Data Files
@@ -57,6 +55,6 @@ VsPerfReport -packsymbols -summary:all filename.vsp
 
 ## See also
 
-[Saving and Exporting Performance Tools Data](../profiling/saving-and-exporting-performance-tools-data.md)  
-[How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md)  
+[Saving and Exporting Performance Tools Data](../profiling/saving-and-exporting-performance-tools-data.md)
+[How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md)
 [VSPerfReport](../profiling/vsperfreport.md)

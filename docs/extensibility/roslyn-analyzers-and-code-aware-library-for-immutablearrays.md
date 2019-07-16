@@ -1,14 +1,11 @@
 ---
 title: "Roslyn Analyzers and Code-aware Library for ImmutableArrays | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 0b0afa22-3fca-4d59-908e-352464c1d903
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
+author: madskristensen
+ms.author: madsk
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---
@@ -22,7 +19,7 @@ You need the following to build this example:
 
 * Visual Studio 2015 (not an Express Edition) or a later version. You can use the free [Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/)
 * [Visual Studio SDK](../extensibility/visual-studio-sdk.md). You can also, when installing Visual Studio, check **Visual Studio Extensibility Tools** under **Common Tools** to install the SDK at the same time. If you have already installed Visual Studio, you can also install this SDK by going to the main menu **File** > **New** > **Project**, choosing **C#** in the left navigation pane, and then choosing **Extensibility**. When you choose the "**Install the Visual Studio Extensibility Tools**" breadcrumb project template, it prompts you to download and install the SDK.
-* [.NET Compiler Platform ("Roslyn") SDK](http://aka.ms/roslynsdktemplates). You can also install this SDK by going to the main menu **File** > **New** > **Project**, choosing **C#** in the left navigation pane, and then choosing **Extensibility**. When you choose "**Download the .NET Compiler Platform SDK**" breadcrumb project template, it prompts you to download and install the SDK. This SDK includes the [Roslyn Syntax Visualizer](https://github.com/dotnet/roslyn/wiki/Syntax%20Visualizer). This useful tool helps you figure out what code model types you should look for in your analyzer. The analyzer infrastructure calls into your code for specific code model types, so your code only executes when necessary and can focus only on analyzing relevant code.
+* [.NET Compiler Platform ("Roslyn") SDK](https://aka.ms/roslynsdktemplates). You can also install this SDK by going to the main menu **File** > **New** > **Project**, choosing **C#** in the left navigation pane, and then choosing **Extensibility**. When you choose "**Download the .NET Compiler Platform SDK**" breadcrumb project template, it prompts you to download and install the SDK. This SDK includes the [Roslyn Syntax Visualizer](https://github.com/dotnet/roslyn/wiki/Syntax%20Visualizer). This useful tool helps you figure out what code model types you should look for in your analyzer. The analyzer infrastructure calls into your code for specific code model types, so your code only executes when necessary and can focus only on analyzing relevant code.
 
 ## What's the problem?
 
@@ -295,7 +292,7 @@ Next, the method fetches the root of the document, and because this can involve 
 
 You can now press **F5** to execute your analyzer in a second instance of Visual Studio. Open the console project you used before. Now you should see the light bulb appear where your new object creation expression is for `ImmutableArray<int>`. If you press **Ctrl**+**.** (period), then you will see your code fix, and you will see an automatically generated code difference preview in the light bulb UI. Roslyn creates this for you.
 
-**Pro Tip:** If you launch the second instance of Visual Studio, and you don't see the light bulb with your code fix, then you may need to clear the Visual Studio component cache. Clearing the cache forces Visual Studio to re-examine the components, so Visual Studio should then pick up your latest component. First, shut down the second instance of Visual Studio. Then, in **Windows Explorer**, navigate to *%LOCALAPPDATA%\Microsoft\VisualStudio\15.0Roslyn\\*. (The "15.0" changes from version to version with Visual Studio). Delete the subdirectory *ComponentModelCache*.
+**Pro Tip:** If you launch the second instance of Visual Studio, and you don't see the light bulb with your code fix, then you may need to clear the Visual Studio component cache. Clearing the cache forces Visual Studio to re-examine the components, so Visual Studio should then pick up your latest component. First, shut down the second instance of Visual Studio. Then, in **Windows Explorer**, navigate to *%LOCALAPPDATA%\Microsoft\VisualStudio\16.0Roslyn\\*. (The "16.0" changes from version to version with Visual Studio.) Delete the subdirectory *ComponentModelCache*.
 
 ## Talk video and finish code project
 

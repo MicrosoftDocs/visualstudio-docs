@@ -1,15 +1,13 @@
 ---
 title: "Debugging Web Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugging ASP.NET Web applications, about debugging ASP.NET Web applications"
   - "ASP.NET debugging, Web services"
   - "debugging [ASP.NET], about debugging ASP.NET Web applications"
@@ -17,24 +15,23 @@ helpviewer_keywords:
 ms.assetid: a096a90d-6d0d-4752-9fb5-417635ccab3e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Debugging Web Applications
-This section explains how to debug several types of Web applications.  
-  
-## In This Section   
- [Client-Side Script Debugging](../debugger/client-side-script-debugging.md)  
- Discusses testing scripts and client-side scripts in [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] pages.  
-  
-## Related Sections  
- [Debug ASP.NET applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)  
- Describes the steps that are required to enable debugging of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications.  
-  
-## See Also  
- [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)   
- [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
- [Debugger Basics](../debugger/getting-started-with-the-debugger.md)   
- [Debugging in Visual Studio](../debugger/index.md)  
- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
+This section explains how to debug several types of Web applications.
+
+## In This Section
+ [Client-Side Script Debugging](../debugger/client-side-script-debugging.md)
+ Discusses testing scripts and client-side scripts in [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] pages.
+
+## Related Sections
+ [Debug ASP.NET applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)
+ Describes the steps that are required to enable debugging of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications.
+
+## See Also
+- [Debugging Web Applications and Script](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)
+- [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [Debugging in Visual Studio](../debugger/index.md)

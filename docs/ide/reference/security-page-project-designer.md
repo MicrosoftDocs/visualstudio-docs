@@ -1,8 +1,6 @@
 ---
 title: Security Page, Project Designer
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "vb.ProjectPropertiesSecurity"
@@ -12,7 +10,7 @@ helpviewer_keywords:
   - "Security page in Project Designer"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -30,7 +28,6 @@ The **Security** page of the **Project Designer** is used to configure code acce
 
 > [!NOTE]
 > When you publish an application by using the **Publish** wizard, this option is automatically enabled.
-
 
  When you select this option, you have the choice of selecting one of two radio buttons: **This is a full trust application** or **This is a partial trust application**.
 

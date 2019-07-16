@@ -1,5 +1,5 @@
 ---
-title: "Load Test Results Summary Overview in Visual Studio"
+title: "Load Test Results Summary Overview"
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
@@ -13,9 +13,7 @@ helpviewer_keywords:
 ms.assetid: 326b6c3c-5378-452b-8ca3-ba5a06ab3d41
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Load test results summary overview
 
@@ -103,9 +101,9 @@ The transaction results section contains a list of all the transactions in the l
 
 The percentile values report the following transaction information:
 
--   90% of the total transactions were completed in less than \<time> seconds.
+- 90% of the total transactions were completed in less than \<time> seconds.
 
--   95% of the total transactions were completed in less than \<time> seconds.
+- 95% of the total transactions were completed in less than \<time> seconds.
 
 ## System under test resources
 

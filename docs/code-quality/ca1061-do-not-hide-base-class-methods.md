@@ -1,8 +1,6 @@
 ---
 title: "CA1061: Do not hide base class methods"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1061"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 0bda9dc8-87b4-4038-ab9d-563298387466
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

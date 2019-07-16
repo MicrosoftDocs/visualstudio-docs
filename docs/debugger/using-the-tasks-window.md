@@ -1,8 +1,6 @@
 ---
 title: "Using the Tasks Window | Microsoft Docs"
-ms.custom: ""
 ms.date: "03/18/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.paralleltasks"
@@ -16,11 +14,11 @@ helpviewer_keywords:
 ms.assetid: bd5e0612-a0dc-41cf-a7af-1e87d0d5c35f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Using the Tasks Window
+# Using the Tasks Window (C#, Visual Basic, C++)
 
 The **Tasks** window resembles the **Threads** window, except that it shows information about <xref:System.Threading.Tasks.Task?displayProperty=fullName>, [task_handle](/cpp/parallel/concrt/reference/task-group-class), or [WinJS.Promise](/previous-versions/windows/apps/br211867(v=win.10)) objects instead of each thread. Like threads, tasks represent asynchronous operations that can run concurrently; however, multiple tasks may run on the same thread.
 
@@ -90,7 +88,7 @@ The **Switch to Task** command makes the current task the active task. The **Swi
 
 ## See also
 
-- [Debugger Basics](../debugger/getting-started-with-the-debugger.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
 - [Parallel Programming](/dotnet/standard/parallel-programming/index)
 - [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime)

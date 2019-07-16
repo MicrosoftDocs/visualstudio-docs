@@ -1,14 +1,9 @@
 ---
 title: "CvCreateDefaultMarkerSeriesOfDefaultProvider Function | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "cvmarkers/CvCreateDefaultMarkerSeriesOfDefaultProvider"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 24eb80f8-8fca-4c47-93b5-bb1eb8ffdffd
 caps.latest.revision: 7
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # CvCreateDefaultMarkerSeriesOfDefaultProvider Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,6 +43,3 @@ HRESULT CvCreateDefaultMarkerSeriesOfDefaultProvider(
   
 ## See Also  
  [C++ Library Reference](../profiling/cpp-library-reference.md)
-
-
-

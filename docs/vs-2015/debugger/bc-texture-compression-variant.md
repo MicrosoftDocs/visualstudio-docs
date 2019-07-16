@@ -1,19 +1,14 @@
 ---
 title: "BC Texture Compression Variant | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 2d0f5305-585b-4b01-bc9a-7a32d6e991da
 caps.latest.revision: 7
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # BC Texture Compression Variant
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,13 +25,13 @@ Enables block compression on textures that have a pixel format that's a variatio
   
 - The `D3D11_TEXTURE2D_DESC` object passed in `pDesc` describes an unchanging shader resource; that is:  
   
-  -   The BindFlags member has only the D3D11_BIND_SHADER_RESOURCE flag set.  
+  - The BindFlags member has only the D3D11_BIND_SHADER_RESOURCE flag set.  
   
-  -   The Usage member is set to either D3D11_USAGE_DEFAULT or D3D11_USAGE_IMMUTABLE.  
+  - The Usage member is set to either D3D11_USAGE_DEFAULT or D3D11_USAGE_IMMUTABLE.  
   
-  -   The CPUAccessFlags member is set to 0 (no CPU access).  
+  - The CPUAccessFlags member is set to 0 (no CPU access).  
   
-  -   The SamplerDesc member has its Count member set to 1 (no Multi-Sample Anti-Aliasing (MSAA)).  
+  - The SamplerDesc member has its Count member set to 1 (no Multi-Sample Anti-Aliasing (MSAA)).  
   
 - Initial data is provided to the call to `CreateTexture2D`.  
   
@@ -64,6 +59,3 @@ Enables block compression on textures that have a pixel format that's a variatio
   
 ## See Also  
  [Half/Quarter Texture Dimensions Variant](../debugger/half-quarter-texture-dimensions-variant.md)
-
-
-

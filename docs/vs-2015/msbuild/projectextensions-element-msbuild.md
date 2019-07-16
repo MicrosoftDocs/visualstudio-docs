@@ -1,14 +1,9 @@
 ---
 title: "ProjectExtensions Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#ProjectExtensions"
 dev_langs: 
@@ -23,12 +18,11 @@ ms.assetid: f95f312f-ff92-41eb-9469-ad99e236a307
 caps.latest.revision: 21
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # ProjectExtensions Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Allows [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project files to contain non-[!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] information. Anything inside of a `ProjectExtensions` element will be ignored by [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)].  
   
  \<Project>  
@@ -78,5 +72,3 @@ Allows [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project files to
 ## See Also  
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)  
  [MSBuild](msbuild.md)
-
-

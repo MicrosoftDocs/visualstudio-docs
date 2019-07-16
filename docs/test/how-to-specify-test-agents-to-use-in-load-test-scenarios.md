@@ -1,5 +1,5 @@
 ---
-title: "Specify Test Agents to Use in Load Test Scenarios in Visual Studio"
+title: "Specify Test Agents to Use in Load Test Scenarios"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,9 +11,7 @@ helpviewer_keywords:
 ms.assetid: e86806dd-5897-4e4c-bfd4-8d687fb72a6e
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Specify test agents to use in load test scenarios
 
@@ -41,24 +39,24 @@ If a test agent machine has more than 75 percent CPU utilization or has less tha
 
 ## To specify the agents to use for a scenario
 
-1.  Open a load test.
+1. Open a load test.
 
      The **Load Test Editor** appears. The load test tree is displayed.
 
-2.  In the load test trees **Scenarios** folder, choose the scenario node for which you want to specify the agents to use.
+2. In the load test trees **Scenarios** folder, choose the scenario node for which you want to specify the agents to use.
 
-3.  On the **View** menu, select **Properties Window**.
+3. On the **View** menu, select **Properties Window**.
 
      The categories and properties of the scenario are displayed in the **Properties** window.
 
-4.  In the text box for the **Agents to Use** property, type the list of agents on which the scenario may run.
+4. In the text box for the **Agents to Use** property, type the list of agents on which the scenario may run.
 
      Agents must be separated by commas, for example "**Agent1, Agent2, Agent3**". Leaving the property blank specifies that the scenario should use all available agents.
 
     > [!NOTE]
     > The **Agents to Use** property is ignored for local runs. For remote runs, if none of the agents specified in **Agents to Use** exist, tests in the scenario will not run.
 
-5.  After you change the property, choose **Save** on the **File** menu. You can then run your load test by using the new **Agents to Use** value.
+5. After you change the property, choose **Save** on the **File** menu. You can then run your load test by using the new **Agents to Use** value.
 
 ## See also
 

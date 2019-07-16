@@ -1,8 +1,6 @@
 ---
-title: "How to: Move around in the Visual Studio IDE"
+title: How to move around in the IDE
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "environments [Visual Studio], navigation"
@@ -16,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 6c36b6eb-c93f-496b-af08-4199f7afd8bd
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -39,9 +37,9 @@ Navigate backward and navigate forward cycle through the open files in the edito
 
 ### To move through open files in order of use
 
--   To activate open documents in the order they were most recently touched, press **Ctrl**+**-**.
+- To activate open documents in the order they were most recently touched, press **Ctrl**+**-**.
 
--   To activate open documents in the reverse order, press **Ctrl**+**Shift**+**-**.
+- To activate open documents in the reverse order, press **Ctrl**+**Shift**+**-**.
 
     > [!NOTE]
     > **Navigate Backward** and **Navigate Forward** also can be found on the **View** menu.
@@ -59,20 +57,20 @@ The **IDE Navigator** works much like the Windows application switcher. It is no
 
 ### To switch to specific files in the editor
 
--   Press **Ctrl**+**Tab** to display the **IDE Navigator**. Hold down the **Ctrl** key and press **Tab** repeatedly until you select the file you intend to switch to.
+- Press **Ctrl**+**Tab** to display the **IDE Navigator**. Hold down the **Ctrl** key and press **Tab** repeatedly until you select the file you intend to switch to.
 
     > [!TIP]
     > To reverse the order in which you go through the **Active Files** list, hold down the **Ctrl**+**Shift** keys and press **Tab**.
 
     \- or -
 
--   In the upper right corner of the editor, choose the **Active Files** button, and then select a file from the list to switch to.
+- In the upper right corner of the editor, choose the **Active Files** button, and then select a file from the list to switch to.
 
     \- or -
 
--   On the menu bar, choose **Window** > **Windows**.
+- On the menu bar, choose **Window** > **Windows**.
 
--   In the list, select the file you want to view and then choose **Activate**.
+- In the list, select the file you want to view and then choose **Activate**.
 
 ## Navigate among tool windows in the IDE
 
@@ -83,7 +81,7 @@ The **IDE Navigator** also lets you cycle through the tool windows you have open
 
 ### To switch to a specific tool window in the IDE
 
--   Press **Alt**+**F7** to display the **IDE Navigator**. Hold down the **Alt** key and press **F7** repeatedly until you select the window you intend to switch to.
+- Press **Alt**+**F7** to display the **IDE Navigator**. Hold down the **Alt** key and press **F7** repeatedly until you select the window you intend to switch to.
 
     > [!TIP]
     > To reverse the order in which you go through the **Active Tool Windows** list, hold down the **Shift**+**Alt** keys and press **F7**.

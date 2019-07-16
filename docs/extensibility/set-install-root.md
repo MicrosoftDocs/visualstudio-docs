@@ -1,20 +1,17 @@
 ---
 title: "Installing outside the extensions folder with VSIX v3 | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/09/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 913c3745-8aa9-4260-886e-a05aecfb2225
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
-# Installing outside the extensions folder
+# Install outside the extensions folder
 
-Starting with Visual Studio 2017 and VSIX v3 (version 3), there is now support for installing extension assets outside of the extensions folder. Currently, the following locations are enabled as valid installation locations (where [INSTALLDIR] is mapped to the Visual Studio instance's installation directory):
+Starting with Visual Studio 2017 and VSIX v3 (version 3), extension assets can be installed outside of the extensions folder. Currently, the following locations are enabled as valid installation locations (where [INSTALLDIR] is mapped to the Visual Studio instance's installation directory):
 
 * [INSTALLDIR]\MSBuild
 * [INSTALLDIR]\Xml\Schemas
@@ -22,9 +19,10 @@ Starting with Visual Studio 2017 and VSIX v3 (version 3), there is now support f
 * [INSTALLDIR]\Licenses
 * [INSTALLDIR]\Common7\IDE\ReferenceAssemblies
 * [INSTALLDIR]\Common7\IDE\RemoteDebugger
-* [INSTALLDIR]\Common7\IDE\VC\VCTargets
+* [INSTALLDIR]\Common7\IDE\VC\VCTargets (only supported for Visual Studio 2017; deprecated for Visual Studio 2019 and later)
 
->**Note:** The VSIX format does not allow you to install outside the VS install folder structure.
+> [!NOTE]
+> The VSIX format doesn't allow you to install outside the Visual Studio install folder structure. 
 
 In order to support installing to these directories, the VSIX must be installed "per-instance per-machine". This can be enabled by checking the "all-users" checkbox in the extension.vsixmanifest designer:
 
@@ -46,7 +44,8 @@ This will add some metadata to the corresponding `ProjectReference` property ins
  </ProjectReference>
 ```
 
->**Note:** You can edit the .csproj file directly, if you prefer.
+> [!NOTE]
+> You can edit the .csproj file directly, if you prefer.
 
 ## How to set a subpath under the InstallRoot
 

@@ -1,21 +1,16 @@
 ---
 title: "Visual Studio SDK Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "Visual Studio SDK, reference"
   - "reference, Visual Studio SDK"
 ms.assetid: a6930db5-a112-4651-8de3-e520df851f82
 caps.latest.revision: 32
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Visual Studio SDK Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,10 +19,10 @@ This section contains information about Visual Studio namespaces, related namesp
   
 ## In This Section
 
- [Setup Configuration](http://msdn.microsoft.com/en-us/faa4ed55-66ce-4792-939f-a5b093f13a2e)  
+ [Setup Configuration](https://msdn.microsoft.com/library/faa4ed55-66ce-4792-939f-a5b093f13a2e)  
  Setup configuration API for discovering instances of Visual Studio 2017.
 
- [Open Folder Extensibility](http://msdn.microsoft.com/en-us/0897ae3d-6a09-4d26-90c9-7f3d0b8e5c5d)  
+ [Open Folder Extensibility](https://msdn.microsoft.com/library/0897ae3d-6a09-4d26-90c9-7f3d0b8e5c5d)  
  Workspace API for Open Folder in Visual Studio 2017.
  
  <xref:Microsoft.VisualStudio.TextManager.Interop>  
@@ -309,4 +304,3 @@ This section contains information about Visual Studio namespaces, related namesp
 ## Related Sections  
  [Visual Studio SDK](../extensibility/visual-studio-sdk.md)  
  Includes documentation, samples, and code to help you develop products that integrate with Visual Studio.
-

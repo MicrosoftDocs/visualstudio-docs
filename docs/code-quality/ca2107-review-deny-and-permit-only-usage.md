@@ -1,8 +1,6 @@
 ---
 title: "CA2107: Review deny and permit only usage"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2107"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 366f4a56-ae93-4882-81d0-bd0a55ebbc26
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -27,14 +25,16 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- A method contains a security check that specifies the PermitOnly or Deny security action.
+
+A method contains a security check that specifies the PermitOnly or Deny security action.
 
 ## Rule description
- The <xref:System.Security.CodeAccessPermission.Deny%2A?displayProperty=fullName> security action should be used only by those who have an advanced knowledge of .NET Framework security. Code that uses these security actions should undergo a security review.
 
- Deny alters the default behavior of the stack walk that occurs in response to a security demand. It lets you specify permissions that must not be granted for the duration of the denying method, regardless of the actual permissions of the callers in the call stack. If the stack walk detects a method that is secured by Deny, and if the demanded permission is included in the denied permissions, the stack walk fails. PermitOnly also alters the default behavior of the stack walk. It allows code to specify only those permissions that can be granted, regardless of the permissions of the callers. If the stack walk detects a method that is secured by PermitOnly, and if the demanded permission is not included in the permissions that are specified by the PermitOnly, the stack walk fails.
+The <xref:System.Security.CodeAccessPermission.Deny%2A?displayProperty=fullName> security action should be used only by those who have an advanced knowledge of .NET security. Code that uses these security actions should undergo a security review.
 
- Code that relies on these actions should be carefully evaluated for security vulnerabilities because of their limited usefulness and subtle behavior. Consider the following:
+Deny alters the default behavior of the stack walk that occurs in response to a security demand. It lets you specify permissions that must not be granted for the duration of the denying method, regardless of the actual permissions of the callers in the call stack. If the stack walk detects a method that is secured by Deny, and if the demanded permission is included in the denied permissions, the stack walk fails. PermitOnly also alters the default behavior of the stack walk. It allows code to specify only those permissions that can be granted, regardless of the permissions of the callers. If the stack walk detects a method that is secured by PermitOnly, and if the demanded permission is not included in the permissions that are specified by the PermitOnly, the stack walk fails.
+
+Code that relies on these actions should be carefully evaluated for security vulnerabilities because of their limited usefulness and subtle behavior. Consider the following:
 
 - [Link Demands](/dotnet/framework/misc/link-demands) are not affected by Deny or PermitOnly.
 
@@ -47,22 +47,24 @@ ms.workload:
 - If a Deny has any effect, namely, when a caller has a permission that is blocked by the Deny, the caller can access the protected resource directly, bypassing the Deny. Similarly, if the caller does not have the denied permission, the stack walk would fail without the Deny.
 
 ## How to fix violations
- Any use of these security actions will cause a violation. To fix a violation, do not use these security actions.
+
+Any use of these security actions will cause a violation. To fix a violation, do not use these security actions.
 
 ## When to suppress warnings
- Suppress a warning from this rule only after you complete a security review.
+
+Suppress a warning from this rule only after you complete a security review.
 
 ## Example 1
- The following example demonstrates some limitations of Deny.
 
- The following library contains a class that has two methods that are identical except for the security demands that protect them.
+The following example demonstrates some limitations of Deny. The library contains a class that has two methods that are identical except for the security demands that protect them.
 
- [!code-csharp[FxCop.Security.PermitAndDeny#1](../code-quality/codesnippet/CSharp/ca2107-review-deny-and-permit-only-usage_1.cs)]
+[!code-csharp[FxCop.Security.PermitAndDeny#1](../code-quality/codesnippet/CSharp/ca2107-review-deny-and-permit-only-usage_1.cs)]
 
 ## Example 2
- The following application demonstrates the effects of Deny on the secured methods from the library.
 
- [!code-csharp[FxCop.Security.TestPermitAndDeny#1](../code-quality/codesnippet/CSharp/ca2107-review-deny-and-permit-only-usage_2.cs)]
+The following application demonstrates the effects of Deny on the secured methods from the library.
+
+[!code-csharp[FxCop.Security.TestPermitAndDeny#1](../code-quality/codesnippet/CSharp/ca2107-review-deny-and-permit-only-usage_2.cs)]
 
 This example produces the following output:
 

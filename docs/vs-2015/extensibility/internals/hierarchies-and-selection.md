@@ -1,14 +1,9 @@
 ---
 title: "Hierarchies and Selection | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio, hierarchies"
   - "selection"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: cad0a859-7a84-4ce5-b0a9-f7f64e5f8ebb
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Hierarchies and Selection
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,4 +34,3 @@ When you customize [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], you should u
 ## Related Sections  
  [Architecture](../../extensibility/internals/project-types-architecture.md)  
  Provides detailed technical information about project types.
-

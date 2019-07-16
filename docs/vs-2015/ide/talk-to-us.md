@@ -1,12 +1,8 @@
 ---
 title: "Talk to Us | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "product support [Visual Studio]"
   - "Help [Visual Studio], product support"
@@ -14,14 +10,12 @@ ms.assetid: e0846d4d-2ce1-48e3-b219-674ff070bf4e
 caps.latest.revision: 34
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Talk to Us
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio 2017, see [Talk to Us](https://docs.microsoft.com/visualstudio/ide/talk-to-us) on docs.microsoft.com.  
-
-  
+For the latest documentation on Visual Studio, see [Talk to Us](https://docs.microsoft.com/visualstudio/ide/talk-to-us).  
 
 We're interested in your ideas for improving our documentation. We can’t respond personally, but we’ll make sure your feedback gets to the right person.  
   

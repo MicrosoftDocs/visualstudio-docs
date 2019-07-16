@@ -1,19 +1,14 @@
 ---
 title: "0x-2x-4x MSAA Variants | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 668a6603-5082-4c78-98e6-f3dc871aa55b
 caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # 0x/2x/4x MSAA Variants
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,24 +23,24 @@ Overrides multi-sample anti-aliasing (MSAA) settings on all render targets and s
  If your app doesn't already have MSAA enabled, then the 2x MSAA and 4x MSAA variants indicate the relative performance cost of enabling them in your app. When the cost is acceptably low, consider enabling MSAA to enhance the image quality of your app.  
   
 > [!NOTE]
->  Your hardware might not fully support MSAA for all formats. If any of these variants encounter a hardware limitation that can't be worked around, its column in the performance summary table is blank and an error message is produced.  
+> Your hardware might not fully support MSAA for all formats. If any of these variants encounter a hardware limitation that can't be worked around, its column in the performance summary table is blank and an error message is produced.  
   
 ## Remarks  
  These variants override the sample count and sample-quality arguments on calls to `ID3DDevice::CreateTexture2D` that create render targets. Specifically, these parameters are overridden when:  
   
 - The `D3D11_TEXTURE2D_DESC` object passed in `pDesc` describes a render target; that is:  
   
-  -   The BindFlags member has either the D3D11_BIND_TARGET flag or D3D11_BIND_DEPTH_STENCIL flag set.  
+  - The BindFlags member has either the D3D11_BIND_TARGET flag or D3D11_BIND_DEPTH_STENCIL flag set.  
   
-  -   The Usage member is set to D3D11_USAGE_DEFAULT.  
+  - The Usage member is set to D3D11_USAGE_DEFAULT.  
   
-  -   The CPUAccessFlags member is set to 0.  
+  - The CPUAccessFlags member is set to 0.  
   
-  -   The MipLevels member is set to 1.  
+  - The MipLevels member is set to 1.  
   
 - The device supports the requested sample count (0, 2, or 4) and sample quality (0) for the requested render target format (D3D11_TEXTURE2D_DESC::Format member), as determined by `ID3D11Device::CheckMultisampleQualityLevels`.  
   
-  If the D3D11_TEXTURE2D_DESC::BindFlags member has the D3D_BIND_SHADER_RESOUCE or D3D11_BIND_UNORDERED_ACCESS flags set, then two versions of the texture are created; the first has these flags cleared for use as the render target, and the other is a non-MSAA texture that has these flags left intact to act as a resolve buffer for the first version. This is necessary because using an MSAA texture as a shader resource or for unordered access is unlikely to be valid—for example, a shader acting on it would generate incorrect results because it would expect a non-MSAA texture. If the variant has created the secondary non-MSAA texture, then whenever the MSAA render target is unset from the device context, its contents are resolved into the non-MSAA texture. Likewise, whenever the MSAA render target should be bound as a shader resource, or is used in an unordered access view, the resolved non-MSAA texture is bound instead.  
+  If the D3D11_TEXTURE2D_DESC::BindFlags member has the D3D_BIND_SHADER_RESOURCE or D3D11_BIND_UNORDERED_ACCESS flags set, then two versions of the texture are created; the first has these flags cleared for use as the render target, and the other is a non-MSAA texture that has these flags left intact to act as a resolve buffer for the first version. This is necessary because using an MSAA texture as a shader resource or for unordered access is unlikely to be valid—for example, a shader acting on it would generate incorrect results because it would expect a non-MSAA texture. If the variant has created the secondary non-MSAA texture, then whenever the MSAA render target is unset from the device context, its contents are resolved into the non-MSAA texture. Likewise, whenever the MSAA render target should be bound as a shader resource, or is used in an unordered access view, the resolved non-MSAA texture is bound instead.  
   
   These variants also override MSAA settings on all swap chains created by using `IDXGIFactory::CreateSwapChain`, `IDXGIFactory2::CreateSwapChainForHwnd`, `IDXGIFactory2::CreateSwapChainForCoreWindow`, `IDXGIFactory2::CreateSwapChainForComposition`, and `ID3D11CreateDeviceAndSwapChain`.  
   
@@ -77,6 +72,3 @@ chain_description.SampleDesc.Quality = 0;
   
 // Call IDXGISwapChain::CreateSwapChain or D3D11CreateDeviceAndSwapChain, etc.  
 ```
-
-
-

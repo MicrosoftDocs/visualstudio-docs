@@ -1,20 +1,15 @@
 ---
 title: "Core Interfaces | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "debugging [Debugging SDK], core interfaces"
 ms.assetid: 666b9116-8550-4bdd-bc15-55fc57de87df
 caps.latest.revision: 25
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Core Interfaces
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -66,7 +61,7 @@ The following interfaces are the core interfaces for extending debugger by using
   
 - Visual Studio (VS)  
   
-##  <a name="Breakpoints"></a> Breakpoints  
+## <a name="Breakpoints"></a> Breakpoints  
  These interfaces are related to the implementation and tracking of breakpoints.  
   
 |Interface|Implemented by|Description|  
@@ -87,7 +82,7 @@ The following interfaces are the core interfaces for extending debugger by using
 |[IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md)|DE|Represents an enumeration over a set of bound breakpoints.|  
 |[IEnumDebugErrorBreakpoints2](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md)|DE|Represents an enumeration over a set of breakpoints that could not be bound to a memory location.|  
   
-##  <a name="Contexts"></a> Contexts  
+## <a name="Contexts"></a> Contexts  
  These interfaces represent various kinds of contexts within the program being debugged.  
   
 |Interface|Implemented by|Description|  
@@ -101,7 +96,7 @@ The following interfaces are the core interfaces for extending debugger by using
 |[IDebugStackFrame3](../../../extensibility/debugger/reference/idebugstackframe3.md)|DE|Represents a stack frame context at a breakpoint or exception.|  
 |[IEnumDebugCodeContexts2](../../../extensibility/debugger/reference/ienumdebugcodecontexts2.md)|DE|Represents an enumeration over a set of code contexts.|  
   
-##  <a name="CoreServer"></a> Core Server  
+## <a name="CoreServer"></a> Core Server  
  These interfaces represent the machine on which a program is being debugged. These are implemented by [!INCLUDE[vsprvs](../../../includes/vsprvs-md.md)] but can be called into by debug engines.  
   
 |Interface|Implemented by|Description|  
@@ -109,7 +104,7 @@ The following interfaces are the core interfaces for extending debugger by using
 |[IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)|VS|Provides access to ports and port suppliers as well as information about the computer.|  
 |[IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)|VS|Represents an [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md) that supports remote debugging.|  
   
-##  <a name="DebugEngines"></a> Debug Engines  
+## <a name="DebugEngines"></a> Debug Engines  
  These interfaces represent debug engines and their associated events.  
   
 |Interface|Implemented by|Description|  
@@ -121,7 +116,7 @@ The following interfaces are the core interfaces for extending debugger by using
 |[IDebugProgramEngines2](../../../extensibility/debugger/reference/idebugprogramengines2.md)|DE, PS|Represents a program node that handles multiple debug engines.|  
 |[IDebugQueryEngine2](../../../extensibility/debugger/reference/idebugqueryengine2.md)|DE|Provides a way for the SDM to obtain an interface to the debug engine from a thread, program, or stack frame.|  
   
-##  <a name="Documents"></a> Documents  
+## <a name="Documents"></a> Documents  
  These interfaces represent documents (source files) and their associated elements.  
   
 |Interface|Implemented by|Description|  
@@ -136,7 +131,7 @@ The following interfaces are the core interfaces for extending debugger by using
 |[IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)|VS, DE|Represents a text document supplied by the DE (derived from [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)), supplying the actual text.|  
 |[IDebugDocumentTextEvents2](../../../extensibility/debugger/reference/idebugdocumenttextevents2.md)|DE|Sent by the DE to specify changes to a source file that is in memory.|  
   
-##  <a name="Events"></a> Events  
+## <a name="Events"></a> Events  
  These interfaces represent all events that are sent between the DE and the session debug manager (SDM).  
   
 |Interface|Implemented by|Description|  
@@ -181,7 +176,7 @@ The following interfaces are the core interfaces for extending debugger by using
 |[IDebugThreadDestroyEvent2](../../../extensibility/debugger/reference/idebugthreaddestroyevent2.md)|DE|Sent by the DE when a thread has been destroyed.|  
 |[IDebugThreadNameChangedEvent2](../../../extensibility/debugger/reference/idebugthreadnamechangedevent2.md)|DE|Sent by the DE when a thread has changed its name.|  
   
-##  <a name="Expressions"></a> Expressions  
+## <a name="Expressions"></a> Expressions  
  These interfaces represent expressions to be evaluated in a particular context.  
   
 |Interface|Implemented by|Description|  
@@ -190,7 +185,7 @@ The following interfaces are the core interfaces for extending debugger by using
 |[IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md)|DE|Represents a context in which an expression is evaluated. Obtained from the [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) interface.|  
 |[IDebugExpressionEvaluationCompleteEvent2](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md)|DE|Sent by the DE when an asynchronous expression evaluation is complete.|  
   
-##  <a name="Memory"></a> Memory  
+## <a name="Memory"></a> Memory  
  These interfaces represent sequences of bytes in memory.  
   
 |Interface|Implemented by|Description|  
@@ -198,7 +193,7 @@ The following interfaces are the core interfaces for extending debugger by using
 |[IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)|DE|Represents a sequence of bytes in memory that can be read from or written to.|  
 |[IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)|DE|Represents a location in memory of a sequence of bytes.|  
   
-##  <a name="Modules"></a> Modules  
+## <a name="Modules"></a> Modules  
  These interfaces represent a module, which corresponds to an executable or .DLL file.  
   
 |Interface|Implemented by|Description|  
@@ -209,7 +204,7 @@ The following interfaces are the core interfaces for extending debugger by using
 |[IDebugSourceServerModule](../../../extensibility/debugger/reference/idebugsourceservermodule.md)|DE|Represents the source server information that is contained in a PDB file.|  
 |[IEnumDebugModules2](../../../extensibility/debugger/reference/ienumdebugmodules2.md)|DE|Represents an enumeration over a set of modules that are known by an [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md).|  
   
-##  <a name="Ports"></a> Ports  
+## <a name="Ports"></a> Ports  
  These interfaces represent ports and port suppliers.  
   
 |Interface|Implemented by|Description|  
@@ -229,7 +224,7 @@ The following interfaces are the core interfaces for extending debugger by using
 |[IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md)|VS, PS|Represents an enumeration over a set of ports.|  
 |[IEnumDebugPortSuppliers2](../../../extensibility/debugger/reference/ienumdebugportsuppliers2.md)|VS|Represents an enumeration over a set of port suppliers.|  
   
-##  <a name="Processes"></a> Processes  
+## <a name="Processes"></a> Processes  
  These interfaces represent processes, a single executable that contains one or more programs.  
   
 |Interface|Implemented by|Description|  
@@ -241,7 +236,7 @@ The following interfaces are the core interfaces for extending debugger by using
 |[IDebugProcessEx2](../../../extensibility/debugger/reference/idebugprocessex2.md)|PS|Represents a process that must track which session is attached to it.|  
 |[IEnumDebugProcesses2](../../../extensibility/debugger/reference/ienumdebugprocesses2.md)|PS|Represents an enumeration of a set of processes on a port.|  
   
-##  <a name="Programs"></a> Programs  
+## <a name="Programs"></a> Programs  
  These interfaces represent programs, logical units of execution that do not necessarily correspond to a physical executable or module.  
   
 |Interface|Implemented by|Description|  
@@ -260,7 +255,7 @@ The following interfaces are the core interfaces for extending debugger by using
 |[IDebugProviderProgramNode2](../../../extensibility/debugger/reference/idebugproviderprogramnode2.md)|DE, PS|Represents an [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) that can marshal interfaces across thread or process boundaries.|  
 |[IEnumDebugPrograms2](../../../extensibility/debugger/reference/ienumdebugprograms2.md)|DE, PS|Represents an enumeration of a set of programs.|  
   
-##  <a name="Properties"></a> Properties  
+## <a name="Properties"></a> Properties  
  These interfaces represent properties, a value associated with a particular context, usually the result of an expression evaluation.  
   
 |Interface|Implemented by|Description|  
@@ -274,7 +269,7 @@ The following interfaces are the core interfaces for extending debugger by using
 |[IEnumDebugPropertyInfo2](../../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md)|DE|Represents an enumeration over a set of [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) structures which describe variables, registers, parameters, and expressions.|  
 |[IEnumDebugReferenceInfo2](../../../extensibility/debugger/reference/ienumdebugreferenceinfo2.md)|DE|Represents an enumeration over a set of [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structures.|  
   
-##  <a name="StackFrames"></a> Stack Frames  
+## <a name="StackFrames"></a> Stack Frames  
  These interfaces represent a stack frame, a context in which a breakpoint or exception has occurred.  
   
 |Interface|Implemented by|Description|  
@@ -284,7 +279,7 @@ The following interfaces are the core interfaces for extending debugger by using
 |[IEnumCodePaths2](../../../extensibility/debugger/reference/ienumcodepaths2.md)|DE|Represents an enumeration over the set of [CODE_PATH](../../../extensibility/debugger/reference/code-path.md) structures which specify the function call sequence used to arrive at a particular stack frame.|  
 |[IEnumDebugFrameInfo2](../../../extensibility/debugger/reference/ienumdebugframeinfo2.md)|DE|Represents an enumeration over a set of [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md) structures, which describe stack frames.|  
   
-##  <a name="Threads"></a> Threads  
+## <a name="Threads"></a> Threads  
  These interfaces represent threads and their associated events.  
   
 |Interface|Implemented by|Description|  
@@ -295,7 +290,7 @@ The following interfaces are the core interfaces for extending debugger by using
 |[IDebugThreadNameChangedEvent2](../../../extensibility/debugger/reference/idebugthreadnamechangedevent2.md)|DE|Sent by the DE when a thread has changed its name.|  
 |[IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md)|DE|Represents an enumeration over a set of threads.|  
   
-##  <a name="TypeVisualizers"></a> Type Visualizers  
+## <a name="TypeVisualizers"></a> Type Visualizers  
  These interfaces provide support for type visualizers. These interfaces are typically implemented by an expression evaluator.  
   
 |Interface|Implemented by|Description|  
@@ -307,4 +302,3 @@ The following interfaces are the core interfaces for extending debugger by using
 ## See Also  
  [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)   
  [Creating a Custom Debug Engine](../../../extensibility/debugger/creating-a-custom-debug-engine.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "How to: Suppress Warnings by Using the Menu Item | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "warnings, suppressing"
   - "code analysis, suppressing warnings"
@@ -22,7 +17,7 @@ manager: "wpickett"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 NOTE]
->  In source suppression is not supported for web site projects.  
+> In source suppression is not supported for web site projects.  
   
  You can use the Code Analysis window to suppress code analysis warnings. Suppressing a warning is not the same as disabling it. When you suppress a warning, it applies only to a particular instance of the violation. Other violations of the same warning will still be reported in the Error List window.  
   
@@ -32,16 +27,13 @@ NOTE]
   
 ### To suppress a warning by using menu item  
   
-1.  On the **Analyze** menu, choose **Windows** and then choose **Code Analysis**.  
+1. On the **Analyze** menu, choose **Windows** and then choose **Code Analysis**.  
   
-2.  In the **Code Analysis** window, select the warning suppress.  
+2. In the **Code Analysis** window, select the warning suppress.  
   
-3.  Choose Actions, then choose **Suppress Message(s)**, and then choose either **In Source** or **In Project Suppression File**.  
+3. Choose Actions, then choose **Suppress Message(s)**, and then choose either **In Source** or **In Project Suppression File**.  
   
      The specific warning is suppressed, and the warning appears in the Code Analysis window with a strikethrough.  
   
 > [!NOTE]
->  Suppressions that do not have a target appear in the global suppression file.
-
-
-
+> Suppressions that do not have a target appear in the global suppression file.

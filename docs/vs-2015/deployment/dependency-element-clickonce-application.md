@@ -1,14 +1,9 @@
 ---
 title: "&lt;dependency&gt; Element (ClickOnce Application) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 f1_keywords: 
   - "urn:schemas-microsoft-com:asm.v2#osVersionInfo"
   - "urn:schemas-microsoft-com:asm.v2#os"
@@ -31,7 +26,7 @@ ms.assetid: 09d6a1e0-60f8-4fbd-843b-8e49ee3115a3
 caps.latest.revision: 36
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # &lt;dependency&gt; Element (ClickOnce Application)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -221,6 +216,3 @@ Identifies a platform or assembly dependency that is required for the applicatio
 ## See Also  
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)   
  [\<dependency> Element](../deployment/dependency-element-clickonce-deployment.md)
-
-
-

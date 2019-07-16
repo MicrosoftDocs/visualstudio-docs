@@ -1,12 +1,9 @@
 ---
 title: "Programming with the UML API | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML model, API"
   - "UML model, extending"
@@ -14,7 +11,7 @@ ms.assetid: c5937139-49d0-4439-8a9f-89f5e0474618
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Programming with the UML API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,9 +38,9 @@ The UML API of Visual Studio lets you write code to create, read, and update UML
   
  Types from that platform are visible in some of the assemblies that you reference in order to write UML extensions. Although you can make extensions to the UML tools by accessing the [!INCLUDE[dsl](../includes/dsl-md.md)] API, you should bear the following considerations in mind:  
   
--   You might find that some apparently simple changes introduce inconsistencies and unexpected effects.  
+- You might find that some apparently simple changes introduce inconsistencies and unexpected effects.  
   
--   The implementation may change in the future, so that adaptations you make using the [!INCLUDE[dsl](../includes/dsl-md.md)] API might no longer work.  
+- The implementation may change in the future, so that adaptations you make using the [!INCLUDE[dsl](../includes/dsl-md.md)] API might no longer work.  
   
 ## The API assemblies  
  This table summarizes the assemblies that provide extensibility for the UML tools, and the namespaces that you are recommended to use.  
@@ -68,6 +65,3 @@ The UML API of Visual Studio lets you write code to create, read, and update UML
 ## See Also  
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   
  [API Reference for UML Modeling Extensibility](../modeling/api-reference-for-uml-modeling-extensibility.md)
-
-
-

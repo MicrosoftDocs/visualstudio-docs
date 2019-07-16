@@ -1,19 +1,16 @@
 ---
 title: "Overriding and Extending the Generated Classes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language, providing overridable classes"
 ms.assetid: 30baa60d-a8ea-4611-96c1-8fcc3317cf21
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Overriding and Extending the Generated Classes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +40,7 @@ Your DSL Definition is a platform on which you can build a powerful set of tools
  `} }`  
   
 > [!NOTE]
->  To override methods in a generated class, always write your code in a file that is separated from the generated files. Typically, the file is contained in a folder that is named CustomCode. If you make changes to the generated code, they will be lost when you regenerate the code from the DSL Definition.  
+> To override methods in a generated class, always write your code in a file that is separated from the generated files. Typically, the file is contained in a folder that is named CustomCode. If you make changes to the generated code, they will be lost when you regenerate the code from the DSL Definition.  
   
  To discover what methods you can override, type **override** in the class, followed by a space. The IntelliSense tooltip will tell you what methods can be overridden.  
   
@@ -88,6 +85,3 @@ Your DSL Definition is a platform on which you can build a powerful set of tools
  Some events are generated on ShapeFields, which are used to draw decorators on a shape. For an example, see [How to: Intercept a Click on a Shape or Decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md).  
   
  These events usually do not occur inside a transaction. You should create a transaction if you want to make changes in the store.
-
-
-

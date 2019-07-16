@@ -1,5 +1,5 @@
 ---
-title: "Coding a custom validation rule for a web performance test in Visual Studio"
+title: "Coding a custom validation rule for a web performance test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -14,9 +14,7 @@ dev_langs:
   - VB
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Code a custom validation rule for a web performance test
 
@@ -29,24 +27,24 @@ You can create your own validation rules. To do this, you derive your own rule c
 
 ## To create custom validation rules
 
-1.  Open a Test Project that contains a web performance test.
+1. Open a Test Project that contains a web performance test.
 
-2.  (Optional) Create a separate Class library project in which to store your validation rule.
+2. (Optional) Create a separate Class library project in which to store your validation rule.
 
     > [!IMPORTANT]
     > You can create the class in the same project that your tests are in. However, if you want to reuse the rule, it is better to create a separate Class library project in which to store your rule. If you create a separate project, you must complete the optional steps in this procedure.
 
-3.  (Optional) In the Class library project, add a reference to the Microsoft.VisualStudio.QualityTools.WebTestFramework DLL.
+3. (Optional) In the Class library project, add a reference to the Microsoft.VisualStudio.QualityTools.WebTestFramework DLL.
 
-4.  Create a class that derives from the <xref:Microsoft.VisualStudio.TestTools.WebTesting.ValidationRule> class. Implement the <xref:Microsoft.VisualStudio.TestTools.WebTesting.ValidationRule.Validate*> and <xref:Microsoft.VisualStudio.TestTools.WebTesting.ValidationRule.RuleName*> members.
+4. Create a class that derives from the <xref:Microsoft.VisualStudio.TestTools.WebTesting.ValidationRule> class. Implement the <xref:Microsoft.VisualStudio.TestTools.WebTesting.ValidationRule.Validate*> and <xref:Microsoft.VisualStudio.TestTools.WebTesting.ValidationRule.RuleName*> members.
 
-5.  (Optional) Build the new Class library project.
+5. (Optional) Build the new Class library project.
 
-6.  (Optional) In the Test Project, add a reference to the Class library project that contains the custom validation rule.
+6. (Optional) In the Test Project, add a reference to the Class library project that contains the custom validation rule.
 
-7.  In the Test Project, open a web performance test in the **Web Performance Test Editor**.
+7. In the Test Project, open a web performance test in the **Web Performance Test Editor**.
 
-8.  To add the custom validation rule to a web performance test request, right-click a request and select **Add Validation Rule**.
+8. To add the custom validation rule to a web performance test request, right-click a request and select **Add Validation Rule**.
 
      The **Add Validation Rule** dialog box appears. You will see your custom validation rule in the **Select a rule** list, together with the predefined validation rules. Select your custom validation rule and then choose **OK**.
 

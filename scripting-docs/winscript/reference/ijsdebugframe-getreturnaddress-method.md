@@ -2,7 +2,6 @@
 title: "IJsDebugFrame::GetReturnAddress Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Gets the return address pushed at the 'start' (see GetStackRange) of the frame.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetReturnAddress(  
    UINT64 *pReturnAddress  
 );  

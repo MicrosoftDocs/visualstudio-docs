@@ -1,19 +1,16 @@
 ---
 title: "Domain Property Value Change Handlers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language, overriding event handlers"
 ms.assetid: 96d8f392-045e-4bc5-b165-fbaa470a3e16
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Domain Property Value Change Handlers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,15 +49,15 @@ public partial class Comment
   
  Notice the following points about property handlers:  
   
--   The property handler methods are called both when the user makes changes to a domain property, and when program code assigns a different value to the property.  
+- The property handler methods are called both when the user makes changes to a domain property, and when program code assigns a different value to the property.  
   
--   The methods are called only when the value actually changes. The handler is not invoked if program code assigns a value that is equal to the current value.  
+- The methods are called only when the value actually changes. The handler is not invoked if program code assigns a value that is equal to the current value.  
   
--   Calculated and custom storage domain properties do not have OnValueChanged and OnValueChanging methods.  
+- Calculated and custom storage domain properties do not have OnValueChanged and OnValueChanging methods.  
   
--   You cannot use a change handler to modify the new value. If you want to do that, for example to restrict the value to a particular range, define a `ChangeRule`.  
+- You cannot use a change handler to modify the new value. If you want to do that, for example to restrict the value to a particular range, define a `ChangeRule`.  
   
--   You cannot add a change handler to a property that represents a role of a relationship. Instead, define an `AddRule` and a `DeleteRule` on the relationship class. These rules are triggered when the links are created or changed. For more information, see [Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md).  
+- You cannot add a change handler to a property that represents a role of a relationship. Instead, define an `AddRule` and a `DeleteRule` on the relationship class. These rules are triggered when the links are created or changed. For more information, see [Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md).  
   
 ### Changes in and out of the store  
  Property handler methods are called inside the transaction that initiated the change. Therefore, you can make more changes in the store without opening a new transaction. Your changes might result in additional handler calls.  
@@ -108,7 +105,7 @@ if (newValue > 10)
  You can also use a ChangeRule to adjust the property’s new value to keep it within a specific range.  
   
 > [!WARNING]
->  If a rule makes changes to the store content, other rules and property handlers might be triggered. If a rule changes the property that triggered it, it will be called again. You must make sure that your rule definitions do not result in endless triggering.  
+> If a rule makes changes to the store content, other rules and property handlers might be triggered. If a rule changes the property that triggered it, it will be called again. You must make sure that your rule definitions do not result in endless triggering.  
   
 ```  
 using Microsoft.VisualStudio.Modeling;   
@@ -171,6 +168,3 @@ namespace msft.FieldChangeSample
   }  
 }  
 ```  
-  
-
-

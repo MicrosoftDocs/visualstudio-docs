@@ -1,8 +1,6 @@
 ---
 title: "Bind to data in XAML Designer"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 f1_keywords:
   - "VS.XamlDesigner.DataBinding"
@@ -11,7 +9,7 @@ dev_langs:
  - VB
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "uwp"
 ---

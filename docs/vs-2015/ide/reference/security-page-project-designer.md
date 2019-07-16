@@ -1,14 +1,9 @@
 ---
 title: "Security Page, Project Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "vb.ProjectPropertiesSecurity"
   - "vb.XBAPProjectPropertiesSecurity"
@@ -23,12 +18,11 @@ ms.assetid: 641d9cd3-fa07-498a-8568-3c169bb4d3d5
 caps.latest.revision: 40
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Security Page, Project Designer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The **Security** page of the **Project Designer** is used to configure code access security settings for applications that are deployed by using [!INCLUDE[ndptecclick](../../includes/ndptecclick-md.md)] deployment. For more information, see [Code Access Security for ClickOnce Applications](../../deployment/code-access-security-for-clickonce-applications.md).  
   
  To access the **Security** page, click a project node in **Solution Explorer**, and then, on the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Security** tab.  
@@ -38,7 +32,7 @@ The **Security** page of the **Project Designer** is used to configure code acce
  Determines whether security settings are enabled at design time. When this option is cleared, all other options on the **Security** page are unavailable.  
   
 > [!NOTE]
->  When you publish an application by using the **Publish** wizard, this option is automatically enabled.  
+> When you publish an application by using the **Publish** wizard, this option is automatically enabled.  
   
  When you select this option, you have the choice of selecting one of two radio buttons: **This is a full trust application** or **This is a partial trust application**.  
   
@@ -81,6 +75,3 @@ The **Security** page of the **Project Designer** is used to configure code acce
  [ClickOnce Security and Deployment](../../deployment/clickonce-security-and-deployment.md)   
  [Project Properties Reference](../../ide/reference/project-properties-reference.md)   
  [Advanced Security Settings Dialog Box](../../ide/reference/advanced-security-settings-dialog-box.md)
-
-
-

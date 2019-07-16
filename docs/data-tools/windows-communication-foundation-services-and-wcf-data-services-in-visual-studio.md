@@ -32,9 +32,7 @@ helpviewer_keywords:
 ms.assetid: d56f12cb-e139-4fec-b3e4-488383356642
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -52,7 +50,7 @@ WCF Data Services is an implementation of the Open Data (OData) Protocol standar
 
 ### WCF programming model
 
-The WCF programming model is based on communication between two entities: a WCF service and a WCF client. The programming model is encapsulated in the <xref:System.ServiceModel> namespace in the .NET Framework.
+The WCF programming model is based on communication between two entities: a WCF service and a WCF client. The programming model is encapsulated in the <xref:System.ServiceModel> namespace in .NET.
 
 ### WCF Service
 
@@ -135,9 +133,9 @@ In such a case, you can specify the `endpointConfigurationName` as a parameter t
 
 ### To select a service endpoint
 
-1.  Add a reference to a WCF service by right-clicking the project node in **Solution Explorer** and choosing **Add service reference**.
+1. Add a reference to a WCF service by right-clicking the project node in **Solution Explorer** and choosing **Add service reference**.
 
-2.  In the Code Editor, add a constructor for the service reference:
+2. In the Code Editor, add a constructor for the service reference:
 
     ```vb
     Dim proxy As New ServiceReference.Service1Client(
@@ -150,24 +148,24 @@ In such a case, you can specify the `endpointConfigurationName` as a parameter t
     > [!NOTE]
     > Replace *ServiceReference* with the namespace for the service reference and replace *Service1Client* with the name of the service.
 
-3.  An IntelliSense list displays that includes the overloads for the constructor. Select the `endpointConfigurationName As String` overload.
+3. An IntelliSense list displays that includes the overloads for the constructor. Select the `endpointConfigurationName As String` overload.
 
-4.  Following the overload, type `=` *ConfigurationName*, where *ConfigurationName* is the name of the endpoint that you want to use.
+4. Following the overload, type `=` *ConfigurationName*, where *ConfigurationName* is the name of the endpoint that you want to use.
 
     > [!NOTE]
     > If you do not know the names of the available endpoints, you can find them in the *app.config* file.
 
 ### To find the available endpoints for a WCF service
 
-1.  In **Solution Explorer**, right-click the **app.config** file for the project that contains the service reference and then click **Open**. The file appears in the Code Editor.
+1. In **Solution Explorer**, right-click the **app.config** file for the project that contains the service reference and then click **Open**. The file appears in the Code Editor.
 
-2.  Search for the `<Client>` tag in the file.
+2. Search for the `<Client>` tag in the file.
 
-3.  Search underneath the `<Client>` tag for a tag that starts with `<Endpoint>`.
+3. Search underneath the `<Client>` tag for a tag that starts with `<Endpoint>`.
 
      If the service reference provides multiple endpoints, there will be two or more `<Endpoint` tags.
 
-4.  Inside the `<EndPoint>` tag, you will find a `name="`*SomeService*`"` parameter (where *SomeService* represents an endpoint name). This is the name for the endpoint that can be passed to the `endpointConfigurationName As String` overload of a constructor for a service reference.
+4. Inside the `<EndPoint>` tag, you will find a `name="`*SomeService*`"` parameter (where *SomeService* represents an endpoint name). This is the name for the endpoint that can be passed to the `endpointConfigurationName As String` overload of a constructor for a service reference.
 
 ## How to: Call a service method asynchronously
 
@@ -182,11 +180,11 @@ By default, when a service reference is added to a project, it is configured to 
 
 ### To call a service method asynchronously
 
-1.  In **Solution Explorer**, select the service reference.
+1. In **Solution Explorer**, select the service reference.
 
-2.  On the **Project** menu, click **Configure Service Reference**.
+2. On the **Project** menu, click **Configure Service Reference**.
 
-3.  In the **Configure Service Reference** dialog box, select the **Generate asynchronous operations** check box.
+3. In the **Configure Service Reference** dialog box, select the **Generate asynchronous operations** check box.
 
 ## How to: Bind data returned by a service
 
@@ -194,57 +192,57 @@ You can bind data returned by a Windows Communication Foundation (WCF) service t
 
 ### To bind a control to single data field returned by a WCF service
 
-1.  On the **Data** menu, click **Show Data Sources**.
+1. On the **Data** menu, click **Show Data Sources**.
 
    The **Data Sources** window appears.
 
-2.  In the **Data Sources** window, expand the node for your service reference. Any composite types returned by the service display.
+2. In the **Data Sources** window, expand the node for your service reference. Any composite types returned by the service display.
 
-3.  Expand a node for a type. The data fields for that type appear.
+3. Expand a node for a type. The data fields for that type appear.
 
-4.  Select a field and click the drop-down arrow to display a list of controls that are available for the data type.
+4. Select a field and click the drop-down arrow to display a list of controls that are available for the data type.
 
-5.  Click the type of control to which you want to bind.
+5. Click the type of control to which you want to bind.
 
-6.  Drag the field onto a form. The control is added to the form, together with a <xref:System.Windows.Forms.BindingSource> component and a <xref:System.Windows.Forms.BindingNavigator> component.
+6. Drag the field onto a form. The control is added to the form, together with a <xref:System.Windows.Forms.BindingSource> component and a <xref:System.Windows.Forms.BindingNavigator> component.
 
-7.  Repeat steps 4 though 6 for any other fields that you want to bind.
+7. Repeat steps 4 though 6 for any other fields that you want to bind.
 
 ### To bind a control to composite type returned by a WCF service
 
-1.  On the **Data** menu, select **Show Data Sources**. The **Data Sources** window appears.
+1. On the **Data** menu, select **Show Data Sources**. The **Data Sources** window appears.
 
-2.  In the **Data Sources** window, expand the node for your service reference. Any composite types returned by the service display.
+2. In the **Data Sources** window, expand the node for your service reference. Any composite types returned by the service display.
 
-3.  Select a node for a type and click the drop-down arrow to display a list of available options.
+3. Select a node for a type and click the drop-down arrow to display a list of available options.
 
-4.  Click either **DataGridView** to display the data in a grid or **Details** to display the data in individual controls.
+4. Click either **DataGridView** to display the data in a grid or **Details** to display the data in individual controls.
 
-5.  Drag the node onto the form. The controls are added to the form, together with a <xref:System.Windows.Forms.BindingSource> component and a <xref:System.Windows.Forms.BindingNavigator> component.
+5. Drag the node onto the form. The controls are added to the form, together with a <xref:System.Windows.Forms.BindingSource> component and a <xref:System.Windows.Forms.BindingNavigator> component.
 
 ## How to: Configure a service to reuse existing types
 
-When a service reference is added to a project, any types defined in the service are generated in the local project. In many cases, this creates duplicate types when a service uses common .NET Framework types or when types are defined in a shared library.
+When a service reference is added to a project, any types defined in the service are generated in the local project. In many cases, this creates duplicate types when a service uses common .NET types or when types are defined in a shared library.
 
 To avoid this problem, types in referenced assemblies are shared by default. If you want to disable type sharing for one or more assemblies, you can do so in the **Configure Service References** dialog box.
 
 ### To disable type sharing in a single assembly
 
-1.  In **Solution Explorer**, select the service reference.
+1. In **Solution Explorer**, select the service reference.
 
-2.  On the **Project** menu, click **Configure Service Reference**.
+2. On the **Project** menu, click **Configure Service Reference**.
 
-3.  In the **Configure Service References** dialog box, select **Reuse types in specified referenced assemblies**.
+3. In the **Configure Service References** dialog box, select **Reuse types in specified referenced assemblies**.
 
-4.  Select the check box for each assembly in which you want to enable type sharing. To disable type sharing for an assembly, leave the check box cleared.
+4. Select the check box for each assembly in which you want to enable type sharing. To disable type sharing for an assembly, leave the check box cleared.
 
 ### To disable type sharing in all assemblies
 
-1.  In **Solution Explorer**, select the service reference.
+1. In **Solution Explorer**, select the service reference.
 
-2.  On the **Project** menu, click **Configure Service Reference**.
+2. On the **Project** menu, click **Configure Service Reference**.
 
-3.  In the **Configure Service References** dialog box, clear the **Reuse types in referenced assemblies** check box.
+3. In the **Configure Service References** dialog box, clear the **Reuse types in referenced assemblies** check box.
 
 ## Related topics
 

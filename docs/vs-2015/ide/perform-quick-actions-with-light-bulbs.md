@@ -1,19 +1,14 @@
 ---
 title: "Perform quick actions with light bulbs | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 990ee487-cf9a-4b89-9784-e7b47c220e8c
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Perform quick actions with light bulbs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,6 +36,3 @@ Light bulbs are a new productivity feature in Visual Studio 2015. They are icons
  You can still perform refactorings by right clicking to bring up the context menu, but you can also press Ctrl + . to display refactoring options. In the following illustration, the Extract Method refactoring is offered after pressing Ctrl + . somewhere on the line that contains the `Math.Abs` call:  
   
  ![Light bulb showing refactoring options](../ide/media/vs2015-lightbulbs-refactor.png "VS2015_LightBulbs_refactor")
-
-
-

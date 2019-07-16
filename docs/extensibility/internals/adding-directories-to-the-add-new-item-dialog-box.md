@@ -1,57 +1,54 @@
 ---
 title: "Adding Directories to the Add New Item Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Add New Item dialog box, extending"
 ms.assetid: 67ae8af6-3752-49e8-8ce3-007aca5f7982
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # Add directories to the Add New Item dialog box
 The following code example demonstrates how to register a new set of directories for the **Add New Item** dialog box. Directories for the **Add New Item** dialog box are different for each project. Therefore, the directories are registered under the **Projects** subkey, found in **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\Projects**.
-  
-## Registry script  
-  
-```  
-NoRemove Projects  
-{  
-  NoRemove %GUID_Project%  
-  {  
-    NoRemove AddItemTemplates  
-    {  
-      NoRemove TemplateDirs  
-      {  
-        ForceRemove %CLSID_Package%  
-        {  
-      ForceRemove /1 = s '#%Folder_Label_ResID%'  
-          {  
-            val TemplatesDir = s '%Template_Path%'     
-            val SortPriority = d 2000  
-          }  
-        }  
-      }  
-    }  
-  }  
-}  
-```  
-  
- The `%Template_Path%` value specifies the full path of the directory that contains the project templates. These templates can be either *.vsz* files or prototypical template files to be cloned.  
-  
- The `SortPriority` value specifies a sorting priority.  
-  
-## Add items to an existing project  
- You can also add items to an existing project. For example, for a [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] project, you can add items to the *\<root>\Program Files\Microsoft Visual Studio\VC#\CSharpProjectItems\LocalProjectItems* folder. In this case, `%GUID_Project%` is the GUID for a C# project ({FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}).  
-  
- You can also extend an existing project by programming a project subtype. With a project subtype, you can extend a project without writing a new project type. For more information about project subtypes, see [Project subtypes](../../extensibility/internals/project-subtypes.md).  
-  
-## See also  
- [Register project and item templates](../../extensibility/internals/registering-project-and-item-templates.md)   
- [Add items to the Add New Item dialog box](../../extensibility/internals/adding-items-to-the-add-new-item-dialog-boxes.md)   
- [Add directories to the New Project dialog box](../../extensibility/internals/adding-directories-to-the-new-project-dialog-box.md)
+
+## Registry script
+
+```
+NoRemove Projects
+{
+  NoRemove %GUID_Project%
+  {
+    NoRemove AddItemTemplates
+    {
+      NoRemove TemplateDirs
+      {
+        ForceRemove %CLSID_Package%
+        {
+      ForceRemove /1 = s '#%Folder_Label_ResID%'
+          {
+            val TemplatesDir = s '%Template_Path%'
+            val SortPriority = d 2000
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+ The `%Template_Path%` value specifies the full path of the directory that contains the project templates. These templates can be either *.vsz* files or prototypical template files to be cloned.
+
+ The `SortPriority` value specifies a sorting priority.
+
+## Add items to an existing project
+ You can also add items to an existing project. For example, for a [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] project, you can add items to the *\<root>\Program Files\Microsoft Visual Studio\VC#\CSharpProjectItems\LocalProjectItems* folder. In this case, `%GUID_Project%` is the GUID for a C# project ({FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}).
+
+ You can also extend an existing project by programming a project subtype. With a project subtype, you can extend a project without writing a new project type. For more information about project subtypes, see [Project subtypes](../../extensibility/internals/project-subtypes.md).
+
+## See also
+- [Register project and item templates](../../extensibility/internals/registering-project-and-item-templates.md)
+- [Add items to the Add New Item dialog box](../../extensibility/internals/adding-items-to-the-add-new-item-dialog-boxes.md)
+- [Add directories to the New Project dialog box](../../extensibility/internals/adding-directories-to-the-new-project-dialog-box.md)

@@ -1,21 +1,16 @@
 ---
 title: "Adding a Toolbar to a Tool Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "tool windows, adding toolbars"
   - "toolbars [Visual Studio], adding to tool windows"
 ms.assetid: 172f64b3-87f8-4292-9c1c-65bffa2b0970
 caps.latest.revision: 49
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Adding a Toolbar to a Tool Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,16 +28,16 @@ This walkthrough shows how to add a toolbar to a tool window.
   
 ## Creating a Toolbar for a Tool Window  
   
-1.  Create a VSIX project named `TWToolbar` that has both a menu command named **TWTestCommand** and a tool window named **TestToolWindow**. For more information, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md) and [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md). You need to add the command item template before adding the tool window template.  
+1. Create a VSIX project named `TWToolbar` that has both a menu command named **TWTestCommand** and a tool window named **TestToolWindow**. For more information, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md) and [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md). You need to add the command item template before adding the tool window template.  
   
-2.  In TWTestCommandPackage.vsct, look for the Symbols section. In the GuidSymbol node named guidTWTestCommandPackageCmdSet declare a toolbar and a toolbar group, as follows.  
+2. In TWTestCommandPackage.vsct, look for the Symbols section. In the GuidSymbol node named guidTWTestCommandPackageCmdSet declare a toolbar and a toolbar group, as follows.  
   
     ```xml  
     <IDSymbol name="TWToolbar" value="0x1000" />  
     <IDSymbol name="TWToolbarGroup" value="0x1050" />  
     ```  
   
-3.  At the top of the `Commands` section, create a `Menus` section. Add a `Menu` element to define the toolbar.  
+3. At the top of the `Commands` section, create a `Menus` section. Add a `Menu` element to define the toolbar.  
   
     ```xml  
     <Menus>  
@@ -58,7 +53,7 @@ This walkthrough shows how to add a toolbar to a tool window.
   
      Toolbars cannot be nested like submenus. Therefore, you do not have to assign a parent. Also, you do not have to set a priority, because the user can move toolbars. Typically, initial placement of a toolbar is defined programmatically, but subsequent changes by the user are persisted.  
   
-4.  In the Groups section, define a group to contain the commands for the toolbar.  
+4. In the Groups section, define a group to contain the commands for the toolbar.  
   
     ```xml  
   
@@ -67,7 +62,7 @@ This walkthrough shows how to add a toolbar to a tool window.
     </Group>  
     ```  
   
-5.  In the Buttons section, change the parent of the existing Button element to the toolbar group so that the toolbar will be displayed.  
+5. In the Buttons section, change the parent of the existing Button element to the toolbar group so that the toolbar will be displayed.  
   
     ```xml  
     <Button guid="guidTWTestCommandPackageCmdSet" id="TWTestCommandId" priority="0x0100" type="Button">  
@@ -85,20 +80,20 @@ This walkthrough shows how to add a toolbar to a tool window.
   
 ## Adding the Toolbar to the Tool Window  
   
-1.  In TWTestCommandPackageGuids.cs add the following lines.  
+1. In TWTestCommandPackageGuids.cs add the following lines.  
   
     ```csharp  
     public const string guidTWTestCommandPackageCmdSet = "00000000-0000-0000-0000-0000";  // get the GUID from the .vsct file  
     public const int TWToolbar = 0x1000;  
     ```  
   
-2.  In TestToolWindow.cs add the following using statement.  
+2. In TestToolWindow.cs add the following using statement.  
   
     ```csharp  
     using System.ComponentModel.Design;  
     ```  
   
-3.  In the TestToolWindow constructor add the following line.  
+3. In the TestToolWindow constructor add the following line.  
   
     ```csharp  
     this.ToolBar = new CommandID(new Guid(TWTestCommandPackageGuids.guidTWTestCommandPackageCmdSet), TWTestCommandPackageGuids.TWToolbar);  
@@ -106,14 +101,13 @@ This walkthrough shows how to add a toolbar to a tool window.
   
 ## Testing the Toolbar in the Tool Window  
   
-1.  Build the project and start debugging. The Visual Studio experimental instance should appear.  
+1. Build the project and start debugging. The Visual Studio experimental instance should appear.  
   
-2.  On the **View / Other Windows** menu, click **Test ToolWindow** to display the tool window.  
+2. On the **View / Other Windows** menu, click **Test ToolWindow** to display the tool window.  
   
      You should see a toolbar (it looks like the default icon) at the top left of the tool window, just below the title.  
   
-3.  On the toolbar, click the icon to display the message **TWTestCommandPackage Inside TWToolbar.TWTestCommand.MenuItemCallback()**.  
+3. On the toolbar, click the icon to display the message **TWTestCommandPackage Inside TWToolbar.TWTestCommand.MenuItemCallback()**.  
   
 ## See Also  
  [Adding a Toolbar](../extensibility/adding-a-toolbar.md)
-

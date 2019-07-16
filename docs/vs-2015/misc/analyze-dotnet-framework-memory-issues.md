@@ -1,20 +1,15 @@
 ---
 title: "Analyze .NET Framework memory issues | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.diagnostics.managedmemoryanalysis"
 ms.assetid: 43341928-9930-48cf-a57f-ddcc3984b787
 caps.latest.revision: 9
 ms.author: mikejo
-manager: "douge"
+manager: jillfra
 ---
 # Analyze .NET Framework memory issues
 Find memory leaks and inefficient memory use in .NET Framework code by using the Visual Studio managed memory analyzer. The minimum .NET Framework version of the target code is .NET Framework 4.5.  
@@ -27,7 +22,7 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
   
   For a walkthrough of the managed memory analyzer, see [Using Visual Studio 2013 to Diagnose .NET Memory Issues in Production](http://blogs.msdn.com/b/visualstudioalm/archive/2013/06/20/using-visual-studio-2013-to-diagnose-net-memory-issues-in-production.aspx) on the Visual Studio ALM + Team Foundation Server blog .  
   
-##  <a name="BKMK_Contents"></a> Contents  
+## <a name="BKMK_Contents"></a> Contents  
  [Memory use in .NET Framework apps](#BKMK_Memory_use_in__NET_Framework_apps)  
   
  [Identify a memory issue in an app](#BKMK_Identify_a_memory_issue_in_an_app)  
@@ -36,7 +31,7 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
   
  [Analyze memory use](#BKMK_Analyze_memory_use)  
   
-##  <a name="BKMK_Memory_use_in__NET_Framework_apps"></a> Memory use in .NET Framework apps  
+## <a name="BKMK_Memory_use_in__NET_Framework_apps"></a> Memory use in .NET Framework apps  
  The .NET Framework is a garbage-collected runtime, so that in most apps, memory use is not a problem. But in long-running applications like web services and applications, and in devices that have a limited amount of memory, the accumulation of objects in memory can impact the performance of the app and the device that it runs on. Excessive memory use can starve the application and the machine of resources if the garbage collector is running too often, or if the operating system is forced to move memory between RAM and disk. In the worst case, an app can crash with an "Out of memory" exception.  
   
  The .NET *managed heap* is a region of virtual memory where reference objects created by an app are stored. The lifetime of objects are managed by the garbage collector (GC). The garbage collector uses references to keep track of objects that occupy blocks of memory. A reference is created when an object is created and assigned to a variable. A single object can have multiple references. For example, additional references to an object can be created by adding the object to a class, collection, or other data structure, or by assigning the object to a second variable. A less obvious way of creating a reference is by one object adding a handler to another object's event. In this case, the second object holds the reference to the first object until the handler is explicitly removed or the second object is destroyed.  
@@ -45,8 +40,8 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Identify_a_memory_issue_in_an_app"></a> Identify a memory issue in an app  
- The most visible symptom of memory issues is the performance of your app, especially if the performance degrades over time. Degradation of the performance of other apps while your app is running might also indicate a memory issue. If you suspect a memory issue, use a tool like Task Manager or [Windows Performance Monitor](http://technet.microsoft.com/library/cc749249.aspx) to investigate further. For example, look for growth in the total size of memory that you cannot explain as a possible source of memory leaks:  
+## <a name="BKMK_Identify_a_memory_issue_in_an_app"></a> Identify a memory issue in an app  
+ The most visible symptom of memory issues is the performance of your app, especially if the performance degrades over time. Degradation of the performance of other apps while your app is running might also indicate a memory issue. If you suspect a memory issue, use a tool like Task Manager or [Windows Performance Monitor](https://technet.microsoft.com/library/cc749249.aspx) to investigate further. For example, look for growth in the total size of memory that you cannot explain as a possible source of memory leaks:  
   
  ![Consistent memory growth in Resource Monitor](../misc/media/mngdmem-resourcemanagerconsistentgrowth.png "MNGDMEM_ResourceManagerConsistentGrowth")  
   
@@ -54,11 +49,11 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
   
  ![Memory spikes in Resource Manager](../misc/media/mngdmem-resourcemanagerspikes.png "MNGDMEM_ResourceManagerSpikes")  
   
-##  <a name="BKMK_Collect_memory_snapshots"></a> Collect memory snapshots  
- The memory analysis tool analyzes information in *dump files* that contain heap information. You can create dump files in Visual Studio, or you can use a tool like [ProcDump](http://technet.microsoft.com/sysinternals/dd996900.aspx) from [Windows Sysinternals](http://technet.microsoft.com/sysinternals). See [What is a dump, and how do I create one?](http://blogs.msdn.com/b/debugger/archive/2009/12/30/what-is-a-dump-and-how-do-i-create-one.aspx) on the Visual Studio Debugger Team blog.  
+## <a name="BKMK_Collect_memory_snapshots"></a> Collect memory snapshots  
+ The memory analysis tool analyzes information in *dump files* that contain heap information. You can create dump files in Visual Studio, or you can use a tool like [ProcDump](https://technet.microsoft.com/sysinternals/dd996900.aspx) from [Windows Sysinternals](https://technet.microsoft.com/sysinternals). See [What is a dump, and how do I create one?](http://blogs.msdn.com/b/debugger/archive/2009/12/30/what-is-a-dump-and-how-do-i-create-one.aspx) on the Visual Studio Debugger Team blog.  
   
 > [!NOTE]
->  Most tools can collect dump information with or without complete heap memory data. The Visual Studio memory analyzer requires full heap information.  
+> Most tools can collect dump information with or without complete heap memory data. The Visual Studio memory analyzer requires full heap information.  
   
  **To collect a dump from Visual Studio**  
   
@@ -74,7 +69,7 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
   
    ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Analyze_memory_use"></a> Analyze memory use  
+## <a name="BKMK_Analyze_memory_use"></a> Analyze memory use  
  [Filter the list of objects](#BKMK_Filter_the_list_of_objects) **&#124;** [Analyze memory data in from a single snapshot](#BKMK_Analyze_memory_data_in_from_a_single_snapshot) **&#124;** [Compare two memory snapshots](#BKMK_Compare_two_memory_snapshots)  
   
  To analyze a dump file for memory use issues:  
@@ -89,7 +84,7 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
   
    ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-###  <a name="BKMK_Filter_the_list_of_objects"></a> Filter the list of objects  
+### <a name="BKMK_Filter_the_list_of_objects"></a> Filter the list of objects  
  By default, the memory analyzer filters the list of objects in a memory snapshot to show only the types and instances that are user code, and to show only those types whose total inclusive size exceed a threshold percentage of the total heap size. You can change these options in the **View Settings** list:  
   
 |||  
@@ -101,7 +96,7 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-###  <a name="BKMK_Analyze_memory_data_in_from_a_single_snapshot"></a> Analyze memory data in from a single snapshot  
+### <a name="BKMK_Analyze_memory_data_in_from_a_single_snapshot"></a> Analyze memory data in from a single snapshot  
  Visual Studio starts a new debugging session to analyze the file, and displays the memory data in a Heap View window.  
   
  ![The Object Type list](../misc/media/dbg-mma-objecttypelist.png "DBG_MMA_ObjectTypeList")  
@@ -136,9 +131,9 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
   
 #### Paths to Root  
   
--   For a type selected from the **Object Type** table, the **Paths to Root** table shows the unique type hierarchies that lead to root objects for all objects of the type, along with the number of references to the type that is above it in the hierarchy.  
+- For a type selected from the **Object Type** table, the **Paths to Root** table shows the unique type hierarchies that lead to root objects for all objects of the type, along with the number of references to the type that is above it in the hierarchy.  
   
--   For an object selected from the instance of a type, **Paths to Root** shows a graph of the actual objects that hold a reference to the instance. You can hover over the name of the object to view its data values in a data tip.  
+- For an object selected from the instance of a type, **Paths to Root** shows a graph of the actual objects that hold a reference to the instance. You can hover over the name of the object to view its data values in a data tip.  
   
 #### Referenced Types / Referenced Objects  
   
@@ -167,7 +162,7 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
 |**SizedRef Handle**|A strong handle that keeps an approximate size of the collective closure of all objects and object roots at garbage collection time.|  
 |**Pinned local variable**|A pinned local variable.|  
   
-###  <a name="BKMK_Compare_two_memory_snapshots"></a> Compare two memory snapshots  
+### <a name="BKMK_Compare_two_memory_snapshots"></a> Compare two memory snapshots  
  You can compare two dump files of a process to find objects that might be the cause of memory leaks. The interval between the collection of the first (earlier) and second (later) file should be large enough that the growth of the number of leaked objects is easily apparent. To compare the two files:  
   
 1. Open the second dump file, and then choose **Debug Managed Memory** on the **Minidump File Summary** page.  

@@ -1,14 +1,9 @@
 ---
 title: "Code Snippets | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.ExpansionManagerImport"
   - "vs.codesnippetmanager"
@@ -23,7 +18,7 @@ ms.assetid: 85976ad9-4c9a-4e7b-896e-66ec6f955199
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Code Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -92,6 +87,3 @@ End Property
  [Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md)   
  [Visual C++ Code Snippets](../ide/visual-cpp-code-snippets.md)   
  [Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md)
-
-
-

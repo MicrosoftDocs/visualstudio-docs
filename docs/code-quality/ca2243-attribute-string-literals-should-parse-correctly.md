@@ -1,8 +1,6 @@
 ---
 title: "CA2243: Attribute string literals should parse correctly"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2243"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: bfadb366-379d-4ee4-b17b-c4a09bf1106b
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

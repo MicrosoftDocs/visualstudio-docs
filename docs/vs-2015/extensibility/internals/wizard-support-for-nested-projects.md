@@ -1,14 +1,9 @@
 ---
 title: "Wizard Support for Nested Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Add Item wizard"
   - "nested projects, wizard support"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 1b496acc-b326-4cdb-bb48-e3b5c6f12e05
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Wizard Support for Nested Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -32,4 +27,3 @@ The IDE runs two wizards that the parent project for nested projects can impleme
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy>   
  [Nesting Projects](../../extensibility/internals/nesting-projects.md)
-

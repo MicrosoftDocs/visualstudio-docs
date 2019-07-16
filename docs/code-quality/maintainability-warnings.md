@@ -1,8 +1,6 @@
 ---
 title: Maintainability Warnings
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "vs.codeanalysis.maintainabilityrules"
@@ -13,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: 537e70ca-a88c-49df-bfc7-0ee63bbe4f16
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Maintainability Warnings
+# Maintainability warnings
 
 Maintainability warnings support library and application maintenance.
 
-## In This Section
+## In this section
 
 | Rule | Description |
 |-----------|-----------------------------------|
@@ -31,7 +29,8 @@ Maintainability warnings support library and application maintenance.
 | [CA1504: Review misleading field names](../code-quality/ca1504-review-misleading-field-names.md) | The name of an instance field starts with "s_", or the name of a static (Shared in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]) field starts with "m_". |
 | [CA1505: Avoid unmaintainable code](../code-quality/ca1505-avoid-unmaintainable-code.md) | A type or method has a low maintainability index value. A low maintainability index indicates that a type or method is probably difficult to maintain and would be a good candidate for redesign. |
 | [CA1506: Avoid excessive class coupling](../code-quality/ca1506-avoid-excessive-class-coupling.md) | This rule measures class coupling by counting the number of unique type references that a type or method contains. |
+| [CA1507: Use nameof in place of string](../code-quality/ca1507.md) | A string literal is used as an argument where a `nameof` expression could be used. |
 
-## See Also
+## See also
 
-- [Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)
+- [Measure Complexity and Maintainability of Managed Code](../code-quality/code-metrics-values.md)

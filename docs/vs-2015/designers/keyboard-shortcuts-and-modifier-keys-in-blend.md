@@ -1,19 +1,14 @@
 ---
 title: "Keyboard shortcuts and modifier keys in Blend | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: f9ec9724-7571-4777-8ff8-d9be012eae8f
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Keyboard shortcuts and modifier keys in Blend
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,11 +34,8 @@ Keyboard shortcuts can speed up your work by reducing an action that would requi
 ## Modifier keys  
  Some keyboard shortcuts do not have associated menu items, which means that you can't use the [!INCLUDE[blend_subs](../includes/blend-subs-md.md)] user interface to discover them. The following topics list shortcuts that modify the behavior of tools, or that modify an action, such as resizing an object:  
   
--   [Artboard modifier keys](../designers/artboard-modifier-keys-in-blend.md)  
+- [Artboard modifier keys](../designers/artboard-modifier-keys-in-blend.md)  
   
--   [Pen tool modifier keys](../designers/pen-tool-modifier-keys-in-blend.md)  
+- [Pen tool modifier keys](../designers/pen-tool-modifier-keys-in-blend.md)  
   
--   [Direct Selection tool modifier keys](../designers/direct-selection-tool-modifier-keys-in-blend.md)
-
-
-
+- [Direct Selection tool modifier keys](../designers/direct-selection-tool-modifier-keys-in-blend.md)

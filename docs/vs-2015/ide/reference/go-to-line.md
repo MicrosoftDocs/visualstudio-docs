@@ -1,14 +1,9 @@
 ---
 title: "Go To Line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "vs.gotoline"
 helpviewer_keywords: 
@@ -18,12 +13,11 @@ ms.assetid: 529fa251-b7b3-49cf-863c-10e0b82ac7cc
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Go To Line
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This dialog box allows you to move to a specific line in the active document. To access this dialog box, open a document for editing, then select **Go To** on the **Edit** menu.  
   
  Line number (1 - `n`)  
@@ -33,6 +27,3 @@ This dialog box allows you to move to a specific line in the active document. To
  [Setting Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)   
  [Finding and Replacing Text](../../ide/finding-and-replacing-text.md)   
  [Writing Code](../../ide/writing-code-in-the-code-and-text-editor.md)
-
-
-

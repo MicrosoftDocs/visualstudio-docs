@@ -1,12 +1,10 @@
 ---
-title: Refactor rename in Visual Studio
+title: Refactor rename
 ms.date: 01/26/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 f1_keywords:
   - "vs.csharp.refactoring.rename"
 dev_langs:
@@ -64,10 +62,13 @@ This refactoring applies to:
 
 4. When you're happy with the change, choose the **Apply** button or press **Enter** and the changes will be committed.
 
-> [!NOTE]
-> If you use a name that already exists which would cause a conflict, the **Rename** box will warn you.
->
-> ![Rename Conflict](media/rename-conflict-cs.png)
+## Remarks
+
+- If you use a name that already exists which would cause a conflict, the **Rename** box will warn you.
+
+   ![Rename Conflict](media/rename-conflict-cs.png)
+
+- Another way to rename a symbol is to change its name in the editor. Then, with the cursor in the symbol name, press **Ctrl**+**.** or just expand the light bulb icon menu that appears and choose **Rename \<old name> to \<new name>**.
 
 ## See also
 

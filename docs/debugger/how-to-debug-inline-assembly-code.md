@@ -1,8 +1,6 @@
 ---
 title: "How to: Debug Inline Assembly Code | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.inline"
@@ -18,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: cc5664e0-0b38-40c1-bb65-04ae720c2adb
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -31,9 +29,9 @@ The debugger provides two windows for debugging inline assembly code, the **Disa
 
 ## Debug inline assembly code
 
-1.  Use the **Disassembly** window to view the assembly instructions.
+1. Use the **Disassembly** window to view the assembly instructions.
 
-2.  Use the **Registers** window to view register contents.
+2. Use the **Registers** window to view register contents.
 
 ## See also
 

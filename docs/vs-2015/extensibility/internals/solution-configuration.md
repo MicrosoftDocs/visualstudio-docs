@@ -1,20 +1,15 @@
 ---
 title: "Solution Configuration | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "solution configurations"
 ms.assetid: f22cfc75-3e31-4e0d-88a9-3ca99539203b
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Solution Configuration
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -24,7 +19,7 @@ Solution configurations store solution-level properties. They direct the behavio
  The standard Visual Studio toolbar contains a Start button and a solution configuration drop-down to the right of the Start button. This list allows users to choose the configuration to be started when F5 is pressed, create their own solution configurations, or edit an existing configuration.  
   
 > [!NOTE]
->  There are no extensibility interfaces to create or edit the solution configurations. You must use `DTE.SolutionBuilder`. However, there are extensibility APIs for managing the solution build. For more information, see <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionBuildManager2>.  
+> There are no extensibility interfaces to create or edit the solution configurations. You must use `DTE.SolutionBuilder`. However, there are extensibility APIs for managing the solution build. For more information, see <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionBuildManager2>.  
   
  Here is how you can implement the solution configurations supported by your project type:  
   
@@ -60,4 +55,3 @@ Solution configurations store solution-level properties. They direct the behavio
  [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)   
  [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md)   
  [Project Configuration Object](../../extensibility/internals/project-configuration-object.md)
-

@@ -1,24 +1,18 @@
 ---
 title: "Visual Studio Tools for Unity | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-unity-tools
+ms.topic: conceptual
 ms.assetid: 6cabc626-5310-4622-a743-210a9abb5535
 caps.latest.revision: 6
 author: conceptdev
 ms.author: crdun
-manager: "ghogen"
+manager: jillfra
 ---
 # Visual Studio Tools for Unity
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In this section, you'll learn about Visual Studio Tools for Unity, a free Visual Studio extension that makes Visual Studio a powerful tool for building games with Unity.  
   
 ## Visual Studio Tools for Unity  
@@ -48,4 +42,3 @@ In this section, you'll learn about Visual Studio Tools for Unity, a free Visual
   
  [Change Log](../cross-platform/change-log-visual-studio-tools-for-unity.md)  
  In this section, you'll learn about new features, bug fixes, and other changes in each version of Visual Studio Tools for Unity.
-

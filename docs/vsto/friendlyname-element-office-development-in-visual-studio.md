@@ -1,51 +1,50 @@
 ---
 title: "&lt;friendlyName&gt; element (Office development in Visual Studio)"
-ms.custom: ""
+titleSuffix: ""
+ms.custom: "seodec18"
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <friendlyName> element"
-author: TerryGLee
-ms.author: tglee
-manager: douge
-ms.workload: 
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
+ms.workload:
   - "office"
 ---
 # &lt;friendlyName&gt; element (Office development in Visual Studio)
-  The `friendlyName` element of the `vstov4` namespace stores the name that appears in the list of installed programs.  
-  
-## Syntax  
-  
+  The `friendlyName` element of the `vstov4` namespace stores the name that appears in the list of installed programs.
+
+## Syntax
+
 ```xml
-<friendlyName>  
-</friendlyName>  
-```  
-  
-## Elements and attributes  
- The `friendlyName` element is in the `vstov4` namespace. The value appears in the list of installed programs on the computer, and in the COM VSTO Add-ins dialog box of Microsoft Office applications.  
-  
- The `friendlyName` element has no attributes or child elements.  
-  
-## VSTO Add-in example  
-  
-### Description  
- The following code example illustrates the `friendlyName` element in an application-level solution deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
-  
-### Code  
-  
-```xml  
-<vstov4:friendlyName>  
-  ContosoOutlookAddIn  
-</vstov4:friendlyName>  
-```  
-  
-## See also  
- [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)   
- [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)   
- [ClickOnce application manifest](/visualstudio/deployment/clickonce-application-manifest)  
-  
+<friendlyName>
+</friendlyName>
+```
+
+## Elements and attributes
+ The `friendlyName` element is in the `vstov4` namespace. The value appears in the list of installed programs on the computer, and in the COM VSTO Add-ins dialog box of Microsoft Office applications.
+
+ The `friendlyName` element has no attributes or child elements.
+
+## VSTO Add-in example
+
+### Description
+ The following code example illustrates the `friendlyName` element in an application-level solution deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
+
+### Code
+
+```xml
+<vstov4:friendlyName>
+  ContosoOutlookAddIn
+</vstov4:friendlyName>
+```
+
+## See also
+
+- [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)
+- [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)
+- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

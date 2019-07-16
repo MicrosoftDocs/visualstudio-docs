@@ -1,48 +1,48 @@
 ---
 title: "IDebugCustomAttribute::GetAttributeTypeField | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "IDebugCustomAttribute::GetAttributeTypeField"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugCustomAttribute::GetAttributeTypeField"
 ms.assetid: d6ce26d5-42ba-44c1-8659-0516db5bc82d
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCustomAttribute::GetAttributeTypeField
-Gets the custom attribute class type.  
-  
-## Syntax  
-  
-```cpp  
-HRESULT GetAttributeTypeField(   
-   IDebugClassField** ppCAType  
-);  
-```  
-  
-```csharp  
-int GetAttributeTypeField(  
-   out IDebugClassField ppCAType  
-);  
-```  
-  
-#### Parameters  
- `ppCAType`  
- [out] Returns the [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object that represents the class of which the custom attribute is an instance.  
-  
-## Return Value  
- If successful, returns S_OK; otherwise, returns an error code.  
-  
-## Remarks  
- A custom attribute is always a class. This method provides access to an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object that describes that class.  
-  
-## See Also  
- [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)   
- [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)
+Gets the custom attribute class type.
+
+## Syntax
+
+```cpp
+HRESULT GetAttributeTypeField( 
+   IDebugClassField** ppCAType
+);
+```
+
+```csharp
+int GetAttributeTypeField(
+   out IDebugClassField ppCAType
+);
+```
+
+## Parameters
+`ppCAType`\
+[out] Returns the [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object that represents the class of which the custom attribute is an instance.
+
+## Return Value
+ If successful, returns S_OK; otherwise, returns an error code.
+
+## Remarks
+ A custom attribute is always a class. This method provides access to an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object that describes that class.
+
+## See also
+- [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)
+- [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)

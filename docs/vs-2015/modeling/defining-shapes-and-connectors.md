@@ -1,24 +1,21 @@
 ---
 title: "Defining Shapes and Connectors | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 1fae548d-9288-4dd5-a24f-ff0d69c73628
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Defining Shapes and Connectors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 There are several basic types of shapes that you can used to display information on a diagram in a domain-specific language (DSL).  
   
-##  <a name="shapeTypes"></a> Basic Types of Shapes and Connectors  
+## <a name="shapeTypes"></a> Basic Types of Shapes and Connectors  
  A DSL diagram shows a collection of *shapes* interlinked by lines or *connectors*.  Typically, but not always:  
   
 - Shapes are the visible representation of model elements.  
@@ -42,8 +39,5 @@ There are several basic types of shapes that you can used to display information
 |Swimlanes|Swimlanes partition a diagram into horizontal or vertical segments. The swimlane always stays underneath the other shapes on the diagram.<br /><br /> Typically the model elements of the swimlane are parented on the model root, and the other elements are parented on them. For an example, create a DSL from the Task Flow solution template.|  
 |Connectors|The lines drawn between shapes typically represent reference relationships. You can set options to make a connector straight or rectilinear, and to have different types of arrowhead.|  
   
-##  <a name="shapeInheritance"></a> Shape Inheritance  
+## <a name="shapeInheritance"></a> Shape Inheritance  
  A shape can inherit from another shape. However, the shapes must be the same kind. For example, only a geometry shape can inherit from a geometry shape. Inherited shapes have the compartments and decorators of their base shape. Connectors can inherit from connectors.
-
-
-

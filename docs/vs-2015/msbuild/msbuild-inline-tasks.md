@@ -1,26 +1,20 @@
 ---
 title: "MSBuild Inline Tasks | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 helpviewer_keywords: 
   - "MSBuild, tasks"
 ms.assetid: e72e6506-4a11-4edf-ae8d-cfb5a3b9d8a0
 caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Inline Tasks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 MSBuild tasks are typically created by compiling a class that implements the <xref:Microsoft.Build.Framework.ITask> interface. For more information, see [Tasks](../msbuild/msbuild-tasks.md).  
   
  Starting in .NET Framework version 4, you can create tasks inline in the project file. You do not have to create a separate assembly to host the task. This makes it easier to keep track of source code and easier to deploy the task. The source code is integrated into the script.  
@@ -67,7 +61,7 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
   `Reference` and `Using` elements are language-agnostic. Inline tasks can be written in any one of the supported .NET CodeDom languages, for example, Visual Basic or Visual C#.  
   
 > [!NOTE]
->  Elements contained by the `Task` element are specific to the task factory, in this case, the code task factory.  
+> Elements contained by the `Task` element are specific to the task factory, in this case, the code task factory.  
   
 ### Code Element  
  The last child element to appear within the `Task` element is the `Code` element. The `Code` element contains or locates the code that you want to be compiled into a task. What you put in the `Code` element depends on how you want to write the task.  
@@ -87,7 +81,7 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
   Alternatively, you can use the `Source` attribute of the `Code` element to specify the location of a file that contains the code for your task. The code in the source file must be of the type that is specified by the `Type` attribute. If the `Source` attribute is present, the default value of `Type` is `Class`. If `Source` is not present, the default value is `Fragment`.  
   
 > [!NOTE]
->  When defining the task class in the source file, the class name must agree with the `TaskName` attribute of the corresponding [UsingTask](../msbuild/usingtask-element-msbuild.md) element.  
+> When defining the task class in the source file, the class name must agree with the `TaskName` attribute of the corresponding [UsingTask](../msbuild/usingtask-element-msbuild.md) element.  
   
 ## Hello World  
  Here is a more robust inline task. The HelloWorld task displays "Hello, world!" on the default error logging device, which is typically the system console or the Visual Studio **Output** window. The `Reference` element in the example is included just for illustration.  
@@ -194,6 +188,3 @@ File.WriteAllText(Path, content);
 ## See Also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Walkthrough: Creating an Inline Task](../msbuild/walkthrough-creating-an-inline-task.md)
-
-
-

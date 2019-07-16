@@ -1,8 +1,6 @@
 ---
-title: Configure Code Analysis in Visual Studio
+title: Configure Code Analysis
 ms.date: 04/04/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 f1_keywords:
   - "vs.codeanalysis.propertypages.csvb"
@@ -12,18 +10,20 @@ helpviewer_keywords:
   - "code analysis, rule sets"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# How to: Configure Code Analysis for a Managed Code Project
+# How to: Configure static code analysis for managed code
 
-In Visual Studio, you can choose from a list of code analysis [rule sets](../code-quality/rule-set-reference.md)) to apply to a managed code project. By default, the **Microsoft Minimum Recommended Rules** rule set is selected, but you can apply a different rule set if desired. Rule sets can be applied to one or multiple projects in a solution.
+In Visual Studio, you can choose from a list of code analysis [rule sets](../code-quality/rule-set-reference.md) to apply to a managed code project. By default, the **Microsoft Minimum Recommended Rules** rule set is selected, but you can apply a different rule set if desired. Rule sets can be applied to one or multiple projects in a solution.
 
-> [!TIP]
-> For information about how to configure a rule set for ASP.NET web applications, see [How to: Configure Code Analysis for an ASP.NET web Application](../code-quality/how-to-configure-code-analysis-for-an-aspnet-web-application.md).
+For information about how to configure a rule set for ASP.NET web applications, see [How to: Configure Code Analysis for an ASP.NET web Application](../code-quality/how-to-configure-code-analysis-for-an-aspnet-web-application.md).
 
-## To configure a rule set for a .NET Framework project
+> [!NOTE]
+> This article applies to static code analysis and not to [Roslyn analyzers](use-roslyn-analyzers.md), which don't run code analysis after build.
+
+## Configure a rule set for a .NET Framework project
 
 1. Open the **Code Analysis** tab on the project's property pages. You can do this in either of the following ways:
 

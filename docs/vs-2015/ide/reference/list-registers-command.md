@@ -1,14 +1,9 @@
 ---
 title: "List Registers Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "debug.listregisters"
 helpviewer_keywords: 
@@ -19,12 +14,11 @@ ms.assetid: 19a9d789-f6c9-46b3-b1f6-4934fc33e055
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # List Registers Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Displays the value of the selected registers and lets you modify the list of registers to show.  
   
 ## Syntax  
@@ -68,6 +62,3 @@ r /Display Flags
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)   
  [Debugging Basics: Registers Window](../../debugger/debugging-basics-registers-window.md)   
  [How to: Use the Registers Window](../../debugger/how-to-use-the-registers-window.md)
-
-
-

@@ -1,24 +1,18 @@
 ---
 title: "XML Schema Designer Tasks | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: f413f208-696f-446a-bb78-7fc55cf96d6c
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # XML Schema Designer Tasks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section describes how to complete common tasks with the XML Schema Designer tools.  
   
 ## In This Section  
@@ -57,6 +51,3 @@ This section describes how to complete common tasks with the XML Schema Designer
   
 ## See Also  
  [XML Schema Designer](../xml-tools/xml-schema-designer.md)
-
-
-

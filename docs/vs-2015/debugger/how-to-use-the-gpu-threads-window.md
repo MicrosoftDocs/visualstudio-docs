@@ -1,14 +1,9 @@
 ---
 title: "How to: Use the GPU Threads Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.gputthreads"
   - "vs.debug.gputhreads"
@@ -23,12 +18,12 @@ ms.assetid: c647c502-a9f0-48e0-a430-976744a5fa51
 caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Use the GPU Threads Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-In the GPU Threads window, you can examine and work with threads that are running on the GPU in the application that you are debugging. For more information about applications that run on the GPU, see [C++ AMP Overview](http://msdn.microsoft.com/library/9e593b06-6e3c-43e9-8bae-6d89efdd39fc).  
+In the GPU Threads window, you can examine and work with threads that are running on the GPU in the application that you are debugging. For more information about applications that run on the GPU, see [C++ AMP Overview](https://msdn.microsoft.com/library/9e593b06-6e3c-43e9-8bae-6d89efdd39fc).  
   
  The GPU Threads window contains a table in which each row represents a set of GPU threads that have the same values in all of the columns. You can sort, reorder, remove, and group items that are in the columns. You can flag, unflag, freeze (suspend), and thaw (resume) threads from the GPU Threads window. The following columns are displayed in the GPU Threads window:  
   
@@ -54,60 +49,57 @@ In the GPU Threads window, you can examine and work with threads that are runnin
   
 ### To display the GPU Threads window  
   
-1.  In **Solution Explorer**, open the shortcut menu for the project and then choose **Properties**.  
+1. In **Solution Explorer**, open the shortcut menu for the project and then choose **Properties**.  
   
-2.  In the **Property Pages** window for the project, under **Configuration Properties**, choose **Debugging**.  
+2. In the **Property Pages** window for the project, under **Configuration Properties**, choose **Debugging**.  
   
-3.  In the **Debugger to launch** list, select **Local Windows Debugger**. In the **Debugger Type** list, select **GPU Only**. You must choose this debugger to break at breakpoints in code that runs on the GPU.  
+3. In the **Debugger to launch** list, select **Local Windows Debugger**. In the **Debugger Type** list, select **GPU Only**. You must choose this debugger to break at breakpoints in code that runs on the GPU.  
   
-4.  Choose the **OK** button.  
+4. Choose the **OK** button.  
   
-5.  Set a breakpoint in the GPU code.  
+5. Set a breakpoint in the GPU code.  
   
-6.  On the menu bar, choose **Debug**, **Start Debugging**. Wait for the application to reach the breakpoint.  
+6. On the menu bar, choose **Debug**, **Start Debugging**. Wait for the application to reach the breakpoint.  
   
-7.  One the menu bar, choose **Debug**, **Windows**, **GPU Threads**.  
+7. One the menu bar, choose **Debug**, **Windows**, **GPU Threads**.  
   
 ### To change to a different active thread  
   
--   Double-click the column. (Keyboard: Select the row and choose Enter.)  
+- Double-click the column. (Keyboard: Select the row and choose Enter.)  
   
 ### To display a particular tile and thread  
   
-1.  Choose the **Expand Thread Switcher** button in the GPU Threads window.  
+1. Choose the **Expand Thread Switcher** button in the GPU Threads window.  
   
-2.  Enter the tile and thread values in the text boxes.  
+2. Enter the tile and thread values in the text boxes.  
   
-3.  Choose the button that has the arrow on it.  
+3. Choose the button that has the arrow on it.  
   
 ### To display or hide a column  
   
--   Open the shortcut menu for the GPU Threads window, choose **Columns**, and then choose the column that you want to display or hide.  
+- Open the shortcut menu for the GPU Threads window, choose **Columns**, and then choose the column that you want to display or hide.  
   
 ### To sort by a column  
   
--   Select the column heading.  
+- Select the column heading.  
   
 ### To group threads  
   
--   Open the shortcut menu for the GPU Threads window, choose **Group By**, and then choose one of the column names displayed. Choose **None** to ungroup the threads.  
+- Open the shortcut menu for the GPU Threads window, choose **Group By**, and then choose one of the column names displayed. Choose **None** to ungroup the threads.  
   
 ### To freeze or thaw a row of threads  
   
--   Open the shortcut menu for the row and choose **Freeze** or **Thaw**.  
+- Open the shortcut menu for the row and choose **Freeze** or **Thaw**.  
   
 ### To flag or unflag a row of threads  
   
--   Select the flag column for the thread, or open the shortcut menu for the thread and choose **Flag** or **Unflag**.  
+- Select the flag column for the thread, or open the shortcut menu for the thread and choose **Flag** or **Unflag**.  
   
 ### To display only flagged threads  
   
--   Choose the flag button in the GPU Threads window.  
+- Choose the flag button in the GPU Threads window.  
   
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [How to: Use the Parallel Watch Window](../debugger/how-to-use-the-parallel-watch-window.md)   
- [Walkthrough: Debugging a C++ AMP Application](http://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5)
-
-
-
+ [Walkthrough: Debugging a C++ AMP Application](https://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5)

@@ -1,5 +1,5 @@
 ---
-title: "Create a Web Service Test in Visual Studio"
+title: "Create a Web Service Test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,9 +9,7 @@ helpviewer_keywords:
 ms.assetid: fbcd57ee-06ad-4260-8694-09f8e0f93e39
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Create a web service test
 
@@ -27,21 +25,21 @@ Visual Studio Enterprise
 
 ## To test a web service
 
-1.  Create a new web performance test. As soon as the browser opens, choose **Stop**.
+1. Create a new web performance test. As soon as the browser opens, choose **Stop**.
 
-2.  In the **Web Performance Test Editor**, right-click the web performance test and select **Add Web Service Request**.
+2. In the **Web Performance Test Editor**, right-click the web performance test and select **Add Web Service Request**.
 
-3.  In the **Url** property of the new request, type the name of the web service, such as **http://localhost/storecsvs/InstantOrder.asmx**.
+3. In the **Url** property of the new request, type the name of the web service, such as **http://localhost/storecsvs/InstantOrder.asmx**.
 
-4.  Open a separate session of the browser and type the URL of the *.asmx* page in the **Address** toolbar. Select the method that you want to test and examine the SOAP message. It contains a `SOAPAction`.
+4. Open a separate session of the browser and type the URL of the *.asmx* page in the **Address** toolbar. Select the method that you want to test and examine the SOAP message. It contains a `SOAPAction`.
 
-5.  In the **Web Performance Test Editor**, right-click the request and select **Add Header** to add a new header. In the **Name** property, type `SOAPAction`. In the **Value** property, type the value that you see in `SOAPAction`, such as `"http://tempuri.org/CheckStatus"`.
+5. In the **Web Performance Test Editor**, right-click the request and select **Add Header** to add a new header. In the **Name** property, type `SOAPAction`. In the **Value** property, type the value that you see in `SOAPAction`, such as `"http://tempuri.org/CheckStatus"`.
 
-6.  Expand the URL node in the editor, choose the **String Body** node and in the **Content Type** property enter a value of `text/xml`.
+6. Expand the URL node in the editor, choose the **String Body** node and in the **Content Type** property enter a value of `text/xml`.
 
-7.  Return to the browser in step 4, select the XML portion of the SOAP request from the web service description page and copy it to the clipboard.
+7. Return to the browser in step 4, select the XML portion of the SOAP request from the web service description page and copy it to the clipboard.
 
-8.  The XML content resembles the following example:
+8. The XML content resembles the following example:
 
      ```xml
      <?xml version="1.0" encoding="utf-8"?>

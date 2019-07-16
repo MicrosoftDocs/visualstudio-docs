@@ -1,9 +1,6 @@
 ---
 title: "How to: Create an Event Receiver | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords:
   - "VS.SharePointTools.SPE.EventReceiver"
@@ -15,9 +12,9 @@ dev_langs:
 helpviewer_keywords:
   - "SharePoint development in Visual Studio, event receivers"
   - "event receivers [SharePoint development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -31,23 +28,23 @@ ms.workload:
 
 #### To add an event receiver to the list instance
 
-1.  Open the project that you created in [Walkthrough: Create a site column, content type, and list for SharePoint](../sharepoint/walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md).
+1. Open the project that you created in [Walkthrough: Create a site column, content type, and list for SharePoint](../sharepoint/walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md).
 
-2.  In **Solution Explorer**, choose the SharePoint project node, which is named **Clinic**.
+2. In **Solution Explorer**, choose the SharePoint project node, which is named **Clinic**.
 
-3.  On the menu bar, choose **Project** > **Add New Item**.
+3. On the menu bar, choose **Project** > **Add New Item**.
 
-4.  Under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose the **2010** item.
+4. Under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose the **2010** item.
 
-5.  In the **Templates** pane, choose **Event Receiver**, name it **TestEventReceiver1**, and then choose the **OK** button.
+5. In the **Templates** pane, choose **Event Receiver**, name it **TestEventReceiver1**, and then choose the **OK** button.
 
      The **SharePoint Customization Wizard** appears.
 
-6.  In the **What type of event receiver do you want?** list, choose **List Item Events**.
+6. In the **What type of event receiver do you want?** list, choose **List Item Events**.
 
-7.  In the **What item should be the event source?** list, choose **Patients (Clinic\Patients)**.
+7. In the **What item should be the event source?** list, choose **Patients (Clinic\Patients)**.
 
-8.  In the **Handle the following events** list, select the check box next to **An item was added**, and then choose the **Finish** button.
+8. In the **Handle the following events** list, select the check box next to **An item was added**, and then choose the **Finish** button.
 
      The code file for the new event receiver contains a single method that's named `ItemAdded`. In the next step, you'll add code to this method so that every contact will be named Scott Brown by default.
 

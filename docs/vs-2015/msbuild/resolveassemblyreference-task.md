@@ -1,14 +1,9 @@
 ---
 title: "ResolveAssemblyReference Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#ResolveAssemblyReference"
   - "MSBuild.ResolveAssemblyReference.TurnOnAutoGenerateBindingRedirects"
@@ -25,17 +20,15 @@ ms.assetid: 4d56d848-b29b-4dff-86a2-0a96c9e4a170
 caps.latest.revision: 32
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # ResolveAssemblyReference Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
 
 Determines all assemblies that depend on the specified assemblies. This includes second and `n`th-order dependencies.  
 
 ## Parameters  
  The following table describes the parameters of the `ResolveAssemblyReference` task.  
-
 
 |                    Parameter                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -84,25 +77,25 @@ Determines all assemblies that depend on the specified assemblies. This includes
 ## Warnings  
  The following warnings are logged:  
 
--   `ResolveAssemblyReference.TurnOnAutoGenerateBindingRedirects`  
+- `ResolveAssemblyReference.TurnOnAutoGenerateBindingRedirects`  
 
--   `ResolveAssemblyReference.SuggestedRedirects`  
+- `ResolveAssemblyReference.SuggestedRedirects`  
 
--   `ResolveAssemblyReference.FoundConflicts`  
+- `ResolveAssemblyReference.FoundConflicts`  
 
--   `ResolveAssemblyReference.AssemblyFoldersExSearchLocations`  
+- `ResolveAssemblyReference.AssemblyFoldersExSearchLocations`  
 
--   `ResolveAssemblyReference.UnifiedPrimaryReference`  
+- `ResolveAssemblyReference.UnifiedPrimaryReference`  
 
--   `ResolveAssemblyReference.PrimaryReference`  
+- `ResolveAssemblyReference.PrimaryReference`  
 
--   `ResolveAssemblyReference.UnifiedDependency`  
+- `ResolveAssemblyReference.UnifiedDependency`  
 
--   `ResolveAssemblyReference.UnificationByAutoUnify`  
+- `ResolveAssemblyReference.UnificationByAutoUnify`  
 
--   `ResolveAssemblyReference.UnificationByAppConfig`  
+- `ResolveAssemblyReference.UnificationByAppConfig`  
 
--   `ResolveAssemblyReference.UnificationByFrameworkRetarget`  
+- `ResolveAssemblyReference.UnificationByFrameworkRetarget`  
 
 ## Remarks  
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../msbuild/taskextension-base-class.md).  
@@ -110,6 +103,3 @@ Determines all assemblies that depend on the specified assemblies. This includes
 ## See Also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

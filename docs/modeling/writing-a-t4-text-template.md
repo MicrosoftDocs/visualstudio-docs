@@ -8,11 +8,9 @@ helpviewer_keywords:
   - "text templates, functions that generate text"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Writing a T4 Text Template
 A text template contains the text that will be generated from it. For example, a template that creates a web page will contain "\<html>..." and all the other standard parts of an HTML page. Inserted into the template are *control blocks*, which are fragments of program code. Control blocks provide varying values and allow parts of the text to be conditional and repeated.
@@ -21,11 +19,11 @@ A text template contains the text that will be generated from it. For example, a
 
  Text templates are composed of the following parts:
 
--   **Directives** - elements that control how the template is processed.
+- **Directives** - elements that control how the template is processed.
 
--   **Text blocks** - content that is copied directly to the output.
+- **Text blocks** - content that is copied directly to the output.
 
--   **Control blocks** - program code that inserts variable values into the text, and controls conditional or repeated parts of the text.
+- **Control blocks** - program code that inserts variable values into the text, and controls conditional or repeated parts of the text.
 
 To try the examples in this topic, copy them into a template file as described in [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md). After editing the template file, save it, and then inspect the output **.txt** file.
 
@@ -90,7 +88,7 @@ Hello!
  You can insert a text block wherever a `Write();` statement would be allowed in the code.
 
 > [!NOTE]
->  When you embed a text block within a compound statement such as a loop or conditional, always use braces {...} to contain the text block.
+> When you embed a text block within a compound statement such as a loop or conditional, always use braces {...} to contain the text block.
 
 ### Expression control blocks
  An expression control block evaluates an expression and converts it to a string. This is inserted into the output file.

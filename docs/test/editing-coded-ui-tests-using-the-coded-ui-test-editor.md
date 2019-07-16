@@ -1,15 +1,13 @@
 ---
 title: "Editing Coded UI Tests"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 f1_keywords:
   - "vs.codedUItest.testeditor"
 helpviewer_keywords:
   - "coded UI test, Coded UI Test Editor"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren

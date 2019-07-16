@@ -1,21 +1,16 @@
 ---
 title: "Reformatting Code in a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "reformatting code, supporting in language services [managed package framework]"
   - "language services [managed package framework], reformatting code"
 ms.assetid: 08bb3375-8fef-4f4e-9efa-0d7333bab0eb
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Reformatting Code in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -23,7 +18,7 @@ manager: "ghogen"
 In [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] source code can be reformatted by normalizing the use of indentations and whitespace. This can include inserting or removing spaces or tabs at the beginning of each line, adding new lines between lines, or replacing spaces with tabs or tabs with spaces.  
   
 > [!NOTE]
->  **Note** Inserting or deleting newline characters can affect markers such as breakpoints and bookmarks, but adding or removing spaces or tabs does not affect markers.  
+> **Note** Inserting or deleting newline characters can affect markers such as breakpoints and bookmarks, but adding or removing spaces or tabs does not affect markers.  
   
  Users can start a reformatting operation by selecting **Format Selection** or **Format Document** from the **Advanced** menu on the **Edit** menu. A reformatting operation can also be triggered when a code snippet or a particular character is inserted. For example, when you type a closing brace in C#, everything between the matching open brace and the close brace is automatically indented to the proper level.  
   
@@ -180,4 +175,3 @@ namespace MyLanguagePackage
   
 ## See Also  
  [Legacy Language Service Features](../../extensibility/internals/legacy-language-service-features1.md)
-

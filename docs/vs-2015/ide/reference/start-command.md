@@ -1,14 +1,9 @@
 ---
 title: "Start Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "debug.start"
 helpviewer_keywords: 
@@ -18,12 +13,11 @@ ms.assetid: dc4e4aa2-b0ab-4e00-92db-6dc3058ddc21
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Start Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Begins debugging the startup project.  
   
 ## Syntax  
@@ -51,6 +45,3 @@ Debug.Start [address]
  [Command Window](../../ide/reference/command-window.md)   
  [Find/Command Box](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

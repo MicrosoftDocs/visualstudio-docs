@@ -1,5 +1,5 @@
 ---
-title: "Configure the ASP.NET Profiler for Load Tests in Visual Studio"
+title: "Configure ASP.NET Profiler for Load Tests"
 ms.date: 10/13/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,9 +7,7 @@ helpviewer_keywords:
 ms.assetid: 6832fe39-04d5-4d94-8a18-3e2730bad423
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Configure ASP.NET profiler for load tests using test settings in Visual Studio
 
@@ -31,26 +29,26 @@ For more information, see [How to: Create a test setting for a distributed load 
 
 Before you perform the steps in this procedure, you must open your test settings from Visual Studio and select the **Data and Diagnostics** page.
 
-1.  Select the role to use to collect the ASP.NET profiler data.
+1. Select the role to use to collect the ASP.NET profiler data.
 
     > [!WARNING]
     > This role must be a web server.
 
-2.  Select **ASP.NET Profiler** to enable collecting ASP.NET profiling data, and then choose **Configure**.
+2. Select **ASP.NET Profiler** to enable collecting ASP.NET profiling data, and then choose **Configure**.
 
      The dialog box to configure ASP.NET profiling data collection is displayed.
 
-3.  In **Profiler Sampling interval**, type a value that indicates how many non-halted CPU clock cycles to wait between taking ASP.NET profiling samples.
+3. In **Profiler Sampling interval**, type a value that indicates how many non-halted CPU clock cycles to wait between taking ASP.NET profiling samples.
 
-4.  To enable tier interaction profiling, select **Enable Tier Interaction Profiling**.
+4. To enable tier interaction profiling, select **Enable Tier Interaction Profiling**.
 
      Tier interaction profiling counts the number of requests that are sent to the web server for each artifact (for example, *MyPage.aspx* or *CompanyLogo.gif*) and the time it took to service each request. Additionally, tier interaction profiling collects which ADO.NET connections were used as a part of the page request, and how many queries and stored procedure calls were executed as a part of servicing that request.
 
      Two different sets of timing information are collected:
 
-    -   The timing information (Min, Max, Average, and Total) for servicing each web request.
+    - The timing information (Min, Max, Average, and Total) for servicing each web request.
 
-    -   The timing information (Min, Max, Average and Total) of executing each query.
+    - The timing information (Min, Max, Average and Total) of executing each query.
 
 With the ASP.NET profiler diagnostic data adapter configured in your test setting, you can now collect ASP.NET profiling data on your ASP.NET web application.
 

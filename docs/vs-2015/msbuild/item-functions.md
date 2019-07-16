@@ -1,26 +1,20 @@
 ---
 title: "Item Functions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "msbuild, Item functions"
 ms.assetid: 5e6df3cc-2db8-4cbd-8fdd-3ffd03ac0876
 caps.latest.revision: 32
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Item Functions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Starting with MSBuild 4.0, code in tasks and targets can call item functions to get information about the items in the project. These functions simplify getting Distinct() items and are faster than looping through the items.  
   
 ## String Item Functions  
@@ -104,6 +98,3 @@ Starting with MSBuild 4.0, code in tasks and targets can call item functions to 
   
 ## See Also  
  [Items](../msbuild/msbuild-items.md)
-
-
-

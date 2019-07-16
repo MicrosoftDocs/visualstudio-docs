@@ -1,12 +1,9 @@
 ---
 title: "UML Component Diagrams: Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 f1_keywords: 
   - "vs.teamarch.componentdiagram.diagram"
   - "vs.teamarch.componentdiagram.toolbox"
@@ -21,7 +18,7 @@ ms.assetid: 5eddff6a-892a-4c3c-9278-687ac1eccc50
 caps.latest.revision: 38
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # UML Component Diagrams: Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,13 +32,12 @@ In Visual Studio, a *component diagram* shows the parts of a design for a softwa
  For more information about how to use component diagrams in the process of design, see [Model your app's architecture](../modeling/model-your-app-s-architecture.md).  
 
 > [!NOTE]
->  This topic describes the elements that you can use in Component diagrams. For more detailed in information about how to draw Component diagrams see [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams-guidelines.md). For more information about how to draw modeling diagrams in general, see [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
+> This topic describes the elements that you can use in Component diagrams. For more detailed in information about how to draw Component diagrams see [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams-guidelines.md). For more information about how to draw modeling diagrams in general, see [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
 
 ## Reading Component Diagrams  
  The following table describes the elements that you can use on a component diagram, together with their main properties. For a full list of the properties of the elements, see [Properties of elements on UML component diagrams](../modeling/properties-of-elements-on-uml-component-diagrams.md).  
 
  ![Elements used on component diagrams](../modeling/media/uml-compovreading.png "UML_CompOvReading")  
-
 
 |  **Shape**  |         **Element**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         **Description and Main Properties**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |-------------|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -64,6 +60,3 @@ In Visual Studio, a *component diagram* shows the parts of a design for a softwa
  [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)   
  [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md)   
  [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)
-
-
-

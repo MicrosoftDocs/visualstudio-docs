@@ -1,8 +1,6 @@
 ---
-title: Use and configure Roslyn analyzers
-ms.date: 03/26/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
+title: Analyzer rule severity and suppression
+ms.date: 03/26/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "code analysis, managed code"
@@ -10,11 +8,11 @@ helpviewer_keywords:
   - "Roslyn analyzers"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# Configure and use Roslyn analyzer rules
+# Use Roslyn analyzers
 
 .NET Compiler Platform ("Roslyn") analyzer rules, or *diagnostics*, analyze your C# or Visual Basic code as you type. Each diagnostic has a default severity and suppression state that can be overwritten for your project. This article covers setting rule severity, using rule sets, and suppressing violations.
 
@@ -42,12 +40,17 @@ The icons next to each diagnostic in **Solution Explorer** correspond to the ico
 
 ## Rule sets
 
-A [rule set](../code-quality/using-rule-sets-to-group-code-analysis-rules.md) is an XML file that stores the severity and suppression state for individual diagnostics. Rule sets apply to a single project, and a project can have multiple rule sets. To view the active rule set in the editor, right-click on the **Analyzers** node in **Solution Explorer** and select **Open Active Rule Set**. If this is the first time you are accessing the rule set, a file named *\<projectname>.ruleset* is added to the project and appears in **Solution Explorer**.
+A [rule set](../code-quality/using-rule-sets-to-group-code-analysis-rules.md) is an XML file that stores the severity and suppression state for individual diagnostics.
 
 > [!NOTE]
-> Rule sets include both static (binary) code analysis and Roslyn analyzer rules.
+> Rule sets can include rules from both static (binary) code analysis and Roslyn analyzers.
 
-You can change the active rule set for a project on the **Code Analysis** tab of a project's properties. Select the rule set in the **Run this rule set** drop-down list. You can also open the rule set from the **Code Analysis** property page by selecting **Open**.
+To edit the active rule set in the rule set editor, right-click on the **References** > **Analyzers** node in **Solution Explorer** and select **Open Active Rule Set**. If this is the first time you're editing the rule set, Visual Studio makes a copy of the default rule set file, names it *\<projectname>.ruleset*, and adds it to your project. This custom rule set also becomes the active rule set for your project.
+
+To change the active rule set for a project, navigate to the **Code Analysis** tab of a project's properties. Select the rule set from the list under **Run this rule set**. To open the rule set, select **Open**.
+
+> [!NOTE]
+> .NET Core and .NET Standard projects do not support the menu commands for rule sets in **Solution Explorer**, for example, **Open Active Rule Set**. To specify a non-default rule set for a .NET Core or .NET Standard project, manually [add the **CodeAnalysisRuleSet** property](using-rule-sets-to-group-code-analysis-rules.md#specify-a-rule-set-for-a-project) to the project file. You can still configure the rules within the rule set in the Visual Studio rule set editor UI.
 
 ## Rule severity
 
@@ -75,7 +78,7 @@ You can change the severity of a rule from **Solution Explorer**, or within the 
 
 ![Rule set file in Solution Explorer](media/ruleset-in-solution-explorer.png)
 
-### To set rule severity from Solution Explorer
+### Set rule severity from Solution Explorer
 
 1. In **Solution Explorer**, expand **References** > **Analyzers** (**Dependencies** > **Analyzers** for .NET Core projects).
 
@@ -85,9 +88,9 @@ You can change the severity of a rule from **Solution Explorer**, or within the 
 
    The severity for the rule is saved in the active rule set file.
 
-### To set rule severity in the rule set file
+### Set rule severity in the rule set file
 
-1. Open the rule set file by double-clicking it in **Solution Explorer**, selecting **Open Active Rule Set** on the right-click menu of the **Analyzers** node, or by selecting **Open** on the **Code Analysis** property page for the project.
+1. Open the [rule set](analyzer-rule-sets.md) file by double-clicking it in **Solution Explorer**, selecting **Open Active Rule Set** on the right-click menu of the **Analyzers** node, or by selecting **Open** on the **Code Analysis** property page for the project.
 
 1. Browse to the rule by expanding its containing assembly.
 
@@ -99,42 +102,42 @@ You can change the severity of a rule from **Solution Explorer**, or within the 
 
 There are multiple ways to suppress rule violations:
 
-- To suppress all current violations, select **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar. This is sometimes referred to as "baselining".
+- From the **Analyze** menu
 
-- To suppress a diagnostic from **Solution Explorer**, set its severity to **None**.
+  Select **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar to suppress all current violations. This is sometimes referred to as "baselining".
 
-- To suppress a diagnostic from the rule set editor, uncheck the box next to its name, or set **Action** to **None**.
+- From **Solution Explorer**
 
-- To suppress a diagnostic from the code editor, place the cursor in the line of code with the violation and press **Ctrl**+**.** to open the **Quick Actions** menu. Select **Suppress CAxxxx** > **In Source** or **Suppress CAxxxx** > **In Suppression File**.
+  To suppress a violation in **Solution Explorer**, set the rule's severity to **None**.
 
-   ![Suppress diagnostic from quick actions menu](media/suppress-diagnostic-from-editor.png)
+- From the **rule set editor**
 
-- To suppress a diagnostic from the **Error List**, see [Suppress violations from the Error List](#suppress-violations-from-the-error-list).
+  To suppress a violation from the rule set editor, uncheck the box next to its name or set **Action** to **None**.
 
-### Suppress violations from the Error List
+- From the **code editor**
 
-You can suppress one or many diagnostics from the **Error List** by selecting the ones you want to suppress, and then right-clicking and selecting **Suppress** > **In Source** or **Suppress** > **In Suppression File**.
+  To suppress a violation from the code editor, place the cursor in the line of code with the violation and press **Ctrl**+**.** to open the **Quick Actions** menu. Select **Suppress CAXXXX** > **in Source/in Suppression File**.
 
-- If you select **In Source**, the **Preview Changes** dialog opens and shows a preview of the C# [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) or Visual Basic [#Disable warning](/dotnet/visual-basic/language-reference/directives/directives) directive that's added to the source code.
+  ![Suppress diagnostic from quick actions menu](media/suppress-diagnostic-from-editor.png)
 
-   ![Preview of adding #pragma warning in code file](media/pragma-warning-preview.png)
+- From the **Error List**
 
-- If you select **In Suppression File**, the **Preview Changes** dialog opens and shows a preview of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute that's added to the global suppressions file.
+  You can suppress one or many diagnostics from the **Error List** by selecting the ones you want to suppress, and then right-clicking and selecting **Suppress** > **In Source/In Suppression File**.
 
-   ![Preview of adding SuppressMessage attribute to suppression file](media/preview-changes-in-suppression-file.png)
+  - If you suppress **In Source**, the **Preview Changes** dialog opens and shows a preview of the C# [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) or Visual Basic [#Disable warning](/dotnet/visual-basic/language-reference/directives/directives) directive that's added to the source code.
 
-In the **Preview Changes** dialog, select **Apply**.
+    ![Preview of adding #pragma warning in code file](media/pragma-warning-preview.png)
 
-The **Error List** displays diagnostics, or rule violations, from both live code analysis and build. Since the build diagnostics can be stale, for example, if you've edited the code to fix the violation but haven't rebuilt, you cannot suppress these diagnostics from the **Error List**. However, diagnostics from live analysis, or IntelliSense, are always up-to-date with current sources, and can be suppressed from the **Error List**. If the suppression option is disabled in the right-click, or context, menu, it's likely because you have one or more build diagnostics in your selection. To exclude the build diagnostics from your selection, switch the **Error List** source filter from **Build + IntelliSense** to **Intellisense Only**. Then, select the diagnostics you want to suppress and proceed as described previously.
+  - If you select **In Suppression File**, the **Preview Changes** dialog opens and shows a preview of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute that's added to the global suppressions file.
 
-![Error List source filter in Visual Studio](media/error-list-filter.png)
+    ![Preview of adding SuppressMessage attribute to suppression file](media/preview-changes-in-suppression-file.png)
 
-> [!NOTE]
-> In a .NET Core project, if you add a reference to a project that has NuGet analyzers, those analyzers are automatically added to the dependent project too. To disable this behavior, for example if the dependent project is a unit test project, mark the NuGet package as private in the *.csproj* or *.vbproj* file of the referenced project:
->
-> ```xml
-> <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.0" PrivateAssets="all" />
-> ```
+  In the **Preview Changes** dialog, select **Apply**.
+
+  > [!NOTE]
+  > If you don't see the **Suppress** menu option in **Solution Explorer**, the violation is likely coming from build and not live analysis. The **Error List** displays diagnostics, or rule violations, from both live code analysis and build. Since the build diagnostics can be stale, for example, if you've edited the code to fix the violation but haven't rebuilt, you cannot suppress these diagnostics from the **Error List**. Diagnostics from live analysis, or IntelliSense, are always up-to-date with current sources and can be suppressed from the **Error List**. To exclude *build* diagnostics from your selection, switch the **Error List** source filter from **Build + IntelliSense** to **Intellisense Only**. Then, select the diagnostics you want to suppress and proceed as described previously.
+  >
+  > ![Error List source filter in Visual Studio](media/error-list-filter.png)
 
 ## Command-line usage
 
@@ -160,6 +163,14 @@ msbuild myproject.csproj /target:rebuild /verbosity:minimal
 The following image shows the command-line build output from building a project that contains an analyzer rule violation:
 
 ![MSBuild output with rule violation](media/command-line-build-analyzers.png)
+
+## Dependent projects
+
+In a .NET Core project, if you add a reference to a project that has NuGet analyzers, those analyzers are automatically added to the dependent project too. To disable this behavior, for example if the dependent project is a unit test project, mark the NuGet package as private in the *.csproj* or *.vbproj* file of the referenced project by setting the **PrivateAssets** attribute:
+
+```xml
+<PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.0" PrivateAssets="all" />
+```
 
 ## See also
 

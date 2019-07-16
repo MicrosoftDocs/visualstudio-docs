@@ -1,45 +1,45 @@
 ---
 title: "IDebugProgramEx2::GetProgramNode | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "IDebugProgramEx2::Attach"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugProgramEx2::Attach"
 ms.assetid: 1545ffbf-1422-4b5d-9bb9-314ba8665041
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramEx2::GetProgramNode
-Gets the program node associated with a program.  
-  
-## Syntax  
-  
-```cpp  
-HRESULT GetProgramNode(   
-   IDebugProgramNode2** ppProgramNode  
-);  
-```  
-  
-```csharp  
-int GetProgramNode(   
-   out IDebugProgramNode2 ppProgramNode  
-);  
-```  
-  
-#### Parameters  
- `ppProgramNode`  
- [out] Returns an [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object that represents the program node associated with this program.  
-  
-## Return Value  
- If successful, returns `S_OK`; otherwise, returns an error code.  
-  
-## See Also  
- [IDebugProgramEx2](../../../extensibility/debugger/reference/idebugprogramex2.md)   
- [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
+Gets the program node associated with a program.
+
+## Syntax
+
+```cpp
+HRESULT GetProgramNode( 
+   IDebugProgramNode2** ppProgramNode
+);
+```
+
+```csharp
+int GetProgramNode( 
+   out IDebugProgramNode2 ppProgramNode
+);
+```
+
+## Parameters
+`ppProgramNode`\
+[out] Returns an [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object that represents the program node associated with this program.
+
+## Return Value
+ If successful, returns `S_OK`; otherwise, returns an error code.
+
+## See also
+- [IDebugProgramEx2](../../../extensibility/debugger/reference/idebugprogramex2.md)
+- [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

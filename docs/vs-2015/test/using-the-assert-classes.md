@@ -1,14 +1,9 @@
 ---
 title: "Using the Assert Classes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Assert classes"
   - "Assert statements"
@@ -17,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: da1b7a0d-4f1d-4d50-a07e-7b3ff60053f9
 caps.latest.revision: 29
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Using the Assert Classes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,7 +43,7 @@ Use the Assert classes of the UnitTestingFramework namespace to verify specific 
  The AssertInconclusiveException is thrown whenever a test produces a result of Inconclusive. Typically, you add an Assert.Inconclusive statement to a test that you are still working on to indicate it is not yet ready to be run.  
   
 > [!NOTE]
->  An alternative strategy would be to mark a test that is not ready to run with the Ignore attribute. However, this has the disadvantage that you cannot easily generate a report on the number of tests you have left to implement.  
+> An alternative strategy would be to mark a test that is not ready to run with the Ignore attribute. However, this has the disadvantage that you cannot easily generate a report on the number of tests you have left to implement.  
   
  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException>  
   
@@ -60,7 +55,4 @@ Use the Assert classes of the UnitTestingFramework namespace to verify specific 
   
 ## See Also  
  <xref:Microsoft.VisualStudio.TestTools.UnitTesting>   
- [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173)
-
-
-
+ [Creating and Running Unit Tests for Existing Code](https://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)

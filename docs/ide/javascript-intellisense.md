@@ -1,9 +1,8 @@
 ---
 title: JavaScript IntelliSense
 ms.date: 06/28/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
+ms.technology: vs-javascript
 helpviewer_keywords:
   - "IntelliSense [JavaScript]"
   - "<reference> JavaScript XML tag"
@@ -21,25 +20,25 @@ helpviewer_keywords:
   - "IntelliSense [JavaScript], about"
   - "IntelliSense extensibility [JavaScript]"
   - "XML documentation comments [JavaScript]"
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: mikejo5000
+ms.author: mikejo
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # JavaScript IntelliSense
 
-[!include[vs_dev15](../misc/includes/vs_dev15_md.md)] provides a powerful JavaScript editing experience right out of the box. Powered by a TypeScript based language service, Visual Studio delivers richer IntelliSense, support for modern JavaScript features, and improved productivity features such as Go to Definition, refactoring, and more.
+Visual Studio provides a powerful JavaScript editing experience right out of the box. Powered by a TypeScript based language service, Visual Studio delivers richer IntelliSense, support for modern JavaScript features, and improved productivity features such as Go to Definition, refactoring, and more.
 
 > [!NOTE]
-> The JavaScript language service in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] uses a new engine for the language service (called "Salsa"). Details are included in this topic, and you can also read this [blog post](https://blogs.msdn.microsoft.com/visualstudio/2016/11/28/more-productive-javascript-in-visual-studio-2017-rc/). The new editing experience also mostly applies to Visual Studio Code. See the [VS Code docs](https://code.visualstudio.com/docs/languages/javascript) for more info.
+> Starting in Visual Studio 2017, the JavaScript language service uses a new engine for the language service (called "Salsa"). Details are included in this article, and you can also read this [blog post](https://devblogs.microsoft.com/visualstudio/previewing-salsa-javascript-language-service-visual-studio-15/). The new editing experience also mostly applies to Visual Studio Code. See the [VS Code docs](https://code.visualstudio.com/docs/languages/javascript) for more info.
 
 For more information about the general IntelliSense functionality of Visual Studio, see [Using IntelliSense](../ide/using-intellisense.md).
 
-## What's new in the JavaScript language service in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
+## What's new in the JavaScript language service in Visual Studio 2017
 
-Starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)], JavaScript IntelliSense displays a lot more information on parameter and member lists.
-This new information is provided by the TypeScript language service, which uses static analysis behind the scenes to better understand your code.
+Starting in Visual Studio 2017, JavaScript IntelliSense displays a lot more information on parameter and member lists. This new information is provided by the TypeScript language service, which uses static analysis behind the scenes to better understand your code.
+
 TypeScript uses several sources to build up this information:
 
 - [IntelliSense based on type inference](#TypeInference)
@@ -48,6 +47,7 @@ TypeScript uses several sources to build up this information:
 - [Automatic acquisition of type definitions](#Auto)
 
 <a name="TypeInference"></a>
+
 ### IntelliSense based on type inference
 
 In JavaScript, most of the time there is no explicit type information available. Luckily, it is usually fairly easy to figure out a type given the surrounding code context.
@@ -85,6 +85,7 @@ exports.Foo = Foo;
 ```
 
 <a name="JsDoc"></a>
+
 ### IntelliSense based on JSDoc
 
 Where type inference does not provide the desired type information (or to support documentation), type information may be provided explicitly via JSDoc annotations.  For example, to give a partially declared object a specific type, you can use the `@type` tag as shown below:
@@ -118,7 +119,7 @@ Because JavaScript and TypeScript are now based on the same language service, th
 
 Below, we show a simple example of a TypeScript definition file providing such type information (via an interface) to a JavaScript file in the same project (using a `JsDoc` tag).
 
-<img src="https://raw.githubusercontent.com/wiki/Microsoft/TypeScript/images/decl1.png" height="400" width="640" alt="TypeScript definition file" />
+![TypeScript definition file](https://raw.githubusercontent.com/wiki/Microsoft/TypeScript/images/decl1.png)
 
 <a name="Auto"></a>
 ### Automatic acquisition of type definitions

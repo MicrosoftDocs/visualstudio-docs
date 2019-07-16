@@ -1,16 +1,14 @@
 ---
-title: "Understanding Memory Allocation and Object Lifetime Data Values | Microsoft Docs"
-ms.custom: ""
+title: "Understand memory allocation & object lifetime data values"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - ".NET memory profiling method"
   - "Profiling Tools, .NET memory method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Understand memory allocation and object lifetime data values

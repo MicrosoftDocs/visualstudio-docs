@@ -1,14 +1,9 @@
 ---
 title: "Understanding Performance Collection Methods | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.wizard.methodpage"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: ea4881fd-bd04-4875-9b7b-28490d6706f9
 caps.latest.revision: 25
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Understanding Performance Collection Methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +20,7 @@ manager: "ghogen"
 The Visual Studio Profiling Tools provide five methods that you can use to collect performance data. This topic describes the different methods and suggests some scenarios in which collecting data with a particular method can be appropriate.  
   
 > [!NOTE]
->  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
+> Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
   
 |Method|Description|  
 |------------|-----------------|  
@@ -37,7 +32,7 @@ The Visual Studio Profiling Tools provide five methods that you can use to colle
   
  By using some of the profiling methods, you can also collect additional data, such as software and hardware performance counters. For more information, see [Collecting Additional Performance Data](../profiling/collecting-additional-performance-data.md).  
   
-##  <a name="sampling"></a> Sampling  
+## <a name="sampling"></a> Sampling  
  The sampling profiling method collects statistical data about the work that is performed by an application during a profiling run. The sampling method is lightweight and has little effect on the execution of the application methods.  
   
  Sampling is the default method of the Visual Studio Profiling Tools. It is useful for the following:  
@@ -56,7 +51,7 @@ The Visual Studio Profiling Tools provide five methods that you can use to colle
   
   [Sampling Method Data Views](../profiling/profiler-sampling-method-data-views.md)  
   
-##  <a name="instrumentation"></a> Instrumentation  
+## <a name="instrumentation"></a> Instrumentation  
  The instrumentation profiling method collects detailed timing for the function calls in a profiled application. Instrumentation profiling is useful for the following:  
   
 - Investigating input/output bottlenecks such as disk I/O.  
@@ -81,7 +76,7 @@ The Visual Studio Profiling Tools provide five methods that you can use to colle
   
   [Instrumentation Method Data Views](../profiling/instrumentation-method-data-views.md)  
   
-##  <a name="concurrency"></a> Concurrency  
+## <a name="concurrency"></a> Concurrency  
  Concurrency profiling collects information about multithreaded applications. Resource contention profiling collects detailed call stack information every  time that competing threads are forced to wait for access to a shared resource. Concurrency visualization also collects more general information about how your multithreaded application interacts with itself, the hardware, the operating system, and other processes on the host computer:  
   
 - Resource contention reports display the total number of contentions and the total time that was spent waiting for a resource for the modules, functions, source code lines, and instructions in which the waiting occurred. Timeline graphs also show the contentions as they occurred.  
@@ -96,7 +91,7 @@ The Visual Studio Profiling Tools provide five methods that you can use to colle
   
   [Concurrency Visualizer](../profiling/concurrency-visualizer.md)  
   
-##  <a name="net_memory"></a> .NET Memory  
+## <a name="net_memory"></a> .NET Memory  
  The .NET memory allocation profiling method interrupts the computer processor at each allocation of a .NET Framework object in a profiled application. When object lifetime data is also collected, the profiler interrupts the processor after each .NET Framework garbage collection.  
   
  The profiler collects information about the type, size, and number of objects that were created in an allocation or were destroyed in a garbage collection.  
@@ -117,7 +112,7 @@ The Visual Studio Profiling Tools provide five methods that you can use to colle
   
   [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md)  
   
-##  <a name="tier_interaction"></a> Tier Interaction  
+## <a name="tier_interaction"></a> Tier Interaction  
  Tier-interaction profiling adds information to a profiling data file about synchronous [!INCLUDE[vstecado](../includes/vstecado-md.md)] calls between an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] page or other application and a [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] database. Data includes the number and time of calls, and the maximum and minimum times. Tier-interaction data can be added to profiling data that is collected with the sampling, instrumentation, .NET memory, or concurrency methods.  
   
  ![Tier Interaction Profiling Data](../profiling/media/tierinteraction-profilingtools.png "TierInteraction_ProfilingTools")  
@@ -130,6 +125,3 @@ Tier interaction data that is collected by Profiling Tools
 ## See Also  
  [How to: Collect Performance Data for a Web Site](../profiling/how-to-collect-performance-data-for-a-web-site.md)   
  [Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md)
-
-
-

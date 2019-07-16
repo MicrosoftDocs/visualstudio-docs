@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Creating an Inline Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 helpviewer_keywords: 
   - "MSBuild, tutorial"
   - "MSBuild, tasks"
@@ -16,12 +11,11 @@ ms.assetid: 438194cb-668c-41a9-a7e2-c118d14c1ea7
 caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Creating an Inline Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 MSBuild tasks are typically created by compiling a class that implements the <xref:Microsoft.Build.Framework.ITask> interface. Starting with the .NET Framework version 4, you can create tasks inline in the project file. You do not have to create a separate assembly to host the task. For more information, see [Inline Tasks](../msbuild/msbuild-inline-tasks.md).  
   
  This walkthrough shows how to create and run these inline tasks:  
@@ -47,15 +41,15 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
   
 #### To create and modify a project file  
   
-1.  In Visual Studio, on the **File** menu, click **New** and then click **Project**.  
+1. In Visual Studio, on the **File** menu, click **New** and then click **Project**.  
   
-2.  In the **New Project** dialog box, select the Visual C# project type, and then select the **Windows Forms Application** template. In the **Name** box, type `InlineTasks`. Type a **Location** for the solution, for example, `D:\`. Ensure that **Create directory for solution** is selected, **Add to Source Control** is cleared, and **Solution Name** is `InlineTasks`.  
+2. In the **New Project** dialog box, select the Visual C# project type, and then select the **Windows Forms Application** template. In the **Name** box, type `InlineTasks`. Type a **Location** for the solution, for example, `D:\`. Ensure that **Create directory for solution** is selected, **Add to Source Control** is cleared, and **Solution Name** is `InlineTasks`.  
   
      Click **OK** to create the project file.  
   
-3.  In **Solution Explorer**, right-click the InlineTasks project node, and then click **Unload Project**.  
+3. In **Solution Explorer**, right-click the InlineTasks project node, and then click **Unload Project**.  
   
-4.  Right-click the project node again, and then click **Edit InlineTasks.csproj**.  
+4. Right-click the project node again, and then click **Edit InlineTasks.csproj**.  
   
      The project file appears in the code editor.  
   
@@ -104,7 +98,7 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
     `Hello, world!`  
   
    > [!NOTE]
-   >  If you do not see the hello message, try saving the project file again and then run the Hello task.  
+   > If you do not see the hello message, try saving the project file again and then run the Hello task.  
   
    By alternating between the code editor and the **Command Prompt Window**, you can change the project file and quickly see the results.  
   
@@ -257,6 +251,3 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
  [Inline Tasks](../msbuild/msbuild-inline-tasks.md)   
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Targets](../msbuild/msbuild-targets.md)
-
-
-

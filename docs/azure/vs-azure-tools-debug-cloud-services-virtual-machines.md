@@ -1,16 +1,16 @@
 ---
-title: Debugging an Azure cloud service or virtual machine in Visual Studio | Microsoft Docs
+title: Debugging an Azure cloud service or virtual machine
 description: Debugging a Cloud Service or Virtual Machine in Visual Studio
 author: mikejo5000
-manager: douge
+manager: jillfra
 ms.assetid: 945e06e0-2100-41af-b218-72347367ddab
 ms.topic: conceptual
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.date: 11/11/2016
 ms.author: mikejo
-ms.prod: visual-studo-dev15
 ms.technology: vs-ide-debug
+ms.custom: seodec18
 ---
 # Debugging an Azure cloud service or virtual machine in Visual Studio
 
@@ -34,7 +34,8 @@ The emulator simulates the Azure Compute service and runs in your local environm
 
 3. Step through the application by selecting commands on the **Debug** menu and setting breakpoints in your code. As you step through the application in the debugger, the panes are updated with the current status of the application. When you stop debugging, the application deployment is deleted. If your application includes a web role and you've set the Startup action property to start the web browser, Visual Studio starts your web application in the browser. If you change the number of instances of a role in the service configuration, you must stop your cloud service and then restart debugging so that you can debug these new instances of the role.
 
-    **Note:** When you stop running or debugging your service, the local compute emulator and storage emulator aren't stopped. You must stop them explicitly from the notification area.
+    > [!NOTE]
+    > When you stop running or debugging your service, the local compute emulator and storage emulator aren't stopped. You must stop them explicitly from the notification area.
 
 ## Debug a cloud service in Azure
 
@@ -98,7 +99,7 @@ From Azure SDK 2.3, remote debugging has the following limitations:
 You can debug programs that run on Azure virtual machines by using Server Explorer in Visual Studio. When you enable remote debugging on an Azure virtual machine, Azure installs the remote debugging extension on the virtual machine. Then, you can attach to processes on the virtual machine and debug as you normally would.
 
 > [!NOTE]
-> Virtual machines created through the Azure resource manager stack can be remotely debugged by using Cloud Explorer in Visual Studio 2015. For more information, see [Managing Azure Resources with Cloud Explorer](http://go.microsoft.com/fwlink/?LinkId=623031).
+> Virtual machines created through the Azure resource manager stack can be remotely debugged by using Cloud Explorer in Visual Studio 2015. For more information, see [Managing Azure Resources with Cloud Explorer](vs-azure-tools-resources-managing-with-cloud-explorer.md).
 
 ### To debug an Azure virtual machine
 
@@ -140,7 +141,8 @@ Visual Studio ASP.NET projects offer an option to create a handy virtual machine
 
     ![Create ASP.NET web project dialog box](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC746723.png)
 
-    **Note:** You'll be asked to sign in to your Azure account if you're not already signed in.
+    > [!NOTE]
+    > You'll be asked to sign in to your Azure account if you're not already signed in.
 
 3. Select the various settings for the virtual machine and then select **OK**. See [Virtual Machines](http://go.microsoft.com/fwlink/?LinkId=623033) for more information.
 
@@ -180,6 +182,6 @@ Visual Studio ASP.NET projects offer an option to create a handy virtual machine
 
 ## Next steps
 
-* Use **Intellitrace** to collect a log of calls and events from a release server. See [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](http://go.microsoft.com/fwlink/?LinkID=623016).
+* Use **IntelliTrace** to collect a log of calls and events from a release server. See [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](http://go.microsoft.com/fwlink/?LinkID=623016).
 
 * Use **Azure Diagnostics** to log detailed information from code running within roles, whether the roles are running in the development environment or in Azure. See [Collecting logging data by using Azure Diagnostics](http://go.microsoft.com/fwlink/p/?LinkId=400450).

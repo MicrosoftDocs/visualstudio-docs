@@ -1,14 +1,9 @@
 ---
 title: "How to: View Script Documents | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -20,7 +15,7 @@ ms.assetid: 8b621e53-4508-4b4a-9995-70995b0b9ac8
 caps.latest.revision: 25
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: View Script Documents
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,22 +30,19 @@ In earlier versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], client-side
   
 ### To view a server-side script document  
   
-1.  In **Solution Explorer**, open the **\<Website Pathname>** node.  
+1. In **Solution Explorer**, open the **\<Website Pathname>** node.  
   
-2.  Double-click the script file that you want to view.  
+2. Double-click the script file that you want to view.  
   
      The server-side script file opens in a source window.  
   
 ### To view a client-side script document  
   
-1.  In **Solution Explorer**, open the **Script Documents** node.  
+1. In **Solution Explorer**, open the **Script Documents** node.  
   
-2.  Double-click the script file that you want to view.  
+2. Double-click the script file that you want to view.  
   
      The client-side script file opens in a source window.  
   
 ## See Also  
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)
-
-
-

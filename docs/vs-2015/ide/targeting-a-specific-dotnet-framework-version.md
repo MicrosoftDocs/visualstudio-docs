@@ -1,14 +1,9 @@
 ---
 title: "Targeting a Specific .NET Framework Version | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "targeting .NET Framework version [Visual Studio]"
   - "versions [Visual Studio], targeting .NET Framework version"
@@ -18,7 +13,7 @@ ms.assetid: 91e77ad4-4da3-419d-85fb-9036f0e5c330
 caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Targeting a Specific .NET Framework Version
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +30,7 @@ In Visual Studio, you can specify the version or profile of the .NET Framework t
  Details how to specify a particular [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] for your Visual Basic, Visual C# or Visual F# project.  
   
 ## Related Sections  
- [.NET Framework Multi-Targeting for ASP.NET Web Projects](http://msdn.microsoft.com/library/8b8145a9-62f6-4fc4-8a83-47b0487cbe76)  
+ [.NET Framework Multi-Targeting for ASP.NET Web Projects](https://msdn.microsoft.com/library/8b8145a9-62f6-4fc4-8a83-47b0487cbe76)  
  Explains how to use this version of Visual Studio to develop Web applications that run under earlier versions of the .NET Framework.  
   
  [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)  
@@ -44,8 +39,5 @@ In Visual Studio, you can specify the version or profile of the .NET Framework t
  [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)  
  Describes the **Target Framework** control in the Project Designer for [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] projects.  
   
- [How to: Modify the Target Framework and Platform Toolset](http://msdn.microsoft.com/library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)  
+ [How to: Modify the Target Framework and Platform Toolset](https://msdn.microsoft.com/library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)  
  Describes how to change settings for Visual C++ projects to target different versions of the .NET Framework and to use different platform toolsets.
-
-
-

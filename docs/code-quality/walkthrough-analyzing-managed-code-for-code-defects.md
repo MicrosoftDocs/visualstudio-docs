@@ -1,23 +1,21 @@
 ---
 title: Walkthrough Analyzing Managed Code for Code Defects | Microsoft Docs
 ms.date: 01/29/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "code analysis [Visual Studio]"
   - "managed code, analyzing"
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: mikadumont
+ms.author: midumont
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# Walkthrough: Analyzing managed code for code defects
+# Walkthrough: Use static code analysis to find code defects
 
 In this walkthrough, you'll analyze a managed project for code defects by using the code analysis tool.
 
-This walkthrough steps you through the process of using code analysis to analyze your .NET managed code assemblies for conformance with the Microsoft .NET Framework design guidelines.
+This walkthrough steps you through the process of using static code analysis to analyze your .NET managed code assemblies for conformance with the .NET design guidelines.
 
 ## Create a class library
 
@@ -178,13 +176,11 @@ This walkthrough steps you through the process of using code analysis to analyze
 
 ## Exclude code analysis warnings
 
-### To exclude code defect warnings
-
 1. For each of the remaining warnings, do the following:
 
     1. Select the warning in the **Error List**.
 
-    1. From the right-click or context menu, choose **Suppress** > **In Suppression File**.
+    1. From the right-click menu (context menu), choose **Suppress** > **In Suppression File**.
 
 1. Rebuild the project.
 

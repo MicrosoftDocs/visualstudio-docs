@@ -1,21 +1,16 @@
 ---
 title: "MSSCCPRJ.SCC File | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control plug-ins, MSSCCPRJ.SCC file"
   - "MSSCCPRJ.SCC file"
 ms.assetid: 6f2e39d6-b79d-407e-976f-b62a3cedd378
 caps.latest.revision: 16
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # MSSCCPRJ.SCC File
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,19 +21,19 @@ When a Visual Studio solution or project is placed under source control using th
   
  A source control plug-in that supports the MSSCCPRJ.SCC file must adhere to the following guidelines:  
   
--   There can only be one MSSCCPRJ.SCC file per directory.  
+- There can only be one MSSCCPRJ.SCC file per directory.  
   
--   An MSSCCPRJ.SCC file can contain the "AuxPath" and "ProjName" for multiple files that are under source control within a given directory.  
+- An MSSCCPRJ.SCC file can contain the "AuxPath" and "ProjName" for multiple files that are under source control within a given directory.  
   
--   The "AuxPath" string must not have quotes inside it. It is allowed to have quotes around it as delimiters (for example, a pair of double quotes can be used to indicate an empty string). The IDE will strip all quotes from the "AuxPath" string when it is read from the MSSCCPRJ.SCC file.  
+- The "AuxPath" string must not have quotes inside it. It is allowed to have quotes around it as delimiters (for example, a pair of double quotes can be used to indicate an empty string). The IDE will strip all quotes from the "AuxPath" string when it is read from the MSSCCPRJ.SCC file.  
   
--   The "ProjName" string in the MSSCCPRJ.SCC file must match exactly the string returned from the `SccGetProjPath` function. If the string returned by the function has quotes around it, the string in the MSSCCPRJ.SCC file must have quotes around it, and vice versa.  
+- The "ProjName" string in the MSSCCPRJ.SCC file must match exactly the string returned from the `SccGetProjPath` function. If the string returned by the function has quotes around it, the string in the MSSCCPRJ.SCC file must have quotes around it, and vice versa.  
   
--   An MSSCCPRJ.SCC file is created or updated whenever a file is placed under source control.  
+- An MSSCCPRJ.SCC file is created or updated whenever a file is placed under source control.  
   
--   If an MSSCCPRJ.SCC file gets deleted, a provider should regenerate it the next time it performs a source control operation concerning that directory.  
+- If an MSSCCPRJ.SCC file gets deleted, a provider should regenerate it the next time it performs a source control operation concerning that directory.  
   
--   An MSSCCPRJ.SCC file must strictly follow the defined format.  
+- An MSSCCPRJ.SCC file must strictly follow the defined format.  
   
 ## An Illustration of the MSSCCPRJ.SCC File Format  
  Following is a sample of the MSSCCPRJ.SCC file format (the line numbers are only provided as a guide, and should not be included in the file body):  
@@ -76,4 +71,3 @@ When a Visual Studio solution or project is placed under source control using th
 ## See Also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
  [Strings Used as Keys for Finding a Source Control Plug-in](../extensibility/strings-used-as-keys-for-finding-a-source-control-plug-in.md)
-

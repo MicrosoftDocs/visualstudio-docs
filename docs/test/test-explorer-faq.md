@@ -1,8 +1,6 @@
 ---
-title: "Visual Studio Test Explorer FAQ"
+title: "Test Explorer FAQ"
 ms.date: 11/07/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "Test Explorer"
@@ -15,79 +13,79 @@ ms.author: "kehavens"
 ms.workload:
   - "multiple"
 author: kendrahavens
-manager: douge
+manager: jillfra
 ---
 # Visual Studio Test Explorer FAQ
 
 ## Dynamic test discovery
 
-**The Test Explorer is not discovering my tests that are dynamically defined. (For example, theories, custom adapters, custom traits, #ifdefs, etc.) How can I discover these tests?**
+**Test Explorer is not discovering my tests that are dynamically defined. (For example, theories, custom adapters, custom traits, #ifdefs, etc.) How can I discover these tests?**
 
-  Build your project and make sure assembly-based discovery is turned on in **Tools** > **Options** > **Test**.
+Build your project and make sure assembly-based discovery is turned on in **Tools** > **Options** > **Test**.
 
-  [Real-time test discovery](https://go.microsoft.com/fwlink/?linkid=862824) is source-based test discovery. It can’t discover tests that use theories, custom adapters, custom traits, `#ifdef` statements, and more because they're defined at runtime. A build is required for those tests to be accurately found. In Visual Studio 2017 version 15.6 and later, assembly-based discovery (the traditional discoverer) runs only after builds. This setting means real-time test discovery finds as many tests as it can while you're editing, and assembly-based discovery allows dynamically defined tests to appear after a build. Real-time test discovery improves responsiveness, but stills allow you to get complete and precise results after a build.
+[Real-time test discovery](https://go.microsoft.com/fwlink/?linkid=862824) is source-based test discovery. It can’t discover tests that use theories, custom adapters, custom traits, `#ifdef` statements, and more because they're defined at runtime. A build is required for those tests to be accurately found. In Visual Studio 2017 version 15.6 and later, assembly-based discovery (the traditional discoverer) runs only after builds. This setting means real-time test discovery finds as many tests as it can while you're editing, and assembly-based discovery allows dynamically defined tests to appear after a build. Real-time test discovery improves responsiveness, but stills allow you to get complete and precise results after a build.
 
 ## Test Explorer '+' (plus) symbol
 
 **What does the '+' (plus) symbol that appears in the top line of Test Explorer mean?**
 
-  The '+' (plus) symbol indicates that more tests may be discovered after a build as long as assembly-based discovery is turned on. This symbol appears if dynamically defined tests are detected in your project.
+The '+' (plus) symbol indicates that more tests may be discovered after a build as long as assembly-based discovery is turned on. This symbol appears if dynamically defined tests are detected in your project.
 
-  ![Plus symbol summary line](media/testex-plussymbol.png)
+![Plus symbol summary line](media/testex-plussymbol.png)
 
 ## Assembly-based discovery
 
 **Assembly-based discovery is no longer working for my project. How do I turn it back on?**
 
-  Go to **Tools** > **Options** > **Test** and check the box for **Additionally discover tests from built assemblies after builds.**
+Go to **Tools** > **Options** > **Test** and check the box for **Additionally discover tests from built assemblies after builds.**
 
-  ![Assembly-based option](media/testex-toolsoptions.png)
+![Assembly-based option](media/testex-toolsoptions.png)
 
 ## Real-time test discovery
 
 **Tests now appear in Test Explorer while I type, without having to build my project. What changed?**
 
-  This feature is called [Real-time test discovery](https://go.microsoft.com/fwlink/?linkid=862824). It uses a Roslyn analyzer to find tests and populate Test Explorer in real time, without requiring you to build your project. For more information about test discovery behavior for dynamically defined tests such as theories or custom traits, see FAQ #1.
+This feature is called [Real-time test discovery](https://go.microsoft.com/fwlink/?linkid=862824). It uses a Roslyn analyzer to find tests and populate Test Explorer in real time, without requiring you to build your project. For more information about test discovery behavior for dynamically defined tests such as theories or custom traits, see FAQ #1.
 
 ## Real-time test discovery compatibility
 
 **What languages and test frameworks can use Real Time Test Discovery?**
 
-  [Real-time test discovery](https://go.microsoft.com/fwlink/?linkid=862824) only works for the managed languages (C# and Visual Basic), since it's built using the Roslyn compiler. For now, real-time test discovery only works for the xUnit, NUnit, and MSTest frameworks.
+[Real-time test discovery](https://go.microsoft.com/fwlink/?linkid=862824) only works for the managed languages (C# and Visual Basic), since it's built using the Roslyn compiler. For now, real-time test discovery only works for the xUnit, NUnit, and MSTest frameworks.
 
 ## Test Explorer logs
 
 **How can I turn on logs for the Test Explorer?**
 
-  Navigate to **Tools** > **Options** > **Test** and find the Logging section there.
+Navigate to **Tools** > **Options** > **Test** and find the Logging section there.
 
 ## UWP test discovery
 
 **Why are my tests in UWP projects not discovered until I deploy my app?**
 
-  UWP tests target a different runtime when the app is deployed. This means that to find tests accurately for UWP projects you not only need to build your project, but also deploy.
+UWP tests target a different runtime when the app is deployed. This means that to find tests accurately for UWP projects you not only need to build your project, but also deploy.
 
 ## Test Explorer sorting
 
 **How does sorting test results work in the hierarchy view?**
 
-  The hierarchy view sorts tests alphabetically as opposed to by outcome. The other group by settings normally sort test results by outcome and then alphabetically. See the different group by options in the following image for comparison. You can provide feedback about the design [in this GitHub issue](https://github.com/Microsoft/vstest/issues/1425).
+The hierarchy view sorts tests alphabetically as opposed to by outcome. The other group by settings normally sort test results by outcome and then alphabetically. See the different group by options in the following image for comparison. You can provide feedback about the design [in this GitHub issue](https://github.com/Microsoft/vstest/issues/1425).
 
-  ![SortingExamples](media/testex-sortingex.png)
+![SortingExamples](media/testex-sortingex.png)
 
 ## Test Explorer hierarchy view
 
 **In the hierarchy view, there are passed, failed, skipped, and not run icons next to the Project, Namespace, and Class groupings. What do these icons mean?**
 
-  The icons next to the Project, Namespace, and Class groupings show the state of the tests within that grouping. See the following table.
+The icons next to the Project, Namespace, and Class groupings show the state of the tests within that grouping. See the following table.
 
-  ![Test Explorer Hierarchy Icons](media/testex-hierarchyicons.png)
+![Test Explorer Hierarchy Icons](media/testex-hierarchyicons.png)
 
 ## Search by file path
 
 **There is no longer a "File Path" filter in the Test Explorer search box.**
 
-The file path filter in the **Test Explorer** search box was removed in Visual Studio 2017 version 15.7 preview 3. This feature had low usage, and the Test Explorer can retrieve test methods faster by leaving out this feature. If this change interrupts your development flow, let us know by submitting feedback on [Developer Community](https://developercommunity.visualstudio.com/).
+The file path filter in the **Test Explorer** search box was removed in Visual Studio 2017 version 15.7. This feature had low usage, and Test Explorer can retrieve test methods faster by leaving out this feature. If this change interrupts your development flow, let us know by submitting feedback on [Developer Community](https://developercommunity.visualstudio.com/).
 
 ## Remove undocumented interfaces
 
@@ -103,21 +101,21 @@ All test projects must include their .NET test adapter NuGet reference in their 
 
 **Test project {} does not reference any .NET NuGet adapter. Test discovery or execution might not work for this project. It is recommended to reference NuGet test adapters in each .NET test project in the solution.**
 
-Instead of using test adapter extensions, projects are required to use test adapter NuGet packages. This requirement greatly improves performance and causes fewer issues with continuous integration. Read more about .NET Test Adapter Extension deprecation in the [release notes](/visualstudio/releasenotes/vs2017-preview-relnotes#testadapterextension).
+Instead of using test adapter extensions, projects are required to use test adapter NuGet packages. This requirement greatly improves performance and causes fewer issues with continuous integration. Read more about .NET Test Adapter Extension deprecation in the [release notes](/visualstudio/releasenotes/vs2017-relnotes-v15.8#testadapterextension).
 
 > [!NOTE]
 > If you are using the NUnit 2 Test Adapter and are unable to migrate to the NUnit 3 test adapter, you can turn off this new discovery behavior in Visual Studio version 15.8 in **Tools** > **Options** > **Test**.
 
-  ![Test Explorer Adapter behavior in tools options](media/testex-adapterbehavior.png)
+![Test Explorer Adapter behavior in tools options](media/testex-adapterbehavior.png)
 
 ## UWP TestContainer was not found
 
-**My UWP tests are no longer being executed in Visual Studio 2017 version 15.7 and higher.**
+**My UWP tests are no longer being executed in Visual Studio 2017 version 15.7 and later.**
 
 Recent UWP test projects specify a test platform build property that allows better performance for identifying test apps. If you have a UWP test project that was initialized before Visual Studio version 15.7, you may see this error in **Output** > **Tests**:
 
-**System.AggregateException: One or more errors occurred. ---> System.InvalidOperationException: The following TestContainer was not found {} at Microsoft.VisualStudio.TestWindow.Controller.TestContainerProvider <GetTestContainerAsync>d__61.MoveNext()**
-  
+**System.AggregateException: One or more errors occurred. ---> System.InvalidOperationException: The following TestContainer was not found {} at Microsoft.VisualStudio.TestWindow.Controller.TestContainerProvider \<GetTestContainerAsync>d__61.MoveNext()**
+
 To fix this error:
 
 - Update your test project build property using the following code:

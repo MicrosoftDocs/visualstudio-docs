@@ -1,82 +1,79 @@
 ---
 title: "Common MSBuild Project Items | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "reference"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "MSBuild, common project items"
 ms.assetid: 1eba3721-cc12-4b80-9987-84923ede5e2e
 author: mikejo5000
 ms.author: mikejo
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Common MSBuild project items
-In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have several items in common. These items are defined in the file *Microsoft.Build.CommonTypes.xsd*.  
+In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have several items in common. These items are defined in the file *Microsoft.Build.CommonTypes.xsd*.
 
-## Common items  
- The following is a list of all the common project items.  
+## Common items
+ The following is a list of all the common project items.
 
-### Reference  
- Represents an assembly (managed) reference in the project.  
+### Reference
+ Represents an assembly (managed) reference in the project.
 
-|Item metadata name|Description|  
-|---------------|-----------------|  
-|HintPath|Optional string. Relative or absolute path of the assembly.|  
-|Name|Optional string. The display name of the assembly, for example, "System.Windows.Forms."|  
-|FusionName|Optional string. Specifies the simple or strong fusion name for the item.<br /><br /> When this attribute is present, it can save time because the assembly file does not have to be opened to obtain the fusion name.|  
-|SpecificVersion|Optional boolean. Specifies whether only the version in the fusion name should be referenced.|  
-|Aliases|Optional string. Any aliases for the reference.|  
-|Private|Optional boolean. Specifies whether the reference should be copied to the output folder. This attribute matches the **Copy Local** property of the reference that's in the Visual Studio IDE.|  
+|Item metadata name|Description|
+|---------------|-----------------|
+|HintPath|Optional string. Relative or absolute path of the assembly.|
+|Name|Optional string. The display name of the assembly, for example, "System.Windows.Forms."|
+|FusionName|Optional string. Specifies the simple or strong fusion name for the item.<br /><br /> When this attribute is present, it can save time because the assembly file does not have to be opened to obtain the fusion name.|
+|SpecificVersion|Optional boolean. Specifies whether only the version in the fusion name should be referenced.|
+|Aliases|Optional string. Any aliases for the reference.|
+|Private|Optional boolean. Specifies whether the reference should be copied to the output folder. This attribute matches the **Copy Local** property of the reference that's in the Visual Studio IDE.|
 
-### COMReference  
- Represents a COM (unmanaged) component reference in the project.  
+### COMReference
+ Represents a COM (unmanaged) component reference in the project.
 
-|Item metadata name|Description|  
-|---------------|-----------------|  
-|Name|Optional string. The display name of the component.|  
-|Guid|Optional string. A GUID for the component, in the form {12345678-1234-1234-1234-1234567891234}.|  
-|VersionMajor|Optional string. The major part of the version number of the component. For example, "5" if the full version number is "5.46."|  
-|VersionMinor|Optional string. The minor part of the version number of the component. For example, "46" if the full version number is "5.46."|  
-|LCID|Optional string. The LocaleID for the component.|  
-|WrapperTool|Optional string. The name of the wrapper tool that is used on the component, for example, "tlbimp."|  
-|Isolated|Optional boolean. Specifies whether the component is a reg-free component.|  
+|Item metadata name|Description|
+|---------------|-----------------|
+|Name|Optional string. The display name of the component.|
+|Guid|Required string. A GUID for the component, in the form {12345678-1234-1234-1234-1234567891234}.|
+|VersionMajor|Required string. The major part of the version number of the component. For example, "5" if the full version number is "5.46."|
+|VersionMinor|Required string. The minor part of the version number of the component. For example, "46" if the full version number is "5.46."|
+|LCID|Optional string. The LocaleID for the component.|
+|WrapperTool|Optional string. The name of the wrapper tool that is used on the component, for example, "tlbimp."|
+|Isolated|Optional boolean. Specifies whether the component is a reg-free component.|
 
-### COMFileReference  
- Represents a list of type libraries that feed into the ResolvedComreference target.  
+### COMFileReference
+ Represents a list of type libraries that feed into the ResolvedComreference target.
 
-|Item metadata name|Description|  
-|---------------|-----------------|  
-|WrapperTool|Optional string. The name of the wrapper tool that is used on the component, for example, "tlbimp."|  
+|Item metadata name|Description|
+|---------------|-----------------|
+|WrapperTool|Optional string. The name of the wrapper tool that is used on the component, for example, "tlbimp."|
 
-### NativeReference  
- Represents a native manifest file or a reference to such a file.  
+### NativeReference
+ Represents a native manifest file or a reference to such a file.
 
-|Item metadata name|Description|  
-|---------------|-----------------|  
-|Name|Required string. The base name of the manifest file.|  
-|HintPath|Required string. The relative path of the manifest file.|  
+|Item metadata name|Description|
+|---------------|-----------------|
+|Name|Required string. The base name of the manifest file.|
+|HintPath|Required string. The relative path of the manifest file.|
 
-### ProjectReference  
- Represents a reference to another project.  
+### ProjectReference
+ Represents a reference to another project.
 
-|Item metadata name|Description|  
-|---------------|-----------------|  
-|Name|Optional string. The display name of the reference.|  
-|Project|Optional string. A GUID for the reference, in the form {12345678-1234-1234-1234-1234567891234}.|  
-|Package|Optional string. The path of the project file that is being referenced.|  
-|ReferenceOutputAssembly|Optional boolean. If set to `false`, does not include the output of the referenced project as a [Reference](#Reference) of this project, but still ensures that the other project builds before this one. Defaults to `true`.|
+|Item metadata name|Description|
+|---------------|-----------------|
+|Name|Optional string. The display name of the reference.|
+|Project|Optional string. A GUID for the reference, in the form {12345678-1234-1234-1234-1234567891234}.|
+|Package|Optional string. The path of the project file that is being referenced.|
+|ReferenceOutputAssembly|Optional boolean. If set to `false`, does not include the output of the referenced project as a [Reference](#reference) of this project, but still ensures that the other project builds before this one. Defaults to `true`.|
 
-### Compile  
- Represents the source files for the compiler.  
-
+### Compile
+ Represents the source files for the compiler.
 
 | Item metadata name | Description |
 |-----------------------| - |
@@ -86,9 +83,8 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. |
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
 
-### EmbeddedResource  
- Represents resources to be embedded in the generated assembly.  
-
+### EmbeddedResource
+ Represents resources to be embedded in the generated assembly.
 
 | Item metadata name | Description |
 |-----------------------| - |
@@ -101,9 +97,8 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
 | LogicalName | Required string. The logical name of the embedded resource. |
 
-### Content  
- Represents files that are not compiled into the project, but may be embedded or published together with it.  
-
+### Content
+ Represents files that are not compiled into the project, but may be embedded or published together with it.
 
 | Item metadata name | Description |
 |-----------------------| - |
@@ -117,9 +112,8 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. |
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
 
-### None  
- Represents files that should have no role in the build process.  
-
+### None
+ Represents files that should have no role in the build process.
 
 | Item metadata name | Description |
 |-----------------------| - |
@@ -131,14 +125,14 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. |
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
 
-### BaseApplicationManifest  
- Represents the base application manifest for the build, and contains [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment security information.  
+### BaseApplicationManifest
+ Represents the base application manifest for the build, and contains [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment security information.
 
-### CodeAnalysisImport  
- Represents the FxCop project to import.  
+### CodeAnalysisImport
+ Represents the FxCop project to import.
 
-### Import  
- Represents assemblies whose namespaces should be imported by the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler.  
+### Import
+ Represents assemblies whose namespaces should be imported by the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler.
 
-## See also  
- [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md)
+## See also
+- [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md)

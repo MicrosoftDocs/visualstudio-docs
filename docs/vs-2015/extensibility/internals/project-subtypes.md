@@ -1,21 +1,16 @@
 ---
 title: "Project Subtypes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "projects [Visual Studio SDK], subtypes"
   - "project subtypes [Visual Studio SDK]"
 ms.assetid: d235b47b-cf11-4d47-a63f-e33d9d16105d
 caps.latest.revision: 21
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Project Subtypes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -23,7 +18,7 @@ manager: "ghogen"
 Project subtypes let you customize or flavor the behavior of the project systems of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. Customizations include saving additional data in the project file, adding or filtering items in the **Add New Item** dialog box, controlling how assemblies are debugged and deployed, and extending the project **Property Pages** dialog box. VSPackages implement project subtypes using COM aggregation.  
   
 > [!NOTE]
->  The Visual C++ project system does not support project subtypes. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] itself uses project subtypes to implement SQL Server and Smart Device projects.  
+> The Visual C++ project system does not support project subtypes. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] itself uses project subtypes to implement SQL Server and Smart Device projects.  
   
 ## In This Section  
  [Project Subtypes Design](../../extensibility/internals/project-subtypes-design.md)  
@@ -59,4 +54,3 @@ Project subtypes let you customize or flavor the behavior of the project systems
 ## Related Sections  
  [Project Types](../../extensibility/internals/project-types.md)  
  Provides links to topics detailing [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] projects.
-

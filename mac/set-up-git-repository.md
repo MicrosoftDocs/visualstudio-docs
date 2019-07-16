@@ -1,9 +1,9 @@
 ---
 title: Setting up a Git Repository
 description: Using Git and Subversion in Visual Studio for Mac.
-author: conceptdev
-ms.author: crdun
-ms.date: 05/06/2018
+author: jmatthiesen
+ms.author: jomatthi
+ms.date: 02/15/2018
 ms.assetid: E992FA1D-B2AD-4A28-ADC6-47E4FC471060
 ---
 # Set up a Git repository
@@ -38,7 +38,7 @@ To set up a Git repository, execute the following steps:
 
 If you have an existing project that _is not_ already in version control, use the following steps to set it up in Git:
 
-1.  Select the Solution name from the Solution Pad in Visual Studio for Mac.
+1. Select the Solution name from the Solution Pad in Visual Studio for Mac.
 
 2. In the Menu bar, select **Version Control > Publish in Version Control** to display the **Select Repository** dialog:
 
@@ -62,7 +62,10 @@ If you have an existing project that _is not_ already in version control, use th
 
 6. Click **Okay**, and then **Publish** from the alert dialog.
 
-7. If you have not already entered your Git credentials in Visual Studio for Mac preferences, enter them now. First, you need to create an Access Token, which is used in place of a password. If you have not created an access token, follow the steps in the Git [Access Token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) documentation.
+7. In the **Git Credentials** window, enter your GitHub username and password. 
+
+> [!NOTE]
+> If your account has two-factor authentication (2FA) enabled, you will need to create an Access Token, which is used in place of a password. If you have not created an access token, follow the steps in the Git [Access Token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) documentation.
 
 8. Enter the username and Personal Access Token, and press **Okay**:
 
@@ -78,9 +81,45 @@ If you have an existing project that _is not_ already in version control, use th
 
 ## Publishing a new project
 
-The new project dialog can be used to publish a new project using git. To enable it, select the **Use git for version control.** checkbox, as illustrated in the following screenshot. This will initialize your repo and add an optional .gitignore file:
+The new project dialog can be used to create a new project with a local git repository. To enable it, select the **Use git for version control** checkbox, as illustrated in the following screenshot. This will initialize your repo and add an optional .gitignore file:
 
-![Push Changes to remote repository](media/version-control-git12.png)
+![Create new project with git support](media/version-control-git-publish-new1.png)
+
+Follow the steps below to push your new local repository to a new GitHub repository:
+
+> [!NOTE]
+> If you have not already created a GitHub repository, refer to the [Creating a remote repo on GitHub](#creating-a-remote-repo-on-github) section.
+
+1. Create your first commit by going to **Version Control > Review Solution and Commit** in the Menu Bar.
+
+2. In the Status tab, choose **Commit** in the top left.
+
+3. Write a commit message, for example "First Commit", then click on **Commit**:
+
+    ![Commit initial changes to the git repository](media/version-control-git-publish-new2.png)
+
+4. Next, in the Menu Bar go to **Version Control > Manage Branches and Remotes**.
+
+5. Go to the **Remote Sources** tab, then click **Add**.
+
+6. In the **Remote Source** window, add the details of your previously created GitHub repository and click **OK**:
+
+    ![Configure remote sources for git repository](media/version-control-git-publish-new3.png)
+
+7. Close the **Git Repository Configuration** window, then in the Menu Bar go to **Version Control > Push Changes**.
+
+8. In the **Push to Repository** window click on the **Push Changes** button:
+
+    ![Push the changes to the remote repository](media/version-control-git-publish-new4.png)
+
+9. When prompted, enter your GitHub username and password.
+
+> [!NOTE]
+> If your account has two-factor authentication (2FA) enabled, you will need to create an Access Token, which is used in place of a password. If you have not created an access token, follow the steps in the Git [Access Token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) documentation.
+
+Visual Studio for Mac will now push the changes to your remote GitHub repository:
+
+![Push operation successfully completed confirmation](media/version-control-git11.png)
 
 ## Check out an existing repository
 

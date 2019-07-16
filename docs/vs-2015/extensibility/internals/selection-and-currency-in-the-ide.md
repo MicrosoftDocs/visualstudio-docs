@@ -1,14 +1,9 @@
 ---
 title: "Selection and Currency in the IDE | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "currency, Visual Studio IDE"
   - "IDE, selection"
@@ -17,16 +12,16 @@ helpviewer_keywords:
 ms.assetid: 2f6f18d1-acd8-454d-a856-9a4d81155052
 caps.latest.revision: 15
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Selection and Currency in the IDE
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE) maintains information about users' currently selected objects by using selection *context*. With selection context, VSPackages can take part in currency tracking in two ways:  
   
--   By propagating currency information about the VSPackages to the IDE.  
+- By propagating currency information about the VSPackages to the IDE.  
   
--   By monitoring users' currently active selections within the IDE.  
+- By monitoring users' currently active selections within the IDE.  
   
 ## Selection Context  
  The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE globally keeps track of IDE currency in its own global selection context object. The following table shows the elements that make up the selection context.  
@@ -39,9 +34,9 @@ The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development envir
   
  Additionally, the environment maintains two global lists:  
   
--   A list of active UI command identifiers  
+- A list of active UI command identifiers  
   
--   A list of currently active element types.  
+- A list of currently active element types.  
   
 ### Window Types and Selection  
  The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE organizes windows into two general types:  
@@ -59,11 +54,10 @@ The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development envir
 ### Events and Currency  
  Two types of events might occur that affect the environment's notion of currency:  
   
--   Events that are propagated to the global level and change the window frame selection context. Examples of this kind of event include an MDI Child window being opened, a global tool window being opened, or a project-type tool window being opened.  
+- Events that are propagated to the global level and change the window frame selection context. Examples of this kind of event include an MDI Child window being opened, a global tool window being opened, or a project-type tool window being opened.  
   
--   Events that change the elements traced within the window frame selection context. Examples include changing selection within a DocObject or changing selection in a project-type window.  
+- Events that change the elements traced within the window frame selection context. Examples include changing selection within a DocObject or changing selection in a project-type window.  
   
 ## See Also  
  [Selection Context Objects](../../extensibility/internals/selection-context-objects.md)   
  [Feedback to the User](../../extensibility/internals/feedback-to-the-user.md)
-

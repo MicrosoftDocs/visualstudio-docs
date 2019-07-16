@@ -1,10 +1,8 @@
 ---
-title: "Install and use Visual Studio and Azure Services behind a firewall or proxy server | Microsoft Docs"
-description: "Review the domain URLs, ports, and protocols that you might want to whitelist or open if your organization uses a firewall or a proxy server"
-ms.custom: ""
-ms.date: 07/10/2018
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
+title: "Install and use behind a firewall or proxy server"
+description: "Review the domain URLs, ports, and protocols that you might want to add to an allow list or open if your organization uses a firewall or a proxy server"
+ms.date: 05/22/2019
+ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
   - "network installation, Visual Studio"
@@ -14,26 +12,28 @@ helpviewer_keywords:
 ms.assetid:
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Install and use Visual Studio and Azure Services behind a firewall or proxy server
 
-If you or your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to "whitelist" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio and Azure Services.
+If you or your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to add to an "allow list" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio and Azure Services.
 
-* **[Install Visual Studio](#install-visual-studio)**: These tables include the domain URLs to whitelist so that you have access to all the components and workloads that you want.
+* **[Install Visual Studio](#install-visual-studio)**: These tables include the domain URLs to add to an allow list so that you have access to all the components and workloads that you want.
 
-* **[Use Visual Studio and Azure Services](#use-visual-studio-and-azure-services)**: This table includes the domain URLs to whitelist and the ports and protocols to open so that you have access to all the features and services that you want.
+* **[Use Visual Studio and Azure Services](#use-visual-studio-and-azure-services)**: This table includes the domain URLs to add to an allow list and the ports and protocols to open so that you have access to all the features and services that you want.
 
 > [!NOTE]
 > This article was written for Visual Studio on Windows, but certain information is also applicable to [installing Visual Studio for Mac](/visualstudio/mac/install-behind-a-firewall-or-proxy-server) behind a firewall or proxy server.
 
 ## Install Visual Studio
 
-### URLs to whitelist
+### URLs to add to an allow list
 
-Because the Visual Studio Installer downloads files from various domains and their download servers, here are the domain URLs that you might want to whitelist as trusted in the UI or in your deployment scripts.
+Because the Visual Studio Installer downloads files from various domains and their download servers, here are the domain URLs that you might want to add to an allow list as trusted in the UI or in your deployment scripts.
 
 #### Microsoft domains
 
@@ -73,14 +73,14 @@ Because the Visual Studio Installer downloads files from various domains and the
 
 ## Use Visual Studio and Azure Services
 
-### URLs to whitelist and ports and protocols to open
+### URLs to add to an allow list and ports and protocols to open
 
-To make sure that you have access to everything you need when you use Visual Studio or Azure Services behind a firewall or proxy server, here are the URLs you should whitelist and the ports and protocols that you might want to open.
+To make sure that you have access to everything you need when you use Visual Studio or Azure Services behind a firewall or proxy server, here are the URLs you should add to an allow list and the ports and protocols that you might want to open.
 
 | Service or scenario | DNS endpoint | Protocol | Port | Description |
 | - | - | - | - | - |
 | URL<br>resolution | go.microsoft.com<br><br>aka.ms | | | Used to shorten URLs, which then resolve into longer URLs |
-| Start Page | vsstartpage.blob.core.windows.net | | 443 | Used to display Developer News shown on the start page in Visual Studio |
+| Start Page | vsstartpage.blob.core.windows.net | | 443 | Used to display Developer News shown on the start page (Visual Studio 2017 only) |
 | Targeted<br> Notification <br>Service | targetednotifications.azurewebsites.net <br><br>www.research.net | | 80<br><br>443 | Used to filter a global list of notifications to a list that is applicable only to specific types of machines/usage scenarios |
 | Extension <br>update check | marketplace.visualstudio.com<br><br>&#42;.windows.net <br>&#42;.microsoftonline.com <br>&#42;.live.com | | 443 | Used to provide notifications when an installed extension has an update available <br><br> Used as a sign-in location |
 | AI Project <br>Integration | az861674.vo.msecnd.net | | 443<br> | Used to configure new projects to send usage data to your registered Application Insights account |
@@ -95,8 +95,8 @@ To make sure that you have access to everything you need when you use Visual Stu
 | NuGet<br><br>NuGet package<br> discovery | Api.nuget.org <br>www.nuget.org <br>Nuget.org<br><br>crl3.digicert.com <br>crl4.digicert.com <br>ocsp.digicert.com <br>cacerts.digicert.com | https<br><br>http/s | 443<br><br>80/443<br> | Used to verify signed NuGet packages.<br><br>Required for searching for NuGet packages and versions |
 | GitHub repository information | api.github.com | https | 443 | Required for getting additional information about bower packages |
 | Web Linters | Eslint.org<br><br>www.Bing.com <br><br>www.coffeelint.org | http | 80 | |
-| Cookiecutter<br>Explorer template<br>discovery <br><br>Cookiecutter <br>Explorer project<br> creation | api.github.com <br>raw.githubusercontent.com <br>go.microsoft.com<br><br>pypi.org <br> pypi.python.org | https | 443<br> | Used to discover online templates from our recommended feed and from github repositories <br><br>Used to create a project from a cookiecutter template that requires a one-time on-demand installation of a cookiecutter Python package from the Python package index (PyPI) |
-| Python package <br>discovery<br><br>Python package <br>management<br><br>Python <br>New Project <br>templates | pypi.org<br> <br>pypi.python.org <br>bootstrap.pypa.io<br><br>go.microsoft.com | https | 443 | Provides the ability to search for pip packages<br><br>Used to install pip automatically if it is missing <br><br> Used to create the <br><br>Used to resolve the following Python project templates in the New Project dialog to cookiecutter template URLs:<br> - Classifier Project<br>- Clustering Project <br> - Regression Project <br> - PyGame using PyKinect <br> - Pyvot Project |
+| Cookiecutter<br>Explorer template<br>discovery <br><br>Cookiecutter <br>Explorer project<br> creation | api.github.com <br>raw.githubusercontent.com <br>go.microsoft.com<br><br>pypi.org <br> pypi.python.org | https | 443<br> | Used to discover online templates from our recommended feed and from GitHub repositories <br><br>Used to create a project from a cookiecutter template that requires a one-time on-demand installation of a cookiecutter Python package from the Python package index (PyPI) |
+| Python package <br>discovery<br><br>Python package <br>management<br><br>New <br>Python <br> project <br>templates | pypi.org<br> <br>pypi.python.org <br>bootstrap.pypa.io<br><br>go.microsoft.com | https | 443 | Provides the ability to search for pip packages<br><br>Used to install pip automatically if it is missing <br><br>Used to resolve the following new Python project templates to cookiecutter template URLs:<br> - Classifier Project<br>- Clustering Project <br> - Regression Project <br> - PyGame using PyKinect <br> - Pyvot Project |
 | Office web <br>add-in <br> Manifest <br>Verification <br>Service | verificationservice.osi.office.net | https | 443 | Used to validate manifests for Office web add-ins |
 | SharePoint and <br>Office Add-ins | sharepoint.com | https | 443 | Used to publish and test SharePoint and Office Add-ins to SharePoint Online |
 | Workflow Manager <br>Test Service<br> Host | | http | 12292 | A firewall rule that is created automatically for testing SharePoint add-ins with workflows |
@@ -129,12 +129,13 @@ We offer a [**live chat**](https://visualstudio.microsoft.com/vs/support/#talkto
 
 Here are a few more support options:
 
-* Report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
+* Report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * Suggest a feature, track product issues, and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
 * Use your [GitHub](https://github.com/) account to talk to us and other Visual Studio developers in the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).
 
 ## See also
 
+* [Connectivity requirements for Live Share](/visualstudio/liveshare/reference/connectivity/)
 * [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Troubleshoot network-related errors in Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)

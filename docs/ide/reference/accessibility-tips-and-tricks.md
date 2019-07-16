@@ -1,24 +1,21 @@
 ---
 title: "Accessibility tips and tricks for Visual Studio"
 description: "Learn more about tips and tricks that can help make the Visual Studio integrated development environment (IDE) more accessible for everyone to use, including people with disabilities."
-ms.date: 09/15/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
-ms.prod: visual-studio-dev15
+ms.date: 02/21/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
 ms.assetid: 6b491d88-f79e-4686-8841-857624bdcfda
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Accessibility tips and tricks for Visual Studio
 
 > [!TIP]
-> To learn more about recent accessibility updates, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://blogs.msdn.microsoft.com/visualstudio/2017/08/14/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
+> To learn more about accessibility updates, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
 
 Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. This topic lists common shortcut key combinations that you can use to perform tasks with the keyboard only, and includes information about using high-contrast themes to improve visibility. As well, it shows you how to use annotations to reveal useful information about your code, and how to set sound cues for build and breakpoint events.
 
@@ -37,7 +34,7 @@ For some folks, some colors are more difficult to see. If you want more contrast
 
 ## Use annotations to reveal useful information about your code
 
-The Visual Studio editor includes many text "adornments" that let you know about characteristics and features at particular points on a line of code, such as lightbulbs, error and warning “squiggles”, bookmarks, and so on. You can use the “Show Line Annotations” command set to help you discover and then navigate between these adornments.
+The Visual Studio editor includes many text "adornments" that let you know about characteristics and features at particular points on a line of code, such as screwdriver and light bulb icons, error and warning "squiggles", bookmarks, and so on. You can use the "Show Line Annotations" command set to help you discover and then navigate between these adornments.
 
   ![Use the Show Line Annotations command set](media/show-line-annotations-command-set.png)
 
@@ -47,9 +44,9 @@ The Visual Studio IDE has toolbars as do many tool windows. The following shortc
 
 |Feature|Description|Key Combination|
 |-------------|-----------------| - |
-|IDE toolbars|Select the first button on the Standard toolbar.|**ALT**, **CTRL** + **TAB**|
-|Tool window toolbars|Move focus to the toolbars in a tool window. <br> <br> **NOTE:** This works for most tool windows, but only when the focus is in a tool window. Also, you must choose the SHIFT key before the ALT key. In some tool windows, such as Team Explorer, you must hold the SHIFT key for a moment before choosing the ALT key.|**SHIFT** + **ALT**|
-|Toolbars|Go to the first item in the next toolbar (when a toolbar has focus).|**CTRL** + **TAB**|
+|IDE toolbars|Select the first button on the Standard toolbar.|**Alt**, **Ctrl** + **Tab**|
+|Tool window toolbars|Move focus to the toolbars in a tool window. <br> <br> **NOTE:** This works for most tool windows, but only when the focus is in a tool window. Also, you must choose the SHIFT key before the ALT key. In some tool windows, such as Team Explorer, you must hold the SHIFT key for a moment before choosing the ALT key.|**Shift** + **Alt**|
+|Toolbars|Go to the first item in the next toolbar (when a toolbar has focus).|**Ctrl** + **Tab**|
 
 ### Other useful shortcut key combinations
 
@@ -57,13 +54,14 @@ Some other useful shortcut key combinations include the following.
 
 |Feature|Description|Key Combination|
 |-------------|-----------------| - |
-|IDE|Switch High Contrast on and off. <br> <br> **NOTE:** Standard Windows shortcut|**Left ALT + Left SHIFT + PRINT SCREEN**|
+|IDE|Switch High Contrast on and off. <br> <br> **NOTE:** Standard Windows shortcut|**Left Alt + Left Shift + PrtScn**|
 |Dialog box|Select or clear the check box option in a dialog box. <br> <br> **NOTE:** Standard Windows shortcut|**SPACEBAR**|
-|Context menus|Open a context (right-click) menu. <br> <br> **NOTE:** Standard Windows shortcut|**SHIFT** + **F10**|
-|Menus|Quickly access a menu item by using its accelerator keys. Choose the **ALT** key followed by the underlined letters in a menu to activate the command. For example, to view the Open Project dialog box in Visual Studio, you would choose **ALT** + **F** + **O** + **P**.  <br><br> **NOTE:** Standard Windows shortcut|**ALT** + **[letter]**|
-|Toolbox window|Move among Toolbox tabs.|**CTRL** + **UPARROW**<br /><br /> and<br /><br /> **CTRL** + **DOWNARROW**|
-|Toolbox window|Add a control from the Toolbox to a form or designer.|**ENTER**|
-|Keyboard, Environment, Options dialog box|Delete a key combination entered in the **Press shortcut keys** option.|**BACKSPACE**|
+|Context menus|Open a context (right-click) menu. <br> <br> **NOTE:** Standard Windows shortcut|**Shift** + **F10**|
+|Menus|Quickly access a menu item by using its accelerator keys. Choose the **Alt** key followed by the underlined letters in a menu to activate the command. For example, to view the Open Project dialog box in Visual Studio, you would choose **Alt** + **F** + **O** + **P**.  <br><br> **NOTE:** Standard Windows shortcut|**Alt** + **[letter]**|
+|Search box|Use the search feature in Visual Studio.|**Ctrl** + **Q**|
+|Toolbox window|Move among Toolbox tabs.|**Ctrl** + **UPARROW**<br /><br /> and<br /><br /> **Ctrl** + **DOWNARROW**|
+|Toolbox window|Add a control from the Toolbox to a form or designer.|**Enter**|
+|Options dialog box: Environment > Keyboard|Delete a key combination entered in the **Press shortcut keys** option.|**Backspace**|
 
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition.
@@ -72,12 +70,12 @@ Some other useful shortcut key combinations include the following.
 
 You can use the Sound applet in Windows to assign a sound to Visual Studio program events. Specifically, you can assign sounds to the following program events:
 
- * Breakpoint hit
- * Build canceled
- * Build failed
- * Build succeeded
+* Breakpoint hit
+* Build canceled
+* Build failed
+* Build succeeded
 
-Here's how.
+Here's how:
 
 1. In the **Search** box on a computer running Windows 10, type **Change system sounds**.
 

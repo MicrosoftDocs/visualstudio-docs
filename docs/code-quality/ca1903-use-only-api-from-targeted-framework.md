@@ -1,8 +1,6 @@
 ---
 title: "CA1903: Use only API from targeted framework"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "UseOnlyAPIFromTargetedFramework"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: efdb5cc7-bbd8-4fa7-9fff-02b91e59350e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -42,7 +40,7 @@ ms.workload:
 |.NET Framework 3.5|.NET Framework 3.5 SP1|
 |.NET Framework 4|N/A|
 
- To change a project's target framework, see [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md).
+ To change a project's target framework, see [How to: Target a version of .NET](../ide/how-to-target-a-version-of-the-dotnet-framework.md).
 
 ## How to fix violations
  To remove the dependency on the service pack, remove all usages of the new member or type. If this is a deliberate dependency, either suppress the warning or turn off this rule.
@@ -63,4 +61,4 @@ ms.workload:
 ## See also
 
 - [Portability Warnings](../code-quality/portability-warnings.md)
-- [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md)
+- [Framework targeting overview](../ide/visual-studio-multi-targeting-overview.md)

@@ -1,40 +1,37 @@
 ---
 title: "Expression Evaluation in Break Mode | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "break mode, expression evaluation"
   - "debugging [Debugging SDK], expression evaluation"
   - "expression evaluation, break mode"
 ms.assetid: 34fe5b58-15d5-4387-a266-72120f90a4b6
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # Expression evaluation in break mode
-The following section describes the process that occurs when the debugger is in break mode and must conduct expression evaluation.  
-  
-## Expression evaluation process  
- Following are the basic steps involved in evaluating an expression:  
-  
-1.  The session debug manager (SDM) calls [IDebugStackFrame2::GetExpressionContext](../../extensibility/debugger/reference/idebugstackframe2-getexpressioncontext.md) to get an expression context interface, [IDebugExpressionContext2](../../extensibility/debugger/reference/idebugexpressioncontext2.md).  
-  
-2.  The SDM then calls [IDebugExpressionContext2::ParseText](../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md) with the string to be parsed.  
-  
-3.  If ParseText doesn't return S_OK, the reason for the error is returned.  
-  
-     -otherwise-  
-  
-     If ParseText does return S_OK, the SDM can then call either [IDebugExpression2::EvaluateSync](../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) or [IDebugExpression2::EvaluateAsync](../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md) to get a final value from the parsed expression.  
-  
-    -   When using `IDebugExpression2::EvaluateSync`, the given callback interface communicates the ongoing process of the evaluation. The final value is returned in an [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) interface.  
-  
-    -   When using `IDebugExpression2::EvaluateAsync`, the given callback interface communicates the ongoing process of the evaluation. Once the evaluation is complete, EvaluateAsync sends an [IDebugExpressionEvaluationCompleteEvent2](../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md) interface through the callback. With this event interface, the final value results with [GetResult](../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2-getresult.md).  
-  
-## See also  
- [Call debugger events](../../extensibility/debugger/calling-debugger-events.md)
+The following section describes the process that occurs when the debugger is in break mode and must conduct expression evaluation.
+
+## Expression evaluation process
+ Following are the basic steps involved in evaluating an expression:
+
+1. The session debug manager (SDM) calls [IDebugStackFrame2::GetExpressionContext](../../extensibility/debugger/reference/idebugstackframe2-getexpressioncontext.md) to get an expression context interface, [IDebugExpressionContext2](../../extensibility/debugger/reference/idebugexpressioncontext2.md).
+
+2. The SDM then calls [IDebugExpressionContext2::ParseText](../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md) with the string to be parsed.
+
+3. If ParseText doesn't return S_OK, the reason for the error is returned.
+
+     -otherwise-
+
+     If ParseText does return S_OK, the SDM can then call either [IDebugExpression2::EvaluateSync](../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) or [IDebugExpression2::EvaluateAsync](../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md) to get a final value from the parsed expression.
+
+    - When using `IDebugExpression2::EvaluateSync`, the given callback interface communicates the ongoing process of the evaluation. The final value is returned in an [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) interface.
+
+    - When using `IDebugExpression2::EvaluateAsync`, the given callback interface communicates the ongoing process of the evaluation. Once the evaluation is complete, EvaluateAsync sends an [IDebugExpressionEvaluationCompleteEvent2](../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md) interface through the callback. With this event interface, the final value results with [GetResult](../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2-getresult.md).
+
+## See also
+- [Call debugger events](../../extensibility/debugger/calling-debugger-events.md)

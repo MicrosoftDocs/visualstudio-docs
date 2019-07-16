@@ -1,19 +1,16 @@
 ---
 title: "Attach reference strings to UML model elements | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 helpviewer_keywords: 
   - "UML - extending, reference strings"
 ms.assetid: 15dbed99-efce-42fe-a768-714a5804e7d1
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Attach reference strings to UML model elements
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,6 +40,3 @@ You can write code to attach arbitrary strings to model elements. A string could
  [Define a work item link handler](../modeling/define-a-work-item-link-handler.md)   
  [Define and install a modeling extension](../modeling/define-and-install-a-modeling-extension.md)   
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)
-
-
-

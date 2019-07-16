@@ -1,17 +1,14 @@
 ---
 title: "Properties of Domain Roles | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 ms.assetid: 5a7bb18c-638e-45e8-9d79-9aa6a9e14b0e
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Properties of Domain Roles
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,10 +37,7 @@ The properties in the following table are associated with a domain role. For inf
 |Property Display Name|The name that is displayed in the generated designer for the generated role property.|The adjusted value of the Property Name property.|  
   
 > [!NOTE]
->  The default value of a display name is based on the associated property value by inserting spaces before each upper-case character that is preceded by a lower-case character and that is not followed by another upper-case character.  
+> The default value of a display name is based on the associated property value by inserting spaces before each upper-case character that is preceded by a lower-case character and that is not followed by another upper-case character.  
   
 ## See Also  
  [Properties of Domain Relationships](../modeling/properties-of-domain-relationships.md)
-
-
-

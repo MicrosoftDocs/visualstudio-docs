@@ -1,14 +1,9 @@
 ---
 title: "References Page, Project Designer (Visual Basic) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "vb.ProjectPropertiesReference"
   - "vb.ProjectPropertiesUnusedReference"
@@ -21,12 +16,11 @@ ms.assetid: 5a47c595-e084-401c-86e1-74e0bf74fd86
 caps.latest.revision: 40
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # References Page, Project Designer (Visual Basic)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Use the **References** page of the **Project Designer** to manage references, Web references, and imported namespaces in your project. Projects can contain references to COM components, XML Web services, .NET Framework class libraries or assemblies, or other class libraries. For more information on using references, see [Managing references in a project](../../ide/managing-references-in-a-project.md).  
   
  To access the **References** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **References** tab.  
@@ -43,12 +37,12 @@ Use the **References** page of the **Project Designer** to manage references, We
  Click this button to access the **Reference Paths** dialog box.  
   
 > [!NOTE]
->  When the project system finds an assembly reference, the system resolves the reference by looking in the following locations, in the following order:  
+> When the project system finds an assembly reference, the system resolves the reference by looking in the following locations, in the following order:  
 > 
 > 1. The project folder. The project folder files appear in **Solution Explorer** when **Show All Files** isn't in effect.  
->    2.  Folders that are specified in the **Reference Paths** dialog box.  
->    3.  Folders that display files in the **Add Reference** dialog box.  
->    4.  The project's obj folder. (When you add a COM reference to your project, one or more assemblies may be added to the project's obj folder.)  
+>    2. Folders that are specified in the **Reference Paths** dialog box.  
+>    3. Folders that display files in the **Add Reference** dialog box.  
+>    4. The project's obj folder. (When you add a COM reference to your project, one or more assemblies may be added to the project's obj folder.)  
   
  **References**  
  This list shows all references in the project, used or unused.  
@@ -80,17 +74,14 @@ Use the **References** page of the **Project Designer** to manage references, We
  **Update User Import**  
  Select a user-specified namespace in the namespaces list, type the name that you want to replace it with in the **Imported namespaces** box, and then click this button to change to the new namespace. The button is active only if the selected namespace is one that you added to the list by using the **Add User Import** button. You can add:  
   
--   Classes or namespaces, such as <xref:System.Math?displayProperty=fullName>.  
+- Classes or namespaces, such as <xref:System.Math?displayProperty=fullName>.  
   
--   Aliased imports, such as `VB=Microsoft.VisualBasic`.  
+- Aliased imports, such as `VB=Microsoft.VisualBasic`.  
   
--   XML namespaces, such as `<xmlns:xsl="http://www.w3.org/1999/XSL/Transform">`.  
+- XML namespaces, such as `<xmlns:xsl="http://www.w3.org/1999/XSL/Transform">`.  
   
 ## See Also  
- [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   
+ [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   
  [How to: Add or Remove Imported Namespaces (Visual Basic)](../../ide/how-to-add-or-remove-imported-namespaces-visual-basic.md)   
- [NIB: Add Web Reference Dialog Box](http://msdn.microsoft.com/en-us/bdf05776-c591-40af-bfd7-e1e2aa1e87b5)   
- [Imports Statement (XML Namespace)](http://msdn.microsoft.com/library/1f4d50a6-08c7-4c2e-8206-ccae35fcd1b4)
-
-
-
+ [NIB: Add Web Reference Dialog Box](https://msdn.microsoft.com/bdf05776-c591-40af-bfd7-e1e2aa1e87b5)   
+ [Imports Statement (XML Namespace)](https://msdn.microsoft.com/library/1f4d50a6-08c7-4c2e-8206-ccae35fcd1b4)

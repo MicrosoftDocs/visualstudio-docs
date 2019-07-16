@@ -1,26 +1,21 @@
 ---
 title: "Walkthrough: Creating a SharePoint Application Page | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
-  - "VB"
-  - "CSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "application pages [SharePoint development in Visual Studio], developing"
   - "application pages [SharePoint development in Visual Studio], creating"
-author: TerryGLee
-ms.author: tglee
-manager: douge
-ms.workload: 
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
+ms.workload:
   - "office"
 ---
 # Walkthrough: Create a SharePoint application page
- 
+
 An application page is a specialized form of an ASP.NET page. Application pages contain content that's merged with a SharePoint master page. For more information, see [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md).
 
 This walkthrough shows you how to create an application page and then debug it by using a local SharePoint site. This page shows all items that each user has created or modified in all sites on the server farm.
@@ -152,5 +147,5 @@ You can learn more about how to design SharePoint page content by using the Visu
 
 ## See also
 
-[How to: Create an application page](../sharepoint/how-to-create-an-application-page.md)  
+[How to: Create an application page](../sharepoint/how-to-create-an-application-page.md)
 [Application _layouts Page Type](http://go.microsoft.com/fwlink/?LinkID=169274)

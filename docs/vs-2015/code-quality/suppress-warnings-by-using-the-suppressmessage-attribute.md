@@ -1,14 +1,9 @@
 ---
 title: "Suppress Warnings By Using the SuppressMessage Attribute | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "VC.Project.VCFxCopTool.InputAssemblyFileName"
   - "VC.Project.VCFxCopTool.FxCopModuleSuppressionsFile"
@@ -39,6 +34,3 @@ It is often useful to indicate that the warning is nonapplicable to let team mem
   
 ## Related Sections  
  [Analyzing Managed Code Quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)
-
-
-

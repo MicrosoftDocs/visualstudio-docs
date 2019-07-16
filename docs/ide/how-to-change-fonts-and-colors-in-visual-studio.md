@@ -1,8 +1,6 @@
 ---
-title: "How to: Change fonts and colors in Visual Studio"
+title: Change fonts and colors
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio, color themes"
@@ -10,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 60d91ba1-244b-4c43-847f-60b744f1352a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

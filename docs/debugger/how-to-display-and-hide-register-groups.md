@@ -1,8 +1,6 @@
 ---
 title: "How to: Display and Hide Register Groups | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.registergroups"
@@ -18,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 6be5dfb4-4cfe-4daf-b538-60405640857d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -33,9 +31,9 @@ To reduce clutter, the **Registers** window organizes registers into groups. If 
 
 ## Display or hide register groups
 
-1.  Right-click the **Registers** window.
+1. Right-click the **Registers** window.
 
-2.  On the shortcut menu, select the register groups you want to show or hide.
+2. On the shortcut menu, select the register groups you want to show or hide.
 
      Register groups that are not supported by the hardware you are debugging on are disabled on the shortcut menu, so they cannot be selected.
 

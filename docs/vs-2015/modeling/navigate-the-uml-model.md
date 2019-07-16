@@ -1,19 +1,16 @@
 ---
 title: "Navigate the UML model | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML API"
 ms.assetid: 6d789b6d-2aa9-4ceb-92c4-84a300065a76
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Navigate the UML model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,9 +24,9 @@ This topic introduces the main types of the UML model.
   
  All the types except IElement inherit properties from one or more supertypes.  
   
--   For a summary of the model types, see [UML model element types](../modeling/uml-model-element-types.md).  
+- For a summary of the model types, see [UML model element types](../modeling/uml-model-element-types.md).  
   
--   For full details of the API, see [API Reference for UML Modeling Extensibility](../modeling/api-reference-for-uml-modeling-extensibility.md).  
+- For full details of the API, see [API Reference for UML Modeling Extensibility](../modeling/api-reference-for-uml-modeling-extensibility.md).  
   
 ### Relationships  
  Properties and relationships that are defined in the UML Specification are implemented as .NET properties.  
@@ -119,15 +116,12 @@ foreach (IShape<IInterface> in
 ## Accessing another model or diagrams  
  You can:  
   
--   Use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] model bus to create links between elements in different models. For more information, see [Integrate UML models with other models and tools](../modeling/integrate-uml-models-with-other-models-and-tools.md).  
+- Use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] model bus to create links between elements in different models. For more information, see [Integrate UML models with other models and tools](../modeling/integrate-uml-models-with-other-models-and-tools.md).  
   
--   Load a modeling project and diagrams in read-only mode without making it visible in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] user interface. For more information, see [Read a UML model in program code](../modeling/read-a-uml-model-in-program-code.md).  
+- Load a modeling project and diagrams in read-only mode without making it visible in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] user interface. For more information, see [Read a UML model in program code](../modeling/read-a-uml-model-in-program-code.md).  
   
--   Open a modeling project and its diagrams in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], and then access the contents. For more information, see [Open a UML model by using the Visual Studio API](../modeling/open-a-uml-model-by-using-the-visual-studio-api.md).  
+- Open a modeling project and its diagrams in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], and then access the contents. For more information, see [Open a UML model by using the Visual Studio API](../modeling/open-a-uml-model-by-using-the-visual-studio-api.md).  
   
 ## See Also  
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)
-
-
-

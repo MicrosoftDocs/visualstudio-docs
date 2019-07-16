@@ -1,8 +1,6 @@
 ---
 title: Property Pages, JavaScript
 ms.date: 06/21/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "javascript.project.property.debugging.debuggertype"
@@ -15,7 +13,7 @@ f1_keywords:
 ms.assetid: a05ab01f-3d5d-4675-a845-eab51807d3a3
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -45,7 +43,6 @@ The following pages and options appear in the **Property Pages**.
 > [!NOTE]
 > Some options are only available in UWP apps.
 
-
  **Output Path**
 
  Specifies the location of the output files for the project's configuration. The path is relative; if you enter an absolute path, the absolute path is saved in the project. The default path is bin\Debug.
@@ -62,16 +59,15 @@ The following pages and options appear in the **Property Pages**.
 > [!NOTE]
 > Some options are only available in UWP apps.
 
-
  **Debugger to Launch**
 
  Specifies the default host for the debugger.
 
--   Select **Local Machine** to start the application on the Visual Studio host computer. For more information, see [Running apps on the local machine](../../debugger/run-windows-store-apps-on-the-local-machine.md).
+- Select **Local Machine** to start the application on the Visual Studio host computer. For more information, see [Running apps on the local machine](../../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md).
 
--   Select **Simulator** to start the application in the Simulator. For more information, see [Running apps in the simulator](../../debugger/run-windows-store-apps-in-the-simulator.md).
+- Select **Simulator** to start the application in the Simulator. For more information, see [Running apps in the simulator](../../debugger/run-windows-store-apps-in-the-simulator.md).
 
--   Select **Remote Machine** to start the application on a remote computer. For more information about remote debugging, see [Running apps on a remote machine](../../debugger/run-windows-store-apps-on-a-remote-machine.md).
+- Select **Remote Machine** to start the application on a remote computer. For more information about remote debugging, see [Running apps on a remote machine](../../debugger/run-windows-store-apps-on-a-remote-machine.md).
 
 **Launch Application**
 

@@ -1,14 +1,9 @@
 ---
 title: "Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.error.webdbg_debug_verb_blocked"
 dev_langs: 
@@ -22,7 +17,7 @@ ms.assetid: 9c8c4812-17db-484d-9c1b-ffd9e3bfef5a
 caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,25 +30,22 @@ Stepping into a Web application or XML Web service failed because the IIS lockdo
   
 ### To enable debugging on a Web server with URLScan installed  
   
-1.  Locate the Urlscan.ini file. Normally, you will find it in a directory that looks something like this:  
+1. Locate the Urlscan.ini file. Normally, you will find it in a directory that looks something like this:  
   
      C:\WINNT\System32\Inetsrv\urlscan  
   
-2.  Create a copy of the file, and name it **Urlscan.old**.  
+2. Create a copy of the file, and name it **Urlscan.old**.  
   
-3.  Open the original copy of the Urlscan.ini file using Notepad or the text editor of your choice.  
+3. Open the original copy of the Urlscan.ini file using Notepad or the text editor of your choice.  
   
-4.  In Urlscan.ini, locate the [AllowVerbs] section. Add DEBUG to the [AllowVerbs] section. If you see ;DEBUG in the [AllowVerbs] section, remove the semicolon to uncomment the verb.  
+4. In Urlscan.ini, locate the [AllowVerbs] section. Add DEBUG to the [AllowVerbs] section. If you see ;DEBUG in the [AllowVerbs] section, remove the semicolon to uncomment the verb.  
   
-5.  Locate the [DenyVerbs] section. If DEBUG appears in the [DenyVerbs] section, remove it.  
+5. Locate the [DenyVerbs] section. If DEBUG appears in the [DenyVerbs] section, remove it.  
   
-6.  Save the file.  
+6. Save the file.  
   
-7.  Restart the server or restart IIS.  
+7. Restart the server or restart IIS.  
   
 ## See Also  
  [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)   
  [Error: The Web Server Could Not Find the Requested Resource](../debugger/error-the-web-server-could-not-find-the-requested-resource.md)
-
-
-

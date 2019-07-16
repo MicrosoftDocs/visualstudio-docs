@@ -1,14 +1,9 @@
 ---
 title: "MSBuild | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MSBuild, about MSBuild"
   - "MSBuild, overview"
@@ -16,7 +11,7 @@ ms.assetid: e39f13f7-1e1d-4435-95ca-0c222bca071c
 caps.latest.revision: 62
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +20,7 @@ The [!INCLUDE[vstecmsbuildengine](../includes/vstecmsbuildengine-md.md)] is a pl
   
  Visual Studio uses MSBuild to load and build managed projects. The project files in Visual Studio (.csproj,.vbproj, vcxproj, and others) contain MSBuild XML code that executes when you build a project by using the IDE. Visual Studio projects import all the necessary settings and build processes to do typical development work, but you can extend or modify them from within Visual Studio or by using an XML editor.  
   
- For information about MSBuild for C++, see [MSBuild (Visual C++)](http://msdn.microsoft.com/library/7a1be7ff-0312-4669-adf2-5f5bf507d560).  
+ For information about MSBuild for C++, see [MSBuild (Visual C++)](https://msdn.microsoft.com/library/7a1be7ff-0312-4669-adf2-5f5bf507d560).  
   
  The following examples illustrate when you might run builds by using an MSBuild command line instead of the Visual Studio IDE.  
   
@@ -37,42 +32,42 @@ The [!INCLUDE[vstecmsbuildengine](../includes/vstecmsbuildengine-md.md)] is a pl
   
 - You want to modify the build system. For example, you might want to enable the following actions:  
   
-  -   Preprocess files before they reach the compiler.  
+  - Preprocess files before they reach the compiler.  
   
-  -   Copy the build outputs to a different place.  
+  - Copy the build outputs to a different place.  
   
-  -   Create compressed files from build outputs.  
+  - Create compressed files from build outputs.  
   
-  -   Do a post-processing step. For example, you might want to stamp an assembly with a different version.  
+  - Do a post-processing step. For example, you might want to stamp an assembly with a different version.  
   
   You can write code in the Visual Studio IDE but run builds by using MSBuild. As another alternative, you can build code in the IDE on a development computer but use an MSBuild command line to build code that's integrated from multiple developers.  
   
 > [!NOTE]
->  You can use Team Foundation Build to automatically compile, test, and deploy your application. Your build system can automatically run builds when developers check in code (for example, as part of a Continuous Integration strategy) or according to a schedule (for example, a nightly Build Verification Test build). Team Foundation Build compiles your code by using MSBuild. For more information, see [Build the application](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692).  
+> You can use Team Foundation Build to automatically compile, test, and deploy your application. Your build system can automatically run builds when developers check in code (for example, as part of a Continuous Integration strategy) or according to a schedule (for example, a nightly Build Verification Test build). Team Foundation Build compiles your code by using MSBuild. For more information, see [Build the application](https://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692).  
   
  This topic provides an overview of MSBuild. For an introductory tutorial, see [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md).  
   
  **In this topic**  
   
--   [Using MSBuild at a Command Prompt](#BKMK_CommandPrompt)  
+- [Using MSBuild at a Command Prompt](#BKMK_CommandPrompt)  
   
--   [Project File](#BKMK_ProjectFile)  
+- [Project File](#BKMK_ProjectFile)  
   
-    -   [Properties](#BKMK_Properties)  
+  - [Properties](#BKMK_Properties)  
+
+  - [Items](#BKMK_Items)  
+
+  - [Tasks](#BKMK_Tasks)  
+
+  - [Targets](#BKMK_Targets)  
+
+- [Build Logs](#BKMK_BuildLogs)  
   
-    -   [Items](#BKMK_Items)  
+- [Using MSBuild in Visual Studio](#BKMK_VisualStudio)  
   
-    -   [Tasks](#BKMK_Tasks)  
+- [Multitargeting](#BKMK_Multitargeting)  
   
-    -   [Targets](#BKMK_Targets)  
-  
--   [Build Logs](#BKMK_BuildLogs)  
-  
--   [Using MSBuild in Visual Studio](#BKMK_VisualStudio)  
-  
--   [Multitargeting](#BKMK_Multitargeting)  
-  
-##  <a name="BKMK_CommandPrompt"></a> Using MSBuild at a Command Prompt  
+## <a name="BKMK_CommandPrompt"></a> Using MSBuild at a Command Prompt  
  To run [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] at a command prompt, pass a project file to MSBuild.exe, together with the appropriate command-line options. Command-line options let you set properties, execute specific targets, and set other options that control the build process. For example, you would use the following command-line syntax to build the file `MyProj.proj` with the `Configuration` property set to `Debug`.  
   
 ```  
@@ -82,14 +77,14 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
  For more information about [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] command-line options, see [Command-Line Reference](../msbuild/msbuild-command-line-reference.md).  
   
 > [!IMPORTANT]
->  Before you download a project, determine the trustworthiness of the code.  
+> Before you download a project, determine the trustworthiness of the code.  
   
-##  <a name="BKMK_ProjectFile"></a> Project File  
+## <a name="BKMK_ProjectFile"></a> Project File  
  [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] uses an XML-based project file format that's straightforward and extensible. The [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project file format lets developers describe the items that are to be built, and also how they are to be built for different operating systems and configurations. In addition, the project file format lets developers author reusable build rules that can be factored into separate files so that builds can be performed consistently across different projects in the product.  
   
  The following sections describe some of the basic elements of the [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project file format. For a tutorial about how to create a basic project file, see [Walkthrough: Creating an MSBuild Project File from Scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md).  
   
-###  <a name="BKMK_Properties"></a> Properties  
+### <a name="BKMK_Properties"></a> Properties  
  Properties represent key/value pairs that can be used to configure builds. Properties are declared by creating an element that has the name of the property as a child of a [PropertyGroup](../msbuild/propertygroup-element-msbuild.md) element. For example, the following code creates a property named `BuildDir` that has a value of `Build`.  
   
 ```  
@@ -108,7 +103,7 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
   
  For more information about properties, see [MSBuild Properties](msbuild-properties1.md).  
   
-###  <a name="BKMK_Items"></a> Items  
+### <a name="BKMK_Items"></a> Items  
  Items are inputs into the build system and typically represent files. Items are grouped into item types, based on user-defined item names. These item types can be used as parameters for tasks, which use the individual items to perform the steps of the build process.  
   
  Items are declared in the project file by creating an element that has the name of the item type as a child of an [ItemGroup](../msbuild/itemgroup-element-msbuild.md) element. For example, the following code creates an item type named `Compile`, which includes two files.  
@@ -133,7 +128,7 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
   
  Items can be declared by using wildcard characters and may contain additional metadata for more advanced build scenarios. For more information about items, see [Items](../msbuild/msbuild-items.md).  
   
-###  <a name="BKMK_Tasks"></a> Tasks  
+### <a name="BKMK_Tasks"></a> Tasks  
  Tasks are units of executable code that [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] projects use to perform build operations. For example, a task might compile input files or run an external tool. Tasks can be reused, and they can be shared by different developers in different projects.  
   
  The execution logic of a task is written in managed code and mapped to [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] by using the [UsingTask](../msbuild/usingtask-element-msbuild.md) element. You can write your own task by authoring a managed type that implements the <xref:Microsoft.Build.Framework.ITask> interface. For more information about how to write tasks, see [Task Writing](../msbuild/task-writing.md).  
@@ -150,7 +145,7 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
   
  For more information about tasks, see [Tasks](../msbuild/msbuild-tasks.md).  
   
-###  <a name="BKMK_Targets"></a> Targets  
+### <a name="BKMK_Targets"></a> Targets  
  Targets group tasks together in a particular order and expose sections of the project file as entry points into the build process. Targets are often grouped into logical sections to increase readability and to allow for expansion. Breaking the build steps into targets lets you call one piece of the build process from other targets without copying that section of code into every target. For example, if several entry points into the build process require references to be built, you can create a target that builds references and then run that target from every entry point where it's required.  
   
  Targets are declared in the project file by using the [Target](../msbuild/target-element-msbuild.md) element. For example, the following code creates a target named `Compile`, which then calls the [Csc](../msbuild/csc-task.md) task that has the item list that was declared in the earlier example.  
@@ -163,15 +158,15 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
   
  In more advanced scenarios, targets can be used to describe relationships among one another and perform dependency analysis so that whole sections of the build process can be skipped if that target is up-to-date. For more information about targets, see [Targets](../msbuild/msbuild-targets.md).  
   
-##  <a name="BKMK_BuildLogs"></a> Build Logs  
+## <a name="BKMK_BuildLogs"></a> Build Logs  
  You can log build errors, warnings, and messages to the console or another output device. For more information, see [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md) and [Logging in MSBuild](../msbuild/logging-in-msbuild.md).  
   
-##  <a name="BKMK_VisualStudio"></a> Using MSBuild in Visual Studio  
+## <a name="BKMK_VisualStudio"></a> Using MSBuild in Visual Studio  
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] uses the [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project file format to store build information about managed projects. Project settings that are added or changed by using the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] interface are reflected in the .*proj file that's generated for every project. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] uses a hosted instance of [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] to build managed projects. This means that a managed project can be built in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] or at a command prompt (even if [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] isn't installed), and the results will be identical.  
   
  For a tutorial about how to use MSBuild in Visual Studio, see [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md).  
   
-##  <a name="BKMK_Multitargeting"></a> Multitargeting  
+## <a name="BKMK_Multitargeting"></a> Multitargeting  
  By using Visual Studio, you can compile an application to run on any one of several versions of the .NET Framework. For example, you can compile an application to run on the .NET Framework 2.0 on a 32-bit platform, and you can compile the same application to run on the .NET Framework 4.5 on a 64-bit platform. The ability to compile to more than one framework is named multitargeting.  
   
  These are some of the benefits of multitargeting:  
@@ -210,8 +205,3 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
   
  Glossary  
  Defines common MSBuild terms.
-
-
-
-
-

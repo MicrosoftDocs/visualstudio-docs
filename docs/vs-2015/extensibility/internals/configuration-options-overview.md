@@ -1,21 +1,16 @@
 ---
 title: "Configuration Options Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project configurations"
   - "configuration options, about configuration options"
 ms.assetid: f4ad4dd3-b39e-42df-ad89-d403cdf24a2b
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Configuration Options Overview
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,7 +32,7 @@ Projects in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] can support multiple
 |MyConfig|N/A|\<MyConfig Win64 settings>|  
   
 > [!NOTE]
->  You cannot create a "MyConfig" solution configuration that excludes a "Win32" platform unless the project you are targeting does not support Win32.  
+> You cannot create a "MyConfig" solution configuration that excludes a "Win32" platform unless the project you are targeting does not support Win32.  
   
  Changing the active configuration for a solution selects the set of project configurations that are built, run, debugged or deployed in that solution. For example, if you change the active solution configuration from Release to Debug, all projects within that solution are automatically built with the projects' configuration indicated in the solution's Debug configuration. The projects' configurations are usually also named Debug unless the user has made manual changes in the environment's Configuration Manager.  
   
@@ -74,4 +69,3 @@ Configuration interfaces
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsCfgProvider2>   
  [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md)   
  [Solution Configuration](../../extensibility/internals/solution-configuration.md)
-

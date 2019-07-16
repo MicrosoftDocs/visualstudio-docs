@@ -1,21 +1,16 @@
 ---
 title: "Extending and Customizing Tool Windows | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "user interfaces, essentials"
   - "tool windows, standard"
 ms.assetid: 46b2892e-7b2b-4b3f-83a7-b884f1e114ee
 caps.latest.revision: 21
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Extending and Customizing Tool Windows
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ Visual Studio provides several different types of windows, for example tool wind
   
 ## See Also  
  [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md)
-

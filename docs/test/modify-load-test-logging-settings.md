@@ -1,5 +1,5 @@
 ---
-title: "Load Test Logging Settings in Visual Studio"
+title: "Load Test Logging Settings"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,9 +7,7 @@ helpviewer_keywords:
 ms.assetid: 9649226a-857d-41ef-8ec7-047b6e498033
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Modify load test logging settings
 
@@ -22,7 +20,7 @@ The *test controller* spools all collected load test sample data to a database l
 |Task|Associated topics|
 |-|-----------------------|
 |**Save logs if a load test fails:** You can specify if you want to save the test log whenever a load test fails.|-   [How to: Specify if test failures are saved to test logs](../test/how-to-specify-if-test-failures-are-saved-to-test-logs.md)|
-|**Set the maximum file size for the log file:** You can edit the XML configuration file that is associated with the test controller service to specify the maximum file size you want to use for the log file.|[How to: Specify the maximum size for the log file](../test/how-to-specify-the-maximum-size-for-the-log-file.md)|
+|**Set the maximum file size for the log file:** You can edit the XML configuration file that is associated with the test controller service to specify the maximum file size you want to use for the log file.|Modify `<add key="LogSizeLimitInMegs" value="20"/>` in the *QTCcontroller.exe.config* XML configuration file.|
 
 ## See also
 

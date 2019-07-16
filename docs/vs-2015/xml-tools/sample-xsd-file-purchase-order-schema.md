@@ -1,24 +1,18 @@
 ---
 title: "Sample XSD File: Purchase Order Schema | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: f92b63b5-ec61-43b5-ae1e-63432a7a7e30
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Sample XSD File: Purchase Order Schema
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The following XSD file is used in various examples in the XSD Schema Designer documentation. This file is a purchase order schema.  
   
 ```xml  
@@ -88,6 +82,3 @@ The following XSD file is used in various examples in the XSD Schema Designer do
   </xsd:complexType>  
 </xsd:schema>  
 ```
-
-
-

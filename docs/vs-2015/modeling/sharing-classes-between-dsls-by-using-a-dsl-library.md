@@ -1,17 +1,14 @@
 ---
 title: "Sharing Classes between DSLs by using a DSL Library | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 509bd96b-3e66-47f4-8642-771421d0d0d5
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Sharing Classes between DSLs by using a DSL Library
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,11 +19,11 @@ In the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visualization and Modeling S
   
 #### To create a DSL Library  
   
-1.  Create a new DSL project, and choose the DSL Library solution template.  
+1. Create a new DSL project, and choose the DSL Library solution template.  
   
      A single DSL project will be created with an empty model.  
   
-2.  You can add domain classes, relationships, shapes and so on.  
+2. You can add domain classes, relationships, shapes and so on.  
   
      The elements in the library do not have to form a single embedding tree.  
   
@@ -34,15 +31,15 @@ In the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visualization and Modeling S
   
      Consider setting the **Inheritance Modifier** of the domain classes to `Abstract`.  
   
-3.  You can add elements that you define in DSL Explorer, such as Connection Builders.  
+3. You can add elements that you define in DSL Explorer, such as Connection Builders.  
   
-4.  You can add customizations that require additional code, such as validation constraints.  
+4. You can add customizations that require additional code, such as validation constraints.  
   
-5.  Click **Transform All Templates**.  
+5. Click **Transform All Templates**.  
   
-6.  Build the project.  
+6. Build the project.  
   
-7.  When you distribute the DSL for other people to use, you must provide both the compiled assembly (DLL) and the file `DslDefinition.dsl`. You can find the compiled assembly in a folder under `Dsl\bin\*`  
+7. When you distribute the DSL for other people to use, you must provide both the compiled assembly (DLL) and the file `DslDefinition.dsl`. You can find the compiled assembly in a folder under `Dsl\bin\*`  
   
 #### To import a DSL Library  
   
@@ -64,6 +61,3 @@ In the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visualization and Modeling S
   
 ## See Also  
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "Troubleshooting the Help Viewer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-help-viewer
+ms.topic: troubleshooting
 helpviewer_keywords: 
   - "troubleshooting [Help Viewer 2.0]"
   - "Help Viewer 2.0, troubleshooting"
@@ -16,7 +11,7 @@ ms.assetid: 461a4553-064a-4142-a2d2-058658b9ba12
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Troubleshooting the Help Viewer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,15 +26,15 @@ This topic discusses issues that you might encounter with the Help Viewer.
   
 #### To activate Windows Search service  
   
-1.  Start Server Manager.  
+1. Start Server Manager.  
   
-2.  In the left navigation pane, choose **Roles**.  
+2. In the left navigation pane, choose **Roles**.  
   
-3.  In the Roles Summary pane, choose **Add Role**.  
+3. In the Roles Summary pane, choose **Add Role**.  
   
-4.  Choose the File Services role, and then choose the **Next** button.  
+4. Choose the File Services role, and then choose the **Next** button.  
   
-5.  Choose the Windows Search role service.  
+5. Choose the Windows Search role service.  
   
 ## Additional Resources  
  You can get more information and provide feedback on the Help Viewer by using the following resources:  
@@ -50,6 +45,3 @@ This topic discusses issues that you might encounter with the Help Viewer.
   
 ## See Also  
  [Help Viewer 2.1 Administrator Guide](http://go.microsoft.com/fwlink/?LinkId=243985)
-
-
-

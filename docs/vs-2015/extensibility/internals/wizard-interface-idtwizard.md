@@ -1,21 +1,16 @@
 ---
 title: "Wizard Interface (IDTWizard) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "IDTWizard interface"
   - "wizards, interface"
 ms.assetid: 09618d9d-d115-45b6-bccc-de328994b39c
 caps.latest.revision: 9
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Wizard Interface (IDTWizard)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,23 +34,23 @@ STDMETHOD(Execute)(THIS_
   
  The following information describes the <xref:EnvDTE.IDTWizard> interface that wizards must implement to work in the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE. The IDE calls the <xref:EnvDTE.IDTWizard.Execute%2A> method on the wizard, passing it the following:  
   
--   The DTE object  
+- The DTE object  
   
      The DTE object is the root of the Automation model.  
   
--   The handle to the window dialog box as shown in the code segment, `hwndOwner ([in] long)`.  
+- The handle to the window dialog box as shown in the code segment, `hwndOwner ([in] long)`.  
   
      The wizard uses this `hwndOwner` as the parent for the wizard dialog box.  
   
--   Context parameters passed to the interface as variant for SAFEARRAY as shown in the code segment, `[in] SAFEARRAY (VARIANT)* ContextParams`.  
+- Context parameters passed to the interface as variant for SAFEARRAY as shown in the code segment, `[in] SAFEARRAY (VARIANT)* ContextParams`.  
   
      Context parameters contain an array of values that are specific to the kind of wizard being started and the current state of the project. The IDE passes  the context parameters to the wizard. For more information, see [Context Parameters](../../extensibility/internals/context-parameters.md).  
   
--   Custom parameters passed to the interface as a variant for SAFEARRAY as shown in the code segment, `[in] SAFEARRAY (VARIANT)* CustomParams`.  
+- Custom parameters passed to the interface as a variant for SAFEARRAY as shown in the code segment, `[in] SAFEARRAY (VARIANT)* CustomParams`.  
   
      Custom parameters contain an array of user-defined parameters. A .vsz file passes custom parameters to the IDE. The values are determined by the `Param=` statements. For more information, see [Custom Parameters](../../extensibility/internals/custom-parameters.md).  
   
--   Return values for the interface are  
+- Return values for the interface are  
   
     ```  
     wizardResultSuccess = -1,  
@@ -69,4 +64,3 @@ STDMETHOD(Execute)(THIS_
  [Custom Parameters](../../extensibility/internals/custom-parameters.md)   
  [Wizards](../../extensibility/internals/wizards.md)   
  [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)
-

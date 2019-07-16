@@ -1,20 +1,15 @@
 ---
 title: "Walkthrough: Creating a Custom Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], custom - create"
 ms.assetid: d090abb6-d99f-4083-a3db-cd16bf81ce7d
 caps.latest.revision: 18
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Creating a Custom Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,24 +24,23 @@ The VSPackage project template can create a simple custom editor in C++.  The VS
   
 ### To create a VSPackage using the Visual Studio Package template  
   
-1.  Create a project with the Visual Studio Package template.  
+1. Create a project with the Visual Studio Package template.  
   
-2.  Select the **Custom Editor** option and click **Next**. The **Editor Options** page is displayed.  
+2. Select the **Custom Editor** option and click **Next**. The **Editor Options** page is displayed.  
   
-3.  Type the name of your editor in the **Editor Name** box. Type the file extension that you want to be associated with your editor in the **File Extension** box. Your editor is available for files with this extension. The file extension is registered for Visual Studio only, not for Windows. Type the default file name for new documents created with your editor in the **Default File Name** box.  
+3. Type the name of your editor in the **Editor Name** box. Type the file extension that you want to be associated with your editor in the **File Extension** box. Your editor is available for files with this extension. The file extension is registered for Visual Studio only, not for Windows. Type the default file name for new documents created with your editor in the **Default File Name** box.  
   
-4.  Click **Finish** to create your VSPackage in the folder that you specified.  
+4. Click **Finish** to create your VSPackage in the folder that you specified.  
   
 ### To test your custom editor  
   
-1.  On the **File** menu, point to **New** and then click **File**.  
+1. On the **File** menu, point to **New** and then click **File**.  
   
-2.  In the **Installed Templates** pane of the **New File** dialog box, select the file template, then the file type you just registered.  
+2. In the **Installed Templates** pane of the **New File** dialog box, select the file template, then the file type you just registered.  
   
-3.  Click **Open** to view and edit the document.  
+3. Click **Open** to view and edit the document.  
   
      The editor supports cut-and-paste, find-and-replace, and open-and-load operations.  
   
 ## See Also  
  [VSPackages](../extensibility/internals/vspackages.md)
-

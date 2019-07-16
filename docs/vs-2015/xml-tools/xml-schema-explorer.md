@@ -1,24 +1,18 @@
 ---
 title: "XML Schema Explorer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 2fc39e98-b194-456b-a452-cfafb0a52d66
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # XML Schema Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The XML Schema Explorer is integrated with Microsoft Visual Studio and the XML Editor to enable you to work with XML Schema definition language (XSD) schemas. When you open an XML Schema file, the **Schema Set** node appears in the XML Schema Explorer. All the included, imported, or redefined schemas for your target file, as well as any files that are referenced through an `include` or `import` statement, also appear in the XML Schema Explorer.  
   
  The XML Schema Explorer enables you to do the following:  
@@ -67,11 +61,11 @@ The XML Schema Explorer is integrated with Microsoft Visual Studio and the XML E
   
  To activate a node, double-click it or press **Enter** when the node is selected.  
   
--   Activating a node opens the file in which this node is defined (if the file is not already open) and selects the node in the file.  
+- Activating a node opens the file in which this node is defined (if the file is not already open) and selects the node in the file.  
   
--   Activating a file node opens the selected file (if it is not already open) and highlights the `<schema>` node.  
+- Activating a file node opens the selected file (if it is not already open) and highlights the `<schema>` node.  
   
--   Activating a SchemaSet or a namespace node does nothing.  
+- Activating a SchemaSet or a namespace node does nothing.  
   
 ## Draging and Dropping Nodes  
  You can drag and drop global nodes, file nodes, and namespace nodes onto an XSD Designer view. If the current view is the [Start View](../xml-tools/start-view.md), dragging a node on to the view will open the [Graph View](../xml-tools/graph-view.md). If the current view is the [Content Model View](../xml-tools/content-model-view.md) or Graph View, the view will not change when you drop a node onto it.  
@@ -82,20 +76,13 @@ The XML Schema Explorer is integrated with Microsoft Visual Studio and the XML E
   
 ## In This Section  
   
--   [Searching the Schema Set](../xml-tools/searching-the-schema-set.md)  
+- [Searching the Schema Set](../xml-tools/searching-the-schema-set.md)  
   
--   [Sorting, Filtering, and Grouping](../xml-tools/sorting-filtering-and-grouping-xml-schema-explorer.md)  
+- [Sorting, Filtering, and Grouping](../xml-tools/sorting-filtering-and-grouping-xml-schema-explorer.md)  
   
--   [Context Menus](../xml-tools/context-menus-xml-schema-explorer.md)  
+- [Context Menus](../xml-tools/context-menus-xml-schema-explorer.md)  
   
--   [Integration of XML Literals with XML Schema Explorer](../xml-tools/integration-of-xml-literals-with-xml-schema-explorer.md)  
+- [Integration of XML Literals with XML Schema Explorer](../xml-tools/integration-of-xml-literals-with-xml-schema-explorer.md)  
   
 ## See Also  
  [How to: Add Nodes to the Workspace from the XML Schema Explorer](../xml-tools/how-to-add-nodes-to-the-workspace-from-the-xml-schema-explorer.md)
-
-
-
-
-
-
-

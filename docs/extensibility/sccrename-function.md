@@ -1,64 +1,65 @@
 ---
 title: "SccRename Function | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "SccRename"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "SccRename function"
 ms.assetid: b467ade6-a1db-4c0b-b60f-7850ec4f79eb
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # SccRename Function
-This function renames a file in the source control system.  
-  
-## Syntax  
-  
-```cpp  
-SCCRTN SccRename(  
-   LPVOID pvContext,  
-   HWND   hWnd,  
-   LPCSTR lpFileName,  
-   LPCSTR lpNewName  
-);  
-```  
-  
-#### Parameters  
- pvContext  
- [in] The source control plug-in context structure.  
-  
- hWnd  
- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.  
-  
- lpFileName  
- [in] The fully qualified file name of the file being renamed.  
-  
- lpNewName  
- [in] The fully qualified new name. If the directory path is different, then the file has moved from one subdirectory to another.  
-  
-## Return Value  
- The source control plug-in implementation of this function is expected to return one of the following values:  
-  
-|Value|Description|  
-|-----------|-----------------|  
-|SCC_OK|The renaming operation completed successfully.|  
-|SCC_E_PROJNOTOPEN|The project is not open under source control.|  
-|SCC_E_FILENOTCONTROLLED|The file is not under source control.|  
-|SCC_E_ACCESSFAILURE|There was a problem accessing the source control system, probably due to network or contention issues.|  
-|SCC_E_NOTAUTHORIZED|The user is not authorized to complete this operation.|  
-|SCC_E_COULDNOTCREATEPROJECT|The project could not be created as part of the renaming process.|  
-|SCC_E_OPNOTPERFORMED|The operation was not performed.|  
-|SCC_E_NONSPECIFICERROR|An unspecified or general error occurred.|  
-  
-## Remarks  
- This function can be used to rename a file or move it from one location to another in the source control system. The source control plug-in should not attempt to access the file on disk. It is the IDE's responsibility to rename the local file.  
-  
-## See Also  
- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
+This function renames a file in the source control system.
+
+## Syntax
+
+```cpp
+SCCRTN SccRename(
+   LPVOID pvContext,
+   HWND   hWnd,
+   LPCSTR lpFileName,
+   LPCSTR lpNewName
+);
+```
+
+#### Parameters
+ pvContext
+
+[in] The source control plug-in context structure.
+
+ hWnd
+
+[in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+
+ lpFileName
+
+[in] The fully qualified file name of the file being renamed.
+
+ lpNewName
+
+[in] The fully qualified new name. If the directory path is different, then the file has moved from one subdirectory to another.
+
+## Return Value
+ The source control plug-in implementation of this function is expected to return one of the following values:
+
+|Value|Description|
+|-----------|-----------------|
+|SCC_OK|The renaming operation completed successfully.|
+|SCC_E_PROJNOTOPEN|The project is not open under source control.|
+|SCC_E_FILENOTCONTROLLED|The file is not under source control.|
+|SCC_E_ACCESSFAILURE|There was a problem accessing the source control system, probably due to network or contention issues.|
+|SCC_E_NOTAUTHORIZED|The user is not authorized to complete this operation.|
+|SCC_E_COULDNOTCREATEPROJECT|The project could not be created as part of the renaming process.|
+|SCC_E_OPNOTPERFORMED|The operation was not performed.|
+|SCC_E_NONSPECIFICERROR|An unspecified or general error occurred.|
+
+## Remarks
+ This function can be used to rename a file or move it from one location to another in the source control system. The source control plug-in should not attempt to access the file on disk. It is the IDE's responsibility to rename the local file.
+
+## See Also
+- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

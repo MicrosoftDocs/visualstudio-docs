@@ -1,14 +1,9 @@
 ---
 title: "Instruction Pointers (IPs) View | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.view.instructionpointers"
   - "vs.performance.view.ips"
@@ -22,7 +17,7 @@ ms.assetid: 5e26e0fd-383b-4fb6-a29d-a458d8232828
 caps.latest.revision: 22
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Instruction Pointers (IPs) View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,6 +34,3 @@ The Instruction Pointers view enables you to see specific instructions that are 
  [Instruction Pointers (IPs) View](../profiling/instruction-pointers-ips-view-sampling-data.md)   
  [Instruction Pointers (IPs) View - Sampling](../profiling/instruction-pointers-ips-view-dotnet-memory-sampling-data.md)   
  [Instruction Pointers (IPs) View](../profiling/instruction-pointers-ips-view-contention-data.md)
-
-
-

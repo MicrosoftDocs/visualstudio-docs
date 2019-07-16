@@ -1,20 +1,18 @@
 ---
 title: "How to: Specify Pre- and Post-Instrument Commands | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.performance.property.instrument"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "profiling tools, pre-instrument events"
   - "events [Visual Studio], pre-instrument"
   - "pre-instrument events, performance tools"
 ms.assetid: 6a8d5340-1d1b-4d81-88dd-8e1f435eb828
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # How to: Specify pre- and post-instrument commands
@@ -23,23 +21,9 @@ You can specify commands that run before or after the binaries in a performance 
 
 You can specify commands for all instrumented binaries in the profiling run or for individual binaries. However, you can specify only one pre-instrument command to run before and only one post-instrument command to run after the instrumentation process. You cannot specify commands for both all binaries and for individual binaries. When you specify commands for all binaries, the commands are run before or after the instrumentation of each binary in the session.
 
-The working directory in which the commands are executed depends on the operating systen  where you are running [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] and on the target platform of the profiled application.
+The working directory in which the commands are executed depends on the operating system where you are running [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] and on the target platform of the profiled application.
 
- **32-bit computers**
-
-On 32-bit computers, the default profiler tools directory is *drive\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools*.
-
-**64-bit computers**
-
-On 64-bit computers, specify the path according to the target platform of the profiled application:
-
-- For 32-bit applications, the default profiler tools directory is:
-
-     *drive\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools*
-
-- For 64-bit applications, the default profiler tools directory is:
-
-     *drive\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\x64*
+To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).
 
 ## To specify pre-instrument commands
 

@@ -1,14 +1,9 @@
 ---
 title: "Import Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Import"
 dev_langs: 
@@ -23,12 +18,11 @@ ms.assetid: 3bfecaf1-69fd-4008-b651-c9dafd4389d9
 caps.latest.revision: 32
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Import Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Imports the contents of one project file into another project file.  
   
  \<Project>  
@@ -75,9 +69,9 @@ Imports the contents of one project file into another project file.
  The schema of an imported project is identical to that of a standard project. Although [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] may be able to build an imported project, it is unlikely because an imported project typically does not contain information about which properties to set or the order in which to run targets. The imported project depends on the project into which it is imported to provide that information.  
   
 > [!NOTE]
->  While conditional import statements work in command-line MSBuilds, they do not work with MSBuild in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE). Conditional imports are evaluated by using the configuration and platform values that are set when the project is loaded. If changes are subsequently made that require a reevaluation of the conditionals in the project file, for example, changing the platform, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] reevaluates the conditions on properties and items, but not on imports. Because the import conditional is not reevaluated, the import is skipped.  
+> While conditional import statements work in command-line MSBuilds, they do not work with MSBuild in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE). Conditional imports are evaluated by using the configuration and platform values that are set when the project is loaded. If changes are subsequently made that require a reevaluation of the conditionals in the project file, for example, changing the platform, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] reevaluates the conditions on properties and items, but not on imports. Because the import conditional is not reevaluated, the import is skipped.  
 >   
->  To work around this, put conditional imports in the .targets files or put code in a conditional block such as a [Choose Element (MSBuild)](../msbuild/choose-element-msbuild.md) block.  
+> To work around this, put conditional imports in the .targets files or put code in a conditional block such as a [Choose Element (MSBuild)](../msbuild/choose-element-msbuild.md) block.  
   
 ## Wildcards  
  In the .NET Framework 4, MSBuild allows wildcards in the Project attribute. When there are wildcards, all matches found are sorted (for reproducibility), and then they are imported in that order as if the order had been explicitly set.  
@@ -117,6 +111,3 @@ Imports the contents of one project file into another project file.
 ## See Also  
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)   
  [How to: Use the Same Target in Multiple Project Files](../msbuild/how-to-use-the-same-target-in-multiple-project-files.md)
-
-
-

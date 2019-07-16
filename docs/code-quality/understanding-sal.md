@@ -1,8 +1,6 @@
 ---
 title: Understanding SAL
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 ms.assetid: a94d6907-55f2-4874-9571-51d52d6edcfd
 author: mikeblome
@@ -106,9 +104,9 @@ This implementation contains a common off-by-one error. Fortunately, the code au
 
 #### To use Visual Studio code analysis tools and SAL
 
-1.  In Visual Studio, open a C++ project that contains SAL annotations.
+1. In Visual Studio, open a C++ project that contains SAL annotations.
 
-2.  On the menu bar, choose **Build**, **Run Code Analysis on Solution**.
+2. On the menu bar, choose **Build**, **Run Code Analysis on Solution**.
 
      Consider the \_In\_ example in this section. If you run code analysis on it, this warning is displayed:
 
@@ -119,15 +117,15 @@ This implementation contains a common off-by-one error. Fortunately, the code au
 
 The `_In_` annotation indicates that:
 
--   The parameter must be valid and will not be modified.
+- The parameter must be valid and will not be modified.
 
--   The function will only read from the single-element buffer.
+- The function will only read from the single-element buffer.
 
--   The caller must provide the buffer and initialize it.
+- The caller must provide the buffer and initialize it.
 
--   `_In_` specifies "read-only". A common mistake is to apply `_In_` to a parameter that should have the `_Inout_` annotation instead.
+- `_In_` specifies "read-only". A common mistake is to apply `_In_` to a parameter that should have the `_Inout_` annotation instead.
 
--   `_In_` is allowed but ignored by the analyzer on non-pointer scalars.
+- `_In_` is allowed but ignored by the analyzer on non-pointer scalars.
 
 ```cpp
 void InCallee(_In_ int *pInt)

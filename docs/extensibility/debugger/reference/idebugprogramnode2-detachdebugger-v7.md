@@ -1,20 +1,20 @@
 ---
 title: "IDebugProgramNode2::DetachDebugger_V7 | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "IDebugProgramNode2::DetachDebugger"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugProgramNode2::DetachDebugger"
   - "IDebugProgramNode2::DetachDebugger_V7"
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramNode2::DetachDebugger_V7
 
@@ -44,6 +44,6 @@ An implementation should always return `E_NOTIMPL`.
 
 This method is called when the debugger unexpectedly quits. When this method is called, the DE should resume the program as though the user detached from it. No more debug events should be sent. The program should be in a state where it is attachable from another instance of the debugger.
 
-## See Also
+## See also
 
-[IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
+- [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

@@ -2,7 +2,6 @@
 title: "TEXT_DOCUMENT_ARRAY Structure | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -20,7 +19,7 @@ An array of [IDebugDocumentText Interface](../../winscript/reference/idebugdocum
   
 ## Syntax  
   
-```  
+```cpp
 typedef struct tagTEXT_DOCUMENT_ARRAY{    DWORD dwCount;    [size_is(dwCount)] IDebugDocumentText **Members;} TEXT_DOCUMENT_ARRAY;  
 ```  
   

@@ -1,22 +1,21 @@
 ---
 title: Extended Design Guidelines Rules rule set for managed code
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 ms.assetid: a338caf2-b75d-4f23-a0f9-3024fa0bceac
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
 # Extended Design Guidelines Rules rule set for managed code
+
 The Microsoft Extended Design Guideline Rules rule set expands on the basic design guideline rules to maximize the usability and maintainability issues that are reported. Extra emphasis is placed on naming guidelines. You should consider including this rule set if your project includes library code or if you want to enforce the highest standards for writing code that is easy to maintain.
 
- The Extended Design Guideline Rules include all of the Microsoft Basic Design Guideline Rules. The Basic Design Guideline Rules include all of the Microsoft Minimum Recommended Rules. For more information, see [Basic Design Guideline Rules rule set for managed code](../code-quality/basic-design-guideline-rules-rule-set-for-managed-code.md) and [Managed Recommended Rules rule set for managed code](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md)
+The Extended Design Guideline Rules include all of the Microsoft Basic Design Guideline Rules. The Basic Design Guideline Rules include all of the Microsoft Minimum Recommended Rules. For more information, see [Basic Design Guideline Rules rule set for managed code](../code-quality/basic-design-guideline-rules-rule-set-for-managed-code.md) and [Managed Recommended Rules rule set for managed code](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md)
 
- The following table describes all the rules in the Microsoft Extended Design Guideline Rules rule set.
+The following table describes all the rules in the Microsoft Extended Design Guideline Rules rule set.
 
 |Rule|Description|
 |----------|-----------------|

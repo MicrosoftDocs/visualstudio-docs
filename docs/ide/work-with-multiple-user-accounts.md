@@ -1,76 +1,111 @@
 ---
 title: Work with multiple user accounts
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
+ms.date: 12/10/2018
 ms.topic: conceptual
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: gewarren
+ms.author: gewarren
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Work with multiple user accounts
 
-If you have multiple Microsoft accounts and/or work or school accounts, you can add them all to Visual Studio so that you can access the resources from any account without having to sign in to it separately. Currently, Azure, Application Insights, Team Foundation Server, and Office 365 services support the streamlined sign-in experience. Additional services may become available as time goes by.
+If you have multiple Microsoft accounts and/or work or school accounts, you can add them all to Visual Studio so that you can access the resources from any account without having to sign in to it separately. Azure, Application Insights, Azure DevOps, and Office 365 services all support the streamlined sign-in experience.
 
-After you add multiple accounts on one machine, that set of accounts will roam with you if you sign in to Visual Studio on another machine. It is important to note that, although the account names roam, the credentials do not. Therefore, you will be prompted to enter credentials for those other accounts the first time you attempt to use their resources on the new machine.
+After you add multiple accounts on one machine, that set of accounts roams with you if you sign in to Visual Studio on another machine.
 
-This walkthrough shows how to add multiple accounts to Visual Studio, and how to see that the resources accessible from those accounts are reflected in places such as the **Add Connected Service** dialog, **Server Explorer**, and **Team Explorer**.
+> [!NOTE]
+> Although the account names roam, the credentials do not. You'll be prompted to enter credentials for those other accounts the first time you attempt to use their resources on a new machine.
+
+This article shows you how to add multiple accounts to Visual Studio. It also shows you how to see the resources accessible from those accounts in places such as the **Add Connected Service** dialog, **Server Explorer**, and **Team Explorer**.
 
 ## Sign in to Visual Studio
 
-- Sign into Visual Studio with a Microsoft account or an organizational account. You should see your user name appear in the upper corner of the window, similar to this:
+Sign into Visual Studio with a Microsoft account or an organizational account. You should see your user name appear in the upper corner of the window, similar to this:
 
-     ![Currentlly logged in user](../ide/media/vs2015_username.png)
+![Currently logged in user](../ide/media/vs2015_username.png)
 
 ### Access your Azure account in Server Explorer
 
-Press **Ctrl**+**Alt**+**S** to open **Server Explorer**. Choose the **Azure** icon and when it expands you should see the resources available in the Azure account that is associated with the ID that you used to log in to Visual Studio. It should appear something like the following (except that you will see your own resources).
+Press **Ctrl**+**Alt**+**S** to open **Server Explorer**. Expand the **Azure** node and notice that it contains the resources available in the Azure account that's associated with the account that you used to sign in to Visual Studio. It looks similar to the following image:
 
-![Server Explorer showing Azure Tools node expanded](../ide/media/vs2015_serverexplorer.png)
+![Server Explorer with Azure node expanded](../ide/media/work-with-multiple-user-accounts/server-explorer.png)
 
-The first time you use Visual Studio on any specific device, the dialog will only show the subscriptions registered under the ID that you signed in to the IDE with. You can access resources for any of your other accounts directly from **Server Explorer** by right-clicking on the **Azure** node and choosing **Manage and Filter Subscriptions** and adding your accounts from the account picker control. You can then choose another account, if desired, by clicking the down arrow and choosing from the list of accounts. After choosing the account, you can choose which subscriptions under that account you want to display in **Server Explorer**.
+The first time you use Visual Studio on any specific device, the dialog only shows the subscriptions registered under the account that you signed in with. You can access resources for any of your other accounts directly from **Server Explorer** by right-clicking on the **Azure** node, choosing **Manage and Filter Subscriptions**, and then adding your accounts from the account picker control. You can then choose another account, if desired, by clicking the down arrow and choosing from the list of accounts. After choosing the account, you can customize which subscriptions under that account to display in **Server Explorer**.
 
 ![Manage Azure Subscriptions dialog](../ide/media/vs2015_manage_subs.png)
 
-The next time you open **Server Explorer**, the resources for that subscription(s) are displayed.
+The next time you open **Server Explorer**, the resources for that subscription are displayed.
 
 ### Access your Azure account via Add Connected Service dialog
 
-1. Create a UWP app project in C#.
+1. Open an existing project, or create a new project.
 
-1. Choose the project node in **Solution Explorer** and then choose **Add** > **Connected Service**. The **Add Connected Service** wizard appears and shows you the list of services in the Azure account that is associated with your Visual Studio login ID. Note that you do not have to sign in separately to Azure. However, you do need to sign in to the other accounts the first time you attempt to access their resources from a given computer.
+1. Choose the project node in **Solution Explorer**, and then right-click and choose **Add** > **Connected Service**.
 
-    > [!WARNING]
-    > If this is the first time you are creating a UWP app in Visual Studio on a specific computer, you will be prompted to enable your device for development mode by going to **Settings** > **Updates and Security** > **For Developers** on your computer. For more information, see [Enable your device for development](/windows/uwp/get-started/enable-your-device-for-development).
+   The **Add Connected Service** wizard appears and shows you the list of services in the Azure account that's associated with your Visual Studio personalization account. You don't have to sign in separately to Azure. However, you do need to sign in to the other accounts the first time you attempt to access their resources from a different machine.
 
-### <a name="access_azure"></a> Access Azure Active Directory in a Web project
+### Access Azure Active Directory in a Web project
 
-Azure AD enables support for end-user single Sign-In in ASP.NET MVC web applications, or AD Authentication in web API services. Domain authentication is different from individual user account authentication; users that have access to your Active Directory domain can use their existing Azure AD accounts to connect to your web applications. Office 365 apps can also use domain authentication. To see this in action, create a web application (**File** > **New Project** > **C#** > **Cloud** > **ASP.NET Web Application**). In the **New ASP.NET Project** dialog, choose **Change Authentication**. The authentication wizard appears and enables you to choose what kind of authentication to use in your application.
+Azure Active Directory (AAD) enables support for end-user single sign-in in ASP.NET MVC web apps or AD authentication in web API services. Domain authentication is different from individual user account authentication. Users that have access to your Active Directory domain can use their existing AAD accounts to connect to your web applications. Office 365 apps can also use domain authentication.
+
+To see this in action, create a new **ASP.NET Web Application** project. In the **New ASP.NET Project** dialog, choose **Change Authentication**. The authentication wizard appears and enables you to choose what kind of authentication to use in your application.
 
 ![Change authentication dialog for ASP.NET](../ide/media/vs2015_change_authentication.png)
 
-For more information about the different kinds of authentication in ASP.NET, see [Create ASP.NET web projects in Visual Studio 2013](http://www.asp.net/visual-studio/overview/2013/creating-web-projects-in-visual-studio#orgauth) (the information about authentication is still relevant for current versions of Visual Studio).
+For more information about the different kinds of authentication in ASP.NET, see [Create ASP.NET web projects in Visual Studio](/aspnet/visual-studio/overview/2013/creating-web-projects-in-visual-studio#authentication-methods).
 
-### Access your Team Foundation Server (TFS) organization
+### Access your Azure DevOps organization
 
-From the main menu, choose **Team** > **Connect to Team Foundation Server** to bring up the **Team Explorer** window. Click on **Select Projects**, and then in the list box under **Select a Team Foundation Server**, you should see the URL for your TFS organization. When you select the URL you will be logged in without having to re-enter your credentials.
+From the main menu, choose **Team** > **Manage Connections** to open the **Team Explorer - Connect** window. Choose **Manage Connections** > **Connect to a Project**. In the **Connect to a Project** dialog, select a project from the list (or select **Add TFS Server** and enter the URL to your server). When you select a URL, you're logged in without having to reenter your credentials.
 
-## Add a second user account to Visual Studio
+For more information, see [Connect to projects in Team Explorer](connect-team-project.md).
 
-Click on the down arrow next to your user name in the upper corner of Visual Studio. Then choose the **Account Settings** menu item. The **Account Manager** dialog appears and displays the account you signed in with. Choose the **Add an account** link in the lower corner of the dialog to add a new Microsoft account or a new work or school account.
+## Add an additional account to Visual Studio
 
-![Visual Studio account picker](../ide/media/vs2015_acct_picker.png)
+To add an additional account to Visual Studio:
 
-Follow the prompts to enter the new account credentials. The following illustration shows the **Account Manager** after a user has added his *Contoso.com* work account.
+1. Choose **File** > **Account Settings**.
 
-![Account Manager](../ide/media/vs2015_accountmanager.gif)
+1. Under **All Accounts**, choose **Add an account**.
 
-## Revisit the Add Connected Services wizard and Server Explorer
+1. On the **Sign in to your account** page, select the account or choose **Use another account**. Follow the prompts to enter the new account credentials.
 
-Now go to **Server Explorer** again, right-click on the **Azure** node and choose **Manage and filter subscriptions**. Choose the new account by clicking the drop down arrow next to the current account, and then choose which subscriptions you want to display in **Server Explorer**. You should see all the services associated with the specified subscription. Even though you are not currently signed in to the Visual Studio IDE with the second account, you are signed in to that account's services and resources. The same is true for **Project** > **Add Connected Service** and **Team** > **Connect to Team Foundation Server**.
+(Optional) Now you can go to **Server Explorer** and see the Azure services associated with the account you just added. In **Server Explorer**, right-click on the **Azure** node and choose **Manage and Filter Subscriptions**. Choose the new account by clicking the drop-down arrow next to the current account, and then choose which subscriptions you want to display in **Server Explorer**. You should see all the services associated with the specified subscription. Even though you're not currently signed into Visual Studio with the second account, you are signed in to that account's services and resources. The same is true for **Project** > **Add Connected Service** and **Team** > **Connect to Team Foundation Server**.
+
+### Add an account using device code flow
+
+In some cases, you can't sign in or add an account in the regular manner. This can happen if Internet Explorer is blocked for some reason, or if your network is behind a firewall. To work around this, you can enable *device code flow* to add an account or reauthenticate your account. Device code flow lets you sign in using a different browser or on a different machine&mdash;either physical or virtual (VM).
+
+To sign in using device code flow:
+
+1. Open the [**Accounts**](reference/accounts-environment-options-dialog-box.md) page under **Tools** > **Options** > **Environment**, and then select **Enable device code flow when adding or re-authenticating an account**. Choose **OK** to close the options pages.
+
+1. Choose **File** > **Account Settings** to open the account management page.
+
+1. Choose **Add an account** under **All Accounts**.
+
+   A dialog box shows you a URL and a code to paste into a web browser.
+
+   ![Device code flow URL and code](media/work-with-multiple-user-accounts/device-login-code.png)
+
+1. Press **Ctrl**+**C** to copy the text of the dialog, and then choose **OK** to close the dialog. Paste the text you copied into a text editor such as Notepad. This makes it easier to copy the code in the next step.
+
+1. Navigate to the device login URL on the machine or web browser you want to use to sign in to Visual Studio, and then paste or enter the code you copied into the box that says **Code**.
+
+   The **Visual Studio** app name should appear further down on the page.
+
+1. Under **Visual Studio**, choose **Continue**.
+
+   ![device-login-page.png](media/work-with-multiple-user-accounts/device-login-page.png)
+
+1. Follow the prompts to enter your account credentials.
+
+   A page appears telling you that you've signed into Visual Studio on your device, and that you can close the browser window.
+
+   ![Visual Studio sign in through browser complete](media/work-with-multiple-user-accounts/sign-in-browser-complete.png)
+
+1. Go back to the account management page in Visual Studio and you'll see the newly added account listed under **All Accounts**. Choose **Close**.
 
 ## See also
 

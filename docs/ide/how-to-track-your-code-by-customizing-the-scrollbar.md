@@ -1,12 +1,10 @@
 ---
 title: "Scroll bar map mode and bar mode"
 ms.date: 09/25/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

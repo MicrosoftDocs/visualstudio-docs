@@ -1,19 +1,14 @@
 ---
 title: "Overviews (Performance Tools) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: b877802d-c736-4047-821a-bd7733fff6de
 caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Overviews (Performance Tools)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,6 +46,3 @@ This section provides conceptual and terminology overviews for [!INCLUDE[vsprvs]
 ## See Also  
  [Getting Started](../profiling/getting-started-with-performance-tools.md)   
  [Performance Explorer](../profiling/performance-explorer.md)
-
-
-

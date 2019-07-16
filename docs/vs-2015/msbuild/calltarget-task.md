@@ -1,14 +1,9 @@
 ---
 title: "CallTarget Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,12 +16,11 @@ ms.assetid: bb1fe2c4-4383-436f-8326-c24cc4a46150
 caps.latest.revision: 9
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # CallTarget Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Invokes the specified targets within the project file.  
   
 ## Task Parameters  
@@ -67,6 +61,3 @@ Invokes the specified targets within the project file.
 ## See Also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Targets](../msbuild/msbuild-targets.md)
-
-
-

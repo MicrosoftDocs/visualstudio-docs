@@ -4,11 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 10/03/2017
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description:  Learn how to obtain and manage your product keys in Visual Studio subscriptions.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
-searchscope: VS Subscription
 ---
 
 # Using product keys in Visual Studio subscriptions
@@ -27,7 +24,7 @@ If you’ve claimed all the available product keys under your subscription and h
 ## Retail and Volume Licensing versions of products
 Visual Studio subscriptions offer a selection of retail and Volume Licensing versions of Microsoft products. Certain products are available from Downloads only in their retail version or only in their Volume Licensing version; some are available in both versions. Generally, products requiring activation, such as Windows, Windows Server, and Office client products, are only offered in their retail version through Downloads.
 
-Volume Licensing customers can also download software from the Volume Licensing Service Center (VSLC) to get Volume Licensing versions of products (and the corresponding product keys).  Access to the VLSC is managed by designated administrators within the customer’s organization.
+Volume Licensing customers can also download software from the Volume Licensing Service Center (VLSC) to get Volume Licensing versions of products (and the corresponding product keys).  Access to the VLSC is managed by designated administrators within the customer’s organization.
 
 ## Daily product key claim limits
 Microsoft is committed to protecting the integrity of the Visual Studio subscriptions program and the value of the software and benefits that the program’s legitimate subscribers receive for their investment. In support of this commitment, Microsoft has implemented daily key claim limits for Visual Studio subscriptions. Daily key claim limits restrict the number of keys that can be claimed per day per subscription.
@@ -42,14 +39,13 @@ Our research shows that most subscribers are covered by the number of product ke
 
 ## Locating and claiming product keys
 You must be signed in to your Visual Studio subscription to view your product keys. Individual product keys are found by selecting the blue **Get Key** link for a particular product on the [Downloads](https://my.visualstudio.com/downloads) page as shown below.  All keys are also available in aggregate on the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) page. When multiple keys exist for a single product, notes will be displayed on the Notes column for the download to assist you in identifying which key should be used.
-> [!div class="mx-imgBorder"]   
+> [!div class="mx-imgBorder"]
 > ![Get Key from Downloads Page](_img/product-keys/download-get-key.png)
-    
+
 Some products bundle multiple editions of the product into a single download. In these cases, the product key entered determines which edition of the product is installed.
 Some keys are provided automatically, such as “static” keys, which you can use as many times as needed because activation is not required. Other keys must be claimed by selecting the **Get Key** link for the product.
 
 A variety of key types are available, depending on the product.
-
 
 ### Product key types
 
@@ -71,7 +67,6 @@ You can claim a key from the download page for the product, or you can search fo
 
 ### Claiming product keys
 Only subscribers with active subscriptions can download products and claim product keys.  You can export your claimed keys from the [Product Keys](https://my.visualstudio.com/productkeys) page while your subscription is active.
-
 
 To claim a product key:
 1. Sign in to your Visual Studio subscription.  You must be signed in to download products or claim product keys.
@@ -101,10 +96,10 @@ Visual Studio subscribers can increase the number of users who can access a Wind
 Five keys of each type are available for Windows Server 2008 R2, and each key will support 20 connections. For Windows Server 2012 R2, four keys for each type are provide and will support 50 connections each.
 
 #### To enable additional connections in Windows Server:
-1.	Open Server Manager.
-2.	Open the Servers list in the left nav pane.
-3.	Right click on your license server and choose “Install Licenses”.
-4.	Follow the steps in the wizard.  When you’re selecting the agreement type, choose “License Pack (retail)” and enter the product key you obtained from the MY portal.
+1. Open Server Manager.
+2. Open the Servers list in the left nav pane.
+3. Right click on your license server and choose “Install Licenses”.
+4. Follow the steps in the wizard.  When you’re selecting the agreement type, choose “License Pack (retail)” and enter the product key you obtained from the MY portal.
 
 End users can connect to access applications via RDS if the following conditions are met:
 - Users must be anonymous (in a non-authenticated state).

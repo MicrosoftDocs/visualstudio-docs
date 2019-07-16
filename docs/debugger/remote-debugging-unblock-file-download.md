@@ -1,14 +1,12 @@
 ---
 title: "Unblock the remote tools download"
-ms.custom: ""
 ms.date: "07/19/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "troubleshooting"
 helpviewer_keywords:
   - "remote debugging, unblock download"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

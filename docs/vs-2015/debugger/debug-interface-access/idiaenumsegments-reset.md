@@ -1,14 +1,9 @@
 ---
 title: "IDiaEnumSegments::Reset | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 5eabca3c-6023-4474-a545-a3bec7521e4d
 caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaEnumSegments::Reset
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -35,6 +30,3 @@ HRESULT Reset ();
   
 ## See Also  
  [IDiaEnumSegments](../../debugger/debug-interface-access/idiaenumsegments.md)
-
-
-

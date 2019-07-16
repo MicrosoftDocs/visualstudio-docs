@@ -1,13 +1,11 @@
 ---
 title: Security Rules rule set for managed code
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 ms.assetid: 564aeac6-03fa-41b0-b655-88179f0ab01b
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
@@ -59,3 +57,25 @@ You should include the Microsoft Security Rules rule set to maximize the number 
 |[CA2147](../code-quality/ca2147-transparent-methods-may-not-use-security-asserts.md)|Transparent methods may not use security asserts|
 |[CA2149](../code-quality/ca2149-transparent-methods-must-not-call-into-native-code.md)|Transparent methods must not call into native code|
 |[CA2210](../code-quality/ca2210-assemblies-should-have-valid-strong-names.md)|Assemblies should have valid strong names|
+|[CA2300](ca2300-do-not-use-insecure-deserializer-binaryformatter.md)|Do not use insecure deserializer BinaryFormatter|
+|[CA2301](ca2301-do-not-call-binaryformatter-deserialize-without-first-setting-binaryformatter-binder.md)|Do not call BinaryFormatter.Deserialize without first setting BinaryFormatter.Binder|
+|[CA2302](ca2302-ensure-binaryformatter-binder-is-set-before-calling-binaryformatter-deserialize.md)|Ensure BinaryFormatter.Binder is set before calling BinaryFormatter.Deserialize|
+|[CA2305](ca2305-do-not-use-insecure-deserializer-losformatter.md)|Do not use insecure deserializer LosFormatter|
+|[CA2310](ca2310-do-not-use-insecure-deserializer-netdatacontractserializer.md)|Do not use insecure deserializer NetDataContractSerializer|
+|[CA2311](ca2311-do-not-deserialize-without-first-setting-netdatacontractserializer-binder.md)|Do not deserialize without first setting NetDataContractSerializer.Binder|
+|[CA2312](ca2312-ensure-netdatacontractserializer-binder-is-set-before-deserializing.md)|Ensure NetDataContractSerializer.Binder is set before deserializing|
+|[CA2315](ca2315-do-not-use-insecure-deserializer-objectstateformatter.md)|Do not use insecure deserializer ObjectStateFormatter|
+|[CA2321](ca2321.md)|Do not deserialize with JavaScriptSerializer using a SimpleTypeResolver|
+|[CA2322](ca2322.md)|Ensure JavaScriptSerializer is not initialized with SimpleTypeResolver before deserializing|
+|[CA3001](../code-quality/ca3001-review-code-for-sql-injection-vulnerabilities.md)|Review code for SQL injection vulnerabilities|
+|[CA3002](../code-quality/ca3002-review-code-for-xss-vulnerabilities.md)|Review code for XSS vulnerabilities|
+|[CA3003](../code-quality/ca3003-review-code-for-file-path-injection-vulnerabilities.md)|Review code for file path injection vulnerabilities|
+|[CA3004](../code-quality/ca3004-review-code-for-information-disclosure-vulnerabilities.md)|Review code for information disclosure vulnerabilities|
+|[CA3005](../code-quality/ca3005-review-code-for-ldap-injection-vulnerabilities.md)|Review code for LDAP injection vulnerabilities|
+|[CA3006](../code-quality/ca3006-review-code-for-process-command-injection-vulnerabilities.md)|Review code for process command injection vulnerabilities|
+|[CA3007](../code-quality/ca3007-review-code-for-open-redirect-vulnerabilities.md)|Review code for open redirect vulnerabilities|
+|[CA3008](../code-quality/ca3008-review-code-for-xpath-injection-vulnerabilities.md)|Review code for XPath injection vulnerabilities|
+|[CA3009](../code-quality/ca3009-review-code-for-xml-injection-vulnerabilities.md)|Review code for XML injection vulnerabilities|
+|[CA3010](../code-quality/ca3010-review-code-for-xaml-injection-vulnerabilities.md)|Review code for XAML injection vulnerabilities|
+|[CA3011](../code-quality/ca3011-review-code-for-dll-injection-vulnerabilities.md)|Review code for DLL injection vulnerabilities|
+|[CA3012](../code-quality/ca3012-review-code-for-regex-injection-vulnerabilities.md)|Review code for regex injection vulnerabilities|

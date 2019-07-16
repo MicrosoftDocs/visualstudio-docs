@@ -8,9 +8,7 @@ helpviewer_keywords:
 ms.assetid: 0edd5385-c381-4b17-9096-74e2778db9d5
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -24,25 +22,25 @@ For example, consider a table of `Orders` in a sales database. Each record in th
 
 ## To databind a lookup control
 
-1.  With your project open, open the **Data Sources** window by choosing **View** > **Other Windows** > **Data Sources**.
+1. With your project open, open the **Data Sources** window by choosing **View** > **Other Windows** > **Data Sources**.
 
     > [!NOTE]
     > Lookup tables require that two related tables or objects are available in the **Data Sources** window. For more information, see [Relationships in datasets](relationships-in-datasets.md).
 
-2.  Expand the nodes in the **Data Sources** window until you can see the parent table and all of its columns, and the related child table and all of its columns.
+2. Expand the nodes in the **Data Sources** window until you can see the parent table and all of its columns, and the related child table and all of its columns.
 
     > [!NOTE]
     > The child table node is the node that appears as an expandable child node in the parent table.
 
-3.  Change the drop type of the child table to **Details** by selecting **Details** from the control list on the child table's node. For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
+3. Change the drop type of the child table to **Details** by selecting **Details** from the control list on the child table's node. For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
 
-4.  Locate the node that relates the two tables (the `CustomerID` node in the previous example). Change its drop type to a <xref:System.Windows.Forms.ComboBox> by selecting **ComboBox** from the control list.
+4. Locate the node that relates the two tables (the `CustomerID` node in the previous example). Change its drop type to a <xref:System.Windows.Forms.ComboBox> by selecting **ComboBox** from the control list.
 
-5.  Drag the main child table node from the **Data Sources** window onto your form.
+5. Drag the main child table node from the **Data Sources** window onto your form.
 
      Databound controls (with descriptive labels) and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) appear on the form. A [DataSet](../data-tools/dataset-tools-in-visual-studio.md), [TableAdapter](../data-tools/create-and-configure-tableadapters.md), <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.
 
-6.  Now, drag the main parent table node from the **Data Sources** window directly onto the lookup control (the <xref:System.Windows.Forms.ComboBox>).
+6. Now, drag the main parent table node from the **Data Sources** window directly onto the lookup control (the <xref:System.Windows.Forms.ComboBox>).
 
      The lookup bindings are now established. Refer to the following table for the specific properties that were set on the control.
 

@@ -1,14 +1,9 @@
 ---
 title: "How to: Manually Create Web Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio templates, Web"
   - "templates [Visual Studio], Web"
@@ -18,7 +13,7 @@ ms.assetid: 731c4027-a152-48c5-bfc4-93490bf1949f
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Manually Create Web Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +21,7 @@ manager: "ghogen"
 Creating a Web template is different than creating other kinds of templates. Because Web project templates appear in the **Add New Web Site** dialog box, and Web project items are categorized by programming language, the .vstemplate file must specify the template as a Web template and identify the programming language.  
   
 > [!NOTE]
->  Web templates must contain a empty .webproj file that is specified by using the `File` attribute of the `Project` element. Although Web projects do not require project files, this file is required so that a Web template functions correctly.  
+> Web templates must contain a empty .webproj file that is specified by using the `File` attribute of the `Project` element. Although Web projects do not require project files, this file is required so that a Web template functions correctly.  
   
 ### To manually create a Web template  
   
@@ -88,6 +83,3 @@ Creating a Web template is different than creating other kinds of templates. Bec
 ## See Also  
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
-
-
-

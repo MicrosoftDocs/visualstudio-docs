@@ -1,14 +1,13 @@
 ---
 title: "Publish to Azure by importing publish settings"
-ms.description: "Create and import a publishing profile to deploy an application from Visual Studio to Azure App Service"
-ms.date: "05/07/2018"
-ms.technology: vs-ide-deployment
-ms.topic: "tutorial"
+description: "Create and import a publishing profile to deploy an application from Visual Studio to Azure App Service"
+ms.date: 05/07/2018
+ms.topic: tutorial
 helpviewer_keywords:
   - "deployment, publish settings"
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -16,7 +15,7 @@ ms.workload:
 
 You can use the **Publish** tool to import publish settings and then deploy your app. In this article, we use publish settings for Azure App Service, but you can use similar steps to import publish settings from [IIS](../deployment/tutorial-import-publish-settings-iis.md). In some scenarios, use of a publish settings profile can be faster than manually configuring deployment to the service for each installation of Visual Studio.
 
-These steps apply to ASP.NET, ASP.NET Core, and .NET Core apps in Visual Studio. You can also import publish settings for [Python](../python/publishing-python-web-applications-to-azure-from-visual-studio.md) apps. The steps correspond to Visual Studio 2017 version 15.6.
+These steps apply to ASP.NET, ASP.NET Core, and .NET Core apps in Visual Studio. You can also import publish settings for [Python](../python/publishing-python-web-applications-to-azure-from-visual-studio.md) apps.
 
 In this tutorial, you will:
 
@@ -32,19 +31,31 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
 
 ## Prerequisites
 
-* You must have Visual Studio 2017 installed and the **ASP.NET** and .**NET Framework** development workload. For a .NET Core app, you also need the .**NET Core** workload.
+::: moniker range=">=vs-2019"
 
-    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+* You must have Visual Studio 2019 installed and the **ASP.NET and web development** workload.
+
+    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+* You must have Visual Studio 2017 installed and the **ASP.NET and web development** workload.
+
+    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+::: moniker-end
 
 * Create an Azure App Service. For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
 
 ## Create a new ASP.NET project in Visual Studio
 
-1. On the computer running Visual Studio, choose **File** > **New Project**.
+1. On the computer running Visual Studio, create a new project.
 
-1. Under **Visual C#** or **Visual Basic**, choose **Web**, and then in the middle pane choose either **ASP.NET Web Application (.NET Framework)** or (C# only) **ASP.NET Core Web Application**, and then click **OK**.
+    Choose the correct template. In this example, choose either **ASP.NET Web Application (.NET Framework)** or (for C# only) **ASP.NET Core Web Application**, and then click **OK**.
 
-    If you don't see the specified project templates, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. See the prerequisites in this article to identify the required Visual Studio workloads, which you must install.
+    If you don't see the specified project templates, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Install the **ASP.NET and web development** workload.
+
+    The project template you choose (ASP.NET or ASP.NET Core) must correspond to the version of ASP.NET installed on the web server.
 
 1. Choose either **MVC** (.NET Framework) or **Web Application (Model-View-Controller)** (for .NET Core), and make sure that **No Authentication** is selected, and then click **OK**.
 
@@ -83,6 +94,7 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
       </publishProfile>
     </publishData>
     ```
+
     Typically, the preceding *.publishsettings file contains two publishing profiles that you can use in Visual Studio, one to deploy using Web Deploy, and one to deploy using FTP. The preceding code shows the Web Deploy profile. Both profiles will be imported later when you import the profile.
 
 ## Import the publish settings in Visual Studio and deploy

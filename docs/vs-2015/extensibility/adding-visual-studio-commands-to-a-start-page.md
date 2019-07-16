@@ -1,28 +1,23 @@
 ---
 title: "Adding Visual Studio Commands to a Start Page | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "start page commands"
   - "vs:VSCommands"
 ms.assetid: a8e2765c-cfb5-47b5-a414-6e48b434e0c2
 caps.latest.revision: 21
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Adding Visual Studio Commands to a Start Page
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 When you create a custom start page, you can add Visual Studio commands to it. This document discusses the different ways to bind Visual Studio commands to XAML objects on a start page.  
   
- For more information about commands in XAML, see [Commanding Overview](http://msdn.microsoft.com/library/bc208dfe-367d-426a-99de-52b7e7511e81)  
+ For more information about commands in XAML, see [Commanding Overview](https://msdn.microsoft.com/library/bc208dfe-367d-426a-99de-52b7e7511e81)  
   
 ## Adding Commands from the Command Well  
  The start page created in [Creating a Custom Start Page](../extensibility/creating-a-custom-start-page.md) added the <xref:Microsoft.VisualStudio.PlatformUI?displayProperty=fullName> and <xref:Microsoft.VisualStudio.Shell?displayProperty=fullName> namespaces, as follows.  
@@ -48,7 +43,7 @@ xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visua
 ```  
   
 > [!NOTE]
->  The `x:` alias, which refers to the XAML schema, is required at the beginning of all commands.  
+> The `x:` alias, which refers to the XAML schema, is required at the beginning of all commands.  
   
  You can set the value of the `Command` property to any command that can be accessed from the **Command** window. For a list of available commands, see [Visual Studio Command Aliases](../ide/reference/visual-studio-command-aliases.md).  
   
@@ -64,22 +59,22 @@ xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visua
  You can call commands from registered VSPackages by using the same syntax that is used to call other Visual Studio commands. For example, if an installed VSPackage adds a **Home Page** command to the **View** menu, you can call that command by setting `CommandParameter` to `View.HomePage`.  
   
 > [!NOTE]
->  If you call a command that is associated with a VSPackage, the package must be loaded when the command is invoked.  
+> If you call a command that is associated with a VSPackage, the package must be loaded when the command is invoked.  
   
 ## Adding Commands from Assemblies  
  To call a command from an assembly, or to access code in a VSPackage that is not associated with a menu command, you must create an alias for the assembly and then call the alias.  
   
 #### To call a command from an assembly  
   
-1.  In your solution, add a reference to the assembly.  
+1. In your solution, add a reference to the assembly.  
   
-2.  At the top of the StartPage.xaml file, add a namespace directive for the assembly, as shown in the following example.  
+2. At the top of the StartPage.xaml file, add a namespace directive for the assembly, as shown in the following example.  
   
     ```xml  
     xmlns:vsc="clr-namespace:WebUserControl;assembly=WebUserControl"  
     ```  
   
-3.  Invoke the command by setting the `Command` property of a XAML object, as shown in the following example.  
+3. Invoke the command by setting the `Command` property of a XAML object, as shown in the following example.  
   
      Xaml  
   
@@ -88,12 +83,12 @@ xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visua
     ```  
   
 > [!NOTE]
->  You must copy your assembly and then paste it in ..\\*Visual Studio installation folder*\Common7\IDE\PrivateAssemblies\ to make sure it is loaded before it is called.  
+> You must copy your assembly and then paste it in ..\\*Visual Studio installation folder*\Common7\IDE\PrivateAssemblies\ to make sure it is loaded before it is called.  
   
 ## Adding Commands with the DTE object  
  You can access the DTE object from a Start Page, both in markup and in code.  
   
- In markup, you can access it by using the [Binding Markup Extension](http://msdn.microsoft.com/library/83d6e2a4-1b0c-4fc8-bd96-b5e98800ab63) syntax to call the <xref:EnvDTE.DTE> object. You can use this approach to bind to simple properties such as those that return collections, but you cannot bind to methods or services. The following example shows a <xref:System.Windows.Controls.TextBlock> control that binds to the <xref:EnvDTE._DTE.Name%2A> property, and a <xref:System.Windows.Controls.ListBox> control that enumerates the <xref:EnvDTE.Window.Caption%2A> properties of the collection that is returned by the <xref:EnvDTE._DTE.Windows%2A> property.  
+ In markup, you can access it by using the [Binding Markup Extension](https://msdn.microsoft.com/library/83d6e2a4-1b0c-4fc8-bd96-b5e98800ab63) syntax to call the <xref:EnvDTE.DTE> object. You can use this approach to bind to simple properties such as those that return collections, but you cannot bind to methods or services. The following example shows a <xref:System.Windows.Controls.TextBlock> control that binds to the <xref:EnvDTE._DTE.Name%2A> property, and a <xref:System.Windows.Controls.ListBox> control that enumerates the <xref:EnvDTE.Window.Caption%2A> properties of the collection that is returned by the <xref:EnvDTE._DTE.Windows%2A> property.  
   
 ```xml  
 <TextBlock Text="{Binding Path=DTE.Name}" FontSize="12" HorizontalAlignment="Center"/>  
@@ -110,4 +105,3 @@ xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visua
   
 ## See Also  
  [Adding User Control to the Start Page](../extensibility/adding-user-control-to-the-start-page.md)
-

@@ -25,7 +25,7 @@ namespace UsageLibrary
       }
    }
 
-   [SerializableAttribute]
+   [Serializable]
    public class InputDevices1
    {
       // Violates MarkAllNonSerializableFields.
@@ -37,11 +37,11 @@ namespace UsageLibrary
       }
    }
 
-   [SerializableAttribute]
+   [Serializable]
    public class InputDevices2
    {
       // Satisfies MarkAllNonSerializableFields.
-      [NonSerializedAttribute]
+      [NonSerialized]
       Mouse opticalMouse;
 
       public InputDevices2()

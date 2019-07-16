@@ -1,53 +1,59 @@
 ---
-title: -Runexit (devenv.exe)
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
+title: -RunExit (devenv.exe)
+ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "runexit Devenv switch"
-  - "Devenv, /runexit switch"
-  - "/runexit Devenv switch"
+  - "RunExit Devenv switch"
+  - "Devenv, /RunExit switch"
+  - "/RunExit Devenv switch"
 ms.assetid: bfc94875-5fc0-4110-b961-d59c0b403790
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# /Runexit (devenv.exe)
+# /RunExit (devenv.exe)
+
 Compiles and runs the specified project or solution, and then closes the integrated development environment (IDE).
 
 ## Syntax
 
-```
-devenv /runexit {SolutionName|ProjectName}
+```shell
+devenv /RunExit {SolutionName|ProjectName} [/Out OutputFilename]
 ```
 
 ## Arguments
- `SolutionName`
 
- Required. The full path and name of a solution file.
+- *SolutionName*
 
- `ProjectName`
+  The full path and name of a solution file.
 
- Required. The full path and name of a project file.
+- *ProjectName*
+
+  The full path and name of a project file.
+
+- `/Out` *OutputFilename*
+
+  Optional. The name of a file that you want to send the tool's output to. If the file already exists, the tool appends the output to the end of the file.
 
 ## Remarks
- Compiles and runs the specified project or solution according to the settings specified for the active solution configuration. This switch minimizes the IDE while the project or solution is run, and it closes the IDE after the project or solution has completed running.
 
--   Enclose strings that include spaces in double quotation marks.
+Compiles and runs the specified project or solution according to the settings specified for the active solution configuration. This switch minimizes the IDE while the project or solution is run. It closes the IDE after the project or solution has completed running.
 
--   Summary information, including errors, can be displayed in the **Command** window, or in any log file specified with the `/out` switch.
+- Enclose strings that include spaces in double quotation marks.
+
+- Summary information, including errors, can be displayed in the **Command** window, or in any log file specified with the `/Out` switch.
 
 ## Example
- This example runs the solution `MySolution` in a minimized IDE using the active deployment configuration, and then closes the IDE.
+
+This example runs the solution `MySolution` in a minimized IDE using the active deployment configuration, and then closes the IDE.
 
 ```
-devenv /runexit "C:\Documents and Settings\someuser\My Documents\Visual Studio\Projects\MySolution\MySolution.sln"
+devenv /runexit "%USERPROFILE%\source\repos\MySolution\MySolution.sln"
 ```
 
-## See Also
+## See also
 
 - [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)
 - [/Run (devenv.exe)](../../ide/reference/run-devenv-exe.md)

@@ -1,14 +1,9 @@
 ---
 title: "Code Analysis Policy Errors | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codeanalysis.policyfailures"
 helpviewer_keywords: 
@@ -76,6 +71,3 @@ The following errors occur if the code analysis policy is not satisfied at check
   
 ## See Also  
  [Code Analysis Application Errors](../code-quality/code-analysis-application-errors.md)
-
-
-

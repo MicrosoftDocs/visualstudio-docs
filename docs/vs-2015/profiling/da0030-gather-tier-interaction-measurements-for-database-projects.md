@@ -1,14 +1,9 @@
 ---
 title: "DA0030: Gather Tier Interaction measurements for database projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.performance.DA0030"
   - "vs.performance.rules.DA0030"
@@ -17,7 +12,7 @@ ms.assetid: 42b2f69d-0cfa-4854-82c4-589c3d8b4557
 caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # DA0030: Gather Tier Interaction measurements for database projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,6 +37,3 @@ Rule Id|DA0030|
  This rule is for information only, and might not require corrective action.  
   
  For information about how to add tier interaction data to profiling data from the Visual Studio IDE, see [Collecting tier interaction data](../profiling/collecting-tier-interaction-data.md). For information about how to add tier interaction data from the command line, see [Collecting tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md).
-
-
-

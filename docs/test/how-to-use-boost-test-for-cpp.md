@@ -1,22 +1,21 @@
 ---
-title: "How to use Boost.Test for C++ in Visual Studio"
-ms.date: 01/29/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+title: "How to use Boost.Test for C++"
+description: Use Boost.Test to create unit tests in Visual Studio.
+ms.date: 05/06/2019
 ms.topic: conceptual
 author: mikeblome
 ms.author: mblome
-manager: douge
+manager: jillfra
 ms.workload:
   - "cplusplus"
 ---
 # How to use Boost.Test for C++ in Visual Studio
 
-In **Visual Studio 2017 version 15.5** and later, the Boost.Test test adapter is integrated into the Visual Studio IDE as a component of the **Desktop development with C++** workload.
+In Visual Studio 2017 and later, the Boost.Test test adapter is integrated into the Visual Studio IDE as a component of the **Desktop development with C++** workload.
 
 ![Test Adapter for Boost.Test](media/cpp-boost-component.png)
 
-If you don't have the **Desktop development with C++** workload installed, open **Visual Studio Installer** and select **Modify**. Select the **Desktop development with C++** workload, then choose the **Modify** button.
+If you don't have the **Desktop development with C++** workload installed, open **Visual Studio Installer**. Select the **Desktop development with C++** workload, then choose the **Modify** button.
 
 ## Install Boost
 
@@ -26,11 +25,11 @@ Boost.Test requires [Boost](http://www.boost.org/)! If you do not have Boost ins
 
 1. Install the Boost.Test dynamic or static library:
 
-	- Run **vcpkg install boost-test** to install the Boost.Test dynamic library.
+    - Run **vcpkg install boost-test** to install the Boost.Test dynamic library.
 
-	   -OR-
+       -OR-
 
-	- Run **vcpkg install boost-test:x86-windows-static** to install the Boost.Test static library.
+    - Run **vcpkg install boost-test:x86-windows-static** to install the Boost.Test static library.
 
 1. Run **vcpkg integrate install** to configure Visual Studio with the library and include paths to the Boost headers and binaries.
 
@@ -44,7 +43,7 @@ Boost.Test requires [Boost](http://www.boost.org/)! If you do not have Boost ins
 
 The item template uses the single-header variant of Boost.Test, but you can modify the #include path to use the standalone library variant. For more information, see [Add include directives](#add-include-directives).
 
-## Create a test project (Visual Studio 2017 version 15.5)
+## Create a test project
 
 In Visual Studio 2017 version 15.5, no pre-configured test project or item templates are available for Boost.Test. Therefore, you have to create and configure a console application project to hold your tests.
 
@@ -69,6 +68,7 @@ In Visual Studio 2017 version 15.5, no pre-configured test project or item templ
         <VcpkgEnabled>true</VcpkgEnabled>
     </PropertyGroup>
     ```
+
    c. Save and close the *\*.vcxproj* file, and then reload the project.
 
    d. To open the **Property Pages**, right-click on the project node and choose **Properties**.
@@ -109,12 +109,12 @@ The following example is sufficient for the test to be discoverable in **Test Ex
 
 BOOST_AUTO_TEST_CASE(my_boost_test)
 {
-	std::string expected_value = "Bill";
+    std::string expected_value = "Bill";
 
     // assume MyClass is defined in MyClass.h
     // and get_value() has public accessibility
     MyClass mc;
-	BOOST_CHECK(expected_value == mc.get_value());
+    BOOST_CHECK(expected_value == mc.get_value());
 }
 ```
 

@@ -1,14 +1,9 @@
 ---
 title: "Extended Design Guidelines Rules rule set for managed code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 ms.assetid: a338caf2-b75d-4f23-a0f9-3024fa0bceac
 caps.latest.revision: 12
 author: gewarren
@@ -199,6 +194,3 @@ The Microsoft Extended Design Guideline Rules rule set expands on the basic desi
 |[CA1725](../code-quality/ca1725-parameter-names-should-match-base-declaration.md)|Parameter names should match base declaration|  
 |[CA1726](../code-quality/ca1726-use-preferred-terms.md)|Use preferred terms|  
 |[CA2204](../code-quality/ca2204-literals-should-be-spelled-correctly.md)|Literals should be spelled correctly|
-
-
-

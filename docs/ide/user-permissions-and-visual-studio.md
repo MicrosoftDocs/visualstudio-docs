@@ -1,8 +1,6 @@
 ---
 title: Run as administrator
 ms.date: 06/05/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio, user permissions"
@@ -11,7 +9,7 @@ helpviewer_keywords:
   - "permissions"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -27,12 +25,12 @@ You can do nearly everything in the Visual Studio IDE as a normal user. You need
 |Area|Task|For more information|
 |----------|----------| - |
 |Installation|Install Visual Studio.|[Install Visual Studio](../install/install-visual-studio.md)|
-||Install, update, or remove local Help content.|[Install and manage local Help content](../ide/install-and-manage-local-content.md)|
+||Install, update, or remove local Help content.|[Install and manage local Help content](../help-viewer/install-manage-local-content.md)|
 |Toolbox|Add classic COM controls to **Toolbox**.|[Toolbox](../ide/reference/toolbox.md)|
-|Building|Use post-build events that register a component.|[Understand custom build steps and build events](/cpp/ide/understanding-custom-build-steps-and-build-events)|
+|Building|Use post-build events that register a component.|[Understand custom build steps and build events](/cpp/build/understanding-custom-build-steps-and-build-events)|
 ||Include a registration step when you build C++ projects.||
 |Debugging|Debug applications that run with elevated permissions.|[Debugger settings and preparation](../debugger/debugger-settings-and-preparation.md)|
-||Debug applications that a run under a different user account, such as ASP.NET websites.|[Debug ASP.NET and AJAX applications](../debugger/debugging-aspnet-and-ajax-applications.md)|
+||Debug applications that a run under a different user account, such as ASP.NET websites.|[Debug ASP.NET and AJAX applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)|
 ||Debug in Zone for XAML Browser Applications (XBAP).|[WPF host (PresentationHost.exe)](/dotnet/framework/wpf/app-development/wpf-host-presentationhost-exe)|
 ||Use the emulator to debug cloud service projects for Microsoft Azure.|[Debug a cloud service in Visual Studio](/azure/vs-azure-tools-debug-cloud-services-virtual-machines)|
 ||Configure a firewall for remote debugging.|[Remote debugging](../debugger/remote-debugging.md)|
@@ -46,11 +44,25 @@ If you need to run Visual Studio as an administrator, follow these steps to open
 > [!NOTE]
 > These instructions are for Windows 10. They are similar for other versions of Windows.
 
+::: moniker range="vs-2017"
+
 1. Open the **Start** menu, and scroll to Visual Studio 2017.
 
 1. From the right-click or context menu of **Visual Studio 2017**, select **More** > **Run as administrator**.
 
    When Visual Studio starts, **(Administrator)** appears after the product name in the title bar.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Open the **Start** menu, and scroll to Visual Studio 2019.
+
+1. From the right-click or context menu of **Visual Studio 2019**, select **More** > **Run as administrator**.
+
+   When Visual Studio starts, **(Administrator)** appears after the product name in the title bar.
+
+::: moniker-end
 
 You can also modify the application shortcut to always run with administrative permissions.
 

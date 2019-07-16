@@ -1,8 +1,18 @@
+- name: Python in Visual Studio
+  href: index.yml
 - name: Overview
-  href: overview-of-python-tools-for-visual-studio.md
-- name: Installation
-  href: installing-python-support-in-visual-studio.md
   items:
+    - name: Overview of Python support
+      href: overview-of-python-tools-for-visual-studio.md
+    - name: Tour the Visual Studio IDE
+      href: visual-studio-ide.md
+    - name: Data science and analytical applications workload
+      href: data-science-and-analytical-applications-workload.md
+- name: Installation
+# Auto-expanded node
+  items:
+  - name: Installation
+    href: installing-python-support-in-visual-studio.md
   - name: Install Python interpreters
     href: installing-python-interpreters.md
 - name: Quickstarts
@@ -12,6 +22,8 @@
     maintainContext: true
   - name: Create a project from a template
     href: quickstart-02-python-in-visual-studio-project-from-template.md
+  - name: Open and run Python code in a folder
+    href: quickstart-05-python-visual-studio-open-folder.md  
   - name: Create a project from existing code
     href: quickstart-01-python-in-visual-studio-project-from-existing-code.md
   - name: Create a project from a repository
@@ -66,8 +78,10 @@
 - name: Concepts
   items:
   - name: Python projects
-    href: managing-python-projects-in-visual-studio.md
+# Auto-expanded node
     items:
+    - name: Python projects
+      href: managing-python-projects-in-visual-studio.md
     - name: Web project templates
       href: python-web-application-project-templates.md
     - name: Django web project template
@@ -75,12 +89,14 @@
     - name: Azure cloud service template
       href: python-azure-cloud-service-project-template.md
   - name: Azure SDK for Python
-    href: azure-sdk-for-python.md
+    href: /python/azure/?view=azure-python
 - name: How-to guides
   items:
   - name: Manage Python environments
-    href: managing-python-environments-in-visual-studio.md
+# Auto-expanded node
     items:
+    - name: Manage Python environments
+      href: managing-python-environments-in-visual-studio.md
     - name: Select an interpreter for a project
       href: selecting-a-python-environment-for-a-project.md
     - name: Using requirements.txt for dependencies
@@ -92,8 +108,10 @@
     - name: Configure web apps for IIS
       href: configure-web-apps-for-iis-windows.md
   - name: Edit Python code
-    href: editing-python-code-in-visual-studio.md
+# Auto-expanded node
     items:
+    - name: Edit Python code
+      href: editing-python-code-in-visual-studio.md
     - name: Format code
       href: formatting-python-code.md
     - name: Refactor code
@@ -103,13 +121,17 @@
   - name: Define custom menu commands
     href: defining-custom-python-project-commands.md
   - name: Interactive Python (REPL)
-    href: python-interactive-repl-in-visual-studio.md
+# Auto-expanded node
     items:
+    - name: Interactive Python (REPL)
+      href: python-interactive-repl-in-visual-studio.md
     - name: Using IPython REPL
       href: interactive-repl-ipython.md
   - name: Debugging
-    href: debugging-python-in-visual-studio.md
+# Auto-expanded node
     items:
+    - name: Debugging
+      href: debugging-python-in-visual-studio.md
     - name: Debugging code on remote Linux computers
       href: debugging-python-code-on-remote-linux-machines.md
   - name: Publishing to Azure App Service on Linux

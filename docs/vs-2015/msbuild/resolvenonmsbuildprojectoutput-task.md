@@ -1,14 +1,9 @@
 ---
 title: "ResolveNonMSBuildProjectOutput Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,12 +16,11 @@ ms.assetid: a0b8fcec-8c8d-4867-85ac-5304c5108e5e
 caps.latest.revision: 7
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # ResolveNonMSBuildProjectOutput Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Determines the output files for non-MSBuild project references.  
   
 ## Parameters  
@@ -45,6 +39,3 @@ Determines the output files for non-MSBuild project references.
 ## See Also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

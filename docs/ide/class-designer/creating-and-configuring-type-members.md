@@ -1,8 +1,6 @@
 ---
 title: Creating and Configuring Type Members (Class Designer)
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.classdetails.method"
@@ -28,7 +26,7 @@ helpviewer_keywords:
 ms.assetid: 42af8738-3738-4ca7-82ff-edf573a68f96
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -82,43 +80,44 @@ You can create a member using any of the following tools:
 
 ### Create a member using Class Designer
 
-1.  Right-click the type to which you want to add a member, point to **Add**, and then choose the type of member you want to add.
+1. Right-click the type to which you want to add a member, point to **Add**, and then choose the type of member you want to add.
 
      A new member signature is created and added to the type. It is given a default name that you can change in **Class Designer**, the **Class Details** window, or in the **Properties** window.
 
-2.  Optionally, specify other details about the member, such as its type.
+2. Optionally, specify other details about the member, such as its type.
 
 ### Create a member using the Class Details window toolbar
 
-1.  On the diagram surface, select the type to which you want to add a member.
+1. On the diagram surface, select the type to which you want to add a member.
 
      The type obtains focus and its contents are displayed in the **Class Details** window.
 
-2.  In the **Class Details** window toolbar, click the top icon and select **New \<member>** from the drop-list.
+2. In the **Class Details** window toolbar, click the top icon and select **New \<member>** from the drop-list.
 
      The cursor moves to the **Name** field in a row for the kind of member you want to add. For example, if you clicked **New Property**, the cursor moves to a new row in the **Properties** section of the **Class Details** window.
 
-3.  Type the name of the member you want to create and press Enter (or otherwise move focus, such as by pressing Tab).
+3. Type the name of the member you want to create and press Enter (or otherwise move focus, such as by pressing Tab).
 
      A new member signature is created and added to the type. The member now exists in code and is displayed in **Class Designer**, the **Class Details** window, and the Properties window.
 
-4.  Optionally, specify other details about the member, such as its type.
+4. Optionally, specify other details about the member, such as its type.
 
 ### Create a member using the Class Details window
 
-1.  On the diagram surface, select the type to which you want to add a member.
+1. On the diagram surface, select the type to which you want to add a member.
 
      The type obtains focus and its contents are displayed in the **Class Details** window.
 
-2.  In the **Class Details** window, in the section that contains the kind of member you want to add, click **\<add member>**. For example, if you want to add a field, click **\<add field>**.
+2. In the **Class Details** window, in the section that contains the kind of member you want to add, click **\<add member>**. For example, if you want to add a field, click **\<add field>**.
 
-3.  Type the name of the member you want to create and press Enter.
+3. Type the name of the member you want to create and press Enter.
 
      A new member signature is created and added to the type. The member now exists in code and is displayed in the **Class Designer**, the **Class Details** window, and the Properties window.
 
-4.  Optionally, specify other details about the member, such as its type.
+4. Optionally, specify other details about the member, such as its type.
 
-     **Note:** You can also use keyboard shortcuts to create members. For more information, see [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details window](keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md).
+    > [!NOTE]
+    > You can also use keyboard shortcuts to create members. For more information, see [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details window](keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md).
 
 ## Modify type members
 
@@ -146,7 +145,7 @@ Each member row displays the following elements:
 
 - **Member Modifier**
 
-     Change the visibility modifier of a member to either `Public` (`public`), `Private` (`private`), `Friend` (`internal`) `Protected` (`protected`), `Protected``Friend` (`protected``internal`), or `Default`.
+     Change the visibility modifier of a member to either `Public` (`public`), `Private` (`private`), `Friend` (`internal`) `Protected` (`protected`), `Protected Friend` (`protected internal`), or `Default`.
 
 - **\<add member>**
 
@@ -166,11 +165,11 @@ Each member row displays the following elements:
 
 ### To modify a type member
 
-1.  Using Class Designer, select a type.
+1. Using Class Designer, select a type.
 
-2.  If the **Class Details** window is not displayed, click the **Class Details** window button on the Class Designer toolbar.
+2. If the **Class Details** window is not displayed, click the **Class Details** window button on the Class Designer toolbar.
 
-3.  Edit the values in the fields of the **Class Details** window grid. After each edit, press ENTER, or otherwise move focus away from the edited field, for example, by pressing TAB. Your edits reflect immediately in code.
+3. Edit the values in the fields of the **Class Details** window grid. After each edit, press ENTER, or otherwise move focus away from the edited field, for example, by pressing TAB. Your edits reflect immediately in code.
 
     > [!NOTE]
     > If you want to modify only the name of a member, you can do so by using in-place editing.
@@ -201,7 +200,7 @@ Parameter rows contain the following items:
 
 - **\<add parameter>**
 
-     The last parameter row of a member contains the text **<add parameter>** in the **Name** cell. Clicking this cell lets you create a new parameter. For more information, see [To add a parameter to a method](creating-and-configuring-type-members.md#add-parameters-to-methods).
+     The last parameter row of a member contains the text **<add parameter\>** in the **Name** cell. Clicking this cell lets you create a new parameter. For more information, see [To add a parameter to a method](creating-and-configuring-type-members.md#add-parameters-to-methods).
 
 The **Properties** window displays the same parameter properties displayed in the **Class Details** window: **Name**, **Type**, **Modifier**, **Summary**, as well as the **Optional Default** property. Changing a property in one location updates the value of the property globally, including the display of its value in the other location.
 
@@ -213,35 +212,35 @@ The **Properties** window displays the same parameter properties displayed in th
 
 ### To add a parameter to a method
 
-1.  On the diagram surface, click the type containing the method to which you want to add a parameter.
+1. On the diagram surface, click the type containing the method to which you want to add a parameter.
 
      The type obtains focus and its contents display in the **Class Details** window.
 
-2.  In the **Class Details** window, expand the row of the method to which you want to add a parameter.
+2. In the **Class Details** window, expand the row of the method to which you want to add a parameter.
 
      An indented parameter row appears, containing only a pair of parentheses and the words **\<add parameter>.**
 
-3.  Click **\<add parameter>**, type the name of the new parameter, and press **Enter**.
+3. Click **\<add parameter>**, type the name of the new parameter, and press **Enter**.
 
      The new parameter is added to the method and the method's code. It displays in the **Class Details** window and the Properties window.
 
-4.  Optionally, specify other details about the parameter, such as its type.
+4. Optionally, specify other details about the parameter, such as its type.
 
 ### To add an optional parameter to a method
 
-1.  On the diagram surface, click the type containing the method to which you want to add an optional parameter.
+1. On the diagram surface, click the type containing the method to which you want to add an optional parameter.
 
      The type obtains focus and its contents display in the **Class Details** window.
 
-2.  In the **Class Details** window, expand the row of the method to which you want to add an optional parameter.
+2. In the **Class Details** window, expand the row of the method to which you want to add an optional parameter.
 
      An indented parameter row appears, containing only a pair of parentheses and the words **\<add parameter>.**
 
-3.  Click **\<add parameter>**, type the name of the new parameter, and press **Enter**.
+3. Click **\<add parameter>**, type the name of the new parameter, and press **Enter**.
 
      The new parameter is added to the method and the method's code. It displays in the **Class Details** window and the Properties window.
 
-4.  In the Properties window, type a value for the **Optional Default** property. Setting a parameter's Optional Default property makes that parameter optional.
+4. In the Properties window, type a value for the **Optional Default** property. Setting a parameter's Optional Default property makes that parameter optional.
 
     > [!NOTE]
     > Optional parameters must be the last parameters in the parameter list.
@@ -304,7 +303,7 @@ If you try to save a project containing a type whose source-code file is read-on
 
 If a code file contains a syntax error, shapes displaying code in that file will be temporarily read-only until the syntax error is fixed. Shapes in this state display red text and a red icon which displays a tooltip reading "The source code file contains a parse error".
 
-A referenced type (such as a .NET Framework type), which exists under another project node or under a referenced-assembly node, is indicated on the Class Designer design surface as read-only. A local type, which exists in the project you have open, is read-write, and its shape on the Class Designer design surface is indicated as such.
+A referenced type (such as a .NET type), which exists under another project node or under a referenced-assembly node, is indicated on the Class Designer design surface as read-only. A local type, which exists in the project you have open, is read-write, and its shape on the Class Designer design surface is indicated as such.
 
 Indexers are read-write in code and the **Class Details** window, but the indexer name is read-only.
 
@@ -314,5 +313,5 @@ You cannot edit native C++ code by using the Class Designer or the **Class Detai
 
 ## See also
 
-- [Viewing types and relationships](viewing-types-and-relationships.md)
+- [Viewing types and relationships](designing-and-viewing-classes-and-types.md)
 - [Refactoring classes and types](refactoring-classes-and-types.md)

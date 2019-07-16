@@ -12,9 +12,7 @@ helpviewer_keywords:
 ms.assetid: 418249c8-c7f3-47ef-a94c-744cb6fe6aaf
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -34,13 +32,13 @@ The following example assumes a TableAdapter named `CustomersTableAdapter`is in 
 
 ### To create a partial class for a TableAdapter
 
-1.  Add a new class to your project by going to the **Project** menu and selecting **Add Class**.
+1. Add a new class to your project by going to the **Project** menu and selecting **Add Class**.
 
-2.  Name the class `CustomersTableAdapterExtended`.
+2. Name the class `CustomersTableAdapterExtended`.
 
-3.  Select **Add**.
+3. Select **Add**.
 
-4.  Replace the code with the correct namespace and partial class name for your project as follows:
+4. Replace the code with the correct namespace and partial class name for your project as follows:
 
      [!code-csharp[VbRaddataTableAdapters#2](../data-tools/codesnippet/CSharp/extend-the-functionality-of-a-tableadapter_1.cs)]
      [!code-vb[VbRaddataTableAdapters#2](../data-tools/codesnippet/VisualBasic/extend-the-functionality-of-a-tableadapter_1.vb)]

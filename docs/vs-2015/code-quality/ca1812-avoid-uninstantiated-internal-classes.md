@@ -1,14 +1,9 @@
 ---
 title: "CA1812: Avoid uninstantiated internal classes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1812"
   - "AvoidUninstantiatedInternalClasses"
@@ -58,9 +53,9 @@ manager: "wpickett"
 ## How to Fix Violations
  To fix a violation of this rule, remove the type or add the code that uses it. If the type contains only static methods, add one of the following to the type to prevent the compiler from emitting a default public instance constructor:
 
--   A private constructor for types that target [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] versions 1.0 and 1.1.
+- A private constructor for types that target [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] versions 1.0 and 1.1.
 
--   The `static` (`Shared` in Visual Basic) modifier for types that target [!INCLUDE[dnprdnlong](../includes/dnprdnlong-md.md)].
+- The `static` (`Shared` in Visual Basic) modifier for types that target [!INCLUDE[dnprdnlong](../includes/dnprdnlong-md.md)].
 
 ## When to Suppress Warnings
  It is safe to suppress a warning from this rule. We recommend that you suppress this warning in the following situations:
@@ -98,6 +93,3 @@ manager: "wpickett"
  [CA1801: Review unused parameters](../code-quality/ca1801-review-unused-parameters.md)
 
  [CA1804: Remove unused locals](../code-quality/ca1804-remove-unused-locals.md)
-
-
-

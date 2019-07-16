@@ -1,19 +1,14 @@
 ---
 title: "Help Viewer Administrator Guide | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-help-viewer
+ms.topic: conceptual
 ms.assetid: 4340c69f-b96b-4932-bb82-38b16a5ab149
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Help Viewer Administrator Guide
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,7 +45,7 @@ The Help Viewer allows you to manage local Help installations for network enviro
 - The default source for Help will still be Online.  
   
   > [!TIP]
-  >  You can change the default source for Help by modifying the HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\14.0\help\UseOnlineHelp registry key. For more information, see [Help Content Manager Overrides](../ide/help-content-manager-overrides.md).  
+  > You can change the default source for Help by modifying the HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\14.0\help\UseOnlineHelp registry key. For more information, see [Help Content Manager Overrides](../ide/help-content-manager-overrides.md).  
   
 - Clients will still be prompted to install the basic Help content on the first launch of Visual Studio. You can disable this prompt by modifying the HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\14.0\Help\DisableFirstRunHelpSelection registry key.  
   
@@ -59,13 +54,13 @@ The Help Viewer allows you to manage local Help installations for network enviro
   
 ##### To install English content from the Internet  
   
-1.  Choose **Start** and then choose **Run**.  
+1. Choose **Start** and then choose **Run**.  
   
-2.  Type the following:  
+2. Type the following:  
   
      C:\Program Files (x86)\Microsoft Help Viewer\v2.2\hlpctntmgr.exe /operation install /catalogname VisualStudio14 /locale en-us  
   
-3.  Press ENTER.  
+3. Press ENTER.  
   
 ## Deploying Pre-Installed Local Help Content on Client Computers  
  You can install a set of content from online to one computer, and then copy that installed set of content to other computers.  
@@ -77,7 +72,7 @@ The Help Viewer allows you to manage local Help installations for network enviro
 - Users must have administrator rights to update, add, or remove the local Help content after it has been installed.  
   
   > [!TIP]
-  >  If users do not have administrator rights, it is recommended that you disable the Manage Content tab in the Help Viewer. For more information, see [Help Content Manager Overrides](../ide/help-content-manager-overrides.md).  
+  > If users do not have administrator rights, it is recommended that you disable the Manage Content tab in the Help Viewer. For more information, see [Help Content Manager Overrides](../ide/help-content-manager-overrides.md).  
   
   Caveats:  
   
@@ -116,15 +111,15 @@ The Help Viewer allows you to manage local Help installations for network enviro
   
 ##### To package the content  
   
-1.  Create a folder to copy the content to for later deployment.  
+1. Create a folder to copy the content to for later deployment.  
   
      For example: c:\VS12Help.  
   
-2.  Open cmd.exe with Administrator permissions.  
+2. Open cmd.exe with Administrator permissions.  
   
-3.  Navigate to the folder you created in step 1.  
+3. Navigate to the folder you created in step 1.  
   
-4.  Type the following:  
+4. Type the following:  
   
      Xcopy %SYSTEMDRIVE%\ProgramData\Microsoft\HelpLibrary2 \<*foldername*>\ /y /e /k /o  
   
@@ -134,11 +129,11 @@ The Help Viewer allows you to manage local Help installations for network enviro
   
 ##### To deploy the content  
   
-1.  Create a network share and copy theee help content to that location.  
+1. Create a network share and copy theee help content to that location.  
   
      For example, copy the content in c:\VS12Help to \\\myserver\VS12Help.  
   
-2.  Create a .bat file to contain the deployment script for the help content. Since the client could possibly have a read lock on any of the files being deleted as part of the push, you should have the client shut down prior to pushing updates.  
+2. Create a .bat file to contain the deployment script for the help content. Since the client could possibly have a read lock on any of the files being deleted as part of the push, you should have the client shut down prior to pushing updates.  
   
      For example:  
   
@@ -198,11 +193,8 @@ The Help Viewer allows you to manage local Help installations for network enviro
     :CONTINUE  
     ```  
   
-3.  Run the bat file on the local machines that the Help content is to be installed onto.  
+3. Run the bat file on the local machines that the Help content is to be installed onto.  
   
 ## See Also  
  [Command-Line Arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md)   
  [Help Content Manager Overrides](../ide/help-content-manager-overrides.md)
-
-
-

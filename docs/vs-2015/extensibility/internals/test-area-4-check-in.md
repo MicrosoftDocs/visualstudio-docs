@@ -1,21 +1,16 @@
 ---
 title: "Test Area 4: Check In | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control [Visual Studio SDK], checking items in"
   - "source control plug-ins, checking items in"
 ms.assetid: d0329fa8-7a8d-4d30-b67b-6f2a97b75a30
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Test Area 4: Check In
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -34,11 +29,11 @@ This source-control plug-in test area covers sending updated items to the versio
   
 ## Common Expected Behavior  
   
--   Projects and files added to a solution or project under source control appear in the **Check In** dialog box and the **Pending Checkins** window.  
+- Projects and files added to a solution or project under source control appear in the **Check In** dialog box and the **Pending Checkins** window.  
   
--   After the check in, added items appear in source control.  
+- After the check in, added items appear in source control.  
   
--   After the check in, updated items are properly versioned in the store.  
+- After the check in, updated items are properly versioned in the store.  
   
 ## Test Cases  
  The following are specific test cases for the Checkin test area.  
@@ -69,4 +64,3 @@ This source-control plug-in test area covers sending updated items to the versio
   
 ## See Also  
  [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)
-

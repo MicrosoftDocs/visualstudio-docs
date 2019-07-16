@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Diagnostic Data Adapter in Visual Studio"
+title: "How to: Create a Diagnostic Data Adapter"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,9 +7,7 @@ helpviewer_keywords:
 ms.assetid: bd7ad36c-54cb-4d2a-9aea-9d10ad98d7ba
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Create a diagnostic data adapter
 
@@ -42,39 +40,27 @@ The following is a partial list of key events that you can use when you create y
 
 Use the following procedure to create diagnostic data adapter that collects a data file that is based on information that you configure when you create your test settings.
 
-For a complete example diagnostic data adapter project, including a custom configuration editor, see [Sample project for creating a diagnostic data adapter](../test/sample-project-for-creating-a-diagnostic-data-adapter.md).
+For a complete example diagnostic data adapter project, including a custom configuration editor, see [Sample project for creating a diagnostic data adapter](../test/quickstart-create-a-load-test-project.md).
 
-##  Create and install a diagnostic data adapter
+## Create and install a diagnostic data adapter
 
-### To create and install a diagnostic data adapter
-
-1. Create a new class library.
-
-   1.  On the **File** menu, choose **New**, and then point to **New Project**.
-
-   2.  From **Project types**, select the language to use.
-
-   3.  From **Visual Studio installed templates**, select **Class Library**.
-
-   4.  Type a name for your Diagnostic Data Adapter.
-
-   5.  Choose **OK**.
+1. Create a new **Class Library** project.
 
 2. Add the assembly **Microsoft.VisualStudio.QualityTools.ExecutionCommon**.
 
-   1.  In **Solution Explorer**, right-click **References** and choose the **Add Reference** command.
+   1. In **Solution Explorer**, right-click **References** and choose the **Add Reference** command.
 
-   2.  Choose **.NET** and locate **Microsoft.VisualStudio.QualityTools.ExecutionCommon.dll**.
+   2. Choose **.NET** and locate **Microsoft.VisualStudio.QualityTools.ExecutionCommon.dll**.
 
-   3.  Choose **OK**.
+   3. Choose **OK**.
 
 3. Add the assembly **Microsoft.VisualStudio.QualityTools.Common**.
 
-   1.  In **Solution Explorer**, right-click **References** and select the **Add Reference** command.
+   1. In **Solution Explorer**, right-click **References** and select the **Add Reference** command.
 
-   2.  Choose **/.NET**, locate **Microsoft.VisualStudio.QualityTools.Common.dll**.
+   2. Choose **/.NET**, locate **Microsoft.VisualStudio.QualityTools.Common.dll**.
 
-   3.  Choose **OK**.
+   3. Choose **OK**.
 
 4. Add the following `using` statements to your class file:
 
@@ -218,7 +204,7 @@ For a complete example diagnostic data adapter project, including a custom confi
 
      These files are attached to the test results. If you create a bug from these test results or when you use [!INCLUDE[mtrlong](../test/includes/mtrlong_md.md)], the files are also attached to the bug.
 
-     If you want to use your own editor to collect data to use in your test settings, see [How to: Create a custom editor for data for your diagnostic data adapter](../test/how-to-create-a-custom-editor-for-data-for-your-diagnostic-data-adapter.md).
+     If you want to use your own editor to collect data to use in your test settings, see [How to: Create a custom editor for data for your diagnostic data adapter](../test/quickstart-create-a-load-test-project.md).
 
 11. To collect a log file when a test finishes based on what the user configured in test settings, you must create an *App.config* file and add it to your solution. This file has the following format and must contain the URI for your diagnostic data adapter to identify it. Substitute real values for the "Company/ProductName/Version".
 
@@ -255,11 +241,11 @@ For a complete example diagnostic data adapter project, including a custom confi
 
      For more information about how to configure your test settings to use an environment when you run your tests, see [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts).
 
-     For more information about installing the configuration file, see [How to: Install a custom diagnostic data adapter](../test/how-to-install-a-custom-diagnostic-data-adapter.md)
+     For more information about installing the configuration file, see [How to: Install a custom diagnostic data adapter](../test/quickstart-create-a-load-test-project.md)
 
 12. Build your solution to create your diagnostic data adapter assembly.
 
-13. For information about installing your custom editor, see [How to: Install a custom diagnostic data adapter](../test/how-to-install-a-custom-diagnostic-data-adapter.md).
+13. For information about installing your custom editor, see [How to: Install a custom diagnostic data adapter](../test/quickstart-create-a-load-test-project.md).
 
 14. For more information about how to configure your test settings to use an environment when you run your tests, see [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts).
 
@@ -283,4 +269,4 @@ For a complete example diagnostic data adapter project, including a custom confi
 - [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md)
 - [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)
 - [Collect diagnostic data while testing (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data?view=vsts)
-- [How to: Create a custom editor for data for your diagnostic data adapter](../test/how-to-create-a-custom-editor-for-data-for-your-diagnostic-data-adapter.md)
+- [How to: Create a custom editor for data for your diagnostic data adapter](../test/quickstart-create-a-load-test-project.md)

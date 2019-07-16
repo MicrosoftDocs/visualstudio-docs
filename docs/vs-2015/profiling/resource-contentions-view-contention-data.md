@@ -1,14 +1,9 @@
 ---
 title: "Resource Contentions View - Contention Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.view.resourcecontention"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 14a7f774-211f-4ef8-af05-94d1c8f65d2f
 caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Resource Contentions View - Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,9 +27,9 @@ The Resource Contention view lists contention data for the resources that were t
 ### Function values  
  Function values are based on the instances of the function that occurred in the execution path represented in the call tree.  
   
--   Exclusive values are based on the events that occurred when the function was executing statements in its function body. Events that occurred in functions that were called by the function are not included in exclusive values.  
+- Exclusive values are based on the events that occurred when the function was executing statements in its function body. Events that occurred in functions that were called by the function are not included in exclusive values.  
   
--   Inclusive values are based on the events that occurred when the function or a function called by the function was executing.  
+- Inclusive values are based on the events that occurred when the function or a function called by the function was executing.  
   
 ### Percentage values  
  Percentage values are based on the total time or contention events in the profiling data. If the report or view of the profiling run is filtered, only the blocked time and contentions in the filtered data are used as the total value.  
@@ -59,6 +54,3 @@ The Resource Contention view lists contention data for the resources that were t
 |**Process ID**|The process ID (PID) of the process in which the function was executing.|  
 |**Process Name**|The name of the process.|  
 |**Source File**|The source file that contains the definition for this function.|
-
-
-

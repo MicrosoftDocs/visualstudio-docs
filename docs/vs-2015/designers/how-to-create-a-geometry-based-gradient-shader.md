@@ -1,19 +1,14 @@
 ---
 title: "How to: Create a Geometry-Based Gradient Shader | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 4b204405-ba95-4c5e-bd51-ec033a3ebfb6
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Create a Geometry-Based Gradient Shader
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,13 +17,13 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
   
  This document demonstrates these activities:  
   
--   Adding nodes to a shader graph  
+- Adding nodes to a shader graph  
   
--   Setting node properties  
+- Setting node properties  
   
--   Disconnecting nodes  
+- Disconnecting nodes  
   
--   Connecting nodes  
+- Connecting nodes  
   
 ## Creating a geometry-based gradient shader  
  You can implement a geometry-based shader by incorporating the position of the pixel into your shader. In shading languages, a pixel contains more information than just its color and location on a 2-D screen. A pixel—known as a *fragment* in some systems—is a collection of values that describe the surface that corresponds to a pixel. The shader that's described in this document utilizes the height of each pixel of a 3-D object in world space to affect the final output color of the fragment.  
@@ -58,7 +53,7 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
    The following illustration shows the completed shader graph and a preview of the shader applied to a sphere.  
   
 > [!NOTE]
->  In this illustration, an orange color is specified to better demonstrate the effect of the shader, but because the preview shape has no position in world-space, the shader cannot be fully previewed in the Shader Designer. The shader must be previewed in a real scene to demonstrate the full effect.  
+> In this illustration, an orange color is specified to better demonstrate the effect of the shader, but because the preview shape has no position in world-space, the shader cannot be fully previewed in the Shader Designer. The shader must be previewed in a real scene to demonstrate the full effect.  
   
  ![Shader graph and a preview of its effect](../designers/media/digit-gradient-effect-graph.png "Digit-Gradient-Effect-Graph")  
   
@@ -77,6 +72,3 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
  [How to: Create a Grayscale Texture Shader](../designers/how-to-create-a-grayscale-texture-shader.md)   
  [Shader Designer](../designers/shader-designer.md)   
  [Shader Designer Nodes](../designers/shader-designer-nodes.md)
-
-
-

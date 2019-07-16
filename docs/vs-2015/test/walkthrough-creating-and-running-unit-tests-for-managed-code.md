@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Creating and Running Unit Tests for Managed Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords: 
   - "unit tests, walkthrough"
   - "unit tests, creating"
@@ -18,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 2b018b18-b412-4e0e-b0ee-b580a2f3ba9c
 caps.latest.revision: 85
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Walkthrough: Creating and Running Unit Tests for Managed Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,16 +41,16 @@ This walkthrough will step you through creating, running, and customizing a seri
   [Use unit tests to improve your code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md#BKMK_Use_unit_tests_to_improve_your_code)  
   
 > [!NOTE]
->  This walkthrough uses the Microsoft unit test framework for managed code. Test Explorer also can run tests from third party unit test frameworks that have adapters for Test Explorer. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)  
+> This walkthrough uses the Microsoft unit test framework for managed code. Test Explorer also can run tests from third party unit test frameworks that have adapters for Test Explorer. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)  
   
 > [!NOTE]
->  For information about how to run tests from a command line, see [Walkthrough: using the command-line test utility](http://msdn.microsoft.com/library/52c11992-9e94-4067-a4b7-59f19d69d867).  
+> For information about how to run tests from a command line, see [Walkthrough: using the command-line test utility](https://msdn.microsoft.com/library/52c11992-9e94-4067-a4b7-59f19d69d867).  
   
 ## Prerequisites  
   
--   The Bank project. See [Sample Project for Creating Unit Tests](../test/sample-project-for-creating-unit-tests.md).  
+- The Bank project. See [Sample Project for Creating Unit Tests](../test/sample-project-for-creating-unit-tests.md).  
   
-##  <a name="BKMK_Prepare_the_walkthrough"></a> Prepare the walkthrough  
+## <a name="BKMK_Prepare_the_walkthrough"></a> Prepare the walkthrough  
   
 1. Open Visual Studio.  
   
@@ -70,12 +65,12 @@ This walkthrough will step you through creating, running, and customizing a seri
 5. In the **Name** box, type `Bank` and then click **OK**.  
   
    > [!NOTE]
-   >  If the name "Bank" is already used, choose another name for the project.  
+   > If the name "Bank" is already used, choose another name for the project.  
   
     The new Bank project is created and displayed in Solution Explorer with the Class1.cs file open in the Code Editor.  
   
    > [!NOTE]
-   >  If the Class1.cs file is not open in the Code Editor, double-click the file Class1.cs in Solution Explorer to open it.  
+   > If the Class1.cs file is not open in the Code Editor, double-click the file Class1.cs in Solution Explorer to open it.  
   
 6. Copy the source code from the [Sample Project for Creating Unit Tests](../test/sample-project-for-creating-unit-tests.md).  
   
@@ -106,28 +101,28 @@ public void Debit(double amount)
   
 ```  
   
-##  <a name="BKMK_Create_a_unit_test_project"></a> Create a unit test project  
+## <a name="BKMK_Create_a_unit_test_project"></a> Create a unit test project  
  **Prerequisite**: Follow the steps in the procedure, [Prepare the walkthrough](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md#BKMK_Prepare_the_walkthrough).  
   
 #### To create a unit test project  
   
-1.  On the **File** menu, choose **Add**, and then choose **New Project ...**.  
+1. On the **File** menu, choose **Add**, and then choose **New Project ...**.  
   
-2.  In the New Project dialog box, expand **Installed**, expand **Visual C#**, and then choose **Test**.  
+2. In the New Project dialog box, expand **Installed**, expand **Visual C#**, and then choose **Test**.  
   
-3.  From the list of templates, select **Unit Test Project**.  
+3. From the list of templates, select **Unit Test Project**.  
   
-4.  In the **Name** box, enter BankTest, and then choose **OK**.  
+4. In the **Name** box, enter BankTest, and then choose **OK**.  
   
      The **BankTests** project is added to the **Bank** solution.  
   
-5.  In the **BankTests** project, add a reference to the **Bank** solution.  
+5. In the **BankTests** project, add a reference to the **Bank** solution.  
   
      In Solution Explorer, select **References** in the **BankTests** project and then choose **Add Reference...** from the context menu.  
   
-6.  In the Reference Manager dialog box, expand **Solution** and then check the **Bank** item.  
+6. In the Reference Manager dialog box, expand **Solution** and then check the **Bank** item.  
   
-##  <a name="BKMK_Create_the_test_class"></a> Create the test class  
+## <a name="BKMK_Create_the_test_class"></a> Create the test class  
  We need a test class for verifying the `BankAccount` class. We can use the UnitTest1.cs that was generated by the project template, but we should give the file and class more descriptive names. We can do that in one step by renaming the file in Solution Explorer.  
   
  **Renaming a class file**  
@@ -162,7 +157,7 @@ namespace BankTests
 using BankAccountNS;  
 ```  
   
-###  <a name="BKMK_Test_class_requirements"></a> Test class requirements  
+### <a name="BKMK_Test_class_requirements"></a> Test class requirements  
  The minimum requirements for a test class are the following:  
   
 - The `[TestClass]` attribute is required in the Microsoft unit testing framework for managed code for any class that contains unit test methods that you want to run in Test Explorer.  
@@ -171,7 +166,7 @@ using BankAccountNS;
   
   You can have other classes in a unit test project that do not have the `[TestClass]` attribute, and you can have other methods in test classes that do not have the `[TestMethod]` attribute. You can use these other classes and methods in your test methods.  
   
-##  <a name="BKMK_Create_the_first_test_method"></a> Create the first test method  
+## <a name="BKMK_Create_the_first_test_method"></a> Create the first test method  
  In this procedure, we will write unit test methods to verify the behavior of the `Debit` method of the `BankAccount` class. The method is listed above.  
   
  By analyzing the method under test, we determine that there are at least three behaviors that need to be checked:  
@@ -212,28 +207,28 @@ using BankAccountNS;
   
    The method is rather simple. We set up a new `BankAccount` object with a beginning balance and then withdraw a valid amount. We use the Microsoft unit test framework for managed code <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A> method to verify that the ending balance is what we expect.  
   
-###  <a name="BKMK_Test_method_requirements"></a> Test method requirements  
+### <a name="BKMK_Test_method_requirements"></a> Test method requirements  
  A test method must meet the following requirements:  
   
--   The method must be decorated with the `[TestMethod]` attribute.  
+- The method must be decorated with the `[TestMethod]` attribute.  
   
--   The method must return `void`.  
+- The method must return `void`.  
   
--   The method cannot have parameters.  
+- The method cannot have parameters.  
   
-##  <a name="BKMK_Build_and_run_the_test"></a> Build and run the test  
+## <a name="BKMK_Build_and_run_the_test"></a> Build and run the test  
   
 #### To build and run the test  
   
-1.  On the **Build** menu, choose **Build Solution**.  
+1. On the **Build** menu, choose **Build Solution**.  
   
      If there are no errors, the UnitTestExplorer window appears with **Debit_WithValidAmount_UpdatesBalance** listed in the **Not Run Tests** group. If Test Explorer does not appear after a successful build, choose **Test** on the menu, then choose **Windows**, and then choose  **Test Explorer**.  
   
-2.  Choose **Run All** to run the test. As the test is running the status bar at the top of the window is animated. At the end of the test run, the bar turns green if all the test methods pass, or red if any of the tests fail.  
+2. Choose **Run All** to run the test. As the test is running the status bar at the top of the window is animated. At the end of the test run, the bar turns green if all the test methods pass, or red if any of the tests fail.  
   
-3.  In this case, the test does fail. The test method is moved to the **Failed Tests**. group. Select the method in Test Explorer to view the details at the bottom of the window.  
+3. In this case, the test does fail. The test method is moved to the **Failed Tests**. group. Select the method in Test Explorer to view the details at the bottom of the window.  
   
-##  <a name="BKMK_Fix_your_code_and_rerun_your_tests"></a> Fix your code and rerun your tests  
+## <a name="BKMK_Fix_your_code_and_rerun_your_tests"></a> Fix your code and rerun your tests  
  **Analyze the test results**  
   
  The test result contains a message that describes the failure. For the `AreEquals` method, message displays you what was expected (the (<strong>Expected\<*XXX*></strong>parameter) and what was actually received (the **Actual\<*YYY*>** parameter). We were expecting the balance to decline from the beginning balance, but instead it has increased by the amount of the withdrawal.  
@@ -258,7 +253,7 @@ m_balance -= amount;
   
  In Test Explorer, choose **Run All** to rerun the test. The red/green bar turns green, and the test is moved to the **Passed Tests** group.  
   
-##  <a name="BKMK_Use_unit_tests_to_improve_your_code"></a> Use unit tests to improve your code  
+## <a name="BKMK_Use_unit_tests_to_improve_your_code"></a> Use unit tests to improve your code  
  This section describes how an iterative process of analysis, unit test development, and refactoring can help you make your production code more robust and effective.  
   
  **Analyze the issues**  
@@ -417,6 +412,3 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
 ```  
   
  In this final section, the work that we did improving our test code led to more robust and informative test methods. But more importantly, the extra analysis also led to better code in our project under test.
-
-
-

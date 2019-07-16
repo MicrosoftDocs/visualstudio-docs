@@ -1,13 +1,12 @@
 ---
-title: Working with C++ and Python
+title: Write C++ extensions for Python
 description: A walkthrough of creating a C++ extension for Python using Visual Studio, CPython, and PyBind11, including mixed-mode debugging.
 ms.date: 11/19/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
-manager: douge
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
+ms.custom: seodec18
 ms.workload:
   - python
   - data-science
@@ -34,7 +33,7 @@ The completed sample from this walkthrough can be found on [python-samples-vs-cp
 
 ## Prerequisites
 
-- Visual Studio 2017 with both the **Desktop Development with C++** and **Python Development** workloads installed with default options.
+- Visual Studio 2017 or later with both the **Desktop Development with C++** and **Python Development** workloads installed with default options.
 - In the **Python Development** workload, also select the box on the right for **Python native development tools**. This option sets up most of the configuration described in this article. (This option also includes the C++ workload automatically.)
 
     ![Selecting the Python native development tools option](media/cpp-install-native.png)
@@ -103,7 +102,7 @@ Follow the instructions in this section to create two identical C++ projects nam
 1. Search on "C++", select **Empty project**, specify the name "superfastcode" ("superfastcode2" for the second project), and select **OK**.
 
     > [!Tip]
-    > With the **Python native development tools** installed in Visual Studio 2017, you can start with the **Python Extension Module** template instead, which has much of what's described below already in place. For this walkthrough, though, starting with an empty project demonstrates building the extension module step by step. Once you understand the process, the template saves you time when writing your own extensions.
+    > With the **Python native development tools** installed in Visual Studio, you can start with the **Python Extension Module** template instead, which has much of what's described below already in place. For this walkthrough, though, starting with an empty project demonstrates building the extension module step by step. Once you understand the process, the template saves you time when writing your own extensions.
 
 1. Create a C++ file in the new project by right-clicking the **Source Files** node, then select **Add** > **New Item**, select **C++ File**, name it `module.cpp`, and select **OK**.
 
@@ -122,7 +121,7 @@ Follow the instructions in this section to create two identical C++ projects nam
     | | **General** > **Target Extension** | **.pyd** |
     | | **Project Defaults** > **Configuration Type** | **Dynamic Library (.dll)** |
     | **C/C++** > **General** | **Additional Include Directories** | Add the Python *include* folder as appropriate for your installation, for example, `c:\Python36\include`.  |
-    | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | Add `Py_LIMITED_API;` to the beginning of the string (including the semicolon). This definition restricts some of the functions you can call from Python and makes the code more portable between different versions of Python. |
+    | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | **CPython only**: add `Py_LIMITED_API;` to the beginning of the string (including the semicolon). This definition restricts some of the functions you can call from Python and makes the code more portable between different versions of Python. If you're working with PyBind11, don't add this definition, otherwise you'll see build errors. |
     | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** (see Warning below) |
     | **Linker** > **General** | **Additional Library Directories** | Add the Python *libs* folder containing *.lib* files as appropriate for your installation, for example, `c:\Python36\libs`. (Be sure to point to the *libs* folder that contains *.lib* files, and *not* the *Lib* folder that contains *.py* files.) |
 
@@ -130,7 +129,7 @@ Follow the instructions in this section to create two identical C++ projects nam
     > If you don't see the C/C++ tab in the project properties, it's because the project doesn't contain any files that it identifies as C/C++ source files. This condition can occur if you create a source file without a *.c* or *.cpp* extension. For example, if you accidentally entered `module.coo` instead of `module.cpp` in the new item dialog earlier, then Visual Studio creates the file but doesn't set the file type to "C/C+ Code," which is what activates the C/C++ properties tab. Such misidentification remains the case even if you rename the file with `.cpp`. To set the file type properly, right-click the file in **Solution Explorer**, select **Properties**, then set  **File Type** to **C/C++ Code**.
 
     > [!Warning]
-    > Always set the **C/C++** > **Code Generation** > **Runtime Library** option to **Multi-threaded DLL (/MD)**, even for a debug configuration, because this setting is what the non-debug Python binaries are built with. If you happen to set the **Multi-threaded Debug DLL (/MDd)** option, building a **Debug** configuration produces error **C1189: Py_LIMITED_API is incompatible with Py_DEBUG, Py_TRACE_REFS, and Py_REF_DEBUG**. Furthermore, if you remove `Py_LIMITED_API` to avoid the build error, Python crashes when attempting to import the module. (The crash happens within the DLL's call to `PyModule_Create` as described later, with the output message of **Fatal Python error: PyThreadState_Get: no current thread**.)
+    > Always set the **C/C++** > **Code Generation** > **Runtime Library** option to **Multi-threaded DLL (/MD)**, even for a debug configuration, because this setting is what the non-debug Python binaries are built with. With CPython, if you happen to set the **Multi-threaded Debug DLL (/MDd)** option, building a **Debug** configuration produces error **C1189: Py_LIMITED_API is incompatible with Py_DEBUG, Py_TRACE_REFS, and Py_REF_DEBUG**. Furthermore, if you remove `Py_LIMITED_API` (which is required with CPython, but not PyBind11) to avoid the build error, Python crashes when attempting to import the module. (The crash happens within the DLL's call to `PyModule_Create` as described later, with the output message of **Fatal Python error: PyThreadState_Get: no current thread**.)
     >
     > The /MDd option is used to build the Python debug binaries (such as *python_d.exe*), but selecting it for an extension DLL still causes the build error with `Py_LIMITED_API`.
 
@@ -280,7 +279,7 @@ The first method works if the Python project and the C++ project are in the same
 
 The alternate method, described in the following steps, installs the module in the global Python environment, making it available to other Python projects as well. (Doing so typically requires that you refresh the IntelliSense completion database for that environment in Visual Studio 2017 version 15.5 and earlier. Refreshing is also necessary when removing the module from the environment.)
 
-1. If you're using Visual Studio 2017, run the Visual Studio installer, select **Modify**, select **Individual Components** > **Compilers, build tools, and runtimes** > **Visual C++ 2015.3 v140 toolset**. This step is necessary because Python (for Windows) is itself built with Visual Studio 2015 (version 14.0) and expects that those tools are available when building an extension through the method described here. (Note that you may need to install a 32-bit version of Python and target the DLL to Win32 and not x64.)
+1. If you're using Visual Studio 2017 or later, run the Visual Studio installer, select **Modify**, select **Individual Components** > **Compilers, build tools, and runtimes** > **Visual C++ 2015.3 v140 toolset**. This step is necessary because Python (for Windows) is itself built with Visual Studio 2015 (version 14.0) and expects that those tools are available when building an extension through the method described here. (Note that you may need to install a 32-bit version of Python and target the DLL to Win32 and not x64.)
 
 1. Create a file named *setup.py* in the C++ project by right-clicking the project and selecting **Add** > **New Item**. Then select **C++ File (.cpp)**, name the file `setup.py`, and select **OK** (naming the file with the *.py* extension makes Visual Studio recognize it as Python despite using the C++ file template). When the file appears in the editor, paste the following code into it as appropriate to the extension method:
 
@@ -318,7 +317,7 @@ The alternate method, described in the following steps, installs the module in t
 
     setup(
         name = 'superfastcode2',
-        version = '1.0',    
+        version = '1.0',
         description = 'Python package with superfastcode2 C++ extension (PyBind11)',
         ext_modules = [sfc_module],
     )
@@ -399,12 +398,12 @@ There are a variety of means to create Python extensions as described in the fol
 | --- | --- | --- | --- | --- |
 | C/C++ extension modules for CPython | 1991 | Standard Library | [Extensive documentation and tutorials](https://docs.python.org/3/c-api/). Total control. | Compilation, portability, reference management. High C knowledge. |
 | [PyBind11](https://github.com/pybind/pybind11) (Recommended for C++) | 2015 |  | Lightweight, header-only library for creating Python bindings of existing C++ code. Few dependencies. PyPy compatibility. | Newer, less mature. Heavy use of C++11 features. Short list of supported compilers (Visual Studio is included). |
-| Cython (Recommnded for C) | 2007 | [gevent](http://www.gevent.org/), [kivy](https://kivy.org/) | Python-like. Highly mature. High performance. | Compilation, new syntax, new toolchain. |
+| Cython (Recommended for C) | 2007 | [gevent](https://www.gevent.org/), [kivy](https://kivy.org/) | Python-like. Highly mature. High performance. | Compilation, new syntax, new toolchain. |
 | [Boost.Python](https://www.boost.org/doc/libs/1_66_0/libs/python/doc/html/index.html) | 2002 | | Works with just about every C++ compiler. | Large and complex suite of libraries; contains many workarounds for old compilers. |
 | ctypes | 2003 | [oscrypto](https://github.com/wbond/oscrypto) | No compilation, wide availability. | Accessing and mutating C structures cumbersome and error prone. |
 | SWIG | 1996 | [crfsuite](http://www.chokkan.org/software/crfsuite/) | Generate bindings for many languages at once. | Excessive overhead if Python is the only target. |
 | cffi | 2013 | [cryptography](https://cryptography.io/en/latest/), [pypy](https://pypy.org/) | Ease of integration, PyPy compatibility. | Newer, less mature. |
-| [cppyy](https://cppyy.readthedocs.io/en/latest/) | 2017 | | Similar to cffi using C++. | Newer, may have some issues with VS 2017. |  
+| [cppyy](https://cppyy.readthedocs.io/en/latest/) | 2017 | | Similar to cffi using C++. | Newer, may have some issues with VS 2017. |
 
 ## See also
 

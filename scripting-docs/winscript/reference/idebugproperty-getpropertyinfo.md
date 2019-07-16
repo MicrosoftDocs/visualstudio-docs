@@ -2,7 +2,6 @@
 title: "IDebugProperty::GetPropertyInfo | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Gets the value of an `IDebugProperty` that describes a method or an indexed prop
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetPropertyInfo (  
    DBGPROP_INFO_FLAGSdwFields,  
    UINT nRadix,  

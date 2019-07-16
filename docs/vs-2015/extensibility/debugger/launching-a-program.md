@@ -1,21 +1,16 @@
 ---
 title: "Launching a Program | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debug engines, launching"
   - "programs, launching"
 ms.assetid: 6857e9c6-e44a-468a-afa4-f7c4a0b77844
 caps.latest.revision: 22
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Launching a Program
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -31,12 +26,12 @@ Users who want to debug a program can press F5 to run the debugger from the IDE.
     If a DE is not specified, the port calls the operating system to launch the program, which causes the program's run-time environment to be loaded.  
   
    > [!NOTE]
-   >  If a DE is used to launch a program, it is likely that the same DE will be attached to the program.  
+   > If a DE is used to launch a program, it is likely that the same DE will be attached to the program.  
   
 3. Depending on whether the DE or the port launched the program, the DE or the run-time environment then creates a program description, or node, and notifies the port that the program is running.  
   
    > [!NOTE]
-   >  It is recommended that the run-time environment create the program node, because the program node is a lightweight representation of a program that can be debugged. There is no need to load up an entire DE just to create and register a program node. If the DE is designed to run in the process of the IDE, but no IDE is actually running, there needs to be a component that can add a program node to the port.  
+   > It is recommended that the run-time environment create the program node, because the program node is a lightweight representation of a program that can be debugged. There is no need to load up an entire DE just to create and register a program node. If the DE is designed to run in the process of the IDE, but no IDE is actually running, there needs to be a component that can add a program node to the port.  
   
    The newly created program, along with any other programs, related or unrelated, launched or attached to from the same IDE, compose a debug session.  
   
@@ -60,4 +55,3 @@ Users who want to debug a program can press F5 to run the debugger from the IDE.
 ## Related Sections  
  [Debugging Tasks](../../extensibility/debugger/debugging-tasks.md)  
  Contains links to various debugging tasks, such as launching a program and evaluating expressions.
-

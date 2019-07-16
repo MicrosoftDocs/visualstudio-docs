@@ -1,14 +1,9 @@
 ---
 title: "How to: Configure the ClickOnce Trust Prompt Behavior | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -23,7 +18,7 @@ ms.assetid: cc04fa75-012b-47c9-9347-f4216be23cf2
 caps.latest.revision: 13
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Configure the ClickOnce Trust Prompt Behavior
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,19 +50,19 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
   
 #### To enable the ClickOnce trust prompt by using the registry editor  
   
-1.  Open the registry editor:  
+1. Open the registry editor:  
   
-    1.  Click **Start**, and then click **Run**.  
+    1. Click **Start**, and then click **Run**.  
   
-    2.  In the **Open** box, type `regedit32`, and then click **OK**.  
+    2. In the **Open** box, type `regedit` (or `regedit32` on 32-bit Windows), and then click **OK**.  
   
-2.  Find the following registry key:  
+2. Find the following registry key:  
   
      \HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel  
   
      If the key does not exist, create it.  
   
-3.  Add the following subkeys as **String Value**, if they do not already exist, with the associated values shown in the following table.  
+3. Add the following subkeys as **String Value**, if they do not already exist, with the associated values shown in the following table.  
   
     |String Value subkey|Value|  
     |-------------------------|-----------|  
@@ -81,9 +76,9 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
   
 #### To enable the ClickOnce trust prompt programmatically  
   
-1.  Create a Visual Basic or Visual C# console application in Visual Studio.  
+1. Create a Visual Basic or Visual C# console application in Visual Studio.  
   
-2.  Open the Program.vb or Program.cs file for editing and add the following code.  
+2. Open the Program.vb or Program.cs file for editing and add the following code.  
   
     ```vb  
     Dim key As Microsoft.Win32.RegistryKey  
@@ -107,26 +102,26 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
     key.Close();  
     ```  
   
-3.  Build and run the application.  
+3. Build and run the application.  
   
 ## Restricting the ClickOnce Trust Prompt  
  Restrict the trust prompt so that solutions must be signed with Authenticode certificates that have known identity before users are prompted for a trust decision.  
   
 #### To restrict the ClickOnce trust prompt by using the registry editor  
   
-1.  Open the registry editor:  
+1. Open the registry editor:  
   
-    1.  Click **Start**, and then click **Run**.  
+    1. Click **Start**, and then click **Run**.  
   
-    2.  In the **Open** box, type `regedit`, and then click **OK**.  
+    2. In the **Open** box, type `regedit` (or `regedit32` on 32-bit Windows), and then click **OK**.  
   
-2.  Find the following registry key:  
+2. Find the following registry key:  
   
      \HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel  
   
      If the key does not exist, create it.  
   
-3.  Add the following subkeys as **String Value**, if they do not already exist, with the associated values shown in the following table.  
+3. Add the following subkeys as **String Value**, if they do not already exist, with the associated values shown in the following table.  
   
     |String Value subkey|Value|  
     |-------------------------|-----------|  
@@ -138,9 +133,9 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
   
 #### To restrict the ClickOnce trust prompt programmatically  
   
-1.  Create a Visual Basic or Visual C# console application in Visual Studio.  
+1. Create a Visual Basic or Visual C# console application in Visual Studio.  
   
-2.  Open the Program.vb or Program.cs file for editing and add the following code.  
+2. Open the Program.vb or Program.cs file for editing and add the following code.  
   
     ```vb  
     Dim key As Microsoft.Win32.RegistryKey  
@@ -164,26 +159,26 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
     key.Close();  
     ```  
   
-3.  Build and run the application.  
+3. Build and run the application.  
   
 ## Disabling the ClickOnce Trust Prompt  
  You can disable the trust prompt so that end users are not given the option to install solutions that are not already trusted in their security policy.  
   
 #### To disable the ClickOnce trust prompt by using the registry editor  
   
-1.  Open the registry editor:  
+1. Open the registry editor:  
   
-    1.  Click **Start**, and then click **Run**.  
+    1. Click **Start**, and then click **Run**.  
   
-    2.  In the **Open** box, type `regedit`, and then click **OK**.  
+    2. In the **Open** box, type `regedit` (or `regedit32` on 32-bit Windows), and then click **OK**.  
   
-2.  Find the following registry key:  
+2. Find the following registry key:  
   
      \HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel  
   
      If the key does not exist, create it.  
   
-3.  Add the following subkeys as **String Value**, if they do not already exist, with the associated values shown in the following table.  
+3. Add the following subkeys as **String Value**, if they do not already exist, with the associated values shown in the following table.  
   
     |String Value subkey|Value|  
     |-------------------------|-----------|  
@@ -195,9 +190,9 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
   
 #### To disable the ClickOnce trust prompt programmatically  
   
-1.  Create a Visual Basic or Visual C# console application in Visual Studio.  
+1. Create a Visual Basic or Visual C# console application in Visual Studio.  
   
-2.  Open the Program.vb or Program.cs file for editing and add the following code.  
+2. Open the Program.vb or Program.cs file for editing and add the following code.  
   
     ```vb  
     Dim key As Microsoft.Win32.RegistryKey  
@@ -222,7 +217,7 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
   
     ```  
   
-3.  Build and run the application.  
+3. Build and run the application.  
   
 ## See Also  
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
@@ -235,6 +230,3 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
  [How to: Debug a ClickOnce Application with Restricted Permissions](../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)   
  [How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md)   
  [How to: Re-sign Application and Deployment Manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)
-
-
-

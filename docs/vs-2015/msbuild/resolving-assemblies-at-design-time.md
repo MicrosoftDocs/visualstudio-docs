@@ -1,26 +1,20 @@
 ---
 title: "Resolving Assemblies at Design Time | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "msbuild"
 ms.assetid: 20dae076-733e-49c1-a2e9-b336757ae21d
 caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Resolving Assemblies at Design Time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you add a reference to an assembly through the .NET tab of the Add Reference dialog, the reference points to an intermediate reference assembly, that is, an assembly that contains all the type and signature information, but that does not necessarily contain any code. The .NET tab lists reference assemblies that correspond to runtime assemblies in the .NET Framework. In addition, it lists reference assemblies that correspond to runtime assemblies in the registered AssemblyFoldersEx folders used by third parties.  
   
 ## Multi-Targeting  
@@ -41,6 +35,3 @@ When you add a reference to an assembly through the .NET tab of the Add Referenc
   
 ## See Also  
  [Advanced Concepts](../msbuild/msbuild-advanced-concepts.md)
-
-
-

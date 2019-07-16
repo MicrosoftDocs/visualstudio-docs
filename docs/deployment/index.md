@@ -1,17 +1,18 @@
 ---
 layout: LandingPage
-title: Deploying your Apps in Visual Studio | Microsoft Docs
-description: Learn how use Visual Studio 2017 to deploy applications, services, and components.
+title: Deploy your apps | Microsoft Docs
+description: Learn how use Visual Studio to deploy applications, services, and components.
+ms.custom: "seodec18"
 ms.topic: landing-page
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-deployment
 ms.author: "mikejo"
 author: "mikejo5000"
-manager: douge
+manager: jillfra
 ---
 # Deployment in Visual Studio
 
 Visual Studio provides several different tools to help you deploy your apps.
+
+<!-- markdownlint-disable MD033 -->
 
 <h2>Experience Visual Studio deployment with 5-minute Quickstarts</h2>
 
@@ -77,7 +78,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="Deploy to Azure App Service">
+                            <img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="Deploy to Azure App Service">
                         </div>
                     </div>
                     <div class="cardText">
@@ -95,7 +96,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="Deploy to Azure App Service">
+                            <img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="Deploy to Azure App Service">
                         </div>
                     </div>
                     <div class="cardText">
@@ -118,7 +119,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_net.svg" alt="Deploy ASP.NET to Azure">
+                            <img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="Deploy ASP.NET to Azure">
                         </div>
                     </div>
                     <div class="cardText">
@@ -154,7 +155,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_net.svg" alt="Deploy a .NET core app">
+                            <img src="https://docs.microsoft.com/media/logos/logo_NETcore.svg" alt="Deploy a .NET core app">
                         </div>
                     </div>
                     <div class="cardText">
@@ -190,7 +191,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_net.svg" alt="Import publish settings and deploy to Azure App Service">
+                            <img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="Import publish settings and deploy to Azure App Service">
                         </div>
                     </div>
                     <div class="cardText">
@@ -248,7 +249,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Deploy a desktop app using ClickOnce</h3>
+                        <h3>Deploy a desktop app using ClickOnce (C#)</h3>
                     </div>
                 </div>
             </div>
@@ -256,17 +257,35 @@ Visual Studio provides several different tools to help you deploy your apps.
         </a>
     </li>
     <li>
-        <a href="/cpp/ide/deployment-in-visual-cpp">
+        <a href="/cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_learn-about.svg" alt="Learn about deployment in Visual C++">
+                            <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="Learn about deployment in Visual C++">
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Learn about deployment in Visual C++</h3>
+                        <h3>Deploy a C/C++ app</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/cpp/windows/clickonce-deployment-for-visual-cpp-applications">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="Learn about deployment in Visual C++">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Deploy a C++/CLR app</h3>
                     </div>
                 </div>
             </div>

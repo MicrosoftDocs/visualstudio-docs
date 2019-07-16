@@ -1,11 +1,8 @@
 ---
 title: "How to: Set Breakpoints in Workflows (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 helpviewer_keywords: 
   - "breakpoints, setting in workflows"
@@ -16,7 +13,7 @@ ms.assetid: 78e0be39-3e99-487c-bfef-19db0daf6f42
 caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # How to: Set Breakpoints in Workflows (Legacy)
 This topic describes how to set breakpoints in [!INCLUDE[wf](../includes/wf-md.md)] applications build using the legacy [!INCLUDE[wfd1](../includes/wfd1-md.md)]. Use the legacy [!INCLUDE[wfd2](../includes/wfd2-md.md)] when your [!INCLUDE[wf2](../includes/wf2-md.md)] application needs to target either the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)].  
@@ -27,37 +24,37 @@ This topic describes how to set breakpoints in [!INCLUDE[wf](../includes/wf-md.m
   
  You can set breakpoints on an activity on the workflow design surface in the following ways:  
   
--   Right-click the activity and select **Breakpoint \ Insert Breakpoint**.  
+- Right-click the activity and select **Breakpoint \ Insert Breakpoint**.  
   
--   Select the activity and press F9.  
+- Select the activity and press F9.  
   
--   Select **New Breakpoint** from the **Debug** menu.  
+- Select **New Breakpoint** from the **Debug** menu.  
   
      You can also use this option to set a new breakpoint while debugging, when the debugger stops at a breakpoint.  
   
     > [!NOTE]
-    >  Setting breakpoints on invoked workflows is not supported.  
+    > Setting breakpoints on invoked workflows is not supported.  
   
 ### To set a breakpoint using the New Breakpoint option on the Debug menu  
   
-1.  On the **Debug** menu, select **New Breakpoint**.  
+1. On the **Debug** menu, select **New Breakpoint**.  
   
-2.  Click **Break at Function**.  
+2. Click **Break at Function**.  
   
      The **New Breakpoint** dialog box opens.  
   
-3.  Specify the name of an activity in the **Function** text box using this syntax: `QualifiedActivityId[:[FullClassName][:InstanceId]]`.  
+3. Specify the name of an activity in the **Function** text box using this syntax: `QualifiedActivityId[:[FullClassName][:InstanceId]]`.  
   
     > [!NOTE]
-    >  Optionally, instead of using the activity name in the **Function** text box, you can set a breakpoint by specifying the absolute path of the workflow activity. For example, suppose you have a workflow solution named **WorkflowConsoleApplication1** and a workflow in the solution named **Workflow1** that uses an activity called **Delay1**. You can use the activity name **Delay1** or specify the path as **Delay1:WorkflowConsoleApplication1.Workflow1** or **Delay1:WorkflowConsoleApplication1.Workflow1:{6614886A-608E-412B-BF98-99FF1559DDDF}**.  
+    > Optionally, instead of using the activity name in the **Function** text box, you can set a breakpoint by specifying the absolute path of the workflow activity. For example, suppose you have a workflow solution named **WorkflowConsoleApplication1** and a workflow in the solution named **Workflow1** that uses an activity called **Delay1**. You can use the activity name **Delay1** or specify the path as **Delay1:WorkflowConsoleApplication1.Workflow1** or **Delay1:WorkflowConsoleApplication1.Workflow1:{6614886A-608E-412B-BF98-99FF1559DDDF}**.  
   
-4.  Select the **Use IntelliSense** check box to verify the function name.  
+4. Select the **Use IntelliSense** check box to verify the function name.  
   
      If this check box is not selected, no breakpoint name verification is performed.  
   
-5.  Select **Workflow** from the **Language** list.  
+5. Select **Workflow** from the **Language** list.  
   
-6.  Click **OK**.  
+6. Click **OK**.  
   
 ## See Also  
  [Debugging Legacy Workflows](../workflow-designer/debugging-legacy-workflows.md)   

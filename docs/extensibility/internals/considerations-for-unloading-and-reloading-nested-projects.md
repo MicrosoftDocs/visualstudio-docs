@@ -1,17 +1,14 @@
 ---
 title: "Considerations for Unloading and Reloading Nested Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "nested projects, unloading and reloading"
   - "projects [Visual Studio SDK], unloading and reloading nested"
 ms.assetid: 06c3427e-c874-45b1-b9af-f68610ed016c
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
+author: madskristensen
+ms.author: madsk
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---

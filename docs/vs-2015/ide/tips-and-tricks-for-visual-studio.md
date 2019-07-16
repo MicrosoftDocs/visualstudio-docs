@@ -1,19 +1,14 @@
 ---
-title: "Tips and Tricks for Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: "Tips and Tricks | Microsoft Docs"
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 20489db9-7441-4f8b-97de-c72070d569b1
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Tips and Tricks for Visual Studio
 
@@ -21,23 +16,23 @@ manager: "ghogen"
 
 You can navigate in Visual Studio more easily by using the shortcuts in this topic. For more general information, see [Keyboard Shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md). For information about how to optimize Visual Studio for accessibility, see [Accessibility Tips and Tricks](../ide/reference/accessibility-tips-and-tricks.md).
 
--   [Window Management](../ide/tips-and-tricks-for-visual-studio.md#BKMK_WindowMgmt)
+- [Window Management](../ide/tips-and-tricks-for-visual-studio.md#BKMK_WindowMgmt)
 
--   [Window Shortcuts](../ide/tips-and-tricks-for-visual-studio.md#BKMK_WindowShortcuts)
+- [Window Shortcuts](../ide/tips-and-tricks-for-visual-studio.md#BKMK_WindowShortcuts)
 
--   [Visual Studio Search](../ide/tips-and-tricks-for-visual-studio.md#BKMK_Search)
+- [Visual Studio Search](../ide/tips-and-tricks-for-visual-studio.md#BKMK_Search)
 
--   [Editor Find](../ide/tips-and-tricks-for-visual-studio.md#BKMK_EditorFind)
+- [Editor Find](../ide/tips-and-tricks-for-visual-studio.md#BKMK_EditorFind)
 
--   [Code Editor](../ide/tips-and-tricks-for-visual-studio.md#BKMK_CodeEditor)
+- [Code Editor](../ide/tips-and-tricks-for-visual-studio.md#BKMK_CodeEditor)
 
--   [Toolbars](../ide/tips-and-tricks-for-visual-studio.md#BKMK_Toolbars)
+- [Toolbars](../ide/tips-and-tricks-for-visual-studio.md#BKMK_Toolbars)
 
--   [Debugging](../ide/tips-and-tricks-for-visual-studio.md#BKMK_Debugging)
+- [Debugging](../ide/tips-and-tricks-for-visual-studio.md#BKMK_Debugging)
 
--   [Application Lifecycle Management](../ide/tips-and-tricks-for-visual-studio.md#BKMK_ALM)
+- [Application Lifecycle Management](../ide/tips-and-tricks-for-visual-studio.md#BKMK_ALM)
 
-##  <a name="BKMK_WindowMgmt"></a> Window Management
+## <a name="BKMK_WindowMgmt"></a> Window Management
 
 |||
 |-|-|
@@ -48,7 +43,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 |Show Open File List|Ctrl+Alt+Down|
 |Show All Floating Windows|Ctrl+Shift+M|
 
-##  <a name="BKMK_WindowShortcuts"></a> Window Shortcuts
+## <a name="BKMK_WindowShortcuts"></a> Window Shortcuts
 
 |||
 |-|-|
@@ -58,7 +53,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 |Start New Instance|Win+Shift+n|
 |Switch Between Windows|Win+n|
 
-##  <a name="BKMK_Search"></a> Visual Studio Search
+## <a name="BKMK_Search"></a> Visual Studio Search
 
 |||
 |-|-|
@@ -68,7 +63,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 |Quick Launch Scope Results|-   @opt Options<br />-   @cmd Commands<br />-   @mru Most recently used<br />-   @doc Open documents|
 |Search in Tools Options|Ctrl+E|
 
-##  <a name="BKMK_EditorFind"></a> Editor Find
+## <a name="BKMK_EditorFind"></a> Editor Find
 
 |||
 |-|-|
@@ -83,7 +78,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 |Find in Files|Ctrl+Shift+F|
 |Replace in Files|Ctrl+Shift+H|
 
-##  <a name="BKMK_CodeEditor"></a> Code Editor
+## <a name="BKMK_CodeEditor"></a> Code Editor
 
 |||
 |-|-|
@@ -108,7 +103,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 |Navigate between multiple Peek results|F8 and Shift+F8|
 |Toggle between the code editor window and the Peek Definition window|Shift+Esc|
 
-##  <a name="BKMK_Toolbars"></a> Toolbars
+## <a name="BKMK_Toolbars"></a> Toolbars
 
 |||
 |-|-|
@@ -117,7 +112,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 |Find Textbox Command Mode|Type “>”|
 |Create new alias|>alias NewAlias Command|
 
-##  <a name="BKMK_Debugging"></a> Debugging
+## <a name="BKMK_Debugging"></a> Debugging
 
 |||
 |-|-|
@@ -136,7 +131,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 |Immediate Window Clear Buffer|>cls|
 |Immediate Window Print Value|?varname|
 
-##  <a name="BKMK_ALM"></a> Application Lifecycle Management
+## <a name="BKMK_ALM"></a> Application Lifecycle Management
 
 See [Keyboard shortcuts: Visual Studio Online, TFS web portal, and Team Explorer](/azure/devops/project/navigation/keyboard-shortcuts?view=vsts).
 

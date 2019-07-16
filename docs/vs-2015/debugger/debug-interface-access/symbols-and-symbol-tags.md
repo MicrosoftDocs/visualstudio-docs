@@ -1,14 +1,9 @@
 ---
 title: "Symbols and Symbol Tags | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 2ee3a262-cda6-48bf-b799-a37edde6c8b8
 caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Symbols and Symbol Tags
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,6 +35,3 @@ Debug information about a compiled program is stored in the program database (.p
   
 ## See Also  
  [Debug Interface Access SDK](../../debugger/debug-interface-access/debug-interface-access-sdk.md)
-
-
-

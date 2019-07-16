@@ -1,5 +1,5 @@
 ---
-title: "Add a data source to a web performance test in Visual Studio"
+title: "Add a data source to a web performance test"
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -8,9 +8,7 @@ helpviewer_keywords:
 ms.assetid: 2ada376d-f168-455d-9643-6acb535360c1
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Add a data source to a web performance test
 
@@ -30,7 +28,9 @@ Your solution should also include a web performance test that browses through th
 
 ## Create a SQL database
 
-1. If you don’t have Visual Studio Enterprise, you can download it from the [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page.
+::: moniker range="vs-2017"
+
+1. If you don’t have Visual Studio Enterprise, you can download it from the [Visual Studio Downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page.
 
 2. Create a SQL database.
 
@@ -55,6 +55,38 @@ Your solution should also include a web performance test that browses through th
 7. Add data to the fields.
 
      ![Add data to the fields](../test/media/web_test_databinding_sql_addnewfieldsadddata.png)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. If you don’t have Visual Studio Enterprise, you can download it from the [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page.
+
+2. Create a SQL database.
+
+     ![Add a new SQL database](../test/media/web_test_databinding_sql_addnewdb.png)
+
+3. Create a database project.
+
+     ![Create new project from database](../test/media/web_test_databinding_sql_addnewdbproject.png)
+
+4. Add a table to the database project.
+
+     ![Add a new table to the database project](../test/media/web_test_databinding_sql_addnewdbtablename.png)
+
+5. Add fields to the table.
+
+     ![Add fields to the table](../test/media/web_test_databinding_sql_addnewdbaddfields.png)
+
+6. Publish the database project.
+
+     ![Publish database project from Solution Explorer](../test/media/web_test_databinding_sql_addnewdbpublish.png)
+
+7. Add data to the fields.
+
+     ![Add data to the fields](../test/media/web_test_databinding_sql_addnewfieldsadddata.png)
+
+::: moniker-end
 
 ## Add the data source
 

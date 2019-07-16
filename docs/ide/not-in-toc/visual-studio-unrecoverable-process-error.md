@@ -7,15 +7,13 @@ helpviewer_keywords:
   - "error, process"
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Visual Studio unrecoverable process error
 
-Visual Studio 2017 uses several out-of-proc processes to run required background tasks, such as live unit testing, code analyzers, and more. These processes are run out-of-proc to give Visual Studio performance advantages, such as enabling Visual Studio to respond faster when running long, resource-intensive jobs. Also, because Visual Studio is a 32-bit process, running processes out-of-proc gives memory intensive work a larger memory space in which to operate.
+Visual Studio uses several out-of-proc processes to run required background tasks, such as live unit testing, code analyzers, and more. These processes are run out-of-proc to give Visual Studio performance advantages, such as enabling Visual Studio to respond faster when running long, resource-intensive jobs. Also, because Visual Studio is a 32-bit process, running processes out-of-proc gives memory intensive work a larger memory space in which to operate.
 
 If the *ServiceHub.RoslynCodeAnalysisService.exe* or *ServiceHub.RoslynCodeAnalysisService32.exe* process ends for some reason, a pop-up information bar appears with the following message:
 

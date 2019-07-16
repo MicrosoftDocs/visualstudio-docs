@@ -7,9 +7,6 @@ ms.author: liwong
 manager: routlaw
 ms.date: 11/13/2017
 ms.topic: "conceptual"
-ms.devlang: multiple
-ms.service: multiple
-ms.technology: vs-ai-tools
 ms.workload:
   - "multiple"
 ---
@@ -21,7 +18,7 @@ Visual Studio Tools for AI can be installed on Windows 64-bit operating systems.
 
 This extension works with Visual Studio 2015 and Visual Studio 2017, Community edition or higher.
 
-You can download the tools from the [Visual Studio Marketplace](http://aka.ms/vstoolsforai), or from within Visual Studio:
+You can download the tools from the [Visual Studio Marketplace](https://aka.ms/vstoolsforai), or from within Visual Studio:
 
 1. Select **Tools** > **Extensions and Updates**.
 
@@ -84,26 +81,28 @@ Deep learning frameworks rely on pip for their own installation.
 Then, we need to verify whether Python 3.5 is installed correctly, and upgrade pip to the latest version by executing the following commands in a terminal:
 
 - **Windows**
-    ```cmd
-    C:\Users\test>python -V
-    Python 3.5.4
 
-    C:\Users\test>pip3.5 -V
-    pip 9.0.1 from c:\users\test\appdata\local\programs\python\python35\lib\site-packages (python 3.5)
+  ```cmd
+  C:\Users\test>python -V
+  Python 3.5.4
 
-    C:\Users\test>python -m pip install -U pip
-    ```
+  C:\Users\test>pip3.5 -V
+  pip 9.0.1 from c:\users\test\appdata\local\programs\python\python35\lib\site-packages (python 3.5)
+
+  C:\Users\test>python -m pip install -U pip
+  ```
 
 - **macOS**
-    ```bash
-    MyMac:~ test$ python3.5 -V
-    Python 3.5.4
 
-    MyMac:~ test$ pip3.5 -V
-    pip 9.0.1 from /Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages (python 3.5)
+  ```bash
+  MyMac:~ test$ python3.5 -V
+  Python 3.5.4
 
-    MyMac:~ test$ python3.5 -m pip install -U pip
-    ```
+  MyMac:~ test$ pip3.5 -V
+  pip 9.0.1 from /Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages (python 3.5)
+
+  MyMac:~ test$ python3.5 -m pip install -U pip
+  ```
 
 ### Python on Visual Studio
 
@@ -156,13 +155,16 @@ Visit [here](https://caffe2.ai/docs/getting-started.html) to build from source c
 To install MXNet, run the following command in a terminal:
 
 - With GPU
-    ```bash
-    pip3.5 install mxnet-cu80==0.12.0
-    ```
+
+  ```bash
+  pip3.5 install mxnet-cu80==0.12.0
+  ```
+
 - Without GPU
-    ```bash
-    pip3.5 install mxnet==0.12.0
-    ```
+
+  ```bash
+  pip3.5 install mxnet==0.12.0
+  ```
 
 ### Keras
 
@@ -194,23 +196,34 @@ pip3.5 install Theano==0.9.0
 To install PyTorch, run the following command in a terminal:
 
 - **Windows**
-    - There's no official wheel package yet. You can download a third-party [Anaconda PyTorch package](https://anaconda.org/pytorch/repo?type=all).
-    - Decompress it to your home directory, e.g. "C:\Users\test\pytorch".
-    - Add "C:\Users\test\pytorch\Lib\site-packages" to the %PYTHONPATH% environment variable.
+
+  There's no official wheel package yet. You can download a third-party package from [Anaconda](https://anaconda.org/pytorch/repo?type=all) or [University of California](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pytorch).
+
+  - Decompress it to your home directory, for example, *C:\Users\test\pytorch*.
+  - Add *C:\Users\test\pytorch\Lib\site-packages* to the %PYTHONPATH% environment variable.
+
+    ```bash
+    pip3 install http://download.pytorch.org/whl/cu80/torch-0.4.0-cp36-cp36m-win_amd64.whl
+    pip3 install torchvision
+    ```
 
 - **macOS**
-    ```bash
-    pip3.5 install http://download.pytorch.org/whl/torch-0.2.0.post3-cp35-cp35m-macosx_10_7_x86_64.whl
-    ```
-    > [!NOTE]
-    > macOS binaries don't support CUDA, install from source if CUDA is needed
+
+  ```bash
+  pip3.5 install http://download.pytorch.org/whl/torch-0.2.0.post3-cp35-cp35m-macosx_10_7_x86_64.whl
+  ```
+
+  > [!NOTE]
+  > macOS binaries don't support CUDA, install from source if CUDA is needed
 
 - **Linux**
-    ```bash
-    pip3.5 install http://download.pytorch.org/whl/cu80/torch-0.2.0.post3-cp35-cp35m-manylinux1_x86_64.whl
-    ```
-    > [!NOTE]
-    > This single package supports both GPU and CPU.
+
+  ```bash
+  pip3.5 install http://download.pytorch.org/whl/cu80/torch-0.2.0.post3-cp35-cp35m-manylinux1_x86_64.whl
+  ```
+
+  > [!NOTE]
+  > This single package supports both GPU and CPU.
 
 Finally, install torchvision on non-Windows:
 

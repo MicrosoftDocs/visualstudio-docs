@@ -1,8 +1,6 @@
 ---
 title: "CA2220: Finalizers should call base class finalizer"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2220"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 48329f42-170d-45ee-a381-e33f55a240c5
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

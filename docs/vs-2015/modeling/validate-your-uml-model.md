@@ -1,12 +1,9 @@
 ---
 title: "Validate your UML model | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML, constraints"
   - "UML, validation"
@@ -14,7 +11,7 @@ ms.assetid: deed5092-c11d-4431-a801-1e866a103075
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Validate your UML model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +26,7 @@ Some of the UML models that you can draw in Visual Studio might be considered in
 - **Validation command.** To invoke validation at any time, click **Validate UML Model** on the **Architecture** menu.  
   
   > [!NOTE]
-  >  The command will appear only if validation constraints are installed.  
+  > The command will appear only if validation constraints are installed.  
   
 - **On saving a model.** Validation constraints may be applied when you save the model. The purpose of these constraints is to help make sure that you do not save a model that is invalid according to your project's interpretation.  
   
@@ -46,29 +43,26 @@ Some of the UML models that you can draw in Visual Studio might be considered in
   
 #### To install a Visual Studio Extension  
   
-1.  Double-click the **.vsix** file in Windows Explorer (or File Explorer).  
+1. Double-click the **.vsix** file in Windows Explorer (or File Explorer).  
   
-2.  Restart any instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] that is already running.  
+2. Restart any instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] that is already running.  
   
 ## Disabling and Uninstalling Validation Constraints  
  When you want to work with a model to which the constraints do not apply, you can temporarily disable the extension that contains them. In this way, you can work with different kinds of model at different times, by enabling and disabling different extensions.  
   
 #### To disable or uninstall a Visual Studio Extension  
   
-1.  On the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **Tools** menu, click **Extensions and Updates**.  
+1. On the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **Tools** menu, click **Extensions and Updates**.  
   
-2.  Alongside the extension, click **Disable** to temporarily disable the extension. You can re-enable it later by returning to the **Extensions and Updates** window.  
+2. Alongside the extension, click **Disable** to temporarily disable the extension. You can re-enable it later by returning to the **Extensions and Updates** window.  
   
      \- or -  
   
      Click **Uninstall** to remove the extension.  
   
-3.  Restart [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+3. Restart [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
 ## See Also  
  [Define validation constraints for UML models](../modeling/define-validation-constraints-for-uml-models.md)   
  [Create models for your app](../modeling/create-models-for-your-app.md)   
  [Use models in your development process](../modeling/use-models-in-your-development-process.md)
-
-
-

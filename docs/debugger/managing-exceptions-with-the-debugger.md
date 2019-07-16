@@ -1,8 +1,7 @@
 ---
-title: "Manage exceptions with the Visual Studio debugger | Microsoft Docs"
-ms.custom: ""
+title: "Manage exceptions with the debugger | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "10/09/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.exceptions"
@@ -31,15 +30,15 @@ helpviewer_keywords:
 ms.assetid: 43a77fa8-37d0-4c98-a334-0134dbca4ece
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Manage exceptions with the debugger in Visual Studio
 
-An exception is an indication of an error state that occurs while a program is being executed. You can tell the debugger which exceptions or sets of exceptions to break on, and at which point you want the debugger to break. When the debugger breaks, it shows you where the exception was thrown. You can also add or delete exceptions. With a solution open in Visual Studio, use **Debug > Windows > Exception Settings** to open the **Exception Settings** window.
+An exception is an indication of an error state that occurs while a program is being executed. You can tell the debugger which exceptions or sets of exceptions to break on, and at which point you want the debugger to break (that is, pause in the debugger). When the debugger breaks, it shows you where the exception was thrown. You can also add or delete exceptions. With a solution open in Visual Studio, use **Debug > Windows > Exception Settings** to open the **Exception Settings** window.
 
-Provide handlers that respond to the most important exceptions. Also learn how to configure the debugger to always break execution for some exceptions.
+Provide handlers that respond to the most important exceptions. If you need to know how to add handlers for exceptions, see [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md). Also, learn how to configure the debugger to always break execution for some exceptions.
 
 When an exception occurs, the debugger writes an exception message to the **Output** window. It may break execution in the following cases when:
 
@@ -199,7 +198,7 @@ You can add the exception to **Exception Settings** using the previous procedure
 Use the **Exception Settings** window to set conditions on exceptions. Currently supported conditions include the module name(s) to include or exclude for the exception. By setting module names as conditions, you can choose to break for the exception only on certain code modules. You may also choose to avoid breaking on particular modules.
 
 > [!NOTE]
-> Adding conditions to an exception is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
+> Adding conditions to an exception is supported starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
 
 To add conditional exceptions:
 
@@ -211,14 +210,14 @@ To add conditional exceptions:
 
    ![Extra conditions for an exception](../debugger/media/extraconditionsforanexception.png "ExtraConditionsForAnException")
 
-3. For each condition line, type the name of the module, and change the comparison operator list to **Equals** or **Not Equals**. You may specify wildcards (**\\***) in the name to specify more than one module.
+3. For each condition line, type the name of the module, and change the comparison operator list to **Equals** or **Not Equals**. You may specify wildcards (**\\\***) in the name to specify more than one module.
 
 4. If you need to delete a condition, choose the **X** at the end of the condition line.
 
 ## See also
 
-[Continue execution after an exception](../debugger/continuing-execution-after-an-exception.md)<br/>
-[How to: Examine system code after an exception](../debugger/how-to-examine-system-code-after-an-exception.md)<br/>
-[How to: Use native run-time checks](../debugger/how-to-use-native-run-time-checks.md)<br/>
-[Use run-time checks without the C run-time library](../debugger/using-run-time-checks-without-the-c-run-time-library.md)<br/>
-[Tutorial: Learn to debug using Visual Studio](../debugger/getting-started-with-the-debugger.md)
+- [Continue execution after an exception](../debugger/continuing-execution-after-an-exception.md)<br/>
+- [How to: Examine system code after an exception](../debugger/how-to-examine-system-code-after-an-exception.md)<br/>
+- [How to: Use native run-time checks](../debugger/how-to-use-native-run-time-checks.md)<br/>
+- [Use run-time checks without the C run-time library](../debugger/using-run-time-checks-without-the-c-run-time-library.md)<br/>
+- [First look at the debugger](../debugger/debugger-feature-tour.md)

@@ -1,11 +1,8 @@
 ---
 title: "ReceiveAndSendReply Template Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "System.ServiceModel.Activities.ReceiveAndSendReply.UI"
@@ -14,7 +11,7 @@ ms.assetid: d1d9a058-df7e-48f5-a2e7-3caeeba7eaa6
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # ReceiveAndSendReply Template Designer
 The **ReceiveAndSendReply** template is used to create a pair of pre-configured <xref:System.ServiceModel.Activities.Receive> and <xref:System.ServiceModel.Activities.SendReply> activities within a <xref:System.Activities.Statements.Sequence> activity that are correlated as part of a request/response message exchange pattern on the server.  
@@ -22,11 +19,11 @@ The **ReceiveAndSendReply** template is used to create a pair of pre-configured 
 ## The ReceiveAndSendReply Template  
  Adding **ReceiveAndSendReply** template does three things besides creating the <xref:System.ServiceModel.Activities.Receive> and <xref:System.ServiceModel.Activities.SendReply> activities with a <xref:System.Activities.Statements.Sequence> activity:  
 
-1.  Configures the <xref:System.ServiceModel.Activities.Receive.OperationName%2A>, <xref:System.ServiceModel.Activities.Receive.ServiceContractName%2A> properties of the <xref:System.ServiceModel.Activities.Receive> activity.  
+1. Configures the <xref:System.ServiceModel.Activities.Receive.OperationName%2A>, <xref:System.ServiceModel.Activities.Receive.ServiceContractName%2A> properties of the <xref:System.ServiceModel.Activities.Receive> activity.  
 
-2.  Binds the <xref:System.ServiceModel.Activities.SendReply.Request%2A> property of the <xref:System.ServiceModel.Activities.Receive> activity to the <xref:System.ServiceModel.Activities.Send> activity.  
+2. Binds the <xref:System.ServiceModel.Activities.SendReply.Request%2A> property of the <xref:System.ServiceModel.Activities.Receive> activity to the <xref:System.ServiceModel.Activities.Send> activity.  
 
-3.  Creates a <xref:System.ServiceModel.Activities.CorrelationHandle> as a variable in the parent activity.  
+3. Creates a <xref:System.ServiceModel.Activities.CorrelationHandle> as a variable in the parent activity.  
 
 ### Using the ReceiveAndSendReply Template Designer  
  The **ReceiveAndSendReply** activity designer can be found in the **Messaging** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab in [!INCLUDE[wfd2](../includes/wfd2-md.md)] (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)  
@@ -39,7 +36,6 @@ The **ReceiveAndSendReply** template is used to create a pair of pre-configured 
 
 ### Properties of SendReply  
  The following table shows the <xref:System.ServiceModel.Activities.SendReply> properties and describes how they are used in the designer. These properties can be edited in properties grid and some can be edited on [!INCLUDE[wfd2](../includes/wfd2-md.md)] designer surface.  
-
 
 |                               Property Name                                | Required |                                                                                                                                                                                                                                                                                                                                                      Usage                                                                                                                                                                                                                                                                                                                                                       |
 |----------------------------------------------------------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Load Test Virtual User Activity in Visual Studio"
+title: "Analyzing Load Test Virtual User Activity"
 ms.date: 10/03/2016
 ms.topic: conceptual
 f1_keywords:
@@ -10,9 +10,7 @@ helpviewer_keywords:
 ms.assetid: 63f4bd42-3cfb-4eee-af68-e8334976539e
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Analyzing load test virtual user activity in the Details view of the Load Test Analyzer
 
@@ -41,11 +39,11 @@ The **Details** view displays the **Virtual User Activity Chart**, which is used
 
  The Filter results panel is visible in the **Virtual User Activity Chart**. The Filter results panel can filter on the following:
 
--   **Show only results with logs** Displays only test results that have test logs associated with them.
+- **Show only results with logs** Displays only test results that have test logs associated with them.
 
--   **Show successful results** Displays successful results.
+- **Show successful results** Displays successful results.
 
--   **Show results with errors** Displays results with errors that can help in debugging.
+- **Show results with errors** Displays results with errors that can help in debugging.
 
 ## Tasks
 

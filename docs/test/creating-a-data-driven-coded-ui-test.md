@@ -1,14 +1,12 @@
 ---
-title: "Creating a Data-Driven Coded UI Test in Visual Studio"
+title: Data-Driven Coded UI Test tutorial
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "coded UI tests, data-driven"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -46,7 +44,7 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
 
 4. Add 1 plus 2, pause the recorder, and generate the test method. Later we'll replace the values of this user input with values from a data file.
 
-    ![Genetate test method](../test/media/cuit_datadriven_cuitbuildergencode.png)
+    ![Generate test method](../test/media/cuit_datadriven_cuitbuildergencode.png)
 
     Close the test builder. The method is added to the test:
 
@@ -54,16 +52,17 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
    [TestMethod]
    public void CodedUITestMethod1()
    {
-       // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
+       // To generate code for this test, select "Generate Code for Coded UI Test"
+       // from the shortcut menu and select one of the menu items.
        this.UIMap.AddNumbers();
    }
    ```
 
-5. Use the `AddNumbers()` method to verify that the test runs. Place the cursor in the test method shown above, open the context menu, and choose **Run Tests**. (Keyboard shortcut: **Ctrl**+**R**,**T**).
+5. Use the `AddNumbers()` method to verify that the test runs. Place the cursor in the test method shown above, open the right-click menu, and choose **Run Tests**. (Keyboard shortcut: **Ctrl**+**R**,**T**).
 
     The test result that shows if the test passed or failed is displayed in the **Test Explorer** window. To open the Test Explorer window, from the **Test** menu, choose **Windows** and then choose **Test Explorer**.
 
-6. Because a data source can also be used for assertion parameter values—which are used by the test to verify expected values—let's add an assertion to validate that the sum of the two numbers is correct. Place the cursor in the test method shown above, open the context menu and choose **Generate Code for Coded UI Test**, and then **Use Coded UI Test Builder**.
+6. Because a data source can also be used for assertion parameter values—which are used by the test to verify expected values—let's add an assertion to validate that the sum of the two numbers is correct. Place the cursor in the test method shown above, open the right-click menu and choose **Generate Code for Coded UI Test**, and then **Use Coded UI Test Builder**.
 
     Map the text control in the calculator that displays the sum.
 
@@ -82,23 +81,22 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
    ```csharp
    public void CodedUITestMethod1()
    {
-       // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
        this.UIMap.AddNumbers();
        this.UIMap.ValidateSum();
    }
    ```
 
-9. Verify that the test runs by using the `ValidateSum()` method. Place the cursor in the test method shown above, open the context menu, and choose **Run Tests**. (Keyboard shortcut: **Ctrl**+**R**,**T**).
+9. Verify that the test runs by using the `ValidateSum()` method. Place the cursor in the test method shown above, open the right-click menu, and choose **Run Tests**. (Keyboard shortcut: **Ctrl**+**R**,**T**).
 
      At this point, all the parameter values are defined in their methods as constants. Next, let's create a data set to make our test data-driven.
 
 ### Step 2 - Create a data set
 
-1.  Add a text file to the dataDrivenSample project named *data.csv*.
+1. Add a text file to the dataDrivenSample project named *data.csv*.
 
      ![Add a comma seperated value file to the project](../test/media/cuit_datadriven_addcsvfile.png)
 
-2.  Populate the *.csv* file with the following data:
+2. Populate the *.csv* file with the following data:
 
     |Num1|Num2|Sum|
     |-|-|-|
@@ -110,9 +108,9 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
 
      ![Populate the .csv file with data](../test/media/cuit_datadriven_adddatatocsvfile.png)
 
-3.  It is important to save the *.csv* file using the correct encoding. On the **File** menu, choose **Advanced Save Options** and choose **Unicode (UTF-8 without signature) - Codepage 65001** as the encoding.
+3. It is important to save the *.csv* file using the correct encoding. On the **File** menu, choose **Advanced Save Options** and choose **Unicode (UTF-8 without signature) - Codepage 65001** as the encoding.
 
-4.  The *.csv* file, must be copied to the output directory, or the test can't run. Use the **Properties** window to copy it.
+4. The *.csv* file, must be copied to the output directory, or the test can't run. Use the **Properties** window to copy it.
 
      ![Deploy the .csv file](../test/media/cuit_datadriven_deploycsvfile.png)
 
@@ -120,13 +118,12 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
 
 ### Step 3 - Add data source binding
 
-1.  To bind the data source, add a `DataSource` attribute within the existing `[TestMethod]` attribute that is immediately above the test method.
+1. To bind the data source, add a `DataSource` attribute within the existing `[TestMethod]` attribute that is immediately above the test method.
 
     ```csharp
     [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", "|DataDirectory|\\data.csv", "data#csv", DataAccessMethod.Sequential), DeploymentItem("data.csv"), TestMethod]
     public void CodedUITestMethod1()
     {
-        // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
         this.UIMap.AddNumbers();
         this.UIMap.ValidateSum();
     }
@@ -137,7 +134,7 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
     > [!TIP]
     > See [data source attribute samples](#CreateDataDrivenCUIT_QA_DataSourceAttributes) in the Q & A section for samples of using other data source types such as XML, SQL Express and Excel.
 
-2.  Run the test.
+2. Run the test.
 
      Notice that the test runs through three iterations. This is because the data source that was bound contains three rows of data. However, you will also notice that the test is still using the constant parameter values and is adding 1 + 2 with a sum of 3 each time.
 
@@ -145,7 +142,7 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
 
 ### Step 4 - Use the data in the coded UI test
 
-1.  Add `using Microsoft.VisualStudio.TestTools.UITesting.WinControls` to the top of the *CodedUITest.cs* file:
+1. Add `using Microsoft.VisualStudio.TestTools.UITesting.WinControls` to the top of the *CodedUITest.cs* file:
 
     ```csharp
     using System;
@@ -161,66 +158,66 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
     using Microsoft.VisualStudio.TestTools.UITesting.WinControls;
     ```
 
-2.  Add `TestContext.DataRow[]` in the `CodedUITestMethod1()` method which will apply values from the data source. The data source values override the constants assigned to UIMap controls by using the controls `SearchProperties`:
+2. Add `TestContext.DataRow[]` in the `CodedUITestMethod1()` method which will apply values from the data source. The data source values override the constants assigned to UIMap controls by using the controls `SearchProperties`:
 
-    ```csharp
-    public void CodedUITestMethod1()
-    {
-        // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
-        this.UIMap.UICalculatorWindow.UIItemWindow.UIItem1Button.SearchProperties[WinButton.PropertyNames.Name] = TestContext.DataRow["Num1"].ToString();this.UIMap.UICalculatorWindow.UIItemWindow21.UIItem2Button.SearchProperties[WinButton.PropertyNames.Name] = TestContext.DataRow["Num2"].ToString();
-        this.UIMap.AddNumbers();
-        this.UIMap.ValidateSumExpectedValues.UIItem2TextDisplayText = TestContext.DataRow["Sum"].ToString();
-        this.UIMap.ValidateSum();
+   ```csharp
+   public void CodedUITestMethod1()
+   {
+       this.UIMap.UICalculatorWindow.UIItemWindow.UIItem1Button.SearchProperties[WinButton.PropertyNames.Name] = TestContext.DataRow["Num1"].ToString();
+       this.UIMap.UICalculatorWindow.UIItemWindow2.UIItem2Button.SearchProperties[WinButton.PropertyNames.Name] = TestContext.DataRow["Num2"].ToString();
+       this.UIMap.AddNumbers();
+       this.UIMap.ValidateSumExpectedValues.UIItem3TextDisplayText = TestContext.DataRow["Sum"].ToString();
+       this.UIMap.ValidateSum();
     }
     ```
 
      To figure out which search properties to code the data to, use the Coded UI Test Editor.
 
-    -   Open the *UIMap.uitest* file.
+    - Open the *UIMap.uitest* file.
 
          ![Open the Coded UI Test Editor](../test/media/cuit_datadriven_opentesteditor.png)
 
-    -   Choose the UI action and observe the corresponding UI control mapping. Notice how the mapping corresponds to the code, for example, `this.UIMap.UICalculatorWindow.UIItemWindow.UIItem1Button`.
+    - Choose the UI action and observe the corresponding UI control mapping. Notice how the mapping corresponds to the code, for example, `this.UIMap.UICalculatorWindow.UIItemWindow.UIItem1Button`.
 
          ![Use the Coded UI Test Editor to assist with code](../test/media/cuit_datadriven_testeditor.png)
 
-    -   In the **Properties** Window, open **Search Properties**. The search properties **Name** value is what is being manipulated in the code using the data source. For example, the `SearchProperties` is being assigned the values in the first column of each data row: `UIItem1Button.SearchProperties[WinButton.PropertyNames.Name] = TestContext.DataRow["Num1"].ToString();`. For the three iterations, this test will change the **Name** value for the search property to 3, then 5, and finally 6.
+    - In the **Properties** Window, open **Search Properties**. The search properties **Name** value is what is being manipulated in the code using the data source. For example, the `SearchProperties` is being assigned the values in the first column of each data row: `UIItem1Button.SearchProperties[WinButton.PropertyNames.Name] = TestContext.DataRow["Num1"].ToString();`. For the three iterations, this test will change the **Name** value for the search property to 3, then 5, and finally 6.
 
          ![Use the search properties to assist in coding](../test/media/cuit_datadriven_searchproperties.png)
 
-3.  Save the solution.
+3. Save the solution.
 
 ### Step 5 - Run the data-driven test
 
-1.  Verify that the test is now data-driven by running the test again.
+Verify that the test is now data-driven by running the test again.
 
-     You should see the test run through the three iterations using the values in the *.csv* file. The validation should work as well and the test should display as passed in the Test Explorer.
+You should see the test run through the three iterations using the values in the *.csv* file. The validation should work as well and the test should display as passed in the Test Explorer.
 
 ## Q & A
 
-###  <a name="CreateDataDrivenCUIT_QA_DataSourceAttributes"></a> What are the data source attributes for other data source types, such as SQL Express or XML?
+### <a name="CreateDataDrivenCUIT_QA_DataSourceAttributes"></a> What are the data source attributes for other data source types, such as SQL Express or XML?
 
-You can use the sample data source strings in the table below by copying them to your code and making the necessary customizations.
+**A:** You can use the sample data source strings in the table below by copying them to your code and making the necessary customizations.
 
 **Data Source Types and Attributes**
 
--   CSV
+- CSV
 
      `[DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", "|DataDirectory|\\data.csv", "data#csv", DataAccessMethod.Sequential), DeploymentItem("data.csv"), TestMethod]`
 
--   Excel
+- Excel
 
      `DataSource("System.Data.Odbc", "Dsn=ExcelFiles;Driver={Microsoft Excel Driver (*.xls)};dbq=|DataDirectory|\\Data.xls;defaultdir=.;driverid=790;maxbuffersize=2048;pagetimeout=5;readonly=true", "Sheet1$", DataAccessMethod.Sequential), DeploymentItem("Sheet1.xls"), TestMethod]`
 
--   Test case in Team Foundation Server
+- Test case in Team Foundation Server
 
      `[DataSource("Microsoft.VisualStudio.TestTools.DataSource.TestCase", "http://vlm13261329:8080/tfs/DefaultCollection;Agile", "30", DataAccessMethod.Sequential), TestMethod]`
 
--   XML
+- XML
 
      `[DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "|DataDirectory|\\data.xml", "Iterations", DataAccessMethod.Sequential), DeploymentItem("data.xml"), TestMethod]`
 
--   SQL Express
+- SQL Express
 
      `[DataSource("System.Data.SqlClient", "Data Source=.\\sqlexpress;Initial Catalog=tempdb;Integrated Security=True", "Data", DataAccessMethod.Sequential), TestMethod]`
 

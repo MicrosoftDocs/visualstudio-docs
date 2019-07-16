@@ -8,11 +8,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, port shape"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Properties of Port Shapes
 You can use port shapes to represent domain classes in the generated designer.

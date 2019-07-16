@@ -1,8 +1,6 @@
 ---
 title: List Source Command
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "Debug.ListSource"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: e45f08d2-f4a3-49c3-9452-aa60508e2f74
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

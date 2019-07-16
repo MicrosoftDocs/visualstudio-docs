@@ -1,8 +1,6 @@
 ---
 title: Elements (XElement Dynamic Property)
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: reference
 apiname:
   - "XElement.Elements"
@@ -10,7 +8,7 @@ apitype: "Assembly"
 ms.assetid: 3d5737f2-d2ed-410a-821c-349dbb2b574f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -38,6 +36,6 @@ This property uses deferred execution.
 
 ## See also
 
-- [XElement class dynamic properties](../designers/xelement-class-dynamic-properties.md)
+- [XElement class dynamic properties](../designers/attribute-xelement-dynamic-property.md)
 - [Element](../designers/element-xelement-dynamic-property.md)
 - [Descendants](../designers/descendants-xelement-dynamic-property.md)

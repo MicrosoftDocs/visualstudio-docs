@@ -2,7 +2,6 @@
 title: "IDebugStackFrameSniffer Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,7 +18,7 @@ manager: "ghogen"
 Provides a way to enumerate the logical stack frames known by a component. Script engines typically implement this interface. The process debug manager uses this interface to find all stack frames associated with a given thread.  
   
 > [!NOTE]
->  The debugger calls this interface from within the thread of interest. The script engine must identify the current thread and return an appropriate enumerator.  
+> The debugger calls this interface from within the thread of interest. The script engine must identify the current thread and return an appropriate enumerator.  
   
 ## Methods  
  In addition to the methods inherited from `IUnknown`, the `IDebugStackFrameSniffer` interface exposes the following methods.  

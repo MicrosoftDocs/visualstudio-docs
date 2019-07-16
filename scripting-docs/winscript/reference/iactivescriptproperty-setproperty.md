@@ -2,7 +2,6 @@
 title: "IActiveScriptProperty::SetProperty | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Sets the property that is specified by the parameter.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetProperty(  
 // The property value:  
     uint dwProperty,    
@@ -71,7 +70,7 @@ HRESULT SetProperty(
  To select the set of language features to be supported when the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] scripting engine is initialized, invoke `SetProperty` and pass a value that corresponds to the language feature set to be enabled for SCRIPTPROP_INVOKEVERSIONING. If this property is set to 1 (SCRIPTLANGUAGEVERSION_5_7), the available language features are the same as those that appeared in version 5.7 of the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] scripting engine. If it is set to 2 (SCRIPTLANGUAGEVERSION_5_8), the available language features are those that appeared in version 5.7 in addition to new features that were added in version 5.8. By default, this property is set to 0 (SCRIPTLANGUAGEVERSION_DEFAULT), which is equivalent to the language feature set that appeared in version 5.7, unless the host supports a different default behavior. For example, Internet Explorer 8 opts into the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] language features that are supported by the version 5.8 [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] scripting engine by default when the default document mode for Internet Explorer 8 is "Internet Explorer 8 Standards" mode. Switching the Internet Explorer 8 document mode to Internet Explorer 7 Standards or Quirks mode resets the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] scripting engine to support only the language feature set that existed in the version 5.7 [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] scripting engine.  
   
 > [!NOTE]
->  SCRIPTPROP_INVOKEVERSIONING should be set only when the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] scripting engine is being initialized.  
+> SCRIPTPROP_INVOKEVERSIONING should be set only when the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] scripting engine is being initialized.  
   
 ## Example  
  The following example shows how to force the scripting engine to use integer division and how to allow overloading of the compare function.  

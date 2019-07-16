@@ -1,5 +1,5 @@
 ---
-title: "Add Context Parameters to a Load Test Run Setting in Visual Studio"
+title: "Add Context Parameters to a Load Test Run Setting"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -8,9 +8,7 @@ helpviewer_keywords:
 ms.assetid: a8a0b97e-8040-4711-85ab-36548b130ed2
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Add context parameters to a load test run setting
 
@@ -48,11 +46,11 @@ Additionally, by assigning different values to a context parameter by using the 
 
 ## To add a context parameter to a run setting
 
-1.  Open a load test.
+1. Open a load test.
 
-2.  Expand the **Run Settings** folder in the load test tree in the Load Test Editor.
+2. Expand the **Run Settings** folder in the load test tree in the Load Test Editor.
 
-3.  Right-click the specific run setting to which you want to add a context parameter and then choose **Add Context Parameter**.
+3. Right-click the specific run setting to which you want to add a context parameter and then choose **Add Context Parameter**.
 
      A new context parameter is added to the **Context Parameters** folder in the **Run Settings** folder in the load test tree.
 
@@ -60,11 +58,11 @@ Additionally, by assigning different values to a context parameter by using the 
 
      If the run setting already contains a **Context Parameters** folder, you can right-click it and then choose **Add Context Parameter**.
 
-4.  In the **Properties** window, change the value for **Name** as appropriate (for example, WebServer1). In the **Properties** window, change **Value** to the parameter that you want to use (for example, `http://CorporateStagingWebServer`).
+4. In the **Properties** window, change the value for **Name** as appropriate (for example, WebServer1). In the **Properties** window, change **Value** to the parameter that you want to use (for example, `http://CorporateStagingWebServer`).
 
-5.  (Optional) Repeat steps 3 through 5 and use a different string for the **Value** property (for example, `http://CorporateProductionWebServer`).
+5. (Optional) Repeat steps 3 through 5 and use a different string for the **Value** property (for example, `http://CorporateProductionWebServer`).
 
-6.  Choose which run settings that you want to be active. Open the shortcut menu on the run settings and choose **Set As Active**.
+6. Choose which run settings that you want to be active. Open the shortcut menu on the run settings and choose **Set As Active**.
 
 ## See also
 

@@ -1,12 +1,9 @@
 ---
 title: "Properties of operations on UML class diagrams | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 f1_keywords: 
   - "vs.teamarch.logicalclassdiagram.operation.properties"
 helpviewer_keywords: 
@@ -15,7 +12,7 @@ ms.assetid: 4128f3e2-3a51-4edf-b3e4-b7f170a32f6b
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Properties of operations on UML class diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,7 +43,6 @@ On a UML class diagram, you can add *operations* to classes and interfaces. An o
 
  To see the properties of an operation, right-click the operation in the class or interface on the diagram, and then click **Properties**. The properties appear in the **Properties** window.  
 
-
 |      Property       |   Default    |                                                                                                                                                                                 Description                                                                                                                                                                                 |
 |---------------------|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |      **Name**       | (a new name) |                                                                                                                                                                Should be unique within the containing type.                                                                                                                                                                 |
@@ -73,6 +69,3 @@ On a UML class diagram, you can add *operations* to classes and interfaces. An o
  [Properties of attributes on UML class diagrams](../modeling/properties-of-attributes-on-uml-class-diagrams.md)   
  [Properties of associations on UML class diagrams](../modeling/properties-of-associations-on-uml-class-diagrams.md)   
  [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)
-
-
-

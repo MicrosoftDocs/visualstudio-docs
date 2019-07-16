@@ -1,11 +1,9 @@
 ---
 title: "Using HTML5 Controls in Coded UI Tests"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren
@@ -18,7 +16,7 @@ Coded UI tests include support for some of the HTML5 controls that are included 
 
  **Requirements**
 
--   Visual Studio Enterprise
+- Visual Studio Enterprise
 
 > [!WARNING]
 > In versions prior to Internet Explorer 10, it was possible to run coded UI tests in a higher privilege level compared to that of the Internet Explorer process. When running coded UI tests on Internet Explorer 10, both the coded UI test and the Internet Explorer process must be at the same privilege level. This is because of more secure AppContainer features in Internet Explorer 10.
@@ -34,11 +32,11 @@ Coded UI tests include support for some of the HTML5 controls that are included 
 
 |Action|Recording|Generated Code|
 |-|---------------|-|
-|**Play audio**<br /><br /> Directly from control, or from controls context menu.|Play \<name> Audio from 00:00:00|HtmlAudio.Play(TimeSpan)|
+|**Play audio**<br /><br /> Directly from control, or from control's right-click menu.|Play \<name> Audio from 00:00:00|HtmlAudio.Play(TimeSpan)|
 |**Seek to a specific time in the audio**|Seek \<name> Audio to 00:01:48|HtmlAudio.Seek(TimeSpan)|
-|**Pause audio**<br /><br /> Directly from control, or from controls context menu.|Pause \<name> Audio at 00:01:53|HtmlAudio.Pause(TimeSpan)|
-|**Mute audio**<br /><br /> Directly from control, or from controls context menu.|Mute \<name> Audio|HtmlAudio.Mute()|
-|**Unmute audio**<br /><br /> Directly from control, or from controls context menu.|Unmute \<name> Audio|HtmlAudio.Unmute()|
+|**Pause audio**<br /><br /> Directly from control, or from control's right-click menu.|Pause \<name> Audio at 00:01:53|HtmlAudio.Pause(TimeSpan)|
+|**Mute audio**<br /><br /> Directly from control, or from control's right-click menu.|Mute \<name> Audio|HtmlAudio.Mute()|
+|**Unmute audio**<br /><br /> Directly from control, or from control's right-click menu.|Unmute \<name> Audio|HtmlAudio.Unmute()|
 |**Change volume of audio**|Set volume of \<name> Audio to 79%|HtmlAudio.SetVolume(float)|
 
 See [HTMLAudioElement](https://developer.mozilla.org/docs/Web/API/HTMLAudioElement) for a list of properties on which you can add an assertion.
@@ -50,7 +48,6 @@ See [HTMLAudioElement](https://developer.mozilla.org/docs/Web/API/HTMLAudioEleme
 > [!NOTE]
 > The amount of time for Seek and Pause can be significant. During playback, the coded UI test will wait until the specified time in `(TimeSpan)` before Pausing the audio. If by some special circumstance, the specified time has passed before hitting the Pause command, an exception will be thrown.
 
-
 ## Video Control
  **Video control:** Actions on the HTML5 Video control are correctly recorded and played back.
 
@@ -58,11 +55,11 @@ See [HTMLAudioElement](https://developer.mozilla.org/docs/Web/API/HTMLAudioEleme
 
 |Action|Recording|Generated Code|
 |-|---------------|-|
-|**Play video**<br /><br /> Directly from control, or from controls context menu.|Play \<name> Video  from 00:00:00|HtmlVideo.Play(TimeSpan)|
+|**Play video**<br /><br /> Directly from control, or from control's right-click menu.|Play \<name> Video  from 00:00:00|HtmlVideo.Play(TimeSpan)|
 |**Seek to a specific time in the video**|Seek \<name> Video to 00:01:48|HtmlVideo.Seek(TimeSpan)|
-|**Pause video**<br /><br /> Directly from control, or from controls context menu.|Pause \<name> Video at 00:01:53|HtmlVideo.Pause(TimeSpan)|
-|**Mute video**<br /><br /> Directly from control, or from controls context menu.|Mute \<name> Video|HtmlVideo.Mute()|
-|**Unmute video**<br /><br /> Directly from control, or from controls context menu.|Unmute \<name> Video|HtmlVideo.Unmute()|
+|**Pause video**<br /><br /> Directly from control, or from control's right-click menu.|Pause \<name> Video at 00:01:53|HtmlVideo.Pause(TimeSpan)|
+|**Mute video**<br /><br /> Directly from control, or from control's right-click menu.|Mute \<name> Video|HtmlVideo.Mute()|
+|**Unmute video**<br /><br /> Directly from control, or from control's right-click menu.|Unmute \<name> Video|HtmlVideo.Unmute()|
 |**Change volume of video**|Set volume of \<name> Video to 79%||
 
 See [HTMLVideoElement](https://developer.mozilla.org/docs/Web/HTML/Element/video) for a list of properties on which you can add an assertion.

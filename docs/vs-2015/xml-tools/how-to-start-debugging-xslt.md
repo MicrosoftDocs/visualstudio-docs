@@ -1,19 +1,14 @@
 ---
 title: "How to: Start Debugging XSLT | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 8358335a-fcb0-45e0-a37e-45b43e49ec0a
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Start Debugging XSLT
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,29 +20,29 @@ The XSLT debugger can be used to debug an XSLT style sheet or an XSLT applicatio
   
 #### To start debugging from a style sheet  
   
-1.  Open the style sheet in the XML Editor.  
+1. Open the style sheet in the XML Editor.  
   
-2.  Select **Debug XSL** from the **XML** menu.  
+2. Select **Debug XSL** from the **XML** menu.  
   
 #### To start debugging from an XML input document  
   
-1.  Open the XML document in the XML Editor.  
+1. Open the XML document in the XML Editor.  
   
-2.  Select **Debug XSL** from the **XML** menu.  
+2. Select **Debug XSL** from the **XML** menu.  
   
 ## XSLT from Other Languages  
  You can also step into XSLT while debugging an application. When you press F11 on an <xref:System.Xml.Xsl.XslCompiledTransform.Transform%2A?displayProperty=fullName> call, the debugger can step into the XSLT code.  
   
 > [!NOTE]
->  Stepping into XSLT from the <xref:System.Xml.Xsl.XslTransform> class is not supported. The <xref:System.Xml.Xsl.XslCompiledTransform> class is the only XSLT processor that supports stepping into XSLT while debugging.  
+> Stepping into XSLT from the <xref:System.Xml.Xsl.XslTransform> class is not supported. The <xref:System.Xml.Xsl.XslCompiledTransform> class is the only XSLT processor that supports stepping into XSLT while debugging.  
   
 #### To start debugging an XSLT application  
   
-1.  When instantiating the <xref:System.Xml.Xsl.XslCompiledTransform> object, set the `enableDebug` parameter to `true` in your code.  
+1. When instantiating the <xref:System.Xml.Xsl.XslCompiledTransform> object, set the `enableDebug` parameter to `true` in your code.  
   
      This tells the XSLT processor to create debug information when the code is compiled.  
   
-2.  Press F11 to step into the XSLT code.  
+2. Press F11 to step into the XSLT code.  
   
      The XSLT style sheet is loaded in a new document window and the XSLT debugger is started.  
   
@@ -88,5 +83,4 @@ namespace ConsoleApplication
   
 ## See Also  
  [Walkthrough: Debug an XSLT Style Sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md)   
- [Code Stepping Overview](http://msdn.microsoft.com/en-us/8791dac9-64d1-4bb9-b59e-8d59af1833f9)
-
+ [Code Stepping Overview](https://msdn.microsoft.com/8791dac9-64d1-4bb9-b59e-8d59af1833f9)

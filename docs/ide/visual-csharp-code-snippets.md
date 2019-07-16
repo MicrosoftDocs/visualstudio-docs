@@ -1,8 +1,6 @@
 ---
 title: C# code snippets
 ms.date: 06/05/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "snippets [C#]"
@@ -11,7 +9,7 @@ helpviewer_keywords:
   - "C#, code snippets"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

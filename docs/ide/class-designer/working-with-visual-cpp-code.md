@@ -1,8 +1,6 @@
 ---
 title: Working with Visual C++ Code (Class Designer)
 ms.date: 06/21/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.classdesigner.cpplimitation"
@@ -17,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: f5b40921-2ef7-4de0-b595-45b44c79ffa6
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "cplusplus"
 ---
@@ -42,7 +40,7 @@ ms.workload:
 - Typedef
 
 > [!NOTE]
-> This is not the same as the UML class diagram, which you can create in a Modeling Project. For more information, see [UML Class Diagrams: Reference](../../modeling/uml-class-diagrams-reference.md).
+> This is not the same as the UML class diagram, which you can create in a Modeling Project. For more information, see [UML Class Diagrams: Reference](../../modeling/create-uml-modeling-projects-and-diagrams.md).
 
 ## Troubleshoot type resolution and display issues
 
@@ -106,8 +104,6 @@ You can find assistance with troubleshooting errors and warnings in the Microsof
 
 ## See also
 
-- [Designing and Viewing Classes and Types](designing-and-viewing-classes-and-types.md)
-- [Working with Class Diagrams](working-with-class-diagrams.md)
 - [Designing and Viewing Classes and Types](designing-and-viewing-classes-and-types.md)
 - [Additional Information About Class Designer Errors](additional-information-about-errors.md)
 - [Visual C++ Classes in Class Designer](visual-cpp-classes.md)

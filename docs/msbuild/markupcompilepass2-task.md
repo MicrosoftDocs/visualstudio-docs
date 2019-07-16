@@ -1,22 +1,20 @@
 ---
 title: "MarkupCompilePass2 Task | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "reference"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "performing second-pass markup [WPF MSBuild], MarkupCompilePass2 task"
   - "MarkupCompilePass2 task [WPF MSBuild]"
   - "MarkupCompilePass2 task [WPF MSBuild], parameters"
 author: mikejo5000
 ms.author: mikejo
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # MarkupCompilePass2 task
@@ -52,11 +50,11 @@ The following example shows how to use the <xref:Microsoft.Build.Tasks.Windows.M
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <UsingTask 
-    TaskName="Microsoft.Build.Tasks.Windows.MarkupCompilePass2" 
+  <UsingTask
+    TaskName="Microsoft.Build.Tasks.Windows.MarkupCompilePass2"
     AssemblyFile="C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\PresentationBuildTasks.dll" />
   <Target Name="MarkupCompilePass2Task">
-    <MarkupCompilePass2 
+    <MarkupCompilePass2
       AssemblyName="WPFMSBuildSample"
       Language="C#"
       OutputType="WinExe"
@@ -68,9 +66,9 @@ The following example shows how to use the <xref:Microsoft.Build.Tasks.Windows.M
 
 ## See also
 
-[WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)  
-[WPF MSBuild task reference](../msbuild/wpf-msbuild-task-reference.md)  
-[MSBuild reference](../msbuild/msbuild-reference.md)  
-[MSBuild task reference](../msbuild/msbuild-task-reference.md)  
-[Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)  
-[WPF XAML browser applications overview](/dotnet/framework/wpf/app-development/wpf-xaml-browser-applications-overview)
+- [WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)
+- [WPF MSBuild task reference](../msbuild/wpf-msbuild-task-reference.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)
+- [MSBuild task reference](../msbuild/msbuild-task-reference.md)
+- [Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)
+- [WPF XAML browser applications overview](/dotnet/framework/wpf/app-development/wpf-xaml-browser-applications-overview)

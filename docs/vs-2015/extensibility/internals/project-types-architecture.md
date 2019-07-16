@@ -1,20 +1,15 @@
 ---
 title: "Project Types Architecture | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "projects [Visual Studio SDK], architecture"
 ms.assetid: 9c1d940f-8a54-41f7-a8aa-c870e324371c
 caps.latest.revision: 7
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Project Types Architecture
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,4 +35,3 @@ This section contains detailed information about the architecture of project typ
   
  [Project Types](../../extensibility/internals/project-types.md)  
  Provides an overview of projects as the basic building blocks of the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE). Links are provided to additional topics that explain how projects control building and compiling code.
-

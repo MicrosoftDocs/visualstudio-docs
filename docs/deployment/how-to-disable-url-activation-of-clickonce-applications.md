@@ -1,8 +1,6 @@
 ---
 title: "How to: Disable URL Activation of ClickOnce Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -15,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: db31a16b-960f-4264-91d7-c7c40f876068
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -31,13 +29,13 @@ This procedure uses the Windows Software Development Kit (SDK) tool MageUI.exe. 
 
 ### To disable URL activation for your application
 
-1.  Open your deployment manifest in MageUI.exe. If you have not yet created one, follow the steps in [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).
+1. Open your deployment manifest in MageUI.exe. If you have not yet created one, follow the steps in [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).
 
-2.  Select the **Deployment Options** tab.
+2. Select the **Deployment Options** tab.
 
-3.  Clear the **Automatically run application after installing** check box.
+3. Clear the **Automatically run application after installing** check box.
 
-4.  Save and sign the manifest.
+4. Save and sign the manifest.
 
 ## See also
 

@@ -1,13 +1,11 @@
 ---
-title: "Use a lab environment for devops in Visual Studio"
+title: "Use a lab environment for devops"
 ms.date: 05/02/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "lab environment, test lab"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren
@@ -51,7 +49,7 @@ For more information, see [Use Build or Release management](use-build-or-rm-inst
 
 ## Use the Visual Studio Lab Management features of Microsoft Test Manager
 
-You can create and manage lab environments with the Visual Studio Lab Management features of Microsoft Test Manager when you use Visual Studio 2017 Enterprise edition.
+You can create and manage lab environments with the Visual Studio Lab Management features of Microsoft Test Manager when you use Visual Studio Enterprise edition.
 
 Lab Management automatically installs test agents on every machine in your environment.
 
@@ -138,4 +136,4 @@ For information about setting up environments, see:
 
 * [Install and configure test agents](../../test/lab-management/install-configure-test-agents.md)
 * [Visual Studio Lab Management Guide](https://aka.ms/vsarsolutions)
-* [Microsoft DevOps Blog](https://blogs.msdn.microsoft.com/devops/)
+* [Microsoft DevOps Blog](https://devblogs.microsoft.com/devops/)

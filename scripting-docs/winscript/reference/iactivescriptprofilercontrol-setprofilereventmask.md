@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerControl::SetProfilerEventMask | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,8 +21,8 @@ Sets a 4-byte bitmask that specifies the types of events that the scripting engi
   
 ## Syntax  
   
-```  
-RESULT SetProfilerEventMask(  
+```cpp
+HRESULT SetProfilerEventMask(  
     [in] DWORD dwEventMask);  
 ```  
   

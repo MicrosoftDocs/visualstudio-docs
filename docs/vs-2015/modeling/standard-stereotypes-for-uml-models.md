@@ -1,12 +1,9 @@
 ---
 title: "Standard stereotypes for UML models | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML, stereotypes"
   - "UML diagrams, stereotypes"
@@ -14,7 +11,7 @@ ms.assetid: 8a8c2321-1cae-4ba8-bb9e-23495c3404d8
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Standard stereotypes for UML models
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,37 +35,37 @@ You can add stereotypes to UML model elements to provide additional information 
   
 #### To link a profile to a model or a package  
   
-1.  Open **UML Model Explorer**. On the **Architecture** menu, point to **Windows**, and then click **UML Model Explorer**.  
+1. Open **UML Model Explorer**. On the **Architecture** menu, point to **Windows**, and then click **UML Model Explorer**.  
   
-2.  Locate either a package or a model that contains all the elements to which you will want to apply the stereotypes in the profile.  
+2. Locate either a package or a model that contains all the elements to which you will want to apply the stereotypes in the profile.  
   
-3.  Right-click the package or the model and then click **Properties**.  
+3. Right-click the package or the model and then click **Properties**.  
   
-4.  In the **Properties** window, set the **Profiles** property to the profiles that you want.  
+4. In the **Properties** window, set the **Profiles** property to the profiles that you want.  
   
 #### To remove the link between a profile and a model or package  
   
-1.  In UML Model Explorer, right-click the model or package and then click **Properties**.  
+1. In UML Model Explorer, right-click the model or package and then click **Properties**.  
   
-2.  In the Properties window, set the **Profiles** property to empty.  
+2. In the Properties window, set the **Profiles** property to empty.  
   
     > [!NOTE]
-    >  You can unlink a profile only if none of the elements in the model or package use that profile's stereotypes.  
+    > You can unlink a profile only if none of the elements in the model or package use that profile's stereotypes.  
   
 #### To apply a stereotype to a model element  
   
-1.  Right-click the model element either on a diagram or in **UML Model Explorer**, and then click **Properties**.  
+1. Right-click the model element either on a diagram or in **UML Model Explorer**, and then click **Properties**.  
   
-2.  Click the **Stereotypes** property and select the stereotypes you want to apply.  
+2. Click the **Stereotypes** property and select the stereotypes you want to apply.  
   
      The selected stereotypes appear within «chevrons» in the model element, for most kinds of element.  
   
     > [!NOTE]
-    >  If you cannot see the **Stereotypes** property, or if the stereotype you want does not appear, verify that the model element is inside a package or a model to which the appropriate profile has been linked.  
+    > If you cannot see the **Stereotypes** property, or if the stereotype you want does not appear, verify that the model element is inside a package or a model to which the appropriate profile has been linked.  
   
-3.  Some stereotypes allow you to set the values of additional properties for the model element. To see these properties, expand the **Stereotypes** property.  
+3. Some stereotypes allow you to set the values of additional properties for the model element. To see these properties, expand the **Stereotypes** property.  
   
-###  <a name="L2"></a> UML Standard Profile L2  
+### <a name="L2"></a> UML Standard Profile L2  
  The following stereotypes can be used to specialize the meaning of UML model elements, unless the link to the profile has been removed from the model.  
   
  The exact meaning of these stereotypes is determined by your own local conventions, and by any tools that you might use to process the model.  
@@ -108,7 +105,7 @@ You can add stereotypes to UML model elements to provide additional information 
 |type|Class|Specifies the behavior of an object without stating how it is implemented. An object is a member of a type if it conforms to the specification.|  
 |utility|Class|A collection of static functions. The class has no instances.|  
   
-###  <a name="L3"></a> UML Standard Profile L3  
+### <a name="L3"></a> UML Standard Profile L3  
  The following stereotypes can be used to specialize the meaning of UML model elements, unless the profile has been unlinked from the model.  
   
  The exact meaning of these stereotypes is determined by your own local conventions, and by any tools that you might use to process the model.  
@@ -119,7 +116,7 @@ You can add stereotypes to UML model elements to provide additional information 
 |metaModel|Model|Defines a modeling language such as a variant of UML, or a domain specific language.|  
 |systemModel|Model|A model that is a collection of models that apply to the same system, for example, a specification, a realization, and trace relationships between them.|  
   
-##  <a name="NetProfile"></a> C# Profile  
+## <a name="NetProfile"></a> C# Profile  
  The stereotypes defined in this profile let you indicate that a model element is intended for translation to program code. Each stereotype defines additional properties that you can set on the model element.  
   
  To make these stereotypes available, link a model or package to the C# Profile. You can then apply the stereotypes to model elements in that model or package.  
@@ -139,6 +136,3 @@ You can add stereotypes to UML model elements to provide additional information 
  [Add stereotypes to UML model elements](../modeling/add-stereotypes-to-uml-model-elements.md)   
  [Customize your model with profiles and stereotypes](../modeling/customize-your-model-with-profiles-and-stereotypes.md)   
  [Define a profile to extend UML](../modeling/define-a-profile-to-extend-uml.md)
-
-
-

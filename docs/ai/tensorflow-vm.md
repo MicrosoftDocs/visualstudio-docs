@@ -8,8 +8,6 @@ manager: routlaw
 ms.date: 11/13/2017
 ms.topic: tutorial
 ms.devlang: python
-ms.service: multiple
-ms.technology: vs-ai-tools
 ms.workload:
   - "multiple"
 ---

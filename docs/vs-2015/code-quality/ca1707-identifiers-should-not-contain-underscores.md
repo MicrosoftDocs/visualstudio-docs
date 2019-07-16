@@ -1,14 +1,9 @@
 ---
 title: "CA1707: Identifiers should not contain underscores | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords: 
   - "IdentifiersShouldNotContainUnderscores"
   - "CA1707"
@@ -24,7 +19,7 @@ manager: "wpickett"
 # CA1707: Identifiers should not contain underscores
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio 2017, see [CA1707: Identifiers should not contain underscores](https://docs.microsoft.com/visualstudio/code-quality/ca1707-identifiers-should-not-contain-underscores) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [CA1707: Identifiers should not contain underscores](https://docs.microsoft.com/visualstudio/code-quality/ca1707-identifiers-should-not-contain-underscores).  
   
 |||  
 |-|-|  
@@ -51,4 +46,3 @@ For the latest documentation on Visual Studio 2017, see [CA1707: Identifiers sho
  [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md)  
   
  [CA1708: Identifiers should differ by more than case](../code-quality/ca1708-identifiers-should-differ-by-more-than-case.md)
-

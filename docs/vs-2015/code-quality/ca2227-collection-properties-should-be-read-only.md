@@ -1,14 +1,9 @@
 ---
 title: "CA2227: Collection properties should be read only | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA2227"
   - "CollectionPropertiesShouldBeReadOnly"
@@ -54,6 +49,3 @@ manager: "wpickett"
 
 ## Related Rules
  [CA1819: Properties should not return arrays](../code-quality/ca1819-properties-should-not-return-arrays.md)
-
-
-

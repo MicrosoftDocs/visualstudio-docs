@@ -1,21 +1,16 @@
 ---
 title: "Selection Context Objects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "selection, tracking"
   - "selection, context objects"
 ms.assetid: 7308ea8f-a42c-47e5-954e-7dee933dce7a
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Selection Context Objects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -34,11 +29,11 @@ The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development envir
   
   The following sequence shows the typical course of selection tracking.  
   
-1.  The IDE retrieves the selection context from the newly opened window and puts it in the global selection context. If the selection context uses HIERARCHY_DONTPROPAGATE or SELCONTAINER_DONTPROPAGATE, that information is not propagated to the global context. For more information, see [Feedback to the User](../../extensibility/internals/feedback-to-the-user.md).  
+1. The IDE retrieves the selection context from the newly opened window and puts it in the global selection context. If the selection context uses HIERARCHY_DONTPROPAGATE or SELCONTAINER_DONTPROPAGATE, that information is not propagated to the global context. For more information, see [Feedback to the User](../../extensibility/internals/feedback-to-the-user.md).  
   
-2.  Notification events are broadcast to any VSPackage that requested them.  
+2. Notification events are broadcast to any VSPackage that requested them.  
   
-3.  The VSPackage acts on the events it receives by performing activities such as updating a hierarchy, reactivating a tool, or other similar tasks.  
+3. The VSPackage acts on the events it receives by performing activities such as updating a hierarchy, reactivating a tool, or other similar tasks.  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx>   
@@ -46,4 +41,3 @@ The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development envir
  [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)   
  [Selection and Currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)   
  [Project Types](../../extensibility/internals/project-types.md)
-

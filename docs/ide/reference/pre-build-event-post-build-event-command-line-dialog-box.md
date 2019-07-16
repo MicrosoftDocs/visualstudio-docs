@@ -1,8 +1,6 @@
 ---
 title: Pre-build Event-Post-build Event Command Line Dialog Box
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "cs.ProjectPropertiesBuildEventsBuilder"
@@ -32,7 +30,7 @@ helpviewer_keywords:
 ms.assetid: d49b2c57-24bf-4fb2-8351-5c4b6cca938f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -42,7 +40,6 @@ You can type pre- or post-build events for the [Build Events Page, Project Desig
 > [!NOTE]
 > Pre-build events do not run if the project is up to date and no build is triggered.
 
-
 ## UI Element List
  **Command line edit box**
 
@@ -50,7 +47,6 @@ You can type pre- or post-build events for the [Build Events Page, Project Desig
 
 > [!NOTE]
 > Add a `call` statement before all post-build commands that run .bat files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.
-
 
  **Macros**
 

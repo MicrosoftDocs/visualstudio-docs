@@ -10,9 +10,7 @@ helpviewer_keywords:
   - "datasets [Visual Basic], creating"
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -24,9 +22,9 @@ In this walkthrough you create a dataset using the **Dataset Designer**. The art
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.
+1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.
 
-2.  Install the Northwind sample database by following these steps:
+2. Install the Northwind sample database by following these steps:
 
     1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
 
@@ -52,23 +50,23 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Add a New Dataset to the Application
 
-1.  On the **Project** menu, select **Add New Item**.
+1. On the **Project** menu, select **Add New Item**.
 
      The **Add New Item** dialog box appears.
 
-2.  In the left-hand pane, select **Data**, then select **DataSet** in the middle pane.
+2. In the left-hand pane, select **Data**, then select **DataSet** in the middle pane.
 
-3.  Name the Dataset **NorthwindDataset**, and then choose **Add**.
+3. Name the Dataset **NorthwindDataset**, and then choose **Add**.
 
      Visual Studio adds a file called **NorthwindDataset.xsd** to the project and opens it in the **Dataset Designer**.
 
 ## Create a Data Connection in Server Explorer
 
-1.  On the **View** menu, click **Server Explorer**.
+1. On the **View** menu, click **Server Explorer**.
 
-2.  In **Server Explorer**, click the **Connect to Database** button.
+2. In **Server Explorer**, click the **Connect to Database** button.
 
-3.  Create a connection to the Northwind sample database.
+3. Create a connection to the Northwind sample database.
 
 ## Create the Tables in the Dataset
 
@@ -76,33 +74,33 @@ This section explains how to add tables to the dataset.
 
 ### To create the Customers table
 
-1.  Expand the data connection you created in **Server Explorer**, and then expand the **Tables** node.
+1. Expand the data connection you created in **Server Explorer**, and then expand the **Tables** node.
 
-2.  Drag the **Customers** table from **Server Explorer** onto the **Dataset Designer**.
+2. Drag the **Customers** table from **Server Explorer** onto the **Dataset Designer**.
 
      A **Customers** data table and **CustomersTableAdapter** are added to the dataset.
 
 ### To create the Orders table
 
--   Drag the **Orders** table from **Server Explorer** onto the **Dataset Designer**.
+- Drag the **Orders** table from **Server Explorer** onto the **Dataset Designer**.
 
      An **Orders** data table, **OrdersTableAdapter**, and data relation between the **Customers** and **Orders** tables are added to the dataset.
 
 ### To create the OrderDetails table
 
--   Drag the **Order Details** table from **Server Explorer** onto the **Dataset Designer**.
+- Drag the **Order Details** table from **Server Explorer** onto the **Dataset Designer**.
 
      An **Order Details** data table, **OrderDetailsTableAdapter**, and a data relation between the **Orders** and **OrderDetails** tables are added to the dataset.
 
 ## Next Steps
 
--   Save the dataset.
+- Save the dataset.
 
--   Select items in the **Data Sources** window and drag them onto a form. For more information, see [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md).
+- Select items in the **Data Sources** window and drag them onto a form. For more information, see [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md).
 
--   Add more queries to the TableAdapters.
+- Add more queries to the TableAdapters.
 
--   Add validation logic to the <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> events of the data tables in the dataset. For more information, see [Validate data in datasets](../data-tools/validate-data-in-datasets.md).
+- Add validation logic to the <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> events of the data tables in the dataset. For more information, see [Validate data in datasets](../data-tools/validate-data-in-datasets.md).
 
 ## See also
 

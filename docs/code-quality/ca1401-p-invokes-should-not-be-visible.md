@@ -1,8 +1,6 @@
 ---
 title: "CA1401: P-Invokes should not be visible"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "PInvokesShouldNotBeVisible"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 0f4d96c1-f9de-414e-b223-4dc7f691bee3
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

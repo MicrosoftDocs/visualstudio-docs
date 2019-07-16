@@ -1,14 +1,9 @@
 ---
 title: "SuspendTracking | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 api_name: 
   - "SuspendTracking"
 api_location: 
@@ -21,12 +16,11 @@ ms.assetid: f5e06e5a-8083-444c-99c1-07ba834226b5
 caps.latest.revision: 6
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # SuspendTracking
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Suspends tracking in the current context.  
   
 ## Syntax  
@@ -43,6 +37,3 @@ HRESULT WINAPI SuspendTracking(void);
   
 ## See Also  
  [ResumeTracking](../msbuild/resumetracking.md)
-
-
-

@@ -1,18 +1,13 @@
 ---
 title: "Isolating Code Under Test with Microsoft Fakes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: a03c2e83-a41f-4854-bcf2-fcaa277a819d
 caps.latest.revision: 18
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Isolating Code Under Test with Microsoft Fakes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,10 +45,10 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
   
  In general, we recommend that you use stub types to isolate from dependencies within your codebase. You can do this by hiding the components behind interfaces. Shim types can be used to isolate from third-party components that do not provide a testable API.  
   
-##  <a name="stubs"></a> Getting started with stubs  
+## <a name="stubs"></a> Getting started with stubs  
  For a more detailed description, see [Using stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md).  
   
-1.  **Inject interfaces**  
+1. **Inject interfaces**  
   
      To use stubs, you have to write the code you want to test in such a way that it does not explicitly mention classes in another component of your application. By "component" we mean a class or classes that are developed and updated together, and typically contained in one Visual Studio project. Variables and parameters should be declared by using interfaces and instances of other components should be passed in or created by using a factory. For example, if StockFeed is a class in another component of the application, then this would be considered bad:  
   
@@ -74,15 +69,15 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
   
     ```  
   
-2.  **Add Fakes Assembly**  
+2. **Add Fakes Assembly**  
   
-    1.  In Solution Explorer, expand the test project’s reference list. If you are working in Visual Basic, you must choose **Show All Files** in order to see the reference list.  
+    1. In Solution Explorer, expand the test project’s reference list. If you are working in Visual Basic, you must choose **Show All Files** in order to see the reference list.  
   
-    2.  Select the reference to the assembly in which the interface (for example IStockFeed) is defined. On the shortcut menu of this reference, choose **Add Fakes Assembly**.  
+    2. Select the reference to the assembly in which the interface (for example IStockFeed) is defined. On the shortcut menu of this reference, choose **Add Fakes Assembly**.  
   
-    3.  Rebuild the solution.  
+    3. Rebuild the solution.  
   
-3.  In your tests, construct instances of the stub and provide code for its methods:  
+3. In your tests, construct instances of the stub and provide code for its methods:  
   
     ```csharp  
     [TestClass]  
@@ -144,7 +139,7 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
   
      Stubs are also generated for the getters and setters of properties, for events, and for generic methods. For more information, see [Using stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md).  
   
-##  <a name="shims"></a> Getting started with shims  
+## <a name="shims"></a> Getting started with shims  
  (For a more detailed description, see [Using shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md).)  
   
  Suppose your component contains calls to `DateTime.Now`:  
@@ -247,6 +242,3 @@ System.IO.Fakes.ShimFile.AllInstances.ReadToEnd = ...
  [Using shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md)  
   
  [Code generation, compilation, and naming conventions in Microsoft Fakes](../test/code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md)
-
-
-

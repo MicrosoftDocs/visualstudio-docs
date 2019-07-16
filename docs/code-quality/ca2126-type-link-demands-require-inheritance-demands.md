@@ -1,8 +1,6 @@
 ---
 title: "CA2126: Type link demands require inheritance demands"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2126"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 07b604e5-5579-4df9-a578-dadd0d8370a7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CPP
  - CSharp

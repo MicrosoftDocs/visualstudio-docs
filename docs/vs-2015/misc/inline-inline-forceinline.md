@@ -1,14 +1,9 @@
 ---
 title: "inline, __inline, __forceinline | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 f1_keywords: 
   - "__forceinline_cpp"
   - "__inline_cpp"
@@ -30,9 +25,9 @@ ms.assetid: a159d11e-5dc6-4bac-b2cf-b5f23688e552
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # inline, __inline, __forceinline
-This content has moved to [Inline Functions](http://msdn.microsoft.com/library/355f120c-2847-4608-ac04-8dda18ffe10c)  
+This content has moved to [Inline Functions](https://msdn.microsoft.com/library/355f120c-2847-4608-ac04-8dda18ffe10c)  
   
 ## Syntax

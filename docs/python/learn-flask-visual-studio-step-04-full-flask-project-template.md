@@ -1,14 +1,14 @@
 ---
-title: Tutorial - Learn Flask in Visual Studio, step 4
+title: Learn Flask tutorial in Visual Studio step 4, web project templates
+titleSuffix: ""
 description: A walkthrough of Flask basics in the context of Visual Studio projects, specifically the features provided by the Flask Web Project and Flask/Jade Web Project templates.
-ms.date: 09/04/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
+ms.date: 01/07/2019
 ms.topic: tutorial
-author: kraigb
-ms.author: kraigb
-manager: douge
-ms.workload: 
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
+ms.custom: seodec18
+ms.workload:
   - python
   - data-science
 ---
@@ -157,13 +157,14 @@ The individual page templates, *about.html*, *contact.html*, and *index.html*, e
 
 As noted at the beginning of this article, Visual Studio provide a "Flask/Jade Web Project" template, which creates an application that's visually identical to what's produced by the "Flask Web Project". The primary difference is that it uses the Jade templating engine, which is an extension to Jinja that implements the same concepts with a more succinct language. Specifically, Jade uses keywords instead of tags enclosed in {% %} delimiters, for example, and lets you refer to CSS styles and HTML elements using keywords.
 
-To enable Jade, the project template first includes the pyjade package in *requirements.txt*. 
+To enable Jade, the project template first includes the pyjade package in *requirements.txt*.
 
 The app's *\_\_init\_\_.py* file contains a line to
 
 ```python
 app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
 ```
+
 In the *templates* folder, you see *.jade* files instead of *.html* templates, and the views in *views.py* refer to these files in their calls to `flask.render_template`. Otherwise the views code is the same.
 
 Opening one of the *.jade* files, you can see the more succinct expression of a template. For example, here's the contents of *templates/layout.jade* as created by the "Flask/Jade Web Project" template:

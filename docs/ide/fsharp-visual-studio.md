@@ -2,14 +2,12 @@
 title: F# tools
 description: Learn which features of Visual Studio are supported in F#.
 ms.date: 07/11/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "F# features [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
@@ -44,7 +42,7 @@ The following table summarizes features in project properties for F#:
 |Multitargeting|Yes||
 |Icon and manifest|No|Available through compiler command-line options.|
 |ASP.NET Client Services|No||
-|ClickOnce|No|Use a client project in another .NET Framework language, if applicable.|
+|ClickOnce|No|Use a client project in another .NET language, if applicable.|
 |Strong naming|No|Available through compiler command-line options.|
 |Assembly publishing and versioning|No||
 |Code analysis|No|Code analysis tools can be run manually or as part of a post-build command.|
@@ -56,7 +54,7 @@ The following table summarizes features in project properties for F#:
 
 |Project Designer page|Related links|Description|
 | - |-------------|-----------|
-|Application|[Application Page, Project Designer](reference/application-page-project-designer-csharp.md)|Enables you to specify application-level settings and properties, such as whether you are creating a library or an executable file, what version of the .NET Framework the application is targeting, and information about where the resource files that the application uses are stored.|
+|Application|[Application Page, Project Designer](reference/application-page-project-designer-csharp.md)|Enables you to specify application-level settings and properties, such as whether you are creating a library or an executable file, what version of .NET the application targets, and information about where the resource files that the application uses are stored.|
 |Build|[Build Page, Project Designer](reference/build-page-project-designer-csharp.md)|Enables you to control how the code is compiled.|
 |Build Events|[Build Events Page, Project Designer](reference/build-events-page-project-designer-csharp.md)|Enables you to specify commands to run before or after a compilation.|
 |Debug|[Debug Page, Project Designer](reference/debug-page-project-designer.md)|Enables you to control how the application runs during debugging. This includes what commands to use and what your application's starting directory is, and any special debugging modes you want to enable, such as native code and SQL.|
@@ -85,7 +83,7 @@ The following features of the Visual Studio code and text editors are supported 
 |Change indentation|Indents or unindents selected lines.|Yes|
 |Smart indentation|Automatically indents and de-indents the cursor according to F# scoping rules.|Yes|
 |[Find and replace text](finding-and-replacing-text.md)|Enables you to search in a file, project, or solution, and potentially change text.|Yes|
-|Go to definition for .NET Framework API|When the cursor is positioned on a .NET Framework API, shows code generated from .NET Framework metadata.|No|
+|Go to definition for the .NET API|When the cursor is positioned on a .NET API, shows code generated from .NET metadata.|No|
 |Go to definition for user-defined API|When the cursor is on a program entity that you defined, moves the cursor to the location in your code where the entity is defined.|Yes|
 |Go To Line|Enables you to go to a specific line in a file, by line number.|Yes|
 |Navigation bars at top of file|Enables you to jump to locations in code, by, For example, function name.|Yes|

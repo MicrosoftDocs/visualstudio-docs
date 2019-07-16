@@ -1,56 +1,61 @@
 ---
 title: -Out (devenv.exe)
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
+ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
   - "errors [Visual Studio], builds"
-  - "Devenv, /out switch"
+  - "Devenv, /Out switch"
   - "builds [Visual Studio], logs"
   - "error logs [Visual Studio], command-line build errors"
   - "error logs [Visual Studio]"
-  - "/out Devenv switch"
-  - "out Devenv switch"
+  - "/Out Devenv switch"
+  - "Out Devenv switch"
   - "builds [Visual Studio], errors"
   - "output files, build errors"
 ms.assetid: 9002d8c2-36d4-451c-b489-8f01932f31f7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # /Out (devenv.exe)
-Specifies a file to store and display errors when you run, build, rebuild, or deploy a solution.
+
+Specifies a file to store and display errors when you [run](run-devenv-exe.md), [run and exit](runexit-devenv-exe.md), [upgrade](upgrade-devenv-exe.md), [build](build-devenv-exe.md), [rebuild](rebuild-devenv-exe.md), [clean](clean-devenv-exe.md), or [deploy](deploy-devenv-exe.md) a solution.
 
 ## Syntax
 
-```cmd
-devenv /out FileName
+```shell
+devenv /Out FileName
 ```
 
 ## Arguments
- `FileName`
 
- Required. The path and name of the file to receive errors when you build an executable.
+- *FileName*
+
+  Required. The path and name of the file to receive output when you build an executable.
 
 ## Remarks
- If a file name that does not exist is specified, the file is created automatically. If the file already exists, the results are appended to the existing contents of the file.
 
- Command line build errors are displayed in the **Command** window and the Solution Builder view of the **Output** window. This option is useful if you are running unattended builds and need to see the results.
+If a nonexistent file name is specified, the file is created automatically. Otherwise, the file already exists, and the results are appended to the existing contents of the file.
+
+Command-line build errors are displayed in the **Command** window and the Solution Builder view of the **Output** window. This switch is useful for viewing results of unattended builds.
 
 ## Example
- This example runs `MySolution` and writes errors to the file `MyErrorLog.txt`.
 
-```cmd
-devenv /run "C:\Documents and Settings\someuser\My Documents\Visual Studio\Projects\MySolution\MySolution.sln" /out "C:\MyErrorLog.txt"
+This example runs `MySolution` and writes errors to the file `MyErrorLog.txt`.
+
+```shell
+devenv /run "%USERPROFILE%\source\repos\MySolution\MySolution.sln" /out "C:\MyErrorLog.txt"
 ```
 
-## See Also
+## See also
 
 - [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)
 - [/Run (devenv.exe)](../../ide/reference/run-devenv-exe.md)
+- [/RunExit (devenv.exe)](runexit-devenv-exe.md)
+- [/Upgrade (devenv.exe)](upgrade-devenv-exe.md)
+- [/Clean (devenv.exe)](clean-devenv-exe.md)
 - [/Build (devenv.exe)](../../ide/reference/build-devenv-exe.md)
 - [/Rebuild (devenv.exe)](../../ide/reference/rebuild-devenv-exe.md)
 - [/Deploy (devenv.exe)](../../ide/reference/deploy-devenv-exe.md)
