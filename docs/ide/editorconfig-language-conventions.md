@@ -551,6 +551,7 @@ dotnet_style_prefer_auto_properties = true:silent
 dotnet_style_prefer_conditional_expression_over_assignment = true:suggestion
 dotnet_style_prefer_conditional_expression_over_return = true:suggestion
 dotnet_style_prefer_compound_assignment = true:suggestion
+dotnet_style_operator_placement_when_wrapping = beginning_of_line
 ```
 
 #### dotnet\_style\_object_initializer
@@ -966,6 +967,59 @@ Dim v = o?.ToString()
 ' dotnet_style_null_propagation = false
 Dim v = If(o Is Nothing, Nothing, o.ToString()) ' or
 Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
+```
+
+## .NET code quality settings
+
+The quality rules in this section apply to both C# and Visual Basic code.
+
+- [Parameter preferences](#parameter-preferences)
+  - dotnet\_code\_quality\_unused\_parameters
+
+For information about configuring FxCop analyzers with an EditorConfig file, see [Configure FxCop analyzers](../code-quality/configure-fxcop-analyzers.md).
+
+### Parameter preferences
+
+The quality rules in this section concern method parameters.
+
+These rules could appear in an *.editorconfig* file as follows:
+
+```ini
+# CSharp and Visual Basic code quality settings:
+[*.{cs,vb}]
+dotnet_code_quality_unused_parameters = all:suggestion
+```
+
+#### dotnet\_code\_quality\_unused\_parameters
+
+|||
+|-|-|
+| **Rule name** | dotnet_code_quality_unused_parameters |
+| **Rule ID** | IDE0060 |
+| **Applicable languages** | C# and Visual Basic |
+| **Values** | `all` - Flag methods with any accessibility that contain unused parameters<br /><br />`non_public` - Flag only non-public methods that contain unused parameters |
+| **Visual Studio default** | `all:suggestion` |
+
+Code examples:
+
+```csharp
+// dotnet_code_quality_unused_parameters = all:suggestion
+public int GetNum() { return 1; }
+
+// dotnet_code_quality_unused_parameters = non_public:suggestion
+public int GetNum(int arg1) { return 1; }
+```
+
+```vb
+' dotnet_code_quality_unused_parameters = all:suggestion
+Public Function GetNum()
+    Return 1
+End Function
+
+' dotnet_code_quality_unused_parameters = non_public:suggestion
+Public Function GetNum(arg1 As Integer)
+    Return 1
+End Function
 ```
 
 ## C# code style settings
