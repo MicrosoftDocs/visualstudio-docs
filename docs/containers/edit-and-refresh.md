@@ -125,4 +125,3 @@ Learn how to [troubleshoot Visual Studio Docker development](troubleshooting-doc
 * To build and deploy a Docker container, see [Docker integration for Azure Pipelines](https://aka.ms/dockertoolsforvsts).
 * For an index of Windows Server and Nano Server articles, see [Windows container information](https://aka.ms/containers).
 * Learn about [Azure Kubernetes Service](https://azure.microsoft.com/services/kubernetes-service/) and review the [Azure Kubernetes Service documentation](/azure/aks).
-
