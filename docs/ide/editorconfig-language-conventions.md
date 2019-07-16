@@ -20,7 +20,7 @@ Language conventions for EditorConfig in Visual Studio fall into these categorie
 
 - [.NET code style settings](#net-code-style-settings)
 
-- [.NET code quality settings](#net-quality-style-settings)
+- [.NET code quality settings](#net-code-quality-settings)
 
 - [C# code style settings](#c-code-style-settings)
 
