@@ -16,9 +16,11 @@ ms.workload:
 ---
 # Language conventions
 
-Language conventions for EditorConfig in Visual Studio fall into two categories:
+Language conventions for EditorConfig in Visual Studio fall into these categories:
 
 - [.NET code style settings](#net-code-style-settings)
+
+- [.NET code quality settings](#net-quality-style-settings)
 
 - [C# code style settings](#c-code-style-settings)
 
@@ -874,7 +876,7 @@ End If
 | **Rule name** | dotnet_style_prefer_compound_assignment |
 | **Rule ID** | IDE0054 |
 | **Applicable languages** | C# and Visual Basic |
-| **Values** | `true` - Prefer compound assignment<br /><br />`false` - Don't prefer compound assignment |
+| **Values** | `true` - Prefer [compound assignment](/dotnet/csharp/language-reference/operators/assignment-operator#compound-assignment) expressions<br /><br />`false` - Don't prefer compound assignment expressions |
 | **Visual Studio default** | `true:suggestion` |
 
 Code examples:
@@ -970,12 +972,10 @@ Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
 
 ## .NET code quality settings
 
-The quality rules in this section apply to both C# and Visual Basic code.
+The quality rules in this section apply to both C# and Visual Basic code. They're used to configure code analyzers that are built into the Visual Studio interactive development environment (IDE). For information about configuring FxCop analyzers with an EditorConfig file, see [Configure FxCop analyzers](../code-quality/configure-fxcop-analyzers.md).
 
 - [Parameter preferences](#parameter-preferences)
   - dotnet\_code\_quality\_unused\_parameters
-
-For information about configuring FxCop analyzers with an EditorConfig file, see [Configure FxCop analyzers](../code-quality/configure-fxcop-analyzers.md).
 
 ### Parameter preferences
 
