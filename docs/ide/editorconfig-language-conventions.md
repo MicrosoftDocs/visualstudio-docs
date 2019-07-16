@@ -21,6 +21,8 @@ Language conventions for EditorConfig in Visual Studio fall into two categories:
 > [!TIP]
 > - Use the **In this article** links to jump to different sections of the page.
 > - To see the code examples in your preferred programming language, choose it using the language picker at the top-right corner of the browser window.
+>
+>   ![Code language picker control](media/code-language-picker.png)
 
 ## Rule format
 
