@@ -2,7 +2,7 @@
 title: "Update Visual Studio"
 titleSuffix: ""
 description: "Learn how to update Visual Studio to the most recent release, step-by-step."
-ms.date: 06/19/2019
+ms.date: 07/11/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 ms.prod: visual-studio-windows
@@ -10,6 +10,8 @@ ms.technology: vs-installation
 helpviewer_keywords:
   - "update [Visual Studio]"
   - "change [Visual Studio]"
+f1_keywords:
+  - "VS.ToolsOptionsPages.Environment.ProductUpdates" 
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -253,6 +255,27 @@ You can check for an update and then install it by using the menu bar or the sea
 1. In the **Update downloaded and ready to install** dialog box, choose **Update**.
 
    Visual Studio updates, closes, and then reopens.
+
+## Customize update settings
+
+You can customize the update settings in Visual Studio in several different ways, such as by changing the installation mode and by selecting automatic downloads.
+
+There are two installation modes to choose from:
+
+* **Install while downloading**
+* **Download all, then install**
+
+You can also choose the **Automatically download updates** setting, which allows updates to download while your machine is idle.
+
+Here's how:
+
+1. On the menu bar, choose **Tools** > **Options**.
+
+2. Expand **Environment**, and then choose **Product Updates**.
+
+    ![Updates settings in Visual Studio](media/vs-2019/update-settings-options.png)
+
+3. Choose the installation mode and the automatic download options you want for your Visual Studio updates.
 
 ::: moniker-end
 
