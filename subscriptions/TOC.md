@@ -62,16 +62,12 @@
 ### [Administrator Responsibilities](admin-responsibilities.md)
 ### Managing Administrators
 #### [Volume Licensing](volume-license-admins.md)
-##### [VLSC Admin Migration FAQs](vlsc-admin-faq.md)
-#### Onboarding your organization
-###### [Post Migration Onboarding](post-migration-onboarding.md)
-###### [Open and Open License Migration](open-migration.md)
-###### [Onboarding Email Communications](volume-license-onboarding-email.md)
-###### [Find Your PCN](find-pcn.md)
-###### [Find Your Primary Contact](find-primary-contact.md)
-##### [MPSA](mpsa.md)
-##### [Cloud Subscriptions](cloud-admin.md)
-##### [Onboarding video](https://youtu.be/plSu6fpi7UI)
+### Onboarding your organization
+#### [Post Migration Onboarding](post-migration-onboarding.md)
+#### [Open and Open License Migration](open-migration.md)
+#### [MPSA](mpsa.md)
+#### [Cloud Subscriptions](cloud-admin.md)
+#### [Onboarding video](https://youtu.be/plSu6fpi7UI)
 ### Using the admin portal
 #### [Overview](using-admin-portal.md)
 #### [Assign Subscriptions](assign-license.md)
