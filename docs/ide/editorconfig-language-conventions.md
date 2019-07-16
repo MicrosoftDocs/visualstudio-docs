@@ -16,13 +16,7 @@ ms.workload:
 ---
 # Language conventions
 
-Language conventions for EditorConfig in Visual Studio fall into these categories:
-
-- [.NET code style settings](#net-code-style-settings)
-
-- [.NET code quality settings](#net-code-quality-settings)
-
-- [C# code style settings](#c-code-style-settings)
+Language conventions for EditorConfig in Visual Studio fall into two categories: those that apply to Visual Basic and C#, and those that are C# specific. Language conventions affect how various aspects of a programming language are used, for example, modifiers and parentheses.
 
 > [!TIP]
 > To see the code examples in your preferred programming language, choose it using the language picker at the top-right corner of the browser window.
