@@ -19,7 +19,8 @@ ms.workload:
 Language conventions for EditorConfig in Visual Studio fall into two categories: those that apply to Visual Basic and C#, and those that are C# specific. Language conventions affect how various aspects of a programming language are used, for example, modifiers and parentheses.
 
 > [!TIP]
-> To see the code examples in your preferred programming language, choose it using the language picker at the top-right corner of the browser window.
+> - Use the **In this article** links to jump to different sections of the page.
+> - To see the code examples in your preferred programming language, choose it using the language picker at the top-right corner of the browser window.
 
 ## Rule format
 
