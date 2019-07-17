@@ -1142,6 +1142,7 @@ csharp_style_expression_bodied_properties = true:suggestion
 csharp_style_expression_bodied_indexers = true:suggestion
 csharp_style_expression_bodied_accessors = true:suggestion
 csharp_style_expression_bodied_lambdas = true:silent
+csharp_style_expression_bodied_local_functions = false:silent
 ```
 
 #### csharp\_style\_expression\_bodied_methods
@@ -1283,6 +1284,38 @@ Func<int, int> square = x => x * x;
 
 // csharp_style_expression_bodied_lambdas = false
 Func<int, int> square = x => { return x * x; };
+```
+
+#### csharp\_style\_expression\_bodied\_local_functions
+
+Starting with C# 7.0, C# supports [local functions](/dotnet/csharp/programming-guide/classes-and-structs/local-functions). Local functions are private methods of a type that are nested in another member.
+
+|||
+|-|-|
+| **Rule name** | csharp_style_expression_bodied_local_functions |
+| **Rule ID** | IDE0061 |
+| **Values** | `true` - Prefer expression bodies for local functions<br /><br />`when_on_single_line` - Prefer expression bodies for local functions when they will be a single line<br /><br />`false` - Prefer block bodies for local functions |
+| **Visual Studio default** | `false:silent` |
+
+Code examples:
+
+```csharp
+// csharp_style_expression_bodied_local_functions = true
+void M()
+{
+    Hello();
+    void Hello() => Console.WriteLine("Hello");
+}
+
+// csharp_style_expression_bodied_local_functions = false
+void M()
+{
+    Hello();
+    void Hello()
+    {
+        Console.WriteLine("Hello");
+    }
+}
 ```
 
 ### Pattern matching
