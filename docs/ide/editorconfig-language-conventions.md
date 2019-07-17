@@ -1033,6 +1033,7 @@ The style rules in this section are applicable to C# only.
   - csharp\_style\_expression\_bodied_properties
   - csharp\_style\_expression\_bodied_indexers
   - csharp\_style\_expression\_bodied_accessors
+  - csharp\_style\_expression\_bodied_lambdas
 - [Pattern matching](#pattern-matching)
   - csharp\_style\_pattern\_matching\_over\_is\_with\_cast_check
   - csharp\_style\_pattern\_matching\_over\_as\_with\_null_check
@@ -1137,6 +1138,7 @@ csharp_style_expression_bodied_operators = false:silent
 csharp_style_expression_bodied_properties = true:suggestion
 csharp_style_expression_bodied_indexers = true:suggestion
 csharp_style_expression_bodied_accessors = true:suggestion
+csharp_style_expression_bodied_lambdas = true:silent
 ```
 
 #### csharp\_style\_expression\_bodied_methods
@@ -1146,7 +1148,7 @@ csharp_style_expression_bodied_accessors = true:suggestion
 | **Rule name** | csharp_style_expression_bodied_methods |
 | **Rule ID** | IDE0022 |
 | **Applicable languages** | C# 6.0+  |
-| **Values** | `true` - Prefer expression-bodied members for methods<br /><br />`when_on_single_line` - Prefer expression-bodied members for methods when they will be a single line<br /><br />`false` - Prefer block bodies for methods |
+| **Values** | `true` - Prefer expression bodies for methods<br /><br />`when_on_single_line` - Prefer expression bodies for methods when they will be a single line<br /><br />`false` - Prefer block bodies for methods |
 | **Visual Studio default** | `false:silent` |
 
 Code examples:
@@ -1166,7 +1168,7 @@ public int GetAge() { return this.Age; }
 | **Rule name** | csharp_style_expression_bodied_constructors |
 | **Rule ID** | IDE0021 |
 | **Applicable languages** | C# 7.0+  |
-| **Values** | `true` - Prefer expression-bodied members for constructors<br /><br />`when_on_single_line` - Prefer expression-bodied members for constructors when they will be a single line<br /><br />`false` - Prefer block bodies for constructors |
+| **Values** | `true` - Prefer expression bodies for constructors<br /><br />`when_on_single_line` - Prefer expression bodies for constructors when they will be a single line<br /><br />`false` - Prefer block bodies for constructors |
 | **Visual Studio default** | `false:silent` |
 
 Code examples:
@@ -1186,7 +1188,7 @@ public Customer(int age) { Age = age; }
 | **Rule name** | csharp_style_expression_bodied_operators |
 | **Rule ID** | IDE0023 and IDE0024 |
 | **Applicable languages** | C# 7.0+  |
-| **Values** | `true` - Prefer expression-bodied members for operators<br /><br />`when_on_single_line` - Prefer expression-bodied members for operators when they will be a single line<br /><br />`false` - Prefer block bodies for operators |
+| **Values** | `true` - Prefer expression bodies for operators<br /><br />`when_on_single_line` - Prefer expression bodies for operators when they will be a single line<br /><br />`false` - Prefer block bodies for operators |
 | **Visual Studio default** | `false:silent` |
 
 Code examples:
@@ -1208,7 +1210,7 @@ public static ComplexNumber operator + (ComplexNumber c1, ComplexNumber c2)
 | **Rule name** | csharp_style_expression_bodied_properties |
 | **Rule ID** | IDE0025 |
 | **Applicable languages** | C# 7.0+  |
-| **Values** | `true` - Prefer expression-bodied members for properties<br /><br />`when_on_single_line` - Prefer expression-bodied members for properties when they will be a single line<br /><br />`false` - Prefer block bodies for properties |
+| **Values** | `true` - Prefer expression bodies for properties<br /><br />`when_on_single_line` - Prefer expression bodies for properties when they will be a single line<br /><br />`false` - Prefer block bodies for properties |
 | **Visual Studio default** | `true:silent` |
 
 Code examples:
@@ -1228,7 +1230,7 @@ public int Age { get { return _age; }}
 | **Rule name** | csharp_style_expression_bodied_indexers |
 | **Rule ID** | IDE0026 |
 | **Applicable languages** | C# 7.0+  |
-| **Values** | `true` - Prefer expression-bodied members for indexers<br /><br />`when_on_single_line` - Prefer expression-bodied members for indexers when they will be a single line<br /><br />`false` - Prefer block bodies for indexers |
+| **Values** | `true` - Prefer expression bodies for indexers<br /><br />`when_on_single_line` - Prefer expression bodies for indexers when they will be a single line<br /><br />`false` - Prefer block bodies for indexers |
 | **Visual Studio default** | `true:silent` |
 
 Code examples:
@@ -1248,7 +1250,7 @@ public T this[int i] { get { return _values[i]; } }
 | **Rule name** | csharp_style_expression_bodied_accessors |
 | **Rule ID** | IDE0027 |
 | **Applicable languages** | C# 7.0+  |
-| **Values** | `true` - Prefer expression-bodied members for accessors<br /><br />`when_on_single_line` - Prefer expression-bodied members for accessors when they will be a single line<br /><br />`false` - Prefer block bodies for accessors |
+| **Values** | `true` - Prefer expression bodies for accessors<br /><br />`when_on_single_line` - Prefer expression bodies for accessors when they will be a single line<br /><br />`false` - Prefer block bodies for accessors |
 | **Visual Studio default** | `true:silent` |
 
 Code examples:
@@ -1259,6 +1261,25 @@ public int Age { get => _age; set => _age = value; }
 
 // csharp_style_expression_bodied_accessors = false
 public int Age { get { return _age; } set { _age = value; } }
+```
+
+#### csharp\_style\_expression\_bodied_lambdas
+
+|||
+|-|-|
+| **Rule name** | csharp_style_expression_bodied_lambdas |
+| **Rule ID** | IDE0053 |
+| **Values** | `true` - Prefer expression bodies for lambdas<br /><br />`when_on_single_line` - Prefer expression bodies for lambdas when they will be a single line<br /><br />`false` - Prefer block bodies for lambdas |
+| **Visual Studio default** | `true:silent` |
+
+Code examples:
+
+```csharp
+// csharp_style_expression_bodied_lambdas = true
+Func<int, int> square = x => x * x;
+
+// csharp_style_expression_bodied_lambdas = false
+Func<int, int> square = x => { return x * x; };
 ```
 
 ### Pattern matching
