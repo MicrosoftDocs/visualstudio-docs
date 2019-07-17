@@ -1590,7 +1590,7 @@ if (test) this.Display();
 
 ### Unused value preferences
 
-These style rules concerns the use unused values.
+These style rules concern unused expressions and value assignments.
 
 Example *.editorconfig* file:
 
