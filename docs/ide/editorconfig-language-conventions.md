@@ -16,14 +16,13 @@ ms.workload:
 ---
 # Language conventions
 
-Language conventions for EditorConfig in Visual Studio fall into two categories:
-
-- [.NET code style settings](#net-code-style-settings)
-
-- [C# code style settings](#c-code-style-settings)
+Language conventions for EditorConfig in Visual Studio fall into two categories: those that apply to Visual Basic and C#, and those that are C# specific. Language conventions affect how various aspects of a programming language are used, for example, modifiers and parentheses.
 
 > [!TIP]
-> To see the code examples in your preferred programming language, choose it using the language picker at the top-right corner of the browser window.
+> - Use the **In this article** links to jump to different sections of the page.
+> - To see the code examples in your preferred programming language, choose it using the language picker at the top-right corner of the browser window.
+>
+>   ![Code language picker control](media/code-language-picker.png)
 
 ## Rule format
 
@@ -77,6 +76,7 @@ The style rules in this section are applicable to both C# and Visual Basic.
   - dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method
   - dotnet\_style\_prefer\_conditional\_expression\_over\_assignment
   - dotnet\_style\_prefer\_conditional\_expression\_over\_return
+  - dotnet\_style\_prefer\_compound\_assignment
 - ["Null" checking preferences](#null-checking-preferences)
   - dotnet\_style\_coalesce_expression
   - dotnet\_style\_null_propagation
@@ -549,6 +549,7 @@ dotnet_style_prefer_inferred_anonymous_type_member_names = true:suggestion
 dotnet_style_prefer_auto_properties = true:silent
 dotnet_style_prefer_conditional_expression_over_assignment = true:suggestion
 dotnet_style_prefer_conditional_expression_over_return = true:suggestion
+dotnet_style_prefer_compound_assignment = true:suggestion
 ```
 
 #### dotnet\_style\_object_initializer
@@ -865,6 +866,34 @@ Else
 End If
 ```
 
+#### dotnet\_style\_prefer\_compound\_assignment
+
+|||
+|-|-|
+| **Rule name** | dotnet_style_prefer_compound_assignment |
+| **Rule ID** | IDE0054 |
+| **Applicable languages** | C# and Visual Basic |
+| **Values** | `true` - Prefer [compound assignment](/dotnet/csharp/language-reference/operators/assignment-operator#compound-assignment) expressions<br /><br />`false` - Don't prefer compound assignment expressions |
+| **Visual Studio default** | `true:suggestion` |
+
+Code examples:
+
+```csharp
+// dotnet_style_prefer_compound_assignment = true
+x += 1;
+
+// dotnet_style_prefer_compound_assignment = false
+x = x + 1;
+```
+
+```vb
+' dotnet_style_prefer_compound_assignment = true
+x += 1
+
+' dotnet_style_prefer_compound_assignment = false
+x = x + 1
+```
+
 ### Null-checking preferences
 
 The style rules in this section concern null-checking preferences.
@@ -936,6 +965,57 @@ Dim v = o?.ToString()
 ' dotnet_style_null_propagation = false
 Dim v = If(o Is Nothing, Nothing, o.ToString()) ' or
 Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
+```
+
+## .NET code quality settings
+
+The quality rules in this section apply to both C# and Visual Basic code. They're used to configure code analyzers that are built into the Visual Studio interactive development environment (IDE). For information about configuring FxCop analyzers with an EditorConfig file, see [Configure FxCop analyzers](../code-quality/configure-fxcop-analyzers.md).
+
+- [Parameter preferences](#parameter-preferences)
+  - dotnet\_code\_quality\_unused\_parameters
+
+### Parameter preferences
+
+The quality rules in this section concern method parameters.
+
+These rules could appear in an *.editorconfig* file as follows:
+
+```ini
+# CSharp and Visual Basic code quality settings:
+[*.{cs,vb}]
+dotnet_code_quality_unused_parameters = all:suggestion
+```
+
+#### dotnet\_code\_quality\_unused\_parameters
+
+|||
+|-|-|
+| **Rule name** | dotnet_code_quality_unused_parameters |
+| **Rule ID** | IDE0060 |
+| **Applicable languages** | C# and Visual Basic |
+| **Values** | `all` - Flag methods with any accessibility that contain unused parameters<br /><br />`non_public` - Flag only non-public methods that contain unused parameters |
+| **Visual Studio default** | `all:suggestion` |
+
+Code examples:
+
+```csharp
+// dotnet_code_quality_unused_parameters = all:suggestion
+public int GetNum() { return 1; }
+
+// dotnet_code_quality_unused_parameters = non_public:suggestion
+public int GetNum(int arg1) { return 1; }
+```
+
+```vb
+' dotnet_code_quality_unused_parameters = all:suggestion
+Public Function GetNum()
+    Return 1
+End Function
+
+' dotnet_code_quality_unused_parameters = non_public:suggestion
+Public Function GetNum(arg1 As Integer)
+    Return 1
+End Function
 ```
 
 ## C# code style settings
