@@ -1048,6 +1048,9 @@ The style rules in this section are applicable to C# only.
   - csharp\_style\_conditional\_delegate_call
 - [Code block preferences](#code-block-preferences)
   - csharp\_prefer_braces
+- [Unused value preferences](#unused-value-preferences)
+  - csharp\_style\_unused\_value\_expression\_statement_preference
+  - csharp\_style\_unused\_value\_assignment_preference
 
 ### Implicit and explicit types
 
@@ -1381,6 +1384,7 @@ Example *.editorconfig* file:
 csharp_prefer_simple_default_expression = true:suggestion
 csharp_style_deconstructed_variable_declaration = true:suggestion
 csharp_style_pattern_local_over_anonymous_function = true:suggestion
+csharp_style_prefer_index_operator = true:suggestion
 ```
 
 #### csharp\_prefer\_simple\_default_expression
@@ -1544,6 +1548,72 @@ if (test) { this.Display(); }
 
 // csharp_prefer_braces = false
 if (test) this.Display();
+```
+
+### Unused value preferences
+
+These style rules concerns the use unused values.
+
+Example *.editorconfig* file:
+
+```ini
+# CSharp code style settings:
+[*.cs]
+csharp_style_unused_value_expression_statement_preference = discard_variable:silent
+csharp_style_unused_value_assignment_preference = discard_variable:suggestion
+```
+
+#### csharp_style_unused_value_expression_statement_preference
+
+|||
+|-|-|
+| **Rule name** | csharp_style_unused_value_expression_statement_preference |
+| **Rule ID** | IDE0058 |
+| **Applicable languages** | C# |
+| **Values** | `discard_variable` - Prefer to assign an unused expression to a [discard](/dotnet/csharp/discards) <br /><br />`unused_local_variable` - Prefer to assign an unused expression to a local variable |
+| **Visual Studio default** | `discard_variable:silent` |
+
+Code examples:
+
+```csharp
+// Original code:
+System.Convert.ToInt32("35");
+
+// After code fix for IDE0058:
+
+// csharp_style_unused_value_expression_statement_preference = discard_variable
+_ = System.Convert.ToInt32("35");
+
+// csharp_style_unused_value_expression_statement_preference = unused_local_variable
+var unused = Convert.ToInt32("35");
+```
+
+#### csharp_style_unused_value_assignment_preference
+
+|||
+|-|-|
+| **Rule name** | csharp_style_unused_value_assignment_preference |
+| **Rule ID** | IDE0059 |
+| **Applicable languages** | C# |
+| **Values** | `discard_variable` - Prefer to use a [discard](/dotnet/csharp/discards) when assigning a value that's not used<br /><br />`unused_local_variable` - Prefer to use a local variable when assigning a value that's not used |
+| **Visual Studio default** | `discard_variable:suggestion` |
+
+Code examples:
+
+```csharp
+// csharp_style_unused_value_assignment_preference = discard_variable
+int GetCount(Dictionary<string, int> wordCount, string searchWord)
+{
+    _ = wordCount.TryGetValue(searchWord, out var count);
+    return count;
+}
+
+// csharp_style_unused_value_assignment_preference = unused_local_variable
+int GetCount(Dictionary<string, int> wordCount, string searchWord)
+{
+    var unused = wordCount.TryGetValue(searchWord, out var count);
+    return count;
+}
 ```
 
 ## See also
