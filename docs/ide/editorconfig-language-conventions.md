@@ -1034,6 +1034,7 @@ The style rules in this section are applicable to C# only.
   - csharp\_style\_expression\_bodied_indexers
   - csharp\_style\_expression\_bodied_accessors
   - csharp\_style\_expression\_bodied_lambdas
+  - chsarp\_style\_expression\_bodied\_local_functions
 - [Pattern matching](#pattern-matching)
   - csharp\_style\_pattern\_matching\_over\_is\_with\_cast_check
   - csharp\_style\_pattern\_matching\_over\_as\_with\_null_check
@@ -1051,6 +1052,8 @@ The style rules in this section are applicable to C# only.
 - [Unused value preferences](#unused-value-preferences)
   - csharp\_style\_unused\_value\_expression\_statement_preference
   - csharp\_style\_unused\_value\_assignment_preference
+- [Miscellaneous preferences](#miscellaneous-preferences)
+  - csharp\_using\_directive\_placement
 
 ### Implicit and explicit types
 
@@ -1171,7 +1174,7 @@ public int GetAge() { return this.Age; }
 |-|-|
 | **Rule name** | csharp_style_expression_bodied_constructors |
 | **Rule ID** | IDE0021 |
-| **Applicable languages** | C# 7.0+  |
+| **Applicable languages** | C# 7.0+ |
 | **Values** | `true` - Prefer expression bodies for constructors<br /><br />`when_on_single_line` - Prefer expression bodies for constructors when they will be a single line<br /><br />`false` - Prefer block bodies for constructors |
 | **Visual Studio default** | `false:silent` |
 
@@ -1191,7 +1194,7 @@ public Customer(int age) { Age = age; }
 |-|-|
 | **Rule name** | csharp_style_expression_bodied_operators |
 | **Rule ID** | IDE0023 and IDE0024 |
-| **Applicable languages** | C# 7.0+  |
+| **Applicable languages** | C# 7.0+ |
 | **Values** | `true` - Prefer expression bodies for operators<br /><br />`when_on_single_line` - Prefer expression bodies for operators when they will be a single line<br /><br />`false` - Prefer block bodies for operators |
 | **Visual Studio default** | `false:silent` |
 
@@ -1213,7 +1216,7 @@ public static ComplexNumber operator + (ComplexNumber c1, ComplexNumber c2)
 |-|-|
 | **Rule name** | csharp_style_expression_bodied_properties |
 | **Rule ID** | IDE0025 |
-| **Applicable languages** | C# 7.0+  |
+| **Applicable languages** | C# 7.0+ |
 | **Values** | `true` - Prefer expression bodies for properties<br /><br />`when_on_single_line` - Prefer expression bodies for properties when they will be a single line<br /><br />`false` - Prefer block bodies for properties |
 | **Visual Studio default** | `true:silent` |
 
@@ -1233,7 +1236,7 @@ public int Age { get { return _age; }}
 |-|-|
 | **Rule name** | csharp_style_expression_bodied_indexers |
 | **Rule ID** | IDE0026 |
-| **Applicable languages** | C# 7.0+  |
+| **Applicable languages** | C# 7.0+ |
 | **Values** | `true` - Prefer expression bodies for indexers<br /><br />`when_on_single_line` - Prefer expression bodies for indexers when they will be a single line<br /><br />`false` - Prefer block bodies for indexers |
 | **Visual Studio default** | `true:silent` |
 
@@ -1253,7 +1256,7 @@ public T this[int i] { get { return _values[i]; } }
 |-|-|
 | **Rule name** | csharp_style_expression_bodied_accessors |
 | **Rule ID** | IDE0027 |
-| **Applicable languages** | C# 7.0+  |
+| **Applicable languages** | C# 7.0+ |
 | **Values** | `true` - Prefer expression bodies for accessors<br /><br />`when_on_single_line` - Prefer expression bodies for accessors when they will be a single line<br /><br />`false` - Prefer block bodies for accessors |
 | **Visual Studio default** | `true:silent` |
 
@@ -1294,6 +1297,7 @@ Starting with C# 7.0, C# supports [local functions](/dotnet/csharp/programming-g
 |-|-|
 | **Rule name** | csharp_style_expression_bodied_local_functions |
 | **Rule ID** | IDE0061 |
+| **Applicable languages** | C# 7.0+ |
 | **Values** | `true` - Prefer expression bodies for local functions<br /><br />`when_on_single_line` - Prefer expression bodies for local functions when they will be a single line<br /><br />`false` - Prefer block bodies for local functions |
 | **Visual Studio default** | `false:silent` |
 
@@ -1337,7 +1341,7 @@ csharp_style_pattern_matching_over_as_with_null_check = true:suggestion
 |-|-|
 | **Rule name** | csharp_style_pattern_matching_over_is_with_cast_check |
 | **Rule ID** | IDE0020 |
-| **Applicable languages** | C# 7.0+  |
+| **Applicable languages** | C# 7.0+ |
 | **Values** | `true` - Prefer pattern matching instead of `is` expressions with type casts<br /><br />`false` - Prefer `is` expressions with type casts instead of pattern matching |
 | **Visual Studio default** | `true:suggestion` |
 
@@ -1357,7 +1361,7 @@ if (o is int) {var i = (int)o; ... }
 |-|-|
 | **Rule name** | csharp_style_pattern_matching_over_as_with_null_check |
 | **Rule ID** | IDE0019 |
-| **Applicable languages** | C# 7.0+  |
+| **Applicable languages** | C# 7.0+ |
 | **Values** | `true` - Prefer pattern matching instead of `as` expressions with null checks to determine if something is of a particular type<br /><br />`false` - Prefer `as` expressions with null checks instead of pattern matching to determine if something is of a particular type |
 | **Visual Studio default** | `true:suggestion` |
 
@@ -1382,7 +1386,7 @@ This style rule concerns whether `out` variables are declared inline or not. Sta
 |-|-|
 | **Rule name** | csharp_style_inlined_variable_declaration |
 | **Rule ID** | IDE0018 |
-| **Applicable languages** | C# 7.0+  |
+| **Applicable languages** | C# 7.0+ |
 | **Values** | `true` - Prefer `out` variables to be declared inline in the argument list of a method call when possible<br /><br />`false` - Prefer `out` variables to be declared before the method call |
 | **Visual Studio default** | `true:suggestion` |
 
@@ -1417,7 +1421,6 @@ Example *.editorconfig* file:
 csharp_prefer_simple_default_expression = true:suggestion
 csharp_style_deconstructed_variable_declaration = true:suggestion
 csharp_style_pattern_local_over_anonymous_function = true:suggestion
-csharp_style_prefer_index_operator = true:suggestion
 ```
 
 #### csharp\_prefer\_simple\_default_expression
@@ -1448,7 +1451,7 @@ void DoWork(CancellationToken cancellationToken = default(CancellationToken)) { 
 |-|-|
 | **Rule name** | csharp_style_deconstructed_variable_declaration |
 | **Rule ID** | IDE0042 |
-| **Applicable languages** | C# 7.0+  |
+| **Applicable languages** | C# 7.0+ |
 | **Values** | `true` - Prefer deconstructed variable declaration<br /><br />`false` - Do not prefer deconstruction in variable declarations |
 | **Visual Studio default** | `true:suggestion` |
 
@@ -1472,11 +1475,13 @@ Console.WriteLine($"{point.x} {point.y}");
 
 #### csharp\_style\_pattern\_local\_over\_anonymous_function
 
+Starting with C# 7.0, C# supports [local functions](/dotnet/csharp/programming-guide/classes-and-structs/local-functions). Local functions are private methods of a type that are nested in another member.
+
 |||
 |-|-|
 | **Rule name** | csharp_style_pattern_local_over_anonymous_function |
 | **Rule ID** | IDE0039 |
-| **Applicable languages** | C# 7.0+  |
+| **Applicable languages** | C# 7.0+ |
 | **Values** | `true` - Prefer local functions over anonymous functions<br /><br />`false` - Prefer anonymous functions over local functions |
 | **Visual Studio default** | `true:suggestion` |
 
@@ -1516,7 +1521,7 @@ csharp_style_conditional_delegate_call = false:suggestion
 |-|-|
 | **Rule name** | csharp_style_throw_expression |
 | **Rule ID** | IDE0016 |
-| **Applicable languages** | C# 7.0+  |
+| **Applicable languages** | C# 7.0+ |
 | **Values** | `true` - Prefer to use `throw` expressions instead of `throw` statements<br /><br />`false` - Prefer to use `throw` statements instead of `throw` expressions |
 | **Visual Studio default** | `true:suggestion` |
 
@@ -1646,6 +1651,47 @@ int GetCount(Dictionary<string, int> wordCount, string searchWord)
 {
     var unused = wordCount.TryGetValue(searchWord, out var count);
     return count;
+}
+```
+
+### Miscellaneous preferences
+
+This section contains miscellaneous style rules.
+
+Example *.editorconfig* file:
+
+```ini
+# CSharp code style settings:
+[*.cs]
+csharp_using_directive_placement = outside_namespace:silent
+```
+
+#### csharp\_using\_directive_placement
+
+|||
+|-|-|
+| **Rule name** | csharp_using_directive_placement |
+| **Rule ID** | IDE0065 |
+| **Applicable languages** | C# |
+| **Values** | `outside_namespace` - Prefer `using` directives to be placed outside the namespace<br /><br />`inside_namespace` - Prefer `using` directives to be placed inside the namespace |
+| **Visual Studio default** | `outside_namespace:silent` |
+
+Code examples:
+
+```csharp
+// csharp_using_directive_placement = outside_namespace
+using System;
+
+namespace Conventions
+{
+    ...
+}
+
+// csharp_using_directive_placement = inside_namespace
+namespace Conventions
+{
+    using System;
+    ...
 }
 ```
 
