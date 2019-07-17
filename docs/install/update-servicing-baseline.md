@@ -1,7 +1,7 @@
 ---
 title: Update Visual Studio while on a servicing baseline
 description: Learn how to update Visual Studio while staying on a servicing baseline.
-ms.date: 05/22/2019
+ms.date: 07/17/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 ms.assetid:
@@ -15,7 +15,10 @@ ms.technology: vs-installation
 ---
 # Update Visual Studio while on a servicing baseline
 
-Visual Studio 2019 will have frequent updates during its [product lifecycle](/visualstudio/productinfo/release-rhythm#release-channel-updates). Updates will include both minor release updates (for example, from 16.0 to 16.1) that might add new features and components, and servicing updates (for example, from 16.0.4 to 16.0.5) that contain only targeted fixes for critical issues.
+We update Visual Studio often during its product lifecycle. There are two types of updates: 
+
+* **Minor release updates**&mdash;for example, 16.0 to 16.1&mdash;that include new features and components.  
+* **Servicing updates**—for example, 16.0.4 to 16.0.5—that include only targeted fixes for critical issues.
 
 Enterprise administrators can choose to keep their clients on a servicing baseline. A servicing baseline is supported with servicing updates for a year past the release of the next servicing baseline.
 
