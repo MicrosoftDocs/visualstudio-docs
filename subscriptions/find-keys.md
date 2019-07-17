@@ -61,4 +61,4 @@ You can export a list of all the keys you have claimed, along with a large selec
 To export your keys, simply click on the **Export all keys** link at the far right of the Product Keys page.  An .xml file entitled KeysExport.xml will be created, and you’ll have the option to open or save the file.  You will need to open the file with an application capable of handling .xml files.  For example, you can open the file as a read-only workbook in Excel.
 
 ## Next steps
-When you're ready to download software and use keys, visit https://my.visualstudio.com/downloads.  For more information about downloading software, please see the [downloading overview](downloading-software.md).
+When you're ready to download software and use keys, visit https://my.visualstudio.com/downloads.  For more information about downloading software, please see the [downloading overview](download-software.md).

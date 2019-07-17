@@ -7,7 +7,7 @@
 ##### [Overview](vscloud-overview.md)
 ##### [Billing FAQ](vscloud-billing-faq.md)
 ##### [Buying for CSPs](vscloud-csp.md)
-##### [Visual Studio with GitHub Enterprise](access-github.md)
+#### [Visual Studio with GitHub Enterprise](access-github.md)
 #### Microsoft Partner Network
 ##### [Subscriptions for partners](program-mpn.md)
 ##### [Managing subscriptions for MPN](manage-mpn-subscriptions.md)
@@ -52,7 +52,7 @@
 ## Software and keys
 ### Software downloads
 #### [Product availability](product-availability.md)
-#### [Downloading software](downloading-software.md)
+#### [Download software](download-software.md)
 ### [List of available software downloads](software-download-list.md)
 ### Product keys
 #### [Product keys overview](product-keys.md)
@@ -60,13 +60,12 @@
 #### [Internet demonstrations](internet-demos.md)
 ## Administrators
 ### [Administrator Responsibilities](admin-responsibilities.md)
-### Managing Administrators
-#### [Volume Licensing](volume-license-admins.md)
+### [Volume Licensing](volume-license-admins.md)
 ### Onboarding your organization
-#### [Post Migration Onboarding](post-migration-onboarding.md)
+#### [Post migration onboarding](post-migration-onboarding.md)
 #### [Open and Open License Migration](open-migration.md)
 #### [MPSA](mpsa.md)
-#### [Cloud Subscriptions](cloud-admin.md)
+#### [Cloud subscriptions](cloud-admin.md)
 #### [Onboarding video](https://youtu.be/plSu6fpi7UI)
 ### Using the admin portal
 #### [Overview](using-admin-portal.md)
@@ -86,5 +85,5 @@
 ### [Compare subscription options and pricing](https://visualstudio.microsoft.com/vs/pricing)
 ### [Compare Visual Studio IDE features](https://visualstudio.microsoft.com/vs/compare)
 ### [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
-### [Volume Licensing Terms](https://www.microsoft.com/en-us/licensing/product-licensing/products.aspx)
-### [Microsoft Products and Services Agreement (MPSA)](https://www.microsoft.com/en-us/licensing/mpsa/default.aspx)
+### [Volume Licensing Terms](https://www.microsoft.com/licensing/product-licensing/products.aspx)
+### [Microsoft Products and Services Agreement (MPSA)](https://www.microsoft.com/licensing/mpsa/default.aspx)

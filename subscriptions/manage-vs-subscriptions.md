@@ -46,8 +46,8 @@ On the Benefits page, the subscription in use will be prominently displayed in t
 
 - [Imagine](https://imagine.microsoft.com/about)
 - [BizSpark](https://bizspark.microsoft.com/About/Offers)
-- [Microsoft Partner Network](https://partner.microsoft.com/en-us)
-- [Microsoft Certified Trainer](https://www.microsoft.com/en-us/learning/mct-certification.aspx)
+- [Microsoft Partner Network](https://partner.microsoft.com)
+- [Microsoft Certified Trainer](https://www.microsoft.com/learning/mct-certification.aspx)
 
 ## Transferring subscriptions
 
