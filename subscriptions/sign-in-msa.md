@@ -25,8 +25,6 @@ This article will provide the steps for signing in with your Microsoft Account (
 4. Click **Sign in**.
 5. At this point, the "Benefits" page should be displayed.
 
-### For Visual Studio Dev Essentials users:
-When you access your Visual Studio Dev Essentials subscription for the first time, you will see a welcome dialog.  Click **Confirm** to accept the program's terms and conditions.
 
 ## Frequently asked questions
 ### Q:  I'm unable to sign in using my MSA.  
