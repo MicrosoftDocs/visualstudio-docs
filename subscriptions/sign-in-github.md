@@ -1,76 +1,18 @@
 ---
-title: Signing in to Visual Studio Subscriptions | Microsoft Docs
+title: Signing in to Visual Studio Subscriptions with your GitHub account | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 05/14/2019
+ms.date: 07/11/2019
 ms.topic: conceptual
-description:  How to Sign In to Your Visual Studio Subscription
+description:  Learn how to sign in to your Visual Studio subscription(s) with your GitHub account. 
 ---
 
-# Signing in to your Visual Studio subscription
+# Signing in to Visual Studio subscription(s) with your GitHub account 
 
-The steps to sign in to your Visual Studio subscription depend on the kind of account you're using.  For example, you may be using a Microsoft Account (MSA) or an email address supplied by your employer or school.  As of January 2019, you can now also use your GitHub account to sign in to some subscriptions. 
+The steps to sign in to your Visual Studio subscription depend on the kind of account you're using. For example, you may be using a Microsoft Account (MSA) or an email address supplied by your employer or school. As of January 2019, you can now also use your GitHub account to sign in to some subscriptions. 
 
-Four different sign-in methods are covered in this article:.  Use the links to the right to jump to any of these sections.
-1. Signing in with your Microsoft Account (MSA)
-2. Signing in with your work/school account
-3. Using a Microsoft Account to sign in to a work/school account
-4. Signing in with your GitHub account
-
-## Signing in with your Microsoft Account (MSA)
-1. Please visit [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
-2. Enter the email address you provided when you set up or purchased your Visual Studio subscription.
-
-   > [!NOTE]
-   > This address is also identified in the subscriber welcome email you received when you purchased the subscription or signed up for Visual Studio Dev Essentials. Please check your junk mail folders if you have trouble locating the welcome email.
-
-3. Enter your password.
-4. Click **Sign in**.
-5. At this point, the "Benefits" page should be displayed.
-
-### For Visual Studio Dev Essentials users:
-When you access your Visual Studio Dev Essentials subscription for the first time, you will see a welcome dialog.  Click **Confirm** to accept the program's terms and conditions.
-
-## Signing in with your work or school account
-
-1. Please visit [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
-2. Enter the email address to which the new Visual Studio subscription was assigned.
-
-   > [!NOTE]
-   > This address is also identified in the subscriber welcome email you received. Please check your junk mail folders if you have trouble locating the welcome email.
-
-3. Click **Continue**.
-4. You will be redirected to your corporate sign-in page.
-5. Enter your password.
-6. Click **Sign in**
-7. At this point, the "Benefits" page should be displayed
-
-You can now see the type of subscription you're using displayed in the blue bar across the top of the portal.
-
-You can also see your currently selected subscription in the upper right corner, under your username.  It will say "Showing: ", followed by the subscription.  If you have more than one subscription, you can click on the drop down arrow and select the subscription you would like to use.
-
-## Using your Microsoft Account to sign in to a work or school account
-
-1. Go to [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
-2. Enter the email address that was assigned the new Visual Studio subscription
-
-   > [!NOTE]
-   > This address is also identified in the subscriber Welcome Letter. Please check your junk mail folders if the Welcome Letter was not received
-
-3. Click **Continue**.
-4. You'll be redirected to a decision page.
-    - Select **Work or school account** if the subscription is associated with a "Work or School" account associated with an Azure Active Directory (AAD) tenant.
-    - Select **Personal** if the subscription is associated with a "Corporate" email address, but has also been converted to a "Personal" Microsoft Account (MSA).
-
-        > [!NOTE]
-        > This will be the case for many subscribers who have used Visual Studio subscriptions (formerly MSDN) in the past.
-
-    - If one pathway fails, try the other.  Subscription administrators may have modified your subscription.
-
-5. Enter your password.
-6. Click **Sign in**.
-7. At this point, the "Benefits" page should be displayed.
+This article will provide the steps for signing in with your GitHub account.
 
 ## Signing in with your GitHub account
 
@@ -115,3 +57,6 @@ A:  Go to the [Security tab](https://account.microsoft.com/security) of account.
 
 #### Q:  I try to use my GitHub account to sign in, but I'm prompted that I already have a Microsoft identity that I should use instead.  What's happening?
 A:  If you have an Azure Active Directory email address on your GitHub account, this means you already have a Microsoft identity that can access Azure and run CI pipelines using your GitHub code. Using that account ensures that your Azure resources and build pipelines remain within your organizational boundaries. However, if you’re doing personal work, we recommend putting a personal email address on your GitHub account so that you'll always have access to it. Once you do this, try signing in again and choose **Use a different email address** when you're prompted to sign in to your work or school account. This will let you create a new Microsoft account using that personal email address.
+
+## Next steps
+Once you've successfully signed in to the subscriptions portal, we recommend visiting the Benefits page at https://my.visualstudio.com/benefits and exploring the great tools, services, and offers available to you.  
