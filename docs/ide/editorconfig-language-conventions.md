@@ -1052,6 +1052,9 @@ The style rules in this section are applicable to C# only.
 - [Unused value preferences](#unused-value-preferences)
   - csharp\_style\_unused\_value\_expression\_statement_preference
   - csharp\_style\_unused\_value\_assignment_preference
+- [Index and range preferences](#index-and-range-preferences)
+  - csharp\_style\_prefer\_index_operator
+  - csharp\_style\_prefer\_range_operator
 - [Miscellaneous preferences](#miscellaneous-preferences)
   - csharp\_using\_directive\_placement
 
@@ -1652,6 +1655,63 @@ int GetCount(Dictionary<string, int> wordCount, string searchWord)
     var unused = wordCount.TryGetValue(searchWord, out var count);
     return count;
 }
+```
+
+### Index and range preferences
+
+These style rules concern the use of index and range operators, which are available in C# 8.0 and later.
+
+Example *.editorconfig* file:
+
+```ini
+# CSharp code style settings:
+[*.cs]
+csharp_style_prefer_index_operator = true:suggestion
+csharp_style_prefer_range_operator = true:suggestion
+```
+
+#### csharp\_style\_prefer\_index_operator
+
+|||
+|-|-|
+| **Rule name** | csharp_style_prefer_index_operator |
+| **Rule ID** | IDE0056 |
+| **Applicable languages** | C# 8.0+ |
+| **Values** | `true` - <br /><br />`false` -  |
+| **Visual Studio default** | `true:suggestion` |
+
+Code examples:
+
+```csharp
+// csharp_style_prefer_index_operator = true
+string[] names = { "Archimedes", "Pythagoras", "Euclid" };
+var index = names[^1];
+
+// csharp_style_prefer_index_operator = false
+string[] names = { "Archimedes", "Pythagoras", "Euclid" };
+var index = names[names.Length - 1];
+```
+
+#### csharp\_style\_prefer\_range_operator
+
+|||
+|-|-|
+| **Rule name** | csharp_style_prefer_range_operator |
+| **Rule ID** | IDE0057 |
+| **Applicable languages** | C# 8.0+ |
+| **Values** | `true` - <br /><br />`false` -  |
+| **Visual Studio default** | `true:suggestion` |
+
+Code examples:
+
+```csharp
+// csharp_style_prefer_range_operator = true
+string sentence = "the quick brown fox";
+var sub = sentence[0..^4];
+
+// csharp_style_prefer_range_operator = false
+string sentence = "the quick brown fox";
+var sub = sentence.Substring(0, sentence.Length - 4);
 ```
 
 ### Miscellaneous preferences
