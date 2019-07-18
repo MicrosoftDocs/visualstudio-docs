@@ -23,7 +23,7 @@ Visual Studio uses [.NET regular expressions](/dotnet/standard/base-types/regula
 
 ## Regular expression examples
 
-The following tables contains some regular expression characters, operators, constructs, and pattern examples. For a more complete reference, see [Regular expression language](/dotnet/standard/base-types/regular-expression-language-quick-reference).
+The following table contains some regular expression characters, operators, constructs, and pattern examples. For a more complete reference, see [Regular expression language](/dotnet/standard/base-types/regular-expression-language-quick-reference).
 
 |Purpose|Expression|Example|
 |-------------|----------------|-------------|
@@ -39,7 +39,7 @@ The following tables contains some regular expression characters, operators, con
 |Anchor the match string to the end of the file|$|`end$` matches "end" only when it appears at the end of the file.|
 |Match any single character in a set|[abc]|`b[abc]` matches "ba", "bb", and "bc".|
 |Match any character in a range of characters|[a-f]|`be[n-t]` matches "bet" in "between", "ben" in "beneath", and "bes" in "beside", but not "below".|
-|Capture and implicitly number the expression contained within parenthesis|()|`([a-z])X\1` matches "aXa"and "bXb", but not "aXb". "\1" refers to the first expression group "[a-z]".|
+|Capture and implicitly number the expression contained within parenthesis|()|`([a-z])X\1` matches "aXa"and "bXb", but not "aXb". "\1" refers to the first expression group "[a-z]". For more information, see [Capture groups and replacement patterns](#capture-groups-and-replacement-patterns). |
 |Invalidate a match|(?!abc)|`real(?!ity)` matches "real" in "realty" and "really" but not in "reality." It also finds the second "real" (but not the first "real") in "realityreal".|
 |Match any character that is not in a given set of characters. For more information, see [Negative character group](/dotnet/standard/base-types/character-classes-in-regular-expressions#negative-character-group-).|[^abc]|`be[^n-t]` matches "bef" in "before", "beh" in "behind", and "bel" in "below", but not "beneath".|
 |Match either the expression before or the one after the symbol|&#124;|`(sponge\|mud) bath` matches "sponge bath" and "mud bath."|
