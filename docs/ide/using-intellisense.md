@@ -74,6 +74,10 @@ Complete Word completes the rest of a variable, command, or function name after 
 
 IntelliSense options are on by default. To turn them off, choose **Tools** > **Options** > **Text Editor** and deselect **Parameter information** or **Auto list members** if you do not want the List Members feature.
 
+## Intellisense icons
+The icons in intellisense can convey additional meaning with icon modifiers. These are stars, hearts, and locks layered on top of the object's icon that convey protected, internal, or private respectively.
+
+
 ## Troubleshoot IntelliSense
 
 The IntelliSense options may not work as you expect in certain cases.
