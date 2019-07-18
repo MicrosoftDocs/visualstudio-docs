@@ -1,6 +1,6 @@
 ---
 title: .NET formatting conventions for EditorConfig
-ms.date: 06/17/2019
+ms.date: 07/17/2019
 ms.topic: reference
 dev_langs:
   - "CSharp"
@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Formatting conventions
 
-Formatting conventions for EditorConfig for Visual Studio fall into two categories:
+Formatting conventions for EditorConfig for Visual Studio fall into these categories:
 
 - [.NET formatting settings](#net-formatting-settings)
 
@@ -116,6 +116,9 @@ The formatting rules in this section apply only to C# code.
   - csharp_indent_case_contents
   - csharp_indent_switch_labels
   - csharp_indent_labels
+  - csharp_indent_block_contents
+  - csharp_indent_braces
+  - csharp_indent_case_contents_when_block
 - [Spacing options](#spacing-options)
   - csharp_space_after_cast
   - csharp_space_after_keywords_in_control_flow_statements
@@ -365,6 +368,9 @@ Example *.editorconfig* file:
 csharp_indent_case_contents = true
 csharp_indent_switch_labels = true
 csharp_indent_labels = flush_left
+csharp_indent_block_contents = true
+csharp_indent_braces = false
+csharp_indent_case_contents_when_block = true
 ```
 
 #### csharp\_indent\_case_contents
@@ -500,6 +506,83 @@ class C
         error:
         throw new Exception(...);
     }
+}
+```
+
+#### csharp_indent_block_contents
+
+|||
+|-|-|
+| **Rule name** | csharp_indent_block_contents |
+| **Applicable languages** | C# |
+| **Values** | `true` - <br /><br />`false` -  |
+| **Visual Studio default** | `true` |
+
+Code examples:
+
+```csharp
+// csharp_indent_block_contents = true
+static void Hello()
+{
+    Console.WriteLine("Hello");
+}
+
+// csharp_indent_block_contents = false
+static void Hello()
+{
+Console.WriteLine("Hello");
+}
+```
+
+#### csharp_indent_braces
+
+|||
+|-|-|
+| **Rule name** | csharp_indent_braces |
+| **Applicable languages** | C# |
+| **Values** | `true` - <br /><br />`false` -  |
+| **Visual Studio default** | `false` |
+
+Code examples:
+
+```csharp
+// csharp_indent_braces = true
+static void Hello()
+    {
+    Console.WriteLine("Hello");
+    }
+
+// csharp_indent_braces = false
+static void Hello()
+{
+    Console.WriteLine("Hello");
+}
+```
+
+#### csharp_indent_case_contents_when_block
+
+|||
+|-|-|
+| **Rule name** | csharp_indent_case_contents_when_block |
+| **Applicable languages** | C# |
+| **Values** | `true` - <br /><br />`false` -  |
+| **Visual Studio default** | `true` |
+
+Code examples:
+
+```csharp
+// csharp_indent_case_contents_when_block = true
+case 0:
+    {
+        Console.WriteLine("Hello");
+        break;
+    }
+
+// csharp_indent_case_contents_when_block = false
+case 0:
+{
+    Console.WriteLine("Hello");
+    break;
 }
 ```
 
