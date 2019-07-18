@@ -1,43 +1,17 @@
 ---
-title: Using Product Keys | Microsoft Docs
+title: Finding and claiming product keys in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 10/03/2017
+ms.author: lank
+manager: lank
+ms.date: 07/11/2019
 ms.topic: conceptual
-description:  Learn how to obtain and manage your product keys in Visual Studio subscriptions.
+description:  Learn how to find, claim and export product keys in Visual Studio subscriptions
 ---
 
-# Using product keys in Visual Studio subscriptions
+# Finding and claiming product keys in Visual Studio subscriptions
+This article explains how to locate, claim, and export product keys from https://my.visualstudio.com/productkeys.  For more information about activating a product with a key, retail and volume license versions of keys, and daily product key claim limits, please visit the [product keys overview](product-keys.md).
 
-Visual Studio subscriptions provide access to a wide range of Microsoft products for designing, developing, testing, and demonstrating applications. Some of these products require product keys during installation, and some of those require activation.
-
-Visual Studio subscriptions typically include five product keys for current versions of Windows and Office products, and three keys for older versions.
-
-Most product keys also allow multiple activations of the product for each key.  Many products also allow you to install and use the product for 30 days or more without activation.  For most subscribers, this provides more than enough activations to meet their needs.  However, if you have exhausted the available activations for a product, you can submit a request for additional keys through Visual Studio [Subscriptions Customer Service](https://visualstudio.microsoft.com/subscriptions/support/).
-
-## Activating a product
-Activation is required for certain products.  Generally, in Visual Studio subscriptions this is limited to Windows, Windows Server, Microsoft Office client applications, and Expression Studio. When activation is required, many products — including Windows and Office — allow you to install and use the product without activation for 30 days or more. If you re-image your computers frequently (at least once every 30 days), consider NOT activating the product. Product keys supplied as part of your Visual Studio subscription do not allow unlimited activations of a product.
-
-If you’ve claimed all the available product keys under your subscription and have used up all the available activations, you can request additional keys by contacting your local Visual Studio Subscription [Customer Service Center](https://visualstudio.microsoft.com/subscriptions/support/). Requests will be considered on a case-by-case basis. If approved, product keys will be accessible in [Downloads](https://my.visualstudio.com/downloads).
-
-## Retail and Volume Licensing versions of products
-Visual Studio subscriptions offer a selection of retail and Volume Licensing versions of Microsoft products. Certain products are available from Downloads only in their retail version or only in their Volume Licensing version; some are available in both versions. Generally, products requiring activation, such as Windows, Windows Server, and Office client products, are only offered in their retail version through Downloads.
-
-Volume Licensing customers can also download software from the Volume Licensing Service Center (VLSC) to get Volume Licensing versions of products (and the corresponding product keys).  Access to the VLSC is managed by designated administrators within the customer’s organization.
-
-## Daily product key claim limits
-Microsoft is committed to protecting the integrity of the Visual Studio subscriptions program and the value of the software and benefits that the program’s legitimate subscribers receive for their investment. In support of this commitment, Microsoft has implemented daily key claim limits for Visual Studio subscriptions. Daily key claim limits restrict the number of keys that can be claimed per day per subscription.
-
-The daily key claim limit is 10 keys for all Visual Studio subscriptions, including those offered through MPN, BizSpark, MCT Software & Services, and MCT, with the exception of Visual Studio Professional (MPN), which has a daily key claim limit of 7 keys.
-
-Note: Key claim limits are subject to change. Please check here for the most up-to-date limits.
-
-If you have claimed the maximum number of keys available for your subscription within a 24-hour period, you will see an error telling you that your limit has been reached. The limit resets every 24 hours, starting at 12:01 AM Pacific Time.
-
-Our research shows that most subscribers are covered by the number of product keys included in their subscription. If you need additional keys, you can submit a request through Visual Studio Subscription [Customer Service](https://visualstudio.microsoft.com/subscriptions/support/) and it will be considered for approval on a case-by-case basis.
-
-## Accessing product keys
+## Locating and claiming product keys
 You must be signed in to your Visual Studio subscription to view your product keys. Individual product keys are found by selecting the blue **Get Key** link for a particular product on the [Downloads](https://my.visualstudio.com/downloads) page as shown below.  All keys are also available in aggregate on the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) page. When multiple keys exist for a single product, notes will be displayed on the Notes column for the download to assist you in identifying which key should be used.
 > [!div class="mx-imgBorder"]
 > ![Get Key from Downloads Page](_img/product-keys/download-get-key.png)
@@ -65,9 +39,26 @@ A variety of key types are available, depending on the product.
 
 You can claim a key from the download page for the product, or you can search for the key you need on the [Product Keys](https://my.visualstudio.com/productkeys) page.
 
+### Claiming product keys
+Only subscribers with active subscriptions can download products and claim product keys.  You can export your claimed keys from the [Product Keys](https://my.visualstudio.com/productkeys) page while your subscription is active.
+
+To claim a product key:
+1. Sign in to your Visual Studio subscription.  You must be signed in to download products or claim product keys.
+2. Click on the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) tab.
+3. Product keys are listed alphabetically by the name of the product.  You can either scroll down to the name of the desired product, or search for it using the search bar at the top of the page.
+   > [!div class="mx-imgBorder"]
+   > ![Search for Product Key](_img/product-keys/visio-product-key-cropped.png)
+
+In this example, we’ve used the search bar to locate a product key for Visio 2010.
+As you can see, there are several versions of Visio 2010 listed.  One key each has already been claimed for Visio Standard 2010 and Visio Premium 2010, and both have four keys remaining.  The keys that were claimed are both retail keys, and are displayed on the page.  Notice that you can record a brief note about claimed keys in the **Notes** column.  You can use this in conjunction with the date in the **Claimed** column to keep track of the keys you’ve claimed.  You might, for example, make notes when you activate an installation of the product using the key.
+
+### Exporting your claimed keys
+You can export a list of all the keys you have claimed, along with a large selection of static and other keys that are automatically marked as “claimed” for you.
+
+> [!IMPORTANT]
+> If your subscription expires, you will no longer be able to claim new keys or export your claimed keys.
+
+To export your keys, simply click on the **Export all keys** link at the far right of the Product Keys page.  An .xml file entitled KeysExport.xml will be created, and you’ll have the option to open or save the file.  You will need to open the file with an application capable of handling .xml files.  For example, you can open the file as a read-only workbook in Excel.
+
 ## Next steps
-To claim keys, visit https://my.visualstudio.com/productkeys.  
-
-Learn how to [find and claim keys](find-keys.md).
-
-You can also learn about using product keys to support [internet demonstrations](internet-demos.md).
+When you're ready to download software and use keys, visit https://my.visualstudio.com/downloads.  For more information about downloading software, please see the [downloading overview](download-software.md).
