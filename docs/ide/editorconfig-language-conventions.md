@@ -1040,11 +1040,9 @@ The style rules in this section are applicable to C# only.
   - csharp\_style\_pattern\_matching\_over\_as\_with\_null_check
 - [Inlined variable declarations](#inlined-variable-declarations)
   - csharp\_style\_inlined\_variable_declaration
-- [Expression-level preferences](#expression-level-preferences)
+- [Expression-level preferences](#c-expression-level-preferences)
   - csharp\_prefer\_simple\_default_expression
-  - csharp\_style\_deconstructed\_variable_declaration
-  - csharp\_style\_pattern\_local\_over\_anonymous_function
-- ["Null" checking preferences](#null-checking-preferences)
+- ["Null" checking preferences](#c-null-checking-preferences)
   - csharp\_style\_throw_expression
   - csharp\_style\_conditional\_delegate_call
 - [Code block preferences](#code-block-preferences)
@@ -1052,8 +1050,15 @@ The style rules in this section are applicable to C# only.
 - [Unused value preferences](#unused-value-preferences)
   - csharp\_style\_unused\_value\_expression\_statement_preference
   - csharp\_style\_unused\_value\_assignment_preference
+- [Index and range preferences](#index-and-range-preferences)
+  - csharp\_style\_prefer\_index_operator
+  - csharp\_style\_prefer\_range_operator
 - [Miscellaneous preferences](#miscellaneous-preferences)
+  - csharp\_style\_deconstructed\_variable_declaration
+  - csharp\_style\_pattern\_local\_over\_anonymous_function
   - csharp\_using\_directive\_placement
+  - csharp\_prefer\_static\_local_function
+  - csharp\_prefer\_simple\_using_statement
 
 ### Implicit and explicit types
 
@@ -1409,9 +1414,9 @@ Example *.editorconfig* file:
 csharp_style_inlined_variable_declaration = true:suggestion
 ```
 
-### Expression-level preferences
+### C# expression-level preferences
 
-The style rules in this section concern expression-level preferences, including the use of [default expressions](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference), deconstructed variables, and local functions over anonymous functions.
+The style rules in this section concern expression-level preferences.
 
 Example *.editorconfig* file:
 
@@ -1419,8 +1424,6 @@ Example *.editorconfig* file:
 # CSharp code style settings:
 [*.cs]
 csharp_prefer_simple_default_expression = true:suggestion
-csharp_style_deconstructed_variable_declaration = true:suggestion
-csharp_style_pattern_local_over_anonymous_function = true:suggestion
 ```
 
 #### csharp\_prefer\_simple\_default_expression
@@ -1445,64 +1448,7 @@ void DoWork(CancellationToken cancellationToken = default) { ... }
 void DoWork(CancellationToken cancellationToken = default(CancellationToken)) { ... }
 ```
 
-#### csharp\_style\_deconstructed\_variable_declaration
-
-|||
-|-|-|
-| **Rule name** | csharp_style_deconstructed_variable_declaration |
-| **Rule ID** | IDE0042 |
-| **Applicable languages** | C# 7.0+ |
-| **Values** | `true` - Prefer deconstructed variable declaration<br /><br />`false` - Do not prefer deconstruction in variable declarations |
-| **Visual Studio default** | `true:suggestion` |
-
-Code examples:
-
-```csharp
-// csharp_style_deconstructed_variable_declaration = true
-var (name, age) = GetPersonTuple();
-Console.WriteLine($"{name} {age}");
-
-(int x, int y) = GetPointTuple();
-Console.WriteLine($"{x} {y}");
-
-// csharp_style_deconstructed_variable_declaration = false
-var person = GetPersonTuple();
-Console.WriteLine($"{person.name} {person.age}");
-
-(int x, int y) point = GetPointTuple();
-Console.WriteLine($"{point.x} {point.y}");
-```
-
-#### csharp\_style\_pattern\_local\_over\_anonymous_function
-
-Starting with C# 7.0, C# supports [local functions](/dotnet/csharp/programming-guide/classes-and-structs/local-functions). Local functions are private methods of a type that are nested in another member.
-
-|||
-|-|-|
-| **Rule name** | csharp_style_pattern_local_over_anonymous_function |
-| **Rule ID** | IDE0039 |
-| **Applicable languages** | C# 7.0+ |
-| **Values** | `true` - Prefer local functions over anonymous functions<br /><br />`false` - Prefer anonymous functions over local functions |
-| **Visual Studio default** | `true:suggestion` |
-
-Code examples:
-
-```csharp
-// csharp_style_pattern_local_over_anonymous_function = true
-int fibonacci(int n)
-{
-    return n <= 1 ? 1 : fibonacci(n-1) + fibonacci(n-2);
-}
-
-// csharp_style_pattern_local_over_anonymous_function = false
-Func<int, int> fibonacci = null;
-fibonacci = (int n) =>
-{
-    return n <= 1 ? 1 : fibonacci(n - 1) + fibonacci(n - 2);
-};
-```
-
-### Null-checking preferences
+### C# null-checking preferences
 
 These style rules concern the syntax around `null` checking, including using `throw` expressions or `throw` statements, and whether to perform a null check or use the conditional coalescing operator (`?.`) when invoking a [lambda expression](/dotnet/csharp/lambda-expressions).
 
@@ -1654,6 +1600,63 @@ int GetCount(Dictionary<string, int> wordCount, string searchWord)
 }
 ```
 
+### Index and range preferences
+
+These style rules concern the use of index and range operators, which are available in C# 8.0 and later.
+
+Example *.editorconfig* file:
+
+```ini
+# CSharp code style settings:
+[*.cs]
+csharp_style_prefer_index_operator = true:suggestion
+csharp_style_prefer_range_operator = true:suggestion
+```
+
+#### csharp\_style\_prefer\_index_operator
+
+|||
+|-|-|
+| **Rule name** | csharp_style_prefer_index_operator |
+| **Rule ID** | IDE0056 |
+| **Applicable languages** | C# 8.0+ |
+| **Values** | `true` - Prefer to use the `^` operator when calculating an index from the end of a collection<br /><br />`false` - Don't prefer to use the `^` operator when calculating an index from the end of a collection |
+| **Visual Studio default** | `true:suggestion` |
+
+Code examples:
+
+```csharp
+// csharp_style_prefer_index_operator = true
+string[] names = { "Archimedes", "Pythagoras", "Euclid" };
+var index = names[^1];
+
+// csharp_style_prefer_index_operator = false
+string[] names = { "Archimedes", "Pythagoras", "Euclid" };
+var index = names[names.Length - 1];
+```
+
+#### csharp\_style\_prefer\_range_operator
+
+|||
+|-|-|
+| **Rule name** | csharp_style_prefer_range_operator |
+| **Rule ID** | IDE0057 |
+| **Applicable languages** | C# 8.0+ |
+| **Values** | `true` - Prefer to use the range operator `..` when extracting a "slice" of a collection<br /><br />`false` - Don't prefer to use the range operator `..` when extracting a "slice" of a collection |
+| **Visual Studio default** | `true:suggestion` |
+
+Code examples:
+
+```csharp
+// csharp_style_prefer_range_operator = true
+string sentence = "the quick brown fox";
+var sub = sentence[0..^4];
+
+// csharp_style_prefer_range_operator = false
+string sentence = "the quick brown fox";
+var sub = sentence.Substring(0, sentence.Length - 4);
+```
+
 ### Miscellaneous preferences
 
 This section contains miscellaneous style rules.
@@ -1663,7 +1666,68 @@ Example *.editorconfig* file:
 ```ini
 # CSharp code style settings:
 [*.cs]
+csharp_style_deconstructed_variable_declaration = true:suggestion
+csharp_style_pattern_local_over_anonymous_function = true:suggestion
 csharp_using_directive_placement = outside_namespace:silent
+csharp_prefer_static_local_function = true:suggestion
+csharp_prefer_simple_using_statement = true:suggestion
+```
+
+#### csharp\_style\_deconstructed\_variable_declaration
+
+|||
+|-|-|
+| **Rule name** | csharp_style_deconstructed_variable_declaration |
+| **Rule ID** | IDE0042 |
+| **Applicable languages** | C# 7.0+ |
+| **Values** | `true` - Prefer deconstructed variable declaration<br /><br />`false` - Do not prefer deconstruction in variable declarations |
+| **Visual Studio default** | `true:suggestion` |
+
+Code examples:
+
+```csharp
+// csharp_style_deconstructed_variable_declaration = true
+var (name, age) = GetPersonTuple();
+Console.WriteLine($"{name} {age}");
+
+(int x, int y) = GetPointTuple();
+Console.WriteLine($"{x} {y}");
+
+// csharp_style_deconstructed_variable_declaration = false
+var person = GetPersonTuple();
+Console.WriteLine($"{person.name} {person.age}");
+
+(int x, int y) point = GetPointTuple();
+Console.WriteLine($"{point.x} {point.y}");
+```
+
+#### csharp\_style\_pattern\_local\_over\_anonymous_function
+
+Starting with C# 7.0, C# supports [local functions](/dotnet/csharp/programming-guide/classes-and-structs/local-functions). Local functions are private methods of a type that are nested in another member.
+
+|||
+|-|-|
+| **Rule name** | csharp_style_pattern_local_over_anonymous_function |
+| **Rule ID** | IDE0039 |
+| **Applicable languages** | C# 7.0+ |
+| **Values** | `true` - Prefer local functions over anonymous functions<br /><br />`false` - Prefer anonymous functions over local functions |
+| **Visual Studio default** | `true:suggestion` |
+
+Code examples:
+
+```csharp
+// csharp_style_pattern_local_over_anonymous_function = true
+int fibonacci(int n)
+{
+    return n <= 1 ? 1 : fibonacci(n-1) + fibonacci(n-2);
+}
+
+// csharp_style_pattern_local_over_anonymous_function = false
+Func<int, int> fibonacci = null;
+fibonacci = (int n) =>
+{
+    return n <= 1 ? 1 : fibonacci(n - 1) + fibonacci(n - 2);
+};
 ```
 
 #### csharp\_using\_directive_placement
@@ -1693,6 +1757,60 @@ namespace Conventions
     using System;
     ...
 }
+```
+
+#### csharp\_prefer\_static\_local_function
+
+|||
+|-|-|
+| **Rule name** | csharp_prefer_static_local_function |
+| **Rule ID** | IDE0062 |
+| **Applicable languages** | C# 8.0+ |
+| **Values** | `true` - Prefer local functions to be marked `static`<br /><br />`false` - Don't prefer local functions to be marked `static` |
+| **Visual Studio default** | `true:suggestion` |
+
+Code examples:
+
+```csharp
+// csharp_prefer_static_local_function = true
+void M()
+{
+    Hello();
+    static void Hello()
+    {
+        Console.WriteLine("Hello");
+    }
+}
+
+// csharp_prefer_static_local_function = false
+void M()
+{
+    Hello();
+    void Hello()
+    {
+        Console.WriteLine("Hello");
+    }
+}
+```
+
+#### csharp\_prefer\_simple\_using_statement
+
+|||
+|-|-|
+| **Rule name** | csharp_prefer_simple_using_statement |
+| **Rule ID** | IDE0063 |
+| **Applicable languages** | C# 8.0+ |
+| **Values** | `true` - Prefer to use a *simple* `using` statement<br /><br />`false` - Don't prefer to use a *simple* `using` statement |
+| **Visual Studio default** | `true:suggestion` |
+
+Code examples:
+
+```csharp
+// csharp_prefer_simple_using_statement = true
+using var a = b;
+
+// csharp_prefer_simple_using_statement = false
+using (var a = b) { }
 ```
 
 ## See also
