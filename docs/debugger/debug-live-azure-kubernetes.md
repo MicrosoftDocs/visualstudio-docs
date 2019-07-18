@@ -48,11 +48,14 @@ In this tutorial, you will:
     > [!IMPORTANT]
     > To snapshot debug, you need to open the *same version of source code* that is published to your Azure Kubernetes service.
 
-1. Choose **Debug > Attach Snapshot Debugger...**. Select the AKS resource your web app is deployed to and an Azure storage account, and then click **Attach**.
+1. Choose **Debug > Attach Snapshot Debugger...**. Select the AKS resource your web app is deployed to and an Azure storage account, and then click **Attach**. Snapshot Deugger also supports [Azure App Service](debug-live-azure-applications.md) and [Azure Virtual Machines (VM) & Virtual Machine Scale Sets](debug-live-azure-virtual-machines.md).
 
-      ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
+    ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
 
-      ![Select Azure Resource](../debugger/media/snapshot-select-azure-resource-aks.png)
+    ![Select Azure Resource](../debugger/media/snapshot-select-azure-resource-aks.png)
+
+    > [!NOTE]
+    > (Visual Studio 2019 version 16.2 and above) Snapshot Debugger has enabled Azure cloud support. Make sure that both the Azure resource and Azure Storage account you select are from the same cloud. Please contact your Azure administrator if you have questions about your enterprise's [Azure compliance](https://azure.microsoft.com/overview/trusted-cloud/) configurations.
 
 Visual Studio is now in snapshot debugging mode.
 

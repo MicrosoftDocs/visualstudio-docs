@@ -44,22 +44,24 @@ In this tutorial, you will:
     > [!IMPORTANT]
     > To snapshot debug, you need to open the *same version of source code* that is published to your Azure Virtual Machine\Virtual Machine Scale Set service.
 
-1. Choose **Debug > Attach Snapshot Debugger...**. Select the Azure Virtual Machine\Virtual Machine Scale Set your web app is deployed to and an Azure storage account, and then click **Attach**.
+1. Choose **Debug > Attach Snapshot Debugger...**. Select the Azure Virtual Machine\Virtual Machine Scale Set your web app is deployed to and an Azure storage account, and then click **Attach**. Snapshot Deugger also supports [Azure Kubernetes Service](debug-live-azure-kubernetes.md) and [Azure App Service](debug-live-azure-applications.md).
 
-      ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
+    ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
 
-      ![Select Azure Resource](../debugger/media/snapshot-select-azure-resource-vm.png) 
+    ![Select Azure Resource](../debugger/media/snapshot-select-azure-resource-vm.png)
 
     > [!IMPORTANT]
     > The first time you select **Attach Snapshot Debugger** for your VM, IIS is automatically restarted.
     > The first time you select **Attach Snapshot Debugger** for your Virtual Machine Scale Sets, requires the manual upgrade of each instance of the Virtual Machine Scale Sets.
 
+    > [!NOTE]
+    > (Visual Studio 2019 version 16.2 and above) Snapshot Debugger has enabled Azure cloud support. Make sure that both the Azure resource and Azure Storage account you select are from the same cloud. Please contact your Azure administrator if you have questions about your enterprise's [Azure compliance](https://azure.microsoft.com/overview/trusted-cloud/) configurations.
+
     The metadata for the **Modules** will not initially be activated, navigate to the web app and the **Start Collection** button will become active. Visual Studio is now in snapshot debugging mode.
 
-   ![Snapshot debugging mode](../debugger/media/snapshot-message.png)
+    ![Snapshot debugging mode](../debugger/media/snapshot-message.png)
 
     > [!NOTE]
-    > The Application Insights site extension also supports Snapshot Debugging. If you encounter a "site extension out of date" error message, see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
     > For VMSS the user is required to manually upgrade the instances in their Virtual Machine Scale Sets after attaching the Snapshot Debugger for the first time.
 
    The **Modules** window shows you when all the modules have loaded for the Azure Virtual Machine\Virtual Machine Scale Set (choose **Debug > Windows > Modules** to open this window).
