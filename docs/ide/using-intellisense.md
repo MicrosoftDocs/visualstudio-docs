@@ -77,7 +77,7 @@ IntelliSense options are on by default. To turn them off, choose **Tools** > **O
 ## Intellisense icons
 The icons in intellisense can convey additional meaning with icon modifiers. These are stars, hearts, and locks layered on top of the object's icon that convey protected, internal, or private respectively.
 
-![Intellisense icons chart](../ide/media/intellisenseiconmodifiers.png)
+![Intellisense icons chart](../ide/media/intellisenseiconmodifiers.PNG)
 
 ## Troubleshoot IntelliSense
 
