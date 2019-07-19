@@ -15,20 +15,6 @@ ms.workload:
 
 Naming conventions concern the naming of code elements such as classes, properties, and methods. For example, you can specify that public members must be capitalized or that asynchronous methods must end in "Async". You can enforce these rules by specifying them in an [.editorconfig file](../ide/create-portable-custom-editor-options.md). Naming rule violations appear either in the **Error List** or as a suggestion under the name, depending on the severity you choose for your rule. There is no need to build the project in order to see violations.
 
-::: moniker range="vs-2017"
-
-Naming conventions should be ordered from most-specific to least-specific in the EditorConfig file. The first rule encountered that can be applied is the only rule that is applied. However, if there are multiple rule *properties* with the same name, the most recently found property with that name takes precedence. For more information, see [File hierarchy and precedence](create-portable-custom-editor-options.md#file-hierarchy-and-precedence).
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-Starting in Visual Studio 2019 version 16.2, the order in which naming rules are defined in an EditorConfig file doesn't matter. Instead, Visual Studio orders the naming rules automatically according to the definition of the rules themselves. The [EditorConfig Language Service extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EditorConfig) can analyze an EditorConfig file and report cases where the rule ordering in the file is different to what the compiler will use at runtime.
-
-If you're using an earlier version of Visual Studio, naming conventions should be ordered from most-specific to least-specific in the EditorConfig file. The first rule encountered that can be applied is the only rule that is applied. However, if there are multiple rule *properties* with the same name, the most recently found property with that name takes precedence. For more information, see [File hierarchy and precedence](create-portable-custom-editor-options.md#file-hierarchy-and-precedence).
-
-::: moniker-end
-
 For each naming convention, you must specify the symbols it applies to, a naming style, and a severity for enforcing the convention, using the properties described below. The order of the properties is not important.
 
 To begin, choose a title for your naming rule that you will use in each of the properties that are needed to fully describe the rule. For example, `public_members_must_be_capitalized` is a good, descriptive name for a naming rule. This page will refer to the title you choose as **<namingRuleTitle\>** in the sections that follow.
@@ -180,6 +166,22 @@ error | When this style is not being followed, show a compiler error in the **Er
 
 > [!NOTE]
 > You do not have to build your project in order to see naming rule violations. They appear as code is edited, either in the **Error List** or as a suggestion.
+
+## Rule order
+
+::: moniker range="vs-2017"
+
+Naming conventions should be ordered from most-specific to least-specific in the EditorConfig file. The first rule encountered that can be applied is the only rule that is applied. However, if there are multiple rule *properties* with the same name, the most recently found property with that name takes precedence. For more information, see [File hierarchy and precedence](create-portable-custom-editor-options.md#file-hierarchy-and-precedence).
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+Starting in Visual Studio 2019 version 16.2, the order in which naming rules are defined in an EditorConfig file doesn't matter. Instead, Visual Studio orders the naming rules automatically according to the definition of the rules themselves. The [EditorConfig Language Service extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EditorConfig) can analyze an EditorConfig file and report cases where the rule ordering in the file is different to what the compiler will use at runtime.
+
+If you're using an earlier version of Visual Studio, naming conventions should be ordered from most-specific to least-specific in the EditorConfig file. The first rule encountered that can be applied is the only rule that is applied. However, if there are multiple rule *properties* with the same name, the most recently found property with that name takes precedence. For more information, see [File hierarchy and precedence](create-portable-custom-editor-options.md#file-hierarchy-and-precedence).
+
+::: moniker-end
 
 ## Default naming styles
 
