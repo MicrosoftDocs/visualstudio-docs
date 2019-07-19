@@ -66,7 +66,7 @@ webpack bundles JavaScript files so they can run in a browser. It can also trans
 
 * You must have the Node.js runtime installed.
 
-    This tutorial was tested with version 8.11.2.
+    This tutorial was tested with version 10.16.0.
 
     If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
 
@@ -312,7 +312,19 @@ In the previous steps, you added *webpack-config.js* to the project. Next, you a
 
     ![Load modified files](../javascript/media/tutorial-nodejs-react-reload-files.png)
 
-Each time you make changes to *app.tsx*, you must rerun the webpack command.
+Each time you make changes to *app.tsx*, you must rerun the webpack command. To automate this step, add a build script to transpile the JSX.
+
+## Add a build script to transpile the JSX
+
+In more recent versions of Node.js, a build script is required. Instead of transpiling JSX at the command line (as shown in the preceding section), you can instead transpile JSX when building from Visual Studio.
+
+* Open *package.json* and add the following section after the `dependencies` section:
+
+   ```json
+   "scripts": {
+    "build": "webpack-cli app.tsx --config webpack-config.js"
+   }
+   ```
 
 ## Run the app
 
@@ -325,7 +337,7 @@ Each time you make changes to *app.tsx*, you must rerun the webpack command.
     ![Select Chrome as debug target](../javascript/media/tutorial-nodejs-react-debug-target.png)
     ::: moniker-end
 
-    If Chrome is available on your machine, but does not show up as an option, choose **Browse With** from the debug target dropdown list, and select Chrome as the default browser target (choose **Set as Default**).
+    If Chrome is available on your machine, but does not show up as an option, choose **Web Browser (browsername)** > **Google Chrome** from the debug target dropdown list, and select Chrome as the default browser target.
 
 1. To run the app, press **F5** (**Debug** > **Start Debugging**) or the green arrow button.
 
