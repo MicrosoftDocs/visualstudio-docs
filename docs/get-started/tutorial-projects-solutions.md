@@ -107,7 +107,7 @@ Now let's add our first project to the solution. We'll start with an empty proje
    > [!NOTE]
    > If you don't see the **Empty Project (.NET Framework)** template, you need to install the **.NET desktop development** Visual Studio *workload*. Visual Studio uses workload-based installation to only install the components you need for the type of development you do. An easy way to install a new workload when you're creating a new project is to choose the **Install more tools and features** link under the text that says **Not finding what you're looking for?**. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
 
-::: moniker end
+::: moniker-end
 
 ## Add an item to the project
 
@@ -227,7 +227,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
    The code file should look like this:
 
-   ![CSharp code](media/tutorial-projects-code.png)
+   ![CSharp code](media/tutorial-projects-cs-code.png)
 
 ## Project properties
 
