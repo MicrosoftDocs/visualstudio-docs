@@ -49,7 +49,7 @@ We'll start our exploration by creating an empty solution. After you get to know
 
 1. In the left pane, expand **Other Project Types**, then choose **Visual Studio Solutions**. In the center pane, choose the **Blank Solution** template. Name your solution **QuickSolution**, then choose the **OK** button.
 
-   ![Blank solution template in Visual Studio](../media/tutorial-projects-new-solution.png)
+   ![Blank solution template in Visual Studio](media/tutorial-projects-new-solution.png)
 
    The **Start Page** closes, and a solution appears in **Solution Explorer** on the right-hand side of the Visual Studio window. You'll probably use **Solution Explorer** often, to browse the contents of your projects.
 
@@ -215,7 +215,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
    }
    ```
 
-   You'll see a red squiggle under some of the code. We'll fix this error by making the test project a [friend assembly](/dotnet/csharp/programming-guide/concepts/assemblies-gac/friend-assemblies) to the **QuickDate** project.
+   You'll see a red squiggle under some of the code. We'll fix this error by making the test project a [friend assembly](/dotnet/standard/assembly/friend-assemblies) to the **QuickDate** project.
 
 1. Back in the **QuickDate** project, open the *Calendar.cs* file if it's not already open. Add the following [using statement](/dotnet/csharp/language-reference/keywords/using-statement) and <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute to the top of the file to resolve the error in the test project.
 
