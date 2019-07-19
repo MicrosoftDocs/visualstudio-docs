@@ -48,4 +48,4 @@ In addition to the individual benefits found in the Support category on the Bene
 Need to renew a Visual Studio cloud subscription?  Want to download the latest extensions for the Visual Studio family of products?  The Marketplace helps users find extensions, tools, and services that make Azure DevOps, Azure DevOps Server, and Visual Studio Code even better. You can even become a publisher, and publish your own extensions on the Marketplace.
 
 ## Next steps
-Sign in to the portal at [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and check out your benefits.  You can also learn more about signing in to the portal with your [Microsoft Account](sign-in-msa.md) (MSA), your [work or school account](sign-in-work.md), and even your [GitHub account](sign-in-github). 
+Sign in to the portal at [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and check out your benefits.  You can also learn more about signing in to the portal with your [Microsoft Account](sign-in-msa.md) (MSA), your [work or school account](sign-in-work.md), and even your [GitHub account](sign-in-github.md). 
