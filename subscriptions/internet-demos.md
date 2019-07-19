@@ -3,7 +3,7 @@ title: Using product keys to support internet demonstrations via Terminal Servic
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/11/2019
+ms.date: 07/19/2019
 ms.topic: conceptual
 description:  Learn how to use product keys to support internet demonstrations via Terminal Services and enable RDS access
 ---
@@ -30,5 +30,7 @@ End users can connect to access applications via RDS if the following conditions
 - The product keys to enable user connections must be obtained by a Visual Studio subscriber.
 
 ## Next steps
-If you need instructions for setting up RD Licensing on your server, please see [RD Licensing Configuration on Windows Server 2012](http://blogs.technet.com/b/askperf/archive/2013/09/20/rd-licensing-configuration-on-windows-server-2012.aspx). If you have any questions, please visit the [Microsoft Remote Desktop Services forum](https://social.technet.microsoft.com/Forums/windowsserver/home?forum=winserverTS).
+If you need guidance for deploying RDS, check out the multi-part blog series on **Remote Desktop Services (RDS) 2012 session deployment** at https://techcommunity.microsoft.com/t5/Ask-The-Performance-Team/bg-p/AskPerf. 
+
+If you have any questions, please visit the [Microsoft Remote Desktop Services forum](https://social.technet.microsoft.com/Forums/windowsserver/home?forum=winserverTS).
 
