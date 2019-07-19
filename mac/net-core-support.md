@@ -19,7 +19,7 @@ The following table describes the versions of .NET Core supported by the stable 
 |v2.2.200 + |✔︎|✔︎|✔︎|
 |v3.0 < Preview 3 | | | |
 |v3.0 Preview 3, 4, 5 |✔︎|✔︎|✔︎︎|︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎
-|v3.0 Preview 6 | |✔︎|✔︎|
+|v3.0 Preview 6+ | |✔︎|✔︎|
 
 > [!IMPORTANT]
 > If you were previously using .NET Core v2.2.1xx with Visual Studio for Mac 8.0, you'll need to manually update to a supported version of .NET Core, as listed in the table above. We recommend either [2.1.700](https://dotnet.microsoft.com/download/dotnet-core/2.1) or [2.2.300](https://dotnet.microsoft.com/download/dotnet-core/2.2)
