@@ -1,6 +1,6 @@
 ---
 title: "CA2202: Do not dispose objects multiple times"
-ms.date: 11/04/2016
+ms.date: 07/16/2019
 ms.topic: reference
 f1_keywords:
   - "CA2202"
@@ -77,10 +77,12 @@ try
 }
 finally
 {
-    if(stream != null)
-        stream.Dispose();
+    stream?.Dispose();
 }
 ```
+
+> [!TIP]
+> The `?.` syntax above is the [null-conditional operator](/dotnet/csharp/language-reference/operators/member-access-operators#null-conditional-operators--and-).
 
 ## See also
 

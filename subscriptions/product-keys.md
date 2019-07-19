@@ -1,9 +1,9 @@
 ---
 title: Using Product Keys | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 10/03/2017
+ms.author: lank
+manager: lank
+ms.date: 07/20/2019
 ms.topic: conceptual
 description:  Learn how to obtain and manage your product keys in Visual Studio subscriptions.
 ---
@@ -37,13 +37,18 @@ If you have claimed the maximum number of keys available for your subscription w
 
 Our research shows that most subscribers are covered by the number of product keys included in their subscription. If you need additional keys, you can submit a request through Visual Studio Subscription [Customer Service](https://visualstudio.microsoft.com/subscriptions/support/) and it will be considered for approval on a case-by-case basis.
 
-## Locating and claiming product keys
-You must be signed in to your Visual Studio subscription to view your product keys. Individual product keys are found by selecting the blue **Get Key** link for a particular product on the [Downloads](https://my.visualstudio.com/downloads) page as shown below.  All keys are also available in aggregate on the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) page. When multiple keys exist for a single product, notes will be displayed on the Notes column for the download to assist you in identifying which key should be used.
-> [!div class="mx-imgBorder"]
-> ![Get Key from Downloads Page](_img/product-keys/download-get-key.png)
+## Accessing product keys
+You must be signed in to your Visual Studio subscription to view your product keys. Individual product keys are found by selecting the blue **Get Key** link for a particular product on the [Downloads](https://my.visualstudio.com/downloads) page as shown below.  When multiple keys exist for a single product, notes will be displayed on the Notes column for the download to assist you in identifying which key should be used.
 
 Some products bundle multiple editions of the product into a single download. In these cases, the product key entered determines which edition of the product is installed.
 Some keys are provided automatically, such as “static” keys, which you can use as many times as needed because activation is not required. Other keys must be claimed by selecting the **Get Key** link for the product.
+> [!div class="mx-imgBorder"]
+> ![Get Key from Downloads Page](_img/product-keys/download-get-key.png)
+
+All keys are also available in aggregate on the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) page. On this page you can find static keys that work for all users of a product, get custom keys just for your use, see the status of your key claim limits, and export all of your product keys. 
+
+> [!div class="mx-imgBorder"]
+> ![Product Keys Page](_img/product-keys/product-keys-page.png)
 
 A variety of key types are available, depending on the product.
 
@@ -65,46 +70,7 @@ A variety of key types are available, depending on the product.
 
 You can claim a key from the download page for the product, or you can search for the key you need on the [Product Keys](https://my.visualstudio.com/productkeys) page.
 
-### Claiming product keys
-Only subscribers with active subscriptions can download products and claim product keys.  You can export your claimed keys from the [Product Keys](https://my.visualstudio.com/productkeys) page while your subscription is active.
-
-To claim a product key:
-1. Sign in to your Visual Studio subscription.  You must be signed in to download products or claim product keys.
-2. Click on the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) tab.
-3. Product keys are listed alphabetically by the name of the product.  You can either scroll down to the name of the desired product, or search for it using the search bar at the top of the page.
-   > [!div class="mx-imgBorder"]
-   > ![Search for Product Key](_img/product-keys/visio-product-key-cropped.png)
-
-In this example, we’ve used the search bar to locate a product key for Visio 2010.
-As you can see, there are several versions of Visio 2010 listed.  One key each has already been claimed for Visio Standard 2010 and Visio Premium 2010, and both have four keys remaining.  The keys that were claimed are both retail keys, and are displayed on the page.  Notice that you can record a brief note about claimed keys in the **Notes** column.  You can use this in conjunction with the date in the **Claimed** column to keep track of the keys you’ve claimed.  You might, for example, make notes when you activate an installation of the product using the key.
-
-### Exporting your claimed keys
-You can export a list of all the keys you have claimed, along with a large selection of static and other keys that are automatically marked as “claimed” for you.
-
-> [!IMPORTANT]
-> If your subscription expires, you will no longer be able to claim new keys or export your claimed keys.
-
-To export your keys, simply click on the **Export all keys** link at the far right of the Product Keys page.  An .xml file entitled KeysExport.xml will be created, and you’ll have the option to open or save the file.  You will need to open the file with an application capable of handling .xml files.  For example, you can open the file as a read-only workbook in Excel.
-
-## Internet demonstrations via Terminal Services
-With a Visual Studio subscription, you are allowed to provide end users access to Internet demonstrations of your programs via Terminal Services (Windows Server 2003 or Windows Server 2008) or Remote Desktop Services (Windows Server 2008 R2 and later). Up to 200 anonymous users can simultaneously access your demonstration this way. Your demonstration must not use production data. Visual Studio subscribers are licensed to demonstrate their applications to end users. This Internet demonstration using Terminal Services (TS) or Remote Desktop Services (RDS) is the only scenario where end users without a Visual Studio subscription can interact with the demonstration application when the software is licensed through Visual Studio subscriptions.
-
-This is in addition to dev/test rights, where Visual Studio subscribers can use as many RDS or TS connections as needed.
-
-### Enabling RDS Access
-Visual Studio subscribers can increase the number of users who can access a Windows Server via RDS by entering a product key supplied in the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) tab on the [subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs). To obtain a product key, connect to the Product Keys page and scroll down to the version of Windows Server you are running. Locate “Windows Server < version > R2 Remote Desktop Services < user or device > connections” and click the **Claim Key** link. For example, if you’re using RDS on Windows Server 2012 R2 and your deployment uses user CALs, choose “Windows Server 2012 Remote Desktop Services user connections (50)”.
-Five keys of each type are available for Windows Server 2008 R2, and each key will support 20 connections. For Windows Server 2012 R2, four keys for each type are provide and will support 50 connections each.
-
-#### To enable additional connections in Windows Server:
-1. Open Server Manager.
-2. Open the Servers list in the left nav pane.
-3. Right click on your license server and choose “Install Licenses”.
-4. Follow the steps in the wizard.  When you’re selecting the agreement type, choose “License Pack (retail)” and enter the product key you obtained from the MY portal.
-
-End users can connect to access applications via RDS if the following conditions are met:
-- Users must be anonymous (in a non-authenticated state).
-- Connections must be over the Internet.
-- Up to 200 concurrent user connections may be used for demonstrations of the application.
-- The product keys to enable user connections must be obtained by a Visual Studio subscriber.
-
-If you need instructions for setting up RD Licensing on your server, please see [RD Licensing Configuration on Windows Server 2012](http://blogs.technet.com/b/askperf/archive/2013/09/20/rd-licensing-configuration-on-windows-server-2012.aspx). If you have any questions, please visit the [Microsoft Remote Desktop Services forum](https://social.technet.microsoft.com/Forums/windowsserver/home?forum=winserverTS).
+## Next steps
+To claim keys, visit https://my.visualstudio.com/productkeys.  
+Learn how to [find and claim keys](find-keys.md).
+You can also learn about using product keys to support [internet demonstrations](internet-demos.md).

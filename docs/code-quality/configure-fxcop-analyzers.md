@@ -118,3 +118,4 @@ The syntax for configuring an option for a specific rule is as follows:
 
 - [Analyzer configuration](https://github.com/dotnet/roslyn-analyzers/blob/master/docs/Analyzer%20Configuration.md)
 - [FxCop analyzers](install-fxcop-analyzers.md)
+- [.NET coding conventions for EditorConfig](../ide/editorconfig-code-style-settings-reference.md)
