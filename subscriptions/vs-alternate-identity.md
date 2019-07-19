@@ -46,7 +46,7 @@ Your alternate account is added to the Visual Studio subscription, allowing both
 
 A: Azure DevOps should automatically recognize your subscription when you sign in using your primary or alternate identity. If not, you can try a few things:
 
-* Check that you have an active Visual Studio subscription that includes [Azure DevOps](vs-azure-devops.md/#eligibility) as a benefit.
+* Check that you have an active Visual Studio subscription that includes [Azure DevOps](vs-azure-devops.md#eligibility) as a benefit.
 
 * Confirm that you're using a login/identity that is either the primary or alternate identity for your Visual Studio subscription.
 
