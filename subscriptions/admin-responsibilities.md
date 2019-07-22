@@ -8,7 +8,7 @@ ms.topic: conceptual
 description:  Learn about responsibilities of subscriptions administrators.
 ---
 # Overview of administrator responsibilities
-As an administrator, you have the ability to manage subscriptions for your organization.  The administrator role also carries responsibilities to ensure that the subscriptions are managed in accordance with the license terms. This article outlines the responsibilities, benefits, and limitations of the administrator role.
+As an administrator, you can manage subscriptions for your organization.  The administrator role also carries responsibilities to ensure that the subscriptions are managed in accordance with the license terms. This article outlines the responsibilities, benefits, and limitations of the administrator role.
 
 ## Roles & responsibilities
 A Visual Studio administrator has four key responsibilities:
@@ -16,7 +16,7 @@ A Visual Studio administrator has four key responsibilities:
 1. **Understand the benefits and restrictions of Visual Studio subscriptions.** Correctly understanding your benefits can enable you to reduce hardware costs by using cloud services, and reduce software costs with per-user licenses for pre-production environments. 
 2. **Assign Visual Studio subscriptions to specific, named individuals and encourage usage.** Your contract requires that Visual Studio subscriptions be assigned to specific, named individuals. Follow up with your assigned individuals to ensure they access and take full advantage of the benefits included in their Visual Studio subscription.
 3. **Accurately inventory your pre-production environment.** This is essential to ensure all users who interact with Visual Studio-licensed software are appropriately licensed with their own Visual Studio subscription. 
-4. **Track user assignment changes and acquire additional licenses on schedule.** Microsoft Volume Licensing (VL) Agreements and MPSA give you flexibility in how you use and assign Visual Studio subscriptions. In return, you are expected to track changes to software usage and user assignments and process orders for additional licenses on the schedule outlined in the agreement.
+4. **Track user assignment changes and acquire additional licenses on schedule.** Microsoft Volume Licensing (VL) Agreements and MPSA give you flexibility in how you use and assign Visual Studio subscriptions. In return, you are expected to track changes to software usage and user assignments and process orders for additional licenses on the schedule outlined in the agreement.  To help with this responsibility, there is a [Maximum Usage report](maximum-usage.md) you can run in the Visual Studio Subscription Administration Portal. 
 
 ## Benefits and limitations
 Visual Studio subscriptions allow development team members to install and use software to design, develop, test, evaluate, and demonstrate other software. Visual Studio Subscriptions software is not licensed for production environments.
