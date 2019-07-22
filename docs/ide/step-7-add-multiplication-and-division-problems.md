@@ -2,6 +2,9 @@
 title: "Step 7: Add multiplication and division problems"
 ms.date: 11/04/2016
 ms.topic: conceptual
+dev_langs: 
+  - "csharp"
+  - "vb"
 ms.assetid: e638959e-f6a4-4eb4-b2e9-f63b7855cf8f
 author: TerryGLee
 ms.author: "tglee"
