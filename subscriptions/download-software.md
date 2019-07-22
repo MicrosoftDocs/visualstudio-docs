@@ -3,7 +3,7 @@ title: Downloading software titles in Visual Studio subscriptions | Microsoft Do
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/11/2019
+ms.date: 07/18/2019
 ms.topic: conceptual
 description:  Learn how to locate and download Microsoft software titles in Visual Studio subscriptions
 ---
@@ -19,9 +19,9 @@ When you visit the [Downloads](https://my.visualstudio.com/downloads/featured?wt
 > [!div class="mx-imgBorder"]
 > ![Subscriber downloads page](_img/subscriber-downloads/subscriber-downloads-resized.png)
 
-For example, if you choose **Visual Studio 2017** from the Developer Tools list, you'll see a list of available Visual Studio 2017 downloads.
+For example, if you choose **Visual Studio 2019** from the Developer Tools list, you'll see a list of available Visual Studio 2019 downloads.
 > [!div class="mx-imgBorder"]
-> ![Visual Studio 2017 downloads](_img/subscriber-downloads/vs2017-new-UI.png)
+> ![Visual Studio 2019 downloads](_img/subscriber-downloads/vs2019-product-list.png)
 
 You easily select your architecture, language and file type using the available drop-down menus. Choose your preferred options, and click **Download** to begin downloading the product.
 
@@ -31,16 +31,16 @@ You easily select your architecture, language and file type using the available 
 ### Displaying download details
 Clicking on the product name or on the **Info** link will display the details for that download and provide access to the release notes for the product.
 > [!div class="mx-imgBorder"]
-> ![Visual Studio 2017 Pro download details](_img/subscriber-downloads/vs2017-pro-details.png)
+> ![Visual Studio 2019 download details](_img/subscriber-downloads/vs2019-info.png)
 
 In the details pane, you can also click on the **Keys** tab to check the status of your product keys.
 > [!div class="mx-imgBorder"]
-> ![Visual Studio 2017 Pro product keys](_img/subscriber-downloads/vs2017-pro-keys.png)
+> ![Visual Studio 2019 product keys](_img/subscriber-downloads/vs2019-keys.png)
 
 ### Obtaining product keys
 To obtain a product key for the download, you can either click the blue key labeled **Get Key** or if you're already viewing the details pane, click on **Claim key** on the **Keys** tab.
 > [!div class="mx-imgBorder"]
-> ![Visual Studio 2017 Pro claim product keys](_img/subscriber-downloads/vs2017-pro-claim-keys.png)
+> ![Visual Studio 2019 claim product keys](_img/subscriber-downloads/vs2019-claim-keys.png)
 
 ## Next steps
 To learn more about locating, claiming and exporting product keys, check out our product keys documentation:

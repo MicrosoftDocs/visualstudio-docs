@@ -68,8 +68,6 @@ You can easily change the contact information and preferences in your profile.
 4. When you’ve finalized your changes, click **Save**.
 5. Click your browser's **back** button to return to the Benefits page.
 
-   > [!div class="mx-imgBorder"]
-   > ![Editing Profile Information](_img/manage-vs-subscriptions/edit-profile-resized.png)
 
 ### Setting communications preferences
 If you would like to receive periodic updates about your subscription and benefits, including the monthly Visual Studio Subscriptions newsletter, [update your preferences](https://app.vsaex.visualstudio.com/me?workflowID=devprogram&tab=edit) by checking the box for Visual Studio Subscriptions in your Visual Studio profile. You can change these preferences and unsubscribe at any time. 
@@ -88,9 +86,6 @@ To add an alternate account:
 2. Click on the **Subscriptions** tab.
 3. Under **Related Links**, choose **Add alternate account**.
 4. Enter your work/school account email address and click **Add**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Alternate Account](_img/manage-vs-subscriptions/alternate-account-resized.png)
 
 Once you have added an alternate account, you can update or remove it at any time by clicking the **Subscriptions** tab and choosing the appropriate option in the **Related Links** section.
 
