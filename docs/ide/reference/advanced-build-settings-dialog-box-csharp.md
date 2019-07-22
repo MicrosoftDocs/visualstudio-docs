@@ -23,19 +23,7 @@ The following options enable you to set general advanced settings.
 
 **Language Version**
 
-Specifies the version of the language to use. The feature set is different in each version, so this option can be used to force the compiler to allow only a subset of the implemented features, or to enable only those features compatible with an existing standard. This setting has the following options:
-
-- **default**
-
-   Targets the current version.
-
-- **ISO-1** and **ISO-2**
-
-   Targets the ISO-1 and ISO-2 standard features, respectively.
-
-- **C# [version number]**
-
-   Targets a specific version of C#. For more information, see [/langversion (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/langversion-compiler-option).
+Provides a link to [/langversion (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/langversion-compiler-option) so you can learn why your default language version was chosen for you based on your target framework.
 
 **Internal Compiler Error Reporting**
 
