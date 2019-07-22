@@ -1034,7 +1034,7 @@ The style rules in this section are applicable to C# only.
   - csharp\_style\_expression\_bodied_indexers
   - csharp\_style\_expression\_bodied_accessors
   - csharp\_style\_expression\_bodied_lambdas
-  - chsarp\_style\_expression\_bodied\_local_functions
+  - csharp\_style\_expression\_bodied\_local_functions
 - [Pattern matching](#pattern-matching)
   - csharp\_style\_pattern\_matching\_over\_is\_with\_cast_check
   - csharp\_style\_pattern\_matching\_over\_as\_with\_null_check
