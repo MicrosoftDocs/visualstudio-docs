@@ -203,7 +203,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
    End Class
    ```
 
-   You'll see a red "squiggly" under some of the code. We'll fix this error by making the test project a [friend assembly](/dotnet/visual-basic/programming-guide/concepts/assemblies-gac/friend-assemblies) to the **QuickDate** project.
+   You'll see a red squiggle under some of the code. We'll fix this error by making the test project a [friend assembly](/dotnet/visual-basic/programming-guide/concepts/assemblies-gac/friend-assemblies) to the **QuickDate** project.
 
 1. Back in the **QuickDate** project, open the *Calendar.vb* file if it's not already open, and add the following [Imports statement](/dotnet/visual-basic/language-reference/statements/imports-statement-net-namespace-and-type) and <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute, to resolve the error in the test project.
 
