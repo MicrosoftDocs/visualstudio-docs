@@ -1572,7 +1572,7 @@
         },
         {
             "source_path": "docs/get-started/csharp/tutorial-projects-solutions.md",
-            "redirect_url": "/visualstudio/get-started/tutorial-projects-solutions.md",
+            "redirect_url": "/visualstudio/get-started/tutorial-projects-solutions",
             "redirect_document_id": false
         },
         {
