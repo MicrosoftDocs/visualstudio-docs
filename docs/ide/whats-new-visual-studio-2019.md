@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 06/29/2019
+ms.date: 07/23/2019
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -18,7 +18,7 @@ ms.workload:
 ---
 # What's new in Visual Studio 2019
 
-**Updated for the [16.1 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.2 release](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
 >[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019)
@@ -96,6 +96,12 @@ With the release of Visual Studio 2019, we're making Visual Studio a per-monitor
 
 For more information, see the [Better multi-monitor experience with Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/a-better-multi-monitor-experience-with-visual-studio-2019/) blog post.
 
+### Test Explorer
+
+**New in 16.2**: We've updated Test Explorer to provide better handling of large test sets, easier filtering, more discoverable commands, tabbed playlist views, and customizable columns that let you fine-tune what test information is displayed.
+
+   ![A screenshot that shows the user interface improvements in the Test Explorer](media/vs-2019/test-explorer-ui.png)
+
 ## Collaborate
 
 View the following video to learn more about how you can team up to solve issues. <br><br>*Video length: 4.22 minutes*
@@ -171,6 +177,12 @@ Get a snapshot of your app's execution in the cloud to see exactly what's happen
 We've added support for targeting ASP.NET (Core and desktop) applications that run on an Azure VM. And, we've added support for applications that run in an Azure Kubernetes Service. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
 
 For more information, see the [Debug live ASP.NET Azure apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md) page, and the [Introducing Time Travel Debugging for Visual Studio Enterprise 2019](https://devblogs.microsoft.com/visualstudio/introducing-time-travel-debugging-for-visual-studio-enterprise-2019/) blog post.
+
+### Microsoft Edge Insider support
+
+**New in 16.2**: You can set a breakpoint in a JavaScript application and start a debug session by using the [Microsoft Edge Insider](https://www.microsoftedgeinsider.com/) browser. When you do so, Visual Studio opens a new browser window with debugging enabled, which you can then use to step through application JavaScript within Visual Studio.
+
+   ![A screenshot that shows JavaScript code rendering in a browser](media/vs-2019/edge-chromium-breakpoint.png)
 
 ## What's next
 
