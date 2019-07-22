@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio subscriptions"
 description: "Learn about the new and updated features that you can use to manage Visual Studio subscriptions."
 ms.custom: ""
-ms.date: 06/27/2019
+ms.date: 07/19/2019
 ms.topic: conceptual
 author: evanwindom
 ms.author: lank
@@ -37,6 +37,4 @@ If your organization already has Visual Studio with GitHub Enterprise subscripti
 
 And that's it for now!
 
-## See also
 
-* [Subscriber benefits](subscriber-benefits.md)
