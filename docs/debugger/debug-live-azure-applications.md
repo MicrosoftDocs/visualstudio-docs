@@ -30,12 +30,12 @@ In this tutorial, you will:
 
 * Snapshot Debugger is only available starting in Visual Studio 2017 Enterprise version 15.5 or higher with the **Azure development workload**. (Under the **Individual components** tab, you find it under **Debugging and testing** > **Snapshot debugger**.)
 
-    ::: moniker range=">=vs-2019"
-    If it's not already installed, install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019). If you're updating from a previous Visual Studio installation, run the Visual Studio Installer and check the Snapshot Debugger component in the **ASP.NET and web development workload**.
-    ::: moniker-end
-    ::: moniker range="<=vs-2017"
-    If it's not already installed, install [Visual Studio 2017 Enterprise version 15.5](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) or later. If you're updating from a previous Visual Studio 2017 installation, run the Visual Studio Installer and check the Snapshot Debugger component in the **ASP.NET and web development workload**.
-    ::: moniker-end
+   ::: moniker range=">=vs-2019"
+   If it's not already installed, install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019). If you're updating from a previous Visual Studio installation, run the Visual Studio Installer and check the Snapshot Debugger component in the **ASP.NET and web development workload**.
+   ::: moniker-end
+   ::: moniker range="<=vs-2017"
+   If it's not already installed, install [Visual Studio 2017 Enterprise version 15.5](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) or later. If you're updating from a previous Visual Studio 2017 installation, run the Visual Studio Installer and check the Snapshot Debugger component in the **ASP.NET and web development workload**.
+   ::: moniker-end
 
 * Basic or higher Azure App Service plan.
 
@@ -47,14 +47,14 @@ In this tutorial, you will:
 
 1. Open the project you would like to snapshot debug.
 
-    > [!IMPORTANT]
-    > To snapshot debug, you need to open the *same version of source code* that is published to your Azure App Service.
+   > [!IMPORTANT]
+   > To snapshot debug, you need to open the *same version of source code* that is published to your Azure App Service.
 
 ::: moniker range="<=vs-2017"
 
 2. In the Cloud Explorer (**View > Cloud Explorer**), right-click the Azure App Service your project is deployed to and select **Attach Snapshot Debugger**.
 
-    ![Launch the snapshot debugger](../debugger/media/snapshot-launch.png)
+   ![Launch the snapshot debugger](../debugger/media/snapshot-launch.png)
 
 ::: moniker-end
 
@@ -62,43 +62,43 @@ In this tutorial, you will:
 
 2. Choose **Debug > Attach Snapshot Debugger...**. Select the Azure App Service your project is deployed to and an Azure storage account, and then click **Attach**. Snapshot Debugger also supports [Azure Kubernetes Service](debug-live-azure-kubernetes.md) and [Azure Virtual Machines (VM) & Virtual Machine Scale Sets](debug-live-azure-virtual-machines.md).
 
-    ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
+   ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
 
-    ![Select Azure Resource](../debugger/media/snapshot-select-azure-resource-appservices.png)
+   ![Select Azure Resource](../debugger/media/snapshot-select-azure-resource-appservices.png)
 
 ::: moniker-end
 
-    > [!IMPORTANT]
-    > The first time you select **Attach Snapshot Debugger**, you're prompted to install the Snapshot Debugger site extension on your Azure App Service. This installation requires a restart of your Azure App Service.
+   > [!IMPORTANT]
+   > The first time you select **Attach Snapshot Debugger**, you're prompted to install the Snapshot Debugger site extension on your Azure App Service. This installation requires a restart of your Azure App Service.
 
-    ::: moniker range="<=vs-2017"
-    > [!NOTE]
-    > The Application Insights site extension also supports Snapshot Debugging. If you come across a "site extension out of date" error message, see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
-    ::: moniker-end
-    ::: moniker range=">=vs-2019"
-    > [!NOTE]
-    > (Visual Studio 2019 version 16.2 and above) Snapshot Debugger has enabled Azure cloud support. Make sure that both the Azure resource and Azure Storage account you select are from the same cloud. Please contact your Azure administrator if you have questions about your enterprise's [Azure compliance](https://azure.microsoft.com/overview/trusted-cloud/) configurations.
-    ::: moniker-end
+   ::: moniker range="<=vs-2017"
+   > [!NOTE]
+   > The Application Insights site extension also supports Snapshot Debugging. If you come across a "site extension out of date" error message, see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
+   ::: moniker-end
+   ::: moniker range=">=vs-2019"
+   > [!NOTE]
+   > (Visual Studio 2019 version 16.2 and above) Snapshot Debugger has enabled Azure cloud support. Make sure that both the Azure resource and Azure Storage account you select are from the same cloud. Please contact your Azure administrator if you have questions about your enterprise's [Azure compliance](https://azure.microsoft.com/overview/trusted-cloud/) configurations.
+   ::: moniker-end
 
-    Visual Studio is now in snapshot debugging mode.
-    ![Snapshot debugging mode](../debugger/media/snapshot-message.png)
+   Visual Studio is now in snapshot debugging mode.
+   ![Snapshot debugging mode](../debugger/media/snapshot-message.png)
 
-    The **Modules** window shows you when all the modules have loaded for the Azure App Service (choose **Debug > Windows > Modules** to open this window).
+   The **Modules** window shows you when all the modules have loaded for the Azure App Service (choose **Debug > Windows > Modules** to open this window).
 
-    ![Check the Modules window](../debugger/media/snapshot-modules.png)
+   ![Check the Modules window](../debugger/media/snapshot-modules.png)
 
 ## Set a snappoint
 
 1. In the code editor, click the left gutter next to a line of code you're interested in to set a snappoint. Make sure it's code that you know will execute.
 
-    ![Set a snappoint](../debugger/media/snapshot-set-snappoint.png)
+   ![Set a snappoint](../debugger/media/snapshot-set-snappoint.png)
 
 2. Click **Start Collection** to turn on the snappoint.
 
-    ![Turn on the snappoint](../debugger/media/snapshot-start-collection.png)
+   ![Turn on the snappoint](../debugger/media/snapshot-start-collection.png)
 
-    > [!TIP]
-    > You can't step when viewing a snapshot, but you can place multiple snappoints in your code to follow execution at different lines of code. If you have multiple snappoints in your code, the Snapshot Debugger makes sure that the corresponding snapshots are from the same end-user session. The Snapshot Debugger does this even if there are many users hitting your app.
+   > [!TIP]
+   > You can't step when viewing a snapshot, but you can place multiple snappoints in your code to follow execution at different lines of code. If you have multiple snappoints in your code, the Snapshot Debugger makes sure that the corresponding snapshots are from the same end-user session. The Snapshot Debugger does this even if there are many users hitting your app.
 
 ## Take a snapshot
 
@@ -109,15 +109,15 @@ Once a snappoint is set, you can either manually generate a snapshot by going to
 
 1. When the snappoint is hit, a snapshot appears in the Diagnostic Tools window. To open this window, choose **Debug > Windows > Show Diagnostic Tools**.
 
-    ![Open a snappoint](../debugger/media/snapshot-diagsession-window.png)
+   ![Open a snappoint](../debugger/media/snapshot-diagsession-window.png)
 
 1. Double-click the snappoint to open the snapshot in the code editor.
 
-    ![Inspect snapshot data](../debugger/media/snapshot-inspect-data.png)
+   ![Inspect snapshot data](../debugger/media/snapshot-inspect-data.png)
 
-    From this view, you can hover over variables to view DataTips, use the **Locals**, **Watches**, and **Call Stack** windows, and also evaluate expressions.
+   From this view, you can hover over variables to view DataTips, use the **Locals**, **Watches**, and **Call Stack** windows, and also evaluate expressions.
 
-    The website itself is still live and end users aren't affected. Only one snapshot is captured per snappoint by default: after a snapshot is captured the snappoint turns off. If you want to capture another snapshot at the snappoint, you can turn the snappoint back on by clicking **Update Collection**.
+   The website itself is still live and end users aren't affected. Only one snapshot is captured per snappoint by default: after a snapshot is captured the snappoint turns off. If you want to capture another snapshot at the snappoint, you can turn the snappoint back on by clicking **Update Collection**.
 
 You can also add more snappoints to your app and turn them on with the **Update Collection** button.
 
@@ -131,13 +131,13 @@ If it's difficult to recreate a particular state in your app, consider using a c
 
 1. Right-click a snappoint icon (the hollow ball) and choose **Settings**.
 
-    ![Choose Settings](../debugger/media/snapshot-snappoint-settings.png)
+   ![Choose Settings](../debugger/media/snapshot-snappoint-settings.png)
 
 1. In the snappoint settings window, type an expression.
 
-    ![Type an expression](../debugger/media/snapshot-snappoint-conditions.png)
+   ![Type an expression](../debugger/media/snapshot-snappoint-conditions.png)
 
-    In the preceding illustration, the snapshot is only taken for the snappoint when `visitor.FirstName == "Dan"`.
+   In the preceding illustration, the snapshot is only taken for the snappoint when `visitor.FirstName == "Dan"`.
 
 ## Set a logpoint
 
@@ -149,15 +149,15 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
 1. In the snappoint settings window, select **Actions**.
 
-    ![Create a logpoint](../debugger/media/snapshot-logpoint.png)
+   ![Create a logpoint](../debugger/media/snapshot-logpoint.png)
 
 1. In the **Message** field, you can enter the new log message you want to log. You can also evaluate variables in your log message by placing them inside curly braces.
 
-    If you choose **Send to Output Window**, when the logpoint is hit, the message appears in the Diagnostic Tools window.
+   If you choose **Send to Output Window**, when the logpoint is hit, the message appears in the Diagnostic Tools window.
 
-    ![Logpoint data in the Diagnostic Tools window](../debugger/media/snapshot-logpoint-output.png)
+   ![Logpoint data in the Diagnostic Tools window](../debugger/media/snapshot-logpoint-output.png)
 
-    If you choose **Send to application log**, when the logpoint is hit, the message appears anywhere that you can see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as [App Insights](/azure/application-insights/app-insights-asp-net-trace-logs).
+   If you choose **Send to application log**, when the logpoint is hit, the message appears anywhere that you can see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as [App Insights](/azure/application-insights/app-insights-asp-net-trace-logs).
 
 ## Next steps
 
