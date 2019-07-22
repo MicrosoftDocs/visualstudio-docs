@@ -9,8 +9,10 @@ dev_langs:
   - CSharp
 ms.workload:
   - "dotnet"
+helpviewer_keywords:
+  - "add missing usings"
 ---
-# Generate usings in Visual Studio
+# Add missing usings in Visual Studio
 
 This code generation applies to:
 
@@ -22,7 +24,7 @@ This code generation applies to:
 
 **Why:** Because the Quick Action automatically adds necessary imports, you don't need to manually copy the `using` statements that your code needs.
 
-## Generate usings refactoring
+## Add missing usings refactoring
 
 1. Copy code from a file and paste it into a new one without including the necessary `using` statements. The resulting error is accompanied by a code fix that adds the missing `using` statements.
 
