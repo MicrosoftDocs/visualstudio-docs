@@ -98,7 +98,7 @@ For more information, see the [Better multi-monitor experience with Visual Studi
 
 ### Test Explorer
 
-**New in 16.2**: The Test Explorer now has significant UI improvements, to include better handling of large test sets, more natural filtering, discoverable commands, and customizable columns that let the user fine-tune what test information is displayed.
+**New in 16.2**: We've updated Test Explorer to provide better handling of large test sets, easier filtering, more discoverable commands, tabbed playlist views, and customizable columns that let you fine-tune what test information is displayed.
 
    ![A screenshot that shows the user interface improvements in the Test Explorer](media/vs-2019/test-explorer-ui.png)
 
