@@ -96,6 +96,12 @@ With the release of Visual Studio 2019, we're making Visual Studio a per-monitor
 
 For more information, see the [Better multi-monitor experience with Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/a-better-multi-monitor-experience-with-visual-studio-2019/) blog post.
 
+### Test Explorer
+
+**New in 16.2**: The Test Explorer now has significant UI improvements, to include better handling of large test sets, more natural filtering, discoverable commands, and customizable columns that let the user fine-tune what test information is displayed.
+
+   ![A screenshot that shows the user interface improvements in the Test Explorer](media/vs-2019/test-explorer-ui.png)
+
 ## Collaborate
 
 View the following video to learn more about how you can team up to solve issues. <br><br>*Video length: 4.22 minutes*
