@@ -241,7 +241,7 @@ The line in the *Calendar.cs* file that contains the <xref:System.Runtime.Compil
 
    The *property pages* for the project open on the **Application** tab. The property pages contain various settings for the project. Notice that the assembly name of the **QuickTest** project is indeed "QuickTest". If you wanted to change it, this is where you'd do that. Then, when you build the test project, the name of the resulting binary file would change from *QuickTest.dll* to whatever you chose.
 
-   ![Project properties](media/tutorial-projects-properties.png)
+   ![Project properties](media/tutorial-projects-netcore-properties.png)
 
 1. Explore some of the other tabs of the project's property pages, such as **Build** and **Debug**. These tabs are different for different types of projects.
 

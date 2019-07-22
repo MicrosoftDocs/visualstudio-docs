@@ -67,6 +67,8 @@ We'll start our exploration by creating an empty solution. After you get to know
 
 3. On the **Create a new project** page, enter **blank solution** into the search box, select the **Blank Solution** template, and then choose **Next**.
 
+   ![Blank Solution template in Visual Studio 2019](../media/vs-2019/tutorial-projects-blank-solution-template.png)
+
 4. Name the solution **QuickSolution**, and then choose **Create**.
 
    A solution appears in **Solution Explorer** on the right-hand side of the Visual Studio window. You'll probably use **Solution Explorer** often, to browse the contents of your projects.
@@ -89,8 +91,8 @@ Now let's add our first project to the solution. We'll start with an empty proje
 
    > [!NOTE]
    > If you don't see **Visual Basic** in the left pane of the dialog box, you need to install the **.NET desktop development** Visual Studio *workload*. Visual Studio uses workload-based installation to only install the components you need for the type of development you do. An easy way to install a new workload is to choose the **Open Visual Studio Installer** link in the bottom left corner of the **Add New Project** dialog box. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
-
-   ![Open Visual Studio Installer link](media/tutorial-projects-open-installer-vb.png)
+   >
+   > ![Open Visual Studio Installer link](media/tutorial-projects-open-installer-vb.png)
 
 ::: moniker-end
 
@@ -110,6 +112,8 @@ Now let's add our first project to the solution. We'll start with an empty proje
 
    > [!NOTE]
    > If you don't see the **Empty Project (.NET Framework)** template, you need to install the **.NET desktop development** Visual Studio *workload*. Visual Studio uses workload-based installation to only install the components you need for the type of development you do. An easy way to install a new workload when you're creating a new project is to choose the **Install more tools and features** link under the text that says **Not finding what you're looking for?**. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
+   >
+   > ![Installer link in Visual Studio 2019](../media/vs-2019/tutorial-projects-open-installer.png)
 
 ::: moniker-end
 
