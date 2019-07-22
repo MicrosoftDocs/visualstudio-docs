@@ -3,7 +3,7 @@ title: Visual Studio + GitHub Bundle | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 04/15/2019
+ms.date: 07/19/2019
 ms.topic: conceptual
 description: Learn about the new Visual Studio + GitHub bundle
 ---
@@ -57,15 +57,12 @@ If you're new to GitHub, here are some resources that may be helpful to you:
 ## Frequently asked questions
 
 ### Q:  Where is my GitHub subscription?
-
 A:  The process for setting up GitHub subscription can take a while.  If you've been waiting and haven't heard anything, you may want to reach out to your GitHub administrator.  It's possible that your administrator is still working on it, or has elected not to assign a GitHub subscription to you. 
 
 ### Q:  How do I reach my GitHub administrator?
-
 A:  If you're using GitHub Enterprise Server, you can click on the **Support** link visible at the bottom of the client to be connected with your administrator.
 
 ### Q: Do I get the full Visual Studio subscription (Professional or Enterprise) or do I just get the IDE with this offering?
-
 A:  Along with a GitHub Enterprise subscription, you receive a full Visual Studio subscription.  You receive all the benefits such as software downloads, cloud services, technical support and partner benefits included in those subscriptions, just as you would if the subscription was purchased separately.
 
 ## Support resources
@@ -76,5 +73,4 @@ A:  Along with a GitHub Enterprise subscription, you receive a full Visual Studi
 - Get [technical support](https://support.microsoft.com/en-us/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24) for GitHub Enterprise.   
 
 ## Next steps
-
 If you're new to GitHub, check out the [GitHub Learning Lab](https://lab.github.com/), which takes you through a series of fun and practical projects, sharing helpful feedback along the way.
