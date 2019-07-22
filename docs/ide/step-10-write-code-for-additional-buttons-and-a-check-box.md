@@ -2,6 +2,9 @@
 title: "Step 10: Write code for additional buttons and a check box"
 ms.date: 11/04/2016
 ms.topic: conceptual
+dev_langs: 
+  - "csharp"
+  - "vb"
 ms.assetid: 185cf370-ab39-4ac0-b6bc-601d5b95a4a2
 author: TerryGLee
 ms.author: tglee
