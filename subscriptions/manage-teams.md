@@ -1,5 +1,5 @@
 ---
-title: Managing Large Teams and External Contractors | Visual Studio Marketplace
+title: Managing large teams and external contractors | Visual Studio Marketplace
 author: evanwindom
 ms.author: lank
 manager: lank
@@ -23,6 +23,11 @@ Every organization is different, but a typical list of teams involved in develop
 ## External contractors and partners
 External contractors may bring licenses to engage with your Visual Studio-licensed environment. Microsoft Certified Partners may receive a few free Visual Studio subscriptions for their internal use. However, these subscriptions do not cover revenue-generating activities such as developing custom software for a customer. Ask partners to send you a certified letter that explains the licenses they are providing and ones they need you to procure.
 
+## Resources
+- [Visual Studio licensing white paper](https://aka.ms/vslicensing)
+- [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
+- [Volume Licensing terms](https://www.microsoft.com/licensing/product-licensing/products.aspx)
+
 ## Next steps
 Learn more about responsibilities for administrators:
 - [Adminstrator responsibilities](admin-responsibilities.md)
@@ -30,7 +35,4 @@ Learn more about responsibilities for administrators:
 - [Track user assignments and process orders](assignments-orders.md)
 - Use [Maximum Usage](maximum-usage.md) to track purchase commitments
 
-## Resources
-- [Visual Studio Licensing Whitepaper](https://aka.ms/vslicensing)
-- [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
-- [Volume Licensing Terms](https://www.microsoft.com/licensing/product-licensing/products.aspx)
+
