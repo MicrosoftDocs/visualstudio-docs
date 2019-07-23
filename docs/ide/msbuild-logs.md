@@ -1,6 +1,7 @@
 ---
 title: Troubleshoot and create logs for MSBuild problems
 ms.date: 06/27/2019
+ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
   - msbuild logs"
