@@ -2,6 +2,9 @@
 title: "Step 4: Add the CheckTheAnswer() method"
 ms.date: 11/04/2016
 ms.topic: conceptual
+dev_langs: 
+  - "csharp"
+  - "vb"
 ms.assetid: c66f3831-b4a0-40bc-a109-8f46f4db35ed
 author: TerryGLee
 ms.author: tglee

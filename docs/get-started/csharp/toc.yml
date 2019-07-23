@@ -2,12 +2,12 @@
   href: index.yml
 - name: Overview
   items:
-  - name: About Visual Studio
+  - name: About Visual Studiogs
     href: visual-studio-ide.md
   - name: About the code editor
     href: tutorial-editor.md
   - name: About projects and solutions
-    href: tutorial-projects-solutions.md
+    href: ../tutorial-projects-solutions.md?toc=/visualstudio/get-started/csharp/toc.json&bc=/visualstudio/get-started/csharp/breadcrumb/toc.json
   - name: More Visual Studio features
     href: ../../ide/advanced-feature-overview.md?toc=/visualstudio/get-started/csharp/toc.json&bc=/visualstudio/get-started/csharp/breadcrumb/toc.json
 - name: Create an app
