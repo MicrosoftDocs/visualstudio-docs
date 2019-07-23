@@ -1,20 +1,19 @@
 ---
 title: Visual Studio Subscriptions in a Microsoft Products and Services Agreement (MPSA)| Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 03/14/2018
+ms.author: lank
+manager: lank
+ms.date: 07/23/2019
 ms.topic: conceptual
 description:  Visual Studio Subscriptions in a Microsoft Products and Services Agreement (MPSA)
 ---
 
 # Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA)
+If you have purchased Visual Studio Subscriptions through the MPSA program, there are a few things to be aware of before you can become a Visual Studio subscriptions administrator and assign subscriptions to your users. If you have already been set up as an administrator, you can go directly to the Visual Studio subscriptions [Administration Portal](https://manage.visualstudio.com/).
 
-If you have purchased Visual Studio Subscriptions through the MPSA program, there are a few things to be aware of before you can become a Visual Studio subscriptions administrator and assign subscriptions to your users. If you have already been set up as an administrator, then you can go directly to the Visual Studio subscriptions [Administration Portal](https://manage.visualstudio.com/).
+MPSA customers now manage assets purchased through MPSA in a new portal  called the [Business Center](https://businessaccount.microsoft.com/), which supports functionalities similar to the Volume Licensing Service Center (VLSC). These include viewing your License Summary, Orders, Downloads, Keys, Users, etc. However, Visual Studio subscriptions in MPSA behave much like Cloud Services. The Business Center also uses work accounts to sign in, instead of Microsoft Accounts (MSA). If your organization uses cloud services such as Office 365 or Azure Active Directory, and your email is part of either of these two services, it is already a work account. This will allow you to register to Business Center with your existing password. If your organization is not using cloud services and your email is not a work account, you may use it to register to the Business Center.
 
-As an MPSA customer you will be introduced to a portal where you can manage your assets purchased through MPSA. This new portal is called the [Business Center](https://businessaccount.microsoft.com/), which supports some of the same and new functionalities just like the Volume Licensing Service Center (VLSC). These include viewing your License Summary, Orders, Downloads, Keys, Users, etc. However, Visual Studio subscriptions in MPSA behave much like Cloud Services. The Business Center also uses Work Accounts to sign in, instead of Microsoft Accounts. If your organization uses cloud services such as Office 365 or Azure Active Directory, and your email is part of any of these two services then it is already a Work Account. This will allow you to register to Business Center with your existing password that your organization appointed to you. If your organization is not using cloud services and your email is not a Work Account at all, do not worry as you may use it to register to the Business Center.
-
-In addition, the Visual Studio subscriptions [Administration Portal](https://manage.visualstudio.com/) is where the subscriptions will be assigned to subscribers once you become a Visual Studio administrator. In MPSA, Visual Studio subscriptions must be provisioned to its respective management portal, which is the Visual Studio Subscriptions Administration Portal. To do that, you need to associate your Purchasing Account to a tenant (i.e. contoso.onmicrosoft.com).
+In addition, the Visual Studio subscriptions [Administration Portal](https://manage.visualstudio.com/) is where the subscriptions will be assigned to subscribers once you become a Visual Studio subscriptions administrator. In MPSA, Visual Studio subscriptions must be provisioned to its respective management portal, which is the Visual Studio Subscriptions Administration Portal. To do that, you need to associate your Purchasing Account to a tenant (i.e. contoso.onmicrosoft.com).
 
 Please note that there are two types of tenants (a managed tenant and an unmanaged tenant). A managed tenant refers to a tenant that is already being managed by the organization as administrators within.
 

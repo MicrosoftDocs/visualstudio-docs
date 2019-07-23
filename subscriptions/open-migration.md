@@ -1,13 +1,13 @@
 ---
 title: Open and Open License Order Management | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
+ms.author: lank
 manager: lank
-ms.date: 07/02/2018
+ms.date: 07/23/2019
 ms.topic: conceptual
 description:  Learn about management of order for subscriptions using Open and Open License programs.
-
 ---
+
 # Open and Open License management for new orders
 To manage subscriptions in the Visual Studio [Subscriptions Administration Portal](https://manage.visualstudio.com), there are a few steps that Partners and customers will need to follow. The process will be:
 - Partners will place a new order on behalf of a customer, entering the customer’s business email address.
