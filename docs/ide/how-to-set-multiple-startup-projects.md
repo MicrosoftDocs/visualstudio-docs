@@ -5,6 +5,7 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "startup projects, setting multiple startup projects"
 ms.assetid: 6131eb80-8745-4eb9-bdab-433e69b41651
+ms.technology: vs-ide-compile
 author: ghogen
 ms.author: ghogen
 manager: jillfra
