@@ -65,7 +65,7 @@ To continue exploring Visual Studio's features, let's create a new project.
 
    ![Search project templates on Visual Studio Start Page](media/start-page-search-templates.png)
 
-   Visual Studio provides various kinds of project templates that help you get started coding quickly. Choose a C# **Console App (.NET Framework)** project template. (Alternatively, if you're a Visual Basic, C++, Javascript, or other language developer, feel free to create a project in one of those languages. The UI we'll be looking at is similar for all programming languages.)
+   Visual Studio provides various kinds of project templates that help you get started coding quickly. Choose a C# **Console App (.NET Core)** project template. (Alternatively, if you're a Visual Basic, C++, Javascript, or other language developer, feel free to create a project in one of those languages. The UI we'll be looking at is similar for all programming languages.)
 
 1. In the **New Project** dialog box that appears, accept the default project name and choose **OK**.
 
@@ -81,7 +81,7 @@ To continue exploring Visual Studio's features, let's create a new project.
 
    ![New project dialog in Visual Studio 2019](media/vs-2019/create-a-new-project.png)
 
-1. If you selected C#, Visual Basic, or F# as your language, select the **Console App (.NET Framework)** template, and then choose **Next**. (If you selected a different language, just pick any template. The UI we'll be looking at is similar for all programming languages.)
+1. If you selected C#, Visual Basic, or F# as your language, select the **Console App (.NET Core)** template, and then choose **Next**. (If you selected a different language, just pick any template. The UI we'll be looking at is similar for all programming languages.)
 
 1. On the **Configure your new project** page, accept the default project name and location, and then choose **Create**.
 
