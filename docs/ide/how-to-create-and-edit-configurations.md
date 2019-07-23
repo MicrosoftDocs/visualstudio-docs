@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "project build configurations, creating"
   - "project build configurations, editing"
 ms.assetid: 19be121c-148e-4ece-bbfc-d20b08cfc3f7
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
