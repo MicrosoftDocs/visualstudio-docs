@@ -1,6 +1,6 @@
 ---
 title: Advanced Build Settings Dialog Box (C#)
-ms.date: 06/20/2017
+ms.date: 07/22/2019
 ms.topic: reference
 f1_keywords:
   - "cs.AdvancedBuildSettings"
@@ -23,19 +23,19 @@ The following options enable you to set general advanced settings.
 
 **Language Version**
 
-Specifies the version of the language to use. The feature set is different in each version, so this option can be used to force the compiler to allow only a subset of the implemented features, or to enable only those features compatible with an existing standard. This setting has the following options:
+moniker range=">=vs-2019"
 
-- **default**
+Provides a link to [/langversion (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/langversion-compiler-option) so you can learn why your default language version was chosen for you based on your target framework.
 
-   Targets the current version.
+::: moniker-end
 
-- **ISO-1** and **ISO-2**
+::: moniker range="vs-2017"
 
-   Targets the ISO-1 and ISO-2 standard features, respectively.
+Specifies the version of the language to use. The feature set is different in each version, so this option can be used to force the compiler to allow only a subset of the implemented features, or to enable only those features compatible with an existing standard.
 
-- **C# [version number]**
+The default value is C# 7.0.
 
-   Targets a specific version of C#. For more information, see [/langversion (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/langversion-compiler-option).
+::: moniker-end
 
 **Internal Compiler Error Reporting**
 
