@@ -1,6 +1,7 @@
 ---
 title: Pre-build Event-Post-build Event Command Line Dialog Box
 ms.date: 11/04/2016
+ms.technology: vs-ide-compile
 ms.topic: reference
 f1_keywords:
   - "cs.ProjectPropertiesBuildEventsBuilder"
@@ -28,40 +29,43 @@ helpviewer_keywords:
   - "$(ProjectName)"
   - "build events, macros"
 ms.assetid: d49b2c57-24bf-4fb2-8351-5c4b6cca938f
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Pre-build Event/Post-build Event Command Line Dialog Box
+# Pre-build event/post-build event command line dialog box
+
 You can type pre- or post-build events for the [Build Events Page, Project Designer (C#)](../../ide/reference/build-events-page-project-designer-csharp.md) directly in the edit box, or you can select pre- and post-build macros from a list of available macros.
 
 > [!NOTE]
 > Pre-build events do not run if the project is up to date and no build is triggered.
 
 ## UI Element List
- **Command line edit box**
 
- Contains the events to run either for pre-build or post-build.
+**Command line edit box**
+
+Contains the events to run either for pre-build or post-build.
 
 > [!NOTE]
 > Add a `call` statement before all post-build commands that run .bat files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.
 
- **Macros**
+**Macros**
 
- Expands the edit box to display a list of macros to insert in the command line edit box.
+Expands the edit box to display a list of macros to insert in the command-line edit box.
 
- **Macro table**
+**Macro table**
 
- Lists the available macros and its value. See Macros below for a description of each. You can select only one macro at a time to insert into the command line edit box.
+Lists the available macros and its value. See Macros below for a description of each. You can select only one macro at a time to insert into the command-line edit box.
 
- **Insert**
+**Insert**
 
- Inserts into the command line edit box the macro selected in the macro table.
+Inserts into the command line edit box the macro selected in the macro table.
 
 ### Macros
- You can use any of these macros to specify locations for files, or to get the actual name of the input file in the case of multiple selections. These macros are not case-sensitive.
+
+You can use any of these macros to specify locations for files, or to get the actual name of the input file in the case of multiple selections. These macros are not case-sensitive.
 
 |Macro|Description|
 |-----------|-----------------|
@@ -85,7 +89,7 @@ You can type pre- or post-build events for the [Build Events Page, Project Desig
 |`$(TargetFileName)`|The file name of the primary output file for the build (defined as base name and file extension).|
 |`$(TargetExt)`|The file extension of the primary output file for the build. It includes the '.' before the file extension.|
 
-## See Also
+## See also
 
 - [Specifying Custom Build Events in Visual Studio](../../ide/specifying-custom-build-events-in-visual-studio.md)
 - [Build Events Page, Project Designer (C#)](../../ide/reference/build-events-page-project-designer-csharp.md)
