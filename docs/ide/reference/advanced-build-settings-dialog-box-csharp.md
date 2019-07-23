@@ -23,7 +23,18 @@ The following options enable you to set general advanced settings.
 
 **Language Version**
 
+
+moniker range=">=vs-2019"
+
 Provides a link to [/langversion (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/langversion-compiler-option) so you can learn why your default language version was chosen for you based on your target framework.
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+(The VS 2017 version info would go here.)
+
+::: moniker-end
 
 **Internal Compiler Error Reporting**
 
