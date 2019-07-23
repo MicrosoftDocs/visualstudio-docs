@@ -1,6 +1,6 @@
 ---
 title: Work with multiple user accounts
-ms.date: 12/10/2018
+ms.date: 07/23/2019
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren

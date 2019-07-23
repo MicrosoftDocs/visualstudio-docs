@@ -152,7 +152,7 @@ Next, invoke this command in a post-build event to modify the application manife
 
 5. Back in the **Project Designer**, click the **Build Events** tab and then click **Edit Post-build**.
 
-6. In the **Post-build Event Command Line** box, entery the following command:
+6. In the **Post-build Event Command Line** box, enter the following command:
 
    `C:\TEMP\ChangeOSVersionCS.exe "$(TargetPath).manifest" 5.1.2600.0`
 
