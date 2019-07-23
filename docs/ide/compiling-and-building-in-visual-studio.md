@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "builds [Visual Studio], about building in Visual Studio"
   - "custom build steps, types of builds"
 ms.assetid: c7958821-285f-4e28-9e7a-b5d8b40336a1
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -67,6 +67,8 @@ We'll start our exploration by creating an empty solution. After you get to know
 
 3. On the **Create a new project** page, enter **blank solution** into the search box, select the **Blank Solution** template, and then choose **Next**.
 
+   ![Blank Solution template in Visual Studio 2019](../media/vs-2019/tutorial-projects-blank-solution-template.png)
+
 4. Name the solution **QuickSolution**, and then choose **Create**.
 
    A solution appears in **Solution Explorer** on the right-hand side of the Visual Studio window. You'll probably use **Solution Explorer** often, to browse the contents of your projects.
@@ -76,6 +78,8 @@ We'll start our exploration by creating an empty solution. After you get to know
 ### Add a project
 
 Now let's add our first project to the solution. We'll start with an empty project and add the items we need to the project.
+
+::: moniker range="vs-2017"
 
 1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, choose **Add** > **New Project**.
 
@@ -87,8 +91,31 @@ Now let's add our first project to the solution. We'll start with an empty proje
 
    > [!NOTE]
    > If you don't see **Visual Basic** in the left pane of the dialog box, you need to install the **.NET desktop development** Visual Studio *workload*. Visual Studio uses workload-based installation to only install the components you need for the type of development you do. An easy way to install a new workload is to choose the **Open Visual Studio Installer** link in the bottom left corner of the **Add New Project** dialog box. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
+   >
+   > ![Open Visual Studio Installer link](media/tutorial-projects-open-installer-vb.png)
 
-   ![Open Visual Studio Installer link](media/tutorial-projects-open-installer-vb.png)
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, choose **Add** > **New Project**.
+
+   A dialog box opens that says **Add a new project**.
+
+1. Enter the text **empty** into the search box at the top, and then select **Visual Basic** under **Language**.
+
+1. Select the **Empty Project (.NET Framework)** template, and then choose **Next**.
+
+1. Name the project **QuickDate**, then choose **Create**.
+
+   A project named QuickDate appears beneath the solution in **Solution Explorer**. Currently it contains a single file called *App.config*.
+
+   > [!NOTE]
+   > If you don't see the **Empty Project (.NET Framework)** template, you need to install the **.NET desktop development** Visual Studio *workload*. Visual Studio uses workload-based installation to only install the components you need for the type of development you do. An easy way to install a new workload when you're creating a new project is to choose the **Install more tools and features** link under the text that says **Not finding what you're looking for?**. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
+   >
+   > ![Installer link in Visual Studio 2019](../media/vs-2019/tutorial-projects-open-installer.png)
+
+::: moniker-end
 
 ## Add an item to the project
 
@@ -126,13 +153,27 @@ Let's add a unit test project to our solution. This time we'll start from a proj
 
 1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, choose **Add** > **New Project**.
 
-   The **Add New Project** dialog box opens.
+::: moniker range="Vs-2017"
 
-1. In the left pane, expand **Visual Basic** and choose the **Test** category. In the middle pane, choose the **Unit Test Project (.NET Framework)** project template. Name the project **QuickTest**, and then choose the **OK** button.
+2. In the left pane, expand **Visual Basic** and choose the **Test** category. In the middle pane, choose the **Unit Test Project (.NET Framework)** project template. Name the project **QuickTest**, and then choose **OK**.
 
    A second project is added to **Solution Explorer**, and a file named *UnitTest1.vb* opens in the editor.
 
    ![Visual Studio Solution Explorer with two projects](media/tutorial-projects-solution-explorer-vb.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. In the **Add a new project** dialog box, enter the text **unit test** into the search box at the top, and then select **Visual Basic** under **Language**.
+
+3. Choose the **Unit Test Project (.NET Framework)** project template, and then choose **Next**.
+
+4. Name the project **QuickTest**, and then choose **Create**.
+
+   A second project is added to **Solution Explorer**, and a file named *UnitTest1.vb* opens in the editor.
+
+::: moniker-end
 
 ## Add a project reference
 
@@ -162,7 +203,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
    End Class
    ```
 
-   You'll see a red "squiggly" under some of the code. We'll fix this error by making the test project a [friend assembly](/dotnet/visual-basic/programming-guide/concepts/assemblies-gac/friend-assemblies) to the **QuickDate** project.
+   You'll see a red squiggle under some of the code. We'll fix this error by making the test project a [friend assembly](/dotnet/visual-basic/programming-guide/concepts/assemblies-gac/friend-assemblies) to the **QuickDate** project.
 
 1. Back in the **QuickDate** project, open the *Calendar.vb* file if it's not already open, and add the following [Imports statement](/dotnet/visual-basic/language-reference/statements/imports-statement-net-namespace-and-type) and <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute, to resolve the error in the test project.
 
