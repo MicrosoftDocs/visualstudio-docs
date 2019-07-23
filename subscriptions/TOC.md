@@ -18,7 +18,6 @@
 #### [Sign in with work/school accounts](sign-in-work.md)
 #### [Sign in with GitHub](sign-in-github.md)
 #### [Alternate identities](vs-alternate-identity.md)
-#### [Sign in with aliases](aliasing.md)
 #### [Sign in problems](sign-in-issues.md)
 #### [Anonymizations of subscriber data](anonymization.md)
 ### [Subscriptions portal overview](using-the-subscriber-portal.md)
@@ -60,6 +59,9 @@
 #### [Internet demonstrations](internet-demos.md)
 ## Administrators
 ### [Administrator Responsibilities](admin-responsibilities.md)
+#### [Pre-production inventory](admin-inventory.md)
+#### [Manage large teams and external contractors](manage-teams.md)
+#### [Track user assignments and process orders](assignments-orders.md)
 ### [Volume Licensing](volume-license-admins.md)
 ### Onboarding your organization
 #### [Post migration onboarding](post-migration-onboarding.md)
@@ -78,6 +80,7 @@
 #### [Overallocations](handle-overclaimed-license.md)
 #### [Maximum Usage](maximum-usage.md)
 #### [Expired Subscriptions](handle-expired-license.md)
+#### [Subscribers using aliases](aliasing.md)
 #### [Subscribers with Personal Email Sign-ins](personal-email-sign-ins.md)
 ### [Managing Visual Studio with GitHub Enterprise](assign-github.md)
 ## Resources
