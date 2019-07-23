@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "projects [Visual Studio], build configuration"
   - "solutions [Visual Studio], build configuration"
 ms.assetid: 934c727d-3a22-429c-bd13-3552cecf2e24
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
