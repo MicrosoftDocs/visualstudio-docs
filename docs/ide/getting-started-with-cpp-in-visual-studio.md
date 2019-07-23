@@ -101,7 +101,7 @@ Next, add code to display the word "Hello" in the console window.
    using namespace std;
    ```
 
-   You probably noticed that a box appeared as you entered code. This box contains auto-completion suggestions for the characters that you enter. It's part of C++ IntelliSense, which provides coding prompts, including class or interface members and parameter information. You can also use code snippets, which are pre-defined blocks of code. For more information, see [Using IntelliSense](../ide/using-intellisense.md) and [Code snippets](../ide/code-snippets.md).
+   You probably noticed that a box appeared as you entered code. This box contains autocompletion suggestions for the characters that you enter. It's part of C++ IntelliSense, which provides coding prompts, including class or interface members and parameter information. You can also use code snippets, which are pre-defined blocks of code. For more information, see [Using IntelliSense](../ide/using-intellisense.md) and [Code snippets](../ide/code-snippets.md).
 
    ![The fixed code in the editor](../ide/media/get-started-cpp-cout-fix.png)
 

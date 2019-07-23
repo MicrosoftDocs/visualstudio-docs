@@ -89,7 +89,7 @@ Configures **Solution Explorer** to show files in the project and files on disk 
 
 **Yes**
 
-Enables Visual Studio to cache project data so that when you open the project the next time, it can load that cached data rather than re-computing it from the project files. Using cached data can speed up the project load time significantly.
+Enables Visual Studio to cache project data so that when you open the project the next time, it can load that cached data rather than recomputing it from the project files. Using cached data can speed up the project load time significantly.
 
 **No**
 

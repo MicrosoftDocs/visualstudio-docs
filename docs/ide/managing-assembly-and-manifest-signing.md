@@ -48,7 +48,7 @@ Sign the following types of asset:
 
 3. Primary interop assemblies, which are used for COM interoperability. The TLBIMP utility enforces strong-naming when creating a primary interop assembly from a COM type library.
 
-In general, you should not sign executables. A strongly-named component cannot reference a non-strongly-named component that is deployed with the application. Visual Studio does not sign application executables, but instead signs the application manifest, which points to the weak-named executable. Avoid signing components that are private to your application, because signing can make it more difficult to manage dependencies.
+In general, you should not sign executables. A strongly named component cannot reference a non-strongly-named component that is deployed with the application. Visual Studio does not sign application executables, but instead signs the application manifest, which points to the weak-named executable. Avoid signing components that are private to your application, because signing can make it more difficult to manage dependencies.
 
 ## How to sign an assembly in Visual Studio
 

@@ -48,11 +48,11 @@ Specifies symbols on which to perform conditional compilation. Separate symbols 
 
 **Define DEBUG constant**
 
-Defines DEBUG as a symbol in all source code files in your app. Selecting this is equivalent to using the `/define:DEBUG` command line option.
+Defines DEBUG as a symbol in all source code files in your app. Selecting this is equivalent to using the `/define:DEBUG` command-line option.
 
 **Define TRACE constant**
 
-Defines TRACE as a symbol in all source code files in your app. Selecting this is equivalent to using the `/define:TRACE` command line option.
+Defines TRACE as a symbol in all source code files in your app. Selecting this is equivalent to using the `/define:TRACE` command-line option.
 
 **Platform Target**
 
@@ -116,7 +116,7 @@ The following settings are used to configure the output options for the build pr
 
 **Output path**
 
-Specifies the location of the output files for this project's configuration. Enter the path of the build output in this box, or choose the **Browse** button to specify a path. Note that the path is relative; if you enter an absolute path, it will be saved as relative. The default path is bin\Debug or bin\Release\\.
+Specifies the location of the output files for this project's configuration. Enter the path of the build output in this box, or choose the **Browse** button to specify a path. The path is relative; if you enter an absolute path, it will be saved as relative. The default path is bin\Debug or bin\Release\\.
 
 With simplified build configurations, the project system determines whether to build a debug or release version. The **Build** command from the **Debug** menu (F5) will put the build in the debug location regardless of the **Output path** you specify. However, the **Build** command from the **Build** menu puts it in the location you specify. For more information, see [Understanding Build Configurations](../../ide/understanding-build-configurations.md).
 

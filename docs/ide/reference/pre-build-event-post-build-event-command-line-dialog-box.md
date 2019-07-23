@@ -35,7 +35,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Pre-build event/post-build event command-line dialog box
+# Pre-build event/post-build event command line dialog box
 
 You can type pre- or post-build events for the [Build Events Page, Project Designer (C#)](../../ide/reference/build-events-page-project-designer-csharp.md) directly in the edit box, or you can select pre- and post-build macros from a list of available macros.
 
@@ -53,11 +53,11 @@ Contains the events to run either for pre-build or post-build.
 
 **Macros**
 
-Expands the edit box to display a list of macros to insert in the command line edit box.
+Expands the edit box to display a list of macros to insert in the command-line edit box.
 
 **Macro table**
 
-Lists the available macros and its value. See Macros below for a description of each. You can select only one macro at a time to insert into the command line edit box.
+Lists the available macros and its value. See Macros below for a description of each. You can select only one macro at a time to insert into the command-line edit box.
 
 **Insert**
 
