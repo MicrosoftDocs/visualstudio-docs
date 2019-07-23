@@ -123,7 +123,7 @@ Log.LogError("Hello, world!");
 
 ```xml
 <ParameterGroup>
-    <Text />
+  <Text />
 </ParameterGroup>
 ```
 
@@ -139,9 +139,9 @@ For example,
 
 ```xml
 <ParameterGroup>
-    <Expression Required="true" />
-      <Files ParameterType="Microsoft.Build.Framework.ITaskItem[]" Required="true" />
-    <Tally ParameterType="System.Int32" Output="true" />
+  <Expression Required="true" />
+  <Files ParameterType="Microsoft.Build.Framework.ITaskItem[]" Required="true" />
+  <Tally ParameterType="System.Int32" Output="true" />
 </ParameterGroup>
 ```
 
