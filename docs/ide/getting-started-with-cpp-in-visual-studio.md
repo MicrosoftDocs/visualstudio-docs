@@ -6,7 +6,7 @@ ms.date: 12/04/2017
 ms.topic: tutorial
 author: corob-msft
 ms.author: corob
-manager: jillfra
+manager: markl
 dev_langs:
   - "CPP"
 ms.workload:

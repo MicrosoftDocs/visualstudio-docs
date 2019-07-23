@@ -115,7 +115,7 @@ A Msbuild.binlog file will be created in the directory that you ran MSBuild from
 1. From a Visual Studio developer command prompt, enter one of these commands, substituting your actual path and configuration values:
 
     ```cmd
-    Msbuild /p:Configuration="MyConfiguration";Platform="x86" /fl MySolution.sln 
+    Msbuild /p:Configuration="MyConfiguration";Platform="x86" /fl MySolution.sln
     ```
 
     or

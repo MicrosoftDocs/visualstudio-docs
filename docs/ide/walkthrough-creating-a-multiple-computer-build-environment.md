@@ -1,12 +1,13 @@
 ---
 title: "Walkthrough: Create a multiple-computer build environment"
 ms.date: 11/04/2016
+ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
   - "MSBuild, building on multiple computers"
   - "build environment, MSBuild"
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
