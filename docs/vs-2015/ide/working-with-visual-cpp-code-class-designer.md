@@ -27,22 +27,22 @@ Class Designer displays a visual design surface called a *class diagram* that pr
   
  Class Designer supports the following C++ code elements:  
   
--   Class (resembles a managed class shape, except that it can have multiple inheritance relationships)  
+- Class (resembles a managed class shape, except that it can have multiple inheritance relationships)  
   
--   Anonymous class (displays Class View's generated name for the anonymous type)  
+- Anonymous class (displays Class View's generated name for the anonymous type)  
   
--   Template class  
+- Template class  
   
--   Struct  
+- Struct  
   
--   Enum  
+- Enum  
   
--   Macro (displays the post-processed view of the macro)  
+- Macro (displays the post-processed view of the macro)  
   
--   Typedef  
+- Typedef  
   
 > [!NOTE]
->  This is not the same as the UML class diagram, which you can create in a Modeling Project. For more information, see [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md).  
+> This is not the same as the UML class diagram, which you can create in a Modeling Project. For more information, see [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md).  
   
 ## Troubleshooting Type Resolution and Display Issues  
   
@@ -57,7 +57,7 @@ Class Designer displays a visual design surface called a *class diagram* that pr
 ### Type Resolution Issues  
  Class Designer might not be able to resolve types for the following reasons:  
   
-- The type is in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
+- The type is in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
   
 - The type is not in the correct scope, so Class Designer cannot locate it. Ensure that the code is not missing a `using`, `imports`, or `#include` statement. Also make sure that you have not moved the type (or a related type) out of the namespace in which it was originally located.  
   
@@ -71,34 +71,34 @@ Class Designer displays a visual design surface called a *class diagram* that pr
   
 - Ensure that Class Designer supports the type that you entered. See [Limitations for C++ Code Elements](#limitations).  
   
-- Try to resolve the type. The type might be in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
+- Try to resolve the type. The type might be in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
   
 - Ensure that the type is in the correct scope so that Class Designer can locate it. Make sure that the code is not missing a `using`, `imports`, or `#include` statement. Also make sure that you have not moved the type (or a related type) out of the namespace in which it was originally located.  
   
 ### Troubleshooting Other Error Messages  
  You can find assistance with troubleshooting errors and warnings in the Microsoft Developer Network (MSDN) public forums. See the [Visual Studio Class Designer Forum](http://go.microsoft.com/fwlink/?linkid=160754).  
   
-##  <a name="limitations"></a> Limitations for C++ Code Elements  
+## <a name="limitations"></a> Limitations for C++ Code Elements  
   
--   When a Visual C++ project is loaded, Class Designer functions in a read-only manner. You can change the class diagram, but you cannot save changes from the class diagram back to the source code.  
+- When a Visual C++ project is loaded, Class Designer functions in a read-only manner. You can change the class diagram, but you cannot save changes from the class diagram back to the source code.  
   
--   Class Designer supports only native C++ semantics. For Visual C++ projects that are compiled into managed code, Class Designer will only visualize code elements that are native types. Therefore, you can add a class diagram to a project, but Class Designer will not allow you to visualize elements in which the `IsManaged` property is set to `true` (that is, value types and reference types).  
+- Class Designer supports only native C++ semantics. For Visual C++ projects that are compiled into managed code, Class Designer will only visualize code elements that are native types. Therefore, you can add a class diagram to a project, but Class Designer will not allow you to visualize elements in which the `IsManaged` property is set to `true` (that is, value types and reference types).  
   
--   For Visual C++ projects, the Class Designer reads only the definition of the type. For example, assume that you define a type in a header (.h) file and define its members in an implementation (.cpp) file. If you invoke "View Class Diagram" on the implementation (.cpp) file, Class Designer displays nothing. As another example, if you invoke "View Class Diagram" on a .cpp file that uses an `#include` statement to include other files but does not contain any actual class definitions, Class Designer again displays nothing.  
+- For Visual C++ projects, the Class Designer reads only the definition of the type. For example, assume that you define a type in a header (.h) file and define its members in an implementation (.cpp) file. If you invoke "View Class Diagram" on the implementation (.cpp) file, Class Designer displays nothing. As another example, if you invoke "View Class Diagram" on a .cpp file that uses an `#include` statement to include other files but does not contain any actual class definitions, Class Designer again displays nothing.  
   
--   IDL (.idl) files, which define COM interfaces and type libraries, do not display in diagrams unless they are compiled to native C++ code.  
+- IDL (.idl) files, which define COM interfaces and type libraries, do not display in diagrams unless they are compiled to native C++ code.  
   
--   Class Designer does not support global functions and variables.  
+- Class Designer does not support global functions and variables.  
   
--   Class Designer does not support unions. This is a special type of class in which the memory allocated is only the amount necessary for the union's largest data member.  
+- Class Designer does not support unions. This is a special type of class in which the memory allocated is only the amount necessary for the union's largest data member.  
   
--   Class Designer does not display basic data types such as `int` and `char`.  
+- Class Designer does not display basic data types such as `int` and `char`.  
   
--   Class Designer does not display types that are defined outside the current project if the project does not have correct references to those types.  
+- Class Designer does not display types that are defined outside the current project if the project does not have correct references to those types.  
   
--   Class Designer can display nested types but not the relationships between a nested type and other types.  
+- Class Designer can display nested types but not the relationships between a nested type and other types.  
   
--   Class Designer cannot display types that are void or that derive from a void type.  
+- Class Designer cannot display types that are void or that derive from a void type.  
   
 ## See Also  
  [Designing and Viewing Classes and Types](../ide/designing-and-viewing-classes-and-types.md)   

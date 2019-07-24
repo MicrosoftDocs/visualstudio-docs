@@ -12,49 +12,21 @@ author: gewarren
 ---
 # Input generation using dynamic symbolic execution
 
-IntelliTest generates inputs for
-[parameterized unit tests](test-generation.md#parameterized-unit-testing)
-by analyzing the branch conditions in the program.
-Test inputs are chosen based on whether they can
-trigger new branching behaviors of the program.
-The analysis is an incremental process. It refines a
-predicate **q: I -> {true, false}** over the formal
-test input parameters **I**. **q** represents the set
-of behaviors that IntelliTest has already observed.
-Initially, **q := false**, since nothing has yet been
-observed.
+IntelliTest generates inputs for [parameterized unit tests](test-generation.md#parameterized-unit-testing) by analyzing the branch conditions in the program. Test inputs are chosen based on whether they can trigger new branching behaviors of the program. The analysis is an incremental process. It refines a predicate `q: I -> {true, false}` over the formal test input parameters `I`. `q` represents the set of behaviors that IntelliTest has already observed. Initially, `q := false`, since nothing has yet been observed.
 
 The steps of the loop are:
 
-1. IntelliTest determines inputs **i** such that **q(i)=false**
-   using a [constraint solver](#constraint-solver).
-   By construction, the input **i** will take an
-   execution path not seen before. Initially, this
-   means that **i** can be any input, because no
-   execution path has yet been discovered.
+1. IntelliTest determines inputs `i` such that `q(i)=false` using a [constraint solver](#constraint-solver). By construction, the input `i` will take an execution path not seen before. Initially, this means that `i` can be any input, because no execution path has yet been discovered.
 
-1. IntelliTest executes the test with the chosen
-   input **i**, and monitors the execution of the
-   test and the program under test.
+1. IntelliTest executes the test with the chosen input `i`, and monitors the execution of the test and the program under test.
 
-1. During the execution, the program takes a
-   particular path that is determined by all the
-   conditional branches of the program. The set of
-   all conditions that determine the execution is
-   called the *path condition*, written as the
-   predicate **p: I -> {true, false}** over the formal
-   input parameters. IntelliTest computes a
-   representation of this predicate.
+1. During the execution, the program takes a particular path that is determined by all the conditional branches of the program. The set of all conditions that determine the execution is called the *path condition*, written as the predicate `p: I -> {true, false}` over the formal input parameters. IntelliTest computes a representation of this predicate.
 
-1. IntelliTest sets **q := (q or p)**. In other words,
-   it records the fact that it has seen the path
-   represented by **p**.
+1. IntelliTest sets `q := (q or p)`. In other words, it records the fact that it has seen the path represented by `p`.
 
 1. Go to step 1.
 
-IntelliTest's [constraint solver](#constraint-solver)
-can deal with values of all types that may appear in
-.NET programs:
+IntelliTest's [constraint solver](#constraint-solver) can deal with values of all types that may appear in .NET programs:
 
 * [Integers](#integers-and-floats) and [Floats](#integers-and-floats)
 * [Objects](#objects)
@@ -63,24 +35,14 @@ can deal with values of all types that may appear in
 
 IntelliTest filters out inputs that violate stated assumptions.
 
-Besides the immediate inputs (arguments to
-[parameterized unit tests](test-generation.md#parameterized-unit-testing)),
-a test can draw further input values from the
-[PexChoose](static-helper-classes.md#pexchoose)
-static class. The choices also determine the behavior of
-[parameterized mocks](#parameterized-mocks).
+Besides the immediate inputs (arguments to [parameterized unit tests](test-generation.md#parameterized-unit-testing)), a test can draw further input values from the [PexChoose](static-helper-classes.md#pexchoose) static class. The choices also determine the behavior of [parameterized mocks](#parameterized-mocks).
 
-<a name="constraint-solver"></a>
 ## Constraint solver
 
-IntelliTest uses a constraint solver to determine
-the relevant input values of a test and the
-program under test.
+IntelliTest uses a constraint solver to determine the relevant input values of a test and the program under test.
 
-IntelliTest uses the
-[Z3](https://github.com/Z3Prover/z3/wiki) constraint solver.
+IntelliTest uses the [Z3](https://github.com/Z3Prover/z3/wiki) constraint solver.
 
-<a name="dynamic-code-coverage"></a>
 ## Dynamic code coverage
 
 As a side-effect of the runtime monitoring,
@@ -100,7 +62,6 @@ Later in the analysis, as more reachable methods
 are discovered, both the numerator (5 in this example)
 and the denominator (10) may increase.
 
-<a name="integers-and-floats"></a>
 ## Integers and floats
 
 IntelliTest's [constraint solver](#constraint-solver)
@@ -109,7 +70,6 @@ as **byte**, **int**, **float**, and others in order
 to trigger different execution paths for the test and
 the program under test.
 
-<a name="objects"></a>
 ## Objects
 
 IntelliTest can either
@@ -151,18 +111,11 @@ state that can never occur during normal program
 execution. Instead, IntelliTest relies on hints from
 the user.
 
-<a name="visibility"></a>
 ## Visibility
 
-The .NET Framework has an elaborate visibility model:
-types, methods, fields, and other members can be
-**private**, **public**, **internal**, and more.
+.NET has an elaborate visibility model: types, methods, fields, and other members can be **private**, **public**, **internal**, and more.
 
-When IntelliTest generates tests, it will attempt to
-perform only actions (such as calling constructors,
-methods, and setting fields) that are legal with regard
-to .NET visibility rules from within the context of
-the generated tests.
+When IntelliTest generates tests, it will attempt to perform only actions (such as calling constructors, methods, and setting fields) that are legal with regard to .NET visibility rules from within the context of the generated tests.
 
 The rules are as follows:
 
@@ -171,7 +124,7 @@ The rules are as follows:
   to internal members that were visible to the
   enclosing [PexClass](attribute-glossary.md#pexclass).
   .NET has the **InternalsVisibleToAttribute** to
-  extend the visibility of internal members to other assemblies.<p />
+  extend the visibility of internal members to other assemblies.
 
 * **Visibility of private and family (protected in C#) members of the
   [PexClass](attribute-glossary.md#pexclass)**
@@ -184,18 +137,17 @@ The rules are as follows:
     the [PexClass](attribute-glossary.md#pexclass)
     (usually by using partial classes), IntelliTest
     assumes that it may also use all private members of the
-    [PexClass](attribute-glossary.md#pexclass).<p />
+    [PexClass](attribute-glossary.md#pexclass).
 
 * **Visibility of public members**
   * IntelliTest assumes that it may use all exported members visible in the context of the [PexClass](attribute-glossary.md#pexclass).
 
-<a name="parameterized-mocks"></a>
 ## Parameterized mocks
 
 How to test a method that has a parameter of an
 interface type? Or of a non-sealed class? IntelliTest
 does not know which implementations will later be
-used when this method is called. And perhpas there isn't
+used when this method is called. And perhaps there isn't
 even a real implementation available at test time.
 
 The conventional answer is to use *mock objects* with
@@ -204,7 +156,7 @@ explicit behavior.
 A mock object implements an interface (or extends a
 non-sealed class). It does not represent a real
 implementation, but just a shortcut that allows the
-execution of tests using the mock object. It's
+execution of tests using the mock object. Its
 behavior is defined manually as part of each test
 case where it is used. Many tools exist that make it
 easy to define mock objects and their expected
@@ -227,13 +179,11 @@ Parameterized mocks have two different execution modes:
 Use [PexChoose](static-helper-classes.md#pexchoose)
 to obtain values for parameterized mocks.
 
-<a name="structs"></a>
 ## Structs
 
 IntelliTest's reasoning about **struct** values is
 similar to the way it deals with [objects](#objects).
 
-<a name="arrays-and-strings"></a>
 ## Arrays and strings
 
 IntelliTest monitors the executed instructions as
@@ -256,11 +206,10 @@ program behaviors.
 
 The [PexChoose](static-helper-classes.md#pexchoose) static class can be used to obtain additional inputs to a test, and can be used to implement [parameterized mocks](#parameterized-mocks).
 
-<a name="further-reading"></a>
-## Further reading
-
-* [How does it work?](https://devblogs.microsoft.com/devops/smart-unit-tests-a-mental-model/)
-
 ## Got feedback?
 
 Post your ideas and feature requests on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).
+
+## Further reading
+
+* [How does it work?](https://devblogs.microsoft.com/devops/smart-unit-tests-a-mental-model/)

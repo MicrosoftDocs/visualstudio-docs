@@ -24,7 +24,7 @@ ms.workload:
  In document-level customizations, you can protect worksheets by using the Excel designer. You can also protect a worksheet programmatically at run time in any project type.
 
 > [!NOTE]
->  You cannot add Windows Forms controls to areas of a worksheet that are protected.
+> You cannot add Windows Forms controls to areas of a worksheet that are protected.
 
 ## Use the designer
 
@@ -38,7 +38,7 @@ ms.workload:
 
 ### To allow editing in specific ranges
 
-1.  In the **Changes** group of the **Review** tab, click **Allow Users to Edit Ranges**.
+1. In the **Changes** group of the **Review** tab, click **Allow Users to Edit Ranges**.
 
      The **Allow Users to Edit Ranges** dialog box appears. You can specify ranges that are unlocked using a password, and users who can edit ranges without a password.
 
@@ -47,14 +47,14 @@ ms.workload:
 
 ### To protect a worksheet by using code in a document-level customization
 
-1.  Call the <xref:Microsoft.Office.Tools.Excel.Worksheet.Protect%2A> method of the worksheet. This example assumes that you are working with a worksheet named `Sheet1`.
+1. Call the <xref:Microsoft.Office.Tools.Excel.Worksheet.Protect%2A> method of the worksheet. This example assumes that you are working with a worksheet named `Sheet1`.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#27](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#27)]
      [!code-vb[Trin_VstcoreExcelAutomation#27](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#27)]
 
 ### To protect a worksheet by using code in a VSTO Add-in
 
-1.  Call the <xref:Microsoft.Office.Interop.Excel._Worksheet.Protect%2A> method of the active worksheet.
+1. Call the <xref:Microsoft.Office.Interop.Excel._Worksheet.Protect%2A> method of the active worksheet.
 
      [!code-csharp[Trin_VstcoreExcelAutomationAddIn#17](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#17)]
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#17](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#17)]

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugThread2::Resume"
 ms.assetid: 36aad682-b0b9-40a2-b3fc-f0e61d41cdbc
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugThread2::Resume
 Resumes execution of a thread.
@@ -30,10 +33,9 @@ int Resume ( 
 );
 ```
 
-#### Parameters
- `pdwSuspendCount`
-
- [out] Returns the suspend count after the resume operation.
+## Parameters
+`pdwSuspendCount`\
+[out] Returns the suspend count after the resume operation.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -43,6 +45,6 @@ int Resume ( 
 
  For each call to this method, there must be a previous call to the [Suspend](../../../extensibility/debugger/reference/idebugthread2-suspend.md) method. The suspend count determines how many times the `IDebugThread2::Suspend` method has been called so far.
 
-## See Also
+## See also
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
 - [Suspend](../../../extensibility/debugger/reference/idebugthread2-suspend.md)

@@ -3,29 +3,29 @@ title: "UI Text and Help for Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: e8747d07-6c90-46cc-b425-55b589f7e9e4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
 ---
 # UI Text and Help for Visual Studio
-##  <a name="BKMK_UITextAndTerminology"></a> UI text and terminology
+## <a name="BKMK_UITextAndTerminology"></a> UI text and terminology
  Comprehensible text is crucial to effective UI. Software users tend to read labels first, namely those most relevant to completing the task at hand. Static text is read with less frequency. Plan for users to start their work sessions with a quick scan of the whole window, followed by a reading of the UI in this approximate order:
 
-1.  Interactive controls in the center
+1. Interactive controls in the center
 
-2.  Commit buttons
+2. Commit buttons
 
-3.  Interactive controls found elsewhere
+3. Interactive controls found elsewhere
 
-4.  Main instructions
+4. Main instructions
 
-5.  Supplemental explanations
+5. Supplemental explanations
 
-6.  Window title
+6. Window title
 
-7.  Other static text in the main body
+7. Other static text in the main body
 
 ### Usage patterns for UI text
 
@@ -37,19 +37,19 @@ ms.workload:
 
 ##### Writing style rules for helper text
 
--   Don't explain the obvious. Unless it is absolutely needed, do not include instructional text.
+- Don't explain the obvious. Unless it is absolutely needed, do not include instructional text.
 
--   Instructional text is always placed at the top of the dialog and should refer to the task being performed.
+- Instructional text is always placed at the top of the dialog and should refer to the task being performed.
 
--   Precisely explain to users what they need to do. Avoid excessive communication and redundancy.
+- Precisely explain to users what they need to do. Avoid excessive communication and redundancy.
 
--   Review each window and eliminate duplicate words and statements.
+- Review each window and eliminate duplicate words and statements.
 
--   Keep instructional text short. If more information is necessary for certain users or scenarios, then provide a link to a detailed conceptual online topic.
+- Keep instructional text short. If more information is necessary for certain users or scenarios, then provide a link to a detailed conceptual online topic.
 
--   Write your text so that every word holds weight and is necessary.
+- Write your text so that every word holds weight and is necessary.
 
--   Follow existing Microsoft guidance for [User Interface Text](/windows/desktop/uxguide/text-ui) and [Style and Tone](/windows/desktop/uxguide/text-style-tone).
+- Follow existing Microsoft guidance for [User Interface Text](/windows/desktop/uxguide/text-ui) and [Style and Tone](/windows/desktop/uxguide/text-style-tone).
 
 #### Supplemental instructions
  Supplemental instructions provide additional information that helps the user understand controls or control groupings. This could also include hint text necessary to understand what format the input control is expecting. Use supplemental instructions sparingly. Reserve them for cases where it's likely that the user won't fully understand the ramifications of the choice they are making.
@@ -73,13 +73,13 @@ ms.workload:
 
 ##### Writing style rules for InfoTips
 
--   Write InfoTips as complete sentences. They require specific verbs, sentence case, and ending punctuation.
+- Write InfoTips as complete sentences. They require specific verbs, sentence case, and ending punctuation.
 
--   Use InfoTips to supplement your main instruction or information. If you are just using different words to restate the main idea, you don't need an InfoTip.
+- Use InfoTips to supplement your main instruction or information. If you are just using different words to restate the main idea, you don't need an InfoTip.
 
--   Keep InfoTips short and sweet. Use small words and plain, everyday language that supports and encourages the user.
+- Keep InfoTips short and sweet. Use small words and plain, everyday language that supports and encourages the user.
 
--   Follow existing Microsoft guidance for [User Interface Text](/windows/desktop/uxguide/text-ui) and [Style and Tone](/windows/desktop/uxguide/text-style-tone).
+- Follow existing Microsoft guidance for [User Interface Text](/windows/desktop/uxguide/text-ui) and [Style and Tone](/windows/desktop/uxguide/text-style-tone).
 
 #### Control labels
  Control labels should be short, concise, and follow the [Windows Desktop guidance for Controls](/windows/desktop/uxguide/controls).
@@ -91,23 +91,23 @@ ms.workload:
 
 ##### Visual style rules for Help links
 
--   Use the correct environment colors for hyperlinks. A properly styled hyperlink will not briefly flash red when clicked. If you see this, then it is an indication that environment colors are not being used.
+- Use the correct environment colors for hyperlinks. A properly styled hyperlink will not briefly flash red when clicked. If you see this, then it is an indication that environment colors are not being used.
 
--   Underlines should only be used on hover or when the link is embedded in a paragraph.
+- Underlines should only be used on hover or when the link is embedded in a paragraph.
 
--   For more detailed information on visual and interaction styles for hyperlinks, see Buttons and hyperlinks.
+- For more detailed information on visual and interaction styles for hyperlinks, see Buttons and hyperlinks.
 
 ##### Writing style rules for Help links
 
--   When launching dialogs, maintain the standards for ellipses: no ellipsis for navigation, ellipses if the task requires additional UI.
+- When launching dialogs, maintain the standards for ellipses: no ellipsis for navigation, ellipses if the task requires additional UI.
 
      ![Help link in Visual Studio](../../extensibility/ux-guidelines/media/0601-e_helplink.png "0601-e_HelpLink")
 
      **An ellipsis (...) in a Help link indicates the task will require additional UI.**
 
--   Links should not start with "Learn," as that is not the user's intent. The user wants to answer a specific question, not receive a general education.
+- Links should not start with "Learn," as that is not the user's intent. The user wants to answer a specific question, not receive a general education.
 
--   Phrase help links so that they ask the question that the topic will answer.
+- Phrase help links so that they ask the question that the topic will answer.
 
      Incorrect:
      "Learn more about Windows Azure Mobile Services pricing"
@@ -115,9 +115,9 @@ ms.workload:
      Correct:
      "What pricing options are available for Windows Azure Mobile Services?"
 
--   Never use *Click...* to the link text.
+- Never use *Click...* to the link text.
 
--   Never link only the word "here." This is problematic for some screen readers, which will voice only the hyperlinked word.
+- Never link only the word "here." This is problematic for some screen readers, which will voice only the hyperlinked word.
 
      Incorrect:
      "Find information on Windows Azure Mobile Services **here**"
@@ -125,22 +125,22 @@ ms.workload:
      Correct:
      "What pricing options are available for Windows Azure Mobile Services?"
 
--   For more information on the correct writing style for Help links, see the [Windows Desktop guidance for Help](/windows/desktop/uxguide/winenv-help).
+- For more information on the correct writing style for Help links, see the [Windows Desktop guidance for Help](/windows/desktop/uxguide/winenv-help).
 
 #### Hint text
  Hint text appears as a watermark within a control or below the control. Correct formatting will be applied by using the appropriate VSColors token, `Environment.GrayText`.
 
  It can appear in a number of forms.
 
--   In place of the control label:
+- In place of the control label:
 
      ![Hint text in Visual Studio](../../extensibility/ux-guidelines/media/0601-f_hinttext1.png "0601-f_HintText1")
 
--   With a verb, giving instructions:
+- With a verb, giving instructions:
 
      ![Hint text in Visual Studio](../../extensibility/ux-guidelines/media/0601-g_hinttext2.png "0601-g_HintText2")
 
--   With text indicating a required entry:
+- With text indicating a required entry:
 
      ![Hint text in Visual Studio](../../extensibility/ux-guidelines/media/0601-h_hinttext3.png "0601-h_HintText3")
 
@@ -169,31 +169,31 @@ ms.workload:
 
 ### Rules for creating an error message
 
--   When constructing error messages, choose the appropriate error level for the audience. Aim for straightforward summaries that provide an action the user can take, if applicable. Don't state anything that the user does not need to know.
+- When constructing error messages, choose the appropriate error level for the audience. Aim for straightforward summaries that provide an action the user can take, if applicable. Don't state anything that the user does not need to know.
 
--   Provide constructive assistance. It's easier to read and act on an error message that contains instruction.
+- Provide constructive assistance. It's easier to read and act on an error message that contains instruction.
 
--   Don't use double negatives.
+- Don't use double negatives.
 
--   Perform both an automated and a manual grammar and spelling check on any error message you write.
+- Perform both an automated and a manual grammar and spelling check on any error message you write.
 
--   For complex error messages, avoid sequential communications. Never use an F1 hookup for the error message. The message itself should be sufficient.
+- For complex error messages, avoid sequential communications. Never use an F1 hookup for the error message. The message itself should be sufficient.
 
--   Use the correct icon.
+- Use the correct icon.
 
--   Make questions easy to understand and use buttons that have clear choices, such as "Delete" and "Cancel."
+- Make questions easy to understand and use buttons that have clear choices, such as "Delete" and "Cancel."
 
--   For warnings, be clear about what the consequence of proceeding will be. The buttons should indicate the consequence.
+- For warnings, be clear about what the consequence of proceeding will be. The buttons should indicate the consequence.
 
--   For errors, describe what the user can do to fix the problem. Buttons should be actions or say "Close." Don't use an "OK" button for an error message.
+- For errors, describe what the user can do to fix the problem. Buttons should be actions or say "Close." Don't use an "OK" button for an error message.
 
--   Some questions to ask yourself when constructing an error message:
+- Some questions to ask yourself when constructing an error message:
 
-    -   Can the user figure out how to solve the issue with this error alone?
+  - Can the user figure out how to solve the issue with this error alone?
 
-    -   Does the user use the same vocabulary as this error?
+  - Does the user use the same vocabulary as this error?
 
-    -   Is this error ambigious or shared in multiple situations? If so, how do you guide users to the solution they need?
+  - Is this error ambigious or shared in multiple situations? If so, how do you guide users to the solution they need?
 
 #### Build errors
  Since Visual Studio is a software development tool, many of its components have a compilation, converting, or encoding step to convert the developer's work to binary form. These conversions can cause errors when the compiler cannot process improperly authored files or when compiler options weren't set correctly.
@@ -206,11 +206,11 @@ ms.workload:
 
  Write clear, concise build errors:
 
--   **Use plain language** that explains the problem with little or no compiler jargon. The text of a build error should not be overly technical.
+- **Use plain language** that explains the problem with little or no compiler jargon. The text of a build error should not be overly technical.
 
--   **Outline possible causes.** For example, "Missing a colon between the property and value in the '(property) : (value)' declaration."
+- **Outline possible causes.** For example, "Missing a colon between the property and value in the '(property) : (value)' declaration."
 
--   Give details about potential fixes. If there is not enough room, then additional details may be put into the corresponding Help topic.
+- Give details about potential fixes. If there is not enough room, then additional details may be put into the corresponding Help topic.
 
 ### Components of a well-written error message
 
@@ -223,31 +223,31 @@ ms.workload:
 #### Provide a clean, succinct explanation of why the problem occurred rather than a technical explanation.
  Overburdening users with technical details in the explanation will make them more likely to ignore error messages. Examples of good messaging:
 
--   "Unable to open the requested file."
+- "Unable to open the requested file."
 
--   "Unable to connect to the Internet."
+- "Unable to connect to the Internet."
 
 #### Provide information about how to fix the problem.
  Offer the user suggestions of how to fix the problem. Be honest with the user if there are no suggestions. Provide direct links to alternative online sources, such as technical support or community support. Try to point users to specific online information pertinent to the issue. For an error ID, consider linking users to a discussion thread about that specific error. Examples of good messaging:
 
--   "Make sure that you are connected to the Internet and try this operation again."
+- "Make sure that you are connected to the Internet and try this operation again."
 
--   "Make sure that the file exists and that you have permission to open it."
+- "Make sure that the file exists and that you have permission to open it."
 
 #### Write a message that is short and to the point.
  An error message can notify, explain, and offer a solution but still be ignored if it's too wordy. One solution is to use progressive disclosure with a details button. For example, give a short description/solution and then put more details under a details button. If users choose to read more information on the error, they can do so.
 
  The language in the message should be:
 
--   **Domain-appropriate.** Use language the user will understand. Even though our customers are developers, they often don't have the context and terminology we have.
+- **Domain-appropriate.** Use language the user will understand. Even though our customers are developers, they often don't have the context and terminology we have.
 
--   **Specific.** Avoid vague wording and give specific names and locations of objects involved. For example, an error message such as "character is invalid" is not useful. Which character? "File not found." Which file?
+- **Specific.** Avoid vague wording and give specific names and locations of objects involved. For example, an error message such as "character is invalid" is not useful. Which character? "File not found." Which file?
 
--   **Courteous.** Don't blame the user or make them feel stupid. Avoid hostile or offensive language (kill, execute, terminate, fatal, illegal). Avoid uppercase text, which is often seen as shouting and is not as readable. Don't use humor.
+- **Courteous.** Don't blame the user or make them feel stupid. Avoid hostile or offensive language (kill, execute, terminate, fatal, illegal). Avoid uppercase text, which is often seen as shouting and is not as readable. Don't use humor.
 
--   **Correct.** Use correct spelling and grammar (even in alphas). Typos are unprofessional and embarrassing.
+- **Correct.** Use correct spelling and grammar (even in alphas). Typos are unprofessional and embarrassing.
 
--   **Contextually appropriate.** Use appropriate button text. Avoid the "OK" button and instead use "Continue" or "Yes/No."
+- **Contextually appropriate.** Use appropriate button text. Avoid the "OK" button and instead use "Continue" or "Yes/No."
 
 ### Error message examples
 
@@ -260,15 +260,15 @@ ms.workload:
 ### Overview
  In addition to documentation in MSDN, a Visual Studio user has several access points to assist the user while in the UI. To ensure that these access points are consistently available, feature teams need to take advantage of the Help system offered by the environment. These access points are:
 
--   **Instructional and supplemental text in dialogs.** Static text that gives direction or explanation, either on the UI surface or available on hover over an InfoTip icon.
+- **Instructional and supplemental text in dialogs.** Static text that gives direction or explanation, either on the UI surface or available on hover over an InfoTip icon.
 
--   **F1 Help** (editor only). Within the Visual Studio editor, a user can trust that at any time, pressing F1 will bring up a Help topic specific to the current selection. Ensure that topics associated with F1 are appropriate and informative.
+- **F1 Help** (editor only). Within the Visual Studio editor, a user can trust that at any time, pressing F1 will bring up a Help topic specific to the current selection. Ensure that topics associated with F1 are appropriate and informative.
 
--   **Hyperlinks to Help topics.** A hyperlink within a dialog, tool window, or design surface that launches a topic to assist the user in learning more about a technology, capability, or information about how to accomplish a task.
+- **Hyperlinks to Help topics.** A hyperlink within a dialog, tool window, or design surface that launches a topic to assist the user in learning more about a technology, capability, or information about how to accomplish a task.
 
--   **Helper UI mechanisms, such as smart tags and building dialogs.** These mechanisms assist the user in understanding a UI element, or facilitate a task, such as smart tags or builder dialogs.
+- **Helper UI mechanisms, such as smart tags and building dialogs.** These mechanisms assist the user in understanding a UI element, or facilitate a task, such as smart tags or builder dialogs.
 
--   **UI Help buttons** (deprecated). A visible indicator in the title bar that gives access to the related F1 Help topic.
+- **UI Help buttons** (deprecated). A visible indicator in the title bar that gives access to the related F1 Help topic.
 
 ### Text
 

@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically populate Word tables with document properties"
+title: "Populate Word tables with document properties programmatically"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

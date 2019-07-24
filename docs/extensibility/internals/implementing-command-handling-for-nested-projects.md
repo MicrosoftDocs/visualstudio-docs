@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "nested projects, implementing command handling"
 ms.assetid: 48a9d66e-d51c-4376-a95a-15796643a9f2
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -15,7 +15,7 @@ ms.workload:
 The IDE can pass commands that are passed through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> and the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interfaces to nested projects, or parent projects can filter or override the commands.
 
 > [!NOTE]
->  Only commands ordinarily handled by the parent project can be filtered. Commands such as **Build** and **Deploy** that are handled by the IDE cannot be filtered.
+> Only commands ordinarily handled by the parent project can be filtered. Commands such as **Build** and **Deploy** that are handled by the IDE cannot be filtered.
 
  The following steps describe the process for implementing command handling.
 

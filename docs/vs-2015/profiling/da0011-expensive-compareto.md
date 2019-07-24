@@ -18,7 +18,7 @@ manager: jillfra
 # DA0011: Expensive CompareTo
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio 2017, see [DA0011: Expensive CompareTo](https://docs.microsoft.com/visualstudio/profiling/da0011-expensive-compareto) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [DA0011: Expensive CompareTo](https://docs.microsoft.com/visualstudio/profiling/da0011-expensive-compareto).  
   
 |||  
 |-|-|  

@@ -19,7 +19,6 @@ manager: jillfra
 # Symbol Path Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Sets the list of directories for the debugger to search for symbols.  
   
 ## Syntax  

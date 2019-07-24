@@ -4,8 +4,8 @@ ms.date: "11/04/2016"
 ms.technology: vs-ide-general
 ms.topic: reference
 ms.assetid: 8fb1334b-d78c-405f-98b4-786e9f6b58d7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -54,19 +54,19 @@ A text value is required. This text specifies the capabilities of the project.
 
 Valid expression syntax is defined as:
 
--   The capability expression, such as "(VisualC &#124; CSharp) + (MSTest &#124; NUnit)".
+- The capability expression, such as "(VisualC &#124; CSharp) + (MSTest &#124; NUnit)".
 
--   The "&#124;" is the OR operator.
+- The "&#124;" is the OR operator.
 
--   The "&" and "+" characters are both AND operators.
+- The "&" and "+" characters are both AND operators.
 
--   The "!" character is the NOT operator.
+- The "!" character is the NOT operator.
 
--   Parentheses force evaluation-precedence order.
+- Parentheses force evaluation-precedence order.
 
--   A null or empty expression is evaluated as a match.
+- A null or empty expression is evaluated as a match.
 
--   Project capabilities may be any character except these reserved characters: "'`:;,+-*/\\!~&#124;&%$@^()={}[]<>? \t\b\n\r
+- Project capabilities may be any character except these reserved characters: "'`:;,+-*/\\!~&#124;&%$@^()={}[]<>? \t\b\n\r
 
 ## Example
 

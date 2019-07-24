@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugOutputStringEvent2::GetString"
 ms.assetid: f059f8e0-ad44-49ac-ba90-73576ada5e06
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugOutputStringEvent2::GetString
 Gets the displayable message.
@@ -30,13 +33,12 @@ int GetString( 
 );
 ```
 
-#### Parameters
- `pbstrString`
-
- [out] Returns the displayable message.
+## Parameters
+`pbstrString`\
+[out] Returns the displayable message.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugOutputStringEvent2](../../../extensibility/debugger/reference/idebugoutputstringevent2.md)

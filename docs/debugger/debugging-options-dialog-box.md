@@ -25,13 +25,13 @@ ms.workload:
 # Debugging, Options Dialog Box
 The **Debugging** folder, in the **Options** dialog box on the **Tools** menu, provides the following pages, which enable you to specify debugger tool options.
 
--   [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md)
+- [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md)
 
--   [Just-In-Time, Debugging, Options Dialog Box](../debugger/just-in-time-debugging-options-dialog-box.md)
+- [Just-In-Time, Debugging, Options Dialog Box](../debugger/just-in-time-debugging-options-dialog-box.md)
 
--   [Output Window, Debugging, Options Dialog Box](../debugger/output-window-debugging-options-dialog-box.md)
+- [Output Window, Debugging, Options Dialog Box](../debugger/output-window-debugging-options-dialog-box.md)
 
--   [Symbols, Debugging, Options Dialog Box](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
+- [Symbols, Debugging, Options Dialog Box](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 
 ## See Also
 - [Debugger Security](../debugger/debugger-security.md)

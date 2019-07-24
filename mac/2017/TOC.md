@@ -5,8 +5,8 @@
 ## [Install and use behind a firewall or proxy](/visualstudio/mac/install-behind-a-firewall-or-proxy-server)
 ## [Install a preview release](/visualstudio/mac/install-preview)
 ## [Update](/visualstudio/mac/update)
+## [Update to Visual Studio 2019 for Mac](/visualstudio/mac/update-vsmac-8.0)
 ## [Uninstall](/visualstudio/mac/uninstall)
-
 
 # [User Accounts](/visualstudio/mac/user-accounts)
 ## [Signing In](/visualstudio/mac/signing-in)
@@ -14,7 +14,6 @@
 
 # [Customizing the IDE](/visualstudio/mac/customizing-the-ide)
 ## [Extending Visual Studio for Mac](/visualstudio/mac/extending-visual-studio-mac)
-
 
 # [Projects and Solutions](/visualstudio/mac/projects-and-solutions)
 ## [Creating new Projects](/visualstudio/mac/create-new-projects)
@@ -77,3 +76,4 @@
 # [Troubleshooting](/visualstudio/mac/troubleshooting)
 ## [Visual Studio Customer Experience Improvement Program](/visualstudio/mac/visual-studio-experience-improvement-program)
 ## [Report a Problem](/visualstudio/mac/report-a-problem)
+## [Troubleshooting: Updater has errors retrieving information](updater-troubleshooting.md)

@@ -46,11 +46,25 @@ Visual Studio and the remote debugger try to open the correct ports during insta
 
 For remote debugging, the following ports must be open on the remote computer:
 
+::: moniker range="vs-2017"
+
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|
 |-|-|-|-|
 |4022|Incoming|TCP|For VS 2017. The port number increments by 2 for each Visual Studio version. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
 |4023|Incoming|TCP|For VS 2017. The port number increments by 2 for each Visual Studio version. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see  [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
 |3702|Outgoing|UDP|(Optional) Required for remote debugger discovery.|
+
+::: moniker-end
+
+::: moniker range=">= vs-2019"
+
+|**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|
+|-|-|-|-|
+|4024|Incoming|TCP|For VS 2019. The port number increments by 2 for each Visual Studio version. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
+|4025|Incoming|TCP|For VS 2019. The port number increments by 2 for each Visual Studio version. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see  [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
+|3702|Outgoing|UDP|(Optional) Required for remote debugger discovery.|
+
+::: moniker-end
 
 If you select **Use Managed Compatibility Mode** under **Tools** > **Options** > **Debugging**, open these additional remote debugger ports. Debugger Managed Compatibility Mode enables a legacy, Visual Studio 2010 version of the debugger.
 
@@ -82,13 +96,13 @@ On a remote computer, the remote debugging tools are in:
 
 1. Select **Allow an app through Windows Firewall**.
 
-1.  If **Remote Debugger** or **Visual Studio Remote Debugger** doesn't appear under **Allowed apps and features**, select **Change settings**, and then select **Allow another app**.
+1. If **Remote Debugger** or **Visual Studio Remote Debugger** doesn't appear under **Allowed apps and features**, select **Change settings**, and then select **Allow another app**.
 
-1.  If the remote debugger app still isn't listed in the **Add an app** dialog, select **Browse**, and navigate to *\<Visual Studio installation directory\>\\Common7\\IDE\\Remote Debugger\\\<x86*, *x64*, or *Appx*\>, depending on the appropriate architecture for your app. Select *msvsmon.exe*, and then select **Add**.
+1. If the remote debugger app still isn't listed in the **Add an app** dialog, select **Browse**, and navigate to *\<Visual Studio installation directory\>\\Common7\\IDE\\Remote Debugger\\\<x86*, *x64*, or *Appx*\>, depending on the appropriate architecture for your app. Select *msvsmon.exe*, and then select **Add**.
 
-1.  In the **Apps** list, select the **Remote Debugger** that you just added. Select **Network types**, and then select one or more network types, including the network type for the remote connection.
+1. In the **Apps** list, select the **Remote Debugger** that you just added. Select **Network types**, and then select one or more network types, including the network type for the remote connection.
 
-1.  Select **Add**, and then select **OK**.
+1. Select **Add**, and then select **OK**.
 
 ## <a name="troubleshooting"></a>Troubleshoot the remote debugging connection
 

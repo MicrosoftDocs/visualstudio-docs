@@ -1,7 +1,7 @@
 ---
 title: "Update a network-based installation"
 description: "Learn how to update a network-based Visual Studio installation by using the --layout command"
-ms.date: 2/22/2019
+ms.date: 03/30/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
@@ -13,8 +13,10 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
-# Update a network-based installation of Visual Studio 2017
+# Update a network-based installation of Visual Studio
 
 It's possible to update a network installation layout of Visual Studio with the latest product updates so that it can be used both as an installation point for the latest update of Visual Studio and also to maintain installations that are already deployed to client workstations.
 
@@ -22,44 +24,55 @@ It's possible to update a network installation layout of Visual Studio with the 
 
 To refresh your network install share so that it includes the latest updates, run the `--layout` command to incrementally download updated packages.
 
-**New in 15.3**: If you selected a partial layout when you first created the network layout, those settings are saved.  Any future layout commands use the previous options plus any new options that you specify. But if you are using a layout of an earlier version, you should use the same command-line parameters that you used when you first created the network install layout (in other words, the same workloads and languages) to update its content.
+::: moniker range="vs-2017"
 
-If you host a layout on a file share, you should update a private copy of the layout (for example, c:\vs2017offline) and then, after all of the updated content is downloaded, copy it to your file share (for example, \\server\products\VS2017). If you don't do this, there is a greater chance that any users who run Setup while you are updating the layout might not be able to get all of the content from the layout because it is not yet completely updated.
+**New in 15.3**: If you selected a partial layout when you first created the network layout, those settings are saved. Any future layout commands use the previous options plus any new options that you specify. But if you are using a layout of an earlier version, you should use the same command-line parameters that you used when you first created the network install layout (in other words, the same workloads and languages) to update its content.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+If you selected a partial layout when you first created the network layout, those settings are saved. Any future layout commands use the previous options plus any new options that you specify.
+
+::: moniker-end
+
+If you host a layout on a file share, you should update a private copy of the layout (for example, c:\vsoffline) and then, after all of the updated content is downloaded, copy it to your file share (for example, \\server\products\VS). If you don't do this, there is a greater chance that any users who run Setup while you are updating the layout might not be able to get all of the content from the layout because it is not yet completely updated.
 
 Let's walk through a few examples of how to create and then update a layout:
 
 * First, here's an example of how to create a layout with one workload for English only:
 
   ```cmd
-  vs_enterprise.exe --layout c:\VS2017Layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --lang en-US
+  vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.ManagedDesktop --lang en-US
   ```
 
 * Here's how to update that same layout to a newer version. You don't have to specify any additional command-line parameters. The previous settings were saved and will be used by any subsequent layout commands in this layout folder.
 
   ```cmd
-  vs_enterprise.exe --layout c:\VS2017Layout
+  vs_enterprise.exe --layout c:\VSLayout
   ```
 
 * Here's how to update your layout to a newer version in an unattended manner. The layout operation runs the setup process in a new console window. The window is left open so users can see the final result and a summary of any errors that might have occurred. If you are performing a layout operation in an unattended manner (for example, you have a script that is regularly run to update your layout to the latest version), then use the `--passive` parameter and the process will automatically close the window.
 
   ```cmd
-  vs_enterprise.exe --layout c:\VS2017Layout --passive
+  vs_enterprise.exe --layout c:\VSLayout --passive
   ```
 
-* Here's how to add an additional workload and localized language.  (This command adds the Azure workload.)  Now both Managed Desktop and Azure are included in this layout.  The language resources for English and German are also included for all these workloads.  And, the layout is updated to the latest available version.
+* Here's how to add an additional workload and localized language.  (This command adds the *Azure development* workload.)  Now both Managed Desktop and Azure are included in this layout.  The language resources for English and German are also included for all these workloads.  And, the layout is updated to the latest available version.
 
   ```cmd
-  vs_enterprise.exe --layout c:\VS2017Layout --add Microsoft.VisualStudio.Workload.Azure --lang de-DE
+  vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --lang de-DE
   ```
 
     > [!IMPORTANT]
-    > An update operation doesn't install newly added optional components, even if you include these components in an "add" section of a [response file](automated-installation-with-response-file.md). This occurs because the add operation isn't used during an update.<br>
+    > An update operation doesn't install newly added optional components, even if you include these components in an "add" section of a [response file](automated-installation-with-response-file.md). This occurs because the add operation isn't used during an update.
+    >
     > **Workaround**: Run a separate modify operation after an upgrade to install the missing components.
 
-* And finally, here's how to add an additional workload and localized language without updating the version. (This command adds the ASP.NET & Web workload.)  Now the Managed Desktop, Azure, and ASP.NET & Web workloads are included in this layout. The language resources for English, German, and French are also included for all these workloads.  However, the layout was not updated to the latest available version when this command was run. It remains at the existing version.
+* And finally, here's how to add an additional workload and localized language without updating the version. (This command adds the *ASP.NET and web development* workload.)  Now the Managed Desktop, Azure, and ASP.NET & Web Development workloads are included in this layout. The language resources for English, German, and French are also included for all these workloads.  However, the layout was not updated to the latest available version when this command was run. It remains at the existing version.
 
   ```cmd
-  vs_enterprise.exe --layout c:\VS2017Layout --add Microsoft.VisualStudio.Workload.NetWeb --lang fr-FR --keepLayoutVersion
+  vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.NetWeb --lang fr-FR --keepLayoutVersion
   ```
 
 ## How to deploy an update to client machines
@@ -70,9 +83,21 @@ Depending on how your network environment is configured, an update can either be
   * Run the Visual Studio Installer.
   * Then, click **Update**.
 
+::: moniker range="vs-2017"
+
 * Administrators can update client deployments of Visual Studio without any user interaction with two separate commands:
   * First, update the Visual Studio installer: <br>```vs_enterprise.exe --quiet --update```
   * Then, update the Visual Studio application itself: <br>```vs_enterprise.exe update --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" --quiet --wait --norestart```
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+* Administrators can update client deployments of Visual Studio without any user interaction with two separate commands:
+  * First, update the Visual Studio installer: <br>```vs_enterprise.exe --quiet --update```
+  * Then, update the Visual Studio application itself: <br>```vs_enterprise.exe update --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" --quiet --wait --norestart```
+
+::: moniker-end
 
 > [!NOTE]
 > Use the [vswhere.exe command](tools-for-managing-visual-studio-instances.md) to identify the install path of an existing instance of Visual Studio on a client machine.
@@ -91,13 +116,16 @@ vs_enterprise.exe --layout <layoutDir> --verify
 The vs_enterprise.exe can be invoked inside the layoutDir.
 
 > [!NOTE]
-> Some important metadata files that are needed by the `--verify` option must be in the layout offline cache. If these metadata files are missing, "--verify" cannot run and Setup gives you an error. If you experience this error, re-create a new offline layout to a different folder (or to the same offline cache folder. To so do, run the same layout command that you used to create the initial offline layout. For example, `Vs_enterprise.exe --layout <layoutDir>`.
+> Some important metadata files that are needed by the `--verify` option must be in the layout offline cache. If these metadata files are missing, "--verify" cannot run and Setup gives you an error. If you experience this error, re-create a new offline layout to a different folder (or to the same offline cache folder. To so do, run the same layout command that you used to create the initial offline layout. For example, `vs_enterprise.exe --layout <layoutDir>`.
 
 Microsoft ships updates to Visual Studio periodically, so the new layout that you create might not be the same version as the initial layout.
 
+> [!NOTE]
+> Verification works only for the latest version of a specific minor version of Visual Studio. As soon as a new version is released, verification won't work for earlier patch level releases of the same minor version.
+
 ## How to fix a layout
 
-Use `--fix` to perform the same verification as `--verify` and also try to fix the identified issues. The `--fix` process needs an Internet connection, so make sure your machine is connected to the Internet before you invoke `--fix`.
+Use `--fix` to perform the same verification as `--verify` and also try to fix the identified issues. The `--fix` process needs an internet connection, so make sure your machine is connected to the internet before you invoke `--fix`.
 
 ```cmd
 vs_enterprise.exe --layout <layoutDir> --fix
@@ -126,7 +154,7 @@ vs_enterprise.exe --layout <layoutDir> --clean <file-path-of-catalog1> --clean <
 You can also invoke vs_enterprise.exe inside the &lt;layoutDir&gt;. Here's an example:
 
 ```cmd
-c:\VS2017Layout\vs_enterprise.exe --layout c:\VS2017Layout --clean c:\VS2017Layout\Archive\1cd70189-fc55-4583-8ad8-a2711e928325\Catalog.json --clean c:\VS2017Layout\Archive\d420889f-6aad-4ba4-99e4-ed7833795a10\Catalog.json
+c:\VSLayout\vs_enterprise.exe --layout c:\VSLayout --clean c:\VSLayout\Archive\1cd70189-fc55-4583-8ad8-a2711e928325\Catalog.json --clean c:\VS2017Layout\Archive\d420889f-6aad-4ba4-99e4-ed7833795a10\Catalog.json
 ```
 
 When you execute this command, Setup analyzes your offline cache folder to find the list of files that it will remove. You will then have a chance to review the files that are going to be deleted and confirm the deletions.
@@ -140,3 +168,4 @@ When you execute this command, Setup analyzes your offline cache folder to find 
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
 * [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
+* [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], sharing items"
   - "source control plug-ins, sharing items"
 ms.assetid: 6ec4780a-bda4-4327-bb3e-c6c9e7eabf35
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -19,13 +19,13 @@ This test area covers sharing items between locations via the **Share** command.
 
  Sharing into folders works if you select a folder with at least one file under source control in it. The share command is disabled under the following conditions:
 
--   If the selected folder is an empty folder.
+- If the selected folder is an empty folder.
 
--   If there is a real folder, but it contains no source control files.
+- If there is a real folder, but it contains no source control files.
 
--   If there is a virtual folder, whether files under source control are in it or not.
+- If there is a virtual folder, whether files under source control are in it or not.
 
--   If there is a Remote Site Web project.
+- If there is a Remote Site Web project.
 
 ## Command Menu Access
  The following [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment menu paths are used in the test cases.
@@ -34,11 +34,11 @@ This test area covers sharing items between locations via the **Share** command.
 
 ## Expected Behavior
 
--   Shared file appears in shared location.
+- Shared file appears in shared location.
 
--   Viewing the source control version store history shows that file(s) are shared.
+- Viewing the source control version store history shows that file(s) are shared.
 
--   Editing a shared file edits both locations of the file.
+- Editing a shared file edits both locations of the file.
 
 ## Test Cases
  The following are specific test cases for the Share test area.

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "BPERESI_FIELDS enumeration"
 ms.assetid: dd7dd89c-1043-46a1-a929-099cc039c344
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # BPERESI_FIELDS
 Specifies the information to be retrieved about a failed resolution of a breakpoint.
@@ -41,23 +44,23 @@ public enum enum_BPERESI_FIELDS {
 };
 ```
 
-## Members
-PERESI_BPRESLOCATION
+## Fields
+`PERESI_BPRESLOCATION`\
 Initialize/use the `bpResLocation` (breakpoint resolution location) field of the [BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md) structure.
 
-BPERESI_PROGRAM
+`BPERESI_PROGRAM`\
 Initialize/use the `pProgram` field of the `BP_ERROR_RESOLUTION_INFO` structure.
 
-BPERESI_THREAD
+`BPERESI_THREAD`\
 Initialize/use the `pThread` field of the `BP_ERROR_RESOLUTION_INFO` structure.
 
-BPERESI_MESSAGE
+`BPERESI_MESSAGE`\
 Initialize/use the `bstrMessage` field of the `BP_ERROR_RESOLUTION_INFO` structure.
 
-BPERESI_TYPE
+`BPERESI_TYPE`\
 Initialize/use the `dwType` (breakpoint type) field of the `BP_ERROR_RESOLUTION_INFO` structure.
 
-BPERESI_ALLFIELDS
+`BPERESI_ALLFIELDS`\
 Initialize/use all fields of the `BP_ERROR_RESOLUTION_INFO` structure.
 
 ## Remarks
@@ -74,7 +77,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md)
 - [GetResolutionInfo](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2-getresolutioninfo.md)

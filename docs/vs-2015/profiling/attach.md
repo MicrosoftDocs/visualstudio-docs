@@ -18,7 +18,7 @@ The VSPerfCmd.exe **Attach** option begins sample profiling of the running proce
  To use the **Attach** option, you must specify the **Sample** method in the Start option.  
   
 > [!NOTE]
->  If the **Start** option was specified with the **Crosssession** option, any calls to **VSPerfCmd /Attach** or to **VSPerfCmd /Detach** must also specify **Crosssession**.  
+> If the **Start** option was specified with the **Crosssession** option, any calls to **VSPerfCmd /Attach** or to **VSPerfCmd /Detach** must also specify **Crosssession**.  
   
 ## Syntax  
   
@@ -54,13 +54,13 @@ VSPerfCmd.exe /Attach:ProcessID [Options]
  **Timer**[**:**`Cycles`]**PF**[**:**`Events`]**Sys**[<strong>:</strong>Events]**Counter**[**:**`Name`,`Reload`,`FriendlyName`]  
  Specifies the number and type of the sampling interval.  
   
--   **Timer** - Samples every `Cycles` processor clock cycles. If `Cycles` is not specified, 10,000,000 cycles are used.  
+- **Timer** - Samples every `Cycles` processor clock cycles. If `Cycles` is not specified, 10,000,000 cycles are used.  
   
--   **PF** - Samples every `Events` page faults. If `Events` is not specified, 10 page faults are used.  
+- **PF** - Samples every `Events` page faults. If `Events` is not specified, 10 page faults are used.  
   
--   **Sys** - Samples every `Events` calls to the operating system. If `Events` is not specified, 10 system calls are used.  
+- **Sys** - Samples every `Events` calls to the operating system. If `Events` is not specified, 10 system calls are used.  
   
--   **Counter** - Samples every `Reload` number of the CPU performance counter specified by `Name`. Optionally, `FriendlyName` can specify a string to use as the column header in profiler reports.  
+- **Counter** - Samples every `Reload` number of the CPU performance counter specified by `Name`. Optionally, `FriendlyName` can specify a string to use as the column header in profiler reports.  
   
 ## Example  
  This example demonstrates how to attach to a running instance of an application with the process ID of 12345.  

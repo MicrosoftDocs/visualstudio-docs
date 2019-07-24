@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "project configurations"
   - "configuration options, about configuration options"
 ms.assetid: f4ad4dd3-b39e-42df-ad89-d403cdf24a2b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -30,7 +30,7 @@ Projects in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] can sup
 |*MyConfig*|N/A|\<MyConfig Win64 settings>|
 
 > [!NOTE]
->  You cannot create a *MyConfig* solution configuration that excludes a Win32 platform unless the project you are targeting does not support Win32.
+> You cannot create a *MyConfig* solution configuration that excludes a Win32 platform unless the project you are targeting does not support Win32.
 
  Changing the active configuration for a solution selects the set of project configurations that is built, run, debugged, or deployed in that solution. For example, if you change the active solution configuration from *Release* to *Debug*, all projects within that solution are automatically built with the projects' configuration indicated in the solution's debug configuration. The projects' configurations are also named *Debug* unless the user has made manual changes in the environment's Configuration Manager.
 

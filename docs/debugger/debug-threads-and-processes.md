@@ -1,6 +1,6 @@
 ---
 title: "Tools to debug threads and processes | Microsoft Docs"
-ms.date: "04/21/2017"
+ms.date: "04/21/2018"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"

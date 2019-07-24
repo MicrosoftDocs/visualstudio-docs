@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "architecture, persistence"
   - "running document table (RDT), architecture"
 ms.assetid: 27117eae-6c58-4189-a61a-1397a43b5ecf
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

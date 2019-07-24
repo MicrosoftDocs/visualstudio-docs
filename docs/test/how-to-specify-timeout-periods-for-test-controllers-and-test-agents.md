@@ -20,7 +20,7 @@ Both the test controller and the test agent have several timeout settings that s
 
 To edit a test controller or a test agent’s various timeout settings, modify the following configuration files using the key names and values in the tables:
 
--   Test controller: *QTController.exe.config*
+- Test controller: *QTController.exe.config*
 
     |Key name|Description|Value|
     |-|-----------------|-|
@@ -29,7 +29,7 @@ To edit a test controller or a test agent’s various timeout settings, modify t
     |AgentInitializeTimeout|Number of seconds to wait for all agents and their data collectors to initialize at the beginning of a test run, before aborting the test run. This value should be reasonably large if using data collectors.|"n" seconds. Default: "120" (two minutes).|
     |AgentCleanupTimeout|Number of seconds to wait for all agents and their data collectors to clean up, before completing the test run. This value should be reasonably large if using data collectors.|"n" seconds. Default: "120" (two minutes).|
 
--   Test Agent: *QTAgentService.exe.config*
+- Test Agent: *QTAgentService.exe.config*
 
     |Key name|Description|Value|
     |-|-----------------|-|
@@ -111,5 +111,4 @@ To edit a test controller or a test agent’s various timeout settings, modify t
 - [Install and configure test agents](../test/lab-management/install-configure-test-agents.md)
 - [Modify load test logging settings](../test/modify-load-test-logging-settings.md)
 - [Configure ports for test controllers and test agents](../test/configure-ports-for-test-controllers-and-test-agents.md)
-- [How to: Specify the maximum size for the log file](../test/how-to-specify-the-maximum-size-for-the-log-file.md)
 - [How to: Bind a test controller or test agent to a network adapter](../test/how-to-bind-a-test-controller-or-test-agent-to-a-network-adapter.md)

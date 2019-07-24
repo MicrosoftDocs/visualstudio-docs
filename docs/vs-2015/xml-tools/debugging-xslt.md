@@ -10,14 +10,12 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ---
-# Debugging XSLT
+# Debug XSLT
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-You can use the Visual Studio debugger to debug XSLT. The debugger supports setting breakpoints, viewing XSLT execution states, and so on. XSLT debugging is available in the Visual Studio Team System and the Professional Edition.  
+You can use the Visual Studio debugger to debug XSLT. The debugger supports setting breakpoints, viewing XSLT execution states, and so on. XSLT debugging is available in Visual Studio Professional edition.  
   
-## In This Section  
- [What's New in the XSLT Debugger](../xml-tools/what-s-new-in-the-xslt-debugger.md)  
- Describes features that are new in this release of the XSLT debugger.  
+## In This Section
   
  [How to: Start Debugging XSLT](../xml-tools/how-to-start-debugging-xslt.md)  
  Describes how to start the XSLT debugger.  
@@ -50,5 +48,5 @@ You can use the Visual Studio debugger to debug XSLT. The debugger supports sett
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)  
  Introduces the Visual Studio debugger.  
   
- [XSLT Reference](http://msdn.microsoft.com/678bcd68-cbbb-4be5-9dd2-40f94488a1cf)  
+ [XSLT Reference](https://msdn.microsoft.com/678bcd68-cbbb-4be5-9dd2-40f94488a1cf)  
  Provides reference material for XSLT elements and functions.

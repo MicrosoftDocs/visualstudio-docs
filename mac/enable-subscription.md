@@ -1,8 +1,8 @@
 ---
 title: "Enable Subscription for Visual Studio for Mac"
 description: This article describes how to use your Microsoft account to enable your subscription and unlock features in Visual Studio for Mac
-author: conceptdev
-ms.author: crdun
+author: asb3993
+ms.author: amburns
 ms.date: 05/06/2018
 ms.assetid: 898DFEB8-5757-4CCE-8AD2-8BC7706F5855
 ---
@@ -35,9 +35,9 @@ Currently, there is no way to utilize a product key to enable Professional or En
 
 > [!NOTE]
 > Offline activation is not available for Visual Studio for Mac.
-> To activate your Visual Studio 2017 for Mac Professional or Enterprise subscription, you must be connected to the internet when signing in.
+> To activate your Visual Studio 2019 for Mac Professional or Enterprise subscription, you must be connected to the internet when signing in.
 
-If you have purchased Visual Studio Enterprise 2017 for Mac for machines without an internet connection, you may continue to use Visual Studio for Mac without activation, but Xamarin Inspector, Xamarin Profiler, and embedded assemblies features will not be available.
+If you have purchased Visual Studio Enterprise 2019 for Mac for machines without an internet connection, you may continue to use Visual Studio for Mac without activation, but Xamarin Inspector, Xamarin Profiler, and embedded assemblies features will not be available.
 
 ## See also
 

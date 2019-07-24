@@ -18,7 +18,7 @@ ms.workload:
 ---
 # References Page, Project Designer (Visual Basic)
 
-Use the **References** page of the **Project Designer** to manage references, web references, and imported namespaces in your project. Projects can contain references to COM components, XML web services, .NET Framework class libraries or assemblies, or other class libraries. For more information on using references, see [Managing references in a project](../../ide/managing-references-in-a-project.md).
+Use the **References** page of the **Project Designer** to manage references, web references, and imported namespaces in your project. Projects can contain references to COM components, XML web services, .NET libraries or assemblies, or other class libraries. For more information on using references, see [Managing references in a project](../../ide/managing-references-in-a-project.md).
 
 To access the **References** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **References** tab.
 
@@ -76,11 +76,11 @@ Click this button to access the **Reference Paths** dialog box.
 
  Select a user-specified namespace in the namespaces list, type the name that you want to replace it with in the **Imported namespaces** box, and then click this button to change to the new namespace. The button is active only if the selected namespace is one that you added to the list by using the **Add User Import** button. You can add:
 
--   Classes or namespaces, such as <xref:System.Math?displayProperty=fullName>.
+- Classes or namespaces, such as <xref:System.Math?displayProperty=fullName>.
 
--   Aliased imports, such as `VB=Microsoft.VisualBasic`.
+- Aliased imports, such as `VB=Microsoft.VisualBasic`.
 
--   XML namespaces, such as `<xmlns:xsl="http://www.w3.org/1999/XSL/Transform">`.
+- XML namespaces, such as `<xmlns:xsl="http://www.w3.org/1999/XSL/Transform">`.
 
 ## See Also
 

@@ -38,9 +38,9 @@ The UML API of Visual Studio lets you write code to create, read, and update UML
   
  Types from that platform are visible in some of the assemblies that you reference in order to write UML extensions. Although you can make extensions to the UML tools by accessing the [!INCLUDE[dsl](../includes/dsl-md.md)] API, you should bear the following considerations in mind:  
   
--   You might find that some apparently simple changes introduce inconsistencies and unexpected effects.  
+- You might find that some apparently simple changes introduce inconsistencies and unexpected effects.  
   
--   The implementation may change in the future, so that adaptations you make using the [!INCLUDE[dsl](../includes/dsl-md.md)] API might no longer work.  
+- The implementation may change in the future, so that adaptations you make using the [!INCLUDE[dsl](../includes/dsl-md.md)] API might no longer work.  
   
 ## The API assemblies  
  This table summarizes the assemblies that provide extensibility for the UML tools, and the namespaces that you are recommended to use.  

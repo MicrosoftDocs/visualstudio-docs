@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "PROCESS_INFO_FIELDS enumeration"
 ms.assetid: 0d9cc345-3d3a-44d8-ae15-a67acb97a828
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # PROCESS_INFO_FIELDS
 Specified what kind of information to retrieve for a process.
@@ -47,32 +50,32 @@ public enum enum_PROCESS_INFO_FIELDS { 
 };
 ```
 
-## Members
- PIF_FILE_NAME
+## Fields
+ `PIF_FILE_NAME`\
  Initialize/use the `bstrFileName` field of the [PROCESS_INFO](../../../extensibility/debugger/reference/process-info.md) structure.
 
- PIF_BASE_NAME
+ `PIF_BASE_NAME`\
  Initialize/use the `bstrBaseName` field of the `PROCESS_INFO` structure.
 
- PIF_TITLE
+ `PIF_TITLE`\
  Initialize/use the `bstrTitle` field of the `PROCESS_INFO` structure.
 
- PIF_PROCESS_ID
+ `PIF_PROCESS_ID`\
  Initialize/use the `ProcessId` field of the `PROCESS_INFO` structure.
 
- PIF_SESSION_ID
+ `PIF_SESSION_ID`\
  Initialize/use the `dwSessionId` field of the `PROCESS_INFO` structure.
 
- PIF_ATTACHED_SESSION_NAME
+ `PIF_ATTACHED_SESSION_NAME`\
  Initialize/use the `bstrAttachedSessionName` field of the `PROCESS_INFO` structure.
 
- PIF_CREATION_TIME
+ `PIF_CREATION_TIME`\
  Initialize/use the `CreationTime` field of the `PROCESS_INFO` structure.
 
- PIF_FLAGS
+ `PIF_FLAGS`\
  Initialize/use the `Flags` field of the `PROCESS_INFO` structure.
 
- PIF_ALL
+ `PIF_ALL`\
  Fills out all fields.
 
 ## Remarks
@@ -89,6 +92,6 @@ public enum enum_PROCESS_INFO_FIELDS { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [PROCESS_INFO](../../../extensibility/debugger/reference/process-info.md)

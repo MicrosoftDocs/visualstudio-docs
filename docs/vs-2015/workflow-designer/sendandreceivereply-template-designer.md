@@ -19,11 +19,11 @@ The **SendAndReceiveReply** template is used to create a pair of pre-configured 
 ## The SendAndReceiveReply Template  
  Adding **SendAndReceiveReply** template does three things besides creating the <xref:System.ServiceModel.Activities.Send> and <xref:System.ServiceModel.Activities.ReceiveReply> activities within a <xref:System.Activities.Statements.Sequence> activity:  
 
-1.  Configures the <xref:System.ServiceModel.Activities.Send.OperationName%2A>, <xref:System.ServiceModel.Activities.Send.ServiceContractName%2A> properties of the <xref:System.ServiceModel.Activities.Send> activity.  
+1. Configures the <xref:System.ServiceModel.Activities.Send.OperationName%2A>, <xref:System.ServiceModel.Activities.Send.ServiceContractName%2A> properties of the <xref:System.ServiceModel.Activities.Send> activity.  
 
-2.  Binds the <xref:System.ServiceModel.Activities.ReceiveReply.Request%2A> property of the <xref:System.ServiceModel.Activities.ReceiveReply> activity to the <xref:System.ServiceModel.Activities.Send> activity.  
+2. Binds the <xref:System.ServiceModel.Activities.ReceiveReply.Request%2A> property of the <xref:System.ServiceModel.Activities.ReceiveReply> activity to the <xref:System.ServiceModel.Activities.Send> activity.  
 
-3.  Creates a <xref:System.ServiceModel.Activities.CorrelationHandle> as a variable in the parent activity.  
+3. Creates a <xref:System.ServiceModel.Activities.CorrelationHandle> as a variable in the parent activity.  
 
 ### Using the SendAndReceiveReply Template Designer  
  The **SendAndReceiveReply** activity designer can be found in the **Messaging** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on [!INCLUDE[wfd2](../includes/wfd2-md.md)] (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)  
@@ -36,7 +36,6 @@ The **SendAndReceiveReply** template is used to create a pair of pre-configured 
 
 ### Properties of ReceiveReply  
  The following table shows the <xref:System.ServiceModel.Activities.ReceiveReply> properties and describes how they are used in the designer. These properties can be edited in properties grid and some can be edited on [!INCLUDE[wfd2](../includes/wfd2-md.md)]designer surface.  
-
 
 |                                 Property Name                                 | Required |                                                                                                                                                                                                                                                                                                                                                        Usage                                                                                                                                                                                                                                                                                                                                                        |
 |-------------------------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

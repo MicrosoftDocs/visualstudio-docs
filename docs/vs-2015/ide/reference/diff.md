@@ -13,7 +13,6 @@ manager: jillfra
 # /Diff
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Compares two files. The differences are displayed in a special Visual Studio window.  
   
 ## Syntax  

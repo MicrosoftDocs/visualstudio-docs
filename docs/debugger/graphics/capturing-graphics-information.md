@@ -34,7 +34,7 @@ Capture graphics information from your Direct3D app so that you can use Visual S
 - On the keyboard, press the Print Screen key.
 
   > [!NOTE]
-  >  While an app is running under **Graphics Diagnostics**, the Print Screen key can only be used to capture a frame of graphics information; it doesn't perform its regular function. This remains in effect until you have stopped capturing graphics information—usually by stopping debugging or exiting the app normally—even if another application is in focus.
+  > While an app is running under **Graphics Diagnostics**, the Print Screen key can only be used to capture a frame of graphics information; it doesn't perform its regular function. This remains in effect until you have stopped capturing graphics information—usually by stopping debugging or exiting the app normally—even if another application is in focus.
 
 - In the Visual Studio capture interface, chose the **Capture Frame** button located below the **Diagnostic session** timeline, or choose the large **Capture Frame** button located below the **Frames per second** swim-lane and to the right of any previously-captured frames. Both buttons are highlighted in the image below.
 
@@ -51,9 +51,9 @@ Capture graphics information from your Direct3D app so that you can use Visual S
 
 #### To configure Graphics Diagnostics capture options
 
-1.  On the menu bar, choose Tools, Options. The Options dialog box appears.
+1. On the menu bar, choose Tools, Options. The Options dialog box appears.
 
-2.  In the options category list on the left, choose Graphics Diagnostics, then configure the Graphics Diagnostics options that you want.
+2. In the options category list on the left, choose Graphics Diagnostics, then configure the Graphics Diagnostics options that you want.
 
      **Collect call stacks during capture (makes capture slower)**
      Check this box to collect call stacks. By default, call stacks are not collected. To capture call stacks, make sure that the **Collect call stacks during capture (makes capture slower** checkbox is set to enable collection and then set either the **for draw, dispatch, present, and perf markers** option (default) to collect only the most important call stacks, or the **for everything** option to collect all call stacks. To stop collecting call stacks later, clear the **Collect call stacks during capture (makes capture slower** checkbox.

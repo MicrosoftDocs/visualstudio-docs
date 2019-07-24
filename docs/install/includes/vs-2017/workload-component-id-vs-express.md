@@ -6,7 +6,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 11/13/2018
+ms.date: 2/12/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
@@ -22,7 +22,7 @@ ms.topic: include
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
 Microsoft.Component.ClickOnce | ClickOnce Publishing | 15.8.27825.0 | Required
-Microsoft.Component.HelpViewer | Help Viewer | 15.6.27323.2 | Required
+Microsoft.Component.HelpViewer | Help Viewer | 15.9.28307.421 | Required
 Microsoft.Component.MSBuild | MSBuild | 15.7.27520.0 | Required
 Microsoft.Component.VC.Runtime.OSSupport | Visual C++ runtime for UWP | 15.6.27406.0 | Required
 Microsoft.Net.Component.4.5.1.TargetingPack | .NET Framework 4.5.1 targeting pack | 15.6.27406.0 | Required
@@ -54,7 +54,7 @@ Microsoft.VisualStudio.Component.VC.Tools.ARM | Visual C++ compilers and librari
 Microsoft.VisualStudio.Component.VC.Tools.ARM64 | Visual C++ compilers and libraries for ARM64 | 15.9.28230.55 | Required
 Microsoft.VisualStudio.Component.VisualStudioData | Data sources and service references | 15.6.27406.0 | Required
 Microsoft.VisualStudio.Component.Windows10SDK.14393 | Windows 10 SDK (10.0.14393.0) | 15.6.27406.0 | Required
-Microsoft.VisualStudio.Component.Windows10SDK.17134 | Windows 10 SDK (10.0.17134.0) | 15.8.27924.0 | Required
+Microsoft.VisualStudio.Component.Windows10SDK.17763 | Windows 10 SDK (10.0.17763.0) | 15.9.28307.102 | Required
 
 ## Unaffiliated components
 

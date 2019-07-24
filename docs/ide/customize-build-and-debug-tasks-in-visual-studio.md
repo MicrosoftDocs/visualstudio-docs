@@ -8,7 +8,6 @@ helpviewer_keywords:
   - customize codebases [Visual Studio]
   - tasks.vs.json file [Visual Studio]
   - launch.vs.json file [Visual Studio]
-  - vsworkspacesettings.json file [Visual Studio]
 author: gewarren
 ms.author: gewarren
 manager: jillfra
@@ -27,7 +26,6 @@ Customize your project-less codebase by using the following *.json* files:
 |-|-|
 |*tasks.vs.json*|Specify custom build commands and compiler switches, and arbitrary (non-build related) tasks.<br>Accessed via the **Solution Explorer** right-click menu item **Configure Tasks**.|
 |*launch.vs.json*|Specify command-line arguments for debugging.<br>Accessed via the **Solution Explorer** right-click menu item **Debug and Launch Settings**.|
-|*VSWorkspaceSettings.json*|Generic settings that may impact tasks and launch. For example, defining `envVars` in *VSWorkspaceSettings.json* adds the specified environment variables to externally run commands.<br>You create this file manually.|
 
 These *.json* files are located in a hidden folder called *.vs* in the root folder of your codebase. The *tasks.vs.json* and *launch.vs.json* files are created by Visual Studio on an as-needed basis when you choose either **Configure Tasks** or **Debug and Launch Settings** on a file or folder in **Solution Explorer**. These *.json* files are hidden because users generally don't want to check them into source control. However, if you want to be able to check them into source control, drag the files into the root of your codebase, where they are visible.
 
@@ -187,7 +185,7 @@ Multiple *tasks.vs.json* files can exist at the root and subdirectories of a cod
 - The current directory’s parent directory, all the way up to the root directory.
 - Settings files in the root directory.
 
-These aggregation rules apply to *tasks.vs.json* and *VSWorkspaceSettings.json* files. For information on how settings in other file are aggregated, see the corresponding section for that file in this article.
+These aggregation rules apply to *tasks.vs.json*. For information on how settings in other file are aggregated, see the corresponding section for that file in this article.
 
 ### Properties for tasks.vs.json
 
@@ -284,10 +282,6 @@ When you save this file, the name of the new configuration appears in the debug 
 > [!NOTE]
 > The `configurations` array property in *launch.vs.json* is read from two file locations&mdash;the root directory for the codebase, and the *.vs* directory. If there is a conflict, priority is given to the value in *.vs\launch.vs.json*.
 
-## Define workspace settings in VSWorkspaceSettings.json
-
-You can specify generic settings that may impact tasks and launch in the *VSWorkspaceSettings.json* file. For example, if you define `envVars` in *VSWorkspaceSettings.json*, Visual Studio adds the specified environment variables to commands that are run externally. To use this file, you must create it manually.
-
 ## Additional settings files
 
 In addition to the three *.json* files described in this topic, Visual Studio also reads settings from some additional files, if they exist in your codebase.
@@ -307,7 +301,7 @@ Settings read from the *.gitignore* file are applied to its parent directory and
 ## See also
 
 - [Develop code without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
-- [Open Folder projects for C++](/cpp/ide/non-msbuild-projects)
-- [CMake projects in C++](/cpp/ide/cmake-tools-for-visual-cpp)
-- [NMAKE reference](/cpp/build/nmake-reference)
+- [Open Folder projects for C++](/cpp/build/open-folder-projects-cpp)
+- [CMake projects for C++](/cpp/build/cmake-projects-in-visual-studio)
+- [NMAKE reference](/cpp/build/reference/nmake-reference)
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::GetTypeFromAddress"
   - "GetTypeFromAddress"
 ms.assetid: 01f21ff9-e8a5-4e5f-9f7b-1b6de8b1432f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetTypeFromAddress
 Retrieves to a symbol type given its debug address.
@@ -31,14 +34,12 @@ int GetTypeFromAddress(
 );
 ```
 
-#### Parameters
-`pAddress`
+## Parameters
+`pAddress`\
+[in] The debug address that is represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
- [in] The debug address that is represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
-
-`ppField`
-
- [out] Returns the array type as it is represented by an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) interface.
+`ppField`\
+[out] Returns the array type as it is represented by an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) interface.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -111,5 +112,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

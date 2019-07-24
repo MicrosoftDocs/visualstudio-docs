@@ -17,39 +17,39 @@ manager: jillfra
 ### Animation best practices in Visual Studio
  Follow these rules to ensure consistent and user-friendly animation styles across Visual Studio’s IDE.
 
--   **Be selective.** Limit animations to those that serve specific purposes.
+- **Be selective.** Limit animations to those that serve specific purposes.
 
--   **Timing and speed are important** to ensure that transitions feel quick and natural:
+- **Timing and speed are important** to ensure that transitions feel quick and natural:
 
-    -   Complete animated transitions within one half-second (500 milliseconds).
+  - Complete animated transitions within one half-second (500 milliseconds).
 
-    -   Animations that would occur frequently need to be quick enough that they don't interrupt the user's workflow.
+  - Animations that would occur frequently need to be quick enough that they don't interrupt the user's workflow.
 
-    -   Animations should not be so fast or jarring that it is difficult to understand, but not so slow that it makes one impatient for the transition to finish.
+  - Animations should not be so fast or jarring that it is difficult to understand, but not so slow that it makes one impatient for the transition to finish.
 
-    -   Use variable timing to emphasize importance. For example, when navigating through a sequence of items on a class diagram, speed through transitions between items then slow down to focus on important items.
+  - Use variable timing to emphasize importance. For example, when navigating through a sequence of items on a class diagram, speed through transitions between items then slow down to focus on important items.
 
--   **Use gradual non-linear easing** from one state to another, giving a sense of calm and natural movement
+- **Use gradual non-linear easing** from one state to another, giving a sense of calm and natural movement
 
--   When possible, **use a subtle animation on hover** to indicate interactive elements under the mouse.
+- When possible, **use a subtle animation on hover** to indicate interactive elements under the mouse.
 
--   If you rely heavily on animations in your features then **provide a means to turn them off** locally (for all your features) as an option in the **Tools > Options** dialog.
+- If you rely heavily on animations in your features then **provide a means to turn them off** locally (for all your features) as an option in the **Tools > Options** dialog.
 
--   **Only one animation should occur at a time** and convey just one piece of information.
+- **Only one animation should occur at a time** and convey just one piece of information.
 
--   **Subtlety is important.** In most cases animation doesn't have to demand user attention to serve its purpose. Subtle changes in timing, sequencing, and behavior may significantly impact perception, and can make the difference between an effective and ineffective animation.
+- **Subtlety is important.** In most cases animation doesn't have to demand user attention to serve its purpose. Subtle changes in timing, sequencing, and behavior may significantly impact perception, and can make the difference between an effective and ineffective animation.
 
--   When using animation to draw attention to something, **make sure that it is worth interrupting the user**'s train of thought.
+- When using animation to draw attention to something, **make sure that it is worth interrupting the user**'s train of thought.
 
--   **When showing progress or status** through animation:
+- **When showing progress or status** through animation:
 
-    -   Stop showing progress movement when the underlying process is not advancing.
+  - Stop showing progress movement when the underlying process is not advancing.
 
-    -   Distinguish indeterminate processes from determinate processes.
+  - Distinguish indeterminate processes from determinate processes.
 
-    -   Ensure that an animation has identifiable completion and failure states.
+  - Ensure that an animation has identifiable completion and failure states.
 
-    -   Minimize use of effect animations that show status and make sure that they have real value by providing additional information of actual use. Examples include transient status changes and emergencies
+  - Minimize use of effect animations that show status and make sure that they have real value by providing additional information of actual use. Examples include transient status changes and emergencies
 
 #### Do not:
 
@@ -65,15 +65,15 @@ manager: jillfra
 
 ### Animation metrics
 
--   The system should visibly react to user gestures in less than 10 milliseconds.
+- The system should visibly react to user gestures in less than 10 milliseconds.
 
--   Animated transitions should not take longer than 500 milliseconds to complete.
+- Animated transitions should not take longer than 500 milliseconds to complete.
 
--   One way to compensate for transitions that require longer times is to separate it into two parts; for example, the first part of an animation could be the empty content container (up to 500 milliseconds) followed by the content fading into the container (up to 500 milliseconds).
+- One way to compensate for transitions that require longer times is to separate it into two parts; for example, the first part of an animation could be the empty content container (up to 500 milliseconds) followed by the content fading into the container (up to 500 milliseconds).
 
--   For load times that can be calculated, a determinant progress indicator (percent-done progress indicator) is preferred.
+- For load times that can be calculated, a determinant progress indicator (percent-done progress indicator) is preferred.
 
--   For load times that cannot be calculated, a busy indicator such as a cursor or embedded spinning animation (loading or working indicator) is appropriate.
+- For load times that cannot be calculated, a busy indicator such as a cursor or embedded spinning animation (loading or working indicator) is appropriate.
 
 ### Animation as communicator
  In Visual Studio’s UI, animation functions only as a communication tool.  It is used to communicate a variety of information, such as structural changes in the UI; for example, when a menu opens or closes. Animation can help visualize the time-dependent behavior of complex systems, such as installation progress visualization or be used to attract attention with alerts and notifications.
@@ -90,61 +90,61 @@ manager: jillfra
 ##### Data
  Illustrate complex and variable information:
 
--   Moving through information visualizations like charts and graphs
+- Moving through information visualizations like charts and graphs
 
--   Stepping through a sequence, guided tour, and paging
+- Stepping through a sequence, guided tour, and paging
 
--   Calling out details, pointing, and highlighting specific information
+- Calling out details, pointing, and highlighting specific information
 
--   Overlaying details and additional information on top of a focused element
+- Overlaying details and additional information on top of a focused element
 
--   Morphing from one structural or organizational representation to another
+- Morphing from one structural or organizational representation to another
 
--   Representing changes over time using time sliders, jog-and-shuttle wheels, and transport controls (play, stop, and pause).
+- Representing changes over time using time sliders, jog-and-shuttle wheels, and transport controls (play, stop, and pause).
 
 ##### Relationships
 
--   Illustrate how items relate to one another or which items relate to a given item.
+- Illustrate how items relate to one another or which items relate to a given item.
 
--   Show hierarchies and parent-child or sibling relationships
+- Show hierarchies and parent-child or sibling relationships
 
--   One element spawns another
+- One element spawns another
 
--   One element minimizes to another element
+- One element minimizes to another element
 
--   One element tethered to another
+- One element tethered to another
 
 ##### State
 
--   Content updates.
+- Content updates.
 
--   User focus and selection
+- User focus and selection
 
--   Progress
+- Progress
 
--   Errors
+- Errors
 
 ##### Structure
 
--   Pivoting the structure on one node
+- Pivoting the structure on one node
 
--   Reorienting
+- Reorienting
 
--   Minimize and maximize, or expand and collapse
+- Minimize and maximize, or expand and collapse
 
 ##### Sequence
 
--   Slideshow sequence
+- Slideshow sequence
 
--   Flipping through pictures
+- Flipping through pictures
 
 ##### Time
 
--   Show change over time, time lapse, and screencast
+- Show change over time, time lapse, and screencast
 
--   Move to trash, undo, and redo
+- Move to trash, undo, and redo
 
--   Restore historical state
+- Restore historical state
 
 #### Attract attention
  If the goal is to draw the user's attention to a single element out of several or to alert the user to updated information, then an animation may be appropriate. For example, your applications start page might employ a Getting Started button that slides into place after the page loads.
@@ -153,43 +153,43 @@ manager: jillfra
 
 ##### Alert
 
--   Alert the user, get attention, show progress
+- Alert the user, get attention, show progress
 
--   Show that something is being done correctly or incorrectly or show progress or progress changes
+- Show that something is being done correctly or incorrectly or show progress or progress changes
 
--   Prompt users during a task, such as finding more information online or learning about the current task
+- Prompt users during a task, such as finding more information online or learning about the current task
 
 ##### Notifications
 
--   Alert the user about an error condition
+- Alert the user about an error condition
 
--   Interrupt the user to see if they would like to attend to something else
+- Interrupt the user to see if they would like to attend to something else
 
--   Gently inform the user that a process has completed or changed, such as when a download is complete.
+- Gently inform the user that a process has completed or changed, such as when a download is complete.
 
 #### Simulate
  This category covers physicality and dimensionality.
 
--   Illustrate where objects come from or where they go to
+- Illustrate where objects come from or where they go to
 
--   Expand and collapse or open and close
+- Expand and collapse or open and close
 
--   Panning, scrolling, and page turns
+- Panning, scrolling, and page turns
 
--   Stacking and z-ordering
+- Stacking and z-ordering
 
--   Carousel and accordion
+- Carousel and accordion
 
--   Flipping and rotating UI
+- Flipping and rotating UI
 
 #### Response and progress indicators
  Progress indicators have a couple of notable advantages:
 
--   Both determinate and indeterminate progress indicators reassure the user that the system has not crashed and is working on the problem.
+- Both determinate and indeterminate progress indicators reassure the user that the system has not crashed and is working on the problem.
 
--   Determinate indicators give the user a sense of how far along the action is progressing, as well as a feeling of getting closer to the finish.
+- Determinate indicators give the user a sense of how far along the action is progressing, as well as a feeling of getting closer to the finish.
 
-##  <a name="BKMK_AnimationPatterns"></a> Animation patterns
+## <a name="BKMK_AnimationPatterns"></a> Animation patterns
 
 ### Overview
  Animations in Visual Studio are meant to serve a specific function and not hinder user productivity. General animation characteristics to adhere to include:
@@ -226,11 +226,11 @@ manager: jillfra
 
 ##### Examples
 
--   Auto-hide tool windows
+- Auto-hide tool windows
 
--   Keyboard-activated editor UI, such as IntelliSense and Parameter Help
+- Keyboard-activated editor UI, such as IntelliSense and Parameter Help
 
--   Expand-and-collapse code regions
+- Expand-and-collapse code regions
 
 #### Fade-in and fade-out
  With this pattern, a UI element transitions from not visible (0% opacity) to visible (100% opacity) or vice versa:
@@ -242,21 +242,21 @@ manager: jillfra
 
 ##### Animation properties
 
--   Starting opacity: 0% for fade-in, 100% for fade-out
+- Starting opacity: 0% for fade-in, 100% for fade-out
 
--   Ending opacity: 100% for fade-in, 0% for fade-out
+- Ending opacity: 100% for fade-in, 0% for fade-out
 
--   Duration: 200 milliseconds standalone, 100 milliseconds when used as part of a combination animation sequence
+- Duration: 200 milliseconds standalone, 100 milliseconds when used as part of a combination animation sequence
 
--   Easing style: Sine InOut
+- Easing style: Sine InOut
 
 ##### Examples
 
--   Auto-hide tool windows
+- Auto-hide tool windows
 
--   Menu open and close
+- Menu open and close
 
--   Background and foreground tab transitions
+- Background and foreground tab transitions
 
 #### Color blend from A to B
  With this pattern, a UI element changes from color A to color B:
@@ -268,19 +268,19 @@ manager: jillfra
 
 ##### Animation properties
 
--   Starting color: UI-specific
+- Starting color: UI-specific
 
--   Ending color: UI-specific
+- Ending color: UI-specific
 
--   Duration: 200 milliseconds standalone, 100 milliseconds when used as part of a combination animation sequence
+- Duration: 200 milliseconds standalone, 100 milliseconds when used as part of a combination animation sequence
 
--   Easing style: Sine InOut
+- Easing style: Sine InOut
 
 ##### Examples
 
--   Document window state transitions (active, last active, and inactive)
+- Document window state transitions (active, last active, and inactive)
 
--   Tool window state transitions (focused and unfocused)
+- Tool window state transitions (focused and unfocused)
 
 #### Expand and contract
  With this pattern, a UI element expands in the X, Y, or both directions:
@@ -292,19 +292,19 @@ manager: jillfra
 
 ##### Animation properties
 
--   X scale: % or specific dimension (in pixels)
+- X scale: % or specific dimension (in pixels)
 
--   Y scale: % or specific dimension (in pixels)
+- Y scale: % or specific dimension (in pixels)
 
--   Anchor position: Generally upper-left (for left-to-right languages) or upper-right (for right-to-left languages)
+- Anchor position: Generally upper-left (for left-to-right languages) or upper-right (for right-to-left languages)
 
--   Duration: 200 milliseconds standalone, 100 milliseconds when used as part of a combination animation sequence
+- Duration: 200 milliseconds standalone, 100 milliseconds when used as part of a combination animation sequence
 
 ##### Examples
 
--   Architecture Explorer panel expand and collapse
+- Architecture Explorer panel expand and collapse
 
--   Start Page item expand and collapse
+- Start Page item expand and collapse
 
 #### X-Y position change
  With this pattern, a UI element changes its X or Y position or both:
@@ -316,15 +316,15 @@ manager: jillfra
 
 ##### Animation properties
 
--   Starting X and Y position: UI-specific
+- Starting X and Y position: UI-specific
 
--   Ending X and Y position: UI-specific
+- Ending X and Y position: UI-specific
 
--   Motion path: None
+- Motion path: None
 
--   Duration: 200 milliseconds standalone, 100 milliseconds when used as part of a combination animation sequence
+- Duration: 200 milliseconds standalone, 100 milliseconds when used as part of a combination animation sequence
 
--   Easing style: Sine InOut
+- Easing style: Sine InOut
 
 ##### Example
  Tab reordering
@@ -339,11 +339,11 @@ manager: jillfra
 
 ##### Animation properties
 
--   Degree of rotation: 360
+- Degree of rotation: 360
 
--   Rotation center: Middle of the object
+- Rotation center: Middle of the object
 
--   Duration: Continuous
+- Duration: Continuous
 
 ##### Example
  Indeterminate progress indicator (spinning)

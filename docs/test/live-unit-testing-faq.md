@@ -24,28 +24,11 @@ To learn about the new features and enhancements that have been made to Live Uni
 
 Live Unit Testing works with the three popular unit testing frameworks listed in the table that follows. The minimum supported version of their adapters and frameworks is also listed in the table. The unit testing frameworks are all available from NuGet.org.
 
-<table>
-<tr>
-   <th>Test Framework</th>
-   <th>Visual Studio Adapter minimum version</th>
-   <th>Framework minimum version</th>
-</tr>
-<tr>
-   <td>xUnit.net</td>
-   <td> xunit.runner.visualstudio version 2.2.0-beta3-build1187</td>
-   <td>xunit 1.9.2</td>
-</tr>
-<tr>
-   <td>NUnit</td>
-   <td>NUnit3TestAdapter version 3.5.1</td>
-   <td>NUnit version 3.5.0</td>
-</tr>
-<tr>
-   <td>MSTest</td>
-   <td>MSTest.TestAdapter 1.1.4-preview</td>
-   <td>MSTest.TestFramework 1.0.5-preview</td>
-</tr>
-</table>
+|Test Framework  |Visual Studio Adapter minimum version  |Framework minimum version  |
+|---------|---------|---------|
+|xUnit.net |xunit.runner.visualstudio version 2.2.0-beta3-build1187 |xunit 1.9.2 |
+|NUnit |NUnit3TestAdapter version 3.7.0 |NUnit version 3.5.0 |
+|MSTest |MSTest.TestAdapter 1.1.4-preview |MSTest.TestFramework 1.0.5-preview |
 
 If you have older MSTest based test projects that reference `Microsoft.VisualStudio.QualityTools.UnitTestFramework` and you don’t wish to move to the newer MSTest NuGet packages, upgrade to Visual Studio 2017 version 15.4 or later.
 
@@ -208,15 +191,6 @@ Tests that rely on these values may fail when executed by Live Unit testing.
 Your solution can build even if you're not making edits if the build process of your solution generates source code that is part of the solution itself, and your build target files do not have appropriate inputs and outputs specified. Targets should be given a list of inputs and outputs so that MSBuild can perform the appropriate up-to-date checks and determine whether a new build is required.
 
 Live Unit Testing starts a build whenever it detects that source files have changed. Because the build of your solution generates source files, Live Unit Testing will get into an infinite build loop. If, however, the inputs and outputs of the target are checked when Live Unit Testing starts the second build (after detecting the newly generated source files from the previous build), it will break out of the build loop because the inputs and outputs checks will indicate that everything is up-to-date.  
-
-## Lightweight solution load
-
-**How does Live Unit testing work with the lightweight solution load feature?**
-
-Live Unit Testing currently doesn't work well with the lightweight solution load feature. It works only after at least one of the test projects is loaded. Until then, it won't work because Live Unit Testing is dependent on at least one of the test projects referencing a test adapter (MSTest, xUnit, or NUnit) being loaded.
-
-> [!NOTE]
-> Lightweight solution load is no longer available in Visual Studio 2017 version 15.5 and later. In Visual Studio 2017 version 15.5 and later, large solutions that contain managed code load much faster than previously, even without lightweight solution load.
 
 ## New process coverage
 

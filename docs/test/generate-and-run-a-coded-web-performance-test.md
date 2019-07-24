@@ -23,13 +23,13 @@ Web performance tests are recorded by browsing through your web app. The tests a
 
 ## Generate a coded web performance test
 
-1.  If you have not created a web performance test, see [Record a web performance test](/azure/devops/test/load-test/run-performance-tests-app-before-release#create-a-web-performance-and-load-test-project?view=vsts).
+1. If you have not created a web performance test, see [Record a web performance test](/azure/devops/test/load-test/run-performance-tests-app-before-release#create-a-web-performance-and-load-test-project).
 
-2.  Generate the coded test.
+2. Generate the coded test.
 
      ![Generate a coded web performance test](../test/media/web_test_coded_generate.png)
 
-3.  Name the test.
+3. Name the test.
 
      ![Enter a name for the coded web performance test](../test/media/web_test_coded_generate_nametest.png)
 
@@ -41,7 +41,7 @@ Web performance tests are recorded by browsing through your web app. The tests a
 
      You can see in the code that the GetRequestEnumerator() method in C#, or the Run() method in Visual Basic, contains each validation rule and web request that was in the recoded test.
 
-4.  To demonstrate adding some simple code, scroll down to the end of the method and after the code for the last web request, and add the following code:
+4. To demonstrate adding some simple code, scroll down to the end of the method and after the code for the last web request, and add the following code:
 
     ```c#
     if (DateTime.Today.DayOfWeek == DayOfWeek.Wednesday)
@@ -66,9 +66,9 @@ Web performance tests are recorded by browsing through your web app. The tests a
     End If
     ```
 
-5.  Build the solution to verify that your custom code compiles.
+5. Build the solution to verify that your custom code compiles.
 
-6.  Run the test.
+6. Run the test.
 
      ![Run the coded web performance test](../test/media/web_test_coded_generate_run.png)
 

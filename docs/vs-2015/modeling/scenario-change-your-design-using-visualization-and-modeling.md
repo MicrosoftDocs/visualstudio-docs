@@ -49,7 +49,7 @@ Make sure that your software system meets users' needs by using the visualizatio
   
 - [Create models for your app](../modeling/create-models-for-your-app.md)  
   
-##  <a name="ScenarioOverview"></a> Scenario Overview  
+## <a name="ScenarioOverview"></a> Scenario Overview  
  This scenario describes episodes from the software development lifecycles of two fictitious companies: Dinner Now and Lucerne Publishing. Dinner Now provides a Web-based meal delivery service in Seattle. Customers can order meals and pay for them on the Dinner Now Web site. The orders are then sent to the appropriate local restaurant for delivery. Lucerne Publishing, a company in New York, runs several businesses both off and on the Web. For example, they run a Web site where customers can post restaurant reviews.  
   
  Lucerne recently acquired Dinner Now and wants to make the following changes:  
@@ -72,7 +72,7 @@ Make sure that your software system meets users' needs by using the visualizatio
   
 - [Testing, validating, and checking in updated code](#TestValidateCheckInCode)  
   
-##  <a name="ModelingDiagramsTools"></a> Roles of Architecture and Modeling Diagrams in Software Development  
+## <a name="ModelingDiagramsTools"></a> Roles of Architecture and Modeling Diagrams in Software Development  
  The following table describes roles that these tools can play during multiple and various stages of the software development lifecycle:  
   
 ||**User Requirements Modeling**|**Business Process Modeling**|**System Architecture & Design**|**Code Visualization & Exploration**|**Verification**|  
@@ -114,9 +114,9 @@ Make sure that your software system meets users' needs by using the visualizatio
 - [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)  
   
   > [!NOTE]
-  >  Some versions of Visual Studio support layer validation and read-only versions of code maps and UML diagrams for visualization and modeling. To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
+  > Some versions of Visual Studio support layer validation and read-only versions of code maps and UML diagrams for visualization and modeling. To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
-##  <a name="UnderstandingCommunicating"></a> Understanding and Communicating Information about the System  
+## <a name="UnderstandingCommunicating"></a> Understanding and Communicating Information about the System  
  There is no prescribed order for using the Visual Studio modeling diagrams, so you can use them as they fit with your needs or approach. Usually, teams revisit their models iteratively and frequently throughout a project. Each diagram offers particular strengths to help you understand, describe, and communicate different aspects of the system under development.  
   
  Dinner Now and Lucerne communicate with each another and with project stakeholders by using diagrams as their common language. For example, Dinner Now uses diagrams to perform these tasks:  
@@ -159,7 +159,7 @@ Make sure that your software system meets users' needs by using the visualizatio
   
 - [Testing, validating, and checking in updated code](#TestValidateCheckInCode)  
   
-###  <a name="UnderstandingBPMandSystemDesign"></a> Understanding the Role of the System in the Business Process  
+### <a name="UnderstandingBPMandSystemDesign"></a> Understanding the Role of the System in the Business Process  
  Lucerne wants to learn more about the Dinner Now business process. They create the following diagrams to clarify their understanding with Dinner Now more easily:  
   
 |**Diagram**|**Describes**|  
@@ -186,7 +186,7 @@ Make sure that your software system meets users' needs by using the visualizatio
   
  **UML Class Diagram**  
   
-###  <a name="DescribingURM"></a> Describing New or Updated User Requirements  
+### <a name="DescribingURM"></a> Describing New or Updated User Requirements  
  Lucerne wants to add functionality to the Dinner Now system so that customers can read and contribute restaurant reviews. They update the following diagrams so that they can describe and discuss this new requirement with Dinner Now:  
   
 |**Diagram**|**Describes**|  
@@ -213,7 +213,7 @@ Make sure that your software system meets users' needs by using the visualizatio
   
  **UML class diagram**  
   
-###  <a name="CreatingTests"></a> Creating Tests from Models  
+### <a name="CreatingTests"></a> Creating Tests from Models  
  Both teams agree that they need a complete set of tests for the system and its components before they make any changes. Lucerne has a specialized team that performs system and component-level testing. They reuse the tests created by Dinner Now and structure those tests using the UML diagrams:  
   
 - Each use case is represented by one or multiple tests. The elements on the use case diagram link to Test Case work items in Team Foundation Server.  
@@ -230,7 +230,7 @@ Make sure that your software system meets users' needs by using the visualizatio
   
 - [Validate your UML model](../modeling/validate-your-uml-model.md)  
   
-###  <a name="DeterminingChanges"></a> Identifying Changes to the Existing System  
+### <a name="DeterminingChanges"></a> Identifying Changes to the Existing System  
  Dinner Now must estimate the cost of meeting the new requirement. This depends partly on how much this change will affect other parts of the system. To help them understand this, one of the Dinner Now developers creates these maps and diagrams from existing code:  
   
 |**Map or diagram**|**Shows**|  
@@ -274,7 +274,7 @@ Make sure that your software system meets users' needs by using the visualizatio
   
  **UML sequence diagram**  
   
-###  <a name="ValidatingCode"></a> Keeping Code Consistent with the Design  
+### <a name="ValidatingCode"></a> Keeping Code Consistent with the Design  
  Dinner Now must make sure that the updated code stays consistent with the design. They create layer diagrams that describe the layers of functionality in the system, specify the permitted dependencies between them, and associate solution artifacts to those layers.  
   
 |**Diagram**|**Describes**|  
@@ -291,13 +291,13 @@ Make sure that your software system meets users' needs by using the visualizatio
   
  See:  
   
--   [Define your build process](http://msdn.microsoft.com/library/61593e10-d24b-492f-b19a-af4d85abea6b)  
+- [Define your build process](https://msdn.microsoft.com/library/61593e10-d24b-492f-b19a-af4d85abea6b)  
   
--   [Use a gated check-in build process to validate changes](http://msdn.microsoft.com/library/9cfc8b9c-1023-40fd-8ab5-1b1bd9c172ec)  
+- [Use a gated check-in build process to validate changes](https://msdn.microsoft.com/library/9cfc8b9c-1023-40fd-8ab5-1b1bd9c172ec)  
   
--   [Customize your build process template](http://msdn.microsoft.com/library/b94c58f2-ae6f-4245-bedb-82cd114f6039)  
+- [Customize your build process template](https://msdn.microsoft.com/library/b94c58f2-ae6f-4245-bedb-82cd114f6039)  
   
-###  <a name="GeneralTips"></a> General Tips for Creating and Using Models  
+### <a name="GeneralTips"></a> General Tips for Creating and Using Models  
   
 - Most diagrams consist of nodes that are connected by lines. For each diagram type, the toolbox provides different kinds of nodes and lines.  
   
@@ -317,7 +317,7 @@ Make sure that your software system meets users' needs by using the visualizatio
   
   See [Create models for your app](../modeling/create-models-for-your-app.md).  
   
-###  <a name="PlanningTracking"></a> Planning and Tracking Work  
+### <a name="PlanningTracking"></a> Planning and Tracking Work  
  Visual Studio modeling diagrams are integrated with Team Foundation Server so that you can plan, manage, and track work more easily. Both teams use models to identify test cases and development tasks and to estimate their work. Lucerne creates and links Team Foundation Server work items to model elements, such as use cases or components. This helps them monitor their progress and trace their work back to the users' requirements. This helps them make sure that their changes continue to meet those requirements.  
   
  As their work progresses, the teams update their work items to reflect the time that they spent on their tasks. They also monitor and report status on their work by using the following Team Foundation Server features:  
@@ -330,15 +330,15 @@ Make sure that your software system meets users' needs by using the visualizatio
   
   See:  
   
-- [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)  
+- [Track work using Visual Studio Team Services or Team Foundation Server](https://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)  
   
 - [Link model elements and work items](../modeling/link-model-elements-and-work-items.md)  
   
-- [Charts, dashboards, and reports for Visual Studio ALM](http://msdn.microsoft.com/library/1f28ba6c-c5e5-46d3-9209-ede24ae78e48)  
+- [Charts, dashboards, and reports for Visual Studio ALM](https://msdn.microsoft.com/library/1f28ba6c-c5e5-46d3-9209-ede24ae78e48)  
   
-- [Create your backlog and tasks using Project](http://msdn.microsoft.com/library/be5cef4f-755f-4ffe-8dd7-876d1e02c330)  
+- [Create your backlog and tasks using Project](https://msdn.microsoft.com/library/be5cef4f-755f-4ffe-8dd7-876d1e02c330)  
   
-###  <a name="TestValidateCheckInCode"></a> Testing, Validating, and Checking In Code  
+### <a name="TestValidateCheckInCode"></a> Testing, Validating, and Checking In Code  
  As the teams complete each task, they check their code into Team Foundation version control and receive reminders from Team Foundation Server, if they forget. Before Team Foundation Server accepts their check-ins, the teams run unit tests and layer validation to verify the code against their test cases and the design. They use Team Foundation Server to run builds, automated unit tests, and layer validation regularly. This helps make sure that the code meets the following criteria:  
   
 - It works.  
@@ -353,15 +353,15 @@ Make sure that your software system meets users' needs by using the visualizatio
   
   See:  
   
-- [Testing the application](http://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)  
+- [Testing the application](https://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)  
   
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)  
   
 - [Use version control](http://go.microsoft.com/fwlink/?LinkID=525605)  
   
-- [Build the application](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
+- [Build the application](https://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
   
-##  <a name="UpdatingSystem"></a> Updating the System Using Visualization and Modeling  
+## <a name="UpdatingSystem"></a> Updating the System Using Visualization and Modeling  
  Lucerne and Dinner Now must integrate their payment systems. The following sections show the modeling diagrams in Visual Studio help them perform this task:  
   
 - [Understand the User Requirements: Use Case Diagrams](#UnderstandUseCases)  
@@ -390,7 +390,7 @@ Make sure that your software system meets users' needs by using the visualizatio
   
 - [Model your app's architecture](../modeling/model-your-app-s-architecture.md)  
   
-###  <a name="UnderstandUseCases"></a> Understand the User Requirements: Use Case Diagrams  
+### <a name="UnderstandUseCases"></a> Understand the User Requirements: Use Case Diagrams  
  Use case diagrams summarize the activities that a system supports and who performs those activities. Lucerne uses a use case diagram to learn the following about the Dinner Now system:  
   
 - Customers create orders.  
@@ -441,13 +441,13 @@ Make sure that your software system meets users' needs by using the visualizatio
 #### Summary: Strengths of Use Case Diagrams  
  Use case diagrams help you visualize:  
   
--   The activities that a system supports or does not support  
+- The activities that a system supports or does not support  
   
--   The people and external systems that perform those activities  
+- The people and external systems that perform those activities  
   
--   The major components of the system that support each activity, which you can represent as subsystems nested inside the parent system  
+- The major components of the system that support each activity, which you can represent as subsystems nested inside the parent system  
   
--   How a use case might divide into smaller ones or variations  
+- How a use case might divide into smaller ones or variations  
   
 #### Relationship to Other Diagrams  
   
@@ -457,7 +457,7 @@ Make sure that your software system meets users' needs by using the visualizatio
 |Sequence diagram|The sequence of interactions between the participants in a use case.<br /><br /> See:<br /><br /> -   [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)<br />-   [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md)|  
 |Class diagram (UML)|The entities or types that participate in the use case.<br /><br /> See:<br /><br /> -   [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)<br />-   [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)|  
   
-###  <a name="UnderstandActivities"></a> Understand the Business Process: Activity Diagrams  
+### <a name="UnderstandActivities"></a> Understand the Business Process: Activity Diagrams  
  Activity diagrams describe the flow of steps in a business process and provide a simple way to communicate workflow. A development project can have multiple activity diagrams. Usually, an activity encompasses all actions that result from one external action, such as ordering a meal, updating a menu, or adding a new restaurant to the business. An activity might also describe the details of a complex action.  
   
  Lucerne updates the following activity diagram to show that Lucerne processes the payment and pays the restaurant. They replace the Dinner Now Payment System with the Lucerne Payment System as highlighted:  
@@ -474,9 +474,9 @@ Make sure that your software system meets users' needs by using the visualizatio
   
  See:  
   
--   [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md)  
+- [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md)  
   
--   [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md)  
+- [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md)  
   
 #### Drawing an Activity Diagram  
  An activity diagram has the following major features:  
@@ -513,7 +513,7 @@ Make sure that your software system meets users' needs by using the visualizatio
 |Use case diagram|Summarize the activities that each actor performs.<br /><br /> See:<br /><br /> -   [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)<br />-   [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md)|  
 |Component diagram|Visualize the system as a collection of reusable parts that provide or consume behavior through a well-defined set of interfaces.<br /><br /> See:<br /><br /> -   [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)<br />-   [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams-guidelines.md)|  
   
-###  <a name="DescribeComponents"></a> Describe the System Structure: Component Diagrams  
+### <a name="DescribeComponents"></a> Describe the System Structure: Component Diagrams  
  Component diagrams describe a system as a collection of separable parts that provide or consume behavior through a well-defined set of interfaces. The parts can be on any scale and can connect in any manner.  
   
  To help Lucerne and Dinner Now visualize and discuss the system's components and their interfaces, they create the following component diagrams:  
@@ -576,9 +576,9 @@ Make sure that your software system meets users' needs by using the visualizatio
 #### Summary: Strengths of Component Diagrams  
  Component diagrams help you visualize:  
   
--   The system as a collection of separable parts regardless of their implementation language or style.  
+- The system as a collection of separable parts regardless of their implementation language or style.  
   
--   Components with well-defined interfaces, making the design easier to understand and update when the requirements change.  
+- Components with well-defined interfaces, making the design easier to understand and update when the requirements change.  
   
 #### Relationship to Other Diagrams  
   
@@ -590,7 +590,7 @@ Make sure that your software system meets users' needs by using the visualizatio
 |Layer diagram|Describe the logical architecture of the system as it relates to components. Use layer validation to make sure that the code stays consistent with the design.<br /><br /> See:<br /><br /> -   [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />-   [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md)<br />-   [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br />-   [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)|  
 |Activity diagram|Visualize the internal processing that components perform in response to incoming messages.<br /><br /> See:<br /><br /> -   [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md)<br />-   [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md)|  
   
-###  <a name="VisualizeCode"></a> Visualize Existing Code: Code Maps  
+### <a name="VisualizeCode"></a> Visualize Existing Code: Code Maps  
  Code maps show the current organization and relationships in the code. Items are represented by *nodes* on the map, and relationships are represented by *links*. Code maps can help you perform the following kinds of tasks:  
   
 - Explore unfamiliar code.  
@@ -631,26 +631,26 @@ Make sure that your software system meets users' needs by using the visualizatio
   
 #### Creating a Code Map  
   
--   For a quick overview of source code, follow these steps to generate a code map:  
+- For a quick overview of source code, follow these steps to generate a code map:  
   
      On the **Architecture** menu, click **Generate Code Map For Solution**.  
   
      For a quick overview of compiled code, create a blank code map, and then drag assembly files or binary files to the map surface.  
   
--   To explore specific code or solution items, use Solution Explorer to select items and relationships that you want to visualize. You can then either generate a new map or add selected items to an existing map. See [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md).  
+- To explore specific code or solution items, use Solution Explorer to select items and relationships that you want to visualize. You can then either generate a new map or add selected items to an existing map. See [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md).  
   
--   To help you explore the map, rearrange the layout so that it suits the kinds of tasks that you want to perform.  
+- To help you explore the map, rearrange the layout so that it suits the kinds of tasks that you want to perform.  
   
      For example, to visualize layering in the code, select a tree layout. See [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).  
   
 #### Summary: Strengths of Code Maps  
  Code maps help you:  
   
--   Learn about the organization and relationships in existing code.  
+- Learn about the organization and relationships in existing code.  
   
--   Identify areas that might be affected by a proposed change.  
+- Identify areas that might be affected by a proposed change.  
   
--   Find areas of complexity, patterns, layers, or other areas that you could improve to make the code easier to maintain, change, and reuse.  
+- Find areas of complexity, patterns, layers, or other areas that you could improve to make the code easier to maintain, change, and reuse.  
   
 #### Relationship to Other Diagrams  
   
@@ -661,7 +661,7 @@ Make sure that your software system meets users' needs by using the visualizatio
 |Class diagram (UML)|Classes, their attributes and operations, and their relationships.<br /><br /> To help you identify these elements, create a UML class diagram that shows those elements.<br /><br /> See:<br /><br /> -   [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)<br />-   [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)|  
 |Class diagram (code-based)|Existing classes in code for a specific project.<br /><br /> To visualize and modify an existing class in code, use Class Designer.<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md).|  
   
-###  <a name="DescribeSequence"></a> Describe the Interactions: Sequence Diagrams  
+### <a name="DescribeSequence"></a> Describe the Interactions: Sequence Diagrams  
  Sequence diagrams describe a series of interactions between parts of a system. The parts can be of any scale. For example, they can range from individual objects in a program to large subsystems or external actors. The interactions can be of any scale and type. For example, they can range from individual messages to extended transactions and can be function calls or Web service messages.  
   
  To help Lucerne and Dinner Now describe and discuss the steps in the Process Payment use case, they create the following sequence diagram from the component diagram. The lifelines mirror the Dinner Now Web Site component and its parts. The messages that appear between lifelines follow the connections on the component diagrams:  
@@ -676,11 +676,11 @@ Make sure that your software system meets users' needs by using the visualizatio
   
  See:  
   
--   [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)  
+- [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)  
   
--   [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md)  
+- [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md)  
   
--   [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)  
+- [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)  
   
 #### Drawing a Sequence Diagram  
  A sequence diagram has the following major features:  
@@ -704,9 +704,9 @@ Make sure that your software system meets users' needs by using the visualizatio
 #### Summary: Strengths of Sequence Diagrams  
  Sequence diagrams help you visualize:  
   
--   The flow of control that transfers between actors or objects during the execution of a use case.  
+- The flow of control that transfers between actors or objects during the execution of a use case.  
   
--   The implementation of a method call or message.  
+- The implementation of a method call or message.  
   
 #### Relationship to Other Diagrams  
   
@@ -716,7 +716,7 @@ Make sure that your software system meets users' needs by using the visualizatio
 |Component diagram|Describe the components that lifelines represent and the interfaces that provide and consume the behavior represented by messages.<br /><br /> To create a lifeline from a component diagram, right-click the component, and then click **Create Lifeline**.<br /><br /> See:<br /><br /> -   [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)<br />-   [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams-guidelines.md)|  
 |Use case diagram|Summarize the interactions between users and components on a sequence diagram as a use case, which represents a user's goal.<br /><br /> See:<br /><br /> -   [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)<br />-   [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md)|  
   
-###  <a name="DefineClasses"></a> Define a Glossary of Types: Class Diagrams  
+### <a name="DefineClasses"></a> Define a Glossary of Types: Class Diagrams  
  Class diagrams define the entities, terms, or concepts that participate in the system and their relationships with one another. For example, you can use these diagrams during development to describe the attributes and operations for each class, regardless of their implementation language or style.  
   
  To help Lucerne describe and discuss the entities that participate in the Process Payment use case, they draw the following class diagram:  
@@ -735,20 +735,20 @@ Make sure that your software system meets users' needs by using the visualizatio
   
  See:  
   
--   [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)  
+- [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)  
   
--   [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)  
+- [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)  
   
 #### Drawing a Class Diagram  
  A class diagram has the following major features:  
   
 - Types such as classes, interfaces, and enumerations:  
   
-  -   A *class* is the definition of objects that share specific structural or behavioral characteristics.  
+  - A *class* is the definition of objects that share specific structural or behavioral characteristics.  
   
-  -   An *interface* defines a part of the externally visible behavior of an object.  
+  - An *interface* defines a part of the externally visible behavior of an object.  
   
-  -   An *enumeration* is a classifier that contains a list of literal values.  
+  - An *enumeration* is a classifier that contains a list of literal values.  
   
 - *Attributes* are values of a certain type that describe each instance of a *classifier*. A classifier is a general name for types, components, use cases, and even actors.  
   
@@ -783,11 +783,11 @@ Make sure that your software system meets users' needs by using the visualizatio
 #### Summary: Strengths of Class Diagrams  
  Class diagrams help you define:  
   
--   A common glossary of terms to use when discussing the users' needs and the entities that participate in the system. See [Model user requirements](../modeling/model-user-requirements.md).  
+- A common glossary of terms to use when discussing the users' needs and the entities that participate in the system. See [Model user requirements](../modeling/model-user-requirements.md).  
   
--   Types that are used by parts of the system, such as components, regardless of their implementation. See [Model your app's architecture](../modeling/model-your-app-s-architecture.md).  
+- Types that are used by parts of the system, such as components, regardless of their implementation. See [Model your app's architecture](../modeling/model-your-app-s-architecture.md).  
   
--   Relationships, such as dependencies, between types. For example, you can show that one type can be associated with multiple instances of another type.  
+- Relationships, such as dependencies, between types. For example, you can show that one type can be associated with multiple instances of another type.  
   
 #### Relationship to Other Diagrams  
   
@@ -800,7 +800,7 @@ Make sure that your software system meets users' needs by using the visualizatio
 |Sequence diagram|Define the types of lifelines and the operations, parameters, and return values for all messages that the lifeline can receive.<br /><br /> To create a lifeline from a type on a class diagram, right-click the type, and then click **Create Lifeline**.<br /><br /> See:<br /><br /> -   [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)<br />-   [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md)|  
 |Code map|Visualize the organization and relationships in existing code.<br /><br /> To identify classes, their relationships, and their methods, create a code map that shows those elements.<br /><br /> See:<br /><br /> -   [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)|  
   
-###  <a name="DescribeLayers"></a> Describe the Logical Architecture: Layer Diagrams  
+### <a name="DescribeLayers"></a> Describe the Logical Architecture: Layer Diagrams  
  Layer diagrams describe the logical architecture of a system by organizing the artifacts in your solution into abstract groups, or *layers*. Artifacts can be many things, such as namespaces, projects, classes, methods, and so on. Layers represent and describe the roles or tasks that the artifacts perform in the system. You can also include layer validation in your build and check-in operations to make sure that the code stays consistent with its design.  
   
  To keep the code consistent with the design, Dinner Now and Lucerne use the following layer diagram to validate their code as it evolves:  
@@ -861,9 +861,9 @@ Make sure that your software system meets users' needs by using the visualizatio
 #### Summary: Strengths of Layer Diagrams  
  Layer diagrams help you:  
   
--   Describe the logical architecture of a system according to the functionality of its artifacts.  
+- Describe the logical architecture of a system according to the functionality of its artifacts.  
   
--   Make sure that code under development conforms to the specified design.  
+- Make sure that code under development conforms to the specified design.  
   
 #### Relationship to Other Diagrams  
   
@@ -882,6 +882,6 @@ Make sure that your software system meets users' needs by using the visualizatio
  [Visualize code](../modeling/visualize-code.md)   
  [Create models for your app](../modeling/create-models-for-your-app.md)   
  [Use models in your development process](../modeling/use-models-in-your-development-process.md)   
- [Use models in Agile development](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)   
+ [Use models in Agile development](https://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)   
  [Validate your system during development](../modeling/validate-your-system-during-development.md)   
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)

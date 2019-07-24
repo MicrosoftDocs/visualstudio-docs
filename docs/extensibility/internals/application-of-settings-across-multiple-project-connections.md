@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "source control plug-ins, application of settings"
 ms.assetid: 2116d3d0-c46c-4d0a-b482-08a178584f46
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -22,10 +22,9 @@ A source control plug-in built using the Source Control Plug-in API Version 1.2,
 ## New functions
 The following new functions support the batch operation:
 
--   [SccBeginBatch](../../extensibility/sccbeginbatch-function.md)
+- [SccBeginBatch](../../extensibility/sccbeginbatch-function.md)
 
--   [SccEndBatch](../../extensibility/sccendbatch-function.md)
-
+- [SccEndBatch](../../extensibility/sccendbatch-function.md)
 
 The `SCCBeginBatch` function starts a group of source control operations. The `SccEndBatch` function closes the group. The groups may not be nested.
 

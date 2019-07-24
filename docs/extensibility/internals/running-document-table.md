@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "running document table (RDT), edit locks"
   - "document data objects, running document table"
 ms.assetid: bbec74f3-dd8e-48ad-99c1-2df503c15f5a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -46,9 +46,9 @@ The IDE maintains the list of all currently open documents in an internal struct
 
  The IDE also uses the RDT to resurface (bring to the front) an open document, if a user requests that document. For more information, see [Displaying Files By Using the Open File Command](../../extensibility/internals/displaying-files-by-using-the-open-file-command.md). To determine whether a file is open in the RDT, do one the following.
 
--   Query for the document moniker (that is, the full document path) to find out if the item is open.
+- Query for the document moniker (that is, the full document path) to find out if the item is open.
 
--   Use the hierarchy or item ID to ask the project system for the full document path, and then look the item up in the RDT.
+- Use the hierarchy or item ID to ask the project system for the full document path, and then look the item up in the RDT.
 
 ## See Also
 - [RDT_ReadLock Usage](../../extensibility/internals/rdt-readlock-usage.md)

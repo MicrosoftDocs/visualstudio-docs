@@ -17,7 +17,6 @@ manager: jillfra
 # /Runexit (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Compiles and runs the specified project or solution, and then closes the integrated development environment (IDE).  
   
 ## Syntax  
@@ -36,9 +35,9 @@ devenv /runexit {SolutionName|ProjectName}
 ## Remarks  
  Compiles and runs the specified project or solution according to the settings specified for the active solution configuration. This switch minimizes the IDE while the project or solution is run, and it closes the IDE after the project or solution has completed running.  
   
--   Enclose strings that include spaces in double quotation marks.  
+- Enclose strings that include spaces in double quotation marks.  
   
--   Summary information, including errors, can be displayed in the **Command** window, or in any log file specified with the `/out` switch.  
+- Summary information, including errors, can be displayed in the **Command** window, or in any log file specified with the `/out` switch.  
   
 ## Example  
  This example runs the solution `MySolution` in a minimized IDE using the active deployment configuration, and then closes the IDE.  

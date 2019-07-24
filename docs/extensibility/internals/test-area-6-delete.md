@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], deleting items"
   - "source control plug-ins, deleting items"
 ms.assetid: 6f2e872c-5ba2-4303-9f50-a90cef9a6225
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -30,13 +30,13 @@ This source-control plug-in test area covers delete actions.
 ## Expected Behavior
  The expected behavior for the test cases in the delete test area is:
 
--   Deleted item is no longer visible within **Solution Explorer**.
+- Deleted item is no longer visible within **Solution Explorer**.
 
--   The parent of the deleted project or item is checked out as needed (possibly with a prompt.)
+- The parent of the deleted project or item is checked out as needed (possibly with a prompt.)
 
--   After you delete a checked out or added item, it does NOT appear in the **Pending Checkins** window.
+- After you delete a checked out or added item, it does NOT appear in the **Pending Checkins** window.
 
--   The item still exists within the source control store, even after the deletion, and must be manually purged.
+- The item still exists within the source control store, even after the deletion, and must be manually purged.
 
 |Action|Test Steps|Expected Results to Verify|
 |------------|----------------|--------------------------------|

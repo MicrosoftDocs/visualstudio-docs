@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_RESOLUTION_DATA structure"
 ms.assetid: 9e0b9000-6a84-47b9-b07a-367a75764389
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # BP_RESOLUTION_DATA
 Describes the result of binding a data breakpoint.
@@ -37,16 +40,16 @@ public struct BP_RESOLUTION_DATA {
 ```
 
 ## Members
-`bstrDataExpr`
+`bstrDataExpr`\
 The data expression that has been bound.
 
-`bstrFunc`
+`bstrFunc`\
 The name of the function the data breakpoint has bound in (if any).
 
-`bstrImage`
+`bstrImage`\
 The name of the module (MyModule.dll, for example) that the data breakpoint has bound in.
 
-`dwFlags`
+`dwFlags`\
 A value from the [BP_RES_DATA_FLAGS](../../../extensibility/debugger/reference/bp-res-data-flags.md) enumeration, describing how the data breakpoint is implemented.
 
 ## Remarks
@@ -59,7 +62,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [BP_RESOLUTION_LOCATION](../../../extensibility/debugger/reference/bp-resolution-location.md)
 - [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md)

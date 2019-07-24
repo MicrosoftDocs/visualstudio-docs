@@ -27,17 +27,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
 
 ## Create a new project
 
-In this step, you create a Visual Basic or Visual C# project.
-
-1. In Visual Studio, on the **File** menu, select **New** > **Project**.
-
-2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
-
-3. In the middle pane, select the **Windows Forms App** project type.
-
-4. Name the project **ReadingXML**, and then choose **OK**.
-
-   The **ReadingXML** project is created and added to **Solution Explorer**.
+Create a new **Windows Forms App** project for either C# or Visual Basic. Name the project **ReadingXML**.
 
 ## Generate the XML file to be read into the dataset
 
@@ -117,29 +107,29 @@ Because this walkthrough focuses on reading XML data into a dataset, the content
 
 The user interface for this application consists of the following:
 
--   A <xref:System.Windows.Forms.DataGridView> control that displays the contents of the XML file as data.
+- A <xref:System.Windows.Forms.DataGridView> control that displays the contents of the XML file as data.
 
--   A <xref:System.Windows.Forms.TextBox> control that displays the XML schema for the XML file.
+- A <xref:System.Windows.Forms.TextBox> control that displays the XML schema for the XML file.
 
--   Two <xref:System.Windows.Forms.Button> controls.
+- Two <xref:System.Windows.Forms.Button> controls.
 
-    -   One button reads the XML file into the dataset and displays it in the <xref:System.Windows.Forms.DataGridView> control.
+  - One button reads the XML file into the dataset and displays it in the <xref:System.Windows.Forms.DataGridView> control.
 
-    -   A second button extracts the schema from the dataset, and through a <xref:System.IO.StringWriter> displays it in the <xref:System.Windows.Forms.TextBox> control.
+  - A second button extracts the schema from the dataset, and through a <xref:System.IO.StringWriter> displays it in the <xref:System.Windows.Forms.TextBox> control.
 
 ### To add controls to the form
 
-1.  Open `Form1` in design view.
+1. Open `Form1` in design view.
 
-2.  From the **Toolbox**, drag the following controls onto the form:
+2. From the **Toolbox**, drag the following controls onto the form:
 
-    -   One <xref:System.Windows.Forms.DataGridView> control
+    - One <xref:System.Windows.Forms.DataGridView> control
 
-    -   One <xref:System.Windows.Forms.TextBox> control
+    - One <xref:System.Windows.Forms.TextBox> control
 
-    -   Two <xref:System.Windows.Forms.Button> controls
+    - Two <xref:System.Windows.Forms.Button> controls
 
-3.  Set the following properties:
+3. Set the following properties:
 
     |Control|Property|Setting|
     |-------------|--------------|-------------|
@@ -154,44 +144,44 @@ The user interface for this application consists of the following:
 
 In this step, you create a new dataset named `authors`. For more information about datasets, see [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md).
 
-1.  In **Solution Explorer**, select the source file for **Form1**, and then select the **View Designer** button on the **Solution Explorer** toolbar.
+1. In **Solution Explorer**, select the source file for **Form1**, and then select the **View Designer** button on the **Solution Explorer** toolbar.
 
-2.  From the [Toolbox, Data tab](../ide/reference/toolbox-data-tab.md), drag a **DataSet** onto **Form1**.
+2. From the [Toolbox, Data tab](../ide/reference/toolbox-data-tab.md), drag a **DataSet** onto **Form1**.
 
-3.  In the **Add Dataset** dialog box, select **Untyped dataset**, and then select **OK**.
+3. In the **Add Dataset** dialog box, select **Untyped dataset**, and then select **OK**.
 
      **DataSet1** is added to the component tray.
 
-4.  In the **Properties** window, set the **Name** and <xref:System.Data.DataSet.DataSetName%2A> properties for`AuthorsDataSet`.
+4. In the **Properties** window, set the **Name** and <xref:System.Data.DataSet.DataSetName%2A> properties for`AuthorsDataSet`.
 
 ## Create the event handler to read the XML file into the dataset
 
 The **Read XML** button reads the XML file into the dataset. It then sets properties on the <xref:System.Windows.Forms.DataGridView> control that bind it to the dataset.
 
-1.  In **Solution Explorer**, select **Form1**, and then select the **View Designer** button on the **Solution Explorer** toolbar.
+1. In **Solution Explorer**, select **Form1**, and then select the **View Designer** button on the **Solution Explorer** toolbar.
 
-2.  Select the **Read XML** button.
+2. Select the **Read XML** button.
 
      The **Code Editor** opens at the `ReadXmlButton_Click` event handler.
 
-3.  Type the following code into the `ReadXmlButton_Click` event handler:
+3. Type the following code into the `ReadXmlButton_Click` event handler:
 
      [!code-csharp[VbRaddataFillingAndExecuting#2](../data-tools/codesnippet/CSharp/read-xml-data-into-a-dataset_1.cs)]
      [!code-vb[VbRaddataFillingAndExecuting#2](../data-tools/codesnippet/VisualBasic/read-xml-data-into-a-dataset_1.vb)]
 
-4.  In the `ReadXMLButton_Click` event handler code, change the `filepath =` entry to the correct path.
+4. In the `ReadXMLButton_Click` event handler code, change the `filepath =` entry to the correct path.
 
 ## Create the event handler to display the schema in the textbox
 
 The **Show Schema** button creates a <xref:System.IO.StringWriter> object that's filled with the schema and is displayed in the <xref:System.Windows.Forms.TextBox>control.
 
-1.  In **Solution Explorer**, select **Form1**, and then select the **View Designer** button.
+1. In **Solution Explorer**, select **Form1**, and then select the **View Designer** button.
 
-2.  Select the **Show Schema** button.
+2. Select the **Show Schema** button.
 
      The **Code Editor** opens at the `ShowSchemaButton_Click` event handler.
 
-3.  Paste the following code into the `ShowSchemaButton_Click` event handler.
+3. Paste the following code into the `ShowSchemaButton_Click` event handler.
 
      [!code-csharp[VbRaddataFillingAndExecuting#3](../data-tools/codesnippet/CSharp/read-xml-data-into-a-dataset_2.cs)]
      [!code-vb[VbRaddataFillingAndExecuting#3](../data-tools/codesnippet/VisualBasic/read-xml-data-into-a-dataset_2.vb)]
@@ -200,13 +190,13 @@ The **Show Schema** button creates a <xref:System.IO.StringWriter> object that's
 
 You can now test the form to make sure it behaves as expected.
 
-1.  Select **F5** to run the application.
+1. Select **F5** to run the application.
 
-2.  Select the **Read XML** button.
+2. Select the **Read XML** button.
 
      The DataGridView displays the contents of the XML file.
 
-3.  Select the **Show Schema** button.
+3. Select the **Show Schema** button.
 
      The text box displays the XML schema for the XML file.
 
@@ -214,9 +204,9 @@ You can now test the form to make sure it behaves as expected.
 
 This walkthrough teaches you the basics of reading an XML file into a dataset, as well as creating a schema based on the contents of the XML file. Here are some tasks that you might do next:
 
--   Edit the data in the dataset and write it back out as XML. For more information, see <xref:System.Data.DataSet.WriteXml%2A>.
+- Edit the data in the dataset and write it back out as XML. For more information, see <xref:System.Data.DataSet.WriteXml%2A>.
 
--   Edit the data in the dataset and write it out to a database.
+- Edit the data in the dataset and write it out to a database.
 
 ## See also
 

@@ -1,5 +1,5 @@
 ---
-title: "Using the DebuggerDisplay Attribute | Microsoft Docs"
+title: "Display custom info using DebuggerDisplay | Microsoft Docs"
 ms.date: "01/09/2019"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -13,7 +13,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Using the DebuggerDisplay Attribute (C#, Visual Basic, F#, C++/CLI)
+# Tell the debugger what to show using the DebuggerDisplay Attribute (C#, Visual Basic, F#, C++/CLI)
 The <xref:System.Diagnostics.DebuggerDisplayAttribute> controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types, delegates, properties, fields, and assemblies.
 
 The `DebuggerDisplay` attribute has a single argument, which is a string to be displayed in the value column for instances of the type. This string can contain braces (`{` and `}`). Text within a pair of braces is evaluated as a field, property or method.
@@ -83,6 +83,7 @@ public sealed class MyClass
     }
 }
 ```
+
 The ",nq" suffix tells the expression evaluator to remove the quotes when displaying the final value (nq = no quotes).
 
 ## Example
@@ -141,7 +142,7 @@ class MyHashtable
         hashtable = new Hashtable();
     }
 
-    private string DebuggerDisplay { get { return "Count = " + hashtable.Count); } }
+    private string DebuggerDisplay { get { return "Count = " + hashtable.Count; } }
 
     private class HashtableDebugView
     {

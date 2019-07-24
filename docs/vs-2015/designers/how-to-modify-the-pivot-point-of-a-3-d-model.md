@@ -17,7 +17,7 @@ This document demonstrates how to use the Model Editor to modify the *pivot poin
   
  This document demonstrates this activity:  
   
--   Modifying the pivot point of an object  
+- Modifying the pivot point of an object  
   
 ## Modifying the pivot point of a 3-D model  
  You can redefine the origin of a 3-D model by modifying its pivot point.  
@@ -37,7 +37,7 @@ This document demonstrates how to use the Model Editor to modify the *pivot poin
     You can also specify the pivot point by using the **Pivot Translation** property in the **Properties** window.  
   
    > [!TIP]
-   >  You can view the effect of the new pivot point by rotating the object. To rotate it, use the **Rotate** tool or modify the **Rotation** property.  
+   > You can view the effect of the new pivot point by rotating the object. To rotate it, use the **Rotate** tool or modify the **Rotation** property.  
   
    Here's a model that has a modified pivot point:  
   

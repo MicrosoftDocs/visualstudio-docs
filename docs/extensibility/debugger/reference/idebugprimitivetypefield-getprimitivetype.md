@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "GetPrimitiveType"
   - "IDebugPrimitiveTypeField::GetPrimitiveType"
 ms.assetid: a186c922-bbfe-478c-a744-b21eb4672d8f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPrimitiveTypeField::GetPrimitiveType
 Retrieves the primitive type that is associated with this field.
@@ -29,13 +32,12 @@ int GetPrimitiveType (
 );
 ```
 
-#### Parameters
- `pdwType`
-
- [out] Value from the [CorElementType Enumeration](/dotnet/framework/unmanaged-api/metadata/corelementtype-enumeration) that represents the primitive type.
+## Parameters
+`pdwType`\
+[out] Value from the [CorElementType Enumeration](/dotnet/framework/unmanaged-api/metadata/corelementtype-enumeration) that represents the primitive type.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE`.
 
-## See Also
+## See also
 - [IDebugPrimitiveTypeField](../../../extensibility/debugger/reference/idebugprimitivetypefield.md)

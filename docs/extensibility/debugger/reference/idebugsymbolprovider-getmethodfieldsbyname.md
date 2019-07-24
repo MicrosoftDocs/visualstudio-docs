@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugSymbolProvider::GetMethodFieldsByName method"
 ms.assetid: 1f781320-81ef-4037-b068-f1864b271258
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugSymbolProvider::GetMethodFieldsByName
 This method gets the field representing a fully qualified method name.
@@ -34,18 +37,15 @@ int GetMethodFieldsByName(
 );
 ```
 
-#### Parameters
- `pszFullName`
+## Parameters
+`pszFullName`\
+[in] The method name.
 
- [in] The method name.
+`nameMatch`\
+[in] Selects the type of match, for example, case-sensitive.
 
- `nameMatch`
-
- [in] Selects the type of match, for example, case-sensitive.
-
- `ppEnum`
-
- [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) enumerator for the fields associated with this method.
+`ppEnum`\
+[out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) enumerator for the fields associated with this method.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -53,6 +53,6 @@ int GetMethodFieldsByName(
 ## Remarks
  A method can be associated with multiple fields if it is overloaded, for example.
 
-## See Also
+## See also
 - [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
 - [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)

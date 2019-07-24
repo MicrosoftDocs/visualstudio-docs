@@ -17,7 +17,6 @@ manager: jillfra
 # /Setup (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Forces [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] to merge the resource metadata that describes menus, toolbars, and command groups, from all available VSPackages.  
   
 ## Syntax  

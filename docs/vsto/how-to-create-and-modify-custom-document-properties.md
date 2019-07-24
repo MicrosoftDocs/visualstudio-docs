@@ -24,8 +24,6 @@ ms.workload:
 
  The following example demonstrates how to add a custom property in a document-level customization for Excel and assign it a value.
 
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Access and manipulate custom document properties in Microsoft Word?](http://go.microsoft.com/fwlink/?LinkId=136772).
-
 ## Example
  [!code-vb[Trin_VstcoreProgramming#6](../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingExcelVB/ThisWorkbook.vb#6)]
  [!code-csharp[Trin_VstcoreProgramming#6](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingExcelCS/ThisWorkbook.cs#6)]

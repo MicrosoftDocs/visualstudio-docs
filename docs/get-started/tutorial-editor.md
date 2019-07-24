@@ -16,8 +16,19 @@ ms.workload:
 
 In this 10-minute introduction to the code editor in Visual Studio, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
 
+::: moniker range="vs-2017"
+
 > [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+> [!TIP]
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+
+::: moniker-end
 
 This article assumes you're already familiar with a programming language. If you aren't, we suggest you look at one of the programming quickstarts first, such as create a web app with [Python](../ide/quickstart-python.md) or [C#](../get-started/csharp/tutorial-aspnet-core.md), or create a console app with [Visual Basic](../ide/quickstart-visual-basic-console.md) or [C++](../ide/getting-started-with-cpp-in-visual-studio.md).
 
@@ -25,9 +36,21 @@ This article assumes you're already familiar with a programming language. If you
 
 Start by creating a new file and adding some code to it.
 
-1. Open Visual Studio, and from the **File** menu on the menu bar, choose **New** > **File**.
+::: moniker range="vs-2017"
 
-1. In the **New File** dialog box, under the **General** category, choose **Visual C# Class**, and then choose **Open**.
+1. Open Visual Studio.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Open Visual Studio. Press **Esc** or click **Continue without code** on the start window to open the development environment.
+
+::: moniker-end
+
+2. From the **File** menu on the menu bar, choose **New** > **File**.
+
+3. In the **New File** dialog box, under the **General** category, choose **Visual C# Class**, and then choose **Open**.
 
    A new file opens in the editor with the skeleton of a C# class. (Notice that we don't have to create a full Visual Studio project to gain some of the benefits that the code editor offers; all you need is a code file!)
 

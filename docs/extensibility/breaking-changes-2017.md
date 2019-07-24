@@ -4,12 +4,12 @@ titleSuffix: ""
 ms.date: "11/09/2016"
 ms.topic: "conceptual"
 ms.assetid: 54d5af60-0b44-4ae1-aa57-45aa03f89f3d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
-monikerRange: vs-2017
+
 ---
 # Changes in Visual Studio 2017 extensibility
 
@@ -58,35 +58,35 @@ Most Visual Studio core assemblies are no longer installed into the GAC. The fol
 
 * Assemblies that were only installed into the GAC:
 
-   These assemblies are now installed under <em>[INSTALLDIR]\Common7\IDE\*, *[INSTALLDIR]\Common7\IDE\PublicAssemblies</em> or *[INSTALLDIR]\Common7\IDE\PrivateAssemblies*. These folders are part of the Visual Studio process's probing paths.
+  These assemblies are now installed under <em>[INSTALLDIR]\Common7\IDE\*, *[INSTALLDIR]\Common7\IDE\PublicAssemblies</em> or *[INSTALLDIR]\Common7\IDE\PrivateAssemblies*. These folders are part of the Visual Studio process's probing paths.
 
 * Assemblies that were installed into a non-probing path and into the GAC:
 
-   * The copy in the GAC was removed from setup.
-   * A *.pkgdef* file was added to specify a code base entry for the assembly.
+  * The copy in the GAC was removed from setup.
+  * A *.pkgdef* file was added to specify a code base entry for the assembly.
 
-      For example:
+    For example:
 
-      ```xml
-      [$RootKey$\RuntimeConfiguration\dependentAssembly\codeBase\{UniqueGUID}]
-      "name"="AssemblyName" "codeBase"="$PackageFolder$\AssemblyName.dll"
-      "publicKeyToken"="Public Key Token"
-      "culture"="neutral"
-      "version"=15.0.0.0
-      ```
+    ```
+    [$RootKey$\RuntimeConfiguration\dependentAssembly\codeBase\{UniqueGUID}]
+    "name"="AssemblyName" "codeBase"="$PackageFolder$\AssemblyName.dll"
+    "publicKeyToken"="Public Key Token"
+    "culture"="neutral"
+    "version"=15.0.0.0
+    ```
 
-      At runtime, the Visual Studio pkgdef subsystem merges these entries into the Visual Studio process's runtime configuration file (under *[VSAPPDATA]\devenv.exe.config*) as [`<codeBase>`](/dotnet/framework/configure-apps/file-schema/runtime/codebase-element) elements. This is the recommended way to let the Visual Studio process find your assembly, because it avoids searching through probing paths.
+    At runtime, the Visual Studio pkgdef subsystem merges these entries into the Visual Studio process's runtime configuration file (under *[VSAPPDATA]\devenv.exe.config*) as [`<codeBase>`](/dotnet/framework/configure-apps/file-schema/runtime/codebase-element) elements. This is the recommended way to let the Visual Studio process find your assembly, because it avoids searching through probing paths.
 
 ### Reacting to this breaking change
 
 * If your extension is running within the Visual Studio process:
 
-   * Your code will be able to find Visual Studio core assemblies.
-   * Consider using a *.pkgdef* file to specify a path to your assemblies if necessary.
+  * Your code will be able to find Visual Studio core assemblies.
+  * Consider using a *.pkgdef* file to specify a path to your assemblies if necessary.
 
 * If your extension is running outside the Visual Studio process:
 
-   Consider looking for Visual Studio core assemblies under <em>[INSTALLDIR]\Common7\IDE\*, *[INSTALLDIR]\Common7\IDE\PublicAssemblies</em> or *[INSTALLDIR]\Common7\IDE\PrivateAssemblies* using configuration file or assembly resolver.
+  Consider looking for Visual Studio core assemblies under <em>[INSTALLDIR]\Common7\IDE\*, *[INSTALLDIR]\Common7\IDE\PublicAssemblies</em> or *[INSTALLDIR]\Common7\IDE\PrivateAssemblies* using configuration file or assembly resolver.
 
 ## Change: Reduce registry impact
 

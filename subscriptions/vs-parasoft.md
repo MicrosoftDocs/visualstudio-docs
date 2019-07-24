@@ -6,13 +6,11 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn how to activate the Parasoft Virtualize/SOA Test Professional subscription included in your Visual Studio subscription.
-searchscope: VS Subscription
 ---
 
 # Parasoft Virtualize/SOAtest Professional Desktop in Visual Studio subscriptions
 
 Test earlier and more often.  Simulate and test the behavior of unavailable evolving applications and systems.  Your benefit includes a free six-month subscription.  At the end of your six-month subscription, you’ll qualify for a 25% discount on the price of an annual subscription.
-
 
 ## Activation steps
 
@@ -25,7 +23,6 @@ Test earlier and more often.  Simulate and test the behavior of unavailable evol
 3. You’ll be redirected to the Parasoft website, where you’ll create an account.  Just provide your contact information and click **Submit**.
    > [!div class="mx-imgBorder"]
    > ![Parasoft Benefit Create Account](_img/vs-parasoft/vs-parasoft-account-cropped.png)
-
 
 4. Once you’ve created your account, you’ll see a notification that you've been sent an email with download instructions.  (Remember to check your spam or junk mail folders if you don’t see the email in your inbox.)
 
@@ -73,19 +70,17 @@ Test earlier and more often.  Simulate and test the behavior of unavailable evol
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Not available                                                           |NA         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                                           |NA         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                                           |NA         |
-| Visual Studio Dev Essentials | NA  | Not available|NA |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
+||
 
 <sup>1</sup>  *Includes: Microsoft Partner Network (Enterprise).  Excludes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD).  MCT Software & Services.*
-
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
-
 ## Support resources
--  Need help with Parasoft products?  Check out these resources:
-    - Technical Support:  https://www.parasoft.com/support/
-    - Parasoft Resource Center:  https://www.parasoft.com/resources/
--  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+- Need help with Parasoft products?  Check out these resources:
+  - Technical Support:  https://www.parasoft.com/support/
+  - Parasoft Resource Center:  https://www.parasoft.com/resources/
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

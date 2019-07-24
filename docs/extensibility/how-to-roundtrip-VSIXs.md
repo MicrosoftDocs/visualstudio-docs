@@ -4,7 +4,7 @@ ms.date: "06/25/2017"
 ms.topic: "conceptual"
 ms.assetid: 2d6cf53c-011e-4c9e-9935-417edca8c486
 author: "willbrown"
-ms.author: gregvanl
+ms.author: madsk
 manager: "justinclareburt"
 ms.workload:
   - "willbrown"
@@ -51,8 +51,8 @@ If your project contains a *project.json* file:
 * Take a note of the references in *project.json*.
 * From the **Solution Explorer**, delete the *project.json* file from the project. This deletes the *project.json* file and removes it from the project.
 * Add the NuGet references back in to the project:
-    * Right-click on the **Solution** and choose **Manage NuGet Packages for Solution**.
-    * Visual Studio automatically creates the *packages.config* file for you.
+  * Right-click on the **Solution** and choose **Manage NuGet Packages for Solution**.
+  * Visual Studio automatically creates the *packages.config* file for you.
 
 > [!NOTE]
 > If your project contained EnvDTE packages, they may need to be added by right clicking on **References** selecting **Add reference** and adding the appropriate reference. Using NuGet packages may create errors while trying to build your project.
@@ -89,7 +89,7 @@ We need to tell Visual Studio what versions to target for building a VSIX. Typic
 
 ### 2. Adding Prerequisites to the *extension.vsixmanifest* file
 
-Prerequisites are a new feature with Visual Studio 2017. In this case, we need the Visual Studio Core Editor as a prerequisite. Since the Visual Studio 2015 VSIX designer does not handle the new `Prerequisites` section, you'll need to edit this part manually in the XML code. Alternatively, you can open Visual Studio 2017 and use the updated manifest designer to insert the prerequisites.
+We need the Visual Studio Core Editor as a prerequisite. Open Visual Studio and use the updated manifest designer to insert the prerequisites.
 
 To do this manually:
 
@@ -106,7 +106,7 @@ To do this manually:
 * Save and close the file.
 
 > [!NOTE]
-> If you choose to accomplish this with the VSIX designer in Visual Studio 2017, you will need to manually edit the Prerequisite version to ensure it is compatible with all versions of Visual Studio 2017. This is because the designer will insert the minimum version as your current version of Visual Studio (for example, 15.0.26208.0). However, since other users may have an earlier version, you will want to manually edit this to 15.0.
+> You may need to manually edit the Prerequisite version to ensure it is compatible with all versions of Visual Studio 2017. This is because the designer will insert the minimum version as your current version of Visual Studio (for example, 15.0.26208.0). However, since other users may have an earlier version, you will want to manually edit this to 15.0.
 
 At this point, your manifest file should look something like this:
 

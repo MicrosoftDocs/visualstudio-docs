@@ -17,7 +17,6 @@ manager: jillfra
 # /ResetSettings (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Restores [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] default settings and automatically launches the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE. Optionally resets the settings to a specified .vssettings file.  
   
  The default settings are determined by the profile that was selected when [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] was first launched.  
@@ -45,5 +44,5 @@ Devenv.exe /ResetSettings "C:\My Files\MySettings.vssettings"
 ```  
   
 ## See Also  
- [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)   
+ [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)   
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)

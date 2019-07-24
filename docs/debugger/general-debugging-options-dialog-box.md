@@ -55,7 +55,7 @@ Enables advanced features for debugging at the address level (the **Disassembly*
 Enables you to set filters on breakpoints so that they will affect only specific processes, threads, or computers.
 
 **Use the new Exception Helper**:
-Enables the Exception Helper (Visual Studio 2017) that replaces the exception assistant.
+Enables the Exception Helper that replaces the exception assistant. (Exception Helper is supported starting in Visual Studio 2017)
 
 > [!NOTE]
 > For managed code, this option was previously called **Enable the exception assistant** .
@@ -97,7 +97,7 @@ Tells the Visual Studio debugger to get source files from source servers that im
     Tells the Visual Studio debugger to download source files for *.pdb* files that contain Source Link information. For more information about Source Link, see the [Source link specification](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/source_link.md).
 
 > [!IMPORTANT]
->  Because Source Link will download files using http or https, make sure you trust the *.pdb* file.
+> Because Source Link will download files using http or https, make sure you trust the *.pdb* file.
 
 - **Fall back to Git Credential Manager authentication for all Source Link requests**:
     When Source Link support is enabled, and a Source Link request fails authentication, Visual Studio then calls the Git Credential Manager.
@@ -168,8 +168,8 @@ The Live Visual Tree and the Live Property Explore windows will appear when you 
 - **Show runtime tools in application**:
     Shows the **Live Visual Tree** commands in a toolbar on the main window of the XAML application that is being debugged. This option was introduced in Visual Studio 2015 Update 2.
 
-- **Enable XAML Edit and Continue**:
-    Allows you to use the Edit and Continue feature with XAML code.
+- **Enable XAML Hot Reload**:
+    Allows you to use the XAML hot reload feature with XAML code when your app is running. (This feature was previously called "XAML Edit and Continue")
 
 **Enable Diagnostic Tools while debugging**:
 The **Diagnostic Tools** window appears while you are debugging.
@@ -190,17 +190,22 @@ Enables the Edit and Continue functionality while debugging.
     Get warnings about stale code.
 
 **Show Run to Click button in editor while debugging**:
-When this option is selected, the [Run to Click](debugger-feature-tour.md#run-to-a-point-in-your-code-quickly-using-the-mouse) button will be shown while debugging.
+When this option is selected, the [Run to Click](../debugger/debugger-feature-tour.md#run-to-a-point-in-your-code-quickly-using-the-mouse) button will be shown while debugging.
 
 **Automatically close the console when debugging stops**:
 Tells Visual Studio to close the console at the end of a debugging session.
+
+::: moniker range=">= vs-2019" 
+**Enable fast expression evaluation (Managed only)**:
+Allows the debugger to attempt faster evaluation by simulating execution of simple properties and methods.
+::: moniker-end
 
 ## Options available in older versions of Visual Studio
 
 If you're using an older version of Visual Studio, some additional options might be present.
 
 **Enable the exception assistant**:
-For managed code, enables the exception assistant. In Visual Studio 2017, the Exception Helper replaced the exception assistant.
+For managed code, enables the exception assistant. Starting in Visual Studio 2017, the Exception Helper replaced the exception assistant.
 
 **Unwind the call stack on unhandled exceptions**:
 Causes the **Call Stack** window to roll back the call stack to the point before the unhandled exception occurred.
@@ -219,4 +224,4 @@ When this option is selected, the debugger uses the Visual Studio 2010 native de
 ## See also
 
 - [Debugging in Visual Studio](../debugger/index.md)
-- [Debugger feature tour](../debugger/debugger-feature-tour.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)

@@ -19,11 +19,11 @@ manager: jillfra
 The RegPkg.exe utility can be used to generate a registration manifest for a managed VSPackage. The manifest can be incorporated into a Windows Installer setup package. RegPkg also can generate a file that can be included in a setup source file based on the [Windows Installer XML Toolset](http://go.microsoft.com/fwlink/?LinkId=62238).  
   
 > [!IMPORTANT]
->  RegPkg generates path names that are specific to your development system, so every time you use RegPkg, you must edit the output to use appropriate Windows Installer formatted properties. For example, the InprocServer32 value should be **[SystemFolder]mscoree.dll** and paths should use **[#filekey]** and **[$componentkey]**. Adjusting the output in this way supports computers with Windows installed on a different drive or in a different directory, localized directory names, and paths that users can choose. For more information, see [Formatted](http://go.microsoft.com/fwlink/?LinkId=71120) in the Windows Installer SDK. If you follow RegPkg conventions for your development system paths—for example, file IDs of the form File_*filename*—you need make fewer changes.  
+> RegPkg generates path names that are specific to your development system, so every time you use RegPkg, you must edit the output to use appropriate Windows Installer formatted properties. For example, the InprocServer32 value should be **[SystemFolder]mscoree.dll** and paths should use **[#filekey]** and **[$componentkey]**. Adjusting the output in this way supports computers with Windows installed on a different drive or in a different directory, localized directory names, and paths that users can choose. For more information, see [Formatted](http://go.microsoft.com/fwlink/?LinkId=71120) in the Windows Installer SDK. If you follow RegPkg conventions for your development system paths—for example, file IDs of the form File_*filename*—you need make fewer changes.  
   
 ### To create a registration manifest  
   
--   Run RegPkg with the **/regfile** switch. Provide any other switches, the name of the output file, and the path of the VSPackage.  
+- Run RegPkg with the **/regfile** switch. Provide any other switches, the name of the output file, and the path of the VSPackage.  
   
      For example, at the command prompt, you would type something like the following:  
   
@@ -33,7 +33,7 @@ The RegPkg.exe utility can be used to generate a registration manifest for a man
   
 ### To view a registration manifest  
   
--   Open the registration manifest in any text editor.  
+- Open the registration manifest in any text editor.  
   
      The following example is the registration manifest that RegPkg creates for the IronPython language service:  
   
@@ -94,7 +94,7 @@ The RegPkg.exe utility can be used to generate a registration manifest for a man
   
 ### To create a Windows Installer XML Toolset include file  
   
--   Run RegPkg with the **/wixfile** switch. Provide any other switches, the name of the output file, and the path of the VSPackage.  
+- Run RegPkg with the **/wixfile** switch. Provide any other switches, the name of the output file, and the path of the VSPackage.  
   
      For example, at the command prompt, you would type something like the following:  
   
@@ -104,7 +104,7 @@ The RegPkg.exe utility can be used to generate a registration manifest for a man
   
 ### To view a Windows Installer XML Toolset include file  
   
--   Open the Windows Installer XML Toolset include file in any text editor.  
+- Open the Windows Installer XML Toolset include file in any text editor.  
   
      The following example is the include file that RegPkg creates for the IronPython language service:  
   
@@ -177,5 +177,5 @@ The RegPkg.exe utility can be used to generate a registration manifest for a man
     ```  
   
 ## See Also  
- [Registering VSPackages](http://msdn.microsoft.com/31e6050f-1457-4849-944a-a3c36b76f3dd)   
+ [Registering VSPackages](registering-vspackages.md)   
  [VSPackages](../../extensibility/internals/vspackages.md)

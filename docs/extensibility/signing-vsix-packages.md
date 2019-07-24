@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "vsix"
   - "packages"
 ms.assetid: e34cfc2c-361c-44f8-9cfe-9f2be229d248
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -21,7 +21,7 @@ Extension assemblies do not need to be signed before they can run in Visual Stud
  If you want to secure your extension and make sure it hasn't been tampered with, you can add a digital signature to a VSIX package. When a VSIX is signed, the VSIX installer will display a message indicating that it is signed, plus more information about the signature itself. If the contents of the VSIX have been modified, and the VSIX has not been signed again, the VSIX installer will show that the signature is not valid. The installation is not stopped, but the user is warned.
 
 > [!IMPORTANT]
->  Beginning with Visual Studio 2015, VSIX packages signed using anything other than SHA256 encryption will be identified as having an invalid signature. VSIX installation is not blocked but the user will be warned.
+> Beginning with Visual Studio 2015, VSIX packages signed using anything other than SHA256 encryption will be identified as having an invalid signature. VSIX installation is not blocked but the user will be warned.
 
 ## Signing a VSIX with VSIXSignTool
  There is a SHA256 encryption signing tool available from [VisualStudioExtensibility](http://www.nuget.org/profiles/VisualStudioExtensibility) on nuget.org at [VsixSignTool](http://www.nuget.org/packages/Microsoft.VSSDK.Vsixsigntool).

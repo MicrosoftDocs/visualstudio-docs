@@ -44,30 +44,30 @@ In this walkthrough, you will create a WPF application that displays data from d
   
   Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:  
   
-- Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework Overview](http://msdn.microsoft.com/library/a2166b3d-d8ba-4a0a-8552-6ba1e3eaaee0).  
+- Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework Overview](https://msdn.microsoft.com/library/a2166b3d-d8ba-4a0a-8552-6ba1e3eaaee0).  
   
-- Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/570b7a5c-0c86-4326-a371-c9b63378fc62).  
+- Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](https://msdn.microsoft.com/570b7a5c-0c86-4326-a371-c9b63378fc62).  
   
-- WPF data binding. For more information, see [Data Binding Overview](http://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211).  
+- WPF data binding. For more information, see [Data Binding Overview](https://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211).  
   
 ## Creating the Project  
  Create a new WPF project to display the order records.  
   
 #### To create a new WPF project  
   
-1.  Start Visual Studio.  
+1. Start Visual Studio.  
   
-2.  On the **File** menu, point to **New**, and then click **Project**.  
+2. On the **File** menu, point to **New**, and then click **Project**.  
   
-3.  Expand **Visual C#** or **Visual Basic**, and then select **Windows**.  
+3. Expand **Visual C#** or **Visual Basic**, and then select **Windows**.  
   
-4.  Make sure that **.NET Framework 4** is selected in the combo box at the top of the dialog box. The <xref:System.Windows.Controls.DataGrid> control that you use in this walkthrough is available only in the .NET Framework 4.  
+4. Make sure that **.NET Framework 4** is selected in the combo box at the top of the dialog box. The <xref:System.Windows.Controls.DataGrid> control that you use in this walkthrough is available only in the .NET Framework 4.  
   
-5.  Select the **WPF Application** project template.  
+5. Select the **WPF Application** project template.  
   
-6.  In the **Name** box, type `AdventureWorksOrdersViewer`.  
+6. In the **Name** box, type `AdventureWorksOrdersViewer`.  
   
-7.  Click **OK**.  
+7. Click **OK**.  
   
      Visual Studio creates the `AdventureWorksOrdersViewer` project.  
   
@@ -96,9 +96,9 @@ In this walkthrough, you will create a WPF application that displays data from d
   
 6. On the **Choose Your Database Objects** page, expand **Tables**, and then select the following tables:  
   
-   -   **SalesOrderDetail**  
+   - **SalesOrderDetail**  
   
-   -   **SalesOrderHeader**  
+   - **SalesOrderHeader**  
   
 7. Click **Finish**.  
   
@@ -161,7 +161,7 @@ In this walkthrough, you will create a WPF application that displays data from d
 1. In the **Data Sources** window, locate the **SalesOrderDetails** node that is a child of the **SalesOrderHeaders** node.  
   
    > [!NOTE]
-   >  There is also a **SalesOrderDetails** node that is a peer of the **SalesOrderHeaders** node. Make sure that you select the child node of the **SalesOrderHeaders** node.  
+   > There is also a **SalesOrderDetails** node that is a peer of the **SalesOrderHeaders** node. Make sure that you select the child node of the **SalesOrderHeaders** node.  
   
 2. Expand the child **SalesOrderDetails** node.  
   
@@ -186,15 +186,15 @@ In this walkthrough, you will create a WPF application that displays data from d
   
 #### To test the application  
   
-1.  Press **F5**.  
+1. Press **F5**.  
   
      The application builds and runs. Verify the following:  
   
-    -   The **Sales Order ID** combo box displays **71774**. This is the first order ID in the entity.  
+    - The **Sales Order ID** combo box displays **71774**. This is the first order ID in the entity.  
   
-    -   For each order you select in the **Sales Order ID** combo box, detailed order information is displayed in the <xref:System.Windows.Controls.DataGrid>.  
+    - For each order you select in the **Sales Order ID** combo box, detailed order information is displayed in the <xref:System.Windows.Controls.DataGrid>.  
   
-2.  Close the application.  
+2. Close the application.  
   
 ## Next Steps  
  After completing this walkthrough, learn how to use the **Data Sources** window in Visual Studio to bind WPF controls to other types of data sources. For more information, see [Bind WPF controls to a WCF data service](../data-tools/bind-wpf-controls-to-a-wcf-data-service.md) and [Bind WPF controls to a dataset](../data-tools/bind-wpf-controls-to-a-dataset.md).  

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], changing"
   - "source control plug-ins, changing source control"
 ms.assetid: fdf09e00-108c-4d51-bbd5-72452d52a490
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -39,7 +39,6 @@ This source-control plug-in test area covers changing the source control via the
 
 ### Case 5a: Bind
  Bind allows the user to add source code control info to the selected projects and solutions. The user is typically prompted to identify a project in source control to which these are to be added. The user may not create a new project in source control as part of this operation (contrast with Add to Source Control).
-
 
 | Action | Test Steps | Expected Results to Verify |
 | - | - | - |

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "NAME_MATCH enumeration"
 ms.assetid: 3842c417-a3c9-4259-a05f-52b64b829ef6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # NAME_MATCH
 Selects the case option for matching names.
@@ -34,26 +37,26 @@ public enum NameMatchOptions { 
 }
 ```
 
-## Members
- nmNone
+## Fields
+ `nmNone`\
  No options are specified.
 
- nmCaseSensitive
+ `nmCaseSensitive`\
  Indicates that names to be matched are case-sensitive.
 
- nmCaseInsensitive
+ `nmCaseInsensitive`\
  Indicates that names to be matched are not case-sensitive.
 
 ## Remarks
  Passed as an argument to the following methods:
 
--   [GetTypeByName](../../../extensibility/debugger/reference/idebugsymbolprovider-gettypebyname.md)
+- [GetTypeByName](../../../extensibility/debugger/reference/idebugsymbolprovider-gettypebyname.md)
 
--   [GetClassTypeByName](../../../extensibility/debugger/reference/idebugsymbolprovider-getclasstypebyname.md)
+- [GetClassTypeByName](../../../extensibility/debugger/reference/idebugsymbolprovider-getclasstypebyname.md)
 
--   [EnumFields](../../../extensibility/debugger/reference/idebugcontainerfield-enumfields.md)
+- [EnumFields](../../../extensibility/debugger/reference/idebugcontainerfield-enumfields.md)
 
--   [GetMethodFieldsByName](../../../extensibility/debugger/reference/idebugsymbolprovider-getmethodfieldsbyname.md)
+- [GetMethodFieldsByName](../../../extensibility/debugger/reference/idebugsymbolprovider-getmethodfieldsbyname.md)
 
 ## Requirements
  Header: sh.h
@@ -62,7 +65,7 @@ public enum NameMatchOptions { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetTypeByName](../../../extensibility/debugger/reference/idebugsymbolprovider-gettypebyname.md)
 - [GetClassTypeByName](../../../extensibility/debugger/reference/idebugsymbolprovider-getclasstypebyname.md)

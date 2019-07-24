@@ -23,7 +23,6 @@ manager: jillfra
 # Security Page, Project Designer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The **Security** page of the **Project Designer** is used to configure code access security settings for applications that are deployed by using [!INCLUDE[ndptecclick](../../includes/ndptecclick-md.md)] deployment. For more information, see [Code Access Security for ClickOnce Applications](../../deployment/code-access-security-for-clickonce-applications.md).  
   
  To access the **Security** page, click a project node in **Solution Explorer**, and then, on the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Security** tab.  
@@ -33,7 +32,7 @@ The **Security** page of the **Project Designer** is used to configure code acce
  Determines whether security settings are enabled at design time. When this option is cleared, all other options on the **Security** page are unavailable.  
   
 > [!NOTE]
->  When you publish an application by using the **Publish** wizard, this option is automatically enabled.  
+> When you publish an application by using the **Publish** wizard, this option is automatically enabled.  
   
  When you select this option, you have the choice of selecting one of two radio buttons: **This is a full trust application** or **This is a partial trust application**.  
   

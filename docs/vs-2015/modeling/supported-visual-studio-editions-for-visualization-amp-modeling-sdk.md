@@ -29,16 +29,16 @@ The following are lists of the Visual Studio editions that are supported with [!
 ## Deployment Editions
  [!INCLUDE[dsl](../includes/dsl-md.md)] supports the following configurations for deploying the domain-specific languages that you build:
 
--   Visual Studio Enterprise
+- Visual Studio Enterprise
 
--   Visual Studio Professional
+- Visual Studio Professional
 
--   Visual Studio Shell (integrated mode) redistributable package redistributable package
+- Visual Studio Shell (integrated mode) redistributable package redistributable package
 
--   Visual Studio Shell (isolated mode) redistributable package redistributable package
+- Visual Studio Shell (isolated mode) redistributable package redistributable package
 
 > [!NOTE]
->  To make a DSL able to run on a Shell product, you must set the **Supported VS Edition** field in the Extension Manifest. For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
+> To make a DSL able to run on a Shell product, you must set the **Supported VS Edition** field in the Extension Manifest. For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
 
 ## See Also
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

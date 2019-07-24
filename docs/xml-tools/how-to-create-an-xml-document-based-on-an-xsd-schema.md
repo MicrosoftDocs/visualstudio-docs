@@ -15,31 +15,31 @@ The **Generate Sample XML** feature generates a sample XML file based on your XM
 
  You can use this option for the following scenarios:
 
--   To understand the use of various constructs in your schema.
+- To understand the use of various constructs in your schema.
 
--   To confirm that the schema does what it is intended to do.
+- To confirm that the schema does what it is intended to do.
 
 The **Generate Sample XML** feature is only available on global elements, and requires a valid XML schema set.
 
 This feature typically generates valid XML documents. However, if the schema contains one or more of the following, the sample might not be valid:
 
--   The `xs:key`, `xs:keyref`, and `xs:unique` identity constraints.
+- The `xs:key`, `xs:keyref`, and `xs:unique` identity constraints.
 
--   `xs:pattern` facets.
+- `xs:pattern` facets.
 
--   Enumerations of the `xs:QName` type.
+- Enumerations of the `xs:QName` type.
 
--   `xs:ENTITY`, `xs:ENTITIES`, and `xs:NOTATION` types.
+- `xs:ENTITY`, `xs:ENTITIES`, and `xs:NOTATION` types.
 
 Also, note that `xs:base64Binary` content will be generated only if enumerations occur in the schema for that type.
 
 ## To generate an XML instance document based on the XSD file
 
-1.  Follow the steps in [How to: Create and edit an XSD schema file](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md).
+1. Follow the steps in [How to: Create and edit an XSD schema file](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md).
 
-2.  In the [XML Schema Explorer](../xml-tools/xml-schema-explorer.md), right-click the `PurchaseOrder` global element. Select **Generate Sample XML**.
+2. In the [XML Schema Explorer](../xml-tools/xml-schema-explorer.md), right-click the `PurchaseOrder` global element. Select **Generate Sample XML**.
 
-     When you select this option, the PurchaseOrder.*xml* file with the following sample XML content will be generated and opened in the XML Editor:
+     When you select this option, the PurchaseOrder.*xml* file with the following sample XML content will be generated and opened in the XML editor:
 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
@@ -67,7 +67,3 @@ Also, note that `xs:base64Binary` content will be generated only if enumerations
       </BillTo>
     </PurchaseOrder>
     ```
-
-## See also
-
-- [Working with XML data](../xml-tools/working-with-xml-data.md)

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader | Microsoft Docs"
+title: "Debugging compute shader using graphics diagnostics"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 69287456-644b-4aff-bd03-b1bbb2abb82a
@@ -14,11 +14,11 @@ This walkthrough demonstrates how to use the Visual Studio Graphics Diagnostics 
 
  This walkthrough illustrates these tasks:
 
--   Using the **Graphics Event List** to locate potential sources of the problem.
+- Using the **Graphics Event List** to locate potential sources of the problem.
 
--   Using the **Graphics Event Call Stack** to determine which compute shader is executed by a DirectCompute `Dispatch` event.
+- Using the **Graphics Event Call Stack** to determine which compute shader is executed by a DirectCompute `Dispatch` event.
 
--   Using the **Graphics Pipeline Stages** window and HLSL debugger to examine the compute shader that's the source of the problem.
+- Using the **Graphics Pipeline Stages** window and HLSL debugger to examine the compute shader that's the source of the problem.
 
 ## Scenario
  In this scenario, you have written a fluid-dynamics simulation that uses DirectCompute to perform the most computation-intensive parts of the simulation update. When the app is run, the rendering of the dataset and UI look correct, but the simulation does not behave as expected. By using Graphics Diagnostics, you can capture the problem to a graphics log so that you can debug the app. The problem looks like this in the app:

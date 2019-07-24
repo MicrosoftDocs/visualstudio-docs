@@ -21,12 +21,12 @@ sections:
     className: cardsM
     columns: 3
     items:
-    - href: docker-tools.md
+    - href: container-tools.md
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/logos/logo_docker.svg
       title: 'Quickstart: Docker in Visual Studio'
-    - href: docker-tools.md
+    - href: tutorial-multicontainer.md
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/logos/logo_docker.svg
@@ -36,7 +36,7 @@ sections:
       image:
         src: https://docs.microsoft.com/media/common/i_build.svg
       title: 'Running build tools in a container'
-    - href: /visualstudio/deployment/tutorial-kubernetes-tools
+    - href: tutorial-kubernetes-tools.md
       html: <p></p>
       image: 
         src: https://docs.microsoft.com/media/logos/logo_kubernetes.svg
@@ -67,7 +67,7 @@ sections:
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/common/i_web.svg
-      title: ASP.NET Docker Tools
+      title: ASP.NET Container Tools
     - href: https://docs.microsoft.com/azure/vs-azure-tools-docker-hosting-web-apps-in-docker
       html: <p></p>
       image:

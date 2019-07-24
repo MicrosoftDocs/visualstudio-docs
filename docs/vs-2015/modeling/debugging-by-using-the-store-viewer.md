@@ -26,13 +26,13 @@ Microsoft.VisualStudio.Modeling.Diagnostics.StoreViewer.Show(mystore);
 ```  
   
 > [!NOTE]
->  You must replace `mystore` with the name of your store instance. Also, if you add the namespace to your code, you can type the command for displaying Store Viewer without the fully qualified namespace:  
+> You must replace `mystore` with the name of your store instance. Also, if you add the namespace to your code, you can type the command for displaying Store Viewer without the fully qualified namespace:  
 >   
->  `using Microsoft.VisualStudio.Modeling.Diagnostics;`  
+> `using Microsoft.VisualStudio.Modeling.Diagnostics;`  
 >   
->  `…`  
+> `…`  
 >   
->  `StoreViewer.Show(mystore);`  
+> `StoreViewer.Show(mystore);`  
   
  The `Show` method has several overloads. You can specify an instance of a store or a partition as the parameter.  
   

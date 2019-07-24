@@ -13,13 +13,11 @@ ms.workload:
 ---
 # .NET naming conventions for EditorConfig
 
-Naming conventions concern the naming of code elements such as classes, properties, and methods. For example, you can specify that public members must be capitalized, or that asynchronous methods must end in "Async". You can enforce these rules by specifying them in an [.editorconfig file](../ide/create-portable-custom-editor-options.md). Naming rule violations appear either in the **Error List** or as a suggestion under the name, depending on the severity you choose for your rule. There is no need to build the project in order to see violations.
-
-Naming conventions should be ordered from most-specific to least-specific in the *.editorconfig* file. The first rule encountered that can be applied is the only rule that is applied.
+Naming conventions concern the naming of code elements such as classes, properties, and methods. For example, you can specify that public members must be capitalized or that asynchronous methods must end in "Async". You can enforce these rules by specifying them in an [.editorconfig file](../ide/create-portable-custom-editor-options.md). Naming rule violations appear either in the **Error List** or as a suggestion under the name, depending on the severity you choose for your rule. There is no need to build the project in order to see violations.
 
 For each naming convention, you must specify the symbols it applies to, a naming style, and a severity for enforcing the convention, using the properties described below. The order of the properties is not important.
 
-To begin, choose a title for your naming rule that you will use in each of the properties that are needed to fully describe the rule. For example, `public_members_must_be_capitalized` is a good, descriptive name for a naming rule. We'll refer to the title you choose as **<namingRuleTitle\>** in the sections that follow.
+To begin, choose a title for your naming rule that you will use in each of the properties that are needed to fully describe the rule. For example, `public_members_must_be_capitalized` is a good, descriptive name for a naming rule. This page will refer to the title you choose as **<namingRuleTitle\>** in the sections that follow.
 
 ## Symbols
 
@@ -67,18 +65,32 @@ The following list shows the allowable values, and you can specify multiple valu
 - private
 - protected
 - protected\_internal or protected_friend
+- private\_protected
 - local
 
-> [!NOTE]
-> Do not specify an accessibility level as part of your naming convention if accessibility is not applicable to the kind of symbol you are targeting. For example, parameters do not have accessibility levels. If you specify an accessibility level for a parameter naming convention, your naming rule will not function correctly.
+   The `local` accessibility level applies to symbols defined within a method. It's useful for defining naming conventions for symbols whose accessibility can't be specified in code. For example, if you specify `applicable_accessibilities = local` on a naming convention for constants (`required_modifiers = const`), the rule applies only to constants defined within a method and not those defined in a type.
 
-### Symbol modifiers
+   ```csharp
+   class TypeName
+   {
+     // Constant defined in a type.
+     const int X = 3;
+
+     void Method()
+     {
+       // Constant defined in a method with "local" accessibility.
+       const int Y = 4;
+     }
+   }
+   ```
+
+### Symbol modifiers (optional)
 
 To describe the modifiers of the symbols you want the naming rule to apply to, specify a property name in the following format:
 
 `dotnet_naming_symbols.<symbolTitle>.required_modifiers = <values>`
 
-The following list shows the allowable values, and you can specify multiple values by separating them with a comma. A naming rule will only match signatures that have all the modifiers specified in `required_modifiers`. If you omit this property, the default value of an empty list is used, that is, no specific modifiers are required for a match. This means a symbol's modifiers have no effect on whether or not this rule is applied.
+The following list shows the allowable values (separate multiple values with a comma):
 
 - `abstract` or `must_inherit`
 - `async`
@@ -89,11 +101,14 @@ The following list shows the allowable values, and you can specify multiple valu
    > [!NOTE]
    > If you have a naming rule for `static` or `shared` symbols, it is also applied to `const` symbols because they are implicitly static. If you don't want the `static` naming rule to apply to `const` symbols, create a separate naming rule for `const` symbols.
 
-`required_modifiers` is an optional property. If you omit this property, your naming rule will apply to all modifiers.
+A naming rule matches signatures that have *all* the modifiers specified in `required_modifiers`. If you omit this property, the default value of an empty list is used, that is, no specific modifiers are required for a match. This means a symbol's modifiers have no effect on whether or not this rule is applied.
+
+> [!TIP]
+> Do not specify a value of `*` for `required_modifiers`. Instead, just omit the `required_modifiers` property altogether and your naming rule will apply to any kind of modifier.
 
 ## Style
 
-Now that we've identified the group of symbols to apply the naming rule to, we must describe the naming style. A style can be that the name has a certain prefix or a certain suffix, or that individual words in the name are separated with a certain character. You can also specify a capitalization style. The style property has the following format:
+Now that you've identified the group of symbols to apply the naming rule to, you can describe the naming style. A style can be that the name has a certain prefix or a certain suffix, or that individual words in the name are separated with a certain character. You can also specify a capitalization style. The style property has the following format:
 
 `dotnet_naming_rule.<namingRuleTitle>.style = <styleTitle>`
 
@@ -152,11 +167,35 @@ error | When this style is not being followed, show a compiler error in the **Er
 > [!NOTE]
 > You do not have to build your project in order to see naming rule violations. They appear as code is edited, either in the **Error List** or as a suggestion.
 
+## Rule order
+
+::: moniker range="vs-2017"
+
+Naming conventions should be ordered from most-specific to least-specific in the EditorConfig file. The first rule encountered that can be applied is the only rule that is applied. However, if there are multiple rule *properties* with the same name, the most recently found property with that name takes precedence. For more information, see [File hierarchy and precedence](create-portable-custom-editor-options.md#file-hierarchy-and-precedence).
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+Starting in Visual Studio 2019 version 16.2, the order in which naming rules are defined in an EditorConfig file doesn't matter. Instead, Visual Studio orders the naming rules automatically according to the definition of the rules themselves. The [EditorConfig Language Service extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EditorConfig) can analyze an EditorConfig file and report cases where the rule ordering in the file is different to what the compiler will use at runtime.
+
+If you're using an earlier version of Visual Studio, naming conventions should be ordered from most-specific to least-specific in the EditorConfig file. The first rule encountered that can be applied is the only rule that is applied. However, if there are multiple rule *properties* with the same name, the most recently found property with that name takes precedence. For more information, see [File hierarchy and precedence](create-portable-custom-editor-options.md#file-hierarchy-and-precedence).
+
+::: moniker-end
+
+## Default naming styles
+
+If you don't specify any custom naming rules, Visual Studio uses the following default styles:
+
+- For classes, structs, enumerations, properties, and events with `public`, `private`, `internal`, `protected`, or `protected_internal` accessibility, the default naming style is Pascal case.
+
+- For interfaces with `public`, `private`, `internal`, `protected`, or `protected_internal` accessibility, the default naming style is Pascal case with a required prefix of **I**.
+
 ## Example
 
 The following *.editorconfig* file contains a naming convention that specifies that public properties, methods, fields, events, and delegates must be capitalized. Notice that this naming convention specifies multiple kinds of symbol to apply the rule to, using a comma to separate the values.
 
-```EditorConfig
+```ini
 # Public members must be capitalized (public_members_must_be_capitalized)
 [*.{cs,vb}]
 dotnet_naming_rule.public_members_must_be_capitalized.symbols   = public_symbols
@@ -176,7 +215,7 @@ The following screenshot shows the effect of this naming convention in the edito
 
 Now let's change the violation severity to `warning`:
 
-```EditorConfig
+```ini
 dotnet_naming_rule.public_members_must_be_capitalized.severity = warning
 ```
 
@@ -186,6 +225,8 @@ If you close and reopen your code file, instead of seeing the suggestion under t
 
 ## See also
 
-- [.NET language and formatting conventions](../ide/editorconfig-code-style-settings-reference.md)
+- [Language conventions](editorconfig-language-conventions.md)
+- [Formatting conventions](editorconfig-formatting-conventions.md)
+- [Roslyn naming conventions](https://github.com/dotnet/roslyn/blob/master/.editorconfig#L63)
 - [Create portable custom editor options](../ide/create-portable-custom-editor-options.md)
-- [.NET Compiler Platform's .editorconfig file](https://github.com/dotnet/roslyn/blob/master/.editorconfig)
+- [.NET coding convention settings for EditorConfig](editorconfig-code-style-settings-reference.md)

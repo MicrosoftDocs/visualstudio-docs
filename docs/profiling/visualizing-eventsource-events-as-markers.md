@@ -17,11 +17,11 @@ The Concurrency Visualizer can display EventSource events as markers, and you ca
 
 ### Marker type
 
-1.  Events that have [Opcode](/windows/desktop/WES/eventmanifestschema-opcodetype-complextype) win:Start or win:Stop are treated as the beginning or end of a span, respectively.  Nested or overlapping spans cannot be displayed. Event pairs that begin on one thread and end on another cannot be displayed.
+1. Events that have [Opcode](/windows/desktop/WES/eventmanifestschema-opcodetype-complextype) win:Start or win:Stop are treated as the beginning or end of a span, respectively.  Nested or overlapping spans cannot be displayed. Event pairs that begin on one thread and end on another cannot be displayed.
 
-2.  An event whose Opcode is neither win:Start nor win:Stop is treated as a marker flag unless its [Level](/windows/desktop/WES/defining-severity-levels) (field of EVENT_RECORD.EVENT_HEADER.EVENT_DESCRIPTOR) is win:Verbose or higher.
+2. An event whose Opcode is neither win:Start nor win:Stop is treated as a marker flag unless its [Level](/windows/desktop/WES/defining-severity-levels) (field of EVENT_RECORD.EVENT_HEADER.EVENT_DESCRIPTOR) is win:Verbose or higher.
 
-3.  In all other cases, the event is treated as a message.
+3. In all other cases, the event is treated as a message.
 
 ### Importance
  The following table defines how the event level maps to the marker importance.
@@ -85,7 +85,7 @@ The Concurrency Visualizer can display EventSource events as markers, and you ca
  Use the cvSpanId field, an int, to match pairs of events. The value for each pair of start/stop events that represent a span must be unique. Typically for concurrent code, this requires the use of synchronization primitives such as <xref:System.Threading.Interlocked.Exchange%2A> to ensure that the key (the value that's used for CvSpanID) is correct.
 
 > [!NOTE]
->  The use of SpanID to nest spans, allow them to partially overlap on the same thread, or allow them to start on one thread and end on another is not supported.
+> The use of SpanID to nest spans, allow them to partially overlap on the same thread, or allow them to start on one thread and end on another is not supported.
 
 ## See also
 - [Concurrency visualizer markers](../profiling/concurrency-visualizer-markers.md)

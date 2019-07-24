@@ -13,7 +13,7 @@ caps.latest.revision: 46
 manager: jillfra
 ---
 # MenuCommands Vs. OleMenuCommands
-You can create menu commands by deriving either from <xref:System.ComponentModel.Design.MenuCommand> or from <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object, and impementling the appropriate event handlers. In the majority of cases you can use <xref:System.ComponentModel.Design.MenuCommand>, as the VSPackage project template does, but occasionally you may need to use <xref:Microsoft.VisualStudio.Shell.OleMenuCommand>.  
+You can create menu commands by deriving either from <xref:System.ComponentModel.Design.MenuCommand> or from <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object, and implementing the appropriate event handlers. In the majority of cases you can use <xref:System.ComponentModel.Design.MenuCommand>, as the VSPackage project template does, but occasionally you may need to use <xref:Microsoft.VisualStudio.Shell.OleMenuCommand>.  
   
  The commands that a VSPackage makes available to the IDE must be visible and enabled before a user can use them. When commands are created in a .vsct file by using the Visual Studio Package project template, they are visible and enabled by default. Setting some command flags, such as `DynamicItemStart`, can change the default behavior. The visibility, enabled status, and other properties of a command can also be changed in code at run time by accessing the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object that is associated with the command.  
   
@@ -58,9 +58,9 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
    </Button>
    ``` 
      
-   1.  Set the `guid` and `id` fields to match the GUID:ID of the new command.  
+   1. Set the `guid` and `id` fields to match the GUID:ID of the new command.  
   
-   2.  Set the `priority` attribute.  
+   2. Set the `priority` attribute.  
   
         The `priority` attribute is used by the .vsct to determine the location of the button among the other objects in its parent group.  
   
@@ -68,7 +68,7 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
         Omitting the `priority` attribute sets its value to 0.  
   
-   3.  Set the `type` attribute. In most cases, its value will be `"Button"`. For descriptions of other valid button types, see [Button Element](../extensibility/button-element.md).  
+   3. Set the `type` attribute. In most cases, its value will be `"Button"`. For descriptions of other valid button types, see [Button Element](../extensibility/button-element.md).  
   
 5. In the button definition, create a [Strings](../extensibility/strings-element.md) element that contains a [ButtonText](../extensibility/buttontext-element.md) element to contain the name of the menu as it appears in the IDE, and a [CommandName](../extensibility/commandname-element.md) element to contain the name of the command that is used to access the menu in the **Command** window.  
   
@@ -84,7 +84,7 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
     You can do this in one of two ways, depending on your design:  
   
-   -   In the `Button` element, create a [Parent](../extensibility/parent-element.md) element and set its `guid` and `id` fields to the Guid and ID of the group that will host the command, also known as the *primary parent group*.  
+   - In the `Button` element, create a [Parent](../extensibility/parent-element.md) element and set its `guid` and `id` fields to the Guid and ID of the group that will host the command, also known as the *primary parent group*.  
   
         The following example defines a command that will appear on a user-defined menu.  
   
@@ -99,7 +99,7 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
        </Button>
        ```
       
-   -   You may omit the `Parent` element if the command is to be positioned by using command placement. Create a [CommandPlacements](../extensibility/commandplacements-element.md) element before the `Symbols` section, and add a [CommandPlacement](../extensibility/commandplacement-element.md) element that has the `guid` and `id` of the command, a `priority`, and a parent, as shown in the following example.  
+   - You may omit the `Parent` element if the command is to be positioned by using command placement. Create a [CommandPlacements](../extensibility/commandplacements-element.md) element before the `Symbols` section, and add a [CommandPlacement](../extensibility/commandplacement-element.md) element that has the `guid` and `id` of the command, a `priority`, and a parent, as shown in the following example.  
   
    ```xml
    <CommandPlacements>
@@ -109,7 +109,7 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
    </CommandPlacements>
    ```
       
-        Creating multiple command placements that have the same GUID:ID and have different parents causes a menu to appear in multiple locations. For more information, see [CommandPlacements](../extensibility/commandplacements-element.md) element.  
+      Creating multiple command placements that have the same GUID:ID and have different parents causes a menu to appear in multiple locations. For more information, see [CommandPlacements](../extensibility/commandplacements-element.md) element.  
   
     For more information about command groups and parenting, see [Creating Reusable Groups of Buttons](../extensibility/creating-reusable-groups-of-buttons.md).  
   
@@ -120,11 +120,11 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
  For code that uses the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface directly for command handling, you must implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface and its methods. The two most important methods are <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> and <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A>.  
   
-1.  Get the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> instance, as shown in the following example.  
+1. Get the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> instance, as shown in the following example.  
   
      [!code-csharp[ButtonGroup#21](../snippets/csharp/VS_Snippets_VSSDK/buttongroup/cs/buttongrouppackage.cs#21)]  
   
-2.  Create a <xref:System.ComponentModel.Design.CommandID> object that has as its parameters the GUID and ID of the command to handle, as shown in the following example.  
+2. Create a <xref:System.ComponentModel.Design.CommandID> object that has as its parameters the GUID and ID of the command to handle, as shown in the following example.  
   
      [!code-csharp[ButtonGroup#22](../snippets/csharp/VS_Snippets_VSSDK/buttongroup/cs/buttongrouppackage.cs#22)]  
   
@@ -132,7 +132,7 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
      Alternatively, you can populate the <xref:System.ComponentModel.Design.CommandID> object by using the raw string value of the GUID and the integer value of the ID.  
   
-3.  Instantiate either a <xref:System.ComponentModel.Design.MenuCommand> or <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object that specifies the method that handles the command together with the <xref:System.ComponentModel.Design.CommandID>, as shown in the following example.  
+3. Instantiate either a <xref:System.ComponentModel.Design.MenuCommand> or <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object that specifies the method that handles the command together with the <xref:System.ComponentModel.Design.CommandID>, as shown in the following example.  
   
      [!code-csharp[ButtonGroup#23](../snippets/csharp/VS_Snippets_VSSDK/buttongroup/cs/buttongrouppackage.cs#23)]  
   
@@ -140,7 +140,7 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
      Commands created by the package template are passed by default to a <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object in the `Initialize()` method of the package class.  
   
-4.  The <xref:System.ComponentModel.Design.MenuCommand> is appropriate for static commands. Dynamic menu item displays require QueryStatus event handlers. The <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> adds the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> event, which occurs when the host menu of the command is opened, and some other properties, such as <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.Text%2A>.  
+4. The <xref:System.ComponentModel.Design.MenuCommand> is appropriate for static commands. Dynamic menu item displays require QueryStatus event handlers. The <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> adds the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> event, which occurs when the host menu of the command is opened, and some other properties, such as <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.Text%2A>.  
   
      Commands created by the package template are passed by default to a <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object in the `Initialize()` method of the package class. The Visual Studio wizard implements the `Initialize` method by using `MenuCommand`. For dynamic menu item displays, you must change this to `OleMenuCommand`, as is shown in the next step. Furthermore, to change the menu item text, you must add a TextChanges command flag to the menu command button in the .vsct file, as is shown in the following example  
   
@@ -156,11 +156,11 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
     </Button>
     ```
       
-5.  Pass the new menu command to the <xref:System.ComponentModel.Design.IMenuCommandService.AddCommand%2A> method in the <xref:System.ComponentModel.Design.IMenuCommandService> interface. This is accomplished by default for commands created by the package template, as shown in the following example  
+5. Pass the new menu command to the <xref:System.ComponentModel.Design.IMenuCommandService.AddCommand%2A> method in the <xref:System.ComponentModel.Design.IMenuCommandService> interface. This is accomplished by default for commands created by the package template, as shown in the following example  
   
      [!code-csharp[ButtonGroup#24](../snippets/csharp/VS_Snippets_VSSDK/buttongroup/cs/buttongrouppackage.cs#24)]  
   
-6.  Implement the method that handles the command.  
+6. Implement the method that handles the command.  
   
 #### To implement QueryStatus  
   
@@ -239,11 +239,11 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
 ##### To implement the Exec method  
   
--   If the command `GUID` is unknown, return `OLECMDERR_E_UNKNOWNGROUP`.  
+- If the command `GUID` is unknown, return `OLECMDERR_E_UNKNOWNGROUP`.  
   
--   If the `GUID` is known but the command ID is unknown, return `OLECMDERR_E_NOTSUPPORTED`.  
+- If the `GUID` is known but the command ID is unknown, return `OLECMDERR_E_NOTSUPPORTED`.  
   
--   If the `GUID` and command ID match the GUID:ID pair that is used by the command in the .vsct file, execute the code that is associated with the command and return <xref:Microsoft.VisualStudio.VSConstants.S_OK>.  
+- If the `GUID` and command ID match the GUID:ID pair that is used by the command in the .vsct file, execute the code that is associated with the command and return <xref:Microsoft.VisualStudio.VSConstants.S_OK>.  
   
 ## See Also  
  [VSCT XML Schema Reference](../extensibility/vsct-xml-schema-reference.md)   

@@ -20,13 +20,13 @@ The *test mix model* specifies the probability of a virtual user running a given
 
 You can specify one of the following test mix model options for your load test scenario:
 
--   **Based on the total number of tests:** Determines which web performance or unit test is run when a virtual user starts a test iteration. At the end of the load test, the number of times that a particular test was run matches the assigned test distribution. Use this test mix model when you are basing the test mix on transaction percentages in an IIS log or in production data.
+- **Based on the total number of tests:** Determines which web performance or unit test is run when a virtual user starts a test iteration. At the end of the load test, the number of times that a particular test was run matches the assigned test distribution. Use this test mix model when you are basing the test mix on transaction percentages in an IIS log or in production data.
 
--   **Based on the number of virtual users:** Determines the percentage of virtual users who will run a particular web performance or unit test. At any point in the load test, the number of users who are running a particular test matches the assigned distribution. Use this test mix model when you are basing the test mix on the percentage of users running a particular test.
+- **Based on the number of virtual users:** Determines the percentage of virtual users who will run a particular web performance or unit test. At any point in the load test, the number of users who are running a particular test matches the assigned distribution. Use this test mix model when you are basing the test mix on the percentage of users running a particular test.
 
--   **Based on user pace:** Over the course of the load test, each web performance test or unit test is run a specified number of times per users, per hour. Use this test mix model when you want virtual users to run test at a certain pace throughout the load test.
+- **Based on user pace:** Over the course of the load test, each web performance test or unit test is run a specified number of times per users, per hour. Use this test mix model when you want virtual users to run test at a certain pace throughout the load test.
 
--   **Based on sequential order:** Each virtual user runs the web performance or unit tests in the order that the tests are defined in the scenario. The virtual user continues cycling through the tests in this order until the load test is complete.
+- **Based on sequential order:** Each virtual user runs the web performance or unit tests in the order that the tests are defined in the scenario. The virtual user continues cycling through the tests in this order until the load test is complete.
 
 ## Tasks
 
@@ -47,27 +47,27 @@ Using the **Load Test Editor**, you can change the test mix model in a load test
 
 ### To change the test mix model
 
-1.  Open a load test.
+1. Open a load test.
 
      The **Load Test Editor** appears. The load test tree is displayed.
 
-2.  In *Scenarios* folder of the load test tree, choose the scenario node for which you want to specify the maximum number of test iterations.
+2. In *Scenarios* folder of the load test tree, choose the scenario node for which you want to specify the maximum number of test iterations.
 
-3.  On the **View** menu, select **Properties Window**.
+3. On the **View** menu, select **Properties Window**.
 
      The categories and properties of the scenario are displayed.
 
-4.  In the **Test Mix Type** property, choose the ellipsis button ( **…**).
+4. In the **Test Mix Type** property, choose the ellipsis button ( **…**).
 
      The **Edit Test Mix** dialog box is displayed.
 
-5.  Choose the drop-down list under **Test mix model** and select the test mix model that you want to use for the scenario.
+5. Choose the drop-down list under **Test mix model** and select the test mix model that you want to use for the scenario.
 
-6.  (Optional) Modify the test mix by using the **Add**, **Remove** and **Distribute** buttons and distribution sliders. For more information, see [Edit the test mix to specify which tests to include in a load test scenario](../test/edit-the-test-mix-to-specify-which-web-browsers-types-in-a-load-test-scenario.md).
+6. (Optional) Modify the test mix by using the **Add**, **Remove** and **Distribute** buttons and distribution sliders. For more information, see [Edit the test mix to specify which tests to include in a load test scenario](../test/edit-the-test-mix-to-specify-which-web-browsers-types-in-a-load-test-scenario.md).
 
-7.  (Optional) Specify a web performance and unit test to initialize or end by using the check boxes and selecting the desired tests. For more information, see [Emulate expected real-world usage of a website or application](../test/emulate-real-world-usage-of-a-web-site-in-a-load-test-using-test-mix-models.md).
+7. (Optional) Specify a web performance and unit test to initialize or end by using the check boxes and selecting the desired tests. For more information, see [Emulate expected real-world usage of a website or application](../test/emulate-real-world-usage-of-a-web-site-in-a-load-test-using-test-mix-models.md).
 
-8.  Choose **OK**.
+8. Choose **OK**.
 
      The **Properties** window displays the new test mix model for the **Test Mix Type** property.
 

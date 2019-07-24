@@ -19,24 +19,24 @@ manager: jillfra
 You can use menu commands or keyboard shortcuts to convert the case of selected text to all upper case or to all lower case.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in **Help** depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described in **Help** depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Procedure  
   
 #### To switch text to upper case  
   
-1.  Select the text you want to convert.  
+1. Select the text you want to convert.  
   
-2.  On the **Edit** menu, select **Advanced**.  
+2. On the **Edit** menu, select **Advanced**.  
   
-3.  To convert text to all upper case, choose **Make Uppercase**, or press **CTRL**+**SHIFT**+**U**.  
+3. To convert text to all upper case, choose **Make Uppercase**, or press **CTRL**+**SHIFT**+**U**.  
   
      — or —  
   
      To convert text to all lower case, choose **Make Lowercase**, or press **CTRL**+**U**.  
   
     > [!TIP]
-    >  To revert to the previous case formatting before this change, select **Undo** from the **Edit** menu.  
+    > To revert to the previous case formatting before this change, select **Undo** from the **Edit** menu.  
   
 ## See Also  
  [Customizing the Editor](../ide/customizing-the-editor.md)   

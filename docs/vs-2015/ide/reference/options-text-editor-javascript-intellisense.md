@@ -16,7 +16,6 @@ manager: jillfra
 # Options, Text Editor, JavaScript, IntelliSense
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Use the **IntelliSense** page of the **Options** dialog box to modify settings that affect the behavior of IntelliSense for JavaScript. You can access the **IntelliSense** page by choosing **Tools**, **Options** on the  menu bar, and then expanding **Text Editor**, **JavaScript**, **IntelliSense.**  
   
  [!INCLUDE[note_settings_general](../../includes/note-settings-general-md.md)]  
@@ -39,7 +38,7 @@ Use the **IntelliSense** page of the **Options** dialog box to modify settings t
  When this check box is selected, and if you have a JavaScript file opened outside the context of a project, Visual Studio will download remote JavaScript files referenced in the file for the purpose of providing IntelliSense information. If this option is selected, files will download when you include them as a reference in your JavaScript file.  
   
 > [!NOTE]
->  For Web projects, remote files referenced in your project are downloaded by default.  
+> For Web projects, remote files referenced in your project are downloaded by default.  
   
 ## Statement Completion  
  You can use these options to change the behavior of IntelliSense statement completion.  
@@ -69,7 +68,7 @@ Use the **IntelliSense** page of the **Options** dialog box to modify settings t
   This option specifies the order in which files are loaded into the context of the language service. You can configure the order by using the **Remove**, **Move Up**, and **Move Down** buttons. For IntelliSense to work correctly, a file that is dependent on another must be loaded after the other file.  
   
 > [!CAUTION]
->  If an object is defined unconditionally in two or more implicit references, the last reference in this list will be used to define the object.  
+> If an object is defined unconditionally in two or more implicit references, the last reference in this list will be used to define the object.  
   
  **Add a reference to the group**  
  This option provides a way to add additional IntelliSense .js files by browsing to the appropriate files.  

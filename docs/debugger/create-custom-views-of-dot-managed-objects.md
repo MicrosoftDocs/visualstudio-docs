@@ -29,13 +29,13 @@ You can customize the way Visual Studio displays data types in debugger variable
 
 ## Native Code
 
-For C++ code, you can add custom data type expansions using the Natvis framework, as described in [Create custom views of native object in the debugger](/visualstudio/debugger/create-custom-views-of-native-objects). For C++/CLI code, you also can use attributes, described here in this article.
+For C++ code, you can add custom data type expansions using the Natvis framework, as described in [Create custom views of C++ objects in the debugger](/visualstudio/debugger/create-custom-views-of-native-objects). For C++/CLI code, you also can use attributes, described here in this article.
 
 ## Attributes
 
 In C#, Visual Basic, and C++ (C++/CLI code only), you can add expansions for custom data using <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, <xref:System.Diagnostics.DebuggerDisplayAttribute>, and <xref:System.Diagnostics.DebuggerBrowsableAttribute>.
 
-In [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] code, Visual Basic does not support the DebuggerBrowsable attribute. This limitation is removed in more recent versions of the .NET Framework.
+In .NET Framework 2.0 code, Visual Basic does not support the DebuggerBrowsable attribute. This limitation is removed in more recent versions of the .NET Framework.
 
 ## Visualizers
 
@@ -43,7 +43,7 @@ You can write a visualizer to display any managed data type. For more informatio
 
 ## See Also
 
-- [Using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)
-- [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)
+- [Tell the debugger what to show using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)
+- [Tell the debugger what type to show using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)
 - [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)
 - [Enhancing Debugging with the Debugger Display Attributes](/dotnet/framework/debug-trace-profile/enhancing-debugging-with-the-debugger-display-attributes)

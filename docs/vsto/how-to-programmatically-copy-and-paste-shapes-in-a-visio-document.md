@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically copy and paste shapes in a Visio document"
+title: "Copy and paste shapes in Visio document programmatically"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -22,7 +22,7 @@ ms.workload:
 
 ### To copy shapes to the center of another page
 
--   The following example demonstrates how to copy the shapes from the first page and paste them into the center of the second page.
+- The following example demonstrates how to copy the shapes from the first page and paste them into the center of the second page.
 
      [!code-csharp[Trin_VstcoreVisioAutomationAddIn#14](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#14)]
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#14](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#14)]
@@ -34,7 +34,7 @@ ms.workload:
 
 ### To copy shapes and shape locations to another page
 
--   The following example demonstrates how to copy the shapes from the first page and paste them into the second page with their original coordinate locations.
+- The following example demonstrates how to copy the shapes from the first page and paste them into the second page with their original coordinate locations.
 
      [!code-csharp[Trin_VstcoreVisioAutomationAddIn#15](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#15)]
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#15](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#15)]

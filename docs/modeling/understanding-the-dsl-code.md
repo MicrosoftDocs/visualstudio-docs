@@ -11,17 +11,19 @@ ms.workload:
   - "multiple"
 ---
 # Understanding the DSL Code
+
 A Domain-Specific Language (DSL) solution generates an API that you can use to read and update instances of the DSL in Visual Studio. This API is defined in the code that is generated from the DSL definition. This topic describes the generated API.
 
 ## The example solution: Component Diagrams
- To create the solution that is the source of most of the examples in this topic, create a DSL from the **Component Models** solution template. This is one of the standard templates that appears when you create a new DSL solution.
+
+To create the solution that is the source of most of the examples in this topic, create a DSL from the **Component Models** solution template. This is one of the standard templates that appears when you create a new DSL solution.
 
 > [!NOTE]
->  The Component Diagrams DSL template is not related to the UML component diagrams that you can create by using the Architecture menu in Visual Studio. In the **New Project** dialog box, expand **Other Project Types\Extensibility** and then click **Domain-Specific Language Designer**.
+> The Component Diagrams DSL template is called **Domain-Specific Language Designer**.
 
- Press F5 and experiment, if you are not familiar with this solution template. Notice in particular that you create ports by dragging a port tool onto a component, and that you can connect ports.
+Press **F5** and experiment if you are not familiar with this solution template. Notice in particular that you create ports by dragging a port tool onto a component, and that you can connect ports.
 
- ![Components and interconnected ports](../modeling/media/componentsample.png)
+![Components and interconnected ports](../modeling/media/componentsample.png)
 
 ## The Structure of the DSL Solution
  The **Dsl** project defines the API for your DSL. The **DslPackage** project defines how it integrates with Visual Studio. You can also add your own projects, which can also contain code generated from the model.
@@ -37,22 +39,22 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
 
  We strongly recommend that you do not edit the generated code directly, because your edits will be lost when you rebuild the solution. Instead, to customize your DSL:
 
--   Adjust the many parameters in the DSL Definition.
+- Adjust the many parameters in the DSL Definition.
 
--   Write partial classes in separate code files, to override methods that are defined in, or inherited by, the generated classes. In some cases, you have to set the **Generates Double Derived** option of a class in the DSL Definition, in order to be able to override a generated method.
+- Write partial classes in separate code files, to override methods that are defined in, or inherited by, the generated classes. In some cases, you have to set the **Generates Double Derived** option of a class in the DSL Definition, in order to be able to override a generated method.
 
--   Set options in the DSL Definition that cause the generated code to provide 'hooks' for your own code.
+- Set options in the DSL Definition that cause the generated code to provide 'hooks' for your own code.
 
      For example, if you set the **Has Custom Constructor** option of a domain class, and then build the solution, you will see error messages. When you double-click one of these error messages, you will see comments in the generated code that explain what your custom code should provide.
 
--   Write your own text templates to generate code specific to your application. You can use include files to share parts of the templates that are common to many projects, and you can create Visual Studio project templates to set up projects that are initialized with your own file structure.
+- Write your own text templates to generate code specific to your application. You can use include files to share parts of the templates that are common to many projects, and you can create Visual Studio project templates to set up projects that are initialized with your own file structure.
 
 ## Generated Files in Dsl
  The following generated files appear in the **Dsl** project.
 
  *YourDsl* `Schema.xsd`
 
- The schema for files that contains instances of your DSL. This file is copied to the compilation (**bin**) directory. When you install your DSL, you can copy this file to **\Program Files\Microsoft Visual Studio 11.0\Xml\Schemas** so that model files can be validated. For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
+ The schema for files that contains instances of your DSL. This file is copied to the compilation (**bin**) directory. When you install your DSL, you can copy this file to **\Program Files\Microsoft Visual Studio 11.0\Xml\Schemas** so that model files can be validated. For more information, see [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md).
 
  If you customize serialization by setting options in DSL Explorer, the schema will change accordingly. However, if you write your own serialization code, this file might no longer represent the actual schema. For more information, see [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md).
 
@@ -123,7 +125,7 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
   The class that represents the domain model. It is derived from <xref:Microsoft.VisualStudio.Modeling.DomainModel>.
 
 > [!NOTE]
->  This is not the same as the root class of the model.
+> This is not the same as the root class of the model.
 
  Copy and Delete Closures define what other elements should be included when an element is copied or deleted. You can control this behavior by setting the **Propagates Copy** and **Propagates Delete** properties of the roles at each side of every relationship. If you want the values to be determined dynamically, you can write code to override the methods of the Closure classes.
 
@@ -131,7 +133,7 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
 
  This contains strings such as the descriptions of domain classes and properties, property names, toolbox labels, standard error messages, and other strings that could be displayed to the user. It also contains tool icons and images for image shapes.
 
- This file is bound into the built assembly, and provides the default values of these resources. You can localize your DSL by creating a satellite assembly that contains a localized version of the resources. That version will be used when the DSL is installed in a culture matching the localized resources. For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
+ This file is bound into the built assembly, and provides the default values of these resources. You can localize your DSL by creating a satellite assembly that contains a localized version of the resources. That version will be used when the DSL is installed in a culture matching the localized resources. For more information, see [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md).
 
  `DomainRelationships.cs`
 
@@ -332,13 +334,13 @@ explorerWindow.TreeContainer.ObjectModelBrowser.SelectedNode = treeNode;
  To customize this file, edit the `.tt` file.
 
 > [!WARNING]
->  If you edit the .tt file to include resources such as icons or images, make sure that the resource is included in the VSIX build. In Solution Explorer, select the file and make sure that the **Include in VSIX** property is `True`.
+> If you edit the .tt file to include resources such as icons or images, make sure that the resource is included in the VSIX build. In Solution Explorer, select the file and make sure that the **Include in VSIX** property is `True`.
 
- This file controls how the DSL is packaged into a Visual Studio Integration Extension (VSIX). For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
+ This file controls how the DSL is packaged into a Visual Studio Integration Extension (VSIX). For more information, see [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md).
 
 ## See Also
 
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
 - [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)
 - [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md)
-- [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
+- [Writing Code to Customize a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)

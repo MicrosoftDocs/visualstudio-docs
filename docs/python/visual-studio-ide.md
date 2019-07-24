@@ -1,10 +1,10 @@
 ---
 title: Overview of Visual Studio for Python developers
 titleSuffix: ""
-ms.date: 12/14/2018
+ms.date: 03/13/2019
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 dev_langs:
  - Python
@@ -21,12 +21,16 @@ The Visual Studio *integrated development environment* is a creative launching p
 This image shows Visual Studio with an open Python project and several key tool windows you'll likely use:
 
 - [**Solution Explorer**](../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](/visualstudio/get-started/tutorial-projects-solutions).
-    - Alongside **Solution Explorer** is [**Python Environments**](managing-python-environments-in-visual-studio.md), where you manage the different Python interpreters that are installed on your computer.
+  - Alongside **Solution Explorer** is [**Python Environments**](managing-python-environments-in-visual-studio.md), where you manage the different Python interpreters that are installed on your computer.
+
+  ::: moniker range=">=vs-2019"
+  - You can also open and run Python code in a folder without creating Visual Studio project and solution files. For more information, see [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md).
+  ::: moniker-end
 
 - The [editor window](../ide/writing-code-in-the-code-and-text-editor.md) (center), where you'll likely spend a majority of your time, displays file contents. This is where you [edit Python code](editing-python-code-in-visual-studio.md), navigate within your code structure, and set breakpoints during debugging sessions. With Python, you can also select code and press Ctrl+Enter to run that code in an [interactive REPL window](python-interactive-repl-in-visual-studio.md).
 
 - The [Output window](../ide/reference/output-window.md) (bottom center) is where Visual Studio sends notifications such as debugging and error messages, warnings, publishing status messages, and more. Each message source has its own tab.
-    - A [Python Interactive REPL window](python-interactive-repl-in-visual-studio.md) appears in the same area as the Output window.
+  - A [Python Interactive REPL window](python-interactive-repl-in-visual-studio.md) appears in the same area as the Output window.
 
 - [Team Explorer](/azure/devops/user-guide/work-team-explorer?view=vsts) (bottom right) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview?view=vsts).
 
@@ -34,7 +38,7 @@ This image shows Visual Studio with an open Python project and several key tool 
 
 Visual Studio is available for Windows and Mac; however, Python support is available only on Visual Studio for Windows.
 
-There are three editions of Visual Studio 2017 on Windows: Community, Professional, and Enterprise. See [Compare Visual Studio 2017 IDEs](https://visualstudio.microsoft.com/vs/compare/) to learn about which features are supported in each edition.
+There are three editions of Visual Studio on Windows: Community, Professional, and Enterprise. See [Compare Visual Studio IDEs](https://visualstudio.microsoft.com/vs/compare/) to learn about which features are supported in each edition.
 
 ## Popular productivity features
 
@@ -58,11 +62,11 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
    ![PyLint command on context menu for Python projects](media/code-pylint-command.png)
 
-- [Quick Launch](../ide/reference/quick-launch-environment-options-dialog-box.md)
+- Search box
 
-   Visual Studio can seem overwhelming at times with so many menus, options, and properties. The **Quick Launch** search box is a great way to rapidly find what you need in Visual Studio. When you start typing the name of something you're looking for, Visual Studio lists results that take you exactly where you need to go. If you need to add functionality to Visual Studio, for example to add support for an additional programming language, **Quick Launch** provides results that open Visual Studio Installer to install a workload or individual component.
+   Visual Studio can seem overwhelming at times with so many menus, options, and properties. The search box is a great way to rapidly find what you need in Visual Studio. When you start typing the name of something you're looking for, Visual Studio lists results that take you exactly where you need to go. If you need to add functionality to Visual Studio, for example to add support for an additional programming language, the search box provides results that open Visual Studio Installer to install a workload or individual component.
 
-   ![Quick Launch search box in Visual Studio](media/tour-ide-quick-launch.png)
+   ![Search box in Visual Studio](media/tour-ide-quick-launch.png)
 
 - Squiggles and [Quick Actions](../ide/quick-actions.md)
 
@@ -77,6 +81,16 @@ Some of the popular features in Visual Studio that help you to be more productiv
    ![Code navigation commands](media/tour-ide-navigation-commands.png)
 
 ## Powerful features for Python
+
+::: moniker range=">=vs-2019"
+- [Run code without a project](quickstart-05-python-visual-studio-open-folder.md)
+
+    Starting in Visual Studio 2019, you can open a folder containing Python code to enjoy features like IntelliSense and debugging without having to create a Visual Studio project for the code.
+::: moniker-end
+
+- [Collaborate using Visual Studio](https://docs.microsoft.com/visualstudio/liveshare/use/vs)
+  
+    Visual Studio Live Share enables you to collaboratively edit and debug with others in real time, regardless of what programming language you're using or app types you're building. 
 
 - [Python Interactive REPL](python-interactive-repl-in-visual-studio.md)
 

@@ -16,11 +16,11 @@ manager: jillfra
 
 In [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugging, a **document position**:  
   
--   Provides an abstraction of a position in a source file as known to the IDE. For most languages today, a document position can be thought of as a position in a source file.  
+- Provides an abstraction of a position in a source file as known to the IDE. For most languages today, a document position can be thought of as a position in a source file.  
   
--   Describes a position in a source document to a debug engine.  
+- Describes a position in a source document to a debug engine.  
   
--   Is implemented by an [IDebugDocumentPosition2](../../extensibility/debugger/reference/idebugdocumentposition2.md) interface.  
+- Is implemented by an [IDebugDocumentPosition2](../../extensibility/debugger/reference/idebugdocumentposition2.md) interface.  
   
 ## See Also  
  [Code Context](../../extensibility/debugger/code-context.md)   

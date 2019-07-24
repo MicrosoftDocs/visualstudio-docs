@@ -5,11 +5,14 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugIDECallback::DisplayMessage"
 ms.assetid: c19b48ee-b370-4fce-91fe-f82bf1e63179
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugIDECallback::DisplayMessage
 Sends the specified message string to the debugger's output window.
@@ -28,13 +31,12 @@ int DisplayMessage (
 );
 ```
 
-#### Parameters
- `szMessage`
-
- [in] Message string to display in the debugger's output window.
+## Parameters
+`szMessage`\
+[in] Message string to display in the debugger's output window.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugIDECallback](../../../extensibility/debugger/reference/idebugidecallback.md)

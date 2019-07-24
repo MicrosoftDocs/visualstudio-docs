@@ -1,9 +1,9 @@
 ---
 title: "How to: Open multiple solutions in Visual Studio for Mac"
 description: Learn how to open more than one solution in Visual Studio for Mac, and how to open more than one instance of the application.
-author: conceptdev
-ms.author: crdun
-ms.date: 07/19/2018
+author: heiligerdankgesang
+ms.author: dominicn
+ms.date: 04/02/2019
 ms.assetid: 592BA4E3-8DEF-4FCD-8BA0-519A4CEEE03E
 ms.custom: video
 ---
@@ -16,11 +16,9 @@ In addition, when you open a solution, the default behavior is to open the solut
 
 ## Open a second instance of Visual Studio for Mac
 
-To open a second instance of the integrated development environment (IDE), open the **Terminal** application and enter the following line:
+To open a second instance of the integrated development environment (IDE), right-click on the Visual Studio icon in your dock or **Applications** folder, and select **New Instance**.
 
-```bash
-open -n "/Applications/Visual Studio.app"
-```
+![Screenshot of New Instance menu option on right-clicked Visual Studio icon](media/open-new-instance.png)
 
 ## Open a second solution inside a single instance
 

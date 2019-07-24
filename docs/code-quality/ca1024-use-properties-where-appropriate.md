@@ -1,6 +1,6 @@
 ---
 title: "CA1024: Use properties where appropriate"
-ms.date: 11/04/2016
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
   - "UsePropertiesWhereAppropriate"
@@ -29,7 +29,9 @@ ms.workload:
 
 ## Cause
 
-A public or protected method has a name that starts with `Get`, takes no parameters, and returns a value that is not an array.
+A method has a name that starts with `Get`, takes no parameters, and returns a value that is not an array.
+
+By default, this rule only looks at public and protected methods, but this is [configurable](#configurability).
 
 ## Rule description
 
@@ -63,11 +65,21 @@ To fix a violation of this rule, change the method to a property.
 
 Suppress a warning from this rule if the method meets at least one of the previously listed criteria.
 
-## Controlling Property Expansion in the Debugger
+## Configurability
 
-One reason programmers avoid using a property is because they do not want the debugger to auto-expand it. For example, the property might involve allocating a large object or calling a P/Invoke, but it might not actually have any observable side effects.
+If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
 
-You can prevent the debugger from auto-expanding properties by applying <xref:System.Diagnostics.DebuggerBrowsableAttribute?displayProperty=fullName>. The following example shows this attribute being applied to an instance property.
+```ini
+dotnet_code_quality.ca1024.api_surface = private, internal
+```
+
+You can configure this option for just this rule, for all rules, or for all rules in this category (Design). For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
+
+## Control property expansion in the debugger
+
+One reason programmers avoid using a property is because they do not want the debugger to autoexpand it. For example, the property might involve allocating a large object or calling a P/Invoke, but it might not actually have any observable side effects.
+
+You can prevent the debugger from autoexpanding properties by applying <xref:System.Diagnostics.DebuggerBrowsableAttribute?displayProperty=fullName>. The following example shows this attribute being applied to an instance property.
 
 ```vb
 Imports System
@@ -117,6 +129,6 @@ namespace Microsoft.Samples
 
 ## Example
 
-The following example contains several methods that should be converted to properties, and several that should not because they do not behave like fields.
+The following example contains several methods that should be converted to properties and several that should not because they don't behave like fields.
 
 [!code-csharp[FxCop.Design.MethodsProperties#1](../code-quality/codesnippet/CSharp/ca1024-use-properties-where-appropriate_1.cs)]

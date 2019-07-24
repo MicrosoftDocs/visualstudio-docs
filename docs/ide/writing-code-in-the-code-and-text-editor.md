@@ -46,7 +46,7 @@ You can find a number of advanced features on the **Edit** > **Advanced** menu o
 
 |||
 |-|-|
-|[Format Document](code-styles-and-quick-actions.md#format-document-command)|Sets the proper indentation of lines of code and moves curly braces to separate lines in the document.|
+|Format Document|Sets the proper indentation of lines of code and moves curly braces to separate lines in the document.|
 |Format Selection|Sets the proper indentation of lines of code and moves curly braces to separate lines in the selection.|
 |Tabify Selected Lines|Changes leading spaces to tabs where appropriate.|
 |Untabify Selected Lines|Changes leading tabs to spaces. If you want to convert all the spaces in your file to tabs (or all the tabs to spaces), you can use the `Edit.ConvertSpacesToTabs` and `Edit.ConvertTabsToSpaces` commands. These commands do not appear in Visual Studio menus, but you can call them from the **Quick Access** window or the command window.|
@@ -78,7 +78,7 @@ You can share your Visual Studio settings with another developer, have your sett
 
 To define new hotkeys or redefine existing hotkeys, go to **Tools** > **Options** > **Environment** > **Keyboard**. For more information about hotkeys, see [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
-For more information about customizing the editor, see [Customize the editor](../ide/customizing-the-editor.md). For JavaScript-specific editor options, see [JavaScript editor options](../ide/reference/options-text-editor-javascript-formatting.md).
+For JavaScript-specific editor options, see [JavaScript editor options](../ide/reference/options-text-editor-javascript-formatting.md).
 
 ## See also
 

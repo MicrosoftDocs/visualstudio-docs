@@ -1,7 +1,7 @@
 ---
 layout: LandingPage
 title: Debugging your apps | Microsoft Docs
-description: Learn how use Visual Studio 2017 to debug applications, services, and tools in the language of your choice, for your platforms and devices.
+description: Learn how use Visual Studio to debug applications, services, and tools in the language of your choice, for your platforms and devices.
 ms.custom: "seodec18"
 ms.topic: landing-page
 ms.author: "mikejo"
@@ -11,6 +11,8 @@ manager: jillfra
 # Debugging in Visual Studio
 
 The Visual Studio debugger helps you observe the run-time behavior of your program and find problems. The debugger works with all Visual Studio programming languages and their associated libraries. With the debugger, you can break execution of your program to examine your code, examine and edit variables, view registers, see the instructions created from your source code, and view the memory space used by your application.
+
+<!-- markdownlint-disable MD033 -->
 
 <ul class="panelContent cardsFTitle">
     <li>

@@ -21,7 +21,6 @@ manager: jillfra
 # XslTransformation Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Transforms an XML input by using an XSLT or compiled XSLT and outputs to an output device or a file.  
   
 ## Parameters  

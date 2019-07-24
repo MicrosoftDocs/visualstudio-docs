@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProperty3::SetValueAsStringWithError"
 ms.assetid: b378368f-4a45-4b2f-8e3d-3bff7a18ab17
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProperty3::SetValueAsStringWithError
 Sets the value of this property and returns an error message, if necessary.
@@ -36,22 +39,18 @@ int SetValueAsStringWithError(
 );
 ```
 
-#### Parameters
-`pszValue`
+## Parameters
+`pszValue`\
+[in] Value to set.
 
- [in] Value to set.
+`dwRadix`\
+[in] The radix of the value being set.
 
-`dwRadix`
+`dwTimeout`\
+[in] The length of time to wait for the value to be set (`INFINITE` means wait forever).
 
- [in] The radix of the value being set.
-
-`dwTimeout`
-
- [in] The length of time to wait for the value to be set (`INFINITE` means wait forever).
-
-`errorString`
-
- [out] If there was an error setting the value, this holds the reason for the failure.
+`errorString`\
+[out] If there was an error setting the value, this holds the reason for the failure.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -164,5 +163,5 @@ HRESULT CProperty::SetValueAsStringWithError(
 }
 ```
 
-## See Also
+## See also
 - [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)

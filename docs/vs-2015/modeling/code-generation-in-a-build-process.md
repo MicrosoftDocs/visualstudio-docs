@@ -21,31 +21,31 @@ There are some differences in what the build tasks can do, depending on which bu
 
 This means that you can’t access things like project file names in the same way when you build a text template in MSBuild. However, you can [pass environment information into text templates and directive processors by using build parameters](#parameters).
 
-##  <a name="buildserver"></a> Configure your machines
+## <a name="buildserver"></a> Configure your machines
 
-To enable build tasks on your development computer, install [Modeling SDK for Visual Studio](http://www.microsoft.com/download/details.aspx?id=40754).
+To enable build tasks on your development computer, install [Modeling SDK for Visual Studio](https://www.microsoft.com/download/details.aspx?id=48148).
 
-If [your build server](http://msdn.microsoft.com/library/788443c3-0547-452e-959c-4805573813a9) runs on a computer on which Visual Studio is not installed, copy the following files to the build computer from your development machine. Substitute the most recent version numbers for ‘*’.
+If [your build server](https://msdn.microsoft.com/library/788443c3-0547-452e-959c-4805573813a9) runs on a computer on which Visual Studio is not installed, copy the following files to the build computer from your development machine. Substitute the most recent version numbers for ‘*’.
 
--   $(ProgramFiles)\MSBuild\Microsoft\VisualStudio\v*.0\TextTemplating
+- $(ProgramFiles)\MSBuild\Microsoft\VisualStudio\v*.0\TextTemplating
 
-    -   Microsoft.VisualStudio.TextTemplating.Sdk.Host.*.0.dll
+  - Microsoft.VisualStudio.TextTemplating.Sdk.Host.*.0.dll
 
-    -   Microsoft.TextTemplating.Build.Tasks.dll
+  - Microsoft.TextTemplating.Build.Tasks.dll
 
-    -   Microsoft.TextTemplating.targets
+  - Microsoft.TextTemplating.targets
 
--   $(ProgramFiles)\Microsoft Visual Studio *.0\VSSDK\VisualStudioIntegration\Common\Assemblies\v4.0
+- $(ProgramFiles)\Microsoft Visual Studio *.0\VSSDK\VisualStudioIntegration\Common\Assemblies\v4.0
 
-    -   Microsoft.VisualStudio.TextTemplating.*.0.dll
+  - Microsoft.VisualStudio.TextTemplating.*.0.dll
 
-    -   Microsoft.VisualStudio.TextTemplating.Interfaces.*.0.dll (several files)
+  - Microsoft.VisualStudio.TextTemplating.Interfaces.*.0.dll (several files)
 
-    -   Microsoft.VisualStudio.TextTemplating.VSHost.*.0.dll
+  - Microsoft.VisualStudio.TextTemplating.VSHost.*.0.dll
 
--   $(ProgramFiles)\Microsoft Visual Studio *.0\Common7\IDE\PublicAssemblies\
+- $(ProgramFiles)\Microsoft Visual Studio *.0\Common7\IDE\PublicAssemblies\
 
-    -   Microsoft.VisualStudio.TextTemplating.Modeling.*.0.dll
+  - Microsoft.VisualStudio.TextTemplating.Modeling.*.0.dll
 
 ## To edit the project file
 
@@ -84,7 +84,7 @@ After that line, insert the Text Templating import:
 
 There are some properties that you can insert into your project file to control the transformation task:
 
--   Run the Transform task at the start of every build:
+- Run the Transform task at the start of every build:
 
     ```xml
     <PropertyGroup>
@@ -92,7 +92,7 @@ There are some properties that you can insert into your project file to control 
     </PropertyGroup>
     ```
 
--   Overwrite files that are read-only, for example because they are not checked out:
+- Overwrite files that are read-only, for example because they are not checked out:
 
     ```xml
     <PropertyGroup>
@@ -100,7 +100,7 @@ There are some properties that you can insert into your project file to control 
     </PropertyGroup>
     ```
 
--   Transform every template every time:
+- Transform every template every time:
 
     ```xml
     <PropertyGroup>
@@ -207,7 +207,7 @@ $(IncludeFolders);$(MSBuildProjectDirectory)\Include;AnotherFolder;And\Another</
 </PropertyGroup>
 ```
 
-##  <a name="parameters"></a> Pass build context data into the templates
+## <a name="parameters"></a> Pass build context data into the templates
 
 You can set parameter values in the project file. For example, you can pass build properties and [environment variables](../msbuild/how-to-use-environment-variables-in-a-build.md):
 
@@ -228,7 +228,7 @@ In a text template, set `hostspecific` in the template directive. Use the [param
 The project folder is: <#= ProjectFolder #>
 ```
 
-##  <a name="msbuild"></a> Using project properties in assembly and include directives
+## <a name="msbuild"></a> Using project properties in assembly and include directives
 
 Visual Studio macros like $(SolutionDir) don’t work in MSBuild. You can use project properties instead.
 
@@ -265,13 +265,13 @@ If you update an included file, or another file read by the template, Visual Stu
 
 **What other options are there for transforming text templates?**
 
--   The [TextTransform utility](../modeling/generating-files-with-the-texttransform-utility.md) can be used in command scripts. In most cases, it’s easier to use MSBuild.
+- The [TextTransform utility](../modeling/generating-files-with-the-texttransform-utility.md) can be used in command scripts. In most cases, it’s easier to use MSBuild.
 
--   [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md)
+- [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md)
 
--   [Design-time text templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md) are transformed by Visual Studio.
+- [Design-time text templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md) are transformed by Visual Studio.
 
--   [Run time text templates](../modeling/run-time-text-generation-with-t4-text-templates.md) are transformed at run time in your application.
+- [Run time text templates](../modeling/run-time-text-generation-with-t4-text-templates.md) are transformed at run time in your application.
 
 ## Read more
 
@@ -279,4 +279,4 @@ There is good guidance in the T4 MSbuild template, $(VSToolsPath)\TextTemplating
 
 - [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)
 - [Visual Studio Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579)
-- [Oleg Sych: Understanding T4:MSBuild Integration](http://www.olegsych.com/2010/04/understanding-t4-msbuild-integration/)
+- [Oleg Sych: Understanding T4:MSBuild Integration](https://github.com/olegsych/T4Toolbox)

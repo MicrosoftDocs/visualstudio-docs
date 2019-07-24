@@ -1,5 +1,5 @@
 ---
-title: "Deploying ClickOnce Applications For Testing and Production Servers without Resigning | Microsoft Docs"
+title: "Deploy ClickOnce apps without re-signing"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -24,13 +24,13 @@ ms.workload:
 This article describes a feature of ClickOnce introduced in the .NET Framework version 3.5 that enables the deployment of ClickOnce applications from multiple network locations without re-signing or changing the ClickOnce manifests.
 
 > [!NOTE]
->  Resigning is still the preferred method for deploying new versions of applications. Whenever possible, use the resigning method. For more information, see [*Mage.exe* (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool).
+> Resigning is still the preferred method for deploying new versions of applications. Whenever possible, use the resigning method. For more information, see [*Mage.exe* (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool).
 
  Third-party developers and ISVs can opt in to this feature, making it easier for their customers to update their applications. This feature can be used in the following situations:
 
--   When updating an application, not for the first installation of an application.
+- When updating an application, not for the first installation of an application.
 
--   When there is only one configuration of the application on a computer. For example, if an application is configured to point to two different databases, you cannot use this feature.
+- When there is only one configuration of the application on a computer. For example, if an application is configured to point to two different databases, you cannot use this feature.
 
 ## Exclude deploymentProvider from deployment manifests
  In the .NET Framework 2.0 and the .NET Framework 3.0, any ClickOnce application that installs on the system for offline availability must list a `deploymentProvider` in its deployment manifest. The `deploymentProvider` is often referred to as the update location; it is the location where ClickOnce checks for application updates. This requirement, along with the need for application publishers to sign their deployments, made it difficult for a company to update a ClickOnce application from a vendor or other third party. It also makes it more difficult to deploy the same application from multiple locations on the same network.

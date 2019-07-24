@@ -65,7 +65,7 @@ Both teams use modeling diagrams in Visual Studio to help them develop systems t
 
 For more information about Team Foundation Server, see:
 
-- [Planning and tracking work](#planning-and-tracking-work)
+- [Plan and track work](#plan-and-track-work)
 
 - [Testing, validating, and checking in updated code](#TestValidateCheckInCode)
 
@@ -110,7 +110,7 @@ Both teams also use dependency validation to make sure that code under developme
 
 There is no prescribed order for using the Visual Studio modeling diagrams, so you can use them as they fit with your needs or approach. Usually, teams revisit their models iteratively and frequently throughout a project. Each diagram offers particular strengths to help you understand, describe, and communicate different aspects of the system under development.
 
-Dinner Now and Lucerne communicate with each another and with project stakeholders by using diagrams as their common language. For example, Dinner Now uses diagrams to perform these tasks:
+Dinner Now and Lucerne communicate with each other and with project stakeholders by using diagrams as their common language. For example, Dinner Now uses diagrams to perform these tasks:
 
 - Visualize existing code.
 
@@ -166,11 +166,11 @@ Dinner Now must estimate the cost of meeting the new requirement. This depends p
 
 |**Diagram**|**Describes**|
 |-|-|
-|*Dependency diagram*<br /><br /> See:<br /><br /> - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />- [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)<br />- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br />- [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)|The logical architecture of the code.<br /><br /> A dependency diagram organizes and maps the artifacts in a Visual Studio solution to abstract groups called *layers*. These layers identify the roles, tasks, or functions that these artifacts perform in the system.<br /><br /> Layer diagrams are useful for describing the intended design of the system and validating evolving code against that design.<br /><br /> To create layers, drag items from Solution Explorer, code maps, Class View, and Object Browser. To draw new layers, use the toolbox or right-click the diagram surface.<br /><br /> To view existing dependencies, right-click the layer diagram surface, and then click **Generate Dependencies**. To specify intended dependencies, draw new dependencies.|
+|*Dependency diagram*<br /><br /> See:<br /><br /> - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />- [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)<br />- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br />- [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)|The logical architecture of the code.<br /><br /> A dependency diagram organizes and maps the artifacts in a Visual Studio solution to abstract groups called *layers*. These layers identify the roles, tasks, or functions that these artifacts perform in the system.<br /><br /> Dependency diagrams are useful for describing the intended design of the system and validating evolving code against that design.<br /><br /> To create layers, drag items from Solution Explorer, code maps, Class View, and Object Browser. To draw new layers, use the toolbox or right-click the diagram surface.<br /><br /> To view existing dependencies, right-click the dependency diagram surface, and then click **Generate Dependencies**. To specify intended dependencies, draw new dependencies.|
 
- For example, the following dependency diagram describes dependencies between layers and the number of artifacts that are associated with each layer:
+For example, the following dependency diagram describes dependencies between layers and the number of artifacts that are associated with each layer:
 
- ![Dependency diagram of integrated payment system](../modeling/media/layer_integrated_dnlucerne.png)
+![Dependency diagram of integrated payment system](../modeling/media/layer_integrated_dnlucerne.png)
 
  **Dependency Diagram**
 
@@ -188,7 +188,7 @@ See:
 
 - Most diagrams consist of nodes that are connected by lines. For each diagram type, the toolbox provides different kinds of nodes and lines.
 
-     To open the toolbox, on the **View** menu, click **Toolbox**.
+   To open the toolbox, on the **View** menu, click **Toolbox**.
 
 - To create a node, drag it from the toolbox to the diagram. Certain kinds of nodes must be dragged onto existing nodes. For example, on a component diagram, a new port must be added to an existing component.
 
@@ -200,7 +200,7 @@ Visual Studio modeling diagrams are integrated with Team Foundation Server so th
 
 As their work progresses, the teams update their work items to reflect the time that they spent on their tasks. They also monitor and report status on their work by using the following Team Foundation Server features:
 
-- Daily *burndown reports* that show whether they will complete the planned work in the expected time. They generate other similar reports from Team Foundation Server to track the progress of bugs.
+- Daily *burn down reports* that show whether they will complete the planned work in the expected time. They generate other similar reports from Team Foundation Server to track the progress of bugs.
 
 - An *iteration worksheet* that uses Microsoft Excel to help the team monitor and balance the workload between its members. This worksheet is linked to Team Foundation Server and provides focus for discussion during their regular progress meetings.
 
@@ -208,7 +208,7 @@ As their work progresses, the teams update their work items to reflect the time 
 
 See:
 
-- [About Agile tools and Agile project management](/azure/devops/boards/backlogs/overview?view=vsts)
+- [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts)
 
 - [Charts, dashboards, and widgets (Azure DevOps Services)](/azure/devops/report/dashboards/overview?view=vsts)
 
@@ -323,7 +323,7 @@ This map shows that the PaymentApprover class is now in the DinnerNow.Business n
 
 |**Diagram**|**Describes**|
 |-|-|
-|Dependency diagram|The logical architecture of the system. Use dependency validation to make sure that the code stays consistent with the design.<br /><br /> To help you identify existing dependencys or intended dependencys, create a code map and group related items. To create a dependency diagram, see:<br /><br /> - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)|
+|Dependency diagram|The logical architecture of the system. Use dependency validation to make sure that the code stays consistent with the design.<br /><br /> To help you identify existing dependencies or intended dependencies, create a code map and group related items. To create a dependency diagram, see:<br /><br /> - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)|
 |Class diagram (code-based)|Existing classes in code for a specific project.<br /><br /> To visualize and modify an existing class in code, use Class Designer.<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/class-designer/how-to-add-class-diagrams-to-projects.md).|
 
 ### <a name="DefineClasses"></a> Define a Glossary of Types: Class Diagrams
@@ -349,11 +349,11 @@ A class diagram has the following major features:
 
 - Types such as classes, interfaces, and enumerations:
 
-    - A *class* is the definition of objects that share specific structural or behavioral characteristics.
+  - A *class* is the definition of objects that share specific structural or behavioral characteristics.
 
-    - An *interface* defines a part of the externally visible behavior of an object.
+  - An *interface* defines a part of the externally visible behavior of an object.
 
-    - An *enumeration* is a classifier that contains a list of literal values.
+  - An *enumeration* is a classifier that contains a list of literal values.
 
 - *Attributes* are values of a certain type that describe each instance of a *classifier*. A classifier is a general name for types, components, use cases, and even actors.
 

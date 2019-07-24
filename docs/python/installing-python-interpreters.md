@@ -1,10 +1,10 @@
 ---
 title: Select and install Python interpreters
 description: A complete list of Python interpreters that are supported in Visual Studio with brief instructions on where to find their installers.
-ms.date: 12/06/2018
+ms.date: 06/05/2019
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
@@ -14,9 +14,18 @@ ms.workload:
 
 # Install Python interpreters
 
-By default, installing the Python development workload in Visual Studio 2017 also installs Python 3 (64-bit). You can optionally choose to install 32-bit and 64-bit versions of Python 2, Python 3, Anaconda 2, and Anaconda 3, as described in [Installation](installing-python-support-in-visual-studio.md).
+By default, installing the Python development workload in Visual Studio 2017 and later also installs Python 3 (64-bit). You can optionally choose to install 32-bit and 64-bit versions of Python 2 and Python 3, along with Miniconda (Visual Studio 2019) or Anaconda 2/Anaconda 3 (Visual Studio 2017), as described in [Installation](installing-python-support-in-visual-studio.md).
+
+::: moniker range=">=vs-2019"
+Alternately, you can install standard python interpreters from the **Add Environment** dialog. Select the **Add Environment** command in the **Python Environments** window or the Python toolbar, select the **Python installation** tab, indicate which interpreters to install, and select **Install**.
+::: moniker-end
 
 You can also manually install any of the interpreters listed in the table below outside of the Visual Studio installer. For example, if you installed Anaconda 3 before installing Visual Studio, you don't need to install it again through the Visual Studio installer. You can also install an interpreter manually if, for example, a newer version of available that doesn't yet appear in the Visual Studio installer.
+
+::: moniker range=">=vs-2019"
+> [!Note]
+> Visual Studio supports Python version 2.7, as well as version 3.5 and greater. While it is possible to use Visual Studio to edit code written in other versions of Python, those versions are not officially supported and features such as IntelliSense and debugging might not work.
+::: moniker-end
 
 For **Visual Studio 2015 and earlier**, you must manually install one of the interpreters.
 

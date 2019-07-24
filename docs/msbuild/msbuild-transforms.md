@@ -27,7 +27,7 @@ In the following example, a list of *.resx* files is transformed into a list of 
 For example, if the items in the @(RESXFile) item list are *Form1.resx*, *Form2.resx*, and *Form3.resx*, the outputs in the transformed list will be *Form1.resources*, *Form2.resources*, and *Form3.resources*.
 
 > [!NOTE]
->  You can specify a custom separator for a transformed item list in the same way you specify a separator for a standard item list. For example, to separate a transformed item list by using a comma (,) instead of the default semicolon (;), use the following XML:
+> You can specify a custom separator for a transformed item list in the same way you specify a separator for a standard item list. For example, to separate a transformed item list by using a comma (,) instead of the default semicolon (;), use the following XML:
 > `@(RESXFile->'Toolset\%(filename)%(extension)', ',')`
 
 ## Use multiple modifiers
@@ -87,11 +87,11 @@ For example, if the items in the @(RESXFile) item list are *Form1.resx*, *Form2.
 
 ```
 rootdir: C:\
-fullpath: C:\xmake\sub1\sub2\sub3\myfile.xsd
-rootdir + directory + filename + extension: C:\xmake\sub1\sub2\sub3\myfile.xsd
+fullpath: C:\sub0\sub1\sub2\sub3\myfile.xsd
+rootdir + directory + filename + extension: C:\sub0\sub1\sub2\sub3\myfile.xsd
 identity: sub1\sub2\sub3\myfile.xsd
 filename: myfile
-directory: xmake\sub1\sub2\sub3\
+directory: sub0\sub1\sub2\sub3\
 relativedir: sub1\sub2\sub3\
 extension: .xsd
 ```

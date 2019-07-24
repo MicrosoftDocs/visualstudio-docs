@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "WizardData element [Visual Studio Templates]"
   - "<WizardData> element [Visual Studio Templates]"
 ms.assetid: d0403a16-5d07-4fe5-b474-19ae3d9fd3ab
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -25,7 +25,7 @@ manager: jillfra
 # Profiling on HPC (High Performance Computing) Clusters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-You can profile on compute nodes of Microsoft Windows HPC clusters by using the sampling method of the [!INCLUDE[vsPreExt](../includes/vspreext-md.md)] or [!INCLUDE[vsUltExt](../includes/vsultext-md.md)] Profiling Tools. For more information about HPC see [Windows HPC](http://go.microsoft.com/fwlink/?LinkId=165393) on the Microsoft Web site.  
+You can profile on compute nodes of Microsoft Windows HPC clusters by using the sampling method of the [!INCLUDE[vsPreExt](../includes/vspreext-md.md)] or [!INCLUDE[vsUltExt](../includes/vsultext-md.md)] Profiling Tools. For more information about HPC see [Big Compute: HPC & Batch](https://azure.microsoft.com/solutions/big-compute/) on the Microsoft Web site.  
   
 ## Prerequisites  
  To profile on a HPC compute node, you must do the following:  
@@ -36,15 +36,15 @@ You can profile on compute nodes of Microsoft Windows HPC clusters by using the 
   
   To install the [!INCLUDE[net_v40_long](../includes/net-v40-long-md.md)] and the stand-alone Profiling Tools on an active HPC compute node and enable profiling on the cluster machine, follow these steps:  
   
-1.  Open the command prompt window that is installed with the HPC pack.  
+1. Open the command prompt window that is installed with the HPC pack.  
   
-2.  Type the following commands at separate command prompts:  
+2. Type the following commands at separate command prompts:  
   
-    1.  `clusrun /all /scheduler:` *%HeadNode% %FxPath%* `/q /norestart`  
+    1. `clusrun /all /scheduler:` *%HeadNode% %FxPath%* `/q /norestart`  
   
-    2.  `clusrun /all /scheduler:` *%HeadNode%* `shutdown /r /t 0 /d u:4:2 /c "Microsoft .NET Framework install required restart"`  
+    2. `clusrun /all /scheduler:` *%HeadNode%* `shutdown /r /t 0 /d u:4:2 /c "Microsoft .NET Framework install required restart"`  
   
-    3.  `clusrun /all /scheduler:` *%HeadNode% %ProfilerPath%* `/q /norestart`  
+    3. `clusrun /all /scheduler:` *%HeadNode% %ProfilerPath%* `/q /norestart`  
   
 |||  
 |-|-|  
@@ -57,47 +57,47 @@ You can profile on compute nodes of Microsoft Windows HPC clusters by using the 
   
 #### To profile on an HPC compute node  
   
-1.  On the **Analyze** menu, click **Launch HPC Performance Wizard**. If the command is not available, make sure that you have the prerequisites listed above.  
+1. On the **Analyze** menu, click **Launch HPC Performance Wizard**. If the command is not available, make sure that you have the prerequisites listed above.  
   
-2.  Click **Next** on the first page of the wizard.  
+2. Click **Next** on the first page of the wizard.  
   
-3.  On the second page of the wizard, select the application that you want to profile.  
+3. On the second page of the wizard, select the application that you want to profile.  
   
-    -   To profile a project that is currently open in [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)], select the **One or more available projects** option and then select the project name from the list.  
+    - To profile a project that is currently open in [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)], select the **One or more available projects** option and then select the project name from the list.  
   
-    -   To profile a binary that is not in an open project select **An executable (.EXE file)** option.  
+    - To profile a binary that is not in an open project select **An executable (.EXE file)** option.  
   
-4.  Click **Next**.  
+4. Click **Next**.  
   
-5.  On the third page of the wizard:  
+5. On the third page of the wizard:  
   
-    -   If you are profiling an executable that is not in an open project, specify the path to the binary file in **What is the full path to the executable**.  
+    - If you are profiling an executable that is not in an open project, specify the path to the binary file in **What is the full path to the executable**.  
   
-    -   If you are profiling an executable that is not in an open project, you can specify any command-line arguments to pass to the process in **Command-line arguments**.  
+    - If you are profiling an executable that is not in an open project, you can specify any command-line arguments to pass to the process in **Command-line arguments**.  
   
-    -   In **Remote working directory**, specify the path to the folder that is used by the process instances on the individual compute nodes.  
+    - In **Remote working directory**, specify the path to the folder that is used by the process instances on the individual compute nodes.  
   
-    -   In **Deployment location**, specify the path to the directory that the HPC server uses to stage images for deployment.  
+    - In **Deployment location**, specify the path to the directory that the HPC server uses to stage images for deployment.  
   
-6.  Click **Next**.  
+6. Click **Next**.  
   
-7.  On the fourth page of the wizard:  
+7. On the fourth page of the wizard:  
   
-    -   In the **Head Node** list, click the computer that acts as the HPC head node in the profiling run. The Head Node can be "localhost", which enables you to profile on the local machine without the need for a cluster.  
+    - In the **Head Node** list, click the computer that acts as the HPC head node in the profiling run. The Head Node can be "localhost", which enables you to profile on the local machine without the need for a cluster.  
   
-    -   In the **Number of processes** list, click the number of instances of the application to run.  
+    - In the **Number of processes** list, click the number of instances of the application to run.  
   
-    -   From the **Profiling options** list, select the profiling target.  
+    - From the **Profiling options** list, select the profiling target.  
   
          To profile a specific process in the cluster, select the **Profile on rank** option and then select the rank of the process from the drop-down list.  
   
          To profile the process or processes that run on a specific node in the HPC cluster, select the **Profile on node** option and then select the node from the drop-down list.  
   
-8.  Click **Next**.  
+8. Click **Next**.  
   
 9. On the fifth page of the wizard, you can choose to immediately start the profiler and the profiling process or to start profiling later by using Performance Explorer.  
   
-    -   Select **Launch profiling after the wizard finishes** to start profiling immediately, or clear the check box to start profiling manually.  
+    - Select **Launch profiling after the wizard finishes** to start profiling immediately, or clear the check box to start profiling manually.  
   
 10. Click **Finish**.  
   
@@ -106,17 +106,17 @@ You can profile on compute nodes of Microsoft Windows HPC clusters by using the 
   
 #### To open the performance session property pages  
   
-1.  If necessary, open the performance session (.psess) file in Performance Explorer. On the **File** menu, click **Open** and locate the file.  
+1. If necessary, open the performance session (.psess) file in Performance Explorer. On the **File** menu, click **Open** and locate the file.  
   
-2.  In Performance Explorer, right-click the performance session name and then click **Properties**.  
+2. In Performance Explorer, right-click the performance session name and then click **Properties**.  
   
-3.  In the Property Pages dialog box, use one of the following methods:  
+3. In the Property Pages dialog box, use one of the following methods:  
   
-    -   Click **General** and then select **Collect on HPC Cluster** to turn HPC profiling on or clear the check box to disable HPC profiling.  
+    - Click **General** and then select **Collect on HPC Cluster** to turn HPC profiling on or clear the check box to disable HPC profiling.  
   
-    -   Click **HPC Launch Properties** to change the properties that start the HPC application.  
+    - Click **HPC Launch Properties** to change the properties that start the HPC application.  
   
-    -   Click **HPC Advanced Properties** to set additional options  
+    - Click **HPC Advanced Properties** to set additional options  
   
 ### HPC Launch Properties  
   

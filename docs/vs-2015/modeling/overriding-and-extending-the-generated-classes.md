@@ -40,7 +40,7 @@ Your DSL Definition is a platform on which you can build a powerful set of tools
  `} }`  
   
 > [!NOTE]
->  To override methods in a generated class, always write your code in a file that is separated from the generated files. Typically, the file is contained in a folder that is named CustomCode. If you make changes to the generated code, they will be lost when you regenerate the code from the DSL Definition.  
+> To override methods in a generated class, always write your code in a file that is separated from the generated files. Typically, the file is contained in a folder that is named CustomCode. If you make changes to the generated code, they will be lost when you regenerate the code from the DSL Definition.  
   
  To discover what methods you can override, type **override** in the class, followed by a space. The IntelliSense tooltip will tell you what methods can be overridden.  
   

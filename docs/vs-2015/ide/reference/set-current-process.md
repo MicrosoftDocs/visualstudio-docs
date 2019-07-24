@@ -16,7 +16,6 @@ manager: jillfra
 # Set Current Process
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Sets the specified process as the active process in the debugger.  
   
 ## Syntax  

@@ -23,7 +23,7 @@ manager: "wpickett"
 |Breaking Change|Breaking|
 
 > [!NOTE]
->  This warning is only applied to code that is running the CoreCLR (the version of the CLR that is specific to Silverlight Web applications).
+> This warning is only applied to code that is running the CoreCLR (the version of the CLR that is specific to Silverlight Web applications).
 
 ## Cause
  The transparency attribute of the default constructor of a derived class is not as critical as the transparency of the base class.

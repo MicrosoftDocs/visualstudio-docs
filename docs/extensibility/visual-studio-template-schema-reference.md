@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Visual Studio templates, schema"
   - ".vstemplate files"
 ms.assetid: 6f74a2d5-3811-43d6-8b10-eb5823ad8995
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

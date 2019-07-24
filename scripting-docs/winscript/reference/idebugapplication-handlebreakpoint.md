@@ -2,7 +2,6 @@
 title: "IDebugApplication::HandleBreakPoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -49,7 +48,7 @@ HRESULT HandleBreakPoint(
  A language engine calls this method in the context of a thread that hits a breakpoint. This method blocks the current thread and sends a breakpoint notification to the debugger IDE. When the debugger resumes the application, the `pbra` parameter specifies what action to take.  
   
 > [!NOTE]
->  The language engine may be called by the thread to do tasks such as enumerate stack frames or evaluate expressions during the breakpoint.  
+> The language engine may be called by the thread to do tasks such as enumerate stack frames or evaluate expressions during the breakpoint.  
   
  This method causes `IApplicationDebugger::onHandleBreakPoint` to be called.  
   

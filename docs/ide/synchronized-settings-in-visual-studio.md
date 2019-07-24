@@ -25,19 +25,19 @@ By default, the following settings are synchronized:
 
 - The following options in the **Tools** > **Options** pages:
 
-   - Theme and menu bar casing settings on the **Environment** > **General** options page.
+  - Theme and menu bar casing settings on the **Environment** > **General** options page.
 
-   - All settings on the **Environment** > **Fonts and Colors** options page.
+  - All settings on the **Environment** > **Fonts and Colors** options page.
 
-   - All keyboard shortcuts on the **Environment** > **Keyboard** options page.
+  - All keyboard shortcuts on the **Environment** > **Keyboard** options page.
 
-   - All settings on the **Environment** > **Tabs and Windows** options page.
+  - All settings on the **Environment** > **Tabs and Windows** options page.
 
-   - All settings on the **Environment** > **StartUp** options page.
+  - All settings on the **Environment** > **StartUp** options page.
 
-   - All settings on the **Text Editor** options pages.
+  - All settings on the **Text Editor** options pages, for example, [code style preferences](code-styles-and-code-cleanup.md).
 
-   - All settings on the **XAML Designer** options pages.
+  - All settings on the **XAML Designer** options pages.
 
 ## Turn off synchronized settings on a particular computer
 
@@ -69,7 +69,7 @@ If you currently have side-by-side installations of Visual Studio and want to us
 
 3. Open the **Developer Command Prompt for VS 2017** and run `devenv /resetuserdata`.
 
-1. Launch Visual Studio and import the saved settings from the exported settings file.
+1. Open Visual Studio and import the saved settings from the exported settings file.
 
 ::: moniker-end
 

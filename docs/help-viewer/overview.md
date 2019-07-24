@@ -14,15 +14,15 @@ helpviewer_keywords:
   - "Help Viewer, navigating"
   - "toolbar [Help Viewer]"
 ms.assetid: 74e41666-2ce8-4ac0-a0e5-3723d1e322c2
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Microsoft Help Viewer
 
-You can install and view content for various products and technologies on your local computer by using Microsoft Help Viewer. These products include Visual Studio, the .NET Framework, language reference, SQL Server, and Windows Development. Help Viewer enables you to:
+You can install and view content for various products and technologies on your local computer by using Microsoft Help Viewer. These products include Visual Studio, .NET, language reference, SQL Server, and Windows Development. Help Viewer enables you to:
 
 - Download sets of content, which are also referred to as books. This can be useful if you need to work "offline" and still have access to documentation.
 

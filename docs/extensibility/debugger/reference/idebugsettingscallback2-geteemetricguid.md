@@ -5,11 +5,14 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugSettingsCallback2::GetEEMetricGuid"
 ms.assetid: 3d70c19a-595d-44f1-a7b3-a0cf8f15e371
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugSettingsCallback2::GetEEMetricGuid
 Retrieves the unique identifier for a expression evaluator metric given its name.
@@ -34,25 +37,21 @@ HRESULT GetEEMetricGuid(
 );
 ```
 
-#### Parameters
- `guidLang`
+## Parameters
+`guidLang`\
+[in] Unique identifier of the programming language.
 
- [in] Unique identifier of the programming language.
+`guidVendor`\
+[in] Unique identifier of the vendor.
 
- `guidVendor`
+`pszMetric`\
+[in] Name of the metric.
 
- [in] Unique identifier of the vendor.
-
- `pszMetric`
-
- [in] Name of the metric.
-
- `pguidValue`
-
- [out] Returns the unique identifier of the metric.
+`pguidValue`\
+[out] Returns the unique identifier of the metric.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md)

@@ -1,14 +1,14 @@
 ---
-title: "Debug apps using Visual Studio"
+title: "First look at the debugger"
 description: "Get started debugging applications using the Visual Studio debugger"
-ms.custom: "mvc"
-ms.date: "01/09/2019"
-ms.topic: "quickstart"
+ms.custom: "seoapril2019"
+ms.date: 04/08/2019
+ms.topic: quickstart
 helpviewer_keywords:
   - "debugger"
 ms.assetid: c763d706-3213-494f-b4d2-990b6e1ec456
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -71,7 +71,7 @@ While in the debugger, hover over a line of code until the **Run to Click** (Run
 ![Run to Click](../debugger/media/dbg-tour-run-to-click-2.png "Run to Click")
 
 > [!NOTE]
-> The **Run to Click** (Run execution to here) button is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
+> The **Run to Click** (Run execution to here) button is available starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
 
 Click the **Run to Click** (Run execution to here) button. The debugger advances to the line of code where you clicked.
 
@@ -182,7 +182,7 @@ In this example, the `DirectoryInfo` call gave the error on the empty string sto
 The Exception Helper is a great feature that can help you debug errors. You can also do things like view error details and add a watch from the Exception Helper. Or, if needed, you can change conditions for throwing the particular exception. For more information on how to handle exceptions in your code, see [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md).
 
 > [!NOTE]
-> The Exception Helper replaces the Exception Assistant in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
+> The Exception Helper replaced the Exception Assistant starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
 
 Expand the **Exception Settings** node to see more options on how to handle this exception type, but you don't need to change anything for this tour!
 

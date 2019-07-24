@@ -66,7 +66,7 @@ public async Task RunAsync()
 
     HttpClient client = new HttpClient();
 
-    Task<string> urlString = client.GetStringAsync("http://msdn.microsoft.com");
+    Task<string> urlString = client.GetStringAsync("https://msdn.microsoft.com");
 
     while (true)
     {
@@ -209,6 +209,7 @@ while (true)
    }
 }
 ```
+
 ## Consider using asynchronous Service Bus methods
 ### ID
 AP2003

@@ -38,13 +38,13 @@ Use the **Formatting** property page to specify how elements and attributes are 
 
 Autoformatting may occur when any of the following events is detected.
 
--   Completion of an end tag or simple tag.
+- Completion of an end tag or simple tag.
 
--   Completion of a start tag.
+- Completion of a start tag.
 
--   Pasting from the clipboard.
+- Pasting from the clipboard.
 
--   Formatting keyboard commands.
+- Formatting keyboard commands.
 
 You can specify which events cause autoformatting.
 
@@ -140,7 +140,6 @@ Empty lines in element content are not removed.
 
 ```xml
 <Grid>
-
 
 <Button Name="button1">Hello</Button>
 

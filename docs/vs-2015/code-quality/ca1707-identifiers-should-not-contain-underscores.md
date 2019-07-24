@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1707: Identifiers should not contain underscores
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio 2017, see [CA1707: Identifiers should not contain underscores](https://docs.microsoft.com/visualstudio/code-quality/ca1707-identifiers-should-not-contain-underscores) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [CA1707: Identifiers should not contain underscores](https://docs.microsoft.com/visualstudio/code-quality/ca1707-identifiers-should-not-contain-underscores).  
   
 |||  
 |-|-|  

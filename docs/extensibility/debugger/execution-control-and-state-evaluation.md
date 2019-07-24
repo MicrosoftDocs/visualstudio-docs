@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], execution control"
   - "expression evaluation, control of execution"
 ms.assetid: 55adde38-1622-4b51-83cb-ce1b04c1ca7a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

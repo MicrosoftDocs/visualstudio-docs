@@ -24,7 +24,6 @@ manager: jillfra
 # UidManager Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The <xref:Microsoft.Build.Tasks.Windows.UidManager> task checks, updates, or removes unique identifiers (UIDs), in order to localize all [!INCLUDE[TLA#tla_xaml](../includes/tlasharptla-xaml-md.md)] elements that are included in the source [!INCLUDE[TLA2#tla_xaml](../includes/tla2sharptla-xaml-md.md)] files.  
   
 ## Task Parameters  
@@ -57,5 +56,5 @@ The <xref:Microsoft.Build.Tasks.Windows.UidManager> task checks, updates, or rem
  [Task Reference](../msbuild/wpf-msbuild-task-reference.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Building a WPF Application (WPF)](http://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c)   
- [How to: Localize an Application](http://msdn.microsoft.com/library/5001227e-9326-48a4-9dcd-ba1b89ee6653)
+ [Building a WPF Application (WPF)](https://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c)   
+ [How to: Localize an Application](https://msdn.microsoft.com/library/5001227e-9326-48a4-9dcd-ba1b89ee6653)

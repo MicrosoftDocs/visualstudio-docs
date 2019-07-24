@@ -24,7 +24,7 @@ Sometimes a parallelized application stubbornly continues to execute serially ev
 
 As shown in the following illustration, the Concurrency Visualizer can also expose this symptom in the CPU Utilization View, where, despite the presence of multiple threads, the application consumes only one logical core.
 
-For more information, see "Performance pattern 1: Identifying lock contention" in Hazim Shafi's [Parallel performance tools for Windows](http://go.microsoft.com/fwlink/?LinkID=160569) blog on the MSDN blog Web site.
+For more information, see the "Start with the problem section" in the MSDN Magazine article [Thread Performance - Resource Contention Concurrency Profiling in Visual Studio 2010](https://msdn.microsoft.com/magazine/ff714587.aspx).
 
 ![Lock Contention](../profiling/media/lockcontention_2.png "LockContention_2")
 

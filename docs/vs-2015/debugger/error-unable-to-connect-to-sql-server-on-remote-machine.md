@@ -25,7 +25,7 @@ Unable to connect to SQL Server on remote machine *name*. Access denied. Verify 
   
 ### To correct this error  
   
--   See [Remote Debugging](../debugger/remote-debugging.md).  
+- See [Remote Debugging](../debugger/remote-debugging.md).  
   
 ## See Also  
- [Debugging SQL](http://msdn.microsoft.com/f27c17e6-1d90-49f2-9fc0-d02e6a27f109)
+ [Debugging SQL](https://msdn.microsoft.com/f27c17e6-1d90-49f2-9fc0-d02e6a27f109)

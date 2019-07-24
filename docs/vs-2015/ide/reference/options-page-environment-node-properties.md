@@ -16,7 +16,6 @@ manager: jillfra
 # Options Page, Environment Node Properties
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This document describes the pages (or properties collections) that are associated with the **Environment** category, `DTE.Properties("Environment", <Property Page>)`, of the **Options** dialog box. The title of each subsection is the call that is used to access the Properties collection, and the table in each subsection lists the properties in the collection.  
   
 ## General  
@@ -156,8 +155,8 @@ This document describes the pages (or properties collections) that are associate
 |ViewSourceExternalProgram|Get/Set (String)|The path of the external source viewer.|  
   
 ## See Also  
- [Controlling Options Settings](http://msdn.microsoft.com/library/a09ed242-7494-4cde-bbd1-7a8ec617965d)   
- [Determining the Names of Property Items on Options Pages](http://msdn.microsoft.com/library/d450422d-47c7-4eeb-9f9f-3286264bc5aa)   
+ [Controlling Options Settings](https://msdn.microsoft.com/library/a09ed242-7494-4cde-bbd1-7a8ec617965d)   
+ [Determining the Names of Property Items on Options Pages](https://msdn.microsoft.com/library/d450422d-47c7-4eeb-9f9f-3286264bc5aa)   
  [Options Page, Fonts and Colors Node Properties](../../ide/reference/options-page-fonts-and-colors-node-properties.md)   
  [Options Page, Text Editor Node Properties](../../ide/reference/options-page-text-editor-node-properties.md)   
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

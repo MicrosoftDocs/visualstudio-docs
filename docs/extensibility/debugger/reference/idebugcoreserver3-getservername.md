@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCoreServer3::GetServerName"
 ms.assetid: 0fc3fcf5-d6a3-4a00-bf14-458b8645714e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCoreServer3::GetServerName
 Retrieves the name of the server.
@@ -30,13 +33,12 @@ int GetServerName(
 );
 ```
 
-#### Parameters
- `pbstrName`
-
- [out] Returns the name of the server.
+## Parameters
+`pbstrName`\
+[out] Returns the name of the server.
 
 > [!NOTE]
->  The caller is responsible for freeing the string.
+> The caller is responsible for freeing the string.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.
@@ -44,6 +46,6 @@ int GetServerName(
 ## Remarks
  For a friendly server name, call the [GetServerFriendlyName](../../../extensibility/debugger/reference/idebugcoreserver3-getserverfriendlyname.md) method.
 
-## See Also
+## See also
 - [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)
 - [GetServerFriendlyName](../../../extensibility/debugger/reference/idebugcoreserver3-getserverfriendlyname.md)

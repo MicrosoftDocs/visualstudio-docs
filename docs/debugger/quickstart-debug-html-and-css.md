@@ -1,6 +1,6 @@
 ---
 title: "Debug HTML and CSS in UWP apps | Microsoft Docs"
-ms.date: "07/17/2017"
+ms.date: "07/17/2018"
 ms.topic: "conceptual"
 f1_keywords:
   - "VS.WebClient.DomExplorer"
@@ -14,6 +14,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: vs-2017
 ms.workload:
   - "uwp"
 ---

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumCodePaths2::Reset"
 ms.assetid: 490c0e19-ff4b-4673-bd06-cdee996ac226
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEnumCodePaths2::Reset
 Resets the enumeration to the first element.
@@ -34,5 +37,5 @@ int Reset();
 ## Remarks
  After this method is called, the next call to the [Next](../../../extensibility/debugger/reference/ienumcodepaths2-next.md) method returns the first element of the enumeration.
 
-## See Also
+## See also
 - [IEnumCodePaths2](../../../extensibility/debugger/reference/ienumcodepaths2.md)

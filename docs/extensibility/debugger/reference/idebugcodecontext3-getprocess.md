@@ -5,11 +5,14 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugCodeContext3::GetProcess"
 ms.assetid: e082e494-2255-4d9d-a5a9-6dadd904bea8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCodeContext3::GetProcess
 Retrieves a reference to the interface of the debug process.
@@ -28,10 +31,9 @@ public int GetProcess(
 );
 ```
 
-#### Parameters
-`ppProcess`
-
- [out] Reference to the debug process interface.
+## Parameters
+`ppProcess`\
+[out] Reference to the debug process interface.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -59,5 +61,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugCodeContext3](../../../extensibility/debugger/reference/idebugcodecontext3.md)

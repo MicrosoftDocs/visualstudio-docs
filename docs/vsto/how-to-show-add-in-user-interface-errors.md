@@ -23,18 +23,18 @@ ms.workload:
 
 ## To show VSTO Add-in user interface errors
 
-1.  Start the application.
+1. Start the application.
 
-2.  Click the **File** tab.
+2. Click the **File** tab.
 
-3.  Click **Options**.
+3. Click **Options**.
 
-4.  In the categories pane, click **Advanced**.
+4. In the categories pane, click **Advanced**.
 
-5.  In the details pane, select **Show VSTO Add-in user interface errors**, and then click **OK**.
+5. In the details pane, select **Show VSTO Add-in user interface errors**, and then click **OK**.
 
     > [!NOTE]
-    >  For Outlook, the **Show VSTO Add-in user interface errors** checkbox is located in the **Developer** section of the details pane. For other applications, the checkbox is located in the **General** section of the details pane.
+    > For Outlook, the **Show VSTO Add-in user interface errors** checkbox is located in the **Developer** section of the details pane. For other applications, the checkbox is located in the **General** section of the details pane.
 
 ## See also
 - [Office UI customization](../vsto/office-ui-customization.md)

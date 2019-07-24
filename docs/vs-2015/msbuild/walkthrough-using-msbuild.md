@@ -15,7 +15,6 @@ manager: jillfra
 # Walkthrough: Using MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough introduces you to the building blocks of MSBuild and shows you how to write, manipulate, and debug MSBuild projects. You will learn about:  
   
 - Creating and manipulating a project file.  
@@ -31,11 +30,11 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
   
 #### To create a project file  
   
-1.  Open Visual Studio.  
+1. Open Visual Studio.  
   
-2.  On the **File** menu, point to **New**, and then click **Project**.  
+2. On the **File** menu, point to **New**, and then click **Project**.  
   
-3.  In the **New Project** dialog box, select the Visual C# project type, and then select the **Windows Forms Application** template. In the **Name** box, type `BuildApp`. Enter a **Location** for the solution, for example, `D:\`. Accept the defaults for **Create directory for solution** (selected), **Add to Source Control** (not selected), and **Solution Name** (`BuildApp`).  
+3. In the **New Project** dialog box, select the Visual C# project type, and then select the **Windows Forms Application** template. In the **Name** box, type `BuildApp`. Enter a **Location** for the solution, for example, `D:\`. Accept the defaults for **Create directory for solution** (selected), **Add to Source Control** (not selected), and **Solution Name** (`BuildApp`).  
   
      Click **OK** to create the project file.  
   
@@ -44,13 +43,13 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
   
 #### To examine the project file  
   
-1.  In **Solution Explorer**, click the project node BuildApp.  
+1. In **Solution Explorer**, click the project node BuildApp.  
   
-2.  In the **Properties** browser, notice that the **Project File** property is BuildApp.csproj. All project files are named with the suffix "proj". If you had created a Visual Basic project, the project file name would be BuildApp.vbproj.  
+2. In the **Properties** browser, notice that the **Project File** property is BuildApp.csproj. All project files are named with the suffix "proj". If you had created a Visual Basic project, the project file name would be BuildApp.vbproj.  
   
-3.  Right-click the project node, then click **Unload Project**.  
+3. Right-click the project node, then click **Unload Project**.  
   
-4.  Right-click the project node again, then click **Edit BuildApp.csproj**.  
+4. Right-click the project node again, then click **Edit BuildApp.csproj**.  
   
      The project file appears in the code editor.  
   
@@ -127,21 +126,21 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
  Run MSBuild from the **Visual Studio Command Prompt** to build the HelloWorld target defined above. Use the /target or /t command line switch to select the target.  
   
 > [!NOTE]
->  We will refer to the **Visual Studio Command Prompt** as the **Command Window** in the sections below.  
+> We will refer to the **Visual Studio Command Prompt** as the **Command Window** in the sections below.  
   
 #### To build the target  
   
-1.  Click **Start**, then click **All Programs**. Locate and click the **Visual Studio Command Prompt** in the **Visual Studio Tools** folder.  
+1. Click **Start**, then click **All Programs**. Locate and click the **Visual Studio Command Prompt** in the **Visual Studio Tools** folder.  
   
-2.  From the command window, navigate to the folder containing the project file, in this case, D:\BuildApp\BuildApp.  
+2. From the command window, navigate to the folder containing the project file, in this case, D:\BuildApp\BuildApp.  
   
-3.  Run msbuild with the command switch /t:HelloWorld. This selects and builds the HelloWorld target:  
+3. Run msbuild with the command switch /t:HelloWorld. This selects and builds the HelloWorld target:  
   
     ```  
     msbuild buildapp.csproj /t:HelloWorld  
     ```  
   
-4.  Examine the output in the **Command window**. You should see the two lines "Hello" and "World":  
+4. Examine the output in the **Command window**. You should see the two lines "Hello" and "World":  
   
     ```  
     Hello  
@@ -149,12 +148,12 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
     ```  
   
 > [!NOTE]
->  If instead you see `The target "HelloWorld" does not exist in the project` then you probably forgot to save the project file in the code editor. Save the file and try again.  
+> If instead you see `The target "HelloWorld" does not exist in the project` then you probably forgot to save the project file in the code editor. Save the file and try again.  
   
  By alternating between the code editor and the command window, you can change the project file and quickly see the results.  
   
 > [!NOTE]
->  If you run msbuild without the /t command switch, msbuild builds the target given by the DefaultTarget attribute of the Project element, in this case "Build". This builds the Windows Forms application BuildApp.exe.  
+> If you run msbuild without the /t command switch, msbuild builds the target given by the DefaultTarget attribute of the Project element, in this case "Build". This builds the Windows Forms application BuildApp.exe.  
   
 ## Build Properties  
  Build properties are name-value pairs that guide the build. Several build properties are already defined at the top of the project file:  
@@ -197,7 +196,7 @@ $(PropertyName)
   
 #### To examine a property value  
   
-1.  From the code editor, replace the HelloWorld target with this code:  
+1. From the code editor, replace the HelloWorld target with this code:  
   
     ```  
     <Target Name="HelloWorld">  
@@ -206,15 +205,15 @@ $(PropertyName)
     </Target>  
     ```  
   
-2.  Save the project file.  
+2. Save the project file.  
   
-3.  From the **Command Window**, enter and execute this line:  
+3. From the **Command Window**, enter and execute this line:  
   
     ```  
     msbuild buildapp.csproj /t:HelloWorld  
     ```  
   
-4.  Examine the output. You should see these two lines (your .NET Framework version may differ):  
+4. Examine the output. You should see these two lines (your .NET Framework version may differ):  
   
     ```  
     Configuration is Debug  
@@ -222,7 +221,7 @@ $(PropertyName)
     ```  
   
 > [!NOTE]
->  If you don't see these lines then you probably forgot to save the project file in the code editor. Save the file and try again.  
+> If you don't see these lines then you probably forgot to save the project file in the code editor. Save the file and try again.  
   
 ### Conditional Properties  
  Many properties like Configuration are defined conditionally, that is, the Condition attribute appears in the property element. Conditional properties are defined or redefined only if the condition evaluates to "true". Note that undefined properties are given the default value of an empty string. For example,  
@@ -314,7 +313,7 @@ $(PropertyName)
  For more information, see [Items](../msbuild/msbuild-items.md).  
   
 > [!NOTE]
->  File paths are relative to the folder containing the MSBuild project file.  
+> File paths are relative to the folder containing the MSBuild project file.  
   
 ## Examining Item Type Values  
  To get the values of an item type, use the following syntax, where ItemType is the name of the item type:  
@@ -361,19 +360,19 @@ $(PropertyName)
   
 #### To display item type values one per line  
   
-1.  From the code editor, replace the Message task with this line:  
+1. From the code editor, replace the Message task with this line:  
   
     ```  
     <Message Text="Compile item type contains @(Compile, '%0A%0D')" />  
     ```  
   
-2.  Save the project file.  
+2. Save the project file.  
   
-3.  From the **Command Window**, enter and execute this line:  
+3. From the **Command Window**, enter and execute this line:  
   
      `msbuild buildapp.csproj /t:HelloWorld`  
   
-4.  Examine the output. You should see these lines:  
+4. Examine the output. You should see these lines:  
   
     ```  
     Compile item type contains Form1.cs  
@@ -431,13 +430,13 @@ $(PropertyName)
   
 ##### To include and exclude items  
   
-1.  From the code editor, replace the Message task with this line:  
+1. From the code editor, replace the Message task with this line:  
   
     ```  
     <Message Text="Compile item type contains @(XFiles)" />  
     ```  
   
-2.  Add this item group just after the Import element:  
+2. Add this item group just after the Import element:  
   
     ```  
     <ItemGroup>  
@@ -445,15 +444,15 @@ $(PropertyName)
     </ItemGroup>  
     ```  
   
-3.  Save the project file.  
+3. Save the project file.  
   
-4.  From the **Command Window**, enter and execute this line:  
+4. From the **Command Window**, enter and execute this line:  
   
     ```  
     msbuild buildapp.csproj /t:HelloWorld  
     ```  
   
-5.  Examine the output. You should see this line:  
+5. Examine the output. You should see this line:  
   
     ```  
     Compile item type contains Form1.cs;Program.cs;Properties/Resources.resx  

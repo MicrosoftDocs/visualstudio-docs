@@ -13,7 +13,6 @@ manager: jillfra
 # How to: Execute an XSLT Transformation from the XML Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The XML Editor allows you to associate an XSLT style sheet with an XML document, perform the transformation, and view the output. The resulting output from the XSLT transformation is displayed in a new document window.  
   
  The **Output** property specifies the filename for the output. If the **Output** property is blank, a filename is generated in your temporary directory. The file extension is based on the `xsl:output` element in your style sheet and can be .xml, .txt or .htm.  
@@ -22,41 +21,41 @@ The XML Editor allows you to associate an XSLT style sheet with an XML document,
   
 ### To execute an XSLT transformation from an XML document  
   
-1.  Open an XML document in the XML Editor.  
+1. Open an XML document in the XML Editor.  
   
-2.  Associate an XSLT style sheet with the XML document.  
+2. Associate an XSLT style sheet with the XML document.  
   
-    -   Add an `xml-stylesheet` processing instruction to the XML document. For example, add the following line `<?xml-stylesheet type='text/xsl' href='filename.xsl'?>` to the document prolog.  
+    - Add an `xml-stylesheet` processing instruction to the XML document. For example, add the following line `<?xml-stylesheet type='text/xsl' href='filename.xsl'?>` to the document prolog.  
   
          -or-  
   
-    -   Add the XSLT style sheet using the **Properties** window. In the document **Properties Window**, click the **Browse** button for the **Stylesheet** field, select the XSLT style sheet, and click **Open**.  
+    - Add the XSLT style sheet using the **Properties** window. In the document **Properties Window**, click the **Browse** button for the **Stylesheet** field, select the XSLT style sheet, and click **Open**.  
   
-3.  Click the **ShowXSL Output** button on the **XML Editor** toolbar.  
+3. Click the **ShowXSL Output** button on the **XML Editor** toolbar.  
   
     > [!NOTE]
-    >  If there is no style sheet associated with the XML document, a dialog box prompts you to provide the style sheet to use.  
+    > If there is no style sheet associated with the XML document, a dialog box prompts you to provide the style sheet to use.  
     >   
     >  The resulting output from the XSLT transformation is displayed in a new document window.  
   
 ### To execute an XSLT transformation from an XSLT style sheet  
   
-1.  Open an XSLT style sheet in the XML Editor.  
+1. Open an XSLT style sheet in the XML Editor.  
   
-2.  Specify an XML document in the **Input** field of the document **Properties** window.  
+2. Specify an XML document in the **Input** field of the document **Properties** window.  
   
     > [!NOTE]
-    >  The XML document is the input document used for transformation. If a document is not specified when the XSLT transformation is started, the **File Open** dialog box appears, and you can specify a document at that time.  
+    > The XML document is the input document used for transformation. If a document is not specified when the XSLT transformation is started, the **File Open** dialog box appears, and you can specify a document at that time.  
   
-3.  Click the **ShowXSLT Output** button on the **XML Editor** toolbar.  
+3. Click the **ShowXSLT Output** button on the **XML Editor** toolbar.  
   
      The resulting output from the XSLT transformation is displayed in a new document window.  
   
 ### To provide a different output file name  
   
-1.  Specify a file name in the **Output** field of the document **Properties** window.  
+1. Specify a file name in the **Output** field of the document **Properties** window.  
   
-2.  Click the **ShowXSLT Output** button on the **XML Editor** toolbar.  
+2. Click the **ShowXSLT Output** button on the **XML Editor** toolbar.  
   
      The resulting output from the XSLT transformation is displayed in a new document window and the editor used in the output window depends on the file extension of your **Output** document property.  
   

@@ -18,7 +18,6 @@ manager: jillfra
 # GetReferenceAssemblyPaths Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Returns the reference assembly paths of the various frameworks.  
   
 ## Parameters  

@@ -17,11 +17,11 @@ Controls enable users to interact with your app. You can use them to collect inf
   
  **In this topic:**  
   
--   [Add controls to the artboard](#Insert)  
+- [Add controls to the artboard](#Insert)  
   
--   [Make controls do things](#Modify)  
+- [Make controls do things](#Modify)  
   
-##  <a name="Insert"></a> Add controls to the artboard  
+## <a name="Insert"></a> Add controls to the artboard  
  You can drag controls from the **Assets** panel onto the **artboard**, and then modify them in the **Properties** window.  
   
  ![Blend &#45; Assets &#45; FlipView](../designers/media/blend-assetsflipview-xaml.png "blend_AssetsFlipView_XAML")  
@@ -34,8 +34,8 @@ Controls enable users to interact with your app. You can use them to collect inf
 |`Button` ![](../designers/media/05df1779-a68f-436b-b834-a91b7995a3ec.png "05df1779-a68f-436b-b834-a91b7995a3ec")|![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Design a button](http://www.popscreen.com/v/6A4gb/Microsoft-Expression-Blend-Designing-a-Button)|  
 |`Textblock` ![](../designers/media/42165963-00f7-4a33-abcd-b0849edebada.png "42165963-00f7-4a33-abcd-b0849edebada")|![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Add images to a textblock](http://www.popscreen.com/v/6A4du/Microsoft-Expression-Blend-Adding-Images-to-a-TextBlock)|  
 |`Slider` ![](../designers/media/bf689d92-3c74-4218-815c-e98c930ac189.png "bf689d92-3c74-4218-815c-e98c930ac189")|![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Build a Slider with a  ToolTip](http://www.bing.com/videos/search?q=slider%20expression%20blend&qs=n&form=QBVR&pq=slider%20expression%20blend&sc=1-23&sp=-1&sk=#view=detail&mid=F1BB7DB91B2772A8CA2AF1BB7DB91B2772A8CA2A)|  
-|`GridSplitter` ![](../designers/media/d08d529f-a27e-4a8f-95aa-8a4e8b4ee7be.png "d08d529f-a27e-4a8f-95aa-8a4e8b4ee7be")|![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Work with a GridSplitter](http://msdn.microsoft.com/expression/cc188687.aspx)|  
-  
+|`GridSplitter` ![](../designers/media/d08d529f-a27e-4a8f-95aa-8a4e8b4ee7be.png "d08d529f-a27e-4a8f-95aa-8a4e8b4ee7be")|![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Work with a GridSplitter](https://www.youtube.com/watch?v=bf4t6c8ms2w)|          
+
 ### Make a control out of an image, shape, or path  
  You can make any object into a control.  
   
@@ -47,7 +47,7 @@ Controls enable users to interact with your app. You can use them to collect inf
   
  To make a control, select an object. Then, on the **Tools** menu, click **Make Control**.  
   
-##  <a name="Modify"></a> Make controls do things  
+## <a name="Modify"></a> Make controls do things  
  Controls can perform actions when users interact with them. For example, they can start an animation, update a data source or play a video.  
   
  Use *triggers*, *behaviors*, and *events* to make controls do things.  

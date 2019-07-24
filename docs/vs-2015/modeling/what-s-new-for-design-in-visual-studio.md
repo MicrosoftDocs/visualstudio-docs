@@ -3,19 +3,18 @@ title: "What&#39;s new for design"
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-modeling
-ms.technology: "vs-devops-techdebt"
 ms.topic: conceptual
 helpviewer_keywords:
-  - "what's new [VIsual Studio ALM], architecture and modeling"
+  - "what's new [VIsual Studio], architecture and modeling"
   - "architecture [Visual Studio Ultimate], modeling"
-  - "modeling software [Visual Studio ALM], What's New"
+  - "modeling software [Visual Studio], What's New"
 ms.assetid: 36ab5c17-6dc0-4075-a28e-a0fa49b11260
 caps.latest.revision: 34
 author: gewarren
 ms.author: gewarren
 manager: jillfra
 ---
-# What's new for design in Visual Studio
+# What's new for design in Visual Studio in Visual Studio 2015
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 This release of Visual Studio includes the following improvements to help you better understand and design code.
 
@@ -59,7 +58,7 @@ This release of Visual Studio includes the following improvements to help you be
 
 - **Architecture Explorer**. You can no longer use Architecture Explorer to create diagrams. But you can still use Solution Explorer.
 
-##  <a name="VersionSupport"></a> Edition support for architecture and modeling tools
+## <a name="VersionSupport"></a> Edition support for architecture and modeling tools
 
 Visual Studio 2015 is available in several editions. Not all of these provide support for the architecture and modeling tools. The following table shows the availability of each tool.
 

@@ -4,7 +4,6 @@ ms.date: 02/06/2018
 ms.topic: conceptual
 f1_keywords:
   - "vs.openprojectfromweb"
-  - "vs.newproject"
   - "VS.ToolsOptionsPages.Projects.General"
   - "SolutionItemsProject"
 helpviewer_keywords:
@@ -33,35 +32,9 @@ While you can construct a project yourself by adding the necessary files to it, 
 
 That being said, solutions and projects are not required to develop apps in Visual Studio. You can also just open code that you have cloned from Git or downloaded elsewhere. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
-> [!NOTE]
-> The descriptions in this topic are based on the Visual Studio Community edition. The dialog boxes and menu commands you see might differ from those described here, depending on your settings or Visual Studio edition. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools** > **Import and Export Settings**, and then choose **Reset all settings**.
+## Create a project from a project template
 
-## To create a project from a project template
-
-1. There are multiple ways to create a new project in Visual Studio. On the **Start Page**, enter the name of a project template in the **Search project templates** box, or choose the **Create new project** link to open the **New Project** dialog box. You can also choose **File** > **New** > **Project** on the menu bar, or choose the **New Project** button on the toolbar.
-
-   ![Start page](./media/vside-newproject1.png)
-
-   In the **New Project** dialog box, available project templates appear in a list under the **Templates** category. Templates are organized by programming language and project type, such as Visual C#, JavaScript, and Azure Data Lake.
-
-   ![New project dialog box](./media/vside-newproject-templates-list.png)
-
-   > [!NOTE]
-   > The list of available languages and project templates that appears depends on the version of Visual Studio you are running and the workloads that are installed. To learn about how to install additional workloads, see [Modify Visual Studio by adding or removing workloads and components](../install/modify-visual-studio.md).
-
-2. Show the list of templates for the programming language you want to use by choosing the triangle next to the language name, and then choose a project type.
-
-   The following example shows the project templates available for Visual C# .NET Core projects.
-
-   ![Project templates](./media/new-project-dialog-net-core.png)
-
-3. Enter a name for the new project in the **Name** box. You can choose to save the project in the default location on your system, or choose the **Browse** button to find another location.
-
-   You can also optionally choose to change the solution name, or add the new project to a Git repository by choosing **Add to Source Control**.
-
-4. Choose the **OK** button to create the solution and project.
-
-5. If you want to add an additional project to the solution, choose the solution node in **Solution Explorer**, and then on the menu bar, choose **Project** > **Add New Item**.
+For information about creating a new project from a template, see [Create a new project in Visual Studio](create-new-project.md).
 
 ## Create a project from existing code files
 
@@ -82,12 +55,26 @@ If you have a file that applies to multiple projects, such as a readme file for 
 
 ## Create a .NET project that targets a specific version of the .NET Framework
 
-When you create a project, you can specify a specific version of the .NET Framework that you want the project to use. To specify a .NET framework version, choose the **Framework** drop-down menu in the **New Project** dialog box.
+When you create a .NET Framework project, you can specify a specific version of the .NET Framework that you want the project to use. (When you create a .NET Core project, you don't specify a framework version.)
+
+::: moniker range="vs-2017"
+
+To specify a .NET Framework version, choose the **Framework** drop-down menu in the **New Project** dialog box.
 
 ![Framework drop-down in New Project dialog](./media/vside-newproject-framework.png)
 
 > [!NOTE]
 > You must have .NET Framework 3.5 installed on your system to access .NET Framework versions earlier than .NET Framework 4.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+To specify a .NET Framework version, choose the **Framework** drop-down menu on the **Create a new project** page.
+
+![Framework selector in configure new project](media/vs-2019/configure-new-project-framework.png)
+
+::: moniker-end
 
 ## Create empty solutions
 
@@ -95,23 +82,43 @@ You can also create empty solutions that have no projects. This might be prefera
 
 ### To create an empty solution
 
-1. On the menu, choose **File** > **New** > **Project**.
+1. On the menu bar, choose **File** > **New** > **Project**.
 
-1. In the left (**Templates**) pane, choose **Other Project Types** > **Visual Studio Solutions** in the expanded list.
+::: moniker range="vs-2017"
 
-1. In the middle pane, choose **Blank Solution**.
+2. In the left (**Templates**) pane, choose **Other Project Types** > **Visual Studio Solutions** in the expanded list.
 
-1. Enter **Name** and **Location** values for your solution, then choose **OK**.
+3. In the middle pane, choose **Blank Solution**.
+
+4. Enter **Name** and **Location** values for your solution, and then choose **OK**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. On the **Create a new project** page, type **solution** into the search box.
+
+3. Select the **Blank Solution** template, and then click **Next**.
+
+4. Enter **Name** and **Location** values for your solution, and then choose **Create**.
+
+::: moniker-end
 
 After you create an empty solution, you can add new or existing projects or items to it by choosing **Add New Item** or **Add Existing Item** on the **Project** menu.
 
 As mentioned earlier, you can also open code files without needing a project or solution. To learn about developing code in this way, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
-## Create a temporary project (C# and Visual Basic)
+::: moniker range="vs-2017"
+
+## Create a temporary project
+
+(C# and Visual Basic only)
 
 If you create a .NET-based project without specifying a disk location, it is a temporary project. Temporary projects enable you to experiment with .NET projects. At any time while you are working with a temporary project, you can choose to save it or discard it.
 
 To create a temporary project, first go to **Tools** > **Options** > **Projects and Solutions** > **General**, and uncheck the **Save new projects when created** checkbox. Then open the **New Project** dialog box as usual.
+
+::: moniker-end
 
 ## Delete a solution, project, or item
 
@@ -120,13 +127,13 @@ You can delete solutions and their contents permanently, but not by using the Vi
 > [!NOTE]
 > The *.suo* file is a hidden file that is not displayed under the default File Explorer settings. To show hidden files, on the **View** menu in File Explorer, select the **Hidden Items** checkbox.
 
-### To permanently delete a solution
+### Permanently delete a solution
 
 1. In **Solution Explorer**, on the right-click menu (context menu) of the solution you want to delete, choose **Open folder in File Explorer**.
 
 1. In File Explorer, navigate up one level.
 
-1. Choose the folder containing the solution and then choose the **Delete** key.
+1. Choose the folder containing the solution and then press the **Delete** key.
 
 ## See also
 

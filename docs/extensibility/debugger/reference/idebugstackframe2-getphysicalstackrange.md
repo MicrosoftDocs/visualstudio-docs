@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugStackFrame2::GetPhysicalStackRange"
 ms.assetid: 2f6992e2-ac1c-433f-83b7-a7f83a4ce63d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugStackFrame2::GetPhysicalStackRange
 Gets a machine-dependent representation of the range of physical addresses associated with a stack frame.
@@ -32,14 +35,12 @@ int GetPhysicalStackRange ( 
 );
 ```
 
-#### Parameters
- `paddrMin`
+## Parameters
+`paddrMin`\
+[out] Returns the lowest physical address associated with this stack frame.
 
- [out] Returns the lowest physical address associated with this stack frame.
-
- `paddrMax`
-
- [out] Returns the highest physical address associated with this stack frame.
+`paddrMax`\
+[out] Returns the highest physical address associated with this stack frame.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -49,5 +50,5 @@ int GetPhysicalStackRange ( 
 
  It is assumed that the call stack grows down, that is, that new stack frames are added at increasingly lower memory addresses. A run-time architecture must provide physical stack ranges that match this assumption.
 
-## See Also
+## See also
 - [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)

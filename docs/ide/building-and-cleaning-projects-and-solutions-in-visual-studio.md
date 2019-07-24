@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "solution build configurations, build order"
   - "builds [Visual Studio], preparing"
 ms.assetid: 710891fd-379e-42c2-a84b-44a7af694ca0
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -36,44 +36,44 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
 
 ## To build, rebuild, or clean an entire solution
 
-1.  In **Solution Explorer**, choose or open the solution.
+1. In **Solution Explorer**, choose or open the solution.
 
-2.  On the menu bar, choose **Build**, and then choose one of the following commands:
+2. On the menu bar, choose **Build**, and then choose one of the following commands:
 
-    -   Choose **Build** or **Build Solution** to compile only those project files and components that have changed since the most recent build.
+    - Choose **Build** or **Build Solution** to compile only those project files and components that have changed since the most recent build.
 
         > [!NOTE]
         > The **Build** command becomes **Build Solution** when a solution includes more than one project.
 
-    -   Choose **Rebuild Solution** to "clean" the solution and then build all project files and components.
+    - Choose **Rebuild Solution** to "clean" the solution and then build all project files and components.
 
-    -   Choose **Clean Solution** to delete any intermediate and output files. With only the project and component files left, new instances of the intermediate and output files can then be built.
+    - Choose **Clean Solution** to delete any intermediate and output files. With only the project and component files left, new instances of the intermediate and output files can then be built.
 
 ## To build or rebuild a single project
 
-1.  In **Solution Explorer**, choose or open the project.
+1. In **Solution Explorer**, choose or open the project.
 
-2.  On the menu bar, choose **Build**, and then choose either **Build** *ProjectName* or **Rebuild** *ProjectName*.
+2. On the menu bar, choose **Build**, and then choose either **Build** *ProjectName* or **Rebuild** *ProjectName*.
 
-    -   Choose **Build** *ProjectName* to build only those project components that have changed since the most recent build.
+    - Choose **Build** *ProjectName* to build only those project components that have changed since the most recent build.
 
-    -   Choose **Rebuild** *ProjectName* to "clean" the project and then build the project files and all project components.
+    - Choose **Rebuild** *ProjectName* to "clean" the project and then build the project files and all project components.
 
 ## To build only the startup project and its dependencies
 
-1.  On the menu bar, choose **Tools** > **Options**.
+1. On the menu bar, choose **Tools** > **Options**.
 
-2.  In the **Options** dialog box, expand the **Projects and Solutions** node, and then choose the **Build and Run** page.
+2. In the **Options** dialog box, expand the **Projects and Solutions** node, and then choose the **Build and Run** page.
 
      The **Build and Run** > **Projects and Solutions** > **Options** dialog box opens.
 
-3.  Select the  **Only build startup projects and dependencies on Run** check box.
+3. Select the  **Only build startup projects and dependencies on Run** check box.
 
      When this check box is selected, only the current startup project and its dependencies are built when you perform either of the following steps:
 
-    -   On the menu bar, choose **Debug** > **Start** (**F5**).
+    - On the menu bar, choose **Debug** > **Start** (**F5**).
 
-    -   On the menu bar, choose **Build** > **Build Solution** (**Ctrl**+**Shift**+**B**).
+    - On the menu bar, choose **Build** > **Build Solution** (**Ctrl**+**Shift**+**B**).
 
     When this check box is cleared, all projects, their dependencies, and the solution files are built when you run either of the preceding commands. By default, this check box is cleared.
 

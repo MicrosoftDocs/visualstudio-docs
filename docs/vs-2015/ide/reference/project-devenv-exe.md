@@ -21,7 +21,6 @@ manager: jillfra
 # /Project (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Identifies a single project within the specified solution configuration to build, clean, rebuild, or deploy.  
   
 ## Syntax  
@@ -58,11 +57,11 @@ devenv SolutionName {/build|/clean|/rebuild|/deploy} SolnConfigName
   
 ## Remarks  
   
--   Must be used part of a `devenv /build`, /`clean`, `/rebuild`, or `/deploy` command.  
+- Must be used part of a `devenv /build`, /`clean`, `/rebuild`, or `/deploy` command.  
   
--   Enclose strings that include spaces in double quotation marks.  
+- Enclose strings that include spaces in double quotation marks.  
   
--   Summary information for builds, including errors, can be displayed in the **Command** window, or in any log file specified with the `/out` switch.  
+- Summary information for builds, including errors, can be displayed in the **Command** window, or in any log file specified with the `/out` switch.  
   
 ## Example  
  This example builds the project `CSharpConsoleApp`, using the `Debug` project build configuration within the `Debug` solution configuration of `MySolution`.  

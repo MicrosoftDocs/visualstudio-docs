@@ -20,7 +20,7 @@ The following tables identify how DevOps features in Visual Studio apply or don'
 
 ## Agile tools
 
-Reference link: [About Agile tools and Agile project management](/azure/devops/boards/backlogs/overview?view=vsts) (using Azure Boards or TFS, including Team Explorer Everywhere)
+Reference link: [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts) (using Azure Boards or TFS, including Team Explorer Everywhere)
 
 General Comment: all planning and tracking features are independent of project type and coding languages.
 

@@ -1,6 +1,6 @@
 ---
 title: "CA2000: Dispose objects before losing scope"
-ms.date: 11/04/2016
+ms.date: 05/14/2019
 ms.topic: reference
 f1_keywords:
   - "CA2000"
@@ -29,44 +29,59 @@ ms.workload:
 |Breaking Change|Non-breaking|
 
 ## Cause
- A local object of a <xref:System.IDisposable> type is created but the object is not disposed before all references to the object are out of scope.
+
+A local object of an <xref:System.IDisposable> type is created, but the object is not disposed before all references to the object are out of scope.
 
 ## Rule description
- If a disposable object is not explicitly disposed before all references to it are out of scope, the object will be disposed at some indeterminate time when the garbage collector runs the finalizer of the object. Because an exceptional event might occur that will prevent the finalizer of the object from running, the object should be explicitly disposed instead.
+
+If a disposable object is not explicitly disposed before all references to it are out of scope, the object will be disposed at some indeterminate time when the garbage collector runs the finalizer of the object. Because an exceptional event might occur that will prevent the finalizer of the object from running, the object should be explicitly disposed instead.
+
+### Special cases
+
+Rule CA2000 does not fire for local objects of the following types even if the object is not disposed:
+
+- <xref:System.IO.Stream?displayProperty=nameWithType>
+- <xref:System.IO.TextReader?displayProperty=nameWithType>
+- <xref:System.IO.TextWriter?displayProperty=nameWithType>
+- <xref:System.Resources.IResourceReader?displayProperty=nameWithType>
+
+Passing an object of one of these types to a constructor and then assigning it to a field indicates a *dispose ownership transfer* to the newly constructed type. That is, the newly constructed type is now responsible for disposing of the object. If your code passes an object of one of these types to a constructor, no violation of rule CA2000 occurs even if the object is not disposed before all references to it are out of scope.
 
 ## How to fix violations
- To fix a violation of this rule, call <xref:System.IDisposable.Dispose%2A> on the object before all references to it are out of scope.
 
- Note that you can use the `using` statement (`Using` in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]) to wrap objects that implement `IDisposable`. Objects that are wrapped in this manner will automatically be disposed at the close of the `using` block.
+To fix a violation of this rule, call <xref:System.IDisposable.Dispose%2A> on the object before all references to it are out of scope.
 
- The following are some situations where the using statement is not enough to protect IDisposable objects and can cause CA2000 to occur.
+You can use the [`using` statement](/dotnet/csharp/language-reference/keywords/using-statement) ([`Using`](/dotnet/visual-basic/language-reference/statements/using-statement) in Visual Basic) to wrap objects that implement <xref:System.IDisposable>. Objects that are wrapped in this manner are automatically disposed at the end of the `using` block. However, the following situations should not or cannot be handled with a `using` statement:
 
-- Returning a disposable object requires that the object is constructed in a try/finally block outside a using block.
+- To return a disposable object, the object must constructed in a `try/finally` block outside of a `using` block.
 
-- Initializing members of a disposable object should not be done in the constructor of a using statement.
+- Do not initialize members of a disposable object in the constructor of a `using` statement.
 
-- Nesting constructors that are protected only by one exception handler. For example,
+- When constructors that are protected by only one exception handler are nested in the [acquisition part of a `using` statement](/dotnet/csharp/language-reference/language-specification/statements#the-using-statement), a failure in the outer constructor can result in the object created by the nested constructor never being closed. In the following example, a failure in the <xref:System.IO.StreamReader> constructor can result in the <xref:System.IO.FileStream> object never being closed. CA2000 flags a violation of the rule in this case.
 
-    ```csharp
-    using (StreamReader sr = new StreamReader(new FileStream("C:\myfile.txt", FileMode.Create)))
-    { ... }
-    ```
+   ```csharp
+   using (StreamReader sr = new StreamReader(new FileStream("C:\myfile.txt", FileMode.Create)))
+   { ... }
+   ```
 
-     causes CA2000 to occur because a failure in the construction of the StreamReader object can result in the FileStream object never being closed.
-
-- Dynamic objects should use a shadow object to implement the Dispose pattern of IDisposable objects.
+- Dynamic objects should use a shadow object to implement the dispose pattern of <xref:System.IDisposable> objects.
 
 ## When to suppress warnings
- Do not suppress a warning from this rule unless you have called a method on your object that calls `Dispose`, such as <xref:System.IO.Stream.Close%2A>, or if the method that raised the warning returns an IDisposable object wraps your object.
+
+Do not suppress a warning from this rule unless:
+
+- You've called a method on your object that calls `Dispose`, such as <xref:System.IO.Stream.Close%2A>
+- The method that raised the warning returns an <xref:System.IDisposable> object that wraps your object
+- The allocating method does not have dispose ownership; that is, the responsibility to dispose the object is transferred to another object or wrapper that's created in the method and returned to the caller
 
 ## Related rules
- [CA2213: Disposable fields should be disposed](../code-quality/ca2213-disposable-fields-should-be-disposed.md)
 
- [CA2202: Do not dispose objects multiple times](../code-quality/ca2202-do-not-dispose-objects-multiple-times.md)
+- [CA2213: Disposable fields should be disposed](../code-quality/ca2213-disposable-fields-should-be-disposed.md)
+- [CA2202: Do not dispose objects multiple times](../code-quality/ca2202-do-not-dispose-objects-multiple-times.md)
 
 ## Example
 
-If you are implementing a method that returns a disposable object, use a try/finally block without a catch block to make sure that the object is disposed. By using a try/finally block, you allow exceptions to be raised at the fault point and make sure that object is disposed.
+If you're implementing a method that returns a disposable object, use a try/finally block without a catch block to make sure that the object is disposed. By using a try/finally block, you allow exceptions to be raised at the fault point and make sure that object is disposed.
 
 In the OpenPort1 method, the call to open the ISerializable object SerialPort or the call to SomeMethod can fail. A CA2000 warning is raised on this implementation.
 
@@ -142,7 +157,6 @@ Public Function OpenPort2(ByVal PortName As String) As SerialPort
          tempPort.Close()
       End If
 
-
    End Try
 
    Return port
@@ -151,13 +165,14 @@ End Function
 ```
 
 ## Example
- By default, the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler has all arithmetic operators check for overflow. Therefore, any Visual Basic arithmetic operation might throw an <xref:System.OverflowException>. This could lead to unexpected violations in rules such as CA2000. For example, the following CreateReader1 function will produce a CA2000 violation because the Visual Basic compiler is emitting an overflow checking instruction for the addition that could throw an exception that would cause the StreamReader not to be disposed.
 
- To fix this, you can disable the emitting of overflow checks by the Visual Basic compiler in your project or you can modify your code as in the following CreateReader2 function.
+By default, the Visual Basic compiler has all arithmetic operators check for overflow. Therefore, any Visual Basic arithmetic operation might throw an <xref:System.OverflowException>. This could lead to unexpected violations in rules such as CA2000. For example, the following CreateReader1 function will produce a CA2000 violation because the Visual Basic compiler is emitting an overflow checking instruction for the addition that could throw an exception that would cause the StreamReader not to be disposed.
 
- To disable the emitting of overflow checks, right-click the project name in Solution Explorer and then click **Properties**. Click **Compile**, click **Advanced Compile Options**, and then check **Remove integer overflow checks**.
+To fix this, you can disable the emitting of overflow checks by the Visual Basic compiler in your project or you can modify your code as in the following CreateReader2 function.
 
-  [!code-vb[FxCop.Reliability.CA2000.DisposeObjectsBeforeLosingScope#1](../code-quality/codesnippet/VisualBasic/ca2000-dispose-objects-before-losing-scope-vboverflow_1.vb)]
+To disable the emitting of overflow checks, right-click the project name in Solution Explorer and then click **Properties**. Click **Compile**, click **Advanced Compile Options**, and then check **Remove integer overflow checks**.
+
+[!code-vb[FxCop.Reliability.CA2000.DisposeObjectsBeforeLosingScope#1](../code-quality/codesnippet/VisualBasic/ca2000-dispose-objects-before-losing-scope-vboverflow_1.vb)]
 
 ## See also
 

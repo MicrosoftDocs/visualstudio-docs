@@ -1,5 +1,5 @@
 ---
-title: "How to: Permit code to run behind documents with restricted permissions"
+title: "Permit code to run behind docs with restricted permissions"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -32,7 +32,7 @@ ms.workload:
 2. Click the **File** tab, point to **Prepare**, point to **Restrict Permission**, and then click **Restricted Access**.
 
    > [!NOTE]
-   >  On first use, you are prompted to install the Windows Rights Management client. After you install the client, you might need to repeat the steps.
+   > On first use, you are prompted to install the Windows Rights Management client. After you install the client, you might need to repeat the steps.
 
 3. In the **Permission** dialog box, select **Restrict permission to this document**, and then click **More Options**.
 

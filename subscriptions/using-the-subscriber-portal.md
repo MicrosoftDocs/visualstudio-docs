@@ -1,15 +1,14 @@
 ---
 title: Using the Subscriber Portal - http://my.visualstudio.com | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 01/04/2018
+ms.author: lank
+manager: lank
+ms.date: 07/19/2019
 ms.topic: conceptual
 description: Learn about the full range of benefits available to you on the Visual Studio subscriptions portal
-searchscope: VS Subscription
 ---
 
-# Using the subscriber portal - my.<span></span>visualstudio<span></span>.com
+# Using the subscriber portal - my.visualstudio.com
 
 The Visual Studio Subscriptions Portal, [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs), is your all-in-one resource to take advantage of the full range of benefits provided through your Visual Studio subscription.
 
@@ -46,4 +45,7 @@ In addition to the individual benefits found in the Support category on the Bene
 
 ## [Marketplace](https://marketplace.visualstudio.com/)
 
-Need to renew a Visual Studio cloud subscription?  Want to download the latest extensions for the Visual Studio family of products?  The Marketplace helps users find extensions, tools, and services that make Azure DevOps, Team Foundation Server, and Visual Studio Code even better. You can even become a publisher, and publish your own extensions on the Marketplace.
+Need to renew a Visual Studio cloud subscription?  Want to download the latest extensions for the Visual Studio family of products?  The Marketplace helps users find extensions, tools, and services that make Azure DevOps, Azure DevOps Server, and Visual Studio Code even better. You can even become a publisher, and publish your own extensions on the Marketplace.
+
+## Next steps
+Sign in to the portal at [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and check out your benefits.  You can also learn more about signing in to the portal with your [Microsoft Account](sign-in-msa.md) (MSA), your [work or school account](sign-in-work.md), and even your [GitHub account](sign-in-github.md). 

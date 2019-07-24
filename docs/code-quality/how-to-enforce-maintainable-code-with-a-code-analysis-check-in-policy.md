@@ -1,5 +1,5 @@
 ---
-title: "How to: Enforce Maintainable Code with a Code Analysis Check-in Policy"
+title: "Use a code analysis check-in policy"
 ms.date: 11/04/2016
 ms.topic: "conceptual"
 helpviewer_keywords:

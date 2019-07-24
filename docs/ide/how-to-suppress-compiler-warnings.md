@@ -3,8 +3,8 @@ title: Suppress compiler warnings for projects and NuGet packages
 ms.date: 01/24/2018
 ms.technology: vs-ide-compile
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -57,7 +57,7 @@ This example shows you how to edit the *.vbproj* file to suppress specific compi
 
 1. On the menu bar, choose **Project** > **Unload Project**.
 
-1. In **Solution Explorer**, open the right-click or shortcut menu for the project, and then choose **Edit <ProjectName>.vbproj**.
+1. In **Solution Explorer**, open the right-click or shortcut menu for the project, and then choose **Edit \<ProjectName>.vbproj**.
 
     The XML project file opens in the code editor.
 

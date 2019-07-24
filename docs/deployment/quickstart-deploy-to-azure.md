@@ -1,7 +1,7 @@
 ---
 title: Publish to Azure App Service
 ms.date: 01/29/2019
-ms.topic: "quickstart"
+ms.topic: quickstart
 helpviewer_keywords:
   - "deployment, website"
 ms.assetid: fc82b1f1-d342-4b82-9a44-590479f0a895

@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "registry, new project types"
   - "registration, new project types"
 ms.assetid: dfc0e231-6b4e-447d-9d64-0e66dea3394a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -19,7 +19,7 @@ When you create a new project type, you must create registry entries that enable
  In the example below, the statements from the registry provide default paths and data where applicable, followed by a table that contains entries from the registry script for each statement. The tables provide the script entries and additional information about the statements.
 
 > [!NOTE]
->  The following registry information is intended to be an example of the type and purposes of the entries in the registry scripts you will be writing to register your project type. Your actual entries and their uses might vary based on the specific requirements of your project type. You should review the samples available to find one that closely resembles the type of project you are developing, and then review the registry script for that sample.
+> The following registry information is intended to be an example of the type and purposes of the entries in the registry scripts you will be writing to register your project type. Your actual entries and their uses might vary based on the specific requirements of your project type. You should review the samples available to find one that closely resembles the type of project you are developing, and then review the registry script for that sample.
 
  The following examples are from HKEY_CLASSES_ROOT.
 

@@ -1,19 +1,21 @@
 ---
 title: Options, Text Editor, JavaScript, IntelliSense
 ms.date: 10/29/2018
+ms.technology: vs-javascript
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Intellisense.References"
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Intellisense.General"
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.IntelliSense.General"
 ms.assetid: b4a9816d-cf87-4dc6-a8d4-1591d6a48103
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Options, Text Editor, JavaScript, IntelliSense
+
 Use the **IntelliSense** page of the **Options** dialog box to modify settings that affect the behavior of IntelliSense for JavaScript. You can access the **IntelliSense** page by choosing **Tools** > **Options** on the  menu bar, and then expanding **Text Editor** > **JavaScript** > **IntelliSense.**
 
 [!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]
@@ -53,7 +55,6 @@ This option specifies the order in which files are loaded into the context of th
 > [!CAUTION]
 > If an object is defined unconditionally in two or more implicit references, the last reference in this list will be used to define the object.
 
-
 **Add a reference to the group**
 
 This option provides a way to add additional IntelliSense .js files by browsing to the appropriate files.
@@ -65,8 +66,6 @@ When this check box is selected, and if you have a JavaScript file opened outsid
 > [!NOTE]
 > For web projects, remote files referenced in your project are downloaded by default.
 
-
-
-## See Also
+## See also
 
 - [JavaScript IntelliSense](../../ide/javascript-intellisense.md)

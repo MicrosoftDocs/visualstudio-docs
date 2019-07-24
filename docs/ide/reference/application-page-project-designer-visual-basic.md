@@ -51,14 +51,14 @@ For information about how to access this property programmatically, see <xref:VS
 
 ### Target framework (all configurations)
 
-Specifies the version of the .NET Framework that the application targets. This option can have different values depending on which versions of the .NET Framework are installed on your computer.
+Specifies the version of .NET that the application targets. This option can have different values depending on which versions of .NET are installed on your computer.
 
-The default value matches the target framework that you specified in the **New Project** dialog box.
+For .NET Framework projects, the default value matches the target framework that you specified when you created the project.
 
 > [!NOTE]
 > The prerequisite packages that are listed in the [Prerequisites Dialog Box](../../ide/reference/prerequisites-dialog-box.md) are set automatically when you open the dialog box for the first time. If you subsequently change the project's target framework, you must specify the prerequisites manually to match the new target framework.
 
-For more information, see [How to: Target a Version of the .NET Framework](../../ide/how-to-target-a-version-of-the-dotnet-framework.md) and [Visual Studio Multi-Targeting Overview](../../ide/visual-studio-multi-targeting-overview.md).
+For more information, see [Framework targeting overview](../../ide/visual-studio-multi-targeting-overview.md).
 
 ### Application type
 

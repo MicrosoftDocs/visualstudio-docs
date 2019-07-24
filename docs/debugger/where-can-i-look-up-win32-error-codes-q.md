@@ -26,7 +26,6 @@ WINERROR.H in the INCLUDE directory of your default system installation contains
 
 `0x80000004,hr`
 
-
 ## See Also
 - [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
 - [Debugging Native Code](../debugger/debugging-native-code.md)

@@ -13,7 +13,6 @@ manager: jillfra
 # Create a simple data application with WPF and Entity Framework 6
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This walkthough shows how to create a basic "forms over data" application in Visual Studio with SQL Server LocalDB, the Northwind database, Entity Framework 6, and Windows Presentation Foundation. It shows how to do basic databinding with a master-detail view, and it also has a custom "Binding Navigator" with buttons for "Move Next," "Move Previous," "Move to beginning," "Move to end," "Update" and "Delete."  
   
  This article focuses on using data tools in Visual Studio, and does not attempt to explain the underlying technologies in any depth. It assumes that you have a basic familiarity with XAML, Entity Framework, and SQL. This example also does not demonstrate MVVM architecture, which is standard for WPF applications. However, you can copy this code into your own MVVM application with very few modifications.  
@@ -21,25 +20,25 @@ This walkthough shows how to create a basic "forms over data" application in Vis
 ## Install and connect to Northwind  
  This example uses SQL Server Express LocalDB and the Northwind sample database. It should work with other SQL database products just as well if the ADO.NET data provider for that product supports Entity Framework.  
   
-1.  If you haven't already, install SQL Server 2014 LocalDB Express 32 bit from the [SQL Server Editions download page](https://www.microsoft.com/server-cloud/Products/sql-server-editions/sql-server-express.aspx).  
+1. If you haven't already, install SQL Server 2014 LocalDB Express 32 bit from the [SQL Server Editions download page](https://www.microsoft.com/sql-server/sql-server-editions-express).  
   
-2.  Install the Northwind sample database by following the instructions here: [Install SQL Server sample databases](../data-tools/install-sql-server-sample-databases.md).  
+2. Install the Northwind sample database by following the instructions here: [Install SQL Server sample databases](../data-tools/install-sql-server-sample-databases.md).  
   
-3.  [Add new connections](../data-tools/add-new-connections.md) for Northwind.  
+3. [Add new connections](../data-tools/add-new-connections.md) for Northwind.  
   
 ## Configure the project  
   
-1.  In Visual Studio, choose **File &#124; New Project** and then create a new C# WPF Application.  
+1. In Visual Studio, choose **File &#124; New Project** and then create a new C# WPF Application.  
   
-2.  Next we will add the NuGet package for Entity Framework 6. In Solution Explorer, select the project node. In the main menu, choose **Project &#124; Manage NuGet Packages...**  
+2. Next we will add the NuGet package for Entity Framework 6. In Solution Explorer, select the project node. In the main menu, choose **Project &#124; Manage NuGet Packages...**  
   
      ![Manage NuGet Packages menu item](../data-tools/media/raddata-vs2015-manage-nuget-packages.png "raddata_vs2015_manage_nuget_packages")  
   
-3.  In the NuGet Package manager, click on the **Browse** link. Entity Framework is probably the top package in the list. Click **Install** in the right pane and follow the prompts. The Output window will tell you when the install is finished.  
+3. In the NuGet Package manager, click on the **Browse** link. Entity Framework is probably the top package in the list. Click **Install** in the right pane and follow the prompts. The Output window will tell you when the install is finished.  
   
      ![Entity Framework NuGet Package](../data-tools/media/raddata-vs2015-nuget-ef.png "raddata_vs2015_Nuget_EF")  
   
-4.  Now we can use Visual Studio to create a model based on the Northwind database.  
+4. Now we can use Visual Studio to create a model based on the Northwind database.  
   
 ## Create the model  
   
@@ -65,11 +64,11 @@ This walkthough shows how to create a basic "forms over data" application in Vis
   
 6. The .tt files are general-purpose and we need to tweak one of them to work with WPF databinding, which requires ObservableCollections.  In Solution Explorer, expand the Northwind_model node until you find Northwind_model.tt. (Make sure you are **not** in the *.Context .tt file which is directly below the .edmx file).  
   
-   -   Replace the two occurrences of <xref:System.Collections.ICollection> with <xref:System.Collections.ObjectModel.ObservableCollection%601>.  
+   - Replace the two occurrences of <xref:System.Collections.ICollection> with <xref:System.Collections.ObjectModel.ObservableCollection%601>.  
   
-   -   Replace the first occurrence of <xref:System.Collections.Generic.HashSet%601> with <xref:System.Collections.ObjectModel.ObservableCollection%601> around line 51. Do not replace the second occurrence of HashSet  
+   - Replace the first occurrence of <xref:System.Collections.Generic.HashSet%601> with <xref:System.Collections.ObjectModel.ObservableCollection%601> around line 51. Do not replace the second occurrence of HashSet  
   
-   -   Replace the only occurrence of <xref:System.Collections.Generic> (around line 334) with <xref:System.Collections.ObjectModel>.  
+   - Replace the only occurrence of <xref:System.Collections.Generic> (around line 334) with <xref:System.Collections.ObjectModel>.  
   
 7. Press **Ctrl + Shift + B** to build the project. When the build finishes,  the model classes are visible to the data sources wizard.  
   
@@ -78,17 +77,17 @@ This walkthough shows how to create a basic "forms over data" application in Vis
 ## Databind the model to the XAML page  
  It is possible to write your own databinding code, but it is much easier to let Visual Studio do it for you.  
   
-1.  From the main menu, choose **Project &#124; Add new data source** to bring up the **Data Source Configuration Wizard**. Choose **Object** because we are binding to the model classes, not to the database:  
+1. From the main menu, choose **Project &#124; Add new data source** to bring up the **Data Source Configuration Wizard**. Choose **Object** because we are binding to the model classes, not to the database:  
   
      ![Data Source Configuration Wizard with Object Source](../data-tools/media/raddata-data-source-configuration-wizard-with-object-source.png "raddata Data Source Configuration Wizard with Object Source")  
   
-2.  Select Customer.  (Sources for Orders will be automatically generated from the Orders navigation property in  Customer.)  
+2. Select Customer.  (Sources for Orders will be automatically generated from the Orders navigation property in  Customer.)  
   
      ![Add entity classes as data sources](../data-tools/media/raddata-add-entity-classes-as-data-sources.png "raddata Add entity classes as data sources")  
   
-3.  Click **Finish**  
+3. Click **Finish**  
   
-4.  Navigate to MainWindow.xaml in Code View. We are going to keep the XAML very simple for the purposes of this example. Change the title of MainWindow to something more descriptive, and increase its Height and Width to 600 x 800 for now. You can always change it later. Now add these three row definitions to the main grid, one row for the navigation buttons, one for the customer's details, one for the grid that shows their orders:  
+4. Navigate to MainWindow.xaml in Code View. We are going to keep the XAML very simple for the purposes of this example. Change the title of MainWindow to something more descriptive, and increase its Height and Width to 600 x 800 for now. You can always change it later. Now add these three row definitions to the main grid, one row for the navigation buttons, one for the customer's details, one for the grid that shows their orders:  
   
     ```xaml  
     <Grid.RowDefinitions>  
@@ -98,7 +97,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
            </Grid.RowDefinitions>  
     ```  
   
-5.  Now open MainWindow.xaml so that you are viewing it in the designer. This will cause the Data Sources window to appear as an option in the Visual Studio window margin next to Toolbox. Click on the tab to open the window, or else press **Shift + Alt + D** or choose **View &#124; Other Windows &#124; Data Sources**. We are going to display each property in the  Customers class in its own individual text box. First click on the arrow in the Customers combo box and choose **Details**. Then drag the node onto the middle part of the design surface so that the designer knows you want it to go in the middle row.  If you misplace it, you can specify the row manually later in the XAML. By default, the controls are placed vertically in a grid element, but at this point you can arrange them however you like on the form.  For example, it might make sense to put the Name text box on top, above the address. The sample application for this article reorders the fields and rearranges them into two columns.  
+5. Now open MainWindow.xaml so that you are viewing it in the designer. This will cause the Data Sources window to appear as an option in the Visual Studio window margin next to Toolbox. Click on the tab to open the window, or else press **Shift + Alt + D** or choose **View &#124; Other Windows &#124; Data Sources**. We are going to display each property in the  Customers class in its own individual text box. First click on the arrow in the Customers combo box and choose **Details**. Then drag the node onto the middle part of the design surface so that the designer knows you want it to go in the middle row.  If you misplace it, you can specify the row manually later in the XAML. By default, the controls are placed vertically in a grid element, but at this point you can arrange them however you like on the form.  For example, it might make sense to put the Name text box on top, above the address. The sample application for this article reorders the fields and rearranges them into two columns.  
   
      ![Customers data source binding to individual controls](../data-tools/media/raddata-customers-data-source-binding-to-individual-controls.png "raddata Customers data source binding to individual controls")  
   
@@ -108,11 +107,11 @@ This walkthough shows how to create a basic "forms over data" application in Vis
     <Grid DataContext="{StaticResource customerViewSource}">  
     ```  
   
-6.  When a customer is visible in the top half of the window, we want to see their orders in the bottom half. We'll show the orders in a single grid view control. For master-detail databinding to work as expected, it is important that we bind to the Orders property in the Customers class, not to the separate Orders node. Pay attention to the following illustration! Drag the Orders property of the Customers class to the lower half of the form, so that the designer puts it in row 2:  
+6. When a customer is visible in the top half of the window, we want to see their orders in the bottom half. We'll show the orders in a single grid view control. For master-detail databinding to work as expected, it is important that we bind to the Orders property in the Customers class, not to the separate Orders node. Pay attention to the following illustration! Drag the Orders property of the Customers class to the lower half of the form, so that the designer puts it in row 2:  
   
      ![Drag Orders classes as grid](../data-tools/media/raddata-drag-orders-classes-as-grid.png "raddata Drag Orders classes as grid")  
   
-7.  Visual Studio has generated all the binding code that connects the UI controls to events in the model. All we need to do, in order to see some data, is to write some code to populate the model. First let's navigate to MainWindow.xaml.cs and add a data member to the MainWindow class for the data context. This object, which has been generated for us, acts something like a control that tracks changes and events in the model. While we are here, we'll add two members that we'll use later to add a new customer or new order. We'll also add the constructor initialization logic. The top of our class should look like this:  
+7. Visual Studio has generated all the binding code that connects the UI controls to events in the model. All we need to do, in order to see some data, is to write some code to populate the model. First let's navigate to MainWindow.xaml.cs and add a data member to the MainWindow class for the data context. This object, which has been generated for us, acts something like a control that tracks changes and events in the model. While we are here, we'll add two members that we'll use later to add a new customer or new order. We'll also add the constructor initialization logic. The top of our class should look like this:  
   
     ```csharp  
     public partial class MainWindow : Window  
@@ -162,7 +161,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
         }  
     ```  
   
-8.  Press **F5**. You should see the details for the first customer that was retrieved into the CollectionViewSource , and their orders in the data grid. The formatting isn't great, so let's fix that up. and crate a way to view the other records, and do basic CRUD operations.  
+8. Press **F5**. You should see the details for the first customer that was retrieved into the CollectionViewSource , and their orders in the data grid. The formatting isn't great, so let's fix that up. and crate a way to view the other records, and do basic CRUD operations.  
   
 ## Adjust the page design and add grids for new customers and orders  
  The default arrangement produced by Visual Studio is not ideal for our application, so we'll make some changes manually in the XAML. We will also need some "forms" (which are actually Grids) to enable the user to add a new customer or new order.    In order to be able to add a new customer and order, we need a separate set of text boxes that are not data-bound to the `CollectionViewSource`. We'll control which grid the user sees at any given time by setting the Visible property in the handler methods.  
@@ -388,7 +387,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
   
 #### Add commands, bindings and buttons in XAML  
   
-1.  First, let's add the commands in our MainWindow.XAML file inside the Windows.Resources element:  
+1. First, let's add the commands in our MainWindow.XAML file inside the Windows.Resources element:  
   
     ```xaml  
   
@@ -403,7 +402,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
     <RoutedUICommand x:Key="CancelCommand" Text="Cancel"/>  
     ```  
   
-2.  A CommandBinding maps a RoutedUICommand event to a method in the code behind. Add this CommandBindings element after the Windows.Resources closing tag:  
+2. A CommandBinding maps a RoutedUICommand event to a method in the code behind. Add this CommandBindings element after the Windows.Resources closing tag:  
   
     ```xaml  
   
@@ -420,7 +419,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
     </Window.CommandBindings>  
     ```  
   
-3.  Now let's add the StackPanel with the navigation, add, delete and update buttons. First, add this style to Windows.Resources:  
+3. Now let's add the StackPanel with the navigation, add, delete and update buttons. First, add this style to Windows.Resources:  
   
     ```xaml  
     <Style x:Key="NavButton" TargetType="{x:Type Button}" BasedOn="{x:Null}">  
@@ -450,9 +449,9 @@ This walkthough shows how to create a basic "forms over data" application in Vis
   
 #### Add command handlers to the MainWindow class  
   
-1.  The code-behind  is minimal except for the add and delete methods. Note that the navigation is performed by calling methods on the View property of the CollectionViewSource. The DeleteOrderCommandHandler shows how to perform a cascade delete on an order. We have to first delete the Order_Details that are associated with it. The UpdateCommandHandler adds a new customer to the collection, or else just updates the existing object with whatever changes the user made in the text boxes.  
+1. The code-behind  is minimal except for the add and delete methods. Note that the navigation is performed by calling methods on the View property of the CollectionViewSource. The DeleteOrderCommandHandler shows how to perform a cascade delete on an order. We have to first delete the Order_Details that are associated with it. The UpdateCommandHandler adds a new customer to the collection, or else just updates the existing object with whatever changes the user made in the text boxes.  
   
-2.  Add these handler methods to the MainWindow class in MainWindow.xaml.cs, If your CollectionViewSource for the Customers table has a different name, then you will need to adjust the name in each of these methods:  
+2. Add these handler methods to the MainWindow class in MainWindow.xaml.cs, If your CollectionViewSource for the Customers table has a different name, then you will need to adjust the name in each of these methods:  
   
     ```csharp  
        private void LastCommandHandler(object sender, ExecutedRoutedEventArgs e)  
@@ -696,7 +695,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
     }  
     ```  
   
-3.  Press **F5**. You should see your data, and the navigation buttons should work as expected. Click on "Commit" to add a new customer or order to the model after you have entered the data.  Click on "Cancel" to back out of a new Customer or New Order form without saving. You can make edits to existing Customers and Orders directly in the text boxes, and those changes will be written to the model automatically.  
+3. Press **F5**. You should see your data, and the navigation buttons should work as expected. Click on "Commit" to add a new customer or order to the model after you have entered the data.  Click on "Cancel" to back out of a new Customer or New Order form without saving. You can make edits to existing Customers and Orders directly in the text boxes, and those changes will be written to the model automatically.  
   
 ## See Also  
  [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md) [Entity Framework Documentation](https://msdn.microsoft.com/data/ee712907.aspx)

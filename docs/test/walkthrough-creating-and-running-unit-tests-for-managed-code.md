@@ -1,6 +1,6 @@
 ---
-title: "Create and run unit tests for managed code"
-ms.date: 11/04/2016
+title: C# unit test tutorial
+ms.date: 05/14/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "unit tests, walkthrough"
@@ -16,18 +16,11 @@ author: gewarren
 ---
 # Walkthrough: Create and run unit tests for managed code
 
-This article steps you through creating, running, and customizing a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio **Test Explorer**. You start with a C# project that is under development, create tests that exercise its code, run the tests, and examine the results. Then you can change your project code and rerun the tests.
-
-> [!NOTE]
-> This walkthrough uses the Microsoft unit test framework for managed code. **Test Explorer** also can run tests from third party unit test frameworks that have adapters for **Test Explorer**. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
-
-For information about how to run tests from a command line, see [VSTest.Console.exe command-line options](vstest-console-options.md).
-
-## Prerequisites
-
-- The Bank project. See [Sample project for creating unit tests](../test/sample-project-for-creating-unit-tests.md).
+This article steps you through creating, running, and customizing a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio **Test Explorer**. You start with a C# project that is under development, create tests that exercise its code, run the tests, and examine the results. Then you change the project code and rerun the tests.
 
 ## Create a project to test
+
+::: moniker range="vs-2017"
 
 1. Open Visual Studio.
 
@@ -35,78 +28,172 @@ For information about how to run tests from a command line, see [VSTest.Console.
 
    The **New Project** dialog box appears.
 
-3. Under **Installed Templates**, click **Visual C#**.
+3. Under the **Visual C#** > **.NET Core** category, choose the **Console App (.NET Core)** project template.
 
-4. In the list of application types, click **Class Library**.
+4. Name the project **Bank**, and then click **OK**.
 
-5. In the **Name** box, type **Bank** and then click **OK**.
-
-   The new Bank project is created and displayed in **Solution Explorer** with the *Class1.cs* file open in the code editor.
+   The Bank project is created and displayed in **Solution Explorer** with the *Program.cs* file open in the code editor.
 
    > [!NOTE]
-   > If *Class1.cs* is not open in the Code Editor, double-click the file *Class1.cs* in **Solution Explorer** to open it.
+   > If *Program.cs* is not open in the editor, double-click the file *Program.cs* in **Solution Explorer** to open it.
 
-6. Copy the source code from the [Sample project for creating unit tests](../test/sample-project-for-creating-unit-tests.md), and replace the original contents of *Class1.cs* with the copied code.
+::: moniker-end
 
-7. Save the file as *BankAccount.cs*.
+::: moniker range=">=vs-2019"
 
-8. On the **Build** menu, click **Build Solution**.
+1. Open Visual Studio.
 
-You now have a project named Bank. It contains source code to test and tools to test it with. The namespace for Bank, BankAccountNS, contains the public class BankAccount, whose methods you'll test in the following procedures.
+2. On the start window, choose **Create a new project**.
 
-In this article, the tests focus on the Debit method. The Debit method is called when money is withdrawn from an account. Here is the method definition:
+3. Search for and select the C# **Console App (.NET Core)** project template, and then click **Next**.
 
-```csharp
-// Method to be tested.
-public void Debit(double amount)
-{
-    if(amount > m_balance)
-    {
-        throw new ArgumentOutOfRangeException("amount");
-    }
-    if (amount < 0)
-    {
-        throw new ArgumentOutOfRangeException("amount");
-    }
-    m_balance += amount;
-}
-```
+4. Name the project **Bank**, and then click **Create**.
+
+   The Bank project is created and displayed in **Solution Explorer** with the *Program.cs* file open in the code editor.
+
+   > [!NOTE]
+   > If *Program.cs* is not open in the editor, double-click the file *Program.cs* in **Solution Explorer** to open it.
+
+::: moniker-end
+
+5. Replace the contents of *Program.cs* with the following C# code that defines a class, *BankAccount*:
+
+   ```csharp
+   using System;
+
+   namespace BankAccountNS
+   {
+       /// <summary>
+       /// Bank account demo class.
+       /// </summary>
+       public class BankAccount
+       {
+           private readonly string m_customerName;
+           private double m_balance;
+
+           private BankAccount() { }
+
+           public BankAccount(string customerName, double balance)
+           {
+               m_customerName = customerName;
+               m_balance = balance;
+           }
+
+           public string CustomerName
+           {
+               get { return m_customerName; }
+           }
+
+           public double Balance
+           {
+               get { return m_balance; }
+           }
+
+           public void Debit(double amount)
+           {
+               if (amount > m_balance)
+               {
+                   throw new ArgumentOutOfRangeException("amount");
+               }
+
+               if (amount < 0)
+               {
+                   throw new ArgumentOutOfRangeException("amount");
+               }
+
+               m_balance += amount; // intentionally incorrect code
+           }
+
+           public void Credit(double amount)
+           {
+               if (amount < 0)
+               {
+                   throw new ArgumentOutOfRangeException("amount");
+               }
+
+               m_balance += amount;
+           }
+
+           public static void Main()
+           {
+               BankAccount ba = new BankAccount("Mr. Bryan Walton", 11.99);
+
+               ba.Credit(5.77);
+               ba.Debit(11.22);
+               Console.WriteLine("Current balance is ${0}", ba.Balance);
+           }
+       }
+   }
+   ```
+
+6. Rename the file to *BankAccount.cs* by right-clicking and choosing **Rename** in **Solution Explorer**.
+
+7. On the **Build** menu, click **Build Solution**.
+
+You now have a project with methods you can test. In this article, the tests focus on the `Debit` method. The `Debit` method is called when money is withdrawn from an account.
 
 ## Create a unit test project
 
 1. On the **File** menu, select **Add** > **New Project**.
 
    > [!TIP]
-   > There are a couple other ways to add an additional project to an existing solution. You can right-click on the solution in **Solution Explorer** and choose **Add** > **New Project**. Or, you can select **File** > **New** > **Project**, and then, in the **New Project** dialog, select the **Add to solution** option:
-   >
-   > ![Add to solution option in New Project dialog](media/add-to-solution.png)
+   > You can also right-click on the solution in **Solution Explorer** and choose **Add** > **New Project**.
+
+::: moniker range="vs-2017"
 
 2. In the **New Project** dialog box, expand **Installed**, expand **Visual C#**, and then choose **Test**.
 
-3. From the list of templates, select **Unit Test Project**.
+3. From the list of templates, select **MSTest Test Project (.NET Core)**.
 
 4. In the **Name** box, enter `BankTests`, and then select **OK**.
 
    The **BankTests** project is added to the **Bank** solution.
 
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. Search for and select the C# **MSTest Test Project (.NET Core)** project template, and then click **Next**.
+
+3. Name the project **BankTests**.
+
+4. Click **Create**.
+
+   The **BankTests** project is added to the **Bank** solution.
+
+::: moniker-end
+
 5. In the **BankTests** project, add a reference to the **Bank** project.
 
-   In **Solution Explorer**, select **References** in the **BankTests** project and then choose **Add Reference** from the right-click menu.
+   In **Solution Explorer**, select **Dependencies** under the **BankTests** project and then choose **Add Reference** from the right-click menu.
 
-6. In the **Reference Manager** dialog box, expand **Solution** and then check the **Bank** item.
+6. In the **Reference Manager** dialog box, expand **Projects**, select **Solution**, and then check the **Bank** item.
+
+7. Choose **OK**.
 
 ## Create the test class
 
-Create a test class to verify the `BankAccount` class. You can use the *UnitTest1.cs* file that was generated by the project template, but give the file and class more descriptive names. You can do that in one step by renaming the file in **Solution Explorer**.
+Create a test class to verify the `BankAccount` class. You can use the *UnitTest1.cs* file that was generated by the project template, but give the file and class more descriptive names.
 
-### Rename a class file
+### Rename a file and class
 
-In **Solution Explorer**, select the *UnitTest1.cs* file in the BankTests project. From the right-click menu, choose **Rename**, and then rename the file to *BankAccountTests.cs*. Choose **Yes** on the dialog that asks if you want to rename all references to the code element `UnitTest1` in the project.
+1. To rename the file, in **Solution Explorer**, select the *UnitTest1.cs* file in the BankTests project. From the right-click menu, choose **Rename**, and then rename the file to *BankAccountTests.cs*.
 
-This step changes the name of the class to `BankAccountTests`. The *BankAccountTests.cs* file now contains the following code:
+::: moniker range="vs-2017"
+
+2. To rename the class, choose **Yes** in the dialog box that pops up and asks whether you want to also rename references to the code element.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. To rename the class, position the cursor on `UnitTest1` in the code editor, right-click, and then choose **Rename**. Type in **BankAccountTests** and then press **Enter**.
+
+::: moniker-end
+
+The *BankAccountTests.cs* file now contains the following code:
 
 ```csharp
-using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace BankTests
@@ -122,9 +209,9 @@ namespace BankTests
 }
 ```
 
-### Add a using statement to the project under test
+### Add a using statement
 
-You can also add a `using` statement to the class to be able to call into the project under test without using fully qualified names. At the top of the class file, add:
+Add a [`using` statement](/dotnet/csharp/language-reference/keywords/using-statement) to the test class to be able to call into the project under test without using fully qualified names. At the top of the class file, add:
 
 ```csharp
 using BankAccountNS;
@@ -134,15 +221,15 @@ using BankAccountNS;
 
 The minimum requirements for a test class are:
 
-- The `[TestClass]` attribute is required in the Microsoft unit testing framework for managed code for any class that contains unit test methods that you want to run in Test Explorer.
+- The `[TestClass]` attribute is required on any class that contains unit test methods that you want to run in Test Explorer.
 
-- Each test method that you want Test Explorer to run must have the `[TestMethod]` attribute.
+- Each test method that you want Test Explorer to recognize must have the `[TestMethod]` attribute.
 
-You can have other classes in a unit test project that do not have the `[TestClass]` attribute, and you can have other methods in test classes that do not have the `[TestMethod]` attribute. You can use these other classes and methods in your test methods.
+You can have other classes in a unit test project that do not have the `[TestClass]` attribute, and you can have other methods in test classes that do not have the `[TestMethod]` attribute. You can call these other classes and methods from your test methods.
 
 ## Create the first test method
 
-In this procedure, you'll write unit test methods to verify the behavior of the `Debit` method of the `BankAccount` class. The `Debit` method is shown previously in this article.
+In this procedure, you'll write unit test methods to verify the behavior of the `Debit` method of the `BankAccount` class.
 
 There are at least three behaviors that need to be checked:
 
@@ -178,7 +265,7 @@ public void Debit_WithValidAmount_UpdatesBalance()
 }
 ```
 
-The method is straightforward: it sets up a new `BankAccount` object with a beginning balance, and then withdraws a valid amount. It uses the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A> method to verify that the ending balance is as expected.
+The method is straightforward: it sets up a new `BankAccount` object with a beginning balance and then withdraws a valid amount. It uses the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A?displayProperty=nameWithType> method to verify that the ending balance is as expected.
 
 ### Test method requirements
 
@@ -194,26 +281,25 @@ A test method must meet the following requirements:
 
 1. On the **Build** menu, choose **Build Solution**.
 
-   If there are no errors, **Test Explorer** appears with **Debit_WithValidAmount_UpdatesBalance** listed in the **Not Run Tests** group.
+2. If **Test Explorer** is not open, open it by choosing **Test** > **Windows** > **Test Explorer** from the top menu bar.
 
-   > [!TIP]
-   > If **Test Explorer** does not appear after a successful build, choose **Test** on the menu, then choose **Windows**, and then choose  **Test Explorer**.
+3. Choose **Run All** to run the test.
 
-2. Choose **Run All** to run the test. While the test is running, the status bar at the top of the window is animated. At the end of the test run, the bar turns green if all the test methods pass, or red if any of the tests fail.
+   While the test is running, the status bar at the top of the **Test Explorer** window is animated. At the end of the test run, the bar turns green if all the test methods pass, or red if any of the tests fail.
 
-3. In this case, the test fails. The test method is moved to the **Failed Tests** group. Select the method in **Test Explorer** to view the details at the bottom of the window.
+   In this case, the test fails.
+
+4. Select the method in **Test Explorer** to view the details at the bottom of the window.
 
 ## Fix your code and rerun your tests
 
-### Analyze the test results
-
-The test result contains a message that describes the failure. For the `AreEqual` method, the message displays what was expected (the **Expected\<*value*>** parameter) and what was actually received (the **Actual\<*value*>** parameter). You expected the balance to decrease, but instead it increased by the amount of the withdrawal.
+The test result contains a message that describes the failure. For the `AreEqual` method, the message displays what was expected and what was actually received. You expected the balance to decrease, but instead it increased by the amount of the withdrawal.
 
 The unit test has uncovered a bug: the amount of the withdrawal is *added* to the account balance when it should be *subtracted*.
 
 ### Correct the bug
 
-To correct the error, replace the line:
+To correct the error, in the *BankAccount.cs* file, replace the line:
 
 ```csharp
 m_balance += amount;
@@ -227,7 +313,9 @@ m_balance -= amount;
 
 ### Rerun the test
 
-In **Test Explorer**, choose **Run All** to rerun the test. The red/green bar turns green to indicate that the test passed, and the test is moved to the **Passed Tests** group.
+In **Test Explorer**, choose **Run All** to rerun the test. The red/green bar turns green to indicate that the test passed.
+
+![Test Explorer in Visual Studio 2019 showing passed test](media/test-explorer-banktests-passed.png)
 
 ## Use unit tests to improve your code
 
@@ -240,13 +328,12 @@ You've created a test method to confirm that a valid amount is correctly deducte
 - greater than the balance, or
 - less than zero.
 
-### Create the test methods
+### Create and run new test methods
 
 Create a test method to verify correct behavior when the debit amount is less than zero:
 
 ```csharp
 [TestMethod]
-[ExpectedException(typeof(ArgumentOutOfRangeException))]
 public void Debit_WhenAmountIsLessThanZero_ShouldThrowArgumentOutOfRange()
 {
     // Arrange
@@ -254,14 +341,12 @@ public void Debit_WhenAmountIsLessThanZero_ShouldThrowArgumentOutOfRange()
     double debitAmount = -100.00;
     BankAccount account = new BankAccount("Mr. Bryan Walton", beginningBalance);
 
-    // Act
-    account.Debit(debitAmount);
-
-    // Assert is handled by the ExpectedException attribute on the test method.
+    // Act and assert
+    Assert.ThrowsException<System.ArgumentOutOfRangeException>(() => account.Debit(debitAmount));
 }
 ```
 
-Use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute> attribute to assert that the correct exception has been thrown. The attribute causes the test to fail unless an <xref:System.ArgumentOutOfRangeException> is thrown. If you temporarily modify the method under test to throw a more generic <xref:System.ApplicationException> when the debit amount is less than zero, the test behaves correctly&mdash;that is, it fails.
+Use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException%2A> method to assert that the correct exception has been thrown. This method causes the test to fail unless an <xref:System.ArgumentOutOfRangeException> is thrown. If you temporarily modify the method under test to throw a more generic <xref:System.ApplicationException> when the debit amount is less than zero, the test behaves correctly&mdash;that is, it fails.
 
 To test the case when the amount withdrawn is greater than the balance, do the following steps:
 
@@ -271,15 +356,13 @@ To test the case when the amount withdrawn is greater than the balance, do the f
 
 3. Set the `debitAmount` to a number greater than the balance.
 
-### Run the tests
-
-Running the two test methods demonstrates that the tests work correctly.
+Running the two tests and verify that they pass.
 
 ### Continue the analysis
 
-However, the last two test methods are also troubling. You can't be certain which condition in the method under test throws the exception when either test is run. Some way of differentiating the two conditions, that is a negative debit amount or an amount greater than the balance, would increase your confidence in the tests.
+The method being tested can be improved further. With the current implementation, we have no way to know which condition (`amount > m_balance` or `amount < 0`) led to the exception being thrown during the test. We just know that an `ArgumentOutOfRangeException` was thrown somewhere in the method. It would be better if we could tell which condition in `BankAccount.Debit` caused the exception to be thrown (`amount > m_balance` or `amount < 0`) so we can be confident that our method is sanity-checking its arguments correctly.
 
-Look at the method under test again, and notice that both conditional statements use an `ArgumentOutOfRangeException` constructor that just takes name of the argument as a parameter:
+Look at the method being tested (`BankAccount.Debit`) again, and notice that both conditional statements use an `ArgumentOutOfRangeException` constructor that just takes name of the argument as a parameter:
 
 ```csharp
 throw new ArgumentOutOfRangeException("amount");
@@ -289,7 +372,7 @@ There is a constructor you can use that reports far richer information: <xref:Sy
 
 ### Refactor the code under test
 
-First, define two constants for the error messages at class scope. Put these in the class under test, BankAccount:
+First, define two constants for the error messages at class scope. Put these in the class under test, `BankAccount`:
 
 ```csharp
 public const string DebitAmountExceedsBalanceMessage = "Debit amount exceeds balance";
@@ -299,20 +382,20 @@ public const string DebitAmountLessThanZeroMessage = "Debit amount is less than 
 Then, modify the two conditional statements in the `Debit` method:
 
 ```csharp
-    if (amount > m_balance)
-    {
-        throw new ArgumentOutOfRangeException("amount", amount, DebitAmountExceedsBalanceMessage);
-    }
+if (amount > m_balance)
+{
+    throw new System.ArgumentOutOfRangeException("amount", amount, DebitAmountExceedsBalanceMessage);
+}
 
-    if (amount < 0)
-    {
-        throw new ArgumentOutOfRangeException("amount", amount, DebitAmountLessThanZeroMessage);
-    }
+if (amount < 0)
+{
+    throw new System.ArgumentOutOfRangeException("amount", amount, DebitAmountLessThanZeroMessage);
+}
 ```
 
 ### Refactor the test methods
 
-Remove the `ExpectedException` test method attribute and instead, catch the thrown exception and verify its associated message. The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains%2A?displayProperty=fullName> method provides the ability to compare two strings.
+Refactor the test methods by removing the call to <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException%2A?displayProperty=nameWithType>. Wrap the call to `Debit()` in a `try/catch` block, catch the specific exception that's expected, and verify its associated message. The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains%2A?displayProperty=fullName> method provides the ability to compare two strings.
 
 Now, the `Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange` might look like this:
 
@@ -330,7 +413,7 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
     {
         account.Debit(debitAmount);
     }
-    catch (ArgumentOutOfRangeException e)
+    catch (System.ArgumentOutOfRangeException e)
     {
         // Assert
         StringAssert.Contains(e.Message, BankAccount.DebitAmountExceedsBalanceMessage);
@@ -340,11 +423,11 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
 
 ### Retest, rewrite, and reanalyze
 
-Assume there's a bug in the method under test, and the `Debit` method doesn't even throw an <xref:System.ArgumentOutOfRangeException>, nevermind output the correct message with the exception. Currently, the test method doesn't handle this case. If the `debitAmount` value is valid (that is, less than the balance but greater than zero), no exception is caught, so the assert never fires. Yet, the test method passes. This is not good, because you want the test method to fail if no exception is thrown.
+Assume there's a bug in the method under test and the `Debit` method doesn't even throw an <xref:System.ArgumentOutOfRangeException> never mind output the correct message with the exception. Currently, the test method doesn't handle this case. If the `debitAmount` value is valid (that is, less than the balance but greater than zero), no exception is caught, so the assert never fires. Yet, the test method passes. This is not good, because you want the test method to fail if no exception is thrown.
 
 This is a bug in the test method. To resolve the issue, add an <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail%2A> assert at the end of the test method to handle the case where no exception is thrown.
 
-But rerunning the test shows that the test now *fails* if the correct exception is caught. The `catch` block catches the exception, but the method continues to execute and it fails at the new <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail%2A> assert. To resolve this problem, add a `return` statement after the `StringAssert` in the `catch` block. Rerunning the test confirms that you've fixed this problem. The final version of the `Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange` looks like this:
+Rerunning the test shows that the test now *fails* if the correct exception is caught. The `catch` block catches the exception, but the method continues to execute and it fails at the new <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail%2A> assert. To resolve this problem, add a `return` statement after the `StringAssert` in the `catch` block. Rerunning the test confirms that you've fixed this problem. The final version of the `Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange` looks like this:
 
 ```csharp
 [TestMethod]
@@ -360,7 +443,7 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
     {
         account.Debit(debitAmount);
     }
-    catch (ArgumentOutOfRangeException e)
+    catch (System.ArgumentOutOfRangeException e)
     {
         // Assert
         StringAssert.Contains(e.Message, BankAccount.DebitAmountExceedsBalanceMessage);
@@ -371,4 +454,13 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
 }
 ```
 
+### Conclusion
+
 The improvements to the test code led to more robust and informative test methods. But more importantly, they also improved the code under test.
+
+> [!TIP]
+> This walkthrough uses the Microsoft unit test framework for managed code. **Test Explorer** can also run tests from third-party unit test frameworks that have adapters for **Test Explorer**. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
+
+## See also
+
+For information about how to run tests from a command line, see [VSTest.Console.exe command-line options](vstest-console-options.md).

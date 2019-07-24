@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugClassField interface"
 ms.assetid: 49358cbc-8973-4862-9dcc-79b1248e6712
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -49,6 +49,6 @@ IDebugClassField : IDebugContainerField
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
 - [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)

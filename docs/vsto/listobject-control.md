@@ -28,13 +28,13 @@ ms.workload:
  In document-level projects, you can add <xref:Microsoft.Office.Tools.Excel.ListObject> controls to a worksheet at design time or at run time. In VSTO Add-in projects, you can add <xref:Microsoft.Office.Tools.Excel.ListObject> controls to worksheets only at runtime. For more information, see [How to: Add ListObject controls to worksheets](../vsto/how-to-add-listobject-controls-to-worksheets.md).
 
 > [!NOTE]
->  By default, dynamically created list objects are not persisted in the worksheet as host controls when the worksheet is closed. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+> By default, dynamically created list objects are not persisted in the worksheet as host controls when the worksheet is closed. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
 ## Bind data to the control
  A <xref:Microsoft.Office.Tools.Excel.ListObject> control supports simple and complex data binding. The <xref:Microsoft.Office.Tools.Excel.ListObject> control can be bound to a data source using the <xref:Microsoft.Office.Tools.Excel.ListObject.DataSource%2A> and <xref:Microsoft.Office.Tools.Excel.ListObject.DataMember%2A> properties at design time or the <xref:Microsoft.Office.Tools.Excel.ListObject.SetDataBinding%2A> method at runtime.
 
 > [!NOTE]
->  The <xref:Microsoft.Office.Tools.Excel.ListObject> is updated automatically when it is bound to a data source, such as a <xref:System.Data.DataTable>, that raises events when the data changes. If you bind the <xref:Microsoft.Office.Tools.Excel.ListObject> to a data source that does not raise events when the data changes, you must call the <xref:Microsoft.Office.Tools.Excel.ListObject.RefreshDataRow%2A> or <xref:Microsoft.Office.Tools.Excel.ListObject.RefreshDataRows%2A> method to update the <xref:Microsoft.Office.Tools.Excel.ListObject>.
+> The <xref:Microsoft.Office.Tools.Excel.ListObject> is updated automatically when it is bound to a data source, such as a <xref:System.Data.DataTable>, that raises events when the data changes. If you bind the <xref:Microsoft.Office.Tools.Excel.ListObject> to a data source that does not raise events when the data changes, you must call the <xref:Microsoft.Office.Tools.Excel.ListObject.RefreshDataRow%2A> or <xref:Microsoft.Office.Tools.Excel.ListObject.RefreshDataRows%2A> method to update the <xref:Microsoft.Office.Tools.Excel.ListObject>.
 
  When you add a <xref:Microsoft.Office.Tools.Excel.ListObject> to a worksheet cell by mapping a repeating schema element to that cell, Visual Studio automatically maps the <xref:Microsoft.Office.Tools.Excel.ListObject> to the generated dataset. However, the <xref:Microsoft.Office.Tools.Excel.ListObject> is not automatically bound to the data. You can take steps to bind the <xref:Microsoft.Office.Tools.Excel.ListObject> to the dataset at design time or at runtime in a document-level project. You can programmatically bind the <xref:Microsoft.Office.Tools.Excel.ListObject> to the dataset at runtime in a VSTO Add-in.
 
@@ -43,7 +43,7 @@ ms.workload:
  You can quickly fill a <xref:Microsoft.Office.Tools.Excel.ListObject> control by binding the <xref:Microsoft.Office.Tools.Excel.ListObject> to a data source. If you edit the data in a data-bound <xref:Microsoft.Office.Tools.Excel.ListObject>, the changes are automatically made in the data source as well. If you want to fill a <xref:Microsoft.Office.Tools.Excel.ListObject> and then enable the user to change the data in the <xref:Microsoft.Office.Tools.Excel.ListObject> without modifying the data source, you can use the <xref:Microsoft.Office.Tools.Excel.ListObject.Disconnect%2A> method to detach the <xref:Microsoft.Office.Tools.Excel.ListObject> from the data source. For more information, see [How to: Fill ListObject controls with data](../vsto/how-to-fill-listobject-controls-with-data.md).
 
 > [!NOTE]
->  Data binding is not supported on overlapping <xref:Microsoft.Office.Tools.Excel.ListObject> controls.
+> Data binding is not supported on overlapping <xref:Microsoft.Office.Tools.Excel.ListObject> controls.
 
 ### Improve performance in ListObject controls
  Reading an XML file into a data-bound <xref:Microsoft.Office.Tools.Excel.ListObject> control tends to be slower if you bind the control first, and then call <xref:System.Data.DataSet.ReadXml%2A> to fill the dataset. To improve performance, call <xref:System.Data.DataSet.ReadXml%2A> before you bind the control.
@@ -73,33 +73,33 @@ ms.workload:
 ## Events
  The following events are available for the <xref:Microsoft.Office.Tools.Excel.ListObject> control:
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.BeforeAddDataBoundRow>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.BeforeAddDataBoundRow>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.BeforeDoubleClick>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.BeforeDoubleClick>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.BeforeRightClick>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.BeforeRightClick>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.BindingContextChanged>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.BindingContextChanged>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.Change>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.Change>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.DataBindingFailure>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.DataBindingFailure>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.DataMemberChanged>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.DataMemberChanged>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.DataSourceChanged>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.DataSourceChanged>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.Deselected>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.Deselected>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.ErrorAddDataBoundRow>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.ErrorAddDataBoundRow>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.OriginalDataRestored>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.OriginalDataRestored>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.Selected>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.Selected>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.SelectedIndexChanged>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.SelectedIndexChanged>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.SelectionChange>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.SelectionChange>
 
 ## See also
 - [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)

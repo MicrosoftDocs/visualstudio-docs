@@ -21,11 +21,11 @@ The Summary view displays information about the most performance-expensive funct
 
  For all Summary views except the Summary view of concurrency data, the timeline graph in the Summary view shows the processor (CPU) utilization of the profiled application over the time that the profiling occurred.
 
--   If you specify a segment of time on the graph, you can reanalyze the data for that segment or zoom the timeline display to the segment that you specified. For more information, see [How to: Filter report views from the Summary Timeline](../profiling/how-to-filter-report-views-from-the-summary-timeline.md)
+- If you specify a segment of time on the graph, you can reanalyze the data for that segment or zoom the timeline display to the segment that you specified. For more information, see [How to: Filter report views from the Summary Timeline](../profiling/how-to-filter-report-views-from-the-summary-timeline.md)
 
--   You can click a function in a Summary view list to open the Function Details view for the function. You also can right-click the function for other view options.
+- You can click a function in a Summary view list to open the Function Details view for the function. You also can right-click the function for other view options.
 
--   To modify the number of items that appear in Summary view lists, open the **Tools** menu, point to **Options**, and then click **Performance Tools**. Under **General settings**, modify the **Number of functions in Summary view** setting.
+- To modify the number of items that appear in Summary view lists, open the **Tools** menu, point to **Options**, and then click **Performance Tools**. Under **General settings**, modify the **Number of functions in Summary view** setting.
 
 ## Notifications links
  You can click links in the Notification list to set display options for the report. The list is to the right of the timeline graph.
@@ -37,7 +37,6 @@ The Summary view displays information about the most performance-expensive funct
 
 ## Report
  You can click links in the Report list to open different views and to compare, save, or filter the report. The list is to the right of the timeline graph.
-
 
 | | |
 |----------------------------| - |

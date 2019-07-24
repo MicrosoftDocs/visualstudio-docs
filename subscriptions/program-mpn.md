@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Details on what subscriptions are offered, what rules apply, and how many subscriptions are offered in MPN.
-searchscope: VS Subscription
 ---
 
 # Visual Studio subscriptions offered to partners in the Microsoft Partner Network (MPN)
@@ -40,7 +39,6 @@ Regardless of how many competencies a partner earns, the number of Visual Studio
 |------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | 25 Visual Studio Enterprise subscriptions per country; 75 worldwide          | 50 Visual Studio Enterprise subscriptions per country; 150 worldwide         |
 
-
 ## Subscriptions for partners purchasing the Action Pack
 Partners with a competency are not eligible to purchase the Action Pack. Only one Action Pack can be purchased per partner.
 
@@ -50,7 +48,7 @@ equivalent in the market. Here is what is included:
 - Windows Enterprise -- latest version only, to use for development and testing only
 - Windows Server -- latest version only, to use for development and testing only
 
-Visual Studio Professional (MPN) subscribers can also download and use free software for their development, including the SQL Server Developer Edition.
+Visual Studio Professional (MPN) subscribers can also download and use software for their development, including the SQL Server Developer Edition.
 
 The Visual Studio Professional (MPN) subscription does not include Azure DevOps Services benefits, monthly Azure credits, technical support, training, or other subscriber benefits that are available
 with Visual Studio subscriptions that are offered commercially.

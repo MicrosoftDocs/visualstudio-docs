@@ -19,7 +19,7 @@ ms.workload:
   - "multiple"
 ---
 # ClickOnce security and deployment
-[!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] is a deployment technology that enables you to create self-updating Windows-based applications that can be installed and run with minimal user interaction. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides full support for publishing and updating applications deployed with ClickOnce technology if you have developed your projects with Visual Basic and Visual C#. For information about deploying Visual C++ applications, see [ClickOnce Deployment for Visual C++ Applications](/cpp/ide/clickonce-deployment-for-visual-cpp-applications).
+[!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] is a deployment technology that enables you to create self-updating Windows-based applications that can be installed and run with minimal user interaction. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides full support for publishing and updating applications deployed with ClickOnce technology if you have developed your projects with Visual Basic and Visual C#. For information about deploying Visual C++ applications, see [ClickOnce Deployment for Visual C++ Applications](/cpp/windows/clickonce-deployment-for-visual-cpp-applications).
 
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment overcomes three major issues in deployment:
 
@@ -69,13 +69,13 @@ ms.workload:
  The application can be added to the user's **Start** menu and to the **Add or Remove Programs** group in the **Control Panel**. Unlike other deployment technologies, nothing is added to the **Program Files** folder or the registry, and no administrative rights are required for installation
 
 > [!NOTE]
->  It is also possible to prevent the application from being added to the **Start** menu and **Add or Remove Programs** group, in effect making it behave like a Web application. For more information, see [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md).
+> It is also possible to prevent the application from being added to the **Start** menu and **Add or Remove Programs** group, in effect making it behave like a Web application. For more information, see [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md).
 
 ### Update ClickOnce applications
  When the application developers create an updated version of the application, they generate a new application manifest and copy files to a deployment location—usually a sibling folder to the original application deployment folder. The administrator updates the deployment manifest to point to the location of the new version of the application.
 
 > [!NOTE]
->  The **Publish Wizard** in Visual Studio can be used to perform these steps.
+> The **Publish Wizard** in Visual Studio can be used to perform these steps.
 
  In addition to the deployment location, the deployment manifest also contains an update location (a Web page or network file share) where the application checks for updated versions. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] **Publish** properties are used to specify when and how often the application should check for updates. Update behavior can be specified in the deployment manifest, or it can be presented as user choices in the application's user interface by means of the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] APIs. In addition, **Publish** properties can be employed to make updates mandatory or to roll back to an earlier version. For more information, see [Choosing a ClickOnce update strategy](../deployment/choosing-a-clickonce-update-strategy.md).
 

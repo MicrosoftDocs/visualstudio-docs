@@ -20,17 +20,17 @@ manager: jillfra
 In a UML Class Diagram, a *type* is a class, an interface, or an enumeration.  
   
 > [!NOTE]
->  This topic is about the properties of types in UML Class Diagrams. For more information, see the following topics:  
+> This topic is about the properties of types in UML Class Diagrams. For more information, see the following topics:  
   
--   [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)  
+- [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)  
   
--   [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)  
+- [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)  
   
--   [Properties of attributes on UML class diagrams](../modeling/properties-of-attributes-on-uml-class-diagrams.md)  
+- [Properties of attributes on UML class diagrams](../modeling/properties-of-attributes-on-uml-class-diagrams.md)  
   
--   [Properties of operations on UML class diagrams](../modeling/properties-of-operations-on-uml-class-diagrams.md)  
+- [Properties of operations on UML class diagrams](../modeling/properties-of-operations-on-uml-class-diagrams.md)  
   
--   [Properties of associations on UML class diagrams](../modeling/properties-of-associations-on-uml-class-diagrams.md)  
+- [Properties of associations on UML class diagrams](../modeling/properties-of-associations-on-uml-class-diagrams.md)  
   
 ## Properties  
  These are the properties of a class, interface or enumeration.  

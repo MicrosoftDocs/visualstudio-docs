@@ -20,13 +20,13 @@ ms.workload:
 
  This topic provides the following information:
 
--   [Creating Features and Packages](#Creating)
+- [Create features and packages](#create-features-and-packages)
 
--   [Feature and Packaging Tool Support](#Tools)
+- [Feature and packaging tool support](#feature-and-packaging-tool-support)
 
--   [Deploying SharePoint Solutions](#Deploying)
+- [Deploy SharePoint solutions](#deploy-sharepoint-solutions)
 
--   [Deploying Files in SharePoint Solutions](#DeployingFiles)
+- [Deploy files in SharePoint solutions](#deploy-files-in-sharepoint-solutions)
 
 ## Create features and packages
  You can use Visual Studio to group related SharePoint elements into a *Feature*. For example, a Feature for a Contacts list definition may include the list instance and the list definition. You can combine these two elements into a single Feature for deployment purposes. For more information about features, see [Building Block: Features](http://go.microsoft.com/fwlink/?LinkID=169183).
@@ -36,11 +36,11 @@ ms.workload:
 ## Feature and packaging tool support
  You can use the SharePoint development tools in Visual Studio to quickly organize your SharePoint files into Features and solution packages for easier deployment. You can use the following tools to configure the Feature and solution package.
 
--   Feature Designer and Package Designer.
+- Feature Designer and Package Designer.
 
--   Packaging Explorer, a tool window.
+- Packaging Explorer, a tool window.
 
--   Solution Explorer.
+- Solution Explorer.
 
 ### Feature designer and package designer
  You can create Features, set scopes, and mark other Features as dependencies by using the Feature Designer. The designer also displays the final XML file that describes each feature. For more information, see [Create SharePoint features](../sharepoint/creating-sharepoint-features.md).

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "multi"
   - "tool windows"
 ms.assetid: 4a7872f1-acc9-4f43-8932-5a526b36adea
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

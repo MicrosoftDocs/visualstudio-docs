@@ -18,9 +18,9 @@ Projects are always managed within a Visual Studio *solution*, which can contain
 
 ## Creating a new R project
 
-1. Start Visual Studio.
-1. Choose **File > New > Project...** (**Ctrl**+**Shift**+**N**)
-1. Select "R Project" from under **Templates > R**, give the project a name and location, and select **OK**:
+1. Open Visual Studio.
+1. Choose **File > New > Project** (**Ctrl**+**Shift**+**N**)
+1. Select "R Project" from under **Templates** > **R**, give the project a name and location, and select **OK**:
 
     ![New Project dialog box for R in Visual Studio (RTVS in VS2017)](media/getting-started-01-new-project.png)
 
@@ -51,13 +51,12 @@ If you have an existing folder of *.R* files that you want to manage in a projec
 
 1. Create a new project in Visual Studio as in the previous section.
 1. Copy your files into the project folder.
-1. In the Visual Studio Solution Explorer, right-click the project, select **Add** > **Exiting Item**, and browse to the files you want to add. Those files appear in your project tree after selecting **OK**.
+1. In the Visual Studio Solution Explorer, right-click the project, select **Add** > **Existing Item**, and browse to the files you want to add. Those files appear in your project tree after selecting **OK**.
 1. To organize code into subfolders, right-click the project, select **Add** > **New Folder** first, then copy your files into that folder and add those existing items in step 3.
 
 ## Project properties
 
 To open the project property pages, right-click the project in **Solution Explorer** and select **Properties**, or select the **Project > (project name) properties** menu item. The window that opens displays project properties:
-
 
 | Tab | Property | Description |
 | --- | --- | --- |

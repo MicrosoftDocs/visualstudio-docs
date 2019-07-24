@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "THREADPROPERTY_FIELDS enumeration"
 ms.assetid: 5b88acb9-03ea-4c29-a788-f0087dccbe23
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # THREADPROPERTY_FIELDS
 Specifies what information about a thread is to be retrieved.
@@ -43,26 +46,26 @@ public enum enum_THREADPROPERTY_FIELDS { 
 };
 ```
 
-## Members
- TPF_ID
+## Fields
+ `TPF_ID`\
  Initialize/use the `dwThreadId` field of the [THREADPROPERTIES](../../../extensibility/debugger/reference/threadproperties.md) structure.
 
- TPF_SUSPENDCOUNT
+ `TPF_SUSPENDCOUNT`\
  Initialize/use the `dwSuspendCount` field of the `THREADPROPERTIE`S structure.
 
- TPF_STATE
+ `TPF_STATE`\
  Initialize/use the `dwThreadState` field of the `THREADPROPERTIE`S structure.
 
- TPF_PRIORITY
+ `TPF_PRIORITY`\
  Initialize/use the `bstrPriority` field of the `THREADPROPERTIE`S structure.
 
- TPF_NAME
+ `TPF_NAME`\
  Initialize/use the `bstrName` field of the `THREADPROPERTIE`S structure.
 
- TPF_LOCATION
+ `TPF_LOCATION`\
  Initialize/use the `bstrLocation` field of the `THREADPROPERTIE`S structure.
 
- TPF_ALLFIELDS
+ `TPF_ALLFIELDS`\
  Specifies all fields.
 
 ## Remarks
@@ -79,7 +82,7 @@ public enum enum_THREADPROPERTY_FIELDS { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [THREADPROPERTIES](../../../extensibility/debugger/reference/threadproperties.md)
 - [GetThreadProperties](../../../extensibility/debugger/reference/idebugthread2-getthreadproperties.md)

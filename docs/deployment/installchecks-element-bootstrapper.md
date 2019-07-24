@@ -91,7 +91,6 @@ The `InstallChecks` element supports starting a variety of tests against the loc
 
  `FileCheck` contains no elements, and has the following attributes.
 
-
 | Attribute | Description |
 |-----------------| - |
 | `Property` | Required. The name of the property to store the result. This property can be referenced from a test underneath the `InstallConditions` element, which is a child of the `Command` element. For more information, see [\<Commands> Element](../deployment/commands-element-bootstrapper.md). |
@@ -139,7 +138,7 @@ The `InstallChecks` element supports starting a variety of tests against the loc
  While the elements underneath `InstallChecks` define the tests to run, they do not execute them. To execute the tests, you must create `Command` elements underneath the `Commands` element.
 
 ## Example
- The following code example demonstrates the `InstallChecks` element as it is used in the product file for the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].
+ The following code example demonstrates the `InstallChecks` element as it is used in the product file for the .NET Framework.
 
 ```xml
 <InstallChecks>

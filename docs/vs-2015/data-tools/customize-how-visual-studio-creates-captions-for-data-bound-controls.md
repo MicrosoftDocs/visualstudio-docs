@@ -24,11 +24,10 @@ manager: jillfra
 # Customize how Visual Studio creates captions for data-bound controls
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-
-When you drag items from the [Data Sources Window](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) onto the Windows Forms Designer, a special consideration comes into play: the column names in the caption labels are reformatted into a more readable string when two or more words are found to be concatenated together. You can customize the way in which these labels are created, by setting the **SmartCaptionExpression**, **SmartCaptionReplacement**, and **SmartCaptionSuffix** values in the **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\10.0\Data Designers** registry key.
+When you drag items from the [Data Sources Window](https://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) onto the Windows Forms Designer, a special consideration comes into play: the column names in the caption labels are reformatted into a more readable string when two or more words are found to be concatenated together. You can customize the way in which these labels are created, by setting the **SmartCaptionExpression**, **SmartCaptionReplacement**, and **SmartCaptionSuffix** values in the **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\10.0\Data Designers** registry key.
 
 > [!NOTE]
->  This registry key does not exist until you create it.
+> This registry key does not exist until you create it.
 
  Smart captioning is controlled by the regular expression entered into the value of the **SmartCaptionExpression** value. Adding the **Data Designers** registry key overrides the default regular expression that controls caption labels. For more information about regular expressions, see [Using Regular Expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
 
@@ -49,27 +48,27 @@ When you drag items from the [Data Sources Window](http://msdn.microsoft.com/lib
 |**SmartCaptionSuffix**|:|Represents a character appended to the returned string. For example, if the caption is `Company Name`, the suffix makes it `Company Name:`|
 
 > [!CAUTION]
->  You should be very careful when doing anything in the Registry Editor. Back up the registry before editing it. If you use the Registry Editor incorrectly, you can cause serious problems that may require you to reinstall your operating system. Microsoft does not guarantee that problems that you cause by using the Registry Editor incorrectly can be resolved. Use the Registry Editor at your own risk.
+> You should be very careful when doing anything in the Registry Editor. Back up the registry before editing it. If you use the Registry Editor incorrectly, you can cause serious problems that may require you to reinstall your operating system. Microsoft does not guarantee that problems that you cause by using the Registry Editor incorrectly can be resolved. Use the Registry Editor at your own risk.
 >
->  The following KnowledgeBase article contains instructions for backing up, editing, and restoring the registry: [Description of the Microsoft Windows registry](http://support.microsoft.com/default.aspx?scid=kb;en-us;256986) (http://support.microsoft.com/default.aspx?scid=kb;en-us;256986)
+> The following KnowledgeBase article contains instructions for backing up, editing, and restoring the registry: [Description of the Microsoft Windows registry](http://support.microsoft.com/default.aspx?scid=kb;en-us;256986) (http://support.microsoft.com/default.aspx?scid=kb;en-us;256986)
 
 ### To modify the smart captioning behavior of the Data Sources window
 
-1.  Open a command window by clicking **Start** and then **Run**.
+1. Open a command window by clicking **Start** and then **Run**.
 
-2.  Type `regedit` in the **Run** dialog box, and click **OK**.
+2. Type `regedit` in the **Run** dialog box, and click **OK**.
 
-3.  Expand the **HKEY_CURRENT_USER** node.
+3. Expand the **HKEY_CURRENT_USER** node.
 
-4.  Expand the **Software** node.
+4. Expand the **Software** node.
 
-5.  Expand the **Microsoft** node.
+5. Expand the **Microsoft** node.
 
-6.  Expand the **VisualStudio** node.
+6. Expand the **VisualStudio** node.
 
-7.  Right-click the **10.0** node, and create a new **Key** named `Data Designers`.
+7. Right-click the **10.0** node, and create a new **Key** named `Data Designers`.
 
-8.  Right-click the **Data Designers** node, and create a new **String Value** named `SmartCaptionExpression`.
+8. Right-click the **Data Designers** node, and create a new **String Value** named `SmartCaptionExpression`.
 
 9. Right-click the **Data Designers** node, and create a new **String Value** named `SmartCaptionReplacement`.
 
@@ -91,21 +90,21 @@ When you drag items from the [Data Sources Window](http://msdn.microsoft.com/lib
 
 ### To turn off the smart captioning feature
 
-1.  Open a command window by clicking **Start** and then **Run**.
+1. Open a command window by clicking **Start** and then **Run**.
 
-2.  Type `regedit` in the **Run** dialog box, and click **OK**.
+2. Type `regedit` in the **Run** dialog box, and click **OK**.
 
-3.  Expand the **HKEY_CURRENT_USER** node.
+3. Expand the **HKEY_CURRENT_USER** node.
 
-4.  Expand the **Software** node.
+4. Expand the **Software** node.
 
-5.  Expand the **Microsoft** node.
+5. Expand the **Microsoft** node.
 
-6.  Expand the **VisualStudio** node.
+6. Expand the **VisualStudio** node.
 
-7.  Right-click the **10.0** node, and create a new **Key** named `Data Designers`.
+7. Right-click the **10.0** node, and create a new **Key** named `Data Designers`.
 
-8.  Right-click the **Data Designers** node, and create a new **String Value** named `SmartCaptionExpression`.
+8. Right-click the **Data Designers** node, and create a new **String Value** named `SmartCaptionExpression`.
 
 9. Right-click the **Data Designers** node, and create a new **String Value** named `SmartCaptionReplacement`.
 

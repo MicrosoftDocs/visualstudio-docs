@@ -35,17 +35,17 @@ ms.workload:
 ### SharePoint 2010 project
  The contents of a *SharePoint 2010 Project* are included in every SharePoint project template. A SharePoint 2010 Project contains:
 
--   A project file.
+- A project file.
 
--   A project properties page.
+- A project properties page.
 
--   A **References** folder listing all of the assembly references in the project.
+- A **References** folder listing all of the assembly references in the project.
 
--   A **Features** folder that contains a *.feature* configuration file, used to deploy features to SharePoint server.
+- A **Features** folder that contains a *.feature* configuration file, used to deploy features to SharePoint server.
 
--   A **Package** folder that contains a *Package.package* file, used to deploy the solution to SharePoint.
+- A **Package** folder that contains a *Package.package* file, used to deploy the solution to SharePoint.
 
--   A key.snk (strong-name key) file that is used to sign the assembly with a strong name, for enhanced security.
+- A key.snk (strong-name key) file that is used to sign the assembly with a strong name, for enhanced security.
 
 ### SharePoint 2010 Silverlight web part
  *SharePoint 2010 Silverlight Web Part* projects enable you to Create web parts for SharePoint that display Silverlight applications. When you create this project, you can specify whether to add a new Silverlight application to it or reference an existing one. For more information, see [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md) and [Walkthrough: Create a Silverlight web part that displays OData for SharePoint](../sharepoint/walkthrough-creating-a-silverlight-web-part-that-displays-odata-for-sharepoint.md).
@@ -68,13 +68,13 @@ ms.workload:
  An **Application Page (Farm Solution Only)** item enables you to design an [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] web page for a SharePoint site. Applications pages can be used only in farm solutions. You can add this project item only to farm solutions. For more information, see [How to: Create an application page](../sharepoint/how-to-create-an-application-page.md) and [Application _layouts Page Type](http://go.microsoft.com/fwlink/?LinkId=179434).
 
 ### Business data connectivity model (farm solution only)
- A **Business Data Connectivity Model (Farm Solution Only)** item enables you to Integrate business data into SharePoint. Business data can come from back-end server applications, such as [!INCLUDE[ssNoVersion](../sharepoint/includes/ssnoversion-md.md)], Siebel, and Service Advertising Protocol (SAP). Business data connectivity models can be used only in farm solutions. You can add this project item only to farm solutions. For more information, see [How to: Create a BDC Model](../sharepoint/how-to-create-a-bdc-model.md), [How to: Use a Resource File to Specify Localized Names, Properties, and Permissions](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md), and [What's New: Business Connectivity Services](http://go.microsoft.com/fwlink/?LinkId=179411).
+ A **Business Data Connectivity Model (Farm Solution Only)** item enables you to Integrate business data into SharePoint. Business data can come from back-end server applications, such as [!INCLUDE[ssNoVersion](../sharepoint/includes/ssnoversion-md.md)], Siebel, and Service Advertising Protocol (SAP). Business data connectivity models can be used only in farm solutions. You can add this project item only to farm solutions. For more information, see [How to: Create a BDC Model](../sharepoint/how-to-create-a-bdc-model.md), [How to: Use a Resource File to Specify Localized Names, Properties, and Permissions](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md), and [What's New: Business Connectivity Services](/previous-versions/office/developer/sharepoint-2010/ee534979(v=office.14)).
 
 ### Content type
  *Content Type* items let you create custom content types based on an existing (base) content type such as a document, announcement, or a task. A custom content type provides the same attributes and fields as the base content type together with any site columns (fields) you define. For example, you can create a custom Contact content type that is based on the base Contact content type that comes in SharePoint. You can customize the content type by changing the existing site columns or adding more site columns to the ones already included in the base content type.
 
 > [!NOTE]
->  Due to a SharePoint limitation, you cannot create a farm solution content type based on a sandboxed solution content type.
+> Due to a SharePoint limitation, you cannot create a farm solution content type based on a sandboxed solution content type.
 
  For more information, see [Walkthrough: Create a site column, content type, and list for SharePoint](../sharepoint/walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md) and [Building Block: Content Type](http://go.microsoft.com/fwlink/?LinkId=179413).
 
@@ -103,7 +103,7 @@ ms.workload:
  *Modules* (not to be confused with [!include[vbprvb](../sharepoint/includes/vbprvb-md.md)] modules) contain any files that you want to deploy to the SharePoint server, such as images or notes. The module project item contains a **Module** node. The module node contains two project item templates: an XML definition file, which acts as a manifest for the module, and a *sample.txt* file, a placeholder file. For more information, see [Use Modules to Include Files in the Solution](../sharepoint/using-modules-to-include-files-in-the-solution.md) and [Modules](http://go.microsoft.com/fwlink/?LinkId=179425).
 
 ### Sequential workflow (farm solution only)
- A *sequential workflow* is a series of business logic steps, performed in sequence, until the last step is completed. Sequential workflows are used to manage processes that involve SharePoint items such as lists and documents. You can create either site-level (global) workflows or list-level (local) workflows, and you can select whether a workflow starts automatically or manually. This project item can be used only in farm solutions. You can add this project item only to farm solutions. For more information, see [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md), [Workflows in SharePoint Server 2010](http://go.microsoft.com/fwlink/?LinkId=260555), and [What's New: Workflow Improvements](http://go.microsoft.com/fwlink/?LinkId=179418).
+ A *sequential workflow* is a series of business logic steps, performed in sequence, until the last step is completed. Sequential workflows are used to manage processes that involve SharePoint items such as lists and documents. You can create either site-level (global) workflows or list-level (local) workflows, and you can select whether a workflow starts automatically or manually. This project item can be used only in farm solutions. You can add this project item only to farm solutions. For more information, see [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md), [Workflows in SharePoint Server 2010](http://go.microsoft.com/fwlink/?LinkId=260555), and [What's New: Workflow Improvements](/previous-versions/office/developer/sharepoint-2010/ee537015(v=office.14)).
 
 ### Silverlight web part
  *Silverlight web part* project items enable you to Create web parts for SharePoint that display Silverlight applications. When you add this project item to your solution, you can choose whether to add a new Silverlight application or reference an existing one later. For more information, see [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md) and [Walkthrough: Create a Silverlight web part that displays OData for SharePoint](../sharepoint/walkthrough-creating-a-silverlight-web-part-that-displays-odata-for-sharepoint.md).
@@ -123,7 +123,7 @@ ms.workload:
   After you add a site definition, you add code and files to introduce functionality. This project item can be used only in farm solutions. You can add this project item only to farm solutions. For more information, see [Create site definitions for SharePoint](../sharepoint/creating-site-definitions-for-sharepoint.md) and [Site Definitions and Configurations](http://go.microsoft.com/fwlink/?LinkId=260554).
 
 ### State machine workflow (farm solution only)
- A *state machine workflow* is a set of business logic states, transitions, and actions. The steps in a state machine workflow are not performed in sequence; instead, they are triggered by actions and states. Like a sequential workflow, state machine workflows are associated with SharePoint items such as lists and documents. Once again, you can create site-level (global) workflows or list-level (local) workflows. You can also select whether a workflow starts automatically or manually. This project item can be used only in farm solutions. You can add this project item only to farm solutions. For more information, see [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md), [Workflows in SharePoint Server 2010](http://go.microsoft.com/fwlink/?LinkId=260555),  and [What's New: Workflow Improvements](http://go.microsoft.com/fwlink/?LinkId=179418).
+ A *state machine workflow* is a set of business logic states, transitions, and actions. The steps in a state machine workflow are not performed in sequence; instead, they are triggered by actions and states. Like a sequential workflow, state machine workflows are associated with SharePoint items such as lists and documents. Once again, you can create site-level (global) workflows or list-level (local) workflows. You can also select whether a workflow starts automatically or manually. This project item can be used only in farm solutions. You can add this project item only to farm solutions. For more information, see [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md), [Workflows in SharePoint Server 2010](http://go.microsoft.com/fwlink/?LinkId=260555),  and [What's New: Workflow Improvements](/previous-versions/office/developer/sharepoint-2010/ee537015(v=office.14)).
 
 ### User control (farm solution only)
  A *user control* is a custom, reusable control to which you can add other ASP.NET controls and SharePoint controls. The user control can be added to application pages and web parts that run in SharePoint. This project item can be used only in farm solutions. You can add this project item only to farm solutions. For more information, see [Creating Reusable Controls for Web Parts or Application Pages](http://go.microsoft.com/fwlink/?LinkId=226841).

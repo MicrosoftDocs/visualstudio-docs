@@ -27,14 +27,14 @@ The imports designer enables you to enter namespaces for the types that you will
   
 ### To add a namespace to the list of imported namespaces  
   
-1.  Open a WCF Workflow service application, workflow console application, or activity library project in [!INCLUDE[vs2010](../includes/vs2010-md.md)] or a rehosted workflow application.  
+1. Open a WCF Workflow service application, workflow console application, or activity library project in [!INCLUDE[vs2010](../includes/vs2010-md.md)] or a rehosted workflow application.  
   
-2.  Click **Imports** on the bottom of the main canvas. The Imports designer will appear.  
+2. Click **Imports** on the bottom of the main canvas. The Imports designer will appear.  
   
-3.  Enter or select a namespace from the drop-down list control at the top of the Imports Designer.  
+3. Enter or select a namespace from the drop-down list control at the top of the Imports Designer.  
   
      As you type, a list of valid namespaces that match the typed characters appears.  
   
-4.  Press **Enter** to add the namespace to the list.  
+4. Press **Enter** to add the namespace to the list.  
   
-5.  If you want to remove a namespace from the list, select the namespace and then press the **Delete** key on your keyboard. Note that a namespace can only be deleted if the namespace is invalid for any reason, for example if the assembly that contains the namespace is no longer referenced by the project.
+5. If you want to remove a namespace from the list, select the namespace and then press the **Delete** key on your keyboard. Note that a namespace can only be deleted if the namespace is invalid for any reason, for example if the assembly that contains the namespace is no longer referenced by the project.

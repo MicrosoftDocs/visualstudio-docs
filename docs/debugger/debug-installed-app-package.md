@@ -1,6 +1,6 @@
 ---
 title: "Debug an installed UWP app package | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+ms.custom: ""
 ms.date: "11/07/2018"
 ms.topic: "conceptual"
 f1_keywords:
@@ -91,7 +91,7 @@ For more information on remote deployment of UWP apps, see [Deploy and debug UWP
 ## See also
 
 - [Debugging in Visual Studio](../debugger/index.md)
-- [Debugger feature tour](../debugger/debugger-feature-tour.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Remote debugging](../debugger/remote-debugging.md)
 - [Configure the Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)
 - [Remote debugger port assignments](../debugger/remote-debugger-port-assignments.md)

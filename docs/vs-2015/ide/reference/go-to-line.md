@@ -18,7 +18,6 @@ manager: jillfra
 # Go To Line
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This dialog box allows you to move to a specific line in the active document. To access this dialog box, open a document for editing, then select **Go To** on the **Edit** menu.  
   
  Line number (1 - `n`)  

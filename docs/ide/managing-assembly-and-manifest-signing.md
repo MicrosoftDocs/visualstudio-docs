@@ -1,6 +1,7 @@
 ---
 title: Manage assembly and manifest signing
 ms.date: 02/17/2017
+ms.technology: vs-ide-deployment
 ms.topic: conceptual
 helpviewer_keywords:
   - "manifests [Visual Studio]"
@@ -8,8 +9,8 @@ helpviewer_keywords:
   - "application manifests [Visual Studio]"
   - "assemblies [Visual Studio], signing"
 ms.assetid: 6c1ef36b-25f7-4ad0-b29a-51801b7a5420
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -25,7 +26,7 @@ For information about signing assemblies in Visual Basic and C# projects, see [C
 For information about signing assemblies in Visual C++ projects, see [Strong-named assemblies (C++/CLI)](/cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli).
 
 > [!NOTE]
-> Strong-name signing does not protect against reverse-engineering of the assembly. To protect against reverse-engineering, see [Dotfuscator Community Edition (CE)](dotfuscator/index.md).
+> Strong-name signing does not protect against reverse-engineering of the assembly. To protect against reverse-engineering, see [Dotfuscator Community](dotfuscator/index.md).
 
 ## Asset types and signing
 
@@ -47,11 +48,11 @@ Sign the following types of asset:
 
 3. Primary interop assemblies, which are used for COM interoperability. The TLBIMP utility enforces strong-naming when creating a primary interop assembly from a COM type library.
 
-In general, you should not sign executables. A strongly-named component cannot reference a non-strongly-named component that is deployed with the application. Visual Studio does not sign application executables, but instead signs the application manifest, which points to the weak-named executable. Avoid signing components that are private to your application, because signing can make it more difficult to manage dependencies.
+In general, you should not sign executables. A strongly named component cannot reference a non-strongly-named component that is deployed with the application. Visual Studio does not sign application executables, but instead signs the application manifest, which points to the weak-named executable. Avoid signing components that are private to your application, because signing can make it more difficult to manage dependencies.
 
 ## How to sign an assembly in Visual Studio
 
-You sign an application or component by using the **Signing** tab of the project properties window (right-click the project node in **Solution Explorer** and select **Properties**, or type **project properties** in the **Quick Launch** window, or press **Alt**+**Enter** inside **Solution Explorer**). Select the **Signing** tab, then select the **Sign the assembly**  check box.
+You sign an application or component by using the **Signing** tab of the project properties window (right-click the project node in **Solution Explorer** and select **Properties**). Select the **Signing** tab, then select the **Sign the assembly**  check box.
 
 Specify a key file. If you choose to create a new key file, new key files are always created in the *.pfx* format. You need a name and password for the new file.
 

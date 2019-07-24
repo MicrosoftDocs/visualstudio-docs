@@ -17,7 +17,6 @@ manager: jillfra
 # Setting Language-Specific Editor Options
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] offers a variety of Text Editor options that apply to specific programming languages.  
   
 ## In This Section  
@@ -39,10 +38,10 @@ manager: jillfra
  [Options, Text Editor, C#, IntelliSense](../../ide/reference/options-text-editor-csharp-intellisense.md)  
  Describes settings that specify how the IntelliSense completion list behaves when you work in C# and J# code.  
   
- [Validation, CSS, Text Editor, Options Dialog Box](http://msdn.microsoft.com/library/5afe0808-16bb-420f-b620-7ca1a4d9f2cc)  
+ [Validation, CSS, Text Editor, Options Dialog Box](https://msdn.microsoft.com/library/5afe0808-16bb-420f-b620-7ca1a4d9f2cc)  
  Describes statement completion and error correction settings for cascading style sheets (CSS).  
   
- [Validation, HTML, Text Editor, Options Dialog Box](http://msdn.microsoft.com/library/9c24ecfe-263e-4bf1-88de-d01be3992863)  
+ [Validation, HTML, Text Editor, Options Dialog Box](https://msdn.microsoft.com/library/9c24ecfe-263e-4bf1-88de-d01be3992863)  
  Describes settings for checking HTML syntax based on the schema you select.  
   
  [Options, Text Editor, XAML, Formatting](../../ide/reference/options-text-editor-xaml-formatting.md)  
@@ -52,5 +51,5 @@ manager: jillfra
  [Customizing the Editor](../../ide/customizing-the-editor.md)  
  Provides links to topics that explain the many aspects of the editor that you can set preferences for.  
   
- [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)  
+ [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)  
  Provides links to topics that explain how to customize your settings, key bindings, and other features of the integrated development environment (IDE).

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "installation [Visual Studio SDK], source control plug-ins"
   - "source control plug-ins, installing"
 ms.assetid: 9e2e01d9-7beb-42b2-99b2-86995578afda
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -39,7 +39,7 @@ Creating a source-control plug-in involves three steps:
    |HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SourceSafe\SCCServerPath|*c:\vss\win32\ssscc.dll*|
 
    > [!NOTE]
-   >  SCCServerPath is the full path to the SourceSafe plug-in. Your source control plug-in will use different company and product names but the same registry entry paths.
+   > SCCServerPath is the full path to the SourceSafe plug-in. Your source control plug-in will use different company and product names but the same registry entry paths.
 
 2. The following optional registry entries can be used to modify the behavior of your source control plug-in. These entries go in the same subkey as **SccServerName** and **SccServerPath**.
 
@@ -56,7 +56,6 @@ Creating a source-control plug-in involves three steps:
    | HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SourceSafe\HideInVisualStudio | 1 |
    | HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SourceSafe\DisableSccManager | 1 |
 
-
 3. Add the subkey, **SourceCodeControlProvider**, under the **HKEY_LOCAL_MACHINE** key in the **SOFTWARE** subkey.
 
     Under this subkey, the registry entry **ProviderRegKey** is set to a string that represents the subkey that you placed in the registry in step 1. The pattern is **HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider\ProviderRegKey** = *SOFTWARE\\<company name\>\\<product name\>*.
@@ -68,11 +67,11 @@ Creating a source-control plug-in involves three steps:
    |HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider\ProviderRegKey|SOFTWARE\Microsoft\SourceSafe|
 
    > [!NOTE]
-   >  Your source control plug-in will use the same subkey and entry names, but the value will be different.
+   > Your source control plug-in will use the same subkey and entry names, but the value will be different.
 
 4. Create a subkey named **InstalledSCCProviders** under the **SourceCodeControlProvider** subkey, and then place one entry under that subkey.
 
-    The name of this entry is the user-readable name of the provider (the same as the value specified for the SCCServerName entry), and the value is, once again, the subkey created in step 1. The pattern is **HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider\InstalledSCCProviders\\<display name>** = *SOFTWARE\\<company name\>\\<product name\>*.
+    The name of this entry is the user-readable name of the provider (the same as the value specified for the SCCServerName entry), and the value is, once again, the subkey created in step 1. The pattern is **HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider\InstalledSCCProviders\\<display name\>** = *SOFTWARE\\<company name\>\\<product name\>*.
 
     For example:
 
@@ -81,7 +80,7 @@ Creating a source-control plug-in involves three steps:
    |HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider\InstalledSCCProviders\Microsoft Visual SourceSafe|SOFTWARE\Microsoft\SourceSafe|
 
    > [!NOTE]
-   >  There can be multiple source control plug-ins registered in this way. This is how [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] finds all installed Source Control Plug-in API-based plug-ins.
+   > There can be multiple source control plug-ins registered in this way. This is how [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] finds all installed Source Control Plug-in API-based plug-ins.
 
 ## How an IDE locates the DLL
  The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE has two ways of finding the source control plug-in DLL:
@@ -93,14 +92,14 @@ Creating a source-control plug-in involves three steps:
   To locate the DLL in the first way, the IDE looks under the **HKEY_LOCAL_MACHINE\Software\SourceCodeControlProvider** subkey for the entry **ProviderRegKey**. The value of this entry points to another subkey. The IDE then looks for an entry named **SccServerPath** in that second subkey under **HKEY_LOCAL_MACHINE**. The value of this entry points the IDE to the DLL.
 
 > [!NOTE]
->  The IDE does not load DLLs from relative paths (for example, *.\NewProvider.DLL*). A full path to the DLL must be specified (for example, *c:\Providers\NewProvider.DLL*). This strengthens the security of the IDE by preventing the loading of unauthorized or impersonated plug-in DLLs.
+> The IDE does not load DLLs from relative paths (for example, *.\NewProvider.DLL*). A full path to the DLL must be specified (for example, *c:\Providers\NewProvider.DLL*). This strengthens the security of the IDE by preventing the loading of unauthorized or impersonated plug-in DLLs.
 
  To locate the DLL in the second way, the IDE looks under the **HKEY_LOCAL_MACHINE\Software\SourceCodeControlProvider\InstalledSCCProviders** subkey for all entries. Each entry has a name and a value. The IDE displays a list of these names to the user. When the user chooses a name, the IDE finds the value for the selected name that points to a subkey. The IDE looks for an entry named **SccServerPath** in that subkey under **HKEY_LOCAL_MACHINE**. The value of that entry points the IDE to the correct DLL.
 
  A source control plug-in needs to support both ways of finding the DLL and, consequently, sets **ProviderRegKey**, overwriting any previous setting. More importantly, it must add itself to the list of **InstalledSccProviders** so the user can have a choice of which source control plug-in to use.
 
 > [!NOTE]
->  Because the **HKEY_LOCAL_MACHINE** key is used, only one source control plug-in can be registered as the default source control plug-in on a given machine (however, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] allows users to determine which source control plug-in they want to actually use for a particular solution). During your installation process, check to see if a source control plug-in is already set; if so, ask the user whether or not to set the new source control plug-in being installed as the default. During uninstallation, do not remove other registry subkeys that are common to all source control plug-ins in **HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider**; remove only your particular SCC subkey.
+> Because the **HKEY_LOCAL_MACHINE** key is used, only one source control plug-in can be registered as the default source control plug-in on a given machine (however, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] allows users to determine which source control plug-in they want to actually use for a particular solution). During your installation process, check to see if a source control plug-in is already set; if so, ask the user whether or not to set the new source control plug-in being installed as the default. During uninstallation, do not remove other registry subkeys that are common to all source control plug-ins in **HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider**; remove only your particular SCC subkey.
 
 ## How the IDE detects version 1.2/1.3 support
  How does [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] detect whether a plug-in supports Source Control Plug-in API version 1.2 and 1.3 functionality? To declare advanced capability, the source control plug-in must implement the corresponding function:

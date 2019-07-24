@@ -13,15 +13,15 @@ manager: jillfra
 
 You can use *Test settings* in Visual Studio to collect extra data when you run your tests. For example, you might want to make a video recording as you run your test. There are diagnostic data adapters to:
 
--   Collect each UI action step in text format
+- Collect each UI action step in text format
 
--   Record each UI action for playing back
+- Record each UI action for playing back
 
--   Collect system information
+- Collect system information
 
--   Collect event log data
+- Collect event log data
 
--   Collect IntelliTrace data to help isolate non-reproducible bugs
+- Collect IntelliTrace data to help isolate non-reproducible bugs
 
 Diagnostic data adapters can also be used to change the behavior of a test machine. For example, with a test setting in Visual Studio, you can emulate various network topology bottlenecks to evaluate the performance of your team’s application.
 

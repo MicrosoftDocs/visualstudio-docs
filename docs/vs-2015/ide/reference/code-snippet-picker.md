@@ -19,7 +19,6 @@ manager: jillfra
 # Code Snippet Picker
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] Code Editor provides a **Code Snippet Picker** that allows you, in a few mouse clicks, to insert ready-made blocks of code into the active document.  
   
  The procedure to display the **Code Snippet Picker** varies according to the language you are using.  
@@ -51,6 +50,6 @@ The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] Code Editor provides a **Cod
   
 ## See Also  
  [Best Practices for Using Code Snippets](../../ide/best-practices-for-using-code-snippets.md)   
- [Visual Basic IntelliSense Code Snippets](http://msdn.microsoft.com/library/ffdde4c9-8141-4906-b09b-15181357a643)   
+ [Visual Basic IntelliSense Code Snippets](https://msdn.microsoft.com/library/ffdde4c9-8141-4906-b09b-15181357a643)   
  [Setting Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)   
  [How to: Use Surround-with Code Snippets](../../ide/how-to-use-surround-with-code-snippets.md)

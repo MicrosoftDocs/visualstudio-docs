@@ -8,11 +8,14 @@ helpviewer_keywords:
   - "IDebugMemoryContext2::GetName method"
   - "GetName method"
 ms.assetid: 8c212556-7d9e-4d68-b2a9-8212f50d0287
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugMemoryContext2::GetName
 Retrieves the user-displayable name for this context.
@@ -31,10 +34,9 @@ int GetName(
 );
 ```
 
-#### Parameters
- `pbstrName`
-
- [out] Returns the name of the memory context.
+## Parameters
+`pbstrName`\
+[out] Returns the name of the memory context.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -42,5 +44,5 @@ int GetName(
 ## Remarks
  The name of a memory context is not normally used.
 
-## See Also
+## See also
 - [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)

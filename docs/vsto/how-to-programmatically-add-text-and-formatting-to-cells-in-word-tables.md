@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically add text and formatting to cells in Word tables"
+title: "Add text & formatting to Word table cells programmatically"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -23,7 +23,7 @@ ms.workload:
 
 ## To add text and formatting to cells
 
-1.  Refer to the cell by its location in the table, add text to the cell, and apply the formatting.
+1. Refer to the cell by its location in the table, add text to the cell, and apply the formatting.
 
      The following code example can be used in a document-level customization. To use this example, run it from the `ThisDocument` class in your project.
 

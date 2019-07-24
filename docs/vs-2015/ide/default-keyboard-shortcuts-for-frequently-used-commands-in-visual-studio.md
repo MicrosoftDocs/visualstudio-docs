@@ -16,7 +16,7 @@ manager: jillfra
 You can access frequently used commands in Visual Studio by choosing these default keyboard shortcuts. For a complete list of commands that have default shortcuts, see [Default Keyboard Shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
 > [!NOTE]
->  You can look up the shortcut for any command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**.
+> You can look up the shortcut for any command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**.
 
  **In this topic**
 
@@ -25,7 +25,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 |[Build](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md#bkmk_build)|[Edit](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md#bkmk_edit)|[Project](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md#bkmk_project)|[Tools](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md#bkmk_tools)|[Window](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md#bkmk_window)|
 |[Debug](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md#bkmk_debug)|[File](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md#bkmk_file)|[Refactor](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md#bkmk_refactor)|[View](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md#bkmk_view)||
 
-##  <a name="bkmk_build"></a> Build
+## <a name="bkmk_build"></a> Build
 
 |Commands|Keyboard Shortcuts [Contexts]|
 |--------------|-------------------------------------|
@@ -34,7 +34,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 |Build.Compile|Ctrl+F7 [Global]|
 |Build.RunCodeAnalysisonSolution|Alt+F11 [Global]|
 
-##  <a name="bkmk_debug"></a> Debug
+## <a name="bkmk_debug"></a> Debug
 
 |Commands|Keyboard Shortcuts [Contexts]|
 |--------------|-------------------------------------|
@@ -54,7 +54,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 |Debug.StopDebugging|Shift+F5 [Global]|
 |Debug.ToggleBreakpoint|F9 [Global]|
 
-##  <a name="bkmk_edit"></a> Edit
+## <a name="bkmk_edit"></a> Edit
 
 |Commands|Keyboard Shortcuts [Contexts]|
 |--------------|-------------------------------------|
@@ -105,7 +105,7 @@ dit.SurroundWith|Ctrl+K, Ctrl+S [Global]|
 |Edit.WordDeleteToEnd|Ctrl+Delete [Text Editor]|
 |Edit.WordDeleteToStart|Ctrl+Backspace [Text Editor]|
 
-##  <a name="bkmk_file"></a> File
+## <a name="bkmk_file"></a> File
 
 |Commands|Keyboard Shortcuts [Contexts]|
 |--------------|-------------------------------------|
@@ -121,26 +121,26 @@ dit.SurroundWith|Ctrl+K, Ctrl+S [Global]|
 |File.SaveSelectedItems|Ctrl+S [Global]|
 |File.ViewinBrowser|Ctrl+Shift+W [Global]|
 
-##  <a name="bkmk_project"></a> Project
+## <a name="bkmk_project"></a> Project
 
 |Commands|Keyboard Shortcuts [Contexts]|
 |--------------|-------------------------------------|
 |Project.AddExistingItem|Shift+Alt+A [Global]|
 |Project.AddNewItem|Ctrl+Shift+A [Global]|
 
-##  <a name="bkmk_refactor"></a> Refactor
+## <a name="bkmk_refactor"></a> Refactor
 
 |Command|Keyboard Shortcut [Context]|
 |-------------|-----------------------------------|
 |Refactor.ExtractMethod|Ctrl+R, Ctrl+M [Global]|
 
-##  <a name="bkmk_tools"></a> Tools
+## <a name="bkmk_tools"></a> Tools
 
 |Command|Keyboard Shortcut [Context]|
 |-------------|-----------------------------------|
 |Tools.AttachtoProcess|Ctrl+Alt+P [Global]|
 
-##  <a name="bkmk_view"></a> View
+## <a name="bkmk_view"></a> View
 
 |Commands|Keyboard Shortcuts [Contexts]|
 |--------------|-------------------------------------|
@@ -161,7 +161,7 @@ iew.TfsTeamExplorer|Ctrl+\\, Ctrl+M [Global]|
 |View.ViewCode|Enter [Class Diagram]<br /><br /> or F7 [Settings Designer]|
 |View.ViewDesigner|Shift+F7 [HTML Editor Source View]|
 
-##  <a name="bkmk_window"></a> Window
+## <a name="bkmk_window"></a> Window
 
 |Commands|Keyboard Shortcuts [Contexts]|
 |--------------|-------------------------------------|

@@ -3,8 +3,8 @@ title: "Layout for Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: c19e3022-047c-43b6-a046-a82717efed4f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -12,17 +12,17 @@ ms.workload:
 # Layout for Visual Studio
 The majority of Visual Studio dialogs are [Utility dialog layout](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_UtilityDialogLayout), which are the unthemed dialogs that follow standard [Windows Desktop dialog layout principles](/windows/desktop/uxguide/win-dialog-box). As Visual Studio moves to refresh its UI, some of the more prominent dialogs have a new design that establishes them as product-defining experiences. These [Themed dialog layout](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_ThemedDialogLayout) have a themed appearance.
 
-##  <a name="BKMK_UtilityDialogLayout"></a> Utility dialog layout
+## <a name="BKMK_UtilityDialogLayout"></a> Utility dialog layout
 
--   All controls within a utility dialog should start at the top/left and flow downward.
+- All controls within a utility dialog should start at the top/left and flow downward.
 
--   Never center controls on a dialog to fill a large area.
+- Never center controls on a dialog to fill a large area.
 
--   Use the environment font for all dialog text. When writing a visual spec, specify the environment font instead of selecting a particular font and size. See [The environment font](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TheEnvironmentFont).
+- Use the environment font for all dialog text. When writing a visual spec, specify the environment font instead of selecting a particular font and size. See [The environment font](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TheEnvironmentFont).
 
--   Use consistent control spacing and placement to support the goal for quality in craftsmanship.
+- Use consistent control spacing and placement to support the goal for quality in craftsmanship.
 
--   Dialogs can become more complex from a larger number of controls, a unique juxtaposition of controls, or both. For those complex situations, allow adequate space between control groupings to give the user a logical flow to parse.
+- Dialogs can become more complex from a larger number of controls, a unique juxtaposition of controls, or both. For those complex situations, allow adequate space between control groupings to give the user a logical flow to parse.
 
 ### Utility dialog layout examples
  All dimensions are expressed as pixels.
@@ -39,11 +39,11 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
 
 #### Margins
 
--   All dialogs should have a 12-pixel border around all edges.
+- All dialogs should have a 12-pixel border around all edges.
 
--   Margins within a group frame should be 9 pixels from the edge of the frame.
+- Margins within a group frame should be 9 pixels from the edge of the frame.
 
--   Margins within a tab control should be 6 pixels from the edge of the tab control.
+- Margins within a tab control should be 6 pixels from the edge of the tab control.
 
 #### Command buttons
 
@@ -63,13 +63,13 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
 
 #### Labels
 
--   Left-align all labels.
+- Left-align all labels.
 
--   For labels that sit above a control, they should left-align precisely with the control below it and the bottom of the label should be 5 pixels above the top of the other control (for example, a combo box).
+- For labels that sit above a control, they should left-align precisely with the control below it and the bottom of the label should be 5 pixels above the top of the other control (for example, a combo box).
 
--   For labels that sit to the left of controls, the minimum width between the label and the input control is 10 pixels. An implied second column should be established for aligning the text boxes, combo boxes, or other controls.
+- For labels that sit to the left of controls, the minimum width between the label and the input control is 10 pixels. An implied second column should be established for aligning the text boxes, combo boxes, or other controls.
 
--   Labels are sentence case and are followed by a colon. See [Text style](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TextStyle).
+- Labels are sentence case and are followed by a colon. See [Text style](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TextStyle).
 
 #### Distance between controls
  Stack controls reasonably. There is no absolute guideline for the spacing between stacked controls. The tightness between the controls may vary slightly between dialogs. The recommended spacing is 20 pixels for vertical control/label pairs, and 9 pixels for horizontal control/label pairs. The minimum control spacing for horizontal pairs is 6 pixels.
@@ -90,11 +90,11 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
 
 #### Helper text
 
--   A dialog can display helper text that provides more information about the purpose of the dialog. This typically sits at the top and can be 1-2 sentences.
+- A dialog can display helper text that provides more information about the purpose of the dialog. This typically sits at the top and can be 1-2 sentences.
 
--   The line length should be a comfortable width for a user to parse and read. A medium dialog should be no more than 550 pixels wide.
+- The line length should be a comfortable width for a user to parse and read. A medium dialog should be no more than 550 pixels wide.
 
-####  <a name="BKMK_InteriorCommandButtons"></a> Interior command buttons
+#### <a name="BKMK_InteriorCommandButtons"></a> Interior command buttons
  In more complex dialogs, an internal control might have its own related buttons, which might affect where the dialog's commit buttons are located.
 
 - Use a vertical alignment (column) of interior buttons when **OK**/**Cancel** are horizontally oriented in the lower right corner.
@@ -114,22 +114,22 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
 #### [Browse...] button
  **[Browse...]** buttons that follow a text box should spell out "Browse..." in full, including the ellipsis. If space is tight or there are multiple **[Browse...]** buttons on the screen, the button can be reduced to just the ellipsis.
 
-##  <a name="BKMK_ThemedDialogLayout"></a> Themed dialog layout
+## <a name="BKMK_ThemedDialogLayout"></a> Themed dialog layout
  Themed dialogs in Visual Studio have a lighter appearance and offer more white space. Typography provides more emphasis and interest, offering more open line spacing and a variation of font sizes and weights. Where possible, chrome and title bars have been reduced or removed. The layout of these dialogs should follow this basic pattern:
 
-1.  The background of the dialog is white.
+1. The background of the dialog is white.
 
-2.  There is a 1-pixel rule border in a mid-value gray.
+2. There is a 1-pixel rule border in a mid-value gray.
 
-3.  The dialog title no longer sits in a title bar, but provides visual interest and emphasis in a larger point size. (See the font size section in [Text style](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TextStyle).)
+3. The dialog title no longer sits in a title bar, but provides visual interest and emphasis in a larger point size. (See the font size section in [Text style](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TextStyle).)
 
-4.  Labels coupled with additional text, such as a description, should be **Environment font + Bold**.
+4. Labels coupled with additional text, such as a description, should be **Environment font + Bold**.
 
-5.  Interior columns are separated by a 1-pixel rule in light gray.
+5. Interior columns are separated by a 1-pixel rule in light gray.
 
-6.  Default links have no underscore. Hover and pressed states have a color change plus underscore.
+6. Default links have no underscore. Hover and pressed states have a color change plus underscore.
 
-7.  Commit buttons (like **OK**/**Cancel**) sit in the lower right corner.
+7. Commit buttons (like **OK**/**Cancel**) sit in the lower right corner.
 
 ### Themed dialog layout examples
  ![Themed dialog layout](../../extensibility/ux-guidelines/media/0801-h_themeddialog.png "0801-h_ThemedDialog")

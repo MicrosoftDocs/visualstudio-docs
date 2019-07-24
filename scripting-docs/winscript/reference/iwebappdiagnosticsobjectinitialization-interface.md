@@ -2,7 +2,6 @@
 title: "IWebAppDiagnosticsObjectInitialization Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -21,7 +20,7 @@ This interface can be implemented on classes that implement [IWebAppDiagnosticsS
  After the object has been created, [IWebAppDiagnosticsObjectInitialization::Initialize](../../winscript/reference/iwebappdiagnosticsobjectinitialization-initialize.md) is called with a reference to the PDM debug application and the `hPassToObject` parameter of `CreateObjectWithSiteAtWebApp`.  
   
 > [!IMPORTANT]
->  `IWebAppDiagnosticsObjectInitialization` is found in activdbg100.h.  
+> `IWebAppDiagnosticsObjectInitialization` is found in activdbg100.h.  
   
 ## Methods  
  This interface exposes the following methods.  

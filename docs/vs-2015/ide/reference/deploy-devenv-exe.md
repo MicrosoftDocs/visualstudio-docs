@@ -18,7 +18,6 @@ manager: jillfra
 # /Deploy (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Deploys a solution after a build or rebuild. Applies to managed code projects only.  
   
 ## Syntax  

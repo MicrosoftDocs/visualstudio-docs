@@ -2,15 +2,15 @@
 title: "Tutorial: Debug C# and C++ code (mixed mode)"
 description: Learn how to debug a native DLL from a .NET Core or .NET Framework app using mixed-mode debugging
 ms.custom: "seodec18"
-ms.date: "11/02/2018"
-ms.topic: "tutorial"
+ms.date: 11/02/2018
+ms.topic: tutorial
 dev_langs:
   - "CSharp"
   - "C++"
 helpviewer_keywords:
   - "mixed mode debugging"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "dotnet"
@@ -38,7 +38,7 @@ You must have Visual Studio installed, with the following workloads:
 - **Desktop development with C++**
 - Either **.NET desktop development** or **.NET Core cross platform development**, depending on which type of app you want to create.
 
-If you don't have Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+If you don't have Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
 
 If you have Visual Studio installed, but don't have the workloads you need, select **Open Visual Studio Installer** in the left pane of the Visual Studio **New Project** dialog box. In the Visual Studio Installer, select the workloads you need, and then select **Modify**.
 
@@ -46,7 +46,18 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
 **To create the files for the DLL project:**
 
-1. In Visual Studio, select **File** > **New** > **Project**.
+1. Open Visual Studio and create a project.
+
+    ::: moniker range=">=vs-2019"
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **Empty Project**, choose **Templates**, then choose **Create new Empty Project project** for C++. In the dialog box that appears, choose **Create**. Then, type a name like **Mixed_Mode_Debugging** and click **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C++**, choose **Other**, and then in the middle pane choose **Empty Project**. Then, type a name like **Mixed_Mode_Debugging** and click **OK**.
+    ::: moniker-end
+
+    If you don't see the **Empty Project** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
+
+    Visual Studio creates the project.
 
 1. In the **New Project** dialog box, under **Visual C++**, select **Other**, and then select **Empty Project** in the middle pane.
 
@@ -65,6 +76,7 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
     ```cpp
     #include "Mixed_Mode.h"
     ```
+
 1. In **Solution Explorer**, select **Header Files**, and then select **Project** > **Add New Item**. Or, right-click **Header Files** and select **Add** > **New Item**.
 
 1. In the **New Item** dialog, select **Header file (.h)**. Type **Mixed_Mode.h** in the **Name** field, and then select **Add**.
@@ -111,18 +123,23 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
 ## Create a simple managed app to call the DLL
 
-1. In Visual Studio, choose **File** > **New** > **Project**.
+1. Open Visual Studio and create a new project.
 
-   > [!NOTE]
-   > Although you could also add the new managed project to your existing C++ solution, creating a new solution supports more debugging scenarios.
+    ::: moniker range=">=vs-2019"
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **console**, choose **Templates**, and then choose **Create new Console App (.NET Framework) project** for C#. In the dialog box that appears, choose **Create**.
 
-1. In the **New Project** dialog box, select **Visual C#**, and in the middle pane:
+    Then, type a name like **Mixed_Mode_Calling_App** and click **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)** or  **Console App (.NET Core)**.
 
-   - For a .NET Framework app, select **Console App (.NET Framework)**.
+    Then, type a name like **Mixed_Mode_Calling_App** and click **OK**.
+    ::: moniker-end
 
-   - For a .NET Core app, select **Console App (.NET Core)**.
+    If you don't see the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
 
-1. In the **Name** field, type **Mixed_Mode_Calling_App**, and then select **OK**.
+    > [!NOTE]
+    > Although you could also add the new managed project to your existing C++ solution, creating a new solution supports more debugging scenarios.
 
    Visual Studio creates the empty project and displays it in **Solution Explorer**.
 
@@ -170,14 +187,14 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
 ### To configure mixed-mode debugging for a .NET Core app
 
-In most versions of Visual Studio 2017, you must use the *launchSettings.json* file instead of the project properties to enable mixed-mode debugging for native code in a .NET Core app. To track UI updates for this feature, see this [GitHub issue](https://github.com/dotnet/project-system/issues/1125).
+In most versions of Visual Studio starting in Visual Studio 2017, you must use the *launchSettings.json* file instead of the project properties to enable mixed-mode debugging for native code in a .NET Core app. To track UI updates for this feature, see this [GitHub issue](https://github.com/dotnet/project-system/issues/1125).
 
 1. In **Solution Explorer**, expand **Properties**, and open the *launchSettings.json* file.
 
    >[!NOTE]
    >By default, *launchSettings.json* is in *C:\Users\username\source\repos\Mixed_Mode_Calling_App\Properties*. If *launchSettings.json* doesn't exist, select the **Mixed_Mode_Calling_App** project in **Solution Explorer** and then select the **Properties** icon, or right-click the project and select **Properties**. Make a temporary change in the **Debug** tab, and build the project. This will create a *launchSettings.json* file. Revert the change that you made in the **Debug** tab.
 
-1. In the *lauchsettings.json* file, add the following line:
+1. In the *launchsettings.json* file, add the following line:
 
     ```csharp
     "nativeDebugging": true

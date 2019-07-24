@@ -1,18 +1,20 @@
 ### YamlMime:YamlDocument
 documentType: LandingData
-title: Migrate from FxCop code analysis to .NET compiler platform analyzers
+title: Migrate from binary analysis (FxCop) to source analysis (FxCop analyzers)
 metadata:
   title: FxCop migration documentation
-  description: Learn how to migrate from legacy FxCop to analyzers for code analysis.
-  ms.date: 07/18/2018
+  description: Learn how to move from legacy binary analysis (FxCop) to source analysis (FxCop analyzers) when you analyze code.
+  ms.date: 07/11/2019
   ms.prod: visual-studio-dev16
   ms.technology: vs-ide-code-analysis
   ms.topic: landing-page
+  f1_keywords:
+    - "vs.projectpropertypages.codeanalysis"
   ms.author: gewarren
   author: gewarren
   manager: jillfra
 abstract:
-  description: Learn how to analyze code for the first time, or how to migrate from FxCop to the new way of analyzing managed code using analyzers.
+  description: Learn how to analyze code for the first time or how to migrate from binary analysis (FxCop) to the new way of analyzing managed code using source analysis (FxCop analyzers).
   aside:
     image:
       alt: Common management tasks logo
@@ -23,7 +25,7 @@ abstract:
 sections:
 - title: Frequently asked questions
   items:
-  - html: Get answers to some <a href="fxcop-analyzers-faq.md">frequently asked questions</a> about the differences between FxCop and analyzers.
+  - html: Get answers to some <a href="fxcop-analyzers-faq.md">frequently asked questions</a> about the differences between binary FxCop analysis and source analysis using FxCop analyzers.
 
 - title: If you're new to code analysis...
   items:
@@ -43,17 +45,17 @@ sections:
           src: https://docs.microsoft.com/media/common/i_setup.svg
         title: Install analyzers
       - href: use-roslyn-analyzers.md
-        html: <p>Learn how to configure analyzers for your C# or Visual Basic code.</p>
+        html: <p>Learn how to use analyzers and suppress violations for C# or Visual Basic code.</p>
         image:
           src: https://docs.microsoft.com/media/common/i_config-tools.svg
-        title: Configure and use analyzers
+        title: Set rule severity and suppress errors
       - href: use-roslyn-analyzers.md#command-line-usage
         html: <p>Learn how to use analyzers from the command line.</p>
         image:
           src: https://docs.microsoft.com/media/common/i_cligeneric.svg
         title: Command-line usage
 
-- title: If you're an FxCop user...
+- title: If you're currently using binary analysis (FxCop)...
   items:
   - type: list
     style: cards
@@ -61,7 +63,7 @@ sections:
     columns: 2
     items:
       - href: roslyn-analyzers-overview.md#roslyn-analyzers-vs-static-code-analysis
-        html: <p>Learn the differences between static (FxCop) and analyzer package code analysis.</p>
+        html: <p>Learn the differences between binary analysis (FxCop) and source analysis (FxCop analyzers).</p>
         image:
           src: https://docs.microsoft.com/media/common/i_learn-about.svg
         title: What's different?
@@ -70,6 +72,11 @@ sections:
         image:
           src: https://docs.microsoft.com/media/common/i_setup.svg
         title: Install FxCop analyzers
+      - href: fxcop-rule-port-status.md
+        html: <p>Lists the binary analysis (FxCop) rules that have been ported to source analysis (FxCop analyzers).</p>
+        image:
+          src: https://docs.microsoft.com/media/common/i_upgrade.svg
+        title: Ported and unported rules
       - href: use-roslyn-analyzers.md#command-line-usage
         html: <p>If you typically run code analysis from the command line, learn how to use analyzers from the command line.</p>
         image:

@@ -29,13 +29,13 @@ ms.workload:
 ## Security considerations for Office solutions
  There are several security concerns when you consider which folders to add to the trusted locations:
 
--   Local folders are considered to be more secure and are implicitly trusted. Remote locations such as file shares must be designated as trusted locations.
+- Local folders are considered to be more secure and are implicitly trusted. Remote locations such as file shares must be designated as trusted locations.
 
--   When you add a directory to the trusted locations, this action grants full trust not only to Office solutions, but also to VBA and ActiveX code. For this reason, the root directory and the *My Documents* folders should not be designated as trusted.
+- When you add a directory to the trusted locations, this action grants full trust not only to Office solutions, but also to VBA and ActiveX code. For this reason, the root directory and the *My Documents* folders should not be designated as trusted.
 
--   Although the document itself is trusted by using the trusted locations, additional permissions are needed to trust the customization. You can grant full trust to the customization by using signing the manifests with a certificate, clicking the trust prompt, or installing the Office solution to the *Program Files* directory.
+- Although the document itself is trusted by using the trusted locations, additional permissions are needed to trust the customization. You can grant full trust to the customization by using signing the manifests with a certificate, clicking the trust prompt, or installing the Office solution to the *Program Files* directory.
 
--   You can store the document or workbook of a document-level solution in the same directory as the assembly, or in a different directory. For example, the document could be located on a SharePoint server and the assembly could be located on a network file share. For more information, see [How to: Publish a document-level Office solution to a SharePoint server by using ClickOnce](https://msdn.microsoft.com/2408e809-fb78-42a1-9152-00afa1522e58).
+- You can store the document or workbook of a document-level solution in the same directory as the assembly, or in a different directory. For example, the document could be located on a SharePoint server and the assembly could be located on a network file share. For more information, see [How to: Publish a document-level Office solution to a SharePoint server by using ClickOnce](https://msdn.microsoft.com/2408e809-fb78-42a1-9152-00afa1522e58).
 
 ## See also
 - [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md)

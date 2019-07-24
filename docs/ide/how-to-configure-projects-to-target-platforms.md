@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "CPUs, targeting specific"
   - "64-bit applications [Visual Studio]"
 ms.assetid: 845302fc-273d-4f81-820a-7296ce91bd76
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -29,20 +29,20 @@ The **Configuration Manager** provides a way for you to quickly add a new platfo
 
 ### To configure a project to target a 64-bit platform
 
-1.  On the menu bar, choose **Build** > **Configuration Manager**.
+1. On the menu bar, choose **Build** > **Configuration Manager**.
 
-2.  In the **Active solution platform** list, choose a 64-bit platform for the solution to target, and then choose the **Close** button.
+2. In the **Active solution platform** list, choose a 64-bit platform for the solution to target, and then choose the **Close** button.
 
-    1.  If the platform that you want doesn't appear in the **Active solution platform** list, choose **New**.
+    1. If the platform that you want doesn't appear in the **Active solution platform** list, choose **New**.
 
          The **New Solution Platform** dialog box appears.
 
-    2.  In the **Type or select the new platform** list, choose **x64**.
+    2. In the **Type or select the new platform** list, choose **x64**.
 
         > [!NOTE]
-        >  If you give your configuration a new name, you may have to modify the settings in the **Project Designer** to target the correct platform.
+        > If you give your configuration a new name, you may have to modify the settings in the **Project Designer** to target the correct platform.
 
-    3.  If you want to copy the settings from a current platform configuration, choose it, and then choose the **OK** button.
+    3. If you want to copy the settings from a current platform configuration, choose it, and then choose the **OK** button.
 
 The properties for all projects that target the 64-bit platform are updated, and the next build of the project will be optimized for 64-bit platforms.
 

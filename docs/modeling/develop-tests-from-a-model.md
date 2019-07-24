@@ -34,17 +34,17 @@ You can use requirements and architectural models to help you organize the tests
 
  These guidelines might be helpful:
 
--   Each use case should have several tests, for main paths and exceptional outcomes.
+- Each use case should have several tests, for main paths and exceptional outcomes.
 
--   When you describe a use case in the requirements model, it is more important to define its postcondition, that is, the goal that is achieved, than to describe in detail the procedures the user follows in order to achieve the goal. For example, the postcondition of Order a Meal might be that a Restaurant is preparing a meal for a Customer and that the Customer has paid. The postcondition is the criterion that your tests should verify.
+- When you describe a use case in the requirements model, it is more important to define its postcondition, that is, the goal that is achieved, than to describe in detail the procedures the user follows in order to achieve the goal. For example, the postcondition of Order a Meal might be that a Restaurant is preparing a meal for a Customer and that the Customer has paid. The postcondition is the criterion that your tests should verify.
 
--   Base separate tests on the separate clauses of the postcondition. For example, create separate tests for notifying the restaurant of the order, and for taking payment from the customer. This separation has these advantages:
+- Base separate tests on the separate clauses of the postcondition. For example, create separate tests for notifying the restaurant of the order, and for taking payment from the customer. This separation has these advantages:
 
-    -   Changes in different aspects of the requirements frequently occur independently. By separating the tests into different aspects in this manner, you make it easier to update the tests when requirements change.
+  - Changes in different aspects of the requirements frequently occur independently. By separating the tests into different aspects in this manner, you make it easier to update the tests when requirements change.
 
-    -   If the development plan implements one aspect of the use case before another, you can enable the tests separately as development progresses.
+  - If the development plan implements one aspect of the use case before another, you can enable the tests separately as development progresses.
 
--   When you design the tests, separate the choice of test data from the code or script that determines whether the postcondition has been achieved. For example, a test of a simple arithmetic function might be: Input 4; verify that the output is 2. Instead, design the script as: Choose an input; multiply the output by itself, and verify that the result is the original input. This style enables you to vary the test inputs without changing the main body of the test.
+- When you design the tests, separate the choice of test data from the code or script that determines whether the postcondition has been achieved. For example, a test of a simple arithmetic function might be: Input 4; verify that the output is 2. Instead, design the script as: Choose an input; multiply the output by itself, and verify that the result is the original input. This style enables you to vary the test inputs without changing the main body of the test.
 
 #### Linking tests to use cases
  If you are using [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)] to design and run your tests, you can organize your tests under requirement, use case, or user story work items. You can link these work items to use cases in your model. This enables you to quickly trace requirements changes to the tests, and helps you track the progress of each use case.
@@ -53,7 +53,7 @@ You can use requirements and architectural models to help you organize the tests
 
 1. In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it.
 
-    The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with Team Foundation. For more information, see [About Agile tools and Agile project management](/azure/devops/boards/backlogs/overview?view=vsts).
+    The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with Team Foundation. For more information, see [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts).
 
 2. Link the requirement work item to one or more use cases in your model.
 
@@ -127,21 +127,21 @@ Assert (countAfter == countBefore = 1);
 
  You can link tests to all kinds of element. Here are some examples:
 
--   Link a use case to the tests that exercise it.
+- Link a use case to the tests that exercise it.
 
--   Write the clauses of a use case postcondition, or goal, onto comments that are linked to the use case, and then link tests to each comment.
+- Write the clauses of a use case postcondition, or goal, onto comments that are linked to the use case, and then link tests to each comment.
 
--   Write invariant rules in comments on class diagrams or activity diagrams, and link them to tests.
+- Write invariant rules in comments on class diagrams or activity diagrams, and link them to tests.
 
--   Link tests to an activity diagram, or to individual activities.
+- Link tests to an activity diagram, or to individual activities.
 
--   Link a test suite to the component or subsystem it tests.
+- Link a test suite to the component or subsystem it tests.
 
 #### To link tests to a model element or relationship
 
 1. In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it.
 
-    The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with Team Foundation. For more information, see [About Agile tools and Agile project management](/azure/devops/boards/backlogs/overview?view=vsts).
+    The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with Team Foundation. For more information, see [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts).
 
 2. Link the requirement work item to one or more elements in your model.
 

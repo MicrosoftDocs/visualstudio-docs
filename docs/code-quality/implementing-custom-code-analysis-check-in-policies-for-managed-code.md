@@ -1,5 +1,5 @@
 ---
-title: Implementing Custom Code Analysis Check-in Policies for Managed Code
+title: Custom code analysis check-in policies for managed code
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:

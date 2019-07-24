@@ -26,7 +26,7 @@ struct MyStructure
 };  
 ```  
   
- For more information about using the `struct` type, see [struct](http://msdn.microsoft.com/library/3c6ba273-e248-4ff1-8c69-d2abcf1263c6).  
+ For more information about using the `struct` type, see [struct](https://msdn.microsoft.com/library/3c6ba273-e248-4ff1-8c69-d2abcf1263c6).  
   
  A C++ structure shape in a class diagram looks and works like a class shape, except that the label reads **Struct** and it has square corners instead of rounded corners.  
   
@@ -36,5 +36,5 @@ struct MyStructure
   
 ## See Also  
  [Working with Visual C++ Code (Class Designer)](../ide/working-with-visual-cpp-code-class-designer.md)   
- [Classes and Structs](http://msdn.microsoft.com/library/516dd496-13fb-4f17-845a-e9ca45437873)   
- [struct](http://msdn.microsoft.com/library/3c6ba273-e248-4ff1-8c69-d2abcf1263c6)
+ [Classes and Structs](https://msdn.microsoft.com/library/516dd496-13fb-4f17-845a-e9ca45437873)   
+ [struct](https://msdn.microsoft.com/library/3c6ba273-e248-4ff1-8c69-d2abcf1263c6)

@@ -3,8 +3,8 @@ title: "Walkthrough: Build an application"
 ms.date: 09/25/2017
 ms.technology: vs-ide-compile
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -59,7 +59,7 @@ Next, you'll build the solution with the custom build configuration.
 
 ### Build the solution
 
--   On the menu bar, choose **Build** > **Build Solution**.
+- On the menu bar, choose **Build** > **Build Solution**.
 
     The **Output** window displays the results of the build. The build succeeded.
 

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "enumerations [Visual Studio SDK]"
   - "debugging [Debugging SDK], enumerations"
 ms.assetid: 557065bf-081f-4d57-8744-bae02b8a5a6e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -244,5 +244,5 @@ Following are enumerations for the [!INCLUDE[vsprvs](../../../code-quality/inclu
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)

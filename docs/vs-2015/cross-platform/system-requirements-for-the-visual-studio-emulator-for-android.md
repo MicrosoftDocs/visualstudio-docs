@@ -12,29 +12,28 @@ manager: "crdun"
 # System Requirements for the Visual Studio Emulator for Android
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-
 Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the virtualization technology for Windows 8 and later versions. To run the emulator, your computer must meet the requirements to run Hyper-V as described in this topic.
 
  The setup program tries to configure these prerequisites for you silently when you install the emulator. When setup successfully configures the prerequisites, the emulator simply works as expected. Otherwise you may have to enable these prerequisites manually. If you have to configure the prerequisites manually, the steps and tools are the same steps described [here](https://msdn.microsoft.com/library/windows/apps/jj863509\(v=vs.105\).aspx) for the Windows Phone Emulator.
 
 > [!IMPORTANT]
->  The setup program for the emulator checks the prerequisites for running Visual Studio Emulator for Android. It displays warnings if the prerequisites are not present, but it does not require them.
+> The setup program for the emulator checks the prerequisites for running Visual Studio Emulator for Android. It displays warnings if the prerequisites are not present, but it does not require them.
 
  This topic contains the following sections.
 
--   [Quick Checklist](#Checklist)
+- [Quick Checklist](#Checklist)
 
--   [System requirements](#System)
+- [System requirements](#System)
 
--   [Network requirements](#Network)
+- [Network requirements](#Network)
 
--   [Hyper-V requirements](#HyperV)
+- [Hyper-V requirements](#HyperV)
 
--   [Running the emulator from a bootable VHD is not supported](#BootableVHD)
+- [Running the emulator from a bootable VHD is not supported](#BootableVHD)
 
--   [Hyper-V requires uncompressed and unencrypted files](#Files)
+- [Hyper-V requires uncompressed and unencrypted files](#Files)
 
-##  <a name="Checklist"></a> Quick Checklist
+## <a name="Checklist"></a> Quick Checklist
  Here is a quick checklist of the requirements for running the Visual Studio Emulator for Android. For more detailed info, see the subsequent sections in this topic.
 
  System requirements
@@ -57,17 +56,17 @@ Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the vir
 
 - In the BIOS, the following features must be supported:
 
-  -   Hardware-assisted virtualization
+  - Hardware-assisted virtualization
 
-  -   Second Level Address Translation (SLAT)
+  - Second Level Address Translation (SLAT)
 
-  -   Hardware-based Data Execution Prevention (DEP)
+  - Hardware-based Data Execution Prevention (DEP)
 
 - In Windows, Hyper-V must be enabled and running.
 
 - You have to be a member of the local Hyper-V Administrators group.
 
-##  <a name="System"></a> System requirements
+## <a name="System"></a> System requirements
  Your computer must meet the following requirements:
 
 - Hyper-V support (see [Hyper-V requirements](#HyperV))
@@ -80,7 +79,7 @@ Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the vir
 
   ![Verify the system requirements](../cross-platform/media/android-emu-system-requirements.png "Android_Emu_System_Requirements")
 
-##  <a name="Network"></a> Network requirements
+## <a name="Network"></a> Network requirements
  Your network must meet the following requirements:
 
 - DHCP
@@ -95,7 +94,7 @@ Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the vir
 
 - [Troubleshooting the Visual Studio Emulator for Android](../cross-platform/troubleshooting-the-visual-studio-emulator-for-android.md)
 
-##  <a name="HyperV"></a> Hyper-V requirements
+## <a name="HyperV"></a> Hyper-V requirements
  Hyper-V requirements in the BIOS
 
  Your computer’s BIOS must support the following requirements, and they must be enabled:
@@ -128,12 +127,12 @@ Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the vir
 
  To add yourself to a group manually, open the Local Users and Groups snap-in.
 
-##  <a name="BootableVHD"></a> Running the emulator from a bootable VHD is not supported
+## <a name="BootableVHD"></a> Running the emulator from a bootable VHD is not supported
  If you try to run an app on the Visual Studio Emulator for Android while you are running Windows from a bootable VHD, the emulator typically takes several minutes to start or fails to start. When the emulator fails to start, you see the following message: App deployment failed. Please try again.
 
  This configuration is not supported. For information about related issues, see [Troubleshooting the Visual Studio Emulator for Android](../cross-platform/troubleshooting-the-visual-studio-emulator-for-android.md).
 
-##  <a name="Files"></a> Hyper-V requires uncompressed and unencrypted files
+## <a name="Files"></a> Hyper-V requires uncompressed and unencrypted files
  On a hard drive configured with the NTFS file system, the virtual hard disk files used by Hyper-V must be uncompressed and unencrypted. Make sure that the following directories are not compressed or encrypted:
 
 - %localappdata%\Microsoft\XDE

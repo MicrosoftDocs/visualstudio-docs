@@ -1,9 +1,9 @@
 ---
 title: "Signing in to Visual Studio for Mac"
 description: "How to sign in to Visual Studio for Mac"
-author: conceptdev
-ms.author: crdun
-ms.date: 05/06/2018
+author: asb3993
+ms.author: amburns
+ms.date: 04/02/2019
 ms.assetid: E4CFD03C-03AF-48CA-B409-6DB1CA45E991
 ---
 # Sign in to Visual Studio for Mac
@@ -18,7 +18,7 @@ Make sure that you're connected to the internet before signing in to Visual Stud
 
 To sign in to Visual Studio for Mac, do the following steps:
 
-1. Click the **Sign in** link on the Welcome page to display the Accounts Dialog, and press the **Sign In** button:
+1. Click the **Sign in with Microsoft** button on the sign-in window:
 
     ![Accounts dialog in Visual Studio for Mac](media/signing-in-image12.png)
 
@@ -28,7 +28,7 @@ To sign in to Visual Studio for Mac, do the following steps:
 
     You cannot use Xamarin credentials to log into Visual Studio for Mac.
 
-3. After you've logged in, you'll see your license type. From this dialog, you can add additional Microsoft accounts that you might wish you use:
+3. After you've logged in, you'll see the Visual Studio 2019 for Mac start window. From here, you can open or create a new project:
 
     ![Sign in successful](media/signing-in-image14.png)
 
@@ -36,7 +36,9 @@ To sign in to Visual Studio for Mac, do the following steps:
 
 Visual Studio for Mac supports adding multiple accounts to your personalization account. These additional accounts will allow you to access resources, such as Azure, from any added account.
 
-To add additional user accounts, follow the steps in the [How to sign in to Visual Studio for Mac](#how-to-sign-in-to-visual-studio-for-mac) section.
+To add additional user accounts, choose the **Visual Studio > Account...** menu from Visual Studio for Mac. Click the **Add...** button to enter additional account credentials.
+
+![Manage accounts](media/signing-in-image15.png)
 
 ## See also
 

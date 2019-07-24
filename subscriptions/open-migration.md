@@ -6,7 +6,6 @@ manager: lank
 ms.date: 07/02/2018
 ms.topic: conceptual
 description:  Learn about the Open and Open License migration to the Visual Studio Subscriptions administration portal.
-searchscope: VS Subscription
 
 ---
 # Open and Open License migration to the new Visual Studio Subscriptions Administration Portal
@@ -33,7 +32,6 @@ To manage subscriptions in the [Visual Studio Subscriptions Administration Porta
 
 - For Partners to manage subscriptions on behalf of customers, they will need to register on the administration portal. The various ways to access gain access are listed below (similar to the add-open process).
 
-
 ## Existing Partners adding a new license
 
 This applies to Partners that already have access to the [Visual Studio Subscriptions Administration Portal](https://manage.visualstudio.com), but have placed an order for Open Licenses with Visual Studio subscriptions that they will need to manage.
@@ -43,7 +41,6 @@ This applies to Partners that already have access to the [Visual Studio Subscrip
 - They will select the agreement dropdown and scroll to the bottom where there is an option to **+New Open License**.
 
 - In the pop-out panel, the Partner will enter the authorization number, license number, customer email address that is on the agreement, select the checkbox, and then click **Submit**.
-
 
 > [!NOTE]
 > The customer will receive a notification email informing them that a Partner has been added to the Open License. They can choose to remove the Partner’s access.
@@ -62,7 +59,6 @@ This applies to new Partners placing new Open License orders, but who register o
 
 - The Partner will then be able to manage subscriptions for that Open License.
 
-
 > [!NOTE]
 > The customer will receive a notification email informing them that a Partner has been added to the Open License. They can choose to remove the Partner’s access.
 
@@ -75,7 +71,6 @@ This scenario applies to new Partners, who have already placed new Open License 
 - They receive an error that they are not a recognized user.
 
 - The Partner will need to select the **OLP Partners** registration option and enter the authorization number, license number, customer email address used on the order, select the checkbox, and click **Submit**.
-
 
 > [!NOTE]
 > The customer will receive a notification email informing them that a Partner has been added to the Open License. They can choose to remove the Partner’s access.

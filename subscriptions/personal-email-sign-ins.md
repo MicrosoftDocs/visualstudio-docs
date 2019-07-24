@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 01/23/2018
 ms.topic: conceptual
 description:  Visual Studio Subscriptions – Why Am I Seeing Hotmail or Gmail Addresses for My Subscribers?
-searchscope: VS Subscription
 ---
 
 # Visual Studio subscriptions – Why am I seeing Hotmail or Gmail addresses for my subscribers?

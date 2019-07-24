@@ -30,7 +30,7 @@ You can choose to hide some code from view by collapsing a region of code so tha
  The **Undo** and **Redo** commands on the **Edit** menu affect these actions. The **Copy**, **Cut**, **Paste**, and drag-and-drop operations retain outlining information, but not the state of the collapsible region. For example, when you copy a region that is collapsed, the **Paste** operation will paste the copied text as an expanded region.  
   
 > [!CAUTION]
->  When you change an outlined region, the outlining may be lost. For example, deletions or Find and Replace operations may erase the end of the region.  
+> When you change an outlined region, the outlining may be lost. For example, deletions or Find and Replace operations may erase the end of the region.  
   
  The following commands can be found on the **Edit/Outlining** submenu.  
   

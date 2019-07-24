@@ -1,29 +1,30 @@
 ---
-title: "What's New in Live Unit Testing"
+title: What's New in Live Unit Testing in Visual Studio 2017
+titleSuffix: ""
 ms.date: 10/11/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Visual Studio ALM"
   - "Live Unit Testing"
   - "Live Unit Testing What's New"
 author: rpetrusha
 ms.author: "ronpet"
 ms.workload:
   - "dotnet"
+monikerRange: vs-2017
 ---
-# What's new in Live Unit Testing
+# What's new in Live Unit Testing for Visual Studio 2017
 
 This topic lists the new features added to Live Unit Testing in each version of Visual Studio starting with Visual Studio 2017 version 15.3. For an overview of how to use Live Unit Testing, see [Live Unit Testing with Visual Studio](live-unit-testing.md).
 
-## What's new in Live Unit Testing for Visual Studio 2017 version 15.4
+## Version 15.4
 
 Starting with Visual Studio 2017 version 15.4, Live Unit Testing includes improvements and enhancements in a number of areas:
 
 - **Improved discoverability**. For users who do not know that the Live Unit Testing feature exists, the Visual Studio IDE shows a gold bar that mentions Live Unit Testing whenever the user opens a solution that includes unit tests but Live Unit Testing is not enabled. The information presented in the gold bar allows the user to learn more about Live Unit Testing and to enable it. The gold bar also displays information when Live Unit Testing prerequisites are not met. These include:
 
-   - Test adapters are missing.
-   - Older versions of test adapters are present.
-   - A restore of NuGet packages referenced by the solution is needed.
+  - Test adapters are missing.
+  - Older versions of test adapters are present.
+  - A restore of NuGet packages referenced by the solution is needed.
 
 - **Integration with Task Center notifications**. The Visual Studio IDE now shows a Live Unit Testing background processing notification in Task Center so that users can easily tell what is happening when Live Unit Testing is enabled. This addresses the key problem of starting Live Unit Testing on a large solution. Previously, for a few minutes until the coverage icons appeared, users couldn’t determine whether Live Unit Testing was really enabled and whether it was working. Not anymore!
 
@@ -33,7 +34,7 @@ Starting with Visual Studio 2017 version 15.4, Live Unit Testing includes improv
 
 - **Miscellaneous user interface refinements**:  The confusing **Live Test Set – Include/Exclude** option from the right click gesture has been renamed to **Live Unit Testing Include/Exclude**. The **Reset clean** option on the **Test** > **Live Unit Testing** menu has been removed. It is now accessible by selecting **Tools** > **Options** > **Live Unit Testing** and selecting **Delete Persisted Data**.
 
-## What's new in Live Unit Testing for Visual Studio 2017 version 15.3
+## Version 15.3
 
 Starting with Visual Studio 2017 version 15.3, Live Unit Testing features improvements and enhancements in two major areas:
 
@@ -53,9 +54,9 @@ In addition to these major additions, Live Unit Testing includes the following e
 
 - You can now use the following attributes to specify in source code that you want to exclude targeted test methods from Live Unit Testing:
 
-   - For xUnit: `[Trait("Category", "SkipWhenLiveUnitTesting")]`
-   - For NUnit: `[Category("SkipWhenLiveUnitTesting")]`
-   - For MSTest: `[TestCategory("SkipWhenLiveUnitTesting")]`
+  - For xUnit: `[Trait("Category", "SkipWhenLiveUnitTesting")]`
+  - For NUnit: `[Category("SkipWhenLiveUnitTesting")]`
+  - For MSTest: `[TestCategory("SkipWhenLiveUnitTesting")]`
 
 ## See also
 

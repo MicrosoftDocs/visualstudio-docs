@@ -21,30 +21,30 @@ ms.workload:
 
 #### To localize code
 
-1.  In **Solution Explorer**, open the shortcut menu for a project item, and then choose **Add** > **Module**.
+1. In **Solution Explorer**, open the shortcut menu for a project item, and then choose **Add** > **Module**.
 
      Choose the **Resources File** template.
 
     > [!NOTE]
-    >  Be sure to add the resource file to a SharePoint project item so that the Deployment Type property is available. This property is required later in this procedure.
+    > Be sure to add the resource file to a SharePoint project item so that the Deployment Type property is available. This property is required later in this procedure.
 
-2.  Give the default language resource file a name of your choice appended with a *.resx* extension, such as *MyAppResources.resx*.
+2. Give the default language resource file a name of your choice appended with a *.resx* extension, such as *MyAppResources.resx*.
 
-3.  Repeat steps 1 and 2 to add separate resource files to the SharePoint project item: one for each localized language.
+3. Repeat steps 1 and 2 to add separate resource files to the SharePoint project item: one for each localized language.
 
      Use the same base name for each localized resource file, but add the culture ID. For example, name a German localized resource *MyAppResources.de-DE.resx*.
 
-4.  Open each resource file and add localized strings. Use the same string IDs in each file.
+4. Open each resource file and add localized strings. Use the same string IDs in each file.
 
-5.  Change the value of the **Deployment Type** property of each resource file to **AppGlobalResource** to cause each file to deploy to the server's App_GlobalResources folder.
+5. Change the value of the **Deployment Type** property of each resource file to **AppGlobalResource** to cause each file to deploy to the server's App_GlobalResources folder.
 
-6.  Leave the value of the **Build Action** property of each file as **Embedded Resource**.
+6. Leave the value of the **Build Action** property of each file as **Embedded Resource**.
 
      Embedded resources are compiled into the project's DLL.
 
-7.  Build the project to create the resource satellite DLLs.
+7. Build the project to create the resource satellite DLLs.
 
-8.  In the **Package Designer**, choose the **Advanced** tab, and then add the satellite assembly.
+8. In the **Package Designer**, choose the **Advanced** tab, and then add the satellite assembly.
 
 9. In the **Location** box, prepend a culture ID folder to the Location path, such as *de-DE\\\<Project Item Name>.resources.dll*.
 

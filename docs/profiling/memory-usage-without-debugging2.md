@@ -1,6 +1,6 @@
 ---
 title: "Analyze memory usage without debugging | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+ms.custom: ""
 ms.date: "11/15/2018"
 ms.topic: "conceptual"
 dev_langs:
@@ -50,13 +50,13 @@ An app uses a large number of objects, and you might want to concentrate your an
 
 To collect snapshots, select **Take snapshot** when you want to capture the memory data.
 
-###  <a name="BKMK_Close_a_monitoring_session"></a> Close the diagnostic session
+### <a name="BKMK_Close_a_monitoring_session"></a> Close the diagnostic session
 
 To stop a monitoring session without creating a report, just close the diagnostic window. To generate a report when you're done collecting or have taken snapshots, select **Stop Collection**.
 
 ![Stop Collection](../profiling/media/memuse__stopcollection.png "Stop Collection")
 
-##  Memory Usage reports
+## Memory Usage reports
 
 After you stop data collection, the **Memory Usage** tool stops the app and displays the **Memory Usage** overview page.
 
@@ -66,7 +66,7 @@ After you stop data collection, the **Memory Usage** tool stops the app and disp
 
 The numbers in the **Snapshot** panes show the bytes and objects in memory when each snapshot was taken, and the difference between the snapshot and the previous one.
 
-The numbers are links that open detailed **Memory Usage** report views in new Visual Studio windows. A [snapshot details report](#snapshot-details-report) shows the types and instances in one snapshot. A [snapshot difference (diff) report](#snapshot-difference-diff-reports) compares the types and instances in two snapshots.
+The numbers are links that open detailed **Memory Usage** report views in new Visual Studio windows. A [snapshot details report](#snapshot-details-reports) shows the types and instances in one snapshot. A [snapshot difference (diff) report](#snapshot-difference-diff-reports) compares the types and instances in two snapshots.
 
   ![Snapshot view links](../profiling/media/memuse__snapshotview_numbered.png "Snapshot view links")
 
@@ -97,7 +97,7 @@ In the snapshot report:
 
 - The **Referenced Types** or **Referenced Objects** tree shows the objects that the selected type or instance references.
 
-###  <a name="BKMK_Report_tree_filters_"></a> Report tree filters
+### <a name="BKMK_Report_tree_filters_"></a> Report tree filters
 
 Many types in apps aren't very interesting to app developers. The snapshot report filters can hide most of these types in the **Managed Heap** and **Paths to Root** trees.
 
@@ -117,7 +117,7 @@ Many types in apps aren't very interesting to app developers. The snapshot repor
 
 Both links open the same report. The only difference is the starting sort order of the **Managed Heap** tree. The size link sorts the report by the **Inclusive Size (Bytes)** column. The objects link sorts the report by the **Count** column. You can change the sort column or order after the report opens.
 
-###  <a name="BKMK_Managed_Heap_tree__Snapshot_details_"></a> Managed Heap tree (Snapshot details reports)
+### <a name="BKMK_Managed_Heap_tree__Snapshot_details_"></a> Managed Heap tree (Snapshot details reports)
  The **Managed Heap** tree lists the types of objects that are held in memory. Expand a type name to view the ten largest instances of the type, sorted by size. Select a type or instance to display the **Paths to Root** and **Referenced Objects** trees for the selected item.
 
  ![Managed Heap tree](../profiling/media/memuse__snapshotdetails_managedheaptree.png "Managed Heap tree")
@@ -132,14 +132,14 @@ The **Managed Heap** tree in a snapshot details report has the following columns
 |**Inclusive Size (Bytes)**|The size of the instances of the type, or the size of a single instance, including the size of contained objects.|
 |**Module**|The module that contains the object.|
 
-###  <a name="BKMK_Paths_to_Root_tree__Snapshot_details_"></a> Paths to Root tree (Snapshot details reports)
+### <a name="BKMK_Paths_to_Root_tree__Snapshot_details_"></a> Paths to Root tree (Snapshot details reports)
 The **Paths to Root tree** shows the chain of objects that reference a type or instance. The .NET Framework garbage collector cleans up the memory for an object only when all references to it have been released.
 
 For a type in the **Paths to Root** tree, the number of objects that hold references to that type appears in the **Reference Count** column.
 
 ![Paths to Root tree for types](../profiling/media/memuse_snapshotdetails_type_pathstoroottree.png "Paths to Root tree for types")
 
-###  <a name="BKMK_Referenced_Objects_tree__Snapshot_details_"></a> Referenced Types or Referenced Objects tree (Snapshot details reports)
+### <a name="BKMK_Referenced_Objects_tree__Snapshot_details_"></a> Referenced Types or Referenced Objects tree (Snapshot details reports)
 The **Referenced Types** or **Referenced Objects** tree shows the objects that the selected type or instance references.
 
 ![Referenced Objects tree for instances](../profiling/media/memuse_snapshotdetails_referencedobjects_instance.png "Referenced Objects tree for instances")
@@ -162,7 +162,7 @@ Both links open the same report. The only difference is the starting sort order 
 
  ![Links to difference report in a snapshot pane](../profiling/media/memuse_snapshotview_snapshotdifflinks.png "Links to difference report in a snapshot pane")
 
-###  <a name="BKMK_Managed_Heap_tree__Snapshot_diff_"></a> Managed Heap tree (Snapshot diff reports)
+### <a name="BKMK_Managed_Heap_tree__Snapshot_diff_"></a> Managed Heap tree (Snapshot diff reports)
 
  The **Managed Heap** tree lists the types of objects that are held in memory. You can expand a type name to view the ten largest instances of the type, sorted by size. Select a type or instance to display the **Paths to Root** and **Referenced Objects** trees for the selected item.
 
@@ -181,7 +181,7 @@ The **Managed Heap** tree in a snapshot diff report has the following columns:
 |**Inclusive Size Diff (Bytes)**|For a type, the difference in the size of all instances of the type between the primary snapshot and the previous snapshot, including the size of objects in the objects. The field is blank for an instance.|
 |**Module**|The module that contains the object.|
 
-###  <a name="BKMK_Paths_to_Root_tree__Snapshot_diff_"></a> Paths to Root tree (Snapshot diff reports)
+### <a name="BKMK_Paths_to_Root_tree__Snapshot_diff_"></a> Paths to Root tree (Snapshot diff reports)
 
 The **Paths to Root tree** shows the chain of objects that reference a type or instance. The .NET Framework garbage collector cleans up the memory for an object only when all references to it have been released.
 
@@ -189,7 +189,7 @@ For a type in the **Paths to Root** tree, the number of objects that hold refere
 
  ![Paths To Root tree in a diff report](../profiling/media/memuse_snapshotdiff_pathstoroot_instance_all.png "Paths To Root tree in a diff report")
 
-###  <a name="BKMK_Referenced_Objects_tree__Snapshot_diff_"></a> Referenced Types or Referenced Objects tree (Snapshot diff reports)
+### <a name="BKMK_Referenced_Objects_tree__Snapshot_diff_"></a> Referenced Types or Referenced Objects tree (Snapshot diff reports)
 
 The **Referenced Types** or **Referenced Objects** tree shows the objects that the selected type or instance references.
 

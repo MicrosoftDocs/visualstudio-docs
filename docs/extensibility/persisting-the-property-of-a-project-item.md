@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "properties, adding to a project item"
   - "project items, adding properties"
 ms.assetid: d7a0f2b0-d427-4d49-9536-54edfb37c0f3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -21,7 +21,7 @@ You may want to persist a property you add to a project item, such as the author
 
 ## To obtain the project hierarchy with the DTE object
 
-1.  Add the following code to your VSPackage:
+1. Add the following code to your VSPackage:
 
     ```csharp
     EnvDTE.DTE dte = (EnvDTE.DTE)Package.GetGlobalService(typeof(EnvDTE.DTE));
@@ -35,7 +35,7 @@ You may want to persist a property you add to a project item, such as the author
 
 ## To persist the project item property with the DTE object
 
-1.  Add the following code to the code given in the method in the previous procedure:
+1. Add the following code to the code given in the method in the previous procedure:
 
     ```csharp
     IVsBuildPropertyStorage buildPropertyStorage =
@@ -52,7 +52,7 @@ You may want to persist a property you add to a project item, such as the author
 
 ## To obtain the project hierarchy using IVsMonitorSelection
 
-1.  Add the following code to your VSPackage:
+1. Add the following code to your VSPackage:
 
     ```csharp
     IVsHierarchy hierarchy = null;
@@ -96,7 +96,7 @@ You may want to persist a property you add to a project item, such as the author
 
 ## To persist the selected project item property, given the project hierarchy
 
-1.  Add the following code to the code given in the method in the previous procedure:
+1. Add the following code to the code given in the method in the previous procedure:
 
     ```csharp
     IVsBuildPropertyStorage buildPropertyStorage =

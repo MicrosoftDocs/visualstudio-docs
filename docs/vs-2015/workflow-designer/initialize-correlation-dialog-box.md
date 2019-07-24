@@ -24,7 +24,7 @@ The **Initialize Correlation** dialog box is used in [!INCLUDE[wfd1](../includes
   
 ## To launch the Initialize Correlation dialog box  
   
--   Click **View** on the **InitializeCorrelation** activity designer or select an <xref:System.ServiceModel.Activities.InitializeCorrelation> activity in [!INCLUDE[wfd2](../includes/wfd2-md.md)] and then click the ellipsis button next to the <xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData%2A> property in the property grid.  
+- Click **View** on the **InitializeCorrelation** activity designer or select an <xref:System.ServiceModel.Activities.InitializeCorrelation> activity in [!INCLUDE[wfd2](../includes/wfd2-md.md)] and then click the ellipsis button next to the <xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData%2A> property in the property grid.  
   
 ## See Also  
  [InitializeCorrelation](../workflow-designer/initializecorrelation-activity-designer.md)

@@ -24,7 +24,7 @@ To debug mixed native and managed code, you must have [!INCLUDE[dnprdnshort](../
   
 ### To correct this error  
   
--   Upgrade the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] to version 2.0, 3.0, 3.5, or 4.0.  
+- Upgrade the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] to version 2.0, 3.0, 3.5, or 4.0.  
   
 ## See Also  
- [Set Up the Remote Tools on the Device](http://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c)
+ [Set Up the Remote Tools on the Device](https://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c)

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "managed package framework, creating Tools Options pages"
   - "Tools Options pages [Visual Studio SDK], creating using managed package framework"
 ms.assetid: 1bf11fec-dece-4943-8053-6de1483c43eb
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -19,9 +19,9 @@ In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] managed pack
 
  Because the environment instantiates the object implementing a particular **Tools Options** page when that particular page is displayed by the IDE:
 
--   A **Tools Option** page should be implemented on its own object, and not on the object implementing a VSPackage.
+- A **Tools Option** page should be implemented on its own object, and not on the object implementing a VSPackage.
 
--   An object cannot implement multiple **Tools Options** pages.
+- An object cannot implement multiple **Tools Options** pages.
 
 ## Register as a Tools Options page provider
  A VSPackage supporting user configuration through **Tools Options** pages indicates the objects providing these **Tools Options** pages by applying instances of <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> applied to the <xref:Microsoft.VisualStudio.Shell.Package> implementation.

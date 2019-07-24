@@ -20,7 +20,7 @@ You attempted to assign a value to a read-only identifier. You cannot assign a v
   
 ### To correct this error  
   
--   Do not assign values to read-only identifiers.  
+- Do not assign values to read-only identifiers.  
   
 ## See Also  
  [Assignment Operator (=)](../../javascript/reference/assignment-operator-decrement-equal-javascript.md)

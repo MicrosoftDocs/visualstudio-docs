@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDisassemblyStream2::Read"
 ms.assetid: 7db5f6bb-73ee-45bc-b187-c1b6aa2dfdd5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDisassemblyStream2::Read
 Reads instructions starting from the current position in the disassembly stream.
@@ -36,22 +39,18 @@ int Read( 
 );
 ```
 
-#### Parameters
- `dwInstructions`
+## Parameters
+`dwInstructions`\
+[in] The number of instructions to disassemble. This value is also the maximum length of the `prgDisassembly` array.
 
- [in] The number of instructions to disassemble. This value is also the maximum length of the `prgDisassembly` array.
+`dwFields`\
+[in] A combination of flags from the [DISASSEMBLY_STREAM_FIELDS](../../../extensibility/debugger/reference/disassembly-stream-fields.md) enumeration that indicate which fields of `prgDisassembly` are to be filled out.
 
- `dwFields`
+`pdwInstructionsRead`\
+[out] Returns the number of instructions actually disassembled.
 
- [in] A combination of flags from the [DISASSEMBLY_STREAM_FIELDS](../../../extensibility/debugger/reference/disassembly-stream-fields.md) enumeration that indicate which fields of `prgDisassembly` are to be filled out.
-
- `pdwInstructionsRead`
-
- [out] Returns the number of instructions actually disassembled.
-
- `prgDisassembly`
-
- [out] An array of [DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md) structures that is filled in with the disassembled code, one structure per disassembled instruction. The length of this array is dictated by the `dwInstructions` parameter.
+`prgDisassembly`\
+[out] An array of [DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md) structures that is filled in with the disassembled code, one structure per disassembled instruction. The length of this array is dictated by the `dwInstructions` parameter.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -63,7 +62,7 @@ int Read( 
 
  The `DSF_OPERANDS_SYMBOLS` flag can be added to the `DSF_OPERANDS` flag in the `dwFields` parameter to indicate that symbol names should be used when disassembling instructions.
 
-## See Also
+## See also
 - [IDebugDisassemblyStream2](../../../extensibility/debugger/reference/idebugdisassemblystream2.md)
 - [DISASSEMBLY_STREAM_FIELDS](../../../extensibility/debugger/reference/disassembly-stream-fields.md)
 - [DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md)

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "registration, source control packages"
   - "source control packages, registration"
 ms.assetid: 7d21fe48-489a-4f55-acb5-73da64c4e155
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -58,7 +58,7 @@ A source control VSPackage must be registered to expose it to the [!INCLUDE[vspr
 
  The Source Control Adapter Package is used to switch to any Source Control Plug-in API-based plug-in. The process of switching to the intermediate Source Control Adapter Package and determining which source control plug-in must be set to active or inactive is transparent to the user. The Adapter Package is always active when any source control plug-in is active. Switching between two source control plug-ins amounts to simply loading and unloading the plug-in DLL. Switching to a source control VSPackage, however, involves interacting with the IDE to load the appropriate VSPackage.
 
- A source control VSPackage is called when any solution is opened and the registry key for the VSPackage  is in the solution file. When the solution is opened, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] finds the registry value and loads the appropriate source control VSPackage. All source control VSPackages must have the registry entries described above. A solution that is under source control is marked as being associated with a particular source control VSPackage. Source control VSPackages must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionPersistence> to enable automatic solution-based VSPackage swapping.
+ A source control VSPackage is called when any solution is opened and the registry key for the VSPackage is in the solution file. When the solution is opened, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] finds the registry value and loads the appropriate source control VSPackage. All source control VSPackages must have the registry entries described above. A solution that is under source control is marked as being associated with a particular source control VSPackage. Source control VSPackages must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionPersistence> to enable automatic solution-based VSPackage swapping.
 
 ### Visual Studio UI for Package Selection and Switching
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] provides a UI for source control VSPackage and plug-in selection in the **Options** dialog box under the **Source Control** category. It allows the user to select the active source control plug-in or VSPackage. A drop-down list includes:

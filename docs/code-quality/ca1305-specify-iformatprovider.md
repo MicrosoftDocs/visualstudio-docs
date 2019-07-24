@@ -30,7 +30,7 @@ ms.workload:
 
 A method or constructor calls one or more members that have overloads that accept a <xref:System.IFormatProvider?displayProperty=fullName> parameter, and the method or constructor does not call the overload that takes the <xref:System.IFormatProvider> parameter.
 
-This rule ignores calls to .NET Framework methods that are documented as ignoring the <xref:System.IFormatProvider> parameter. The rule also ignores the following methods:
+This rule ignores calls to .NET methods that are documented as ignoring the <xref:System.IFormatProvider> parameter. The rule also ignores the following methods:
 
 - <xref:System.Activator.CreateInstance%2A?displayProperty=nameWithType>
 - <xref:System.Resources.ResourceManager.GetObject%2A?displayProperty=nameWithType>
@@ -38,7 +38,7 @@ This rule ignores calls to .NET Framework methods that are documented as ignorin
 
 ## Rule description
 
-When a <xref:System.Globalization.CultureInfo?displayProperty=nameWithType> or <xref:System.IFormatProvider> object is not supplied, the default value that is supplied by the overloaded member might not have the effect that you want in all locales. Also, .NET Framework members choose default culture and formatting based on assumptions that might not be correct for your code. To make sure that the code works as expected for your scenarios, you should supply culture-specific information according to the following guidelines:
+When a <xref:System.Globalization.CultureInfo?displayProperty=nameWithType> or <xref:System.IFormatProvider> object is not supplied, the default value that is supplied by the overloaded member might not have the effect that you want in all locales. Also, .NET members choose default culture and formatting based on assumptions that might not be correct for your code. To make sure that the code works as expected for your scenarios, you should supply culture-specific information according to the following guidelines:
 
 - If the value will be displayed to the user, use the current culture. See <xref:System.Globalization.CultureInfo.CurrentCulture%2A?displayProperty=nameWithType>.
 
@@ -79,4 +79,4 @@ string example3 = FormattableString.Invariant($"Hello {name}");
 
 ## See also
 
-- [Using the CultureInfo Class](/dotnet/standard/globalization-localization/globalization#Cultures)
+- [Using the CultureInfo Class](/dotnet/standard/globalization-localization/globalization#work-with-culture-specific-settings)

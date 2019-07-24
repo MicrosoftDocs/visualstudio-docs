@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCustomAttribute::GetName"
 ms.assetid: ba509cc5-5816-4925-a094-4c72d88c360c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCustomAttribute::GetName
 Gets the name of the custom attribute.
@@ -30,10 +33,9 @@ int GetName(
 );
 ```
 
-#### Parameters
- `bstrName`
-
- [out] Returns a string containing the name of the custom attribute.
+## Parameters
+`bstrName`\
+[out] Returns a string containing the name of the custom attribute.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.
@@ -41,5 +43,5 @@ int GetName(
 ## Remarks
  The named returned by this method corresponds to the name of the class used to declare the attribute. This may not exactly correspond to the name of the custom attribute class itself as C# allows the "Attribute" suffix to be dropped from a custom attribute name when it is used in a declaration.
 
-## See Also
+## See also
 - [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)

@@ -21,7 +21,7 @@ ms.workload:
 This error message means that Visual Studio could not find the correct instance of the Visual Studio Remote Debugging Monitor on the remote computer. The Visual Studio Remote Debugging Monitor must be installed for remote debugging to work. For information about downloading and setting up the remote debugger, see [Remote Debugging](../debugger/remote-debugging.md).
 
 > [!IMPORTANT]
->  If you believe you have received this message because of a product bug, please [report this issue to Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md). If you need more help, see [Talk to Us](../ide/talk-to-us.md) for ways to contact Microsoft.
+> If you believe you've received this message because of a product bug, please [report this issue to Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md). If you need more help, see [Talk to Us](../ide/talk-to-us.md) for ways to contact Microsoft.
 
 ## I got this message while I was debugging in Visual Studio 2010 or earlier
  If the version of Visual Studio that you are using is Visual Studio 2010 or earlier, you might also receive this error if file and printer sharing is not enabled. To find out more about this issue, please refer to the Visual Studio 2010 version of this documentation: [Error: The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer. - Visual Studio 2010](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/ms164726(v=vs.100))
@@ -43,13 +43,13 @@ This error message means that Visual Studio could not find the correct instance 
 ## The remote debugger is running under a different user account
  You can solve this in one of the following ways:
 
--   You can stop the remote debugger and restart it with the account you are using on the local computer.
+- You can stop the remote debugger and restart it with the account you are using on the local computer.
 
--   You can start the remote debugger from the command line with the **/allow \<username>** parameter: `msvsmon /allow <username@computer>`
+- You can start the remote debugger from the command line with the **/allow \<username>** parameter: `msvsmon /allow <username@computer>`
 
--   You can add the user to the remote debugger's permissions (in the remote debugger window, **Tools > Permissions**).
+- You can add the user to the remote debugger's permissions (in the remote debugger window, **Tools > Permissions**).
 
--   If you can't use the methods in the preceding steps, you can allow any user to do remote debugging. In the remote debugger window, go to the **Tools > Options** dialog. When you select   **No Authentication**, you can then check **Allow any user to debug**. However, you should use this option only if you have no choice, or if you are on a private network.
+- If you can't use the methods in the preceding steps, you can allow any user to do remote debugging. In the remote debugger window, go to the **Tools > Options** dialog. When you select   **No Authentication**, you can then check **Allow any user to debug**. However, you should use this option only if you have no choice, or if you are on a private network.
 
 ## The firewall on the remote machine doesn't allow incoming connections to the remote debugger
  The firewall on the Visual Studio machine and the firewall on the remote machine must be configured to allow communication between Visual Studio and the remote debugger. For information about the ports the remote debugger is using, see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md). For information about configuring the Windows firewall, see [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md).

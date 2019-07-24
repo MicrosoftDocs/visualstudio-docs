@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "UNMANAGED_ADDRESS_PHYSICAL structure"
 ms.assetid: fed09686-caa6-4efc-851e-a0432019e9d0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # UNMANAGED_ADDRESS_PHYSICAL
 This structure represents a physical address.
@@ -30,8 +33,8 @@ public struct UNMANAGED_ADDRESS_PHYSICAL {
 }
 ```
 
-## Terms
- offset
+## Members
+ `offset`\
  A 64-bit offset into a physical address space.
 
 ## Remarks
@@ -44,6 +47,6 @@ public struct UNMANAGED_ADDRESS_PHYSICAL {
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)

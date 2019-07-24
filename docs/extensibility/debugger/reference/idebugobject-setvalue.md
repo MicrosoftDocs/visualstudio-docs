@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugObject::SetValue method"
 ms.assetid: d652e09c-cdc1-4519-8116-d7c743f5679b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugObject::SetValue
 Sets the value of the object from a consecutive series of bytes.
@@ -32,14 +35,12 @@ int SetValue(
 );
 ```
 
-#### Parameters
- `pValue`
+## Parameters
+`pValue`\
+[in] An array of bytes representing the new value.
 
- [in] An array of bytes representing the new value.
-
- `nSize`
-
- [in] The size of the value in bytes.
+`nSize`\
+[in] The size of the value in bytes.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.
@@ -47,6 +48,6 @@ int SetValue(
 ## Remarks
  The values in the array are copied into this [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object, replacing any existing value. The size of the new value can be larger or smaller than the existing value. This `IDebugObject` cannot be a null reference.
 
-## See Also
+## See also
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
 - [GetValue](../../../extensibility/debugger/reference/idebugobject-getvalue.md)

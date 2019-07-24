@@ -49,11 +49,11 @@ To avoid concurrency bugs in your multithreaded program, always follow an approp
 
  Some thread ownership rules to keep in mind:
 
--   Spin locks are uncounted locks that have clear thread ownership.
+- Spin locks are uncounted locks that have clear thread ownership.
 
--   Mutexes and critical sections are counted locks that have clear thread ownership.
+- Mutexes and critical sections are counted locks that have clear thread ownership.
 
--   Semaphores and events are counted locks that do not have clear thread ownership.
+- Semaphores and events are counted locks that do not have clear thread ownership.
 
 ## Locking Annotations
  The following table lists the locking annotations.
@@ -98,7 +98,6 @@ To avoid concurrency bugs in your multithreaded program, always follow an approp
 |`_Interlocked_`|Annotates a variable and is equivalent to `_Guarded_by_(_Global_interlock_)`.|
 |`_Interlocked_operand_`|The annotated function parameter is the target operand of one of the various Interlocked functions.  Those operands must have specific additional properties.|
 |`_Write_guarded_by_(expr)`|Annotates a variable and indicates that whenever the variable is modified, the lock count of the lock object that's named by `expr` is at least one.|
-
 
 ## Smart Lock and RAII Annotations
  Smart locks typically wrap native locks and manage their lifetime. The following table lists annotations that can be used with smart locks and RAII coding patterns with support for `move` semantics.

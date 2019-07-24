@@ -50,15 +50,29 @@ Prior knowledge of the following concepts is also helpful, but not required to c
 
 Create a new WPF project to display product records.
 
-1. Start Visual Studio.
+::: moniker range="vs-2017"
+
+1. Open Visual Studio.
 
 2. On the **File** menu, select **New** > **Project**.
 
 3. Expand **Visual Basic** or **Visual C#**, and then select **Windows**.
 
-4. Select the **WPF Application** project template.
+4. Select the **WPF App** project template.
 
 5. In the **Name** box, enter **AdventureWorksProductsEditor** and then select **OK**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Open Visual Studio.
+
+2. On the start window, choose **Create a new project**.
+
+3. Search for the C# **WPF App** project template and follow the steps to create the project, naming the project **AdventureWorksProductsEditor**.
+
+::: moniker-end
 
    Visual Studio creates the AdventureWorksProductsEditor project.
 

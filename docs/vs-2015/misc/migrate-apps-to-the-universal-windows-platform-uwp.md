@@ -23,19 +23,19 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
 - [Changes required for existing unit test projects for Universal Windows apps created with Visual Studio 2015 RC](#MigrateUnitTest).  
   
-  If you don’t want to make all these changes, learn how to [port your existing apps](http://msdn.microsoft.com/library/windows/apps/xaml/mt238321.aspx) into a new Universal Windows project.  
+  If you don’t want to make all these changes, learn how to [port your existing apps](https://msdn.microsoft.com/library/windows/apps/xaml/mt238321.aspx) into a new Universal Windows project.  
   
-##  <a name="MigrateCSharp"></a> Migrate your C#/VB Windows Store 8.1 or Windows Phone 8.1 apps to use the Universal Windows Platform  
+## <a name="MigrateCSharp"></a> Migrate your C#/VB Windows Store 8.1 or Windows Phone 8.1 apps to use the Universal Windows Platform  
   
 #### Migrate your C#/VB project files  
   
-1.  To find which Universal Windows Platform you have installed, open this folder: **\Program Files (x86)\Windows Kits\10\Platforms\UAP**. This contains a list of folders for each Universal Windows Platform that is installed. The folder name is the Universal Windows Platform version that you have installed. For example, this Windows 10 device has version 10.0.10240.0 of the Universal Windows Platform installed.  
+1. To find which Universal Windows Platform you have installed, open this folder: **\Program Files (x86)\Windows Kits\10\Platforms\UAP**. This contains a list of folders for each Universal Windows Platform that is installed. The folder name is the Universal Windows Platform version that you have installed. For example, this Windows 10 device has version 10.0.10240.0 of the Universal Windows Platform installed.  
   
      ![Open the folder to view the versions installed](../misc/media/uap-uwpversions.png "UAP_UWPVersions")  
   
      More than one version of the Universal Windows Platform can be installed. We recommend that you use the latest version for your app.  
   
-2.  Using File Explorer, go to the folder where your UWP project is stored. Create a .json file in this folder. Name the file: project.json, and then add the following content to this file:  
+2. Using File Explorer, go to the folder where your UWP project is stored. Create a .json file in this folder. Name the file: project.json, and then add the following content to this file:  
   
     ```json  
     {  
@@ -60,7 +60,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
     ```  
   
-3.  Create a file called default.rd.xml with the following contents. If you have a VB project, add this file to the My Project directory for your project. If you have a C# project, add this file to the Properties directory for your project.  
+3. Create a file called default.rd.xml with the following contents. If you have a VB project, add this file to the My Project directory for your project. If you have a C# project, add this file to the Properties directory for your project.  
   
     ```xml  
     <?xml version="1.0"?>  
@@ -72,23 +72,23 @@ Make the necessary manual changes to your existing project files for Windows Sto
     </Application></Directives>  
     ```  
   
-4.  Open your solution that contains your existing Windows Store 8.1 app or Windows Phone 8.1 app in Visual Studio.  
+4. Open your solution that contains your existing Windows Store 8.1 app or Windows Phone 8.1 app in Visual Studio.  
   
-5.  Right-click your existing project for your app in Solution Explorer, then select **Unload Project**. After the project is unloaded, right-click the project file again and choose to edit the .csproj or .vbproj file.  
+5. Right-click your existing project for your app in Solution Explorer, then select **Unload Project**. After the project is unloaded, right-click the project file again and choose to edit the .csproj or .vbproj file.  
   
      ![Right click the project and choose Edit](../misc/media/uap-editproject.png "UAP_EditProject")  
   
-6.  Find the \<PropertyGroup> element that contains the \<TargetPlatformVersion> element with a value of 8.1. Do the following steps for this \<PropertyGroup> element:  
+6. Find the \<PropertyGroup> element that contains the \<TargetPlatformVersion> element with a value of 8.1. Do the following steps for this \<PropertyGroup> element:  
   
-    1.  Set the value of the \<Platform> element to: **x86**.  
+    1. Set the value of the \<Platform> element to: **x86**.  
   
-    2.  Add a \<TargetPlatformIdentifier> element and set its value to: **UAP**.  
+    2. Add a \<TargetPlatformIdentifier> element and set its value to: **UAP**.  
   
-    3.  Change the existing value of the \<TargetPlatformVersion> element to be the value of the Universal Windows Platform version that you installed. Also add a \<TargetPlatformMinVersion> element and give it the same value.  
+    3. Change the existing value of the \<TargetPlatformVersion> element to be the value of the Universal Windows Platform version that you installed. Also add a \<TargetPlatformMinVersion> element and give it the same value.  
   
-    4.  Change the value of the \<MinimumVisualStudioVersion> element to: **14**.  
+    4. Change the value of the \<MinimumVisualStudioVersion> element to: **14**.  
   
-    5.  Replace the \<ProjectTypeGuids> element as shown below:  
+    5. Replace the \<ProjectTypeGuids> element as shown below:  
   
          For C#:  
   
@@ -102,9 +102,9 @@ Make the necessary manual changes to your existing project files for Windows Sto
         <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>  
         ```  
   
-    6.  Add an \<EnableDotNetNativeCompatibleProfile> element and set its value to: **true**.  
+    6. Add an \<EnableDotNetNativeCompatibleProfile> element and set its value to: **true**.  
   
-    7.  The default asset scale for Universal Windows apps is 200. If your project includes assets not scaled at 200, you will need to add a \<UapDefaultAssetScale> element with the value of the scale of your assets to this PropertyGroup. Learn more about [assets and scales](http://msdn.microsoft.com/library/jj679352.aspx).  
+    7. The default asset scale for Universal Windows apps is 200. If your project includes assets not scaled at 200, you will need to add a \<UapDefaultAssetScale> element with the value of the scale of your assets to this PropertyGroup. Learn more about [assets and scales](https://msdn.microsoft.com/library/jj679352.aspx).  
   
          Now your \<PropertyGroup> element should look similar to this example:  
   
@@ -123,7 +123,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
         </PropertyGroup>  
         ```  
   
-7.  Replace any instances of 12.0 with 14.0 to reflect the version of Visual Studio that you are now using. Like these instances:  
+7. Replace any instances of 12.0 with 14.0 to reflect the version of Visual Studio that you are now using. Like these instances:  
   
     ```xml  
     <Project Tools Version="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
@@ -134,7 +134,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
         <VisualStudioVersion>14.0</VisualStudioVersion>  
     ```  
   
-8.  Find \<PropertyGroup> elements that are configured for the AnyCPU platform as part of the Condition attribute. Remove these elements and all of their children. AnyCPU is not supported for Windows 10 apps in Visual Studio 2015. For example, you should remove \<PropertyGroup> elements like these ones:  
+8. Find \<PropertyGroup> elements that are configured for the AnyCPU platform as part of the Condition attribute. Remove these elements and all of their children. AnyCPU is not supported for Windows 10 apps in Visual Studio 2015. For example, you should remove \<PropertyGroup> elements like these ones:  
   
     ```xml  
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">  
@@ -240,35 +240,35 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
      Now you need to follow the steps to [update the package manifest files](#PackageManifest) for all your Windows Store 8.1 or Windows Phone 8.1 projects.  
   
-##  <a name="MigrateCPlusPlus"></a> Migrate your C++ Windows Store 8.1 or Windows Phone 8.1 apps to use the Universal Windows Platform  
+## <a name="MigrateCPlusPlus"></a> Migrate your C++ Windows Store 8.1 or Windows Phone 8.1 apps to use the Universal Windows Platform  
   
 #### Migrate your C++ project files  
   
-1.  To find which Universal Windows Platform you have installed, open this folder: **\Program Files (x86)\Windows Kits\10\Platforms\UAP**. This contains a list of folders for each Universal Windows Platform that is installed. The folder name is the Universal Windows Platform version that you have installed. For example, this Windows 10 device has version 10.0.10240.0 of the Universal Windows Platform installed.  
+1. To find which Universal Windows Platform you have installed, open this folder: **\Program Files (x86)\Windows Kits\10\Platforms\UAP**. This contains a list of folders for each Universal Windows Platform that is installed. The folder name is the Universal Windows Platform version that you have installed. For example, this Windows 10 device has version 10.0.10240.0 of the Universal Windows Platform installed.  
   
      ![Open the folder to view the versions installed](../misc/media/uap-uwpversions.png "UAP_UWPVersions")  
   
      More than one version of the Universal Windows Platform can be installed. We recommend that you use the latest version for your app.  
   
-2.  Open your solution that contains your existing C++ Windows Store 8.1 app or Windows Phone 8.1 app in Visual Studio.  
+2. Open your solution that contains your existing C++ Windows Store 8.1 app or Windows Phone 8.1 app in Visual Studio.  
   
      Right-click your existing project in solution explorer, then select **Unload Project**. After the project is unloaded, right-click the project file again and choose to edit the .vcxproj file.  
   
      ![Right&#45;click project file and choose to edit](../misc/media/uap-editcplusproject.png "UAP_EditCPlusProject")  
   
-3.  Find the \<PropertyGroup> element that contains the \<ApplicationTypeRevision> element with a value of 8.1. Do the following steps for this \<PropertyGroup> element:  
+3. Find the \<PropertyGroup> element that contains the \<ApplicationTypeRevision> element with a value of 8.1. Do the following steps for this \<PropertyGroup> element:  
   
-    1.  Add a \<WindowsTargetPlatformVersion> element and a \<WindowsTargetPlatformMinVersion> element and give them the value of the Universal Windows Platform version that you installed.  
+    1. Add a \<WindowsTargetPlatformVersion> element and a \<WindowsTargetPlatformMinVersion> element and give them the value of the Universal Windows Platform version that you installed.  
   
-    2.  Update the value of ApplicationTypeRevision element from 8.1 to 10.0.  
+    2. Update the value of ApplicationTypeRevision element from 8.1 to 10.0.  
   
-    3.  Change the value of the \<MinimumVisualStudioVersion> element to: 14.  
+    3. Change the value of the \<MinimumVisualStudioVersion> element to: 14.  
   
-    4.  Add an \<EnableDotNetNativeCompatibleProfile> element and set its value to: true.  
+    4. Add an \<EnableDotNetNativeCompatibleProfile> element and set its value to: true.  
   
-    5.  The default asset scale for Universal Windows apps is 200. If your project includes assets not scaled at 200, you will need to add a \<UapDefaultAssetScale> element with the value of the scale of your assets to this PropertyGroup. Learn more about [assets and scales](http://msdn.microsoft.com/library/jj679352.aspx).  
+    5. The default asset scale for Universal Windows apps is 200. If your project includes assets not scaled at 200, you will need to add a \<UapDefaultAssetScale> element with the value of the scale of your assets to this PropertyGroup. Learn more about [assets and scales](https://msdn.microsoft.com/library/jj679352.aspx).  
   
-    6.  For Windows Phone projects only, change the value of \<ApplicationType> from Windows Phone to Windows Store.  
+    6. For Windows Phone projects only, change the value of \<ApplicationType> from Windows Phone to Windows Store.  
   
          Now your \<PropertyGroup> element should look similar to this example:  
   
@@ -286,7 +286,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
         </PropertyGroup>  
         ```  
   
-4.  Change all instances of the \<PlatformToolset> element to have the value v140. For example:  
+4. Change all instances of the \<PlatformToolset> element to have the value v140. For example:  
   
     ```xml  
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">  
@@ -298,7 +298,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
       </PropertyGroup>  
     ```  
   
-5.  For each remaining \<PropertyGroup> element, check if the element has a Condition attribute with a Release configuration. If it does, but it does not contain a \<UseDotNetNativeToolchain> element, then add one. Set the value for the \<UseDotNetNativeToolchain> element to true, like this:  
+5. For each remaining \<PropertyGroup> element, check if the element has a Condition attribute with a Release configuration. If it does, but it does not contain a \<UseDotNetNativeToolchain> element, then add one. Set the value for the \<UseDotNetNativeToolchain> element to true, like this:  
   
     ```xml  
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|X64'" Label="Configuration">  
@@ -311,13 +311,13 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
     ```  
   
-6.  Save your changes. Then close the project file.  
+6. Save your changes. Then close the project file.  
   
-7.  Right-click on your project file in Solution Explorer, and choose Reload Project from the context menu. All the files in your project should now be displayed in Solution Explorer.  
+7. Right-click on your project file in Solution Explorer, and choose Reload Project from the context menu. All the files in your project should now be displayed in Solution Explorer.  
   
      Now you need to follow the steps to [update the package manifest files](#PackageManifest) for all your Windows Store 8.1 or Windows Phone 8.1 projects.  
   
-##  <a name="PackageManifest"></a> Update your package manifest file for all your Windows Store 8.1 or Windows Phone 8.1 projects  
+## <a name="PackageManifest"></a> Update your package manifest file for all your Windows Store 8.1 or Windows Phone 8.1 projects  
  You must update the package manifest file for each project in your solution.  
   
 #### Update your package manifest file  
@@ -579,22 +579,22 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
 17. You need to remove some hidden files before you can reopen your solution.  
   
-    1.  Open File Explorer, click **View** in the toolbar and select **Hidden items** and **File name extensions**. Open this folder on your machine: \<path for the location of your solution>\\.vs\\{Project Name}\v14. If there is a file with a .suo file extension, then delete it.  
+    1. Open File Explorer, click **View** in the toolbar and select **Hidden items** and **File name extensions**. Open this folder on your machine: \<path for the location of your solution>\\.vs\\{Project Name}\v14. If there is a file with a .suo file extension, then delete it.  
   
-    2.  Now go back to the folder where your solution is located. Open any folders for projects that exist in your solution. If a file inside any of these project folders has a .csproj.user or .vbproj.user extension, then delete it.  
+    2. Now go back to the folder where your solution is located. Open any folders for projects that exist in your solution. If a file inside any of these project folders has a .csproj.user or .vbproj.user extension, then delete it.  
   
          You can now reopen your solution in Visual Studio. You are ready to code, build, and debug your app using the Universal Windows Platform.  
   
          Learn how to [adapt your code](https://msdn.microsoft.com/library/windows/apps/dn954974.aspx) to take advantage of what’s new with the Universal Windows Platform.  
   
-##  <a name="PreviousVersions"></a> Changes required for existing Universal Windows apps created with Visual Studio 2015 RC  
+## <a name="PreviousVersions"></a> Changes required for existing Universal Windows apps created with Visual Studio 2015 RC  
  If you created Windows 10 universal apps with Visual Studio 2015 RC, you need to retarget your project to use the version of the Universal Windows Platform installed with the latest release of Visual Studio 2015. Any previous version is not supported. The changes required are different depending on the language you used to create your app:  
   
--   [C#/VB apps](#RCUpdate10CSharp)  
+- [C#/VB apps](#RCUpdate10CSharp)  
   
--   [C++ apps](#RCUpdate10CPlusPlus)  
+- [C++ apps](#RCUpdate10CPlusPlus)  
   
-###  <a name="RCUpdate10CSharp"></a> Update your C#/VB projects to use the latest Universal Windows Platform  
+### <a name="RCUpdate10CSharp"></a> Update your C#/VB projects to use the latest Universal Windows Platform  
  When you open your solution for your existing app, you will see that your app requires an update:  
   
  ![View your project in Solution Explorer](../misc/media/uwp-updaterequired.png "UWP_UpdateRequired")  
@@ -645,7 +645,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
 4. Find the \<PropertyGroup> element that contains the \<TargetPlatformVersion> and \<TargetPlatformMinVersion> elements. Change the existing value of the \<TargetPlatformVersion> and \<TargetPlatformMinVersion> elements to be the same version of the Universal Windows Platform that you have installed.  
   
-    The default asset scale for Universal Windows apps is 200. Projects created with Visual Studio 2015 RC included assets scaled at 100, you will need to add a \<UapDefaultAssetScale> element with a value of 100 to this PropertyGroup. Learn more about [assets and scales](http://msdn.microsoft.com/library/jj679352.aspx).  
+    The default asset scale for Universal Windows apps is 200. Projects created with Visual Studio 2015 RC included assets scaled at 100, you will need to add a \<UapDefaultAssetScale> element with a value of 100 to this PropertyGroup. Learn more about [assets and scales](https://msdn.microsoft.com/library/jj679352.aspx).  
   
 5. If you added any references to UWP Extension SDKs (for example: the Windows Mobile SDK), you will need to update the SDK version. For example this \<SDKReference> element:  
   
@@ -725,13 +725,13 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
 13. Open the Package.appxmanifest file in your project.  
   
-    1.  Find the \<TargetDeviceFamily> element. Change its MinVersion and MaxVersionTested attributes to correspond to the Universal Windows Platform version that you have installed. Like this:  
+    1. Find the \<TargetDeviceFamily> element. Change its MinVersion and MaxVersionTested attributes to correspond to the Universal Windows Platform version that you have installed. Like this:  
   
         ```xml  
         <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.10240.0" />  
         ```  
   
-    2.  Save your changes.  
+    2. Save your changes.  
   
 14. Use the NuGet manager to add the packages that you deleted in the earlier step. One significant difference between the Windows 10 project format between Visual Studio 2015 RC and Visual Studio 2015 RTM is that the RTM format uses [NuGet](http://docs.nuget.org/) version 3.  
   
@@ -739,23 +739,23 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
     If you have unit test projects for your Universal Windows apps, you must also follow [these steps](#MigrateUnitTest).  
   
-###  <a name="RCUpdate10CPlusPlus"></a> Update your C++ projects to use the latest Universal Windows Platform  
+### <a name="RCUpdate10CPlusPlus"></a> Update your C++ projects to use the latest Universal Windows Platform  
   
-1.  To find which Universal Windows Platform you have installed, open this folder: **\Program Files (x86)\Windows Kits\10\Platforms\UAP**. This contains a list of folders for each Universal Windows Platform that is installed. The folder name is the Universal Windows Platform version that you have installed. For example, this Windows 10 device has version 10.0.10240.0 of the Universal Windows Platform installed.  
+1. To find which Universal Windows Platform you have installed, open this folder: **\Program Files (x86)\Windows Kits\10\Platforms\UAP**. This contains a list of folders for each Universal Windows Platform that is installed. The folder name is the Universal Windows Platform version that you have installed. For example, this Windows 10 device has version 10.0.10240.0 of the Universal Windows Platform installed.  
   
      ![Open the folder to view the versions installed](../misc/media/uap-uwpversions.png "UAP_UWPVersions")  
   
      More than one version of the Universal Windows Platform can be installed. We recommend that you use the latest version for your app.  
   
-2.  Open your solution that contains your C++ Windows Universal app. Right-click the project .vcxproj file, and choose to unload the project file. After the project has unloaded, right-click the project file again and choose to edit it.  
+2. Open your solution that contains your C++ Windows Universal app. Right-click the project .vcxproj file, and choose to unload the project file. After the project has unloaded, right-click the project file again and choose to edit it.  
   
      ![Unload the project, then edit the project file](../misc/media/uap-editearliercplus.png "UAP_EditEarlierCPlus")  
   
-3.  Find any \<PropertyGroup> elements that do not contain a Condition attribute but do contain an \<ApplicationTypeRevision> element. Update the ApplicationTypeRevision value from 8.2 to 10.0. Add a \<WindowsTargetPlatformVersion> and a \<WindowsTargetPlatformMinVersion> element and set their values to be the value of the Universal Windows Platform version that you installed.  
+3. Find any \<PropertyGroup> elements that do not contain a Condition attribute but do contain an \<ApplicationTypeRevision> element. Update the ApplicationTypeRevision value from 8.2 to 10.0. Add a \<WindowsTargetPlatformVersion> and a \<WindowsTargetPlatformMinVersion> element and set their values to be the value of the Universal Windows Platform version that you installed.  
   
      Add an \<EnableDotNetNativeCompatibleProfile> element and set its value to true if the element does not already exist.  
   
-     The default asset scale for Universal Windows apps is 200. Projects created with Visual Studio 2015 RC included assets scaled at 100, you will need to add a \<UapDefaultAssetScale> element with a value of 100 to this PropertyGroup. Learn more about [assets and scales](http://msdn.microsoft.com/library/jj679352.aspx).  
+     The default asset scale for Universal Windows apps is 200. Projects created with Visual Studio 2015 RC included assets scaled at 100, you will need to add a \<UapDefaultAssetScale> element with a value of 100 to this PropertyGroup. Learn more about [assets and scales](https://msdn.microsoft.com/library/jj679352.aspx).  
   
      So this \<PropertyGroup> element will now be similar to this:  
   
@@ -773,7 +773,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
     ```  
   
-4.  For each remaining \<PropertyGroup> element, check if the element has a Condition attribute with a Release configuration. If it does, but it does not contain a \<UseDotNetNativeToolchain> element, then add one. Set the value for the \<UseDotNetNativeToolchain> element to true, like this:  
+4. For each remaining \<PropertyGroup> element, check if the element has a Condition attribute with a Release configuration. If it does, but it does not contain a \<UseDotNetNativeToolchain> element, then add one. Set the value for the \<UseDotNetNativeToolchain> element to true, like this:  
   
     ```xml  
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">  
@@ -786,34 +786,34 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
     ```  
   
-5.  You need to update the \<EnableDotNetNativeCompatibleProfile> element and the \<UseDotNetNativeToolchain> element to enable .NET Native, but .NET Native is not​ enabled in the C++ templates.  
+5. You need to update the \<EnableDotNetNativeCompatibleProfile> element and the \<UseDotNetNativeToolchain> element to enable .NET Native, but .NET Native is not​ enabled in the C++ templates.  
   
      Save your changes. Then close the project file.  
   
-6.  Right-click on your project file in Solution Explorer, and choose Reload Project from the context menu. All the files in your project should now be displayed in Solution Explorer.  
+6. Right-click on your project file in Solution Explorer, and choose Reload Project from the context menu. All the files in your project should now be displayed in Solution Explorer.  
   
-7.  Open the Package.appxmanifest file in your project.  
+7. Open the Package.appxmanifest file in your project.  
   
-    1.  Find the \<TargetDeviceFamily> element. Change its MinVersion and MaxVersionTested attributes to correspond to the Universal Windows Platform version that you have installed. Like this:  
+    1. Find the \<TargetDeviceFamily> element. Change its MinVersion and MaxVersionTested attributes to correspond to the Universal Windows Platform version that you have installed. Like this:  
   
         ```xml  
         <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.10240.0" />  
         ```  
   
-    2.  Save your changes.  
+    2. Save your changes.  
   
          You can now code, build, and debug your app.  
   
          If you have unit test projects for your Universal Windows apps, you must also follow [these steps](#MigrateUnitTest).  
   
-##  <a name="MigrateUnitTest"></a> Changes required for existing unit test projects for Universal Windows apps created with Visual Studio 2015 RC  
+## <a name="MigrateUnitTest"></a> Changes required for existing unit test projects for Universal Windows apps created with Visual Studio 2015 RC  
  If you created unit test projects for Windows 10 universal apps with Visual Studio 2015 RC, you need to make these additional changes to your project files to use these test projects with the latest release of Visual Studio 2015. The changes required are different depending on the language you used to create your app:  
   
--   [C#/VB apps](#UnitTestRCUpdate10CSharp)  
+- [C#/VB apps](#UnitTestRCUpdate10CSharp)  
   
--   [C++ apps](#UnitTestRCUpdate10CPlusPlus)  
+- [C++ apps](#UnitTestRCUpdate10CPlusPlus)  
   
-###  <a name="UnitTestRCUpdate10CSharp"></a> Update your C#/VB unit test projects  
+### <a name="UnitTestRCUpdate10CSharp"></a> Update your C#/VB unit test projects  
   
 1. With Visual Studio, open your solution that contains your C#/VB unit test project. Change the value of the \<OuttputType> element to: AppContainerExe.  
   
@@ -986,9 +986,9 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
    You can now run your unit tests.  
   
-###  <a name="UnitTestRCUpdate10CPlusPlus"></a> Update your C++ projects to use the latest Universal Windows Platform  
+### <a name="UnitTestRCUpdate10CPlusPlus"></a> Update your C++ projects to use the latest Universal Windows Platform  
   
-1.  With Visual Studio, open your solution that contains your C++ unit test project. Remove the following elements:  
+1. With Visual Studio, open your solution that contains your C++ unit test project. Remove the following elements:  
   
     ```xml  
   
@@ -999,7 +999,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
     ```  
   
-2.  Add the following \<ProjectConfiguration> elements below this element \<ItemGroup Label="ProjectConfigurations"> if they are not already in this fille:  
+2. Add the following \<ProjectConfiguration> elements below this element \<ItemGroup Label="ProjectConfigurations"> if they are not already in this fille:  
   
     ```xml  
   
@@ -1014,7 +1014,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
     ```  
   
-3.  Replace every occurrence of this element:  
+3. Replace every occurrence of this element:  
   
     ```xml  
   
@@ -1030,7 +1030,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
     ```  
   
-4.  Add these \<PropertyGroup> elements if they are not already in the file:  
+4. Add these \<PropertyGroup> elements if they are not already in the file:  
   
     ```xml  
   
@@ -1049,7 +1049,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
     ```  
   
-5.  Replace every occurrence of this element:  
+5. Replace every occurrence of this element:  
   
     ```xml  
   
@@ -1064,7 +1064,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
     ```  
   
-6.  Replace every occurrence of this element:  
+6. Replace every occurrence of this element:  
   
     ```xml  
   
@@ -1080,7 +1080,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
     ```  
   
-7.  Add these \<ItemDefinitionGroup> elements in the section that already contains other \<ItemDefinitionGroup> elements:  
+7. Add these \<ItemDefinitionGroup> elements in the section that already contains other \<ItemDefinitionGroup> elements:  
   
     ```xml  
   
@@ -1107,7 +1107,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
     ```  
   
-8.  Delete the following \< ItemGroup> element:  
+8. Delete the following \< ItemGroup> element:  
   
     ```xml  
   

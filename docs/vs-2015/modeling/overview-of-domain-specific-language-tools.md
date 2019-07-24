@@ -19,13 +19,13 @@ Domain-Specific Language Tools (DSL Tools), which are hosted in [!INCLUDE[vsprvs
   
  The following tools are included in DSL Tools:  
   
--   A project wizard that uses different solution templates to help you start developing your domain-specific language.  
+- A project wizard that uses different solution templates to help you start developing your domain-specific language.  
   
--   A graphical designer for creating and editing your domain-specific language definition.  
+- A graphical designer for creating and editing your domain-specific language definition.  
   
--   A validation engine that makes sure that the domain-specific language definition is well-formed, and displays errors and warnings if there are problems.  
+- A validation engine that makes sure that the domain-specific language definition is well-formed, and displays errors and warnings if there are problems.  
   
--   A code generator that takes a domain-specific language definition as input and produces source code as output.  
+- A code generator that takes a domain-specific language definition as input and produces source code as output.  
   
 ## The DSL Tools Solution  
  The Domain-Specific Designer Wizard provides the following solution templates:  
@@ -74,4 +74,4 @@ Domain-Specific Language Tools (DSL Tools), which are hosted in [!INCLUDE[vsprvs
   
 ## See Also  
  [The Experimental Instance](../extensibility/the-experimental-instance.md)   
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

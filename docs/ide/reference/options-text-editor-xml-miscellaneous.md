@@ -11,13 +11,13 @@ manager: jillfra
 ---
 # Options, Text Editor, XML, Miscellaneous
 
-Use the **Miscellaneous** property page to change the autocompletion and schema settings for the XML Editor. To open the **Options** dialog box, click the **Tools** menu and then click **Options**. To access the **Miscellaneous** property page, expand the **Text Editor** > **XML** > **Miscellaneous** node.
+Use the **Miscellaneous** options page to change the autocompletion and schema settings for the XML Editor. To access miscellaneous XML options, choose **Tools** > **Options** > **Text Editor** > **XML**, and then choose **Miscellaneous**.
 
 ## Auto Insert
 
 **Close tags**
 
-The Text Editor adds close tags when authoring XML elements. If an element start tag is selected, the editor inserts the matching close tag, including a matching namespace prefix. This check box is selected by default.
+The text editor adds close tags when authoring XML elements. If an element start tag is selected, the editor inserts the matching close tag, including a matching namespace prefix. This check box is selected by default.
 
 **Attribute quotes**
 
@@ -47,9 +47,9 @@ Turns on the outlining feature when a file is opened. This check box is selected
 
 **Schemas**
 
-Specifies the location of the schema cache. The Browse button (...) opens the current schema cache location in a new window. The default location is *\<Management Studio install directory>*\Xml\Schemas.
+Specifies the location of the schema cache. The **Browse** button opens the current schema cache location in a new window. The default location is *%VsInstallDir%\xml\Schemas*.
 
 ## See also
 
-- [How to: Create XML documentation (Visual Basic)](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation)
-- [Code generation](../code-generation-in-visual-studio.md)
+- [XML options - formatting](options-text-editor-xml-formatting.md)
+- [XML tools in Visual Studio](../../xml-tools/xml-tools-in-visual-studio.md)

@@ -21,9 +21,9 @@ The topics in this section show you how to release your Visual Studio integratio
  [RegPkg Utility](../extensibility/internals/regpkg-utility.md)
  Describes the RegPkg utility, which is used to register a VSPackage and prepare it for deployment.
 
- [Premier Partner Edition Setup and User Guide](http://msdn.microsoft.com/8ee4dad7-95d3-4f2d-a8d4-3ba9a80ecae2)
+ [Premier Partner Edition Setup and User Guide](https://msdn.microsoft.com/8ee4dad7-95d3-4f2d-a8d4-3ba9a80ecae2)
  Provides VSIP partners with a redistributable version of the Visual Studio integrated development environment (IDE) so that they can add their own development tools and computer languages.
 
 ## Related Sections
- [Customizing for Testing By Using the Visual Studio SDK](http://msdn.microsoft.com/9cf7a840-dd66-4b00-90f7-e00e40370a69)
+ [Customizing for Testing By Using the Visual Studio SDK](https://msdn.microsoft.com/9cf7a840-dd66-4b00-90f7-e00e40370a69)
  Describes how to use the [!INCLUDE[esprtest](../includes/esprtest-md.md)] suite to create, manage, edit, and run tests, and also obtain and store test results.

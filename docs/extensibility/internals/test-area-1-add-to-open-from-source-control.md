@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], adding and opening solutions"
   - "source control plug-ins, adding and opening solutions"
 ms.assetid: 5b3b5b08-5e9b-41be-ac72-c63957faed22
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -31,19 +31,19 @@ This source-control plug-in test area covers placing solutions or projects under
 - For [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)], add from source control is also available from **File**, **Add**, **Existing Project**; look in the [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)] location.
 
   > [!NOTE]
-  >  A path of a local file or a local IIS (web server) can be used in this test.
+  > A path of a local file or a local IIS (web server) can be used in this test.
 
 ## Expected Behavior
 
--   For each supported project type, a user should be able to "Add to" and "Open from" Source Control.
+- For each supported project type, a user should be able to "Add to" and "Open from" Source Control.
 
--   When a project is added to Source Control, a corresponding \<*ProjectName*>.vspscc file (Project hint file) is created. It contains exclusion file list and connection information. Do not delete this file because it contains information specific to the project.
+- When a project is added to Source Control, a corresponding \<*ProjectName*>.vspscc file (Project hint file) is created. It contains exclusion file list and connection information. Do not delete this file because it contains information specific to the project.
 
--   When a solution is added to source control, a corresponding \<*SolutionName*>.vssscc (triple S) file is created. The text file contains connection information and an exclusion file list, similar to the project hint file. This file is temporary and exists only in the source control database.
+- When a solution is added to source control, a corresponding \<*SolutionName*>.vssscc (triple S) file is created. The text file contains connection information and an exclusion file list, similar to the project hint file. This file is temporary and exists only in the source control database.
 
--   When a solution is opened from source control, a \<*SolutionName*>.vsscc (double S) file that exists only in the source control database, is created locally in a temporary file. This file contains the path from the solution connection folder to the solution file. This file is temporary and the local copy is deleted when the "Open from Source Control" operation has completed.
+- When a solution is opened from source control, a \<*SolutionName*>.vsscc (double S) file that exists only in the source control database, is created locally in a temporary file. This file contains the path from the solution connection folder to the solution file. This file is temporary and the local copy is deleted when the "Open from Source Control" operation has completed.
 
--   After a project is added to the source control, you can perform any source control actions on it (Check out, Get, and so on).
+- After a project is added to the source control, you can perform any source control actions on it (Check out, Get, and so on).
 
 ## Test Cases
  The following are specific test cases for the Add To/Open From Source Control test area.

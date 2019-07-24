@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "registration, custom tools"
   - "custom tools, defining registry settings"
 ms.assetid: db7592c0-1273-4843-9617-6e2ddabb6ca8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -32,20 +32,20 @@ To make a custom tool available in [!INCLUDE[vsprvs](../../code-quality/includes
 
 2. Create a registry key in the desired [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] hive under Generators\\*GUID* where *GUID* is the GUID defined by the specific language's project system or service. The name of the key becomes the programmatic name of your custom tool. The custom tool key has the following values:
 
-   -   (Default)
+   - (Default)
 
         Optional. Provides a user-friendly description of the custom tool. This parameter is optional, but recommended.
 
-   -   CLSID
+   - CLSID
 
         Required. Specifies the identifier of the class library of the COM component that implements <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator>.
 
-   -   GeneratesDesignTimeSource
+   - GeneratesDesignTimeSource
 
         Required. Indicates whether types from files produced by this custom tool are made available to visual designers. The value of this parameter needs to be (zero) 0 for types not available to visual designers or (one) 1 for types available to visual designers.
 
    > [!NOTE]
-   >  You must register the custom tool separately for each language for which you want the custom tool to be available.
+   > You must register the custom tool separately for each language for which you want the custom tool to be available.
 
     For example, the MSDataSetGenerator registers itself once for each language:
 

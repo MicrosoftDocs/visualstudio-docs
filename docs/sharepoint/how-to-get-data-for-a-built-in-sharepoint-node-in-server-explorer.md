@@ -1,5 +1,5 @@
 ---
-title: "How to: Get Data for a Built-In SharePoint Node in Server Explorer | Microsoft Docs"
+title: "Get data for built-in SharePoint node in Server Explorer"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -30,13 +30,13 @@ ms.workload:
 ## Compile the code
  This example requires references to the following assemblies:
 
--   EnvDTE
+- EnvDTE
 
--   Microsoft.VisualStudio.SharePoint
+- Microsoft.VisualStudio.SharePoint
 
--   Microsoft.VisualStudio.SharePoint.Explorer.Extensions
+- Microsoft.VisualStudio.SharePoint.Explorer.Extensions
 
--   System.ComponentModel.Composition
+- System.ComponentModel.Composition
 
 ## Deploy the extension
  To deploy the **Server Explorer** extension, create a [!include[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (VSIX) package for the assembly and any other files that you want to distribute with the extension. For more information, see [Deploy extensions for the SharePoint tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).

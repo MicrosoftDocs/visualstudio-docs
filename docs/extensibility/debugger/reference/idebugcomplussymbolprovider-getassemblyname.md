@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::GetAssemblyName"
   - "GetAssemblyName"
 ms.assetid: a08cd609-b9b9-47bd-bf73-cbf851285907
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetAssemblyName
 Retrieves the name of the assembly given its module and application domain.
@@ -33,18 +36,15 @@ int GetAssemblyName(
 );
 ```
 
-#### Parameters
-`ulAppDomainID`
+## Parameters
+`ulAppDomainID`\
+[in] Identifier for the application domain.
 
- [in] Identifier for the application domain.
+`guidModule`\
+[in] Unique identifier for the module.
 
-`guidModule`
-
- [in] Unique identifier for the module.
-
-`pbstrName`
-
- [out] Returns the name of the assembly.
+`pbstrName`\
+[out] Returns the name of the assembly.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -78,5 +78,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

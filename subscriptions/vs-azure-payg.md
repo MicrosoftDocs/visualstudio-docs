@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 10/03/2017
 ms.topic: conceptual
 description:  Learn how to set up your Azure Pay-As-You-Go account.
-searchscope: VS Subscription
 ---
 
 # Setting up an Azure Dev/Test Pay-As-You-Go subscription
@@ -26,11 +25,9 @@ Collaborate with your team in the cloud.  Create multiple Dev and Test Pay-As-Yo
    > [!div class="mx-imgBorder"]
    > ![Azure PAYG Sign Up](_img/vs-azure-payg/vs-azure-payg-identity-cropped.png)
 
-
 5. Next, please provide the billing information for your account and click **Next**.  (This will be the credit card that is charged for all your Azure purchases.)
    > [!div class="mx-imgBorder"]
    > ![Azure PAYG Payment](_img/vs-azure-payg/vs-azure-payg-payment-cropped.png)
-
 
 6. In the Agreement section, click on the check box to accept the subscription agreement, offer details and privacy statement, then click **Purchase**.
 

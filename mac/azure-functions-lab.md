@@ -1,8 +1,8 @@
 ---
 title: "Tutorial: Azure Functions"
 description: "Using Azure functions in Visual Studio for Mac."
-author: conceptdev
-ms.author: crdun
+author: sayedihashimi
+ms.author: sayedha
 ms.date: 05/06/2018
 ms.topic: article
 ms.technology: vs-ide-install
@@ -101,6 +101,7 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
     using System.Web;
     using Microsoft.WindowsAzure.Storage.Table;
     ```
+
 1. Remove the existing `Run` method and add the method below to the class as your Azure Function:
 
     ```csharp
@@ -116,6 +117,7 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
         return x + y;
     }
     ```
+
 1. Let's walk through the method definition piece by piece.
 
     The first thing you'll see is the **FunctionName** attribute that marks this method as an Azure Function. The attribute designates the public name of the function. The attribute name doesn't need to match the actual method name.
@@ -177,6 +179,7 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 
     return x + y;
     ```
+
 1. Run the application.
 
 1. Return to the browser window and append the string `/?x=2&y=3` to the URL. The whole URL should now be `http://localhost:7071/api/Add?x=2&y=3`. Navigate to the new URL.
@@ -185,10 +188,9 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 
 1. Stop the debugging session.
 
-
 ## Exercise 4: Working with function.json
 
-1.  In an earlier exercise, it was mentioned that Visual Studio for Mac "generated" a job function for the Azure Function defined in the library. This is because Azure Functions doesn't actually use the method attributes at runtime, but rather uses a compile-time file system convention to configure where and how Azure Functions are made available. From **Solution Pad**, right-click on your project node and select **Reveal in Finder**.
+1. In an earlier exercise, it was mentioned that Visual Studio for Mac "generated" a job function for the Azure Function defined in the library. This is because Azure Functions doesn't actually use the method attributes at runtime, but rather uses a compile-time file system convention to configure where and how Azure Functions are made available. From **Solution Pad**, right-click on your project node and select **Reveal in Finder**.
 
      ![Reveal in Finder menu option](media/azure-functions-lab-image23.png)
 
@@ -287,6 +289,7 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
         return x + y;
     }
     ```
+
 1. Press **F5** to build and run the project.
 
 1. As the build completes and platform spins up, it will now indicate that there is a second route available for requests that maps to the newly added method:
@@ -313,6 +316,7 @@ Often, the service you build might be much more complex than what we have built 
         public int Sum { get; set; }
     }
     ```
+
 1. Within the **Add** class, add the code below to introduce another function. Note that this one is unique so far in that it doesn't involve an HTTP response. The final line returns a new **TableRow** populated with some key information that will make it easy to retrieve later on (**PartitionKey** and **RowKey**), as well as its parameters and sum. The code within the method also uses the **TraceWriter** to make it easier to know when the function runs.
 
     ```csharp
@@ -338,6 +342,7 @@ Often, the service you build might be much more complex than what we have built 
         };
     }
     ```
+
 1. Press **F5** to build and run the project.
 
 1. In the browser tab, navigate to **http://localhost:7071/api/Process/4/6**. This will put another message into the queue, which should eventually result in another row being added to the table.
@@ -360,6 +365,7 @@ Often, the service you build might be much more complex than what we have built 
     [Table("Results", "sums", "{x}_{y}")]
     TableRow tableRow,
     ```
+
 1. Add the code below to the beginning of the method. If **tableRow** isn't null, then we already have the results for the operation being requested and can return it immediately. Otherwise, the function continues as before. While this may not be the most robust way to return the data, it illustrates the point that you can orchestrate incredibly sophisticated operations across multiple scalable tiers with very little code.
 
     ```csharp
@@ -369,6 +375,7 @@ Often, the service you build might be much more complex than what we have built 
         return null;
     }
     ```
+
 1. Press **F5** to build and run the project.
 
 1. In the browser tab, refresh the URL at **http://localhost:7071/api/Process/4/6**. Since the table row for this record exists, it should return immediately and without error. Since there is no HTTP output, you can see the output in Terminal.
@@ -406,4 +413,3 @@ Often, the service you build might be much more complex than what we have built 
 ## Summary
 
 In this lab, you've learned how to get started building Azure Functions with Visual Studio for Mac.
-

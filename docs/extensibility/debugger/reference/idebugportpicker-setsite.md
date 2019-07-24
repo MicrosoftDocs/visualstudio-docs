@@ -5,11 +5,14 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugPortPicker::SetSite"
 ms.assetid: 7319e187-adfe-4b3f-aec9-521356fb5a8a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPortPicker::SetSite
 Sets the service provider.
@@ -28,10 +31,9 @@ public int SetSite(
 );
 ```
 
-#### Parameters
- `pSP`
-
- [in] Reference to the interface of the service provider.
+## Parameters
+`pSP`\
+[in] Reference to the interface of the service provider.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -39,5 +41,5 @@ public int SetSite(
 ## Remarks
  This method will be called before any other methods are called.
 
-## See Also
+## See also
 - [IDebugPortPicker](../../../extensibility/debugger/reference/idebugportpicker.md)

@@ -85,7 +85,7 @@ You can save the log in compressed, binary format using the **-binaryLogger** (*
 In the following example, a binary log file is created with the name *binarylogfilename*.
 
 ```cmd
-/bl:binarylogfilename.binlog
+-bl:binarylogfilename.binlog
 ```
 
 For more information, see [Command-line reference](../msbuild/msbuild-command-line-reference.md).

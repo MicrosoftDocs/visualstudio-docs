@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "source control [Visual Studio SDK], design decisions"
 ms.assetid: 5f60ec1a-5a74-4362-8293-817a4dd73872
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -22,11 +22,11 @@ The following design decisions should be considered for projects when implementi
 ## Will the project include special files?
  Another important design decision is whether your project structure uses special files. Special files are hidden files that underlie the files that are visible in Solution Explorer and in the check-in and check-out dialog boxes. If you use special files, follow these guidelines:
 
-1.  Do not associate special files with the project root node—that is, with the project file itself. Your project file must be a single file.
+1. Do not associate special files with the project root node—that is, with the project file itself. Your project file must be a single file.
 
-2.  When special files are added, removed, or renamed in a project, the appropriate <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocumentsEvents2> events must be fired with the flag set that indicates the files are special files. These events are called by the environment in response to the project calling the appropriate <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2> methods.
+2. When special files are added, removed, or renamed in a project, the appropriate <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocumentsEvents2> events must be fired with the flag set that indicates the files are special files. These events are called by the environment in response to the project calling the appropriate <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2> methods.
 
-3.  When your project or editor calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> for a file, the special files associated with that file are not automatically checked out. Pass the special files in along with the parent file. The environment will detect the relationship between all files that are passed in and appropriately hide the special files in the check-out UI.
+3. When your project or editor calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> for a file, the special files associated with that file are not automatically checked out. Pass the special files in along with the parent file. The environment will detect the relationship between all files that are passed in and appropriately hide the special files in the check-out UI.
 
 ## See Also
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A>

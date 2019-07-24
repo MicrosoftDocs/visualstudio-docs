@@ -3,8 +3,8 @@ title: "Ngen support in VSIX v3 | Microsoft Docs"
 ms.date: "11/09/2016"
 ms.topic: "conceptual"
 ms.assetid: 1472e884-c74e-4c23-9d4a-6d8bdcac043b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -53,9 +53,10 @@ This will add metadata to the project reference inside of the VSIX project's *.c
     <NgenArchitecture>X86</NgenArchitecture>
     <NgenPriority>2</NgenPriority>
 </ProjectReference>
- ```
+```
 
- >**Note:** You can edit the .csproj file directly, if you prefer.
+> [!NOTE]
+> You can edit the .csproj file directly, if you prefer.
 
 ## Extra information
 

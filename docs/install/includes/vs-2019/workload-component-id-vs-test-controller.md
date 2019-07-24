@@ -6,7 +6,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 02/29/2019
+ms.date: 07/23/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include

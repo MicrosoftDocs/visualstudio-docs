@@ -1,6 +1,6 @@
 ---
 title: Develop data solutions
-description: Learn about different tools for developing data solutions in Visual Studio, including .NET Framework tools, SQL Server Data Tools, Azure Data Lake, Azure HDInsight, and Azure Streaming Analytics.
+description: Learn about different tools for developing data solutions in Visual Studio, including .NET tools, SQL Server Data Tools, Azure Data Lake, Azure HDInsight, and Azure Streaming Analytics.
 layout: LandingPage
 ms.date: 01/01/2018
 author: gewarren
@@ -13,6 +13,8 @@ ms.workload:
 
 Learn how to use data tools in Visual Studio to develop and test data solutions using SQL Server, Azure Data Lake, or Hadoop.
 
+<!-- markdownlint-disable MD033 -->
+
 <ul class="panelContent cardsFTitle">
     <li>
         <a href="/visualstudio/data-tools/visual-studio-data-tools-for-dotnet">
@@ -21,11 +23,11 @@ Learn how to use data tools in Visual Studio to develop and test data solutions 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../data-tools/media/logo_VS.svg" alt="Use Visual Studio and .NET framework tooling to develop your data applications" />
+                            <img src="../data-tools/media/logo_VS.svg" alt="Use Visual Studio and .NET tooling to develop your data applications" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Learn about Visual Studio and the .NET Framework&#39;s tooling and API support for developing data applications</h3>
+                        <h3>Learn about Visual Studio and .NET&#39;s tooling and API support for developing data applications</h3>
                     </div>
                 </div>
             </div>
@@ -117,7 +119,7 @@ Learn how to use data tools in Visual Studio to develop and test data solutions 
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p><Access data in Visual Studio></p>
+                        <p>Access data in Visual Studio</p>
                     </div>
                 </div>
             </div>

@@ -26,7 +26,6 @@ Behind the scenes, multiple tools analyze the XAML in parallel. XAML errors are 
 > [!Note]
 > Not all errors or warnings have a corresponding code. Such errors are usually XAML Designer errors.
 
-
 ## Suppress XAML Designer errors
 
 Open the **Options** dialog by selecting **Tools > Options**, and then select **Text Editor > XAML > Miscellaneous**.

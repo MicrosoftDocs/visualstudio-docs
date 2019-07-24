@@ -1,6 +1,6 @@
 ---
 title: "Error: Unable to Start Debugging on the Web Server | Microsoft Docs"
-ms.date: "05/23/2017"
+ms.date: "05/23/2018"
 ms.topic: "troubleshooting"
 f1_keywords:
   - "vs.debug.error.http"
@@ -98,7 +98,7 @@ Also, if you are using a HOSTS file, make sure it is configured correctly. For e
 
 - If that does not work or you are debugging remotely, follow steps in [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 
-##  <a name="vxtbshttpservererrorsthingstocheck"></a> Check your IIS configuration
+## <a name="vxtbshttpservererrorsthingstocheck"></a> Check your IIS configuration
 
 After taking steps detailed here to resolve the issue, and before trying again to debug, you may also need to reset IIS. You can do that by opening an elevated command prompt and typing `iisreset`.
 

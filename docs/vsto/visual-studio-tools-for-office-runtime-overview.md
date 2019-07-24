@@ -36,7 +36,7 @@ ms.workload:
 
   The runtime can be installed in several different ways. Depending on the configuration of the computer, different runtime components are installed when you install the runtime. For more information, see [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md).
 
-##  <a name="officeextensions"></a> Understand the Office extensions for the .NET Framework
+## <a name="officeextensions"></a> Understand the Office extensions for the .NET Framework
  The Visual Studio 2010 Tools for Office runtime includes Office extensions for the .NET Framework 3.5, the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] and later. Solutions that target each version of the .NET Framework use the appropriate extensions for that version.
 
  These extensions consist of assemblies that your solutions use to automate and extend Office applications. When you create an Office project, Visual Studio automatically adds references to the assemblies that are used for the project type and the target .NET Framework of the project. For more information about the assemblies in the Office extensions, see [Assemblies in the Visual Studio Tools for Office runtime](../vsto/assemblies-in-the-visual-studio-tools-for-office-runtime.md).
@@ -68,7 +68,7 @@ ms.workload:
 
   After you make this change, type information for all of the runtime types used by the project is embedded into the solution assembly when you build the project. This embedded type information, rather than the type information in the referenced assemblies, are used by the solution at runtime.
 
-##  <a name="UnmanagedLoader"></a> Understand the Office solution loader
+## <a name="UnmanagedLoader"></a> Understand the Office solution loader
  The Visual Studio Tools for Office runtime includes several unmanaged DLLs that Office applications use to load the runtime and Office solutions. Although you should never have to work with these DLLs directly, knowing the purposes of these DLLs can help you better understand the architecture of Office solutions.
 
  For information about how these components are used during the load process, see [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md) and [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).

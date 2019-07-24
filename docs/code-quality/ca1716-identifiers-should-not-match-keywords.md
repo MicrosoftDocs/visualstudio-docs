@@ -1,6 +1,6 @@
 ---
 title: "CA1716: Identifiers should not match keywords"
-ms.date: 11/04/2016
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
   - "IdentifiersShouldNotMatchKeywords"
@@ -26,7 +26,9 @@ ms.workload:
 
 ## Cause
 
-A name of a namespace, a type, or a viritual or interface member matches a reserved keyword in a programming language.
+The name of a namespace, type, or virtual or interface member matches a reserved keyword in a programming language.
+
+By default, this rule only looks at externally visible namespaces, types, and members, but this is [configurable](#configurability).
 
 ## Rule description
 
@@ -35,12 +37,10 @@ Identifiers for namespaces, types, and virtual and interface members should not 
 This rule checks against keywords in the following languages:
 
 - Visual Basic
-
 - C#
-
 - C++/CLI
 
-Case-insensitive comparison is used for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] keywords, and case-sensitive comparison is used for the other languages.
+Case-insensitive comparison is used for Visual Basic keywords, and case-sensitive comparison is used for the other languages.
 
 ## How to fix violations
 
@@ -48,4 +48,14 @@ Select a name that does not appear in the list of keywords.
 
 ## When to suppress warnings
 
-You can suppress a warning from this rule if you are convinced that the identifier will not confuse users of the API, and that  the library is usable in all available languages in the .NET Framework.
+You can suppress a warning from this rule if you're convinced that the identifier won't confuse users of the API, and that the library is usable in all available languages in .NET.
+
+## Configurability
+
+If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
+
+```ini
+dotnet_code_quality.ca1716.api_surface = private, internal
+```
+
+You can configure this option for just this rule, for all rules, or for all rules in this category (Naming). For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).

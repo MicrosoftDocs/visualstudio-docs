@@ -30,7 +30,7 @@ ms.workload:
   The Print Preview window enables designers and users to preview the pages of a form or form template before they print them.
 
 > [!NOTE]
->  The **AddIns** tab does not appear in the Print Preview window. If you want a custom tab to appear in the Print Preview window, make sure that the **OfficeId** property of the tab is not set to **TabAddIns**.
+> The **AddIns** tab does not appear in the Print Preview window. If you want a custom tab to appear in the Print Preview window, make sure that the **OfficeId** property of the tab is not set to **TabAddIns**.
 
  You must specify the Ribbon type of each window in which you want your Ribbon to appear.
 

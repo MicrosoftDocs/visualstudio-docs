@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], switching plug-ins"
   - "source control plug-ins, switching"
 ms.assetid: 01370792-b5da-4e46-9ce2-7dd326587141
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -18,9 +18,9 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
 ## Command Menu Access
  The following [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment menu paths are used in the test cases.
 
--   Current source control plug-in: **Tools** -> **Options** -> **Source Control** -> **Plug-in Selection**.
+- Current source control plug-in: **Tools** -> **Options** -> **Source Control** -> **Plug-in Selection**.
 
--   Change source control binding: **File** -> **Source Control** -> **Change Source Control**...
+- Change source control binding: **File** -> **Source Control** -> **Change Source Control**...
 
 ## Common Expected Behavior
  Changing the source control plug-in for a solution is possible without exiting Visual Studio or reloading the solution. In addition, the current source control plug-in automatically changes to the one used by a solution when that solution is loaded.
@@ -33,7 +33,6 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
 #### Expected Behavior
  When a user loads  a solution that is under source control, the solution is automatically loaded and the appropriate source control plug-in is selected as current.
 
-
 | Action | Test Steps | Expected Results to Verify |
 | - | - | - |
 | Automatic source control plug-in change | 1.  Select plug-in under test as current (**Tools** -> **Options** -> **Source Control** -> **Plug-in Selection**.)<br />2.  Create a new project.<br />3.  Add the solution to source control.<br />4.  Select another plug-in (for example, [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)]).<br />5.  Accept unloading solution prompt.<br />6.  Reopen the solution from disk. | Solution is opened.<br /><br /> Plug-in under test is the current source control plug-in. |
@@ -42,7 +41,6 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
 
 #### Expected Behavior
  The solution can have its associated source control plug-in changed.
-
 
 | Action | Test Steps | Expected Results to Verify |
 |----------------------------------| - | - |

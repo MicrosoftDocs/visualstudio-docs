@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "build events, customizing"
 ms.assetid: 69e935a5-e208-4bcd-865c-3e5f9b047ca8
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -18,11 +18,11 @@ By specifying a custom build event, you can automatically run commands before a 
 
  For specific information about the programming language that you're using, see the following topics:
 
--   Visual Basic--[How to: Specify build events (Visual Basic)](../ide/how-to-specify-build-events-visual-basic.md).
+- Visual Basic--[How to: Specify build events (Visual Basic)](../ide/how-to-specify-build-events-visual-basic.md).
 
--   C# and F#--[How to: Specify build events (C#)](../ide/how-to-specify-build-events-csharp.md).
+- C# and F#--[How to: Specify build events (C#)](../ide/how-to-specify-build-events-csharp.md).
 
--   Visual C++--[Specify build events](/cpp/ide/specifying-build-events).
+- Visual C++--[Specify build events](/cpp/build/specifying-build-events).
 
 ## Syntax
 
@@ -47,7 +47,7 @@ Build events follow the same syntax as DOS commands, but you can use macros to c
    Example: `for %I in (*.txt *.doc *.html) do copy %I c:\`*mydirectory*`\`
 
   > [!NOTE]
-  >  `%I` in the code above should be `%%I` in batch scripts.
+  > `%I` in the code above should be `%%I` in batch scripts.
 
 ## See also
 

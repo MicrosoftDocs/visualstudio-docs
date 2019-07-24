@@ -1,6 +1,6 @@
 ---
 title: "Keyboard shortcuts (HTML and JavaScript) | Microsoft Docs"
-ms.date: "11/04/2016"
+ms.date: "03/28/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -16,9 +16,15 @@ ms.workload:
 ---
 # Keyboard shortcuts (HTML and JavaScript)
 
+::: moniker range=">=vs-2019"
+ Keyboard shortcuts in Visual Studio for debugging Node.js apps in Visual Studio with the **Node.js development** workload installed.
+::: moniker-end
+::: moniker range="vs-2017"
  Keyboard shortcuts in Visual Studio for debugging UWP apps using HTML and JavaScript.
+::: moniker-end
 
 ## General shortcuts
+
  These shortcuts work across all tools for UWP apps using HTML and JavaScript.
 
 |Action|Shortcut|
@@ -29,6 +35,7 @@ ms.workload:
 |Open Performance and Diagnostics Hub|Alt+F2|
 
 ## JavaScript Console shortcuts
+
  Use these shortcuts in the JavaScript Console window.
 
 |Action|Shortcut|
@@ -38,6 +45,7 @@ ms.workload:
 |Toggle between single-line and multi-line mode|Ctrl+Alt+M|
 
 ## DOM Explorer shortcuts
+
  Use these shortcuts in the DOM Explorer.
 
 |Action|Shortcut|
@@ -50,5 +58,6 @@ ms.workload:
 |Decrease selected CSS value by 1|Down Arrow|
 
 ## See Also
-- [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)
-- [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md)
+- [JavaScript Console commands](../debugger/javascript-console-commands.md)
+- [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md?view=vs-2017)
+- [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md?view=vs-2017)

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "source control plug-ins, turning off compatibility warnings"
   - "compatibility warnings, turning off"
 ms.assetid: ba318e12-921b-4b7a-a8c2-12c712be1dbf
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -25,7 +25,7 @@ A user may see several compatibility warnings when employing source control in [
 
 ### To disable the warning: "The installed source control provider does not support all the capabilities"
 
--   Set the following two registry values (adding the values if necessary):
+- Set the following two registry values (adding the values if necessary):
 
      **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0\SourceControl\WarnedOldMSSCCIProvider = dword:00000000**
 

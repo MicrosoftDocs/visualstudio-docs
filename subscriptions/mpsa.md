@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 03/14/2018
 ms.topic: conceptual
 description:  Visual Studio Subscriptions in a Microsoft Products and Services Agreement (MPSA)
-searchscope: VS Subscription
 ---
 
 # Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA)
@@ -59,4 +58,4 @@ You may contact support via phone or email if you require assistance or have any
 
 MPSA Support: **1-866-200-9611**,  available Monday-Friday 5:30 AM to 5:30 PM Pacific Time
 
-Email: ngvlsup@microsoft.com
+Online:  https://support.microsoft.com/supportrequestform/2afa6f15-b710-db46-909a-8346017c802f?sl=enampsc=US

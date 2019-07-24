@@ -18,7 +18,6 @@ manager: jillfra
 # Evaluate Statement Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Evaluates and displays the given statement.  
   
 ## Syntax  

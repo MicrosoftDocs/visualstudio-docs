@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "ReplaceSymbols"
   - "IDebugComPlusSymbolProvider::ReplaceSymbols"
 ms.assetid: 82fbc8db-c4b1-432f-bec9-1a9dc09570be
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::ReplaceSymbols
 Replaces the current debug symbols with those in the specified data stream.
@@ -33,18 +36,15 @@ int ReplaceSymbols(
 );
 ```
 
-#### Parameters
-`ulAppDomainID`
+## Parameters
+`ulAppDomainID`\
+[in] Identifier of the application domain.
 
- [in] Identifier of the application domain.
+`guidModule`\
+[in] Unique identifier of the module.
 
-`guidModule`
-
- [in] Unique identifier of the module.
-
-`pStream`
-
- [in] Data stream that contains the new symbols.
+`pStream`\
+[in] Data stream that contains the new symbols.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -75,5 +75,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

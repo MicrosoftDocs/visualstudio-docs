@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
   - "TemplateData element [Visual Studio project templates]"
 ms.assetid: db17ec9b-bfdf-46b1-bbe7-5ccc140056e2
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -53,7 +53,7 @@ Categorizes the template and defines how it displays in either the **New Project
 | [CreateNewFolder](../extensibility/createnewfolder-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies whether a containing folder is created on instantiation of the project. |
 | [DefaultName](../extensibility/defaultname-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies the name that the Visual Studio project system will generate for the project or item when it is created. |
 | [ProvideDefaultName](../extensibility/providedefaultname-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies whether the Visual Studio project system will generate the default name for a project or item when it is created. |
-| [PromptForSaveOnCreation](../extensibility/promptforsaveoncreation-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies whether the project can be created as a temporary project. |
+| [PromptForSaveOnCreation](../extensibility/promptforsaveoncreation-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies whether the project can be created as a temporary project (Visual Studio 2017 only). |
 | [EnableLocationBrowseButton](../extensibility/enablelocationbrowsebutton-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies whether the **Browse** button is available in the **New Project** dialog box, so that users can easily modify the default directory where a new project is saved. |
 | [Hidden](../extensibility/hidden-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies whether the template appears in either the **New Project** or **Add New Item** dialog box. |
 | [NumberOfParentCategoriesToRollUp](../extensibility/numberofparentcategoriestorollup-visual-studio-templates.md) | Optional element.<br /><br /> Specifies the number of parent categories that will display the template in the **New Project** dialog box. |

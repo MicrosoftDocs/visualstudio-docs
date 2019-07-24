@@ -30,7 +30,7 @@ In a project file you can use wildcards to include all the files in one director
 
 #### To include all *.cs* or *.vb* files except *Form2*
 
--   Use one of the following `Include` and `Exclude` attributes:
+- Use one of the following `Include` and `Exclude` attributes:
 
     ```xml
     <CSFile Include="*.cs" Exclude="Form2.cs"/>
@@ -44,7 +44,7 @@ In a project file you can use wildcards to include all the files in one director
 
 #### To include all *.cs* or *.vb* files except *Form2* and *Form3*
 
--   Use one of the following `Include` and `Exclude` attributes:
+- Use one of the following `Include` and `Exclude` attributes:
 
     ```xml
     <CSFile Include="*.cs" Exclude="Form2.cs;Form3.cs"/>
@@ -58,7 +58,7 @@ In a project file you can use wildcards to include all the files in one director
 
 #### To include all *.jpg* files in subdirectories of the *Images* directory except those in the *Version2* directory
 
--   Use the following `Include` and `Exclude` attributes:
+- Use the following `Include` and `Exclude` attributes:
 
     ```xml
     <JPGFile
@@ -67,14 +67,14 @@ In a project file you can use wildcards to include all the files in one director
     ```
 
     > [!NOTE]
-    >  You must specify the path for both attributes. If you use an absolute path to specify file locations in the `Include` attribute, you must also use an absolute path in the `Exclude` attribute; if you use a relative path in the `Include` attribute, you must also use a relative path in the `Exclude` attribute.
+    > You must specify the path for both attributes. If you use an absolute path to specify file locations in the `Include` attribute, you must also use an absolute path in the `Exclude` attribute; if you use a relative path in the `Include` attribute, you must also use a relative path in the `Exclude` attribute.
 
 ## Use conditions to exclude a file or directory from the inputs for a build
  If there are items that you want to include, for example, in a Debug build but not a Release build, you can use the `Condition` attribute to specify the conditions under which to include the item.
 
 #### To include the file *Formula.vb* only in Release builds
 
--   Use a `Condition` attribute similar to the following:
+- Use a `Condition` attribute similar to the following:
 
     ```xml
     <Compile
@@ -94,7 +94,7 @@ In a project file you can use wildcards to include all the files in one director
     </PropertyGroup>
 
     <ItemGroup>
-        <CSFile Include="*.cs Exclude="Form2.cs"/>
+        <CSFile Include="*.cs" Exclude="Form2.cs"/>
 
         <Reference Include="System.dll"/>
         <Reference Include="System.Data.dll"/>

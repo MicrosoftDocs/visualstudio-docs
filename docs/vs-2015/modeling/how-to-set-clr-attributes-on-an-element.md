@@ -21,23 +21,23 @@ Custom attributes are special attributes that can be added to domain elements, s
   
 ### To add a custom attribute  
   
-1.  In the **DSL Explorer**, select the element to which you want to add a custom attribute.  
+1. In the **DSL Explorer**, select the element to which you want to add a custom attribute.  
   
-2.  In the **Properties** window, next to the **Custom Attributes** property, click the Browse (**...**) icon.  
+2. In the **Properties** window, next to the **Custom Attributes** property, click the Browse (**...**) icon.  
   
      The **Edit Attributes** dialog box opens.  
   
-3.  In the **Name** column, click **\<add attribute>** and type the name of your attribute. Press ENTER.  
+3. In the **Name** column, click **\<add attribute>** and type the name of your attribute. Press ENTER.  
   
-4.  The line under the attribute name shows parentheses. On this line type a parameter type for the attribute (for example, `string`), and then press ENTER.  
+4. The line under the attribute name shows parentheses. On this line type a parameter type for the attribute (for example, `string`), and then press ENTER.  
   
-5.  In the **Name Property** column, type an appropriate name, for example, `MyString`.  
+5. In the **Name Property** column, type an appropriate name, for example, `MyString`.  
   
-6.  Click **OK**.  
+6. Click **OK**.  
   
      The **Custom Attributes** property now displays the attribute in the following format:  
   
      `[` *AttributeName* `(` *ParameterName* `=` *Type* `)]`  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

@@ -18,7 +18,6 @@ manager: jillfra
 # Find Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Searches files using a subset of the options available on the **Find in Files** tab of the **Find and Replace** window.  
   
 ## Syntax  

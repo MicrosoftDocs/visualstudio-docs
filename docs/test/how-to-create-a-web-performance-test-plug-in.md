@@ -27,43 +27,35 @@ You can use customized web performance test plug-ins with the web performance te
 
 ## To create a custom web performance test plug-in
 
-1.  Open a web performance and load test project that contains a web performance test.
+1. Open a web performance and load test project that contains a web performance test.
 
-2.  In **Solution Explorer**, right-click on the solution and select **Add** and then choose **New Project**.
+2. In **Solution Explorer**, right-click on the solution and select **Add** and then choose **New Project**.
 
-     The **Add New Project** dialog box is displayed.
+3. Create a new **Class Library** project.
 
-3.  Under **Installed Templates**, select **Visual C#**.
+   The new class library project is added to **Solution Explorer** and the new class appears in the **Code Editor**.
 
-4.  In the list of templates, select **Class Library**.
+4. In **Solution Explorer**, right-click the **References** folder in the new class library and select **Add Reference**.
 
-5.  In the **Name** text box, type a name for your class.
+   The **Add Reference** dialog box is displayed.
 
-6.  Choose **OK**.
+5. Choose the **.NET** tab, scroll down, and select **Microsoft.VisualStudio.QualityTools.WebTestFramework**
 
-7.  The new class library project is added to **Solution Explorer** and the new class appears in the **Code Editor**.
-
-8.  In **Solution Explorer**, right-click the **References** folder in the new class library and select **Add Reference**.
-
-9. The **Add Reference** dialog box is displayed.
-
-10. Choose the **.NET** tab, scroll down, and select **Microsoft.VisualStudio.QualityTools.WebTestFramework**
-
-11. Choose **OK**.
+6. Choose **OK**.
 
      The reference to **Microsoft.VisualStudio.QualityTools.WebTestFramework** is added to the **Reference** folder in **Solution Explorer**.
 
-12. In **Solution Explorer**, right-click on the top node of the web performance and load test project that contains the load test to which you want to add the web performance test plug-in and select **Add Reference**.
+7. In **Solution Explorer**, right-click on the top node of the web performance and load test project that contains the load test to which you want to add the web performance test plug-in and select **Add Reference**.
 
-13. The **Add Reference dialog box is displayed**.
+8. The **Add Reference dialog box is displayed**.
 
-14. Choose the **Projects** tab and select the **Class Library Project**.
+9. Choose the **Projects** tab and select the **Class Library Project**.
 
-15. Choose **OK**.
+10. Choose **OK**.
 
-16. In the **Code Editor**, write the code of your plug-in. First, create a new public class that derives from <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestPlugin>.
+11. In the **Code Editor**, write the code of your plug-in. First, create a new public class that derives from <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestPlugin>.
 
-17. Implement code inside one or more of the event handlers. See the following Example section for a sample implementation.
+12. Implement code inside one or more of the event handlers. See the following Example section for a sample implementation.
 
     - <xref:Microsoft.VisualStudio.TestTools.WebTesting.PostWebTestRecordingEventArgs>
 
@@ -81,22 +73,22 @@ You can use customized web performance test plug-ins with the web performance te
 
     - <xref:Microsoft.VisualStudio.TestTools.WebTesting.PostTransactionEventArgs>
 
-18. After you have written the code, build the new project.
+13. After you have written the code, build the new project.
 
-19. Open a web performance test.
+14. Open a web performance test.
 
-20. To add the web performance test plug-in, choose **Add Web Test Plug-in** on the toolbar.
+15. To add the web performance test plug-in, choose **Add Web Test Plug-in** on the toolbar.
 
      The **Add Web Test Plug-in** dialog box is displayed.
 
-21. Under **Select a plug-in**, select your web performance test plug-in class.
+16. Under **Select a plug-in**, select your web performance test plug-in class.
 
-22. In the **Properties for selected plug-in** pane, set the initial values for the plug-in to use at run time.
+17. In the **Properties for selected plug-in** pane, set the initial values for the plug-in to use at run time.
 
     > [!NOTE]
     > You can expose as many properties as you want from your plug-ins; just make them public, settable, and of a base type such as Integer, Boolean, or String. You can also change the web performance test plug-in properties later by using the Properties window.
 
-23. Choose **OK**.
+18. Choose **OK**.
 
      The plug-in is added to the **Web Test Plug-ins** folder.
 
@@ -107,8 +99,8 @@ You can use customized web performance test plug-ins with the web performance te
     >
     > This is caused if you make code changes to any of your plug-ins and create a new DLL version **(Version=0.0.0.0)**, but the plug-in is still referencing the original plug-in version. To correct this problem, follow these steps:
     >
-    > 1.  In your web performance and load test project, you will see a warning in references. Remove and re-add the reference to your plug-in DLL.
-    > 2.  Remove the plug-in from your test or the appropriate location and then add it back.
+    > 1. In your web performance and load test project, you will see a warning in references. Remove and re-add the reference to your plug-in DLL.
+    > 2. Remove the plug-in from your test or the appropriate location and then add it back.
 
 ## Example
 

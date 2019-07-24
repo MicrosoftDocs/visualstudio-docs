@@ -26,7 +26,7 @@ Visual Studio hosts [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/
 
  This article describes specific aspects of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]'s [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] hosting that should be considered when customizing projects and *.targets* files that you wish to load and build in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. These will help you make sure [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] features like IntelliSense and debugging work for your custom project.
 
- For information about C++ projects, see [Project files](/cpp/ide/project-files).
+ For information about C++ projects, see [Project files](/cpp/build/reference/project-files).
 
 ## Project file name extensions
  *MSBuild.exe* recognizes any project file name extension matching the pattern *.\*proj*. However, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] only recognizes a subset of these project file name extensions, which determine the language-specific project system that will load the project. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] does not have a language-neutral [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] based project system.
@@ -57,7 +57,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ```
 
 > [!NOTE]
->  Some item type names are special to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] but not listed in this dropdown.
+> Some item type names are special to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] but not listed in this dropdown.
 
 ## In-process compilers
  When possible, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will attempt to use the in-process version of the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler for increased performance. (Not applicable to [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)].) For this to work correctly, the following conditions must be met:
@@ -69,13 +69,13 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ## Design-time IntelliSense
  To get IntelliSense support in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] before a build has generated an output assembly, the following conditions must be met:
 
--   There must be a target named `Compile`.
+- There must be a target named `Compile`.
 
--   Either the `Compile` target or one of its dependencies must call the compiler task for the project, such as `Csc` or `Vbc`.
+- Either the `Compile` target or one of its dependencies must call the compiler task for the project, such as `Csc` or `Vbc`.
 
--   Either the `Compile` target or one of its dependencies must cause the compiler to receive all the necessary parameters for IntelliSense, particularly all references.
+- Either the `Compile` target or one of its dependencies must cause the compiler to receive all the necessary parameters for IntelliSense, particularly all references.
 
--   The conditions listed in the [In-process compilers](#in-process-compilers) section must be met.
+- The conditions listed in the [In-process compilers](#in-process-compilers) section must be met.
 
 ## Build solutions
  Within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the solution file and project build ordering are controlled by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] itself. When building a solution with *msbuild.exe* on the command line, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] parses the solution file and orders the project builds. In both cases the projects are built individually in dependency order, and project to project references are not traversed. In contrast, when individual projects are built with *msbuild.exe*, project to project references are traversed.
@@ -120,22 +120,22 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ## Design-time target execution
  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] attempts to execute targets with certain names when it loads a project. These targets include `Compile`, `ResolveAssemblyReferences`, `ResolveCOMReferences`, `GetFrameworkPaths`, and `CopyRunEnvironmentFiles`. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] runs these targets so that the compiler can be initialized to provide IntelliSense, the debugger can be initialized, and references displayed in Solution Explorer can be resolved. If these targets are not present, the project will load and build correctly but the design-time experience in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will not be fully functional.
 
-##  Edit project files in Visual Studio
+## Edit project files in Visual Studio
  To edit an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project directly, you can open the project file in the Visual Studio XML editor.
 
 #### To unload and edit a project file in Visual Studio
 
-1.  In **Solution Explorer**, open the shortcut menu for the project, and then choose **Unload Project**.
+1. In **Solution Explorer**, open the shortcut menu for the project, and then choose **Unload Project**.
 
      The project is marked **(unavailable)**.
 
-2.  In **Solution Explorer**, open the shortcut menu for the unavailable project, and then choose **Edit \<Project File>**.
+2. In **Solution Explorer**, open the shortcut menu for the unavailable project, and then choose **Edit \<Project File>**.
 
      The project file opens in the Visual Studio XML Editor.
 
-3.  Edit, save, and then close the project file.
+3. Edit, save, and then close the project file.
 
-4.  In **Solution Explorer**, open the shortcut menu for the unavailable project, and then choose **Reload Project**.
+4. In **Solution Explorer**, open the shortcut menu for the unavailable project, and then choose **Reload Project**.
 
 ## IntelliSense and validation
  When using the XML editor to edit project files, IntelliSense and validation is driven by the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] schema files. These are installed in the schema cache, which can be found in *\<Visual Studio installation directory>\Xml\Schemas\1033\MSBuild*.
@@ -159,7 +159,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 
   - `OriginalItemSpec`, containing the original item specification of the reference.
 
-  - `ResolvedFrom`, set to "{TargetFrameworkDirectory}" if it was resolved from the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] directory.
+  - `ResolvedFrom`, set to "{TargetFrameworkDirectory}" if it was resolved from the .NET Framework directory.
 
 - COM references:
 

@@ -1,36 +1,40 @@
 ---
 title: "Creating a Windows Forms Toolbox Control | Microsoft Docs"
-ms.date: "11/04/2016"
+ms.date: "3/16/2019"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "winforms"
   - "toolbox"
   - "windows forms"
 ms.assetid: 0be6ffc1-8afd-4d02-9a5d-e27dde05fde6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
 ---
 # Create a Windows Forms Toolbox Control
-The Windows Forms Toolbox Control item template that is included in the Visual Studio Extensibility Tools (VS SDK) lets you create a control that is automatically added to the **Toolbox** when the extension is installed. This topic shows how to use the template to create a simple counter control that you can distribute to other users.
+
+The Windows Forms Toolbox Control item template that is included in the Visual Studio Extensibility Tools (VS SDK), lets you create a **Toolbox** control that is automatically added when the extension is installed. This walkthrough shows how to use the template to create a simple counter control that you can distribute to other users.
 
 ## Prerequisites
+
 Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
-## Create a Windows Forms Toolbox Control
+## Create the Toolbox Control
+
 The Windows Forms Toolbox Control template creates an undefined user control and provides all of the functionality that is required to add the control to the **Toolbox**.
 
 ### Create an extension with a Windows Forms Toolbox Control
 
-1. Create a VSIX project named `MyWinFormsControl`. You can find the VSIX project template in the **New Project** dialog under **Visual C#** > **Extensibility**.
+1. Create a VSIX project named `MyWinFormsControl`. You can find the VSIX project template in the **New Project** dialog, by searching for "vsix".
 
 2. When the project opens, add a **Windows Forms Toolbox Control** item template named `Counter`. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. In the **Add New Item** dialog, go to **Visual C#** > **Extensibility** and select **Windows Forms Toolbox Control**
 
-3. This adds a user control, a `ProvideToolboxControlAttribute`<xref:Microsoft.VisualStudio.Shell.RegistrationAttribute> to place the control in the **Toolbox**, and a **Microsoft.VisualStudio.ToolboxControl** Asset entry in the VSIX manifest for deployment.
+3. This adds a user control, a `ProvideToolboxControlAttribute` <xref:Microsoft.VisualStudio.Shell.RegistrationAttribute> to place the control in the **Toolbox**, and a **Microsoft.VisualStudio.ToolboxControl** Asset entry in the VSIX manifest for deployment.
 
 ### Build a user interface for the control
+
 The `Counter` control requires two child controls: a <xref:System.Windows.Forms.Label> to display the current count, and a <xref:System.Windows.Forms.Button> to reset the count to 0. No other child controls are required because callers will increment the counter programmatically.
 
 #### To build the user interface
@@ -52,6 +56,7 @@ The `Counter` control requires two child controls: a <xref:System.Windows.Forms.
     |`Button1`|**Text**|Reset|
 
 ### Code the user control
+
 The `Counter` control will expose a method to increment the counter, an event to be raised whenever the counter is incremented, a **Reset** button, and three properties to store the current count, the display text, and whether to show or hide the **Reset** button. The `ProvideToolboxControl` attribute determines where in the **Toolbox** the `Counter` control will appear.
 
 #### To code the user control
@@ -140,13 +145,14 @@ The `Counter` control will expose a method to increment the counter, an event to
     ```
 
 ### Test the control
+
  To test a **Toolbox** control, first test it in the development environment and then test it in a compiled application.
 
 #### To test the control
 
-1. Press **F5**.
+1. Press **F5** to **Start Debugging**.
 
-    This builds the project and opens a second Experimental instance of Visual Studio that has the control installed.
+    This command builds the project and opens a second Experimental instance of Visual Studio that has the control installed.
 
 2. In the Experimental instance of Visual Studio, create a **Windows Forms Application** project.
 
@@ -193,16 +199,18 @@ The `Counter` control will expose a method to increment the counter, an event to
 
 16. Click **Test** until the counter reaches **5** closing the message boxes each time.
 
-    The **Reset** button re-appears.
+    The **Reset** button reappears.
 
 17. Click **Reset**.
 
     The counter resets to **0**.
 
 ## Next steps
-When you build a **Toolbox** control, Visual Studio creates a file named *ProjectName.vsix* in the \bin\debug\ folder of your project. You can deploy the control by uploading the *.vsix* file to a network or to a Web site. When a user opens the *.vsix* file, the control is installed and added to the Visual Studio **Toolbox** on the user's computer. Alternatively, you can upload the *.vsix* file to [Visual Studio Marketplace](http://go.microsoft.com/fwlink/?LinkID=123847) so that users can find it by browsing in the **Tools** > **Extension and Updates** dialog.
+
+When you build a **Toolbox** control, Visual Studio creates a file named *ProjectName.vsix* in the \bin\debug\ folder of your project. You can deploy the control by uploading the *.vsix* file to a network or to a Web site. When a user opens the *.vsix* file, the control is installed and added to the Visual Studio **Toolbox** on the user's computer. Alternatively, you can upload the *.vsix* file to [Visual Studio Marketplace](https://marketplace.visualstudio.com/) so that users can find it by browsing in the **Tools** > **Extensions and Updates** dialog.
 
 ## See also
+
 - [Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
 - [Create a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)
 - [Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)

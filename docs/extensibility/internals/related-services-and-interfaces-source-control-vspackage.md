@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "source control packages, interfaces"
   - "interfaces, source control packages"
 ms.assetid: 3e96e838-5675-46bb-99cf-40d420086038
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -24,11 +24,11 @@ This section lists all the source control VSPackage-related interfaces in the [!
 
  Interfaces are:
 
--   Required: The appropriate entity (source control VSPackage, Source Control Stub, project) must implement the interface.
+- Required: The appropriate entity (source control VSPackage, Source Control Stub, project) must implement the interface.
 
--   Recommended: The entity should implement this interface; otherwise, source control functionality may be limited.
+- Recommended: The entity should implement this interface; otherwise, source control functionality may be limited.
 
--   Optional: the entity can implement this interface to provide a richer feature set.
+- Optional: the entity can implement this interface to provide a richer feature set.
 
 | Interface | Purpose | Implemented by | Implement? |
 | - | - |--------------------------|-------------|

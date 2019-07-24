@@ -30,7 +30,7 @@ A [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] T4 text template usually starts w
  `compilerOptions="optimize+"`  
   
  Valid values:  
- Any valid compiler options. For more information, see [C# Compiler Options Listed by Category](http://msdn.microsoft.com/library/96437ecc-6502-4cd3-b070-e9386a298e83) and [Visual Basic Compiler Options Listed by Category](http://msdn.microsoft.com/library/fbe36f7a-7cfa-4f77-a8d4-2be5958568e3).  
+ Any valid compiler options. For more information, see [C# Compiler Options Listed by Category](https://msdn.microsoft.com/library/96437ecc-6502-4cd3-b070-e9386a298e83) and [Visual Basic Compiler Options Listed by Category](https://msdn.microsoft.com/library/fbe36f7a-7cfa-4f77-a8d4-2be5958568e3).  
   
  Ignored for run-time (preprocessed) templates.  
   
@@ -49,7 +49,8 @@ A [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] T4 text template usually starts w
   
 ## debug attribute  
  Example:  
- ```  
+
+```  
 debug="true"  
 ```  
   
@@ -64,7 +65,8 @@ debug="true"
   
 ## hostspecific attribute  
  Example:  
- ```  
+
+```  
 hostspecific="true"  
 ```  
   
@@ -138,7 +140,8 @@ Squares of numbers:
  More typically, you specify another preprocessed template as the base class. The base template provides common blocks of text, which can be interleaved with text from the derived templates. You can use class feature blocks `<#+ ... #>` to define methods that contain text fragments. For example, you can place the framework of the output text in the base template, providing virtual methods that can be overridden in derived templates:  
   
  Run-time (preprocessed) text template BaseTemplate.tt:  
- ```scr  
+
+```scr  
 This is the common header.  
 <#   
   SpecificFragment1();   
@@ -157,7 +160,8 @@ This is the common footer.
 ```  
   
  Run-time (preprocessed) text template DerivedTemplate1.tt:  
- ```csharp  
+
+```csharp  
 <#@ template language="C#" inherits="BaseTemplate" #>  
 <#   
   // Run the base template:  
@@ -182,12 +186,14 @@ protected override void SpecificFragment2()
 ```  
   
  Application code to invoke DerivedTemplate1:  
- ```csharp  
+
+```csharp  
 Console.WriteLine(new DerivedTemplate().TransformText());  
 ```  
   
  Resulting output:  
- ```  
+
+```  
 This is the common header.  
    Fragment 1 for DerivedTemplate1  
 A common central text.  
@@ -200,7 +206,7 @@ This is the common footer.
  You can also use an ordinary hand-written class as the base class. The base class must provide the methods used by the derived class.  
   
 > [!WARNING]
->  If you use the `inherits` and `hostspecific` attributes together, specify hostspecific="trueFromBase" in the derived class and host="true" in the base class. This avoids a double definition of the `Host` property in the generated code.  
+> If you use the `inherits` and `hostspecific` attributes together, specify hostspecific="trueFromBase" in the derived class and host="true" in the base class. This avoids a double definition of the `Host` property in the generated code.  
   
 ### Inheritance in a design-time text template  
  A design-time text template is a file for which **Custom Tool** is set to **TextTemplatingFileGenerator**. The template generates an output file of code or text, which forms part of your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project. To generate the output file, the template is first translated into an intermediate program code file, which you do not usually see. The `inherits` attribute specifies the base class for this intermediate code.  

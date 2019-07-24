@@ -65,10 +65,10 @@ ms.workload:
  You should never pass arguments retrieved through a query string to a database or to the command line without checking the arguments to make sure that they are safe. Unsafe arguments are ones that include database or command line escape characters that could allow a malicious user to manipulate your application into executing arbitrary commands.
 
 > [!NOTE]
->  Query-string arguments are the only way to pass arguments to a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application at startup. You cannot pass arguments to a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application from the command line.
+> Query-string arguments are the only way to pass arguments to a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application at startup. You cannot pass arguments to a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application from the command line.
 
 ## Deploying obfuscated assemblies
- Visual Studio includes the free [PreEmptive Protection - Dotfuscator Community Edition](../ide/dotfuscator/index.md), which you can use to protect your ClickOnce applications through code obfuscation and active protection measures.  For details, please see [the ClickOnce section of the Dotfuscator Community Edition User Guide](https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/advanced_clickonce.html).
+ Visual Studio includes the free [PreEmptive Protection - Dotfuscator Community](../ide/dotfuscator/index.md), which you can use to protect your ClickOnce applications through code obfuscation and active protection measures.  For details, please see [the ClickOnce section of the Dotfuscator Community User Guide](https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/advanced_clickonce.html).
 
 ## See also
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)

@@ -2,7 +2,7 @@
 title: "Tips and tricks in the debugger"
 description: Learn about some of the lesser-known features supported by the Visual Studio debugger
 ms.custom: "seodec18"
-ms.date: "06/15/2017"
+ms.date: "06/15/2018"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "stepping"
@@ -47,6 +47,10 @@ If it is difficult or time-consuming to recreate a particular state in your app,
 
 3. If you are interested in another type of condition, select **Filter** instead of **Conditional expression** in the **Breakpoint Settings** dialog box, and then follow the filter tips.
 
+## Configure the data to show in the debugger
+
+For C#, Visual Basic, and C++ (C++/CLI code only), you can tell the debugger what information to show using the [DebuggerDisplay](../debugger/using-the-debuggerdisplay-attribute.md) attribute. For C++ code, you can do the same using [Natvis visualizations](create-custom-views-of-native-objects.md).
+
 ## Change the execution flow
 
 With the debugger paused on a line of code, use the mouse to grab the yellow arrow pointer on the left. Move the yellow arrow pointer to a different point in the code execution path. Then you use F5 or a step command to continue running the app.
@@ -64,17 +68,17 @@ It's easy to view variables using debugger windows like the **Watch** window. Ho
 
 #### To create an object ID
 
-1.  Set a breakpoint near a variable that you want to track.
+1. Set a breakpoint near a variable that you want to track.
 
-2.  Start the debugger (**F5**) and stop at the breakpoint.
+2. Start the debugger (**F5**) and stop at the breakpoint.
 
 3. Find the variable in the **Locals** window (**Debug > Windows > Locals**), right-click the variable, and select **Make Object ID**.
 
     ![Create an Object ID](../debugger/media/dbg-tips-watch-create-object-id.png "CreateObjectID")
 
-4.  You should see a **$** plus a number in the **Locals** window. This variable is the object ID.
+4. You should see a **$** plus a number in the **Locals** window. This variable is the object ID.
 
-5.  Right-click the object ID variable and choose **Add Watch**.
+5. Right-click the object ID variable and choose **Add Watch**.
 
 For more information, see [Create an Object ID](../debugger/watch-and-quickwatch-windows.md#bkmk_objectIds).
 
@@ -100,7 +104,7 @@ A string visualizer may help you find out whether a string is malformed, dependi
 
 ![JSON String Visualizer](../debugger/media/dbg-tips-string-visualizer-json.png "JSONStringVisualizer")
 
-For a few other types such as WPF objects that appear in the debugger windows, you can also open visualizers.
+For a few other types such as DataSet and DataTable objects that appear in the debugger windows, you can also open a built-in visualizer.
 
 ## Break into code on handled exceptions
 
@@ -116,13 +120,13 @@ If you need to debug the kinds of issues that are common to multithreaded apps, 
 
 #### To show threads in your source code
 
-1.  While debugging, click the **Show Threads in Source** button ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker") in the **Debug** toolbar.
+1. While debugging, click the **Show Threads in Source** button ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker") in the **Debug** toolbar.
 
-2.  Look at the gutter on the left side of the window. On this line, you see a *thread marker* icon  ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker") that resembles two cloth threads. The thread marker indicates that a thread is stopped at this location.
+2. Look at the gutter on the left side of the window. On this line, you see a *thread marker* icon  ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker") that resembles two cloth threads. The thread marker indicates that a thread is stopped at this location.
 
     Notice that a thread marker may be partially concealed by a breakpoint.
 
-3.  Hover the pointer over the thread marker. A DataTip appears. The DataTip tells you the name and thread ID number for each stopped thread.
+3. Hover the pointer over the thread marker. A DataTip appears. The DataTip tells you the name and thread ID number for each stopped thread.
 
     You can also view the location of threads in the [Parallel Stacks window](../debugger/get-started-debugging-multithreaded-apps.md).
 
@@ -159,5 +163,6 @@ For additional tips and tricks and more detailed information, see these blog pos
 - [7 lesser known hacks for debugging in Visual Studio](https://devblogs.microsoft.com/visualstudio/7-lesser-known-hacks-for-debugging-in-visual-studio/)
 - [7 hidden gems in Visual Studio](https://devblogs.microsoft.com/visualstudio/7-hidden-gems-in-visual-studio-2017/)
 
-## See Also
-[Keyboard Shortcuts](../ide/tips-and-tricks-for-visual-studio.md)
+## See also
+
+[Keyboard Shortcuts](../ide/productivity-shortcuts.md)

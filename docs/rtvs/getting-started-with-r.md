@@ -16,7 +16,7 @@ Once you have R Tools for Visual Studio (RTVS) installed (see [Installation](ins
 
 ## Create an R project
 
-1. Start Visual Studio.
+1. Open Visual Studio.
 1. Choose **File** > **New** > **Project** (**Ctrl**+**Shift**+**N**)
 1. Select "R Project" from under **Templates** > **R**, give the project a name and location, and select **OK**:
 

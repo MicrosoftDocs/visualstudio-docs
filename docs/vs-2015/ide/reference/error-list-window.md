@@ -20,9 +20,8 @@ manager: jillfra
 # Error List Window
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 NOTE]
->  The Error List displays information about a specific error message. You can copy the error number or error string text from the Output window. To display the Output window, press Ctrl+Alt+O. See [Output Window](../../ide/reference/output-window.md).  
+> The Error List displays information about a specific error message. You can copy the error number or error string text from the Output window. To display the Output window, press Ctrl+Alt+O. See [Output Window](../../ide/reference/output-window.md).  
   
  You can develop apps faster by using the **Error List** window. For example, you can perform the following tasks:  
   
@@ -45,7 +44,7 @@ NOTE]
   To sort the list, click any column header. To sort again by an additional column, hold down the SHIFT key and click another column header. To select which columns are displayed and which are hidden, choose **Show Columns** from the shortcut menu. To change the order in which columns are displayed, drag any column header to the left or right.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described here, depending on your active settings or edition. To change your settings, click **Tools / Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described here, depending on your active settings or edition. To change your settings, click **Tools / Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Error List Filters  
  There are two types of filter in two dropdown boxes, one on the right side of the toolbar and one to the left of the toolbar. The dropdown list on the left side of the toolbar specifies the set of code files to use (**Entire Solution**, **Open Documents**, **Current Project**, **Current Document**).  
@@ -57,7 +56,7 @@ NOTE]
 2. **Current Project**: Show errors, warnings, and messages from the project of the currently selected document in the **Editor** or the selected project in **Solution Explorer**.  
   
    > [!NOTE]
-   >  The filtered list of errors, warnings, and messages will change if the project of the currently selected document is different from the project selected in **Solution Explorer**.  
+   > The filtered list of errors, warnings, and messages will change if the project of the currently selected document is different from the project selected in **Solution Explorer**.  
   
 3. **Current Document**: Show errors, warnings, and messages for the currently selected document in the **Editor** or **Solution Explorer**.  
   

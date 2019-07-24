@@ -2,15 +2,15 @@
 title: "Learn to debug C++ using the Visual Studio debugger"
 description: "Learn how to start the Visual Studio debugger, step through code, and inspect data."
 ms.custom: "debug-experiment"
-ms.date: "08/01/2018"
-ms.topic: "tutorial"
+ms.date: 08/01/2018
+ms.topic: tutorial
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "debugger"
 ms.assetid: 62734c0d-a75a-4576-8f73-0e97c19280e1
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -29,25 +29,37 @@ In this tutorial, you will:
 
 ## Prerequisites
 
-* You must have Visual Studio 2017 installed and the **Desktop development with C++** workload.
+::: moniker range=">=vs-2019"
 
-    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+You must have Visual Studio 2019 installed and the **Desktop development with C++** workload.
 
-    If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
+::: moniker-end
+::: moniker range="vs-2017"
+
+You must have Visual Studio 2017 installed and the **Desktop development with C++** workload.
+
+::: moniker-end
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+
+If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
 
 ## Create a project
 
-1. In Visual Studio, choose **File > New Project**.
+1. Open Visual Studio.
 
-2. Under **Visual C++**, choose **Windows Desktop**, and then in the middle pane choose **Windows Console Application**.
+    ::: moniker range=">=vs-2019"
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **c++**, choose **Templates**, then choose **Create new Console App project**. In the dialog box that appears, type a name like **get-started-debugging**, and then choose **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C++**, choose **Windows Desktop**, and then in the middle pane choose **Windows Console Application**. Then, type a name like **MyDbgApp** and click **OK**.
+    ::: moniker-end
 
-    If you don't see the **Windows Console Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
-
-3. Type a name like **get-started-debugging** and click **OK**.
+    If you don't see the **Windows Console Application** project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
 
     Visual Studio creates the project.
 
-4. In *get-started-debugging.cpp*, replace the following code
+1. In *get-started-debugging.cpp*, replace the following code
 
     ```c++
     int main()
@@ -212,7 +224,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
      ![Use the Run to Click feature](../debugger/media/get-started-run-to-click-cpp.png "Run to Click")
 
    > [!NOTE]
-   > The **Run to Click** button is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]. If you don't see the green arrow button, use **F11** in this example instead to advance the debugger to the right place.
+   > The **Run to Click** button is available starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]. If you don't see the green arrow button, use **F11** in this example instead to advance the debugger to the right place.
 
 2. Click the **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick").
 

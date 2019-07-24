@@ -1,5 +1,5 @@
 ---
-title: "Collecting Detailed Timing Data for a Stand-Alone Application by Using the Profiler Command Line | Microsoft Docs"
+title: "Profiler command line: Timing data detail for stand-alone app"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

@@ -34,7 +34,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |[Learn about Universal Windows apps in Visual Studio](https://visualstudio.microsoft.com/vs/universal-windows-platform/) (VisualStudio.com)|
 |[Learn about the similarities between Swift and C#](https://aka.ms/scposter) (download.microsoft.com)|
 
-###  <a name="AndroidHTML"></a> Target Android, iOS, and Windows from a single code base
+### <a name="AndroidHTML"></a> Target Android, iOS, and Windows from a single code base
 
  You can build native apps for Android,  iOS, and Windows by using C# or F# (Visual Basic is not supported at this time).  To get started, install Visual Studio 2017, select the **Mobile Development with .NET** option in the installer.
 
@@ -50,7 +50,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
  Depending on the complexity of your apps design, you might consider building it by using *Xamarin.Forms* templates in the **Mobile Apps** group of project templates. Xamarin.Forms is a UI toolkit that lets you create a single interface that you can share across Android, iOS, and Windows.  When you compile a Xamarin.Forms solution, you'll get an Android app, an iOS app, and a Windows app. For more details, see [Learn about mobile development with Xamarin](/xamarin/cross-platform/get-started/introduction-to-mobile-development/) and the [Xamarin.Forms documentation](/xamarin/xamarin-forms/).
 
-####  <a name="ShareHTML"></a> Share code between Android, iOS, and Windows apps
+#### <a name="ShareHTML"></a> Share code between Android, iOS, and Windows apps
 
  If you're not using Xamarin.Forms and choose to design for each platform individually, you can share most of your non-UI code between platform projects (Android, iOS, and Windows). This includes any business logic, cloud integration, database access, or any other code that targets the .NET Framework. The only code that you can't share is code that targets a specific platform.
 
@@ -63,7 +63,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |[Sharing Code Options](/xamarin/cross-platform/app-fundamentals/code-sharing/) (Xamarin) |
 |[Code sharing options with .NET](/dotnet/standard/cross-platform/) |
 
-###  <a name="WindowsHTML"></a> Target Windows 10 devices
+### <a name="WindowsHTML"></a> Target Windows 10 devices
 
  ![Windows Devices](../cross-platform/media/windowsdevices.png "Windows Devices")
 
@@ -78,7 +78,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |[Develop apps for the Universal Windows Platform (UWP)](../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md)|
 |[Migrate apps to the Universal Windows Platform (UWP)](https://msdn.microsoft.com/library/mt148501.aspx)|
 
-##  <a name="HTML"></a> Build an app for Android, iOS, and Windows (HTML/JavaScript)
+## <a name="HTML"></a> Build an app for Android, iOS, and Windows (HTML/JavaScript)
 
  ![Windows, iOS, and Android devices](../cross-platform/media/homedevices.png "Windows, iOS, and Android devices")
 
@@ -90,7 +90,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
  ![Multi-device hybrid apps with Javascript](../cross-platform/media/multidevicehybridapps.png "Multi-device hybrid apps with Javascript")
 
- To get started, install Visual Studio 2017 and choose the **Mobile Development with Javascript** feature during setup. The Cordova tools automatically install all third-party software that's required to build your multi-platform app.
+ To get started, install Visual Studio and choose the **Mobile Development with Javascript** feature during setup. The Cordova tools automatically install all third-party software that's required to build your multi-platform app.
 
  After you've installed the extension, open Visual Studio and create a **Blank App (Apache Cordova)** project. Then, you can develop your app by using JavaScript or Typescript. You can also add plug-ins to extend the functionality of your app, and APIs from plug-ins appear in IntelliSense as you write code.
 

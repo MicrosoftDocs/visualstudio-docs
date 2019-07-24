@@ -50,12 +50,12 @@ With the [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] debugger, yo
      `src=https://codepremium.msdn.microsoft.com/source/Visual%20Studio%202010/SP1/`  
   
    > [!NOTE]
-   >  Be sure to include the trailing slash<strong>/</strong> at the end of the path.  
+   > Be sure to include the trailing slash<strong>/</strong> at the end of the path.  
   
      Move these locations to the top of the list to ensure that these symbols are loaded first.  
   
    > [!NOTE]
-   >  These Code Center Premium locations must be listed first so that they are the first locations that are loaded. In Visual Studio 2010, you cannot move any servers above the **Microsoft Symbol Servers** entry, which is why you must clear the check box.  
+   > These Code Center Premium locations must be listed first so that they are the first locations that are loaded. In Visual Studio 2010, you cannot move any servers above the **Microsoft Symbol Servers** entry, which is why you must clear the check box.  
    > 
    >  To load symbols from the Microsoft symbols during a debug session, do this:  
    > 
@@ -72,21 +72,21 @@ With the [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] debugger, yo
   
 ### To debug your source code using Attach to Process  
   
-1.  Connect your SmartCard reader and insert the card you obtained from the Shared Source Initiative.  
+1. Connect your SmartCard reader and insert the card you obtained from the Shared Source Initiative.  
   
-2.  Launch Visual Studio.  
+2. Launch Visual Studio.  
   
-3.  Open your Visual Studio project.  
+3. Open your Visual Studio project.  
   
-4.  On the **Tools** menu, click **Attach to Process**.  
+4. On the **Tools** menu, click **Attach to Process**.  
   
-5.  In the **Attach to Process** dialog box, click **Select**.  
+5. In the **Attach to Process** dialog box, click **Select**.  
   
-6.  In the **Select Code Type** dialog box, under **Detect these code types**, select **Native**, **Managed**, and **Managed(v4.0)**.  
+6. In the **Select Code Type** dialog box, under **Detect these code types**, select **Native**, **Managed**, and **Managed(v4.0)**.  
   
-7.  Click **OK** to dismiss the **Select Code Type** dialog box.  
+7. Click **OK** to dismiss the **Select Code Type** dialog box.  
   
-8.  In the **Available Processes** box, select the process you want to debug.  
+8. In the **Available Processes** box, select the process you want to debug.  
   
 9. Click **Attach**.  
   
@@ -107,33 +107,33 @@ With the [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] debugger, yo
     `https://codepremium.msdn.microsoft.com/source/Visual%20Studio%202010/SP1/`  
   
    > [!NOTE]
-   >  Be sure to include the trailing slash<strong>/</strong> at the end of the path.  
+   > Be sure to include the trailing slash<strong>/</strong> at the end of the path.  
   
 4. For each managed project in your solution, do the following  
   
-   1.  In Solution Explorer, open the shortcut menu for the project and then choose **Properties**.  
+   1. In Solution Explorer, open the shortcut menu for the project and then choose **Properties**.  
   
-   2.  Select **Debug** and then choose **Enable unmanged code debugging**.  
+   2. Select **Debug** and then choose **Enable unmanged code debugging**.  
   
 ### To debug your solution with Code Center Premium source  
   
-1.  In your `Package` class, set a breakpoint on the package constructor.  
+1. In your `Package` class, set a breakpoint on the package constructor.  
   
-2.  In the `Debug` menu, click **Start Debugging**.  
+2. In the `Debug` menu, click **Start Debugging**.  
   
-3.  When you hit the breakpoint in the package constructor, go to the **Call Stack** window and right-click the stack frame of the assembly you want to load symbols from, then click **Load Symbols**.  
+3. When you hit the breakpoint in the package constructor, go to the **Call Stack** window and right-click the stack frame of the assembly you want to load symbols from, then click **Load Symbols**.  
   
      Double-click the call frame to load the source.  
   
 ### To browse source code on Code Center Premium  
   
-1.  Connect your SmartCard reader and insert the card you obtained from the Shared Source Initiative.  
+1. Connect your SmartCard reader and insert the card you obtained from the Shared Source Initiative.  
   
-2.  Launch Internet Explorer enter the following URL: `https://codepremium.msdn.microsoft.com`  
+2. Launch Internet Explorer enter the following URL: `https://codepremium.msdn.microsoft.com`  
   
-3.  Browse to find the source you want.  
+3. Browse to find the source you want.  
   
 ## See Also  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Debugger Security](../debugger/debugger-security.md)   
- [Code Center Premium](http://www.microsoft.com/resources/sharedsource/ccp.mspx)
+ [Code Center Premium](https://www.microsoft.com/en-us/sharedsource/code-center-premium.aspx)

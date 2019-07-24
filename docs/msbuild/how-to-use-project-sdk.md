@@ -50,7 +50,15 @@ During evaluation of the project, [!INCLUDE[vstecmsbuild](../extensibility/inter
     </Project>
     ```
 
-    An implicit import is added to the top and bottom of the project as discussed above.  The format of the `Sdk` attribute is `Name[/Version]` where Version is optional.  For example, you can specify `My.Custom.Sdk/1.2.3`.
+    An implicit import is added to the top and bottom of the project as discussed above.
+    
+    To specify a specific version of the SDK you may append it to the `Sdk` attribute:
+
+    ```xml
+    <Project Sdk="My.Custom.Sdk/1.2.3">
+        ...
+    </Project>
+    ```
 
     > [!NOTE]
     > This is currently the only supported way to reference a project SDK in Visual Studio for Mac.

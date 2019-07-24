@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPortSupplier3::EnumPersistedPorts"
 ms.assetid: 1c3dead3-5d6c-4067-8418-4015f0b0dd07
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPortSupplier3::EnumPersistedPorts
 This method retrieves an object that allows enumeration of the list of persisted ports.
@@ -32,14 +35,12 @@ int EnumPersistedPorts(
 );
 ```
 
-#### Parameters
- `PortNames`
+## Parameters
+`PortNames`\
+[in] A [BSTR_ARRAY](../../../extensibility/debugger/reference/bstr-array.md) structure that contains a list of port names to find and return among the persisted ports. Only those persisted ports with these names will be returned.
 
- [in] A [BSTR_ARRAY](../../../extensibility/debugger/reference/bstr-array.md) structure that contains a list of port names to find and return among the persisted ports. Only those persisted ports with these names will be returned.
-
- `ppEnum`
-
- [out] An object that implements the [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md) interface.
+`ppEnum`\
+[out] An object that implements the [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md) interface.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -47,7 +48,7 @@ int EnumPersistedPorts(
 ## Remarks
  Persisted ports are loaded when a port supplier is instantiated, and saved when the port supplier is destroyed.
 
-## See Also
+## See also
 - [IDebugPortSupplier3](../../../extensibility/debugger/reference/idebugportsupplier3.md)
 - [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md)
 - [BSTR_ARRAY](../../../extensibility/debugger/reference/bstr-array.md)

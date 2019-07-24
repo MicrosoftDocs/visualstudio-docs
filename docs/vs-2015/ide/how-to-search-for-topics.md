@@ -17,24 +17,24 @@ You can use the full-text search feature to locate all topics that contain a par
   
 ### To open the Search tab  
   
--   Choose the **Search** tab in the Help Viewer window, or choose the Ctrl + E keys.  
+- Choose the **Search** tab in the Help Viewer window, or choose the Ctrl + E keys.  
   
 ### To perform a full-text search  
   
-1.  In the search box, type the word that you want to find.  
+1. In the search box, type the word that you want to find.  
   
-2.  In the search query, specify which logical or advanced search operators to apply to the search, if any. To search all available Help, don't use operators.  
+2. In the search query, specify which logical or advanced search operators to apply to the search, if any. To search all available Help, don't use operators.  
   
     > [!NOTE]
-    >  In the **Viewer Options** dialog box, you can specify additional preferences such as the maximum number of search results to display at a time and whether to include English content if your primary locale is not English.  
+    > In the **Viewer Options** dialog box, you can specify additional preferences such as the maximum number of search results to display at a time and whether to include English content if your primary locale is not English.  
   
-3.  Choose the Enter key.  
+3. Choose the Enter key.  
   
      A search returns a maximum of 200 hits, by default, and displays them in the search results area.  
   
      Additional version information for each result may appear depending on the content.  
   
-4.  To view a topic, choose its title from the results list.  
+4. To view a topic, choose its title from the results list.  
   
 ## See Also  
  [Full-Text Search Tips](../ide/full-text-search-tips.md)   

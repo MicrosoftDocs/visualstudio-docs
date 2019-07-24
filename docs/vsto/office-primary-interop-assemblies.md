@@ -52,15 +52,15 @@ When you install Visual Studio, the PIAs are automatically installed to a locati
 
 These copies of the PIAs help Visual Studio avoid several development issues that can occur when different versions of the PIAs are registered in the global assembly cache.
 
-Visual Studio installs these copies of PIAs to the following locations on the development computer:
+Starting with Visual Studio 2017, these copies of the PIAs are installed to following shared locations on the development computer:
 
-- *%ProgramFiles%\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office14*
+- *%ProgramFiles%\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\*
 
-  (or *%ProgramFiles(x86)%\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office14* on 64-bit operating systems)
+- (or *%ProgramFiles(x86)%\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\* on 64-bit operating systems)
 
-- *%ProgramFiles%\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office15*
-
-  (or *%ProgramFiles(x86)%\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office15* on 64-bit operating systems)
+> [!NOTE]
+> For older versions of Visual Studio, these PIAs will be installed to the Visual Studio Tools for Office\PIA folder under the *%ProgramFiles% folder for that version of Visual Studio.  
+> For Example: *%ProgramFiles(x86)%\Microsoft Visual Studio 14.0\Visual Studio Tools for Office\PIA\*
 
 ### Primary interop assemblies in the global assembly cache
 
@@ -74,18 +74,18 @@ The Office PIAs are not required on end-user computers to run Office solutions. 
 
 Every Office project template in Visual Studio is designed to work with a single Microsoft Office application. To use features in multiple Microsoft Office applications, or to use features in an application or component that does not have a project in Visual Studio, you must add a reference to the required PIAs.
 
-In most cases, you should add references to the PIAs that are installed by Visual Studio under the `%ProgramFiles%\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\` directory. These versions of the assemblies appear on the **Framework** tab of the **Reference Manager** dialog box. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md).
+In most cases, you should add references to the PIAs that are installed by Visual Studio under the `%ProgramFiles(x86)%\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\` directory. These versions of the assemblies appear on the **Framework** tab of the **Reference Manager** dialog box. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md).
 
 If you have installed and registered the PIAs in the global assembly cache, these versions of the assemblies appear on the **COM** tab of the **Reference Manager** dialog box. You should avoid adding references to these versions of the assemblies, because there are some development issues that can occur when you use them. For example, if you have registered different versions of the PIAs in the global assembly cache, your project will automatically bind to the version of the assembly that was registered last—even if you specify a different version of the assembly on the **COM** tab of the **Reference Manager** dialog box.
 
 > [!NOTE]
->  Some assemblies are added to a project automatically when an assembly that references them is added. For example, references to the *Office.dll* and *Microsoft.Vbe.Interop.dll* assemblies are added automatically when you add a reference to the Word, Excel, Outlook, Microsoft Forms, or Graph assemblies.
+> Some assemblies are added to a project automatically when an assembly that references them is added. For example, references to the *Office.dll* and *Microsoft.Vbe.Interop.dll* assemblies are added automatically when you add a reference to the Word, Excel, Outlook, Microsoft Forms, or Graph assemblies.
 
 <a name="pialist"></a>
 
 ## Primary interop assemblies for Microsoft Office applications
 
-The following table lists the primary interop assemblies that are available for [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] and [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)].
+The following table lists the primary interop assemblies that are available for [!INCLUDE[Office_16_short](../vsto/includes/office-16-short-md.md)], [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] and [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)].
 
 <br/>
 

@@ -1,9 +1,18 @@
 ## Prerequisites
 
-* [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) installed with the appropriate workloads for your language of choice:
+::: moniker range=">=vs-2019"
+
+* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) installed with the appropriate workloads for your language of choice:
   * ASP.NET: **ASP.NET and web development**
   * Python: **Python development**
   * Node.js: **Node.js development**
+::: moniker-end
+::: moniker range="vs-2017"
+* [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) installed with the appropriate workloads for your language of choice:
+  * ASP.NET: **ASP.NET and web development**
+  * Python: **Python development**
+  * Node.js: **Node.js development**
+::: moniker-end
 
 * An ASP.NET, ASP.NET Core, Python, or Node.js project. If you don't already have a project, select an option below:
   * ASP.NET Core: Follow [Quickstart: Use Visual Studio to create your first ASP.NET Core web app](../../ide/quickstart-aspnet-core.md), or use **File** > **New Project**, select **Visual C#** > **.NET Core**, then select **ASP.NET Core Web Application**. When prompted, select the **Web Application (Model-View-Controller)** template, make sure that **No Authentication** is selected, and then select **OK**.
