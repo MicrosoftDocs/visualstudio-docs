@@ -1,6 +1,7 @@
 ---
 title: Options, Text Editor, JavaScript, Formatting
 ms.date: 10/29/2018
+ms.technology: vs-javascript
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Formatting.Spacing"
@@ -10,8 +11,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Formatting.General"
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Formatting.New_Lines"
 ms.assetid: 28a0aef1-9353-4d94-95a5-54b42e15c0dc
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"

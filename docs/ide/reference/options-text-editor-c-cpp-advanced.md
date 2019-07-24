@@ -11,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 67c82ae5-fddd-49df-baec-8e7498b156f3
 author: mikeblome
 ms.author: mblome
-manager: wpickett
+manager: markl
 ms.workload:
   - "cplusplus"
 ---
