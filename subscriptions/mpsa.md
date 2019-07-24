@@ -15,7 +15,7 @@ MPSA customers now manage assets purchased through MPSA in a new portal called t
 
 In addition, the Visual Studio subscriptions [Administration Portal](https://manage.visualstudio.com/) is where the subscriptions will be assigned to subscribers once you become a Visual Studio subscriptions administrator. In MPSA, Visual Studio subscriptions must be provisioned to their respective management portal, which is the Visual Studio Subscriptions Administration Portal. To do that, you need to associate your Purchasing Account to a tenant (i.e. contoso.onmicrosoft.com).
 
-Please note that there are two types of tenants - a managed tenant and an unmanaged tenant. A managed tenant refers to a tenant that is already being managed by administrators within the organization.
+Please note that there are two types of tenants - managed tenants and unmanaged tenants. A managed tenant refers to a tenant that is already being managed by administrators within the organization.
 
 An unmanaged tenant is a tenant without any administrators assigned and is not usable for Online Services such as Office 365. Unmanaged tenants are also created when registering to the Business Center with an email that is not a work account. If you were asked to create a password when registering to the Business Center, this means your email was not a work account and it created an unmanaged tenant.
 
@@ -53,5 +53,5 @@ For a more detailed explanation for this process, you may use the [Quick Start g
 
 ## Next steps
 If you require assistance or have any questions, please contact MPSA Support:
-- Phone **1-866-200-9611**, available Monday-Friday 5:30 AM to 5:30 PM Pacific Time
+- Phone: 1-866-200-9611, available Monday-Friday, 5:30 AM to 5:30 PM Pacific Time
 - Online: https://support.microsoft.com/supportrequestform/2afa6f15-b710-db46-909a-8346017c802f?sl=enampsc=US
