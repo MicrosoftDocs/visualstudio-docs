@@ -33,7 +33,7 @@ If you don't have a Docker Hub repository, create one at [Docker Hub](https://hu
 
    Visual Studio attempts to deploy your image to the Docker Hub.  If successful, the **Publish** screen appears with the URL for the repository image, the image tag, repository, and the build configuration** (for example, **Release**).
 
-   ![](media/deploy-docker-hub/container-tools-docker-hub-credentials.png)
+   ![](media/deploy-docker-hub/container-tools-docker-hub-finished.png)
 
 1. You can update the image at any time by clicking on the **Publish** button on this page.  Or, you can modify or remove the profile, by using the links underneath the URL.
 
