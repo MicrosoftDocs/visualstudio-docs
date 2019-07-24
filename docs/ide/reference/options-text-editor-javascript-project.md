@@ -1,15 +1,15 @@
 ---
 title: Options, Text Editor, JavaScript, Project
 ms.date: 1/15/2019
-ms.technology: vs-ide-general
+ms.technology: vs-javascript
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Project.General"
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Project"
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Project.General"
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Project"
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"

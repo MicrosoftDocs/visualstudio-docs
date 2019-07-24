@@ -1,15 +1,15 @@
 ---
 title: Options, Text Editor, JavaScript, Linting
 ms.date: 1/15/2019
-ms.technology: vs-ide-general
+ms.technology: vs-javascript
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Linting.General"
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Linting"
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Linting.General"
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Linting"
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"

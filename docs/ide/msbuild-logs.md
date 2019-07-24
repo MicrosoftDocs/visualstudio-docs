@@ -1,6 +1,7 @@
 ---
 title: Troubleshoot and create logs for MSBuild problems
 ms.date: 06/27/2019
+ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
   - msbuild logs"
@@ -63,7 +64,7 @@ The value of "MyMetadata" for "MyFile.txt" item will be evaluated to "B" during 
 
 ## Incremental build is building more than it should
 
-If MSBuild is unnecessarily rebuilding a project or project item, create a detailed or binary build log. You can search the log for the file which was built or compiled unnecessarily. The output looks something like this:
+If MSBuild is unnecessarily rebuilding a project or project item, create a detailed or binary build log. You can search the log for the file that was built or compiled unnecessarily. The output looks something like this:
 
 ```output
   Task "CL"
@@ -111,11 +112,11 @@ A Msbuild.binlog file will be created in the directory that you ran MSBuild from
 ## Create a detailed log
 
 1. From the Visual Studio main menu, go to **Tools** > **Options** > **Projects and Solutions** >**Build and Run**.
-1. Set **Msbuild project build verbosity** to **Detailed** in both combo boxes. The top one controls build verbosity in the **Output Window** and the second one controls build verbosity in the \<projectname\>.log file that is created in the each project's Intermediate directory during build.
-1. From a Visual Studio developer command prompt, enter one of these commands, substituting your actual path and configuration values:
+1. Set **Msbuild project build verbosity** to **Detailed** in both combo boxes. The top one controls build verbosity in the **Output Window** and the second one controls build verbosity in the \<projectname\>.log file that is created in each project's Intermediate directory during build.
+2. From a Visual Studio developer command prompt, enter one of these commands, substituting your actual path and configuration values:
 
     ```cmd
-    Msbuild /p:Configuration="MyConfiguration";Platform="x86" /fl MySolution.sln 
+    Msbuild /p:Configuration="MyConfiguration";Platform="x86" /fl MySolution.sln
     ```
 
     or
