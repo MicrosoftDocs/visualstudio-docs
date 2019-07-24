@@ -1,5 +1,6 @@
 ---
 title: Common Quick Actions
+description: Most popular Quick Actions for C# and Visual Basic including fixing mispelled keywords or symbols, resolving merge conflicts, removing necessary imports, generating types, introducing local variables, etc.
 ms.date: 03/28/2018
 ms.topic: reference
 author: gewarren
