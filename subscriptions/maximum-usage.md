@@ -8,7 +8,6 @@ ms.topic: conceptual
 description: Learn how to view the maximum number of assigned subscriptions in the admin portal
 ---
 # Use the Maximum Usage feature to track the number of assigned subscriptions
-
 A new feature in the Visual Studio subscriptions administration portal helps you track how many subscriptions you've purchased and assigned, and identifies the peak number of subscriptions of each level you've assigned, both within the past year and throughout the duration of your agreement(s). 
 
 ## View your maximum usage
@@ -36,7 +35,7 @@ For example, in the table above, you can see that on 12/13/2018 there were 123 V
 ## Frequently asked questions
 ### Q: How is the information in the Maximum Usage different from the assignment information available in the "Overview" section on the left side of the portal?
 
-A:  The information in the overview shows the current assignments and available subscriptions for each subscription level.  This may be very different from the maximum number of subscriptions assigned for the agreement at any point.  The Maximum Usage feature allows you to see when the maximum assignnment levels were reached and what the levels were.  This is an important distinction, since billing for subscriptions during true-up is based on the maximum number of subscriptions assigned at any point throughout the year. 
+A:  The information in the overview shows the *current* assignments and available subscriptions for each subscription level.  This may be very different from the maximum number of subscriptions assigned for the agreement during the current year or the life of the agreement.  The Maximum Usage feature allows you to see when the maximum assignnment levels were reached and what the levels were.  This is an important distinction, since billing for subscriptions during true-up is based on the maximum number of subscriptions assigned at any point throughout the year. 
 
 ## Resources
 - [Visual Studio licensing white paper](https://aka.ms/vslicensing)
@@ -44,5 +43,6 @@ A:  The information in the overview shows the current assignments and available 
 - [Volume Licensing terms](https://www.microsoft.com/licensing/product-licensing/products.aspx)
 
 ## Next steps
-If you have any questions about subscription assignments or other aspects of the administration portal, please contact https://visualstudio.microsoft.com/subscriptions/support/ for assistance. 
+- If you have any questions about subscription assignments or other aspects of the administration portal, please contact https://visualstudio.microsoft.com/subscriptions/support/ for assistance. 
+- Learn more about what to do if you assign more subscriptions that you purchased, referred to as [overallocations](handle-overclaimed-license.md).
 
