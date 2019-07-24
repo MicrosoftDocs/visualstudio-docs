@@ -87,7 +87,7 @@ To continue exploring Visual Studio's features, let's create a new project.
 
 ::: moniker-end
 
-   The project is created and a file named *Program.cs* opens in the **Editor** window. The **Editor** shows the contents of files, and is where you'll do most of your coding work in Visual Studio.
+   The project is created and a file named *Program.cs* opens in the **Editor** window. The **Editor** shows the contents of files and is where you'll do most of your coding work in Visual Studio.
 
    ![Editor in Visual Studio](media/editor.png)
 
