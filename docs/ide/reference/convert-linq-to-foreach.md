@@ -1,5 +1,6 @@
 ---
 title: Refactor code to convert a LINQ query to a foreach statement
+description: Convert any LINQ query written in query syntax to a foreach statement.
 ms.date: 05/15/2018
 ms.topic: reference
 author: gewarren
