@@ -3,8 +3,8 @@ title: Build actions for files
 ms.date: 11/19/2018
 ms.technology: vs-ide-compile
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

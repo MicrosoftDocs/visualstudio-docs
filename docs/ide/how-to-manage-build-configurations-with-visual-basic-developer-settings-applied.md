@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "debug builds"
   - "release builds"
 ms.assetid: eaea6e0b-6c61-4869-8d63-d372c745a23c
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

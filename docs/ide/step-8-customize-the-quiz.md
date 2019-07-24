@@ -2,6 +2,9 @@
 title: "Step 8: Customize the quiz"
 ms.date: 11/04/2016
 ms.topic: conceptual
+dev_langs: 
+  - "csharp"
+  - "vb"
 ms.assetid: dc8edb13-1b23-47d7-b859-8c6f7888c1a9
 author: TerryGLee
 ms.author: tglee
@@ -14,7 +17,17 @@ In the last part of the tutorial, you'll explore some ways to customize the quiz
 
 ## To customize the quiz
 
-- When only five seconds remain in a quiz, turn the **timeLabel** control red by setting its **BackColor** property (`timeLabel.BackColor = Color.Red;`). Reset the color when the quiz is over.
+- When only five seconds remain in a quiz, turn the **timeLabel** control red by setting its **BackColor** property
+
+```csharp
+timeLabel.BackColor = Color.Red;
+```
+
+```vb
+timeLabel.BackColor = Color.Red
+```
+
+Reset the color when the quiz is over.
 
 - Give the quiz taker a hint by playing a sound when the correct answer is entered into a <xref:System.Windows.Forms.NumericUpDown> control. (You must write an event handler for each control's <xref:System.Windows.Forms.NumericUpDown.ValueChanged> event, which fires whenever the quiz taker changes the control's value.)
 

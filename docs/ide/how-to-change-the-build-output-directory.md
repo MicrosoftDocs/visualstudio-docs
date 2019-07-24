@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "output directory, changing"
 ms.assetid: a8333c89-afb2-4b1d-b2e2-9146da852402
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
