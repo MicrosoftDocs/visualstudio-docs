@@ -74,7 +74,6 @@
 #### Assign subscriptions
 ##### [Add single users](assign-license.md)
 ##### [Add multiple users](assign-license-bulk.md)
-#### [Resend assignment emails](resend-assignment-email.md)
 #### [Edit subscriptions](edit-license.md)
 #### [Delete subscriptions](delete-license.md)
 #### [Search for a subscription](search-license.md)
