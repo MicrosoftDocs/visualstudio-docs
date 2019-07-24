@@ -5,7 +5,7 @@ ms.author: lank
 manager: lank
 ms.date: 07/24/2019
 ms.topic: conceptual
-description: Learn how to get starting managing your organization's Visual Studio subscriptions with the Subscriptions Administration Portal.
+description: Learn how to get started managing your organization's Visual Studio subscriptions with the Subscriptions Administration Portal.
 ---
 
 # Get started with the Visual Studio Subscriptions Administration Portal
@@ -21,7 +21,7 @@ If you are the primary or notices contact on your organization’s agreement, yo
 ## Administrator roles
 There are two different roles that exist in the new Visual Studio Subscriptions Administration Portal for Volume Licensing customers. These roles are like the Primary/Notices Contact role and the Subscriptions Manager role in the VLSC today.
 
-**Super admins:** Upon first setting up an organization, the Primary or Notices Contact becomes a super admin by default. The Primary or Notices contact can choose to assign additional super admins or administrators. A super admin can add and remove other administrators as well as subscribers. If there are more than two super admins in the system, a super-admin can delete all but the last two for security.
+**Super admins:** Upon first setting up an organization, the Primary or Notices Contact becomes a super admin by default. The Primary or Notices Contact can choose to assign additional super admins or administrators. A super admin can add and remove other administrators as well as subscribers. If there are more than two super admins in the system, a super-admin can delete all but the last two for security.
 
 **Administrators:** An administrator can only be set up by a super admin. An administrator can manage subscribers in the agreements that the super admin assigns to them.
 
@@ -46,3 +46,11 @@ On the left-hand side of this page you can see additional information about the 
 For more information about the agreement you are viewing, select the Details tab. It shows the agreement status, purchase account, org details, primary contacts (VLSC), super-admins (if available) and other pertinent information.
 > [!div class="mx-imgBorder"]
 > ![Visual Studio Subscriptions Admin Portal Details Page](_img/using-admin-portal/details-page.png)
+
+## Next steps
+Learn more about responsibilities for administrators:
+- [Overview of admin responsibilities](admin-responsibilities.md)
+- [Inventory of pre-production environment](admin-inventory.md)
+- [Manage large teams and external contractors](manage-teams.md)
+- [Track user assignments and process orders](assignments-orders.md)
+- Use [Maximum Usage](maximum-usage.md) to track purchase commitments
