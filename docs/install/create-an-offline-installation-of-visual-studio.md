@@ -129,13 +129,13 @@ Open a command prompt and use one of the commands from the following examples. T
 
 ::: moniker range="vs-2017"
 
-> [!NOTE]
-> A complete Visual Studio layout requires a minimum of 35 GB of disk space. For more information, see [System requirements](/visualstudio/productinfo/vs2017-system-requirements-vs/). See [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) for information about how to create a layout with only the components you want to install.
+   > [!NOTE]
+   > A complete Visual Studio layout requires a minimum of 35 GB of disk space. For more information, see [System requirements](/visualstudio/productinfo/vs2017-system-requirements-vs/). See [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) for information about how to create a layout with only the components you want to install.
 
 ::: moniker-end
 
-> [!NOTE]
-> A complete Visual Studio layout requires a minimum of 35 GB of disk space. For more information, see [System requirements](/visualstudio/releases/2019/system-requirements/). See [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) for information about how to create a layout with only the components you want to install.
+   > [!NOTE]
+   > A complete Visual Studio layout requires a minimum of 35 GB of disk space. For more information, see [System requirements](/visualstudio/releases/2019/system-requirements/). See [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) for information about how to create a layout with only the components you want to install.
 
 ::: moniker range="vs-2019"
 
