@@ -5,7 +5,7 @@ description: "Use Visual Studio workload and component IDs to build classic Wind
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 07/23/2019
+ms.date: 07/24/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
@@ -421,5 +421,4 @@ Microsoft.VisualStudio.Component.VC.v141.MFC.ARM64 | C++ MFC for v141 build tool
 Microsoft.VisualStudio.Component.VC.v141.MFC.ARM64.Spectre | C++ MFC for v141 build tools with Spectre Mitigations (ARM64) | 16.0.28625.61
 Microsoft.VisualStudio.Component.VC.v141.MFC.Spectre | C++ MFC for v141 build tools with Spectre Mitigations (x86 & x64) | 16.0.28625.61
 Microsoft.VisualStudio.Component.VC.v141.x86.x64.Spectre | MSVC v141 - VS 2017 C++ x64/x86 Spectre-mitigated libs (v14.16) | 16.1.28829.92
-Microsoft.VisualStudio.Component.WinXP | C++ Windows XP Support for VS 2017 (v141) tools [Deprecated] | 16.1.28811.260
 Microsoft.VisualStudio.Component.WinXP | C++ Windows XP Support for VS 2017 (v141) tools [Deprecated] | 16.1.28811.260
