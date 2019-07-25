@@ -68,7 +68,6 @@ You can easily change the contact information and preferences in your profile.
 4. When you’ve finalized your changes, click **Save**.
 5. Click your browser's **back** button to return to the Benefits page.
 
-
 ### Setting communications preferences
 If you would like to receive periodic updates about your subscription and benefits, including the monthly Visual Studio Subscriptions newsletter, [update your preferences](https://app.vsaex.visualstudio.com/me?workflowID=devprogram&tab=edit) by checking the box for Visual Studio Subscriptions in your Visual Studio profile. You can change these preferences and unsubscribe at any time. 
 
