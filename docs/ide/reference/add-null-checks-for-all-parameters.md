@@ -54,7 +54,7 @@ This refactoring applies to:
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    ![Quick actions and refactorings](media/add-null-checks-for-all-parameters.png)
 
-2. Select the option to **Add null checks for all parameters**. 
+3. Select the option to **Add null checks for all parameters**. 
    ![Add null checks for all](media/add-null-checks-for-all.png.png)
 
  
