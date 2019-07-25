@@ -104,7 +104,6 @@ In this tutorial, you will:
 
 Once a snappoint is set, you can either manually generate a snapshot by going to the browser view of your web site and running the line of code marked or wait for your users to generate one from their usage of the site.
 
-
 ## Inspect snapshot data
 
 1. When the snappoint is hit, a snapshot appears in the Diagnostic Tools window. To open this window, choose **Debug > Windows > Show Diagnostic Tools**.

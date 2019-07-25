@@ -85,8 +85,6 @@ The icons in IntelliSense can convey additional meaning with icon modifiers. The
 | ![Internal Icon Modifier](../ide/media/intellisenseInternalModifier.png)       |    Internal class    |    Access is limited to the current assembly.    |
 |![Private Icon Modifier](../ide/media/intellisensePrivateModifier.png)        |    Private class    |    Access is limited to the containing class or types derived from the containing class within the current assembly. (Available since C# 7.2.)    |
 
-
-
 ## Troubleshoot IntelliSense
 
 The IntelliSense options may not work as you expect in certain cases.
