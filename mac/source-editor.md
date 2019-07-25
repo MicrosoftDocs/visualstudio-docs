@@ -55,7 +55,6 @@ With Word wrap enabled, lines which exceed the width of your source editor view 
 
 ![Wrapped Text with Word Wrap Enabled](media/source-neweditor-wordwrap2.png)
 
-
 ## Ruler
 
 The column ruler is useful for determining line lengths, particularly when working on a team that has line length guidelines. The column ruler can be turned on or off by navigating to **Visual Studio > Preferences > Text Editor > Markers and Rulers** and selecting (or deselecting) **Show Column ruler**, as illustrated in the following image:
