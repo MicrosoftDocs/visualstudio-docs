@@ -38,7 +38,7 @@ This refactoring applies to:
 
  
 
-**When:** Once right clicked on any parameter and going to **Quick Actions and Refactorings**, an option, if one is plausible, pops up offering to **Add null checks for all** parameters that are valid to be checked.
+**When:** You want to quickly add null checks for all applicable method parameters.
 
  
 
