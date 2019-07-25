@@ -41,17 +41,17 @@ You can also switch between showing and hiding the folds by using the **View > F
 
 This menu item can also be used to enable or disable code folding.
 
-## Word Wrap
+## Word wrap
 
 Word wrap can assist you in managing space when working on long lines of code or with limited view space. Word wrap can also ensure that your code view contains the full contents of your source file even when opening panes that may obscure your view or reduce the width of your source view. 
 
-Word wrap is disabled by default, but can be enabled via Preferences in Visual Studio for Mac. 
+Word wrap is disabled by default but can be enabled via **Preferences** in Visual Studio for Mac. 
 
 To enable word wrap, navigate to **Visual Studio > Preferences > Text Editor > New Editor > Word Wrap**:
 
 ![Word Wrap Options](media/source-neweditor-wordwrap1.png)
 
-With Word wrap enabled, lines which exceed the width of your source editor view will automatically wrap to the next line within your source file. You can also enable an option which will display a visible glyph next to wrapped lines. This will allow you to differentiate between lines which have been wrapped automatically and those which you've wrapped manually.
+With word wrap enabled, lines which exceed the width of your source editor view will automatically wrap to the next line within your source file. You can also enable an option which will display a visible glyph next to wrapped lines. This will allow you to differentiate between lines which have been wrapped automatically and those which you've wrapped manually.
 
 ![Wrapped Text with Word Wrap Enabled](media/source-neweditor-wordwrap2.png)
 
