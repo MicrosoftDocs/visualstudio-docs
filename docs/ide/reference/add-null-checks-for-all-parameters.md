@@ -42,7 +42,7 @@ This refactoring applies to:
 
  
 
-**Why:** Writing null checks for many parameters can be taxing and repetitive. Using this refactoring will be quick and contribute to the program's safety. 
+**Why:** Writing null checks for many parameters can be time-consuming and repetitive. Using this refactoring is quick and makes the program more robust. 
 
  
 
