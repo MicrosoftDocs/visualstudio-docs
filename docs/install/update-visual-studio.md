@@ -202,7 +202,7 @@ You can check for an update and then install it by using the menu bar or the sea
 
 1. From the Windows **Start** menu, choose **Visual Studio 2019**.
 
-    ![Open Visual Studio 2019](media/vs2019-visual-studio-rc.png "Open Visual Studio 2019 from Windows")
+    ![Open Visual Studio 2019](media/vs2019-visual-studio-2019.png "Open Visual Studio 2019 from Windows")
 
 1. Under **Get started**, choose any option to open the IDE.
 
