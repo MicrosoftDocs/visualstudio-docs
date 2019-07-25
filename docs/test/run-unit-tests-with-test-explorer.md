@@ -176,11 +176,11 @@ If individual tests have no dependencies that prevent them from being run in any
 ::: moniker range="vs-2019"
 ## Run tests in Test Explorer
 
-When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.
+When you build the test project, the tests appear in the Test Explorer. If the Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.
 
 ![Test Explorer](../test/media/vs-2019/test-explorer-16-2.PNG)
 
-As you run, write, and rerun your tests, Test Explorer displays the results in default grouping of **Project**, **Namespace**, and **Class**. You can change the way Test Explorer groups your tests.
+As you run, write, and rerun your tests, the Test Explorer displays the results in a default grouping of **Project**, **Namespace**, and **Class**. You can change the way the Test Explorer groups your tests.
 
 You can perform much of the work of finding, organizing and running tests from the **Test Explorer** toolbar.
 
@@ -207,7 +207,7 @@ To run your unit tests after each local build, open the settings icon in the Tes
 
 ## View test results
 
-As you run, write, and rerun your tests, Test Explorer displays the results of **Failed Tests**, **Passed Tests**, **Skipped Tests** and **Not Run Tests**. The details pane at the bottom of Test Explorer displays a summary of the test run.
+As you run, write, and rerun your tests, Test Explorer displays the results of **Failed Tests**, **Passed Tests**, **Skipped Tests** and **Not Run Tests**. The details pane in the Test Explorer displays a summary of the test run.
 
 ### View test details
 
@@ -235,7 +235,7 @@ Test Explorer lets you group your tests into a hierarchy. The default hierarchy 
 
 ![Group tests by category in Test Explorer](../test/media/vs-2019/test-explorer-groupby-162.PNG)
 
-You can also define your own levels of the hierarchy and groupby **State** and then **Class** for example.
+You can define your own levels of the hierarchy and groupby **State** and then **Class** for example by selecting groupby options in your preferred order.
 
 ![Group by State and then Class](../test/media/vs-2019/test-explorer-groupby-state-16-2.PNG)
 
@@ -243,52 +243,33 @@ You can also define your own levels of the hierarchy and groupby **State** and t
 
 |Group|Description|
 |-|-----------------|
-|**Duration**|Groups test by execution time: **Fast**, **Medium**, and **Slow**.|
-|**State**|Groups tests by execution results: **Failed Tests**, **Skipped Tests**, **Passed Tests**.|
-|**Target Framework** | Groups test by the framework their projects target |
-|**Namespace**|Groups test by the containing namespace.|
-|**Project**|Groups test by the containing project.|
-|**Class**|Groups test by the containing class.|
+|**Duration**|Groups tests by execution time: **Fast**, **Medium**, and **Slow**.|
+|**State**|Groups tests by execution results: **Failed Tests**, **Skipped Tests**, **Passed Tests**, **Not Run**|
+|**Target Framework** | Groups tests by the framework their projects target |
+|**Namespace**|Groups tests by the containing namespace.|
+|**Project**|Groups tests by the containing project.|
+|**Class**|Groups tests by the containing class.|
 
 ### Test Explorer columns
 
-The groups are also available as columns in the Test Explorer along with Trait, Stack Trace, Error Message, and Fully Qualified Name. Most columns are not visible by default and you can customize what collumns you see as well the order in which they appear.
+The groups are also available as columns in the Test Explorer along with Trait, Stack Trace, Error Message, and Fully Qualified Name. Most columns are not visible by default and you can customize what collumns you see as well as the order in which they appear.
 
 ![Group by State and then Class](../test/media/vs-2019/test-explorer-columns-16-2.png)
 
 ### Filter, sort and rearrange test columns
 
-Columns can be filtered, sorted and rearranged. 
-* Click the filter icon at the top of the Traits column to filter to specific traits.
+Columns can be filtered, sorted, and rearranged. 
+* To filter to specific traits, click the filter icon at the top of the Traits column.
 
   ![Column filter](../test/media/vs-2019/test-explorer-filter-column-16-2.PNG)
 
-* To change the order of the columns click on a column header and drag it left or right.
+* To change the order of the columns, click on a column header and drag it left or right.
 
-* To sort a column click on the column header. Not all columns can be sorted.
+* To sort a column, click on the column header. Not all columns can be sorted.
 
   ![Column sort](../test/media/vs-2019/test-explorer-sort-column-16-2.PNG)
 
-## Traits
-
-A trait is usually a category name/value pair, but it can also be a single category. Traits can be assigned to methods that are identified as a test method by the unit test framework. A unit test framework can define trait categories. You can add values to the trait categories to define your own category name/value pairs. The syntax to specify trait categories and values is defined by the unit test framework.
-
-**Traits in the Microsoft Unit Testing Framework for Managed Code**
-
-In the Microsoft unit test framework for managed apps, you define a trait name/ value pair in a  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute> attribute. The test framework also contains these predefined traits:
-
-|Trait|Description|
-|-|-----------------|
-|<xref:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute>|The Owner category is defined by the unit test framework and requires you to provide a string value of the owner.|
-|<xref:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute>|The Priority category is defined by the unit test framework and requires you to provide an integer value of the priority.|
-|<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute>|The TestCategory attribute enables you to provide a category without a value. A category defined by the TestCategory attribute can also be the category of a TestProperty attribute.|
-|<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute>|The TestProperty attribute enables you to define trait category/value pair.|
-
-**Traits in the Microsoft Unit Testing Framework for C++**
-
- See [How to use the Microsoft Unit Testing Framework for C++](how-to-use-microsoft-test-framework-for-cpp.md).
-
-### Search and filter the test list
+## Search and filter the test list
 
 You can also use Test Explorer search filters to limit the test methods in your projects that you view and run.
 
@@ -325,6 +306,25 @@ FilterName:"Criteria" -FilterName:"SubsetCriteria"
 
 For example, `FullName:"MyClass" - FullName:"PerfTest"` returns all tests that include "MyClass" in their name, except tests that also include "PerfTest" in their name.
 
+## Traits
+
+A trait is usually a category name/value pair, but it can also be a single category. Traits can be assigned to methods that are identified as a test method by the unit test framework. A unit test framework can define trait categories. You can add values to the trait categories to define your own category name/value pairs. The syntax to specify trait categories and values is defined by the unit test framework.
+
+**Traits in the Microsoft Unit Testing Framework for Managed Code**
+
+In the Microsoft unit test framework for managed apps, you define a trait name/ value pair in a  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute> attribute. The test framework also contains these predefined traits:
+
+|Trait|Description|
+|-|-----------------|
+|<xref:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute>|The Owner category is defined by the unit test framework and requires you to provide a string value of the owner.|
+|<xref:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute>|The Priority category is defined by the unit test framework and requires you to provide an integer value of the priority.|
+|<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute>|The TestCategory attribute enables you to provide a category without a value. A category defined by the TestCategory attribute can also be the category of a TestProperty attribute.|
+|<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute>|The TestProperty attribute enables you to define trait category/value pair.|
+
+**Traits in the Microsoft Unit Testing Framework for C++**
+
+ See [How to use the Microsoft Unit Testing Framework for C++](how-to-use-microsoft-test-framework-for-cpp.md).
+
 ## Create custom playlists
 
 You can create and save a list of tests that you want to run or view as a group. When you select a playlist, the tests in the list are displayed in a new Test Explorer tab. You can add a test to more than one playlist.
@@ -337,7 +337,7 @@ The playlist opens in a new test explorer tab. You can use this playlist once an
 
 ![Playlist opens in separate test explorer tab](../test/media/vs-2019/test-explorer-playlist-tab-16-2.PNG)
 
-**To add tests to a playlist**, choose one or more tests in Test Explorer. On the right-click menu and choose **Add to Playlist** > **New playlist**. 
+**To add tests to a playlist**, choose one or more tests in Test Explorer. Right-click and choose **Add to Playlist** > **New playlist**. 
 
 **To open a playlist**, choose the playlist icon in the Visual Studio toolbar and select a previously saved playlist file from the menu.
 
