@@ -1,6 +1,6 @@
 ---
-title: "Test Driven Development with Test Explorer"
-ms.date: 11/04/2016
+title: Test-driven development walkthrough
+ms.date: 07/24/2019
 ms.topic: conceptual
 ms.author: gewarren
 manager: jillfra
@@ -8,68 +8,23 @@ ms.workload:
   - "multiple"
 author: gewarren
 ---
-# Quickstart: Test driven development with Test Explorer
+# Walkthrough: Test-driven development using Test Explorer
 
-We recommend that you create unit tests to help keep your code working correctly through many incremental steps of development. There are several frameworks that you can use to write unit tests, including some developed by third parties. Some test frameworks are specialized to testing in different languages or platforms. Test Explorer provides a single interface for unit tests in any of these frameworks. Adapters are available for the most commonly-used frameworks, and you can write your own adapters for other frameworks.
+Create unit tests to help keep your code working correctly through incremental code changes. There are several frameworks that you can use to write unit tests, including some developed by third parties. Some test frameworks are specialized for testing in different languages or platforms. Test Explorer provides a single interface for unit tests in any of these frameworks. For more information about **Test Explorer**, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md) and [Test Explorer FAQ](test-explorer-faq.md).
 
-Test Explorer supersedes the unit test windows found in earlier editions of Visual Studio. Its benefits include:
+This walkthrough demonstrates how to develop a tested method in C# using Microsoft Test Framework (MSTest). You can easily adapt it for other languages or other test frameworks, such as NUnit. For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
 
-- Run .NET, unmanaged, database and other kinds of tests using a single interface.
+## Create a test and generate code
 
-- Use the unit test framework of your choice, such as NUnit or MSTest frameworks.
+1. Create a C# **Class Library (.NET Standard)** project. This project will contain the code that we want to test. Name the project **MyMath**.
 
-- See in one window all the information that you need.
+2. In the same solution, add a new **MSTest Test Project (.NET Core)** project. Name the test project **MathTests**.
 
-## Use Test Explorer
+   ![New code and test projects](../test/media/test-driven-development-ide.png)
 
-![Test Explorer showing Run All button](../test/media/unittestexplorer-beta-.png)
-
-### To run unit tests by using Test Explorer
-
-1. Create unit tests that use the test frameworks of your choice. For example, to create a test that uses the MSTest Framework:
-
-   1. Create **Unit Test Project** project for C#, Visual Basic, or C++.
-
-   2. Write each unit test as a method. Prefix each test method with the `[TestMethod]` attribute.
-
-2. If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
-
-3. On the menu bar, choose **Test** > **Run Unit Tests** > **All Tests**.
-
-    The solution builds and the tests run.
-
-    Test Explorer opens and displays a summary of the results.
-
-   **To see a full list of tests:** Choose **Show All** in any category.
-
-   **To see the details of a test result:** Select the test in Test Explorer to view details such as exception messages in the details pane.
-
-   **To navigate to the code of a test:** Double-click the test in Test Explorer, or choose **Open Test** on the shortcut menu.
-
-   **To debug a test:** Open the shortcut menu for one or more tests, and then choose **Debug Selected Tests**.
-
-> [!IMPORTANT]
-> The results that are displayed are for the most recent run. The colored results bar shows only the results for the tests that ran. For example, if you run several tests and some of them fail, and then run only the successful tests, then the results bar will show all green.
-
-> [!NOTE]
-> If no test appears, make sure that you have installed an adapter to connect Test Explorer to the test framework that you are using. For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
-
-## Walkthrough: Using unit tests to develop a method
-
-This walkthrough demonstrates how to develop a tested method in C# using the Microsoft Unit Test framework. You can easily adapt it for other languages, and to use other test frameworks such as NUnit. For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
-
-### Create the test and method
-
-1. Create a C# **Class Library** project. This project will contain the code that we want to deliver. In this example, it's named `MyMath`.
-
-2. Create a new **Unit Test Project** project.
-
-   ![New code and test projects](../test/media/unittestexplorerwalk1.png)
-
-3. Write a basic test method. Verify the result obtained for a specific input:
+3. Write a simple test method that verifies the result obtained for a specific input. Add the following code to the `UnitTest1` class:
 
    ```csharp
-
    [TestMethod]
    public void BasicRooterTest()
    {
@@ -81,96 +36,90 @@ This walkthrough demonstrates how to develop a tested method in C# using the Mic
      // Run the method under test:
      double actualResult = rooter.SquareRoot(input);
      // Verify the result:
-     Assert.AreEqual(expectedResult, actualResult,
-         delta: expectedResult / 100);
+     Assert.AreEqual(expectedResult, actualResult, delta: expectedResult / 100);
    }
    ```
 
-4. Generate the method from the test.
+4. Generate a type from the test code.
 
-   1. Place the cursor on `Rooter`, and then on the shortcut menu choose **Generate** > **New Type**.
+   1. Place the cursor on `Rooter`, and then from the light bulb menu, choose **Generate new type**.
 
-   2. In the **Generate New Type** dialog box, set **Project** to the class library project. In this example, it is `MyMath`.
+      ![Generate new type quick action](media/test-driven-development-generate-new-type.png)
 
-   3. Place the cursor on `SquareRoot`, and then on the shortcut menu choose **Generate** > **Method Stub**.
+   2. In the **Generate Type** dialog box, set **Project** to **MyMath**, the class library project, and then choose **OK**.
 
-5. Run the unit test.
+      ![Generate Type dialog box in Visual Studio 2019](media/test-driven-development-generate-type-dialog.png)
 
-   1. On the **Test** menu, choose **Run Unit Tests** > **All Tests**.
+5. Generate a method from the test code. Place the cursor on `SquareRoot`, and then from the light bulb menu, choose **Generate method 'Rooter.SquareRoot'**.
 
-        The solution builds and runs.
+6. Run the unit test.
 
-        Test Explorer opens and displays the results.
+   1. To open **Test Explorer**, on the **Test** menu, choose **Windows** > **Test Explorer**.
+   2. In **Test Explorer**, choose the **Run All** button to run the test.
 
-        The test appears under **Failed Tests**.
+   The solution builds, and the test runs and fails.
 
-6. Select the name of the test.
+7. Select the name of the test.
 
-    The details of the test appear in the lower part of Test Explorer.
+   The details of the test appear in the **Test Detail Summary** pane.
 
-7. Select the items under **Stack Trace** to see where the test failed.
+   ![Test Detail Summary in Test Explorer](media/test-driven-development-test-detail-summary.png)
 
-   ![Unit Test Explorer showing failed test.](../test/media/unittestexplorerwalkthrough2.png)
+8. Select the top link under **Stack Trace** to jump to the location where the test failed.
 
-   At this point, you have created a test and a stub that you will modify so that the test passes.
+At this point, you've created a test and a stub that you can modify so that the test passes.
 
-#### After every change, make all the tests pass
+## Verify a code change
 
 1. In *MyMath\Rooter.cs*, improve the code of `SquareRoot`:
 
     ```csharp
     public double SquareRoot(double input)
-     {
-       return input / 2;
-     }
+    {
+        return input / 2;
+    }
     ```
 
-2. In Test Explorer, choose **Run All**.
+2. In **Test Explorer**, choose **Run All**.
 
-     The code builds and the test runs.
+   The solution builds, and the test runs and passes.
 
-     The test passes.
+   ![Test Explorer showing a passing test](../test/media/test-driven-development-passed-test.png)
 
-     ![Unit Test Explorer showing a passing test.](../test/media/unittestexplorerwalkthrough3.png)
+## Extend the range of inputs
 
-#### Add tests to extend the range of inputs
+To improve the confidence that the code works in all cases, add tests that try a broader range of input values.
 
-1. To improve your confidence that your code works in all cases, add tests that try a broader range of input values.
+> [!TIP]
+> Avoid altering existing tests that pass. Instead, add new tests. Change existing tests only when the user requirements change. This policy helps to make sure that you don't lose existing functionality as you work to extend the code.
 
-    > [!TIP]
-    > Avoid altering existing tests that pass. Instead, add new tests. Change existing tests only when the user requirements change. This policy helps to make sure that you don't lose existing functionality as you work to extend the code.
-
-     In your test class, add the following test, which tries a range of input values:
+1. In the test class, add the following test, which tries a range of input values:
 
     ```csharp
     [TestMethod]
     public void RooterValueRange()
     {
-      // Create an instance to test:
-      Rooter rooter = new Rooter();
-      // Try a range of values:
-      for (double expectedResult = 1e-8;
-          expectedResult < 1e+8;
-          expectedResult = expectedResult * 3.2)
-      {
-        RooterOneValue(rooter, expectedResult);
-      }
+        // Create an instance to test.
+        Rooter rooter = new Rooter();
+
+        // Try a range of values.
+        for (double expected = 1e-8; expected < 1e+8; expected *= 3.2)
+        {
+            RooterOneValue(rooter, expected);
+        }
     }
 
     private void RooterOneValue(Rooter rooter, double expectedResult)
     {
-      double input = expectedResult * expectedResult;
-      double actualResult = rooter.SquareRoot(input);
-      Assert.AreEqual(expectedResult, actualResult,
-          delta: expectedResult / 1000);
+        double input = expectedResult * expectedResult;
+        double actualResult = rooter.SquareRoot(input);
+        Assert.AreEqual(expectedResult, actualResult, delta: expectedResult / 1000);
     }
     ```
 
-2. In Test Explorer, choose **Run All**.
+2. In **Test Explorer**, choose **Run All**.
 
-     The new test fails, although the first test still passes.
-
-     To find the point of failure, select the failing test and then in the lower part of Test Explorer, select the top item of the **Stack Trace**.
+   The new test fails (although the first test still passes). To find the point of failure, select the failing test, and then in the **Test Detail Summary** pane, select the top item of the **Stack Trace**.
 
 3. Inspect the method under test to see what might be wrong. In the `MyMath.Rooter` class, rewrite the code:
 
@@ -188,89 +137,84 @@ This walkthrough demonstrates how to develop a tested method in C# using the Mic
     }
     ```
 
-4. In Test Explorer, choose **Run All**.
+4. In **Test Explorer**, choose **Run All**.
 
-     Both tests now pass.
+   Both tests now pass.
 
-#### Add tests for exceptional cases
+## Add tests for exceptional cases
 
 1. Add a test for negative inputs:
 
     ```csharp
     [TestMethod]
-     public void RooterTestNegativeInputx()
-     {
-         Rooter rooter = new Rooter();
-         try
-         {
-             rooter.SquareRoot(-10);
-         }
-         catch (ArgumentOutOfRangeException e)
-         {
-             return;
-         }
-         Assert.Fail();
-     }
+    public void RooterTestNegativeInputx()
+    {
+        Rooter rooter = new Rooter();
+        try
+        {
+            rooter.SquareRoot(-10);
+        }
+        catch (System.ArgumentOutOfRangeException)
+        {
+            return;
+        }
+        Assert.Fail();
+    }
     ```
 
-2. In Test Explorer, choose **Run All**.
+2. In **Test Explorer**, choose **Run All**.
 
-     The method under test loops, and must be canceled manually.
+   The method under test loops and must be canceled manually.
 
-3. Choose **Cancel**.
+3. Choose **Cancel** on the toolbar of **Test Explorer**.
 
-     The test stops after 10 seconds.
+   The test stops executing.
 
-4. Fix the method code:
+4. Fix the `SquareRoot` code by adding the following `if` statement at the beginning of the method:
 
     ```csharp
-
     public double SquareRoot(double input)
     {
-      if (input <= 0.0)
-      {
-        throw new ArgumentOutOfRangeException();
-      }
-    ...
+        if (input <= 0.0)
+        {
+            throw new ArgumentOutOfRangeException();
+        }
+        ...
     ```
 
-5. In Test Explorer, choose **Run All**.
+5. In **Test Explorer**, choose **Run All**.
 
-     All the tests pass.
+   All the tests pass.
 
-#### Refactor without changing tests
+## Refactor the code under test
 
 1. Simplify the code, but do not change the tests.
 
-    > [!TIP]
-    > A *refactoring* is a change that is intended to make the code perform better or to make the code easier to understand. It is not intended to alter the behavior of the code, and therefore the tests are not changed.
-    >
-    > We recommend that you perform refactoring steps separately from steps that extend functionality. Keeping the tests unchanged gives you confidence that you have not accidentally introduced bugs while refactoring.
+   > [!TIP]
+   > A *refactoring* is a change that is intended to make the code perform better or  easier to understand. It is not intended to alter the behavior of the code, and therefore the tests are not changed.
+   >
+   > We recommend that you perform refactoring steps separately from steps that extend functionality. Keeping the tests unchanged gives you confidence that you have not accidentally introduced bugs while refactoring.
 
     ```csharp
-    public class Rooter
+    public double SquareRoot(double input)
     {
-      public double SquareRoot(double input)
-      {
         if (input <= 0.0)
         {
-          throw new ArgumentOutOfRangeException();
+            throw new ArgumentOutOfRangeException();
         }
+
         double result = input;
         double previousResult = -input;
         while (Math.Abs(previousResult - result) > result / 1000)
         {
-          previousResult = result;
-          result = (result + input / result) / 2;
-          //was: result = result - (result * result - input) / (2*result);
+            previousResult = result;
+            result = (result + input / result) / 2;
+            //was: result = result - (result * result - input) / (2*result);
         }
         return result;
-      }
     }
     ```
 
-2. Choose **Run All**.
+2. Choose **Run All**, and verify that all the tests still pass.
 
-     All the tests still pass.
-
-     ![Unit Test Explorer showing 3 passed tests.](../test/media/unittestexplorerwalkthrough4.png)
+   ![Test Explorer showing 3 passed tests](../test/media/test-driven-development-three-passed-tests.png)
