@@ -34,15 +34,15 @@ This refactoring applies to:
 
  
 
-**What:** Creates and adds 'if' statements that check nullity of all the nullable non-checked parameters. 
+**What:** Creates and adds `if` statements that check nullity of all the nullable non-checked parameters. 
 
  
 
-**When:** Once right clicked on any parameter and going to **Quick Actions and Refactorings**, an option, if one is plausible, pops up offering to **Add null checks for all** parameters that are valid to be checked.
+**When:** You want to quickly add null checks for all applicable parameters.
 
  
 
-**Why:** Writing null checks for many parameters can be taxing and repetitive. Using this refactoring will be quick and contribute to the program's safety. 
+**Why:** Writing null checks for many parameters can be time-consuming and repetitive. Using this refactoring is quick and make the program more robust.
 
  
 
@@ -50,11 +50,11 @@ This refactoring applies to:
 
 
 
-1. Place your cursor on any parameter within the method. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
+1. Place your cursor on any parameter within the method.
+2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    ![Quick actions and refactorings](media/add-null-checks-for-all-parameters.png)
-
-2. Select the option to **Add null checks for all parameters**. 
-   ![Add null checks for all](media/add-null-checks-for-all.png.png)
+3. Select the option to **Add null checks for all parameters**. 
+   ![Add null checks for all](media/add-null-checks-for-all.png)
 
  
 
@@ -62,4 +62,4 @@ This refactoring applies to:
 
  
 
-- [Refactoring](../refactoring-in-visual-studio.md) 
+- [Refactoring](../refactoring-in-visual-studio.md)
