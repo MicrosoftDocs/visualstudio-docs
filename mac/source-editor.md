@@ -15,7 +15,7 @@ The source editor in Visual Studio for Mac allows for a seamless experience with
 
 This article introduces some of the key features of the source editor and explores how you can use Visual Studio for Mac to be as productive as possible.
 
-## The Source Editor Experience
+## The source editor experience
 
 Viewing and moving efficiently throughout code is an integral part of the development workflow. Exactly how you decide to view and maintain code is a personal decision, which varies between developers - and often between projects.
 
@@ -27,13 +27,13 @@ Code folding makes it easier to manage large source code files by allowing devel
 
 To turn on code folding, navigate to **Visual Studio > Preferences > Text Editor > General > Code Folding**:
 
-![Code Folding Options](media/source-editor-image1.png)
+![Code Folding Options](media/source-neweditor-image1.png)
 
 This menu also includes the option to fold #regions and comments by default, displaying a named hint, in place of code.
 
 To show or hide sections, use the disclosure widget next to the line number:
 
-![Showing or Hiding sections in code](media/source-editor-image2.png)
+![Showing or Hiding sections in code](media/source-neweditor-image2.png)
 
 You can also switch between showing and hiding the folds by using the **View > Folding > Toggle Fold / Toggle All Folds** menu item:
 
@@ -41,21 +41,19 @@ You can also switch between showing and hiding the folds by using the **View > F
 
 This menu item can also be used to enable or disable code folding.
 
-## White space
+## Word wrap
 
-It may be necessary for you to view invisible characters in source code. It's a visible way to make sure that you're adhering to coding standards and not needlessly wasting space. It's also useful when writing F#, which depends on precisely indented lines for evaluating code.
+Word wrap can assist you in managing space when working on long lines of code or with limited view space. Word wrap can also ensure that your code view contains the full contents of your source file even when opening panes that may obscure your view or reduce the width of your source view. 
 
-Set options to show whitespace by navigating to **Visual Studio > Preferences > Text Editor > Markers and Rulers**. Selecting this option allows setting _when_ invisible characters will be shown: Never, On Selection, or Always:
+Word wrap is disabled by default but can be enabled via **Preferences** in Visual Studio for Mac. 
 
-![Show invisible characters options](media/source-editor-image3.png)
+To enable word wrap, navigate to **Visual Studio > Preferences > Text Editor > New Editor > Word Wrap**:
 
-The option to show tabs, spaces, and line endings is also available:
+![Word Wrap Options](media/source-neweditor-wordwrap1.png)
 
-![Show tabs and spaces](media/source-editor-image4.png)
+With word wrap enabled, lines which exceed the width of your source editor view will automatically wrap to the next line within your source file. You can also enable an option which will display a visible glyph next to wrapped lines. This will allow you to differentiate between lines which have been wrapped automatically and those which you've wrapped manually.
 
-Invisible characters are displayed as gray dots, as illustrated in the following image:
-
-![whitespace displayed](media/source-editor-image22.png)
+![Wrapped Text with Word Wrap Enabled](media/source-neweditor-wordwrap2.png)
 
 ## Ruler
 
