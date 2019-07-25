@@ -100,7 +100,11 @@ If you are deploying a UWP app for testing on a device, see [Run UWP apps on a r
 
 If you require more a complex installation of a desktop application than [ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) can provide, you can create a Windows Installer package (MSI or EXE installation file) or a custom bootstrapper.
 
-- An MSI-based installer package can be created using the [WiX Toolset Visual Studio 2017 Extension](https://marketplace.visualstudio.com/items?itemName=RobMensching.WixToolsetVisualStudio2017Extension). This is a command-line toolset.
+- An MSI-based installer package can be created using the [WiX Toolset Extension](https://marketplace.visualstudio.com/items?itemName=WixToolset.WiXToolset). This is a command-line toolset.
+
+   ::: moniker range=">=vs-2019"
+   For Visual Studio 2019, get the [WiX Toolset Visual Studio 2019 Extension](https://marketplace.visualstudio.com/items?itemName=WixToolset.WixToolsetVisualStudio2019Extension).
+   ::: moniker-end
 
 - An MSI or EXE installer package can be created using [InstallShield](https://www.flexerasoftware.com/producer/products/software-installation/installshield-software-installer/tab/requirements) from Flexera Software. InstallShield may be used with Visual Studio 2017 and later versions (Community Edition not supported). Note that InstallShield Limited Edition is no longer included with Visual Studio and is not supported in Visual Studio 2017 and later versions; check with [Flexera Software](http://learn.flexerasoftware.com/content/IS-EVAL-InstallShield-Limited-Edition-Visual-Studio) about future availability.
 
