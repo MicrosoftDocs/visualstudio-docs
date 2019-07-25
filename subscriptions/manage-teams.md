@@ -34,5 +34,3 @@ Learn more about responsibilities for administrators:
 - [Inventory of pre-production environment](admin-inventory.md)
 - [Track user assignments and process orders](assignments-orders.md)
 - Use [Maximum Usage](maximum-usage.md) to track purchase commitments
-
-

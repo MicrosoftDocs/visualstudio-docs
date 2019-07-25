@@ -36,5 +36,3 @@ To learn more about benefits, options, and pricing please visit https://visualst
 If your organization already has Visual Studio with GitHub Enterprise subscriptions, you can learn more [managing Visual Studio with GitHub Enterprise](assign-github.md) subscriptions in our documentation.  
 
 And that's it for now!
-
-
