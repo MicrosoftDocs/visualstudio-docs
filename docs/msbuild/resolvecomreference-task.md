@@ -1,6 +1,6 @@
 ---
 title: "ResolveComReference Task | Microsoft Docs"
-ms.date: "11/04/2016"
+ms.date: "07/25/2019"
 ms.topic: "reference"
 f1_keywords:
   - "http://schemas.microsoft.com/developer/msbuild/2003#ResolveComReference"
@@ -20,9 +20,11 @@ ms.workload:
   - "multiple"
 ---
 # ResolveComReference task
+
 Takes a list of one or more type library names or *.tlb* files and resolves those type libraries to locations on disk.
 
 ## Parameters
+
  The following table describes the parameters of the `ResolveCOMReference` task.
 
 |Parameter|Description|
@@ -46,29 +48,37 @@ Takes a list of one or more type library names or *.tlb* files and resolves thos
 |`WrapperOutputDirectory`|Optional `String` parameter.<br /><br /> The location on disk where the generated interop assembly is placed. If this item metadata is not specified, the task uses the absolute path of the directory where the project file is located.|
 
 ## TypeLibNames item metadata
+
  The following table describes the item metadata available for items passed to the `TypeLibNames` parameter.
 
 |Metadata|Description|
 |--------------|-----------------|
 |`GUID`|Required item metadata.<br /><br /> The GUID for the type library. If this item metadata is not specified, the task fails.|
+|`EmbedInteropTypes`|Optional `Boolean`parameter.<br /><br />  If `true`, only the interop types used in the application are embedded.|
 |`VersionMajor`|Required item metadata.<br /><br /> The major version of the type library. If this item metadata is not specified, the task fails.|
 |`VersionMinor`|Required item metadata.<br /><br /> The minor version of the type library. If this item metadata is not specified, the task fails.|
 |`LocaleIdentifier`|Optional item metadata.<br /><br /> The Locale Identifier (or LCID) for the type library. This is specified as a 32-bit value that identifies the human language preferred by a user, region, or application. If this item metadata is not specified, the task uses a default locale identifier of "0".|
 |`WrapperTool`|Optional item metadata.<br /><br /> Specifies the wrapper tool that is used to generate the assembly wrapper for this type library. If this item metadata is not specified, the task uses a default wrapper tool of "tlbimp". The available, case insensitive choices of typelibs are:<br /><br /> -   `Primary`: Use this wrapper tool when you want to use an already generated primary interop assembly for the COM component. When you use this wrapper tool, do not specify a wrapper output directory because that will cause the task to fail.<br />-   `TLBImp`: Use this wrapper tool when you want to generate an interop assembly for the COM component.<br />-   `AXImp`:Use this wrapper tool when you want to generate an interop assembly for an ActiveX Control.|
 
 ## TypeLibFiles item metadata
+
  The following table describes the item metadata available for items passed to the `TypeLibFiles` parameter.
 
 |Metadata|Description|
 |--------------|-----------------|
+|`EmbedInteropTypes`|Optional `Boolean`parameter.<br /><br />  If `true`, only the interop types used in the application are embedded.|
 |`WrapperTool`|Optional item metadata.<br /><br /> Specifies the wrapper tool that is used to generate the assembly wrapper for this type library. If this item metadata is not specified, the task uses a default wrapper tool of "tlbimp". The available, case insensitive choices of typelibs are:<br /><br /> -   `Primary`: Use this wrapper tool when you want to use an already generated primary interop assembly for the COM component. When you use this wrapper tool, do not specify a wrapper output directory because that will cause the task to fail.<br />-   `TLBImp`: Use this wrapper tool when you want to generate an interop assembly for the COM component.<br />-   `AXImp`: Use this wrapper tool when you want to generate an interop assembly for an ActiveX Control.|
 
 > [!NOTE]
 > The more information that you provide to uniquely identify a type library, the greater the possibility that the task will resolve to the correct file on disk.
 
 ## Remarks
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [Task base class](../msbuild/task-base-class.md).
+
+In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [Task base class](../msbuild/task-base-class.md).
+
+The COM DLL doesn't need to be registered on the machine for this to work.
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)
