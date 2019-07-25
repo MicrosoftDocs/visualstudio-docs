@@ -1,6 +1,7 @@
 ---
 title: File Properties, JavaScript
 ms.date: 06/21/2017
+ms.technology: vs-javascript
 ms.topic: reference
 f1_keywords:
   - "javascript.project.property.expandedsdknode.fileversion"
@@ -20,13 +21,14 @@ f1_keywords:
   - "javascript.project.property.reference.resolvedpath"
   - "javascript.project.property.reference.version"
 ms.assetid: 085913b8-a97b-45f7-85fa-bbb0902f3ee9
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # File Properties, JavaScript
+
 You can use file properties to indicate what actions the project system should perform on the files. For example, you can set file properties to indicate whether a file should be added to the package as a resource file.
 
  You can select any file in Solution Explorer and then examine its properties in the Properties window. JavaScript files have four properties: **Copy to Output Directory**, **Package Action**, **File Name**, and **File Path**.
@@ -86,6 +88,6 @@ The default value for **Package Action** depends on the extension of the file th
 ### Version
  Displays the version of the reference.
 
-## See Also
+## See also
 
 - [Managing Project and Solution Properties](../../ide/managing-project-and-solution-properties.md)

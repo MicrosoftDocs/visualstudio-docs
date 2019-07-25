@@ -1571,6 +1571,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/get-started/csharp/tutorial-projects-solutions.md",
+            "redirect_url": "/visualstudio/get-started/tutorial-projects-solutions",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/how-to-target-a-version-of-the-dotnet-framework.md",
             "redirect_url": "/visualstudio/ide/visual-studio-multi-targeting-overview",
             "redirect_document_id": false
@@ -7877,6 +7882,61 @@
         },
         {
             "source_path": "subscriptions/vs-xamarin.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/signing-in.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/subscriber-downloads.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/subscriber-benefits.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/join-dev-essentials.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/professional-development.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/technical-support.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/subscription-management-info.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/vlsc-admin-faq.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/find-pcn.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/find-primary-contact.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/volume-license-onboarding-email.md",
             "redirect_url": "/visualstudio/subscriptions",
             "redirect_document_id": false
         }

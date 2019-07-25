@@ -30,12 +30,12 @@ In this tutorial, you will:
 
 * Snapshot Debugger is only available starting in Visual Studio 2017 Enterprise version 15.5 or higher with the **Azure development workload**. (Under the **Individual components** tab, you find it under **Debugging and testing** > **Snapshot debugger**.)
 
-    ::: moniker range=">=vs-2019"
-    If it's not already installed, install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019). If you are updating from a previous Visual Studio installation, run the Visual Studio Installer and check the Snapshot Debugger component in the **ASP.NET and web development workload**.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    If it's not already installed, install [Visual Studio 2017 Enterprise version 15.5](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) or later. If you are updating from a previous Visual Studio 2017 installation, run the Visual Studio Installer and check the Snapshot Debugger component in the **ASP.NET and web development workload**.
-    ::: moniker-end
+   ::: moniker range=">=vs-2019"
+   If it's not already installed, install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019). If you're updating from a previous Visual Studio installation, run the Visual Studio Installer and check the Snapshot Debugger component in the **ASP.NET and web development workload**.
+   ::: moniker-end
+   ::: moniker range="<=vs-2017"
+   If it's not already installed, install [Visual Studio 2017 Enterprise version 15.5](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) or later. If you're updating from a previous Visual Studio 2017 installation, run the Visual Studio Installer and check the Snapshot Debugger component in the **ASP.NET and web development workload**.
+   ::: moniker-end
 
 * Basic or higher Azure App Service plan.
 
@@ -47,8 +47,9 @@ In this tutorial, you will:
 
 1. Open the project you would like to snapshot debug.
 
-    > [!IMPORTANT]
-    > To snapshot debug, you need to open the *same version of source code* that is published to your Azure App Service.
+   > [!IMPORTANT]
+   > To snapshot debug, you need to open the *same version of source code* that is published to your Azure App Service.
+
 ::: moniker range="<=vs-2017"
 
 2. In the Cloud Explorer (**View > Cloud Explorer**), right-click the Azure App Service your project is deployed to and select **Attach Snapshot Debugger**.
@@ -56,8 +57,10 @@ In this tutorial, you will:
    ![Launch the snapshot debugger](../debugger/media/snapshot-launch.png)
 
 ::: moniker-end
+
 ::: moniker range=">=vs-2019"
-2. Choose **Debug > Attach Snapshot Debugger...**. Select the Azure App Service your project is deployed to and an Azure storage account, and then click **Attach**.
+
+2. Choose **Debug > Attach Snapshot Debugger...**. Select the Azure App Service your project is deployed to and an Azure storage account, and then click **Attach**. Snapshot Debugger also supports [Azure Kubernetes Service](debug-live-azure-kubernetes.md) and [Azure Virtual Machines (VM) & Virtual Machine Scale Sets](debug-live-azure-virtual-machines.md).
 
    ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
 
@@ -68,8 +71,14 @@ In this tutorial, you will:
    > [!IMPORTANT]
    > The first time you select **Attach Snapshot Debugger**, you're prompted to install the Snapshot Debugger site extension on your Azure App Service. This installation requires a restart of your Azure App Service.
 
+   ::: moniker range="<=vs-2017"
    > [!NOTE]
-   > The Application Insights site extension also supports Snapshot Debugging. If you encounter a "site extension out of date" error message, see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
+   > The Application Insights site extension also supports Snapshot Debugging. If you come across a "site extension out of date" error message, see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
+   ::: moniker-end
+   ::: moniker range=">=vs-2019"
+   > [!NOTE]
+   > (Visual Studio 2019 version 16.2 and above) Snapshot Debugger has enabled Azure cloud support. Make sure that both the Azure resource and Azure Storage account you select are from the same cloud. Please contact your Azure administrator if you have questions about your enterprise's [Azure compliance](https://azure.microsoft.com/overview/trusted-cloud/) configurations.
+   ::: moniker-end
 
    Visual Studio is now in snapshot debugging mode.
    ![Snapshot debugging mode](../debugger/media/snapshot-message.png)
@@ -80,7 +89,7 @@ In this tutorial, you will:
 
 ## Set a snappoint
 
-1. In the code editor, click the left gutter next to a line of code you are interested in to set a snappoint. Make sure it is code that you know will execute.
+1. In the code editor, click the left gutter next to a line of code you're interested in to set a snappoint. Make sure it's code that you know will execute.
 
    ![Set a snappoint](../debugger/media/snapshot-set-snappoint.png)
 
@@ -88,12 +97,13 @@ In this tutorial, you will:
 
    ![Turn on the snappoint](../debugger/media/snapshot-start-collection.png)
 
-    > [!TIP]
-    > You can't step when viewing a snapshot, but you can place multiple snappoints in your code to follow execution at different lines of code. If you have multiple snappoints in your code, the Snapshot Debugger makes sure that the corresponding snapshots are from the same end-user session. The Snapshot Debugger does this even if there are many users hitting your app.
+   > [!TIP]
+   > You can't step when viewing a snapshot, but you can place multiple snappoints in your code to follow execution at different lines of code. If you have multiple snappoints in your code, the Snapshot Debugger makes sure that the corresponding snapshots are from the same end-user session. The Snapshot Debugger does this even if there are many users hitting your app.
 
 ## Take a snapshot
 
-When a snappoint is turned on, it will capture a snapshot whenever the line of code where the snappoint is placed executes. This execution can be caused by a real request on your server. To force your snappoint to hit, go to the browser view of your web site and take any actions required that cause your snappoint to be hit.
+Once a snappoint is set, you can either manually generate a snapshot by going to the browser view of your web site and running the line of code marked or wait for your users to generate one from their usage of the site.
+
 
 ## Inspect snapshot data
 
@@ -107,7 +117,7 @@ When a snappoint is turned on, it will capture a snapshot whenever the line of c
 
    From this view, you can hover over variables to view DataTips, use the **Locals**, **Watches**, and **Call Stack** windows, and also evaluate expressions.
 
-    The website itself is still live and end users aren't impacted. Only one snapshot is captured per snappoint by default: after a snapshot is captured the snappoint turns off. If you want to capture another snapshot at the snappoint, you can turn the snappoint back on by clicking **Update Collection**.
+   The website itself is still live and end users aren't affected. Only one snapshot is captured per snappoint by default: after a snapshot is captured the snappoint turns off. If you want to capture another snapshot at the snappoint, you can turn the snappoint back on by clicking **Update Collection**.
 
 You can also add more snappoints to your app and turn them on with the **Update Collection** button.
 
@@ -115,7 +125,7 @@ You can also add more snappoints to your app and turn them on with the **Update 
 
 ## Set a conditional snappoint
 
-If it is difficult to recreate a particular state in your app, consider whether the use of a conditional snappoint can help. Conditional snappoints help you avoid taking a snapshot until the app enters a desired state, such as when a variable has a particular value that you want to inspect. You can set conditions using expressions, filters, or hit counts.
+If it's difficult to recreate a particular state in your app, consider using a conditional snappoint. Conditional snappoints help you control when to take a snapshot such as when a variable contains a particular value that you want to inspect. You can set conditions using expressions, filters, or hit counts.
 
 #### To create a conditional snappoint
 
@@ -139,15 +149,15 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
 1. In the snappoint settings window, select **Actions**.
 
-    ![Create a logpoint](../debugger/media/snapshot-logpoint.png)
+   ![Create a logpoint](../debugger/media/snapshot-logpoint.png)
 
 1. In the **Message** field, you can enter the new log message you want to log. You can also evaluate variables in your log message by placing them inside curly braces.
 
-    If you choose **Send to Output Window**, when the logpoint is hit, the message appears in the Diagnostic Tools window.
+   If you choose **Send to Output Window**, when the logpoint is hit, the message appears in the Diagnostic Tools window.
 
-    ![Logpoint data in the Diagnostic Tools window](../debugger/media/snapshot-logpoint-output.png)
+   ![Logpoint data in the Diagnostic Tools window](../debugger/media/snapshot-logpoint-output.png)
 
-    If you choose **Send to application log**, when the logpoint is hit, the message appears anywhere that you can see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as [App Insights](/azure/application-insights/app-insights-asp-net-trace-logs).
+   If you choose **Send to application log**, when the logpoint is hit, the message appears anywhere that you can see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as [App Insights](/azure/application-insights/app-insights-asp-net-trace-logs).
 
 ## Next steps
 

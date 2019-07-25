@@ -116,7 +116,8 @@ You can create a member using any of the following tools:
 
 4. Optionally, specify other details about the member, such as its type.
 
-     **Note:** You can also use keyboard shortcuts to create members. For more information, see [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details window](keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md).
+    > [!NOTE]
+    > You can also use keyboard shortcuts to create members. For more information, see [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details window](keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md).
 
 ## Modify type members
 
@@ -144,7 +145,7 @@ Each member row displays the following elements:
 
 - **Member Modifier**
 
-     Change the visibility modifier of a member to either `Public` (`public`), `Private` (`private`), `Friend` (`internal`) `Protected` (`protected`), `Protected``Friend` (`protected``internal`), or `Default`.
+     Change the visibility modifier of a member to either `Public` (`public`), `Private` (`private`), `Friend` (`internal`) `Protected` (`protected`), `Protected Friend` (`protected internal`), or `Default`.
 
 - **\<add member>**
 

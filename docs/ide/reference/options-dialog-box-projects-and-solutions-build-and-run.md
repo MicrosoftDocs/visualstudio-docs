@@ -1,6 +1,7 @@
 ---
 title: Options Dialog Box, Projects and Solutions, Build and Run
 ms.date: 07/14/2017
+ms.technology: vs-ide-compile
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Projects.Build_and_Run"
@@ -9,8 +10,8 @@ helpviewer_keywords:
   - "run actions"
   - "debugger, run options"
 ms.assetid: c884976e-c0df-4c6d-8e3a-856ea2bd547c
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

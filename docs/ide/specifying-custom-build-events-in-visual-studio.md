@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "build events, customizing"
 ms.assetid: 69e935a5-e208-4bcd-865c-3e5f9b047ca8
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
