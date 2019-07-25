@@ -15,7 +15,7 @@ The source editor in Visual Studio for Mac allows for a seamless experience with
 
 This article introduces some of the key features of the source editor and explores how you can use Visual Studio for Mac to be as productive as possible.
 
-## The Source Editor Experience
+## The source editor experience
 
 Viewing and moving efficiently throughout code is an integral part of the development workflow. Exactly how you decide to view and maintain code is a personal decision, which varies between developers - and often between projects.
 
