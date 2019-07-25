@@ -45,4 +45,3 @@ A:  The information in the overview shows the current assignments and available 
 
 ## Next steps
 If you have any questions about subscription assignments or other aspects of the administration portal, please contact https://visualstudio.microsoft.com/subscriptions/support/ for assistance. 
-
