@@ -76,7 +76,7 @@ Takes a list of one or more type library names or *.tlb* files and resolves thos
 
 In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [Task base class](../msbuild/task-base-class.md).
 
-The COM DLL doesn't need to be registered on the machine for this to work.
+The COM DLL doesn't need to be registered on the machine for this task to work.
 
 ## See also
 
