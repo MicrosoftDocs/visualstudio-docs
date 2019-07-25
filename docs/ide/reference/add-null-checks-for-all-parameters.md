@@ -50,7 +50,8 @@ This refactoring applies to:
 
 
 
-1. Place your cursor on any parameter within the method. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
+1. Place your cursor on any parameter within the method.
+2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    ![Quick actions and refactorings](media/add-null-checks-for-all-parameters.png)
 
 2. Select the option to **Add null checks for all parameters**. 
