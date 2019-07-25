@@ -42,7 +42,7 @@ This walkthrough demonstrates how to develop a tested method in C# using Microso
 
 4. Generate a type from the test code.
 
-   1. Place the cursor on `Rooter`, and then from the light bulb menu, choose **Generate new type**.
+   1. Place the cursor on `Rooter`, and then from the light bulb menu, choose **Generate type 'Rooter'** > **Generate new type**.
 
       ![Generate new type quick action](media/test-driven-development-generate-new-type.png)
 
@@ -55,6 +55,7 @@ This walkthrough demonstrates how to develop a tested method in C# using Microso
 6. Run the unit test.
 
    1. To open **Test Explorer**, on the **Test** menu, choose **Windows** > **Test Explorer**.
+
    2. In **Test Explorer**, choose the **Run All** button to run the test.
 
    The solution builds, and the test runs and fails.
@@ -71,7 +72,7 @@ At this point, you've created a test and a stub that you can modify so that the 
 
 ## Verify a code change
 
-1. In *MyMath\Rooter.cs*, improve the code of `SquareRoot`:
+1. In the *Class1.cs* file, improve the code of `SquareRoot`:
 
     ```csharp
     public double SquareRoot(double input)
@@ -88,7 +89,7 @@ At this point, you've created a test and a stub that you can modify so that the 
 
 ## Extend the range of inputs
 
-To improve the confidence that the code works in all cases, add tests that try a broader range of input values.
+To improve our confidence that the code works in all cases, add tests that try a broader range of input values.
 
 > [!TIP]
 > Avoid altering existing tests that pass. Instead, add new tests. Change existing tests only when the user requirements change. This policy helps to make sure that you don't lose existing functionality as you work to extend the code.
@@ -119,9 +120,9 @@ To improve the confidence that the code works in all cases, add tests that try a
 
 2. In **Test Explorer**, choose **Run All**.
 
-   The new test fails (although the first test still passes). To find the point of failure, select the failing test, and then in the **Test Detail Summary** pane, select the top item of the **Stack Trace**.
+   The new test fails (although the first test still passes). To find the point of failure, select the failing test, and then look at the details in the **Test Detail Summary** pane.
 
-3. Inspect the method under test to see what might be wrong. In the `MyMath.Rooter` class, rewrite the code:
+3. Inspect the method under test to see what might be wrong. Alter the `SquareRoot` code as follows:
 
     ```csharp
     public double SquareRoot(double input)
@@ -143,7 +144,7 @@ To improve the confidence that the code works in all cases, add tests that try a
 
 ## Add tests for exceptional cases
 
-1. Add a test for negative inputs:
+1. Add a new test for negative inputs:
 
     ```csharp
     [TestMethod]
@@ -188,12 +189,14 @@ To improve the confidence that the code works in all cases, add tests that try a
 
 ## Refactor the code under test
 
-1. Simplify the code, but do not change the tests.
+Refactor the code, but do not change the tests.
 
-   > [!TIP]
-   > A *refactoring* is a change that is intended to make the code perform better or  easier to understand. It is not intended to alter the behavior of the code, and therefore the tests are not changed.
-   >
-   > We recommend that you perform refactoring steps separately from steps that extend functionality. Keeping the tests unchanged gives you confidence that you have not accidentally introduced bugs while refactoring.
+> [!TIP]
+> A *refactoring* is a change that is intended to make the code perform better or  easier to understand. It is not intended to alter the behavior of the code, and therefore the tests are not changed.
+>
+> We recommend that you perform refactoring steps separately from steps that extend functionality. Keeping the tests unchanged gives you confidence that you have not accidentally introduced bugs while refactoring.
+
+1. Change the line that calculates `result` in the `SquareRoot` method as follows:
 
     ```csharp
     public double SquareRoot(double input)
