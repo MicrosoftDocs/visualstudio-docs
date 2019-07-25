@@ -34,7 +34,7 @@ This refactoring applies to:
 
  
 
-**What:** Creates and adds 'if' statements that check nullity of all the nullable non-checked parameters. 
+**What:** Creates and adds `if` statements that check nullity of all the nullable non-checked parameters. 
 
  
 
