@@ -22,6 +22,9 @@ This Trait grouping was moved to be a column. With the multi-tiered and customiz
 
 For now, you can right click on the column in the Test Explorer and select Columns. Check the Trait column and it will appear in the Test Explorer. You can now filter this column by what traits you are interested in.
 
+![Display the Trait column](media/vs-2019/TraitColumn.png)
+![Filter the trait column](media/vs-2019/TraitColumnFilter.png)
+
 ## Dynamic test discovery
 
 **Test Explorer is not discovering my tests that are dynamically defined. (For example, theories, custom adapters, custom traits, #ifdefs, etc.) How can I discover these tests?**
