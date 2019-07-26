@@ -14,7 +14,7 @@ ms.technology: vs-azure
 
 Visual Studio provides a consistent way to develop in a Docker container and validate your application locally. You don't have to restart the container each time you make a code change.
 
-This article illustrates how to use Visual Studio to start an ASP.NET Core web app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for ASP.NET Core and .NET Framework console apps.
+This article illustrates how to use Visual Studio to start an ASP.NET Core web app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized ASP.NET Core web apps and .NET Framework console apps.
 
 ## Prerequisites
 
