@@ -6,7 +6,7 @@ manager: jillfra
 ms.assetid: 480e3062-aae7-48ef-9701-e4f9ea041382
 ms.topic: conceptual
 ms.workload: multiple
-ms.date: 03/05/2019
+ms.date: 07/25/2019
 ms.author: ghogen
 ms.technology: vs-azure
 ---
