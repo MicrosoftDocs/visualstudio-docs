@@ -22,7 +22,3 @@ Your reseller or Microsoft seller will guide you through the renewal or purchasi
 ## Next steps
 - For help using the Administration Portal, contact [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
 - Find a [Microsoft Solution Provider](https://www.microsoft.com/solution-providers/home)
-- For assistance with finding a Microsoft Partner:
-    - In the United States, call (800) 426-9400.
-    - In Canada, call the Microsoft Resource Centre at (877) 568-2495.
-    - Worldwide, find information about availability in your area on the [Microsoft Volume Licensing website](https://www.microsoft.com/Licensing/worldwide) for your country/region.

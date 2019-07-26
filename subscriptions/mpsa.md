@@ -50,8 +50,3 @@ For a more detailed explanation for this process, you may use the [Quick Start g
 
 > [!NOTE]
 > Once you complete the domain take-over process, you must adhere to the criteria from the five steps in the section for Pre Tenant Association (Managed). Once the criteria are met, it will only be necessary to contact MPSA Support to provision additional Visual Studio subscriptions administrators.
-
-## Next steps
-If you require assistance or have any questions, please contact MPSA Support:
-- Phone: 1-866-200-9611, available Monday-Friday, 5:30 AM to 5:30 PM Pacific Time
-- Online: https://support.microsoft.com/supportrequestform/2afa6f15-b710-db46-909a-8346017c802f?sl=enampsc=US
