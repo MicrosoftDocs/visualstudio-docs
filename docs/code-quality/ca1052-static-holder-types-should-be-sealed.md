@@ -73,4 +73,10 @@ The following example shows a type that violates the rule:
 
 The following example shows how to fix a violation of this rule by marking the type with the `static` modifier in C#:
 
-[!code-csharp[FxCop.Design.StaticMembersFixed#1](../code-quality/codesnippet/CSharp/ca1052-static-holder-types-should-be-sealed_2.cs)]
+```csharp
+public static class StaticMembers
+{
+    public static int SomeProperty { get; set; }
+    public static void SomeMethod() { }
+}
+```
