@@ -42,13 +42,13 @@ for Professional edition, or
 
 for Enterprise edition.
 
-::: moniker-end
-
 In previous versions of Visual Studio, the file is found in the following location:
 
 **\Program Files (x86)\Common Files\Microsoft Shared\TextTemplating\{version}**
 
 where {version} depends on which previous version is installed.
+
+::: moniker-end
 
 ## Syntax
 
