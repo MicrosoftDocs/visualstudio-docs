@@ -23,7 +23,7 @@ ms.workload:
 
 |||
 |-|-|
-|TypeName|StaticHolderTypesShouldBeSealed|
+|TypeName|StaticHolderTypesAnalyzer|
 |CheckId|CA1052|
 |Category|Microsoft.Design|
 |Breaking Change|Breaking|
