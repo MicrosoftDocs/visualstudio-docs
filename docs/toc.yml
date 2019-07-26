@@ -856,7 +856,7 @@
       items:
       - name: Options dialog box
         href: ide/reference/options-dialog-box-visual-studio.md
-      - name: Environment options
+      - name: Environment
         items:
         - name: General
           href: ide/reference/general-environment-options-dialog-box.md
@@ -894,7 +894,7 @@
           href: ide/reference/trust-settings.md
         - name: Web Browser
           href: ide/reference/web-browser-environment-options-dialog-box.md
-      - name: Projects and Solutions options
+      - name: Projects and Solutions
         items:
         - name: General
           href: ide/reference/projects-and-solutions-options-dialog-box.md
@@ -908,75 +908,95 @@
           href: ide/reference/vcpp-project-settings-projects-and-solutions-options-dialog-box.md
         - name: Web Projects
           href: ide/reference/options-dialog-box-projects-and-solutions-web-projects.md
-      - name: Text Editor options
+      - name: Text Editor
         items:
         - name: General
           href: ide/reference/options-text-editor-general.md
         - name: File Extension
           href: ide/reference/options-text-editor-file-extension.md
         - name: All Languages
-          href: ide/reference/options-text-editor-all-languages.md
-        - name: All Languages > Scroll Bars
-          href: ide/reference/options-text-editor-all-languages-scroll-bars.md
-        - name: All Languages > Tabs
-          href: ide/reference/options-text-editor-all-languages-tabs.md
-        - name: Basic > Advanced
-          href: ide/reference/options-text-editor-basic-visual-basic.md
-        - name: Basic > Code Style
-          href: ide/code-styles-and-code-cleanup.md
-        - name: Basic > IntelliSense
-          href: ide/visual-basic-specific-intellisense.md
-        - name: C# > Advanced
-          href: ide/reference/options-text-editor-csharp-advanced.md
-        - name: C# > Code Style > Formatting
-          href: ide/reference/options-text-editor-csharp-formatting.md
-        - name: C# > IntelliSense
-          href: ide/reference/options-text-editor-csharp-intellisense.md
-        - name: C/C++ > Advanced
-          href: ide/reference/options-text-editor-c-cpp-advanced.md
-        - name: C/C++ > Experimental
-          href: ide/reference/options-text-editor-c-cpp-experimental.md
-        - name: C/C++ > Formatting
-          href: ide/reference/options-text-editor-c-cpp-formatting.md
-        - name: C/C++ > View
-          href: ide/reference/options-text-editor-c-cpp-view.md
-        - name: F# > Advanced
-          href: ide/reference/options-text-editor-fsharp-advanced.md
-        - name: F# > Code Fixes
-          href: ide/reference/options-text-editor-fsharp-code-fixes.md
-        - name: F# > CodeLens
-          href: ide/reference/options-text-editor-fsharp-codelens.md
-        - name: F# > IntelliSense
-          href: ide/reference/options-text-editor-fsharp-intellisense.md
-        - name: HTML (Web Forms) > Formatting
-          href: ide/reference/options-text-editor-html-formatting.md
-        - name: HTML (Web Forms) > Miscellaneous
-          href: ide/reference/options-text-editor-html-miscellaneous.md
-        - name: HTML (Web Forms) > Validation
-          href: ide/reference/options-text-editor-html-validation.md
-        - name: JavaScript/TypeScript > Code Validation
-          href: ide/reference/options-text-editor-javascript-code-validation.md
-        - name: JavaScript/TypeScript > Formatting
-          href: ide/reference/options-text-editor-javascript-formatting.md
-        - name: JavaScript/TypeScript > IntelliSense
-          href: ide/reference/options-text-editor-javascript-intellisense.md
-        - name: JavaScript/TypeScript > Linting
-          href: ide/reference/options-text-editor-javascript-linting.md
-        - name: JavaScript/TypeScript > Project
-          href: ide/reference/options-text-editor-javascript-project.md
-        - name: U-SQL > Formatting
-          href: ide/reference/options-text-editor-usql-formatting.md
-        - name: U-SQL > IntelliSense
-          href: ide/reference/options-text-editor-usql-intellisense.md
-        - name: XAML > Formatting
-          href: ide/reference/options-text-editor-xaml-formatting.md
-        - name: XAML > Miscellaneous
-          href: ide/reference/options-text-editor-xaml-miscellaneous.md
-        - name: XML > Formatting
-          href: ide/reference/options-text-editor-xml-formatting.md
-        - name: XML > Miscellaneous
-          href: ide/reference/options-text-editor-xml-miscellaneous.md
-      - name: XAML Designer options
+          items:
+          - name: General
+            href: ide/reference/options-text-editor-all-languages.md
+          - name: Scroll Bars
+            href: ide/reference/options-text-editor-all-languages-scroll-bars.md
+          - name: Tabs
+            href: ide/reference/options-text-editor-all-languages-tabs.md
+        - name: Basic
+          items:
+          - name: Advanced
+            href: ide/reference/options-text-editor-basic-visual-basic.md
+          - name: Code Style
+            href: ide/code-styles-and-code-cleanup.md
+          - name: IntelliSense
+            href: ide/visual-basic-specific-intellisense.md
+        - name: C#
+          items:
+          - name: Advanced
+            href: ide/reference/options-text-editor-csharp-advanced.md
+          - name: Code Style > Formatting
+            href: ide/reference/options-text-editor-csharp-formatting.md
+          - name: IntelliSense
+            href: ide/reference/options-text-editor-csharp-intellisense.md
+        - name: C/C++
+          items:
+          - name: Advanced
+            href: ide/reference/options-text-editor-c-cpp-advanced.md
+          - name: Experimental
+            href: ide/reference/options-text-editor-c-cpp-experimental.md
+          - name: Formatting
+            href: ide/reference/options-text-editor-c-cpp-formatting.md
+          - name: View
+            href: ide/reference/options-text-editor-c-cpp-view.md
+        - name: F#
+          items:
+          - name: Advanced
+            href: ide/reference/options-text-editor-fsharp-advanced.md
+          - name: Code Fixes
+            href: ide/reference/options-text-editor-fsharp-code-fixes.md
+          - name: CodeLens
+            href: ide/reference/options-text-editor-fsharp-codelens.md
+          - name: IntelliSense
+            href: ide/reference/options-text-editor-fsharp-intellisense.md
+        - name: HTML (Web Forms)
+          items:
+          - name: Formatting
+            href: ide/reference/options-text-editor-html-formatting.md
+          - name: Miscellaneous
+            href: ide/reference/options-text-editor-html-miscellaneous.md
+          - name: Validation
+            href: ide/reference/options-text-editor-html-validation.md
+        - name: JavaScript/TypeScript
+          items:
+          - name: Code Validation
+            href: ide/reference/options-text-editor-javascript-code-validation.md
+          - name: Formatting
+            href: ide/reference/options-text-editor-javascript-formatting.md
+          - name: IntelliSense
+            href: ide/reference/options-text-editor-javascript-intellisense.md
+          - name: Linting
+            href: ide/reference/options-text-editor-javascript-linting.md
+          - name: Project
+            href: ide/reference/options-text-editor-javascript-project.md
+        - name: U-SQL
+          items:
+          - name: Formatting
+            href: ide/reference/options-text-editor-usql-formatting.md
+          - name: IntelliSense
+            href: ide/reference/options-text-editor-usql-intellisense.md
+        - name: XAML
+          items:
+          - name: Formatting
+            href: ide/reference/options-text-editor-xaml-formatting.md
+          - name: Miscellaneous
+            href: ide/reference/options-text-editor-xaml-miscellaneous.md
+        - name: XML
+          items:
+          - name: Formatting
+            href: ide/reference/options-text-editor-xml-formatting.md
+          - name: Miscellaneous
+            href: ide/reference/options-text-editor-xml-miscellaneous.md
+      - name: XAML Designer
         href: ide/reference/xaml-designer.md
     - name: Output window
       href: ide/reference/output-window.md
