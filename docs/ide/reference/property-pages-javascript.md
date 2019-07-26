@@ -51,7 +51,7 @@ Use the following options to set general properties of the project.
 
  Specifies the location of the output files for the project's configuration. The path is relative; if you enter an absolute path, the absolute path is saved in the project. The default path is bin\Debug.
 
- When you use simplified build configurations, the project system determines whether to build a debug or release version. When you click  **Debug**, **Start Debugging** (or press F5)  the build is put in the debug location regardless of the **Output path** you specify. However, the **Build Solution** command on the **Build** menu puts it in the location you specify. To enable advanced build configurations, on the menu bar, choose **Tools**, **Options**. In the **Options** dialog box, expand **Projects and Solutions**, select **General**, and then clear the **Show advanced build configurations** check box. This gives you manual control over all configuration values and whether a debug or release version is built.
+ When you use simplified build configurations, the project system determines whether to build a debug or release version. When you click  **Debug** > **Start Debugging** (or press **F5**), the build is put in the debug location regardless of the **Output path** you specify. However, the **Build Solution** command on the **Build** menu puts it in the location you specify. To enable advanced build configurations, on the menu bar, choose **Tools** > **Options**. In the **Options** dialog box, expand **Projects and Solutions**, select **General**, and then clear the **Show advanced build configurations** check box. This gives you manual control over all configuration values and whether a debug or release version is built.
 
  **Default Language**
 
@@ -76,7 +76,7 @@ Use the following options to set properties for debugging behavior in the projec
 
 **Launch Application**
 
-Specifies whether to start the application when you press F5 or click **Debug**, **Start Debugging**. Select **Yes** to start the application; otherwise, select **No**. If you select **No**, you can still debug the application if you use a different method to start it.
+Specifies whether to start the application when you press **F5** or click **Debug** > **Start Debugging**. Select **Yes** to start the application; otherwise, select **No**. If you select **No**, you can still debug the application if you use a different method to start it.
 
 **Debugger Type**
 
