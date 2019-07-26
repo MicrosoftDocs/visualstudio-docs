@@ -25,7 +25,7 @@ ms.workload:
 |Breaking Change|Breaking|
 
 > [!NOTE]
-> Rule CA1053 is combined into [CA1052: Static holder types should be sealed](ca1052-static-holder-types-should-be-sealed.md) in [FxCop analyzers](fxcop-analyzers.md).
+> Rule CA1053 is combined into [CA1052: Static holder types should be sealed](ca1052-static-holder-types-should-be-sealed.md) in [FxCop analyzers](fxcop-analyzers.yml).
 
 ## Cause
 
