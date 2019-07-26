@@ -316,7 +316,7 @@ Each time you make changes to *app.tsx*, you must rerun the webpack command. To 
 
 ## Add a build script to transpile the JSX
 
-In more recent versions of Node.js, a build script is required. Instead of transpiling JSX at the command line (as shown in the preceding section), you can instead transpile JSX when building from Visual Studio.
+Starting in Visual Studio 2019, a build script is required. Instead of transpiling JSX at the command line (as shown in the preceding section), you can transpile JSX when building from Visual Studio.
 
 * Open *package.json* and add the following section after the `dependencies` section:
 

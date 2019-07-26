@@ -24,6 +24,7 @@ Visual Studio includes the Microsoft unit testing frameworks for both managed an
 
 When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.
 
+
 ::: moniker range="vs-2017"
 ![Unit Test Explorer](../test/media/ute_failedpassednotrunsummary.png)
 ::: moniker-end
@@ -332,3 +333,4 @@ Tests can be run from the **Test Explorer**, by right-clicking in the code edito
 
 - [Unit test your code](../test/unit-test-your-code.md)
 - [Run a unit test as a 64-bit process](../test/run-a-unit-test-as-a-64-bit-process.md)
+- [Test Explorer FAQ](test-explorer-faq.md)
