@@ -54,9 +54,9 @@
     items:
     - name: "Walkthrough: Create and run unit tests for managed code"
       href: walkthrough-creating-and-running-unit-tests-for-managed-code.md
-    - name: "Quickstart: Test-driven development with Test Explorer"
+    - name: "Walkthrough: Test-driven development"
       href: quick-start-test-driven-development-with-test-explorer.md
-    - name: Use Microsoft.VisualStudio.TestTools.UnitTesting members in unit tests
+    - name: Use the MSTest API in unit tests
       href: using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md
     - name: Use the assert classes
       href: using-the-assert-classes.md
@@ -72,13 +72,13 @@
         href: code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md
     - name: Data-driven unit tests
       items:
-      - name: Create a data-driven Unit test
+      - name: Create a data-driven unit test
         href: how-to-create-a-data-driven-unit-test.md
-      - name: "Walkthrough: Use a configuration file to define a data source"
+      - name: Use a configuration file to define a data source
         href: walkthrough-using-a-configuration-file-to-define-a-data-source.md
     - name: Unit tests for generic methods
       href: unit-tests-for-generic-methods.md
-    - name: Configure unit tests to target An earlier version of the .NET Framework
+    - name: Configure unit tests to target an earlier version of .NET
       href: how-to-configure-unit-tests-to-target-an-earlier-version-of-the-dotnet-framework.md
   - name: Unit tests for C/C++ code
     items:

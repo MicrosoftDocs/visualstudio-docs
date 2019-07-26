@@ -25,7 +25,6 @@ This article will provide the steps for signing in with your Microsoft Account (
 4. Click **Sign in**.
 5. At this point, the "Benefits" page should be displayed.
 
-
 ## Frequently asked questions
 ### Q:  I'm unable to sign in using my MSA.  
 A:  The most common cause of sign in problems is attempting to sign in with an MSA that's different from the one associated with the subscription.  If you use several different email addresses, it's possible that you're trying to sign in with the wrong one.  Try signing in with another address.  If that's unsuccessful, you can reach out to our [subscriptions support](https://visualstudio.microsoft.com/subscriptions/support/) team for assistance.  
