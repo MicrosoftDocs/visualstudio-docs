@@ -252,7 +252,7 @@ You can check for an update and then install it by using the menu bar or the sea
       > [!TIP]
       > An update for an edition of Visual Studio 2019 is cumulative, so always choose to install the one with the most recent version number.
 
-1. In the **Update downloaded and ready to install** dialog box, choose **Update**.
+1. In the **Update available** dialog box, choose **Update**.
 
    Visual Studio updates, closes, and then reopens.
 
