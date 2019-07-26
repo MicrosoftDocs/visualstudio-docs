@@ -862,6 +862,8 @@
           href: ide/reference/environment-options-dialog-box.md
         - name: Environment - General
           href: ide/reference/general-environment-options-dialog-box.md
+        - name: Environment - Accounts
+          href: ide/reference/accounts-environment-options-dialog-box.md
         - name: Environment - AutoRecover
           href: ide/reference/autorecover-environment-options-dialog-box.md
         - name: Environment - Documents
@@ -878,14 +880,14 @@
           href: ide/reference/international-settings-environment-options-dialog-box.md
         - name: Environment - Keyboard
           href: ide/reference/keyboard-environment-options-dialog-box.md
+        - name: Environment - Preview Features
+          href: ide/reference/environment-preview-features-options.md
         - name: Environment - Notifications
           href: ide/reference/notifications-environment-options-dialog-box.md
         - name: Environment - Quick Launch
           href: ide/reference/quick-launch-environment-options-dialog-box.md
         - name: Environment - Startup
           href: ide/reference/startup-environment-options-dialog-box.md
-        - name: Environment - Accounts
-          href: ide/reference/accounts-environment-options-dialog-box.md
         - name: Environment - Tabs and Windows
           href: ide/reference/tabs-and-windows-environment-options-dialog-box.md
         - name: Environment - Task List
