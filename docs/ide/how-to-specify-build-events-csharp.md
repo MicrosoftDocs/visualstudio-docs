@@ -32,27 +32,27 @@ When a project is built, pre-build events are added to a file named *PreBuildEve
 
 4. In the **Pre-build event command line** box, specify the syntax of the build event.
 
-    > [!NOTE]
-    > Pre-build events do not run if the project is up to date and no build is triggered.
+   > [!NOTE]
+   > Pre-build events do not run if the project is up to date and no build is triggered.
 
 5. In the **Post-build event command line** box, specify the syntax of the build event.
 
-    > [!NOTE]
-    > Add a `call` statement before all post-build commands that run *.bat* files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.
+   > [!NOTE]
+   > Add a `call` statement before all post-build commands that run *.bat* files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.
 
 6. In the **Run the post-build event** box, specify under what conditions to run the post-build event.
 
-    > [!NOTE]
-    > To add lengthy syntax, or to select any build macros from the [Pre-build event/post-build event command line dialog box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md), click the ellipsis button (**...**) to display an edit box.
+   > [!NOTE]
+   > To add lengthy syntax, or to select any build macros from the [Pre-build event/post-build event command line dialog box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md), click the ellipsis button (**...**) to display an edit box.
 
-     The build event syntax can include any command that is valid at a command prompt or in a *.bat* file. The name of a batch file should be preceded by `call` to ensure that all subsequent commands are executed.
+   The build event syntax can include any command that is valid at a command prompt or in a *.bat* file. The name of a batch file should be preceded by `call` to ensure that all subsequent commands are executed.
 
-    > [!NOTE]
-    > If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0), which indicates a successful action.
+   > [!NOTE]
+   > If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0), which indicates a successful action.
 
 ## Example
 
-The following procedure shows how to set the minimum operating system version in the application manifest by using an *.exe* command that is called from a post-build event (the *.exe.manifest* file in the project directory). The minimum operating system version is a four-part number such as 4.10.0.0. To do this, the command will change the `<dependentOS>` section of the manifest:
+The following procedure shows how to set the minimum operating system version in the application manifest by using an *.exe* command that is called from a post-build event (the *.exe.manifest* file in the project directory). The minimum operating system version is a four-part number such as 4.10.0.0. To set the minimum operating system version, the command will change the `<dependentOS>` section of the manifest:
 
 ```xml
 <dependentOS>
@@ -78,11 +78,11 @@ The following procedure shows how to set the minimum operating system version in
    class Program
    {
       /// <summary>
-      /// This function will set the minimum operating system version for a ClickOnce application.
+      /// This function sets the minimum operating system version for a ClickOnce application.
       /// </summary>
       /// <param name="args">
       /// Command Line Arguments:
-      /// 0 - Path to application manifest (.exe.manifest).
+      /// 0 - Path to application manifest (.exe.manifest)
       /// 1 - Version of OS
       ///</param>
       static void Main(string[] args)
@@ -130,7 +130,7 @@ The following procedure shows how to set the minimum operating system version in
 
 5. Copy the *.exe* file to a directory such as *C:\TEMP\ChangeOSVersionVB.exe*.
 
-   Next, invoke this command in a post-build event to modify the application manifest.
+Next, invoke this command in a post-build event to modify the application manifest.
 
 ### Invoke a post-build event to modify the application manifest
 
@@ -142,31 +142,31 @@ The following procedure shows how to set the minimum operating system version in
 
 4. Publish the project by clicking **Publish Now**.
 
-     The manifest file is built and saved to *C:\TEMP\CSWinApp_1_0_0_0\CSWinApp.exe.manifest*. To view the manifest, right-click the file, click **Open with**, select **Select the program from a list**, and then click **Notepad**.
+   The manifest file is built and saved to *C:\TEMP\CSWinApp_1_0_0_0\CSWinApp.exe.manifest*. To view the manifest, right-click the file, click **Open with**, select **Select the program from a list**, and then click **Notepad**.
 
-     Search in the file for the `<osVersionInfo>` element. For example, the version might be:
+   Search in the file for the `<osVersionInfo>` element. For example, the version might be:
 
-    ```xml
-    <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
-    ```
+   ```xml
+   <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+   ```
 
 5. Back in the **Project Designer**, click the **Build Events** tab and then click **Edit Post-build**.
 
-6. In the **Post-build Event Command Line** box, type the following command:
+6. In the **Post-build Event Command Line** box, enter the following command:
 
-     `C:\TEMP\ChangeOSVersionCS.exe "$(TargetPath).manifest" 5.1.2600.0`
+   `C:\TEMP\ChangeOSVersionCS.exe "$(TargetPath).manifest" 5.1.2600.0`
 
-     When you build the project, this command changes the minimum operating system version in the application manifest to 5.1.2600.0.
+   When you build the project, this command changes the minimum operating system version in the application manifest to 5.1.2600.0.
 
-     Because the `$(TargetPath)` macro expresses the full path for the executable being created,  the `$(TargetPath)`*.manifest* will specify the application manifest created in the *bin* directory. Publishing copies this manifest to the publishing location that you set earlier.
+   Because the `$(TargetPath)` macro expresses the full path for the executable being created, `$(TargetPath).manifest` specifies the application manifest created in the *bin* directory. Publishing copies this manifest to the publishing location that you set earlier.
 
 7. Publish the project again.
 
-     The manifest version should now read:
+   The manifest version should now read:
 
-    ```xml
-    <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
-    ```
+   ```xml
+   <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+   ```
 
 ## See also
 
