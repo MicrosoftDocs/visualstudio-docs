@@ -1,24 +1,20 @@
 ---
 title: General, Environment, Options Dialog Box
-ms.date: 03/28/2019
+ms.date: 07/26/2019
 ms.topic: reference
 f1_keywords:
-  - "VS.Message.0x800a002e"
-  - "VS.ToolsOptionsPages.Environment.General"
   - "VS.Environment.General"
+  - "VS.Message.0x800a002e"
+  - "VS.OptionsDialog.Environment"
+  - "VS.ToolsOptionsPages.Environment"
+  - "VS.ToolsOptionsPages.Environment.General"
 helpviewer_keywords:
-  - "MRU lists"
-  - "windows, customizing"
-  - "MDI, environment options"
-  - "speed, environment animation"
-  - "File menu"
-  - "menus, customizing"
-  - "Windows menu customizing"
-  - "status bars, displaying"
-  - "IDE, startup options"
-  - "editors, autocompletion"
+  - "recently used file lists"
+  - "Windows menu, customizing"
+  - "status bar, displaying"
   - "Options dialog box, General Environment"
   - "General Environment Options dialog box"
+  - "Environment Options dialog box"
 author: gewarren
 ms.author: gewarren
 manager: jillfra
@@ -96,5 +92,4 @@ Specifies that when the **Auto Hide** button is clicked, only the tool window th
 
 ## See also
 
-- [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)
-- [Customizing window layouts](../../ide/customizing-window-layouts-in-visual-studio.md)
+- [Customize window layouts](../../ide/customizing-window-layouts-in-visual-studio.md)

@@ -41,4 +41,3 @@ After you register an additional Azure cloud, you can choose which Azure cloud y
 - [Sign in to Visual Studio](../signing-in-to-visual-studio.md)
 - [Work with multiple user accounts](../work-with-multiple-user-accounts.md)
 - [Environment settings](../environment-settings.md)
-- [Environment Options dialog box](../../ide/reference/environment-options-dialog-box.md)
