@@ -1,5 +1,5 @@
 ---
-title: Assign licenses to groups of users for Visual Studio Subscriptions | Microsoft Docs
+title: Assign licenses to groups of users for Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
@@ -9,7 +9,7 @@ description:  Learn how administrators can assign licenses to multiple subscribe
 ---
 
 # Assign subscriptions to multiple users
-The Subscriptions Administration Portal lets you add users one-at-a-time, or in large groups.  To add individual users, see [Add single users](assign-license.md)
+The Subscriptions Administration Portal lets you add users one-at-a-time, or in large groups.  To add individual users, see [Add single users](assign-license.md).
 
 ## Use Bulk Add to assign subscriptions
 1. Sign in to the Visual Studio Subscriptions Administration Portal at https://manage.visualstudio.com.

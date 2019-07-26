@@ -22,16 +22,16 @@ An unmanaged tenant is a tenant without any administrators assigned and is not u
 Here are a few requirements/steps needed to become a Visual Studio Subscriptions administrator prior to completing the tenant association.
 
 ## Pre-tenant association (managed tenant)
-1. You must be a registered user to the Business Center.
-2. You must be a User Admin (at minimum) or Global Admin within the tenant that you are part of. (This applies if your company already uses Cloud Services). Either role is needed to be a Visual Studio subscriptions administrator.
-3. You must be a Global Admin in the tenant that you are part of to be able to associate your Purchasing Account to your tenant.
-4. You must be an Account Admin or Account Manager in Business Center.
-5. The “Country or Region” field within your user profile (and any other user) in [Azure](https://portal.azure.com/) needs to be populated appropriately depending on your region (i.e. US, CA, etc.). 
+- You must be a registered user to the Business Center.
+- You must be a User Admin (at minimum) or Global Admin within the tenant that you are part of. (This applies if your company already uses Cloud Services). Either role is needed to be a Visual Studio subscriptions administrator.
+- You must be a Global Admin in the tenant that you are part of to be able to associate your Purchasing Account to your tenant.
+- You must be an Account Admin or Account Manager in Business Center.
+- The “Country or Region” field within your user profile (and any other user) in [Azure](https://portal.azure.com/) needs to be populated appropriately depending on your region (i.e. US, CA, etc.). 
 
 > [!NOTE]
 > Any users that you want to make Visual Studio subscriptions administrators are not required to be users in the Business Center, as they only need to meet criteria 2 and 5.
 
-Once you have met the criteria in the 5 steps above you may proceed to associate your Purchasing Account to your tenant following the steps below.
+Once you have met the criteria above you may proceed to associate your Purchasing Account to your tenant following the steps below.
 1. Log in to [Business Center](https://businessaccount.microsoft.com/Customer).
 2. Click on the **Account** tab and choose **Associate Domains**.
 3. Select your **Purchasing Account** (if you have more than one).

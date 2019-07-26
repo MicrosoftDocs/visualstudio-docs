@@ -1,16 +1,17 @@
 ---
-title: Search and Filter | Microsoft Docs
+title: Search and filter | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
 ms.date: 07/24/2019
 ms.topic: conceptual
-description:  Learn how administrators can locate individual subscribers or groups in the Administrator Portal.
+description:  Learn how administrators can locate individual subscribers or groups in the Administration Portal.
 ---
 
 # Search and filter subscribers in Visual Studio subscriptions
 The Visual Studio Subscriptions Administration Portal allows you to find a specific subset of subscribers based on various criteria. You can filter the subscriber list by name, email address, subscription level, and other information.
 
+## To filter the subscriber list
 1. To search for a specific group of subscribers, select the **Filter** tab.
    > [!div class="mx-imgBorder"]
    > ![Select Filter to search a subscriber list](media/filter-list.png)

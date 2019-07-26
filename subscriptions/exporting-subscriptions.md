@@ -1,5 +1,5 @@
 ---
-title: Export Subscription Information | Microsoft Docs
+title: Export subscription information | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
@@ -18,6 +18,7 @@ Having all of your subscriber information in one place can help you do things li
 - Take proactive action before subscriptions expire.  
 - Identify where subscriptions may be overallocated. 
 
+## Export your subscriptions
 To perform the export:
 1. Sign in to the [Administration Portal](https://manage.visualstudio.com).
 2. Select the **Export** tab. and the file will download to your local machine. The file will include the name of the agreement that contains your user subscriptions, as well as the date of the export.
