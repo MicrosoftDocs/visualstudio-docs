@@ -21,26 +21,29 @@ Visual Studio includes the Microsoft unit testing frameworks for both managed an
 
 ## Run tests in Test Explorer
 
-::: moniker range="vs-2017"
+
 When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.
 
+::: moniker range="vs-2017"
 ![Unit Test Explorer](../test/media/ute_failedpassednotrunsummary.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+![Test Explorer](../test/media/vs-2019/test-explorer-16-2.png)
+::: moniker-end
 
+::: moniker range="vs-2017"
 As you run, write, and rerun your tests, Test Explorer displays the results in default groups of **Failed Tests**, **Passed Tests**, **Skipped Tests** and **Not Run Tests**. You can change the way Test Explorer groups your tests.
+::: moniker-end
+::: moniker range=">=vs-2019"
+As you run, write, and rerun your tests, the Test Explorer displays the results in a default grouping of **Project**, **Namespace**, and **Class**. You can change the way the Test Explorer groups your tests.
+::: moniker-end
 
 You can perform much of the work of finding, organizing and running tests from the **Test Explorer** toolbar.
 
+::: moniker range="vs-2017"
 ![Run tests from the Test Explorer toolbar](../test/media/ute_toolbar.png)
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-When you build the test project, the tests appear in the Test Explorer. If the Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.
-
-![Test Explorer](../test/media/vs-2019/test-explorer-16-2.png)
-
-As you run, write, and rerun your tests, the Test Explorer displays the results in a default grouping of **Project**, **Namespace**, and **Class**. You can change the way the Test Explorer groups your tests.
-
-You can perform much of the work of finding, organizing and running tests from the **Test Explorer** toolbar.
-
 ![Run tests from the Test Explorer toolbar](../test/media/vs-2019/test-explorer-toolbar-diagram-16-2.png)
 ::: moniker-end
 
@@ -129,11 +132,11 @@ To change the way that tests are organized, choose the down arrow next to the **
 ![Group tests by category in Test Explorer](../test/media/ute_groupbycategory.png)
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-Test Explorer lets you group your tests into a hierarchy. The default hierarchy grouping is **Project**, **Namespace**, and then **Class**. To change the way that tests are organized, choose the down arrow next to the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and select a new grouping criteria.
+Test Explorer lets you group your tests into a hierarchy. The default hierarchy grouping is **Project**, **Namespace**, and then **Class**. To change the way that tests are organized, choose the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and select a new grouping criteria.
 
 ![Group tests by category in Test Explorer](../test/media/vs-2019/test-explorer-groupby-162.png)
 
-You can define your own levels of the hierarchy and groupby **State** and then **Class** for example by selecting groupby options in your preferred order.
+You can define your own levels of the hierarchy and group by **State** and then **Class** for example by selecting groupby options in your preferred order.
 
 ![Group by State and then Class](../test/media/vs-2019/test-explorer-groupby-state-16-2.png)
 ::: moniker-end
@@ -246,7 +249,7 @@ To filter by a different criteria:
 3. Enter the filter value between the quotation marks.
 
 ::: moniker range="vs-2017"
-![Filter tests in Test Explorer](../test/media/vs-2019/test-explorer-search-filter-16-2.png)
+![Filter tests in Test Explorer](../test/media/ute_filtertestlist.png)
 ::: moniker-end
 ::: moniker range=">=vs-2019"
 ![Filter tests in Test Explorer](../test/media/vs-2019/test-explorer-search-filter-16-2.png)
@@ -288,7 +291,7 @@ You can use Test Explorer to start a debugging session for your tests. Stepping 
 
 ### Diagnose test method performance issues
 
-To diagnose why a test method is taking too much time, select the method in Test Explorer and then choose **Profile** on the right-click menu. See [Performance Explorer](../profiling/performance-explorer.md).
+To diagnose why a test method is taking too much time, select the method in Test Explorer and then choose **Profile Selected Test** on the right-click menu. See [Performance Explorer](../profiling/performance-explorer.md).
 
 ### Analyze unit test code coverage
 
@@ -296,6 +299,7 @@ You can determine the amount of your product code that is actually being tested 
 
 To run code coverage for test methods in a solution:
 
+::: moniker range="vs-2017"
 1. Choose **Test** on the top menu bar and then choose **Analyze code coverage**.
 
 2. Choose one of the following commands from the sub-menu:
@@ -303,6 +307,10 @@ To run code coverage for test methods in a solution:
     - **Selected tests** runs the test methods that you have selected in Test Explorer.
 
     - **All tests** runs all the test methods in the solution.
+::: moniker-end
+::: moniker range=">=vs-2019"
+* Right-click in the Test Explorer and select **Analyze Code Coverage for Selected tests**
+::: moniker-end
 
 The **Code Coverage Results** window displays the percentage of the blocks of product code that were exercised by line, function, class, namespace and module.
 
