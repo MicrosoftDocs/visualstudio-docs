@@ -54,7 +54,7 @@ Takes a list of one or more type library names or *.tlb* files and resolves thos
 |Metadata|Description|
 |--------------|-----------------|
 |`GUID`|Required item metadata.<br /><br /> The GUID for the type library. If this item metadata is not specified, the task fails.|
-|`EmbedInteropTypes`|Optional `Boolean`parameter.<br /><br />  If `true`, only the interop types used in the application are embedded.|
+|`EmbedInteropTypes`|Optional `Boolean` metadata.<br /><br />  If `true`, only the interop types used in the application are embedded.|
 |`VersionMajor`|Required item metadata.<br /><br /> The major version of the type library. If this item metadata is not specified, the task fails.|
 |`VersionMinor`|Required item metadata.<br /><br /> The minor version of the type library. If this item metadata is not specified, the task fails.|
 |`LocaleIdentifier`|Optional item metadata.<br /><br /> The Locale Identifier (or LCID) for the type library. This is specified as a 32-bit value that identifies the human language preferred by a user, region, or application. If this item metadata is not specified, the task uses a default locale identifier of "0".|
