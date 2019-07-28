@@ -184,15 +184,15 @@ Here's how to update Visual&nbsp;Studio&nbsp;2019.
 
    For example, if you previously installed Visual&nbsp;Studio Community&nbsp;2019 and there's an update for it, then an **Update available** message appears in the installer.
 
-     ![Select the edition of Visual Studio 2019 that you want to update](media/vs2019-update-visual-studio-community-rc.png "Select the edition of Visual Studio 2019 that you want to update")
+     ![Select the edition of Visual Studio 2019 that you want to update](media/vs-2019/vs-installer-update-visual-studio-community.png "Select the edition of Visual Studio 2019 that you want to update")
 
 1. Choose **Update** to install the updates.
 
-    ![Select the Update button to install the updates](media/vs2019-choose-update-visual-studio-community-rc.png "Select the Update button to install the updates")
+    ![Select the Update button to install the updates](media/vs-2019/vs-installer-choose-update-visual-studio-community.png "Select the Update button to install the updates")
 
 1. After the update is complete, choose **Launch** to start Visual Studio.
 
-    ![Select the Launch button to start Visual Studio](media/vs2019-choose-launch-visual-studio-community-rc.png "Select the Launch button to start Visual Studio")
+    ![Select the Launch button to start Visual Studio](media/vs-2019/-choose-launch-visual-studio-community-rc.png "Select the Launch button to start Visual Studio")
 
 ## Use the IDE
 
