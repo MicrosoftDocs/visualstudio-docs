@@ -834,151 +834,171 @@
       href: ide/reference/call-hierarchy.md
     - name: Preview Changes
       href: ide/preview-changes.md
-    - name: Choose Toolbox Items, WPF Components
+    - name: Choose Toolbox items, WPF components
       href: ide/reference/choose-toolbox-items-wpf-components.md
-    - name: Code Snippet Picker
+    - name: Code snippet picker
       href: ide/reference/code-snippet-picker.md
-    - name: Command Window
+    - name: Command window
       href: ide/reference/command-window.md
-    - name: Convert Dialog Box
+    - name: Convert dialog box
       href: ide/reference/convert-dialog-box.md
-    - name: Error List Window
+    - name: Error List window
       href: ide/reference/error-list-window.md
     - name: File Properties, JavaScript
       href: ide/reference/file-properties-javascript.md
     - name: Go To Line
       href: ide/reference/go-to-line.md
-    - name: Immediate Window
+    - name: Immediate window
       href: ide/reference/immediate-window.md
-    - name: Miscellaneous Files
+    - name: Miscellaneous files
       href: ide/reference/miscellaneous-files.md
     - name: Options
       items:
-      - name: Options Dialog Box
+      - name: Options dialog box
         href: ide/reference/options-dialog-box-visual-studio.md
-      - name: Environment Options
+      - name: Environment
         items:
-        - name: Environment Options Dialog Box
-          href: ide/reference/environment-options-dialog-box.md
-        - name: Environment - General
+        - name: General
           href: ide/reference/general-environment-options-dialog-box.md
-        - name: Environment - AutoRecover
-          href: ide/reference/autorecover-environment-options-dialog-box.md
-        - name: Environment - Documents
-          href: ide/reference/documents-environment-options-dialog-box.md
-        - name: Environment - Extensions
-          href: ide/reference/extensions-and-updates-environment-options-dialog-box.md
-        - name: Environment - Find and Replace
-          href: ide/reference/find-and-replace-environment-options-dialog-box.md
-        - name: Environment - Fonts and Colors
-          href: ide/reference/fonts-and-colors-environment-options-dialog-box.md
-        - name: Environment - Import and Export Settings
-          href: ide/reference/import-and-export-settings-environment-options-dialog-box.md
-        - name: Environment - International Settings
-          href: ide/reference/international-settings-environment-options-dialog-box.md
-        - name: Environment - Keyboard
-          href: ide/reference/keyboard-environment-options-dialog-box.md
-        - name: Environment - Notifications
-          href: ide/reference/notifications-environment-options-dialog-box.md
-        - name: Environment - Quick Launch
-          href: ide/reference/quick-launch-environment-options-dialog-box.md
-        - name: Environment - Startup
-          href: ide/reference/startup-environment-options-dialog-box.md
-        - name: Environment - Accounts
+        - name: Accounts
           href: ide/reference/accounts-environment-options-dialog-box.md
-        - name: Environment - Tabs and Windows
+        - name: AutoRecover
+          href: ide/reference/autorecover-environment-options-dialog-box.md
+        - name: Documents
+          href: ide/reference/documents-environment-options-dialog-box.md
+        - name: Extensions
+          href: ide/reference/extensions-and-updates-environment-options-dialog-box.md
+        - name: Find and Replace
+          href: ide/reference/find-and-replace-environment-options-dialog-box.md
+        - name: Fonts and Colors
+          href: ide/reference/fonts-and-colors-environment-options-dialog-box.md
+        - name: Import and Export Settings
+          href: ide/reference/import-and-export-settings-environment-options-dialog-box.md
+        - name: International Settings
+          href: ide/reference/international-settings-environment-options-dialog-box.md
+        - name: Keyboard
+          href: ide/reference/keyboard-environment-options-dialog-box.md
+        - name: Preview Features
+          href: ide/reference/environment-preview-features-options.md
+        - name: Notifications
+          href: ide/reference/notifications-environment-options-dialog-box.md
+        - name: Quick Launch
+          href: ide/reference/quick-launch-environment-options-dialog-box.md
+        - name: Startup
+          href: ide/reference/startup-environment-options-dialog-box.md
+        - name: Tabs and Windows
           href: ide/reference/tabs-and-windows-environment-options-dialog-box.md
-        - name: Environment - Task List
+        - name: Task List
           href: ide/reference/task-list-environment-options-dialog-box.md
-        - name: Environment - Trust Settings
+        - name: Trust Settings
           href: ide/reference/trust-settings.md
-        - name: Environment - Web Browser
+        - name: Web Browser
           href: ide/reference/web-browser-environment-options-dialog-box.md
-      - name: Text Editor Options
+      - name: Projects and Solutions
         items:
-        - name: Text Editor Options Dialog Box
-          href: ide/reference/text-editor-options-dialog-box.md
-        - name: Text Editor - General
-          href: ide/reference/options-text-editor-general.md
-        - name: Text Editor - File Extension
-          href: ide/reference/options-text-editor-file-extension.md
-        - name: Text Editor - All Languages
-          href: ide/reference/options-text-editor-all-languages.md
-        - name: Text Editor - All Languages, Scroll Bars
-          href: ide/reference/options-text-editor-all-languages-scroll-bars.md
-        - name: Text Editor - All Languages, Tabs
-          href: ide/reference/options-text-editor-all-languages-tabs.md
-        - name: Text Editor - Basic (Visual Basic), Advanced
-          href: ide/reference/options-text-editor-basic-visual-basic.md
-        - name: Text Editor - Basic (Visual Basic), Code Style
-          href: ide/code-styles-and-code-cleanup.md
-        - name: Text Editor - Basic (Visual Basic), IntelliSense
-          href: ide/visual-basic-specific-intellisense.md
-        - name: Text Editor - C/C++, Formatting
-          href: ide/reference/options-text-editor-c-cpp-formatting.md
-        - name: Text Editor - C/C++, Advanced
-          href: ide/reference/options-text-editor-c-cpp-advanced.md
-        - name: Text Editor - C/C++, Experimental
-          href: ide/reference/options-text-editor-c-cpp-experimental.md
-        - name: Text Editor - C/C++, View
-          href: ide/reference/options-text-editor-c-cpp-view.md
-        - name: Text Editor - C#, Code Style, Formatting
-          href: ide/reference/options-text-editor-csharp-formatting.md
-        - name: Text Editor - C#, Advanced
-          href: ide/reference/options-text-editor-csharp-advanced.md
-        - name: Text Editor - C#, IntelliSense
-          href: ide/reference/options-text-editor-csharp-intellisense.md
-        - name: Text Editor - F#, Advanced
-          href: ide/reference/options-text-editor-fsharp-advanced.md
-        - name: Text Editor - F#, Code Fixes
-          href: ide/reference/options-text-editor-fsharp-code-fixes.md
-        - name: Text Editor - F#, CodeLens
-          href: ide/reference/options-text-editor-fsharp-codelens.md
-        - name: Text Editor - F#, IntelliSense
-          href: ide/reference/options-text-editor-fsharp-intellisense.md
-        - name: Text Editor - HTML (Web Forms), Formatting
-          href: ide/reference/options-text-editor-html-formatting.md
-        - name: Text Editor - HTML (Web Forms), Miscellaneous
-          href: ide/reference/options-text-editor-html-miscellaneous.md
-        - name: Text Editor - HTML (Web Forms), Validation
-          href: ide/reference/options-text-editor-html-validation.md
-        - name: Text Editor - JavaScript, Code Validation
-          href: ide/reference/options-text-editor-javascript-code-validation.md
-        - name: Text Editor - JavaScript, Formatting
-          href: ide/reference/options-text-editor-javascript-formatting.md
-        - name: Text Editor - JavaScript, IntelliSense
-          href: ide/reference/options-text-editor-javascript-intellisense.md
-        - name: Text Editor - JavaScript, Linting
-          href: ide/reference/options-text-editor-javascript-linting.md
-        - name: Text Editor - JavaScript, Project
-          href: ide/reference/options-text-editor-javascript-project.md
-        - name: Text Editor - U-SQL, Formatting
-          href: ide/reference/options-text-editor-usql-formatting.md
-        - name: Text Editor - U-SQL, IntelliSense
-          href: ide/reference/options-text-editor-usql-intellisense.md
-        - name: Text Editor - XAML, Formatting
-          href: ide/reference/options-text-editor-xaml-formatting.md
-        - name: Text Editor - XAML, Miscellaneous
-          href: ide/reference/options-text-editor-xaml-miscellaneous.md
-        - name: Text Editor - XML, Formatting
-          href: ide/reference/options-text-editor-xml-formatting.md
-        - name: Text Editor - XML, Miscellaneous
-          href: ide/reference/options-text-editor-xml-miscellaneous.md
-      - name: Projects and Solutions Options
-        items:
-        - name: Projects and Solutions Options Dialog Box
+        - name: General
           href: ide/reference/projects-and-solutions-options-dialog-box.md
-        - name: Projects and Solutions - Build and Run
+        - name: Build and Run
           href: ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md
-        - name: Projects and Solutions - Web Projects
-          href: ide/reference/options-dialog-box-projects-and-solutions-web-projects.md
-        - name: Projects and Solutions - VB Defaults
+        - name: Locations
+          href: ide/reference/projects-solutions-locations-options.md
+        - name: VB Defaults
           href: ide/reference/visual-basic-defaults-projects-options-dialog-box.md
-        - name: Projects and Solutions - VC++ Project Settings
+        - name: VC++ Project Settings
           href: ide/reference/vcpp-project-settings-projects-and-solutions-options-dialog-box.md
-      - name: XAML Designer Options Dialog Box
+        - name: Web Projects
+          href: ide/reference/options-dialog-box-projects-and-solutions-web-projects.md
+      - name: Text Editor
+        items:
+        - name: General
+          href: ide/reference/options-text-editor-general.md
+        - name: File Extension
+          href: ide/reference/options-text-editor-file-extension.md
+        - name: All Languages
+          items:
+          - name: General
+            href: ide/reference/options-text-editor-all-languages.md
+          - name: Scroll Bars
+            href: ide/reference/options-text-editor-all-languages-scroll-bars.md
+          - name: Tabs
+            href: ide/reference/options-text-editor-all-languages-tabs.md
+        - name: Basic
+          items:
+          - name: Advanced
+            href: ide/reference/options-text-editor-basic-visual-basic.md
+          - name: Code Style
+            href: ide/code-styles-and-code-cleanup.md
+          - name: IntelliSense
+            href: ide/visual-basic-specific-intellisense.md
+        - name: C#
+          items:
+          - name: Advanced
+            href: ide/reference/options-text-editor-csharp-advanced.md
+          - name: Code Style > Formatting
+            href: ide/reference/options-text-editor-csharp-formatting.md
+          - name: IntelliSense
+            href: ide/reference/options-text-editor-csharp-intellisense.md
+        - name: C/C++
+          items:
+          - name: Advanced
+            href: ide/reference/options-text-editor-c-cpp-advanced.md
+          - name: Experimental
+            href: ide/reference/options-text-editor-c-cpp-experimental.md
+          - name: Formatting
+            href: ide/reference/options-text-editor-c-cpp-formatting.md
+          - name: View
+            href: ide/reference/options-text-editor-c-cpp-view.md
+        - name: F#
+          items:
+          - name: Advanced
+            href: ide/reference/options-text-editor-fsharp-advanced.md
+          - name: Code Fixes
+            href: ide/reference/options-text-editor-fsharp-code-fixes.md
+          - name: CodeLens
+            href: ide/reference/options-text-editor-fsharp-codelens.md
+          - name: IntelliSense
+            href: ide/reference/options-text-editor-fsharp-intellisense.md
+        - name: HTML (Web Forms)
+          items:
+          - name: Formatting
+            href: ide/reference/options-text-editor-html-formatting.md
+          - name: Miscellaneous
+            href: ide/reference/options-text-editor-html-miscellaneous.md
+          - name: Validation
+            href: ide/reference/options-text-editor-html-validation.md
+        - name: JavaScript/TypeScript
+          items:
+          - name: Code Validation
+            href: ide/reference/options-text-editor-javascript-code-validation.md
+          - name: Formatting
+            href: ide/reference/options-text-editor-javascript-formatting.md
+          - name: IntelliSense
+            href: ide/reference/options-text-editor-javascript-intellisense.md
+          - name: Linting
+            href: ide/reference/options-text-editor-javascript-linting.md
+          - name: Project
+            href: ide/reference/options-text-editor-javascript-project.md
+        - name: U-SQL
+          items:
+          - name: Formatting
+            href: ide/reference/options-text-editor-usql-formatting.md
+          - name: IntelliSense
+            href: ide/reference/options-text-editor-usql-intellisense.md
+        - name: XAML
+          items:
+          - name: Formatting
+            href: ide/reference/options-text-editor-xaml-formatting.md
+          - name: Miscellaneous
+            href: ide/reference/options-text-editor-xaml-miscellaneous.md
+        - name: XML
+          items:
+          - name: Formatting
+            href: ide/reference/options-text-editor-xml-formatting.md
+          - name: Miscellaneous
+            href: ide/reference/options-text-editor-xml-miscellaneous.md
+      - name: XAML Designer
         href: ide/reference/xaml-designer.md
-    - name: Output Window
+    - name: Output window
       href: ide/reference/output-window.md
     - name: Project Properties
       items:

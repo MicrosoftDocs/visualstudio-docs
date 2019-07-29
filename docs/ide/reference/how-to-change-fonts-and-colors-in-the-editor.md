@@ -44,6 +44,5 @@ You can change the default font face, adjust the font size, and change the foreg
 
 ## See also
 
-- [Text Editor Options dialog box](../../ide/reference/text-editor-options-dialog-box.md)
 - [Features of the code editor](../../ide/writing-code-in-the-code-and-text-editor.md)
 - [How to: Change fonts and colors in Visual Studio](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md)

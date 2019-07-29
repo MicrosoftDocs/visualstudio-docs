@@ -57,6 +57,5 @@ Click to make changes to an existing token using the values entered in the **Nam
 
 ## See also
 
-- [Using the Task List](../../ide/using-the-task-list.md)
-- [Setting Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)
-- [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)
+- [Use the Task List](../../ide/using-the-task-list.md)
+- [Sett Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)

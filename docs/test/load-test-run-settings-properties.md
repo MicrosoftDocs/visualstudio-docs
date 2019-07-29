@@ -83,9 +83,10 @@ For more information, see [Configure load test run settings](../test/configure-l
 |**WebTest Connection Pool Size**|This specifies the maximum number of connections to make between the load test agent and the Web server. This applies only to the **Connection Pool** model.|
 
 ## Change run setting properties
- You can add more run settings to your load test with different property settings so that you can run the load test under different conditions. For example, you can add a new test setting and use a different sample rate, or specify a longer run duration. You can only use one run setting at a time and you must specify which run setting to use by marking it as active. For an example, see [How to: Select the active run setting for a load test](../test/how-to-select-the-active-run-setting-for-a-load-test.md).
 
-### To change run settings
+You can add more run settings to your load test with different property settings so that you can run the load test under different conditions. For example, you can add a new test setting and use a different sample rate, or specify a longer run duration. You can only use one run setting at a time and you must specify which run setting to use by marking it as active. For an example, see [How to: Select the active run setting for a load test](../test/how-to-select-the-active-run-setting-for-a-load-test.md).
+
+To change run settings:
 
 1. Open a load test.
 
