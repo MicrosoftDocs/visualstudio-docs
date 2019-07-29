@@ -16,7 +16,7 @@ A project can be built to run on a *target framework*, which is a particular ver
 > This article shows the old way to specify a target framework. SDK-style projects enable different TargetFrameworks like netstandard. For more info, see [Target frameworks](/dotnet/standard/frameworks).
 
 ## Target framework and profile
- A target framework is the particular version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] that your project is built to run on. Specification of a target framework is required because it enables compiler features and assembly references that are exclusive to that version of the framework.
+ A target framework is the particular version of the .NET Framework that your project is built to run on. Specification of a target framework is required because it enables compiler features and assembly references that are exclusive to that version of the framework.
 
  Currently, the following versions of the .NET Framework are available for use:
 
