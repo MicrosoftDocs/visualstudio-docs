@@ -133,7 +133,7 @@ There are several differences:
 
 - Live Unit Testing does not create a new application domain to run tests, but tests run from the **Test Explorer** window do create a new application domain.
 
-- Live Unit Testing runs tests in each test assembly sequentially, whereas if you run multiple tests from the **Test Explorer** window and you selected the **Run Tests in Parallel** button, they will run in parallel.
+- Live Unit Testing runs tests in each test assembly sequentially; in the **Test Explorer** window, you can choose to run multiple tests in parallel.
 
 - Discovery and execution of tests in Live Unit Testing uses version 2 of `TestPlatform`, whereas the **Test Explorer** window uses version 1. You won't notice a difference in most cases, though.
 

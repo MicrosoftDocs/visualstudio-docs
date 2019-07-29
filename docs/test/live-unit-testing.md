@@ -140,7 +140,7 @@ There are some differences between Live Unit Testing automatically running and u
 
 - Running or debugging tests from the Test Explorer window runs regular binaries, whereas Live Unit Testing runs instrumented binaries.
 - Live Unit Testing does not create a new application domain to run tests, but rather runs tests from the default domain. Tests run from the **Test Explorer** window do create a new application domain.
-- Live Unit Testing runs tests in each test assembly sequentially. If you run multiple tests from the **Test Explorer** window and the **Run Tests in Parallel** button is selected, tests run in parallel.
+- Live Unit Testing runs tests in each test assembly sequentially. In the **Test Explorer** window, you can choose an option to run multiple tests in parallel.
 
 ## Live Unit Testing and large solutions
 
