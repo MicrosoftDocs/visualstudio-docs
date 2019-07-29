@@ -20,27 +20,27 @@ A project can be built to run on a *target framework*, which is a particular ver
 
  Currently, the following versions of the .NET Framework are available for use:
 
-- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 2.0 (included in Visual Studio 2005)
+- The .NET Framework 2.0 (included in Visual Studio 2005)
 
-- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 3.0 (included in [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)])
+- The .NET Framework 3.0 (included in [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)])
 
-- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 3.5 (included in [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)])
+- The .NET Framework 3.5 (included in [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)])
 
-- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.5.2
+- The .NET Framework 4.5.2
 
-- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.6 (included in [!INCLUDE[vs_dev14](../misc/includes/vs_dev14_md.md)])
+- The .NET Framework 4.6 (included in [!INCLUDE[vs_dev14](../misc/includes/vs_dev14_md.md)])
 
-- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.6.1
+- The .NET Framework 4.6.1
 
-- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.6.2
+- The .NET Framework 4.6.2
 
-- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.7
+- The .NET Framework 4.7
 
-- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.7.1
+- The .NET Framework 4.7.1
 
-- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.7.2
+- The .NET Framework 4.7.2
 
-- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.8
+- The .NET Framework 4.8
 
 The versions of the .NET Framework differ from one another in the list of assemblies that each makes available to reference. For example, you cannot build Windows Presentation Foundation (WPF) applications unless your project targets the .NET Framework version 3.0 or above.
 
