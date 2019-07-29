@@ -12,6 +12,9 @@ ms.workload:
 # MSBuild target framework and target platform
 A project can be built to run on a *target framework*, which is a particular version of the .NET Framework, and a *target platform*, which is a particular software architecture.  For example, you can target an application to run on the .NET Framework 2.0 on a 32-bit platform that is compatible with the 802x86 processor family ("x86"). The combination of target framework and target platform is known as the *target context*.
 
+> [!IMPORTANT]
+> This article shows the old way to specify a target framework. SDK-style projects enable different TargetFrameworks like netstandard. For more info, see [Target frameworks](/dotnet/standard/frameworks).
+
 ## Target framework and profile
  A target framework is the particular version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] that your project is built to run on. Specification of a target framework is required because it enables compiler features and assembly references that are exclusive to that version of the framework.
 
@@ -34,6 +37,10 @@ A project can be built to run on a *target framework*, which is a particular ver
 - The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.7
 
 - The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.7.1
+
+- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.7.2
+
+- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.8
 
 The versions of the .NET Framework differ from one another in the list of assemblies that each makes available to reference. For example, you cannot build Windows Presentation Foundation (WPF) applications unless your project targets the .NET Framework version 3.0 or above.
 
