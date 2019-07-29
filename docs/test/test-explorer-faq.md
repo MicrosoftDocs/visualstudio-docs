@@ -17,13 +17,16 @@ manager: jillfra
 ---
 # Visual Studio Test Explorer FAQ
 
+::: moniker range=">=vs-2019"
 ## Where is group by Traits in Visual Studio 2019?
-This Trait grouping was moved to be a column. With the multi-tiered and customizable hierarchy in Visual Studio 2019 Update 16.2 we thought continuing to include traits as a grouping created unneeded visual complexity. We are definitely listening to feedback on this design! https://developercommunity.visualstudio.com/content/problem/588029/no-longer-able-to-group-by-trait-in-test-explorer.html
+This Trait grouping was moved to be a column. With the multi-tiered and customizable hierarchy in Visual Studio 2019 version 16.2, we thought including traits as a grouping created unneeded visual complexity. We are definitely listening to feedback on this design! https://developercommunity.visualstudio.com/content/problem/588029/no-longer-able-to-group-by-trait-in-test-explorer.html
 
 For now, you can right click on the column in the Test Explorer and select Columns. Check the Trait column and it will appear in the Test Explorer. You can now filter this column by what traits you are interested in.
 
 ![Display the Trait column](media/vs-2019/TraitColumn.png)
 ![Filter the trait column](media/vs-2019/TraitColumnFilter.png)
+
+::: moniker-end
 
 ## Dynamic test discovery
 
