@@ -3,21 +3,25 @@ title: Options, Text Editor, General
 ms.date: 01/18/2019
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.RDL_Expression.General"
-  - "VS.ToolsOptionsPages.Text_Editor.SQL.General"
-  - "vs.toolsoptionspages.text_editor"
-  - "VS.ToolsOptionsPages.Text_Editor.T-SQL80.General"
-  - "VS.ToolsOptionsPages.Text_Editor.SQL_Script.General"
-  - "VS.ToolsOptionsPages.Text_Editor.T-SQL7.General"
-  - "VS.ToolsOptionsPages.Text_Editor.T-SQL.General"
-  - "VS.ToolsOptionsPages.Text_Editor.PL/SQL.General"
   - "VS.ToolsOptionsPages.Text_Editor"
-  - "VS.ToolsOptionsPages.Text_Editor.XOML.General"
-  - "VS.ToolsOptionsPages.Text_Editor.SQL"
-  - "VS.ToolsOptionsPages.Text_Editor.SQL_Script"
+  - "vs.toolsoptionspages.text_editor"
+  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting"
+  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining"
   - "VS.ToolsOptionsPages.Text_Editor.General"
+  - "VS.ToolsOptionsPages.Text_Editor.PL/SQL"
+  - "VS.ToolsOptionsPages.Text_Editor.PL/SQL.General"
   - "VS.ToolsOptionsPages.Text_Editor.Python"
   - "VS.ToolsOptionsPages.Text_Editor.R"
+  - "VS.ToolsOptionsPages.Text_Editor.RDL_Expression.General"
+  - "VS.ToolsOptionsPages.Text_Editor.SQL"
+  - "VS.ToolsOptionsPages.Text_Editor.SQL.General"
+  - "VS.ToolsOptionsPages.Text_Editor.SQL_Script"
+  - "VS.ToolsOptionsPages.Text_Editor.SQL_Script.General"
+  - "VS.ToolsOptionsPages.Text_Editor.T-SQL"
+  - "VS.ToolsOptionsPages.Text_Editor.T-SQL.General"
+  - "VS.ToolsOptionsPages.Text_Editor.T-SQL7.General"
+  - "VS.ToolsOptionsPages.Text_Editor.T-SQL80"
+  - "VS.ToolsOptionsPages.Text_Editor.T-SQL80.General"
 helpviewer_keywords:
   - "Text Editor Options dialog box"
   - "Code Editor"
@@ -30,7 +34,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Options, Text Editor, General
+# Options dialog box: Text Editor \> General
 
 This dialog box lets you change global settings for the Visual Studio code and text editor. To display this dialog box, select **Options** on the **Tools** menu, expand the **Text Editor** folder, and then select **General**.
 

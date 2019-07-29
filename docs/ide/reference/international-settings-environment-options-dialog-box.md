@@ -32,4 +32,3 @@ Lists the available languages for the installed product language versions. If mu
 ### See also
 
 - [Install language packs](../../install/install-visual-studio.md#step-6---install-language-packs-optional)
-- [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

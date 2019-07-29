@@ -1966,6 +1966,16 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/reference/text-editor-options-dialog-box.md",
+            "redirect_url": "/visualstudio/ide/reference/options-text-editor-general",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/reference/environment-options-dialog-box.md",
+            "redirect_url": "/visualstudio/ide/reference/general-environment-options-dialog-box",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/reference/synchronized-settings-environment-options-dialog-box.md",
             "redirect_url": "/visualstudio/ide/reference/accounts-environment-options-dialog-box",
             "redirect_document_id": false
@@ -7937,6 +7947,11 @@
         },
         {
             "source_path": "subscriptions/volume-license-onboarding-email.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/resend-assignment-email.md",
             "redirect_url": "/visualstudio/subscriptions",
             "redirect_document_id": false
         }
