@@ -1,14 +1,14 @@
 ---
-title: Azure Community Benefit in Visual Studio Subscription | Microsoft Docs
+title: Azure Community Support benefit in Visual Studio Subscription | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
 ms.date: 07/29/2019
 ms.topic: conceptual
-description:  Learn about the Azure Community benefit included in selected Visual Studio subscriptions.
+description:  Learn about the Azure Community Support benefit included in selected Visual Studio subscriptions.
 ---
 
-# Azure Community forum in Visual Studio subscriptions
+# Azure Community Support forum in Visual Studio subscriptions
 Get help directly from the Azure team within select support forums via Azure Community.  The Azure Community benefit provides you with access to a collection of forums focused on Azure-related topics.
 
 ## Available topics
