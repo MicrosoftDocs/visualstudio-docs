@@ -1,18 +1,21 @@
 ---
 title: "Step 3: Set your form properties"
-ms.date: 11/04/2016
+ms.date: 07/30/2019
 ms.topic: conceptual
 ms.assetid: 634ef037-1525-48c8-ac7f-abf04be69376
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
+dev_langs:
+  - CSharp
 ms.workload:
   - "multiple"
 ---
 # Step 3: Set your form properties
+
 Next, you use the **Properties** window to change the way your form looks.
 
- ![link to video](../data-tools/media/playvideo.gif)For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 1](http://go.microsoft.com/fwlink/?LinkId=205209) or [Tutorial 1: Create a picture viewer in C# - Video 1](http://go.microsoft.com/fwlink/?LinkId=205199). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.
+ ![link to video](../data-tools/media/playvideo.gif) For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 1](http://go.microsoft.com/fwlink/?LinkId=205209) or [Tutorial 1: Create a picture viewer in C# - Video 1](http://go.microsoft.com/fwlink/?LinkId=205199). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.
 
 ## To set your form properties
 
@@ -25,16 +28,16 @@ Next, you use the **Properties** window to change the way your form looks.
 
 3. After the form is selected, find the **Text** property in the **Properties** window. Depending on how the list is sorted, you might need to scroll down. Choose **Text**, type **Picture Viewer**, and then choose **Enter**.  Your form should now have the text **Picture Viewer** in its title bar, and the **Properties** window should look similar to the following picture.
 
-    ![Properties window](../ide/media/express_edittextproperty.png)
-   **Properties** window
+    ![Properties window](../ide/media/express_edittextproperty.png)<br>
+   ***Properties** window*
 
    > [!NOTE]
    > Properties can be ordered by a **Categorized** or **Alphabetical** view. You can switch between these two views by using the buttons on the **Properties** window. In this tutorial, it's easier to find properties through the **Alphabetical** view.
 
 4. Go back to **Windows Forms Designer**. Choose the form's lower-right drag handle, which is the small white square in the lower-right of the form and appears as follows.
 
-    ![Drag handle](../ide/media/express_bottomrt_drag.png)
-   Drag handle
+    ![Drag handle](../ide/media/express_bottomrt_drag.png)<br>
+   *Drag handle*
 
     Drag the handle to resize the form so the form is wider and a bit taller.
 
@@ -48,8 +51,8 @@ Next, you use the **Properties** window to change the way your form looks.
 
    - On the toolbar, choose the **Start Debugging** button, which appears as follows.
 
-      ![Start Debugging toolbar button](../ide/media/express_icondebug.png)
-     **Start Debugging** toolbar button
+      ![Start Debugging toolbar button](../ide/media/express_icondebug.png)<br>
+     ***Start Debugging** toolbar button*
 
      Just like before, the IDE builds and runs your program, and a window appears.
 
@@ -59,7 +62,7 @@ Next, you use the **Properties** window to change the way your form looks.
 
    - On the menu bar, choose **Debug** > **Stop Debugging**.
 
-   - Choose the **X** button in the upper corner of the **Form1** window.
+   - Choose the **X** button in the upper corner of the **Picture Viewer** window.
 
 ## To continue or review
 

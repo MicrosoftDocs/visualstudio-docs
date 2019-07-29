@@ -45,11 +45,11 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 
    ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. On the **Create a new project** window, enter or type *Windows Forms* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list.
+1. On the **Create a new project** window, enter or type *Windows Forms* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list.
 
    After you apply the language and platform filters, choose the **Windows Forms App (.NET Framework)** template, and then choose **Next**.
 
-   ![Choose the Visual Basic template for the Windows Forms App (.NET Framework)](../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png)
+   ![Choose the C# template for the Windows Forms App (.NET Framework)](../get-started/csharp/media/vs-2019/csharp-create-new-project-search-winforms-filtered.png)
 
    > [!NOTE]
    > If you do not see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.

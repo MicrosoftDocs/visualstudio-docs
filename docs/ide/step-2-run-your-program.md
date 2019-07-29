@@ -12,6 +12,7 @@ ms.workload:
   - "multiple"
 ---
 # Step 2: Run your program
+
 When you create a new solution, you actually build a program that runs. It doesn't do much yet&mdash;it just displays an empty window that shows **Form1** in the title bar. But it does run, as you're about to find out.
 
  ![link to video](../data-tools/media/playvideo.gif)For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 1](http://go.microsoft.com/fwlink/?LinkId=205209) or [Tutorial 1: Create a picture viewer in C# - Video 1](http://go.microsoft.com/fwlink/?LinkId=205199). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.
@@ -27,17 +28,17 @@ When you create a new solution, you actually build a program that runs. It doesn
     - On the toolbar, choose the **Start Debugging** button, which appears as follows:
 
       ![Start Debugging toolbar button](../ide/media/express_icondebug.png)<br>
-      **Start Debugging** toolbar button
+      ***Start Debugging** toolbar button*
 
 2. Visual Studio runs your program, and a window called **Form1** appears. The following diagram shows the program you just built. The program is running, and you'll soon add to it.
 
      ![Windows Form application program running](../ide/media/express_firstrun.png)<br>
-**Windows Forms** application program, running
+***Windows Forms** application program, running*
 
 3. Go back to the Visual Studio integrated development environment (IDE), and then look at the new toolbar. Additional buttons appear on the toolbar when you run a program. These buttons let you do things like stop and start your program, and help you track down any errors (bugs) it may have. For this example, we're just using it to start and stop the program.
 
      ![Debugging toolbar](../ide/media/express_debugtoolbar.png)<br>
-**Debugging** toolbar
+***Debugging** toolbar*
 
 4. Use one of the following methods to stop your program:
 

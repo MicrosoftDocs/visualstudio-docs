@@ -1,16 +1,19 @@
 ---
 title: "Step 4: Lay out your form with a TableLayoutPanel control"
-ms.date: 11/04/2016
+ms.date: 07/30/2019
 ms.topic: conceptual
 ms.assetid: 61acde79-e115-4bad-bb06-1fbe37717a3e
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
+dev_langs:
+  - CSharp
 ms.workload:
   - "multiple"
 ---
 # Step 4: Lay out your form with a TableLayoutPanel control
-In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to your form. The TableLayoutPanel helps properly align controls in the form that you will add later.
+
+In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to your form. The TableLayoutPanel helps properly align controls in the form that you'll add later.
 
  ![link to video](../data-tools/media/playvideo.gif)For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 2](http://go.microsoft.com/fwlink/?LinkId=205211) or [Tutorial 1: Create a picture viewer in C# - Video 2](http://go.microsoft.com/fwlink/?LinkId=205200). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.
 
@@ -20,8 +23,8 @@ In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to 
 
 2. Choose the small triangle symbol next to the **Containers** group to open it, as shown in the following picture.
 
-     ![Containers group](../ide/media/express_toolbox.png)
-**Containers** group
+     ![Containers group](../ide/media/express_toolbox.png)<br>
+***Containers** group*
 
 3. You can add controls like buttons, check boxes, and labels to your form. Double-click the TableLayoutPanel control in the **Toolbox**. (Or, you can drag the control from the toolbox onto the form.) When you do this, the IDE adds a TableLayoutPanel control to your form, as shown in the following picture.
 
@@ -29,24 +32,24 @@ In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to 
 **TableLayoutPanel** control
 
     > [!NOTE]
-    > After you add your TableLayoutPanel, if a window appears inside your form with the title **TableLayoutPanel Tasks**, choose anywhere inside the form to close it. You will learn more about this window later in the tutorial.
+    > After you add your TableLayoutPanel, if a window appears inside your form with the title **TableLayoutPanel Tasks**, choose anywhere inside the form to close it. You'll learn more about this window later in the tutorial.
 
      Notice how the **Toolbox** expands to cover your form when you choose its tab, and closes after you choose anywhere outside of it. That's the IDE auto-hide feature. You can turn it on or off for any of the windows by choosing the pushpin icon in the upper-right corner of the window to toggle auto-hide and lock it in place. The pushpin icon appears as follows.
 
-     ![Pushpin icon](../ide/media/express_pushpintoolbox.png)
-**Pushpin** icon
+     ![Pushpin icon](../ide/media/express_pushpintoolbox.png)<br>
+***Pushpin** icon*
 
 4. Be sure the TableLayoutPanel is selected by choosing it. You can verify what control is selected by looking at the drop-down list at the top of the **Properties** window, as shown in the following picture.
 
-     ![Properties window showing TableLayoutPanel control](../ide/media/express_controlspropwin.png)
-**Properties** window showing **TableLayoutPanel** control
+     ![Properties window showing TableLayoutPanel control](../ide/media/express_controlspropwin.png)<br>
+***Properties** window showing **TableLayoutPanel** control*
 
 5. Choose the **Alphabetical** button on the toolbar in the **Properties** window. This causes the list of properties in the **Properties** window to display in alphabetical order, which will make it easier to locate properties in this tutorial.
 
 6. The control selector is a drop-down list at the top of the **Properties** window. In this example, it shows that a control called `tableLayoutPanel1` is selected. You can select controls either by choosing an area in **Windows Forms Designer** or by choosing from the control selector. Now that the TableLayoutPanel is selected, find the **Dock** property and choose **Dock**, which should be set to **None**. Notice that a drop-down arrow appears next to the value. Choose the arrow, and then select the **Fill** button (the large button in the middle), as shown in the following picture.
 
-     ![Properties window with Fill selected](../ide/media/express_docktable.png)
-**Properties** window with **Fill** selected
+     ![Properties window with Fill selected](../ide/media/express_docktable.png)<br>
+***Properties** window with **Fill** selected*
 
      *Docking* in Visual Studio refers to when a window is attached to another window or area in the IDE. For example, the **Properties** window can be undocked - that is, unattached and free-floating within Visual Studio - or it can be docked against **Solution Explorer**.
 
@@ -64,20 +67,20 @@ In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to 
 
 9. Choose the triangle to display the control's task list, as shown in the following picture.
 
-     ![TableLayoutPanel tasks](../ide/media/express_tablepanel.png)
-**TableLayoutPanel** tasks
+     ![TableLayoutPanel tasks](../ide/media/express_tablepanel.png)<br>
+***TableLayoutPanel** tasks*
 
-10. Choose the **Edit Rows and Columns** task to display the **Column and Row Styles** window. Choose **Column1**, and set its size to 15 percent by being sure the **Percent** button is selected and entering **15** in the **Percent** box. (That's a <xref:System.Windows.Forms.NumericUpDown> control, which you will use in a later tutorial.) Choose **Column2** and set it to 85 percent. Don't choose the **OK** button yet, because the window will close. (But if you do, you can reopen it using the task list.)
+10. Choose the **Edit Rows and Columns** task to display the **Column and Row Styles** window. Choose **Column1**, and set its size to 15 percent by being sure the **Percent** button is selected and entering **15** in the **Percent** box. (That's a <xref:System.Windows.Forms.NumericUpDown> control, which you'll use in a later tutorial.) Choose **Column2** and set it to 85 percent. Don't choose the **OK** button yet, because the window will close. (But if you do, you can reopen it using the task list.)
 
-     ![TableLayoutPanel column and row styles](../ide/media/vs_tablelayoutpanel_setup.png)
-**TableLayoutPanel** column and row styles
+     ![TableLayoutPanel column and row styles](../ide/media/vs_tablelayoutpanel_setup.png)<br>
+***TableLayoutPanel** column and row styles*
 
 11. From the **Show** drop-down list at the top of the window, choose **Rows**. Set **Row1** to 90 percent and **Row2** to 10 percent.
 
 12. Choose the **OK** button. Your TableLayoutPanel should now have a large top row, a small bottom row, a small left column, and a large right column. You can resize the rows and columns in the TableLayoutPanel by choosing **tableLayoutPanel1** in the form and then dragging its row and column borders.
 
-     ![Form1 with resized TableLayoutPanel](../ide/media/vs_formafterlayoutpanel.png)
-**Form1** with resized **TableLayoutPanel**
+     ![Form1 with resized TableLayoutPanel](../ide/media/vs_formafterlayoutpanel.png)<br>
+***Form1** (Picture Viewer) with resized **TableLayoutPanel***
 
 ## To continue or review
 
