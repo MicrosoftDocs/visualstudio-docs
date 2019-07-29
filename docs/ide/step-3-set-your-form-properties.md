@@ -21,12 +21,12 @@ Next, you use the **Properties** window to change the way your form looks.
 
 1. Be sure you're looking at **Windows Forms Designer**. In the Visual Studio integrated development environment (IDE), choose the **Form1.cs [Design]** tab (or the **Form1.vb [Design]** tab in Visual Basic).
 
-2. Choose anywhere inside the form **Form1** to select it. Look at the **Properties** window, which should now be showing the properties for the form. Forms have various properties. For example, you can set the foreground and background color, title text that appears at the top of the form, size of the form, and other properties.
+1. Choose anywhere inside the form **Form1** to select it. Look at the **Properties** window, which should now be showing the properties for the form. Forms have various properties. For example, you can set the foreground and background color, title text that appears at the top of the form, size of the form, and other properties.
 
    > [!NOTE]
    > If the **Properties** window doesn't appear, stop your program by choosing the square **Stop Debugging** button on the toolbar, or just close the window. If the program is stopped and you still don't see the **Properties** window, on the menu bar, choose **View** > **Properties Window**.
 
-3. After the form is selected, find the **Text** property in the **Properties** window. Depending on how the list is sorted, you might need to scroll down. Choose **Text**, type **Picture Viewer**, and then choose **Enter**.  Your form should now have the text **Picture Viewer** in its title bar, and the **Properties** window should look similar to the following picture.
+1. After the form is selected, find the **Text** property in the **Properties** window. Depending on how the list is sorted, you might need to scroll down. Choose **Text**, type **Picture Viewer**, and then choose **Enter**.  Your form should now have the text **Picture Viewer** in its title bar, and the **Properties** window should look similar to the following picture.
 
     ![Properties window](../ide/media/express_edittextproperty.png)<br>
    ***Properties** window*
@@ -34,16 +34,16 @@ Next, you use the **Properties** window to change the way your form looks.
    > [!NOTE]
    > Properties can be ordered by a **Categorized** or **Alphabetical** view. You can switch between these two views by using the buttons on the **Properties** window. In this tutorial, it's easier to find properties through the **Alphabetical** view.
 
-4. Go back to **Windows Forms Designer**. Choose the form's lower-right drag handle, which is the small white square in the lower-right of the form and appears as follows.
+1. Go back to **Windows Forms Designer**. Choose the form's lower-right drag handle, which is the small white square in the lower-right of the form and appears as follows.
 
     ![Drag handle](../ide/media/express_bottomrt_drag.png)<br>
    *Drag handle*
 
     Drag the handle to resize the form so the form is wider and a bit taller.
 
-5. Look at the **Properties** window, and notice that the **Size** property has changed. The **Size** property changes each time you resize the form. Try dragging the form's handle to resize it to a form size of approximately **550, 350** (no need to be exact), which should work well for this project. As an alternative, you can enter the values directly in the **Size** property and then choose the **Enter** key.
+1. Look at the **Properties** window, and notice that the **Size** property has changed. The **Size** property changes each time you resize the form. Try dragging the form's handle to resize it to a form size of approximately **550, 350** (no need to be exact), which should work well for this project. As an alternative, you can enter the values directly in the **Size** property and then choose the **Enter** key.
 
-6. Run your program again. Remember, you can use any of the following methods to run your program.
+1. Run your program again. Remember, you can use any of the following methods to run your program.
 
    - Choose the **F5** key.
 
@@ -56,7 +56,7 @@ Next, you use the **Properties** window to change the way your form looks.
 
      Just like before, the IDE builds and runs your program, and a window appears.
 
-7. Before going to the next step, stop your program, because the IDE won't let you change your program while it's running. Remember, you can use any of the following methods to stop your program.
+1. Before going to the next step, stop your program, because the IDE won't let you change your program while it's running. Remember, you can use any of the following methods to stop your program.
 
    - On the toolbar, choose the **Stop Debugging** button.
 
