@@ -1,7 +1,7 @@
 ---
 title: "Run and debug unit tests with Test Explorer"
 description: Learn how to run tests with Test Explorer in Visual Studio. This topic covers how to enable automatic test runs after build, view test results, group and filter the test list, create playlists, debug tests, and use test shortcuts.
-ms.date: 11/04/2016
+ms.date: 07/29/2019
 ms.topic: conceptual
 f1_keywords:
   - "vs.unittesting.testexplorer.overview"
@@ -217,7 +217,7 @@ The playlist opens in a new Test Explorer tab. You can use this playlist once an
 ::: moniker range=">=vs-2019"
 ### Test Explorer columns
 
-The groups are also available as columns in the Test Explorer along with Trait, Stack Trace, Error Message, and Fully Qualified Name. Most columns are not visible by default and you can customize what collumns you see as well as the order in which they appear.
+The [groups](#test-explorer-groups) are also available as columns in Test Explorer, along with Trait, Stack Trace, Error Message, and Fully Qualified Name. Most columns are not visible by default, and you can customize which collumns you see and the order in which they appear.
 
 ![Group by State and then Class](../test/media/vs-2019/test-explorer-columns-16-2.png)
 
@@ -271,7 +271,7 @@ To filter by a different criteria:
 
 To exclude a subset of the results of a filter, use the following syntax:
 
-```cpp
+```
 FilterName:"Criteria" -FilterName:"SubsetCriteria"
 ```
 
