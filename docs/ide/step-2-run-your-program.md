@@ -1,16 +1,18 @@
 ---
 title: "Step 2: Run your program"
-ms.date: 11/04/2016
+ms.date: 07/30/2019
 ms.topic: conceptual
 ms.assetid: 9a8fe90e-c97b-4e98-b6c8-0c6b3962c49d
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
+dev_langs:
+  - CSharp
 ms.workload:
   - "multiple"
 ---
 # Step 2: Run your program
-When you created a new solution, you actually built a program that runs. It doesn't do much yet—it just displays an empty window that shows **Form1** in the title bar. But it does run, as you're about to find out.
+When you create a new solution, you actually build a program that runs. It doesn't do much yet&mdash;it just displays an empty window that shows **Form1** in the title bar. But it does run, as you're about to find out.
 
  ![link to video](../data-tools/media/playvideo.gif)For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 1](http://go.microsoft.com/fwlink/?LinkId=205209) or [Tutorial 1: Create a picture viewer in C# - Video 1](http://go.microsoft.com/fwlink/?LinkId=205199). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.
 
@@ -22,22 +24,22 @@ When you created a new solution, you actually built a program that runs. It does
 
     - On the menu bar, choose **Debug** > **Start Debugging**.
 
-    - On the toolbar, choose the **Start Debugging** button, which appears as follows.
+    - On the toolbar, choose the **Start Debugging** button, which appears as follows:
 
-         ![Start Debugging toolbar button](../ide/media/express_icondebug.png)
-**Start Debugging** toolbar button
+      ![Start Debugging toolbar button](../ide/media/express_icondebug.png)<br>
+      **Start Debugging** toolbar button
 
-2. Visual Studio runs your program, and a window called **Form1** appears. The following diagram shows the program you just built. The program is running, and you will soon add to it.
+2. Visual Studio runs your program, and a window called **Form1** appears. The following diagram shows the program you just built. The program is running, and you'll soon add to it.
 
-     ![Windows Form application program running](../ide/media/express_firstrun.png)
-**Windows Forms** application program running
+     ![Windows Form application program running](../ide/media/express_firstrun.png)<br>
+**Windows Forms** application program, running
 
-3. Go back to the Visual Studio integrated development environment (IDE), and look at the new toolbar. Additional buttons appear on the toolbar when you run a program. These buttons let you do things like stop and start your program, and help you track down any errors (bugs) it may have. For this example, we're just using it to start and stop the program.
+3. Go back to the Visual Studio integrated development environment (IDE), and then look at the new toolbar. Additional buttons appear on the toolbar when you run a program. These buttons let you do things like stop and start your program, and help you track down any errors (bugs) it may have. For this example, we're just using it to start and stop the program.
 
-     ![Debugging toolbar](../ide/media/express_debugtoolbar.png)
+     ![Debugging toolbar](../ide/media/express_debugtoolbar.png)<br>
 **Debugging** toolbar
 
-4. Use one of the following methods to stop your program.
+4. Use one of the following methods to stop your program:
 
     - On the toolbar, choose the **Stop Debugging** button.
 
