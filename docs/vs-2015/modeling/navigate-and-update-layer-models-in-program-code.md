@@ -68,7 +68,7 @@ IEnumerable<ILayerComment> comments =
 ```  
   
 > [!CAUTION]
->  The `Comments` property of an `ILayer` gets comments that are contained within the `ILayer`. It does not get the comments that are linked to it.  
+> The `Comments` property of an `ILayer` gets comments that are contained within the `ILayer`. It does not get the comments that are linked to it.  
   
  Create a comment by invoking `CreateComment()` on the appropriate container.  
   

@@ -31,15 +31,15 @@ Depending on the [!INCLUDE[wiprlhext](../includes/wiprlhext-md.md)] User Access 
   
  You can see a list of the processes that are available by setting the cross-process profiling visibility options. These options are available in the **Attach to process** window that is displayed when you click **Attach to Process**:  
   
--   **Show processes from all users**  
+- **Show processes from all users**  
   
      When this option is not selected, the list displays only those processes that are owned by the current user. When **Show processes from all users** is selected, the list displays processes from all users.  
   
--   **Show processes in all sessions**  
+- **Show processes in all sessions**  
   
      When this option is not selected, the list displays processes in the current session. When this option is selected, the list displays processes in all sessions.  
   
 ## See Also  
  [Overviews](../profiling/overviews-performance-tools.md)   
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [How to: Attach to a Running Process](http://msdn.microsoft.com/636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4)
+ [How to: Attach to a Running Process](https://msdn.microsoft.com/636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4)

@@ -3,15 +3,14 @@ title: Install Python support
 description: How to install the Python Tools for Visual Studio (PTVS) in Visual Studio 2017, 2015, 2013, 2012, and 2010, including options and installation locations.
 ms.date: 03/13/2019
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
   - python
   - data-science
 ---
-
 # How to install Python support in Visual Studio on Windows
 
 To install Python support for Visual Studio (also known as Python Tools for Visual Studio or PTVS), follow the instructions in the section that matches your version of Visual Studio:
@@ -28,7 +27,7 @@ To quickly test Python support after following the installation steps, open the 
 > [!Note]
 > Python support is not presently available in Visual Studio for Mac, but is available on Mac and Linux through Visual Studio Code. See [questions and answers](overview-of-python-tools-for-visual-studio.md#questions-and-answers).
 
-<a name="visual-studio-2017"></a>
+<a name="visual-studio-2017-and-2019"></a>
 ## Visual Studio 2019 and Visual Studio 2017
 
 1. Download and run the latest Visual Studio installer. If you have Visual Studio installed already, run the Visual Studio Installer, select the **Modify** option (see [Modify Visual Studio](../install/modify-visual-studio.md)) and go to step 2.
@@ -44,15 +43,16 @@ To quickly test Python support after following the installation steps, open the 
     ![Python development workload in the Visual Studio installer](media/installation-python-workload.png)
 
     ::: moniker range="vs-2017"
-    Optional: if you're working with data science, also consider the **Data science and analytical applications** workload. This workload includes support for the Python, R,  and F# languages. For more information, see [Data science and analytical applications workload](data-science-and-analytical-applications-workload.md).
+    Optional: if you're working with data science, also consider the **Data science and analytical applications** workload. This workload includes support for the Python, R, and F# languages. For more information, see [Data science and analytical applications workload](data-science-and-analytical-applications-workload.md).
+
+    > [!Note]
+    > The Python and Data Science workloads are available only with Visual Studio 2017 version 15.2 and later.
+
     ::: moniker-end
 
     ::: moniker range=">=vs-2019"
     Optional: if you're working with data science, also consider the **Data science and analytical applications** workload. This workload includes support for the Python and F# languages. For more information, see [Data science and analytical applications workload](data-science-and-analytical-applications-workload.md).
     ::: moniker-end
-
-    > [!Note]
-    > The Python and Data Science workloads are available only with Visual Studio 2017 version 15.2 and later.
 
 1. On the right side of the installer, chose additional options if desired. Skip this step to accept the default options.
 
@@ -64,6 +64,7 @@ To quickly test Python support after following the installation steps, open the 
     ![Python development options in the Visual Studio 2019 installer](media/installation-python-options-2019.png)
     ::: moniker-end
 
+    ::: moniker range="<=vs-2017"
     | Option | Description |
     | --- | --- |
     | Python distributions | Choose any combination of the available options, such as 32-bit and 64-bit variants of the Python 2, Python 3, Miniconda, Anaconda2, and Anaconda3 distributions that you plan to work with. Each includes the distribution's interpreter, runtime, and libraries. Anaconda, specifically, is an open data science platform that includes a wide range of pre-installed packages. (You can return to the Visual Studio installer at any time to add or remove distributions.)  **Note**: If you've installed a distribution outside of the Visual Studio installer, there's no need to check the equivalent option here. Visual Studio automatically detects existing Python installations. See [The Python Environments window](managing-python-environments-in-visual-studio.md#the-python-environments-window). Also, if a newer version of Python is available than what's shown in the installer, you can install that version separately and Visual Studio will detect it. |
@@ -72,6 +73,17 @@ To quickly test Python support after following the installation steps, open the 
     | **Python IoT support** | Supports Windows IoT Core development using Python. |
     | **Python native development tools** | Installs the C++ compiler and other necessary components to develop native extensions for Python. See [Create a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md). Also install the **Desktop development with C++** workload for full C++ support. |
     | **Azure Cloud Services core tools** | Provides additional support for developer Azure Cloud Services in Python. See [Azure cloud service projects](python-azure-cloud-service-project-template.md). |
+    ::: moniker-end
+
+    ::: moniker range=">=vs-2019"
+    | Option | Description |
+    | --- | --- |
+    | Python distributions | Choose any combination of the available options, such as 32-bit and 64-bit variants of the Python 2, Python 3, Miniconda, Anaconda2, and Anaconda3 distributions that you plan to work with. Each includes the distribution's interpreter, runtime, and libraries. Anaconda, specifically, is an open data science platform that includes a wide range of pre-installed packages. (You can return to the Visual Studio installer at any time to add or remove distributions.)  **Note**: If you've installed a distribution outside of the Visual Studio installer, there's no need to check the equivalent option here. Visual Studio automatically detects existing Python installations. See [The Python Environments window](managing-python-environments-in-visual-studio.md#the-python-environments-window). Also, if a newer version of Python is available than what's shown in the installer, you can install that version separately and Visual Studio will detect it. |
+    | **Cookiecutter template support** | Installs the Cookiecutter graphical UI to discover templates, input template options, and create projects and files. See [Use the Cookiecutter extension](using-python-cookiecutter-templates.md). |
+    | **Python web support** | Installs tools for web development including HTML, CSS, and JavaScript editing support, along with templates for projects using the Bottle, Flask, and Django frameworks. See [Python web project templates](python-web-application-project-templates.md). |
+    | **Python native development tools** | Installs the C++ compiler and other necessary components to develop native extensions for Python. See [Create a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md). Also install the **Desktop development with C++** workload for full C++ support. |
+    | **Azure Cloud Services core tools** | Provides additional support for developer Azure Cloud Services in Python. See [Azure cloud service projects](python-azure-cloud-service-project-template.md). |
+    ::: moniker-end
 
 1. After installation, the installer provides options to modify, launch, repair, or uninstall Visual Studio. The **Modify** button changes to **Update** when updates to Visual Studio are available for any installed components. (The **Modify** option is then available on the drop-down menu.) You can also launch Visual Studio and the installer from the Windows **Start** menu by searching on "Visual Studio".
 

@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "IntelliSense, Complete Word"
   - "Complete Word"
 ms.assetid: 0ace5ac3-f9e1-4e6d-add4-42967b1f96a6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -19,7 +19,7 @@ Word completion fills in the missing characters on a partially typed word. If th
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more, see [Extending the Editor and Language Services](../../extensibility/extending-the-editor-and-language-services.md).
 
 > [!NOTE]
->  We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.
+> We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.
 
 ## Implementation Steps
 

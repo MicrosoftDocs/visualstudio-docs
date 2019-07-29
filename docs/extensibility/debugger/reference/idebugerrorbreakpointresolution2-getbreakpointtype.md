@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugErrorBreakpointResolution2::GetBreakpointType"
 ms.assetid: 0bdb1152-4752-4464-ae7c-6d666dc293b7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugErrorBreakpointResolution2::GetBreakpointType
 Gets the breakpoint type.
@@ -30,10 +33,9 @@ int GetBreakpointType(
 );
 ```
 
-#### Parameters
-`pBPType`
-
- [out] Returns a value from the [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md) enumeration that describes the type of breakpoint.
+## Parameters
+`pBPType`\
+[out] Returns a value from the [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md) enumeration that describes the type of breakpoint.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -75,6 +77,6 @@ HRESULT CDebugErrorBreakpointResolution::GetBreakpointType(BP_TYPE* pBPType)
 }
 ```
 
-## See Also
+## See also
 - [IDebugErrorBreakpointResolution2](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2.md)
 - [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md)

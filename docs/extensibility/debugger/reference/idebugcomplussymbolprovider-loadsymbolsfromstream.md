@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::LoadSymbolsFromStream"
   - "LoadSymbolsFromStream"
 ms.assetid: 1de272f0-24f4-4548-8b70-a205cddd4727
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::LoadSymbolsFromStream
 Loads debug symbols given the data stream.
@@ -37,26 +40,21 @@ int LoadSymbolsFromStream(
 );
 ```
 
-#### Parameters
-`ulAppDomainID`
+## Parameters
+`ulAppDomainID`\
+[in] Identifier of the application domain.
 
- [in] Identifier of the application domain.
+`guidModule`\
+[in] Unique identifier of the module.
 
-`guidModule`
+`baseAddress`\
+[in] Base memory address.
 
- [in] Unique identifier of the module.
+`pUnkMetadataImport`\
+[in] Object that contains the symbol metadata.
 
-`baseAddress`
-
- [in] Base memory address.
-
-`pUnkMetadataImport`
-
- [in] Object that contains the symbol metadata.
-
-`pStream`
-
- [in] Data stream that contains the symbols.
+`pStream`\
+[in] Data stream that contains the symbols.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -77,5 +75,5 @@ HRESULT CDebugSymbolProvider::LoadSymbolsFromStream(
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

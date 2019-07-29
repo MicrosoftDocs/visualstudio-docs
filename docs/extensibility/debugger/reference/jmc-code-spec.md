@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "JMC_CODE_SPEC structure"
 ms.assetid: d89498f1-4234-46d9-b4e2-abbcbca5068a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # JMC_CODE_SPEC
 This structure is used to set the JustMyCode information for a module.
@@ -33,10 +36,10 @@ public struct JMC_CODE_SPEC {
 ```
 
 ## Members
-fIsUserCode
+`fIsUserCode`\
 Non-zero (`TRUE`) if the module is to be considered user code; otherwise, zero (`FALSE`) if the module is to be treated as external code and not to be debugged.
 
-bstrModuleName
+`bstrModuleName`\
 Name of the module in question.
 
 ## Remarks
@@ -49,6 +52,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [SetJustMyCodeState](../../../extensibility/debugger/reference/idebugengine3-setjustmycodestate.md)

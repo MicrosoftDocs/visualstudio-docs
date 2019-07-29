@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumDebugPropertyInfo2::GetCount"
 ms.assetid: 9b0b3ce6-08cb-46fd-a6d9-92b36e60da19
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEnumDebugPropertyInfo2::GetCount
 Returns the number of elements in the enumeration.
@@ -30,10 +33,9 @@ int GetCount(
 );
 ```
 
-#### Parameters
- `pcelt`
-
- [out] Returns the number of elements in the enumeration.
+## Parameters
+`pcelt`\
+[out] Returns the number of elements in the enumeration.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -41,5 +43,5 @@ int GetCount(
 ## Remarks
  This method is not part of the customary COM enumeration interface which specifies that only the `Next`, `Clone`, `Skip`, and `Reset` methods need to be implemented.
 
-## See Also
+## See also
 - [IEnumDebugPropertyInfo2](../../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md)

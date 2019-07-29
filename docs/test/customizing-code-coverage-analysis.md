@@ -83,7 +83,7 @@ If **Include** is empty, then code coverage processing includes all assemblies t
 
 Include and exclude nodes use regular expressions. For more information, see [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md). Regular expressions aren't the same as wildcards. In particular:
 
-- **.\\*** matches a string of any characters
+- **.\*** matches a string of any characters
 
 - **\\.** matches a dot ".")
 

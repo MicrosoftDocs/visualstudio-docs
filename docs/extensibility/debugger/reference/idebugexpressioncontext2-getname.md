@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugExpressionContext2::GetName"
 ms.assetid: c2b70d22-17af-4986-a7e3-930910367216
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExpressionContext2::GetName
 Retrieves the name of the evaluation context.
@@ -30,10 +33,9 @@ int GetName( 
 );
 ```
 
-#### Parameters
- `pbstrName`
-
- [out] Returns the name of the evaluation context.
+## Parameters
+`pbstrName`\
+[out] Returns the name of the evaluation context.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -45,5 +47,5 @@ int GetName( 
 "{ function-name, source-file-name, module-file-name }"
 ```
 
-## See Also
+## See also
 - [IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md)

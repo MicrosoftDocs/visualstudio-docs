@@ -24,19 +24,19 @@ Drop-down bar
   
  When implementing a drop-down bar, there are four interfaces of primary importance:  
   
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsDropdownBarClient>  
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsDropdownBarClient>  
   
      Implement this interface to insert the content of the drop-down bar. Each drop-down combination can contain plain text or fancy text (bold, underline, or italic), can have window text font coloring or grayed out font coloring, and can optionally provide a small bitmap next to the drop-down item. Similar to the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompletionSet> interface, bitmap images are provided in image lists. Each drop-down combination can have a different image list; however, each image list must contain images of the same height. Additionally, using the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsDropdownBarClient.GetComboTipText%2A> method, you can provide a tooltip for each combination.  
   
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsDropdownBarManager>  
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsDropdownBarManager>  
   
      Call this interface to either create or destroy the drop-down bar for a code window. This interface can also be used to determine whether a drop-down bar is already attached to a code window by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsDropdownBarManager.GetDropdownBar%2A> method. Call <xref:System.Runtime.InteropServices.Marshal.QueryInterface%2A> for <xref:Microsoft.VisualStudio.TextManager.Interop.IVsDropdownBarManager> from <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindow>.  
   
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsDropdownBar>  
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsDropdownBar>  
   
      Call this interface to communicate directly with the drop-down bar. You can use this interface to force a refresh of the drop-down bar contents or to change the selection in one of the list boxes.  
   
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManagerEvents>  
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManagerEvents>  
   
      If you have registered the `ShowDropdownBarOption` in your language service registry key, then your code window manager must monitor this event to synchronize with user preferences regarding whether the drop-down bar should be displayed. If you do not register this option in your language service key, then the option to show or hide the drop-down bar is disabled on the **Options** menu.  
   

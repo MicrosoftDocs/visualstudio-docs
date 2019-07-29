@@ -28,16 +28,16 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
 > [!NOTE]
->  This topic is about UML class diagrams. There is another kind of class diagram, which you can create and use to visualize program code. See [Designing and Viewing Classes and Types](http://go.microsoft.com/fwlink/?LinkId=142231).  
+> This topic is about UML class diagrams. There is another kind of class diagram, which you can create and use to visualize program code. See [Designing and Viewing Classes and Types](http://go.microsoft.com/fwlink/?LinkId=142231).  
   
-##  <a name="Using"></a> Using UML Class Diagrams  
+## <a name="Using"></a> Using UML Class Diagrams  
  You can use a UML class diagram for a variety of purposes:  
   
--   To provide an implementation-independent description of the types that are used in a system and passed between its components.  
+- To provide an implementation-independent description of the types that are used in a system and passed between its components.  
   
      For example, the type Meal Order might be implemented in .NET code in the business layer, in XML at the interfaces between components, in SQL in the database, and in HTML in the user interface. Although these implementations are different in detail, the relationship between a Meal Order and other types, such as Menu and Payment, is always the same. The UML class diagram makes it possible to discuss these relationships separately from the implementations.  
   
--   To clarify the glossary of terms used for communication between the application and its users, and in descriptions of the users' needs. See [Model user requirements](../modeling/model-user-requirements.md).  
+- To clarify the glossary of terms used for communication between the application and its users, and in descriptions of the users' needs. See [Model user requirements](../modeling/model-user-requirements.md).  
   
      For example, consider the user stories, use cases or other requirements descriptions of a restaurant application. In such a description, you would find terms like Menu, Order, Meal, Price, Payment, and so on. You could draw a UML class diagram that defines the relationships between these terms. This will reduce the risk of inconsistencies in the requirements descriptions, and in the user interface, and in the help documents.  
   
@@ -72,43 +72,43 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
   
  See [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md).  
   
-##  <a name="BasicSteps"></a> Basic Steps for Drawing Class Diagrams  
+## <a name="BasicSteps"></a> Basic Steps for Drawing Class Diagrams  
  For reference information about the elements on UML class diagrams, see [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md).  
   
 > [!NOTE]
->  Detailed steps for creating any of the modeling diagrams are described in [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
+> Detailed steps for creating any of the modeling diagrams are described in [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
   
 #### To create a UML Class diagram  
   
-1.  On the **Architecture** menu, choose **New UML or Layer Diagram**.  
+1. On the **Architecture** menu, choose **New UML or Layer Diagram**.  
   
-2.  Under **Templates**, choose **UML Class Diagram**.  
+2. Under **Templates**, choose **UML Class Diagram**.  
   
-3.  Name the diagram.  
+3. Name the diagram.  
   
-4.  In **Add to Modeling Project**, select an existing modeling project in your solution, or **Create a New Modeling Project**, and then choose **OK**.  
+4. In **Add to Modeling Project**, select an existing modeling project in your solution, or **Create a New Modeling Project**, and then choose **OK**.  
   
      A new class diagram appears with the **UMLClass Diagram** Toolbox. The Toolbox contains the required elements and relations.  
   
 #### To draw a UML Class Diagram  
   
-1.  To create a type, choose the **Class**, **Interface** or **Enumeration** tool on the Toolbox, and then click a blank part of the diagram. (If you can’t see the Toolbox, press CTRL+ALT+X.)  
+1. To create a type, choose the **Class**, **Interface** or **Enumeration** tool on the Toolbox, and then click a blank part of the diagram. (If you can’t see the Toolbox, press CTRL+ALT+X.)  
   
-2.  To add attributes or operations to the types, or literals to an enumeration, choose the **Attributes**, **Operations** or **Literals** heading in the type, and press ENTER.  
+2. To add attributes or operations to the types, or literals to an enumeration, choose the **Attributes**, **Operations** or **Literals** heading in the type, and press ENTER.  
   
      You can write a signature such as `f(x:Boolean):Integer`. See [Attributes and Operations](#AttributesAndOperations).  
   
      To add several items quickly, press ENTER two times at the end of each item. You can use the arrow keys to move up and down the list.  
   
-3.  To expand or collapse a type, choose the chevron icon at its upper-left. You can also expand and collapse the **Attributes** and **Operations** section of a class or interface.  
+3. To expand or collapse a type, choose the chevron icon at its upper-left. You can also expand and collapse the **Attributes** and **Operations** section of a class or interface.  
   
-4.  To draw associations, inheritance, or dependency links between the types, click the appropriate tool, then the source type, and then the target type.  
+4. To draw associations, inheritance, or dependency links between the types, click the appropriate tool, then the source type, and then the target type.  
   
-5.  To create types in a package, create a package using the **Package** tool, and then create new types and packages within the package. You can also use the copy command to copy types, and paste them into a package.  
+5. To create types in a package, create a package using the **Package** tool, and then create new types and packages within the package. You can also use the copy command to copy types, and paste them into a package.  
   
-6.  Every diagram is a view on a model that is shared between other diagrams in the same project. To see a tree view of the complete model, choose **View**, **Other Windows**, **UML Model Explorer**.  
+6. Every diagram is a view on a model that is shared between other diagrams in the same project. To see a tree view of the complete model, choose **View**, **Other Windows**, **UML Model Explorer**.  
   
-##  <a name="UsingTypes"></a> Using Classes, Interfaces, and Enumerations  
+## <a name="UsingTypes"></a> Using Classes, Interfaces, and Enumerations  
  There are three standard kinds of classifier available on the toolbox. These are referred to as *types* throughout this document.  
   
  ![A class, an enumeration, and an interface](../modeling/media/uml-classguidetypes.png "UML_ClassGuideTypes")  
@@ -119,9 +119,9 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
   
 - Use an **Enumeration** (3) to represent a type that has a limited number of literal values, for example `Stop` and `Go`.  
   
-  -   Add the literal values to the enumeration. Give each one a separate name.  
+  - Add the literal values to the enumeration. Give each one a separate name.  
   
-  -   You can also provide a numeric value for each literal value, if you want. Open the shortcut menu for the literal in the enumeration, choose **Properties**, and then type a number in the **Value** field in the **Properties** window.  
+  - You can also provide a numeric value for each literal value, if you want. Open the shortcut menu for the literal in the enumeration, choose **Properties**, and then type a number in the **Value** field in the **Properties** window.  
   
   Give each type a unique name.  
   
@@ -148,7 +148,7 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
   
  To create a class from a lifeline, open the shortcut menu for the lifeline, and then choose **Create Class** or **Create Interface**. See [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md).  
   
-##  <a name="AttributesAndOperations"></a> Attributes and Operations  
+## <a name="AttributesAndOperations"></a> Attributes and Operations  
  An attribute (4) is a named value that every instance of a type can have. Accessing an attribute does not change the state of the instance.  
   
  An operation (5) is a method or function that instances of the type can perform. It can return a value. If its **isQuery** property is true, it cannot change the state of the instance.  
@@ -161,9 +161,9 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
   
  For detailed information about all the properties that you can set, see:  
   
--   [Properties of attributes on UML class diagrams](../modeling/properties-of-attributes-on-uml-class-diagrams.md)  
+- [Properties of attributes on UML class diagrams](../modeling/properties-of-attributes-on-uml-class-diagrams.md)  
   
--   [Properties of operations on UML class diagrams](../modeling/properties-of-operations-on-uml-class-diagrams.md)  
+- [Properties of operations on UML class diagrams](../modeling/properties-of-operations-on-uml-class-diagrams.md)  
   
 ### Types of Attributes and Operations  
  Each *Type* of an attribute or operation, and each parameter type, can be one of the following:  
@@ -179,7 +179,7 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
   You can also write the name of a type that you have not yet defined in your model. The name will be listed under **Unspecified Types** in UML Model Explorer.  
   
 > [!NOTE]
->  If you subsequently define a class or interface of that name in your model, the older attributes and operations will still refer to the element in Unspecified Types. If you want to change them to refer to the new class, you must visit each attribute or operation and reset the type, selecting the new class from the drop-down menu.  
+> If you subsequently define a class or interface of that name in your model, the older attributes and operations will still refer to the element in Unspecified Types. If you want to change them to refer to the new class, you must visit each attribute or operation and reset the type, selecting the new class from the drop-down menu.  
   
 #### Multiple Types  
  You can set a multiplicity of any attribute, operation, or parameter type.  
@@ -208,9 +208,9 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
   
  If the multiplicity is more than 1, you can also set these properties:  
   
--   **IsOrdered** - If true, the collection has a defined order.  
+- **IsOrdered** - If true, the collection has a defined order.  
   
--   **IsUnique** - If true, there are no duplicate values in the collection.  
+- **IsUnique** - If true, there are no duplicate values in the collection.  
   
 ### Visibility  
  *Visibility* indicates whether the attribute or operation can be accessed outside the class definition. The allowed values are as follows:  
@@ -267,9 +267,9 @@ visibility operation-name (parameter1 : Type1, ...) : Type
  Each type can be types that you have defined in the model, standard types such as Integer or String, or the name of a new type that you have not defined yet.  
   
 > [!NOTE]
->  If you write a name without a type in a parameter list, it indicates the name of the parameter, instead of its type. In this example, MenuItem and Integer become the names of two parameters with unspecified types:  
+> If you write a name without a type in a parameter list, it indicates the name of the parameter, instead of its type. In this example, MenuItem and Integer become the names of two parameters with unspecified types:  
 >   
->  `AddItem(MenuItem, Integer) /* parameter names, not types! */`  
+> `AddItem(MenuItem, Integer) /* parameter names, not types! */`  
   
  To set the multiplicity of a type in a signature, write the multiplicity in square brackets following the type name, for example:  
   
@@ -324,7 +324,7 @@ visibility operation-name (parameter1 : Type1, ...) : Type
   
  Usually the full signature appears on the diagram only while you are editing it. When you finish editing, the additional properties are hidden. If you want to see the full signature all the time, open the shortcut menu for the type, and then choose **Show Full Signature**.  
   
-##  <a name="Associations"></a> Drawing and Using Associations  
+## <a name="Associations"></a> Drawing and Using Associations  
  Use an association to represent any kind of linkage between two elements, regardless of how the linkage is implemented in the software. For example, you could use an association to represent a pointer in C#, a relation in a database, or a cross reference from one part of an XML file to another. It can represent an association between objects in the real world, such as the earth and the sun. The association does not say how the link is represented, only that the information exists.  
   
 ### Properties of an Association  
@@ -356,7 +356,7 @@ visibility operation-name (parameter1 : Type1, ...) : Type
   
  ![Equivalent association and attributes](../modeling/media/uml-classguideattrib.png "UML_ClassGuideAttrib")  
   
-##  <a name="Inheritance"></a> Inheritance  
+## <a name="Inheritance"></a> Inheritance  
  Use the **Inheritance** tool to create the following relationships:  
   
 - A *generalization* relationship between a specialized type and a general type  
@@ -399,7 +399,7 @@ visibility operation-name (parameter1 : Type1, ...) : Type
   
  ![Realization shown with conector and lollipop](../modeling/media/uml-classguiderealize.png "UML_ClassGuideRealize")  
   
-##  <a name="Templates"></a> Template Types  
+## <a name="Templates"></a> Template Types  
  You can define a generic or template type that can be parameterized by other types or values.  
   
  For example, you can create a generic Dictionary parameterized by key and value types:  
@@ -440,29 +440,29 @@ visibility operation-name (parameter1 : Type1, ...) : Type
   
 #### To use a template type  
   
-1.  Create a new type, for example, `AddressTable`.  
+1. Create a new type, for example, `AddressTable`.  
   
-2.  Open the shortcut menu for the new type, and then choose **Properties**.  
+2. Open the shortcut menu for the new type, and then choose **Properties**.  
   
-3.  In the **Template Binding** property, select the template type, for example `Dictionary`, from the drop-down list.  
+3. In the **Template Binding** property, select the template type, for example `Dictionary`, from the drop-down list.  
   
-4.  Expand the **Template Binding** property.  
+4. Expand the **Template Binding** property.  
   
      A row appears for each parameter of the template type.  
   
-5.  Set each parameter to a suitable value. For example, set the `Key` parameter to a class called `Name`.  
+5. Set each parameter to a suitable value. For example, set the `Key` parameter to a class called `Name`.  
   
-##  <a name="Packages"></a> Packages  
+## <a name="Packages"></a> Packages  
  You can view packages in a UML class diagram. A package is a container for other model elements. You can create any element inside a package. On the diagram, the elements inside the package will move around when you move the package.  
   
  You can use the collapse/expand control to hide or show the contents of the package.  
   
  See [Define packages and namespaces](../modeling/define-packages-and-namespaces.md).  
   
-##  <a name="generating"></a> Generating Code from UML Class Diagrams  
+## <a name="generating"></a> Generating Code from UML Class Diagrams  
  To start implementing the classes on a UML class diagram, you can generate C# code or customize the templates for code generation. To start generating code by using the provided C# templates:  
   
--   Open the shortcut menu for the diagram or an element, choose **Generate Code**, and then set the necessary properties.  
+- Open the shortcut menu for the diagram or an element, choose **Generate Code**, and then set the necessary properties.  
   
      For more information about how to set these properties and customize the provided templates, see [Generate code from UML class diagrams](../modeling/generate-code-from-uml-class-diagrams.md).  
   

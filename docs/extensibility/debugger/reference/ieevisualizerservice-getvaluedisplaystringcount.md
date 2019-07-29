@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "IEEVisualizerService::GetValueDisplayStringCount"
   - "GetValueDisplayStringCount"
 ms.assetid: d683a833-fbfb-4042-84df-6905124a268a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEEVisualizerService::GetValueDisplayStringCount
 Retrieves the number of value strings to display for the specified property or field.
@@ -33,21 +36,18 @@ int GetValueDisplayStringCount (
 );
 ```
 
-#### Parameters
- `displayKind`
+## Parameters
+`displayKind`\
+[in] Value from the [DisplayKind](../../../extensibility/debugger/reference/displaykind.md) enumeration.
 
- [in] Value from the [DisplayKind](../../../extensibility/debugger/reference/displaykind.md) enumeration.
+`propertyOrField`\
+[in] An [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface that represents a property or field.
 
- `propertyOrField`
-
- [in] An [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface that represents a property or field.
-
- `pcelt`
-
- [out] Returns the number of value strings to display.
+`pcelt`\
+[out] Returns the number of value strings to display.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md)

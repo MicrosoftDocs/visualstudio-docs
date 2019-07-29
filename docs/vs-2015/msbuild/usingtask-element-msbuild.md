@@ -23,7 +23,6 @@ manager: jillfra
 # UsingTask Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md) element to the assembly that contains the task implementation.  
   
  \<Project>  
@@ -68,7 +67,7 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
  Environment variables, command-line properties, and project-level properties can be referenced anywhere in the `UsingTask` element if it appears in the project file either explicitly or through an imported project file. For more information, see [Tasks](../msbuild/msbuild-tasks.md).  
   
 > [!NOTE]
->  Project-level properties have no meaning if the `UsingTask` element is coming from one of the .tasks files that are globally registered with the MSBuild engine. Project-level properties are not global to MSBuild.  
+> Project-level properties have no meaning if the `UsingTask` element is coming from one of the .tasks files that are globally registered with the MSBuild engine. Project-level properties are not global to MSBuild.  
   
  In MSBuild 4.0, using tasks can be loaded from .overridetask files.  
   

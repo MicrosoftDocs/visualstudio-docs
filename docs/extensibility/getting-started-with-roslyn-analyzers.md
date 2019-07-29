@@ -3,8 +3,8 @@ title: "Getting Started with Roslyn Analyzers | Microsoft Docs"
 ms.date: 04/02/2018
 ms.topic: "conceptual"
 ms.assetid: 367c2ec8-3059-46a5-9d1c-57bead0419e7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -15,22 +15,18 @@ With live, project-based code analyzers in Visual Studio, API authors can ship d
 
 ## Get started
 
-[Roslyn live code analyzers introduction and walkthrough](https://msdn.microsoft.com/magazine/dn879356.aspx)
+[Roslyn analyzers overview](../code-quality/roslyn-analyzers-overview.md)
+
+[Tutorial: Write your first analyzer and code fix](/dotnet/csharp/roslyn-sdk/tutorials/how-to-write-csharp-analyzer-code-fix)
 
 [Add code fixes Walkthrough: Provide users fixes for analyzer issues](https://msdn.microsoft.com/magazine/dn904670.aspx)
-
-[Introduction and walkthrough of real world analyzer talk](https://channel9.msdn.com/events/Build/2015/3-725)
 
 [Real world Roslyn analyzer](../extensibility/roslyn-analyzers-and-code-aware-library-for-immutablearrays.md) that you can also watch as a [talk](https://channel9.msdn.com/events/Build/2015/3-725)
 
 [Several examples on GitHub, grouped into three kinds of analyzers](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Analyzer%20Samples.md)
 
-[Introduction and tour of a few analyzers talk](https://channel9.msdn.com/Events/dotnetConf/2015/NET-Compiler-Platform-Roslyn-Analyzers-and-the-Rise-of-Code-Aware-Libraries)
-
 ## See also
 
-- [Roslyn analyzers overview](../code-quality/roslyn-analyzers-overview.md)
-- [Tutorial: Write your first analyzer and code fix](/dotnet/csharp/roslyn-sdk/tutorials/how-to-write-csharp-analyzer-code-fix)
 - [.NET compiler platform package version reference](roslyn-version-support.md)
 - [More docs on the GitHub OSS site](https://github.com/dotnet/roslyn/tree/master/docs/analyzers)
 - [FxCop rules implemented with Roslyn analyzers](http://roslynanalyzersstatus.azurewebsites.net/)

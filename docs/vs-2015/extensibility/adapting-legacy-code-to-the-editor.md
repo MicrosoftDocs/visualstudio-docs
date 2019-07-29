@@ -69,9 +69,9 @@ VsLocalCreateInstance(CLSID_VsTextBuffer, NULL, CLSCTX_INPROC_SERVER, IID_IVsTex
   
 #### To create an adapter for IVsTextView  
   
-1.  Add a reference to Microsoft.VisualStudio.Editor.dll. Make sure that `CopyLocal` is set to `false`.  
+1. Add a reference to Microsoft.VisualStudio.Editor.dll. Make sure that `CopyLocal` is set to `false`.  
   
-2.  Instantiate the <xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService>, as follows.  
+2. Instantiate the <xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService>, as follows.  
   
     ```  
     using Microsoft.VisualStudio.Editor;  
@@ -79,7 +79,7 @@ VsLocalCreateInstance(CLSID_VsTextBuffer, NULL, CLSCTX_INPROC_SERVER, IID_IVsTex
     IVsEditorAdaptersFactoryService adapterFactoryService = ComponentModel.GetService<IVsEditorAdaptersFactoryService>();  
     ```  
   
-3.  Call the `CreateX()` method.  
+3. Call the `CreateX()` method.  
   
     ```  
     adapterFactoryService.CreateTextViewAdapter(textView);  
@@ -90,9 +90,9 @@ VsLocalCreateInstance(CLSID_VsTextBuffer, NULL, CLSCTX_INPROC_SERVER, IID_IVsTex
   
 #### To get an IVxTextBuffer  
   
-1.  The definitions for the IVx* interfaces are in the VSEditor.h file in the ..\VisualStudioIntegration\Common\Inc\ folder of the Visual Studio SDK installation.  
+1. The definitions for the IVx* interfaces are in the VSEditor.h file in the ..\VisualStudioIntegration\Common\Inc\ folder of the Visual Studio SDK installation.  
   
-2.  The following code instantiates a text buffer by using the `IVsUserData->GetData()` method. In the following code, `pData` is a pointer to an `IVsUserData` object.  
+2. The following code instantiates a text buffer by using the `IVsUserData->GetData()` method. In the following code, `pData` is a pointer to an `IVsUserData` object.  
   
     ```  
     #include <textmgr.h>  
@@ -119,9 +119,9 @@ VsLocalCreateInstance(CLSID_VsTextBuffer, NULL, CLSCTX_INPROC_SERVER, IID_IVsTex
   
 #### To consume Visual Studio editor components from a non-MEF component  
   
-1.  Add a reference to the Microsoft.VisualStudio.ComponentModelHost.dll assembly in the ..\Common7\IDE\ folder of the Visual Studio installation. Make sure that `CopyLocal` is set to `false`.  
+1. Add a reference to the Microsoft.VisualStudio.ComponentModelHost.dll assembly in the ..\Common7\IDE\ folder of the Visual Studio installation. Make sure that `CopyLocal` is set to `false`.  
   
-2.  Add a private `IComponentModel` member to the class in which you want to use Visual Studio editor services, as follows.  
+2. Add a private `IComponentModel` member to the class in which you want to use Visual Studio editor services, as follows.  
   
     ```  
     using Microsoft.VisualStudio.ComponentModelHost;  
@@ -129,14 +129,14 @@ VsLocalCreateInstance(CLSID_VsTextBuffer, NULL, CLSCTX_INPROC_SERVER, IID_IVsTex
     private IComponentModel componentModel;  
     ```  
   
-3.  Instantiate the component model in the initialization method for your component.  
+3. Instantiate the component model in the initialization method for your component.  
   
     ```  
     componentModel =  
      (IComponentModel)Package.GetGlobalService(typeof(SComponentModel));  
     ```  
   
-4.  After this, you can get any one of the Visual Studio editor services by calling the `IComponentModel.GetService<T>()` method for the service you want.  
+4. After this, you can get any one of the Visual Studio editor services by calling the `IComponentModel.GetService<T>()` method for the service you want.  
   
     ```  
     textBufferFactoryService =  

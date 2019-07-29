@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugManagedObject::GetManagedObject method"
 ms.assetid: 6abe1402-6aad-41e6-8ec1-ae12d5945992
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugManagedObject::GetManagedObject
 Returns an interface that represents the managed object.
@@ -30,10 +33,9 @@ int GetManagedObject(
 );
 ```
 
-#### Parameters
- `ppManagedObject`
-
- [out] Returns an interface that represents the managed object.
+## Parameters
+`ppManagedObject`\
+[out] Returns an interface that represents the managed object.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.
@@ -41,5 +43,5 @@ int GetManagedObject(
 ## Remarks
  The interface returned from this method can be queried for any interface implemented by the managed class, allowing its methods to be called.
 
-## See Also
+## See also
 - [IDebugManagedObject](../../../extensibility/debugger/reference/idebugmanagedobject.md)

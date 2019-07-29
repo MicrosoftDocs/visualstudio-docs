@@ -17,7 +17,7 @@ The Visual Studio *integrated development environment* is a creative launching p
 
 ::: moniker range="vs-2019"
 
-[![](../media/vs-2019/ide-overview.png "The Visual Studio IDE")](../media/vs-2019/ide-overview.png#lightbox)
+[![The Visual Studio 2019 IDE](../media/vs-2019/ide-overview.png)](../media/vs-2019/ide-overview.png#lightbox)
 
 ::: moniker-end
 
@@ -85,22 +85,24 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
    ![Visual Studio Member List](../media/intellisense-list-members.png)
 
-- [Quick Launch](../../ide/reference/quick-launch-environment-options-dialog-box.md)
+- Search box
 
-   Visual Studio can seem overwhelming at times with so many menus, options, and properties. The **Quick Launch** search box is a great way to rapidly find what you need in Visual Studio. When you start typing the name of something you're looking for, Visual Studio lists results that take you exactly where you need to go. If you need to add functionality to Visual Studio, for example to add support for an additional programming language, **Quick Launch** provides results that open Visual Studio Installer to install a workload or individual component.
+   Visual Studio can seem overwhelming at times with so many menus, options, and properties. The search box is a great way to rapidly find what you need in Visual Studio. When you start typing the name of something you're looking for, Visual Studio lists results that take you exactly where you need to go. If you need to add functionality to Visual Studio, for example to add support for an additional programming language, the search box provides results that open Visual Studio Installer to install a workload or individual component.
 
    > [!TIP]
-   > Press **Ctrl**+**Q** as a shortcut to the **Quick Launch** search box.
+   > Press **Ctrl**+**Q** as a shortcut to the search box.
 
    ::: moniker range="vs-2017"
 
    ![Quick Launch search box in Visual Studio 2017](../media/quick-launch-nuget.png)
 
+   For more information, see [Quick Launch](../../ide/reference/quick-launch-environment-options-dialog-box.md).
+
    ::: moniker-end
 
    ::: moniker range="vs-2019"
 
-   ![Quick Launch search box in Visual Studio 2019](../media/vs-2019/quick-launch-nuget.png)
+   ![Search box in Visual Studio 2019](../media/vs-2019/quick-launch-nuget.png)
 
    ::: moniker-end
 
@@ -138,7 +140,7 @@ In this section, you'll create a simple project to try out some of the things yo
 
 ::: moniker range="vs-2017"
 
-To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) and install it on your system. The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
+To get started, [download Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) and install it on your system. The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
 
 ::: moniker-end
 
@@ -226,11 +228,11 @@ Let's dive in and create a simple program.
 
 1. Open Visual Studio.
 
-   The Start window appears with various options for cloning a repo, opening a recent project, or creating a brand new project.
+   The start window appears with various options for cloning a repo, opening a recent project, or creating a brand new project.
 
 1. Choose **Create a new project**.
 
-   ![Visual Studio Start window create a new project](../media/vs-2019/start-window-create-new-project.png)
+   ![Visual Studio start window create a new project](../media/vs-2019/start-window-create-new-project.png)
 
    The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings needed for a given project type.
 

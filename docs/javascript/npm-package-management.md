@@ -78,8 +78,8 @@ In the window, you can use commands such as the following to install a package:
  > [!Tip]
  > By default, npm will execute in your project's home directory. If you have multiple projects
  > in your solution specify the name or the path of the project in brackets.
- `.npm [MyProjectNameOrPath] install azure@4.2.3`
+ > `.npm [MyProjectNameOrPath] install azure@4.2.3`
 
  > [!Tip]
  > If your project doesn't contain a package.json file, use `.npm init -y` to create a new package.json file
-  with default entries.
+ > with default entries.

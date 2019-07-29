@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_COND_STYLE enumeration"
 ms.assetid: a93b1412-f447-48a1-af9d-38f3dbb3092f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # BP_COND_STYLE
 Specifies the breakpoint condition style for pending and bound breakpoints.
@@ -35,14 +38,14 @@ public enum enum_BP_COND_STYLE {
 };
 ```
 
-## Members
-BP_COND_NONE
+## Fields
+`BP_COND_NONE`\
 Fires the breakpoint when the breakpoint's position is reached. No breakpoint condition specified.
 
-BP_COND_WHEN_TRUE
+`BP_COND_WHEN_TRUE`\
 Fires the breakpoint only when the conditional expression associated with the breakpoint evaluates to `true`.
 
-BP_COND_WHEN_CHANGED
+`BP_COND_WHEN_CHANGED`\
 Fires the breakpoint only when the value of the conditional expression associated with the breakpoint has changed from its previous evaluation.
 
 ## Remarks
@@ -55,6 +58,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md)

@@ -19,7 +19,7 @@ manager: jillfra
 By using logical operators, you can refine your search for content by creating more complicated search expressions from simpler ones. As the following table shows, logical operators specify how multiple search terms should be combined in a search query.  
   
 > [!IMPORTANT]
->  You must enter logical operators in all capital letters for the search engine to recognize them.  
+> You must enter logical operators in all capital letters for the search engine to recognize them.  
   
 |To search for|Use|Example|Result|  
 |-------------------|---------|-------------|------------|  

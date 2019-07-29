@@ -22,7 +22,7 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
 
  For information on installing Graphics Tools, see [Install Graphics Tools for Windows 10](#InstallGraphicsTools).
 
-##  <a name="InstallGraphicsTools"></a> Install Graphics Tools for Windows 10
+## <a name="InstallGraphicsTools"></a> Install Graphics Tools for Windows 10
  In Windows 10, the Graphics Diagnostics infrastructure is provided by an optional feature of Windows called *Graphics Tools*. This feature is required to capture and play back graphics information on Windows 10 regardless of whether the app being captured targets a previous version of windows or which version of Direct3D it uses. You can choose to install the Graphics Tools feature ahead of time; otherwise it will be installed on-demand the first time you start a Graphics Diagnostics session from Visual Studio.
 
 #### To install Graphics Tools for Windows 10
@@ -40,7 +40,7 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
    The Graphics Tools feature is also installed automatically when you install the Windows 10 SDK.
 
 > [!TIP]
->  The optional Graphics Tools feature of Windows 10 provides lightweight capture and playback functionality—such as the command-line capture program **dxcap.exe**—that can be used in support, testing, and diagnostic scenarios on machines where developer tools aren't installed. For more information, see the [Command-Line Capture Tool](command-line-capture-tool.md) topic.
+> The optional Graphics Tools feature of Windows 10 provides lightweight capture and playback functionality—such as the command-line capture program **dxcap.exe**—that can be used in support, testing, and diagnostic scenarios on machines where developer tools aren't installed. For more information, see the [Command-Line Capture Tool](command-line-capture-tool.md) topic.
 
 ## Using Graphics Diagnostics for the first time
  Now that you have everything you need, you're ready to start using Graphics Diagnostics. Just follow these steps.
@@ -57,14 +57,14 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
  Now you're ready to start your first graphics diagnostics session. In Visual Studio, on the main menu, choose **Debug, Graphics, Start Graphics Debugging**, or just press **Alt+F5**. This starts your app under Graphics Diagnostics and displays the diagnostics session windows in Visual Studio.
 
 > [!IMPORTANT]
->  If you're running your app on Windows 10 and haven't installed the optional Graphics Tools feature yet, you'll be prompted to do so now. You must install it before you can use Graphics Diagnostics on Windows 10.
+> If you're running your app on Windows 10 and haven't installed the optional Graphics Tools feature yet, you'll be prompted to do so now. You must install it before you can use Graphics Diagnostics on Windows 10.
 
 ### 3 - Capture Frames
  You're ready to capture frames as soon as your app starts.
 
 #### To capture single frames
 
--   In Visual Studio, choose the **Capture Frame** button from the Graphics toolbar or diagnostics session window. Or, if your app has focus, just press the **Print Screen** key on your keyboard.
+- In Visual Studio, choose the **Capture Frame** button from the Graphics toolbar or diagnostics session window. Or, if your app has focus, just press the **Print Screen** key on your keyboard.
 
 #### To capture a sequence of frames
 

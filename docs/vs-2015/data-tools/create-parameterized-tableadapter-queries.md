@@ -28,7 +28,7 @@ You create parameterized TableAdapter queries in the Dataset Designer. You can a
 > When constructing a parameterized query, use the parameter notation that's specific to the database you're coding against. For example, Access and OleDb data sources use the question mark '?' to denote parameters, so the WHERE clause would look like this: `WHERE City = ?`.  
   
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or the edition you're using. To change your settings, go to the **Tools** menu and select **Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or the edition you're using. To change your settings, go to the **Tools** menu and select **Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Create a parameterized TableAdapter query 
   
@@ -40,11 +40,11 @@ You create parameterized TableAdapter queries in the Dataset Designer. You can a
   
 ### Create a parameterized query while designing a data-bound form  
   
-1.  Select a control on your form that is already bound to a dataset. For more information, see [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md).  
+1. Select a control on your form that is already bound to a dataset. For more information, see [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md).  
   
-2.  On the **Data** menu, select**Add Query**.  
+2. On the **Data** menu, select**Add Query**.  
   
-3.  Complete the **Search Criteria Builder** dialog box, adding a WHERE clause with the desired parameters to the SQL statement.  
+3. Complete the **Search Criteria Builder** dialog box, adding a WHERE clause with the desired parameters to the SQL statement.  
   
 ### Add a query to an existing data-bound form  
   
@@ -85,11 +85,11 @@ If this were a query on a TableAdapter, you could query for all orders that have
   
 ### Enable a query to accept null values  
   
-1.  In the **Dataset Designer**, select the TableAdapter query that needs to accept null parameter values.  
+1. In the **Dataset Designer**, select the TableAdapter query that needs to accept null parameter values.  
   
-2.  In the **Properties** window, select **Parameters**. Then press the ellipsis (**…**) button to open the **Parameters Collection Editor**.  
+2. In the **Properties** window, select **Parameters**. Then press the ellipsis (**…**) button to open the **Parameters Collection Editor**.  
   
-3.  Select the parameter that allows null values and set the **AllowDbNull** property to `true`.  
+3. Select the parameter that allows null values and set the **AllowDbNull** property to `true`.  
   
 ## See also
 

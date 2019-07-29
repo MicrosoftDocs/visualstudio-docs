@@ -70,7 +70,7 @@ The debugger also searches for symbol files in the following locations:
 
      Symbol servers you might use include:
 
-     **Public Microsoft Symbol Servers**: To debug a crash that occurs during a call to a system DLL or to a third-party library, you often need system *.pdb* files. System *.pdb* files contain symbols for Windows DLLs, *.exe* files, and device drivers. You can get symbols for Windows operating systems, MDAC, IIS, ISA, and the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] from the public Microsoft Symbol Servers.
+     **Public Microsoft Symbol Servers**: To debug a crash that occurs during a call to a system DLL or to a third-party library, you often need system *.pdb* files. System *.pdb* files contain symbols for Windows DLLs, *.exe* files, and device drivers. You can get symbols for Windows operating systems, MDAC, IIS, ISA, and the .NET Framework from the public Microsoft Symbol Servers.
 
      **Symbol servers on an internal network or on your local machine**: Your team or company can create symbol servers for your own products, and as a cache for symbols from external sources. You might have a symbol server on your own machine.
 
@@ -122,9 +122,9 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
 
 4. Specify the modules that you want the debugger to load from the **Symbol file (.pdb) locations** when it starts.
 
-   -  Select **Load all modules, unless excluded** (the default) to load all the symbols for all modules in the symbol file location, except modules you specifically exclude. To exclude certain modules, select **Specify excluded modules**, select the **+** icon, type the names of the modules to exclude, and select **OK**.
+   - Select **Load all modules, unless excluded** (the default) to load all the symbols for all modules in the symbol file location, except modules you specifically exclude. To exclude certain modules, select **Specify excluded modules**, select the **+** icon, type the names of the modules to exclude, and select **OK**.
 
-   -  To load only modules you specify from the symbol file locations, select **Load only specified modules**. Select **Specify included modules**, select the **+** icon, type the names of the modules to include, and then select **OK**. The symbol files for other modules are not loaded.
+   - To load only modules you specify from the symbol file locations, select **Load only specified modules**. Select **Specify included modules**, select the **+** icon, type the names of the modules to include, and then select **OK**. The symbol files for other modules are not loaded.
 
 5. Select **OK**.
 
@@ -193,7 +193,7 @@ Build with **/debug** to create a *.pdb* file. You can build applications with *
 
 Set the *web.config* file of your ASP.NET application to debug mode. Debug mode causes ASP.NET to generate symbols for dynamically generated files and enables the debugger to attach to the ASP.NET application. Visual Studio sets this automatically when you start to debug, if you created your project from the web projects template.
 
-##  Manage symbols while debugging
+## Manage symbols while debugging
 
 You can use the **Modules**, **Call Stack**, **Locals**, **Autos**, or any **Watch** window to load symbols or change symbol options while debugging. For more information, see [Get more familiar with how the debugger attaches to your app](../debugger/debugger-tips-and-tricks.md#modules_window).
 
@@ -218,10 +218,10 @@ During debugging, the **Modules** window shows the code modules the debugger is 
 
 There are several ways for the debugger to break into code that does not have symbol or source files available:
 
--  Step into code.
--  Break into code from a breakpoint or exception.
--  Switch to a different thread.
--  Change the stack frame by double-clicking a frame in the **Call Stack** window.
+- Step into code.
+- Break into code from a breakpoint or exception.
+- Switch to a different thread.
+- Change the stack frame by double-clicking a frame in the **Call Stack** window.
 
 When this happens, the debugger displays the **No Symbols Loaded** or **No Source Loaded** pages to help you find and load the necessary symbols or source.
 
@@ -229,11 +229,11 @@ When this happens, the debugger displays the **No Symbols Loaded** or **No Sourc
 
 **To use the No Symbols Loaded document page to help find and load missing symbols:**
 
--   To change the search path, select an unselected path, or select **New Path** or **New VSTS Path** and enter or select a new path. Select **Load** to search the paths again and load the symbol file if it is found.
--   To override any symbol options and retry the search paths, select **Browse and find \<executable-name>**. The symbol file is loaded if it is found, or **File Explorer** opens so you can manually select the symbol file.
--   To open the **Options** > **Debugging** > **Symbols** page, select **Change Symbol Settings**.
--   To show the disassembly in a new window one time, select **view disassembly**, or select **Options dialog** to set the option to always show the disassembly when source or symbol files are not found.
--   To show the locations searched and the outcome, expand **Symbol load information**.
+- To change the search path, select an unselected path, or select **New Path** or **New VSTS Path** and enter or select a new path. Select **Load** to search the paths again and load the symbol file if it is found.
+- To override any symbol options and retry the search paths, select **Browse and find \<executable-name>**. The symbol file is loaded if it is found, or **File Explorer** opens so you can manually select the symbol file.
+- To open the **Options** > **Debugging** > **Symbols** page, select **Change Symbol Settings**.
+- To show the disassembly in a new window one time, select **view disassembly**, or select **Options dialog** to set the option to always show the disassembly when source or symbol files are not found.
+- To show the locations searched and the outcome, expand **Symbol load information**.
 
 If the debugger finds the *.pdb* file after you execute one of the options, and can retrieve the source file using the information in the *.pdb* file, it displays the source. Otherwise, it displays a **No Source Loaded** page that describes the issue, with links to actions that might resolve the issue.
 
@@ -253,7 +253,6 @@ You can specify the locations the debugger searches for source files, and exclud
 1. Under **Do not look for these source files**, type the names of source files to exclude from search.
 
 1. Select **OK** or **Apply**.
-
 
 ## See also
 - [Understand symbol files and Visual Studio symbol settings](https://devblogs.microsoft.com/devops/understanding-symbol-files-and-visual-studios-symbol-settings/)

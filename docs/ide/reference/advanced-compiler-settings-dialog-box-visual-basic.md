@@ -1,14 +1,15 @@
 ---
 title: Advanced Compiler Settings Dialog Box (Visual Basic)
 ms.date: 11/04/2016
+ms.technology: vs-ide-compile
 ms.topic: reference
 f1_keywords:
   - "vb.ProjectPropertiesAdvancedCompile"
 helpviewer_keywords:
   - "Advanced Compiler Settings dialog box"
 ms.assetid: 1f81133a-293f-4dba-bc1c-8baafb01d857
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -19,13 +20,13 @@ Use the **AdvancedCompiler Settings** dialog box of the **Project Designer** to 
 
 ## To access this dialog box
 
-1.  In **Solution Explorer**, choose a project node (not the **Solution** node).
+1. In **Solution Explorer**, choose a project node (not the **Solution** node).
 
-2.  On the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Compile** tab.
+2. On the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Compile** tab.
 
-3.  On the [Compile Page, Project Designer (Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md), select the **Configuration** and **Platform**. In simplified build configurations, the **Configuration** and **Platform** lists are not displayed. For more information, see [How to: Set debug and release configurations](../../debugger/how-to-set-debug-and-release-configurations.md).
+3. On the [Compile Page, Project Designer (Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md), select the **Configuration** and **Platform**. In simplified build configurations, the **Configuration** and **Platform** lists are not displayed. For more information, see [How to: Set debug and release configurations](../../debugger/how-to-set-debug-and-release-configurations.md).
 
-4.  Click **Advanced Compile Options**.
+4. Click **Advanced Compile Options**.
 
 [!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]
 

@@ -37,41 +37,41 @@ ms.workload:
   Although this walkthrough assumes that you are running the code on your development computer, the code demonstrated by this walkthrough can be used on a server that does not have Excel installed.
 
 > [!NOTE]
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
+> Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
+- [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
 
--   Access to a running instance of Microsoft SQL Server or Microsoft SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex website](http://go.microsoft.com/fwlink/?linkid=87843). For more information about attaching a database, see the following topics:
+- Access to a running instance of Microsoft SQL Server or Microsoft SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex website](http://go.microsoft.com/fwlink/?linkid=87843). For more information about attaching a database, see the following topics:
 
-    -   To attach a database by using SQL Server Management Studio or SQL Server Management Studio Express, see [How to: Attach a database (SQL Server Management Studio)](/sql/relational-databases/databases/attach-a-database).
+  - To attach a database by using SQL Server Management Studio or SQL Server Management Studio Express, see [How to: Attach a database (SQL Server Management Studio)](/sql/relational-databases/databases/attach-a-database).
 
-    -   To attach a database by using the command line, see [How to: Attach a database file to SQL Server Express](/previous-versions/sql/).
+  - To attach a database by using the command line, see [How to: Attach a database file to SQL Server Express](/previous-versions/sql/).
 
 ## Create a class library project that defines a dataset
  To use the same dataset in an Excel workbook project and a console application, you must define the dataset in a separate assembly that is referenced by both of these projects. For this walkthrough, define the dataset in a class library project.
 
 ### To create the class library project
 
-1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-2.  On the **File** menu, point to **New**, and then click **Project**.
+2. On the **File** menu, point to **New**, and then click **Project**.
 
-3.  In the templates pane, expand **Visual C#** or **Visual Basic**, and then click **Windows**.
+3. In the templates pane, expand **Visual C#** or **Visual Basic**, and then click **Windows**.
 
-4.  In the list of project templates, select **Class Library**.
+4. In the list of project templates, select **Class Library**.
 
-5.  In the **Name** box, type **AdventureWorksDataSet**.
+5. In the **Name** box, type **AdventureWorksDataSet**.
 
-6.  Click **Browse**, navigate to your *%UserProfile%\My Documents* (for Windows XP and earlier) or *%UserProfile%\Documents* (for Windows Vista) folder, and then click **Select Folder**.
+6. Click **Browse**, navigate to your *%UserProfile%\My Documents* (for Windows XP and earlier) or *%UserProfile%\Documents* (for Windows Vista) folder, and then click **Select Folder**.
 
-7.  In the **New Project** dialog box, ensure that the **Create directory for solution** check box is not selected.
+7. In the **New Project** dialog box, ensure that the **Create directory for solution** check box is not selected.
 
-8.  Click **OK**.
+8. Click **OK**.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] adds the **AdventureWorksDataSet** project to **Solution Explorer** and opens the **Class1.cs** or **Class1.vb** code file.
 
@@ -119,21 +119,21 @@ ms.workload:
 
 ### To create the Excel workbook project
 
-1.  In **Solution Explorer**, right-click the **AdventureWorksDataSet** solution, point to **Add**, and then click **New Project**.
+1. In **Solution Explorer**, right-click the **AdventureWorksDataSet** solution, point to **Add**, and then click **New Project**.
 
-2.  In the templates pane, expand **Visual C#** or **Visual Basic**, and then expand **Office**.
+2. In the templates pane, expand **Visual C#** or **Visual Basic**, and then expand **Office**.
 
-3.  Under the expanded **Office** node, select the **2010** node.
+3. Under the expanded **Office** node, select the **2010** node.
 
-4.  In the list of project templates, select the Excel Workbook project.
+4. In the list of project templates, select the Excel Workbook project.
 
-5.  In the **Name** box, type **AdventureWorksReport**. Do not modify the location.
+5. In the **Name** box, type **AdventureWorksReport**. Do not modify the location.
 
-6.  Click **OK**.
+6. Click **OK**.
 
      The **Visual Studio Tools for Office Project Wizard** opens.
 
-7.  Ensure that **Create a new document** is selected, and click **OK**.
+7. Ensure that **Create a new document** is selected, and click **OK**.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] opens the **AdventureWorksReport** workbook in the designer and adds the **AdventureWorksReport** project to **Solution Explorer**.
 
@@ -142,21 +142,21 @@ ms.workload:
 
 ### To add the dataset to the data sources in the Excel workbook project
 
-1.  In **Solution Explorer**, double-click **Sheet1.cs** or **Sheet1.vb** under the **AdventureWorksReport** project.
+1. In **Solution Explorer**, double-click **Sheet1.cs** or **Sheet1.vb** under the **AdventureWorksReport** project.
 
      The workbook opens in the designer.
 
-2.  On the **Data** menu, click **Add New Data Source**.
+2. On the **Data** menu, click **Add New Data Source**.
 
      The **Data Source Configuration Wizard** opens.
 
-3.  Click **Object**, and then click **Next**.
+3. Click **Object**, and then click **Next**.
 
-4.  In the **Select the Object You Wish to Bind to** page, click **Add Reference**.
+4. In the **Select the Object You Wish to Bind to** page, click **Add Reference**.
 
-5.  On the **Projects** tab, click **AdventureWorksDataSet** and then click **OK**.
+5. On the **Projects** tab, click **AdventureWorksDataSet** and then click **OK**.
 
-6.  Under the **AdventureWorksDataSet** namespace of the **AdventureWorksDataSet** assembly, click **AdventureWorksLTDataSet** and then click **Finish**.
+6. Under the **AdventureWorksDataSet** namespace of the **AdventureWorksDataSet** assembly, click **AdventureWorksLTDataSet** and then click **Finish**.
 
      The **Data Sources** window opens, and **AdventureWorksLTDataSet** is added to the list of data sources.
 
@@ -165,13 +165,13 @@ ms.workload:
 
 ### To create a ListObject that is bound to an instance of the dataset
 
-1.  In the **Data Sources** window, expand the **AdventureWorksLTDataSet** node under **AdventureWorksDataSet**.
+1. In the **Data Sources** window, expand the **AdventureWorksLTDataSet** node under **AdventureWorksDataSet**.
 
-2.  Select the **Product** node, click the drop-down arrow that appears, and select **ListObject** in the drop-down list.
+2. Select the **Product** node, click the drop-down arrow that appears, and select **ListObject** in the drop-down list.
 
      If the drop-down arrow does not appear, confirm that the workbook is open in the designer.
 
-3.  Drag the **Product** table to cell A1.
+3. Drag the **Product** table to cell A1.
 
      A <xref:Microsoft.Office.Tools.Excel.ListObject> control named `productListObject` is created on the worksheet, starting in cell A1. At the same time, a dataset object named `adventureWorksLTDataSet` and a <xref:System.Windows.Forms.BindingSource> named `productBindingSource` are added to the project. The <xref:Microsoft.Office.Tools.Excel.ListObject> is bound to the <xref:System.Windows.Forms.BindingSource>, which in turn is bound to the dataset object.
 
@@ -180,20 +180,20 @@ ms.workload:
 
 ### To add the dataset to the data cache
 
-1.  In the designer, click **adventureWorksLTDataSet**.
+1. In the designer, click **adventureWorksLTDataSet**.
 
-2.  In the **Properties** window, set the **Modifiers** property to **Public**.
+2. In the **Properties** window, set the **Modifiers** property to **Public**.
 
-3.  Set the **CacheInDocument** property to **True**.
+3. Set the **CacheInDocument** property to **True**.
 
 ## Initialize the dataset in the workbook
  Before you can retrieve the data from the cached dataset by using the console application, you must first populate the cached dataset with data.
 
 ### To initialize the dataset in the workbook
 
-1.  In **Solution Explorer**, right-click the **Sheet1.cs** or **Sheet1.vb** file and click **View Code**.
+1. In **Solution Explorer**, right-click the **Sheet1.cs** or **Sheet1.vb** file and click **View Code**.
 
-2.  Replace the `Sheet1_Startup` event handler with the following code. This code uses an instance of the `ProductTableAdapter` class that is defined in the **AdventureWorksDataSet** project to fill the cached dataset with data, if it is currently empty.
+2. Replace the `Sheet1_Startup` event handler with the following code. This code uses an instance of the `ProductTableAdapter` class that is defined in the **AdventureWorksDataSet** project to fill the cached dataset with data, if it is currently empty.
 
      [!code-csharp[Trin_CachedDataWalkthroughs#8](../vsto/codesnippet/CSharp/AdventureWorksDataSet/AdventureWorksReport/Sheet1.cs#8)]
      [!code-vb[Trin_CachedDataWalkthroughs#8](../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/AdventureWorksReport/Sheet1.vb#8)]
@@ -203,32 +203,32 @@ ms.workload:
 
 ### To build and run the project
 
-1.  In **Solution Explorer**, right-click the **AdventureWorksReport** project, choose **Debug**, and then click **Start new instance**.
+1. In **Solution Explorer**, right-click the **AdventureWorksReport** project, choose **Debug**, and then click **Start new instance**.
 
      The project is built, and the workbook opens in Excel. Verify the following:
 
-    -   The <xref:Microsoft.Office.Tools.Excel.ListObject> fills with data.
+    - The <xref:Microsoft.Office.Tools.Excel.ListObject> fills with data.
 
-    -   The value in the **ListPrice** column for the first row of the <xref:Microsoft.Office.Tools.Excel.ListObject> is 1431.5. Later in this walkthrough, you will use a console application to modify the values in the **ListPrice** column.
+    - The value in the **ListPrice** column for the first row of the <xref:Microsoft.Office.Tools.Excel.ListObject> is 1431.5. Later in this walkthrough, you will use a console application to modify the values in the **ListPrice** column.
 
-2.  Save the workbook. Do not modify the file name or the location of the workbook.
+2. Save the workbook. Do not modify the file name or the location of the workbook.
 
-3.  Close Excel.
+3. Close Excel.
 
 ## Create a console application project
  Create a console application project to use to modify data in the cached dataset in the workbook.
 
 ### To create the console application project
 
-1.  In **Solution Explorer**, right-click the **AdventureWorksDataSet** solution, point to **Add**, and then click **New Project**.
+1. In **Solution Explorer**, right-click the **AdventureWorksDataSet** solution, point to **Add**, and then click **New Project**.
 
-2.  In the **Project Types** pane, expand **Visual C#** or **Visual Basic**, and then click **Windows**.
+2. In the **Project Types** pane, expand **Visual C#** or **Visual Basic**, and then click **Windows**.
 
-3.  In the **Templates** pane, select **Console Application**.
+3. In the **Templates** pane, select **Console Application**.
 
-4.  In the **Name** box, type **DataWriter**. Do not modify the location.
+4. In the **Name** box, type **DataWriter**. Do not modify the location.
 
-5.  Click **OK**.
+5. Click **OK**.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] adds the **DataWriter** project to **Solution Explorer** and opens the **Program.cs** or **Module1.vb** code file.
 
@@ -263,7 +263,7 @@ ms.workload:
    - A <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> object to use to access the data cache in the workbook.
 
      > [!NOTE]
-     >  The following code assumes that you are using a workbook that has the *.xlsx* file extension. If the workbook in your project has a different file extension, modify the path as necessary.
+     > The following code assumes that you are using a workbook that has the *.xlsx* file extension. If the workbook in your project has a different file extension, modify the path as necessary.
 
      [!code-csharp[Trin_CachedDataWalkthroughs#6](../vsto/codesnippet/CSharp/AdventureWorksDataSet/DataWriter/Program.cs#6)]
      [!code-vb[Trin_CachedDataWalkthroughs#6](../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/DataWriter/Module1.vb#6)]
@@ -290,17 +290,17 @@ ms.workload:
 
 ### To test the workbook
 
-1.  Close the AdventureWorksReport workbook in the Visual Studio designer, if it is still open.
+1. Close the AdventureWorksReport workbook in the Visual Studio designer, if it is still open.
 
-2.  Open the AdventureWorksReport workbook that is in the build folder of the **AdventureWorksReport** project. By default, the build folder is in one of the following locations:
+2. Open the AdventureWorksReport workbook that is in the build folder of the **AdventureWorksReport** project. By default, the build folder is in one of the following locations:
 
-    -   *%UserProfile%\My Documents\AdventureWorksReport\bin\Debug* (for Windows XP and earlier)
+    - *%UserProfile%\My Documents\AdventureWorksReport\bin\Debug* (for Windows XP and earlier)
 
-    -   *%UserProfile%\Documents\AdventureWorksReport\bin\Debug* (for Windows Vista)
+    - *%UserProfile%\Documents\AdventureWorksReport\bin\Debug* (for Windows Vista)
 
-3.  Verify that the value in the **ListPrice** column for the first row of the <xref:Microsoft.Office.Tools.Excel.ListObject> is now 1574.65.
+3. Verify that the value in the **ListPrice** column for the first row of the <xref:Microsoft.Office.Tools.Excel.ListObject> is now 1574.65.
 
-4.  Close the workbook.
+4. Close the workbook.
 
 ## See also
 

@@ -6,7 +6,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 03/02/2019
+ms.date: 07/23/2019
 ms.topic: reference
 helpviewer_keywords:
   - "workload ID, Visual Studio"
@@ -44,7 +44,7 @@ For more information about how to use these lists, see the [Use command-line par
 
 ::: moniker range="vs-2019"
 
-**Updated for [Visual Studio 2019 RC](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.2 release](/visualstudio/releases/2019/release-notes/)**
 
 | **Edition** | **ID** | **Description** |
 | ----------- | ------ | --------------- |
@@ -57,6 +57,9 @@ For more information about how to use these lists, see the [Use command-line par
 | [Visual&nbsp;Studio Load&nbsp;Test&nbsp;Controller 2019](workload-component-id-vs-test-controller.md?vs-2019) | Microsoft.VisualStudio.Product.TestController | Distribute automated tests to multiple machines |
 
 For more information about how to use these lists, see the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019) page and the [How to: Migrate extensibility projects to Visual Studio](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md?view=vs-2019) page.
+
+> [!NOTE]
+> For a list of the workload and component IDs for the previous version, see [Visual Studio 2017 workload and component IDs](workload-and-component-ids.md?view=vs-2017)
 
 ::: moniker-end
 

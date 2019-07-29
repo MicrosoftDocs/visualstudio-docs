@@ -23,7 +23,6 @@ manager: jillfra
 # CreateProperty Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Populates properties with the values passed in. This allows values to be copied from one property or string to another.  
   
 ## Attributes  

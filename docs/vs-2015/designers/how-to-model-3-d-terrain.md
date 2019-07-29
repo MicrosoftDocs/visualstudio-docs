@@ -17,15 +17,15 @@ This document demonstrates how to use the Model Editor to create a 3-D terrain m
   
  This document demonstrates these activities:  
   
--   Adding objects to a scene  
+- Adding objects to a scene  
   
--   Selecting faces and points  
+- Selecting faces and points  
   
--   Translating selections  
+- Translating selections  
   
--   Using the **Subdivide face** tool  
+- Using the **Subdivide face** tool  
   
--   Framing an object in the design surface  
+- Framing an object in the design surface  
   
 ## Creating a 3-D terrain model  
  You can create a 3-D terrain by subdividing a plane to make additional faces, and then manipulating their vertices to create interesting terrain features.  
@@ -43,7 +43,7 @@ This document demonstrates how to use the Model Editor to create a 3-D terrain m
 2. Add a plane to the scene. In the **Toolbox**, under **Shapes**, select **Plane** and move it to the design surface.  
   
    > [!TIP]
-   >  To make the plane object easier to work with, you can frame it in the design surface. In **Select** mode, select the plane object, and then on the Model Editor toolbar, choose the **Frame Object** button.  
+   > To make the plane object easier to work with, you can frame it in the design surface. In **Select** mode, select the plane object, and then on the Model Editor toolbar, choose the **Frame Object** button.  
   
 3. Enter face selection mode. On the Model Editor toolbar, choose **Select Face**.  
   
@@ -56,7 +56,7 @@ This document demonstrates how to use the Model Editor to create a 3-D terrain m
 7. Modify a point to create a terrain feature. In point selection mode, select one of the points, and then on the Model Editor toolbar, choose the **Translate** tool. A box that represents the point appears on the design surface. Use the green arrow to move the box and thereby modify the height of the point. Repeat this step for different points to create interesting terrain features.  
   
    > [!TIP]
-   >  You can select several points at once to modify them in a uniform manner.  
+   > You can select several points at once to modify them in a uniform manner.  
   
    The terrain model is complete. Here's the final model again, with Phong shading applied:  
   

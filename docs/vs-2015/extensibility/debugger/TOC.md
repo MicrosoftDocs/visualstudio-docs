@@ -120,7 +120,7 @@
 ## [AsyncTaskMethodBuilder Structure](asynctaskmethodbuilder-structure-internal-members.md)
 ### [ObjectIdForDebugger Property](asynctaskmethodbuilder-objectidfordebugger-property.md)
 ### [m_builder Field](asynctaskmethodbuilder-m-builder-field.md)
-## [AsyncTaskMethodBuilder<TResult> Structure](asynctaskmethodbuilder-tresult-structure-internal-members.md)
+## [AsyncTaskMethodBuilder\<TResult> Structure](asynctaskmethodbuilder-tresult-structure-internal-members.md)
 ### [ObjectIdForDebugger Property](asynctaskmethodbuilder-tresult-objectidfordebugger-property.md)
 ### [m_task Field](asynctaskmethodbuilder-tresult-m-task-field.md)
 ## [AsyncVoidMethodBuilder Structure](asyncvoidmethodbuilder-structure-internal-members.md)
@@ -128,4 +128,3 @@
 ### [m_objectIdForDebugger Field](asyncvoidmethodbuilder-m-objectidfordebugger-field.md)
 # [Reference](reference/reference-visual-studio-debugging-apis.md)
 # [Samples](visual-studio-debugging-samples.md)
-

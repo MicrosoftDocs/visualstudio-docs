@@ -46,7 +46,7 @@ Defines localized strings for product names, package names, and installation err
 |`Name`|Required. The name of the string.|
 
 ## Example
- The following code example specifies all of the English strings for the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] installer.
+ The following code example specifies all of the English strings for the .NET Framework installer.
 
 ```xml
 <Strings>

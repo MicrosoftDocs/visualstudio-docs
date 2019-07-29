@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "editors [Visual Studio SDK], new - using MEF for extensions"
 ms.assetid: 3f59a285-6c33-4ae3-a4fb-ec1f5aa21bd1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -76,25 +76,25 @@ internal IClassificationTypeRegistryService ClassificationRegistry;
 
 #### To consume editor functionality from a MEF component part
 
-1.  Add references to *System.Composition.ComponentModel.dll*, which is in the global assembly cache (GAC), and to the editor assemblies.
+1. Add references to *System.Composition.ComponentModel.dll*, which is in the global assembly cache (GAC), and to the editor assemblies.
 
-2.  Add the relevant using statements.
+2. Add the relevant using statements.
 
     ```
     using System.ComponentModel.Composition;
     using Microsoft.VisualStudio.Text;
     ```
 
-3.  Add the `[Import]` attribute to your service interface, as follows.
+3. Add the `[Import]` attribute to your service interface, as follows.
 
     ```
     [Import]
     ITextBufferFactoryService textBufferService;
     ```
 
-4.  When you have obtained the service, you can consume any one of its components.
+4. When you have obtained the service, you can consume any one of its components.
 
-5.  When you have compiled your assembly, put it in the *..\Common7\IDE\Components\* folder of your Visual Studio installation.
+5. When you have compiled your assembly, put it in the *..\Common7\IDE\Components\* folder of your Visual Studio installation.
 
 ## See also
 - [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)

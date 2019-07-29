@@ -20,18 +20,18 @@ By default, the [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] Profiling T
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
 > [!NOTE]
->  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
+> Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
   
  You can specify the sampling method by using one of the following procedures:  
   
--   On the first page of the Profiling Wizard, click **CPU Sampling (recommended)**.  
+- On the first page of the Profiling Wizard, click **CPU Sampling (recommended)**.  
   
--   On the **Performance Explorer** toolbar, in the **Method** list, click **Sampling**.  
+- On the **Performance Explorer** toolbar, in the **Method** list, click **Sampling**.  
   
--   On the **General** page of the properties dialog box for the performance session, click **Sampling**.  
+- On the **General** page of the properties dialog box for the performance session, click **Sampling**.  
   
 ## Common Tasks  
  You can specify additional options in the _Performance Session_**Property Pages** dialog box of the performance session. To open this dialog box:  

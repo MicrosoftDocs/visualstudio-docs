@@ -17,15 +17,15 @@ You can view sample data in your designer as you customize the layout of your pa
   
  **In this topic:**  
   
--   [Generate sample data](#Scratch)  
+- [Generate sample data](#Scratch)  
   
--   [Generate sample data from a class](#Existing)  
+- [Generate sample data from a class](#Existing)  
   
--   [Show live data in a WPF application](#LiveWPF)  
+- [Show live data in a WPF application](#LiveWPF)  
   
--   [Show live data in a Store or Phone app](#LiveStore)  
+- [Show live data in a Store or Phone app](#LiveStore)  
   
-##  <a name="Scratch"></a> Generate sample data  
+## <a name="Scratch"></a> Generate sample data  
  To generate sample data, open a XAML document. In the **Data** panel, choose the **Create sample data**![](../designers/media/30540d76-7256-43ce-b5d9-4b2edf3d339f.png "30540d76-7256-43ce-b5d9-4b2edf3d339f") button, and then choose **New Sample Data**.  
   
  Define the structure of your data in the **Data** panel, and then bind it to UI elements on any page.  
@@ -40,7 +40,7 @@ You can view sample data in your designer as you customize the layout of your pa
   
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Mixing up some data binding with Blend](https://www.youtube.com/watch?v=LSwPB6CAvjg).  
   
-##  <a name="Existing"></a> Generate sample data from a class  
+## <a name="Existing"></a> Generate sample data from a class  
  If you’ve already created classes that describe the structure of your data, you can generate sample data from them.  
   
  To generate sample data from a class, open a XAML document, and then in the **Data** panel, click the **Create sample data**![](../designers/media/30540d76-7256-43ce-b5d9-4b2edf3d339f.png "30540d76-7256-43ce-b5d9-4b2edf3d339f") button, and then click **Create Sample Data from Class**.  
@@ -49,11 +49,11 @@ You can view sample data in your designer as you customize the layout of your pa
   
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Mixing up some data binding with Blend](https://www.youtube.com/watch?v=LSwPB6CAvjg).  
   
-##  <a name="LiveWPF"></a> Show live data in a WPF application  
+## <a name="LiveWPF"></a> Show live data in a WPF application  
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Create an XML data source](https://www.youtube.com/watch?v=RjQueappjqk&feature=youtube_gdata).  
   
-##  <a name="LiveStore"></a> Show live data in a Store or Phone app  
- See [Working with data and files (XAML)](http://msdn.microsoft.com/library/windows/apps/xaml/br229562.aspx).  
+## <a name="LiveStore"></a> Show live data in a Store or Phone app  
+ See [Working with data and files (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/br229562.aspx).  
   
 ## See Also  
  [Creating a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "automation [Visual Studio SDK], about automation"
   - "extensibility"
 ms.assetid: 12b6d6db-0d22-4aaa-aa7d-1365f759b7b0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -26,14 +26,13 @@ The automation model consists of a set of objects against which you can write a 
 
  Places where you can consider extending the automation model of the environment:
 
--   Project
+- Project
 
--   Document
+- Document
 
--   Code
+- Code
 
--   Build
-
+- Build
 
 For more information on automation, see [Automation and extensibility for Visual Studio](../extensibility-in-visual-studio.md). This document and the documents it provides links to, help you make decisions regarding how you should provide automation for your VSPackage.
 

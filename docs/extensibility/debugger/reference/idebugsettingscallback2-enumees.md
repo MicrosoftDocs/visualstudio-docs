@@ -5,11 +5,14 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugSettingsCallback2::EnumEEs"
 ms.assetid: 9f884c49-426f-461b-b547-9d909486e73f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugSettingsCallback2::EnumEEs
 Enumerates the available expression evaluators given the language and vendor identifiers.
@@ -34,25 +37,21 @@ public int EnumEEs(
 );
 ```
 
-#### Parameters
- `celtBuffer`
+## Parameters
+`celtBuffer`\
+[in] Number of elements in the `pceltEEs` buffer.
 
- [in] Number of elements in the `pceltEEs` buffer.
+`rgguidLang`\
+[in, out] Unique identifier for the programming language.
 
- `rgguidLang`
+`rgguidVendor`\
+[in, out] Unique identifier for the vendor.
 
- [in, out] Unique identifier for the programming language.
-
- `rgguidVendor`
-
- [in, out] Unique identifier for the vendor.
-
- `pceltEEs`
-
- [in, out] Array of expression evaluators.
+`pceltEEs`\
+[in, out] Array of expression evaluators.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md)

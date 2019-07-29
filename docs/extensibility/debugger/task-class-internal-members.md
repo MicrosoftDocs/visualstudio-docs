@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "debug engines, Task class [.NET Framework]"
   - "Task class [.NET Framework debug engines]"
 ms.assetid: 28e47c3b-9323-424a-80ac-6cc3bf19e09b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -61,17 +61,17 @@ This article describes the internal members of the <xref:System.Threading.Tasks.
 ## Remarks
  The following internal methods are useful to a debugger engine because they mark the entrance to <xref:System.Threading.Tasks.Task> code execution:
 
--   `Execute`
+- `Execute`
 
--   `ExecuteEntry`
+- `ExecuteEntry`
 
--   `ExecuteWithThreadLocal`
+- `ExecuteWithThreadLocal`
 
--   `Finish`
+- `Finish`
 
--   `InnerInvoke`
+- `InnerInvoke`
 
--   `InternalWait`
+- `InternalWait`
 
 ## See also
 - <xref:System.Threading.Tasks.Task?displayProperty=fullName>

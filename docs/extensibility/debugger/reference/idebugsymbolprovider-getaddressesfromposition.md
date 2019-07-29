@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugSymbolProvider::GetAddressesFromPosition method"
 ms.assetid: 1b0f02cb-8ace-4614-88f3-0e10239012b3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugSymbolProvider::GetAddressesFromPosition
 This method maps a document position into an array of debug addresses.
@@ -36,22 +39,18 @@ int GetAddressesFromPosition( 
 );
 ```
 
-#### Parameters
- `pDocPos`
+## Parameters
+`pDocPos`\
+[in] The document position.
 
- [in] The document position.
+`fStatmentOnly`\
+[in] If TRUE, limits the debug addresses to a single statement.
 
- `fStatmentOnly`
+`ppEnumBegAddresses`\
+[out] Returns an enumerator for the starting debug addresses associated with this statement or line.
 
- [in] If TRUE, limits the debug addresses to a single statement.
-
- `ppEnumBegAddresses`
-
- [out] Returns an enumerator for the starting debug addresses associated with this statement or line.
-
- `ppEnumEndAddresses`
-
- [out] Returns an [IEnumDebugAddresses](../../../extensibility/debugger/reference/ienumdebugaddresses.md) enumerator for the ending debug addresses associated with this statement or line.
+`ppEnumEndAddresses`\
+[out] Returns an [IEnumDebugAddresses](../../../extensibility/debugger/reference/ienumdebugaddresses.md) enumerator for the ending debug addresses associated with this statement or line.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -61,7 +60,7 @@ int GetAddressesFromPosition( 
 
  It is possible for a single statement to have multiple debug addresses, as in the case of templates.
 
-## See Also
+## See also
 - [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
 - [GetAddressesFromContext](../../../extensibility/debugger/reference/idebugsymbolprovider-getaddressesfromcontext.md)
 - [IEnumDebugAddresses](../../../extensibility/debugger/reference/ienumdebugaddresses.md)

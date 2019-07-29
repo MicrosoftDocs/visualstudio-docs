@@ -32,13 +32,13 @@ Calls to certain APIs can be affected when the hosting process is enabled. In th
   
    In general, when the hosting process is disabled:  
   
--   The time needed to begin debugging [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] applications increases.  
+- The time needed to begin debugging [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] applications increases.  
   
--   Design-time expression evaluation is unavailable.  
+- Design-time expression evaluation is unavailable.  
   
--   Partial trust debugging is unavailable.  
+- Partial trust debugging is unavailable.  
   
 ## See Also  
  [Debugging and the Hosting Process](../debugger/debugging-and-the-hosting-process.md)   
  [Hosting Process (vshost.exe)](../ide/hosting-process-vshost-exe.md)   
- [Builds During Application Development](http://msdn.microsoft.com/c9497d62-3b7b-4449-88e8-cf27acc9efe6)
+ [Builds During Application Development](https://msdn.microsoft.com/c9497d62-3b7b-4449-88e8-cf27acc9efe6)

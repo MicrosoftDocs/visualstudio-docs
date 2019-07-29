@@ -1,6 +1,6 @@
 ---
 title: Startup, Environment, Options Dialog Box
-ms.date: 11/04/2016
+ms.date: 03/28/2019
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.Startup"
@@ -11,7 +11,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Startup, Environment, Options dialog box
+# Options dialog box: Environment \> Startup
 
 ::: moniker range="vs-2017"
 
@@ -24,7 +24,3 @@ Use this page to customize the Visual Studio start page or set a different defau
 Use this page to set a different default action when Visual Studio starts up. In the **On startup, open** list, choose from **Start window** (which lets you open a new or existing project), **Most recent solution**, or **Empty environment**.
 
 ::: moniker-end
-
-## See also
-
-- [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

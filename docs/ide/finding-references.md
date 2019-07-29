@@ -15,7 +15,7 @@ ms.workload:
 
 You can use the **Find All References** command to find where particular code elements are referenced throughout your codebase. The **Find All References** command is available on the context (right-click) menu of the element you want to find references to. Or, if you are a keyboard user, press **Shift + F12**.
 
-The results appear in a tool window named **<element> references**, where *element* is the name of the item you are searching for. A toolbar in the **references** window enables you to:
+The results appear in a tool window named **\<element> references**, where *element* is the name of the item you are searching for. A toolbar in the **references** window enables you to:
 - Change the scope of the search in a drop-down list box. You can choose to look only in changed documents all the way up to the entire solution.
 - Copy the selected referenced item by choosing the **Copy** button.
 - Choose buttons to go to the next or previous location in the list, or press the **F8** and **Shift + F8** keys to do so.
@@ -42,7 +42,7 @@ By default, references are grouped by project, then by definition. However, you 
 **Definition** and **Project** are the two default groupings used, but you can add others by choosing the **Grouping** command on the selected item's right-click or context menu. Adding more groupings can be helpful if your solution has a lot of files and paths.
 
 ## Filter by reference type in .NET
-In C# or Visual Basic, the Find References window has a Kind column where it lists what type of reference it found. This column can be used to filter by reference type by clicking on the filter icon that appears when hovering over the column header. References can be filtered by Read, Write, Reference, and NameOnly.
+In C# or Visual Basic, the Find References window has a Kind column where it lists what type of reference it found. This column can be used to filter by reference type by clicking on the filter icon that appears when hovering over the column header. References can be filtered by Read, Write, Reference, Name, Namespace, and Type.
 
 ![Find References Window Kind column ](../ide/media/vside_findallreferencesKind.png)
 

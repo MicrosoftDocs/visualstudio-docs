@@ -18,7 +18,7 @@ manager: "ghogen"
 Sets the filter on a particular [IDebugApplicationNodeEvents Interface](../../winscript/reference/idebugapplicationnodeevents-interface.md) implementation. It allows script debuggers to filter out compiler-generated child application nodes so that the PDM will no longer send events when these are created or removed. By default, all nodes will be sent.  
   
 > [!IMPORTANT]
->  [IDebugApplicationNode100 Interface](../../winscript/reference/idebugapplicationnode100-interface.md) is implemented by PDM v10.0 and greater. Found in activdbg100.h.  
+> [IDebugApplicationNode100 Interface](../../winscript/reference/idebugapplicationnode100-interface.md) is implemented by PDM v10.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   

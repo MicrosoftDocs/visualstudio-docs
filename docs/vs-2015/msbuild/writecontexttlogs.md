@@ -21,7 +21,6 @@ manager: jillfra
 # WriteContextTLogs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Writes logs files for the current context.  
   
 ## Syntax  

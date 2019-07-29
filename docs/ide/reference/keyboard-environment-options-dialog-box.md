@@ -11,9 +11,6 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Keyboard, Environment, Options Dialog Box
-Use this page to set keyboard mappings. For more information about mappings, see [Identifying and Customizing Keyboard Shortcuts](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).
+# Options dialog box: Environment \> Keyboard
 
-## See Also
-
-- [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)
+Use this page to set keyboard mappings. For more information about mappings, see [Identify and customize keyboard shortcuts](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).

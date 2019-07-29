@@ -3,8 +3,8 @@ title: "How to: Use Rule-based UI Context for Visual Studio Extensions | Microso
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 8dd2cd1d-d8ba-49b9-870a-45acf3a3259d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 ms.workload:
   - "vssdk"
 ---
@@ -64,14 +64,14 @@ Rule-based UI Context can be used in various ways:
 
    ```xml
    <VisibilityConstraints>
-       <VisibilityItem guid="guidTestPackageCmdSet" id="TestId"  context="guidTestUIContext"/>
+       <VisibilityItem guid="guidTestPackageCmdSet" id="TestId"  context="UIContextGuid"/>
    </VisibilityConstraints>
    ```
 
 4. In the Symbols section, add the definition of the UIContext:
 
    ```xml
-   <GuidSymbol name="guidTestUIContext" value="{8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B}" />
+   <GuidSymbol name="UIContextGuid" value="{8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B}" />
    ```
 
     Now, the context menu commands for *\*.config* files will be visible only when the selected item in the solution explorer is a *.config* file and the package will not be loaded until one of those commands is selected.
@@ -134,6 +134,10 @@ Here are the various types of term that are supported:
 |ActiveProjectCapability:\<Expression>|The term is true when active project capabilities match the provided expression. An expression can be something like VB &#124; CSharp.|
 |SolutionHasProjectCapability:\<Expression>|Similar to above but term is true when solution has any loaded project that matches to the expression.|
 |SolutionHasProjectFlavor:\<projectTypeGuid>|The term will be true whenever a solution has project that is flavored (aggregated) and has a flavor matching the given project type GUID.|
+|ProjectAddedItem:\<pattern>| The term is true when a file matching the "pattern" is added to a project in the soluion that is opened.|
+|ActiveProjectOutputType:\<outputType>|The term is true when output type for active project matches exactly.  The outputType could be an integer or a <xref:Microsoft.VisualStudio.Shell.Interop.__VSPROJOUTPUTTYPE> type.|
+|ActiveProjectBuildProperty:\<buildProperty>=\<regex>|The term is true when active project has the specified build property and property value matches to regex filter provided. Refer to [Persisting Data in MSBuild Project Files](internals/persisting-data-in-the-msbuild-project-file.md) for more details on build properties.|
+|SolutionHasProjectBuildProperty:\<buildProperty>=\<regex>|The term is true when solution has a loaded project with the specified build property and property value matches to regex filter provided.|
 
 ## Compatibility with cross-version extension
 

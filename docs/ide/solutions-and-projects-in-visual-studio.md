@@ -3,20 +3,17 @@ title: Solutions and projects
 ms.date: 10/05/2017
 ms.topic: conceptual
 f1_keywords:
-  - "vs.addnewsolutionitem"
-  - "vs.environment.projects"
-  - "vs.openproject"
   - "vs.addnewitem"
+  - "vs.addnewsolutionitem"
+  - "vs.openproject"
   - "vs.addexistingitem"
-  - "VS.SolutionExplorer"
   - "vs.addexistingsolutionitem"
+  - "vs.environment.projects"
   - "vs.environment.solutions"
+  - "VS.SolutionExplorer"
   - "VS.SolutionExplorer.Solutions"
 helpviewer_keywords:
-  - "solution items [Visual Studio]"
   - "solutions [Visual Studio]"
-  - "project items [Visual Studio]"
-  - "solutions [Visual Studio], designing"
   - "projects [Visual Studio]"
 author: gewarren
 ms.author: gewarren
@@ -26,7 +23,7 @@ ms.workload:
 ---
 # Solutions and projects in Visual Studio
 
-This article describes the concept of a *project* and a *solution* in Visual Studio. It also briefly covers how to create a new project, and the **Solution Explorer** tool window.
+This article describes the concept of a *project* and a *solution* in Visual Studio. It also briefly covers how to create a new project and the **Solution Explorer** tool window.
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Projects and solutions in Visual Studio for Mac](/visualstudio/mac/projects-and-solutions).
@@ -58,15 +55,21 @@ Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solu
 
 ## Create new projects
 
-The easiest way to create a new project is to start from a project template for a particular type of application or website. A project template consists of a basic set of pre-generated code files, config files, assets, and settings. These templates are what you see in the **New Project** dialog box when you choose **File** > **New** > **Project**. For more information, see [Create solutions and projects](../ide/creating-solutions-and-projects.md).
+The easiest way to create a new project is to start from a project template for a particular type of application or website. A project template consists of a basic set of pre-generated code files, config files, assets, and settings. These templates are available in the dialog box where you create a new project (**File** > **New** > **Project**). For more information, see [Create a new project in Visual Studio](create-new-project.md) and [Create solutions and projects](../ide/creating-solutions-and-projects.md).
 
-You can also create custom project and item templates. For more information, see [Create project and item templates](../ide/creating-project-and-item-templates.md).
+If you often customize your projects in a certain way, You can create a custom project template that you can then use to create new projects from. For more information, see [Create project and item templates](../ide/creating-project-and-item-templates.md).
 
-## Manage projects in Solution Explorer
+When you create a new project, it is saved by default at *%USERPROFILE%\source\repos*. You can change this location in the **Projects location** setting under **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Projects and Solutions page, Options dialog box](../ide/reference/projects-and-solutions-options-dialog-box.md).
 
-After you create a new project, you can use **Solution Explorer** to view and manage the project and solution, and their associated items. The following illustration shows **Solution Explorer** with a C# solution that contains two projects:
+## Solution Explorer
+
+After you create a new project, you can use **Solution Explorer** to view and manage the project and solution and their associated items. The following illustration shows **Solution Explorer** with a C# solution that contains two projects:
 
 ![Solution Explorer](../ide/media/vs2015_solution_explorer.png)
+
+Many menu commands are available from the right-click menu on various items in **Solution Explorer**. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few. The toolbar across the top of **Solution Explorer** has buttons to switch from a solution view to a folder view, show hidden files, collapse all nodes, and more.
+
+For ASP.NET Core projects, you can customize how files are nested in **Solution Explorer**. For more information, see [Customize file nesting in Solution Explorer](file-nesting-solution-explorer.md).
 
 ## See also
 

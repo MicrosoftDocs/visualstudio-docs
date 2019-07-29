@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgram2::GetDebugProperty"
 ms.assetid: d194224e-f0e6-46ab-85d4-9e2639e28946
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgram2::GetDebugProperty
 Gets the program's properties.
@@ -30,10 +33,9 @@ int GetDebugProperty( 
 );
 ```
 
-#### Parameters
- `ppProperty`
-
- [out] Returns an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that represents the program's properties.
+## Parameters
+`ppProperty`\
+[out] Returns an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that represents the program's properties.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -43,7 +45,7 @@ int GetDebugProperty( 
 
  A program may expose any number and type of additional properties that can be described through the `IDebugProperty2` interface. An IDE might display the additional program properties through a generic property browser user interface.
 
-## See Also
+## See also
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
 - [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
 - [EnumChildren](../../../extensibility/debugger/reference/idebugproperty2-enumchildren.md)

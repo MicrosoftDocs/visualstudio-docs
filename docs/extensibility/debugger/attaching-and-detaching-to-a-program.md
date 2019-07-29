@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "debug engines, attaching to programs"
   - "debug engines, detaching from programs"
 ms.assetid: 79dcbb9b-c7f8-40fc-8a00-f37fe1934f51
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -25,11 +25,11 @@ Attaching the debugger requires sending the correct sequence of methods and even
 
     If `S_OK` is returned, the DE is to be loaded in the same process as the SDM. The SDM performs the following tasks:
 
-   1.  Calls [GetEngineInfo](../../extensibility/debugger/reference/idebugprogramnode2-getengineinfo.md) to get the engine information of the DE.
+   1. Calls [GetEngineInfo](../../extensibility/debugger/reference/idebugprogramnode2-getengineinfo.md) to get the engine information of the DE.
 
-   2.  Co-creates the DE.
+   2. Co-creates the DE.
 
-   3.  Calls [Attach](../../extensibility/debugger/reference/idebugengine2-attach.md).
+   3. Calls [Attach](../../extensibility/debugger/reference/idebugengine2-attach.md).
 
 2. The DE sends an [IDebugEngineCreateEvent2](../../extensibility/debugger/reference/idebugenginecreateevent2.md) to the SDM with an `EVENT_SYNC` attribute.
 

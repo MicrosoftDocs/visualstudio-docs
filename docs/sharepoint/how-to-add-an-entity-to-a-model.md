@@ -23,20 +23,20 @@ ms.workload:
 
 ### To add an entity to the model
 
-1.  Create a BDC project, or open an existing BDC project. For more information, see [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md).
+1. Create a BDC project, or open an existing BDC project. For more information, see [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md).
 
-2.  In the **Toolbox**, from the **BusinessDataCatalog** group, add an **Entity** control onto the designer.
+2. In the **Toolbox**, from the **BusinessDataCatalog** group, add an **Entity** control onto the designer.
 
      The new entity appears on the designer. Visual Studio adds an `<Entity>` element to the XML of the BDC model file in your project. For more information about the attributes of an Entity element, see [Entity](http://go.microsoft.com/fwlink/?LinkId=169296).
 
-3.  On the designer, open the shortcut menu for the entity, choose **Add**, and then choose **Identifier**.
+3. On the designer, open the shortcut menu for the entity, choose **Add**, and then choose **Identifier**.
 
      A new identifier appears on the entity.
 
     > [!NOTE]
-    >  You can change the name of the entity and the identifier in the **Properties** window.
+    > You can change the name of the entity and the identifier in the **Properties** window.
 
-4.  Define the fields of the entity in a class. You can either add a new class to the project or use an existing class created by using other tools such as the Object Relational Designer (O/R Designer). The following example shows an entity class named Contact.
+4. Define the fields of the entity in a class. You can either add a new class to the project or use an existing class created by using other tools such as the Object Relational Designer (O/R Designer). The following example shows an entity class named Contact.
 
      [!code-csharp[SP_BDC_Entity_Data_Class#1](../sharepoint/codesnippet/CSharp/sp_bdc_entity_data_class/bdcmodel1/contact.cs#1)]
      [!code-vb[SP_BDC_Entity_Data_Class#1](../sharepoint/codesnippet/VisualBasic/sp_bdc_entity_data_class/bdcmodel1/contact.vb#1)]

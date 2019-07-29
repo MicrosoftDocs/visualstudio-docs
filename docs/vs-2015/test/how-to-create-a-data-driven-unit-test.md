@@ -31,23 +31,23 @@ Using the Microsoft unit test framework for managed code, you can set up a unit 
   
 - [Writing the test method](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Writing_the_test_method)  
   
-  -   [Specifying the DataSourceAttribute](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Specifying_the_DataSourceAttribute)  
+  - [Specifying the DataSourceAttribute](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Specifying_the_DataSourceAttribute)  
   
-  -   [Using TestContext.DataRow to access the data](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Using_TestContext_DataRow_to_access_the_data)  
+  - [Using TestContext.DataRow to access the data](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Using_TestContext_DataRow_to_access_the_data)  
   
 - [Running the test and viewing results](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Running_the_test_and_viewing_results)  
   
   Creating a data-driven unit test involves the following steps:  
   
-1.  Create a data source that contains the values that you use in the test method. The data source can be any type that is registered on the machine that runs the test.  
+1. Create a data source that contains the values that you use in the test method. The data source can be any type that is registered on the machine that runs the test.  
   
-2.  Add a private <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> field and a public `TestContext` property to the test class.  
+2. Add a private <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> field and a public `TestContext` property to the test class.  
   
-3.  Create a unit test method and add a <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> attribute to it.  
+3. Create a unit test method and add a <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> attribute to it.  
   
-4.  Use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow%2A> indexer property to retrieve the values that you use in a test.  
+4. Use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow%2A> indexer property to retrieve the values that you use in a test.  
   
-##  <a name="BKMK_The_method_under_test"></a> The method under test  
+## <a name="BKMK_The_method_under_test"></a> The method under test  
  As an example, let's assume that we have created:  
   
 1. A solution called `MyBank` that accepts and processes transactions for different types of accounts.  
@@ -74,7 +74,7 @@ public int AddIntegers(int first, int second)
 }  
 ```  
   
-##  <a name="BKMK_Creating_a_data_source"></a> Creating a data source  
+## <a name="BKMK_Creating_a_data_source"></a> Creating a data source  
  To test the `AddIntegers` method, we create a data source that specifies a range of values for the parameters and the sum that you expect to be returned. In our example, we create a Sql Compact database named `MathsData` and a table named `AddIntegersData` that contains the following column names and values  
   
 |FirstNumber|SecondNumber|Sum|  
@@ -83,7 +83,7 @@ public int AddIntegers(int first, int second)
 |1|1|2|  
 |2|-3|-1|  
   
-##  <a name="BKMK_Adding_a_TestContext_to_the_test_class"></a> Adding a TestContext to the test class  
+## <a name="BKMK_Adding_a_TestContext_to_the_test_class"></a> Adding a TestContext to the test class  
  The unit test framework creates a `TestContext` object to store the data source information for a data-driven test. The framework then sets this object as the value of the `TestContext` property that we create.  
   
 ```  
@@ -99,7 +99,7 @@ public TestContext TestContext
   
  In your test method, you access the data through the `DataRow` indexer property of the `TestContext`.  
   
-##  <a name="BKMK_Writing_the_test_method"></a> Writing the test method  
+## <a name="BKMK_Writing_the_test_method"></a> Writing the test method  
  The test method for `AddIntegers` is fairly simple. For each row in the data source, we call `AddIntegers` with the **FirstNumber** and **SecondNumber** column values as parameters, and we verify the return value against **Sum** column value:  
   
 ```  
@@ -125,7 +125,7 @@ public void AddIntegers_FromDataSourceTest()
   
  Note that the `Assert` method includes a message that displays the `x` and `y` values of a failed iteration. By default, the asserted values, `expected` and `actual`, are already included in the details of a failed test.  
   
-###  <a name="BKMK_Specifying_the_DataSourceAttribute"></a> Specifying the DataSourceAttribute  
+### <a name="BKMK_Specifying_the_DataSourceAttribute"></a> Specifying the DataSourceAttribute  
  The `DataSource` attribute specifies the connection string for the data source and the name of the table that you use in the test method. The exact information in the connection string differs, depending on what kind of data source you are using. In this example, we used a SqlServerCe database.  
   
 ```  
@@ -159,7 +159,7 @@ public void AddIntegers_FromDataSourceTest()
     )]  
 ```  
   
-###  <a name="BKMK_Using_TestContext_DataRow_to_access_the_data"></a> Using TestContext.DataRow to access the data  
+### <a name="BKMK_Using_TestContext_DataRow_to_access_the_data"></a> Using TestContext.DataRow to access the data  
  To access the data in the `AddIntegersData` table, use the `TestContext.DataRow` indexer. `DataRow` is a <xref:System.Data.DataRow> object, so we retrieve column values by index or column names. Because the values are returned as objects, we need to convert them to the appropriate type:  
   
 ```  
@@ -167,7 +167,7 @@ int x = Convert.ToInt32(TestContext.DataRow["FirstNumber"]);
   
 ```  
   
-##  <a name="BKMK_Running_the_test_and_viewing_results"></a> Running the test and viewing results  
+## <a name="BKMK_Running_the_test_and_viewing_results"></a> Running the test and viewing results  
  When you have finished writing a test method, build the test project. The test method appears in the Test Explorer window in the **Not Run Tests** group. As you run, write, and rerun your tests, Test Explorer displays the results in groups of **Failed Tests**, **Passed Tests**, and **Not Run Tests**. You can choose **Run All** to run all your tests, or choose **Run...** to choose a subset of tests to run.  
   
  The test results bar at the top of the Explorer is animated as your test runs. At the end of the test run, the bar will be green if all of the tests have passed or red if any of the tests have failed. A summary of the test run appears in the details pane at the bottom of the Test Explorer window. Select a test to view the details of that test in the bottom pane.  
@@ -181,7 +181,7 @@ int x = Convert.ToInt32(TestContext.DataRow["FirstNumber"]);
  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext?displayProperty=fullName>   
  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow%2A?displayProperty=fullName>   
  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert?displayProperty=fullName>   
- [How to: Create and Run a Unit Test](http://msdn.microsoft.com/5e0f43cf-5e51-48e2-9c98-0eb9324bdc48)   
+ [How to: Create and Run a Unit Test](https://msdn.microsoft.com/5e0f43cf-5e51-48e2-9c98-0eb9324bdc48)   
  [Unit Test Your Code](../test/unit-test-your-code.md)   
  [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)   
  [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../test/writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)

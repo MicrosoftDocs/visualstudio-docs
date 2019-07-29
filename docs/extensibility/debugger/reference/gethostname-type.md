@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "GETHOSTNAME_TYPE enumeration"
 ms.assetid: 2be92bea-8133-412b-9015-1833baf16e1b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # GETHOSTNAME_TYPE
 Specifies the type of host name.
@@ -33,11 +36,11 @@ public enum enum_GETHOSTNAME_TYPE {
 };
 ```
 
-## Members
-GHN_FRIENDLY_NAME
+## Fields
+`GHN_FRIENDLY_NAME`\
 Specifies a friendly name of the host.
 
-GHN_FILE_NAME
+`GHN_FILE_NAME`\
 Specifies a file name of the host.
 
 ## Remarks
@@ -50,6 +53,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetHostName](../../../extensibility/debugger/reference/idebugprogramnode2-gethostname.md)

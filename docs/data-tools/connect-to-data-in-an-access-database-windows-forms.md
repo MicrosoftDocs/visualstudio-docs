@@ -1,12 +1,10 @@
 ---
-title: Connect to data in an Access database (Windows Forms)
-ms.date: 02/12/2019
+title: Connect to data in an Access database
+ms.date: 07/18/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "databases, connecting to"
-  - "databases, Access"
   - "data [Visual Studio], connecting"
-  - "connecting to data, from Access databases"
+  - "connecting to data, Access databases"
   - "Access databases, connecting"
 ms.assetid: 4159e815-d430-4ad0-a234-e4125fcbef18
 author: gewarren
@@ -15,19 +13,19 @@ manager: jillfra
 ms.workload:
   - "data-storage"
 ---
-# Connect to data in an Access database (Windows Forms)
+# Connect to data in an Access database
 
-You can connect to an Access database (either an *.mdf* file or an *.accdb* file) by using Visual Studio. After you define the connection, the data appears in the **Data Sources** window. From there, you can drag tables or views onto your forms.
+You can connect to an Access database (either an *.mdb* file or an *.accdb* file) by using Visual Studio. After you define the connection, the data appears in the **Data Sources** window. From there, you can drag tables or views onto your design surface.
 
 ## Prerequisites
 
-To use these procedures, you need a Windows Forms application project, and either an Access database (*.accdb* file) or an Access 2000-2003 database (*.mdb* file). Follow the procedure that corresponds to your file type.
+To use these procedures, you need a Windows Forms or WPF project and either an Access database (*.accdb* file) or an Access 2000-2003 database (*.mdb* file). Follow the procedure that corresponds to your file type.
 
 ## Create a dataset for an .accdb file
 
-You can connect to databases created through Access 2013, Office 365, Access 2010, or Access 2007 by using the following procedure.
+Connect to databases created with Office 365, Access 2013, Access 2010, or Access 2007 by using the following procedure.
 
-1. Open the Windows Forms application to which you want to connect data.
+1. Open a Windows Forms or WPF application project in Visual Studio.
 
 2. To open the **Data Sources** window, on the **View** menu, select **Other Windows** > **Data Sources**.
 
@@ -55,7 +53,7 @@ You can connect to databases created through Access 2013, Office 365, Access 201
 
 10. Select **Next** on the **Choose your Data Connection** page.
 
-     You may get a dialog box telling you the data file is not in your current project. Select **Yes** or **No**.
+    You may get a dialog box telling you the data file is not in your current project. Select **Yes** or **No**.
 
 11. Select **Next** on the **Save connection string to the Application Configuration file** page.
 
@@ -63,13 +61,13 @@ You can connect to databases created through Access 2013, Office 365, Access 201
 
 13. Select the tables or views you want to include in your dataset, and then select **Finish**.
 
-     The dataset is added to your project, and the tables and views appear in the **Data Sources** window.
+    The dataset is added to your project, and the tables and views appear in the **Data Sources** window.
 
 ## Create a dataset for an .mdb file
 
-You create the dataset by running the **Data Source Configuration Wizard**.
+Connect to databases created with Access 2000-2003 by using the following procedure.
 
-1. Open the Windows Forms application to which you want to connect data.
+1. Open a Windows Forms or WPF application project in Visual Studio.
 
 2. On the **View** menu, select **Other Windows** > **Data Sources**.
 
@@ -89,7 +87,7 @@ You create the dataset by running the **Data Source Configuration Wizard**.
 
 8. In the **Database file name**, specify the path and name of the *.mdb* file you want to connect to, and then select **OK**.
 
-   ![Add Connection Access Database File](../data-tools/media/dataaddconnectionaccessmdb.png)
+   ![Add Connection Access Database File](../data-tools/media/add-connection-access-db.png)
 
 9. Select **Next** on the **Choose your Data Connection** page.
 
@@ -101,15 +99,11 @@ You create the dataset by running the **Data Source Configuration Wizard**.
 
     The dataset is added to your project, and the tables and views appear in the **Data Sources** window.
 
-## Security
-
-Storing sensitive information (such as a password) can affect the security of your application. Using Windows Authentication (also known as integrated security) is a more secure way to control access to a database. For more information, see [Protecting connection information](/dotnet/framework/data/adonet/protecting-connection-information).
-
 ## Next steps
 
-The dataset that you just created is now available in the **Data Sources** window. You can now perform any of the following tasks:
+The dataset that you just created is available in the **Data Sources** window. You can now perform any of the following tasks:
 
-- Select items in the **Data Sources** window and drag them onto your form (see [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)).
+- Select items in the **Data Sources** window and drag them onto your form or design surface (see [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md) or [WPF data binding overview](/dotnet/framework/wpf/data/data-binding-overview)).
 
 - Open the data source in the **Dataset Designer** to add or edit the objects that make up the dataset.
 
@@ -118,3 +112,5 @@ The dataset that you just created is now available in the **Data Sources** windo
 ## See also
 
 - [Add connections](../data-tools/add-new-connections.md)
+- [WPF data binding overview](/dotnet/framework/wpf/data/data-binding-overview)
+- [Windows Forms data binding](/dotnet/framework/winforms/data-binding-and-windows-forms)

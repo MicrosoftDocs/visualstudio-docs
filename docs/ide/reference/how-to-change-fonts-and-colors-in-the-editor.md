@@ -27,24 +27,22 @@ You can change the default font face, adjust the font size, and change the foreg
 
 ## Change the default font face, size, and colors
 
-1.  Select **Options** from the **Tools** menu, and in the **Environment** folder, select **Fonts and Colors**.
+1. Select **Options** from the **Tools** menu, and in the **Environment** folder, select **Fonts and Colors**.
 
      The [Fonts and Colors, Environment, Options Dialog Box](../../ide/reference/fonts-and-colors-environment-options-dialog-box.md) opens.
 
-2.  In **Show settings for**, select **Text Editor**.
+2. In **Show settings for**, select **Text Editor**.
 
-3.  Modify the **Font** and **Size** options to change the font face and size for all text elements in all editors.
+3. Modify the **Font** and **Size** options to change the font face and size for all text elements in all editors.
 
-4.  Select the appropriate item in **Display items**, and then modify the **Item foreground** and **Item background** options.
+4. Select the appropriate item in **Display items**, and then modify the **Item foreground** and **Item background** options.
 
     > [!TIP]
     > Click **Use Defaults** to reset the default settings.
 
-5.  Click **OK**.
+5. Click **OK**.
 
 ## See also
 
-- [Customize the editor](../../ide/customizing-the-editor.md)
-- [Text Editor Options dialog box](../../ide/reference/text-editor-options-dialog-box.md)
 - [Features of the code editor](../../ide/writing-code-in-the-code-and-text-editor.md)
 - [How to: Change fonts and colors in Visual Studio](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md)

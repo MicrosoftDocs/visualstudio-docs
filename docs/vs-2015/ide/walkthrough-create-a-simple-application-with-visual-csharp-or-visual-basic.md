@@ -24,14 +24,14 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
  [Debug and test the application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md#BKMK_DebugTest)  
   
 > [!NOTE]
->  This walkthrough is based on Visual Studio Professional, which offers the WPF Application template on which you'll build the project for this walkthrough. Visual Studio Express for Windows Desktop also offers that template, but Visual Studio Express for Windows and Visual Studio Express for Web don't. For introductory information about how to use Visual Studio Express for Windows, see the [Developer Center for Windows Store apps](http://msdn.microsoft.com/windows/apps/br229519). For introductory information about how to use Visual Studio Express for Web, see [Get Started with ASP.NET](http://www.asp.net/get-started). In addition, your edition of Visual Studio and the settings that you use determine the names and locations of some elements of the user interface. See [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> This walkthrough is based on Visual Studio Professional, which offers the WPF Application template on which you'll build the project for this walkthrough. Visual Studio Express for Windows Desktop also offers that template, but Visual Studio Express for Windows and Visual Studio Express for Web don't. For introductory information about how to use Visual Studio Express for Windows, see the [Developer Center for Windows Store apps](https://msdn.microsoft.com/windows/apps/br229519). For introductory information about how to use Visual Studio Express for Web, see [Get Started with ASP.NET](http://www.asp.net/get-started). In addition, your edition of Visual Studio and the settings that you use determine the names and locations of some elements of the user interface. See [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
-##  <a name="BKMK_ConfigureIDE"></a> Configure the IDE  
+## <a name="BKMK_ConfigureIDE"></a> Configure the IDE  
  When you start Visual Studio for the first time, Visual Studio prompts you to sign in with a Microsoft Service Account (MSA), [Sign into Visual Studio](http://blogs.msdn.com/b/visualstudio/archive/2013/06/28/welcome-sign-in-to-visual-studio.aspx). You do not need to sign in and can do that later.  
   
  On your Visual Studio launch, you next must choose a settings combination that applies a set of pre-defined customizations to the IDE. Each settings combination has been designed to make it easier for you to develop applications.  
   
- This walkthrough assume you applied **General Development Settings**, which applies the least amount of customization to the IDE. If you have already chosen C# or Visual Basic (both are good choices), you don’t have to change your settings.  If you want to change your settings, you can use the **Import and Export Settings Wizard**. See [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+ This walkthrough assume you applied **General Development Settings**, which applies the least amount of customization to the IDE. If you have already chosen C# or Visual Basic (both are good choices), you don’t have to change your settings.  If you want to change your settings, you can use the **Import and Export Settings Wizard**. See [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
  After you open Visual Studio, you can identify the tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. In the center of the application window is the **Start Page**. When you load a solution or project, editors and designers appear in the space where the **Start Page** is. When you develop an application, you’ll spend most of your time in this central area.  
   
@@ -61,9 +61,9 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
    ![IDE with Dark Theme applied](../ide/media/exploreide-darkthemeide.png "ExploreIDE-DarkThemeIDE")  
   
-   The color theme used for pictures in the rest of this walkthrough is the light theme. For more information about customizing the IDE, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+   The color theme used for pictures in the rest of this walkthrough is the light theme. For more information about customizing the IDE, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
-##  <a name="BKMK_CreateApp"></a> Create a simple application  
+## <a name="BKMK_CreateApp"></a> Create a simple application  
   
 ### Create the project  
  When you create an application in Visual Studio, you first create a project and a solution. For this example, you’ll create a Windows Presentation Foundation (WPF) project.  
@@ -86,7 +86,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
     ![Create a Visual C&#35; WPF Project, HelloWPFApp](../ide/media/exploreide-newprojectcsharp.png "ExploreIDE-NewProjectcsharp")  
   
-   Visual Studio creates the HelloWPFApp project and solution, and the **Solution Explorer** shows the various files. The WPF Designer shows a design view and an XAML view of MainWindow.xaml in a split view. You can slide the splitter to show more or less of either view.  You can choose to see only the visual view or only the XAML view. (For more information, see [WPF Designer for Windows Forms Developers](http://msdn.microsoft.com/47ad0909-e89b-4996-b4ac-874d929f94ca)). The following items appear in **Solution Explorer**:  
+   Visual Studio creates the HelloWPFApp project and solution, and the **Solution Explorer** shows the various files. The WPF Designer shows a design view and an XAML view of MainWindow.xaml in a split view. You can slide the splitter to show more or less of either view.  You can choose to see only the visual view or only the XAML view. (For more information, see [WPF Designer for Windows Forms Developers](https://msdn.microsoft.com/47ad0909-e89b-4996-b4ac-874d929f94ca)). The following items appear in **Solution Explorer**:  
   
    Figure 5: Project items  
   
@@ -103,7 +103,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
     **Solution Explorer** shows that the name of the file is now Greetings.xaml, and if you expand the MainWindow.xaml node (by putting focus in the node and pressing the rightarrow key), you see the name of MainWindow.xaml.vb or MainWindow.xaml.cs is now Greetings.xaml.vb or Greetings.xaml.cs. This code file is nested under the .xaml file node to show they are very closely related to each other.  
   
    > [!WARNING]
-   >  This change causes an error that you will learn how to debug and fix in a later step.  
+   > This change causes an error that you will learn how to debug and fix in a later step.  
   
 2. In **Solution Explorer**, open Greetings.xaml in the Designer view (by pressing the Enter key while the node has focus) and select the title bar of the window by using the mouse.  
   
@@ -144,7 +144,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
 3. Save your changes by pressing Ctrl-s or using the **File** menu item.  
   
-   Next, you’ll add two [RadioButton](http://msdn.microsoft.com/library/6c9ba847-eab7-4bba-9c74-6b56ef72067b) controls to the form.  
+   Next, you’ll add two [RadioButton](https://msdn.microsoft.com/library/6c9ba847-eab7-4bba-9c74-6b56ef72067b) controls to the form.  
   
 ##### To add radio buttons  
   
@@ -172,7 +172,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
 2. Open the shortcut menu for RadioButton2 by pressing the right mouse button while selecting RadioButton2, choose **Edit Text**, and then enter `Goodbye`.  
   
-   The final UI element that you’ll add is a [Button](http://msdn.microsoft.com/library/a9d8f5a5-c98c-463e-808a-5a4e63173098) control.  
+   The final UI element that you’ll add is a [Button](https://msdn.microsoft.com/library/a9d8f5a5-c98c-463e-808a-5a4e63173098) control.  
   
 ##### To add the button control  
   
@@ -193,7 +193,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
 ##### Add code to display message boxes  
   
-1.  On the design surface, double-click the **Display** button.  
+1. On the design surface, double-click the **Display** button.  
   
      Greetings.xaml.vb or Greetings.xaml.cs opens, with the cursor in the Button_Click event. You can also add a click event handler as follows (if the pasted code has a red squiggle under any names, then you probably did not select the RadioButton controls on the design surface and rename them):  
   
@@ -214,7 +214,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
     }  
     ```  
   
-2.  For Visual Basic, enter the following code:  
+2. For Visual Basic, enter the following code:  
   
     ```vb  
     If RadioButton1.IsChecked = True Then  
@@ -239,10 +239,10 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
     }  
     ```  
   
-3.  Save the application.  
+3. Save the application.  
   
-##  <a name="BKMK_DebugTest"></a> Debug and test the application  
- Next, you’ll debug the application to look for errors and test that both message boxes appear correctly. The following instructions tell you how to build and launch the debugger, but later you might read [Building a WPF Application (WPF)](http://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c) and [Debugging WPF](../debugger/debugging-wpf.md) for more information.  
+## <a name="BKMK_DebugTest"></a> Debug and test the application  
+ Next, you’ll debug the application to look for errors and test that both message boxes appear correctly. The following instructions tell you how to build and launch the debugger, but later you might read [Building a WPF Application (WPF)](https://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c) and [Debugging WPF](../debugger/debugging-wpf.md) for more information.  
   
 ### Find and fix errors  
  In this step, you’ll find the error that we caused earlier by changing the name of the main window XAML file.  
@@ -274,29 +274,29 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
 ##### To add breakpoints  
   
-1.  Open Greetings.xaml.vb or Greetings.xaml.cs, and select the following line: `MessageBox.Show("Hello.")`  
+1. Open Greetings.xaml.vb or Greetings.xaml.cs, and select the following line: `MessageBox.Show("Hello.")`  
   
-2.  Add a breakpoint from the menu by selecting **Debug**, then **Toggle Breakpoint**.  
+2. Add a breakpoint from the menu by selecting **Debug**, then **Toggle Breakpoint**.  
   
      ![Toggle Breakpoint command on the Debug menu](../ide/media/exploreide-togglebreakpoint.png "ExploreIDE-ToggleBreakpoint")  
   
      A red circle appears next to the line of code in the far left margin of the editor window.  
   
-3.  Select the following line: `MessageBox.Show("Goodbye.")`.  
+3. Select the following line: `MessageBox.Show("Goodbye.")`.  
   
-4.  Press the F9 key to add a breakpoint, and then press the F5 key to start debugging.  
+4. Press the F9 key to add a breakpoint, and then press the F5 key to start debugging.  
   
-5.  In the **Greetings** window, choose the **Hello** radio button, and then choose the **Display** button.  
+5. In the **Greetings** window, choose the **Hello** radio button, and then choose the **Display** button.  
   
      The line `MessageBox.Show("Hello.")` is highlighted in yellow. At the bottom of the IDE, the Autos, Locals, and Watch windows are docked together on the left side, and the Call Stack, Breakpoints, Command, Immediate, and Output windows are docked together on the right side.  
   
-6.  On the menu bar, choose **Debug**, **Step Out**.  
+6. On the menu bar, choose **Debug**, **Step Out**.  
   
      The application resumes execution, and a message box with the word “Hello” appears.  
   
-7.  Choose the **OK** button on the message box to close it.  
+7. Choose the **OK** button on the message box to close it.  
   
-8.  In the **Greetings** window, choose the **Goodbye** radio button, and then choose the **Display** button.  
+8. In the **Greetings** window, choose the **Goodbye** radio button, and then choose the **Display** button.  
   
      The line `MessageBox.Show("Goodbye.")` is highlighted in yellow.  
   

@@ -25,8 +25,8 @@ Historical debugging is a mode of debugging that depends on the information coll
 
 ## How do I start using historical debugging?
 
- IntelliTrace is on by default. All you have to do is decide which events and function calls are of interest to you, and whether you want to view snapshots of your full application state. For more information about defining what you want to look for, see [IntelliTrace Features](../debugger/intellitrace-features.md). Feature support varies by language and app type.
+IntelliTrace is on by default. All you have to do is decide which events and function calls are of interest to you, and whether you want to view snapshots of your full application state. For more information about defining what you want to look for, see [IntelliTrace Features](../debugger/intellitrace-features.md). Feature support varies by language and app type.
 
- - To view snapshots with historical debugging, see [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md)
- - To learn how to inspect variables and navigate code, see [Inspect your app with historical debugging](../debugger/historical-debugging-inspect-app.md)
- - To learn more about debugging with IntelliTrace events, see [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md).
+- To view snapshots with historical debugging, see [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md)
+- To learn how to inspect variables and navigate code, see [Inspect your app with historical debugging](../debugger/historical-debugging-inspect-app.md)
+- To learn more about debugging with IntelliTrace events, see [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md).

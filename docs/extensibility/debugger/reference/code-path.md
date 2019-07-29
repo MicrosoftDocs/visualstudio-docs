@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "CODE_PATH structure"
 ms.assetid: 2d4b2890-4c9d-47e1-83c0-df9c6436427f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # CODE_PATH
 Describes a method or function call.
@@ -33,10 +36,10 @@ public struct CODE_PATH {
 ```
 
 ## Members
-bstrName
+`bstrName`\
 The name of the code path.
 
-pCode
+`pCode`\
 The [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that identifies where in the code to step into a function.
 
 ## Remarks
@@ -49,7 +52,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)
 - [EnumCodePaths](../../../extensibility/debugger/reference/idebugprogram2-enumcodepaths.md)

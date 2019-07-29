@@ -1,6 +1,6 @@
 ---
 title: "Hidden Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+ms.date: 04/17/2019
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -8,33 +8,40 @@ f1_keywords:
 helpviewer_keywords:
   - "Hidden element [Visual Studio project template]"
 ms.assetid: f37406b0-52e7-4f2c-aacf-bc8d7a4117b3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
 ---
 # Hidden element (Visual Studio templates)
-Specifies whether the template appears in either the **New Project** or **Add New Item** dialog box.
 
- \<VSTemplate>
- \<TemplateData>
- \<Hidden>
+Specifies whether the template appears in either the new project or **Add New Item** dialog boxes.
+
+```xml
+<VSTemplate>
+    <TemplateData>
+        <Hidden>
+```
 
 ## Syntax
 
-```
-<Hidden> true/false </Hidden>
+```xml
+<Hidden>true</Hidden>
+<Hidden>false</Hidden>
 ```
 
 ## Attributes and elements
- The following sections describe attributes, child elements, and parent elements.
+
+The following sections describe attributes, child elements, and parent elements.
 
 ### Attributes
- None.
+
+None.
 
 ### Child elements
- None.
+
+None.
 
 ### Parent elements
 
@@ -43,19 +50,22 @@ Specifies whether the template appears in either the **New Project** or **Add Ne
 |[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|Required element.<br /><br /> Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.|
 
 ## Text value
- A text value is required.
 
- The text must be either `true` or `false`, indicating whether or not the template will appear in the **New Project** or **Add New Item** dialog boxes.
+A text value is required.
+
+The text must be either `true` or `false`, indicating whether or not the template will appear in the **New Project** or **Add New Item** dialog boxes.
 
 ## Remarks
- `Hidden` is an optional element.
 
- If specified, no other child elements of the `TemplateData` element are required.
+`Hidden` is an optional element.
+
+If specified, no other child elements of the `TemplateData` element are required.
 
 ## Example
- The following example illustrates the metadata for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] template.
 
-```
+The following example illustrates the metadata for a C# template.
+
+```xml
 <VSTemplate Type="Project" Version="3.0.0"
     xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
     <TemplateData>
@@ -81,5 +91,6 @@ Specifies whether the template appears in either the **New Project** or **Add Ne
 ```
 
 ## See also
-- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+
+- [Template schema reference](../extensibility/visual-studio-template-schema-reference.md)
 - [Create project and item templates](../ide/creating-project-and-item-templates.md)

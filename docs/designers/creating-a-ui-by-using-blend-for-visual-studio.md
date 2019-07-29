@@ -24,11 +24,18 @@ If you're new to Blend for Visual Studio, take a moment to become familiar with 
 > [!NOTE]
 > To tour the shared design features such as the artboard, **Document Outline** window, and **Device** window, see [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).
 
-## Tour of the Tools panel
+## Tools panel
 
-You can use the **Tools** panel in Blend for Visual Studio to create and modify objects in your application. You create the objects by selecting a tool and drawing on the artboard with your mouse.
+You can use the **Tools** panel in Blend for Visual Studio to create and modify objects in your application. The **Tools** panel appears on the left-hand side of the XAML designer when you have a *.xaml* file open.
 
-![Tools panel](../designers/media/blend5toolspanel.png)
+You create the objects by selecting a tool and drawing on the artboard with your mouse.
+
+![Tools panel in Blend for Visual Studio](../designers/media/blend5toolspanel.png)
+
+> [!TIP]
+> Some of the tools in the **Tools** panel have variations (shown as A through F in the illustration). To access these variations, right-click or click and hold on the tool.
+>
+> ![Shape tool variations in Blend for Visual Studio](media/rectangle-shape-tool-blend.png)
 
 |||||
 |-|-|-|-|
@@ -39,27 +46,25 @@ You can use the **Tools** panel in Blend for Visual Studio to create and modify 
 |![Asset tools](../designers/media/b1_5.png)|**Asset tools** Access the **Assets** panel and to show the most recently used asset from the library.|![Callout E](../designers/media/b5_label_e.png)|**Text controls**|
 |||![Callout F](../designers/media/b5_label_f.png)|**Common controls**|
 
-**Watch a short video:** ![Configure installed features](../designers/media/bldadminconsoleinitialconfigicon.png) [The Toolbar](https://www.youtube.com/watch?v=VkdUJcvoo54&list=PLBDF977B2F1DAB358&index=4).
+## Assets window
 
-## Tour of the Assets panel
+The **Assets** window contains all the available controls and is similar to the **Toolbox** in Visual Studio. In addition to controls, you'll find everything you can add to your artboard in the **Assets** window, including styles, media, behaviors, and effects. To open the **Assets** window, choose **View** > **Assets Window** or press **Ctrl**+**Alt**+**X**.
 
-You can find all controls in the **Assets** panel, similar to the **Toolbox** in Visual Studio. In addition to controls, you'll find everything you can add to your artboard in the **Assets** panel, including styles, media, behaviors, and effects.
-
-![Assets panel](../designers/media/blend5_assets_panel.png)
+![Assets window in Blend for Visual Studio](../designers/media/blend5_assets_panel.png)
 
 |||
 |-|-|
-|![](../designers/media/b1_1.png)|**Search box** Type in the **Search** box to filter the list of assets.|
+|![Assets search box](../designers/media/b1_1.png)|**Search box** Type in the **Search** box to filter the list of assets.|
 |![Grid mode and list mode](../designers/media/b1_2.png)|**Grid mode and List mode** Switch between the **Grid mode** view and the **List mode** view of assets.|
 |![Assets categories](../designers/media/b1_3.png)|**Assets categories** Click a category or subcategory to view the list of assets in that category.|
 |![Styles](../designers/media/b1_4.png)|**Styles** Show all the styles that are contained in the resource dictionary.|
 |![Description](../designers/media/b1_5.png)|**Description** View a description of the selected assets category or subcategory.|
 
-## Tour of the Objects and Timeline panel
+## Objects and Timeline window
 
-Use this panel to organize the objects on your artboard and, if you want, to animate them.
+Use this window to organize the objects on your artboard and, if you want, to animate them. To open the **Objects and Timeline** window, choose **View** > **Objects and Timeline** or press **Ctrl**+**W**, **U**.
 
-![Object and Timeline panel in animation mode](../designers/media/b5_object_timeline_animation.png)
+![Object and Timeline window in animation mode](../designers/media/b5_object_timeline_animation.png)
 
 |||
 |-|-|
@@ -80,11 +85,11 @@ Use this panel to organize the objects on your artboard and, if you want, to ani
 |![Timeline zoom](../designers/media/b1_15.png)|**Timeline zoom** Set the zoom resolution of the timeline. Zooming in lets you edit an animation with more detail, and zooming out shows more of an overview of what is happening over longer periods of time. If you zoom in but can't set a keyframe at the position in time that you want, verify that the snap resolution is set high enough.|
 |![Callout 16](../designers/media/b5_label_16.png)|**Timeline composition area** View the timeline, and move keyframes around by dragging them or using their shortcut menus.|
 
-## Tour of the Properties panel
+## Properties window
 
-Use this panel to view and modify the properties of an object. You can also set them directly on the artboard. If you do, the property changes will be reflected in the **Properties** panel.
+Use this window to view and modify the properties of an object. You can also set them directly on the artboard. If you do, the property changes are reflected in the **Properties** window. To open the **Properties** window, choose **View** > **Properties Window**, or press **Ctrl**+**W**, **P**.
 
-![Properties panel](../designers/media/blend5_properties_panel.png)
+![Properties window in Blend for Visual Studio](../designers/media/blend5_properties_panel.png)
 
 **Categories** Expand and collapse categories of properties. Click **Expand** ![Expand](../designers/media/6375953d-074c-421a-bbb3-6f5055b67b64.png) and **Collapse** ![Collapse](../designers/media/b5_collapse_button.png) to show or hide category details.
 
@@ -104,11 +109,9 @@ Use this panel to view and modify the properties of an object. You can also set 
 |![RGB color space](../designers/media/b1_12.png)|**RGB color space** Modify the color by adjusting the values for the **R**,  **G**, or **B** (red, green, blue) number editors.|
 |![Alpha channel](../designers/media/b1_13.png)|**Alpha channel** Modify the Alpha value by using the number editor next to **A**.|
 |![Convert color to resource](../designers/media/d839d12c-07a1-4127-a830-4a8e7069f4fe.png)|**Convert color to resource** Convert the selected color to a color resource. Color resources are available when you click the Color resources tab.|
-|![](../designers/media/b1_15.png)|**Hex value** View the hexadecimal value of the color displayed.|
+|![Color hex value](../designers/media/b1_15.png)|**Hex value** View the hexadecimal value of the color displayed.|
 |![Callout 16](../designers/media/b5_label_16.png)|**Gradient slider** Appears only if a gradient brush is selected.|
 |![Show advanced properties](../designers/media/d50027a1-6824-4ad8-8b4e-558b0756dcf8.png)|**Show advanced properties** View categories of properties that are less commonly used.|
-
-**Watch a short video:** ![Configure installed features](../designers/media/bldadminconsoleinitialconfigicon.png) [Properties panel](https://www.youtube.com/watch?v=HCqQfiobdag&list=PLBDF977B2F1DAB358&index=7).
 
 ## See also
 

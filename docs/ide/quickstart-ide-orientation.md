@@ -13,7 +13,17 @@ ms.workload:
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), we'll take a tour of some of the windows, menus, and other UI features.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+::: moniker range="vs-2017"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+
+::: moniker-end
 
 ::: moniker range="vs-2017"
 
@@ -33,9 +43,9 @@ If you close the **Start Page** and want to see it again, you can reopen it from
 
 ## Start window
 
-The first thing you'll see after you open Visual Studio is the Start window. The Start window is designed to help you "get to code" faster. It has options to clone or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
+The first thing you'll see after you open Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to clone or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
 
-[![](media/vs-2019/start-window-labeled.png "Start window in Visual Studio 2019")](media/vs-2019/start-window-labeled.png#lightbox)
+[![Start window in Visual Studio 2019](media/vs-2019/start-window-labeled.png)](media/vs-2019/start-window-labeled.png#lightbox)
 
 If this is the first time you're using Visual Studio, your recent projects list will be empty.
 
@@ -55,7 +65,7 @@ To continue exploring Visual Studio's features, let's create a new project.
 
    ![Search project templates on Visual Studio Start Page](media/start-page-search-templates.png)
 
-   Visual Studio provides various kinds of project templates that help you get started coding quickly. Choose a C# **Console App (.NET Framework)** project template. (Alternatively, if you're a Visual Basic, C++, Javascript, or other language developer, feel free to create a project in one of those languages. The UI we'll be looking at is similar for all programming languages.)
+   Visual Studio provides various kinds of project templates that help you get started coding quickly. Choose a C# **Console App (.NET Core)** project template. (Alternatively, if you're a Visual Basic, C++, Javascript, or other language developer, feel free to create a project in one of those languages. The UI we'll be looking at is similar for all programming languages.)
 
 1. In the **New Project** dialog box that appears, accept the default project name and choose **OK**.
 
@@ -65,19 +75,19 @@ To continue exploring Visual Studio's features, let's create a new project.
 
 1. On the start window, choose **Create a new project**.
 
-   A window opens that says **Create a new project**. This window is sometimes referred to as the **New Project** dialog, and this is where you can browse and pick a project template. It also keeps a list of recently used project templates.
+   A dialog box opens that says **Create a new project**. Here, you can search, filter, and pick a project template. It also shows a list of your recently used project templates.
 
 1. In the search box at the top, type in **console** to filter the list of project types to those that contain "console" in their name. Further refine the search results by picking **C#** (or another language of your choice) from the **Language** picker.
 
    ![New project dialog in Visual Studio 2019](media/vs-2019/create-a-new-project.png)
 
-1. If you selected C#, Visual Basic, or F# as your language, select the **Console App (.NET Framework)** template, and then choose **Next**. (If you selected a different language, just pick any template. The UI we'll be looking at is similar for all programming languages.)
+1. If you selected C#, Visual Basic, or F# as your language, select the **Console App (.NET Core)** template, and then choose **Next**. (If you selected a different language, just pick any template. The UI we'll be looking at is similar for all programming languages.)
 
 1. On the **Configure your new project** page, accept the default project name and location, and then choose **Create**.
 
 ::: moniker-end
 
-   The project is created and a file named *Program.cs* opens in the **Editor** window. The **Editor** shows the contents of files, and is where you'll do most of your coding work in Visual Studio.
+   The project is created and a file named *Program.cs* opens in the **Editor** window. The **Editor** shows the contents of files and is where you'll do most of your coding work in Visual Studio.
 
    ![Editor in Visual Studio](media/editor.png)
 
@@ -119,15 +129,15 @@ Let's build the project to see some build output. From the **Build** menu, choos
 
 ![Output window in Visual Studio](media/build-output-minimal.png)
 
-## Quick Launch
+## Search box
 
-The **Quick Launch** search box is a quick and easy way to navigate to pretty much anything in Visual Studio. You can enter some text related to what you want to do, and it'll show you a list of options that pertain to the text. For example, imagine you want to increase the build output's verbosity to display additional details about what exactly build is doing. Here's how you might do that:
+The search box is a quick and easy way to navigate to pretty much anything in Visual Studio. You can enter some text related to what you want to do, and it'll show you a list of options that pertain to the text. For example, imagine you want to increase the build output's verbosity to display additional details about what exactly build is doing. Here's how you might do that:
 
 ::: moniker range="vs-2017"
 
 1. Locate the **Quick Launch** search box in the upper right of the IDE. (Alternatively, press **Ctrl**+**Q** to access it.)
 
-2. Type **verbosity** into the **Quick Launch** search box. From the displayed results, choose **Projects and Solutions --> Build and Run** under the **Options** category.
+2. Type **verbosity** into the search box. From the displayed results, choose **Projects and Solutions --> Build and Run** under the **Options** category.
 
    ![Quick launch search box in Visual Studio 2017](media/quickstart-IDE-quick-launch.png)
 
@@ -137,11 +147,11 @@ The **Quick Launch** search box is a quick and easy way to navigate to pretty mu
 
 ::: moniker range=">=vs-2019"
 
-1. Locate the **Quick Launch** search box in the upper part of the IDE, just to the right of the menus. (Alternatively, press **Ctrl**+**Q** to access it.)
+1. Press **Ctrl**+**Q** to activate the search box in the upper part of the IDE.
 
-2. Type **verbosity** into the **Quick Launch** search box. From the displayed results, choose **Change MSBuild verbosity**.
+2. Type **verbosity** into the search box. From the displayed results, choose **Change MSBuild verbosity**.
 
-   ![Quick launch search box in Visual Studio 2019](media/vs-2019/quick-launch-verbosity.png)
+   ![Search box in Visual Studio 2019](media/vs-2019/quick-launch-verbosity.png)
 
    The **Options** dialog box opens to the **Build and Run** options page.
 
@@ -157,7 +167,7 @@ The **Quick Launch** search box is a quick and easy way to navigate to pretty mu
 
 ## Send Feedback menu
 
-Should you encounter any problems while you're using Visual Studio, or if you have suggestions for how to improve the product, you can use the **Send Feedback** menu at the top of the Visual Studio window, next to the **Quick Launch** box.
+Should you encounter any problems while you're using Visual Studio, or if you have suggestions for how to improve the product, you can use the **Send Feedback** menu near the top of the Visual Studio window.
 
 ::: moniker range="vs-2017"
 

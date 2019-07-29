@@ -17,9 +17,9 @@ The steps in this walkthrough demonstrate how to use the XSLT debugger. Steps in
   
 ### To prepare for this walkthrough  
   
-1.  Close any open solutions.  
+1. Close any open solutions.  
   
-2.  Copy the two sample files to your local computer.  
+2. Copy the two sample files to your local computer.  
   
 ## Start Debugging  
   
@@ -53,19 +53,19 @@ The steps in this walkthrough demonstrate how to use the XSLT debugger. Steps in
   
 #### To use the Watch window  
   
-1.  From the **Debug** menu, point to **Windows**, point to **Watch**, and click **Watch 1**.  
+1. From the **Debug** menu, point to **Windows**, point to **Watch**, and click **Watch 1**.  
   
      This makes the Watch 1 window visible.  
   
-2.  Type `$bookAverage` in the **Name** field and press ENTER.  
+2. Type `$bookAverage` in the **Name** field and press ENTER.  
   
      The value of the `$bookAverage` variable is displayed in the window.  
   
-3.  Type `self::node()` in the **Name** field and press ENTER.  
+3. Type `self::node()` in the **Name** field and press ENTER.  
   
      `self::node()` is an XPath expression that evaluates to the current context node. The value of the `self::node()` XPath expression is the first book node. This changes as we progress through the transformation.  
   
-4.  Expand the `self::node()` node, and then expand the `price` node.  
+4. Expand the `self::node()` node, and then expand the `price` node.  
   
      This allows you to see the value of the book price and you can easily compare it to the `$bookAverage` value. Because the book price is below the average, the `xsl:if` condition should succeed.  
   
@@ -74,19 +74,19 @@ The steps in this walkthrough demonstrate how to use the XSLT debugger. Steps in
   
 #### To step through the code  
   
-1.  Press **F5** to continue.  
+1. Press **F5** to continue.  
   
      Because the first book node satisfied the `xsl:if` condition, the book node is added to the XSL output window. The debugger continues to execute until it is positioned again on the `xsl:if` element in the style sheet. The debugger is now positioned on the second book node in the books.xml file.  
   
      In the Watch1 window the `self::node()` value changes to the second book node. By examining the value of the price element, you can determine that the price is above the average, thus the `xsl:if` condition should fail.  
   
-2.  Press **F5** to continue.  
+2. Press **F5** to continue.  
   
      Because the second book node does not meet the `xsl:if` condition, the book node is not added to the XSL output window. The debugger continues to execute until it is positioned again on the `xsl:if` element in the style sheet. The debugger is now positioned on the third `book` node in the books.xml file.  
   
      In the Watch1 window the `self::node()` value changes to the third book node. By examining the value of the `price` element, you can determine that the price is below the average, thus the `xsl:if` condition should succeed.  
   
-3.  Press **F5** to continue.  
+3. Press **F5** to continue.  
   
      Because the `xsl:if` condition was satisfied, the third book is added to the XSL Output window. All books in the XML document have been processed and the debugger stops.  
   

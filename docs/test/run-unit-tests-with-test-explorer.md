@@ -1,6 +1,6 @@
 ---
 title: "Run and debug unit tests with Test Explorer"
-description: Learn how to run tests with Test Exlorer in Visual Studio. This topic covers how to enable automatic test runs after build, view test results, group and filter the test list, create playlists, debug tests, and use test shortcuts.
+description: Learn how to run tests with Test Explorer in Visual Studio. This topic covers how to enable automatic test runs after build, view test results, group and filter the test list, create playlists, debug tests, and use test shortcuts.
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -17,13 +17,13 @@ Use **Test Explorer** to run unit tests from Visual Studio or third-party unit t
 
 Visual Studio includes the Microsoft unit testing frameworks for both managed and native code. However, **Test Explorer** can also run any unit test framework that has implemented a Test Explorer adapter. For more information about installing third-party unit test frameworks, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
 
-**Test Explorer** can run tests from multiple test projects in a solution and from test classes that are part of the production code projects. Test projects can use different unit test frameworks. When the code under test is written for the .NET Framework, the test project can be written in any language that also targets the .NET Framework, regardless of the language of the target code. Native C/C++ code projects must be tested by using a C++ unit test framework. For more information, see [Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md).
+**Test Explorer** can run tests from multiple test projects in a solution and from test classes that are part of the production code projects. Test projects can use different unit test frameworks. When the code under test is written for .NET, the test project can be written in any language that also targets .NET, regardless of the language of the target code. Native C/C++ code projects must be tested by using a C++ unit test framework. For more information, see [Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md).
 
 ## Run tests in Test Explorer
 
 When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.
 
-![Unit Test Explorer](../test/media/ute_failedpassednotrunsummary.png)
+![Test Explorer](../test/media/ute_failedpassednotrunsummary.png)
 
 As you run, write, and rerun your tests, Test Explorer displays the results in default groups of **Failed Tests**, **Passed Tests**, **Skipped Tests** and **Not Run Tests**. You can change the way Test Explorer groups your tests.
 
@@ -52,7 +52,7 @@ The **pass/fail bar** at the top of the **Test Explorer** window is animated as 
 |![Run after build](../test/media/ute_runafterbuild_btn.png)|To run your unit tests after each local build, choose **Test** on the standard menu, and then choose **Run Tests After Build** on the **Test Explorer** toolbar.|
 
 > [!NOTE]
-> Running unit tests after each build requires Visual Studio Enterprise edition.
+> Running unit tests after each build requires Visual Studio 2017 Enterprise or Visual Studio 2019. In Visual Studio 2019 it is included in Community and Professional as well as Enterprise.
 
 ## View test results
 
@@ -194,7 +194,7 @@ You can determine the amount of your product code that is actually being tested 
 
 To run code coverage for test methods in a solution:
 
-1. Choose **Tests** on the Visual Studio menu and then choose **Analyze code coverage**.
+1. Choose **Test** on the top menu bar and then choose **Analyze code coverage**.
 
 2. Choose one of the following commands from the sub-menu:
 
@@ -222,3 +222,4 @@ Tests can be run from the **Test Explorer**, by right-clicking in the code edito
 
 - [Unit test your code](../test/unit-test-your-code.md)
 - [Run a unit test as a 64-bit process](../test/run-a-unit-test-as-a-64-bit-process.md)
+- [Test Explorer FAQ](test-explorer-faq.md)

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a WCF Data Service with WPF and Entity Framework"
+title: "Create WCF Data Service with WPF & Entity Framework"
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -84,11 +84,11 @@ In the next step, you create an [!INCLUDE[adonet_edm](../data-tools/includes/ado
 
 5. On the **Choose Your Data Connection** page, perform one of the following steps:
 
-    -   If a data connection to the Northwind sample database is available in the drop-down list, choose it.
+    - If a data connection to the Northwind sample database is available in the drop-down list, choose it.
 
          -or-
 
-    -   Choose the **New Connection** button to configure a new data connection. For more information, see [Add new connections](../data-tools/add-new-connections.md).
+    - Choose the **New Connection** button to configure a new data connection. For more information, see [Add new connections](../data-tools/add-new-connections.md).
 
 6. If the database requires a password, choose the **Yes, include sensitive data in the connection string** option button, and then choose the **Next** button.
 

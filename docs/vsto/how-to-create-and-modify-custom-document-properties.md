@@ -24,7 +24,7 @@ ms.workload:
 
  The following example demonstrates how to add a custom property in a document-level customization for Excel and assign it a value.
 
- ## Example
+## Example
  [!code-vb[Trin_VstcoreProgramming#6](../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingExcelVB/ThisWorkbook.vb#6)]
  [!code-csharp[Trin_VstcoreProgramming#6](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingExcelCS/ThisWorkbook.cs#6)]
 

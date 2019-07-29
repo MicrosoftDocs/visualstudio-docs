@@ -13,7 +13,6 @@ manager: jillfra
 # Integration with XML Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The XML Schema Designer is integrated with the XML Editor. If you modify an XSD file in the XML Editor, the change will be reflected in the [XML Schema Explorer](../xml-tools/xml-schema-explorer.md). If you have the [Graph View](../xml-tools/graph-view.md) or the [Content Model View](../xml-tools/content-model-view.md) open, the change will also be reflected there. You can navigate between the XML Schema Designer and the XML Editor in the following ways:  
   
 - In the XML Editor, right-click a node and select **Show in XML Schema Explorer**.  

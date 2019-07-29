@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCoreServer3::DiagnoseWebDebuggingError"
 ms.assetid: 8c4570ca-ae55-42f2-bbaa-8d8e75d2fa19
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCoreServer3::DiagnoseWebDebuggingError
 Attempts to determine why an auto-attach failed.
@@ -30,10 +33,9 @@ int DiagnoseWebDebuggingError(
 );
 ```
 
-#### Parameters
- `pszUrl`
-
- [in] Not currently used; should always be set to a null value.
+## Parameters
+`pszUrl`\
+[in] Not currently used; should always be set to a null value.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. The following are other typical return codes:
@@ -44,5 +46,5 @@ int DiagnoseWebDebuggingError(
 |`S_WEBDBG_DEBUG_VERB_BLOCKED`|Cannot debug on remote server, possibly due to insufficient permissions or because the DEBUG verb is not enabled.|
 |`E_WEBDBG_DEBUG_VERB_BLOCKED`|The web server has been locked down and is blocking the DEBUG verb, which is required to enable debugging.|
 
-## See Also
+## See also
 - [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)

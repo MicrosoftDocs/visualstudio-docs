@@ -3,15 +3,14 @@ title: Measure performance of Python code
 description: Use the Visual Studio profiler to check the performance of Python code when using CPython-based interpreters.
 ms.date: 11/12/2018
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
   - python
   - data-science
 ---
-
 # Profile Python code
 
 You can profile a Python application when using CPython-based interpreters. (See [Features matrix - profiling](overview-of-python-tools-for-visual-studio.md#matrix-profiling) for the availability of this feature for different versions of Visual Studio.)
@@ -27,7 +26,7 @@ When you select **OK**, the profiler runs and opens a performance report through
 ![Profiling performance report](media/profiling-results.png)
 
 > [!Note]
-> At present, Visual Studio supports only this level of full-application profiling, but we certainly want to hear your feedback on future capabilities. Use the [**Product feedback** button](#feedback) at the bottom of this page.
+> At present, Visual Studio supports only this level of full-application profiling, but we certainly want to hear your feedback on future capabilities. Use the **Product feedback** button at the bottom of this page.
 
 ## Profiling for IronPython
 

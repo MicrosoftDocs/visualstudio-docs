@@ -23,14 +23,14 @@ You can build most types of projects with multiple, or even all, of their build 
   
 ### To build a project in multiple build configurations  
   
-1.  On the menu bar, choose **Build**, **Batch Build**.  
+1. On the menu bar, choose **Build**, **Batch Build**.  
   
-2.  In the **Build** column, select the check boxes for the configurations in which you want to build a project.  
+2. In the **Build** column, select the check boxes for the configurations in which you want to build a project.  
   
     > [!TIP]
-    >  To edit or create a build configuration for a solution, choose **Build**, **Configuration Manager** on the menu bar to open the **Configuration Manager** dialog box. After you have edited a build configuration for a solution, choose the **Rebuild** button in the **Batch Build** dialog box to update all build configurations for the projects in the solution.  
+    > To edit or create a build configuration for a solution, choose **Build**, **Configuration Manager** on the menu bar to open the **Configuration Manager** dialog box. After you have edited a build configuration for a solution, choose the **Rebuild** button in the **Batch Build** dialog box to update all build configurations for the projects in the solution.  
   
-3.  Choose the **Build** or **Rebuild** buttons to build the project with the configurations that you specified.  
+3. Choose the **Build** or **Rebuild** buttons to build the project with the configurations that you specified.  
   
 ## See Also  
  [How to: Create and Edit Configurations](../ide/how-to-create-and-edit-configurations.md)   

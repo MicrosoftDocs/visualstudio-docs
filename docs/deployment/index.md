@@ -12,6 +12,8 @@ manager: jillfra
 
 Visual Studio provides several different tools to help you deploy your apps.
 
+<!-- markdownlint-disable MD033 -->
+
 <h2>Experience Visual Studio deployment with 5-minute Quickstarts</h2>
 
 <ul class="panelContent cardsFTitle">
@@ -255,7 +257,7 @@ Visual Studio provides several different tools to help you deploy your apps.
         </a>
     </li>
     <li>
-        <a href="/cpp/ide/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project">
+        <a href="/cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -273,7 +275,7 @@ Visual Studio provides several different tools to help you deploy your apps.
         </a>
     </li>
     <li>
-        <a href="/cpp/ide/clickonce-deployment-for-visual-cpp-applications">
+        <a href="/cpp/windows/clickonce-deployment-for-visual-cpp-applications">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

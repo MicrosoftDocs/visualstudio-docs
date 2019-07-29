@@ -36,12 +36,12 @@ The increased complexity of modern software applications also increases the diff
   
  [Working with Code Metrics Data](../code-quality/working-with-code-metrics-data.md)  
   
- [How to: Copy Code Metrics Results to the Clipboard](http://msdn.microsoft.com/bce8fa29-e39c-4855-aab9-8346257657c5)  
+ [How to: Copy Code Metrics Results to the Clipboard](https://msdn.microsoft.com/bce8fa29-e39c-4855-aab9-8346257657c5)  
   
- [How to: Export Code Metric Results to Excel](http://msdn.microsoft.com/affc08f3-24e5-446d-9076-bf517663e582)  
+ [How to: Export Code Metric Results to Excel](https://msdn.microsoft.com/affc08f3-24e5-446d-9076-bf517663e582)  
   
- [How to: Create a Work Item Based on a Result](http://msdn.microsoft.com/9016393b-b5a3-4d6b-ab6d-f80bafafc0da)  
+ [How to: Create a Work Item Based on a Result](https://msdn.microsoft.com/9016393b-b5a3-4d6b-ab6d-f80bafafc0da)  
   
 ## See Also  
  [Troubleshooting Code Metrics Issues](../code-quality/troubleshooting-code-metrics-issues.md)   
- [Performing Common Development Tasks](http://msdn.microsoft.com/4cd9702a-1e21-4f2d-8e86-e1be4bc74f0b)
+ [Performing Common Development Tasks](https://msdn.microsoft.com/4cd9702a-1e21-4f2d-8e86-e1be4bc74f0b)

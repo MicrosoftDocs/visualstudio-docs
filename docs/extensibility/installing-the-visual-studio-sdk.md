@@ -3,8 +3,8 @@ title: "Installing the Visual Studio SDK | Microsoft Docs"
 ms.date: "07/12/2018"
 ms.topic: "conceptual"
 ms.assetid: c730edb6-5099-4c16-85a8-08def09f1455
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

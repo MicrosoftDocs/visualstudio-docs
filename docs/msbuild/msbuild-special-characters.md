@@ -1,6 +1,6 @@
 ---
 title: "MSBuild Special Characters | Microsoft Docs"
-ms.date: "11/04/2016"
+ms.date: "06/12/2019"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "escape characters"

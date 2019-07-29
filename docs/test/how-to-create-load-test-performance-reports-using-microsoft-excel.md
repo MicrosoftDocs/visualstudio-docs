@@ -18,9 +18,9 @@ You can generate Microsoft Excel load test reports that are based on two or more
 
 Two types of load test reports are available:
 
--   **Run comparison** This creates a set of reports that compares the data from two load test results using tables and bar charts.
+- **Run comparison** This creates a set of reports that compares the data from two load test results using tables and bar charts.
 
--   **Trend** You can generate trend analysis on two or more load test results. The results are displayed using line charts, but the data is available in pivot tables.
+- **Trend** You can generate trend analysis on two or more load test results. The results are displayed using line charts, but the data is available in pivot tables.
 
 > [!TIP]
 > You can also manually create Microsoft Word reports by copying and pasting data from the summary view, graphs view, and tables view. See [How to: Manually create a load test performance report using Microsoft Word](../test/how-to-manually-create-a-load-test-performance-report-using-microsoft-word.md).
@@ -64,7 +64,7 @@ Excel reports can either be generated in the **Load Test Analyzer**, by using th
 
    2. In the **Select database which contains load tests** page, under **Server name**, type the name of the server containing the load test results.
 
-   3. In the **Databasename** drop-down list, select the database containing the load test results.
+   3. In the **Database name** drop-down list, select the database containing the load test results.
 
 3. In the **How do you want to generate your report** page, verify that **Create a report** is selected and choose **Next**.
 
@@ -119,7 +119,7 @@ Excel reports can either be generated in the **Load Test Analyzer**, by using th
 
    2. In the **Select database which contains load tests** page, under **Server name**, type the name of the server containing the load test results.
 
-   3. In the **Databasename** drop-down list, select the database containing the load test results.
+   3. In the **Database name** drop-down list, select the database containing the load test results.
 
 3. In the **How do you want to generate your report** page, verify that **Create a report** is selected and choose **Next**.
 
@@ -138,7 +138,7 @@ Excel reports can either be generated in the **Load Test Analyzer**, by using th
    > [!TIP]
    > For better reports several properties are available in load tests and web performance tests that enable richer reports. The page request has two properties that are presented in the reports: Goal and Reporting Name. Page response times will be reported against goal, and the reporting name will be used instead of the URL in the reports. In a load test Run Settings, under Manage Counter Sets, the Computer Tags property is presented in the report machine names. This is very useful to describe the role of a particular machine in the report.
 
-## .NET Framework security
+## .NET security
 
 Load test results and reports contain potentially sensitive information that might be used to build an attack against your computer or your network. Load test results and reports contain computer names and connection strings. You should be aware of this when you share load test reports with other people.
 

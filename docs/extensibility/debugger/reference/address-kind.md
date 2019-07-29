@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "ADDRESS_KIND enumeration"
 ms.assetid: 3a12fbec-7088-4cf9-8f6f-ad8ddec6009a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # ADDRESS_KIND
 Specifies the kinds of addresses.
@@ -47,32 +50,32 @@ public enum enum_ADDRESS_KIND {
 };
 ```
 
-## Terms
-ADDRESS_KIND_NATIVE
+## Fields
+`ADDRESS_KIND_NATIVE`\
 A native address, represented by the [NATIVE_ADDRESS](../../../extensibility/debugger/reference/native-address.md) structure.
 
-ADDRESS_KIND_UNMANAGED_THIS_RELATIVE
+`ADDRESS_KIND_UNMANAGED_THIS_RELATIVE`\
 An unmanaged address relative to a `this` (`Me` in Visual Basic) pointer and represented by the [UNMANAGED_ADDRESS_THIS_RELATIVE](../../../extensibility/debugger/reference/unmanaged-address-this-relative.md) structure.
 
-ADDRESS_KIND_UNMANAGED_PHYSICAL
+`ADDRESS_KIND_UNMANAGED_PHYSICAL`\
 An unmanaged physical address, represented by the [UNMANAGED_ADDRESS_PHYSICAL](../../../extensibility/debugger/reference/unmanaged-address-physical.md) structure.
 
-ADDRESS_KIND_METHOD
+`ADDRESS_KIND_METHOD`\
 A method of a class, represented by the [METADATA_ADDRESS_METHOD](../../../extensibility/debugger/reference/metadata-address-method.md) structure.
 
-ADDRESS_KIND_FIELD
+`ADDRESS_KIND_FIELD`\
 A field of a class, represented by the [METADATA_ADDRESS_FIELD](../../../extensibility/debugger/reference/metadata-address-field.md) structure.
 
-ADDRESS_KIND_LOCAL
+`ADDRESS_KIND_LOCAL`\
 The address is for a local variable and is represented by the [METADATA_ADDRESS_LOCAL](../../../extensibility/debugger/reference/metadata-address-local.md) structure.
 
-ADDRESS_KIND_PARAM
+`ADDRESS_KIND_PARAM`\
 A method or function parameter, represented by the [METADATA_ADDRESS_PARAM](../../../extensibility/debugger/reference/metadata-address-param.md) structure.
 
-ADDRESS_KIND_ARRAYELEM
+`ADDRESS_KIND_ARRAYELEM`\
 An array element, represented by the [METADATA_ADDRESS_ARRAYELEM](../../../extensibility/debugger/reference/metadata-address-arrayelem.md) structure.
 
-ADDRESS_KIND_RETVAL
+`ADDRESS_KIND_RETVAL`\
 A return value, represented by the [METADATA_ADDRESS_RETVAL](../../../extensibility/debugger/reference/metadata-address-retval.md) structure.
 
 ## Remarks
@@ -85,7 +88,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetAddress](../../../extensibility/debugger/reference/idebugaddress-getaddress.md)
 - [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md)

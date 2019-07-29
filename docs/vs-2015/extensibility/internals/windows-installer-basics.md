@@ -41,31 +41,31 @@ The Windows Installer installs and uninstalls applications or software products 
  Files, registry keys, shortcuts, or and so on that may be installed to a computer. These resources are grouped logically into Windows Installer components.  
   
  Windows Installer component (WIC)  
- The basic unit of installation representing a logical grouping of related resources that are installed and uninstalled as a unit. Windows Installer components are identified by a unique component ID, or GUID. Furthermore, Windows Installer maintains its reference counting at the WIC level. For maximum versioning flexibility, include no more than one primary resource, such as a DLL, in a given WIC. Note that after you identify and populate a WIC, give it a GUID, and deploy it, you cannot change its composition. For more information, see [Organizing Applications into Components](http://msdn.microsoft.com/library/aa370561.aspx).  
+ The basic unit of installation representing a logical grouping of related resources that are installed and uninstalled as a unit. Windows Installer components are identified by a unique component ID, or GUID. Furthermore, Windows Installer maintains its reference counting at the WIC level. For maximum versioning flexibility, include no more than one primary resource, such as a DLL, in a given WIC. Note that after you identify and populate a WIC, give it a GUID, and deploy it, you cannot change its composition. For more information, see [Organizing Applications into Components](https://msdn.microsoft.com/library/aa370561.aspx).  
   
  Package (Redist package)  
  A unit of deployment that consists of an .msi file and external source files to which this file might point. A package contains all the information that Windows Installer needs to run the UI and to install or uninstall the application.  
   
  .msi File  
- A COM-structured storage file containing the instructions and data required to install an application. Every package contains at least one .msi file. The .msi file contains the installer database, a summary information stream, and possibly one or more transforms and internal source files. Files to be installed can either be compressed into a cabinet and stored in a stream in the .msi file or stored, compressed, or uncompressed, outside the .msi file on the source medium. For more information, see [Windows Installer File Extensions](http://msdn.microsoft.com/library/aa372842\(VS.85\).aspx).  
+ A COM-structured storage file containing the instructions and data required to install an application. Every package contains at least one .msi file. The .msi file contains the installer database, a summary information stream, and possibly one or more transforms and internal source files. Files to be installed can either be compressed into a cabinet and stored in a stream in the .msi file or stored, compressed, or uncompressed, outside the .msi file on the source medium. For more information, see [Windows Installer File Extensions](https://msdn.microsoft.com/library/aa372842\(VS.85\).aspx).  
   
 ## Windows Installer Rules Enforcement  
  Two sets of rules determine the deployment of resources through your setup's components. One rule set is maintained by the Windows Installer itself, while you should enforce the second set as installation author.  
   
 > [!NOTE]
->  Enforcement of Windows Installer rules occurs only if you run a validation of your .msi file. Nevertheless, you are cautioned to treat these rules as best practices. For more information, see [Validating an Installation Database](http://msdn.microsoft.com/library/aa372477\(VS.85\).aspx) and [Package Validation](http://msdn.microsoft.com/library/aa370569\(VS.85\).aspx).  
+> Enforcement of Windows Installer rules occurs only if you run a validation of your .msi file. Nevertheless, you are cautioned to treat these rules as best practices. For more information, see [Validating an Installation Database](https://msdn.microsoft.com/library/aa372477\(VS.85\).aspx) and [Package Validation](https://msdn.microsoft.com/library/aa370569\(VS.85\).aspx).  
   
 #### Installer-Enforced Rules  
   
--   All files in a given component must be installed to the same directory. Conversely, files installed to separate folders must belong to separate components.  
+- All files in a given component must be installed to the same directory. Conversely, files installed to separate folders must belong to separate components.  
   
--   There can be only one key path per component. The key path is simply a file or registry key that represents the entire component.  
+- There can be only one key path per component. The key path is simply a file or registry key that represents the entire component.  
   
 #### Component-Provider Responsibilities  
   
--   Any two resources that might ship separately in subsequent versions should exist in separate components. Resources should be grouped into the same component only when you are certain that these resources will never ship separately. In fact, it is recommended that all primary resources (DLLs, for example) always exist in separate WICs. For more information, see [Defining Installer Components](http://msdn.microsoft.com/library/aa368269\(VS.85\).aspx).  
+- Any two resources that might ship separately in subsequent versions should exist in separate components. Resources should be grouped into the same component only when you are certain that these resources will never ship separately. In fact, it is recommended that all primary resources (DLLs, for example) always exist in separate WICs. For more information, see [Defining Installer Components](https://msdn.microsoft.com/library/aa368269\(VS.85\).aspx).  
   
--   No versioned resource should ever ship in more than one WIC.  
+- No versioned resource should ever ship in more than one WIC.  
   
 ## See Also  
- [What Happens if the Component Rules Are Broken?](http://msdn.microsoft.com/library/aa372795\(VS.85\).aspx)
+ [What Happens if the Component Rules Are Broken?](https://msdn.microsoft.com/library/aa372795\(VS.85\).aspx)

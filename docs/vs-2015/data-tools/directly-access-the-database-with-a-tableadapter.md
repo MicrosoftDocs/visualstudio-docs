@@ -30,7 +30,6 @@ manager: jillfra
 # Directly access the database with a TableAdapter
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableAdapters are created with methods that can be run directly against the database. These methods (`TableAdapter.Insert`, `TableAdapter.Update`, and `TableAdapter.Delete`) can be called to manipulate data directly in the database.  
   
  If you don't want to create these direct methods, set the TableAdapter's `GenerateDbDirectMethods` property to `false` in the **Properties** window. If any queries  are added to a TableAdapter in addition to the TableAdapter's main query, they are standalone queries that don't generate these DbDirect methods.  
@@ -40,30 +39,30 @@ In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableA
   
 #### To insert new records directly into a database  
   
--   Call the TableAdapter's `Insert` method, passing in the values for each column as parameters. The following procedure uses the `Region` table in the Northwind databaseas an example.  
+- Call the TableAdapter's `Insert` method, passing in the values for each column as parameters. The following procedure uses the `Region` table in the Northwind databaseas an example.  
   
     > [!NOTE]
-    >  If you do not have an instance available, instantiate the TableAdapter that you want to use.  
+    > If you do not have an instance available, instantiate the TableAdapter that you want to use.  
   
      [!code-csharp[VbRaddataSaving#15](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs#15)]
      [!code-vb[VbRaddataSaving#15](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb#15)]  
   
 #### To update records directly in a database  
   
--   Call the TableAdapter's `Update` method, passing in the new and original values for each column as parameters.  
+- Call the TableAdapter's `Update` method, passing in the new and original values for each column as parameters.  
   
     > [!NOTE]
-    >  If you do not have an instance available, instantiate the TableAdapter that you want to use.  
+    > If you do not have an instance available, instantiate the TableAdapter that you want to use.  
   
      [!code-csharp[VbRaddataSaving#18](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs#18)]
      [!code-vb[VbRaddataSaving#18](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb#18)]  
   
 #### To delete records directly from a database  
   
--   Call the TableAdapter's `Delete` method, passing in the values for each column as parameters of the `Delete` method. The following procedure uses the `Region` table in the Northwind databaseas an example.  
+- Call the TableAdapter's `Delete` method, passing in the values for each column as parameters of the `Delete` method. The following procedure uses the `Region` table in the Northwind databaseas an example.  
   
     > [!NOTE]
-    >  If you do not have an instance available, instantiate the TableAdapter that you want to use.  
+    > If you do not have an instance available, instantiate the TableAdapter that you want to use.  
   
      [!code-csharp[VbRaddataSaving#21](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs#21)]
      [!code-vb[VbRaddataSaving#21](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb#21)]  

@@ -35,7 +35,7 @@ By default, `DBDirect` methods are created on a TableAdapter that can be run dir
 
 ## To save new records from an object to a database
 
--   Create the records by passing the values to the `TableAdapter.Insert` method.
+- Create the records by passing the values to the `TableAdapter.Insert` method.
 
      The following example creates a new customer record in the `Customers` table by passing the values in the `currentCustomer` object to the `TableAdapter.Insert` method.
 
@@ -44,7 +44,7 @@ By default, `DBDirect` methods are created on a TableAdapter that can be run dir
 
 ## To update existing records from an object to a database
 
--   Modify the records by calling the `TableAdapter.Update` method, passing in the new values to update the record, and passing in the original values to locate the record.
+- Modify the records by calling the `TableAdapter.Update` method, passing in the new values to update the record, and passing in the original values to locate the record.
 
     > [!NOTE]
     > Your object needs to maintain the original values in order to pass them to the `Update` method. This example uses properties with an `orig` prefix to store the original values.
@@ -56,7 +56,7 @@ By default, `DBDirect` methods are created on a TableAdapter that can be run dir
 
 ## To delete existing records from a database
 
--   Delete the records by calling the `TableAdapter.Delete` method and passing in the original values to locate the record.
+- Delete the records by calling the `TableAdapter.Delete` method and passing in the original values to locate the record.
 
     > [!NOTE]
     > Your object needs to maintain the original values in order to pass them to the `Delete` method. This example uses properties with an `orig` prefix to store the original values.
@@ -66,7 +66,7 @@ By default, `DBDirect` methods are created on a TableAdapter that can be run dir
      [!code-csharp[VbRaddataSaving#25](../data-tools/codesnippet/CSharp/save-data-from-an-object-to-a-database_3.cs)]
      [!code-vb[VbRaddataSaving#25](../data-tools/codesnippet/VisualBasic/save-data-from-an-object-to-a-database_3.vb)]
 
-## .NET Framework security
+## .NET security
 
 You must have permission to perform the selected `INSERT`, `UPDATE`, or `DELETE` on the table in the database.
 

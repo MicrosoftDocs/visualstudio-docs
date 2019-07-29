@@ -1,5 +1,5 @@
 ---
-title: "Providing Packaging and Deployment Information in Project Items | Microsoft Docs"
+title: "Packaging & deployment information in project items"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

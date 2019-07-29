@@ -17,7 +17,6 @@ manager: jillfra
 # How to: Specify Which Target to Build First
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 A project file can contain one or more `Target` elements that define how the project is built. The [!INCLUDE[vstecmsbuildengine](../includes/vstecmsbuildengine-md.md)] ([!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]) engine builds the first project it finds, and any dependencies, unless the project file contains a `DefaultTargets` attribute, an `InitialTargets` attribute, or a target is specified at the command line using the **/target** switch.  
   
 ## Using the InitialTargets Attribute  
@@ -33,7 +32,7 @@ A project file can contain one or more `Target` elements that define how the pro
   
 #### To specify more than one initial target  
   
--   List the initial targets, separated by semicolons, in the `InitialTargets` attribute of the `Project` element. For example, to run the `Clean` target and then the `Compile` target, type:  
+- List the initial targets, separated by semicolons, in the `InitialTargets` attribute of the `Project` element. For example, to run the `Clean` target and then the `Compile` target, type:  
   
      `<Project InitialTargets="Clean;Compile">`  
   
@@ -50,7 +49,7 @@ A project file can contain one or more `Target` elements that define how the pro
   
 #### To specify more than one default target  
   
--   List the default targets, separated by semicolons, in the `DefaultTargets` attribute of the `Project` element. For example, to run the `Clean` target and then the `Compile` target, type:  
+- List the default targets, separated by semicolons, in the `DefaultTargets` attribute of the `Project` element. For example, to run the `Clean` target and then the `Compile` target, type:  
   
      `<Project DefaultTargets="Clean;Compile">`  
   
@@ -59,13 +58,13 @@ A project file can contain one or more `Target` elements that define how the pro
   
 #### To use a target other than the default target first  
   
--   Specify the target as the first target using the **/target** command line switch. For example:  
+- Specify the target as the first target using the **/target** command line switch. For example:  
   
      `msbuild file.proj /target:Clean`  
   
 #### To use several targets other than the default targets first  
   
--   List the targets, separated by semicolons or commas, using the **/target** command line switch. For example:  
+- List the targets, separated by semicolons or commas, using the **/target** command line switch. For example:  
   
      `msbuild <file name>.proj /t:Clean;Compile`  
   

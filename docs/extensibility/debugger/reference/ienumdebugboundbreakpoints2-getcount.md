@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumDebugBoundBreakpoints2::GetCount"
 ms.assetid: 5a572eeb-beb7-4fc7-8259-792d277069be
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEnumDebugBoundBreakpoints2::GetCount
 Returns the number of elements in the enumeration.
@@ -30,10 +33,9 @@ int GetCount(
 );
 ```
 
-#### Parameters
- `pcelt`
-
- [out] Returns the number of elements in the enumeration.
+## Parameters
+`pcelt`\
+[out] Returns the number of elements in the enumeration.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -41,5 +43,5 @@ int GetCount(
 ## Remarks
  This method is not part of the customary COM enumeration interface which specifies that only the `Next`, `Clone`, `Skip`, and `Reset` methods need to be implemented.
 
-## See Also
+## See also
 - [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md)

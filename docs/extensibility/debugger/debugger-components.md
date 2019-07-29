@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "components [Visual Studio SDK], debugging"
   - "debugging [Debugging SDK], components"
 ms.assetid: 8b8ab77f-a134-495c-be42-3bc51aa62dfb
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "VSDIR files"
   - "template directory description files"
 ms.assetid: 9df51800-190e-4662-b685-fdaafcff1400
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -30,7 +30,6 @@ SourceFile.cpp|{E59935A1-6156-11d1-87A6-00A0C91E2A46}|#122|110|#123|0|0|0|#124
 ## Fields
  The following table lists the fields specified for each record.
 
-
 | Field | Description |
 | - | - |
 | Relative Path Name (RelPathName) | The name of the folder, template, or .vsz file, such as HeaderFile.h or MyWizard.vsz. This field can also be a name used to represent a folder. |
@@ -45,17 +44,17 @@ SourceFile.cpp|{E59935A1-6156-11d1-87A6-00A0C91E2A46}|#122|110|#123|0|0|0|#124
 
  When you create a wizard file, you should also consider the following issues.
 
--   Any non-required field for which there is no meaningful data should contain a 0 (zero) as a placeholder.
+- Any non-required field for which there is no meaningful data should contain a 0 (zero) as a placeholder.
 
--   If no localized name is provided, the relative path name is used in the wizard file.
+- If no localized name is provided, the relative path name is used in the wizard file.
 
--   DLLPath overrides clsidPackage for icon location.
+- DLLPath overrides clsidPackage for icon location.
 
--   If no icon is defined, the IDE substitutes the default icon for a file that has that extension.
+- If no icon is defined, the IDE substitutes the default icon for a file that has that extension.
 
--   If no suggested base name is provided, 'Project' is used.
+- If no suggested base name is provided, 'Project' is used.
 
--   If you delete the .vsz files, folders, or template files, you must also remove their associated records from the .vsdir file.
+- If you delete the .vsz files, folders, or template files, you must also remove their associated records from the .vsdir file.
 
 ## See Also
 - [Wizards](../../extensibility/internals/wizards.md)

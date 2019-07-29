@@ -30,62 +30,62 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../include
 ## Prerequisites  
  This walkthrough has some prerequisites and options that you need to choose before building a deployment.  
   
--   Install Mage.exe and MageUI.exe.  
+- Install Mage.exe and MageUI.exe.  
   
      Mage.exe and MageUI.exe are part of the [!INCLUDE[winsdklong](../includes/winsdklong-md.md)]. You must either have the [!INCLUDE[winsdkshort](../includes/winsdkshort-md.md)] installed or the version of the [!INCLUDE[winsdkshort](../includes/winsdkshort-md.md)] included with Visual Studio. For more information, see [Windows SDK](http://go.microsoft.com/fwlink/?LinkId=158044) on MSDN.  
   
--   Provide an application to deploy.  
+- Provide an application to deploy.  
   
      This walkthrough assumes that you have a Windows application that you are ready to deploy. This application will be referred to as AppToDeploy.  
   
--   Determine how the deployment will be distributed.  
+- Determine how the deployment will be distributed.  
   
      The distribution options include: Web, file share, or CD. For more information, see [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md).  
   
--   Determine whether the application requires an elevated level of trust.  
+- Determine whether the application requires an elevated level of trust.  
   
      If your application requires Full Trust—for example, full access to the user's system—you can use the `-TrustLevel` option of Mage.exe to set this. If you want to define a custom permission set for your application, you can copy the Internet or intranet permission section from another manifest, modify it to suit your needs, and add it to the application manifest using either a text editor or MageUI.exe. For more information, see [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md).  
   
--   Obtain an Authenticode certificate.  
+- Obtain an Authenticode certificate.  
   
      You should sign your deployment with an Authenticode certificate. You can generate a test certificate by using Visual Studio, MageUI.exe, or MakeCert.exe and Pvk2Pfx.exe tools, or you can obtain a certificate from a Certificate Authority (CA). If you choose to use Trusted Application Deployment, you must also perform a one-time installation of the certificate onto all client computers. For more information, see [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md).  
   
     > [!NOTE]
-    >  You can also sign your deployment with a CNG certificate that you can obtain from a Certificate Authority.  
+    > You can also sign your deployment with a CNG certificate that you can obtain from a Certificate Authority.  
   
--   Make sure that the application does not have a manifest with UAC information.  
+- Make sure that the application does not have a manifest with UAC information.  
   
      You need to determine whether your application contains a manifest with User Account Control (UAC) information, such as an `<dependentAssembly>` element. To examine an application manifest, you can use the Windows Sysinternals [Sigcheck](http://go.microsoft.com/fwlink/?LinkId=158035) utility.  
   
      If your application contains a manifest with UAC details, you must re-build it without the UAC information. For a C# project in Visual Studio, open the project properties and select the Application tab. In the **Manifest** drop-down list, select **Create application without a manifest**. For a Visual Basic project in Visual Studio, open the project properties, select the Application tab, and click **View UAC Settings**. In the opened manifest file, remove all elements within the single `<asmv1:assembly>` element.  
   
--   Determine whether the application requires prerequisites on the client computer.  
+- Determine whether the application requires prerequisites on the client computer.  
   
      [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications deployed from Visual Studio can include a prerequisite installation bootstrapper (setup.exe) with your deployment. This walkthrough creates the two manifests required for a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment. You can create a prerequisite bootstrapper by using the [GenerateBootstrapper Task](../msbuild/generatebootstrapper-task.md).  
   
 ### To deploy an application with the Mage.exe command-line tool  
   
-1.  Create a directory where you will store your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment files.  
+1. Create a directory where you will store your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment files.  
   
-2.  In the deployment directory you just created, create a version subdirectory. If this is the first time that you are deploying the application, name the version subdirectory **1.0.0.0**.  
+2. In the deployment directory you just created, create a version subdirectory. If this is the first time that you are deploying the application, name the version subdirectory **1.0.0.0**.  
   
     > [!NOTE]
-    >  The version of your deployment can be distinct from the version of your application.  
+    > The version of your deployment can be distinct from the version of your application.  
   
-3.  Copy all of your application files to the version subdirectory, including executable files, assemblies, resources, and data files. If necessary, you can create additional subdirectories that contain additional files.  
+3. Copy all of your application files to the version subdirectory, including executable files, assemblies, resources, and data files. If necessary, you can create additional subdirectories that contain additional files.  
   
-4.  Open the [!INCLUDE[winsdkshort](../includes/winsdkshort-md.md)] or Visual Studio command prompt and change to the version subdirectory.  
+4. Open the [!INCLUDE[winsdkshort](../includes/winsdkshort-md.md)] or Visual Studio command prompt and change to the version subdirectory.  
   
-5.  Create the application manifest with a call to Mage.exe. The following statement creates an application manifest for code compiled to run on the Intel x86 processor.  
+5. Create the application manifest with a call to Mage.exe. The following statement creates an application manifest for code compiled to run on the Intel x86 processor.  
   
     ```  
     mage -New Application -Processor x86 -ToFile AppToDeploy.exe.manifest -name "My App" -Version 1.0.0.0 -FromDirectory .   
     ```  
   
     > [!NOTE]
-    >  Be sure to include the dot (.) after the `-FromDirectory` option, which indicates the current directory. If you do not include the dot, you must specify the path to your application files.  
+    > Be sure to include the dot (.) after the `-FromDirectory` option, which indicates the current directory. If you do not include the dot, you must specify the path to your application files.  
   
-6.  Sign the application manifest with your Authenticode certificate. Replace *mycert.pfx* with the path to your certificate file. Replace *passwd* with the password for your certificate file.  
+6. Sign the application manifest with your Authenticode certificate. Replace *mycert.pfx* with the path to your certificate file. Replace *passwd* with the password for your certificate file.  
   
     ```  
     mage -Sign AppToDeploy.exe.manifest -CertFile mycert.pfx -Password passwd  
@@ -97,9 +97,9 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../include
     mage -Sign AppToDeploy.exe.manifest -CertFile cngCert.pfx  
     ```  
   
-7.  Change to the root of the deployment directory.  
+7. Change to the root of the deployment directory.  
   
-8.  Generate the deployment manifest with a call to Mage.exe. By default, Mage.exe will mark your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment as an installed application, so that it can be run both online and offline. To make the application available only when the user is online, use the `-Install` option with a value of `false`. If you use the default, and users will install your application from a Web site or file share, make sure that the value of the `-ProviderUrl` option points to the location of the application manifest on the Web server or share.  
+8. Generate the deployment manifest with a call to Mage.exe. By default, Mage.exe will mark your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment as an installed application, so that it can be run both online and offline. To make the application available only when the user is online, use the `-Install` option with a value of `false`. If you use the default, and users will install your application from a Web site or file share, make sure that the value of the `-ProviderUrl` option points to the location of the application manifest on the Web server or share.  
   
     ```  
     mage -New Deployment -Processor x86 -Install true -Publisher "My Co." -ProviderUrl "\\myServer\myShare\AppToDeploy.application" -AppManifest 1.0.0.0\AppToDeploy.exe.manifest -ToFile AppToDeploy.application  
@@ -123,28 +123,28 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../include
   
 ### To deploy an application with the MageUI.exe graphical tool  
   
-1.  Create a directory where you will store your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment files.  
+1. Create a directory where you will store your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment files.  
   
-2.  In the deployment directory you just created, create a version subdirectory. If this is the first time that you are deploying the application, name the version subdirectory **1.0.0.0**.  
+2. In the deployment directory you just created, create a version subdirectory. If this is the first time that you are deploying the application, name the version subdirectory **1.0.0.0**.  
   
     > [!NOTE]
-    >  The version of your deployment is probably distinct from the version of your application.  
+    > The version of your deployment is probably distinct from the version of your application.  
   
-3.  Copy all of your application files to the version subdirectory, including executable files, assemblies, resources, and data files. If necessary, you can create additional subdirectories that contain additional files.  
+3. Copy all of your application files to the version subdirectory, including executable files, assemblies, resources, and data files. If necessary, you can create additional subdirectories that contain additional files.  
   
-4.  Start the MageUI.exe graphical tool.  
+4. Start the MageUI.exe graphical tool.  
   
     ```  
     MageUI.exe  
     ```  
   
-5.  Create a new application manifest by selecting **File**, **New**, **Application Manifest** from the menu.  
+5. Create a new application manifest by selecting **File**, **New**, **Application Manifest** from the menu.  
   
-6.  On the default **Name** tab, type the name and version number of this deployment. Also specify the **Processor** that your application is built for, such as x86.  
+6. On the default **Name** tab, type the name and version number of this deployment. Also specify the **Processor** that your application is built for, such as x86.  
   
-7.  Select the **Files** tab and click the ellipsis (**...**) button next to the **Application directory** text box. A Browse For Folder dialog box appears.  
+7. Select the **Files** tab and click the ellipsis (**...**) button next to the **Application directory** text box. A Browse For Folder dialog box appears.  
   
-8.  Select the version subdirectory containing your application files, and then click **OK**.  
+8. Select the version subdirectory containing your application files, and then click **OK**.  
   
 9. If you will deploy from Internet Information Services (IIS), select the **When populating add the .deploy extension to any file that does not have it** check box.  
   
@@ -200,8 +200,8 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../include
  When you need to deploy a new version of the application, create a new directory named after the new version—for example, 1.0.0.1—and copy the new application files into the new directory. Next, you need to follow the previous steps to create and sign a new application manifest, and update and sign the deployment manifest. Be careful to specify the same higher version in both the Mage.exe `-New` and `–Update` calls, as [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] only updates higher versions, with the left-most integer most significant. If you used MageUI.exe, you can update the deployment manifest by opening it, selecting the **Application Reference** tab, clicking the **Select Manifest** button, and then selecting the updated application manifest.  
   
 ## See Also  
- [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)   
- [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](http://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14)   
+ [Mage.exe (Manifest Generation and Editing Tool)](https://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)   
+ [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](https://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14)   
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)

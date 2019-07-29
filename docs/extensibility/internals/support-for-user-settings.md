@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "user settings [Visual Studio SDK], registering persistence support"
   - "persistence, registering settings"
 ms.assetid: ad9beac3-4f8d-4093-ad0e-6fb00444a709
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -18,9 +18,9 @@ A VSPackage may define one or more settings categories, which are groups of stat
 
  A registry entry that is referred to as a Custom Settings Point and a GUID defines a VSPackage's settings category. A VSPackage can support multiple settings categories, each defined by a Custom Settings Point.
 
--   Implementations of settings that are based on interop assemblies (using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings> interface) should create Custom Settings Point by either editing the registry or using a Registrar script (.rgs file). For more information, see [Creating Registrar Scripts](/cpp/atl/creating-registrar-scripts).
+- Implementations of settings that are based on interop assemblies (using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings> interface) should create Custom Settings Point by either editing the registry or using a Registrar script (.rgs file). For more information, see [Creating Registrar Scripts](/cpp/atl/creating-registrar-scripts).
 
--   Code that uses the Managed Package Framework (MPF) should create Custom Settings Points by attaching a <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> to the VSPackage for each Custom Settings Point.
+- Code that uses the Managed Package Framework (MPF) should create Custom Settings Points by attaching a <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> to the VSPackage for each Custom Settings Point.
 
      If a single VSPackage supports several Custom Settings Points, each Custom Settings Point is implemented by a separate class, and each is registered by a unique instance of the <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> class. Consequently, a settings implementing class can support more than one settings category.
 
@@ -28,7 +28,7 @@ A VSPackage may define one or more settings categories, which are groups of stat
  Custom Settings Points are created in a registry entry in the following location: HKLM\Software\Microsoft\VisualStudio\\*\<Version>*\UserSettings\\`<CSPName>`, where `<CSPName>` is the name of the Custom Settings Point the VSPackage supports and *\<Version>* is the version of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], for example 8.0.
 
 > [!NOTE]
->  The root path of HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>* can be overridden with an alternate root when the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) is initialized. For more information, see [Command-Line Switches](../../extensibility/command-line-switches-visual-studio-sdk.md).
+> The root path of HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>* can be overridden with an alternate root when the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) is initialized. For more information, see [Command-Line Switches](../../extensibility/command-line-switches-visual-studio-sdk.md).
 
  The structure of the registry entry is illustrated below:
 
@@ -43,7 +43,6 @@ A VSPackage may define one or more settings categories, which are groups of stat
  ResourcePackage = '{ZZZZZZ ZZZZ ZZZZ ZZZZ ZZZZZZZZZ}'
 
  AlternateParent = CategoryName
-
 
 | Name | Type | Data | Description |
 |-----------------|--------| - | - |

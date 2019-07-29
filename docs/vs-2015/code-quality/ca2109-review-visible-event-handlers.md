@@ -36,18 +36,18 @@ manager: "wpickett"
 
  A demand cannot reliably protect a method invoked by an event handler. Security demands help protect code from untrusted callers by examining the callers on the call stack. Code that adds an event handler to an event is not necessarily present on the call stack when the event handler's methods run. Therefore, the call stack might have only highly trusted callers when the event handler method is invoked. This causes demands made by the event handler method to succeed. Also, the demanded permission might be asserted when the method is invoked. For these reasons, the risk of not fixing a violation of this rule can only be assessed after reviewing the event-handling method. When you review your code, consider the following issues:
 
--   Does your event handler perform any operations that are dangerous or exploitable, such as asserting permissions or suppressing unmanaged code permission?
+- Does your event handler perform any operations that are dangerous or exploitable, such as asserting permissions or suppressing unmanaged code permission?
 
--   What are the security threats to and from your code because it can run at any time with only highly trusted callers on the stack?
+- What are the security threats to and from your code because it can run at any time with only highly trusted callers on the stack?
 
 ## How to Fix Violations
  To fix a violation of this rule, review the method and evaluate the following:
 
--   Can you make the event-handling method non-public?
+- Can you make the event-handling method non-public?
 
--   Can you move all dangerous functionality out of the event handler?
+- Can you move all dangerous functionality out of the event handler?
 
--   If a security demand is imposed, can this be accomplished in some other manner?
+- If a security demand is imposed, can this be accomplished in some other manner?
 
 ## When to Suppress Warnings
  Suppress a warning from this rule only after a careful security review to make sure that your code does not pose a security threat.
@@ -60,4 +60,4 @@ manager: "wpickett"
 ## See Also
  <xref:System.Security.CodeAccessPermission.Demand%2A?displayProperty=fullName>
  <xref:System.EventArgs?displayProperty=fullName>
- [Security Demands](http://msdn.microsoft.com/324c14f8-54ff-494d-9fd1-bfd20962c8ba)
+ [Security Demands](https://msdn.microsoft.com/324c14f8-54ff-494d-9fd1-bfd20962c8ba)

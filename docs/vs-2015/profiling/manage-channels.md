@@ -44,7 +44,7 @@ In the **Threads View** in the Concurrency Visualizer, you can organize the chan
  Choose this control when you want to hide channels. For example, if a thread is 100 percent synchronization for the life of your managed process, you could hide it as you analyze other threads.  
   
 > [!NOTE]
->  Hiding a thread also removes it from the calculation time, which is shown in the active legend and in the profile reports.  
+> Hiding a thread also removes it from the calculation time, which is shown in the active legend and in the profile reports.  
   
 ## Show All Channels  
  This control is active when one or more channels are hidden. If you choose it, all hidden elements are shown and are returned to the calculations of time.  

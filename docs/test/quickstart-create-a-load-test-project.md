@@ -16,13 +16,13 @@ In this 10-minute quickstart, you'll learn how to create and run a web performan
 
 ## Software requirements
 
-Web performance and load test projects are only available in the Enterprise edition of Visual Studio.
+Web performance and load test projects are only available in the **Enterprise edition** of Visual Studio.
 
 ## Install the load testing component
 
 If you don't already have the web performance and load testing tools component installed, you'll need to install it through the Visual Studio Installer.
 
-1. Open **Visual Studio Installer** from the **Start** menu of Windows. You can also access it in Visual Studio from the **New Project** dialog box, or by choosing **Tools** > **Get Tools and Features** from the menu bar.
+1. Open **Visual Studio Installer** from the **Start** menu of Windows. You can also access it in Visual Studio from the new project dialog box or by choosing **Tools** > **Get Tools and Features** from the menu bar.
 
 1. In **Visual Studio Installer**, choose the **Individual components** tab, and scroll down to the **Debugging and testing** section. Select **Web performance and load testing tools**.
 
@@ -56,9 +56,9 @@ In this section, we'll create a C# load test project. You can also create a Visu
 
 1. Open Visual Studio.
 
-2. On the Start window, choose **Create a new project**.
+2. On the start window, choose **Create a new project**.
 
-3. In the **Create a new project** dialog, type **web test** into the search box, and then select the **Web Performance and Load Test Project \[Deprecated]** template for C#. Choose **Next**.
+3. On the **Create a new project** page, type **web test** into the search box, and then select the **Web Performance and Load Test Project \[Deprecated]** template for C#. Choose **Next**.
 
 4. Enter a name for the project if you don't want to use the default name, and then choose **Create**.
 

@@ -2,16 +2,16 @@
 title: "Tutorial: Debug Visual Basic code"
 description: "Learn how to start the Visual Studio debugger, step through code, and inspect data."
 ms.custom: "debug-experiment, seodec18, get-started"
-ms.date: "11/27/2018"
+ms.date: 11/27/2018
 ms.technology: "vs-ide-debug"
-ms.topic: "tutorial"
+ms.topic: tutorial
 dev_langs:
   - "CSharp"
 helpviewer_keywords:
   - "debugger"
 ms.assetid: 62734c0d-a75a-4576-8f73-0e97c19280e1
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -30,25 +30,47 @@ In this tutorial, you will:
 
 ## Prerequisites
 
-* You must have Visual Studio 2017 installed and the **.NET desktop development** workload.
+::: moniker range=">=vs-2019"
 
-    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+You must have Visual Studio 2019 installed and the **.NET desktop development** workload.
 
-    If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Choose the **.NET desktop development** workload, then choose **Modify**.
+::: moniker-end
+::: moniker range="vs-2017"
+
+You must have Visual Studio 2017 installed and the **.NET desktop development** workload.
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+
+::: moniker-end
+
+If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. The Visual Studio Installer launches. Choose the **.NET desktop development** workload, then choose **Modify**.
 
 ## Create a project
 
-1. In Visual Studio, choose **File > New Project**.
+1. Open Visual Studio.
 
-2. Under **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App**.
+    ::: moniker range=">=vs-2019"
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **visual basic**, choose **Templates**, then choose **Create new Console App (.NET Framework) project**. In the dialog box that appears, type a name like **get-started-debugging**, and then choose **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**. Then, type a name like **get-started-debugging** and click **OK**.
+    ::: moniker-end
 
-    If you don't see the **Console Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the *.NET desktop development** workload, then choose **Modify**.
-
-3. Type a name like **get-started-debugging** and click **OK**.
+    If you don't see the **Console App (.NET Framework)** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
 
     Visual Studio creates the project.
 
-4. In *Program.cs*, replace the following code
+1. In *Module1.vb*, replace the following code
 
     ```vb
     Module Module1

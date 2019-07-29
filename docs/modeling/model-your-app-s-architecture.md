@@ -18,13 +18,13 @@ To help ensure that your software system or application meets your users' needs,
  The purpose of a model is to reduce the ambiguities that occur in natural-language descriptions, and to help you and your colleagues to visualize the design and to discuss alternative designs. A model should be used together with other documents or discussions. By itself, a model does not represent a complete specification of the architecture.
 
 > [!NOTE]
->  Throughout this topic, "system" means the software that you are developing. It might be a large collection of many software and hardware components, or a single application, or a part of an application.
+> Throughout this topic, "system" means the software that you are developing. It might be a large collection of many software and hardware components, or a single application, or a part of an application.
 
  The architecture of a system can be divided into two areas:
 
--   [High-level Design](#Structure). This describes the major components and how they interact with one another to fulfill each requirement. If the system is large, each component might have its own high-level design that shows how it is composed of smaller components.
+- [High-level Design](#Structure). This describes the major components and how they interact with one another to fulfill each requirement. If the system is large, each component might have its own high-level design that shows how it is composed of smaller components.
 
--   [Design Patterns](#Patterns) and conventions used throughout the designs of the components. A pattern describes a particular approach to achieving a programming goal. By using the same patterns throughout a design, your team can reduce the cost of making changes and developing new software.
+- [Design Patterns](#Patterns) and conventions used throughout the designs of the components. A pattern describes a particular approach to achieving a programming goal. By using the same patterns throughout a design, your team can reduce the cost of making changes and developing new software.
 
 ## <a name="Structure"></a> High-level Design
  A high-level design describes the major components of your system and how they interact with one another to achieve the goals of the design. The activities in the following list are involved in developing the high level design, although not necessarily in a particular sequence.
@@ -33,11 +33,11 @@ To help ensure that your software system or application meets your users' needs,
 
  In every case, it is helpful to develop the different activities in parallel, and to develop code and tests at an early stage. Avoid trying to complete one of these aspects before you start another. Typically, both the requirements and your understanding of the best way to design the system will change while you are writing and testing the code. Therefore, you should begin by understanding and coding the main features of the requirements and your design. Fill in the details in later iterations of the project.
 
--   [Understanding the Requirements](#Requirements). The starting point of any design is a clear understanding of the users' needs.
+- [Understanding the Requirements](#Requirements). The starting point of any design is a clear understanding of the users' needs.
 
--   [Architectural Patterns](#BigDecisions). The choices you made about core technologies and architectural elements of the system.
+- [Architectural Patterns](#BigDecisions). The choices you made about core technologies and architectural elements of the system.
 
--   Data Model of the Components and Interfaces. You can draw class diagrams to describe the information that is passed between components and stored inside the components.
+- Data Model of the Components and Interfaces. You can draw class diagrams to describe the information that is passed between components and stored inside the components.
 
 ## <a name="Requirements"></a> Understanding the Requirements
  The high-level design of a complete application is most effectively developed together with a requirements model or other description of the users' needs. For more information about requirements models, see [Model user requirements](../modeling/model-user-requirements.md).
@@ -82,19 +82,19 @@ To help ensure that your software system or application meets your users' needs,
 
  A design pattern is described in a document, and typically includes these parts:
 
--   Name.
+- Name.
 
--   Description of the context in which it is applicable. What criteria should make a developer consider applying this pattern?
+- Description of the context in which it is applicable. What criteria should make a developer consider applying this pattern?
 
--   Brief explanation of the problem it solves.
+- Brief explanation of the problem it solves.
 
--   Model of the major parts and their relationships. These might be classes or components and interfaces, with associations and dependencies between them. The elements usually fall into two categories:
+- Model of the major parts and their relationships. These might be classes or components and interfaces, with associations and dependencies between them. The elements usually fall into two categories:
 
--   Naming conventions.
+- Naming conventions.
 
--   Description of how the pattern solves the problem.
+- Description of how the pattern solves the problem.
 
--   Description of variations that developers might be able to adopt.
+- Description of variations that developers might be able to adopt.
 
 ## See Also
 

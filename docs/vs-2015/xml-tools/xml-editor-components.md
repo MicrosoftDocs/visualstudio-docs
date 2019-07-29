@@ -13,7 +13,6 @@ manager: jillfra
 # XML Editor Components
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section discusses the XML Editor windows and dialog boxes. Because the XML Editor is based on the Text Editor, some of the integrated development environment (IDE) is configured using the general Text Editor settings.  
   
 ## In This Section  
@@ -30,7 +29,7 @@ This section discusses the XML Editor windows and dialog boxes. Because the XML 
  Describes how to select the XML Schema(s) to associate with the XML document.  
   
 ## Related Sections  
- [How to: Set General Editor Options](http://msdn.microsoft.com/704e4a7b-2162-4bed-8a47-f4f6ffec98c2)  
+ [How to: Set General Editor Options](https://msdn.microsoft.com/704e4a7b-2162-4bed-8a47-f4f6ffec98c2)  
  Describes how to set general settings such as display, statement completion, and so on.  
   
 ## See Also  

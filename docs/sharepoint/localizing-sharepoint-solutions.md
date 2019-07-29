@@ -25,7 +25,7 @@ ms.workload:
  To localize a solution, you remove hard-coded strings from the code and abstract them into resource files. A Resource file is an [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)]-based file with a *.resx* extension. The resource file contains the translated versions of the strings used in your solution. For more information, see [Resources in Applications](http://go.microsoft.com/fwlink/?LinkID=155844).
 
 > [!NOTE]
->  Add only string resources to SharePoint solution resource files. Although the Resource Editor enables you to add non-string resources, non-string resources do not deploy to SharePoint.
+> Add only string resources to SharePoint solution resource files. Although the Resource Editor enables you to add non-string resources, non-string resources do not deploy to SharePoint.
 
 ## Resource files
  There are three kinds of resource files: default, language-neutral, and language-specific.
@@ -70,7 +70,7 @@ $Resources:String ID
  Set the **Deployment Type** property of each resource file to **AppGlobalResource**. This causes the resource files to deploy to the App_GlobalResources folder, where they are available to all ASPX pages and controls in the solution. The App_GlobalResources folder is located in C:\inetpub\wwwroot\wss\VirtualDirectories\\<port number\>\App_GlobalResources.
 
 > [!NOTE]
->  If you use non-global resource files, move them into the project item folder to enable the Deployment Type property and other SharePoint-specific properties.
+> If you use non-global resource files, move them into the project item folder to enable the Deployment Type property and other SharePoint-specific properties.
 
  ASPX markup resource files can also be used to localize code. If you are using the resources to localize code in addition to ASPX markup, leave the Build Action property setting of each file as Embedded Resource to cause the resource to compile into a satellite assembly. However, if you are using the resource files only to localize markup, you can optionally change Build Action to Content to prevent the file from being compiled into the main application assembly.
 

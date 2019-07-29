@@ -6,7 +6,7 @@ ms.date: 12/04/2017
 ms.topic: tutorial
 author: corob-msft
 ms.author: corob
-manager: jillfra
+manager: markl
 dev_langs:
   - "CPP"
 ms.workload:
@@ -46,9 +46,9 @@ After you open Visual Studio, you can see the three basic parts of the IDE: tool
 
 ::: moniker range=">=vs-2019"
 
-After you open Visual Studio, the **Start** window appears first. Select **Continue without code** to open the development environment.
+After you open Visual Studio, the start window appears first. Select **Continue without code** to open the development environment.
 
-You'll see the three basic parts of the IDE: tool windows, menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the app window. The **Quick Launch** box, the menu bar, and the standard toolbar are found at the top. When you load a solution or project, editors and designers appear in the central space of the application window. When you develop an application, you'll spend most of your time in this central area.
+You'll see the three basic parts of the IDE: tool windows, menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the app window. The search box, menu bar, and standard toolbar are found at the top. When you load a solution or project, editors and designers appear in the central space of the application window. When you develop an application, you'll spend most of your time in this central area.
 
 ::: moniker-end
 
@@ -101,7 +101,7 @@ Next, add code to display the word "Hello" in the console window.
    using namespace std;
    ```
 
-   You probably noticed that a box appeared as you entered code. This box contains auto-completion suggestions for the characters that you enter. It's part of C++ IntelliSense, which provides coding prompts, including class or interface members and parameter information. You can also use code snippets, which are pre-defined blocks of code. For more information, see [Using IntelliSense](../ide/using-intellisense.md) and [Code snippets](../ide/code-snippets.md).
+   You probably noticed that a box appeared as you entered code. This box contains autocompletion suggestions for the characters that you enter. It's part of C++ IntelliSense, which provides coding prompts, including class or interface members and parameter information. You can also use code snippets, which are pre-defined blocks of code. For more information, see [Using IntelliSense](../ide/using-intellisense.md) and [Code snippets](../ide/code-snippets.md).
 
    ![The fixed code in the editor](../ide/media/get-started-cpp-cout-fix.png)
 
@@ -171,4 +171,4 @@ Congratulations on completing this quickstart!
 
 - [Using the Visual Studio IDE for C++ desktop development](/cpp/ide/using-the-visual-studio-ide-for-cpp-desktop-development)
 - [Walkthrough: Create a simple application with C# or Visual Basic](../get-started/csharp/tutorial-wpf.md)
-- [Productivity tips for Visual Studio](../ide/productivity-tips-for-visual-studio.md)
+- [Productivity features in Visual Studio](../ide/productivity-features.md)

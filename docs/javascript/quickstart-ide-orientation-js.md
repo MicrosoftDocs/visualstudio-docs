@@ -13,7 +13,17 @@ ms.workload:
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), we'll take a tour of some of the windows, menus, and other UI features.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+::: moniker range="vs-2017"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+
+::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -21,7 +31,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 The first thing you'll see after you launch Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to close or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
 
-[![](media/vs-2019/start-window.png "Start window in Visual Studio 2019")](media/vs-2019/start-window.png)
+[![The start window in Visual Studio 2019](media/vs-2019/start-window.png)](media/vs-2019/start-window.png)
 
 If this is the first time you're using Visual Studio, your recent projects list will be empty.
 
@@ -51,13 +61,13 @@ To continue exploring Visual Studio's features, let's create a new project.
 
 ::: moniker range=">=vs-2019"
 
-1. On the **Start Window**, select **Create a new project**, and then in the search box type in **javascript** to filter the list of project types to those that contain "javascript" in their name or language type.
+1. On the start window, select **Create a new project**, and then in the search box type in **javascript** to filter the list of project types to those that contain "javascript" in their name or language type.
 
    Visual Studio provides various kinds of project templates that help you get started coding quickly. (Alternatively, if you're a TypeScript developer, feel free to create a project in that language. The UI we'll be looking at is similar for all programming languages.)
 
    ![Search project templates on Visual Studio start window](media/vs-2019/create-new-project.png)
 
-1. Choose a **Blank Node.js Web Application** project template and click **Next**. 
+1. Choose a **Blank Node.js Web Application** project template and click **Next**.
 
 1. In the **Configure your new project** dialog box that appears, accept the default project name and choose **Create**.
 
@@ -106,13 +116,13 @@ Let's build the project to see some build output. From the **Build** menu, choos
 
 ![Output window in Visual Studio](media/build-output-minimal.png)
 
-## Quick Launch
+## Search box
 
-The **Quick Launch** box is a quick and easy way to do pretty much anything in Visual Studio. You can enter some text related to what you want to do, and it'll show you a list of options that pertain to the text. For example, imagine you want to increase the build output's verbosity to display additional details about what exactly build is doing. Here's how you might do that:
+The search box is a quick and easy way to do pretty much anything in Visual Studio. You can enter some text related to what you want to do, and it'll show you a list of options that pertain to the text. For example, imagine you want to increase the build output's verbosity to display additional details about what exactly build is doing. Here's how you might do that:
 
-1. Type **verbosity** into the **Quick Launch** box. From the displayed results, choose **Projects and Solutions --> Build and Run** under the **Options** category.
+1. Type **verbosity** into the search box. From the displayed results, choose **Projects and Solutions --> Build and Run** under the **Options** category.
 
-   ![Quick launch box in Visual Studio](media/quickstart-IDE-quick-launch.png)
+   ![Search box in Visual Studio](media/quickstart-IDE-quick-launch.png)
 
    The **Options** dialog box opens to the **Build and Run** options page.
 
@@ -126,7 +136,7 @@ The **Quick Launch** box is a quick and easy way to do pretty much anything in V
 
 ## Send Feedback menu
 
-Should you encounter any problems while you're using Visual Studio, or if you have suggestions for how to improve the product, you can use the **Send Feedback** menu at the top of the Visual Studio window, next to the **Quick Launch** box.
+Should you encounter any problems while you're using Visual Studio, or if you have suggestions for how to improve the product, you can use the **Send Feedback** menu at the top of the Visual Studio window.
 
 ![Send Feedback menu in Visual Studio](../ide/media/quickstart-ide-send-feedback.png)
 

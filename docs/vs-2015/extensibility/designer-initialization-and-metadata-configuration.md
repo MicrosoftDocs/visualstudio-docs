@@ -25,15 +25,15 @@ Manipulation of the metadata and filter attributes associated with a designer or
 ### Customizing Initialization  
  Customizing a designer, a component, or a designer surface, involves:  
   
-1.  Modifying the designer metadata and effectively changing how a certain <xref:System.Type> is accessed or converted.  
+1. Modifying the designer metadata and effectively changing how a certain <xref:System.Type> is accessed or converted.  
   
      This is typically done through the <xref:System.Drawing.Design.UITypeEditor> or <xref:System.ComponentModel.TypeConverter> mechanisms.  
   
      For example, when <xref:System.Windows.Forms>-based designers are initialized, the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] environment modifies the <xref:System.Drawing.Design.UITypeEditor> for <xref:System.Web.UI.WebControls.Image> objects used with the designer to use the resource manager to obtain bitmaps rather than the file system.  
   
-2.  Integrating with the environment, for example, by subscribing to events or obtaining project configuration information. You can obtain project configuration information and subscribe to events by obtaining the <xref:System.ComponentModel.Design.ITypeResolutionService> interface.  
+2. Integrating with the environment, for example, by subscribing to events or obtaining project configuration information. You can obtain project configuration information and subscribe to events by obtaining the <xref:System.ComponentModel.Design.ITypeResolutionService> interface.  
   
-3.  Modification of the user environment by activating appropriate **Toolbox** categories or by restricting the designer's applicability by applying an instance of the <xref:System.ComponentModel.ToolboxItemFilterAttribute> class to the designer.  
+3. Modification of the user environment by activating appropriate **Toolbox** categories or by restricting the designer's applicability by applying an instance of the <xref:System.ComponentModel.ToolboxItemFilterAttribute> class to the designer.  
   
 ### Designer Initialization by a VSPackage  
  A VSPackage should handle designer initialization by:  
@@ -41,7 +41,7 @@ Manipulation of the metadata and filter attributes associated with a designer or
 1. Creating an object implementing the <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension> class.  
   
    > [!NOTE]
-   >  The <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension> class should never be implemented on the same object as the <xref:Microsoft.VisualStudio.Shell.Package> class.  
+   > The <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension> class should never be implemented on the same object as the <xref:Microsoft.VisualStudio.Shell.Package> class.  
   
 2. Register the class implementing <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension> as providing support for the VSPackage's designer extensions by applying instances of  <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtensionAttribute>, <xref:Microsoft.VisualStudio.Shell.ProvideObjectAttribute> and <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> to the class providing the VSPackage's implementation of <xref:Microsoft.VisualStudio.Shell.Package>.  
   
@@ -87,10 +87,10 @@ Manipulation of the metadata and filter attributes associated with a designer or
   `internal class MyPackage : Package {}`  
   
 > [!NOTE]
->  At the present time, the design surface only supports creating components, and therefore only components can have local metadata. In the example above, we were attempting to modify a property, such as the `Color` property of an object. If `false` was passed in for the global flag, `CustomBrowser` would never appear because the designer never actually creates an instance of `Color`. Setting the global flag to `false` is useful for components, such as controls, timers, and dialog boxes.  
+> At the present time, the design surface only supports creating components, and therefore only components can have local metadata. In the example above, we were attempting to modify a property, such as the `Color` property of an object. If `false` was passed in for the global flag, `CustomBrowser` would never appear because the designer never actually creates an instance of `Color`. Setting the global flag to `false` is useful for components, such as controls, timers, and dialog boxes.  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension>   
  <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtensionAttribute>   
  <xref:System.ComponentModel.ToolboxItemFilterType>   
- [Extending Design-Time Support](http://msdn.microsoft.com/library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)
+ [Extending Design-Time Support](https://msdn.microsoft.com/library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)

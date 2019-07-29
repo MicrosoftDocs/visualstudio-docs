@@ -6,13 +6,14 @@ helpviewer_keywords:
   - "projects [Visual Studio], new project dialog"
   - "projects [Visual Studio], new project generation"
 ms.assetid: 73ce91d8-0ab1-4a1f-bf12-4d3c49c01e13
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
 ---
 # New Project Generation: Under the Hood, Part Two
+
 In [New Project Generation: Under the Hood, Part One](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md) we saw how the **New Project** dialog Box is populated. Let's assume you've selected a **Visual C# Windows Application**, filled out the **Name** and **Location** text boxes, and clicked OK.
 
 ## Generating the Solution Files
@@ -25,7 +26,7 @@ In [New Project Generation: Under the Hood, Part One](../../extensibility/intern
 
  Let's look at a typical project item template. Extract and examine Program.cs in the Program Files\Microsoft Visual Studio 8\Common7\IDE\ProjectTemplates\CSharp\Windows\1033\WindowsApplication.zip folder.
 
-```
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -39,9 +40,9 @@ namespace $safeprojectname$
 }
 ```
 
- If you create a new Windows application project named Simple, the template replaces the `$safeprojectname$` parameter with the name of the project.
+If you create a new Windows application project named Simple, the template replaces the `$safeprojectname$` parameter with the name of the project.
 
-```
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -60,7 +61,7 @@ namespace Simple
 ## A Look Inside a .VSTemplate File
  A basic .vstemplate file has this format
 
-```
+```xml
 <VSTemplate Version="2.0.0"     xmlns="http://schemas.microsoft.com/developer/vstemplate/2005"     Type="Project">
     <TemplateData>
     </TemplateData>
@@ -73,7 +74,7 @@ namespace Simple
 
  The tags in the \<TemplateContent> section control the generation of new projects and project items. Here's the \<TemplateContent> section from the cswindowsapplication.vstemplate file in the \Program Files\Microsoft Visual Studio 8\Common7\IDE\ProjectTemplates\CSharp\Windows\1033\WindowsApplication.zip folder.
 
-```
+```xml
 <TemplateContent>
   <Project File="WindowsApplication.csproj" ReplaceParameters="true">
     <ProjectItem ReplaceParameters="true"
@@ -115,7 +116,7 @@ namespace Simple
 
  The first and only \<Project> tag in the template reads:
 
-```
+```xml
 <Project File="WindowsApplication.csproj" ReplaceParameters="true">
 ```
 
@@ -126,7 +127,7 @@ namespace Simple
 
  Here's the \<ItemGroup> from Simple.csproj that creates the project references:
 
-```
+```xml
 <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -139,7 +140,7 @@ namespace Simple
 
  You can see that these are the six project references that appear in the Solution Explorer. Here's a section from another \<ItemGroup>. Many lines of code have been deleted for clarity. This section makes Settings.Designer.cs dependent on Settings.settings:
 
-```
+```xml
 <ItemGroup>
     <Compile Include="Properties\Settings.Designer.cs">
         <DependentUpon>Settings.settings</DependentUpon>
@@ -147,6 +148,7 @@ namespace Simple
 </ItemGroup>
 ```
 
-## See Also
+## See also
+
 - [New Project Generation: Under the Hood, Part One](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md)
 - [MSBuild](../../msbuild/msbuild.md)

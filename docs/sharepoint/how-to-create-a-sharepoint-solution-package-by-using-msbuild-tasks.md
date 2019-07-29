@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a SharePoint Solution Package by Using MSBuild Tasks | Microsoft Docs"
+title: "Create SharePoint solution package using MSBuild tasks"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -20,11 +20,11 @@ ms.workload:
 
 #### To build a SharePoint package
 
-1.  On the Windows **Start** menu, choose **All Programs** > **Accessories** > **Command Prompt**.
+1. On the Windows **Start** menu, choose **All Programs** > **Accessories** > **Command Prompt**.
 
-2.  Change to the directory where your SharePoint project is located.
+2. Change to the directory where your SharePoint project is located.
 
-3.  Enter the following command to create a package for the project. Replace *ProjectFileName* with the name of the project.
+3. Enter the following command to create a package for the project. Replace *ProjectFileName* with the name of the project.
 
     ```cmd
     msbuild /t:Package ProjectFileName
@@ -41,11 +41,11 @@ ms.workload:
 
 #### To clean a SharePoint package
 
-1.  Open a command prompt window.
+1. Open a command prompt window.
 
-2.  Change to the directory where your SharePoint project is located.
+2. Change to the directory where your SharePoint project is located.
 
-3.  Enter the following command to clean a package for the project. Replace *ProjectFileName* with the name of the project.
+3. Enter the following command to clean a package for the project. Replace *ProjectFileName* with the name of the project.
 
     ```cmd
     msbuild /t:CleanPackage ProjectFileName
@@ -62,11 +62,11 @@ ms.workload:
 
 #### To validate a SharePoint package
 
-1.  Open a command prompt window.
+1. Open a command prompt window.
 
-2.  Change to the directory where your SharePoint project is located.
+2. Change to the directory where your SharePoint project is located.
 
-3.  Enter the following command to validate a package for the project. Replace *ProjectFileName* with the name of the project.
+3. Enter the following command to validate a package for the project. Replace *ProjectFileName* with the name of the project.
 
     ```cmd
     msbuild /t:ValidatePackage ProjectFileName
@@ -83,11 +83,11 @@ ms.workload:
 
 #### To set a property in a SharePoint package
 
-1.  Open a command prompt window.
+1. Open a command prompt window.
 
-2.  Change to the directory where your SharePoint project is located.
+2. Change to the directory where your SharePoint project is located.
 
-3.  Enter the following command to set a property in a package for the project. Replace *PropertyName* with the property that you want to set.
+3. Enter the following command to set a property in a package for the project. Replace *PropertyName* with the property that you want to set.
 
     ```cmd
     msbuild /property:PropertyName=Value

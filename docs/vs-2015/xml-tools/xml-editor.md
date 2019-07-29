@@ -13,7 +13,6 @@ manager: jillfra
 # XML Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The XML Editor is based on the [!INCLUDE[msCoName](../includes/msconame-md.md)] Visual Studio Text Editor and includes additional support for the XML languages. The XML Editor includes the following features:  
   
 - XML 1.0 syntax checking.  
@@ -41,13 +40,13 @@ The XML Editor is based on the [!INCLUDE[msCoName](../includes/msconame-md.md)] 
 ## Express Editions  
  The following XML Editor features are not available in the Visual Studio Express Editions:  
   
--   Creating an XML schema from an XML instance document.  
+- Creating an XML schema from an XML instance document.  
   
--   Viewing XSLT output from the XML Editor.  
+- Viewing XSLT output from the XML Editor.  
   
--   Smart validation while editing XSLT style sheets.  
+- Smart validation while editing XSLT style sheets.  
   
--   XML Schema Explorer.  
+- XML Schema Explorer.  
   
 ## In This Section  
  [XML Document Validation](../xml-tools/xml-document-validation.md)  
@@ -69,10 +68,10 @@ The XML Editor is based on the [!INCLUDE[msCoName](../includes/msconame-md.md)] 
  Describes the XML Editor user interface components.  
   
 ## Related Sections  
- [Editing Text, Code, and Markup](http://msdn.microsoft.com/0d9c00d7-5df4-48a3-b185-2a265f055439)  
+ [Editing Text, Code, and Markup](https://msdn.microsoft.com/0d9c00d7-5df4-48a3-b185-2a265f055439)  
  Provides information about the Text Editor.  
   
- [XML Standards Reference](http://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)  
+ [XML Standards Reference](https://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)  
  Provides information about XML technologies, including XML, Document Type Definition (DTD), XML Schema definition language (XSD), and XSLT.  
   
 ## See Also  

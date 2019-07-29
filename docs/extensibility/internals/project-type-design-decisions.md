@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "project types, items"
   - "project types, design decisions"
 ms.assetid: f68671fe-fd7a-4e56-a0b5-330b0f1fedb1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

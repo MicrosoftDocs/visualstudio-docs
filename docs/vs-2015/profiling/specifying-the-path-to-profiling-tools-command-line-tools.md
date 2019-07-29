@@ -21,10 +21,10 @@ The path of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command
 ## 64-bit computers  
  On 64-bit computers, specify the path according to the target platform of the profiled application.  
   
--   For 32-bit applications, the default profiler tools directory is:  
+- For 32-bit applications, the default profiler tools directory is:  
   
      *Drive*\Program Files (x86)\Microsoft Visual Studio 11.0\Team Tools\Performance Tools  
   
--   For 64-bit applications, the default profiler tools directory is:  
+- For 64-bit applications, the default profiler tools directory is:  
   
      *Drive*\Program Files (x86)\Microsoft Visual Studio 11.0\Team Tools\Performance Tools\x64

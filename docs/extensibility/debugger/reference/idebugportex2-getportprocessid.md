@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPortEx2::GetPortProcessId"
 ms.assetid: be85be66-47e6-415f-b0ca-24599aa5f13c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPortEx2::GetPortProcessId
 Gets the process ID of the port itself.
@@ -30,10 +33,9 @@ int GetPortProcessId ( 
 );
 ```
 
-#### Parameters
- `pdwProcessId`
-
- [out] Returns the physical process ID of the port itself.
+## Parameters
+`pdwProcessId`\
+[out] Returns the physical process ID of the port itself.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -41,5 +43,5 @@ int GetPortProcessId ( 
 ## Remarks
  In the Win32 runtime for example, this method typically calls the Win32 function `GetCurrentProcessId` to get the physical process ID.
 
-## See Also
+## See also
 - [IDebugPortEx2](../../../extensibility/debugger/reference/idebugportex2.md)

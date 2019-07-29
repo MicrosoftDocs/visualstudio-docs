@@ -16,7 +16,7 @@ manager: "ghogen"
 Indicates the kind of exception thrown. This enumeration is used by the [IActiveScriptErrorDebug110::GetExceptionThrownKind](../../winscript/reference/iactivescripterrordebug110-getexceptionthrownkind.md) method.  
   
 > [!IMPORTANT]
->  These constants are implemented by PDM version 11.0 and greater. Found in activdbg100.h.  
+> These constants are implemented by PDM version 11.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   

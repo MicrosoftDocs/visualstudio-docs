@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "Terminate"
   - "IDebugExpressionEvaluator2::Terminate"
 ms.assetid: 38265100-4d80-4902-833a-07bb569f9ba8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExpressionEvaluator2::Terminate
 Stops and cleans up the expression evaluator.
@@ -50,5 +53,5 @@ STDMETHODIMP ExpressionEvaluatorPackage::Terminate(void)
 }
 ```
 
-## See Also
+## See also
 - [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)

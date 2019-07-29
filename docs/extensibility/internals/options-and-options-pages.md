@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "Tools Options pages [Visual Studio SDK], layouts"
   - "Tools Options pages [Visual Studio SDK], attributes"
 ms.assetid: e6c0e636-5ec3-450e-b395-fc4bb9d75918
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -53,7 +53,7 @@ Clicking **Options** on the **Tools** menu opens the **Options** dialog box. The
 - <xref:System.ComponentModel.DescriptionAttribute> determines the description of the option.
 
   > [!NOTE]
-  >  Equivalent attributes, SRCategory, LocDisplayName, and SRDescription, use string resources for localization and are defined in the [managed project sample](http://go.microsoft.com/fwlink/?LinkId=122774).
+  > Equivalent attributes, SRCategory, LocDisplayName, and SRDescription, use string resources for localization and are defined in the [managed project sample](http://go.microsoft.com/fwlink/?LinkId=122774).
 
   Consider the following code fragment:
 
@@ -78,4 +78,4 @@ Clicking **Options** on the **Tools** menu opens the **Options** dialog box. The
  The registry path of the automation property is determined by combining <xref:Microsoft.VisualStudio.Shell.Package.ApplicationRegistryRoot%2A>, the word, AutomationProperties, and the options page category and name. For example, if the options page has the My Category category, the My Grid Page name, and the <xref:Microsoft.VisualStudio.Shell.Package.ApplicationRegistryRoot%2A>, HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp, then the automation property has the registry key, HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\AutomationProperties\My Category\My Grid Page.
 
 > [!NOTE]
->  The canonical name, My Category.My Grid Page, is the value of the Name subkey of this key.
+> The canonical name, My Category.My Grid Page, is the value of the Name subkey of this key.

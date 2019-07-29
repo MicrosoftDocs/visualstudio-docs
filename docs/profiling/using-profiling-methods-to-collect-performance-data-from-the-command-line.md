@@ -1,5 +1,5 @@
 ---
-title: "Using Profiling Methods to Collect Performance Data from the Command Line | Microsoft Docs"
+title: "Use command line profiling methods to get performance data"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 5613fafc-f298-4e7a-9a2d-a853b61cdf9c
@@ -10,7 +10,7 @@ ms.workload:
   - "multiple"
 ---
 # Use profiling methods to collect performance data from the command line
-Your choice of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools and options depends on factors such as the type of application that you are profiling, the profiling method that you want to use, and whether the target application is written in native or [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] code.
+Your choice of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools and options depends on factors such as the type of application that you are profiling, the profiling method that you want to use, and whether the target application is written in native or .NET Framework code.
 
  This topic organizes the command-line procedural topics according to the profiling method that you choose.
 
@@ -31,22 +31,22 @@ Your choice of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profili
 
  **Target Application Type**
 
--   [.NET Framework stand-alone components](../profiling/how-to-instrument-a-dotnet-framework-component-and-collect-timing-data.md)
+- [.NET Framework stand-alone components](../profiling/how-to-instrument-a-dotnet-framework-component-and-collect-timing-data.md)
 
--   [Native stand-alone components](../profiling/how-to-instrument-a-native-component-and-collect-timing-data.md)
+- [Native stand-alone components](../profiling/how-to-instrument-a-native-component-and-collect-timing-data.md)
 
--   [Statically compiled ASP.NET web applications](../profiling/how-to-instrument-statically-compiled-aspnet-and-collect-detailed-timing-data.md)
+- [Statically compiled ASP.NET web applications](../profiling/how-to-instrument-statically-compiled-aspnet-and-collect-detailed-timing-data.md)
 
--   [Dynamically compiled ASP.NET web applications](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-app-and-collect-timing-data.md)
+- [Dynamically compiled ASP.NET web applications](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-app-and-collect-timing-data.md)
 
--   [.NET services](../profiling/how-to-instrument-a-dotnet-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)
+- [.NET services](../profiling/how-to-instrument-a-dotnet-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)
 
--   [Native services](../profiling/how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)
+- [Native services](../profiling/how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)
 
 ## Use .NET memory methods to collect memory allocation and object lifetime data
- The Profiling Tools .NET memory method enables you to collect [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] memory allocation data and information about the lifetime of objects in the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].
+ The Profiling Tools .NET memory method enables you to collect .NET Framework memory allocation data and information about the lifetime of objects in the .NET Framework.
 
- You can start the target application by using the profiler; you can attach the profiler to a running instance of an application; and you can create instrumented versions of the application to collect detailed timing information together with the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] memory data.
+ You can start the target application by using the profiler; you can attach the profiler to a running instance of an application; and you can create instrumented versions of the application to collect detailed timing information together with the .NET Framework memory data.
 
 |Task|Target application type|
 |----------|-----------------------------|

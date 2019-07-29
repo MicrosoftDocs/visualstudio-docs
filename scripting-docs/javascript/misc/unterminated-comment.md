@@ -25,7 +25,7 @@ This is another part of the same comment.*/
   
 ### To correct this error  
   
--   Be sure to terminate multi-line comments with "*/".  
+- Be sure to terminate multi-line comments with "*/".  
   
 ## See Also  
  [Comment Statements](../../javascript/reference/comment-statements-javascript.md)

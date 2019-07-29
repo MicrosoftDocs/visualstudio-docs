@@ -18,7 +18,6 @@ manager: jillfra
 # ShowWebBrowser Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Displays the URL you specify in a Web browser window either within the integrated development environment (IDE) or external to the IDE.  
   
 ## Syntax  
@@ -45,7 +44,7 @@ View.ShowWebBrowser URL [/new][/ext]
  The following example displays the MSDN Online home page in a Web browser outside of the IDE. If an instance of the Web browser is already open, it is used; otherwise a new instance is launched.  
   
 ```  
->View.ShowWebBrowser http://msdn.microsoft.com /ext  
+>View.ShowWebBrowser https://msdn.microsoft.com /ext  
 ```  
   
 ## See Also  

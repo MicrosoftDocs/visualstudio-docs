@@ -18,8 +18,8 @@ When a [Messages View](../debugger/messages-view.md) window is active, a **Start
 
 ### To start the message log display
 
-1.  From the **Messages** menu, choose **Start Logging**.
+1. From the **Messages** menu, choose **Start Logging**.
 
 ### To stop the message log display
 
-1.  From the **Messages** menu, choose **Stop Logging**.
+1. From the **Messages** menu, choose **Stop Logging**.

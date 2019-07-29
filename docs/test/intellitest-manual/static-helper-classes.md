@@ -135,7 +135,6 @@ public static class MathEx {
      public static int Square(int value) { return value * value; }
 }
 
-
 // fixture
 [TestClass]
 public partial class MathExTests {

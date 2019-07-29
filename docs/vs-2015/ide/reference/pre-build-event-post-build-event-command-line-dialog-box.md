@@ -38,18 +38,17 @@ manager: jillfra
 # Pre-build Event/Post-build Event Command Line Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 You can type pre- or post-build events for the [Build Events Page, Project Designer (C#)](../../ide/reference/build-events-page-project-designer-csharp.md) directly in the edit box, or you can select pre- and post-build macros from a list of available macros.  
   
 > [!NOTE]
->  Pre-build events do not run if the project is up to date and no build is triggered.  
+> Pre-build events do not run if the project is up to date and no build is triggered.  
   
 ## UI Element List  
  **Command line edit box**  
  Contains the events to run either for pre-build or post-build.  
   
 > [!NOTE]
->  Add a `call` statement before all post-build commands that run .bat files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.  
+> Add a `call` statement before all post-build commands that run .bat files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.  
   
  **Macros**  
  Expands the edit box to display a list of macros to insert in the command line edit box.  

@@ -18,7 +18,7 @@ This topic describes the best practices to follow when you develop coded UI test
   
  **Requirements**  
   
--   Visual Studio Enterprise  
+- Visual Studio Enterprise  
   
 ## Best Practices  
  Use the following guidelines to create a flexible coded UI test.  
@@ -58,11 +58,11 @@ This topic describes the best practices to follow when you develop coded UI test
   
 - If a control has an assertion that is no longer valid:  
   
-  -   Delete the method that contains the assertion.  
+  - Delete the method that contains the assertion.  
   
-  -   Remove the call to this method from the test method.  
+  - Remove the call to this method from the test method.  
   
-  -   Add a new assertion by dragging the cross-hair button onto the UI control, open the UI map, and add the new assertion.  
+  - Add a new assertion by dragging the cross-hair button onto the UI control, open the UI map, and add the new assertion.  
   
   For more information about how to record coded UI tests, see [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md).  
   

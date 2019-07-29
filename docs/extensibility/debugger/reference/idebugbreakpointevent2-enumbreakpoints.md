@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugBreakpointEvent2:::EnumBreakpoints"
 ms.assetid: 606a9625-ee43-4e84-9a47-af9a50d2d005
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBreakpointEvent2::EnumBreakpoints
 Creates an enumerator for all the breakpoints that fired at the current code location.
@@ -30,10 +33,9 @@ int EnumBreakpoints(
 );
 ```
 
-#### Parameters
- `ppEnum`
-
- [out] Returns an [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md) object that enumerates all the breakpoints associated with the current code location.
+## Parameters
+`ppEnum`\
+[out] Returns an [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md) object that enumerates all the breakpoints associated with the current code location.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -41,6 +43,6 @@ int EnumBreakpoints(
 ## Remarks
  Not all breakpoints at a particular location may fire at a particular time (for example, a breakpoint with a condition will not fire until that condition is met).
 
-## See Also
+## See also
 - [IDebugBreakpointEvent2](../../../extensibility/debugger/reference/idebugbreakpointevent2.md)
 - [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md)

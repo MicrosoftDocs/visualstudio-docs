@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "GUIDs, VSPackages"
   - "CATIDs for VSPackages"
 ms.assetid: 0c7fdb66-ed96-4b36-89f6-021bca573572
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -81,7 +81,6 @@ const LPOLESTR CVCReferences::s_wszCATID = L"{FE8299CA-19B6-4f20-ABEA-E1FD9A33B6
 ```
 
  The GUIDs for the [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] project types are shown in the following table.
-
 
 | Project type | GUID |
 | - | - |

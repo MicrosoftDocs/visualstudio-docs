@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "source control plug-ins, getting items from source control"
   - "source control [Visual Studio SDK], getting items from"
 ms.assetid: cbd345c5-ca43-4630-b7a4-85564f4e2090
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -20,13 +20,13 @@ This test area covers test cases for retrieving items from the version store via
 
 ##### Get Latest Version:
 
--   **File**, **Source Control**, **Get Latest Version**.
+- **File**, **Source Control**, **Get Latest Version**.
 
--   **File**, **Get Latest Version**.
+- **File**, **Get Latest Version**.
 
--   Shortcut menu, **Get Latest Version**.
+- Shortcut menu, **Get Latest Version**.
 
--   Get: **File**, **Source Control**, **Get**.
+- Get: **File**, **Source Control**, **Get**.
 
 ## Expected Behavior
 

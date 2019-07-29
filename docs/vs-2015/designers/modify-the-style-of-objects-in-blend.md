@@ -19,15 +19,15 @@ The easiest way to customize an object is to set properties in the **Properties*
   
  **In this topic**:  
   
--   [Brushes: Modify the appearance of an object](#Brushes)  
+- [Brushes: Modify the appearance of an object](#Brushes)  
   
--   [Styles and Templates: Create a consistent look and feel across controls](#Styles)  
+- [Styles and Templates: Create a consistent look and feel across controls](#Styles)  
   
--   [Visual States: Change the appearance of a control based on its state](#Visual)  
+- [Visual States: Change the appearance of a control based on its state](#Visual)  
   
--   [Resources: Create colors, styles, and templates and reuse them later](#Resources)  
+- [Resources: Create colors, styles, and templates and reuse them later](#Resources)  
   
-##  <a name="Brushes"></a> Brushes: Modify the appearance of an object  
+## <a name="Brushes"></a> Brushes: Modify the appearance of an object  
  Apply a brush to an object if you want to change its appearance.  
   
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Brushes Editor](http://www.popscreen.com/v/6A4mO/Microsoft-Expression-Blend-The-Brushes-Editor).  
@@ -51,7 +51,7 @@ The easiest way to customize an object is to set properties in the **Properties*
   
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Tile Brushes](http://www.popscreen.com/v/6A4iM/Microsoft-Expression-Blend-Tile-Brushes).  
   
-##  <a name="Styles"></a> Styles and Templates: Create a consistent look and feel across controls  
+## <a name="Styles"></a> Styles and Templates: Create a consistent look and feel across controls  
  You can design the appearance and behavior of a control one time and apply that design to other controls so that you don’t have to maintain them individually.  
   
  **Should you use a style?**: If you just want to set default properties (such as the color of a button), use a *style*. You can modify a control even after you’ve applied a style to it.  
@@ -80,30 +80,30 @@ The easiest way to customize an object is to set properties in the **Properties*
   ![](../designers/media/4818ee6a-ce60-4b79-91c8-3b1871829eea.png "4818ee6a-ce60-4b79-91c8-3b1871829eea")  
   
 > [!NOTE]
->  You can’t create styles or templates for every type of control. If a control doesn’t support them, the breadcrumb button won’t appear above the artboard.  
+> You can’t create styles or templates for every type of control. If a control doesn’t support them, the breadcrumb button won’t appear above the artboard.  
 >   
->  To return to the editing scope of your main document, click **Return scope to** ![](../designers/media/55844eb3-ed98-4f20-aa66-a6f5b23eeb2b.png "55844eb3-ed98-4f20-aa66-a6f5b23eeb2b").  
+> To return to the editing scope of your main document, click **Return scope to** ![](../designers/media/55844eb3-ed98-4f20-aa66-a6f5b23eeb2b.png "55844eb3-ed98-4f20-aa66-a6f5b23eeb2b").  
 >   
->  ![](../designers/media/4a5612e1-7a28-4587-b870-0fe7112ec2ad.png "4a5612e1-7a28-4587-b870-0fe7112ec2ad")  
+> ![](../designers/media/4a5612e1-7a28-4587-b870-0fe7112ec2ad.png "4a5612e1-7a28-4587-b870-0fe7112ec2ad")  
   
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Create a style](https://www.youtube.com/watch?v=W8YdXDPeKdc).  
   
 ### Apply a style or template to a control  
- Right-click an object in the [Objects and Timeline](http://msdn.microsoft.com/135a5a5e-ec6d-4f38-8827-60e284cd5f57) panel, choose **Edit Template**, and then choose **Apply Resource**.  
+ Right-click an object in the [Objects and Timeline](https://msdn.microsoft.com/135a5a5e-ec6d-4f38-8827-60e284cd5f57) panel, choose **Edit Template**, and then choose **Apply Resource**.  
   
  ![](../designers/media/dc12debc-7711-47d9-84ce-10322a384397.png "dc12debc-7711-47d9-84ce-10322a384397")  
   
 ### Restore the default style or template of a control  
- Select the control, and in the [Properties](http://msdn.microsoft.com/135a5a5e-ec6d-4f38-8827-60e284cd5f57) panel, locate the **Style** or **Template** property. Then, click **Advanced options** ![](../designers/media/12e06962-5d8a-480d-a837-e06b84c545bb.png "12e06962-5d8a-480d-a837-e06b84c545bb"), and then click **Reset** on the shortcut menu.  
+ Select the control, and in the [Properties](https://msdn.microsoft.com/135a5a5e-ec6d-4f38-8827-60e284cd5f57) panel, locate the **Style** or **Template** property. Then, click **Advanced options** ![](../designers/media/12e06962-5d8a-480d-a837-e06b84c545bb.png "12e06962-5d8a-480d-a837-e06b84c545bb"), and then click **Reset** on the shortcut menu.  
   
-##  <a name="Visual"></a> Visual States: Change the appearance of a control based on its state  
+## <a name="Visual"></a> Visual States: Change the appearance of a control based on its state  
  Controls can have different visual appearances based on user interactions. For example, you can make a button turn green when a user clicks it or you could run an animation. You shorten or lengthen the time between visual states by using transitions.  
   
  ![](../designers/media/a95c671a-5639-40b9-83db-1e6b214330d5.png "a95c671a-5639-40b9-83db-1e6b214330d5")  
   
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Manage the state of your WPF controls](https://www.youtube.com/watch?v=m0PlkF5i6uw).  
   
-##  <a name="Resources"></a> Resources: Create colors, styles, and templates and reuse them later  
+## <a name="Resources"></a> Resources: Create colors, styles, and templates and reuse them later  
  You can convert just about anything in your project to a resource. A resource is just an object that you can reuse in different places in your application. For example, you can create a color one time, make it a resource, and then use that color on several objects. To change the color of all of those objects, just change the color resource.  
   
  ![](../designers/media/89203705-cf66-46e0-b153-52a23cd744f7.png "89203705-cf66-46e0-b153-52a23cd744f7") ![](../designers/media/6bff8b19-3cd5-41a0-bbf9-ff65532d5aae.png "6bff8b19-3cd5-41a0-bbf9-ff65532d5aae")  

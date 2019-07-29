@@ -30,7 +30,7 @@ This article lists the following common errors that can occur when you deploy a 
 
  First, make sure that the server is configured to associate the *.application* extension with content type "application/x-ms-application."
 
- If the server is configured correctly, check that the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] is installed on your computer. If the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] is installed, and you are still seeing this problem, try uninstalling and reinstalling the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] to re-register the content type on the client.
+ If the server is configured correctly, check that the .NET Framework 2.0 is installed on your computer. If the .NET Framework 2.0 is installed, and you are still seeing this problem, try uninstalling and reinstalling the .NET Framework 2.0 to re-register the content type on the client.
 
 #### Error message says, "Unable to retrieve application. Files missing in deployment" or "Application download has been interrupted, check for network errors and try again later"
  This message indicates that one or more files being referenced by the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests cannot be downloaded. The easiest way to debug this error is to try to download the URL that [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] says it cannot download. Here are some possible causes:
@@ -75,9 +75,9 @@ This article lists the following common errors that can occur when you deploy a 
 
  You should do the following:
 
--   Verify that the identity of the deployment manifest, identity of application manifest, and identity of the main application EXE are all unique.
+- Verify that the identity of the deployment manifest, identity of application manifest, and identity of the main application EXE are all unique.
 
--   Verify that your file paths are not longer than 100 characters. If your application contains file paths that are too long, you may exceed the limitations on the maximum path you can store. Try shortening the paths and reinstall.
+- Verify that your file paths are not longer than 100 characters. If your application contains file paths that are too long, you may exceed the limitations on the maximum path you can store. Try shortening the paths and reinstall.
 
 #### PrivatePath settings in application config file are not honored
  To use PrivatePath (Fusion probing paths), the application must request full trust permission. Try changing the application manifest to request full trust, and then try again.
@@ -106,16 +106,15 @@ This article lists the following common errors that can occur when you deploy a 
 #### You tried to sign with a certificate in your certificate store and a received blank message box
  In the **Signing** dialog box, you must:
 
--   Select **Sign with a stored certificate**, and
+- Select **Sign with a stored certificate**, and
 
--   Select a certificate from the list; the first certificate is not the default selection.
+- Select a certificate from the list; the first certificate is not the default selection.
 
 #### Clicking the "Don't Sign" button causes an exception
  This issue is a known bug. All [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests are required to be signed. Just select one of the signing options, and then click **OK**.
 
 ## Additional errors
  The following table shows some common error messages that a client-computer user may receive when the user installs a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. Each error message is listed next to a description of the most probable cause for the error.
-
 
 | Error message | Description |
 | - | - |

@@ -23,7 +23,6 @@ manager: jillfra
 # ReadLinesFromFile Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Reads a list of items from a text file.  
   
 ## Parameters  

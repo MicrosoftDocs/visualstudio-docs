@@ -40,7 +40,7 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
   A requirements model provides greatest benefit if you use it to focus discussions with the users or their representatives, and revisit it at the beginning of each iteration. You do not have to complete it in detail before writing code. A partially working application, even if very much simplified, generally forms the most stimulating basis for discussion of the requirements with users. The model is an effective way to summarize the results of those discussions. For more information, see [Use models in your development process](../modeling/use-models-in-your-development-process.md).  
   
 > [!NOTE]
->  Throughout these topics, "system" means the system or the application that you are developing. It might be a large collection of many software and hardware components; or a single application; or a software component inside a larger system. In every case, the requirements model describes the behavior that is visible from outside your system, whether through a user interface or API.  
+> Throughout these topics, "system" means the system or the application that you are developing. It might be a large collection of many software and hardware components; or a single application; or a software component inside a larger system. In every case, the requirements model describes the behavior that is visible from outside your system, whether through a user interface or API.  
   
 ## Common Tasks  
  You can create several different views of the users' requirements.  Each view provides a particular type of information.  When you create these views, it is best to move frequently from one to another. You can start from any view.  
@@ -56,7 +56,7 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
   
  Notice that most of the diagram types can be used for other purposes. For an overview of diagram types, see [Create models for your app](../modeling/create-models-for-your-app.md). For basic information about drawing diagrams, see [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
   
-##  <a name="UseCases"></a> Describing how your system is used  
+## <a name="UseCases"></a> Describing how your system is used  
  Create use case diagrams to describe who uses the system, and what they use it for. A use case represents a goal of a user of the system, and the procedure they perform to achieve the goal.  
   
  As an example, an online meal selling system must allow customers to choose items from a menu, and must allow the providing restaurants to update the menu. You can summarize this in a use case diagram:  
@@ -87,7 +87,7 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
 |Elements on a use case diagram|[UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)|  
 |How to develop code from use cases|[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|  
   
-##  <a name="RequirementsClasses"></a> Defining Terms Used to Describe Requirements  
+## <a name="RequirementsClasses"></a> Defining Terms Used to Describe Requirements  
  You can use UML class diagrams to help you develop a consistent vocabulary of the business concepts used for the following purposes:  
   
 - By the users themselves to discuss the business in which the system works.  
@@ -134,7 +134,7 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
   
  In a conceptual class diagram, it is typically not useful to place arrows on the associations to represent navigability. This is because the diagram does not represent an implementation. The associations represent relationships between real-world objects. The following [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension make non-directional arrows the default: [Sample: UML Domain Modeling features](http://go.microsoft.com/fwlink/?LinkId=213849).  
   
-##  <a name="BusinessRules"></a> Showing Business Rules  
+## <a name="BusinessRules"></a> Showing Business Rules  
  A business rule is a requirement that is not associated with a particular use case, and should be observed throughout the system.  
   
  Many business rules are constraints on the relationships among the conceptual classes. You can write these *static business rules* as comments associated with the relevant classes on a conceptual class diagram. For example:  
@@ -155,7 +155,7 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
 |Elements on a conceptual class diagram|[UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)|  
 |How to develop code that adheres to business rules|[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|  
   
-##  <a name="QoSRequirements"></a> Describing Quality of Service Requirements  
+## <a name="QoSRequirements"></a> Describing Quality of Service Requirements  
  There are several categories of quality of service requirement. They include the following:  
   
 - Performance  
@@ -179,7 +179,7 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
 |Attaching additional documents to use cases|[Link a use case to documents and diagrams](../modeling/link-a-use-case-to-documents-and-diagrams.md)|  
 |How to develop code that adheres to quality of service requirements|[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|  
   
-##  <a name="Workflow"></a> Showing work flow between users and your system  
+## <a name="Workflow"></a> Showing work flow between users and your system  
  You can use an activity diagram to show the flow of work between different use cases. It is frequently useful to begin a requirements model by drawing an activity diagram showing the major tasks that users perform - both with the system and outside it.  
   
  For example:  
@@ -200,7 +200,7 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
 |Elements on an activity diagram|[UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md)|  
 |How to develop code from activity diagrams|[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|  
   
-##  <a name="Sequences"></a> Showing interactions between users and your system  
+## <a name="Sequences"></a> Showing interactions between users and your system  
  You can use a sequence diagram to show the interchange of messages between your system and external actors, or between parts of your system. This provides a view of the steps in a use case that shows very clearly the sequence of interactions. Sequence diagrams are especially useful where there are several interacting parties in a use case, and also where your system has an API.  
   
  For example:  

@@ -25,19 +25,19 @@ By default, the following settings are synchronized:
 
 - The following options in the **Tools** > **Options** pages:
 
-   - Theme and menu bar casing settings on the **Environment** > **General** options page.
+  - Theme and menu bar casing settings on the **Environment** > **General** options page.
 
-   - All settings on the **Environment** > **Fonts and Colors** options page.
+  - All settings on the **Environment** > **Fonts and Colors** options page.
 
-   - All keyboard shortcuts on the **Environment** > **Keyboard** options page.
+  - All keyboard shortcuts on the **Environment** > **Keyboard** options page.
 
-   - All settings on the **Environment** > **Tabs and Windows** options page.
+  - All settings on the **Environment** > **Tabs and Windows** options page.
 
-   - All settings on the **Environment** > **StartUp** options page.
+  - All settings on the **Environment** > **StartUp** options page.
 
-   - All settings on the **Text Editor** options pages, for example, [code style preferences](code-styles-and-quick-actions.md).
+  - All settings on the **Text Editor** options pages, for example, [code style preferences](code-styles-and-code-cleanup.md).
 
-   - All settings on the **XAML Designer** options pages.
+  - All settings on the **XAML Designer** options pages.
 
 ## Turn off synchronized settings on a particular computer
 

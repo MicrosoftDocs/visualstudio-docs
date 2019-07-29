@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IEEVisualizerService::GetCustomViewerList method"
 ms.assetid: 249d26ca-914f-43af-a400-8162477223f4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEEVisualizerService::GetCustomViewerList
 This method returns a list of type visualizers that this service knows about.
@@ -36,22 +39,18 @@ int GetCustomViewerList(
 );
 ```
 
-#### Parameters
- `celtSkip`
+## Parameters
+`celtSkip`\
+[in] Number of visualizers to skip over.
 
- [in] Number of visualizers to skip over.
+`celRequested`\
+[in] Number of visualizers to retrieve (also specifies size of the `rgViewers` array).
 
- `celRequested`
+`rgViewers`\
+[in, out] Array of [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) structures to be filled in.
 
- [in] Number of visualizers to retrieve (also specifies size of the `rgViewers` array).
-
- `rgViewers`
-
- [in, out] Array of [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) structures to be filled in.
-
- `pceltFetched`
-
- [out] Number of visualizers actually retrieved.
+`pceltFetched`\
+[out] Number of visualizers actually retrieved.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -61,7 +60,7 @@ int GetCustomViewerList(
 
  See [Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md) for details on the differences between visualizers and viewers.
 
-## See Also
+## See also
 - [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md)
 - [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md)
 - [GetCustomViewerList](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md)

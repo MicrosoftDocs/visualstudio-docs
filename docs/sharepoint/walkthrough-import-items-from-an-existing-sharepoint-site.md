@@ -30,9 +30,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
+- Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
 
--   Visual Studio.
+- Visual Studio.
 
 ## Customize a SharePoint site
  For this example, you will create and customize a SharePoint subsite by adding a new site column to it and by creating another subsite for use later. Later, you will export the first subsite to a .wsp file and then import the custom site column into the second subsite by using the .wsp Import project.
@@ -69,27 +69,27 @@ ms.workload:
  Next, obtain a SharePoint setup (.wsp) file that contains the SharePoint items and elements that you want to import into your [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project. If you do not already have a .wsp file, then you must create one from an existing SharePoint site. For this example, you will export the default SharePoint site into a .wsp file.
 
 > [!IMPORTANT]
->  If you receive a runtime error performing the following procedure, you have to perform the procedure on a system that has access to the SharePoint site.
+> If you receive a runtime error performing the following procedure, you have to perform the procedure on a system that has access to the SharePoint site.
 
 ### To export an existing SharePoint site
 
-1.  In the SharePoint site, choose **Site Settings** on the **Site Actions** tab to display the Site Settings page.
+1. In the SharePoint site, choose **Site Settings** on the **Site Actions** tab to display the Site Settings page.
 
-2.  In the **Site Actions** section of the Site Settings page, choose the **Save site as template** link.
+2. In the **Site Actions** section of the Site Settings page, choose the **Save site as template** link.
 
-3.  In the **File name** box, enter **ExampleSite**, and in the **Template name** box, enter **Example Site**.
+3. In the **File name** box, enter **ExampleSite**, and in the **Template name** box, enter **Example Site**.
 
-4.  For this example, leave the **Include Content** check box clear.
+4. For this example, leave the **Include Content** check box clear.
 
      If you select this box, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] saves all lists and document libraries, and their contents, to the .wsp file. Although this is useful in some circumstances, it is not required for this example.
 
-5.  When the operation completes successfully, choose the **solution gallery** link to view the .wsp file.
+5. When the operation completes successfully, choose the **solution gallery** link to view the .wsp file.
 
      To view the solutions gallery page later, open the **Site Actions** menu, choose **Site Settings**, choose the **Go to top level site settings** link in the **Site Collection Administration** section, and then choose the **Solutions** link in the **Galleries** section.
 
-6.  In the solutions gallery, choose the **ExampleSite** link.
+6. In the solutions gallery, choose the **ExampleSite** link.
 
-7.  In the **File Download** dialog box, choose the **Save** button to save the file on your local system, by default, in your Downloads folder.
+7. In the **File Download** dialog box, choose the **Save** button to save the file on your local system, by default, in your Downloads folder.
 
 ## Import the .wsp file
  Now that you have a *.wsp* file that contains an item that you want to reuse (the custom site column Test Column), import the *.wsp* file to access it.
@@ -111,7 +111,7 @@ ms.workload:
 6. In the **Specify the new project source** page, browse to the location on the system where you saved the *.wsp* file previously and then choose the **Next** button.
 
    > [!NOTE]
-   >  If you choose the **Finish** button on this page, all available items in the *.wsp* file will be imported.
+   > If you choose the **Finish** button on this page, all available items in the *.wsp* file will be imported.
 
 7. In the **Select items to import** box, clear all of the check boxes in the list except for **Test Column**, and then choose the **Finish** button.
 
@@ -124,13 +124,13 @@ ms.workload:
 
 ### To deploy the project
 
-1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], choose the **F5** key to deploy and run the *.wsp* import project.
+1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], choose the **F5** key to deploy and run the *.wsp* import project.
 
-2.  On the SharePoint site, open the **Site Actions** menu, and then choose **Site Settings** to display the Site Settings page.
+2. On the SharePoint site, open the **Site Actions** menu, and then choose **Site Settings** to display the Site Settings page.
 
-3.  In the **Galleries** section, choose the **Site columns** link.
+3. In the **Galleries** section, choose the **Site columns** link.
 
-4.  Scroll down to the **Custom Columns** section.
+4. Scroll down to the **Custom Columns** section.
 
      Notice that the custom site column that you imported from the first SharePoint site appears in the list.
 

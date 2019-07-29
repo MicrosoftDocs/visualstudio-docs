@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEngineCreateEvent2::GetEngine"
 ms.assetid: 187d24ed-9f9a-4418-a0ef-b8a19f54652c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugEngineCreateEvent2::GetEngine
 Retrieves the object that represents the newly created debug engine (DE).
@@ -30,14 +33,13 @@ int GetEngine( 
 );
 ```
 
-#### Parameters
- `pEngine`
-
- [out] Returns an [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md) object that represents the newly created DE.
+## Parameters
+`pEngine`\
+[out] Returns an [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md) object that represents the newly created DE.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugEngineCreateEvent2](../../../extensibility/debugger/reference/idebugenginecreateevent2.md)
 - [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)

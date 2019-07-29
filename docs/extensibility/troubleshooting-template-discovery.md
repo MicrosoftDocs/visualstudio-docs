@@ -2,8 +2,8 @@
 title: "Troubleshoot template discovery in Visual Studio | Microsoft Docs"
 ms.date: "01/02/2018"
 ms.topic: "conceptual"
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -35,7 +35,7 @@ If you run into problems deploying your project or item templates, you can enabl
 
 ::: moniker range="vs-2017"
 
-4. Start Visual Studio and launch the New Project and New Item dialogs to initialize both template trees.
+4. Open Visual Studio and launch the New Project and New Item dialog boxes to initialize both template trees.
 
    The template log now appears in **%LOCALAPPDATA%\Microsoft\VisualStudio\15.0_[instanceid]\VsTemplateDiagnosticsList.csv** (instanceid corresponds to the installation ID of your instance of Visual Studio). Each template tree initialization appends entries to this log.
 
@@ -43,7 +43,7 @@ If you run into problems deploying your project or item templates, you can enabl
 
 ::: moniker range=">=vs-2019"
 
-4. Start Visual Studio and launch the New Project and New Item dialogs to initialize both template trees.
+4. Open Visual Studio and launch the **Create a new project** and **New Item** dialog boxes to initialize both template trees.
 
    The template log now appears in **%LOCALAPPDATA%\Microsoft\VisualStudio\16.0_[instanceid]\VsTemplateDiagnosticsList.csv** (instanceid corresponds to the installation ID of your instance of Visual Studio). Each template tree initialization appends entries to this log.
 
@@ -53,9 +53,9 @@ The log file contains the following columns:
 
 - **FullPathToTemplate**, which has the following values:
 
-    - 1 for manifest-based deployment
+  - 1 for manifest-based deployment
 
-    - 0 for disk-based deployment
+  - 0 for disk-based deployment
 
 - **TemplateFileName**
 

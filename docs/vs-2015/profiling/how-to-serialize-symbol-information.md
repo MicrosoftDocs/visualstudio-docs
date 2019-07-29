@@ -22,15 +22,15 @@ You can serialize symbols that you must have to analyze your application. Symbol
   
 ### To automatically serialize symbol information  
   
-1.  On the **Tools** menu, click **Options**.  
+1. On the **Tools** menu, click **Options**.  
   
      The **Options** dialog box is displayed.  
   
-2.  Click **Performance Tools**.  
+2. Click **Performance Tools**.  
   
-3.  Under **General Setting**, select **Automatically serialize symbol information**.  
+3. Under **General Setting**, select **Automatically serialize symbol information**.  
   
 ## See Also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md)   
- [How to: Save Analyzed Report Files](http://msdn.microsoft.com/0340ddde-caf4-48ac-8af3-d15dcdade556)
+ [How to: Save Analyzed Report Files](https://msdn.microsoft.com/0340ddde-caf4-48ac-8af3-d15dcdade556)

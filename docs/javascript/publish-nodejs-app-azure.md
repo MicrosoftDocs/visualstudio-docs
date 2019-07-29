@@ -1,11 +1,11 @@
 ---
 title: "Publish a Node.js app to Linux App Service"
 description: You can publish Node.js applications created in Visual Studio to Linux App Service on Azure
-ms.date: "11/1/2018"
-ms.topic: "tutorial"
+ms.date: 11/1/2018
+ms.topic: tutorial
 ms.devlang: javascript
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 dev_langs:
   - JavaScript
@@ -33,7 +33,7 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-* You must have Visual Studio installed and the Node.js development workload. 
+* You must have Visual Studio installed and the Node.js development workload.
 
     ::: moniker range=">=vs-2019"
     If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
@@ -54,15 +54,13 @@ In this tutorial, you learn how to:
 
 1. Open Visual Studio.
 
-1. From the top menu bar, choose **File** > **New** > **Project**.
-
 1. Create a new TypeScript Express app.
 
     ::: moniker range=">=vs-2019"
-    In the **Create a new project** dialog box, type **javascript** in the search box to filter results, then choose **Basic Azure Node.js Express 4 application**, and then choose **OK**.
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **Node.js**, then choose **Create new Basic Azure Node.js Express 4 application** (TypeScript). In the dialog box that appears, choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
-    In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Basic Azure Node.js Express 4 application**, then choose **OK**.
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **TypeScript**, then choose **Node.js**. In the middle pane, choose **Basic Azure Node.js Express 4 application**, then choose **OK**.
 
     ![Create a new TypeScript Express app](../javascript/media/azure-ts-express-app.png)
     ::: moniker-end

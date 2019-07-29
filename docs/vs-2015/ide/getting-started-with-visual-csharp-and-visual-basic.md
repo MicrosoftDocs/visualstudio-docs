@@ -22,7 +22,7 @@ manager: jillfra
 
 Whether you are new to Visual C# or Microsoft Visual Basic, this is the place to start. Getting Started Help is a series of sequential lessons that introduces you to Visual C# and Visual Basic. Have fun, and write some great software.  
   
- To learn about Visual C++, see [Visual C++ resources](http://msdn.microsoft.com/vstudio/hh386302.aspx).  
+ To learn about Visual C++, see [Visual C++ resources](https://msdn.microsoft.com/vstudio/hh386302.aspx).  
   
 ## In This Section  
  [Walkthrough: Create a Simple Application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)  

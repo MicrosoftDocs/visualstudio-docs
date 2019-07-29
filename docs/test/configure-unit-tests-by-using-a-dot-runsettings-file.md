@@ -1,6 +1,6 @@
 ---
 title: "Configure unit tests with a .runsettings file"
-ms.date: 02/28/2018
+ms.date: 06/14/2019
 ms.topic: conceptual
 ms.author: gewarren
 manager: jillfra
@@ -10,23 +10,25 @@ author: gewarren
 ---
 # Configure unit tests by using a *.runsettings* file
 
-Unit tests in Visual Studio can be configured by using a *.runsettings* file. For example, you can change the .NET Framework version on which the tests are run, the directory for the test results, or the data that's collected during a test run.
+Unit tests in Visual Studio can be configured by using a *.runsettings* file. For example, you can change the .NET version on which the tests are run, the directory for the test results, or the data that's collected during a test run.
 
-Run settings files are optional. If you don't require any special configuration, you don't need a *.runsettings* file. The most common use of a *.runsettings* file is to customize [code coverage analysis](../test/customizing-code-coverage-analysis.md).
+Run settings files are optional. If you don't require any special configuration, you don't need a *.runsettings* file. A common use of a *.runsettings* file is to customize [code coverage analysis](../test/customizing-code-coverage-analysis.md).
 
 ## Specify a run settings file
 
 Run settings files can be used to configure tests that are run from the [command line](vstest-console-options.md), in the IDE, or in a [build workflow](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts) using Azure Test Plans or Team Foundation Server (TFS).
 
-### Specify a run settings file in the IDE
+### IDE
 
-Select **Test** > **Test Settings** > **Select Test Settings File** and then select the *.runsettings* file. The file appears on the **Test Settings** menu, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
+To specify a run settings file in the IDE, select **Test** > **Test Settings** > **Select Test Settings File**, and then select the *.runsettings* file.
 
 ![Select test settings file menu in Visual Studio](media/select-test-settings-file.png)
 
-### Specify a run settings file at the command line
+The file appears on the **Test Settings** menu, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
 
-To run tests from the command line, use *vstest.console.exe* and specify the settings file by using the **/Settings** parameter.
+### Command line
+
+To run tests from the command line, use *vstest.console.exe*, and specify the settings file by using the **/Settings** parameter.
 
 1. Launch the Visual Studio Developer Command Prompt:
 
@@ -46,6 +48,12 @@ To run tests from the command line, use *vstest.console.exe* and specify the set
 
    ```cmd
    vstest.console.exe MyTestAssembly.dll /EnableCodeCoverage /Settings:CodeCoverage.runsettings
+   ```
+
+   or
+
+   ```cmd
+   vstest.console.exe --settings:test.runsettings test.dll
    ```
 
 For more information, see [VSTest.Console.exe command-line options](vstest-console-options.md).
@@ -76,7 +84,7 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
   <!-- Configurations that affect the Test Framework -->
   <RunConfiguration>
     <MaxCpuCount>1</MaxCpuCount>
-    <!-- Path relative to solution directory -->
+    <!-- Path relative to directory that contains .runsettings file-->
     <ResultsDirectory>.\TestResults</ResultsDirectory>
 
     <!-- x86 or x64 -->
@@ -168,11 +176,11 @@ The **RunConfiguration** element can include the following elements:
 |Node|Default|Values|
 |-|-|-|
 |**ResultsDirectory**||The directory where test results are placed.|
-|**TargetFrameworkVersion**|Framework40|Framework35, Framework40, Framework45<br /><br />This setting specifies the version of the unit test framework used to discover and execute the tests. It can be different from the version of the .NET platform that you specify in the build properties of the unit test project.|
+|**TargetFrameworkVersion**|Framework40|`FrameworkCore10` for .NET Core sources, `FrameworkUap10` for UWP-based sources, `Framework45` for .NET Framework 4.5 and higher, `Framework40` for .NET Framework 4.0, and `Framework35` for .NET Framework 3.5.<br /><br />This setting specifies the version of the unit test framework used to discover and execute the tests. It can be different from the version of the .NET platform that you specify in the build properties of the unit test project.<br /><br />If you omit the `TargetFrameworkVersion` element from the *.runsettings* file, the platform automatically determines the framework version based on the built binaries.|
 |**TargetPlatform**|x86|x86, x64|
 |**TreatTestAdapterErrorsAsWarnings**|false|false, true|
 |**TestAdaptersPaths**||One or more paths to the directory where the TestAdapters are located|
-|**MaxCpuCount**|1|This setting controls the degree of parallel test execution when running unit tests, using available cores on the machine. The test execution engine starts as a distinct process on each available core, and gives each core a container with tests to run. A container can be an assembly, DLL, or relevant artifact. The test container is the scheduling unit. In each container, the tests are run according to the test framework. If there are many containers, then as processes finish executing the tests in a container, they're given the next available container.<br /><br />MaxCpuCount can be:<br /><br />n, where 1 <= n <= number of cores: up to n processes are launched<br /><br />n, where n = any other value: the number of processes launched can be up to the number of available cores|
+|**MaxCpuCount**|1|This setting controls the degree of parallel test execution when running unit tests using available cores on the machine. The test execution engine starts as a distinct process on each available core, and gives each core a container with tests to run. A container can be an assembly, DLL, or relevant artifact. The test container is the scheduling unit. In each container, the tests are run according to the test framework. If there are many containers, then as processes finish executing the tests in a container, they're given the next available container.<br /><br />MaxCpuCount can be:<br /><br />n, where 1 <= n <= number of cores: up to n processes are launched<br /><br />n, where n = any other value: the number of processes launched can be up to the number of available cores|
 |**TestSessionTimeout**||Allows users to terminate a test session when it exceeds a given timeout. Setting a timeout ensures that resources are well consumed and test sessions are constrained to a set time. The setting is available in **Visual Studio 2017 version 15.5** and later.|
 
 ### Diagnostic data adapters (data collectors)
@@ -257,5 +265,6 @@ These settings are specific to the test adapter that runs test methods that have
 
 ## See also
 
+- [Configure a test run](https://github.com/microsoft/vstest-docs/blob/master/docs/configure.md)
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)
 - [Visual Studio test task (Azure Test Plans)](/azure/devops/pipelines/tasks/test/vstest?view=vsts)

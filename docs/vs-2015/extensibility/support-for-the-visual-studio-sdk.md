@@ -40,7 +40,7 @@ Several support options are available for customers who have questions about how
 ## Included Support  
   
 ### Visual Studio Product Support  
- Some support is included with the purchase of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] products. For more information, see [Visual Studio Support](http://msdn.microsoft.com/vstudio/cc136615.aspx). Microsoft maintains a dedicated support team to answer questions about [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extensibility.  
+ Some support is included with the purchase of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] products. For more information, see [Visual Studio Support](https://msdn.microsoft.com/vstudio/cc136615.aspx). Microsoft maintains a dedicated support team to answer questions about [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extensibility.  
   
 ### MSDN Subscription Support  
  MSDN subscription packages may also include some support. For more information, see [MSDN Subscriber Support](https://msdn.microsoft.com/subscriptions/aa718661.aspx).  
@@ -48,9 +48,9 @@ Several support options are available for customers who have questions about how
 ## Paid Support  
   
 ### Developer Tools Support  
- Support can also be purchased. A variety of support offerings are available under the Developer Tools category at [Microsoft Help and Support Centers](http://go.microsoft.com/fwlink/?LinkID=82383).  
+ Support can also be purchased. A variety of support offerings are available under the Developer Tools category at [Microsoft Help and Support Centers](https://support.microsoft.com/supportforbusiness/productselection?fltadd=sps-business-1&sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8).  
   
- Customers who want to use the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] to develop complex packages can consider purchasing a Premier Support contract with Microsoft. For more information, see [Microsoft Premier Support](https://support.microsoft.com/premier). For small companies, [Partner Advantage Support](http://www.microsoft.com/services/microsoftservices/srv_mspa.mspx) may be an attractive alternative to a traditional Premier Support offering.  
+ Customers who want to use the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] to develop complex packages can consider purchasing a Premier Support contract with Microsoft. For more information, see [Microsoft Premier Support](https://support.microsoft.com/premier). For small companies, [Advanced Support for Partners](https://partner.microsoft.com/support/advanced-cloud-support) may be an attractive alternative to a traditional Premier Support offering.  
   
 > [!NOTE]
 > Standard support cannot be used for consultation or to obtain advice.  

@@ -17,7 +17,6 @@ manager: jillfra
 # /Log (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Logs all activity to the log file for troubleshooting. This file appears after you've called `devenv /log` at least once. By default, the log file is:  
   
  *%APPDATA%*\Microsoft\VisualStudio\\*Version*\ActivityLog.xml  

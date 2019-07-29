@@ -31,7 +31,7 @@ The index contains a list of keywords that are associated with topics in the ins
       By choosing the filter button near the top of the tab, you can display either all entries that contain the text that you specify or only those entries that start with the text that you specify.  
   
      > [!NOTE]
-     >  When the filter button appears on a darker background with a border, entries must contain the text that you specify. If the background and border don't appear, entries must start with the text that you specify.  
+     > When the filter button appears on a darker background with a border, entries must contain the text that you specify. If the background and border don't appear, entries must start with the text that you specify.  
   
    - Scroll through the index, and choose a keyword.  
   

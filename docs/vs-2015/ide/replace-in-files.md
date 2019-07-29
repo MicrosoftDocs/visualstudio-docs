@@ -23,15 +23,15 @@ manager: jillfra
 Replace in Files** allows you to search the code of a specified set of files for a string or expression, and change some or all of the matches found. The matches found and actions taken are listed in the **Find Results** window selected in **Result options**.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
  You can use any of the following methods to display **Replace in Files** in the **Find and Replace** window.  
   
 ### To display Replace in Files  
   
-1.  On the **Edit** menu, expand **Find and Replace**.  
+1. On the **Edit** menu, expand **Find and Replace**.  
   
-2.  Choose **Replace in Files**.  
+2. Choose **Replace in Files**.  
   
      — or —  
   
@@ -47,7 +47,7 @@ Replace in Files** allows you to search the code of a specified set of files for
  The option chosen from the **Look in** drop-down list determines whether **Replace in Files** searches only in currently active files or searches all files stored within certain folders. Select a search scope from the list, type a folder path, or click the **Browse (...)** button to display the **Choose Search Folders** dialog box and choose a set of folders to search. You can also type a path directly into the **Look in** box.  
   
 > [!NOTE]
->  If the **Look in** option selected causes you to search a file that you have checked out from source code control, only the version of that file which has been downloaded to your local machine is searched.  
+> If the **Look in** option selected causes you to search a file that you have checked out from source code control, only the version of that file which has been downloaded to your local machine is searched.  
   
 ## Find options  
  You can expand or collapse the **Find options** section. The following options can be selected or cleared:  
@@ -82,7 +82,7 @@ Replace in Files** allows you to search the code of a specified set of files for
  When selected, leaves open all files in which replacements have been made, so you can undo or save the changes. Memory constraints might limit the number of files that can remain open after a replace operation.  
   
 > [!CAUTION]
->  You can use **Undo** only on files that remain open for editing. If this option is not selected, files that were not already open for editing will remain closed, and no **Undo** option will be available in those files.  
+> You can use **Undo** only on files that remain open for editing. If this option is not selected, files that were not already open for editing will remain closed, and no **Undo** option will be available in those files.  
   
 ## See Also  
  [Finding and Replacing Text](../ide/finding-and-replacing-text.md)   

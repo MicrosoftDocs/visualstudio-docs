@@ -1,12 +1,11 @@
 ---
 title: Visual Studio subscriptions offered to partners in the Microsoft Partner Network (MPN)
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
+ms.author: lank
+manager: lank
+ms.date: 07/28/2019
 ms.topic: conceptual
 description:  Details on what subscriptions are offered, what rules apply, and how many subscriptions are offered in MPN.
-searchscope: VS Subscription
 ---
 
 # Visual Studio subscriptions offered to partners in the Microsoft Partner Network (MPN)
@@ -17,13 +16,11 @@ When a partner earns a competency--either at the silver or gold level--partners 
 but with certain benefits removed (many of which are offered separately to partners as general MPN benefits rather than as part of the Visual Studio Enterprise subscriptions offered through MPN).
 
 ### Core Visual Studio benefit for earning at least one competency of any kind
-
 | Competencies earned only at the silver level               | At least one competency earned at the gold level   |
 |------------------------------------------------------------|----------------------------------------------------|
 | 5 Visual Studio Enterprise subscriptions                   | 10 Visual Studio Enterprise subscriptions          |
 
 ### Additional Visual Studio benefit for select competencies
-
 | Competency                                  | Additional subscriptions earned for **silver** competency | Additional subscriptions earned for **gold** competency |
 |---------------------------------------------|-----------------------------------------------------------|---------------------------------------------------------|
 | Application Development                     | 5 Visual Studio Enterprise subscriptions                  | 25 Visual Studio Enterprise subscriptions               |
@@ -35,11 +32,9 @@ but with certain benefits removed (many of which are offered separately to partn
 Regardless of how many competencies a partner earns, the number of Visual Studio subscriptions are limited as follows:
 
 ### Limits for Visual Studio subscriptions earned through competencies
-
 | Maximum benefit for partners with only silver competencies                   | Maximum benefit for partners with at least one gold competency               |
 |------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | 25 Visual Studio Enterprise subscriptions per country; 75 worldwide          | 50 Visual Studio Enterprise subscriptions per country; 150 worldwide         |
-
 
 ## Subscriptions for partners purchasing the Action Pack
 Partners with a competency are not eligible to purchase the Action Pack. Only one Action Pack can be purchased per partner.
@@ -50,7 +45,7 @@ equivalent in the market. Here is what is included:
 - Windows Enterprise -- latest version only, to use for development and testing only
 - Windows Server -- latest version only, to use for development and testing only
 
-Visual Studio Professional (MPN) subscribers can also download and use free software for their development, including the SQL Server Developer Edition.
+Visual Studio Professional (MPN) subscribers can also download and use software for their development, including the SQL Server Developer Edition.
 
 The Visual Studio Professional (MPN) subscription does not include Azure DevOps Services benefits, monthly Azure credits, technical support, training, or other subscriber benefits that are available
 with Visual Studio subscriptions that are offered commercially.
@@ -68,8 +63,10 @@ Product keys are not offered to unlock the product, sign in is the only option f
 stops working. While working online, Visual Studio silently refreshes the user's license status periodically to ensure the subscription is still valid.
 
 ## Resources
-
 - [MPN Program Administrator Guide](https://assets.microsoft.com/en-us/Program-Administrator-Guide-to-Software-and-Online-Services-Benefits_1.pdf) - includes instructions on how to assign
 Visual Studio subscriptions to MPN employees.
 - [Assign Visual Studio subscriptions to MPN employees](manage-mpn-subscriptions.md)
 - [Use terms](http://www.microsoft.com/useterms/) - Visual Studio subscriptions offered via MPN are subject to the Visual Studio subscriptions not for resale (NFR) EULA.
+
+## Next steps
+Learn how to [manage Visual Studio subscriptions](manage-mpn-subscriptions.md) offered through the Microsoft Partner Network.

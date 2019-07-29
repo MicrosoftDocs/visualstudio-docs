@@ -1,5 +1,5 @@
 ---
-title: "Update form regions in Outlook projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5"
+title: "Update Outlook form regions in projects migrated to .NET Framework 4, 4.5"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -21,11 +21,11 @@ ms.workload:
 
 ### To update the generated code for a form region that you designed in Visual Studio
 
-1.  Open the form region code-behind file in the code editor. This file is named *YourFormRegion*.Designer.cs or *YourFormRegion*.Designer.vb. To see this file in Visual Basic projects, click the **Show All Files** button in **Solution Explorer**.
+1. Open the form region code-behind file in the code editor. This file is named *YourFormRegion*.Designer.cs or *YourFormRegion*.Designer.vb. To see this file in Visual Basic projects, click the **Show All Files** button in **Solution Explorer**.
 
-2.  Modify the declaration of the form region class so that it derives from <xref:Microsoft.Office.Tools.Outlook.FormRegionBase> instead of `Microsoft.Office.Tools.Outlook.FormRegionControl`.
+2. Modify the declaration of the form region class so that it derives from <xref:Microsoft.Office.Tools.Outlook.FormRegionBase> instead of `Microsoft.Office.Tools.Outlook.FormRegionControl`.
 
-3.  Modify the constructor of the form region class as shown in the following code examples.
+3. Modify the constructor of the form region class as shown in the following code examples.
 
      The following code example shows the constructor of a form region class in a project that targets the .NET Framework 3.5.
 
@@ -61,7 +61,7 @@ ms.workload:
     }
     ```
 
-4.  Modify the signature of the `InitializeManifest` method as shown below. Make sure that you do not modify the code in the method; this code represents form region settings that you applied in the designer. In Visual C# projects, you must expand the region that is named `Form Region Designer generated code` to see this method.
+4. Modify the signature of the `InitializeManifest` method as shown below. Make sure that you do not modify the code in the method; this code represents form region settings that you applied in the designer. In Visual C# projects, you must expand the region that is named `Form Region Designer generated code` to see this method.
 
      The following code example shows the signature of the `InitializeManifest` method in a project that targets the .NET Framework 3.5.
 
@@ -97,21 +97,21 @@ ms.workload:
     }
     ```
 
-5.  Add a new Outlook Form Region item to your project. Open the code-behind file for the new form region, locate the *YourNewFormRegion*`Factory` and `WindowFormRegionCollection` classes in the file, and copy these classes to the Clipboard.
+5. Add a new Outlook Form Region item to your project. Open the code-behind file for the new form region, locate the *YourNewFormRegion*`Factory` and `WindowFormRegionCollection` classes in the file, and copy these classes to the Clipboard.
 
-6.  Delete the new form region you added to your project.
+6. Delete the new form region you added to your project.
 
-7.  In the code-behind file of the form region that you are updating to work in the retargeted project, locate the *YourOriginalFormRegion*`Factory` and `WindowFormRegionCollection` classes and replace them with the code that you copied from the new form region.
+7. In the code-behind file of the form region that you are updating to work in the retargeted project, locate the *YourOriginalFormRegion*`Factory` and `WindowFormRegionCollection` classes and replace them with the code that you copied from the new form region.
 
-8.  In the *YourNewFormRegion*`Factory` and `WindowFormRegionCollection` classes, search for all references to the *YourNewFormRegion* class and change each reference to the *YourOriginalFormRegion* class instead. For example, if the form region you are updating is named `SalesDataFormRegion` and the new form region you created in step 5 is named `FormRegion1`, change all references of `FormRegion1` to `SalesDataFormRegion`.
+8. In the *YourNewFormRegion*`Factory` and `WindowFormRegionCollection` classes, search for all references to the *YourNewFormRegion* class and change each reference to the *YourOriginalFormRegion* class instead. For example, if the form region you are updating is named `SalesDataFormRegion` and the new form region you created in step 5 is named `FormRegion1`, change all references of `FormRegion1` to `SalesDataFormRegion`.
 
 #### To update the generated code for a form region that you imported from Outlook
 
-1.  Open the form region code-behind file in the code editor. This file is named *YourFormRegion*.Designer.cs or *YourFormRegion*.Designer.vb. To see this file in Visual Basic projects, click the **Show All Files** button in **Solution Explorer**.
+1. Open the form region code-behind file in the code editor. This file is named *YourFormRegion*.Designer.cs or *YourFormRegion*.Designer.vb. To see this file in Visual Basic projects, click the **Show All Files** button in **Solution Explorer**.
 
-2.  Modify the declaration of the form region class so that it derives from <xref:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase> instead of `Microsoft.Office.Tools.Outlook.ImportedFormRegion`.
+2. Modify the declaration of the form region class so that it derives from <xref:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase> instead of `Microsoft.Office.Tools.Outlook.ImportedFormRegion`.
 
-3.  Modify the constructor of the form region class as shown in the following code examples.
+3. Modify the constructor of the form region class as shown in the following code examples.
 
      The following code example shows the constructor of a form region class in a project that targets the .NET Framework 3.5.
 
@@ -147,7 +147,7 @@ ms.workload:
     }
     ```
 
-4.  For each line of code in the `InitializeControls` method that initializes a control in the form region class, modify the code as shown below.
+4. For each line of code in the `InitializeControls` method that initializes a control in the form region class, modify the code as shown below.
 
      The following code example shows how to initialize a control in a project that targets the .NET Framework 3.5. In this code, the `GetFormRegionControl` method has a type parameter that specifies the type of the control that is returned.
 
@@ -169,13 +169,13 @@ ms.workload:
     this.olkTextBox1 = (Microsoft.Office.Interop.Outlook.OlkTextBox)GetFormRegionControl("OlkTextBox1");
     ```
 
-5.  Add a new Outlook Form Region item to your project. Open the code-behind file for the new form region, locate the *YourNewFormRegion*`Factory` and `WindowFormRegionCollection` classes in the file, and copy these classes to the Clipboard.
+5. Add a new Outlook Form Region item to your project. Open the code-behind file for the new form region, locate the *YourNewFormRegion*`Factory` and `WindowFormRegionCollection` classes in the file, and copy these classes to the Clipboard.
 
-6.  Delete the new form region you added to your project.
+6. Delete the new form region you added to your project.
 
-7.  In the code-behind file of the form region that you are updating to work in the retargeted project, locate the *YourOriginalFormRegion*`Factory` and `WindowFormRegionCollection` classes and replace them with the code that you copied from the new form region.
+7. In the code-behind file of the form region that you are updating to work in the retargeted project, locate the *YourOriginalFormRegion*`Factory` and `WindowFormRegionCollection` classes and replace them with the code that you copied from the new form region.
 
-8.  In the *YourNewFormRegion*`Factory` and `WindowFormRegionCollection` classes, search for all references to the *YourNewFormRegion* class and change each reference to the *YourOriginalFormRegion* class instead. For example, if the form region you are updating is named `SalesDataFormRegion` and the new form region you created in step 5 is named `FormRegion1`, change all references of `FormRegion1` to `SalesDataFormRegion`.
+8. In the *YourNewFormRegion*`Factory` and `WindowFormRegionCollection` classes, search for all references to the *YourNewFormRegion* class and change each reference to the *YourOriginalFormRegion* class instead. For example, if the form region you are updating is named `SalesDataFormRegion` and the new form region you created in step 5 is named `FormRegion1`, change all references of `FormRegion1` to `SalesDataFormRegion`.
 
 ## Instantiate form region classes
  You must modify any code that dynamically instantiates certain form region classes. In projects that target the .NET Framework 3.5, you can instantiate form region classes such as `Microsoft.Office.Tools.Outlook.FormRegionManifest` directly. In projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, these classes are interfaces that you cannot instantiate directly.

@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "localize extension"
   - "localized deployment"
 ms.assetid: 10e80b13-b39e-466c-a7c8-774a862355af
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -47,7 +47,7 @@ When you create a vsixlangpack file, you must set the `Include in Vsix` property
 
 1. In **Solution Explorer**, right-click the Extension.vsixlangpack file, and then click **Properties**.
 
-2.  In the **Property Grid**, click **Include in Vsix**, and set its value to `true`.
+2. In the **Property Grid**, click **Include in Vsix**, and set its value to `true`.
 
 ## Example
 

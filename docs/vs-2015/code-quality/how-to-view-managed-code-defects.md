@@ -21,10 +21,10 @@ In code analysis, errors, warnings, and messages are reported in the Code Analys
   
  In the Code Analysis window, you can:  
   
--   **Choose the warning title.**  
+- **Choose the warning title.**  
   
      Additional information about the warning appears in the Code Analysis window. The line in the source file that fired the warning is displayed and highlighted in the source code editor.  
   
--   **Choose the warning id.** Warning ids are prefixed by **CA** and include a four-digit number. For example, CA1234.  
+- **Choose the warning id.** Warning ids are prefixed by **CA** and include a four-digit number. For example, CA1234.  
   
      The MSDN Library help topic for the warning is displayed. The help topic contains detailed information about the cause of the warning and includes examples that demonstrate how the warning issue occurs and is resolved.

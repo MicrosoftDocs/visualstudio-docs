@@ -29,15 +29,15 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
  This walkthrough teaches these tasks:
 
--   How to view the call stacks of all threads in one view.
+- How to view the call stacks of all threads in one view.
 
--   How to view the list of `System.Threading.Tasks.Task` instances that are created in your application.
+- How to view the list of `System.Threading.Tasks.Task` instances that are created in your application.
 
--   How to view the real call stacks of tasks instead of threads.
+- How to view the real call stacks of tasks instead of threads.
 
--   How to navigate to code from the **Parallel Tasks** and **Parallel Stacks** windows.
+- How to navigate to code from the **Parallel Tasks** and **Parallel Stacks** windows.
 
--   How the windows cope with scale through grouping, zooming, and other related features.
+- How the windows cope with scale through grouping, zooming, and other related features.
 
 ## Prerequisites
  This walkthrough assumes that **Just My Code** is enabled (it is enabled by default in more recent versions of Visual Studio). On the **Tools** menu, click **Options**, expand the **Debugging** node, select **General**, and then select **Enable Just My Code (Managed only)**. If you do not set this feature, you can still use this walkthrough, but your results may differ from the illustrations.
@@ -56,23 +56,39 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 #### To create the sample project
 
-1. In Visual Studio, on the **File** menu, point to **New** and then click **Project**.
+1. Open Visual Studio and create a new project.
 
-2. Select either **Visual C#**, **Visual Basic**, or **Visual C++**. For the managed languages, ensure that [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] is displayed in the framework box.
+    ::: moniker range=">=vs-2019"
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **console** (or **c++**), choose **Templates**, and then:
 
-3. Under **Windows Desktop**, choose **Console Application** and then click **OK**. Remain in Debug configuration, which is the default.
+    - For C# or Visual Basic, choose **Create new Console App (.NET Framework) project** for either C# or Visual Basic. In the dialog box that appears, choose **Create**.
+    - For C++, choose **Create new Console App project** for C++. In the dialog box that appears, choose **Create**.
 
-4. Open the .cpp, .cs, or .vb code file in the project. Delete its contents to create an empty code file.
+    Then, type a name or use the default name and click **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, choose the following:
 
-5. Paste the following code for your chosen language into the empty code file.
+    - For a C# app, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
+    - For a Visual Basic app, under **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
+    - For a C++ app, under **Visual C++**, choose **Windows Desktop**,, and then choose **Windows Console Application**.
+
+    Then, type a name or use the default name and click **OK**.
+    ::: moniker-end
+
+    If you don't see the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
+
+1. Open the .cpp, .cs, or .vb code file in the project. Delete its contents to create an empty code file.
+
+1. Paste the following code for your chosen language into the empty code file.
 
    [!code-csharp[Debugger#1](../debugger/codesnippet/CSharp/walkthrough-debugging-a-parallel-application_1.cs)]
    [!code-cpp[Debugger#1](../debugger/codesnippet/CPP/walkthrough-debugging-a-parallel-application_1.cpp)]
    [!code-vb[Debugger#1](../debugger/codesnippet/VisualBasic/walkthrough-debugging-a-parallel-application_1.vb)]
 
-6. On the **File** menu, click **Save All**.
+1. On the **File** menu, click **Save All**.
 
-7. On the **Build** menu, click **Rebuild Solution**.
+1. On the **Build** menu, click **Rebuild Solution**.
 
     Notice that there are four calls to `Debugger.Break` (`DebugBreak` in the C++ sample) Therefore, you do not have to insert breakpoints; just running the application will cause it to break in the debugger up to four times.
 
@@ -81,15 +97,15 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 #### To view the call stack of a single thread
 
-1.  On the **Debug** menu, point to **Windows** and then click **Threads**. Dock the **Threads** window at the bottom of Visual Studio.
+1. On the **Debug** menu, point to **Windows** and then click **Threads**. Dock the **Threads** window at the bottom of Visual Studio.
 
-2.  On the **Debug** menu, point to **Windows** and then click **Call Stack**. Dock the **Call Stack** window at the bottom Visual Studio.
+2. On the **Debug** menu, point to **Windows** and then click **Call Stack**. Dock the **Call Stack** window at the bottom Visual Studio.
 
-3.  Double-click a thread in the **Threads** window to make it current. Current threads have a yellow arrow. When you change the current thread, its call stack is displayed in the **Call Stack** window.
+3. Double-click a thread in the **Threads** window to make it current. Current threads have a yellow arrow. When you change the current thread, its call stack is displayed in the **Call Stack** window.
 
 #### To examine the Parallel Stacks window
 
-1.  On the **Debug** menu, point to **Windows** and then click **Parallel Stacks**. Make sure that **Threads** is selected in the box at the upper-left corner.
+1. On the **Debug** menu, point to **Windows** and then click **Parallel Stacks**. Make sure that **Threads** is selected in the box at the upper-left corner.
 
      By using the **Parallel Stacks** window, you can view multiple call stacks at the same time in one view. The following illustration shows the **Parallel Stacks** window above the **Call Stack** window.
 
@@ -109,7 +125,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 #### To resume execution until the second breakpoint
 
-1.  To resume execution until the second breakpoint is hit, on the **Debug** menu, click **Continue**. The following illustration shows the thread tree at the second breakpoint.
+1. To resume execution until the second breakpoint is hit, on the **Debug** menu, click **Continue**. The following illustration shows the thread tree at the second breakpoint.
 
      ![Parallel Stacks window that shows many branches](../debugger/media/pdb_walkthrough_2.png "PDB_Walkthrough_2")
 
@@ -141,7 +157,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 #### To resume execution until the third breakpoint
 
-1.  To resume execution until the third breakpoint is hit, on the **Debug** menu, click **Continue**.
+1. To resume execution until the third breakpoint is hit, on the **Debug** menu, click **Continue**.
 
      When multiple threads are in the same method but the method was not at the beginning of the call stack, the method appears in different boxes. An example at the current breakpoint is S.L, which has three threads in it and appears in three boxes. Double-click S.L.
 
@@ -155,23 +171,23 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
      The shortcut menu of the **Parallel Stacks** window also has the following other items.
 
-    -   **Hexadecimal Display** toggles the numbers in the tooltips between decimal and hexadecimal.
+    - **Hexadecimal Display** toggles the numbers in the tooltips between decimal and hexadecimal.
 
-    -   **Symbol Settings** open the respective dialog boxes.
+    - **Symbol Settings** open the respective dialog boxes.
 
-    -   **Show Threads in Source** toggles the display of thread markers in your source code, which shows the location of threads in your source code.
+    - **Show Threads in Source** toggles the display of thread markers in your source code, which shows the location of threads in your source code.
 
-    -   **Show External Code** displays all the frames even if they are not in user code. Try it to see the diagram expand to accommodate the additional frames (which may be dimmed because you do not have symbols for them).
+    - **Show External Code** displays all the frames even if they are not in user code. Try it to see the diagram expand to accommodate the additional frames (which may be dimmed because you do not have symbols for them).
 
-2.  In the **Parallel Stacks** window, make sure that the **Auto Scroll to Current Stack Frame** button on the toolbar is on.
+2. In the **Parallel Stacks** window, make sure that the **Auto Scroll to Current Stack Frame** button on the toolbar is on.
 
      When you have large diagrams and you step to the next breakpoint, you may want the view to auto scroll to the active stack frame of the current thread; that is, the thread that hit the breakpoint first.
 
-3.  Before you continue, in the **Parallel Stacks** window, scroll all the way to the left and all the way down.
+3. Before you continue, in the **Parallel Stacks** window, scroll all the way to the left and all the way down.
 
 #### To resume execution until the fourth breakpoint
 
-1.  To resume execution until the fourth breakpoint is hit, on the **Debug** menu, click **Continue**.
+1. To resume execution until the fourth breakpoint is hit, on the **Debug** menu, click **Continue**.
 
      Notice how the view autoscrolled into place. Switch threads in the **Threads** window or switch stack frames in the **Call Stack** window and notice how the view always autoscrolls to the correct frame. Turn off **Auto Scroll to Current Tool Frame** option and view the difference.
 
@@ -187,22 +203,22 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
      You can also view the stacks in a top-down direction instead of bottom-up, by clicking the **Tools** menu, clicking **Options**, and then select or clear the option under the **Debugging** node.
 
-2.  Before you continue, on the **Debug** menu, click **Stop Debugging** to end execution.
+2. Before you continue, on the **Debug** menu, click **Stop Debugging** to end execution.
 
 ## Using the Parallel Tasks Window and the Tasks View of the Parallel Stacks window
  We recommended that you complete the earlier procedures before you continue.
 
 #### To restart the application until the first breakpoint is hit
 
-1.  On the **Debug** menu, click **Start Debugging** and wait for the first breakpoint to be hit.
+1. On the **Debug** menu, click **Start Debugging** and wait for the first breakpoint to be hit.
 
-2.  On the **Debug** menu, point to **Windows** and then click **Threads**. Dock the **Threads** window at the bottom of Visual Studio.
+2. On the **Debug** menu, point to **Windows** and then click **Threads**. Dock the **Threads** window at the bottom of Visual Studio.
 
-3.  On the **Debug** menu, point to **Windows** and click **Call Stack**. Dock the **Call Stack** window at the bottom Visual Studio.
+3. On the **Debug** menu, point to **Windows** and click **Call Stack**. Dock the **Call Stack** window at the bottom Visual Studio.
 
-4.  Double-click a thread in the **Threads** window to makes it current. Current threads have the yellow arrow. When you change the current thread, the other windows are updated. Next, we will examine tasks.
+4. Double-click a thread in the **Threads** window to makes it current. Current threads have the yellow arrow. When you change the current thread, the other windows are updated. Next, we will examine tasks.
 
-5.  On the **Debug** menu, point to **Windows**, and then click **Tasks**. The following illustration shows the **Tasks** window.
+5. On the **Debug** menu, point to **Windows**, and then click **Tasks**. The following illustration shows the **Tasks** window.
 
      ![Four running tasks in Tasks window](../debugger/media/pdb_walkthrough_6.png "PDW_Walkthrough_6")
 
@@ -216,7 +232,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 #### To resume execution until the second breakpoint
 
-1.  To resume execution until the second breakpoint is hit, on the **Debug** menu, click **Continue**.
+1. To resume execution until the second breakpoint is hit, on the **Debug** menu, click **Continue**.
 
      Previously, the **Status** column showed all tasks as Active, but now two of the tasks are Blocked. Tasks can be blocked for many different reasons. In the **Status** column, hover over a waiting task to learn why it is blocked. For example, in the following illustration, task 3 is waiting on task 4.
 
@@ -242,7 +258,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 #### To resume execution until the third breakpoint
 
-1.  To resume execution until the third breakpoint is hit, on the **Debug** menu, click **Continue**.
+1. To resume execution until the third breakpoint is hit, on the **Debug** menu, click **Continue**.
 
      A new task, task 5, is now running and task 4 is now waiting. You can see why by hovering over the waiting task in the **Status** window. In the **Parent** column, notice that task 4 is the parent of task 5.
 
@@ -262,7 +278,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 #### To resume execution until the fourth breakpoint
 
-1.  To resume execution until the third breakpoint is hit, on the **Debug** menu, click **Continue**. Click the **ID** column header to sort by ID. You should see the following illustration.
+1. To resume execution until the third breakpoint is hit, on the **Debug** menu, click **Continue**. Click the **ID** column header to sort by ID. You should see the following illustration.
 
      ![Four task states in Parallel Stacks window](../debugger/media/pdb_walkthrough_10.png "PDB_Walkthrough_10")
 

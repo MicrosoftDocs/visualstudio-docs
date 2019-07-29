@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugField interface"
 ms.assetid: adecdd1c-b1b9-4027-92da-74cbe910636f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -63,5 +63,5 @@ weather stormy;
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)

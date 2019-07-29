@@ -1,6 +1,7 @@
 ---
 title: File Properties, JavaScript
 ms.date: 06/21/2017
+ms.technology: vs-javascript
 ms.topic: reference
 f1_keywords:
   - "javascript.project.property.expandedsdknode.fileversion"
@@ -20,13 +21,14 @@ f1_keywords:
   - "javascript.project.property.reference.resolvedpath"
   - "javascript.project.property.reference.version"
 ms.assetid: 085913b8-a97b-45f7-85fa-bbb0902f3ee9
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # File Properties, JavaScript
+
 You can use file properties to indicate what actions the project system should perform on the files. For example, you can set file properties to indicate whether a file should be added to the package as a resource file.
 
  You can select any file in Solution Explorer and then examine its properties in the Properties window. JavaScript files have four properties: **Copy to Output Directory**, **Package Action**, **File Name**, and **File Path**.
@@ -40,13 +42,13 @@ You can use file properties to indicate what actions the project system should p
 ### Package Action
  The **Package Action** property indicates what Visual Studio does with a file when a build is executed. **Package Action** can have one of several values:
 
--   **None** - The file is not included in the package manifest. An example is a text file that contains documentation, such as a Readme file.
+- **None** - The file is not included in the package manifest. An example is a text file that contains documentation, such as a Readme file.
 
--   **Content** - The file is included in the package manifest. For example, this setting is the default value for an .htm, .js, .css, image, audio, or video file.
+- **Content** - The file is included in the package manifest. For example, this setting is the default value for an .htm, .js, .css, image, audio, or video file.
 
--   **Manifest** - The file is not included in the package manifest. Instead, the file is used for input when generating the package manifest. This is the default value for the package.appxmanifest file.
+- **Manifest** - The file is not included in the package manifest. Instead, the file is used for input when generating the package manifest. This is the default value for the package.appxmanifest file.
 
--   **Resource** - The file is not included in the package manifest. Instead, the contents of the file are indexed in the Package Resource Index (PRI) that goes into the package manifest. It is typically used for resource files.
+- **Resource** - The file is not included in the package manifest. Instead, the contents of the file are indexed in the Package Resource Index (PRI) that goes into the package manifest. It is typically used for resource files.
 
 The default value for **Package Action** depends on the extension of the file that you add to the solution.
 
@@ -86,6 +88,6 @@ The default value for **Package Action** depends on the extension of the file th
 ### Version
  Displays the version of the reference.
 
-## See Also
+## See also
 
 - [Managing Project and Solution Properties](../../ide/managing-project-and-solution-properties.md)

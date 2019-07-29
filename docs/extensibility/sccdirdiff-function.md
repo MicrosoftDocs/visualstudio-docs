@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccDirDiff function"
 ms.assetid: 26c9ba92-e3b9-4dd2-bd5e-76b17745e308
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -77,7 +77,7 @@ SCCRTN SccDirDiff(
 |SCC_DIFF_QD_TIME|If supported by plug-in, silently compares the directory via its timestamp, or, if not supported, falls back on SCC_DIFF_QD_CHECKSUM or SCC_DIFF_QD_CONTENTS.|
 
 > [!NOTE]
->  This function uses the same command flags as the [SccDiff](../extensibility/sccdiff-function.md). However, a source control plug-in may choose to not support the "quick-diff" operation for directories.
+> This function uses the same command flags as the [SccDiff](../extensibility/sccdiff-function.md). However, a source control plug-in may choose to not support the "quick-diff" operation for directories.
 
 ## See also
 - [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)

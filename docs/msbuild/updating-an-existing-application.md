@@ -43,7 +43,7 @@ For example, you can use this XML:
 ```xml
 <ItemGroup>
   <PackageReference Include="Microsoft.Build" Version="15.1.548" ExcludeAssets="runtime" />
-  <PackageReference Include="Microsoft.Build.Utilities" Version="15.1.548" ExcludeAssets="runtime" />
+  <PackageReference Include="Microsoft.Build.Utilities.Core" Version="15.1.548" ExcludeAssets="runtime" />
 </ItemGroup>
 ```
 
@@ -65,15 +65,17 @@ Reference the Microsoft.Build.Locator package to ensure that your application au
 
 Build your project and inspect the output directory to make sure that it doesn't contain any *Microsoft.Build.\*.dll* assemblies other than *Microsoft.Build.Locator.dll*, added in the next step.
 
-### Add package reference
+### Add package reference for Microsoft.Build.Locator
 
-Add a NuGet package reference to [Microsoft.Build.Locator](https://www.nuget.org/packages/Microsoft.Build.Locator/).
+Add a NuGet package reference for [Microsoft.Build.Locator](https://www.nuget.org/packages/Microsoft.Build.Locator/).
 
 ```xml
     <PackageReference Include="Microsoft.Build.Locator">
       <Version>1.1.2</Version>
     </PackageReference>
 ```
+
+Do not specify `ExcludeAssets=runtime` for the Microsoft.Build.Locator package.
 
 ### Register instance before calling MSBuild
 

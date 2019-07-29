@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugAlias::Dispose method"
 ms.assetid: e84909a4-d378-4f48-bf25-2c014c77c8e3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugAlias::Dispose
 Marks this alias for removal.
@@ -26,7 +29,7 @@ HRESULT Dispose();
 int Dispose();
 ```
 
-#### Parameters
+## Parameters
  None.
 
 ## Return Value
@@ -35,5 +38,5 @@ int Dispose();
 ## Remarks
  Once this method is called, the alias is no longer available.
 
-## See Also
+## See also
 - [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)

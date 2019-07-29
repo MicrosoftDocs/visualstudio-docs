@@ -29,9 +29,9 @@ In this tutorial, you will:
 
 ## Prerequisites
 
-* Snapshot Debugger for Azure Kubernetes Services is only available for Visual Studio 2019 Enterprise preview or higher with the **Azure development workload**. (Under the **Individual components** tab, you find it under **Debugging and testing** > **Snapshot debugger**.)
+* Snapshot Debugger for Azure Kubernetes Services is only available for Visual Studio 2019 Enterprise or higher with the **Azure development workload**. (Under the **Individual components** tab, you find it under **Debugging and testing** > **Snapshot debugger**.)
 
-    If it's not already installed, install [Visual Studio 2019 Enterprise preview](https://visualstudio.microsoft.com/vs/preview/).
+    If it's not already installed, install [Visual Studio 2019 Enterprise](https://visualstudio.microsoft.com/vs/).
 
 * Snapshot collection is available for the following Azure Kubernetes Services web apps:
   * ASP.NET Core applications running on .NET Core 2.2 or later on Debian 9.
@@ -48,24 +48,16 @@ In this tutorial, you will:
     > [!IMPORTANT]
     > To snapshot debug, you need to open the *same version of source code* that is published to your Azure Kubernetes service.
 
-1. Attach the Snapshot Debugger. You can use one of several different methods:
+1. Choose **Debug > Attach Snapshot Debugger...**. Select the AKS resource your web app is deployed to and an Azure storage account, and then click **Attach**. Snapshot Debugger also supports [Azure App Service](debug-live-azure-applications.md) and [Azure Virtual Machines (VM) & Virtual Machine Scale Sets](debug-live-azure-virtual-machines.md).
 
-    * Choose **Debug > Attach Snapshot Debugger...**. Select the AKS resource your web app is deployed to and an Azure storage account, and then click **Attach**.
+    ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
 
-      ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
-
-    * Right click on your project and select **Publish**, and then on the Publish page click **Attach Snapshot Debugger**. Select the AKS resource your web app is deployed to and an Azure storage account, and then click **Attach**.
-    ![Launch the snapshot debugger from the Publish page](../debugger/media/snapshot-publish-attach.png)
-
-    * In the Debug target drop-down menu select **Snapshot Debugger**, hit **F5** and if necessary select the AKS resource your web app is deployed to and an Azure storage account, and then click **Attach**.
-    ![Launch the snapshot debugger from the F5 drop-down menu](../debugger/media/snapshot-F5-dropdown-attach.png)
-
-    * Using the Cloud Explorer (**View > Cloud Explorer**), right-click the AKS resource your web app is deployed to and an Azure storage account, and then click **Attach Snapshot Debugger**.
-
-      ![Launch the snapshot debugger from the Cloud Explorer](../debugger/media/snapshot-launch.png)
+    ![Select Azure Resource](../debugger/media/snapshot-select-azure-resource-aks.png)
 
     > [!NOTE]
-    > The Application Insights site extension also supports Snapshot Debugging. If you encounter a "site extension out of date" error message, see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
+    > (Visual Studio 2019 version 16.2 and above) Snapshot Debugger has enabled Azure cloud support. Make sure that both the Azure resource and Azure Storage account you select are from the same cloud. Please contact your Azure administrator if you have questions about your enterprise's [Azure compliance](https://azure.microsoft.com/overview/trusted-cloud/) configurations.
+
+Visual Studio is now in snapshot debugging mode.
 
    ![Snapshot debugging mode](../debugger/media/snapshot-message.png)
 
@@ -75,7 +67,7 @@ In this tutorial, you will:
 
 ## Set a snappoint
 
-1. In the code editor, click the left gutter next to a line of code you are interested in to set a snappoint. Make sure it is code that you know will execute.
+1. In the code editor, click the left gutter next to a line of code you're interested in to set a snappoint. Make sure it's code that you know will execute.
 
    ![Set a snappoint](../debugger/media/snapshot-set-snappoint.png)
 
@@ -88,21 +80,21 @@ In this tutorial, you will:
 
 ## Take a snapshot
 
-When a snappoint is turned on, it will capture a snapshot whenever the line of code where the snappoint is placed executes. This execution can be caused by a real request on your server. To force your snappoint to hit, go to the browser view of your web site and take any actions required that cause your snappoint to be hit.
+Once a snappoint is set, you can either manually generate a snapshot by going to the browser view of your web site and running the line of code marked or wait for your users to generate one from their usage of the site.
 
 ## Inspect snapshot data
 
 1. When the snappoint is hit, a snapshot appears in the Diagnostic Tools window. To open this window, choose **Debug > Windows > Show Diagnostic Tools**.
 
-   ![Open a snappoint](../debugger/media/snapshot-diagsession-window.png)
+    ![Open a snappoint](../debugger/media/snapshot-diagsession-window.png)
 
 1. Double-click the snappoint to open the snapshot in the code editor.
 
-   ![Inspect snapshot data](../debugger/media/snapshot-inspect-data.png)
+    ![Inspect snapshot data](../debugger/media/snapshot-inspect-data.png)
 
-   From this view, you can hover over variables to view DataTips, use the **Locals**, **Watches**, and **Call Stack** windows, and also evaluate expressions.
+    From this view, you can hover over variables to view DataTips, use the **Locals**, **Watches**, and **Call Stack** windows, and also evaluate expressions.
 
-    The website itself is still live and end users aren't impacted. Only one snapshot is captured per snappoint by default: after a snapshot is captured the snappoint turns off. If you want to capture another snapshot at the snappoint, you can turn the snappoint back on by clicking **Update Collection**.
+    The website itself is still live and end users aren't affected. Only one snapshot is captured per snappoint by default: after a snapshot is captured the snappoint turns off. If you want to capture another snapshot at the snappoint, you can turn the snappoint back on by clicking **Update Collection**.
 
 You can also add more snappoints to your app and turn them on with the **Update Collection** button.
 
@@ -110,7 +102,7 @@ You can also add more snappoints to your app and turn them on with the **Update 
 
 ## Set a conditional snappoint
 
-If it is difficult to recreate a particular state in your app, consider whether the use of a conditional snappoint can help. Conditional snappoints help you avoid taking a snapshot until the app enters a desired state, such as when a variable has a particular value that you want to inspect. You can set conditions using expressions, filters, or hit counts.
+If it's difficult to recreate a particular state in your app, consider using a conditional snappoint. Conditional snappoints help you control when to take a snapshot such as when a variable contains a particular value that you want to inspect. You can set conditions using expressions, filters, or hit counts.
 
 #### To create a conditional snappoint
 
@@ -140,7 +132,7 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
     If you choose **Send to Output Window**, when the logpoint is hit, the message appears in the Diagnostic Tools window.
 
-    ![Logpoint data in the diagsession window](../debugger/media/snapshot-logpoint-output.png)
+    ![Logpoint data in the Diagnostic Tools window](../debugger/media/snapshot-logpoint-output.png)
 
     If you choose **Send to application log**, when the logpoint is hit, the message appears anywhere that you can see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as [App Insights](/azure/application-insights/app-insights-asp-net-trace-logs).
 

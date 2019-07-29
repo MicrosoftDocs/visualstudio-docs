@@ -31,16 +31,16 @@ To define a DSL, you must have installed the following components:
 
 [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] supports the following configurations for deploying the domain-specific languages that you build:
 
--   Visual Studio Enterprise
+- Visual Studio Enterprise
 
--   Visual Studio Professional
+- Visual Studio Professional
 
--   Visual Studio Shell (integrated mode) redistributable package redistributable package
+- Visual Studio Shell (integrated mode) redistributable package redistributable package
 
--   Visual Studio Shell (isolated mode) redistributable package redistributable package
+- Visual Studio Shell (isolated mode) redistributable package redistributable package
 
 > [!NOTE]
-> To make a DSL able to run on a Shell product, you must set the **Supported VS Edition** field in the Extension Manifest. For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
+> To make a DSL able to run on a Shell product, you must set the **Supported VS Edition** field in the Extension Manifest. For more information, see [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md).
 
 ## See also
 

@@ -45,9 +45,9 @@ If you are using the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated dev
   
 - Make sure that you have set the path of your Windows symbol cache. Do one of the following to set the symbol cache path:  
   
-  -   Set the Debugger->Symbols option in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE to the correct path.  
+  - Set the Debugger->Symbols option in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE to the correct path.  
   
-  -   Add the -symbolpath option to the VSPerfReport command line to include your symbols.  
+  - Add the -symbolpath option to the VSPerfReport command line to include your symbols.  
   
 - If you do not see any symbols in [!INCLUDE[vstecasp](../includes/vstecasp-md.md)], make sure that you have the symbol server set up correctly for the ASP server.  
   

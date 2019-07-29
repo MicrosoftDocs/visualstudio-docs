@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugStackFrame2::GetName"
 ms.assetid: 069d4f96-363f-404e-9c89-5318c4c9821b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugStackFrame2::GetName
 Gets the name of the stack frame.
@@ -30,10 +33,9 @@ int GetName ( 
 );
 ```
 
-#### Parameters
- `pbstrName`
-
- [out] Returns the name of the stack frame.
+## Parameters
+`pbstrName`\
+[out] Returns the name of the stack frame.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -41,5 +43,5 @@ int GetName ( 
 ## Remarks
  The name of a stack frame is typically the name of the method being executed.
 
-## See Also
+## See also
 - [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)

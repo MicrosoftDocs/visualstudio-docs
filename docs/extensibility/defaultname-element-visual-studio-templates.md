@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
   - "DefaultName element [Visual Studio project templates]"
 ms.assetid: 0ff056c8-b9d2-4747-9308-92adf1811491
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

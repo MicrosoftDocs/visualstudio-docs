@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Solution Items folder"
   - "files, opening with Miscellaneous Files project"
 ms.assetid: 93a278a8-d4f4-400b-8945-4f1b0a2b5bac
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

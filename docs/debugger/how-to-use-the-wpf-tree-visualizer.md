@@ -24,35 +24,35 @@ You can use the WPF Tree visualizer to explore the visual tree of a WPF object, 
 
 ### To open the WPF Tree visualizer
 
-1.  In a DataTip, **Watch** window, **Autos** window, or **Locals** window, next to a WPF object name, click the arrow adjacent to the magnifying glass icon.
+1. In a DataTip, **Watch** window, **Autos** window, or **Locals** window, next to a WPF object name, click the arrow adjacent to the magnifying glass icon.
 
      A list of visualizers is displayed.
 
-2.  Click **WPF Tree Visualizer**.
+2. Click **WPF Tree Visualizer**.
 
 ### To search the visual tree
 
--   In the **Visual Tree** pane, type the string you want to search for in the **Search** box.
+- In the **Visual Tree** pane, type the string you want to search for in the **Search** box.
 
-     The WPF Tree visualizer immediately finds the first object in the visual tree that matches the string you have typed. Type more characters to find a more accurate match.
+  The WPF Tree visualizer immediately finds the first object in the visual tree that matches the string you have typed. Type more characters to find a more accurate match.
 
-    -   To go to the next match within the visual tree, click **Next**.
+  - To go to the next match within the visual tree, click **Next**.
 
-    -   To go back to the previous match, click **Prev**.
+  - To go back to the previous match, click **Prev**.
 
-    -   To clear the search criteria, click **Clear**.
+  - To clear the search criteria, click **Clear**.
 
 ### To search the properties list
 
--   In the **Properties of** _Name_**:**_Type_ pane, type the string you want to search for in the **Filter** box.
+- In the **Properties of** _Name_**:**_Type_ pane, type the string you want to search for in the **Filter** box.
 
-     The WPF Tree visualizer immediately finds the properties that match the string you have typed; now, the list displays only those properties matching the string you have typed. Type more characters to find a more-accurate match.
+  The WPF Tree visualizer immediately finds the properties that match the string you have typed; now, the list displays only those properties matching the string you have typed. Type more characters to find a more-accurate match.
 
-    -   To clear the search criteria, click **Clear**.
+  - To clear the search criteria, click **Clear**.
 
 ### To close the visualizer
 
--   Click the **Close** icon in the upper-right corner of the dialog box.
+- Click the **Close** icon in the upper-right corner of the dialog box.
 
 ## See Also
 - [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)

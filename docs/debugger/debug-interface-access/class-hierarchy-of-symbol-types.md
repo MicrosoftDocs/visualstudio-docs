@@ -37,7 +37,7 @@ The following table describes the symbol types in the class hierarchy.
 |[Dimension](../../debugger/debug-interface-access/dimension.md)|Symbol for array dimensions.|
 
 > [!NOTE]
->  Each symbol can have properties that hold information about the symbol, as well as references to other symbols. These properties are listed in the individual symbol topics.
+> Each symbol can have properties that hold information about the symbol, as well as references to other symbols. These properties are listed in the individual symbol topics.
 
 ## See Also
 - [CV_access_e Enumeration](../../debugger/debug-interface-access/cv-access-e.md)

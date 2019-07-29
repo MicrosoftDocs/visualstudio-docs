@@ -1,5 +1,5 @@
 ﻿---
-title: Using Windows PowerShell Scripts to Publish to Dev and Test Environments | Microsoft Docs
+title: PowerShell scripts to publish to dev and test environments
 description: Learn how to use Windows PowerShell scripts from Visual Studio to publish to development and test environments.
 author: ghogen
 manager: jillfra
@@ -18,7 +18,7 @@ Using these scripts, you can provision customized versions (also known as dev an
 
 ## Prerequisites
 
-* Azure SDK 2.3 or later. See [Visual Studio Downloads](http://go.microsoft.com/fwlink/?LinkID=624384). (You don't need the Azure SDK to generate the scripts for web projects. This feature is for web projects, not web roles in cloud services.)
+* Visual Studio 2015 or later with the **Azure workload** installed, or Visual Studio 2013 and Azure SDK 2.3 or later. See [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019). (You don't need the Azure SDK to generate the scripts for web projects. This feature is for web projects, not web roles in cloud services.)
 * Azure PowerShell 0.7.4 or later. See [How to install and configure Azure PowerShell](/powershell/azure/overview).
 * [Windows PowerShell 3.0](http://go.microsoft.com/?linkid=9811175) or later.
 
@@ -236,7 +236,7 @@ To automate building your project, add code that calls MSBuild to `New-WebDeploy
     }
     ```
 
-1. Replace `New-WebDeployPackage` with the following code and replace the placeholders in the line constructing `$msbuildCmd`. This code is for Visual Studio 2017. If you're using Visual Studio 2015, change the **VisualStudioVersion** property to `14.0` (`12.0` for Visual Studio 2013).
+1. Replace `New-WebDeployPackage` with the following code and replace the placeholders in the line constructing `$msbuildCmd`. This code is for Visual Studio 2019. If you're using Visual Studio 2017, change the **VisualStudioVersion** property to `15.0`, '14.0' for Visual Studio 2015, or `12.0` for Visual Studio 2013).
 
     ```powershell
     function New-WebDeployPackage
@@ -249,7 +249,7 @@ To automate building your project, add code that calls MSBuild to `New-WebDeploy
     ```powershell
     Write-VerboseWithTime 'Build-WebDeployPackage: Start'
 
-    $msbuildCmd = '"{0}" "{1}" /T:Rebuild;Package /P:VisualStudioVersion=15.0 /p:OutputPath="{2}\MSBuildOutputPath" /flp:logfile=msbuild.log,v=d' -f (Get-MSBuildCmd), $ProjectFile, $scriptDirectory
+    $msbuildCmd = '"{0}" "{1}" /T:Rebuild;Package /P:VisualStudioVersion=16.0 /p:OutputPath="{2}\MSBuildOutputPath" /flp:logfile=msbuild.log,v=d' -f (Get-MSBuildCmd), $ProjectFile, $scriptDirectory
 
     Write-VerboseWithTime ('Build-WebDeployPackage: ' + $msbuildCmd)
     ```

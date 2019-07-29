@@ -10,11 +10,8 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
+monikerRange: vs-2017
 ---
 # Notifications, Environment, Options dialog box
 
 Use this option to stop ignoring any notifications that you previously chose to ignore through the **Notifications** dialog. For more information, see [Update Visual Studio](../../install/update-visual-studio.md).
-
-### See also
-
-- [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

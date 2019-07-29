@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProperty2::GetExtendedInfo"
 ms.assetid: 0c9c0b2b-7540-4424-adb5-fce7aa37a026
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProperty2::GetExtendedInfo
 Gets extended information for the property.
@@ -32,14 +35,12 @@ int GetExtendedInfo ( 
 );
 ```
 
-#### Parameters
- `guidExtendedInfo`
+## Parameters
+`guidExtendedInfo`\
+[in] GUID that determines the type of extended information to be retrieved. See Remarks for details.
 
- [in] GUID that determines the type of extended information to be retrieved. See Remarks for details.
-
- `pExtendedInfo`
-
- [out] Returns a `VARIANT` (C++) or object (C#) that can be used to retrieve the extended property information. For example, this parameter might return an `IUnknown` interface that can be queried for an [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md) interface. See Remarks for details.
+`pExtendedInfo`\
+[out] Returns a `VARIANT` (C++) or object (C#) that can be used to retrieve the extended property information. For example, this parameter might return an `IUnknown` interface that can be queried for an [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md) interface. See Remarks for details.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise returns error code. Returns `S_GETEXTENDEDINFO_NO_EXTENDEDINFO` if there is no extended information to retrieve.
@@ -57,7 +58,7 @@ int GetExtendedInfo ( 
 |guidExtendedInfoSlot|{6df235ad-82c6-4292-9c97-7389770bc42f}|Returns a 32-bit number representing the desired slot number if this property represents a managed code local address.|
 |guidExtendedInfoSignature|{b5fb6d46-f805-417f-96a3-8ba737073ffd}|Returns a string containing the signature of the variable associated with the property object.|
 
-## See Also
+## See also
 - [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
 - [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)
 - [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)

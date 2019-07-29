@@ -1,10 +1,10 @@
 ---
 title: "Writing to the User Settings Store | Microsoft Docs"
-ms.date: "11/04/2016"
+ms.date: "05/23/2019"
 ms.topic: "conceptual"
 ms.assetid: efd27f00-7fe5-45f8-9b97-371af732be97
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -12,32 +12,11 @@ ms.workload:
 # Writing to the User Settings Store
 User settings are writeable settings like the ones in the **Tools / Options** dialog, properties windows, and certain other dialog boxes. Visual Studio extensions may use these to store small amounts of data. This walkthrough shows how to add Notepad to Visual Studio as an external tool by reading from and writing to the user settings store.
 
-### Backing up Your User Settings
-
-1.  You must be able to reset the External Tools settings so that you can debug and repeat the procedure. To do this, you must save the original settings so that you can restore them as required.
-
-2.  Open Regedit.exe.
-
-3.  Navigate to HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0Exp\External Tools\\.
-
-    > [!NOTE]
-    >  Make sure that you are looking at the key that contains \14.0Exp\ and not \14.0\\. When you run the experimental instance of Visual Studio, your user settings are in the registry hive "14.0Exp".
-
-4.  Right-click the \External Tools\ subkey, and then click **Export**. Make sure that **Selected branch** is selected.
-
-5.  Save the resulting External Tools.reg file.
-
-6.  Later, when you want to reset the External Tools settings, select the HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0Exp\External Tools\ registry key and click **Delete** on the context menu.
-
-7.  When the **Confirm Key Delete** dialog box appears, click **Yes**.
-
-8.  Right-click the External Tools.reg file that you saved earlier, click **Open with**, and then click **Registry Editor**.
-
 ## Writing to the User Settings Store
 
-1.  Create a VSIX project named UserSettingsStoreExtension and then add a custom command named UserSettingsStoreCommand. For more information about how to create a custom command, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)
+1. Create a VSIX project named UserSettingsStoreExtension and then add a custom command named UserSettingsStoreCommand. For more information about how to create a custom command, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)
 
-2.  In UserSettingsStoreCommand.cs, add the following using statements:
+2. In UserSettingsStoreCommand.cs, add the following using statements:
 
     ```csharp
     using System.Collections.Generic;
@@ -45,7 +24,7 @@ User settings are writeable settings like the ones in the **Tools / Options** di
     using Microsoft.VisualStudio.Shell.Settings;
     ```
 
-3.  In MenuItemCallback, delete the body of the method and get the user settings store, as follows:
+3. In MenuItemCallback, delete the body of the method and get the user settings store, as follows:
 
     ```csharp
     private void MenuItemCallback(object sender, EventArgs e)
@@ -55,7 +34,7 @@ User settings are writeable settings like the ones in the **Tools / Options** di
     }
     ```
 
-4.  Now find out whether Notepad is already set as an external tool. You need to iterate through all the external tools to determine whether the ToolCmd setting is "Notepad", as follows:
+4. Now find out whether Notepad is already set as an external tool. You need to iterate through all the external tools to determine whether the ToolCmd setting is "Notepad", as follows:
 
     ```csharp
     private void MenuItemCallback(object sender, EventArgs e)
@@ -79,7 +58,7 @@ User settings are writeable settings like the ones in the **Tools / Options** di
 
     ```
 
-5.  If Notepad hasn't been set as an external tool, set it as follows:
+5. If Notepad hasn't been set as an external tool, set it as follows:
 
     ```vb
     private void MenuItemCallback(object sender, EventArgs e)
@@ -115,10 +94,10 @@ User settings are writeable settings like the ones in the **Tools / Options** di
     }
     ```
 
-6.  Test the code. Remember that it adds Notepad as an External Tool, so you must roll back the registry before running it a second time.
+6. Test the code. Remember that it adds Notepad as an External Tool, so you must roll back the registry before running it a second time.
 
-7.  Build the code and start debugging.
+7. Build the code and start debugging.
 
-8.  On the **Tools** menu, click **Invoke UserSettingsStoreCommand**. This will add Notepad to the **Tools** menu.
+8. On the **Tools** menu, click **Invoke UserSettingsStoreCommand**. This will add Notepad to the **Tools** menu.
 
 9. Now you should see Notepad on the Tools / Options menu, and clicking **Notepad** should bring up an instance of Notepad.

@@ -16,7 +16,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Options Dialog Box (Visual Studio)
+# Options dialog box (Visual Studio)
 
 The **Options** dialog box enables you to configure the integrated development environment (IDE) to your needs. For example, you can establish a default save location for your projects, alter the default appearance and behavior of windows, and create shortcuts for commonly used commands. There are also options specific to your development language and platform. You can access **Options** from the **Tools** menu.
 
@@ -39,4 +39,4 @@ Selecting or unselecting **Show all settings** applies all changes you have made
 
 ## See also
 
-- [Customizing the Editor](../../ide/customizing-the-editor.md)
+- [Customizing the Editor](../how-to-change-text-case-in-the-editor.md)

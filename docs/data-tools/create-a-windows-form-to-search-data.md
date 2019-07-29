@@ -25,27 +25,25 @@ You can add parameterized queries to any TableAdapter (and controls to accept pa
 
 Tasks illustrated in this walkthrough include:
 
--   Creating a new **Windows Forms Application** project.
+- Creating and configuring the data source in your application with the **Data Source Configuration** wizard.
 
--   Creating and configuring the data source in your application with the **Data Source Configuration** wizard.
+- Setting the drop type of the items in the **Data Sources** window.
 
--   Setting the drop type of the items in the **Data Sources** window.
+- Creating controls that display data by dragging items from the **Data Sources** window onto a form.
 
--   Creating controls that display data by dragging items from the **Data Sources** window onto a form.
+- Adding controls to display the data on the form.
 
--   Adding controls to display the data on the form.
+- Completing the **Search Criteria Builder** dialog box.
 
--   Completing the **Search Criteria Builder** dialog box.
-
--   Entering parameters into the form and executing the parameterized query.
+- Entering parameters into the form and executing the parameterized query.
 
 ## Prerequisites
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
+1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
 
-2.  Install the Northwind sample database by following these steps:
+2. Install the Northwind sample database by following these steps:
 
     1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the **Visual Studio Installer**.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
 
@@ -59,41 +57,31 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create the Windows Forms application
 
-The first step is to create a Windows Forms app. Assigning a name to the project is optional at this step, but you'll give it a name here because you'll save the project later:
-
-1. In Visual Studio, on the **File** menu, select **New** > **Project**.
-
-2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
-
-3. In the middle pane, select the **Windows Forms App** project type.
-
-4. Name the project **WindowsSearchForm**, and then choose **OK**.
-
-     The **WindowsSearchForm** project is created and added to **Solution Explorer**.
+Create a new **Windows Forms App** project for either C# or Visual Basic. Name the project **WindowsSearchForm**.
 
 ## Create the data source
 
 This step creates a data source from a database using the **Data Source Configuration** wizard:
 
-1.  To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
+1. To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
 
-2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
+2. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
 
-3.  Select **Database** on the **Choose a Data Source Type** page, and then click **Next**.
+3. Select **Database** on the **Choose a Data Source Type** page, and then click **Next**.
 
-4.  On the **Choose your Data Connection** page do one of the following:
+4. On the **Choose your Data Connection** page do one of the following:
 
-    -   If a data connection to the Northwind sample database is available in the drop-down list, select it.
+    - If a data connection to the Northwind sample database is available in the drop-down list, select it.
 
-    -   Select **New Connection** to launch the **Add/Modify Connection** dialog box.
+    - Select **New Connection** to launch the **Add/Modify Connection** dialog box.
 
-5.  If your database requires a password, select the option to include sensitive data, and then click **Next**.
+5. If your database requires a password, select the option to include sensitive data, and then click **Next**.
 
-6.  On the **Save connection string to the Application Configuration file** page, click **Next**.
+6. On the **Save connection string to the Application Configuration file** page, click **Next**.
 
-7.  On the **Choose your Database Objects** page, expand the **Tables** node.
+7. On the **Choose your Database Objects** page, expand the **Tables** node.
 
-8.  Select the **Customers** table, and then click **Finish**.
+8. Select the **Customers** table, and then click **Finish**.
 
      The **NorthwindDataSet** is added to your project, and the **Customers** table appears in the **Data Sources** window.
 
@@ -101,9 +89,9 @@ This step creates a data source from a database using the **Data Source Configur
 
 You can create the data-bound controls by dragging items from the **Data Sources** window onto your form:
 
-1.  Expand the **Customers** node in the **Data Sources** window.
+1. Expand the **Customers** node in the **Data Sources** window.
 
-2.  Drag the **Customers** node from the **Data Sources** window to your form.
+2. Drag the **Customers** node from the **Data Sources** window to your form.
 
      A <xref:System.Windows.Forms.DataGridView> and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), CustomersTableAdapter, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.
 
@@ -111,11 +99,11 @@ You can create the data-bound controls by dragging items from the **Data Sources
 
 You can add a WHERE clause to the original query using the **Search Criteria Builder** dialog box:
 
-1.  Select the <xref:System.Windows.Forms.DataGridView> control, and then choose **Add Query** on the **Data** menu.
+1. Select the <xref:System.Windows.Forms.DataGridView> control, and then choose **Add Query** on the **Data** menu.
 
-2.  Type **FillByCity** in the **New query name** area on the **Search Criteria Builder** dialog box.
+2. Type **FillByCity** in the **New query name** area on the **Search Criteria Builder** dialog box.
 
-3.  Add `WHERE City = @City` to the query in the **Query Text** area.
+3. Add `WHERE City = @City` to the query in the **Query Text** area.
 
      The query should be similar to the following:
 
@@ -129,7 +117,7 @@ You can add a WHERE clause to the original query using the **Search Criteria Bui
     > [!NOTE]
     > Access and OLE DB data sources use the question mark ('?') to denote parameters, so the WHERE clause would look like this: `WHERE City = ?`.
 
-4.  Click **OK** to close the **Search Criteria Builder** dialog box.
+4. Click **OK** to close the **Search Criteria Builder** dialog box.
 
      A **FillByCityToolStrip** is added to the form.
 
@@ -137,9 +125,9 @@ You can add a WHERE clause to the original query using the **Search Criteria Bui
 
 Running the application opens your form and makes it ready to take the parameter as input:
 
-1.  Press **F5** to run the application.
+1. Press **F5** to run the application.
 
-2.  Type **London** into the **City** text box, and then click **FillByCity**.
+2. Type **London** into the **City** text box, and then click **FillByCity**.
 
      The data grid is populated with customers that meet the criteria. In this example, the data grid only displays customers that have a value of **London** in their **City** column.
 
@@ -147,9 +135,9 @@ Running the application opens your form and makes it ready to take the parameter
 
 Depending on your application requirements, there are several steps you may want to perform after creating a parameterized form. Some enhancements you could make to this walkthrough include:
 
--   Adding controls that display related data. For more information, see [Relationships in Datasets](relationships-in-datasets.md).
+- Adding controls that display related data. For more information, see [Relationships in Datasets](relationships-in-datasets.md).
 
--   Editing the dataset to add or remove database objects. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).
+- Editing the dataset to add or remove database objects. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).
 
 ## See also
 

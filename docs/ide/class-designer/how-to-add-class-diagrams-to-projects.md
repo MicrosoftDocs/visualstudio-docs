@@ -66,6 +66,9 @@ In **Solution Explorer** or Class View, right-click the project and choose **Vie
 
 An auto-populated class diagram is created.
 
+> [!NOTE]
+> Class Designer is not available in .NET Core projects.
+
 ## See also
 
 - [How to: Create types using the Class Designer](how-to-create-types.md)

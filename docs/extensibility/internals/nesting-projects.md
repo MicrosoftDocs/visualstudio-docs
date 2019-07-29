@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], child projects"
   - "projects [Visual Studio SDK], nesting"
 ms.assetid: 12cce037-9840-4761-845e-5abd5fb317b0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

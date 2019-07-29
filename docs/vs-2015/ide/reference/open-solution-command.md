@@ -18,7 +18,6 @@ manager: jillfra
 # Open Solution Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Opens an existing solution, closing any other open solutions.  
   
 ## Syntax  

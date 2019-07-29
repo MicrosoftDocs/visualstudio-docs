@@ -2,7 +2,7 @@
 title: "Use command-line parameters to install Visual Studio"
 titleSuffix: ""
 description: "Learn how to use command-line parameters to control or customize your Visual Studio installation."
-ms.date: 02/12/2019
+ms.date: 04/26/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
@@ -15,6 +15,8 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Use command-line parameters to install Visual Studio
 
@@ -24,11 +26,23 @@ When you install Visual Studio from a command prompt, you can use a variety of c
 - Automate the installation process.
 - Create a cache (layout) of the installation files for later use.
 
-The command-line options are used in conjunction with the setup bootstrapper, which is the small (approximately 1MB) file that initiates the download process. The bootstrapper is the first executable that is launched when you download from the Visual Studio site. Use the following links to get a direct link to the latest release bootstrapper for the product edition that you're installing:
+The command-line options are used in conjunction with the setup bootstrapper, which is the small (1 MB) file that initiates the download process. The bootstrapper is the first executable that is launched when you download from the Visual Studio site. Use the following links to get a direct link to the latest release bootstrapper for the product edition that you're installing:
+
+::: moniker range="vs-2017"
 
 - [Visual Studio 2017 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=enterprise&rel=15&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2017)
 - [Visual Studio 2017 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=15&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2017)
 - [Visual Studio 2017 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=15&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2017)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+- [Visual Studio 2019 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=enterprise&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2019+rc)
+- [Visual Studio 2019 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2019+rc)
+- [Visual Studio 2019 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2019+rc)
+
+::: moniker-end
 
 ## Command-line parameters
 
@@ -92,7 +106,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | **Advanced install options** | **Description** |
 | ----------------------- | --------------- |
 | `--channelId <id>` | **Optional**: The ID of the channel for the instance to be installed. This is required for the install command, ignored for other commands if `--installPath` is specified. |
-| `--channelUri <uri>` | **Optional**: The URI of the channel manifest. If updates are not desired, `--channelUri` can point to a non-existent file. (for example, --channelUri C:\doesntExist.chman) This can be used for the install command; it is ignored for other commands. |
+| `--channelUri <uri>` | **Optional**: The URI of the channel manifest. If updates are not desired, `--channelUri` can point to a non-existent file (for example, --channelUri C:\doesntExist.chman). This can be used for the install command; it is ignored for other commands. |
 | `--installChannelUri <uri>` | **Optional**: The URI of the channel manifest to use for the installation. The URI specified by `--channelUri` (which must be specified when `--installChannelUri` is specified) is used to detect updates. This can be used for the install command; it is ignored for other commands. |
 | `--installCatalogUri <uri>` | **Optional**: The URI of the catalog manifest to use for the installation. If specified, the channel manager attempts to download the catalog manifest from this URI before using the URI in the install channel manifest. This parameter is used to support offline install, where the layout cache will be created with the product catalog already downloaded. This can be used for the install command; it is ignored for other commands. |
 | `--productId <id>` | **Optional** The ID of the product for the instance that will be installed. This is prepopulated in normal installation conditions. |
@@ -134,14 +148,7 @@ For a list of workload and component IDs sorted by Visual Studio product, see th
 
 Depending on the result of the operation, the `%ERRORLEVEL%` environment variable is set to one of the following values:
 
-| **Value** | **Result** |
-| --------- | ---------- |
-| 0 | Operation completed successfully |
-| 1602 | Operation was canceled |
-| 3010 | Operation completed successfully, but install requires reboot before it can be used |
-| 5004 | Operation was canceled |
-| 5007 | Operation was blocked - the computer does not meet the requirements |
-| Other | Failure condition occurred - check the logs for more information |
+[!INCLUDE[install-error-codes-md](includes/install-error-codes-md.md)]
 
 Each operation generates several log files in the `%TEMP%` directory that indicate the progress of the installation. Sort the folder by date and look for files that begin with `dd_bootstrapper`, `dd_client`, and `dd_setup` for the bootstrapper, the installer app, and the setup engine, respectively.
 

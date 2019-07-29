@@ -24,9 +24,9 @@ ms.workload:
 
 #### To add a dependency on a feature in the solution
 
-1.  Open the Feature Designer, expand the **Feature Activation Dependencies** node, and then choose the **Add** button.
+1. Open the Feature Designer, expand the **Feature Activation Dependencies** node, and then choose the **Add** button.
 
-2.  In the **Add Feature Activation Dependencies** dialog box, choose the **Add a dependency on features in the solution** option button, choose the title of the feature that you want to add as a dependency, and then choose the **Add** button.
+2. In the **Add Feature Activation Dependencies** dialog box, choose the **Add a dependency on features in the solution** option button, choose the title of the feature that you want to add as a dependency, and then choose the **Add** button.
 
      You can add more than one feature by choosing multiple titles while choosing the **Ctrl** key.
 
@@ -35,28 +35,28 @@ ms.workload:
 
 #### To add a dependency by the feature ID
 
-1.  Open the Feature Designer, expand the **Feature Activation Dependencies** node, and then choose the **Add** button.
+1. Open the Feature Designer, expand the **Feature Activation Dependencies** node, and then choose the **Add** button.
 
-2.  In the **Add Feature Activation Dependencies** dialog box, choose the **Add a custom dependency** option button.
+2. In the **Add Feature Activation Dependencies** dialog box, choose the **Add a custom dependency** option button.
 
-3.  In the **Feature ID** text box, enter the GUID for the Feature that you want to mark as an activation dependency, and then choose the **Add** button.
+3. In the **Feature ID** text box, enter the GUID for the Feature that you want to mark as an activation dependency, and then choose the **Add** button.
 
 ## Edit custom dependencies
  You can edit custom dependencies that you added previously. However, dependent Features that are in your solution can only be removed, not edited.
 
 #### To change a dependency on a feature in the solution
 
-1.  Open the Feature Designer, and then expand the **Feature Activation Dependencies** node.
+1. Open the Feature Designer, and then expand the **Feature Activation Dependencies** node.
 
-2.  Choose the name of the feature that you want to edit, and then choose the **Edit** button.
+2. Choose the name of the feature that you want to edit, and then choose the **Edit** button.
 
-3.  In the **Edit Custom Feature Activation Dependency** dialog box, change the title, Feature ID, or description, and then choose the **Submit** button.
+3. In the **Edit Custom Feature Activation Dependency** dialog box, change the title, Feature ID, or description, and then choose the **Submit** button.
 
 ## Remove dependencies
 
 #### To remove a dependency on a feature in the solution
 
-1.  In the Feature Designer, expand the **Feature Activation Dependencies** node, choose the name of the feature that you want to remove, and then choose the **Remove** button.
+1. In the Feature Designer, expand the **Feature Activation Dependencies** node, choose the name of the feature that you want to remove, and then choose the **Remove** button.
 
 ## See also
 - [Create SharePoint features](../sharepoint/creating-sharepoint-features.md)

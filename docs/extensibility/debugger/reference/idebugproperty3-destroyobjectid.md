@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProperty3::DestroyObjectID"
 ms.assetid: bd08f356-cc67-4717-98c9-c3d00cad2040
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProperty3::DestroyObjectID
 Destroys the unique ID associated with this property, indicating that the caller no longer cares to identify this property uniquely from all other properties.
@@ -36,6 +39,6 @@ int DestroyObjectID();
 
  Unique IDs are created with a call to the [CreateObjectID](../../../extensibility/debugger/reference/idebugproperty3-createobjectid.md) method when the caller wants to make sure that this property is uniquely identified among all other properties.
 
-## See Also
+## See also
 - [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)
 - [CreateObjectID](../../../extensibility/debugger/reference/idebugproperty3-createobjectid.md)

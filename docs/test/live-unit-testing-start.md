@@ -28,21 +28,25 @@ The complete Visual Basic solution can be downloaded from the [MicrosoftDocs/vis
 
 ## Prerequisites
 
-This tutorial requires that you've installed Visual Studio Enterprise Edition with the .NET Core 2.0 workload.
+This tutorial requires that you've installed Visual Studio Enterprise edition with the .NET Core 2.0 workload.
 
 ## Create the solution and the class library project
 
 Begin by creating a Visual Studio solution named `UtilityLibraries` that consists of a single .NET Standard class library project, `StringLibrary`. You can write `StringLibrary` in either C# or Visual Basic.
 
-The solution is just a container for one or more projects. To create the solution, open Visual Studio and do the following:
+The solution is just a container for one or more projects. To create a blank solution, open Visual Studio and do the following:
 
 1. Select **File** > **New** > **Project** from the top-level Visual Studio menu.
 
-1. In the **New Project** dialog, expand the **Other Project Types** node and select **Visual Studio Solutions**. Select the **Blank Solution** template in the right pane and enter `UtilityLibraries` in the **Name** text box, as the following figure shows:
+1. Type **solution** into the template search box, and then select the **Blank Solution** template.
+
+   ::: moniker range="vs-2017"
 
    ![The **New Project** dialog](./media/lut-start/new-solution.png)
 
-1. Select **OK** to create the solution.
+   ::: moniker-end
+
+1. Finish creating the solution.
 
 Now that you've created the solution, you'll create a class library named `StringLibrary` that contains a number of extension methods for working with strings.
 
@@ -50,63 +54,97 @@ Now that you've created the solution, you'll create a class library named `Strin
 
 1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add** > **New Project**.
 
-1. In the **Add New Project** dialog, select the C# node, then select **.NET Standard**.
+::: moniker range="vs-2017"
+
+2. In the **Add New Project** dialog, select the C# node, then select **.NET Standard**.
 
    > [!NOTE]
    > Because our library targets the .NET Standard rather than a particular .NET implementation, it can be called from any .NET implementation that supports that version of the .NET Standard. For more information, see [.NET Standard](/dotnet/standard/net-standard).
 
-1. Select the **Class Library (.NET Standard)** template in the right pane, and enter `StringLibrary` in the **Name** text box, as the following figure shows:
+3. Select the **Class Library (.NET Standard)** template in the right pane, and enter `StringLibrary` in the **Name** text box, as the following figure shows:
 
    ![The **Add New Project** dialog](./media/lut-start/add-project-cs.png)
 
-1. Select **OK** to create the project.
+4. Select **OK** to create the project.
 
-1. Replace all of the existing code in the code window with the following code:
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. Type **class library** into the template search box, and the select the **Class Library (.NET Standard)** template. Click **Next**.
+
+   > [!NOTE]
+   > Because our library targets the .NET Standard rather than a particular .NET implementation, it can be called from any .NET implementation that supports that version of the .NET Standard. For more information, see [.NET Standard](/dotnet/standard/net-standard).
+
+3. Name the project `StringLibrary`.
+
+4. Click **Create** to create the project.
+
+::: moniker-end
+
+5. Replace all of the existing code in the code window with the following code:
 
    [!code-csharp[StringLibrary source code](samples/csharp/utilitylibraries/stringlibrary/class1.cs)]
 
    `StringLibrary` has three static methods:
 
-      - `StartsWithUpper` returns `true` if a string starts with an uppercase character; otherwise, it returns `false`.
+   - `StartsWithUpper` returns `true` if a string starts with an uppercase character; otherwise, it returns `false`.
 
-      - `StartsWithLower`returns `true` if a string starts with a lowercase character; otherwise, it returns `false`.
+   - `StartsWithLower`returns `true` if a string starts with a lowercase character; otherwise, it returns `false`.
 
-      - `HasEmbeddedSpaces` returns `true` if a string contains an embedded whitespace character; otherwise, it returns `false`.
+   - `HasEmbeddedSpaces` returns `true` if a string contains an embedded whitespace character; otherwise, it returns `false`.
 
-1. Select **Build** > **Build Solution** from the top-level Visual Studio menu. Visual Studio should successfully build your library.
+6. Select **Build** > **Build Solution** from the top-level Visual Studio menu. Visual Studio should successfully build your library.
 
 # [Visual Basic](#tab/vb)
 
 1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add** > **New Project**.
 
-1. In the **Add New Project** dialog, select the Visual Basic node, then select **.NET Standard**.
+::: moniker range="vs-2017"
+
+2. In the **Add New Project** dialog, select the Visual Basic node, then select **.NET Standard**.
 
    > [!NOTE]
    > Because our library targets the .NET Standard rather than a particular .NET implementation, it can be called from any .NET implementation that supports that version of the .NET Standard. For more information, see [.NET Standard](/dotnet/standard/net-standard).
 
-1. Select the **Class Library (.NET Standard)** template in the right pane, and enter `StringLibrary` in the **Name** text box, as the following figure shows:
+3. Select the **Class Library (.NET Standard)** template in the right pane, and enter `StringLibrary` in the **Name** text box, as the following figure shows:
 
    ![The **Add New Project** dialog](./media/lut-start/add-project-vb.png)
 
-1. Select **OK** to create the project.
+4. Select **OK** to create the project.
 
-1. Replace all of the existing code in the code window with the following code:
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. Type **class library** into the template search box, and the select the **Class Library (.NET Standard)** template. Click **Next**.
+
+   > [!NOTE]
+   > Because our library targets the .NET Standard rather than a particular .NET implementation, it can be called from any .NET implementation that supports that version of the .NET Standard. For more information, see [.NET Standard](/dotnet/standard/net-standard).
+
+3. Name the project `StringLibrary`.
+
+4. Click **Create** to create the project.
+
+::: moniker-end
+
+5. Replace all of the existing code in the code window with the following code:
 
    [!code-vb[StringLibrary source code](samples/visual-basic/utilitylibraries/stringlibrary/class1.vb)]
 
    `StringLibrary` has three static methods:
 
-      - `StartsWithUpper` returns `true` if a string starts with an uppercase character; otherwise, it returns `false`.
+   - `StartsWithUpper` returns `true` if a string starts with an uppercase character; otherwise, it returns `false`.
 
-      - `StartsWithLower`returns `true` if a string starts with a lowercase character; otherwise, it returns `false`.
+   - `StartsWithLower`returns `true` if a string starts with a lowercase character; otherwise, it returns `false`.
 
-      - `HasEmbeddedSpaces` returns `true` if a string contains an embedded whitespace character; otherwise, it returns `false`.
+   - `HasEmbeddedSpaces` returns `true` if a string contains an embedded whitespace character; otherwise, it returns `false`.
 
-1. Right-click on the StringLibrary project in **Solution Explorer** and select **Properties**. In the **Application** tab, delete the text in the **Root namespace** text box, as the following figure shows. The root namespace is defined by the [Namespace statement](/dotnet/visual-basic/language-reference/statements/namespace-statement) in the source code.
+6. Right-click on the StringLibrary project in **Solution Explorer** and select **Properties**. In the **Application** tab, delete the text in the **Root namespace** text box, as the following figure shows. The root namespace is defined by the [Namespace statement](/dotnet/visual-basic/language-reference/statements/namespace-statement) in the source code.
 
    ![The Project Properties dialog for a Visual Basic project](./media/lut-start/vb-properties.png)
 
-1. Select **Build** > **Build Solution** from the top-level Visual Studio menu. Visual Studio should successfully build your library.
+7. Select **Build** > **Build Solution** from the top-level Visual Studio menu. Visual Studio should successfully build your library.
 
 ---
 
@@ -118,77 +156,105 @@ The next step is to create the unit test project to test the `StringLibrary` lib
 
 1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add** > **New Project**.
 
-1. In the **Add New Project** dialog, select the C# node, then select **.NET Core**.
+::: moniker range="vs-2017"
+
+2. In the **Add New Project** dialog, select the C# node, then select **.NET Core**.
 
    > [!NOTE]
    > You do not have to write your unit tests in the same language as your class library.
 
-1. Select the **Unit Test Project (.NET Core)** template in the right pane, and enter `StringLibraryTests` in the **Name** text box, as the following figure shows:
+3. Select the **Unit Test Project (.NET Core)** template in the right pane, and enter `StringLibraryTests` in the **Name** text box, as the following figure shows:
 
    ![The **Add New Project** dialog for the unit test project](./media/lut-start/add-unit-test-cs.png)
 
-1. Select **OK** to create the project.
+4. Select **OK** to create the project.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. Type **unit test** into the template search box, and the select the **Unit Test Project (.NET Core)** template. Click **Next**.
+
+3. Name the project `StringLibraryTests`.
+
+4. Click **Create** to create the project.
+
+::: moniker-end
 
    > [!NOTE]
    > This getting started tutorial uses Live Unit Testing with the MSTest test framework. You can also use the xUnit and NUnit test frameworks.
 
-1. The unit test project can't automatically access the class library that it is testing. You give the test library access by adding a reference to the class library project. To do this, right-click on the `StringLibraryTests` project and select **Add** > **Reference**. In the **Reference Manager** dialog, make sure the **Solution** tab is selected, and select the `StringLibrary` project, as shown in the following figure.
+5. The unit test project can't automatically access the class library that it is testing. You give the test library access by adding a reference to the class library project. To do this, right-click on the `StringLibraryTests` project and select **Add** > **Reference**. In the **Reference Manager** dialog, make sure the **Solution** tab is selected, and select the `StringLibrary` project, as shown in the following figure.
 
    ![The **Reference Manager** dialog](./media/lut-start/add-reference.png)
 
-1. Replace the boilerplate unit test code provided by the template with the following code:
+6. Replace the boilerplate unit test code provided by the template with the following code:
 
    [!code-csharp[StringLibraryTest source code](samples/snippets/csharp/lut-start/unittest1.cs)]
 
-1. Save your project by selecting the **Save** icon on the toolbar.
+7. Save your project by selecting the **Save** icon on the toolbar.
 
-1. Because the unit test code includes some non-ASCII characters, Visual Studio displays the following dialog to warn us that some characters will be lost if we save the file in its default ASCII format. Choose the **Save with Other Encoding** button.
+8. Because the unit test code includes some non-ASCII characters, Visual Studio displays the following dialog to warn us that some characters will be lost if we save the file in its default ASCII format. Choose the **Save with Other Encoding** button.
 
    ![Choose a file encoding](media/lut-start/ascii-encoding.png)
 
-1. In the **Encoding** drop-down list of the **Advance Save Options** dialog, choose **Unicode (UTF-8 without signature) - Codepage 65001**, as the following figure shows:
+9. In the **Encoding** drop-down list of the **Advance Save Options** dialog, choose **Unicode (UTF-8 without signature) - Codepage 65001**, as the following figure shows:
 
    ![Choosing the UTF-8 encoding](media/lut-start/utf8-encoding.png)
 
-1. Compile the unit test project by selecting **Build** > **Rebuild Solution** from the top-level Visual Studio menu.
+10. Compile the unit test project by selecting **Build** > **Rebuild Solution** from the top-level Visual Studio menu.
 
 # [Visual Basic](#tab/vb)
 
 1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add** > **New Project**.
 
-1. In the **Add New Project** dialog, select the Visual Basic node, then select **.NET Core**.
+::: moniker range="vs-2017"
+
+2. In the **Add New Project** dialog, select the Visual Basic node, then select **.NET Core**.
 
    > [!NOTE]
    > You do not have to write your unit tests in the same language as your class library.
 
-1. Select the **Unit Test Project (.NET Core)** template in the right pane, and enter `StringLibraryTests` in the **Name** text box, as the following figure shows:
+3. Select the **Unit Test Project (.NET Core)** template in the right pane, and enter `StringLibraryTests` in the **Name** text box, as the following figure shows:
 
    ![The **Add New Project** dialog for the unit test](./media/lut-start/add-unit-test-vb.png)
 
-1. Select **OK** to create the project.
+4. Select **OK** to create the project.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. Type **unit test** into the template search box, and the select the **Unit Test Project (.NET Core)** template. Click **Next**.
+
+3. Name the project `StringLibraryTests`.
+
+4. Click **Create** to create the project.
+
+::: moniker-end
 
    > [!NOTE]
    > This getting started tutorial uses Live Unit Testing with the MSTest test framework. You can also use the xUnit and NUnit test frameworks.
 
-1. The unit test project can't automatically access the class library that it is testing. You give the test library access by adding a reference to the class library project. To do this, right-click on the `StringLibraryTests` project and select **Add** > **Reference**. In the **Reference Manager** dialog, make sure the **Solution** tab is selected, and select the `StringLibrary` project, as shown in the following figure.
+5. The unit test project can't automatically access the class library that it is testing. You give the test library access by adding a reference to the class library project. To do this, right-click on the `StringLibraryTests` project and select **Add** > **Reference**. In the **Reference Manager** dialog, make sure the **Solution** tab is selected, and select the `StringLibrary` project, as shown in the following figure.
 
    ![The **Reference Manager** dialog](./media/lut-start/add-reference.png)
 
-1. Replace the boilerplate unit test code provided by the template with the following code:
+6. Replace the boilerplate unit test code provided by the template with the following code:
 
    [!code-vb[StringLibraryTest source code](samples/snippets/visual-basic/lut-start/unittest1.vb)]
 
-1. Save your project by selecting the **Save** icon on the toolbar.
+7. Save your project by selecting the **Save** icon on the toolbar.
 
-1. Because the unit test code includes some non-ASCII characters, Visual Studio displays the following dialog to warn us that some characters will be lost if we save the file in its default ASCII format. Choose the **Save with Other Encoding** button.
+8. Because the unit test code includes some non-ASCII characters, Visual Studio displays the following dialog to warn us that some characters will be lost if we save the file in its default ASCII format. Choose the **Save with Other Encoding** button.
 
    ![Choose a file encoding](media/lut-start/ascii-encoding.png)
 
-1. In the **Encoding** drop-down list of the **Advance Save Options** dialog, choose **Unicode (UTF-8 without signature) - Codepage 65001**, as the following figure shows:
+9. In the **Encoding** drop-down list of the **Advance Save Options** dialog, choose **Unicode (UTF-8 without signature) - Codepage 65001**, as the following figure shows:
 
    ![Choosing the UTF-8 encoding](media/lut-start/utf8-encoding.png)
 
-1. Compile the unit test project by **Build** > **Rebuild Solution** from the top-level Visual Studio menu.
+10. Compile the unit test project by **Build** > **Rebuild Solution** from the top-level Visual Studio menu.
 
 ---
 

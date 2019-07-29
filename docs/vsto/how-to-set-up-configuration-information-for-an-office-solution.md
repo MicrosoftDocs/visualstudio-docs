@@ -1,5 +1,5 @@
 ---
-title: "How to: Set up configuration information for an Office solution"
+title: "Set up configuration information for an Office solution"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

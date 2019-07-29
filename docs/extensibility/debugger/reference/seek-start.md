@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "SEEK_START enumeration"
 ms.assetid: 55bd8901-626e-428b-a263-23b14417f4c6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # SEEK_START
 Specifies the position from which to start seeking in a disassembly stream.
@@ -39,20 +42,20 @@ public enum enum_SEEK_START { 
 };
 ```
 
-## Members
- SEEK_START_BEGIN
+## Fields
+ `SEEK_START_BEGIN`\
  Starts seeking at the beginning of the current document.
 
- SEEK_START_END
+ `SEEK_START_END`\
  Starts seeking at the end of the current document.
 
- SEEK_START_CURRENT
+ `SEEK_START_CURRENT`\
  Starts seeking at the current position of the current document.
 
- SEEK_START_CODECONTEXT
+ `SEEK_START_CODECONTEXT`\
  Starts seeking at the given code context of the current document.
 
- SEEK_START_CODELOCID
+ `SEEK_START_CODELOCID`\
  Starts seeking at the given code location identifier. Code location identifiers are obtained by calling [GetCurrentLocation](../../../extensibility/debugger/reference/idebugdisassemblystream2-getcurrentlocation.md).
 
 ## Remarks
@@ -65,7 +68,7 @@ public enum enum_SEEK_START { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [Seek](../../../extensibility/debugger/reference/idebugdisassemblystream2-seek.md)
 - [GetCurrentLocation](../../../extensibility/debugger/reference/idebugdisassemblystream2-getcurrentlocation.md)

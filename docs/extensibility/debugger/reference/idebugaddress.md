@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugAddress interface"
 ms.assetid: bc709ff7-4966-4f36-9af2-690efe2cea1d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -45,6 +45,6 @@ IDebugAddress : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
 - [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md)

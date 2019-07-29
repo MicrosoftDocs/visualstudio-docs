@@ -18,7 +18,7 @@ Visual Studio can help you document code elements such as classes and methods, b
 The compiler-generated XML file can be distributed alongside your .NET assembly so that Visual Studio and other IDEs can use IntelliSense to show quick information about types and members. Additionally, the XML file can be run through tools like [DocFX](https://dotnet.github.io/docfx/) and [Sandcastle](https://www.microsoft.com/download/details.aspx?id=10526) to generate API reference websites.
 
 > [!NOTE]
-> The **Insert Comment** command that automatically inserts XML documentation comments is available in [C#](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments) and [Visual Basic](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation). However, you can manually insert [XML documentation comments in C++](/cpp/ide/xml-documentation-visual-cpp) files and still generate XML documentation files at compile time.
+> The **Insert Comment** command that automatically inserts XML documentation comments is available in [C#](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments) and [Visual Basic](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation). However, you can manually insert [XML documentation comments in C++](/cpp/build/reference/xml-documentation-visual-cpp) files and still generate XML documentation files at compile time.
 
 ## To insert XML comments for a code element
 
@@ -51,5 +51,5 @@ The compiler-generated XML file can be distributed alongside your .NET assembly 
 - [Documenting your code with XML comments (C# Guide)](/dotnet/csharp/codedoc)
 - [How to: Create XML documentation (Visual Basic)](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation)
 - [C++ Comments](/cpp/cpp/comments-cpp)
-- [XML Documentation (C++)](/cpp/ide/xml-documentation-visual-cpp)
+- [XML Documentation (C++)](/cpp/build/reference/xml-documentation-visual-cpp)
 - [Code generation](../code-generation-in-visual-studio.md)

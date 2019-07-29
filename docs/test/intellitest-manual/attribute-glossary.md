@@ -19,17 +19,17 @@ author: gewarren
   * [PexClass](#pexclass)
   * [PexGenericArguments](#pexgenericarguments)
   * [PexMethod](#pexmethod)
-     - [PexExplorationAttributeBase](#pexexplorationattributebase)<p />
+    * [PexExplorationAttributeBase](#pexexplorationattributebase)
 
 * **Microsoft.Pex.Framework.Settings**
-  * [PexAssemblySettings](#pexassemblysettings)<p />
+  * [PexAssemblySettings](#pexassemblysettings)
 
 * **Microsoft.Pex.Framework.Instrumentation**
   * [PexAssemblyUnderTest](#pexassemblyundertest)
-  * [PexInstrumentAssembly](#pexinstrumentassemblyattribute)<p />
+  * [PexInstrumentAssembly](#pexinstrumentassemblyattribute)
 
 * **Microsoft.Pex.Framework.Using**
-  * [PexUseType](#pexusetype)<p />
+  * [PexUseType](#pexusetype)
 
 * **Microsoft.Pex.Framework.Validation**
   * [PexAllowedException](#pexallowedexception)
@@ -173,7 +173,7 @@ override default setting values for all explorations.
 ```csharp
 using Microsoft.Pex.Framework;
 // overriding the test framework selection
-[assembly: PexAssemblySettings(TestFramework = "Naked")]
+[assembly: PexAssemblySettings(TestFramework = "MSTestv2")]
 ```
 
 <a name="pexassemblyundertest"></a>

@@ -18,25 +18,25 @@ manager: "ghogen"
 # Can't have 'continue' outside of loop
 You attempted to use the **continue** statement outside of a loop. The **continue** statement can be used only within the body of a:  
   
--   `do-while` loop,  
+- `do-while` loop,  
   
--   `while` loop,  
+- `while` loop,  
   
--   **for** loop,  
+- **for** loop,  
   
--   **for/in** loop.  
+- **for/in** loop.  
   
 ### To correct this error  
   
--   Make sure the **continue** statement appears within the body of a:  
+- Make sure the **continue** statement appears within the body of a:  
   
-    -   `do-while` loop,  
-  
-    -   `while` loop,  
-  
-    -   **for** loop,  
-  
-    -   **for/in** loop.  
+  - `do-while` loop,  
+
+  - `while` loop,  
+
+  - **for** loop,  
+
+  - **for/in** loop.  
   
 ## See Also  
  [continue Statement](../../javascript/reference/continue-statement-javascript.md)   

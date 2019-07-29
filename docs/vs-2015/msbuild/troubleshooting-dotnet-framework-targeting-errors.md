@@ -22,7 +22,6 @@ manager: jillfra
 # Troubleshooting .NET Framework Targeting Errors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes MSBuild errors that might occur because of reference issues and how you can resolve those errors.  
   
 ## You Have Referenced a Project or Assembly That Targets a Different Version of the .NET Framework  
@@ -49,10 +48,10 @@ This topic describes MSBuild errors that might occur because of reference issues
 ```  
   
 > [!NOTE]
->  After you close and reopen your project, you should also rebuild it to ensure that all references resolve correctly.  
+> After you close and reopen your project, you should also rebuild it to ensure that all references resolve correctly.  
   
 ## See Also  
  [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md)   
- [.NET Framework Client Profile](http://msdn.microsoft.com/library/f0219919-1f02-4588-8704-327a62fd91f1)   
+ [.NET Framework Client Profile](https://msdn.microsoft.com/library/f0219919-1f02-4588-8704-327a62fd91f1)   
  [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md)   
  [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)

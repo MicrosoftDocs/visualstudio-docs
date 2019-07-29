@@ -91,7 +91,7 @@ TRACE( "x = %d and y = %d\n", x, y );
 TRACE( "x = %d and y = %x and z = %f\n", x, y, z );
 ```
 
-The TRACE macro appropriately handles both char* and wchar_t\* parameters. The following examples demonstrate the use of the TRACE macro together with different types of string parameters.
+The TRACE macro appropriately handles both char\* and wchar_t\* parameters. The following examples demonstrate the use of the TRACE macro together with different types of string parameters.
 
 ```cpp
 TRACE( "This is a test of the TRACE macro that uses an ANSI string: %s %d\n", "The number is:", 2);
@@ -224,7 +224,7 @@ Non-object blocks include arrays and structures allocated with `new`. In this ca
 In an MFC program, you can use [CMemoryState::DumpAllObjectsSince](/cpp/mfc/reference/cmemorystate-structure#dumpallobjectssince) to dump a description of all objects on the heap that have not been deallocated. `DumpAllObjectsSince` dumps all objects allocated since the last [CMemoryState::Checkpoint](/cpp/mfc/reference/cmemorystate-structure#checkpoint). If no `Checkpoint` call has taken place, `DumpAllObjectsSince` dumps all objects and nonobjects currently in memory.
 
 > [!NOTE]
-> Before you can use MFC object dumping, you must [enable diagnostic tracing](#BKMK_Enabling_Memory_Diagnostics).
+> Before you can use MFC object dumping, you must [enable diagnostic tracing](#BKMK_Enabling_memory_diagnostics).
 
 > [!NOTE]
 > MFC automatically dumps all leaked objects when your program exits, so you do not need to create code to dump objects at that point.

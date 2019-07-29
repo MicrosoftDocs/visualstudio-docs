@@ -81,9 +81,9 @@ Users can also paste elements onto other elements.
 
 2. To let users merge elements onto `ExampleElement` shapes, create a new EMD in the `ExampleElement` domain class:
 
-   1.  In **DSL Explorer**, expand **Domain Classes**. Right-click `ExampleElement` and then click **Add New Element Merge Directive**.
+   1. In **DSL Explorer**, expand **Domain Classes**. Right-click `ExampleElement` and then click **Add New Element Merge Directive**.
 
-   2.  Make sure that the **DSL Details** window is open, so that you can see the details of the new EMD. (Menu: **View**, **Other Windows**, **DSL Details**.)
+   2. Make sure that the **DSL Details** window is open, so that you can see the details of the new EMD. (Menu: **View**, **Other Windows**, **DSL Details**.)
 
 3. Set the **Indexing class** in the DSL Details window, to define what class of elements can be merged onto `ExampleElement` objects.
 
@@ -111,29 +111,29 @@ Users can also paste elements onto other elements.
 
 5. Test the DSL:
 
-   1.  Press **F5** to rebuild and run the solution.
+   1. Press **F5** to rebuild and run the solution.
 
         Rebuilding will take longer than usual because the generated code will be updated from text templates to conform to the new DSL Definition.
 
-   2.  When the experimental instance of Visual Studio has started, open a model file of your DSL. Create some example elements.
+   2. When the experimental instance of Visual Studio has started, open a model file of your DSL. Create some example elements.
 
-   3.  Drag from the **Example Element** tool onto an existing shape.
+   3. Drag from the **Example Element** tool onto an existing shape.
 
         A new shape appears, and it is linked to the existing shape with a connector.
 
-   4.  Copy an existing shape. Select another shape and paste.
+   4. Copy an existing shape. Select another shape and paste.
 
         A copy of the first shape is created.  It has a new name and it is linked to the second shape with a connector.
 
 Notice the following points from this procedure:
 
--   By creating Element Merge Directives, you can allow any class of element to accept any other. The EMD is created in the receiving domain class, and the accepted domain class is specified in the **Index class** field.
+- By creating Element Merge Directives, you can allow any class of element to accept any other. The EMD is created in the receiving domain class, and the accepted domain class is specified in the **Index class** field.
 
--   By defining paths, you can specify what links should be used to connect the new element to the existing model.
+- By defining paths, you can specify what links should be used to connect the new element to the existing model.
 
      The links that you specify should include one embedding relationship.
 
--   The EMD affects both creation from the toolbox and also paste operations.
+- The EMD affects both creation from the toolbox and also paste operations.
 
      If you write custom code that creates new elements, you can explicitly invoke the EMD by using the `ElementOperations.Merge` method. This makes sure that your code links new elements into the model in the same way as other operations. For more information, see [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md).
 
@@ -143,21 +143,21 @@ By adding custom code to an EMD, you can define more complex merge behavior. Thi
 
 ### To write Custom Accept code to restrict what the user can add
 
-1.  Create a DSL by using the **Minimal Language** solution template. Open the DSL Definition diagram.
+1. Create a DSL by using the **Minimal Language** solution template. Open the DSL Definition diagram.
 
-2.  In DSL Explorer, expand **Domain Classes**, `ExampleModel`, **Element Merge Directives**. Select the element merge directive that is named `ExampleElement`.
+2. In DSL Explorer, expand **Domain Classes**, `ExampleModel`, **Element Merge Directives**. Select the element merge directive that is named `ExampleElement`.
 
      This EMD controls how the user can create new `ExampleElement` objects in the model, for example by dragging from the toolbox.
 
-3.  In the **DSL Details** window, select **Uses custom accept**.
+3. In the **DSL Details** window, select **Uses custom accept**.
 
-4.  Rebuild the solution. This will take longer than usual because the generated code will be updated from the model.
+4. Rebuild the solution. This will take longer than usual because the generated code will be updated from the model.
 
      A build error will be reported, similar to: "Company.ElementMergeSample.ExampleElement does not contain a definition for CanMergeExampleElement..."
 
      You must implement the method `CanMergeExampleElement`.
 
-5.  Create a new code file in the **Dsl** project. Replace its content with the following code and change the namespace to the namespace of your project.
+5. Create a new code file in the **Dsl** project. Replace its content with the following code and change the namespace to the namespace of your project.
 
     ```csharp
     using Microsoft.VisualStudio.Modeling;
@@ -186,11 +186,11 @@ By adding custom code to an EMD, you can define more complex merge behavior. Thi
 
     This simple example restricts the number of elements that can be merged into the parent model. For more interesting conditions, the method can inspect any of the properties and links of the receiving object. It can also inspect the properties of the merging elements, which are carried in a <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype>. For more information about `ElementGroupPrototypes`, see [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md). For more information about how to write code that reads a model, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).
 
-6.  Test the DSL:
+6. Test the DSL:
 
-    1.  Press **F5** to rebuild the solution. When the experimental instance of Visual Studio opens, open an instance of your DSL.
+    1. Press **F5** to rebuild the solution. When the experimental instance of Visual Studio opens, open an instance of your DSL.
 
-    2.  Create new elements in several ways:
+    2. Create new elements in several ways:
 
         - Drag from the **Example Element** tool onto the diagram.
 
@@ -198,7 +198,7 @@ By adding custom code to an EMD, you can define more complex merge behavior. Thi
 
         - Copy and paste an element on the diagram.
 
-    3.  Verify that you cannot use any of these ways to add more than four elements to the model. This is because they all use the Element Merge Directive.
+    3. Verify that you cannot use any of these ways to add more than four elements to the model. This is because they all use the Element Merge Directive.
 
 ## Example: Adding Custom Merge code to an EMD
 
@@ -212,19 +212,19 @@ In custom merge code, you can define what happens when the user drags a tool or 
 
 ### To override MergeRelate
 
-1.  In the DSL definition, make sure that you have defined the EMD to which you want to add code. If you want, you can add paths and define custom accept code as described in the previous sections.
+1. In the DSL definition, make sure that you have defined the EMD to which you want to add code. If you want, you can add paths and define custom accept code as described in the previous sections.
 
-2.  In the DslDefinition diagram, select the receiving class of the merge. Typically it is the class at the source end of an embedding relationship.
+2. In the DslDefinition diagram, select the receiving class of the merge. Typically it is the class at the source end of an embedding relationship.
 
      For example, in a DSL generated from the Minimal Language solution, select `ExampleModel`.
 
-3.  In the **Properties** window, set **Generates Double Derived** to **true**.
+3. In the **Properties** window, set **Generates Double Derived** to **true**.
 
-4.  Rebuild the solution.
+4. Rebuild the solution.
 
-5.  Inspect the content of **Dsl\Generated Files\DomainClasses.cs**. Search for methods named `MergeRelate` and examine their contents. This will help you write your own versions.
+5. Inspect the content of **Dsl\Generated Files\DomainClasses.cs**. Search for methods named `MergeRelate` and examine their contents. This will help you write your own versions.
 
-6.  In a new code file, write a partial class for the receiving class, and override the `MergeRelate` method. Remember to call the base method. For example:
+6. In a new code file, write a partial class for the receiving class, and override the `MergeRelate` method. Remember to call the base method. For example:
 
     ```csharp
     partial class ExampleModel

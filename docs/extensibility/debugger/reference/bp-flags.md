@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_FLAGS enumeration"
 ms.assetid: c45dfc74-5e7f-4f1e-a147-ab2a55dccbd0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # BP_FLAGS
 Provides optional flags that may be used to specify additional information when setting a breakpoint.
@@ -35,14 +38,14 @@ public enum enum_BP_FLAGS {
 };
 ```
 
-## Members
-BP_FLAG_NONE
+## Fields
+`BP_FLAG_NONE`\
 Specifies no breakpoint flag.
 
-BP_FLAG_MAP_DOCPOSITION
+`BP_FLAG_MAP_DOCPOSITION`\
 Specifies that the debug engine (DE) should map the breakpoint using the document position. This is applicable only to breakpoints set in script-oriented source files such as Active Server Pages (ASP).
 
-BP_FLAG_DONT_STOP
+`BP_FLAG_DONT_STOP`\
 Specifies that the breakpoint should be processed by the debug engine, but that the debug engine ultimately should not stop there (that is, an [IDebugBreakpointEvent2](../../../extensibility/debugger/reference/idebugbreakpointevent2.md) event object should not be sent). This flag is designed to be used primarily with tracepoints.
 
 ## Remarks
@@ -57,7 +60,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)
 - [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md)

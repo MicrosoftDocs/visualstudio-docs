@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "IVsAppCommandLine::GetOption method"
   - "command line, switches"
 ms.assetid: 8bbbd87e-76fe-4fb5-8ef9-65f5e31967cf
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -3,8 +3,8 @@ title: "Manifest from Resources | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 0234109b-5dcb-4d9d-acb9-a63f8bd5699c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -37,25 +37,25 @@ The Manifest from Resources tool is a console application that takes a list of i
 
  **Examples**
 
--   ManifestFromResources /resources:D:\Images                       /assembly:My.Assembly.Name                       /isNative
+- ManifestFromResources /resources:D:\Images                       /assembly:My.Assembly.Name                       /isNative
 
--   ManifestFromResources /resources:D:\Images\Image1.png;D:\Images\Image1.xaml                       /assembly:My.Assembly.Name                       /manifest:MyImageManifest.imagemanifest
+- ManifestFromResources /resources:D:\Images\Image1.png;D:\Images\Image1.xaml                       /assembly:My.Assembly.Name                       /manifest:MyImageManifest.imagemanifest
 
--   ManifestFromResources /resources:D:\Images\Image1.png;D:\Images\Image1.xaml                       /assembly:My.Assembly.Name                       /guidName:MyImages                       /newGuids                       /newIds
+- ManifestFromResources /resources:D:\Images\Image1.png;D:\Images\Image1.xaml                       /assembly:My.Assembly.Name                       /guidName:MyImages                       /newGuids                       /newIds
 
 ## Notes
 
--   The tool only supports .png and .xaml files. Any other image or file types will be ignored. A warning is generated for all unsupported types encountered while parsing the resources. If no supported images are found when the tool is finished parsing the resources, an error will be generated
+- The tool only supports .png and .xaml files. Any other image or file types will be ignored. A warning is generated for all unsupported types encountered while parsing the resources. If no supported images are found when the tool is finished parsing the resources, an error will be generated
 
--   By following the suggested format for .png images, the tool will set the size/dimension value for the .png to the format-specified size, even if it differs from the image's actual size.
+- By following the suggested format for .png images, the tool will set the size/dimension value for the .png to the format-specified size, even if it differs from the image's actual size.
 
--   The width/height format can be omitted for .png images, but the tool will read the image's actual width/height and use those for the image's size/dimension value.
+- The width/height format can be omitted for .png images, but the tool will read the image's actual width/height and use those for the image's size/dimension value.
 
--   Running this tool on the same image strip multiple times for the same .imagemanifest will result in duplicate manifest entries, because the tool attempts to split the image strip into standalone images and add those to the existing manifest.
+- Running this tool on the same image strip multiple times for the same .imagemanifest will result in duplicate manifest entries, because the tool attempts to split the image strip into standalone images and add those to the existing manifest.
 
--   Merging (omitting /newGuids or /newIds) should only be done for tool-generated manifests. Manifests that have been customized or generated through other means might not be merged correctly.
+- Merging (omitting /newGuids or /newIds) should only be done for tool-generated manifests. Manifests that have been customized or generated through other means might not be merged correctly.
 
--   Manifests that are generated for native assemblies might need to be hand-edited after generation to make the ID symbols match the resource IDs from the native assembly's .rc file.
+- Manifests that are generated for native assemblies might need to be hand-edited after generation to make the ID symbols match the resource IDs from the native assembly's .rc file.
 
 ## Sample Output
  **Simple image manifest**

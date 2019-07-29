@@ -22,33 +22,33 @@ ms.workload:
 
 To design new types for C# and Visual Basic projects, create them on a class diagram. To see existing types, see [How to: View Existing Types](how-to-view-existing-types.md).
 
-##  <a name="CreateType"></a> Create a new type
+## <a name="CreateType"></a> Create a new type
 
-1.  In the **Toolbox**, under **Class Designer**, drag one of these onto a class diagram:
+1. In the **Toolbox**, under **Class Designer**, drag one of these onto a class diagram:
 
-    -   **Class** or **Abstract Class**
+    - **Class** or **Abstract Class**
 
-    -   **Enum**
+    - **Enum**
 
-    -   **Interface**
+    - **Interface**
 
-    -   **Structure** (VB) or **Struct** (C#)
+    - **Structure** (VB) or **Struct** (C#)
 
-    -   **Delegate**
+    - **Delegate**
 
-    -   **Module** (VB only)
+    - **Module** (VB only)
 
-2.  Name the type. Then select its access level.
+2. Name the type. Then select its access level.
 
-3.  Select the file where you want to add the initial code for the type:
+3. Select the file where you want to add the initial code for the type:
 
-    -   To create a new file and add it to the current project, select **Create new file** and name the file.
+    - To create a new file and add it to the current project, select **Create new file** and name the file.
 
-    -   To add code to an existing file, select **Add to existing file**.
+    - To add code to an existing file, select **Add to existing file**.
 
          If your solution has a project that shares code across multiple apps, you can add a new type to a class diagram in the app project, but only if the corresponding class file is in the same app project or is in the shared project.
 
-4.  Now add other items to define the type:
+4. Now add other items to define the type:
 
     |||
     |-|-|
@@ -61,7 +61,7 @@ To design new types for C# and Visual Basic projects, create them on a class dia
 
      See [Creating Members](creating-and-configuring-type-members.md#create-members).
 
-##  <a name="CustAttributeType"></a> Apply a custom attribute to a type
+## <a name="CustAttributeType"></a> Apply a custom attribute to a type
 
 1. Click the type's shape on a class diagram.
 
@@ -71,7 +71,7 @@ To design new types for C# and Visual Basic projects, create them on a class dia
 
    The custom attributes are applied to the type.
 
-##  <a name="CustAttributeMember"></a> Apply a custom attribute to a type member
+## <a name="CustAttributeMember"></a> Apply a custom attribute to a type member
 
 1. Click the member's name in its type's shape on a class diagram, or its row in the Class Details window.
 

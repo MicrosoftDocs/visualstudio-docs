@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API | Microsoft Docs"
+title: "Download assemblies on demand with ClickOnce deployment API"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -21,14 +21,14 @@ ms.workload:
 By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application are downloaded when the application is first run. However, you may have parts of your application that are used by a small set of your users. In this case, you want to download an assembly only when you create one of its types. The following walkthrough demonstrates how to mark certain assemblies in your application as "optional", and how to download them by using classes in the <xref:System.Deployment.Application> namespace when the common language runtime (CLR) demands them.
 
 > [!NOTE]
->  Your application will have to run in full trust to use this procedure.
+> Your application will have to run in full trust to use this procedure.
 
 ## Prerequisites
  You will need one of the following components to complete this walkthrough:
 
--   The Windows SDK. The Windows SDK can be downloaded from the Microsoft Download Center.
+- The Windows SDK. The Windows SDK can be downloaded from the Microsoft Download Center.
 
--   Visual Studio.
+- Visual Studio.
 
 ## Create the projects
 
@@ -94,17 +94,17 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
 
 #### To mark assemblies as optional in your ClickOnce application by using MageUI.exe
 
-1.  Using *MageUI.exe*, create an application manifest as described in [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md). Use the following settings for the application manifest:
+1. Using *MageUI.exe*, create an application manifest as described in [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md). Use the following settings for the application manifest:
 
-    -   Name the application manifest `ClickOnceOnDemand`.
+    - Name the application manifest `ClickOnceOnDemand`.
 
-    -   On the **Files** page, in the *ClickOnceLibrary.dll* row, set the **File Type** column to **None**.
+    - On the **Files** page, in the *ClickOnceLibrary.dll* row, set the **File Type** column to **None**.
 
-    -   On the **Files** page, in the *ClickOnceLibrary.dll* row, type `ClickOnceLibrary.dll` in the **Group** column.
+    - On the **Files** page, in the *ClickOnceLibrary.dll* row, type `ClickOnceLibrary.dll` in the **Group** column.
 
-2.  Using *MageUI.exe*, create a deployment manifest as described in [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md). Use the following settings for the deployment manifest:
+2. Using *MageUI.exe*, create a deployment manifest as described in [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md). Use the following settings for the deployment manifest:
 
-    -   Name the deployment manifest `ClickOnceOnDemand`.
+    - Name the deployment manifest `ClickOnceOnDemand`.
 
 ## Testing the new assembly
 

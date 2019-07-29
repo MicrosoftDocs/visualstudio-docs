@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugClassField::GetEnclosingClass method"
 ms.assetid: a0c12e3c-9ea0-4dfb-9e45-8cea18725022
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugClassField::GetEnclosingClass
 Gets the class that encloses this class.
@@ -30,10 +33,9 @@ int GetEnclosingClass(
 );
 ```
 
-#### Parameters
-`ppClassField`
-
- [out] Returns an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object representing the enclosing class. Returns a null value if there is no enclosing class.
+## Parameters
+`ppClassField`\
+[out] Returns an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object representing the enclosing class. Returns a null value if there is no enclosing class.
 
 ## Return Value
 If successful, returns S_OK; otherwise, returns an error code.
@@ -49,5 +51,5 @@ class RootClass {
 
 Calling the `GetEnclosingClass` method on the `IDebugClassField` object representing the `NestedClass` class returns an `IDebugClassField` object representing the class `RootClass`.
 
-## See Also
+## See also
 - [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)

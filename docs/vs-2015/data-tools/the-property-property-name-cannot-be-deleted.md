@@ -13,7 +13,6 @@ manager: jillfra
 # The property &lt;property name&gt; cannot be deleted
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The property \<property name> cannot be deleted because it is set as the Discriminator Property for the inheritance between \<class name> and \<class name>  
   
  The selected property is set as the **Discriminator Property** for the inheritance between the classes indicated in the error message. Properties cannot be deleted if they are participating in the inheritance configuration between data classes.  
@@ -22,11 +21,11 @@ The property \<property name> cannot be deleted because it is set as the Discrim
   
 ### To correct this error  
   
-1.  In the O/R Designer, select the inheritance line that connects the data classes indicated in the error message.  
+1. In the O/R Designer, select the inheritance line that connects the data classes indicated in the error message.  
   
-2.  Set the **Discriminator** Property to a different property.  
+2. Set the **Discriminator** Property to a different property.  
   
-3.  Try to delete the property again.  
+3. Try to delete the property again.  
   
 ## See Also  
  [How to: Configure inheritance by using the O/R Designer](../data-tools/how-to-configure-inheritance-by-using-the-o-r-designer.md)   

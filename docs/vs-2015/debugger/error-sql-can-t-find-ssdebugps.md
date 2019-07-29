@@ -33,9 +33,9 @@ SSDEBUGPS.dll is the SQL Server Debugging Host component.
   
 ### To copy SSDEBUGPS.dll onto the SQL Server 2005 machine  
   
-1.  Copy the file to the directory with the same name and path on the [!INCLUDE[sqprsqlong](../includes/sqprsqlong-md.md)] machine.  
+1. Copy the file to the directory with the same name and path on the [!INCLUDE[sqprsqlong](../includes/sqprsqlong-md.md)] machine.  
   
-2.  Register it by opening a **Command Prompt**, and running the following command:  
+2. Register it by opening a **Command Prompt**, and running the following command:  
   
     ```  
     regsvr32 ssdebugps.dll  

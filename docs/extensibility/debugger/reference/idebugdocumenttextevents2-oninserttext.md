@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDocumentTextEvents2::onInsertText"
 ms.assetid: 6040181f-7288-4a42-953c-d23f74200431
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDocumentTextEvents2::onInsertText
 Notifies the debug package that text has been inserted into the document.
@@ -32,18 +35,16 @@ int onInsert( 
 );
 ```
 
-#### Parameters
- `pos`
+## Parameters
+`pos`\
+[in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that indicates where the text was inserted.
 
- [in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that indicates where the text was inserted.
-
- `dwNumToInsert`
-
- [in] Specifies the number of characters of text that were inserted.
+`dwNumToInsert`\
+[in] Specifies the number of characters of text that were inserted.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugDocumentTextEvents2](../../../extensibility/debugger/reference/idebugdocumenttextevents2.md)
 - [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)

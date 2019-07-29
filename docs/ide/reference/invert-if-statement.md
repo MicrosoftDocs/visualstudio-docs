@@ -3,7 +3,7 @@ title: Invert if statement
 ms.date: 02/19/2019
 ms.topic: reference
 author: kendrahavens
-ms.author: kendrahavens
+ms.author: kehavens
 manager: jillfra
 dev_langs:
   - CSharp
@@ -32,7 +32,7 @@ This refactoring applies to:
 
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
-    ![Invert if else codefix](media/invert-if-codefix.png)
+    ![Invert if else code fix](media/invert-if-codefix.png)
 
 3. Select **Invert if**.
 
@@ -41,4 +41,4 @@ This refactoring applies to:
 ## See also
 
 - [Refactoring](../refactoring-in-visual-studio.md)
-- [Tips for .NET Developers](../../ide/visual-studio-2017-for-dotnet-developers.md)
+- [Tips for .NET Developers](../csharp-developer-productivity.md)

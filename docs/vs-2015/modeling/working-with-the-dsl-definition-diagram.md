@@ -69,4 +69,4 @@ The diagram of a [!INCLUDE[dsl](../includes/dsl-md.md)] definition is an importa
  If a domain relationship has derived relationships, or if it has embedding or reference relationships with other domain relationships, you can display the relationship as a class by right-clicking the relationship and then clicking **Show As Class**. The relationship will be displayed with a **Domain Properties** compartment and will show the inheritance and relationships trees.  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

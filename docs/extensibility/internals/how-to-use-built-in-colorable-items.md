@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "colorable items"
   - "language services, built-in colorable items"
 ms.assetid: 5e5f3436-6bad-4fd2-8823-6a30353ba648
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -24,7 +24,7 @@ Before you use the built-in colorable items, you must first signal to the integr
     After you create the registry entry, your colorizer's <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> method can use the members of the <xref:Microsoft.VisualStudio.TextManager.Interop.DEFAULTITEMS> enumeration to fill in the array of color attributes for use by the editor.
 
    > [!NOTE]
-   >  Do not set this registry entry if you are providing custom colorable items. For more information, see [Custom colorable items](../../extensibility/internals/custom-colorable-items.md).
+   > Do not set this registry entry if you are providing custom colorable items. For more information, see [Custom colorable items](../../extensibility/internals/custom-colorable-items.md).
 
 ## See also
 - [Syntax coloring in custom editors](../../extensibility/syntax-coloring-in-custom-editors.md)

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCoreServer3::EnableAutoAttach"
 ms.assetid: 06aa633b-263b-4e08-8844-9a52d5120b94
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCoreServer3::EnableAutoAttach
 Enables automatic attaching for the specified debug engines.
@@ -36,22 +39,18 @@ int EnableAutoAttach(
 );
 ```
 
-#### Parameters
- `rgguidSpecificEngines`
+## Parameters
+`rgguidSpecificEngines`\
+[in] Array of GUIDs for each debug engine to mark as auto-attaching.
 
- [in] Array of GUIDs for each debug engine to mark as auto-attaching.
+`celtSpecificEngines`\
+[in] The number of engines specified in `rgguidSpecificEngines`.
 
- `celtSpecificEngines`
+`pszStartPageUrl`\
+[in] The starting URL to use when auto-attaching.
 
- [in] The number of engines specified in `rgguidSpecificEngines`.
-
- `pszStartPageUrl`
-
- [in] The starting URL to use when auto-attaching.
-
- `pbstrSessionID`
-
- [out] ID of the session that was auto-attached.
+`pbstrSessionID`\
+[out] ID of the session that was auto-attached.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise returns error code. One error code is `E_AUTO_ATTACH_NOT_REGISTERED`, which indicates that the auto-attach class factory has not been registered.
@@ -59,5 +58,5 @@ int EnableAutoAttach(
 ## Remarks
  When a program associated with the specified URL is started, the specified debug engines are automatically started and attached.
 
-## See Also
+## See also
 - [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)

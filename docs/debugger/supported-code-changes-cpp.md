@@ -26,7 +26,7 @@ Edit and Continue for Visual C++ handles most types of code changes. However, so
 
  See [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md) for information about working with Edit and Continue for C++ in Visual Studio.
 
-##  <a name="BKMK_Unsupported_changes"></a> Unsupported changes
+## <a name="BKMK_Unsupported_changes"></a> Unsupported changes
  The following C/C++ changes cannot be applied during a debugging session:
 
 - Most changes to global or static data.
@@ -55,51 +55,51 @@ Edit and Continue for Visual C++ handles most types of code changes. However, so
 
 - Edit and Continue does not update static libraries. If you make a change in a static library, execution continues with the old version and no warning is issued.
 
-##  <a name="BKMK_Unsupported_scenarios"></a> Unsupported scenarios
+## <a name="BKMK_Unsupported_scenarios"></a> Unsupported scenarios
  Edit and Continue for C/C++ is unavailable in the following debugging scenarios:
 
--   Debugging native apps compiled with [/Zo (Enhance Optimized Debugging)](/cpp/build/reference/zo-enhance-optimized-debugging)
+- Debugging native apps compiled with [/Zo (Enhance Optimized Debugging)](/cpp/build/reference/zo-enhance-optimized-debugging)
 
--   In versions of Visual Studio previous to Visual Studio 2015 Update 1, debugging UWP apps or components. Starting in Visual Studio 2015 Update 1, you can use Edit and Continue in UWP C++ apps and DirectX apps, because it now supports the `/ZI` compiler switch with the  `/bigobj` switch. You can also use Edit and Continue with binaries compiled with the `/FASTLINK` switch.
+- In versions of Visual Studio previous to Visual Studio 2015 Update 1, debugging UWP apps or components. Starting in Visual Studio 2015 Update 1, you can use Edit and Continue in UWP C++ apps and DirectX apps, because it now supports the `/ZI` compiler switch with the  `/bigobj` switch. You can also use Edit and Continue with binaries compiled with the `/FASTLINK` switch.
 
--   Debugging on Windows 98.
+- Debugging on Windows 98.
 
--   Mixed-mode (native/managed) debugging.
+- Mixed-mode (native/managed) debugging.
 
--   Javascript debugging.
+- Javascript debugging.
 
--   SQL debugging.
+- SQL debugging.
 
--   Debugging a dump file.
+- Debugging a dump file.
 
--   Editing code after an unhandled exception, when the **Unwind the call stack on unhandled exceptions** option is not selected.
+- Editing code after an unhandled exception, when the **Unwind the call stack on unhandled exceptions** option is not selected.
 
--   Debugging an app by using **Attach to** instead of running the app by choosing **Start** on the **Debug** menu.
+- Debugging an app by using **Attach to** instead of running the app by choosing **Start** on the **Debug** menu.
 
--   Debugging optimized code.
+- Debugging optimized code.
 
--   Debugging an old version of your code after a new version failed to build because of build errors.
+- Debugging an old version of your code after a new version failed to build because of build errors.
 
-##  <a name="BKMK_Linking_limitations"></a> Linking limitations
+## <a name="BKMK_Linking_limitations"></a> Linking limitations
 
-###  <a name="BKMK_Linker_options_that_disable_Edit_and_Continue"></a> Linker options that disable Edit and Continue
+### <a name="BKMK_Linker_options_that_disable_Edit_and_Continue"></a> Linker options that disable Edit and Continue
  The following linker options disable Edit and Continue:
 
--   Setting **/OPT:REF**, **/OPT:ICF**, or **/INCREMENTAL:NO** disables Edit and Continue with the following warning:
+- Setting **/OPT:REF**, **/OPT:ICF**, or **/INCREMENTAL:NO** disables Edit and Continue with the following warning:
 
      LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /OPT
 
      specification
 
--   Setting **/ORDER**, **/RELEASE**, or **/FORCE** disables Edit and Continue with this warning:
+- Setting **/ORDER**, **/RELEASE**, or **/FORCE** disables Edit and Continue with this warning:
 
      LINK : warning LNK4075: ignoring /INCREMENTAL due to /option
 
      specification
 
--   Setting any option that prevents the creation of a program database (.pdb) file disables Edit and Continue with no specific warning.
+- Setting any option that prevents the creation of a program database (.pdb) file disables Edit and Continue with no specific warning.
 
-###  <a name="BKMK_Auto_relinking_limitations"></a> Auto relinking limitations
+### <a name="BKMK_Auto_relinking_limitations"></a> Auto relinking limitations
  By default, Edit and Continue relinks your program at the end of a debugging session to create an up-to-date executable.
 
  Edit and Continue cannot relink your program if you are debugging it from a location other than the original build location. A message tells you that you need to rebuild manually.
@@ -110,24 +110,24 @@ Edit and Continue for Visual C++ handles most types of code changes. However, so
 
  **To disable relinking after Edit and Continue**
 
-1.  On the **Debug** menu, choose **Options and Settings**.
+1. On the **Debug** menu, choose **Options and Settings**.
 
-2.  In the **Options** dialog box, under the **Debugging** node, and select the **Edit and Continue** node.
+2. In the **Options** dialog box, under the **Debugging** node, and select the **Edit and Continue** node.
 
-3.  Clear the **Relink code changes after debugging** check box.
+3. Clear the **Relink code changes after debugging** check box.
 
-##  <a name="BKMK_Precompiled_Header_Limitations"></a> Precompiled Header Limitations
+## <a name="BKMK_Precompiled_Header_Limitations"></a> Precompiled Header Limitations
  By default, Edit and Continue loads and processes precompiled headers in the background to speed up processing of code changes. Loading precompiled headers requires allocation of physical memory, which can be a problem if you are compiling on a machine with limited RAM. You can determine if this might be a problem by using the Windows Task Manager to determine the amount of available physical memory while you are debugging. If this amount is greater than the size of your precompiled headers, Edit and Continue should have no problem. If the amount is less than the size of your precompiled headers, you can prevent Edit and Continue from loading precompiled headers in the background.
 
  **To disable background loading of precompiled headers for Edit and Continue**
 
-1.  On the **Debug** menu, choose **Options and Settings**.
+1. On the **Debug** menu, choose **Options and Settings**.
 
-2.  In the **Options** dialog box, under the **Debugging** node, and select the **Edit and Continue** node.
+2. In the **Options** dialog box, under the **Debugging** node, and select the **Edit and Continue** node.
 
-3.  Clear the **Allow Precompiling** check box.
+3. Clear the **Allow Precompiling** check box.
 
-##  <a name="BKMK_IDL_Attribute_Limitations"></a> IDL Attribute Limitations
+## <a name="BKMK_IDL_Attribute_Limitations"></a> IDL Attribute Limitations
  Edit and Continue does not regenerate interface definition (IDL) files. Therefore, changes to IDL attributes will not be reflected while you are debugging. To see the result of changes to IDL attributes, you must stop debugging and rebuild your app. Edit and Continue does not generate an error or warning if IDL attributes have changed. For more information, see [IDL Attributes](/cpp/windows/idl-attributes).
 
 ## See Also

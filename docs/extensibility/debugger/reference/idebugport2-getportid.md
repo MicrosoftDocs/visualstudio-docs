@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPort2::GetPortId"
 ms.assetid: 837cb924-c113-4224-aa86-3e02b33dfa70
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPort2::GetPortId
 Gets the port identifier.
@@ -30,13 +33,12 @@ int GetPortId( 
 );
 ```
 
-#### Parameters
- `pguidPort`
-
- [out] Returns the GUID that identifies the port.
+## Parameters
+`pguidPort`\
+[out] Returns the GUID that identifies the port.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)

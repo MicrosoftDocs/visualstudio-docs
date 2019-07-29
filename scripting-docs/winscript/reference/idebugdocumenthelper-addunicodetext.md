@@ -45,7 +45,7 @@ HRESULT AddUnicodeText(
  This method generates `IDebugDocumentTextEvents` notifications.  
   
 > [!NOTE]
->  If this method is called after `AddDeferredText` has been called, `E_FAIL` is returned.  
+> If this method is called after `AddDeferredText` has been called, `E_FAIL` is returned.  
   
 ## See Also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)   

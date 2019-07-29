@@ -28,7 +28,7 @@ ms.workload:
  [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] supports sandboxed solutions through a Boolean project property called *Sandboxed Solution*. This property can be set at any time in the project, or it can be specified when you create the project in the **SharePoint Customization Wizard**.
 
 > [!NOTE]
->  Changing the *Sandboxed Solution* property of a project after it is created may cause validation errors.
+> Changing the *Sandboxed Solution* property of a project after it is created may cause validation errors.
 
  The solution is considered a farm-scoped solution if the *Sandboxed Solution* property is set to **false** or you choose the **Deploy as a farm solution** option. However, the solution is treated differently from a farm solution if the *Sandboxed Solution* property is set to **true** or you choose the **Deploy as a sandboxed solution** option in the wizard.
 

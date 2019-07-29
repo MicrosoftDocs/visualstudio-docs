@@ -19,29 +19,29 @@ The Expression Editor is a [!INCLUDE[wfd1](../includes/wfd1-md.md)] control that
   
  The **Expression Editor** behaves as follows:  
   
--   If the focus is not on the Expression Editor, it looks like a regular TextBlock control.  
+- If the focus is not on the Expression Editor, it looks like a regular TextBlock control.  
   
--   Once the focus is on the Expression Editor, it looks and behaves like the Expression Editor control. After it loses focus, the it looks like a regular TextBlock again.  
+- Once the focus is on the Expression Editor, it looks and behaves like the Expression Editor control. After it loses focus, the it looks like a regular TextBlock again.  
   
--   If you focus on the Expression Editor in a rehosted workflow designer, then it behaves like a TextBox. When focus is lost in the rehosted workflow designer, the Expression Editor looks like a regular TextBlock again.  
+- If you focus on the Expression Editor in a rehosted workflow designer, then it behaves like a TextBox. When focus is lost in the rehosted workflow designer, the Expression Editor looks like a regular TextBlock again.  
   
 > [!NOTE]
->  IntelliSense for the Expression Editor is available only inside of [!INCLUDE[vs2010](../includes/vs2010-md.md)]. In both the [!INCLUDE[vs2010](../includes/vs2010-md.md)] and the rehosted scenarios, the compiler validates the expression after it is entered and the expression editor displays an error icon if the expression is invalid.  
+> IntelliSense for the Expression Editor is available only inside of [!INCLUDE[vs2010](../includes/vs2010-md.md)]. In both the [!INCLUDE[vs2010](../includes/vs2010-md.md)] and the rehosted scenarios, the compiler validates the expression after it is entered and the expression editor displays an error icon if the expression is invalid.  
   
 ### Using the Expression editor  
   
-1.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], open a new or existing workflow project.  
+1. In [!INCLUDE[vs2010](../includes/vs2010-md.md)], open a new or existing workflow project.  
   
-2.  Add, for example, the <xref:System.Activities.Statements.Assign> activity to your workflow.  
+2. Add, for example, the <xref:System.Activities.Statements.Assign> activity to your workflow.  
   
     > [!NOTE]
-    >  Multiple workflow activities have expression editors. Expression TextBlocks also appear in the variable designer, argument designer, and the dynamic argument designer. The <xref:System.Activities.Statements.Assign> activity is used as an example.  
+    > Multiple workflow activities have expression editors. Expression TextBlocks also appear in the variable designer, argument designer, and the dynamic argument designer. The <xref:System.Activities.Statements.Assign> activity is used as an example.  
   
-3.  Click the left expression editor in the activity designer for the <xref:System.Activities.Statements.Assign> activity.  
+3. Click the left expression editor in the activity designer for the <xref:System.Activities.Statements.Assign> activity.  
   
      The grey watermark strings **\<To>** and **\<Enter a VB Expression>** are the default text strings for expression editors in the <xref:System.Activities.Statements.Assign> activity.  
   
-4.  Enter your expression. If you enter a string, make sure to put quotation marks around the string. If you choose to bind the expression argument to a variable, leave the quotation marks off.  
+4. Enter your expression. If you enter a string, make sure to put quotation marks around the string. If you choose to bind the expression argument to a variable, leave the quotation marks off.  
   
      When you are done, select a region or area outside of the Expression Editor to shift the focus to another part of the designer. This will cause the compiler to validate the expression as described previously.  
   

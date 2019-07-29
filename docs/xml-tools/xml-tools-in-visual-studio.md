@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "XML schemas"
   - "XML [Visual Studio], SGML relationship to"
   - "CSS, style sheets for XML"
-  - "XML [Visual Studio], .NET Framework classes"
+  - "XML [Visual Studio], .NET classes"
   - "data [Visual Studio], XML"
   - "classes [Visual Studio], XML"
   - "style sheets, for XML"

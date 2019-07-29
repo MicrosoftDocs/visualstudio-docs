@@ -12,6 +12,7 @@ caps.latest.revision: 1
 author: "bowdenk7"
 ms.author: "wilkelly"
 manager: jillfra
+monikerRange: vs-2017
 ---
 # JavaScript in Visual Studio 2017
 
@@ -45,14 +46,14 @@ To compile JavaScript files, a `tsconfig.json` file must be added, and some of t
 
 The required settings for the tsconfig file are as follows:
 
- - `allowJs`: This value must be set to `true` for JavaScript files to be recognized. The default value is `false`, because TypeScript compiles to JavaScript, and the compiler should not include files it just compiled.
- - `outDir`: This value should be set to a location not included in the project, in order that the emitted JavaScript files are not detected and then included in the project (see `exclude`).
- - `module`: If using modules, this setting tells the compiler which module format the emitted code should use (for example `commonjs` for Node, or bundlers such as Browserify).
- - `exclude`: This setting states which folders not to include in the project.
- The output location, as well as non-project folders such as `node_modules` or `temp`, should be added to this setting.
- - `enableAutoDiscovery`: This setting enables the automatic detection and download of definition files as outlined previously.
- - `compileOnSave`: This setting tells the compiler if it should recompile any time a source file is saved in Visual Studio.
- - `typeAcquisition`: This set of settings control the behavior of automatic type acquisition (further explain in [this section](/visualstudio/ide/javascript-intellisense#Auto))
+- `allowJs`: This value must be set to `true` for JavaScript files to be recognized. The default value is `false`, because TypeScript compiles to JavaScript, and the compiler should not include files it just compiled.
+- `outDir`: This value should be set to a location not included in the project, in order that the emitted JavaScript files are not detected and then included in the project (see `exclude`).
+- `module`: If using modules, this setting tells the compiler which module format the emitted code should use (for example `commonjs` for Node, or bundlers such as Browserify).
+- `exclude`: This setting states which folders not to include in the project.
+The output location, as well as non-project folders such as `node_modules` or `temp`, should be added to this setting.
+- `enableAutoDiscovery`: This setting enables the automatic detection and download of definition files as outlined previously.
+- `compileOnSave`: This setting tells the compiler if it should recompile any time a source file is saved in Visual Studio.
+- `typeAcquisition`: This set of settings control the behavior of automatic type acquisition (further explain in [this section](/visualstudio/ide/javascript-intellisense#Auto))
 
 In order to convert JavaScript files to CommonJS modules and place them in an `./out` folder, you could use the following `tsconfig.json` file:
 
@@ -240,7 +241,7 @@ See the [JavaScript IntelliSense](/visualstudio/ide/javascript-intellisense/) pa
 ### VSDoc
 
 XML documentation comments, sometimes referred to as VSDocs, could previously be used to decorate your source code with additional data that would be used to buff up IntelliSense results.
-VSDoc is no longer supported in favor of [JSDoc](http://usejsdoc.org/about-getting-started.html) which is easier to write and the accepted standard for JavaScript.
+VSDoc is no longer supported in favor of [JSDoc](https://jsdoc.app/about-getting-started.html) which is easier to write and the accepted standard for JavaScript.
 
 ### `.intellisense.js` extensions
 

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "FIELD_INFO structure"
 ms.assetid: bfafef6d-0c83-43d7-a779-1f0d24b166a1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # FIELD_INFO
 This structure describes a local variable, parameter, or other field.
@@ -39,19 +42,19 @@ public struct FIELD_INFO {
 ```
 
 ## Members
-dwFields
+`dwFields`\
 A combination of flags from the [FIELD_INFO_FIELDS](../../../extensibility/debugger/reference/field-info-fields.md) enumeration that specifies which members are filled in.
 
-bstrFullName
+`bstrFullName`\
 The full name of the field.
 
-bstrName
+`bstrName`\
 The short name of the field.
 
-bstrType
+`bstrType`\
 The type of the field.
 
-dwModifiers
+`dwModifiers`\
 A combination of flags from the [FIELD_MODIFIERS](../../../extensibility/debugger/reference/field-modifiers.md) enumeration that describes the field.
 
 ## Remarks
@@ -64,7 +67,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [FIELD_INFO_FIELDS](../../../extensibility/debugger/reference/field-info-fields.md)
 - [FIELD_MODIFIERS](../../../extensibility/debugger/reference/field-modifiers.md)

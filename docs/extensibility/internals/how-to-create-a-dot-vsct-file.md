@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "VSCT files, creating"
 ms.assetid: b955f51c-f9f9-49c3-a8e4-63b6eb0e0341
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -74,7 +74,7 @@ You can create an XML-based *.vsct* file from an existing command table *.ctc* s
     This action creates a new *.vsct* XML command table source file. You can compile the file by using *Vsct.exe*, the VSCT compiler, as you would any other *.vsct* file.
 
    > [!NOTE]
-   >  You can improve the readability of the *.vsct* file by reformatting the XML comments.
+   > You can improve the readability of the *.vsct* file by reformatting the XML comments.
 
 <a name="how-to-create-a-dot-vsct-file-from-an-existing-dot-cto-file"></a>
 
@@ -84,13 +84,13 @@ You can create an XML-based *.vsct* file from an existing binary *.cto* file. Do
 
 ### To create a .vsct file from a .cto file
 
-1.  Obtain copies of the *.cto* file and its corresponding *.ctsym* file.
+1. Obtain copies of the *.cto* file and its corresponding *.ctsym* file.
 
-2.  Place the files into the same directory as the *vsct.exe* compiler.
+2. Place the files into the same directory as the *vsct.exe* compiler.
 
-3.  At the Visual Studio command prompt, go to the directory that contains the *.cto* and *.ctsym* files.
+3. At the Visual Studio command prompt, go to the directory that contains the *.cto* and *.ctsym* files.
 
-4.  Type
+4. Type
 
     ```
     vsct.exe <ctofilename>.cto <vsctfilename>.vsct -S<symfilename>.ctsym
@@ -105,9 +105,9 @@ You can create an XML-based *.vsct* file from an existing binary *.cto* file. Do
 
 ### To add a .vsct file to project compilation
 
-1.  Open your project file in the editor. If the project is loaded, you must unload it first.
+1. Open your project file in the editor. If the project is loaded, you must unload it first.
 
-2.  Add an [ItemGroup element](../../msbuild/itemgroup-element-msbuild.md) that contains a `VSCTCompile` element, as shown in the following example.
+2. Add an [ItemGroup element](../../msbuild/itemgroup-element-msbuild.md) that contains a `VSCTCompile` element, as shown in the following example.
 
     ```xml
     <ItemGroup>
@@ -120,7 +120,7 @@ You can create an XML-based *.vsct* file from an existing binary *.cto* file. Do
 
      The `ResourceName` element should always be set to `Menus.ctmenu`.
 
-3.  If your project contains a *.resx* file, add an `EmbeddedResource` element that contains a `MergeWithCTO` element, as shown in the following example:
+3. If your project contains a *.resx* file, add an `EmbeddedResource` element that contains a `MergeWithCTO` element, as shown in the following example:
 
     ```xml
     <EmbeddedResource Include="VSPackage.resx">
@@ -132,9 +132,9 @@ You can create an XML-based *.vsct* file from an existing binary *.cto* file. Do
 
      This markup should go inside the `ItemGroup` element that contains embedded resources.
 
-4.  Open the package file, usually named *\<ProjectName\>Package.cs* or *\<ProjectName\>Package.vb*, in the editor.
+4. Open the package file, usually named *\<ProjectName\>Package.cs* or *\<ProjectName\>Package.vb*, in the editor.
 
-5.  Add a `ProvideMenuResource` attribute to the package class, as shown in the following example.
+5. Add a `ProvideMenuResource` attribute to the package class, as shown in the following example.
 
     ```csharp
     [ProvideMenuResource("Menus.ctmenu", 1)]

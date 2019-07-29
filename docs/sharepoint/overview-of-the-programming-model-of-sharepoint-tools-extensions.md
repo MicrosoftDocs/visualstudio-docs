@@ -1,5 +1,5 @@
 ---
-title: "Overview of the Programming Model of SharePoint Tools Extensions | Microsoft Docs"
+title: "Overview of programming model of SharePoint tools extensions"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -39,17 +39,17 @@ ms.workload:
 ## Understand the object models that you use in SharePoint tools extensions
  There are several object models you can use when you create extensions for the SharePoint tools:
 
--   *SharePoint tools object model*. This object model provides the extensibility interfaces that you implement to create SharePoint tools extensions, and other related types.
+- *SharePoint tools object model*. This object model provides the extensibility interfaces that you implement to create SharePoint tools extensions, and other related types.
 
--   *Visual Studio automation and integration object models*. Use these object models to access Visual Studio features that are beyond the scope of the SharePoint tools object model.
+- *Visual Studio automation and integration object models*. Use these object models to access Visual Studio features that are beyond the scope of the SharePoint tools object model.
 
     > [!NOTE]
-    >  You can convert some objects in the SharePoint tools object model to objects in the Visual Studio automation and integration object models, and vice versa, by using the SharePoint project service. For more information, see [Convert between SharePoint project system types and other Visual Studio project types](../sharepoint/converting-between-sharepoint-project-system-types-and-other-visual-studio-project-types.md).
+    > You can convert some objects in the SharePoint tools object model to objects in the Visual Studio automation and integration object models, and vice versa, by using the SharePoint project service. For more information, see [Convert between SharePoint project system types and other Visual Studio project types](../sharepoint/converting-between-sharepoint-project-system-types-and-other-visual-studio-project-types.md).
 
--   *SharePoint server and client object models*. Use these object models to modify a SharePoint site or to retrieve data from a SharePoint site from the context of a SharePoint tools extension.
+- *SharePoint server and client object models*. Use these object models to modify a SharePoint site or to retrieve data from a SharePoint site from the context of a SharePoint tools extension.
 
 ### SharePoint tools object model
- Each SharePoint tools extension uses types in the SharePoint tools object model to define the core behavior and functionality of the extension. The following tables describe the namespaces that are included in this object model, by the assemby that contains them.
+ Each SharePoint tools extension uses types in the SharePoint tools object model to define the core behavior and functionality of the extension. The following tables describe the namespaces that are included in this object model, by the assembly that contains them.
 
 #### Microsoft.VisualStudio.SharePoint.dll
 
@@ -77,7 +77,7 @@ ms.workload:
 ### Visual Studio automation object model
  The Visual Studio automation object model provides APIs that you can use to automate Visual Studio projects and the IDE. Use the Visual Studio object model to perform project-related tasks that are not specific to SharePoint projects, or to perform other general automation tasks in Visual Studio. Traditionally, this object model is often used in Visual Studio add-ins and macros, but you can also use it in SharePoint tools extensions.
 
- The main part of the Visual Studio automation object model is defined in the *EnvDTE.dll* assembly. The *EnvDTE\\<version>.dll* assemblies provide additional functionality that was introduced in specific versions of Visual Studio. These assemblies are included with Visual Studio.
+ The main part of the Visual Studio automation object model is defined in the *EnvDTE.dll* assembly. The *EnvDTE\\\<version>.dll* assemblies provide additional functionality that was introduced in specific versions of Visual Studio. These assemblies are included with Visual Studio.
 
  For more information about the automation object model, see [Visual Studio SDK Reference](../extensibility/visual-studio-sdk-reference.md).
 

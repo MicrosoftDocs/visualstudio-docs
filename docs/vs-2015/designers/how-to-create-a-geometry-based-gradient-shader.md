@@ -17,13 +17,13 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
   
  This document demonstrates these activities:  
   
--   Adding nodes to a shader graph  
+- Adding nodes to a shader graph  
   
--   Setting node properties  
+- Setting node properties  
   
--   Disconnecting nodes  
+- Disconnecting nodes  
   
--   Connecting nodes  
+- Connecting nodes  
   
 ## Creating a geometry-based gradient shader  
  You can implement a geometry-based shader by incorporating the position of the pixel into your shader. In shading languages, a pixel contains more information than just its color and location on a 2-D screen. A pixel—known as a *fragment* in some systems—is a collection of values that describe the surface that corresponds to a pixel. The shader that's described in this document utilizes the height of each pixel of a 3-D object in world space to affect the final output color of the fragment.  
@@ -53,7 +53,7 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
    The following illustration shows the completed shader graph and a preview of the shader applied to a sphere.  
   
 > [!NOTE]
->  In this illustration, an orange color is specified to better demonstrate the effect of the shader, but because the preview shape has no position in world-space, the shader cannot be fully previewed in the Shader Designer. The shader must be previewed in a real scene to demonstrate the full effect.  
+> In this illustration, an orange color is specified to better demonstrate the effect of the shader, but because the preview shape has no position in world-space, the shader cannot be fully previewed in the Shader Designer. The shader must be previewed in a real scene to demonstrate the full effect.  
   
  ![Shader graph and a preview of its effect](../designers/media/digit-gradient-effect-graph.png "Digit-Gradient-Effect-Graph")  
   

@@ -20,10 +20,10 @@ ms.workload:
 ---
 # How to: Specify a .NET Framework Version For Debugging (C#, Visual Basic, F#)
 
-The Visual Studio debugger supports debugging older versions of the Microsoft [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] as well as the current version. If you start an application from Visual Studio, the debugger can always identify the correct version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] for the application you are debugging. However, if the application is already running and you start debugging by using **Attach to**, the debugger may not always be able to identify an older version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. If this happens, you will get an error message that says,
+The Visual Studio debugger supports debugging older versions of the Microsoft .NET Framework as well as the current version. If you start an application from Visual Studio, the debugger can always identify the correct version of the .NET Framework for the application you are debugging. However, if the application is already running and you start debugging by using **Attach to**, the debugger may not always be able to identify an older version of the .NET Framework. If this happens, you will get an error message that says,
 
 ``` cmd
-The debugger has made an incorrect assumption about the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version your application is going to use.
+The debugger has made an incorrect assumption about the .NET Framework version your application is going to use.
 ```
 
 In the rare cases where this error appears, you can set a registry key to indicate to the debugger which version to use.
@@ -46,7 +46,7 @@ In the rare cases where this error appears, you can set a registry key to indica
 
 5. After navigating to {449EC4CC-30D2-4032-9256-EE18EB41B62B}, look in the **Name** column, and find the CLRVersionForDebugging key.
 
-   1.  If the key does not exist, right-click {449EC4CC-30D2-4032-9256-EE18EB41B62B}, and click **New String Value**. Then right-click the new string value, click **Rename**, and type `CLRVersionForDebugging`.
+   1. If the key does not exist, right-click {449EC4CC-30D2-4032-9256-EE18EB41B62B}, and click **New String Value**. Then right-click the new string value, click **Rename**, and type `CLRVersionForDebugging`.
 
 6. Double-click **CLRVersionForDebugging**.
 
@@ -56,7 +56,7 @@ In the rare cases where this error appears, you can set a registry key to indica
 
 9. Close the **Registry Editor**.
 
-     If you still get an error message when you start to debug, verify that you have entered the version number correctly in the registry. Also verify that you are using a version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] supported by Visual Studio. The debugger is compatible with the current .NET Framework version and previous versions, but may not be forward compatible with future versions.
+     If you still get an error message when you start to debug, verify that you have entered the version number correctly in the registry. Also verify that you are using a version of the .NET Framework supported by Visual Studio. The debugger is compatible with the current .NET Framework version and previous versions, but may not be forward compatible with future versions.
 
 ## See Also
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

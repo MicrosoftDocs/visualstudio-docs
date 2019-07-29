@@ -20,7 +20,7 @@ ms.workload:
   - "multiple"
 ---
 # RegisterAssembly task
-Reads the metadata within the specified assembly and adds the necessary entries to the registry, which allows COM clients to create [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] classes transparently. The behavior of this task is similar, but not identical, to that of the [Regasm.exe (Assembly Registration tool)](/dotnet/framework/tools/regasm-exe-assembly-registration-tool).
+Reads the metadata within the specified assembly and adds the necessary entries to the registry, which allows COM clients to create .NET Framework classes transparently. The behavior of this task is similar, but not identical, to that of the [Regasm.exe (Assembly Registration tool)](/dotnet/framework/tools/regasm-exe-assembly-registration-tool).
 
 ## Parameters
  The following table describes the parameters of the `RegisterAssembly` task.

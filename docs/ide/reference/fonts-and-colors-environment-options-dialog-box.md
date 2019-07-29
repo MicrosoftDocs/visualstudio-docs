@@ -28,7 +28,7 @@ ms.workload:
 ---
 # Fonts and Colors, Environment, Options Dialog Box
 
-The **Fonts and Colors** page of the **Options** dialog box lets you establish a custom font and color scheme for various user interface elements in the integrated development environment (IDE). You can access this dialog box by clicking **Tools** > **Options**, and then selecting **Environment** > **Fonts and Colors**. If this page does not appear in the list, select **Show all settings** in the **Options** dialog box.
+The **Fonts and Colors** page of the **Options** dialog box lets you establish a custom font and color scheme for various user interface elements in the integrated development environment (IDE). You can access this dialog box by clicking **Tools** > **Options**, and then selecting **Environment** > **Fonts and Colors**.
 
 Color scheme changes do not take effect during the session in which you make them. You can evaluate color changes by opening another instance of Visual Studio and producing the conditions under which you expect your changes to apply.
 
@@ -36,26 +36,26 @@ Color scheme changes do not take effect during the session in which you make the
 
 Lists all of the user interface elements for which you can change font and color schemes. After selecting an item from this list you can customize color settings for the item selected in **Display items**.
 
--   **Text Editor**
+- **Text Editor**
 
      Changes to font style, size, and color display settings for Text Editor affect the appearance of text in your default text editor. Documents opened in a text editor outside the IDE will not be affected by these settings.
 
--   **Printer**
+- **Printer**
 
      Changes to font style, size, and color display settings for Printer affect the appearance of text in printed documents.
 
     > [!NOTE]
     > As needed, you can select a different default font for printing than that used for display in the text editor. This can be useful when printing code that contains both single-byte and double-byte characters.
 
--   **Statement Completion**
+- **Statement Completion**
 
      Changes the font style and size for the text that appears in statement completion pop-up in the editor.
 
--   **Editor Tooltip**
+- **Editor Tooltip**
 
      Changes the font style and size for the text that appears in ToolTips displayed in the editor.
 
--   **Environment Font**
+- **Environment Font**
 
      Changes the font style and size for all IDE user interface elements that do not already have a separate option in **Show settings for**.
 
@@ -65,7 +65,7 @@ Lists all of the user interface elements for which you can change font and color
 
      ::: moniker-end
 
--   **[All Text Tool Windows]**
+- **[All Text Tool Windows]**
 
      Changes to font style, size, and color display settings for this item affect the appearance of text in tool windows that have output panes in the IDE. For example, Output window, Command window, Immediate window, etc.
 
@@ -247,6 +247,5 @@ Displays a sample of the font style, size, and color scheme for the **Show setti
 
 ## See also
 
-- [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)
 - [Options Dialog Box](../../ide/reference/options-dialog-box-visual-studio.md)
 - [How to: Change Fonts and Colors](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md)

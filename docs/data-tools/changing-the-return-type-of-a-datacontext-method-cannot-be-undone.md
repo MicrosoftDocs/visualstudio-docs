@@ -33,5 +33,4 @@ The return type of a <xref:System.Data.Linq.DataContext> method differs dependin
 
 ## See also
 
-- [O/R Designer messages](../data-tools/o-r-designer-messages.md)
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

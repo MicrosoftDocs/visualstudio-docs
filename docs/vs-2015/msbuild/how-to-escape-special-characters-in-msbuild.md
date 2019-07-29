@@ -18,7 +18,6 @@ manager: jillfra
 # How to: Escape Special Characters in MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Certain characters have special meaning in [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project files. Examples of the characters include semicolons (;) and asterisks (*). For a complete list of these special characters, see [MSBuild Special Characters](../msbuild/msbuild-special-characters.md).  
   
  In order to use these special characters as literals in a project file, they must be specified by using the syntax %*xx*, where *xx* represents the ASCII hexadecimal value of the character.  
@@ -38,7 +37,7 @@ Certain characters have special meaning in [!INCLUDE[vstecmsbuild](../includes/v
   
 #### To use an MSBuild special character as a literal character  
   
--   Use the notation %*xx* in place of the special character, where *xx* represents the hexadecimal value of the ASCII character. For example, to use an asterisk (*) as a literal character, use the value `%2A`.  
+- Use the notation %*xx* in place of the special character, where *xx* represents the hexadecimal value of the ASCII character. For example, to use an asterisk (*) as a literal character, use the value `%2A`.  
   
 ## See Also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   

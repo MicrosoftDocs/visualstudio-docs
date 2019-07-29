@@ -37,21 +37,21 @@ We update Visual Studio setup often so that you get the most current, optimized 
 |Visual Studio Enterprise (the original RTM with no updates)|Visual Studio Enterprise RTM (available from the [MSDN Subscriptions download page](https://msdn.microsoft.com/subscriptions/downloads/))|`vs_enterprise.exe /OverrideFeedURI https://download.microsoft.com/download/5/7/B/57BF5016-E4F0-4EB5-BE27-2BFA87E7723F/20150713.1/enu/feed.xml`|Visual Studio setup will use the feed.xml that was available when RTM released|
 
 > [!IMPORTANT]
->  Depending on the language that you want to use, please replace "enu" (for English) with one of the following values:
+> Depending on the language that you want to use, please replace "enu" (for English) with one of the following values:
 >
 > - chs (for Chinese (Simplified))
->   -   cht (for Chinese (Traditional))
->   -   csy (for Czech)
->   -   deu (for German)
->   -   esn (for Spanish)
->   -   fra (for French)
->   -   ita (for Italian)
->   -   jpa (for Japanese)
->   -   kor (for Korean)
->   -   plk (for Polish)
->   -   ptb (for Portuguese)
->   -   rus (for Russian)
->   -   trk (for Turkish)
+>   - cht (for Chinese (Traditional))
+>   - csy (for Czech)
+>   - deu (for German)
+>   - esn (for Spanish)
+>   - fra (for French)
+>   - ita (for Italian)
+>   - jpa (for Japanese)
+>   - kor (for Korean)
+>   - plk (for Polish)
+>   - ptb (for Portuguese)
+>   - rus (for Russian)
+>   - trk (for Turkish)
 
 ## See Also
  [Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md)

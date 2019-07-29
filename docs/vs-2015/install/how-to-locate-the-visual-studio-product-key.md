@@ -20,13 +20,13 @@ You may want to locate the product key for [!INCLUDE[vsprvs](../includes/vsprvs-
 
 ### To find the product key for Visual Studio
 
--   Look for the product key in one of these locations:
+- Look for the product key in one of these locations:
 
-    -   On the installation media (if applicable).
+  - On the installation media (if applicable).
 
-    -   On the [My.VisualStudio.com](https://my.visualstudio.com/productkeys) website.
+  - On the [My.VisualStudio.com](https://my.visualstudio.com/productkeys) website.
 
-    -   Documentation or other communication from the vendor from whom you purchased the software.
+  - Documentation or other communication from the vendor from whom you purchased the software.
 
 ## See Also
  [How to: Upgrade from a Trial Edition of Visual Studio](../install/how-to-upgrade-from-a-trial-edition-of-visual-studio.md)

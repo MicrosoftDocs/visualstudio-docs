@@ -19,7 +19,7 @@ As the author of a domain-specific language (DSL), you can define validation con
  Validation is particularly important if you are writing text templates or other tools that process your users' models. Validation ensures that the models fulfill the preconditions assumed by those tools.
 
 > [!WARNING]
->  You can also allow validation constraints to be defined in separate extensions to your DSL, along with extension menu commands and gesture handlers. Users can choose to install these extensions in addition to your DSL. For more information, see [Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md).
+> You can also allow validation constraints to be defined in separate extensions to your DSL, along with extension menu commands and gesture handlers. Users can choose to install these extensions in addition to your DSL. For more information, see [Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md).
 
 ## Running Validation
  When a user is editing a model, that is, an instance of your domain-specific language, the following actions can run validation:
@@ -42,19 +42,19 @@ As the author of a domain-specific language (DSL), you can define validation con
  Each validation method reports any errors that it finds.
 
 > [!NOTE]
->  Validation methods report errors, but do not change the model. If you want to adjust or prevent certain changes, see [Alternatives to Validation](#alternatives).
+> Validation methods report errors, but do not change the model. If you want to adjust or prevent certain changes, see [Alternatives to Validation](#alternatives).
 
 #### To define a validation constraint
 
 1. Enable validation in the **Editor\Validation** node:
 
-   1.  Open **Dsl\DslDefinition.dsl**.
+   1. Open **Dsl\DslDefinition.dsl**.
 
-   2.  In DSL Explorer, expand the **Editor** node and select **Validation**.
+   2. In DSL Explorer, expand the **Editor** node and select **Validation**.
 
-   3.  In the Properties window, set the **Uses**  properties to `true`. It is most convenient to set all these properties.
+   3. In the Properties window, set the **Uses**  properties to `true`. It is most convenient to set all these properties.
 
-   4.  Click **Transform All Templates** in the **Solution Explorer** toolbar.
+   4. Click **Transform All Templates** in the **Solution Explorer** toolbar.
 
 2. Write partial class definitions for one or more of your domain classes or domain relationships. Write these definitions in a new code file in the **Dsl** project.
 
@@ -64,7 +64,7 @@ As the author of a domain-specific language (DSL), you can define validation con
    [ValidationState(ValidationState.Enabled)]
    ```
 
-   -   By default, this attribute will also enable validation for derived classes. If you want to disable validation for a specific derived class, you can use `ValidationState.Disabled`.
+   - By default, this attribute will also enable validation for derived classes. If you want to disable validation for a specific derived class, you can use `ValidationState.Disabled`.
 
 4. Add validation methods to the classes. Each validation method can have any name, but have one parameter of type <xref:Microsoft.VisualStudio.Modeling.Validation.ValidationContext>.
 
@@ -304,7 +304,7 @@ private void TestForCircularLinks(ValidationContext context)
 ```
 
 > [!NOTE]
->  You can prefix a method with as many `[ValidationMethod()]` attributes as you want. You can add a method to both custom and standard categories.
+> You can prefix a method with as many `[ValidationMethod()]` attributes as you want. You can add a method to both custom and standard categories.
 
  To invoke a custom validation:
 

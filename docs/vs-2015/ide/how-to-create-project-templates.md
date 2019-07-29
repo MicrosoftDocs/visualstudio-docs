@@ -25,24 +25,24 @@ This procedure enables you to create a template using the **Export Template** wi
   
 ### To create a custom project template with the standard Export Template wizard  
   
-1.  Create a project.  
+1. Create a project.  
   
     > [!NOTE]
-    >  Use only valid identifier characters when naming a project that will be the source for a template. A template exported from a project named with invalid characters can cause compilation errors in future projects based on the template. For more information on valid identifier characters, see [Declared Element Names](http://msdn.microsoft.com/library/09d8843b-c0dc-4afe-9dab-87c439a69e66).  
+    > Use only valid identifier characters when naming a project that will be the source for a template. A template exported from a project named with invalid characters can cause compilation errors in future projects based on the template. For more information on valid identifier characters, see [Declared Element Names](https://msdn.microsoft.com/library/09d8843b-c0dc-4afe-9dab-87c439a69e66).  
   
-2.  Edit the project until it is ready to be exported as a template.  
+2. Edit the project until it is ready to be exported as a template.  
   
-3.  As appropriate, edit the code files to indicate where parameter replacement should take place. For more information on parameter replacement, see [How to: Substitute Parameters in a Template](../ide/how-to-substitute-parameters-in-a-template.md).  
+3. As appropriate, edit the code files to indicate where parameter replacement should take place. For more information on parameter replacement, see [How to: Substitute Parameters in a Template](../ide/how-to-substitute-parameters-in-a-template.md).  
   
-4.  On the **File** menu, click **Export Template**. The **Export Template** wizard opens.  
+4. On the **File** menu, click **Export Template**. The **Export Template** wizard opens.  
   
-5.  Click **Project Template**.  
+5. Click **Project Template**.  
   
-6.  If you have more than one project in your current solution, select the projects you want to export to a template.  
+6. If you have more than one project in your current solution, select the projects you want to export to a template.  
   
-7.  Click **Next**.  
+7. Click **Next**.  
   
-8.  Select an icon and a preview image for your template. These will appear in the **New Project** dialog box.  
+8. Select an icon and a preview image for your template. These will appear in the **New Project** dialog box.  
   
 9. Enter a template name and description.  
   

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumDebugPrograms2"
 ms.assetid: 7fbb8fb7-db64-4546-a364-dc668430c8af
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -42,13 +42,13 @@ IEnumDebugPrograms2 : IUnknown
 ## Remarks
  Visual Studio uses this interface to:
 
--   Populate the **Modules** window (by calling [EnumPrograms](../../../extensibility/debugger/reference/idebugprocess2-enumprograms.md) and then calling [EnumModules](../../../extensibility/debugger/reference/idebugprogram2-enummodules.md) on each program).
+- Populate the **Modules** window (by calling [EnumPrograms](../../../extensibility/debugger/reference/idebugprocess2-enumprograms.md) and then calling [EnumModules](../../../extensibility/debugger/reference/idebugprogram2-enummodules.md) on each program).
 
--   Populate the **Attach to Process** list (by calling `IDebugProcess2::EnumPrograms` and then calling [QueryInterface](/cpp/atl/queryinterface) on each [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface to obtain an [IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md) interface).
+- Populate the **Attach to Process** list (by calling `IDebugProcess2::EnumPrograms` and then calling [QueryInterface](/cpp/atl/queryinterface) on each [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface to obtain an [IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md) interface).
 
--   Generate a list of DEs that can debug each program in the process (using [GetEngineInfo](../../../extensibility/debugger/reference/idebugprogram2-getengineinfo.md)).
+- Generate a list of DEs that can debug each program in the process (using [GetEngineInfo](../../../extensibility/debugger/reference/idebugprogram2-getengineinfo.md)).
 
--   Apply Edit and Continue (ENC) updates to each program (by calling IDebugProcess2::EnumPrograms and then calling [GetENCUpdate](../../../extensibility/debugger/reference/idebugprogram2-getencupdate.md)).
+- Apply Edit and Continue (ENC) updates to each program (by calling IDebugProcess2::EnumPrograms and then calling [GetENCUpdate](../../../extensibility/debugger/reference/idebugprogram2-getencupdate.md)).
 
 ## Requirements
  Header: msdbg.h
@@ -57,7 +57,7 @@ IEnumDebugPrograms2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [EnumPrograms](../../../extensibility/debugger/reference/idebugengine2-enumprograms.md)
 - [EnumPrograms](../../../extensibility/debugger/reference/idebugprocess2-enumprograms.md)

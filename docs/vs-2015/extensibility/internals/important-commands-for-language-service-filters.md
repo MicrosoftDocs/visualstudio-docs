@@ -20,7 +20,7 @@ If you want to create a fully featured language service filter, consider handlin
 ## Commands to Handle  
   
 > [!NOTE]
->  It is not mandatory to filter for every command in the following table.  
+> It is not mandatory to filter for every command in the following table.  
   
 |Command|Description|  
 |-------------|-----------------|  

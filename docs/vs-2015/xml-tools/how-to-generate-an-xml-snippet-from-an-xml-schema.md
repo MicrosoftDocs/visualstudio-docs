@@ -13,7 +13,6 @@ manager: jillfra
 # How to: Generate an XML Snippet From an XML Schema
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The XML Editor has the ability to generate XML snippets from an XML Schema definition language (XSD) schema. For example, as you are authoring an XML file, while positioned next to the element name, you can press TAB to populate the element with XML data generated from the schema information for that element.  
   
  This feature is only available on elements. The following rules also apply:  
@@ -22,11 +21,11 @@ The XML Editor has the ability to generate XML snippets from an XML Schema defin
   
 - The current element in the editor must be empty with no attributes. For example,  the following are all valid  
   
-  -   `<Account`  
+  - `<Account`  
   
-  -   `<Account>`  
+  - `<Account>`  
   
-  -   `<Account></Account>`  
+  - `<Account></Account>`  
   
 - The cursor must be located immediately to the right of the element name.  
   
@@ -42,35 +41,35 @@ The XML Editor has the ability to generate XML snippets from an XML Schema defin
  The steps in this section show you how use the schema-generated XML snippet feature of the XML Editor.  
   
 > [!NOTE]
->  Before starting these procedures, save the schema file to your local computer.  
+> Before starting these procedures, save the schema file to your local computer.  
   
 #### To create a new XML file and associate it with an XML Schema  
   
-1.  On the **File** menu, point to **New**, and click **File**.  
+1. On the **File** menu, point to **New**, and click **File**.  
   
-2.  Select **XML File** in the **Templates** pane and click **Open**.  
+2. Select **XML File** in the **Templates** pane and click **Open**.  
   
      A new file is opened in the editor. The file contains a default XML declaration, `<?xml version="1.0" encoding="utf-8">`.  
   
-3.  In the document properties window, click the browse button (**…**) on the **Schemas** field.  
+3. In the document properties window, click the browse button (**…**) on the **Schemas** field.  
   
      The **XSD Schemas** dialog box is displayed.  
   
-4.  Click **Add**.  
+4. Click **Add**.  
   
      The **Open XSD Schema** dialog box is displayed.  
   
-5.  Select the schema file and click **Open**.  
+5. Select the schema file and click **Open**.  
   
-6.  Click **OK**.  
+6. Click **OK**.  
   
      The XML Schema is now associated with the XML document.  
   
 #### To generate an XML snippet  
   
-1.  Type `<` in the editor pane.  
+1. Type `<` in the editor pane.  
   
-2.  The members list displays the possible items:  
+2. The members list displays the possible items:  
   
      **!--** to add a comment.  
   
@@ -80,11 +79,11 @@ The XML Editor has the ability to generate XML snippets from an XML Schema defin
   
      **Contact** to add the root element.  
   
-3.  Select **Contact** from the member list and press ENTER.  
+3. Select **Contact** from the member list and press ENTER.  
   
      The editor adds the start tag `<Contact` and positions the cursor after the element name.  
   
-4.  Press TAB to generate XML data for the `Contact` element based on its schema information.  
+4. Press TAB to generate XML data for the `Contact` element based on its schema information.  
   
 ### Input  
  The following schema file is used by the walkthrough.  

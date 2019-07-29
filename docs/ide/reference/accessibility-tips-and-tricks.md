@@ -44,9 +44,9 @@ The Visual Studio IDE has toolbars as do many tool windows. The following shortc
 
 |Feature|Description|Key Combination|
 |-------------|-----------------| - |
-|IDE toolbars|Select the first button on the Standard toolbar.|**ALT**, **CTRL** + **TAB**|
-|Tool window toolbars|Move focus to the toolbars in a tool window. <br> <br> **NOTE:** This works for most tool windows, but only when the focus is in a tool window. Also, you must choose the SHIFT key before the ALT key. In some tool windows, such as Team Explorer, you must hold the SHIFT key for a moment before choosing the ALT key.|**SHIFT** + **ALT**|
-|Toolbars|Go to the first item in the next toolbar (when a toolbar has focus).|**CTRL** + **TAB**|
+|IDE toolbars|Select the first button on the Standard toolbar.|**Alt**, **Ctrl** + **Tab**|
+|Tool window toolbars|Move focus to the toolbars in a tool window. <br> <br> **NOTE:** This works for most tool windows, but only when the focus is in a tool window. Also, you must choose the SHIFT key before the ALT key. In some tool windows, such as Team Explorer, you must hold the SHIFT key for a moment before choosing the ALT key.|**Shift** + **Alt**|
+|Toolbars|Go to the first item in the next toolbar (when a toolbar has focus).|**Ctrl** + **Tab**|
 
 ### Other useful shortcut key combinations
 
@@ -54,14 +54,14 @@ Some other useful shortcut key combinations include the following.
 
 |Feature|Description|Key Combination|
 |-------------|-----------------| - |
-|IDE|Switch High Contrast on and off. <br> <br> **NOTE:** Standard Windows shortcut|**Left ALT + Left SHIFT + PRINT SCREEN**|
+|IDE|Switch High Contrast on and off. <br> <br> **NOTE:** Standard Windows shortcut|**Left Alt + Left Shift + PrtScn**|
 |Dialog box|Select or clear the check box option in a dialog box. <br> <br> **NOTE:** Standard Windows shortcut|**SPACEBAR**|
-|Context menus|Open a context (right-click) menu. <br> <br> **NOTE:** Standard Windows shortcut|**SHIFT** + **F10**|
-|Menus|Quickly access a menu item by using its accelerator keys. Choose the **ALT** key followed by the underlined letters in a menu to activate the command. For example, to view the Open Project dialog box in Visual Studio, you would choose **ALT** + **F** + **O** + **P**.  <br><br> **NOTE:** Standard Windows shortcut|**ALT** + **[letter]**|
-|Quick Launch search box| Use the search feature in Visual Studio|**Ctrl** + **Q**|
-|Toolbox window|Move among Toolbox tabs.|**CTRL** + **UPARROW**<br /><br /> and<br /><br /> **CTRL** + **DOWNARROW**|
-|Toolbox window|Add a control from the Toolbox to a form or designer.|**ENTER**|
-|Keyboard, Environment, Options dialog box|Delete a key combination entered in the **Press shortcut keys** option.|**BACKSPACE**|
+|Context menus|Open a context (right-click) menu. <br> <br> **NOTE:** Standard Windows shortcut|**Shift** + **F10**|
+|Menus|Quickly access a menu item by using its accelerator keys. Choose the **Alt** key followed by the underlined letters in a menu to activate the command. For example, to view the Open Project dialog box in Visual Studio, you would choose **Alt** + **F** + **O** + **P**.  <br><br> **NOTE:** Standard Windows shortcut|**Alt** + **[letter]**|
+|Search box|Use the search feature in Visual Studio.|**Ctrl** + **Q**|
+|Toolbox window|Move among Toolbox tabs.|**Ctrl** + **UPARROW**<br /><br /> and<br /><br /> **Ctrl** + **DOWNARROW**|
+|Toolbox window|Add a control from the Toolbox to a form or designer.|**Enter**|
+|Options dialog box: Environment > Keyboard|Delete a key combination entered in the **Press shortcut keys** option.|**Backspace**|
 
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition.
@@ -70,12 +70,12 @@ Some other useful shortcut key combinations include the following.
 
 You can use the Sound applet in Windows to assign a sound to Visual Studio program events. Specifically, you can assign sounds to the following program events:
 
- * Breakpoint hit
- * Build canceled
- * Build failed
- * Build succeeded
+* Breakpoint hit
+* Build canceled
+* Build failed
+* Build succeeded
 
-Here's how.
+Here's how:
 
 1. In the **Search** box on a computer running Windows 10, type **Change system sounds**.
 

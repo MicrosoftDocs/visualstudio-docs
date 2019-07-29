@@ -20,7 +20,7 @@ The setup program tries to configure these prerequisites for you silently when y
 > [!IMPORTANT]
 > The setup program for the emulator checks the prerequisites for running Visual Studio Emulator for Android. It displays warnings if the prerequisites are not present, but it does not require them.
 
-##  <a name="Checklist"></a> Quick checklist
+## <a name="Checklist"></a> Quick checklist
 
 Here is a quick checklist of the requirements for running the Visual Studio Emulator for Android. For more detailed info, see the subsequent sections in this topic.
 
@@ -44,11 +44,11 @@ Hyper-V requirements
 
 - In the BIOS, the following features must be supported:
 
-  -   Hardware-assisted virtualization
+  - Hardware-assisted virtualization
 
-  -   Second Level Address Translation (SLAT)
+  - Second Level Address Translation (SLAT)
 
-  -   Hardware-based Data Execution Prevention (DEP)
+  - Hardware-based Data Execution Prevention (DEP)
 
 - In Windows, Hyper-V must be enabled and running.
 

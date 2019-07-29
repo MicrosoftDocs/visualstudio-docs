@@ -1,5 +1,5 @@
 ---
-title: "Specify the Percentage of Virtual Users that Use Web Cache Data for load tests"
+title: "Load test: Set virtual user percentage using web cache data"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

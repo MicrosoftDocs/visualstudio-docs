@@ -33,7 +33,7 @@ This topic describes how use the **Select Rule Set** dialog box in the legacy [!
  For more information about how to create and edit rule sets, see [Rule Set Editor Dialog Box (Legacy)](../workflow-designer/rule-set-editor-dialog-box-legacy.md).  
   
 > [!WARNING]
->  The Rules editor of the legacy [!INCLUDE[wfd2](../includes/wfd2-md.md)] that is used to target either the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)] does not support Multitargeting.  
+> The Rules editor of the legacy [!INCLUDE[wfd2](../includes/wfd2-md.md)] that is used to target either the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)] does not support Multitargeting.  
   
  For more information about conditions, see [Using Conditions in Workflows](http://go.microsoft.com/fwlink?LinkID=65009).  
   

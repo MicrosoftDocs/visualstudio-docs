@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_UNBOUND_REASON enumeration"
 ms.assetid: 939b6f9c-113b-471d-9f30-b03871af6285
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # BP_UNBOUND_REASON
 Gives the reason a breakpoint was unbound.
@@ -37,17 +40,17 @@ public enum enum_BP_UNBOUND_REASON {
 };
 ```
 
-## Members
-BPUR_UNKNOWN
+## Fields
+`BPUR_UNKNOWN`\
 The reason is unknown.
 
-BPUR_CODE_UNLOADED
+`BPUR_CODE_UNLOADED`\
 The code that contains the breakpoint has been unloaded.
 
-BPUR_BREAKPOINT_REBIND
+`BPUR_BREAKPOINT_REBIND`\
 The breakpoint has been rebound to a different location. This can happen after Edit and Continue operations when the breakpoint moves, or when the breakpoint is bound to a file with a path that is no longer valid.
 
-BPUR_ BREAKPOINT_ERROR
+`BPUR_ BREAKPOINT_ERROR`\
 The breakpoint is determined to be in error after it is bound. This happens to managed breakpoints whose conditions are no longer valid.
 
 ## Remarks
@@ -60,6 +63,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetReason](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2-getreason.md)

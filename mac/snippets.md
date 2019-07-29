@@ -1,8 +1,8 @@
 ---
 title: "Code Snippets"
 description: "How to use code snippets to program efficiently in Visual Studio for Mac"
-author: conceptdev
-ms.author: crdun
+author: cobey
+ms.author: cobey
 ms.date: 02/07/2019
 ms.assetid: 0FE27C0C-A861-4133-A74E-8D0505CF5342
 ---
@@ -80,8 +80,6 @@ There are two reserved keywords that you can use in a snippet:
 - `$end$` &ndash; When the user has finished editing the keywords in a snippet, the cursor will be placed at the location of the `$end$` keyword.
 
 The `for` snippet in the previous section is an example of both these reserved keywords.
-
-Refer to the [Visual Studio code snippets reference](/visualstudio/ide/code-snippets-schema-reference#keywords) for more information.
 
 ## See also
 

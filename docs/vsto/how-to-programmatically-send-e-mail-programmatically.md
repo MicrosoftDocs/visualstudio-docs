@@ -27,7 +27,7 @@ ms.workload:
 ## Compile the code
  This example requires:
 
--   Contacts that have the domain name **example.com** in their email addresses.
+- Contacts that have the domain name **example.com** in their email addresses.
 
 ## Robust programming
  Do not remove the filter code that searches for the domain name **example.com**. Your solution will send email messages to all of your contacts if you remove the filter.

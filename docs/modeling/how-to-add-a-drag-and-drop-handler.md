@@ -28,7 +28,7 @@ using System.Linq;
 
 In the new file, define a partial class for the shape or diagram class that should respond to the drag operation. Override the following methods:
 
--   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.OnDragOver%2A>- This method is called when the mouse pointer enters the shape during a drag operation. Your method should inspect the item that the user is dragging, and set the Effect property to indicate whether the user can drop the item on this shape. The Effect property determines the appearance of the cursor while it is over this shape, and also determines whether `OnDragDrop()` will be called when the user releases the mouse button.
+- <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.OnDragOver%2A>- This method is called when the mouse pointer enters the shape during a drag operation. Your method should inspect the item that the user is dragging, and set the Effect property to indicate whether the user can drop the item on this shape. The Effect property determines the appearance of the cursor while it is over this shape, and also determines whether `OnDragDrop()` will be called when the user releases the mouse button.
 
     ```csharp
     partial class MyShape // MyShape generated from DSL Definition.
@@ -44,7 +44,7 @@ In the new file, define a partial class for the shape or diagram class that shou
         }
     ```
 
--   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.OnDragDrop%2A> - This method is called if the user releases the mouse button while the mouse pointer rests over this shape or diagram, if `OnDragOver(DiagramDragEventArgs e)` previously set `e.Effect` to a value other than `None`.
+- <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.OnDragDrop%2A> - This method is called if the user releases the mouse button while the mouse pointer rests over this shape or diagram, if `OnDragOver(DiagramDragEventArgs e)` previously set `e.Effect` to a value other than `None`.
 
     ```csharp
     public override void OnDragDrop(DiagramDragEventArgs e)
@@ -60,7 +60,7 @@ In the new file, define a partial class for the shape or diagram class that shou
     }
     ```
 
--   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.OnDoubleClick%2A> - This method is called when the user double-clicks the shape or diagram.
+- <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.OnDoubleClick%2A> - This method is called when the user double-clicks the shape or diagram.
 
      For more information, see [How to: Intercept a Click on a Shape or Decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md).
 
@@ -74,9 +74,9 @@ MEF (Managed Extensibility Framework) lets you define components that can be ins
 
 ### To define a MEF gesture handler
 
-1.  Add to your **Dsl** and **DslPackage** projects the **MefExtension** files that are described in [Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md).
+1. Add to your **Dsl** and **DslPackage** projects the **MefExtension** files that are described in [Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md).
 
-2.  You can now define a gesture handler as a MEF component:
+2. You can now define a gesture handler as a MEF component:
 
     ```csharp
     // This attribute is defined in the generated file
@@ -108,7 +108,7 @@ MEF (Managed Extensibility Framework) lets you define components that can be ins
 
      You can create more than one gesture handler component, such as when you have different types of dragged objects.
 
-3.  Add partial class definitions for the target shape, connector or diagram classes, and define the methods `IsAcceptableDropItem()` and `ProcessDragDropItem()`. These methods must begin by extracting the dragged item from the event arguments. For more information, see [How to get a reference to the dragged item](#to-send-an-object-from-a-source-dsl).
+3. Add partial class definitions for the target shape, connector or diagram classes, and define the methods `IsAcceptableDropItem()` and `ProcessDragDropItem()`. These methods must begin by extracting the dragged item from the event arguments. For more information, see [How to get a reference to the dragged item](#to-send-an-object-from-a-source-dsl).
 
 ## How to decode the dragged item
 
@@ -118,17 +118,17 @@ When the user drags an item onto your diagram, or from one part of your diagram 
 
 To discover the formats in which your drag source information is available, run your code in debugging mode, setting a breakpoint at the entry to `OnDragOver()` or `CanDragDrop()`. Inspect the values of the `DiagramDragEventArgs` parameter. The information is provided in two forms:
 
--   <xref:System.Windows.Forms.IDataObject>  `Data` - This property carries serialized versions of the source objects, usually in more than one format. Its most useful functions are:
+- <xref:System.Windows.Forms.IDataObject>  `Data` - This property carries serialized versions of the source objects, usually in more than one format. Its most useful functions are:
 
-    -   diagramEventArgs.Data.GetDataFormats() - Lists the formats in which you can decode the dragged object. For example, if the user drags a file from the desktop, the available formats include the file name ("`FileNameW`").
+  - diagramEventArgs.Data.GetDataFormats() - Lists the formats in which you can decode the dragged object. For example, if the user drags a file from the desktop, the available formats include the file name ("`FileNameW`").
 
-    -   `diagramEventArgs.Data.GetData(format)` - Decodes the dragged object in the specified format. Cast the object to the appropriate type. For example:
+  - `diagramEventArgs.Data.GetData(format)` - Decodes the dragged object in the specified format. Cast the object to the appropriate type. For example:
 
-         `string fileName = diagramEventArgs.Data.GetData("FileNameW") as string;`
+    `string fileName = diagramEventArgs.Data.GetData("FileNameW") as string;`
 
-         You can also transmit objects such as model bus references from the source in your own custom format. For more information, see [How to Send Model Bus References in a Drag and Drop](#to-send-an-object-from-a-source-dsl).
+    You can also transmit objects such as model bus references from the source in your own custom format. For more information, see [How to Send Model Bus References in a Drag and Drop](#to-send-an-object-from-a-source-dsl).
 
--   <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> `Prototype` - Use this property if you want users to drag items from a DSL or a UML model. An element group prototype contains one or more objects, links, and their property values. It is also used in paste operations and when you are adding an element from the toolbox. In a prototype, objects and their types are identified by Guid. For example, this code allows the user to drag class elements from a UML diagram or UML Model Explorer:
+- <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> `Prototype` - Use this property if you want users to drag items from a DSL or a UML model. An element group prototype contains one or more objects, links, and their property values. It is also used in paste operations and when you are adding an element from the toolbox. In a prototype, objects and their types are identified by Guid. For example, this code allows the user to drag class elements from a UML diagram or UML Model Explorer:
 
     ```csharp
     private bool IsAcceptableDropItem(DiagramDragEventArgs e)
@@ -152,17 +152,17 @@ The `Data` and `Prototype` properties of the event arguments contain only a refe
 
 ### To prepare a DSL project for Model Bus
 
-1.  Make the source DSL accessible by Visual Studio Model Bus:
+Make the source DSL accessible by Visual Studio Model Bus:
 
-    1.  Download and install the Visual Studio Model Bus extension, if it is not already installed. For more information, see [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579).
+1. Download and install the Visual Studio Model Bus extension, if it is not already installed. For more information, see [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579).
 
-    2.  Open the DSL definition file of the source DSL in DSL Designer. Right-click the design surface and then click **Enable Modelbus**. In the dialog box, choose one or both of the options.  Click **OK**. A new project "ModelBus" is added to the DSL solution.
+2. Open the DSL definition file of the source DSL in DSL Designer. Right-click the design surface and then click **Enable Modelbus**. In the dialog box, choose one or both of the options.  Click **OK**. A new project "ModelBus" is added to the DSL solution.
 
-    3.  Click **Transform All Templates** and rebuild the solution.
+3. Click **Transform All Templates** and rebuild the solution.
 
 ### To send an object from a source DSL
 
-1.  In your ElementOperations subclass, override `Copy()` so that it encodes a Model Bus Reference (MBR) into the IDataObject. This method will be called when the user starts to drag from the source diagram. The encoded MBR will then be available in the IDataObject when the user drops in the target diagram.
+1. In your ElementOperations subclass, override `Copy()` so that it encodes a Model Bus Reference (MBR) into the IDataObject. This method will be called when the user starts to drag from the source diagram. The encoded MBR will then be available in the IDataObject when the user drops in the target diagram.
 
     ```csharp
     using Microsoft.VisualStudio.Modeling;
@@ -202,13 +202,13 @@ The `Data` and `Prototype` properties of the event arguments contain only a refe
 
 ### To receive a Model Bus Reference from a DSL in a target DSL or UML project
 
-1.  In the target DSL project, add project references to:
+1. In the target DSL project, add project references to:
 
-    -   The source Dsl project.
+    - The source Dsl project.
 
-    -   The source ModelBus project.
+    - The source ModelBus project.
 
-2.  In the gesture handler code file, add the following namespace references:
+2. In the gesture handler code file, add the following namespace references:
 
     ```csharp
     using Microsoft.VisualStudio.Modeling;
@@ -220,7 +220,7 @@ The `Data` and `Prototype` properties of the event arguments contain only a refe
     using SourceDslNamespace.ModelBusAdapters;
     ```
 
-3.  The following sample illustrates how to get access to the source model element:
+3. The following sample illustrates how to get access to the source model element:
 
     ```csharp
     partial class MyTargetShape // or diagram or connector
@@ -267,7 +267,7 @@ The `Data` and `Prototype` properties of the event arguments contain only a refe
 
 ### To accept an element sourced from a UML model
 
--   The following code sample accepts an object dropped from a UML diagram.
+- The following code sample accepts an object dropped from a UML diagram.
 
     ```csharp
     using Microsoft.VisualStudio.ArchitectureTools.Extensibility;
@@ -568,6 +568,6 @@ namespace Company.CompartmentDrag  // EDIT.
 ## See also
 
 - [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md)
-- [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md)
+- [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

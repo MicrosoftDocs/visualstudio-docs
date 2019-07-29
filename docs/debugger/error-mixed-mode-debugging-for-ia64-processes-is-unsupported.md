@@ -20,7 +20,7 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger does not 
 
 ### To correct this error
 
--   Build a 32-bit version of your application for debugging.
+- Build a 32-bit version of your application for debugging.
 
 ## See Also
 - [Remote Debugging](../debugger/remote-debugging.md)

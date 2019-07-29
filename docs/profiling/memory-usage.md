@@ -2,10 +2,10 @@
 title: "Measure memory usage in your apps"
 description: "Find memory leaks and inefficient memory while you're debugging with the debugger-integrated diagnostic tool."
 ms.custom: "seodec18"
-ms.date: "04/25/2018"
-ms.topic: "tutorial"
-author: "mikejo5000"
-ms.author: "mikejo"
+ms.date: 04/25/2018
+ms.topic: tutorial
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -35,48 +35,48 @@ In this tutorial, you will:
 
 ## Collect memory usage data
 
-1.  Open the project you want to debug in Visual Studio and set a breakpoint in your app at the point where you want to begin examining memory usage.
+1. Open the project you want to debug in Visual Studio and set a breakpoint in your app at the point where you want to begin examining memory usage.
 
     If you have an area where you suspect a memory issue, set the first breakpoint before the memory issue occurs.
 
     > [!TIP]
-    >  Because it can be challenging to capture the memory profile of an operation that interests you when your app frequently allocates and de-allocates memory, set breakpoints at the start and end of the operation (or step through the operation) to find the exact point that memory changed.
+    > Because it can be challenging to capture the memory profile of an operation that interests you when your app frequently allocates and de-allocates memory, set breakpoints at the start and end of the operation (or step through the operation) to find the exact point that memory changed.
 
-2.  Set a second breakpoint at the end of the function or region of code that you want to analyze (or after a suspected memory issue occurs).
+2. Set a second breakpoint at the end of the function or region of code that you want to analyze (or after a suspected memory issue occurs).
 
-3.  The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
+3. The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
-4.  Choose **Memory Usage** with the **Select Tools** setting on the toolbar.
+4. Choose **Memory Usage** with the **Select Tools** setting on the toolbar.
 
-     ![Show Diagnostics Tools](../profiling/media/DiagToolsSelectTool.png "DiagToolsSelectTool")
+     ![Show Diagnostics Tools](../profiling/media/diag-tools-select-tool-2.png "DiagToolsSelectTool")
 
-5.  Click **Debug / Start Debugging** (or **Start** on the toolbar, or **F5**).
+5. Click **Debug / Start Debugging** (or **Start** on the toolbar, or **F5**).
 
      When the app finishes loading, the Summary view of the Diagnostics Tools appears.
 
-     ![Diagnostics Tools Summary Tab](../profiling/media/DiagToolsSummaryTab.png "DiagToolsSummaryTab")
+     ![Diagnostics Tools Summary Tab](../profiling/media/diag-tools-summary-tab-2.png "DiagToolsSummaryTab")
 
      > [!NOTE]
-     >  Because collecting memory data can affect the debugging performance of your native or mixed-mode apps, memory snapshots are disabled by default. To enable snapshots in native or mixed-mode apps, start a debugging session (Shortcut key: **F5**). When the **Diagnostic Tools** window appears, choose the **Memory Usage** tab, and then choose **Heap Profiling**.
+     > Because collecting memory data can affect the debugging performance of your native or mixed-mode apps, memory snapshots are disabled by default. To enable snapshots in native or mixed-mode apps, start a debugging session (Shortcut key: **F5**). When the **Diagnostic Tools** window appears, choose the **Memory Usage** tab, and then choose **Heap Profiling**.
      >
      >  ![Enable snapshots](../profiling/media/dbgdiag_mem_mixedtoolbar_enablesnapshot.png "DBGDIAG_MEM_MixedToolbar_EnableSnapshot")
      >
      >  Stop (Shortcut key: **Shift**+**F5**) and restart debugging.
 
-6.  To take a snapshot at the start of your debugging session, choose **Take snapshot** on the **Memory Usage** summary toolbar. (It may help to set a breakpoint here as well.)
+6. To take a snapshot at the start of your debugging session, choose **Take snapshot** on the **Memory Usage** summary toolbar. (It may help to set a breakpoint here as well.)
 
     ![Take snapshot](../profiling/media/dbgdiag_mem_mixedtoolbar_takesnapshot.png "DBGDIAG_MEM_MixedToolbar_TakeSnapshot")
 
      > [!TIP]
-     >  To create a baseline for memory comparisons, consider taking a snapshot at the start of your debugging session.
+     > To create a baseline for memory comparisons, consider taking a snapshot at the start of your debugging session.
 
-6.  Run the scenario that will cause your first breakpoint to be hit.
+6. Run the scenario that will cause your first breakpoint to be hit.
 
-7.  While the debugger is paused at the first breakpoint, choose **Take snapshot** on the **Memory Usage** summary toolbar.
+7. While the debugger is paused at the first breakpoint, choose **Take snapshot** on the **Memory Usage** summary toolbar.
 
-8.  Press **F5** to run the app to your second breakpoint.
+8. Press **F5** to run the app to your second breakpoint.
 
-9.  Now, take another snapshot.
+9. Now, take another snapshot.
 
      At this point, you can begin to analyze the data.
 
@@ -87,9 +87,9 @@ The rows of Memory Usage summary table lists the snapshots that you have taken d
 
  The name of the columns depend on the debugging mode you choose in the project properties: .NET, native, or mixed (both .NET and native).
 
--   The **Objects (Diff)** and **Allocations (Diff)** columns display the number of objects in .NET and native memory when the snapshot was taken.
+- The **Objects (Diff)** and **Allocations (Diff)** columns display the number of objects in .NET and native memory when the snapshot was taken.
 
--   The **Heap Size (Diff)** column displays the number of bytes in the .NET and native heaps
+- The **Heap Size (Diff)** column displays the number of bytes in the .NET and native heaps
 
 When you have taken multiple snapshots, the cells of the summary table include the change in the value between the row snapshot and the previous snapshot.
 
@@ -115,7 +115,7 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 
  The **Referenced Types** tree displays the references that are held by the type selected in the upper pane.
 
- ![Managed eferenced types report view](../profiling/media/dbgdiag_mem_managedtypesreport_referencedtypes.png "DBGDIAG_MEM_ManagedTypesReport_ReferencedTypes")
+ ![Managed referenced types report view](../profiling/media/dbgdiag_mem_managedtypesreport_referencedtypes.png "DBGDIAG_MEM_ManagedTypesReport_ReferencedTypes")
 
  To display the instances of a selected type in the upper pane, choose the ![Instance icon](../profiling/media/dbgdiag_mem_instanceicon.png "DBGDIAG_MEM_InstanceIcon") icon.
 
@@ -130,13 +130,13 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 
  The **Types View** displays the number and size of the types in the snapshot.
 
--   Choose the instances icon (![The instance icon in the Object Type column](../profiling/media/dbg_mma_instancesicon.png "DBG_MMA_InstancesIcon")) of a selected type to display information about the objects of the selected type in the snapshot.
+- Choose the instances icon (![The instance icon in the Object Type column](../profiling/media/dbg_mma_instancesicon.png "DBG_MMA_InstancesIcon")) of a selected type to display information about the objects of the selected type in the snapshot.
 
      The **Instances** view displays each instance of the selected type. Selecting an instance displays the call stack that resulted in the creation of the instance in the **Allocation Call Stack** pane.
 
      ![Instances view](../profiling/media/dbgdiag_mem_native_instances.png "DBGDIAG_MEM_Native_Instances")
 
--   Choose **Stacks View** in the **View Mode** list to see the allocation stack for the selected type.
+- Choose **Stacks View** in the **View Mode** list to see the allocation stack for the selected type.
 
      ![Stacks View](../profiling/media/dbgdiag_mem_native_stacksview.png "DBGDIAG_MEM_Native_StacksView")
 
@@ -144,7 +144,7 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 
 - Choose the change link in a cell of the summary table of the **Memory Usage** tab on the **Diagnostic Tools** window.
 
-   ![Choose a change &#40;dif&#41;f report](../profiling/media/dbgdiag_mem_choosediffreport.png "DBGDIAG_MEM_ChooseDiffReport")
+   ![Choose a change &#40;diff&#41; report](../profiling/media/dbgdiag_mem_choosediffreport.png "DBGDIAG_MEM_ChooseDiffReport")
 
 - Choose a snapshot in the **Compare To** list of a managed or native report.
 
@@ -152,7 +152,7 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 
 The change report adds columns (marked with **(Diff)**) to the base report that show the difference between the base snapshot value and the comparison snapshot. Here's how a Native Type View diff report might look:
 
-![Native Types Diff Veiw](../profiling/media/dbgdiag_mem_native_typesviewdiff.png "DBGDIAG_MEM_Native_TypesViewDiff")
+![Native Types Diff View](../profiling/media/dbgdiag_mem_native_typesviewdiff.png "DBGDIAG_MEM_Native_TypesViewDiff")
 
 ## Blogs and videos
 
