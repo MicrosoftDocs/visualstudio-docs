@@ -26,9 +26,9 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 
      ![New project dialog](../ide/media/newprojectdialogcallouts.png)<br/>***New project*** *dialog box*
 
-2. Choose either **Visual C#** or **Visual Basic** on the left side of the **New Project** dialog box, and then choose **Windows Desktop**.
+2. On the left side of the **New Project** dialog box, choose **Visual C#** > **Windows Desktop**.
 
-3. In the templates list, choose **Windows Forms App (.NET Framework)**. Name the new form *PictureViewer*, and then choose the **OK** button.
+3. In the project templates list, choose **Windows Forms App (.NET Framework)**. Name the new form *PictureViewer*, and then choose the **OK** button.
 
     >[!NOTE]
     >If you don't see the **Windows Forms App (.NET Framework)** template, use the Visual Studio Installer to install the **.NET desktop development** workload.<br/><br/>![.NET desktop development workload in the Visual Studio Installer](../ide/media/dot-net-desktop-dev-workload.png)<br/><br/> For more information, see the [Install Visual Studio](../install/install-visual-studio.md) page.
