@@ -62,7 +62,6 @@
 #### [Pre-production inventory](admin-inventory.md)
 #### [Manage large teams and external contractors](manage-teams.md)
 #### [Track user assignments and process orders](assignments-orders.md)
-### [Volume Licensing](volume-license-admins.md)
 ### Onboarding your organization
 #### [Post migration onboarding](post-migration-onboarding.md)
 #### [Open and Open License Migration](open-migration.md)
