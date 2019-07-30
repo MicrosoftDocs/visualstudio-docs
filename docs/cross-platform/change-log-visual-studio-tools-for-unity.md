@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows) | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/28/2019"
+ms.date: "07/29/2019"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
@@ -14,6 +14,30 @@ ms.workload:
 # Change log (Visual Studio Tools for Unity, Windows)
 
 Visual Studio Tools for Unity change log.
+
+## 4.2.0.1
+
+Released July 24, 2019
+
+### New Features
+
+- **Integration:**
+
+  - Added a new option to create any type of files from the Unity Project Explorer.
+  
+  - Improve diagnostic caching when using fast builds for Unity projects.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed an issue when the file extension was not handled by any well-known editor.
+
+  - Fixed support for custom extensions in the Unity Project Explorer.
+
+  - Fixed saving settings outside of the main dialog.
+
+  - Removed legacy Microsoft.VisualStudio.MPF dependency.
 
 ## 4.1.1.0
 
