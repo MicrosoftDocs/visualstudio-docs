@@ -2,7 +2,7 @@
 title: "Update Visual Studio"
 titleSuffix: ""
 description: "Learn how to update Visual Studio to the most recent release, step-by-step."
-ms.date: 07/11/2019
+ms.date: 07/31/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 ms.prod: visual-studio-windows
@@ -210,15 +210,15 @@ You can check for an update and then install it by using the menu bar or the sea
 
     Visual Studio opens. In the IDE, a **Visual Studio 2019 update** message appears.
 
-    ![The 'Visual Studio 2019 update' message in the IDE](media/vs2019-update-visual-studio-ide-message.png "The 'Visual Studio 2019 update' message in the IDE")
+    ![The 'Visual Studio 2019 update' message in the IDE](media/vs-2019/update-visual-studio-ide-message.png "The 'Visual Studio 2019 update' message in the IDE")
 
 1. In the **Visual Studio 2019 update** message, choose **View details**.
 
-   ![Choose View Details button in the Visual Studio 2019 IDE update message](media/vs2019-update-visual-studio-ide-view-details.png "Choose the View Details button in the Visual Studio 2019 update message")
+   ![Choose View Details button in the Visual Studio 2019 IDE update message](media/vs-2019/update-visual-studio-ide-view-details.png "Choose the View Details button in the Visual Studio 2019 update message")
 
 1. In the **Update downloaded and ready to install** dialog box, choose **Update**.
 
-     ![Choose the Update button in the 'Update downloaded and ready to install' dialog box](media/vs2019-update-visual-studio-community-rc-from-ide.png "Choose the Update button in the 'Update downloaded and ready to install' dialog box")
+     ![Choose the Update button in the 'Update downloaded and ready to install' dialog box](media/vs-2019/update-ready-install-visual-studio-community-from-ide.png "Choose the Update button in the 'Update downloaded and ready to install' dialog box")
 
    Visual Studio updates, closes, and then reopens.
 

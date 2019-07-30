@@ -3,7 +3,7 @@ title: "Modify Visual Studio"
 titleSuffix: ""
 description: "Learn how to modify Visual Studio, step-by-step."
 ms.custom: "H1Hack27Feb2017,seodec18"
-ms.date: 06/25/2019
+ms.date: 07/31/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "modify Visual Studio"
@@ -91,7 +91,7 @@ Here's how.
 
 1. In the installer, look for the edition of Visual Studio that you installed, and then choose **Modify**.
 
-     ![Update or modify Visual Studio](media/vs-2019/vs-installer-modify.png "Update or modify Visual Studio 2017")
+     ![Update or modify Visual Studio](media/vs-2019/vs-installer-modify.png "Update or modify Visual Studio 2019")
 
 1. In the **Workloads** tab, select or deselect the workloads that you want to install or uninstall.
 
