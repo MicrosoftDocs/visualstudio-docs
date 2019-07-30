@@ -71,7 +71,7 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
 
 ## Properties metadata
 
- When specified, Properties metadata overrides the task's Properties parameter, while [AdditionalProperties](#AdditionalProperties-metadata) metadata gets appended to the parameter's definitions.
+ When specified, Properties metadata overrides the task's Properties parameter, while [AdditionalProperties](#additionalproperties-metadata) metadata gets appended to the parameter's definitions.
 
  A common scenario is when you are building multiple solution files using the [MSBuild task](../msbuild/msbuild-task.md), only using different build configurations. You may want to build solution a1 using the Debug configuration and solution a2 using the Release configuration. In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 2.0, this project file would look like the following:
 
