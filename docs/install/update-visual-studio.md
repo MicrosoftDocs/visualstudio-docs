@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "update [Visual Studio]"
   - "change [Visual Studio]"
 f1_keywords:
-  - "VS.ToolsOptionsPages.Environment.ProductUpdates" 
+  - "VS.ToolsOptionsPages.Environment.ProductUpdates"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -190,9 +190,11 @@ Here's how to update Visual&nbsp;Studio&nbsp;2019.
 
     ![Select the Update button to install the updates](media/vs-2019/vs-installer-choose-update-visual-studio-community.png "Select the Update button to install the updates")
 
-1. After the update is complete, choose **Launch** to start Visual Studio.
+1. After the update is complete, you might be asked to restart your computer. If so, do so, and then start Visual Studio as you typically would.
 
-    ![Select the Launch button to start Visual Studio](media/vs-2019/-choose-launch-visual-studio-community-rc.png "Select the Launch button to start Visual Studio")
+   If you aren't asked to restart your computer, choose **Launch** to start Visual Studio from the installer.
+
+    ![Select the Launch button to start Visual Studio](media/vs-2019/choose-launch-visual-studio-community.png "Select the Launch button to start Visual Studio")
 
 ## Use the IDE
 
@@ -286,6 +288,6 @@ Here's how:
 * [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md)
 * [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 * [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)
-* [Update Visual Studio for Mac](/visualstudio/mac/update)
+* [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 * [Modify Visual Studio](modify-visual-studio.md)
 * [Uninstall Visual Studio](uninstall-visual-studio.md)
