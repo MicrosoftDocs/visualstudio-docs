@@ -35,7 +35,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 |Private|Optional boolean. Specifies whether the reference should be copied to the output folder. This attribute matches the **Copy Local** property of the reference that's in the Visual Studio IDE.|
 
 ### COMReference
- Represents a COM (unmanaged) component reference in the project.
+ Represents a COM (unmanaged) component reference in the project. This item applies only to .NET projects.
 
 |Item metadata name|Description|
 |---------------|-----------------|
@@ -48,7 +48,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 |Isolated|Optional boolean. Specifies whether the component is a reg-free component.|
 
 ### COMFileReference
- Represents a list of type libraries that feed into the ResolvedComreference target.
+ Represents a list of type libraries that are passed to the `TypeLibFiles` parameter of the [ResolveComReference](resolvecomreference-task.md) target. This item applies only to .NET projects.
 
 |Item metadata name|Description|
 |---------------|-----------------|
