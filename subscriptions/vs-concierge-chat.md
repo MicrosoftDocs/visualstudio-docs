@@ -31,7 +31,6 @@ Getting help via the Concierge Chat service is very easy.
     > ![Concierge Chat Session](_img/vs-concierge-chat/vs-concierge-chat-session.png)
 
 ## Eligibility
-
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  Yes          |
@@ -57,6 +56,6 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## Next steps
 For more information about Microsoft tools and services, check out the documentation for:
-- [Azure](https://docs.microsoft.com/azure/)
-- [Azure DevOps](https://docs.microsoft.com/azure/devops/)
-- [Visual Studio IDE](https://docs.microsoft.com/visualstudio/)
+- [Azure](/azure/)
+- [Azure DevOps](/azure/devops/)
+- [Visual Studio IDE](/visualstudio/)
