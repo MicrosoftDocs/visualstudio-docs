@@ -35,7 +35,7 @@ To profile an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web 
 
  **vsperfaspnetcmd**  *websiteUrl*
 
- An example of a local server-hosted *websiteUrl* might be *http://localhost/MySite/default.aspx*. An example of an external site is *http://www.contoso.com*. For more information, see the steps on setting the URL in [To profile a web site without opening a project in Visual Studio](how-to-collect-performance-data-for-a-web-site.md#to-profile-a-web-site-without-opening-a-project-in-visual-studio).
+ An example of a local server-hosted *websiteUrl* might be *http://localhost/MySite/default.aspx*. An example of an external site is *http://www.contoso.com*. For more information, see the example URLs in [To profile a web site without opening a project in Visual Studio](how-to-collect-performance-data-for-a-web-site.md#to-profile-a-web-site-without-opening-a-project-in-visual-studio).
 
 ## To collect detailed timing data by using the instrumentation method
 
