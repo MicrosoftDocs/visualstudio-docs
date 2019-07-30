@@ -1,9 +1,9 @@
 ---
 title: MSDN Magazine Benefit in Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
+ms.author: lank
+manager: lank
+ms.date: 07/30/2019
 ms.topic: conceptual
 description:  Sign up to receive the MSDN Magazine subscription included in your Visual Studio subscription.
 ---
@@ -12,22 +12,17 @@ description:  Sign up to receive the MSDN Magazine subscription included in your
 Comprehensive coverage of Microsoft technologies for practical solutions to real-world problems.  Depending on your subscription, you are entitled to either the printed magazine, or early access to the digital version.
 
 ## Activation steps
-
 1. To subscriber to MSDN Magazine, sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 2. Locate the MSDN Magazine tile in the Professional Development section, and click **Access**.
-
 3. On the MSDN Magazine page, choose your preferred subscription type.  You can choose the digital edition at no charge, no matter where you live.  The printed version is available at no charge to US residents.  Shipping charges apply for printed versions sent to non-US addresses.
    > [!div class="mx-imgBorder"]
    > ![MSDN Magazine Benefit Subscriptions](_img/vs-msdn/vs-msdn-subs-page-resized.png)
-
 4. Provide the contact information requested, and click **Submit**.  (The version of the magazine you selected will appear in the Magazine Subscription section.  If you chose the printed edition, the first option will read **Yes!  I want to receive 1 year (12 issues) of MSDN Magazine for FREE**.)
    > [!div class="mx-imgBorder"]
    > ![MSDN Magazine Benefit Profile](_img/vs-msdn/vs-msdn-profile.png)
-
 5. That’s all there is to it.  Depending on which version of the magazine you chose, you’ll either begin receiving printed magazines or emails with links to the latest online versions with the next edition.  Enjoy!
 
 ## Eligibility
-
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> |Printed edition       |  No.  Available to new subscribers only          |
