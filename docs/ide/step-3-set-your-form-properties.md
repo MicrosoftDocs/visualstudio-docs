@@ -15,9 +15,7 @@ ms.workload:
 
 Next, you use the **Properties** window to change the way your form looks.
 
- ![link to video](../data-tools/media/playvideo.gif) For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 1](http://go.microsoft.com/fwlink/?LinkId=205209) or [Tutorial 1: Create a picture viewer in C# - Video 1](http://go.microsoft.com/fwlink/?LinkId=205199). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.
-
-## To set your form properties
+## How to set your form properties
 
 1. Be sure you're looking at **Windows Forms Designer**. In the Visual Studio integrated development environment (IDE), choose the **Form1.cs [Design]** tab (or the **Form1.vb [Design]** tab in Visual Basic).
 
@@ -64,8 +62,13 @@ Next, you use the **Properties** window to change the way your form looks.
 
    - Choose the **X** button in the upper corner of the **Picture Viewer** window.
 
-## To continue or review
+## Next steps
 
-- To go to the next tutorial step, see [Step 4: Lay out your form with a TableLayoutPanel control](../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md).
+* To go to the next tutorial step, see [Step 4: Lay out your form with a TableLayoutPanel control](../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md).
 
-- To return to the previous tutorial step, see [Step 2: Run your program](../ide/step-2-run-your-program.md).
+* To return to the previous tutorial step, see [Step 2: Run your program](../ide/step-2-run-your-program.md).
+ 
+## See also
+
+* [Tutorial 2: Create a timed math quiz](tutorial-2-create-a-timed-math-quiz.md)
+* [Tutorial 3: Create a matching game](tutorial-3-create-a-matching-game.md)

@@ -15,9 +15,7 @@ ms.workload:
 
 In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to your form. The TableLayoutPanel helps properly align controls in the form that you'll add later.
 
- ![link to video](../data-tools/media/playvideo.gif) For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 2](http://go.microsoft.com/fwlink/?LinkId=205211) or [Tutorial 1: Create a picture viewer in C# - Video 2](http://go.microsoft.com/fwlink/?LinkId=205200). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.
-
-## To lay out your form with a TableLayoutPanel control
+## How to lay out your form with a TableLayoutPanel control
 
 1. On the left side of the Visual Studio IDE, choose the **Toolbox** tab. (Alternatively, choose **View** > **Toolbox** from the menu bar, or press **Ctrl**+**Alt**+**X**.)
 
@@ -82,8 +80,13 @@ In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to 
      ![Form1 with resized TableLayoutPanel](../ide/media/vs_formafterlayoutpanel.png)<br>
 ***Form1** (Picture Viewer) with resized **TableLayoutPanel***
 
-## To continue or review
+## Next steps
 
-- To go to the next tutorial step, see [Step 5: Add controls to your form](../ide/step-5-add-controls-to-your-form.md).
+* To go to the next tutorial step, see [Step 5: Add controls to your form](../ide/step-5-add-controls-to-your-form.md).
 
-- To return to the previous tutorial step, see [Step 3: Set your form properties](../ide/step-3-set-your-form-properties.md).
+* To return to the previous tutorial step, see [Step 3: Set your form properties](../ide/step-3-set-your-form-properties.md).
+
+## See also
+
+* [Tutorial 2: Create a timed math quiz](tutorial-2-create-a-timed-math-quiz.md)
+* [Tutorial 3: Create a matching game](tutorial-3-create-a-matching-game.md)

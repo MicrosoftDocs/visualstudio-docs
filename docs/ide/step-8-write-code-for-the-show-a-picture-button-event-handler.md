@@ -4,7 +4,6 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs: 
   - "csharp"
-  - "vb"
 ms.assetid: 07f4ec00-cda4-42f4-98bb-37edc7167de7
 author: TerryGLee
 ms.author: tglee
@@ -89,8 +88,13 @@ The IDE has a powerful tool called IntelliSense that helps you write code. As yo
          [!code-csharp[VbExpressTutorial1Step8#1](../ide/codesnippet/CSharp/step-8-write-code-for-the-show-a-picture-button-event-handler_1.cs)]
          [!code-vb[VbExpressTutorial1Step8#1](../ide/codesnippet/VisualBasic/step-8-write-code-for-the-show-a-picture-button-event-handler_1.vb)]
 
-## To continue or review
+## Next steps
 
-- To go to the next tutorial step, see [Step 9: Review, comment, and test your code](../ide/step-9-review-comment-and-test-your-code.md).
+* To go to the next tutorial step, see [Step 9: Review, comment, and test your code](../ide/step-9-review-comment-and-test-your-code.md).
 
-- To return to the previous tutorial step, see [Step 7: Add dialog components to your form](../ide/step-7-add-dialog-components-to-your-form.md).
+* To return to the previous tutorial step, see [Step 7: Add dialog components to your form](../ide/step-7-add-dialog-components-to-your-form.md).
+
+## See also
+
+* [Tutorial 2: Create a timed math quiz](tutorial-2-create-a-timed-math-quiz.md)
+* [Tutorial 3: Create a matching game](tutorial-3-create-a-matching-game.md)

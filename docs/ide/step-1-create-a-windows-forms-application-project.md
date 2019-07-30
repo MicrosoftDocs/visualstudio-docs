@@ -76,19 +76,19 @@ Visual Studio creates a solution for your program. A solution acts as a containe
 
     ::: moniker range="vs-2017"
 
-    - **Main window** In this window, you'll do most of your work, such as working with forms and editing code. The window shows a form in the **Form Editor**. At the top of the window, the **Start Page** tab and the **Form1.cs [Design]** tab appear. (In Visual Basic, the tab name ends with *.vb* instead of *.cs*.)
+    * **Main window** In this window, you'll do most of your work, such as working with forms and editing code. The window shows a form in the **Form Editor**. At the top of the window, the **Start Page** tab and the **Form1.cs [Design]** tab appear. (In Visual Basic, the tab name ends with *.vb* instead of *.cs*.)
 
     ::: moniker-end
 
     ::: moniker range=">=vs-2019"
 
-    - **Main window** In this window, you'll do most of your work, such as working with forms and editing code. The window shows a form in the **Form Editor**.
+    * **Main window** In this window, you'll do most of your work, such as working with forms and editing code. The window shows a form in the **Form Editor**.
 
     ::: moniker-end
 
-    - **Solution Explorer window** In this window, you can view and navigate to all items in your solution. If you choose a file, the contents of the **Properties** window changes. If you open a code file (which ends in *.cs* in Visual C# and *.vb* in Visual Basic), the code file or a designer for the code file appears. A designer is a visual surface onto which you can add controls such as buttons and lists. For Visual Studio forms, the designer is called the **Windows Forms Designer**.
+    * **Solution Explorer window** In this window, you can view and navigate to all items in your solution. If you choose a file, the contents of the **Properties** window changes. If you open a code file (which ends in *.cs* in Visual C# and *.vb* in Visual Basic), the code file or a designer for the code file appears. A designer is a visual surface onto which you can add controls such as buttons and lists. For Visual Studio forms, the designer is called the **Windows Forms Designer**.
 
-    - **Properties window** In this window, you can change the properties of items that you choose in the other windows. For example, if you choose Form1, you can change its title by setting the **Text** property, and you can change the background color by setting the **Backcolor** property.
+    * **Properties window** In this window, you can change the properties of items that you choose in the other windows. For example, if you choose Form1, you can change its title by setting the **Text** property, and you can change the background color by setting the **Backcolor** property.
 
     > [!NOTE]
     > The top line in **Solution Explorer** shows **Solution 'PictureViewer' (1 project)**, which means that Visual Studio created a solution for you. A solution can contain more than one project, but for now, you'll work with solutions that contain only one project.
@@ -102,12 +102,13 @@ Visual Studio creates a solution for your program. A solution acts as a containe
 
      Visual Studio automatically fills in the folder name and the project name and then saves the project in your projects folder.
 
-## To continue or review
+## Next steps
 
-- To go to the next tutorial step, see [Step 2: Run your program](../ide/step-2-run-your-program.md).
+* To go to the next tutorial step, see [Step 2: Run your program](../ide/step-2-run-your-program.md).
 
-- To return to the overview topic, see [Tutorial 1: Create a picture viewer](../ide/tutorial-1-create-a-picture-viewer.md).
+* To return to the overview topic, see [Tutorial 1: Create a picture viewer](../ide/tutorial-1-create-a-picture-viewer.md).
 
 ## See also
 
-- [Creating a new Windows Form](/dotnet/framework/winforms/creating-a-new-windows-form/)
+* [Tutorial 2: Create a timed math quiz](tutorial-2-create-a-timed-math-quiz.md)
+* [Tutorial 3: Create a matching game](tutorial-3-create-a-matching-game.md)
