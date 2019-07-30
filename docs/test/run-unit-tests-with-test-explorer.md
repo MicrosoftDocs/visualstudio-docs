@@ -13,9 +13,9 @@ ms.workload:
 ---
 # Run unit tests with Test Explorer
 
-Use **Test Explorer** to run unit tests from Visual Studio or third-party unit test projects. You can also use **Test Explorer** to group tests into categories, filter the test list, and create, save, and run playlists of tests. You can debug tests and analyze test performance and code coverage.
+Use Test Explorer to run unit tests from Visual Studio or third-party unit test projects. You can also use Test Explorer to group tests into categories, filter the test list, and create, save, and run playlists of tests. You can debug tests and analyze test performance and code coverage.
 
-Visual Studio includes the Microsoft unit testing frameworks for both managed and native code. However, **Test Explorer** can also run any unit test framework that has implemented a Test Explorer adapter. For more information about installing third-party unit test frameworks, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
+Visual Studio includes the Microsoft unit testing frameworks for both managed and native code. However, Test Explorer can also run any unit test framework that has implemented a Test Explorer adapter. For more information about installing third-party unit test frameworks, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
 
 **Test Explorer** can run tests from multiple test projects in a solution and from test classes that are part of the production code projects. Test projects can use different unit test frameworks. When the code under test is written for .NET, the test project can be written in any language that also targets .NET, regardless of the language of the target code. Native C/C++ code projects must be tested by using a C++ unit test framework. For more information, see [Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md).
 
@@ -137,7 +137,7 @@ Test Explorer lets you group your tests into a hierarchy. The default hierarchy 
 
 ![Group tests by category in Test Explorer](../test/media/vs-2019/test-explorer-groupby-162.png)
 
-You can define your own levels of the hierarchy and group by **State** and then **Class** for example by selecting groupby options in your preferred order.
+You can define your own levels of the hierarchy and group by **State** and then **Class** for example by selecting Group By options in your preferred order.
 
 ![Group by State and then Class](../test/media/vs-2019/test-explorer-groupby-state-16-2.png)
 ::: moniker-end
@@ -217,7 +217,7 @@ The playlist opens in a new Test Explorer tab. You can use this playlist once an
 ::: moniker range=">=vs-2019"
 ### Test Explorer columns
 
-The [groups](#test-explorer-groups) are also available as columns in Test Explorer, along with Trait, Stack Trace, Error Message, and Fully Qualified Name. Most columns are not visible by default, and you can customize which collumns you see and the order in which they appear.
+The [groups](#test-explorer-groups) are also available as columns in Test Explorer, along with Trait, Stack Trace, Error Message, and Fully Qualified Name. Most columns are not visible by default, and you can customize which columns you see and the order in which they appear.
 
 ![Group by State and then Class](../test/media/vs-2019/test-explorer-columns-16-2.png)
 
