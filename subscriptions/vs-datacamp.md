@@ -76,7 +76,7 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## Next steps
-Check out professional development opportunities in your subscription:
+Check out more professional development opportunities in your subscription:
 - [Pluralsight](vs-pluralsight.md)
 - [LinkedIn Learning](vs-linkedin-learning.md)
 - [MSDN Magazine](vs-msdn.md)
