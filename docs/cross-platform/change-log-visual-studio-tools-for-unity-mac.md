@@ -15,6 +15,100 @@ ms.workload:
 
 Visual Studio Tools for Unity change log.
 
+## 2.2.0.0
+
+Released July 25, 2019
+
+### Bug fixes
+
+- **Evaluation:**
+
+  - Fixed inspection with IntPtr types.
+
+- **Debugger:**
+
+  - Fixed handling of catchpoints and function breakpoints.
+
+## 2.1.3.0
+
+Released July 9, 2019
+
+### New Features
+
+- **Debugger:**
+
+  - Added support for catching subclasses of exceptions.
+
+  - Added support for MDS protocol 2.51.
+
+- **Integration:**
+
+  - Added support for asmdef files.
+
+  - Switch to rename mode when a file is added from a template (to mimic the Unity Editor behavior).
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed handling of malformed messages while communicating with Unity Players.
+
+- **Evaluation:**
+
+  - Fixed handling of namespaces in expressions.
+
+## 2.1.2.0
+
+Released July 2, 2019
+
+### Bug fixes
+
+- **Evaluation:**
+
+  - Fixed error reporting with non parseable expressions.
+
+## 2.1.1.0
+
+Released June 27, 2019
+
+### New Features
+
+- **Integration:**
+
+  - Updated MonoBehaviour API to 2019.1.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed Unity Project Explorer performance.
+
+  - Fixed reporting warnings and errors to output when lightweight build is enabled.
+
+  - Fixed lightweight build performance.
+
+## 2.1.0.0
+
+Released June 20, 2019
+
+### New Features
+
+- **Integration:**
+
+  - Disabled the full build for Unity projects, in favor of using the IntelliSense errors and warnings. Indeed Unity creates a Visual Studio solution with class library projects that represent what Unity is doing internally. That being said, the result of the build in Visual Studio is never used or picked up by Unity as their compilation pipeline is closed. Building in Visual Studio is just consuming resources for nothing. If you need a full build because you have tools or a setup that depends on it, you can disable this optimization (Settings/Tools for Unity/Disable the full build of projects).
+  
+  - Added support for Unity packages in the UPE. Only Referenced packages (using manifest.json in the Packages folder) and Local packages (embedded in the Packages folder) are visible.
+
+## 2.0.2.1
+
+Released May 30, 2019
+
+### New Features
+
+- **Integration:**
+
+  - Added custom icon for Unity execution targets.
+
 ## 2.0.2.0
 
 Released April 2, 2019
@@ -36,6 +130,7 @@ Released April 2, 2019
   - Fixed assembly filtering and frame inspection with empty frames.
 
 ## 2.0.1.1
+ 
  Released March 26, 2019
 
 ### Bug fixes
@@ -81,6 +176,7 @@ Released March 5, 2019
   - Removed namespaces from templates.
 
 ## 2.0.0.3
+ 
  Released March 5, 2019
 
 ### New Features
