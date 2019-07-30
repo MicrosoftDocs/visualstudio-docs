@@ -12,7 +12,7 @@ ms.workload:
 
 The easiest way to customize an object is to set properties in the **Properties** pane.
 
-If you want re-use settings or groups of settings, create a re-usable resource. This could be a *style*, *template*, or something simple like a custom color. You can also make a control appear differently based on its state. For example, a button turns green when the user clicks it.
+If you want reuse settings or groups of settings, create a reusable resource. This could be a *style*, *template*, or something simple like a custom color. You can also make a control appear differently based on its state. For example, a button turns green when the user clicks it.
 
 ## Brushes: Modify the appearance of an object
 

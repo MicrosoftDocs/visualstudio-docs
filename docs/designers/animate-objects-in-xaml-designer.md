@@ -6,8 +6,6 @@ ms.assetid: fb88fa26-e835-47f5-9771-2f279441c83c
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.workload:
-  - "uwp"
 ---
 # Animate objects in XAML Designer
 

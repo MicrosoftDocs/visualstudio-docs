@@ -2,7 +2,9 @@
   href: designing-user-interfaces.md
 - name: XAML
   items:
-  - name: Design XAML in Visual Studio
+  - name: XAML overview
+    href: xaml-overview.md
+  - name: Design XAML in Visual Studio and Blend
     href: designing-xaml-in-visual-studio.md
   - name: XAML Designer
     items:
@@ -52,8 +54,6 @@
         href: pen-tool-modifier-keys-in-blend.md
       - name: Direct selection tool modifier keys
         href: direct-selection-tool-modifier-keys-in-blend.md
-    - name: Accessibility products and services for Blend
-      href: accessibility-products-and-services-blend.md
 - name: Windows Presentation Foundation (WPF)
   items:
   - name: Get started
@@ -259,4 +259,3 @@
       href: how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md
 - name: The Visual Studio image library
   href: the-visual-studio-image-library.md
-

@@ -976,6 +976,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/designers/accessibility-products-and-services-blend.md",
+            "redirect_url": "/visualstudio/ide/reference/accessibility-products-and-services-from-microsoft",
+            "redirect_document_id": false
+        }},
+        {
             "source_path": "docs/designers/xelement-class-dynamic-properties.md",
             "redirect_url": "/visualstudio/designers/attribute-xelement-dynamic-property",
             "redirect_document_id": false

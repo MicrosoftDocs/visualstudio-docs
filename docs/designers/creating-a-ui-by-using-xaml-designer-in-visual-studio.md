@@ -1,6 +1,6 @@
 ---
 title: Creating a UI with XAML Designer
-ms.date: 03/28/2019
+ms.date: 07/31/2019
 ms.topic: conceptual
 f1_keywords:
   - "VS.XamlDesigner"
@@ -11,10 +11,8 @@ ms.assetid: c54969a7-d75a-4a35-9b37-af7a596a7c24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.workload:
-  - "uwp"
 ---
-# Create a UI by using XAML Designer in Visual Studio
+# Create a UI by using XAML Designer
 
 The XAML Designer in Visual Studio provides a visual interface to help you design XAML-based Windows and Web apps. You can create user interfaces for your apps by dragging controls from the **Toolbox** and setting properties in the **Properties** window. You can also edit XAML directly in XAML view.
 
@@ -40,7 +38,7 @@ Snaplines are *alignment boundaries* that appear as red-dashed lines to show whe
 
 **Grid rails**
 
-`Grid` rails are used to manage rows and columns in a [Grid](/uwp/api/Windows.UI.Xaml.Controls.Grid) panel. You can create and delete rows and columns, and you can adjust their relative widths and heights. The vertical Grid rail, which appears on the left of the artboard, is used for rows, and the horizontal line, which appears at the top, is used for columns.
+`Grid` rails are used to manage rows and columns in a <xref:Windows.UI.Xaml.Controls.Grid> panel. You can create and delete rows and columns, and you can adjust their relative widths and heights. The vertical Grid rail, which appears on the left of the artboard, is used for rows, and the horizontal line, which appears at the top, is used for columns.
 
 **Grid adorners**
 
@@ -54,7 +52,7 @@ Resize handles appear on selected controls and enable you to resize the control.
 
 **Margins**
 
-Margins represent the amount of fixed space between the edge of a control and the edge of its container. You can set the margins of a control by using the [Margin](/uwp/api/windows.ui.xaml.frameworkelement.margin) properties under **Layout** in the Properties window.
+Margins represent the amount of fixed space between the edge of a control and the edge of its container. You can set the margins of a control by using the <xref:Windows.UI.Xaml.FrameworkElement.Margin> properties under **Layout** in the Properties window.
 
 **Margin adorners**
 

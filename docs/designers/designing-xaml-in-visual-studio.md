@@ -1,17 +1,16 @@
 ---
-title: Use XAML
-ms.date: 07/17/2017
+title: Design XAML in Visual Studio and Blend
+titleSuffix: ""
+ms.date: 07/31/2019
 ms.topic: conceptual
 ms.assetid: 288e2415-9fcf-408e-bc35-9848315e14fd
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.workload:
-  - "uwp"
 ---
-# Design XAML in Visual Studio
+# Design XAML in Visual Studio and Blend for Visual Studio
 
-Visual Studio and Blend for Visual Studio both provide visual tools for building engaging user interfaces and rich media experiences with XAML for a variety of app types. Both tools share a common set of features including a visual XAML editor, but Blend for Visual Studio provides additional design tools for more advanced tasks such as animation and behaviors.
+Visual Studio and Blend for Visual Studio both provide visual tools for building engaging user interfaces and rich media experiences with XAML for a variety of app types. Both tools share a common set of features including a visual XAML editor (designer). Blend for Visual Studio provides additional design tools for more advanced tasks such as animation and behaviors.
 
 The process of designing an app depends on the tool you choose and your target platform. This article compares the XAML design tools in Visual Studio and Blend for Visual Studio. For more detailed walkthroughs of using the tools, see the following topics:
 
@@ -22,33 +21,33 @@ The process of designing an app depends on the tool you choose and your target p
 
 Your choice of design tools is largely dependent on your skill set. If you are more code-oriented, you can write XAML code in Visual Studio to accomplish advanced design tasks. If you are more design-oriented, Blend for Visual Studio lets you perform advanced tasks without writing code.
 
-You can switch back and forth between Visual Studio and Blend for Visual Studio, and you can even have the same project open in both at the same time. Changes made to XAML files in one IDE can be applied via automatic reload when you switch to the other IDE. You can control the reload behavior via options in the **Tools** > **Options** dialog box in either IDE.
+You can switch back and forth between Visual Studio and Blend for Visual Studio, and you can even have the same project open in both at the same time. Changes made to XAML files in one interactive development environment (IDE) can be applied via automatic reload when you switch to the other IDE. You can control the reload behavior via options in the **Tools** > **Options** dialog box in either IDE.
 
-### Shared Capabilities
+### Shared capabilities
 
-For most basic tasks, the IDE for Visual Studio and Blend for Visual Studio share the same set of windows and capabilities, with some subtle differences. Some highlights include:
+For most fundamental development tasks, Visual Studio and Blend for Visual Studio share the same set of windows and capabilities, with some subtle differences. Some highlights include:
 
 - **A consistent user interface:** You can design your applications within the familiar context of the Visual Studio user interface, which makes switching between IDEs a more pleasant and productive experience. Blend for Visual Studio uses the Visual Studio Dark theme that helps you focus on the content you are designing by improving the contrast between your content and the user interface. See [Create a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).
 
-     ![The Blend for Visual Studio IDE](../designers/media/blendide.png)
+   ![The Blend for Visual Studio IDE](../designers/media/blendide.png)
 
-- **XAML IntelliSense:** Both IDEs support all of the common capabilities you would expect from IntelliSense including statement completion, support for common editor operations like commenting and formatting code, and navigation to resources, binding, and code.
+- **XAML IntelliSense:** Both IDEs support all of the common capabilities you would expect from IntelliSense, including statement completion, support for common editor operations like commenting and formatting code, and navigation to resources, binding, and code.
 
-- **Basic debugging capabilities:** You can now debug in Blend, including setting breakpoints in your code to debug your running app. To maintain a consistent debugging experience with Visual Studio, Blend for Visual Studio includes most of Visual Studio's debugging windows and toolbars. Advanced debugging capabilities such as diagnostics and code analysis are only available in Visual Studio. See [Debug in Visual Studio](../debugger/debugger-feature-tour.md).
+- **Basic debugging capabilities:** You can debug in Blend, including setting breakpoints in code to debug a running app. To maintain a consistent debugging experience with Visual Studio, Blend for Visual Studio includes most of Visual Studio's debugging windows and toolbars. Advanced debugging capabilities such as diagnostics and code analysis are only available in Visual Studio. See [Debug in Visual Studio](../debugger/debugger-feature-tour.md).
 
-- **File reload experience:** You can edit your XAML files in either Blend for Visual Studio or Visual Studio, and have your edited files reload automatically as you switch between them. To minimize workflow interruptions, you can now set your file reload preferences in the file reload dialog.
+- **File reload experience:** You can edit your XAML files in either Blend for Visual Studio or Visual Studio. Your edited files reload automatically as you switch between them. To minimize workflow interruptions, you can set your file reload preferences in the file reload dialog.
 
-     ![File reload experience](../designers/media/blendfilereload.png)
+   ![File reload experience](../designers/media/blendfilereload.png)
 
-- **Synchronized Layouts and Settings:** Custom layouts enable you to save and apply tool window layout customizations. Visual Studio synchronizes these customizations and preferences for both Visual Studio and Blend for Visual Studio across machines when you sign in with the same Microsoft account. See [Synchronize settings across multiple computers](../ide/synchronized-settings-in-visual-studio.md).
+- **Synchronized layouts and settings:** Custom layouts enable you to save and apply tool window layout customizations. Visual Studio synchronizes these customizations and preferences for both Visual Studio and Blend for Visual Studio across machines when you sign in with the same Microsoft account. See [Synchronize settings across multiple computers](../ide/synchronized-settings-in-visual-studio.md).
 
-- **A common Solution Explorer:** **Solution Explorer** provides you with an organized view of your projects and their files, as well as ready access to the commands associated with them. With Solution Explorer, it is easier to work with big enterprise projects. See [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md).
+- **A common Solution Explorer:** Solution Explorer provides you with an organized view of your projects and their files and ready access to the commands associated with them. Solution Explorer makes it easy to work with big enterprise projects. See [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md).
 
-- **Team Explorer:** With Team Explorer you can manage your projects with GIT or TFS repositories to facilitate team collaboration. See [Work in Team Explorer](/azure/devops/user-guide/work-team-explorer).
+- **Team Explorer:** With Team Explorer, you can manage your projects with GIT or TFS repositories to facilitate team collaboration. See [Work in Team Explorer](../ide/connect-team-project.md).
 
 - **NuGet:** You can manage NuGet packages in both Visual Studio and Blend for Visual Studio. NuGet is a package manager for the .NET that simplifies the installation and removal of packages from a solution.
 
-## Advanced Capabilities in Blend for Visual Studio
+## Advanced capabilities in Blend for Visual Studio
 
 To increase your productivity, consider using Blend for Visual Studio for the following tasks. These are the areas where Blend for Visual Studio offers more speed and functionality than the Visual Studio designer or code alone.
 

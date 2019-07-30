@@ -6,8 +6,6 @@ ms.assetid: ff707aca-6bc5-4a2d-834b-bb6511a7b8f6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.workload:
-  - "uwp"
 ---
 # Insert images, videos, and audio clips in XAML Designer
 Images, videos, and audio clips add visual appeal to your app.
