@@ -1,9 +1,9 @@
 ---
 title: Microsoft Azure Benefit | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
+ms.author: lank
+manager: lank
+ms.date: 07/29/2019
 ms.topic: conceptual
 description:  Learn how to activate the Azure benefit included in your Visual Studio subscription.
 ---
@@ -17,19 +17,21 @@ As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  
    > [!div class="mx-imgBorder"]
    > ![Azure Tile](_img/vs-azure/vs-azure-tile.png)
 
-3. Fill in the required information to create your Azure subscription, click the checkbox to accept the terms & conditions, and click **Sign up**:
+3. If you don't have an existing Azure subscription, you'll be asked to fill in the required information to create your Azure subscription, click the checkbox to accept the terms & conditions, and click **Sign up**:
    > [!div class="mx-imgBorder"]
    > ![Azure Sign-up](_img/vs-azure/vs-azure-sign-up-cropped.png)
+If you have an existing subscription, click the check box to accept the agreement, and click **Sign up**.
 
 4. When your account is ready, you’ll have the option to choose an Azure support plan (sold separately), or get started with your Azure subscription.
    > [!div class="mx-imgBorder"]
    > ![Azure Getting Ready](_img/vs-azure/vs-azure-getting-ready-cropped.png)
 
-5. The Azure Dashboard will load, and on your first use, you’ll have the option to take a tour.  The tour consists of a series of screen tips that will point out how you can accomplish a variety of tasks and find relevant information.  Completing or closing the tour will display the Azure Dashboard.
+5. The Azure Dashboard Quickstart Center will load.  
+   > [!div class="mx-imgBorder"]
+   > ![Azure Dashboard](_img/vs-azure/vs-azure-dashboard-quickstart.png) 
 
 6. Bookmark the [Azure Portal](https://portal.azure.com) for easy access in the future.
-   > [!div class="mx-imgBorder"]
-   > ![Azure Dashboard](_img/vs-azure/vs-azure-dashboard-cropped.png)
+
 
 ## Eligibility
 |                 Subscription Level / Program                 |           Benefit           |                         Renewable?                          |
