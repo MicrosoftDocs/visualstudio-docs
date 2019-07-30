@@ -22,6 +22,7 @@ The supported frameworks are:
 * Mocha ([mochajs.org](http://mochajs.org/))
 * Jasmine ([Jasmine.github.io](https://jasmine.github.io/))
 * Tape ([github.com/substack/tape](https://github.com/substack/tape))
+* Jest ([jestjs.io](https://jestjs.io/))
 * Export Runner (this framework is specific to Node.js Tools for Visual Studio)
 
 > [!WARNING]
