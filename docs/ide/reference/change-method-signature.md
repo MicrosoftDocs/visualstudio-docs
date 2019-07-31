@@ -2,8 +2,8 @@
 title: Change method signature
 ms.date: 01/26/2018
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 f1_keywords:
   - "vs.csharp.refactoring.remove"
