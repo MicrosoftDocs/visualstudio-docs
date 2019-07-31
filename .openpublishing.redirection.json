@@ -7954,6 +7954,16 @@
             "source_path": "subscriptions/resend-assignment-email.md",
             "redirect_url": "/visualstudio/subscriptions",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/volume-license-admins.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/post-migration-onboarding.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
         }
     ]
 }
