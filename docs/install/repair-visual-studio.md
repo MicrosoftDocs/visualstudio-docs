@@ -2,7 +2,7 @@
 title: "Repair Visual Studio"
 titleSuffix: ""
 description: "Learn how to repair an installation of Visual Studio 2017"
-ms.date: 03/30/2019
+ms.date: 07/31/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 author: TerryGLee
@@ -33,7 +33,7 @@ Sometimes your Visual Studio installation becomes damaged or corrupted. A repair
 1. Open the installer, choose **More**, and then choose **Repair**.
 
     ![Repair Visual Studio from the Visual Studio Installer](media/repair-visual-studio.png "Repair Visual Studio from the Visual Studio Installer")
-    
+
    > [!NOTE]
    > Repairing Visual Studio will reset the environment. Local customizations like per-user extensions installed without elevation, user settings, and profiles will be removed. Your synchronized settings such as themes, colors, key bindings will be restored.
    >
@@ -49,7 +49,7 @@ Sometimes your Visual Studio installation becomes damaged or corrupted. A repair
 
      For example, on a computer running Windows 10, select **Start**, and then scroll to the letter **V**, where it's listed as **Visual Studio Installer**.
 
-     ![Open the Visual Studio Installer](media/vs2019-visual-studio-installer.png "Open the Visual Studio Installer")
+     ![Open the Visual Studio Installer](media/vs-2019/vs-installer-windows-start.png "Open the Visual Studio Installer")
 
      > [!NOTE]
      > You can also find the Visual Studio Installer in the following location:
