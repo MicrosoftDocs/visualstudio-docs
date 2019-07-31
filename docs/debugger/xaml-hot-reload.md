@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload: 
   - "multiple"
 ---
-# Write and debug running XAML code with XAML hot reload in Visual Studio
+# Write and debug running XAML code with XAML Hot Reload in Visual Studio
 
-Visual Studio XAML hot reload helps you build your WPF or UWP app UI by letting you make changes to XAML code while your app is running. This feature enables you to incrementally build and test XAML code with the benefit of the running app's data context, authentication state, and other real-world complexity that’s hard to simulate during design-time.
+Visual Studio XAML Hot Reload helps you build your WPF or UWP app UI by letting you make changes to XAML code while your app is running. This feature enables you to incrementally build and test XAML code with the benefit of the running app's data context, authentication state, and other real-world complexity that’s hard to simulate during design-time.
 
-XAML hot reload is especially helpful in these scenarios:
+XAML Hot Reload is especially helpful in these scenarios:
 
 * Fixing UI problems found in your XAML code after the app was started in debug mode.
 
@@ -29,7 +29,7 @@ XAML hot reload is especially helpful in these scenarios:
 |Universal Windows apps (UWP)|Windows 10 and above, with the [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk) 14393+ |
 
 > [!NOTE]
-> Visual Studio XAML hot reload is currently only supported when running your application in Visual Studio with the debugger attached (**F5** or **Start debugging**). You can't enable this experience by using *Attach to process*.
+> Visual Studio XAML Hot Reload is currently only supported when running your application in Visual Studio with the debugger attached (**F5** or **Start debugging**). You can't enable this experience by using *Attach to process*.
 
 ## Known limitations
 
@@ -45,7 +45,7 @@ The following are known limitations of XAML hot reload. To work around any limit
 
 ## Error messages
 
-You may come across the following errors while using XAML hot reload.
+You may come across the following errors while using XAML Hot Reload.
 
 |Error message|Description|
 |-|-|-|
