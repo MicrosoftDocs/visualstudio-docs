@@ -1,5 +1,5 @@
 ---
-title: "How to: Validate data when a new row is added to a ListObject control"
+title: "Validate data when new row is added to ListObject control"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

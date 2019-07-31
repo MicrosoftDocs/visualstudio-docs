@@ -59,7 +59,8 @@ Create a new file that contains a partial declaration of the command set class.
     { internal partial class Language1CommandSet { ...
     ```
 
-     **Note** If you used the class file template to create the new file, you must correct both the namespace and the class name.
+    > [!NOTE]
+    > If you used the class file template to create the new file, you must correct both the namespace and the class name.
 
 ## Override the command methods
 

@@ -21,6 +21,8 @@
     items:
     - name: Overview
       displayName: static code analysis, binary analysis
+      href: static-code-analysis-for-managed-code-overview.md
+    - name: Static code analysis walkthrough
       href: walkthrough-analyzing-managed-code-for-code-defects.md
     - name: Migration
       href: fxcop-analyzers.yml
@@ -36,9 +38,7 @@
         href: how-to-customize-the-code-analysis-dictionary.md
     - name: Suppression
       items:
-      - name: Suppress warnings
-        href: in-source-suppression-overview.md
-      - name: Suppress code analysis warnings for generated code
+      - name: Suppress static code analysis warnings for generated code
         href: how-to-suppress-code-analysis-warnings-for-generated-code.md
     - name: Code analysis application errors
       items:
@@ -100,6 +100,18 @@
         href: ca0505.md
       - name: FxCopCmd errors
         href: fxcopcmd-errors.md
+    - name: Check-in policies
+      items:
+      - name: How to create or update check-in policies
+        href: how-to-create-or-update-standard-code-analysis-check-in-policies.md
+      - name: Implement code analysis check-in policies
+        href: implementing-custom-code-analysis-check-in-policies-for-managed-code.md
+      - name: Enforce maintainable code
+        href: how-to-enforce-maintainable-code-with-a-code-analysis-check-in-policy.md
+      - name: Synchronize project rule sets with check-in policy
+        href: how-to-synchronize-code-project-rule-sets-with-team-project-check-in-policy.md
+      - name: Version compatibility
+        href: version-compatibility-for-code-analysis-check-in-policies.md
   - name: FxCop analyzers
     items:
     - name: Overview
@@ -134,19 +146,7 @@
     - name: Create a custom rule set
       href: how-to-create-a-custom-rule-set.md
     - name: Use the rule set editor
-      href: working-in-the-code-analysis-rule-set-editor.md  
-  - name: Check-in policies
-    items:
-    - name: How to create or update check in policies
-      href: how-to-create-or-update-standard-code-analysis-check-in-policies.md
-    - name: Implement code analysis check-in policies
-      href: implementing-custom-code-analysis-check-in-policies-for-managed-code.md
-    - name: Enforce maintainable code
-      href: how-to-enforce-maintainable-code-with-a-code-analysis-check-in-policy.md
-    - name: Synchronize project rule sets with check-in policy
-      href: how-to-synchronize-code-project-rule-sets-with-team-project-check-in-policy.md
-    - name: Version compatibility
-      href: version-compatibility-for-code-analysis-check-in-policies.md
+      href: working-in-the-code-analysis-rule-set-editor.md
   - name: Code metrics
     items:
     - name: Overview
@@ -188,6 +188,8 @@
         href: native-recommended-rules-rule-set.md
       - name: Security Rules rule set for managed code
         href: security-rules-rule-set-for-managed-code.md
+    - name: Suppress warnings
+      href: in-source-suppression-overview.md
     - name: Managed code warnings
       items:
       - name: Overview
@@ -688,6 +690,14 @@
           href: ca3077-insecure-processing-in-api-design-xml-document-and-xml-text-reader.md
         - name: "CA3147: Mark verb handlers with ValidateAntiForgeryToken"
           href: ca3147-mark-verb-handlers-with-validateantiforgerytoken.md
+        - name: "CA5361: Do not disable SChannel use of strong crypto"
+          href: ca5361.md
+        - name: "CA5364: Do not use deprecated security protocols"
+          href: ca5364.md
+        - name: "CA5378: Do not disable ServicePointManagerSecurityProtocols"
+          href: ca5378.md
+        - name: "CA5386: Avoid hardcoding SecurityProtocolType value"
+          href: ca5386.md
       - name: Usage warnings
         items:
         - name: Overview
@@ -946,6 +956,8 @@
       href: C26476.md
     - name: C26477
       href: C26477.md
+    - name: C26478
+      href: c26478.md
     - name: C26481
       href: C26481.md
     - name: C26482
@@ -980,6 +992,10 @@
       href: C26497.md
     - name: C26498
       href: C26498.md
+    - name: C26812
+      href: c26812.md
+    - name: C26814
+      href: c26814.md
   - name: C/C++ warnings
     items:
     - name: Overview

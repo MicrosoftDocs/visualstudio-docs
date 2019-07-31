@@ -85,16 +85,16 @@ The maximum physical stack address.
 `m_pFrame`\
 The [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) object that represents this stack frame.
 
-`m_pFrame`\
+`m_pModule`\
 The [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md) object that represents the module that contains this stack frame.
 
 `m_fHasDebugInfo`\
 Non-zero (`TRUE`) if debug information exists in the given frame.
 
-`m_fHasDebugInfo`\
+`m_fStaleCode`\
 Non-zero (`TRUE`) if the stack frame is associated with code that is no longer valid.
 
-`m_fHasDebugInfo`\
+`m_fAnnotatedFrame`\
 Non-zero (`TRUE`) if the stack frame is annotated by the session debug manager (SDM).
 
 ## Remarks

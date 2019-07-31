@@ -7,7 +7,6 @@ layout: LandingPage
 Ms.date: 06/25/2018
 Ms.topic: landing-page
 Description:  Welcome to Visual Studio Subscriptions
-Searchscope: VS Subscription
 ---
 
 # Visual Studio Subscriptions
@@ -189,8 +188,6 @@ To make your subscription even more useful, we add and update the subscription b
                             <li><a href="/visualstudio/subscriptions/vs-linkedin-learning">LinkedIn Premium</a> (business, tech, and creative)</li>
                             <li><a href="/visualstudio/subscriptions/vs-pluralsight">Pluralsight</a> (cloud, design, mobile and data)</li>
                             <li><a href="/visualstudio/subscriptions/vs-datacamp">Data Camp</a> (data science and AI)</li>
-                            <li><a href="/visualstudio/subscriptions/vs-xamarin">Xamarin University</a> (mobile development)</li>
-                            <li><a href="/visualstudio/subscriptions/vs-opsgility">Opsgility training</a> (cloud-focused)</li>
                             <li><a href="/visualstudio/subscriptions/vs-tech-support">Microsoft Professional Technical Support incidents</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-azure-advisory-chat">Azure Advisory Chat</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-azure-community">Azure Community</a></li>

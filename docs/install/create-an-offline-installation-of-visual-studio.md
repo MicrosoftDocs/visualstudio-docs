@@ -1,7 +1,7 @@
 ---
 title: "Create an offline installation"
 description: "Learn how to install Visual Studio offline when you have an unreliable internet connection or low bandwidth."
-ms.date: 04/16/2019
+ms.date: 07/24/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
@@ -127,8 +127,19 @@ Open a command prompt and use one of the commands from the following examples. T
     vs_community.exe --layout c:\vslayout --lang en-US
     ```
 
-  > [!NOTE]
-  > A complete Visual Studio layout requires a minimum of 35 GB of disk space. See [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) for information about how to create a layout with only the components you want to install.
+::: moniker range="vs-2017"
+
+   > [!NOTE]
+   > A complete Visual Studio layout requires a minimum of 35 GB of disk space. For more information, see [System requirements](/visualstudio/productinfo/vs2017-system-requirements-vs/). And for information about how to create a layout with only the components you want to install, see [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md).
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+   > [!NOTE]
+   > A complete Visual Studio layout requires a minimum of 35 GB of disk space. For more information, see [System requirements](/visualstudio/releases/2019/system-requirements/). And for information about how to create a layout with only the components you want to install, see [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md).
+
+::: moniker-end
 
 If you want to install a language other than English, change `en-US` to a locale from the [List of language locales](#list-of-language-locales). Then, use the [list of the components and workloads available](workload-and-component-ids.md) to further customize your installation cache.
 
@@ -176,6 +187,7 @@ c:\vslayout\vs_community.exe --add Microsoft.VisualStudio.Workload.ManagedDeskto
 ## See also
 
 - [Create a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md)
+- [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 - [Install certificates required for Visual Studio offline installation](../install/install-certificates-for-visual-studio-offline.md)
 - [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 - [Visual Studio workload and component IDs](workload-and-component-ids.md)

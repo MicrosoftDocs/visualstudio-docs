@@ -44,58 +44,60 @@ In this tutorial, you will:
     > [!IMPORTANT]
     > To snapshot debug, you need to open the *same version of source code* that is published to your Azure Virtual Machine\Virtual Machine Scale Set service.
 
-1. Choose **Debug > Attach Snapshot Debugger...**. Select the Azure Virtual Machine\Virtual Machine Scale Set your web app is deployed to and an Azure storage account, and then click **Attach**.
+1. Choose **Debug > Attach Snapshot Debugger...**. Select the Azure Virtual Machine\Virtual Machine Scale Set your web app is deployed to and an Azure storage account, and then click **Attach**. Snapshot Debugger also supports [Azure Kubernetes Service](debug-live-azure-kubernetes.md) and [Azure App Service](debug-live-azure-applications.md).
 
-      ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
+    ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
 
-      ![Select Azure Resource](../debugger/media/snapshot-select-azure-resource-vm.png) 
+    ![Select Azure Resource](../debugger/media/snapshot-select-azure-resource-vm.png)
 
     > [!IMPORTANT]
     > The first time you select **Attach Snapshot Debugger** for your VM, IIS is automatically restarted.
     > The first time you select **Attach Snapshot Debugger** for your Virtual Machine Scale Sets, requires the manual upgrade of each instance of the Virtual Machine Scale Sets.
 
-    The metadata for the **Modules** will not initially be activated, navigate to the web app and the **Start Collection** button will become active. Visual Studio is now in snapshot debugging mode.
+    > [!NOTE]
+    > (Visual Studio 2019 version 16.2 and above) Snapshot Debugger has enabled Azure cloud support. Make sure that both the Azure resource and Azure Storage account you select are from the same cloud. Please contact your Azure administrator if you have questions about your enterprise's [Azure compliance](https://azure.microsoft.com/overview/trusted-cloud/) configurations.
 
-   ![Snapshot debugging mode](../debugger/media/snapshot-message.png)
+    The metadata for the **Modules** won't initially be activated, navigate to the web app and the **Start Collection** button will become active. Visual Studio is now in snapshot debugging mode.
+
+    ![Snapshot debugging mode](../debugger/media/snapshot-message.png)
 
     > [!NOTE]
-    > The Application Insights site extension also supports Snapshot Debugging. If you encounter a "site extension out of date" error message, see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
     > For VMSS the user is required to manually upgrade the instances in their Virtual Machine Scale Sets after attaching the Snapshot Debugger for the first time.
 
-   The **Modules** window shows you when all the modules have loaded for the Azure Virtual Machine\Virtual Machine Scale Set (choose **Debug > Windows > Modules** to open this window).
+    The **Modules** window shows you when all the modules have loaded for the Azure Virtual Machine\Virtual Machine Scale Set (choose **Debug > Windows > Modules** to open this window).
 
-   ![Check the Modules window](../debugger/media/snapshot-modules.png)
+    ![Check the Modules window](../debugger/media/snapshot-modules.png)
 
 ## Set a snappoint
 
-1. In the code editor, click the left gutter next to a line of code you are interested in to set a snappoint. Make sure it is code that you know will execute.
+1. In the code editor, click the left gutter next to a line of code you're interested in to set a snappoint. Make sure it's code that you know will execute.
 
-   ![Set a snappoint](../debugger/media/snapshot-set-snappoint.png)
+    ![Set a snappoint](../debugger/media/snapshot-set-snappoint.png)
 
 1. Click **Start Collection** to turn on the snappoint.
 
-   ![Turn on the snappoint](../debugger/media/snapshot-start-collection.png)
+    ![Turn on the snappoint](../debugger/media/snapshot-start-collection.png)
 
     > [!TIP]
     > You can't step when viewing a snapshot, but you can place multiple snappoints in your code to follow execution at different lines of code. If you have multiple snappoints in your code, the Snapshot Debugger makes sure that the corresponding snapshots are from the same end-user session. The Snapshot Debugger does this even if there are many users hitting your app.
 
 ## Take a snapshot
 
-When a snappoint is turned on, it will capture a snapshot whenever the line of code where the snappoint is placed executes. This execution can be caused by a real request on your server. To force your snappoint to hit, go to the browser view of your web site and take any actions required that cause your snappoint to be hit.
+Once a snappoint is set, you can either manually generate a snapshot by going to the browser view of your web site and running the line of code marked or wait for your users to generate one from their usage of the site.
 
 ## Inspect snapshot data
 
 1. When the snappoint is hit, a snapshot appears in the Diagnostic Tools window. To open this window, choose **Debug > Windows > Show Diagnostic Tools**.
 
-   ![Open a snappoint](../debugger/media/snapshot-diagsession-window.png)
+    ![Open a snappoint](../debugger/media/snapshot-diagsession-window.png)
 
 1. Double-click the snappoint to open the snapshot in the code editor.
 
-   ![Inspect snapshot data](../debugger/media/snapshot-inspect-data.png)
+    ![Inspect snapshot data](../debugger/media/snapshot-inspect-data.png)
 
-   From this view, you can hover over variables to view DataTips, use the **Locals**, **Watches**, and **Call Stack** windows, and also evaluate expressions.
+    From this view, you can hover over variables to view DataTips, use the **Locals**, **Watches**, and **Call Stack** windows, and also evaluate expressions.
 
-    The website itself is still live and end users aren't impacted. Only one snapshot is captured per snappoint by default: after a snapshot is captured the snappoint turns off. If you want to capture another snapshot at the snappoint, you can turn the snappoint back on by clicking **Update Collection**.
+    The website itself is still live and end users aren't affected. Only one snapshot is captured per snappoint by default: after a snapshot is captured the snappoint turns off. If you want to capture another snapshot at the snappoint, you can turn the snappoint back on by clicking **Update Collection**.
 
 You can also add more snappoints to your app and turn them on with the **Update Collection** button.
 
@@ -103,7 +105,7 @@ You can also add more snappoints to your app and turn them on with the **Update 
 
 ## Set a conditional snappoint
 
-If it is difficult to recreate a particular state in your app, consider whether the use of a conditional snappoint can help. Conditional snappoints help you avoid taking a snapshot until the app enters a desired state, such as when a variable has a particular value that you want to inspect. You can set conditions using expressions, filters, or hit counts.
+If it's difficult to recreate a particular state in your app, consider using a conditional snappoint. Conditional snappoints help you control when to take a snapshot such as when a variable contains a particular value that you want to inspect. You can set conditions using expressions, filters, or hit counts.
 
 #### To create a conditional snappoint
 

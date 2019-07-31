@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn about the Windows Developer Account included with your Visual Studio subscription.
-searchscope: VS Subscription
 ---
 # Windows Developer account in Visual Studio subscriptions
 

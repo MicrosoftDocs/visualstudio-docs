@@ -133,7 +133,7 @@ There are several differences:
 
 - Live Unit Testing does not create a new application domain to run tests, but tests run from the **Test Explorer** window do create a new application domain.
 
-- Live Unit Testing runs tests in each test assembly sequentially, whereas if you run multiple tests from the **Test Explorer** window and you selected the **Run Tests in Parallel** button, they will run in parallel.
+- Live Unit Testing runs tests in each test assembly sequentially; in the **Test Explorer** window, you can choose to run multiple tests in parallel.
 
 - Discovery and execution of tests in Live Unit Testing uses version 2 of `TestPlatform`, whereas the **Test Explorer** window uses version 1. You won't notice a difference in most cases, though.
 
@@ -191,15 +191,6 @@ Tests that rely on these values may fail when executed by Live Unit testing.
 Your solution can build even if you're not making edits if the build process of your solution generates source code that is part of the solution itself, and your build target files do not have appropriate inputs and outputs specified. Targets should be given a list of inputs and outputs so that MSBuild can perform the appropriate up-to-date checks and determine whether a new build is required.
 
 Live Unit Testing starts a build whenever it detects that source files have changed. Because the build of your solution generates source files, Live Unit Testing will get into an infinite build loop. If, however, the inputs and outputs of the target are checked when Live Unit Testing starts the second build (after detecting the newly generated source files from the previous build), it will break out of the build loop because the inputs and outputs checks will indicate that everything is up-to-date.  
-
-## Lightweight solution load
-
-**How does Live Unit testing work with the lightweight solution load feature?**
-
-Live Unit Testing currently doesn't work well with the lightweight solution load feature. It works only after at least one of the test projects is loaded. Until then, it won't work because Live Unit Testing is dependent on at least one of the test projects referencing a test adapter (MSTest, xUnit, or NUnit) being loaded.
-
-> [!NOTE]
-> Lightweight solution load is no longer available in Visual Studio 2017 version 15.5 and later. In Visual Studio 2017 version 15.5 and later, large solutions that contain managed code load much faster than previously, even without lightweight solution load.
 
 ## New process coverage
 

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Add controls to a document at runtime in a VSTO Add-in"
+title: "Add controls to document at runtime in VSTO Add-in"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

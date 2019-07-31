@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Display text in a text box in a document using a Button"
+title: "Display text in text box in document using button"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

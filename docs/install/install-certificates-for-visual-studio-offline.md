@@ -129,20 +129,20 @@ If you are scripting the deployment of Visual Studio in an offline environment t
 The three .P12 files in this folder each contain an intermediate certificate and a root certificate. Most systems that are current with Windows Update have these certificates already installed.
 
 * **ManifestSignCertificates.p12** contains:
-    * Intermediate certificate: **Microsoft Code Signing PCA 2011**
-        * Not required. Improves performance in some scenarios if present.
-    * Root certificate: **Microsoft Root Certificate Authority 2011**
-        * Required on Windows 7 Service Pack 1 systems that do not have the latest Windows Updates installed.
+  * Intermediate certificate: **Microsoft Code Signing PCA 2011**
+    * Not required. Improves performance in some scenarios if present.
+  * Root certificate: **Microsoft Root Certificate Authority 2011**
+    * Required on Windows 7 Service Pack 1 systems that do not have the latest Windows Updates installed.
 * **ManifestCounterSignCertificates.p12** contains:
-    * Intermediate certificate: **Microsoft Time-Stamp PCA 2010**
-        * Not required. Improves performance in some scenarios if present.
-    * Root certificate: **Microsoft Root Certificate Authority 2010**
-        * Required for Windows 7 Service Pack 1 systems that do not have the latest Windows Updates installed.
+  * Intermediate certificate: **Microsoft Time-Stamp PCA 2010**
+    * Not required. Improves performance in some scenarios if present.
+  * Root certificate: **Microsoft Root Certificate Authority 2010**
+    * Required for Windows 7 Service Pack 1 systems that do not have the latest Windows Updates installed.
 * **Vs_installer_opc.SignCertificates.p12** contains:
-    * Intermediate certificate: **Microsoft Code Signing PCA**
-        * Required for all systems. Note that systems with all updates applied from Windows Update might not have this certificate.
-    * Root certificate: **Microsoft Root Certificate Authority**
-        * Required. This certificate ships with systems running Windows 7 or later.
+  * Intermediate certificate: **Microsoft Code Signing PCA**
+    * Required for all systems. Note that systems with all updates applied from Windows Update might not have this certificate.
+  * Root certificate: **Microsoft Root Certificate Authority**
+    * Required. This certificate ships with systems running Windows 7 or later.
 
 **Update**: For Visual Studio 2017 version 15.8 Preview 2 or later, the Visual Studio Installer requires only the root certificates to be installed on the system.
 
@@ -151,20 +151,20 @@ The three .P12 files in this folder each contain an intermediate certificate and
 ::: moniker range="vs-2019"
 
 * **ManifestSignCertificates.p12** contains:
-    * Intermediate certificate: **Microsoft Code Signing PCA 2011**
-        * Not required. Improves performance in some scenarios if present.
-    * Root certificate: **Microsoft Root Certificate Authority 2011**
-        * Required on Windows 7 Service Pack 1 systems that do not have the latest Windows Updates installed.
+  * Intermediate certificate: **Microsoft Code Signing PCA 2011**
+    * Not required. Improves performance in some scenarios if present.
+  * Root certificate: **Microsoft Root Certificate Authority 2011**
+    * Required on Windows 7 Service Pack 1 systems that do not have the latest Windows Updates installed.
 * **ManifestCounterSignCertificates.p12** contains:
-    * Intermediate certificate: **Microsoft Time-Stamp PCA 2010**
-        * Not required. Improves performance in some scenarios if present.
-    * Root certificate: **Microsoft Root Certificate Authority 2010**
-        * Required for Windows 7 Service Pack 1 systems that do not have the latest Windows Updates installed.
+  * Intermediate certificate: **Microsoft Time-Stamp PCA 2010**
+    * Not required. Improves performance in some scenarios if present.
+  * Root certificate: **Microsoft Root Certificate Authority 2010**
+    * Required for Windows 7 Service Pack 1 systems that do not have the latest Windows Updates installed.
 * **Vs_installer_opc.SignCertificates.p12** contains:
-    * Intermediate certificate: **Microsoft Code Signing PCA**
-        * Required for all systems. Note that systems with all updates applied from Windows Update might not have this certificate.
-    * Root certificate: **Microsoft Root Certificate Authority**
-        * Required. This certificate ships with systems running Windows 7 or later.
+  * Intermediate certificate: **Microsoft Code Signing PCA**
+    * Required for all systems. Note that systems with all updates applied from Windows Update might not have this certificate.
+  * Root certificate: **Microsoft Root Certificate Authority**
+    * Required. This certificate ships with systems running Windows 7 or later.
 
 The Visual Studio Installer requires only the root certificates to be installed on the system.
 

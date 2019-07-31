@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "CPUs, targeting specific"
   - "64-bit applications [Visual Studio]"
 ms.assetid: 845302fc-273d-4f81-820a-7296ce91bd76
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

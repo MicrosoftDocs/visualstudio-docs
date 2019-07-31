@@ -3,20 +3,18 @@ title: CloudPilot Benefit in to Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 12/19/2018
+ms.date: 07/30/2019
 ms.topic: conceptual
 description:  Learn about the CloudPilot benefit available in selected Visual Studio subscriptions
-searchscope: VS Subscription
 ---
 
 # The CloudPilot benefit in Visual Studio subscriptions
-
 Move your apps to Microsoft Azure in a few easy steps. In minutes, identify all required code changes down to the line of code for successful migration to: Containers, VMs, App Services, SQL Azure, and/or SQL MI. Then, migrate apps to Azure using wizards leveraging ASR, DMA, and DMS.
 
+## Overview
 CloudPilot, by UnifyCloud, is designed to help developers quickly and easily move applications to Azure.  In a fraction of time a manual assessment would take, CloudPilot accurately determines Azure PaaS & IaaS migration costs and provides detailed recommendations, down to the line of code, on what code changes need to be made for the application to run in the Cloud. CloudPilot assists in the initial assessment of the Cloud migration effort and in development planning, in the re-factoring process by offering detailed code-level changes for the Cloud, and in the final testing against enterprise technology controls and policies.
 
 ## Activation steps
-
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
 2. Locate the CloudPilot benefit tile in the "Tools" category, and click on **Get Code**.
@@ -71,9 +69,9 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## Support resources
 - Need help with using CloudPilot?  Check out these resources:
-    - [Contact UnifyCloud](https://www.unifycloud.com/contacts/) for inquiries about UnifyCloud products.
-    - [CloudPilot User Manual](https://www.cloudatlasinc.com/cloudpilot/doc/CloudPilot-User-Manual.pdf )
-    - [Submit a support request](https://support.datacamp.com/hc/requests/new)
+  - [Contact UnifyCloud](https://www.unifycloud.com/contacts/) for inquiries about UnifyCloud products.
+  - [CloudPilot User Manual](https://www.cloudatlasinc.com/cloudpilot/doc/CloudPilot-User-Manual.pdf )
+  - [Submit a support request](https://support.datacamp.com/hc/requests/new)
 
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

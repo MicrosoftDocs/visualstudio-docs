@@ -49,8 +49,8 @@ Rule ID | Title
 [CA1044](ca1044-properties-should-not-be-write-only.md) | Properties should not be write only
 [CA1050](ca1050-declare-types-in-namespaces.md) | Declare types in namespaces
 [CA1051](ca1051-do-not-declare-visible-instance-fields.md) | Do not declare visible instance fields
-[CA1052](ca1052-static-holder-types-should-be-sealed.md) | Static holder types should be static or NotInheritable (see note following this table)
-[CA1053](ca1053-static-holder-types-should-not-have-constructors.md) | Static holder types should not have constructors (see note following this table)
+[CA1052](ca1052-static-holder-types-should-be-sealed.md) | Static holder types should be static or NotInheritable
+[CA1053](ca1053-static-holder-types-should-not-have-constructors.md) | Static holder types should not have constructors (CA1053 is part of [CA1052](ca1052-static-holder-types-should-be-sealed.md) for FxCop analyzers)
 [CA1054](ca1054-uri-parameters-should-not-be-strings.md) | Uri parameters should not be strings
 [CA1055](ca1055-uri-return-values-should-not-be-strings.md) | Uri return values should not be strings
 [CA1056](ca1056-uri-properties-should-not-be-strings.md) | Uri properties should not be strings
@@ -61,8 +61,8 @@ Rule ID | Title
 [CA1063](ca1063-implement-idisposable-correctly.md) | Implement IDisposable Correctly
 [CA1064](ca1064-exceptions-should-be-public.md) | Exceptions should be public
 [CA1065](ca1065-do-not-raise-exceptions-in-unexpected-locations.md) | Do not raise exceptions in unexpected locations
-CA1066 | Type {0} should implement IEquatable<T> because it overrides Equals
-CA1067 | Override Object.Equals(object) when implementing IEquatable<T>
+CA1066 | Type {0} should implement IEquatable\<T> because it overrides Equals
+CA1067 | Override Object.Equals(object) when implementing IEquatable\<T>
 CA1068 | CancellationToken parameters must come last
 CA1200 | Avoid using cref tags with a prefix
 [CA1303](ca1303-do-not-pass-literals-as-localized-parameters.md) | Do not pass literals as localized parameters
@@ -195,9 +195,6 @@ CA5377 | Use Container Level Access Policy
 CA5378 | Do not disable ServicePointManagerSecurityProtocols
 CA5379 | Do Not Use Weak Key Derivation Function Algorithm
 CA9999 | Analyzer version mismatch
-
-> [!NOTE]
-> Rules CA1052 and CA1053 from the original FxCop implementation are combined into a single rule, CA1052, in FxCop analyzers.
 
 ## Unported rules
 
