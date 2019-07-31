@@ -1,6 +1,6 @@
 ---
 title: "Using the IntelliTrace stand-alone collector | Microsoft Docs"
-ms.date: "11/04/2016"
+ms.date: "07/30/2019"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.historicaldebug.collectdataoutsideVS"
@@ -27,7 +27,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
  **Requirements**
 
-- .NET Framework 3.5, 4, or 4.5
+- .NET Framework 3.5 or higher
 
 - Visual Studio Enterprise (but not Professional or Community editions) on a development computer or other computer to open .iTrace files
 
@@ -46,7 +46,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 ## <a name="WhatApps"></a> What apps work with the collector?
 
-- ASP.NET Web apps hosted on Internet Information Services (IIS) version 7.0, 7.5, and 8.0
+- ASP.NET Web apps hosted on Internet Information Services (IIS) version 7.0, 7.5, 8.0, 12.0, and 16.0
 
 - SharePoint 2010 and SharePoint 2013 applications
 
@@ -74,9 +74,9 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 1. On your app's server, create the collector directory, for example: **C:\IntelliTraceCollector**
 
-2. Get the collector from the Microsoft Download Center or from the Visual Studio 2013 Update 3 installation folder. [IntelliTrace Collector for Visual Studio 2013 Update 4](https://www.microsoft.com/en-us/download/details.aspx?id=44909)::
+2. Get the collector from the [Microsoft Download Center](https://visualstudio.microsoft.com/downloads/#intellitrace-standalone-collector-for-visual-studio-2019), [my.visualstudio.com](https://my.visualstudio.com/Downloads?q=intellitrace%20standalone%20collector%20visual%20studio%202017), or from the Visual Studio 2013 Update 3 installation folder. [IntelliTrace Collector for Visual Studio 2013 Update 4](https://www.microsoft.com/en-us/download/details.aspx?id=44909)::
 
-   - **Microsoft Download Center**:
+   - **Microsoft Download Center** or **my.visualstudio.com**:
 
      1. Next to **IntelliTraceCollector.exe**, choose **Download**.
 
@@ -88,7 +88,11 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
    - **Visual Studio installation folder**:
 
-     1. Copy IntelliTraceCollection.cab from the following folder:
+     1. Copy IntelliTraceCollection.cab from the folder where the collector is installed, for example:
+
+          **..\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace**
+
+          or, for previous versions of Visual Studio:
 
           **..\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace\12.0.0**
 
