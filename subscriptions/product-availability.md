@@ -3,7 +3,7 @@ title: Product availability for software downloads in Visual Studio subscription
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/11/2019
+ms.date: 07/29/2019
 ms.topic: conceptual
 description:  Learn about product availability in software downloads for Visual Studio subscriptions
 ---
@@ -33,4 +33,5 @@ The number and type of downloads depends on your subscription level and program 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
 ## Next steps
-Some software downloads may require a product key to install and activate them.  Check out our product keys article for details on how to obtain and manage your product keys. 
+- Some software downloads may require a product key to install and activate them.  Check out our [product keys](product-keys.md) article for details on how to obtain and manage your product keys. 
+- Learn how to [download software](download-software.md).
