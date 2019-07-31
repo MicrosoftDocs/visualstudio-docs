@@ -2,7 +2,7 @@
 title: "Update Visual Studio"
 titleSuffix: ""
 description: "Learn how to update Visual Studio to the most recent release, step-by-step."
-ms.date: 07/11/2019
+ms.date: 07/31/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 ms.prod: visual-studio-windows
@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "update [Visual Studio]"
   - "change [Visual Studio]"
 f1_keywords:
-  - "VS.ToolsOptionsPages.Environment.ProductUpdates" 
+  - "VS.ToolsOptionsPages.Environment.ProductUpdates"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -176,7 +176,7 @@ Here's how to update Visual&nbsp;Studio&nbsp;2019.
 
 1. Open the installer.
 
-     ![Open the Visual Studio Installer](media/vs2019-visual-studio-installer.png "Open the Visual Studio Installer")
+     ![Open the Visual Studio Installer from Windows](media/vs-2019/vs-installer-windows-start.png "Open the Visual Studio Installer")
 
    You might have to update the installer before continuing. If so, follow the prompts.
 
@@ -184,15 +184,17 @@ Here's how to update Visual&nbsp;Studio&nbsp;2019.
 
    For example, if you previously installed Visual&nbsp;Studio Community&nbsp;2019 and there's an update for it, then an **Update available** message appears in the installer.
 
-     ![Select the edition of Visual Studio 2019 that you want to update](media/vs2019-update-visual-studio-community-rc.png "Select the edition of Visual Studio 2019 that you want to update")
+     ![Select the edition of Visual Studio 2019 that you want to update](media/vs-2019/vs-installer-update-visual-studio-community.png "Select the edition of Visual Studio 2019 that you want to update")
 
 1. Choose **Update** to install the updates.
 
-    ![Select the Update button to install the updates](media/vs2019-choose-update-visual-studio-community-rc.png "Select the Update button to install the updates")
+    ![Select the Update button to install the updates](media/vs-2019/vs-installer-choose-update-visual-studio-community.png "Select the Update button to install the updates")
 
-1. After the update is complete, choose **Launch** to start Visual Studio.
+1. After the update is complete, you might be asked to restart your computer. If so, do so, and then start Visual Studio as you typically would.
 
-    ![Select the Launch button to start Visual Studio](media/vs2019-choose-launch-visual-studio-community-rc.png "Select the Launch button to start Visual Studio")
+   If you aren't asked to restart your computer, choose **Launch** to start Visual Studio from the installer.
+
+    ![Select the Launch button to start Visual Studio](media/vs-2019/choose-launch-visual-studio-community.png "Select the Launch button to start Visual Studio")
 
 ## Use the IDE
 
@@ -202,7 +204,7 @@ You can check for an update and then install it by using the menu bar or the sea
 
 1. From the Windows **Start** menu, choose **Visual Studio 2019**.
 
-    ![Open Visual Studio 2019](media/vs2019-visual-studio-rc.png "Open Visual Studio 2019 from Windows")
+    ![Open Visual Studio 2019](media/vs-2019/vs-installer-visual-studio-2019.png "Open Visual Studio 2019 from Windows")
 
 1. Under **Get started**, choose any option to open the IDE.
 
@@ -210,15 +212,15 @@ You can check for an update and then install it by using the menu bar or the sea
 
     Visual Studio opens. In the IDE, a **Visual Studio 2019 update** message appears.
 
-    ![The 'Visual Studio 2019 update' message in the IDE](media/vs2019-update-visual-studio-ide-message.png "The 'Visual Studio 2019 update' message in the IDE")
+    ![The 'Visual Studio 2019 update' message in the IDE](media/vs-2019/update-visual-studio-ide-message.png "The 'Visual Studio 2019 update' message in the IDE")
 
 1. In the **Visual Studio 2019 update** message, choose **View details**.
 
-   ![Choose View Details button in the Visual Studio 2019 IDE update message](media/vs2019-update-visual-studio-ide-view-details.png "Choose the View Details button in the Visual Studio 2019 update message")
+   ![Choose View Details button in the Visual Studio 2019 IDE update message](media/vs-2019/update-visual-studio-ide-view-details.png "Choose the View Details button in the Visual Studio 2019 update message")
 
 1. In the **Update downloaded and ready to install** dialog box, choose **Update**.
 
-     ![Choose the Update button in the 'Update downloaded and ready to install' dialog box](media/vs2019-update-visual-studio-community-rc-from-ide.png "Choose the Update button in the 'Update downloaded and ready to install' dialog box")
+     ![Choose the Update button in the 'Update downloaded and ready to install' dialog box](media/vs-2019/update-ready-install-visual-studio-community-from-ide.png "Choose the Update button in the 'Update downloaded and ready to install' dialog box")
 
    Visual Studio updates, closes, and then reopens.
 
@@ -231,9 +233,9 @@ You can check for an update and then install it by using the menu bar or the sea
     > [!NOTE]
     > You can also use the search box in the IDE to check for updates. Press **Ctrl**+**Q**, type "check for updates", and then choose the search result that matches.
 
-1. In the **Update downloaded and ready to install** dialog box, choose **Update**.
+1. In the **Update available** dialog box, choose **Update**.
 
-     ![Choose the Update button in the 'Update downloaded and ready to install' dialog box](media/vs2019-update-visual-studio-community-rc-from-ide.png "Choose the Update button in the 'Update downloaded and ready to install' dialog box")
+     ![Choose the Update button in the 'Update downloaded and ready to install' dialog box](media/vs-2019/update-visual-studio-community-from-ide.png "Choose the Update button in the 'Update downloaded and ready to install' dialog box")
 
    Visual Studio updates, closes, and then reopens.
 
@@ -252,7 +254,7 @@ You can check for an update and then install it by using the menu bar or the sea
       > [!TIP]
       > An update for an edition of Visual Studio 2019 is cumulative, so always choose to install the one with the most recent version number.
 
-1. In the **Update downloaded and ready to install** dialog box, choose **Update**.
+1. In the **Update available** dialog box, choose **Update**.
 
    Visual Studio updates, closes, and then reopens.
 
@@ -286,6 +288,6 @@ Here's how:
 * [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md)
 * [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 * [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)
-* [Update Visual Studio for Mac](/visualstudio/mac/update)
+* [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 * [Modify Visual Studio](modify-visual-studio.md)
 * [Uninstall Visual Studio](uninstall-visual-studio.md)
