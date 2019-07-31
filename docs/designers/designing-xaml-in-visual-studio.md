@@ -14,6 +14,12 @@ Visual Studio and Blend for Visual Studio both provide visual tools for building
 
 You can switch back and forth between Visual Studio and Blend for Visual Studio, and you can even have the same project open in both IDEs at the same time. Changes made to XAML files in one IDE can be applied via automatic reload when you switch to the other IDE. You can control the reload behavior by navigating to **Tools** > **Options** > **Environment** > **Documents** in either IDE.
 
+## Installation
+
+- To create WPF apps, install the **.NET desktop development** workload in Visual Studio. Blend for Visual Studio will also be installed.
+- To create UWP apps, install the **Universal Windows Platform development** workload in Visual Studio. Blend for Visual Studio will also be installed.
+- To create Xamarin.Forms apps, install the **Mobile development with .NET** workload in Visual Studio.
+
 ## Shared capabilities
 
 For most fundamental development tasks, Visual Studio and Blend for Visual Studio share the same set of windows and capabilities, with some subtle differences. Some highlights include:
@@ -40,8 +46,8 @@ To increase your productivity, consider using Blend for Visual Studio for the fo
 
 | Task | Visual Studio | Blend for Visual Studio | More information |
 | - | - | - | - |
-| **Open a view in Blend** | | | |
-| **Design visual states** | | | |
+| **Open a view in Blend** | Not supported. | | |
+| **Design visual states** | Not supported. | | |
 | **Create animations** |There is no design tool for animations; you have to create them programmatically. This requires an understanding of the animation and timing system in WPF and extensive coding expertise.|You create animations visually and can preview them in Blend for Visual Studio. This is faster and more accurate than building your animations in code. You can add triggers to handle user interaction, and you can switch to code to add event handlers and other functionality.|[Animate objects](../designers/animate-objects-in-xaml-designer.md)|
 |**Turn shapes and text into paths for easier manipulation**|Not supported.|You can make subtle or dramatic changes to shapes (such as rectangles and ellipses) by converting them to paths, which provide better editing control. You can reshape or combine paths, and create compound paths from multiple shapes.<br /><br />You can also convert text blocks into paths to manipulate them as vector images.|[Draw shapes and paths](../designers/draw-shapes-and-paths.md)|
 |**Add interactivity to your UI designs**|Requires C#, Visual Basic, or C++ code.|Drag and drop behaviors onto controls to add interactivity to your static designs. Behaviors are ready-to-use code snippets that encapsulate functionality such as drag/drop, zoom, and visual state changes. There's a growing set of behaviors from which you can choose, and you can create your own.<br /><br />You can then customize each behavior by changing its properties in Blend for Visual Studio or by adding event handlers in code.|[Insert controls and modify their behavior](../designers/insert-controls-and-modify-their-behavior-in-xaml-designer.md)|
