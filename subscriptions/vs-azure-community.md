@@ -1,16 +1,17 @@
 ---
-title: Azure Community Benefit in Visual Studio Subscription | Microsoft Docs
+title: Azure Community Support benefit in Visual Studio Subscription | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
+ms.author: lank
+manager: lank
+ms.date: 07/29/2019
 ms.topic: conceptual
-description:  Learn about the Azure Community benefit included in selected Visual Studio subscriptions.
+description:  Learn about the Azure Community Support benefit included in selected Visual Studio subscriptions.
 ---
 
-# Azure Community
-
+# Azure Community Support forum in Visual Studio subscriptions
 Get help directly from the Azure team within select support forums via Azure Community.  The Azure Community benefit provides you with access to a collection of forums focused on Azure-related topics.
+
+## Available topics
 
 |                                       |                                                    |                                      |
 |---------------------------------------|----------------------------------------------------|--------------------------------------|
@@ -22,7 +23,7 @@ Get help directly from the Azure team within select support forums via Azure Com
 | [Azure Management Portal](https://social.msdn.microsoft.com/Forums/home?forum=windowsazuremanagement&filter=alltypes&sort=lastpostdesc)               | [Azure Backup](https://social.msdn.microsoft.com/forums/home?forum=windowsazureonlinebackup&filter=alltypes&sort=lastpostdesc)                                       | [Azure Stack](https://social.msdn.microsoft.com/forums/home?forum=AzureStack&filter=alltypes&sort=lastpostdesc)                          |
 | [Azure Virtual Machines](https://social.msdn.microsoft.com/Forums/home?forum=WAVirtualMachinesforWindows&filter=alltypes&sort=lastpostdesc)                | [Azure Site Recovery](https://social.msdn.microsoft.com/forums/home?forum=hypervrecovmgr&filter=alltypes&sort=lastpostdesc)                                | [Azure Marketplace](https://social.msdn.microsoft.com/forums/home?forum=DataMarket&filter=alltypes&sort=lastpostdesc)                    |
 
-## Activation Steps
+## Get started
 Getting started with Azure Community is easy.
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
@@ -61,3 +62,6 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 - [Azure documentation](/azure/).
 - Need assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions?  Contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+
+## Next steps
+Did you know that many Visual Studio subscriptions come with Azure credits?  Learn how to [activate](vs-azure.md) yours.
