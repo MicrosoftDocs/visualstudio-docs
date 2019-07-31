@@ -104,3 +104,10 @@
 
 # [Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes)
 # [Preview Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-preview-relnotes)
+# Samples
+## Xamarin Samples
+### [Xamarin Forms Samples](https://docs.microsoft.com/xamarin/xamarin-forms/samples/)
+### [Xamarin.iOS Samples](https://docs.microsoft.com/xamarin/ios/samples/)
+### [Xamarin.Android Samples](https://docs.microsoft.com/xamarin/android/samples/)
+### [Xamarin.Mac Samples](https://docs.microsoft.com/xamarin/mac/samples/)
+## [ASP.NET Core Samples](https://docs.microsoft.com/samples/browse/?products=aspnet-core)
