@@ -44,8 +44,6 @@
       href: display-data-in-blend.md
     - name: Keyboard shortcuts and modifier keys
       items:
-      - name: Overview
-        href: keyboard-shortcuts-and-modifier-keys-in-blend.md
       - name: Keyboard shortcuts
         href: keyboard-shortcuts-in-blend.md
       - name: Artboard modifier keys

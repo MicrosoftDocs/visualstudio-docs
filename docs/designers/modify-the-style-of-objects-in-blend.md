@@ -1,5 +1,6 @@
 ---
-title: Modify the style of objects in Blend
+title: Modify the style of objects
+titleSuffix: Blend for Visual Studio
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
@@ -8,7 +9,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Modify the style of objects in Blend
+# Modify the style of objects in Blend for Visual Studio
 
 The easiest way to customize an object is to set properties in the **Properties** pane.
 
