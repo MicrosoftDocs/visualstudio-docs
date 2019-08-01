@@ -1,7 +1,7 @@
 ---
 title: "Accessibility tips and tricks for Visual Studio"
 description: "Learn more about tips and tricks that can help make the Visual Studio integrated development environment (IDE) more accessible for everyone to use, including people with disabilities."
-ms.date: 02/21/2019
+ms.date: 08/02/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
@@ -62,9 +62,10 @@ Some other useful shortcut key combinations include the following.
 |Toolbox window|Move among Toolbox tabs.|**Ctrl** + **UPARROW**<br /><br /> and<br /><br /> **Ctrl** + **DOWNARROW**|
 |Toolbox window|Add a control from the Toolbox to a form or designer.|**Enter**|
 |Options dialog box: Environment > Keyboard|Delete a key combination entered in the **Press shortcut keys** option.|**Backspace**|
+|Notifications tool window|Open the Notifications tool window by using two keyboard shortcut key combinations, one followed by the other. Then, view a  notification by using the arrow keys to select it.| **Ctrl** + **&#92;** <br>**Ctrl** + **N**|
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition.
+> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition.
 
 ## Use the Sound applet to set build and breakpoint cues
 
