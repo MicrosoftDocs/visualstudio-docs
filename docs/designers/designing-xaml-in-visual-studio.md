@@ -24,21 +24,13 @@ You can switch back and forth between Visual Studio and Blend for Visual Studio,
 
 For most fundamental development tasks, Visual Studio and Blend for Visual Studio share the same set of windows and capabilities, with some subtle differences. Some highlights include:
 
-- **A consistent user interface:** You can design your applications within the familiar context of the Visual Studio user interface, which makes switching between IDEs a more pleasant and productive experience.
+- **IntelliSense:** Both IDEs support IntelliSense capabilities such as statement completion.
 
-- **XAML IntelliSense:** Both IDEs support IntelliSense capabilities, such as statement completion.
+- **Debugging:** You can debug in [Visual Studio](../debugger/inspect-xaml-properties-while-debugging.md) and [Blend for Visual Studio](../debugger/debug-xaml-in-blend.md), including setting breakpoints in code to debug a running app. Make changes to XAML code while your app is running using the [Hot Reload](../debugger/xaml-hot-reload.md) feature. To maintain a consistent debugging experience with Visual Studio, Blend for Visual Studio includes most of Visual Studio's debugging windows and toolbars. Advanced debugging capabilities such as diagnostics and code analysis are only available in Visual Studio.
 
-- **Basic debugging capabilities:** You can debug in Blend, including setting breakpoints in code to debug a running app. To maintain a consistent debugging experience with Visual Studio, Blend for Visual Studio includes most of Visual Studio's debugging windows and toolbars. Advanced debugging capabilities such as diagnostics and code analysis are only available in Visual Studio. For more information about debugging, see [Debug in Visual Studio](../debugger/debugger-feature-tour.md).
+- **File reload:** You can edit your XAML files in either Visual Studio or Blend for Visual Studio. Edited files reload automatically as you switch between IDEs. You can control the reload behavior by navigating to **Tools** > **Options** > **Environment** > **Documents** in either IDE.
 
-- **File reload experience:** You can edit your XAML files in either Visual Studio or Blend for Visual Studio. Edited files reload automatically as you switch between IDEs. You can control the reload behavior by navigating to **Tools** > **Options** > **Environment** > **Documents** in either IDE.
-
-- **Synchronized layouts and settings:** Custom layouts enable you to save and apply tool window layout customizations. Visual Studio synchronizes these customizations and preferences for both Visual Studio and Blend for Visual Studio across machines when you sign in with the same personalization account. See [Synchronize settings across multiple computers](../ide/synchronized-settings-in-visual-studio.md).
-
-- **Solution Explorer:** Solution Explorer provides you with an organized view of your projects and their files and easy access to the commands associated with them. For more information, see [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md).
-
-- **Team Explorer:** With Team Explorer, you can manage your projects with GIT or TFS repositories to facilitate team collaboration. See [Work in Team Explorer](../ide/connect-team-project.md).
-
-- **NuGet:** You can manage NuGet packages in both Visual Studio and Blend for Visual Studio. NuGet is a package manager for the .NET that simplifies the installation and removal of packages from a solution.
+- **Synchronized layouts and settings:** Custom layouts enable you to save and apply tool window layout customizations. Visual Studio synchronizes these customizations and preferences for both Visual Studio and Blend for Visual Studio when you sign in with the same personalization account. See [Synchronize settings across multiple computers](../ide/synchronized-settings-in-visual-studio.md).
 
 ## Advanced capabilities in Blend for Visual Studio
 

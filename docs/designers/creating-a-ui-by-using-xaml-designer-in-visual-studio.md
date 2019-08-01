@@ -1,5 +1,5 @@
 ---
-title: Creating a UI with XAML Designer
+title: XAML Designer overview
 ms.date: 07/31/2019
 ms.topic: conceptual
 f1_keywords:
@@ -16,6 +16,8 @@ manager: jillfra
 # Create a UI by using XAML Designer
 
 The XAML Designer in Visual Studio and Blend for Visual Studio provides a visual interface to help you design XAML-based apps, such as WPF, UWP, and Xamarin.Forms apps. You can create user interfaces for your apps by dragging controls from the Toolbox window (Assets window in Blend for Visual Studio) and setting properties in the Properties window. You can also edit XAML directly in XAML view.
+
+For advanced users, you can even [customize the XAML Designer](../extensibility/xaml-designer-extensibility-migration.md).
 
 ## XAML Designer workspace
 
@@ -95,7 +97,7 @@ Snaplines help you align controls relative to each other. If **snapping to snapl
 
 **Disable project code**
 
-<TBD>
+Disables [project code](debugging-or-disabling-project-code-in-xaml-designer.md), for example, custom controls and value converters, and reloads the designer.
 
 ### XAML view
 
@@ -109,20 +111,18 @@ The Document Outline window in Visual Studio is similar to the Objects and Timel
 
 - View the hierarchical structure of all elements on the artboard.
 
-- Select elements so that you can modify them (for example, move them around in the hierarchy or set their properties in the Properties window). For more information, see [Work with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md)
+- Select elements so that you can modify them (for example, move them around in the hierarchy or set their properties in the Properties window). For more information, see [Work with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md).
 
 - Create and modify templates for elements that are controls.
 
-- Use the right-click menu (context menu) for selected elements. The same menu is also available for selected elements in the artboard.
+- Create animations (Blend for Visual Studio only).
 
 To view the Document Outline window in Visual Studio, on the menu bar select **View** > **Other Windows** > **Document Outline**.
 To view the Objects and Timeline window in Blend for Visual Studio, on the menu bar select **View** > **Objects and Timeline**.
 
 ![Document Outline window in Visual Studio](../designers/media/document-outline-window.png)
 
-The main view in the Document Outline/Objects and Timeline window displays the hierarchy of a document in a tree structure. You can use the hierarchical nature of the document outline to examine the document at varying levels of detail, and to lock and hide elements singly or in groups.
-
-These are the options available in the Document Outline/Objects and Timeline window:
+The main view in the Document Outline/Objects and Timeline window displays the hierarchy of a document in a tree structure. You can use the hierarchical nature of the document outline to examine the document at varying levels of detail, and to lock and hide elements singly or in groups. These are the options available in the Document Outline/Objects and Timeline window:
 
 **Show/hide**
 
