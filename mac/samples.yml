@@ -123,11 +123,11 @@ sections:
          src: media/samples/sample-download.svg
          href: https://docs.microsoft.com/samples/browse/?products=xamarin
        title: All Xamarin samples
-     - href: https://docs.microsoft.com/en-us/samples/browse/?products=aspnet-core
+     - href: https://docs.microsoft.com/samples/browse/?products=aspnet-core
        html: The complete set of ASP.NET Core sample apps and code demos.
        image: 
          src: media/samples/sample-download.svg
-         href: https://docs.microsoft.com/en-us/samples/browse/?products=aspnet-core
+         href: https://docs.microsoft.com/samples/browse/?products=aspnet-core
        title: All ASP.NET Core samples
      - href: https://docs.microsoft.com/samples/browse/?products=dotnet-core
        html: The complete set of .NET Core sample apps and code demos. Note that some of these samples have Windows-specific requirements and so will not run on Visual Studio for Mac
