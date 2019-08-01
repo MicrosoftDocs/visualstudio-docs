@@ -24,7 +24,7 @@ This refactoring applies to:
 
 ## How-to
 
-1. In your project file, [set the language version to preview](/dotnet/csharp/language-reference/configure-language-version#set-the-language-version-in-visual-studio) since `switch` expressions are a new C# 8.0 feature.
+1. In your project file, [set the language version to preview](/dotnet/csharp/language-reference/configure-language-version#edit-the-project-file) since `switch` expressions are a new C# 8.0 feature.
 2. Place your cursor in the `switch` keyword and press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 3. Select **Convert switch statement to expression**.
 

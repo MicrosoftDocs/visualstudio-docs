@@ -32,19 +32,19 @@ Use the following links to find information about technologies that support acce
   
 - [Walkthrough: Creating an Accessible Windows-based Application](https://msdn.microsoft.com/library/654c7f2f-1586-480b-9f12-9d9b8f5cc32b) This topic provides step-by-step instructions for including the five accessibility requirements for the Certified for Windows logo in a sample Windows application.  
   
-- **Guidelines for Keyboard User Interface Design** This technical article describes how design a Windows application user interface that users can navigate from the keyboard. For more information, see [http://msdn2.microsoft.com/library/ms971323.aspx](http://msdn2.microsoft.com/library/ms971323.aspx).  
+- [Guidelines for Keyboard User Interface Design](/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design) This technical article describes how design a Windows application user interface that users can navigate from the keyboard.  
   
-- **Console Accessibility** This technical article describes the APIs and events used to expose the console in Windows XP for accessibility aids. For more information, see [http://msdn2.microsoft.com/library/ms971319.aspx](http://msdn2.microsoft.com/library/ms971319.aspx).  
+- [Console Accessibility](/previous-versions/windows/desktop/dnacc/console-accessibility) This technical article describes the APIs and events used to expose the console in Windows XP for accessibility aids. 
   
 ## Web Sites  
   
 - [Walkthrough: Accessibility Guidelines for Using Image Controls, Menu Controls, and AutoPostBack](https://msdn.microsoft.com/library/ff7b5021-48b3-46bf-921f-9fe1e0e32202) This topic provides step-by-step instructions for including accessible controls in a sample Web page as well as some accessibility design tips for the Web.  
   
-- **Making Web Pages More Accessible** This technical article lists HTML 3.2 elements that are accessible as well as elements that can be made accessible for use in Web site development. For more information, see [http://msdn2.microsoft.com/library/ms971309.aspx](http://msdn2.microsoft.com/library/ms971309.aspx).  
+- [Making Web Pages More Accessible](/previous-versions/windows/desktop/dnacc/making-web-pages-more-accessible) This technical article lists HTML 3.2 elements that are accessible as well as elements that can be made accessible for use in Web site development. 
   
-- **Creating Accessible Web Pages with DHTML** This technical article lists HTML 4.0 elements that are accessible as well as accessible Web design tips. For more information, see [http://msdn2.microsoft.com/library/ms528445.aspx](http://msdn2.microsoft.com/library/ms528445.aspx).  
+- [Creating Accessible Web Pages with DHTML](/previous-versions//ms528445(v=vs.85)) This technical article lists HTML 4.0 elements that are accessible as well as accessible Web design tips. 
   
-- **Text Alternatives to Inaccessible Web Pages** This technical article describes how to use XML and XSLT to provide multiple views of the same Web page, such as text only versions. For more information, see [http://msdn2.microsoft.com/library/aa468593.aspx](http://msdn2.microsoft.com/library/aa468593.aspx).  
+- [Text Alternatives to Inaccessible Web Pages](/previous-versions/windows/desktop/dnacc/text-alternatives-to-inaccessible-web-pages) This technical article describes how to use XML and XSLT to provide multiple views of the same Web page, such as text only versions. 
   
 ### Third-party Resources  
   
