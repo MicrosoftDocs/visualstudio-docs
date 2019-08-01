@@ -19,39 +19,41 @@
       href: how-to-create-and-apply-a-resource.md
     - name: "Walkthrough: Bind to data in XAML Designer"
       href: walkthrough-binding-to-data-in-xaml-designer.md
-    - name: Keyboard shortcuts for XAML Designer
-      href: keyboard-shortcuts-for-xaml-designer.md
     - name: Debug or disable project code
       href: debugging-or-disabling-project-code-in-xaml-designer.md
-    - name: XAML errors and warnings
-      href: xaml-errors-warnings.md
-  - name: Blend for Visual Studio
-    items:
-    - name: Overview
-      displayName: Blend for Visual Studio
-      href: creating-a-ui-by-using-blend-for-visual-studio.md
-    - name: Insert controls and modify their behavior
-      href: insert-controls-and-modify-their-behavior-in-xaml-designer.md
-    - name: Insert images, videos, and audio clips
-      href: insert-images-videos-and-audio-clips-in-xaml-designer.md
-    - name: Draw shapes and paths
-      href: draw-shapes-and-paths.md
-    - name: Modify the style of objects in Blend
-      href: modify-the-style-of-objects-in-blend.md
-    - name: Animate objects
-      href: animate-objects-in-xaml-designer.md
-    - name: Display data
-      href: display-data-in-blend.md
-    - name: Keyboard shortcuts and modifier keys
+    - name: Reference
       items:
-      - name: Keyboard shortcuts
-        href: keyboard-shortcuts-in-blend.md
-      - name: Artboard modifier keys
-        href: artboard-modifier-keys-in-blend.md
-      - name: Pen tool modifier keys
-        href: pen-tool-modifier-keys-in-blend.md
-      - name: Direct selection tool modifier keys
-        href: direct-selection-tool-modifier-keys-in-blend.md
+      - name: XAML errors and warnings
+        href: xaml-errors-warnings.md
+      - name: Keyboard shortcuts for XAML Designer
+        href: keyboard-shortcuts-for-xaml-designer.md
+    - name: Blend for Visual Studio
+      items:
+      - name: Overview
+        displayName: Blend for Visual Studio
+        href: creating-a-ui-by-using-blend-for-visual-studio.md
+      - name: Insert controls and modify their behavior
+        href: insert-controls-and-modify-their-behavior-in-xaml-designer.md
+      - name: Insert images, videos, and audio clips
+        href: insert-images-videos-and-audio-clips-in-xaml-designer.md
+      - name: Draw shapes and paths
+        href: draw-shapes-and-paths.md
+      - name: Modify the style of objects in Blend
+        href: modify-the-style-of-objects-in-blend.md
+      - name: Animate objects
+        href: animate-objects-in-xaml-designer.md
+      - name: Display data
+        href: display-data-in-blend.md
+      - name: Keyboard shortcuts and modifier keys
+        items:
+        - name: Keyboard shortcuts
+          href: keyboard-shortcuts-in-blend.md
+        - name: Artboard modifier keys
+          href: artboard-modifier-keys-in-blend.md
+        - name: Pen tool modifier keys
+          href: pen-tool-modifier-keys-in-blend.md
+        - name: Direct selection tool modifier keys
+          href: direct-selection-tool-modifier-keys-in-blend.md
 - name: Windows Presentation Foundation (WPF)
   items:
   - name: Get started
