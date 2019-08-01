@@ -107,7 +107,7 @@
 # Samples
 ## [Featured Samples](samples.yml)
 ## [ASP.NET Core Samples](https://docs.microsoft.com/samples/browse/?products=aspnet-core)
-## [.NET Core Samples](https://docs.microsoft.com/en-us/samples/browse/?products=dotnet-core)
+## [.NET Core Samples](https://docs.microsoft.com/samples/browse/?products=dotnet-core)
 ## [Xamarin Forms Samples](https://docs.microsoft.com/xamarin/xamarin-forms/samples/)
 ## [Xamarin.iOS Samples](https://docs.microsoft.com/xamarin/ios/samples/)
 ## [Xamarin.Android Samples](https://docs.microsoft.com/xamarin/android/samples/)
