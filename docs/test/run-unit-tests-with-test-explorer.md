@@ -1,7 +1,7 @@
 ---
 title: "Run and debug unit tests with Test Explorer"
 description: Learn how to run tests with Test Explorer in Visual Studio. This topic covers how to enable automatic test runs after build, view test results, group and filter the test list, create playlists, debug tests, and use test shortcuts.
-ms.date: 11/04/2016
+ms.date: 07/29/2019
 ms.topic: conceptual
 f1_keywords:
   - "vs.unittesting.testexplorer.overview"
@@ -13,26 +13,44 @@ ms.workload:
 ---
 # Run unit tests with Test Explorer
 
-Use **Test Explorer** to run unit tests from Visual Studio or third-party unit test projects. You can also use **Test Explorer** to group tests into categories, filter the test list, and create, save, and run playlists of tests. You can debug tests and analyze test performance and code coverage.
+Use Test Explorer to run unit tests from Visual Studio or third-party unit test projects. You can also use Test Explorer to group tests into categories, filter the test list, and create, save, and run playlists of tests. You can debug tests and analyze test performance and code coverage.
 
-Visual Studio includes the Microsoft unit testing frameworks for both managed and native code. However, **Test Explorer** can also run any unit test framework that has implemented a Test Explorer adapter. For more information about installing third-party unit test frameworks, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
+Visual Studio includes the Microsoft unit testing frameworks for both managed and native code. However, Test Explorer can also run any unit test framework that has implemented a Test Explorer adapter. For more information about installing third-party unit test frameworks, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
 
 **Test Explorer** can run tests from multiple test projects in a solution and from test classes that are part of the production code projects. Test projects can use different unit test frameworks. When the code under test is written for .NET, the test project can be written in any language that also targets .NET, regardless of the language of the target code. Native C/C++ code projects must be tested by using a C++ unit test framework. For more information, see [Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md).
 
 ## Run tests in Test Explorer
 
+
 When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.
 
-![Test Explorer](../test/media/ute_failedpassednotrunsummary.png)
 
+::: moniker range="vs-2017"
+![Unit Test Explorer](../test/media/ute_failedpassednotrunsummary.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+![Test Explorer](../test/media/vs-2019/test-explorer-16-2.png)
+::: moniker-end
+
+::: moniker range="vs-2017"
 As you run, write, and rerun your tests, Test Explorer displays the results in default groups of **Failed Tests**, **Passed Tests**, **Skipped Tests** and **Not Run Tests**. You can change the way Test Explorer groups your tests.
+::: moniker-end
+::: moniker range=">=vs-2019"
+As you run, write, and rerun your tests, the Test Explorer displays the results in a default grouping of **Project**, **Namespace**, and **Class**. You can change the way the Test Explorer groups your tests.
+::: moniker-end
 
 You can perform much of the work of finding, organizing and running tests from the **Test Explorer** toolbar.
 
+::: moniker range="vs-2017"
 ![Run tests from the Test Explorer toolbar](../test/media/ute_toolbar.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+![Run tests from the Test Explorer toolbar](../test/media/vs-2019/test-explorer-toolbar-diagram-16-2.png)
+::: moniker-end
 
 ### Run tests
 
+::: moniker range="vs-2017"
 You can run all the tests in the solution, all the tests in a group, or a set of tests that you select. Do one of the following:
 
 - To run all the tests in a solution, choose **Run All**.
@@ -44,15 +62,31 @@ You can run all the tests in the solution, all the tests in a group, or a set of
 - If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
 The **pass/fail bar** at the top of the **Test Explorer** window is animated as the tests run. At the conclusion of the test run, the **pass/fail bar** turns green if all tests passed or turns red if any test failed.
+::: moniker-end
+::: moniker range=">=vs-2019"
+You can run all the tests in the solution, all the tests in a group, or a set of tests that you select. Do one of the following:
+
+- To run all the tests in a solution, choose the **Run All** icon.
+
+- To run all the tests in a default group, choose the **Run** icon and then choose the group on the menu.
+
+- Select the individual tests that you want to run, open the right-click menu for a selected test and then choose **Run Selected Tests**.
+
+- If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution in the settings menu of the toolbar. This can noticeably reduce the time taken to run all the tests.
+::: moniker-end
 
 ### Run tests after every build
-
+::: moniker range="vs-2017"
 |Button|Description|
 |-|-|
 |![Run after build](../test/media/ute_runafterbuild_btn.png)|To run your unit tests after each local build, choose **Test** on the standard menu, and then choose **Run Tests After Build** on the **Test Explorer** toolbar.|
 
 > [!NOTE]
 > Running unit tests after each build requires Visual Studio 2017 Enterprise or Visual Studio 2019. In Visual Studio 2019 it is included in Community and Professional as well as Enterprise.
+::: moniker-end
+::: moniker range=">=vs-2019"
+To run your unit tests after each local build, open the settings icon in the Test Explorer toolbar and select **Run Tests After Build**.
+::: moniker-end
 
 ## View test results
 
@@ -62,7 +96,12 @@ As you run, write, and rerun your tests, Test Explorer displays the results in g
 
 To view the details of an individual test, select the test.
 
+::: moniker range="vs-2017"
 ![Test execution details](../test/media/ute_testdetails.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+![Test execution details](../test/media/vs-2019/test-explorer-detail.png)
+::: moniker-end
 
 The test details pane displays the following information:
 
@@ -88,18 +127,41 @@ Test Explorer lets you group your tests into predefined categories. Most unit te
 
 ### Group tests in the test list
 
+::: moniker range="vs-2017"
 To change the way that tests are organized, choose the down arrow next to the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and select a new grouping criteria.
 
 ![Group tests by category in Test Explorer](../test/media/ute_groupbycategory.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+Test Explorer lets you group your tests into a hierarchy. The default hierarchy grouping is **Project**, **Namespace**, and then **Class**. To change the way that tests are organized, choose the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and select a new grouping criteria.
+
+![Group tests by category in Test Explorer](../test/media/vs-2019/test-explorer-groupby-162.png)
+
+You can define your own levels of the hierarchy and group by **State** and then **Class** for example by selecting Group By options in your preferred order.
+
+![Group by State and then Class](../test/media/vs-2019/test-explorer-groupby-state-16-2.png)
+::: moniker-end
 
 ### Test Explorer groups
 
+::: moniker range="vs-2017"
 |Group|Description|
 |-|-----------------|
 |**Duration**|Groups test by execution time: **Fast**, **Medium**, and **Slow**.|
 |**Outcome**|Groups tests by execution results: **Failed Tests**, **Skipped Tests**, **Passed Tests**.|
 |**Traits**|Groups test by category/value pairs that you define. The syntax to specify trait categories and values is defined by the unit test framework.|
 |**Project**|Groups test by the name of the projects.|
+::: moniker-end
+::: moniker range=">=vs-2019"
+|Group|Description|
+|-|-----------------|
+|**Duration**|Groups tests by execution time: **Fast**, **Medium**, and **Slow**.|
+|**State**|Groups tests by execution results: **Failed Tests**, **Skipped Tests**, **Passed Tests**, **Not Run**|
+|**Target Framework** | Groups tests by the framework their projects target |
+|**Namespace**|Groups tests by the containing namespace.|
+|**Project**|Groups tests by the containing project.|
+|**Class**|Groups tests by the containing class.|
+::: moniker-end
 
 ### Group by traits
 
@@ -116,13 +178,66 @@ In the Microsoft unit test framework for managed apps, you define a trait name/ 
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute>|The TestCategory attribute enables you to provide a category without a value. A category defined by the TestCategory attribute can also be the category of a TestProperty attribute.|
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute>|The TestProperty attribute enables you to define trait category/value pair.|
 
+
 **Traits in the Microsoft Unit Testing Framework for C++**
 
  See [How to use the Microsoft Unit Testing Framework for C++](how-to-use-microsoft-test-framework-for-cpp.md).
 
-### Search and filter the test list
+## Create custom playlists
 
-You can use Test Explorer filters to limit the test methods in your projects that you view and run.
+::: moniker range="vs-2017"
+You can create and save a list of tests that you want to run or view as a group. When you select a playlist, the tests in the list are displayed in Test Explorer. You can add a test to more than one playlist, and all tests in your project are available when you choose the default **All Tests** playlist.
+
+![Choose a playlist](../test/media/ute_playlist.png)
+
+**To create a playlist**, choose one or more tests in Test Explorer. On the right-click menu, choose **Add to Playlist** > **NewPlaylist**. Save the file with the name and location that you specify in the **Create New Playlist** dialog box.
+
+**To add tests to a playlist**, choose one or more tests in Test Explorer. On the right-click menu, choose **Add to Playlist**, and then choose the playlist that you want to add the tests to.
+
+**To open a playlist**, choose **Test** > **Playlist** from the Visual Studio menu, and either choose from the list of recently used playlists, or choose **Open Playlist** to specify the name and location of the playlist.
+
+If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
+::: moniker-end
+::: moniker range=">=vs-2019"
+You can create and save a list of tests that you want to run or view as a group. When you select a playlist, the tests in the list are displayed in a new Test Explorer tab. You can add a test to more than one playlist.
+
+**To create a playlist**, choose one or more tests in Test Explorer. On the right-click menu, choose **Add to Playlist** > **New Playlist**.
+
+![Create a playlist](../test/media/vs-2019/test-explorer-playlist-16-2.png)
+
+The playlist opens in a new Test Explorer tab. You can use this playlist once and then discard it, or you can click the **Save** button in the playlist window's toolbar, and then select a name and location to save the playlist.
+
+![Playlist opens in separate test explorer tab](../test/media/vs-2019/test-explorer-playlist-tab-16-2.png)
+
+**To add tests to a playlist**, choose one or more tests in Test Explorer. Right-click and choose **Add to Playlist** > **New playlist**. 
+
+**To open a playlist**, choose the playlist icon in the Visual Studio toolbar and select a previously saved playlist file from the menu.
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+### Test Explorer columns
+
+The [groups](#test-explorer-groups) are also available as columns in Test Explorer, along with Trait, Stack Trace, Error Message, and Fully Qualified Name. Most columns are not visible by default, and you can customize which columns you see and the order in which they appear.
+
+![Group by State and then Class](../test/media/vs-2019/test-explorer-columns-16-2.png)
+
+### Filter, sort, and rearrange test columns
+
+Columns can be filtered, sorted, and rearranged. 
+* To filter to specific traits, click the filter icon at the top of the Traits column.
+
+  ![Column filter](../test/media/vs-2019/test-explorer-filter-column-16-2.png)
+
+* To change the order of the columns, click on a column header and drag it left or right.
+
+* To sort a column, click on the column header. Not all columns can be sorted.
+
+  ![Column sort](../test/media/vs-2019/test-explorer-sort-column-16-2.png)
+::: moniker-end
+
+## Search and filter the test list
+
+You can also use Test Explorer search filters to limit the test methods in your projects that you view and run.
 
 When you type a string in the **Test Explorer** search box and choose **Enter**, the test list is filtered to display only those tests whose fully qualified names contain the string.
 
@@ -134,7 +249,12 @@ To filter by a different criteria:
 
 3. Enter the filter value between the quotation marks.
 
+::: moniker range="vs-2017"
 ![Filter tests in Test Explorer](../test/media/ute_filtertestlist.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+![Filter tests in Test Explorer](../test/media/vs-2019/test-explorer-search-filter-16-2.png)
+::: moniker-end
 
 > [!NOTE]
 > Searches are case insensitive and match the specified string to any part of the criteria value.
@@ -151,25 +271,11 @@ To filter by a different criteria:
 
 To exclude a subset of the results of a filter, use the following syntax:
 
-```cpp
+```
 FilterName:"Criteria" -FilterName:"SubsetCriteria"
 ```
 
 For example, `FullName:"MyClass" - FullName:"PerfTest"` returns all tests that include "MyClass" in their name, except tests that also include "PerfTest" in their name.
-
-## Create custom playlists
-
-You can create and save a list of tests that you want to run or view as a group. When you select a playlist, the tests in the list are displayed in Test Explorer. You can add a test to more than one playlist, and all tests in your project are available when you choose the default **All Tests** playlist.
-
-![Choose a playlist](../test/media/ute_playlist.png)
-
-**To create a playlist**, choose one or more tests in Test Explorer. On the right-click menu, choose **Add to Playlist** > **NewPlaylist**. Save the file with the name and location that you specify in the **Create New Playlist** dialog box.
-
-**To add tests to a playlist**, choose one or more tests in Test Explorer. On the right-click menu, choose **Add to Playlist**, and then choose the playlist that you want to add the tests to.
-
-**To open a playlist**, choose **Test** > **Playlist** from the Visual Studio menu, and either choose from the list of recently used playlists, or choose **Open Playlist** to specify the name and location of the playlist.
-
-If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
 ## Debug and analyze unit tests
 
@@ -186,7 +292,7 @@ You can use Test Explorer to start a debugging session for your tests. Stepping 
 
 ### Diagnose test method performance issues
 
-To diagnose why a test method is taking too much time, select the method in Test Explorer and then choose **Profile** on the right-click menu. See [Performance Explorer](../profiling/performance-explorer.md).
+To diagnose why a test method is taking too much time, select the method in Test Explorer and then choose **Profile Selected Test** on the right-click menu. See [Performance Explorer](../profiling/performance-explorer.md).
 
 ### Analyze unit test code coverage
 
@@ -194,6 +300,7 @@ You can determine the amount of your product code that is actually being tested 
 
 To run code coverage for test methods in a solution:
 
+::: moniker range="vs-2017"
 1. Choose **Test** on the top menu bar and then choose **Analyze code coverage**.
 
 2. Choose one of the following commands from the sub-menu:
@@ -201,6 +308,10 @@ To run code coverage for test methods in a solution:
     - **Selected tests** runs the test methods that you have selected in Test Explorer.
 
     - **All tests** runs all the test methods in the solution.
+::: moniker-end
+::: moniker range=">=vs-2019"
+* Right-click in the Test Explorer and select **Analyze Code Coverage for Selected tests**
+::: moniker-end
 
 The **Code Coverage Results** window displays the percentage of the blocks of product code that were exercised by line, function, class, namespace and module.
 
