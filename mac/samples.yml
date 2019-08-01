@@ -8,23 +8,9 @@ metadata:
   ms.date: 07/31/2019
   ms.topic: sample
 abstract:
-  description: Xamarin and .NET CoreSample apps and code demos to help you get started building projects with Visual Studio for Mac.
+  description: Xamarin samples apps and code demos to help you get started building projects with Visual Studio for Mac.
 sections:
-- title: ASP.NET Core
-  items:
-   - type: list
-     style: cards
-     className: cardsW
-     items:
-     - href: hhttps://docs.microsoft.com/en-us/samples/azure-samples/dotnet-core-api/aspnet-core-api-sample-for-azure-app-service/
-       html: This is a sample application that you can use to follow along with the tutorial at Run a RESTful API with CORS in Azure App Service.
-       image:
-         src: media/samples/todo-dotnet.png
-         href: https://docs.microsoft.com/en-us/samples/azure-samples/dotnet-core-api/aspnet-core-api-sample-for-azure-app-service/
-       title: ASP.NET Core API sample for Azure App Service
-
-
-- title: Xamarin Forms
+- title: Xamarin.Forms
   items:
    - type: list
      style: cards
