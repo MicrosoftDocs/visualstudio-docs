@@ -10,7 +10,7 @@ manager: jillfra
 ---
 # Design XAML in Visual Studio and Blend for Visual Studio
 
-Visual Studio and Blend for Visual Studio both provide visual tools for building engaging user interfaces and rich media experiences with XAML for a variety of app types. Both interactive development environments (IDE) share a common set of features, including a visual XAML editor (designer). Blend for Visual Studio provides additional design tools for more advanced tasks such as designing visual states and creating animations.
+Visual Studio and Blend for Visual Studio both provide visual tools for building engaging user interfaces and rich media experiences with XAML for a variety of app types. Both interactive development environments (IDE) share a common set of features, including a visual XAML editor (designer). Blend for Visual Studio, which supports the WPF and UWP platforms, provides additional tools for designing visual states and creating animations.
 
 You can switch back and forth between Visual Studio and Blend for Visual Studio, and you can even have the same project open in both IDEs at the same time. Changes made to XAML files in one IDE can be applied via automatic reload when you switch to the other IDE. You can control the reload behavior by navigating to **Tools** > **Options** > **Environment** > **Documents** in either IDE.
 
@@ -18,7 +18,7 @@ You can switch back and forth between Visual Studio and Blend for Visual Studio,
 
 - To create WPF apps, install the **.NET desktop development** workload in Visual Studio. Blend for Visual Studio will also be installed.
 - To create UWP apps, install the **Universal Windows Platform development** workload in Visual Studio. Blend for Visual Studio will also be installed.
-- To create Xamarin.Forms apps, install the **Mobile development with .NET** workload in Visual Studio.
+- To create Xamarin.Forms apps, install the **Mobile development with .NET** workload in Visual Studio. Blend for Visual Studio is *not* installed.
 
 ## Shared capabilities
 
@@ -26,7 +26,7 @@ For most fundamental development tasks, Visual Studio and Blend for Visual Studi
 
 - **IntelliSense:** Both IDEs support IntelliSense capabilities such as statement completion.
 
-- **Debugging:** You can debug in [Visual Studio](../debugger/inspect-xaml-properties-while-debugging.md) and [Blend for Visual Studio](../debugger/debug-xaml-in-blend.md), including setting breakpoints in code to debug a running app. Make changes to XAML code while your app is running using the [Hot Reload](../debugger/xaml-hot-reload.md) feature. To maintain a consistent debugging experience with Visual Studio, Blend for Visual Studio includes most of Visual Studio's debugging windows and toolbars. Advanced debugging capabilities such as diagnostics and code analysis are only available in Visual Studio.
+- **Debugging:** You can debug in [Visual Studio](../debugger/inspect-xaml-properties-while-debugging.md) and [Blend for Visual Studio](../debugger/debug-xaml-in-blend.md), including setting breakpoints in code to debug a running app. To maintain a consistent debugging experience with Visual Studio, Blend for Visual Studio includes most of Visual Studio's debugging windows and toolbars. [Hot Reload](../debugger/xaml-hot-reload.md), which lets you change your XAML code while the app is running, and code analysis are only available in Visual Studio.
 
 - **File reload:** You can edit your XAML files in either Visual Studio or Blend for Visual Studio. Edited files reload automatically as you switch between IDEs. You can control the reload behavior by navigating to **Tools** > **Options** > **Environment** > **Documents** in either IDE.
 
