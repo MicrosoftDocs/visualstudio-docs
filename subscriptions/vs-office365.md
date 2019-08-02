@@ -3,7 +3,7 @@ title: Office 365 Benefit | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 12/19/2018
+ms.date: 08/02/2019
 ms.topic: conceptual
 description:  Learn about the Office 365 benefit included in some Visual Studio subscriptions.
 ---
@@ -65,3 +65,9 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 - For technical support with any component of EMS, please visit https://support.microsoft.com/allproducts and select the product.
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+
+## Next steps
+Be sure to activate these great benefits to make the most of your Visual Studio subscription:
+- [Visual Studio](vs-ide-benefit.md)
+- [Azure DevOps](vs-azure-devops.md)
+- [Azure credits](vs-azure.md)
