@@ -1,9 +1,9 @@
 ---
 title: Pluralsight benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 01/25/2019
+ms.author: lank
+manager: lank
+ms.date: 08/02/2019
 ms.topic: conceptual
 description:  Learn about the Pluralsight training subscription included with selected Visual Studio subscriptions.
 ---
@@ -27,22 +27,16 @@ The table below details what Pluralsight subscription benefits are available to 
    > **"Please note:   If you have previously activated a different Pluralsight offer through your Visual Studio subscription, this code may not enable you to create a new Pluralsight account."**
 
 2. You’ll receive a notification that the coupon code has been successfully retrieved.  Click **Activate**.
-   > [!div class="mx-imgBorder"]
-   > ![Pluralsight Benefit Activate](_img/vs-pluralsight/vs-pluralsight-activate.png)
 
 3. You'll be redirected to the Pluralsight page for the benefit that's included with your Visual Studio subscription.
    - Provide the contact information requested on the form
    - Click the checkbox to accept the terms of use and privacy policy
    - Click **I agree, activate benefit**.
-     > [!div class="mx-imgBorder"]
-     > ![Pluralsight Benefit Activation](_img/vs-pluralsight/vs-pluralsight-create-account-no-code.png)  
-     > [!div class="mx-imgBorder"]
-     > ![Pluralsight Benefit Terms](_img/vs-pluralsight/vs-pluralsight-terms.png)
+   > [!div class="mx-imgBorder"]
+   > ![Pluralsight Activate your benefit](_img/vs-pluralsight/vs-pluralsight-create-account.png)
 
 5. It may take a moment to set up your account.  Once that's complete, you'll see a confirmation on the page, and will receive an email with your login information.  The email will be sent to the alias you specified when you created the account.  Be sure to check your junk or spam mail folders if you have trouble finding the message.
-   > [!div class="mx-imgBorder"]
-   > ![Pluralsight Benefit Confirmation](_img/vs-pluralsight/vs-pluralsight-confirmation-vse.png)
-   >
+
    > [!NOTE]
    > If your account is not eligible to redeem new offers, the email you receive will explain that there was a problem creating your account because it's not eligible.  It will also contain information to help you contact Pluralsight's support team, who can answer any questions you may have about your account.
 
@@ -51,8 +45,6 @@ The table below details what Pluralsight subscription benefits are available to 
    > ![Pluralsight Benefit Welcome Email](_img/vs-pluralsight/vs-pluralsight-welcome-email.png)
 
 7. Enter the username provided in the welcome email, and the password you just created, and click **Sign in**.
-   > [!div class="mx-imgBorder"]
-   > ![Pluralsight Benefit Login](_img/vs-pluralsight/vs-pluralsight-login.png)
 
 8. That's it!  You're now ready to start learning with thousands of Pluralsight courses!
    > [!div class="mx-imgBorder"]
