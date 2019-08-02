@@ -32,8 +32,6 @@
       - name: Overview
         displayName: Blend for Visual Studio
         href: creating-a-ui-by-using-blend-for-visual-studio.md
-      - name: Insert controls and modify their behavior
-        href: insert-controls-and-modify-their-behavior-in-xaml-designer.md
       - name: Insert images, videos, and audio clips
         href: insert-images-videos-and-audio-clips-in-xaml-designer.md
       - name: Draw shapes and paths

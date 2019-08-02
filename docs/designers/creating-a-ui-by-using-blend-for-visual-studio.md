@@ -75,7 +75,6 @@ Hover over each button in the window to learn more about the available functiona
 
 ## See also
 
-- [Insert controls and modify their behavior](../designers/insert-controls-and-modify-their-behavior-in-xaml-designer.md)
 - [Animate objects](../designers/animate-objects-in-xaml-designer.md)
 - [Draw shapes and paths](../designers/draw-shapes-and-paths.md)
 - [Designing XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md)
