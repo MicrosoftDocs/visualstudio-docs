@@ -105,9 +105,9 @@ In **XAML** view, the window containing the XAML editor is the active window, an
 
 ![XAML view](../designers/media/xaml-editor.png)
 
-## Document Outline window/Objects and Timeline window
+## Document Outline window
 
-The Document Outline window in Visual Studio is similar to the Objects and Timeline window in Blend for Visual Studio. Document Outline/Objects and Timeline help you perform these tasks:
+The Document Outline window in Visual Studio is similar to the [Objects and Timeline window](creating-a-ui-by-using-blend-for-visual-studio.md#objects-and-timeline-window) in Blend for Visual Studio. Document Outline helps you perform these tasks:
 
 - View the hierarchical structure of all elements on the artboard.
 
@@ -115,14 +115,14 @@ The Document Outline window in Visual Studio is similar to the Objects and Timel
 
 - Create and modify templates for elements that are controls.
 
-- Create animations (Blend for Visual Studio only).
+- [Create animations](animate-objects-in-xaml-designer.md) (Blend for Visual Studio only).
 
 To view the Document Outline window in Visual Studio, on the menu bar select **View** > **Other Windows** > **Document Outline**.
-To view the Objects and Timeline window in Blend for Visual Studio, on the menu bar select **View** > **Objects and Timeline**.
+To view the Objects and Timeline window in Blend for Visual Studio, on the menu bar select **View** > **Document Outline**.
 
 ![Document Outline window in Visual Studio](../designers/media/document-outline-window.png)
 
-The main view in the Document Outline/Objects and Timeline window displays the hierarchy of a document in a tree structure. You can use the hierarchical nature of the document outline to examine the document at varying levels of detail, and to lock and hide elements singly or in groups. These are the options available in the Document Outline/Objects and Timeline window:
+The main view in the Document Outline/Objects and Timeline window displays the hierarchy of a document in a tree structure. You can use the hierarchical nature of the document outline to examine the document at varying levels of detail and to lock and hide elements singly or in groups. These are the options available in the Document Outline/Objects and Timeline window:
 
 **Show/hide**
 
