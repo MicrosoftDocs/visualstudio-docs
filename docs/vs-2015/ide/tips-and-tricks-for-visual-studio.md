@@ -140,4 +140,3 @@ See [Keyboard shortcuts: Visual Studio Online, TFS web portal, and Team Explorer
 - [Visual Studio Blog](http://blogs.msdn.com/b/visualstudio)
 - [Visual Studio Tips and Tricks Blog](http://blogs.msdn.com/b/zainnab)
 - [Visual Studio Toolbox on Channel 9](http://channel9.msdn.com/Shows/Visual-Studio-Toolbox)
-- [Visual Studio UserVoice](http://visualstudio.uservoice.com/forums/121579-visual-studio)

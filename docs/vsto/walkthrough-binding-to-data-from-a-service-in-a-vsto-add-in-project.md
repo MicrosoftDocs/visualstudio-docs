@@ -59,7 +59,7 @@ ms.workload:
 
 3. In the **Address** field, type the following URL:
 
-     **http://services.msdn.microsoft.com/ContentServices/ContentService.asmx**
+     **http:\//services.msdn.microsoft.com/ContentServices/ContentService.asmx**
 
 4. Click **Go**.
 
