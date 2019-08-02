@@ -1,15 +1,15 @@
 ---
 title: WhiteSource Bolt Benefit | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
+ms.author: lank
+manager: lank
+ms.date: 08/01/2019
 ms.topic: conceptual
 description:  Learn how to activate the WhiteSource Bolt subscription included with your Visual Studio subscription.
 ---
 # WhiteSource Bolt in Visual Studio subscriptions
 
-Find and fix open source vulnerabilities and generate comprehensive inventory and license reports of all open source components in your build. Some Visual Studio subscriptions include six months of free access.
+Find and fix open source vulnerabilities and generate comprehensive inventory and license reports of all open source components in your build. 
 
 ## Activation steps
 
@@ -39,3 +39,5 @@ WhiteSource Bolt is now available free in the Visual Studio Marketplace.
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
+## Next steps
+As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  With your [monthly Azure credit](vs-azure.md), Azure is your personal sandbox for dev/test.  You can provision virtual machines, cloud services, and other Azure resources.  Credit amounts vary by subscription level.
