@@ -884,6 +884,8 @@
   items:
   - name: Create a Software Development Kit
     href: creating-a-software-development-kit.md
+  - name: SDK versus NuGet package
+    href: ide/adding-references-using-nuget-versus-an-extension-sdk.md
   - name: "Walkthrough: Creating an SDK using C# or Visual Basic"
     href: walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md
   - name: "Walkthrough: Creating an SDK using C++"
