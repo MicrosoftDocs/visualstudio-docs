@@ -1,20 +1,20 @@
 ---
 title: Adding References Using NuGet Versus an Extension SDK
-ms.date: 11/04/2016
+ms.date: 08/02/2019
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Adding references using NuGet versus an extension SDK
+# NuGet versus SDK as a project reference
 
-You can provide a package for consumption within Visual Studio projects by using either NuGet or a software development kit (SDK). By describing the similarities and differences between the two mechanisms, this article can help you choose the best one for your task.
+This article is designed to help developers choose whether to package their software as a NuGet package or as a software development kit (SDK). Specifically, it discusses differences between the two when they're referenced in a Visual Studio project.
 
-- NuGet is an open-source, package-management system that simplifies the process of incorporating libraries into a project solution. For more information, see the [NuGet documentation](/nuget).
+- [NuGet](/nuget) is an open-source package-management system that simplifies the process of incorporating libraries into a project. For .NET (including .NET Core), NuGet is the Microsoft-supported mechanism for sharing code. NuGet defines how packages for .NET are created, hosted, and consumed, and provides the tools for each of those roles. In Visual Studio, you add NuGet packages to a project by using the [Package Manager](/nuget/consume-packages/install-use-packages-visual-studio) user interface.
 
-- An SDK is a collection of files that Visual Studio treats as a single reference item. The **Reference Manager** dialog box lists all SDKs that are relevant to the project that's open when you display that dialog box. When you add an SDK to a project, you can access all of the contents of that SDK through IntelliSense, the **Toolbox**, designers, the **Object Browser**, MSBuild, deployment, debugging, and packaging. For more information about SDKs, see [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md).
+- An [SDK](../extensibility/creating-a-software-development-kit.md) is a collection of files that Visual Studio treats as a single reference item. The Reference Manager dialog box in Visual Studio lists all SDKs that are relevant to the current project when you choose **Add Reference**. When you add an SDK to a project, you can access all of the contents of that SDK through IntelliSense, the Toolbox window, designers, the Object Browser, MSBuild, deployment, debugging, and packaging.
 
 ## Which mechanism should I use?
 
@@ -57,7 +57,6 @@ The following table helps you compare the referencing features of an SDK with th
 | The mechanism supports package manager auto-updates. | N/A | The SDK gets revised with MSBuild. | Y | |
 | The mechanism supports a lightweight manifest format. | Y | *SDKManifest.xml* supports many attributes, but a small subset is usually necessary. | Y | |
 | The mechanism is available for  all Visual Studio editions. | Y | The SDK supports all Visual Studio editions. | Y | NuGet supports all Visual Studio editions. |
-| The mechanism is available for  all project types. | N | The SDK supports [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps starting in [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)]. | N | You can review a list of allowed projects. |
 
 ## See also
 
