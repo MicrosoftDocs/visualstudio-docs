@@ -1,7 +1,7 @@
 ---
 title: "Accessibility tips and tricks for Visual Studio"
 description: "Learn more about tips and tricks that can help make the Visual Studio integrated development environment (IDE) more accessible for everyone to use, including people with disabilities."
-ms.date: 02/21/2019
+ms.date: 08/02/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
@@ -55,16 +55,17 @@ Some other useful shortcut key combinations include the following.
 |Feature|Description|Key Combination|
 |-------------|-----------------| - |
 |IDE|Switch High Contrast on and off. <br> <br> **NOTE:** Standard Windows shortcut|**Left Alt + Left Shift + PrtScn**|
-|Dialog box|Select or clear the check box option in a dialog box. <br> <br> **NOTE:** Standard Windows shortcut|**SPACEBAR**|
+|Dialog box|Select or clear the check box option in a dialog box. <br> <br> **NOTE:** Standard Windows shortcut|**Spacebar**|
 |Context menus|Open a context (right-click) menu. <br> <br> **NOTE:** Standard Windows shortcut|**Shift** + **F10**|
 |Menus|Quickly access a menu item by using its accelerator keys. Choose the **Alt** key followed by the underlined letters in a menu to activate the command. For example, to view the Open Project dialog box in Visual Studio, you would choose **Alt** + **F** + **O** + **P**.  <br><br> **NOTE:** Standard Windows shortcut|**Alt** + **[letter]**|
 |Search box|Use the search feature in Visual Studio.|**Ctrl** + **Q**|
-|Toolbox window|Move among Toolbox tabs.|**Ctrl** + **UPARROW**<br /><br /> and<br /><br /> **Ctrl** + **DOWNARROW**|
+|Toolbox window|Move among Toolbox tabs.|**Ctrl** + **Up arrow**<br /><br /> and<br /><br /> **Ctrl** + **Down arrow**|
 |Toolbox window|Add a control from the Toolbox to a form or designer.|**Enter**|
 |Options dialog box: Environment > Keyboard|Delete a key combination entered in the **Press shortcut keys** option.|**Backspace**|
+|Notifications tool window|Open the Notifications tool window by using two keyboard shortcut key combinations, one followed by the other. Then, view a  notification by using the arrow keys to select it.| **Ctrl** + **&#92;** <br>**Ctrl** + **N**|
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition.
+> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition.
 
 ## Use the Sound applet to set build and breakpoint cues
 

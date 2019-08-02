@@ -160,7 +160,7 @@ You're now ready to add a bit of Python code to implement a minimal web app.
 
 **Question: Where can I learn more about Flask?**
 
-**Answer**: Refer to the Flask documentation, starting with the [Flask Quickstart](http://flask.pocoo.org/docs/0.12/quickstart/#quickstart).
+**Answer**: Refer to the Flask documentation, starting with the [Flask Quickstart](https://flask.palletsprojects.com/en/1.1.x/quickstart/#quickstart).
 
 ## Run the application
 
