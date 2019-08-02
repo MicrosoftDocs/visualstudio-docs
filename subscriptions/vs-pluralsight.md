@@ -48,8 +48,6 @@ The table below details what Pluralsight subscription benefits are available to 
 7. Enter the username provided in the welcome email, and the password you just created, and click **Sign in**.
 
 8. That's it!  You're now ready to start learning with thousands of Pluralsight courses!
-   > [!div class="mx-imgBorder"]
-   > ![Pluralsight Benefit Home](_img/vs-pluralsight/vs-pluralsight-home.png)
 
 ## Eligibility
 
