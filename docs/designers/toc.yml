@@ -17,7 +17,7 @@
       href: organize-objects-into-layout-containers-in-xaml-designer.md
     - name: Create and apply a resource
       href: how-to-create-and-apply-a-resource.md
-    - name: "Walkthrough: Bind to data in XAML Designer"
+    - name: "Walkthrough: Bind to data"
       href: walkthrough-binding-to-data-in-xaml-designer.md
     - name: Debug or disable project code
       href: debugging-or-disabling-project-code-in-xaml-designer.md
@@ -36,7 +36,7 @@
         href: insert-images-videos-and-audio-clips-in-xaml-designer.md
       - name: Draw shapes and paths
         href: draw-shapes-and-paths.md
-      - name: Modify the style of objects in Blend
+      - name: Modify the style of objects
         href: modify-the-style-of-objects-in-blend.md
       - name: Animate objects
         href: animate-objects-in-xaml-designer.md

@@ -79,7 +79,7 @@ Right-click an object in the [Objects and Timeline](../designers/creating-a-ui-b
 
 ### Restore the default style or template of a control
 
-Select the control, and in the [Properties](../designers/creating-a-ui-by-using-blend-for-visual-studio.md#properties-window) window, locate the **Style** or **Template** property. Choose **Advanced options**, and then click **Reset** on the shortcut menu.
+Select the control, and in the **Properties**** window, locate the **Style** or **Template** property. Choose **Advanced options**, and then click **Reset** on the shortcut menu.
 
 ## Visual states: Change the appearance of a control based on its state
 
