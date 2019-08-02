@@ -43,7 +43,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Options, Text Editor, All Languages
+# Options dialog box: Text Editor \> All Languages
 
 This dialog box allows you to change the default behavior of the Code Editor. These settings also apply to other editors based upon the Code Editor, such as the HTML Designer's Source view. To open this dialog box, select **Options** from the **Tools** menu. Within the **Text Editor** folder, expand the **All Languages** subfolder and then choose **General**.
 

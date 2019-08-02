@@ -3,19 +3,17 @@ title: CAST Highlight Benefit in to Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 12/19/2018
+ms.date: 07/30/2019
 ms.topic: conceptual
 description:  Learn about the CAST Highlight benefit available in selected Visual Studio subscriptions
 ---
 
 # The CAST Highlight benefit in Visual Studio subscriptions
-
 Developers need critical insights on their software when migrating to the cloud. With CAST Highlight, Visual Studio Enterprise subscribers can rapidly scan their application source code to identify the cloud readiness of their applications for migration to Azure and monitor progress of their app both during and after a migration.
 
 Visual Studio Enterprise subscribers can get a free, full feature one-month subscription to CAST Highlight for up to five apps per subscriber.
 
 ## Activation steps
-
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
 2. Locate the CAST Highlight benefit tile in the "Tools" category, and click on **Get Code**.
@@ -34,9 +32,6 @@ Visual Studio Enterprise subscribers can get a free, full feature one-month subs
    > Activations of the CAST Highlight benefit are limited to ten per organization.  If your organization's ten activations have already been consumed, you will be unable to activate the CAST Highlight benefit and you'll receive an email with further information.
 
 0. After you submit your information, you'll see a page confirming receipt of your request.
-
-    > [!div class="mx-imgBorder"]
-    > ![CAST Highlight Thank You Page](_img/vs-cast-highlight/vs-cast-highlight-thankyou.png)
 
 0. The CAST team will evaluate your request, and will contact you to finalize creation of your account.
 
@@ -73,7 +68,6 @@ Upon approval of your request, you'll receive a second email confirming successf
    > Be sure to click on the activation link in the email you receive.  Otherwise, you will not be able to access your CAST Highlight subscription. If you don't see the email in your inbox, be sure to check your spam folders.
 
 ## Eligibility
-
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail, | Assess 5 apps for 30 days|  No.  Available to new subscribers only          |
@@ -99,7 +93,6 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## Next steps
-
 If you haven't already activated the Azure benefit that comes with your subscription, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the Azure tile in the Tools category to set up your Azure subscription and redeem your Azure credits.
 
 And don't forget to check out the demo, user's guide, and tutorial videos mentioned in Greg's email.

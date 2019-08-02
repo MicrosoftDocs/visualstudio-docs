@@ -49,5 +49,4 @@ If you're familiar with word wrap in Notepad++, Sublime Text, or Visual Studio C
 
 ## See also
 
-- [Text Editor Options Dialog Box](../../ide/reference/text-editor-options-dialog-box.md)
 - [Features of the code editor](../../ide/writing-code-in-the-code-and-text-editor.md)

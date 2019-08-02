@@ -1,19 +1,21 @@
 ---
 title: Publish Page, Project Designer
 ms.date: 11/04/2016
+ms.technology: vs-ide-deployment
 ms.topic: reference
 f1_keywords:
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.PropertyPage"
 helpviewer_keywords:
   - "Project Designer, Publish page"
   - "Publish page in Project Designer"
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Publish Page, Project Designer
+
 The **Publish** page of the **Project Designer** is used to configure properties for ClickOnce deployment.
 
  To access the **Publish** page, select a project node in **Solution Explorer**, and then, on the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Publish** tab.
@@ -22,6 +24,7 @@ The **Publish** page of the **Project Designer** is used to configure properties
 > Some of the ClickOnce properties described here can also be set in the **PublishWizard**, available from the **Build** menu or by clicking the **PublishWizard** button on this page.
 
 ## UIElement List
+
  **Publishing Folder Location**
 
  Specifies the location where the application is published. Can be a drive path (`C:\deploy\myapplication`), a file share (`\\server\myapplication`), or an FTP server (`ftp://ftp.microsoft.com/myapplication`). Note that text must be present in the **Publishing Location** box in order for the browse (**...**) button to work.
@@ -70,7 +73,7 @@ The **Publish** page of the **Project Designer** is used to configure properties
 
  Publishes the application using the current settings. Equivalent to the **Finish** button in the **PublishWizard**.
 
-## See Also
+## See also
 
 - [Publishing ClickOnce Applications](../../deployment/publishing-clickonce-applications.md)
 - [How to: Publish a ClickOnce Application using the Publish Wizard](../../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

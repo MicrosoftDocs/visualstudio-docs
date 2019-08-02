@@ -1571,6 +1571,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/get-started/csharp/tutorial-projects-solutions.md",
+            "redirect_url": "/visualstudio/get-started/tutorial-projects-solutions",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/how-to-target-a-version-of-the-dotnet-framework.md",
             "redirect_url": "/visualstudio/ide/visual-studio-multi-targeting-overview",
             "redirect_document_id": false
@@ -1958,6 +1963,16 @@
         {
             "source_path": "docs/ide/refactoring-code-generation-quick-actions.md",
             "redirect_url": "/visualstudio/ide/quick-actions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/reference/text-editor-options-dialog-box.md",
+            "redirect_url": "/visualstudio/ide/reference/options-text-editor-general",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/reference/environment-options-dialog-box.md",
+            "redirect_url": "/visualstudio/ide/reference/general-environment-options-dialog-box",
             "redirect_document_id": false
         },
         {
@@ -7932,6 +7947,21 @@
         },
         {
             "source_path": "subscriptions/volume-license-onboarding-email.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/resend-assignment-email.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/volume-license-admins.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/post-migration-onboarding.md",
             "redirect_url": "/visualstudio/subscriptions",
             "redirect_document_id": false
         }
