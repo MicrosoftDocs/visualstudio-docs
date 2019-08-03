@@ -18,7 +18,7 @@ You can switch back and forth between Visual Studio and Blend for Visual Studio,
 
 - To create WPF apps, install the **.NET desktop development** workload in Visual Studio. Blend for Visual Studio will also be installed.
 - To create UWP apps, install the **Universal Windows Platform development** workload in Visual Studio. Blend for Visual Studio will also be installed.
-- To create Xamarin.Forms apps, install the **Mobile development with .NET** workload in Visual Studio. Blend for Visual Studio is *not* installed.
+- To create Xamarin.Forms apps, install the **Mobile development with .NET** workload in Visual Studio. Blend for Visual Studio is *not* installed; Blend doesn't support Xamarin.Forms apps.
 
 ## Shared capabilities
 
@@ -26,7 +26,7 @@ For most fundamental development tasks, Visual Studio and Blend for Visual Studi
 
 - **IntelliSense:** Both IDEs support IntelliSense capabilities such as statement completion.
 
-- **Debugging:** You can debug in [Visual Studio](../debugger/inspect-xaml-properties-while-debugging.md) and [Blend for Visual Studio](../debugger/debug-xaml-in-blend.md), including setting breakpoints in code to debug a running app. To maintain a consistent debugging experience with Visual Studio, Blend for Visual Studio includes most of Visual Studio's debugging windows and toolbars. [Hot Reload](../debugger/xaml-hot-reload.md), which lets you change your XAML code while the app is running, and code analysis are only available in Visual Studio.
+- **Debugging:** You can debug in [Visual Studio](../debugger/inspect-xaml-properties-while-debugging.md) and [Blend for Visual Studio](../debugger/debug-xaml-in-blend.md), including setting breakpoints in code to debug a running app. To maintain a consistent debugging experience with Visual Studio, Blend for Visual Studio includes most of Visual Studio's debugging windows and toolbars. [Hot Reload](../debugger/xaml-hot-reload.md), which lets you change your XAML code while the app is running, is only available in Visual Studio.
 
 - **File reload:** You can edit your XAML files in either Visual Studio or Blend for Visual Studio. Edited files reload automatically as you switch between IDEs. You can control the reload behavior by navigating to **Tools** > **Options** > **Environment** > **Documents** in either IDE.
 
@@ -38,8 +38,7 @@ To increase your productivity, consider using Blend for Visual Studio for the fo
 
 | Task | Visual Studio | Blend for Visual Studio | More information |
 | - | - | - | - |
-| **Open a view in Blend** | Not supported. | | |
-| **Design visual states** | Not supported. | | |
+| **Design visual states** | Not supported. | Change the appearance of a control based on its state. | [Visual states](modify-the-style-of-objects-in-blend.md#visual-states) |
 | **Create animations** |There is no design tool for animations; you have to create them programmatically. This requires an understanding of the animation and timing system in WPF and extensive coding expertise.|You create animations visually and can preview them in Blend for Visual Studio. This is faster and more accurate than building your animations in code. You can add triggers to handle user interaction, and you can switch to code to add event handlers and other functionality.|[Animate objects](../designers/animate-objects-in-xaml-designer.md)|
 |**Turn shapes and text into paths for easier manipulation**|Not supported.|You can make subtle or dramatic changes to shapes (such as rectangles and ellipses) by converting them to paths, which provide better editing control. You can reshape or combine paths, and create compound paths from multiple shapes.<br /><br />You can also convert text blocks into paths to manipulate them as vector images.|[Draw shapes and paths](../designers/draw-shapes-and-paths.md)|
 |**Use Adobe artwork**|Not supported.|Import Adobe FXG, PhotoShop, or Illustrator artwork, and implement the UI in Blend for Visual Studio.|[Insert images, videos, and audio clips](../designers/insert-images-videos-and-audio-clips-in-xaml-designer.md)|

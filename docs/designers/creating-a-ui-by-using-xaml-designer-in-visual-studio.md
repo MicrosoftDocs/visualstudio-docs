@@ -75,10 +75,6 @@ These commands are available on this toolbar:
 
 Zoom enables you to size the design surface. You can zoom from 12.5% to 800% or select options such as **Fit selection** and **Fit all**.
 
-**Turn off rendering of Effects**
-
-<TBD>
-
 **Show/Hide snap grid**
 
 Displays or hides the snap grid that shows the gridlines. Gridlines are used when you enable either **snapping to gridlines** or **snapping to snaplines**.

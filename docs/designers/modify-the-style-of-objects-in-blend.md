@@ -81,9 +81,9 @@ Right-click an object in the [Objects and Timeline](../designers/creating-a-ui-b
 
 Select the control, and in the **Properties**** window, locate the **Style** or **Template** property. Choose **Advanced options**, and then click **Reset** on the shortcut menu.
 
-## Visual states: Change the appearance of a control based on its state
+## Visual states
 
-Controls can have different visual appearances based on user interactions. For example, you can make a button turn green when a user clicks it or you can run an animation. You shorten or lengthen the time between visual states by using transitions.
+Visual states let you change the appearance of a control based on its state. Controls can have different visual appearances based on user interactions. For example, you can make a button turn green when a user clicks it, or you can run an animation. Shorten or lengthen the time between visual states by using transitions.
 
 ![Mouse over state](../designers/media/a95c671a-5639-40b9-83db-1e6b214330d5.png)
 
