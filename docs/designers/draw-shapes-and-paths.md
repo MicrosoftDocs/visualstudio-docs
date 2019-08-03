@@ -80,9 +80,12 @@ Use the **Selection** tool to select the path. Use the **Pen** tool to click any
 
 ## Convert a shape to a path
 
-To modify a shape in the same ways that you modify a path, convert the shape to a path.
+To modify a shape in the same ways that you modify a path, convert the shape to a path. Select the shape, and then select **Format** > **Path** > **Convert to Path**.
 
 **Watch a short video:** ![Configure installed features](../designers/media/bldadminconsoleinitialconfigicon.png) [Working with paths: Convert a shape to a path](https://www.youtube.com/watch?v=Io5bC0-nH6Q#t=147).
+
+> [!NOTE]
+> **Convert to Path** is not currently available for UWP apps that have a minimum `TargetPlatformVersion` of 10.0.16299.0.
 
 ## Combine paths
 
