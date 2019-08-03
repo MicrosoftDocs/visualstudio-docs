@@ -1822,8 +1822,9 @@ using (var a = b) { }
 | **Rule name** | csharp_style_prefer_switch_expression |
 | **Rule ID** | IDE0066 |
 | **Applicable languages** | C# 8.0+ |
-| **Values** | `true` - Prefer to use a `switch` expression<br /><br />`false` - Prefer to use a [switch statement](/dotnet/csharp/language-reference/keywords/switch) |
+| **Values** | `true` - Prefer to use a `switch` expression (introduced with C# 8.0)<br /><br />`false` - Prefer to use a [switch statement](/dotnet/csharp/language-reference/keywords/switch) |
 | **Visual Studio default** | `true:suggestion` |
+| **Introduced version** | Visual Studio 2019 version 16.2 |
 
 Code examples:
 
