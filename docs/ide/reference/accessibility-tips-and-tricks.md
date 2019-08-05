@@ -67,6 +67,16 @@ Some other useful shortcut key combinations include the following.
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition.
 
+## Access the Notifications window by using keyboard shortcuts
+
+When a notification appears in the IDE, here's how you can access the Notifications tool window by using shortcut keys:
+
+1. From anywhere in the IDE, press the following two keyboard shortcut combinations, one after the other: **Ctrl**+**&#92;**, **Ctrl**+**N**.
+
+   ![Notifications tool window in the Visual Studio IDE](media/.png "Notifications tool window in the Visual Studio IDE")
+
+1. Use the arrow keys to select a notification.
+
 ## Use the Sound applet to set build and breakpoint cues
 
 You can use the Sound applet in Windows to assign a sound to Visual Studio program events. Specifically, you can assign sounds to the following program events:
@@ -91,19 +101,10 @@ Here's how:
 1. In the **Sound** dialog box, click the **Sounds** tab. <br><br>
    Then, in **Program Events**, scroll to **Microsoft Visual Studio**, and select the sounds that you want to apply to the events that you choose.
 
-   ![Sounds tab of the Sound applet in Windows 10](media/sound-applet.png)
+   ![Sounds tab of the Sound applet in Windows 10](media/sound-applet.png "Sounds tab of the Sound applet in Windows 10")
 
 1. Click **OK**.
  
-## Access the Notifications tool window by using keyboard shortcuts
-
-When a notification appears in the IDE, here's how you can access the Notifications tool window by using shortcut keys:
-
-1. From anywhere in the IDE, press the following two keyboard shortcut combinations, one after the other: **Ctrl**+**&#92;**, **Ctrl**+**N**.
-1. Use the arrow keys to select a notification.
-
-
-
 ## See also
 
 * [Accessibility features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
