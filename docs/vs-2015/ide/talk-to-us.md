@@ -15,7 +15,7 @@ manager: jillfra
 # Talk to Us
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio, see [Talk to Us](https://docs.microsoft.com/visualstudio/ide/talk-to-us).  
+For the latest documentation on Visual Studio, see [Talk to Us](https://docs.microsoft.com/visualstudio/ide/feedback-options).  
 
 We're interested in your ideas for improving our documentation. We can’t respond personally, but we’ll make sure your feedback gets to the right person.  
   
@@ -26,7 +26,7 @@ We're interested in your ideas for improving our documentation. We can’t respo
  If you are running into issues using Visual Studio such as crashes, sluggish performance, unexpected behavior, and so on, please report the problem to us by right-clicking on the feedback icon next to **QuickLaunch**, or by choosing **Help &#124; Send Feedback &#124; Report a Problem** from the main menu. For more information, see [How to Report a Problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio-2015.md).  
   
 ## I want to make a suggestion about Visual Studio features  
- If there's something we can do better please let us know! Choose **Provide a Suggestion** to suggest a feature or change to the Visual Studio team. Your suggestion will automatically be posted to [UserVoice](https://visualstudio.uservoice.com) where others can vote for it.  
+ If there's something we can do better please let us know! Choose **Provide a Suggestion** to suggest a feature or change to the Visual Studio team.   
   
 ## Rate this product  
  Pre-release versions of Visual Studio have a **Rate this Product** menu item that enables you to send feedback on the quality of the build you are running. You won't see this in released versions of the product.  
