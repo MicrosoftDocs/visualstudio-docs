@@ -1,6 +1,6 @@
 ---
 title: IPython REPL (interactive window)
-description: Use the Visual Studio interactive window in IPython mode for a user-friendly interactive development environment with Interactive Parallel Computing features.
+description: Use the Visual Studio interactive window in IPython mode for a user-friendly integrated development environment with Interactive Parallel Computing features.
 ms.date: 01/28/2019
 ms.topic: conceptual
 author: JoshuaPartlow
@@ -14,7 +14,7 @@ ms.workload:
 
 # Use IPython in the Interactive window
 
-The Visual Studio **Interactive** window in IPython mode is an advanced yet user-friendly interactive development environment that has Interactive Parallel Computing features. This article walks through using IPython in the Visual Studio **Interactive** window, in which all of the regular [Interactive window](python-interactive-repl-in-visual-studio.md) features are also available.
+The Visual Studio **Interactive** window in IPython mode is an advanced yet user-friendly integrated development environment that has Interactive Parallel Computing features. This article walks through using IPython in the Visual Studio **Interactive** window, in which all of the regular [Interactive window](python-interactive-repl-in-visual-studio.md) features are also available.
 
 For this walkthrough you should have the [Anaconda](https://www.continuum.io) environment installed, which includes IPython and the necessary libraries.
 
