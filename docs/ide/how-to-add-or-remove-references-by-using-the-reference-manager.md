@@ -1,6 +1,6 @@
 ---
 title: Add references in the Reference Manager
-ms.date: 04/11/2018
+ms.date: 08/02/2019
 ms.topic: conceptual
 f1_keywords:
   - "VS.ReferenceManager"
@@ -24,21 +24,23 @@ ms.workload:
 ---
 # How to: Add or remove references by using the Reference Manager
 
-You can use the **Reference Manager** dialog box to add and manage references to components that you, Microsoft, or another company developed. If you're developing a Universal Windows app, your project automatically references all of the correct Windows SDK DLLs. If you are developing a .NET application, your project automatically references *mscorlib.dll*. Some .NET APIs are exposed in components that you have to add manually. References to COM components or custom components have to be added manually.
+You can use the Reference Manager dialog box to add and manage references to components that you, Microsoft, or another company developed. If you're developing a Universal Windows app, your project automatically references all of the correct Windows SDK DLLs. If you are developing a .NET application, your project automatically references *mscorlib.dll*. Some .NET APIs are exposed in components that you have to add manually. References to COM components or custom components have to be added manually.
 
 ## Reference Manager dialog box
 
-The **Reference Manager** dialog box shows different categories on the left side, depending on the project type:
+The Reference Manager dialog box shows different categories on the left side, depending on the project type:
 
-- **Assemblies**, with the **Framework** and **Extensions** subgroups.
+- **Assemblies**, with **Framework** and **Extensions** subgroups
 
-- **COM**, lists all COM components that are available for referencing.
+- **COM** lists all COM components that are available for referencing
 
-- **Solution**, with the **Projects** subgroup.
+- **Projects**
 
-- **Windows**, with the **Core** and **Extensions** subgroups. You can explore the references in the Windows SDK or extension SDKs by using the **Object Browser**.
+- **Shared Projects**
 
-- **Browse**, with the **Recent** subgroup.
+- **Windows**, with **Core** and **Extensions** subgroups. You can explore the references in the Windows SDK or extension SDKs by using the **Object Browser**.
+
+- **Browse**, with **Recent** subgroup
 
 ## Add a reference
 
@@ -56,7 +58,7 @@ When you manually add a reference to any of the EnvDTE namespaces (<xref:EnvDTE>
 
 All desktop projects contain an implicit reference to **mscorlib**. Visual Basic projects contain an implicit reference to <xref:Microsoft.VisualBasic>. All projects contain an implicit reference to **System.Core**, even if it's removed from the list of references.
 
-If a project type doesn't support assemblies, the tab won't appear in the **Reference Manager** dialog box.
+If a project type doesn't support assemblies, the tab won't appear in the Reference Manager dialog box.
 
 The **Assemblies** tab consists of two sub-tabs:
 
@@ -136,6 +138,10 @@ A project can reference another project that targets a different framework versi
 > [!NOTE]
 > A project that targets the .NET Framework 4 is incompatible with a project that targets the .NET Framework 4 Client Profile.
 
+## Shared Projects tab
+
+Add a reference to a shared project on the **Shared Projects** tab of the Reference Manager dialog box. [Shared Projects](/xamarin/cross-platform/app-fundamentals/shared-projects?tabs=windows) let you write common code that's referenced by a number of different application projects.
+
 ## Universal Windows tab
 
 The **Universal Windows** tab lists all SDKs that are specific to platforms on which Windows operating systems run.
@@ -149,28 +155,28 @@ Universal Windows app projects have a reference to the Universal Windows SDK by 
 
 **Extensions** lists the user SDKs that extend the targeted Windows platform.
 
-An SDK is a collection of files that Visual Studio treats as a single component. In the **Extensions** tab, SDKs that apply to the project from which the **Reference Manager** dialog box was invoked are listed as single entries. When added to a project, all of the SDK content is consumed by Visual Studio such that the user doesn't need to take any further actions to leverage the SDK contents in IntelliSense, toolbox, designers, Object Browser, build, deployment, debugging, and packaging.
+An SDK is a collection of files that Visual Studio treats as a single component. In the **Extensions** tab, SDKs that apply to the project from which the Reference Manager dialog box was invoked are listed as single entries. When added to a project, all of the SDK content is consumed by Visual Studio such that the user doesn't need to take any further actions to leverage the SDK contents in IntelliSense, toolbox, designers, Object Browser, build, deployment, debugging, and packaging.
 
 For information about how to display your SDK in the **Extensions** tab, see [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md).
 
 > [!NOTE]
-> If a project references an SDK that depends on another SDK, Visual Studio won't consume the second SDK unless you manually add a reference to the second SDK. When a user chooses an SDK on the **Extensions** tab, the **Reference Manager** dialog box helps you identify SDK dependencies by listing any dependencies in the details pane.
+> If a project references an SDK that depends on another SDK, Visual Studio won't consume the second SDK unless you manually add a reference to the second SDK. When a user chooses an SDK on the **Extensions** tab, the Reference Manager dialog box helps you identify SDK dependencies by listing any dependencies in the details pane.
 
-If a project type doesn't support extensions, this tab doesn't appear in the **Reference Manager** dialog box.
+If a project type doesn't support extensions, this tab doesn't appear in the Reference Manager dialog box.
 
 ## COM tab
 
 The **COM** tab lists all COM components that are available for referencing. If you want to add a reference to a registered COM DLL that contains an internal manifest, unregister the DLL first. Otherwise, Visual Studio adds the assembly reference as an ActiveX control instead of as a native DLL.
 
-If a project type doesn't support COM, the tab doesn't appear in the **Reference Manager** dialog box.
+If a project type doesn't support COM, the tab doesn't appear in the Reference Manager dialog box.
 
-## Browse button
+## Browse
 
 You can use the **Browse** button to browse for a component in the file system.
 
 A project can reference a component that targets a different framework version. For example, you could create an application that targets .NET Framework 4.7 but references a component that targets .NET Framework 4. For more information, see [Framework targeting overview](../ide/visual-studio-multi-targeting-overview.md).
 
-Avoid adding file references to outputs of another project in the same solution, because this tactic may cause compilation errors. Instead, use the **Solution** tab of the **Reference Manager** dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries that you create in your projects. For more information, see [Troubleshoot broken references](../ide/troubleshooting-broken-references.md).
+Avoid adding file references to outputs of another project in the same solution, because this tactic may cause compilation errors. Instead, use the **Solution** tab of the Reference Manager dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries that you create in your projects. For more information, see [Troubleshoot broken references](../ide/troubleshooting-broken-references.md).
 
 You can't browse to an SDK and add it to your project. You can only browse to a file (for example, an assembly or *.winmd*) and add it to your project.
 
@@ -195,7 +201,7 @@ When doing a file reference to a WinMD, the expected layout is that the *\<FileN
 
 ## Search
 
-The search bar in the **Reference Manager** dialog box operates over the tab that's in focus. For example, if a user types "System" in the search bar while the **Solution** tab is in focus, the search won't return any results unless the solution consists of a project name that contains "System".
+The search bar in the Reference Manager dialog box operates over the tab that's in focus. For example, if a user types "System" in the search bar while the **Solution** tab is in focus, the search won't return any results unless the solution consists of a project name that contains "System".
 
 ## See also
 

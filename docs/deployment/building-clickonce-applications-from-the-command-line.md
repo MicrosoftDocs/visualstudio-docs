@@ -68,6 +68,9 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
 5. Type `msbuild /target:publish`.
 
    The above steps will produce a full [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application deployment in a subfolder of your project named **Publish**. *CmdLineDemo.application* is the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest. The folder *CmdLineDemo_1.0.0.0* contains the files *CmdLineDemo.exe* and *CmdLineDemo.exe.manifest*, the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. *Setup.exe* is the bootstrapper, which by default is configured to install the .NET Framework. The DotNetFX folder contains the redistributables for the .NET Framework. This is the entire set of files you need to deploy your application over the Web or via UNC or CD/DVD.
+   
+> [!NOTE]
+> The MSBuild system uses the **PublishDir** option to specify the location for output, for example `msbuild /t:publish /p:PublishDir="<specific location>"`.
 
 ## Publish properties
  When you publish the application in the above procedures, the following properties are inserted into your project file by the Publish Wizard. These properties directly influence how the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is produced.

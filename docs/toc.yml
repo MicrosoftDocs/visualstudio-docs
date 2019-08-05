@@ -194,8 +194,6 @@
           href: ide/managing-references-in-a-project.md
         - name: Add or remove references by using the Reference Manager
           href: ide/how-to-add-or-remove-references-by-using-the-reference-manager.md
-        - name: Add references using NuGet versus an extension SDK
-          href: ide/adding-references-using-nuget-versus-an-extension-sdk.md
         - name: Add or remove imported namespaces (Visual Basic)
           href: ide/how-to-add-or-remove-imported-namespaces-visual-basic.md
         - name: Troubleshoot broken references
