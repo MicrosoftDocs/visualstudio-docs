@@ -1,7 +1,7 @@
 ---
 title: "Write and debug XAML using XAML Hot Reload"
 description: "XAML Hot Reload, or XAML edit and continue, allows you to make changes to your XAML code while running apps"
-ms.date: "02/28/2019"
+ms.date: "08/05/2019"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "xaml edit and continue"
@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Write and debug running XAML code with XAML Hot Reload in Visual Studio
 
-Visual Studio XAML Hot Reload helps you build your WPF or UWP app UI by letting you make changes to XAML code while your app is running. This feature enables you to incrementally build and test XAML code with the benefit of the running app's data context, authentication state, and other real-world complexity that’s hard to simulate during design-time.
+XAML Hot Reload helps you build your WPF or UWP app user interface (UI) by letting you make changes to XAML code while your app is running. Hot Reload is available in both Visual Studio and Blend for Visual Studio. This feature enables you to incrementally build and test XAML code with the benefit of the running app's data context, authentication state, and other real-world complexity that’s hard to simulate during design-time.
 
 XAML Hot Reload is especially helpful in these scenarios:
 
@@ -28,7 +28,7 @@ XAML Hot Reload is especially helpful in these scenarios:
 |Universal Windows apps (UWP)|Windows 10 and above, with the [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk) 14393+ |
 
 > [!NOTE]
-> Visual Studio XAML Hot Reload is currently only supported when running your application in Visual Studio with the debugger attached (**F5** or **Start debugging**). You can't enable this experience by using *Attach to process*.
+> Visual Studio XAML Hot Reload is currently only supported when running your application in Visual Studio or Blend for Visual Studio with the debugger attached (**F5** or **Start debugging**). You can't enable this experience by using [Attach to process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
 
 ## Known limitations
 
