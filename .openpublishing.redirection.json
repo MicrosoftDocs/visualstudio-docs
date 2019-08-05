@@ -1487,7 +1487,7 @@
         },
         {
             "source_path": "docs/extensibility/shell/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md",
-            "redirect_url": "https://vspartner.com/pages/vsshells",
+            "redirect_url": "https://devblogs.microsoft.com/visualstudio/whats-a-pkgdef-and-why/",
             "redirect_document_id": false
         },
         {
@@ -1547,7 +1547,7 @@
         },
         {
             "source_path": "docs/extensibility/visual-studio-isolated-shell.md",
-            "redirect_url": "/visualstudio/extensibility/shell/visual-studio-isolated-shell",
+            "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
             "redirect_document_id": false
         },
         {
