@@ -6,8 +6,6 @@ ms.assetid: a29690bf-f212-4ac6-a77a-adc53d14102e
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.workload:
-  - "uwp"
 ---
 # Work with elements in XAML Designer
 
@@ -15,7 +13,7 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
 
 ## Add an element to a layout
 
-*Layout* is the process of sizing and positioning elements in a UI. To position visual elements, you must put them in a layout [Panel](/uwp/api/Windows.UI.Xaml.Controls.Panel). A  `Panel` has a child property which is a collection of [FrameworkElement](/uwp/api/Windows.UI.Xaml.FrameworkElement) types. You can use various  `Panel` child elements, such as [Canvas](/uwp/api/Windows.UI.Xaml.Controls.Canvas), [StackPanel](/uwp/api/Windows.UI.Xaml.Controls.StackPanel), and [Grid](/uwp/api/Windows.UI.Xaml.Controls.Grid), to serve as layout containers and to position and arrange the elements on a page.
+*Layout* is the process of sizing and positioning elements in a UI. To position visual elements, you must put them in a layout <xref:Windows.UI.Xaml.Controls.Panel>. A `Panel` has a child property that is a collection of <xref:Windows.UI.Xaml.FrameworkElement> types. You can use various `Panel` child elements, such as <xref:Windows.UI.Xaml.Controls.Canvas>, <xref:Windows.UI.Xaml.Controls.StackPanel>, and <xref:Windows.UI.Xaml.Controls.Grid>, to serve as layout containers and to position and arrange the elements on a page.
 
 By default, a `Grid` panel is used as the top-level layout container within a page or form. You can add layout panels, controls, or other elements within the top-level page layout.
 
@@ -25,7 +23,7 @@ To add an element to a layout in XAML Designer, do one of the following:
 
 - Drag an element from the **Toolbox** to the artboard.
 
-- In the **Toolbox**, select one of the drawing tools (for example, [Ellipse](/uwp/api/Windows.UI.Xaml.Shapes.Ellipse) or [Rectangle](/uwp/api/Windows.UI.Xaml.Shapes.Rectangle)), and then draw an element in the active panel.
+- In the **Toolbox**, select one of the drawing tools (for example, <xref:Windows.UI.Xaml.Shapes.Ellipse> or <xref:Windows.UI.Xaml.Shapes.Rectangle>), and then draw an element in the active panel.
 
 ## Change the layering order of elements
 
@@ -45,7 +43,7 @@ To change the layering order, do one of the following:
 
   - **Send to Back** to send the element all the way to the back of the order.
 
-  Change the **ZIndex** property in the **Layout** section in the Properties window. For overlapping elements, the **ZIndex** property takes precedence over the order of elements shown in the Document Outline window. An element that has a higher **ZIndex** value appears in front when elements overlap.
+- Change the **ZIndex** property in the **Layout** section in the Properties window. For overlapping elements, the **ZIndex** property takes precedence over the order of elements shown in the Document Outline window. An element that has a higher **ZIndex** value appears in front when elements overlap.
 
 ## Change the alignment of an element
 
