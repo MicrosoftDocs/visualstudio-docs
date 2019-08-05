@@ -1,7 +1,7 @@
 ---
 title: "Accessibility tips and tricks for Visual Studio"
 description: "Learn more about tips and tricks that can help make the Visual Studio integrated development environment (IDE) more accessible for everyone to use, including people with disabilities."
-ms.date: 08/02/2019
+ms.date: 08/06/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
@@ -44,9 +44,9 @@ The Visual Studio IDE has toolbars as do many tool windows. The following shortc
 
 |Feature|Description|Key Combination|
 |-------------|-----------------| - |
-|IDE toolbars|Select the first button on the Standard toolbar.|**Alt**, **Ctrl** + **Tab**|
-|Tool window toolbars|Move focus to the toolbars in a tool window. <br> <br> **NOTE:** This works for most tool windows, but only when the focus is in a tool window. Also, you must choose the SHIFT key before the ALT key. In some tool windows, such as Team Explorer, you must hold the SHIFT key for a moment before choosing the ALT key.|**Shift** + **Alt**|
-|Toolbars|Go to the first item in the next toolbar (when a toolbar has focus).|**Ctrl** + **Tab**|
+|IDE toolbars|Select the first button on the Standard toolbar.|**Alt**, **Ctrl**+**Tab**|
+|Tool window toolbars|Move focus to the toolbars in a tool window. <br> <br> **NOTE:** This works for most tool windows, but only when the focus is in a tool window. Also, you must choose the SHIFT key before the ALT key. In some tool windows, such as Team Explorer, you must hold the SHIFT key for a moment before choosing the ALT key.|**Shift**+**Alt**|
+|Toolbars|Go to the first item in the next toolbar (when a toolbar has focus).|**Ctrl**+**Tab**|
 
 ### Other useful shortcut key combinations
 
@@ -54,15 +54,15 @@ Some other useful shortcut key combinations include the following.
 
 |Feature|Description|Key Combination|
 |-------------|-----------------| - |
-|IDE|Switch High Contrast on and off. <br> <br> **NOTE:** Standard Windows shortcut|**Left Alt + Left Shift + PrtScn**|
+|IDE|Switch High Contrast on and off. <br> <br> **NOTE:** Standard Windows shortcut|**Left Alt**+**Left Shift**+**PrtScn**|
 |Dialog box|Select or clear the check box option in a dialog box. <br> <br> **NOTE:** Standard Windows shortcut|**Spacebar**|
-|Context menus|Open a context (right-click) menu. <br> <br> **NOTE:** Standard Windows shortcut|**Shift** + **F10**|
-|Menus|Quickly access a menu item by using its accelerator keys. Choose the **Alt** key followed by the underlined letters in a menu to activate the command. For example, to view the Open Project dialog box in Visual Studio, you would choose **Alt** + **F** + **O** + **P**.  <br><br> **NOTE:** Standard Windows shortcut|**Alt** + **[letter]**|
-|Search box|Use the search feature in Visual Studio.|**Ctrl** + **Q**|
-|Toolbox window|Move among Toolbox tabs.|**Ctrl** + **Up arrow**<br /><br /> and<br /><br /> **Ctrl** + **Down arrow**|
+|Context menus|Open a context (right-click) menu. <br> <br> **NOTE:** Standard Windows shortcut|**Shift**+**F10**|
+|Menus|Quickly access a menu item by using its accelerator keys. Choose the **Alt** key followed by the underlined letters in a menu to activate the command. For example, to view the Open Project dialog box in Visual Studio, you would choose **Alt**+**F**+**O**+**P**.  <br><br> **NOTE:** Standard Windows shortcut|**Alt** + **[letter]**|
+|Search box|Use the search feature in Visual Studio.|**Ctrl**+**Q**|
+|Toolbox window|Move among Toolbox tabs.|**Ctrl**+**Up arrow**<br /><br /> and<br /><br /> **Ctrl**+**Down arrow**|
 |Toolbox window|Add a control from the Toolbox to a form or designer.|**Enter**|
 |Options dialog box: Environment > Keyboard|Delete a key combination entered in the **Press shortcut keys** option.|**Backspace**|
-|Notifications tool window|Open the Notifications tool window by using two keyboard shortcut key combinations, one followed by the other. Then, view a  notification by using the arrow keys to select it.| **Ctrl** + **&#92;** <br>**Ctrl** + **N**|
+|Notifications tool window|Open the Notifications tool window by using two keyboard shortcut key combinations, one followed by the other. Then, view a  notification by using the arrow keys to select it.| **Ctrl**+**&#92;**, **Ctrl**+**N**|
 
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition.
@@ -84,16 +84,25 @@ Here's how:
 
    (Alternatively, if you have Cortana enabled, say "Hey Cortana", and then say "Change system sounds".)
 
-2. Double-click **Change system sounds**.
+1. Double-click **Change system sounds**.
 
    ![Search results in Windows 10](media/change-system-sounds.png)
 
-3. In the **Sound** dialog box, click the **Sounds** tab. <br><br>
+1. In the **Sound** dialog box, click the **Sounds** tab. <br><br>
    Then, in **Program Events**, scroll to **Microsoft Visual Studio**, and select the sounds that you want to apply to the events that you choose.
 
    ![Sounds tab of the Sound applet in Windows 10](media/sound-applet.png)
 
-4. Click **OK**.
+1. Click **OK**.
+ 
+## Access the Notifications tool window by using keyboard shortcuts
+
+When a notification appears in the IDE, here's how you can access the Notifications tool window by using shortcut keys:
+
+1. From anywhere in the IDE, press the following two keyboard shortcut combinations, one after the other: **Ctrl**+**&#92;**, **Ctrl**+**N**.
+1. Use the arrow keys to select a notification.
+
+
 
 ## See also
 
