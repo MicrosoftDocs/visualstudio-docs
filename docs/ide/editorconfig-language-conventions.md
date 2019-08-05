@@ -969,7 +969,7 @@ Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
 
 ## .NET code quality settings
 
-The quality rules in this section apply to both C# and Visual Basic code. They're used to configure code analyzers that are built into the Visual Studio interactive development environment (IDE). For information about configuring FxCop analyzers with an EditorConfig file, see [Configure FxCop analyzers](../code-quality/configure-fxcop-analyzers.md).
+The quality rules in this section apply to both C# and Visual Basic code. They're used to configure code analyzers that are built into the Visual Studio integrated development environment (IDE). For information about configuring FxCop analyzers with an EditorConfig file, see [Configure FxCop analyzers](../code-quality/configure-fxcop-analyzers.md).
 
 - [Parameter preferences](#parameter-preferences)
   - dotnet\_code\_quality\_unused\_parameters
