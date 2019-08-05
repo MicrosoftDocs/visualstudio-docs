@@ -25,7 +25,6 @@ You must first set up your customer tenant in the Partner Center and create an A
 Anyone with [owner or contributor access](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fvsts%2Forganizations%2Fbilling%2Fadd-backup-billing-managers%3Fview%3Dvsts%2520%2520sa&data=02%7C01%7C%7Cb9e717e8abff47b0cd7e08d618edd860%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636723807145220358&sdata=aIaamEXHhx94KCYVY%2FFibqFzNBEqKPntpql867xAMgU%3D&reserved=0) to the Azure subscription can purchase Visual Studio subscriptions.
 
 ## How to buy
-> [!VIDEO https://channel9.msdn.com/Shows/Visual-Studio-for-CSP-Partners/CSP-How-to-buy-Visual-Studio-Subscriptions/player]
 
 1. Log into the [Microsoft Partner Center](https://partnercenter.microsoft.com).
 0. Choose **Customers** and select a customer to buy for.
@@ -47,7 +46,6 @@ Once you confirm the purchase, you can choose **Manage** to assign subscriptions
 also access the Subscription Administration portal from the Partner Center by choosing **Service management**.  From there see the steps or video below.
 
 ## How to manage Visual Studio cloud subscriptions for your customer
-> [!VIDEO https://channel9.msdn.com/Shows/Visual-Studio-for-CSP-Partners/CSP-How-to-manage-Visual-Studio-Subscriptions/player]
 
 1. Log in to the [Microsoft Partner Center](https://partnercenter.microsoft.com).
 0. Choose **Customers** and the customer's name.
