@@ -23,8 +23,6 @@
       href: debugging-or-disabling-project-code-in-xaml-designer.md
     - name: Blend for Visual Studio
       href: creating-a-ui-by-using-blend-for-visual-studio.md
-    - name: Insert images, videos, and audio clips (Blend)
-      href: insert-images-videos-and-audio-clips-in-xaml-designer.md
     - name: Draw shapes and paths (Blend)
       href: draw-shapes-and-paths.md
     - name: Modify the style of objects (Blend)

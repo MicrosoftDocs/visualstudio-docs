@@ -976,6 +976,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/designers/insert-images-videos-and-audio-clips-in-xaml-designer.md",
+            "redirect_url": "/visualstudio/designers/creating-a-ui-by-using-blend-for-visual-studio",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/designers/insert-controls-and-modify-their-behavior-in-xaml-designer.md",
             "redirect_url": "/visualstudio/designers/insert-controls-and-modify-their-behavior-in-xaml-designer?view=vs-2015",
             "redirect_document_id": false
