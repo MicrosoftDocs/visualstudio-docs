@@ -30,7 +30,6 @@ For basic template creation scenarios, you should use the **Export Template** wi
 
 ![project template project selection](media/project-template-selection.png)
 
-
 2. Add and remove items from the project as required for your project. Do not remove the editable project file, the *AssemblyInfo* file, or the *.vstemplate* file.
 
 3. Update the *.vstemplate* file to reflect any additions and deletions. The [Project](../extensibility/project-element-visual-studio-templates.md) element must contain a [ProjectItem](../extensibility/projectitem-element-visual-studio-item-templates.md) element for each file to be included in the template.

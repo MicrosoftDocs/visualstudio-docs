@@ -1,6 +1,7 @@
 ---
 title: Security Page, Project Designer
 ms.date: 11/04/2016
+ms.technology: vs-ide-deployment
 ms.topic: reference
 f1_keywords:
   - "vb.ProjectPropertiesSecurity"
@@ -8,15 +9,15 @@ f1_keywords:
 helpviewer_keywords:
   - "Project Designer, Security page"
   - "Security page in Project Designer"
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Security Page, Project Designer
 
-The **Security** page of the **Project Designer** is used to configure code access security settings for applications that are deployed by using [!INCLUDE[ndptecclick](../../deployment/includes/ndptecclick_md.md)] deployment. For more information, see [Code Access Security for ClickOnce Applications](../../deployment/code-access-security-for-clickonce-applications.md).
+The **Security** page of the **Project Designer** is used to configure code access security settings for applications that are deployed by using ClickOnce deployment. For more information, see [Code Access Security for ClickOnce Applications](../../deployment/code-access-security-for-clickonce-applications.md).
 
  To access the **Security** page, click a project node in **Solution Explorer**, and then, on the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Security** tab.
 

@@ -6,7 +6,7 @@ manager: jillfra
 ms.assetid: 480e3062-aae7-48ef-9701-e4f9ea041382
 ms.topic: conceptual
 ms.workload: multiple
-ms.date: 03/05/2019
+ms.date: 07/25/2019
 ms.author: ghogen
 ms.technology: vs-azure
 ---
@@ -14,7 +14,7 @@ ms.technology: vs-azure
 
 Visual Studio provides a consistent way to develop in a Docker container and validate your application locally. You don't have to restart the container each time you make a code change.
 
-This article illustrates how to use the Edit and Refresh feature in Visual Studio to start an ASP.NET Core web app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging.
+This article illustrates how to use Visual Studio to start an ASP.NET Core web app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized ASP.NET Core web apps and .NET Framework console apps.
 
 ## Prerequisites
 
@@ -32,7 +32,7 @@ To debug apps in a local Docker container, the following tools must be installed
 
 ::: moniker-end
 
-To run Docker containers locally, you must have a local Docker client. You can use the [Docker Toolbox](https://www.docker.com/products/docker-toolbox), which requires Hyper-V to be disabled. You also can use [Docker for Windows](https://www.docker.com/get-docker), which uses Hyper-V and requires Windows 10. If you use Docker Toolbox, you must configure the Docker client.
+To run Docker containers locally, you must have a local Docker client. You can use the [Docker Toolbox](https://www.docker.com/products/docker-toolbox), which requires Hyper-V to be disabled. You also can use [Docker for Windows](https://www.docker.com/get-docker), which uses Hyper-V and requires Windows 10. 
 
 Docker containers are available for .NET Framework and .NET Core projects. Let's look at two examples. First, we look at a .NET Core web app. Then, we look at a .NET Framework console app.
 

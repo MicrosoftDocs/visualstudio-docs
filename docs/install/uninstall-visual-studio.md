@@ -2,7 +2,7 @@
 title: "Uninstall Visual Studio"
 titleSuffix: ""
 description: "Learn how to uninstall Visual Studio, step-by-step."
-ms.date: 03/30/2019
+ms.date: 07/31/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
@@ -28,7 +28,7 @@ This page walks you through uninstalling Visual Studio, our integrated suite of 
 
 1. Find the Visual Studio Installer on your computer.
 
-     For example, on a computer running Windows 10 Anniversary Update or later, select **Start** and scroll to the letter **V**, where it is listed as **Visual Studio Installer**.
+     For example, on a computer running Windows 10 Anniversary Update or later, select **Start** and scroll to the letter **V**, where it's listed as **Visual Studio Installer**.
 
      ![Visual Studio Installer](media/vs2017-locate-the-visual-studio-installer.PNG "Locate the Microsoft Visual Studio Installer")
 
@@ -45,7 +45,7 @@ If you change your mind later and want to reinstall Visual Studio 2017, start th
 
 ## Uninstall Visual Studio Installer
 
-To completely remove all installations of Visual Studio 2017 as well as the Visual Studio Installer from your machine, uninstall it from Apps & Features.
+To completely remove all installations of Visual Studio 2017 and the Visual Studio Installer from your machine, uninstall it from Apps & Features.
 
 1. In Windows 10, type **Apps and Features** in the "Type here to search" box.
 1. Find **Microsoft Visual Studio 2017** (or, **Visual Studio 2017**).
@@ -61,7 +61,7 @@ To completely remove all installations of Visual Studio 2017 as well as the Visu
 
      For example, on a computer running Windows 10, select **Start**, and then scroll to the letter **V**, where it's listed as **Visual Studio Installer**.
 
-     ![Open the Visual Studio Installer](media/vs2019-visual-studio-installer.png "Open the Visual Studio Installer")
+     ![Open the Visual Studio Installer](media/vs-2019/vs-installer-windows-start.png "Open the Visual Studio Installer")
 
      > [!NOTE]
      > You can also find the Visual Studio Installer in the following location:
@@ -82,7 +82,7 @@ If you change your mind later and want to reinstall Visual Studio 2019, start th
 
 ## Uninstall Visual Studio Installer
 
-To remove all installations of Visual Studio 2019 as well as the Visual Studio Installer from your machine, uninstall it from Apps & Features.
+To remove all installations of Visual Studio 2019 and the Visual Studio Installer from your machine, uninstall it from Apps & Features.
 
 1. In Windows 10, type **Apps and Features** in the "Type here to search" box.
 1. Find **Visual Studio 2019**.

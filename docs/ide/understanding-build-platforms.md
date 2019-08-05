@@ -12,8 +12,8 @@ f1_keywords:
 helpviewer_keywords:
   - "build platforms [Visual Studio]"
 ms.assetid: c1e5da1b-cda1-4545-b46c-0440fba27485
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
