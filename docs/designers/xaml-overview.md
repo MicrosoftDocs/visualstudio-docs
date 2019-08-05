@@ -12,7 +12,7 @@ Extensible Application Markup Language (XAML) is a declarative language that's b
 
 - [Windows Presentation Foundation (WPF) apps](/dotnet/framework/wpf/advanced/xaml-in-wpf)
 - [Universal Windows Platform (UWP) apps](/windows/uwp/xaml-platform/xaml-overview)
-- [Xamarin.Forms apps](/xamarin/xamarin-forms/xaml/).
+- [Xamarin.Forms apps](/xamarin/xamarin-forms/xaml/)
 
 The following XAML code defines a simple button control.
 
