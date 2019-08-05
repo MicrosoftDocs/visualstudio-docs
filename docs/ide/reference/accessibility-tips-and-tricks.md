@@ -67,15 +67,17 @@ Some other useful shortcut key combinations include the following.
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition.
 
-## Access the Notifications window by using keyboard shortcuts
+## Access notifications by using shortcut key combinations
 
-When a notification appears in the IDE, here's how you can access the Notifications tool window by using shortcut keys:
+When a notification appears in the IDE, here's how you can access the Notifications window by using shortcut key combinations:
 
-1. From anywhere in the IDE, press the following two keyboard shortcut combinations, one after the other: **Ctrl**+**&#92;**, **Ctrl**+**N**.
+1. From anywhere in the IDE, press the following two shortcut key combinations, one after the other: **Ctrl**+**&#92;** and then **Ctrl**+**N**.
 
-   ![Notifications tool window in the Visual Studio IDE](media/.png "Notifications tool window in the Visual Studio IDE")
+   The **Notifications** window opens.
 
-1. Use the arrow keys to select a notification.
+   ![Notifications tool window in the Visual Studio IDE](media/toast-notification.png "Screenshot of the Notifications window in the Visual Studio IDE")
+
+1. Use a combination of the **TAB** key and the arrow keys to select a notification.
 
 ## Use the Sound applet to set build and breakpoint cues
 
