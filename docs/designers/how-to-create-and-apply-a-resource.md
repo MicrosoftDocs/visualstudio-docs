@@ -14,9 +14,9 @@ ms.workload:
 ---
 # How to create and apply a resource
 
-Styles and templates for elements in the XAML Designer are stored in reusable entities called resources. Styles enable you to set element properties and reuse those settings for a consistent appearance across multiple elements. A <xref:Windows.UI.Xaml.Controls.ControlTemplate> defines the appearance of a control and can also be applied as a resource. For more information, see [XAML styles](/windows/uwp/design/controls-and-patterns/xaml-styles) and [Control templates](/windows/uwp/design/controls-and-patterns/control-templates).
+Styles and templates for elements in the XAML Designer are stored in reusable entities called resources. Styles enable you to set element properties and reuse those settings for a consistent appearance across multiple elements. A [ControlTemplate](xref:Windows.UI.Xaml.Controls.ControlTemplate) defines the appearance of a control and can also be applied as a resource. For more information, see [XAML styles](/windows/uwp/design/controls-and-patterns/xaml-styles) and [Control templates](/windows/uwp/design/controls-and-patterns/control-templates).
 
-Whenever you create a new resource from an existing property, <xref:Windows.UI.Xaml.Style>, or <xref:Windows.UI.Xaml.Controls.ControlTemplate>, the **Create Resource** dialog box enables you to define the resource at the application level, the document level, or the element level. These levels determine where you can use the resource. For example, if you define the resource at the element level, the resource can be applied only to the element on which you created it. You can also choose to store the resource in a [resource dictionary](/windows/uwp/design/controls-and-patterns/resourcedictionary-and-xaml-resource-references), which is a separate file that you can use again in another project.
+Whenever you create a new resource from an existing property, [Style](xref:Windows.UI.Xaml.Style), or [ControlTemplate](xref:Windows.UI.Xaml.Controls.ControlTemplate), the **Create Resource** dialog box enables you to define the resource at the application level, the document level, or the element level. These levels determine where you can use the resource. For example, if you define the resource at the element level, the resource can be applied only to the element on which you created it. You can also choose to store the resource in a [resource dictionary](/windows/uwp/design/controls-and-patterns/resourcedictionary-and-xaml-resource-references), which is a separate file that you can use again in another project.
 
 ## Create a new resource
 
@@ -57,7 +57,7 @@ Whenever you create a new resource from an existing property, <xref:Windows.UI.X
      > [!NOTE]
      > **Edit Template** applies control templates. **Edit Additional Templates** applies other template types.
 
-     You can apply resources wherever they're compatible. For example, you can apply a brush resource to the **Foreground** property of a <xref:Windows.UI.Xaml.Controls.TextBox> control.
+     You can apply resources wherever they're compatible. For example, you can apply a brush resource to the **Foreground** property of a [TextBox](xref:Windows.UI.Xaml.Controls.TextBox) control.
 
 ## Edit a resource
 

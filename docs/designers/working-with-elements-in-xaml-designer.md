@@ -13,7 +13,7 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
 
 ## Add an element to a layout
 
-*Layout* is the process of sizing and positioning elements in a UI. To position visual elements, you must put them in a layout <xref:Windows.UI.Xaml.Controls.Panel>. A `Panel` has a child property that is a collection of <xref:Windows.UI.Xaml.FrameworkElement> types. You can use various `Panel` child elements, such as <xref:Windows.UI.Xaml.Controls.Canvas>, <xref:Windows.UI.Xaml.Controls.StackPanel>, and <xref:Windows.UI.Xaml.Controls.Grid>, to serve as layout containers and to position and arrange the elements on a page.
+*Layout* is the process of sizing and positioning elements in a UI. To position visual elements, you must put them in a layout [Panel](xref:Windows.UI.Xaml.Controls.Panel). A `Panel` has a child property that is a collection of [FrameworkElement](xref:Windows.UI.Xaml.FrameworkElement) types. You can use various `Panel` child elements, such as [Canvas](xref:Windows.UI.Xaml.Controls.Canvas), [StackPanel](xref:Windows.UI.Xaml.Controls.StackPanel), and [Grid](xref:Windows.UI.Xaml.Controls.Grid), to serve as layout containers and to position and arrange the elements on a page.
 
 By default, a `Grid` panel is used as the top-level layout container within a page or form. You can add layout panels, controls, or other elements within the top-level page layout.
 
@@ -23,7 +23,7 @@ To add an element to a layout in XAML Designer, do one of the following:
 
 - Drag an element from the **Toolbox** to the artboard.
 
-- In the **Toolbox**, select one of the drawing tools (for example, <xref:Windows.UI.Xaml.Shapes.Ellipse> or <xref:Windows.UI.Xaml.Shapes.Rectangle>), and then draw an element in the active panel.
+- In the **Toolbox**, select one of the drawing tools (for example, [Ellipse](xref:Windows.UI.Xaml.Shapes.Ellipse) or [Rectangle](xref:Windows.UI.Xaml.Shapes.Rectangle)), and then draw an element in the active panel.
 
 ## Change the layering order of elements
 
@@ -80,7 +80,7 @@ If a margin adorner is open, vertically or horizontally, that margin isn't set. 
 When you open a margin adorner and the opposite margin isn't set, the opposite margin is set to the correct value according to the location of the element in the artboard. For opposite margins, such as the **Left** and **Right** margins, at least one property is always set.
 
 > [!IMPORTANT]
-> Elements placed inside some layout containers, such as a <xref:Windows.UI.Xaml.Controls.Canvas>, don't have margin adorners. Elements placed inside a <xref:Windows.UI.Xaml.Controls.StackPanel> have margin adorners for either the left and right margins or the top and bottom margins, depending on the orientation of the `StackPanel`.
+> Elements placed inside some layout containers, such as a [Canvas](xref:Windows.UI.Xaml.Controls.Canvas), don't have margin adorners. Elements placed inside a [StackPanel](xref:Windows.UI.Xaml.Controls.StackPanel) have margin adorners for either the left and right margins or the top and bottom margins, depending on the orientation of the `StackPanel`.
 
 ## Group and ungroup elements
 
@@ -93,7 +93,7 @@ To group elements into a new layout container:
 2. Right-click the selected elements, point to **Group Into**, and then click the type of layout container in which you want the group to reside.
 
     > [!TIP]
-    > If you select <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border>, or <xref:Windows.UI.Xaml.Controls.ScrollViewer> to group your elements, the elements are placed in a new <xref:Windows.UI.Xaml.Controls.Grid> panel within the <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border>, or <xref:Windows.UI.Xaml.Controls.ScrollViewer>. If you ungroup elements in one of these layout containers, only the <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border>, or <xref:Windows.UI.Xaml.Controls.ScrollViewer> is deleted, and the <xref:Windows.UI.Xaml.Controls.Grid> panel remains. To delete the `Grid` panel, ungroup the elements again.
+    > If you select [Viewbox](xref:Windows.UI.Xaml.Controls.Viewbox), [Border](xref:Windows.UI.Xaml.Controls.Border), or [ScrollViewer](xref:Windows.UI.Xaml.Controls.ScrollViewer) to group your elements, the elements are placed in a new [Grid](xref:Windows.UI.Xaml.Controls.Grid) panel within the [Viewbox](xref:Windows.UI.Xaml.Controls.Viewbox), [Border](xref:Windows.UI.Xaml.Controls.Border), or [ScrollViewer](xref:Windows.UI.Xaml.Controls.ScrollViewer). If you ungroup elements in one of these layout containers, only the [Viewbox](xref:Windows.UI.Xaml.Controls.Viewbox), [Border](xref:Windows.UI.Xaml.Controls.Border), or [ScrollViewer](xref:Windows.UI.Xaml.Controls.ScrollViewer) is deleted, and the [Grid](xref:Windows.UI.Xaml.Controls.Grid) panel remains. To delete the `Grid` panel, ungroup the elements again.
 
 To ungroup elements and delete the layout, right-click the group that you want to ungroup and click **Ungroup**. You can also group or ungroup elements by right-clicking selected items in the Document Outline window and clicking **Group Into** or **Ungroup**.
 
