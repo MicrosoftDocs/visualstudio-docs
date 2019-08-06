@@ -21,7 +21,9 @@ ms.workload:
 
 ::: moniker-end
 
-Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. This topic lists several useful keyboard shortcuts. It also includes information about how to use high-contrast themes to improve visibility. As well, it shows you how to use annotations to reveal useful information about your code, and how to set sound cues for build and breakpoint events.
+Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. Whether you want to use keyboard shortcuts to navigate the IDE, or use high-contrast themes to improve visibility, you'll find several tips & tricks on this page about how to do so. 
+
+We also cover how to use annotations to reveal useful information about your code, and how to set sound cues for build and breakpoint events.
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Accessibility for Visual Studio for Mac](/visualstudio/mac/accessibility).
