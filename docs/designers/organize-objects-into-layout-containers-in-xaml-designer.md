@@ -6,18 +6,16 @@ ms.assetid: 29c80c38-0fa3-48d6-b3a8-3b864f482e44
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.workload:
-  - "uwp"
 ---
 # Organize objects into layout containers in XAML Designer
 
 This article describes layout panels and controls for XAML Designer.
 
-Imagine where you'd like objects to appear on a page; objects such as images, buttons, and videos. Maybe you want them to appear in rows and columns, in a single line vertically or horizontally, or in fixed positions.
+Imagine where you'd like objects to appear on a page&mdash;objects such as images, buttons, and videos. Maybe you want them to appear in rows and columns, in a single line vertically or horizontally, or in fixed positions.
 
 After you've had a chance to think about how the page might appear, choose a layout panel. All pages start with one because you need something to which you add your objects. By default it's a **Grid**, but you can change that.
 
-Layout panels help you arrange objects on a page, but they do more than that. They help you design for different screen sizes and resolutions. When users run your app, everything in a layout panel resizes to match the screen real estate of their device. Of course, if you don't want your layout to do that, you can override that behavior for a part of the layout, or the entire layout. You can use height and width properties to control that.
+Layout panels help you arrange objects on a page, but they do more than that. They help you design for different screen sizes and resolutions. When users run your app, everything in a layout panel resizes to match the screen real estate of their device. Of course, if you don't want your layout to do that, you can override that behavior for a part of the layout or the entire layout. You can use height and width properties to control that.
 
 ## Layout panels
 
@@ -35,9 +33,9 @@ Arrange objects into rows and columns.
 
 Arrange objects into equal, or uniform, grid regions. This panel is great for arranging a list of images.
 
-![UniformGrid layout panel](../designers/media/928b9284-a7e8-4678-875a-656b80b78076.png)
-
 (Available only for WPF projects.)
+
+![UniformGrid layout panel](../designers/media/928b9284-a7e8-4678-875a-656b80b78076.png)
 
 ### Canvas
 
@@ -77,17 +75,17 @@ The following layout controls are the most popular, but there are others. You ca
 
 ### Border
 
-Create a border, background, or both around an object. You can add only one object to a **Border**. If you want to apply a border or background for more than one object, add layout panel to the **Border**. Then, add objects to that panel or control.
+Create a border, background, or both around an object. You can add only one object to a **Border**. If you want to apply a border or background for more than one object, add a layout panel to the **Border**. Then, add objects to that panel or control.
 
 ![Border layout control](../designers/media/e761238b-99fd-43c5-bbc4-57538b8289ff.png)
 
 ### Popup
 
-Show information or options to users in a window. You can add only one object to a **Popup**. By default, a **Popup** contains a **Grid** but you can change that.
+Show information or options to users in a window. You can add only one object to a **Popup**. By default, a **Popup** contains a **Grid**, but you can change that.
 
 ### ScrollViewer
 
-Enable users to scroll down a page or area of a page. You can add only one object to a **ScrollViewer** so it makes a lot of sense to add a layout panel such as a **Grid** or **StackPanel**.
+Enable users to scroll down a page or area of a page. You can add only one object to a **ScrollViewer**, so it makes sense to add a layout panel such as a **Grid** or **StackPanel**.
 
 ![ScrollViewer layout control](../designers/media/06b326d4-f23d-41a6-b26b-e1aff37572a7.png)
 
