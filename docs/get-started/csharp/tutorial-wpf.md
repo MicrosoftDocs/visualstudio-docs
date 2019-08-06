@@ -106,9 +106,11 @@ Let's give MainWindow a more specific name.
 
 1. Change the **File Name** property to `Greetings.xaml`.
 
-     ![Properties window with File Name highlighted](../media/exploreide-filenameinpropertieswindow.png)
+     ![Properties window with File Name highlighted](../media/exploreide-filenameinpropertieswindow.png "Properties window with the file name highlighted")
 
      **Solution Explorer** shows that the name of the file is now *Greetings.xaml*, and the nested code file is now named *Greetings.xaml.cs*. This code file is nested under the *.xaml* file node to show they are closely related to each other.
+
+     ![Properties window and Solution Explorer window with Greetings file name](../media/exploreide-grettingsfilename.png "Properties window and Solution Explorer window with Greetings file name")     
 
 ## Design the user interface (UI)
 
