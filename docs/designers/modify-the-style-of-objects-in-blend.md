@@ -1,5 +1,6 @@
 ---
-title: Modify the style of objects in Blend
+title: Modify the style of objects
+titleSuffix: Blend for Visual Studio
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
@@ -8,11 +9,11 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Modify the style of objects in Blend
+# Modify the style of objects in Blend for Visual Studio
 
 The easiest way to customize an object is to set properties in the **Properties** pane.
 
-If you want re-use settings or groups of settings, create a re-usable resource. This could be a *style*, *template*, or something simple like a custom color. You can also make a control appear differently based on its state. For example, a button turns green when the user clicks it.
+If you want reuse settings or groups of settings, create a reusable resource. This could be a *style*, *template*, or something simple like a custom color. You can also make a control appear differently based on its state. For example, a button turns green when the user clicks it.
 
 ## Brushes: Modify the appearance of an object
 
@@ -78,11 +79,11 @@ Right-click an object in the [Objects and Timeline](../designers/creating-a-ui-b
 
 ### Restore the default style or template of a control
 
-Select the control, and in the [Properties](../designers/creating-a-ui-by-using-blend-for-visual-studio.md#properties-window) window, locate the **Style** or **Template** property. Choose **Advanced options**, and then click **Reset** on the shortcut menu.
+Select the control, and in the **Properties**** window, locate the **Style** or **Template** property. Choose **Advanced options**, and then click **Reset** on the shortcut menu.
 
-## Visual states: Change the appearance of a control based on its state
+## Visual states
 
-Controls can have different visual appearances based on user interactions. For example, you can make a button turn green when a user clicks it or you can run an animation. You shorten or lengthen the time between visual states by using transitions.
+Visual states let you change the appearance of a control based on its state. Controls can have different visual appearances based on user interactions. For example, you can make a button turn green when a user clicks it, or you can run an animation. Shorten or lengthen the time between visual states by using transitions.
 
 ![Mouse over state](../designers/media/a95c671a-5639-40b9-83db-1e6b214330d5.png)
 
