@@ -1,5 +1,6 @@
 ---
-title: Pen tool modifier keys in Blend
+title: Pen tool modifier keys
+titleSuffix: Blend for Visual Studio
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: c3ab14c6-a320-46db-a6b3-7fd1ca261587
@@ -9,7 +10,8 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Pen tool modifier keys in Blend
+# Pen tool modifier keys in Blend for Visual Studio
+
 The following table lists shortcuts that you can use to modify a path while you are creating it with the **Pen** tool ![Pen tool](../designers/media/d514358f-185a-412f-a55d-36633b25dc8a.png). You can also use the **Pen** tool to add or remove points on an existing path, or to join two existing paths.
 
 |To do this action|Do this|Pointer|
@@ -30,7 +32,6 @@ The following table lists shortcuts that you can use to modify a path while you 
 
 ## See also
 
-- [Keyboard shortcuts and modifier keys](../designers/keyboard-shortcuts-and-modifier-keys-in-blend.md)
 - [Artboard modifier keys](../designers/artboard-modifier-keys-in-blend.md)
 - [Direct Selection tool modifier keys](../designers/direct-selection-tool-modifier-keys-in-blend.md)
 - [Draw shapes and paths](../designers/draw-shapes-and-paths.md)

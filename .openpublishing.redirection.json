@@ -976,6 +976,26 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/designers/insert-images-videos-and-audio-clips-in-xaml-designer.md",
+            "redirect_url": "/visualstudio/designers/creating-a-ui-by-using-blend-for-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/designers/insert-controls-and-modify-their-behavior-in-xaml-designer.md",
+            "redirect_url": "/visualstudio/designers/insert-controls-and-modify-their-behavior-in-xaml-designer?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/designers/keyboard-shortcuts-and-modifier-keys-in-blend.md",
+            "redirect_url": "/visualstudio/designers/keyboard-shortcuts-in-blend",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/designers/accessibility-products-and-services-blend.md",
+            "redirect_url": "/visualstudio/ide/reference/accessibility-products-and-services-from-microsoft",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/designers/xelement-class-dynamic-properties.md",
             "redirect_url": "/visualstudio/designers/attribute-xelement-dynamic-property",
             "redirect_document_id": false
@@ -1487,7 +1507,7 @@
         },
         {
             "source_path": "docs/extensibility/shell/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md",
-            "redirect_url": "https://vspartner.com/pages/vsshells",
+            "redirect_url": "https://devblogs.microsoft.com/visualstudio/whats-a-pkgdef-and-why/",
             "redirect_document_id": false
         },
         {
@@ -1547,7 +1567,7 @@
         },
         {
             "source_path": "docs/extensibility/visual-studio-isolated-shell.md",
-            "redirect_url": "/visualstudio/extensibility/shell/visual-studio-isolated-shell",
+            "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
             "redirect_document_id": false
         },
         {
