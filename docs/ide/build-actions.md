@@ -30,14 +30,14 @@ Some of the more common build actions for C# and Visual Basic project files are:
 |-|-|
 | **AdditionalFiles** | C#, Visual Basic | A non-source text file that's passed to the C# or Visual Basic compiler as input. This build action is mainly used to provide inputs to [analyzers](../code-quality/roslyn-analyzers-overview.md) that are referenced by a project to verify code quality. For more information, see [Use additional files](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Using%20Additional%20Files.md).|
 | **ApplicationDefinition** | WPF | The file that defines your application. When you first create a project, this is *App.xaml*. |
-| **CodeAnalysisDictionary** | any | A custom word dictionary, used by Code Analysis for spell checking. See [How to: Customize the Code Analysis Dictionary](../code-quality/how-to-customize-the-code-analysis-dictionary)|
+| **CodeAnalysisDictionary** | any | A custom word dictionary, used by Code Analysis for spell checking. See [How to: Customize the Code Analysis Dictionary](../code-quality/how-to-customize-the-code-analysis-dictionary.md)|
 | **Compile** | any | The file is passed to the compiler as a source file.|
 | **Content** | .NET | A file marked as **Content** can be retrieved as a stream by calling <xref:System.Windows.Application.GetContentStream%2A?displayProperty=nameWithType>. For ASP.NET projects, these files are included as part of the site when it's deployed.|
 | **DesignData** | WPF | Used for XAML view model files, to enable user controls to be viewed at design time, with dummy types and sample data. |
 | **DesignDataWithDesignTimeCreateable** | WPF | Like **DesignData**, but with actual types.  |
 | **Embedded Resource** | .NET | The file is passed to the compiler as a resource to be embedded in the assembly. You can call <xref:System.Reflection.Assembly.GetManifestResourceStream%2A?displayProperty=fullName> to read the file from the assembly.|
 | **EntityDeploy** | .NET | For Entity Framework (EF) .edmx files that specify deployment of EF artifacts. |
-| **Fakes** | any | Used for the Microsoft Fakes testing framework. See[Isolate code under test using Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes) |
+| **Fakes** | any | Used for the Microsoft Fakes testing framework. See[Isolate code under test using Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md) |
 | **None** | any | The file isn't part of the build in any way. This value can be used for documentation files such as "ReadMe" files, for example.|
 | **Page** | WPF | Compile a XAML file to a binary .baml file for faster loading at runtime. |
 | **Resource** | WPF | Specifies to embed the file in an assembly manifest resource file with the extension *.g.resources*. |
