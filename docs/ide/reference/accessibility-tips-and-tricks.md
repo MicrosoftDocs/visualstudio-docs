@@ -32,7 +32,7 @@ Visual Studio has built-in accessibility features that are compatible with scree
 
 ## Modify your IDE for high-contrast viewing
 
-For some folks, some colors are more difficult to see. If you want more contrast as you code but do not want to use the typical "High Contrast" themes, we now offer a “Blue (Extra Contrast)” theme.
+For some folks, some colors are more difficult to see. If you want more contrast as you code but don't want to use the typical "High Contrast" themes, we now offer a “Blue (Extra Contrast)” theme.
 
   ![Compare the Blue theme and Blue Extra Contrast theme](media/blue-extra-contrast-theme.png "Screenshot that shows a comparison of the Blue theme and the Blue Extra Contrast theme")
 
