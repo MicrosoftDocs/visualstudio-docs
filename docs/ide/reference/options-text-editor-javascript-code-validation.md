@@ -11,9 +11,9 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Options, Text Editor, JavaScript, Code Validation
+# Options dialog box: Text Editor \> JavaScript/TypeScript \> Code Validation
 
-Use the **Code Validation** page of the **Options** dialog box to modify settings that affect the way that JavaScript handles errors. You can access the **Code Validation** page by choosing **Tools** > **Options** on the  menu bar, and then expanding **Text Editor** > **JavaScript** > **Code Validation.**
+Use the **Code Validation** page of the **Options** dialog box to modify settings that affect the way that JavaScript handles errors. You can access the **Code Validation** page by choosing **Tools** > **Options** on the  menu bar, and then expanding **Text Editor** > **JavaScript/TypeScript** > **Code Validation.**
 
 [!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]
 

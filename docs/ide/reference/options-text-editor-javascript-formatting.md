@@ -17,13 +17,15 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Options, Text Editor, JavaScript, Formatting
-Use the **Formatting** page of the **Options** dialog box to set options for formatting code in the Code Editor. To access this page, on the menu bar, choose **Tools**, **Options**, and then expand **Text Editor**, **JavaScript**, and **Formatting**.
+# Options dialog box: Text Editor \> JavaScript \> Formatting
+
+Use the **Formatting** page of the **Options** dialog box to set options for formatting code in the Code Editor. To access this page, on the menu bar, choose **Tools** > **Options**, and then expand **Text Editor** > **JavaScript/TypeScript** > **Formatting**.
 
 [!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]
 
 ## Automatic Formatting
- These options determine when formatting occurs in **Source** view.
+
+These options determine when formatting occurs in **Source** view.
 
 ### UIElement List
 
@@ -36,9 +38,10 @@ Use the **Formatting** page of the **Options** dialog box to set options for for
 |**Format on paste**|When this option is selected, the Code Editor reformats code when you paste it into the editor. The editor uses the currently defined formatting rules. If this option is not selected, the editor uses the original formatting of the pasted-in code.|
 
 ## New Lines
- These options determine whether the Code Editor puts an open brace for functions and control blocks on a new line.
 
-### UIElement List
+These options determine whether the Code Editor puts an open brace for functions and control blocks on a new line.
+
+### UIElement list
 
 |Option|Description|
 |------------|-----------------|
@@ -46,9 +49,10 @@ Use the **Formatting** page of the **Options** dialog box to set options for for
 |**Place open brace on new line for control blocks**|When this option is selected, the Code Editor moves the open brace associated with a control block (for example, `if` and `while` control blocks) to a new line.|
 
 ## Spacing
- These options determine how spaces are inserted in **Source** view.
 
-### UIElement List
+These options determine how spaces are inserted in **Source** view.
+
+### UIElement list
 
 |Option|Description|
 |------------|-----------------|
@@ -59,6 +63,6 @@ Use the **Formatting** page of the **Options** dialog box to set options for for
 |**Insert space after function keyword for anonymous functions**|When this option is selected, the Code Editor adds a space after the `function` keyword for anonymous functions.|
 |**Insert space after opening and before closing non-empty parenthesis**|When this option is selected, the Code Editor adds a space after the opening parenthesis and before the closing parenthesis if non-empty characters are present within the parentheses.|
 
-## See Also
+## See also
 
 - [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)

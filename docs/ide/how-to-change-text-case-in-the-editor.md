@@ -32,5 +32,4 @@ You can use menu commands or keyboard shortcuts to convert the case of selected 
 
 ## See also
 
-- [Text Editor options dialog box](../ide/reference/text-editor-options-dialog-box.md)
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

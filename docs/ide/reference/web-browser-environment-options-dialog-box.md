@@ -59,6 +59,5 @@ Click to change options for Internet Explorer in the **Internet Properties** dia
 
 ## See also
 
-- [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)
 - [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)
 - [HTML Designer](https://msdn.microsoft.com/Library/640043cc-3657-4677-a091-bc315e636477)

@@ -27,7 +27,7 @@ When this option is selected, the behavior of Visual Studio changes when you sel
 
 ## Registered Azure clouds
 
-This section shows the Azure cloud instances that you have access to through one or more of the accounts you use to sign in to Visual Studio. For example, you might have access to a private instance of Azure in your company's data center. Or, you might have access to a sovereign or government instance of Azure such as Azure in China or Azure U.S. Government. The global Azure cloud instance appears by default in the list, and you cannot remove it.
+This section shows the Azure cloud instances that you have access to through one or more of the accounts you use to sign in to Visual Studio. For example, you might have access to a private instance of Azure in your company's data center. Or, you might have access to a sovereign or government instance of Azure such as Azure China 21 Vianet or Azure U.S. Government. The global Azure cloud instance appears by default in the list, and you cannot remove it.
 
 Register an additional Azure cloud by choosing the **Add** button. The **Add New Azure Cloud** dialog lists several well-known Azure cloud instances you can connect to, or you can enter the URL to a private Azure endpoint.
 
@@ -41,4 +41,3 @@ After you register an additional Azure cloud, you can choose which Azure cloud y
 - [Sign in to Visual Studio](../signing-in-to-visual-studio.md)
 - [Work with multiple user accounts](../work-with-multiple-user-accounts.md)
 - [Environment settings](../environment-settings.md)
-- [Environment Options dialog box](../../ide/reference/environment-options-dialog-box.md)

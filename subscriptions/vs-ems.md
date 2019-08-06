@@ -1,47 +1,19 @@
 ---
 title: EMS Benefit | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
+ms.author: lank
+manager: lank
+ms.date: 08/05/2019
 ms.topic: conceptual
 description:  Learn about the Enterprise Mobility + Security benefit included in your Visual Studio subscription.
 ---
 
 # Enterprise Mobility + Security (EMS) in Visual Studio Subscriptions
 
-Visual Studio Enterprise annual cloud and standard subscriptions include Enterprise Mobility + Security (EMS).  Secure and manage your identities, devices, apps and data with EMS - Azure Active Directory, Microsoft Intune, Azure Information Protection, Microsoft Advanced Threat Analytics, and Microsoft Cloud App Security.
+Visual Studio Enterprise annual cloud and standard subscriptions include Enterprise Mobility + Security (EMS).  Secure and manage your identities, devices, apps and data with EMS - Azure Active Directory, Microsoft Intune, Azure Information Protection, Microsoft Advanced Threat Analytics, and Microsoft Cloud App Security. 
 
-> [!NOTE]
-> If you purchase a multi-year subscription through volume licensing, the EMS benefit is currently only available in the first year.
-
-## Activation Steps
-
-To use EMS, you’ll need to set up an account or sign in using an existing account.
-
-1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
-
-2. Locate the Enterprise Mobility & Security tile in the Tools section and click on the **Get Code** link at the bottom of the tile.   You’ll receive a notification that the code was successfully retrieved.  Click **Activate**.
-   > [!div class="mx-imgBorder"]
-   > ![EMS Benefit Tile](_img/vs-ems/vs-ems-tile.png)
-
-3. On the Enterprise Mobility + Security E5 page, you can either sign in with an existing subscription or create a new one.  To create a new one, complete the information requested  and click **Next**.
-   > [!div class="mx-imgBorder"]
-   > ![EMS Benefit Create Account](_img/vs-ems/vs-ems-create-account-cropped.png)
-
-4. Create your user ID and password.  Click **Create my account** to continue.
-   > [!div class="mx-imgBorder"]
-   > ![EMS Benefit Create UserID](_img/vs-ems/vs-ems-userID-cropped.png)
-
-5. Next, provide a phone number to receive a verification code by phone or text.  Enter the code and click **Next**.
-   > [!div class="mx-imgBorder"]
-   > ![EMS Benefit Verification](_img/vs-ems/vs-ems-robot-cropped.png)
-
-6. The next page will display your sign-in page and user ID.  Save that information for later use.  Click **You’re ready to go…**
-   > [!div class="mx-imgBorder"]
-   > ![EMS Benefit Account Created](_img/vs-ems/vs-ems-save-info-cropped.png)
-
-7. EMS requires access to the Microsoft [Azure Portal](https://azure.microsoft.com).  Follow the three steps on the EMS landing page to activate your Azure subscription, add users and configure EMS.
+> [!IMPORTANT]
+> The Enterprise Mobility + Security (EMS) benefit is currently not available for new activations while we make important changes to this benefit.  If you have already activated it, you can continue to use it normally.  
 
 ## Eligibility
 
