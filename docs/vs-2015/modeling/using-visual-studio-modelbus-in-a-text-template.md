@@ -17,7 +17,7 @@ If you write text templates that read a model that contains [!INCLUDE[vsprvs](..
 
 - The DSL that is the target of the references must have a ModelBus Adapter that is configured for access from text templates. If you also access the DSL from other code, the reconfigured adapter is required in addition to the standard ModelBus Adapter.
 
-     The adapter manager must inherit from <xref:Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager> and must have the attribute `[HostSpecific(HostName)]`.
+     The adapter manager must inherit from [VsTextTemplatingModelingAdapterManager](/previous-versions/ee844317(v=vs.140)) and must have the attribute `[HostSpecific(HostName)]`.
 
 - The template must inherit from <xref:Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTransformation>.
 
@@ -75,7 +75,7 @@ If you write text templates that read a model that contains [!INCLUDE[vsprvs](..
 
 4. In AdapterManager.tt:
 
-    - Change the declaration of AdapterManagerBase so that it inherits from <xref:Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager>.
+    - Change the declaration of AdapterManagerBase so that it inherits from [VsTextTemplatingModelingAdapterManager](/previous-versions/ee844317(v=vs.140)).
 
          `public partial class <#= dslName =>AdapterManagerBase :`
 
@@ -212,7 +212,7 @@ inherits="Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTran
 
 8. Open T4ModelBusAdapter\AdapterManager.tt:
 
-   1. Change the base class of AdapterManagerBase to <xref:Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager>. This part of the file now resembles the following.
+   1. Change the base class of AdapterManagerBase to [VsTextTemplatingModelingAdapterManager](/previous-versions/ee844317(v=vs.140)). This part of the file now resembles the following.
 
        ```
        namespace <#= CodeGenerationUtilities.GetPackageNamespace(this.Dsl) #>.T4ModelBusAdapters

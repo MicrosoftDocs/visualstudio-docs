@@ -69,7 +69,7 @@ ms.workload:
 
 ### To add a text box to each new slide
 
-1. In the ThisAddIn code file, add the following code to the `ThisAddIn` class. This code defines an event handler for the [Microsoft.Office.Interop.PowerPoint.EApplication_Event.PresentationNewSlide](/previous-versions/office/developer/office-2010/ff762876(v%3doffice.14)) event of the <xref:Microsoft.Office.Interop.PowerPoint.Application> object.
+1. In the ThisAddIn code file, add the following code to the `ThisAddIn` class. This code defines an event handler for the [Microsoft.Office.Interop.PowerPoint.EApplication_Event.PresentationNewSlide](/previous-versions/office/developer/office-2010/ff762876(v%3doffice.14)) event of the [Application](/previous-versions/office/developer/office-2010/ff764034(v=office.14)) object.
 
     When the user adds a new slide to the active presentation, this event handler adds a text box to the top of the new slide, and it adds some text to the text box.
 
@@ -84,7 +84,7 @@ ms.workload:
 
 - The `Application` field of the `ThisAddIn` class. The `Application` field returns an <xref:Microsoft.Office.Interop.PowerPoint.Application> object, which represents the current instance of PowerPoint.
 
-- The `Sld` parameter of the event handler for the [Microsoft.Office.Interop.PowerPoint.EApplication_Event.PresentationNewSlide](/previous-versions/office/developer/office-2010/ff762876(v%3doffice.14)) event. The `Sld` parameter is a <xref:Microsoft.Office.Interop.PowerPoint.Slide> object, which represents the new slide. For more information, see [PowerPoint solutions](../vsto/powerpoint-solutions.md).
+- The `Sld` parameter of the event handler for the [Microsoft.Office.Interop.PowerPoint.EApplication_Event.PresentationNewSlide](/previous-versions/office/developer/office-2010/ff762876(v%3doffice.14)) event. The `Sld` parameter is a [Slide](/previous-versions/office/developer/office-2010/ff763417(v=office.14)) object, which represents the new slide. For more information, see [PowerPoint solutions](../vsto/powerpoint-solutions.md).
 
 ## Test the project
  When you build and run the project, verify that the text box appears in new slides that you add to a presentation.

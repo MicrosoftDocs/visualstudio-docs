@@ -27,11 +27,11 @@ This section contains reference material for namespaces that have names that beg
 |<xref:Microsoft.VisualStudio.Modeling.Extensibility?displayProperty=fullName>|Extension methods for ModelElement that implement DSL Extensibility.|
 |<xref:Microsoft.VisualStudio.Modeling.ExtensionEnablement?displayProperty=fullName>|Extensibility attributes|
 |<xref:Microsoft.VisualStudio.Modeling.Immutability?displayProperty=fullName>|Lets you make parts of a model read-only.|
-|<xref:Microsoft.VisualStudio.Modeling.Integration?displayProperty=fullName>|The Modelbus API, which helps you integrate different models.|
-|<xref:Microsoft.VisualStudio.Modeling.Integration.Picker?displayProperty=fullName>|The dialog box that lets users navigate to models and elements to create Modelbus references.|
-|<xref:Microsoft.VisualStudio.Modeling.Integration.Picker.Hosting?displayProperty=fullName>|The Picker service.|
-|<xref:Microsoft.VisualStudio.Modeling.Integration.Shell?displayProperty=fullName>|Modelbus adapter framework for Visual Studio.|
-|<xref:Microsoft.VisualStudio.Modeling.Integration.Shell.Picker?displayProperty=fullName>|The Picker dialog box that lets users navigate to models and elements to create Modelbus references.|
+|[Microsoft.VisualStudio.Modeling.Integration](/previous-versions/ee904412(v=vs.140))|The Modelbus API, which helps you integrate different models.|
+|[Microsoft.VisualStudio.Modeling.Integration.Picker](/previous-versions/ee904394(v=vs.140))|The dialog box that lets users navigate to models and elements to create Modelbus references.|
+|`Microsoft.VisualStudio.Modeling.Integration.Picker.Hosting`|The Picker service.|
+|[Microsoft.VisualStudio.Modeling.Integration.Shell](/previous-versions/ee869435(v=vs.140))|Modelbus adapter framework for Visual Studio.|
+|[Microsoft.VisualStudio.Modeling.Integration.Shell.Picker](/previous-versions/ee886769(v=vs.140)|The Picker dialog box that lets users navigate to models and elements to create Modelbus references.|
 |<xref:Microsoft.VisualStudio.Modeling.Shell?displayProperty=fullName>|The interface between DSLs and Visual Studio.|
 |<xref:Microsoft.VisualStudio.Modeling.Shell.ExtensionEnablement?displayProperty=fullName>|Lets you define shortcut (context) menu commands.|
 |<xref:Microsoft.VisualStudio.Modeling.Validation?displayProperty=fullName>|Lets you define validation constraints.|

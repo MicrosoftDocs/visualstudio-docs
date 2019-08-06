@@ -21,7 +21,7 @@ This topic discusses how to use coded UI tests when you are testing a large appl
 
 - Visual Studio Enterprise
 
-When you create a new coded UI test, the Visual Studio testing framework generates code for the test by default in a <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> class. For more information about how to record coded UI tests, see [Create coded UI tests](../test/use-ui-automation-to-test-your-code.md) and [Anatomy of a coded UI test](../test/anatomy-of-a-coded-ui-test.md).
+When you create a new coded UI test, the Visual Studio testing framework generates code for the test by default in a [UIMap](/previous-versions/dd580454(v=vs.140)) class. For more information about how to record coded UI tests, see [Create coded UI tests](../test/use-ui-automation-to-test-your-code.md) and [Anatomy of a coded UI test](../test/anatomy-of-a-coded-ui-test.md).
 
 The generated code for the UI Map contains a class for each object that the test interacts with. For each generated method, a companion class for method parameters is generated specifically for that method. If there are a large number of objects, pages, and forms and controls in your application, the UI Map can grow very large. Also, if several people are working on tests, the application becomes unwieldy with a single large UI Map file.
 
@@ -135,7 +135,7 @@ namespace ContosoProject
 
 ## See also
 
-- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>
+- [UIMap](/previous-versions/dd580454(v=vs.140))
 - <xref:Microsoft.VisualStudio.TestTools.UITesting.BrowserWindow.CopyFrom%2A>
 - [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)
 - [Create coded UI tests](../test/use-ui-automation-to-test-your-code.md)

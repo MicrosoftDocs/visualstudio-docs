@@ -152,7 +152,7 @@ If you don't want to start and stop the application, browser, or database separa
 
 ## Validate the properties of UI controls
 
-You can use the **Coded UI Test Builder** to add a user interface (UI) control to the <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> for your test, or to generate code for a validation method that uses an assertion for a UI control.
+You can use the **Coded UI Test Builder** to add a user interface (UI) control to the [UIMap](/previous-versions/dd580454(v=vs.140)) for your test, or to generate code for a validation method that uses an assertion for a UI control.
 
 To generate assertions for your UI controls, choose the **Add Assertions** tool in the **Coded UI Test Builder** and drag it to the control on the application under test that you want to verify is correct. When the box outlines your control, release the mouse. The control class code is immediately created in the *UIMap.Designer.cs* file.
 

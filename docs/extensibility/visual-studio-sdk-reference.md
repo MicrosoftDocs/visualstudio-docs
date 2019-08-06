@@ -13,9 +13,11 @@ ms.workload:
   - "vssdk"
 ---
 # Visual Studio SDK reference
+
 This section contains information about Visual Studio namespaces, related namespaces, and other areas of interest for developers who use the Visual Studio SDK.
 
 ## In this section
+
 - <xref:Microsoft.VisualStudio.TextManager.Interop>
  Legacy interop interfaces used for the editor and language services.
 
@@ -73,11 +75,9 @@ This section contains information about Visual Studio namespaces, related namesp
 - <xref:Microsoft.VisualStudio.Utilities>
  Classes used in the new editor.
 
-- <xref:Microsoft.Internal.VisualStudio.PlatformUI>
- Primarily Microsoft internal use only.
+- <xref:Microsoft.VisualStudio.PlatformUI>
 
-- <xref:Microsoft.Internal.VisualStudio.Shell.Interop>
- Microsoft internal use only.
+- <xref:Microsoft.VisualStudio.Shell.Interop>
 
 - <xref:Microsoft.VisualStudio>
  Classes for Visual Studio constants and helpers.
@@ -151,7 +151,7 @@ This section contains information about Visual Studio namespaces, related namesp
 - <xref:Microsoft.VisualStudio.WCFReference.Interop>
  Classes used for the Windows Communication Framework.
 
-- <xref:Microsoft.VisualStudio.TestTools.Vsip>
+- [Microsoft.VisualStudio.TestTools.Vsip](/previous-versions/aa993343(v=vs.120))
  Classes used for test tools.
 
 - <xref:EnvDTE>
@@ -193,10 +193,10 @@ This section contains information about Visual Studio namespaces, related namesp
 - <xref:VSLangProj80>
  Used for  C# and Visual Basic project automation.
 
-- <xref:VSLangProj90>
+- <xref:VslangProj90>
  Used for  C# and Visual Basic project automation.
 
-- <xref:VSLangProj100>
+- <xref:VslangProj100>
  Used for C# and Visual Basic project automation.
 
 - <xref:VSLangProj110>
@@ -292,6 +292,6 @@ This section contains information about Visual Studio namespaces, related namesp
 - <xref:Microsoft.Build.Utilities>
  Used for MSBuild.
 
-## Related Sections
-- [Visual Studio SDK](../extensibility/visual-studio-sdk.md)
- Includes documentation, samples, and code to help you develop products that integrate with Visual Studio.
+## Related sections
+
+[Visual Studio SDK](../extensibility/visual-studio-sdk.md) includes documentation, samples, and code to help you develop products that integrate with Visual Studio.

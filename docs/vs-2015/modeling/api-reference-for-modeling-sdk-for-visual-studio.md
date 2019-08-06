@@ -33,7 +33,7 @@ The Visual Studio Visualization and Modeling SDK provides the platform on which 
 |<xref:Microsoft.VisualStudio.Modeling.Extensibility?displayProperty=fullName>|Extension methods for ModelElement that implement DSL Extensibility.|
 |<xref:Microsoft.VisualStudio.Modeling.ExtensionEnablement?displayProperty=fullName>|Extensibility attributes|
 |<xref:Microsoft.VisualStudio.Modeling.Immutability?displayProperty=fullName>|Lets you make parts of a model read-only.|
-|<xref:Microsoft.VisualStudio.Modeling.Integration?displayProperty=fullName>|The Modelbus API, which helps you integrate different models.|
+|[Microsoft.VisualStudio.Modeling.Integration](/previous-versions/ee904412(v=vs.140))|The Modelbus API, which helps you integrate different models.|
 |<xref:Microsoft.VisualStudio.Modeling.Integration.Picker?displayProperty=fullName>|The dialog box that lets users navigate to models and elements to create Modelbus references.|
 |<xref:Microsoft.VisualStudio.Modeling.Integration.Picker.Hosting?displayProperty=fullName>|The Picker service.|
 |<xref:Microsoft.VisualStudio.Modeling.Integration.Shell?displayProperty=fullName>|Modelbus adapter framework for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].|
