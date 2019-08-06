@@ -80,8 +80,7 @@ See [Automate Visual Studio installation with a response file](automated-install
 
 Host the layout on a network share so it can be run from other machines.
 
-> [!NOTE]
-> The following example uses [xcopy](/windows-server/administration/windows-commands/xcopy/). You can also use [robocopy](/windows-server/administration/windows-commands/robocopy/), should you wish.  
+The following example uses [xcopy](/windows-server/administration/windows-commands/xcopy/). You can also use [robocopy](/windows-server/administration/windows-commands/robocopy/), should you wish.  
 
 ::: moniker range="vs-2017"
 
