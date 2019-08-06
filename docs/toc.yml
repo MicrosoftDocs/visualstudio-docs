@@ -386,6 +386,8 @@
             href: ide/reference/invert-conditional-logical.md
           - name: Invert if statement
             href: ide/reference/invert-if-statement.md
+          - name: Make local function static
+            href: ide/reference/make-local-function-static.md
           - name: Move declaration near reference
             href: ide/reference/move-declaration-near-reference.md
           - name: Move type to matching file
