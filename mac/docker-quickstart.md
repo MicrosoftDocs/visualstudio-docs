@@ -1,5 +1,5 @@
 ---
-title: Get started with Docker in Visual Studio for Mac
+title: Get started with Docker
 description: Learn how to add Docker to your projects in Visual Studio for Mac
 author: asb3993
 ms.author: amburns
@@ -71,7 +71,7 @@ Select the `docker-compose` project as the Startup Project and start debugging (
 
 > [!TIP]
 > On the first run after installing Docker Desktop, you may receive the following error when trying to debug: `Cannot start service dockerdemo: Mounts denied`
-> 
+>
 > Add `/usr/local/share/dotnet/sdk/NuGetFallbackFolder` to the File Sharing tab in Docker Desktop:
 >
 > ![Adding the NuGetFallbackFolder folder to File Sharing](media/docker-quickstart-5.png)
