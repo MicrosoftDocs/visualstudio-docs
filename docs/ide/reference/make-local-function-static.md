@@ -57,7 +57,7 @@ This refactoring applies to:
 
 2. Press Ctrl+. to trigger the Quick Actions and Refactorings menu. 
 
-    ![Pass variable explicitly in static local function](media/pass-variable-expliciltly-in-static-local-function.PNG)
+    ![Pass variable explicitly in static local function](media/pass-variable-explicitly-in-static-local-function.PNG)
 
 3. Select **Pass variable explicitly in local static function**. 
 
