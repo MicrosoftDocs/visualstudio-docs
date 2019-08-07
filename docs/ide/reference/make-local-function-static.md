@@ -19,18 +19,18 @@ This refactoring applies to:
 
 - C#
 
-**What:** Makes a local function static and passes in variables defined outside the function to the function’s declaration and call(s).   
+**What:** Makes a local function static and passes in variables defined outside the function to the function’s declaration and calls.   
 
-**When:** You want your local function to be static and want all variables defined in the scope of the function. 
+**When:** You want your local function to be static and for all variables to be defined in the scope of the function. 
 
-**Why:** Static local functions improves readability – knowing that specific code is isolated makes it easier, to understand, reread, and reuse. They also provide scoping to prevent polluting the class with a static function only called in a single method.  
+**Why:** Static local functions improves readability: knowing that specific code is isolated makes it easier to understand, reread, and reuse. Static local functions also provide scoping to prevent polluting a class with a static function that's only called in a single method.  
 
 ## How-to
 
 1. Place your caret on the local function name. 
 
 
-2. Press **Crtl+.** to trigger the **Quick Actions and Refactorings** menu. 
+2. Press **Crtl**+**.** to trigger the **Quick Actions and Refactorings** menu. 
 
 
     ![Make local function static](media/make-local-function-static.png)
@@ -55,9 +55,9 @@ This refactoring applies to:
 1. Place your caret on the offending code. 
 
 
-2. Press Ctrl+. to trigger the Quick Actions and Refactorings menu. 
+2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu. 
 
-    ![Pass variable explicitly in static local function](media/pass-variable-expliciltly-in-static-local-function.PNG)
+    ![Pass variable explicitly in static local function](media/pass-variable-explicitly-in-static-local-function.PNG)
 
 3. Select **Pass variable explicitly in local static function**. 
 
