@@ -1,5 +1,5 @@
 ---
-title: "Getting started building games with Unity in Visual Studio for Mac"
+title: "Getting started building games with Unity"
 description: "Getting started with Unity and Visual Studio for Mac"
 author: asb3993
 ms.author: amburns
@@ -9,7 +9,7 @@ ms.technology: vs-ide-general
 ms.assetid: D07FA43B-9D18-4DFA-8343-CD538FAD84DB
 ---
 
-# Getting started building games with Unity in Visual Studio for Mac 
+# Getting started building games with Unity in Visual Studio for Mac
 
 Unity is a game engine that enables you to develop games in C#. This walkthrough shows how to get started developing and debugging Unity games using Visual Studio for Mac and the Visual Studio for Mac Tools for Unity extension alongside the Unity environment.
 
@@ -151,7 +151,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
         public float Speed = 50;
         private Transform _playerTransform;
         private Transform _myTransform;
-        
+
         void Start()
         {
             var player = GameObject.FindGameObjectWithTag("Player");
