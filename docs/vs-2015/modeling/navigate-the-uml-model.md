@@ -20,7 +20,7 @@ This topic introduces the main types of the UML model.
 ## The Model Elements, Model, and Model Store
  The types defined in the assembly **Microsoft.VisualStudio.Uml.Interfaces.dll** correspond to the types defined in the [UML Specification, version 2.1.2](http://www.omg.org/spec/UML/2.1.2/Superstructure/PDF/).
 
- Types in the UML Specification are realized as interfaces in Visual Studio. The letter 'I' is prepended to the name of each type. For example: [IElement](/previous-versions/dd516035(v=vs.140)), [IClass](/previous-versions/dd523539%28v%3dvs.140%29), `IInteraction`, `IOperation`.
+ Types in the UML Specification are realized as interfaces in Visual Studio. The letter 'I' is prepended to the name of each type. For example: [IElement](/previous-versions/dd516035(v=vs.140)), [IClass](/previous-versions/dd523539%28v%3dvs.140%29), [IOperation](/previous-versions/dd481186(v=vs.140)).
 
  All the types except IElement inherit properties from one or more supertypes.
 
@@ -46,7 +46,7 @@ This topic introduces the main types of the UML model.
 ### The Ownership Tree
  A model contains a tree of [IElement](/previous-versions/dd516035(v=vs.140)) objects. Every element has properties `OwnedElements` and `Owner`.
 
- In most cases, the targets of the `Owner` and `OwnedElements` properties are also referenced by other properties that have more specific names. For example, every UML operation is owned by a UML class. Therefore <xref:Microsoft.VisualStudio.Uml.Classes.IOperation> has a property named [IOperation.Class](/previous-versions/dd473473%28v%3dvs.140%29), and in every <xref:Microsoft.VisualStudio.Uml.Classes.IOperation> object, `Class == Owner`.
+ In most cases, the targets of the `Owner` and `OwnedElements` properties are also referenced by other properties that have more specific names. For example, every UML operation is owned by a UML class. Therefore [IOperation](/previous-versions/dd481186(v=vs.140)) has a property named [IOperation.Class](/previous-versions/dd473473%28v%3dvs.140%29), and in every [IOperation](/previous-versions/dd481186(v=vs.140)) object, `Class == Owner`.
 
  The topmost element of the tree, which has no Owner, is an `AuxiliaryConstructs.IModel`. The IModel is contained within a `IModelStore`, in which it is the [IModelStore.Root](/previous-versions/ee789368(v=vs.140)).
 

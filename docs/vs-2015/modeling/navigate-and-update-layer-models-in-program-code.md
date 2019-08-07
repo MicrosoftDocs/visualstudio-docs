@@ -96,9 +96,9 @@ IEnumerable<ILayerComment> comments =
  Layer Artifact References should not be confused with Artifacts in use case diagrams.
 
 ## Shapes and Diagrams
- Two objects are used to represent each element in a layer model: an `ILayerElement`, and an `IShape`. The `IShape` represents the position and size of the shape on the diagram. In layer models, every `ILayerElement` has one `IShape`, and every `IShape` on a layer diagram has one `ILayerElement`. `IShape` is also used for UML models. Therefore, not every `IShape` has a layer element.
+ Two objects are used to represent each element in a layer model: an `ILayerElement`, and an [IShape](/previous-versions/ee806673(v=vs.140)). The `IShape` represents the position and size of the shape on the diagram. In layer models, every `ILayerElement` has one `IShape`, and every `IShape` on a layer diagram has one `ILayerElement`. `IShape` is also used for UML models. Therefore, not every `IShape` has a layer element.
 
- In the same manner, the <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayerModel> is displayed on one `IDiagram`.
+ In the same manner, the `ILayerModel` is displayed on one [IDiagram](/previous-versions/ee789658(v=vs.140)).
 
  In the code of a custom command or gesture handler, you can get the current diagram and the current selection of shapes from the `DiagramContext` import:
 
@@ -119,7 +119,7 @@ public void ... (...)
 
  ![Each ILayerElement is presented by an IShape.](../modeling/media/layerapi-shapes.png)
 
- <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation.IShape> and <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation.IDiagram> are also used to display UML models. For more information, see [Display a UML model on diagrams](../modeling/display-a-uml-model-on-diagrams.md).
+ [IShape](/previous-versions/ee806673(v=vs.140)) and [IDiagram](/previous-versions/ee789658(v=vs.140)) are also used to display UML models. For more information, see [Display a UML model on diagrams](../modeling/display-a-uml-model-on-diagrams.md).
 
 ## See also
 
