@@ -100,7 +100,7 @@ The Unit Testing Framework supports unit testing in [!INCLUDE[vsprvs](../include
 
 ## Test Configuration Classes
 
-- <xref:Microsoft.TeamFoundation.TestManagement.Client.ObjectTypes>
+- [ObjectTypes](/previous-versions/visualstudio/visual-studio-2013/dd987428(v=vs.120))
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection>
 

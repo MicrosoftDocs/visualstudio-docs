@@ -84,7 +84,7 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
     using Microsoft.ConcurrencyVisualizer.Instrumentation;
     ```
 
-3. Add code to create three spans on the default marker series and write a flag, a message, and an alert, one to each span. You create a <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Span> object by calling the static [EnterSpan](<!-- TODO: review code entity reference <xref:assetId:///EnterSpan?qualifyHint=False&amp;autoUpgrade=True>  -->) method. To write to the default series, you use the static write methods of the <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers> class.
+3. Add code to create three spans on the default marker series and write a flag, a message, and an alert, one to each span. You create a [Span](/previous-versions/hh694189(v=vs.140)) object by calling the static `EnterSpan` method. To write to the default series, you use the static write methods of the <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers> class.
 
     ```vb
     Dim flagSpan As Span = Markers.EnterSpan("flag span")
@@ -126,7 +126,7 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
 
      ![Concurrency Visualizer with markers and alerts](../profiling/media/cvmarkersmanaged.png "CvMarkersManaged")
 
-5. Add code to create customer marker series by using the static <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers.CreateMarkerSeries%2A> method. The <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerSeries> class contains methods for creating spans and writing flags, messages, and alerts.
+5. Add code to create customer marker series by using the static [CreateMarkerSeries](/previous-versions/hh694171(v=vs.140)) method. The [MarkerSeries](/previous-versions/hh694127(v=vs.140)) class contains methods for creating spans and writing flags, messages, and alerts.
 
     ```vb
     Dim flagSeries As MarkerSeries = Markers.DefaultWriter.CreateMarkerSeries("flag series")
