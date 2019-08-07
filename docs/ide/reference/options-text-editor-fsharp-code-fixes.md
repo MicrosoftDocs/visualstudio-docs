@@ -26,7 +26,7 @@ Use the Code Fixes options page to specify the settings that can help identify c
 
 - **Remove unused open statements**
 
-  If this check box is selected, documents are analyzed for unused `open` declarations, and a [Quick Action](../quick-actions.md) light bulb appears with an action to remove all unused `open` declarations.
+  If this check box is selected, documents are analyzed for unused `open` statements, and a [Quick Action](../quick-actions.md) light bulb appears with an action to remove all unused `open` statements.
 
 - **Analyze and suggest fixes for unused values**
 
