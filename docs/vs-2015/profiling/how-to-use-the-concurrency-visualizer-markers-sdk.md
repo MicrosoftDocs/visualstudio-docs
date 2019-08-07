@@ -84,7 +84,7 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
     using Microsoft.ConcurrencyVisualizer.Instrumentation;
     ```
 
-3. Add code to create three spans on the default marker series and write a flag, a message, and an alert, one to each span. You create a [Span](/previous-versions/hh694189(v=vs.140)) object by calling the static `EnterSpan` method. To write to the default series, you use the static write methods of the <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers> class.
+3. Add code to create three spans on the default marker series and write a flag, a message, and an alert, one to each span. You create a [Span](/previous-versions/hh694189(v=vs.140)) object by calling the static `EnterSpan` method. To write to the default series, you use the static write methods of the [Markers](/previous-versions/hh694099(v=vs.140)) class.
 
     ```vb
     Dim flagSpan As Span = Markers.EnterSpan("flag span")

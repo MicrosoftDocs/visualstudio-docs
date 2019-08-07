@@ -82,7 +82,7 @@ ms.workload:
 
    To modify each new slide, the previous code examples use the following objects:
 
-- The `Application` field of the `ThisAddIn` class. The `Application` field returns an <xref:Microsoft.Office.Interop.PowerPoint.Application> object, which represents the current instance of PowerPoint.
+- The `Application` field of the `ThisAddIn` class. The `Application` field returns an [Application](/previous-versions/office/developer/office-2010/ff764034(v=office.14)) object, which represents the current instance of PowerPoint.
 
 - The `Sld` parameter of the event handler for the [Microsoft.Office.Interop.PowerPoint.EApplication_Event.PresentationNewSlide](/previous-versions/office/developer/office-2010/ff762876(v%3doffice.14)) event. The `Sld` parameter is a [Slide](/previous-versions/office/developer/office-2010/ff763417(v=office.14)) object, which represents the new slide. For more information, see [PowerPoint solutions](../vsto/powerpoint-solutions.md).
 

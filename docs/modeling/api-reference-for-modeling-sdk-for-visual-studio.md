@@ -31,7 +31,7 @@ This section contains reference material for namespaces that have names that beg
 |[Microsoft.VisualStudio.Modeling.Integration.Picker](/previous-versions/ee904394(v=vs.140))|The dialog box that lets users navigate to models and elements to create Modelbus references.|
 |`Microsoft.VisualStudio.Modeling.Integration.Picker.Hosting`|The Picker service.|
 |[Microsoft.VisualStudio.Modeling.Integration.Shell](/previous-versions/ee869435(v=vs.140))|Modelbus adapter framework for Visual Studio.|
-|[Microsoft.VisualStudio.Modeling.Integration.Shell.Picker](/previous-versions/ee886769(v=vs.140)|The Picker dialog box that lets users navigate to models and elements to create Modelbus references.|
+|[Microsoft.VisualStudio.Modeling.Integration.Shell.Picker](/previous-versions/ee886769(v=vs.140))|The Picker dialog box that lets users navigate to models and elements to create Modelbus references.|
 |<xref:Microsoft.VisualStudio.Modeling.Shell?displayProperty=fullName>|The interface between DSLs and Visual Studio.|
 |<xref:Microsoft.VisualStudio.Modeling.Shell.ExtensionEnablement?displayProperty=fullName>|Lets you define shortcut (context) menu commands.|
 |<xref:Microsoft.VisualStudio.Modeling.Validation?displayProperty=fullName>|Lets you define validation constraints.|

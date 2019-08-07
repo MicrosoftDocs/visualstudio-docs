@@ -451,7 +451,7 @@ Assert.AreEqual(this.AssertMethod3ExpectedValues.UIATextState, uIAText.State);
        }
     ```
 
-2. Override <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.ProcessRule%2A>. The example here replaces a double-click action with a single click action.
+2. Override `UITestActionFilter.ProcessRule`. The example here replaces a double-click action with a single click action.
 
     ```csharp
     public override bool ProcessRule(IUITestActionStack actionStack)
