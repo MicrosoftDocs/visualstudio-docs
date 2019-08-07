@@ -152,7 +152,7 @@ If you don't want to start and stop the application, browser, or database separa
 
 ## Validate the properties of UI controls
 
-You can use the **Coded UI Test Builder** to add a user interface (UI) control to the <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> for your test, or to generate code for a validation method that uses an assertion for a UI control.
+You can use the **Coded UI Test Builder** to add a user interface (UI) control to the [UIMap](/previous-versions/dd580454(v=vs.140)) for your test, or to generate code for a validation method that uses an assertion for a UI control.
 
 To generate assertions for your UI controls, choose the **Add Assertions** tool in the **Coded UI Test Builder** and drag it to the control on the application under test that you want to verify is correct. When the box outlines your control, release the mouse. The control class code is immediately created in the *UIMap.Designer.cs* file.
 
@@ -449,7 +449,6 @@ Coded UI tests are often used to automate manual tests. For more information abo
 
 - [Record and play back manual tests](/azure/devops/test/mtm/record-play-back-manual-tests?view=vsts)
 - [Xamarin.UITest](/appcenter/test-cloud/uitest/)
-- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert>
 - [Walkthrough: Create, edit, and maintain a Coded UI test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
 - [Create a Coded UI test to test a UWP app](test-uwp-app-with-coded-ui-test.md)
