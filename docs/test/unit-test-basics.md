@@ -34,7 +34,13 @@ For an introduction to unit testing that takes you directly into coding, see one
 
 In this article, we use the development of a fictional application called `MyBank` as an example. You don't need the actual code to follow the explanations in this topic. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code. However, the concepts are easily transferred to other languages and frameworks.
 
+::: moniker range="vs-2017"
 ![MyBank Solution](../test/media/ute_mybanksolution.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+![MyBank Solution 2019](../test/media/vs-2019/basics-mybank-solution.png)
+::: moniker-end
+
 
 Our first attempt at a design for the `MyBank` application includes an accounts component that represents an individual account and its transactions with the bank, and a database component that represents the functionality to aggregate and manage the individual accounts.
 
