@@ -296,7 +296,7 @@ To diagnose why a test method is taking too much time, select the method in Test
 
 ### Analyze unit test code coverage
 
-You can determine the amount of your product code that is actually being tested by your unit tests by using the Visual Studio code coverage tool available in Visual Studio Enterprise. You can run code coverage on selected tests or on all tests in a solution.
+You can determine the amount of product code that is actually being tested by your unit tests by using the Visual Studio code coverage tool that's available in Visual Studio Enterprise edition. You can run code coverage on selected tests or on all tests in a solution.
 
 To run code coverage for test methods in a solution:
 
