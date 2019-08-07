@@ -163,7 +163,7 @@ You can define your own levels of the hierarchy and group by **State** and then 
 |**Class**|Groups tests by the containing class.|
 ::: moniker-end
 
-### Group by traits
+### Traits
 
 A trait is usually a category name/value pair, but it can also be a single category. Traits can be assigned to methods that are identified as a test method by the unit test framework. A unit test framework can define trait categories. You can add values to the trait categories to define your own category name/value pairs. The syntax to specify trait categories and values is defined by the unit test framework.
 
@@ -296,7 +296,7 @@ To diagnose why a test method is taking too much time, select the method in Test
 
 ### Analyze unit test code coverage
 
-You can determine the amount of your product code that is actually being tested by your unit tests by using the Visual Studio code coverage tool. You can run code coverage on selected tests or on all tests in a solution.
+You can determine the amount of your product code that is actually being tested by your unit tests by using the Visual Studio code coverage tool available in Visual Studio Enterprise. You can run code coverage on selected tests or on all tests in a solution.
 
 To run code coverage for test methods in a solution:
 
@@ -325,6 +325,8 @@ Tests can be run from the **Test Explorer**, by right-clicking in the code edito
 |-|------------------------|
 |TestExplorer.DebugAllTestsInContext|**Ctrl**+**R**, **Ctrl**+**T**|
 |TestExplorer.RunAllTestsInContext|**Ctrl**+**R**, **T**|
+|TestExplorer.RunAllTests|**Ctrl**+**R**, **A**|
+|TestExplorer.RepeatLastRun|**Ctrl**+**R**, **L**|
 
 > [!NOTE]
 > You can't run a test in an abstract class, because tests are only defined in abstract classes and not instantiated. To run tests in abstract classes, create a class that derives from the abstract class.
