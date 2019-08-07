@@ -26,7 +26,7 @@ ms.workload:
 ## Run code behind documents with restricted permissions
  If your solution contains a document or workbook that uses IRM, by default, Word and Excel do not permit any code to run. If you are the author of the document or have Full Control access, you can change the default so that your solution works. For more information, see [How to: Permit code to run behind documents with restricted permissions](../vsto/how-to-permit-code-to-run-behind-documents-with-restricted-permissions.md).
 
- IRM prevents use of <xref:Microsoft.VisualStudio.Tools.Applications.Runtime.ServerDocument> to retrieve or manipulate data that is cached in the document.
+ IRM prevents use of <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> to retrieve or manipulate data that is cached in the document.
 
 ## End users to restrict permissions to documents that use managed code extensions
  Anyone who has Full Control access to the document or workbook in your solution can use IRM to restrict permissions. For example, if an end user in the accounting department uses a solution that automatically populates a worksheet with data from a database, that user might want to allow Change access only to people in his or her department and Read access to others. When the user adds the restricted permissions, by default, the code behind the worksheet cannot run, and the worksheet will not be populated with data.

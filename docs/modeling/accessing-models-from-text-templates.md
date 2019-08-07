@@ -10,7 +10,8 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Accessing Models from Text Templates
+# Access models from text templates
+
 By using text templates, you can create report files, source code files, and other text files that are based on domain-specific language models. For basic information about text templates, see [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md). The text templates will work in the experimental mode when you are debugging your DSL, and will also work on a computer on which you have deployed the DSL.
 
 > [!NOTE]
@@ -18,7 +19,7 @@ By using text templates, you can create report files, source code files, and oth
 
  To access a model from a text template:
 
-- Set the inherit property of the template directive to <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation>. This provides access to the Store.
+- Set the inherit property of the template directive to [Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation](/previous-versions/bb893209(v=vs.140)). This provides access to the Store.
 
 - Specify directive processors for the DSL that you want to access. This loads the assemblies for your DSL so that you can use its domain classes, properties, and relationships in the code of your text template. It also loads the model file that you specify.
 
