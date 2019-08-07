@@ -1,6 +1,6 @@
 ---
 title: Unit testing fundamentals
-ms.date: 06/06/2019
+ms.date: 08/07/2019
 ms.topic: conceptual
 f1_keywords:
   - "vs.UnitTest.CreateUnitTest"
@@ -63,7 +63,7 @@ public void Withdraw(double amount)
     }
     else
     {
-        throw new ArgumentException(amount, "Withdrawal exceeds balance!")
+        throw new ArgumentException(nameof(amount), "Withdrawal exceeds balance!");
     }
 }
 ```
