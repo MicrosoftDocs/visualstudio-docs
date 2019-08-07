@@ -28,7 +28,9 @@ Specifies a title for the assembly manifest. Corresponds to <xref:System.Reflect
 Specifies an optional description for the assembly manifest. Corresponds to <xref:System.Reflection.AssemblyDescriptionAttribute>.
 
 **Company**\
-Specifies a company name for the assembly manifest. Corresponds to <xref:System.Reflection.AssemblyCompanyAttribute>. You can set or change the default value for Company in the registry. Look for the **RegisteredOrganization** value under the **Computer\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion** or **Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion** key, depending on your version of Windows.
+Specifies a company name for the assembly manifest. Corresponds to <xref:System.Reflection.AssemblyCompanyAttribute>.
+
+You can set or change the default value for Company in the registry. Look for the **RegisteredOrganization** value under the **Computer\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion** or **Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion** key, depending on your version of Windows.
 
 **Product**\
 Specifies a product name for the assembly manifest. Corresponds to <xref:System.Reflection.AssemblyProductAttribute>.
@@ -54,7 +56,7 @@ Specifies which culture the assembly supports. Corresponds to <xref:System.Resou
 **Make assembly COM-Visible**\
 Specifies whether types in the assembly will be available to COM. Corresponds to <xref:System.Runtime.InteropServices.ComVisibleAttribute>.
 
-# See also
+## See also
 
 - [Application Page, Project Designer (Visual Basic)](../../ide/reference/application-page-project-designer-visual-basic.md)
 - [Attributes](https://msdn.microsoft.com/Library/ae334cee-d96c-4243-a5e3-06dd7fcaf205)
