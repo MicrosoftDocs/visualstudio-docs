@@ -26,24 +26,24 @@ Debug.ListMemory [/ANSI|Unicode] [/Count:number] [/Format:formattype]
 ```
 
 ## Arguments
- `expression`
+`expression`
 
 Optional. The memory address from which to begin displaying memory.
 
 ## Switches
- /ANSI&#124;Unicode
+/ANSI&#124;Unicode
 
 Optional. Display the memory as characters corresponding to the bytes of memory, either ANSI or Unicode.
 
- /Count:`number`
+/Count:`number`
 
 Optional. Determines how many bytes of memory to display, starting at `expression`.
 
- /Format:`formattype`
+/Format:`formattype`
 
 Optional. Format type for viewing memory information in the **Memory** window; may be OneByte, TwoBytes, FourBytes, EightBytes, Float (32-bit), or Double (64-bit). If OneByte is used, `/Unicode` is unavailable.
 
- /Hex&#124;Signed&#124;Unsigned
+/Hex&#124;Signed&#124;Unsigned
 
 Optional. Specifies the format for viewing numbers: as signed, unsigned, or hexadecimal.
 

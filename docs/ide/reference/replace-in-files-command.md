@@ -27,48 +27,48 @@ Edit.ReplaceinFiles findwhat replacewith [/all] [/case]
 ```
 
 ## Arguments
- `findwhat`
+`findwhat`
 
 Required. The text to match.
 
- `replacewith`
+`replacewith`
 
 Required. The text to substitute for the matched text.
 
 ## Switches
- /all or /a
+/all or /a
 
 Optional. Replaces all occurrences of the search text with the replacement text.
 
- /case or /c
+/case or /c
 
 Optional. Matches occur only if when the uppercase and lowercase characters exactly match those specified in the `findwhat` argument.
 
- /ext: `extensions`
+/ext: `extensions`
 
 Optional. Specifies the file extensions for the files to be searched.
 
- /keep or /k
+/keep or /k
 
 Optional. Specifies that all modified files are left open.
 
- /lookin: `searchpath`
+/lookin: `searchpath`
 
 Optional. Directory to search. If the path contains spaces, enclose the entire path in quotation marks.
 
- /options or /t
+/options or /t
 
 Optional. Displays a list of the current find option settings and does not perform a search.
 
- /regex or /r
+/regex or /r
 
 Optional. Uses pre-defined special characters in the `findwhat` argument as notations that represent patterns of text rather than the literal characters. For a complete list of regular expression characters, see [Regular Expressions](../../ide/using-regular-expressions-in-visual-studio.md).
 
- /reset or /e
+/reset or /e
 
 Optional. Returns the find options to their default settings and does not perform a search.
 
- /stop
+/stop
 
 Optional. Halts the current search operation if one is in progress. Replace ignores all other arguments when `/stop` has been specified. For example, to stop the current replacement you would enter the following:
 
@@ -76,19 +76,19 @@ Optional. Halts the current search operation if one is in progress. Replace igno
 >Edit.ReplaceinFiles /stop
 ```
 
- /sub or /s
+/sub or /s
 
 Optional. Searches the subfolders within the directory specified in the /lookin:`searchpath` argument.
 
- /text2 or /2
+/text2 or /2
 
 Optional. Displays the results of the replacement in the **Find Results 2** window.
 
- /wild or /l
+/wild or /l
 
 Optional. Uses pre-defined special characters in the `findwhat` argument as notations to represent a character or sequence of characters.
 
- /word or /w
+/word or /w
 
 Optional. Searches for only whole words.
 

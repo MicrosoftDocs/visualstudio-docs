@@ -25,7 +25,7 @@ Debug.QuickWatchq [text]
 
 ## Arguments
 
- `text`\
+`text`\
 Optional. The text to add to the **QuickWatch** dialog box.
 
 ## Remarks

@@ -22,7 +22,7 @@ Debug.SetCurrentProcess index
 ```
 
 ## Arguments
- `index`
+`index`
 
 Required. The index of the process.
 

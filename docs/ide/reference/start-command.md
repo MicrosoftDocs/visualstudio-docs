@@ -24,7 +24,7 @@ Debug.Start [address]
 ```
 
 ## Arguments
- `address`
+`address`
 
 Optional. The address at which the program suspends execution, similar to a breakpoint in source code. This argument is only valid in debug mode.
 

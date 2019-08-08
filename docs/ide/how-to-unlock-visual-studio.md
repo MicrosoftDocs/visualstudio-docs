@@ -46,7 +46,7 @@ To unlock Visual Studio using a Visual Studio subscription or an Azure DevOps or
 
 You might have seen the following message that says that your license is going stale in Visual Studio. It reads, "Your license has gone stale and must be updated."
 
- ![Visual Studio stale license message](../ide/media/vs2017_stale-license.png)
+![Visual Studio stale license message](../ide/media/vs2017_stale-license.png)
 
 This message indicates that while your subscription may still be valid, the license token Visual Studio uses to keep your subscription up to date hasn't been refreshed and has gone stale due to one of the following reasons:
 

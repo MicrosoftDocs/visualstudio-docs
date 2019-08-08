@@ -28,23 +28,23 @@ Debug.ListDisassembly [/count:number] [/endaddress:expression]
 ## Switches
 Each switch can be invoked using either its complete form or a short form.
 
- /count: `number` [or] /c: `number` [or] /length: `number` [or] /l: `number`
+/count: `number` [or] /c: `number` [or] /length: `number` [or] /l: `number`
 
 Optional. Number of instructions to display. Default value is 8.
 
- /endaddress: `expression` [or] /e: `expression`
+/endaddress: `expression` [or] /e: `expression`
 
 Optional. Address at which to stop disassembly.
 
- /codebytes:`yes`&#124;`no` [or] /bytes:`yes`&#124;`no` [or] /b:`yes`&#124;`no`
+/codebytes:`yes`&#124;`no` [or] /bytes:`yes`&#124;`no` [or] /b:`yes`&#124;`no`
 
 Optional. Indicates whether to display code bytes. Default value is `no`.
 
- /source:`yes`&#124;`no` [or] /s:`yes`&#124;`no`
+/source:`yes`&#124;`no` [or] /s:`yes`&#124;`no`
 
 Optional. Indicates whether to display source code. Default value is `no`.
 
- /symbolnames:`yes`&#124;`no` [or] /names:`yes`&#124;`no` [or] /n:`yes`&#124;`no`
+/symbolnames:`yes`&#124;`no` [or] /names:`yes`&#124;`no` [or] /n:`yes`&#124;`no`
 
 Optional. Indicates whether to display symbols names. Default value is `yes`.
 

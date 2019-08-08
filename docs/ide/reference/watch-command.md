@@ -25,7 +25,7 @@ Debug.Watch[index]
 
 ## Arguments
 
- `index`\
+`index`\
 Required. The instance number of the watch window.
 
 ## Remarks

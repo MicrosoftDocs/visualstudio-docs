@@ -24,7 +24,7 @@ File.AddExistingProject filename
 ```
 
 ## Arguments
- `filename`\
+`filename`\
 Optional. The full path and project name, with extension, of the project to add to the solution.
 
 If the `filename` argument includes spaces, it must be enclosed in quotation marks.

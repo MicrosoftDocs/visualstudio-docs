@@ -29,24 +29,24 @@ Tools.Shell [/command] [/output] [/dir:folder] path [args]
 ```
 
 ## Arguments
- `path`
+`path`
 
 Required. The path and file name of the file to execute or the document to open. A full path is required if the specified file is not in one of the directories in the PATH environment variable.
 
- `args`
+`args`
 
 Optional. Any arguments to pass to the invoked program.
 
 ## Switches
- /commandwindow [or] /command [or] /c [or] /cmd
+/commandwindow [or] /command [or] /c [or] /cmd
 
 Optional. Specifies that the output for the executable is displayed in the **Command** window.
 
- /dir:`folder` [or] /d: `folder`
+/dir:`folder` [or] /d: `folder`
 
 Optional. Specifies the working directory to be set when the program is run.
 
- /outputwindow [or] /output [or] /out [or] /o
+/outputwindow [or] /output [or] /out [or] /o
 
 Optional. Specifies that the output for the executable is displayed in the **Output** window.
 

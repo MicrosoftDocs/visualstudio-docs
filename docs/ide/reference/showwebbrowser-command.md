@@ -25,16 +25,16 @@ View.ShowWebBrowser URL [/new][/ext]
 ```
 
 ## Arguments
- `URL`
+`URL`
 
 Required. URL (Uniform Resource Locator) for the website.
 
 ## Switches
- /new
+/new
 
 Optional. Specifies that the page appears in a new instance of the web browser.
 
- /ext
+/ext
 
 Optional. Specifies that the page appears in the default web browser outside of the IDE.
 

@@ -24,7 +24,7 @@ Debug.SetCurrentStackFrame index
 ```
 
 ## Arguments
- `index`
+`index`
 
 Required. Selects a stack frame by its index.
 

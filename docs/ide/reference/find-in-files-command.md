@@ -27,48 +27,48 @@ Edit.FindinFiles findwhat [/case] [/ext:extensions]
 
 ## Arguments
 
- `findwhat`\
+`findwhat`\
 Required. The text to match.
 
 ## Switches
- /case or /c\
+/case or /c\
 Optional. Matches occur only if the uppercase and lowercase characters exactly match those specified in the `findwhat` argument.
 
- /ext: `extensions`\
+/ext: `extensions`\
 Optional. Specifies the file extensions for the files to be searched. If not specified, the previous extension is used if one was previously entered.
 
- /lookin: `searchpath`\
+/lookin: `searchpath`\
 Optional. Directory to search. If the path contains spaces, enclose the entire path in quotation marks.
 
- /names or /n\
+/names or /n\
 Optional. Displays a list of file names that contain matches.
 
- /options or /t\
+/options or /t\
 Optional. Displays a list of the current find option settings and does not perform a search.
 
- /regex or /r\
+/regex or /r\
 Optional. Uses pre-defined special characters in the `findwhat` argument as notations that represent patterns of text rather than the literal characters. For a complete list of regular expression characters, see [Regular Expressions](../../ide/using-regular-expressions-in-visual-studio.md).
 
- /reset or /e\
+/reset or /e\
 Optional. Returns the find options to their default settings and does not perform a search.
 
- /stop\
+/stop\
 Optional. Halts the current search operation if one is in progress. Search ignores all other arguments when `/stop` has been specified. For example, to stop the current search you would enter the following:
 
 ```cmd
 >Edit.FindinFiles /stop
 ```
 
- /sub or /s\
+/sub or /s\
 Optional. Searches the subfolders within the directory specified in the /lookin:`searchpath` argument.
 
- /text2 or /2\
+/text2 or /2\
 Optional. Displays the results of the search in the Find Results 2 window.
 
- /wild or /l\
+/wild or /l\
 Optional. Uses pre-defined special characters in the `findwhat` argument as notations to represent a character or sequence of characters.
 
- /word or /w\
+/word or /w\
 Optional. Searches only for whole words.
 
 ## Example

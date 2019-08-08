@@ -27,39 +27,39 @@ Debug.ListModules [/Address:yes|no] [/Name:yes|no] [/Order:yes|no]
 ```
 
 #### Parameters
- /Address:`yes|no`
+/Address:`yes|no`
 
 Optional. Specifies whether to show the memory addresses of the modules. Default value is `yes`.
 
- /Name:`yes|no`
+/Name:`yes|no`
 
 Optional. Specifies whether to show the names of the modules. Default value is `yes`.
 
- /Order:`yes|no`
+/Order:`yes|no`
 
 Optional. Specifies whether to show the order of the modules. Default value is `no`.
 
- /Path:`yes|no`
+/Path:`yes|no`
 
 Optional. Specifies whether to show the paths of the modules. Default value is `yes`.
 
- /Process:`yes|no`
+/Process:`yes|no`
 
 Optional. Specifies whether to show the processes of the modules. Default value is `no`.
 
- /SymbolFile:`yes|no`
+/SymbolFile:`yes|no`
 
 Optional. Specifies whether to show the symbol files of the modules. Default value is `no`.
 
- /SymbolStatus:`yes|no`
+/SymbolStatus:`yes|no`
 
 Optional. Specifies whether to show the symbol statuses of the modules. Default value is `yes`.
 
- /Timestamp:`yes|no`
+/Timestamp:`yes|no`
 
 Optional. Specifies whether to show the timestamps of the modules. Default value is `no`.
 
- /Version:`yes|no`
+/Version:`yes|no`
 
 Optional. Specifies whether to show the versions of the modules. Default value is `no`.
 

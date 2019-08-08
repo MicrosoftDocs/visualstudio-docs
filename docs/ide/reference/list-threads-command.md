@@ -25,7 +25,7 @@ Debug.ListThreads [index]
 ```
 
 ## Arguments
- `index`
+`index`
 
 Optional. Selects a thread by its index to be the current thread.
 

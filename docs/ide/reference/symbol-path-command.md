@@ -25,7 +25,7 @@ Debug.SymbolPath pathname1;pathname2;... pathnameN
 ```
 
 ## Arguments
- `pathname`
+`pathname`
 
 Optional. A semi-colon delimited list of paths for the debugger to search for symbols.
 

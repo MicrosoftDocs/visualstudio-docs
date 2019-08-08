@@ -24,7 +24,7 @@ Edit.GoTo [linenumber]
 ```
 
 ## Arguments
- `linenumber`\
+`linenumber`\
 Optional. An integer representing the number of the line to go to.
 
 ## Remarks

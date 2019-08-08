@@ -26,23 +26,23 @@ Debug.ListSource [/Count:number] [/Current] [/File:filename]
 ```
 
 ## Switches
- /Count:`number`
+/Count:`number`
 
 Optional. Specifies the number of lines to display.
 
- /Current
+/Current
 
 Optional. Shows the current line.
 
- /File:`filename`
+/File:`filename`
 
 Optional. Path of the file to show. If no filename is specified, the command shows the source code for the line of the current statement.
 
- /Line:`number`
+/Line:`number`
 
 Optional. Shows a specific line number.
 
- /ShowLineNumbers:`yes|no`
+/ShowLineNumbers:`yes|no`
 
 Optional. Specifies whether to display line numbers.
 

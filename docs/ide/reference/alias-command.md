@@ -30,17 +30,17 @@ Tools.Alias [/delete] [/reset] [aliasname] [aliasstring]
 ```
 
 ## Arguments
- `aliasname`\
+`aliasname`\
 Optional. The name for the new alias. If no value is supplied for `aliasname`, a list of the current aliases and their definitions appears.
 
- `aliasstring`\
+`aliasstring`\
 Optional. The complete command name or existing alias and any parameters that you want to create as an alias. If no value is supplied for `aliasstring`, the alias name and alias string for the specified alias displays.
 
 ## Switches
- /delete or /del or /d\
+/delete or /del or /d\
 Optional. Deletes the specified alias, removing it from autocompletion.
 
- /reset\
+/reset\
 Optional. Resets the list of pre-defined aliases to its original settings. That is, it restores all pre-defined aliases and removes all user-defined aliases.
 
 ## Remarks
