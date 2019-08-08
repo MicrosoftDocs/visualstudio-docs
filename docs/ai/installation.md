@@ -131,7 +131,7 @@ The [Microsoft Cognitive Toolkit](https://cntk.ai) is a unified deep-learning to
 > [!NOTE]
 > CNTK currently does not support macOS.
 
-To install CNTK Python package, see [how to install CNTK](https://docs.microsoft.com/cognitive-toolkit/Setup-CNTK-on-your-machine)
+To install CNTK Python package, see [how to install CNTK](https://docs.microsoft.com/cognitive-toolkit/Setup-CNTK-on-your-machine).
 
 ### TensorFlow
 

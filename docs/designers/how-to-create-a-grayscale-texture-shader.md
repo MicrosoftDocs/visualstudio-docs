@@ -39,7 +39,7 @@ The following illustration shows the completed shader graph and a preview of the
 
 ![Shader graph and a preview of its effect](../designers/media/digit-grayscale-effect.png)
 
-Certain shapes might provide better previews for some shaders. For more information about previewing shaders in the Shader Designer, see [Shader Designer](../designers/shader-designer.md)
+Certain shapes might provide better previews for some shaders. For more information about previewing shaders in the Shader Designer, see [Shader Designer](../designers/shader-designer.md).
 
 ## See also
 
