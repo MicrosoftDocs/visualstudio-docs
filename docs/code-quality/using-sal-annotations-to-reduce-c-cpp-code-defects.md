@@ -16,7 +16,7 @@ ms.workload:
 # Using SAL Annotations to Reduce C/C++ Code Defects
 SAL is the Microsoft source code annotation language. By using source code annotations, you can make the intent behind your code explicit. These annotations also enable automated static analysis tools to analyze your code more accurately, with significantly fewer false positives and false negatives.
 
- The articles in this section of the documentation discuss aspects of SAL, provide reference for SAL syntax, and give examples of its use.
+The articles in this section of the documentation discuss aspects of SAL, provide reference for SAL syntax, and give examples of its use.
 
 - [Understanding SAL](../code-quality/understanding-sal.md)
 
@@ -51,7 +51,7 @@ SAL is the Microsoft source code annotation language. By using source code annot
      Provides examples that show how to use SAL annotations. Also explains common pitfalls.
 
 ## Related Resources
- [Code Analysis Team Blog](http://go.microsoft.com/fwlink/?LinkId=251197)
+[Code Analysis Team Blog](http://go.microsoft.com/fwlink/?LinkId=251197)
 
 ## See Also
- [SAL 2.0 Annotations for Windows Drivers](http://go.microsoft.com/fwlink/?LinkId=250979)
+[SAL 2.0 Annotations for Windows Drivers](http://go.microsoft.com/fwlink/?LinkId=250979)

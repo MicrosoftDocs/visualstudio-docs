@@ -10,29 +10,29 @@ author: mikeblome
 ---
 # Write unit tests for C++ DLLs in Visual Studio
 
- There are several ways to test DLL code, depending on whether it exports the functions that you want to test. Choose one of the following ways:
+There are several ways to test DLL code, depending on whether it exports the functions that you want to test. Choose one of the following ways:
 
- **The unit tests call only functions that are exported from the DLL:** 
- Add a separate test project as described in [Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md). In the test project, add a reference to the DLL project.
+**The unit tests call only functions that are exported from the DLL:**
+Add a separate test project as described in [Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md). In the test project, add a reference to the DLL project.
 
- Go to the procedure [To reference exported functions from the DLL project](#projectRef).
+Go to the procedure [To reference exported functions from the DLL project](#projectRef).
 
- **The DLL is built as an .exe file:**
- Add a separate test project. Link it to the output object file.
+**The DLL is built as an .exe file:**
+Add a separate test project. Link it to the output object file.
 
- Go to the procedure [To link the tests to the object or library files](#objectRef).
+Go to the procedure [To link the tests to the object or library files](#objectRef).
 
- **The unit tests call non-member functions which are not exported from the DLL, and the DLL can be built as a static library:**
- Change the DLL project so that it is compiled to a *.lib* file. Add a separate test project that references the project under test.
+**The unit tests call non-member functions which are not exported from the DLL, and the DLL can be built as a static library:**
+Change the DLL project so that it is compiled to a *.lib* file. Add a separate test project that references the project under test.
 
- This approach has the benefit of allowing your tests to use non-exported members, but still keep the tests in a separate project.
+This approach has the benefit of allowing your tests to use non-exported members, but still keep the tests in a separate project.
 
- Go to the procedure [To change the DLL to a static library](#staticLink).
+Go to the procedure [To change the DLL to a static library](#staticLink).
 
- **The unit tests must call non-member functions that are not exported, and the code must be built as a dynamic link library (DLL):**
- Add unit tests in the same project as the product code.
+**The unit tests must call non-member functions that are not exported, and the code must be built as a dynamic link library (DLL):**
+Add unit tests in the same project as the product code.
 
- Go to the procedure [To add unit tests in the same project](#sameProject).
+Go to the procedure [To add unit tests in the same project](#sameProject).
 
 ## Create the tests
 
@@ -91,7 +91,7 @@ author: mikeblome
       1. On the **File** menu, choose **New** > **Project**. In the **Add a New Project** dialog, set **Language** to C++ and type "test" into the search box. Then choose the **Native Unit Test Project**.
 
       ::: moniker-end
-      
+
       ::: moniker range="vs-2017"
 
       1. On the **File** menu, choose **New** > **Project** > **Visual C++** > **Test** > **C++ Unit Test Project**.

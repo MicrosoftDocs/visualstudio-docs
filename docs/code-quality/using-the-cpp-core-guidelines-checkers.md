@@ -17,16 +17,16 @@ The C++ Core Guidelines are a portable set of guidelines, rules, and best practi
 Created by Bjarne Stroustrup and others, the C++ Core Guidelines are a guide to using modern C++ safely and effectively. The Guidelines emphasize static type safety and resource safety. They identify ways to eliminate or minimize the most error-prone parts of the language, and suggest how to make your code simpler and more performant in a reliable way. These guidelines are maintained by the Standard C++ Foundation. To learn more, see the documentation, [C++ Core Guidelines](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines), and access the C++ Core Guidelines documentation project files on [GitHub](https://github.com/isocpp/CppCoreGuidelines).
 
 ## Enable the C++ Core Check guidelines in Code Analysis
- You can enable code analysis on your project by selecting the **Enable Code Analysis on Build** checkbox in the **Code Analysis** section of the **Property Pages** dialog for your project.
+You can enable code analysis on your project by selecting the **Enable Code Analysis on Build** checkbox in the **Code Analysis** section of the **Property Pages** dialog for your project.
 
- ![Property page for Code Analysis General settings](media/cppcorecheck_codeanalysis_general.png)
+![Property page for Code Analysis General settings](media/cppcorecheck_codeanalysis_general.png)
 
- A subset of C++ Core Check rules is included in the Microsoft Native Recommended rule set that runs by default when code analysis is enabled. To enable additional Core Check rules, click on the dropdown and choose which rule sets you want to include:
+A subset of C++ Core Check rules is included in the Microsoft Native Recommended rule set that runs by default when code analysis is enabled. To enable additional Core Check rules, click on the dropdown and choose which rule sets you want to include:
 
- ![Dropdown for additional C++ Core Check rule sets](media/cppcorecheck_codeanalysis_extensions.png)
+![Dropdown for additional C++ Core Check rule sets](media/cppcorecheck_codeanalysis_extensions.png)
 
 ## Examples
- Here's an example of some of the issues that the C++ Core Check rules can find:
+Here's an example of some of the issues that the C++ Core Check rules can find:
 
 ```cpp
 // CoreCheckExample.cpp
@@ -178,9 +178,9 @@ Sometimes it may be useful to do focused code analysis and still use the Visual 
 You can use the C++ Core Guidelines checks in automated builds.
 
 ### MSBuild
- The Native Code Analysis checker (PREfast) is integrated into MSBuild environment by custom targets files. You can use project properties to enable it, and add the C++ Core Guidelines Checker (which is based on PREfast):
+The Native Code Analysis checker (PREfast) is integrated into MSBuild environment by custom targets files. You can use project properties to enable it, and add the C++ Core Guidelines Checker (which is based on PREfast):
 
- ```xml
+```xml
   <PropertyGroup>
     <EnableCppCoreCheck>true</EnableCppCoreCheck>
     <CodeAnalysisRuleSet>CppCoreCheckRules.ruleset</CodeAnalysisRuleSet>¬¬
@@ -226,7 +226,7 @@ You have to set a few environment variables and use proper command-line options 
    - `/analyze:plugin EspXEngine.dll` This option loads the Code Analysis Extensions engine into the PREfast. This engine, in turn, loads the C++ Core Guidelines Checker.
 
 ## Use the Guideline Support Library
- The Guideline Support Library is designed to help you follow the Core Guidelines. The GSL includes definitions that let you replace error-prone constructs with safer alternatives. For example, you can replace a `T*, length` pair of parameters with the `span<T>` type. The GSL is available at [http://www.nuget.org/packages/Microsoft.Gsl](http://www.nuget.org/packages/Microsoft.Gsl). The library is open-source, so you can view the sources, make comments, or contribute. The project can be found at [https://github.com/Microsoft/GSL](https://github.com/Microsoft/GSL).
+The Guideline Support Library is designed to help you follow the Core Guidelines. The GSL includes definitions that let you replace error-prone constructs with safer alternatives. For example, you can replace a `T*, length` pair of parameters with the `span<T>` type. The GSL is available at [http://www.nuget.org/packages/Microsoft.Gsl](http://www.nuget.org/packages/Microsoft.Gsl). The library is open-source, so you can view the sources, make comments, or contribute. The project can be found at [https://github.com/Microsoft/GSL](https://github.com/Microsoft/GSL).
 
 ## <a name="vs2015_corecheck"></a> Use the C++ Core Check guidelines in Visual Studio 2015 projects
 

@@ -43,11 +43,11 @@ This dialog box lets you define C++ build and project settings related to loggin
 
  **Yes**
 
- Lists environment variables in the build log file. This option specifies to echo all environment variables, during builds of C++ projects, into the build log file.
+Lists environment variables in the build log file. This option specifies to echo all environment variables, during builds of C++ projects, into the build log file.
 
  **No**
 
- Exclude environment variables from the build log file.
+Exclude environment variables from the build log file.
 
 ## Build Timing
 
@@ -57,7 +57,7 @@ This dialog box lets you define C++ build and project settings related to loggin
 
  **No**
 
- Turns off build timing.
+Turns off build timing.
 
 ## Maximum concurrent C++ compilations
 

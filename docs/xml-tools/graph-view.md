@@ -13,31 +13,31 @@ ms.workload:
 
 The Graph View provides a graphic representation of global schema nodes and the relationships between the nodes. Note that the Graph View does not allow you to alter the layout of the schema set on the design surface. The Graph View also includes the XML Schema Designer toolbar and the breadcrumb bar.
 
- The following image shows the Graph View with six global nodes on its design surface.
+The following image shows the Graph View with six global nodes on its design surface.
 
- ![XML Schema Designer Graph View](../xml-tools/media/xsddesigner_graphview.gif)
+![XML Schema Designer Graph View](../xml-tools/media/xsddesigner_graphview.gif)
 
 ## Design surface
 
- The design surface of the Graph View displays the contents of the [XML schema designer workspace](../xml-tools/xml-schema-designer-workspace.md). If the workspace contains any global nodes from the schema set, the nodes are shown on the Graph View design surface and arrows are drawn between the nodes that have relationships.
+The design surface of the Graph View displays the contents of the [XML schema designer workspace](../xml-tools/xml-schema-designer-workspace.md). If the workspace contains any global nodes from the schema set, the nodes are shown on the Graph View design surface and arrows are drawn between the nodes that have relationships.
 
- Double-clicking a node in the Graph View will bring up XML editor.
+Double-clicking a node in the Graph View will bring up XML editor.
 
- To delete selected nodes from the workspace, use the XSD Designer toolbar or the **Delete** key.
+To delete selected nodes from the workspace, use the XSD Designer toolbar or the **Delete** key.
 
- If the design surface is blank, the XML editor, the **XML Schema Explorer**, and the watermark are shown. The *watermark* is a list of links to all the XSD Designer views.
+If the design surface is blank, the XML editor, the **XML Schema Explorer**, and the watermark are shown. The *watermark* is a list of links to all the XSD Designer views.
 
- ![XSD Designer; Graph View](../xml-tools/media/xsdgraphviewwatermark.gif)
+![XSD Designer; Graph View](../xml-tools/media/xsdgraphviewwatermark.gif)
 
- If the schema set has errors, the following text is displayed at the end of the list: "Use the Error List to view and fix the errors in the set."
+If the schema set has errors, the following text is displayed at the end of the list: "Use the Error List to view and fix the errors in the set."
 
 ## Breadcrumb bar
 
- The breadcrumb bar at the bottom of the Graph View shows where the selected node is located in the schema set. If multiple items are selected, the breadcrumb bar will be blank.
+The breadcrumb bar at the bottom of the Graph View shows where the selected node is located in the schema set. If multiple items are selected, the breadcrumb bar will be blank.
 
 ## Context (right-click) menu
 
- The following table describes the options that are available for all the nodes on the Graph View design surface.
+The following table describes the options that are available for all the nodes on the Graph View design surface.
 
 |Option|Description|
 |-|-----------------|
@@ -52,7 +52,7 @@ The Graph View provides a graphic representation of global schema nodes and the 
 |**View Code**|Opens the file that contains the selected node in the XML editor. The item that is selected in the **XML Schema Explorer** is also selected in the XML editor.|
 |**Properties Window**|Opens the **Properties** window (if it is not already open). This window displays information about the node.|
 
- In addition to the common options described above, the context menu for global elements also has the following options:
+In addition to the common options described above, the context menu for global elements also has the following options:
 
 |Option|Description|
 |-|-----------------|
@@ -61,7 +61,7 @@ The Graph View provides a graphic representation of global schema nodes and the 
 |**Add Substitution Group Members**|Adds all substitution group members. This option appears in the view if the element is the head or member of a substitution group.|
 |**Generate Sample XML**|Generates a sample XML file for the global element.|
 
- In addition to the common options described above, the context menu for global simple and global complex types also has the following options:
+In addition to the common options described above, the context menu for global simple and global complex types also has the following options:
 
 |Option|Description|
 |-|-----------------|
@@ -70,14 +70,14 @@ The Graph View provides a graphic representation of global schema nodes and the 
 |**Add All Derived Types**|Adds all types that are directly and indirectly derived from the selected type.|
 |**Add All Ancestors**|Adds all parent (base) types.|
 
- In addition to the common options described above, the context menu for global groups and attribute groups also has the following options:
+In addition to the common options described above, the context menu for global groups and attribute groups also has the following options:
 
 |Option|Description|
 |-|-----------------|
 |**Add All References**|Adds all nodes that refer to the group and draws arrows to indicate relationships between them.|
 |**Add All Members**|Adds all members of the group and draws arrows to indicate relationships between them.|
 
- In addtion to the common options described above, the context menu for global attributes also has the following options:
+In addtion to the common options described above, the context menu for global attributes also has the following options:
 
 |Option|Description|
 |-|-----------------|
@@ -85,13 +85,13 @@ The Graph View provides a graphic representation of global schema nodes and the 
 
 ## Properties window
 
- Use the context (right-click) menu to initially open the **Properties** window. By default, the **Properties** window appears in the lower right corner of Visual Studio. When you click a node that is rendered in the Content Model View, the properties of that node will be displayed in the **Properties** Window.
+Use the context (right-click) menu to initially open the **Properties** window. By default, the **Properties** window appears in the lower right corner of Visual Studio. When you click a node that is rendered in the Content Model View, the properties of that node will be displayed in the **Properties** Window.
 
 ## XSD toolbar
 
- The following XSD Toolbar buttons are enabled when the Graph View is active.
+The following XSD Toolbar buttons are enabled when the Graph View is active.
 
- ![XML Schema Designer Toolbar](../xml-tools/media/xsdgraphviewtoolbar.gif)
+![XML Schema Designer Toolbar](../xml-tools/media/xsdgraphviewtoolbar.gif)
 
 |Option|Description|
 |-|-----------------|
@@ -108,11 +108,11 @@ The Graph View provides a graphic representation of global schema nodes and the 
 
 ## Pan/Scroll
 
- You can pan the design surface by using the scrollbars or by holding the **Ctrl** key while you click and drag the mouse. When you pan the design surface using click and drag, the cursor will change to four crossed arrows pointing in four directions.
+You can pan the design surface by using the scrollbars or by holding the **Ctrl** key while you click and drag the mouse. When you pan the design surface using click and drag, the cursor will change to four crossed arrows pointing in four directions.
 
 ## Undo/Redo
 
- The undo/redo capability is enabled in the Graph View for the following actions:
+The undo/redo capability is enabled in the Graph View for the following actions:
 
 - Adding a single node by dragging and dropping.
 
@@ -122,9 +122,9 @@ The Graph View provides a graphic representation of global schema nodes and the 
 
 ## Zoom
 
- Zoom is available in the lower right corner of the Graph View.
+Zoom is available in the lower right corner of the Graph View.
 
- Zoom can be controlled in the following ways:
+Zoom can be controlled in the following ways:
 
 - By holding the **Ctrl** key and spinning the mouse wheel when the mouse is hovering over the Graph View surface.
 
@@ -134,9 +134,9 @@ The Zoom slider is opaque when you select it, hover over it, or use **Ctrl** wit
 
 ## XML editor integration
 
- You can switch back and forth between the Graph View and the XML editor by clicking a node and using the View Code context (right-click) menu.
+You can switch back and forth between the Graph View and the XML editor by clicking a node and using the View Code context (right-click) menu.
 
- If you make changes to the schema set in the XML editor, the changes will be synchronized in the Graph View. For more information, see [Integration with XML editor](../xml-tools/integration-with-xml-editor.md).
+If you make changes to the schema set in the XML editor, the changes will be synchronized in the Graph View. For more information, see [Integration with XML editor](../xml-tools/integration-with-xml-editor.md).
 
 ## See also
 

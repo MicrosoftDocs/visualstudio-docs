@@ -44,7 +44,7 @@ Additionally, if you're running legacy FxCop static code analysis as opposed to 
 
 Failure to provide the full set of constructors can make it difficult to correctly handle exceptions. For example, the constructor that has the signature `NewException(string, Exception)` is used to create exceptions that are caused by other exceptions. Without this constructor, you can't create and throw an instance of your custom exception that contains an inner (nested) exception, which is what managed code should do in such a situation.
 
-The first three exception constructors are public by convention. The fourth constructor is protected in unsealed classes, and private in sealed classes. For more information, see [CA2229: Implement serialization constructors](../code-quality/ca2229-implement-serialization-constructors.md)
+The first three exception constructors are public by convention. The fourth constructor is protected in unsealed classes, and private in sealed classes. For more information, see [CA2229: Implement serialization constructors](../code-quality/ca2229-implement-serialization-constructors.md).
 
 ## How to fix violations
 

@@ -54,7 +54,7 @@ The most important change to note when you install Visual Studio is its new setu
 
 Choose the workloads you need, and change them when you need to.
 
- ![Visual Studio 2017 setup dialog](../install/media/install-visual-studio-enterprise.png)
+![Visual Studio 2017 setup dialog](../install/media/install-visual-studio-enterprise.png)
 
 And you've got options to fine-tune your installation, too:
 
@@ -256,7 +256,7 @@ For more information, see [Debug live ASP.NET apps using snappoints and logpoint
 
 The Universal Windows Platform (UWP) is the app platform for Windows 10. You can develop apps for UWP with just one API set, one app package, and one store to reach all Windows 10 devices &ndash; PC, tablet, phone, Xbox, HoloLens, Surface Hub, and more. UWP supports different screen sizes and a variety of interaction models, whether it be touch, mouse and keyboard, a game controller, or a pen. At the core of UWP apps is the idea that users want their experiences to be mobile across ALL their devices, and that they want to use whatever device is most convenient or productive for the task at hand.
 
- ![Universal Windows Platform](../cross-platform/media/uwp_coreextensions.png)
+![Universal Windows Platform](../cross-platform/media/uwp_coreextensions.png)
 
 Choose your preferred development language&mdash;from C#, Visual Basic, C++, or JavaScript&mdash;to create a Universal Windows Platform app for Windows 10 devices. Visual Studio 2017 provides a UWP app template for each language that lets you create a single project for all devices. When your work is finished, you can produce an app package and submit it to Microsoft Store from within Visual Studio to get your app out to customers on any Windows 10 device.
 
@@ -375,7 +375,7 @@ If you want to make a suggestion about how we can improve Visual Studio, or lear
 
 ### Report a problem
 
- Sometimes, a message isn't enough to convey the full impact of a problem that you've encountered. If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files (such as screenshots, and trace and heap dump files) with us by using the **Report a Problem** tool. For more information about how to use this tool, see the [How to report a problem](how-to-report-a-problem-with-visual-studio.md) page.
+Sometimes, a message isn't enough to convey the full impact of a problem that you've encountered. If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files (such as screenshots, and trace and heap dump files) with us by using the **Report a Problem** tool. For more information about how to use this tool, see the [How to report a problem](how-to-report-a-problem-with-visual-studio.md) page.
 
 ## See also
 

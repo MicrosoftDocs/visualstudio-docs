@@ -25,15 +25,15 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- The name of an event starts with 'Before' or 'After'.
+The name of an event starts with 'Before' or 'After'.
 
 ## Rule description
- Event names should describe the action that raises the event. To name related events that are raised in a specific sequence, use the present or past tense to indicate the relative position in the sequence of actions. For example, when naming a pair of events that is raised when closing a resource, you might name it 'Closing' and 'Closed', instead of 'BeforeClose' and 'AfterClose'.
+Event names should describe the action that raises the event. To name related events that are raised in a specific sequence, use the present or past tense to indicate the relative position in the sequence of actions. For example, when naming a pair of events that is raised when closing a resource, you might name it 'Closing' and 'Closed', instead of 'BeforeClose' and 'AfterClose'.
 
- Naming conventions provide a common look for libraries that target the common language runtime. This reduces the learning curve that is required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
+Naming conventions provide a common look for libraries that target the common language runtime. This reduces the learning curve that is required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
 
 ## How to fix violations
- Remove the prefix from the event name, and consider changing the name to use the present or past tense of a verb.
+Remove the prefix from the event name, and consider changing the name to use the present or past tense of a verb.
 
 ## When to suppress warnings
- Do not suppress a warning from this rule.
+Do not suppress a warning from this rule.
