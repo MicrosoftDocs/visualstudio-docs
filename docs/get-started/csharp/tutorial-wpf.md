@@ -2,7 +2,7 @@
 title: "Hello World app with WPF in C#"
 description: Create a simple Windows Desktop .NET app in C# with Visual Studio using the Windows Presentation Foundation (WPF) UI framework.
 ms.custom: "seodec18, get-started"
-ms.date: 03/28/2019
+ms.date: 08/08/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -110,7 +110,7 @@ Let's give MainWindow a more specific name.
 
      **Solution Explorer** shows that the name of the file is now *Greetings.xaml*, and the nested code file is now named *Greetings.xaml.cs*. This code file is nested under the *.xaml* file node to show they are closely related to each other.
 
-     ![Properties window and Solution Explorer window with Greetings file name](../media/exploreide-grettingsfilename.png "Properties window and Solution Explorer window with Greetings file name")     
+     ![Properties window and Solution Explorer window with Greetings file name](../media/exploreide-greetingsfilename.png "Properties window and Solution Explorer window with Greetings file name")     
 
 ## Design the user interface (UI)
 
@@ -126,25 +126,31 @@ We will add three types of controls to this application: a <xref:System.Windows.
 
 3. Add a TextBlock control to the design surface by choosing the **TextBlock** item and dragging it to the window on the design surface. Center the control near the top of the window.
 
-Your window should resemble the following illustration:
+    Your window should resemble the following illustration:
 
-![TextBlock control on the Greetings form](../media/exploreide-greetingswithtextblockonly.png)
+    ![TextBlock control on the Greetings form](../media/exploreide-greetingswithtextblockonly.png)
 
-The XAML markup should look something like the following example:
+   The XAML markup should look something like the following example:
 
-```xaml
-<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" RenderTransformOrigin="4.08,2.312" Margin="237,57,221,238"><Run Text="TextBlock"/><InlineUIContainer><TextBlock TextWrapping="Wrap" Text="TextBlock"/>
-```
+    ```xaml
+    <Grid>
+    <TextBlock HorizontalAlignment="Left" Margin="387,60,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+    </Grid>
+    ```
 
 ### Customize the text in the text block
 
-1. In the XAML view, locate the markup for TextBlock and change the Text attribute:
+1. In the XAML view, locate the markup for **TextBlock** and change the **Text** attribute from `TextBox` to `Select a message option and then choose the Display button.`
+
+   The XAML markup should look something like the following example:
 
    ```xaml
-   Text="Select a message option and then choose the Display button."
+   <Grid>
+       <TextBlock HorizontalAlignment="Left" Margin="387,60,0,0" TextWrapping="Wrap" Text="Select a message option and then choose the Display button." VerticalAlignment="Top"/>
+   </Grid>
    ```
 
-2. Center the TextBlock again if necessary, and save your changes by pressing Ctrl+S or using the **File** menu item.
+2. Center the TextBlock again if you like, and then save your changes by pressing **Ctrl+S** or using the **File** menu item.
 
 Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) controls to the form.
 
@@ -166,7 +172,7 @@ Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) c
 
 4. In the **Properties** window for the right RadioButton control, change the **Name** property to `GoodbyeButton`, and then save your changes.
 
-You can now add display text for each RadioButton control. The following procedure updates the **Content** property for a RadioButton control.
+Next, you'll add display text for each RadioButton control. The following procedure updates the **Content** property for a RadioButton control.
 
 ### Add display text for each radio button
 
@@ -174,15 +180,33 @@ You can now add display text for each RadioButton control. The following procedu
 
 2. Open the shortcut menu for GoodbyeButton by pressing the right mouse button on GoodbyeButton, choose **Edit Text**, and then enter `Goodbye`.
 
+   The XAML markup should now look similar to the following example:
+
+   ```xaml
+   <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="252,47,0,0" TextWrapping="Wrap" Text="Select a message option and then choose the Display button." VerticalAlignment="Top"/>
+        <RadioButton x:Name="HelloButton" Content="Hello" HorizontalAlignment="Left" Margin="297,161,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="GoodbyeButton" Content="Goodbye" HorizontalAlignment="Left" Margin="488,161,0,0" VerticalAlignment="Top"/>
+   </Grid>
+   ```
+
 ### Set a radio button to be checked by default
 
 In this step, we'll set HelloButton to be checked by default so that one of the two radio buttons is always selected.
 
-In the XAML view, locate the markup for HelloButton and add an **IsChecked** attribute:
+1. In the XAML view, locate the markup for HelloButton. 
 
-```xaml
-IsChecked="True"
-```
+1. Add an **IsChecked** attribute and set it to **True**. Specifically, add `IsChecked="True"`.
+
+   The XAML markup should now look similar to the following example:
+
+   ```xaml
+   <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="252,47,0,0" TextWrapping="Wrap" Text="Select a message option and then choose the Display button." VerticalAlignment="Top"/>
+        <RadioButton x:Name="HelloButton" Content="Hello" IsChecked="True" HorizontalAlignment="Left" Margin="297,161,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="GoodbyeButton" Content="Goodbye" HorizontalAlignment="Left" Margin="488,161,0,0" VerticalAlignment="Top"/>
+   </Grid>
+   ```
 
 The final UI element that you'll add is a [Button](/dotnet/framework/wpf/controls/button) control.
 
@@ -192,8 +216,16 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
 
 2. In the XAML view, change the value of **Content** for the Button control from `Content="Button"` to `Content="Display"`, and then save the changes.
 
-     The markup should resemble the following example:
-     `<Button Content="Display" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="215,204,0,0"/>`
+   The XAML markup should now look similar to the following example:
+
+   ```xaml
+   <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="252,47,0,0" TextWrapping="Wrap" Text="Select a message option and then choose the Display button." VerticalAlignment="Top"/>
+        <RadioButton x:Name="HelloButton" Content="Hello" IsChecked="True" HorizontalAlignment="Left" Margin="297,161,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="GoodbyeButton" Content="Goodbye" HorizontalAlignment="Left" Margin="488,161,0,0" VerticalAlignment="Top"/>
+        <Button Content="Display" HorizontalAlignment="Left" Margin="377,270,0,0" VerticalAlignment="Top" Width="75"/>
+   </Grid>
+   ```
 
      Your window should resemble the following illustration.
 
