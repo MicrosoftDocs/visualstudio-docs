@@ -34,7 +34,7 @@ Using multiple UI Map files can provide the following benefits:
 - Additions to the application UI can be scaled incrementally with minimal effect on tests for other parts of the UI.
 
 ## Do you need multiple UI Maps?
- Create multiple UI Maps in each of these types of situations:
+Create multiple UI Maps in each of these types of situations:
 
 - Several complex sets of composite UI controls that together perform a logical operation, such as a registration page in a website, or the purchase page of a shopping cart.
 

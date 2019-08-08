@@ -25,23 +25,23 @@ ms.workload:
 |Breaking Change|Breaking - If the P/Invoke is visible outside the assembly. Non Breaking - If the P/Invoke is not visible outside the assembly.|
 
 ## Cause
- This rule evaluates the size of each parameter and the return value of a P/Invoke and verifies that their size, when marshaled to unmanaged code on 32-bit and 64-bit platforms, is correct. The most common violation of this rule is to pass a fixed-sized integer where a platform-dependent, pointer-sized variable is required.
+This rule evaluates the size of each parameter and the return value of a P/Invoke and verifies that their size, when marshaled to unmanaged code on 32-bit and 64-bit platforms, is correct. The most common violation of this rule is to pass a fixed-sized integer where a platform-dependent, pointer-sized variable is required.
 
 ## Rule description
- Either of the following scenarios violates this rule occurs:
+Either of the following scenarios violates this rule occurs:
 
 - The return value or parameter is typed as a fixed-size integer when it should be typed as an `IntPtr`.
 
 - The return value or parameter is typed as an `IntPtr` when it should be typed as a fixed-size integer.
 
 ## How to fix violations
- You can fix this violation by using `IntPtr` or `UIntPtr` to represent handles instead of `Int32` or `UInt32`.
+You can fix this violation by using `IntPtr` or `UIntPtr` to represent handles instead of `Int32` or `UInt32`.
 
 ## When to suppress warnings
- You should not suppress this warning.
+You should not suppress this warning.
 
 ## Example
- The following example demonstrates a violation of this rule.
+The following example demonstrates a violation of this rule.
 
 ```csharp
 internal class NativeMethods
@@ -52,7 +52,7 @@ internal class NativeMethods
 }
 ```
 
- In this example, the `nIconIndex` parameter is declared as an `IntPtr`, which is 4 bytes wide on a 32-bit platform and 8 bytes wide on a 64-bit platform. In the unmanaged declaration that follows, you can see that `nIconIndex` is a 4-byte unsigned integer on all platforms.
+In this example, the `nIconIndex` parameter is declared as an `IntPtr`, which is 4 bytes wide on a 32-bit platform and 8 bytes wide on a 64-bit platform. In the unmanaged declaration that follows, you can see that `nIconIndex` is a 4-byte unsigned integer on all platforms.
 
 ```csharp
 HICON ExtractIcon(HINSTANCE hInst, LPCTSTR lpszExeFileName,
@@ -60,7 +60,7 @@ HICON ExtractIcon(HINSTANCE hInst, LPCTSTR lpszExeFileName,
 ```
 
 ## Example
- To fix the violation, change the declaration to the following:
+To fix the violation, change the declaration to the following:
 
 ```csharp
 internal class NativeMethods{
@@ -71,4 +71,4 @@ internal class NativeMethods{
 ```
 
 ## See also
- [Portability Warnings](../code-quality/portability-warnings.md)
+[Portability Warnings](../code-quality/portability-warnings.md)

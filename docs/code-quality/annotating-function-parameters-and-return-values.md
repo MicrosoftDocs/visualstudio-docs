@@ -133,9 +133,9 @@ ms.workload:
 This article describes typical uses of annotations for simple function parameters—scalars, and pointers to structures and classes—and most kinds of buffers.  This article also shows common usage patterns for annotations. For additional annotations that are related to functions, see [Annotating Function Behavior](../code-quality/annotating-function-behavior.md).
 
 ## Pointer Parameters
- For the annotations in the following table, when a pointer parameter is being annotated, the analyzer reports an error if the pointer is null.  This applies to pointers and to any data item that's pointed to.
+For the annotations in the following table, when a pointer parameter is being annotated, the analyzer reports an error if the pointer is null.  This applies to pointers and to any data item that's pointed to.
 
- **Annotations and Descriptions**
+**Annotations and Descriptions**
 
 - `_In_`
 
@@ -283,16 +283,16 @@ This article describes typical uses of annotations for simple function parameter
 
 ## Optional Pointer Parameters
 
- When a pointer parameter annotation includes `_opt_`, it indicates that the parameter may be null. Otherwise, the annotation performs the same as the version that doesn't include `_opt_`. Here is a list of the `_opt_` variants of the pointer parameter annotations:
+When a pointer parameter annotation includes `_opt_`, it indicates that the parameter may be null. Otherwise, the annotation performs the same as the version that doesn't include `_opt_`. Here is a list of the `_opt_` variants of the pointer parameter annotations:
 
 ||||
 |-|-|-|
 |`_In_opt_`<br /><br /> `_Out_opt_`<br /><br /> `_Inout_opt_`<br /><br /> `_In_opt_z_`<br /><br /> `_Inout_opt_z_`<br /><br /> `_In_reads_opt_`<br /><br /> `_In_reads_bytes_opt_`<br /><br /> `_In_reads_opt_z_`|`_Out_writes_opt_`<br /><br /> `_Out_writes_opt_z_`<br /><br /> `_Inout_updates_opt_`<br /><br /> `_Inout_updates_bytes_opt_`<br /><br /> `_Inout_updates_opt_z_`<br /><br /> `_Out_writes_to_opt_`<br /><br /> `_Out_writes_bytes_to_opt_`<br /><br /> `_Out_writes_all_opt_`<br /><br /> `_Out_writes_bytes_all_opt_`|`_Inout_updates_to_opt_`<br /><br /> `_Inout_updates_bytes_to_opt_`<br /><br /> `_Inout_updates_all_opt_`<br /><br /> `_Inout_updates_bytes_all_opt_`<br /><br /> `_In_reads_to_ptr_opt_`<br /><br /> `_In_reads_to_ptr_opt_z_`<br /><br /> `_Out_writes_to_ptr_opt_`<br /><br /> `_Out_writes_to_ptr_opt_z_`|
 
 ## Output Pointer Parameters
- Output pointer parameters require special notation to disambiguate null-ness on the parameter and the pointed-to location.
+Output pointer parameters require special notation to disambiguate null-ness on the parameter and the pointed-to location.
 
- **Annotations and Descriptions**
+**Annotations and Descriptions**
 
 - `_Outptr_`
 
@@ -315,7 +315,7 @@ This article describes typical uses of annotations for simple function parameter
 > [!IMPORTANT]
 > If the interface that you are annotating is COM, use the COM form of these annotations. Do not use the COM annotations with any other type interface.
 
- **Annotations and Descriptions**
+**Annotations and Descriptions**
 
 - `_Outptr_result_z_`
 
@@ -383,9 +383,9 @@ This article describes typical uses of annotations for simple function parameter
 
 ## Output Reference Parameters
 
- A common use of the reference parameter is for output parameters.  For simple output reference parameters—for example, `int&`—`_Out_` provides the correct semantics.  However, when the output value is a pointer—for example `int *&`—the equivalent pointer annotations like `_Outptr_ int **` don't provide the correct semantics.  To concisely express the semantics of output reference parameters for pointer types, use these composite annotations:
+A common use of the reference parameter is for output parameters.  For simple output reference parameters—for example, `int&`—`_Out_` provides the correct semantics.  However, when the output value is a pointer—for example `int *&`—the equivalent pointer annotations like `_Outptr_ int **` don't provide the correct semantics.  To concisely express the semantics of output reference parameters for pointer types, use these composite annotations:
 
- **Annotations and Descriptions**
+**Annotations and Descriptions**
 
 - `_Outref_`
 
@@ -445,7 +445,7 @@ This article describes typical uses of annotations for simple function parameter
 
 ## Return Values
 
- The return value of a function resembles an `_Out_` parameter but is at a different level of de-reference, and you don't have to consider the concept of the pointer to the result.  For the following annotations, the return value is the annotated object—a scalar, a pointer to a struct, or a pointer to a buffer. These annotations have the same semantics as the corresponding `_Out_` annotation.
+The return value of a function resembles an `_Out_` parameter but is at a different level of de-reference, and you don't have to consider the concept of the pointer to the result.  For the following annotations, the return value is the annotated object—a scalar, a pointer to a struct, or a pointer to a buffer. These annotations have the same semantics as the corresponding `_Out_` annotation.
 
 |||
 |-|-|
@@ -503,7 +503,7 @@ This article describes typical uses of annotations for simple function parameter
 
 ## Other Common Annotations
 
- **Annotations and Descriptions**
+**Annotations and Descriptions**
 
 - `_In_range_(low, hi)`
 
@@ -542,7 +542,7 @@ This article describes typical uses of annotations for simple function parameter
 
 ## Related Resources
 
- [Code Analysis Team Blog](http://go.microsoft.com/fwlink/?LinkId=251197)
+[Code Analysis Team Blog](http://go.microsoft.com/fwlink/?LinkId=251197)
 
 ## See Also
 

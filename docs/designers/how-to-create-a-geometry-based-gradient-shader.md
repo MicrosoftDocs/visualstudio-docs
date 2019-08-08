@@ -42,15 +42,15 @@ The following illustration shows the completed shader graph and a preview of the
 > [!NOTE]
 > In this illustration, an orange color is specified to better demonstrate the effect of the shader, but because the preview shape has no position in world-space, the shader cannot be fully previewed in the Shader Designer. The shader must be previewed in a real scene to demonstrate the full effect.
 
- ![Shader graph and a preview of its effect](../designers/media/digit-gradient-effect-graph.png)
+![Shader graph and a preview of its effect](../designers/media/digit-gradient-effect-graph.png)
 
- Certain shapes might provide better previews for some shaders. For information about how to preview shaders in the Shader Designer, see **Previewing shaders** in [Shader Designer](../designers/shader-designer.md).
+Certain shapes might provide better previews for some shaders. For information about how to preview shaders in the Shader Designer, see **Previewing shaders** in [Shader Designer](../designers/shader-designer.md).
 
- The following illustration shows the shader that's described in this document applied to the 3D scene that's demonstrated in [How to: Model 3D terrain](../designers/how-to-model-3-d-terrain.md). The intensity of the color increases with the height of the point in the world.
+The following illustration shows the shader that's described in this document applied to the 3D scene that's demonstrated in [How to: Model 3D terrain](../designers/how-to-model-3-d-terrain.md). The intensity of the color increases with the height of the point in the world.
 
- ![Gradient effect applied to a 3&#45;D terrain model](../designers/media/digit-gradient-effect-result.png)
+![Gradient effect applied to a 3&#45;D terrain model](../designers/media/digit-gradient-effect-result.png)
 
- For more information about how to apply a shader to a 3D model, see [How to: Apply a shader to a 3D model](../designers/how-to-apply-a-shader-to-a-3-d-model.md).
+For more information about how to apply a shader to a 3D model, see [How to: Apply a shader to a 3D model](../designers/how-to-apply-a-shader-to-a-3-d-model.md).
 
 ## See also
 

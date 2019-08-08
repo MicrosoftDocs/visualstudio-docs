@@ -25,34 +25,39 @@ ms.workload:
 |Breaking Change|Breaking - when raised on assemblies, namespaces, types, members, and parameters.<br /><br /> Non-breaking - when fired on generic type parameters.|
 
 ## Cause
- The name of an identifier is not cased correctly.
 
- \- or -
+The name of an identifier is not cased correctly.
 
- The name of an identifier contains a two-letter acronym and the second letter is lowercase.
+\- or -
 
- \- or -
+The name of an identifier contains a two-letter acronym and the second letter is lowercase.
 
- The name of an identifier contains an acronym of three or more uppercase letters.
+\- or -
+
+The name of an identifier contains an acronym of three or more uppercase letters.
 
 ## Rule description
- Naming conventions provide a common look for libraries that target the common language runtime. This consistency reduces the learning curve that's required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
 
- By convention, parameter names use camel casing, and namespace, type, and member names use Pascal casing. In a camel-cased name, the first letter is lowercase, and the first letter of any remaining words in the name is uppercase. Examples of camel-cased names are `packetSniffer`, `ioFile`, and `fatalErrorCode`. In a Pascal-cased name, the first letter is uppercase, and the first letter of any remaining words in the name is uppercase. Examples of Pascal-cased names are `PacketSniffer`, `IOFile`, and `FatalErrorCode`.
+Naming conventions provide a common look for libraries that target the common language runtime. This consistency reduces the learning curve that's required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
 
- This rule splits the name into words based on the casing and checks any two-letter words against a list of common two-letter words, such as "In" or "My". If a match is not found, the word is assumed to be an acronym. In addition, this rule assumes it has found an acronym when the name contains either four uppercase letters in a row or three uppercase letters in a row at the end of the name.
+By convention, parameter names use camel casing, and namespace, type, and member names use Pascal casing. In a camel-cased name, the first letter is lowercase, and the first letter of any remaining words in the name is uppercase. Examples of camel-cased names are `packetSniffer`, `ioFile`, and `fatalErrorCode`. In a Pascal-cased name, the first letter is uppercase, and the first letter of any remaining words in the name is uppercase. Examples of Pascal-cased names are `PacketSniffer`, `IOFile`, and `FatalErrorCode`.
 
- By convention, two-letter acronyms use all uppercase letters, and acronyms of three or more characters use Pascal casing. The following examples use this naming convention: 'DB', 'CR', 'Cpa', and 'Ecma'. The following examples violate the convention: 'Io', 'XML', and 'DoD', and for non-parameter names, 'xp' and 'cpl'.
+This rule splits the name into words based on the casing and checks any two-letter words against a list of common two-letter words, such as "In" or "My". If a match is not found, the word is assumed to be an acronym. In addition, this rule assumes it has found an acronym when the name contains either four uppercase letters in a row or three uppercase letters in a row at the end of the name.
 
- 'ID' is special-cased to cause a violation of this rule. 'Id' is not an acronym but is an abbreviation for 'identification'.
+By convention, two-letter acronyms use all uppercase letters, and acronyms of three or more characters use Pascal casing. The following examples use this naming convention: 'DB', 'CR', 'Cpa', and 'Ecma'. The following examples violate the convention: 'Io', 'XML', and 'DoD', and for non-parameter names, 'xp' and 'cpl'.
+
+'ID' is special-cased to cause a violation of this rule. 'Id' is not an acronym but is an abbreviation for 'identification'.
 
 ## How to fix violations
- Change the name so that it is cased correctly.
+
+Change the name so that it is cased correctly.
 
 ## When to suppress warnings
- It is safe to suppress this warning if you have your own naming conventions, or if the identifier represents a proper name, for example, the name of a company or a technology.
 
- You can also add specific terms, abbreviations, and acronyms that to a code analysis custom dictionary. Terms specified in the custom dictionary will not cause violations of this rule. For more information, see [How to: Customize the Code Analysis Dictionary](../code-quality/how-to-customize-the-code-analysis-dictionary.md).
+It is safe to suppress this warning if you have your own naming conventions, or if the identifier represents a proper name, for example, the name of a company or a technology.
+
+You can also add specific terms, abbreviations, and acronyms that to a code analysis custom dictionary. Terms specified in the custom dictionary will not cause violations of this rule. For more information, see [How to: Customize the Code Analysis Dictionary](../code-quality/how-to-customize-the-code-analysis-dictionary.md).
 
 ## Related rules
- [CA1708: Identifiers should differ by more than case](../code-quality/ca1708-identifiers-should-differ-by-more-than-case.md)
+
+[CA1708: Identifiers should differ by more than case](../code-quality/ca1708-identifiers-should-differ-by-more-than-case.md)
