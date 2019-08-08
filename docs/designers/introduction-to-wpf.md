@@ -233,7 +233,7 @@ The next example demonstrates how to bind a <xref:System.Windows.Controls.TextBo
 
 The following markup binds the <xref:System.Windows.Controls.TextBox> to an instance of a custom `Person` object.
 
- ```xaml
+```xaml
  <Window
      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -243,7 +243,7 @@ The following markup binds the <xref:System.Windows.Controls.TextBox> to an inst
    <TextBox Name="personNameTextBox" Text="{Binding Path=Name}" />
 
  </Window>
- ```
+```
 
 [!code-vb[SimpleDataBindingSnippets#DataBindingCODEBEHIND](../designers/codesnippet/VisualBasic/introduction-to-wpf_6.vb)]
 [!code-csharp[SimpleDataBindingSnippets#DataBindingCODEBEHIND](../designers/codesnippet/CSharp/introduction-to-wpf_6.cs)]
@@ -591,7 +591,7 @@ As an alternative to directly associating your resources with a particular scope
 </ResourceDictionary>
 ```
 
- The following example references the resource dictionary defined in the previous example so that it is shared across an application.
+The following example references the resource dictionary defined in the previous example so that it is shared across an application.
 
 ```xaml
 <Application

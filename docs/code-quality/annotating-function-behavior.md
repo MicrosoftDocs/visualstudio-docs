@@ -25,7 +25,7 @@ ms.workload:
 In addition to annotating [function parameters and return values](../code-quality/annotating-function-parameters-and-return-values.md), you can annotate properties of the whole function.
 
 ## Function Annotations
- The following annotations apply to the function as a whole and describe how it behaves or what it expects to be true.
+The following annotations apply to the function as a whole and describe how it behaves or what it expects to be true.
 
 |Annotation|Description|
 |----------------|-----------------|
@@ -38,7 +38,7 @@ In addition to annotating [function parameters and return values](../code-qualit
 |`_Use_decl_annotations_`|May be used on a function definition (also known as a function body) in place of the list of annotations in the header.  When `_Use_decl_annotations_` is used, the annotations that appear on an in-scope header for the same function are used as if they are also present in the definition that has the `_Use_decl_annotations_` annotation.|
 
 ## Success/Failure Annotations
- A function can fail, and when it does, its results may be incomplete or differ from the results when the function succeeds.  The annotations in the following list provide ways to express the failure behavior.  To use these annotations, you must enable them to determine success; therefore, a `_Success_` annotation is required.  Notice that `NTSTATUS` and `HRESULT` already have a `_Success_` annotation built into them; however, if you specify your own `_Success_` annotation on `NTSTATUS` or `HRESULT`, it overrides the built-in annotation.
+A function can fail, and when it does, its results may be incomplete or differ from the results when the function succeeds.  The annotations in the following list provide ways to express the failure behavior.  To use these annotations, you must enable them to determine success; therefore, a `_Success_` annotation is required.  Notice that `NTSTATUS` and `HRESULT` already have a `_Success_` annotation built into them; however, if you specify your own `_Success_` annotation on `NTSTATUS` or `HRESULT`, it overrides the built-in annotation.
 
 |Annotation|Description|
 |----------------|-----------------|

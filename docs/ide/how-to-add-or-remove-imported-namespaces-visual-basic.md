@@ -19,7 +19,7 @@ ms.workload:
 
 Importing a namespace allows you to use elements from that namespace in your code without fully qualifying the element. For example, if you want to access the `Create` method in the `System.Messaging.MessageQueue` class, you can import the `System.Messaging` namespace and just refer to the element you need in code as `MessageQueue.Create`.
 
- Imported namespaces are managed on the **References** page of the **Project Designer**. The imports you specify in this dialog box are passed directly to the compiler (*/imports*) and apply to all files in your project. Use the `Imports` statement to use a namespace in a single source code file.
+Imported namespaces are managed on the **References** page of the **Project Designer**. The imports you specify in this dialog box are passed directly to the compiler (*/imports*) and apply to all files in your project. Use the `Imports` statement to use a namespace in a single source code file.
 
 ### To add an imported namespace
 
@@ -41,9 +41,9 @@ Importing a namespace allows you to use elements from that namespace in your cod
 3. In the **Imported Namespaces** list, clear the check box for the namespace that you wish to remove.
 
 ## User imports
- User imports allow you to import a specific class within a namespace rather than the entire namespace. For example, your application might have an import for the <xref:System.Diagnostics> namespace, but the only class within that namespace that you are interested in is the `Debug` class. You can define <xref:System.Diagnostics.Debug> as a user import, and then remove the import for <xref:System.Diagnostics>.
+User imports allow you to import a specific class within a namespace rather than the entire namespace. For example, your application might have an import for the <xref:System.Diagnostics> namespace, but the only class within that namespace that you are interested in is the `Debug` class. You can define <xref:System.Diagnostics.Debug> as a user import, and then remove the import for <xref:System.Diagnostics>.
 
- If you later change you mind and decide that was really the `EventLog` class that you needed, you could enter <xref:System.Diagnostics.EventLog> as a user import and overwrite <xref:System.Diagnostics.Debug> using the update functionality.
+If you later change you mind and decide that was really the `EventLog` class that you needed, you could enter <xref:System.Diagnostics.EventLog> as a user import and overwrite <xref:System.Diagnostics.Debug> using the update functionality.
 
 ### To add a user import
 

@@ -158,7 +158,7 @@ void Func2(
 );
 ```
 
- `_Deref_out_range_(0, cbSize)` is not strictly required for some tools because it can be inferred from `_Out_writes_to_(cbSize,*pcbFilled)`, but it is shown here for completeness.
+`_Deref_out_range_(0, cbSize)` is not strictly required for some tools because it can be inferred from `_Out_writes_to_(cbSize,*pcbFilled)`, but it is shown here for completeness.
 
 ## Wrong context in \_When\_
 
@@ -175,7 +175,7 @@ _When_(flag == 0, _Requires_lock_held_(p->cs))
 int Func2(_In_ MyData *p, int flag);
 ```
 
- The expression `result` refers to a post-state value that is not available in pre-state.
+The expression `result` refers to a post-state value that is not available in pre-state.
 
 ## TRUE in \_Success\_
 

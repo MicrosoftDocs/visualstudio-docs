@@ -19,7 +19,7 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- A P/Invoke declaration has been marked with a <xref:System.Security.SecuritySafeCriticalAttribute>:
+A P/Invoke declaration has been marked with a <xref:System.Security.SecuritySafeCriticalAttribute>:
 
 ```csharp
 [assembly: AllowPartiallyTrustedCallers]
@@ -33,13 +33,13 @@ public class C
    }
 ```
 
- In this example, `C.Beep(...)` has been marked as a security safe critical method.
+In this example, `C.Beep(...)` has been marked as a security safe critical method.
 
 ## Rule description
- Methods are marked as SecuritySafeCritical when they perform a security sensitive operation, but are also safe to be used by transparent code. One of the fundamental rules of the security transparency model is that transparent code may never directly call native code through a P/Invoke. Therefore, marking a P/Invoke as security safe critical will not enable transparent code to call it, and is misleading for security analysis.
+Methods are marked as SecuritySafeCritical when they perform a security sensitive operation, but are also safe to be used by transparent code. One of the fundamental rules of the security transparency model is that transparent code may never directly call native code through a P/Invoke. Therefore, marking a P/Invoke as security safe critical will not enable transparent code to call it, and is misleading for security analysis.
 
 ## How to fix violations
- To make a P/Invoke available to transparent code, expose a security safe critical wrapper method for it:
+To make a P/Invoke available to transparent code, expose a security safe critical wrapper method for it:
 
 ```csharp
 [assembly: AllowPartiallyTrustedCallers
@@ -59,4 +59,4 @@ class C
 ```
 
 ## When to suppress warnings
- Do not suppress a warning from this rule.
+Do not suppress a warning from this rule.
