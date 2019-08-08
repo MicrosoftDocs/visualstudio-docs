@@ -44,7 +44,7 @@ The following illustration shows the completed shader graph and a preview of the
 
 ![Shader graph and a preview of its effect](../designers/media/digit-gradient-effect-graph.png)
 
-Certain shapes might provide better previews for some shaders. For information about how to preview shaders in the Shader Designer, see **Previewing shaders** in [Shader Designer](../designers/shader-designer.md)
+Certain shapes might provide better previews for some shaders. For information about how to preview shaders in the Shader Designer, see **Previewing shaders** in [Shader Designer](../designers/shader-designer.md).
 
 The following illustration shows the shader that's described in this document applied to the 3D scene that's demonstrated in [How to: Model 3D terrain](../designers/how-to-model-3-d-terrain.md). The intensity of the color increases with the height of the point in the world.
 

@@ -130,7 +130,7 @@ ms.workload:
   - "multiple"
 ---
 # Annotating Function Parameters and Return Values
-This article describes typical uses of annotations for simple function parameters—scalars, and pointers to structures and classes—and most kinds of buffers.  This article also shows common usage patterns for annotations. For additional annotations that are related to functions, see [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)
+This article describes typical uses of annotations for simple function parameters—scalars, and pointers to structures and classes—and most kinds of buffers.  This article also shows common usage patterns for annotations. For additional annotations that are related to functions, see [Annotating Function Behavior](../code-quality/annotating-function-behavior.md).
 
 ## Pointer Parameters
 For the annotations in the following table, when a pointer parameter is being annotated, the analyzer reports an error if the pointer is null.  This applies to pointers and to any data item that's pointed to.

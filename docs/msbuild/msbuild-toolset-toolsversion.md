@@ -54,7 +54,7 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
 <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 ```
 
- You can modify the value of `MSBuildToolsPath` by defining a custom Toolset. For more information, see [Standard and custom Toolset configurations](../msbuild/standard-and-custom-toolset-configurations.md)
+ You can modify the value of `MSBuildToolsPath` by defining a custom Toolset. For more information, see [Standard and custom Toolset configurations](../msbuild/standard-and-custom-toolset-configurations.md).
 
  When you build a solution on the command line and specify a `ToolsVersion` for *msbuild.exe*, all projects and their project-to-project dependencies are built according to that `ToolsVersion`, even if each project in the solution specifies its own `ToolsVersion`. To define the `ToolsVersion` value on a per project basis, see [Overriding ToolsVersion settings](../msbuild/overriding-toolsversion-settings.md).
 

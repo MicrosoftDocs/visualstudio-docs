@@ -459,7 +459,7 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
 The improvements to the test code led to more robust and informative test methods. But more importantly, they also improved the code under test.
 
 > [!TIP]
-> This walkthrough uses the Microsoft unit test framework for managed code. **Test Explorer** can also run tests from third-party unit test frameworks that have adapters for **Test Explorer**. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
+> This walkthrough uses the Microsoft unit test framework for managed code. **Test Explorer** can also run tests from third-party unit test frameworks that have adapters for **Test Explorer**. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md).
 
 ## See also
 
