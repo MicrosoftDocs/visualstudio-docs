@@ -37,11 +37,11 @@ By testing your web application using a variety of web browser types, you better
 > [!NOTE]
 > You cannot record coded UI tests using Google Chrome or Mozilla Firefox browsers.
 
- **Play back with Internet Explorer:** When no browser is explicitly specified, tests will run on Internet Explorer by default. You can explicitly state the browser to be used by setting the **BrowserWindow.CurrentBrowser** property in your test code. For Internet Explorer, this property should be set to **IE** or **Internet Explorer**.
+**Play back with Internet Explorer:** When no browser is explicitly specified, tests will run on Internet Explorer by default. You can explicitly state the browser to be used by setting the **BrowserWindow.CurrentBrowser** property in your test code. For Internet Explorer, this property should be set to **IE** or **Internet Explorer**.
 
- **Play back with non-Internet Explorer web browsers:** To play back on non-Internet Explorer web browsers, change BrowserWindow.CurrentBrowser property in your test code to either **Firefox** or **Chrome**.
+**Play back with non-Internet Explorer web browsers:** To play back on non-Internet Explorer web browsers, change BrowserWindow.CurrentBrowser property in your test code to either **Firefox** or **Chrome**.
 
- To play back tests on non-IE web browsers, you must install the **Selenium components for Coded UI Cross Browser Testing**.
+To play back tests on non-IE web browsers, you must install the **Selenium components for Coded UI Cross Browser Testing**.
 
 ### Install Selenium components
 
@@ -114,15 +114,15 @@ For more information, see [Analyze coded UI tests using coded UI test logs](../t
 
 ## Video resources
 
- [Record on IE and playback everywhere](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!183&authkey=!ANqaLtCZbtJrImU)
+[Record on IE and playback everywhere](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!183&authkey=!ANqaLtCZbtJrImU)
 
- [Author cross browser tests with coded UI test builder](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!184&authkey=!AKG8CSow_qmeTq8)
+[Author cross browser tests with coded UI test builder](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!184&authkey=!AKG8CSow_qmeTq8)
 
- [Author cross browser tests using plain hand coding without UI Map](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!186&authkey=!AJaEvxJnsefyAT4)
+[Author cross browser tests using plain hand coding without UI Map](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!186&authkey=!AJaEvxJnsefyAT4)
 
- [Run cross browser tests sequentially on multiple browsers](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!187&authkey=!ADI8eCQkxHnpOR8)
+[Run cross browser tests sequentially on multiple browsers](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!187&authkey=!ADI8eCQkxHnpOR8)
 
- [Troubleshoot cross browser test failures](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!182&authkey=!AEpS48i295B49FI)
+[Troubleshoot cross browser test failures](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!182&authkey=!AEpS48i295B49FI)
 
 ## See also
 
