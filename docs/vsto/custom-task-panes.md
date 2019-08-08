@@ -166,7 +166,7 @@ ms.workload:
 
  If you want to display a custom task pane with multiple documents, create a new instance of the custom task pane when the user creates a new document or opens an existing document. To do this, handle events that are raised when a document is created or opened, and then create the task pane in the event handlers. You can also handle document events to hide or display task panes depending on which document is visible.
 
- To associate the task pane with a specific document window, use the <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Add%2A> method to create the task pane, and pass a <xref:Microsoft.Office.Interop.Word.Window> (for Word),  <xref:Microsoft.Office.Interop.InfoPath.WindowObject> (for InfoPath), or <xref:Microsoft.Office.Interop.PowerPoint.DocumentWindow> (for PowerPoint) to the *window* parameter.
+ To associate the task pane with a specific document window, use the <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Add%2A> method to create the task pane, and pass a <xref:Microsoft.Office.Interop.Word.Window> (for Word),  <xref:Microsoft.Office.Interop.InfoPath.WindowObject> (for InfoPath), or [DocumentWindow](/previous-versions/office/developer/office-2010/ff762047(v=office.14)) (for PowerPoint) to the *window* parameter.
 
 ### Word events
  To monitor the state of document windows in Word, you can handle the following events:

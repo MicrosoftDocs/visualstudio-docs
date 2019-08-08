@@ -19,7 +19,8 @@ In a text template, you can use methods and properties exposed by the host that 
  This applies to regular text templates, not preprocessed text templates.
 
 ## Obtaining access to the host
- Set `hostspecific="true"` in the `template` directive. This lets you use  `this.Host`, which has type <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>. This type has members that you can use, for example, to resolve file names and to log errors.
+
+Set `hostspecific="true"` in the `template` directive. This lets you use  `this.Host`, which has type [ITextTemplatingEngineHost](/previous-versions/visualstudio/visual-studio-2012/bb126505(v=vs.110)). This type has members that you can use, for example, to resolve file names and to log errors.
 
 ### Resolving File Names
  To find the full path of a file relative to the text template, use this.Host.ResolvePath().
