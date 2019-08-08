@@ -31,14 +31,14 @@ You can download the tools from the [Visual Studio Marketplace](https://aka.ms/v
 
 ## Prepare your local machine
 
-Before training deep learning models on your local computer, make sure you have the applicable prerequisites installed. This includes making sure you have the latest drivers and libraries for your NVIDIA GPU (if you have one). You should also ensure you've installed Python and Python libraries such as NumPy, SciPy, and appropriate deep learning frameworks such as Microsoft Cognitive Toolkit (CNTK), TensorFlow, Caffe2, MXNet, Keras, Theano, PyTorch, and Chainer, that you plan to use in your project.
+Before training deep learning models on your local computer, make sure you have the applicable prerequisites installed. This includes making sure you have the latest drivers and libraries for your NVIDIA GPU (if you have one). Also ensure you've installed Python and Python libraries such as NumPy, SciPy, and appropriate deep learning frameworks such as Microsoft Cognitive Toolkit (CNTK), TensorFlow, Caffe2, MXNet, Keras, Theano, PyTorch, and Chainer, that you plan to use in your project.
 
 > [!NOTE]
 > Software introduction in the following subsections is excerpted from their homepages.
 
 ### NVIDIA GPU driver
 
-Deep learning frameworks take advantage of NVIDIA GPU to let machines learn at a speed, accuracy, and scale towards true artificial intelligence. If your computer has NVIDIA GPU cards, please visit [here](http://www.nvidia.com/Download/index.aspx) or try OS update to install the latest driver.
+Deep learning frameworks take advantage of NVIDIA GPU to let machines learn at a speed, accuracy, and scale towards true artificial intelligence. If your computer has NVIDIA GPU cards, see [NVIDIA Driver Downloads](http://www.nvidia.com/Download/index.aspx) or try an operating system update to install the latest driver.
 
 ### CUDA
 
@@ -46,7 +46,7 @@ Deep learning frameworks take advantage of NVIDIA GPU to let machines learn at a
 
 To install CUDA
 
-- Visit this [site](https://developer.nvidia.com/cuda-80-ga2-download-archive), download CUDA and install it.
+- Visit this [site](https://developer.nvidia.com/cuda-80-ga2-download-archive), download CUDA, and install it.
 - Make sure to install the CUDA runtime libraries, and then add CUDA binary path to the %PATH% or $Path environment variable.
 - On Windows, this path is "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin" by default.
 
@@ -135,7 +135,7 @@ To install CNTK Python package, see [how to install CNTK](https://docs.microsoft
 
 ### TensorFlow
 
-[TensorFlow](https://www.tensorflow.org/) is an open source software library for numerical computation using data flow graphs. Refer to [here](https://www.tensorflow.org/install/) for detailed installation.
+[TensorFlow](https://www.tensorflow.org/) is an open-source software library for numerical computation using data flow graphs. Refer to [here](https://www.tensorflow.org/install/) for detailed installation.
 
 > [!NOTE]
 > As of version 1.2, TensorFlow no longer provides GPU support for macOS.
@@ -168,9 +168,9 @@ To install MXNet, run the following command in a terminal:
 
 ### Keras
 
-[Keras](https://keras.io/) is a high-level neural networks API, written in Python and capable of running on top of CNTK, TensorFlow, or Theano. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.
+[Keras](https://keras.io/) is a high-level neural networks API, written in Python, that's capable of running on top of CNTK, TensorFlow, or Theano. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.
 
-To install Keras, please run the following command in a terminal:
+To install Keras, run the following command in a terminal:
 
 ```bash
 pip3.5 install Keras==2.0.9
@@ -180,7 +180,7 @@ pip3.5 install Keras==2.0.9
 
 [Theano](http://deeplearning.net/software/theano/) is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently.
 
-To install Theano, please run the following command in a terminal:
+To install Theano, run the following command in a terminal:
 
 ```bash
 pip3.5 install Theano==0.9.0
@@ -233,7 +233,7 @@ pip3.5 install torchvision
 
 ### Chainer
 
-[Chainer](https://chainer.org/) is a Python-based deep learning framework aiming at flexibility. It provides automatic differentiation APIs based on the **define-by-run approach** (a.k.a. dynamic computational graphs) as well as object-oriented high-level APIs to build and train neural networks.
+[Chainer](https://chainer.org/) is a Python-based deep learning framework aiming at flexibility. It provides automatic differentiation APIs based on the define-by-run approach (also known as dynamic computational graphs) as well as object-oriented high-level APIs to build and train neural networks.
 
 To enable CUDA support, install [CuPy](https://github.com/cupy/cupy):
 
@@ -244,7 +244,7 @@ pip3.5 install cupy
 > [!NOTE]
 > On Windows, you need the 2015 version of [Visual Studio](https://visualstudio.microsoft.com/) or the [Microsoft Visual C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) to compile CuPy with CUDA 8.0.
 
-To install Chainer, please run the following command in a terminal:
+To install Chainer, run the following command in a terminal:
 
 ```bash
 pip3.5 install chainer==3.0.0
