@@ -13,7 +13,7 @@ ms.workload:
   - "dotnet"
 ---
 
-# Make local function static
+## Make local function static
 
 This refactoring applies to:
 
@@ -25,7 +25,7 @@ This refactoring applies to:
 
 **Why:** Static local functions improves readability: knowing that specific code is isolated makes it easier to understand, reread, and reuse. Static local functions also provide scoping to prevent polluting a class with a static function that's only called in a single method.  
 
-## How-to
+### How-to
 
 1. Place your caret on the local function name. 
 
@@ -38,26 +38,26 @@ This refactoring applies to:
 3. Select **Make local function ‘static’.** 
 
 
-# Pass variable explicitly in a static local function
+## Pass variable explicitly in a static local function
 
 This refactoring applies to:
 
 - C#
 
-**What:** Passes in a variable explicitly into a local static function.  
+**What:** Passes a variable explicitly into a local static function.  
 
-**When:** You want your local function to be static, but still use variables initialized outside of it without running into a compiler error. 
+**When:** You want a local function to be static but still use variables initialized outside of it. 
 
-**Why:** Using static local functions provides clarification to readers, as they know that it can be only be declared and called in a specific context of the program. It provides the flexibility to define variables outside this context, but still be able to pass them in as arguments to the static local function.  
+**Why:** Using static local functions provides clarification to readers because they know that it can only be declared and called in a specific context of the program. It provides the flexibility to define variables outside this context, but still be able to pass them in as arguments to the static local function.  
 
-## How-to
+### How-to
 
-1. Place your caret on the offending code. 
+1. Place your caret on the variable where it's used in the static local function.
 
 
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu. 
 
-    ![Pass variable explicitly in static local function](media/pass-variable-explicitly-in-static-local-function.PNG)
+    ![Pass variable explicitly in static local function](media/pass-variable-explicitly-in-static-local-function.png)
 
 3. Select **Pass variable explicitly in local static function**. 
 
