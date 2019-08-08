@@ -194,7 +194,7 @@ Next, you'll add display text for each RadioButton control. The following proced
 
 In this step, we'll set HelloButton to be checked by default so that one of the two radio buttons is always selected.
 
-1. In the XAML view, locate the markup for HelloButton. 
+1. In the XAML view, locate the markup for HelloButton.
 
 1. Add an **IsChecked** attribute and set it to **True**. Specifically, add `IsChecked="True"`.
 
