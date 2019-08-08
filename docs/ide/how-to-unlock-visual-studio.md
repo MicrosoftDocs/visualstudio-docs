@@ -44,11 +44,11 @@ To unlock Visual Studio using a Visual Studio subscription or an Azure DevOps or
 
 ### Update stale licenses
 
- You might have seen the following message that says that your license is going stale in Visual Studio. It reads, "Your license has gone stale and must be updated."
+You might have seen the following message that says that your license is going stale in Visual Studio. It reads, "Your license has gone stale and must be updated."
 
  ![Visual Studio stale license message](../ide/media/vs2017_stale-license.png)
 
- This message indicates that while your subscription may still be valid, the license token Visual Studio uses to keep your subscription up to date hasn't been refreshed and has gone stale due to one of the following reasons:
+This message indicates that while your subscription may still be valid, the license token Visual Studio uses to keep your subscription up to date hasn't been refreshed and has gone stale due to one of the following reasons:
 
 - You have not used Visual Studio or have had no internet connection for an extended period of time.
 - You signed out of Visual Studio.
@@ -62,7 +62,7 @@ If you do not reenter your credentials, the token starts to go stale and the **A
 
 ### Update expired licenses
 
- If your subscription has expired completely and you no longer have access rights to Visual Studio, you must renew your subscription or add another account that has a subscription. To see more information about the license you are using, go to **File** > **Account Settings** and look at the license information on the right side of the dialog. If you have another subscription associated with a different account, add that account to the **All Accounts** list on the left side of the dialog box by selecting the **Add an account** link.
+If your subscription has expired completely and you no longer have access rights to Visual Studio, you must renew your subscription or add another account that has a subscription. To see more information about the license you are using, go to **File** > **Account Settings** and look at the license information on the right side of the dialog. If you have another subscription associated with a different account, add that account to the **All Accounts** list on the left side of the dialog box by selecting the **Add an account** link.
 
 ## See also
 

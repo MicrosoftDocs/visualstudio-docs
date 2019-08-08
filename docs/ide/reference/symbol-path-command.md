@@ -27,20 +27,20 @@ Debug.SymbolPath pathname1;pathname2;... pathnameN
 ## Arguments
  `pathname`
 
- Optional. A semi-colon delimited list of paths for the debugger to search for symbols.
+Optional. A semi-colon delimited list of paths for the debugger to search for symbols.
 
 ## Remarks
- If no `pathname` is specified, the command lists the current symbol paths.
+If no `pathname` is specified, the command lists the current symbol paths.
 
 ## Example
- This example adds two paths to the list of symbol directories.
+This example adds two paths to the list of symbol directories.
 
 ```
 Debug.SymbolPath C:\Symbol Path 1;C:\Symbol Path 2
 ```
 
 ## Example
- This example displays a semi-colon delimited list of current symbol paths.
+This example displays a semi-colon delimited list of current symbol paths.
 
 ```
 Debug.SymbolPath

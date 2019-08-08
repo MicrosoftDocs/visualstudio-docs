@@ -32,7 +32,7 @@ If you run your builds outside of the Visual Studio IDE, and your builds are suc
 
 ![VC++ Include Directories](media/vcpp-intellisense-include-paths.png)
 
- To see the current values for build macros such as **VC_IncludePath**, select the Include Directories line and click the dropdown on the right. Then choose **\<Edit>** and click on the **Macros** button.
+To see the current values for build macros such as **VC_IncludePath**, select the Include Directories line and click the dropdown on the right. Then choose **\<Edit>** and click on the **Macros** button.
 
 ### Makefile projects
 
@@ -104,10 +104,10 @@ An IntelliSense build does not produce binaries, but it can still fail. One poss
 The error message might instruct you to enable design-time tracing:
 
 ```output
- error: Designtime build failed for project 'E:\src\MyProject\MyProject.vcxproj',
- configuration 'Debug|x64'. IntelliSense might be unavailable.
- Set environment variable TRACEDESIGNTIME=true and restart
- Visual Studio to investigate.
+error: Designtime build failed for project 'E:\src\MyProject\MyProject.vcxproj',
+configuration 'Debug|x64'. IntelliSense might be unavailable.
+Set environment variable TRACEDESIGNTIME=true and restart
+Visual Studio to investigate.
 ```
 
 If you set the environment variable TRACEDESIGNTIME to true and restart Visual Studio, you will see a log file in the %TEMP% directory, which might help diagnose the build failure.

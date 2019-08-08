@@ -24,16 +24,15 @@ Edit.GoTo [linenumber]
 ```
 
 ## Arguments
- `linenumber`
-
- Optional. An integer representing the number of the line to go to.
+ `linenumber`\
+Optional. An integer representing the number of the line to go to.
 
 ## Remarks
- The line numbering begins at one. If the value of `linenumber` is less than one, the first line displays. If the value of `linenumber` is greater than the number of the last line, the last line displays.
+The line numbering begins at one. If the value of `linenumber` is less than one, the first line displays. If the value of `linenumber` is greater than the number of the last line, the last line displays.
 
- If a value for `linenumber` is not specified, the **Go To Line** dialog box displays.
+If a value for `linenumber` is not specified, the **Go To Line** dialog box displays.
 
- The alias for this command is GoToLn.
+The alias for this command is GoToLn.
 
 ## Example
 

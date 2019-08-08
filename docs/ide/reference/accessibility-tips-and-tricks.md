@@ -23,7 +23,7 @@ We also cover how to use annotations to reveal useful information about your cod
 
 ## Save your IDE settings
 
- You can customize your IDE experience by saving your window layout, keyboard mapping scheme, and other preferences. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
+You can customize your IDE experience by saving your window layout, keyboard mapping scheme, and other preferences. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
 
 ## Modify your IDE for high-contrast viewing
 

@@ -24,12 +24,13 @@ Debug.QuickWatchq [text]
 ```
 
 ## Arguments
- `text`
 
- Optional. The text to add to the **QuickWatch** dialog box.
+ `text`\
+Optional. The text to add to the **QuickWatch** dialog box.
 
 ## Remarks
- If `text` is omitted, the currently selected text or word at the cursor is added to the Watch window.
+
+If `text` is omitted, the currently selected text or word at the cursor is added to the Watch window.
 
 ## Example
 

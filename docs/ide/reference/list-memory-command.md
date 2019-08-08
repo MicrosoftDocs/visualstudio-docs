@@ -28,39 +28,39 @@ Debug.ListMemory [/ANSI|Unicode] [/Count:number] [/Format:formattype]
 ## Arguments
  `expression`
 
- Optional. The memory address from which to begin displaying memory.
+Optional. The memory address from which to begin displaying memory.
 
 ## Switches
  /ANSI&#124;Unicode
 
- Optional. Display the memory as characters corresponding to the bytes of memory, either ANSI or Unicode.
+Optional. Display the memory as characters corresponding to the bytes of memory, either ANSI or Unicode.
 
  /Count:`number`
 
- Optional. Determines how many bytes of memory to display, starting at `expression`.
+Optional. Determines how many bytes of memory to display, starting at `expression`.
 
  /Format:`formattype`
 
- Optional. Format type for viewing memory information in the **Memory** window; may be OneByte, TwoBytes, FourBytes, EightBytes, Float (32-bit), or Double (64-bit). If OneByte is used, `/Unicode` is unavailable.
+Optional. Format type for viewing memory information in the **Memory** window; may be OneByte, TwoBytes, FourBytes, EightBytes, Float (32-bit), or Double (64-bit). If OneByte is used, `/Unicode` is unavailable.
 
  /Hex&#124;Signed&#124;Unsigned
 
- Optional. Specifies the format for viewing numbers: as signed, unsigned, or hexadecimal.
+Optional. Specifies the format for viewing numbers: as signed, unsigned, or hexadecimal.
 
 ## Remarks
- Instead of writing out a complete **Debug.ListMemory** command with all switches, you can invoke the command using predefined aliases with certain switches preset to specified values. For example, instead of entering:
+Instead of writing out a complete **Debug.ListMemory** command with all switches, you can invoke the command using predefined aliases with certain switches preset to specified values. For example, instead of entering:
 
 ```cmd
 >Debug.ListMemory /Format:float /Count:30 /Unicode
 ```
 
- you can write:
+you can write:
 
 ```cmd
 >df /Count:30 /Unicode
 ```
 
- Here is a list of the available aliases for the **Debug.ListMemory** command:
+Here is a list of the available aliases for the **Debug.ListMemory** command:
 
 |Alias|Command and Switches|
 |-----------| - |

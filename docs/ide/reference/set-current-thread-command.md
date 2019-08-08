@@ -26,7 +26,7 @@ Debug.SetCurrentThread index
 ## Arguments
  `index`
 
- Required. Selects a thread by its index.
+Required. Selects a thread by its index.
 
 ## Example
 

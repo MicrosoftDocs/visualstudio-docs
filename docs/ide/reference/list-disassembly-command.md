@@ -26,31 +26,31 @@ Debug.ListDisassembly [/count:number] [/endaddress:expression]
 ```
 
 ## Switches
- Each switch can be invoked using either its complete form or a short form.
+Each switch can be invoked using either its complete form or a short form.
 
  /count: `number` [or] /c: `number` [or] /length: `number` [or] /l: `number`
 
- Optional. Number of instructions to display. Default value is 8.
+Optional. Number of instructions to display. Default value is 8.
 
  /endaddress: `expression` [or] /e: `expression`
 
- Optional. Address at which to stop disassembly.
+Optional. Address at which to stop disassembly.
 
  /codebytes:`yes`&#124;`no` [or] /bytes:`yes`&#124;`no` [or] /b:`yes`&#124;`no`
 
- Optional. Indicates whether to display code bytes. Default value is `no`.
+Optional. Indicates whether to display code bytes. Default value is `no`.
 
  /source:`yes`&#124;`no` [or] /s:`yes`&#124;`no`
 
- Optional. Indicates whether to display source code. Default value is `no`.
+Optional. Indicates whether to display source code. Default value is `no`.
 
  /symbolnames:`yes`&#124;`no` [or] /names:`yes`&#124;`no` [or] /n:`yes`&#124;`no`
 
- Optional. Indicates whether to display symbols names. Default value is `yes`.
+Optional. Indicates whether to display symbols names. Default value is `yes`.
 
  [/linenumbers:`yes`&#124;`no`]
 
- Optional. Enables the viewing of line numbers associated with the source code. The /source switch must have a value of `yes` to use the /linenumbers switch.
+Optional. Enables the viewing of line numbers associated with the source code. The /source switch must have a value of `yes` to use the /linenumbers switch.
 
 ## Example
 

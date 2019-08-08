@@ -25,11 +25,12 @@ Debug.ToggleBreakpoint [text]
 ```
 
 ## Arguments
- `text`
- Optional. If text is specified, the line is marked as a named breakpoint. Otherwise, the line is marked as an unnamed breakpoint, which is similar to what happens when you press F9.
+
+ `text`\
+Optional. If text is specified, the line is marked as a named breakpoint. Otherwise, the line is marked as an unnamed breakpoint, which is similar to what happens when you press F9.
 
 ## Example
- The following example toggles the current breakpoint.
+The following example toggles the current breakpoint.
 
 ```
 >Debug.ToggleBreakpoint
