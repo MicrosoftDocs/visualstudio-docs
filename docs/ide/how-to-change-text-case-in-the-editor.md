@@ -25,7 +25,7 @@ You can use menu commands or keyboard shortcuts to convert the case of selected 
 
 2. To convert text to all upper case, choose **Edit** > **Advanced** > **Make Uppercase** or press **Ctrl**+**Shift**+**U**.
 
-   To convert text to all lower case, choose **Edit** > **Advanced** > **Make Lowercase** or press **Ctrl**+**U**. (If you have the C++ development workload installed, this keybinding may be overridden by a different command.)
+   To convert text to all lower case, choose **Edit** > **Advanced** > **Make Lowercase** or press **Ctrl**+**U**. (If you have the C++ development workload installed, this keybinding may be used by a different command.)
 
 > [!TIP]
 > To revert to the previous case formatting before this change, select **Undo** from the **Edit** menu.
