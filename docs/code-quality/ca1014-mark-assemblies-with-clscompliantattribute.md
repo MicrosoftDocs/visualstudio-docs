@@ -29,25 +29,25 @@ ms.workload:
 |Breaking Change|Non-breaking|
 
 ## Cause
- An assembly does not have the <xref:System.CLSCompliantAttribute?displayProperty=fullName> attribute applied to it.
+An assembly does not have the <xref:System.CLSCompliantAttribute?displayProperty=fullName> attribute applied to it.
 
 ## Rule description
- The Common Language Specification (CLS) defines naming restrictions, data types, and rules to which assemblies must conform if they will be used across programming languages. Good design dictates that all assemblies explicitly indicate CLS compliance with <xref:System.CLSCompliantAttribute>. If the attribute is not present on an assembly, the assembly is not compliant.
+The Common Language Specification (CLS) defines naming restrictions, data types, and rules to which assemblies must conform if they will be used across programming languages. Good design dictates that all assemblies explicitly indicate CLS compliance with <xref:System.CLSCompliantAttribute>. If the attribute is not present on an assembly, the assembly is not compliant.
 
- It is possible for a CLS-compliant assembly to contain types or type members that are not compliant.
+It is possible for a CLS-compliant assembly to contain types or type members that are not compliant.
 
 ## How to fix violations
- To fix a violation of this rule, add the attribute to the assembly. Instead of marking the whole assembly as noncompliant, you should determine which type or type members are not compliant and mark these elements as such. If possible, you should provide a CLS-compliant alternative for noncompliant members so that the widest possible audience can access all the functionality of your assembly.
+To fix a violation of this rule, add the attribute to the assembly. Instead of marking the whole assembly as noncompliant, you should determine which type or type members are not compliant and mark these elements as such. If possible, you should provide a CLS-compliant alternative for noncompliant members so that the widest possible audience can access all the functionality of your assembly.
 
 ## When to suppress warnings
- Do not suppress a warning from this rule. If you do not want the assembly to be compliant, apply the attribute and set its value to `false`.
+Do not suppress a warning from this rule. If you do not want the assembly to be compliant, apply the attribute and set its value to `false`.
 
 ## Example
- The following example shows an assembly that has the <xref:System.CLSCompliantAttribute?displayProperty=fullName> attribute applied that declares it CLS-compliant.
+The following example shows an assembly that has the <xref:System.CLSCompliantAttribute?displayProperty=fullName> attribute applied that declares it CLS-compliant.
 
- [!code-csharp[FxCop.Design.AssembliesCls#1](../code-quality/codesnippet/CSharp/ca1014-mark-assemblies-with-clscompliantattribute_1.cs)]
- [!code-cpp[FxCop.Design.AssembliesCls#1](../code-quality/codesnippet/CPP/ca1014-mark-assemblies-with-clscompliantattribute_1.cpp)]
- [!code-vb[FxCop.Design.AssembliesCls#1](../code-quality/codesnippet/VisualBasic/ca1014-mark-assemblies-with-clscompliantattribute_1.vb)]
+[!code-csharp[FxCop.Design.AssembliesCls#1](../code-quality/codesnippet/CSharp/ca1014-mark-assemblies-with-clscompliantattribute_1.cs)]
+[!code-cpp[FxCop.Design.AssembliesCls#1](../code-quality/codesnippet/CPP/ca1014-mark-assemblies-with-clscompliantattribute_1.cpp)]
+[!code-vb[FxCop.Design.AssembliesCls#1](../code-quality/codesnippet/VisualBasic/ca1014-mark-assemblies-with-clscompliantattribute_1.vb)]
 
 ## See also
 

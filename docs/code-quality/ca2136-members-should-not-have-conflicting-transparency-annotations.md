@@ -26,18 +26,18 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- This rule fires when a type member is marked with a <xref:System.Security> security attribute that has a different transparency than the security attribute of a container of the member.
+This rule fires when a type member is marked with a <xref:System.Security> security attribute that has a different transparency than the security attribute of a container of the member.
 
 ## Rule description
- Transparency attributes are applied from code elements of larger scope to elements of smaller scope. The transparency attributes of code elements with larger scope take precedence over transparency attributes of code elements that are contained in the first element. For example, a class that is marked with the <xref:System.Security.SecurityCriticalAttribute> attribute cannot contain a method that is marked with the <xref:System.Security.SecuritySafeCriticalAttribute> attribute.
+Transparency attributes are applied from code elements of larger scope to elements of smaller scope. The transparency attributes of code elements with larger scope take precedence over transparency attributes of code elements that are contained in the first element. For example, a class that is marked with the <xref:System.Security.SecurityCriticalAttribute> attribute cannot contain a method that is marked with the <xref:System.Security.SecuritySafeCriticalAttribute> attribute.
 
 ## How to fix violations
- To fix this violation, remove the security attribute from the code element that has lower scope, or change its attribute to be the same as the containing code element.
+To fix this violation, remove the security attribute from the code element that has lower scope, or change its attribute to be the same as the containing code element.
 
 ## When to suppress warnings
- Do not suppress warnings from this rule.
+Do not suppress warnings from this rule.
 
 ## Example
- In the following example, a method is marked with the <xref:System.Security.SecuritySafeCriticalAttribute> attribute and it is a member of a class that is marked with the <xref:System.Security.SecurityCriticalAttribute> attribute. The security safe attribute should be removed.
+In the following example, a method is marked with the <xref:System.Security.SecuritySafeCriticalAttribute> attribute and it is a member of a class that is marked with the <xref:System.Security.SecurityCriticalAttribute> attribute. The security safe attribute should be removed.
 
- [!code-csharp[FxCop.Security.CA2136.TransparencyAnnotationsShouldNotConflict#1](../code-quality/codesnippet/CSharp/ca2136-members-should-not-have-conflicting-transparency-annotations_1.cs)]
+[!code-csharp[FxCop.Security.CA2136.TransparencyAnnotationsShouldNotConflict#1](../code-quality/codesnippet/CSharp/ca2136-members-should-not-have-conflicting-transparency-annotations_1.cs)]

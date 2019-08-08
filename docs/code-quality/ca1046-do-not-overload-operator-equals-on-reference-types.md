@@ -25,21 +25,21 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- A public or nested public reference type overloads the equality operator.
+A public or nested public reference type overloads the equality operator.
 
 ## Rule description
- For reference types, the default implementation of the equality operator is almost always correct. By default, two references are equal only if they point to the same object.
+For reference types, the default implementation of the equality operator is almost always correct. By default, two references are equal only if they point to the same object.
 
 ## How to fix violations
- To fix a violation of this rule, remove the implementation of the equality operator.
+To fix a violation of this rule, remove the implementation of the equality operator.
 
 ## When to suppress warnings
- It is safe to suppress a warning from this rule when the reference type behaves like a built-in value type. If it is meaningful to do addition or subtraction on instances of the type, it is probably correct to implement the equality operator and suppress the violation.
+It is safe to suppress a warning from this rule when the reference type behaves like a built-in value type. If it is meaningful to do addition or subtraction on instances of the type, it is probably correct to implement the equality operator and suppress the violation.
 
 ## Example
- The following example demonstrates the default behavior when comparing two references.
+The following example demonstrates the default behavior when comparing two references.
 
- [!code-csharp[FxCop.Design.RefTypesNoEqualityOp#1](../code-quality/codesnippet/CSharp/ca1046-do-not-overload-operator-equals-on-reference-types_1.cs)]
+[!code-csharp[FxCop.Design.RefTypesNoEqualityOp#1](../code-quality/codesnippet/CSharp/ca1046-do-not-overload-operator-equals-on-reference-types_1.cs)]
 
 ## Example
 

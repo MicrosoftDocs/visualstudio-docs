@@ -1,5 +1,5 @@
 ---
-title: "Create an Offline Installer for Visual Studio for Mac"
+title: "Create an Offline Installer"
 description:
 author: asb3993
 ms.author: amburns

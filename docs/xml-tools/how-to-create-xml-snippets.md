@@ -15,7 +15,7 @@ The XML editor can be used to create new XML snippets. The editor includes an XM
 
 ## To create a new XML snippet
 
- To create a new XML code snippet create a new XML file and use the **Insert Snippet** feature.
+To create a new XML code snippet create a new XML file and use the **Insert Snippet** feature.
 
 1. On the **File** menu, click **New** and then click **File**.
 
@@ -37,11 +37,11 @@ The XML editor can be used to create new XML snippets. The editor includes an XM
 
 ## Snippet description
 
- This section describes some of the key elements in the boilerplate snippet. For more information about schema elements used by the XML snippets, see [Code snippets schema reference](../ide/code-snippets-schema-reference.md).
+This section describes some of the key elements in the boilerplate snippet. For more information about schema elements used by the XML snippets, see [Code snippets schema reference](../ide/code-snippets-schema-reference.md).
 
 ### SnippetType element
 
- The editor supports two snippet types:
+The editor supports two snippet types:
 
 ```xml
 <SnippetTypes>
@@ -50,16 +50,16 @@ The XML editor can be used to create new XML snippets. The editor includes an XM
 </SnippetTypes>
 ```
 
- The `Expansion` type determines whether the snippet appears when you invoke the **Insert Snippet** command. The `SurroundsWith` type determines whether the snippet appears when you invoke the **Surrounds With** command.
+The `Expansion` type determines whether the snippet appears when you invoke the **Insert Snippet** command. The `SurroundsWith` type determines whether the snippet appears when you invoke the **Surrounds With** command.
 
 ### Code element
 
- The `Code` element defines the XML text that will be inserted when the snippet is invoked.
+The `Code` element defines the XML text that will be inserted when the snippet is invoked.
 
 > [!NOTE]
 > The XML snippet text must be enclosed in a `<![CDATA[...]]>` section.
 
- The following is the `Code` element that is created by the boilerplate snippet.
+The following is the `Code` element that is created by the boilerplate snippet.
 
 ```xml
 <Code Language="XML">
@@ -69,7 +69,7 @@ The XML editor can be used to create new XML snippets. The editor includes an XM
 </Code>
 ```
 
- The `Code` element includes three variables.
+The `Code` element includes three variables.
 
 - $name$ is user-defined variable. It creates a `name` element, which has an editable value that defaults to "name". User-defined variables are defined using the `Literal` element.
 
@@ -85,11 +85,11 @@ The XML editor can be used to create new XML snippets. The editor includes an XM
 </test>
 ```
 
- The value of the name element is marked as an editable region.
+The value of the name element is marked as an editable region.
 
 ### Literal element
 
- The `Literal` element is used to identify replacement text that can be customized after it is inserted into the file. For example, literal strings, numeric values, and some variable names can be declared as literals. You can define any number of literals in your XML snippet and you can refer to them multiple times from within the snippet. The following is an example of a `Literal` element that defines a $name$ variable whose default value is "name."
+The `Literal` element is used to identify replacement text that can be customized after it is inserted into the file. For example, literal strings, numeric values, and some variable names can be declared as literals. You can define any number of literals in your XML snippet and you can refer to them multiple times from within the snippet. The following is an example of a `Literal` element that defines a $name$ variable whose default value is "name."
 
 ```xml
 <Literal>
@@ -98,7 +98,7 @@ The XML editor can be used to create new XML snippets. The editor includes an XM
 </Literal
 ```
 
- Literals can also refer to functions. The XML editor includes a function named **LookupPrefix**. The **LookupPrefix** function looks up the given namespace URI from the location in the XML document that this snippet is invoked from and returns the namespace prefix that is defined for that namespace, if any, and it includes the colon (:) in that name. The following is an example of a `Literal` element that uses the **LookupPrefix** function.
+Literals can also refer to functions. The XML editor includes a function named **LookupPrefix**. The **LookupPrefix** function looks up the given namespace URI from the location in the XML document that this snippet is invoked from and returns the namespace prefix that is defined for that namespace, if any, and it includes the colon (:) in that name. The following is an example of a `Literal` element that uses the **LookupPrefix** function.
 
 ```xml
 <Literal Editable="false">
@@ -107,7 +107,7 @@ The XML editor can be used to create new XML snippets. The editor includes an XM
 </Literal>
 ```
 
- The $prefix$ variable can then be used elsewhere in your XML snippet.
+The $prefix$ variable can then be used elsewhere in your XML snippet.
 
 ## See also
 

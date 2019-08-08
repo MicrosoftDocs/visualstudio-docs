@@ -63,17 +63,17 @@ The test controller provides a general architecture for running tests, and inclu
 
 The test agent runs as a service that listens for requests from the test controller to start a new test. When the test agent receives a request, the test agent service starts a process on which to run the tests. Each test agent runs the same load test.
 
- Test agents are assigned a weight by the administrator, and load is distributed according to a test agent’s weighting. For example, if test agent 1 has a weighting of 30, and test agent 2 has a weighting of 70, and the load is set to 1000 users, then test agent 1 simulates 300 virtual users whereas test agent 2 simulates 700 virtual users. See [Manage test controllers and test agents with Visual Studio](../test/manage-test-controllers-and-test-agents.md).
+Test agents are assigned a weight by the administrator, and load is distributed according to a test agent’s weighting. For example, if test agent 1 has a weighting of 30, and test agent 2 has a weighting of 70, and the load is set to 1000 users, then test agent 1 simulates 300 virtual users whereas test agent 2 simulates 700 virtual users. See [Manage test controllers and test agents with Visual Studio](../test/manage-test-controllers-and-test-agents.md).
 
- The test agent takes a set of tests and a set of simulation parameters as input. A key concept is that tests are independent of the computer where they're run.
+The test agent takes a set of tests and a set of simulation parameters as input. A key concept is that tests are independent of the computer where they're run.
 
 ## Test controller and test agent connection points
 
 The following illustration shows the connection points between the test controller, the test agent, and the client. It outlines which ports are used for incoming and outgoing connections as well as security restrictions used on these ports.
 
- ![Test controller and test agent ports and security](./media/test-controller-agent-firewall.png)
+![Test controller and test agent ports and security](./media/test-controller-agent-firewall.png)
 
- For more information see [Configure ports for test controllers and test agents](../test/configure-ports-for-test-controllers-and-test-agents.md).
+For more information see [Configure ports for test controllers and test agents](../test/configure-ports-for-test-controllers-and-test-agents.md).
 
 ## Test controller and agent installation information
 

@@ -92,7 +92,7 @@ The following code shows how to add objects to the typed collection in a <xref:S
 [!code-csharp[VbRaddataConnecting#5](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_3.cs)]
 [!code-vb[VbRaddataConnecting#5](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_3.vb)]
 
- The following code shows how to add objects to a typed collection that inherits from <xref:System.ComponentModel.BindingList%601>:
+The following code shows how to add objects to a typed collection that inherits from <xref:System.ComponentModel.BindingList%601>:
 
 > [!NOTE]
 > In this example, the `Orders` collection is a property of the `Customer` object.
