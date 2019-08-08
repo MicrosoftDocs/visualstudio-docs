@@ -25,28 +25,28 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- A public or protected <xref:System.IntPtr?displayProperty=fullName> or <xref:System.UIntPtr?displayProperty=fullName> field is not read-only.
+A public or protected <xref:System.IntPtr?displayProperty=fullName> or <xref:System.UIntPtr?displayProperty=fullName> field is not read-only.
 
 ## Rule description
  <xref:System.IntPtr> and <xref:System.UIntPtr> are pointer types that are used to access unmanaged memory. If a pointer is not private, internal, or read-only, malicious code can change the value of the pointer, potentially allowing access to arbitrary locations in memory or causing application or system failures.
 
- If you intend to secure access to the type that contains the pointer field, see [CA2112: Secured types should not expose fields](../code-quality/ca2112-secured-types-should-not-expose-fields.md).
+If you intend to secure access to the type that contains the pointer field, see [CA2112: Secured types should not expose fields](../code-quality/ca2112-secured-types-should-not-expose-fields.md).
 
 ## How to fix violations
- Secure the pointer by making it read-only, internal, or private.
+Secure the pointer by making it read-only, internal, or private.
 
 ## When to suppress warnings
- Suppress a warning from this rule if you do not rely on the value of the pointer.
+Suppress a warning from this rule if you do not rely on the value of the pointer.
 
 ## Example
- The following code shows pointers that violate and satisfy the rule. Notice that the non-private pointers also violate the rule [CA1051: Do not declare visible instance fields](../code-quality/ca1051-do-not-declare-visible-instance-fields.md).
+The following code shows pointers that violate and satisfy the rule. Notice that the non-private pointers also violate the rule [CA1051: Do not declare visible instance fields](../code-quality/ca1051-do-not-declare-visible-instance-fields.md).
 
- [!code-csharp[FxCop.Security.PointersArePrivate#1](../code-quality/codesnippet/CSharp/ca2111-pointers-should-not-be-visible_1.cs)]
+[!code-csharp[FxCop.Security.PointersArePrivate#1](../code-quality/codesnippet/CSharp/ca2111-pointers-should-not-be-visible_1.cs)]
 
 ## Related rules
- [CA2112: Secured types should not expose fields](../code-quality/ca2112-secured-types-should-not-expose-fields.md)
+[CA2112: Secured types should not expose fields](../code-quality/ca2112-secured-types-should-not-expose-fields.md)
 
- [CA1051: Do not declare visible instance fields](../code-quality/ca1051-do-not-declare-visible-instance-fields.md)
+[CA1051: Do not declare visible instance fields](../code-quality/ca1051-do-not-declare-visible-instance-fields.md)
 
 ## See also
 

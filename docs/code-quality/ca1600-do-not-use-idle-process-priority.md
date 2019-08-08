@@ -25,13 +25,13 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- This rule occurs when processes are set to `ProcessPriorityClass.Idle`.
+This rule occurs when processes are set to `ProcessPriorityClass.Idle`.
 
 ## Rule description
- Do not set process priority to Idle. Processes that have `System.Diagnostics.ProcessPriorityClass.Idle` will occupy the CPU when it would otherwise be idle, and will therefore block standby.
+Do not set process priority to Idle. Processes that have `System.Diagnostics.ProcessPriorityClass.Idle` will occupy the CPU when it would otherwise be idle, and will therefore block standby.
 
 ## How to fix violations
- Set processes to `ProcessPriorityClass.BelowNormal`.
+Set processes to `ProcessPriorityClass.BelowNormal`.
 
 ## When to suppress warnings
- This rule should be suppressed only when Idle process priority is required and mobility considerations can be ignored safely.
+This rule should be suppressed only when Idle process priority is required and mobility considerations can be ignored safely.
