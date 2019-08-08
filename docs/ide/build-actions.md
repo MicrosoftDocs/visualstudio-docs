@@ -43,7 +43,7 @@ Some of the more common build actions for C# and Visual Basic project files are:
 | **Resource** | WPF | Specifies to embed the file in an assembly manifest resource file with the extension *.g.resources*. |
 | **Shadow** | .NET | Used for an .accessor file that contains a list of built assembly filenames, one per line. For each assembly on the list, generate public classes with the names `ClassName_Accessor` that are just like the originals, but with public methods instead of private methods. Used for unit testing. |
 | **Splash Screen** | WPF | Specifies an image file to be displayed at runtime when the app is starting up. |
-| **XamlAppDef** | WPF | ... |
+| **XamlAppDef** | Windows Workflow Foundation | Instructs the build to build a workflow XAML file into an assembly with an embedded workflow. |
 
 > [!NOTE]
 > Additional build actions may be defined by for specific project types, so the list of build actions depends on the project type and values might appear that are not in this list.
