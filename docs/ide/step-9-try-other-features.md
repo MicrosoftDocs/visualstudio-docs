@@ -12,7 +12,7 @@ ms.workload:
 # Step 9: Try other features
 To learn more, try changing icons and colors, adding a game timer, and adding sounds. To make the game more challenging, try making the board bigger and adjusting the timer.
 
- To download a completed version of the sample, see [Complete matching game tutorial sample](https://code.msdn.microsoft.com/Complete-Matching-Game-4cffddba).
+To download a completed version of the sample, see [Complete matching game tutorial sample](https://code.msdn.microsoft.com/Complete-Matching-Game-4cffddba).
 
 ## To try other features
 

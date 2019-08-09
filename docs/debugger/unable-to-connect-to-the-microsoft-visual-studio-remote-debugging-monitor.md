@@ -73,7 +73,7 @@ Visual Studio could not connect to the remote debugger. This message may occur f
 
 - The port is blocked on the firewall. Make sure the firewall is [not blocking your request](#firewall), especially if you are using a third-party firewall.
 
-- The remote debugger version does not match Visual Studio. To get the correct version of the remote debugger, see [Remote Debugging](../debugger/remote-debugging.md)
+- The remote debugger version does not match Visual Studio. To get the correct version of the remote debugger, see [Remote Debugging](../debugger/remote-debugging.md).
 
 ## <a name="valid_name"></a> The requested name was valid, but no data of the requested type was found
 

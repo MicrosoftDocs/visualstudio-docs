@@ -63,7 +63,7 @@ You can define traits on test methods which enable you to categorize and group t
 #define TEST_MY_TRAIT(traitValue) TEST_METHOD_ATTRIBUTE(L"MyTrait", traitValue)
 ```
 
- To use the defined trait in your unit tests:
+To use the defined trait in your unit tests:
 
 ```cpp
 BEGIN_TEST_METHOD_ATTRIBUTE(Method1)
