@@ -52,7 +52,7 @@ ms.workload:
  For more information about the design of the PowerPoint PIA, such as the differences between classes and interfaces in the PIA and how events in the PIA are implemented, see [Overview of classes and interfaces in the Office primary interop assemblies](http://go.microsoft.com/fwlink/?LinkId=199885).
 
 ### VBA object model reference
- The VBA object model reference documents the PowerPoint object model as it is exposed to Visual Basic for Applications (VBA) code. For more information, see [PowerPoint 2010 object model reference](http://go.microsoft.com/fwlink/?LinkId=199770)
+ The VBA object model reference documents the PowerPoint object model as it is exposed to Visual Basic for Applications (VBA) code. For more information, see [PowerPoint 2010 object model reference](http://go.microsoft.com/fwlink/?LinkId=199770).
 
  All of the objects and members in the VBA object model reference correspond to types and members in the PowerPoint primary interop assembly (PIA). For example, the Presentation object in the VBA object model reference corresponds to the [Presentation](/previous-versions/office/developer/office-2010/ff761925(v=office.14)) type in the PowerPoint PIA. Although the VBA object model reference provides code examples for most properties, methods, and events, you must translate the VBA code in this reference to Visual Basic or Visual C# if you want to use them in a PowerPoint VSTO Add-in project that you create by using Visual Studio.
 

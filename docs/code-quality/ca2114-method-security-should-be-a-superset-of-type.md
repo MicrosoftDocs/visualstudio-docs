@@ -25,16 +25,16 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- A type has declarative security and one of its methods has declarative security for the same security action, and the security action is not [Link Demands](/dotnet/framework/misc/link-demands), and the permissions checked by the type are not a subset of the permissions checked by the method.
+A type has declarative security and one of its methods has declarative security for the same security action, and the security action is not [Link Demands](/dotnet/framework/misc/link-demands), and the permissions checked by the type are not a subset of the permissions checked by the method.
 
 ## Rule description
- A method should not have both a method-level and type-level declarative security for the same action. The two checks are not combined; only the method-level demand is applied. For example, if a type demands permission `X`, and one of its methods demands permission `Y`, code does not have to have permission `X` to execute the method.
+A method should not have both a method-level and type-level declarative security for the same action. The two checks are not combined; only the method-level demand is applied. For example, if a type demands permission `X`, and one of its methods demands permission `Y`, code does not have to have permission `X` to execute the method.
 
 ## How to fix violations
- Review your code to make sure that both actions are required. If both actions are required, make sure that the method-level action includes the security specified at the type level. For example, if your type demands permission `X`, and its method must also demand permission `Y`, the method should explicitly demand `X` and `Y`.
+Review your code to make sure that both actions are required. If both actions are required, make sure that the method-level action includes the security specified at the type level. For example, if your type demands permission `X`, and its method must also demand permission `Y`, the method should explicitly demand `X` and `Y`.
 
 ## When to suppress warnings
- It is safe to suppress a warning from this rule if the method does not require the security specified by the type. However, this is not an ordinary scenario and might indicate a need for a careful design review.
+It is safe to suppress a warning from this rule if the method does not require the security specified by the type. However, this is not an ordinary scenario and might indicate a need for a careful design review.
 
 ## Example 1
 

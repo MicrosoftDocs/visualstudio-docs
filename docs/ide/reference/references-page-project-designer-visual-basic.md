@@ -40,41 +40,41 @@ Click this button to access the **Reference Paths** dialog box.
 
  **References**
 
- This list shows all references in the project, used or unused.
+This list shows all references in the project, used or unused.
 
  **Add**
 
- Click this button to add a reference or web reference to the **References** list.
+Click this button to add a reference or web reference to the **References** list.
 
- Choose **Reference** to add a reference to your project using the Add Reference dialog box.
+Choose **Reference** to add a reference to your project using the Add Reference dialog box.
 
- Choose **Web Reference** to add a web reference to your project using the **Add Web Reference** dialog box.
+Choose **Web Reference** to add a web reference to your project using the **Add Web Reference** dialog box.
 
  **Remove**
 
- Select one or more references in the **References** list, then click this button to delete it.
+Select one or more references in the **References** list, then click this button to delete it.
 
  **Update Web Reference**
 
- Select a web reference in the **References** list and click this button to update it.
+Select a web reference in the **References** list and click this button to update it.
 
  **Imported namespaces**
 
- You can type your own namespace in this box and click **Add User Import** to add it to the namespaces list.
+You can type your own namespace in this box and click **Add User Import** to add it to the namespaces list.
 
- You can create aliases for user-imported namespaces. To do this, enter the alias and the namespace in the format *alias*=*namespace*. This is useful if you are using long namespaces, for example: `Http= MyOrg.ObjectLib.Internet.WebRequestMethods.Http`.
+You can create aliases for user-imported namespaces. To do this, enter the alias and the namespace in the format *alias*=*namespace*. This is useful if you are using long namespaces, for example: `Http= MyOrg.ObjectLib.Internet.WebRequestMethods.Http`.
 
  **Add User Import**
 
- Click this button to add the namespace specified in the **Imported namespaces** box to the list of imported namespaces. The button is active only if the specified namespace is not already in the list.
+Click this button to add the namespace specified in the **Imported namespaces** box to the list of imported namespaces. The button is active only if the specified namespace is not already in the list.
 
  **Namespaces list**
 
- This list shows all available namespaces. The check boxes for namespaces included in your project are selected.
+This list shows all available namespaces. The check boxes for namespaces included in your project are selected.
 
  **Update User Import**
 
- Select a user-specified namespace in the namespaces list, type the name that you want to replace it with in the **Imported namespaces** box, and then click this button to change to the new namespace. The button is active only if the selected namespace is one that you added to the list by using the **Add User Import** button. You can add:
+Select a user-specified namespace in the namespaces list, type the name that you want to replace it with in the **Imported namespaces** box, and then click this button to change to the new namespace. The button is active only if the selected namespace is one that you added to the list by using the **Add User Import** button. You can add:
 
 - Classes or namespaces, such as <xref:System.Math?displayProperty=fullName>.
 

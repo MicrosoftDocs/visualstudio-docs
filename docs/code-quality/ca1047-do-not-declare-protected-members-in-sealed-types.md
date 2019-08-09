@@ -28,21 +28,21 @@ ms.workload:
 |Breaking Change|Non-breaking|
 
 ## Cause
- A public type is `sealed` (`NotInheritable` in Visual basic) and declares a protected member or a protected nested type. This rule does not report violations for <xref:System.Object.Finalize%2A> methods, which must follow this pattern.
+A public type is `sealed` (`NotInheritable` in Visual basic) and declares a protected member or a protected nested type. This rule does not report violations for <xref:System.Object.Finalize%2A> methods, which must follow this pattern.
 
 ## Rule description
- Types declare protected members so that inheriting types can access or override the member. By definition, you cannot inherit from a sealed type, which means that protected methods on sealed types cannot be called.
+Types declare protected members so that inheriting types can access or override the member. By definition, you cannot inherit from a sealed type, which means that protected methods on sealed types cannot be called.
 
- The C# compiler issues a warning for this error.
+The C# compiler issues a warning for this error.
 
 ## How to fix violations
- To fix a violation of this rule, change the access level of the member to private, or make the type inheritable.
+To fix a violation of this rule, change the access level of the member to private, or make the type inheritable.
 
 ## When to suppress warnings
- Do not suppress a warning from this rule. Leaving the type in its current state can cause maintenance issues and does not provide any benefits.
+Do not suppress a warning from this rule. Leaving the type in its current state can cause maintenance issues and does not provide any benefits.
 
 ## Example
- The following example shows a type that violates this rule.
+The following example shows a type that violates this rule.
 
- [!code-vb[FxCop.Design.SealedNoProtected#1](../code-quality/codesnippet/VisualBasic/ca1047-do-not-declare-protected-members-in-sealed-types_1.vb)]
- [!code-csharp[FxCop.Design.SealedNoProtected#1](../code-quality/codesnippet/CSharp/ca1047-do-not-declare-protected-members-in-sealed-types_1.cs)]
+[!code-vb[FxCop.Design.SealedNoProtected#1](../code-quality/codesnippet/VisualBasic/ca1047-do-not-declare-protected-members-in-sealed-types_1.vb)]
+[!code-csharp[FxCop.Design.SealedNoProtected#1](../code-quality/codesnippet/CSharp/ca1047-do-not-declare-protected-members-in-sealed-types_1.cs)]

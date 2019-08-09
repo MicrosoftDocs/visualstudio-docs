@@ -59,7 +59,7 @@ Simply invoke the refactorings by pressing **Ctrl+.** and selecting the action y
 
 [Visual Studio IntelliCode](/visualstudio/intellicode/) enhances your software development efforts by using artificial intelligence (AI). IntelliCode trains across 2,000 open-source projects on GitHub&mdash;each with over 100 stars&mdash;to generate its recommendations.
 
- ![An animation of IntelliCode in Visual Studio 2019](media/vs-2019/IntelliCode.gif)
+![An animation of IntelliCode in Visual Studio 2019](media/vs-2019/IntelliCode.gif)
 
 Here are a few ways that Visual Studio IntelliCode can help enhance your productivity:
 

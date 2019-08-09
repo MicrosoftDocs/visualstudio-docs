@@ -36,18 +36,18 @@ ms.workload:
 # Annotating Locking Behavior
 To avoid concurrency bugs in your multithreaded program, always follow an appropriate locking discipline and use SAL annotations.
 
- Concurrency bugs are notoriously hard to reproduce, diagnose, and debug because they are non-deterministic. Reasoning about thread interleaving is difficult at best, and becomes impractical when you are designing a body of code that has more than a few threads. Therefore, it's good practice to follow a locking discipline in your multithreaded programs. For example, obeying a lock order while acquiring multiple locks helps avoid deadlocks, and acquiring the proper guarding lock before accessing a shared resource helps prevent race conditions.
+Concurrency bugs are notoriously hard to reproduce, diagnose, and debug because they are non-deterministic. Reasoning about thread interleaving is difficult at best, and becomes impractical when you are designing a body of code that has more than a few threads. Therefore, it's good practice to follow a locking discipline in your multithreaded programs. For example, obeying a lock order while acquiring multiple locks helps avoid deadlocks, and acquiring the proper guarding lock before accessing a shared resource helps prevent race conditions.
 
- Unfortunately, seemingly simple locking rules can be surprisingly hard to follow in practice. A fundamental limitation in today's programming languages and compilers is that they do not directly support the specification and analysis of concurrency requirements. Programmers have to rely on informal code comments to express their intentions about how they use locks.
+Unfortunately, seemingly simple locking rules can be surprisingly hard to follow in practice. A fundamental limitation in today's programming languages and compilers is that they do not directly support the specification and analysis of concurrency requirements. Programmers have to rely on informal code comments to express their intentions about how they use locks.
 
- Concurrency SAL annotations are designed to help you specify locking side effects, locking responsibility, data guardianship, lock order hierarchy, and other expected locking behavior. By making implicit rules explicit, SAL concurrency annotations provide a consistent way for you to document how your code uses locking rules. Concurrency annotations also enhance the ability of code analysis tools to find race conditions, deadlocks, mismatched synchronization operations, and other subtle concurrency errors.
+Concurrency SAL annotations are designed to help you specify locking side effects, locking responsibility, data guardianship, lock order hierarchy, and other expected locking behavior. By making implicit rules explicit, SAL concurrency annotations provide a consistent way for you to document how your code uses locking rules. Concurrency annotations also enhance the ability of code analysis tools to find race conditions, deadlocks, mismatched synchronization operations, and other subtle concurrency errors.
 
 ## General Guidelines
- By using annotations, you can state the contracts that are implied by function definitions between implementations (callees) and clients (callers), and express invariants and other properties of the program that can further improve analysis.
+By using annotations, you can state the contracts that are implied by function definitions between implementations (callees) and clients (callers), and express invariants and other properties of the program that can further improve analysis.
 
- SAL supports many different kinds of locking primitives—for example, critical sections, mutexes, spin locks, and other resource objects. Many concurrency annotations take a lock expression as a parameter. By convention, a lock is denoted by the path expression of the underlying lock object.
+SAL supports many different kinds of locking primitives—for example, critical sections, mutexes, spin locks, and other resource objects. Many concurrency annotations take a lock expression as a parameter. By convention, a lock is denoted by the path expression of the underlying lock object.
 
- Some thread ownership rules to keep in mind:
+Some thread ownership rules to keep in mind:
 
 - Spin locks are uncounted locks that have clear thread ownership.
 
@@ -56,7 +56,7 @@ To avoid concurrency bugs in your multithreaded program, always follow an approp
 - Semaphores and events are counted locks that do not have clear thread ownership.
 
 ## Locking Annotations
- The following table lists the locking annotations.
+The following table lists the locking annotations.
 
 |Annotation|Description|
 |----------------|-----------------|
@@ -80,7 +80,7 @@ To avoid concurrency bugs in your multithreaded program, always follow an approp
 |`_Requires_exclusive_lock_held_(expr)`|Annotates a function and indicates that in pre state the exclusive lock count of the object that's named by `expr` is at least one.|
 
 ## SAL Intrinsics For Unexposed Locking Objects
- Certain lock objects are not exposed by the implementation of the associated locking functions.  The following table lists SAL intrinsic variables that enable annotations on functions that operate on those unexposed lock objects.
+Certain lock objects are not exposed by the implementation of the associated locking functions.  The following table lists SAL intrinsic variables that enable annotations on functions that operate on those unexposed lock objects.
 
 |Annotation|Description|
 |----------------|-----------------|
@@ -90,7 +90,7 @@ To avoid concurrency bugs in your multithreaded program, always follow an approp
 |`_Global_priority_region_`|Describes the priority region.|
 
 ## Shared Data Access Annotations
- The following table lists the annotations for shared data access.
+The following table lists the annotations for shared data access.
 
 |Annotation|Description|
 |----------------|-----------------|
@@ -100,7 +100,7 @@ To avoid concurrency bugs in your multithreaded program, always follow an approp
 |`_Write_guarded_by_(expr)`|Annotates a variable and indicates that whenever the variable is modified, the lock count of the lock object that's named by `expr` is at least one.|
 
 ## Smart Lock and RAII Annotations
- Smart locks typically wrap native locks and manage their lifetime. The following table lists annotations that can be used with smart locks and RAII coding patterns with support for `move` semantics.
+Smart locks typically wrap native locks and manage their lifetime. The following table lists annotations that can be used with smart locks and RAII coding patterns with support for `move` semantics.
 
 |Annotation|Description|
 |----------------|-----------------|

@@ -21,21 +21,21 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- A type participates in type equivalence and a either the type itself, or a member or field of the type, is marked with the <xref:System.Security.SecurityCriticalAttribute> attribute.
+A type participates in type equivalence and a either the type itself, or a member or field of the type, is marked with the <xref:System.Security.SecurityCriticalAttribute> attribute.
 
 ## Rule description
- This rule fires on any critical types or types that contain critical methods or fields that are participating in type equivalence. When the CLR detects such a type, it fails to load it with a <xref:System.TypeLoadException> at run time. Typically, this rule fires only when users implement type equivalence manually rather than by relying on tlbimp and the compilers to do the type equivalence.
+This rule fires on any critical types or types that contain critical methods or fields that are participating in type equivalence. When the CLR detects such a type, it fails to load it with a <xref:System.TypeLoadException> at run time. Typically, this rule fires only when users implement type equivalence manually rather than by relying on tlbimp and the compilers to do the type equivalence.
 
 ## How to fix violations
- To fix a violation of this rule, remove the SecurityCritical attribute.
+To fix a violation of this rule, remove the SecurityCritical attribute.
 
 ## When to suppress warnings
- Do not suppress a warning from this rule.
+Do not suppress a warning from this rule.
 
 ## Example
- The following examples demonstrate an interface, a method, and a field that will cause this rule to fire.
+The following examples demonstrate an interface, a method, and a field that will cause this rule to fire.
 
- [!code-csharp[FxCop.Security.CA2131.CriticalTypesMustNotParticipateInTypeEquivalence#1](../code-quality/codesnippet/CSharp/ca2131-security-critical-types-may-not-participate-in-type-equivalence_1.cs)]
+[!code-csharp[FxCop.Security.CA2131.CriticalTypesMustNotParticipateInTypeEquivalence#1](../code-quality/codesnippet/CSharp/ca2131-security-critical-types-may-not-participate-in-type-equivalence_1.cs)]
 
 ## See also
- [Security-Transparent Code, Level 2](/dotnet/framework/misc/security-transparent-code-level-2)
+[Security-Transparent Code, Level 2](/dotnet/framework/misc/security-transparent-code-level-2)
