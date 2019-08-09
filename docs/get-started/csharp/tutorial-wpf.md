@@ -2,7 +2,7 @@
 title: "Hello World app with WPF in C#"
 description: Create a simple Windows Desktop .NET app in C# with Visual Studio using the Windows Presentation Foundation (WPF) UI framework.
 ms.custom: "seodec18, get-started"
-ms.date: 08/08/2019
+ms.date: 08/09/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -87,13 +87,15 @@ Visual Studio creates the HelloWPFApp project and solution, and **Solution Explo
 > [!NOTE]
 > For more information about XAML (eXtensible Application Markup Language), see the [XAML overview for WPF](/dotnet/framework/wpf/advanced/xaml-overview-wpf) page.
 
-After you create the project, you can customize it. To do so, choose **Properties Window** from the **View** menu. Then, you can display and change options for project items, controls, and other items in an application.
+After you create the project, you can customize it. To do so, choose **Properties Window** from the **View** menu, or press **F4**. Then, you can display and change options for project items, controls, and other items in an application.
+
+   ![Properties window](../media/exploreide-hellowpfappfiles.png "Screenshot of the Properties window with WPF file app names")   
 
 ### Change the name of MainWindow.xaml
 
 Let's give MainWindow a more specific name.
 
-1. In **Solution Explorer**, select *MainWindow.xaml*. You should see the **Properties** window, but if you don't, choose the **View** menu and then the **Properties Window** item.
+1. In **Solution Explorer**, select *MainWindow.xaml*. You should see the **Properties** window, but if you don't, choose the **View** menu and then the **Properties Window** item. (Or, press **F4**.)
 
 1. Change the **File Name** property to `Greetings.xaml`.
 
@@ -125,7 +127,7 @@ We'll add three types of controls to this application: a <xref:System.Windows.Co
 
     ```xaml
     <Grid>
-    <TextBlock HorizontalAlignment="Left" Margin="387,60,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="387,60,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
     </Grid>
     ```
 
@@ -153,13 +155,13 @@ Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) c
 
 1. Add two RadioButton controls to the design surface by choosing the **RadioButton** item and dragging it to the window on the design surface. Move the buttons (by selecting them and using the arrow keys) so that the buttons appear side by side under the TextBlock control.
 
-     Your window should look like this:
+   Your window should look like this:
 
-     ![Greetings form with TextBlock and two radio buttons](../media/exploreide-greetingswithradiobuttons.png "Screenshot of the Greetings form with TextBlock and two radio buttons")
+   ![Greetings form with TextBlock and two radio buttons](../media/exploreide-greetingswithradiobuttons.png "Screenshot of the Greetings form with TextBlock and two radio buttons")
 
 1. In the **Properties** window for the left RadioButton control, change the **Name** property (the property at the top of the **Properties** window) to `HelloButton`.
 
-     ![RadioButton properties window](../media/exploreide-buttonproperties.png "Screenshot of the "RadioButton properties window)
+    ![RadioButton properties window](../media/exploreide-buttonproperties.png "Screenshot of the RadioButton properties window")
 
 1. In the **Properties** window for the right RadioButton control, change the **Name** property to `GoodbyeButton`, and then save your changes.
 
@@ -207,6 +209,10 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
 
 1. In the XAML view, change the value of **Content** for the Button control from `Content="Button"` to `Content="Display"`, and then save the changes.
 
+     Your window should resemble the following illustration.
+
+     ![Greetings form with control labels](media/exploreide-greetingswithcontrollabels-cs.png "Screenshot of the Greetings form with control labels")
+
    The XAML markup should now look similar to the following example:
 
    ```xaml
@@ -217,10 +223,6 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
         <Button Content="Display" HorizontalAlignment="Left" Margin="377,270,0,0" VerticalAlignment="Top" Width="75"/>
    </Grid>
    ```
-
-     Your window should resemble the following illustration.
-
-     ![Greetings form with control labels](media/exploreide-greetingswithcontrollabels-cs.png "Screenshot of the Greetings form with control labels")
 
 ### Add code to the display button
 
