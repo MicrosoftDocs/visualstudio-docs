@@ -257,7 +257,7 @@ When you have a large number of tests, you can Type in **Test Explorer** search 
 |-|-|
 |![Test Explorer group button](../test/media/ute_groupby_btn.png)|To group your tests by category, choose the **Group By** button.|
 
-For more information, see [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
+For more information, see [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md).
 
 ## Q&A
 

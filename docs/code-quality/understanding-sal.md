@@ -74,7 +74,7 @@ wchar_t * wmemcpy(
 This implementation contains a common off-by-one error. Fortunately, the code author included the SAL buffer size annotation—a code analysis tool could catch the bug by analyzing this function alone.
 
 ### SAL Basics
- SAL defines four basic kinds of parameters, which are categorized by usage pattern.
+SAL defines four basic kinds of parameters, which are categorized by usage pattern.
 
 |Category|Parameter Annotation|Description|
 |--------------|--------------------------|-----------------|
@@ -83,9 +83,9 @@ This implementation contains a common off-by-one error. Fortunately, the code au
 |**Output to caller**|`_Out_`|The caller only provides space for the called function to write to. The called function writes data into that space.|
 |**Output of pointer to caller**|`_Outptr_`|Like **Output to caller**. The value that's returned by the called function is a pointer.|
 
- These four basic annotations can be made more explicit in various ways. By default, annotated pointer parameters are assumed to be required—they must be non-NULL for the function to succeed. The most commonly used variation of the basic annotations indicates that a pointer parameter is optional—if it's NULL, the function can still succeed in doing its work.
+These four basic annotations can be made more explicit in various ways. By default, annotated pointer parameters are assumed to be required—they must be non-NULL for the function to succeed. The most commonly used variation of the basic annotations indicates that a pointer parameter is optional—if it's NULL, the function can still succeed in doing its work.
 
- This table shows how to distinguish between required and optional parameters:
+This table shows how to distinguish between required and optional parameters:
 
 ||Parameters are required|Parameters are optional|
 |-|-----------------------------|-----------------------------|
@@ -94,13 +94,13 @@ This implementation contains a common off-by-one error. Fortunately, the code au
 |**Output to caller**|`_Out_`|`_Out_opt_`|
 |**Output of pointer to caller**|`_Outptr_`|`_Outptr_opt_`|
 
- These annotations help identify possible uninitialized values and invalid null pointer uses in a formal and accurate manner. Passing NULL to a required parameter might cause a crash, or it might cause a "failed" error code to be returned. Either way, the function cannot succeed in doing its job.
+These annotations help identify possible uninitialized values and invalid null pointer uses in a formal and accurate manner. Passing NULL to a required parameter might cause a crash, or it might cause a "failed" error code to be returned. Either way, the function cannot succeed in doing its job.
 
 ## SAL Examples
- This section shows code examples for the basic SAL annotations.
+This section shows code examples for the basic SAL annotations.
 
 ### Using the Visual Studio Code Analysis Tool to Find Defects
- In the examples, the Visual Studio Code Analysis tool is used together with SAL annotations to find code defects. Here's how to do that.
+In the examples, the Visual Studio Code Analysis tool is used together with SAL annotations to find code defects. Here's how to do that.
 
 #### To use Visual Studio code analysis tools and SAL
 

@@ -26,9 +26,9 @@ You can specify a delay before the start of a scenario in a load test by using t
 > [!NOTE]
 > For a full list of the load test scenario properties and their descriptions, see [Load test scenario properties](../test/load-test-scenario-properties.md).
 
- An example of an instance when you might want to use the **Delay Start Time** property is when you need one scenario to start producing items that another scenario consumes. You can delay the consuming scenario to enable the producing scenario to populate some data.
+An example of an instance when you might want to use the **Delay Start Time** property is when you need one scenario to start producing items that another scenario consumes. You can delay the consuming scenario to enable the producing scenario to populate some data.
 
- Another example is that you might have one scenario that is run only at a certain time of day. Therefore, you want to delay the start of the scenario to simulate this.
+Another example is that you might have one scenario that is run only at a certain time of day. Therefore, you want to delay the start of the scenario to simulate this.
 
 > [!NOTE]
 > For a full list of the run settings properties and their descriptions, see [Load test scenario properties](../test/load-test-scenario-properties.md).
@@ -56,7 +56,7 @@ You can specify a delay before the start of a scenario in a load test by using t
 
 The **Disable During Warmup** property is set by using the **Properties** window. Editing load test scenario properties is set by the Load Test Editor.
 
- The **Disable During Warmup** property is used to indicate whether the scenario should run or not run during the warm-up period that is specified in the **Delay Start Time** property. For more information, review the previous procedure [Specify the delay start time of a scenario](#specify-the-delay-start-time-of-a-scenario).
+The **Disable During Warmup** property is used to indicate whether the scenario should run or not run during the warm-up period that is specified in the **Delay Start Time** property. For more information, review the previous procedure [Specify the delay start time of a scenario](#specify-the-delay-start-time-of-a-scenario).
 
 > [!NOTE]
 > For a complete list of the run settings properties and their descriptions, see [Load test scenario properties](../test/load-test-scenario-properties.md).

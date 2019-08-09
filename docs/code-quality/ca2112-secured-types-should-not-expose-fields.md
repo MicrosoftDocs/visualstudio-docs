@@ -25,33 +25,33 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- A public or protected type contains public fields and is secured by a [Link Demands](/dotnet/framework/misc/link-demands).
+A public or protected type contains public fields and is secured by a [Link Demands](/dotnet/framework/misc/link-demands).
 
 ## Rule description
- If code has access to an instance of a type that is secured by a link demand, the code does not have to satisfy the link demand to access the type's fields.
+If code has access to an instance of a type that is secured by a link demand, the code does not have to satisfy the link demand to access the type's fields.
 
 ## How to fix violations
- To fix a violation of this rule, make the fields nonpublic and add public properties or methods that return the field data. LinkDemand security checks on types protect access to the type's properties and methods. However, code access security does not apply to fields.
+To fix a violation of this rule, make the fields nonpublic and add public properties or methods that return the field data. LinkDemand security checks on types protect access to the type's properties and methods. However, code access security does not apply to fields.
 
 ## When to suppress warnings
- Both for security issues and for good design, you should fix violations by making the public fields nonpublic. You can suppress a warning from this rule if the field does not hold information that should remain secured, and you do not rely on the contents of the field.
+Both for security issues and for good design, you should fix violations by making the public fields nonpublic. You can suppress a warning from this rule if the field does not hold information that should remain secured, and you do not rely on the contents of the field.
 
 ## Example
- The following example is composed of a library type (`SecuredTypeWithFields`) with unsecured fields, a type (`Distributor`) that can create instances of the library type and mistaken passes instances to types do not have permission to create them, and application code that can read an instance's fields even though it does not have the permission that secures the type.
+The following example is composed of a library type (`SecuredTypeWithFields`) with unsecured fields, a type (`Distributor`) that can create instances of the library type and mistaken passes instances to types do not have permission to create them, and application code that can read an instance's fields even though it does not have the permission that secures the type.
 
- The following library code violates the rule.
+The following library code violates the rule.
 
- [!code-csharp[FxCop.Security.LinkDemandOnField#1](../code-quality/codesnippet/CSharp/ca2112-secured-types-should-not-expose-fields_1.cs)]
+[!code-csharp[FxCop.Security.LinkDemandOnField#1](../code-quality/codesnippet/CSharp/ca2112-secured-types-should-not-expose-fields_1.cs)]
 
 ## Example 1
- The application cannot create an instance because of the link demand that protects the secured type. The following class enables the application to obtain an instance of the secured type.
+The application cannot create an instance because of the link demand that protects the secured type. The following class enables the application to obtain an instance of the secured type.
 
- [!code-csharp[FxCop.Security.LDOnFieldsDistributor#1](../code-quality/codesnippet/CSharp/ca2112-secured-types-should-not-expose-fields_2.cs)]
+[!code-csharp[FxCop.Security.LDOnFieldsDistributor#1](../code-quality/codesnippet/CSharp/ca2112-secured-types-should-not-expose-fields_2.cs)]
 
 ## Example 2
- The following application illustrates how, without permission to access a secured type's methods, code can access its fields.
+The following application illustrates how, without permission to access a secured type's methods, code can access its fields.
 
- [!code-csharp[FxCop.Security.TestLinkDemandOnFields#1](../code-quality/codesnippet/CSharp/ca2112-secured-types-should-not-expose-fields_3.cs)]
+[!code-csharp[FxCop.Security.TestLinkDemandOnFields#1](../code-quality/codesnippet/CSharp/ca2112-secured-types-should-not-expose-fields_3.cs)]
 
 This example produces the following output:
 
