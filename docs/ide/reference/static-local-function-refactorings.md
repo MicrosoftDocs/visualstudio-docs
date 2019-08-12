@@ -1,5 +1,5 @@
 ---
-title: Make local function static
+title: Static local function refactorings
 ms.date: 08/06/2019
 ms.topic: reference
 author: governesss
@@ -15,7 +15,7 @@ ms.workload:
 
 # Static local function refactorings and Quick Actions
 
-This document outlines two features pertaining to static local functions, including what code triggers them and how to activate the refactoring or Quick Action.
+This article outlines two productivity features related  to static local functions. One is a refactoring that makes a local function static, and the other is a Quick Action that generates code to pass variables into a static local function.
 
 
 ## Make local function static
@@ -45,7 +45,7 @@ This refactoring applies to:
 
 ## Pass variable explicitly in a static local function
 
-This refactoring applies to:
+This Quick Action applies to:
 
 - C#
 
