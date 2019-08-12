@@ -21,7 +21,7 @@ Versions prior to Visual Studio 2019 had their DPI awareness context set to syst
 
 The DPI awareness context of Visual Studio 2019 is set as PMA, when the environment supports it, allowing Visual Studio to render according to the configuration of the display where it's hosted rather than a single system defined configuration. Ultimately translating into an always crisp UI for surface areas that support PMA mode.
 
-Refer to the [High DPI Desktop Application Development on Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows) documentation for more information about the terms and overall scenario covered in this document.
+Refer to the [High DPI Desktop Application Development on Windows](/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows) documentation for more information about the terms and overall scenario covered in this document.
 
 ## Quickstart
 
@@ -37,7 +37,7 @@ To enable PMA in Visual Studio, the following requirements need to be met:
 
 - Windows 10 April 2018 Update (v1803, RS4) or later
 - .NET Framework 4.8 RTM or greater
-- Visual Studio 2019 with the ["Optimize rendering for screens with different pixel densities"](../ide/reference/general-environment-options-dialog-box.md) option enabled
+- Visual Studio 2019 with the ["Optimize rendering for screens with different pixel densities"](../../ide/reference/general-environment-options-dialog-box.md) option enabled
 
 Once these requirements are met, Visual Studio automatically enables PMA mode across the process.
 
@@ -110,14 +110,14 @@ Whenever inside mixed-mode DPI scenarios (for example, different UI elements ren
 Some UI is created out-of-process and if the creating external process is in a different DPI awareness mode than Visual Studio, this can introduce any of the previous rendering issues.
 
 #### Windows Forms controls, images, or layouts rendered incorrectly
-Not all of the Windows Forms content support PMA mode. As a result, you may see rendering issue with incorrect layouts or scaling. A possible solution in this case is to explicitly render Windows Forms content in "System Aware" DpiAwarenessContext (refer to [Forcing a control into a specific DpiAwarenessContext](#forcing-a-control-into-a-specific-dpiawarenesscontext)).
+Not all of the Windows Forms content support PMA mode. As a result, you may see rendering issue with incorrect layouts or scaling. A possible solution in this case is to explicitly render Windows Forms content in "System Aware" DpiAwarenessContext (refer to [Force a control into a specific DpiAwarenessContext](#force-a-control-into-a-specific-dpiawarenesscontext)).
 
 #### Windows Forms controls or windows not displaying
 One of the main causes for this issue is developers trying to reparent a control or window with one DpiAwarenessContext to a window with a different DpiAwarenessContext.
 
 The following images show the current **default** Windows operating system restrictions in parenting windows:
 
-![A screenshot of the correct parenting behavior](../../extensibility/ux-guidelines/media/PMA-parenting-behavior.PNG)
+![A screenshot of the correct parenting behavior](media/PMA-parenting-behavior.PNG)
 
 > [!Note]
 > You can change this behavior by setting the Thread Hosting Behavior (refer to [Dpi_Hosting_Behavior enumeration](/windows/desktop/api/windef/ne-windef-dpi_hosting_behavior)).
@@ -187,7 +187,7 @@ VsUI::CDpiAwareness::LogicalToDeviceUnitsX(m_hwnd, &cx);
 VsUI::CDpiAwareness::LogicalToDeviceUnitsY(m_hwnd, &cy);
 ```
 
-The new DpiAwareness and CDpiAwareness classes offer the same unit conversion helpers as the DpiHelper classes but require an additional input parameter: the UI element to use as a reference for the conversion operation. It's important to note that the image scaling helpers do not exist in the new DpiAwareness/CDpiAwareness helpers, and if needed, the [ImageService](https://docs.microsoft.com/visualstudio/extensibility/image-service-and-catalog?view=vs-2019) should be used instead.
+The new DpiAwareness and CDpiAwareness classes offer the same unit conversion helpers as the DpiHelper classes but require an additional input parameter: the UI element to use as a reference for the conversion operation. It's important to note that the image scaling helpers do not exist in the new DpiAwareness/CDpiAwareness helpers, and if needed, the [ImageService](../image-service-and-catalog.md) should be used instead.
 
 The managed DpiAwareness class offers helpers for WPF Visuals, Windows Forms Controls, and Win32 HWNDs and HMONITORs (both in the form of IntPtrs), while the native CDpiAwareness class offers HWND and HMONITOR helpers.
 
@@ -246,6 +246,7 @@ enum __VSDPIMODE
 > Visual Studio only supports PerMonitorV2 awareness, so the PerMonitor enum value translates to the Windows value of DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2.
 
 #### Force a control into a specific DpiAwarenessContext
+
 Legacy UI that is not being updated to support PMA mode, may still need minor tweaks to work while Visual Studio is running in PMA mode. One such fix involves making sure the UI is being created in the right DpiAwarenessContext. To force your UI into a particular DpiAwarenessContext, you can enter a DPI scope with the following code:
 
 ```cs
@@ -268,6 +269,7 @@ void MyClass::ShowDialog()
 > Forcing the DpiAwarenessContext only works on non-WPF UI and top-level WPF dialogs. When creating WPF UI that is to be hosted inside tool windows or designers, as soon as the content is inserted into the WPF UI tree, it gets converted to the current process DpiAwarenessContext.
 
 ## Known issues
+
 ### Windows Forms
 
 To optimize for the new mixed-mode scenarios, Windows Forms changed how it creates controls and windows whenever their parent was not explicitly set. Earlier, controls without an explicit parent used an internal "Parking Window" as a temporary parent to the control or window being created. 
