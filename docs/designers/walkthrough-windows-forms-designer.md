@@ -31,7 +31,11 @@ The first step is to create the DemoCalculator control project.
 
 1. Open Visual Studio and create a new **Windows Forms Control Library** project. Name the project **DemoCalculatorLib**.
 
+   ::: moniker range=">=vs-2019"
+
    ![Windows Forms Control Library template in Visual Studio 2019](media/windows-forms-control-library-template.png)
+
+   ::: moniker-end
 
 2. To rename the file, in **Solution Explorer**, right-select **UserControl1.vb** or **UserControl1.cs**, select **Rename**, and change the file name to DemoCalculator.vb or DemoCalculator.cs. Select **Yes** when you are asked if you want to rename all references to the code element "UserControl1".
 
@@ -143,7 +147,7 @@ Now that the layout of the control is set up, you can populate the DemoCalculato
 
 15. Select **button5** and **button15**, and then change the value of their `RowSpan` property to **2**. These will be the **Clear** and **=** buttons for the DemoCalculator control.
 
-## Navigate the control by using the Document Outline window
+## Use the Document Outline window
 
 When your control or form is populated with several controls, you may find it easier to navigate your layout with the Document Outline window.
 
@@ -199,7 +203,7 @@ When your control or form is populated with several controls, you may find it ea
 
    - Change the nineButton control text property to **9**
 
-   - Change the divisionButton control text property to **/**
+   - Change the divisionButton control text property to **/** (forward slash)
 
    - Change the clearButton control text property to **Clear**
 
@@ -209,7 +213,7 @@ When your control or form is populated with several controls, you may find it ea
 
    - Change the sixButton control text property to **6**
 
-   - Change the multiplicationButton control text property to **\***
+   - Change the multiplicationButton control text property to **\*** (asterisk)
 
    - Change the oneButton control text property to **1**
 
@@ -217,9 +221,9 @@ When your control or form is populated with several controls, you may find it ea
 
    - Change the threeButton control text property to **3**
 
-   - Change the subtractionButton control text property to **-**
+   - Change the subtractionButton control text property to **-** (hyphen)
 
-   - Change the equalsButton control text property to **=**
+   - Change the equalsButton control text property to **=** (equals sign)
 
    - Change the zeroButton control text property to **0**
 
@@ -227,7 +231,7 @@ When your control or form is populated with several controls, you may find it ea
 
    - Change the decimalButton control text property to **.** (period)
 
-   - Change the additionButton control text property to **+**
+   - Change the additionButton control text property to **+** (plus sign)
 
 5. On the designer surface, select all the `Button` controls by selecting them while holding down the **Shift** key.
 
@@ -299,4 +303,8 @@ To use the DemoCalculator control in an application, you need to place it on a f
 
 ## Next steps
 
-This article has demonstrated how to construct the user interface for a simple calculator. To continue, you can extend its functionality by implementing the calculator logic.
+This article has demonstrated how to construct the user interface for a simple calculator. To continue, you can extend its functionality by implementing the calculator logic. Or, continue on to a different tutorial where you [create a picture viewer using Windows Forms](../ide/tutorial-1-create-a-picture-viewer.md).
+
+## See also
+
+- [Accessibility for Windows Forms controls](/dotnet/framework/winforms/controls/providing-accessibility-information-for-controls-on-a-windows-form)

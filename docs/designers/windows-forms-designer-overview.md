@@ -26,3 +26,12 @@ Using the designer you can:
 
 > [!NOTE]
 > Use Windows Forms Designer, and not the Resource Editor, to make changes to a form's resource (*.resx*) file. If you edit a form-based .resx file, you'll see a warning that changes you make in the Resource Editor may be lost. This is because the Windows Forms Designer generates the .resx file.
+
+## See also
+
+- [Windows Forms overview](/dotnet/framework/winforms/windows-forms-overview)
+- [Windows Forms controls](/dotnet/framework/winforms/controls/)
+- [Accessibility for Windows Forms controls](/dotnet/framework/winforms/controls/providing-accessibility-information-for-controls-on-a-windows-form)
+- [User input in Windows Forms](/dotnet/framework/winforms/user-input-in-windows-forms)
+- [Data binding in Windows Forms](/dotnet/framework/winforms/windows-forms-data-binding)
+- [Enhance Windows Forms apps](/dotnet/framework/winforms/advanced/)
