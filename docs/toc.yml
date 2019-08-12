@@ -1001,7 +1001,7 @@
         - name: General
           href: ide/reference/options-windows-forms-designer.md
         - name: Data UI Customization
-          href: ide/reference/options-wfdesigner-data-ui-customization.md
+          href: ide/reference/options-windows-forms-designer-data-ui-customization.md
       - name: XAML Designer
         href: ide/reference/xaml-designer.md
     - name: Output window

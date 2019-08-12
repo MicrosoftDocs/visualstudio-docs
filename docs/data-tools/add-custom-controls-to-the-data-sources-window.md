@@ -37,7 +37,7 @@ To add or remove controls from the list of available controls for items in the D
 
 3. In the drop-down menu, click **Customize**. One of the following dialog boxes opens:
 
-    - If the **Windows Forms Designer** is open, the **Data UI Customization** page of the **Options** dialog box opens. For more information, see [Data UI Customization options dialog box](../ide/reference/options-wfdesigner-data-ui-customization.md).
+    - If the **Windows Forms Designer** is open, the **Data UI Customization** page of the **Options** dialog box opens. For more information, see [Data UI Customization options dialog box](../ide/reference/options-windows-forms-designer-data-ui-customization.md).
 
     - If the **WPF Designer** is open, the **Customize Control Binding** dialog box opens.
 
@@ -86,4 +86,4 @@ To add controls to the list of associated controls:
 ## See also
 
 - [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)
-- [Data UI Customization options dialog box](../ide/reference/options-wfdesigner-data-ui-customization.md)
+- [Data UI Customization options dialog box](../ide/reference/options-windows-forms-designer-data-ui-customization.md)
