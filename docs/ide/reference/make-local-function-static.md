@@ -13,6 +13,11 @@ ms.workload:
   - "dotnet"
 ---
 
+# Static local function refactorings and Quick Actions
+
+This document outlines two features pertaining to static local functions, including what code triggers them and how to activate the refactoring or Quick Action.
+
+
 ## Make local function static
 
 This refactoring applies to:
