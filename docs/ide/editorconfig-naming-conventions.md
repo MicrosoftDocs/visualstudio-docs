@@ -1,6 +1,6 @@
 ---
 title: .NET Naming Conventions For EditorConfig files
-ms.date: 11/20/2017
+ms.date: 08/07/2019
 ms.topic: reference
 helpviewer_keywords:
   - "naming conventions [EditorConfig]"
@@ -159,7 +159,8 @@ The following table shows the allowable severity values, and what they mean:
 
 Severity | Effect
 ------------ | -------------
-none or silent | When this style is not being followed, do not show anything to the user; however, auto-generated code follows this style.
+none | Rule is suppressed completely.
+refactoring or silent | When this style is not being followed, do not show anything to the user; however, auto-generated code follows this style.
 suggestion | When this style is not being followed, show it to the user as a suggestion, as underlying dots on the first two characters. It has no effect at compile time.
 warning | When this style is not being followed, show a compiler warning in the **Error List**.
 error | When this style is not being followed, show a compiler error in the **Error List**.
