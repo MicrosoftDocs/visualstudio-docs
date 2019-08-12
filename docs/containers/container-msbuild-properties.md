@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Container Tools build properties
+title: Visual Studio Container Tools build settings
 author: ghogen
 description: Overview of the Container Tools build process
 ms.author: ghogen
@@ -46,5 +46,7 @@ The following table shows the MSBuild properties available for container project
 For information on MSBuild properties generally, see [MSBuild Properties](../msbuild/msbuild-properties.md).
 
 ## See also
+
+[Docker Compose build properties](docker-compose-properties.md)
 
 [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md).
