@@ -35,7 +35,7 @@ This refactoring applies to:
 1. Place your caret on the local function name. 
 
 
-2. Press **Crtl**+**.** to trigger the **Quick Actions and Refactorings** menu. 
+2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu. 
 
 
     ![Make local function static](media/make-local-function-static.png)
