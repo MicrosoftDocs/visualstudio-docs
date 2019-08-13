@@ -45,14 +45,7 @@ The following table shows the properties that can be set in this file:
 |Setting name|Example|Description|
 |------------|---------|---------------|
 |launchBrowser|"launchBrowser": true|Indicates whether to launch the browser after successfully launching the project.|
-|launchUrl|"launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}"|This URL is used when launching the browser.  Supported replacement tokens for this string are:<br>
-{Scheme} - Replaced with either "http" or "https" depending on whether SSL is used.<br>
-{ServiceHost} - Usually replaced with "localhost". When targeting Windows containers on Windows 10 RS3 or older, though, it is replaced with the container's IP.<br>
-{ServicePort} - Usually replaced with either sslPort or httpPort, depending on whether SSL is used.  When targeting Windows containers on Windows 10 RS3 or older, though, it is replaced with either "443" or "80", depending on whether SSL is used.<br>
-|environmentVariables|"environmentVariables": {<br>
-    "ASPNETCORE_URLS": "https://+:443;http://+:80",<br>
-    "ASPNETCORE_HTTPS_PORT": "44381"<br>
-}|These environment variable values are passed to the process when it is launched in the container.|
+|launchUrl|"launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}"|This URL is used when launching the browser.  Supported replacement tokens for this string are:<br>   {Scheme} - Replaced with either "http" or "https" depending on whether SSL is used.<br>   {ServiceHost} - Usually replaced with "localhost". When targeting Windows containers on Windows 10 RS3 or older, though, it is replaced with the container's IP.<br>   {ServicePort} - Usually replaced with either sslPort or httpPort, depending on whether SSL is used.  When targeting Windows containers on Windows 10 RS3 or older, though, it is replaced with either "443" or "80", depending on whether SSL is used.<br>|environmentVariables|"environmentVariables": {<br>    "ASPNETCORE_URLS": "https://+:443;http://+:80",<br>    "ASPNETCORE_HTTPS_PORT": "44381"<br>}|These environment variable values are passed to the process when it is launched in the container.|
 |httpPort|"httpPort": 24051|This port on the host is mapped to the container's port 80 when launching the container.  If unspecified, the value is taken from the iisSettings value.|
 |sslPort|"sslPort": 44381|This port on the host is mapped to the container's port 443 when launching the container.  If unspecified, the value is taken from the iisSettings value.|
 |useSSL|"useSSL": true|Indicates whether to use SSL when launching the project.  If useSSL is not specified, then SSL is used when sslPort > 0.
