@@ -65,4 +65,6 @@ For information on MSBuild properties generally, see [MSBuild Properties](../msb
 
 [Container Tools build properties](container-msbuild-properties.md)
 
-[MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md).
+[Container Tools launch settings](container-launch-settings.md)
+
+[MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md)
