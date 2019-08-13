@@ -30,7 +30,10 @@ The following table shows the MSBuild properties available for Docker Compose pr
 
 | Property name | Location | Description | Default value  |
 |---------------|----------|-------------|----------------|
+|DockerComposeBuildArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose build` command. For example, `--parallel --pull` |
+|DockerComposeDownArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose down` command. For example, `--timeout 500`|-|  
 |DockerComposeProjectPath|csproj or vbproj|The relative path to the docker-compose project (dcproj) file. This is used when publishing the service project to find the associated image build settings stored in the docker-compose.yml file.|-|
+|DockerComposeUpArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose up` command. For example, `--timeout 500`|-|
 |DockerLaunchAction| dcproj | Specifies the launch action to perform on F5 or Ctrl+F5.  Allowed values are None, LaunchBrowser, and LaunchWCFTestClient|None|
 |DockerLaunchBrowser| dcproj | Indicates whether to launch the browser. Ignored if DockerLaunchAction is specified. | False |
 |DockerServiceName| dcproj|If DockerLaunchAction or DockerLaunchBrowser are specified, then DockerServiceName is the name of the service that should be launched.  This is used to determine which of the potentially many projects that a docker-compose file can reference will be launched.|-|
