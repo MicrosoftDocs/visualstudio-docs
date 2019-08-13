@@ -3,7 +3,7 @@ title: Visual Studio Container Tools launch settings
 author: ghogen
 description: Overview of the Container Tools build process
 ms.author: ghogen
-ms.date: 08/13/2019
+ms.date: 08/15/2019
 ms.technology: vs-azure
 ms.topic: conceptual
 ---
