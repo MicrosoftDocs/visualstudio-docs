@@ -10,15 +10,15 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Analyzers FAQ
+# Code analysis FAQ
 
-This page contains answers to some frequently asked questions about Roslyn analyzers in Visual Studio.
+This page contains answers to some frequently asked questions about .NET Compiler Platform-based code analysis in Visual Studio.
 
-## Roslyn analyzers versus .editorconfig
+## Code analysis versus EditorConfig
 
-**Q**: Should I use Roslyn analyzers or .editorconfig for code style?
+**Q**: Should I use code analysis or EditorConfig for checking code style?
 
-**A**: Roslyn analyzers and .editorconfig files work hand-in-hand. When you define code styles [in an .editorconfig file](../ide/editorconfig-code-style-settings-reference.md) or on the [text editor Options](../ide/code-styles-and-code-cleanup.md) page, you're actually configuring the Roslyn analyzers that are built into Visual Studio. EditorConfig files can also be used to configure some third-party analyzer packages, such as [FxCop analyzers](configure-fxcop-analyzers.md).
+**A**: Code analysis and .editorconfig files work hand-in-hand. When you define code styles [in an .editorconfig file](../ide/editorconfig-code-style-settings-reference.md) or on the [text editor Options](../ide/code-styles-and-code-cleanup.md) page, you're actually configuring the code analyzers that are built into Visual Studio. EditorConfig files can also be used to configure some third-party analyzer packages, such as [FxCop analyzers](configure-fxcop-analyzers.md).
 
 ## EditorConfig versus rule sets
 
@@ -29,11 +29,11 @@ This page contains answers to some frequently asked questions about Roslyn analy
 In addition to rule sets and .editorconfig files, some third-party analyzers are configured through the use of text files marked as [additional files](../ide/build-actions.md#build-action-values) for the C# and VB compilers.
 
 > [!NOTE]
-> EditorConfig files cannot be used to configure static code analysis rules, whereas rule sets can.
+> EditorConfig files cannot be used to configure legacy analysis, whereas rule sets can.
 
-## Analyzers in CI builds
+## Code analysis in CI builds
 
-**Q**: Do analyzers work in continuous integration (CI) builds?
+**Q**: Does .NET Compiler Platform-based code analysis work in continuous integration (CI) builds?
 
 **A**: Yes. For analyzers that are installed from a NuGet package, those rules are [enforced at build time](roslyn-analyzers-overview.md#build-errors), including during a CI build. Analyzers used in CI builds respect rule configuration from both [rule sets](analyzer-rule-sets.md) and [.editorconfig files](configure-fxcop-analyzers.md). Currently, the code analyzers that are built into Visual Studio are not available as a NuGet package, and so these rules are not enforceable in a CI build.
 

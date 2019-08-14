@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Overview of code analysis for managed code in Visual Studio
 
-Visual Studio can perform code analysis of managed code in two ways: with [Binary analyzers](../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md), also known as FxCop static analysis of managed assemblies, and with the more modern [Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md). This topic covers FxCop static code analysis. To learn more about analyzing code by using source analyzers, see [Overview of Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md).
+Visual Studio can perform code analysis of managed code in two ways: with [legacy analysis](../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md), also known as FxCop static analysis of managed assemblies, and with the more modern .NET Compiler Platform-based [code analyzers](../code-quality/roslyn-analyzers-overview.md). This topic covers legacy analysis. To learn more about .NET Compiler Platform-based code analysis, see [Overview of Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md).
 
 Code analysis for managed code analyzes managed assemblies and reports information about the assemblies, such as violations of the programming and design rules set forth in the [.NET Design Guidelines](/dotnet/standard/design-guidelines/).
 
