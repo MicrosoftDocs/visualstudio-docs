@@ -23,7 +23,6 @@ To set the value of a property, edit the project file. For Docker Compose proper
 
 You can add the property setting to an existing `PropertyGroup` element, or if there isn't one, create a new `PropertyGroup` element.
 
-
 ## Docker Compose MSBuild properties
 
 The following table shows the MSBuild properties available for Docker Compose projects.
@@ -39,6 +38,9 @@ The following table shows the MSBuild properties available for Docker Compose pr
 |DockerServiceName| dcproj|If DockerLaunchAction or DockerLaunchBrowser are specified, then DockerServiceName is the name of the service that should be launched.  This is used to determine which of the potentially many projects that a docker-compose file can reference will be launched.|-|
 |DockerServiceUrl| dcproj | The URL to use when launching the browser.  Valid replacement tokens are "{ServiceIPAddress}", "{ServicePort}", and "{Sheme}".  For example: {Scheme}://{ServiceIPAddress}:{ServicePort}|-|
 |DockerTargetOS| dcproj | The target OS used when building the Docker image.|-|
+
+> [!NOTE]
+> DockerComposeBuildArguments, DockerComposeDownArguments, and DockerComposeUpArguments are new in Visual Studio 2019 version 16.3.
 
 ## Docker Compose file labels
 
