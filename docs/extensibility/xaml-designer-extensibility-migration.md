@@ -12,7 +12,7 @@ monikerRange: vs-2019
 ---
 # XAML designer extensibility migration
 
-In Visual Studio 2019, the XAML designer supports two different architectures: the designer isolation architecture and the more recent surface isolation architecture. This architecture transition is required to support target runtimes that can't be hosted in a .NET Framework process. Moving to the surface isolation architecture introduces breaking changes to the third-party extensibility model. This article outlines these changes which are available in the Visual Studio 2019 16.2 preview channel.
+In Visual Studio 2019, the XAML designer supports two different architectures: the designer isolation architecture and the more recent surface isolation architecture. This architecture transition is required to support target runtimes that can't be hosted in a .NET Framework process. Moving to the surface isolation architecture introduces breaking changes to the third-party extensibility model. This article outlines these changes, which are available in Visual Studio 2019 starting with version 16.3.
 
 **Designer isolation** is used by the WPF designer for projects that target the .NET Framework and supports *.design.dll* extensions. User code, control libraries, and third-party extensions are loaded in an external process (*XDesProc.exe*) along with the actual designer code and designer panels.
 
@@ -176,7 +176,12 @@ APIs that use `ModelItem` instead of <xref:System.Object>:
 * `ModelItemDictionary.Remove(object key)`
 * `ModelItemDictionary.TryGetValue(object key, out ModelItem value)`
 
-Known primitive types like `Int32`, `String`, or `Thickness` can be passed to the Model API as .NET Framework instances and will be converted to the corresponding object in the target runtime process. For example:
+Furthermore, `ModelItem` APIs like `SetValue` will only support instances of primitive types or built-in .NET Framework types which can be converted for the target runtime. Currently these types are supported:
+
+* Primitive .NET Framework types: `Boolean`, `Byte`, `Char`, `DateTime`, `Double`, `Enum`, `Guid`, `Int16`, `Int32`, `Int64`, `Nullable`, `SByte`, `Single`, `String`, `Type`, `UInt16`, `UInt32`, `UInt64`, `Uri`
+* Known WPF .NET Framework types (and derived types): `Brush`, `Color`, `CompositeTransform`, `CornerRadius`, `Duration`, `EasingFunctionBase`, `EasingMode`, `EllipseGeometry`, `FontFamily`, `GeneralTransform`, `Geometry`, `GradientStopCollection`, `GradientStop`, `GridLength`, `ImageSource`, `InlineCollection`, `Inline`, `KeySpline`, `Material`, `Matrix`, `PathFigureCollection`, `PathFigure`, `PathSegmentCollection`, `PathSegment`, `Path`, `PointCollection`, `Point`, `PropertyPath`, `Rect`, `RepeatBehavior`, `Setter`, `Size`, `StaticResource`, `TextAlignment`, `TextDecorationCollection`, `ThemeResourceExtension`, `Thickness`, `TimeSpan`, `Transform3D`, `TransformCollection`
+
+For example:
 
 ```csharp
 using Microsoft.VisualStudio.DesignTools.Extensibility.Features;
