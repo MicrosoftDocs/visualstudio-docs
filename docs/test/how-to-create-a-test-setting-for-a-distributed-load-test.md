@@ -9,7 +9,7 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ---
-# How to: Create a test setting for a distributed load test
+# How to: Create a test settings file for a distributed load test
 
 Configure *test settings* for your load tests so you can distribute those tests across multiple machines using test agents and test controllers. You can also configure test settings to use *diagnostic data adapters*, which specify the kinds of data that you want to collect or how to affect the test machines when you run your load tests from Visual Studio.
 
@@ -33,9 +33,7 @@ The test controller will have agents that can be used for each role in your test
 
 Follow these steps to create and remove test settings in your solution for load tests that you plan to run from Visual Studio.
 
-## Create a test setting for a distributed load test
-
-### To add a test settings for a distributed load test
+## Create a test settings file
 
 1. In **Solution Explorer**, right-click **Solution Items**, point to **Add**, and then choose **New Item**.
 
@@ -48,9 +46,6 @@ Follow these steps to create and remove test settings in your solution for load 
 4. Choose **Add**.
 
      The new test settings file appears in **Solution Explorer**, under the **Solution Items** folder.
-
-    > [!NOTE]
-    > The list of test settings that Visual Studio Enterprise displays is derived from the list of test settings files in the **Solution Items** folder. For example, test settings files in the **Solution Items** folder are displayed when you use the **Select Active Test Settings** option on the **Test** menu. This means that if you move a test settings file to another location in your solution hierarchy, it can no longer be used as a test setting from within the Visual Studio integrated development environment.
 
 5. The **Test Settings** dialog box is displayed. The **General** page is selected.
 
@@ -173,7 +168,7 @@ Follow these steps to create and remove test settings in your solution for load 
 
 28. To save the test settings, choose **Save As**. Type the name of the file that you want in **Object name**.
 
-### To remove a test settings from your solution
+## Remove a test settings file from your solution
 
 Under the **Solution Items** folder in **Solution Explorer**, right-click the test settings that you want to remove, and then choose **Remove**.
 
