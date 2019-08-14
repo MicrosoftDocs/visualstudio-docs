@@ -38,7 +38,7 @@ Exception types must implement the following three constructors:
 
 - public NewException(string, Exception)
 
-Additionally, if you're running legacy FxCop static code analysis as opposed to [Roslyn-based FxCop analyzers](../code-quality/roslyn-analyzers-overview.md), the absence of a fourth constructor also generates a violation:
+Additionally, if you're running legacy FxCop analysis as opposed to [.NET Compiler Platform-based FxCop analyzers](../code-quality/roslyn-analyzers-overview.md), the absence of a fourth constructor also generates a violation:
 
 - protected or private NewException(SerializationInfo, StreamingContext)
 

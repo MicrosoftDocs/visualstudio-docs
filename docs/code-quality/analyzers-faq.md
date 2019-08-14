@@ -45,11 +45,11 @@ In addition to rule sets and .editorconfig files, some third-party analyzers are
 
 [StyleCop analyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers) are third-party analyzers installed as a NuGet package that check for style consistency in your code. In general, StyleCop rules let you set personal preferences for a code base without recommending one style over another.
 
-## Analyzers versus static code analysis
+## Code analyzers versus legacy analysis
 
-**Q**: What's the difference between analyzers and static code analysis?
+**Q**: What's the difference between legacy analysis and .NET Compiler Platform-based code analysis?
 
-**A**: Analyzers analyze source code in real time and during compilation, whereas static code analysis analyzes binary files after build has completed. For more information, see [Roslyn analyzers vs. static code analysis](roslyn-analyzers-overview.md#roslyn-analyzers-vs-static-code-analysis) and [FxCop analyzers FAQ](fxcop-analyzers-faq.md).
+**A**: .NET Compiler Platform-based code analysis analyzes source code in real time and during compilation, whereas legacy analysis analyzes binary files after build has completed. For more information, see [.NET Compiler Platform-based analysis versus legacy analysis](roslyn-analyzers-overview.md#net-compiler-platform-based-analysis-versus-legacy-analysis) and [FxCop analyzers FAQ](fxcop-analyzers-faq.md).
 
 ## See also
 

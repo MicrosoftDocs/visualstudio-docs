@@ -12,12 +12,12 @@ ms.workload:
 ---
 # Code analysis rule set reference
 
-When you configure static code analysis for managed code projects in Visual Studio, you can choose from a list of built-in *rule sets*. You can either use one of these built-in rule sets, or you can [customize a rule set](../code-quality/how-to-create-a-custom-rule-set.md) to fit your project requirements.
+When you configure legacy analysis for managed code projects in Visual Studio, you can choose from a list of built-in *rule sets*. You can either use one of these built-in rule sets, or you can [customize a rule set](../code-quality/how-to-create-a-custom-rule-set.md) to fit your project requirements.
 
 The topics in this section describe the built-in rule sets and the rules (or warnings) they contain.
 
 > [!NOTE]
-> The rule sets in this section pertain to static code analysis. For information about rule sets available for Roslyn analyzer packages, see [Use rule sets with Roslyn analyzers](analyzer-rule-sets.md).
+> The rule sets in this section pertain to legacy analysis. For information about rule sets available for Roslyn analyzer packages, see [Use rule sets with Roslyn analyzers](analyzer-rule-sets.md).
 
 - [All Rules rule set](all-rules-rule-set.md)
 - [Basic Correctness Rules rule set for managed code](basic-correctness-rules-rule-set-for-managed-code.md)

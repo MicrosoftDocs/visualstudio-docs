@@ -12,14 +12,14 @@ ms.workload:
 ---
 # Configure FxCop analyzers
 
-The [FxCop analyzers](install-fxcop-analyzers.md) consist of the most important "FxCop" rules from static code analysis, converted to Roslyn analyzers. You can configure FxCop code analyzers in two ways:
+The [FxCop analyzers](install-fxcop-analyzers.md) consist of the most important "FxCop" rules from legacy analysis, converted to .NET Compiler Platform-based code analyzers. You can configure FxCop code analyzers in two ways:
 
 - With a [rule set](#fxcop-analyzer-rule-sets), which lets you enable or disable rule and set the severity for individual rule violations.
 
 - Starting in version 2.6.3 of the [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers) NuGet package, through an [.editorconfig file](#editorconfig-file). The [configurable options](fxcop-analyzer-options.md) let you refine which parts of your codebase to analyze.
 
 > [!TIP]
-> For information about the differences between FxCop static code analysis and FxCop analyzers, see [FxCop analyzers FAQ](fxcop-analyzers-faq.md).
+> For information about the differences between legacy analysis and FxCop analyzers, see [FxCop analyzers FAQ](fxcop-analyzers-faq.md).
 
 ## FxCop analyzer rule sets
 
@@ -84,7 +84,7 @@ You can share an .editorconfig file for analyzer configuration between two or mo
 4. Reload the project.
 
 > [!NOTE]
-> You cannot configure legacy FxCop rules (static code analysis FxCop) by using an .editorconfig file.
+> You cannot configure legacy FxCop rules by using an .editorconfig file.
 
 ## Option scopes
 

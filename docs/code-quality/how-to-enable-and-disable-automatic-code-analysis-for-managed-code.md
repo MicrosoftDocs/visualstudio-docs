@@ -12,7 +12,7 @@ ms.workload:
 
 You can configure (static) code analysis to run after each build of a managed code project. You can set different code analysis properties for each build configuration, for example, debug and release.
 
-This article applies only to static code analysis and not live code analysis using [Roslyn code analyzers](roslyn-analyzers-overview.md).
+This article applies only to legacy analysis and not live code analysis using [Roslyn code analyzers](roslyn-analyzers-overview.md).
 
 ## To enable or disable automatic code analysis
 
@@ -28,4 +28,4 @@ This article applies only to static code analysis and not live code analysis usi
 1. To enable or disable automatic code analysis, select or clear the **Enable Code Analysis on Build** check box.
 
 > [!NOTE]
-> The **Enable Code Analysis on Build** check box only affects static code analysis. It doesn't affect [Roslyn code analyzers](roslyn-analyzers-overview.md), which always execute at build if you installed them as a NuGet package. If you want to clear analyzer errors from the **Error List**, you can suppress all the current violations by choosing **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar. For more information, see [Suppress violations](use-roslyn-analyzers.md#suppress-violations).
+> The **Enable Code Analysis on Build** check box only affects legacy analysis. It doesn't affect [Roslyn code analyzers](roslyn-analyzers-overview.md), which always execute at build if you installed them as a NuGet package. If you want to clear analyzer errors from the **Error List**, you can suppress all the current violations by choosing **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar. For more information, see [Suppress violations](use-roslyn-analyzers.md#suppress-violations).
