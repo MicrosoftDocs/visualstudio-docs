@@ -56,9 +56,6 @@ Follow these steps to create and remove test settings in your solution for load 
 
      You can now edit and save test settings values.
 
-    > [!NOTE]
-    > Each test settings that you create is listed as a choice for the **Select Active Test Settings** and **Edit Test Settings** options on the **Test** menu.
-
 6. Under **Name**, type the name for the test settings.
 
 7. (Optional) Under **Description**, type a description for the test setting so other team members know what it is intended for.
@@ -176,14 +173,11 @@ Follow these steps to create and remove test settings in your solution for load 
 
 28. To save the test settings, choose **Save As**. Type the name of the file that you want in **Object name**.
 
-    > [!NOTE]
-    > If you must change your test settings, choose **Test** and then choose **Edit Test Settings** and point to the test settings that you created.
-
 ### To remove a test settings from your solution
 
 Under the **Solution Items** folder in **Solution Explorer**, right-click the test settings that you want to remove, and then choose **Remove**.
 
-The test settings file is removed from your solution. This change is reflected in the list of choices for the **Select Active Test Settings** and **Edit Test Settings** options on the **Test** menu.
+The test settings file is removed from your solution.
 
 ## See also
 

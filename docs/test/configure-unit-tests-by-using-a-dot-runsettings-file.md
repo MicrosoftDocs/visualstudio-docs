@@ -20,11 +20,25 @@ Run settings files can be used to configure tests that are run from the [command
 
 ### IDE
 
+::: moniker range="vs-2017"
+
 To specify a run settings file in the IDE, select **Test** > **Test Settings** > **Select Test Settings File**, and then select the *.runsettings* file.
 
-![Select test settings file menu in Visual Studio](media/select-test-settings-file.png)
+![Select test settings file menu in Visual Studio 2017](media/select-test-settings-file.png)
 
-The file appears on the **Test Settings** menu, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
+The file appears on the Test Settings menu, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+To specify a run settings file in the IDE, in **Test Explorer**, select the arrow on the **Settings** button, and then select **Select Settings File**. Browse to and select the *.runsettings* file.
+
+![Select test settings file menu in Visual Studio 2019](media/vs-2019/select-test-settings-file.png)
+
+The file appears on the Settings menu in Test Explorer, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
+
+::: moniker-end
 
 ### Command line
 
@@ -67,9 +81,19 @@ To customize your tests using a *.runsettings* file, follow these steps:
    > [!TIP]
    > The file name doesn't matter, as long as you use the extension *.runsettings*.
 
-1. Replace the file contents with the XML from the example that follows, and customize it as needed.
+2. Replace the file contents with the XML from the example that follows, and customize it as needed.
 
-1. On the **Test** menu, choose **Test Settings** > **Select Test Settings File**. Browse to the *.runsettings* file you created, and then select **OK**.
+::: moniker range="vs-2017"
+
+3. On the **Test** menu, choose **Test Settings** > **Select Test Settings File**. Browse to the *.runsettings* file you created, and then select **OK**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+3. To select the run settings file, in **Test Explorer**, select the arrow on the **Settings** button, and then select **Select Settings File**. Browse to the *.runsettings* file you created, and then select **OK**.
+
+::: moniker-end
 
    > [!TIP]
    > You can create more than one *.runsettings* file in your solution and select one as the active test settings file as needed.
@@ -88,7 +112,7 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
     <ResultsDirectory>.\TestResults</ResultsDirectory>
 
     <!-- x86 or x64 -->
-    <!-- You can also change it from the top-level menu Test > Test Settings > Processor Architecture for AnyCPU Projects -->
+    <!-- You can also change it from the test settings menu; choose "Processor Architecture for AnyCPU Projects" -->
     <TargetPlatform>x86</TargetPlatform>
 
     <!-- Framework35 | [Framework40] | Framework45 -->
@@ -254,7 +278,7 @@ These settings are specific to the test adapter that runs test methods that have
 |-|-|-|
 |**ForcedLegacyMode**|false|In Visual Studio 2012, the MSTest adapter was optimized to make it faster and more scalable. Some behavior, such as the order in which tests are run, might not be exactly as it was in previous editions of Visual Studio. Set this value to **true** to use the older test adapter.<br /><br />For example, you might use this setting if you have an *app.config* file specified for a unit test.<br /><br />We recommend that you consider refactoring your tests to allow you to use the newer adapter.|
 |**IgnoreTestImpact**|false|The test impact feature prioritizes tests that are affected by recent changes, when run in MSTest or from Microsoft Test Manager. This setting deactivates the feature. For more information, see [Which tests should be run since a previous build](https://msdn.microsoft.com/library/dd286589).|
-|**SettingsFile**||You can specify a test settings file to use with the MSTest adapter here. You can also specify a test settings file by selecting **Test** > **Test Settings** > **Select Test Settings File**.<br /><br />If you specify this value, you must also set the **ForcedlegacyMode** to **true**.<br /><br />`<ForcedLegacyMode>true</ForcedLegacyMode>`|
+|**SettingsFile**||You can specify a test settings file to use with the MSTest adapter here. You can also [specify a test settings file](#specify-a-run-settings-file).<br /><br />If you specify this value, you must also set the **ForcedlegacyMode** to **true**.<br /><br />`<ForcedLegacyMode>true</ForcedLegacyMode>`|
 |**KeepExecutorAliveAfterLegacyRun**|false|After a test run is completed, MSTest is shut down. Any process that is launched as part of the test is also killed. If you want to keep the test executor alive, set the value to **true**. For example, you could use this setting to keep the browser running between coded UI tests.|
 |**DeploymentEnabled**|true|If you set the value to **false**, deployment items that you've specified in your test method aren't copied to the deployment directory.|
 |**CaptureTraceOutput**|true|You can write to the debug trace from your test method using <xref:System.Diagnostics.Trace.WriteLine%2A?displayProperty=nameWithType>.|
