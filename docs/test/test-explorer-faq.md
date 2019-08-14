@@ -109,6 +109,7 @@ The file path filter in the **Test Explorer** search box was removed in Visual S
 
 In Visual Studio 2019, some test window APIs that were previously marked public but were never officially documented will be removed. They were marked as "deprecated" in Visual Studio 2017 to give extension maintainers an early warning. To our knowledge, very few extensions had found these APIs and taken a dependency on them. These include `IGroupByProvider`, `IGroupByProvider<T>`, `KeyComparer`, `ISearchFilter`, `ISearchFilterToken`, `ISearchToken`, and `SearchFilterTokenType`. If this change affects your extension, let us know by filing a bug on [Developer Community](https://developercommunity.visualstudio.com).
 
+::: moniker range="vs-2017"
 ## Test adapter NuGet reference
 
 **In Visual Studio 2017 version 15.8 my tests are discovered, but don't execute.**
@@ -123,6 +124,7 @@ Instead of using test adapter extensions, projects are required to use test adap
 > If you are using the NUnit 2 Test Adapter and are unable to migrate to the NUnit 3 test adapter, you can turn off this new discovery behavior in Visual Studio version 15.8 in **Tools** > **Options** > **Test**.
 
 ![Test Explorer Adapter behavior in tools options](media/testex-adapterbehavior.png)
+::: moniker-end
 
 ## UWP TestContainer was not found
 
