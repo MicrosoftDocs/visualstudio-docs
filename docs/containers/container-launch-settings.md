@@ -42,15 +42,23 @@ In the *Properties* folder in an ASP.NET Core project, you can find the launchSe
 
 The commandName setting identifies that this section applies to Container Tools. The following table shows the properties that can be set in this section:
 
+::: moniker range="vs-2017"
 |Setting name|Example|Description|
-|------------|---------|---------------|
-|launchBrowser|"launchBrowser": true|Indicates whether to launch the browser after successfully launching the project.|
-|launchUrl|"launchUrl": "\<scheme>://\<serviceHost>:\<servicePort>"|This URL is used when launching the browser.  Supported replacement tokens for this string are:<br>   \<scheme> - Replaced with either "http" or "https" depending on whether SSL is used.<br>   \<serviceHost> - Usually replaced with "localhost". When targeting Windows containers on Windows 10 RS3 or older, though, it is replaced with the container's IP.<br>   \<servicePort> - Usually replaced with either sslPort or httpPort, depending on whether SSL is used.  When targeting Windows containers on Windows 10 RS3 or older, though, it is replaced with either "443" or "80", depending on whether SSL is used.|
+|------------|-------|-------|---------------|
+|launchBrowser|Visual Studio 2017|"launchBrowser": true|Indicates whether to launch the browser after successfully launching the project.|
+|launchUrl|Visual Studio 2017|"launchUrl": "\<scheme>://\<serviceHost>:\<servicePort>"|This URL is used when launching the browser.  Supported replacement tokens for this string are:<br>   \<scheme> - Replaced with either "http" or "https" depending on whether SSL is used.<br>   \<serviceHost> - Usually replaced with "localhost". When targeting Windows containers on Windows 10 RS3 or older, though, it is replaced with the container's IP.<br>   \<servicePort> - Usually replaced with either sslPort or httpPort, depending on whether SSL is used.  When targeting Windows containers on Windows 10 RS3 or older, though, it is replaced with either "443" or "80", depending on whether SSL is used.|
+::: moniker-end
+::: moniker range=">=vs-2019"
+|Setting name|Example|Description|
+|------------|-------|-------|---------------|
+|commandLineArgs|"commandLineArgs": "--mysetting myvalue"|These command-line arguments are used when launching your project in the container.|
 |environmentVariables|"environmentVariables": {<br>    "ASPNETCORE_URLS": "https://+:443;http://+:80",<br>    "ASPNETCORE_HTTPS_PORT": "44381"<br>}|These environment variable values are passed to the process when it is launched in the container.|
 |httpPort|"httpPort": 24051|This port on the host is mapped to the container's port 80 when launching the container.  If unspecified, the value is taken from the iisSettings value.|
+|launchBrowser|"launchBrowser": true|Indicates whether to launch the browser after successfully launching the project.|
+|launchUrl|"launchUrl": "\<scheme>://\<serviceHost>:\<servicePort>"|This URL is used when launching the browser.  Supported replacement tokens for this string are:<br>   \<scheme> - Replaced with either "http" or "https" depending on whether SSL is used.<br>   \<serviceHost> - Usually replaced with "localhost". When targeting Windows containers on Windows 10 RS3 or older, though, it is replaced with the container's IP.<br>   \<servicePort> - Usually replaced with either sslPort or httpPort, depending on whether SSL is used.  When targeting Windows containers on Windows 10 RS3 or older, though, it is replaced with either "443" or "80", depending on whether SSL is used.|
 |sslPort|"sslPort": 44381|This port on the host is mapped to the container's port 443 when launching the container.  If unspecified, the value is taken from the iisSettings value.|
 |useSSL|"useSSL": true|Indicates whether to use SSL when launching the project.  If useSSL is not specified, then SSL is used when sslPort > 0.
-|commandLineArgs|"commandLineArgs": "--mysetting myvalue"|These command-line arguments are used when launching your project in the container.|
+::: moniker-end
 
 ## Next steps
 
