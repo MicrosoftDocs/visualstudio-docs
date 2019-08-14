@@ -2,13 +2,11 @@
 title: Visual Studio build numbers and release dates
 titleSuffix: ""
 description: "A list of released versions and build numbers for Visual Studio, sorted by date."
-keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.date: 08/14/2019
 ms.topic: reference
-helpviewer_keywords:
 ms.custom: "seodec18"
 ms.workload:
   - "multiple"
