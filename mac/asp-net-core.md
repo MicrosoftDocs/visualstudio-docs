@@ -33,7 +33,7 @@ There are a number of projects that will provide you with a pre-built template t
 
 ![ASP.NET Project Options](media/asp-net-core-2019-new-asp-core.png)
 
-Select the **ASP.NET Core Empty Web Application** and press **Next**. Give the Project a Name and press **Create**. This creates a new ASP.NET Core app, that should look similar to the image below:
+Select the **ASP.NET Core Empty Web Application** and press **Next**. Give the Project a Name and press **Create**. This creates a new ASP.NET Core app. On the left hand side in the solution pad, expand the second arrow pointing right and click on Startup.cs. It should look similar to the image below:
 
 ![New ASP.NET Core Empty Project view](media/asp-net-core-2019-empty-project.png)
 
