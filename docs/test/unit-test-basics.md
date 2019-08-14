@@ -41,7 +41,6 @@ In this article, we use the development of a fictional application called `MyBan
 ![MyBank Solution 2019](../test/media/vs-2019/basics-mybank-solution.png)
 ::: moniker-end
 
-
 Our first attempt at a design for the `MyBank` application includes an accounts component that represents an individual account and its transactions with the bank, and a database component that represents the functionality to aggregate and manage the individual accounts.
 
 We create a `MyBank` solution that contains two projects:
@@ -84,30 +83,28 @@ It is often quicker to generate the unit test project and unit test stubs from y
 
 1. From the code editor window, right-click and choose [**Create Unit Tests**](create-unit-tests-menu.md) from the right-click menu.
 
-
-::: moniker range="vs-2017"
+   ::: moniker range="vs-2017"
    ![From the editor window, view the context menu](../test/media/createunittestsrightclick.png)
-::: moniker-end
-::: moniker range=">=vs-2019"
+   ::: moniker-end
+   ::: moniker range=">=vs-2019"
    ![From the editor window, view the context menu](../test/media/vs-2019/basics-create-unit-tests.png)
-::: moniker-end
+   ::: moniker-end
 
    > [!NOTE]
    > The **Create Unit Tests** menu command is only available for managed code that targets the .NET Framework (but not .NET Core).
 
 2. Click **OK** to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.
 
-    ![Create Unit Tests dialog box in Visual Studio](../test/media/create-unit-tests.png)
+   ![Create Unit Tests dialog box in Visual Studio](../test/media/create-unit-tests.png)
 
 3. The unit test stubs are created in a new unit test project for all the methods in the class.
 
-::: moniker range="vs-2017"
-    ![The unit tests are created](../test/media/createunittestsstubs.png)
-::: moniker-end
-::: moniker range=">=vs-2019"
-    ![The unit tests are created](../test/media/vs-2019/basics-test-stub.png)
-::: moniker-end
-    
+   ::: moniker range="vs-2017"
+   ![The unit tests are created](../test/media/createunittestsstubs.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2019"
+   ![The unit tests are created](../test/media/vs-2019/basics-test-stub.png)
+   ::: moniker-end
 
 4. Now jump ahead to learn how to [add code to the unit test methods](#write-your-tests) to make your unit test meaningful, and any extra unit tests that you might want to add to thoroughly test your code.
 
@@ -237,7 +234,6 @@ When you build the test project, the tests appear in **Test Explorer**. If **Tes
 ![Unit Test Explorer](../test/media/vs-2019/basics-test-explorer.png)
 ::: moniker-end
 
-
 As you run, write, and rerun your tests, the **Test Explorer** can display the results in groups of **Failed Tests**, **Passed Tests**, **Skipped Tests** and **Not Run Tests**. You can choose different group by options in the toolbar.
 
 You can also filter the tests in any view by matching text in the search box at the global level or by selecting one of the pre-defined filters. You can run any selection of the tests at any time. The results of a test run are immediately apparent in the pass/fail bar at the top of the explorer window. Details of a test method result are displayed when you select the test.
@@ -252,7 +248,6 @@ The **Test Explorer** toolbar helps you discover, organize, and run the tests th
 ::: moniker range=">=vs-2019"
 ![Run tests from the Test Explorer toolbar](../test/media/vs-2019/test-explorer-toolbar-diagram-16-2.png)
 ::: moniker-end
-
 
 You can choose **Run All** to run all your tests, or choose **Run** to choose a subset of tests to run. Select a test to view the details of that test in the test details pane. Choose **Open Test** from the right-click menu (Keyboard: **F12**) to display the source code for the selected test.
 
@@ -271,15 +266,20 @@ If individual tests have no dependencies that prevent them from being run in any
 ### Run tests after every build
 
 ::: moniker range="vs-2017"
+
 |Button|Description|
 |-|-|
 |![Run after build](../test/media/ute_runafterbuild_btn.png)|To run your unit tests after each local build, choose **Test** on the standard menu, and then choose **Run Tests After Build** on the **Test Explorer** toolbar.|
 
 > [!NOTE]
-> Running unit tests after each build requires Visual Studio 2017 Enterprise or Visual Studio 2019. In Visual Studio 2019 it is included in Community and Professional as well as Enterprise.
+> Running unit tests after each build requires Visual Studio 2017 Enterprise edition or Visual Studio 2019. In Visual Studio 2019, the feature is available in Community and Professional edition, in addition to Enterprise edition.
+
 ::: moniker-end
+
 ::: moniker range=">=vs-2019"
+
 To run your unit tests after each local build, open the settings icon in the Test Explorer toolbar and select **Run Tests After Build**.
+
 ::: moniker-end
 
 ### Filter and group the test list
@@ -324,7 +324,6 @@ Learn more details about [debugging unit tests](../debugger/debugger-feature-tou
 ::: moniker range=">=vs-2019"
 ![Generate Method Stub Quick Action Menu](../test/media/vs-2019/basics-generate-method-tdd.png)
 ::: moniker-end
-
 
 **Q: Can I create unit tests that take multiple sets of data as input to run the test?**
 
