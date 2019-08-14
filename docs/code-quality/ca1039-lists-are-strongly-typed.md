@@ -49,20 +49,20 @@ This rule requires <xref:System.Collections.IList> implementations to provide st
 To comply with this rule, implement the interface members explicitly by using names in the form InterfaceName.InterfaceMemberName, such as <xref:System.Collections.IList.Add%2A>. The explicit interface members use the data types that are declared by the interface. Implement the strongly typed members by using the interface member name, such as `Add`. Declare the strongly typed members as public, and declare parameters and return values to be of the strong type that is managed by the collection. The strong types replace weaker types such as <xref:System.Object> and <xref:System.Array> that are declared by the interface.
 
 ## How to fix violations
- To fix a violation of this rule, explicitly implement <xref:System.Collections.IList> members and provide strongly typed alternatives for the members that were noted previously. For code that correctly implements the <xref:System.Collections.IList> interface and provides the required strongly typed members, see the following example.
+To fix a violation of this rule, explicitly implement <xref:System.Collections.IList> members and provide strongly typed alternatives for the members that were noted previously. For code that correctly implements the <xref:System.Collections.IList> interface and provides the required strongly typed members, see the following example.
 
 ## When to suppress warnings
- Suppress a warning from this rule when you implement a new object-based collection, such as a linked list, where types that extend the new collection determine the strong type. These types should comply with this rule and expose strongly typed members.
+Suppress a warning from this rule when you implement a new object-based collection, such as a linked list, where types that extend the new collection determine the strong type. These types should comply with this rule and expose strongly typed members.
 
 ## Example
- In the following example, the type `YourType` extends <xref:System.Collections.CollectionBase?displayProperty=fullName>, as all strongly typed collections should. <xref:System.Collections.CollectionBase> provides the explicit implementation of the <xref:System.Collections.IList> interface for you. Therefore, you must only provide the strongly typed members for <xref:System.Collections.IList> and <xref:System.Collections.ICollection>.
+In the following example, the type `YourType` extends <xref:System.Collections.CollectionBase?displayProperty=fullName>, as all strongly typed collections should. <xref:System.Collections.CollectionBase> provides the explicit implementation of the <xref:System.Collections.IList> interface for you. Therefore, you must only provide the strongly typed members for <xref:System.Collections.IList> and <xref:System.Collections.ICollection>.
 
- [!code-csharp[FxCop.Design.IListStrongTypes#1](../code-quality/codesnippet/CSharp/ca1039-lists-are-strongly-typed_1.cs)]
+[!code-csharp[FxCop.Design.IListStrongTypes#1](../code-quality/codesnippet/CSharp/ca1039-lists-are-strongly-typed_1.cs)]
 
 ## Related rules
- [CA1035: ICollection implementations have strongly typed members](../code-quality/ca1035-icollection-implementations-have-strongly-typed-members.md)
+[CA1035: ICollection implementations have strongly typed members](../code-quality/ca1035-icollection-implementations-have-strongly-typed-members.md)
 
- [CA1038: Enumerators should be strongly typed](../code-quality/ca1038-enumerators-should-be-strongly-typed.md)
+[CA1038: Enumerators should be strongly typed](../code-quality/ca1038-enumerators-should-be-strongly-typed.md)
 
 ## See also
 

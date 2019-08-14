@@ -8,10 +8,11 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Invoking Text Transformation in a VS Extension
-If you are writing a Visual Studio extension such as a menu command or [domain-specific language](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md), you can use the text templating service to transform text templates. Get the <xref:Microsoft.VisualStudio.TextTemplating.VSHost.STextTemplating> service and cast it to <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplating>.
+# Invoke text transformation in a Visual Studio extension
 
-## Getting the text templating service
+If you are writing a Visual Studio extension such as a menu command or [domain-specific language](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md), you can use the text templating service to transform text templates. Get the [STextTemplating](/previous-versions/visualstudio/visual-studio-2012/bb932394(v=vs.110)) service and cast it to [ITextTemplating](/previous-versions/visualstudio/visual-studio-2012/bb932392(v=vs.110)).
+
+## Get the text templating service
 
 ```csharp
 using Microsoft.VisualStudio.TextTemplating;
@@ -27,7 +28,8 @@ ITextTemplating t4 = serviceProvider.GetService(typeof(STextTemplating)) as ITex
 string result = t4.ProcessTemplate(filePath, System.IO.File.ReadAllText(filePath));
 ```
 
-## Passing parameters to the template
+## Pass parameters to the template
+
  You can pass parameters into the template. Inside the template, you can get the parameter values by using the `<#@parameter#>` directive.
 
  For the type of a parameter, you must use a type that is serializable or that can be marshaled. That is, the type must be declared with <xref:System.SerializableAttribute>, or it must be derived from <xref:System.MarshalByRefObject>. This restriction is necessary because the text template is executed in a separate AppDomain. All built-in types such as **System.String** and **System.Int32** are serializable.
@@ -36,7 +38,7 @@ string result = t4.ProcessTemplate(filePath, System.IO.File.ReadAllText(filePath
 
  The following example uses both methods to transform a short test template:
 
-```
+```csharp
 using Microsoft.VisualStudio.TextTemplating;
 using Microsoft.VisualStudio.TextTemplating.VSHost;
 ...
@@ -67,10 +69,11 @@ string result = t4.ProcessTemplate("",
 //     Test: Hello    07/06/2010 12:37:45    42
 ```
 
-## Error Reporting and the Output Directive
- Any errors that arise during processing will be displayed in the Visual Studio error window. In addition, you can be notified of errors by specifying a callback that implements <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplatingCallback>.
+## Error reporting and the output directive
 
- If you want to write the result string to a file, you might want to know what file extension and encoding have been specified in the `<#@output#>` directive in the template. This information will also be passed to your callback. For more information, see [T4 Output Directive](../modeling/t4-output-directive.md).
+Any errors that arise during processing will be displayed in the Visual Studio error window. In addition, you can be notified of errors by specifying a callback that implements [ITextTemplatingCallback](/previous-versions/visualstudio/visual-studio-2012/bb932397(v=vs.110)).
+
+If you want to write the result string to a file, you might want to know what file extension and encoding have been specified in the `<#@output#>` directive in the template. This information will also be passed to your callback. For more information, see [T4 Output Directive](../modeling/t4-output-directive.md).
 
 ```csharp
 void ProcessMyTemplate(string MyTemplateFile)
@@ -112,7 +115,7 @@ class T4Callback : ITextTemplatingCallback
 }
 ```
 
- The code can be tested with a template file similar to the following:
+The code can be tested with a template file similar to the following:
 
 ```
 <#@output extension=".htm" encoding="ASCII"#>
@@ -121,17 +124,16 @@ class T4Callback : ITextTemplatingCallback
 Sample text.
 ```
 
- The compiler warning will appear in the Visual Studio error window, and it will also generate a call to `ErrorCallback`.
+The compiler warning will appear in the Visual Studio error window, and it will also generate a call to `ErrorCallback`.
 
 ## Reference parameters
- You can pass values out of a text template by using a parameter class that is derived from <xref:System.MarshalByRefObject>.
 
-## Related Topics
- To generate text from a preprocessed text template:
- Call the `TransformText()` method of the generated class. For more information, see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md).
+You can pass values out of a text template by using a parameter class that is derived from <xref:System.MarshalByRefObject>.
 
- To generate text outside a Visual Studio extension:
- Define a custom host. For more information, see [Processing Text Templates by using a Custom Host](../modeling/processing-text-templates-by-using-a-custom-host.md).
+## Related articles
 
- To generate source code that can later be compiled and executed:
- Call the `t4.PreprocessTemplate()` method of <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplating>.
+To generate text from a preprocessed text template: Call the `TransformText()` method of the generated class. For more information, see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md).
+
+To generate text outside a Visual Studio extension: Define a custom host. For more information, see [Processing Text Templates by using a Custom Host](../modeling/processing-text-templates-by-using-a-custom-host.md).
+
+To generate source code that can later be compiled and executed: Call the [PreprocessTemplate](/previous-versions/visualstudio/visual-studio-2012/ee844321(v=vs.110)) method of [ITextTemplating](/previous-versions/visualstudio/visual-studio-2012/bb932392(v=vs.110)).

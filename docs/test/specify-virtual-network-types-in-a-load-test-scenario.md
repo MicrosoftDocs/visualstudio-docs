@@ -80,16 +80,16 @@ True network emulation can be used by network-based application developers and t
 
 ## About the mix control
 
- The mix control lets you adjust the percentage of load that is distributed among tests, browser types, or network types in a load test scenario. To adjust the percentage values, move the sliders. Adjusting the mix for network types specifies the probability of a virtual user running a specific network profile in a load test scenario.
+The mix control lets you adjust the percentage of load that is distributed among tests, browser types, or network types in a load test scenario. To adjust the percentage values, move the sliders. Adjusting the mix for network types specifies the probability of a virtual user running a specific network profile in a load test scenario.
 
- When you move a slider, the percentage values of all available items change. If you have more than two items, the amount you add or remove is distributed evenly among the other items. It is possible to override this behavior. If you select the check box in the lock column for a particular item, you lock the specified percentage value for that item. Then, when you move a slider, the amount you add or remove is only applied to any remaining unlocked items.
+When you move a slider, the percentage values of all available items change. If you have more than two items, the amount you add or remove is distributed evenly among the other items. It is possible to override this behavior. If you select the check box in the lock column for a particular item, you lock the specified percentage value for that item. Then, when you move a slider, the amount you add or remove is only applied to any remaining unlocked items.
 
- The **Distribute** button is used to allocate the percentage values equally among all items. For example, if you have three items, choosing **Distribute** sets the percentage values to 34, 33, and 33.
+The **Distribute** button is used to allocate the percentage values equally among all items. For example, if you have three items, choosing **Distribute** sets the percentage values to 34, 33, and 33.
 
 > [!WARNING]
 > The **Distribute** button overrides any items that are locked.
 
- It is also possible to type the percentage values directly into the **%** column instead of using the sliders. If you enter a percentage value directly, the other items will not adjust automatically.
+It is also possible to type the percentage values directly into the **%** column instead of using the sliders. If you enter a percentage value directly, the other items will not adjust automatically.
 
 > [!NOTE]
 > The sliders are disabled when the total does not add up to 100%, or when the percentage values entered into the **%** column are decimals.

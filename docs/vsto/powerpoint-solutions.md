@@ -39,9 +39,9 @@ ms.workload:
 
 - Add or change shapes on a slide.
 
-  To access the PowerPoint object model from a VSTO Add-in, use the `Application` field of the `ThisAddIn` class in your project. The `Application` field returns a <xref:Microsoft.Office.Interop.PowerPoint.Application> object that represents the current instance of PowerPoint. For more information, see [Program VSTO Add-Ins](../vsto/programming-vsto-add-ins.md).
+  To access the PowerPoint object model from a VSTO Add-in, use the `Application` field of the `ThisAddIn` class in your project. The `Application` field returns a [Application](/previous-versions/office/developer/office-2010/ff764034(v=office.14)) object that represents the current instance of PowerPoint. For more information, see [Program VSTO Add-Ins](../vsto/programming-vsto-add-ins.md).
 
-  When you call into the PowerPoint object model, you use types that are provided in the primary interop assembly for PowerPoint. The primary interop assembly acts as a bridge between the managed code in the VSTO Add-in and the COM object model in PowerPoint. All types in the PowerPoint primary interop assembly are defined in the <xref:Microsoft.Office.Interop.PowerPoint> namespace. For more information about primary interop assemblies, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md) and [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md).
+  When you call into the PowerPoint object model, you use types that are provided in the primary interop assembly for PowerPoint. The primary interop assembly acts as a bridge between the managed code in the VSTO Add-in and the COM object model in PowerPoint. All types in the PowerPoint primary interop assembly are defined in the [Microsoft.Office.Interop.PowerPoint](/previous-versions/office/developer/office-2010/ff763170(v=office.14)) namespace. For more information about primary interop assemblies, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md) and [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md).
 
 ## <a name="WordOMDocumentation"></a> Use the PowerPoint object model documentation
  For complete information about the PowerPoint object model, you can refer to the PowerPoint primary interop assembly (PIA) reference and the VBA object model reference.
@@ -52,9 +52,9 @@ ms.workload:
  For more information about the design of the PowerPoint PIA, such as the differences between classes and interfaces in the PIA and how events in the PIA are implemented, see [Overview of classes and interfaces in the Office primary interop assemblies](http://go.microsoft.com/fwlink/?LinkId=199885).
 
 ### VBA object model reference
- The VBA object model reference documents the PowerPoint object model as it is exposed to Visual Basic for Applications (VBA) code. For more information, see [PowerPoint 2010 object model reference](http://go.microsoft.com/fwlink/?LinkId=199770)
+ The VBA object model reference documents the PowerPoint object model as it is exposed to Visual Basic for Applications (VBA) code. For more information, see [PowerPoint 2010 object model reference](http://go.microsoft.com/fwlink/?LinkId=199770).
 
- All of the objects and members in the VBA object model reference correspond to types and members in the PowerPoint primary interop assembly (PIA). For example, the Presentation object in the VBA object model reference corresponds to the <xref:Microsoft.Office.Interop.PowerPoint.Presentation> type in the PowerPoint PIA. Although the VBA object model reference provides code examples for most properties, methods, and events, you must translate the VBA code in this reference to Visual Basic or Visual C# if you want to use them in a PowerPoint VSTO Add-in project that you create by using Visual Studio.
+ All of the objects and members in the VBA object model reference correspond to types and members in the PowerPoint primary interop assembly (PIA). For example, the Presentation object in the VBA object model reference corresponds to the [Presentation](/previous-versions/office/developer/office-2010/ff761925(v=office.14)) type in the PowerPoint PIA. Although the VBA object model reference provides code examples for most properties, methods, and events, you must translate the VBA code in this reference to Visual Basic or Visual C# if you want to use them in a PowerPoint VSTO Add-in project that you create by using Visual Studio.
 
 ## Customize the user interface of PowerPoint
  You can modify the UI of PowerPoint in the following ways.

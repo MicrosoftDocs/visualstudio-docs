@@ -969,7 +969,7 @@ Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
 
 ## .NET code quality settings
 
-The quality rules in this section apply to both C# and Visual Basic code. They're used to configure code analyzers that are built into the Visual Studio interactive development environment (IDE). For information about configuring FxCop analyzers with an EditorConfig file, see [Configure FxCop analyzers](../code-quality/configure-fxcop-analyzers.md).
+The quality rules in this section apply to both C# and Visual Basic code. They're used to configure code analyzers that are built into the Visual Studio integrated development environment (IDE). For information about configuring FxCop analyzers with an EditorConfig file, see [Configure FxCop analyzers](../code-quality/configure-fxcop-analyzers.md).
 
 - [Parameter preferences](#parameter-preferences)
   - dotnet\_code\_quality\_unused\_parameters
@@ -1059,6 +1059,7 @@ The style rules in this section are applicable to C# only.
   - csharp\_using\_directive\_placement
   - csharp\_prefer\_static\_local_function
   - csharp\_prefer\_simple\_using_statement
+  - csharp\_style\_prefer\_switch_expression
 
 ### Implicit and explicit types
 
@@ -1671,6 +1672,7 @@ csharp_style_pattern_local_over_anonymous_function = true:suggestion
 csharp_using_directive_placement = outside_namespace:silent
 csharp_prefer_static_local_function = true:suggestion
 csharp_prefer_simple_using_statement = true:suggestion
+csharp_style_prefer_switch_expression = true:suggestion
 ```
 
 #### csharp\_style\_deconstructed\_variable_declaration
@@ -1811,6 +1813,40 @@ using var a = b;
 
 // csharp_prefer_simple_using_statement = false
 using (var a = b) { }
+```
+
+#### csharp\_style\_prefer\_switch_expression
+
+|||
+|-|-|
+| **Rule name** | csharp_style_prefer_switch_expression |
+| **Rule ID** | IDE0066 |
+| **Applicable languages** | C# 8.0+ |
+| **Values** | `true` - Prefer to use a `switch` expression (introduced with C# 8.0)<br /><br />`false` - Prefer to use a [switch statement](/dotnet/csharp/language-reference/keywords/switch) |
+| **Visual Studio default** | `true:suggestion` |
+| **Introduced version** | Visual Studio 2019 version 16.2 |
+
+Code examples:
+
+```csharp
+// csharp_style_prefer_switch_expression = true
+return x switch
+{
+    1 => 1 * 1,
+    2 => 2 * 2,
+    _ => 0,
+};
+
+// csharp_style_prefer_switch_expression = false
+switch (x)
+{
+    case 1:
+        return 1 * 1;
+    case 2:
+        return 2 * 2;
+    default:
+        return 0;
+}
 ```
 
 ## See also

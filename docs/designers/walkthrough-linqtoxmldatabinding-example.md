@@ -13,7 +13,7 @@ ms.workload:
 This walkthrough describes the LinqToXmlDataBinding example, and explains some of the more interesting contents of its two primary source files, *L2DBForm.xaml* and *L2DBForm.xaml.cs*.
 
 ## Prerequisites
- Before you read this walkthrough, we highly recommended that you build and run the LinqToXmlDataBinding program as described in [How to: Build and run the LinqToXmlDataBinding example](../designers/how-to-build-and-run-the-linqtoxmldatabinding-example.md).
+Before you read this walkthrough, we highly recommended that you build and run the LinqToXmlDataBinding program as described in [How to: Build and run the LinqToXmlDataBinding example](../designers/how-to-build-and-run-the-linqtoxmldatabinding-example.md).
 
 ## Remarks
  The LinqToXmlDataBinding program is a Windows Presentation Foundation (WPF) application that is composed of C# and XAML source files. It contains an embedded XML document that defines a list of books, and enables the user to view, add, delete, and edit these entries. It is composed of the following two primary source files:

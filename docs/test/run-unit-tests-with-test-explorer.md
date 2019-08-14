@@ -163,7 +163,7 @@ You can define your own levels of the hierarchy and group by **State** and then 
 |**Class**|Groups tests by the containing class.|
 ::: moniker-end
 
-### Group by traits
+### Traits
 
 A trait is usually a category name/value pair, but it can also be a single category. Traits can be assigned to methods that are identified as a test method by the unit test framework. A unit test framework can define trait categories. You can add values to the trait categories to define your own category name/value pairs. The syntax to specify trait categories and values is defined by the unit test framework.
 
@@ -181,7 +181,7 @@ In the Microsoft unit test framework for managed apps, you define a trait name/ 
 
 **Traits in the Microsoft Unit Testing Framework for C++**
 
- See [How to use the Microsoft Unit Testing Framework for C++](how-to-use-microsoft-test-framework-for-cpp.md).
+See [How to use the Microsoft Unit Testing Framework for C++](how-to-use-microsoft-test-framework-for-cpp.md).
 
 ## Create custom playlists
 
@@ -209,7 +209,7 @@ The playlist opens in a new Test Explorer tab. You can use this playlist once an
 
 ![Playlist opens in separate test explorer tab](../test/media/vs-2019/test-explorer-playlist-tab-16-2.png)
 
-**To add tests to a playlist**, choose one or more tests in Test Explorer. Right-click and choose **Add to Playlist** > **New playlist**. 
+**To add tests to a playlist**, choose one or more tests in Test Explorer. Right-click and choose **Add to Playlist** > **New playlist**.
 
 **To open a playlist**, choose the playlist icon in the Visual Studio toolbar and select a previously saved playlist file from the menu.
 ::: moniker-end
@@ -223,7 +223,7 @@ The [groups](#test-explorer-groups) are also available as columns in Test Explor
 
 ### Filter, sort, and rearrange test columns
 
-Columns can be filtered, sorted, and rearranged. 
+Columns can be filtered, sorted, and rearranged.
 * To filter to specific traits, click the filter icon at the top of the Traits column.
 
   ![Column filter](../test/media/vs-2019/test-explorer-filter-column-16-2.png)
@@ -296,7 +296,7 @@ To diagnose why a test method is taking too much time, select the method in Test
 
 ### Analyze unit test code coverage
 
-You can determine the amount of your product code that is actually being tested by your unit tests by using the Visual Studio code coverage tool. You can run code coverage on selected tests or on all tests in a solution.
+You can determine the amount of product code that is actually being tested by your unit tests by using the Visual Studio code coverage tool that's available in Visual Studio Enterprise edition. You can run code coverage on selected tests or on all tests in a solution.
 
 To run code coverage for test methods in a solution:
 
@@ -325,6 +325,8 @@ Tests can be run from the **Test Explorer**, by right-clicking in the code edito
 |-|------------------------|
 |TestExplorer.DebugAllTestsInContext|**Ctrl**+**R**, **Ctrl**+**T**|
 |TestExplorer.RunAllTestsInContext|**Ctrl**+**R**, **T**|
+|TestExplorer.RunAllTests|**Ctrl**+**R**, **A**|
+|TestExplorer.RepeatLastRun|**Ctrl**+**R**, **L**|
 
 > [!NOTE]
 > You can't run a test in an abstract class, because tests are only defined in abstract classes and not instantiated. To run tests in abstract classes, create a class that derives from the abstract class.

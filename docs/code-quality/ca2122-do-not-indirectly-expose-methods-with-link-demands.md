@@ -25,26 +25,26 @@ ms.workload:
 |Breaking Change|Non Breaking|
 
 ## Cause
- A public or protected member has a [Link Demands](/dotnet/framework/misc/link-demands) and is called by a member that does not perform any security checks.
+A public or protected member has a [Link Demands](/dotnet/framework/misc/link-demands) and is called by a member that does not perform any security checks.
 
 ## Rule description
- A link demand checks the permissions of the immediate caller only. If a member `X` makes no security demands of its callers, and calls code protected by a link demand, a caller without the necessary permission can use `X` to access the protected member.
+A link demand checks the permissions of the immediate caller only. If a member `X` makes no security demands of its callers, and calls code protected by a link demand, a caller without the necessary permission can use `X` to access the protected member.
 
 ## How to fix violations
- Add a security [Data and Modeling](/dotnet/framework/data/index) or link demand to the member so that it no longer provides unsecured access to the link demand-protected member.
+Add a security [Data and Modeling](/dotnet/framework/data/index) or link demand to the member so that it no longer provides unsecured access to the link demand-protected member.
 
 ## When to suppress warnings
- To safely suppress a warning from this rule, you must make sure that your code does not grant its callers access to operations or resources that can be used in a destructive manner.
+To safely suppress a warning from this rule, you must make sure that your code does not grant its callers access to operations or resources that can be used in a destructive manner.
 
 ## Example 1
- The following examples show a library that violates the rule, and an application that demonstrates the library's weakness. The sample library provides two methods that together violate the rule. The `EnvironmentSetting` method is secured by a link demand for unrestricted access to environment variables. The `DomainInformation` method makes no security demands of its callers before it calls `EnvironmentSetting`.
+The following examples show a library that violates the rule, and an application that demonstrates the library's weakness. The sample library provides two methods that together violate the rule. The `EnvironmentSetting` method is secured by a link demand for unrestricted access to environment variables. The `DomainInformation` method makes no security demands of its callers before it calls `EnvironmentSetting`.
 
- [!code-csharp[FxCop.Security.UnsecuredDoNotCall#1](../code-quality/codesnippet/CSharp/ca2122-do-not-indirectly-expose-methods-with-link-demands_1.cs)]
+[!code-csharp[FxCop.Security.UnsecuredDoNotCall#1](../code-quality/codesnippet/CSharp/ca2122-do-not-indirectly-expose-methods-with-link-demands_1.cs)]
 
 ## Example 2
- The following application calls the unsecured library member.
+The following application calls the unsecured library member.
 
- [!code-csharp[FxCop.Security.TestUnsecuredDoNot1#1](../code-quality/codesnippet/CSharp/ca2122-do-not-indirectly-expose-methods-with-link-demands_2.cs)]
+[!code-csharp[FxCop.Security.TestUnsecuredDoNot1#1](../code-quality/codesnippet/CSharp/ca2122-do-not-indirectly-expose-methods-with-link-demands_2.cs)]
 
 This example produces the following output:
 
