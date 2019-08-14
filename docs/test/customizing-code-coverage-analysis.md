@@ -24,18 +24,38 @@ To customize code coverage, follow these steps:
 
 1. Add a run settings file to your solution. In **Solution Explorer**, on the shortcut menu of your solution, choose **Add** > **New Item**, and select **XML File**. Save the file with a name such as *CodeCoverage.runsettings*.
 
-1. Add the content from the example file at the end of this article, and then customize it to your needs as described in the sections that follow.
+2. Add the content from the example file at the end of this article, and then customize it to your needs as described in the sections that follow.
 
-1. To select the run settings file, on the **Test** menu, choose **Test Settings** > **Select Test Settings File**. To specify a run settings file for running tests from the command line or in a build workflow, see [Configure unit tests by using a *.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file).
+::: moniker range="vs-2017"
+
+3. To select the run settings file, on the **Test** menu, choose **Test Settings** > **Select Test Settings File**. To specify a run settings file for running tests from the command line or in a build workflow, see [Configure unit tests by using a *.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file).
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+3. To select the run settings file, in **Test Explorer**, select the arrow on the **Settings** button, and then select **Select Settings File**. To specify a run settings file for running tests from the command line or in a build workflow, see [Configure unit tests by using a *.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file).
+
+::: moniker-end
 
    When you select **Analyze Code Coverage**, the configuration information is read from the run settings file.
 
    > [!TIP]
    > The previous code coverage results and code coloring aren't automatically hidden when you run tests or update your code.
 
+::: moniker range="vs-2017"
+
 To turn the custom settings off and on, deselect or select the file in the **Test** > **Test Settings** menu.
 
 ![Test settings menu with custom settings file](../test/media/codecoverage-settingsfile.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+To turn the custom settings off and on, deselect or select the file on the **Settings** menu in **Test Explorer**.
+
+::: moniker-end
 
 ### Specify symbol search paths
 
