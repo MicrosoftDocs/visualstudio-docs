@@ -25,16 +25,16 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- A method asserts a permission and performs no security checks on the caller.
+A method asserts a permission and performs no security checks on the caller.
 
 ## Rule description
- Asserting a security permission without performing any security checks can leave an exploitable security weakness in your code. A security stack walk stops when a security permission is asserted. If you assert a permission without performing any checks on the caller, the caller could indirectly execute code by using your permissions. Asserts without security checks are permissible if you're sure the assert can't be used in a harmful manner. An assert is harmless if the code you call is harmless, or if users can't pass arbitrary information to code that you call.
+Asserting a security permission without performing any security checks can leave an exploitable security weakness in your code. A security stack walk stops when a security permission is asserted. If you assert a permission without performing any checks on the caller, the caller could indirectly execute code by using your permissions. Asserts without security checks are permissible if you're sure the assert can't be used in a harmful manner. An assert is harmless if the code you call is harmless, or if users can't pass arbitrary information to code that you call.
 
 ## How to fix violations
- To fix a violation of this rule, add a security demand to the method or its declaring type.
+To fix a violation of this rule, add a security demand to the method or its declaring type.
 
 ## When to suppress warnings
- Suppress a warning from this rule only after a careful security review.
+Suppress a warning from this rule only after a careful security review.
 
 ## See also
 

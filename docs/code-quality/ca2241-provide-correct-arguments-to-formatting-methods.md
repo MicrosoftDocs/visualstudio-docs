@@ -29,19 +29,19 @@ ms.workload:
 |Breaking Change|Non Breaking|
 
 ## Cause
- The `format` string argument passed to a method such as <xref:System.Console.WriteLine%2A>,  <xref:System.Console.Write%2A>, or  <xref:System.String.Format%2A?displayProperty=fullName> does not contain a format item that corresponds to each object argument, or vice versa.
+The `format` string argument passed to a method such as <xref:System.Console.WriteLine%2A>,  <xref:System.Console.Write%2A>, or  <xref:System.String.Format%2A?displayProperty=fullName> does not contain a format item that corresponds to each object argument, or vice versa.
 
 ## Rule description
- The arguments to methods such as <xref:System.Console.WriteLine%2A>, <xref:System.Console.Write%2A>, and <xref:System.String.Format%2A> consist of a format string followed by several <xref:System.Object?displayProperty=fullName> instances. The format string consists of text and embedded format items of the form, {index[,alignment][:formatString]}. 'index' is a zero-based integer that indicates which of the objects to format. If an object does not have a corresponding index in the format string, the object is ignored. If the object specified by 'index' does not exist, a <xref:System.FormatException?displayProperty=fullName> is thrown at runtime.
+The arguments to methods such as <xref:System.Console.WriteLine%2A>, <xref:System.Console.Write%2A>, and <xref:System.String.Format%2A> consist of a format string followed by several <xref:System.Object?displayProperty=fullName> instances. The format string consists of text and embedded format items of the form, {index[,alignment][:formatString]}. 'index' is a zero-based integer that indicates which of the objects to format. If an object does not have a corresponding index in the format string, the object is ignored. If the object specified by 'index' does not exist, a <xref:System.FormatException?displayProperty=fullName> is thrown at runtime.
 
 ## How to fix violations
- To fix a violation of this rule, provide a format item for each object argument and provide an object argument for each format item.
+To fix a violation of this rule, provide a format item for each object argument and provide an object argument for each format item.
 
 ## When to suppress warnings
- Do not suppress a warning from this rule.
+Do not suppress a warning from this rule.
 
 ## Example
- The following example shows two violations of the rule.
+The following example shows two violations of the rule.
 
- [!code-vb[FxCop.Usage.FormattingArguments#1](../code-quality/codesnippet/VisualBasic/ca2241-provide-correct-arguments-to-formatting-methods_1.vb)]
- [!code-csharp[FxCop.Usage.FormattingArguments#1](../code-quality/codesnippet/CSharp/ca2241-provide-correct-arguments-to-formatting-methods_1.cs)]
+[!code-vb[FxCop.Usage.FormattingArguments#1](../code-quality/codesnippet/VisualBasic/ca2241-provide-correct-arguments-to-formatting-methods_1.vb)]
+[!code-csharp[FxCop.Usage.FormattingArguments#1](../code-quality/codesnippet/CSharp/ca2241-provide-correct-arguments-to-formatting-methods_1.cs)]

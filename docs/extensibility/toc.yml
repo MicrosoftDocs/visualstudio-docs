@@ -513,8 +513,6 @@
     href: how-to-diagnose-ui-delays-caused-by-extensions.md
   - name: Troubleshooting VSPackages
     href: troubleshooting-vspackages.md
-- name: Shell (Integrated or Isolated)
-  href: https://vspartner.com/pages/vsshells
 - name: Ship Visual Studio Extensions
 # Auto-expanded node
   items:

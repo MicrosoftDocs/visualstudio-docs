@@ -1,5 +1,5 @@
 ---
-title: "Default Keyboard Shortcuts in Visual Studio for Mac"
+title: "Default Keyboard Shortcuts"
 description: "This article lists the default keyboard shortcuts in Visual Studio for Mac"
 ms.date: 03/14/2019
 author: asb3993

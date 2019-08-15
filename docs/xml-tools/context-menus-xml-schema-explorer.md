@@ -25,7 +25,7 @@ The following table describes the options that are available for a schema set no
 |**Properties Window**|Opens the **Properties** window (if it is not already open). This window displays information about the node.|
 
 ## Node type: Namespace
- The following table describes the options that are available for a namespace node.
+The following table describes the options that are available for a namespace node.
 
 |Option|Description|
 |-|-----------------|
@@ -36,7 +36,7 @@ The following table describes the options that are available for a schema set no
 |**Properties Window**|Opens the **Properties** window (if it is not already open). This window displays information about the node.|
 
 ## Node type: File
- The following table describes the options that are available for a file node.
+The following table describes the options that are available for a file node.
 
 |Option|Description|
 |-|-----------------|
@@ -48,7 +48,7 @@ The following table describes the options that are available for a schema set no
 |**Properties Window**|Opens the **Properties** window (if it is not already open). This window displays information about the node.|
 
 ## All global node types
- The following table describes the options that are available for all global nodes.
+The following table describes the options that are available for all global nodes.
 
 |Option|Description|
 |-|-----------------|
@@ -58,7 +58,7 @@ The following table describes the options that are available for a schema set no
 |**Properties Window**|Opens the **Properties** window (if it is not already open). This window displays information about the node.|
 
 ## Node type: Element
- In addition to the global node options described above, the context menu for element nodes has the following options:
+In addition to the global node options described above, the context menu for element nodes has the following options:
 
 |Option|Description|
 |-|-----------------|
@@ -70,7 +70,7 @@ The following table describes the options that are available for a schema set no
 |**Generate Sample XML**|Available only for global elements. Generates a sample XML file for the global element.|
 
 ## Node type: Global types
- In addition to the global node options described above, the context menu for global type nodes has the following options:
+In addition to the global node options described above, the context menu for global type nodes has the following options:
 
 |Option|Description|
 |-|-----------------|
@@ -80,7 +80,7 @@ The following table describes the options that are available for a schema set no
 |**Show All Ancestors**|Show all parent (base) types.|
 
 ## Node type: Attribute
- In addition to the global node options described above, the context menu for attribute nodes has the following options:
+In addition to the global node options described above, the context menu for attribute nodes has the following options:
 
 |Option|Description|
 |-|-----------------|
@@ -89,7 +89,7 @@ The following table describes the options that are available for a schema set no
 |**Show All References**|For global attributes, finds and highlights all references (other attributes that have `ref="selectedAttribute"`) to the selected attribute.|
 
 ## Node type: Attribute group
- In addition to the global node options described above, the context menu for attribute group nodes has the following options:
+In addition to the global node options described above, the context menu for attribute group nodes has the following options:
 
 |Option|Description|
 |-|-----------------|
@@ -98,7 +98,7 @@ The following table describes the options that are available for a schema set no
 |**Show All References**|Finds and highlights all references (attribute groups that have `ref="selectedAttributeGroup"`) to the selected attribute group.|
 
 ## Node type: Named group
- In addition to the global node options described above, the context menu for named group nodes has the following options:
+In addition to the global node options described above, the context menu for named group nodes has the following options:
 
 |Option|Description|
 |-|-----------------|

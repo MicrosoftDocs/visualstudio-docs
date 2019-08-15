@@ -21,7 +21,7 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- A transparent method loads an assembly from a byte array using one of the following methods:
+A transparent method loads an assembly from a byte array using one of the following methods:
 
 - <xref:System.Reflection.Assembly.Load%2A>
 
@@ -30,15 +30,15 @@ ms.workload:
 - <xref:System.Reflection.Assembly.Load%2A>
 
 ## Rule description
- The security review for transparent code is not as thorough as the security review for critical code, because transparent code cannot perform security sensitive actions. Assemblies loaded from a byte array might not be noticed in transparent code, and that byte array might contain critical, or more importantly safe-critical code, that does need to be audited. Therefore, transparent code should not load assemblies from a byte array.
+The security review for transparent code is not as thorough as the security review for critical code, because transparent code cannot perform security sensitive actions. Assemblies loaded from a byte array might not be noticed in transparent code, and that byte array might contain critical, or more importantly safe-critical code, that does need to be audited. Therefore, transparent code should not load assemblies from a byte array.
 
 ## How to fix violations
- To fix a violation of this rule, mark the method that is loading the assembly with the <xref:System.Security.SecurityCriticalAttribute> or the <xref:System.Security.SecuritySafeCriticalAttribute> attribute.
+To fix a violation of this rule, mark the method that is loading the assembly with the <xref:System.Security.SecurityCriticalAttribute> or the <xref:System.Security.SecuritySafeCriticalAttribute> attribute.
 
 ## When to suppress warnings
- Do not suppress a warning from this rule.
+Do not suppress a warning from this rule.
 
 ## Example
- The rule fires on the following code because a transparent method loads an assembly from a byte array.
+The rule fires on the following code because a transparent method loads an assembly from a byte array.
 
- [!code-csharp[FxCop.Security.CA2144.TransparentMethodsShouldNotLoadAssembliesFromByteArrays#1](../code-quality/codesnippet/CSharp/ca2144-transparent-code-should-not-load-assemblies-from-byte-arrays_1.cs)]
+[!code-csharp[FxCop.Security.CA2144.TransparentMethodsShouldNotLoadAssembliesFromByteArrays#1](../code-quality/codesnippet/CSharp/ca2144-transparent-code-should-not-load-assemblies-from-byte-arrays_1.cs)]
