@@ -39,7 +39,7 @@ You must explicitly enable access to the Visual Basic for Applications (VBA) pro
 
  You can repair your installation of Office if you see VBA or COM errors.
 
-[!include[Add-ins note](../includes/addinsnote.md)]
+[!include[Add-ins note](includes/addinsnote.md)]
 
 ## To enable or disable access to Visual Basic projects
 

@@ -31,7 +31,7 @@ ms.workload:
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
 
-[!include[Add-ins note](../includes/addinsnote.md)]
+[!include[Add-ins note](includes/addinsnote.md)]
 
 ## Insert text in a range
  Use the <xref:Microsoft.Office.Interop.Word.Range.Text%2A> property of a <xref:Microsoft.Office.Interop.Word.Range> object to insert text in a document.

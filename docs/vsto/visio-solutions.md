@@ -25,7 +25,7 @@ ms.workload:
 
  **Applies to:** The information in this topic applies to VSTO Add-in projects for Visio 2010. For more information, see [Features Available by Office Application and Project Type](../vsto/features-available-by-office-application-and-project-type.md).
 
-[!include[Add-ins note](../includes/addinsnote.md)]
+[!include[Add-ins note](includes/addinsnote.md)]
 
 ## Automate Visio by using the Visio object model
  The Visio object model exposes many classes that you can use to automate Visio to create diagrams for organizational charts, flowcharts, project timelines, network diagrams, office spaces, and more. The API enables you to write code to accomplish common tasks:

@@ -21,7 +21,7 @@ ms.workload:
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
-[!include[Add-ins note](../includes/addinsnote.md)]
+[!include[Add-ins note](includes/addinsnote.md)]
 
  This walkthrough illustrates the following tasks:
 

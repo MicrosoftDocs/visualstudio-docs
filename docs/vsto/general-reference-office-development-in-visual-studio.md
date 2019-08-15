@@ -18,7 +18,7 @@ ms.workload:
 # General reference (Office development in Visual Studio)
   This section contains technical details about Microsoft Office projects in Visual Studio.
 
-[!include[Add-ins note](../includes/addinsnote.md)]
+[!include[Add-ins note](includes/addinsnote.md)]
 
 ## In this section
 - [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)

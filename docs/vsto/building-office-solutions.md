@@ -30,7 +30,7 @@ ms.workload:
 # Build Office solutions
   In general, building and debugging Office projects is the same as building and debugging other types of projects in Visual Studio, such as Windows Forms. The topics in this section explain the differences that do exist. For general information about how to build applications, see [Compile and build in Visual Studio](../ide/compiling-and-building-in-visual-studio.md).
 
-[!include[Add-ins note](../includes/addinsnote.md)]
+[!include[Add-ins note](includes/addinsnote.md)]
 
 ## Project output for Office projects
  The output location for Office projects is *projectname*\bin\release or *projectname*\bin\debug. You cannot build to a deployment directory.

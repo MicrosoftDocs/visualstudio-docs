@@ -18,7 +18,7 @@ ms.workload:
 # Get started (Office development in Visual Studio)
   This section contains topics that help you get started using the Microsoft Office developer tools in Visual Studio.
 
-[!include[Add-ins note](../includes/addinsnote.md)]
+[!include[Add-ins note](includes/addinsnote.md)]
 
 ## In this section
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)

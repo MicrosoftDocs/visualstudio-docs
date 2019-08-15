@@ -28,7 +28,7 @@ ms.workload:
 
  For information about securing applications, see [Secure Office solutions](../vsto/securing-office-solutions.md).
 
-[!include[Add-ins note](../includes/addinsnote.md)]
+[!include[Add-ins note](includes/addinsnote.md)]
 
 ## In this section
 

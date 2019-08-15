@@ -26,7 +26,7 @@ ms.workload:
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
 
-[!include[Add-ins note](../includes/addinsnote.md)]
+[!include[Add-ins note](includes/addinsnote.md)]
 
 ## Start and stop the debugger
  You can start debugging an Office project just like you start debugging other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] projects; for example, you can press the **F5** key. When you start debugging a VSTO Add-in project, a new process for the targeted Office application is started and the VSTO Add-in is loaded.

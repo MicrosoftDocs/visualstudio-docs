@@ -27,7 +27,7 @@ ms.workload:
 
  [!INCLUDE[appliesto_infoallapp](../vsto/includes/appliesto-infoallapp-md.md)]
 
-[!include[Add-ins note](../includes/addinsnote.md)]
+[!include[Add-ins note](includes/addinsnote.md)]
 
  VSTO Add-ins for InfoPath are similar to VSTO Add-ins for other Microsoft Office applications. These types of solutions consist of an assembly that is loaded by the application. End users can have access to the functionality of this assembly no matter which form or form template is open. For more information about VSTO Add-ins, see [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md) and [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).
 

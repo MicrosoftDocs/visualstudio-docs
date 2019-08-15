@@ -25,7 +25,7 @@ ms.workload:
 
  [!INCLUDE[appliesto_pptallapp](../vsto/includes/appliesto-pptallapp-md.md)]
 
-[!include[Add-ins note](../includes/addinsnote.md)]
+[!include[Add-ins note](includes/addinsnote.md)]
 
  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Create an Add-in for Microsoft PowerPoint?](http://go.microsoft.com/fwlink/?LinkId=132767).
 

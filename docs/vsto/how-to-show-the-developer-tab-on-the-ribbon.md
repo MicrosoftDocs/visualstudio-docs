@@ -26,7 +26,7 @@ ms.workload:
 > [!NOTE]
 > Access doesn't have a **Developer** tab.
 
-[!include[Add-ins note](../includes/addinsnote.md)]
+[!include[Add-ins note](includes/addinsnote.md)]
 
 ## To show the Developer tab
 

@@ -25,7 +25,7 @@ ms.workload:
 
  [!INCLUDE[appliesto_projallapp](../vsto/includes/appliesto-projallapp-md.md)]
 
-[!include[Add-ins note](../includes/addinsnote.md)]
+[!include[Add-ins note](includes/addinsnote.md)]
 
 ## Automate project by using the project object model
  The Project object model exposes many types that you can use to automate Project. These types enable you to write code to accomplish common tasks such as programmatically creating and modifying tasks in a project.

@@ -22,7 +22,7 @@ ms.workload:
 
  [!INCLUDE[appliesto_allapp](../vsto/includes/appliesto-allapp-md.md)]
 
-[!include[Add-ins note](../includes/addinsnote.md)]
+[!include[Add-ins note](includes/addinsnote.md)]
 
  When you build your project, Visual Studio creates these registry entries on the development computer so that you can easily run and debug the VSTO Add-in. If you use ClickOnce to deploy your VSTO Add-in, the registry entries are automatically created on the end-user computer. If you use Windows Installer to deploy your VSTO Add-in, you must configure the InstallShield Limited Edition project to create the registry entries on the end-user computer.
 

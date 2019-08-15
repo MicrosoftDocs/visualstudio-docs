@@ -19,7 +19,7 @@ ms.workload:
 # Architecture of Office solutions in Visual Studio
   The topics in this section provide information about how solutions created by using the Office developer tools in Visual Studio work.
 
-[!include[Add-ins note](../includes/addinsnote.md)]
+[!include[Add-ins note](includes/addinsnote.md)]
 
 ## In this section
 

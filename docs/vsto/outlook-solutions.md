@@ -24,7 +24,7 @@ ms.workload:
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
-[!include[Add-ins note](../includes/addinsnote.md)]
+[!include[Add-ins note](includes/addinsnote.md)]
 
 ## Create an Outlook VSTO Add-in Project
  Create Outlook projects by using the **Outlook Add-in** project template in the **New Project** dialog box. This template includes required assembly references and project files.

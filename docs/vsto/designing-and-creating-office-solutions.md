@@ -22,7 +22,7 @@ Visual Studio provides project templates that you can use to create several diff
 
 [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
 
-[!include[Add-ins note](../includes/addinsnote.md)]
+[!include[Add-ins note](includes/addinsnote.md)]
 
 ## Create Office projects
  Before you begin, you should determine your requirements and discover the type of solution that offers the best fit. For example, if your Office solution must run every time the application is used, a VSTO Add-in best fits your requirements. If the code is tightly integrated with a single document, create a document-level customization. These project types are available as Visual Studio project templates. For more information about the Office project templates that are included with Visual Studio, see [Office project templates overview](../vsto/office-project-templates-overview.md). For more information about how to create Office projects, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).

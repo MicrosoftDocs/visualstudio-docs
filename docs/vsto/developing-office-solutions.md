@@ -20,7 +20,7 @@ ms.workload:
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
 
-[!include[Add-ins note](../includes/addinsnote.md)]
+[!include[Add-ins note](includes/addinsnote.md)]
 
 ## Office solutions programming model
  The Office object model exposes a variety of objects that you can program against. Whenever you program Office solutions by using managed code, you write code that uses types in the Office primary interop assemblies. In solutions you create by using the Office project templates in Visual Studio, you also write code directly against generated classes in your project. For more information, see [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md).
