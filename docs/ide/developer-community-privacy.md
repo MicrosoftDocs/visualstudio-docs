@@ -58,7 +58,7 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
 
 - Web debugger log files, if they exist
 
-- Service Hub Logs and MEF error logs, if they exist
+- Service Hub logs and MEF error logs, if they exist
 
 - Python logs, if they exist
 
