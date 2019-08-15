@@ -153,7 +153,7 @@ public MyMethod()
 
 ### Remove type from default value expression
 
-This Quick Action removes the value type from a default value expression and uses the [default literal](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference) when the compiler can infer the type of the expression.
+This Quick Action removes the value type from a default value expression and uses the [default literal](/csharp/language-reference/operators/default#default-literal) when the compiler can infer the type of the expression.
 
 ```csharp
 // Before
