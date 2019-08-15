@@ -1,6 +1,6 @@
 ---
 title: "Design and create Office solutions"
-ms.date: "02/02/2017"
+ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -22,8 +22,7 @@ Visual Studio provides project templates that you can use to create several diff
 
 [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
 
-> [!NOTE]
-> Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO Add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
+[!include[Add-ins note](includes/addinsnote.md)]
 
 ## Create Office projects
  Before you begin, you should determine your requirements and discover the type of solution that offers the best fit. For example, if your Office solution must run every time the application is used, a VSTO Add-in best fits your requirements. If the code is tightly integrated with a single document, create a document-level customization. These project types are available as Visual Studio project templates. For more information about the Office project templates that are included with Visual Studio, see [Office project templates overview](../vsto/office-project-templates-overview.md). For more information about how to create Office projects, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
