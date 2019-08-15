@@ -1429,7 +1429,7 @@ csharp_prefer_simple_default_expression = true:suggestion
 
 #### csharp\_prefer\_simple\_default_expression
 
-This style rule concerns using the [`default` literal for default value expressions](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference) when the compiler can infer the type of the expression.
+This style rule concerns using the [`default` literal for default value expressions](/dotnet/csharp/language-reference/operators/default) when the compiler can infer the type of the expression.
 
 |||
 |-|-|
