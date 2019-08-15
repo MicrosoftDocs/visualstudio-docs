@@ -1,6 +1,6 @@
 ---
 title: "Walkthrough: Create your first VSTO Add-in for Excel"
-ms.date: "02/02/2017"
+ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -20,6 +20,8 @@ ms.workload:
   This introductory walkthrough shows you how to create an application-level Add-in for Microsoft Office Excel. The features that you create in this kind of solution are available to the application itself, regardless of which workbooks are open.
 
  [!INCLUDE[appliesto_xlallapp](../vsto/includes/appliesto-xlallapp-md.md)]
+
+[!include[Add-ins note](../includes/addinsnote.md)]
 
  This walkthrough illustrates the following tasks:
 

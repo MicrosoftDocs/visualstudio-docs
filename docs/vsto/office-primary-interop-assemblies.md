@@ -1,6 +1,6 @@
 ---
 title: "Office primary interop assemblies"
-ms.date: "09/20/2018"
+ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -19,6 +19,8 @@ ms.workload:
 # Office primary interop assemblies
 
 To use the features of a Microsoft Office application from an Office project, you must use the primary interop assembly (PIA) for the application. The PIA enables managed code to interact with a Microsoft Office application's COM-based object model.
+
+[!include[Add-ins note](../includes/addinsnote.md)]
 
 When you create a new Office project, Visual Studio adds references to the PIAs that are required to build the project. In some scenarios, you might need to add references to additional PIAs (for example, if you want to use a feature of Microsoft Office Word in a project for Microsoft Office Excel).
 

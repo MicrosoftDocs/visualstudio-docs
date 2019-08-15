@@ -1,6 +1,6 @@
 ---
 title: "How to: Programmatically send email"
-ms.date: "02/02/2017"
+ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -20,6 +20,8 @@ ms.workload:
   This example sends an email message to contacts that have the domain name **example.com** in their email addresses.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
+
+[!include[Add-ins note](../includes/addinsnote.md)]
 
 ## Example
  [!code-csharp[Trin_OL_ProgramEmail#1](../vsto/codesnippet/CSharp/Trin_OL_ProgramEMail/thisaddin.cs#1)]
