@@ -48,21 +48,19 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
 
 - Visual Studio in-memory activity log file
 
-- PerfWatson files, if Watson collection is enabled, from the *VSFeedbackPerfWatsonData* folder
+- PerfWatson files, if Watson collection is enabled
 
-- LiveShare log files, if they exist, from the *VSFeedbackVSRTCLogs* folder
+- LiveShare log files, if they exist
 
-- Xamarin log files, if they exist, from *%LOCALAPPDATA%\Xamarin\Logs*
+- Xamarin log files, if they exist
 
-- Nuget log files, if they exist, from *%TEMP%\NuGetScratch\nuget-dg\nugetSpec.dg*
+- Nuget log files, if they exist
 
-- Web debugger log files, if they exist:
+- Web debugger log files, if they exist
 
-  - *%TEMP%\vscode-chrome-debug.txt*
+- Service Hub Logs and MEF error logs, if they exist
 
-  - *%TEMP%\vscode-node-debug2.txt*
-
-  - *%TEMP%\vscode-edge-debug.txt*
+- Python logs, if they exist
 
 - A screenshot, if you choose to include it
 
