@@ -1,7 +1,7 @@
 ---
 title: "Create a network-based installation"
 description: "Learn how to create a network install point for deploying Visual Studio within an enterprise."
-ms.date: 04/26/2019
+ms.date: 08/06/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
@@ -79,6 +79,8 @@ See [Automate Visual Studio installation with a response file](automated-install
 ## Copy the layout to a network share
 
 Host the layout on a network share so it can be run from other machines.
+
+The following example uses [xcopy](/windows-server/administration/windows-commands/xcopy/). You can also use [robocopy](/windows-server/administration/windows-commands/robocopy/), should you wish.  
 
 ::: moniker range="vs-2017"
 

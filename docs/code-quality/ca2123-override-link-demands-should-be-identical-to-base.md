@@ -25,23 +25,23 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- A public or protected method in a public type overrides a method or implements an interface, and does not have the same [Link Demands](/dotnet/framework/misc/link-demands) as the interface or virtual method.
+A public or protected method in a public type overrides a method or implements an interface, and does not have the same [Link Demands](/dotnet/framework/misc/link-demands) as the interface or virtual method.
 
 ## Rule description
- This rule matches a method to its base method, which is either an interface or a virtual method in another type, and then compares the link demands on each. A violation is reported if either the method or the base method has a link demand and the other does not.
+This rule matches a method to its base method, which is either an interface or a virtual method in another type, and then compares the link demands on each. A violation is reported if either the method or the base method has a link demand and the other does not.
 
- If this rule is violated, a malicious caller can bypass the link demand merely by calling the unsecured method.
+If this rule is violated, a malicious caller can bypass the link demand merely by calling the unsecured method.
 
 ## How to fix violations
- To fix a violation of this rule, apply the same link demand to the override method or implementation. If this is not possible, mark the method with a full demand or remove the attribute altogether.
+To fix a violation of this rule, apply the same link demand to the override method or implementation. If this is not possible, mark the method with a full demand or remove the attribute altogether.
 
 ## When to suppress warnings
- Do not suppress a warning from this rule.
+Do not suppress a warning from this rule.
 
 ## Example
- The following example shows various violations of this rule.
+The following example shows various violations of this rule.
 
- [!code-csharp[FxCop.Security.OverridesAndSecurity#1](../code-quality/codesnippet/CSharp/ca2123-override-link-demands-should-be-identical-to-base_1.cs)]
+[!code-csharp[FxCop.Security.OverridesAndSecurity#1](../code-quality/codesnippet/CSharp/ca2123-override-link-demands-should-be-identical-to-base_1.cs)]
 
 ## See also
 

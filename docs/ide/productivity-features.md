@@ -40,7 +40,7 @@ Write code more quickly by using the following features.
 
 ## Navigate within your code
 
- You can use various techniques to find and move to specific locations in your code more quickly.
+You can use various techniques to find and move to specific locations in your code more quickly.
 
 - **Bookmark lines of code**. You can use bookmarks to navigate quickly to specific lines of code in a file.
 

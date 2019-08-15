@@ -25,19 +25,19 @@ ms.workload:
 |Breaking Change|Non Breaking|
 
 ## Cause
- A public type implements a finalizer that does not specify family (protected) access.
+A public type implements a finalizer that does not specify family (protected) access.
 
 ## Rule description
- Finalizers must use the family access modifier. This rule is enforced by the C#, Visual Basic, and Visual C++ compilers.
+Finalizers must use the family access modifier. This rule is enforced by the C#, Visual Basic, and Visual C++ compilers.
 
 ## How to fix violations
- To fix a violation of this rule, change the finalizer to be family-accessible.
+To fix a violation of this rule, change the finalizer to be family-accessible.
 
 ## When to suppress warnings
- Do not suppress a warning from this rule.
+Do not suppress a warning from this rule.
 
 ## Example
- This rule cannot be violated in any high-level .NET language; it can be violated if you are writing Microsoft Intermediate Language.
+This rule cannot be violated in any high-level .NET language; it can be violated if you are writing Microsoft Intermediate Language.
 
 ```
 // =============== CLASS MEMBERS DECLARATION ===================

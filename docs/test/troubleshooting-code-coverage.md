@@ -23,7 +23,7 @@ For more information, see [Use code coverage to determine how much code is being
 ## Possible reasons for seeing no results or old results
 
 ### Do you have the right edition of Visual Studio?
- You need Visual Studio Enterprise.
+You need Visual Studio Enterprise.
 
 ### No tests were executed
 

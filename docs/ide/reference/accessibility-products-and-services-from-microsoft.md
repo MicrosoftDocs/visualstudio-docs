@@ -40,19 +40,19 @@ Microsoft is committed to making its products and services easier for everyone t
 
 ## <a name="windows"></a> Accessibility features of Windows
 
- The Windows operating system has many built-in accessibility features that are useful for individuals who have difficulty typing or using a mouse, are blind or have low vision, or who are deaf or hard-of-hearing. The features are installed during Setup. For more information about these features, see Help in Windows and the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website.
+The Windows operating system has many built-in accessibility features that are useful for individuals who have difficulty typing or using a mouse, are blind or have low vision, or who are deaf or hard-of-hearing. The features are installed during Setup. For more information about these features, see Help in Windows and the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website.
 
 ### Free step-by-step tutorials
 
- Microsoft offers a series of step-by-step tutorials that provide detailed procedures for adjusting the accessibility options and settings on your computer. This information is presented in a side-by-side format so that you can learn how to use the mouse, the keyboard, or a combination of both.
+Microsoft offers a series of step-by-step tutorials that provide detailed procedures for adjusting the accessibility options and settings on your computer. This information is presented in a side-by-side format so that you can learn how to use the mouse, the keyboard, or a combination of both.
 
- To find step-by-step tutorials for Microsoft products, see the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website.
+To find step-by-step tutorials for Microsoft products, see the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website.
 
 ### Assistive technology products for Windows
 
- A wide variety of assistive technology products are available to make computers easier to use for people with disabilities. You can search a catalog of assistive technology products that run on Windows at the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website.
+A wide variety of assistive technology products are available to make computers easier to use for people with disabilities. You can search a catalog of assistive technology products that run on Windows at the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website.
 
- If you use assistive technology, be sure to contact your assistive technology vendor before you upgrade your software or hardware to check for possible compatibility issues.
+If you use assistive technology, be sure to contact your assistive technology vendor before you upgrade your software or hardware to check for possible compatibility issues.
 
 ## <a name="altfortmats"></a> Documentation in alternative formats
 

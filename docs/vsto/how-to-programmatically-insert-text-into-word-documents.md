@@ -1,6 +1,6 @@
 ---
 title: "How to: Programmatically insert text into Word documents"
-ms.date: "02/02/2017"
+ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -30,6 +30,8 @@ ms.workload:
 > You can also insert text into content controls and bookmarks. For more information, see [Content controls](../vsto/content-controls.md) and [Bookmark control](../vsto/bookmark-control.md).
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
+
+[!include[Add-ins note](../includes/addinsnote.md)]
 
 ## Insert text in a range
  Use the <xref:Microsoft.Office.Interop.Word.Range.Text%2A> property of a <xref:Microsoft.Office.Interop.Word.Range> object to insert text in a document.

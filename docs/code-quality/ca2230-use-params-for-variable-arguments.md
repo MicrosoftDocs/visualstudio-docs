@@ -25,23 +25,23 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- A public or protected type contains a public or protected method that uses the `VarArgs` calling convention.
+A public or protected type contains a public or protected method that uses the `VarArgs` calling convention.
 
 ## Rule description
- The `VarArgs` calling convention is used with certain method definitions that take a variable number of parameters. A method using the `VarArgs` calling convention is not Common Language Specification (CLS) compliant and might not be accessible across programming languages.
+The `VarArgs` calling convention is used with certain method definitions that take a variable number of parameters. A method using the `VarArgs` calling convention is not Common Language Specification (CLS) compliant and might not be accessible across programming languages.
 
- In C#, the `VarArgs` calling convention is used when a method's parameter list ends with the `__arglist` keyword. Visual Basic does not support the `VarArgs` calling convention, and Visual C++  allows its use only in unmanaged code that uses the ellipse `...` notation.
+In C#, the `VarArgs` calling convention is used when a method's parameter list ends with the `__arglist` keyword. Visual Basic does not support the `VarArgs` calling convention, and Visual C++  allows its use only in unmanaged code that uses the ellipse `...` notation.
 
 ## How to fix violations
- To fix a violation of this rule in C#, use the [params](/dotnet/csharp/language-reference/keywords/params) keyword instead of `__arglist`.
+To fix a violation of this rule in C#, use the [params](/dotnet/csharp/language-reference/keywords/params) keyword instead of `__arglist`.
 
 ## When to suppress warnings
- Do not suppress a warning from this rule.
+Do not suppress a warning from this rule.
 
 ## Example
- The following example shows two methods, one that violates the rule and one that satisfies the rule.
+The following example shows two methods, one that violates the rule and one that satisfies the rule.
 
- [!code-csharp[FxCop.Usage.UseParams#1](../code-quality/codesnippet/CSharp/ca2230-use-params-for-variable-arguments_1.cs)]
+[!code-csharp[FxCop.Usage.UseParams#1](../code-quality/codesnippet/CSharp/ca2230-use-params-for-variable-arguments_1.cs)]
 
 ## See also
 

@@ -32,7 +32,7 @@ Use the **AdvancedCompiler Settings** dialog box of the **Project Designer** to 
 
 ## Optimizations
 
- The following options specify optimizations that can in some cases make a program file smaller, make a program run faster, or speed up the build process.
+The following options specify optimizations that can in some cases make a program file smaller, make a program run faster, or speed up the build process.
 
 **Remove integer overflow checks**
 
@@ -46,11 +46,11 @@ This check box is cleared, by default, to disable compiler optimizations. Select
 
  **DLL base address**
 
- This text box displays the default DLL base address in hexadecimal format. In Class Library and Control Library projects, you can use this text box to specify the base address to be used when the DLL is created.
+This text box displays the default DLL base address in hexadecimal format. In Class Library and Control Library projects, you can use this text box to specify the base address to be used when the DLL is created.
 
  **Generate debug info**
 
- Select **None**, **Full**, or **pdb-only** from the list. **None** specifies that no debugging information be generated. **Full** specifies that full debugging information be generated, and **pdb-only** specifies that only PDB debugging information should be generated. The default value for this option is **Full**.
+Select **None**, **Full**, or **pdb-only** from the list. **None** specifies that no debugging information be generated. **Full** specifies that full debugging information be generated, and **pdb-only** specifies that only PDB debugging information should be generated. The default value for this option is **Full**.
 
 ## Compilation Constants
 
@@ -58,15 +58,15 @@ Conditional compilation constants have an effect similar to that of using a [#Co
 
  **Define DEBUG constant**
 
- By default, this check box is selected, specifying that a DEBUG constant be set.
+By default, this check box is selected, specifying that a DEBUG constant be set.
 
  **Define TRACE constant**
 
- By default, this check box is selected, specifying that a TRACE constant be set.
+By default, this check box is selected, specifying that a TRACE constant be set.
 
  **Custom constants**
 
- Enter any custom constants for your application in this text box. Entries should be delimited by commas, using this form: **Name1="Value1",Name2="Value2",Name3="Value3"**.
+Enter any custom constants for your application in this text box. Entries should be delimited by commas, using this form: **Name1="Value1",Name2="Value2",Name3="Value3"**.
 
 ## Other Settings
 

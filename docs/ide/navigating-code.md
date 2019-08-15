@@ -33,7 +33,7 @@ You can use the **Navigate Backward** (**Ctrl**+**-**) and **Navigate Forward** 
 
 You can use the **navigation bar** (the drop-down boxes at the top of the code window) to navigate to code in a codebase. You can choose a type or member to go directly to it. The navigation bar appears when you edit code in a Visual Basic, C#, or C++ code base. In a partial class, members defined outside the current code file may be disabled (they appear in gray).
 
- ![Code navigation bar](../ide/media/vside_navigation_bar.png)
+![Code navigation bar](../ide/media/vside_navigation_bar.png)
 
 You can navigate around the drop-down boxes as follows:
 
