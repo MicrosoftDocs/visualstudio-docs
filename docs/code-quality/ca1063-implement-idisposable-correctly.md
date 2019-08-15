@@ -32,17 +32,17 @@ The <xref:System.IDisposable?displayProperty=nameWithType> interface is not impl
 
 - <xref:System.IDisposable> is reimplemented in the class.
 
-- Finalize is reoverridden.
+- `Finalize` is overridden again.
 
-- Dispose() is overridden.
+- `Dispose()` is overridden.
 
-- The Dispose() method is not public, [sealed](/dotnet/csharp/language-reference/keywords/sealed), or named **Dispose**.
+- The `Dispose()` method is not public, [sealed](/dotnet/csharp/language-reference/keywords/sealed), or named **Dispose**.
 
-- Dispose(bool) is not protected, virtual, or unsealed.
+- `Dispose(bool)` is not protected, virtual, or unsealed.
 
-- In unsealed types, Dispose() must call Dispose(true).
+- In unsealed types, `Dispose()` must call `Dispose(true)`.
 
-- For unsealed types, the Finalize implementation does not call either or both Dispose(bool) or the base class finalizer.
+- For unsealed types, the `Finalize` implementation does not call either or both `Dispose(bool)` or the base class finalizer.
 
 Violation of any one of these patterns triggers warning CA1063.
 
