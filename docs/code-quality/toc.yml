@@ -698,6 +698,10 @@
           href: ca5378.md
         - name: "CA5386: Avoid hardcoding SecurityProtocolType value"
           href: ca5386.md
+        - name: "CA5397: Do not use deprecated SslProtocols values"
+          href: ca5397.md
+        - name: "CA5398: Avoid hardcoded SslProtocols values"
+          href: ca5398.md
       - name: Usage warnings
         items:
         - name: Overview
