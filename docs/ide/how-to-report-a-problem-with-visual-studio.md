@@ -10,7 +10,6 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-
 # How to report a problem with Visual Studio or Visual Studio Installer
 
 > [!NOTE]
