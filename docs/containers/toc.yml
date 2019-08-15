@@ -40,8 +40,6 @@
     href: troubleshooting-docker-errors.md
   - name: Reference
     items:
-    - name: Settings for container projects
+    - name: MSBuild properties for container projects
       href: container-msbuild-properties.md
-    - name: Settings for Docker Compose projects
-      href: docker-compose-properties.md
       
