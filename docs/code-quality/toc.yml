@@ -1,10 +1,10 @@
 - name: Code analysis documentation
   href: index.md
-- name: Code analysis for managed code
+- name: Analyze managed code
   items:
   - name: Overview
     href: code-analysis-for-managed-code-overview.md
-  - name: Roslyn analyzers (source analysis)
+  - name: Code analysis
     items:
     - name: Overview
       displayName: roslyn analyzers, source analysis
@@ -17,32 +17,32 @@
       href: how-to-enable-and-disable-full-solution-analysis-for-managed-code.md
     - name: FAQ
       href: analyzers-faq.md
-  - name: Binary analyzers (static code analysis)
+  - name: Legacy analysis
     items:
     - name: Overview
       displayName: static code analysis, binary analysis
       href: static-code-analysis-for-managed-code-overview.md
-    - name: Static code analysis walkthrough
+    - name: Legacy analysis walkthrough
       href: walkthrough-analyzing-managed-code-for-code-defects.md
     - name: Migration
       href: fxcop-analyzers.yml
-    - name: Run code analysis manually
+    - name: Run legacy analysis manually
       href: how-to-run-code-analysis-manually-for-managed-code.md
     - name: Configuration
       items:
-      - name: Configure code analysis for Binary analyzers
+      - name: Configure legacy analysis
         href: how-to-configure-code-analysis-for-a-managed-code-project.md
-      - name: Enable automatic code analysis
+      - name: Enable automatic legacy code analysis
         href: how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md
-      - name: Customize the code analysis dictionary
+      - name: Customize the legacy code analysis dictionary
         href: how-to-customize-the-code-analysis-dictionary.md
     - name: Suppression
       items:
-      - name: Suppress static code analysis warnings for generated code
+      - name: Suppress legacy analysis warnings for generated code
         href: how-to-suppress-code-analysis-warnings-for-generated-code.md
-    - name: Code analysis application errors
+    - name: Legacy analysis application errors
       items:
-      - name: Code analysis policy errors
+      - name: Legacy analysis policy errors
         href: code-analysis-policy-errors.md
       - name: Overview
         href: code-analysis-application-errors.md
@@ -104,7 +104,7 @@
       items:
       - name: How to create or update check-in policies
         href: how-to-create-or-update-standard-code-analysis-check-in-policies.md
-      - name: Implement code analysis check-in policies
+      - name: Implement legacy analysis check-in policies
         href: implementing-custom-code-analysis-check-in-policies-for-managed-code.md
       - name: Enforce maintainable code
         href: how-to-enforce-maintainable-code-with-a-code-analysis-check-in-policy.md
@@ -127,7 +127,7 @@
         href: fxcop-analyzer-options.md
     - name: FAQ
       href: fxcop-analyzers-faq.md
-  - name: Migrate from static analysis to FxCop analyzers
+  - name: Migrate from legacy analysis to FxCop analyzers
     items:
     - name: Overview
       href: fxcop-analyzers.yml
@@ -698,6 +698,10 @@
           href: ca5378.md
         - name: "CA5386: Avoid hardcoding SecurityProtocolType value"
           href: ca5386.md
+        - name: "CA5397: Do not use deprecated SslProtocols values"
+          href: ca5397.md
+        - name: "CA5398: Avoid hardcoded SslProtocols values"
+          href: ca5398.md
       - name: Usage warnings
         items:
         - name: Overview
@@ -791,7 +795,7 @@
           href: ca2243-attribute-string-literals-should-parse-correctly.md
       - name: Automatic feature suspension
         href: automatic-feature-suspension.md
-- name: Code analysis for C/C++
+- name: Analyze C/C++ code
   items:
   - name: Overview
     displayName: "C++ code analysis"

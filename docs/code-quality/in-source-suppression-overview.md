@@ -27,7 +27,7 @@ In C++/CLI, use the macros CA\_SUPPRESS\_MESSAGE or CA\_GLOBAL\_SUPPRESS_MESSAGE
 > You should not use in-source suppressions on release builds, to prevent shipping the in-source suppression metadata accidentally. Additionally, because of the processing cost of in-source suppression, the performance of your application can be degraded.
 
 > [!NOTE]
-> If you migrate a project to Visual Studio 2017 or Visual Studio 2019, you might suddenly be faced with a large number of code analysis warnings. These warnings are coming from [Roslyn analyzers](roslyn-analyzers-overview.md). If you aren't ready to fix the warnings, you can suppress all of them by choosing **Analyze** > **Run Code Analysis and Suppress Active Issues**.
+> If you migrate a project to Visual Studio 2017 or Visual Studio 2019, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings, you can suppress all of them by choosing **Analyze** > **Run Code Analysis and Suppress Active Issues**.
 >
 > ![Run code analysis and suppress issues in Visual Studio](media/suppress-active-issues.png)
 
@@ -71,7 +71,7 @@ The properties of the attribute include:
 
   - `namespace` - This scope suppresses warnings against the namespace itself. It does not suppress warnings against types within the namespace.
 
-  - `namespaceanddescendants` - (New for Visual Studio 2019) This scope suppresses warnings in a namespace and all its descendant symbols. The `namespaceanddescendants` value is only valid for Roslyn analyzers, and is ignored by binary, FxCop-based static analysis.
+  - `namespaceanddescendants` - (New for Visual Studio 2019) This scope suppresses warnings in a namespace and all its descendant symbols. The `namespaceanddescendants` value is ignored by legacy analysis.
 
 - **Target** - An identifier that is used to specify the target on which the warning is being suppressed. It must contain a fully qualified item name.
 
@@ -165,4 +165,4 @@ The global suppression file maintains suppressions that are either global-level 
 
 - <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope>
 - <xref:System.Diagnostics.CodeAnalysis>
-- [Use Roslyn analyzers](../code-quality/use-roslyn-analyzers.md)
+- [Use code analyzers](../code-quality/use-roslyn-analyzers.md)

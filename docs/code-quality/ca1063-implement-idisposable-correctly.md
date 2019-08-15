@@ -32,17 +32,17 @@ The <xref:System.IDisposable?displayProperty=nameWithType> interface is not impl
 
 - <xref:System.IDisposable> is reimplemented in the class.
 
-- Finalize is reoverridden.
+- `Finalize` is overridden again.
 
-- Dispose() is overridden.
+- `Dispose()` is overridden.
 
-- The Dispose() method is not public, [sealed](/dotnet/csharp/language-reference/keywords/sealed), or named **Dispose**.
+- The `Dispose()` method is not public, [sealed](/dotnet/csharp/language-reference/keywords/sealed), or named **Dispose**.
 
-- Dispose(bool) is not protected, virtual, or unsealed.
+- `Dispose(bool)` is not protected, virtual, or unsealed.
 
-- In unsealed types, Dispose() must call Dispose(true).
+- In unsealed types, `Dispose()` must call `Dispose(true)`.
 
-- For unsealed types, the Finalize implementation does not call either or both Dispose(bool) or the base class finalizer.
+- For unsealed types, the `Finalize` implementation does not call either or both `Dispose(bool)` or the base class finalizer.
 
 Violation of any one of these patterns triggers warning CA1063.
 
@@ -82,7 +82,7 @@ Do not suppress a warning from this rule.
 
 ## Configurability
 
-If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
+If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not with legacy analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
 
 ```ini
 dotnet_code_quality.ca1063.api_surface = private, internal
