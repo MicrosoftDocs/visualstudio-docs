@@ -40,7 +40,7 @@ The following table shows the MSBuild properties available for Docker Compose pr
 |DockerTargetOS| dcproj | The target OS used when building the Docker image.|-|
 
 > [!NOTE]
-> DockerComposeBuildArguments, DockerComposeDownArguments, and DockerComposeUpArguments are new in Visual Studio 2019 version 16.3.
+> DockerComposeBuildArguments, DockerComposeDownArguments, and DockerComposeUpArguments are new in Visual Studio 2019 version 16.3 Preview 3.
 
 ## Docker Compose file labels
 
