@@ -1,6 +1,6 @@
 ---
 title: "Test Explorer FAQ"
-ms.date: 11/07/2018
+ms.date: 08/14/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "Test Explorer"
@@ -16,8 +16,8 @@ author: kendrahavens
 manager: jillfra
 ---
 # Visual Studio Test Explorer FAQ
-
 ::: moniker range=">=vs-2019"
+
 ## Where is group by Traits in Visual Studio 2019?
 This Trait grouping was moved to be a column. With the multi-tiered and customizable hierarchy in Visual Studio 2019 version 16.2, we thought including traits as a grouping created unneeded visual complexity. We are definitely listening to feedback on this design! https://developercommunity.visualstudio.com/content/problem/588029/no-longer-able-to-group-by-trait-in-test-explorer.html
 
@@ -25,25 +25,29 @@ For now, you can right click on the column in the Test Explorer and select Colum
 
 ![Display the Trait column](media/vs-2019/trait-column.png)
 ![Filter the trait column](media/vs-2019/trait-column-filter.png)
-
 ::: moniker-end
 
 ## Dynamic test discovery
 
 **Test Explorer is not discovering my tests that are dynamically defined. (For example, theories, custom adapters, custom traits, #ifdefs, etc.) How can I discover these tests?**
 
+::: moniker range=">=vs-2019"
+Build your project to run assembly-based discovery.
+::: moniker-end
+::: moniker range="vs-2017"
 Build your project and make sure assembly-based discovery is turned on in **Tools** > **Options** > **Test**.
-
-[Real-time test discovery](https://go.microsoft.com/fwlink/?linkid=862824) is source-based test discovery. It can’t discover tests that use theories, custom adapters, custom traits, `#ifdef` statements, and more because they're defined at runtime. A build is required for those tests to be accurately found. In Visual Studio 2017 version 15.6 and later, assembly-based discovery (the traditional discoverer) runs only after builds. This setting means real-time test discovery finds as many tests as it can while you're editing, and assembly-based discovery allows dynamically defined tests to appear after a build. Real-time test discovery improves responsiveness, but stills allow you to get complete and precise results after a build.
+::: moniker-end
+[Real-time test discovery](https://go.microsoft.com/fwlink/?linkid=862824) is source-based test discovery. It can’t discover tests that use theories, custom adapters, custom traits, `#ifdef` statements, and more because they're defined at runtime. A build is required for those tests to be accurately found. In Visual Studio 2017 version 15.6 and later, assembly-based discovery (the traditional discoverer) runs only after builds. This setting means real-time test discovery finds as many tests as it can while you're editing, and assembly-based discovery allows dynamically defined tests to appear after a build. Real-time test discovery improves responsiveness, but still allows you to get complete and precise results after a build.
 
 ## Test Explorer '+' (plus) symbol
 
 **What does the '+' (plus) symbol that appears in the top line of Test Explorer mean?**
 
-The '+' (plus) symbol indicates that more tests may be discovered after a build as long as assembly-based discovery is turned on. This symbol appears if dynamically defined tests are detected in your project.
+The '+' (plus) symbol indicates that more tests may be discovered after a build when assembly-based discovery runs. This symbol appears if dynamically defined tests are detected in your project.
 
 ![Plus symbol summary line](media/testex-plussymbol.png)
 
+::: moniker range="vs-2017"
 ## Assembly-based discovery
 
 **Assembly-based discovery is no longer working for my project. How do I turn it back on?**
@@ -51,12 +55,13 @@ The '+' (plus) symbol indicates that more tests may be discovered after a build 
 Go to **Tools** > **Options** > **Test** and check the box for **Additionally discover tests from built assemblies after builds.**
 
 ![Assembly-based option](media/testex-toolsoptions.png)
+::: moniker-end
 
 ## Real-time test discovery
 
 **Tests now appear in Test Explorer while I type, without having to build my project. What changed?**
 
-This feature is called [Real-time test discovery](https://go.microsoft.com/fwlink/?linkid=862824). It uses a Roslyn analyzer to find tests and populate Test Explorer in real time, without requiring you to build your project. For more information about test discovery behavior for dynamically defined tests such as theories or custom traits, see FAQ #1.
+This feature is called [Real-time test discovery](https://go.microsoft.com/fwlink/?linkid=862824). It uses a Roslyn analyzer to find tests and populate Test Explorer in real time, without requiring you to build your project. For more information about test discovery behavior for dynamically defined tests such as theories or custom traits, see [Dynamic test discovery](#dynamic-test-discovery).
 
 ## Real-time test discovery compatibility
 
@@ -86,7 +91,7 @@ The hierarchy view sorts tests alphabetically as opposed to by outcome. The othe
 
 ## Test Explorer hierarchy view
 
-**In the hierarchy view, there are passed, failed, skipped, and not run icons next to the Project, Namespace, and Class groupings. What do these icons mean?**
+**In the hierarchy view, there are passed, failed, skipped, and not run icons next to parent-node groupings. What do these icons mean?**
 
 The icons next to the Project, Namespace, and Class groupings show the state of the tests within that grouping. See the following table.
 
@@ -104,6 +109,7 @@ The file path filter in the **Test Explorer** search box was removed in Visual S
 
 In Visual Studio 2019, some test window APIs that were previously marked public but were never officially documented will be removed. They were marked as "deprecated" in Visual Studio 2017 to give extension maintainers an early warning. To our knowledge, very few extensions had found these APIs and taken a dependency on them. These include `IGroupByProvider`, `IGroupByProvider<T>`, `KeyComparer`, `ISearchFilter`, `ISearchFilterToken`, `ISearchToken`, and `SearchFilterTokenType`. If this change affects your extension, let us know by filing a bug on [Developer Community](https://developercommunity.visualstudio.com).
 
+::: moniker range="vs-2017"
 ## Test adapter NuGet reference
 
 **In Visual Studio 2017 version 15.8 my tests are discovered, but don't execute.**
@@ -118,6 +124,7 @@ Instead of using test adapter extensions, projects are required to use test adap
 > If you are using the NUnit 2 Test Adapter and are unable to migrate to the NUnit 3 test adapter, you can turn off this new discovery behavior in Visual Studio version 15.8 in **Tools** > **Options** > **Test**.
 
 ![Test Explorer Adapter behavior in tools options](media/testex-adapterbehavior.png)
+::: moniker-end
 
 ## UWP TestContainer was not found
 
