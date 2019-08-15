@@ -36,7 +36,7 @@ The FxCop analyzer NuGet package includes predefined rule sets for the following
 - security
 - usage
 
-For more information, see [Rule sets for Roslyn analyzers](analyzer-rule-sets.md).
+For more information, see [Rule sets for code analyzers](analyzer-rule-sets.md).
 
 ## EditorConfig file
 

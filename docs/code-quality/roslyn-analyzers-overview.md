@@ -12,7 +12,7 @@ manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# Overview of .NET Compiler Platform analyzers
+# Overview of .NET Compiler Platform code analyzers
 
 .NET Compiler Platform ("Roslyn") analyzers analyze your code for style, quality and maintainability, design, and other issues. Visual Studio includes a built-in set of analyzers that analyze your C# or Visual Basic code as you type. You configure preferences for these built-in analyzers on the [text editor Options](../ide/code-styles-and-code-cleanup.md) page or in an [.editorconfig file](../ide/editorconfig-code-style-settings-reference.md). You can install additional analyzers as a Visual Studio extension or a NuGet package.
 
@@ -41,7 +41,7 @@ Not only do .NET Compiler Platform-based code analyzers report the same types of
 > The following UI options apply only to legacy analysis:
 >
 > - The **Analyze** > **Run Code Analysis** menu option.
-> - The **Enable Code Analysis on Build** and **Suppress results from generated code** checkboxes on the **Code Analysis** tab of a project's property pages (these options have no effect on Roslyn analyzers).
+> - The **Enable Code Analysis on Build** and **Suppress results from generated code** checkboxes on the **Code Analysis** tab of a project's property pages.
 
 To differentiate between violations from code analyzers and legacy analysis in the Error List window, look at the **Tool** column. If the Tool value matches one of the analyzer assemblies in **Solution Explorer**, for example **Microsoft.CodeQuality.Analyzers**, the violation comes from a code analyzer. Otherwise, the violation originates from legacy analysis.
 

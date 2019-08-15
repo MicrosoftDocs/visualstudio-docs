@@ -21,7 +21,7 @@ In Visual Studio, you can choose from a list of code analysis [rule sets](../cod
 For information about how to configure a rule set for ASP.NET web applications, see [How to: Configure Code Analysis for an ASP.NET web Application](../code-quality/how-to-configure-code-analysis-for-an-aspnet-web-application.md).
 
 > [!NOTE]
-> This article applies to legacy analysis and not to [Roslyn analyzers](use-roslyn-analyzers.md), which don't run code analysis after build.
+> This article applies to legacy analysis and not to [.NET Compiler Platform-based code analyzers](use-roslyn-analyzers.md), which don't run code analysis after build.
 
 ## Configure a rule set for a .NET Framework project
 

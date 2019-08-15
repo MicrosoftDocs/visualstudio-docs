@@ -17,4 +17,4 @@ Visual Studio can perform code analysis of managed code in two ways: with [legac
 
 ## See also
 
-- [Overview of Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md)
+- [Overview of .NET Compiler Platform-based analyzers](../code-quality/roslyn-analyzers-overview.md)
