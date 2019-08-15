@@ -1,6 +1,6 @@
 ---
 title: "Outlook solutions"
-ms.date: "02/02/2017"
+ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -24,8 +24,7 @@ ms.workload:
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
-> [!NOTE]
-> Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
+[!include[Add-ins note](../includes/addinsnote.md)]
 
 ## Create an Outlook VSTO Add-in Project
  Create Outlook projects by using the **Outlook Add-in** project template in the **New Project** dialog box. This template includes required assembly references and project files.
