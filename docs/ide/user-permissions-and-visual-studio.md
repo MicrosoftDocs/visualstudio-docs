@@ -35,7 +35,7 @@ You can do nearly everything in the Visual Studio IDE as a normal user. You need
 ||Use the emulator to debug cloud service projects for Microsoft Azure.|[Debug a cloud service in Visual Studio](/azure/vs-azure-tools-debug-cloud-services-virtual-machines)|
 ||Configure a firewall for remote debugging.|[Remote debugging](../debugger/remote-debugging.md)|
 |Performance tools|Attaching to an elevated application.|[Beginners guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md)|
-||GPU Profiler.|[GPU profiling](../profiling/gpu-usage.md)|
+||Use the GPU Profiler.|[GPU profiling](../profiling/gpu-usage.md)|
 |Deployment|Deploy a web application to Internet Information Services (IIS) on a local computer.|[Deploy an ASP.NET web app using Visual Studio](/aspnet/web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-provider/)|
 
 ## Run Visual Studio as an administrator
