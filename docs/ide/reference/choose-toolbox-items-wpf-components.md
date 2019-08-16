@@ -43,7 +43,7 @@ Displays the name of the .NET assembly that includes the namespace for each comp
 
 **Directory**
 
-Displays the location of the .NET assembly. The default location for all assemblies is the Global Assembly Cache. For further information on the Global Assembly Cache, see [Working with Assemblies and the Global Assembly Cache](/dotnet/framework/app-domains/working-with-assemblies-and-the-gac).
+Displays the location of the .NET assembly. The default location for all assemblies is the Global Assembly Cache. For further information on the Global Assembly Cache, see [Work with assemblies and the Global Assembly Cache](/dotnet/framework/app-domains/working-with-assemblies-and-the-gac).
 
 ## UIElement List
 
@@ -71,11 +71,11 @@ Adding a custom control or <xref:System.Windows.Controls.UserControl> to the Too
 
 - Does not update correctly when you change the solution configuration from Debug to Release, or from Release to Debug. This is because the reference is not a project reference, but is for the assembly on disk instead. If the control is part of the current solution, when you change from Debug to Release, your project continues to reference the Debug version of the control.
 
-In addition, if design-time metadata is applied to the custom control and this metadata specifies that the <xref:Microsoft.Windows.Design.ToolboxBrowsableAttribute> is set to `false`, the control does not appear in the Toolbox.
+In addition, if design-time metadata is applied to the custom control and this metadata specifies that the [Microsoft.Windows.Design.ToolboxBrowsableAttribute](/previous-versions/visualstudio/visual-studio-2010/bb547991(v=vs.100)) is set to `false`, the control does not appear in the Toolbox.
 
 You can reference your controls directly in XAML view by mapping the namespace and assembly for your control.
 
 ## See also
 
 - [Toolbox](../../ide/reference/toolbox.md)
-- [Getting Started with WPF](../../designers/getting-started-with-wpf.md)
+- [Get started with WPF](../../designers/getting-started-with-wpf.md)

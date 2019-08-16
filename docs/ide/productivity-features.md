@@ -40,7 +40,7 @@ Write code more quickly by using the following features.
 
 ## Navigate within your code
 
- You can use various techniques to find and move to specific locations in your code more quickly.
+You can use various techniques to find and move to specific locations in your code more quickly.
 
 - **Bookmark lines of code**. You can use bookmarks to navigate quickly to specific lines of code in a file.
 
@@ -136,6 +136,7 @@ At any one time, you may be working in multiple code files and moving among seve
 
 ## See also
 
+- [Visual Studio tips and tricks blog post](https://devblogs.microsoft.com/visualstudio/visual-studio-tips-and-tricks/)
 - [Default keyboard shortcuts for frequently used commands](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)
 - [How to: Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
 - [Walkthrough: Create a simple application](../get-started/csharp/tutorial-wpf.md)

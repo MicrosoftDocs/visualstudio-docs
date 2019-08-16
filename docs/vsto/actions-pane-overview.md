@@ -98,7 +98,7 @@ ms.workload:
  If you display a message box in the <xref:System.Windows.Forms.Control.Validating> event handler of a control on the actions pane, the event might be raised a second time when focus moves from the control to the message box. To prevent this issue, use an <xref:System.Windows.Forms.ErrorProvider> control to display any validation error messages.
 
 ## User control stacking order
- If you are using multiple user controls, you can write code to properly stack the user controls on the actions pane whether it is docked vertically or horizontally. You can set the stacking order of the user controls on the actions pane by using the <xref:Microsoft.Office.Tools.StackStyle> enumeration of the <xref:Microsoft.Office.Tools.ActionsPane.StackOrder%2A> property. For more information, see [How to: Manage control layout on actions panes](../vsto/how-to-manage-control-layout-on-actions-panes.md)
+ If you are using multiple user controls, you can write code to properly stack the user controls on the actions pane whether it is docked vertically or horizontally. You can set the stacking order of the user controls on the actions pane by using the <xref:Microsoft.Office.Tools.StackStyle> enumeration of the <xref:Microsoft.Office.Tools.ActionsPane.StackOrder%2A> property. For more information, see [How to: Manage control layout on actions panes](../vsto/how-to-manage-control-layout-on-actions-panes.md).
 
  The <xref:Microsoft.Office.Tools.ActionsPane.StackOrder%2A> property can take the following <xref:Microsoft.Office.Tools.StackStyle> enumeration values.
 

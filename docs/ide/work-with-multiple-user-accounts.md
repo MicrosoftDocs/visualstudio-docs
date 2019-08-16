@@ -27,7 +27,7 @@ Sign into Visual Studio with a Microsoft account or an organizational account. Y
 
 ### Access your Azure account in Server Explorer
 
-Press **Ctrl**+**Alt**+**S** to open **Server Explorer**. Expand the **Azure** node and notice that it contains the resources available in the Azure account that's associated with the account that you used to sign in to Visual Studio. It looks similar to the following image:
+To open Server Explorer, choose **View** > **Server Explorer** (or, if you're using the "General" [environment settings](../ide/environment-settings.md), press **Ctrl**+**Alt**+**S**). Expand the **Azure** node and notice that it contains the resources available in the Azure account that's associated with the account that you used to sign in to Visual Studio. It looks similar to the following image:
 
 ![Server Explorer with Azure node expanded](../ide/media/work-with-multiple-user-accounts/server-explorer.png)
 

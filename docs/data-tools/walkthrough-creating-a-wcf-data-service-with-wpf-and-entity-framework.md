@@ -140,9 +140,9 @@ In the next step, you create and test the data service.
 In the next steps, you create a Windows Forms client application to consume the service.
 
 ## Creating the Client Application
- To create the client application, you add a second project, add a service reference to the project, configure a data source, and create a user interface to display the data from the service.
+To create the client application, you add a second project, add a service reference to the project, configure a data source, and create a user interface to display the data from the service.
 
- In the first step, you add a Windows Forms project to the solution and set it as the startup project.
+In the first step, you add a Windows Forms project to the solution and set it as the startup project.
 
 ### To create the client application
 
@@ -237,7 +237,7 @@ In the next step, you create the user interface that displays the data from the 
 In the next optional step, you learn how to filter the data that is returned by the service.
 
 ## Adding Filtering Capabilities
- In this step, you customize the application to filter the data by the customer's city.
+In this step, you customize the application to filter the data by the customer's city.
 
 ### To add filtering by city
 
