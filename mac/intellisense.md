@@ -6,12 +6,6 @@ ms.author: cobey
 ms.date: 08/16/2019
 ---
 
-<!---Recommended: Remove all the comments in this template before you sign-off or merge to master.--->
-
-<!---overview articles are for new customers and explain the service from a technical point of view.
-They are not intended to define benefits or value prop; that would be in marketing content.
---->
-
 # IntelliSense
 
 IntelliSense provides several features to help enhance the experience of writing and editing code. For example, the IntelliSense engine provides not only code completion but also member lists, parameter info and quick info. 
@@ -43,7 +37,6 @@ The completion window also offers support for filtering the included completions
 
 By clicking on any of the icons, or by pressing the corresponding hotkeys, the completion list will limit to only types as defined by the filter set.  
 
-
 ![Intellisense Type Filtering](media/intellisense-typefiltering.gif)
 
 ## Show Import Items
@@ -64,7 +57,6 @@ Another feature of IntelliSense is the ability to provide a parameter list where
 
 As you fill in the parameters, the parameter that you are currently editing will be bolded, while the inactive parameters will have the standard weight. 
 
-![Bold Parameter](media/intellisense-parameter-bold.png)
 
 ## Triggering Completion Window and Parameter Window
 
@@ -72,17 +64,7 @@ The completion window will be triggered automatically as you type within your so
 
 You can also manually trigger the appearance of the parameter window by typing `control-shift-space`. When your caret is in the position that is valid for a parameter list, the parameter list will appear near the caret position.
 
+## See also
 
-
-
-## Next steps
-
-<!---Some context for the following links goes here--->
-- [link to next logical step for the customer](global-quickstart-template.md)
-
-<!--- Required:
-In Overview articles, provide at least one next step and no more than three.
-Next steps in overview articles will often link to a quickstart.
-Use regular links; do not use a blue box link. What you link to will depend on what is really a next step for the customer.
-Do not use a "More info section" or a "Resources section" or a "See also section".
---->
+- [Quick Actions (Visual Studio on Windows)](/visualstudio/ide/quick-actions)
+- [Refactor code (Visual Studio on Windows)](/visualstudio/ide/refactoring-in-visual-studio)
