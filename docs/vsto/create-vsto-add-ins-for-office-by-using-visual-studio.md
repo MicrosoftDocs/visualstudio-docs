@@ -2,7 +2,7 @@
 title: "Create VSTO Add-ins for Office by using Visual Studio"
 titleSuffix: ""
 ms.custom: "seodec18"
-ms.date: "02/02/2017"
+ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -18,8 +18,7 @@ ms.workload:
 
  The Office developer tools provide features that help you create Office solutions to suit a variety of business needs. The tools include project templates to help you create Office solutions by using Visual Basic or Visual C#, and visual designers that help you create custom user interfaces for your Office solutions.
 
-> [!NOTE]
-> Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO Add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
+[!include[Add-ins note](includes/addinsnote.md)]
 
  For the latest information about Office development, see the following development centers on MSDN:
 
