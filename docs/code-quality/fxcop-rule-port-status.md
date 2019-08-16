@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Fxcop rule port status
 
-If you previously used static code analysis in a prior version of Visual Studio, you may be wondering which of those rules are available in the current implementation as [FxCop analyzers](install-fxcop-analyzers.md). This page lists the rules that are ported as well as those that haven't been ported and whether there are plans to port them.
+If you previously used static code analysis in Visual Studio, you may be wondering which of those rules are available in the current implementation as [FxCop analyzers](install-fxcop-analyzers.md). This page lists the rules that are ported as well as those that haven't been ported and whether there are plans to port them.
 
 ## Ported rules
 
@@ -202,7 +202,7 @@ The set of rules that hasn't been ported to [FxCop analyzers](install-fxcop-anal
 
 ### Rules that may be ported
 
-The following FxCop static code analysis rules haven't yet been implemented as analyzers, but still may be. This could be because of a blocking technical reason or simply that the rule is lower priority. For more information about the porting status of each rule, click the link in the **Tracking issue** column.
+The following FxCop legacy analysis rules haven't yet been implemented as analyzers, but still may be. This could be because of a blocking technical reason or simply that the rule is lower priority. For more information about the porting status of each rule, click the link in the **Tracking issue** column.
 
 Rule ID | Tracking issue
 --- | ---
@@ -265,7 +265,7 @@ Rule ID | Tracking issue
 
 ### Deprecated rules
 
-The following FxCop static code analysis rules are deprecated and won't be implemented as analyzers. For further information, you can search by rule ID (for example, **CA1009**) on the [roslyn-analyzers GitHub issues page](https://github.com/dotnet/roslyn-analyzers/issues?utf8=%E2%9C%93&q=is:issue+label:FxCop-Port).
+The following FxCop legacy analysis rules are deprecated and won't be implemented as analyzers. For further information, you can search by rule ID (for example, **CA1009**) on the [roslyn-analyzers GitHub issues page](https://github.com/dotnet/roslyn-analyzers/issues?utf8=%E2%9C%93&q=is:issue+label:FxCop-Port).
 
 - [CA1009](ca1009-declare-event-handlers-correctly.md)
 - [CA1020](ca1020-avoid-namespaces-with-few-types.md)

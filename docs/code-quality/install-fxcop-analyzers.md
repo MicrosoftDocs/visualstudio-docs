@@ -12,7 +12,7 @@ ms.workload:
 ---
 # Install FxCop analyzers in Visual Studio
 
-Microsoft created a set of analyzers, called [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers), that contains the most important "FxCop" rules from static code analysis, converted to Roslyn analyzers. These analyzers check your code for security, performance, and design issues, among others.
+Microsoft created a set of analyzers, called [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers), that contains the most important "FxCop" rules from legacy analysis. These analyzers check your code for security, performance, and design issues, among others.
 
 You can install these FxCop analyzers either as a NuGet package or as a VSIX extension to Visual Studio. To learn about the pros and cons of each, see [NuGet package vs. VSIX extension](roslyn-analyzers-overview.md#nuget-package-versus-vsix-extension).
 
@@ -119,6 +119,6 @@ If you want to check whether the extension is installed, select **Extensions** >
 
 ## See also
 
-- [Overview of Roslyn analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
-- [Use Roslyn analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
-- [Migrate from FxCop to Roslyn analyzers](../code-quality/fxcop-analyzers.yml)
+- [Overview of code analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
+- [Use code analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
+- [Migrate from legacy analysis to code analyzers](../code-quality/fxcop-analyzers.yml)
