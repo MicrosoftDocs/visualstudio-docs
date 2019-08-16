@@ -16,7 +16,7 @@ This refactoring applies to:
 
 - C#
 
-**What:** Lets you wrap and align call chains of method calls.
+**What:** Lets you wrap and align chains of method calls.
 
 **When:** You have a long call chain consisting of several method calls into one statement.
 
