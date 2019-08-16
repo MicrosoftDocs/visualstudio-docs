@@ -91,13 +91,15 @@ The **Resources** options help you configure resource settings for your app.
 
 **Icon and manifest**
 
-By default, this radio button is selected and the **Icon** and **Manifest** options are enabled. This enables you to select your own icon, or to select different manifest generation options. Leave this radio button selected unless you're providing a resource file for the project.
+By default, this radio button is selected and the **Icon** and **Manifest** options are enabled. This enables you to select your own icon or to select different manifest generation options. Leave this radio button selected unless you're providing a resource file for the project.
 
 **Icon**
 
 Sets the *.ico* file that you want to use as your program icon. Click **Browse** to browse for an existing graphic, or type the name of the file that you want. See [/win32icon (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/win32icon-compiler-option) for more information.
 
 To access this property programmatically, see <xref:VSLangProj.ProjectProperties.ApplicationIcon%2A>.
+
+For information about creating an icon, see [Image editor for icons](/cpp/windows/image-editor-for-icons).
 
 **Manifest**
 
@@ -114,3 +116,5 @@ Selects a manifest generation option when the application runs on Windows Vista 
 Select this radio button when you're providing a resource file for the project. Selecting this option disables the **Icon** and **Manifest** options.
 
 Enter a path name or use the Browse button (**...**) to add a Win32 resource file to the project.
+
+For more information, see [Create resource files for .NET apps](/dotnet/framework/resources/creating-resource-files-for-desktop-apps).
