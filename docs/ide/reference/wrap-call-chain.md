@@ -18,7 +18,7 @@ This refactoring applies to:
 
 **What:** Lets you wrap and align chains of method calls.
 
-**When:** You have a long call chain consisting of several method calls into one statement.
+**When:** You have a long chain consisting of several method calls in one statement.
 
 **Why:** Reading a long list is easier when they're wrapped or indented according to user preference.
 
