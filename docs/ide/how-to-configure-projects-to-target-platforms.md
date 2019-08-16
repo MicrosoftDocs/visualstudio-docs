@@ -1,6 +1,6 @@
 ---
 title: "How to: Configure projects to target platforms"
-ms.date: 11/04/2016
+ms.date: 08/16/2019
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
@@ -57,6 +57,51 @@ Performing this task varies based on the programming language you are using. See
 - For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects, see [Build page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).
 
 - For [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects, see [/clr (Common Language Runtime compilation)](/cpp/build/reference/clr-common-language-runtime-compilation).
+
+## Referencing x86 and x64 assemblies and DLLs
+
+You might have a .NET assembly or DLL that has both x86 and x64 versions. To set up your project to use these references, first add the reference and then open the project file and edit it to add an `ItemGroup` with a condition that references both the configuration, and the target platform.  For example, suppose the binary you are referencing is ClassLibrary1 and there area different paths for Debug and Release versions, as well as x86 and x64 versions.  Then, use four `ItemGroup` elements with all combinations of settings, as follows:
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Platforms>AnyCPU;x64;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <Reference Include="ClassLibrary1">
+      <HintPath>..\..\ClassLibrary1\ClassLibrary1\bin\x64\Debug\netstandard2.0\ClassLibrary1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64'">
+    <Reference Include="ClassLibrary1">
+      <HintPath>..\..\ClassLibrary1\ClassLibrary1\bin\x64\Release\netstandard2.0\ClassLibrary1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <Reference Include="ClassLibrary1">
+      <HintPath>..\..\ClassLibrary1\ClassLibrary1\bin\x86\Debug\netstandard2.0\ClassLibrary1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  
+  <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86'">
+    <Reference Include="ClassLibrary1">
+      <HintPath>..\..\ClassLibrary1\ClassLibrary1\bin\x86\Release\netstandard2.0\ClassLibrary1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
+```
+
+::: moniker range="vs-2017"
+> [!NOTE]
+> In Visual Studio 2017, you need to unload the project before you can edit the project file. To unload the project, right-click on the project node, and choose **Unload project**. When done editing, save your changes and reload the project by right-clicking the project node and choosing **Reload project**.
+::: moniker-end
+
 
 ## See also
 
