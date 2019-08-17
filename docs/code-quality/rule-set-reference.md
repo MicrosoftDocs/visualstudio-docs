@@ -27,7 +27,7 @@ The topics in this section describe the built-in rule sets and the rules (or war
 | [Basic Correctness Rules](basic-correctness-rules-rule-set-for-managed-code.md) | Includes Managed Recommended Rules plus rules for logic errors and framework usage |
 | [Extended Correctness Rules](extended-correctness-rules-rule-set-for-managed-code.md) | Includes Basic Correctness Rules (which includes Managed Recommended Rules) plus more rules for logic errors and framework usage |
 | [Basic Design Guideline Rules](basic-design-guideline-rules-rule-set-for-managed-code.md) | Includes Managed Recommended Rules plus rules for ensuring code is easy to read, understand, and maintain |
-| [Extended Design Guidelines Rules](extended-design-guidelines-rules-rule-set-for-managed-code.md) | Includes Basic Design Guideline Rules (which includes Managed Recommended Rules) plus more maintainability rules |
+| [Extended Design Guidelines Rules](extended-design-guidelines-rules-rule-set-for-managed-code.md) | Includes Basic Design Guideline Rules (which includes Managed Recommended Rules) plus more maintainability rules that focus on naming |
 | [Globalization Rules](globalization-rules-rule-set-for-managed-code.md) | Includes rules for globalization problems |
 | [Managed Minimum Rules](managed-minimum-rules-rule-set-for-managed-code.md) | Includes four rules for critical managed code problems |
 | [Managed Recommended Rules](managed-recommended-rules-rule-set-for-managed-code.md) | Includes Managed Minimum Rules plus more rules for critical managed code problems |
