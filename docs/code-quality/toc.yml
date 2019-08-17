@@ -131,7 +131,7 @@
     items:
     - name: Overview
       href: fxcop-analyzers.yml
-    - name: Ported Rules
+    - name: Ported rules
       href: fxcop-rule-port-status.md
   - name: Rule sets
     items:
