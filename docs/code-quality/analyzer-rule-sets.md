@@ -52,16 +52,16 @@ The predefined analyzer rule sets include three rulesets that affect all the rul
 
 Additionally, there are two rule sets for each category of rules in the package, such as performance or security. One rule set enables all rules for the category, and one rule set honors the default severity and enablement settings for each rule in the category.
 
-The [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) NuGet analyzer package includes rule sets for the following categories, which match the rule sets available for legacy analysis:
+The [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) NuGet analyzer package includes rule sets for the following categories, which match the [rule sets available for legacy analysis](rule-set-reference.md):
 
-- design
+- design (corresponds to Basic Design Guidelines Rules)
 - documentation
 - maintainability
 - naming
 - performance
 - reliability
 - security
-- usage
+- usage (corresponds to Basic Correctness Rules)
 
 ## See also
 
