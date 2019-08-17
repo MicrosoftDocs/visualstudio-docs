@@ -13,7 +13,7 @@ ms.workload:
 
 The Microsoft Extended Design Guideline Rules rule set expands on the basic design guideline rules to maximize the usability and maintainability issues that are reported. Extra emphasis is placed on naming guidelines. You should consider including this rule set if your project includes library code or if you want to enforce the highest standards for writing code that is easy to maintain.
 
-The Extended Design Guideline Rules include all rules in the [Basic Design Guideline Rules](../code-quality/basic-design-guideline-rules-rule-set-for-managed-code.md) rule set, which includes the [Managed Recommended Rules](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md)
+The Extended Design Guideline Rules include all rules in the [Basic Design Guideline Rules](../code-quality/basic-design-guideline-rules-rule-set-for-managed-code.md) rule set, which includes the rules in the [Managed Recommended Rules](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md) rule set.
 
 The following table describes all the rules in the Microsoft Extended Design Guideline Rules rule set.
 
