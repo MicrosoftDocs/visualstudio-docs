@@ -242,11 +242,11 @@ When this application runs, a message box appears after a user chooses a radio b
 1. Enter the following code:
 
     ```csharp
-    if (HelloButton.IsChecked == true)
+    if (HelloButton.IsChecked)
     {
          MessageBox.Show("Hello.");
     }
-    else if (GoodbyeButton.IsChecked == true)
+    else if (GoodbyeButton.IsChecked)
     {
         MessageBox.Show("Goodbye.");
     }
