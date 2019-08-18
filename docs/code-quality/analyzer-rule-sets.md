@@ -15,7 +15,7 @@ ms.workload:
 
 Predefined rule sets are included with some NuGet analyzer packages. For example, the rule sets that are included with the [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) NuGet analyzer package (starting in version 2.6.2) enable or disable rules based on their category, such as security, naming, or performance. Using rule sets makes it easy to quickly see only those rule violations that pertain to a particular category of rule.
 
-If you're migrating from legacy "FxCop" analysis to .NET Compiler Platform-based code analysis, these rule sets enable you to continue using the same rule configurations that you used previously.
+If you're migrating from legacy "FxCop" analysis to .NET Compiler Platform-based code analysis, these rule sets enable you to continue using similar rule configurations to [those you used previously](rule-set-reference.md).
 
 ## Use analyzer package rule sets
 
@@ -52,7 +52,7 @@ The predefined analyzer rule sets include three rulesets that affect all the rul
 
 Additionally, there are two rule sets for each category of rules in the package, such as performance or security. One rule set enables all rules for the category, and one rule set honors the default severity and enablement settings for each rule in the category.
 
-The [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) NuGet analyzer package includes rule sets for the following categories, which match the rule sets available for legacy analysis:
+The [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) NuGet analyzer package includes rule sets for the following categories:
 
 - design
 - documentation
