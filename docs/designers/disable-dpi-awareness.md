@@ -34,9 +34,9 @@ If you aren't working in the designer and don't need to adjust the layout of you
 
 There are three options to resolve the display problem:
 
-1. [Restart Visual Studio as a DPI-unaware process](#restart-visual-studio-as-a-dpi-unaware-process)
-2. [Add a registry entry](#add-a-registry-entry)
-3. [Set your display scaling setting to 100%](#set-your-display-scaling-setting-to-100)
+- [Restart Visual Studio as a DPI-unaware process](#restart-visual-studio-as-a-dpi-unaware-process)
+- [Add a registry entry](#add-a-registry-entry)
+- [Set your display scaling setting to 100%](#set-your-display-scaling-setting-to-100)
 
 ### Restart Visual Studio as a DPI-unaware process
 
