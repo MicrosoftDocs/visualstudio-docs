@@ -97,77 +97,91 @@
     href: windows-forms-designer-overview.md
   - name: Get started with Windows Forms Designer
     href: walkthrough-windows-forms-designer.md
-  - name: "Tutorial 1: Create a picture viewer (C#)"
+  - name: Arrange controls >>
+    href: /dotnet/framework/winforms/controls/arranging-controls-on-windows-forms
+  - name: Create a data-bound control >>
+    href: /dotnet/framework/winforms/how-to-create-a-simple-bound-control-on-a-windows-form
+  - name: Create custom controls >>
+    href: /dotnet/framework/winforms/controls/developing-windows-forms-controls-at-design-time
+  - name: Disable DPI awareness for Windows Forms Designer
+    href: disable-dpi-awareness.md
+  - name: Reference
     items:
-    - name: Overview
-      displayName: Tutorial 1 Picture viewer
-      href: ../ide/tutorial-1-create-a-picture-viewer.md
-    - name: "Step 1: Create a Windows Forms Application project"
-      href: ../ide/step-1-create-a-windows-forms-application-project.md
-    - name: "Step 2: Run your program"
-      href: ../ide/step-2-run-your-program.md
-    - name: "Step 3: Set your form properties"
-      href: ../ide/step-3-set-your-form-properties.md
-    - name: "Step 4: Lay out your form with a TableLayoutPanel control"
-      href: ../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md
-    - name: "Step 5: Add controls to your form"
-      href: ../ide/step-5-add-controls-to-your-form.md
-    - name: "Step 6: Name your button controls"
-      href: ../ide/step-6-name-your-button-controls.md
-    - name: "Step 7: Add dialog components to your form"
-      href: ../ide/step-7-add-dialog-components-to-your-form.md
-    - name: "Step 8: Write code for the Show a Picture button event handler"
-      href: ../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md
-    - name: "Step 9: Review, comment, and test your code"
-      href: ../ide/step-9-review-comment-and-test-your-code.md
-    - name: "Step 10: Write code for additional buttons and a check box"
-      href: ../ide/step-10-write-code-for-additional-buttons-and-a-check-box.md
-    - name: "Step 11: Run your program and try other features"
-      href: ../ide/step-11-run-your-program-and-try-other-features.md
-  - name: "Tutorial 2: Create a timed math quiz (C#)"
+    - name: System.Windows.Forms API
+      href: /dotnet/api/system.windows.forms
+  - name: Tutorials
     items:
-    - name: Overview
-      displayName: Tutorial 2 Timed math quiz
-      href: ../ide/tutorial-2-create-a-timed-math-quiz.md
-    - name: "Step 1: Create a project and add labels to your form"
-      href: ../ide/step-1-create-a-project-and-add-labels-to-your-form.md
-    - name: "Step 2: Create a random addition problem"
-      href: ../ide/step-2-create-a-random-addition-problem.md
-    - name: "Step 3: Add a countdown timer"
-      href: ../ide/step-3-add-a-countdown-timer.md
-    - name: "Step 4: Add the CheckTheAnswer() method"
-      href: ../ide/step-4-add-the-checktheanswer-parens-method.md
-    - name: "Step 5: Add Enter event handlers for the NumericUpDown controls"
-      href: ../ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md
-    - name: "Step 6: Add a subtraction problem"
-      href: ../ide/step-6-add-a-subtraction-problem.md
-    - name: "Step 7: Add multiplication and division problems"
-      href: ../ide/step-7-add-multiplication-and-division-problems.md
-    - name: "Step 8: Customize the quiz"
-      href: ../ide/step-8-customize-the-quiz.md
-  - name: "Tutorial 3: Create a matching game (C#)"
-    items:
-    - name: Overview
-      displayName: Tutorial 3 Matching game
-      href: ../ide/tutorial-3-create-a-matching-game.md
-    - name: "Step 1: Create a project and add a table to your form"
-      href: ../ide/step-1-create-a-project-and-add-a-table-to-your-form.md
-    - name: "Step 2: Add a random object and a list of icons"
-      href: ../ide/step-2-add-a-random-object-and-a-list-of-icons.md
-    - name: "Step 3: Assign a random icon to each label"
-      href: ../ide/step-3-assign-a-random-icon-to-each-label.md
-    - name: "Step 4: Add a click event handler to each label"
-      href: ../ide/step-4-add-a-click-event-handler-to-each-label.md
-    - name: "Step 5: Add label references"
-      href: ../ide/step-5-add-label-references.md
-    - name: "Step 6: Add a timer"
-      href: ../ide/step-6-add-a-timer.md
-    - name: "Step 7: Keep pairs visible"
-      href: ../ide/step-7-keep-pairs-visible.md
-    - name: "Step 8: Add a method to verify whether the player won"
-      href: ../ide/step-8-add-a-method-to-verify-whether-the-player-won.md
-    - name: "Step 9: Try other features"
-      href: ../ide/step-9-try-other-features.md
+    - name: "Tutorial 1: Create a picture viewer (C#)"
+      items:
+      - name: Overview
+        displayName: Tutorial 1 Picture viewer
+        href: ../ide/tutorial-1-create-a-picture-viewer.md
+      - name: "Step 1: Create a Windows Forms Application project"
+        href: ../ide/step-1-create-a-windows-forms-application-project.md
+      - name: "Step 2: Run your program"
+        href: ../ide/step-2-run-your-program.md
+      - name: "Step 3: Set your form properties"
+        href: ../ide/step-3-set-your-form-properties.md
+      - name: "Step 4: Lay out your form with a TableLayoutPanel control"
+        href: ../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md
+      - name: "Step 5: Add controls to your form"
+        href: ../ide/step-5-add-controls-to-your-form.md
+      - name: "Step 6: Name your button controls"
+        href: ../ide/step-6-name-your-button-controls.md
+      - name: "Step 7: Add dialog components to your form"
+        href: ../ide/step-7-add-dialog-components-to-your-form.md
+      - name: "Step 8: Write code for the Show a Picture button event handler"
+        href: ../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md
+      - name: "Step 9: Review, comment, and test your code"
+        href: ../ide/step-9-review-comment-and-test-your-code.md
+      - name: "Step 10: Write code for additional buttons and a check box"
+        href: ../ide/step-10-write-code-for-additional-buttons-and-a-check-box.md
+      - name: "Step 11: Run your program and try other features"
+        href: ../ide/step-11-run-your-program-and-try-other-features.md
+    - name: "Tutorial 2: Create a timed math quiz (C#)"
+      items:
+      - name: Overview
+        displayName: Tutorial 2 Timed math quiz
+        href: ../ide/tutorial-2-create-a-timed-math-quiz.md
+      - name: "Step 1: Create a project and add labels to your form"
+        href: ../ide/step-1-create-a-project-and-add-labels-to-your-form.md
+      - name: "Step 2: Create a random addition problem"
+        href: ../ide/step-2-create-a-random-addition-problem.md
+      - name: "Step 3: Add a countdown timer"
+        href: ../ide/step-3-add-a-countdown-timer.md
+      - name: "Step 4: Add the CheckTheAnswer() method"
+        href: ../ide/step-4-add-the-checktheanswer-parens-method.md
+      - name: "Step 5: Add Enter event handlers for the NumericUpDown controls"
+        href: ../ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md
+      - name: "Step 6: Add a subtraction problem"
+        href: ../ide/step-6-add-a-subtraction-problem.md
+      - name: "Step 7: Add multiplication and division problems"
+        href: ../ide/step-7-add-multiplication-and-division-problems.md
+      - name: "Step 8: Customize the quiz"
+        href: ../ide/step-8-customize-the-quiz.md
+    - name: "Tutorial 3: Create a matching game (C#)"
+      items:
+      - name: Overview
+        displayName: Tutorial 3 Matching game
+        href: ../ide/tutorial-3-create-a-matching-game.md
+      - name: "Step 1: Create a project and add a table to your form"
+        href: ../ide/step-1-create-a-project-and-add-a-table-to-your-form.md
+      - name: "Step 2: Add a random object and a list of icons"
+        href: ../ide/step-2-add-a-random-object-and-a-list-of-icons.md
+      - name: "Step 3: Assign a random icon to each label"
+        href: ../ide/step-3-assign-a-random-icon-to-each-label.md
+      - name: "Step 4: Add a click event handler to each label"
+        href: ../ide/step-4-add-a-click-event-handler-to-each-label.md
+      - name: "Step 5: Add label references"
+        href: ../ide/step-5-add-label-references.md
+      - name: "Step 6: Add a timer"
+        href: ../ide/step-6-add-a-timer.md
+      - name: "Step 7: Keep pairs visible"
+        href: ../ide/step-7-keep-pairs-visible.md
+      - name: "Step 8: Add a method to verify whether the player won"
+        href: ../ide/step-8-add-a-method-to-verify-whether-the-player-won.md
+      - name: "Step 9: Try other features"
+        href: ../ide/step-9-try-other-features.md
 - name: 3D assets
   items:
   - name: Work with 3D assets for games and apps
