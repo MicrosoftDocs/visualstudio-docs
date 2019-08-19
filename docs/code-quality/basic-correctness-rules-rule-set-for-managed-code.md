@@ -10,7 +10,8 @@ ms.workload:
   - "dotnet"
 ---
 # Basic Correctness Rules rule set for managed code
-The Basic Correctness Rules rule set focuses on logic errors and common mistakes in the usage of framework APIs. The Basic Correctness Rules include the rules in the Minimum Recommended Rules rule set. For more information, see [Managed Recommended Rules rule set for managed code](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md) You should include this rule set to expand on the list of warnings that the minimum recommended rules report.
+
+The Basic Correctness Rules rule set focuses on logic errors and common mistakes in the usage of framework APIs. The Basic Correctness Rules include the rules in the [Managed Recommended Rules](managed-recommended-rules-rule-set-for-managed-code.md) rule set.
 
 The following table describes all the rules in the Microsoft Basic Correctness Rules rule set.
 

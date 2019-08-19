@@ -162,31 +162,31 @@
       items:
       - name: Overview
         href: rule-set-reference.md
-      - name: All Rules rule set
+      - name: All Rules
         href: all-rules-rule-set.md
-      - name: Basic Correctness Rules rule set for managed code
+      - name: Basic Correctness Rules
         href: basic-correctness-rules-rule-set-for-managed-code.md
-      - name: Basic Design Guideline Rules rule set for managed code
+      - name: Basic Design Guideline Rules
         href: basic-design-guideline-rules-rule-set-for-managed-code.md
-      - name: Extended Correctness Rules rule set for managed code
+      - name: Extended Correctness Rules
         href: extended-correctness-rules-rule-set-for-managed-code.md
-      - name: Extended Design Guidelines Rules rule set for managed code
+      - name: Extended Design Guidelines Rules
         href: extended-design-guidelines-rules-rule-set-for-managed-code.md
-      - name: Globalization Rules rule set for managed code
+      - name: Globalization Rules
         href: globalization-rules-rule-set-for-managed-code.md
-      - name: Managed Minimum Rules rule set for managed code
+      - name: Managed Minimum Rules
         href: managed-minimum-rules-rule-set-for-managed-code.md
-      - name: Managed Recommended Rules rule set for managed code
+      - name: Managed Recommended Rules
         href: managed-recommended-rules-rule-set-for-managed-code.md
-      - name: Mixed Minimum Rules rule set
+      - name: Mixed Minimum Rules
         href: mixed-minimum-rules-rule-set.md
-      - name: Mixed Recommended Rules rule set
+      - name: Mixed Recommended Rules
         href: mixed-recommended-rules-rule-set.md
-      - name: Native Minimum Rules rule set
+      - name: Native Minimum Rules
         href: native-minimum-rules-rule-set.md
-      - name: Native Recommended Rules rule set
+      - name: Native Recommended Rules
         href: native-recommended-rules-rule-set.md
-      - name: Security Rules rule set for managed code
+      - name: Security Rules
         href: security-rules-rule-set-for-managed-code.md
     - name: Suppress warnings
       href: in-source-suppression-overview.md

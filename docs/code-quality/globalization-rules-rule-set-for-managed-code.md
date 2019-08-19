@@ -10,13 +10,14 @@ ms.workload:
   - "dotnet"
 ---
 # Globalization Rules rule set for managed code
-You can use the Microsoft Globalization Rules rule set to focus on problems that might prevent data in your application from appearing correctly in different languages, locales, and cultures. You should include this rule set if your application is localized, globalized, or both.
+
+Use the Microsoft Globalization Rules rule set to focus on problems that might prevent data in your application from appearing correctly in different languages, locales, and cultures. You should include this rule set if your application is localized, globalized, or both.
 
 |Rule|Description|
 |----------|-----------------|
 |[CA1300](../code-quality/ca1300-specify-messageboxoptions.md)|Specify MessageBoxOptions|
 |[CA1301](../code-quality/ca1301-avoid-duplicate-accelerators.md)|Avoid duplicate accelerators|
-|[CA1302](../code-quality/ca1302-do-not-hardcode-locale-specific-strings.md)|Do not hardcode locale specific strings|
+|[CA1302](../code-quality/ca1302-do-not-hardcode-locale-specific-strings.md)|Do not hardcode locale-specific strings|
 |[CA1303](../code-quality/ca1303-do-not-pass-literals-as-localized-parameters.md)|Do not pass literals as localized parameters|
 |[CA1304](../code-quality/ca1304-specify-cultureinfo.md)|Specify CultureInfo|
 |[CA1305](../code-quality/ca1305-specify-iformatprovider.md)|Specify IFormatProvider|
