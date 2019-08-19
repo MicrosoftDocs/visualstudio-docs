@@ -1,5 +1,5 @@
 ---
-title: Wrap and Align call chains
+title: Wrap and align call chains
 ms.date: 02/13/2019
 ms.topic: reference
 author: mikadumont
@@ -16,9 +16,9 @@ This refactoring applies to:
 
 - C#
 
-**What:** Lets you wrap and align chains of fluent calls.
+**What:** Lets you wrap and align chains of method calls.
 
-**When:** You have a have a long chain of fluent calls.
+**When:** You have a long chain consisting of several method calls in one statement.
 
 **Why:** Reading a long list is easier when they're wrapped or indented according to user preference.
 
