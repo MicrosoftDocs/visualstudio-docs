@@ -60,7 +60,7 @@ Performing this task varies based on the programming language you are using. See
 
 ## Referencing x86 and x64 assemblies and DLLs
 
-You might have a .NET assembly or DLL that has both x86 and x64 versions. To set up your project to use these references, first add the reference and then open the project file, and edit it to add an `ItemGroup` with a condition that references both the configuration, and the target platform.  For example, suppose the binary you are referencing is ClassLibrary1 and there are different paths for Debug and Release configurations, as well as x86 and x64 versions.  Then, use four `ItemGroup` elements with all combinations of settings, as follows:
+You might have a .NET assembly or DLL that has both x86 and x64 versions. To set up your project to use these references, first add the reference, and then open the project file and edit it to add an `ItemGroup` with a condition that references both the configuration, and the target platform.  For example, suppose the binary you are referencing is ClassLibrary1 and there are different paths for Debug and Release configurations, as well as x86 and x64 versions.  Then, use four `ItemGroup` elements with all combinations of settings, as follows:
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
