@@ -18,4 +18,4 @@ The Managed Minimum rules focus on the most critical problems in your code, incl
 |[CA1001](../code-quality/ca1001-types-that-own-disposable-fields-should-be-disposable.md)|Types that own disposable fields should be disposable|
 |[CA1821](../code-quality/ca1821-remove-empty-finalizers.md)|Remove empty finalizers|
 |[CA2213](../code-quality/ca2213-disposable-fields-should-be-disposed.md)|Disposable fields should be disposed|
-|[CA2231](../code-quality/ca2231-overload-operator-equals-on-overriding-valuetype-equals.md)|Overload operator equals on overriding ValueType.Equals|
+|[CA2231](../code-quality/ca2231-overload-operator-equals-on-overriding-valuetype-equals.md)|Overload operator equals on overriding `ValueType.Equals`|
