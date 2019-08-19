@@ -33,7 +33,7 @@ Using the designer you can:
 
 - [Windows Forms overview](/dotnet/framework/winforms/windows-forms-overview)
 - [Windows Forms controls](/dotnet/framework/winforms/controls/)
-- [Accessibility for Windows Forms controls](/dotnet/framework/winforms/controls/providing-accessibility-information-for-controls-on-a-windows-form)
 - [User input in Windows Forms](/dotnet/framework/winforms/user-input-in-windows-forms)
 - [Data binding in Windows Forms](/dotnet/framework/winforms/windows-forms-data-binding)
 - [Enhance Windows Forms apps](/dotnet/framework/winforms/advanced/)
+- <xref:System.Windows.Forms?displayProperty=fullName> API reference
