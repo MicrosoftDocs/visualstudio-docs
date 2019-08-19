@@ -417,7 +417,7 @@
           - name: Unused value assignments, variables, and parameters
             href: ide/reference/unused-values-parameters.md
           - name: Wrap and align call chains
-            href: ide/reference/wrap-call-chain.md
+            href: ide/reference/wrap-and-align-call-chains.md
           - name: Wrap, indent, and align parameters
             href: ide/reference/wrap-align-indent-parameters.md
         - name: "Walkthrough: Generate code from usage"
