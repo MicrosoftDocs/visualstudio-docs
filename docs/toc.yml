@@ -352,8 +352,6 @@
           - name: Overview
             displayName: refactoring
             href: ide/refactoring-in-visual-studio.md
-          - name: Add null checks for all parameters
-            href: ide/reference/add-null-checks-for-all-parameters.md
           - name: Change method signature
             href: ide/reference/change-method-signature.md
           - name: Convert anonymous type to class
