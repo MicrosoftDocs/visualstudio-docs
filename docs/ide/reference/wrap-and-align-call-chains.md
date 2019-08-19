@@ -1,5 +1,6 @@
 ---
 title: Wrap and align call chains
+description: Learn how to wrap and align chains of method calls.
 ms.date: 08/13/2019
 ms.topic: reference
 author: mikadumont
