@@ -47,7 +47,9 @@ In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to 
 
 1. Choose the **Alphabetical** button on the toolbar in the **Properties** window. This sorts the list of properties in the **Properties** window in alphabetical order, which makes it easier to locate properties in this tutorial.
 
-1. The control selector is a drop-down list at the top of the **Properties** window. In this example, it shows that a control called `tableLayoutPanel1` is selected. You can select controls either by choosing an area in **Windows Forms Designer** or by choosing from the control selector. Now that the TableLayoutPanel is selected, find the **Dock** property and choose **Dock**, which should be set to **None**. Notice that a drop-down arrow appears next to the value. Choose the arrow, and then select the **Fill** button (the large button in the middle), as shown in the following picture.
+1. The control selector is a drop-down list at the top of the **Properties** window. In this example, it shows that a control called `tableLayoutPanel1` is selected. You can select controls either by choosing an area in **Windows Forms Designer** or by choosing from the control selector. 
+
+   Now that the TableLayoutPanel is selected, find the **Dock** property and choose **Dock**, which should be set to **None**. Notice that a drop-down arrow appears next to the value. Choose the arrow, and then select the **Fill** button (the large button in the middle), as shown in the following screenshot.
 
      ![Properties window with Fill selected](../ide/media/express_docktable.png)<br>
 ***Properties** window with **Fill** selected*
@@ -66,7 +68,7 @@ In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to 
 
      This button indicates that the control has tasks that help you set its properties automatically.
 
-1. Choose the triangle to display the control's task list, as shown in the following picture.
+1. Choose the triangle to display the control's task list, as shown in the following screenshot.
 
      ![TableLayoutPanel tasks](../ide/media/express_tablepanel.png)<br>
 ***TableLayoutPanel** tasks*

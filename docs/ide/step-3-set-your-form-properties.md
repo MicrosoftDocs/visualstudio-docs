@@ -62,6 +62,8 @@ Next, you use the **Properties** window to change the way your form looks.
    - On the toolbar, choose the **Stop Debugging** button.
 
    - On the menu bar, choose **Debug** > **Stop Debugging**.
+   
+   - Use your keyboard and press **Shift**+**F5**. 
 
    - Choose the **X** button in the upper corner of the **Picture Viewer** window.
 
