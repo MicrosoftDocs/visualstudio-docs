@@ -658,6 +658,16 @@
           href: ca2321.md
         - name: "CA2322: Ensure JavaScriptSerializer is not initialized with SimpleTypeResolver before deserializing"
           href: ca2322.md
+        - name: "CA2326: Do not use TypeNameHandling values other than None"
+          href: ca2326.md
+        - name: "CA2327: Do not use insecure JsonSerializerSettings"
+          href: ca2327.md
+        - name: "CA2328: Ensure that JsonSerializerSettings are secure"
+          href: ca2328.md
+        - name: "CA2329: Do not deserialize with JsonSerializer using an insecure configuration"
+          href: ca2329.md
+        - name: "CA2330: Ensure that JsonSerializer has a secure configuration when deserializing"
+          href: ca2330.md
         - name: "CA3001: Review code for SQL injection vulnerabilities"
           href: ca3001-review-code-for-sql-injection-vulnerabilities.md
         - name: "CA3002: Review code for XSS vulnerabilities"
