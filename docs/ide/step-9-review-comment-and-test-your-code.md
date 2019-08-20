@@ -1,11 +1,16 @@
 ---
 title: "Step 9: Review, comment, and test your code"
-ms.date: 11/04/2016
-ms.topic: conceptual
+ms.date: 08/20/2019
+ms.assetid: f26f79ba-c91b-4164-b87f-679a1b231c09
+ms.topic: tutorial
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
+ms.devlang: 
+ - "csharp"
+ - "vb"
 dev_langs: 
   - "csharp"
   - "vb"
-ms.assetid: f26f79ba-c91b-4164-b87f-679a1b231c09
 author: TerryGLee
 ms.author: tglee
 manager: jillfra

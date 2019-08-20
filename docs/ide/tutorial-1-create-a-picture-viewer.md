@@ -1,8 +1,9 @@
 ---
 title: "Tutorial 1: Create a picture viewer"
-ms.date: 08/21/2019
+ms.date: 08/20/2019
 ms.assetid: 3071d6df-2b2f-4e95-ab68-bef727323136
 ms.topic: tutorial
+ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.devlang: 
  - "csharp"
@@ -28,17 +29,17 @@ This tutorial walks you through the following tasks:
 
 * Add basic controls like check boxes and buttons to a form.
 
-* Position controls on a form using layouts.
+* Position controls on a form by using layouts.
 
 * Add **Open File** and **Color** dialog boxes to a form.
 
-* Write code using IntelliSense and code snippets.
+* Write code by using IntelliSense and code snippets.
 
 * Write event handler methods.
 
-When you finish, your program will look similar to the following picture:
+When you finish, your program should look similar to the following picture:
 
-![Picture that you create in this tutorial](../ide/media/express_pictureviewerdone.png)
+![Picture Viewer app that you create in this tutorial](../ide/media/express_pictureviewerdone.png)
 
 ## Tutorial links
 

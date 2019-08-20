@@ -1,13 +1,16 @@
 ---
 title: "Step 5: Add controls to your form"
-ms.date: 07/30/2019
-ms.topic: conceptual
+ms.date: 08/20/2019
 ms.assetid: dc2746f4-0b5c-4674-9ef7-f40f94150f52
+ms.topic: tutorial
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
+ms.devlang: 
+ - "csharp"
+ - "vb"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-dev_langs:
-  - CSharp
 ms.workload:
   - "multiple"
 ---

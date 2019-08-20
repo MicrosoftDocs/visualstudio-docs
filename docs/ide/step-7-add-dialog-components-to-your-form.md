@@ -1,13 +1,16 @@
 ---
 title: "Step 7: Add Dialog components to your form"
-ms.date: 11/04/2016
-ms.topic: conceptual
+ms.date: 08/20/2019
 ms.assetid: ea98c55e-6213-4893-ba7b-f19d7f119527
+ms.topic: tutorial
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
+ms.devlang: 
+ - "csharp"
+ - "vb"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-dev_langs:
-  - CSharp
 ms.workload:
   - "multiple"
 ---

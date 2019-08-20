@@ -1,10 +1,16 @@
 ---
 title: "Step 6: Name your button controls"
-ms.date: 11/04/2016
-ms.topic: conceptual
+ms.date: 08/20/2016
+ms.assetid: 56b3baa3-651e-4ad4-8942-e334c5c57158
+ms.topic: tutorial
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
+ms.devlang: 
+ - "csharp"
+ - "vb"
 dev_langs: 
   - "csharp"
-ms.assetid: 56b3baa3-651e-4ad4-8942-e334c5c57158
+  - "vb"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra

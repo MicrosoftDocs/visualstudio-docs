@@ -1,14 +1,16 @@
 ---
 title: "Step 11: Run your program and try other features"
-ms.date: 11/04/2016
-ms.topic: conceptual
+ms.date: 08/20/2019
 ms.assetid: 656614d0-4fe7-4a67-8edc-c10919377d09
+ms.topic: tutorial
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
+ms.devlang: 
+ - "csharp"
+ - "vb"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-dev_langs:
-  - "CSharp"
-  - "VB"
 ms.workload:
   - "multiple"
 ---
@@ -53,6 +55,6 @@ To return to the previous tutorial step, see [Step 10: Write code for additional
 
 ## See also
 
-* [Visual Basic tutorials](/visualstudio/get-started/visual-basic/)
-* [C++ tutorial](../ide/getting-started-with-cpp-in-visual-studio.md)
 * [More C# tutorials](/visualstudio/get-started/csharp/)
+* [More Visual Basic tutorials](/visualstudio/get-started/visual-basic/)
+* [C++ tutorial](../ide/getting-started-with-cpp-in-visual-studio.md)

@@ -1,13 +1,16 @@
 ---
 title: "Step 4: Lay out your form with a TableLayoutPanel control"
-ms.date: 07/30/2019
-ms.topic: conceptual
+ms.date: 08/20/2019
 ms.assetid: 61acde79-e115-4bad-bb06-1fbe37717a3e
+ms.topic: tutorial
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
+ms.devlang: 
+ - "csharp"
+ - "vb"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-dev_langs:
-  - CSharp
 ms.workload:
   - "multiple"
 ---

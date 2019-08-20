@@ -1,10 +1,9 @@
 ---
 title: "Step 1: Create a Windows Forms Application project"
 ms.date: 08/20/2019
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 ms.assetid: 16ac2422-e720-4e3a-b511-bc2a54201a86
 ms.topic: tutorial
+ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.devlang: 
  - "csharp"
@@ -71,7 +70,11 @@ Visual Studio creates a solution for your program. A solution acts as a containe
 
 1. The development environment contains three windows: a main window, **Solution Explorer**, and the **Properties** window.
 
-     If any of these windows are missing, restore the default window layout by, on the menu bar, choosing **Window** > **Reset Window Layout**. You can also display windows by using menu commands. On the menu bar, choose **View** > **Properties Window** or **Solution Explorer**. If any other windows are open, close them by choosing the **Close** (x) button in their upper-right corners.
+     If any of these windows are missing, you can restore the default window layout. On the menu bar, choose **Window** > **Reset Window Layout**. 
+     
+     You can also display windows by using menu commands. On the menu bar, choose **View** > **Properties Window** or **Solution Explorer**. 
+     
+     If any other windows are open, close them by choosing the **Close** (x) button in their upper-right corners.
 
     ::: moniker range="vs-2017"
 
@@ -85,12 +88,14 @@ Visual Studio creates a solution for your program. A solution acts as a containe
 
     ::: moniker-end
 
-    * **Solution Explorer window** In this window, you can view and navigate to all items in your solution. If you choose a file, the contents of the **Properties** window changes. If you open a code file (which ends in *.cs* in Visual C# and *.vb* in Visual Basic), the code file or a designer for the code file appears. A designer is a visual surface onto which you can add controls such as buttons and lists. For Visual Studio forms, the designer is called the **Windows Forms Designer**.
+    * **Solution Explorer window** In this window, you can view and navigate to all items in your solution. 
+
+       If you choose a file, the contents of the **Properties** window changes. If you open a code file (which ends in *.cs* in Visual C# and *.vb* in Visual Basic), the code file or a designer for the code file appears. A designer is a visual surface onto which you can add controls such as buttons and lists. For Visual Studio forms, the designer is called the **Windows Forms Designer**.
 
     * **Properties window** In this window, you can change the properties of items that you choose in the other windows. For example, if you choose Form1, you can change its title by setting the **Text** property, and you can change the background color by setting the **Backcolor** property.
 
-    > [!NOTE]
-    > The top line in **Solution Explorer** shows **Solution 'PictureViewer' (1 project)**, which means that Visual Studio created a solution for you. A solution can contain more than one project, but for now, you'll work with solutions that contain only one project.
+      > [!NOTE]
+      > The top line in **Solution Explorer** shows **Solution 'PictureViewer' (1 project)**, which means that Visual Studio created a solution for you. A solution can contain more than one project, but for now, you'll work with solutions that contain only one project.
 
 1. On the menu bar, choose **File** > **Save All**.
 

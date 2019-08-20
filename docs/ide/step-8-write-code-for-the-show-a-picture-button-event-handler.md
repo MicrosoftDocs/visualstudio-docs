@@ -1,10 +1,16 @@
 ---
 title: "Step 8: Write code for the show a picture button event handler"
-ms.date: 11/04/2016
-ms.topic: conceptual
+ms.date: 08/20/2019
+ms.assetid: 07f4ec00-cda4-42f4-98bb-37edc7167de7
+ms.topic: tutorial
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
+ms.devlang: 
+ - "csharp"
+ - "vb"
 dev_langs: 
   - "csharp"
-ms.assetid: 07f4ec00-cda4-42f4-98bb-37edc7167de7
+  - "vb"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra

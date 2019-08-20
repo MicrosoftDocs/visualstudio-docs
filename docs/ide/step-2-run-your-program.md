@@ -1,8 +1,9 @@
 ---
 title: "Step 2: Run your program"
-ms.date: 07/30/2019
+ms.date: 08/20/2019
 ms.assetid: 9a8fe90e-c97b-4e98-b6c8-0c6b3962c49d
 ms.topic: tutorial
+ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.devlang: 
  - "csharp"
@@ -10,8 +11,6 @@ ms.devlang:
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-dev_langs:
-  - CSharp
 ms.workload:
   - "multiple"
 ---
@@ -32,12 +31,12 @@ When you create a new solution, you actually build a program that runs. It doesn
       ![Start Debugging toolbar button](../ide/media/express_icondebug.png)<br>
       ***Start Debugging** toolbar button*
 
-1. Visual Studio runs your program, and a window called **Form1** appears. The following diagram shows the program you just built. The program is running, and you'll soon add to it.
+1. Visual Studio runs your program, and a window called **Form1** appears. The following screenshot shows the program you just built. The program is running, and you'll soon add to it.
 
      ![Windows Form application program running](../ide/media/express_firstrun.png)<br>
 ***Windows Forms** application program, running*
 
-1. Go back to the Visual Studio integrated development environment (IDE), and then look at the new toolbar. Additional buttons appear on the toolbar when you run a program. These buttons let you do things like stop and start your program, and help you track down any errors (bugs) it may have. For this example, we're just using it to start and stop the program.
+1. Go back to the Visual Studio integrated development environment (IDE), and then look at the new toolbar. Additional buttons appear on the toolbar when you run a program. These buttons let you do things like stop and start your program, and help you track down any errors (bugs) it may have. For this example, we're using it to start and stop the program.
 
      ![Debugging toolbar](../ide/media/express_debugtoolbar.png)<br>
 ***Debugging** toolbar*
@@ -47,6 +46,8 @@ When you create a new solution, you actually build a program that runs. It doesn
     - On the toolbar, choose the **Stop Debugging** button.
 
     - On the menu bar, choose **Debug** > **Stop Debugging**.
+
+    - Use your keyboard and press **Shift**+**F5**. 
 
     - Choose the **X** button in the upper corner of the **Form1** window.
 
