@@ -658,7 +658,7 @@
           href: ca2321.md
         - name: "CA2322: Ensure JavaScriptSerializer is not initialized with SimpleTypeResolver before deserializing"
           href: ca2322.md
-        - name: "CA2326: CA2326: Do not use TypeNameHandling values other than None"
+        - name: "CA2326: Do not use TypeNameHandling values other than None"
           href: ca2326.md
         - name: "CA2327: Do not use insecure JsonSerializerSettings"
           href: ca2327.md
