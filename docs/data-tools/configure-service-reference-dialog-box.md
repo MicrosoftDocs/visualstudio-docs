@@ -37,59 +37,59 @@ To access the **Configure Service Reference** dialog box, right-click a service 
 
 ## UIElement list
 
- **Address**
+**Address**
 
- Updates the web address where a service reference looks for a service. For example, during development, the service may be hosted on a development server and then later moved to a production server, necessitating an address change.
+Updates the web address where a service reference looks for a service. For example, during development, the service may be hosted on a development server and then later moved to a production server, necessitating an address change.
 
 > [!NOTE]
 > The Address element is not available when the **Configure Service Reference** dialog box is displayed from the **Add Service Reference Dialog Box**.
 
- **Access level for generated classes**
+**Access level for generated classes**
 
- Determines the code access level for WCF client classes.
+Determines the code access level for WCF client classes.
 
 > [!NOTE]
 > For Website projects, this option is always set to `Public` and cannot be changed. For more information, see [Troubleshooting service references](../data-tools/troubleshooting-service-references.md).
 
- **Generate asynchronous operations**
+**Generate asynchronous operations**
 
- Determines whether WCF service methods is called synchronously (the default) or asynchronously.
+Determines whether WCF service methods is called synchronously (the default) or asynchronously.
 
- **Generate task-based operations**
+**Generate task-based operations**
 
- When writing async code, this option lets you take advantage of the Task Parallel Library (TPL) that was introduced with .NET 4. See [Task Parallel Library (TPL)](/dotnet/standard/parallel-programming/task-parallel-library-tpl).
+When writing async code, this option lets you take advantage of the Task Parallel Library (TPL) that was introduced with .NET 4. See [Task Parallel Library (TPL)](/dotnet/standard/parallel-programming/task-parallel-library-tpl).
 
- **Always generate message contracts**
+**Always generate message contracts**
 
- Determines whether message contract types are generated for a WCF client. For more information about message contracts, see [Using message contracts](/dotnet/framework/wcf/feature-details/using-message-contracts).
+Determines whether message contract types are generated for a WCF client. For more information about message contracts, see [Using message contracts](/dotnet/framework/wcf/feature-details/using-message-contracts).
 
- **Collection type**
+**Collection type**
 
- Specifies the list collection type for a WCF client. The default type is <xref:System.Array>.
+Specifies the list collection type for a WCF client. The default type is <xref:System.Array>.
 
- **Dictionary collection type**
+**Dictionary collection type**
 
- Specifies the dictionary collection type for a WCF client. The default type is <xref:System.Collections.Generic.Dictionary%602>.
+Specifies the dictionary collection type for a WCF client. The default type is <xref:System.Collections.Generic.Dictionary%602>.
 
- **Reuse types in referenced assemblies**
+**Reuse types in referenced assemblies**
 
- Determines whether a WCF client tries to reuse what already exists in referenced assemblies instead of generating new types when a service is added or updated. By default, this option is checked.
+Determines whether a WCF client tries to reuse what already exists in referenced assemblies instead of generating new types when a service is added or updated. By default, this option is checked.
 
- **Reuse types in all referenced assemblies**
+**Reuse types in all referenced assemblies**
 
- When selected, all types in the **Referenced assemblies list** are reused if possible. By default, this option is selected.
+When selected, all types in the **Referenced assemblies list** are reused if possible. By default, this option is selected.
 
- **Reuse types in specified referenced assemblies**
+**Reuse types in specified referenced assemblies**
 
- When selected, only the selected types in the **Referenced assemblies list** are reused.
+When selected, only the selected types in the **Referenced assemblies list** are reused.
 
- **Referenced assemblies list**
+**Referenced assemblies list**
 
- Contains a list of referenced assemblies for the project or website. When you select **Reuse types in specified referenced assemblies**, you can select or clear individual assemblies.
+Contains a list of referenced assemblies for the project or website. When you select **Reuse types in specified referenced assemblies**, you can select or clear individual assemblies.
 
- **Add Web Reference**
+**Add Web Reference**
 
- Displays the **Add Web Reference** dialog box.
+Displays the **Add Web Reference** dialog box.
 
 > [!NOTE]
 > This option should only be used for projects that target version 2.0 of the .NET Framework.

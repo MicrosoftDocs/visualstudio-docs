@@ -3,12 +3,12 @@ title: Visual Studio IDE Benefit in Visual Studio Subscription | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 04/03/2019
+ms.date: 08/01/2019
 ms.topic: conceptual
 description:  Learn how to download and install the Visual Studio IDE included in your Visual Studio subscription.
 ---
 
-# Using the Visual Studio 2019 benefit
+# The Visual Studio 2019 benefit
 
 As a Visual Studio subscriber, you have access to the Visual Studio IDE.  The specific version will depend on the level of your subscription.  The benefit will appear as a tile in the Tools category on the [Benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) page of the subscriber portal.
 
@@ -29,7 +29,7 @@ To download the IDE:
 5. Click the blue download button.
    > [!div class="mx-imgBorder"]
    > ![Visual Studio Enterprise download details](_img/vs-ide-experience/vs-ide-download-details.png)
-6. To install now, click **Run**.
+6. Click on the downloaded installer package.  If prompted to install now, click **Run**.
 7. In the User Account Control dialog, click **Yes**.
 8. Click **Continue** to accept the license terms.
 9. When the installer starts, choose your desired workloads, individual components and language packs by choosing them on the corresponding tabs.
@@ -38,9 +38,9 @@ To download the IDE:
 
 10. Click **Install**.
 
-11. When the installation is complete, you'll have the option to modify the installation or launch Visual Studio.  Click **Launch** to get started.
+11. When the installation is complete, you'll have the option to modify the installation or launch Visual Studio.  Click **Launch** to get started.  If you multiple versions installed, they will be listed.
     > [!div class="mx-imgBorder"]
-    > ![Launch Visual Studio Enterprise](_img/vs-ide-experience/vs-ide-launch-cropped.png)
+    > ![Launch Visual Studio Enterprise](_img/vs-ide-experience/vs-ide-versions.png)
 
 12. Sign in with the account associated with your Visual Studio subscription.
 
@@ -48,12 +48,9 @@ To download the IDE:
 
 14. Visual Studio opens. You're ready to start using Visual Studio!
 
-    ::: moniker range="vs-2017"
-
     > [!div class="mx-imgBorder"]
     > ![Start Using Visual Studio Enterprise](_img/vs-ide-experience/vs-ide-start-cropped.png)
 
-    ::: moniker-end
 
 ## Eligibility
 
@@ -76,3 +73,9 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
   - Technical Support: [https://visualstudio.microsoft.com/support/](https://visualstudio.microsoft.com/support/)
   - [Documentation](/visualstudio/)
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+
+## Next steps
+Once you have Visual Studio installed, don't forget to activate these other important benefits:
+- [Azure DevOps](vs-azure-devops.md)
+- [Azure credits](vs-azure.md)
+- [Windows Developer account](vs-windows-dev.md)

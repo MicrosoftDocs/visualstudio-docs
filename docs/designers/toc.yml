@@ -2,7 +2,9 @@
   href: designing-user-interfaces.md
 - name: XAML
   items:
-  - name: Design XAML in Visual Studio
+  - name: XAML overview
+    href: xaml-overview.md
+  - name: Design XAML in Visual Studio and Blend
     href: designing-xaml-in-visual-studio.md
   - name: XAML Designer
     items:
@@ -15,45 +17,34 @@
       href: organize-objects-into-layout-containers-in-xaml-designer.md
     - name: Create and apply a resource
       href: how-to-create-and-apply-a-resource.md
-    - name: "Walkthrough: Bind to data in XAML Designer"
+    - name: "Walkthrough: Bind to data"
       href: walkthrough-binding-to-data-in-xaml-designer.md
-    - name: Keyboard shortcuts for XAML Designer
-      href: keyboard-shortcuts-for-xaml-designer.md
     - name: Debug or disable project code
       href: debugging-or-disabling-project-code-in-xaml-designer.md
-    - name: XAML errors and warnings
-      href: xaml-errors-warnings.md
-  - name: Blend for Visual Studio
-    items:
-    - name: Overview
-      displayName: Blend for Visual Studio
+    - name: Blend for Visual Studio
       href: creating-a-ui-by-using-blend-for-visual-studio.md
-    - name: Insert controls and modify their behavior
-      href: insert-controls-and-modify-their-behavior-in-xaml-designer.md
-    - name: Insert images, videos, and audio clips
-      href: insert-images-videos-and-audio-clips-in-xaml-designer.md
-    - name: Draw shapes and paths
+    - name: Draw shapes and paths (Blend)
       href: draw-shapes-and-paths.md
-    - name: Modify the style of objects in Blend
+    - name: Modify the style of objects (Blend)
       href: modify-the-style-of-objects-in-blend.md
-    - name: Animate objects
+    - name: Animate objects (Blend)
       href: animate-objects-in-xaml-designer.md
-    - name: Display data
+    - name: Display data (Blend)
       href: display-data-in-blend.md
-    - name: Keyboard shortcuts and modifier keys
+    - name: Reference
       items:
-      - name: Overview
-        href: keyboard-shortcuts-and-modifier-keys-in-blend.md
-      - name: Keyboard shortcuts
+      - name: XAML errors and warnings
+        href: xaml-errors-warnings.md
+      - name: Keyboard shortcuts for XAML Designer
+        href: keyboard-shortcuts-for-xaml-designer.md
+      - name: Keyboard shortcuts for Blend
         href: keyboard-shortcuts-in-blend.md
-      - name: Artboard modifier keys
+      - name: Artboard modifier keys (Blend)
         href: artboard-modifier-keys-in-blend.md
-      - name: Pen tool modifier keys
+      - name: Pen tool modifier keys (Blend)
         href: pen-tool-modifier-keys-in-blend.md
-      - name: Direct selection tool modifier keys
+      - name: Direct selection tool modifier keys (Blend)
         href: direct-selection-tool-modifier-keys-in-blend.md
-    - name: Accessibility products and services for Blend
-      href: accessibility-products-and-services-blend.md
 - name: Windows Presentation Foundation (WPF)
   items:
   - name: Get started
@@ -102,6 +93,24 @@
           href: l2dbform-xaml-cs-source-code.md
 - name: Windows Forms
   items:
+  - name: Windows Forms Designer overview
+    href: windows-forms-designer-overview.md
+  - name: Get started with Windows Forms Designer
+    href: walkthrough-windows-forms-designer.md
+  - name: Arrange controls >>
+    href: /dotnet/framework/winforms/controls/arranging-controls-on-windows-forms
+  - name: Create a data-bound control >>
+    href: /dotnet/framework/winforms/how-to-create-a-simple-bound-control-on-a-windows-form
+  - name: Create custom controls >>
+    href: /dotnet/framework/winforms/controls/developing-windows-forms-controls-at-design-time
+  - name: Disable DPI awareness for Windows Forms Designer
+    href: disable-dpi-awareness.md
+  - name: Reference
+    items:
+    - name: System.Windows.Forms API >>
+      href: /dotnet/api/system.windows.forms
+  - name: Tutorials
+    items:
     - name: "Tutorial 1: Create a picture viewer (C#)"
       items:
       - name: Overview
@@ -259,4 +268,3 @@
       href: how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md
 - name: The Visual Studio image library
   href: the-visual-studio-image-library.md
-

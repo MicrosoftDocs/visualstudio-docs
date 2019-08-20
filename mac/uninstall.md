@@ -52,7 +52,7 @@ To run the script, do the following steps:
     sudo ./uninstall-vsmac.sh
     ```
 
-4. Finally, delete the uninstall script.
+4. Finally, delete the uninstall script and remove Visual Studio for Mac from the dock (if it's there).
 
 ### .NET Core script
 
@@ -217,6 +217,12 @@ rm -rf ~/Library/Logs/VisualStudioInstaller/
 rm -rf ~/Library/Preferences/Xamarin/
 rm -rf "~/Library/Preferences/Visual Studio/"
 ```
+
+* * * 
+
+
+
+
 
 ## Uninstall Visual Studio 2019 for Mac Preview
 

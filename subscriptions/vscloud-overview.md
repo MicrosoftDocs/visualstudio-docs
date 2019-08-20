@@ -1,14 +1,13 @@
 ---
 title: How to purchase Visual Studio cloud subscriptions
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
+ms.author: lank
+manager: lank
+ms.date: 07/28/2019
 ms.topic: conceptual
 description:  Rent Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
 ---
 # Buy Visual Studio Professional and Visual Studio Enterprise cloud subscriptions
-
 You can buy [Visual Studio Professional and Visual Studio Enterprise subscriptions](https://visualstudio.microsoft.com/subscriptions/) from the [Visual Studio Marketplace](https://marketplace.visualstudio.com). These are called **"cloud subscriptions"**.
 
 [Compare cloud subscription benefits and pricing](https://visualstudio.microsoft.com/vs/pricing/)
@@ -17,11 +16,10 @@ You can buy [Visual Studio Professional and Visual Studio Enterprise subscriptio
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio. You can still purchase new monthly cloud subscriptions.
 
 ## Before you start
-
-* To bill your purchases, you need an [Azure subscription](https://azure.microsoft.com/pricing/purchase-options/). You can [sign up](https://portal.azure.com) before your first purchase or during your first purchase in the Visual Studio Marketplace.
+To bill your purchases, you need an [Azure subscription](https://azure.microsoft.com/pricing/purchase-options/). You can [sign up](https://portal.azure.com) before your first purchase or during your first purchase in the Visual Studio Marketplace.
 
 ## Who can buy Visual Studio cloud subscriptions?
-Anyone with [owner](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner), [service admin](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#assign-a-user-as-an-administrator-of-a-subscription), or [co-admin](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#assign-a-user-as-an-administrator-of-a-subscription) access to the Azure subscription can purchase cloud subscriptions.
+Anyone with [owner](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner), [service admin or co-admin](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#assign-a-user-as-an-administrator-of-a-subscription) access to the Azure subscription can purchase cloud subscriptions.
 
 ## How to buy cloud subscriptions
 
@@ -66,11 +64,6 @@ If you purchased more than one subscription, proceed to the
 
 * To cancel these subscriptions, reduce the number of subscriptions to zero (0). They won't renew at the start of the next billing period (the first of the next month for monthly cloud subscriptions; 12 months later for annual cloud subscriptions).
 
-## Buy cloud subscriptions now
-
-* [Visual Studio Professional monthly](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-monthly)
-* [Visual Studio Enterprise monthly](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-monthly)
-
 ## Frequently asked questions
 
 ### For new customers:
@@ -93,7 +86,7 @@ A:  This change will not impact existing subscribers.
 A:  No.  Your subscriptions will remain in place and you will be able to manage them as you do today.
 
 #### Q: What if I want to increase the number of subscriptions for my customers?
-A: You can purchase additional annual subscriptions at any time.  Annual subscriptions purchased  are charged immediately for a full year and are valid for a full year. 
+A: Annual subscriptions that are purchased during a given month are charged immediately for a full year and are valid for a full year. For that reason, you can modify the number of licenses only in the current month of purchase (they will be valid for one year and charged for one year). Outside of the month of purchase, it is no longer possible to increase the number of subscriptions.
 
 #### Q: What if I want to decrease the number of subscriptions for my customers?
 A: Your administrator can still decrease the number of subscriptions by visiting https://manage.visualstudio.com and following the instructions in this article to decrease subscription counts. The system will *not* generate a pro-rated credit. For a refund you will need to contact the Azure billing team.
@@ -118,8 +111,12 @@ A:  Your administrator can still decrease the number of subscriptions by visitin
 A:  Although they will not be able to buy another Cloud Annual subscription, there are many options to purchase Visual Studio Subscriptions.  Learn more at [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/).
 
 ## Related resources
+- [Visual Studio Subscriptions Administration portal](https://manage.visualstudio.com/)
+- [Visual Studio subscription support](https://visualstudio.microsoft.com/vs/support/)
+- [Visual Studio cloud subscription billing FAQ](vscloud-billing-faq.md)
+- [Visual Studio cloud subscription purchasing for CSPs](vscloud-csp.md)
 
-* [Visual Studio Subscriptions Administration portal](https://manage.visualstudio.com/)
-* [Visual Studio subscription support](https://visualstudio.microsoft.com/vs/support/)
-* [Visual Studio cloud subscription billing FAQ](vscloud-billing-faq.md)
-* [Visual Studio cloud subscription purchasing for CSPs](vscloud-csp.md)
+## Next steps
+Buy cloud subscriptions
+- [Visual Studio Professional monthly](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-monthly)
+- [Visual Studio Enterprise monthly](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-monthly)

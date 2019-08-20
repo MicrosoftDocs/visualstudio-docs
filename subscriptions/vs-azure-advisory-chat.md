@@ -1,19 +1,17 @@
 ---
 title: Azure Advisory Chat Benefit in Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
+ms.author: lank
+manager: lank
+ms.date: 07/29/2019
 ms.topic: conceptual
 description:  Learn how to take advantage of the Azure Advisory Chat benefit included in Visual Studio subscriptions.
 ---
 
 # Azure Advisory Chat
-
 Get help starting with Azure in real time! Includes advisory for Azure PaaS services.  The Azure Advisory Chat benefit is available in Visual Studio Enterprise Standard and annual cloud subscriptions.
 
 ## Activation Steps
-
 Using the Azure Advisory Chat is easy.
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 2. Locate the Azure Advisory Chat tile in the Support section, and click **Chat now**.
@@ -29,7 +27,6 @@ Using the Azure Advisory Chat is easy.
     > ![Azure Advisory Chat](_img/vs-azure-advisory/vs-azure-advisory-chat.png)
 
 ## Eligibility
-
 |                                                      Subscription Level                                                      |     Channels      |    Benefit    | Renewable? |
 |------------------------------------------------------------------------------------------------------------------------------|-------------------|---------------|------------|
 |                                      Visual Studio Enterprise (Standard)                                       | VL, Azure, Retail |   One year    |    Yes     |
@@ -52,3 +49,6 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 ## Support Resources
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+
+## Next steps
+Many Visual Studio subscriptions include Azure credits.  If you haven't activated yours yet, check out the [Azure benefit](vs-azure.md). 

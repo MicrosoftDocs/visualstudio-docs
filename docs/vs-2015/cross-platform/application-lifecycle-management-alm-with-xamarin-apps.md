@@ -62,7 +62,7 @@ Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, 
 |[Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)|Yes||  
   
 ## Build  
- Reference link: **[Build](https://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)**  
+ Reference link: **[Build](/azure/devops/pipelines/index)**  
   
 |Feature|Supported with Xamarin|Additional Comments|  
 |-------------|----------------------------|-------------------------|  

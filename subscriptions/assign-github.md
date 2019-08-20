@@ -1,21 +1,19 @@
 ---
-title: Visual Studio + GitHub Bundle | Microsoft Docs
+title: Visual Studio + GitHub Enterprise bundle | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 04/23/2019
+ms.date: 07/28/2019
 ms.topic: conceptual
-description: Managing subscriptions in the Visual Studio + GitHub bundle
+description: Managing subscriptions in the Visual Studio + GitHub Enterprise bundle
 ---
 
-# Managing Visual Studio subscriptions with GitHub Enterprise
-
+# Manage Visual Studio subscriptions with GitHub Enterprise
 Customers who have Enterprise Agreements (EA) with Microsoft are eligible to purchase a new subscription bundle that brings together Visual Studio standard subscriptions and GitHub Enterprise. It's the easy and economical way for Visual Studio subscribers to acquire GitHub Enterprise. 
 
 When your organization purchases Visual Studio Subscriptions with GitHub Enterprise, they are provisioned and managed in two parts.
 
-## Managing Visual Studio subscriptions
-
+## Manage Visual Studio subscriptions
 When your organization purchases Visual Studio Subscriptions with GitHub Enterprise, the Visual Studio portion of the subscriptions is provisioned immediately and the subscriptions are available for assignment and management in the Visual Studio [Subscriptions Administration](https://manage.visualstudio.com) portal. 
 
 For more information about managing subscriptions, check out these topics:
@@ -30,8 +28,7 @@ For more information about managing subscriptions, check out these topics:
 >
 > It is the customer’s responsibility to ensure that for each GitHub subscription that is assigned there is a corresponding Visual Studio with GitHub subscription assigned in the Manage portal to remain in compliance with the licensing requirements for this subscription.
 
-## Managing GitHub Enterprise subscriptions
-
+## Manage GitHub Enterprise subscriptions
 When GitHub Enterprise subscriptions are purchased, GitHub partners with customers to help create and configure the organizations that will access GitHub and identify administrators.  Those administrators then receive a notification that they've been set up as admins.  
 
 Since this process is more complex, it may take several days after subscriptions are purchased for the organizations and admins to be fully in set up.
@@ -39,7 +36,6 @@ Since this process is more complex, it may take several days after subscriptions
 GitHub is available as either the cloud-based GitHub.com, or on-premise GitHub Enterprise Server.  The processes for managing the two versions differ.  GitHub provides a variety of help topics and administrator guides to help you manage GitHub Enterprise subscriptions.  We've provided links to selected topics below.  
 
 ### GitHub.com 
-
 For more information on managing GitHub.com please check out the following topics on [GitHub Help](https://help.github.com/en).
 - [Full list of help topics](https://help.github.com/en)
 - [Managing membership in your organization](https://help.github.com/en/articles/managing-membership-in-your-organization)
@@ -51,7 +47,6 @@ For more information on managing GitHub.com please check out the following topic
 - [Managing access to your organization's repositories](https://help.github.com/en/articles/managing-access-to-your-organizations-repositories)
 
 ### GitHub Enterprise Server
-
 GitHub Help provides a variety of administrator guides to answer questions and give tips on management of your organization's implementation of GitHub Enterprise Server.
 
 - [View all administrator guides](https://help.github.com/en/enterprise/2.16/admin)
@@ -65,7 +60,6 @@ GitHub Help provides a variety of administrator guides to answer questions and g
 - [Installing and configuring GitHub Enterprise Server](https://help.github.com/en/enterprise/2.16/admin/installation)
 
 ## Support resources
-
 - You can find answers to questions on a wide array of GitHub topics at [GitHub Help](https://help.github.com/en).
 - Get help from other GitHub users in the [GitHub Community Forum](https://github.community/).
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
@@ -73,5 +67,4 @@ GitHub Help provides a variety of administrator guides to answer questions and g
 - Get [technical support](https://support.microsoft.com/en-us/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24) for GitHub Enterprise.   
 
 ## Next steps
-
 For more information about managing Visual Studio Subscriptions with GitHub Enterprise, check out the Visual Studio [subscriptions admin portal](https://visualstudio.microsoft.com/subscriptions-administration/).

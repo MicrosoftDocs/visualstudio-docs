@@ -62,7 +62,7 @@ sections:
     className: cardsM
     columns: 2
     items:
-      - href: roslyn-analyzers-overview.md#roslyn-analyzers-vs-static-code-analysis
+      - href: roslyn-analyzers-overview.md#net-compiler-platform-based-analysis-versus-legacy-analysis
         html: <p>Learn the differences between binary analysis (FxCop) and source analysis (FxCop analyzers).</p>
         image:
           src: https://docs.microsoft.com/media/common/i_learn-about.svg

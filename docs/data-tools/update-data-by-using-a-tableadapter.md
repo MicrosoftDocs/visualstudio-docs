@@ -26,7 +26,7 @@ After the data in your dataset has been modified and validated, you can send the
 > [!NOTE]
 > When you try to update a data source with the contents of a dataset, you can get errors. To avoid errors, we recommend that you put the code that calls the adapter's `Update` method inside a `try`/`catch` block.
 
- The exact procedure for updating a data source can vary depending on business needs, but  includes the following steps:
+The exact procedure for updating a data source can vary depending on business needs, but  includes the following steps:
 
 1. Call the adapter's `Update` method in a `try`/`catch` block.
 
