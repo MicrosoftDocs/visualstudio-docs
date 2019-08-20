@@ -2,7 +2,7 @@
   href: index.yml
 - name: Overview
   items:
-  - name: About Visual Studiogs
+  - name: About Visual Studio
     href: visual-studio-ide.md
   - name: About the code editor
     href: tutorial-editor.md
