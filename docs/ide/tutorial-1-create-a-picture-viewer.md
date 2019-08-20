@@ -1,13 +1,15 @@
 ---
 title: "Tutorial 1: Create a picture viewer"
-ms.date: 07/30/2019
-ms.topic: conceptual
+ms.date: 08/20/2019
 ms.assetid: 3071d6df-2b2f-4e95-ab68-bef727323136
+ms.topic: tutorial
+ms.technology: vs-ide-general
+ms.devlang: 
+ - "csharp"
+ - "vb"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-dev_langs:
-  - CSharp
 ms.workload:
   - "multiple"
 ---

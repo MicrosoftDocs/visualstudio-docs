@@ -1,6 +1,6 @@
 ---
 title: "Step 1: Create a Windows Forms Application project"
-ms.date: 07/30/2019
+ms.date: 08/20/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -10,15 +10,13 @@ ms.author: tglee
 manager: jillfra
 dev_langs:
   - CSharp
+  - VB
 ms.workload:
   - "multiple"
 ---
 # Step 1: Create a Windows Forms Application project
 
 When you create a picture viewer, the first step is to create a Windows Forms Application project.
-
- > [!TIP]
- > ![link to video](../data-tools/media/playvideo.gif)For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 1](http://go.microsoft.com/fwlink/?LinkId=205209) or [Tutorial 1: Create a picture viewer in C# - Video 1](http://go.microsoft.com/fwlink/?LinkId=205199). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.
 
 ::: moniker range="vs-2017"
 
@@ -28,7 +26,7 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 
      ![New project dialog](../ide/media/newprojectdialogcallouts.png)<br/>***New project*** *dialog box*
 
-2. On the left side of the **New Project** dialog box, choose **Visual C#** > **Windows Desktop**.
+2. On the left side of the **New Project** dialog box, choose either **Visual C#** or **Visual Basic**, and then choose **Windows Desktop**.
 
 3. In the project templates list, choose **Windows Forms App (.NET Framework)**. Name the new form *PictureViewer*, and then choose the **OK** button.
 
@@ -45,14 +43,14 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 
    ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. On the **Create a new project** window, enter or type *Windows Forms* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list.
+1. On the **Create a new project** window, enter or type *Windows Forms* in the search box. Next, choose **Desktop** from the **Project type** list.
 
-   After you apply the language and platform filters, choose the **Windows Forms App (.NET Framework)** template, and then choose **Next**.
+   After you apply the **Project type** filter, choose the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then choose **Next**.
 
-   ![Choose the C# template for the Windows Forms App (.NET Framework)](../get-started/csharp/media/vs-2019/csharp-create-new-project-search-winforms-filtered.png)
+   ![Choose the C# template for the Windows Forms App (.NET Framework)](./media/create-new-project-search-winforms-filtered.png)
 
    > [!NOTE]
-   > If you do not see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
    >
    > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png)
    >

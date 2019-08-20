@@ -4,6 +4,7 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs: 
   - "csharp"
+  - "vb"
 ms.assetid: f26f79ba-c91b-4164-b87f-679a1b231c09
 author: TerryGLee
 ms.author: tglee

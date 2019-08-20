@@ -7,7 +7,8 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 dev_langs:
-  - CSharp
+  - "CSharp"
+  - "VB"
 ms.workload:
   - "multiple"
 ---
