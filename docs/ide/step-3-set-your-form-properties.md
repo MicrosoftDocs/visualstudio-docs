@@ -1,13 +1,15 @@
 ---
 title: "Step 3: Set your form properties"
 ms.date: 07/30/2019
-ms.topic: conceptual
 ms.assetid: 634ef037-1525-48c8-ac7f-abf04be69376
+ms.topic: tutorial
+ms.technology: vs-ide-general
+ms.devlang: 
+ - "csharp"
+ - "vb"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-dev_langs:
-  - CSharp
 ms.workload:
   - "multiple"
 ---

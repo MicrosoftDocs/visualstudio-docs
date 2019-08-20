@@ -1,6 +1,6 @@
 ---
 title: "Tutorial 1: Create a picture viewer"
-ms.date: 08/20/2019
+ms.date: 08/21/2019
 ms.assetid: 3071d6df-2b2f-4e95-ab68-bef727323136
 ms.topic: tutorial
 ms.technology: vs-ide-general
@@ -15,7 +15,10 @@ ms.workload:
 ---
 # Tutorial 1: Create a picture viewer
 
-In this tutorial, you build an app that loads a picture from a file and displays it in a window. You learn how to use the **Windows Forms Designer** to drag controls like buttons and picture boxes on to your form, set their properties, and use containers to smoothly resize the form. You also get started writing code. 
+In this tutorial, you build an app that loads a picture from a file and displays it in a window. You learn how to use the **Windows Forms Designer** to drag controls like buttons and picture boxes on to your form, set their properties, and use containers to smoothly resize the form. You also get started writing code.
+
+> [!NOTE]
+> This tutorial covers both Visual C# and Visual Basic, so focus on the information that's specific to the programming language that you're using.
 
 This tutorial walks you through the following tasks: 
 
