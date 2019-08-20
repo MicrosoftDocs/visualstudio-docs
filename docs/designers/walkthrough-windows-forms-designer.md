@@ -303,8 +303,10 @@ To use the DemoCalculator control in an application, you need to place it on a f
 
 ## Next steps
 
-This article has demonstrated how to construct the user interface for a simple calculator. To continue, you can extend its functionality by implementing the calculator logic. Or, continue on to a different tutorial where you [create a picture viewer using Windows Forms](../ide/tutorial-1-create-a-picture-viewer.md).
+This article has demonstrated how to construct the user interface for a simple calculator. To continue, you can extend its functionality by implementing the calculator logic, then [publish the app using ClickOnce](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md). Or, continue on to a different tutorial where you [create a picture viewer using Windows Forms](../ide/tutorial-1-create-a-picture-viewer.md).
 
 ## See also
 
+- [Windows Forms controls](/dotnet/framework/winforms/controls/)
 - [Accessibility for Windows Forms controls](/dotnet/framework/winforms/controls/providing-accessibility-information-for-controls-on-a-windows-form)
+- [Publish using ClickOnce](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

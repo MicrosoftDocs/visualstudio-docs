@@ -12,7 +12,7 @@ manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# Overview of .NET Compiler Platform analyzers
+# Overview of .NET Compiler Platform code analyzers
 
 .NET Compiler Platform ("Roslyn") analyzers analyze your code for style, quality and maintainability, design, and other issues. Visual Studio includes a built-in set of analyzers that analyze your C# or Visual Basic code as you type. You configure preferences for these built-in analyzers on the [text editor Options](../ide/code-styles-and-code-cleanup.md) page or in an [.editorconfig file](../ide/editorconfig-code-style-settings-reference.md). You can install additional analyzers as a Visual Studio extension or a NuGet package.
 
@@ -22,33 +22,33 @@ Many analyzer rules, or *diagnostics*, have one or more associated *code fixes* 
 
 ![Analyzer violation and Quick Action code fix](../code-quality/media/built-in-analyzer-code-fix.png)
 
-## Roslyn analyzers vs. static code analysis
+## .NET Compiler Platform-based analysis versus legacy analysis
 
-.NET Compiler Platform ("Roslyn") analyzers will eventually replace [static code analysis](../code-quality/code-analysis-for-managed-code-overview.md) for managed code. Many of the static code analysis rules have already been rewritten as Roslyn analyzer diagnostics.
+.NET Compiler Platform ("Roslyn") code analysis will eventually replace [legacy analysis](../code-quality/code-analysis-for-managed-code-overview.md) for managed code. Many of the legacy analysis rules have already been rewritten as .NET Compiler Platform-based code analyzers.
 
-Like static code analysis rule violations, Roslyn analyzer violations appear in **Error List**. In addition, Roslyn analyzer violations also show up in the code editor as *squiggles* under the offending code. The color of the squiggle depends on the [severity setting](../code-quality/use-roslyn-analyzers.md#rule-severity) of the rule. The following screenshot shows three violations&mdash;one red, one green, and one gray:
+Like legacy analysis rule violations, .NET Compiler Platform-based code analysis violations appear in the Error List window in Visual Studio. In addition, .NET Compiler Platform-based code analysis violations also show up in the code editor as *squiggles* under the offending code. The color of the squiggle depends on the [severity setting](../code-quality/use-roslyn-analyzers.md#rule-severity) of the rule. The following screenshot shows three violations&mdash;one red, one green, and one gray:
 
 ![Squiggles in the code editor](media/diagnostics-severity-colors.png)
 
-Roslyn analyzers analyze code at build time, like static code analysis if it's enabled, but also live as you type. If you enable [full solution analysis](../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md#to-toggle-full-solution-analysis), Roslyn analyzers also provide design-time analysis of code files that aren't open in the editor.
+.NET Compiler Platform-based code analyzers analyze code at build time, like legacy analysis if it's enabled, but also live as you type. If you enable [full solution analysis](../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md#to-toggle-full-solution-analysis), code analyzers also provide design-time analysis of code files that aren't open in the editor.
 
 > [!TIP]
-> Build-time errors and warnings from Roslyn analyzers are shown only if the analyzers are installed as a NuGet package.
+> Build-time errors and warnings from code analyzers are shown only if the analyzers are installed as a NuGet package.
 
-Not only do Roslyn analyzers report the same types of problems that static code analysis does, but they make it easy for you to fix one, or all, occurrences of the violation in your file or project. These actions are called *code fixes*. Code fixes are IDE-specific; in Visual Studio, they are implemented as [Quick Actions](../ide/quick-actions.md). Not all analyzer diagnostics have an associated code fix.
+Not only do .NET Compiler Platform-based code analyzers report the same types of problems that legacy analysis does, but they make it easy for you to fix one, or all, occurrences of the violation in your file or project. These actions are called *code fixes*. Code fixes are IDE-specific; in Visual Studio, they are implemented as [Quick Actions](../ide/quick-actions.md). Not all analyzer diagnostics have an associated code fix.
 
 > [!NOTE]
-> The following UI options apply only to static code analysis:
+> The following UI options apply only to legacy analysis:
 >
 > - The **Analyze** > **Run Code Analysis** menu option.
-> - The **Enable Code Analysis on Build** and **Suppress results from generated code** checkboxes on the **Code Analysis** tab of a project's property pages (these options have no effect on Roslyn analyzers).
+> - The **Enable Code Analysis on Build** and **Suppress results from generated code** checkboxes on the **Code Analysis** tab of a project's property pages.
 
-To differentiate between violations from Roslyn analyzers and static code analysis in the **Error List**, look at the **Tool** column. If the Tool value matches one of the analyzer assemblies in **Solution Explorer**, for example **Microsoft.CodeQuality.Analyzers**, the violation comes from a Roslyn analyzer. Otherwise, the violation originates from static code analysis.
+To differentiate between violations from code analyzers and legacy analysis in the Error List window, look at the **Tool** column. If the Tool value matches one of the analyzer assemblies in **Solution Explorer**, for example **Microsoft.CodeQuality.Analyzers**, the violation comes from a code analyzer. Otherwise, the violation originates from legacy analysis.
 
 ![Tool column in Error List](media/code-analysis-tool-in-error-list.png)
 
 > [!TIP]
-> The **RunCodeAnalysis** msbuild property in a project file applies only to static code analysis. If you install analyzers, set **RunCodeAnalysis** to **false** in your project file to prevent static code analysis from running after build.
+> The **RunCodeAnalysis** msbuild property in a project file applies only to legacy analysis. If you install analyzers, set **RunCodeAnalysis** to **false** in your project file to prevent legacy analysis from running after build.
 >
 > ```xml
 > <RunCodeAnalysis>false</RunCodeAnalysis>
@@ -85,13 +85,13 @@ Below are the different types of analyzers that help analyze your code:
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Install Roslyn analyzers in Visual Studio](../code-quality/install-roslyn-analyzers.md)
+> [Install code analyzers in Visual Studio](../code-quality/install-roslyn-analyzers.md)
 
 > [!div class="nextstepaction"]
-> [Use Roslyn analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
+> [Use code analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
 
 ## See also
 
 - [Analyzers FAQ](analyzers-faq.md)
-- [Write your own Roslyn analyzer](../extensibility/getting-started-with-roslyn-analyzers.md)
+- [Write your own code analyzer](../extensibility/getting-started-with-roslyn-analyzers.md)
 - [.NET Compiler Platform SDK](/dotnet/csharp/roslyn-sdk/)

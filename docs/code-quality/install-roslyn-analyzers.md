@@ -12,7 +12,7 @@ manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# Install .NET Compiler Platform analyzers
+# Install .NET Compiler Platform code analyzers
 
 Visual Studio includes a core set of .NET Compiler Platform (*Roslyn*) analyzers. These analyzers are always on. You can install additional analyzers either as NuGet packages, or as Visual Studio extensions in *VSIX* files.
 
@@ -88,9 +88,9 @@ If you want to check whether the extension is installed, select **Extensions** >
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Use Roslyn analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
+> [Use code analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
 
 ## See also
 
-- [Overview of Roslyn analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
+- [Overview of code analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
 - [Install FxCop analyzers](../code-quality/install-fxcop-analyzers.md)

@@ -350,8 +350,6 @@
           - name: Overview
             displayName: refactoring
             href: ide/refactoring-in-visual-studio.md
-          - name: Add null checks for all parameters
-            href: ide/reference/add-null-checks-for-all-parameters.md
           - name: Change method signature
             href: ide/reference/change-method-signature.md
           - name: Convert anonymous type to class
@@ -414,6 +412,8 @@
             href: ide/reference/use-block-body-lambda.md
           - name: Unused value assignments, variables, and parameters
             href: ide/reference/unused-values-parameters.md
+          - name: Wrap and align call chains
+            href: ide/reference/wrap-and-align-call-chains.md
           - name: Wrap, indent, and align parameters
             href: ide/reference/wrap-align-indent-parameters.md
         - name: "Walkthrough: Generate code from usage"
