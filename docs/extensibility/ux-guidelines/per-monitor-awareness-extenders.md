@@ -210,7 +210,7 @@ If a non-WPF tool window is being migrated to fully support PMA, it will need to
 
 ```cs
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-public interface IVsDpiAeware
+public interface IVsDpiAware
 {
     [ComAliasName("Microsoft.VisualStudio.Shell.Interop.VSDPIMode")]
     uint Mode {get;}
