@@ -22,7 +22,7 @@ You are able to enable multi-caret mode via the keyboard in several ways. The fo
 |  ⌥⇧,   | Remove last caret             | 
 |  ⌥⇧/   | Move last caret down          | 
 
-Each of these behaviors are anchored the current position of the caret when you invoke the command. For example, if the caret is at the start of the word "name" and you invoke "Insert carets at all matching" (⌥⇧;) each instance of the word "name" in your current document will be have a caret inserted at the start of the word. Likewise, if you invoke the command "Insert next matching caret" (⌥⇧.) then a caret will be placed at the next instance of the word "name". This command can be invoked multiple times.
+Each of these behaviors are anchored the current position of the caret when you invoke the command. For example, if the caret is at the start of the word "name" and you invoke "Insert carets at all matching" (⌥⇧;) each instance of the word "name" in your current document will have a caret inserted at the start of the word. Likewise, if you invoke the command "Insert next matching caret" (⌥⇧.) then a caret will be placed at the next instance of the word "name". This command can be invoked multiple times.
 
 ![multi-caret keyboard](media/multi-caret-keyboard.gif)
 
