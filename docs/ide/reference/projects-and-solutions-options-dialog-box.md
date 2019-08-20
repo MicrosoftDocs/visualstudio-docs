@@ -70,6 +70,14 @@ When selected, documents that were left open the previous time the solution was 
 
 Reopening certain types of files or designers can delay solution load. Uncheck this option to [improve solution load performance](../../ide/visual-studio-performance-tips-and-tricks.md#disable-automatic-file-restore) if you don't want to restore the solution's previous context.
 
+## Restore Solution Explorer project hierarchy state on solution load
+
+When selected, restores the state of nodes in Solution Explorer with respect to whether they were expanded or collapsed the last time the solution was open. Disable this option to decrease solution load time for large solutions.
+
+If you disable this option, an easy way to navigate to the active document in Solution Explorer is by selecting **Sync with Active Document** on the **Solution Explorer** toolbar.
+
+![Sync with active document in Solution Explorer](media/sync-active-document.png)
+
 ## See also
 
 - [Options dialog box: Projects and Solutions \> Locations](projects-solutions-locations-options.md)
