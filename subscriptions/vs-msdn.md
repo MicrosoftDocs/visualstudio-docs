@@ -8,9 +8,9 @@ ms.topic: conceptual
 description:  The MSDN Magazine is being retired
 ---
 
-# The MSDN Magazine benefit in Visual Studio subscriptions has been discontinued.
+# The MSDN Magazine benefit in Visual Studio subscriptions has been discontinued
 
-MSDN Magazine recently announced that it will publish its last edition in November 2019.  The change was announced in a [blog post](https://msdn.microsoft.com/en-us/magazine/mt833502.aspx?) on msdn.microsoft.com in August 2019.  
+MSDN Magazine recently announced that it will publish its last edition in November 2019.  The change was announced in a [blog post](https://msdn.microsoft.com/magazine/mt833502.aspx?) on msdn.microsoft.com in August 2019.  
 
 ## The announcement
 Here's an excerpt of the announcement on msdn.microsoft.com:
@@ -25,7 +25,7 @@ Here's an excerpt of the announcement on msdn.microsoft.com:
 
 ## Frequently asked questions
 ### Q: How does the refund process work?
-A: Refunds will be mailed to the address on file for your subscription. If you have other questions about refunds, please contact **1105 Media**.  Complete contact information for 1105 Media is available in the [blog post](https://msdn.microsoft.com/en-us/magazine/mt833502.aspx?) on msdn.microsoft.com.  
+A: Refunds will be mailed to the address on file for your subscription. If you have other questions about refunds, please contact **1105 Media**.  Complete contact information for 1105 Media is available in the [blog post](https://msdn.microsoft.com/magazine/mt833502.aspx?) on msdn.microsoft.com.  
 
 ## Support resources
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
