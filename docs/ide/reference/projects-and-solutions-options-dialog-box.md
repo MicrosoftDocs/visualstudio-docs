@@ -86,7 +86,7 @@ When this option is selected and you double-click on an SDK-style project node i
 If you don't have this option selected and you want to edit an SDK-style project file, right-click on the project node in Solution Explorer and select **Edit Project File**. For other project types, you must first unload the project before editing it in Visual Studio.
 
 > [!TIP]
-> An *SDK-style project*, or [project SDK](../../msbuild/how-to-use-project-sdk.md) has a newer, more streamlined project file format that was introduced with MSBuild 15.0. An SDK-style project contains an `Sdk` attribute on the `Project` element, for example `<Project Sdk="Microsoft.NET.Sdk">`. Visual Studio creates an SDK-style project when you create a new .NET Core project from one of the Visual Studio templates, for example.
+> An *SDK-style project*, or [project SDK](../../msbuild/how-to-use-project-sdk.md), has a newer, more streamlined project file format that was introduced with MSBuild 15.0. An SDK-style project contains an `Sdk` attribute on the `Project` element, for example `<Project Sdk="Microsoft.NET.Sdk">`. Visual Studio creates an SDK-style project when you create a new .NET Core project from one of the Visual Studio templates, for example.
 
 ::: moniker-end
 
