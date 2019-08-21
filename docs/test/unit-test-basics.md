@@ -203,7 +203,7 @@ For more information about the Microsoft unit testing frameworks, see one of the
 
 ## Set timeouts for unit tests
 
-To set a timeout on an individual test method:
+If you're using the MSTest framework, you can use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute> to set a timeout on an individual test method:
 
 ```csharp
 [TestMethod]
