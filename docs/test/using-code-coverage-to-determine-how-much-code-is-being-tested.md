@@ -30,7 +30,12 @@ The code coverage feature is available only in Visual Studio Enterprise edition.
 
 ## To analyze code coverage on unit tests in Test Explorer
 
+::: moniker range="vs-2017"
 1. On the **Test** menu, choose **Analyze Code Coverage**.
+::: moniker-end
+::: moniker range=">=vs-2019"
+1. In **Test Explorer**, select **Analyze Code Coverage** from the **Run** menu.
+::: moniker-end
 
 > [!NOTE]
 > This menu has changed in recent versions of Visual Studio. For newer versions, go to the [Test Explorer](../test/run-unit-tests-with-test-explorer.md) and select **Analyze Code Coverage...** from the **Run** menu.
