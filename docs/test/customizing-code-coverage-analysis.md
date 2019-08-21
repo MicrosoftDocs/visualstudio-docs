@@ -147,6 +147,9 @@ For example:
 
 - **Attribute** - matches elements to which a particular attribute is attached. Specify the full name of the attribute, and include "Attribute" at the end of the name. For example, to exclude generated code, specify `<Attribute>^System\.CodeDom\.Compiler.GeneratedCodeAttribute$</Attribute>`.
 
+  > [!TIP]
+  > If you exclude the <xref:System.Runtime.CompilerServices.CompilerGeneratedAttribute> attribute, code that uses language features such as `async`, `await`, `yield return`, and auto-implemented properties is excluded from code coverage analysis. To exclude truly generated code, only exclude the <xref:System.CodeDom.Compiler.GeneratedCodeAttribute> attribute.
+
 - **Function** - matches procedures, functions, or methods by fully qualified name. To match a function name, the regular expression must match the fully qualified name of the function, including namespace, class name, method name, and parameter list. For example:
 
    ```csharp
