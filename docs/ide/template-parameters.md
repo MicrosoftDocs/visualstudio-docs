@@ -51,7 +51,8 @@ The following table lists the reserved template parameters that can be used by a
 |projectname|The name provided by the user when the project was created.|
 |registeredorganization|The registry key value from HKLM\Software\Microsoft\Windows NT\CurrentVersion\RegisteredOrganization.|
 |rootnamespace|The root namespace of the current project. This parameter applies only to item templates.|
-|safeitemname|Same as `itemname` but with all unsafe characters and spaces removed.|
+|safeitemname|Same as `itemname` but with all unsafe characters and spaces replaced by underscore characters.|
+|safeitemrootname|Same as `safeitemname`.|
 |safeprojectname|The name provided by the user when the project was created but with all unsafe characters and spaces removed.|
 |time|The current time in the format DD/MM/YYYY 00:00:00.|
 |SpecificSolutionName|The name of the solution. When "create solution directory" is checked, `SpecificSolutionName` has the solution name. When "create solution directory" is not checked, `SpecificSolutionName` is blank.|
