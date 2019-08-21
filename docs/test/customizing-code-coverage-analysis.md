@@ -238,8 +238,8 @@ Included items must then not match any entries in the exclude list to remain inc
                 <!-- Don't forget "Attribute" at the end of the name -->
                 <Attribute>^System\.Diagnostics\.DebuggerHiddenAttribute$</Attribute>
                 <Attribute>^System\.Diagnostics\.DebuggerNonUserCodeAttribute$</Attribute>
-                <Attribute>^System\.CodeDom\.Compiler.GeneratedCodeAttribute$</Attribute>
-                <Attribute>^System\.Diagnostics\.CodeAnalysis.ExcludeFromCodeCoverageAttribute$</Attribute>
+                <Attribute>^System\.CodeDom\.Compiler\.GeneratedCodeAttribute$</Attribute>
+                <Attribute>^System\.Diagnostics\.CodeAnalysis\.ExcludeFromCodeCoverageAttribute$</Attribute>
               </Exclude>
             </Attributes>
 
