@@ -1,6 +1,6 @@
 ---
 title: "Step 10: Write code for additional buttons and a check box"
-ms.date: 08/20/2019
+ms.date: 08/22/2019
 ms.assetid: 185cf370-ab39-4ac0-b6bc-601d5b95a4a2
 ms.topic: tutorial
 ms.prod: visual-studio-windows
@@ -23,20 +23,19 @@ Now you're ready to complete the other four methods. You could copy and paste th
 
 This code adds functionality to the buttons you added earlier. Without this code, the buttons don't do anything. The buttons use code in their <xref:System.Windows.Forms.Control.Click> events (and the check box uses the <xref:System.Windows.Forms.CheckBox.CheckedChanged> event) to do different things when you activate the controls. For example, the `clearButton_Click` event, which activates when you choose the **Clear the picture** button, erases the current image by setting its **Image** property to **null** (or, **nothing**). Each event in the code includes comments that explain what the code does.
 
-> [!NOTE]
+> [!TIP]
 > As a best practice: Always comment your code. Comments are information for a person to read, and it's worth the time to make your code understandable. Everything on a comment line is ignored by the program. In Visual C#, you comment a line by typing two forward slashes at the beginning (//), and in Visual Basic you comment a line by starting with a single quotation mark (').
 
 ## How to write code for additional buttons and a check box
 
-### C#
+Add the following code to your **Form1** code file (*Form1.cs* or *Form1.vb*).
 
-* For C#, add the following code to your **Form1** code file (*Form1.cs*).
- 
+> [!NOTE]
+> You can view code for either C# or Visual Basic by using the programming language control at the top right of this page. The default view is for C#. To view the code for Visual Basic, choose **VB**.
+>
+> ![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
+
   [!code-csharp[VbExpressTutorial1Step9_10#2](../ide/codesnippet/CSharp/step-10-write-code-for-additional-buttons-and-a-check-box_1.cs)]<br>
-
-### Visual Basic
-
-* For Visual Basic, add the following code to your **Form1** code file (*Form1.vb*)
 
   [!code-vb[VbExpressTutorial1Step9_10#2](../ide/codesnippet/VisualBasic/step-10-write-code-for-additional-buttons-and-a-check-box_1.vb)]
 
