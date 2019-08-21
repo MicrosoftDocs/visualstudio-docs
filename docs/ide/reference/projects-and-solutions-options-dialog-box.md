@@ -64,11 +64,11 @@ When selected, Visual Studio displays a confirmation message box before the loca
 
 ## Reopen documents on solution load
 
-**Introduced in Visual Studio 2017 version 15.8**
-
 When selected, documents that were left open the previous time the solution was closed are automatically opened when the solution is opened.
 
 Reopening certain types of files or designers can delay solution load. Uncheck this option to [improve solution load performance](../../ide/visual-studio-performance-tips-and-tricks.md#disable-automatic-file-restore) if you don't want to restore the solution's previous context.
+
+::: moniker range=">=vs-2019"
 
 ## Restore Solution Explorer project hierarchy state on solution load
 
@@ -84,6 +84,8 @@ When this option is selected and you double-click on a project node in Solution 
 
 > [!TIP]
 > When deselected, double-clicking a project node in Solution Explorer or selecting it and pressing **Enter** has the effect of expanding or collapsing the node only.
+
+::: moniker-end
 
 ## See also
 
