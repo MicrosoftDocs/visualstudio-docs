@@ -32,6 +32,9 @@ The code coverage feature is available only in Visual Studio Enterprise edition.
 
 1. On the **Test** menu, choose **Analyze Code Coverage**.
 
+> [!NOTE]
+> This menu has changed in recent versions of Visual Studio. For newer versions, go to the [Test Explorer](../test/run-unit-tests-with-test-explorer.md) and select **Analyze Code Coverage...** from the **Run** menu.
+
 2. To see which lines have been run, choose ![Show Code Coverage Coloring Icon](../test/media/codecoverage-showcoloringicon.png) **Show Code Coverage Coloring**.
 
    To alter the colors, or to use bold face, choose **Tools** > **Options** > **Environment** > **Fonts and Colors** > **Show settings for: Text Editor**. Under **Display Items**, adjust the Coverage items.
