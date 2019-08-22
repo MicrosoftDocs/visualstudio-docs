@@ -65,10 +65,10 @@
 #### [Manage large teams and external contractors](manage-teams.md)
 #### [Track user assignments and process orders](assignments-orders.md)
 ### Accessing the admin portal
- Volume Licensing
+#### [Volume License](volume-license.md)
 #### [MPSA](mpsa.md)
 #### [Cloud subscriptions](cloud-admin.md)
- Partners managing for customers
+#### [Partners managing for customers](open-migration.md)
 #### [Video tutorial: Access the admin portal](https://youtu.be/plSu6fpi7UI)
 ### Using the admin portal
 #### [Super admins and administrators](admin-roles.md)
