@@ -1,6 +1,6 @@
 ---
 title: "Step 5: Add controls to your form"
-ms.date: 08/20/2019
+ms.date: 08/22/2019
 ms.assetid: dc2746f4-0b5c-4674-9ef7-f40f94150f52
 ms.topic: tutorial
 ms.prod: visual-studio-windows
@@ -24,7 +24,7 @@ In this step, you add controls, such as a <xref:System.Windows.Forms.PictureBox>
 
 1. Double-click the **PictureBox** item to add a PictureBox control to your form. Because the TableLayoutPanel is docked to fill your form, the IDE adds the PictureBox control to the first empty cell (the upper left corner).
 
-1. Choose the new **PictureBox** control to select it, and then choose the black triangle on the new PictureBox control to display its task list, as shown in the following picture.
+1. Choose the new **PictureBox** control to select it, and then choose the black triangle on the new PictureBox control to display its task list, as shown in the following screenshot.
 
      ![PictureBox tasks](../ide/media/express_pictureboxtasks.png)<br/>****PictureBox*** *tasks**
 
@@ -33,7 +33,7 @@ In this step, you add controls, such as a <xref:System.Windows.Forms.PictureBox>
 
 1. In the **PictureBox Tasks** menu from the **PictureBox** control, choose the **Dock in parent container** link. This automatically sets the PictureBox **Dock** property to **Fill**. To see this, choose the **PictureBox** control to select it, go to the **Properties** window, and be sure that the **Dock** property is set to **Fill**.
 
-1. Make the PictureBox span both columns by changing its **ColumnSpan** property. In the **PictureBox** Choose the **PictureBox** control and set its **ColumnSpan** property to **2**. Also, when the PictureBox is empty, you want to show an empty frame. Set its **BorderStyle** property to **Fixed3D**.
+1. Make the PictureBox span both columns by changing its **ColumnSpan** property. In the **PictureBox**, choose the **PictureBox** control and set its **ColumnSpan** property to **2**. Also, when the PictureBox is empty, you want to show an empty frame. Set its **BorderStyle** property to **Fixed3D**.
 
     > [!NOTE]
     > If you don't see a **ColumnSpan** property for your PictureBox, then it's likely that the PictureBox was added to the form rather than the TableLayoutPanel. To fix this, choose the **PictureBox**, delete it, choose the **TableLayoutPanel**, and then add a new PictureBox.
@@ -42,7 +42,7 @@ In this step, you add controls, such as a <xref:System.Windows.Forms.PictureBox>
 
      ![TextBox control with Stretch property](../ide/media/express_pictureviewercheckbox.png)<br/>***TextBox*** *control with* ***Stretch*** *property*
 
-1. Choose the **TableLayoutPanel** on the form, and then go to the **Containers** group in the **Toolbox** (where you got your TableLayoutPanel control) and double-click the **FlowLayoutPanel** item to add a new control to the last cell in the PictureBox (bottom right). Then dock the FlowLayoutPanel in the TableLayoutPanel (either by choosing **Dock in parent container** on the FlowLayoutPanel's black triangle task list, or by setting the FlowLayoutPanel's **Dock** property to **Fill**).
+1. Choose the **TableLayoutPanel** on the form, and then go to the **Containers** group in the **Toolbox** (where you got your TableLayoutPanel control) and double-click the **FlowLayoutPanel** item to add a new control to the last cell in the PictureBox (bottom right). Then dock the FlowLayoutPanel in the TableLayoutPanel. You can do so either by choosing **Dock in parent container** on the FlowLayoutPanel's black triangle task list, or by setting the FlowLayoutPanel's **Dock** property to **Fill**.
 
     > [!NOTE]
     > A <xref:System.Windows.Forms.FlowLayoutPanel> is a container that arranges other controls in neat rows in order. When you resize a FlowLayoutPanel, if it has room to lay out all of its controls in a single row, it does that. Otherwise, it arranges them in lines, one on top of the other. You will use a FlowLayoutPanel to hold four buttons. If the buttons arrange one on top another when added, be sure that the FlowLayoutPanel is selected before adding the buttons. Although it was stated earlier that each cell can hold only one control, the lower-right cell of the TableLayoutPanel has four button controls. This is because you can put a control in a cell that holds other controls. That kind of control is called a container, and the FlowLayoutPanel is a container.
@@ -63,7 +63,7 @@ In this step, you add controls, such as a <xref:System.Windows.Forms.PictureBox>
     > [!NOTE]
     > If the buttons are still in the wrong order, you can drag the buttons around the FlowLayoutPanel to rearrange them in any order. You can choose a button and drag it left or right.
 
-1. Choose the **Close** button to select it. Hold down the **Ctrl** key and choose the other three buttons, so that they are all selected. While all the buttons are selected, go to the **Properties** window and scroll up to the **AutoSize** property. This property tells the button to automatically resize itself to fit all of its text. Set it to **true**. Your buttons should now be sized properly and be in the right order. (As long as all four buttons are selected, you can change all four **AutoSize** properties at the same time.) The following picture shows the four buttons.
+1. Choose the **Close** button to select it. Hold down the **Ctrl** key and choose the other three buttons, so that they're all selected. While all the buttons are selected, go to the **Properties** window and scroll up to the **AutoSize** property. This property tells the button to automatically resize itself to fit all of its text. Set it to **true**. Your buttons should now be sized properly and be in the right order. (As long as all four buttons are selected, you can change all four **AutoSize** properties at the same time.) The following picture shows the four buttons.
 
      ![Picture Viewer with four buttons](../ide/media/express_autosize.png)<br/>***Picture Viewer*** *with four buttons*
 

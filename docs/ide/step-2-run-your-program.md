@@ -1,6 +1,6 @@
 ---
 title: "Step 2: Run your program"
-ms.date: 08/20/2019
+ms.date: 08/22/2019
 ms.assetid: 9a8fe90e-c97b-4e98-b6c8-0c6b3962c49d
 ms.topic: tutorial
 ms.prod: visual-studio-windows

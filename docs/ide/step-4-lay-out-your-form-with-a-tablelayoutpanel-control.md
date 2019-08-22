@@ -1,6 +1,6 @@
 ---
 title: "Step 4: Lay out your form with a TableLayoutPanel control"
-ms.date: 08/20/2019
+ms.date: 08/22/2019
 ms.assetid: 61acde79-e115-4bad-bb06-1fbe37717a3e
 ms.topic: tutorial
 ms.prod: visual-studio-windows
@@ -35,7 +35,7 @@ In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to 
     > [!NOTE]
     > After you add your TableLayoutPanel, if a window appears inside your form with the title **TableLayoutPanel Tasks**, choose anywhere inside the form to close it. You'll learn more about this window later in the tutorial.
 
-     Notice how the **Toolbox** expands to cover your form when you choose its tab, and closes after you choose anywhere outside of it. That's the IDE auto-hide feature. You can turn it on or off for any of the windows by choosing the pushpin icon in the upper-right corner of the window to toggle auto-hide and lock it in place. The pushpin icon appears as follows.
+     Notice how the **Toolbox** expands to cover your form when you choose its tab, and closes after you choose anywhere outside of it. That's the Auto Hide feature in the IDE. You can turn it on or off for any of the windows by choosing the pushpin icon in the upper-right corner of the window to toggle Auto Hide and lock it in place. The pushpin icon appears as follows.
 
      ![Pushpin icon](../ide/media/express_pushpintoolbox.png)<br>
 ***Pushpin** icon*

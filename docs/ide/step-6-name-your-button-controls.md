@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Step 6: Name your button controls
 
-There's only one <xref:System.Windows.Forms.PictureBox> on your form. When you added it, the IDE automatically named it **pictureBox1**. There's only one <xref:System.Windows.Forms.CheckBox>, which is named **checkBox1**. Soon, you will write some code, and that code will refer to the CheckBox and PictureBox. Because there's only one of each of these controls, you will know what it means when you see **pictureBox1** or **checkBox1** in your code.
+There's only one <xref:System.Windows.Forms.PictureBox> on your form. When you added it, the IDE automatically named it **pictureBox1**. There's only one <xref:System.Windows.Forms.CheckBox>, which is named **checkBox1**. Soon, you'll write some code, and that code will refer to the CheckBox and PictureBox. Because there's only one of each of these controls, you'll know what it means when you see **pictureBox1** or **checkBox1** in your code.
 
 > [!TIP]
 > In Visual Basic, the default first letter of any control name is initial cap, so the names are **PictureBox1**, **CheckBox1**, and so on.
@@ -36,14 +36,14 @@ There are four buttons on your form, and the IDE named them **button1**, **butto
     > [!NOTE]
     > If you try changing the name of your button to **closeButton**, with a space between the words close and Button, the IDE displays an error message: "Property value is not valid." Spaces (and a few other characters) are not allowed in control names.
 
-2. Rename the other three buttons to **backgroundButton**, **clearButton**, and **showButton**. You can verify the names by choosing the control selector drop-down list in the **Properties** window. The new button names appear.
+1. Rename the other three buttons to **backgroundButton**, **clearButton**, and **showButton**. You can verify the names by choosing the control selector drop-down list in the **Properties** window. The new button names appear.
 
-3. Double-click the **Show a picture** button on the form. As an alternative, choose the **Show a picture** button on the form, and then choose the **Enter** key. When you do, the IDE opens an additional tab in the main window called **Form1.cs** (**Form1.vb** if you're using Visual Basic). This tab shows the code file behind the form, as shown in the following screenshot.
+1. Double-click the **Show a picture** button on the form. As an alternative, choose the **Show a picture** button on the form, and then choose the **Enter** key. When you do, the IDE opens an additional tab in the main window called **Form1.cs** (**Form1.vb** if you're using Visual Basic). This tab shows the code file behind the form, as shown in the following screenshot.
 
      ![Form1.cs tab with Visual C&#35; code](../ide/media/express_showbuttoncode.png)<br>
 ***Form1.cs** tab with Visual C# code*
 
-4. Focus on this part of the code. 
+1. Focus on this part of the code. 
 
     [!code-csharp[VbExpressTutorial1Step6#1](../ide/codesnippet/CSharp/step-6-name-your-button-controls_1.cs)]
     [!code-vb[VbExpressTutorial1Step6#1](../ide/codesnippet/VisualBasic/step-6-name-your-button-controls_1.vb]
@@ -51,11 +51,11 @@ There are four buttons on your form, and the IDE named them **button1**, **butto
    > [!NOTE]
    > You can view code for either C# or Visual Basic by using the programming language control at the top right of this page. C# is the default code view. To view the code for Visual Basic, choose **VB**.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)  
 
- You are looking at code called `showButton_Click()`. The IDE added this to the form's code when you opened the code file for the **showButton** button. At design-time, when you open the code file for a control in a form, code is generated for the control if it doesn't already exist. This code, known as a *method*, runs when you run your program and choose the control - in this case, the **Show a picture** button.
+   You are looking at code called `showButton_Click()`. The IDE added this to the form's code when you opened the code file for the **showButton** button. At design-time, when you open the code file for a control in a form, code is generated for the control if it doesn't already exist. This code, known as a *method*, runs when you run your program and choose the control - in this case, the **Show a picture** button.
 
-5. Choose the **Windows Forms Designer** tab again (**Form1.cs [Design]**), and then open the code file for the **Clear the picture** button to create a method for it in the form's code. Repeat this for the remaining two buttons. Each time, the IDE adds a new method to the form's code file.
+1. Choose the **Windows Forms Designer** tab again (**Form1.cs [Design]**), and then open the code file for the **Clear the picture** button to create a method for it in the form's code. Repeat this for the remaining two buttons. Each time, the IDE adds a new method to the form's code file.
 
-6. To add one more method, open the code file for the **CheckBox** control in **Windows Forms Designer** to make the IDE add a `checkBox1_CheckedChanged()` method. That method is called whenever the user selects or clears the check box.
+1. To add one more method, open the code file for the **CheckBox** control in **Windows Forms Designer** to make the IDE add a `checkBox1_CheckedChanged()` method. That method is called whenever the user selects or clears the check box.
 
     > [!TIP]
     > When working on a program, you often move between the code editor and **Windows Forms Designer**. The IDE makes it easy to navigate in your project. Use **Solution Explorer** to open **Windows Forms Designer** by double-clicking *Form1.cs* in Visual C# or *Form1.vb* in Visual Basic, or on the menu bar, choose **View** > **Designer**.

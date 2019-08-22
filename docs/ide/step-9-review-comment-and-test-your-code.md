@@ -1,6 +1,6 @@
 ---
 title: "Step 9: Review, comment, and test your code"
-ms.date: 08/20/2019
+ms.date: 08/22/2019
 ms.assetid: f26f79ba-c91b-4164-b87f-679a1b231c09
 ms.topic: tutorial
 ms.prod: visual-studio-windows
@@ -66,7 +66,7 @@ You just built something that works, and although it's not done yet, it can alre
     >
     >  To activate a snippet when typing code, type it and choose the **Tab** key. Many snippets appear in the **IntelliSense** window, which is why you choose the **Tab** key twice: first to select the snippet from the **IntelliSense** window, and then to tell the IDE to use the snippet. (IntelliSense supports the `if` snippet, but not the `ifelse` snippet.)
 
-2. Before you run your program, save your program by choosing the **Save All** toolbar button, which appears as follows.
+1. Before you run your program, save your program by choosing the **Save All** toolbar button, which appears as follows.
 
      ![Save All toolbar button](../ide/media/express_iconsaveall.png)<br>
 ***Save All** button*
@@ -81,12 +81,12 @@ You just built something that works, and although it's not done yet, it can alre
 
 1. Choose the **F5** key or choose the **Start Debugging** toolbar button.
 
-2. Choose the **Show a picture** button to run the code you just wrote. First, the program opens an **Open File** dialog box. Verify that your filters appear in the **Files of type** drop-down list at the bottom of the dialog box. Then navigate to a picture and open it. You can usually find sample pictures that ship with the Windows operating system in your *My Documents* folder, inside the *My Pictures\Sample Pictures* folder.
+1. Choose the **Show a picture** button to run the code you just wrote. First, the program opens an **Open File** dialog box. Verify that your filters appear in the **Files of type** drop-down list at the bottom of the dialog box. Then navigate to a picture and open it. You can usually find sample pictures that ship with the Windows operating system in your *My Documents* folder, inside the *My Pictures\Sample Pictures* folder.
 
     > [!TIP]
     > If you don't see any images in the **Select a picture file** dialog box, be sure that the **All files (*.\*)** filter is selected in the drop-down list on the lower right side of the dialog box.
 
-3. Load a picture, and it appears in your PictureBox. Then try resizing your form by dragging its borders. Because you have your PictureBox docked inside a TableLayoutPanel, which itself is docked inside the form, your picture area will resize itself so that it's as wide as the form, and fills the top 90 percent of the form. That's why you used the <xref:System.Windows.Forms.TableLayoutPanel> and <xref:System.Windows.Forms.FlowLayoutPanel> containers: They keep your form sized correctly when the user resizes it.
+1. Load a picture, and it appears in your PictureBox. Then try resizing your form by dragging its borders. Because you have your PictureBox docked inside a TableLayoutPanel, which itself is docked inside the form, your picture area will resize itself so that it's as wide as the form, and fills the top 90 percent of the form. That's why you used the <xref:System.Windows.Forms.TableLayoutPanel> and <xref:System.Windows.Forms.FlowLayoutPanel> containers: They keep your form sized correctly when the user resizes it.
 
      Right now, larger pictures go beyond the borders of your picture viewer. In the next step, you'll add code to make pictures fit in the window.
 
