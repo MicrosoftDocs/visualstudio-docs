@@ -72,18 +72,21 @@ Reopening certain types of files or designers can delay solution load. Uncheck t
 
 ## Restore Solution Explorer project hierarchy state on solution load
 
-When selected, restores the state of nodes in Solution Explorer with respect to whether they were expanded or collapsed the last time the solution was open. Disable this option to decrease solution load time for large solutions.
+When selected, restores the state of nodes in Solution Explorer with respect to whether they were expanded or collapsed the last time the solution was open. Deselect this option to decrease solution load time for large solutions.
 
-If you disable this option, an easy way to navigate to the active document in Solution Explorer is by selecting **Sync with Active Document** on the **Solution Explorer** toolbar.
-
-![Sync with active document in Solution Explorer](media/sync-active-document.png)
+> [!TIP]
+> If you disable this option, an easy way to navigate to the active document in Solution Explorer is by selecting **Sync with Active Document** on the **Solution Explorer** toolbar.
+>
+> ![Sync with active document in Solution Explorer](media/sync-active-document.png)
 
 ## Open SDK-style project files with double-click or the Enter key
 
-When this option is selected and you double-click on a project node in Solution Explorer or select the project node and then press **Enter**, the project file (for example, \*.csproj file) opens as XML in the editor. This is an easy way to edit the project XML file without having to first unload the project and then open the project file for editing.
+When this option is selected and you double-click on an SDK-style project node in Solution Explorer or select it and then press **Enter**, the project file (for example, \*.csproj file) opens as XML in the editor. When deselected, double-clicking an SDK-style project node in Solution Explorer or selecting it and pressing **Enter** has the effect of expanding or collapsing the node only.
+
+If you don't have this option selected and you want to edit an SDK-style project file, right-click on the project node in Solution Explorer and select **Edit Project File**. For other project types, you must first unload the project before editing it in Visual Studio.
 
 > [!TIP]
-> When deselected, double-clicking a project node in Solution Explorer or selecting it and pressing **Enter** has the effect of expanding or collapsing the node only.
+> An *SDK-style project*, or [project SDK](../../msbuild/how-to-use-project-sdk.md), has a newer, more streamlined project file format that was introduced with MSBuild 15.0. An SDK-style project contains an `Sdk` attribute on the `Project` element, for example `<Project Sdk="Microsoft.NET.Sdk">`. Visual Studio creates an SDK-style project when you create a new .NET Core project from one of the Visual Studio templates, for example.
 
 ::: moniker-end
 
