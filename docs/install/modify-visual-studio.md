@@ -121,4 +121,5 @@ If you don't want to install workloads to customize your Visual Studio installat
 * [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 * [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)
 * [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
+* [Workload & component IDs](workload-and-component-ids.md)
 * [Uninstall Visual Studio](uninstall-visual-studio.md)
