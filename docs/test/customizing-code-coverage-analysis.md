@@ -145,7 +145,7 @@ For example:
 
 - **Source** - matches elements by the path name of the source file in which they are defined.
 
-- **Attribute** - matches elements to which a particular attribute is attached. Specify the full name of the attribute, and include "Attribute" at the end of the name. For example, to exclude generated code, specify `<Attribute>^System\.CodeDom\.Compiler.GeneratedCodeAttribute$</Attribute>`.
+- **Attribute** - matches elements to which a particular attribute is attached. Specify the full name of the attribute, for example `<Attribute>^System\.Diagnostics\.DebuggerHiddenAttribute$</Attribute>`.
 
   > [!TIP]
   > If you exclude the <xref:System.Runtime.CompilerServices.CompilerGeneratedAttribute> attribute, code that uses language features such as `async`, `await`, `yield return`, and auto-implemented properties is excluded from code coverage analysis. To exclude truly generated code, only exclude the <xref:System.CodeDom.Compiler.GeneratedCodeAttribute> attribute.
