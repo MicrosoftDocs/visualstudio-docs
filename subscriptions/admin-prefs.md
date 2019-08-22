@@ -12,7 +12,7 @@ description: Learn how to set preferences for language, contacts, subscription l
 Super admins can now set certain preferences in the Administration Portal (admin portal) that will be applied globally for each agreement.  These preferences will determine what administrators on your agreements can set when they are adding subscribers, and can only be modified globally by super admins.  
 
 ## Access preferences
-You must be signed in to the [admin portal](manage.visualstudio.com) using a sign in ID that has super admin rights on the agreement in order to view or modify the preferences.  
+You must be signed in to the [admin portal](https://manage.visualstudio.com) using a sign in ID that has super admin rights on the agreement in order to view or modify the preferences.  
 
 To set your preferences:
 1. Sign in to the admin portal with an ID that has super admin privileges.
