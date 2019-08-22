@@ -65,7 +65,7 @@ If you currently have side-by-side installations of Visual Studio and want to us
 
 1. Upgrade to Visual Studio 2017 version 15.3 or later.
 
-2. Use the **Import\Export settings** wizard to export all your existing settings to some location outside of the *%localappdata%\Microsoft\VisualStudio\15.0_xxxxxxxx* folder.
+2. Use the **Import and Export Settings Wizard** to export all your existing settings to some location outside of the *%localappdata%\Microsoft\VisualStudio\15.0_xxxxxxxx* folder.
 
 3. Open the **Developer Command Prompt for VS 2017** and run `devenv /resetuserdata`.
 
@@ -78,6 +78,10 @@ If you currently have side-by-side installations of Visual Studio and want to us
 Certain settings like tool window layout aren't shared between different side-by-side installations of Visual Studio. The *CurrentSettings.vssettings* file in *%userprofile%\Documents\Visual Studio 2019\Settings* is in an installation-specific folder that is similar to *%localappdata%\Microsoft\VisualStudio\16.0_xxxxxxxx\Settings*.
 
 ::: moniker-end
+
+## Reset synchronized settings
+
+To reset all settings to their defaults, sign in to Visual Studio, and then select **Tools** > **Import and Export Settings** to open the **Import and Export Settings Wizard**. Select **Reset all settings** and then follow the remaining steps of the wizard.
 
 ## See also
 
