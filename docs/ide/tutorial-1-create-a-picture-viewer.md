@@ -1,6 +1,6 @@
 ---
 title: "Tutorial 1: Create a picture viewer"
-ms.date: 08/20/2019
+ms.date: 08/22/2019
 ms.assetid: 3071d6df-2b2f-4e95-ab68-bef727323136
 ms.topic: tutorial
 ms.prod: visual-studio-windows
@@ -64,7 +64,7 @@ Begin the tutorial:
 > [!div class="nextstepaction"]
 > [Step 1: Create a Windows Forms application project](../ide/step-1-create-a-windows-forms-application-project.md)
 
-# See also
+## See also
 
 * [More C# tutorials](/visualstudio/get-started/csharp/)
 * [Visual Basic tutorials](/visualstudio/get-started/visual-basic/)

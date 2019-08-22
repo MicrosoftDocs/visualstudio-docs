@@ -29,7 +29,7 @@ In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to 
 
 1. You can add controls like buttons, check boxes, and labels to your form. Double-click the TableLayoutPanel control in the **Toolbox**. (Or, you can drag the control from the toolbox onto the form.) When you do this, the IDE adds a TableLayoutPanel control to your form, as shown in the following picture.
 
-     ![TableLayoutPanel control](../ide/media/express_formtablelayout.png)
+     ![TableLayoutPanel control](../ide/media/express_formtablelayout.png)<br>
 ***TableLayoutPanel** control*
 
     > [!NOTE]
@@ -63,7 +63,7 @@ In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to 
 
 1. Currently, the TableLayoutPanel has two equal-size rows and two equal-size columns. Let's resize them so the top row and right column are both much bigger. In **Windows Forms Designer**, select the TableLayoutPanel. In the upper-right corner, there is a small black triangle button, which appears as follows.
 
-     ![Triangle button](../ide/media/express_iconblacktriangle.gif)
+     ![Triangle button](../ide/media/express_iconblacktriangle.gif)<br>
 ***Triangle** button*
 
      This button indicates that the control has tasks that help you set its properties automatically.
