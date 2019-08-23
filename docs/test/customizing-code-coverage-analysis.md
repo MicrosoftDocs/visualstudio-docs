@@ -1,6 +1,6 @@
 ---
 title: "Customizing Code Coverage Analysis"
-ms.date: 11/04/2016
+ms.date: 08/21/2019
 ms.topic: conceptual
 ms.author: gewarren
 manager: jillfra
@@ -28,26 +28,26 @@ To customize code coverage, follow these steps:
 
 ::: moniker range="vs-2017"
 
-3. To select the run settings file, on the **Test** menu, choose **Test Settings** > **Select Test Settings File**. To specify a run settings file for running tests from the command line or in a build workflow, see [Configure unit tests by using a *.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file).
+3. To select the run settings file, on the **Test** menu, choose **Test Settings** > **Select Test Settings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#command-line).
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-3. To select the run settings file, in **Test Explorer**, select the arrow on the **Settings** button, and then select **Select Settings File**. To specify a run settings file for running tests from the command line or in a build workflow, see [Configure unit tests by using a *.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file).
+3. To select the run settings file, in **Test Explorer**, select the arrow on the **Settings** button, and then select **Select Settings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#command-line).
 
 ::: moniker-end
 
    When you select **Analyze Code Coverage**, the configuration information is read from the run settings file.
 
    > [!TIP]
-   > The previous code coverage results and code coloring aren't automatically hidden when you run tests or update your code.
+   > Any previous code coverage results and code coloring aren't automatically hidden when you run tests or update your code.
 
 ::: moniker range="vs-2017"
 
 To turn the custom settings off and on, deselect or select the file in the **Test** > **Test Settings** menu.
 
-![Test settings menu with custom settings file](../test/media/codecoverage-settingsfile.png)
+![Test settings menu with custom settings file in Visual Studio 2017](../test/media/codecoverage-settingsfile.png)
 
 ::: moniker-end
 
@@ -59,7 +59,7 @@ To turn the custom settings off and on, deselect or select the file on the **Set
 
 ### Specify symbol search paths
 
-Code coverage requires symbol files (*.pdb* files) for assemblies. For assemblies built by your solution, symbol files are usually present alongside the binary files and code coverage works automatically. But in some cases, you might want to include referenced assemblies in your code coverage analysis. In such cases, the *.pdb* files might not be adjacent to the binaries, but you can specify the symbol search path in the *.runsettings* file.
+Code coverage requires symbol files (*.pdb* files) for assemblies. For assemblies built by your solution, symbol files are usually present alongside the binary files, and code coverage works automatically. In some cases, you might want to include referenced assemblies in your code coverage analysis. In such cases, the *.pdb* files might not be adjacent to the binaries, but you can specify the symbol search path in the *.runsettings* file.
 
 ```xml
 <SymbolSearchPaths>
@@ -84,7 +84,7 @@ You can exclude specified assemblies from code coverage analysis. For example:
 </ModulePaths>
 ```
 
-As an alternative, you can specify which assemblies should be included. This approach has the drawback that when you add more assemblies to the solution, you have to remember to add them to the list:
+As an alternative, you can specify which assemblies should be included. This approach has the drawback that when you add more assemblies to the solution, you must remember to add them to the list:
 
 ```xml
 <ModulePaths>
@@ -95,17 +95,15 @@ As an alternative, you can specify which assemblies should be included. This app
 </ModulePaths>
 ```
 
-If **Include** is empty, then code coverage processing includes all assemblies that are loaded, and for which *.pdb* files can be found. Code coverage does not include items that match a clause in an **Exclude** list.
-
-**Include** is processed before **Exclude**.
+If **Include** is empty, then code coverage processing includes all assemblies that are loaded and for which *.pdb* files can be found. Code coverage does not include items that match a clause in an **Exclude** list. **Include** is processed before **Exclude**.
 
 ### Regular expressions
 
-Include and exclude nodes use regular expressions. For more information, see [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md). Regular expressions aren't the same as wildcards. In particular:
+Include and exclude nodes use regular expressions, which aren't the same as wildcards. For more information, see [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md). Some examples are:
 
 - **.\*** matches a string of any characters
 
-- **\\.** matches a dot ".")
+- **\\.** matches a dot "."
 
 - **\\(   \\)** matches parentheses "(  )"
 
@@ -147,7 +145,10 @@ For example:
 
 - **Source** - matches elements by the path name of the source file in which they are defined.
 
-- **Attribute** - matches elements to which a particular attribute is attached. Specify the full name of the attribute, and include "Attribute" at the end of the name.
+- **Attribute** - matches elements to which a particular attribute is attached. Specify the full name of the attribute, for example `<Attribute>^System\.Diagnostics\.DebuggerHiddenAttribute$</Attribute>`.
+
+  > [!TIP]
+  > If you exclude the <xref:System.Runtime.CompilerServices.CompilerGeneratedAttribute> attribute, code that uses language features such as `async`, `await`, `yield return`, and auto-implemented properties is excluded from code coverage analysis. To exclude truly generated code, only exclude the <xref:System.CodeDom.Compiler.GeneratedCodeAttribute> attribute.
 
 - **Function** - matches procedures, functions, or methods by fully qualified name. To match a function name, the regular expression must match the fully qualified name of the function, including namespace, class name, method name, and parameter list. For example:
 
@@ -237,9 +238,8 @@ Included items must then not match any entries in the exclude list to remain inc
                 <!-- Don't forget "Attribute" at the end of the name -->
                 <Attribute>^System\.Diagnostics\.DebuggerHiddenAttribute$</Attribute>
                 <Attribute>^System\.Diagnostics\.DebuggerNonUserCodeAttribute$</Attribute>
-                <Attribute>^System\.Runtime\.CompilerServices.CompilerGeneratedAttribute$</Attribute>
-                <Attribute>^System\.CodeDom\.Compiler.GeneratedCodeAttribute$</Attribute>
-                <Attribute>^System\.Diagnostics\.CodeAnalysis.ExcludeFromCodeCoverageAttribute$</Attribute>
+                <Attribute>^System\.CodeDom\.Compiler\.GeneratedCodeAttribute$</Attribute>
+                <Attribute>^System\.Diagnostics\.CodeAnalysis\.ExcludeFromCodeCoverageAttribute$</Attribute>
               </Exclude>
             </Attributes>
 
