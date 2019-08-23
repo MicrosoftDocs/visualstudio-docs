@@ -3,7 +3,7 @@ title: "Modify Visual Studio"
 titleSuffix: ""
 description: "Learn how to modify Visual Studio, step-by-step."
 ms.custom: "H1Hack27Feb2017,seodec18"
-ms.date: 07/31/2019
+ms.date: 08/23/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "modify Visual Studio"
@@ -37,12 +37,12 @@ Here's how.
 
 ## Modify workloads
 
- Workloads contain the features you need for the programming language or platform that you're using. Use workloads to modify Visual Studio so that it supports the work you want to do, when you want to do it.
+ [Workloads](https://visualstudio.microsoft.com/vs/visual-studio-workloads/) contain the features you need for the programming language or platform that you're using. Use workloads to modify Visual Studio so that it supports the work you want to do, when you want to do it.
 
 >[!IMPORTANT]
 >To install, update, or modify Visual Studio, you must log on with an account that has administrative permissions. For more information, see [User permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
 
->[!TIP]
+>[!NOTE]
 > The following procedure assumes that you have an internet connection. For more information about how to modify a previously created [offline installation](create-an-offline-installation-of-visual-studio.md) of Visual Studio, see the [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md) page.
 
 ::: moniker range="vs-2017"
@@ -53,7 +53,7 @@ Here's how.
 
      ![Visual Studio Installer](media/vs2017-locate-the-visual-studio-installer.PNG "Locate the Microsoft Visual Studio Installer")
 
-     >[!NOTE]
+     >[!TIP]
      >On some computers, the Visual Studio Installer might be listed under the letter **"M"** as the **Microsoft Visual Studio Installer**.<br/><br/> Alternatively, you can find the Visual Studio Installer in the following location: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
 
 1. Click or tap to start the installer, and then choose **Modify**.
@@ -111,15 +111,16 @@ Here's how.
 
 ## Modify individual components
 
-If you don't want to install workloads to customize your Visual Studio installation, choose the **Individual Components** tab from the Visual Studio Installer, select what you want, and then follow the prompts.
+If you don't want to install [workloads](https://visualstudio.microsoft.com/vs/visual-studio-workloads/) to customize your Visual Studio installation, choose the **Individual Components** tab from the Visual Studio Installer, select what you want, and then follow the prompts.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
+* [Learn more about Visual Studio workloads](https://visualstudio.microsoft.com/vs/visual-studio-workloads/)
+* [List of Visual Studio workload & component IDs](workload-and-component-ids.md)
 * [Update Visual Studio](update-visual-studio.md)
 * [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 * [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)
 * [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
-* [Workload & component IDs](workload-and-component-ids.md)
 * [Uninstall Visual Studio](uninstall-visual-studio.md)
