@@ -44,7 +44,7 @@ By default, IntelliSense completion will only display completions from libraries
 
 ![IntelliSense Show Import Items](media/intellisense-showimport.png)
 
-Once **Show Import Items** is enabled, the completion list will include completions that you have not yet imported. Upon selecting an item which corresponds to an undelcared library, the `using` statement for that library will automatically be added to the header of the code file. The name of the library to which the completion belongs is also listed along with the completion itself.
+Once **Show Import Items** is enabled, the completion list will include completions that you have not yet imported. Upon selecting an item which corresponds to an undeclared library, the `using` statement for that library will automatically be added to the header of the code file. The name of the library to which the completion belongs is also listed along with the completion itself.
 
 ![Show Import Items List](media/intellisense-importaction.png)
 
