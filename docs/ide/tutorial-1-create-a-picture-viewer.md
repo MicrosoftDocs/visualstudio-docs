@@ -37,7 +37,7 @@ This tutorial walks you through the following tasks:
 
 * Write event handler methods.
 
-When you finish, your program should look similar to the following picture:
+When you finish, your program should look similar to the following image:
 
 ![Picture Viewer app that you create in this tutorial](../ide/media/express_pictureviewerdone.png)
 
@@ -59,10 +59,7 @@ When you finish, your program should look similar to the following picture:
 
 ## Next steps
 
-Begin the tutorial:
-
-> [!div class="nextstepaction"]
-> [Step 1: Create a Windows Forms application project](../ide/step-1-create-a-windows-forms-application-project.md)
+To begin the tutorial, start with **[Step 1: Create a Windows Forms application project](../ide/step-1-create-a-windows-forms-application-project.md)**.
 
 ## See also
 
