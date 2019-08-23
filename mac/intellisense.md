@@ -10,7 +10,7 @@ ms.date: 08/16/2019
 
 IntelliSense provides several features to help enhance the experience of writing and editing code. For example, in addition to code completion, the IntelliSense engine also provides member lists, parameter info, and quick info.
 
-In Visual Studio for Mac, IntelliSense is provided by the core editor service, and is supported in many languages, such as C#, XAML, F#, JavaScript and more. Visual Studio for Mac also features advanced IntelliSense features, such as the ability to show completions from libraries which are not yet imported into the project.
+In Visual Studio for Mac, IntelliSense is provided by the core editor service, and is supported in many languages, such as C#, XAML, F#, JavaScript and more. Visual Studio for Mac also features advanced IntelliSense features, such as the ability to show completions from libraries that are not yet imported into the project.
 
 ## Code Completion
 
@@ -40,7 +40,7 @@ By clicking on any of the icons, or by pressing the corresponding hotkeys, the c
 
 ## Show Import Items
 
-By default, IntelliSense completion will only display completions from libraries which have been imported into your project. For example, if you do not have `System.Collections.Generic` imported via `using` then you would not have a completion for `List<>`. In order to display completions from libraries which are you not imported, you must enable **Show Import Items** within the Preferences for Visual Studio for Mac. This setting can be found under **Preferences > Text Editor > IntelliSense**:
+By default, IntelliSense completion will only display completions from libraries which have been imported into your project. For example, if you do not have `System.Collections.Generic` imported via `using` then you would not have a completion for `List<>`. In order to display completions from libraries that are not imported, you must enable **Show Import Items** within the Preferences for Visual Studio for Mac. This setting can be found under **Preferences > Text Editor > IntelliSense**:
 
 ![IntelliSense Show Import Items](media/intellisense-showimport.png)
 
