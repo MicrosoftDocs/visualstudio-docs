@@ -20,20 +20,19 @@ The completion window also offers support for filtering the included completions
 
 | Icon                         | Name          | Keyword    | Hotkey |
 | -----------------------------|---------------| -----------|--------|
-| ![](media/classes-icon.png)  | class         | `class`    |  ⌥C
-| ![](media/constant-icon.png) | constant      | `const`    |  ⌥O
-| ![](media/delegate-icon.png) | delegate      | `delegate` |  ⌥D
-| ![](media/enums-icon.png)    | enum          | `enum`     |  ⌥E
-| ![](media/event-icon.png)    | event         |            |  ⌥V
-| ![](media/fields-icon.png)   | field         |            |  ⌥F
-| ![](media/interface-icon.png)| interface     | `interface`|  ⌥I
-| ![](media/keyword-icon.png)  | keyword       |            |  ⌥K
-| ![](media/method-icon.png)   | method        |            |  ⌥M
-| ![](media/namespace-icon.png)| namespace     | `namespace`|  ⌥N
-| ![](media/props-icon.png)    | property      |            |  ⌥P
-| ![](media/snippet-icon.png)  | snippet       | `class`    |  ⌥S
-| ![](media/struct-icon.png)   | structure     | `struct`   |  ⌥S
-|                              |                |            |  
+| ![Classes Icon](media/classes-icon.png)  | class         | `class`    |  ⌥C
+| ![Constant Icon](media/constant-icon.png) | constant      | `const`    |  ⌥O
+| ![Delegate Icon](media/delegate-icon.png) | delegate      | `delegate` |  ⌥D
+| ![Enum icon](media/enums-icon.png)    | enum          | `enum`     |  ⌥E
+| ![Event Icon](media/event-icon.png)    | event         |            |  ⌥V
+| ![Field Icon](media/fields-icon.png)   | field         |            |  ⌥F
+| ![Interface Icon](media/interface-icon.png)| interface     | `interface`|  ⌥I
+| ![Keyword Icon](media/keyword-icon.png)  | keyword       |            |  ⌥K
+| ![Method Icon](media/method-icon.png)   | method        |            |  ⌥M
+| ![Namespace Icon](media/namespace-icon.png)| namespace     | `namespace`|  ⌥N
+| ![Props Icon](media/props-icon.png)    | property      |            |  ⌥P
+| ![Snippet Icon](media/snippet-icon.png)  | snippet       | `class`    |  ⌥S
+| ![Struct Icon](media/struct-icon.png)   | structure     | `struct`   |  ⌥S
 
 By clicking on any of the icons, or by pressing the corresponding hotkeys, the completion list will limit to only types as defined by the filter set.  
 
