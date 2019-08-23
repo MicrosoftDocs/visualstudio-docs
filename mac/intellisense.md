@@ -8,15 +8,15 @@ ms.date: 08/16/2019
 
 # IntelliSense
 
-IntelliSense provides several features to help enhance the experience of writing and editing code. For example, the IntelliSense engine provides not only code completion but also member lists, parameter info and quick info. 
+IntelliSense provides several features to help enhance the experience of writing and editing code. For example, in addition to code completion, the IntelliSense engine also provides member lists, parameter info, and quick info.
 
 In Visual Studio for Mac, IntelliSense is provided by the core editor service, and is supported in many languages, such as C#, XAML, F#, JavaScript and more. Visual Studio for Mac also features advanced IntelliSense features, such as the ability to show completions from libraries which are not yet imported into the project.
 
 ## Code Completion
 
-When typing within a supported file, such as a C# code file, valid completion for the string you are currently typing will be displayed in a completion list. As you type, the list will automatically update to include only completions which are still valid for the string as entered. Furthermore, if you delete text, the list will again auto-update to include the wider range of possibilities for completing the given string. 
+When typing within a supported file, such as a C# code file, valid completions for the string you are currently typing will be displayed in a completion list and updated as you type. Furthermore, if you delete text, the list will again auto-update to include the wider range of possibilities for completing the given string. 
 
-The completion window also offers support for filtering the included completions by type. That is to say, it is possible to limit the members of the list to only represent types such as classes or delegates. This filtering processes can be enabled either through clicking on a specific icon representing the type which will be filtered or via keyboard shortcuts corresponding with a given type. The icons are as follows:
+The completion window also offers support for filtering the included completions by type. For example, it is possible to limit the members of the list to only represent types such as classes or delegates. This filtering processes can be enabled either through clicking on a specific icon representing the type which will be filtered or via keyboard shortcuts corresponding with a given type. The icons, which are located at the bottom of the completion window, are as follows:
 
 | Icon                         | Name          | Keyword    | Hotkey |
 | -----------------------------|---------------| -----------|--------|
@@ -41,17 +41,17 @@ By clicking on any of the icons, or by pressing the corresponding hotkeys, the c
 
 ## Show Import Items
 
-By default, IntelliSense completion will only display completions from libraries which you do not have imported into your project. That is to say, if you do not have `System.Collections.Generic` imported via `using` then you would not have a completion for `List<>`. In order to display completions from libraries which are you not imported, you must enable Show Import Items within the Preferences for Visual Studio for Mac. This can be found under Preferences > Text Edtior > IntelliSense:
+By default, IntelliSense completion will only display completions from libraries which you do not have imported into your project. For example, if you do not have `System.Collections.Generic` imported via `using` then you would not have a completion for `List<>`. In order to display completions from libraries which are you not imported, you must enable **Show Import Items** within the Preferences for Visual Studio for Mac. This can be found under **Preferences > Text Edtior > IntelliSense**:
 
 ![IntelliSense Show Import Items](media/intellisense-showimport.png)
 
-Once Show Import Items is enabled, the completion list will include completions that you have not yet imported. Upon selecting an item which corresponds to an un-imported library, the `using` statement for that library will automatically be added to the header of the code file. The name of the library to which the completion belongs is also listed along with the completion itself.
+Once **Show Import Items** is enabled, the completion list will include completions that you have not yet imported. Upon selecting an item which corresponds to an un-imported library, the `using` statement for that library will automatically be added to the header of the code file. The name of the library to which the completion belongs is also listed along with the completion itself.
 
 ![Show Import Items List](media/intellisense-importaction.png)
 
 ## Parameter Window
 
-Another feature of IntelliSense is the ability to provide a parameter list where appropriate. The parameter list provides details as to the method signatures for the code being called. You can cycle through each of the available parameter signatures to determine the most appropriate for your needs. In addition to the details of the types of data allowed, there may also be a description as defined in the target method via XML comments.
+Another feature of IntelliSense is the ability to provide a parameter list where appropriate. The parameter list provides details of the method signatures for the code being called. By clicking on the up/down arrows within the signature, you can cycle through each of the available parameter signatures to determine the most appropriate for your needs. In addition to the details of the types of data allowed, there may also be a description as defined in the target method via XML comments.
 
 ![Parameter List](media/intellisense-parameter.png)
 
