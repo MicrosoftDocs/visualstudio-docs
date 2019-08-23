@@ -16,7 +16,7 @@ In Visual Studio for Mac, IntelliSense is provided by the core editor service, a
 
 When typing within a supported file, such as a C# code file, valid completions for the string you are currently typing will be displayed in a completion list and updated as you type. Furthermore, if you delete text, the list will again auto-update to include the wider range of possibilities for completing the given string. 
 
-The completion window also offers support for filtering the included completions by type. For example, it is possible to limit the members of the list to only represent types such as classes or delegates. This filtering processes can be enabled either through clicking on a specific icon representing the type which will be filtered or via keyboard shortcuts corresponding with a given type. The icons, which are located at the bottom of the completion window, are as follows:
+The completion window also offers support for filtering the included completions by type. For example, it is possible to limit the members of the list to only represent types such as classes or delegates. This filtering process can be enabled either through clicking on a specific icon representing the type which will be filtered or via keyboard shortcuts corresponding with a given type. The icons, which are located at the bottom of the completion window, are as follows:
 
 | Icon                         | Name          | Keyword    | Hotkey |
 | -----------------------------|---------------| -----------|--------|
@@ -40,11 +40,11 @@ By clicking on any of the icons, or by pressing the corresponding hotkeys, the c
 
 ## Show Import Items
 
-By default, IntelliSense completion will only display completions from libraries which you do not have imported into your project. For example, if you do not have `System.Collections.Generic` imported via `using` then you would not have a completion for `List<>`. In order to display completions from libraries which are you not imported, you must enable **Show Import Items** within the Preferences for Visual Studio for Mac. This can be found under **Preferences > Text Edtior > IntelliSense**:
+By default, IntelliSense completion will only display completions from libraries which have been imported into your project. For example, if you do not have `System.Collections.Generic` imported via `using` then you would not have a completion for `List<>`. In order to display completions from libraries which are you not imported, you must enable **Show Import Items** within the Preferences for Visual Studio for Mac. This setting can be found under **Preferences > Text Editor > IntelliSense**:
 
 ![IntelliSense Show Import Items](media/intellisense-showimport.png)
 
-Once **Show Import Items** is enabled, the completion list will include completions that you have not yet imported. Upon selecting an item which corresponds to an un-imported library, the `using` statement for that library will automatically be added to the header of the code file. The name of the library to which the completion belongs is also listed along with the completion itself.
+Once **Show Import Items** is enabled, the completion list will include completions that you have not yet imported. Upon selecting an item which corresponds to an undelcared library, the `using` statement for that library will automatically be added to the header of the code file. The name of the library to which the completion belongs is also listed along with the completion itself.
 
 ![Show Import Items List](media/intellisense-importaction.png)
 
@@ -59,7 +59,7 @@ As you fill in the parameters, the parameter that you are currently editing will
 
 ## Triggering Completion Window and Parameter Window
 
-The completion window will be triggered automatically as you type within your source file. However, you can also trigger the completion window by using the shortcut `control-space`. This will cause the completion list to appear at the current position of your caret. 
+The completion window will be triggered automatically as you type within your source file. However, you can also trigger the completion window by using the shortcut `control-space`. This key combination will cause the completion list to appear at the current position of your caret. 
 
 You can also manually trigger the appearance of the parameter window by typing `control-shift-space`. When your caret is in the position that is valid for a parameter list, the parameter list will appear near the caret position.
 
