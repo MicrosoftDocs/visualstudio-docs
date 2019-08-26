@@ -43,8 +43,8 @@ Here's how.
  [Workloads](https://visualstudio.microsoft.com/vs/visual-studio-workloads/) contain the features you need for the programming language or platform that you're using. Use workloads to modify Visual Studio so that it supports the work you want to do, when you want to do it.
 
 >[!NOTE]
-> The following procedure assumes that you have an internet connection. 
-> 
+> The following procedure assumes that you have an internet connection.
+>
 > For more information about how to modify a previously created [offline installation](create-an-offline-installation-of-visual-studio.md) of Visual Studio, see the [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md) page.
 
 ::: moniker range="vs-2017"
