@@ -34,7 +34,8 @@ The emulator simulates the Azure Compute service and runs in your local environm
 
 3. Step through the application by selecting commands on the **Debug** menu and setting breakpoints in your code. As you step through the application in the debugger, the panes are updated with the current status of the application. When you stop debugging, the application deployment is deleted. If your application includes a web role and you've set the Startup action property to start the web browser, Visual Studio starts your web application in the browser. If you change the number of instances of a role in the service configuration, you must stop your cloud service and then restart debugging so that you can debug these new instances of the role.
 
-    **Note:** When you stop running or debugging your service, the local compute emulator and storage emulator aren't stopped. You must stop them explicitly from the notification area.
+    > [!NOTE]
+    > When you stop running or debugging your service, the local compute emulator and storage emulator aren't stopped. You must stop them explicitly from the notification area.
 
 ## Debug a cloud service in Azure
 
@@ -140,7 +141,8 @@ Visual Studio ASP.NET projects offer an option to create a handy virtual machine
 
     ![Create ASP.NET web project dialog box](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC746723.png)
 
-    **Note:** You'll be asked to sign in to your Azure account if you're not already signed in.
+    > [!NOTE]
+    > You'll be asked to sign in to your Azure account if you're not already signed in.
 
 3. Select the various settings for the virtual machine and then select **OK**. See [Virtual Machines](http://go.microsoft.com/fwlink/?LinkId=623033) for more information.
 

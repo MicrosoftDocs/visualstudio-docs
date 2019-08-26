@@ -1,8 +1,8 @@
 ---
-title: "Install a preview or update for Visual Studio for Mac"
+title: "Install a preview or update"
 description: "Instructions for updating Visual Studio for Mac and accessing preview releases, including the Visual Studio 2019 for Mac previews."
-author: conceptdev
-ms.author: crdun
+author: asb3993
+ms.author: amburns
 ms.date: 04/02/2019
 ms.topic: article
 ms.technology: vs-ide-install

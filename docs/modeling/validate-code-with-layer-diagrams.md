@@ -40,10 +40,9 @@ To make sure that code doesn't conflict with its design, validate your code with
 
 - Visual Studio
 
-- A solution that has a modeling project with a dependency diagram. This dependency diagram must be linked to artifacts in C# or Visual Basic projects that you want to validate. See [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md).
+  To create a dependency diagram for a .NET Core project, you must have Visual Studio 2019 version 16.2 or later.
 
-> [!NOTE]
-> Dependency diagrams are not supported for .NET Core projects in Visual Studio.
+- A solution that has a modeling project with a dependency diagram. This dependency diagram must be linked to artifacts in C# or Visual Basic projects that you want to validate. See [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md).
 
 To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
@@ -60,8 +59,8 @@ Dependency validation occurs in real time, and errors are shown immediately in t
 
 * To enable full solution analysis when using live dependency validation, open the options settings from the gold bar that appears in the **Error List**.
 
-   - You can permanently dismiss the gold bar if you are not interested in seeing all the architectural issues in your solution.
-   - If you don't enable full solution analysis, the analysis is done only for the files being edited.
+  - You can permanently dismiss the gold bar if you are not interested in seeing all the architectural issues in your solution.
+  - If you don't enable full solution analysis, the analysis is done only for the files being edited.
 
 * When upgrading projects to enable live validation, a dialog shows the progress of the conversion.
 

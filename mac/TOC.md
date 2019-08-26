@@ -31,6 +31,7 @@
 # Source Editor
 ## [Editor Features](source-editor.md)
 ## [Refactoring](refactoring.md)
+## [IntelliSense](intellisense.md)
 ## [Comments](comments.md)
 ## [Editor Behavior](editor-behavior.md)
 ## [Task Comments](task-comments.md)
@@ -80,6 +81,10 @@
 ### [Introduction to Azure Functions](azure-functions.md)
 ### [Tutorial: Azure Functions](azure-functions-lab.md)
 ### [Connected Services](connected-services.md)
+## Docker
+### [Get Started with Docker](docker-quickstart.md)
+### [Create a Multi-Container App with Docker Compose](docker-multi-container.md)
+
 ## Unity Game Development
 ### [Unity Game Development](unity-tools.md)
 ### [Setup](setup-vsmac-tools-unity.md)
@@ -100,3 +105,11 @@
 
 # [Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes)
 # [Preview Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-preview-relnotes)
+# Samples
+## [Featured Samples](samples.yml)
+## [All ASP.NET Core Samples](https://docs.microsoft.com/samples/browse/?products=aspnet-core)
+## [All .NET Core Samples](https://docs.microsoft.com/samples/browse/?products=dotnet-core)
+## [All Xamarin.Forms Samples](https://docs.microsoft.com/xamarin/xamarin-forms/samples/)
+## [All Xamarin.iOS Samples](https://docs.microsoft.com/xamarin/ios/samples/)
+## [All Xamarin.Android Samples](https://docs.microsoft.com/xamarin/android/samples/)
+## [All Xamarin.Mac Samples](https://docs.microsoft.com/xamarin/mac/samples/)

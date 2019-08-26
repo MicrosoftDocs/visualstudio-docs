@@ -24,11 +24,11 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
   
 - In XAML Designer, do one of the following:  
   
-    - Double-click an element in the **Toolbox** (or select an element in the Toolbox and press Enter).  
-  
-    - Drag an element from the **Toolbox** to the artboard.  
-  
-    - In the **Toolbox**, select one of the drawing tools (for example, [Ellipse](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.ellipse.aspx) or [Rectangle](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.rectangle.aspx)), and then draw an element in the active panel.  
+  - Double-click an element in the **Toolbox** (or select an element in the Toolbox and press Enter).  
+
+  - Drag an element from the **Toolbox** to the artboard.  
+
+  - In the **Toolbox**, select one of the drawing tools (for example, [Ellipse](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.ellipse.aspx) or [Rectangle](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.rectangle.aspx)), and then draw an element in the active panel.  
   
 ## Changing the layering order of elements  
  When there are two elements on the artboard in XAML Designer, one element will appear in front of the other in the layering order. At the bottom of the list of elements in the Document Outline window is the front-most element (except for when the **ZIndex** property for an element is set). When you insert an element into a page, form, or layout container, the element is automatically placed in front of other elements in the active container element. To change the order of elements, you can use the **Order** commands or drag the elements in the object tree in the Document Outline window.  

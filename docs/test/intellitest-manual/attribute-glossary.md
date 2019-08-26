@@ -19,7 +19,7 @@ author: gewarren
   * [PexClass](#pexclass)
   * [PexGenericArguments](#pexgenericarguments)
   * [PexMethod](#pexmethod)
-     - [PexExplorationAttributeBase](#pexexplorationattributebase)
+    * [PexExplorationAttributeBase](#pexexplorationattributebase)
 
 * **Microsoft.Pex.Framework.Settings**
   * [PexAssemblySettings](#pexassemblysettings)

@@ -71,7 +71,7 @@ ms.workload:
   The Word Template and Excel Template project templates behave identically to the Word Document and Excel Workbook project templates. However, the Word Template and Excel Template project templates makes it easy for users to create new local document or workbook copies of the customized template in your solution. The features in your solution are available from the new document that the user creates from the template.
 
 > [!NOTE]
-> Word templates that reference managed code extensions cannot be used as global VSTO Add-ins. The assembly is not called if the template is loaded from the Startup directory of Word. For more information, see [Limitations of global templates and Excel Add-ins (.xla files)](#Limitations)
+> Word templates that reference managed code extensions cannot be used as global VSTO Add-ins. The assembly is not called if the template is loaded from the Startup directory of Word. For more information, see [Limitations of global templates and Excel Add-ins (.xla files)](#Limitations).
 
  For information about getting started with these project types, see the following topics:
 
@@ -137,7 +137,7 @@ ms.workload:
 ## Document vs. template solutions
  When you design a solution around a Word document or Excel workbook, you must decide the best way to make that document available to your users.
 
- [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]  
+ [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
 
  In some situations, you might want to give a copy of a document to each user. In this case, create your solution by using an Excel or Word document project.
 

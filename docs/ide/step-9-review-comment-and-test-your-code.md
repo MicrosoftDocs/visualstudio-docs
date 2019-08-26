@@ -2,6 +2,9 @@
 title: "Step 9: Review, comment, and test your code"
 ms.date: 11/04/2016
 ms.topic: conceptual
+dev_langs:
+  - "csharp"
+  - "vb"
 ms.assetid: f26f79ba-c91b-4164-b87f-679a1b231c09
 author: TerryGLee
 ms.author: tglee
@@ -12,7 +15,7 @@ ms.workload:
 # Step 9: Review, comment, and test your code
 You next add a comment to your code. A comment is a note that doesn't change the way the program behaves. It makes it easier for someone who is reading your code to understand what it does. Adding comments to your code is a good habit to get into. In Visual C#, two forward slashes (//) mark a line as a comment. In Visual Basic, a single quotation mark (') is used to mark a line as a comment. After you add a comment, you test your program. It's good practice to run and test your code frequently while you're working on your projects, so you can catch and fix any problems early, before the code gets more complicated. This is called *iterative testing*.
 
- You just built something that works, and although it's not done yet, it can already load a picture. Before you add a comment to your code and test it, take time to review the code concepts, because you will use these concepts frequently:
+You just built something that works, and although it's not done yet, it can already load a picture. Before you add a comment to your code and test it, take time to review the code concepts, because you will use these concepts frequently:
 
 - When you double-clicked the **Show a picture** button in **Windows Forms Designer**, the IDE automatically added a *method* to your program's code.
 

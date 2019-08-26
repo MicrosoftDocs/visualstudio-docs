@@ -1,76 +1,79 @@
 ---
 title: Publish Page, Project Designer
 ms.date: 11/04/2016
+ms.technology: vs-ide-deployment
 ms.topic: reference
 f1_keywords:
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.PropertyPage"
 helpviewer_keywords:
   - "Project Designer, Publish page"
   - "Publish page in Project Designer"
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Publish Page, Project Designer
+
 The **Publish** page of the **Project Designer** is used to configure properties for ClickOnce deployment.
 
- To access the **Publish** page, select a project node in **Solution Explorer**, and then, on the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Publish** tab.
+To access the **Publish** page, select a project node in **Solution Explorer**, and then, on the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Publish** tab.
 
 > [!NOTE]
 > Some of the ClickOnce properties described here can also be set in the **PublishWizard**, available from the **Build** menu or by clicking the **PublishWizard** button on this page.
 
 ## UIElement List
+
  **Publishing Folder Location**
 
- Specifies the location where the application is published. Can be a drive path (`C:\deploy\myapplication`), a file share (`\\server\myapplication`), or an FTP server (`ftp://ftp.microsoft.com/myapplication`). Note that text must be present in the **Publishing Location** box in order for the browse (**...**) button to work.
+Specifies the location where the application is published. Can be a drive path (`C:\deploy\myapplication`), a file share (`\\server\myapplication`), or an FTP server (`ftp://ftp.microsoft.com/myapplication`). Note that text must be present in the **Publishing Location** box in order for the browse (**...**) button to work.
 
  **Installation Folder URL**
 
- Optional. Specifies a website to which users go to install the application. This is necessary only when it differs from the **Publishing Location**, for example, when the application is published to a staging server.
+Optional. Specifies a website to which users go to install the application. This is necessary only when it differs from the **Publishing Location**, for example, when the application is published to a staging server.
 
  **Install Mode and Settings**
 
- Determines whether the application is run directly from the **Publishing Location** (when **The application is available online only** is selected) or is installed and added to the **Start** menu and the **Add or Remove Programs** item in **Control Panel** (when **The application is available offline as well** is selected).
+Determines whether the application is run directly from the **Publishing Location** (when **The application is available online only** is selected) or is installed and added to the **Start** menu and the **Add or Remove Programs** item in **Control Panel** (when **The application is available offline as well** is selected).
 
- For WPF web browser apps, the **The application is available offline as well** option is disabled, because such applications are available only online.
+For WPF web browser apps, the **The application is available offline as well** option is disabled, because such applications are available only online.
 
  **Application Files**
 
- Opens the Application Files dialog box, which is used to specify how and where individual files are installed.
+Opens the Application Files dialog box, which is used to specify how and where individual files are installed.
 
  **Prerequisites**
 
- Opens the Prerequisites dialog box, which is used to specify prerequisite components, such as the .NET Framework, to be installed together with the application.
+Opens the Prerequisites dialog box, which is used to specify prerequisite components, such as the .NET Framework, to be installed together with the application.
 
  **Updates**
 
- Opens the Application Updates dialog box, which is used to specify update behavior for the application. Not available when **The application is available online only** is selected.
+Opens the Application Updates dialog box, which is used to specify update behavior for the application. Not available when **The application is available online only** is selected.
 
  **Options**
 
- Opens the Publish Options dialog box, which is used to specify additional advanced publishing options.
+Opens the Publish Options dialog box, which is used to specify additional advanced publishing options.
 
  **Publish Version**
 
- Sets the publish version number for the application; when the version number is changed, the application is published as an update. Each part of the publish version (**Major**, **Minor**, **Build**, **Revision**) can have a maximum value of 65355 (<xref:System.UInt16.MaxValue>), the maximum allowed by <xref:System.Version>.
+Sets the publish version number for the application; when the version number is changed, the application is published as an update. Each part of the publish version (**Major**, **Minor**, **Build**, **Revision**) can have a maximum value of 65355 (<xref:System.UInt16.MaxValue>), the maximum allowed by <xref:System.Version>.
 
- When you install more than one version of an application by using ClickOnce, the installation moves earlier versions of the application into a folder named Archive, in the publish location that you specify. Archiving earlier versions in this manner keeps the installation directory clear of folders from the earlier version.
+When you install more than one version of an application by using ClickOnce, the installation moves earlier versions of the application into a folder named Archive, in the publish location that you specify. Archiving earlier versions in this manner keeps the installation directory clear of folders from the earlier version.
 
  **Automatically increment revision with each publish**
 
- Optional. When this option is selected (the default), the **Revision** part of the publish version number is incremented by one every time that the application is published. This causes the application to be published as an update.
+Optional. When this option is selected (the default), the **Revision** part of the publish version number is incremented by one every time that the application is published. This causes the application to be published as an update.
 
  **Publish Wizard**
 
- Opens the Publish Wizard. Completing the Publish Wizard has the same effect as running the **Publish** command on the **Build** menu.
+Opens the Publish Wizard. Completing the Publish Wizard has the same effect as running the **Publish** command on the **Build** menu.
 
  **Publish Now**
 
- Publishes the application using the current settings. Equivalent to the **Finish** button in the **PublishWizard**.
+Publishes the application using the current settings. Equivalent to the **Finish** button in the **PublishWizard**.
 
-## See Also
+## See also
 
 - [Publishing ClickOnce Applications](../../deployment/publishing-clickonce-applications.md)
 - [How to: Publish a ClickOnce Application using the Publish Wizard](../../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

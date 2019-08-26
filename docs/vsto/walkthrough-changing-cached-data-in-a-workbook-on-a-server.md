@@ -1,6 +1,6 @@
 ---
 title: "Walkthrough: Change cached data in a workbook on a server"
-ms.date: "02/02/2017"
+ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -21,6 +21,8 @@ ms.workload:
   This walkthrough demonstrates how to modify a dataset that is cached in a Microsoft Office Excel workbook without starting Excel by using the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class.
 
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]
+
+[!include[Add-ins note](includes/addinsnote.md)]
 
  This walkthrough illustrates the following tasks:
 
@@ -48,9 +50,9 @@ ms.workload:
 
 - Access to a running instance of Microsoft SQL Server or Microsoft SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex website](http://go.microsoft.com/fwlink/?linkid=87843). For more information about attaching a database, see the following topics:
 
-    - To attach a database by using SQL Server Management Studio or SQL Server Management Studio Express, see [How to: Attach a database (SQL Server Management Studio)](/sql/relational-databases/databases/attach-a-database).
+  - To attach a database by using SQL Server Management Studio or SQL Server Management Studio Express, see [How to: Attach a database (SQL Server Management Studio)](/sql/relational-databases/databases/attach-a-database).
 
-    - To attach a database by using the command line, see [How to: Attach a database file to SQL Server Express](/previous-versions/sql/).
+  - To attach a database by using the command line, see [How to: Attach a database file to SQL Server Express](/previous-versions/sql/).
 
 ## Create a class library project that defines a dataset
  To use the same dataset in an Excel workbook project and a console application, you must define the dataset in a separate assembly that is referenced by both of these projects. For this walkthrough, define the dataset in a class library project.

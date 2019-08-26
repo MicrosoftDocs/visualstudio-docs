@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn about the Office 365 Developer benefit included in your Visual Studio subscription.
-searchscope: VS Subscription
 ---
 
 # The Office 365 Developer subscription benefit in Visual Studio subscriptions

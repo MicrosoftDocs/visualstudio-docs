@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn about the Power BI Pro subscription included with selected Visual Studio subscriptions.
-searchscope: VS Subscription
 ---
 
 # Power BI Pro in Visual Studio subscriptions
@@ -29,8 +28,6 @@ To use Power BI Pro, you’ll need to set up an account or sign in using an exis
    > ![Power BI Pro Benefit Existing Account](_img/vs-pbi/vs-pbi-existing-account.png)
 
 4. To create a new account, provide your contact information, then click **Next**.
-   > [!div class="mx-imgBorder"]
-   > ![Power BI Pro Benefit Create Account](_img/vs-pbi/vs-pbi-create-account-cropped.png)
 
 5. Next, create your user ID and password.  If you already have an account and you’re creating a new one, you’ll need to provide a different company name than you used on the existing account.  Click **Create my account**.
    > [!div class="mx-imgBorder"]
@@ -41,8 +38,6 @@ To use Power BI Pro, you’ll need to set up an account or sign in using an exis
    > ![Power BI Pro Benefit Not A Robot](_img/vs-pbi/vs-pbi-robot1-cropped.png)
 
 7. Enter the code you receive, and click **Next**.
-   > [!div class="mx-imgBorder"]
-   > ![Power BI Pro Benefit Not A Robot2](_img/vs-pbi/vs-pbi-robot2-cropped.png)
 
 8. Provide your contact information, then click **Next**.
    > [!div class="mx-imgBorder"]
@@ -55,8 +50,6 @@ To use Power BI Pro, you’ll need to set up an account or sign in using an exis
     > ![Power BI Pro Benefit Contact Information](_img/vs-pbi/vs-pbi-payment-blurred-cropped.png)
 
 11. The next page confirms you’re all set to start using Power BI Pro.  The page will provide a link to the sign-in page.  We recommend recording the link to the sign-in page as well as your user ID.  (You will also receive a welcome email at the address you provided when you set up the account.)  You may also see an automated Office 365 Assistant window, which you can use if you have questions.  Click **Let’s get started** to continue.
-    > [!div class="mx-imgBorder"]
-    > ![Power BI Pro Benefit All Set](_img/vs-pbi/vs-pbi-all-set-cropped.png)
 
 12. Now that your Power BI Pro account is set up, you’ll see the Office 365 Admin center, where you can manage users and domains, install Office software, and learn about Office 365.  That’s it!  You’re ready to go.
 
@@ -106,9 +99,9 @@ A:  No.  The Power BI Pro benefit cannot be added to government tenants.
 
 ## Support resources
 - Need help with Power BI Pro?
-    - Check out the [online documentation](/power-bi/).
-    - Problems signing up?  Check out [Signing up for Power BI as an Individual](/power-bi/service-self-service-signup-for-power-bi)
-    - Explore top issues, get help from the community or submit a support ticket on the [Support page](https://powerbi.microsoft.com/support/).
+  - Check out the [online documentation](/power-bi/).
+  - Problems signing up?  Check out [Signing up for Power BI as an Individual](/power-bi/service-self-service-signup-for-power-bi)
+  - Explore top issues, get help from the community or submit a support ticket on the [Support page](https://powerbi.microsoft.com/support/).
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 

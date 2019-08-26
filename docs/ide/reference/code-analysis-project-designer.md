@@ -20,41 +20,41 @@ Contains the code analysis tool that you can opt to run on your code. The tool r
 
 ## UIElement list
 
- Enable Code Analysis\
- Enables or disables code analysis for your project.
+Enable Code Analysis\
+Enables or disables code analysis for your project.
 
- Design Rules\
- Enables or disables the design rules. You can also expand this entry to enable or disable individual rules.
+Design Rules\
+Enables or disables the design rules. You can also expand this entry to enable or disable individual rules.
 
- Globalization Rules\
- Enables or disables the globalization rules. You can also expand this entry to enable or disable individual rules.
+Globalization Rules\
+Enables or disables the globalization rules. You can also expand this entry to enable or disable individual rules.
 
- Interoperability Rules\
- Enables or disables the interoperability rules. You can also expand this entry to enable or disable individual rules.
+Interoperability Rules\
+Enables or disables the interoperability rules. You can also expand this entry to enable or disable individual rules.
 
- Maintainability Rules\
- Enables or disables the maintainability rules. You can also expand this entry to enable or disable individual rules.
+Maintainability Rules\
+Enables or disables the maintainability rules. You can also expand this entry to enable or disable individual rules.
 
- Mobility Rules\
- Enables or disables the mobility rules. You can also expand this entry to enable or disable individual rules.
+Mobility Rules\
+Enables or disables the mobility rules. You can also expand this entry to enable or disable individual rules.
 
- Naming Rules\
- Enables or disables the naming rules. You can also expand this entry to enable or disable individual rules.
+Naming Rules\
+Enables or disables the naming rules. You can also expand this entry to enable or disable individual rules.
 
- Performance Rules\
- Enables or disables the performance rules. You can also expand this entry to enable or disable individual rules.
+Performance Rules\
+Enables or disables the performance rules. You can also expand this entry to enable or disable individual rules.
 
- Portability Rules\
- Enables or disables the portability rules. You can also expand this entry to enable or disable individual rules.
+Portability Rules\
+Enables or disables the portability rules. You can also expand this entry to enable or disable individual rules.
 
- Reliability Rules\
- Enables or disables the reliability rules. You can also expand this entry to enable or disable individual rules.
+Reliability Rules\
+Enables or disables the reliability rules. You can also expand this entry to enable or disable individual rules.
 
- Security Rules\
- Enables or disables the security rules. You can also expand this entry to enable or disable individual rules.
+Security Rules\
+Enables or disables the security rules. You can also expand this entry to enable or disable individual rules.
 
- Usage Rules\
- Enables or disables the usage rules. You can also expand this entry to enable or disable individual rules.
+Usage Rules\
+Enables or disables the usage rules. You can also expand this entry to enable or disable individual rules.
 
 ## See also
 

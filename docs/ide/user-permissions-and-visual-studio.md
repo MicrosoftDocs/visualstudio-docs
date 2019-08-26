@@ -34,7 +34,8 @@ You can do nearly everything in the Visual Studio IDE as a normal user. You need
 ||Debug in Zone for XAML Browser Applications (XBAP).|[WPF host (PresentationHost.exe)](/dotnet/framework/wpf/app-development/wpf-host-presentationhost-exe)|
 ||Use the emulator to debug cloud service projects for Microsoft Azure.|[Debug a cloud service in Visual Studio](/azure/vs-azure-tools-debug-cloud-services-virtual-machines)|
 ||Configure a firewall for remote debugging.|[Remote debugging](../debugger/remote-debugging.md)|
-|Performance tools|Profiling an application.|[Beginners guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md)|
+|Performance tools|Attaching to an elevated application.|[Beginners guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md)|
+||Use the GPU Profiler.|[GPU profiling](../profiling/gpu-usage.md)|
 |Deployment|Deploy a web application to Internet Information Services (IIS) on a local computer.|[Deploy an ASP.NET web app using Visual Studio](/aspnet/web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-provider/)|
 
 ## Run Visual Studio as an administrator

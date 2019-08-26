@@ -19,11 +19,11 @@ This feature is only available on elements. The following rules also apply:
 
 - The current element in the editor must be empty with no attributes. For example,  the following are all valid
 
-    - `<Account`
+  - `<Account`
 
-    - `<Account>`
+  - `<Account>`
 
-    - `<Account></Account>`
+  - `<Account></Account>`
 
 - The cursor must be located immediately to the right of the element name.
 
@@ -37,7 +37,7 @@ Default values are generated and noted as editable values. If the schema specifi
 
 ## Example
 
- The steps in this section show you how to use the schema-generated XML snippet feature of the XML editor.
+The steps in this section show you how to use the schema-generated XML snippet feature of the XML editor.
 
 > [!NOTE]
 > Before starting these procedures, save the schema file to your local computer.
@@ -86,7 +86,7 @@ Default values are generated and noted as editable values. If the schema specifi
 
 ## Input
 
- The following schema file is used by the walkthrough.
+The following schema file is used by the walkthrough.
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -135,7 +135,7 @@ Default values are generated and noted as editable values. If the schema specifi
 
 ### Output
 
- Following is the XML data that is generated based on the schema information associated with the `Contact` element. Items marked as `bold` designate editable fields in the XML snippet.
+Following is the XML data that is generated based on the schema information associated with the `Contact` element. Items marked as `bold` designate editable fields in the XML snippet.
 
 ```xml
 <Contact>

@@ -1,7 +1,7 @@
 ---
 title: "Create a network-based installation"
 description: "Learn how to create a network install point for deploying Visual Studio within an enterprise."
-ms.date: 04/26/2019
+ms.date: 08/06/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
@@ -79,6 +79,8 @@ See [Automate Visual Studio installation with a response file](automated-install
 ## Copy the layout to a network share
 
 Host the layout on a network share so it can be run from other machines.
+
+The following example uses [xcopy](/windows-server/administration/windows-commands/xcopy/). You can also use [robocopy](/windows-server/administration/windows-commands/robocopy/), should you wish.  
 
 ::: moniker range="vs-2017"
 
@@ -261,9 +263,10 @@ We have other support options available, too. For a list, see our [Feedback](../
 
 ## See also
 
-* [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
-* [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
-* [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
-* [Visual Studio administrator guide](visual-studio-administrator-guide.md)
-* [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
-* [Visual Studio workload and component IDs](workload-and-component-ids.md)
+- [Visual Studio administrator guide](visual-studio-administrator-guide.md)
+- [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
+- [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
+- [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
+- [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)
+- [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
+- [Visual Studio workload and component IDs](workload-and-component-ids.md)

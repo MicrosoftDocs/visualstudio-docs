@@ -1,5 +1,6 @@
 ---
 title: Common Quick Actions
+description: Most popular Quick Actions for C# and Visual Basic including fixing mispelled keywords or symbols, resolving merge conflicts, removing necessary imports, generating types, introducing local variables, etc.
 ms.date: 03/28/2018
 ms.topic: reference
 author: gewarren
@@ -152,7 +153,7 @@ public MyMethod()
 
 ### Remove type from default value expression
 
-This Quick Action removes the value type from a default value expression and uses the [default literal](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference) when the compiler can infer the type of the expression.
+This Quick Action removes the value type from a default value expression and uses the [default literal](/dotnet/csharp/language-reference/operators/default#default-literal) when the compiler can infer the type of the expression.
 
 ```csharp
 // Before

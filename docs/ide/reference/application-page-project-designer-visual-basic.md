@@ -58,7 +58,7 @@ For .NET Framework projects, the default value matches the target framework that
 > [!NOTE]
 > The prerequisite packages that are listed in the [Prerequisites Dialog Box](../../ide/reference/prerequisites-dialog-box.md) are set automatically when you open the dialog box for the first time. If you subsequently change the project's target framework, you must specify the prerequisites manually to match the new target framework.
 
-For more information, see [How to: Target a Version of the .NET Framework](../../ide/how-to-target-a-version-of-the-dotnet-framework.md) and [Framework targeting overview](../../ide/visual-studio-multi-targeting-overview.md).
+For more information, see [Framework targeting overview](../../ide/visual-studio-multi-targeting-overview.md).
 
 ### Application type
 

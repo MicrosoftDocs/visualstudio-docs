@@ -25,9 +25,8 @@ With live, project-based code analyzers in Visual Studio, API authors can ship d
 
 [Several examples on GitHub, grouped into three kinds of analyzers](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Analyzer%20Samples.md)
 
-
 ## See also
 
 - [.NET compiler platform package version reference](roslyn-version-support.md)
 - [More docs on the GitHub OSS site](https://github.com/dotnet/roslyn/tree/master/docs/analyzers)
-- [FxCop rules implemented with Roslyn analyzers](http://roslynanalyzersstatus.azurewebsites.net/)
+- [FxCop rules implemented with Roslyn analyzers](../code-quality/fxcop-rule-port-status.md)

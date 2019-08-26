@@ -22,9 +22,9 @@ Starting with Visual Studio 2017 version 15.4, Live Unit Testing includes improv
 
 - **Improved discoverability**. For users who do not know that the Live Unit Testing feature exists, the Visual Studio IDE shows a gold bar that mentions Live Unit Testing whenever the user opens a solution that includes unit tests but Live Unit Testing is not enabled. The information presented in the gold bar allows the user to learn more about Live Unit Testing and to enable it. The gold bar also displays information when Live Unit Testing prerequisites are not met. These include:
 
-   - Test adapters are missing.
-   - Older versions of test adapters are present.
-   - A restore of NuGet packages referenced by the solution is needed.
+  - Test adapters are missing.
+  - Older versions of test adapters are present.
+  - A restore of NuGet packages referenced by the solution is needed.
 
 - **Integration with Task Center notifications**. The Visual Studio IDE now shows a Live Unit Testing background processing notification in Task Center so that users can easily tell what is happening when Live Unit Testing is enabled. This addresses the key problem of starting Live Unit Testing on a large solution. Previously, for a few minutes until the coverage icons appeared, users couldn’t determine whether Live Unit Testing was really enabled and whether it was working. Not anymore!
 
@@ -54,9 +54,9 @@ In addition to these major additions, Live Unit Testing includes the following e
 
 - You can now use the following attributes to specify in source code that you want to exclude targeted test methods from Live Unit Testing:
 
-   - For xUnit: `[Trait("Category", "SkipWhenLiveUnitTesting")]`
-   - For NUnit: `[Category("SkipWhenLiveUnitTesting")]`
-   - For MSTest: `[TestCategory("SkipWhenLiveUnitTesting")]`
+  - For xUnit: `[Trait("Category", "SkipWhenLiveUnitTesting")]`
+  - For NUnit: `[Category("SkipWhenLiveUnitTesting")]`
+  - For MSTest: `[TestCategory("SkipWhenLiveUnitTesting")]`
 
 ## See also
 

@@ -84,7 +84,8 @@ window.ShowModal()
 ### <a name="BKMK_Formatting"></a> Formatting (scaling/bolding) reference
  Some dialogs require particular text to be bold or a size other than the environment font. Previously, fonts larger than the environment font were coded as "`environment font +2`" or similar. Using the provided code snippets will support high-DPI monitors and ensure that display text always appears at the correct size and weight (like Light or Semilight).
 
-> **Note: Before you apply formatting, ensure you are following the guidance found in [Text style](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TextStyle).**
+> [!NOTE]
+> Before you apply formatting, ensure you are following the guidance found in [Text style](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TextStyle).**
 
  To scale the environment font, set the style of the TextBlock or Label as indicated. Each of these code snippets, properly used, will generate the correct font, including the appropriate size and weight variations.
 
@@ -394,11 +395,11 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
 - Larger headings (environment font x 155% or greater) can be colored for these purposes:
 
-    - To provide visual appeal to signature Visual Studio UI
+  - To provide visual appeal to signature Visual Studio UI
 
-    - To call attention to a specific area
+  - To call attention to a specific area
 
-    - To offer relief from the standard dark gray/black environment text color
+  - To offer relief from the standard dark gray/black environment text color
 
 - Color in headings should leverage existing Visual Studio brand colors, primarily the main purple, #FF68217A.
 

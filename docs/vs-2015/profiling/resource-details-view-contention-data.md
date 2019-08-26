@@ -33,10 +33,10 @@ The Resource Details view presents a timeline graph of the blocking events that 
   
 - Perform one of the following steps:  
   
-    - Click **Zoom Out** to return to the previous zoom level.  
-  
-    - Click **Zoom Reset** to show all of the timeline in the view.  
-  
+  - Click **Zoom Out** to return to the previous zoom level.  
+
+  - Click **Zoom Reset** to show all of the timeline in the view.  
+
 #### To view the call stack of an event  
   
 - In the timeline graph, click the event bar.  

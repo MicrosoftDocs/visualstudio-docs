@@ -16,15 +16,6 @@
   items:
   - name: Install Visual Studio
     href: install/install-visual-studio.md
-  - name: Personalization accounts
-    items:
-    - name: Sign in to Visual Studio
-      displayName: personalization accounts
-      href: ide/signing-in-to-visual-studio.md
-    - name: Work with multiple user accounts
-      href: ide/work-with-multiple-user-accounts.md
-    - name: Extend a trial version or update a license
-      href: ide/how-to-unlock-visual-studio.md
   - name: Install offline
     items:
     - name: Create an offline installation of Visual Studio
@@ -61,8 +52,6 @@
       items:
       - name: Create a network-based installation of Visual Studio
         href: install/create-a-network-installation-of-visual-studio.md
-      - name: Update a network-based installation of Visual Studio
-        href: install/update-a-network-installation-of-visual-studio.md
       - name: Network considerations
         items:
         - name: Install and use Visual Studio behind a firewall or proxy server
@@ -77,28 +66,32 @@
         href: install/automatically-apply-product-keys-when-deploying-visual-studio.md
       - name: Set defaults for enterprise deployments of Visual Studio
         href: install/set-defaults-for-enterprise-deployments.md
-      - name: Disable or move the package cache
-        href: install/disable-or-move-the-package-cache.md
-      - name: Control updates to Visual Studio deployments
-        href: install/controlling-updates-to-visual-studio-deployments.md
-      - name: Update Visual Studio while on a servicing baseline
-        href: install/update-servicing-baseline.md
-    - name: Manage installations
+      - name: Deploy Help Viewer
+        items:
+        - name: Help Viewer Administrator Guide
+          href: help-viewer/administrator-guide.md
+        - name: Command-Line Arguments for the Help Content Manager
+          href: help-viewer/command-line-arguments.md
+        - name: Help Content Manager Overrides
+          href: help-viewer/behavior-overrides.md
+    - name: Manage & update installations
       items:
       - name: Tools for detecting and managing Visual Studio instances
         href: install/tools-for-managing-visual-studio-instances.md
+      - name: Update a network-based installation of Visual Studio
+        href: install/update-a-network-installation-of-visual-studio.md
+      - name: Update Visual Studio while on a servicing baseline
+        href: install/update-servicing-baseline.md
+      - name: Control updates to Visual Studio deployments
+        href: install/controlling-updates-to-visual-studio-deployments.md
+      - name: Manage package payload changes
+        href: install/changed-payloads.md
+      - name: Disable or move the package cache
+        href: install/disable-or-move-the-package-cache.md
     - name: Manage subscriptions
       items:
       - name: "Visual Studio subscriptions: Administrator overview"
         href: /visualstudio/subscriptions/admin-responsibilities
-    - name: Deploy Help Viewer
-      items:
-      - name: Help Viewer Administrator Guide
-        href: help-viewer/administrator-guide.md
-      - name: Command-Line Arguments for the Help Content Manager
-        href: help-viewer/command-line-arguments.md
-      - name: Help Content Manager Overrides
-        href: help-viewer/behavior-overrides.md
     - name: Reference
       items:
       - name: Visual Studio workload and component IDs
@@ -126,8 +119,6 @@
           href: install/workload-component-id-vs-test-professional.md
         - name: Visual Studio Feedback Client
           href: install/workload-component-id-vs-feedback-client.md
-      - name: Package payload changes
-        href: install/changed-payloads.md
       - name: Visual Studio build numbers and release dates
         href: install/visual-studio-build-numbers-and-release-dates.md
   - name: Use Visual Studio from an Azure virtual machine
@@ -203,8 +194,6 @@
           href: ide/managing-references-in-a-project.md
         - name: Add or remove references by using the Reference Manager
           href: ide/how-to-add-or-remove-references-by-using-the-reference-manager.md
-        - name: Add references using NuGet versus an extension SDK
-          href: ide/adding-references-using-nuget-versus-an-extension-sdk.md
         - name: Add or remove imported namespaces (Visual Basic)
           href: ide/how-to-add-or-remove-imported-namespaces-visual-basic.md
         - name: Troubleshoot broken references
@@ -226,11 +215,7 @@
       - name: Specify an application icon (Visual Basic, C#)
         href: ide/how-to-specify-an-application-icon-visual-basic-csharp.md
       - name: Target a framework
-        items:
-        - name: Multi-targeting overview
-          href: ide/visual-studio-multi-targeting-overview.md
-        - name: Target a version of the .NET Framework
-          href: ide/how-to-target-a-version-of-the-dotnet-framework.md
+        href: ide/visual-studio-multi-targeting-overview.md
       - name: Create templates
         items:
         - name: Create project and item templates
@@ -381,14 +366,20 @@
             href: ide/reference/convert-foreach-linq.md
           - name: Convert LINQ query to foreach statement
             href: ide/reference/convert-linq-to-foreach.md
+          - name: Convert switch statement to switch expression
+            href: ide/reference/convert-switch-statement-to-switch-expression.md
           - name: Encapsulate field
             href: ide/reference/encapsulate-field.md
           - name: Extract interface
             href: ide/reference/extract-interface.md
           - name: Extract method
             href: ide/reference/extract-method.md
+          - name: Generate parameter
+            href: ide/reference/generate-parameter.md
           - name: Inline temporary variable
             href: ide/reference/inline-temporary-variable.md
+          - name: IntelliSense completion unimported types
+            href: ide/reference/intellisense-completion-unimported-types.md
           - name: Invert conditional expressions and logical operations
             href: ide/reference/invert-conditional-logical.md
           - name: Invert if statement
@@ -397,6 +388,8 @@
             href: ide/reference/move-declaration-near-reference.md
           - name: Move type to matching file
             href: ide/reference/move-type-to-matching-file.md
+          - name: Move type to namespace
+            href: ide/reference/move-type-to-namespace.md
           - name: Pull member up
             href: ide/reference/pull-members-up.md
           - name: Regex completion through IntelliSense
@@ -405,6 +398,12 @@
             href: ide/reference/remove-unreachable-code.md
           - name: Rename
             href: ide/reference/rename.md
+          - name: Sort usings
+            href: ide/reference/sort-usings.md
+          - name: Split or merge if statements
+            href: ide/reference/split-or-merge-if-statement.md
+          - name: Sync namespace and folder name
+            href: ide/reference/sync-namespace-and-folder-name.md
           - name: Synchronize type and filename
             href: ide/reference/sync-type-and-file.md
           - name: Use explicit type
@@ -413,6 +412,8 @@
             href: ide/reference/use-block-body-lambda.md
           - name: Unused value assignments, variables, and parameters
             href: ide/reference/unused-values-parameters.md
+          - name: Wrap and align call chains
+            href: ide/reference/wrap-and-align-call-chains.md
           - name: Wrap, indent, and align parameters
             href: ide/reference/wrap-align-indent-parameters.md
         - name: "Walkthrough: Generate code from usage"
@@ -470,10 +471,16 @@
         - name: Use EditorConfig files for code style
           displayName: Configure code style analyzers
           href: ide/create-portable-custom-editor-options.md
-        - name: .NET language and formatting conventions
-          href: ide/editorconfig-code-style-settings-reference.md
-        - name: .NET naming conventions
-          href: ide/editorconfig-naming-conventions.md
+        - name: .NET coding conventions
+          items:
+          - name: Overview
+            href: ide/editorconfig-code-style-settings-reference.md
+          - name: Language conventions
+            href: ide/editorconfig-language-conventions.md
+          - name: Formatting conventions
+            href: ide/editorconfig-formatting-conventions.md
+          - name: Naming conventions
+            href: ide/editorconfig-naming-conventions.md
       - name: Customize the scroll bar
         href: ide/how-to-track-your-code-by-customizing-the-scrollbar.md
       - name: Set bookmarks in code
@@ -568,6 +575,8 @@
       href: vsto/office-and-sharepoint-development-in-visual-studio.md
     - name: Work with XML and XSLT files
       href: xml-tools/xml-tools-in-visual-studio.md
+    - name: Develop with containers
+      href: containers/index.yml
     - name: Develop inclusive apps
       items:
       - name: Design accessible apps
@@ -575,12 +584,14 @@
       - name: Design international apps
         displayName: Globalization localization world-ready
         href: ide/globalizing-and-localizing-applications.md
-  - name: Access data...
+  - name: Access data >>
     displayName: Data connections
     href: data-tools/accessing-data-in-visual-studio.md
-  - name: Design user interfaces...
+  - name: Design user interfaces >>
     displayName: XAML designer
     href: designers/designing-user-interfaces.md
+  - name: Develop apps with Workflow Designer >>
+    href: workflow-designer/developing-applications-with-the-workflow-designer.md
   - name: Compile and build
     items:
     - name: Overview
@@ -629,9 +640,9 @@
         href: ide/how-to-configure-projects-to-target-platforms.md
       - name: Configure projects to target multiple platforms
         href: ide/how-to-configure-projects-to-target-multiple-platforms.md
-    - name: MSBuild...
+    - name: MSBuild >>
       href: msbuild/msbuild.md
-    - name: Azure Pipelines and TFS...
+    - name: Azure Pipelines and TFS >>
       displayName: VSTS Azure DevOps CI/CD Continuous integration delivery
       href: /azure/devops/pipelines/index?view=vsts
     - name: Specify build events (Visual Basic)
@@ -642,23 +653,23 @@
       href: ide/configuring-warnings-in-visual-basic.md
     - name: "Walkthrough: Create a multiple-computer build environment"
       href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
-  - name: Debug...
+  - name: Debug >>
     href: debugger/index.md
-  - name: Test...
+  - name: Test >>
     displayName: Unit testing
     href: test/improve-code-quality.md
-  - name: Measure performance...
+  - name: Measure performance >>
     displayName: Profiling
     href: profiling/index.md
-  - name: Analyze code quality...
+  - name: Analyze code quality >>
     displayName: Code analysis FxCop Analyzers
     href: code-quality/index.md
-  - name: Deploy...
+  - name: Deploy >>
     href: deployment/index.md
-  - name: Extend Visual Studio...
+  - name: Extend Visual Studio >>
     displayName: Visual Studio SDK
     href: extensibility/visual-studio-sdk.md
-  - name: Analyze and Model Architecture...
+  - name: Analyze and Model Architecture >>
     href: modeling/analyze-and-model-your-architecture.md
   - name: Tips and tricks
     items:
@@ -702,6 +713,15 @@
       displayName: marketplace, gallery, vsix
     - name: Manage external tools
       href: ide/managing-external-tools.md
+    - name: Personalization accounts
+      items:
+      - name: Sign in to Visual Studio
+        displayName: personalization accounts
+        href: ide/signing-in-to-visual-studio.md
+      - name: Work with multiple user accounts
+        href: ide/work-with-multiple-user-accounts.md
+      - name: Extend a trial version or update a license
+        href: ide/how-to-unlock-visual-studio.md
   - name: Performance of Visual Studio
     items:
     - name: Optimize performance
@@ -814,151 +834,177 @@
       href: ide/reference/call-hierarchy.md
     - name: Preview Changes
       href: ide/preview-changes.md
-    - name: Choose Toolbox Items, WPF Components
+    - name: Choose Toolbox items, WPF components
       href: ide/reference/choose-toolbox-items-wpf-components.md
-    - name: Code Snippet Picker
+    - name: Code snippet picker
       href: ide/reference/code-snippet-picker.md
-    - name: Command Window
+    - name: Command window
       href: ide/reference/command-window.md
-    - name: Convert Dialog Box
+    - name: Convert dialog box
       href: ide/reference/convert-dialog-box.md
-    - name: Error List Window
+    - name: Error List window
       href: ide/reference/error-list-window.md
     - name: File Properties, JavaScript
       href: ide/reference/file-properties-javascript.md
     - name: Go To Line
       href: ide/reference/go-to-line.md
-    - name: Immediate Window
+    - name: Immediate window
       href: ide/reference/immediate-window.md
-    - name: Miscellaneous Files
+    - name: Miscellaneous files
       href: ide/reference/miscellaneous-files.md
     - name: Options
       items:
-      - name: Options Dialog Box
+      - name: Options dialog box
         href: ide/reference/options-dialog-box-visual-studio.md
-      - name: Environment Options
+      - name: Environment
         items:
-        - name: Environment Options Dialog Box
-          href: ide/reference/environment-options-dialog-box.md
-        - name: Environment - General
+        - name: General
           href: ide/reference/general-environment-options-dialog-box.md
-        - name: Environment - AutoRecover
-          href: ide/reference/autorecover-environment-options-dialog-box.md
-        - name: Environment - Documents
-          href: ide/reference/documents-environment-options-dialog-box.md
-        - name: Environment - Extensions
-          href: ide/reference/extensions-and-updates-environment-options-dialog-box.md
-        - name: Environment - Find and Replace
-          href: ide/reference/find-and-replace-environment-options-dialog-box.md
-        - name: Environment - Fonts and Colors
-          href: ide/reference/fonts-and-colors-environment-options-dialog-box.md
-        - name: Environment - Import and Export Settings
-          href: ide/reference/import-and-export-settings-environment-options-dialog-box.md
-        - name: Environment - International Settings
-          href: ide/reference/international-settings-environment-options-dialog-box.md
-        - name: Environment - Keyboard
-          href: ide/reference/keyboard-environment-options-dialog-box.md
-        - name: Environment - Notifications
-          href: ide/reference/notifications-environment-options-dialog-box.md
-        - name: Environment - Quick Launch
-          href: ide/reference/quick-launch-environment-options-dialog-box.md
-        - name: Environment - Startup
-          href: ide/reference/startup-environment-options-dialog-box.md
-        - name: Environment - Accounts
+        - name: Accounts
           href: ide/reference/accounts-environment-options-dialog-box.md
-        - name: Environment - Tabs and Windows
+        - name: AutoRecover
+          href: ide/reference/autorecover-environment-options-dialog-box.md
+        - name: Documents
+          href: ide/reference/documents-environment-options-dialog-box.md
+        - name: Extensions
+          href: ide/reference/extensions-and-updates-environment-options-dialog-box.md
+        - name: Find and Replace
+          href: ide/reference/find-and-replace-environment-options-dialog-box.md
+        - name: Fonts and Colors
+          href: ide/reference/fonts-and-colors-environment-options-dialog-box.md
+        - name: Import and Export Settings
+          href: ide/reference/import-and-export-settings-environment-options-dialog-box.md
+        - name: International Settings
+          href: ide/reference/international-settings-environment-options-dialog-box.md
+        - name: Keyboard
+          href: ide/reference/keyboard-environment-options-dialog-box.md
+        - name: Preview Features
+          href: ide/reference/environment-preview-features-options.md
+        - name: Notifications
+          href: ide/reference/notifications-environment-options-dialog-box.md
+        - name: Quick Launch
+          href: ide/reference/quick-launch-environment-options-dialog-box.md
+        - name: Startup
+          href: ide/reference/startup-environment-options-dialog-box.md
+        - name: Tabs and Windows
           href: ide/reference/tabs-and-windows-environment-options-dialog-box.md
-        - name: Environment - Task List
+        - name: Task List
           href: ide/reference/task-list-environment-options-dialog-box.md
-        - name: Environment - Trust Settings
+        - name: Trust Settings
           href: ide/reference/trust-settings.md
-        - name: Environment - Web Browser
+        - name: Web Browser
           href: ide/reference/web-browser-environment-options-dialog-box.md
-      - name: Text Editor Options
+      - name: Projects and Solutions
         items:
-        - name: Text Editor Options Dialog Box
-          href: ide/reference/text-editor-options-dialog-box.md
-        - name: Text Editor - General
-          href: ide/reference/options-text-editor-general.md
-        - name: Text Editor - File Extension
-          href: ide/reference/options-text-editor-file-extension.md
-        - name: Text Editor - All Languages
-          href: ide/reference/options-text-editor-all-languages.md
-        - name: Text Editor - All Languages, Scroll Bars
-          href: ide/reference/options-text-editor-all-languages-scroll-bars.md
-        - name: Text Editor - All Languages, Tabs
-          href: ide/reference/options-text-editor-all-languages-tabs.md
-        - name: Text Editor - Basic (Visual Basic), Advanced
-          href: ide/reference/options-text-editor-basic-visual-basic.md
-        - name: Text Editor - Basic (Visual Basic), Code Style
-          href: ide/code-styles-and-code-cleanup.md
-        - name: Text Editor - Basic (Visual Basic), IntelliSense
-          href: ide/visual-basic-specific-intellisense.md
-        - name: Text Editor - C/C++, Formatting
-          href: ide/reference/options-text-editor-c-cpp-formatting.md
-        - name: Text Editor - C/C++, Advanced
-          href: ide/reference/options-text-editor-c-cpp-advanced.md
-        - name: Text Editor - C/C++, Experimental
-          href: ide/reference/options-text-editor-c-cpp-experimental.md
-        - name: Text Editor - C/C++, View
-          href: ide/reference/options-text-editor-c-cpp-view.md
-        - name: Text Editor - C#, Code Style, Formatting
-          href: ide/reference/options-text-editor-csharp-formatting.md
-        - name: Text Editor - C#, Advanced
-          href: ide/reference/options-text-editor-csharp-advanced.md
-        - name: Text Editor - C#, IntelliSense
-          href: ide/reference/options-text-editor-csharp-intellisense.md
-        - name: Text Editor - F#, Advanced
-          href: ide/reference/options-text-editor-fsharp-advanced.md
-        - name: Text Editor - F#, Code Fixes
-          href: ide/reference/options-text-editor-fsharp-code-fixes.md
-        - name: Text Editor - F#, CodeLens
-          href: ide/reference/options-text-editor-fsharp-codelens.md
-        - name: Text Editor - F#, IntelliSense
-          href: ide/reference/options-text-editor-fsharp-intellisense.md
-        - name: Text Editor - HTML (Web Forms), Formatting
-          href: ide/reference/options-text-editor-html-formatting.md
-        - name: Text Editor - HTML (Web Forms), Miscellaneous
-          href: ide/reference/options-text-editor-html-miscellaneous.md
-        - name: Text Editor - HTML (Web Forms), Validation
-          href: ide/reference/options-text-editor-html-validation.md
-        - name: Text Editor - JavaScript, Code Validation
-          href: ide/reference/options-text-editor-javascript-code-validation.md
-        - name: Text Editor - JavaScript, Formatting
-          href: ide/reference/options-text-editor-javascript-formatting.md
-        - name: Text Editor - JavaScript, IntelliSense
-          href: ide/reference/options-text-editor-javascript-intellisense.md
-        - name: Text Editor - JavaScript, Linting
-          href: ide/reference/options-text-editor-javascript-linting.md
-        - name: Text Editor - JavaScript, Project
-          href: ide/reference/options-text-editor-javascript-project.md
-        - name: Text Editor - U-SQL, Formatting
-          href: ide/reference/options-text-editor-usql-formatting.md
-        - name: Text Editor - U-SQL, IntelliSense
-          href: ide/reference/options-text-editor-usql-intellisense.md
-        - name: Text Editor - XAML, Formatting
-          href: ide/reference/options-text-editor-xaml-formatting.md
-        - name: Text Editor - XAML, Miscellaneous
-          href: ide/reference/options-text-editor-xaml-miscellaneous.md
-        - name: Text Editor - XML, Formatting
-          href: ide/reference/options-text-editor-xml-formatting.md
-        - name: Text Editor - XML, Miscellaneous
-          href: ide/reference/options-text-editor-xml-miscellaneous.md
-      - name: Projects and Solutions Options
-        items:
-        - name: Projects and Solutions Options Dialog Box
+        - name: General
           href: ide/reference/projects-and-solutions-options-dialog-box.md
-        - name: Projects and Solutions - Build and Run
+        - name: Build and Run
           href: ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md
-        - name: Projects and Solutions - Web Projects
-          href: ide/reference/options-dialog-box-projects-and-solutions-web-projects.md
-        - name: Projects and Solutions - VB Defaults
+        - name: Locations
+          href: ide/reference/projects-solutions-locations-options.md
+        - name: VB Defaults
           href: ide/reference/visual-basic-defaults-projects-options-dialog-box.md
-        - name: Projects and Solutions - VC++ Project Settings
+        - name: VC++ Project Settings
           href: ide/reference/vcpp-project-settings-projects-and-solutions-options-dialog-box.md
-      - name: XAML Designer Options Dialog Box
+        - name: Web Projects
+          href: ide/reference/options-dialog-box-projects-and-solutions-web-projects.md
+      - name: Text Editor
+        items:
+        - name: General
+          href: ide/reference/options-text-editor-general.md
+        - name: File Extension
+          href: ide/reference/options-text-editor-file-extension.md
+        - name: All Languages
+          items:
+          - name: General
+            href: ide/reference/options-text-editor-all-languages.md
+          - name: Scroll Bars
+            href: ide/reference/options-text-editor-all-languages-scroll-bars.md
+          - name: Tabs
+            href: ide/reference/options-text-editor-all-languages-tabs.md
+        - name: Basic
+          items:
+          - name: Advanced
+            href: ide/reference/options-text-editor-basic-visual-basic.md
+          - name: Code Style
+            href: ide/code-styles-and-code-cleanup.md
+          - name: IntelliSense
+            href: ide/visual-basic-specific-intellisense.md
+        - name: C#
+          items:
+          - name: Advanced
+            href: ide/reference/options-text-editor-csharp-advanced.md
+          - name: Code Style > Formatting
+            href: ide/reference/options-text-editor-csharp-formatting.md
+          - name: IntelliSense
+            href: ide/reference/options-text-editor-csharp-intellisense.md
+        - name: C/C++
+          items:
+          - name: Advanced
+            href: ide/reference/options-text-editor-c-cpp-advanced.md
+          - name: Experimental
+            href: ide/reference/options-text-editor-c-cpp-experimental.md
+          - name: Formatting
+            href: ide/reference/options-text-editor-c-cpp-formatting.md
+          - name: View
+            href: ide/reference/options-text-editor-c-cpp-view.md
+        - name: F#
+          items:
+          - name: Advanced
+            href: ide/reference/options-text-editor-fsharp-advanced.md
+          - name: Code Fixes
+            href: ide/reference/options-text-editor-fsharp-code-fixes.md
+          - name: CodeLens
+            href: ide/reference/options-text-editor-fsharp-codelens.md
+          - name: IntelliSense
+            href: ide/reference/options-text-editor-fsharp-intellisense.md
+        - name: HTML (Web Forms)
+          items:
+          - name: Formatting
+            href: ide/reference/options-text-editor-html-formatting.md
+          - name: Miscellaneous
+            href: ide/reference/options-text-editor-html-miscellaneous.md
+          - name: Validation
+            href: ide/reference/options-text-editor-html-validation.md
+        - name: JavaScript/TypeScript
+          items:
+          - name: Code Validation
+            href: ide/reference/options-text-editor-javascript-code-validation.md
+          - name: Formatting
+            href: ide/reference/options-text-editor-javascript-formatting.md
+          - name: IntelliSense
+            href: ide/reference/options-text-editor-javascript-intellisense.md
+          - name: Linting
+            href: ide/reference/options-text-editor-javascript-linting.md
+          - name: Project
+            href: ide/reference/options-text-editor-javascript-project.md
+        - name: U-SQL
+          items:
+          - name: Formatting
+            href: ide/reference/options-text-editor-usql-formatting.md
+          - name: IntelliSense
+            href: ide/reference/options-text-editor-usql-intellisense.md
+        - name: XAML
+          items:
+          - name: Formatting
+            href: ide/reference/options-text-editor-xaml-formatting.md
+          - name: Miscellaneous
+            href: ide/reference/options-text-editor-xaml-miscellaneous.md
+        - name: XML
+          items:
+          - name: Formatting
+            href: ide/reference/options-text-editor-xml-formatting.md
+          - name: Miscellaneous
+            href: ide/reference/options-text-editor-xml-miscellaneous.md
+      - name: Windows Forms Designer
+        items:
+        - name: General
+          href: ide/reference/options-windows-forms-designer.md
+        - name: Data UI Customization
+          href: ide/reference/options-windows-forms-designer-data-ui-customization.md
+      - name: XAML Designer
         href: ide/reference/xaml-designer.md
-    - name: Output Window
+    - name: Output window
       href: ide/reference/output-window.md
     - name: Project Properties
       items:
@@ -1188,6 +1234,15 @@
     - name: Report a problem states and FAQ
       displayName: Developer Community
       href: ide/report-a-problem.md
+    - name: Create minidumps for a Visual Studio process with all callstacks
+      displayName: Create minidumps with call stacks
+      href: ide/report-a-problem-minidumps.md
+    - name: Create logs for MSBuild problems
+      displayName: Create logs for MSBuild problems
+      href: ide/msbuild-logs.md
+    - name: Collect an ETL trace with PerfView
+      displayName: ETL trace with PerfView
+      href: ide/report-a-problem-perfview.md
   - name: Suggest a feature for Visual Studio
     href: ide/suggest-a-feature.md
   - name: Developer Community data privacy

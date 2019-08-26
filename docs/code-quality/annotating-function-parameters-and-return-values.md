@@ -1,6 +1,6 @@
 ---
 title: Annotating Function Parameters and Return Values
-ms.date: 11/04/2016
+ms.date: 07/11/2019
 ms.topic: "conceptual"
 f1_keywords:
   - "_Outptr_opt_result_bytebuffer_to_"
@@ -119,6 +119,9 @@ f1_keywords:
   - "_Outref_result_bytebuffer_"
   - "_Result_nullonfailure_"
   - "_Ret_null_"
+  - "_Scanf_format_string_"
+  - "_Scanf_s_format_string_"
+  - "_Printf_format_string_"
 ms.assetid: 82826a3d-0c81-421c-8ffe-4072555dca3a
 author: mikeblome
 ms.author: mblome
@@ -127,12 +130,12 @@ ms.workload:
   - "multiple"
 ---
 # Annotating Function Parameters and Return Values
-This article describes typical uses of annotations for simple function parameters—scalars, and pointers to structures and classes—and most kinds of buffers.  This article also shows common usage patterns for annotations. For additional annotations that are related to functions, see [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)
+This article describes typical uses of annotations for simple function parameters—scalars, and pointers to structures and classes—and most kinds of buffers.  This article also shows common usage patterns for annotations. For additional annotations that are related to functions, see [Annotating Function Behavior](../code-quality/annotating-function-behavior.md).
 
 ## Pointer Parameters
- For the annotations in the following table, when a pointer parameter is being annotated, the analyzer reports an error if the pointer is null.  This applies to pointers and to any data item that's pointed to.
+For the annotations in the following table, when a pointer parameter is being annotated, the analyzer reports an error if the pointer is null.  This applies to pointers and to any data item that's pointed to.
 
- **Annotations and Descriptions**
+**Annotations and Descriptions**
 
 - `_In_`
 
@@ -279,16 +282,17 @@ This article describes typical uses of annotations for simple function parameter
      A pointer to a null-terminated array for which the expression `p` - `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` do not have to be valid in pre-state and must be valid in post-state.
 
 ## Optional Pointer Parameters
- When a pointer parameter annotation includes `_opt_`, it indicates that the parameter may be null. Otherwise, the annotation performs the same as the version that doesn't include `_opt_`. Here is a list of the `_opt_` variants of the pointer parameter annotations:
+
+When a pointer parameter annotation includes `_opt_`, it indicates that the parameter may be null. Otherwise, the annotation performs the same as the version that doesn't include `_opt_`. Here is a list of the `_opt_` variants of the pointer parameter annotations:
 
 ||||
 |-|-|-|
 |`_In_opt_`<br /><br /> `_Out_opt_`<br /><br /> `_Inout_opt_`<br /><br /> `_In_opt_z_`<br /><br /> `_Inout_opt_z_`<br /><br /> `_In_reads_opt_`<br /><br /> `_In_reads_bytes_opt_`<br /><br /> `_In_reads_opt_z_`|`_Out_writes_opt_`<br /><br /> `_Out_writes_opt_z_`<br /><br /> `_Inout_updates_opt_`<br /><br /> `_Inout_updates_bytes_opt_`<br /><br /> `_Inout_updates_opt_z_`<br /><br /> `_Out_writes_to_opt_`<br /><br /> `_Out_writes_bytes_to_opt_`<br /><br /> `_Out_writes_all_opt_`<br /><br /> `_Out_writes_bytes_all_opt_`|`_Inout_updates_to_opt_`<br /><br /> `_Inout_updates_bytes_to_opt_`<br /><br /> `_Inout_updates_all_opt_`<br /><br /> `_Inout_updates_bytes_all_opt_`<br /><br /> `_In_reads_to_ptr_opt_`<br /><br /> `_In_reads_to_ptr_opt_z_`<br /><br /> `_Out_writes_to_ptr_opt_`<br /><br /> `_Out_writes_to_ptr_opt_z_`|
 
 ## Output Pointer Parameters
- Output pointer parameters require special notation to disambiguate null-ness on the parameter and the pointed-to location.
+Output pointer parameters require special notation to disambiguate null-ness on the parameter and the pointed-to location.
 
- **Annotations and Descriptions**
+**Annotations and Descriptions**
 
 - `_Outptr_`
 
@@ -311,7 +315,7 @@ This article describes typical uses of annotations for simple function parameter
 > [!IMPORTANT]
 > If the interface that you are annotating is COM, use the COM form of these annotations. Do not use the COM annotations with any other type interface.
 
- **Annotations and Descriptions**
+**Annotations and Descriptions**
 
 - `_Outptr_result_z_`
 
@@ -378,9 +382,10 @@ This article describes typical uses of annotations for simple function parameter
    The returned pointer points to a valid buffer if the function succeeds, or null if the function fails. This annotation is for a reference parameter.
 
 ## Output Reference Parameters
- A common use of the reference parameter is for output parameters.  For simple output reference parameters—for example, `int&`—`_Out_` provides the correct semantics.  However, when the output value is a pointer—for example `int *&`—the equivalent pointer annotations like `_Outptr_ int **` don't provide the correct semantics.  To concisely express the semantics of output reference parameters for pointer types, use these composite annotations:
 
- **Annotations and Descriptions**
+A common use of the reference parameter is for output parameters.  For simple output reference parameters—for example, `int&`—`_Out_` provides the correct semantics.  However, when the output value is a pointer—for example `int *&`—the equivalent pointer annotations like `_Outptr_ int **` don't provide the correct semantics.  To concisely express the semantics of output reference parameters for pointer types, use these composite annotations:
+
+**Annotations and Descriptions**
 
 - `_Outref_`
 
@@ -439,14 +444,66 @@ This article describes typical uses of annotations for simple function parameter
      Result must be valid in post-state, but may be null in post state. Points to valid buffer of `s` bytes of valid elements.
 
 ## Return Values
- The return value of a function resembles an `_Out_` parameter but is at a different level of de-reference, and you don't have to consider the concept of the pointer to the result.  For the following annotations, the return value is the annotated object—a scalar, a pointer to a struct, or a pointer to a buffer. These annotations have the same semantics as the corresponding `_Out_` annotation.
+
+The return value of a function resembles an `_Out_` parameter but is at a different level of de-reference, and you don't have to consider the concept of the pointer to the result.  For the following annotations, the return value is the annotated object—a scalar, a pointer to a struct, or a pointer to a buffer. These annotations have the same semantics as the corresponding `_Out_` annotation.
 
 |||
 |-|-|
 |`_Ret_z_`<br /><br /> `_Ret_writes_(s)`<br /><br /> `_Ret_writes_bytes_(s)`<br /><br /> `_Ret_writes_z_(s)`<br /><br /> `_Ret_writes_to_(s,c)`<br /><br /> `_Ret_writes_maybenull_(s)`<br /><br /> `_Ret_writes_to_maybenull_(s)`<br /><br /> `_Ret_writes_maybenull_z_(s)`|`_Ret_maybenull_`<br /><br /> `_Ret_maybenull_z_`<br /><br /> `_Ret_null_`<br /><br /> `_Ret_notnull_`<br /><br /> `_Ret_writes_bytes_to_`<br /><br /> `_Ret_writes_bytes_maybenull_`<br /><br /> `_Ret_writes_bytes_to_maybenull_`|
 
+## Format string parameters
+
+- `_Printf_format_string_`
+     Indicates that the parameter is a format string for use in a `printf` expression.
+
+     **Example**
+
+    ```cpp
+    int MyPrintF(_Printf_format_string_ const wchar_t* format, ...)
+    {
+           va_list args;
+           va_start(args, format);
+           int ret = vwprintf(format, args);
+           va_end(args);
+           return ret;
+    }
+    ```
+
+- `_Scanf_format_string_`
+     Indicates that the parameter is a format string for use in a `scanf` expression.
+
+     **Example**
+
+    ```cpp
+    int MyScanF(_Scanf_format_string_ const wchar_t* format, ...)
+    {
+           va_list args;
+           va_start(args, format);
+           int ret = vwscanf(format, args);
+           va_end(args);
+           return ret;
+    }
+    ```
+
+- `_Scanf_s_format_string_`
+     Indicates that the parameter is a format string for use in a `scanf_s` expression.
+
+     **Example**
+
+    ```cpp
+    int MyScanF_s(_Scanf_s_format_string_ const wchar_t* format, ...)
+    {
+           va_list args;
+           va_start(args, format);
+           int ret = vwscanf_s(format, args);
+           va_end(args);
+           return ret;
+    }
+    ```
+
 ## Other Common Annotations
- **Annotations and Descriptions**
+
+**Annotations and Descriptions**
 
 - `_In_range_(low, hi)`
 
@@ -484,7 +541,8 @@ This article describes typical uses of annotations for simple function parameter
      `min(pM->nSize, sizeof(MyStruct))`
 
 ## Related Resources
- [Code Analysis Team Blog](http://go.microsoft.com/fwlink/?LinkId=251197)
+
+[Code Analysis Team Blog](http://go.microsoft.com/fwlink/?LinkId=251197)
 
 ## See Also
 

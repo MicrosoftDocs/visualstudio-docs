@@ -276,34 +276,34 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
 - `ShapeElement target`. The shape or diagram onto which the user has dragged something.  
   
-     `ShapeElement` is a class in the implementation that underlies the UML modeling tools. To reduce the risk of putting the UML model and diagrams into an inconsistent state, we recommend that you do not use the methods of this class directly. Instead, wrap the element in an `IShape`, and then use the methods described in [Display a UML model on diagrams](../modeling/display-a-uml-model-on-diagrams.md).  
-  
-    - To obtain an `IShape`:  
-  
-        ```  
-        IShape targetIShape = target.CreateIShape(target);  
-        ```  
-  
-    - To obtain the model element that is targeted by the drag or double-click operation:  
-  
-        ```  
-        IElement target = targetIShape.Element;  
-        ```  
-  
-         You can cast this to a more specific type of element.  
-  
-    - To obtain the UML model store that contains the UML model:  
-  
-        ```  
-        IModelStore modelStore =   
-          targetIShape.Element.GetModelStore();   
-        ```  
-  
-    - To obtain access to the host and service provider:  
-  
-        ```  
-        target.Store.GetService(typeof(EnvDTE.DTE)) as EnvDTE.DTE  
-        ```  
+    `ShapeElement` is a class in the implementation that underlies the UML modeling tools. To reduce the risk of putting the UML model and diagrams into an inconsistent state, we recommend that you do not use the methods of this class directly. Instead, wrap the element in an `IShape`, and then use the methods described in [Display a UML model on diagrams](../modeling/display-a-uml-model-on-diagrams.md).  
+
+  - To obtain an `IShape`:  
+
+      ```  
+      IShape targetIShape = target.CreateIShape(target);  
+      ```  
+
+  - To obtain the model element that is targeted by the drag or double-click operation:  
+
+      ```  
+      IElement target = targetIShape.Element;  
+      ```  
+
+      You can cast this to a more specific type of element.  
+
+  - To obtain the UML model store that contains the UML model:  
+
+      ```  
+      IModelStore modelStore =   
+        targetIShape.Element.GetModelStore();   
+      ```  
+
+  - To obtain access to the host and service provider:  
+
+      ```  
+      target.Store.GetService(typeof(EnvDTE.DTE)) as EnvDTE.DTE  
+      ```  
   
 - `DiagramDragEventArgs eventArgs`. This parameter carries the serialized form of the source object of a drag operation:  
   

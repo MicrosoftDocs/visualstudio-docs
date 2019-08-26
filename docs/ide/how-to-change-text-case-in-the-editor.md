@@ -17,24 +17,19 @@ ms.workload:
 You can use menu commands or keyboard shortcuts to convert the case of selected text to all upper case or to all lower case.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in this article, depending on your active settings or edition. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools** > **Import and Export Settings**, and then choose **Reset all settings**.
+> The dialog boxes and menu commands you see might differ from those described in this article, which are based on the **General** environment settings. To change your environment settings, choose **Tools** > **Import and Export Settings**, and then choose **Reset all settings**.
 
-## To switch text to upper case
+## To change text case
 
 1. Select the text you want to convert.
 
-2. On the **Edit** menu, select **Advanced**.
+2. To convert text to all upper case, choose **Edit** > **Advanced** > **Make Uppercase** or press **Ctrl**+**Shift**+**U**.
 
-3. To convert text to all upper case, choose **Make Uppercase**, or press **Ctrl**+**Shift**+**U**.
+   To convert text to all lower case, choose **Edit** > **Advanced** > **Make Lowercase** or press **Ctrl**+**U**. (If you have the C++ development workload installed, this keybinding may be used by a different command.)
 
-    — or —
-
-    To convert text to all lower case, choose **Make Lowercase**, or press **Ctrl**+**U**.
-
-    > [!TIP]
-    > To revert to the previous case formatting before this change, select **Undo** from the **Edit** menu.
+> [!TIP]
+> To revert to the previous case formatting before this change, select **Undo** from the **Edit** menu.
 
 ## See also
 
-- [Text Editor options dialog box](../ide/reference/text-editor-options-dialog-box.md)
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

@@ -54,7 +54,7 @@ To edit an XML file, double-click the file you want to edit.
 
    The **New Project** dialog box appears.
 
-2. Select the code language of your choice, select **Empty Project**.
+2. Select the code language of your choice, and then select the **Empty Project (.NET Framework)** template.
 
 3. Click **OK**.
 

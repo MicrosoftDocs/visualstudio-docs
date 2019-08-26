@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "solution build configurations, build order"
   - "builds [Visual Studio], preparing"
 ms.assetid: 710891fd-379e-42c2-a84b-44a7af694ca0
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

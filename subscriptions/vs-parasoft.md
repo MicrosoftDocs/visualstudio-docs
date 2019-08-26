@@ -1,12 +1,11 @@
 ---
 title: Parasoft Virtualize/SOAtest Professional Desktop Benefit | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
+ms.author: lank
+manager: lank
+ms.date: 07/31/2019
 ms.topic: conceptual
 description:  Learn how to activate the Parasoft Virtualize/SOA Test Professional subscription included in your Visual Studio subscription.
-searchscope: VS Subscription
 ---
 
 # Parasoft Virtualize/SOAtest Professional Desktop in Visual Studio subscriptions
@@ -23,7 +22,10 @@ Test earlier and more often.  Simulate and test the behavior of unavailable evol
 
 3. You’ll be redirected to the Parasoft website, where you’ll create an account.  Just provide your contact information and click **Submit**.
    > [!div class="mx-imgBorder"]
-   > ![Parasoft Benefit Create Account](_img/vs-parasoft/vs-parasoft-account-cropped.png)
+   > ![Parasoft Benefit Create Account](_img/vs-parasoft/vs-parasoft-new-account.png)
+
+   > [!Note]
+   > The table on the page shows pricing for a full year, plus a Visual Studio discount. This pricing will be applicable AFTER you have used your six month subscription.  
 
 4. Once you’ve created your account, you’ll see a notification that you've been sent an email with download instructions.  (Remember to check your spam or junk mail folders if you don’t see the email in your inbox.)
 
@@ -52,14 +54,12 @@ Test earlier and more often.  Simulate and test the behavior of unavailable evol
 14. Specify where you would like the shortcut for the application installed, and click **Next**.
 
 15. The SOAtest Web Root Certificate Authority certificate is required for certain functional tests on HTTPS sites.  Choose whether to install the Root CA certificate and click **Next**.
-    > [!div class="mx-imgBorder"]
-    > ![Parasoft Benefit  Root CA Certificate](_img/vs-parasoft/vs-parasoft-install-root-ca.png)
+    > [!NOTE]
+    > Parasoft strongly recommends you choose to install the certificate.
 
 16. Choose whether you want desktop and quick launch icons created during installation, and click **Next**.
 
 17. Confirm the options you've selected, and click **Install** to begin installing the software.
-    > [!div class="mx-imgBorder"]
-    > ![Parasoft Benefit Ready to Install](_img/vs-parasoft/vs-parasoft-ready-to-install.png)
 
 18. When the setup is complete, click **Finish**. You're now ready to start using your Parasoft Virtualize/SOAtest Professional Desktop benefit!
 
@@ -81,7 +81,10 @@ Test earlier and more often.  Simulate and test the behavior of unavailable evol
 
 ## Support resources
 - Need help with Parasoft products?  Check out these resources:
-    - Technical Support:  https://www.parasoft.com/support/
-    - Parasoft Resource Center:  https://www.parasoft.com/resources/
+  - Technical Support:  https://www.parasoft.com/support/
+  - Parasoft Resource Center:  https://www.parasoft.com/resources/
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+
+## Next steps
+Take advantage of your own development sandbox by activating your [Azure credits](vs-azure.md). 

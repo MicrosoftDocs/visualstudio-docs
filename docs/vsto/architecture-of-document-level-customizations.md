@@ -133,7 +133,7 @@ ms.workload:
 
 8. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] loads the customization assembly into the application domain.
 
-9. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] calls the **Startup** event handler in your customization assembly. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md)
+9. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] calls the **Startup** event handler in your customization assembly. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
 
 ## See also
 - [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)

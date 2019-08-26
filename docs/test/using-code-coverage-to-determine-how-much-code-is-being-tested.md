@@ -1,6 +1,6 @@
 ---
 title: Code coverage testing
-ms.date: 09/18/2018
+ms.date: 07/23/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "code coverage"
@@ -30,7 +30,12 @@ The code coverage feature is available only in Visual Studio Enterprise edition.
 
 ## To analyze code coverage on unit tests in Test Explorer
 
+::: moniker range="vs-2017"
 1. On the **Test** menu, choose **Analyze Code Coverage**.
+::: moniker-end
+::: moniker range=">=vs-2019"
+1. In **Test Explorer**, select **Analyze Code Coverage** from the **Run** menu.
+::: moniker-end
 
 2. To see which lines have been run, choose ![Show Code Coverage Coloring Icon](../test/media/codecoverage-showcoloringicon.png) **Show Code Coverage Coloring**.
 
@@ -41,7 +46,7 @@ The code coverage feature is available only in Visual Studio Enterprise edition.
 > [!TIP]
 > - make sure that compiler optimization is turned off
 > - if you are working with unmanaged (native) code, use a debug build
-> - make sure that you are generating .pdb (symbol) files for each assembly.
+> - make sure that you are generating .pdb (symbol) files for each assembly
 
 If you don't get the results you expect, see [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md). Don't forget to run code coverage again after updating your code. Coverage results and code coloring are not automatically updated after you modify your code or when you run tests.
 
@@ -49,9 +54,10 @@ If you don't get the results you expect, see [Troubleshoot code coverage](../tes
 
 Code coverage is counted in *blocks*. A block is a piece of code with exactly one entry and exit point.  If the program's control flow passes through a block during a test run, that block is counted as covered. The number of times the block is used has no effect on the result.
 
-You can also have the results displayed in terms of lines by choosing **Add/Remove Columns** in the table header. If the test run exercised all the code blocks in any line of code, it is counted as one line. Where a line contains some code blocks that were exercised and some that were not, that is counted as a partial line.
+You can also have the results displayed in terms of lines by choosing **Add/Remove Columns** in the table header. Some users prefer a count of lines because the percentages correspond more closely to the size of the fragments that you see in the source code. A long block of calculation would count as a single block even if it occupies many lines.
 
-Some users prefer a count of lines because the percentages correspond more closely to the size of the fragments that you see in the source code. A long block of calculation would count as a single block even if it occupies many lines.
+> [!TIP]
+> A line of code can contain more than one code block. If this is the case, and the test run exercises all the code blocks in the line, it is counted as one line. If some but not all code blocks in the line are exercised, it is counted as a partial line.
 
 ## Manage code coverage results
 

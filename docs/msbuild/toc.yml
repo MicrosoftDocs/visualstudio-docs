@@ -8,12 +8,10 @@
   - name: What's New in MSBuild 15.0
     href: what-s-new-in-msbuild-15-0.md
   - name: MSBuild Concepts
-# Auto-expanded node
     items:
-    - name: MSBuild Concepts
+    - name: MSBuild Concepts - Overview
       href: msbuild-concepts.md
-    - name: MSBuild Properties
-# Auto-expanded node
+    - name: Properties
       items:
       - name: MSBuild Properties
         href: msbuild-properties.md
@@ -25,8 +23,7 @@
         href: how-to-build-the-same-source-files-with-different-options.md
       - name: Property Functions
         href: property-functions.md
-    - name: MSBuild Items
-# Auto-expanded node
+    - name: Items
       items:
       - name: MSBuild Items
         href: msbuild-items.md
@@ -40,8 +37,7 @@
         href: item-definitions.md
       - name: Item Functions
         href: item-functions.md
-    - name: MSBuild Targets
-# Auto-expanded node
+    - name: Targets
       items:
       - name: MSBuild Targets
         href: msbuild-targets.md
@@ -61,8 +57,7 @@
         href: how-to-clean-a-build.md
       - name: Reference an MSBuild Project SDK
         href: how-to-use-project-sdk.md
-    - name: MSBuild Tasks
-# Auto-expanded node
+    - name: Tasks
       items:
       - name: MSBuild Tasks
         href: msbuild-tasks.md
@@ -72,8 +67,7 @@
         href: how-to-ignore-errors-in-tasks.md
       - name: Build a Project That Has Resources
         href: how-to-build-a-project-that-has-resources.md
-      - name: MSBuild Inline Tasks
-# Auto-expanded node
+      - name: Inline Tasks
         items:
         - name: MSBuild Inline Tasks
           href: msbuild-inline-tasks.md
@@ -83,8 +77,7 @@
         href: msbuild-roslyncodetaskfactory.md
     - name: Comparing Properties and Items
       href: comparing-properties-and-items.md
-    - name: MSBuild Special Characters
-# Auto-expanded node
+    - name: Special Characters
       items:
       - name: MSBuild Special Characters
         href: msbuild-special-characters.md
@@ -92,13 +85,11 @@
         href: how-to-escape-special-characters-in-msbuild.md
       - name: Use Reserved XML Characters in Project Files
         href: how-to-use-reserved-xml-characters-in-project-files.md
-  - name: MSBuild Advanced Concepts
-# Auto-expanded node
+  - name: Advanced Concepts
     items:
     - name: MSBuild Advanced Concepts
       href: msbuild-advanced-concepts.md
-    - name: MSBuild Batching
-# Auto-expanded node
+    - name: Batching
       items:
       - name: MSBuild Batching
         href: msbuild-batching.md
@@ -108,8 +99,7 @@
         href: item-metadata-in-target-batching.md
     - name: MSBuild Transforms
       href: msbuild-transforms.md
-    - name: Visual Studio Integration (MSBuild)
-# Auto-expanded node
+    - name: Visual Studio Integration
       items:
       - name: Visual Studio Integration (MSBuild)
         href: visual-studio-integration-msbuild.md
@@ -119,8 +109,7 @@
         href: starting-a-build-from-within-the-ide.md
       - name: Registering Extensions of the .NET Framework
         href: registering-extensions-of-the-dotnet-framework.md
-    - name: Building Multiple Projects in Parallel with MSBuild
-# Auto-expanded node
+    - name: Building Multiple Projects in Parallel
       items:
       - name: Building Multiple Projects in Parallel with MSBuild
         href: building-multiple-projects-in-parallel-with-msbuild.md
@@ -128,13 +117,11 @@
         href: using-multiple-processors-to-build-projects.md
       - name: Using Memory Efficiently When You Build Large Projects
         href: using-memory-efficiently-when-you-build-large-projects.md
-    - name: MSBuild Multitargeting Overview
-# Auto-expanded node
+    - name: Multitargeting
       items:
       - name: MSBuild Multitargeting Overview
         href: msbuild-multitargeting-overview.md
-      - name: MSBuild Toolset (ToolsVersion)
-# Auto-expanded node
+      - name: Toolset (ToolsVersion)
         items:
         - name: MSBuild Toolset (ToolsVersion)
           href: msbuild-toolset-toolsversion.md
@@ -146,8 +133,7 @@
         href: msbuild-target-framework-and-target-platform.md
       - name: Resolving Assemblies at Design Time
         href: resolving-assemblies-at-design-time.md
-      - name: Configuring Targets and Tasks
-# Auto-expanded node
+      - name: Targets and Task configuration
         items:
         - name: Configuring Targets and Tasks
           href: configuring-targets-and-tasks.md
@@ -156,9 +142,8 @@
       - name: Troubleshooting .NET Framework Targeting Errors
         href: troubleshooting-dotnet-framework-targeting-errors.md
     - name: File Tracking
-# Auto-expanded node
       items:
-      - name: File Tracking
+      - name: File Tracking - Overview
         href: file-tracking.md
       - name: EndTrackingContext
         href: endtrackingcontext.md
@@ -182,10 +167,9 @@
       href: customize-your-build.md
     - name: MSBuild Best Practices
       href: msbuild-best-practices.md
-  - name: Logging in MSBuild
-# Auto-expanded node
+  - name: Logging
     items:
-    - name: Logging in MSBuild
+    - name: Logging in MSBuild - Overview
       href: logging-in-msbuild.md
     - name: Obtaining Build Logs with MSBuild
       href: obtaining-build-logs-with-msbuild.md
@@ -202,14 +186,12 @@
   - name: "Walkthrough: Creating an MSBuild Project File from Scratch"
     href: walkthrough-creating-an-msbuild-project-file-from-scratch.md
   - name: MSBuild Reference
-# Auto-expanded node
     items:
-    - name: MSBuild Reference
+    - name: MSBuild Reference - Overview
       href: msbuild-reference.md
     - name: MSBuild Project File Schema Reference
-# Auto-expanded node
       items:
-      - name: MSBuild Project File Schema Reference
+      - name: MSBuild Project File Schema Reference - Overview
         href: msbuild-project-file-schema-reference.md
       - name: Choose Element (MSBuild)
         href: choose-element-msbuild.md
@@ -255,15 +237,13 @@
         href: usingtask-element-msbuild.md
       - name: When Element (MSBuild)
         href: when-element-msbuild.md
-    - name: MSBuild Task Reference
-# Auto-expanded node
+    - name: Task Reference
       items:
-      - name: MSBuild Task Reference
+      - name: MSBuild Task Reference - Overview
         href: msbuild-task-reference.md
-      - name: MSBuild Tasks Specific to Visual C++
-# Auto-expanded node
+      - name: Tasks Specific to Visual C++
         items:
-        - name: MSBuild Tasks Specific to Visual C++
+        - name: MSBuild Tasks Specific to Visual C++ - Overview
           href: msbuild-tasks-specific-to-visual-cpp.md
         - name: BscMake Task
           href: bscmake-task.md
@@ -459,17 +439,15 @@
       href: msbuild-well-known-item-metadata.md
     - name: MSBuild Response Files
       href: msbuild-response-files.md
-    - name: WPF MSBuild Reference
-# Auto-expanded node
+    - name: WPF Reference
       items:
-      - name: WPF MSBuild Reference
+      - name: WPF MSBuild Reference - Overview
         href: wpf-msbuild-reference.md
       - name: WPF .Targets Files
         href: wpf-dot-targets-files.md
-      - name: WPF MSBuild Task Reference
-# Auto-expanded node
+      - name: WPF Task Reference
         items:
-        - name: WPF MSBuild Task Reference
+        - name: WPF MSBuild Task Reference - Overview
           href: wpf-msbuild-task-reference.md
         - name: FileClassifier Task
           href: fileclassifier-task.md

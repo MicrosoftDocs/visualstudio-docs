@@ -26,17 +26,17 @@ In addition, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] suppor
 
 ## Editors, dialogs, and tool windows
 
- By default, dialog boxes and tool windows in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] use the same font size and colors as the operating system. The color settings for the frame of the IDE, dialog boxes, toolbars, and tool windows are based a color scheme: light or dark. You can change the current color theme in the [General, Environment, Options dialog box](../../ide/reference/general-environment-options-dialog-box.md).
+By default, dialog boxes and tool windows in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] use the same font size and colors as the operating system. The color settings for the frame of the IDE, dialog boxes, toolbars, and tool windows are based a color scheme: light or dark. You can change the current color theme in the [General, Environment, Options dialog box](../../ide/reference/general-environment-options-dialog-box.md).
 
- You can also display pop-up windows in the Code view of the editor. These windows can prompt you with available members on the current object and the parameters to complete a function or statement. These windows can be helpful if you have difficulty typing. However, they interfere with focus in the code editor, which can be problematic for some users. You can turn off these windows by opening the Options dialog box and clearing **Auto list members** and **Parameter information** in the **Text Editor**, **All Languages**, **General** page in the **Options** dialog box.
+You can also display pop-up windows in the Code view of the editor. These windows can prompt you with available members on the current object and the parameters to complete a function or statement. These windows can be helpful if you have difficulty typing. However, they interfere with focus in the code editor, which can be problematic for some users. You can turn off these windows by opening the Options dialog box and clearing **Auto list members** and **Parameter information** in the **Text Editor**, **All Languages**, **General** page in the **Options** dialog box.
 
- You can rearrange the windows in the integrated development environment (IDE) to best suit the way you work. You can dock, float, hide, or automatically hide each tool window.
+You can rearrange the windows in the integrated development environment (IDE) to best suit the way you work. You can dock, float, hide, or automatically hide each tool window.
 
- For more information about how to change window layouts, see [Customizing window layouts](../../ide/customizing-window-layouts-in-visual-studio.md).
+For more information about how to change window layouts, see [Customizing window layouts](../../ide/customizing-window-layouts-in-visual-studio.md).
 
 ### Changing the size of text
 
- You can change the settings for text-based tool windows, such as the **Command** window, **Immediate** window, and **Output** window, in the **Fonts and Colors** pane of the **Environment** options in the **Tools** dialog box. When **[All Text Tool Windows]** is selected in the **Show settings for** drop-down list, the default setting is listed as **Default** in the **Item foreground** and **Item background** drop-down lists. You can also change the settings for how text is displayed in the editor.
+You can change the settings for text-based tool windows, such as the **Command** window, **Immediate** window, and **Output** window, in the **Fonts and Colors** pane of the **Environment** options in the **Tools** dialog box. When **[All Text Tool Windows]** is selected in the **Show settings for** drop-down list, the default setting is listed as **Default** in the **Item foreground** and **Item background** drop-down lists. You can also change the settings for how text is displayed in the editor.
 
 #### To change the size of text in text-based tool windows and editors
 
@@ -67,7 +67,7 @@ In addition, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] suppor
 
 ### Change the colors that are used in the IDE
 
- You can also choose to change the default colors for text, margin indicators, white space, and code elements in the editor.
+You can also choose to change the default colors for text, margin indicators, white space, and code elements in the editor.
 
 > [!NOTE]
 > To use high contrast colors for all application windows on your operating system, press Left <strong>ALT+</strong>Left **SHIFT+PRINT SCREEN**. If [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is open, close and reopen [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to fully implement high contrast colors.
@@ -88,7 +88,7 @@ In addition, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] suppor
 
 ## Toolbars
 
- To improve toolbar usability and accessibility, you can add text to toolbar buttons.
+To improve toolbar usability and accessibility, you can add text to toolbar buttons.
 
 ### To assign text to toolbar buttons
 

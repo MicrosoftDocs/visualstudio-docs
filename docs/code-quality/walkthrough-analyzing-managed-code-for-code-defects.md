@@ -5,17 +5,17 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "code analysis [Visual Studio]"
   - "managed code, analyzing"
-author: gewarren
-ms.author: gewarren
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# Walkthrough: Analyzing managed code for code defects
+# Walkthrough: Use static code analysis to find code defects
 
-In this walkthrough, you'll analyze a managed project for code defects by using the code analysis tool.
+In this walkthrough, you'll analyze a managed project for code defects by using legacy code analysis.
 
-This walkthrough steps you through the process of using code analysis to analyze your .NET managed code assemblies for conformance with the .NET design guidelines.
+This article steps you through the process of using legacy analysis to analyze your .NET managed code assemblies for conformance with the .NET design guidelines.
 
 ## Create a class library
 

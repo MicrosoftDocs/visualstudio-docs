@@ -12,9 +12,9 @@ author: mikeblome
 
 This topic describes one way to create unit tests for a C++ DLL for Universal Windows Platform (UWP) apps with the Microsoft Test Framework for C++. The RooterLib DLL demonstrates vague memories of limit theory from the calculus by implementing a function that calculates an estimate of the square root of a given number. The DLL might then be included in a UWP app that shows a user the fun things that can be done with math.
 
- This topic shows you how to use unit testing as the first step in development. In this approach, you first write a test method that verifies a specific behavior in the system that you are testing and then you write the code that passes the test. By making changes in the order of the following procedures, you can reverse this strategy to first write the code that you want to test and then write the unit tests.
+This topic shows you how to use unit testing as the first step in development. In this approach, you first write a test method that verifies a specific behavior in the system that you are testing and then you write the code that passes the test. By making changes in the order of the following procedures, you can reverse this strategy to first write the code that you want to test and then write the unit tests.
 
- This topic also creates a single Visual Studio solution and separate projects for the unit tests and the DLL that you want to test. You can also include the unit tests directly in the DLL project, or you can create separate solutions for the unit tests and the .DLL. See [Adding unit tests to existing C++ applications](../test/how-to-use-microsoft-test-framework-for-cpp.md) for tips on which structure to use.
+This topic also creates a single Visual Studio solution and separate projects for the unit tests and the DLL that you want to test. You can also include the unit tests directly in the DLL project, or you can create separate solutions for the unit tests and the .DLL. See [Adding unit tests to existing C++ applications](../test/how-to-use-microsoft-test-framework-for-cpp.md) for tips on which structure to use.
 
 ## <a name="Create_the_solution_and_the_unit_test_project"></a> Create the solution and the unit test project
 
@@ -146,13 +146,9 @@ In **Solution Explorer**, choose the solution name. From the shortcut menu, choo
 
 1. Add RooterLib to the RooterLibTests project.
 
-   1. In **Solution Explorer**, choose the **RooterLibTests** project and then choose **References** on the shortcut menu.
+   1. In **Solution Explorer**, choose the **RooterLibTests** project and then choose **Add** > **Reference** on the shortcut menu.
 
-   2. On the **RooterLib Project Properties** dialog box, expand **Common Properties** and choose **Framework and References**.
-
-   3. Choose **Add New Reference**
-
-   4. In the **Add Reference** dialog box, expand **Solution** and then choose **Projects**. Then select the **RouterLib** item.
+   1. In the **Add Reference** dialog box, choose **Projects**. Then select the **RouterLib** item.
 
 2. Include the RooterLib header file in *unittest1.cpp*.
 

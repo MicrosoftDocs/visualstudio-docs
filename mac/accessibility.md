@@ -52,14 +52,14 @@ Setting **Full Keyboard Access** to **All controls** allows you to navigate thro
 
 To enable or disable VoiceOver press **&#8984; + F5**
 
-VoiceOver commands appear in this guide as **VO+*key*** whereby **VO** refers to the modifier set in the **VoiceOver Utility** application. The default modifier is **Ctrl + Alt**. For example, depending on your VoiceOver modifier, **VO + M** will mean **Ctrl + Alt + M**. For brevity, cursor keys will be referred to as **Left** and **Right**, etc.
+VoiceOver commands appear in this guide as **VO+_key_** whereby **VO** refers to the modifier set in the **VoiceOver Utility** application. The default modifier is **Ctrl + Alt**. For example, depending on your VoiceOver modifier, **VO + M** will mean **Ctrl + Alt + M**. For brevity, cursor keys will be referred to as **Left** and **Right**, etc.
 
 To navigate the Visual Studio for Mac user interface, use the following key combinations:
 
 - **VO + Right / Left**: Navigate between user interface elements
-    - VoiceOver will announce the label and type of control, and explain how to interact with it.
+  - VoiceOver will announce the label and type of control, and explain how to interact with it.
 - **VO + Shift + Down / Up**: Step into / out of an element
-    - Once inside an element you can use **VO + Left / Right** to navigate around elements within it.
+  - Once inside an element you can use **VO + Left / Right** to navigate around elements within it.
 - **VO + Space**: Select / interact with a control
 - **VO + M**: Interact with the Visual Studio for Mac Menu Bar
 

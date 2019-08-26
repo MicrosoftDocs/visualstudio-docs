@@ -19,7 +19,7 @@ You can create Visual Studio solutions and projects for iOS apps and Android app
 
 ## Requirements
 
-Before you can create an OpenGL ES app for iOS and Android, make sure you've met all system requirements. If you haven't already, install the Mobile Development with C++ workload in the Visual Studio Installer. To build for iOS, include the optional C++ iOS development tools. To build for Android, install the C++ Android development tools and the required third-party tools: Android NDK, Apache Ant, Google Android Emulator, and Intel Hardware Accelerated Execution Manager. Next, configure Intel HAXM and the Android Emulator to run on your system. For more information and detailed instructions, see [Install Visual C++ for cross-platform mobile development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md). To build and test the iOS app, you'll need a Mac computer, set up according to the installation instructions. For more information about how to set up for iOS development, see [Install and configure tools to build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md)
+Before you can create an OpenGL ES app for iOS and Android, make sure you've met all system requirements. If you haven't already, install the Mobile Development with C++ workload in the Visual Studio Installer. To build for iOS, include the optional C++ iOS development tools. To build for Android, install the C++ Android development tools and the required third-party tools: Android NDK, Apache Ant, Google Android Emulator, and Intel Hardware Accelerated Execution Manager. Next, configure Intel HAXM and the Android Emulator to run on your system. For more information and detailed instructions, see [Install Visual C++ for cross-platform mobile development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md). To build and test the iOS app, you'll need a Mac computer, set up according to the installation instructions. For more information about how to set up for iOS development, see [Install and configure tools to build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md).
 
 ## Create a new OpenGLES Application project
 
@@ -152,7 +152,7 @@ To deploy an iOS app to an iOS device, you must also set up automatic signing on
 1. Choose your iOS device on the toolbar to run the app on your device attached to your Mac. If the app doesn't start, verify that the device gives permission for your deployed application to execute on the device. This permission can be set by going to **Settings** > **General** > **Device Management** on the device. Select your Developer App account, trust your account, and verify the app. Try to run the app again from Visual Studio.
 
    ![iOS app on iOS device](../cross-platform/media/cppmdd-opengles-iosdevice.png "CPPMDD_OpenGLES_iOSDevice")
-   
+
    Once your app has started, you can set breakpoints and use the Visual Studio debugger to examine locals, see the call stack, and watch values.
 
    ![Debugger at breakpoint in iOS app](../cross-platform/media/cppmdd_opengles_iosdebug.png "CPPMDD_OpenGLES_iOSDebug")

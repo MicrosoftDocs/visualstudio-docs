@@ -194,7 +194,7 @@ In most versions of Visual Studio starting in Visual Studio 2017, you must use t
    >[!NOTE]
    >By default, *launchSettings.json* is in *C:\Users\username\source\repos\Mixed_Mode_Calling_App\Properties*. If *launchSettings.json* doesn't exist, select the **Mixed_Mode_Calling_App** project in **Solution Explorer** and then select the **Properties** icon, or right-click the project and select **Properties**. Make a temporary change in the **Debug** tab, and build the project. This will create a *launchSettings.json* file. Revert the change that you made in the **Debug** tab.
 
-1. In the *lauchsettings.json* file, add the following line:
+1. In the *launchsettings.json* file, add the following line:
 
     ```csharp
     "nativeDebugging": true

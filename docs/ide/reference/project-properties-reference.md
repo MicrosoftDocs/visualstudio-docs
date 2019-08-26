@@ -12,10 +12,11 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Project Properties Reference
+# Project Properties reference
+
 Learn more about how to configure and customize project properties.
 
-## Project Properties Pages
+## Project Properties pages
 
 | Title | Description |
 | - | - |
@@ -31,6 +32,6 @@ Learn more about how to configure and customize project properties.
 | [Security Page, Project Designer](../../ide/reference/security-page-project-designer.md) | Use this page to configure code access security settings for applications that are deployed by using [!INCLUDE[ndptecclick](../../deployment/includes/ndptecclick_md.md)] deployment. |
 | [Signing Page, Project Designer](../../ide/reference/signing-page-project-designer.md) | Use this page to sign application and deployment manifests, and sign the assembly. |
 
-## See Also
+## See also
 
 - [Solutions and Projects](../../ide/solutions-and-projects-in-visual-studio.md)

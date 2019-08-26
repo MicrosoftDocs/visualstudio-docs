@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 05/22/2019
+ms.date: 07/23/2019
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -18,7 +18,7 @@ ms.workload:
 ---
 # What's new in Visual Studio 2019
 
-**Updated for the [16.1 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.2 release](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
 >[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019)
@@ -35,8 +35,8 @@ For a complete list of everything that's new in this version, see the [release n
 
 ## Develop
 
-Save time with new features.
-<br><br>
+View the following video to learn more about how you can save time with new features. <br><br>*Video length: 3.00 minutes*
+
 > [!VIDEO https://www.youtube.com/embed/n5sJ4EewKGk]
 
 ### Improved search
@@ -59,7 +59,7 @@ Simply invoke the refactorings by pressing **Ctrl+.** and selecting the action y
 
 [Visual Studio IntelliCode](/visualstudio/intellicode/) enhances your software development efforts by using artificial intelligence (AI). IntelliCode trains across 2,000 open-source projects on GitHub&mdash;each with over 100 stars&mdash;to generate its recommendations.
 
- ![An animation of IntelliCode in Visual Studio 2019](media/vs-2019/IntelliCode.gif)
+![An animation of IntelliCode in Visual Studio 2019](media/vs-2019/IntelliCode.gif)
 
 Here are a few ways that Visual Studio IntelliCode can help enhance your productivity:
 
@@ -84,7 +84,7 @@ The cleanup will format the code and apply any code fixes as suggested by the [c
 
 You can also save collections of fixers as a profile. For example, if you have a small set of targeted fixers that you apply frequently while you code, and then you have another comprehensive set of fixers to apply before a code review, you can configure profiles to address these different tasks.
 
-   ![A screenshot of the new code cleanup control in Visual Studio 2019](media/vs-2019/code-cleanup-profile-configure.png)
+   ![A screenshot of the configure code cleanup control in Visual Studio 2019](media/vs-2019/code-cleanup-profile-configure.png)
 
 ### Per-monitor aware (PMA) rendering
 
@@ -96,10 +96,16 @@ With the release of Visual Studio 2019, we're making Visual Studio a per-monitor
 
 For more information, see the [Better multi-monitor experience with Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/a-better-multi-monitor-experience-with-visual-studio-2019/) blog post.
 
+### Test Explorer
+
+**New in 16.2**: We've updated Test Explorer to provide better handling of large test sets, easier filtering, more discoverable commands, tabbed playlist views, and customizable columns that let you fine-tune what test information is displayed.
+
+   ![A screenshot that shows the user interface improvements in the Test Explorer](media/vs-2019/test-explorer-ui.png)
+
 ## Collaborate
 
-Team up to solve issues.
-<br><br>
+View the following video to learn more about how you can team up to solve issues. <br><br>*Video length: 4.22 minutes*
+
 > [!VIDEO https://www.youtube.com/embed/dKLJsiK1QU8]
 
 ### Cloud-first workflow
@@ -136,8 +142,8 @@ For more information, see the [Code reviews using the Visual Studio Pull Request
 
 ## Debug
 
-Zero in with precise targeting.
-<br><br>
+View the following video to learn more about how you can zero in with precise targeting while you debug. <br><br>*Video length: 3.54 minutes*
+
 > [!VIDEO https://www.youtube.com/embed/hr72Fs8n_9c]
 
 ### Performance gains
@@ -172,6 +178,12 @@ We've added support for targeting ASP.NET (Core and desktop) applications that r
 
 For more information, see the [Debug live ASP.NET Azure apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md) page, and the [Introducing Time Travel Debugging for Visual Studio Enterprise 2019](https://devblogs.microsoft.com/visualstudio/introducing-time-travel-debugging-for-visual-studio-enterprise-2019/) blog post.
 
+### Microsoft Edge Insider support
+
+**New in 16.2**: You can set a breakpoint in a JavaScript application and start a debug session by using the [Microsoft Edge Insider](https://www.microsoftedgeinsider.com/) browser. When you do so, Visual Studio opens a new browser window with debugging enabled, which you can then use to step through application JavaScript within Visual Studio.
+
+   ![A screenshot that shows JavaScript code rendering in a browser](media/vs-2019/edge-chromium-breakpoint.png)
+
 ## What's next
 
 We update Visual Studio 2019 often with new features that can make your development experience even better. To learn more about our latest innovations, check out the [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). And for a record of what we've released in preview to date, take a look at the [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/).
@@ -188,9 +200,8 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 ## See also
 
-* [Announcing Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/visual-studio-2019-code-faster-work-smarter-create-the-future/)
 * [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes/)
 * [What's New in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md)
-* [Visual Studio 2019 for Mac is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2019-for-mac-is-now-available/)
+* [Visual Studio 2019 for Mac release notes](/visualstudio/releasenotes/vs2019-mac-relnotes/)
 * [Microsoft Build 2019 conference](https://www.microsoft.com/build)
 * [Microsoft Connect(); 2018 conference](https://www.microsoft.com/connectevent)

@@ -1,12 +1,11 @@
 ---
 title: Visual Studio App Center Benefit in Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
+ms.author: lank
+manager: lank
+ms.date: 07/31/2019
 ms.topic: conceptual
 description:  Learn about the Visual Studio App Center benefit included in Visual Studio subscriptions.
-searchscope: VS Subscription
 ---
 
 # Visual Studio App Center in Visual Studio subscriptions
@@ -62,7 +61,10 @@ You should now be able to access the App Center portal and create your account.
 
 ## Support Resources
 - Need help with App Center?
-    - Get advice and answers from the App Center Team in the [App Center Help Center](https://intercom.help/appcenter/).
-    - Check out complete [App Center documentation](/appcenter/)
+  - Get advice and answers from the App Center Team in the [App Center Help Center](https://intercom.help/appcenter/).
+  - Check out complete [App Center documentation](/appcenter/)
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+
+## Next steps
+Azure is your personal sandbox for dev/test.  You can provision virtual machines, cloud services, and other Azure resources. If you haven't already, activate your [Azure benefit](vs-azure.md). 
