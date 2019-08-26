@@ -1,15 +1,15 @@
 ---
-title: Open and Open License order management | Microsoft Docs
+title: Partners managing Visual Studio subscriptions for customers | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/23/2019
+ms.date: 08/21/2019
 ms.topic: conceptual
-description:  Learn about management of order for subscriptions using Open and Open License programs.
+description:  Learn how partners manage Visual Studio subscriptions for their customers.
 ---
 
-# Open and Open License management for new orders
-To manage subscriptions in the Visual Studio [Subscriptions Administration Portal](https://manage.visualstudio.com), there are a few steps that partners and customers will need to follow. The process will be:
+# Partners managing subscriptions on behalf of customers
+To manage subscriptions in the Visual Studio [Subscriptions Administration Portal](https://manage.visualstudio.com), there are a few steps they will need to follow. The process will be:
 - Partners will place a new order on behalf of a customer, entering the customer’s business email address.
 - The customer will receive a notification inviting them to assign administrators and access their subscriptions in the [Visual Studio Subscriptions Administration Portal](https://manage.visualstudio.com).
 - For partners to manage subscriptions on behalf of customers, they will need to register on the administration portal. The various ways to access gain access are listed below (similar to the add-open process).
@@ -33,6 +33,7 @@ This applies to new partners placing new Open License orders, but who register o
 
 > [!NOTE]
 > The customer will receive a notification email informing them that a Partner has been added to the Open License. They can choose to remove the Partner’s access.
+
 
 ## New partners visiting the Visual Studio Subscriptions Administration Portal directly
 This scenario applies to new partners, who have already placed new Open License orders, but who haven’t registered on the [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx) and go directly to the [Visual Studio Subscriptions Administration Portal](https://manage.visualstudio.com).  Follow these steps:
