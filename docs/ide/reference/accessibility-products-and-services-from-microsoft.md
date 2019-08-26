@@ -27,7 +27,7 @@ ms.workload:
 Microsoft is committed to making its products and services easier for everyone to use. This page provides information about the features, products, and services that make Microsoft Windows more accessible for people with disabilities.
 
 > [!IMPORTANT]
-> The information on this page may apply only to users who license Microsoft products in the United States. If you obtained this product outside of the United States, visit the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website for a list of Microsoft support services telephone numbers and addresses. You can contact your subsidiary to find out whether the type of products and services described on this page are available in your area. Information about accessibility is available in other languages.
+> The information on this page might apply only to users who license Microsoft products in the United States. If you obtained this product outside of the United States, visit the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website for a list of Microsoft support services telephone numbers and addresses. You can contact your subsidiary to find out whether the type of products and services described on this page are available in your area. Information about accessibility is available in other languages.
 
 ## <a name="windows"></a> Accessibility features of Windows
 
