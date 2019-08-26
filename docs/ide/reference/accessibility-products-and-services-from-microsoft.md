@@ -1,8 +1,10 @@
 ---
 title: Accessibility products and services from Microsoft
 description: "Learn more about the products and services from Microsoft that can help make our operating systems, programs, and applications more accessible for everyone to use, including people with disabilities."
-ms.date: 08/22/2017
+ms.date: 08/23/2019
 ms.topic: conceptual
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
 helpviewer_keywords:
   - "TTY/TDD services"
   - "documentation, recorded documentation"
@@ -22,9 +24,6 @@ ms.workload:
 ---
 # Accessibility products and services from Microsoft
 
-> [!TIP]
-> To learn more about recent accessibility updates to Visual Studio, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
-
 Microsoft is committed to making its products and services easier for everyone to use. The following topics provide information about the features, products, and services that make Microsoft Windows more accessible for people with disabilities:
 
 - [Accessibility features of Windows](../../ide/reference/accessibility-products-and-services-from-microsoft.md#windows)
@@ -35,7 +34,7 @@ Microsoft is committed to making its products and services easier for everyone t
 
 - [For more information](../../ide/reference/accessibility-products-and-services-from-microsoft.md#moreinfo)
 
-> [!NOTE]
+> [!IMPORTANT]
 > The information in this section may apply only to users who license Microsoft products in the United States. If you obtained this product outside of the United States, you can use the subsidiary information card that came with your software package or visit the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website for a list of Microsoft support services telephone numbers and addresses. You can contact your subsidiary to find out whether the type of products and services described in this section are available in your area. Information about accessibility is available in other languages, including Japanese and French.
 
 ## <a name="windows"></a> Accessibility features of Windows
@@ -60,9 +59,8 @@ If you have difficulty reading or handling printed materials, you can obtain the
 
 In addition, you can obtain additional Microsoft publications from Learning Ally. Learning Ally distributes these documents to registered, eligible members of their distribution service. For information about the availability of Microsoft product documentation and books from Microsoft Press, contact:
 
-|Learning Ally|
-| - |
-|20 Roszel Road<br /><br /> Princeton, NJ 08540<br /><br /> Learning Ally website: [http://www.learningally.org](http://www.learningally.org/).|
+> Learning Ally<br />
+> 20 Roszel Road<br /> Princeton, NJ 08540<br /><br /> Learning Ally website: [http://www.learningally.org](http://www.learningally.org/)
 
 Web addresses can change, so you might be unable to connect to the website or sites mentioned here.
 
@@ -79,6 +77,13 @@ Microsoft Support Services are subject to the prices, terms, and conditions in p
 ## <a name="moreinfo"></a> For more information
 
 For more information about how accessible technology for computers helps to improve the lives of people with disabilities, see the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website.
+
+::: moniker range="vs-2017"
+
+> [!TIP]
+> To learn more about accessibility updates to Visual Studio, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
+
+::: moniker-end
 
 ## See also
 

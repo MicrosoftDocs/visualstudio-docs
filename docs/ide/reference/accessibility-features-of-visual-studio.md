@@ -1,8 +1,10 @@
 ---
 title: "Accessibility features of Visual Studio"
 description: "Learn more about the accessibility features and utilities that help make both the Windows operating system and the Visual Studio developer suite more accessible for everyone, including people with disabilities."
-ms.date: 08/22/2017
+ms.date: 08/23/2019
 ms.topic: conceptual
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
 helpviewer_keywords:
   - "Visual Studio, accessibility"
   - "accessibility [Visual Studio]"
