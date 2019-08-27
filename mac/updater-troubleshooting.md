@@ -1,6 +1,7 @@
 ---
 title: "Updater has errors retrieving information"
 description: "Instructions on how to fix when you see the error 'Error retrieving update information'. in Visual Studio 2019 for Mac"
+ms.topic: troubleshooting
 author: asb3993
 ms.author: amburns
 ms.date: 04/13/2019
