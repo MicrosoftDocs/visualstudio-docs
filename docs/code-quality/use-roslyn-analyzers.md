@@ -56,6 +56,18 @@ To change the active rule set for a project, navigate to the **Code Analysis** t
 
 You can configure the severity of analyzer rules, or *diagnostics*, if you [install the analyzers](../code-quality/install-roslyn-analyzers.md) as a NuGet package. The following table shows the severity options for diagnostics:
 
+
+::: moniker range="vs-2019"
+|Severity|Build-time behavior|Editor behavior|
+|-|-|-|
+|Error|Violations appear as *Errors* in the **Error List** and in command-line build output, and cause builds to fail.|Offending code is underlined with a red squiggly, and marked by a small red box in the scroll bar.|
+|Warning|Violations appear as *Warnings* in the **Error List** and in command-line build output, but do not cause builds to fail.|Offending code is underlined with a green squiggly, and marked by a small green box in the scroll bar.|
+|Suggestion|Violations appear as *Messages* in the **Error List**, and not at all in command-line build output.|Offending code is underlined with a gray squiggly, and marked by a small gray box in the scroll bar.|
+|Silent|Non-visible to user.|Non-visible to user. The diagnostic is reported to the IDE diagnostic engine, however.|
+|None|Suppressed completely.|Suppressed completely.|
+::: moniker-end
+
+::: moniker range="< vs-2019"
 |Severity|Build-time behavior|Editor behavior|
 |-|-|-|
 |Error|Violations appear as *Errors* in the **Error List** and in command-line build output, and cause builds to fail.|Offending code is underlined with a red squiggly, and marked by a small red box in the scroll bar.|
@@ -63,6 +75,7 @@ You can configure the severity of analyzer rules, or *diagnostics*, if you [inst
 |Info|Violations appear as *Messages* in the **Error List**, and not at all in command-line build output.|Offending code is underlined with a gray squiggly, and marked by a small gray box in the scroll bar.|
 |Hidden|Non-visible to user.|Non-visible to user. The diagnostic is reported to the IDE diagnostic engine, however.|
 |None|Suppressed completely.|Suppressed completely.|
+::: moniker-end
 
 In addition, you can "reset" a rule's severity by setting it to **Default**. Each diagnostic has a default severity that can be seen in the **Properties** window.
 
