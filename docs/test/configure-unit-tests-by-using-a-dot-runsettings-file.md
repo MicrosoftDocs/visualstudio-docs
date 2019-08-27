@@ -150,6 +150,10 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
 
       <DataCollector uri="datacollector://microsoft/VideoRecorder/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder.VideoRecorderDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Screen and Voice Recorder">
         <!--Video data collector was introduced in Visual Studio 2017 version 15.5 -->
+        <Configuration>
+           <!-- Change to "false" to only add video attachments to failed tests -->
+          <MediaRecorder sendRecordedMediaForPassedTestCase="true" xmlns="" />
+        </Configuration>
       </DataCollector>
 
     </DataCollectors>
