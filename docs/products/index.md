@@ -3,7 +3,7 @@ layout: HubPage
 hide_bc: true
 title: Visual Studio Products | Microsoft Docs
 description: Explore the Visual Studio family of products.
-ms.topic: landing-page
+ms.topic: hub-page
 ms.date: 07/02/2019
 searchScope: []
 ---
