@@ -1,6 +1,7 @@
 ---
 title: "Projects and Solutions"
 description: This document provides an overview of Projects and Solutions in Visual Studio for Mac.
+ms.topic: overview
 author: heiligerdankgesang
 ms.author: dominicn
 ms.date: 05/23/2019

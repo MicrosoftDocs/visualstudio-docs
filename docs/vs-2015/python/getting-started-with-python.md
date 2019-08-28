@@ -67,7 +67,7 @@ The main offering for building a UI with Python is the [Qt Project](https://www.
   
 The Azure SDK for Python, which supports Windows, Mac, and Linux, makes it easy to consume and manage Microsoft Azure Services. Refer to the following resources for details: 
 
-- To install the SDK, use the [Python Package Index](https://pypi.python.org/pypi/azure) or follow [Install Python and the SDK](https://azure.microsoft.com/documentation/articles/python-how-to-install/) in the Azure documentation. 
+- To install the SDK, use the [Python Package Index](https://pypi.python.org/pypi/azure) or follow [Install Python and the SDK](https://docs.microsoft.com/azure/python/python-sdk-azure-install) in the Azure documentation. 
 - [Azure SDK for Python Developer Center](https://azure.microsoft.com/develop/python/) has lots of help from installation to documentation with tutorials.  Some highlights follow:  
 - How-to Guides:
   - [Storage Blob](https://azure.microsoft.com/develop/python/how-to-guides/blob-service/)  
