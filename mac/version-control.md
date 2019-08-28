@@ -1,6 +1,7 @@
 ---
 title: Version Control
 description: Using Git and Subversion in Visual Studio for Mac.
+ms.topic: overview
 author: jmatthiesen
 ms.author: jomatthi
 ms.date: 05/06/2018
