@@ -25,13 +25,13 @@ ms.workload:
 |Breaking Change|Non-breaking|
 
 ## Cause
- Classes use `SafeHandle` but still contain calls to `GC.KeepAlive`.
+Classes use `SafeHandle` but still contain calls to `GC.KeepAlive`.
 
 ## Rule description
- If you are converting to `SafeHandle` usage, remove all calls to `GC.KeepAlive` (object). In this case, classes should not have to call `GC.KeepAlive`,assuming they do not have a finalizer but rely on `SafeHandle` to complete the OS handle for them.  Although the cost of leaving in a call to `GC.KeepAlive` might be negligible as measured by performance, the perception that a call to `GC.KeepAlive` is either necessary or sufficient to solve a lifetime issue that might no longer exist makes the code harder to maintain.
+If you are converting to `SafeHandle` usage, remove all calls to `GC.KeepAlive` (object). In this case, classes should not have to call `GC.KeepAlive`,assuming they do not have a finalizer but rely on `SafeHandle` to complete the OS handle for them.  Although the cost of leaving in a call to `GC.KeepAlive` might be negligible as measured by performance, the perception that a call to `GC.KeepAlive` is either necessary or sufficient to solve a lifetime issue that might no longer exist makes the code harder to maintain.
 
 ## How to fix violations
- Remove calls to `GC.KeepAlive`.
+Remove calls to `GC.KeepAlive`.
 
 ## When to suppress warnings
- You can suppress this warning only if it is not technically correct to convert to `SafeHandle` usage in your class.
+You can suppress this warning only if it is not technically correct to convert to `SafeHandle` usage in your class.

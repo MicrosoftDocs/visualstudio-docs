@@ -39,7 +39,7 @@ For more information, see [Configure load test run settings](../test/configure-l
 |**Save Log Frequency for Completed Tests**|Specifies the frequency at which the test log will be written. The number indicates that one out of every entered number of tests will be saved to the test log. For example, entering the value of ten specifies that the tenth, twentieth, thirtieth and so on will be written to the test log. Setting the value to 0 specifies that no test logs will be saved.|
 |**Save Log on Test Failure**|A Boolean value that determines whether if test logs are saved if a test fails in a load test. The default is `True`.<br /><br /> For more information, see [How to: Specify if test failures are saved to test logs](../test/how-to-specify-if-test-failures-are-saved-to-test-logs.md)|
 
- For more information, see [Modify load test logging settings](../test/modify-load-test-logging-settings.md).
+For more information, see [Modify load test logging settings](../test/modify-load-test-logging-settings.md).
 
 ## Results properties
 
@@ -64,7 +64,7 @@ For more information, see [Configure load test run settings](../test/configure-l
 |**Test Iterations**|Specifies the total number of individual tests to run before the load test is complete. This property only applies when the property "Use Test Iterations" is `True`.|
 |**Use Test Iterations**|If Use Test Iterations is `True`, then the load test runs until the number of individual tests completed within the load test reaches the number that is specified by the "Test Iterations" property. In this case, the time-based settings, which are Warm up Duration, Run Duration, and Cool-down Duration, are ignored. If "Use Test Iterations" is `False`, all the timing settings apply, and "Test Iterations" is ignored.|
 
- For more information, see [How to: Specify the number of test iterations in a run setting](../test/how-to-specify-the-number-of-test-iterations-in-a-load-test.md).
+For more information, see [How to: Specify the number of test iterations in a run setting](../test/how-to-specify-the-number-of-test-iterations-in-a-load-test.md).
 
 ## Timing properties
 

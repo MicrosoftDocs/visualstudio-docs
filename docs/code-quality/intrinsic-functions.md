@@ -20,7 +20,7 @@ ms.workload:
 An expression in SAL can be a C/C++ expression provided that it is an expression that does not have side effects—for example, ++, --, and function calls all have side effects in this context.  However, SAL does provide some function-like objects and some reserved symbols that can be used in SAL expressions. These are referred to as *intrinsic functions*.
 
 ## General Purpose
- The following instrinsic function annotations provide general utility for SAL.
+The following instrinsic function annotations provide general utility for SAL.
 
 |Annotation|Description|
 |----------------|-----------------|
@@ -32,7 +32,7 @@ An expression in SAL can be a C/C++ expression provided that it is an expression
 |`return`|The C/C++ reserved keyword `return` can be used in a SAL expression to indicate the return value of a function.  The value is only available in post state; it is a syntax error to use it in pre state.|
 
 ## String Specific
- The following intrinsic function annotations enable manipulation of strings. All four of these functions serve the same purpose: to return the number of elements of the type that is found before a null terminator. The differences are the kinds of data in the elements that are referred to. Note that if you want to specify the length of a null-terminated buffer that is not composed of characters, use the `_Nullterm_length_(param)` annotation from the previous section.
+The following intrinsic function annotations enable manipulation of strings. All four of these functions serve the same purpose: to return the number of elements of the type that is found before a null terminator. The differences are the kinds of data in the elements that are referred to. Note that if you want to specify the length of a null-terminated buffer that is not composed of characters, use the `_Nullterm_length_(param)` annotation from the previous section.
 
 |Annotation|Description|
 |----------------|-----------------|

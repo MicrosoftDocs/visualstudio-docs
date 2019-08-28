@@ -173,6 +173,5 @@ Look at the options for deploying your [containers to Azure](/azure/containers).
 
 ## See also
   
-[Docker Compose settings](docker-compose-properties.md)
 [Docker Compose](https://docs.docker.com/compose/)  
 [Container Tools](/visualstudio/containers/)

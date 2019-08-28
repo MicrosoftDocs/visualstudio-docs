@@ -94,7 +94,7 @@ ms.workload:
 |[GenerateApplicationManifest task](../msbuild/generateapplicationmanifest-task.md)|Generates the application manifest.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild reference](../msbuild/msbuild-reference.md).|
 |[GenerateDeploymentManifest task](../msbuild/generatedeploymentmanifest-task.md)|Generates the deployment manifest.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild reference](../msbuild/msbuild-reference.md).|
 |[SignFile task](../msbuild/signfile-task.md)|Signs the application and deployment manifests.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild reference](../msbuild/msbuild-reference.md).|
-|<xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities>|Develop your own application to generate the application and deployment manifests.|
+|[Microsoft.Build.Tasks.Deployment.ManifestUtilities](https://docs.microsoft.com/dotnet/api/microsoft.build.tasks.deployment.manifestutilities)|Develop your own application to generate the application and deployment manifests.|
 
  The following table shows the .NET Framework version required to support ClickOnce applications in these browsers.
 

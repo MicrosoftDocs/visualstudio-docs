@@ -90,7 +90,7 @@ To run your unit tests after each local build, open the settings icon in the Tes
 
 ## View test results
 
-As you run, write, and rerun your tests, Test Explorer displays the results in groups of **Failed Tests**, **Passed Tests**, **Skipped Tests** and **Not Run Tests**. The details pane at the bottom of Test Explorer displays a summary of the test run.
+As you run, write, and rerun your tests, Test Explorer displays the results in groups of **Failed Tests**, **Passed Tests**, **Skipped Tests** and **Not Run Tests**. The details pane at the bottom or side of the Test Explorer displays a summary of the test run.
 
 ### View test details
 
@@ -163,7 +163,7 @@ You can define your own levels of the hierarchy and group by **State** and then 
 |**Class**|Groups tests by the containing class.|
 ::: moniker-end
 
-### Group by traits
+### Traits
 
 A trait is usually a category name/value pair, but it can also be a single category. Traits can be assigned to methods that are identified as a test method by the unit test framework. A unit test framework can define trait categories. You can add values to the trait categories to define your own category name/value pairs. The syntax to specify trait categories and values is defined by the unit test framework.
 
@@ -175,13 +175,13 @@ In the Microsoft unit test framework for managed apps, you define a trait name/ 
 |-|-----------------|
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute>|The Owner category is defined by the unit test framework and requires you to provide a string value of the owner.|
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute>|The Priority category is defined by the unit test framework and requires you to provide an integer value of the priority.|
-|<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute>|The TestCategory attribute enables you to provide a category without a value. A category defined by the TestCategory attribute can also be the category of a TestProperty attribute.|
+|<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute>|The TestCategory attribute enables you to provide a category without a value.|
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute>|The TestProperty attribute enables you to define trait category/value pair.|
 
 
 **Traits in the Microsoft Unit Testing Framework for C++**
 
- See [How to use the Microsoft Unit Testing Framework for C++](how-to-use-microsoft-test-framework-for-cpp.md).
+See [How to use the Microsoft Unit Testing Framework for C++](how-to-use-microsoft-test-framework-for-cpp.md).
 
 ## Create custom playlists
 
@@ -209,7 +209,7 @@ The playlist opens in a new Test Explorer tab. You can use this playlist once an
 
 ![Playlist opens in separate test explorer tab](../test/media/vs-2019/test-explorer-playlist-tab-16-2.png)
 
-**To add tests to a playlist**, choose one or more tests in Test Explorer. Right-click and choose **Add to Playlist** > **New playlist**. 
+**To create a playlist**, choose one or more tests in Test Explorer. Right-click and choose **Add to Playlist** > **New playlist**.
 
 **To open a playlist**, choose the playlist icon in the Visual Studio toolbar and select a previously saved playlist file from the menu.
 ::: moniker-end
@@ -223,14 +223,14 @@ The [groups](#test-explorer-groups) are also available as columns in Test Explor
 
 ### Filter, sort, and rearrange test columns
 
-Columns can be filtered, sorted, and rearranged. 
+Columns can be filtered, sorted, and rearranged.
 * To filter to specific traits, click the filter icon at the top of the Traits column.
 
   ![Column filter](../test/media/vs-2019/test-explorer-filter-column-16-2.png)
 
 * To change the order of the columns, click on a column header and drag it left or right.
 
-* To sort a column, click on the column header. Not all columns can be sorted.
+* To sort a column, click on the column header. Not all columns can be sorted. You can also sort by a secondary column by holding the **Shift** key and clicking on an additional column header.
 
   ![Column sort](../test/media/vs-2019/test-explorer-sort-column-16-2.png)
 ::: moniker-end
@@ -247,7 +247,7 @@ To filter by a different criteria:
 
 2. Choose a new criteria.
 
-3. Enter the filter value between the quotation marks.
+3. Enter the filter value between the quotation marks. If you want to search for an exact match on the string instead of a containing match use an equals sign (=) instead of the colon (:).
 
 ::: moniker range="vs-2017"
 ![Filter tests in Test Explorer](../test/media/ute_filtertestlist.png)
@@ -259,15 +259,28 @@ To filter by a different criteria:
 > [!NOTE]
 > Searches are case insensitive and match the specified string to any part of the criteria value.
 
+::: moniker range="vs-2017"
 |Qualifier|Description|
 |-|-----------------|
 |**Trait**|Searches both trait category and value for matches. The syntax to specify trait categories and values are defined by the unit test framework.|
 |**Project**|Searches the test project names for matches.|
 |**Error Message**|Searches the user-defined error messages returned by failed asserts for matches.|
 |**File Path**|Searches the fully qualified file name of test source files for matches.|
-|**Fully Qualified Name**|Searches the fully qualified file name of test namespaces, classes, and methods for matches.|
+|**Fully Qualified Name**|Searches the fully qualified name of test namespaces, classes, and methods for matches.|
 |**Output**|Searches the user-defined error messages that are written to standard output (stdout) or standard error (stderr). The syntax to specify output messages are defined by the unit test framework.|
 |**Outcome**|Searches the Test Explorer category names for matches: **Failed Tests**, **Skipped Tests**, **Passed Tests**.|
+::: moniker-end
+::: moniker range=">=vs-2019"
+|Qualifier|Description|
+|-|-----------------|
+|**State**|Searches the Test Explorer category names for matches: **Failed Tests**, **Skipped Tests**, **Passed Tests**.|
+|**Traits**|Searches both trait category and value for matches. The syntax to specify trait categories and values are defined by the unit test framework.|
+|**Fully Qualified Name**|Searches the fully qualified name of test namespaces, classes, and methods for matches.|
+|**Project**|Searches the test project names for matches.|
+|**Target Framework**|Searches the Test Explorer category names for matches: **Failed Tests**, **Skipped Tests**, **Passed Tests**.|
+|**Namespace**|Searches the test namespaces for matches.|
+|**Class**|Searches the test classes names for matches.|
+::: moniker-end
 
 To exclude a subset of the results of a filter, use the following syntax:
 
@@ -296,7 +309,7 @@ To diagnose why a test method is taking too much time, select the method in Test
 
 ### Analyze unit test code coverage
 
-You can determine the amount of your product code that is actually being tested by your unit tests by using the Visual Studio code coverage tool. You can run code coverage on selected tests or on all tests in a solution.
+You can determine the amount of product code that is actually being tested by your unit tests by using the Visual Studio code coverage tool that's available in Visual Studio Enterprise edition. You can run code coverage on selected tests or on all tests in a solution.
 
 To run code coverage for test methods in a solution:
 
@@ -325,6 +338,8 @@ Tests can be run from the **Test Explorer**, by right-clicking in the code edito
 |-|------------------------|
 |TestExplorer.DebugAllTestsInContext|**Ctrl**+**R**, **Ctrl**+**T**|
 |TestExplorer.RunAllTestsInContext|**Ctrl**+**R**, **T**|
+|TestExplorer.RunAllTests|**Ctrl**+**R**, **A**|
+|TestExplorer.RepeatLastRun|**Ctrl**+**R**, **L**|
 
 > [!NOTE]
 > You can't run a test in an abstract class, because tests are only defined in abstract classes and not instantiated. To run tests in abstract classes, create a class that derives from the abstract class.

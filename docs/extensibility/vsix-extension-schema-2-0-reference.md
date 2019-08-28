@@ -32,7 +32,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
 - `<Assets>` - This section contains all of the assets contained within this package. Without this section, this package won't surface any content.
 
-- `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements not recognized by the manifest loader are exposed in the Extension Manager API as extra XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file that code running in Visual Studio can access at runtime. See <xref:Microsoft.VisualStudio.ExtensionManager.IExtension.AdditionalElements%2A> and <xref:Microsoft.VisualStudio.ExtensionManager.IExtension.LocalizedAdditionalElements%2A>.
+- `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements not recognized by the manifest loader are exposed in the Extension Manager API as extra XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file that code running in Visual Studio can access at runtime. See [Microsoft.VisualStudio.ExtensionManager.IExtension.AdditionalElements](/previous-versions/visualstudio/visual-studio-2013/hh265266(v=vs.120)).
 
 ### Metadata element
  This section is the metadata about the package, its identity, and advertising information. `<Metadata>` contains the following elements:
@@ -214,4 +214,5 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 ```
 
 ## See also
-- [Shipping Visual Studio extensions](../extensibility/shipping-visual-studio-extensions.md)
+
+- [Ship Visual Studio extensions](../extensibility/shipping-visual-studio-extensions.md)

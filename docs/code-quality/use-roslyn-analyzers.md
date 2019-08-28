@@ -12,9 +12,9 @@ manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# Use Roslyn analyzers
+# Use code analyzers
 
-.NET Compiler Platform ("Roslyn") analyzer rules, or *diagnostics*, analyze your C# or Visual Basic code as you type. Each diagnostic has a default severity and suppression state that can be overwritten for your project. This article covers setting rule severity, using rule sets, and suppressing violations.
+.NET Compiler Platform ("Roslyn") code analyzers analyze your C# or Visual Basic code as you type. Each *diagnostic* or rule has a default severity and suppression state that can be overwritten for your project. This article covers setting rule severity, using rule sets, and suppressing violations.
 
 ## Analyzers in Solution Explorer
 
@@ -43,7 +43,7 @@ The icons next to each diagnostic in **Solution Explorer** correspond to the ico
 A [rule set](../code-quality/using-rule-sets-to-group-code-analysis-rules.md) is an XML file that stores the severity and suppression state for individual diagnostics.
 
 > [!NOTE]
-> Rule sets can include rules from both static (binary) code analysis and Roslyn analyzers.
+> Rule sets can include rules from both legacy analysis and code analyzers.
 
 To edit the active rule set in the rule set editor, right-click on the **References** > **Analyzers** node in **Solution Explorer** and select **Open Active Rule Set**. If this is the first time you're editing the rule set, Visual Studio makes a copy of the default rule set file, names it *\<projectname>.ruleset*, and adds it to your project. This custom rule set also becomes the active rule set for your project.
 
@@ -56,6 +56,18 @@ To change the active rule set for a project, navigate to the **Code Analysis** t
 
 You can configure the severity of analyzer rules, or *diagnostics*, if you [install the analyzers](../code-quality/install-roslyn-analyzers.md) as a NuGet package. The following table shows the severity options for diagnostics:
 
+
+::: moniker range="vs-2019"
+|Severity|Build-time behavior|Editor behavior|
+|-|-|-|
+|Error|Violations appear as *Errors* in the **Error List** and in command-line build output, and cause builds to fail.|Offending code is underlined with a red squiggly, and marked by a small red box in the scroll bar.|
+|Warning|Violations appear as *Warnings* in the **Error List** and in command-line build output, but do not cause builds to fail.|Offending code is underlined with a green squiggly, and marked by a small green box in the scroll bar.|
+|Suggestion|Violations appear as *Messages* in the **Error List**, and not at all in command-line build output.|Offending code is underlined with a gray squiggly, and marked by a small gray box in the scroll bar.|
+|Silent|Non-visible to user.|Non-visible to user. The diagnostic is reported to the IDE diagnostic engine, however.|
+|None|Suppressed completely.|Suppressed completely.|
+::: moniker-end
+
+::: moniker range="< vs-2019"
 |Severity|Build-time behavior|Editor behavior|
 |-|-|-|
 |Error|Violations appear as *Errors* in the **Error List** and in command-line build output, and cause builds to fail.|Offending code is underlined with a red squiggly, and marked by a small red box in the scroll bar.|
@@ -63,6 +75,7 @@ You can configure the severity of analyzer rules, or *diagnostics*, if you [inst
 |Info|Violations appear as *Messages* in the **Error List**, and not at all in command-line build output.|Offending code is underlined with a gray squiggly, and marked by a small gray box in the scroll bar.|
 |Hidden|Non-visible to user.|Non-visible to user. The diagnostic is reported to the IDE diagnostic engine, however.|
 |None|Suppressed completely.|Suppressed completely.|
+::: moniker-end
 
 In addition, you can "reset" a rule's severity by setting it to **Default**. Each diagnostic has a default severity that can be seen in the **Properties** window.
 
@@ -152,7 +165,7 @@ When you build your project at the command line, rule violations appear in the b
 The verbosity of the build output does not affect whether rule violations are shown. Even with **quiet** verbosity, rule violations appear in the build output.
 
 > [!TIP]
-> If you're accustomed to running static code analysis from the command line, either with *FxCopCmd.exe* or through msbuild with the **RunCodeAnalysis** flag, here's how to do that with Roslyn analyzers.
+> If you're accustomed to running legacy analysis from the command line, either with *FxCopCmd.exe* or through msbuild with the **RunCodeAnalysis** flag, here's how to do that with code analyzers.
 
 To see analyzer violations at the command line when you build your project using msbuild, run a command like this:
 
@@ -174,7 +187,7 @@ In a .NET Core project, if you add a reference to a project that has NuGet analy
 
 ## See also
 
-- [Overview of Roslyn analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
-- [Submit a Roslyn analyzer bug](https://github.com/dotnet/roslyn-analyzers/issues)
+- [Overview of code analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
+- [Submit a code analyzer bug](https://github.com/dotnet/roslyn-analyzers/issues)
 - [Use rule sets](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)
 - [Suppress code analysis warnings](../code-quality/in-source-suppression-overview.md)

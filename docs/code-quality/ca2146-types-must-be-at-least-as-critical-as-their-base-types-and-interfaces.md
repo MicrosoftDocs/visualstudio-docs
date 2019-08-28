@@ -21,16 +21,16 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- A transparent type is derived from a type that is marked with the <xref:System.Security.SecuritySafeCriticalAttribute> or the <xref:System.Security.SecurityCriticalAttribute>, or a type that is marked with the <xref:System.Security.SecuritySafeCriticalAttribute> attribute is derived from a type that is marked with the <xref:System.Security.SecurityCriticalAttribute> attribute.
+A transparent type is derived from a type that is marked with the <xref:System.Security.SecuritySafeCriticalAttribute> or the <xref:System.Security.SecurityCriticalAttribute>, or a type that is marked with the <xref:System.Security.SecuritySafeCriticalAttribute> attribute is derived from a type that is marked with the <xref:System.Security.SecurityCriticalAttribute> attribute.
 
 ## Rule description
- This rule fires when a derived type has a security transparency attribute that is not as critical as its base type or implemented interface. Only critical types can derive from critical base types or implement critical interfaces, and only critical or safe-critical types can derive from safe-critical base types or implement safe-critical interfaces. Violations of this rule in level 2 transparency result in a <xref:System.TypeLoadException> for the derived type.
+This rule fires when a derived type has a security transparency attribute that is not as critical as its base type or implemented interface. Only critical types can derive from critical base types or implement critical interfaces, and only critical or safe-critical types can derive from safe-critical base types or implement safe-critical interfaces. Violations of this rule in level 2 transparency result in a <xref:System.TypeLoadException> for the derived type.
 
 ## How to fix violations
- To fix this violation, mark the derived or implementing type with a transparency attribute that is at least as critical as the base type or interface.
+To fix this violation, mark the derived or implementing type with a transparency attribute that is at least as critical as the base type or interface.
 
 ## When to suppress warnings
- Do not suppress a warning from this rule.
+Do not suppress a warning from this rule.
 
 ## Example
- [!code-csharp[FxCop.Security.CA2146.TypesMustBeAtLeastAsCriticalAsBaseTypes#1](../code-quality/codesnippet/CSharp/ca2146-types-must-be-at-least-as-critical-as-their-base-types-and-interfaces_1.cs)]
+[!code-csharp[FxCop.Security.CA2146.TypesMustBeAtLeastAsCriticalAsBaseTypes#1](../code-quality/codesnippet/CSharp/ca2146-types-must-be-at-least-as-critical-as-their-base-types-and-interfaces_1.cs)]

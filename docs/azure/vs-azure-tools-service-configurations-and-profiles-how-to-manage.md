@@ -90,4 +90,4 @@ When you run the wizard for the first time, a default profile is created. Visual
 5. (Optional) select **Publish** to publish the cloud service using the new settings. If you don’t want to publish your cloud service at this time, and you close the Publish Wizard, Visual Studio asks you if you want to save the changes to the profile.
 
 ## Next steps
-To learn about configuring other parts of your Azure project from Visual Studio, see [Configuring an Azure Project](http://go.microsoft.com/fwlink/p/?LinkID=623075)
+To learn about configuring other parts of your Azure project from Visual Studio, see [Configuring an Azure Project](http://go.microsoft.com/fwlink/p/?LinkID=623075).

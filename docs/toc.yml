@@ -350,8 +350,6 @@
           - name: Overview
             displayName: refactoring
             href: ide/refactoring-in-visual-studio.md
-          - name: Add null checks for all parameters
-            href: ide/reference/add-null-checks-for-all-parameters.md
           - name: Change method signature
             href: ide/reference/change-method-signature.md
           - name: Convert anonymous type to class
@@ -404,6 +402,8 @@
             href: ide/reference/sort-usings.md
           - name: Split or merge if statements
             href: ide/reference/split-or-merge-if-statement.md
+          - name: Static local function refactorings
+            href: ide/reference/static-local-function-refactorings.md
           - name: Sync namespace and folder name
             href: ide/reference/sync-namespace-and-folder-name.md
           - name: Synchronize type and filename
@@ -414,6 +414,8 @@
             href: ide/reference/use-block-body-lambda.md
           - name: Unused value assignments, variables, and parameters
             href: ide/reference/unused-values-parameters.md
+          - name: Wrap and align call chains
+            href: ide/reference/wrap-and-align-call-chains.md
           - name: Wrap, indent, and align parameters
             href: ide/reference/wrap-align-indent-parameters.md
         - name: "Walkthrough: Generate code from usage"
@@ -996,6 +998,12 @@
             href: ide/reference/options-text-editor-xml-formatting.md
           - name: Miscellaneous
             href: ide/reference/options-text-editor-xml-miscellaneous.md
+      - name: Windows Forms Designer
+        items:
+        - name: General
+          href: ide/reference/options-windows-forms-designer.md
+        - name: Data UI Customization
+          href: ide/reference/options-windows-forms-designer-data-ui-customization.md
       - name: XAML Designer
         href: ide/reference/xaml-designer.md
     - name: Output window

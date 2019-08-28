@@ -41,7 +41,7 @@ For information about creating key files, see [How to: Create a public-private k
      The **Select a Certificate** dialog box appears and displays the contents of the Windows certificate store.
 
     > [!TIP]
-    > If you click **Click here to view certificate properties**, the **Certificate Details** dialog box appears. This dialog box includes detailed information about the certificate, and includes additional options. You can click **Certificates** to view additional help information.
+    > If you click **Click here to view certificate properties**, the **Certificate Details** dialog box appears. This dialog box includes detailed information about the certificate and additional options. Click **Certificates** to view additional help information.
 
 3. Select the certificate that you want to use to sign the manifests.
 
@@ -60,9 +60,12 @@ For information about creating key files, see [How to: Create a public-private k
     > [!NOTE]
     > This option supports only files that have the *.pfx* extension. If you have a key file or certificate in another format, store it in the Windows certificate store and select the certificate is described in the previous procedure. The selected certificate's purpose should include code signing.
 
-     The **Enter password to open file** dialog box appears. (If the *.pfx* file is already stored in your Windows certificate store, or is not password protected, you will not be prompted to enter a password.)
+     The **Enter password to open file** dialog box appears. (If the *.pfx* file is already stored in your Windows certificate store or is not password protected, you aren't prompted to enter a password.)
 
-4. Enter the password to access the key file, and press **Enter**.
+4. Enter the password to access the key file, and then select **Enter**.
+
+> [!NOTE]
+> The *.pfx* file cannot include certificate chaining information. If it does, the following import error will occur: **Cannot find the certificate and private key for decryption**.
 
 ## Sign using a test certificate
 

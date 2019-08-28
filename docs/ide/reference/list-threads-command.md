@@ -25,12 +25,12 @@ Debug.ListThreads [index]
 ```
 
 ## Arguments
- `index`
+`index`
 
- Optional. Selects a thread by its index to be the current thread.
+Optional. Selects a thread by its index to be the current thread.
 
 ## Remarks
- When specified, the `index` argument marks the indicated thread as the current thread. An asterisk (*) is displayed in the list next to the current thread.
+When specified, the `index` argument marks the indicated thread as the current thread. An asterisk (*) is displayed in the list next to the current thread.
 
 ## Example
 

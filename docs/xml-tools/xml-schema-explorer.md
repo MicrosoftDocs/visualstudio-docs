@@ -13,7 +13,7 @@ ms.workload:
 
 The **XML Schema Explorer** is integrated with Microsoft Visual Studio and the XML editor to enable you to work with XML Schema definition language (XSD) schemas. When you open an XML Schema file, the **Schema Set** node appears in the **XML Schema Explorer**. All the included, imported, or redefined schemas for your target file, as well as any files that are referenced through an `include` or `import` statement, also appear in the **XML Schema Explorer**.
 
- The **XML Schema Explorer** enables you to do the following:
+The **XML Schema Explorer** enables you to do the following:
 
 - Get a quick overview of the schema set.
 
@@ -40,7 +40,7 @@ The **XML Schema Explorer** provides a hierarchal view of the schema set through
 - You can access the **XML Schema Explorer** from a *.vb* file that has a Visual Basic XML literal associated with an *.xsd* file. To see the schema set in the **XML Schema Explorer**, right-click an XML node in an XML literal or an XML namespace import and select the **Show in Schema Explorer** command. For more information, see [Integration of XML literals with XML Schema Explorer](../xml-tools/integration-of-xml-literals-with-xml-schema-explorer.md).
 
 ## Tree View
- The **XML Schema Explorer** displays pre-compiled schema set information in a tree structure. The tree structure is organized as follows:
+The **XML Schema Explorer** displays pre-compiled schema set information in a tree structure. The tree structure is organized as follows:
 
 - At the top level is the schema set node.
 
@@ -55,9 +55,9 @@ The following is an example of a tree structure:
 ![XML Schema Explorer](../xml-tools/media/xmlschemaexplorer.gif)
 
 ## Selection and activation
- To highlight and select a node, click once in the Schema Explorer.
+To highlight and select a node, click once in the Schema Explorer.
 
- To activate a node, double-click it or press **Enter** when the node is selected.
+To activate a node, double-click it or press **Enter** when the node is selected.
 
 - Activating a node opens the file in which this node is defined (if the file is not already open) and selects the node in the file.
 
@@ -66,9 +66,9 @@ The following is an example of a tree structure:
 - Activating a SchemaSet or a namespace node does nothing.
 
 ## Drag and drop nodes
- You can drag and drop global nodes, file nodes, and namespace nodes onto an XSD Designer view. If the current view is the [Start View](../xml-tools/start-view.md), dragging a node on to the view will open the [Graph View](../xml-tools/graph-view.md). If the current view is the [Content Model View](../xml-tools/content-model-view.md) or Graph View, the view will not change when you drop a node onto it.
+You can drag and drop global nodes, file nodes, and namespace nodes onto an XSD Designer view. If the current view is the [Start View](../xml-tools/start-view.md), dragging a node on to the view will open the [Graph View](../xml-tools/graph-view.md). If the current view is the [Content Model View](../xml-tools/content-model-view.md) or Graph View, the view will not change when you drop a node onto it.
 
- Dropping files on the view will add all the global nodes in the file to the [XSD Designer workspace](../xml-tools/xml-schema-designer-workspace.md). Dropping namespaces on the view will add all the global nodes in the namespace to the workspace. The workspace is shared between all the views.
+Dropping files on the view will add all the global nodes in the file to the [XSD Designer workspace](../xml-tools/xml-schema-designer-workspace.md). Dropping namespaces on the view will add all the global nodes in the namespace to the workspace. The workspace is shared between all the views.
 
  You cannot drag and drop local nodes or imports.
 

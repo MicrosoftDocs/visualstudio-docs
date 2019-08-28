@@ -21,25 +21,25 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- This rule fires when a method marked with the <xref:System.Security.SecurityCriticalAttribute> overrides a method that is transparent or marked with the <xref:System.Security.SecuritySafeCriticalAttribute>. The rule also fires when a method that is transparent or marked with the <xref:System.Security.SecuritySafeCriticalAttribute> overrides a method that is marked with a <xref:System.Security.SecurityCriticalAttribute>.
+This rule fires when a method marked with the <xref:System.Security.SecurityCriticalAttribute> overrides a method that is transparent or marked with the <xref:System.Security.SecuritySafeCriticalAttribute>. The rule also fires when a method that is transparent or marked with the <xref:System.Security.SecuritySafeCriticalAttribute> overrides a method that is marked with a <xref:System.Security.SecurityCriticalAttribute>.
 
- The rule is applied when overriding a virtual method or implementing an interface.
+The rule is applied when overriding a virtual method or implementing an interface.
 
 ## Rule description
- This rule fires on attempts to change the security accessibility of a method further up the inheritance chain. For example, if a virtual method in a base class is transparent or safe-critical, then the derived class must override it with a transparent or safe-critical method. Conversely, if the virtual is security critical, the derived class must override it with a security critical method. The same rule applies for implementing interface methods.
+This rule fires on attempts to change the security accessibility of a method further up the inheritance chain. For example, if a virtual method in a base class is transparent or safe-critical, then the derived class must override it with a transparent or safe-critical method. Conversely, if the virtual is security critical, the derived class must override it with a security critical method. The same rule applies for implementing interface methods.
 
- Transparency rules are enforced when the code is JIT compiled instead of at runtime, so that the transparency calculation does not have dynamic type information. Therefore, the result of the transparency calculation must be able to be determined solely from the static types being JIT-compiled, regardless of the dynamic type.
+Transparency rules are enforced when the code is JIT compiled instead of at runtime, so that the transparency calculation does not have dynamic type information. Therefore, the result of the transparency calculation must be able to be determined solely from the static types being JIT-compiled, regardless of the dynamic type.
 
 ## How to fix violations
- To fix a violation of this rule, change the transparency of the method that is overriding a virtual method or implementing an interface to match the transparency of the virtual or interface method.
+To fix a violation of this rule, change the transparency of the method that is overriding a virtual method or implementing an interface to match the transparency of the virtual or interface method.
 
 ## When to suppress warnings
- Do not suppress warnings from this rule. Violations of this rule will result in a runtime <xref:System.TypeLoadException> for assemblies that use level 2 transparency.
+Do not suppress warnings from this rule. Violations of this rule will result in a runtime <xref:System.TypeLoadException> for assemblies that use level 2 transparency.
 
 ## Examples
 
 ### Code
- [!code-csharp[FxCop.Security.CA2134.MethodsMustOverrideWithConsistentTransparency#1](../code-quality/codesnippet/CSharp/ca2134-methods-must-keep-consistent-transparency-when-overriding-base-methods_1.cs)]
+[!code-csharp[FxCop.Security.CA2134.MethodsMustOverrideWithConsistentTransparency#1](../code-quality/codesnippet/CSharp/ca2134-methods-must-keep-consistent-transparency-when-overriding-base-methods_1.cs)]
 
 ## See also
- [Security-Transparent Code, Level 2](/dotnet/framework/misc/security-transparent-code-level-2)
+[Security-Transparent Code, Level 2](/dotnet/framework/misc/security-transparent-code-level-2)
