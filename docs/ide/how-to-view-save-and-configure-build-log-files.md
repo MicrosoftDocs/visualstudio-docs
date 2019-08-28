@@ -36,7 +36,7 @@ If you build any kind of project by using MSBuild, you can create a *.txt* file 
 
    Visual Studio prompts you for a location to save the build output.
 
-You can also generate logs by running MSBuild directly from the command line, using the `-fileLogger` (`-fl`) command-line option. See [Obtain build logs with MSBuild](../msbuild/obtaining-build-logs-with-msbuild).
+You can also generate logs by running MSBuild directly from the command line, using the `-fileLogger` (`-fl`) command-line option. See [Obtain build logs with MSBuild](../msbuild/obtaining-build-logs-with-msbuild.md).
 
 ## To change the amount of information included in the build log
 
