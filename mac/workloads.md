@@ -1,6 +1,7 @@
 ---
 title: "Visual Studio for Mac Workloads"
 description: "This article describes the various workloads that can be used in Visual Studio for Mac, including Xamarin mobile apps, ASP.NET Core, and Unity for games."
+ms.topic: overview
 author: therealjohn
 ms.author: johmil
 ms.date: 06/18/2019
