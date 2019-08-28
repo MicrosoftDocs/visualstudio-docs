@@ -4,7 +4,6 @@ description: "Getting started with Unity and Visual Studio for Mac"
 author: asb3993
 ms.author: amburns
 ms.date: 05/20/2019
-ms.topic: article
 ms.technology: vs-ide-general
 ms.assetid: D07FA43B-9D18-4DFA-8343-CD538FAD84DB
 ---
