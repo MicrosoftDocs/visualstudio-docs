@@ -22,12 +22,12 @@ Debug.SetCurrentProcess index
 ```
 
 ## Arguments
- `index`
+`index`
 
- Required. The index of the process.
+Required. The index of the process.
 
 ## Remarks
- You can attach to multiple processes when you are debugging, but only one process is active in the dubber at any given time. You can use the `SetCurrentProcess` command to set the active process.
+You can attach to multiple processes when you are debugging, but only one process is active in the dubber at any given time. You can use the `SetCurrentProcess` command to set the active process.
 
 ## Example
 

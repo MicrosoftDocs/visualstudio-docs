@@ -25,18 +25,18 @@ ms.workload:
 |Breaking Change|Non-breaking|
 
 ## Cause
- A string comparison operation uses a method overload that does not set a <xref:System.StringComparison> parameter.
+A string comparison operation uses a method overload that does not set a <xref:System.StringComparison> parameter.
 
 ## Rule description
- Many string operations, most important the <xref:System.String.Compare%2A> and <xref:System.String.Equals%2A> methods, provide an overload that accepts a <xref:System.StringComparison> enumeration value as a parameter.
+Many string operations, most important the <xref:System.String.Compare%2A> and <xref:System.String.Equals%2A> methods, provide an overload that accepts a <xref:System.StringComparison> enumeration value as a parameter.
 
- Whenever an overload exists that takes a <xref:System.StringComparison> parameter, it should be used instead of an overload that does not take this parameter. By explicitly setting this parameter, your code is often made clearer and easier to maintain.
+Whenever an overload exists that takes a <xref:System.StringComparison> parameter, it should be used instead of an overload that does not take this parameter. By explicitly setting this parameter, your code is often made clearer and easier to maintain.
 
 ## How to fix violations
- To fix a violation of this rule, change string comparison methods to overloads that accept the <xref:System.StringComparison> enumeration as a parameter. For example: change `String.Compare(str1, str2)` to `String.Compare(str1, str2, StringComparison.Ordinal)`.
+To fix a violation of this rule, change string comparison methods to overloads that accept the <xref:System.StringComparison> enumeration as a parameter. For example: change `String.Compare(str1, str2)` to `String.Compare(str1, str2, StringComparison.Ordinal)`.
 
 ## When to suppress warnings
- It is safe to suppress a warning from this rule when the library or application is intended for a limited local audience and will therefore not be localized.
+It is safe to suppress a warning from this rule when the library or application is intended for a limited local audience and will therefore not be localized.
 
 ## See also
 

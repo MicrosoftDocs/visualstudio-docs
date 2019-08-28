@@ -30,7 +30,7 @@ You can confirm that data that's being written to a dataset is valid by building
 The best place to add validation to your application is in the dataset's partial class file. In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], open the **Dataset Designer** and double-click the column or table for which you want to create validation. This action automatically creates an <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> event handler.
 
 ## Validate data
- Validation within a dataset is accomplished in the following ways:
+Validation within a dataset is accomplished in the following ways:
 
 - By creating your own application-specific validation that can check values in an individual data column during changes. For more information, see [How to: Validate data during column changes](validate-data-in-datasets.md).
 

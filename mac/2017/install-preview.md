@@ -4,7 +4,6 @@ description: "Instructions for updating Visual Studio for Mac and accessing prev
 author: conceptdev
 ms.author: crdun
 ms.date: 11/03/2018
-ms.topic: article
 ms.technology: vs-ide-install
 ms.assetid: 0E1EF257-9DE4-4653-9DF4-805CE007A1A1
 ---

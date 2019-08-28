@@ -93,6 +93,24 @@
           href: l2dbform-xaml-cs-source-code.md
 - name: Windows Forms
   items:
+  - name: Windows Forms Designer overview
+    href: windows-forms-designer-overview.md
+  - name: Get started with Windows Forms Designer
+    href: walkthrough-windows-forms-designer.md
+  - name: Arrange controls >>
+    href: /dotnet/framework/winforms/controls/arranging-controls-on-windows-forms
+  - name: Create a data-bound control >>
+    href: /dotnet/framework/winforms/how-to-create-a-simple-bound-control-on-a-windows-form
+  - name: Create custom controls >>
+    href: /dotnet/framework/winforms/controls/developing-windows-forms-controls-at-design-time
+  - name: Disable DPI awareness for Windows Forms Designer
+    href: disable-dpi-awareness.md
+  - name: Reference
+    items:
+    - name: System.Windows.Forms API >>
+      href: /dotnet/api/system.windows.forms
+  - name: Tutorials
+    items:
     - name: "Tutorial 1: Create a picture viewer (C#)"
       items:
       - name: Overview

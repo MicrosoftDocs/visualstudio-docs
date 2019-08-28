@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Container Tools build settings
+title: Visual Studio Container Tools build properties
 author: ghogen
 description: Overview of the Container Tools build process
 ms.author: ghogen

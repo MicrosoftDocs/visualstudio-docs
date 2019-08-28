@@ -58,7 +58,7 @@ ms.workload:
 |Microsoft Office Excel|<xref:Microsoft.Office.Interop.Excel.Application>|
 |Microsoft Office InfoPath|<xref:Microsoft.Office.Interop.InfoPath.Application>|
 |Microsoft Office Outlook|<xref:Microsoft.Office.Interop.Outlook.Application>|
-|Microsoft Office PowerPoint|<xref:Microsoft.Office.Interop.PowerPoint.Application>|
+|Microsoft Office PowerPoint|[Application](/previous-versions/office/developer/office-2010/ff764034(v=office.14))|
 |Microsoft Office Project|Microsoft.Office.Interop.MSProject.Application|
 |Microsoft Office Visio|Microsoft.Office.Interop.Visio.Application|
 |Microsoft Office Word|<xref:Microsoft.Office.Interop.Word.Application>|

@@ -15,7 +15,7 @@ manager: jillfra
 ---
 # Assign roles to a test controller and test agent
 
-This walkthrough demonstrates how to create and configure a test setting that uses a test controller and test agent to distribute testing across several machines using Visual Studio. In addition, this walkthrough demonstrates how to add diagnostic and data adapters to the test setting.
+This article demonstrates how to create and configure a test setting that uses a test controller and test agent to distribute testing across several machines using Visual Studio. It also demonstrates how to add diagnostic and data adapters to the test setting.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
@@ -42,9 +42,6 @@ This walkthrough demonstrates how to create and configure a test setting that us
      The **Test Settings** dialog box is displayed. The **General** page is selected.
 
      You can now edit and save test settings values.
-
-    > [!NOTE]
-    > Each test settings that you create is listed as a choice for the **Select Active Test Settings** and **Edit Test Settings** options on the **Test** menu.
 
 5. Under **Name**, type the name for the test settings.
 
@@ -92,7 +89,17 @@ This walkthrough demonstrates how to create and configure a test setting that us
 
 7. Choose **Close**.
 
-8. On the Test menu, select **Select Active Test Settings** and then choose **TestSettingDistributedTestWalkthrough.testsettings**.
+::: moniker range="vs-2017"
+
+8. On the Test menu, select **Select Test Settings File** and then choose *TestSettingDistributedTestWalkthrough.testsettings*.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+8. In **Test Explorer**, select the arrow on the **Settings** button, and then select **Select Settings File**. Browse to and select the *TestSettingDistributedTestWalkthrough.testsettings* file.
+
+::: moniker-end
 
 9. Run your test as usual.
 

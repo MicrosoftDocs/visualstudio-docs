@@ -116,4 +116,4 @@ The JSON configuration file specifies the details of what is to be deployed. It 
 You can edit the JSON configuration file to change what is deployed. A webSite section is required, but the database section is optional.
 
 ## Next steps
-For more information, see [Publish-WebApplicationVM (Windows PowerShell script)](vs-azure-tools-publish-webapplicationvm.md)
+For more information, see [Publish-WebApplicationVM (Windows PowerShell script)](vs-azure-tools-publish-webapplicationvm.md).

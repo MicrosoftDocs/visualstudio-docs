@@ -2,7 +2,7 @@
 title: "Step 6: Name your button controls"
 ms.date: 11/04/2016
 ms.topic: conceptual
-dev_langs: 
+dev_langs:
   - "csharp"
   - "vb"
 ms.assetid: 56b3baa3-651e-4ad4-8942-e334c5c57158
@@ -18,9 +18,9 @@ There's only one <xref:System.Windows.Forms.PictureBox> on your form. When you a
 > [!NOTE]
 > In Visual Basic, the default first letter of any control name is initial cap, so the names are **PictureBox1**, **CheckBox1**, and so on.
 
- There are four buttons on your form, and the IDE named them **button1**, **button2**, **button3**, and **button4**. By just looking at their current names, you don't know which button is the **Close** button and which one is the **Show a picture** button. That's why giving your button controls more informative names is helpful.
+There are four buttons on your form, and the IDE named them **button1**, **button2**, **button3**, and **button4**. By just looking at their current names, you don't know which button is the **Close** button and which one is the **Show a picture** button. That's why giving your button controls more informative names is helpful.
 
- ![link to video](../data-tools/media/playvideo.gif)For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 3](http://go.microsoft.com/fwlink/?LinkId=205213) or [Tutorial 1: Create a picture viewer in C# - Video 3](http://go.microsoft.com/fwlink/?LinkId=205202). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.
+![link to video](../data-tools/media/playvideo.gif)For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 3](http://go.microsoft.com/fwlink/?LinkId=205213) or [Tutorial 1: Create a picture viewer in C# - Video 3](http://go.microsoft.com/fwlink/?LinkId=205202). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.
 
 ## To name your button controls
 

@@ -3,27 +3,20 @@ title: Get started with the Subscriptions Administration Portal | Visual Studio 
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/24/2019
+ms.date: 08/07/2019
 ms.topic: conceptual
 description: Learn how to get started managing your organization's Visual Studio subscriptions with the Subscriptions Administration Portal.
 ---
 
-# Get started with the Visual Studio Subscriptions Administration Portal
-Keep this in mind when you use the Visual Studio Subscriptions Administration Portal:
+# Overview of the Visual Studio Subscriptions Administration Portal
+The Visual Studio Subscriptions Administration Portal gives you the tools to manage your organization's subscriptions in one place. 
+
+## Important considerations
+Keep these points in mind when you use the Visual Studio Subscriptions Administration Portal:
 - **Visual Studio subscriptions are licensed per user.** Each subscriber can use the software on as many computers as needed for development and testing.
 - **Assign only one subscription level for each subscriber**, corresponding to the Visual Studio subscription your organization purchased. If you have subscribers with more than one subscription level assigned to them, edit their settings so that they only have one.
 - **A subscriber’s subscription level will need to be updated** when the subscription is upgraded (after the purchase of a “step-up” license) or renewed at a lower level.
 - **Do not share subscriptions between subscribers.** Subscriptions must be assigned to named individuals.  Assignment of subscriptions to teams is not permitted.  You must assign a subscription to anyone who uses all or part of the subscription benefits (software for development and testing, Microsoft Azure, e-learning, etc.).
-
-## Access to the portal
-If you are the primary or notices contact on your organization’s agreement, you will be automatically provisioned access to the portal upon setting up your Volume Licensing agreement. You’ll receive a system-triggered welcome email and it will indicate which email address to use to sign into the portal. Once you’re signed in, you will be automatically set up as a super admin and can begin managing subscriptions and other administrators. 
-
-## Administrator roles
-There are two different roles that exist in the new Visual Studio Subscriptions Administration Portal for Volume Licensing customers. These roles are like the Primary/Notices Contact role and the Subscriptions Manager role in the VLSC today.
-
-**Super admins:** Upon first setting up an organization, the Primary or Notices Contact becomes a super admin by default. The Primary or Notices Contact can choose to assign additional super admins or administrators. A super admin can add and remove other administrators as well as subscribers. If there are more than two super admins in the system, a super-admin can delete all but the last two for security.
-
-**Administrators:** An administrator can only be set up by a super admin. An administrator can manage subscribers in the agreements that the super admin assigns to them.
 
 ## The Subscribers page
 Once you’ve assigned subscriptions, the Subscribers tab provides detailed information about your subscribers, including:
@@ -46,6 +39,12 @@ On the left-hand side of this page you can see additional information about the 
 For more information about the agreement you are viewing, select the Details tab. It shows the agreement status, purchase account, org details, super-admins and other pertinent information.
 > [!div class="mx-imgBorder"]
 > ![Visual Studio Subscriptions Admin Portal Details Page](_img/using-admin-portal/details-page.png)
+
+## Resources
+- [Visual Studio licensing white paper](https://aka.ms/vslicensing)
+- [Compare subscription options and pricing](https://visualstudio.microsoft.com/vs/pricing)
+- [Compare Visual Studio IDE features](https://visualstudio.microsoft.com/vs/compare)
+- [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
 
 ## Next steps
 Learn more about responsibilities for administrators:

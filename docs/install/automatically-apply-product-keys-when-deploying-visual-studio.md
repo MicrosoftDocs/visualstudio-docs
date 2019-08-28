@@ -95,6 +95,9 @@ If `StorePID.exe` successfully applies the product key, it returns an `%ERRORLEV
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
+> [!NOTE]
+> For troubleshooting virtual instances, run *C:\Program Files (x86)\Microsoft Visual Studio \<version\>\Common7\IDE\DDConfigCA.exe*.
+
 ## See also
 
 * [Install Visual Studio](../install/install-visual-studio.md)
