@@ -133,7 +133,7 @@ additionalContent:
         summary: Run tests on your projects.
         url: test/improve-code-quality.md
       - title: Deploy
-        summary: Share your apps using Web Deploy, InstallShield, and Continuous Integration, and more. 
+        summary: Share your apps and code using Web Deploy, InstallShield, NuGet, and Continuous Integration, and more. 
         url: deployment/index.md
       - title: Version Control
         summary: Share code using version control technologies such as Git and TFVC.
