@@ -1,6 +1,6 @@
 ---
 title: "How to: View, save, and configure build log files | Microsoft Docs"
-ms.date: 11/04/2016
+ms.date: 08/28/2019
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 ms.assetid: 75d38b76-26d6-4f43-bbe7-cbacd7cc81e7
