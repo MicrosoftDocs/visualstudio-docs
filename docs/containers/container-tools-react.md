@@ -110,8 +110,8 @@ Update the project file (*.csproj) by adding the following property:
 
 Update the Dockerfile by adding the following lines. This will copy the nodejs and npm to the container.
 
-   1. Add `# escape=\`` to the first line of the Dockerfile
-   1. Add the following lines before the "FROM … base"
+   1. Add `# escape=` ` to the first line of the Dockerfile
+   1. Add the following lines before `FROM … base`
 
       ```
       FROM mcr.microsoft.com/powershell:nanoserver-1903 AS downloadnodejs
@@ -121,18 +121,16 @@ Update the Dockerfile by adding the following lines. This will copy the nodejs a
       Rename-Item "C:\node-v10.16.3-win-x64" c:\nodejs
       ```
 
-   1. Add the following line before `FROM …  build`
+   1. Add the following line before `FROM … build`
 
       ```
       COPY --from=downloadnodejs C:\nodejs\ C:\Windows\system32\
       ```
 
-   1. The complete Dockerfile should resemble the following:
+   1. The complete Dockerfile should now look something like this:
 
       ```
-		# escape=`
-		#Depending on the operating system of the host machines(s) that will build or run the containers, the image specified in the FROM statement may need to be changed.
-      #For more information, please see https://aka.ms/containercompat
+      # escape=`
       FROM mcr.microsoft.com/powershell:nanoserver-1903 AS downloadnodejs
       SHELL ["pwsh", "-Command", "$ErrorActionPreference = 'Stop';$ProgressPreference='silentlyContinue';"]
       RUN Invoke-WebRequest -OutFile nodejs.zip -UseBasicParsing "https://nodejs.org/dist/v10.16.3/node-v10.16.3-win-x64.zip"; `
