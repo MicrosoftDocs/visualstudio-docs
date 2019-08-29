@@ -41,7 +41,7 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
    ![Add Docker support](media/container-tools-react/vs2017/add-docker-support.png)
 
-1. Select the Linux container type, and click **OK**.
+1. Select the container type, and click **OK**.
 ::: moniker-end
 ::: moniker range=">=vs-2019"
 1. Create a new project using the **ASP.NET Core Web Application** template.
@@ -53,10 +53,12 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
    ![Add Docker support](media/container-tools-react/vs2017/add-docker-support.png)
 
-1. Select Linux as the container type.
+1. Select the container type.
 ::: moniker-end
 
-## Dockerfile overview
+The next step is different depending on whether you're using Linux containers or Windows containers.
+
+## Modify the Dockerfile (Linux containers)
 
 A *Dockerfile*, the recipe for creating a final Docker image, is created in the project. Refer to [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) for an understanding of the commands within it.
 
@@ -97,6 +99,68 @@ ENTRYPOINT ["dotnet", "WebApplication37.dll"]
 The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) image, and includes instructions for modifying the base image by building your project and adding it to the container.
 
 When the new project dialog's **Configure for HTTPS** check box is checked, the *Dockerfile* exposes two ports. One port is used for HTTP traffic; the other port is used for HTTPS. If the check box isn't checked, a single port (80) is exposed for HTTP traffic.
+
+## Modify the Dockerfile (Windows containers)
+
+Update the project file (*.csproj) by adding the following property:
+
+   ```xml
+    <DockerfileFastModeStage>base</DockerfileFastModeStage>
+   ```
+
+Update the Dockerfile by adding the following lines. This will copy the nodejs and npm to the container.
+
+   1. Add `# escape=\`` to the first line of the Dockerfile
+   1. Add the following lines before the "FROM … base"
+
+      ```
+      FROM mcr.microsoft.com/powershell:nanoserver-1903 AS downloadnodejs
+      SHELL ["pwsh", "-Command", "$ErrorActionPreference = 'Stop';$ProgressPreference='silentlyContinue';"]
+      RUN Invoke-WebRequest -OutFile nodejs.zip -UseBasicParsing "https://nodejs.org/dist/v10.16.3/node-v10.16.3-win-x64.zip"; `
+      Expand-Archive nodejs.zip -DestinationPath C:\; `
+      Rename-Item "C:\node-v10.16.3-win-x64" c:\nodejs
+      ```
+
+   1. Add the following line before `FROM …  build`
+
+      ```
+      COPY --from=downloadnodejs C:\nodejs\ C:\Windows\system32\
+      ```
+
+   1. The complete Dockerfile should resemble the following:
+
+      ```
+		# escape=`
+		#Depending on the operating system of the host machines(s) that will build or run the containers, the image specified in the FROM statement may need to be changed.
+      #For more information, please see https://aka.ms/containercompat
+      FROM mcr.microsoft.com/powershell:nanoserver-1903 AS downloadnodejs
+      SHELL ["pwsh", "-Command", "$ErrorActionPreference = 'Stop';$ProgressPreference='silentlyContinue';"]
+      RUN Invoke-WebRequest -OutFile nodejs.zip -UseBasicParsing "https://nodejs.org/dist/v10.16.3/node-v10.16.3-win-x64.zip"; `
+      Expand-Archive nodejs.zip -DestinationPath C:\; `
+      Rename-Item "C:\node-v10.16.3-win-x64" c:\nodejs
+
+      FROM mcr.microsoft.com/dotnet/core/aspnet:2.2-nanoserver-1903 AS base
+      WORKDIR /app
+      EXPOSE 80
+      EXPOSE 443
+      COPY --from=downloadnodejs C:\nodejs\ C:\Windows\system32\
+
+      FROM mcr.microsoft.com/dotnet/core/sdk:2.2-nanoserver-1903 AS build
+      WORKDIR /src
+      COPY ["WebApplication7/WebApplication7.csproj", "WebApplication7/"]
+      RUN dotnet restore "WebApplication7/WebApplication7.csproj"
+      COPY . .
+      WORKDIR "/src/WebApplication7"
+      RUN dotnet build "WebApplication7.csproj" -c Release -o /app/build
+
+      FROM build AS publish
+      RUN dotnet publish "WebApplication7.csproj" -c Release -o /app/publish
+
+      FROM base AS final
+      WORKDIR /app
+      COPY --from=publish /app/publish .
+      ENTRYPOINT ["dotnet", "WebApplication7.dll"]
+      ```
 
 ## Debug
 
