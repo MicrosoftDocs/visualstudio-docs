@@ -3,7 +3,7 @@ title: Visual Studio Container Tools with ASP.NET Core
 author: ghogen
 description: Learn how to use Visual Studio Container Tools and Docker for Windows
 ms.author: ghogen
-ms.date: 06/06/2019
+ms.date: 08/28/2019
 ms.technology: vs-azure
 ms.topic: quickstart
 ---
@@ -108,7 +108,7 @@ Update the project file (*.csproj) by adding the following property:
     <DockerfileFastModeStage>base</DockerfileFastModeStage>
    ```
 
-Update the Dockerfile by adding the following lines. This will copy the nodejs and npm to the container.
+Update the Dockerfile by adding the following lines. This will copy Node.js and npm.exe to the container.
 
    1. Add `# escape=` ` to the first line of the Dockerfile
    1. Add the following lines before `FROM … base`
