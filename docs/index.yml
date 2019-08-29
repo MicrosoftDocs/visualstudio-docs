@@ -148,7 +148,7 @@ additionalContent:
         summary: Add your own functionality to the Visual Studio IDE to improve your development experience.
         url: extensibility/index.md
       - title: Data
-        summary: Create data apps that connect to any database or service, and anywhere&#8212;local or cloud.
+        summary: Create data apps that connect to any database or service, and anywhere—local or cloud.
         url: data-tools/accessing-data-in-visual-studio.md
       - title: Collaborate
         summary: Share, edit, and debug code in a collaborative, real-time environment.
