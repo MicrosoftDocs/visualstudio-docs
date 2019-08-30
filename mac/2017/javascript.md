@@ -4,7 +4,6 @@ description: "Information on the support for JavaScript in Visual Studio for Mac
 author: conceptdev
 ms.author: crdun
 ms.date: 05/03/2018
-ms.topic: article
 ms.technology: vs-ide-general
 ms.assetid: 61432695-5B12-4257-B250-48D37EED106D
 ---

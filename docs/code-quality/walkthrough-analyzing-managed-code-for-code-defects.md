@@ -13,9 +13,9 @@ ms.workload:
 ---
 # Walkthrough: Use static code analysis to find code defects
 
-In this walkthrough, you'll analyze a managed project for code defects by using the code analysis tool.
+In this walkthrough, you'll analyze a managed project for code defects by using legacy code analysis.
 
-This walkthrough steps you through the process of using static code analysis to analyze your .NET managed code assemblies for conformance with the .NET design guidelines.
+This article steps you through the process of using legacy analysis to analyze your .NET managed code assemblies for conformance with the .NET design guidelines.
 
 ## Create a class library
 

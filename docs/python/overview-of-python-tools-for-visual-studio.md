@@ -152,7 +152,7 @@ For more information:
 
 The Azure libraries for Python simplify consuming Azure services from Windows, Mac OS X, and Linux apps. You can use them to create and manage Azure resources, as well as to connect to Azure services. 
 
-For more information, see [Azure SDK for Python](/python/azure/?view=azure-python) and [Azure libraries for Python](/python/azure/python-sdk-azure-overview?view=azure-python)
+For more information, see [Azure SDK for Python](/azure/python/) and [Azure libraries for Python](/azure/python/python-sdk-azure-overview)
 .
 
 ## Questions and answers

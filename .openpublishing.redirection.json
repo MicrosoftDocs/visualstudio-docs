@@ -7984,6 +7984,11 @@
             "source_path": "subscriptions/post-migration-onboarding.md",
             "redirect_url": "/visualstudio/subscriptions",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/vs-azure-advisory-chat.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
         }
     ]
 }
