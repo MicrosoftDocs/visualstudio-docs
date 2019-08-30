@@ -24,7 +24,7 @@ To leverage this new functionality, you'll need:
 - The [Kubernetes tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vs-tools-for-kubernetes), available as a separate download.
 ::: moniker-end
 ::: moniker range="vs-2019"
-- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) with the *ASP.NET and web development* workload.
+- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) with the *ASP.NET and web development* workload.
 ::: moniker-end
 - [Docker Desktop](https://store.docker.com/editions/community/docker-ce-desktop-windows) installed on your development workstation (that is, where you run Visual Studio), if you wish to build Docker images, debug Docker containers running locally, or publish to AKS. (Docker is *not* required for building and debugging Docker containers in AKS using Azure Dev Spaces.)
 ::: moniker range="vs-2017"

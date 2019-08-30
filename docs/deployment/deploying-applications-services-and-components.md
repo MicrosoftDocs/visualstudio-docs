@@ -92,6 +92,13 @@ From Visual Studio, you can create app packages for deployment to Microsoft Stor
 
     ![Desktop bridge](../deployment/media/feature-tour-desktop-bridge.png)
 
+## Deploy .NET packages to NuGet.org
+
+To deploy bundled code into "packages" that contain compiled code (as DLLs) along with other content needed in the projects that consume these packages, you can use Visual Studio to create the NuGet package and a CLI tool to issue the final deployment command.
+
+- [Create and publish a .NET Standard package](/nuget/quickstart/create-and-publish-a-package-using-visual-studio)
+- [Create and publish a .NET Framework package](/nuget/quickstart/create-and-publish-a-package-using-visual-studio-net-framework)
+
 ## Deploy to a device (UWP)
 
 If you are deploying a UWP app for testing on a device, see [Run UWP apps on a remote machine in Visual Studio](../debugger/run-windows-store-apps-on-a-remote-machine.md).
