@@ -21,14 +21,13 @@ Enterprise application developers who use your VS Package can conveniently group
 
  Project nesting is not an intrinsic part of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. You have to write the code to enable nesting and subproject nesting within child projects. The parent project is a special VSPackage, or project type, created and registered with its own GUID that includes the code that is required to implement project nesting.
 
- You can find an example of nested projects in the C# Example.Nested Project sample.
+ You can find an example on how to nest projects in the [How to: Implement nested projects](../../extensibility/internals/how-to-implement-nested-projects.md).
 
 ## Nested projects example
  ![Nested Projects Solution](../../extensibility/internals/media/vsnestedprojects.gif "vsNestedProjects")
 Nested projects example
 
 ## See Also
-- [How to: Implement Nested Projects](../../extensibility/internals/how-to-implement-nested-projects.md)
 - [Considerations for Unloading and Reloading Nested Projects](../../extensibility/internals/considerations-for-unloading-and-reloading-nested-projects.md)
 - [Wizard Support for Nested Projects](../../extensibility/internals/wizard-support-for-nested-projects.md)
 - [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md)

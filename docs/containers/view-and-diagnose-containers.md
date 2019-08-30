@@ -18,7 +18,7 @@ You can view what's going on inside the containers that host your app by using t
 ## Prerequisites
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- Install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)
+- Install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
 - Install the [Containers window extension](https://aka.ms/vscontainerspreview)
 
 ## View information about your containers
