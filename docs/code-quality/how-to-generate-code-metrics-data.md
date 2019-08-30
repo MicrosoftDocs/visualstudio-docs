@@ -95,7 +95,7 @@ The results are generated and the **Code Metrics Results** window is displayed. 
 >
 > - Calculate code metrics from the [command line](#command-line-code-metrics) instead
 >
-> - Upgrade to [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)
+> - Upgrade to [Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
 
 ::: moniker-end
 
