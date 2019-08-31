@@ -46,7 +46,7 @@ Here is the list of software that you need:
 
 - [Windows 10](http://windows.microsoft.com/windows/downloads). Visual Studio 2019 supports UWP development only on Windows 10. For more details, see Visual Studio [Platform targeting](/visualstudio/releases/2019/compatibility/) and [System requirements](/visualstudio/releases/2019/system-requirements/).
 
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019). You will also need the optional Universal Windows Platform development workload.
+- [Visual Studio](https://visualstudio.microsoft.com/downloads). You will also need the optional Universal Windows Platform development workload.
 
      ![UWP workload](media/uwp_workload.png)
 
