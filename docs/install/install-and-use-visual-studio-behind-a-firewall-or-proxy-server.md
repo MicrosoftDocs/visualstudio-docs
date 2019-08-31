@@ -116,7 +116,7 @@ To make sure that you have access to everything you need when you use Visual Stu
 | Azure Stream Analytics <br><br>HDInsight | Management.azure.com | https | 443 | Used to view, submit, run, and manage ASA jobs <br><br> Used to browse HDI clusters, and to submit, diagnose, and debug HDI jobs |
 | Azure Data Lake | &#42;.azuredatalakestore.net <br>&#42;.azuredatalakeanalytics.net | https | 443 | Used to compile, submit, view, diagnose, and debug  jobs; used to browse ADLS files; used to upload and download files |
 | Packaging Service | [account].visualstudio.com <br/> [account].\*.visualstudio.com <br/> \*.blob.core.windows.net <br/> registry.npmjs.org </br> nodejs.org <br/> dist.nuget.org <br/> nuget.org | https | 443 | The \*.npmjs.org, \*.nuget.org, and \*.nodejs.org are only required for certain build task scenarios (for example: NuGet Tool Installer, Node Tool Installer) or if you intend to use public upstreams with your Feeds. The other three domains are required for core functionality of the Packaging service. |
-| Azure DevOps Services | \*.vsassets.io <br/> static2.sharepointonline.com | | | Used to connect with Azure DevOps Services |
+| Azure DevOps Services | \*.vsassets.io <br/> static2.sharepointonline.com <br/> dev.azure.com | | | Used to connect with Azure DevOps Services |
 | | | | | |
 
 ## Troubleshoot network-related errors
