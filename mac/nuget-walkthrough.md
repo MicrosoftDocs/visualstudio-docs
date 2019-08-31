@@ -26,7 +26,7 @@ For an intro to using NuGet in Visual Studio for Mac, see [Quickstart: Install a
 
     ![List NuGet Packages](media/nuget-walkthrough-AddPackages1.png)
 
-3. Use the search box in the top-right corner to find a specific package, for example `azure mobile`. When you have found a package that you wish to use, select it and click the **Add Package** button to begin installation.
+3. Use the search box in the top-right corner to find a specific package, for example `EntityFramework`. When you have found a package that you wish to use, select it and click the **Add Package** button to begin installation.
 
     ![Add Azure NuGet Package](media/nuget-walkthrough-AddPackages2.png)
 
