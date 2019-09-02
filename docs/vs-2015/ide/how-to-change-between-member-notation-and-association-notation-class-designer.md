@@ -40,7 +40,7 @@ In Class Designer, you can change the way the class diagram represents an associ
   
      The association line disappears, and the property displays in the appropriate compartment within its type shape on the diagram.  
   
-## See Also  
+## See also  
  [How to: Create Inheritance Between Types (Class Designer)](../ide/how-to-create-inheritance-between-types-class-designer.md)   
  [How to: View Inheritance Between Types (Class Designer)](../ide/how-to-view-inheritance-between-types-class-designer.md)   
  [Viewing Types and Relationships (Class Designer)](../ide/viewing-types-and-relationships-class-designer.md)   

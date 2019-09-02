@@ -42,6 +42,6 @@ int GetSize(
 ## Remarks  
  Use the [GetData](../../../extensibility/debugger/reference/ieedatastorage-getdata.md) method to retrieve the actual data bytes.  
   
-## See Also  
+## See also  
  [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)   
  [GetData](../../../extensibility/debugger/reference/ieedatastorage-getdata.md)

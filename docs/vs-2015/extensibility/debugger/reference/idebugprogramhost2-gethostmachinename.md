@@ -39,5 +39,5 @@ int GetHostMachineName( 
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDebugProgramHost2](../../../extensibility/debugger/reference/idebugprogramhost2.md)

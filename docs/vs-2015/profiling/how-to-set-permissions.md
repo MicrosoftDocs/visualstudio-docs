@@ -120,7 +120,7 @@ This topic describes how an Administrator of a computer grants the security perm
   
    The specified users, after logging on, will now be able to use the profiling tools without Administrator permissions.  
   
-## See Also  
+## See also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [VSPerfCmd](../profiling/vsperfcmd.md)   
  [Profiling and Windows Vista Security](../profiling/profiling-and-windows-vista-security.md)

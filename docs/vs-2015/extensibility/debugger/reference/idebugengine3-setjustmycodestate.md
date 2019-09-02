@@ -52,6 +52,6 @@ int SetJustMyCodeState(
 ## Remarks  
  JustMyCode is the concept of debugging only the code that belongs to a user and ignoring all intermediate code such as system code—even if source code is available for that system code.  
   
-## See Also  
+## See also  
  [IDebugEngine3](../../../extensibility/debugger/reference/idebugengine3.md)   
  [JMC_CODE_SPEC](../../../extensibility/debugger/reference/jmc-code-spec.md)

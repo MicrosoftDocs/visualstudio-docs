@@ -114,5 +114,5 @@ You can extend the Visual Studio isolated shell by adding a VSPackage, a Managed
   
 8. Build and run the solution.  
   
-## See Also  
+## See also  
  [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)

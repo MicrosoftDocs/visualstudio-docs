@@ -70,7 +70,7 @@ msbuild MyProject.proj /t:go /fl1 /fl2 /fl3 /flp2:logfile=JustErrors.log;errorso
   
  In the MSBuild command line, you specify the custom logger by using the **/logger** switch. You can also use the **/noconsolelogger** switch to disable the default console logger.  
   
-## See Also  
+## See also  
  <xref:Microsoft.Build.Framework.LoggerVerbosity>   
  [Build Loggers](../msbuild/build-loggers.md)   
  [Logging in a Multi-Processor Environment](../msbuild/logging-in-a-multi-processor-environment.md)   

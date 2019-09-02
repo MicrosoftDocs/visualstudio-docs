@@ -255,5 +255,5 @@ You can create a code snippet with only a few steps. All you need to do is creat
   
     ```  
   
-## See Also  
+## See also  
  [Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md)

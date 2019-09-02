@@ -68,7 +68,7 @@ public struct BP_CONDITION { 
   
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## See Also  
+## See also  
  [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)   
  [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)   
  [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md)   

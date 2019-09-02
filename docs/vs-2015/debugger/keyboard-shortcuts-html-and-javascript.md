@@ -53,6 +53,6 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 |Increase selected CSS value by 1|Up Arrow|  
 |Decrease selected CSS value by 1|Down Arrow|  
   
-## See Also  
+## See also  
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)   
  [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md)

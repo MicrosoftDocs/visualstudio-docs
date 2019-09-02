@@ -48,5 +48,5 @@ manager: "wpickett"
 ## Related Rules
  [CA2112: Secured types should not expose fields](../code-quality/ca2112-secured-types-should-not-expose-fields.md)
 
-## See Also
+## See also
  [Link Demands](https://msdn.microsoft.com/library/a33fd5f9-2de9-4653-a4f0-d9df25082c4d)

@@ -42,5 +42,5 @@ The following procedures describe how to debug both managed and native code, als
   
 4. Set **Debugger Type** to **Mixed** or **Auto**.  
   
-## See Also  
+## See also  
  [How to: Debug from a DLL Project](../debugger/how-to-debug-from-a-dll-project.md)

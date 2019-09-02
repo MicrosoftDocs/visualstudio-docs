@@ -59,7 +59,7 @@ SCCRTN SccQueryChanges(
 ## Remarks  
  Changes being queried for are to the namespace: specifically, renaming, adding, and removing a file.  
   
-## See Also  
+## See also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
  [QUERYCHANGESFUNC](../extensibility/querychangesfunc.md)   
  [Error Codes](../extensibility/error-codes.md)

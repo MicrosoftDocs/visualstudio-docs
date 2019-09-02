@@ -56,7 +56,7 @@ Contains a custom parameter name and value to use when a project or item is crea
 </CustomParameters>  
 ```  
   
-## See Also  
+## See also  
  [CustomParameters Element (Visual Studio Templates)](../extensibility/customparameters-element-visual-studio-templates.md)   
  [Template Parameters](../ide/template-parameters.md)   
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)

@@ -70,6 +70,6 @@ Contains a user defined property name and value. Every property used in an [!INC
 </PropertyGroup>  
 ```  
   
-## See Also
+## See also
 [MSBuild Properties](msbuild-properties1.md)  
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)

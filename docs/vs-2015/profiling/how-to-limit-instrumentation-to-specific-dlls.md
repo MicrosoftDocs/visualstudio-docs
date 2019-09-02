@@ -64,6 +64,6 @@ By using the instrumentation profiling method, you can limit the collection of p
     > [!NOTE]
     > Do not specify the executable (.exe) file that exercises the DLLs.  
   
-## See Also  
+## See also  
  [Controlling Data Collection](../profiling/controlling-data-collection.md)   
  [How to: Limit Instrumentation to Specific Functions](../profiling/how-to-limit-instrumentation-to-specific-functions.md)

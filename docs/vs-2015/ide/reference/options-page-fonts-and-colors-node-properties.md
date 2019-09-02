@@ -37,7 +37,7 @@ This document describes font and color properties for a tool window that is regi
 |FontCharacterSet|Get/Set (<xref:EnvDTE.vsFontCharSet>)|A <xref:EnvDTE.vsFontCharSet> value, specifying the type of character set to use, such as Hebrew or Russian.|  
 |FontSize|Get/Set (Short)|The size of font to use, in points. For example, 10 or 12.|  
   
-## See Also  
+## See also  
  [Controlling Options Settings](https://msdn.microsoft.com/library/a09ed242-7494-4cde-bbd1-7a8ec617965d)   
  [Determining the Names of Property Items on Options Pages](https://msdn.microsoft.com/library/d450422d-47c7-4eeb-9f9f-3286264bc5aa)   
  [Options Page, Environment Node Properties](../../ide/reference/options-page-environment-node-properties.md)   

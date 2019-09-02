@@ -38,5 +38,5 @@ LONG SccGetVersion(void);
 ## Remarks  
  For example, if a source control plug-in supports version 1.3 of the Source Control Plug-in API, this function would return 0x0103.  
   
-## See Also  
+## See also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

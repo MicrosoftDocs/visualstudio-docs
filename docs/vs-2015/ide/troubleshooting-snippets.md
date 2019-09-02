@@ -33,5 +33,5 @@ Problems with IntelliSense code snippets are typically caused by two problems: a
   
 - A variable may be undefined. Undefined variables in a snippet should be highlighted. If not, that can be reported to the snippet creator as an error.  
   
-## See Also  
+## See also  
  [Code Snippets](../ide/code-snippets.md)

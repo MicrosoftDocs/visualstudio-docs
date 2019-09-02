@@ -70,7 +70,7 @@ You can write a custom visualizer for an object of any managed class except for 
   
 2. If you want your visualizer to be able to edit data objects, as well as display them, you will need to override the `TransferData` or `CreateReplacementObject` methods from <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>.  
   
-## See Also  
+## See also  
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)   
  [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md)   
  [How to: Test and Debug a Visualizer](../debugger/how-to-test-and-debug-a-visualizer.md)   

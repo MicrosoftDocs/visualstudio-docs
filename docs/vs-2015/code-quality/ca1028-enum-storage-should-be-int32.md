@@ -67,7 +67,7 @@ manager: "wpickett"
 
  [CA1712: Do not prefix enum values with type name](../code-quality/ca1712-do-not-prefix-enum-values-with-type-name.md)
 
-## See Also
+## See also
  <xref:System.Byte?displayProperty=fullName>
  <xref:System.Int16?displayProperty=fullName>
  <xref:System.Int32?displayProperty=fullName>

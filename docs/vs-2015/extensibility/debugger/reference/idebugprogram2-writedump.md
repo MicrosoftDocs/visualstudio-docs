@@ -47,5 +47,5 @@ int WriteDump( 
 ## Remarks  
  A program dump would typically include the current stack frame, the stack itself, a list of the threads running in the program, and possibly any memory that the program owns.  
   
-## See Also  
+## See also  
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

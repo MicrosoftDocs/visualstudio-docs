@@ -42,5 +42,5 @@ int GetSize(
 ## Remarks  
  All fields have a type and all types have a size. For example, a field with a type of byte has a size of 1 byte.  
   
-## See Also  
+## See also  
  [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

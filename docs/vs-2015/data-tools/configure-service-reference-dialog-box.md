@@ -89,7 +89,7 @@ The **Configure Service Reference** dialog box enables you to configure the beha
 > [!NOTE]
 > The **Add Web Reference** button is available only when the **Configure Service Reference** dialog box is displayed from the **Add Service Reference Dialog Box**.  
   
-## See Also  
+## See also  
  [How to: Add, Update, or Remove a Service Reference](https://msdn.microsoft.com/library/cacc14bd-4455-4a44-be78-d2ac16113dd9)   
  [How to: Add a Reference to a Web Service](https://msdn.microsoft.com/library/952e49a1-567e-4a74-8cd7-f2e7b62c3168)   
  [Windows Communication Foundation Services and WCF Data Services](../data-tools/configure-service-reference-dialog-box.md)

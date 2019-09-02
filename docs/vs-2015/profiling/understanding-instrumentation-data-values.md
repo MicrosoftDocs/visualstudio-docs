@@ -92,6 +92,6 @@ The *instrumentation* profiling method of the [!INCLUDE[vsprvs](../includes/vspr
   
  100 * Function Application Exclusive / Session Application Inclusive  
   
-## See Also  
+## See also  
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)   
  [How to: Choose Collection Methods](../profiling/how-to-choose-collection-methods.md)

@@ -68,7 +68,7 @@ To make a custom tool available in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md
     "GeneratesDesignTimeSource"=dword:00000001  
     ```  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator>   
  [Implementing Single-File Generators](../../extensibility/internals/implementing-single-file-generators.md)   
  [Determining the Default Namespace of a Project](../../misc/determining-the-default-namespace-of-a-project.md)   

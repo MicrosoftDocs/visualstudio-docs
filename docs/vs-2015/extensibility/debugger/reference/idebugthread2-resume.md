@@ -44,6 +44,6 @@ int Resume ( 
   
  For each call to this method, there must be a previous call to the [Suspend](../../../extensibility/debugger/reference/idebugthread2-suspend.md) method. The suspend count determines how many times the `IDebugThread2::Suspend` method has been called so far.  
   
-## See Also  
+## See also  
  [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)   
  [Suspend](../../../extensibility/debugger/reference/idebugthread2-suspend.md)

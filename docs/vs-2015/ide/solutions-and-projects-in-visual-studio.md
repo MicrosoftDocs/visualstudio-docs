@@ -96,5 +96,5 @@ When you create an app, application, website, Web App, script, plug-in, etc in V
 
 - [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
 
-## See Also
+## See also
  [Visual Studio IDE](../ide/visual-studio-ide.md)

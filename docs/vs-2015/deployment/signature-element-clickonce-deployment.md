@@ -67,5 +67,5 @@ MIIHnTCCBoWgAwIBAgIKJY9+nwAHAAB...
 </Signature>  
 ```  
   
-## See Also  
+## See also  
  [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)

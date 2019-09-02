@@ -59,6 +59,6 @@ Code analysis for managed code analyzes managed assemblies and reports informati
 ## Team Build Integration  
  You can use the integrated features of the build system to run the analysis tool as part of the build process. For more information, see [Build the application](/azure/devops/pipelines/index).  
   
-## See Also  
+## See also  
  [Using Rule Sets to Group Code Analysis Rules](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)   
  [How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)

@@ -38,5 +38,5 @@ The XML Editor allows you to create an XML Schema definition language (XSD) sche
     > [!NOTE]
     > The **Create Schema** command is also available from the shortcut menu of the XML Editor and under the **XML** menu.  
   
-## See Also  
+## See also  
  [XML Editor](../xml-tools/xml-editor.md)

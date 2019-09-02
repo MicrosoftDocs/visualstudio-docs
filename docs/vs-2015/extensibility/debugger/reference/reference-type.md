@@ -54,7 +54,7 @@ public enum enum_REFERENCE_TYPE { 
   
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## See Also  
+## See also  
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md)   
  [SetReferenceType](../../../extensibility/debugger/reference/idebugreference2-setreferencetype.md)

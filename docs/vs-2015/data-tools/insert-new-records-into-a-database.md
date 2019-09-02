@@ -79,5 +79,5 @@ To insert new records into a database, you can use the `TableAdapter.Update` met
 ## .NET Framework Security  
  You must have access to the database you are trying to connect to, as well as permission to perform inserts into the desired table.  
   
-## See Also  
+## See also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

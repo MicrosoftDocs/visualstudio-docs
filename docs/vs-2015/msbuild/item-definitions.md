@@ -233,5 +233,5 @@ manager: jillfra
 </ItemGroup>  
 ```  
   
-## See Also  
+## See also  
  [Batching](../msbuild/msbuild-batching.md)

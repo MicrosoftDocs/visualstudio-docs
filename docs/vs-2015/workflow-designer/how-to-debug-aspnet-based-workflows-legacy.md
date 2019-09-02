@@ -46,7 +46,7 @@ This topic describes how to debug [!INCLUDE[vstecasp](../includes/vstecasp-md.md
   
 10. Open the default Web page in a browser and start the workflow.  
   
-## See Also  
+## See also  
  [Invoking the Visual Studio Debugger for Windows Workflow Foundation (Legacy)](../workflow-designer/invoking-the-visual-studio-debugger-for-windows-workflow-foundation-legacy.md)   
  [How to: Set Breakpoints in Workflows (Legacy)](../workflow-designer/how-to-set-breakpoints-in-workflows-legacy.md)   
  [Debugging Legacy Workflows](../workflow-designer/debugging-legacy-workflows.md)

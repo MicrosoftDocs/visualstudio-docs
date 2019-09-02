@@ -81,7 +81,7 @@ type="System.Resources.ResXFileRef,System.Windows.Forms">
   
  When [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] requests a resource from a VSPackage after Setup, that package is likely to be already loaded and initialized, so the performance loss is minimal.  
   
-## See Also  
+## See also  
  [Managed VSPackages](../../misc/managed-vspackages.md)   
  [Managing VSPackages](../../extensibility/managing-vspackages.md)   
  [Localized Resources in MFC Applications: Satellite DLLs](https://msdn.microsoft.com/library/3a1100ae-a9c8-47b5-adbd-cbedef5992ef)   

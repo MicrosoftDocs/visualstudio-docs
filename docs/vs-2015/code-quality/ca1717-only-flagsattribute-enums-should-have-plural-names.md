@@ -49,6 +49,6 @@ manager: "wpickett"
 
  [CA2217: Do not mark enums with FlagsAttribute](../code-quality/ca2217-do-not-mark-enums-with-flagsattribute.md)
 
-## See Also
+## See also
  <xref:System.FlagsAttribute?displayProperty=fullName>
  [Enum Design](https://msdn.microsoft.com/library/dd53c952-9d9a-4736-86ff-9540e815d545)

@@ -38,7 +38,7 @@ The Start View is the launching point for the XML Schema (XSD) Designer. When yo
 |**Show Content Model View**|Switches to the Content Model View. This view can be accessed by using the keyboard shortcut: **CTRL + 2**.|  
 |**Show Graph View**|Switches to the Graph View. This view can be accessed by using the keyboard shortcut: **CTRL + 3**.|  
   
-## See Also  
+## See also  
  [XML Schema Explorer](../xml-tools/xml-schema-explorer.md)   
  [Graph View](../xml-tools/graph-view.md)   
  [Content Model View](../xml-tools/content-model-view.md)   

@@ -175,7 +175,7 @@ You can change the project settings for a C or Visual C++ debug configuration in
   
  You can change these settings in the Configuration Properties folder (Debug category) programmatically by using the Microsoft.VisualStudio.VCProjectEngine.VCDebugSettings interface. For more information, see <xref:Microsoft.VisualStudio.VCProjectEngine.VCDebugSettings>.  
   
-## See Also  
+## See also  
  [Debugging Native Code](../debugger/debugging-native-code.md)   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Creating and Managing Visual C++ Projects](https://msdn.microsoft.com/library/11003cd8-9046-4630-a189-a32bf3b88047)   

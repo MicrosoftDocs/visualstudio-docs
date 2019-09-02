@@ -44,6 +44,6 @@ Many tasks inherit from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class
 |<xref:Microsoft.Build.Utilities.ToolTask.UseCommandProcessor%2A>|Optional `bool` parameter.<br /><br /> When set to `true`, this task creates a batch file for the command line and executes it by using the command-processor instead of executing the command directly.|  
 |<xref:Microsoft.Build.Utilities.ToolTask.YieldDuringToolExecution%2A>|Optional `bool` parameter.<br /><br /> When set to `true`, this task yields the node when its task is executing.|  
   
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Tasks](../msbuild/msbuild-tasks.md)

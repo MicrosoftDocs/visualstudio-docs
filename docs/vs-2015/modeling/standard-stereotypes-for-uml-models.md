@@ -132,7 +132,7 @@ You can add stereotypes to UML model elements to provide additional information 
 |**C# enum**|UML Enumeration|**ClrAttributes**<br /><br /> **Base Type**|  
 |**C# namespace**|UML Package|**Clr Attributes**<br /><br /> **Base Name**<br /><br /> **Using namespaces**|  
   
-## See Also  
+## See also  
  [Add stereotypes to UML model elements](../modeling/add-stereotypes-to-uml-model-elements.md)   
  [Customize your model with profiles and stereotypes](../modeling/customize-your-model-with-profiles-and-stereotypes.md)   
  [Define a profile to extend UML](../modeling/define-a-profile-to-extend-uml.md)

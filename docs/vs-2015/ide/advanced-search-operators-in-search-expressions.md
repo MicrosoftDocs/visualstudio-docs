@@ -43,6 +43,6 @@ By using advanced search operators, you can refine your search for content by cr
 |JavaScript|code:javascript<br /><br /> or<br /><br /> code:js|  
 |XAML|code:xaml|  
   
-## See Also  
+## See also  
  [Logical Operators in Search Expressions](../ide/logical-operators-in-search-expressions.md)   
  [Full-Text Search Tips](../ide/full-text-search-tips.md)

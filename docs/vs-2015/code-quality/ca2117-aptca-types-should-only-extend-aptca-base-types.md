@@ -77,7 +77,7 @@ manager: "wpickett"
 ## Related Rules
  [CA2116: APTCA methods should only call APTCA methods](../code-quality/ca2116-aptca-methods-should-only-call-aptca-methods.md)
 
-## See Also
+## See also
  [Secure Coding Guidelines](https://msdn.microsoft.com/library/4f882d94-262b-4494-b0a6-ba9ba1f5f177)
  [.NET Framework Assemblies Callable by Partially Trusted Code](https://msdn.microsoft.com/a417fcd4-d3ca-4884-a308-3a1a080eac8d)
  [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/dd66cd4c-b087-415f-9c3e-94e3a1835f74)

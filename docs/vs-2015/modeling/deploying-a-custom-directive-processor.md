@@ -194,5 +194,5 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../includes/vsprvs-md.m
 |Class|REG_SZ|\<**Your Fully Qualified Class Name**>|  
 |Assembly|REG_SZ|\<**Your Assembly Name in the GAC**>|  
   
-## See Also  
+## See also  
  [Creating Custom T4 Text Template Directive Processors](../modeling/creating-custom-t4-text-template-directive-processors.md)

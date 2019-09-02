@@ -66,6 +66,6 @@ The most recent version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provides
   
 2. Point to **Load Symbols From** and click **Microsoft Symbol Servers** or **Symbol Path**.  
   
-## See Also  
+## See also  
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)

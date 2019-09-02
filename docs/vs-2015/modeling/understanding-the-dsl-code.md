@@ -342,7 +342,7 @@ explorerWindow.TreeContainer.ObjectModelBrowser.SelectedNode = treeNode;
   
  This file controls how the DSL is packaged into a Visual Studio Integration Extension (VSIX). For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).  
   
-## See Also  
+## See also  
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
  [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)   
  [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md)   

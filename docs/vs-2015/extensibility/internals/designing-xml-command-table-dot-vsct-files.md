@@ -117,5 +117,5 @@ An XML command table (.vsct) file describes the layout and appearance of command
   
  Run the tool by using the command line **CreateExpInstance /Reset**. Remember that this tool removes from the experimental hive all the registered VSPackages not normally installed with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  
   
-## See Also  
+## See also  
  [Extending Menus and Commands](../../extensibility/extending-menus-and-commands.md)

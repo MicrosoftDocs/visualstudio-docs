@@ -176,5 +176,5 @@ Smart tags are deprecated in favor of light bulbs. See [Walkthrough: Displaying 
   
 5. When you click the button, two suggested actions should be displayed: **Convert to upper case** and **Convert to lower case**. If you click the first action, all the text in the current word should be converted to upper case. If you click the second action, all the text should be converted to lower case.  
   
-## See Also  
+## See also  
  [Walkthrough: Linking a Content Type to a File Name Extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

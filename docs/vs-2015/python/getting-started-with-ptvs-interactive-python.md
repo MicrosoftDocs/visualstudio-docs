@@ -27,6 +27,6 @@ Interactive prompts or read-eval-print loops (REPLs) are a key tool for producti
   
  You can watch these instructions in a very short [youtube video](https://www.youtube.com/watch?v=yc2CROtTsC0&index=5&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff).  
   
-## See Also  
+## See also  
  [Wiki documentation](https://github.com/Microsoft/PTVS/wiki/Interactive-REPL)   
  [PTVS Getting Started and Deep Dive Videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)

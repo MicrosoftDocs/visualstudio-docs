@@ -156,6 +156,6 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
 ## <a name="BuildValidation"></a> Include layer validation in the build process  
  To ensure that future changes in the code conform to the layer diagrams, include layer validation to your solution's standard build process. Whenever other team members build the solution, any differences between the dependencies in the code and the layer diagram will be reported as build errors. For more information about including layer validation in the build process, see [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md).  
   
-## See Also  
+## See also  
  [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md)   
  [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)

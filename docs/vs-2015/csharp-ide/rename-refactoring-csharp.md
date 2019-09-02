@@ -162,6 +162,6 @@ var orderIDs =
   
  In the preceding code, renaming `ID` will only rename one instance of `ID` because `companyIDs` and `orderIDs` do not have the same properties.  
   
-## See Also  
+## See also  
  [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)   
  [Anonymous Types](https://msdn.microsoft.com/library/59c9d7a4-3b0e-475e-b620-0ab86c088e9b)

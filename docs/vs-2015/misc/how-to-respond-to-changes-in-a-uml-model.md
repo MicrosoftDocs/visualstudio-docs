@@ -18,7 +18,7 @@ It is possible to write code that is executed whenever a change occurs in a UML 
   
  Sample code is available at [UML: Responding to Changes in a UML Model by using Events and Rules](http://code.msdn.microsoft.com/UML-Responding-to-changes-c024cd4b)  
   
-## See Also  
+## See also  
  [Navigate the UML model](../modeling/navigate-the-uml-model.md)   
  [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md)   
  [Sample: Color by Stereotype](http://go.microsoft.com/fwlink/?LinkId=213841)

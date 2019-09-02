@@ -34,7 +34,7 @@ Sometimes you may need to get a service from a tool window or control container 
   
      This code obtains an SVsActivityLog service and casts it to an <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog> interface, which can be used to write to the activity log. For an example, see [How to: Use the Activity Log](../extensibility/how-to-use-the-activity-log.md).  
   
-## See Also  
+## See also  
  [How to: Troubleshoot Services](../extensibility/how-to-troubleshoot-services.md)   
  [Using and Providing Services](../extensibility/using-and-providing-services.md)   
  [Service Essentials](../extensibility/internals/service-essentials.md)

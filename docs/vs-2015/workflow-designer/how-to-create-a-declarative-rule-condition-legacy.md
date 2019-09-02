@@ -57,7 +57,7 @@ This topic describes how to declare a rule condition using the legacy [!INCLUDE[
   
      For information about how to use the **Select Condition** dialog box, see [Select Condition Dialog Box (Legacy)](../workflow-designer/select-condition-dialog-box-legacy.md).  
   
-## See Also  
+## See also  
  [Legacy Workflow Activities](../workflow-designer/legacy-workflow-activities.md)   
  [Using the ConditionedActivityGroup](http://go.microsoft.com/fwlink?LinkID=65066)   
  [Using the IfElseBranchActivity Activity](http://go.microsoft.com/fwlink?LinkID=65075)   

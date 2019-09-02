@@ -46,6 +46,6 @@ devenv SolutionFile | ProjectFile /upgrade
 devenv "MyProject.sln" /upgrade  
 ```  
   
-## See Also  
+## See also  
  [How to: Troubleshoot Unsuccessful Visual Studio Project Upgrades](../../porting/how-to-troubleshoot-unsuccessful-visual-studio-project-upgrades.md)   
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)

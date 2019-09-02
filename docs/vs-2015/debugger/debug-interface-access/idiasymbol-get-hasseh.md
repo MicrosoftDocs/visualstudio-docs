@@ -44,6 +44,6 @@ HRESULT get_hasSEH(
 |Header:|dia2.h|  
 |Version:|DIA SDK v8.0|  
   
-## See Also  
+## See also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [Structured Exception Handling (C/C++)](https://msdn.microsoft.com/library/dd3b647d-c269-43a8-aab9-ad1458712976)

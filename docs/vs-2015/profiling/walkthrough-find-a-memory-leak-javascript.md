@@ -280,5 +280,5 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
       ![Snapshots showing the fixed memory leak](../profiling/media/js-mem-app-fixed-snapshot3.png "JS_Mem_App_Fixed_Snapshot3")  
   
-## See Also  
+## See also  
  [JavaScript Memory](../profiling/javascript-memory.md)

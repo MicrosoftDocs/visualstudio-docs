@@ -43,7 +43,7 @@ manager: jillfra
 ## Starter Kits  
  Starter Kits are enhanced templates that can be shared with other members of the community. A Starter Kit includes code samples that compile, documentation, and other resources to help users learn new tools and programming techniques while they build useful, real-world applications. The basic contents and procedures for Starter Kits are identical to those for templates. For more information, see [How to: Create Starter Kits](../ide/how-to-create-starter-kits.md).  
   
-## See Also  
+## See also  
  [How to: Create Project Templates](../ide/how-to-create-project-templates.md)   
  [How to: Create Item Templates](../ide/how-to-create-item-templates.md)   
  [Template Parameters](../ide/template-parameters.md)   

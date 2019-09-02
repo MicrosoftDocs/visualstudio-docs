@@ -78,7 +78,7 @@ A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment can test for
 ## .NET Framework Security  
  The support URL is not displayed on the dialog box if the application is marked to run in partial trust.  
   
-## See Also  
+## See also  
  [Mage.exe (Manifest Generation and Editing Tool)](https://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)   
  [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)   
  [\<compatibleFrameworks> Element](../deployment/compatibleframeworks-element-clickonce-deployment.md)   

@@ -45,5 +45,5 @@ The parent of a button or combo box may only be a group. The parent of a menu or
 |[Menus Element](../extensibility/menus-element.md)|Defines all the menus that a VSPackage implements.|  
 |[Groups Element](../extensibility/groups-element.md)|Contains entries that define the command groups of a VSPackage.|  
   
-## See Also  
+## See also  
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

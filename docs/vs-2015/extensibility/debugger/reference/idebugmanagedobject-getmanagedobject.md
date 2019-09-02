@@ -42,5 +42,5 @@ int GetManagedObject(
 ## Remarks  
  The interface returned from this method can be queried for any interface implemented by the managed class, allowing its methods to be called.  
   
-## See Also  
+## See also  
  [IDebugManagedObject](../../../extensibility/debugger/reference/idebugmanagedobject.md)

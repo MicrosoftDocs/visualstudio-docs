@@ -150,7 +150,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 16. To make changes to the source CSS file, click the **items.css** link on the **Styles** tab. This opens items.css, where you can change the value of the `color` style in your app code. To refresh the app without stopping and restarting the debugger, click the  ![Refresh Windows app button](../debugger/media/js-refresh.png "JS_Refresh") (**Refresh Windows app**) button on the **Debug** toolbar.  
   
-## See Also  
+## See also  
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)   
  [Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md)   
  [View DOM event listeners](../debugger/view-dom-event-listeners.md)   

@@ -59,7 +59,7 @@ devenv {/LCID|/l} LocaleID
 devenv /LCID 1033  
 ```  
   
-## See Also  
+## See also  
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)   
  [International Settings, Environment, Options Dialog Box](../../ide/reference/international-settings-environment-options-dialog-box.md)   
  [Customizing window layouts](../../ide/customizing-window-layouts-in-visual-studio.md)

@@ -405,7 +405,7 @@ bool GetValue(_Out_ int *pInt, bool flag)
 ## Related Resources  
  [Code Analysis Team Blog](http://go.microsoft.com/fwlink/p/?LinkId=251197)  
   
-## See Also  
+## See also  
  [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   
  [Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)   
  [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)   

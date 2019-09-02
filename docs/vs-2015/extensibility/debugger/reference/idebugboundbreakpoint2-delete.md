@@ -61,6 +61,6 @@ HRESULT CBoundBreakpoint::Delete(void)
 }     
 ```  
   
-## See Also  
+## See also  
  [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)   
  [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)

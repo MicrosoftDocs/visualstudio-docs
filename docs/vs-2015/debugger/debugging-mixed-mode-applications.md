@@ -51,5 +51,5 @@ A mixed-mode application is any application that combines native code (C++) with
   
    Because native call stacks and managed call stacks differ, the debugger cannot always provide the complete call stack for mixed code. When native code calls managed code, you may notice some discrepancies. For more information, see [Mixed Code and Missing Information in the Call Stack Window](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md).  
   
-## See Also  
+## See also  
  [Debugging Managed Code](../debugger/debugging-managed-code.md)

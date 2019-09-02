@@ -21,7 +21,7 @@ This message appears when you drag items that do not use the .NET Framework Data
   
 - Add only items from data connections that use the .NET Framework Data Provider for SQL Server to the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)].  
   
-## See Also  
+## See also  
  <xref:System.Data.SqlClient>   
  [.NET Framework Data Providers](https://msdn.microsoft.com/library/03a9fc62-2d24-491a-9fe6-d6bdb6dcb131)   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](https://msdn.microsoft.com/library/35aad4a4-2e8a-46e2-ae09-5fbfd333c233)

@@ -53,5 +53,5 @@ Starting with Visual Studio 2013 Update 4, support for the popular RequireJS Jav
   
  The customization steps needed for ASP.NET projects are not needed in a JSProj project file. That is, script files used by the `data-main` attribute on the script tag that references require.js are loaded automatically to configure require.js. The HTML file referencing require.js is also used as the start page for the application.  
   
-## See Also  
+## See also  
  [JavaScript IntelliSense](../ide/javascript-intellisense.md)

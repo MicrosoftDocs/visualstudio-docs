@@ -62,7 +62,7 @@ You can limit instrumentation and data collection to one or more functions by se
    > [!NOTE]
    > To list the functions in a binary, open a command prompt window in the Profiling Tools installation directory (typically, the \Team Tools\Performance Tools directory under the [!INCLUDE[vsprvsts](../includes/vsprvsts-md.md)] installation directory) and then type **vsinstr /DumpFuncs**  
   
-## See Also  
+## See also  
  [Controlling Data Collection](../profiling/controlling-data-collection.md)   
  [How to: Limit Instrumentation to Specific DLLs](../profiling/how-to-limit-instrumentation-to-specific-dlls.md)   
  [How to: Specify Additional Instrumentation Options](../profiling/how-to-specify-additional-instrumentation-options.md)

@@ -57,5 +57,5 @@ The Visual Studio isolated shell allows you to create stand-alone applications t
 |Web|HTML Editor<br /><br /> Web Browser<br /><br /> Web Forms Designer<br /><br /> Web Site Project<br /><br /> Web Application Project|  
 |Extensibility|Consumes VSPackages and MEF components|  
   
-## See Also  
+## See also  
  [Shell (Isolated or Integrated)](../extensibility/shell-isolated-or-integrated.md)

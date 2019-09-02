@@ -55,6 +55,6 @@ The **Assembly Information** dialog box is used to specify the values of the [!I
  **Make assembly COM-Visible**  
  Specifies whether types in the assembly will be available to COM. Corresponds to <xref:System.Runtime.InteropServices.ComVisibleAttribute>.  
   
-## See Also  
+## See also  
  [Application Page, Project Designer (Visual Basic)](../../ide/reference/application-page-project-designer-visual-basic.md)   
  [Attributes](https://msdn.microsoft.com/library/ae334cee-d96c-4243-a5e3-06dd7fcaf205)

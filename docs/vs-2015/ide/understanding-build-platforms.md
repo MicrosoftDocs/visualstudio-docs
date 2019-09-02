@@ -30,7 +30,7 @@ You can store different versions of solution and project properties that apply t
  [How to: Configure Projects to Target Multiple Platforms](../ide/how-to-configure-projects-to-target-multiple-platforms.md)  
  Explains how to configure a project to target multiple platforms.  
   
-## See Also  
+## See also  
  [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)   
  [Building and Cleaning Projects and Solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)

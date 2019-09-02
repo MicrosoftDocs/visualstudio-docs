@@ -65,7 +65,7 @@ The `VisibilityItem` element determines the static visibility of commands and to
 </VisibilityConstraints>  
 ```  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A>   
  <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus>   
  <xref:Microsoft.VisualStudio.VSConstants>   

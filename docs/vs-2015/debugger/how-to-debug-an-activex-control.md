@@ -52,7 +52,7 @@ NOTE]
   
      If you do not specify a container in the **Project Property Pages** dialog box, you can specify the container when you begin debugging. When you select an execution command to start debugging, the [Executable for Debugging Session Dialog Box](../debugger/executable-for-debugging-session-dialog-box.md) appears. Specify the path name of the container in the dialog box.  
   
-## See Also  
+## See also  
  [ActiveX Controls](https://msdn.microsoft.com/library/52aaec4d-3889-402e-b57d-758078f8ac57)   
  [Testing Properties and Events with Test Container](https://msdn.microsoft.com/library/626867cf-fe53-4c30-8973-55bb93ef3917)   
  [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)   

@@ -27,5 +27,5 @@ The XML Schema Designer is integrated with the XML Editor. If you modify an XSD 
   
   ![XSDDesignerWithXMLEditorAndCMV](../xml-tools/media/xsddesignerwithxmleditorandcmv.gif "XSDDesignerWithXMLEditorAndCMV")  
   
-## See Also  
+## See also  
  [XML Schema Explorer](../xml-tools/xml-schema-explorer.md)

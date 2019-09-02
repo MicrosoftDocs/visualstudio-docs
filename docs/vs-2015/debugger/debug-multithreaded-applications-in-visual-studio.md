@@ -100,6 +100,6 @@ A thread is a sequence of instructions to which the operating system allocates p
   [Multithreading Support for Older Code (Visual C++)](https://msdn.microsoft.com/library/24425b1f-5031-4c6b-aac7-017115a40e7c)
   Threading concepts and example code for C++ programmers using MFC.
 
-## See Also
+## See also
  [Debug Threads and Processes](../debugger/debug-threads-and-processes.md)
  [Remote Debugging](../debugger/remote-debugging.md)

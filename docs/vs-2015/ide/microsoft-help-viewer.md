@@ -68,7 +68,7 @@ You can install and view content for various products and technologies on your l
   
   The lower area of the Help Viewer window contains information about the total size of pending downloads, the amount of disk space that they require, and the amount of disk space that's available. This area also contains information about errors that may have occurred and a link that you can choose to refresh installed content, if updates are available.  
   
-## See Also  
+## See also  
  [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md)   
  [Install and Manage Local Content](../ide/install-and-manage-local-content.md)   
  [Locate Information](../ide/locate-information.md)   

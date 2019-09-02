@@ -316,7 +316,7 @@ Directed Graph Markup Language (DGML) describes information used for visualizati
 </Properties>  
 ```  
   
-## See Also  
+## See also  
  [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)   
  [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)   
  [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)

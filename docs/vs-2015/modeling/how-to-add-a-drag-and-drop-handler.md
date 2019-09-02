@@ -581,6 +581,6 @@ namespace Company.CompartmentDrag  // EDIT.
   
 ```  
   
-## See Also  
+## See also  
  [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md)   
  [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md)

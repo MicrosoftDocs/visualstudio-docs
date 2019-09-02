@@ -31,5 +31,5 @@ HRESULT RestrictSystemRootAccess();
 ## Remarks  
  Any return code other than `S_OK` prevents searching the system root for .pdb files.  
   
-## See Also  
+## See also  
  [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)

@@ -79,6 +79,6 @@ The `ItemDefinitionGroup` element lets you define a set of Item Definitions, whi
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)   
  [Items](../msbuild/msbuild-items.md)

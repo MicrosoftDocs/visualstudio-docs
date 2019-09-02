@@ -102,5 +102,5 @@ HKEY_LOCAL_MACHINE\
                 {adfc4e66-0397-11d1-9f4e-00a0c911004f} = reg_dword: 0x00000000  
 ```  
   
-## See Also  
+## See also  
  [VSPackage Essentials](../misc/vspackage-essentials.md)

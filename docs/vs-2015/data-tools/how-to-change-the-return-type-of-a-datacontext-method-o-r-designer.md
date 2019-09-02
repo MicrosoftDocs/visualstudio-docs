@@ -36,7 +36,7 @@ The return type of a <xref:System.Data.Linq.DataContext> method (created based o
   
 3. Save the .dbml file.  
   
-## See Also  
+## See also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
  [LINQ to SQL](https://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655)   
  [DataContext Methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md)   

@@ -52,5 +52,5 @@ Activities can be added to the **Toolbox** in your solution in several different
   
 6. The custom activity appears in the **Toolbox** under the category that was in focus before the item was added. For example, if the **General** category was selected in the **Toolbox** before adding the toolbox item, the activity appears under the **General** category.  
   
-## See Also  
+## See also  
  [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)

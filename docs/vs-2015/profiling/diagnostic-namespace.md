@@ -45,5 +45,5 @@ namespace diagnostic;
   
  **Namespace:** Concurrency  
   
-## See Also  
+## See also  
  [Concurrency Namespace (Concurrency Visualizer)](../profiling/concurrency-namespace-concurrency-visualizer.md)

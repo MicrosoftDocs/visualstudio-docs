@@ -89,5 +89,5 @@ This walkthrough shows how to add a menu to the menu bar of the Visual Studio in
 
      A message box should appear and display the message "TestCommand Package Inside TopLevelMenu.TestCommand.MenuItemCallback()". This indicates that the new command works.
 
-## See Also
+## See also
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

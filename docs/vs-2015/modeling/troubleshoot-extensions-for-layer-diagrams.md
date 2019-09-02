@@ -47,5 +47,5 @@ This topic addresses some problems that you might encounter when you create laye
   
 4. In **source.extension.vsixmanifest** in your layer validation project, make sure that you have added both a **MEF Component** item and a **Custom Extension Type** item under **Content**.  
   
-## See Also  
+## See also  
  [Extend layer diagrams](../modeling/extend-layer-diagrams.md)

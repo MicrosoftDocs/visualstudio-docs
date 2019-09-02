@@ -106,7 +106,7 @@ public struct BP_REQUEST_INFO2 {
   
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## See Also  
+## See also  
  [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)   
  [GetRequestInfo2](../../../extensibility/debugger/reference/idebugbreakpointrequest3-getrequestinfo2.md)   
  [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md)   

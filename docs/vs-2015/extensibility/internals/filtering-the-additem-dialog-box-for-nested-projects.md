@@ -25,7 +25,7 @@ When you display an **AddItem** dialog box for a nested project, the parent proj
   
  The `IVsFilterAddProjectItemDlg` interface can also implement filtering by category. For more information, see [Adding Items to the Add New Item Dialog Boxes](../../extensibility/internals/adding-items-to-the-add-new-item-dialog-boxes.md) and [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md).  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>   
  [Adding Items to the Add New Item Dialog Boxes](../../extensibility/internals/adding-items-to-the-add-new-item-dialog-boxes.md)   
  [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md)   

@@ -47,7 +47,7 @@ manager: jillfra
   
 3. On the **Debug** menu, click **Stop Debugging** to end the debugging session, or, on the **File** menu in Internet Explorer, click **Close**.  
   
-## See Also  
+## See also  
  [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)   
  [Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)   
  [How to: Enable Debugging for ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)

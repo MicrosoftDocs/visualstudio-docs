@@ -32,7 +32,7 @@ The managed package framework (MPF) classes can be used to create VSPackages usi
 |<xref:Microsoft.VisualStudio.Shell.Design.Serialization.CodeDom>|Contains [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] CodeDom designer extensions.|  
 |<xref:Microsoft.VisualStudio.Shell.Flavor>|Supports project subtypes (also known as "flavors").|  
   
-## See Also  
+## See also  
  [VSPackages and the Managed Package Framework](../misc/vspackages-and-the-managed-package-framework.md)   
  [Using Visual Studio Interop Assemblies](../extensibility/internals/using-visual-studio-interop-assemblies.md)   
  [VSPackages and the Managed Package Framework](../misc/vspackages-and-the-managed-package-framework.md)

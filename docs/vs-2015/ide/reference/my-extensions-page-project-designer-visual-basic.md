@@ -34,7 +34,7 @@ Use the **My Extensions** page of the **Project Designer** to manage `My` namesp
  **Remove Extension**  
  Select one or more references in the **My namespace extensions** list, and then click this button to remove the `My` namespace extension from the project.  
   
-## See Also  
+## See also  
  [Extending the My Namespace in Visual Basic](https://msdn.microsoft.com/library/808e8617-b01c-4135-8b21-babe87389e8e)   
  [Packaging and Deploying Custom My Extensions](https://msdn.microsoft.com/library/fd89c54b-0290-4c50-95a3-ff17d4487a21)   
  [Extending the Visual Basic Application Model](https://msdn.microsoft.com/library/e91d3bed-4c27-40e3-871d-2be17467c72c)   

@@ -72,7 +72,7 @@ Required root element of an [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.
 ### Parent Elements  
  None.  
   
-## See Also  
+## See also  
  [How to: Specify Which Target to Build First](../msbuild/how-to-specify-which-target-to-build-first.md)   
  [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)   
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)   

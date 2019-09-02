@@ -104,5 +104,5 @@ Most applications consume or produce data. [!INCLUDE[ndptecclick](../includes/nd
   
  Most of the time, you will not have to access the database directly, but will access it instead through a Web server application written in [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] or an XML Web service. Accessing the database in this manner is frequently the best method if your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application is deployed from a Web server. You can access the server in partial trust without elevating your application's permissions.  
   
-## See Also  
+## See also  
  [How to: Include a Data File in a ClickOnce Application](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md)

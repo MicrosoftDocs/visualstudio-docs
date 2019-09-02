@@ -160,7 +160,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
   
     ```  
   
-## See Also  
+## See also  
  [Legacy Language Service Extensibility](../../extensibility/internals/legacy-language-service-extensibility.md)   
  [Supporting Symbol-Browsing Tools](../../extensibility/internals/supporting-symbol-browsing-tools.md)   
  [How to: Expose Lists of Symbols Provided by the Library to the Object Manager](../../extensibility/internals/how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager.md)

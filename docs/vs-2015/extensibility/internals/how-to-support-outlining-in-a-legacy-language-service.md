@@ -41,6 +41,6 @@ Outlining is used to expand or collapse different regions of text. The way outli
 > [!NOTE]
 > Be careful about hiding new-line characters. Hidden text should extend from the start of the first line to the last character of the last line in a section, leaving the final new-line character visible.  
   
-## See Also  
+## See also  
  [How to: Provide Hidden Text Support in a Legacy Language Service](../../extensibility/internals/how-to-provide-hidden-text-support-in-a-legacy-language-service.md)   
  [How to: Provide Expanded Outlining Support in a Legacy Language Service](../../extensibility/internals/how-to-provide-expanded-outlining-support-in-a-legacy-language-service.md)

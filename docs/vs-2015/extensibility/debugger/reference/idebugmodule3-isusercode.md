@@ -39,5 +39,5 @@ int IsUserCode(
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns error code.  
   
-## See Also  
+## See also  
  [IDebugModule3](../../../extensibility/debugger/reference/idebugmodule3.md)

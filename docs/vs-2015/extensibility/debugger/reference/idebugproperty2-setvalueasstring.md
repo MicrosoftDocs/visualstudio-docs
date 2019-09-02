@@ -54,5 +54,5 @@ int SetValueAsString ( 
 |`E_SETVALUE_VALUE_CANNOT_BE_SET`|The string could not be converted into a property value, or the property value could not be set.|  
 |`E_SETVALUE_VALUE_IS_READONLY`|The property is read-only.|  
   
-## See Also  
+## See also  
  [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)

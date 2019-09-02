@@ -37,7 +37,7 @@ You can evaluate the pre-release version of Visual Studio for 14 days without re
     > [!NOTE]
     > Internet access is required to register and unlock any edition of Visual Studio. After Visual Studio is registered, though, an internet connection is optional.
 
-## See Also
+## See also
  [Install Visual Studio](../install/install-visual-studio-2015.md)
  [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)
  [How to: Locate the Visual Studio Product Key](../install/how-to-locate-the-visual-studio-product-key.md)

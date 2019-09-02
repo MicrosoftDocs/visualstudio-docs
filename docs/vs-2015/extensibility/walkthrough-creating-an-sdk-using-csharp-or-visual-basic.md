@@ -167,7 +167,7 @@ In this walkthrough, you’ll learn how to create a simple Math Library SDK by u
   
     You have successfully created and used an Extension SDK.  
   
-## See Also  
+## See also  
  [Walkthrough: Creating an SDK using C++](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)   
  [Walkthrough: Creating an SDK using JavaScript](walkthrough-creating-an-sdk-using-javascript.md)   
  [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md)

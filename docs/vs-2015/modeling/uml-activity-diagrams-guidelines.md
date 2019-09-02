@@ -420,7 +420,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
    You can also define a selection for an object node, and on individual input and output pins. Define a selection activity as in the previous procedure, and then set the **Selection** property of the object node, or input or output pin.  
   
-## See Also  
+## See also  
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
  [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)   
  [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)   

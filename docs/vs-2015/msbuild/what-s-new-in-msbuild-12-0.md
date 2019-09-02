@@ -35,5 +35,5 @@ MSBuild is now installed as part of Visual Studio rather than as part of the .NE
   
 - `MSBuildToolsPath` and `MSBuildFrameworkToolsPath` have 32-bit equivalents—`MSBuildToolsPath32` and `MSBuildFrameworkToolsPath32`—that always point to the 32-bit location, regardless of whether 32-bit or 64-bit MSBuild is being used.
 
-## See Also
+## See also
 [MSBuild](msbuild.md)

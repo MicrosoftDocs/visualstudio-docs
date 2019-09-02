@@ -43,7 +43,7 @@ This topic describes how to implement a [!INCLUDE[indigo1](../includes/indigo1-m
   
 5. Place the workflow activities you are going to use for the implementation of that operation within the **ReceiveActivity** activity.  
   
-## See Also  
+## See also  
  [Choose Operation Dialog Box (Legacy)](../workflow-designer/choose-operation-dialog-box-legacy.md)   
  [How to: Invoke a WCF Contract Operation (Legacy)](../workflow-designer/how-to-invoke-a-windows-communication-foundation-contract-operation-legacy.md)   
  [Legacy Workflow Activities](../workflow-designer/legacy-workflow-activities.md)

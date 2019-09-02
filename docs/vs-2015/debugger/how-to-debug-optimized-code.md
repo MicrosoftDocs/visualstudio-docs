@@ -86,6 +86,6 @@ for (x=0; x<10; x++)
   
  Suppose you set a breakpoint at this line. You might expect the breakpoint to be hit 10 times, but if the code is optimized, the breakpoint is hit only one time. That is because the first instruction sets the value of `x` to 0. The compiler recognizes that this only has to be done once and moves it out of the loop. The breakpoint moves with it. The instructions that compare and increment `x` remain inside the loop. When you view the **Disassembly** window, the [step unit](https://msdn.microsoft.com/8791dac9-64d1-4bb9-b59e-8d59af1833f9) is automatically set to Instruction for greater control, which is useful when you step through optimized code.  
   
-## See Also  
+## See also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging Native Code](../debugger/debugging-native-code.md)

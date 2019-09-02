@@ -21,5 +21,5 @@ Destroys an instance of the `VsgDbg` class. If graphics information is actively 
 ~VsgDbg();  
 ```  
   
-## See Also  
+## See also  
  [VsgDbg::VsgDbg (Constructor)](../debugger/vsgdbg-vsgdbg-constructor.md)

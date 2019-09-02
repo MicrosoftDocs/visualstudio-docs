@@ -197,7 +197,7 @@ The output from the build, including an error or success messages, appear in the
 |[Visual Studio Samples](../ide/visual-studio-samples.md)|[Microsoft Help Viewer](../ide/microsoft-help-viewer.md)|
 |[Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)|[UI Reference](../ide/reference/general-user-interface-elements-visual-studio.md)|
 
-## See Also
+## See also
 
 - [Installing Visual Studio 2015](../install/install-visual-studio-2015.md)
 - [Editing Your Code](https://www.visualstudio.com/features/ide-vs)

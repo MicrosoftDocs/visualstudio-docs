@@ -37,5 +37,5 @@ HRESULT get_functionStart ( 
 ## Remarks  
  It is possible for a stack frame to not be the start of a function because the frame represents an inline method or function inserted into a function.  
   
-## See Also  
+## See also  
  [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)

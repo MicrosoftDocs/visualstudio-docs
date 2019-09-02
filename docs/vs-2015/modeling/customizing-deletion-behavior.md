@@ -290,7 +290,7 @@ partial class NestedShapesSampleDocData
   
  For more information, see [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md).  
   
-## See Also  
+## See also  
  [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md)   
  [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md)   
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)

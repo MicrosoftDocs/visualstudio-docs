@@ -562,6 +562,6 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
   
  You can connect to existing SQL databases or other sources of data using Azure Mobile Services. See [Mobile Services documentation](https://azure.microsoft.com/services/app-service/mobile/).  
   
-## See Also  
+## See also  
  [Walkthrough: My First WPF Desktop Application](../designers/walkthrough-my-first-wpf-desktop-application2.md)   
  [Create Modern Desktop Applications with Windows Presentation Foundation](../designers/create-modern-desktop-applications-with-windows-presentation-foundation.md)

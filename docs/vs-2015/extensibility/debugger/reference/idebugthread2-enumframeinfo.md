@@ -52,7 +52,7 @@ int EnumFrameInfo ( 
 ## Remarks  
  The thread's frames are enumerated in order, with the current frame enumerated first and the oldest frame enumerated last.  
   
-## See Also  
+## See also  
  [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)   
  [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md)   
  [IEnumDebugFrameInfo2](../../../extensibility/debugger/reference/ienumdebugframeinfo2.md)   

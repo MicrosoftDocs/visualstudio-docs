@@ -98,5 +98,5 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 })();  
 ```  
   
-## See Also  
+## See also  
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)

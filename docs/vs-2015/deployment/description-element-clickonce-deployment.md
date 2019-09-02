@@ -58,5 +58,5 @@ Identifies application information used to create a shell presence and an **Add 
   xmlns="urn:schemas-microsoft-com:asm.v1" />  
 ```  
   
-## See Also  
+## See also  
  [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)

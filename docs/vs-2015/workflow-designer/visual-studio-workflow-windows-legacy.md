@@ -25,5 +25,5 @@ The legacy [!INCLUDE[wfd2](../includes/wfd2-md.md)] provided by [!INCLUDE[vs2010
 |Solution Explorer|Displays workflow projects in a hierarchical tree view and enables access to features that help manage the projects.|  
 |Debug windows|The standard Visual Studio debugging windows, such as the **Threads**, **Call Stack**, **Breakpoint**, **Locals Tool**, and **Watch Tool** windows.|  
   
-## See Also  
+## See also  
  [Debugging Legacy Workflows](../workflow-designer/debugging-legacy-workflows.md)

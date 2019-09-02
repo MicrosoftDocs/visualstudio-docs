@@ -108,6 +108,6 @@ If you have authored several [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Import Element (MSBuild)](../msbuild/import-element-msbuild.md)   
  [Targets](../msbuild/msbuild-targets.md)

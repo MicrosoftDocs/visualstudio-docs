@@ -67,7 +67,7 @@ The XML Editor provides a schema cache located in the %InstallDir%\Xml\Schemas d
     > [!NOTE]
     > If you still have a reference to the schema via a `schemaLocation` attribute, or a matching `targetNamespace` then **Remove** will not work in this situation due to auto-association. In this case it is recommended that you mark the schema as **Do not use selected schemas** in the **Use** column.  
   
-## See Also  
+## See also  
  [Schema Cache](../xml-tools/schema-cache.md)   
  [XML Schemas Dialog Box](../xml-tools/xml-schemas-dialog-box.md)   
  [XML Editor](../xml-tools/xml-editor.md)

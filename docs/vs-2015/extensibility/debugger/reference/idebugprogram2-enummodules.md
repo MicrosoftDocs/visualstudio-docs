@@ -42,6 +42,6 @@ int EnumModules( 
 ## Remarks  
  A module is a DLL or assembly and is typically listed in the **Modules** debug window.  
   
-## See Also  
+## See also  
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)   
  [IEnumDebugModules2](../../../extensibility/debugger/reference/ienumdebugmodules2.md)

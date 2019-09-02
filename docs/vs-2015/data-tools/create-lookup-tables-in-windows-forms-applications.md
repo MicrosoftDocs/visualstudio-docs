@@ -58,5 +58,5 @@ The term *lookup table* describes controls that are bound to two related data ta
     |**ValueMember**|Visual Studio sets this property to the first column participating in the primary key, or the first column in the table if no key is defined.<br /><br /> If you need to make an adjustment, then set this to the primary key in the table with the column you want to display.|  
     |**SelectedValue**|Visual Studio sets this property to the original column dropped from the **Data Sources** window.<br /><br /> If you need to make an adjustment, then set this to the foreign-key column in the related table.|  
   
-## See Also  
+## See also  
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

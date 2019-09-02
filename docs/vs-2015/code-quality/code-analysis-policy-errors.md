@@ -69,5 +69,5 @@ The following errors occur if the code analysis policy is not satisfied at check
   
    This error applies to unmanaged projects. The code analysis policy requires Code Analysis for C/C++, but it is not enabled in the current project on the client.  
   
-## See Also  
+## See also  
  [Code Analysis Application Errors](../code-quality/code-analysis-application-errors.md)

@@ -47,5 +47,5 @@ int Dereference(
 ## Remarks  
  The object pointed to can be a primitive or a more complex type such as a class or structure.  
   
-## See Also  
+## See also  
  [IDebugPointerObject](../../../extensibility/debugger/reference/idebugpointerobject.md)

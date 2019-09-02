@@ -47,6 +47,6 @@ public const uint TEXT_DOC_ATTR_READONLY_2 = 0x00000001;
   
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## See Also  
+## See also  
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [onUpdateDocumentAttributes](../../../extensibility/debugger/reference/idebugdocumenttextevents2-onupdatedocumentattributes.md)

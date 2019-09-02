@@ -81,7 +81,7 @@ This section covers common debugging problems and techniques for managed applica
  [Debugging Home Page](../debugger/debugging-in-visual-studio.md)  
  Provides links to the larger sections of the debugging documentation. Information includes what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging Visual C++ projects, debugging COM and ActiveX, debugging DLLs, debugging SQL, and the user interface references.  
   
-## See Also  
+## See also  
  [Walkthrough: Debugging Custom Windows Forms Controls at Design Time](https://msdn.microsoft.com/library/1fd83ccd-3798-42fc-85a3-6cba99467387)   
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

@@ -138,5 +138,5 @@ You can identify keyboard shortcuts for Visual Studio commands, customize those 
 
      ![Import only customized keyboard shortcuts](../ide/media/importshortcuts.png "ImportShortcuts")
 
-## See Also
+## See also
  [Accessibility Features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md)

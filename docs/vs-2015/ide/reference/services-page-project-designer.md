@@ -61,7 +61,7 @@ Client application services provide simplified access to [!INCLUDE[ajax_current_
  **Advanced**  
  Opens the [Advanced Settings for Services Dialog Box](../../ide/reference/advanced-settings-for-services-dialog-box.md), which you can use to override default behavior. For example, you can use this dialog box to specify a database for offline storage instead of using the local file system. For more information, see [Advanced Settings for Services Dialog Box](../../ide/reference/advanced-settings-for-services-dialog-box.md).  
   
-## See Also  
+## See also  
  [Client Application Services](https://msdn.microsoft.com/library/1487d8df-089e-4f21-abfb-a791a652b58e)   
  [Advanced Settings for Services Dialog Box](../../ide/reference/advanced-settings-for-services-dialog-box.md)   
  [How to: Configure Client Application Services](https://msdn.microsoft.com/library/34a8688a-a32c-40d3-94be-c8e610c6a4e8)   

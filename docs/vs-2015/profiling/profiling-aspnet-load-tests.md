@@ -21,7 +21,7 @@ You can collect profiling data from automated [!INCLUDE[TCMext](../includes/tcme
 
  [Running System Tests Using Microsoft Visual Studio](https://msdn.microsoft.com/library/19fae5c4-5798-4c4c-b531-3e8f901b1130).
 
-## See Also
+## See also
 
 - [Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)
 - [Using Performance Rules to Analyze Data](../profiling/using-performance-rules-to-analyze-data.md)

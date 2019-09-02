@@ -75,7 +75,7 @@ Certain value types do not always have (or need) a defined value. This is common
   
 5. Right-click the class shape and click **Class Details**. You can view or modify the new type's properties in the **Class Details** window.  
   
-## See Also  
+## See also  
  <xref:System.Nullable%601>   
  [Nullable Types](https://msdn.microsoft.com/library/e473cb01-28ca-42be-9cea-f717055d72c6)   
  [Using Nullable Types](https://msdn.microsoft.com/library/0bacbe72-ce15-4b14-83e1-9c14e6380c28)   

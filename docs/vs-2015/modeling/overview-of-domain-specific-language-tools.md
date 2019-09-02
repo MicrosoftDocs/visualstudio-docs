@@ -72,6 +72,6 @@ Domain-Specific Language Tools (DSL Tools), which are hosted in [!INCLUDE[vsprvs
   
  When you build and run the DSL Tools solution in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], a second instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] shows you how your domain-specific language looks to the user of the language. After you verify that everything works correctly, you can distribute the `.vsix` file that you will find in the build folder of the DslPackage project. This file can be used to install the DSL as a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extension on other computers.  For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).  
   
-## See Also  
+## See also  
  [The Experimental Instance](../extensibility/the-experimental-instance.md)   
  [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

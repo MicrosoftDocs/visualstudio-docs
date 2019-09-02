@@ -250,6 +250,6 @@ Thread::Sleep(3000);
   
      The active thread column and the **Suspend** column change.  
   
-## See Also  
+## See also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [How to: Switch to Another Thread While Debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md)

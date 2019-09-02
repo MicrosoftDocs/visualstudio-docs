@@ -42,6 +42,6 @@ HRESULT Next ( 
 ## Return Value  
  If successful, returns `S_OK`. Returns `S_FALSE` if there are no more injected sources. Otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)   
  [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)

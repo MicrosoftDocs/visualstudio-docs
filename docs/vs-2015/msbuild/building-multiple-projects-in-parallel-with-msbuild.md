@@ -66,7 +66,7 @@ msbuild.exe myproj.proj /maxcpucount:3
 </MSBuild>  
 ```  
   
-## See Also  
+## See also  
  [Using Multiple Processors to Build Projects](../msbuild/using-multiple-processors-to-build-projects.md)   
  [Writing Multi-Processor-Aware Loggers](../msbuild/writing-multi-processor-aware-loggers.md)   
  [Tuning C++ Build Parallelism blog](http://go.microsoft.com/fwlink/?LinkId=251457)

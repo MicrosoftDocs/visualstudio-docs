@@ -403,6 +403,6 @@ inherits="Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTran
 
      If you have set the MBR on that element, the referenced model opens and the referenced element is selected.
 
-## See Also
+## See also
  [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md)
  [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)

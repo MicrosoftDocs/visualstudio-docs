@@ -44,5 +44,5 @@ Example Generated Error:
 http://www.contoso.com/applications/error.asp? outer=System.Deployment.Application.InvalidDeploymentException&&inner=System.Deployment.Application.InvalidDeploymentException&&msg=The%20application%20manifest%20is%20signed,%20but%20the%20deployment%20manifest%20is%20unsigned.%20Both%20manifests%20must%20be%20either%20signed%20or%20unsigned.  
 ```  
   
-## See Also  
+## See also  
  [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)

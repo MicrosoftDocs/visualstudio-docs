@@ -26,7 +26,7 @@ In terms of the debugger architecture, a **stack frame**:
   
 - Is represented by an [IDebugStackFrame2](../../extensibility/debugger/reference/idebugstackframe2.md) interface, typically created by a debug engine (DE) or virtual machine as a consequence of executing a thread.  
   
-## See Also  
+## See also  
  [Debugger Contexts](../../extensibility/debugger/debugger-contexts.md)   
  [Debugger Concepts](../../extensibility/debugger/debugger-concepts.md)   
  [Debug Engine](../../extensibility/debugger/debug-engine.md)   

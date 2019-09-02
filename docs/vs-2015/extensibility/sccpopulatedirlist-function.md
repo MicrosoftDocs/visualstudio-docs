@@ -61,7 +61,7 @@ SCCRTN SccPopulateDirList(
 ## Remarks  
  Only those directories and (optionally) file names that are actually in the source control repository are passed to the callback function.  
   
-## See Also  
+## See also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
  [Bitflags Used by Specific Commands](../extensibility/bitflags-used-by-specific-commands.md)   
  [POPDIRLISTFUNC](../extensibility/popdirlistfunc.md)   

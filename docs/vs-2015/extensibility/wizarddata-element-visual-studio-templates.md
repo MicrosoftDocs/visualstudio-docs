@@ -90,7 +90,7 @@ Specifies custom XML
 </VSTemplate>  
 ```  
   
-## See Also  
+## See also  
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [WizardExtension Element (Visual Studio Templates)](../extensibility/wizardextension-element-visual-studio-templates.md)   

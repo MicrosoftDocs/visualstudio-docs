@@ -37,7 +37,7 @@ You can start Spy++ either from Visual Studio or at a command prompt.
   
 2. Type **spyxx.exe** and then press ENTER.  
   
-## See Also  
+## See also  
  [Using Spy++](../debugger/using-spy-increment.md)   
  [Spy++ Views](../debugger/spy-increment-views.md)   
  [Spy++ Reference](../debugger/spy-increment-reference.md)

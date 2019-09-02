@@ -57,7 +57,7 @@ Contains the code analysis tool that you can opt to run on your code. The tool r
  Usage Rules  
  Enables or disables the usage rules. You can also expand this entry to enable or disable individual rules.  
   
-## See Also  
+## See also  
  [Code Analysis for Managed Code Warnings](../../code-quality/code-analysis-for-managed-code-warnings.md)   
  [Code Analysis for Managed Code Overview](../../code-quality/code-analysis-for-managed-code-overview.md)   
  [Walkthrough: Analyzing Managed Code for Code Defects](../../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md)

@@ -32,6 +32,6 @@ This topic describes how use the **Theme Configuration** dialog box in the legac
 |**Select Designer and Configure Properties:**|The left pane lists a tree view of the activities for which the theme can be customized. Select an activity in the tree view and the theme properties for the activity will be displayed in the properties pane, which is to the right of the tree view pane. Click a property to change its value.|  
 |**Preview**|Click to display a window to preview the effects of property changes.|  
   
-## See Also  
+## See also  
  [Themes, Workflow Designer, Options Dialog Box (Legacy)](../workflow-designer/themes-workflow-designer-options-dialog-box-legacy.md)   
  [Legacy Designer for Windows Workflow Foundation UI Help](../workflow-designer/legacy-designer-for-windows-workflow-foundation-ui-help.md)

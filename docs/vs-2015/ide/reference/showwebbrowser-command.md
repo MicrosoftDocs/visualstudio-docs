@@ -47,7 +47,7 @@ View.ShowWebBrowser URL [/new][/ext]
 >View.ShowWebBrowser https://msdn.microsoft.com /ext  
 ```  
   
-## See Also  
+## See also  
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)   
  [Command Window](../../ide/reference/command-window.md)   
  [Find/Command Box](../../ide/find-command-box.md)   

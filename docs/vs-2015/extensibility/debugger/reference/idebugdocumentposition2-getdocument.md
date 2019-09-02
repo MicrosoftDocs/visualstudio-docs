@@ -39,6 +39,6 @@ int GetDocument( 
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md)   
  [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)

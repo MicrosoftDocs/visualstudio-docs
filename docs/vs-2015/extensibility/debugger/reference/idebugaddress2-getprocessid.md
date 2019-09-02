@@ -39,5 +39,5 @@ int GetProcessID (
 ## Return Value  
  If successful, returns S_OK; otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDebugAddress2](../../../extensibility/debugger/reference/idebugaddress2.md)

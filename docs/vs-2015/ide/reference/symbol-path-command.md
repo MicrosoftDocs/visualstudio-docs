@@ -48,6 +48,6 @@ Debug.SymbolPath C:\Symbol Path 1;C:\Symbol Path 2
 Debug.SymbolPath  
 ```  
   
-## See Also  
+## See also  
  [Command Window](../../ide/reference/command-window.md)   
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)

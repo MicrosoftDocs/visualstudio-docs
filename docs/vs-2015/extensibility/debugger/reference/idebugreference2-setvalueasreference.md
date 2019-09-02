@@ -54,5 +54,5 @@ int SetValueAsReference ( 
 ## Return Value  
  Always returns `E_NOTIMPL`.  
   
-## See Also  
+## See also  
  [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)

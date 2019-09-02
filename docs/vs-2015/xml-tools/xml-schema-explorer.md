@@ -84,5 +84,5 @@ The XML Schema Explorer is integrated with Microsoft Visual Studio and the XML E
   
 - [Integration of XML Literals with XML Schema Explorer](../xml-tools/integration-of-xml-literals-with-xml-schema-explorer.md)  
   
-## See Also  
+## See also  
  [How to: Add Nodes to the Workspace from the XML Schema Explorer](../xml-tools/how-to-add-nodes-to-the-workspace-from-the-xml-schema-explorer.md)

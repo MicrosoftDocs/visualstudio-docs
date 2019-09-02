@@ -50,6 +50,6 @@ This procedure enables you to create a template using the **Export Template** wi
   
      If you have the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] installed, you can wrap the finished template in a .vsix file for deployment by using the **VSIX Project** template. For more information, see [Getting Started with the VSIX Project Template](../extensibility/getting-started-with-the-vsix-project-template.md).  
   
-## See Also  
+## See also  
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [How to: Create Item Templates](../ide/how-to-create-item-templates.md)

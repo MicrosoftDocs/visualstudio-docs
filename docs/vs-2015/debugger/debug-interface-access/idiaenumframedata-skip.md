@@ -34,5 +34,5 @@ HRESULT Skip ( 
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` if there are no more records to skip.  
   
-## See Also  
+## See also  
  [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md)

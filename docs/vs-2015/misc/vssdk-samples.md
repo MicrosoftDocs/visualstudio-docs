@@ -15,5 +15,5 @@ The official home for Visual Studio Extensibility samples is the [MSDN Code Gall
   
  An IronPython sample is also available. It is integrated with the [IronPython Studio project](http://go.microsoft.com/fwlink/?LinkID=183554) on the CodePlex Web site.  
   
-## See Also  
+## See also  
  [Visual Studio SDK](../extensibility/visual-studio-sdk.md)

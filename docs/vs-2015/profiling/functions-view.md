@@ -28,7 +28,7 @@ The Functions view lists the functions that are called during profiling.
   
  The columns that are available in the Functions view depend on the profiling method (sampling or instrumentation) that was used to collect the data, and whether .NET memory data was collected in the profiling run.  
   
-## See Also  
+## See also  
  [Functions View](../profiling/functions-view-sampling-data.md)   
  [Functions View](../profiling/functions-view-instrumentation-data.md)   
  [Functions View - Instrumentation](../profiling/functions-view-dotnet-memory-instrumentation-data.md)   

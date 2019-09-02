@@ -32,7 +32,7 @@ The **Assign** activity designer is used to create and configure an <xref:System
 |<xref:System.Activities.Statements.Assign.To%2A>|True|The variable or argument to which the <xref:System.Activities.Statements.Assign.Value%2A> is assigned. This must be a valid Visual Basic identifier. To set the property, type a Visual Basic expression in the **To** box on the **Assign** activity designer or in the property grid.|  
 |<xref:System.Activities.Statements.Assign.Value%2A>|True|The value that is assigned to the variable. To set the <xref:System.Activities.Statements.Assign.Value%2A>, type a Visual Basic expression in the **Value** box on the **Assign** activity designer or in the property grid.|  
   
-## See Also  
+## See also  
  [Primitives](../workflow-designer/primitives-activity-designers.md)   
  [Delay](../workflow-designer/delay-activity-designer.md)   
  [InvokeMethod](../workflow-designer/invokemethod-activity-designer.md)   

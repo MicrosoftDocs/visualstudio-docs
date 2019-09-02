@@ -75,6 +75,6 @@ This topic describes the internal members of the <xref:System.Threading.Tasks.Ta
   
 - `InternalWait`  
   
-## See Also  
+## See also  
  <xref:System.Threading.Tasks.Task?displayProperty=fullName>   
  [Parallel Extension Internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)

@@ -47,6 +47,6 @@ public enum enum_MACHINE_INFO_FLAGS { 
   
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## See Also  
+## See also  
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [MACHINE_INFO_FIELDS](../../../extensibility/debugger/reference/machine-info-fields.md)

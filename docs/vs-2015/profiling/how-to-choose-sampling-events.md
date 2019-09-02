@@ -55,7 +55,7 @@ By default, the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools col
   
 5. When you select a sample event, a default sampling interval value is displayed in the **Sampling interval** text box. If necessary, you can enter the value that you want in the text box.  
   
-## See Also  
+## See also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [How to: Choose Collection Methods](../profiling/how-to-choose-collection-methods.md)   
  [CPU and Windows Counters](../profiling/cpu-and-windows-counters.md)   

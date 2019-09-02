@@ -84,7 +84,7 @@ Replace in Files** allows you to search the code of a specified set of files for
 > [!CAUTION]
 > You can use **Undo** only on files that remain open for editing. If this option is not selected, files that were not already open for editing will remain closed, and no **Undo** option will be available in those files.  
   
-## See Also  
+## See also  
  [Finding and Replacing Text](../ide/finding-and-replacing-text.md)   
  [Find in Files](../ide/find-in-files.md)   
  [Visual Studio Commands](../ide/reference/visual-studio-commands.md)

@@ -33,5 +33,5 @@ IMPORTANT]
 |**Performing iterative database development:** If you are a developer or a tester, you check out parts of the project and then update them in an isolated development environment. By using this type of environment, you can test  your changes without affecting other members of the team. After the changes are complete, you check the files back into version control, where other team members can obtain your changes and build and deploy them to a test server.|-   [Query and Text Editors (SQL Server Management Studio)](http://go.microsoft.com/fwlink/?LinkId=227327) (Microsoft web site)<br />-   [Transact-SQL Debugger](http://go.microsoft.com/fwlink/?LinkId=227324) (Microsoft web site)|
 |**Prototyping, verifying test results, and modifying database scripts and objects:** You can use the [!INCLUDE[tsql](../includes/tsql-md.md)] editor to perform any one of these common tasks.|-   [Query and Text Editors (SQL Server Management Studio)](http://go.microsoft.com/fwlink/?LinkId=227327) (Microsoft web site)|
 
-## See Also
+## See also
  [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

@@ -27,7 +27,7 @@ elem.Attribute[{namespaceName}attribName]
 ## Remarks  
  This property is equivalent to the <xref:System.Xml.Linq.XElement.Attribute%2A> method of the <xref:System.Xml.Linq.XElement?displayProperty=fullName> class.  
   
-## See Also  
+## See also  
  <xref:System.Xml.Linq.XElement.Attribute%2A?displayProperty=fullName>   
  [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)   
  [Value](../designers/value-xattribute-dynamic-property.md)

@@ -56,7 +56,7 @@ In some applications, you might want to work with data that comes from multiple 
   
      ![Data Sources Window showing relation](../data-tools/media/datasources2.gif "DataSources2")  
   
-## See Also  
+## See also  
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)   
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio2.md)   
  [Create lookup tables in WPF applications](../data-tools/create-lookup-tables-in-wpf-applications.md)   

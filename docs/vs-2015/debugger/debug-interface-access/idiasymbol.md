@@ -339,7 +339,7 @@ void DumpLocalVars( DWORD rva, IDiaSession *pSession )
   
  DLL: msdia80.dll  
   
-## See Also  
+## See also  
  [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)   
  [IDiaEnumSymbolsByAddr](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr.md)   
  [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)   

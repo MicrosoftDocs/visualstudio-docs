@@ -44,5 +44,5 @@ A project subtype has a lot of power to influence the behavior of the project be
   
  The base project provides a default implementation of the above properties. The base project gets these by calling `QueryInterface` for <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> on the outermost project subtype, thus allowing the project subtype to override the implementation of the properties.  
   
-## See Also  
+## See also  
  [Project Subtypes Design](../../extensibility/internals/project-subtypes-design.md)

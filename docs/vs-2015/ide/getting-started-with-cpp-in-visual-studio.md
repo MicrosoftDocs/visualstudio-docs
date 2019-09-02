@@ -141,7 +141,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools 
 
    Congratulations on completing this walkthrough! If you want to explore more examples, see [Visual Studio Samples](../ide/visual-studio-samples.md).
 
-## See Also
+## See also
  [Walkthrough: Create a Simple Application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)
  [Productivity Tips](../ide/productivity-tips-for-visual-studio.md)
  [Visual Studio Samples](../ide/visual-studio-samples.md)

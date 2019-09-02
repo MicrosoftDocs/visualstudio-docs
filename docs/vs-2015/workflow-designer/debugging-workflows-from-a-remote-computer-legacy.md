@@ -24,5 +24,5 @@ This topic describes how to debug remote legacy [!INCLUDE[wf](../includes/wf-md.
   
  [!INCLUDE[wf2](../includes/wf2-md.md)] remote debugging functions the same as remote debugging for other [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] components. For more information, see [!INCLUDE[vs_current_long](../includes/vs-current-long-md.md)] Remote Debugging in the MSDN Library.  
   
-## See Also  
+## See also  
  [Debugging Legacy Workflows](../workflow-designer/debugging-legacy-workflows.md)

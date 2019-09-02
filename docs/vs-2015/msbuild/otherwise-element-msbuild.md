@@ -117,6 +117,6 @@ Specifies the block of code to execute if and only if the conditions of all `Whe
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Conditional Constructs](../msbuild/msbuild-conditional-constructs.md)   
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)

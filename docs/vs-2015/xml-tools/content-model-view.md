@@ -109,5 +109,5 @@ The Content Model View provides a graphic representation of local and global sch
   
  If you make changes to the schema set in the XML Editor the changes will be synchronized in the Content Model View. For more information, see [Integration with XML Editor](../xml-tools/integration-with-xml-editor.md).  
   
-## See Also  
+## See also  
  [XML Schema Designer Workspace](../xml-tools/xml-schema-designer-workspace.md)

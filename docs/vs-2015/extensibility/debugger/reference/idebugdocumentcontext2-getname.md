@@ -87,6 +87,6 @@ HRESULT CDebugContext::GetName(GETNAME_TYPE gnType, BSTR* pbstrFileName)
 }    
 ```  
   
-## See Also  
+## See also  
  [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)   
  [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md)

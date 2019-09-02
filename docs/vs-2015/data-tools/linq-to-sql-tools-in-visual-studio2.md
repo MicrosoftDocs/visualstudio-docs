@@ -106,7 +106,7 @@ LINQ to SQL was the first object-relational mapping technology released by Micro
 
  <xref:System.Data.Linq>
 
-## See Also
+## See also
  [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)
  [Frequently Asked Questions](https://msdn.microsoft.com/library/252ed666-0679-4eea-b71b-2f14117ef443)
  [LINQ to SQL](https://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655)

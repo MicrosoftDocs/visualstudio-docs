@@ -127,5 +127,5 @@ HRESULT CvEnterSpanExVA(
   
  **ANSI:** CvEnterSpanA, CvEnterSpanVA, CvEnterSpanExA, CvEnterSpanExVW  
   
-## See Also  
+## See also  
  [C++ Library Reference](../profiling/cpp-library-reference.md)

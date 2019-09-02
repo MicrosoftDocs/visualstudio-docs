@@ -70,6 +70,6 @@ This overview explains the basics of profiling. Developers who are new to perfor
 ## Generate a Report of the Results  
  You can paste rows of any performance report view into e-mails and spreadsheets, and you can generate reports that contain the data for one or more views.  
   
-## See Also  
+## See also  
  [Overviews](../profiling/overviews-performance-tools.md)   
  [Walkthrough: Identifying Performance Problems](../profiling/walkthrough-identifying-performance-problems.md)

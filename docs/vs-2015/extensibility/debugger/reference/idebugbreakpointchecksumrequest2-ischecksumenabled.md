@@ -37,5 +37,5 @@ public int IsChecksumEnabled(
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDebugBreakpointChecksumRequest2](../../../extensibility/debugger/reference/idebugbreakpointchecksumrequest2.md)

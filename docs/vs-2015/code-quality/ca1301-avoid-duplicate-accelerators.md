@@ -45,6 +45,6 @@ manager: "wpickett"
 
  [!code-csharp[FxCop.Globalization.AvoidDuplicateAccels#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Globalization.AvoidDuplicateAccels/cs/FxCop.Globalization.AvoidDuplicateAccels.cs#1)]
 
-## See Also
+## See also
  <xref:System.Resources.ResourceManager?displayProperty=fullName>
  [Resources in Desktop Apps](https://msdn.microsoft.com/library/8ad495d4-2941-40cf-bf64-e82e85825890)

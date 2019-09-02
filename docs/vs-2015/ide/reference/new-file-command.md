@@ -62,7 +62,7 @@ File.NewFile [filename] [/t:templatename] [/editor:editorname]
 >File.NewFile test1 /t:"General\HTML Page" /e:"Source Code (text) Editor"  
 ```  
   
-## See Also  
+## See also  
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)   
  [Command Window](../../ide/reference/command-window.md)   
  [Immediate Window](../../ide/reference/immediate-window.md)   

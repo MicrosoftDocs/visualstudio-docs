@@ -269,6 +269,6 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
   
 6. In the text box, enter **London**, and then choose the button. Only the customers from London are displayed.  
   
-## See Also  
+## See also  
  [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)   
  [How to: Add, Update, or Remove a WCF Data Service Reference](../data-tools/how-to-add-update-or-remove-a-wcf-data-service-reference.md)

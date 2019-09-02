@@ -60,5 +60,5 @@ When you open a model in a version of Visual Studio that does not support model 
 |[UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)|A sequence diagram shows interactions between elements in a software design.|  
 |[UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)|A use case diagram shows the users of a system and the activities that they can perform to achieve specific goals.|  
   
-## See Also  
+## See also  
  [Create models for your app](../modeling/create-models-for-your-app.md)

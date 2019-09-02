@@ -69,5 +69,5 @@ Extract Interface is a refactoring operation that provides an easy way to create
   
  When you invoke extract interface on a class or on a struct, the bases and interfaces list is modified to include the new interface name. When you invoke extract interface on an interface, the bases and interfaces list is not modified.  
   
-## See Also  
+## See also  
  [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)

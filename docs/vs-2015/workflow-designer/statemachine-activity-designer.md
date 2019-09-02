@@ -26,6 +26,6 @@ The <xref:System.Activities.Statements.StateMachine> activity contains a collect
 |-------------------|--------------|-----------|  
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the friendly name of the <xref:System.Activities.Statements.StateMachine> activity designer in the header. The default value is **StateMachine**. The value can be edited in the property grid or directly on the header of the activity designer. The <xref:System.Activities.Activity.DisplayName%2A> is used in the breadcrumb navigation that is displayed at the top of the workflow designer.<br /><br /> Although the <xref:System.Activities.Activity.DisplayName%2A> is not strictly required, it is a best practice to use one.|  
   
-## See Also  
+## See also  
  [Flowchart](../workflow-designer/flowchart-activity-designer.md)   
  [Control Flow](../workflow-designer/control-flow-activity-designers.md)

@@ -43,6 +43,6 @@ When a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application is ins
   
 6. Optionally, you can enter a publisher name in **Publisher name**.  
   
-## See Also  
+## See also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

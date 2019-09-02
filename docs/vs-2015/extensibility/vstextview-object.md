@@ -33,7 +33,7 @@ The text view is a window that allows users to view and edit the Unicode text of
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsLayeredTextView>|Interacts with text layers.|  
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsThreadSafeTextView>|Performs operations on the view from a different thread.|  
   
-## See Also  
+## See also  
  [Figures Edit](https://msdn.microsoft.com/f08872bd-fd9c-4e36-8cf2-a2a2622ef986)   
  [VSTextBuffer Object](../extensibility/vstextbuffer-object.md)   
  [Accessing theText View by Using the Legacy API](../extensibility/accessing-thetext-view-by-using-the-legacy-api.md)

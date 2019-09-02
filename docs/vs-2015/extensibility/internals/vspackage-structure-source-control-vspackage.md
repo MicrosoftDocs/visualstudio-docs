@@ -68,6 +68,6 @@ The Source Control Package SDK provides guidelines for creating a VSPackage that
   
  For a complete list of interfaces that a source control VSPackage must consider, see [Related Services and Interfaces](../../extensibility/internals/related-services-and-interfaces-source-control-vspackage.md).  
   
-## See Also  
+## See also  
  [Design Elements](../../extensibility/internals/source-control-vspackage-design-elements.md)   
  [Related Services and Interfaces](../../extensibility/internals/related-services-and-interfaces-source-control-vspackage.md)

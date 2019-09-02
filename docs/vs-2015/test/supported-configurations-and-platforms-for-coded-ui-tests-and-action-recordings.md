@@ -64,6 +64,6 @@ The supported configurations and platforms for coded UI tests for Visual Studio 
   
  For information about how to create extensions to support other platforms, see [Enable Coded UI Testing of Your Controls](../test/enable-coded-ui-testing-of-your-controls.md) and [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md).  
   
-## See Also  
+## See also  
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
  [Generating a Coded UI Test from an Existing Action Recording](https://msdn.microsoft.com/library/56736963-9027-493b-b5c4-2d4e86d1d497)

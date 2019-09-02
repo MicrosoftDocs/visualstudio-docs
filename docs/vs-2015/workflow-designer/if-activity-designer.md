@@ -24,7 +24,7 @@ The <xref:System.Activities.Statements.If> activity evaluates a condition and ex
 |<xref:System.Activities.Statements.If.Else%2A>|False|The activity to execute if the <xref:System.Activities.Statements.If.Condition%2A> is **false**. To add an activity that is executed by the <xref:System.Activities.Statements.If.Else%2A> branch, drop an activity from the **Toolbox** into the **Else** box on the **If** activity designer with hint text “Drop Activity Here”.|  
 |<xref:System.Activities.Statements.If.Then%2A>|False|The activity to execute if the <xref:System.Activities.Statements.If.Condition%2A> is **true**. To add an activity that is executed by the <xref:System.Activities.Statements.If.Then%2A> branch, drop an activity from the **Toolbox** into the **Then** box on the **If** activity designer with hint text “Drop Activity Here”.|  
   
-## See Also  
+## See also  
  [Sequence](../workflow-designer/sequence-activity-designer.md)   
  [Parallel](../workflow-designer/parallel-activity-designer.md)   
  [Control Flow](../workflow-designer/control-flow-activity-designers.md)

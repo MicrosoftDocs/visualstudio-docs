@@ -30,7 +30,7 @@ manager: jillfra
   
  For more information about similar views, see [Activity Views (Legacy)](../workflow-designer/activity-views-legacy.md).  
   
-## See Also  
+## See also  
  [Activity Views (Legacy)](../workflow-designer/activity-views-legacy.md)   
  [Creating Legacy Workflow Projects](../workflow-designer/creating-legacy-workflow-projects.md)   
  [Workflow Authoring Modes](http://go.microsoft.com/fwlink?LinkID=65014)

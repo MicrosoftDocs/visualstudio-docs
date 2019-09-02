@@ -46,6 +46,6 @@ When you use a conceptual model to describe the data in a database, you can quer
 |[How to: Add, Modify, and Delete Entities](https://msdn.microsoft.com/library/a00f8933-b232-4445-95ba-adc634f055d8)|Shows how to create, update, and delete entity data in a data service.|  
 |[How to: Define Entity Relationships](https://msdn.microsoft.com/library/cc255524-1534-4fae-b83c-250933d5a72b)|Shows how to create or change relationships in a data service.|  
   
-## See Also  
+## See also  
  [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)   
  [Querying the Data Service](https://msdn.microsoft.com/library/823e9444-27aa-4f1f-be8e-0486d67f54c0)

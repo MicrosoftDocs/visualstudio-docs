@@ -467,6 +467,6 @@ private bool NoDependencyLoops(ValidationContext context,
 }  
 ```  
   
-## See Also  
+## See also  
  [Define and install a modeling extension](../modeling/define-and-install-a-modeling-extension.md)   
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)

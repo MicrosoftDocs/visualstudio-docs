@@ -80,7 +80,7 @@ Use the **References** page of the **Project Designer** to manage references, We
   
 - XML namespaces, such as `<xmlns:xsl="http://www.w3.org/1999/XSL/Transform">`.  
   
-## See Also  
+## See also  
  [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   
  [How to: Add or Remove Imported Namespaces (Visual Basic)](../../ide/how-to-add-or-remove-imported-namespaces-visual-basic.md)   
  [NIB: Add Web Reference Dialog Box](https://msdn.microsoft.com/bdf05776-c591-40af-bfd7-e1e2aa1e87b5)   

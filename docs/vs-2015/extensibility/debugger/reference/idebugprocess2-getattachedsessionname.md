@@ -35,5 +35,5 @@ HRESULT GetAttachedSessionName(
 ## Return Value  
  This method should always return `E_NOTIMPL`.  
   
-## See Also  
+## See also  
  [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)

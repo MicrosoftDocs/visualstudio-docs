@@ -215,6 +215,6 @@ You can use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools ins
   
 ```  
   
-## See Also  
+## See also  
  [How to: Instrument a Dynamically Compiled ASP.NET Application and Collect Detailed Timing Data](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-detailed-timing-data-with-the-profiler-by-using-the-command-line.md)   
  [How to: Instrument a Dynamically Compiled ASP.NET Application and Collect Memory Data](/visualstudio/profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-memory-data?view=vs-2015)

@@ -47,5 +47,5 @@ The Expression Editor is a [!INCLUDE[wfd1](../includes/wfd1-md.md)] control that
   
      An Alternative way to enter/edit an expression is to click the ellipsis next to the property name in the property grid. This will open the **Expression Editor** as dialog box.  
   
-## See Also  
+## See also  
  <xref:System.Activities.Presentation.View.ExpressionTextBox>

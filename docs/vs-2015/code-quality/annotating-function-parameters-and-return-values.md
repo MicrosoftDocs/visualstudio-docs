@@ -489,7 +489,7 @@ This article describes typical uses of annotations for simple function parameter
 ## Related Resources  
  [Code Analysis Team Blog](http://go.microsoft.com/fwlink/?LinkId=251197)  
   
-## See Also  
+## See also  
  [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   
  [Understanding SAL](../code-quality/understanding-sal.md)   
  [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)   

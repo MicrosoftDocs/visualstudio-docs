@@ -326,7 +326,7 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
   You can use the name of the dependency arrow to denote a particular kind of usage. To set the name, right-click the arrow, then click **Properties**, and set the **Name** field in the properties window.  
   
-## See Also  
+## See also  
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
  [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)   
  [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)   

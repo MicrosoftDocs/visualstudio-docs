@@ -42,5 +42,5 @@ int IsUserData(
 ## Remarks  
  User data is any object that is part of a module designated as JustMyCode (a user-configurable option that marks a module as user code and therefore visible in a stack trace).  
   
-## See Also  
+## See also  
  [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)

@@ -51,5 +51,5 @@ You can set breakpoints in an XSLT style sheet or in the XML source document. If
   
 5. Click the **Debug XSL** button on the XML Editor toolbar.  
   
-## See Also  
+## See also  
  [Walkthrough: Debug an XSLT Style Sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md)

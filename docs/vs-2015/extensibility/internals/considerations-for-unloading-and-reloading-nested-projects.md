@@ -26,6 +26,6 @@ When you implement nested project types, you must perform additional steps when 
   
  To handle this process, the parent project calls `QueryInterface` on the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFireSolutionEvents> interface off the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution> interface. `IVsFireSolutionEvents` has functions that tell the IDE to raise the `OnBeforeUnloadProject` event to unload the nested project, and then raise the `OnAfterLoadProject` event to reload the same project.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3>   
  [Nesting Projects](../../extensibility/internals/nesting-projects.md)

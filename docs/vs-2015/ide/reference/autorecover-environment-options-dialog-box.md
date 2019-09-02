@@ -34,5 +34,5 @@ Use this page of the Options dialog box to specify whether or not files are auto
  **Keep AutoRecover information for \<n> days**  
  Use this option to specify how long Visual Studio keeps files created for autorecovery.  
   
-## See Also  
+## See also  
  [Options Dialog Box](../../ide/reference/options-dialog-box-visual-studio.md)

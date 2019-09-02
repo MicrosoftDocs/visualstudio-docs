@@ -67,7 +67,7 @@ The following table shows the C# format specifiers recognized by the debugger.
 |raw|Displays item as it appears in the raw item node. Valid on proxy objects only.|Dictionary\<T>|Raw View of Dictionary\<T>|
 |results|Used with a variable of a type that implements IEnumerable or IEnumerable\<T>, usually the result of a query expression. Displays only the members that contain the query result.|Displays all the members.|Displays the members the meet the conditions of the query.|
 
-## See Also
+## See also
 
 - [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)
 - [Variable Windows](https://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)

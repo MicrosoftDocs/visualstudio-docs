@@ -40,5 +40,5 @@ int GetSize(
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)

@@ -54,6 +54,6 @@ SCCRTN SccGetUserOption(
 |-----------------|-----------------|  
 |`SCC_USEROPT_CHECKOUT_LOCALVER`|Determines whether the user wants to check out local version of files. `lpVal` is assigned `SCC_USEROPT_COLV_YES` (user wants to check out local files) or `SCC_USEROPT_COLV_NO`.|  
   
-## See Also  
+## See also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
  [Error Codes](../extensibility/error-codes.md)

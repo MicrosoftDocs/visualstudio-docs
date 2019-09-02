@@ -34,5 +34,5 @@ Retrieves an array of all scheduled tasks.
 ## Remarks  
  This method is not thread safe and should not be used concurrently with other instances of <xref:System.Threading.Tasks.TaskScheduler> It should be called from a debugger only when the debugger has suspended all other threads.  
   
-## See Also  
+## See also  
  [TaskScheduler Class](../../extensibility/debugger/taskscheduler-class-internal-members.md)

@@ -38,6 +38,6 @@ NOTE]
   
 2. Use the **Registers** window to view register contents.  
   
-## See Also  
+## See also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging Native Code](../debugger/debugging-native-code.md)

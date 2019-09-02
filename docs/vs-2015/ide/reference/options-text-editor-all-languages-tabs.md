@@ -60,6 +60,6 @@ This dialog box allows you to change the default behavior of the Code Editor. Th
  Keep tabs  
  When selected, indent operations insert as many TAB characters as possible. Each TAB character fills the number of spaces specified in **Tab size**. If the **Indent size** is not an even multiple of the **Tab size**, space characters are added to fill in the difference.  
   
-## See Also  
+## See also  
  [Options, Text Editor, All Languages](../../ide/reference/options-text-editor-all-languages.md)   
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)

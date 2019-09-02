@@ -118,7 +118,7 @@ A VSPackage can provide control of the fonts and colors of its text to the [!INC
     > [!NOTE]
     > To ensure that the results obtained by polling are correct, it may be useful to use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorCacheManager> interface to determine if a cache flush and update are needed prior to calling the retrieval methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider.QueryService%2A>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents>   

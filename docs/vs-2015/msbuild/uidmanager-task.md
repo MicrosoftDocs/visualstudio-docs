@@ -51,7 +51,7 @@ The <xref:Microsoft.Build.Tasks.Windows.UidManager> task checks, updates, or rem
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [WPF MSBuild Reference](../msbuild/wpf-msbuild-reference.md)   
  [Task Reference](../msbuild/wpf-msbuild-task-reference.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   

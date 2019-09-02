@@ -43,7 +43,7 @@ manager: "wpickett"
 
  [!code-csharp[FxCop.Globalization.DataTable#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Globalization.DataTable/cs/FxCop.Globalization.DataTable.cs#1)]
 
-## See Also
+## See also
  <xref:System.Data.DataTable?displayProperty=fullName>
  <xref:System.Data.DataSet?displayProperty=fullName>
  <xref:System.Globalization.CultureInfo?displayProperty=fullName>

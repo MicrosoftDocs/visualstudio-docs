@@ -417,6 +417,6 @@ You can create a build environment within your organization by installing Visual
   
          For native 64-bit building, point to the 64-bit MSBuild.  
   
-## See Also  
+## See also  
  [Preparing a Test Machine To Run a Debug Executable](/cpp/windows/preparing-a-test-machine-to-run-a-debug-executable)   
  [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)

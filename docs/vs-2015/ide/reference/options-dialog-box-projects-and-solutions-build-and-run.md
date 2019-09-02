@@ -71,5 +71,5 @@ In this dialog box, you can specify the maximum number of Visual C++ or Visual C
   
  Determines how much information is written to the build log file, which is located at \\...\\*ProjectName*\Debug\\*ProjectName*.log.  
   
-## See Also  
+## See also  
  [Compiling and Building](../../ide/compiling-and-building-in-visual-studio.md)

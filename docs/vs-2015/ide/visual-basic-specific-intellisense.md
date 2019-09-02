@@ -45,5 +45,5 @@ The Visual Basic source code editor offers the following IntelliSense features:
   
   For more information, see [Code Access Security for ClickOnce Applications](../deployment/code-access-security-for-clickonce-applications.md).  
   
-## See Also  
+## See also  
  [Using IntelliSense](../ide/using-intellisense.md)

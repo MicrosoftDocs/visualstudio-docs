@@ -42,7 +42,7 @@ In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], there are two parts to creating
   
  When a localized application executes, its appearance is determined by two culture values. (A *culture* is a set of user preference information related to the user's language, environment, and cultural conventions.) The UI culture setting determines which resources will be loaded. The UI culture is set as `UICulture` in Web.config files and page directives, and <xref:System.Globalization.CultureInfo.CurrentUICulture%2A> in Visual Basic or Visual C# code. The culture setting determines formatting of values such as dates, numbers, currency, and so on. The culture is set as `Culture` in Web.config files and page directives, <xref:System.Globalization.CultureInfo.CurrentCulture%2A> in Visual Basic or Visual C# code.  
   
-## See Also  
+## See also  
  <xref:System.Globalization>   
  <xref:System.Resources>   
  [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)   

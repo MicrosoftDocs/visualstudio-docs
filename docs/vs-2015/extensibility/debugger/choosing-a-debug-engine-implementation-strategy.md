@@ -27,5 +27,5 @@ Use the run-time architecture to determine your debug engine (DE) implementation
   
 - If the DE must call the program to access the symbol store, create the DE in-process with the program. In this case, the program creates the instance of the DE.  
   
-## See Also  
+## See also  
  [Visual Studio Debugger Extensibility](../../extensibility/debugger/visual-studio-debugger-extensibility.md)

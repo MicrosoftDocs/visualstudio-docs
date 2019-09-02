@@ -380,7 +380,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
 ### Forum  
  [Visual Studio UI Automation Testing (includes CodedUI)](http://go.microsoft.com/fwlink/?LinkID=224497)  
   
-## See Also  
+## See also  
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
  [Getting Started with the WPF Designer](https://msdn.microsoft.com/18e61d03-b96a-4058-a166-8ec6b3f6116b)   
  [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)   

@@ -228,7 +228,7 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
 
 - `<#= Expressions #>` are evaluated and converted to strings.
 
-## See Also
+## See also
  [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)
  [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)
  [Generate files from a UML model](../modeling/generate-files-from-a-uml-model.md)

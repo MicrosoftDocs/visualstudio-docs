@@ -36,5 +36,5 @@ Event Tracing for Windows (ETW) is an efficient kernel-level tracing facility th
   
 3. In the **Select event trace provider to collect data from** list, select the event providers that you want to use to profile your application.  
   
-## See Also  
+## See also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)

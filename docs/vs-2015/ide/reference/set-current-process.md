@@ -37,7 +37,7 @@ Debug.SetCurrentProcess index
 >Debug.SetCurrentProcess 1  
 ```  
   
-## See Also  
+## See also  
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)   
  [Command Window](../../ide/reference/command-window.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)

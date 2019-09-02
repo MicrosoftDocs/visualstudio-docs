@@ -23,6 +23,6 @@ In terms of the debugger architecture, a **module**:
   
 - Is represented by an [IDebugModule2](../../extensibility/debugger/reference/idebugmodule2.md) interface, created by a debug engine to describe the module.  
   
-## See Also  
+## See also  
  [Debugger Concepts](../../extensibility/debugger/debugger-concepts.md)   
  [IDebugModule2](../../extensibility/debugger/reference/idebugmodule2.md)

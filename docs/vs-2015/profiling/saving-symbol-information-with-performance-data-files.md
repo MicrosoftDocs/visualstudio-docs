@@ -58,7 +58,7 @@ If you are using the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated dev
   
  VsPerfReport -packsymbols -summary:all filename.vsp  
   
-## See Also  
+## See also  
  [Saving and Exporting Performance Tools Data](../profiling/saving-and-exporting-performance-tools-data.md)   
  [How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md)   
  [VSPerfReport](../profiling/vsperfreport.md)

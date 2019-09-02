@@ -39,6 +39,6 @@ HRESULT CanTerminateProcess( 
 ## Return Value  
  Returns `S_OK` if the process can be terminated; otherwise, returns `S_FALSE`.  
   
-## See Also  
+## See also  
  [IDebugPortEx2](../../../extensibility/debugger/reference/idebugportex2.md)   
  [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)

@@ -31,5 +31,5 @@ The task has finished executing its delegate and is implicitly waiting for attac
 ## Remarks  
  If the [m_stateFlags](../../extensibility/debugger/m-stateflags-field.md) field contains this value, the <xref:System.Threading.Tasks.Task.Status%2A> property returns <xref:System.Threading.Tasks.TaskStatus?displayProperty=fullName>.  
   
-## See Also  
+## See also  
  [Task Class](../../extensibility/debugger/task-class-internal-members.md)

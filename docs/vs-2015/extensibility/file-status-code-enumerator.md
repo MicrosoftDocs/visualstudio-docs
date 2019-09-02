@@ -99,7 +99,7 @@ enum SccStatus {
  SCC_STATUS_RESERVED_2  
  Reserved for internal use.  
   
-## See Also  
+## See also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
  [SccQueryInfo](../extensibility/sccqueryinfo-function.md)   
  [POPLISTFUNC](../extensibility/poplistfunc.md)

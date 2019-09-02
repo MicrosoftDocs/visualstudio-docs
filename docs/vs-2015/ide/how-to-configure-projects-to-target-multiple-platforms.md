@@ -57,7 +57,7 @@ manager: jillfra
   
    It is possible to have a solution-level platform set to, for example, [!INCLUDE[vcprx64](../includes/vcprx64-md.md)], and have no projects within that solution targeting the same platform. It is also possible to have multiple projects in your solution, each targeting different platforms. It is recommended that if you have one of these situations, you create a new configuration with a descriptive name to avoid confusion.  
   
-## See Also  
+## See also  
  [How to: Create and Edit Configurations](../ide/how-to-create-and-edit-configurations.md)   
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
  [Building and Cleaning Projects and Solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)

@@ -35,5 +35,5 @@ The Source Control Plug-in API limits the lengths of strings used in various fun
 |SCC_USER_SIZE|32|  
 |SCC_PRJPATH_SIZE|301|  
   
-## See Also  
+## See also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)

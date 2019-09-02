@@ -66,7 +66,7 @@ RequiredPlatformVersion
 </VSTemplate>  
 ```  
   
-## See Also  
+## See also  
  [TargetPlatformName Element (Visual Studio Templates)](../extensibility/targetplatformname-element-visual-studio-templates.md)   
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)

@@ -37,7 +37,7 @@ The interfaces and implementations of all projects in [!INCLUDE[vsprvs](../../in
   
   Projects can support commands and therefore must implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface to participate in command routing through the command context GUIDs.  
   
-## See Also  
+## See also  
  [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)   
  [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](https://msdn.microsoft.com/a5c16a09-94a2-46ef-87b5-35b815e2f346)   
  [Project Model Core Components](../../extensibility/internals/project-model-core-components.md)   

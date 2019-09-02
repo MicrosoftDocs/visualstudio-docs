@@ -34,5 +34,5 @@ HRESULT get__NewEnum ( 
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDiaEnumSourceFiles](../../debugger/debug-interface-access/idiaenumsourcefiles.md)

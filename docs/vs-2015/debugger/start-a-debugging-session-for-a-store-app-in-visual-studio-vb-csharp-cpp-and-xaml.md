@@ -320,6 +320,6 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
    [In this topic](#BKMK_In_this_topic)
 
-## See Also
+## See also
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)
  [Navigate a debug session  (Xaml and C#)](../debugger/navigate-a-debugging-session-in-visual-studio-xaml-and-csharp.md)

@@ -133,7 +133,7 @@ Specifies a file that is included in the project template.
 </VSTemplate>  
 ```  
   
-## See Also  
+## See also  
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [Template Parameters](../ide/template-parameters.md)   

@@ -30,6 +30,6 @@ The **Persist** activity designer is used to create and configure a <xref:System
 |-------------------|--------------|-----------|  
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The friendly name of the <xref:System.Activities.Statements.Persist> activity. The default is Persist. Although the display name is not strictly required, it is a best practice to use a display name.|  
   
-## See Also  
+## See also  
  [Runtime](../workflow-designer/runtime-activity-designers.md)   
  [TerminateWorkflow](../workflow-designer/terminateworkflow-activity-designer.md)

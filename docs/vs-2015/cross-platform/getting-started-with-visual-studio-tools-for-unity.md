@@ -105,5 +105,5 @@ In this section, you'll learn how to install Visual Studio Tools for Unity and c
 ## Next steps  
  To learn how to work with and debug your Unity project in Visual Studio, see [Using Visual Studio Tools for Unity](../cross-platform/getting-started-with-visual-studio-tools-for-unity.md).  
   
-## See Also  
+## See also  
  [Unity Homepage](http://unity3d.com)

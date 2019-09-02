@@ -57,6 +57,6 @@ DebuggerTypeProxyAttribute](assetId:///T:System.Diagnostics.DebuggerTypeProxyAtt
   
  `"Namespace.TypeName'2"`  
   
-## See Also  
+## See also  
  [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)   
   [Enhancing Debugging with the Debugger Display Attributes](https://msdn.microsoft.com/library/72bb7aa9-459b-42c4-9163-9312fab4c410)

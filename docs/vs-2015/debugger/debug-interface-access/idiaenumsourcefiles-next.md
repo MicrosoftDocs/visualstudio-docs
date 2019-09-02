@@ -42,7 +42,7 @@ HRESULT Next ( 
 ## Return Value  
  If successful, returns `S_OK`. Returns `S_FALSE` if there are no more source files. Otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDiaEnumSourceFiles](../../debugger/debug-interface-access/idiaenumsourcefiles.md)   
  [IDiaSession::findLinesByLinenum](../../debugger/debug-interface-access/idiasession-findlinesbylinenum.md)   
  [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)

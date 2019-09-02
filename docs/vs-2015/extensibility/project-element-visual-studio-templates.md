@@ -96,7 +96,7 @@ Specifies the files or directories to add to the project.
 </VSTemplate>  
 ```  
   
-## See Also  
+## See also  
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [ProjectItem Element (Visual Studio Project Templates)](../extensibility/projectitem-element-visual-studio-project-templates.md)   

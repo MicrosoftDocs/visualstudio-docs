@@ -510,7 +510,7 @@ End Namespace
   
  As you build them, you can come back to this introduction for a refresher on the key features and to find references to more detailed coverage of the features covered in this introduction.  
   
-## See Also  
+## See also  
  [Getting Started with WPF](../designers/getting-started-with-wpf.md)   
  [Create Modern Desktop Applications with Windows Presentation Foundation](../designers/create-modern-desktop-applications-with-windows-presentation-foundation.md)   
  [Windows Presentation Foundation](https://msdn.microsoft.com/library/ms754130\(v=vs.100\).aspx)

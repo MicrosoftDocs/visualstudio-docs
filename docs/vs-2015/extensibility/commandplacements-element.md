@@ -63,6 +63,6 @@ The CommandPlacements element groups CommandPlacement elements and other Command
 </CommandPlacements>  
 ```  
   
-## See Also  
+## See also  
  [CommandPlacement Element](../extensibility/commandplacement-element.md)   
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

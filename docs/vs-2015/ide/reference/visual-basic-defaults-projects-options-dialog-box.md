@@ -35,5 +35,5 @@ Specifies the default settings for Visual Basic project options. When a new proj
  **Option Infer**  
  Sets the compiler default for local type inference. By default, **Option Infer** is set to **On** for newly created projects and to **Off** for migrated projects created in earlier versions of Visual Basic. For more information, see [/optioninfer](https://msdn.microsoft.com/library/f6c09db1-0553-464a-abe3-d4510c61d6ed).  
   
-## See Also  
+## See also  
  [Solutions and Projects](../../ide/solutions-and-projects-in-visual-studio.md)

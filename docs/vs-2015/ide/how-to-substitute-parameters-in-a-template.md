@@ -40,7 +40,7 @@ You may replace template parameters such as class names and namespaces when a fi
     <ProjectItem ReplaceParameters="true">Class1.cs</ProjectItem>  
     ```  
   
-## See Also  
+## See also  
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [Template Parameters](../ide/template-parameters.md)   
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   

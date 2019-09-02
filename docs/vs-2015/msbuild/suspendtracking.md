@@ -35,5 +35,5 @@ HRESULT WINAPI SuspendTracking(void);
 ## Requirements  
  **Header:** FileTracker.h  
   
-## See Also  
+## See also  
  [ResumeTracking](../msbuild/resumetracking.md)

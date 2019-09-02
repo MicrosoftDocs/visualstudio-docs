@@ -39,6 +39,6 @@ int GetFunctionObject(
 ## Return Value  
  If successful, returns S_OK; otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md)   
  [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md)

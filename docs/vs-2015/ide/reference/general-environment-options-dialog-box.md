@@ -75,6 +75,6 @@ Use this page to change color themes, status bar settings, and file extension as
   
  This option can be useful if you have two versions of Visual Studio installed on the same computer and you later uninstall one of the versions. After you uninstall, the icons for Visual Studio files no longer appear in File Explorer. In addition, Windows no longer recognizes Visual Studio as the default application for editing these files. This option restores those associations.  
   
-## See Also  
+## See also  
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)   
  [Customizing window layouts](../../ide/customizing-window-layouts-in-visual-studio.md)

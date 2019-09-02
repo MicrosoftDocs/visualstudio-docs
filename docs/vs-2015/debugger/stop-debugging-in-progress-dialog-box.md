@@ -34,6 +34,6 @@ This dialog box appears when the debugger is trying to stop a debugging session,
  **Stop Now**  
  Click this button to end the debugging session immediately. Using **Stop Now**will terminate rather than detaching the processes being debugged. If you are debugging system processes, terminating those processes with **Stop Now** can have unexpected and undesired effects.  
   
-## See Also  
+## See also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Detaching Programs](https://msdn.microsoft.com/f2c756c2-8079-474b-94c2-01c19a141a01)

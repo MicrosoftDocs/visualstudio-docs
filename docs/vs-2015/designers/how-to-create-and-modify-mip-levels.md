@@ -38,5 +38,5 @@ This document demonstrates how to use the **Image Editor** to generate and modif
 > [!NOTE]
 > If you do not need to modify the contents of individual MIP levels—as you might do to achieve certain effects—we recommend that you generate mipmaps from the source texture at build time. This helps to ensure that MIP levels stay in sync with the source texture because modifications to a MIP level are not propagated to other levels automatically. For more information on how to generate mipmaps at build time, see [How to: Export a Texture that Contains Mipmaps](../designers/how-to-export-a-texture-that-contains-mipmaps.md).  
   
-## See Also  
+## See also  
  [How to: Create a Basic Texture](../designers/how-to-create-a-basic-texture.md)

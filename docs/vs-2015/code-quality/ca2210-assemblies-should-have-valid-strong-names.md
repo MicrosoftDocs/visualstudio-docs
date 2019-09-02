@@ -88,7 +88,7 @@ manager: "wpickett"
 ## When to Suppress Warnings
  Only suppress a warning from this rule if the assembly is used in an environment where tampering with the contents is not a concern.
 
-## See Also
+## See also
  <xref:System.Reflection.AssemblyKeyFileAttribute?displayProperty=fullName>
  <xref:System.Reflection.AssemblyKeyNameAttribute?displayProperty=fullName>
  [How to: Sign an Assembly with a Strong Name](https://msdn.microsoft.com/library/2c30799a-a826-46b4-a25d-c584027a6c67)

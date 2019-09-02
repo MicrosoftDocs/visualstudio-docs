@@ -45,6 +45,6 @@ DWORD       tag = 0;
 pType->get_symTag( &tag );  
 ```  
   
-## See Also  
+## See also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)

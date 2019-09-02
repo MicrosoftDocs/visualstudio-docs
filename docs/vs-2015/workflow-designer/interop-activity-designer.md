@@ -39,5 +39,5 @@ The **Interop** activity designer is used to create and configure an <xref:Syste
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The friendly name of the <xref:System.Activities.Statements.Interop> activity. The default is Interop. Although the display name is not strictly required, it is a best practice to use a display name.|  
 |<xref:System.Activities.Statements.Interop.ActivityType%2A>|True|Specifies the type of the activity contained by the <xref:System.Activities.Statements.Interop> activity. This type specified must derive from <xref:System.Workflow.ComponentModel.Activity>.|  
   
-## See Also  
+## See also  
  [Migration](../workflow-designer/migration-activity-designers.md)

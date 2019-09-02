@@ -32,7 +32,7 @@ This section provides an overview of the concepts and tasks that you will apply 
 |**Profile an application without the wizard:** Learn to use the performance session property pages to create a performance session.|-   [How to: Manually Create Performance Sessions](../profiling/how-to-manually-create-performance-sessions.md)|  
 |**Try it:** Get hands-on experience by profiling a sample application.|-   [Walkthrough: Identifying Performance Problems](../profiling/walkthrough-identifying-performance-problems.md)<br />-   [PeopleTrax Sample](../profiling/peopletrax-sample-profiling-tools.md)|  
   
-## See Also  
+## See also  
  [Overviews](../profiling/overviews-performance-tools.md)   
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)   
  [Using Performance Rules to Analyze Data](../profiling/using-performance-rules-to-analyze-data.md)   

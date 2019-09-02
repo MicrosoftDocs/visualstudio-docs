@@ -72,5 +72,5 @@ You can use the **Peek Definition** command to view and edit code without switch
     > [!NOTE]
     > You can also use the same keyboard shortcuts to edit code in a **Peek Definition** window as you use elsewhere in Visual Studio.  
   
-## See Also  
+## See also  
  [Productivity Tips](../ide/productivity-tips-for-visual-studio.md)

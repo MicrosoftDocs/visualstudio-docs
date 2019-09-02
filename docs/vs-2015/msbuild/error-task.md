@@ -59,6 +59,6 @@ Stops a build and logs an error based on an evaluated conditional statement.
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)

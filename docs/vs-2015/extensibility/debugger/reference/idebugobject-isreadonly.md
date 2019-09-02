@@ -42,5 +42,5 @@ int IsReadOnly(
 ## Remarks  
  A read-only object cannot have its value changed after it is created.  
   
-## See Also  
+## See also  
  [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

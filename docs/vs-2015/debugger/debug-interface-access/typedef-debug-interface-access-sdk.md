@@ -54,5 +54,5 @@ Symbols with `SymTagTypedef` tags introduce names for other types.
 ## Remarks  
  Since a typedef can represent a class, pointer, or user-defined type (UDT), the symbol for a typedef shares the same properties as one of those other types of symbols.  
   
-## See Also  
+## See also  
  [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)

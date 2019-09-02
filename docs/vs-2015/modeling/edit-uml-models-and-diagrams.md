@@ -332,7 +332,7 @@ You can create and edit a UML model through the views provided by several differ
 |[Color by stereotype](http://code.msdn.microsoft.com/UML-Color-Classes-by-07de2b70)|Colors classes according to stereotype. You can easily extend the code to work for your own stereotypes.|  
 |[Domain Modeling](http://code.msdn.microsoft.com/UML-Domain-Modeling-6df6f7f4)|Convenient defaults for business models. Associations are shown without arrows by default, and operations do not appear in classes.|  
   
-## See Also  
+## See also  
  [Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md)   
  [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)   
  [Create models for your app](../modeling/create-models-for-your-app.md)

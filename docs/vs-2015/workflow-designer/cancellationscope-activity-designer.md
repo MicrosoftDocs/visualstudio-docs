@@ -32,7 +32,7 @@ The **CancellationScope** activity designer is used to create and configure a <x
 |<xref:System.Activities.Statements.CancellationScope.Body%2A>|True|Specifies the activity for which cancellation logic is provided. To add the <xref:System.Activities.Statements.CancellationScope.Body%2A> activity, drop an activity from the **Toolbox** into the **Body** box on the **CancellationScope** activity designer with hint text “Drop Activity Here”.|  
 |<xref:System.Activities.Statements.CancellationScope.CancellationHandler%2A>|True|Specifies the activity that is executed in the event of cancellation. To add the <xref:System.Activities.Statements.CancellationScope.CancellationHandler%2A> activity, drop an activity from the **Toolbox** into the **CancellationHandler** box on the **CancellationScope** activity designer with hint text “Drop Activity Here”.|  
   
-## See Also  
+## See also  
  [Transaction](../workflow-designer/transaction-activity-designers.md)   
  [CompensableActivity](../workflow-designer/compensableactivity-activity-designer.md)   
  [Compensate](../workflow-designer/compensate-activity-designer.md)   

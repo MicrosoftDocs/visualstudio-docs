@@ -46,5 +46,5 @@ Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](..
   
      You can now distribute the installer package with your application.  
   
-## See Also  
+## See also  
  [How to: Install Prerequisites with a ClickOnce Application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)

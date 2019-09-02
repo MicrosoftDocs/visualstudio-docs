@@ -172,6 +172,6 @@ Provides an automated way to detect, download, and install an application and it
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)

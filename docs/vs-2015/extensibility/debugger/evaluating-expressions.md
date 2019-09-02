@@ -27,7 +27,7 @@ Expressions are created from strings passed down from the Autos, Watch, QuickWat
   
  To enable expression evaluation, a DE must implement the [IDebugExpression2](../../extensibility/debugger/reference/idebugexpression2.md) and [IDebugExpressionContext2](../../extensibility/debugger/reference/idebugexpressioncontext2.md) interfaces. Both synchronous and asynchronous evaluation require the implementation of the [IDebugProperty2::GetPropertyInfo](../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) method.  
   
-## See Also  
+## See also  
  [Stack Frames](../../extensibility/debugger/stack-frames.md)   
  [Expression Evaluation Context](../../extensibility/debugger/expression-evaluation-context.md)   
  [Debugging Tasks](../../extensibility/debugger/debugging-tasks.md)

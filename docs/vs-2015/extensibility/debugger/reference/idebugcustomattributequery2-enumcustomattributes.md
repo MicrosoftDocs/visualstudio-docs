@@ -42,6 +42,6 @@ int EnumCustomAttributes(
 ## Remarks  
  A field can have multiple custom attributes.  
   
-## See Also  
+## See also  
  [IDebugCustomAttributeQuery2](../../../extensibility/debugger/reference/idebugcustomattributequery2.md)   
  [IEnumDebugCustomAttributes](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md)

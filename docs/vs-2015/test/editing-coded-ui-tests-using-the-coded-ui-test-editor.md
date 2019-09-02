@@ -209,7 +209,7 @@ Edit control properties
 ### Forum  
  [Visual Studio UI Automation Testing (includes CodedUI)](http://go.microsoft.com/fwlink/?LinkID=224497)  
   
-## See Also  
+## See also  
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
  [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)   
  [Creating a Data-Driven Coded UI Test](../test/creating-a-data-driven-coded-ui-test.md)   

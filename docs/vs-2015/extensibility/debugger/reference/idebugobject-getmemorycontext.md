@@ -42,5 +42,5 @@ int GetMemoryContext(
 ## Remarks  
  The returned memory context specifies the address of the value as represented by this [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object.  
   
-## See Also  
+## See also  
  [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)

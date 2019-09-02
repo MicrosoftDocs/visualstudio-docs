@@ -135,7 +135,7 @@ DataTips provide a convenient way to view information about variables in your pr
   
 2. Use the dialog box to find the XML file that you want to open and click **OK**.  
   
-## See Also  
+## See also  
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   
  [How to: Use the QuickWatch Dialog Box](https://msdn.microsoft.com/library/ffaee1dd-e5ce-4ef2-9401-d28329398867)   
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)   

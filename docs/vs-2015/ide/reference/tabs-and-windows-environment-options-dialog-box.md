@@ -17,5 +17,5 @@ manager: jillfra
 
 Use this page to set options for how tabbed windows behave in the editor pane, and how tool windows behave. For more information, see [How to: Arrange and Dock Windows](../../misc/how-to-arrange-and-dock-windows.md)  
   
-## See Also  
+## See also  
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

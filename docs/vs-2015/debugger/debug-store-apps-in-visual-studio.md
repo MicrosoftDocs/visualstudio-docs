@@ -32,5 +32,5 @@ The Visual Studio debugger allows you to control the execution of a program and 
 |[Navigate a debug session  (Xaml and C#)](../debugger/navigate-a-debugging-session-in-visual-studio-xaml-and-csharp.md)|Debugger navigation takes you through a simple app that demonstrates how to start and stop debugging, how navigate through code, and how to view and change the program state.|
 |[Trigger suspend, resume, and background events for Windows Store)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md)|The debugger disables Windows Process Lifetime Management (PLM) events that suspend, resume, and terminate apps. You can trigger these events from the debugger toolbar.<br /><br /> Background tasks enable you to perform important operations even when you app has been suspended. The debugger enables you start and debug these background task.|
 
-## See Also
+## See also
  [Debugging in Visual Studio (in the MSDN Library)](http://go.microsoft.com/fwlink/?LinkID=226896)

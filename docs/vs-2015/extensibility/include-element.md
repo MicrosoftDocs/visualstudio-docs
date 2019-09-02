@@ -53,5 +53,5 @@ The Include element specifies a file that can be located on the supplied include
 <Include href="PackagePlacements.vsct"/>  
 ```  
   
-## See Also  
+## See also  
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

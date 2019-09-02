@@ -58,5 +58,5 @@ XML and its related technologies play a large role in the way data is handled in
  [XML Web Services in Managed Code](https://msdn.microsoft.com/c9a7dc25-3e68-4723-bfb7-de4320830196)  
  Discusses how to create and deploy XML Web services and how to access XML Web services.  
   
-## See Also  
+## See also  
  [XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)

@@ -123,7 +123,7 @@ The Visual Studio Profiler enables you to collect performance data that was gene
   
      C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools  
   
-## See Also  
+## See also  
  [Overviews](../profiling/overviews-performance-tools.md)   
  [How to: Choose Sampling Events](../profiling/how-to-choose-sampling-events.md)   
  [How to: Collect CPU Counter Data](../profiling/how-to-collect-cpu-counter-data.md)   

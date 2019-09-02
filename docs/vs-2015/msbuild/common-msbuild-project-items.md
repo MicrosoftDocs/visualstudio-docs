@@ -136,5 +136,5 @@ In [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)], an item is a named 
 ### Import  
  Represents assemblies whose namespaces should be imported by the [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] compiler.  
   
-## See Also  
+## See also  
  [Common MSBuild Project Properties](../msbuild/common-msbuild-project-properties.md)

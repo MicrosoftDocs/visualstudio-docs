@@ -22,7 +22,7 @@ In [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugging, a **document posit
   
 - Is implemented by an [IDebugDocumentPosition2](../../extensibility/debugger/reference/idebugdocumentposition2.md) interface.  
   
-## See Also  
+## See also  
  [Code Context](../../extensibility/debugger/code-context.md)   
  [Document Context](../../extensibility/debugger/document-context.md)   
  [Symbol Provider](../../extensibility/debugger/symbol-provider.md)   

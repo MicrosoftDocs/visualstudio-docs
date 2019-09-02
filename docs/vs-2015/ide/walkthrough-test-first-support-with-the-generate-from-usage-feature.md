@@ -180,7 +180,7 @@ Test Results window
      ![Test results that passed](../ide/media/testspassed.png "TestsPassed")  
 Test Results window  
   
-## See Also  
+## See also  
  [Generate From Usage](../misc/generate-from-usage.md)   
  [Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)   
  [Using IntelliSense](../ide/using-intellisense.md)   

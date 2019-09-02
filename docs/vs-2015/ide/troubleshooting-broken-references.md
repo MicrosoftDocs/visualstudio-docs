@@ -84,7 +84,7 @@ If your application attempts to use a broken reference, an exception error is ge
 ## COM Component Is Not Installed on Computer  
  If a user has added a reference to a COM component and a second user tries to run the code on a computer that does not have this component installed, the second user will receive an error that the reference is broken. Installing the component on the second computer will correct the error. For more information about how to use references to COM components in your projects, see [COM Interoperability in .NET Framework Applications](https://msdn.microsoft.com/library/f5a72143-c268-4dff-a019-974ad940e17d).  
   
-## See Also  
+## See also  
  [Introduction to the Project Designer](https://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)   
  [References Page, Project Designer (Visual Basic)](../ide/reference/references-page-project-designer-visual-basic.md)   
  [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)

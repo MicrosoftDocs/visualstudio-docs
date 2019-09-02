@@ -120,7 +120,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 15. Switch to the Phone Emulator or the Simulator. The updated margin-left values have been applied to the Section 4 images. These values are also updated in the **Computed** tab under the margin-left rule.  
   
-## See Also  
+## See also  
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)   
  [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md)   
  [View DOM event listeners](../debugger/view-dom-event-listeners.md)

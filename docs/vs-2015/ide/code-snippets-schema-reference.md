@@ -652,6 +652,6 @@ is a great color. I love Blue.
   
  A text value is required. This text specifies a URL with more information about the referenced assembly. This URL is displayed when the reference cannot be added to the project.  
   
-## See Also  
+## See also  
  [Code Snippets](../ide/code-snippets.md)   
  [Walkthrough: Creating a Code Snippet](../ide/walkthrough-creating-a-code-snippet.md)

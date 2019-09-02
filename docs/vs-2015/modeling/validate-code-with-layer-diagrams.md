@@ -237,5 +237,5 @@ To make sure that code doesn't conflict with its design, validate your code with
   
 ## Security  
   
-## See Also  
+## See also  
  [Validate your system during development](../modeling/validate-your-system-during-development.md)

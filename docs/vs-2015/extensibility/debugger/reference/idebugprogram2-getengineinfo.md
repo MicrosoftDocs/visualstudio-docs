@@ -47,5 +47,5 @@ int GetEngineInfo( 
 ## Remarks  
  Each DE defines its own GUID for identification.  
   
-## See Also  
+## See also  
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

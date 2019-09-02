@@ -37,7 +37,7 @@ The <xref:System.Activities.Statements.Flowchart> activity is used to create wor
 |<xref:System.Activities.Statements.Flowchart.StartNode%2A>|False|The <xref:System.Activities.Statements.FlowNode> that is executed when the <xref:System.Activities.Statements.Flowchart> starts.|  
 |<xref:System.Activities.Statements.Flowchart.Nodes%2A>|False|Contains the collection of <xref:System.Activities.Statements.FlowNode> objects in the <xref:System.Activities.Statements.Flowchart>.|  
   
-## See Also  
+## See also  
  [Flowchart](../workflow-designer/flowchart-activity-designers.md)   
  [FlowDecision](../workflow-designer/flowdecision-activity-designer.md)   
  [FlowSwitch\<T>](../workflow-designer/flowswitch-t-activity-designer.md)

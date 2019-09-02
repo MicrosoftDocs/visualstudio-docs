@@ -37,5 +37,5 @@ Runtime activity designers are used to persist and terminate workflow activities
   
  [Error Handling](../workflow-designer/error-handling-activity-designers.md)  
   
-## See Also  
+## See also  
  [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)

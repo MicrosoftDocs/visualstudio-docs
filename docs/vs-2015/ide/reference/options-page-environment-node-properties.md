@@ -154,7 +154,7 @@ This document describes the pages (or properties collections) that are associate
 |ViewSourceIn|Get/Set (Enum)|<xref:EnvDTE.vsBrowserViewSource> (Source, Design, External).|  
 |ViewSourceExternalProgram|Get/Set (String)|The path of the external source viewer.|  
   
-## See Also  
+## See also  
  [Controlling Options Settings](https://msdn.microsoft.com/library/a09ed242-7494-4cde-bbd1-7a8ec617965d)   
  [Determining the Names of Property Items on Options Pages](https://msdn.microsoft.com/library/d450422d-47c7-4eeb-9f9f-3286264bc5aa)   
  [Options Page, Fonts and Colors Node Properties](../../ide/reference/options-page-fonts-and-colors-node-properties.md)   

@@ -126,6 +126,6 @@ Imagine where you’d like objects to appear on a page; objects such as images, 
   
  ![](../designers/media/f5b13c66-d918-4141-8a16-bd8f8628687a.png "f5b13c66-d918-4141-8a16-bd8f8628687a")  
   
-## See Also  
+## See also  
  [Working with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md)   
  [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)

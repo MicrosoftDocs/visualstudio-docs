@@ -59,7 +59,7 @@ To see an existing type and its members, add its shape to a class diagram.
   
      An auto-populated Class Diagram is created.  
   
-## See Also  
+## See also  
  [How to: View Inheritance Between Types (Class Designer)](../ide/how-to-view-inheritance-between-types-class-designer.md)   
  [How to: Customize Class Diagrams (Class Designer)](../ide/how-to-customize-class-diagrams-class-designer.md)   
  [Viewing Types and Relationships (Class Designer)](../ide/viewing-types-and-relationships-class-designer.md)

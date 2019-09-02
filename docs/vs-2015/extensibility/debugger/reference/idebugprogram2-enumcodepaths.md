@@ -67,7 +67,7 @@ int EnumCodePaths( 
 ## Remarks  
  A code path describes the name of a method or function that was called to get to the current point in the execution of the program. A list of code paths represents the call stack.  
   
-## See Also  
+## See also  
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)   
  [IEnumCodePaths2](../../../extensibility/debugger/reference/ienumcodepaths2.md)   
  [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)   

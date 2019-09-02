@@ -33,6 +33,6 @@ Python Tools for Visual Studio (PTVS) helps you manage your code.
  
   You can watch these instructions in a very short [youtube video](https://www.youtube.com/watch?v=KHPoVpL7zHg&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=2). 
  
-## See Also 
+## See also 
  [Wiki documentation](https://github.com/Microsoft/PTVS/wiki/Projects) 
  [PTVS Getting Started and Deep Dive Videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)

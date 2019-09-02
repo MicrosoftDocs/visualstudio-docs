@@ -27,7 +27,7 @@ For [!INCLUDE[vbprvb](../includes/vbprvb-md.md)], if the `CustomToolNamespace` p
 rootNamespace.webReferenceFolder.containedFolder.containedFolder ...  
 ```  
   
-## See Also  
+## See also  
  [Implementing Single-File Generators](../extensibility/internals/implementing-single-file-generators.md)   
  [Registering Single File Generators](../extensibility/internals/registering-single-file-generators.md)   
  [Exposing Types to Visual Designers](../extensibility/internals/exposing-types-to-visual-designers.md)

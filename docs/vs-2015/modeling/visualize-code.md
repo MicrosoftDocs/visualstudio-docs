@@ -48,7 +48,7 @@ You can use the visualization and modeling tools in Visual Studio to help you un
 |**Blogs**|[Visual Studio ALM + Team Foundation Server Blog](http://go.microsoft.com/fwlink/?LinkID=201340)|  
 |**Technical Articles and Journals**|[MSDN Architecture Forum](http://go.microsoft.com/fwlink/?LinkId=201343)|  
   
-## See Also  
+## See also  
  [Scenario: Change your design using visualization and modeling](../modeling/scenario-change-your-design-using-visualization-and-modeling.md)   
  [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)   
  [Create models for your app](../modeling/create-models-for-your-app.md)   

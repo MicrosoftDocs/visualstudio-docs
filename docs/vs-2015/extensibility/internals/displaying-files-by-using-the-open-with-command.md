@@ -27,7 +27,7 @@ A project can ask the IDE to display the **Open With** dialog box. This request 
   
 3. As soon as the user selects an item from the **Open With** dialog box, the IDE then opens the document by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method. For more information, see [How to: Open Standard Editors](../../extensibility/how-to-open-standard-editors.md).  
   
-## See Also  
+## See also  
  [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md)   
  [Displaying Files By Using the Open File Command](../../extensibility/internals/displaying-files-by-using-the-open-file-command.md)   
  [How to: Open Standard Editors](../../extensibility/how-to-open-standard-editors.md)

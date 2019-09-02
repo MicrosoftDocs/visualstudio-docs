@@ -45,6 +45,6 @@ The C run-time library provides extensive debugging support. To use one of the C
   
  For more information on the various run-time libraries you can use, see [C Run-Time Libraries](https://msdn.microsoft.com/library/a889fd39-807d-48f2-807f-81492612463f).  
   
-## See Also  
+## See also  
  [CRT Debugging Techniques](../debugger/crt-debugging-techniques.md)   
  [/MD, /MT, /LD (Use Run-Time Library)](https://msdn.microsoft.com/library/cf7ed652-dc3a-49b3-aab9-ad60e5395579)

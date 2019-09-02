@@ -27,5 +27,5 @@ Visual Studio has a notification system which alerts you to various events:
 
    ![Visual Studio notification icon](../ide/media/vs2015-notificationicon.png "vs2015_NotificationIcon")
 
-## See Also
+## See also
  [Visual Studio IDE](../ide/visual-studio-ide.md)

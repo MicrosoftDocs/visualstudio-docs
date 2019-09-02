@@ -33,7 +33,7 @@ The **Compensate** activity designer is used to create and configure a <xref:Sys
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the optional friendly name of the <xref:System.Activities.Statements.Compensate> activity. The default is Compensate.|  
 |<xref:System.Activities.Statements.Compensate.Target%2A>|True|Specifies the <xref:System.Activities.InArgument%601> that contains the <xref:System.Activities.Statements.CompensationToken> for this <xref:System.Activities.Statements.Compensate> activity.|  
   
-## See Also  
+## See also  
  [Transaction](../workflow-designer/transaction-activity-designers.md)   
  [CompensableActivity](../workflow-designer/compensableactivity-activity-designer.md)   
  [Compensate Activity Designer](../workflow-designer/compensate-activity-designer.md)   

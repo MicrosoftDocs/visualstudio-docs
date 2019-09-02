@@ -118,5 +118,5 @@ Identifies the attributes used for the deployment of updates and exposure to the
   </deployment>  
 ```  
   
-## See Also  
+## See also  
  [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)

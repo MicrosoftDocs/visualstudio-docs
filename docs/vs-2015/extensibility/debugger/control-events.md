@@ -33,5 +33,5 @@ You must send events during the controlled execution of your program. All of the
   
   For your engine to write string-style output, you must implement the [IDebugOutputStringEvent2::GetString](../../extensibility/debugger/reference/idebugoutputstringevent2-getstring.md) method.  
   
-## See Also  
+## See also  
  [Execution Control and State Evaluation](../../extensibility/debugger/execution-control-and-state-evaluation.md)

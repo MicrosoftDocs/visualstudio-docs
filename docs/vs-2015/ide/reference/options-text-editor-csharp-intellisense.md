@@ -64,7 +64,7 @@ Use the **IntelliSense** property page to modify settings that affect the behavi
  **Pre-selects most recently used member**  
  When this option is selected, IntelliSense pre-selects the members that you have recently selected in the pop-up List Members box for automatic object name completion, during your current session in the integrated development environment (IDE). The history of most recently used members is cleared between each session in the IDE. For more information, see [IntelliSense for Most Recently Used Members](../../misc/intellisense-for-most-recently-used-members.md).  
   
-## See Also  
+## See also  
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)   
  [XML Documentation Comments](https://msdn.microsoft.com/library/803b7f7b-7428-4725-b5db-9a6cff273199)   
  [Using IntelliSense](../../ide/using-intellisense.md)

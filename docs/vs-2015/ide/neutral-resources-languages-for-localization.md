@@ -35,7 +35,7 @@ The <xref:System.Resources.NeutralResourcesLanguageAttribute> class specifies th
 [assembly: NeutralResourcesLanguageAttribute("en")]  
 ```  
   
-## See Also  
+## See also  
  <xref:System.Resources.ResourceManager>   
  [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)   
  [Hierarchical Organization of Resources for Localization](../ide/hierarchical-organization-of-resources-for-localization.md)   

@@ -36,7 +36,7 @@ The <xref:System.Activities.Statements.FlowDecision> node is a conditional node 
 |<xref:System.Activities.Statements.FlowDecision.True%2A>|False|The path taken by the flow control if the <xref:System.Activities.Statements.FlowDecision.Condition%2A> is satisfied.|  
 |<xref:System.Activities.Statements.FlowDecision.False%2A>|False|The path taken by the flow control if the <xref:System.Activities.Statements.FlowDecision.Condition%2A> is not satisfied.|  
   
-## See Also  
+## See also  
  [Flowchart](../workflow-designer/flowchart-activity-designers.md)   
  [Flowchart](../workflow-designer/flowchart-activity-designer.md)   
  [FlowSwitch\<T>](../workflow-designer/flowswitch-t-activity-designer.md)

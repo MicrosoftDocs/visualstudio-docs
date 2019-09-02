@@ -39,7 +39,7 @@ This section provides reference information about the dynamic properties in LINQ
   
  <xref:System.Xml.Linq.XAttribute?displayProperty=fullName>  
   
-## See Also  
+## See also  
  [WPF Data Binding with LINQ to XML](../designers/wpf-data-binding-with-linq-to-xml.md)   
  [WPF Data Binding with LINQ to XML Overview](../designers/wpf-data-binding-with-linq-to-xml-overview.md)   
  [Introduction to LINQ Queries (C#)](https://msdn.microsoft.com/library/37895c02-268c-41d5-be39-f7d936fa88a8)

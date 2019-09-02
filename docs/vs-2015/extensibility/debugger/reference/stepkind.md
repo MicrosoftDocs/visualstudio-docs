@@ -62,6 +62,6 @@ public enum enum_STEPKIND { 
   
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## See Also  
+## See also  
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [Step](../../../extensibility/debugger/reference/idebugprocess3-step.md)

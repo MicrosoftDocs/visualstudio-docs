@@ -30,7 +30,7 @@ VSPerfCmd.exe /Launch:AppName /Console
  **Launch:** `AppName`  
  Starts the profiler and the application specified by `AppName`.  
   
-## See Also  
+## See also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
  [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
  [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   

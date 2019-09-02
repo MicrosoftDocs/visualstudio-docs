@@ -51,7 +51,7 @@ When you are creating a new state machine workflow project in [!INCLUDE[vs2010](
 >   
 > To open the **Document Outline** window, on the **View** menu, point to **Other Windows**, and then select **Document Outline**.  
   
-## See Also  
+## See also  
  [How to: Create State Machine Workflow Console Applications (Legacy)](../workflow-designer/how-to-create-state-machine-workflow-console-applications-legacy.md)   
  [How to: Create a State Machine Workflow Library (Legacy)](../workflow-designer/how-to-create-a-state-machine-workflow-library-legacy.md)   
  [State Machine Workflows](http://go.microsoft.com/fwlink?LinkID=65016)   

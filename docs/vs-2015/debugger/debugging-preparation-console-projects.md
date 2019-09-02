@@ -53,7 +53,7 @@ Preparing to debug a Console project is similar to preparing to debug a Windows 
   
   When you start a console application from Visual Studio, the **Console** window sometimes appears behind the Visual Studio window. If you try to start your console application from Visual Studio and nothing seems to happen, try to move the Visual Studio window.  
   
-## See Also  
+## See also  
  [Debugging Native Code](../debugger/debugging-native-code.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
  [Visual C++ Project Types](../debugger/debugging-preparation-visual-cpp-project-types.md)   

@@ -44,6 +44,6 @@ HRESULT DisableENC(
 ## Remarks  
  Once Edit and Continue is disabled for a process, it can be re-enabled only by restarting the process.  
   
-## See Also  
+## See also  
  [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)   
  [EncUnavailableReason](../../../extensibility/debugger/reference/encunavailablereason.md)

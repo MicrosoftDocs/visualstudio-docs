@@ -753,7 +753,7 @@ This walkthrough shows how to add a tracking property to a domain model.
 ## Next Steps  
  If you plan to use more than one tracking property, or implement tracking properties in more than one DSL, you can create a text template to generate the common code for supporting each tracking property. For more information about text templates, see [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md).  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Modeling.Design.TrackingPropertyDescriptor>   
  <xref:Microsoft.VisualStudio.Modeling.Design.ElementTypeDescriptor>   
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   

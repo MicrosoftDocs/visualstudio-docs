@@ -158,7 +158,7 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
     <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />  
     ```  
   
-## See Also  
+## See also  
  [Managing Compilation Properties](https://msdn.microsoft.com/94308881-f10f-4caf-a729-f1028e596a2c)   
  [Compile Page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md)   
  [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)   

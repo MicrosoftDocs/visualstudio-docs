@@ -102,5 +102,5 @@ The XSLT Profiler creates detailed XSLT performance reports that help measure, e
   
 4. The process view displays a table that includes the **Process ID**, **Process Name**, **Begin Time**, and the **End Time**. Data can be sorted by clicking column names.  
   
-## See Also  
+## See also  
  [Walkthrough: Using XSLT Hierarchy](../xml-tools/walkthrough-using-xslt-hierarchy.md)

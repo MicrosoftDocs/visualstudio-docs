@@ -51,7 +51,7 @@ The Summary view displays information about the most performance-expensive funct
 |**Filter Report Data**|Displays the profiling report filter pane where you can specify criteria to restrict the data in the report view. For more information, see [Performance Report View Filter](../profiling/performance-report-view-filter.md)|  
 |**Toggle Full Screen**|Toggles full-screen mode for the report view.|  
   
-## See Also  
+## See also  
  [Summary View](../profiling/summary-view-sampling-data.md)   
  [Summary View](../profiling/summary-view-instrumentation-data.md)   
  [Summary View](../profiling/summary-view-dotnet-memory-data.md)

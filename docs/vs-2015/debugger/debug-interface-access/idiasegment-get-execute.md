@@ -34,5 +34,5 @@ HRESULT get_execute ( 
 ## Return Value  
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)

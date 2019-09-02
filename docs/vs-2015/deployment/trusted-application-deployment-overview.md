@@ -98,6 +98,6 @@ This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../inclu
 ## Limitations of Trusted Application Deployment  
  You can use Trusted Application Deployment to grant elevated trust to [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications deployed over the Web or through an enterprise file share. You do not have to use Trusted Application Deployment for [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications distributed on a CD, because, by default, these applications are granted full trust.  
   
-## See Also  
+## See also  
  [Mage.exe (Manifest Generation and Editing Tool)](https://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)   
  [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)

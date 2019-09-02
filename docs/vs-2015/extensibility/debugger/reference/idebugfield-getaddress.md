@@ -39,6 +39,6 @@ int GetAddress(
 ## Return Value  
  If successful, returns `S_OK`; otherwise, return an error code.  
   
-## See Also  
+## See also  
  [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)   
  [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)

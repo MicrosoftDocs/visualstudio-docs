@@ -28,6 +28,6 @@ The documents in this section describe how to use advanced techniques to improve
 |[Multitargeting](../msbuild/msbuild-multitargeting-overview.md)|Describes how to compile an application to run on any one of several versions of the .NET Framework.|  
 |[Best Practices](../msbuild/msbuild-best-practices.md)|Recommends best practices for writing MSBuild scripts.|  
   
-## See Also  
+## See also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [Logging in MSBuild](../msbuild/logging-in-msbuild.md)

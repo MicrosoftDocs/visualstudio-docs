@@ -70,5 +70,5 @@ Defines localized strings for product names, package names, and installation err
 </Strings>  
 ```  
   
-## See Also  
+## See also  
  [\<Package> Element](../deployment/package-element-bootstrapper.md)

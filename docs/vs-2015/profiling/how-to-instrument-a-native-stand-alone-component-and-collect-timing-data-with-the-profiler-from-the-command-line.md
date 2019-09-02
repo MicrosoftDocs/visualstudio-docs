@@ -76,6 +76,6 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
      **VSPerfCmd /shutdown**  
 
-## See Also  
+## See also  
  [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
  [Instrumentation Method Data Views](../profiling/instrumentation-method-data-views.md)

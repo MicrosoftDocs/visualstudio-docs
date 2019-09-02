@@ -32,7 +32,7 @@ Description
 ## Solution  
  If you have a second computer, use remote debugging. You can operate your program on the remote computer while you run the debugger on the host. For more information, see [How to: Select a Remote Computer](https://msdn.microsoft.com/4332ba8e-2f0b-4f62-b96a-e762b9f3c3ba).  
   
-## See Also  
+## See also  
  [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)   
  [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
  [Debugging Native Code](../debugger/debugging-native-code.md)

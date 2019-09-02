@@ -45,5 +45,5 @@ The **Properties** window displays fields within a grid. The left column contain
   
 - Clicking the ellipsis (...) button displays a list of property values from which the user can select (such as a color picker or font list). <xref:Microsoft.VisualStudio.Shell.Interop.IProvidePropertyBuilder> provides these values.  
   
-## See Also  
+## See also  
  [Extending Properties](../../extensibility/internals/extending-properties.md)

@@ -72,7 +72,7 @@ In this version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you can specify
 ## Enabling LINQ
  When you target the .NET Framework 3.5 or later, a reference to System.Core and a project-level import for System.Linq (in Visual Basic only) are added automatically. If you want to use LINQ features, you must also turn Option Infer on (in Visual Basic only). The reference and import are removed automatically if you change the target to an earlier .NET Framework version. For more information, see [How to: Create a LINQ Project](https://msdn.microsoft.com/library/a929e653-09a3-44be-881f-68ca33f192b2).
 
-## See Also
+## See also
 [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)
 [.NET Framework Multi-Targeting for ASP.NET Web Projects](https://msdn.microsoft.com/library/8b8145a9-62f6-4fc4-8a83-47b0487cbe76)
 [Platform compatibility and system requirements](/visualstudio/productinfo/vs2015-compatibility-vs)

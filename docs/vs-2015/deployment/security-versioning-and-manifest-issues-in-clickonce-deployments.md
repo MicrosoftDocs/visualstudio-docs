@@ -84,7 +84,7 @@ There are a variety of issues with [!INCLUDE[ndptecclick](../includes/ndptecclic
 > [!NOTE]
 > Every time that you update the manifest you must also sign it again.  
   
-## See Also  
+## See also  
  [Troubleshooting ClickOnce Deployments](../deployment/troubleshooting-clickonce-deployments.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [Choosing a ClickOnce Deployment Strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)

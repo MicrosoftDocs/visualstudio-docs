@@ -43,6 +43,6 @@ This document demonstrates how to use the Model Editor to modify the *pivot poin
   
    ![A model of a house that has a modified pivot point](../designers/media/digit-modified-model.png "Digit-Modified-Model")  
   
-## See Also  
+## See also  
  [How to: Create a Basic 3-D Model](../designers/how-to-create-a-basic-3-d-model.md)   
  [Model Editor](../designers/model-editor.md)

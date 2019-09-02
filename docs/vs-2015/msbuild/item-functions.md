@@ -96,5 +96,5 @@ Starting with MSBuild 4.0, code in tasks and targets can call item functions to 
   -->  
 ```  
   
-## See Also  
+## See also  
  [Items](../msbuild/msbuild-items.md)

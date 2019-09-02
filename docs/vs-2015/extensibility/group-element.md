@@ -58,5 +58,5 @@ Defines a VSPackage command group.
 </Group>  
 ```  
   
-## See Also  
+## See also  
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

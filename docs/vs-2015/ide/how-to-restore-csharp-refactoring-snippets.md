@@ -50,7 +50,7 @@ C# refactoring operations rely on code snippets found in the following directory
   
 6. Click **Open** in the **Code Snippets Directory** dialog box, and then click **OK** in the Code Snippets Manager.  
   
-## See Also  
+## See also  
  [Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md)   
  [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)   
  [Code Snippets](../ide/code-snippets.md)

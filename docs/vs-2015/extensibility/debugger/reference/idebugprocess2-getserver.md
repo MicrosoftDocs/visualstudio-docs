@@ -42,6 +42,6 @@ int GetServer( 
 ## Remarks  
  More than one server can be running on a single machine.  
   
-## See Also  
+## See also  
  [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)   
  [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)

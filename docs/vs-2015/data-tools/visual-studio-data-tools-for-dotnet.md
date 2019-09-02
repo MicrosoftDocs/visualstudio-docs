@@ -59,5 +59,5 @@ Visual Studio and the .NET Framework together provide extensive API and tooling 
   
 - [Additional resources for troubleshooting data access errors](../data-tools/additional-resources-for-troubleshooting-data-access-errors.md)  
   
-## See Also  
+## See also  
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)

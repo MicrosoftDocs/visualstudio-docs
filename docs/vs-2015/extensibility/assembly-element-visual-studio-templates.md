@@ -91,6 +91,6 @@ Specifies information about an assembly, which the template uses to add a refere
 </TemplateContent>  
 ```  
   
-## See Also  
+## See also  
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)

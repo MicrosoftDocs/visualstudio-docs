@@ -27,6 +27,6 @@ Response (.rsp) files are text files that contain MSBuild.exe command line switc
   
  The auto-response file is a special .rsp file that MSBuild.exe automatically uses when building a project. This file, MSBuild.rsp, must be in the same directory as MSBuild.exe, otherwise it will not be found. You can edit this file to specify default command line switches to MSBuild.exe. For example, if you use the same logger every time you build a project, you can add the **/logger** switch to MSBuild.rsp, and MSBuild.exe will use the logger every time a project is built.  
   
-## See Also  
+## See also  
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)

@@ -48,6 +48,6 @@ In the **Contents** tab, you can use the table of contents (TOC) to find informa
   
      The **Contents** tab opens and displays the topic's location in the TOC.  
   
-## See Also  
+## See also  
  [Locate Information](../ide/locate-information.md)   
  [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)

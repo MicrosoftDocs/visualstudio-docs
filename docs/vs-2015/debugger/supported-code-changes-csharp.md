@@ -79,6 +79,6 @@ Edit and Continue handles most types of code changes within method bodies. Most 
   
 - Debugging an old version of your code after a new version failed to build because of build errors.  
   
-## See Also  
+## See also  
  [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)   
  [How to: Use Edit and Continue (C#)](../debugger/how-to-use-edit-and-continue-csharp.md)

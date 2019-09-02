@@ -88,5 +88,5 @@ You can apply filters to profiling data files to limit the profiling data that i
   
 2. Specify the location and file name of the filter (.vspf) file to save.  
   
-## See Also  
+## See also  
  [Customizing Performance Tools Report Views](../profiling/customizing-performance-tools-report-views.md)

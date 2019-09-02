@@ -141,7 +141,7 @@ You can change the way that class diagrams display information. You can customiz
   
      The shape is removed from the diagram and its underlying code is deleted from the project.  
   
-## See Also  
+## See also  
  [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)   
  [How to: Change Between Member Notation and Association Notation (Class Designer)](../ide/how-to-change-between-member-notation-and-association-notation-class-designer.md)   
  [How to: View Existing Types (Class Designer)](../ide/how-to-view-existing-types-class-designer.md)   

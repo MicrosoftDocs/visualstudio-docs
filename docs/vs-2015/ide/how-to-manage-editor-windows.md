@@ -50,7 +50,7 @@ You can work on code in several locations at once. Do this by splitting an Edito
   
      A new tabbed instance of the editor is added.  
   
-## See Also  
+## See also  
  [Customizing the Editor](../ide/customizing-the-editor.md)   
  [Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)   
  [Customizing window layouts](../ide/customizing-window-layouts-in-visual-studio.md)

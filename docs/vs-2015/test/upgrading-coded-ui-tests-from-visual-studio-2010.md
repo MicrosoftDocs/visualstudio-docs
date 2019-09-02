@@ -57,7 +57,7 @@ Test Projects containing coded UI tests that were created in [!INCLUDE[vs_dev10_
 
 - **Load testing:** When you run a load test together with a network type other than the local area network (LAN) profile on a computer this is running Windows 8, the network emulator driver causes the operating system to crash. For more details, see [KB Article 2736182](http://support.microsoft.com/kb/2736182).
 
-## See Also
+## See also
  [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)
  [Upgrading Tests from Earlier Versions of Visual Studio](https://msdn.microsoft.com/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52)
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)

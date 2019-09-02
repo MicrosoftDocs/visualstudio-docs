@@ -54,7 +54,7 @@ A settings category consists of a group of options that customize the integrated
   
  In the **Import and Export Settings Wizard**, the settings point has the name, My Settings. When the settings point is selected, the description, **Various Options**, appears. The settings point name and description are taken from localized string resources.  
   
-## See Also  
+## See also  
  [Creating an Options Page](../extensibility/creating-an-options-page.md)   
  [VSSDK Samples](../misc/vssdk-samples.md)   
  [VSPackage State](../misc/vspackage-state.md)   

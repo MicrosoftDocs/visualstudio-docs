@@ -87,6 +87,6 @@ Converts between .txt and .resx (XML-based resource format) files and common lan
   
  Without the \<LogicalName> metadata, the resource would be named myAssembly.myResource.resources.  This example applies only to the Visual Basic and Visual C# build process.  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)

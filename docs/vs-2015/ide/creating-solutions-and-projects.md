@@ -87,6 +87,6 @@ Projects are the logical containers for everything that's needed to build your a
   
 3. Select the directory containing the solution and press Delete.  
   
-## See Also  
+## See also  
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)   
  [NIB How to: Create Multi-Project Solutions](https://msdn.microsoft.com/02ecd6dd-0114-46fe-b335-ba9c5e3020d6)

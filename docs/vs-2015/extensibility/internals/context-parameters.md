@@ -54,7 +54,7 @@ In the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development en
 |`InstallationDirectory`|Directory path of the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] is installation.|  
 |`Silent`|Boolean that indicates whether the wizard should run silently as if **Finish** were clicked (`TRUE`).|  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject2>   
  [Custom Parameters](../../extensibility/internals/custom-parameters.md)   

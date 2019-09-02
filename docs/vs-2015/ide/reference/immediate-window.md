@@ -116,7 +116,7 @@ The **Immediate** window is used to debug and evaluate expressions, execute stat
   
 2. Right-click on the text area of the **Output** window, and select or deselect **Exception Messages**.  
   
-## See Also  
+## See also  
  [Navigating through Code with the Debugger](../../debugger/navigating-through-code-with-the-debugger.md)   
  [Command Window](../../ide/reference/command-window.md)   
  [Debugging in Visual Studio](../../debugger/debugging-in-visual-studio.md)   

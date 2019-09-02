@@ -272,6 +272,6 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
   
 4. Click a color on the shortcut menu. The tool window background color should be changed to the selected color.  
   
-## See Also  
+## See also  
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)   
  [Using and Providing Services](../extensibility/using-and-providing-services.md)

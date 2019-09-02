@@ -134,7 +134,7 @@ void UseTable(IDiaSession *pSession)
   
  DLL: msdia80.dll  
   
-## See Also  
+## See also  
  [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)   
  [IDiaEnumTables](../../debugger/debug-interface-access/idiaenumtables.md)   
  [IDiaEnumTables::Item](../../debugger/debug-interface-access/idiaenumtables-item.md)   

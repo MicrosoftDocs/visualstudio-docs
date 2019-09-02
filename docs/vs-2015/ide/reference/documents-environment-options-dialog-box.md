@@ -79,7 +79,7 @@ Use this page of the **Options** dialog box to control the display of documents 
  **Save documents as Unicode when data cannot be saved in codepage**  
  Select this option to cause files containing information incompatible with the selected codepage to be saved as Unicode by default.  
   
-## See Also  
+## See also  
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)   
  [Miscellaneous Files](../../ide/reference/miscellaneous-files.md)   
  [Finding and Replacing Text](../../ide/finding-and-replacing-text.md)

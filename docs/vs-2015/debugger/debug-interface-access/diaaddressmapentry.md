@@ -51,6 +51,6 @@ struct DiaAddressMapEntry { 
 ## Requirements  
  Header: dia2.h  
   
-## See Also  
+## See also  
  [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)   
  [IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap-set-addressmap.md)

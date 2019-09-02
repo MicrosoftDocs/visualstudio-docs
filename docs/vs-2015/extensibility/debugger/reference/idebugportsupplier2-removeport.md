@@ -42,6 +42,6 @@ int RemovePort( 
 ## Remarks  
  This method removes the port from the port supplier's internal list of active ports.  
   
-## See Also  
+## See also  
  [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)   
  [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)

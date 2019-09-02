@@ -83,5 +83,5 @@ MyMethod(param2);
   
  by the refactoring operation, `param1` will not be incremented.  
   
-## See Also  
+## See also  
  [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)

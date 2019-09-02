@@ -50,7 +50,7 @@ Specifies the minimum .NET Framework version that is required by the template.Sc
 ## Remarks  
  `RequiredFrameworkVersion` is an optional element. Use this element if the template only supports a specific minimum version, and later versions if any, of the .NET Framework.  
   
-## See Also  
+## See also  
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md)

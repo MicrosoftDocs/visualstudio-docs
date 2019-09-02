@@ -71,5 +71,5 @@ manager: "wpickett"
 ## Related Rules
  [CA1304: Specify CultureInfo](../code-quality/ca1304-specify-cultureinfo.md)
 
-## See Also
+## See also
  [NIB: Using the CultureInfo Class](https://msdn.microsoft.com/d4329e34-64c3-4d1e-8c73-5b0ee626ba7a)

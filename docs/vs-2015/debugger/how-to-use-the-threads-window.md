@@ -154,6 +154,6 @@ In the **Threads** window, you can examine and work with threads in the applicat
   
 - In the toolbar at the top of the **Threads** window, click **Expand Call Stacks** or **Collapse Call Stacks**.  
   
-## See Also  
+## See also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [Walkthrough: Debugging a Multithreaded Application](../debugger/walkthrough-debugging-a-multithreaded-application.md)

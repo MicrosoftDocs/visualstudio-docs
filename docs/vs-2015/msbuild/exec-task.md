@@ -65,6 +65,6 @@ Runs the specified program or command by using the specified arguments.
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)

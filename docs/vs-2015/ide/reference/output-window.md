@@ -60,7 +60,7 @@ The **Output** window can display status messages for various features in the in
 ## Scrolling Behavior  
  If you use autoscrolling in the Output window and then navigate by using the mouse or arrow keys, autoscrolling stops. To resume autoscrolling, press CTRL+END.  
   
-## See Also  
+## See also  
  [Diagnostic Messages in the Output Window](../../debugger/diagnostic-messages-in-the-output-window.md)   
  [How to: Control the Output Window](https://msdn.microsoft.com/library/91aebd15-8854-4a7a-9f7d-57376fb4e858)   
  [Compiling and Building](../../ide/compiling-and-building-in-visual-studio.md)   

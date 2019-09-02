@@ -133,7 +133,7 @@ msbuild.exe MyProj.proj /p:Configuration=DEBUG
 </PropertyGroup>  
 ```  
   
-## See Also  
+## See also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)  
  [MSBuild](msbuild.md)  
  [How to: Use Environment Variables in a Build](../msbuild/how-to-use-environment-variables-in-a-build.md)   

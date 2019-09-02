@@ -161,7 +161,7 @@ msbuild /target:publish /property:BootstrapperEnabled=false
 |`SupportURL`|Optional. Set this URL option if the support site is different than the `PublishURL`. For example, you could set the `SupportURL` to your company's customer support Web site.|  
 |`UpdateURL`|Optional. Set this URL option if the update location is different than the `InstallURL`. For example, you could set the `PublishURL` to an FTP path and set the `UpdateURL` to a Web URL.|  
   
-## See Also  
+## See also  
  <xref:Microsoft.Build.Tasks.GenerateBootstrapper>   
  <xref:Microsoft.Build.Tasks.GenerateApplicationManifest>   
  <xref:Microsoft.Build.Tasks.GenerateDeploymentManifest>   

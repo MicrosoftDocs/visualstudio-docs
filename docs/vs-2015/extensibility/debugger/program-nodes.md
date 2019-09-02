@@ -29,7 +29,7 @@ In terms of the debugger architecture, a **program node**:
   
   Before a program is attached to, the IDE needs only a lightweight description of the program. This information can be obtained from the program node. Once the program is attached to, the IDE needs to display more detailed information, such as a list of all threads running in the program. This information is obtained from the program itself.  
   
-## See Also  
+## See also  
  [Programs](../../extensibility/debugger/programs.md)   
  [Processes](../../extensibility/debugger/processes.md)   
  [Debug Engine](../../extensibility/debugger/debug-engine.md)   

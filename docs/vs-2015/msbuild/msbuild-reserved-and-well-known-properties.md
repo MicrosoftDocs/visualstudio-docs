@@ -53,6 +53,6 @@ manager: jillfra
 |`MSBuildToolsPath`|The installation path of the [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] version that's associated with the value of `MSBuildToolsVersion`.<br /><br /> Do not include the final backslash in the path.<br /><br /> This property cannot be overridden.|Reserved|  
 |`MSBuildToolsVersion`|The version of the [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] Toolset that is used to build the project.<br /><br /> Note: An [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] Toolset consists of tasks, targets, and tools that are used to build an application. The tools include compilers such as csc.exe and vbc.exe. For more information, see [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md), and [Standard and Custom Toolset Configurations](../msbuild/standard-and-custom-toolset-configurations.md).|Reserved|  
   
-## See Also  
+## See also  
  [MSBuild Reference](../msbuild/msbuild-reference.md)
  [MSBuild Properties](msbuild-properties1.md)

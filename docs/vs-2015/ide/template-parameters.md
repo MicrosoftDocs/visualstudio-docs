@@ -117,5 +117,5 @@ namespace $safeprojectname$
 </TemplateContent>  
 ```  
   
-## See Also  
+## See also  
  [Customizing Templates](../ide/customizing-project-and-item-templates.md)

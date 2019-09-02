@@ -123,6 +123,6 @@ When you are considering whether you should move to a newer version of Visual St
 |Code Review and My Work|The Code Review and My Work features won't work if you connect a client of [!INCLUDE[esprfound](../includes/esprfound-md.md)] to [!INCLUDE[vstsTfsRosarioLong](../includes/vststfsrosariolong-md.md)].|
 |[!INCLUDE[vs_dev11_expwin_long](../includes/vs-dev11-expwin-long-md.md)]|A 64-bit environment such as MSBuild or [!INCLUDE[esprbuild](../includes/esprbuild-md.md)] can't be used to build [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps that are created in [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)].|
 
-## See Also
+## See also
 
 - [Making Custom Projects Version-Aware](../misc/making-custom-projects-version-aware.md)

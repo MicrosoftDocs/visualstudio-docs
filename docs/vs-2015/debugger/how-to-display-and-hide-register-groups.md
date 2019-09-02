@@ -42,5 +42,5 @@ The **Registers** window is available only if address-level debugging is enabled
   
      Register groups that are not supported by the hardware you are debugging on are disabled on the shortcut menu, so they cannot be selected.  
   
-## See Also  
+## See also  
  [How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)

@@ -64,7 +64,7 @@ public enum enum_DISASSEMBLY_STREAM_SCOPE { 
   
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## See Also  
+## See also  
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [GetDisassemblyStream](../../../extensibility/debugger/reference/idebugprogram2-getdisassemblystream.md)   
  [GetScope](../../../extensibility/debugger/reference/idebugdisassemblystream2-getscope.md)

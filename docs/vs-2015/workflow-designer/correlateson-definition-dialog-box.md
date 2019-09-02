@@ -27,7 +27,7 @@ The **CorrelatesOn** dialog box is used in [!INCLUDE[wfd1](../includes/wfd1-md.m
 ## To launch the CorrelatesOn dialog box  
  The **Receive** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../includes/wfd2-md.md)] surface wherever activities are usually placed. This creates a <xref:System.ServiceModel.Activities.Receive> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of Receive. Select the **Receive** activity designer and click the ellipsis button next to the (Collection) text for the **CorrelatesOn** property in the property grid for the **CorrelatesOn Definition** dialog box to appear.  
   
-## See Also  
+## See also  
  <xref:System.ServiceModel.Activities.Receive>   
  [Add CorrelationInitializers Dialog Box](../workflow-designer/add-correlationinitializers-dialog-box.md)   
  [Initialize Correlation Dialog Box](../workflow-designer/initialize-correlation-dialog-box.md)

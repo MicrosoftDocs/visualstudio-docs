@@ -43,5 +43,5 @@ This topic discusses issues that you might encounter with the Help Viewer.
   
 - For more information, see the [Developer Documentation and Help System](http://go.microsoft.com/fwlink/?LinkId=232741) forum and [The Help Guy](http://go.microsoft.com/fwlink/?LinkId=232743) blog.  
   
-## See Also  
+## See also  
  [Help Viewer 2.1 Administrator Guide](http://go.microsoft.com/fwlink/?LinkId=243985)

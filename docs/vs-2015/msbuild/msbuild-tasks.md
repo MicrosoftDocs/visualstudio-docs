@@ -61,7 +61,7 @@ A build platform needs the ability to execute any number of actions during the b
 ## Overridden Tasks  
  [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] looks for tasks in several locations. The first location is in files with the extension .OverrideTasks stored in the .NET Framework directories. Tasks in these files override any other tasks with the same names, including tasks in the project file. The second location is in files with the extension .Tasks in the .NET Framework directories. If the task is not found in either of these locations, the task in the project file is used.  
   
-## See Also  
+## See also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [MSBuild](msbuild.md)   
  [Task Writing](../msbuild/task-writing.md)   

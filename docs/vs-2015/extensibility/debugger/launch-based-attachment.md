@@ -28,6 +28,6 @@ Launch-based attachment to a program is automatic. When the process hosting the 
   
 4. Send an [IDebugThreadCreateEvent2](../../extensibility/debugger/reference/idebugthreadcreateevent2.md) event object to notify the SDM that a new thread is created for the process that launched.  
   
-## See Also  
+## See also  
  [Sending the Required Events](../../extensibility/debugger/sending-the-required-events.md)   
  [Enabling a Program to Be Debugged](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)

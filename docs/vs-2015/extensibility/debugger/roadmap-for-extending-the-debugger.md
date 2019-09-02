@@ -45,5 +45,5 @@ This documentation provides guide and reference information for extending the [!
   
      [Samples](../../extensibility/debugger/visual-studio-debugging-samples.md)  
   
-## See Also  
+## See also  
  [Getting Started](../../extensibility/debugger/getting-started-with-debugger-extensibility.md)

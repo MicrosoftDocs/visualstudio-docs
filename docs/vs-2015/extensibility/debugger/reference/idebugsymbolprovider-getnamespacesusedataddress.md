@@ -47,6 +47,6 @@ int GetNamespacesUsedAtAddress(
 ## Remarks  
  There may be several namespaces associated with a given debug address, for example, nested namespaces or multiple `using` statements.  
   
-## See Also  
+## See also  
  [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)   
  [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)

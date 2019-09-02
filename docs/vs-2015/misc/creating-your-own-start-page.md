@@ -93,6 +93,6 @@ You can create a custom Start Page either by using the Start Page Project Templa
   
    You can share your custom Start Page by uploading the .vsix file from your bin\debug directory to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site, or to another Web site or intranet share. For more information, see [Deploying Custom Start Pages](../extensibility/deploying-custom-start-pages.md).  
   
-## See Also  
+## See also  
  [Customizing the Start Page](../ide/customizing-the-start-page-for-visual-studio.md)   
  [Walkthrough: Adding Custom XAML to the Start Page](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)

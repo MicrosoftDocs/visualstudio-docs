@@ -43,5 +43,5 @@ bool is_enabled(
   
  **Namespace:** Concurrency::diagnostic  
   
-## See Also  
+## See also  
  [marker_series Class](../profiling/marker-series-class.md)

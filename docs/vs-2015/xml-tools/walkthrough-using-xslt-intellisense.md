@@ -156,5 +156,5 @@ This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete valu
   
      Notice how the list of prefixes appeared in the `stylesheet-prefix` and `result-prefix` attributes of the `xsl:namespace-alias` element.  
   
-## See Also  
+## See also  
  [XML Editor IntelliSense Features](../xml-tools/xml-editor-intellisense-features.md)

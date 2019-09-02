@@ -40,6 +40,6 @@ devenv /command CommandName
 devenv /command "Macros.MyMacros.Module1.OpenFavoriteFiles"  
 ```  
   
-## See Also  
+## See also  
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)

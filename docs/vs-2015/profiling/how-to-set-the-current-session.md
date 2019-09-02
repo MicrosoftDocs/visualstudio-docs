@@ -35,7 +35,7 @@ You can open multiple performance sessions in the **Performance Explorer**, and 
   
      The session name appears in bold.  
   
-## See Also  
+## See also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [Performance Explorer Window](../profiling/performance-explorer-window.md)   
  [Performance Session Properties](../profiling/performance-session-properties.md)   

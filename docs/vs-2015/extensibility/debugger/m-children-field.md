@@ -33,5 +33,5 @@ The list of child tasks that are registered with this task.
   
  If the task is completed, other threads can access this field as long as they do not add anything to it or remove anything from it.  
   
-## See Also  
+## See also  
  [ContingentProperties Class](../../extensibility/debugger/contingentproperties-class-internal-members.md)

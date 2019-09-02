@@ -41,7 +41,7 @@ HRESULT getEnumFrames( 
 ## Remarks  
  To get a stack frame list on any other platform, call the [IDiaStackWalker::getEnumFrames2](../../debugger/debug-interface-access/idiastackwalker-getenumframes2.md) method.  
   
-## See Also  
+## See also  
  [IDiaStackWalker](../../debugger/debug-interface-access/idiastackwalker.md)   
  [IDiaStackWalkHelper](../../debugger/debug-interface-access/idiastackwalkhelper.md)   
  [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)   

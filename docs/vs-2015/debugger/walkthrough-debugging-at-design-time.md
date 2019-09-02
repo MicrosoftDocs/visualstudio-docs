@@ -75,6 +75,6 @@ You can use the Visual Studio **Immediate** window to execute a function or subr
   
 10. On the **Debug** menu, click **Continue**, and verify that you are still in design mode.  
   
-## See Also  
+## See also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugger Basics](../debugger/debugger-basics.md)

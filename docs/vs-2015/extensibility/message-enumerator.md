@@ -63,6 +63,6 @@ enum { 
  SCC_MSG_STOPCANCEL  
  Stops the cancel loop.  
   
-## See Also  
+## See also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
  [LPTEXTOUTPROC](../extensibility/lptextoutproc.md)

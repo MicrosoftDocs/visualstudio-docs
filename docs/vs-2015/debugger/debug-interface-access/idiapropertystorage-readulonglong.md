@@ -41,5 +41,5 @@ HRESULT ReadULONGLONG ( 
 ## Remarks  
  A `ULONGLONG` is defined by Windows as a 64-bit unsigned integer.  
   
-## See Also  
+## See also  
  [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)

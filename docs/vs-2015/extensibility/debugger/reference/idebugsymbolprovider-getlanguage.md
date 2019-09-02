@@ -52,6 +52,6 @@ int GetLanguage(
 ## Remarks  
  The debug engine calls this method to obtain the information it needs to select the correct expression evaluator.  
   
-## See Also  
+## See also  
  [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)   
  [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)

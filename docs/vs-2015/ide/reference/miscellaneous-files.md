@@ -44,6 +44,6 @@ You might want to use the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] editor
 ## Folder Display Options  
  You can set display options for the Miscellaneous Folder so that the folder appears even though you have not opened any Miscellaneous Files. The solution file does not permanently manage a list of miscellaneous files. It uses an optional feature that allows it to remember a per-user most recently used (MRU) list of files.  
   
-## See Also  
+## See also  
  [Solutions and Projects](../../ide/solutions-and-projects-in-visual-studio.md)   
  [Documents, Environment, Options Dialog Box](../../ide/reference/documents-environment-options-dialog-box.md)

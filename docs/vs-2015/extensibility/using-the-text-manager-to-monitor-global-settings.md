@@ -34,6 +34,6 @@ If you implement a core editor, you must monitor the changes that are made to gl
   
   Event notification for the text manager is provided by the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManagerEvents> interface. Implement this interface on your client object to handle events raised the text manager. You register for these events by using the <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer> interface on the text manager.  
   
-## See Also  
+## See also  
  [Inside the Core Editor](../extensibility/inside-the-core-editor.md)   
  [Editor Features](https://msdn.microsoft.com/bdac940d-1f14-4019-a01f-fd0bb3dc7198)

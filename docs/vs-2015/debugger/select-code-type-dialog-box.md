@@ -37,6 +37,6 @@ To open this dialog box, open the **Attach to Process** dialog box, and then cli
  **Debug these code types:**  
  From the list provided, choose the type of code you want to debug.  
   
-## See Also  
+## See also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)

@@ -76,5 +76,5 @@ SCCRTN SccDirDiff(
 > [!NOTE]
 > This function uses the same command flags as the [SccDiff](../extensibility/sccdiff-function.md). However, a source control plug-in may choose to not support the "quick-diff" operation for directories.  
   
-## See Also  
+## See also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

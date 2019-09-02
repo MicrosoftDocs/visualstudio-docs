@@ -39,5 +39,5 @@ The XML Editor checks XML 1.0 syntax and also performs data validation as you ty
 ## XML Schema (XSD) Files  
  When editing an XML Schema file, the xsdschema.xsd file located in the schema cache is used for validation. Validation errors are shown as blue wavy underlines. Any compilation errors are also shown with red wavy underlines.  
   
-## See Also  
+## See also  
  [XML Editor](../xml-tools/xml-editor.md)

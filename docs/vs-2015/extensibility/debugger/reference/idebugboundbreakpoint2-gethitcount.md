@@ -43,6 +43,6 @@ int GetHitCount( 
 ## Remarks  
  The hit count is the number of times this breakpoint has fired during the current run of the session.  
   
-## See Also  
+## See also  
  [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)   
  [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)

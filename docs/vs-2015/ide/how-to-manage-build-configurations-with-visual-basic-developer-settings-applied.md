@@ -41,6 +41,6 @@ By default, all advanced build configuration options are hidden with [!INCLUDE[v
   
      On the **Build** menu, **Configuration Manager** is now available, and the **Configuration** and **Platform** lists are visible in the Project Designer.  
   
-## See Also  
+## See also  
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)

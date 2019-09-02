@@ -47,7 +47,7 @@ IDebugEvent2 : IUnknown
   
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## See Also  
+## See also  
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
  [Event](../../../extensibility/debugger/reference/idebugportevents2-event.md)   
  [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)

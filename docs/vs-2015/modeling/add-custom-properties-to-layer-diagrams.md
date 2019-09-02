@@ -159,5 +159,5 @@ namespace MyNamespace
 }
 ```
 
-## See Also
+## See also
  [Extend layer diagrams](../modeling/extend-layer-diagrams.md)

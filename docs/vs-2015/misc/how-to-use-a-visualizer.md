@@ -52,7 +52,7 @@ You can use a visualizer to display the contents of a variable or object in a wa
   
      `My Documents\Visual Studio 2010\Visualizers` *Visual Studio Version* `\Visualizers`  
   
-## See Also  
+## See also  
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)   
  [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md)   
  [How to: Write a Visualizer](../debugger/how-to-write-a-visualizer.md)   

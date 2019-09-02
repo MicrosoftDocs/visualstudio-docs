@@ -112,7 +112,7 @@ The XML Editor provides full IntelliSense features comparable to other language 
   
 3. Make any changes to the **Auto insert** section and click **OK**.  
   
-## See Also  
+## See also  
  [XML Editor](../xml-tools/xml-editor.md)   
  [Using IntelliSense](../ide/using-intellisense.md)   
  [Walkthrough: Using XSLT IntelliSense](../xml-tools/walkthrough-using-xslt-intellisense.md)

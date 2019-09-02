@@ -34,7 +34,7 @@ Writing a Visualizer involves possible security threats. No known exploit curren
   
  To mitigate this vulnerability, be mindful of the interfaces exposed by your visualizer.  
   
-## See Also  
+## See also  
  [Visualizer Architecture](../debugger/visualizer-architecture.md)   
  [How to: Write a Visualizer](../debugger/how-to-write-a-visualizer.md)   
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)   

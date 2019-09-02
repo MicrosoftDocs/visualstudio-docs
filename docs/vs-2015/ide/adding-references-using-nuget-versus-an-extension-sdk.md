@@ -64,5 +64,5 @@ You can provide a package for consumption within Visual Studio projects by using
 |The mechanism is available for  all Visual Studio editions.|Y|The SDK supports all Visual Studio editions, from Visual Studio Express through [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)].|Y|NuGet supports all Visual Studio editions, Express up through [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)].|  
 |The mechanism is available for  all project types.|N|The SDK supports [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps starting in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)].|N|You can review a list of allowed projects.|  
   
-## See Also  
+## See also  
  [Managing references in a project](../ide/managing-references-in-a-project.md)

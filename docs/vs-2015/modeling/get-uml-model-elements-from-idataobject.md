@@ -74,6 +74,6 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
   
  For more information about `ElementGroupPrototype` and the `Store` in which the UML modeling tools are implemented, see [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md).  
   
-## See Also  
+## See also  
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)   
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)

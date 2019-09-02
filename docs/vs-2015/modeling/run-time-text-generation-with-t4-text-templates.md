@@ -419,7 +419,7 @@ End material for DerivedTemplate1.
   
  Runtime templates can be used in any application where the templates and their content are determined at compile time. But if you want to write a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extension that generates text from templates that change at run time, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md).  
   
-## See Also  
+## See also  
  [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)   
  [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)   
  [Understanding T4: Preprocessed Text Templates by Oleg Sych](https://github.com/olegsych/T4Toolbox)

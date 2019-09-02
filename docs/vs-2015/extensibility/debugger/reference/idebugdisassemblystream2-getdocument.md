@@ -47,6 +47,6 @@ int GetDocument( 
 ## Remarks  
  This method is implemented by debug engines that have text documents that are not stored in an actual file.  
   
-## See Also  
+## See also  
  [IDebugDisassemblyStream2](../../../extensibility/debugger/reference/idebugdisassemblystream2.md)   
  [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)

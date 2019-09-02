@@ -513,7 +513,7 @@ public class CreateLifelinesFromComponentParts : IGestureExtension
   
  The code of `GetModelElementsFromDragEvent()` is described in [Get UML model elements from IDataObject](../modeling/get-uml-model-elements-from-idataobject.md).  
   
-## See Also  
+## See also  
  [Define and install a modeling extension](../modeling/define-and-install-a-modeling-extension.md)   
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   

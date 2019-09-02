@@ -37,7 +37,7 @@ Visual Studio can help keep your software consistent with the users' requirement
 |**Blogs**|-   [Visual Studio ALM + Team Foundation Server Blog](http://go.microsoft.com/fwlink/?LinkID=201340)|  
 |**Technical Articles and Journals**|[MSDN Architecture Center](http://go.microsoft.com/fwlink/?LinkId=201343)|  
   
-## See Also  
+## See also  
  [Testing the application](https://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)   
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   
  [Model user requirements](../modeling/model-user-requirements.md)   

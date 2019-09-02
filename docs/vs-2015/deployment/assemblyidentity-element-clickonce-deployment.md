@@ -63,6 +63,6 @@ Identifies the primary assembly of the [!INCLUDE[ndptecclick](../includes/ndptec
   xmlns="urn:schemas-microsoft-com:asm.v1" />  
 ```  
   
-## See Also  
+## See also  
  [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)   
  [\<assemblyIdentity> Element](../deployment/assemblyidentity-element-clickonce-application.md)

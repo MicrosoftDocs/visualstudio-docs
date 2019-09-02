@@ -94,7 +94,7 @@ To make a ClickOnce application available to users, you must publish it to a fil
    > [!NOTE]
    > After publishing is complete, you will have to use a CD-Rewriter or DVD-Rewriter to copy the files from the location specified in step 3 to the CD-ROM or DVD-ROM media.  
   
-## See Also  
+## See also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [Deploying an Office Solution by Using ClickOnce](https://msdn.microsoft.com/library/feb516b3-5e4d-449a-9fd2-347d08d90252)

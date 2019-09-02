@@ -175,7 +175,7 @@ public class GenericException<T> : Exception
   
  ![adding generic exception](../debugger/media/addgenericexception.png "AddGenericException")  
   
-## See Also  
+## See also  
  [Continuing Execution After an Exception](../debugger/continuing-execution-after-an-exception.md)   
  [How to: Examine System Code After an Exception](../debugger/how-to-examine-system-code-after-an-exception.md)   
  [How to: Use Native Run-Time Checks](../debugger/how-to-use-native-run-time-checks.md)   

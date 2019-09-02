@@ -68,7 +68,7 @@ HRESULT CExpression::EvaluateAsync(EVALFLAGS dwFlags,
 }  
 ```  
   
-## See Also  
+## See also  
  [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)   
  [IDebugExpressionEvaluationCompleteEvent2](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md)   
  [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md)   

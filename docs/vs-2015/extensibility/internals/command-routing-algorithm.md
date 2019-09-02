@@ -38,5 +38,5 @@ In Visual Studio commands are handled by a number of different components. Comma
   
 8. Global: If a command has not been handled by the previously mentioned contexts, Visual Studio attempts to route it to the VSPackage that owns a command that implements the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface. If the VSPackage has not been loaded already, it is not loaded when Visual Studio calls the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> method. The VSPackage is loaded only when the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> method is called.  
   
-## See Also  
+## See also  
  [Command Design](../../extensibility/internals/command-design.md)

@@ -42,5 +42,5 @@ int IsNullReference(
 ## Remarks  
  A null reference means an empty object or an object that has not been assigned to.  
   
-## See Also  
+## See also  
  [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

@@ -42,5 +42,5 @@ int GetProcessId(
 ## Remarks  
  The Globally Unique IDentifier (GUID) identifies this process from all other processes running in the system.  
   
-## See Also  
+## See also  
  [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)

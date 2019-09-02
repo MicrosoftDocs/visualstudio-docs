@@ -77,5 +77,5 @@ HRESULT CPendingBreakpoint::Delete(void)
 }    
 ```  
   
-## See Also  
+## See also  
  [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)

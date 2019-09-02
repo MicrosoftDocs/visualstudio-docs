@@ -153,6 +153,6 @@ manager: jillfra
 |<xref:Microsoft.VisualStudio.Shell.Interop.SVsWindowFrame>|<xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame>|Yes|Yes|Enables a VSPackage to obtain the window frame in which the package or part of the package might be situated.|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.SVsXMLMemberIndexService>|<xref:Microsoft.VisualStudio.Shell.Interop.IVsXMLMemberIndexService>|Yes|Yes|Provides access to XML-formatted documentation files associated with a particular metadata file.|  
   
-## See Also  
+## See also  
  [COM and Managed Services](/java/api/overview/partnercenter/managedservices?view=partnercenter-1.8.1)   
  [Using and Providing Services](../../extensibility/using-and-providing-services.md)

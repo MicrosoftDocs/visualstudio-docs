@@ -31,5 +31,5 @@ HRESULT RestrictOriginalPathAccess ();
 ## Remarks  
  Any return code other than `S_OK` prevents looking for a .pdb file in the original debug directory. The original debug directory is the path to the symbol file compiled into the executable when debugging is turned on. This path is not necessarily the same as the path where the executable exists.  
   
-## See Also  
+## See also  
  [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)

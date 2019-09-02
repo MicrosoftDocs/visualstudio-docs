@@ -71,7 +71,7 @@ Visual Studio commands allow you to invoke a command from the **Command** window
 |[Toggle Breakpoint](../../ide/reference/toggle-breakpoint-command.md)|Turns the breakpoint either on or off, depending on its current state, at the current location in the file.|
 |[Watch Command](../../ide/reference/watch-command.md)|Creates and opens a specified instance of a **Watch** window.|
 
-## See Also
+## See also
  [Command Window](../../ide/reference/command-window.md)
  [Find/Command Box](../../ide/find-command-box.md)
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)

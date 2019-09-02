@@ -26,5 +26,5 @@ This topic describes how use the **Browse and Select a .NET Type** dialog box in
 |**Type Name:**|The name of the currently selected type.|  
 |**Type**|Left pane displays a tree view of the Referenced Assemblies. Right pane displays the types available for the selection from the Referenced Assembly selected in the left pane.|  
   
-## See Also  
+## See also  
  [Using the Legacy Activity Designer](../workflow-designer/using-the-legacy-activity-designer.md)

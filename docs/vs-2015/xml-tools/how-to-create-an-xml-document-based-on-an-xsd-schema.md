@@ -70,5 +70,5 @@ The **Generate Sample XML** feature generates a sample XML file based on your XM
     </PurchaseOrder>  
     ```  
   
-## See Also  
+## See also  
  [Working with XML Data](../xml-tools/working-with-xml-data.md)

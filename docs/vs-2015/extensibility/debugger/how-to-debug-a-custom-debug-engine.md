@@ -69,5 +69,5 @@ A project type launches the debug engine (DE) from the <xref:Microsoft.VisualStu
   
 9. If you choose to debug the process of launching a DE, you can perform the steps in the "Debugging a Custom Debug Engine" procedure to attach to your DE after it is launched. This will give you three instances of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] running: one for your project type source, a second for your instantiated project type, and a third attached to your DE.  
   
-## See Also  
+## See also  
  [Creating a Custom Debug Engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)

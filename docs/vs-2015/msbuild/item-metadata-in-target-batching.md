@@ -62,7 +62,7 @@ manager: jillfra
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [How to: Build Incrementally](../msbuild/how-to-build-incrementally.md)   
  [Batching](../msbuild/msbuild-batching.md)   
  [Target Element (MSBuild)](../msbuild/target-element-msbuild.md)   

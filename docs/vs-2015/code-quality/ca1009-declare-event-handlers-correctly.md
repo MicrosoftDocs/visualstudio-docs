@@ -50,7 +50,7 @@ manager: "wpickett"
 ## Related Rules
  [CA2109: Review visible event handlers](../code-quality/ca2109-review-visible-event-handlers.md)
 
-## See Also
+## See also
  <xref:System.EventArgs?displayProperty=fullName>
  <xref:System.Object?displayProperty=fullName>
  [NIB: Events and Delegates](https://msdn.microsoft.com/d98fd58b-fa4f-4598-8378-addf4355a115)

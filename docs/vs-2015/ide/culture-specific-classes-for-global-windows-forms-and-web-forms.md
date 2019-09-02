@@ -64,7 +64,7 @@ Console.WriteLine(myInt.ToString("C", Thread.CurrentThread.CurrentCulture));
   
  `$100.00`  
   
-## See Also  
+## See also  
  <xref:System.IFormattable.ToString%2A?displayProperty=fullName>   
  <xref:System.Globalization.DateTimeFormatInfo>   
  <xref:System.Globalization.NumberFormatInfo>   

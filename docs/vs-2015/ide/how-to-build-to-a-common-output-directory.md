@@ -29,6 +29,6 @@ By default, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] builds each project in 
   
 4. Repeat steps 1-3 for all projects in the solution.  
   
-## See Also  
+## See also  
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
  [How to: Change the Build Output Directory](../ide/how-to-change-the-build-output-directory.md)

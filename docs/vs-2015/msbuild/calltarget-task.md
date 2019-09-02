@@ -58,6 +58,6 @@ Invokes the specified targets within the project file.
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Targets](../msbuild/msbuild-targets.md)

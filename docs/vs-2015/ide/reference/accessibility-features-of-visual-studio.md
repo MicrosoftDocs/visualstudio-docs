@@ -43,5 +43,5 @@ In addition to accessibility features and utilities in Windows, the following fe
 
 - [How to: Change Fonts and Colors](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
 
-## See Also
+## See also
  [Accessibility Products and Services from Microsoft](../../ide/reference/accessibility-products-and-services-from-microsoft.md)

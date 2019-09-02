@@ -80,7 +80,7 @@ You can use Visual Studio to create applications that correctly display text in 
   
 - Code comments. You can create comments in Arabic or Hebrew. You can also use these languages in the comment builder tool.  
   
-## See Also  
+## See also  
  [Bi-Directional Support for Windows Forms Applications](https://msdn.microsoft.com/library/7b622fa4-f390-4e4d-b624-83a1917cccf2)   
  [Bidirectional Support for ASP.NET Web Applications](https://msdn.microsoft.com/library/5576f9b1-9b86-41ef-8354-092d366bcd03)   
  [Globalizing Applications](../ide/globalizing-applications.md)   

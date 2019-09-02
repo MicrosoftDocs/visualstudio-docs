@@ -37,5 +37,5 @@ The following describes the process that occurs when a breakpoint is encountered
   
     - [IDebugStackFrame2::GetCodeContext](../../extensibility/debugger/reference/idebugstackframe2-getcodecontext.md) to get memory information  
   
-## See Also  
+## See also  
  [Calling Debugger Events](../../extensibility/debugger/calling-debugger-events.md)

@@ -17,5 +17,5 @@ A default template is used during XSLT processing when there is no matching expl
   
  The XSLT debugger now displays the code of XSLT default templates. When you step through an XSLT transformation, if a default template is used, the debugger displays the default template in a window. This enables you to step through the code of the default template and set breakpoints on its instructions.  
   
-## See Also  
+## See also  
  [Debugging XSLT](../xml-tools/debugging-xslt.md)

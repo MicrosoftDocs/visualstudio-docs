@@ -69,7 +69,7 @@ The **Publish** page of the **Project Designer** is used to configure properties
  **Publish Now**  
  Publishes the application using the current settings. Equivalent to the **Finish** button in the **PublishWizard**.  
   
-## See Also  
+## See also  
  [Publishing ClickOnce Applications](../../deployment/publishing-clickonce-applications.md)   
  [How to: Publish a ClickOnce Application using the Publish Wizard](../../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)   
  [How to: Specify Where Visual Studio Copies the Files](../../deployment/how-to-specify-where-visual-studio-copies-the-files.md)   

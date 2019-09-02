@@ -60,7 +60,7 @@ Class diagrams help you understand the class structure of projects others have w
   
  Describes how to remove shapes from class diagrams.  
   
-## See Also  
+## See also  
  [Viewing Types and Relationships (Class Designer)](../ide/viewing-types-and-relationships-class-designer.md)   
  [How to: Customize Class Diagrams (Class Designer)](../ide/how-to-customize-class-diagrams-class-designer.md)   
  [How to: Remove Type Shapes from Class Diagrams (Class Designer)](https://msdn.microsoft.com/ae41897d-d066-4b8c-bb9b-05436e12ff39)

@@ -86,7 +86,7 @@ The **Properties** window in the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]
   
  The `MyConfigProp` configuration property appears on the configuration property page as **My Config Property** in the category, **My Category**. If the option is selected, the description, **My Description**, appears in the description panel.  
   
-## See Also  
+## See also  
  [Not in Build: Walkthrough: Exposing Project and Configuration Properties (C#)](https://msdn.microsoft.com/d850d63b-25e2-4505-9f3d-eb038d7c1d0e)   
  [Adding and Removing Property Pages](../../extensibility/adding-and-removing-property-pages.md)   
  [VSPackage State](../../misc/vspackage-state.md)   

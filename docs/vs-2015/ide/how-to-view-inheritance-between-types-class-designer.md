@@ -41,6 +41,6 @@ You can find the inheritance relationship, if it exists, between a base type and
   
    You can also right-click the type for which you want to see its derived types, and choose **Show Derived Classes** or **Show Derived Interfaces**.  
   
-## See Also  
+## See also  
  [How to: Create Associations Between Types (Class Designer)](../ide/how-to-create-associations-between-types-class-designer.md)   
  [Viewing Types and Relationships (Class Designer)](../ide/viewing-types-and-relationships-class-designer.md)

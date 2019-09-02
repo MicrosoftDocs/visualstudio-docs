@@ -37,5 +37,5 @@ HRESULT get_nopad(
 ## Remarks  
  This is a property typically seen only on older files.  
   
-## See Also  
+## See also  
  [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)

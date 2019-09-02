@@ -39,6 +39,6 @@ You can extend Visual Studio with a UML profile. A profile lets you add stereoty
   
 2. Click the extension that you want to remove, and then click **Disable** or **Uninstall**.  
   
-## See Also  
+## See also  
  [Customize your model with profiles and stereotypes](../modeling/customize-your-model-with-profiles-and-stereotypes.md)   
  [Define a profile to extend UML](../modeling/define-a-profile-to-extend-uml.md)

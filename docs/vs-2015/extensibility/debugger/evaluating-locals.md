@@ -185,7 +185,7 @@ HRESULT FieldGetPrimitiveValue(
 }  
 ```  
   
-## See Also  
+## See also  
  [Sample Implementation of Locals](../../extensibility/debugger/sample-implementation-of-locals.md)   
  [Getting Local Values](../../extensibility/debugger/getting-local-values.md)   
  [Evaluation Context](../../extensibility/debugger/evaluation-context.md)

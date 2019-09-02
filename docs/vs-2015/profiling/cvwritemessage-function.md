@@ -115,5 +115,5 @@ HRESULT CvWriteMessageExVA(
   
  **ANSI:** CvWriteMessageA, CvWriteMessageVA, CvWriteMessageExA, CvWriteMessageExVA  
   
-## See Also  
+## See also  
  [C++ Library Reference](../profiling/cpp-library-reference.md)

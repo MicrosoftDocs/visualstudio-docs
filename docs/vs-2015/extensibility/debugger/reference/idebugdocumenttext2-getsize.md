@@ -49,5 +49,5 @@ int GetSize( 
   
  [C# only] Both parameters must be specified.  
   
-## See Also  
+## See also  
  [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)

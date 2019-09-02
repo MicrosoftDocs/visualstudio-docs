@@ -39,7 +39,7 @@ The **XML Schemas** dialog box is used to select which XML schema definition lan
   **Remove**  
   Removes the currently selected schema from the schema set. This removes the schema from the in-memory schema cache, but not from the file system.  
   
-## See Also  
+## See also  
  [XML Editor Components](../xml-tools/xml-editor-components.md)   
  [How to: Select the XML Schemas to Use](../xml-tools/how-to-select-the-xml-schemas-to-use.md)   
  [Schema Cache](../xml-tools/schema-cache.md)

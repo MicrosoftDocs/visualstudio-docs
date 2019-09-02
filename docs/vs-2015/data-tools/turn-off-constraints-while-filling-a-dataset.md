@@ -47,6 +47,6 @@ If a dataset contains constraints (such as foreign-key constraints),theycan rais
   
 2. In the **Properties** window, set the <xref:System.Data.DataSet.EnforceConstraints%2A> property to `false`.  
   
-## See Also  
+## See also  
  [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)   
  [Relationships in datasets](../data-tools/relationships-in-datasets.md)

@@ -56,7 +56,7 @@ if (FAILED(hr))
 }  
 ```  
   
-## See Also  
+## See also  
  [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)   
  [Overview](../../debugger/debug-interface-access/overview-debug-interface-access-sdk.md)   
  [IDiaSession](../../debugger/debug-interface-access/idiasession.md)   

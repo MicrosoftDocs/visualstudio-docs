@@ -28,7 +28,7 @@ The sample `IExcelUICommunication` interface is used in the `ExcelUICommunicator
   
  The `CodedUIExtensibilitySample` assembly runs in the Visual Studio Coded UI Test process. This assembly has the `Communicator` class that opens a .NET Remoting channel, and provides an `Instance` property that uses the `IExcelUICommunication` interface to use the `UICommunicator` object in the `ExcelCodedUIAddinHelper` assembly to pass requests and information objects, such as a `CellInformation` object, back and forth between the two assemblies.  
   
-## See Also  
+## See also  
  [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)   
  [Sample Excel Add-In for Coded UI Testing](../test/sample-excel-add-in-for-coded-ui-testing.md)   
  [Sample Coded UI Test Extension for Excel](../test/sample-coded-ui-test-extension-for-excel.md)

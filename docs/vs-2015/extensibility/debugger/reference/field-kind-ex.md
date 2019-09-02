@@ -54,6 +54,6 @@ public enum enum_FIELD_KIND_EX
   
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## See Also  
+## See also  
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [GetExtendedKind](../../../extensibility/debugger/reference/idebugextendedfield-getextendedkind.md)

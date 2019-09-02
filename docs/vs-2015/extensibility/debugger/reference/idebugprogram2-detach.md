@@ -36,5 +36,5 @@ int Detach();
 ## Remarks  
  A detached program continues running, but it is no longer part of the debug session. No more program debug events are sent once the debug engine is detached.  
   
-## See Also  
+## See also  
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

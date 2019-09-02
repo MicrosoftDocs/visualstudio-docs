@@ -70,5 +70,5 @@ Defines one menu item. These are the six kinds of menus: Context, Menu, MenuCont
 </Menu>  
 ```  
   
-## See Also  
+## See also  
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

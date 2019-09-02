@@ -175,7 +175,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
   
  For regular builds in Visual Studio, the fast update check doesn't apply, and the project will build as if you invoked the build at a command prompt.  
   
-## See Also  
+## See also  
  [How to: Extend the Visual Studio Build Process](../msbuild/how-to-extend-the-visual-studio-build-process.md)   
  [Starting a Build from within the IDE](../msbuild/starting-a-build-from-within-the-ide.md)   
  [Registering Extensions of the .NET Framework](../msbuild/registering-extensions-of-the-dotnet-framework.md)   

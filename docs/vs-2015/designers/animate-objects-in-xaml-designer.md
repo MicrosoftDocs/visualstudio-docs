@@ -34,5 +34,5 @@ You can create short animations that move objects, or fade them in and out.
 |![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Animate the button](http://www.popscreen.com/v/6A4fK/Microsoft-Expression-Blend-Animating-a-Button)|Create interesting effects that appear on a button when the user points to it.|  
 |![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Create animation and work with easing](https://www.youtube.com/watch?v=mAJXYrwxGYo)|Animate effects that appear when a user presses down a button on the image of a calculator.|  
   
-## See Also  
+## See also  
  [Creating a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)

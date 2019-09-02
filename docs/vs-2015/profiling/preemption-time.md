@@ -27,5 +27,5 @@ These segments in the timeline are associated with the blocking time that is cat
   
   The tooltip for a preempted segment displays the name of the process or thread that caused the preemption. However, this does not imply that the process or thread that took over actually ran throughout the preempted period.  
   
-## See Also  
+## See also  
  [Threads View](../profiling/threads-view-parallel-performance.md)

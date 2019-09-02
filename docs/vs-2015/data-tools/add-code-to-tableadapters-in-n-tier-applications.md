@@ -64,7 +64,7 @@ You can extend the functionality of a `TableAdapter` by creating a partial class
     }  
     ```  
   
-## See Also  
+## See also  
  [N-Tier Data Applications Overview](../data-tools/n-tier-data-applications-overview.md)   
  [Add code to datasets in n-tier applications](../data-tools/add-code-to-datasets-in-n-tier-applications.md)   
  [TableAdapters](https://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364)   

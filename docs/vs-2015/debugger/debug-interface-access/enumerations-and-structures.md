@@ -78,5 +78,5 @@ These are the enumerations and structures used by the DIA SDK.
  [Constants (Debug Interface Access SDK)](../../debugger/debug-interface-access/constants-debug-interface-access-sdk.md)  
  Specifies the constants that are available in the DIA SDK.  
   
-## See Also  
+## See also  
  [Reference](../../debugger/debug-interface-access/debug-interface-access-sdk-reference.md)

@@ -53,7 +53,7 @@ File.OpenFile filename [/e:editorname]
 >File.OpenFile "C:\My Projects\project1\Test1.css" /e:"Source Code (text) Editor"  
 ```  
   
-## See Also  
+## See also  
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)   
  [Command Window](../../ide/reference/command-window.md)   
  [Immediate Window](../../ide/reference/immediate-window.md)   

@@ -39,7 +39,7 @@ When setting code access security permissions for a ClickOnce application, you n
   
 5. In the **Zone your application will be installed from** drop-down list, select a security zone.  
   
-## See Also  
+## See also  
  [How to: Set Custom Permissions for a ClickOnce Application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [Code Access Security for ClickOnce Applications](../deployment/code-access-security-for-clickonce-applications.md)   

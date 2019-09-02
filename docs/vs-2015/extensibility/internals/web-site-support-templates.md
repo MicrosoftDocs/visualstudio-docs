@@ -180,5 +180,5 @@ manager: jillfra
   
      The template file that determines the contents of the new master page and its dependent file, if any.  
   
-## See Also  
+## See also  
  [Web Site Support](../../extensibility/internals/web-site-support.md)

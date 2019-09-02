@@ -69,7 +69,7 @@ enum SCCCOMMAND {
  SCC_COMMAND_OPTIONS  
  Corresponds to the [SccSetOption](../extensibility/sccsetoption-function.md).  
   
-## See Also  
+## See also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
  [SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md)   
  [SccPopulateList](../extensibility/sccpopulatelist-function.md)

@@ -36,7 +36,7 @@ The **CorrelationScope** activity designer is used to create and configure a <xr
 |<xref:System.ServiceModel.Activities.CorrelationScope.CorrelatesWith%2A>|False|Specifies the <xref:System.ServiceModel.Activities.CorrelationHandle> used to manage child messaging activities. If you do not set this property, <xref:System.ServiceModel.Activities.CorrelationScope> creates an implicit <xref:System.ServiceModel.Activities.CorrelationHandle> automatically.|  
 |<xref:System.ServiceModel.Activities.CorrelationScope.Body%2A>|False|Specifies the activities within the scope of the correlation.|  
   
-## See Also  
+## See also  
  [InitializeCorrelation](../workflow-designer/initializecorrelation-activity-designer.md)   
  [Receive](../workflow-designer/receive-activity-designer.md)   
  [ReceiveAndSendReply](../workflow-designer/receiveandsendreply-template-designer.md)   

@@ -54,5 +54,5 @@ manager: jillfra
   
  [Unicode](https://msdn.microsoft.com/library/1002004b-4113-4380-bf63-e1570934b793)  
   
-## See Also  
+## See also  
  [Solutions and Projects](../../ide/solutions-and-projects-in-visual-studio.md)

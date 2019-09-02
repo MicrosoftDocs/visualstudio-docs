@@ -92,6 +92,6 @@ Specifies an optional expression to match one or more capabilities. (see <xref:M
   
 ```  
   
-## See Also  
+## See also  
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)

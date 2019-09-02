@@ -46,6 +46,6 @@ Follow these steps to create a Sequential Workflow Console Application project u
   
 9. Drag an activity from the **Toolbox** to the design surface in the **Drop activity** designated area.  
   
-## See Also  
+## See also  
  [Creating Legacy Workflow Projects](../workflow-designer/creating-legacy-workflow-projects.md)   
  [Developing Workflows](https://msdn.microsoft.com/557bcb1f-a7ab-49f6-8df7-2706b7001301)

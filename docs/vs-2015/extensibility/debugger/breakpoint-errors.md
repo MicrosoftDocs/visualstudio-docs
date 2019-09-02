@@ -28,5 +28,5 @@ The following describes the process when a breakpoint attempts to bind to code b
   
 4. The SDM calls [IDebugErrorBreakpoint2::GetBreakpointResolution](../../extensibility/debugger/reference/idebugerrorbreakpoint2-getbreakpointresolution.md) to get the reason why the error breakpoint failed to bind.  
   
-## See Also  
+## See also  
  [Calling Debugger Events](../../extensibility/debugger/calling-debugger-events.md)

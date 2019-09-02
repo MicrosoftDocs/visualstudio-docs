@@ -38,5 +38,5 @@ manager: "wpickett"
 ## When to Suppress Warnings
  It is safe to suppress a warning message when you are not making security decision based on the result (for example, when you are displaying it in the UI).
 
-## See Also
+## See also
  [Globalization Warnings](../code-quality/globalization-warnings.md)

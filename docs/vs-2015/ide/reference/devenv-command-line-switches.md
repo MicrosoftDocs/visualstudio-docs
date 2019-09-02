@@ -95,5 +95,5 @@ Devenv lets you set various options for the integrated development environment (
 |[/Updateconfiguration (devenv.exe)](../../ide/reference/updateconfiguration-devenv-exe.md)|Notifies [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] to merge the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] packages on the system and check the MEF cache for any changes.|  
 |[/Upgrade (devenv.exe)](../../ide/reference/upgrade-devenv-exe.md)|Upgrades the specified solution file and all its project files, or the specified project file, to the current [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] formats for these files.|  
   
-## See Also  
+## See also  
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)

@@ -49,6 +49,6 @@ HRESULT get_checksum ( 
   
  Typical checksums are never more than 32 bytes in size but do not assume that is the maximum size of a checksum. Set the `data` parameter to `NULL` to get the number of bytes required to retrieve the checksum. Then allocate a buffer of the appropriate size and call this method once more with the new buffer.  
   
-## See Also  
+## See also  
  [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)   
  [IDiaSourceFile::get_checksumType](../../debugger/debug-interface-access/idiasourcefile-get-checksumtype.md)

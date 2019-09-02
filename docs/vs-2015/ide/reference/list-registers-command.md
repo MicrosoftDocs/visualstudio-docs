@@ -58,7 +58,7 @@ Debug.ListRegisters [/Display [{register|registerGroup}...]] [/List]
 r /Display Flags  
 ```  
   
-## See Also  
+## See also  
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)   
  [Debugging Basics: Registers Window](../../debugger/debugging-basics-registers-window.md)   
  [How to: Use the Registers Window](../../debugger/how-to-use-the-registers-window.md)

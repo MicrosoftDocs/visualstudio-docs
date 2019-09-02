@@ -81,5 +81,5 @@ manager: jillfra
   
 8. Click **OK**.  
   
-## See Also  
+## See also  
  [Debugging WPF](../debugger/debugging-wpf.md)

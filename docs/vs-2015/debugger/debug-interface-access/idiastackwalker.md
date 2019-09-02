@@ -63,6 +63,6 @@ if (FAILED(hr))
   
  DLL: msdia80.dll  
   
-## See Also  
+## See also  
  [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)   
  [IDiaStackWalkHelper](../../debugger/debug-interface-access/idiastackwalkhelper.md)

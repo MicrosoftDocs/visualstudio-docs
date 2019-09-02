@@ -32,6 +32,6 @@ The **TerminateWorkflow** activity designer is used to create and configure a <x
 |<xref:System.Activities.Statements.TerminateWorkflow.Exception%2A>|False|The exception to throw when the workflow is terminated. Set this property in the property grid.|  
 |<xref:System.Activities.Statements.TerminateWorkflow.Reason%2A>|False|The reason that explains why the workflow was terminated. Set this property in the property grid.|  
   
-## See Also  
+## See also  
  [Runtime](../workflow-designer/runtime-activity-designers.md)   
  [Persist](../workflow-designer/persist-activity-designer.md)

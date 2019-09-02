@@ -189,5 +189,5 @@ This walkthrough provides step-by-step instructions for passing data from one fo
   
 - Adding functionality to save data back to the database. For more information, see [Save data back to the database](../data-tools/save-data-back-to-the-database.md).  
   
-## See Also  
+## See also  
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

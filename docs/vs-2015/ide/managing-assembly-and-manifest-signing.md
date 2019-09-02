@@ -61,6 +61,6 @@ Strong-name signing gives a software component a globally unique identity. Stron
   
  For information about signing manifests, see [How to: Sign Application and Deployment Manifests](../ide/how-to-sign-application-and-deployment-manifests.md).  
   
-## See Also  
+## See also  
  [Strong-Named Assemblies](https://msdn.microsoft.com/library/d4a80263-f3e0-4d81-9b61-f0cbeae3797b)   
  [Strong Name Assemblies (Assembly Signing) (C++/CLI)](https://msdn.microsoft.com/library/c337cd3f-e5dd-4c6f-a1ad-437e85dba1cc)

@@ -43,6 +43,6 @@ The Visual Studio Profiling Tools use symbol (.pdb) files to resolve symbolic na
   
      You can also click the ellipsis button (**...**) and then select a directory from the **Browse for Folder** dialog box.  
   
-## See Also  
+## See also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [How to: Serialize Symbol Information](../profiling/how-to-serialize-symbol-information.md)

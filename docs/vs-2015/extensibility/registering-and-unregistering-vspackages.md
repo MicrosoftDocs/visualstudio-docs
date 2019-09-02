@@ -44,5 +44,5 @@ public sealed class BasicPackage : Package
 <location of Visual Studio 2015 install>\"Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin\regpkg” /unregister <pathToVSPackage assembly>  
 ```  
   
-## See Also  
+## See also  
  [VSPackages](../extensibility/internals/vspackages.md)

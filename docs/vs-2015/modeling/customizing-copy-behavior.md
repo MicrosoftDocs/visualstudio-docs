@@ -557,7 +557,7 @@ namespace Company.MyDsl
   
 ```  
   
-## See Also  
+## See also  
  [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md)   
  [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)   
  [Customizing Deletion Behavior](../modeling/customizing-deletion-behavior.md)   

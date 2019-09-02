@@ -42,6 +42,6 @@ int SetHostingProcessLanguage(
 ## Remarks  
  [GetHostingProcessLanguage](../../../extensibility/debugger/reference/idebugprocess3-gethostingprocesslanguage.md) can be used to retrieve the current language setting.  
   
-## See Also  
+## See also  
  [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)   
  [GetHostingProcessLanguage](../../../extensibility/debugger/reference/idebugprocess3-gethostingprocesslanguage.md)

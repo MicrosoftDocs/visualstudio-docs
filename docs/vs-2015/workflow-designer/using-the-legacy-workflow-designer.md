@@ -47,5 +47,5 @@ The legacy [!INCLUDE[wfd2](../includes/wfd2-md.md)] provided by [!INCLUDE[vs2010
   
  [Legacy Designer for Windows Workflow Foundation UI Help](../workflow-designer/legacy-designer-for-windows-workflow-foundation-ui-help.md)  
   
-## See Also  
+## See also  
  [Developing Workflows](http://go.microsoft.com/fwlink?LinkID=65010)

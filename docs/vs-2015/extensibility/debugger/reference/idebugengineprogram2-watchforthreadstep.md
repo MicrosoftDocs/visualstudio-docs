@@ -59,6 +59,6 @@ int WatchForThreadStep( 
   
  This method is applicable only to same-thread stepping.  
   
-## See Also  
+## See also  
  [IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md)   
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

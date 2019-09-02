@@ -42,5 +42,5 @@ int GetName ( 
 ## Remarks  
  The name of a stack frame is typically the name of the method being executed.  
   
-## See Also  
+## See also  
  [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)

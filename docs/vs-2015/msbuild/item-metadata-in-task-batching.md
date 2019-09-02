@@ -214,7 +214,7 @@ Identity: "Item6" -- Items in ExampColl: Item6
 Items in ExampColl: Item2;Item5  
 ```  
   
-## See Also  
+## See also  
  [Well-known Item Metadata](../msbuild/msbuild-well-known-item-metadata.md)   
  [Item Element (MSBuild)](../msbuild/item-element-msbuild.md)   
  [ItemMetadata Element (MSBuild)](../msbuild/itemmetadata-element-msbuild.md)   

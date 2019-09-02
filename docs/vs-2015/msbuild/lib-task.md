@@ -64,5 +64,5 @@ Wraps the Microsoft 32-Bit Library Manager tool, lib.exe. The Library Manager cr
 
 ## Remarks  
 
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)

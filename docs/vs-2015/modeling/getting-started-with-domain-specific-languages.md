@@ -392,7 +392,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
 2. Rebuild any experimental DSLs or other experimental [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extensions that you still want to use.  
   
-## See Also  
+## See also  
  [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)   
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
  [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)

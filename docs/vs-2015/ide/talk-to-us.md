@@ -47,5 +47,5 @@ We're interested in your ideas for improving our documentation. We can’t respo
 ## I want to get involved in the developer community  
  If you want to share your questions and answers with other developers, you can use the [MSDN Forums](http://social.msdn.microsoft.com/Forums/home) or [StackOverflow](http://stackoverflow.com/). You can view code from other developers and share your own examples on the [Developer code samples](http://code.msdn.microsoft.com/) and [CodePlex](http://www.codeplex.com/) websites.  
   
-## See Also  
+## See also  
  [How to Report a Problem with Visual Studio 2015](../ide/how-to-report-a-problem-with-visual-studio-2015.md)

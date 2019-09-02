@@ -358,7 +358,7 @@ You can define a *UML profile* to customize the standard model elements for spec
   
 6. Restart [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
-## See Also  
+## See also  
  [Add stereotypes to UML model elements](../modeling/add-stereotypes-to-uml-model-elements.md)   
  [Customize your model with profiles and stereotypes](../modeling/customize-your-model-with-profiles-and-stereotypes.md)   
  [Standard stereotypes for UML models](../modeling/standard-stereotypes-for-uml-models.md)   

@@ -62,6 +62,6 @@ The UML API of Visual Studio lets you write code to create, read, and update UML
 |System.ComponentModel.Composition|<xref:System.ComponentModel.Composition>|[Export and Import for MEF components](../modeling/define-and-install-a-modeling-extension.md)|
 |System.Linq|<xref:System.Linq>|[Easy manipulation of collections, especially when dealing with relationships](../modeling/navigate-relationships-with-the-uml-api.md).|
 
-## See Also
+## See also
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)
  [API Reference for UML Modeling Extensibility](../modeling/api-reference-for-uml-modeling-extensibility.md)

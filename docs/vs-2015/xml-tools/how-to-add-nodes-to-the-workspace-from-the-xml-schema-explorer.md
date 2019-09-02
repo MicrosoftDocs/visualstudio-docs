@@ -54,5 +54,5 @@ This topic explains how to add nodes to the [XML Schema Designer workspace](../x
   
      The `purchaseOrder` node and the `PurchaseOrderType` node appear next to each other on the design surface of the [Graph View](../xml-tools/graph-view.md). Because the two nodes are related (the `purchaseOrder` element is of the `PurchaseOrderType` type), an arrow is drawn between them.  
   
-## See Also  
+## See also  
  [XML Schema Explorer](../xml-tools/xml-schema-explorer.md)

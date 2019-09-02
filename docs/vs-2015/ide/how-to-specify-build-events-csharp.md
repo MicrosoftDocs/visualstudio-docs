@@ -177,7 +177,7 @@ Use build events to specify commands that run before the build starts or after t
     <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />  
     ```  
   
-## See Also  
+## See also  
  [Build Events Page, Project Designer (C#)](../ide/reference/build-events-page-project-designer-csharp.md)   
  [Pre-build Event/Post-build Event Command Line Dialog Box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)   
  [How to: Specify Build Events (Visual Basic)](../ide/how-to-specify-build-events-visual-basic.md)   

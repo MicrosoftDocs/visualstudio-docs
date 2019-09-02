@@ -34,6 +34,6 @@ HRESULT get_Count ( 
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDiaEnumSegments](../../debugger/debug-interface-access/idiaenumsegments.md)   
  [IDiaEnumSegments::Item](../../debugger/debug-interface-access/idiaenumsegments-item.md)

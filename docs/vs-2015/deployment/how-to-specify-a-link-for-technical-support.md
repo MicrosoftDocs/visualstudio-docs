@@ -41,6 +41,6 @@ When publishing a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applica
   
 5. In the **Support URL** field, enter a fully qualified path to a Web site, Web page, or UNC share.  
   
-## See Also  
+## See also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

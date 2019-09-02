@@ -26,7 +26,7 @@ If your main assembly uses strong naming, satellite assemblies must be signed wi
   
  In general, you may need to have your organization's signing group or an external signing organization sign with the private key. This is due to the sensitive nature of the private key: access is often restricted to a few individuals. You can use delayed signing during development. For more information, see [Delay Signing an Assembly](https://msdn.microsoft.com/library/9d300e17-5bf1-4360-97da-2aa55efd9070).  
   
-## See Also  
+## See also  
  [Assembly Security Considerations](https://msdn.microsoft.com/library/1b5439c1-f3d5-4529-bd69-01814703d067)   
  [Key Security Concepts](https://msdn.microsoft.com/library/3cfced4f-ea02-4e66-ae98-d69286363e98)   
  [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)   

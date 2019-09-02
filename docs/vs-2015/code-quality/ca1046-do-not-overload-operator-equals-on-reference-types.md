@@ -57,6 +57,6 @@ manager: "wpickett"
 ## Related Rules
  [CA1013: Overload operator equals on overloading add and subtract](../code-quality/ca1013-overload-operator-equals-on-overloading-add-and-subtract.md)
 
-## See Also
+## See also
  <xref:System.Object.Equals%2A?displayProperty=fullName>
  [Equality Operators](https://msdn.microsoft.com/library/bc496a91-fefb-4ce0-ab4c-61f09964119a)

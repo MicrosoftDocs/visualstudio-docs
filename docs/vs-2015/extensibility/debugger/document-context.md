@@ -22,7 +22,7 @@ In [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugging, a **document conte
   
 - Is implemented by an [IDebugDocumentContext2](../../extensibility/debugger/reference/idebugdocumentcontext2.md) interface.  
   
-## See Also  
+## See also  
  [Code Context](../../extensibility/debugger/code-context.md)   
  [Symbol Provider](../../extensibility/debugger/symbol-provider.md)   
  [Symbol Provider Interfaces](../../extensibility/debugger/reference/symbol-provider-interfaces.md)   

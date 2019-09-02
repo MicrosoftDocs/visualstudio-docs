@@ -43,6 +43,6 @@ Specifies the most recently used (MRU) paths in the **New Project** and **Add Ne
 ## Remarks  
  This element should only be used for templates produced through the [!INCLUDE[vsipprvsip](../includes/vsipprvsip-md.md)].  
   
-## See Also  
+## See also  
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)

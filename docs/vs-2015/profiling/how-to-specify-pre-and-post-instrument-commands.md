@@ -83,5 +83,5 @@ You can specify commands that run before or after the binaries in a performance 
   
      To disable the command from running without removing it, select the **Exclude from instrumentation** check box. To modify compiler or linker settings, use the project property pages.  
   
-## See Also  
+## See also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)

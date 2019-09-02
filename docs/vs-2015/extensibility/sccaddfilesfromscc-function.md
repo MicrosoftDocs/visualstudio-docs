@@ -73,5 +73,5 @@ SCCRTN SccAddFilesFromSCC(
 |SCC_E_NONSPECIFICERROR|Unknown error.|  
 |SCC_I_RELOADFILE|A file or project needs to be reloaded.|  
   
-## See Also  
+## See also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

@@ -45,5 +45,5 @@ manager: jillfra
 |All tool windows|Select the first button on the toolbar of the window|**SHIFT** + **ALT**|  
 |IDE toolbars|Select the first button on the Standard toolbar|**ALT**, **CTRL** + **TAB** **Note:**  Press **CTRL** + **TAB** again to select the first button on the next IDE toolbar.|  
   
-## See Also  
+## See also  
  [Accessibility Features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)

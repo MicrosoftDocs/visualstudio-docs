@@ -118,7 +118,7 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
 
 4. Choose the **Diagnostic** log.
 
-## See Also
+## See also
  [Testing Store apps with Visual Studio](../test/testing-store-apps-with-visual-studio.md)
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)
  [Application lifecycle](https://msdn.microsoft.com/53cdc987-c547-49d1-a5a4-fd3f96b2259d)

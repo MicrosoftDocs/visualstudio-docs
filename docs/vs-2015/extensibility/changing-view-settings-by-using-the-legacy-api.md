@@ -38,7 +38,7 @@ Settings for core editor features, such as word wrap, selection margin, and virt
   
  To remove all changed settings for the core editor at once, specify a value of VSEDITPROPID_ViewComposite_AllCodeWindowDefaults, vt for the `idprop` parameter. In this call, vt is a VARIANT of type VT_BOOL and vt.boolVal is VARIANT_TRUE.  
   
-## See Also  
+## See also  
  [Inside the Core Editor](../extensibility/inside-the-core-editor.md)   
  [Accessing theText View by Using the Legacy API](../extensibility/accessing-thetext-view-by-using-the-legacy-api.md)   
  [Options Dialog Box](../ide/reference/options-dialog-box-visual-studio.md)

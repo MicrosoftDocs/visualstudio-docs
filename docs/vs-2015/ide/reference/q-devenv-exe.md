@@ -23,5 +23,5 @@ Displays a message box listing all `devenv` switches, with a brief description o
 devenv /?  
 ```  
   
-## See Also  
+## See also  
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)

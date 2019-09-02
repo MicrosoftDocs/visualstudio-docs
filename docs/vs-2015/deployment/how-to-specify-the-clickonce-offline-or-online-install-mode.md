@@ -47,7 +47,7 @@ The `Install Mode` for a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 
   
      When installed, the application adds entries to the **Start** menu and to **Add or Remove Programs** in Control Panel.  
   
-## See Also  
+## See also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)   
  [Choosing a ClickOnce Deployment Strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)

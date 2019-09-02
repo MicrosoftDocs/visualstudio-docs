@@ -170,5 +170,5 @@ QuickInfo is an IntelliSense feature that displays method signatures and descrip
   
 4. Move the pointer over one of the occurrences of "add". The signature and the description of the `add` method should be displayed.  
   
-## See Also  
+## See also  
  [Walkthrough: Linking a Content Type to a File Name Extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

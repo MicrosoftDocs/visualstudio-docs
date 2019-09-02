@@ -47,7 +47,7 @@ You can create a VSIX package to wrap a [!INCLUDE[vsprvs](../includes/vsprvs-md.
   
 8. Rename the resulting .zip file to *Filename*.vsix, where *Filename* is the name of the redistributable file that installs your package.  
   
-## See Also  
+## See also  
  [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)   
  [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)   
  [PackageManifest Element (Root Element, VSX Schema)](https://msdn.microsoft.com/f8ae42ba-775a-4d2b-976a-f556e147f187)

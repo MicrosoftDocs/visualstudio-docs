@@ -32,7 +32,7 @@ You can use MSBuild.exe to build specific targets of specific projects in a solu
 msbuild SlnFolders.sln /t:NotInSlnfolder:Rebuild;NewFolder\InSolutionFolder:Clean  
 ```  
   
-## See Also  
+## See also  
  [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [MSBuild](msbuild.md)  

@@ -42,7 +42,7 @@ int RemoveProgramNode( 
 ## Remarks  
  This method removes a program node that was added with a call to the [AddProgramNode](../../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md) method.  
   
-## See Also  
+## See also  
  [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md)   
  [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)   
  [AddProgramNode](../../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md)

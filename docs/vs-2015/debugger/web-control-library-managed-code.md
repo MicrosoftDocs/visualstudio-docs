@@ -45,5 +45,5 @@ The Web Control Library project template creates a DLL. Because the class librar
   
 3. Add a reference to the web control project.  
   
-## See Also  
+## See also  
  [ASP.NET Web Applications](../debugger/debugging-preparation-aspnet-web-applications.md)

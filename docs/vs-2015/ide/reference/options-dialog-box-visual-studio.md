@@ -39,5 +39,5 @@ The **Options** dialog box enables you to configure the integrated development e
 ### Show all settings
  Selecting or unselecting **Show all settings** applies all changes you have made in the **Options** dialog box, even though you have not yet clicked **OK**.
 
-## See Also
+## See also
  [Customizing the Editor](../../ide/customizing-the-editor.md)

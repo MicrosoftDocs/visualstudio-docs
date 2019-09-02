@@ -87,5 +87,5 @@ A *service reference* enables a project to access one or more [!INCLUDE[ssAstori
     > [!NOTE]
     > Any code that references the service reference will have to be removed manually.  
   
-## See Also  
+## See also  
  [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)

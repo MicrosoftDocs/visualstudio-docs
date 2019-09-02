@@ -258,7 +258,7 @@ namespace MyLayerExtensions // change to your preference
   
   For more information about how to decode other items when they are dragged onto the diagram, see [Define a gesture handler on a modeling diagram](../modeling/define-a-gesture-handler-on-a-modeling-diagram.md).  
   
-## See Also  
+## See also  
  [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md)   
  [Add custom architecture validation to layer diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md)   
  [Define and install a modeling extension](../modeling/define-and-install-a-modeling-extension.md)

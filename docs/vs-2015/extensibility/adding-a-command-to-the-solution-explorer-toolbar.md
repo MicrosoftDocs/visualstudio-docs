@@ -112,5 +112,5 @@ This walkthrough shows how to add a button to the **Solution Explorer** toolbar.
   
    The visibility of the button is controlled by [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] until the VSPackage is loaded. After the VSPackage is loaded, the visibility of the button is controlled by the VSPackage.  For more information, see [MenuCommands Vs. OleMenuCommands](../misc/menucommands-vs-olemenucommands.md).  
   
-## See Also  
+## See also  
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

@@ -45,7 +45,7 @@ typedef enum CV_access_e { 
 ## Requirements  
  Header: cvconst.h  
   
-## See Also  
+## See also  
  [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)   
  [IDiaSymbol::get_access](../../debugger/debug-interface-access/idiasymbol-get-access.md)   
  [IDiaSymbol::get_symTag](../../debugger/debug-interface-access/idiasymbol-get-symtag.md)

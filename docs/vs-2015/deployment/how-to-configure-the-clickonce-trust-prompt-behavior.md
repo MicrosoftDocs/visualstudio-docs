@@ -219,7 +219,7 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
   
 3. Build and run the application.  
   
-## See Also  
+## See also  
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [Code Access Security for ClickOnce Applications](../deployment/code-access-security-for-clickonce-applications.md)   
  [ClickOnce and Authenticode](../deployment/clickonce-and-authenticode.md)   

@@ -43,5 +43,5 @@ Class Designer does not track the location of your source files, so modifying yo
  [Visual Studio Class Designer Forum](http://go.microsoft.com/fwlink/?LinkId=160754)  
  Provides a forum for questions about the Class Designer.  
   
-## See Also  
+## See also  
  [Designing and Viewing Classes and Types](../ide/designing-and-viewing-classes-and-types.md)

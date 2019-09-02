@@ -59,7 +59,7 @@ This dialog box specifies which prerequisite components are installed, how they 
 |**Windows Installer 3.1**|This package installs the Microsoft Windows Installer redistributable, version 3.1, which allows the installation of Windows Installer Setup projects. It is preinstalled on Windows Server 2003 with SP1 and later.<br /><br /> By default, this item is selected.|
 |**Windows Installer 4.5**|This package installs the Microsoft Windows Installer redistributable, version 4.5, which allows the installation of Windows Installer Setup projects.|
 
-## See Also
+## See also
  [Publish Page, Project Designer](../../ide/reference/publish-page-project-designer.md)
  [Application Deployment Prerequisites](../../deployment/application-deployment-prerequisites.md)
  [Redistributing the .NET Framework](https://msdn.microsoft.com/a18d0456-fd89-493e-97f4-756505bfe287)

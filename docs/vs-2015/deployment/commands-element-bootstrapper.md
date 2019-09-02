@@ -200,6 +200,6 @@ The `Commands` element implements tests described by the elements underneath the
 </Commands>  
 ```  
   
-## See Also  
+## See also  
  [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)   
  [\<InstallChecks> Element](../deployment/installchecks-element-bootstrapper.md)

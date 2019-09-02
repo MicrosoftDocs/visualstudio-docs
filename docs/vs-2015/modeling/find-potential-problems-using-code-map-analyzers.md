@@ -42,7 +42,7 @@ Run analyzers on code maps to help you identify code that might be overly comple
 > [!TIP]
 > If you have a very large map, running an analyzer might cause an out of memory exception. If this occurs, edit the map to reduce its scope or generate a smaller one, and then run the analyzer.  
   
-## See Also  
+## See also  
  [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)   
  [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)   
  [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)

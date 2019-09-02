@@ -31,5 +31,5 @@ Visual Studio 2010 Premium provides filtering for performance reports so that th
   
 3. Under **General settings**, clear the **Enable Just My Code** check box.  
   
-## See Also  
+## See also  
  [Customizing Performance Tools Report Views](../profiling/customizing-performance-tools-report-views.md)

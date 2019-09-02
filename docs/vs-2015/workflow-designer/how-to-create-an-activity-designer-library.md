@@ -39,5 +39,5 @@ Custom activity designers allow you to create a user interface for a standard or
     > [!WARNING]
     > Custom activity designers can be used for custom activities as well as for default [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)]activities.  
   
-## See Also  
+## See also  
  [Creating a Workflow Project](../workflow-designer/creating-a-workflow-project.md)

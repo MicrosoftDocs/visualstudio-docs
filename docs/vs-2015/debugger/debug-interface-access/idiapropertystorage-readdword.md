@@ -41,5 +41,5 @@ HRESULT ReadDWORD ( 
 ## Remarks  
  A `DWORD` is defined by Windows as a 32-bit unsigned integer.  
   
-## See Also  
+## See also  
  [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)

@@ -32,5 +32,5 @@ Do you want to save the connection string to the current DBML file and applicati
   
      The connection string is stored as an application setting, but the password is not included.  
   
-## See Also  
+## See also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

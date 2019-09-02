@@ -466,7 +466,7 @@ visibility operation-name (parameter1 : Type1, ...) : Type
   
      For more information about how to set these properties and customize the provided templates, see [Generate code from UML class diagrams](../modeling/generate-code-from-uml-class-diagrams.md).  
   
-## See Also  
+## See also  
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
  [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)   
  [Model user requirements](../modeling/model-user-requirements.md)   

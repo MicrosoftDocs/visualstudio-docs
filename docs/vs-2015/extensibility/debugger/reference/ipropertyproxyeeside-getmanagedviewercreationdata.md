@@ -67,7 +67,7 @@ int GetManagedViewerCreationData(
 ## Remarks  
  This method is used by type visualizers to instantiate a managed viewer.  
   
-## See Also  
+## See also  
  [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)   
  [ASSEMBLYLOCRESOLUTION](../../../extensibility/debugger/reference/assemblylocresolution.md)   
  [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)

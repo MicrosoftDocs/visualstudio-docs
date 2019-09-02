@@ -36,7 +36,7 @@ By adding an application configuration file (app.config file) to a C# project, y
   
      A file that's named app.config is added to your project.  
   
-## See Also  
+## See also  
  [Managing Application Settings (.NET)](../ide/managing-application-settings-dotnet.md)   
  [Configuration File Schema](https://msdn.microsoft.com/library/69003d39-dc8a-460c-a6be-e6d93e690b38)   
  [Configuring Apps](https://msdn.microsoft.com/library/86bd26d3-737e-4484-9782-19b17f34cd1f)   

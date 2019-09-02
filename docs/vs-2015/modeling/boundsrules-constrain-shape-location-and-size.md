@@ -61,6 +61,6 @@ public class BarBoundsRule: BoundsRules
   
  Notice that both the location and size can be constrained if you want.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Modeling.Diagrams.BoundsRules>   
  [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)

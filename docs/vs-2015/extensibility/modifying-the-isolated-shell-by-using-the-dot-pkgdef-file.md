@@ -121,6 +121,6 @@ The .pkgdef file supports settings that you can use to customize an isolated she
 
  For each package that provides menu items and that is distributed as a part of the application, add a menu item entry for the package.  
 
-## See Also  
+## See also  
  [Customizing the Isolated Shell](../extensibility/customizing-the-isolated-shell.md)   
  [.Pkgundef Files](../extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgundef-file.md)

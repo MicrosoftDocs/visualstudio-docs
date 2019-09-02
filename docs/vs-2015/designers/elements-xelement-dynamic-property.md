@@ -35,7 +35,7 @@ elem.Elements[{namespaceName}localName]
   
  This property uses deferred execution.  
   
-## See Also  
+## See also  
  [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)   
  [Element](../designers/element-xelement-dynamic-property.md)   
  [Descendants](../designers/descendants-xelement-dynamic-property.md)

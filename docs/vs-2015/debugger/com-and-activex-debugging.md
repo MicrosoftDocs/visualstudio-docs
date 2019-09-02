@@ -42,7 +42,7 @@ This section provides tips on debugging COM applications and ActiveX controls.
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)  
  Provides links to the larger sections of the debugging documentation. Information includes: what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging Visual C++ projects, debugging COM and ActiveX, debugging DLLs, debugging SQL, and the user interface references.  
   
-## See Also  
+## See also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Introduction to COM](https://msdn.microsoft.com/library/120735d9-db71-4ad3-a730-ce576ea2354e)   
  [ActiveX Controls](https://msdn.microsoft.com/library/52aaec4d-3889-402e-b57d-758078f8ac57)   

@@ -38,5 +38,5 @@ This section describes how to personalize Visual Studio in various ways to best 
 ### Main menu casing
  Due to popular demand, you can change the main menu casing between **Title Case** and **ALL CAPS** by typing `environment` in **QuickLaunch** and choosing **Environment &#124; General**.
 
-## See Also
+## See also
  [Visual Studio IDE](../ide/visual-studio-ide.md)

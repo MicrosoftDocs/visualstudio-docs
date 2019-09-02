@@ -414,6 +414,6 @@ namespace MyProject
 ## Troubleshooting the Text Template  
  If you have seen template transformation or compilation errors in the **Error List**, or if the output file was not generated correctly, you can troubleshoot the text template with the techniques described in [Generating Files with the TextTransform Utility](../modeling/generating-files-with-the-texttransform-utility.md).  
   
-## See Also  
+## See also  
  [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)   
  [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)

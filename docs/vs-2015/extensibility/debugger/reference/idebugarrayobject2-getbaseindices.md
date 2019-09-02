@@ -52,5 +52,5 @@ int[] lowerbounds = { 5 };
 Array.CreateInstance(typeof(int), lengths, lowerbounds);  
 ```  
   
-## See Also  
+## See also  
  [IDebugArrayObject2](../../../extensibility/debugger/reference/idebugarrayobject2.md)

@@ -36,7 +36,7 @@ This document demonstrates how to use the Model Editor to apply a Directed Graph
   
    After you apply a shader to a model, you can open it in the Shader Designer by selecting the model, and then in the **Properties** window, in the **(Advanced)** property of the **Effect** property group, choosing the ellipsis (**...**) button.  
   
-## See Also  
+## See also  
  [How to: Create a Basic 3-D Model](../designers/how-to-create-a-basic-3-d-model.md)   
  [How to: Create a Basic Color Shader](../designers/how-to-create-a-basic-color-shader.md)   
  [Model Editor](../designers/model-editor.md)   

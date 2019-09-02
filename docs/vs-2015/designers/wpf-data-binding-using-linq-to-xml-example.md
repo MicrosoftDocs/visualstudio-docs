@@ -22,5 +22,5 @@ This section provides a Windows Presentation Foundation (WPF) example that binds
 |[How to: Build and Run the LinqToXmlDataBinding Example](../designers/how-to-build-and-run-the-linqtoxmldatabinding-example.md)|Contains step-by-step instructions on how to create, populate, and build the Visual Studio project for this example.|  
 |[Walkthrough: LinqToXmlDataBinding Example](../designers/walkthrough-linqtoxmldatabinding-example.md)|Contains the primary source files for the project and a description of how LINQ to XML is used for data binding within this code.|  
   
-## See Also  
+## See also  
  [WPF Data Binding with LINQ to XML](../designers/wpf-data-binding-with-linq-to-xml.md)

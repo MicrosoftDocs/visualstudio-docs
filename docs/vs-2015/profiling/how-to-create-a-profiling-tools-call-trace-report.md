@@ -35,6 +35,6 @@ The  *call trace report* for the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pr
     |*VSPFile*|The profiling data (.vsp or .vsps) file. Full and partial paths are accepted.|  
     |Xml|Generates an Xml formatted report.|  
   
-## See Also  
+## See also  
  [How to: Collect Event Tracing for Windows (ETW) Data](../profiling/how-to-collect-event-tracing-for-windows-etw-data.md)   
  [Profiling Tools APIs](../profiling/profiling-tools-apis.md)

@@ -41,5 +41,5 @@ public class LogCallbackHook
 }  
 ```  
   
-## See Also  
+## See also  
  [Example: Project File Generation](../cross-platform/customize-project-files-created-by-vstu.md)

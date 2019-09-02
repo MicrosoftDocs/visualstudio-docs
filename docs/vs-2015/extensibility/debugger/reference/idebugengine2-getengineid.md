@@ -59,5 +59,5 @@ HRESULT CEngine::GetEngineId(GUID *pguidEngine){
 }    
 ```  
   
-## See Also  
+## See also  
  [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)

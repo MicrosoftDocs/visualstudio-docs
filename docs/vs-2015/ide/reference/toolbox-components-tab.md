@@ -64,7 +64,7 @@ Displays components you can add to [!INCLUDE[vbprvb](../../includes/vbprvb-md.md
 > [!NOTE]
 > There is also a system-based <xref:System.Timers.Timer> that you can add to the **Toolbox** This <xref:System.Timers.Timer> is optimized for server applications, and the Windows Forms <xref:System.Windows.Forms.Timer> is best suited for use on Windows Forms.  
   
-## See Also  
+## See also  
  [Programming with Components](https://msdn.microsoft.com/library/d4d4fcb4-e0b8-46b3-b679-7ee0026eb9e3)   
  [Component Programming Walkthroughs](https://msdn.microsoft.com/library/373cacf7-479e-4b05-991c-5cb18824e913)   
  [Toolbox](../../ide/reference/toolbox.md)   

@@ -66,6 +66,6 @@ Specifies what kind of project an item templates will show up in. This element i
 |WinRT-Native|Used for Windows 8.0 Store projects|  
 |VC-Android|Used for Android projects|  
   
-## See Also  
+## See also  
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)

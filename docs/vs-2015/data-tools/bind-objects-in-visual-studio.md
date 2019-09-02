@@ -143,5 +143,5 @@ Visual Studio provides design-time tools for working with custom objects as the 
  [!code-csharp[VbRaddataSaving#23](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form3.cs#23)]
  [!code-vb[VbRaddataSaving#23](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form3.vb#23)]
 
-## See Also
+## See also
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)

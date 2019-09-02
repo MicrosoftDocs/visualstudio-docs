@@ -181,6 +181,6 @@ namespace BackgroundThreadProgressUI // CHANGE TO YOUR NAMESPACE
   
  You can use `uiThreadHolder.Invoke()` to perform operations in the UI thread.  
   
-## See Also  
+## See also  
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   
  [Define a gesture handler on a modeling diagram](../modeling/define-a-gesture-handler-on-a-modeling-diagram.md)

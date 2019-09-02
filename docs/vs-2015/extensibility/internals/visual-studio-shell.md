@@ -74,7 +74,7 @@ The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] shell is the primary agent o
   
 - **Toolbox**  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>   
  <xref:Microsoft.VisualStudio.Shell.Interop.SVsShell>   

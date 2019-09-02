@@ -38,6 +38,6 @@ HRESULT get_registerValue(
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns error code.  
   
-## See Also  
+## See also  
  [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)   
  [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md)

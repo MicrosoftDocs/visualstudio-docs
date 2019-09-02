@@ -77,7 +77,7 @@ For an editor, the context is active only when the editor has focus or had focus
   
  After providing context for activities within your editor or designer, you should provide a specific F1 keyword to allow users to get help for the editor or designer itself.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx.OnElementValueChange%2A>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddAttribute%2A>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AdviseUpdate%2A>   

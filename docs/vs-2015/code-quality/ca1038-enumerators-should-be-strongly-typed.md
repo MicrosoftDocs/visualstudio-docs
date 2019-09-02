@@ -54,7 +54,7 @@ manager: "wpickett"
 
  [CA1039: Lists are strongly typed](../code-quality/ca1039-lists-are-strongly-typed.md)
 
-## See Also
+## See also
  <xref:System.Collections.IEnumerator?displayProperty=fullName>
  <xref:System.Collections.CollectionBase?displayProperty=fullName>
  <xref:System.Collections.DictionaryBase?displayProperty=fullName>

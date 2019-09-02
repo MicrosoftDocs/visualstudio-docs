@@ -88,6 +88,6 @@ Wraps CSC.exe, and produces executables (.exe files), dynamic-link libraries (.d
     EmitDebugInformation="true" />  
 ```  
   
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Tasks](../msbuild/msbuild-tasks.md)

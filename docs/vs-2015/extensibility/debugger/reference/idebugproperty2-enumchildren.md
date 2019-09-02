@@ -69,7 +69,7 @@ int EnumChildren ( 
 ## Return Value  
  If successful, returns `S_OK`; otherwise returns error code.  
   
-## See Also  
+## See also  
  [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)   
  [DEBUGPROP_INFO_FLAGS](../../../extensibility/debugger/reference/debugprop-info-flags.md)   
  [DBG_ATTRIB_FLAGS](../../../extensibility/debugger/reference/dbg-attrib-flags.md)   

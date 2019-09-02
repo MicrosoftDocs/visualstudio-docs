@@ -26,6 +26,6 @@ void CaptureCurrentFrame();
   
  To capture a frame, you must prepare your app to capture and record graphics information—that is, you must have called [Init](../debugger/init.md) through an instance of the `VsgDbg` class before you call `CaptureCurrentFrame`.  
   
-## See Also  
+## See also  
  [Init](../debugger/init.md)   
  [BeginCapture](../debugger/begincapture.md)

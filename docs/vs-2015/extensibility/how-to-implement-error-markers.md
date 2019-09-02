@@ -49,7 +49,7 @@ Error markers (or red wavy underlines) are the most difficult of the text editor
   
 4. If errors are found, the task provider creates a task item instance. This instance creates the text marker that the environment uses as an error marker in the text view.  
   
-## See Also  
+## See also  
  [Using Text Markers with the Legacy API](../extensibility/using-text-markers-with-the-legacy-api.md)   
  [How to: Add Standard Text Markers](../extensibility/how-to-add-standard-text-markers.md)   
  [How to: Create Custom Text Markers](../extensibility/how-to-create-custom-text-markers.md)   

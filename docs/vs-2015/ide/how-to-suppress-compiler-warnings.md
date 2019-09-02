@@ -102,7 +102,7 @@ You can hide specific compiler warnings for Visual Basic by editing the .vbproj 
 
    For more information, see [/nowarn](https://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83).
 
-## See Also
+## See also
 
 - [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)
 - [How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md)

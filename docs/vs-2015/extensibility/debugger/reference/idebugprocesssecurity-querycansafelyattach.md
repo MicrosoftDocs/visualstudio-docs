@@ -35,5 +35,5 @@ int QueryCanSafelyAttach();
   
 - `FAILURE`: Attaching to process fails.  
   
-## See Also  
+## See also  
  [IDebugProcessSecurity](../../../extensibility/debugger/reference/idebugprocesssecurity.md)

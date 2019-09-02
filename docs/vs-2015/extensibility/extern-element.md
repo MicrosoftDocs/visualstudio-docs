@@ -65,7 +65,7 @@ Extern Element
 </CommandTable>  
 ```  
   
-## See Also  
+## See also  
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)   
  [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

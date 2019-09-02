@@ -35,7 +35,7 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] debugger provides a variety of 
 ## Visualizers  
  Visualizers are a new component of the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] debugger that enable you to view the contents of an object or variable in a meaningful way. For example, you can use the HTML visualizer to view an HTML string as it would be interpreted and displayed in a browser. You can access visualizers from DataTips, the **Watch** window, the **Autos** window, the **Locals** window, or the **QuickWatch** dialog box. For more information, see [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md).  
   
-## See Also  
+## See also  
  [Debugger Basics](../debugger/debugger-basics.md)   
  [Command Window](../ide/reference/command-window.md)   
  [Debugger Security](../debugger/debugger-security.md)

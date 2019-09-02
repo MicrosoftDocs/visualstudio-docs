@@ -25,6 +25,6 @@ These segments in the Threads View timeline represent execution time, when the t
   
  To see a traditional sampling profile for all execution segments in the current view, click **Execution** in the Visible Timeline Profile.  
   
-## See Also  
+## See also  
  [Execution Profile Report](../profiling/execution-profile-report.md)   
  [Threads View](../profiling/threads-view-parallel-performance.md)

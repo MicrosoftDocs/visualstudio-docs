@@ -34,7 +34,7 @@ struct MyStructure
 |------------------|-------------------------|  
 |`struct StructureName {};`|**StructureName**<br /><br /> Struct|  
   
-## See Also  
+## See also  
  [Working with Visual C++ Code (Class Designer)](../ide/working-with-visual-cpp-code-class-designer.md)   
  [Classes and Structs](https://msdn.microsoft.com/library/516dd496-13fb-4f17-845a-e9ca45437873)   
  [struct](https://msdn.microsoft.com/library/3c6ba273-e248-4ff1-8c69-d2abcf1263c6)

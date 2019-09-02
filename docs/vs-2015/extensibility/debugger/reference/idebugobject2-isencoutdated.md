@@ -42,5 +42,5 @@ int IsEncOutdated(
 > [!NOTE]
 > A custom expression evaluator should always return `E_NOTIMPL`.  
   
-## See Also  
+## See also  
  [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)

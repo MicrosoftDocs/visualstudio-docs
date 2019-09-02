@@ -27,5 +27,5 @@ The Visual Studio Debugging SDK references outline the basic model for the run-t
  [Glossary](../../../extensibility/debugger/reference/visual-studio-debugger-glossary.md)  
  Provides a list of debugging-related terms and their definitions.  
   
-## See Also  
+## See also  
  [Visual Studio Debugger Extensibility](../../../extensibility/debugger/visual-studio-debugger-extensibility.md)

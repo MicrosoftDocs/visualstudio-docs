@@ -77,6 +77,6 @@ MSBuild /nologo /noconsolelogger /logger:SimpleLogger.dll /verbosity:Detailed
   
 ### Comments  
   
-## See Also  
+## See also  
  [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)   
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)

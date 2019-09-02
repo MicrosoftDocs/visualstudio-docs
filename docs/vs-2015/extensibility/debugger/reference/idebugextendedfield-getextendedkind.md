@@ -38,5 +38,5 @@ int GetExtendedKind(
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDebugExtendedField](../../../extensibility/debugger/reference/idebugextendedfield.md)

@@ -68,6 +68,6 @@ Provides a table of Command Table Compiler schema elements, with allowed child e
   
  [Conditional Attributes](../extensibility/vsct-xml-schema-conditional-attributes.md)  
   
-## See Also  
+## See also  
  [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Command Routing in VSPackages](../extensibility/internals/command-routing-in-vspackages.md)

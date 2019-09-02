@@ -54,7 +54,7 @@ You can write code to create and update layer diagrams, and to validate the stru
   
  [Troubleshoot extensions for layer diagrams](../modeling/troubleshoot-extensions-for-layer-diagrams.md)  
   
-## See Also  
+## See also  
  [Define and install a modeling extension](../modeling/define-and-install-a-modeling-extension.md)   
  [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md)   
  [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)   

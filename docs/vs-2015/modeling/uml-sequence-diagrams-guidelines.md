@@ -436,7 +436,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
   
 5. To add new messages to a fragment, use the message tools, or copy and paste.  
   
-## See Also  
+## See also  
  [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)   
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
  [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)   

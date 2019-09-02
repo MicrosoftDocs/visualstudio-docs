@@ -121,7 +121,7 @@ Aliases provide a means for entering a command into the **Find/Command** box or 
 |List Processes|&#124;|Debug.ListProcesses|
 |[List Threads Command](../../ide/reference/list-threads-command.md)|~ ~*k ~\*kb|Debug.ListThreads Debug.ListTheads /AllThreads|
 
-## See Also
+## See also
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
  [Command Window](../../ide/reference/command-window.md)
  [Find/Command Box](../../ide/find-command-box.md)

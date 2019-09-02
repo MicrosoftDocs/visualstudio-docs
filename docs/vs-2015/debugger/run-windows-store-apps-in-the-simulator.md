@@ -147,5 +147,5 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
   
  You can shut down the simulator by pressing **CTRL+ALT+F4**.  
   
-## See Also  
+## See also  
  [Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md)

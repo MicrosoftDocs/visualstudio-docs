@@ -39,6 +39,6 @@ int GetOffset(
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDebugFunctionPosition2](../../../extensibility/debugger/reference/idebugfunctionposition2.md)   
  [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)

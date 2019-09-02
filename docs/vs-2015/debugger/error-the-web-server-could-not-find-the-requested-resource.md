@@ -28,6 +28,6 @@ Due to security considerations, IIS has returned a generic error.
   
  For more information on troubleshooting IIS, see [IIS Management and Administration](http://go.microsoft.com/fwlink/?LinkId=255872).  
   
-## See Also  
+## See also  
  [UrlScan Security Tool](/iis/extensions/working-with-urlscan/urlscan-3-reference)   
  [Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb](../debugger/error-the-web-server-has-been-locked-down-and-is-blocking-the-debug-verb.md)

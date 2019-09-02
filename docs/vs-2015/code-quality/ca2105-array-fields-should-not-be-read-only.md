@@ -62,6 +62,6 @@ manager: "wpickett"
 
  **Before tampering: Grades: 90, 90, 90 Private Grades: 90, 90, 90  Secure Grades, 90, 90, 90**
 **After tampering: Grades: 90, 555, 90 Private Grades: 90, 555, 90  Secure Grades, 90, 90, 90**
-## See Also
+## See also
  <xref:System.Array?displayProperty=fullName>
  <xref:System.Collections.ReadOnlyCollectionBase?displayProperty=fullName>

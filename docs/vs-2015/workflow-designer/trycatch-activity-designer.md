@@ -38,7 +38,7 @@ The **TryCatch** activity designer is used to create and configure a <xref:Syste
 |<xref:System.Activities.Statements.TryCatch.Catches%2A>|False|The collection of **Catch** elements to be checked when the <xref:System.Activities.Statements.TryCatch.Try%2A> activity throws an exception.<br /><br /> You need at least add one activity in <xref:System.Activities.Statements.TryCatch.Catches%2A> or an activity in the <xref:System.Activities.Statements.TryCatch.Finally%2A> block.|  
 |<xref:System.Activities.Statements.TryCatch.Finally%2A>|False|The activity to be executed when the <xref:System.Activities.Statements.TryCatch.Try%2A> and any necessary activities in the <xref:System.Activities.Statements.TryCatch.Catches%2A> collection complete execution.<br /><br /> You need at least add one activity in <xref:System.Activities.Statements.TryCatch.Catches%2A> or an activity in the <xref:System.Activities.Statements.TryCatch.Finally%2A> block.|  
   
-## See Also  
+## See also  
  [Collection](../workflow-designer/collection-activity-designers.md)   
  [Rethrow](../workflow-designer/rethrow-activity-designer.md)   
  [Throw](../workflow-designer/throw-activity-designer.md)

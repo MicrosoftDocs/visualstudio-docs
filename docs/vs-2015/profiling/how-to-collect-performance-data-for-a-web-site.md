@@ -96,7 +96,7 @@ You can use the **Performance Wizard** to collect performance data for an [!INCL
   
      The profiler generates the data file and displays the Summary view of the data in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] main window.  
   
-## See Also  
+## See also  
  [Overviews](../profiling/overviews-performance-tools.md)   
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [Understanding Instrumentation Data Values](../profiling/understanding-instrumentation-data-values.md)   

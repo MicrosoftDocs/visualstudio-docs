@@ -50,5 +50,5 @@ When the debugger breaks execution because of an exception, a dialog box appears
 ## Mixed Code  
  If you hit an unhandled exception while debugging a mixed native and managed code, operating system constraints prevent unwinding the call stack. If you try rewinding the call stack using the shortcut menu, an error message explains that the debugger cannot unwind from an unhandled except during mixed-code debugging.  
   
-## See Also  
+## See also  
  [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)

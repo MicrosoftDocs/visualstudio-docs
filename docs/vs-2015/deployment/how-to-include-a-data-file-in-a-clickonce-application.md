@@ -81,5 +81,5 @@ Each [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application you inst
   
      You must re-sign your deployment manifest because its hash of the application manifest has changed.  
   
-## See Also  
+## See also  
  [Accessing Local and Remote Data in ClickOnce Applications](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md)

@@ -73,5 +73,5 @@ You can save data in objects to a database by passing the values from your objec
 ## .NET Framework Security  
  You must have permission to perform the selected INSERT, UPDATE, or DELETE on the table in the database.  
   
-## See Also  
+## See also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

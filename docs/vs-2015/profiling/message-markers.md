@@ -20,6 +20,6 @@ A message marker represents log output. A message is a string that's issued by a
 ## Message Aggregation Markers  
  Sometimes multiple messages occur so close to one another in the Concurrency Visualizer that they can’t be drawn individually. When this occurs, a *message aggregation marker* that represents the underlying messages is shown. When you rest the pointer on one of these icons, a tooltip displays the number of underlying messages that are represented. To view the messages, zoom in.  If you zoom in all the way and still get an aggregation marker, you can view the underlying messages in the [Markers Report](../profiling/markers-report.md).  
   
-## See Also  
+## See also  
  [Concurrency Visualizer Markers](../profiling/concurrency-visualizer-markers.md)   
  [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)

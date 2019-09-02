@@ -47,6 +47,6 @@ An editor factory creates editor objects and puts them in a window frame, known 
   
 4. If calls by Visual Studio to your editor factory using <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A> return both a document data object and a document view object, Visual Studio then creates the document window, places the document view object in it, and makes an entry into the running document table (RDT) for the document data object.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>   
  [Running Document Table](../extensibility/internals/running-document-table.md)

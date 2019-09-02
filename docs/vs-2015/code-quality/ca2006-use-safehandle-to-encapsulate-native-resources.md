@@ -42,5 +42,5 @@ manager: "wpickett"
 ## When to Suppress Warnings
  You should not suppress this warning.
 
-## See Also
+## See also
  <xref:System.IDisposable>

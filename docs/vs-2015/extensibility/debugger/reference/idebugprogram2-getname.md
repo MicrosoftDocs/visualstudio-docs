@@ -42,5 +42,5 @@ int GetName( 
 ## Remarks  
  The name returned by this method is always a friendly, user-displayable name that describes the program.  
   
-## See Also  
+## See also  
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

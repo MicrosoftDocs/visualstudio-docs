@@ -79,5 +79,5 @@ To set up your computer so that you can run the [!INCLUDE[vstecasp](../includes/
   
 13. Click **OK** to close the **Temporary ASP.NET Files Properties** dialog box.  
   
-## See Also  
+## See also  
 [ASP.NET Debugging: System Requirements](../debugger/aspnet-debugging-system-requirements.md)  

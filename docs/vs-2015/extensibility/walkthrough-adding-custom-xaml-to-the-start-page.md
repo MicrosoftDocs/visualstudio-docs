@@ -84,6 +84,6 @@ This walkthrough shows how to create a custom Visual Studio Start Page that cont
 ## Next Steps  
  The Visual Studio Start Page now contains a tab that displays a Web browser tab and a MyButton tab. You can create custom Start Pages that have other functionality by using the *code-behind* model to add a custom .dll, as shown in [Adding User Control to the Start Page](../extensibility/adding-user-control-to-the-start-page.md). You can share custom Start Pages with other users by publishing the resulting .vsix file to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site, or to another Web site or network share. For more information, see [Deploying Custom Start Pages](../extensibility/deploying-custom-start-pages.md).  
   
-## See Also  
+## See also  
  [Customizing the Start Page](../ide/customizing-the-start-page-for-visual-studio.md)   
  [WPF Container Controls](https://msdn.microsoft.com/a0177167-d7db-4205-9607-8ae316952566)

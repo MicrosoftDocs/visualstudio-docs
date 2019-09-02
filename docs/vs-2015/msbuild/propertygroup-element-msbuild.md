@@ -69,6 +69,6 @@ Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md
 </PropertyGroup>  
 ```  
   
-## See Also  
+## See also  
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)  
  [MSBuild Properties](msbuild-properties1.md)

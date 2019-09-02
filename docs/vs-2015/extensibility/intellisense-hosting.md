@@ -43,5 +43,5 @@ Visual Studio enables IntelliSense hosting. IntellSense hosting lets you provide
 #### IVsIntellisenseCompletor  
  The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseCompletor> interface is a co-creatable version of the standard completion window that is used by the integrated development environment (IDE). Any <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface can quickly implement IntelliSense by using this completor interface.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.TextManager.Interop>

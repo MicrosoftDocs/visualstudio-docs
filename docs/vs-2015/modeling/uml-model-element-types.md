@@ -188,7 +188,7 @@ Classes.IElement
              : Classes.IRedefinableElement  
 ```  
   
-## See Also  
+## See also  
  [Define a profile to extend UML](../modeling/define-a-profile-to-extend-uml.md)   
  [Define validation constraints for UML models](../modeling/define-validation-constraints-for-uml-models.md)   
  [API Reference for UML Modeling Extensibility](../modeling/api-reference-for-uml-modeling-extensibility.md)

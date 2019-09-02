@@ -178,5 +178,5 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
   **Allow precompiling (Native only)**  
   Precompiling is allowed.  
   
-## See Also  
+## See also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

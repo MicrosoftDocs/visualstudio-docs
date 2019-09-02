@@ -19,7 +19,7 @@ manager: jillfra
 
 This bar graph shows the proportion of time each unhidden thread spends in each activity category during the currently visible time range. "Execution" means that the thread is executing; all other categories mean that the thread is waiting for something.  
   
-## See Also  
+## See also  
  [Execution Time (Threads View)](../profiling/execution-time-threads-view.md)   
  [I/O Time (Threads View)](../profiling/i-o-time-threads-view.md)   
  [Memory Management Time](../profiling/memory-management-time.md)   

@@ -65,5 +65,5 @@ You can create data-bound controls by dragging items from the **Data Sources** w
   
      If you don't want to create a control for the column or property, select **None** in the drop-down menu. This is useful if you want to drag the parent table or object to the designer, but you do not want to include the specific column or property.  
   
-## See Also  
+## See also  
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)

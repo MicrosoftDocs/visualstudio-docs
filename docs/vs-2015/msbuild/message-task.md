@@ -55,6 +55,6 @@ Logs a message during a build.
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)

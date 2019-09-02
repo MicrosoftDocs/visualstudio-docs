@@ -29,6 +29,6 @@ Here are some tips you can use when debugging threads in native code:
   
 - C Run-Time Libraries (CRT) functions can be useful for debugging a multithreaded application. For more information, see [_malloc_dbg](https://msdn.microsoft.com/library/c97eca51-140b-4461-8bd2-28965b49ecdb).  
   
-## See Also  
+## See also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [Debugging Native Code](../debugger/debugging-native-code.md)

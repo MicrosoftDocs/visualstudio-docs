@@ -45,5 +45,5 @@ The XML Schema Explorer enables you to search the schema set in the following wa
 ## Clearing Search Results  
  To clear the search results, click the **x** button on the summary results pane of the XML Schema Explorer Search toolbar.  
   
-## See Also  
+## See also  
  [XML Schema Explorer](../xml-tools/xml-schema-explorer.md)

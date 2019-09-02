@@ -49,7 +49,7 @@ Changes to the project model from one version of [!INCLUDE[vsprvs](../../include
   
  For more information about backing up and upgrading projects, see the comments for IVsProjectUpgrade in vsshell2.idl.  
   
-## See Also  
+## See also  
  [Projects](../../extensibility/internals/projects.md)   
  [Upgrading Custom Projects](../../misc/upgrading-custom-projects.md)   
  [Upgrading Project Items](../../misc/upgrading-project-items.md)

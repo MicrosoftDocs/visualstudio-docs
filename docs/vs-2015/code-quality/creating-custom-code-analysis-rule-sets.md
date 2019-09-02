@@ -24,7 +24,7 @@ You apply code analysis rules to a managed code project by specifying a rule set
  [Working in the Rule Set Editor](../code-quality/working-in-the-code-analysis-rule-set-editor.md)  
  Describes how to use the rule set editor to group, sort, filter, and modify code analysis rules in a custom rule set.  
   
-## See Also  
+## See also  
  [Code analysis rule set reference](../code-quality/code-analysis-rule-set-reference.md)   
  [Analyzing Managed Code Quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)   
  [Analyzing C/C++ Code Quality by Using Code Analysis](../code-quality/analyzing-c-cpp-code-quality-by-using-code-analysis.md)

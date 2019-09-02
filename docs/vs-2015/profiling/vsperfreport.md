@@ -86,5 +86,5 @@ VSPerfReport [/U] /diff vspfilename1 vspfilename2 [/options]
 |**DiffColumn:**[*columnname*]|Use this specific column compare values. The default is the exclusive samples percent column.|  
 |**QueryDiffTables**|List the valid tables and columns for the two report files provided.|  
   
-## See Also  
+## See also  
  [Performance Report Views](../profiling/performance-report-views.md)

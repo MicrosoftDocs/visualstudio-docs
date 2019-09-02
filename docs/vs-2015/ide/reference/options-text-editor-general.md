@@ -90,7 +90,7 @@ This dialog box lets you change global settings for the [!INCLUDE[vsprvs](../../
  Highlight current line  
  When selected, displays a gray box around the line of code in which the cursor is located.  
   
-## See Also  
+## See also  
  [Options, Text Editor, All Languages](../../ide/reference/options-text-editor-all-languages.md)   
  [Options, Text Editor, All Languages, Tabs](../../ide/reference/options-text-editor-all-languages-tabs.md)   
  [Options, Text Editor, File Extension](../../ide/reference/options-text-editor-file-extension.md)   

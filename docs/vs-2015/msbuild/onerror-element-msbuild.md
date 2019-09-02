@@ -73,6 +73,6 @@ Causes one or more targets to execute, if the `ContinueOnError` attribute is `fa
 </Target>  
 ```  
   
-## See Also  
+## See also  
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)   
  [Targets](../msbuild/msbuild-targets.md)

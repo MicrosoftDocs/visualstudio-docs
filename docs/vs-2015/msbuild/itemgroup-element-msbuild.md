@@ -81,7 +81,7 @@ Contains a set of user-defined [Item](../msbuild/item-element-msbuild.md) elemen
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)   
  [Items](../msbuild/msbuild-items.md)   
  [Common MSBuild Project Items](../msbuild/common-msbuild-project-items.md)

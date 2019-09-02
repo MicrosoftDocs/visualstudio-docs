@@ -58,7 +58,7 @@ In Visual Studio, a *use case diagram* summarizes who uses your application or s
 |10|**Artifact**|An artifact provides a link to another diagram or document. You can create it by dragging a file from Solution Explorer. It can be linked with a Dependency to any other element on the diagram. An artifact is typically used to link a use case to a sequence diagram, OneNote page, Word document or PowerPoint presentation that describes it in detail. The document can either be an item in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution, or a document in a shared location such as a SharePoint site.<br /><br /> -   **Hyperlink**. The URL or file path of the diagram or document.<br /><br /> Double-click an artifact to open the file or web page to which it links.|  
 |11 (not shown)|**Packages**|Use cases, actors, and subsystems can be contained within packages. Package shapes do not appear on the diagram, but you can set the **LinkedPackage** property of the diagram. Elements that you subsequently create on the diagram are placed within the package. For more information, see [Define packages and namespaces](../modeling/define-packages-and-namespaces.md).|  
   
-## See Also  
+## See also  
  [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md)   
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
  [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)   

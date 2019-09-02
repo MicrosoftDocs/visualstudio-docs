@@ -25,5 +25,5 @@ The following is a description of the termination of a single program with one t
   
    The IDE goes into design mode. The debug engine or run-time environment calls [IDebugPortNotify2::RemoveProgramNode](../../extensibility/debugger/reference/idebugportnotify2-removeprogramnode.md) to remove the program from the port.  
   
-## See Also  
+## See also  
  [Calling Debugger Events](../../extensibility/debugger/calling-debugger-events.md)

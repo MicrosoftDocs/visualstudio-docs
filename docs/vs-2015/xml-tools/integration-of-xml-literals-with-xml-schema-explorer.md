@@ -25,5 +25,5 @@ Visual Basic supports XML literals, which means that you can incorporate XML fra
   
  This feature was introduced in Visual Studio 2008 SP1. To watch an interview in which this feature is explained in detail, see [Channel 9 Interview : XML Schema Explorer in Visual Studio 2008 SP1](https://channel9.msdn.com/Blogs/funkyonex/XML-Schema-Explorer-in-Visual-Studio-2008-SP1).  
   
-## See Also  
+## See also  
  [How to: Use the XML Schema Designer with XML Literals](../xml-tools/how-to-use-the-xml-schema-designer-with-xml-literals.md)

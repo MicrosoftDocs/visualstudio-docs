@@ -49,7 +49,7 @@ Application settings for Windows Forms makes it easy to create, store, and maint
 ## ClickOnce and Roaming Settings  
  ClickOnce does not work with roaming settings, which allows your settings file to follow you across machines on a network. If you need roaming settings, you will need either to implement an application settings provider that stores settings over the network, or develop your own custom settings classes for storing settings on a remote computer. For more information in settings providers, see [Application Settings Architecture](https://msdn.microsoft.com/library/c8eb2ad0-fac6-4ea2-9140-675a4a44d562).  
   
-## See Also  
+## See also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Application Settings Overview](https://msdn.microsoft.com/library/0dd8bca5-a6bf-4ac4-8eec-5725d08b38dc)   
  [ClickOnce Cache Overview](../deployment/clickonce-cache-overview.md)   

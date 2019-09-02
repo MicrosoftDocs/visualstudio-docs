@@ -21,7 +21,7 @@ The Profile view displays reports that are based on the currently visible time r
   
  You can find more information about the data in the tables here.  
   
-## See Also  
+## See also  
  [No Thread Activity to Show](../profiling/no-thread-activity-to-show-threads-view.md)   
  [Execution Profile Report](../profiling/execution-profile-report.md)   
  [Synchronization Time](../profiling/synchronization-time.md)   

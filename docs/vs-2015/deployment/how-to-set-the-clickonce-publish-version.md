@@ -39,7 +39,7 @@ The [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] `Publish Version` pro
     > [!NOTE]
     > You should never decrement a version number; doing so could cause unpredictable update behavior.  
   
-## See Also  
+## See also  
  [Choosing a ClickOnce Update Strategy](../deployment/choosing-a-clickonce-update-strategy.md)   
  [How to: Automatically Increment the ClickOnce Publish Version](../deployment/how-to-automatically-increment-the-clickonce-publish-version.md)   
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   

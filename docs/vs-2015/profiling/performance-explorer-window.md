@@ -48,7 +48,7 @@ The **Performance Explorer** window in the [!INCLUDE[vsprvs](../includes/vsprvs-
   
 - **Reports** - Displays the names of profiler data files that are generated for the session. Right-click **Reports** to add an existing report or compare two profiler data files. Right-click a report name to open, remove, or export a profiler data file.  
   
-## See Also  
+## See also  
  [Overviews](../profiling/overviews-performance-tools.md)   
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [Controlling Data Collection](../profiling/controlling-data-collection.md)

@@ -64,5 +64,5 @@ In the **Properties** window, dialog boxes, or designers such as the variable de
 ## Selecting a service contract using the type browser dialog  
  When selecting a service contract type, the type browser only shows types that have the <xref:System.ServiceModel.ServiceContractAttribute> attribute.  
   
-## See Also  
+## See also  
  [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)

@@ -114,7 +114,7 @@ You can create data-bound [!INCLUDE[TLA#tla_titlewinclient](../includes/tlasharp
     > [!NOTE]
     > If the control is already bound to data, the data binding for the control is reset to the item that was dragged onto the control most recently.
 
-## See Also
+## See also
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)
  [Create lookup tables in WPF applications](../data-tools/create-lookup-tables-in-wpf-applications.md)
  [Display related data in WPF applications](../data-tools/display-related-data-in-wpf-applications.md)

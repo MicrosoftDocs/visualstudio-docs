@@ -36,7 +36,7 @@ The <xref:System.Activities.Statements.Parallel> activity executes a collection 
 |<xref:System.Activities.Statements.Parallel.Branches%2A>|True|Contains the collection of child activities to be executed.|  
 |<xref:System.Activities.Statements.Parallel.CompletionCondition%2A>|False|Evaluated after a branch completes. If it evaluates to **True**, then the scheduled pending branches are canceled. If this property is not set or evaluates to **False**, the activity completes when all of its child activities have completed. The default value is **null**.|  
   
-## See Also  
+## See also  
  [Sequence](../workflow-designer/sequence-activity-designer.md)   
  [ParallelForEach\<T>](../workflow-designer/parallelforeach-t-activity-designer.md)   
  [Control Flow](../workflow-designer/control-flow-activity-designers.md)

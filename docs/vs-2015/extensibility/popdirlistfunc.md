@@ -52,7 +52,7 @@ typedef BOOL (*POPDIRLISTFUNC)(
 ## Remarks  
  If the `fOptions` parameter of the `SccPopulateDirList` function contains the `SCC_PDL_INCLUDEFILES` flag, then the list will possibly contain file names as well as directory names.  
   
-## See Also  
+## See also  
  [Callback Functions Implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)   
  [SccPopulateDirList](../extensibility/sccpopulatedirlist-function.md)   
  [Error Codes](../extensibility/error-codes.md)

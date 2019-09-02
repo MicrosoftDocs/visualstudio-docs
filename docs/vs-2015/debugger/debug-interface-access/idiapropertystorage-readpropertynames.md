@@ -45,5 +45,5 @@ HRESULT ReadPropertyNames (
 ## Remarks  
  The returned property names must be freed (by calling the `SysFreeString` function) when they are no longer needed.  
   
-## See Also  
+## See also  
  [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)

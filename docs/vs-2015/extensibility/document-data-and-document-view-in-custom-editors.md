@@ -32,7 +32,7 @@ A custom editor consists of two parts: a document data object and a document vie
   
  There are two options for creating a view for a custom editor. One is the in-place activation model, where the view is hosted in a window using either an ActiveX control or a document data object. The second is the simplified embedding model, where the view is hosted by [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowPane> is implemented to handle window commands. For information about the in-place activation model, see [In-Place Activation](../misc/in-place-activation.md). For information about the simplified embedding model, see [Simplified Embedding](../extensibility/simplified-embedding.md).  
   
-## See Also  
+## See also  
  [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md)   
  [Simplified Embedding](../extensibility/simplified-embedding.md)   
  [How to: Attach Views to Document Data](../extensibility/how-to-attach-views-to-document-data.md)   

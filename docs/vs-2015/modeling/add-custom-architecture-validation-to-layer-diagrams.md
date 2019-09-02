@@ -272,5 +272,5 @@ namespace Validator3
 }  
 ```  
   
-## See Also  
+## See also  
  [Extend layer diagrams](../modeling/extend-layer-diagrams.md)

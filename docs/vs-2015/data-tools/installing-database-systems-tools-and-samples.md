@@ -47,5 +47,5 @@ Visual Studio itself does not include any database systems other than those it u
 ### Firebird  
  Firebird is an open-source SQL database system. You can download it from the [Firebird download page](http://firebirdsql.org/en/downloads/). An ADO.NET data provider is available through the NuGet Package Manager.  
   
-## See Also  
+## See also  
  [How to determine the version and edition of SQL Server and its components](http://support.microsoft.com/kb/321185)

@@ -43,5 +43,5 @@ Keyboard shortcuts in XAML Designer can speed up your work by reducing an action
 |Lock artboard objects while focus is on the Document Outline window|CTRL + L|  
 |Unlock artboard objects while focus is on the Document Outline window|SHIFT + CTRL + L|  
   
-## See Also  
+## See also  
  [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)

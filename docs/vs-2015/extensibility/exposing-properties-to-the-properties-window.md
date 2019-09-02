@@ -262,5 +262,5 @@ This walkthrough exposes the public properties of an object to the **Properties*
   
  Visual Studio tool windows persist between Visual Studio sessions. For more information on persisting the tool window state, see <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute>.  
   
-## See Also  
+## See also  
  [Extending Properties and the Property Window](../extensibility/extending-properties-and-the-property-window.md)

@@ -87,7 +87,7 @@ Edit.ReplaceinFiles findwhat replacewith [/all] [/case]
 >Edit.ReplaceinFiles btnCancel btnReset /lookin:"c:/my visual studio projects" /ext:.cls /text2  
 ```  
   
-## See Also  
+## See also  
  [Finding and Replacing Text](../../ide/finding-and-replacing-text.md)   
  [Replace in Files](../../ide/replace-in-files.md)   
  [Command Window](../../ide/reference/command-window.md)   

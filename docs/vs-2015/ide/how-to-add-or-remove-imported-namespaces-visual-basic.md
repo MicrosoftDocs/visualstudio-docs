@@ -72,5 +72,5 @@ Importing a namespace allows you to use elements from that namespace in your cod
   
 5. Click the **Update user import** button to update the namespace in the **Imported Namespaces** list.  
   
-## See Also  
+## See also  
  [Managing references in a project](../ide/managing-references-in-a-project.md)

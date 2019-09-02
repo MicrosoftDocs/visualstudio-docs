@@ -80,7 +80,7 @@ Specifies whether to build the project immediately after it's created.
 </VSTemplate>  
 ```  
   
-## See Also  
+## See also  
  [TemplateContent Element (Visual Studio Templates)](../extensibility/templatecontent-element-visual-studio-templates.md)   
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)

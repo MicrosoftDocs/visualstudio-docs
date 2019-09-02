@@ -209,5 +209,5 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 </PackageManifest>
 ```
 
-## See Also
+## See also
  [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)

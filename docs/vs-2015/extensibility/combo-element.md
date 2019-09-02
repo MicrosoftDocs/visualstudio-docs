@@ -79,5 +79,5 @@ Defines commands that appear in a combo box. There are four kinds of combo boxes
 </Combo>  
 ```  
   
-## See Also  
+## See also  
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

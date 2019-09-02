@@ -98,6 +98,6 @@ foreach (string diagramFile in projectReader. DiagramFileNames)
   
    - Microsoft.VisualStudio.TeamArchitect.UseCase.Dsl.dll  
   
-## See Also  
+## See also  
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)   
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)

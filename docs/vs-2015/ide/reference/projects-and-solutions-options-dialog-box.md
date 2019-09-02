@@ -57,5 +57,5 @@ Sets the default path of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] project
  **Prompt for symbolic renaming when renaming files**  
  When selected, displays a message box asking whether or not [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] should also rename all references in the project to the code element.  
   
-## See Also  
+## See also  
  [Options Dialog Box,  Projects and Solutions, Build and Run](../../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md)

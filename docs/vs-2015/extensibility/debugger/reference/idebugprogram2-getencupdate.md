@@ -42,5 +42,5 @@ int GetENCUpdate(
 > [!NOTE]
 > A custom debug engine should always return `E_NOTIMPL`.  
   
-## See Also  
+## See also  
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

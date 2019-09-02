@@ -49,7 +49,7 @@ SCCRTN SccGetExtendedCapabilities(
 ## Remarks  
  This method is called on demand; that is, when a capability needs to be tested, this method is called to determine if that capability is supported. Only one flag at a time is specified.  
   
-## See Also  
+## See also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
  [Error Codes](../extensibility/error-codes.md)   
  [Capability Flags](../extensibility/capability-flags.md)

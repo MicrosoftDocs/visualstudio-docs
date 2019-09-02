@@ -70,6 +70,6 @@ This feature is available only if address-level debugging is enabled the **Optio
   
      For more information, see [Paging Up or Down in Memory](../debugger/how-to-page-up-or-down-in-memory.md).  
   
-## See Also  
+## See also  
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   
  [How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)

@@ -42,5 +42,5 @@ int SetFromManagedObject(
 ## Remarks  
  This method is used to change the managed object as represented by the [IDebugManagedObject](../../../extensibility/debugger/reference/idebugmanagedobject.md) object.  
   
-## See Also  
+## See also  
  [IDebugManagedObject](../../../extensibility/debugger/reference/idebugmanagedobject.md)

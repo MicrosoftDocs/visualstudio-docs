@@ -42,5 +42,5 @@ int GetElements(
 ## Remarks  
  As an alternative, use the [GetCount](../../../extensibility/debugger/reference/idebugarrayobject-getcount.md) and [GetElement](../../../extensibility/debugger/reference/idebugarrayobject-getelement.md) methods to iterate through the elements.  
   
-## See Also  
+## See also  
  [IDebugArrayObject](../../../extensibility/debugger/reference/idebugarrayobject.md)

@@ -51,6 +51,6 @@ VSPackages must advise [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] that they
   
 - Self-registration code can be denied access to network resources, such as type libraries, if a component is both specified as run-from-source and is listed in the SelfReg table. This can cause the installation of the component to fail during an administrative installation.  
   
-## See Also  
+## See also  
  [Windows Installer](https://msdn.microsoft.com/library/cc185688\(VS.85\).aspx)   
  [Managed Package Registration](https://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)

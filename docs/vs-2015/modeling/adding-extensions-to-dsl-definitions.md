@@ -31,5 +31,5 @@ DSL Definition extension allows you to create a package of extensions to a domai
   
   For sample code and more information about this feature, see the [Visual Studio Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128) Web site.  
   
-## See Also  
+## See also  
  [Visual Studio Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)

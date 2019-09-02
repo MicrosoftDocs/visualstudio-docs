@@ -70,7 +70,7 @@ This document demonstrates how to use the Model Editor to create a basic 3-D mod
   
    As a next step, you can apply a shader to this 3-D model. For information, see [How to: Apply a Shader to a 3-D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md).  
   
-## See Also  
+## See also  
  [How to: Model 3-D Terrain](../designers/how-to-model-3-d-terrain.md)   
  [Model Editor](../designers/model-editor.md)   
  [Shader Designer](../designers/shader-designer.md)

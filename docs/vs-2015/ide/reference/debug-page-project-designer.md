@@ -68,7 +68,7 @@ manager: jillfra
   
  To debug in a security zone, you must enable this option and **Debug this application with the selected permission set** in the [Advanced Security Settings Dialog Box](../../ide/reference/advanced-security-settings-dialog-box.md).  
   
-## See Also  
+## See also  
  [Debugging in Visual Studio](../../debugger/debugging-in-visual-studio.md)   
  [Project Settings for  C# Debug Configurations](../../debugger/project-settings-for-csharp-debug-configurations.md)   
  [Project Settings for a Visual Basic Debug Configuration](../../debugger/project-settings-for-a-visual-basic-debug-configuration.md)   

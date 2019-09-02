@@ -40,5 +40,5 @@ This dialog box allows you to specify security settings related to debugging in 
  **Debug this application as if it were downloaded from the following URL**  
  If you have to allow the application to access the Web site or server share corresponding to the **Installation URL** you specified on the **Publish** page, type that URL here. This option is available only when **Grant the application access to its site of origin** is selected.  
   
-## See Also  
+## See also  
  [Security Page, Project Designer](../../ide/reference/security-page-project-designer.md)

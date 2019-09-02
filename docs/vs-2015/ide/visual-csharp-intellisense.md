@@ -151,5 +151,5 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
   
  The following task shows how IntelliSense automatically hooks up an event handler named `button1_Click` to an event field named `button1.Click`.  
   
-## See Also  
+## See also  
  [Visual Studio IDE](../ide/visual-studio-ide.md)

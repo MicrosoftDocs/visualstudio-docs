@@ -37,7 +37,7 @@ The <xref:System.Resources.SatelliteContractVersionAttribute> class provides ver
 [assembly: SatelliteContractVersionAttribute("4.3.2.1")]  
 ```  
   
-## See Also  
+## See also  
  [How the Runtime Locates Assemblies](https://msdn.microsoft.com/library/772ac6f4-64d2-4cfb-92fd-58096dcd6c34)   
  [Setting Assembly Attributes](https://msdn.microsoft.com/library/36a98a81-b5b5-4c19-912a-11f91eff7f4e)   
  [Security and Localized Satellite Assemblies](../ide/security-and-localized-satellite-assemblies.md)   

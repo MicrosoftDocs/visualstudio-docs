@@ -26,6 +26,6 @@ When building a workflow solution with the legacy [!INCLUDE[wfd1](../includes/wf
   
 4. Click **OK** to finish adding the activity to the Toolbox.  
   
-## See Also  
+## See also  
  [Using the Legacy Activity Designer](../workflow-designer/using-the-legacy-activity-designer.md)   
  [Legacy Workflow Activities](../workflow-designer/legacy-workflow-activities.md)

@@ -42,5 +42,5 @@ In JavaScript you can create documentation for your code by including XML tags i
   
 - [\<var>](../ide/var-javascript.md)  
   
-## See Also  
+## See also  
  [JavaScript IntelliSense](../ide/javascript-intellisense.md)

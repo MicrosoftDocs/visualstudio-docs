@@ -72,5 +72,5 @@ Defines an element that the user can interact with. Buttons can be of different 
 </Button>
  ```
 
-## See Also  
+## See also  
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

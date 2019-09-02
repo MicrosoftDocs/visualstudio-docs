@@ -35,5 +35,5 @@ You can find Visual Studio samples on the [MSDN Code Gallery](http://go.microsof
 |[Office Development Samples](https://msdn.microsoft.com/library/9ebc7de2-59dd-414c-888b-7549d3c3543c)|Shows how to use Office development tools in Visual Studio. For the most current samples, see [MSDN Developer Samples: Learn Through Code](http://go.microsoft.com/fwlink/?LinkID=248199).|
 |[VSSDK Samples](https://aka.ms/vs2015sdksamples)|Shows how to extend Visual Studio.|
 
-## See Also
+## See also
  [Getting Started with Visual C# and Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md)

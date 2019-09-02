@@ -80,5 +80,5 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 6. View and modify variables in your app or use console commands, as described in [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md) and [JavaScript Console commands](../debugger/javascript-console-commands.md).  
   
-## See Also  
+## See also  
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)

@@ -53,6 +53,6 @@ Developers can use the Code Metrics tool to measure the complexity and maintaina
   
 3. Click **OK**. The new check-in policy now applies to future check-ins.  
   
-## See Also  
+## See also  
  [Code Metrics Values](../code-quality/code-metrics-values.md)   
  [Creating and Using Code Analysis Check-In Policies](../code-quality/creating-and-using-code-analysis-check-in-policies.md)

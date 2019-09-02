@@ -82,7 +82,7 @@ Uninstalling a VSPackage that writes registry entries for file associations remo
 
 - Provide a configuration options page or dialog box that lets users choose file associations and reclaim lost associations. Instruct users to run it after uninstallation.
 
-## See Also
+## See also
 
 [Registering File Name Extensions for Side-By-Side Deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md)
 [Registering Verbs for File Name Extensions](../extensibility/registering-verbs-for-file-name-extensions.md)

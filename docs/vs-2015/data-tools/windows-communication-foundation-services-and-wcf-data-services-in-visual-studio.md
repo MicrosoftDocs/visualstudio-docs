@@ -244,5 +244,5 @@ Visual Studio provides tools for working with Windows Communication Foundation (
 
  <xref:System.Data.Services>
 
-## See Also
+## See also
  [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

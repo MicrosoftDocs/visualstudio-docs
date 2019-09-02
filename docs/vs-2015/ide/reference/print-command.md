@@ -52,7 +52,7 @@ Debug.Print text
 >Debug.Print varA  
 ```  
   
-## See Also  
+## See also  
  [Evaluate Statement Command](../../ide/reference/evaluate-statement-command.md)   
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)   
  [Command Window](../../ide/reference/command-window.md)   

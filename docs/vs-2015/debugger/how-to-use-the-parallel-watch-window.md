@@ -81,7 +81,7 @@ In the Parallel Watch window, you can simultaneously display the values that one
   
 - Enter a Boolean expression in the **Filter by Boolean Expression** box. The debugger evaluates the expression for each thread context. Only rows where the value is `true` are displayed.  
   
-## See Also  
+## See also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [How to: Use the GPU Threads Window](../debugger/how-to-use-the-gpu-threads-window.md)   
  [Walkthrough: Debugging a C++ AMP Application](https://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5)

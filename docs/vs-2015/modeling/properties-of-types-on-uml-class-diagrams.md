@@ -51,7 +51,7 @@ In a UML Class Diagram, a *type* is a class, an interface, or an enumeration.
 |**Template Binding**|(none)|Class, Interface, Enumeration|If not empty, this type is defined by binding parameter values to this template class. Expand the property to see the bindings of the template parameters.|  
 |**Template Parameters**|(none)|Class, Interface, Enumeration|If not empty, this is a template class that has the parameters listed here. To add parameters or view the properties of individual parameters, click **[…]**.|  
   
-## See Also  
+## See also  
  [Properties of attributes on UML class diagrams](../modeling/properties-of-attributes-on-uml-class-diagrams.md)   
  [Properties of operations on UML class diagrams](../modeling/properties-of-operations-on-uml-class-diagrams.md)   
  [Properties of associations on UML class diagrams](../modeling/properties-of-associations-on-uml-class-diagrams.md)   

@@ -41,5 +41,5 @@ HRESULT CvInitProvider(
 ## Requirements  
  **Header:** cvmarkers.h  
   
-## See Also  
+## See also  
  [C++ Library Reference](../profiling/cpp-library-reference.md)

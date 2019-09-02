@@ -53,7 +53,7 @@ STDAPI DLLGetDocumentation
   
  Another way of obtaining the localized name and description of a property is by implementing <xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing.GetLocalizedPropertyInfo%2A>. For more information relating to the implementation of this method, see [Properties Window Fields and Interfaces](../extensibility/internals/properties-window-fields-and-interfaces.md).  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing>   
  [Properties Window Fields and Interfaces](../extensibility/internals/properties-window-fields-and-interfaces.md)   
  [Extending Properties](../extensibility/internals/extending-properties.md)   

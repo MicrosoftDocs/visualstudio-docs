@@ -37,7 +37,7 @@ attrib.Value
 ## Remarks  
  This property is equivalent to the <xref:System.Xml.Linq.XAttribute.Value%2A> property of the <xref:System.Xml.Linq.XAttribute?displayProperty=fullName> class, but this dynamic property also supports change notifications.  
   
-## See Also  
+## See also  
  <xref:System.Xml.Linq.XAttribute.Value%2A?displayProperty=fullName>   
  [XAttribute Class Dynamic Properties](../designers/xattribute-class-dynamic-properties.md)   
  [Attribute](../designers/attribute-xelement-dynamic-property.md)

@@ -59,6 +59,6 @@ The VisibilityConstraints element determines the static visibility of groups of 
 </VisibilityConstraints>  
 ```  
   
-## See Also  
+## See also  
  [VisibilityItem Element](../extensibility/visibilityitem-element.md)   
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

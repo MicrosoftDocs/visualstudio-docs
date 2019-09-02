@@ -75,6 +75,6 @@ You can use Edit and Continue to edit your code in Break mode, and then continue
   
      Your code now executes with your applied edits incorporated into the project.  
   
-## See Also  
+## See also  
  [Unsupported Edits in Visual Basic Edit and Continue](../debugger/unsupported-edits-in-visual-basic-edit-and-continue.md)   
  [Edit and Continue (Visual Basic)](../debugger/edit-and-continue-visual-basic.md)

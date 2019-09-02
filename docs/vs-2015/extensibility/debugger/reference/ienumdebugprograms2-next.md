@@ -49,6 +49,6 @@ int Next(
 ## Return Value  
  If successful, returns `S_OK`. Returns `S_FALSE` if fewer than the requested number of elements could be returned; otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IEnumDebugPrograms2](../../../extensibility/debugger/reference/ienumdebugprograms2.md)   
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

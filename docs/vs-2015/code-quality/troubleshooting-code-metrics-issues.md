@@ -24,5 +24,5 @@ You might encounter some of the following issues when you collect code metrics:
   
 - The function contains a switch (Select Case in VB) statement. Compiler differences between [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] and earlier versions can generate different MSIL code for some switch statements that contain fall-through cases.  
   
-## See Also  
+## See also  
  [Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)

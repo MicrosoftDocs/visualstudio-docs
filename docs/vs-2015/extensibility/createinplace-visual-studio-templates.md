@@ -80,6 +80,6 @@ Specifies whether to create the project and perform parameter replacement in the
 </VSTemplate>  
 ```  
   
-## See Also  
+## See also  
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)

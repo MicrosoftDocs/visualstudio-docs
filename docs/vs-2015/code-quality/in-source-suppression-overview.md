@@ -117,5 +117,5 @@ CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification",
 ## Global Suppression File  
  The global suppression file maintains suppressions that are either global-level suppressions or suppressions that do not specify a target. For example, suppressions for assembly level violations are stored in this file. Additionally, some ASP.NET suppressions are stored in this file because project level settings are not available for code behind a form. A global suppression is created and added to your project the first time that you select the **In Project Suppression File** option of the **Suppress Message(s)** command in the Error List window. For more information, see [How to: Suppress Warnings by Using the Menu Item](../code-quality/how-to-suppress-warnings-by-using-the-menu-item.md).  
   
-## See Also  
+## See also  
  <xref:System.Diagnostics.CodeAnalysis>

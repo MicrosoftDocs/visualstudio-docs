@@ -71,6 +71,6 @@ Specifies the maximum version of the .NET Framework that is required by the temp
   
  In this example, the maximum version of the .NET Framework that is required by the template, represented by `MaxFrameworkVersion`, is 3.5. The above template will be displayed only when you select either 3.0 or 3.5 in the **Target Framework Version** box in the **Add New Project** dialog box.  
   
-## See Also  
+## See also  
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)

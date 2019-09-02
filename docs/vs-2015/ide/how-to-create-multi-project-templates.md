@@ -143,7 +143,7 @@ Multi-project templates act as containers for two or more projects. When a proje
 </VSTemplate>  
 ```  
   
-## See Also  
+## See also  
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
  [How to: Create Project Templates](../ide/how-to-create-project-templates.md)   

@@ -98,5 +98,5 @@ internal IClassificationTypeRegistryService ClassificationRegistry;
   
 5. When you have compiled your assembly, put it in the ..\Common7\IDE\Components\ folder of your Visual Studio installation.  
   
-## See Also  
+## See also  
  [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md)

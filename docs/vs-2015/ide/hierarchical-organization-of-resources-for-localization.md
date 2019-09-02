@@ -43,7 +43,7 @@ In Visual Studio, localized resources (data such as strings and images appropria
   
   ![NeutralSpecificResources graphic](../ide/media/vbneutralspecificresources.gif "vbNeutralSpecificResources")  
   
-## See Also  
+## See also  
  [Neutral Resources Languages for Localization](../ide/neutral-resources-languages-for-localization.md)   
  [Security and Localized Satellite Assemblies](../ide/security-and-localized-satellite-assemblies.md)   
  [Localizing Applications](../ide/localizing-applications.md)   

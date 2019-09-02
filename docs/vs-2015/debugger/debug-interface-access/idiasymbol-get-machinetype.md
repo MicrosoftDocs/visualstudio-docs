@@ -37,6 +37,6 @@ HRESULT get_machineType ( 
 > [!NOTE]
 > A return value of `S_FALSE` means the property is not available for the symbol.  
   
-## See Also  
+## See also  
  [CV_CPU_TYPE_e Enumeration](../../debugger/debug-interface-access/cv-cpu-type-e.md)   
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

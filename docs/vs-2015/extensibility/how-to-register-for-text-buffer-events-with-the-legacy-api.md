@@ -30,5 +30,5 @@ If you are accessing the text buffer by using the legacy API, you should registe
   
      The environment returns a cookie that you can then use to stop listening to events by calling the <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPoint.Unadvise%2A> method.  
   
-## See Also  
+## See also  
  [Text Buffer Events in the Legacy API](../extensibility/text-buffer-events-in-the-legacy-api.md)

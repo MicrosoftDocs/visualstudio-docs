@@ -31,5 +31,5 @@ The diagram is the main presentation area of a domain-specific language designer
   
 - [Embedding a Diagram in a Windows Form](../modeling/embedding-a-diagram-in-a-windows-form.md)  
   
-## See Also  
+## See also  
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)

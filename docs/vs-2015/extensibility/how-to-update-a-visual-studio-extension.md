@@ -56,6 +56,6 @@ You can update a Visual Studio extension on your system by using **Extensions an
     > [!NOTE]
     > Starting in Visual Studio 2015 Update 2, you can specify (in **Tools / Options / Environment / Extensions and Updates**) whether you want automatic updates for per-user extensions,  all user extensions or both (the default setting).
 
-## See Also
+## See also
  [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)
  [Finding and Using Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md)

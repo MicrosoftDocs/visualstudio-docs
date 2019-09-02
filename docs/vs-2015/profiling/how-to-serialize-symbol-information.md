@@ -30,7 +30,7 @@ You can serialize symbols that you must have to analyze your application. Symbol
   
 3. Under **General Setting**, select **Automatically serialize symbol information**.  
   
-## See Also  
+## See also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md)   
  [How to: Save Analyzed Report Files](https://msdn.microsoft.com/0340ddde-caf4-48ac-8af3-d15dcdade556)

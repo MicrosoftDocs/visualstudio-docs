@@ -49,7 +49,7 @@ Project automation
   
  If you do not implement a `Project` object, the environment will still return a generic `Project` object that contains only the name of the project.  
   
-## See Also  
+## See also  
  <xref:EnvDTE.Projects>   
  <xref:EnvDTE.ProjectItem>   
  <xref:EnvDTE.ProjectItems>

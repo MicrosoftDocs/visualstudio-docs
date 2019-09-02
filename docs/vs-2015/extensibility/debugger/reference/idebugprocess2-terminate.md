@@ -36,5 +36,5 @@ int Terminate();
 ## Remarks  
  When a process is terminated, all programs within that process are terminated; none are allowed to run any more code.  
   
-## See Also  
+## See also  
  [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)

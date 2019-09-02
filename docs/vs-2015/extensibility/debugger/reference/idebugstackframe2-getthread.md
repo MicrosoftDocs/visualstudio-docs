@@ -39,6 +39,6 @@ int GetThread ( 
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)   
  [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)

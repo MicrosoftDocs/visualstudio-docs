@@ -59,7 +59,7 @@ This document describes some pages (or properties collections) that are associat
 |ShowNavigationBar|Get/Set (Boolean)|Determines whether the drop-down lists and buttons appear at the top of editor windows.|  
 |CutCopyBlankLines|Get/Set (Boolean)|Cuts or copies blank lines when they are selected.|  
   
-## See Also  
+## See also  
  [Controlling Options Settings](https://msdn.microsoft.com/library/a09ed242-7494-4cde-bbd1-7a8ec617965d)   
  [Determining the Names of Property Items on Options Pages](https://msdn.microsoft.com/library/d450422d-47c7-4eeb-9f9f-3286264bc5aa)   
  [Options Page, Environment Node Properties](../../ide/reference/options-page-environment-node-properties.md)   

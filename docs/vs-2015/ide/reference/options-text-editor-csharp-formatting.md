@@ -52,5 +52,5 @@ Use the **Formatting** property page dialog box to set options for formatting co
 ## Remarks  
  Indentation options on the **Tabs** pages for each language only determine where the Code Editor places the cursor when you press ENTER at the end of a line. Indentation options under **Formatting** apply when code is formatted automatically, for example, when you paste code into the file while **Adjust indentation on paste** is selected, and when the block being formatted is typed manually.  
   
-## See Also  
+## See also  
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)

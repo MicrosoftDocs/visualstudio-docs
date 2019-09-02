@@ -39,7 +39,7 @@ Debug.Watch[index]
 >Debug.Watch1  
 ```  
   
-## See Also  
+## See also  
  [Autos and Locals Windows](../../debugger/autos-and-locals-windows.md)   
  [How to: Edit a Value in a Variable Window](https://msdn.microsoft.com/library/36f464ab-c900-4c0b-9ab3-557b3d9cdab5)   
  [How to: Use the QuickWatch Dialog Box](https://msdn.microsoft.com/library/ffaee1dd-e5ce-4ef2-9401-d28329398867)   

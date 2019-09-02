@@ -97,7 +97,7 @@ Wraps vbc.exe, which produces executables (.exe), dynamic-link libraries (.dll),
    OutputAssembly="out.exe"/>  
 ```  
   
-## See Also  
+## See also  
  [Visual Basic Command-Line Compiler](https://msdn.microsoft.com/library/6b57c444-50c7-4b88-8f59-ed65cff5e05c)   
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)

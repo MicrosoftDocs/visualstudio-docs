@@ -79,7 +79,7 @@ End Property
   
  You can add and remove snippet directories with the **Add** and **Remove** buttons in the **Code Snippets Manager** dialog. To add individual code snippets, use the **Import** button.  
   
-## See Also  
+## See also  
  [Walkthrough: Creating a Code Snippet](../ide/walkthrough-creating-a-code-snippet.md)   
  [How to: Distribute Code Snippets](../ide/how-to-distribute-code-snippets.md)   
  [Best Practices for Using Code Snippets](../ide/best-practices-for-using-code-snippets.md)   

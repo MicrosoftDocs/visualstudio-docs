@@ -39,5 +39,5 @@ int GetParent ( 
 ## Return Value  
  If successful, returns `S_OK`; otherwise returns error code. Returns `S_GETPARENT_NO_PARENT` if there is no parent.  
   
-## See Also  
+## See also  
  [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)

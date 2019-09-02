@@ -116,7 +116,7 @@ Blend for Visual Studio helps you design XAML-based Windows desktop, web, [Windo
 
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Properties panel](https://www.youtube.com/watch?v=HCqQfiobdag&list=PLBDF977B2F1DAB358&index=7).
 
-## See Also
+## See also
  [Insert controls and modify their behavior](../designers/insert-controls-and-modify-their-behavior-in-xaml-designer.md)
  [Animate objects](../designers/animate-objects-in-xaml-designer.md)
  [Draw shapes and paths](../designers/draw-shapes-and-paths.md)

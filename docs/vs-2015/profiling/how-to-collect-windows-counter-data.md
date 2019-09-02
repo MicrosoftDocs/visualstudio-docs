@@ -47,7 +47,7 @@ Windows Counters are system performance counters that can be collected at set in
   
 8. Click **Apply.**  
   
-## See Also  
+## See also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [Performance Session Properties](../profiling/performance-session-properties.md)   
  [CPU and Windows Counters](../profiling/cpu-and-windows-counters.md)

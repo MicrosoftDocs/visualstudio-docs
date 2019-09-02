@@ -37,7 +37,7 @@ In [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], you can step into
   
 5. Run to the breakpoint, then begin stepping. The debugger will step into the service automatically.  
   
-## See Also  
+## See also  
  [Debugging WCF Services](../debugger/debugging-wcf-services.md)   
  [Limitations on WCF Debugging](../debugger/limitations-on-wcf-debugging.md)   
  [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md)

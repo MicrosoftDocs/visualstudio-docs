@@ -75,7 +75,7 @@ Edit.Find findwhat [/case] [/doc | /proc | /open | /sel]
 >Edit.Find somestring /sel /case  
 ```  
   
-## See Also  
+## See also  
  [Command Window](../../ide/reference/command-window.md)   
  [Find/Command Box](../../ide/find-command-box.md)   
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)   

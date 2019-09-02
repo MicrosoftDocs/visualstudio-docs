@@ -39,6 +39,6 @@ int GetObject(
 ## Return Value  
  If successful, returns S_OK; otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)   
  [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)

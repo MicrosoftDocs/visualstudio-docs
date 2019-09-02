@@ -39,7 +39,7 @@ Debug.QuickWatchq [text]
 >Debug.QuickWatch  
 ```  
   
-## See Also  
+## See also  
  [How to: Use the QuickWatch Dialog Box](https://msdn.microsoft.com/library/ffaee1dd-e5ce-4ef2-9401-d28329398867)   
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)   
  [Command Window](../../ide/reference/command-window.md)   

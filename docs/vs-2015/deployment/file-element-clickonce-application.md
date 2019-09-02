@@ -195,5 +195,5 @@ Identifies all nonassembly files downloaded and used by the application.
 </file>  
 ```  
   
-## See Also  
+## See also  
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)

@@ -42,6 +42,6 @@ This walkthrough describes the LinqToXmlDataBinding example, and explains some o
 |[L2DBForm.xaml Source Code](../designers/l2dbform-xaml-source-code.md)|Contains the contents and description of the XAML code in file L2DBForm.xaml.|  
 |[L2DBForm.xaml.cs Source Code](../designers/l2dbform-xaml-cs-source-code.md)|Contains the contents and description of the C# source code in the file L2DBForm.xaml.cs.|  
   
-## See Also  
+## See also  
  [WPF Data Binding Using LINQ to XML Example](../designers/wpf-data-binding-using-linq-to-xml-example.md)   
  [How to: Build and Run the LinqToXmlDataBinding Example](../designers/how-to-build-and-run-the-linqtoxmldatabinding-example.md)

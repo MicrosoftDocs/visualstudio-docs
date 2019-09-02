@@ -42,7 +42,7 @@ Use the following procedure to create one of the default text marker types provi
   
      Use this information from this call to execute whatever actions of the text marker your custom command dictates.  
   
-## See Also  
+## See also  
  [Using Text Markers with the Legacy API](../extensibility/using-text-markers-with-the-legacy-api.md)   
  [How to: Implement Error Markers](../extensibility/how-to-implement-error-markers.md)   
  [How to: Create Custom Text Markers](../extensibility/how-to-create-custom-text-markers.md)   

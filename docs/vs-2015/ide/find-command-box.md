@@ -47,6 +47,6 @@ Find/Command Box
   
  A caret functions the same whether it is inside or outside quotation marks. If a caret is the last character on the line, it is ignored.  
   
-## See Also  
+## See also  
  [Command Window](../ide/reference/command-window.md)   
  [Finding and Replacing Text](../ide/finding-and-replacing-text.md)

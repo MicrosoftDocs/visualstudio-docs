@@ -48,6 +48,6 @@ if __name__ == "__main__":
   
  You can watch these instructions in a very short [youtube video](https://www.youtube.com/watch?v=bO7wpzgy74A&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=4).  
   
-## See Also  
+## See also  
  [Wiki documentation](https://github.com/Microsoft/PTVS/wiki/Debugging)   
  [PTVS Getting Started and Deep Dive Videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)

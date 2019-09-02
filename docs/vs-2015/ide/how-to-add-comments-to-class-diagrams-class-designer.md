@@ -31,7 +31,7 @@ You can use comment shapes to annotate class diagrams. A comment shape has one p
   
 2. Click in the new comment shape on the diagram and type the text you want.  
   
-## See Also  
+## See also  
  [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)   
  [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)   
  [How to: Customize Class Diagrams (Class Designer)](../ide/how-to-customize-class-diagrams-class-designer.md)

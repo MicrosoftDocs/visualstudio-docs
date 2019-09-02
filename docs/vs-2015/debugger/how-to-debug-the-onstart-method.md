@@ -49,6 +49,6 @@ You can debug a Windows service by starting the service and attaching the debugg
   
 5. A new instance of Visual Studio starts, and execution is stopped at the `Debugger.Launch()` method.  
   
-## See Also  
+## See also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)

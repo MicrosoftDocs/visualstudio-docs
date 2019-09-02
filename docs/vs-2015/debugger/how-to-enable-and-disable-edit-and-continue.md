@@ -50,5 +50,5 @@ You can disable or enable Edit and Continue in the **Options** dialog box at des
   
    For more information about these options, see [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md).  
   
-## See Also  
+## See also  
  [Edit and Continue](../debugger/edit-and-continue.md)

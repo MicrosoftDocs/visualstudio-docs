@@ -96,5 +96,5 @@ manager: "wpickett"
 
  [CA1726: Use preferred terms](../code-quality/ca1726-use-preferred-terms.md)
 
-## See Also
+## See also
  [How to: Customize the Code Analysis Dictionary](../code-quality/how-to-customize-the-code-analysis-dictionary.md)

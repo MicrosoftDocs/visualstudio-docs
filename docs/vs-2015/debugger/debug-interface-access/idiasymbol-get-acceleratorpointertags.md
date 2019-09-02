@@ -42,5 +42,5 @@ HRESULT get_acceleratorPointerTags(
 ## Remarks  
  This method is called on an `IDiaSymbol` interface that corresponds to a C++ AMP accelerator stub function.  
   
-## See Also  
+## See also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

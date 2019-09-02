@@ -105,7 +105,7 @@ A **Performance Session** enables you to configure settings that determine how t
   
  [How to: Specify Additional Instrumentation Options](../profiling/how-to-specify-additional-instrumentation-options.md)  
   
-## See Also  
+## See also  
  [Overviews](../profiling/overviews-performance-tools.md)   
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [Controlling Data Collection](../profiling/controlling-data-collection.md)

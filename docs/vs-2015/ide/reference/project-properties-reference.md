@@ -38,6 +38,6 @@ Learn more about how to configure and customize project properties.
 |||  
 |||  
   
-## See Also  
+## See also  
  [Introduction to the Project Designer](https://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)   
  [Solutions and Projects](../../ide/solutions-and-projects-in-visual-studio.md)

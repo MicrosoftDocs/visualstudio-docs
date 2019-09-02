@@ -326,6 +326,6 @@ Output:
 -->  
 ```
 
-## See Also
+## See also
 [MSBuild Properties](msbuild-properties1.md)   
 [MSBuild Overview](msbuild.md)

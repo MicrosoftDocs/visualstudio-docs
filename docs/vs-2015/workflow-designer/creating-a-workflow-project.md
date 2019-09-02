@@ -40,5 +40,5 @@ Workflows, [!INCLUDE[indigo1](../includes/indigo1-md.md)] workflow services, cus
 ## Related Sections  
  [Designing Workflows](https://msdn.microsoft.com/library/41f727b5-b142-4c1b-b046-492b96135ae6)  
   
-## See Also  
+## See also  
  [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)

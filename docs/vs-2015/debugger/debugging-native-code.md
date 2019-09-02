@@ -69,6 +69,6 @@ The section covers some common debugging problems and techniques for native appl
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)  
  Provides links to the larger sections of the debugging documentation. Information includes what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging native code, debugging SQL, and the user interface references.  
   
-## See Also  
+## See also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

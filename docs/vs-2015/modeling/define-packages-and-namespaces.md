@@ -216,7 +216,7 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
   
  In addition, each diagram is stored in two files, one that represents the diagram's shapes, and a **.layout** file that records the positions of the shapes.  
   
-## See Also  
+## See also  
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
  [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)   
  [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)   

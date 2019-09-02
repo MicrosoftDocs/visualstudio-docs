@@ -199,6 +199,6 @@ In this walkthrough, you will create a WPF application that displays data from d
 ## Next Steps  
  After completing this walkthrough, learn how to use the **Data Sources** window in Visual Studio to bind WPF controls to other types of data sources. For more information, see [Bind WPF controls to a WCF data service](../data-tools/bind-wpf-controls-to-a-wcf-data-service.md) and [Bind WPF controls to a dataset](../data-tools/bind-wpf-controls-to-a-dataset.md).  
   
-## See Also  
+## See also  
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)   
  [Display related data in WPF applications](../data-tools/display-related-data-in-wpf-applications.md)

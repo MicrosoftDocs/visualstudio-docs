@@ -49,6 +49,6 @@ NOTE]
   
 6. Look at the **Name** and **Path** columns to see the DLL name and path.  
   
-## See Also  
+## See also  
  [How to: Debug Native DLLs](../debugger/how-to-debug-native-dlls.md)   
  [How to: Use the Modules Window](../debugger/how-to-use-the-modules-window.md)

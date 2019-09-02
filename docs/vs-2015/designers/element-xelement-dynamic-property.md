@@ -31,7 +31,7 @@ elem.Element[{namespaceName}localName]
 ## Remarks  
  This property is equivalent to <xref:System.Xml.Linq.XContainer.Element%2A> method of the <xref:System.Xml.Linq.XContainer?displayProperty=fullName> class.  
   
-## See Also  
+## See also  
  <xref:System.Xml.Linq.XContainer.Element%2A?displayProperty=fullName>   
  [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)   
  [Elements](../designers/elements-xelement-dynamic-property.md)

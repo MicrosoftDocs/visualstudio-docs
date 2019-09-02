@@ -38,6 +38,6 @@ manager: "wpickett"
 ## When to Suppress Warnings
  Suppress a warning from this rule only after a careful security review.
 
-## See Also
+## See also
  <xref:System.Security.CodeAccessPermission.Assert%2A?displayProperty=fullName>
  [Secure Coding Guidelines](https://msdn.microsoft.com/library/4f882d94-262b-4494-b0a6-ba9ba1f5f177)

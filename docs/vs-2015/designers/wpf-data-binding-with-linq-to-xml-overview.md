@@ -82,7 +82,7 @@ This topic introduces the dynamic data binding features in the <xref:System.Xml.
   
  To implement WPF dynamic binding, dynamic properties will be used with facilities provided by the <xref:System.Windows.Data> namespace, most notably the <xref:System.Windows.Data.Binding> class.  
   
-## See Also  
+## See also  
  [WPF Data Binding with LINQ to XML](../designers/wpf-data-binding-with-linq-to-xml.md)   
  [LINQ to XML Dynamic Properties](../designers/linq-to-xml-dynamic-properties.md)   
  [XAML in WPF](https://msdn.microsoft.com/library/5d858575-a83b-42df-ad3f-047ed2d6e3c8)   

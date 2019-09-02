@@ -39,5 +39,5 @@ Visual Studio automation objects
   
   For more information on automation, see [Automation and Extensibility for Visual Studio](https://msdn.microsoft.com/library/f71a2253-3e68-4e5e-9a18-edbba816caf6). This document and the documents it provides links to, help you make decisions regarding how you should provide automation for your VSPackage.  
   
-## See Also  
+## See also  
  [How to: Create an Add-In](https://msdn.microsoft.com/library/50be56d2-e3a5-4cd2-8569-2a0666b268ce)

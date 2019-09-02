@@ -64,6 +64,6 @@ $handles
 |`$` *N* `#`|Displays object with Object ID equal to *N*.|  
 |`$dynamic`|Displays the special **Dynamic View** node for an object that implements the `IDynamicMetaObjectProvider`. Interface. The syntax is `$dynamic,` *object*. This feature applies only to code that uses .NET Framework version 4. See [Dynamic View](https://msdn.microsoft.com/library/4c851b17-2c12-46a0-9828-eb6ea6f5c563).|  
   
-## See Also  
+## See also  
  [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)   
  [Variable Windows](https://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)

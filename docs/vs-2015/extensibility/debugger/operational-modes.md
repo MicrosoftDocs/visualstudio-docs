@@ -50,5 +50,5 @@ There are three modes in which the IDE can operate, as follows:
   
  When the program successfully steps to the next line of code or into a function, or it runs to the cursor or to a set breakpoint, the DE automatically transitions back to break mode.  
   
-## See Also  
+## See also  
  [Control of Execution](../../extensibility/debugger/control-of-execution.md)

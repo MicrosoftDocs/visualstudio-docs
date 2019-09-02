@@ -93,6 +93,6 @@ Use the **Application** page of the **Project Designer** to specify the project'
   
   Enter a path name or use the Browse button (**...**) to add a Win32 resource file to the project.  
   
-## See Also  
+## See also  
 [Managing Application Properties](../../ide/application-properties.md)  
  [Writing Code in Office Solutions](https://msdn.microsoft.com/library/2d4d8fd0-e881-4829-976f-0d1a9221dec0)

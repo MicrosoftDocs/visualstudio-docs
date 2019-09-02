@@ -56,5 +56,5 @@ int Attach( 
 > [!NOTE]
 > The interface passed in `pSession` is to be treated only as a cookie, a value that uniquely identifies the session debug manager attaching to this program; none of the methods on the supplied interface are functional.  
   
-## See Also  
+## See also  
  [IDebugProgramEx2](../../../extensibility/debugger/reference/idebugprogramex2.md)

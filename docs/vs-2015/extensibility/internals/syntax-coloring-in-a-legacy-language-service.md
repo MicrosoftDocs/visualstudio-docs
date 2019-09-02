@@ -68,5 +68,5 @@ Simple colorizer model
  [Custom Colorable Items](../../extensibility/internals/custom-colorable-items.md)  
  Discusses how to implement custom colorable items.  
   
-## See Also  
+## See also  
  [Using Fonts and Colors](../../extensibility/using-fonts-and-colors.md)

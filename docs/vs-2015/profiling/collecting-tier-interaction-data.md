@@ -42,5 +42,5 @@ Tier interaction profiling provides additional information about the execution t
   
 3. In Performance Explorer, select the **Targets** node, and then specify the project, executable, or web site that you want to profile.  
   
-## See Also  
+## See also  
  [Tier Interactions View](../profiling/tier-interactions-view.md)

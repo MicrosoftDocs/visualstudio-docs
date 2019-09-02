@@ -93,6 +93,6 @@ An *activity diagram* shows a business process or a software process as a flow o
 |18|**Activity Parameter Node**|An object node through which data can be received or produced by the activity.<br /><br /> Used when the activity represented by the diagram is called from another activity, or when the diagram describes an operation or function.<br /><br /> -   **Type** - the type of objects transmitted.|  
 |(not shown)|**Object Flow**|A connector that shows the flow of data between actions and object nodes.<br /><br /> To create an object flow, use the **Connector** tool to link an input or output pin or an object node to another element.<br /><br /> -   **Selection** - Invokes a process, which can be defined in another diagram, that filters the data.<br />-   **Transformation** - Invokes a process, which can be defined in another diagram, that transforms the data.<br />-   **IsMulticast** - indicates that there might be several recipient objects or components.<br />-   **IsMultiReceive** - indicates that inputs might be received from several objects or components.|  
   
-## See Also  
+## See also  
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
  [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md)

@@ -31,6 +31,6 @@ In This Section
  [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md)  
  Describes how to debug a WCF Service that runs outside IIS or the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Development server.  
   
-## See Also  
+## See also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

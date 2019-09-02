@@ -71,5 +71,5 @@ manager: jillfra
 ## Remarks  
  You can reorder parameters from a method declaration or a method call. Position the cursor on or next to the method or delegate declaration but not in the body.  
   
-## See Also  
+## See also  
  [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)

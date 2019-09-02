@@ -99,5 +99,5 @@ void ExerciseResumeProfile()
 }  
 ```  
   
-## See Also  
+## See also  
  [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference-native.md)

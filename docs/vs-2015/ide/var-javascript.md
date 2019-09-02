@@ -86,5 +86,5 @@ var Rectangle = {
 }  
 ```  
   
-## See Also  
+## See also  
  [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md)

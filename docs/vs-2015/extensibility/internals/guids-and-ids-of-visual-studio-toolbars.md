@@ -130,7 +130,7 @@ This topic enumerates the GUID and ID values of the toolbars that are included i
 |Memory 1-4|guidVSDebugGroup:IDM_MEMORY_WINDOW_TOOLBAR1…4|IDG_MEMORY_EXPRESSION1..4<br /><br /> IDG_MEMORY_COLUMNS1..4|
 |Processes|guidVSDebugGroup:IDM_ATTACHED_PROCS_TOOLBAR|IDG_ATTACHED_PROCS_EXECCNTRL IDG_ATTACHED_PROCS_STEPPING<br /><br /> IDG_ATTACHED_PROCS_EXECCNTRL2<br /><br /> IDG_ATTACHED_PROCS_ATTACH<br /><br /> IDG_ATTACHED_PROCS_COLUMNS|
 
-## See Also
+## See also
  [Adding a Menu Controller to a Toolbar](../../extensibility/adding-a-menu-controller-to-a-toolbar.md)
  [Adding a Toolbar to a Tool Window](../../extensibility/adding-a-toolbar-to-a-tool-window.md)
  [GUIDs and IDs of Visual Studio Menus](../../extensibility/internals/guids-and-ids-of-visual-studio-menus.md)

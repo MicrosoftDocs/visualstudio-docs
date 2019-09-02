@@ -70,7 +70,7 @@ Make sure your app meets user requirements by using Visual Studio architecture a
 |-|-|  
 |**Forums**|-   [Visual Studio Visualization & Modeling Tools](http://go.microsoft.com/fwlink/?LinkId=184720)<br />-   [Visual Studio Visualization & Modeling SDK (DSL Tools)](http://go.microsoft.com/fwlink/?LinkId=184721)|  
   
-## See Also  
+## See also  
 
 - [What's new for modeling in Visual Studio 2015](../modeling/what-s-new-for-design-in-visual-studio.md)   
 - [DevOps and Application Lifecycle Management](https://msdn.microsoft.com/library/74a1f71d-7f23-4c71-8fd7-89ede614fab6)

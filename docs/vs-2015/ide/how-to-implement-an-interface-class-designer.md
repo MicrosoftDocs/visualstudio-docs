@@ -44,7 +44,7 @@ In Class Designer, you can implement an interface on the class diagram by connec
   
      A lollipop appears attached to the class and a label with the interface name identifies the inheritance relationship. Visual Studio generates stubs for all interface members; at this point, the interface is implemented.  
   
-## See Also  
+## See also  
  [How to: Create Types by using Class Designer](../ide/how-to-create-types-by-using-class-designer.md)   
  [How to: View Existing Types (Class Designer)](../ide/how-to-view-existing-types-class-designer.md)   
  [How to: Create Inheritance Between Types (Class Designer)](../ide/how-to-create-inheritance-between-types-class-designer.md)   

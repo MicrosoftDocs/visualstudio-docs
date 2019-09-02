@@ -46,5 +46,5 @@ The XML Editor offers a feature, called *XML snippets*, that allows you to build
   
  For more information, see [How to: Create XML Snippets](../xml-tools/how-to-create-xml-snippets.md).  
   
-## See Also  
+## See also  
  [XML Editor](../xml-tools/xml-editor.md)

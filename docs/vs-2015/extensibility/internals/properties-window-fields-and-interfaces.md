@@ -39,5 +39,5 @@ The model for selection to determine what information is displayed in the **Prop
   
    Finally, the bottom of the **Properties** window also contains a description of the field selected in the **Properties** window grid. For more information, see [Getting Field Descriptions from the Properties Window](../../misc/getting-field-descriptions-from-the-properties-window.md).  
   
-## See Also  
+## See also  
  [Extending Properties](../../extensibility/internals/extending-properties.md)

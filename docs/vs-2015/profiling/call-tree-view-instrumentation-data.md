@@ -79,7 +79,7 @@ The values for a function in the call tree indicate the time for the function in
 |**Max Application Exclusive Time**|The maximum application exclusive time of a call to this function in this context.|  
 |**Min Application Exclusive Time**|The minimum application exclusive time of a call to this function in this context.|  
   
-## See Also  
+## See also  
  [How to: Customize Report View Columns](../profiling/how-to-customize-report-view-columns.md)   
  [Call Tree View](../profiling/call-tree-view-sampling-data.md)   
  [Call Tree View - Instrumentation](../profiling/call-tree-view-dotnet-memory-instrumentation-data.md)   

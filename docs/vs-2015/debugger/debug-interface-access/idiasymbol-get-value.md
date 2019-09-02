@@ -65,5 +65,5 @@ void ProcessValue2(IDiaSymbol *pSymbol)
 }  
 ```  
   
-## See Also  
+## See also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

@@ -41,7 +41,7 @@ Param="WIZARDUI = FALSE"
   
  To add a default locale ID to your .vsz file, specify `FALLBACK_LCID`=xxxx, where xxxx is the locale ID, for example, 1033 for English. When `FALLBACK_LCID` parameter is defined, the wizard uses the supplied fallback locale ID if the current ID is not found.  
   
-## See Also  
+## See also  
  [Custom Parameters](../../extensibility/internals/custom-parameters.md)   
  [Wizards](../../extensibility/internals/wizards.md)   
  [Template Directory Description (.Vsdir) Files](../../extensibility/internals/template-directory-description-dot-vsdir-files.md)

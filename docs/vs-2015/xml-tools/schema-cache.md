@@ -121,5 +121,5 @@ The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas 
 
      The catalog is automatically reloaded.  
 
-## See Also  
+## See also  
  [XML Editor](../xml-tools/xml-editor.md)

@@ -45,5 +45,5 @@ The Debug Interface Access (DIA) SDK supplies you with instructional documentati
  [Querying the .Pdb File](../../debugger/debug-interface-access/querying-the-dot-pdb-file.md)  
  Provides step-by-step instructions on how to use the DIA API to query a .pdb file.  
   
-## See Also  
+## See also  
  [Debug Interface Access SDK](../../debugger/debug-interface-access/debug-interface-access-sdk.md)

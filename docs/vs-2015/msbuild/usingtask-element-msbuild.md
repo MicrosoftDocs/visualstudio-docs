@@ -95,7 +95,7 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
               AssemblyFile="c:\myTasks\myTask.dll" />  
 ```  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)

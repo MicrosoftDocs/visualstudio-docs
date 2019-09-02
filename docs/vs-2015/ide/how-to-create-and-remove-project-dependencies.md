@@ -56,7 +56,7 @@ When building a solution that contains multiple projects, it can be necessary to
   
 4. In the **Depends on** field, clear the check boxes beside any other projects that are no longer dependencies of this project.  
   
-## See Also  
+## See also  
  [Building and Cleaning Projects and Solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   

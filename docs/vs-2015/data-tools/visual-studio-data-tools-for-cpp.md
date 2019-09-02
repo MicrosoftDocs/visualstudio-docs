@@ -61,5 +61,5 @@ Native C++ can often provide the fastest performance when you are accessing data
   
     ![ODBC Sample query output](../data-tools/media/raddata-odbc-sample-query-output.png "raddata ODBC Sample query output")  
   
-## See Also  
+## See also  
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)

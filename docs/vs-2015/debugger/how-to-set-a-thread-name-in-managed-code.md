@@ -49,6 +49,6 @@ Sub Main()
 End Sub  
 ```  
   
-## See Also  
+## See also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [How to: Set a Thread Name in Native Code](../debugger/how-to-set-a-thread-name-in-native-code.md)

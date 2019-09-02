@@ -48,5 +48,5 @@ Use this page of the **Options** dialog box to control message boxes and other a
  **Automatically populate Find What with text from the editor**  
  Select this option to paste the text on either side of the current editor's insertion point into the **Find what** field when you select any view of the **Find and Replace** window from the **Edit** menu. Clear this option to use the last search pattern from the previous search as the **Find what** string.  
   
-## See Also  
+## See also  
  [Finding and Replacing Text](../../ide/finding-and-replacing-text.md)

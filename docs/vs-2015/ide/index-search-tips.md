@@ -54,6 +54,6 @@ You can locate information in the Index by entering keywords. This topic suggest
   
      For example, if you entered the gerund "building" try "creating" instead.  
   
-## See Also  
+## See also  
  [Full-Text Search Tips](../ide/full-text-search-tips.md)   
  [Locate Information](../ide/locate-information.md)

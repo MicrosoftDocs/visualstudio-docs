@@ -222,5 +222,5 @@ This feature is particularly helpful if your code has long names.
 
 - [Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md)  
 
-## See Also  
+## See also  
  [Visual Studio IDE](../ide/visual-studio-ide.md)

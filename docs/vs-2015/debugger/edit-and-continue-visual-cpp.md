@@ -71,5 +71,5 @@ You can use Edit and Continue in Visual C++ projects. See [Supported Code Change
   
  In such cases, the debugger continues executing the original code until the changes can be applied. The stale code appears as a temporary source file window in a separate source window, with a title such as `enc25.tmp`. The edited source continues to appear in the original source window. If you try to edit the stale code, a warning message appears.  
   
-## See Also  
+## See also  
  [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md)

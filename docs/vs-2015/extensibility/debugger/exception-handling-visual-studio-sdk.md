@@ -44,5 +44,5 @@ The following describes the process that occurs when exceptions are thrown.
   
 10. If the method returns S_OK, calls `IDebugExceptionEvent2::PassToDebuggee`.  
   
-## See Also  
+## See also  
  [Calling Debugger Events](../../extensibility/debugger/calling-debugger-events.md)

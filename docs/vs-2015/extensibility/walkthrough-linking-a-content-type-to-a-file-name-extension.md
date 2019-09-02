@@ -97,5 +97,5 @@ You can define your own content type and link a file name extension to it by usi
     [ContentType("hid")]  
     ```  
   
-## See Also  
+## See also  
  [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md)

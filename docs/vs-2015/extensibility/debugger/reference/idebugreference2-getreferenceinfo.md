@@ -64,7 +64,7 @@ int GetReferenceInfo ( 
 ## Return Value  
  Always returns `E_NOTIMPL`.  
   
-## See Also  
+## See also  
  [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)   
  [DEBUGREF_INFO_FLAGS](../../../extensibility/debugger/reference/debugref-info-flags.md)   
  [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md)

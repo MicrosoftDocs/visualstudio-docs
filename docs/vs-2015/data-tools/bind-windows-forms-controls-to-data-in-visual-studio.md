@@ -70,5 +70,5 @@ You can display data to users of your application by binding data to Windows For
 ## DataGridView control
  To display and edit tabular data from many different kinds of data sources, use the <xref:System.Windows.Forms.DataGridView> control. You can bind data to a <xref:System.Windows.Forms.DataGridView> by using the <xref:System.Windows.Forms.DataGridView.DataSource%2A> property. For more information, see [DataGridView Control Overview](https://msdn.microsoft.com/library/0a45c661-89dc-4390-9cc6-c47eee501488).
 
-## See Also
+## See also
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)

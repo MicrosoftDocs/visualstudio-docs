@@ -42,5 +42,5 @@ int DoesInterfaceExist(
 ## Remarks  
  This method in effect gets an enumeration of all interfaces and searches the list for a matching interface.  
   
-## See Also  
+## See also  
  [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)

@@ -100,6 +100,6 @@ class Example
   
  If you use refactoring to rename `OtherMethod` to `Method`, this dialog box appears. The reference in `Main` now refers to the overloaded method that accepts an `int` parameter instead of the overloaded method that accepts an `object` parameter.  
   
-## See Also  
+## See also  
  [Using the Visual Studio Development Environment for C#](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)   
  [How to: Restore C# Refactoring Snippets](../ide/how-to-restore-csharp-refactoring-snippets.md)

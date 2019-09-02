@@ -151,7 +151,7 @@ The steps in the [first procedure](#to-add-a-custom-project-item-template-to-the
   
 8. Copy the .zip file and paste it in the user item template location. In Visual Studio 2015, the default directory is ..\Users\\<username\>\Documents\Visual Studio 2015\Templates\ItemTemplates\\. For more information, see How to: Locate and Organize Project and Item Templates.  
   
-## See Also  
+## See also  
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [How to: Create Multi-file Item Templates](../ide/how-to-create-multi-file-item-templates.md)   
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)

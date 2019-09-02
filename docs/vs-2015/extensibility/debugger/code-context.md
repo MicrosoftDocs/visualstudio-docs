@@ -26,6 +26,6 @@ In [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugging, a **code context**
   
 - Is implemented by an [IDebugCodeContext2](../../extensibility/debugger/reference/idebugcodecontext2.md) interface.  
   
-## See Also  
+## See also  
  [Document Context](../../extensibility/debugger/document-context.md)   
  [Debugger Contexts](../../extensibility/debugger/debugger-contexts.md)

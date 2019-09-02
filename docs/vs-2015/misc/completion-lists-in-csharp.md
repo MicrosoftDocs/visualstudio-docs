@@ -17,5 +17,5 @@ manager: jillfra
 
 This content has moved to [Visual C# IntelliSense](../ide/visual-csharp-intellisense.md)
 
-## See Also
+## See also
 - [Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md)

@@ -36,5 +36,5 @@ A DCOM error occurred when the remote machine tried to communicate with the loca
   
 3. To restore Windows authentication, try rebooting both machines. Examine event logs on local and remote machines for Kerberos errors and contact domain administrators for known problems.  
   
-## See Also  
+## See also  
  [Set Up the Remote Tools on the Device](https://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c)

@@ -36,5 +36,5 @@ After you have created a workflow project, you can add workflow activities, desi
   
 5. Click **Add** to add the item to the current workflow project.  
   
-## See Also  
+## See also  
  [Creating a Workflow Project](../workflow-designer/creating-a-workflow-project.md)

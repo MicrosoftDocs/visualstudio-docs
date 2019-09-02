@@ -102,7 +102,7 @@ manager: jillfra
   
 7. Build your application.  
   
-## See Also  
+## See also  
  <xref:System.Deployment.Application.ApplicationDeployment>   
  [Application Updates Dialog Box](https://msdn.microsoft.com/8eca8743-8e68-4d04-bfd5-4dc0a9b2934f)   
  [Choosing a ClickOnce Update Strategy](../deployment/choosing-a-clickonce-update-strategy.md)   

@@ -60,7 +60,7 @@ You can override the list of types for colorizing, such as keywords and comments
   
     For an example of how to implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorableItem> and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiColorItem> interfaces, see <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiColorItem>.  
   
-## See Also  
+## See also  
  [Model of a Legacy Language Service](../../extensibility/internals/model-of-a-legacy-language-service.md)   
  [Syntax Coloring in Custom Editors](../../extensibility/syntax-coloring-in-custom-editors.md)   
  [Syntax Coloring in a Legacy Language Service](../../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)   

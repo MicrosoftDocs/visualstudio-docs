@@ -72,5 +72,5 @@ The Visual Studio integrated shell includes the integrated development environme
   
 - No Visual Studio languages or their associated project templates or project item templates, are included in the integrated shell. No language-specific implementations of other features are included, for example Visual Basic code snippets.  
   
-## See Also  
+## See also  
  [Extending Visual Studio Overview](https://msdn.microsoft.com/library/3e9078d7-2763-4cc4-8e20-fac69d747f59)

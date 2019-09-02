@@ -69,7 +69,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
   
 - [Extending Visual Studio](http://blog.slaks.net/2013-10-18/extending-visual-studio-part-1-getting-started/)  
   
-## See Also  
+## See also  
  [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)   
  [How to: Migrate Extensibility Projects to Visual Studio 2015](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2015.md)   
  [FAQ: Converting Add-ins to VSPackage Extensions](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md)   

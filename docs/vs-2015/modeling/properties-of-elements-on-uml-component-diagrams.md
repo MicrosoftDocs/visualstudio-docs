@@ -41,6 +41,6 @@ In a UML component diagram, each element on the diagram has properties. To see t
 |**Is Service**|False|Port|If true, this port is part of the published interface of this component.|  
 |**LinkedPackage**|Model|Diagram|The default namespace for elements added to this diagram.|  
   
-## See Also  
+## See also  
  [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)   
  [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md)

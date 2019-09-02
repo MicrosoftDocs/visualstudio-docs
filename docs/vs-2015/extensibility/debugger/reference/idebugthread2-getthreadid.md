@@ -52,5 +52,5 @@ HRESULT CProgram::GetThreadId(DWORD* pdwThreadId) {
 }    
 ```  
   
-## See Also  
+## See also  
  [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)

@@ -43,7 +43,7 @@ The Visual Studio integrated development environment (IDE) is a collection of de
 |[Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)|Describes how to run the Visual Studio Debugger to resolve logic and semantic errors.|
 |[Managing Application Resources (.NET)](../ide/managing-application-resources-dotnet.md)|Shows how to add or edit resources for your project, such as strings, images, icons, audio, and files.|
 
-## See Also
+## See also
 
 - [C#](https://msdn.microsoft.com/library/7f4f8103-7068-4f1d-92c7-3c4519b6edbc)
 - [Getting Started with C#](https://msdn.microsoft.com/library/d6ec050f-3956-4737-8030-a4fa3521d29f)

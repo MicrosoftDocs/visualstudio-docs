@@ -55,6 +55,6 @@ To access the **Just-In-Time** page, go to the **Tools** menu and click **Option
   
  **Access is denied. Have an administrator enable Just-In-Time debugging, or repair your installation of Visual Studio.**  
   
-## See Also  
+## See also  
  [Debugging, Options Dialog Box](../debugger/debugging-options-dialog-box.md)   
  [How to: Specify Debugger Settings](../debugger/how-to-specify-debugger-settings.md)

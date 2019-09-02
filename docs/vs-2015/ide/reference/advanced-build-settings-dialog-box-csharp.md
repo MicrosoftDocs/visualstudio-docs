@@ -70,6 +70,6 @@ Use the **AdvancedBuild Settings** dialog box of the **Project Designer** to spe
   **DLL Base Address**  
   Specifies the preferred base address at which to load a DLL. The default base address for a DLL is set by the [!INCLUDE[dnprdnshort](../../includes/dnprdnshort-md.md)] common language runtime. For more information, see [/baseaddress (C# Compiler Options)](https://msdn.microsoft.com/library/ce13c965-dfe4-4433-94f5-63b476e3a608).  
   
-## See Also  
+## See also  
  [C# Compiler Options](https://msdn.microsoft.com/library/d3403556-1816-4546-a782-e8223a772e44)   
  [Build Page, Project Designer (C#)](../../ide/reference/build-page-project-designer-csharp.md)

@@ -45,5 +45,5 @@ int GetHostMachineName_V7 ( 
 > [!WARNING]
 > As of [!INCLUDE[vsprvslong](../../../includes/vsprvslong-md.md)], this method is no longer used and should always return `E_NOTIMPL`.  
   
-## See Also  
+## See also  
  [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

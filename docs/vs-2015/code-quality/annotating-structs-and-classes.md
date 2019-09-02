@@ -70,7 +70,7 @@ You can annotate struct and class members by using annotations that act like inv
     min(pM->nSize, sizeof(MyStruct))  
     ```  
   
-## See Also  
+## See also  
  [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   
  [Understanding SAL](../code-quality/understanding-sal.md)   
  [Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)   

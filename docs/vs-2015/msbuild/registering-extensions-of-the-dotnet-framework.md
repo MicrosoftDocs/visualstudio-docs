@@ -28,5 +28,5 @@ You can develop an assembly that extends a specific version of the .NET Framewor
   
  To register a 32-bit assembly on a 64-bit computer, use the Wow6432 node, for example: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\v4.0.21006\AssemblyFoldersEx\TreyResearch\\.  
   
-## See Also  
+## See also  
  [Visual Studio Integration](../msbuild/visual-studio-integration-msbuild.md)

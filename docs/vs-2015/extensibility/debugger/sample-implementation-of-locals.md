@@ -63,5 +63,5 @@ manager: jillfra
  [MyCEE Sample](https://msdn.microsoft.com/624a018b-9179-402f-9d48-3aec87b48f4f)  
  Demonstrates one implementation approach to creating an expression evaluator for the MyC language.  
   
-## See Also  
+## See also  
  [Displaying Locals](../../extensibility/debugger/displaying-locals.md)

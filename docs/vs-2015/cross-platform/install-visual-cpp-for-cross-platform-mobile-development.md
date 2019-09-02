@@ -127,6 +127,6 @@ Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink
   
 4. Choose **OK** to save the custom tool folder locations.  
   
-## See Also  
+## See also  
  [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md)   
  [Visual C++ Cross-Platform Mobile](https://www.visualstudio.com/explore/cplusplus-mdd-vs.aspx)

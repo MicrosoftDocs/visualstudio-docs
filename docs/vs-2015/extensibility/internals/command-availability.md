@@ -46,6 +46,6 @@ The Visual Studio context determines which commands are available. The context c
     > [!CAUTION]
     > Make sure that your VSPackage does not affect any existing context GUIDs because other VSPackages may depend on them.  
   
-## See Also  
+## See also  
  [Selection Context Objects](../../extensibility/internals/selection-context-objects.md)   
  [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)

@@ -48,7 +48,7 @@ Problem Description
   
 7. Use the Call Stack window to find the calling function and navigate to its source code. For more information, see [How to: Use the Call Stack Window](../debugger/how-to-use-the-call-stack-window.md).  
   
-## See Also  
+## See also  
  [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)   
  [Breakpoints](https://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583)   
  [Debugging Native Code](../debugger/debugging-native-code.md)

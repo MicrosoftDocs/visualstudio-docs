@@ -52,7 +52,7 @@ manager: "wpickett"
 ## Related Rules
  [CA2237: Mark ISerializable types with SerializableAttribute](../code-quality/ca2237-mark-iserializable-types-with-serializableattribute.md)
 
-## See Also
+## See also
  <xref:System.Runtime.Serialization.ISerializable?displayProperty=fullName>
  <xref:System.Runtime.Serialization.SerializationInfo?displayProperty=fullName>
  <xref:System.Runtime.Serialization.StreamingContext?displayProperty=fullName>

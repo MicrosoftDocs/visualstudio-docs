@@ -35,6 +35,6 @@ By default, the Profiling tools exclude *small functions* from instrumentation. 
   
 4. Click **OK**.  
   
-## See Also  
+## See also  
  [Controlling Data Collection](../profiling/controlling-data-collection.md)   
  [Performance Session Properties](../profiling/performance-session-properties.md)

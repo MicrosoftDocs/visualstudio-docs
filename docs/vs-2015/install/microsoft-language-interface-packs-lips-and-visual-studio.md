@@ -96,5 +96,5 @@ By using a Windows Language Interface Pack (LIP), you can install a language ver
 
    You can also use the devenv command to set the language that's used for UI. For more information, see [/LCID (devenv.exe)](../ide/reference/lcid-devenv-exe.md).
 
-## See Also
+## See also
  [International Settings, Environment, Options Dialog Box](../ide/reference/international-settings-environment-options-dialog-box.md)

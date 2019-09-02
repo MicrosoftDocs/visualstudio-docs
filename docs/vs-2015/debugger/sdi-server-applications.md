@@ -28,6 +28,6 @@ If you are debugging an SDI server application, you must specify `/Embedding` or
 ## Finding the Command Line Arguments Property  
  To access the *Project* Property Pages dialog box, right-click your project in Solution Explorer, and then choose Properties from the shortcut menu. To find the Command line arguments property, expand the Configuration Properties category and click the Debugging page.  
   
-## See Also  
+## See also  
  [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)   
  [How to: Debug COM Servers](../debugger/how-to-debug-com-servers.md)

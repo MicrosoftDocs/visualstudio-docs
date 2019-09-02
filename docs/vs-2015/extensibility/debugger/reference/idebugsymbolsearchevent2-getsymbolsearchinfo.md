@@ -56,7 +56,7 @@ int GetSymbolSearchInfo(
 ## Remarks  
  When a handler receives the [IDebugSymbolSearchEvent2](../../../extensibility/debugger/reference/idebugsymbolsearchevent2.md) event after an attempt is made to load debugging symbols for a module, the handler can call thismethod to determine the results of that load.  
   
-## See Also  
+## See also  
  [IDebugModule3](../../../extensibility/debugger/reference/idebugmodule3.md)   
  [MODULE_INFO_FLAGS](../../../extensibility/debugger/reference/module-info-flags.md)   
  [IDebugSymbolSearchEvent2](../../../extensibility/debugger/reference/idebugsymbolsearchevent2.md)

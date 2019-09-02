@@ -65,6 +65,6 @@ The **VB Specific** property page, in the **Basic** folder of the **Text Editor*
  **Enable highlighting of references and keywords**  
  The text editor can highlight all instances of a symbol or all of the keywords in a clause such as `If..Then`, `While...End While`, or `Try...Catch...Finally`. You can navigate between highlighted references or keywords by pressing CTRL+SHIFT+DOWN ARROW or CTRL+SHIFT+UP ARROW.  
   
-## See Also  
+## See also  
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)   
  [Options, Text Editor, All Languages, Tabs](../../ide/reference/options-text-editor-all-languages-tabs.md)

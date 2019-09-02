@@ -49,5 +49,5 @@ int GetAttributeBytes(
   
  The attribute bytes represent the raw data of the custom attribute.  
   
-## See Also  
+## See also  
  [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)

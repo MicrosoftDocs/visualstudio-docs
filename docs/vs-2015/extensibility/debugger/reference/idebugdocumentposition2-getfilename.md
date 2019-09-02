@@ -42,5 +42,5 @@ int GetFileName( 
 ## Remarks  
  A source file may not always have a file name (the source file may not exist on disk, for example).  
   
-## See Also  
+## See also  
  [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md)

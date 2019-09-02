@@ -41,5 +41,5 @@ int GetAppDomainId (
 ## Remarks  
  The application domain identifier changes whenever the application is restarted and a new application domain is created.  
   
-## See Also  
+## See also  
  [IDebugAlias2](../../../extensibility/debugger/reference/idebugalias2.md)

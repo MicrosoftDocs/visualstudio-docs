@@ -158,7 +158,7 @@ It is not uncommon for an application to contain components that have different 
   
 7. Look in C:\Inetpub\wwwroot\PublishLocales\en. You should see the installed files such as the manifests, setup.exe, and the publish Web page file, in addition to the localized resource DLL. (By default ClickOnce appends a .deploy extension on EXEs and DLLs; you can remove this extension after deployment.)  
   
-## See Also  
+## See also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [Macros Development Environment](https://msdn.microsoft.com/d23105d8-34fe-4ad9-8278-fae2c660aeac)   
  [Macro Explorer Window](https://msdn.microsoft.com/762169e6-f83f-44b4-bffa-d0f107cae9a3)   

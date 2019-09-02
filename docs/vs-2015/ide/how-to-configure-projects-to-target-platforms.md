@@ -57,7 +57,7 @@ manager: jillfra
   
 - For [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] projects, see [/clr (Common Language Runtime Compilation)](https://msdn.microsoft.com/library/fec5a8c0-40ec-484c-a213-8dec918c1d6c).  
   
-## See Also  
+## See also  
  [Understanding Build Platforms](../ide/understanding-build-platforms.md)   
  [/platform (C# Compiler Options)](https://msdn.microsoft.com/library/c290ff5e-47f4-4a85-9bb3-9c2525b0be04)   
  [64-bit Applications](https://msdn.microsoft.com/library/fd4026bc-2c3d-4b27-86dc-ec5e96018181)   

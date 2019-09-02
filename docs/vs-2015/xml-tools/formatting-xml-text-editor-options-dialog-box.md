@@ -55,6 +55,6 @@ This dialog box allows you to specify the formatting settings for the XML Editor
 </dir>  
 ```  
   
-## See Also  
+## See also  
  [XML Document Properties, Properties Window](../xml-tools/xml-document-properties-properties-window.md)   
  [XML Editor Components](../xml-tools/xml-editor-components.md)

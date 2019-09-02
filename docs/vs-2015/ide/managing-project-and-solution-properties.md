@@ -44,5 +44,5 @@ Projects have properties that govern many aspects of compilation, debugging, tes
 ## Solution Properties  
  To access properties on the solution, right click the solution node in **Solution Explorer** and choose **Properties**. In the dialog, you can set project configurations for Debug or Release builds, choose which projects(s) should be the startup project when F5 is pressed, and set code analysis options.  
   
-## See Also  
+## See also  
  [Solutions and Projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md)

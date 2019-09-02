@@ -32,6 +32,6 @@ The colors of the first five span categories
  ![An aggregate span marker in Concurrency Visualizer](../profiling/media/cvmarkerspanaggregate.png "CVMarkerSpanAggregate")  
 A span aggregation marker  
   
-## See Also  
+## See also  
  [Concurrency Visualizer Markers](../profiling/concurrency-visualizer-markers.md)   
  [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)

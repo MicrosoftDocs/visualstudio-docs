@@ -194,6 +194,6 @@ class A {
   
  -> MyIntVect  
   
-## See Also  
+## See also  
  [Working with Visual C++ Code (Class Designer)](../ide/working-with-visual-cpp-code-class-designer.md)   
  [(NOTINBUILD)typedef Specifier](https://msdn.microsoft.com/cc96cf26-ba93-4179-951e-695d1f5fdcf1)

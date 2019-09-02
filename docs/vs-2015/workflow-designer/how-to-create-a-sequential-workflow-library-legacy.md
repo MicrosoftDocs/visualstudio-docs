@@ -43,6 +43,6 @@ Follow these steps to create a Sequential Workflow Library project using the leg
   
 8. Click **OK**.  
   
-## See Also  
+## See also  
  [Creating Legacy Workflow Projects](../workflow-designer/creating-legacy-workflow-projects.md)   
  [Workflow Authoring Styles](https://msdn.microsoft.com/aacf4ec6-da05-4974-958a-974769dda739)

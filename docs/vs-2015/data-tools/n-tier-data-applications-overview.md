@@ -85,7 +85,7 @@ Data tier
   
  [N-Tier and Remote Applications with LINQ to SQL](https://msdn.microsoft.com/library/854a1cdd-53cb-45f5-83ca-63962a9b3598)  
   
-## See Also  
+## See also  
  <xref:System.Data.Linq.ITable.Attach%2A>   
  [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)   
  [Hierarchical update](../data-tools/hierarchical-update.md)   

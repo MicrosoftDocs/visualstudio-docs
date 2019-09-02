@@ -31,5 +31,5 @@ You can customize a domain-specific language by adding commands to the diagram, 
   
 - [Customizing Element Tools](../modeling/customizing-element-tools.md)  
   
-## See Also  
+## See also  
  [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md)

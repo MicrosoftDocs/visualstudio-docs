@@ -64,5 +64,5 @@ This document demonstrates how to use the Model Editor to create a 3-D terrain m
   
    You can use this terrain model to demonstrate the effect of the gradient shader that's described in [How to: Create a Geometry-Based Gradient Shader](../designers/how-to-create-a-geometry-based-gradient-shader.md).  
   
-## See Also  
+## See also  
  [Model Editor](../designers/model-editor.md)

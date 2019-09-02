@@ -43,7 +43,7 @@ HRESULT Item ( 
   
  It is a more common approach to call the `QueryInterface` method in the [IDiaTable](../../debugger/debug-interface-access/idiatable.md) interface for the appropriate enumerator interface and use the enumerator's specific methods to access the table contents. See the [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) interface for an example.  
   
-## See Also  
+## See also  
  [IDiaTable](../../debugger/debug-interface-access/idiatable.md)   
  [IDiaTable::get_Count](../../debugger/debug-interface-access/idiatable-get-count.md)   
  [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)   

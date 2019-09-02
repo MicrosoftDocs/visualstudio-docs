@@ -47,6 +47,6 @@ int GetName( 
 ## Remarks  
  This method can, for example, return the name of the document as a title or as a file name or even part of a file name.  
   
-## See Also  
+## See also  
  [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)   
  [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md)

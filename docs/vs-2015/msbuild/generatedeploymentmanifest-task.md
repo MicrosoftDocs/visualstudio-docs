@@ -59,7 +59,7 @@ Generates a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment ma
 ## Remarks  
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.GenerateManifestBase> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of the parameters of the Task class, see [Task Base Class](../msbuild/task-base-class.md).  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [GenerateApplicationManifest Task](../msbuild/generateapplicationmanifest-task.md)   
  [SignFile Task](../msbuild/signfile-task.md)   

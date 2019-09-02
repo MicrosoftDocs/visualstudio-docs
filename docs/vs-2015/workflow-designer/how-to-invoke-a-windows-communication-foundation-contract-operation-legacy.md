@@ -41,7 +41,7 @@ This topic describes how to invoke a [!INCLUDE[indigo1](../includes/indigo1-md.m
   
 4. Create the endpoint configuration in your configuration file, if it does not exist already. For more information about configuring your client, see [WCF Client Overview](https://msdn.microsoft.com/library/f60d9bc5-8ade-4471-8ecf-5a07a936c82d).  
   
-## See Also  
+## See also  
  [Choose Operation Dialog Box (Legacy)](../workflow-designer/choose-operation-dialog-box-legacy.md)   
  [How to: Implement a WCF Contract Operation (Legacy)](../workflow-designer/how-to-implement-a-windows-communication-foundation-contract-operation-legacy.md)   
  [Legacy Workflow Activities](../workflow-designer/legacy-workflow-activities.md)

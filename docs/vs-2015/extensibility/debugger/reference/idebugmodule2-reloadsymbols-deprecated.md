@@ -47,6 +47,6 @@ int ReloadSymbols( 
 ## Remarks  
  This method is no longer supported. Implement the [LoadSymbols](../../../extensibility/debugger/reference/idebugmodule3-loadsymbols.md) method instead.  
   
-## See Also  
+## See also  
  [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md)   
  [LoadSymbols](../../../extensibility/debugger/reference/idebugmodule3-loadsymbols.md)

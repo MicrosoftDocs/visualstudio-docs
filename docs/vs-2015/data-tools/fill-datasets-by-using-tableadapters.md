@@ -105,5 +105,5 @@ A TableAdapter component  fills a dataset with data from the database, based on 
 ## Security  
  When you use data commands with a `CommandType` property set to <xref:System.Data.CommandType>, carefully check information that is sent from a client before passing it to your database. Malicious users might try to send (inject) modified or additional SQL statements in an effort to gain unauthorized access or damage the database. Before you transfer user input to a database, always verify that the information is valid. A best practice is to always use parameterized queries or stored procedures when possible.  
   
-## See Also  
+## See also  
  [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)

@@ -26,5 +26,5 @@ You can modify the registry to change the default behavior of the Help Viewer an
 |Point to local content store on network share|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Help\v2.2\Catalogs\VisualStudio11|LocationPath=”*ContentStoreNetworkShare*”|  
 |Disable installation of content at first launch of Visual Studio feature.|HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node (on a 64-bit machine)\Microsoft\VisualStudio\14.0\Help|DisableFirstRunHelpSelection--Set to 1 to disable help features that are configured the first time that Visual Studio starts.|  
   
-## See Also  
+## See also  
  [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md)

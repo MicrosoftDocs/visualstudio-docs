@@ -47,5 +47,5 @@ int GetLanguageInfo( 
 ## Remarks  
  At least one of the parameters must return a non-null value.  
   
-## See Also  
+## See also  
  [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)

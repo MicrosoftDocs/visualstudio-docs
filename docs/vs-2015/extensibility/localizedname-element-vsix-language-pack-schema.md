@@ -53,7 +53,7 @@ Required. The localized name of the extension to be installed.
 | Validation File |                VSIXLanguagePackSchema.xsd                 |
 |  Can be Empty   |                      Not applicable                       |
   
-## See Also  
+## See also  
  [VSX Language Pack Schema Reference](../extensibility/vsx-language-pack-schema-reference.md)   
  [Localizing VSIX Packages](../extensibility/localizing-vsix-packages.md)   
  [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)

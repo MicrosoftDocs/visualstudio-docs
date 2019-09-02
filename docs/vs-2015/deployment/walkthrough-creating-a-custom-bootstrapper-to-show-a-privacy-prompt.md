@@ -295,7 +295,7 @@ You can configure ClickOnce applications to automatically update when assemblies
   
 8. If the Application Install dialog box appears, click **Install**.  
   
-## See Also  
+## See also  
  [Application Deployment Prerequisites](../deployment/application-deployment-prerequisites.md)   
  [Creating Bootstrapper Packages](../deployment/creating-bootstrapper-packages.md)   
  [How to: Create a Product Manifest](../deployment/how-to-create-a-product-manifest.md)   

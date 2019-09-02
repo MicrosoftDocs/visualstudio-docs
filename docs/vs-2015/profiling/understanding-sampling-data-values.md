@@ -46,6 +46,6 @@ The *sampling* profiling method of the [!INCLUDE[vsprvs](../includes/vsprvs-md.m
 ## Exclusive percent  
  The percentage of the total number of exclusive samples in the profiling run that are exclusive samples of the function or data range.  
   
-## See Also  
+## See also  
  [How to: Choose Collection Methods](../profiling/how-to-choose-collection-methods.md)   
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)

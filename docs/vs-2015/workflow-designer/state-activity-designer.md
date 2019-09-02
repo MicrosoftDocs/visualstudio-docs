@@ -28,7 +28,7 @@ A <xref:System.Activities.Statements.State> represents a state in which a state 
 |<xref:System.Activities.Statements.State.Exit%2A>|False|Specifies the action that occurs when this state is transitioned away from. When the <xref:System.Activities.Statements.State> activity is expanded, this value can be set by dragging an activity from the **Toolbox** and dropping it onto the **Exit** section of the state.|  
 |<xref:System.Activities.Statements.State.Transitions%2A>|False|Lists the possible transitions that originate from the <xref:System.Activities.Statements.State>. Each item in the list has a link to the associated <xref:System.Activities.Statements.Transition> and the destination <xref:System.Activities.Statements.State>. Clicking the link will switch the designer to an expanded view of the <xref:System.Activities.Statements.Transition> or <xref:System.Activities.Statements.State>.|  
   
-## See Also  
+## See also  
  [StateMachine](../workflow-designer/statemachine-activity-designer.md)   
  [FinalState](../workflow-designer/finalstate-activity-designer.md)   
  [Transition](../workflow-designer/transition-activity-designer.md)

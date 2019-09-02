@@ -89,5 +89,5 @@ You can use file properties to indicate what actions the project system should p
 ### Version  
  Displays the version of the reference.  
   
-## See Also  
+## See also  
  [NIB: Project Properties (Visual Studio)](https://msdn.microsoft.com/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)

@@ -38,7 +38,7 @@ A <xref:System.Activities.Statements.Transition> represents the transition betwe
   
  Shared trigger transitions are the set of transitions which share the same trigger event. A shared trigger allows for the conditional progression to a destination state based on the evaluation of expressions configured for multiple transitions which share a common trigger event. To add additional actions to a transition and create a shared transition, click the circle that indicates the start of the desired transition and drag it to the desired state. The new transition will share a same trigger as the initial transition, but it will have a unique condition and action. Shared transitions can also be created from within the transition designer by clicking **Add shared trigger transition** at the bottom of the transition designer, and then selecting the desired target state from the **Available states to connect** drop-down.  
   
-## See Also  
+## See also  
  [StateMachine](../workflow-designer/statemachine-activity-designer.md)   
  [FinalState](../workflow-designer/finalstate-activity-designer.md)   
  [State](../workflow-designer/state-activity-designer.md)

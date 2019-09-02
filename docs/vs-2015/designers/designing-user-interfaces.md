@@ -22,6 +22,6 @@ You can create and design the user interface for your application by using a var
 |Developing a DirectX application in Visual Studio.|[Working with 3-D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|  
 |Standard icons available for your programs.|[The Visual Studio Image Library](../designers/the-visual-studio-image-library.md)|  
   
-## See Also  
+## See also  
  [Walkthrough: Create a Simple Application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)   
  [The Visual Studio Image Library](../designers/the-visual-studio-image-library.md)

@@ -96,7 +96,7 @@ manager: jillfra
   
  For more information about property functions, see [Property Functions](../msbuild/property-functions.md).  
   
-## See Also  
+## See also  
  [ItemMetadata Element (MSBuild)](../msbuild/itemmetadata-element-msbuild.md)   
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   

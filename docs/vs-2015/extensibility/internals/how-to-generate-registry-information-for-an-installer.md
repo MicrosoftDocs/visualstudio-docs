@@ -176,6 +176,6 @@ The RegPkg.exe utility can be used to generate a registration manifest for a man
     </Include>  
     ```  
   
-## See Also  
+## See also  
  [Registering VSPackages](registering-vspackages.md)   
  [VSPackages](../../extensibility/internals/vspackages.md)

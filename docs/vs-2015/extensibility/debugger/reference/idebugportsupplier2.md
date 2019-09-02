@@ -76,7 +76,7 @@ IDebugPortSupplier2 *GetPortSupplier(GUID *pPortSupplierGuid)
   
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## See Also  
+## See also  
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
  [GetPortSupplier](../../../extensibility/debugger/reference/idebugport2-getportsupplier.md)   
  [GetPortSupplier](../../../extensibility/debugger/reference/idebugcoreserver2-getportsupplier.md)   

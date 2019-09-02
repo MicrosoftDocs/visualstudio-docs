@@ -57,5 +57,5 @@ int Evaluate(
 ## Remarks  
  This method sets up and executes a call to the function represented by the [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) object.  
   
-## See Also  
+## See also  
  [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md)

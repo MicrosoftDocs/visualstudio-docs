@@ -272,5 +272,5 @@ public System.Windows.Controls.MediaElement MediaPlayer
   
      You should hear the chime sound.  
   
-## See Also  
+## See also  
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

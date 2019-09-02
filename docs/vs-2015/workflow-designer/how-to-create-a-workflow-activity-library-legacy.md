@@ -42,7 +42,7 @@ Follow these steps to create a Workflow Activity Library project using the legac
   
 8. Click **OK**.  
   
-## See Also  
+## See also  
  [Creating Legacy Workflow Projects](../workflow-designer/creating-legacy-workflow-projects.md)   
  [Using the Legacy Activity Designer](../workflow-designer/using-the-legacy-activity-designer.md)   
  [Legacy Workflow Activities](../workflow-designer/legacy-workflow-activities.md)   

@@ -46,5 +46,5 @@ Wraps the XML Documentation tool (xdcmake.exe), which merges XML document commen
 |**SuppressStartupBanner**|Optional **Boolean** parameter.<br /><br /> If `true`, prevents the display of the copyright and version number message when the task starts.<br /><br /> For more information, see the **/nologo** option in [XDCMake Reference](https://msdn.microsoft.com/library/14e65747-d000-4343-854b-8393bf01cbac).|  
 |**TrackerLogDirectory**|Optional **String** parameter.<br /><br /> Specifies the directory for the tracker log.|  
   
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)

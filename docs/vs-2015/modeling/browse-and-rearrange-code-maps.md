@@ -313,7 +313,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
   
  Alternatively, you can drag those assemblies or binaries to the same map from that folder.  
   
-## See Also  
+## See also  
  [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)   
  [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)   
  [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)   

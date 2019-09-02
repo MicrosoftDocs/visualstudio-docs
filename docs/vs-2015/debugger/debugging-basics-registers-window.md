@@ -52,6 +52,6 @@ EAX = 003110D8
 ## Register Groups  
  To reduce clutter, the **Registers** window organizes registers into groups. If you right-click on the **Registers** window, you will see a shortcut menu containing a list of groups, which you can display or hide as you see fit.  
   
-## See Also  
+## See also  
  [How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)   
  [Debugger Basics](../debugger/debugger-basics.md)

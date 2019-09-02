@@ -42,5 +42,5 @@ int GetRank(
 ## Remarks  
  Use the [GetDimensions](../../../extensibility/debugger/reference/idebugarrayobject-getdimensions.md) method to retrieve the size of each dimension of the array object.  
   
-## See Also  
+## See also  
  [IDebugArrayObject](../../../extensibility/debugger/reference/idebugarrayobject.md)

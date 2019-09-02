@@ -102,7 +102,7 @@ If you want to publish an application by using ClickOnce deployment, the applica
   
 3. Publish the application.  
   
-## See Also  
+## See also  
  [Strong-Named Assemblies](https://msdn.microsoft.com/library/d4a80263-f3e0-4d81-9b61-f0cbeae3797b)   
  [How to: Create a Public-Private Key Pair](https://msdn.microsoft.com/library/05026813-f3bd-4d7c-9e0b-fc588eb3d114)   
  [Signing Page, Project Designer](../ide/reference/signing-page-project-designer.md)   

@@ -311,7 +311,7 @@ You can allow an element to be dragged onto another, either from the toolbox or 
   
      You should not see the Unavailable pointer, and you should be able to drop the new **Input Port** on the existing one. Select the new **Input Port** and drag it to another point on the **Component**.  
   
-## See Also  
+## See also  
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)   
  [Customizing Tools and the Toolbox](../modeling/customizing-tools-and-the-toolbox.md)   
  [Circuit Diagrams sample DSL](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)

@@ -60,5 +60,5 @@ In this section, you'll learn more about the features Visual Studio Tools for Un
   
 - You can change how Visual Studio Tools for Unity generates project files by using the Unity style callback ProjectFileGeneration. For more information, see the Project File Generation example.  
   
-## See Also  
+## See also  
  [Unity Homepage](http://unity3d.com)

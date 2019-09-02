@@ -36,7 +36,7 @@ The **InitializeCorrelation** activity designer is used to create and configure 
 |<xref:System.ServiceModel.Activities.InitializeCorrelation.Correlation%2A>|False|The <xref:System.ServiceModel.Activities.CorrelationHandle> used to associate workflow activities in the correlation.|  
 |<xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData%2A>|False|A dictionary of correlation data that relates messages to the workflow instance.<br /><br /> Use the **Initialize Correlation** dialog box to configure the <xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData%2A>. [!INCLUDE[crabout](../includes/crabout-md.md)] the use this dialog box, see the [Type Collection Editor Dialog Box](../workflow-designer/type-collection-editor-dialog-box.md) topic.|  
   
-## See Also  
+## See also  
  [CorrelationScope](../workflow-designer/correlationscope-activity-designer.md)   
  [Receive](../workflow-designer/receive-activity-designer.md)   
  [ReceiveAndSendReply](../workflow-designer/receiveandsendreply-template-designer.md)   

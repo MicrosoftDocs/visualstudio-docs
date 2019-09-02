@@ -117,7 +117,7 @@ You can create several build configurations for a solution. For example, you can
   
 3. In the **Project contexts** pane, for every project, select the **Configuration** and **Platform** you want, and select whether to **Build** it and whether to **Deploy** it..  
   
-## See Also  
+## See also  
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
  [Building and Cleaning Projects and Solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)   
  [NIB How to: Modify Project Properties and Configuration Settings](https://msdn.microsoft.com/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)

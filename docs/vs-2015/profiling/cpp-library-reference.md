@@ -23,5 +23,5 @@ This section contains reference information for the Concurrency Visualizer SDK.
 ## In This Section  
  [Concurrency Namespace (Concurrency Visualizer)](../profiling/concurrency-namespace-concurrency-visualizer.md)  
   
-## See Also  
+## See also  
  [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)

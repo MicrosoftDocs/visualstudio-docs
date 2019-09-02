@@ -45,7 +45,7 @@ You can set and clear the **Word wrap** option. When this option is set, the por
     > [!NOTE]
     > These reminder arrows are not added to your code: they are for display purposes only.  
   
-## See Also  
+## See also  
  [Customizing the Editor](../../ide/customizing-the-editor.md)   
  [Text Editor Options Dialog Box](../../ide/reference/text-editor-options-dialog-box.md)   
  [Writing Code](../../ide/writing-code-in-the-code-and-text-editor.md)

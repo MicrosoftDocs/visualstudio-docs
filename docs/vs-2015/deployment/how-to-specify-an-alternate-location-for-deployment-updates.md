@@ -57,7 +57,7 @@ You can install your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] appl
   
  All [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications that use `<deploymentProvider>` should explicitly declare the permissions they need in their application manifest, so that the application does not receive different levels of trust on different computers.  
   
-## See Also  
+## See also  
  [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)   
  [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   

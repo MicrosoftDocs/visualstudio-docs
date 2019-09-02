@@ -49,6 +49,6 @@ enum MemoryTypeEnum {
 ## Requirements  
  Header: cvconst.h  
   
-## See Also  
+## See also  
  [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)   
  [IDiaStackWalkHelper::readMemory](../../debugger/debug-interface-access/idiastackwalkhelper-readmemory.md)

@@ -86,7 +86,7 @@ The Caller/Callee view displays profiling information about a selected function 
 |**Max Application Exclusive Time**|The maximum application exclusive time of a call to this function in this context.|  
 |**Min Application Exclusive Time**|The minimum application exclusive time of a call to this function in this context.|  
   
-## See Also  
+## See also  
  [How to: Customize Report View Columns](../profiling/how-to-customize-report-view-columns.md)   
  [Caller / Callee View - Sampling Data](../profiling/caller-callee-view-sampling-data.md)   
  [Caller/Callee View - .NET Memory Sampling Data](../profiling/caller-callee-view-dotnet-memory-sampling-data.md)   

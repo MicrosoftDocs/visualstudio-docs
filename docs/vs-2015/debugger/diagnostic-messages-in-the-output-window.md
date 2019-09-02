@@ -54,7 +54,7 @@ You can write run-time messages to the Output window using the Debug class or th
   
 - Threads that exit.  
   
-## See Also  
+## See also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Output Window](../ide/reference/output-window.md)   
  [Tracing and Instrumenting Applications](https://msdn.microsoft.com/library/773b6fc4-9013-4322-b728-5dec7a72e743)   

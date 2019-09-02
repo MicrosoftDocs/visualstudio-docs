@@ -57,7 +57,7 @@ After you create a template and compress the files into a .zip file, you may wan
   
 9. Run the following command: `devenv /installvstemplates`.  
   
-## See Also  
+## See also  
  [Customizing Templates](../ide/customizing-project-and-item-templates.md)   
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   

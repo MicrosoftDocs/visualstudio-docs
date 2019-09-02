@@ -77,7 +77,7 @@ You can link a use case in a use case diagram to another diagram or document. Fo
     > [!NOTE]
     > If you want to provide a file path, it is best to choose a file either in a common workspace (starting with '\\\\'), or a file within your Visual Studio solution. This ensures that the file path will remain valid on another team member's computer, or if the solution is moved. To add a document such as a Word document to your solution, right-click the solution in Solution Explorer, point to **Add** and then click **Existing Item**.  
   
-## See Also  
+## See also  
  [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)   
  [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md)   
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   

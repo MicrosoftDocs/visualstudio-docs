@@ -42,5 +42,5 @@ int GetRank(
 ## Remarks  
  The rank of an array corresponds to the number of dimensions. In C++ and C#, multi-dimensional arrays are really arrays of arrays and can therefore be considered just a one-dimensional array (and the `GetRank` method always returns 1). In [!INCLUDE[vbprvb](../../../includes/vbprvb-md.md)], on the other hand, multi-dimensional arrays are handled differently and the rank of such an array reflects the number of dimensions (and the `GetRank` method always returns the number of dimensions).  
   
-## See Also  
+## See also  
  [IDebugArrayField](../../../extensibility/debugger/reference/idebugarrayfield.md)

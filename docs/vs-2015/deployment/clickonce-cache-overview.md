@@ -30,5 +30,5 @@ All [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications, whether
   
  By default, client computers have 250 MB of storage for online [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications. Data files do not count toward this limit. A system administrator can enlarge or reduce this quota on a particular client computer by changing the registry key, HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Deployment\OnlineAppQuotaInKB, which is a DWORD value that expresses the cache size in kilobytes. For example, in order to reduce the cache size to 50 MB, you would change this value to 51200.  
   
-## See Also  
+## See also  
  [Accessing Local and Remote Data in ClickOnce Applications](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md)

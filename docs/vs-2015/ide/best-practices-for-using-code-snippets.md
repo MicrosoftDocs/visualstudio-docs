@@ -60,7 +60,7 @@ The code in a code snippet shows only the most basic way to do something. For mo
 
   - The snippet may contain references that are added silently to your project and may be loaded from anywhere on your system. These references may have been downloaded to your computer from where you downloaded the snippet. The snippet may then make a call to a method in the reference that executes malicious code. To protect yourself against such an attack, review the Imports and References blocks of the snippet file.  
   
-## See Also  
+## See also  
  [Visual Basic IntelliSense Code Snippets](https://msdn.microsoft.com/library/ffdde4c9-8141-4906-b09b-15181357a643)   
  [Securing Applications](../ide/securing-applications.md)   
  [Code Snippets](../ide/code-snippets.md)

@@ -42,6 +42,6 @@ int GetDocumentContext( 
 ## Remarks  
  Generally, the document context can be thought of as a position in a source file while the code context is a position of a code instruction in an execution stream.  
   
-## See Also  
+## See also  
  [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)   
  [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)

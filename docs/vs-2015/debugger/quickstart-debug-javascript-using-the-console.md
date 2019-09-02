@@ -269,7 +269,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 - Internet Explorer 10 running on [!INCLUDE[win8](../includes/win8-md.md)]  
   
-## See Also  
+## See also  
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   
  [JavaScript Console commands](../debugger/javascript-console-commands.md)   
  [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)   

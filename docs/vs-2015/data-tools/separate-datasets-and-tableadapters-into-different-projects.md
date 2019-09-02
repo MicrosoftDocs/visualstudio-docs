@@ -59,7 +59,7 @@ Typed datasets have been enhanced so that the [TableAdapters](https://msdn.micro
 > [!NOTE]
 > To view the generated class file, select the dataset or `TableAdapter` project. Then, in  **Solution Explorer**, select **Show All Files** .  
   
-## See Also  
+## See also  
  [N-Tier Data Applications Overview](../data-tools/n-tier-data-applications-overview.md)   
  [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)   
  [Hierarchical update](../data-tools/hierarchical-update.md)   

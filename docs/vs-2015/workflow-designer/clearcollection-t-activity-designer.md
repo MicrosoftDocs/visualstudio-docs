@@ -32,7 +32,7 @@ The **ClearCollection\<T>** activity designer is used to create and configure a 
 |<xref:System.Activities.Statements.ClearCollection%601.Collection%2A>|True|Specifies the collection to be cleared of items. This collection is of type **ICollection\<TypeArgument>.** To specify the collection, type a Visual Basic expression in the property grid.|  
 |*TypeArgument*|True|Specifies the type T of the items contained in the <xref:System.Collections.Generic.ICollection%601>. By default, this *TypeArgument* type is set to **Int32**. To change the type, change the value of the *TypeArgument* in the combo box in the property grid.|  
   
-## See Also  
+## See also  
  [Collection](../workflow-designer/collection-activity-designers.md)   
  [AddToCollection\<T>](../workflow-designer/addtocollection-t-activity-designer.md)   
  [ExistsInCollection\<T>](../workflow-designer/existsincollection-t-activity-designer.md)   

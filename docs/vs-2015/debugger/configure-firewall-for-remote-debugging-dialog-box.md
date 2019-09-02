@@ -40,7 +40,7 @@ This dialog box appears when the Windows Firewall blocks the debugger from recei
  **Unblock remote debugging from any computer**  
  Enables remote debugging of machines anywhere on the network. This setting is the least secure.  
   
-## See Also  
+## See also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Set Up the Remote Tools on the Device](https://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c)   
  [Debugging User Interface Reference](../debugger/debugging-user-interface-reference.md)

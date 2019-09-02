@@ -156,6 +156,6 @@ Unit tests in Visual Studio can be configured by using a *.runsettings file. (Th
 |InProcMode|false|If you want your tests to be run in the same process as the MS Test adapter, set this value to true. This setting provides a minor performance gain. But if a test exits with an exception, the other tests will not continue.|  
 |AssemblyResolution|false|You can specify paths to additional assemblies when finding and running unit tests.  For example, use these paths for dependency assemblies that don't reside in the same directory as the test assembly.  To specify a path, use a "Directory Path" element.  Paths can contain environment variables.<br /><br /> `<AssemblyResolution>  <Directory Path>"D:\myfolder\bin\" includeSubDirectories="false"/> </AssemblyResolution>`|  
   
-## See Also  
+## See also  
  [Customizing Code Coverage Analysis](../test/customizing-code-coverage-analysis.md)   
  [Specifying Test Settings for Visual Studio Tests](https://msdn.microsoft.com/library/0c15317e-80c6-4317-aed3-82b8e15e3901)

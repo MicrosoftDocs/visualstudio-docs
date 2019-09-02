@@ -31,7 +31,7 @@ The **Delay** activity designer is used to create and configure a <xref:System.A
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The friendly name of the <xref:System.Activities.Statements.Delay> activity. The default is Delay. Although the <xref:System.Activities.Activity.DisplayName%2A> value is not strictly required, it is a best practice to use one.|  
 |<xref:System.Activities.Statements.Delay.Duration%2A>|True|The amount of time to delay the workflow. This property is set in the property grid. Type in either a literal <xref:System.TimeSpan> in the format 00:00:00 or a Visual Basic expression to specify the amount of time.|  
   
-## See Also  
+## See also  
  [Primitives](../workflow-designer/primitives-activity-designers.md)   
  [Assign](../workflow-designer/assign-activity-designer.md)   
  [Delay Activity Designer](../workflow-designer/delay-activity-designer.md)   

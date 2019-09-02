@@ -54,7 +54,7 @@ In Visual Studio, a *sequence diagram* shows an interaction, which represents th
 ||**Interaction**|The collection of messages and lifelines that is displayed in the sequence diagram. To view the properties of an Interaction, you must select it in **UML Model Explorer**.|  
 ||**Sequence Diagram**|The diagram that displays an Interaction. To view its properties, click on an empty part of the diagram. **Note:**  The names of the Sequence Diagram, the Interaction that it displays, and the file that contains the diagram can all be different.|  
   
-## See Also  
+## See also  
  [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md)   
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
  [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)   

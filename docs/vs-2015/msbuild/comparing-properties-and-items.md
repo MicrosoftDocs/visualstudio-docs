@@ -175,5 +175,5 @@ KeyFileVersion:
 KeyFileVersion: 1.0.0.3  
 ```  
   
-## See Also  
+## See also  
  [Advanced Concepts](../msbuild/msbuild-advanced-concepts.md)

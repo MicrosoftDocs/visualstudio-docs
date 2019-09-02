@@ -39,5 +39,5 @@ int Equal(
 ## Return Value  
  If the fields are the same, returns `S_OK`. If the fields are different, returns `S_FALSE.` Otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

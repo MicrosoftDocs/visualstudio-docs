@@ -235,6 +235,6 @@ Text="{Binding Path=Attribute[id].Value}"...Text="{Binding Path=Value}"
 ### Comments  
  For the C# source code for the event handlers associated with the WPF UI elements, see [L2DBForm.xaml.cs Source Code](../designers/l2dbform-xaml-cs-source-code.md).  
   
-## See Also  
+## See also  
  [Walkthrough: LinqToXmlDataBinding Example](../designers/walkthrough-linqtoxmldatabinding-example.md)   
  [L2DBForm.xaml.cs Source Code](../designers/l2dbform-xaml-cs-source-code.md)

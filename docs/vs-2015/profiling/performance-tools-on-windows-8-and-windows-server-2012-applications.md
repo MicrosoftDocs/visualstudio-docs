@@ -138,7 +138,7 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
   
    Tier interaction data can only be viewed in the [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)] or [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)] IDE. File based tier interaction reports through [VSPerfReport](../profiling/vsperfreport.md) are not available.  
   
-## See Also  
+## See also  
  [Performance Explorer](../profiling/performance-explorer.md)   
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)

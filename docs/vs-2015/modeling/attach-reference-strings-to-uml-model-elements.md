@@ -36,7 +36,7 @@ You can write code to attach arbitrary strings to model elements. A string could
 |`reference.Delete()`|Deletes this `IReference`.|  
 |`ReferenceConstants.WorkItem`|The value used to name work item references.|  
   
-## See Also  
+## See also  
  [Define a work item link handler](../modeling/define-a-work-item-link-handler.md)   
  [Define and install a modeling extension](../modeling/define-and-install-a-modeling-extension.md)   
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)

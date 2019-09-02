@@ -256,7 +256,7 @@ For more information, see [How to: Change the Build Output Directory](../ide/how
 
    Congratulations: you’ve successfully completed this walkthrough.
 
-## See Also
+## See also
 
 - [Walkthrough: Building a Project (C++)](https://msdn.microsoft.com/library/d459bc03-88ef-48d0-9f9a-82d17f0b6a4d)
 - [ASP.NET Web Application Project Precompilation Overview](https://msdn.microsoft.com/b940abbd-178d-4570-b441-52914fa7b887)

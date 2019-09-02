@@ -42,6 +42,6 @@ DWORD offset;
 pLine->get_addressOffset( &offset);  
 ```  
   
-## See Also  
+## See also  
  [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)   
  [IDiaLineNumber::get_addressSection](../../debugger/debug-interface-access/idialinenumber-get-addresssection.md)

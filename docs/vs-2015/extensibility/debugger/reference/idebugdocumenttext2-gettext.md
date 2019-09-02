@@ -93,6 +93,6 @@ namespace Mynamespace
 }  
 ```  
   
-## See Also  
+## See also  
  [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)   
  [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)

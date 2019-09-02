@@ -89,7 +89,7 @@ This dialog box allows you to change the default behavior of the Code Editor. Th
  Navigation bar  
  When selected, displays the **Navigation bar** at the top of the code editor. Its dropdown **Objects** and **Members** lists allow you to choose a particular object in your code, select from its members, and navigates to the declaration of the selected member in the Code Editor.  
   
-## See Also  
+## See also  
  [Options, Text Editor, All Languages, Tabs](../../ide/reference/options-text-editor-all-languages-tabs.md)   
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)   
  [Using IntelliSense](../../ide/using-intellisense.md)

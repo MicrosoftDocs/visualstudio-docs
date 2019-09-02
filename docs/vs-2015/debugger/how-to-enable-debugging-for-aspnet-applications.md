@@ -81,5 +81,5 @@ For example, you could specify `debug="true"` in www.microsoft.com/aaa/Web.confi
   
 Enabling debug mode will greatly affect the performance of your [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] application. Remember to disable debug mode before you deploy a release application or conduct performance measurements.  
   
-## See Also  
+## See also  
 [Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)  

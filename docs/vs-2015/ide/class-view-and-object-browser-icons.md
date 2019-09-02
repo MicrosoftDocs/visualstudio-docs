@@ -55,5 +55,5 @@ Class View** and the **Object Browser** display icons that represent code entiti
 |![Signal Friend&#47;Internal Symbol](../ide/media/vxsignal-icon-diamond.gif "vxSignal_Icon_Diamond")|Friend/Internal. Accessible only from the project.|  
 |![Signal Icon Arrow](../ide/media/vxsignal-icon-arrow.gif "vxSignal_Icon_Arrow")|Shortcut. A shortcut to the object.|  
   
-## See Also  
+## See also  
  [Viewing the Structure of Code](../ide/viewing-the-structure-of-code.md)

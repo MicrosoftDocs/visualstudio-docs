@@ -55,6 +55,6 @@ Removes the specified directories and all of its files and subdirectories.
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)

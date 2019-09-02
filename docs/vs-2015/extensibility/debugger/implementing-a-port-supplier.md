@@ -30,5 +30,5 @@ A port supplier supplies ports on request to the session debug manager (SDM). A 
  [Debugger Concepts](../../extensibility/debugger/debugger-concepts.md)  
  Describes the main debugging architectural concepts.  
   
-## See Also  
+## See also  
  [Visual Studio Debugger Extensibility](../../extensibility/debugger/visual-studio-debugger-extensibility.md)

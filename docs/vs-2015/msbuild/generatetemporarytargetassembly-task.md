@@ -67,7 +67,7 @@ The <xref:Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly> task ge
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [WPF MSBuild Reference](../msbuild/wpf-msbuild-reference.md)   
  [Task Reference](../msbuild/wpf-msbuild-task-reference.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   

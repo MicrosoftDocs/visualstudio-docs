@@ -149,7 +149,7 @@ You can provide localized text for menu and toolbar commands by creating localiz
   
      This creates a main assembly, and resource assemblies for each language. For information on localizing the deployment process, see [Localizing VSIX Packages](../extensibility/localizing-vsix-packages.md)  
   
-## See Also  
+## See also  
  [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)   
  [MenuCommands Vs. OleMenuCommands](../misc/menucommands-vs-olemenucommands.md)   
  [Globalization and Localization](https://msdn.microsoft.com/library/9a59696b-d89b-45bd-946d-c75da4732d02)

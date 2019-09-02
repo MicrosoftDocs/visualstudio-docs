@@ -147,6 +147,6 @@ The XML Editor has the ability to generate XML snippets from an XML Schema defin
 </Contact>  
 ```  
   
-## See Also  
+## See also  
  [XML Snippets](../xml-tools/xml-snippets.md)   
  [How to: Use XML Snippets](../xml-tools/how-to-use-xml-snippets.md)

@@ -42,5 +42,5 @@ Follow these steps to create an Empty Workflow Project using the legacy [!INCLUD
   
 8. Click **OK**.  
   
-## See Also  
+## See also  
  [Creating Legacy Workflow Projects](../workflow-designer/creating-legacy-workflow-projects.md)

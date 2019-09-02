@@ -27,7 +27,7 @@ elem.Value
 ## Remarks  
  This property is equivalent to the <xref:System.Xml.Linq.XElement.Value%2A> property of the <xref:System.Xml.Linq.XElement?displayProperty=fullName> class, but this dynamic property also supports change notifications.  
   
-## See Also  
+## See also  
  <xref:System.Xml.Linq.XElement.Value%2A?displayProperty=fullName>   
  [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)   
  [Xml](../designers/xml-xelement-dynamic-property.md)

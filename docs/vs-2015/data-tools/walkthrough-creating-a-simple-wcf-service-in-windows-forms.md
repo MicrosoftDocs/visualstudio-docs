@@ -120,5 +120,5 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[vsindigo](../incl
 
      ![The form showing the result](../data-tools/media/wcf10.png "wcf10")
 
-## See Also
+## See also
  [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)

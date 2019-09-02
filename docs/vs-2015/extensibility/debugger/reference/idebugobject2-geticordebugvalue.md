@@ -42,5 +42,5 @@ int GetICorDebugValue(
 ## Remarks  
  The `ICorDebugValue` object is a Common Language Runtime interface that represents a value.  
   
-## See Also  
+## See also  
  [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)

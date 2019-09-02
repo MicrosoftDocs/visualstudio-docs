@@ -48,5 +48,5 @@ This source-control plug-in test area covers delete actions.
 |Delete a File System Web project|1.  Create a File System Web project (use the Browse button to specify a UNC path).<br />2.  Add the solution to source control.<br />3.  Remove the entire project from the solution.<br />4.  Repeat steps 1 through 3 for a local Web project (exercises different paths through the code but has the same external interface and behavior).|Common Expected Behavior.|  
 |Delete a file from a File System Web project|1.  Create a File System Web project.<br />2.  Add the solution to source control.<br />3.  Delete a file from the project.<br />4.  Repeat steps 1 through 3 for a local Web project (exercises different paths through the code but has the same external interface and behavior).|Common Expected Behavior.|  
   
-## See Also  
+## See also  
  [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

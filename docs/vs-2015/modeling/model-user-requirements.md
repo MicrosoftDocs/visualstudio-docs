@@ -232,7 +232,7 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
   
   By examining the relationships between the views that different diagrams provide, you can quickly understand the main concepts with which your users work, and help them to understand what they need from the system. You also reach a better understanding of what requirements the stakeholders are least certain about. You can plan to develop those features, at least in simplified form, at an early stage of the project, to allow users to experiment with them.  
   
-## See Also  
+## See also  
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
  [Develop tests from a model](../modeling/develop-tests-from-a-model.md)   
  [Use models in your development process](../modeling/use-models-in-your-development-process.md)   

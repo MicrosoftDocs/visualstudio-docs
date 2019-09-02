@@ -80,7 +80,7 @@ manager: jillfra
  [How to: Invoke a WCF Contract Operation (Legacy)](../workflow-designer/how-to-invoke-a-windows-communication-foundation-contract-operation-legacy.md)  
  Shows the steps to invoke a [!INCLUDE[indigo2](../includes/indigo2-md.md)] contract operation.  
   
-## See Also  
+## See also  
  [Windows Workflow Foundation Activities](http://go.microsoft.com/fwlink?LinkID=65005)   
  [Developing Workflows](http://go.microsoft.com/fwlink?LinkID=65010)   
  [Developing Workflow Activities](http://go.microsoft.com/fwlink?LinkID=65023)

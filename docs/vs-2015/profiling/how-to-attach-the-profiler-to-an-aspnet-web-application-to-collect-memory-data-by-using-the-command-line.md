@@ -121,6 +121,6 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
     **IISReset /start**  
 
-## See Also  
+## See also  
  [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
  [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md)

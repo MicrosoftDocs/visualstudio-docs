@@ -47,5 +47,5 @@ int GetValue(
 ## Remarks  
  Get the total number of value bytes that can be fetched by calling the [GetSize](../../../extensibility/debugger/reference/idebugobject-getsize.md) method.  
   
-## See Also  
+## See also  
  [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

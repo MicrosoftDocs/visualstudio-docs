@@ -115,5 +115,5 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
   
 - In the Document Outline window or the artboard, right-click the element, choose **Layout**, **Reset** *PropertyName*, where *PropertyName* is the property that you want to reset (or choose **Layout**, **Reset All** to reset all the layout properties for the element).  
   
-## See Also  
+## See also  
  [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)

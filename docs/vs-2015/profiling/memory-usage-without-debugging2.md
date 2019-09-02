@@ -196,7 +196,7 @@ You can use the **Memory Usage** tool without debugging to do the following
 |**Size (Bytes)**|For an instance, the size of the object in the primary snapshot, excluding the size of objects contained in the instance.<br /><br /> For a type, the total size of the instances of the type in the primary snapshot, excluding the size of objects contained in the instance.|  
 |**Inclusive Size (Bytes)**|The size of the objects in the primary snapshot, including the size of objects contained in the objects.|  
   
-## See Also  
+## See also  
  [JavaScript Memory](../profiling/javascript-memory.md)   
  [Analyze app performance](https://msdn.microsoft.com/library/58acb30b-8428-41a6-b195-b0fdedb89575)   
  [Run performance and diagnostic tools](https://msdn.microsoft.com/library/788279d8-f56b-40a0-9bef-facc3dfba471)   

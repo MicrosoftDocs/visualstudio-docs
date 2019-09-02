@@ -54,6 +54,6 @@ Retrieves the path to the [!INCLUDE[winsdklong](../includes/winsdklong-md.md)].
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)

@@ -474,6 +474,6 @@ Programming languages that target the .NET Framework use MSBuild project files t
 ## What's Next?  
  Visual Studio can automatically do much of the work that is shown in this walkthrough. To learn how to use Visual Studio to create, edit, build, and test MSBuild project files, see [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md).  
   
-## See Also  
+## See also  
 [MSBuild Overview](msbuild.md)  
  [MSBuild Reference](../msbuild/msbuild-reference.md)

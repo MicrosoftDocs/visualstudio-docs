@@ -52,6 +52,6 @@ int GetMethodFieldsByName(
 ## Remarks  
  A method can be associated with multiple fields if it is overloaded, for example.  
   
-## See Also  
+## See also  
  [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)   
  [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)

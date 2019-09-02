@@ -67,5 +67,5 @@ The Windows Installer installs and uninstalls applications or software products 
   
 - No versioned resource should ever ship in more than one WIC.  
   
-## See Also  
+## See also  
  [What Happens if the Component Rules Are Broken?](https://msdn.microsoft.com/library/aa372795\(VS.85\).aspx)

@@ -150,5 +150,5 @@ One of the most common scenarios in application development is to display data o
   
 - Editing the data source to add or remove database objects. For more information, see [How to: Edit a Dataset](https://msdn.microsoft.com/library/f2dade5f-9c7a-4ddb-96a8-e0a39e50bfd3).  
   
-## See Also  
+## See also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

@@ -325,7 +325,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
    Congratulations on completing this walkthrough! You can find the .exe you built under your solution and project directory (…\HelloWPFApp\HelloWPFApp\bin\Release\\). If you want to explore more examples, see [Visual Studio Samples](../ide/visual-studio-samples.md).  
   
-## See Also  
+## See also  
  [What's New in Visual Studio 2015](../what-s-new-in-visual-studio-2015.md)   
  [Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)   
  [Productivity Tips](../ide/productivity-tips-for-visual-studio.md)

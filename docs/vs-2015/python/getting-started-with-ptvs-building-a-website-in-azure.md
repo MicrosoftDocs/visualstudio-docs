@@ -27,6 +27,6 @@ You can get started quickly building a Python web site in Azure.
   
  You can watch these instructions in a very short [youtube video](https://www.youtube.com/watch?v=FJx5mutt1uk&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=6).  
   
-## See Also  
+## See also  
  [Wiki documentation](https://github.com/Microsoft/PTVS/wiki/Web-Project)   
  [PTVS Getting Started and Deep Dive Videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)

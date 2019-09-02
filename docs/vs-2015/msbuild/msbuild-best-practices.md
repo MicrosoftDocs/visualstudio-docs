@@ -28,5 +28,5 @@ We recommend the following best practices for writing MSBuild scripts:
   
 - Avoid wildcards when you select items. Instead, specify files explicitly. This makes it easier to track down errors that may occur when you add or delete files.  
   
-## See Also  
+## See also  
  [Advanced Concepts](../msbuild/msbuild-advanced-concepts.md)

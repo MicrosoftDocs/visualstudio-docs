@@ -379,7 +379,7 @@ N-tier* data applications are applications that access data and are separated in
   
 - Add additional methods to the service for updating data back to the database.  
   
-## See Also  
+## See also  
  [Work with datasets in n-tier applications](../data-tools/work-with-datasets-in-n-tier-applications.md)   
  [Hierarchical update](../data-tools/hierarchical-update.md)   
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)

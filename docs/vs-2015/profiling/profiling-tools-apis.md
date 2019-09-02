@@ -28,5 +28,5 @@ You can insert managed or native methods of the APIs of the [!INCLUDE[vsprvs](..
 ## Related Sections
  [Controlling Data Collection](../profiling/controlling-data-collection.md)
 
-## See Also
+## See also
  [Performance Explorer](../profiling/performance-explorer.md)

@@ -35,6 +35,6 @@ This topic describes how to change the debug stepping option for [!INCLUDE[wf](.
   
 4. Select either **Instance** or **Branch**.  
   
-## See Also  
+## See also  
  [Debugging Legacy Workflows](../workflow-designer/debugging-legacy-workflows.md)   
  [Debug Stepping Options (Legacy)](../workflow-designer/debug-stepping-options-legacy.md)

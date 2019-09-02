@@ -32,7 +32,7 @@ The **WriteLine** activity designer is used to create and configure a <xref:Syst
 |<xref:System.Activities.Statements.WriteLine.Text%2A>|False|The text to write. To set the property, type a Visual Basic expression in the **Text** box on the **WriteLine** activity designer or in the property grid.|  
 |<xref:System.Activities.Statements.WriteLine.TextWriter%2A>|False|The <xref:System.IO.TextWriter> to which the <xref:System.Activities.Statements.WriteLine> writes the <xref:System.Activities.Statements.WriteLine.Text%2A>. The default is the console.|  
   
-## See Also  
+## See also  
  [Primitives](../workflow-designer/primitives-activity-designers.md)   
  [Assign](../workflow-designer/assign-activity-designer.md)   
  [Delay](../workflow-designer/delay-activity-designer.md)   

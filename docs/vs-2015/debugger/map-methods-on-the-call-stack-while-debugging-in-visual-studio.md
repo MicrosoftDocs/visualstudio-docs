@@ -159,7 +159,7 @@ Create a code map to visually trace the call stack while you’re debugging. You
 
   See: [Map the call stack](#MapStack) • [Make notes about the code](#MakeNotes) • [Update the map with the next call stack](#UpdateMap) • [Add related code to the map](#AddRelatedCode) • [Find bugs using the map](#FindBugs)
 
-## See Also
+## See also
  [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
  [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
  [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)

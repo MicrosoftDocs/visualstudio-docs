@@ -37,7 +37,7 @@ manager: jillfra
 |Test Impact is removed|||
 |Sharing of run results through TRX logs from Test Explorer.||You can still get TRX logs from both the command line and Team Build.|
 
-## See Also
+## See also
  [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)
  [Unit Test Your Code](../test/unit-test-your-code.md)
  [Upgrading Tests from Earlier Versions of Visual Studio](https://msdn.microsoft.com/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52)

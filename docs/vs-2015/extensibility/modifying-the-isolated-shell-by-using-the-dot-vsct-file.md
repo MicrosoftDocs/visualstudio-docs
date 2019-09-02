@@ -50,5 +50,5 @@ The UI project for a Visual Studio isolated shell project contains a .vsct file 
   
  For more information, see [Designing XML Command Table (.Vsct) Files](../extensibility/internals/designing-xml-command-table-dot-vsct-files.md) and the [VSCT XML Schema Reference](../extensibility/vsct-xml-schema-reference.md).  
   
-## See Also  
+## See also  
  [Visual Studio Isolated Shell](../extensibility/visual-studio-isolated-shell.md)

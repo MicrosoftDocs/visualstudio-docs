@@ -46,5 +46,5 @@ HRESULT get_localBasePointerRegisterId ( 
   
  DLL: msdia100.dll  
   
-## See Also  
+## See also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

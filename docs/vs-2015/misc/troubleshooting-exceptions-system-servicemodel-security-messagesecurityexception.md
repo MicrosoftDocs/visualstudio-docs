@@ -78,6 +78,6 @@ A <xref:System.ServiceModel.Security.MessageSecurityException> exception is thro
   
 3. Click **OK**.  
   
-## See Also  
+## See also  
  <xref:System.ServiceModel.Security.MessageSecurityException>   
  [Use the Exception Assistant](https://msdn.microsoft.com/library/e0a78c50-7318-4d54-af51-40c00aea8711)

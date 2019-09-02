@@ -47,5 +47,5 @@ int CreatePrimitiveObject(
 ## Remarks  
  Call this method to create an object that represents a primitive object that is a parameter to the function which is represented by the [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) interface. For example, if the expression string is "myString(5)", this method would be used to create an object representing the integer 5.  
   
-## See Also  
+## See also  
  [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md)

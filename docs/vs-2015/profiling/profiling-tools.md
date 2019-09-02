@@ -90,5 +90,5 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
 |[HTML UI responsiveness](../profiling/html-ui-responsiveness.md)|no|yes for HTML, no for XAML|no|  
 |[JavaScript Memory](../profiling/javascript-memory.md)|no|yes for HTML, no for XAML|no|  
   
-## See Also  
+## See also  
  [Visual Studio IDE](../ide/visual-studio-ide.md)

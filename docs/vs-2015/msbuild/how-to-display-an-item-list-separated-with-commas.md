@@ -63,6 +63,6 @@ When you work with item lists in [!INCLUDE[vstecmsbuildengine](../includes/vstec
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Items](../msbuild/msbuild-items.md)

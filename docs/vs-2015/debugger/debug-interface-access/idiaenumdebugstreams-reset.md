@@ -28,5 +28,5 @@ HRESULT Reset ();
 ## Return Value  
  Returns `S_OK`.  
   
-## See Also  
+## See also  
  [IDiaEnumDebugStreams](../../debugger/debug-interface-access/idiaenumdebugstreams.md)

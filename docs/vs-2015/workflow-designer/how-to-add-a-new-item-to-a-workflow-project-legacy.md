@@ -41,5 +41,5 @@ After you have created a workflow project using the legacy [!INCLUDE[wfd1](../in
   
 3. Click **Add** to add the item to the workflow project.  
   
-## See Also  
+## See also  
  [Creating Legacy Workflow Projects](../workflow-designer/creating-legacy-workflow-projects.md)

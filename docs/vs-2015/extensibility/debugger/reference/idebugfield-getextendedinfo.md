@@ -57,5 +57,5 @@ int GetExtendedInfo(
 ## Remarks  
  Currently, this method returns only the type or value of a constant. The caller must free the buffer returned in `prgBuffer` by calling COM's `CoTaskMemFree` function (C++) or <xref:System.Runtime.InteropServices.Marshal.FreeCoTaskMem%2A> (C#).  
   
-## See Also  
+## See also  
  [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

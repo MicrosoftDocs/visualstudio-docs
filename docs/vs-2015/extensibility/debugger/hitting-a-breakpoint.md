@@ -23,5 +23,5 @@ The following describes the process when the debug engine (DE) hits a breakpoint
   
 2. The session debug manager (SDM) calls [IDebugBreakpointEvent2:::EnumBreakpoints](../../extensibility/debugger/reference/idebugbreakpointevent2-enumbreakpoints.md) to get the breakpoint that was hit.  
   
-## See Also  
+## See also  
  [Calling Debugger Events](../../extensibility/debugger/calling-debugger-events.md)

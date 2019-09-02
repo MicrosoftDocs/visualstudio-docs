@@ -42,7 +42,7 @@ int GetTypeInfo(
 ## Remarks  
  Type-independent information would include, for example, the AppDomain, the module, and the class that contains the symbol.  
   
-## See Also  
+## See also  
  [GetType](../../../extensibility/debugger/reference/idebugfield-gettype.md)   
  [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)   
  [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md)

@@ -64,7 +64,7 @@ int GetPropertyInfo ( 
 ## Return Value  
  If successful, returns `S_OK`; otherwise returns error code.  
   
-## See Also  
+## See also  
  [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)   
  [DEBUGPROP_INFO_FLAGS](../../../extensibility/debugger/reference/debugprop-info-flags.md)   
  [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)   

@@ -32,7 +32,7 @@ Properties and fields that are collections of other types can be displayed on th
   
      The property or field is shown as an association line linking to the collected type.  
   
-## See Also  
+## See also  
  [How to: Create Associations Between Types (Class Designer)](../ide/how-to-create-associations-between-types-class-designer.md)   
  [Designing Classes and Types (Class Designer)](../ide/designing-classes-and-types-class-designer.md)   
  [Viewing Types and Relationships (Class Designer)](../ide/viewing-types-and-relationships-class-designer.md)

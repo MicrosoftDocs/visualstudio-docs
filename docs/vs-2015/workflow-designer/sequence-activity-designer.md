@@ -27,6 +27,6 @@ The <xref:System.Activities.Statements.Sequence> activity contains an ordered co
 |-------------------|--------------|-----------|  
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the friendly name of the <xref:System.Activities.Statements.Sequence> activity designer in the header. The default value is Sequence. The value can be edited in the property grid or directly on the header of the activity designer.<br /><br /> Although the <xref:System.Activities.Activity.DisplayName%2A> is not strictly required, it is a best practice to use one.|  
   
-## See Also  
+## See also  
  [Flowchart](../workflow-designer/flowchart-activity-designer.md)   
  [Control Flow](../workflow-designer/control-flow-activity-designers.md)

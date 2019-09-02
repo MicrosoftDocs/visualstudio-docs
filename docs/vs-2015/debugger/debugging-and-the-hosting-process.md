@@ -35,7 +35,7 @@ The Visual Studio hosting process improves debugger performance and enables new 
 ## Assembly.GetCallingAssembly().FullName Differences  
  `Assembly.GetCallingAssembly().FullName` returns different results depending on whether the hosting process is enabled. If you call `Assembly.GetCallingAssembly().FullName` with the hosting process enabled, it returns `mscorlib`. If you call `Assembly.GetCallingAssembly().FullName` with the hosting process disabled, it returns the application name.  
   
-## See Also  
+## See also  
  [Hosting Process (vshost.exe)](../ide/hosting-process-vshost-exe.md)   
  [How to: Debug a Partial Trust Application](../debugger/how-to-debug-a-partial-trust-application.md)   
  [How to: Disable the Hosting Process](../ide/how-to-disable-the-hosting-process.md)

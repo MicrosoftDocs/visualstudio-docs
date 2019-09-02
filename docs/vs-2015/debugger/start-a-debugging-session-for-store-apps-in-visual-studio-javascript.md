@@ -252,7 +252,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
    Visual Studio attaches the debugger to the process. Execution continues until a breakpoint is reached, you manually suspend execution, an unhandled exception occurs, or the app ends.
 
-## See Also
+## See also
  [Control execution in a debug session (JavaScript)](../debugger/control-execution-of-a-store-app-in-a-visual-studio-debug-session-for-windows-store-apps-javascript.md)
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)
  [Trigger suspend, resume, and background events for Windows Store)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md)

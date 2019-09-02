@@ -72,6 +72,6 @@ SCCRTN SccHistory(
 > [!NOTE]
 > If the source control plug-in does not support this function for an array of files, only the file history for the first file can be displayed.  
   
-## See Also  
+## See also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
  [SccOpenProject](../extensibility/sccopenproject-function.md)

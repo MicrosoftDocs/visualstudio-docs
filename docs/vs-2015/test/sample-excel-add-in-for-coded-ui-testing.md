@@ -39,7 +39,7 @@ This sample Add-In for [!INCLUDE[ofprexcel](../includes/ofprexcel-md.md)] is des
 ## ExcelUICommunicator Class  
  This class implements the `IExcelUITestCommunication` interface and gets the requested UI information from the Excel object model. For more information, see [Sample Excel Communicator Interface](../test/sample-excel-communicator-interface.md).  
   
-## See Also  
+## See also  
  [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)   
  [Walkthrough: Creating Your First VSTO Add-in for Excel](https://msdn.microsoft.com/library/a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f)   
  [Office and SharePoint Development](https://msdn.microsoft.com/library/2ddec047-263a-4901-a54c-a15fc8472329)

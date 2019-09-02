@@ -90,6 +90,6 @@ You can view the profiling data of a performance session in the **Performance Re
   
 - **Export** - saves the current report in .CVS-formatted or .XML-formatted file, with options to save the different views.  
   
-## See Also  
+## See also  
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)   
  [Performance Report Views](../profiling/performance-report-views.md)

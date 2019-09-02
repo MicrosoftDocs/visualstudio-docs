@@ -32,6 +32,6 @@ This topic describes how to disable the [!INCLUDE[vsprvs](../includes/vsprvs-md.
 </configuration>
 ```
 
-## See Also
+## See also
  [Invoking the Visual Studio Debugger for Windows Workflow Foundation (Legacy)](../workflow-designer/invoking-the-visual-studio-debugger-for-windows-workflow-foundation-legacy.md)
  [Debugging Legacy Workflows](../workflow-designer/debugging-legacy-workflows.md)

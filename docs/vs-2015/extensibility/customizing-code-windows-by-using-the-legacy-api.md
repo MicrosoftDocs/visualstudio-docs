@@ -35,7 +35,7 @@ Code window
  [How to: Fire Events When the Editor Loses Focus](../extensibility/how-to-fire-events-when-the-editor-loses-focus.md)  
  Explains how to attach a document view to a document data object.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.TextManager.Interop.VsCodeWindow>   
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>   
  <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer>   

@@ -117,7 +117,7 @@ This walkthrough takes you through profiling a [!INCLUDE[dnprdnshort](../include
   
      You can analyze the generated reports in a spreadsheet program, or you can use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE to analyze the profiling data in the Report.vsp file. For more information, see [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md).  
   
-## See Also  
+## See also  
  [Performance Session Overview](../profiling/performance-session-overview.md)   
  [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)   
  [VSPerfCmd](../profiling/vsperfcmd.md)   

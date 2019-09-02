@@ -33,5 +33,5 @@ Microsoft is committed to making its products and services easier for everyone t
 ## Internet Explorer options  
  You can make the Help Viewer more accessible by changing Internet Explorer options that relate to how webpages appear. For more information, see [Customize the Help Viewer](../ide/customize-the-help-viewer.md).  
   
-## See Also  
+## See also  
  [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)

@@ -76,5 +76,5 @@ manager: jillfra
 ### Return Value  
  If successful, returns S_OK; otherwise, returns an HRESULT that represents the failure. If a managed exception occurs, returns 0x80020009 (DISP_E_EXCEPTION).  
   
-## See Also  
+## See also  
  <xref:System.Deployment.Application.DeploymentServiceCom.CleanOnlineAppCache%2A>

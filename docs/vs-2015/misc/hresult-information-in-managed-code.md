@@ -56,7 +56,7 @@ The interaction between managed code and COM can cause problems when HRESULT ret
 > [!NOTE]
 > Exceptions compromise performance and are intended to indicate abnormal program conditions. Conditions that occur often should be handled inline, instead of a thrown exception.  
   
-## See Also  
+## See also  
  [Managed VSPackages](../misc/managed-vspackages.md)   
  [Interoperating with Unmanaged Code](https://msdn.microsoft.com/library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)   
  [How to: Map HRESULTs and Exceptions](https://msdn.microsoft.com/library/610b364b-2761-429d-9c4a-afbc3e66f1b9)   

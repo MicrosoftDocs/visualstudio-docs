@@ -172,5 +172,5 @@ When displaying data on Windows Forms, you can choose existing controls from the
   
 - Navigate through some records, and verify that the `CompanyName` appears in the `LookupBox` control.  
   
-## See Also  
+## See also  
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

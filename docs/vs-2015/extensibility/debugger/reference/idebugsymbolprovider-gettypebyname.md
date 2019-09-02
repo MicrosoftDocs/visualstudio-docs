@@ -52,7 +52,7 @@ int GetTypeByName(
 ## Remarks  
  This method is a generic version of [GetClassTypeByName](../../../extensibility/debugger/reference/idebugsymbolprovider-getclasstypebyname.md).  
   
-## See Also  
+## See also  
  [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)   
  [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)   
  [NAME_MATCH](../../../extensibility/debugger/reference/name-match.md)   

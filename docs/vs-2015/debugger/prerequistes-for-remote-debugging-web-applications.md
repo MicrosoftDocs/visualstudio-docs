@@ -28,6 +28,6 @@ With the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] debugger, you can debug a 
   
 - By default, the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process runs as an ASPNET user process. As a result, you must have Administrator privileges on the computer where [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] runs to debug it. The name of the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process varies by debug scenario and version of IIS. For more information, see [How to: Find the Name of the ASP.NET Process](../debugger/how-to-find-the-name-of-the-aspnet-process.md).  
   
-## See Also  
+## See also  
  [Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)   
  [System Requirements](../debugger/aspnet-debugging-system-requirements.md)

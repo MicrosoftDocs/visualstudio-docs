@@ -37,5 +37,5 @@ HRESULT get_uniqueId ( 
 ## Remarks  
  Comparing keys rather than strings can accelerate line number processing.  
   
-## See Also  
+## See also  
  [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)

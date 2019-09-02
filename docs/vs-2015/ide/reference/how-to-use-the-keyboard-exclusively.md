@@ -90,7 +90,7 @@ manager: jillfra
   
      The tool window snaps into place at the new docking location.  
   
-## See Also  
+## See also  
  [Identifying and Customizing Keyboard Shortcuts](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)   
  [Accessibility Tips and Tricks](../../ide/reference/accessibility-tips-and-tricks.md)   
  [Default Keyboard Shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md)

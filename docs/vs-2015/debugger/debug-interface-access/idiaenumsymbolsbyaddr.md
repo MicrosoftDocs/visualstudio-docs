@@ -97,7 +97,7 @@ void ShowSymbolsByAddress(IDiaSession *pSession)
   
  DLL: msdia80.dll  
   
-## See Also  
+## See also  
  [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)   
  [IDiaSession::getSymbolsByAddr](../../debugger/debug-interface-access/idiasession-getsymbolsbyaddr.md)   
  [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)

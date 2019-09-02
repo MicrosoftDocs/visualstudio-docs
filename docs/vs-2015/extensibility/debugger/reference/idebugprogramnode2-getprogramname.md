@@ -56,5 +56,5 @@ HRESULT CProgram::GetProgramName(BSTR* pbstrProgramName) {
 }    
 ```  
   
-## See Also  
+## See also  
  [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

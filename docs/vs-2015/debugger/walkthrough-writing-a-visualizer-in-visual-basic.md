@@ -221,7 +221,7 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
   
    If you want to use your visualizer in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] rather than just calling it from the test harness, you have to install it. For more information, see [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).  
   
-## See Also  
+## See also  
  [Visualizer Architecture](../debugger/visualizer-architecture.md)   
  [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md)   
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)

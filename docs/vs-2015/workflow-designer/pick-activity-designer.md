@@ -32,7 +32,7 @@ The <xref:System.Activities.Statements.Pick> activity provides event-based contr
 |-------------------|--------------|-----------|  
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the friendly name of the <xref:System.Activities.Statements.Pick> activity designer in the header. The default value is Pick. The value can be edited in the property grid or directly on the header of the activity designer.<br /><br /> Although the <xref:System.Activities.Activity.DisplayName%2A> is not strictly required, it is a best practice to use one.|  
   
-## See Also  
+## See also  
  [Control Flow](../workflow-designer/control-flow-activity-designers.md)   
  [Pick Activity](https://msdn.microsoft.com/library/b3e49b7f-0285-4720-8c09-11ae18f0d53e)   
  [Using the Pick Activity](https://msdn.microsoft.com/library/b89be812-a247-4025-b0e3-ffb20db027a6)

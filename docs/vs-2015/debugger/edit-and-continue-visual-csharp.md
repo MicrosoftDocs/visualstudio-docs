@@ -33,6 +33,6 @@ With Edit and Continue for C#, you can make changes to your code in break mode w
   
  For more information, see [How to: Use Edit and Continue (C#)](../debugger/how-to-use-edit-and-continue-csharp.md).  
   
-## See Also  
+## See also  
  [How to: Use Edit and Continue (C#)](../debugger/how-to-use-edit-and-continue-csharp.md)   
  [Supported Code Changes (C#)](../debugger/supported-code-changes-csharp.md)

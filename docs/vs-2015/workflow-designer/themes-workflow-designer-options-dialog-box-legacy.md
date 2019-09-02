@@ -31,6 +31,6 @@ This topic describes how use the **Themes, Workflow Designer, Options** dialog b
 |**Description**|Theme description column heading of themes list.|  
 |**Location**|Theme location column heading of themes list.|  
   
-## See Also  
+## See also  
  [Theme Configuration Dialog Box (Legacy)](../workflow-designer/theme-configuration-dialog-box-legacy.md)   
  [Legacy Designer for Windows Workflow Foundation UI Help](../workflow-designer/legacy-designer-for-windows-workflow-foundation-ui-help.md)

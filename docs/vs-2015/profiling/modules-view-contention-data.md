@@ -39,7 +39,7 @@ The Modules view of contention data displays concurrency data grouped by the mod
 |**Process Name**|The name of the process.|  
 |**Source File**|The source file that contains the definition for this function.|  
   
-## See Also  
+## See also  
  [How to: Customize Report View Columns](../profiling/how-to-customize-report-view-columns.md)   
  [Modules View](../profiling/modules-view.md)   
  [Modules View - Instrumentation](../profiling/modules-view-dotnet-memory-instrumentation-data.md)   

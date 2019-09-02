@@ -34,5 +34,5 @@ HRESULT get_lineNumberEnd ( 
 ## Return Value  
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)

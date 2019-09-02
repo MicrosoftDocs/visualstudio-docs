@@ -147,6 +147,6 @@ There are three functions available to use with [!INCLUDE[csprcs](../includes/cs
 </CodeSnippets>  
 ```  
   
-## See Also  
+## See also  
  [Function Element (Intellisense Code Snippets)](https://msdn.microsoft.com/572c5549-5821-4e15-8ecd-0fa86c1c65df)   
  [Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md)

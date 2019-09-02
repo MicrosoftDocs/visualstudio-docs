@@ -51,7 +51,7 @@ IDiaTable* pTable;
 pEnumTables->Item( var, &pTable );  
 ```  
   
-## See Also  
+## See also  
  [IDiaEnumTables](../../debugger/debug-interface-access/idiaenumtables.md)   
  [IDiaTable](../../debugger/debug-interface-access/idiatable.md)   
  [IDiaEnumTables::get_Count](../../debugger/debug-interface-access/idiaenumtables-get-count.md)   

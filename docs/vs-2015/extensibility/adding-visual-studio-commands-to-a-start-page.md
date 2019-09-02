@@ -103,5 +103,5 @@ xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visua
   
  For an example, see [Walkthrough: Saving User Settings on a Start Page](../extensibility/walkthrough-saving-user-settings-on-a-start-page.md).  
   
-## See Also  
+## See also  
  [Adding User Control to the Start Page](../extensibility/adding-user-control-to-the-start-page.md)

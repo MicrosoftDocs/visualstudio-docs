@@ -30,7 +30,7 @@ The hosting process is a feature in Visual Studio that improves debugging perfor
 ## Design-Time Expression Evaluation  
  Design-time expression evaluation enables you to test code from the **Immediate** window without having to run the application. The hosting process executes this code during design time expression evaluation. For more information, see [Immediate Window](../ide/reference/immediate-window.md).  
   
-## See Also  
+## See also  
  [Debugging and the Hosting Process](../debugger/debugging-and-the-hosting-process.md)   
  [How to: Disable the Hosting Process](../ide/how-to-disable-the-hosting-process.md)   
  [Immediate Window](../ide/reference/immediate-window.md)   

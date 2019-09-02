@@ -67,7 +67,7 @@ VSPerfCmd.exe /Status
  **Users with access rights to monitor**  
  Lists the names of users who have access to the profiler. Additional users can be granted access by using the VSPerfCmd.exe **Admin** option  
   
-## See Also  
+## See also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
  [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
  [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   

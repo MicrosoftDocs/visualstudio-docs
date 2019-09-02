@@ -263,7 +263,7 @@ partial class ExampleShape
   
 ```  
   
-## See Also  
+## See also  
  [Defining Shapes and Connectors](../modeling/defining-shapes-and-connectors.md)   
  [Setting a Background Image on a Diagram](../modeling/setting-a-background-image-on-a-diagram.md)   
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)   

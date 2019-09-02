@@ -50,7 +50,7 @@ You can set general application properties for Visual Basic, C#, and F# applicat
 ## In This Section  
  [How to: Specify an Application Icon (Visual Basic, C#)](../ide/how-to-specify-an-application-icon-visual-basic-csharp.md)  
   
-## See Also  
+## See also  
  [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)   
  [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)   
  [Introduction to the Project Designer](https://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)   

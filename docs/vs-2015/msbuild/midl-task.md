@@ -414,5 +414,5 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
 ## Remarks  
   
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)

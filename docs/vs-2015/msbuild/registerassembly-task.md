@@ -56,6 +56,6 @@ Reads the metadata within the specified assembly and adds the necessary entries 
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)

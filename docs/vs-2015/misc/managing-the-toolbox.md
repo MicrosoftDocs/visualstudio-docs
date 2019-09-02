@@ -63,5 +63,5 @@ The [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] allows a VSPackage, such as a
   
   Use the settings mechanism to enable users to save **Toolbox** settings accessed by users from the **Import/Export Settings** command, found on the IDE's **Tools** menu. For more information on how to use settings, see [Extending User Settings and Options](../extensibility/extending-user-settings-and-options.md).  
   
-## See Also  
+## See also  
  [Extending the Toolbox](../misc/extending-the-toolbox.md)

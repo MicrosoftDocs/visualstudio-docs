@@ -48,5 +48,5 @@ manager: jillfra
  [Implementing Type Visualizers and Custom Viewers](../../extensibility/debugger/implementing-type-visualizers-and-custom-viewers.md)  
  Explains which interface needs to be implemented by which component to support type visualizers and custom viewers.  
   
-## See Also  
+## See also  
  [Visual Studio Debugger Extensibility](../../extensibility/debugger/visual-studio-debugger-extensibility.md)

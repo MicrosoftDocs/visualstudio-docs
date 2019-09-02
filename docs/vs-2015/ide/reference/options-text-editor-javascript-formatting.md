@@ -57,5 +57,5 @@ Use the **Formatting** page of the **Options** dialog box to set options for for
 |**Insert space after function keyword for anonymous functions.**|When this option is selected, the Code Editor adds a space after the `function` keyword for anonymous functions.|  
 |**Insert space after opening and before closing non-empty parenthesis**|When this option is selected, the Code Editor adds a space after the opening parenthesis and before the closing parenthesis if non-empty characters are present within the parentheses.|  
   
-## See Also  
+## See also  
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)

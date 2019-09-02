@@ -45,5 +45,5 @@ HRESULT WINAPI StartTrackingContextWithRoot(LPCTSTR intermediateDirectory, LPCTS
 ## Requirements  
  **Header:** FileTracker.h  
   
-## See Also  
+## See also  
  [StartTrackingContext](../msbuild/starttrackingcontext.md)

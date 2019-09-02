@@ -80,5 +80,5 @@ Wraps the XML Schema Definition tool (xsd.exe), which generates schema or class 
   
      Specifies the directory for the tracker log.  
   
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)

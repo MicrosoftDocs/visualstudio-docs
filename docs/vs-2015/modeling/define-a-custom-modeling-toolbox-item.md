@@ -227,7 +227,7 @@ To make it easy to create an element or group of elements according to a pattern
   
  Furthermore, your custom tools will disappear if you perform the **Reset Toolbox** command. However, they will reappear when you restart [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)].  
   
-## See Also  
+## See also  
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   
  [Define a profile to extend UML](../modeling/define-a-profile-to-extend-uml.md)   
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   

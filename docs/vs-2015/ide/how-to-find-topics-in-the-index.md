@@ -37,5 +37,5 @@ The index contains a list of keywords that are associated with topics in the ins
   
      If the keyword that you specify is associated with only one topic, it appears. Otherwise, a list of all topics that are associated with that keyword appears.  
   
-## See Also  
+## See also  
  [Index Search Tips](../ide/index-search-tips.md)

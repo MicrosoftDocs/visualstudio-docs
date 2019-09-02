@@ -150,7 +150,7 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
 
  **Figure 08.01-k: Themed dialog – Colors**
 
-## See Also
+## See also
  [Application Patterns for Visual Studio](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md)
  [Controls (Windows)](https://msdn.microsoft.com/library/windows/desktop/dn742399.aspx)
  [Dialog Boxes (Windows)](https://msdn.microsoft.com/library/windows/desktop/dn742499\(v=vs.85\).aspx)

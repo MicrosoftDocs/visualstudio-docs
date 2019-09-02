@@ -110,6 +110,6 @@ When publishing a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applica
     > [!NOTE]
     > You cannot change the **Download Group** for files that are required for the application to run.  
   
-## See Also  
+## See also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

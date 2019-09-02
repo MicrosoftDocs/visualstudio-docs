@@ -135,6 +135,6 @@ namespace SaveToImage
 }
 ```
 
-## See Also
+## See also
  [Export diagrams as images](../modeling/export-diagrams-as-images.md)
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)

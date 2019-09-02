@@ -29,5 +29,5 @@ This area shows data about the unhidden threads in the currently visible time ra
   
 - Make sure that Noise Reduction is set to a low threshold.  
   
-## See Also  
+## See also  
  [Threads View](../profiling/threads-view-parallel-performance.md)

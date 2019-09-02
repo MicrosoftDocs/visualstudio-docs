@@ -40,6 +40,6 @@ manager: "wpickett"
 ## When to Suppress Warnings
  It is safe to suppress a warning from this rule when the library or application is intended for a limited local audience or when the semantics of the current culture should be used.
 
-## See Also
+## See also
  [Globalization Warnings](../code-quality/globalization-warnings.md)
  [CA1307: Specify StringComparison](../code-quality/ca1307-specify-stringcomparison.md)

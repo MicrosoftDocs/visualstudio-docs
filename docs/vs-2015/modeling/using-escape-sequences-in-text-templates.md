@@ -33,5 +33,5 @@ You can use escape sequences in text templates to generate text template tags an
   
 - If an escape (\\) character appears anywhere else in any sequence other than where it escapes a control character or a quote (in C# only), the character will be output directly.  
   
-## See Also  
+## See also  
  [How to: Generate Templates from Templates By Using Escape Sequences](../modeling/how-to-generate-templates-from-templates-by-using-escape-sequences.md)

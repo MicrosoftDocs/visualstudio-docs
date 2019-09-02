@@ -45,6 +45,6 @@ This document demonstrates how to use the Shader Designer to export a Directed G
   
 4. In the **File name** combo box, specify a name for the exported shader, and then choose the **Save** button.  
   
-## See Also  
+## See also  
  [How to: Create a Basic Color Shader](../designers/how-to-create-a-basic-color-shader.md)   
  [Shader Designer](../designers/shader-designer.md)

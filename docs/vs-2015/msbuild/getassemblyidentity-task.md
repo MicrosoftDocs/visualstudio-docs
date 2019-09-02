@@ -59,6 +59,6 @@ Retrieves the assembly identities from the specified files and outputs the ident
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)

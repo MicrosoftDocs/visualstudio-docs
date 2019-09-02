@@ -480,5 +480,5 @@ pMyPerson->Dump( afxDump );
   
    [In this topic](#BKMK_In_this_topic)  
   
-## See Also  
+## See also  
  [Debugging Visual C++](../debugger/debugging-native-code.md)

@@ -112,7 +112,7 @@ Project types must register the directories where their project and project-item
   
  \WizardFiles  
   
-## See Also  
+## See also  
  [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)   
  [Wizards](../../extensibility/internals/wizards.md)   
  [Localizing Applications](../../ide/localizing-applications.md)   

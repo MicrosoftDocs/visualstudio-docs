@@ -42,7 +42,7 @@ Project types in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] use a *project 
   
    A project can also use no files and, instead, store its project state in a storage mechanism other than the file system, such as a database or Web server. In this case, the file name parameter passed to the `CreateProject` method is not actually a file system path but a unique string—a URL—to identify the project data. You do not need to copy the template files that are passed to `CreateProject` to trigger the appropriate construction sequence to be executed.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsOwnedProjectFactory>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsRegisterProjectTypes>   

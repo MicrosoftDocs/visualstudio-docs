@@ -129,5 +129,5 @@ manager: "wpickett"
 ## Related Rules
  [CA2219: Do not raise exceptions in exception clauses](../code-quality/ca2219-do-not-raise-exceptions-in-exception-clauses.md)
 
-## See Also
+## See also
  [Design Warnings](../code-quality/design-warnings.md)

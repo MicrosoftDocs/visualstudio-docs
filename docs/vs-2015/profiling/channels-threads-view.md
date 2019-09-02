@@ -44,5 +44,5 @@ The Concurrency Visualizer shows four kinds of channels: thread channels, disk c
 ## GPU Channels  
  GPU channels display information about DirectX 11 activity on the system.  Each DirectX engine that's associated with the graphics card has a separate channel.  The individual segments represent the time that's spent processing a DMA packet.  
   
-## See Also  
+## See also  
  [Threads View](../profiling/threads-view-parallel-performance.md)

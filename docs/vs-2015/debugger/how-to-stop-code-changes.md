@@ -37,6 +37,6 @@ While Edit and Continue is in the process of applying code changes, you can stop
   
   If you choose this option, none of the code changes are committed.  
   
-## See Also  
+## See also  
  [Edit and Continue](../debugger/edit-and-continue.md)   
  [Edit and Continue, Debugging, Options Dialog Box](https://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)

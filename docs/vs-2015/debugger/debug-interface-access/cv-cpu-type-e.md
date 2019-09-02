@@ -97,6 +97,6 @@ typedef enum CV_CPU_TYPE_e { 
 ## Requirements  
  Header: cvconst.h  
   
-## See Also  
+## See also  
  [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)   
  [IDiaSymbol::get_platform](../../debugger/debug-interface-access/idiasymbol-get-platform.md)

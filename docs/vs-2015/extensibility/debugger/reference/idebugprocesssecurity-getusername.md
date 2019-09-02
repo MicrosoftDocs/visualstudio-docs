@@ -40,5 +40,5 @@ int GetUserName (
 ## Remarks  
  `GetUserName` returns the user name that is displayed in the **User Name** column of the **Attach to Process** dialog box. To view the **Attach to Process** dialog box, click **Attach to Process** on the **Tools** menu in the [!INCLUDE[vsprvs](../../../includes/vsprvs-md.md)] integrated development environment (IDE).  
   
-## See Also  
+## See also  
  [IDebugProcessSecurity](../../../extensibility/debugger/reference/idebugprocesssecurity.md)

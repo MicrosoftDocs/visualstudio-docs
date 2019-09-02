@@ -99,7 +99,7 @@ This walkthrough demonstrates how to profile an application by using command-lin
         VSPerfReport <dir> PeopleTraxReport.vsp /output:<dir> /summary:all  
         ```  
   
-## See Also  
+## See also  
  [Performance Session Overview](../profiling/performance-session-overview.md)   
  [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)   
  [VSPerfCmd](../profiling/vsperfcmd.md)   

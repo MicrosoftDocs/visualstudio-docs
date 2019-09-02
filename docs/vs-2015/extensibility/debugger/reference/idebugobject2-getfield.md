@@ -42,6 +42,6 @@ int GetField(
 ## Remarks  
  A field describes the type of the object.  
   
-## See Also  
+## See also  
  [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)   
  [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

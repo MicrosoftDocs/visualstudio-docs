@@ -49,5 +49,5 @@ This Options dialog allows you to specify how all files with certain file extens
  **Extensionless file options**  
  Provides the same list as **Editor**. Select the IDE editor or designer in which documents without file extensions will open.  
   
-## See Also  
+## See also  
  [How to: Manage Editor Modes](../../ide/how-to-manage-editor-modes.md)

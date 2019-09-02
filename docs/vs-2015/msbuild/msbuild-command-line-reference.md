@@ -82,6 +82,6 @@ MSBuild.exe MyProject.proj /t:rebuild
 msbuild SlnFolders.sln /t:NotInSolutionfolder:Rebuild;NewFolder\InSolutionFolder:Clean  
 ```  
   
-## See Also  
+## See also  
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Common MSBuild Project Properties](../msbuild/common-msbuild-project-properties.md)

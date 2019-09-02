@@ -60,6 +60,6 @@ LPLONG  lpStatus
 > [!NOTE]
 > If a source control plug-in chooses to not implement one or more of the status values, unimplemented bits should be set to zero.  
   
-## See Also  
+## See also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
  [Directory Status Code](../extensibility/directory-status-code-enumerator.md)

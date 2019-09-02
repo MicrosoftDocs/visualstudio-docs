@@ -36,5 +36,5 @@ You can use the command-line tools of [!INCLUDE[vsprvs](../includes/vsprvs-md.md
 ## Reference  
  [Command-Line Profiling Tools Reference](../profiling/command-line-profiling-tools-reference.md)  
   
-## See Also  
+## See also  
  [Performance Explorer](../profiling/performance-explorer.md)

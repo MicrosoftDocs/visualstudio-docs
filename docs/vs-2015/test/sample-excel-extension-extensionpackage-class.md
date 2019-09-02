@@ -32,6 +32,6 @@ This class extends the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.U
 ## GetService Method  
  The <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage.GetService%2A> method is the single entry point used by the coded UI testing framework to gain access to the technology manager, the property provider, and the action filter, as identified by the base class for each object.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage>   
  [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)

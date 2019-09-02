@@ -118,6 +118,6 @@ Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar
 ## Use Quotes for Path Names with Spaces  
  If, for example, you want to open a file that has a path containing spaces, you must put double quotes around the path or path segment that contains spaces: **C:\\"Program Files"** or **"C:\Program Files"**.  
   
-## See Also  
+## See also  
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)   
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)

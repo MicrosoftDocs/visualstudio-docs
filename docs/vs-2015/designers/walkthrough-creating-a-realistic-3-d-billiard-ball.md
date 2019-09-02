@@ -208,7 +208,7 @@ This walkthrough demonstrates how to create a realistic 3-D billiard ball by usi
   
    In this final image, notice how the effects that you added come together to create a very convincing billiard ball. The shape, texture, and lighting create the basic appearance of a 3-D object, and the specular highlights and reflections make the billiard ball more interesting and look like a part of its environment.  
   
-## See Also  
+## See also  
  [How to: Export a Shader](../designers/how-to-export-a-shader.md)   
  [How to: Apply a Shader to a 3-D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md)   
  [Shader Designer](../designers/shader-designer.md)   

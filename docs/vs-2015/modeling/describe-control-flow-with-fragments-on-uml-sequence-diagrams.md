@@ -124,7 +124,7 @@ In a UML sequence diagram, *combined fragments* let you show loops, branches, an
 |**Assert**|The operand fragment specifies the only valid sequences. Typically used within a Consider or Ignore fragment.|  
 |**Neg**|The sequence shown in this fragment must not happen. Typically used within a Consider or Ignore fragment.|  
   
-## See Also  
+## See also  
  [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md)   
  [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)   
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)

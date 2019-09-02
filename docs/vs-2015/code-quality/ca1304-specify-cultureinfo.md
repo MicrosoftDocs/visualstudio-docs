@@ -71,5 +71,5 @@ manager: "wpickett"
 ## Related Rules
  [CA1305: Specify IFormatProvider](../code-quality/ca1305-specify-iformatprovider.md)
 
-## See Also
+## See also
  [NIB: Using the CultureInfo Class](https://msdn.microsoft.com/d4329e34-64c3-4d1e-8c73-5b0ee626ba7a)

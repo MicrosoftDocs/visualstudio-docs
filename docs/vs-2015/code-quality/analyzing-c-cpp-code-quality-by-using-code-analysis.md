@@ -37,6 +37,6 @@ You can improve your C/C++ code by using the code analysis in Visual Studio to f
 |[Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)|Learn about annotation features of the code analysis tool to detect violations of the contract between the caller and the callee.|  
 |[Code Analysis for C/C++ Warnings](../code-quality/code-analysis-for-c-cpp-warnings.md)|Lists and describes code analysis warnings.|  
   
-## See Also  
+## See also  
  [Analyzing Application Quality](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)   
  [Analyzing Managed Code Quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)

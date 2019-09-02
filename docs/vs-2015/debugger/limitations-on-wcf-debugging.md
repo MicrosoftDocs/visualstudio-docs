@@ -76,6 +76,6 @@ There are three ways that you can begin debugging a WCF service:
 ## Self-Hosting  
  To enable debugging of [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 3.0 or 3.5 applications, [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 3.0 or 3.5 must be installed before [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] is installed. If [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] is installed before [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 3.0 or 3.5, an error occurs when you try to debug a [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 3.0 or 3.5 application. The error message is, "Unable to Automatically Step Into the Server." To fix this problem, use the Windows **Control Panel**, **Programs and Features** to repair your [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] installation.  
   
-## See Also  
+## See also  
  [Debugging WCF Services](../debugger/debugging-wcf-services.md)   
  [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md)

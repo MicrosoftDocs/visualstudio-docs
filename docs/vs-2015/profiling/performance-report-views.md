@@ -41,5 +41,5 @@ This section provides reference information for the reports and views of [!INCLU
  [Tier Interactions View](../profiling/tier-interactions-view.md)  
  Reference information for the Interaction view and report of profiling data files that include tier interaction data.  
   
-## See Also  
+## See also  
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)

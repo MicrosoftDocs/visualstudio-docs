@@ -54,6 +54,6 @@ In Visual Studio, you can share models and diagrams with colleagues in several w
 |[Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)|Overview of models and diagrams.|  
 |[Customize your model with profiles and stereotypes](../modeling/customize-your-model-with-profiles-and-stereotypes.md)|If you use a UML profile in a model, and then send the model to someone else, they must have installed the same profile.|  
   
-## See Also  
+## See also  
  [Create models for your app](../modeling/create-models-for-your-app.md)   
  [Use models in your development process](../modeling/use-models-in-your-development-process.md)

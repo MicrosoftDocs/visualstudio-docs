@@ -21,5 +21,5 @@ With automatic formatting, a language service automatically inserts a snippet of
   
  The command filter used for the rest of the language service can also be used for automatic formatting. You can also highlight matching braces by calling <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.HighlightMatchingBrace%2A>.  
   
-## See Also  
+## See also  
  [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)

@@ -105,6 +105,6 @@ In [!INCLUDE[vsUltShort](../includes/vsultshort-md.md)], [!INCLUDE[vsPreShort](.
   
 - To add or remove Microsoft default rule sets to the current rule set, click **Add or remove child rule sets**.  
   
-## See Also  
+## See also  
  [How to: Configure Code Analysis for a Managed Code Project](../code-quality/how-to-configure-code-analysis-for-a-managed-code-project.md)   
  [Code analysis rule set reference](../code-quality/code-analysis-rule-set-reference.md)

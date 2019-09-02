@@ -112,7 +112,7 @@ For example, if you frequently use solutions that have Presentation, Business, a
 
 [Visual Studio Architecture Tooling Guidance](../modeling/visual-studio-architecture-tooling-guidance.md) – Further guidance on managing models in a team
 
-## See Also
+## See also
 
 [Manage models and diagrams under version control](../modeling/manage-models-and-diagrams-under-version-control.md)
 [Use models in your development process](../modeling/use-models-in-your-development-process.md)

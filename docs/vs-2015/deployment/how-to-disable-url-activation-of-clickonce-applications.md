@@ -39,5 +39,5 @@ Typically, a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application 
   
 4. Save and sign the manifest.  
   
-## See Also  
+## See also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)

@@ -42,5 +42,5 @@ int SetLocale( 
 ## Remarks  
  This method is called by the session debug manager (SDM) to propagate the locale settings of the IDE so that strings returned by the DE are properly localized.  
   
-## See Also  
+## See also  
  [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)

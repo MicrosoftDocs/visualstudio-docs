@@ -393,5 +393,5 @@ namespace TestLanguagePackage
 }  
 ```  
   
-## See Also  
+## See also  
  [Legacy Language Service Features](../../extensibility/internals/legacy-language-service-features1.md)

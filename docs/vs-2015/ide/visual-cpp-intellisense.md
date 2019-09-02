@@ -89,5 +89,5 @@ In Visual Studio 2015, IntelliSense is available for single code files as well a
   
  ![Adding a path to a header file.](../ide/media/intellisensedebugyourcode.jpg "IntelliSenseDebugYourCode")  
   
-## See Also  
+## See also  
  [Using IntelliSense](../ide/using-intellisense.md)

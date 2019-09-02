@@ -45,5 +45,5 @@ You can test your connection to a database or service, and explore database cont
   
  If the test succeeds, you are ready to create a *data source*, which is a Visual Studio term that really means a *data model* that is based on the underlying database or service.  
   
-## See Also  
+## See also  
  [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

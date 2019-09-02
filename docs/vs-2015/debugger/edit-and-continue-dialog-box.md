@@ -29,6 +29,6 @@ Native Only) This dialog box appears when you have edited code while debugging a
  **Never show me this dialog again**  
  If you select this check box, **Edit and Continue** will apply code changes without asking permission in the future. You can turn this warning on again by going to the **Options** dialog box, opening the **Debugging** Folder, clicking the **Edit and Continue** page, and selecting **Invoked by debug commands** and **Ask me first**.  
   
-## See Also  
+## See also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Edit and Continue, Debugging, Options Dialog Box](https://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)

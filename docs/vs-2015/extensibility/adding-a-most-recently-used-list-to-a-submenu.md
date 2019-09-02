@@ -199,5 +199,5 @@ This walkthrough builds on the demonstrations in [Adding a Submenu to a Menu](..
   
 4. Open the submenu again. Notice that **Item 3** is now at the top of the list and the other items have been pushed down one position. Click **Item 3** again and notice that the message box still displays "Selected Item 3", which indicates that the text has correctly moved to the new position together with the command label.  
   
-## See Also  
+## See also  
  [Dynamically Adding Menu Items](../extensibility/dynamically-adding-menu-items.md)

@@ -73,7 +73,7 @@ Performance reports can be configured for noise reduction by limiting the amount
   
 4. Click **OK**.  
   
-## See Also  
+## See also  
  [Customizing Performance Tools Report Views](../profiling/customizing-performance-tools-report-views.md)   
  [How to: Exclude or Include Short Functions from Instrumentation](../profiling/how-to-exclude-or-include-short-functions-from-instrumentation.md)   
  [Call Tree View](../profiling/call-tree-view.md)   

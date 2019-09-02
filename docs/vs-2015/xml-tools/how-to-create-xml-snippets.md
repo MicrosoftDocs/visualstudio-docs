@@ -106,7 +106,7 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
   
  The $prefix$ variable can then be used elsewhere in your XML snippet.  
   
-## See Also  
+## See also  
  [XML Snippets](../xml-tools/xml-snippets.md)   
  [How to: Use XML Snippets](../xml-tools/how-to-use-xml-snippets.md)   
  [How to: Generate an XML Snippet From an XML Schema](../xml-tools/how-to-generate-an-xml-snippet-from-an-xml-schema.md)

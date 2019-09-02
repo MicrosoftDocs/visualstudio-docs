@@ -94,7 +94,7 @@ The Modules view of .NET memory allocation data collected by using the instrumen
 |**Max Application Exclusive Time**|-   For a function, the maximum application exclusive time of a call to this function.<br />-   For a module, the maximum application exclusive time of all calls to functions in the module.|  
 |**Min Application Exclusive Time**|-   For a function, the minimum application exclusive time of a call to this module or function.<br />-   For a module, the minimum application exclusive time of all calls to functions in the module.|  
   
-## See Also  
+## See also  
  [Modules View - Sampling](../profiling/modules-view-dotnet-memory-sampling-data.md)   
  [Modules View](../profiling/modules-view-instrumentation-data.md)   
  [Modules View](../profiling/modules-view-sampling-data.md)

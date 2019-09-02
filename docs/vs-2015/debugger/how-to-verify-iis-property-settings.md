@@ -73,5 +73,5 @@ You can set the properties for a Web application using the IIS administration to
   
 9. Click **OK** to close the **Internet Information Services (IIS) Manager**, **Internet Services Manager**, or **Internet Information Services** dialog box.  
   
-## See Also  
+## See also  
  [Troubleshooting](../debugger/debugging-web-applications-troubleshooting.md)

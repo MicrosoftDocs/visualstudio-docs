@@ -25,7 +25,7 @@ This topic describes how to print a diagram from the Graph View or the Content M
   
 3. Print the saved image in the XPS file by using an XPS viewer.  
   
-## See Also  
+## See also  
  [Graph View](../xml-tools/graph-view.md)   
  [Content Model View](../xml-tools/content-model-view.md)   
  [XML Schema Designer Workspace](../xml-tools/xml-schema-designer-workspace.md)

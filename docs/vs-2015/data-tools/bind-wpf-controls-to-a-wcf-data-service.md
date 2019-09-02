@@ -316,7 +316,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 - Learn how to use the **Data Sources** window in Visual Studio to display related data (that is, data in a parent-child relationship) in WPF controls. For more information, see [Walkthrough: Displaying Related Data in a WPF Application](../data-tools/walkthrough-displaying-related-data-in-a-wpf-application.md).  
   
-## See Also  
+## See also  
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)   
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio2.md)   
  [Bind WPF controls to a dataset](../data-tools/bind-wpf-controls-to-a-dataset.md)   

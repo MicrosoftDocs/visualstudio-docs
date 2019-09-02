@@ -113,7 +113,7 @@ manager: jillfra
   
  No prompting for trust levels will occur if you use Trusted Application Deployment. For more information, see [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md).  
   
-## See Also  
+## See also  
  <xref:System.Deployment.Application>   
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Choosing a ClickOnce Deployment Strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)   

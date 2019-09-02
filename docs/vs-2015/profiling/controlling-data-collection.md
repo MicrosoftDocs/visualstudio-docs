@@ -28,5 +28,5 @@ manager: jillfra
 ## Related Sections  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)  
   
-## See Also  
+## See also  
  [Performance Explorer](../profiling/performance-explorer.md)

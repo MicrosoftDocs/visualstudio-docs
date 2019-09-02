@@ -118,7 +118,7 @@ HKLM\Software\Wow6432Node\Microsoft\GenericBootstrapper\11.0
 </FileList>  
 ```  
   
-## See Also  
+## See also  
  [How to: Install Prerequisites with a ClickOnce Application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)   
  [Prerequisites Dialog Box](../ide/reference/prerequisites-dialog-box.md)   
  [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)   

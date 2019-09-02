@@ -56,7 +56,7 @@ manager: "wpickett"
 
  [CA1049: Types that own native resources should be disposable](../code-quality/ca1049-types-that-own-native-resources-should-be-disposable.md)
 
-## See Also
+## See also
  <xref:System.IDisposable?displayProperty=fullName>
  <xref:System.IntPtr?displayProperty=fullName>
  <xref:System.Runtime.InteropServices.HandleRef?displayProperty=fullName>

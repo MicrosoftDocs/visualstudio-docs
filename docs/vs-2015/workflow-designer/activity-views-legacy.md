@@ -31,6 +31,6 @@ Many of the activities provided by [!INCLUDE[wf](../includes/wf-md.md)], from wh
   
  For information about similar views, see [Sequential Workflow Views (Legacy)](../workflow-designer/sequential-workflow-views-legacy.md).  
   
-## See Also  
+## See also  
  [Legacy Workflow Activities](../workflow-designer/legacy-workflow-activities.md)   
  [Sequential Workflow Views (Legacy)](../workflow-designer/sequential-workflow-views-legacy.md)

@@ -104,6 +104,6 @@ manager: jillfra
   
 2. Adjacent to In **Name**, insert provide a new caption for the selected button.  
   
-## See Also  
+## See also  
  [Accessibility Features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)   
  [Resources for Designing Accessible Applications](../../ide/reference/resources-for-designing-accessible-applications.md)

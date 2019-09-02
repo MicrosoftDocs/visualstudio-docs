@@ -66,5 +66,5 @@ int CreateObject (
 ## Remarks  
  Call this method to create an object that represents an instance of a class, or other complex type that requires a constructor, that is a parameter.  
   
-## See Also  
+## See also  
  [IDebugFunctionObject2](../../../extensibility/debugger/reference/idebugfunctionobject2.md)

@@ -31,6 +31,6 @@ The compiler may include additional environment variables with symbols. There is
 |[IDiaSymbol::get_symTag](../../debugger/debug-interface-access/idiasymbol-get-symtag.md)|`DWORD`|Returns `SymTagCompilandEnv` (one of the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) values).|  
 |[IDiaSymbol::get_value](../../debugger/debug-interface-access/idiasymbol-get-value.md)|`VARIANT`|String-valued contents of the variable (`VT_BSTR`).|  
   
-## See Also  
+## See also  
  [Compiland](../../debugger/debug-interface-access/compiland.md)   
  [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)

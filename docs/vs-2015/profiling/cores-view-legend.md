@@ -32,5 +32,5 @@ The Cores View legend identifies each thread by color and name. It includes colu
 |Total Context Switches|The total number of context switches for a given thread during the sampling period. Each time a thread changes context (for example, from execution to synchronization) one context switch is counted.|  
 |Percent of Context Switches that Cross Cores|Computed as a percentage by dividing the number of cross-core context switches by the number of total context switches. The higher this percentage, the greater the overall effect of the overhead of cross-core context switches on the performance of this particular thread.|  
   
-## See Also  
+## See also  
  [Cores View](../profiling/cores-view.md)

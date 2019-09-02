@@ -81,5 +81,5 @@ In many cases, unhandled exceptions in the XAML designer can be caused by projec
     > [!NOTE]
     > Disabling project code can lead to a loss of design time data. An alternative is to debug the code running in the designer.  
   
-## See Also  
+## See also  
  [Designing XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md)

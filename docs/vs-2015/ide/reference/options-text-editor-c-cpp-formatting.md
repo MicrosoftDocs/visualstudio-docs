@@ -71,6 +71,6 @@ Lets you change the default behavior of the Code Editor when you are programming
   
 - [while Statement (C++)](https://msdn.microsoft.com/library/358dbe76-5e5e-4af5-b575-c2293c636899)  
   
-## See Also  
+## See also  
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)   
  [Using IntelliSense](../../ide/using-intellisense.md)

@@ -190,7 +190,7 @@ static void Main(string[] args)
 
      To fix this problem, use the setup disk to reinstall or repair your Visual Studio installation.
 
-## See Also
+## See also
  [Debugger Security](../debugger/debugger-security.md)
  [Debugger Basics](../debugger/debugger-basics.md)
  [Just-In-Time, Debugging, Options Dialog Box](../debugger/just-in-time-debugging-options-dialog-box.md)

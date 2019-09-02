@@ -56,7 +56,7 @@ If a template fails to load in the development environment, there are several wa
   
 4. Double-click on a template event to view the error.  
   
-## See Also  
+## See also  
  [Customizing Templates](../ide/customizing-project-and-item-templates.md)   
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)

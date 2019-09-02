@@ -42,5 +42,5 @@ int Skip(
 ## Remarks  
  If `celt` specifies a value greater than the number of remaining elements, the enumeration is set to the end and `S_FALSE` is returned.  
   
-## See Also  
+## See also  
  [IEnumDebugPortSuppliers2](../../../extensibility/debugger/reference/ienumdebugportsuppliers2.md)

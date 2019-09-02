@@ -42,5 +42,5 @@ int GetDocumentClassID( 
 ## Remarks  
  The class GUID can be used to instantiate individual classes each of which represents a document.  
   
-## See Also  
+## See also  
  [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)

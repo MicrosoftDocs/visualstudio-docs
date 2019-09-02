@@ -69,5 +69,5 @@ The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugger is implemented as a
  [Debugging Tasks](../../extensibility/debugger/debugging-tasks.md)  
  Contains links to various debugging tasks, such as launching a program and evaluating expressions.  
   
-## See Also  
+## See also  
  [Getting Started](../../extensibility/debugger/getting-started-with-debugger-extensibility.md)

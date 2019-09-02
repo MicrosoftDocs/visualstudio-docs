@@ -31,7 +31,7 @@ Core editor and language service objects
   
  The document data object for the core editor is called a text buffer and is represented by the <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> object. The document view object is called a text view and is represented by the <xref:Microsoft.VisualStudio.TextManager.Interop.VsCodeWindow> object. These two objects work together through the language service to provide a unified view of the core editor. Information from the text buffer and the text view displays in a document window called a code window. The code window document is managed by a code window manager.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo>   
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer>   
  <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>   

@@ -77,6 +77,6 @@ Commands can appear on both menus and toolbars. On toolbars, it is common for a 
   
 8. Test your icon. Build the project and start debugging. In the experimental instance, find the command. It should show the icon you added.  
   
-## See Also  
+## See also  
  [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)   
  [VSCT XML Schema Reference](../extensibility/vsct-xml-schema-reference.md)

@@ -63,7 +63,7 @@ Removes duplicate items from the specified item collection.
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [Tasks](../msbuild/msbuild-tasks.md)

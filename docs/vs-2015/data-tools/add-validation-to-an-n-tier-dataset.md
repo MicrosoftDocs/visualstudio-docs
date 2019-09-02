@@ -169,7 +169,7 @@ End Sub
     }  
     ```  
   
-## See Also  
+## See also  
  [N-Tier Data Applications Overview](../data-tools/n-tier-data-applications-overview.md)   
  [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)   
  [Validate data in datasets](../data-tools/validate-data-in-datasets.md)

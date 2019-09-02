@@ -49,7 +49,7 @@ By specifying a custom build event, you can automatically run commands before a 
     > [!NOTE]
     > `%I` in the code above should be `%%I` in batch scripts.
 
-## See Also
+## See also
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)
  [Pre-build Event/Post-build Event Command Line Dialog Box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)
  [MSBuild Special Characters](../msbuild/msbuild-special-characters.md)

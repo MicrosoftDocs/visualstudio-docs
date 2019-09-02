@@ -40,6 +40,6 @@ You can instrument binaries from the [!INCLUDE[vs_current_short](../includes/vs-
   
 4. Click **OK**.  
   
-## See Also  
+## See also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)

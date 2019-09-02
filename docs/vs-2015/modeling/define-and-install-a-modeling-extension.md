@@ -134,7 +134,7 @@ In Visual Studio, you can define extensions to modeling diagrams. In this manner
   
    *%LocalAppData%* **\Microsoft\VisualStudio\\[version]\Extensions**  
   
-## See Also  
+## See also  
  [Define a profile to extend UML](../modeling/define-a-profile-to-extend-uml.md)   
  [Define a custom modeling toolbox item](../modeling/define-a-custom-modeling-toolbox-item.md)   
  [Define validation constraints for UML models](../modeling/define-validation-constraints-for-uml-models.md)   

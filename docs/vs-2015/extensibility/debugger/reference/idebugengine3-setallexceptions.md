@@ -39,6 +39,6 @@ int SetAllExceptions(
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns error code.  
   
-## See Also  
+## See also  
  [IDebugEngine3](../../../extensibility/debugger/reference/idebugengine3.md)   
  [EXCEPTION_STATE](../../../extensibility/debugger/reference/exception-state.md)

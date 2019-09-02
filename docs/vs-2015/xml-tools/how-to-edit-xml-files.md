@@ -62,7 +62,7 @@ The XML Editor is the new editor for XML files. It can be used on a stand-alone 
   
      The XML Editor finds the schemas you add to this project and uses them for validation and IntelliSense in any XML, schema, or XSLT files that you edit while this project is open.  
   
-## See Also  
+## See also  
  [XML Editor](../xml-tools/xml-editor.md)   
  [XML Document Properties, Properties Window](../xml-tools/xml-document-properties-properties-window.md)   
  [How to: Create an XML Schema from an XML Document](../xml-tools/how-to-create-an-xml-schema-from-an-xml-document.md)

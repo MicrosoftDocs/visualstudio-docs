@@ -62,6 +62,6 @@ For the latest documentation on Visual Studio, see [CA1903: Use only API from ta
   
  [!code-csharp[FxCop.Portability.UseOnlyApiFromTargetedFramework2#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Portability.UseOnlyApiFromTargetedFramework2/CS/FxCop.Portability.UseOnlyApiFromTargetedFramework2.cs#1)]  
   
-## See Also  
+## See also  
  [Portability Warnings](../code-quality/portability-warnings.md)   
  [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md)

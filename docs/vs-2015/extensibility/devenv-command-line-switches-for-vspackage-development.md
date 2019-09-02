@@ -41,6 +41,6 @@ manager: jillfra
 |/rootsuffix|Starts [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] by using an alternate location. The following command is run by the shortcut created by the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] installer:<br /><br /> devenv /RootSuffix exp<br /><br /> In this case, exp identifies a location with a particular suffix, for example 10.0Exp rather than 10.0. The experimental instance allows you to debug a VSPackage separately from the instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] that you are using to write code.<br /><br /> This switch can take any string that identifies a location that you have created by using VSRegEx.exe. For more information, see [The Experimental Instance](../extensibility/the-experimental-instance.md).|  
 |/splash|Shows the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] splash screen as usual and then shows a message box before showing the main IDE. The message box lets you study the splash screen, to check for a VSPackage product icon, for example.<br /><br /> This switch takes no arguments.|  
   
-## See Also  
+## See also  
  [Adding Command-Line Switches](../extensibility/adding-command-line-switches.md)   
  [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)

@@ -151,7 +151,7 @@ By following these tips, you can more quickly and efficiently write, navigate, a
 
 - **Customize the fonts that appear in Visual Studio**. You can change the font face, size, and color that’s used for text in the IDE. For example, you can customize the color of specific code elements in the editor and the font face in tool windows or throughout the IDE. For more information, see [How to: Change Fonts and Colors](../ide/how-to-change-fonts-and-colors-in-visual-studio.md) and [How to: Change Fonts and Colors in the Editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md).
 
-## See Also
+## See also
  [Default Keyboard Shortcuts for Frequently Used Commands](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)
  [How to: Customize Menus and Toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
  [Walkthrough: Create a Simple Application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)

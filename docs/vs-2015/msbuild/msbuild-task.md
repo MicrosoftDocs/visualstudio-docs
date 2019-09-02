@@ -183,6 +183,6 @@ Builds [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] projects from an
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)

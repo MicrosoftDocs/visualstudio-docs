@@ -102,7 +102,7 @@ relativedir: sub1\sub2\sub3\
 extension: .xsd  
 ```  
   
-## See Also  
+## See also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [How to: Build Incrementally](../msbuild/how-to-build-incrementally.md)

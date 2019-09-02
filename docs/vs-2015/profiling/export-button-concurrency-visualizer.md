@@ -19,6 +19,6 @@ manager: jillfra
 
 The **Export** button enables you to export the call stack as a .csv file for your own records or for use with another tool such as Microsoft Excel.  
   
-## See Also  
+## See also  
  [Concurrency Visualizer](../profiling/concurrency-visualizer.md)   
  [Threads View](../profiling/threads-view-parallel-performance.md)

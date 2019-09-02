@@ -78,6 +78,6 @@ This page describes how to install Visual Studio 2015 when you are not connected
 |        Russian        | http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x419 |
 |        Turkish        | http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x41F |
 
-## See Also
+## See also
 
 - [Install Visual Studio](install-visual-studio-2015.md)

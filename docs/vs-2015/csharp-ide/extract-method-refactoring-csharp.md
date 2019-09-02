@@ -118,5 +118,5 @@ class Program
   
  To work around this situation, make the local variables that are used in the anonymous method fields of the class.  
   
-## See Also  
+## See also  
  [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)

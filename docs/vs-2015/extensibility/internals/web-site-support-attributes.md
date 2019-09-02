@@ -51,5 +51,5 @@ manager: jillfra
   
  The IVsIntellisenseProject implementation handles references and calls the language compiler when a Web page with code is requested but is not cached.  
   
-## See Also  
+## See also  
  [Web Site Support](../../extensibility/internals/web-site-support.md)

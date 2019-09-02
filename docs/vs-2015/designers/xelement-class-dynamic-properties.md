@@ -26,7 +26,7 @@ This section describes the dynamic properties of the <xref:System.Xml.Linq.XElem
 |[Value](../designers/value-xelement-dynamic-property.md)|Gets or sets the content of an element.|  
 |[Xml](../designers/xml-xelement-dynamic-property.md)|Gets the unformatted XML representation of an element.|  
   
-## See Also  
+## See also  
  <xref:System.Xml.Linq.XElement?displayProperty=fullName>   
  [LINQ to XML Dynamic Properties](../designers/linq-to-xml-dynamic-properties.md)   
  [XAttribute Class Dynamic Properties](../designers/xattribute-class-dynamic-properties.md)

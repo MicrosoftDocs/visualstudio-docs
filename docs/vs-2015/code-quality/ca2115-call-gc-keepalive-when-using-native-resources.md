@@ -54,7 +54,7 @@ manager: "wpickett"
 
  [!code-csharp[FxCop.Security.IntptrAndFinalize#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Security.IntptrAndFinalize/cs/FxCop.Security.IntptrAndFinalize.cs#1)]
 
-## See Also
+## See also
  <xref:System.GC.KeepAlive%2A?displayProperty=fullName>
  <xref:System.IntPtr?displayProperty=fullName>
  <xref:System.Object.Finalize%2A?displayProperty=fullName>

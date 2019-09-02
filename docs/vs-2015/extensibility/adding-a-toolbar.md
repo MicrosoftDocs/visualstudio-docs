@@ -85,5 +85,5 @@ This walkthrough shows how to add a toolbar to the Visual Studio IDE.
   
 7. You should now see your toolbar as an icon to the right of the Find in Files icon. When you click the icon, you should see a message box that says **ToolbarTestCommandPackage. Inside IDEToolbar.ToolbarTestCommand.MenuItemCallback()**.  
   
-## See Also  
+## See also  
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

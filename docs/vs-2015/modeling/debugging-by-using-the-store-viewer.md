@@ -46,5 +46,5 @@ Store Viewer
   
  The Store Viewer has three panes: the left pane, top-right pane, and bottom-right pane. The left pane is a tree view of the types in the `DomainDataDirectory` member of a store. If you expand the Partition node and click an element, the element's properties appear in the top-right pane. If the element is linked to other elements, the additional elements appear in the bottom-right pane. If you double-click an element in the bottom-right pane, the element is highlighted in the left pane.  
   
-## See Also  
+## See also  
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)

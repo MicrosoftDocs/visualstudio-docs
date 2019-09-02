@@ -69,7 +69,7 @@ Determines which items in the specified item collection have paths that are in o
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Tasks](../msbuild/msbuild-tasks.md)   
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)

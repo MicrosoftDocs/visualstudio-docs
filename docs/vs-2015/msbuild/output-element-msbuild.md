@@ -79,6 +79,6 @@ Stores task output values in items and properties.
 </Target>  
 ```  
   
-## See Also  
+## See also  
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)   
  [Tasks](../msbuild/msbuild-tasks.md)

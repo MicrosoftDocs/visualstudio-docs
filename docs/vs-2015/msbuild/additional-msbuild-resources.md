@@ -616,5 +616,5 @@ If you are trying to solve a problem and cannot find the information you need in
 ## Product Support  
  If you still have questions after you try the other resources, you can contact Microsoft support services by visiting the [Microsoft Help and Support](http://go.microsoft.com/fwlink/?linkid=1782) Web site. For information about product support available in your area, see [Talk to Us](../ide/talk-to-us.md).  
   
-## See Also  
+## See also  
  [Troubleshooting .NET Framework Targeting Errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md)

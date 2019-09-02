@@ -86,7 +86,7 @@ You can localize a VSIX package by creating an Extension.vsixlangpack file for e
 </VsixLanguagePack>  
 ```  
   
-## See Also  
+## See also  
  [VSIX LanguagePack Element](../extensibility/vsixlanguagepack-element-vsix-language-pack-schema.md)   
  [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)   
  [VSIX Project Template](../extensibility/vsix-project-template.md)

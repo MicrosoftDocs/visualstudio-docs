@@ -36,5 +36,5 @@ The performance reports of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profilin
   
  [Saving and Exporting Performance Tools Data](../profiling/saving-and-exporting-performance-tools-data.md)  
   
-## See Also  
+## See also  
  [Performance Explorer](../profiling/performance-explorer.md)

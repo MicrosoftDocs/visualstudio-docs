@@ -55,7 +55,7 @@ A VSPackage and its supporting files must be on a user's file system. The locati
   
    If your VSPackage DLL includes resources and the SatelliteDll\DllName registry entry points to it, [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] attempts to load them in the above order.  
   
-## See Also  
+## See also  
  [Choosing Between Shared and Versioned VSPackages](../../extensibility/choosing-between-shared-and-versioned-vspackages.md)   
  [Managing VSPackages](../../extensibility/managing-vspackages.md)   
  [Managed Package Registration](https://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)

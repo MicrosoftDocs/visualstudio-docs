@@ -29,5 +29,5 @@ Follow these steps to view or modify properties that are associated with workflo
   
 4. In the project **Properties** window, view and modify the properties that you want to change.  
   
-## See Also  
+## See also  
  [Creating Legacy Workflow Projects](../workflow-designer/creating-legacy-workflow-projects.md)

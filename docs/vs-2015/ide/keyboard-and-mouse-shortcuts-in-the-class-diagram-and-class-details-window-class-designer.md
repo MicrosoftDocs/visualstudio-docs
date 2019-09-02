@@ -103,5 +103,5 @@ You can use the keyboard in addition to the mouse to perform navigational action
 |Left arrow|If the cursor is in the Name column, pressing the left arrow collapses the current node in the hierarchy (if it is open).|  
 |Right arrow|If the cursor is in the Name column, pressing the right arrow expands the current node in the hierarchy (if it is collapsed).|  
   
-## See Also  
+## See also  
  [Creating and Configuring Type Members (Class Designer)](../ide/creating-and-configuring-type-members-class-designer.md)

@@ -44,6 +44,6 @@ HRESULT get_editAndContinueEnabled ( 
 |Header:|dia2.h|  
 |Version:|DIA SDK v7.0|  
   
-## See Also  
+## See also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [/Z7, /Zi, /ZI (Debug Information Format)](https://msdn.microsoft.com/library/ce9fa7e1-0c9b-47e3-98ea-26d1a16257c8)

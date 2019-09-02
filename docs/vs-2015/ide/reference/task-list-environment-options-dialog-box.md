@@ -67,7 +67,7 @@ This Options page allows you to add, delete, and change the comment tokens that 
 > [!NOTE]
 > You cannot rename or delete the default comment token, but you can change its priority level.  
   
-## See Also  
+## See also  
  [Using the Task List](../../ide/using-the-task-list.md)   
  [Setting Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)   
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

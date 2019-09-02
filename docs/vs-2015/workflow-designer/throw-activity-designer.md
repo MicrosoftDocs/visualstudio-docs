@@ -31,7 +31,7 @@ The **Throw** activity designer is used to create and configure a <xref:System.A
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the optional friendly name of the <xref:System.Activities.Statements.Throw> activity. The default is Throw.|  
 |<xref:System.Activities.Statements.Throw.Exception%2A>|True|The exception to throw. This exception must derive from <xref:System.Exception>. To specify the exception, type a Visual Basic expression in the property grid.|  
   
-## See Also  
+## See also  
  [Collection](../workflow-designer/collection-activity-designers.md)   
  [Rethrow](../workflow-designer/rethrow-activity-designer.md)   
  [Throw Activity Designer](../workflow-designer/throw-activity-designer.md)   

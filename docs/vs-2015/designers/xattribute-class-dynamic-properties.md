@@ -21,7 +21,7 @@ This section describes the dynamic properties of the <xref:System.Xml.Linq.XAttr
 |-----------|-----------------|  
 |[Value](../designers/value-xattribute-dynamic-property.md)|Gets or sets the value of the XML attribute.|  
   
-## See Also  
+## See also  
  <xref:System.Xml.Linq.XAttribute?displayProperty=fullName>   
  [LINQ to XML Dynamic Properties](../designers/linq-to-xml-dynamic-properties.md)   
  [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)

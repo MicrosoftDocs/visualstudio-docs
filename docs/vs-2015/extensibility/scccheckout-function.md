@@ -69,6 +69,6 @@ SCCRTN SccCheckout (
 |SCC_E_FILEOUTEXCLUSIVE|Another user has done an exclusive checkout on this file.|  
 |SCC_I_OPERATIONCANCELED|The operation was cancelled before completion.|  
   
-## See Also  
+## See also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
  [Bitflags Used by Specific Commands](../extensibility/bitflags-used-by-specific-commands.md)

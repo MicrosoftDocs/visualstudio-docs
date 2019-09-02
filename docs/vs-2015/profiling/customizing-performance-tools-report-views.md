@@ -30,5 +30,5 @@ This section covers how to customize reports that are generated with [!INCLUDE[v
  [Performance Report Views](../profiling/performance-report-views.md)  
  Describes the views that you can use to analyze profiling data.  
   
-## See Also  
+## See also  
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)

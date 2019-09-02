@@ -51,5 +51,5 @@ int GetFormalTypeParams(
 ## Remarks  
  Return the type parameters in order from left to right. For example, Dictionary\<K,V> returns IDebugFormalGenericParameters {K,V}.  
   
-## See Also  
+## See also  
  [IDebugGenericFieldDefinition](../../../extensibility/debugger/reference/idebuggenericfielddefinition.md)

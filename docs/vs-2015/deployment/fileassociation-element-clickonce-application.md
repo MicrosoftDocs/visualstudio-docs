@@ -75,5 +75,5 @@ Identifies a file extension to be associated with the application.
 <fileAssociation xmlns="urn:schemas-microsoft-com:clickonce.v1" extension=".writing" description="Writings (ClickOnce)" progid="Writing.Document" defaultIcon="writing.ico" />  
 ```  
   
-## See Also  
+## See also  
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)

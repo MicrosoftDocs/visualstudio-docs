@@ -55,6 +55,6 @@ This dialog box allows you to change the auto-completion and schema settings for
  **Schemas**  
  Specifies the location of the schema cache. The browse button (**...**) opens the **Directory Browse** dialog box at the current schema cache location. You can select a different directory, or you can select a folder in the dialog, right-click, and choose **Open** to see what is in the directory.  
   
-## See Also  
+## See also  
  [XML Document Properties, Properties Window](../xml-tools/xml-document-properties-properties-window.md)   
  [XML Editor Components](../xml-tools/xml-editor-components.md)

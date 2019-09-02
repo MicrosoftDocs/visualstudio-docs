@@ -53,5 +53,5 @@ We update Visual Studio setup often so that you get the most current, optimized 
 >   - rus (for Russian)
 >   - trk (for Turkish)
 
-## See Also
+## See also
  [Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md)

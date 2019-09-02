@@ -47,7 +47,7 @@ A Starter Kit contains code for a complete application and documentation on how 
  [How to: Update Existing Templates](../ide/how-to-update-existing-templates.md)  
  Describes how to edit an exported template. Use this procedure to modify the .vstemplate file to customize your Starter Kit.  
   
-## See Also  
+## See also  
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [Customizing Templates](../ide/customizing-project-and-item-templates.md)   
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)

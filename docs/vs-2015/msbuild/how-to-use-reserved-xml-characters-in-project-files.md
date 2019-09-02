@@ -67,6 +67,6 @@ When you author project files, you might need to use reserved XML characters, fo
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [MSBuild Reference](../msbuild/msbuild-reference.md)
  [MSBuild](msbuild.md)

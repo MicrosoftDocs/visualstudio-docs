@@ -38,6 +38,6 @@ manager: "wpickett"
 ## When to Suppress Warnings
  Do not suppress a warning from this rule. There are no scenarios where combining these elements is correct.
 
-## See Also
+## See also
  <xref:System.EnterpriseServices.ServicedComponent?displayProperty=fullName>
  <xref:System.Web.Services.WebMethodAttribute?displayProperty=fullName>

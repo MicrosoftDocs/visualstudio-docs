@@ -144,6 +144,6 @@ Modifies a VSIX package manifest file, which sets the installation behavior for 
   
   The identifier must match the `ID` attribute of the dependency package metadata. The source can be a project in the current solution, a currently installed extension, or a file. The **How is dependency resolved** setting can be the relative path of a nested package or the URL of the download location for the dependency. The ID, the version, and the resolution of the dependency package correspond to the `Id`, `Version`, and `Location` attributes of the associated `Dependency` element.  
   
-## See Also  
+## See also  
  [VSIX Extension Schema 2.0 Reference](../extensibility/vsix-extension-schema-2-0-reference.md)   
  [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)

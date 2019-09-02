@@ -69,7 +69,7 @@ public partial class Employee
 }  
 ```  
   
-## See Also  
+## See also  
  [Partial Classes and Methods](https://msdn.microsoft.com/library/804cecb7-62db-4f97-a99f-60975bd59fa1)   
  [partial (Type)](https://msdn.microsoft.com/library/27320743-a22e-4c7b-b0b3-53afe3607334)   
  [partial (Method) (C# Reference)](https://msdn.microsoft.com/library/43f40242-17e0-4452-8573-090503ad3137)   

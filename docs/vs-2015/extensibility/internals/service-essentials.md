@@ -53,7 +53,7 @@ A service is a contract between two VSPackages. One VSPackage provides a specifi
   
 - Managed objects that are deeply nested, or not sited at all, may call <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> for direct access to global services. For more information, see [How to: Use GetGlobalService](../../misc/how-to-use-getglobalservice.md).  
   
-## See Also  
+## See also  
  [List of Available Services](../../extensibility/internals/list-of-available-services.md)   
  [Using and Providing Services](../../extensibility/using-and-providing-services.md)   
  [Casting and Type Conversions](https://msdn.microsoft.com/library/568df58a-d292-4b55-93ba-601578722878)   

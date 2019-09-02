@@ -42,5 +42,5 @@ If your code has native frames that are invisible in the **Call Stack** window, 
   
      When the managed call is completed, execution will stop at the breakpoint in native code.  
   
-## See Also  
+## See also  
  [How to: Use the Call Stack Window](../debugger/how-to-use-the-call-stack-window.md)

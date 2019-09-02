@@ -54,5 +54,5 @@ JavaScript doesn't allow explicit typing for variable declarations. As a result,
   
   You can override the completion list for an object by using XML documentation comments or JavaScript IntelliSense extensibility features. Using these features, you can provide type information and more descriptive IntelliSense information when it might not otherwise be available. For more information, see [Extending JavaScript IntelliSense](../ide/extending-javascript-intellisense.md) and [Create XML Documentation Comments](../ide/create-xml-documentation-comments-for-javascript-intellisense.md).  
   
-## See Also  
+## See also  
  [JavaScript IntelliSense](../ide/javascript-intellisense.md)

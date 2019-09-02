@@ -58,6 +58,6 @@ int Compare(
 ## Remarks  
  A debug engine (DE) does not have to support all types of comparisons, but it must support at least `CONTEXT_EQUAL`, `CONTEXT_LESS_THAN`, `CONTEXT_GREATER_THAN` and `CONTEXT_SAME_SCOPE`.  
   
-## See Also  
+## See also  
  [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)   
  [CONTEXT_COMPARE](../../../extensibility/debugger/reference/context-compare.md)

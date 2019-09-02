@@ -45,5 +45,5 @@ Code metrics is a set of software measures that provide developers better insigh
   
  Code generated for Windows forms is not ignored, because it is code that the developer can see and change.  
   
-## See Also  
+## See also  
  [Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)

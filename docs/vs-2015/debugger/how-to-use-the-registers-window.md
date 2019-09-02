@@ -51,7 +51,7 @@ The Registers window is available only if address-level debugging is enabled in 
     > [!NOTE]
     > Register information is not available for script or SQL applications.  
   
-## See Also  
+## See also  
  [Debugging Basics: Registers Window](../debugger/debugging-basics-registers-window.md)   
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   
  [Debugging Basics: Registers Window](../debugger/debugging-basics-registers-window.md)

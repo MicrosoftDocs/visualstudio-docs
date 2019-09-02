@@ -37,5 +37,5 @@ int SetServer(
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDebugPortSupplierEx2](../../../extensibility/debugger/reference/idebugportsupplierex2.md)

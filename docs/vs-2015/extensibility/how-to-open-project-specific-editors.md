@@ -47,7 +47,7 @@ If an item file being opened by a project is intrinsically bound to the particul
   
 6. Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show%2A> method to show and open the view.  
   
-## See Also  
+## See also  
  [Opening and Saving Project Items](../extensibility/internals/opening-and-saving-project-items.md)   
  [How to: Open Standard Editors](../extensibility/how-to-open-standard-editors.md)   
  [How to: Open Editors for Open Documents](../extensibility/how-to-open-editors-for-open-documents.md)

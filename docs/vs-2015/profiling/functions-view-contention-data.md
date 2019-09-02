@@ -38,7 +38,7 @@ The Functions report view of contention data lists the functions in the profilin
 |**Process Name**|The name of the process.|  
 |**Source File**|The source file that contains the definition for this function.|  
   
-## See Also  
+## See also  
  [How to: Customize Report View Columns](../profiling/how-to-customize-report-view-columns.md)   
  [Functions View](../profiling/functions-view.md)   
  [Functions View - Instrumentation](../profiling/functions-view-dotnet-memory-instrumentation-data.md)   

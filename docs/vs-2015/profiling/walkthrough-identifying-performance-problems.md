@@ -152,7 +152,7 @@ This walkthrough demonstrates how to profile an application to identify performa
   
    When you run the application again, you will see marked improvements in performance. It is recommended that you run the profiling session again, even if there are user visible improvements in performance. Reviewing the data after you fix a problem is important because the first problem might obscure some other problem.  
   
-## See Also  
+## See also  
  [Overviews](../profiling/overviews-performance-tools.md)   
  [Getting Started](../profiling/getting-started-with-performance-tools.md)   
  [/Z7, /Zi, /ZI (Debug Information Format)](https://msdn.microsoft.com/library/ce9fa7e1-0c9b-47e3-98ea-26d1a16257c8)

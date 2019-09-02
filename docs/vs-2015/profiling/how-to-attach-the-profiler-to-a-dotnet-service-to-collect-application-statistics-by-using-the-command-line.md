@@ -124,6 +124,6 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
 4. Restart the computer.  
 
-## See Also  
+## See also  
  [Profiling Services](../profiling/command-line-profiling-of-services.md)   
  [Sampling Method Data Views](../profiling/profiler-sampling-method-data-views.md)

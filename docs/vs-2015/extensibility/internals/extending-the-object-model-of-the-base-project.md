@@ -26,5 +26,5 @@ A project subtype may extend the automation object model of the base project in 
   
 - Configuration.Properties – This collection exposes the configuration dependent properties of the project for a particular configuration (for example, Debug). For more information see, <xref:EnvDTE.Configuration>. A project subtype can use Automation Extenders to add its properties to this collection. The <xref:EnvDTE80.IInternalExtenderProvider> interface implemented on the main project subtype aggregator offers its object for the CATID `VSHPROPID_CfgBrowseObjectCATID` (corresponding to an `itemid` value of <xref:Microsoft.VisualStudio.VSConstants.VSITEMID>). The <xref:Microsoft.VisualStudio.Shell.Interop.IVsCfgBrowseObject>interface is used to distinguish one configuration browse object from another.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>

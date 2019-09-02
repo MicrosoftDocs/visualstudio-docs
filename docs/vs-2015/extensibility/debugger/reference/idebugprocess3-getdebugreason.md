@@ -39,6 +39,6 @@ int GetDebugReason(
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns error code.  
   
-## See Also  
+## See also  
  [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)   
  [DEBUG_REASON](../../../extensibility/debugger/reference/debug-reason.md)

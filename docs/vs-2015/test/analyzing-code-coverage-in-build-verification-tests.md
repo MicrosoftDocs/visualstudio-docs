@@ -30,5 +30,5 @@ Code coverage analysis in Microsoft Visual Studio shows you how much of your cod
   
    After the build runs, the code coverage results appear in the build summary.  
   
-## See Also  
+## See also  
  [Using Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)

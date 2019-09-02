@@ -67,6 +67,6 @@ int GetErrorMessage(
 ## Remarks  
  The error message should be formatted along the lines of `"What I was doing.  %1"`. The `"%1"` would then be replaced by the caller with the error message derived from the error code (which is returned in `hrErrorReason`). The `pMessageType` parameter tells the caller how the final error message should be displayed.  
   
-## See Also  
+## See also  
  [IDebugErrorEvent2](../../../extensibility/debugger/reference/idebugerrorevent2.md)   
  [MESSAGETYPE](../../../extensibility/debugger/reference/messagetype.md)

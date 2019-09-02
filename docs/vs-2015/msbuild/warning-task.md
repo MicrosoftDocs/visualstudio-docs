@@ -59,6 +59,6 @@ Logs a warning during a build based on an evaluated conditional statement.
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)   
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)

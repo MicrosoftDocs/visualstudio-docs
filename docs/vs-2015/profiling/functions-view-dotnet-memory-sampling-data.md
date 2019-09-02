@@ -36,7 +36,7 @@ The Functions view of .NET memory allocation profiling data that was collected b
 |**Exclusive Bytes**|The number of bytes of memory that were allocated by this function but not by its child functions.|  
 |**Exclusive Bytes %**|The percentage of all bytes of memory that were allocated in the profiling run that were exclusive bytes of this function.|  
   
-## See Also  
+## See also  
  [Functions View - Instrumentation](../profiling/functions-view-dotnet-memory-instrumentation-data.md)   
  [Functions View](../profiling/functions-view-sampling-data.md)   
  [Functions View](../profiling/functions-view-instrumentation-data.md)

@@ -50,5 +50,5 @@ Association lines in Class Designer show how classes in a diagram are related. A
   
      The name is updated in the **Class Details** window, on the association line, in the Properties window, and in code.  
   
-## See Also  
+## See also  
  [How to: Change Between Member Notation and Association Notation (Class Designer)](../ide/how-to-change-between-member-notation-and-association-notation-class-designer.md)

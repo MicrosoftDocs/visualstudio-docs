@@ -131,5 +131,5 @@ The Graph View provides a graphic representation of global schema nodes and the 
   
  If you make changes to the schema set in the XML Editor, the changes will be synchronized in the Graph View. For more information, see [Integration with XML Editor](../xml-tools/integration-with-xml-editor.md).  
   
-## See Also  
+## See also  
  [Design Surface](../xml-tools/xml-schema-designer-workspace.md)

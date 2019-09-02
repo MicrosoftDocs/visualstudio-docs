@@ -41,5 +41,5 @@ enum marker_importance;
   
  **Namespace:** Concurrency::diagnostic  
   
-## See Also  
+## See also  
  [diagnostic Namespace](../profiling/diagnostic-namespace.md)

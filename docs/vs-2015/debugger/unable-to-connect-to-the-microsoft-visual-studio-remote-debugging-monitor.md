@@ -77,5 +77,5 @@ This error message appears when you enter an invalid Visual Studio Remote Debugg
   
  **res://C:\Program%20Files\Microsoft%20Visual%20Studio%2014.0\Common7\IDE\Remote%20Debugger\x64\msvsmon.exe/help.htm**  
   
-## See Also  
+## See also  
  [Remote Debugging](../debugger/remote-debugging.md)

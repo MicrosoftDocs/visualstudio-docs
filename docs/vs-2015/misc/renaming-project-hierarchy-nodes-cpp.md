@@ -40,6 +40,6 @@ You can rename a project folder hierarchy node by using the HierUtil7 project fr
   
      `srpVsUIShell` is a <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell> pointer: `<IVsUIShell>``srpVsUIShell`. `guiVSStd97` is a unique identifier of the command group to which the command `cmdidRename` belongs, defined in Vsshlids.h.  
   
-## See Also  
+## See also  
  [Creating Project Types](../extensibility/internals/creating-project-types.md)   
  [VSSDK Samples](../misc/vssdk-samples.md)

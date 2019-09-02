@@ -220,6 +220,6 @@ This walkthrough builds on the [Adding a Toolbar to a Tool Window](../extensibil
   
      A dialog box appears with the message **You selected Menu controller Item 3**. Notice that the message corresponds to the text on the menu controller button. The menu controller button now displays **MC Item 3**.  
   
-## See Also  
+## See also  
  [Adding a Toolbar to a Tool Window](../extensibility/adding-a-toolbar-to-a-tool-window.md)   
  [Adding a Toolbar](../extensibility/adding-a-toolbar.md)

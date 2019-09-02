@@ -356,5 +356,5 @@ if (performance.mark && performance.measure) {
   
 - For info on the single-threaded code execution model and performance, see [Executing code](https://msdn.microsoft.com/library/windows/apps/hh781217.aspx).  
   
-## See Also  
+## See also  
  [Analyze app performance](https://msdn.microsoft.com/library/58acb30b-8428-41a6-b195-b0fdedb89575)

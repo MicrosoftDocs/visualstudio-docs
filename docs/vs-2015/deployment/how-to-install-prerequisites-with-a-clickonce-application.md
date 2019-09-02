@@ -64,6 +64,6 @@ All [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications require 
     > [!NOTE]
     > You must make sure that installers for the specified components exist at the specified location.  
   
-## See Also  
+## See also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

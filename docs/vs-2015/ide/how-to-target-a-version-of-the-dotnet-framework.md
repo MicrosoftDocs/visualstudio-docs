@@ -74,7 +74,7 @@ This document describes how to target a version of the .NET Framework when you c
     > [!NOTE]
     > If your code contains references to a different version of the .NET Framework than the one that you targeted, error messages may appear when you compile or run the code. To resolve these errors, you must modify the references. See [Troubleshooting .NET Framework Targeting Errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md).  
   
-## See Also  
+## See also  
  [Visual Studio Multi-Targeting Overview](../ide/visual-studio-multi-targeting-overview.md)   
  [.NET Framework Multi-Targeting for ASP.NET Web Projects](https://msdn.microsoft.com/library/8b8145a9-62f6-4fc4-8a83-47b0487cbe76)   
  [Troubleshooting .NET Framework Targeting Errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md)   

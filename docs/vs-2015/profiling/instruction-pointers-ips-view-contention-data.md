@@ -39,7 +39,7 @@ The IPs view of contention data lists data for the assembly instructions that we
 |**Source Line Begin**|The line number in the source file at which this instruction starts.|  
 |**Source Line End**|The line number in the source file at which this instruction ends.|  
   
-## See Also  
+## See also  
  [How to: Customize Report View Columns](../profiling/how-to-customize-report-view-columns.md)   
  [Instruction Pointers (IPs) View](../profiling/instruction-pointers-ips-view.md)   
  [Instruction Pointers (IPs) View - Sampling](../profiling/instruction-pointers-ips-view-dotnet-memory-sampling-data.md)   

@@ -43,6 +43,6 @@ You can use **Quick Launch** to quickly search and execute actions for IDE asset
   
  For the most recent tips and tricks for using **Quick Launch**, see [The Visual Studio Blog](http://go.microsoft.com/fwlink/?LinkId=236054).  
   
-## See Also  
+## See also  
  [General User Interface Elements (Visual Studio)](../../ide/reference/general-user-interface-elements-visual-studio.md)   
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

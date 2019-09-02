@@ -111,5 +111,5 @@ The <xref:Microsoft.VisualStudio.VSConstants> class provides constants that are 
 |<xref:Microsoft.VisualStudio.VSConstants.CPPM_QUERYCANSELECT>|WM_USER + 1286|  
 |<xref:Microsoft.VisualStudio.VSConstants.CPPM_SETMULTISELECT>|WM_USER + 1289|  
   
-## See Also  
+## See also  
  [IDE-Defined Commands for Extending Project Systems](../extensibility/internals/ide-defined-commands-for-extending-project-systems.md)

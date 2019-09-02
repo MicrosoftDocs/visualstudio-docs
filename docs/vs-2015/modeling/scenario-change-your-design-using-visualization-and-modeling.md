@@ -878,7 +878,7 @@ Make sure that your software system meets users' needs by using the visualizatio
 |------------------|---------------|  
 |**Forums**|-   [Visual Studio Visualization & Modeling Tools](http://go.microsoft.com/fwlink/?LinkId=184720)<br />-   [Visual Studio Visualization & Modeling SDK (DSL Tools)](http://go.microsoft.com/fwlink/?LinkId=184721)|  
   
-## See Also  
+## See also  
  [Visualize code](../modeling/visualize-code.md)   
  [Create models for your app](../modeling/create-models-for-your-app.md)   
  [Use models in your development process](../modeling/use-models-in-your-development-process.md)   

@@ -41,5 +41,5 @@ Defines by its presence whether the graphics log file is saved to the user's tem
   
 ```  
   
-## See Also  
+## See also  
  [VSG_DEFAULT_RUN_FILENAME](../debugger/vsg-default-run-filename.md)

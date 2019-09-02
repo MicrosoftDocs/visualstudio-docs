@@ -29,6 +29,6 @@ This topic describes how to debug [!INCLUDE[wf](../includes/wf-md.md)] applicati
   
   You should select the instance stepping option when debugging legacy state machine workflows.  
   
-## See Also  
+## See also  
  [Debugging Legacy Workflows](../workflow-designer/debugging-legacy-workflows.md)   
  [How to: Change the Debug Stepping Option (Legacy)](../workflow-designer/how-to-change-the-debug-stepping-option-legacy.md)

@@ -42,6 +42,6 @@ int CreateAlias(
 ## Remarks  
  An alias is a label that represents a particular object while the object is in memory.  
   
-## See Also  
+## See also  
  [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)   
  [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)

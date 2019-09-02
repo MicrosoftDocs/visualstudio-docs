@@ -22,7 +22,7 @@ The debug package runs in the Visual Studio shell and handles all of the UI. It 
   
  The debug package is implemented by vsdebug.dll.  
   
-## See Also  
+## See also  
  [Session Debug Manager](../../extensibility/debugger/session-debug-manager.md)   
  [Stack Frames](../../extensibility/debugger/stack-frames.md)   
  [Threads](../../extensibility/debugger/threads.md)   

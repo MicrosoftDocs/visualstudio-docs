@@ -119,7 +119,7 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] build process is defined by a s
 |`CleanDependsOn`|The property to override if you want to clean up output from your custom build process.|
 |`CompileDependsOn`|The property to override if you want to insert custom processes before or after the compilation step.|
 
-## See Also
+## See also
  [Visual Studio Integration](../msbuild/visual-studio-integration-msbuild.md)
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)
  [.Targets Files](../msbuild/msbuild-dot-targets-files.md)

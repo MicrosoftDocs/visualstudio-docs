@@ -346,7 +346,7 @@ Generates a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application m
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [GenerateDeploymentManifest Task](../msbuild/generatedeploymentmanifest-task.md)   
  [SignFile Task](../msbuild/signfile-task.md)   

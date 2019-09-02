@@ -168,6 +168,6 @@ STDMETHODIMP CParsedExpression::EvaluateSync(
 }  
 ```  
   
-## See Also  
+## See also  
  [Evaluating a Watch Window Expression](../../extensibility/debugger/evaluating-a-watch-window-expression.md)   
  [Sample Implementation of Expression Evaluation](../../extensibility/debugger/sample-implementation-of-expression-evaluation.md)

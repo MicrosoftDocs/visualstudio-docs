@@ -41,5 +41,5 @@ BSTR    fileName;
 HRESULT errorCode = pSource->get_lastError( &fileName );  
 ```  
   
-## See Also  
+## See also  
  [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)

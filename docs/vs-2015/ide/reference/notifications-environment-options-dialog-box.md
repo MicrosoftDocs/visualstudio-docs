@@ -17,5 +17,5 @@ manager: jillfra
 
 Use this option to stop ignoring any notifications that you previously chose to ignore through the Notifications dialog. For more information, see [Notifications](../../ide/visual-studio-notifications.md).  
   
-## See Also  
+## See also  
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

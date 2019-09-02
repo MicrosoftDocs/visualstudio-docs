@@ -176,6 +176,6 @@ The `InstallChecks` element supports starting a variety of tests against the loc
     <FailIf Property="Version9X" Compare="VersionLessThan" Value="4.10" String="InvalidPlatform"/>  
 ```  
   
-## See Also  
+## See also  
  [\<Commands> Element](../deployment/commands-element-bootstrapper.md)   
  [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)

@@ -37,5 +37,5 @@ Service1 obj = new Service1();
 obj.TimeOut = -1; // infinite time out.  
 ```  
   
-## See Also  
+## See also  
  [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

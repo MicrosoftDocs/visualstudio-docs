@@ -76,7 +76,7 @@ Learn about how the Visual Studio editor supports reading and navigating through
 
  For details about how to create TextMate Grammars, see [TextMate – Introduction to Language Grammars: How to add source code syntax highlighting embedded in HTML](https://developmentality.wordpress.com/2011/02/08/textmate-introduction-to-language-grammars/) and [Notes on how to create a Language Grammar and Custom Theme for a Textmate Bundle](https://benparizek.com/notebook/notes-on-how-to-create-a-language-grammar-and-custom-theme-for-a-textmate-bundle).
 
-## See Also
+## See also
  [Visual Studio 2013 Navigate To Improvements](https://blogs.msdn.microsoft.com/mvpawardprogram/2013/10/22/visual-studio-2013-navigate-to-improvements/)
  [Walkthrough: Creating a Code Snippet](../ide/walkthrough-creating-a-code-snippet.md)
  [Walkthrough: Displaying Statement Completion](../extensibility/walkthrough-displaying-statement-completion.md)

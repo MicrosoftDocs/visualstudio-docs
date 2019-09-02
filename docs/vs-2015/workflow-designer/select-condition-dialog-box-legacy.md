@@ -44,7 +44,7 @@ This topic describes how use the **Select Condition** dialog box in the legacy [
   
  For more information about conditions, see [Using Conditions in Workflows](http://go.microsoft.com/fwlink?LinkID=65009).  
   
-## See Also  
+## See also  
  [Rule Condition Editor Dialog Box (Legacy)](../workflow-designer/rule-condition-editor-dialog-box-legacy.md)   
  [How to: Create a Declarative Rule Condition (Legacy)](../workflow-designer/how-to-create-a-declarative-rule-condition-legacy.md)   
  [Using Conditions in Workflows](http://go.microsoft.com/fwlink?LinkID=65009)   

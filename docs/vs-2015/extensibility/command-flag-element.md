@@ -71,5 +71,5 @@ Modifies its parent element.
 |[Buttons Element](../extensibility/buttons-element.md)|Provides a group for [Button Element](../extensibility/button-element.md) elements.|  
 |[Menus Element](../extensibility/menus-element.md)|Defines all the menus that a VSPackage implements.|  
   
-## See Also  
+## See also  
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

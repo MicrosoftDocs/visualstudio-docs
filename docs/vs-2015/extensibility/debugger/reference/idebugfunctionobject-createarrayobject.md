@@ -67,5 +67,5 @@ int CreateArrayObject(
 ## Remarks  
  Call this method to create an object that represents an array parameter to the function which is represented by the [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) interface.  
   
-## See Also  
+## See also  
  [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md)

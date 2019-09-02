@@ -246,5 +246,5 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
 ### Breakpoints don't work in a DLL  
  You cannot set a breakpoint in a source file when the debugger hasn't loaded the debug information for the module where the code is located. Symptoms may include messages such as **the breakpoint will not be set**. The Warning breakpoint glyph appears at the breakpoint location. However, these Warning breakpoints become actual breakpoints when the code is loaded. For more information about loading symbols, see [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).  
   
-## See Also  
+## See also  
  [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)

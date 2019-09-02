@@ -30,7 +30,7 @@ manager: jillfra
   
  `IDebugParsedExpression::EvaluateSync` returns an [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) interface representing the resulting value and its type.  
   
-## See Also  
+## See also  
  [Key Expression Evaluator Interfaces](../../extensibility/debugger/key-expression-evaluator-interfaces.md)   
  [Displaying Locals](../../extensibility/debugger/displaying-locals.md)   
  [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md)   

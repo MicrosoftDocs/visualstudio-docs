@@ -39,5 +39,5 @@ Devenv /useenv
 Devenv.exe /useenv  
 ```  
   
-## See Also  
+## See also  
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)

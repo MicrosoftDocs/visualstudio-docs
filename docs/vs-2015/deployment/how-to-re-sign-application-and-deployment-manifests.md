@@ -109,7 +109,7 @@ After you make changes to deployment properties in the application manifest for 
   
 7. Optionally, copy the master deployment manifest (publish\\*appname*.application) to your version deployment directory (publish\Application Files\\*appname*_*version*).  
   
-## See Also  
+## See also  
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [Code Access Security for ClickOnce Applications](../deployment/code-access-security-for-clickonce-applications.md)   
  [ClickOnce and Authenticode](../deployment/clickonce-and-authenticode.md)   

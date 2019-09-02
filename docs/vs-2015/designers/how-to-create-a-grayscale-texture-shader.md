@@ -44,7 +44,7 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
   
  Certain shapes might provide better previews for some shaders. For more information about previewing shaders in the Shader Designer, see [Shader Designer](../designers/shader-designer.md)  
   
-## See Also  
+## See also  
  [How to: Apply a Shader to a 3-D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md)   
  [How to: Export a Shader](../designers/how-to-export-a-shader.md)   
  [Image Editor](../designers/image-editor.md)   

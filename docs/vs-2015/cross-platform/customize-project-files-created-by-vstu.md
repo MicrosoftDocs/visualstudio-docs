@@ -62,5 +62,5 @@ public class ProjectFileHook
 }  
 ```  
   
-## See Also  
+## See also  
  [Example: Log Callback](../cross-platform/share-the-unity-log-callback-with-vstu.md)

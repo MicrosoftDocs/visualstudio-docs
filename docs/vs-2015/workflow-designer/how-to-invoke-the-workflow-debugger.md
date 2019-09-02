@@ -34,6 +34,6 @@ Generally, you debug workflows just like you debug programs written in other Vis
   
 - If you are building a Workflow Console Application project, simply press **F5** to begin debugging into your application and workflow. If you are building an activity library on its own, you must have an executable host application as a startup project. To set a startup project in **Solution Explorer**, right-click the project name of the host and select **Set as StartUp Project**.  
   
-## See Also  
+## See also  
  [How to: Set Breakpoints in Workflows](../workflow-designer/how-to-set-breakpoints-in-workflows.md)   
  [Debugging Workflows with the Workflow Designer](../workflow-designer/debugging-workflows-with-the-workflow-designer.md)

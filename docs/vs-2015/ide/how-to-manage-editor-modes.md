@@ -59,7 +59,7 @@ You can display the Visual Studio Code Editor in various display modes.
     > [!NOTE]
     > **Virtual Space** is enabled in **Column Selection** mode. When **Virtual Space** mode is not enabled, the insertion point moves from the end of one line directly to the first character of the next.  
   
-## See Also  
+## See also  
  [Customizing the Editor](../ide/customizing-the-editor.md)   
  [How to: Arrange and Dock Windows](../misc/how-to-arrange-and-dock-windows.md)   
  [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md)

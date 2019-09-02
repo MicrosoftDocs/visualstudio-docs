@@ -44,6 +44,6 @@ int RemoveSetException( 
   
  To remove all set exceptions at once, call the [RemoveAllSetExceptions](../../../extensibility/debugger/reference/idebugengine2-removeallsetexceptions.md) method.  
   
-## See Also  
+## See also  
  [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)   
  [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md)

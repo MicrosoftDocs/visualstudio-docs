@@ -75,5 +75,5 @@ return left.Equals(right);
 **Good type: {3,3} {3,3} are == ?   Yes**
 **Bad type:  {2,2} {9,9} are equal? No**
 **Good type: {3,3} {9,9} are == ?   No**
-## See Also
+## See also
  [Equality Operators](https://msdn.microsoft.com/library/bc496a91-fefb-4ce0-ab4c-61f09964119a)

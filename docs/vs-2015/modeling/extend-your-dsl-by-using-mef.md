@@ -368,7 +368,7 @@ namespace MefExtension
   
 ```  
   
-## See Also  
+## See also  
  [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)   
  [Managed Extensibility Framework (MEF)](https://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)   
  [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)   

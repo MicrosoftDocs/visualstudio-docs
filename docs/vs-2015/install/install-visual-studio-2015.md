@@ -188,6 +188,6 @@ Before we dig in to the details, here's a list of our most frequently requested 
 |[The Visual Studio Image Library](../designers/the-visual-studio-image-library.md)|Provides information about how to install graphics that you can use in Visual Studio applications.|
 |[Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)|Includes information and links that can help you use Visual Studio more effectively.|
 
-## See Also
+## See also
 
 - [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)

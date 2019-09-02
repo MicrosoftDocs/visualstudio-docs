@@ -195,6 +195,6 @@ The Help Viewer allows you to manage local Help installations for network enviro
   
 3. Run the bat file on the local machines that the Help content is to be installed onto.  
   
-## See Also  
+## See also  
  [Command-Line Arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md)   
  [Help Content Manager Overrides](../ide/help-content-manager-overrides.md)

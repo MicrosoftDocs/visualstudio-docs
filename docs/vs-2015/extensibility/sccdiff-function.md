@@ -78,5 +78,5 @@ SCCRTN SccDiff(
 |SCC_DIFF_QD_CHECKSUM|Silently compares the file via a checksum when supported. If not supported, falls back to a comparison of contents.|  
 |SCC_DIFF_QD_TIME|Silently compares the file via its timestamp when supported. If not supported, falls back to a comparison of contents.|  
   
-## See Also  
+## See also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

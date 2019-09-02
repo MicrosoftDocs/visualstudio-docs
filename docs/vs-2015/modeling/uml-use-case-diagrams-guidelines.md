@@ -434,7 +434,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
  ![Subsystems show different versions of a system](../modeling/media/uml-ucguidesystem.png "UML_UCGuideSystem")  
   
-## See Also  
+## See also  
  [Model user requirements](../modeling/model-user-requirements.md)   
  [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md)   
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   

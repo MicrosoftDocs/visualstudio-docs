@@ -36,5 +36,5 @@ int Reset();
 ## Remarks  
  After this method is called, the next call to the [Next](../../../extensibility/debugger/reference/ienumdebugmodules2-next.md) method returns the first element of the enumeration.  
   
-## See Also  
+## See also  
  [IEnumDebugModules2](../../../extensibility/debugger/reference/ienumdebugmodules2.md)

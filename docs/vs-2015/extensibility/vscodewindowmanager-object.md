@@ -25,5 +25,5 @@ The language service implements the code window manager and is responsible for m
 |---------------|-----------------|  
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager>|Allows adornments (such as drop-down bars) to be added to or removed from a code window.|  
   
-## See Also  
+## See also  
  [Customizing Code Windows by Using the Legacy API](../extensibility/customizing-code-windows-by-using-the-legacy-api.md)

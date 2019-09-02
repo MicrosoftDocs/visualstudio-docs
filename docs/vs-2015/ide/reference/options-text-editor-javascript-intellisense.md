@@ -73,5 +73,5 @@ Use the **IntelliSense** page of the **Options** dialog box to modify settings t
  **Add a reference to the group**  
  This option provides a way to add additional IntelliSense .js files by browsing to the appropriate files.  
   
-## See Also  
+## See also  
  [JavaScript IntelliSense](../../ide/javascript-intellisense.md)

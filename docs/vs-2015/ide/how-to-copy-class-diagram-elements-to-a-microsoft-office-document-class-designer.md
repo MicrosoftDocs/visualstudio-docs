@@ -36,6 +36,6 @@ You can copy shapes from a .NET class diagram (.cd file) to other documents. You
   
    You can also choose **Copy** instead of **Copy Image**. **Copy** copies the image as a regular bitmap. **Copy Image** copies the image as a vector-based image, which is better for most Office applications.  
   
-## See Also  
+## See also  
  [How to: Print Class Diagrams (Class Designer)](../ide/how-to-print-class-diagrams-class-designer.md)   
  [How to: Export Class Diagrams As Images (Class Designer)](../ide/how-to-export-class-diagrams-as-images-class-designer.md)

@@ -66,5 +66,5 @@ d3d_device->CreateTexture2D(&texture_description, initial_data.data(), &texture)
 > [!NOTE]
 > If you want to provide your own mip level contents instead of generating them automatically, you must create your textures by using an image editor that supports mip-mapped textures and then load the file and pass the mip levels to `CreateTexture2D`.  
   
-## See Also  
+## See also  
  [Half/Quarter Texture Dimensions Variant](../debugger/half-quarter-texture-dimensions-variant.md)

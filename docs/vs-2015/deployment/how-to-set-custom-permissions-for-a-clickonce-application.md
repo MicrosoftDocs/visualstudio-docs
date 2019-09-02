@@ -45,7 +45,7 @@ You can deploy a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applicat
     > [!NOTE]
     > You can use the `ToXml` method of a permission set to generate the XML code for the application manifest. For example, to generate the XML for the <xref:System.Security.Permissions.EnvironmentPermission> permission set, call the <xref:System.Security.Permissions.EnvironmentPermission.ToXml%2A> method. For more information about the structure of the permission set XML, see [NIB: How to: Import a Permission Set by Using an XML File](https://msdn.microsoft.com/dea16b54-c108-408a-ac36-cdc05f746236).  
   
-## See Also  
+## See also  
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [Code Access Security for ClickOnce Applications](../deployment/code-access-security-for-clickonce-applications.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)

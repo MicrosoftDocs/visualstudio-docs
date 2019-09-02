@@ -44,5 +44,5 @@ IMPORTANT]
   
 ## Remarks  
   
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)

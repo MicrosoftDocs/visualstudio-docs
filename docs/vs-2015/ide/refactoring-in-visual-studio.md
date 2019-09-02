@@ -37,6 +37,6 @@ Refactoring is the process of modifying code in order to make it easier to maint
 ### Refactoring in F\#
  Refactoring support for F# is provided in [Visual F# Power Tools](https://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff), a third-party Visual Studio extension.
 
-## See Also
+## See also
  [Visual Studio IDE](../ide/visual-studio-ide.md)
  [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md)

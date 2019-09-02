@@ -53,7 +53,7 @@ You must complete several tasks to create a new project type. The following chec
   
 8. Create the Microsoft Installer (.msi) file for installing your VSPackages. For more information, see [Installing VSPackages With Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md), [Registering a Project Type](../../extensibility/internals/registering-a-project-type.md), and [VSPackages](../../extensibility/internals/vspackages.md).  
   
-## See Also  
+## See also  
  [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)   
  [When to Create Project Types](../../extensibility/internals/when-to-create-project-types.md)   
  [Creating Project Types](../../extensibility/internals/creating-project-types.md)

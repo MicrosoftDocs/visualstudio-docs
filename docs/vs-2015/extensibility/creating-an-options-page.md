@@ -257,5 +257,5 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
      A message box displays the current value of `OptionInteger`.  
   
-## See Also  
+## See also  
  [Options and Options Pages](../extensibility/internals/options-and-options-pages.md)

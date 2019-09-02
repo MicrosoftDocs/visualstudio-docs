@@ -64,6 +64,6 @@ Identifies the application deployed in a [!INCLUDE[ndptecclick](../includes/ndpt
   type="win32" />  
 ```  
   
-## See Also  
+## See also  
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)   
  [\<assemblyIdentity> Element](../deployment/assemblyidentity-element-clickonce-deployment.md)

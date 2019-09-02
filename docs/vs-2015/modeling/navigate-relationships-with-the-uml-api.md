@@ -157,6 +157,6 @@ select shape.Element
   
 ```  
   
-## See Also  
+## See also  
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   
  [Navigate the UML model](../modeling/navigate-the-uml-model.md)

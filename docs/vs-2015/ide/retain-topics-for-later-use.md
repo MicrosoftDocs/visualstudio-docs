@@ -26,5 +26,5 @@ When you locate a useful topic, you can access it later by copying it and pastin
 ## Using the Favorites tab  
  On the **Favorites** tab, you can open the shortcut menu for any entry and then rename it, delete it, or organize entries into folders.  
   
-## See Also  
+## See also  
  [Shortcut Keys (Help Viewer)](../ide/shortcut-keys-help-viewer.md)

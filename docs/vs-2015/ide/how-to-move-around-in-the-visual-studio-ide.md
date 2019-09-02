@@ -85,6 +85,6 @@ The integrated development environment (IDE) has been designed to allow you to m
     > [!TIP]
     > To reverse the order in which you go through the **Active Tool Windows** list, hold down the SHIFT + ALT keys and press F7.
 
-## See Also
+## See also
  [Customizing window layouts](../ide/customizing-window-layouts-in-visual-studio.md)
  [Default Keyboard Shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md)

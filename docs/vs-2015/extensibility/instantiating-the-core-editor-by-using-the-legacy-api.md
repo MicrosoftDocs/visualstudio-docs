@@ -60,7 +60,7 @@ The editor is responsible for text editing functions such as insertion, deletion
   
  For general information, see [Walkthrough: Creating a Core Editor and Registering an Editor File Type](../extensibility/walkthrough-creating-a-core-editor-and-registering-an-editor-file-type.md).  
   
-## See Also  
+## See also  
  [Inside the Core Editor](../extensibility/inside-the-core-editor.md)   
  [Opening and Saving Project Items](../extensibility/internals/opening-and-saving-project-items.md)   
  [Walkthrough: Creating a Core Editor and Registering an Editor File Type](../extensibility/walkthrough-creating-a-core-editor-and-registering-an-editor-file-type.md)

@@ -56,6 +56,6 @@ manager: jillfra
   
    If you do not specify the executable in the _Project_**Property Pages** dialog box, the [Executable for Debugging Session Dialog Box](../debugger/executable-for-debugging-session-dialog-box.md) appears when you start debugging.  
   
-## See Also  
+## See also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

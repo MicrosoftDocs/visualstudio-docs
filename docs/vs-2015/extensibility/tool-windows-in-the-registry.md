@@ -36,5 +36,5 @@ VSPackages that provide tool windows must register with [!INCLUDE[vsprvs](../inc
   
  The second optional key, ToolWindows\Visibility, specifies the GUIDs of commands that require the tool window to be made visible. In this case, there are no commands specified. For more information, see [Tool Window Display Configuration](../extensibility/tool-window-display-configuration.md).  
   
-## See Also  
+## See also  
  [VSPackage Essentials](../misc/vspackage-essentials.md)

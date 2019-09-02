@@ -32,6 +32,6 @@ You can specify which types of debugging information appear in the **Output** wi
   
  For more information, see [How to: Display WPF Trace Information](../debugger/how-to-display-wpf-trace-information.md).  
   
-## See Also  
+## See also  
  [Debugging, Options Dialog Box](../debugger/debugging-options-dialog-box.md)   
  [Output Window](../ide/reference/output-window.md)

@@ -42,6 +42,6 @@ Follow these steps to create a State Machine Workflow Console Application projec
   
 8. Click **OK**.  
   
-## See Also  
+## See also  
  [Creating Legacy Workflow Projects](../workflow-designer/creating-legacy-workflow-projects.md)   
  [How to: Create a State Machine Workflow Library (Legacy)](../workflow-designer/how-to-create-a-state-machine-workflow-library-legacy.md)

@@ -61,6 +61,6 @@ The KeyBindings element groups KeyBinding elements and other KeyBindings groupin
 </KeyBindings>  
 ```  
   
-## See Also  
+## See also  
  [KeyBinding Element](../extensibility/keybinding-element.md)   
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

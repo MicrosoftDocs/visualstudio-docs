@@ -233,5 +233,5 @@ You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and 
   
      where *config_file_path* is the path to a configuration file in JSON format. The startup options and their values must not include dashes.  
   
-## See Also  
+## See also  
  [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)

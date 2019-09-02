@@ -86,7 +86,7 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
   
  ![Shortcut thread menu in Parallel Tasks window](../debugger/media/parallel-tasks-contextmenu2.png "Parallel_Tasks_ContextMenu2")  
   
-## See Also  
+## See also  
  [Debugger Basics](../debugger/debugger-basics.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
  [Parallel Programming](https://msdn.microsoft.com/library/4d83c690-ad2d-489e-a2e0-b85b898a672d)   

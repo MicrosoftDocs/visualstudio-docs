@@ -88,6 +88,6 @@ typedef int (__cdecl *STARTFCN)(LPSTR, LPWSTR, int, GUID *, WCHAR *pszSettings);
 ## Example  
  To disable add-ins and change the default projects location for your application, you can set the last parameter to "AddinsAllowed=false;DefaultProjectsLocation=%USERPROFILE%\temp".  
   
-## See Also  
+## See also  
  [Customizing the Isolated Shell](../extensibility/customizing-the-isolated-shell.md)   
  [.Pkgdef Files](../extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md)

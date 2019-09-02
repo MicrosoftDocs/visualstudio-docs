@@ -33,6 +33,6 @@ You can manually create a performance session. You are not required to open a pr
   
      A new binary is added.  
   
-## See Also  
+## See also  
  [Performance Explorer](../profiling/performance-explorer.md)   
  [Getting Started](../profiling/getting-started-with-performance-tools.md)

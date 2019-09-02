@@ -115,6 +115,6 @@ Evaluates child elements to select one set of `ItemGroup` elements and/or `Prope
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Conditional Constructs](../msbuild/msbuild-conditional-constructs.md)   
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)

@@ -112,6 +112,6 @@ This topic summarizes the different ways in which you can extend the UML modelin
 |**Blogs**|[Visual Studio ALM + Team Foundation Server Blog](http://go.microsoft.com/fwlink/?LinkID=201340)|  
 |**Technical Articles and Journals**|[MSDN Architecture Center](http://go.microsoft.com/fwlink/?LinkId=201343)|  
   
-## See Also  
+## See also  
  [Create models for your app](../modeling/create-models-for-your-app.md)   
  [API Reference for UML Modeling Extensibility](../modeling/api-reference-for-uml-modeling-extensibility.md)

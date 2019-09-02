@@ -37,5 +37,5 @@ devenv /setup
 devenv /setup  
 ```  
   
-## See Also  
+## See also  
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)

@@ -41,5 +41,5 @@ int IsProxy (
 ## Remarks  
  This method is implemented by the default C++ debug engine.  
   
-## See Also  
+## See also  
  [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

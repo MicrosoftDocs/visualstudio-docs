@@ -44,5 +44,5 @@ int GetLogicalThread( 
 ## Return Value  
  Debug engine implementations always return `E_NOTIMPL`.  
   
-## See Also  
+## See also  
  [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)

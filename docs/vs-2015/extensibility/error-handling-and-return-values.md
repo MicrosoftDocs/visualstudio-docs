@@ -49,7 +49,7 @@ VSPackages and COM use the same architecture for errors. The `SetErrorInfo` and 
   
 - All functions that return an error originated by another call must pass on the information that was received from the failing call in the `HRESULT` without modifying the `ErrorInfo` object.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>   
  [SetErrorInfo (Component Automation)](https://msdn.microsoft.com/8eaacfac-fc37-4eaa-870b-10b99d598d66)   
  [GetErrorInfo](https://msdn.microsoft.com/03317526-8c4f-4173-bc10-110c8112676a)   

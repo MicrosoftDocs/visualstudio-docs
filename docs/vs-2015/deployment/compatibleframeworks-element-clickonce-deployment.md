@@ -69,5 +69,5 @@ Identifies the versions of the .NET Framework where this application can install
 </compatibleFrameworks>  
 ```  
   
-## See Also  
+## See also  
  [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)

@@ -48,7 +48,7 @@ The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] Code Editor provides a **Cod
  Item List  
  A list of code snippets available for insertion, or a list of folders containing code snippets. To insert a snippet or expand a folder, select the item you want and press Enter.  
   
-## See Also  
+## See also  
  [Best Practices for Using Code Snippets](../../ide/best-practices-for-using-code-snippets.md)   
  [Visual Basic IntelliSense Code Snippets](https://msdn.microsoft.com/library/ffdde4c9-8141-4906-b09b-15181357a643)   
  [Setting Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)   

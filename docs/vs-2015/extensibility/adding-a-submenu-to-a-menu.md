@@ -150,6 +150,6 @@ This walkthrough builds on the demonstration in [Adding a Menu to the Visual Stu
   
 5. On the **TestMenu** menu, click **Sub Menu** and then click **Test Sub Command**. A message box should appear and display the text, "Test Command Inside TestCommand.SubItemCallback()".  
   
-## See Also  
+## See also  
  [Adding a Menu to the Visual Studio Menu Bar](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md)   
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

@@ -55,5 +55,5 @@ The debug engine (DE) typically sends one of the following events as the last st
   
    The calls the SDM makes to `Step`, **Execute**, and **Continue** are asynchronous, which means that the SDM expects the call to return quickly. If the DE sends the SDM a stopping event on the same thread before `Step`, **Execute**, or **Continue** returns, the SDM hangs.  
   
-## See Also  
+## See also  
  [Debugging Tasks](../../extensibility/debugger/debugging-tasks.md)

@@ -27,7 +27,7 @@ The property \<property name> cannot be deleted because it is set as the Discrim
   
 3. Try to delete the property again.  
   
-## See Also  
+## See also  
  [How to: Configure inheritance by using the O/R Designer](../data-tools/how-to-configure-inheritance-by-using-the-o-r-designer.md)   
  [Data class inheritance (O/R Designer)](../data-tools/data-class-inheritance-o-r-designer.md)   
  [Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)](../data-tools/walkthrough-creating-linq-to-sql-classes-by-using-single-table-inheritance-o-r-designer.md)

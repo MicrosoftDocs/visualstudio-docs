@@ -43,5 +43,5 @@ int GetName(
 ## Remarks  
  The name of a memory context is not normally used.  
   
-## See Also  
+## See also  
  [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)

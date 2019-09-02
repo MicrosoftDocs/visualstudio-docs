@@ -42,6 +42,6 @@ int GetElementType(
 ## Remarks  
  The [IDebugArrayField](../../../extensibility/debugger/reference/idebugarrayfield.md) object assumes that all elements of the array are the same type.  
   
-## See Also  
+## See also  
  [IDebugArrayField](../../../extensibility/debugger/reference/idebugarrayfield.md)   
  [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

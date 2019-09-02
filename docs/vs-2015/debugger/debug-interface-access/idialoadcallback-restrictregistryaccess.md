@@ -31,5 +31,5 @@ HRESULT RestrictRegistryAccess();
 ## Remarks  
  Any return code other than `S_OK` prevents querying the registry for symbol search paths.  
   
-## See Also  
+## See also  
  [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)

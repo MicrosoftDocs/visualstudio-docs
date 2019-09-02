@@ -34,7 +34,7 @@ This topic lists tools that can help you test and inspect COM programs.
  Microsoft Foundation Class Samples  
  The MFC ActiveX samples OCLIENT and SUPERPAD are also available to test your applications against. Full source code for these samples is included.  
   
-## See Also  
+## See also  
  [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)   
  [COM Debugging Tools](../debugger/com-debugging-tools.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   

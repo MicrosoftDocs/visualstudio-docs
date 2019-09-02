@@ -46,6 +46,6 @@ You can configure which rules the code analysis tool uses to analyze the code in
 ## Rule Sets  
  If your project contains managed code, you can select the rules to apply in a code analysis by selecting a rule set from the **Run this rule set** list.  
   
-## See Also  
+## See also  
  [Analyzing Managed Code Quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)   
  [Code Analysis for C/C++ Warnings](../code-quality/code-analysis-for-c-cpp-warnings.md)

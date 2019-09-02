@@ -77,6 +77,6 @@ finally
 }
 ```
 
-## See Also
+## See also
  <xref:System.IDisposable?displayProperty=fullName>
  [Dispose Pattern](https://msdn.microsoft.com/library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)

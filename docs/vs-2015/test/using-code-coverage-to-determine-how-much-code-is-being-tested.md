@@ -277,7 +277,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
 ### Guidance  
  [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
-## See Also  
+## See also  
  [Customizing Code Coverage Analysis](../test/customizing-code-coverage-analysis.md)   
  [Troubleshooting Code Coverage](../test/troubleshooting-code-coverage.md)   
  [Unit Test Your Code](../test/unit-test-your-code.md)

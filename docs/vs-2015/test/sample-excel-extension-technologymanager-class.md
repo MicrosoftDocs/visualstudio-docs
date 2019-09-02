@@ -54,7 +54,7 @@ This class extends the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.U
 ## GetExcelElement Internal Method  
  This internal method takes a window handle and information about an Excel element, and returns the requested Excel element.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager>   
  <xref:System.NotSupportedException>   
  <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyElement>   

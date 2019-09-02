@@ -151,5 +151,5 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
 - Adding additional tables to the dataset by selecting **Configure DataSet with Wizard** from within the **Data Sources** window. You can add controls that display related data by dragging the related nodes onto the form. 
   
-## See Also  
+## See also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

@@ -28,5 +28,5 @@ Images, videos, and audio clips add visual appeal to your app.
 |Import an Adobe Photoshop file|![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Import a Photoshop file into Blend](https://www.youtube.com/watch?v=ekYyhirFKs0)|  
 |Insert audio clips|![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Add audio clips](https://www.youtube.com/watch?v=7qW9l0tmkAI&index=52&list=PLBDF977B2F1DAB358)|  
   
-## See Also  
+## See also  
  [Creating a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)

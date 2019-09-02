@@ -49,5 +49,5 @@ CreatePkgDef /out=FileName [/codebase] [/assembly] AssemblyPath
 > [!NOTE]
 > The **Extensions and Updates** tool cannot be used to access an extension unless it is installed as part of a VSIX package.  
   
-## See Also  
+## See also  
  [CreateExpInstance Utility](../../extensibility/internals/createexpinstance-utility.md)

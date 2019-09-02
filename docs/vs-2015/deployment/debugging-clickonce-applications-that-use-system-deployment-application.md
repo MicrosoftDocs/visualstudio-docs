@@ -73,5 +73,5 @@ In [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)], [!INCLUDE[n
   
    Use the <xref:System.Deployment.Application.ApplicationDeployment.IsNetworkDeployed%2A> property to invoke the <xref:System.Deployment.Application> APIs only when the application is deployed; the APIs should not be invoked during debugging in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
-## See Also  
+## See also  
  <xref:System.Deployment.Application>

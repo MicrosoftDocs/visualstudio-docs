@@ -32,5 +32,5 @@ Maintainability warnings support library and application maintenance.
 |[CA1505: Avoid unmaintainable code](../code-quality/ca1505-avoid-unmaintainable-code.md)|A type or method has a low maintainability index value. A low maintainability index indicates that a type or method is probably difficult to maintain and would be a good candidate for redesign.|  
 |[CA1506: Avoid excessive class coupling](../code-quality/ca1506-avoid-excessive-class-coupling.md)|This rule measures class coupling by counting the number of unique type references that a type or method contains.|  
   
-## See Also  
+## See also  
  [Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)

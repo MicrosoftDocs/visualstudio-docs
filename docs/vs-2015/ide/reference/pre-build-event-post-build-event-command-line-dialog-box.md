@@ -84,7 +84,7 @@ You can type pre- or post-build events for the [Build Events Page, Project Desig
 |`$(TargetFileName)`|The file name of the primary output file for the build (defined as base name and file extension).|  
 |`$(TargetExt)`|The file extension of the primary output file for the build. It includes the '.' before the file extension.|  
   
-## See Also  
+## See also  
  [Specifying Custom Build Events in Visual Studio](../../ide/specifying-custom-build-events-in-visual-studio.md)   
  [Build Events Page, Project Designer (C#)](../../ide/reference/build-events-page-project-designer-csharp.md)   
  [How to: Specify Build Events (Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md)   

@@ -240,5 +240,5 @@ Signature Help (also known as *Parameter Info*) displays the signature of a meth
   
 4. After you type the opening parenthesis, you should see a tooltip that displays a list of the two signatures for the `add()` method.  
   
-## See Also  
+## See also  
  [Walkthrough: Linking a Content Type to a File Name Extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

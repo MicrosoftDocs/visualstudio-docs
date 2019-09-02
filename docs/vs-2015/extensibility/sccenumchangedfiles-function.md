@@ -54,5 +54,5 @@ SCCRTN SccEnumChangedFiles(
 |SCC_OK|Operation completed successfully.|  
 |SCC_UNSPECIFIEDERROR|Generic error.|  
   
-## See Also  
+## See also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

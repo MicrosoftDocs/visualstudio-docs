@@ -41,5 +41,5 @@ int TypeArgumentCount(
 ## Remarks  
  For example, if List\<int>, this method returns 1, and, if List\<int,float2> this method returns 2. This method returns 0 if there are no type arguments.  
   
-## See Also  
+## See also  
  [IDebugGenericFieldInstance](../../../extensibility/debugger/reference/idebuggenericfieldinstance.md)

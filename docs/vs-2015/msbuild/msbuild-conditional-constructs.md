@@ -73,7 +73,7 @@ manager: jillfra
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Choose Element (MSBuild)](../msbuild/choose-element-msbuild.md)   
  [When Element (MSBuild)](../msbuild/when-element-msbuild.md)   
  [Otherwise Element (MSBuild)](../msbuild/otherwise-element-msbuild.md)   

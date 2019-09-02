@@ -70,7 +70,7 @@ This topic shows how to create and build the LinqToXmlDataBinding Visual Studio 
   
 2. Edit the values using the keyboard. As soon as either <xref:System.Windows.Controls.TextBox> control looses focus, changes are automatically propagated to the XML source and book listings.  
   
-## See Also  
+## See also  
  [WPF Data Binding Using LINQ to XML Example](../designers/wpf-data-binding-using-linq-to-xml-example.md)   
  [Walkthrough: LinqToXmlDataBinding Example](../designers/walkthrough-linqtoxmldatabinding-example.md)   
  [Application Development in Visual Studio](https://msdn.microsoft.com/97490c1b-a247-41fb-8f2c-bc4c201eff68)

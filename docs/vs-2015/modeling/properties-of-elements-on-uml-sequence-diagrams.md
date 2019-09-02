@@ -44,7 +44,7 @@ In a UML sequence diagram, each element on the diagram has properties. To see th
 |**Min, Max**|(no restriction)|Loop Combined Fragment|The minimum and maximum number of times the loop is executed.|  
 |**Messages**|(empty)|Consider and<br /><br /> Ignore Combined Fragments|The messages that are considered or ignored in this fragment.|  
   
-## See Also  
+## See also  
  [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)   
  [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md)   
  [Describe control flow with fragments on UML sequence diagrams](../modeling/describe-control-flow-with-fragments-on-uml-sequence-diagrams.md)

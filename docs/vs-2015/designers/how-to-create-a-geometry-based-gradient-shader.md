@@ -65,7 +65,7 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
   
  For more information about how to apply a shader to a 3-D model, see [How to: Apply a Shader to a 3-D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md).  
   
-## See Also  
+## See also  
  [How to: Apply a Shader to a 3-D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md)   
  [How to: Export a Shader](../designers/how-to-export-a-shader.md)   
  [How to: Model 3-D Terrain](../designers/how-to-model-3-d-terrain.md)   

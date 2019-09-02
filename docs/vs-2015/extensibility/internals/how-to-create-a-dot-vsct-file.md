@@ -88,7 +88,7 @@ There are several ways to create an XML-based Visual Studio Command Table config
   
      The first parameter value must match the value of the ResourceName attribute you defined in the project file.  
   
-## See Also  
+## See also  
  [Authoring .Vsct Files](../../extensibility/internals/authoring-dot-vsct-files.md)   
  [Visual Studio Command Table (.Vsct) Files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)   
  [How to: Create a .Vsct File from an Existing .Ctc File](../../misc/how-to-create-a-dot-vsct-file-from-an-existing-dot-ctc-file.md)   

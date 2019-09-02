@@ -58,5 +58,5 @@ manager: "wpickett"
 
  [CA1027: Mark enums with FlagsAttribute](../code-quality/ca1027-mark-enums-with-flagsattribute.md)
 
-## See Also
+## See also
  <xref:System.Enum?displayProperty=fullName>

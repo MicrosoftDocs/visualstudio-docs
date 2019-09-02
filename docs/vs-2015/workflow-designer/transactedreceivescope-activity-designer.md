@@ -34,7 +34,7 @@ The **TransactedReceiveScope** designer is used to create and configure a <xref:
 |<xref:System.ServiceModel.Activities.TransactedReceiveScope.Request%2A>|True|Drops a <xref:System.ServiceModel.Activities.Receive> activity into the **Request** block on the activity designer surface.|  
 |<xref:System.ServiceModel.Activities.TransactedReceiveScope.Body%2A>|False|Drops an <xref:System.Activities.Activity> into the **Body** block on the activity designer surface.|  
   
-## See Also  
+## See also  
  [CorrelationScope](../workflow-designer/correlationscope-activity-designer.md)   
  [InitializeCorrelation](../workflow-designer/initializecorrelation-activity-designer.md)   
  [Receive](../workflow-designer/receive-activity-designer.md)   

@@ -94,7 +94,7 @@ struct QUERYCHANGESDATA_W
  lpLatestName  
  The current file name for this item.  
   
-## See Also  
+## See also  
  [Callback Functions Implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)   
  [SccQueryChanges](../extensibility/sccquerychanges-function.md)   
  [Error Codes](../extensibility/error-codes.md)

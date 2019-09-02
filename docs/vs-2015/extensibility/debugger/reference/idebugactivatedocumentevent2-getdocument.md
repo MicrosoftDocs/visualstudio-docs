@@ -40,6 +40,6 @@ int GetDocument ( 
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDebugActivateDocumentEvent2](../../../extensibility/debugger/reference/idebugactivatedocumentevent2.md)   
  [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)

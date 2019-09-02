@@ -110,7 +110,7 @@ Before you write code against an external component or connected service, your p
 ## File References  
  File references are direct references to assemblies outside the context of a Visual Studio project; you create them by using the **Browse** tab of the **Reference Manager**. Use a file reference when you just have an assembly or component and don't have the project that creates it as output.  
   
-## See Also  
+## See also  
  [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md)   
  [Programming with Assemblies](https://msdn.microsoft.com/library/25918b15-701d-42c7-95fc-c290d08648d6)   
  [How to: Add or Remove References By Using the Reference Manager](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md)

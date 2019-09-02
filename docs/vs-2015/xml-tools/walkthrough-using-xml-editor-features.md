@@ -123,5 +123,5 @@ The steps in this walkthrough show you how to create a new XML document. The wal
 </xs:schema>  
 ```  
   
-## See Also  
+## See also  
  [XML Editor](../xml-tools/xml-editor.md)

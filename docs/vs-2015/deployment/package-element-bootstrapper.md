@@ -184,5 +184,5 @@ The `Package` element is the top-level XML element inside of a package file.
 </Package>  
 ```  
   
-## See Also  
+## See also  
  [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)

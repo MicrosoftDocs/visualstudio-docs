@@ -35,7 +35,7 @@ The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development envir
   
 3. The VSPackage acts on the events it receives by performing activities such as updating a hierarchy, reactivating a tool, or other similar tasks.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection>   
  [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)   

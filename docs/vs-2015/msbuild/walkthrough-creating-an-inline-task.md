@@ -247,7 +247,7 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
   
  `</Code>`  
   
-## See Also  
+## See also  
  [Inline Tasks](../msbuild/msbuild-inline-tasks.md)   
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Targets](../msbuild/msbuild-targets.md)

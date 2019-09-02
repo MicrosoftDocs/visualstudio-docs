@@ -37,5 +37,5 @@ In Visual Studio, a *document window* is a framed child window that is associate
 ## The Running Document Table  
  The IDE uses the running document table (RDT) to track the status of every document window. The RDT is the mechanism through which document windows are notified of events, such as when a solution is closed or when a file has been edited. For more information, see [Running Document Table](../../extensibility/internals/running-document-table.md).  
   
-## See Also  
+## See also  
  [Delayed Document Loading](../../extensibility/internals/delayed-document-loading.md)

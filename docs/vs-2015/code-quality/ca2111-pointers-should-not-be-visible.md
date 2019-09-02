@@ -50,6 +50,6 @@ manager: "wpickett"
 
  [CA1051: Do not declare visible instance fields](../code-quality/ca1051-do-not-declare-visible-instance-fields.md)
 
-## See Also
+## See also
  <xref:System.IntPtr?displayProperty=fullName>
  <xref:System.UIntPtr?displayProperty=fullName>

@@ -46,5 +46,5 @@ int GetCurrentModulesState(
 ## Remarks  
  The state is changed whenever a module is added to, or removed from, the symbol group. Therefore, this method can be used to detect if a symbol group has been modified.  
   
-## See Also  
+## See also  
  [IDebugSymbolProviderDirect](../../../extensibility/debugger/reference/idebugsymbolproviderdirect.md)

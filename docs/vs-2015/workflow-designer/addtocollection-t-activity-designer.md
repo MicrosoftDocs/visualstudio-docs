@@ -33,7 +33,7 @@ The **AddToCollection\<T>** activity designer is used to create and configure an
 |<xref:System.Activities.Statements.AddToCollection%601.Collection%2A>|True|The collection to which the item should be added. This collection is of type **ICollection\<TypeArgument>**. To specify the collection, type a Visual Basic expression in the property grid.|  
 |*TypeArgument*|True|The type T of the items contained in the <xref:System.Collections.Generic.ICollection%601>. By default, this *TypeArgument* type is set to **Int32**. To change the type, change the value of the *TypeArgument* in the combo box in the property grid.|  
   
-## See Also  
+## See also  
  [Collection](../workflow-designer/collection-activity-designers.md)   
  [AddToCollection\<T> Activity Designer](../workflow-designer/addtocollection-t-activity-designer.md)   
  [ClearCollection\<T>](../workflow-designer/clearcollection-t-activity-designer.md)   

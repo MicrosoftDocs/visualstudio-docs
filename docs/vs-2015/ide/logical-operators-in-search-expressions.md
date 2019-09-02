@@ -28,6 +28,6 @@ By using logical operators, you can refine your search for content by creating m
 |First term without the second term in the same topic|NOT|"operating system" NOT DOS|Topics that contain "operating system" but not "DOS".|  
 |Both terms, close together in a topic|NEAR|user NEAR kernel|Topics that contain "user" within close proximity of "kernel".|  
   
-## See Also  
+## See also  
  [Full-Text Search Tips](../ide/full-text-search-tips.md)   
  [Locate Information](../ide/locate-information.md)

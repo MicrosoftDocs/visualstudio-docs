@@ -43,5 +43,5 @@ You can customize how search results appear in the **Search** tab in several way
   
 2. Select the **Include English content in all navigation tabs and F1 requests** check box.  
   
-## See Also  
+## See also  
  [Full-Text Search Tips](../ide/full-text-search-tips.md)

@@ -25,7 +25,7 @@ manager: jillfra
 
 A Windows service is a program that runs in the background under Microsoft Windows. Examples include the Telnet service and the Windows time service, which updates your computer's visible clock. A Windows service cannot be run from within [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]; it must run within the context of the Services Control Manager. For more information, see [Creating Windows Services](https://msdn.microsoft.com/library/0f5e2cbb-d95d-477c-b2b5-4b990e6b86ff), [Debugging Windows Service Applications](https://msdn.microsoft.com/library/63ab0800-0f05-4f1e-88e6-94c73fd920a2), and [Windows Service Applications](https://msdn.microsoft.com/library/ba72d648-9553-4849-b829-069ad5ea014b).  
   
-## See Also  
+## See also  
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
  [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)   
  [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)   

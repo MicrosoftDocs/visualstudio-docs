@@ -50,7 +50,7 @@ manager: jillfra
   
     For more information, see [Mage.exe (Manifest Generation and Editing Tool)](https://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)  
   
-## See Also  
+## See also  
  [\<fileAssociation> Element](../deployment/fileassociation-element-clickonce-application.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)   
  [Mage.exe (Manifest Generation and Editing Tool)](https://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)

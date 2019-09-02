@@ -38,5 +38,5 @@ HRESULT NotifyOpenPDB ( 
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code. The return code is typically ignored.  
   
-## See Also  
+## See also  
  [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)

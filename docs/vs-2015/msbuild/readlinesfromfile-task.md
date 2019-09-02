@@ -58,7 +58,7 @@ Reads a list of items from a text file.
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [Tasks](../msbuild/msbuild-tasks.md)

@@ -149,6 +149,6 @@ namespace Simple
 </ItemGroup>  
 ```  
   
-## See Also  
+## See also  
  [New Project Generation: Under the Hood, Part One](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md)  
  [MSBuild](../../msbuild/msbuild.md)

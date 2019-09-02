@@ -127,5 +127,5 @@ Methods are listed alphabetically under each interface in the table of contents 
  [Constants (Debug Interface Access SDK)](../../debugger/debug-interface-access/constants-debug-interface-access-sdk.md)  
  Describes the constants available in the DIA SDK.  
   
-## See Also  
+## See also  
  [Reference](../../debugger/debug-interface-access/debug-interface-access-sdk-reference.md)

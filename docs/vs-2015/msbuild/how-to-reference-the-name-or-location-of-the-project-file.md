@@ -69,6 +69,6 @@ You can use the name or location of the project in the project file itself witho
 </Project>  
 ```  
   
-## See Also  
+## See also  
 [MSBuild](msbuild.md)  
  [MSBuild Reserved and Well-Known Properties](../msbuild/msbuild-reserved-and-well-known-properties.md)

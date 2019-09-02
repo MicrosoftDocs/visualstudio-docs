@@ -43,5 +43,5 @@ manager: jillfra
   
      This location must be in a directory to which the user has write access. For example, on Windows Vista, create the following folder structure and set `LogFilePath` to C:\Users\\<username\>\Documents\Logs\ClickOnce\installation.log.  
   
-## See Also  
+## See also  
  [Troubleshooting ClickOnce Deployments](../deployment/troubleshooting-clickonce-deployments.md)

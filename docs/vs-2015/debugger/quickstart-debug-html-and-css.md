@@ -290,7 +290,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
   Go [here](https://developer.microsoft.com/windows/downloads/sdk-archive) to download [!INCLUDE[win8](../includes/win8-md.md)] and Visual Studio.  
   
-## See Also  
+## See also  
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   
  [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md)   
  [Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md)   

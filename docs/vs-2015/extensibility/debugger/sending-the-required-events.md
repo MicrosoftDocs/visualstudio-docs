@@ -32,5 +32,5 @@ Use this procedure for sending required events.
 > [!NOTE]
 > Many languages use global initializers or external, precompiled functions (from the CRT library or _Main) at the beginning of their code. If the language of the program you are debugging contains either of these types of elements before the initial entry point, then this code is run and the entry point event is sent when the user entry point, such as **main** or `WinMain`, is reached.  
   
-## See Also  
+## See also  
  [Enabling a Program to Be Debugged](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)

@@ -26,6 +26,6 @@ void BeginCapture();
   
  To capture an interval, you must prepare your app to capture and record graphics information—that is, you must have called [Init](../debugger/init.md) through an instance of the `VsgDbg` class before you call `BeginCapture` or `EndCapture`.  
   
-## See Also  
+## See also  
  [EndCapture](../debugger/endcapture.md)   
  [CaptureCurrentFrame](../debugger/capturecurrentframe.md)

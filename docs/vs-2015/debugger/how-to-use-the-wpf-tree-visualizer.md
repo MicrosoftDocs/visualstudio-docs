@@ -57,7 +57,7 @@ You can use the WPF Tree visualizer to explore the visual tree of a WPF object, 
   
 - Click the **Close** icon in the upper-right corner of the dialog box.  
   
-## See Also  
+## See also  
  [How to: Use a Visualizer](../misc/how-to-use-a-visualizer.md)   
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)   
  [Trees in WPF](https://msdn.microsoft.com/library/e83f25e5-d66b-4fc7-92d2-50130c9a6649)   

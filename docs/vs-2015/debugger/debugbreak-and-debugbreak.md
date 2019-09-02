@@ -29,7 +29,7 @@ You can call the DebugBreak Win32 function or the [__debugbreak](https://msdn.mi
   
  Because `DebugBreak` is a call to a system function, system debug symbols must be installed to ensure the correct call stack information is displayed after breaking. Otherwise, the call stack information displayed by the debugger may be off by one frame. If you use `__debugbreak`, symbols are not required.  
   
-## See Also  
+## See also  
  [Compiler Intrinsics](https://msdn.microsoft.com/library/48bb9929-7d78-4fd8-a092-ae3c9f971858)   
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging Native Code](../debugger/debugging-native-code.md)   

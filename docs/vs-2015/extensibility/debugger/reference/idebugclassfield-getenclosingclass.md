@@ -50,5 +50,5 @@ class RootClass {
   
  Calling the `GetEnclosingClass` method on the `IDebugClassField` object representing the `NestedClass` class returns an `IDebugClassField` object representing the class `RootClass`.  
   
-## See Also  
+## See also  
  [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)

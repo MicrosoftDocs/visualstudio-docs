@@ -33,6 +33,6 @@ Text view object
   
  Event notification for the text view is provided by using the `T:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewEvents` interface. Implement this interface on your client object to receive notification of changes to the text view. Expose this interface to the text view by using the <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer> interface on the text view to receive notification of changes from the view.  
   
-## See Also  
+## See also  
  [Changing View Settings by Using the Legacy API](../extensibility/changing-view-settings-by-using-the-legacy-api.md)   
  [Using the Text Manager to Monitor Global Settings](../extensibility/using-the-text-manager-to-monitor-global-settings.md)

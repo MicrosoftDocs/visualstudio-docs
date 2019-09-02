@@ -233,5 +233,5 @@ ExampleHKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\
         MaxRegions            = reg_dword:0x0000000a  
 ```  
   
-## See Also  
+## See also  
  [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)

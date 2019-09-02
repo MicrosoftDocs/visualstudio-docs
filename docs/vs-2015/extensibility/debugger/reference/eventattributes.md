@@ -79,7 +79,7 @@ public enum enum_EVENTATTRIBUTES { 
   
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## See Also  
+## See also  
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [ContinueFromSynchronousEvent](../../../extensibility/debugger/reference/idebugengine2-continuefromsynchronousevent.md)   
  [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)

@@ -35,5 +35,5 @@ A complete reference to all of the interfaces and supporting enumerations and st
  [Symbols and Symbol Tags](../../debugger/debug-interface-access/symbols-and-symbol-tags.md)  
  Describes what symbols are and how they are identified by type.  
   
-## See Also  
+## See also  
  [Debug Interface Access SDK](../../debugger/debug-interface-access/debug-interface-access-sdk.md)

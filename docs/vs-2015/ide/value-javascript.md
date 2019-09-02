@@ -82,5 +82,5 @@ function Sys$CancelEventArgs$get_cancel() {
 }  
 ```  
   
-## See Also  
+## See also  
  [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md)

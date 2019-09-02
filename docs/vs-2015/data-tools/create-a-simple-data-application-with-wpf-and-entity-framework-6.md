@@ -697,5 +697,5 @@ This walkthough shows how to create a basic "forms over data" application in Vis
   
 3. Press **F5**. You should see your data, and the navigation buttons should work as expected. Click on "Commit" to add a new customer or order to the model after you have entered the data.  Click on "Cancel" to back out of a new Customer or New Order form without saving. You can make edits to existing Customers and Orders directly in the text boxes, and those changes will be written to the model automatically.  
   
-## See Also  
+## See also  
  [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md) [Entity Framework Documentation](https://msdn.microsoft.com/data/ee712907.aspx)

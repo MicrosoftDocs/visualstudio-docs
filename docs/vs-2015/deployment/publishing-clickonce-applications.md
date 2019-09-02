@@ -97,6 +97,6 @@ When publishing a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applica
 |[Walkthrough: Creating a Custom Installer for a ClickOnce Application](../deployment/walkthrough-creating-a-custom-installer-for-a-clickonce-application.md)|Explains how to create a custom installer to install a ClickOnce application.|  
 |[How to: Publish a WPF Application with Visual Styles Enabled](../deployment/how-to-publish-a-wpf-application-with-visual-styles-enabled.md)|Provides step-by-step instructions to resolve an error that appears when you attempt to publish a WPF application that has visual styles enabled.|  
   
-## See Also  
+## See also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [ClickOnce Reference](../deployment/clickonce-reference.md)

@@ -70,6 +70,6 @@ Side-by-side VSPackage update installer
   
  **Note** For more information on deployment of side-by-side assemblies, see [Simplifying Deployment and Solving DLL Hell with the .NET Framework](https://msdn.microsoft.com/library/ms973843.aspx).  
   
-## See Also  
+## See also  
  [Windows Installer](https://msdn.microsoft.com/library/cc185688\(VS.85\).aspx)   
  [Supporting Multiple Versions of Visual Studio](../../extensibility/supporting-multiple-versions-of-visual-studio.md)

@@ -19,6 +19,6 @@ manager: jillfra
 
 In Visual Basic, IntelliSense completion lists have two tab controls located near the bottom of the lists. The **Common** tab, which is selected by default, displays items that are most often used to complete the statement that you are writing. The **All** tab displays all items that are available for automatic completion, including those that are also on the **Common** tab.  
   
-## See Also  
+## See also  
  [Using IntelliSense](../ide/using-intellisense.md)   
  [Visual Basic-Specific IntelliSense](../ide/visual-basic-specific-intellisense.md)

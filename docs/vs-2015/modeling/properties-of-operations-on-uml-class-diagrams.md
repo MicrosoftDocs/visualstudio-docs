@@ -63,7 +63,7 @@ On a UML class diagram, you can add *operations* to classes and interfaces. An o
 |   **Is Ordered**    |    False     |                                                                                                                                             If true, the collection forms a sequential list. For **Multiplicity** more than 1.                                                                                                                                              |
 |    **Is Unique**    |    False     |                                                                                                                                         If true, there are no duplicate values in the collection. For **Multiplicity** more than 1.                                                                                                                                         |
 
-## See Also  
+## See also  
  [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)   
  [Properties of types on UML class diagrams](../modeling/properties-of-types-on-uml-class-diagrams.md)   
  [Properties of attributes on UML class diagrams](../modeling/properties-of-attributes-on-uml-class-diagrams.md)   

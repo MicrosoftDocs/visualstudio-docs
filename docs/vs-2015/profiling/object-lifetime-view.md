@@ -68,5 +68,5 @@ The Object Lifetime view is available when **Also collect .NET object lifetime d
 |**Large Object Heap Instances Collected**|The number of instances of this type that were located in the large object heap and that were collected in the profiling run.|  
 |**Large Object Heap Bytes Collected**|The size, in bytes, of the instances of this type that were located in the large object heap and that were collected in the profiling run.|  
   
-## See Also  
+## See also  
  [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md)

@@ -44,5 +44,5 @@ The **Toolbox** displays icons for controls and other items that you can add to 
   
 - [Toolbox, HTML Tab](https://msdn.microsoft.com/library/w9ss7h1a\(v=vs.120\))  
   
-## See Also  
+## See also  
  [Using the Toolbox](../../ide/using-the-toolbox.md)

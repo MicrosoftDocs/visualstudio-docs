@@ -80,5 +80,5 @@ You can migrate projects that define and use domain-specific language to [!INCLU
   
    - Test your designer.  
   
-## See Also  
+## See also  
  [What's New in Visualization and Modeling SDK](../misc/what-s-new-in-visualization-and-modeling-sdk.md)

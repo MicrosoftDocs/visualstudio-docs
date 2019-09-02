@@ -209,7 +209,7 @@ HRESULT CDebugBreakpointRequest::CopyBP_REQUEST_INFO(
 }    
 ```  
   
-## See Also  
+## See also  
  [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md)   
  [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md)   
  [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)

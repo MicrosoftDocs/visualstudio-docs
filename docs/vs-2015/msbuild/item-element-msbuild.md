@@ -85,7 +85,7 @@ Contains a user-defined item and its metadata. Every item that is used in a [!IN
 </ItemGroup>  
 ```  
   
-## See Also  
+## See also  
  [Items](../msbuild/msbuild-items.md)   
  [MSBuild Properties](msbuild-properties1.md)   
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)

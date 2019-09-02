@@ -250,7 +250,7 @@ To help ensure that your software system or application meets your users' needs,
   
 - Description of variations that developers might be able to adopt.  
   
-## See Also  
+## See also  
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
  [Visualize code](../modeling/visualize-code.md)   
  [Model user requirements](../modeling/model-user-requirements.md)   

@@ -42,5 +42,5 @@ int CanSetObjectForVisualizer(
 ## Remarks  
  An object might not be changeable if it is bound to read-only memory, for example.  
   
-## See Also  
+## See also  
  [IEEVisualizerDataProvider](../../../extensibility/debugger/reference/ieevisualizerdataprovider.md)

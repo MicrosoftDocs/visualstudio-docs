@@ -51,6 +51,6 @@ On a UML activity diagram, each element on the diagram has properties. To see th
 |   **Is MultiReceive**    |         False          |                             Object Flow                             |                                                                                                                                 -   Indicates that there might be several recipient objects or components.                                                                                                                                 |
 | **Is Single Execution**  |         False          |                          Activity Diagram                           |                                                                                                                                   -   If set, there is at most one execution of this diagram at a time.                                                                                                                                    |
   
-## See Also  
+## See also  
  [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md)   
  [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md)

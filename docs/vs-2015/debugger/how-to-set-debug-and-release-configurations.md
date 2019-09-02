@@ -59,7 +59,7 @@ Visual Studio projects have separate release and debug configurations for your p
   
      This toolbar is not available in Express editions. You can use the **Build Solution F6** and **Start Debugging F5** menu items to choose the configuration.  
   
-## See Also  
+## See also  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)   
  [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)   

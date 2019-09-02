@@ -42,7 +42,7 @@ int GetPropertyGetter(
 ## Remarks  
  To get the method that sets the property, [GetPropertySetter](../../../extensibility/debugger/reference/idebugpropertyfield-getpropertysetter.md) call the method.  
   
-## See Also  
+## See also  
  [IDebugPropertyField](../../../extensibility/debugger/reference/idebugpropertyfield.md)   
  [GetPropertySetter](../../../extensibility/debugger/reference/idebugpropertyfield-getpropertysetter.md)   
  [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md)

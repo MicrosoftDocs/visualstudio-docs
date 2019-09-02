@@ -55,7 +55,7 @@ Devenv SolutionName /build SolnConfigName [/project ProjName [/projectconfig Pro
 devenv "C:\Documents and Settings\someuser\My Documents\Visual Studio\Projects\MySolution\MySolution.sln" /build Debug /project "CSharpWinApp\CSharpWinApp.csproj" /projectconfig Debug   
 ```  
   
-## See Also  
+## See also  
  [Building and Cleaning Projects and Solutions in Visual Studio](../../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)   
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)   
  [/Rebuild (devenv.exe)](../../ide/reference/rebuild-devenv-exe.md)   

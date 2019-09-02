@@ -969,6 +969,6 @@ a name="introduction"></a> This walkthrough provides an introduction to Windows 
   
 - [Documents in WPF](https://msdn.microsoft.com/library/ms748388\(v=vs.100\).aspx)  
   
-## See Also  
+## See also  
  [Walkthrough: Create a WPF Desktop Application connected to an Azure Mobile Service](../designers/walkthrough-create-a-wpf-desktop-application-connected-to-an-azure-mobile-service.md)   
  [Create Modern Desktop Applications with Windows Presentation Foundation](../designers/create-modern-desktop-applications-with-windows-presentation-foundation.md)

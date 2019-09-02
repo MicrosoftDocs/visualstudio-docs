@@ -52,5 +52,5 @@ Entity Framework is an object-relational mapping technology that enables .NET de
 |[Getting Started on Full .NET (Console, WinForms, WPF, etc.)](/ef/ef6/get-started)|Provides tutorials on how to create .NET desktop applications that use Entity Framework 7.|
 |[ASP.NET 5 Application to New Database](https://docs.efproject.net/en/latest/platforms/aspnetcore/new-db.html)|Describes how to create a new ASP.NET 5 application by using Entity Framework 7.|
 
-## See Also
+## See also
  [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

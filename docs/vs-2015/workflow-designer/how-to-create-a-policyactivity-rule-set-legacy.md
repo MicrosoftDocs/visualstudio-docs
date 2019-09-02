@@ -56,7 +56,7 @@ This topic describes how to create a policy activity rule set using the legacy [
   
 9. When you are finished, click **OK**.  
   
-## See Also  
+## See also  
  [PolicyActivity](http://go.microsoft.com/fwlink?LinkID=65019)   
  [Select Rule Set Dialog Box (Legacy)](../workflow-designer/select-rule-set-dialog-box-legacy.md)   
  [Rule Set Editor Dialog Box (Legacy)](../workflow-designer/rule-set-editor-dialog-box-legacy.md)   

@@ -59,7 +59,7 @@ The Lines view of contention data lists performance data for the statements that
 |**Source Line Begin**|The line number in the source file at which the statement starts.|  
 |**Source Line End**|The line number in the source file at which the statement ends.|  
   
-## See Also  
+## See also  
  [How to: Customize Report View Columns](../profiling/how-to-customize-report-view-columns.md)   
  [Lines View](../profiling/lines-view.md)   
  [Lines View - Sampling](../profiling/lines-view-dotnet-memory-sampling-data.md)   

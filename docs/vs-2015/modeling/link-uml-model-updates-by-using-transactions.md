@@ -102,7 +102,7 @@ When you define an extension to the UML designers in Visual Studio, you can grou
  }  
 ```  
   
-## See Also  
+## See also  
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)   
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)

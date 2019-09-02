@@ -33,6 +33,6 @@ If you want to use IPython with PTVS, follow these [instructions](http://pytools
 
 You can watch these instructions in a short [youtube video](https://www.youtube.com/watch?v=_okUV47eM5c&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=1).
 
-## See Also
+## See also
 
 [PTVS Getting Started and Deep Dive Videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)

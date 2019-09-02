@@ -30,7 +30,7 @@ You can customize the formatting, tabs, fonts and colors, IntelliSense, and many
  [How to: Manage Editor Modes](../ide/how-to-manage-editor-modes.md)  
  Explains how to use the full screen and virtual spaces modes.  
   
-## See Also  
+## See also  
  [Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)   
  [Setting Bookmarks in Code](../ide/setting-bookmarks-in-code.md)   
  [General, Environment, Options Dialog Box](../ide/reference/general-environment-options-dialog-box.md)   

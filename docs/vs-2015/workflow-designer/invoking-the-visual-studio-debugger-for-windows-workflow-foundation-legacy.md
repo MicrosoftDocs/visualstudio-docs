@@ -49,6 +49,6 @@ This topic describes how use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] De
 
  If the host application is set as the startup project, only the Visual Studio debugger is invoked for debugging; the [!INCLUDE[vs_current_long](../includes/vs-current-long-md.md)] Debugger for Windows Workflow Foundation is not invoked. If the Visual Studio debugger is used, only C# or Visual Basic code breakpoints are hit; breakpoints set in the workflow designer are not hit. For example, a breakpoint that you set on a <xref:System.Workflow.Activities.ParallelActivity> activity in the designer is hit if the [!INCLUDE[vs_current_long](../includes/vs-current-long-md.md)] Debugger for Windows Workflow Foundation is used, but not when you use the Visual Studio debugger.
 
-## See Also
+## See also
  [How to: Set Breakpoints in Workflows (Legacy)](../workflow-designer/how-to-set-breakpoints-in-workflows-legacy.md)
  [Debugging Legacy Workflows](../workflow-designer/debugging-legacy-workflows.md)

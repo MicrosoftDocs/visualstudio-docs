@@ -75,6 +75,6 @@ Applies to Windows and console applications.
   
 4. Use the vertical scrollbar to view the entire **Permissions required by the application** grid.  
   
-## See Also  
+## See also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Debugger Security](../debugger/debugger-security.md)

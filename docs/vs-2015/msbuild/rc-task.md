@@ -49,5 +49,5 @@ Wraps the Microsoft Windows Resource Compiler tool, rc.exe. The **RC** task comp
   
 ## Remarks  
   
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)

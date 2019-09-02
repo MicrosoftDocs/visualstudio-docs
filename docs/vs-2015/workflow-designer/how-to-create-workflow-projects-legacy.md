@@ -53,5 +53,5 @@ Follow these steps to create a [!INCLUDE[wf](../includes/wf-md.md)] project that
   
 8. Click **OK**.  
   
-## See Also  
+## See also  
  [Creating Legacy Workflow Projects](../workflow-designer/creating-legacy-workflow-projects.md)

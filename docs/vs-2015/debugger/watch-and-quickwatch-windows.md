@@ -233,5 +233,5 @@ public class Program
   
   The **Dynamic View** also enhances the debugging experience for COM objects. When the debugger encounters a COM object wrapped in **System.__ComObject**, it adds a **Dynamic View** node for the object.  
   
-## See Also  
+## See also  
  [Debugger Windows](../debugger/debugger-windows.md)

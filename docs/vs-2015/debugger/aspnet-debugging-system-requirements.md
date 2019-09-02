@@ -45,6 +45,6 @@ This topic describes the software and security requirements for [!INCLUDE[vsteca
 > [!CAUTION]
 > Before you change the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process to run under a different account, consider the possible consequences if the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process should be hacked while running under that account. The ASPNET and NETWORK SERVICE user accounts run with minimal permissions, reducing the possible damage if the process is hacked. If you must change the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process to run under an account that has greater permissions, the potential damage is greater.  
   
-## See Also  
+## See also  
  [Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)   
  [How to: Run the Worker Process Under a User Account](../debugger/how-to-run-the-worker-process-under-a-user-account.md)

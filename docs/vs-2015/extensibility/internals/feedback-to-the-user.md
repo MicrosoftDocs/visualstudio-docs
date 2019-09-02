@@ -53,7 +53,7 @@ In the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development en
   
 - The active hierarchy window, which is typically **Solution Explorer**, and its title bar update to reflect the current context and the context-sensitive **Project** menu commands now apply to the active Web Application project.  
   
-## See Also  
+## See also  
  [Selection and Currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)   
  [Selection Context Objects](../../extensibility/internals/selection-context-objects.md)   
  [Hierarchies and Selection](../../extensibility/internals/hierarchies-and-selection.md)

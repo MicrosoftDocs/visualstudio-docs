@@ -45,7 +45,7 @@ int GetENCAvailableState(
 ## Remarks  
  This state can be affected by [DisableENC](../../../extensibility/debugger/reference/idebugprocess3-disableenc.md).  
   
-## See Also  
+## See also  
  [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)   
  [DisableENC](../../../extensibility/debugger/reference/idebugprocess3-disableenc.md)   
  [EncUnavailableReason](../../../extensibility/debugger/reference/encunavailablereason.md)

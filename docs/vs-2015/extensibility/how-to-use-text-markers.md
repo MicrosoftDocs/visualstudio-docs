@@ -48,7 +48,7 @@ Text markers can be applied to edit a <xref:Microsoft.VisualStudio.TextManager.I
   
 6. The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] environment calls the methods of the supplied interfaces, such as the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.GetTipText%2A> method, or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.ExecMarkerCommand%2A> method as needed.  
   
-## See Also  
+## See also  
  [Using Text Markers with the Legacy API](../extensibility/using-text-markers-with-the-legacy-api.md)   
  [How to: Add Standard Text Markers](../extensibility/how-to-add-standard-text-markers.md)   
  [How to: Create Custom Text Markers](../extensibility/how-to-create-custom-text-markers.md)   

@@ -87,7 +87,7 @@ Find in Files** allows you to search a specified set of files. The matches found
  Append results  
  Appends the results from the search to the previous search results.  
   
-## See Also  
+## See also  
  [Finding and Replacing Text](../ide/finding-and-replacing-text.md)   
  [Replace in Files](../ide/replace-in-files.md)   
  [Visual Studio Commands](../ide/reference/visual-studio-commands.md)

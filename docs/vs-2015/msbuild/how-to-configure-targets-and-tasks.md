@@ -104,5 +104,5 @@ Selected MSBuild tasks can be set to run in the environment they target, regardl
 > [!NOTE]
 > Task parameters are evaluated in the context of the parent node, not in the context of the task host.Environment variables that are runtime- or architecture- dependent (such as the Program files location) will evaluate to the value that matches the parent node.  However, if the same environment variable is read directly by the task, it will correctly be evaluated in the context of the task host.  
   
-## See Also  
+## See also  
  [Configuring Targets and Tasks](../msbuild/configuring-targets-and-tasks.md)

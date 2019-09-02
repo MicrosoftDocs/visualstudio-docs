@@ -146,5 +146,5 @@ class Class
   
  You can work around this issue in one of two ways. You could declare **anonymousMethod** in a common constructor that all constructors chain. Or you could declare it in an initialization method that is called by all constructors.  
   
-## See Also  
+## See also  
  [Analyzing Managed Code Quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)

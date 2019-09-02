@@ -42,5 +42,5 @@ The VSPackage project template can create a simple custom editor in C++.  The VS
   
      The editor supports cut-and-paste, find-and-replace, and open-and-load operations.  
   
-## See Also  
+## See also  
  [VSPackages](../extensibility/internals/vspackages.md)

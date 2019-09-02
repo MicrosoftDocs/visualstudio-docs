@@ -188,5 +188,5 @@ This walkthrough demonstrates how to analyze C/C++ code for potential code defec
   
      The project builds without any warnings or errors.  
   
-## See Also  
+## See also  
  [Walkthrough: Analyzing Managed Code for Code Defects](../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md)

@@ -177,6 +177,6 @@ Identifies the version of the application to install, and the location of the ap
 </dependency>  
 ```  
   
-## See Also  
+## See also  
  [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)   
  [\<dependency> Element](../deployment/dependency-element-clickonce-application.md)

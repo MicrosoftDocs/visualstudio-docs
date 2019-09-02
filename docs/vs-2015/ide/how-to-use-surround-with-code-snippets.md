@@ -52,6 +52,6 @@ The following procedures describe how to use surround-with code snippets. Surrou
   
      Alternatively, you can type the name of the code snippet, and then press TAB or ENTER.  
   
-## See Also  
+## See also  
  [Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md)   
  [Code Snippet Picker](../ide/reference/code-snippet-picker.md)

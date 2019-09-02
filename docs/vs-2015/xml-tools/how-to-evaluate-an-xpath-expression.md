@@ -46,5 +46,5 @@ You can evaluate XPath expressions with the **QuickWatch** dialog box. The XPath
   
      The **Value** box shows that the XPath expression evaluates to `true`.  
   
-## See Also  
+## See also  
  [Debugging XSLT](../xml-tools/debugging-xslt.md)

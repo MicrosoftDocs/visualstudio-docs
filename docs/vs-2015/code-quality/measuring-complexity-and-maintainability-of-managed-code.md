@@ -42,6 +42,6 @@ The increased complexity of modern software applications also increases the diff
   
  [How to: Create a Work Item Based on a Result](https://msdn.microsoft.com/9016393b-b5a3-4d6b-ab6d-f80bafafc0da)  
   
-## See Also  
+## See also  
  [Troubleshooting Code Metrics Issues](../code-quality/troubleshooting-code-metrics-issues.md)   
  [Performing Common Development Tasks](https://msdn.microsoft.com/4cd9702a-1e21-4f2d-8e86-e1be4bc74f0b)

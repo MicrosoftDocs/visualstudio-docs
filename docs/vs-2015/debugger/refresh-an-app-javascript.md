@@ -76,5 +76,5 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 8. Switch to the app. The app is reloaded without the debugger restarting, and the new page title appears.  
   
-## See Also  
+## See also  
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)

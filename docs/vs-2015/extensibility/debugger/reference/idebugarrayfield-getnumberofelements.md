@@ -42,5 +42,5 @@ int GetNumberOfElements(
 ## Remarks  
  The value returned is the total number of elements in the array, regardless of the number of dimensions.  
   
-## See Also  
+## See also  
  [IDebugArrayField](../../../extensibility/debugger/reference/idebugarrayfield.md)

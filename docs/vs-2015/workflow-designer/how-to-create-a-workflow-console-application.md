@@ -40,5 +40,5 @@ manager: jillfra
   
 9. To compose a workflow, drag activities or other workflow items from the **Toolbox** to the design surface in your workflow.  
   
-## See Also  
+## See also  
  [Creating a Workflow Project](../workflow-designer/creating-a-workflow-project.md)

@@ -33,6 +33,6 @@ This topic describes how to create a new XML Schema (XSD) file and then add cont
   
      The XML Schema Explorer is updated with the new schema set.  
   
-## See Also  
+## See also  
  [Working with XML Data](../xml-tools/working-with-xml-data.md)   
  [XML Schema Designer Tasks](../xml-tools/xml-schema-designer-tasks.md)

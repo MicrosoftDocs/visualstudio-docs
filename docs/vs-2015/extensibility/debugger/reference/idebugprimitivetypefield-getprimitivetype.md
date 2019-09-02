@@ -38,5 +38,5 @@ int GetPrimitiveType (
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns `S_FALSE`.  
   
-## See Also  
+## See also  
  [IDebugPrimitiveTypeField](../../../extensibility/debugger/reference/idebugprimitivetypefield.md)

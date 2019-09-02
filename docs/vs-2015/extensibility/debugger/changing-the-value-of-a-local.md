@@ -42,6 +42,6 @@ manager: jillfra
  [Sample Implementation of Changing Values](../../extensibility/debugger/sample-implementation-of-changing-values.md)  
  Uses the MyCEE sample to step through the process of changing values.  
   
-## See Also  
+## See also  
  [Writing a CLR Expression Evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)   
  [Displaying Locals](../../extensibility/debugger/displaying-locals.md)

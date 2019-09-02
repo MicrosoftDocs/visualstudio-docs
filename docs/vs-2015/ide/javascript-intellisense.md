@@ -271,7 +271,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 
 - The Output window shows references that were not loaded.
 
-## See Also
+## See also
 - [Using IntelliSense](../ide/using-intellisense.md)
 - [Create XML Documentation Comments](../ide/create-xml-documentation-comments-for-javascript-intellisense.md)
 - [Extending JavaScript IntelliSense](../ide/extending-javascript-intellisense.md)

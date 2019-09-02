@@ -57,5 +57,5 @@ manager: "wpickett"
 
  Another option is to remove the Assert from the code, and let any subsequent file I/O permission demands flow beyond SecurityTransparentMethod to the caller. This enables security checks. In this case, no security audit is generally needed, because the permission demands will flow to the caller and/or the application domain. Permission demands are closely controlled through security policy, hosting environment, and code-source permission grants.
 
-## See Also
+## See also
  [Security Warnings](../code-quality/security-warnings.md)

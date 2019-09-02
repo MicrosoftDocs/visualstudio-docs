@@ -73,5 +73,5 @@ You can find and replace text in the Visual Studio code editor, and certain text
 ### Creating Custom Component Sets  
  You can define component sets as your search scope by choosing the **Edit Custom Component Set** button next to the **Look in** box. You can specify installed .NET or COM components, Visual Studio projects that are included in your solution, or any assembly or type library (.dll, .tlb, .olb, .exe, or .ocx). To search references, select the **Look in references** box.  
   
-## See Also  
+## See also  
  [Using Regular Expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md)

@@ -56,5 +56,5 @@ public partial class CircuitDiagramToolboxHelper
 }  
 ```  
   
-## See Also  
+## See also  
  [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md)

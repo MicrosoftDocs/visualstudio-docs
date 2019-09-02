@@ -363,5 +363,5 @@ int addNewRecord(struct RecStruct *prevRecord,
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-## See Also  
+## See also  
  [Debugging Native Code](../debugger/debugging-native-code.md)

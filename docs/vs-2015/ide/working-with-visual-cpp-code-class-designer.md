@@ -100,7 +100,7 @@ Class Designer displays a visual design surface called a *class diagram* that pr
   
 - Class Designer cannot display types that are void or that derive from a void type.  
   
-## See Also  
+## See also  
  [Designing and Viewing Classes and Types](../ide/designing-and-viewing-classes-and-types.md)   
  [Working with Classes and Other Types (Class Designer)](../ide/working-with-classes-and-other-types-class-designer.md)   
  [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)   

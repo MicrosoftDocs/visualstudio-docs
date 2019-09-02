@@ -253,7 +253,7 @@ Visualizer code must be placed in a DLL, which will be read by the debugger. The
 
    That is all there is to it. Look at the file SecondVisualizer.cs and view the code that the template added for you. Go ahead and experiment with the code. Now that you know the basics, you are on your way to creating more complex and useful visualizers of your own.
 
-## See Also
+## See also
 
 - [Visualizer Architecture](../debugger/visualizer-architecture.md)
 - [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md)

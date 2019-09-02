@@ -131,6 +131,6 @@ namespace LinqToXmlDataBinding {
 ### Comments  
  For the associated XAML source for these handlers, see [L2DBForm.xaml Source Code](../designers/l2dbform-xaml-source-code.md).  
   
-## See Also  
+## See also  
  [Walkthrough: LinqToXmlDataBinding Example](../designers/walkthrough-linqtoxmldatabinding-example.md)   
  [L2DBForm.xaml Source Code](../designers/l2dbform-xaml-source-code.md)

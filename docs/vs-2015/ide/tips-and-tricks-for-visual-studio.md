@@ -135,7 +135,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 
 See [Keyboard shortcuts: Visual Studio Online, TFS web portal, and Team Explorer](/azure/devops/project/navigation/keyboard-shortcuts?view=vsts).
 
-## See Also
+## See also
 
 - [Visual Studio Blog](http://blogs.msdn.com/b/visualstudio)
 - [Visual Studio Tips and Tricks Blog](http://blogs.msdn.com/b/zainnab)

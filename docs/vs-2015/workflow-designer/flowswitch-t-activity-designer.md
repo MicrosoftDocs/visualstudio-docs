@@ -37,7 +37,7 @@ The <xref:System.Activities.Statements.FlowSwitch%601> activity is a conditional
 |<xref:System.Activities.Statements.FlowSwitch%601.Cases%2A>|False|Specifies a unique mapping from possible results obtained from evaluating the <xref:System.Activities.Statements.FlowSwitch%601.Expression%2A> to a set of <xref:System.Activities.Statements.FlowNode> objects.|  
 |<xref:System.Activities.Statements.FlowSwitch%601.Default%2A>|True|Specifies the mapping when the evaluation of the <xref:System.Activities.Statements.FlowSwitch%601.Expression%2A> does not match one of the values contained in the <xref:System.Activities.Statements.FlowSwitch%601.Cases%2A> object.|  
   
-## See Also  
+## See also  
  [Flowchart](../workflow-designer/flowchart-activity-designers.md)   
  [Flowchart](../workflow-designer/flowchart-activity-designer.md)   
  [FlowDecision](../workflow-designer/flowdecision-activity-designer.md)

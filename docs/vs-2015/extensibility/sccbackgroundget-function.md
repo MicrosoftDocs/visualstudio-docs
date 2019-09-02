@@ -63,6 +63,6 @@ SCCRTN SccBackgroundGet(
   
  The use of the `dwFlags` argument is the same as the [SccGet](../extensibility/sccget-function.md).  
   
-## See Also  
+## See also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
  [SccGet](../extensibility/sccget-function.md)

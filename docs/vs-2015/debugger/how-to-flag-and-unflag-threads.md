@@ -54,6 +54,6 @@ You can flag a thread that you want to give special attention by marking it with
   
 5. Click **OK**.  
   
-## See Also  
+## See also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [Walkthrough: Debugging a Multithreaded Application](../debugger/walkthrough-debugging-a-multithreaded-application.md)

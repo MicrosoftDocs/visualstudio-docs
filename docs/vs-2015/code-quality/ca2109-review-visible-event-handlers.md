@@ -57,7 +57,7 @@ manager: "wpickett"
 
  [!code-csharp[FxCop.Security.EventSecLib#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Security.EventSecLib/cs/FxCop.Security.EventSecLib.cs#1)]
 
-## See Also
+## See also
  <xref:System.Security.CodeAccessPermission.Demand%2A?displayProperty=fullName>
  <xref:System.EventArgs?displayProperty=fullName>
  [Security Demands](https://msdn.microsoft.com/324c14f8-54ff-494d-9fd1-bfd20962c8ba)

@@ -60,5 +60,5 @@ This section contains reference information for the views and reports of profile
  [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md)  
  Reference information for the views and reports of profiler data files that include .NET memory data.  
   
-## See Also  
+## See also  
  [Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)

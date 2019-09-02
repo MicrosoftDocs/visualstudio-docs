@@ -136,7 +136,7 @@ The following templates create DLLs:
   
      The breakpoint will be hit and you will be able to step through `Test`. After execution has left `Test`, the Debugger will be back in Design mode.  
   
-## See Also  
+## See also  
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
  [Visual C++ Project Types](../debugger/debugging-preparation-visual-cpp-project-types.md)   
  [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)   

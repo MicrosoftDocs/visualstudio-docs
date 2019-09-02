@@ -28,7 +28,7 @@ By installing one or more language packages, you can run Visual Studio 2015 in o
 
 - You can uninstall language packages by using the maintenance mode of Visual Studio setup. Open **Control Panel**, open **Programs and Features**, choose your edition of Visual Studio, and then choose **Uninstall/Change**.
 
-## See Also
+## See also
 
 - [Microsoft Language Interface Packs (LIPs) and Visual Studio](../install/microsoft-language-interface-packs-lips-and-visual-studio.md)
 - [Install Visual Studio](../install/install-visual-studio-2015.md)

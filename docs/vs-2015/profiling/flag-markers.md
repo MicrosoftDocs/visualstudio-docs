@@ -43,6 +43,6 @@ An alert marker
  ![Aggregate flags showing four levels of importance](../profiling/media/cvmarkeraggregate.png "CVMarkerAggregate")  
 Aggregation flags by level of importance  
   
-## See Also  
+## See also  
  [Concurrency Visualizer Markers](../profiling/concurrency-visualizer-markers.md)   
  [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)

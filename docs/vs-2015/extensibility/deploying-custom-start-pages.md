@@ -84,6 +84,6 @@ You can deploy custom Start Pages by using VSIX deployment or by copying the fil
   
 3. In the **Customize Start Page** list on the **Startup** options page, select the new Start Page. For more information, see [Customizing the Start Page](../ide/customizing-the-start-page-for-visual-studio.md).  
   
-## See Also  
+## See also  
  [Customizing the Start Page](../ide/customizing-the-start-page-for-visual-studio.md)   
  [Adding User Control to the Start Page](../extensibility/adding-user-control-to-the-start-page.md)

@@ -101,5 +101,5 @@ The behavior of a number of functions in the Source Control Plug-in API can be m
 |`SCC_OPT_SCO_NO`|0L|(Default) OK to check out from plug-in UI; working directory is set.|`SCC_OPT_SCCCHECKOUTONLY`|  
 |`SCC_OPT_SCO_YES`|1L|No plug-in UI checkout, no working directory.|`SCC_OPT_SCCCHECKOUTONLY`|  
   
-## See Also  
+## See also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)

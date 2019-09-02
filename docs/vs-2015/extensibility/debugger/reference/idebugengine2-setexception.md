@@ -42,6 +42,6 @@ int SetException( 
 ## Remarks  
  A DE could be instructed to stop the program generating an exception at first chance, second chance, or not at all.  
   
-## See Also  
+## See also  
  [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)   
  [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md)

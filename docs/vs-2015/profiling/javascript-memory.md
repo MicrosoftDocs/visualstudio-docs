@@ -394,5 +394,5 @@ if (performance && performance.mark) {
 
   - Create a test object and trace it in the JavaScript memory analyzer views, such as the Types view. For example, you can attach a very large object to another object to see whether a particular object or element has been garbage-collected.  
 
-## See Also  
+## See also  
  [Walkthrough: Find a memory leak (JavaScript)](../profiling/walkthrough-find-a-memory-leak-javascript.md)

@@ -55,7 +55,7 @@ In the **Threads View** in the Concurrency Visualizer, you can organize the chan
 ## Group Markers by Thread  
  If a trace contains marker events, you can use this command to group marker channels under the thread that generated the marker events.  The disk channels are moved to the top of the channel list and GPU channels are moved to the bottom.  
   
-## See Also  
+## See also  
  [Zoom Control (Threads View)](../profiling/zoom-control-threads-view.md)   
  [Measure Mode On/Off](../profiling/measure-mode-on-off.md)   
  [Threads View](../profiling/threads-view-parallel-performance.md)

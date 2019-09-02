@@ -56,6 +56,6 @@ Visual Studio command-line parameters are not case-sensitive.
 |**/u**<br /><br /> **/Uninstall**|Uninstalls [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].|
 |**/Uninstall /Force**<br /><br /> **/u /force**|Uninstalls Visual Studio and all features that are shared with other products. **Warning:**  If you use this parameter, other products that are installed on the same computer might stop functioning correctly.|
 
-## See Also
+## See also
 
 - [Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md)

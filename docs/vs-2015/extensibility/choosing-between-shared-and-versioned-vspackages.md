@@ -57,6 +57,6 @@ Different versions of Visual Studio can coexist on the same computer. VSPackages
   
   In addition to planning for binary compatibility for your VSPackage binaries, you also should consider solution and project file formats. If your VSPackage creates a new project type, you must decide whether it can run in just one version or in multiple versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. For more information, see [Upgrading Custom Projects](../misc/upgrading-custom-projects.md).  
   
-## See Also  
+## See also  
  [Installing VSPackages With Windows Installer](../extensibility/internals/installing-vspackages-with-windows-installer.md)   
  [Component Management](../extensibility/internals/component-management.md)

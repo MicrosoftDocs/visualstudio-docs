@@ -40,7 +40,7 @@ A solution is a grouping of one or more projects that work together to create an
 > [!NOTE]
 > If you want to create a new solution configuration consisting of two projects' configurations and excluding a third from the build, you need to use the Property Pages UI or automation. You can’t change the solution build manager configurations and their properties directly, but you can manipulate the solution build manager using the `SolutionBuild` class from DTE in the automation model. For more information about configuring solutions, see [Solution Configuration](../../extensibility/internals/solution-configuration.md).  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionOpts>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps>   

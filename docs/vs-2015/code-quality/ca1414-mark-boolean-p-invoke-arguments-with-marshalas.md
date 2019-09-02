@@ -52,7 +52,7 @@ manager: "wpickett"
 
  [CA2101: Specify marshaling for P/Invoke string arguments](../code-quality/ca2101-specify-marshaling-for-p-invoke-string-arguments.md)
 
-## See Also
+## See also
  <xref:System.Runtime.InteropServices.UnmanagedType?displayProperty=fullName>
  [Default Marshaling for Boolean Types](https://msdn.microsoft.com/d4c00537-70f7-4ca6-8197-bfc1ec037ff9)
  [Interoperating with Unmanaged Code](https://msdn.microsoft.com/library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)

@@ -78,7 +78,7 @@ You can store different configurations of solution and project properties to use
   
 - If a project supports multiple platforms, a solution configuration is either found or added for each supported platform. The name of each solution configuration includes both the project configuration name and the platform name, and has the form *\<project configuration name> \<platform name>*.  
   
-## See Also  
+## See also  
  [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)   

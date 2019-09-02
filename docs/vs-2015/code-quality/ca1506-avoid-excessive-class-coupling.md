@@ -40,6 +40,6 @@ manager: "wpickett"
 ## When to Suppress Warnings
  Exclude this warning when the type or method is still considered maintainable despite its large number of dependencies on other types.
 
-## See Also
+## See also
  [Maintainability Warnings](../code-quality/maintainability-warnings.md)
  [Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)

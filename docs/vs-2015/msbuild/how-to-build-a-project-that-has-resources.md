@@ -73,7 +73,7 @@ If you are building localized versions of a project, all user interface elements
 </Project>  
 ```  
   
-## See Also  
+## See also  
 [MSBuild](msbuild.md)  
  [GenerateResource Task](../msbuild/generateresource-task.md)   
  [Csc Task](../msbuild/csc-task.md)   

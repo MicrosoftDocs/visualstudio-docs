@@ -82,7 +82,7 @@ A UML class diagram describes the object and information structures used by your
 |15|**Realization**|The class implements the operations and attributes defined by the interface.<br /><br /> Use the **Inheritance** tool to create a realization between a class and an interface.|  
 |16|**Realization**|An alternative presentation of the same relationship. The label on the lollipop symbol identifies the interface.<br /><br /> To create this presentation, select an existing realization relationship. An action tag appears near the association. Click the action tag, and then click **Show as Lollipop**.|  
   
-## See Also  
+## See also  
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
  [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)   
  [Properties of types on UML class diagrams](../modeling/properties-of-types-on-uml-class-diagrams.md)   

@@ -131,7 +131,7 @@ In Visual Studio, you can use a model to help you understand and change a system
 |**Blogs**|[Visual Studio ALM + Team Foundation Server Blog](http://go.microsoft.com/fwlink/?LinkID=201340)|  
 |**Technical Articles and Journals**|[MSDN Architecture Center](http://go.microsoft.com/fwlink/?LinkId=201343)<br /><br /> [Visual Studio Architecture Tooling Guidance](../modeling/visual-studio-architecture-tooling-guidance.md)|  
   
-## See Also  
+## See also  
  [Use models in Agile development](https://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)   
  [Create models for your app](../modeling/create-models-for-your-app.md)   
  [Model user requirements](../modeling/model-user-requirements.md)   

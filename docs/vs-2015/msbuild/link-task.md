@@ -920,5 +920,5 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
    For more information, see [/VERSION (Version Information)](https://msdn.microsoft.com/library/b86d0e86-dca6-4316-aee2-d863ccb9f223).  
   
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)

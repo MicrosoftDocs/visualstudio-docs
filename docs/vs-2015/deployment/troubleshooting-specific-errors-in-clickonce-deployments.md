@@ -133,6 +133,6 @@ This topic lists the following common errors that can occur when you deploy a [!
 |Shortcuts cannot be activated over the network.|Shortcuts to a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application can only be started on the local hard disk. They cannot be started by opening a URL that points to a shortcut file on a remote server.|  
 |The application is too large to run online in partial trust. Contact the application vendor or your system administrator for assistance.|An application that runs in partial trust cannot be larger than half of the size of the online application quota, which by default is 250 MB.|  
   
-## See Also  
+## See also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Troubleshooting ClickOnce Deployments](../deployment/troubleshooting-clickonce-deployments.md)

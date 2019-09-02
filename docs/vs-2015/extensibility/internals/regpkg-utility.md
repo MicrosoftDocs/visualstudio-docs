@@ -59,6 +59,6 @@ RegPkg [/root:<root>] [/regfile:<regfile>] [/rgsfile:<rgsfile> [/rgm]] [/vrgfile
   
  with /regfile or /vrgfile or /rgsfile or /wixfile.  
   
-## See Also  
+## See also  
  [Releasing a Product](../../misc/releasing-a-visual-studio-integration-product.md)   
  [Troubleshooting RegPkg Package Registration](../../extensibility/internals/troubleshooting-regpkg-package-registration.md)

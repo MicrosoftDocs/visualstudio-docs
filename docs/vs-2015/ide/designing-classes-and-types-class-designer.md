@@ -47,5 +47,5 @@ Using **Class Designer**, you can not only visualize classes and types, but desi
   
  [Refactoring Classes and Types (Class Designer)](../ide/refactoring-classes-and-types-class-designer.md)  
   
-## See Also  
+## See also  
  [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)

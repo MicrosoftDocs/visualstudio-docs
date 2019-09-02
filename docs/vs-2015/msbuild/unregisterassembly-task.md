@@ -57,7 +57,7 @@ Unregisters the specified assemblies for COM interop purposes. Performs the reve
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [RegisterAssembly Task](../msbuild/registerassembly-task.md)   
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)

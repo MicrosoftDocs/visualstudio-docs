@@ -44,6 +44,6 @@ int GetInfo(
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)   
  [FIELD_INFO](../../../extensibility/debugger/reference/field-info.md)

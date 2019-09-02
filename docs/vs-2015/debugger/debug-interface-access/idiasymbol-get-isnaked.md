@@ -44,6 +44,6 @@ HRESULT get_isNaked(
 |Header:|dia2.h|  
 |Version:|DIA SDK v8.0|  
   
-## See Also  
+## See also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [Naked Function Calls](https://msdn.microsoft.com/library/2a66847a-a43f-4541-a7be-c9f5f29b5fdb)

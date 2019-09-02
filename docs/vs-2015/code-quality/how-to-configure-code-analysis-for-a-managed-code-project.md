@@ -48,5 +48,5 @@ In [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../i
   
          For more information, see [Creating Custom Rule Sets](../code-quality/creating-custom-code-analysis-rule-sets.md).  
   
-## See Also  
+## See also  
  [Walkthrough: Configuring and Using a Custom Rule Set](../code-quality/walkthrough-configuring-and-using-a-custom-rule-set.md)

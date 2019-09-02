@@ -106,7 +106,7 @@ manager: jillfra
 |Internet Explorer|2.0, 3.0, 3.5, 3.5 SP1, 4|  
 |Firefox|2.0 SP1, 3.5 SP1, 4|  
   
-## See Also  
+## See also  
  [ClickOnce Deployment on Windows Vista](../deployment/clickonce-deployment-on-windows-vista.md)   
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   

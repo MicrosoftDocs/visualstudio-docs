@@ -67,7 +67,7 @@ Contains an optional list of parameters that will be present on the task that is
 </UsingTask>  
 ```  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)

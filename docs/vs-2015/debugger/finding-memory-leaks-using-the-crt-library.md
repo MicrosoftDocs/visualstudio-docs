@@ -256,7 +256,7 @@ if ( _CrtMemDifference( &s3, &s1, &s2) )
 ## False positives  
  In some cases, `_CrtDumpMemoryLeaks` can give false indications of memory leaks. This might occur if you use a library that marks internal allocations as _NORMAL_BLOCKs instead of `_CRT_BLOCK`s or `_CLIENT_BLOCK`s. In that case, `_CrtDumpMemoryLeaks` is unable to tell the difference between user allocations and internal library allocations. If the global destructors for the library allocations run after the point where you call `_CrtDumpMemoryLeaks`, every internal library allocation is reported as a memory leak. Older versions of the Standard Template Library, earlier than Visual Studio .NET, caused `_CrtDumpMemoryLeaks` to report such false positives, but this has been fixed in recent releases.  
   
-## See Also  
+## See also  
  [CRT Debug Heap Details](../debugger/crt-debug-heap-details.md)   
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging Native Code](../debugger/debugging-native-code.md)

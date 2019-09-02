@@ -80,7 +80,7 @@ You can provide feedback to your user by changing the appearance of a command. F
   
 8. On the **Tools** menu you should now see **New Text**. Click **New Text**. The command should now be grayed out.  
   
-## See Also  
+## See also  
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)   
  [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)   

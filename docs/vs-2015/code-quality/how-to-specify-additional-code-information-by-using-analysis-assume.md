@@ -52,5 +52,5 @@ void test( )
 }  
 ```  
   
-## See Also  
+## See also  
  [__assume](https://msdn.microsoft.com/library/d8565123-b132-44b1-8235-5a8c8bff85a7)

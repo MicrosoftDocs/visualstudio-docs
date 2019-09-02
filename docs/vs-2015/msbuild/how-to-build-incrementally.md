@@ -98,7 +98,7 @@ When you build a large project, it is important that previously built components
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Targets](../msbuild/msbuild-targets.md)   
  [Target Element (MSBuild)](../msbuild/target-element-msbuild.md)   
  [Transforms](../msbuild/msbuild-transforms.md)   

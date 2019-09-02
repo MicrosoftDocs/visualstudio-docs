@@ -53,5 +53,5 @@ Defines a bitmap. The bitmap is loaded either from a resource or from a file.
   usedList="1, 2, 3, 4"/>  
 ```  
   
-## See Also  
+## See also  
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

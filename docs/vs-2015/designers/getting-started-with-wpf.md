@@ -25,7 +25,7 @@ Windows Presentation Foundation (WPF) is a UI framework that creates desktop cli
 |Tell me more about WPF…|[Introduction to WPF](../designers/introduction-to-wpf.md)<br /><br /> [XAML Overview (WPF)](https://msdn.microsoft.com/library/ms752059\(v=vs.100\).aspx)<br /><br /> [Controls](https://msdn.microsoft.com/library/bb613551\(v=vs.100\).aspx)<br /><br /> [Data Binding Overview](https://msdn.microsoft.com/library/ms752347\(v=vs.100\).aspx)<br /><br /> [WPF Data Binding with LINQ to XML](../designers/wpf-data-binding-with-linq-to-xml.md)|  
 |Are you a Windows Forms developer?|[Windows Forms Controls and Equivalent WPF Controls](https://msdn.microsoft.com/library/ms750559\(v=vs.100\).aspx)<br /><br /> [Supported Scenarios in WPF and Windows Forms Interoperation](https://msdn.microsoft.com/library/ms751797\(v=vs.100\).aspx)|  
   
-## See Also  
+## See also  
  [Class Library (WPF)](https://msdn.microsoft.com/library/ms753307\(v=vs.100\).aspx)   
  [Application Development Overview](https://msdn.microsoft.com/library/bb613549\(v=vs.100\).aspx)   
  [.NET Framework Developer Center](https://dotnet.microsoft.com/)   

@@ -192,7 +192,7 @@ You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to
   
 - Learn how to analyze captured graphics information by using the Graphics Diagnostics tools. See [Overview](../debugger/overview-of-visual-studio-graphics-diagnostics.md).  
   
-## See Also  
+## See also  
  [Walkthrough: Capturing Graphics Information](../debugger/walkthrough-capturing-graphics-information.md)   
  [Capturing Graphics Information](../debugger/capturing-graphics-information.md)   
  [Command-Line Capture Tool](../debugger/command-line-capture-tool.md)

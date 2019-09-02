@@ -49,5 +49,5 @@ If the user sets a breakpoint, perhaps by pressing F9, the IDE formulates the re
   
  If a DE handles a breakpoint, cannot bind it, but some other DE might bind it, it returns a warning. The IDE responds by placing a question glyph inside the breakpoint glyph to the left of the source code line.  
   
-## See Also  
+## See also  
  [Debugging Tasks](../../extensibility/debugger/debugging-tasks.md)

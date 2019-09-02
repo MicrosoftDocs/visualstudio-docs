@@ -539,6 +539,6 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
      ![Example of overriding IntelliSense results](../ide/media/js-intellisense-override-fixed.png "js_intellisense_override_fixed")  
   
-## See Also  
+## See also  
  [JavaScript IntelliSense](../ide/javascript-intellisense.md)   
  [Statement Completion for Identifiers](../ide/statement-completion-for-identifiers.md)

@@ -42,6 +42,6 @@ int SetThreadName ( 
 ## Remarks  
  To get the thread name, call the [GetName](../../../extensibility/debugger/reference/idebugthread2-getname.md) method.  
   
-## See Also  
+## See also  
  [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)   
  [GetName](../../../extensibility/debugger/reference/idebugthread2-getname.md)

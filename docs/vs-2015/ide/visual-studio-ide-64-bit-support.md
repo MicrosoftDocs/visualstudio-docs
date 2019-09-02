@@ -40,5 +40,5 @@ manager: jillfra
 
 - [Using Dump Files](../debugger/using-dump-files.md)
 
-## See Also
+## See also
  [How to: Configure Projects to Target Platforms](../ide/how-to-configure-projects-to-target-platforms.md)

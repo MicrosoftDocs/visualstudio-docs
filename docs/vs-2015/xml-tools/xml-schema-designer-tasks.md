@@ -49,5 +49,5 @@ This section describes how to complete common tasks with the XML Schema Designer
  [Sample XSD Files](../xml-tools/sample-xsd-files.md)  
  Provides code listings for the sample XSD documents that are used in the task examples.  
   
-## See Also  
+## See also  
  [XML Schema Designer](../xml-tools/xml-schema-designer.md)

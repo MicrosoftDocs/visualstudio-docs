@@ -38,5 +38,5 @@ internal void SetNotificationForWaitCompletion(bool enabled)
   
 ## Requirements  
   
-## See Also  
+## See also  
  [Task Class](../../extensibility/debugger/task-class-internal-members.md)

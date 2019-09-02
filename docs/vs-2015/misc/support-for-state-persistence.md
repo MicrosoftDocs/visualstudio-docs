@@ -36,5 +36,5 @@ manager: jillfra
  <xref:Microsoft.VisualStudio.Shell.Package.UserLocalDataPath%2A>  
  Returns the path of the directory that serves as a common repository for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] data for the current non-roaming user, for example, C:\Documents and Settings\\*YourAccountName*\Local Settings\Application Data\Microsoft\VisualStudio\8.0Exp.  
   
-## See Also  
+## See also  
  [VSPackage State](../misc/vspackage-state.md)

@@ -43,5 +43,5 @@ Typically, a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application 
   
 6. Deploy your application.  
   
-## See Also  
+## See also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)

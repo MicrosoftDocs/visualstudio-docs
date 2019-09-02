@@ -47,6 +47,6 @@ The Summary view displays information about the most performance-expensive funct
 |**Name**|The name of the function.|  
 |**Exclusive Samples %**|The percentage of all samples in the profiling run that were collected when the function was executing code in its function body. The percentage excludes samples that were collected when functions that this function called were executing.|  
   
-## See Also  
+## See also  
  [Summary View](../profiling/summary-view-dotnet-memory-data.md)   
  [Summary View](../profiling/summary-view-instrumentation-data.md)

@@ -51,7 +51,7 @@ Provides a table of all the [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.
 |[UsingTask Element (MSBuild)](../msbuild/usingtask-element-msbuild.md)|ParameterGroup<br /><br /> TaskBody|AssemblyFile<br /><br /> AssemblyName<br /><br /> Condition<br /><br /> TaskFactory<br /><br /> TaskName|  
 |[When Element (MSBuild)](../msbuild/when-element-msbuild.md)|Choose<br /><br /> ItemGroup<br /><br /> PropertyGroup|Condition|  
   
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Conditions](../msbuild/msbuild-conditions.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)  

@@ -59,6 +59,6 @@ The top-level element for the deployment manifest.
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  
 ```  
   
-## See Also  
+## See also  
  [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)   
  [\<assembly> Element](../deployment/assembly-element-clickonce-application.md)

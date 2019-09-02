@@ -46,7 +46,7 @@ Debugging [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications is s
  [IntelliTrace](../debugger/intellitrace.md)  
  Debug your code faster by using IntelliTrace to record and review a history of your application's state without restarting the application as frequently. You can see information about events and calls that occur during the running of your application and start debugging from these points in time. Requires Visual Studio Ultimate.  
   
-## See Also  
+## See also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   

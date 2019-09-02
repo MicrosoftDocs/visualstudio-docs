@@ -122,6 +122,6 @@ Tier interaction data that is collected by Profiling Tools
   
  [Tier Interaction Views](../profiling/tier-interaction-views.md)  
   
-## See Also  
+## See also  
  [How to: Collect Performance Data for a Web Site](../profiling/how-to-collect-performance-data-for-a-web-site.md)   
  [Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md)

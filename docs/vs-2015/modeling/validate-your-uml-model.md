@@ -62,7 +62,7 @@ Some of the UML models that you can draw in Visual Studio might be considered in
   
 3. Restart [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
-## See Also  
+## See also  
  [Define validation constraints for UML models](../modeling/define-validation-constraints-for-uml-models.md)   
  [Create models for your app](../modeling/create-models-for-your-app.md)   
  [Use models in your development process](../modeling/use-models-in-your-development-process.md)

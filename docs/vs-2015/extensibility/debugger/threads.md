@@ -23,7 +23,7 @@ In terms of the debugger architecture, a **thread**:
   
 - Is represented by an [IDebugThread2](../../extensibility/debugger/reference/idebugthread2.md) interface, typically created by a debug engine (DE) or virtual machine as a consequence of executing a program.  
   
-## See Also  
+## See also  
  [Programs](../../extensibility/debugger/programs.md)   
  [Stack Frames](../../extensibility/debugger/stack-frames.md)   
  [Debug Engine](../../extensibility/debugger/debug-engine.md)   

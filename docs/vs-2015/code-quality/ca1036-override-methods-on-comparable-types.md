@@ -58,7 +58,7 @@ manager: "wpickett"
 
  [!code-csharp[FxCop.Design.TestIComparable#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Design.TestIComparable/cs/FxCop.Design.TestIComparable.cs#1)]
 
-## See Also
+## See also
  <xref:System.IComparable?displayProperty=fullName>
  <xref:System.Object.Equals%2A?displayProperty=fullName>
  [Equality Operators](https://msdn.microsoft.com/library/bc496a91-fefb-4ce0-ab4c-61f09964119a)

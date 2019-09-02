@@ -39,5 +39,5 @@ Sets or deletes the value of a specified environment variable.
   
 ## Remarks  
   
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)

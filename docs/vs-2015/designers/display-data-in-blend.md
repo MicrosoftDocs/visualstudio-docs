@@ -55,5 +55,5 @@ You can view sample data in your designer as you customize the layout of your pa
 ## <a name="LiveStore"></a> Show live data in a Store or Phone app  
  See [Working with data and files (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/br229562.aspx).  
   
-## See Also  
+## See also  
  [Creating a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)

@@ -49,5 +49,5 @@ int GetNextAddress( 
 ## Return Value  
  Returns a valid `HRESULT`, typically S_OK.  
   
-## See Also  
+## See also  
  [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)

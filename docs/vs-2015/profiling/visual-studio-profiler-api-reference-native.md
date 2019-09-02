@@ -40,6 +40,6 @@ Visual Studio Profiler APIs allow you to programmatically control the amount of 
   
  [PROFILE_CURRENTID](../profiling/profile-currentid.md)  
   
-## See Also  
+## See also  
  [Profiling Tools APIs](../profiling/profiling-tools-apis.md)   
  [Walkthrough: Using Profiler APIs](../profiling/walkthrough-using-profiler-apis.md)

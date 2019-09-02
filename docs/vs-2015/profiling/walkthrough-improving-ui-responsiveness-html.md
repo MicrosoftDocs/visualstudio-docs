@@ -236,5 +236,5 @@ This walkthrough leads you through the process of identifying and fixing a perfo
   
 2. Run the HTML UI responsiveness profiler again, and check the CPU utilization graph. You will find that the excessive events are gone, and CPU utilization has dropped to near zero. Fixed!  
   
-## See Also  
+## See also  
  [HTML UI responsiveness](../profiling/html-ui-responsiveness.md)

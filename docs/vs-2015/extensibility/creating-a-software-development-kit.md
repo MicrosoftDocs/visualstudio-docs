@@ -258,7 +258,7 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
     </File>  
     ```  
   
-## See Also  
+## See also  
  [Walkthrough: Creating an SDK using C++](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)   
  [Walkthrough: Creating an SDK using C# or Visual Basic](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md)   
  [Managing references in a project](../ide/managing-references-in-a-project.md)

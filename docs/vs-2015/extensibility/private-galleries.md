@@ -85,6 +85,6 @@ DisplayNamePackageGuid={GUID} (REG_SZ)
   
 3. In the right pane, select an extension, and then choose the **Update** button.  
   
-## See Also  
+## See also  
  [Finding and Using Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md)   
  [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)

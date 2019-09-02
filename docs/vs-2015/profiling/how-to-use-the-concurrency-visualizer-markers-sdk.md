@@ -162,6 +162,6 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
 
      ![Concurrency Visualizer with 3 custom marker series](../profiling/media/cvmarkerseriesmanaged.png "CvMarkerSeriesManaged")
 
-## See Also
+## See also
 
 - [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)

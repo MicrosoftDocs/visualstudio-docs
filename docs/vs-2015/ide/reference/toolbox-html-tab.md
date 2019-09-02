@@ -246,7 +246,7 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
   
  For more information, see [HTML Div Control](https://msdn.microsoft.com/library/585fa702-4408-4af1-a92b-68d77ee5e995), [Label Web Server Control Overview](https://msdn.microsoft.com/library/990558d1-4b22-4f28-b100-78a434b3c5ac), and <xref:System.Web.UI.WebControls.Label>.  
   
-## See Also  
+## See also  
  [Toolbox](../../ide/reference/toolbox.md)   
  [Standard Tab, Toolbox](https://msdn.microsoft.com/library/35e9320d-fcbd-474b-8b8f-55705e9a1870)   
  [HTML Controls](https://msdn.microsoft.com/library/83bc6f7e-a2b5-4fe9-9a34-eb34aef673be)

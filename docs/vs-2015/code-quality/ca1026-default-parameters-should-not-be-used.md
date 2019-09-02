@@ -48,5 +48,5 @@ manager: "wpickett"
 ## Related Rules
  [CA1025: Replace repetitive arguments with params array](../code-quality/ca1025-replace-repetitive-arguments-with-params-array.md)
 
-## See Also
+## See also
  [Language Independence and Language-Independent Components](https://msdn.microsoft.com/library/4f0b77d0-4844-464f-af73-6e06bedeafc6)

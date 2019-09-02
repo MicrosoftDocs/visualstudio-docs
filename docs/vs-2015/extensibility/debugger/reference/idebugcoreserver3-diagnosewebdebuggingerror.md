@@ -45,5 +45,5 @@ int DiagnoseWebDebuggingError(
 |`S_WEBDBG_DEBUG_VERB_BLOCKED`|Cannot debug on remote server, possibly due to insufficient permissions or because the DEBUG verb is not enabled.|  
 |`E_WEBDBG_DEBUG_VERB_BLOCKED`|The web server has been locked down and is blocking the DEBUG verb, which is required to enable debugging.|  
   
-## See Also  
+## See also  
  [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)

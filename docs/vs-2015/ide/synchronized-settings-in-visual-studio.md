@@ -51,5 +51,5 @@ When you use the same personalization account to sign in to Visual Studio on mul
 > [!WARNING]
 > Settings are not synchronized between Visual Studio 2013 and Visual Studio 2015. The first time you open Visual Studio 2015, your settings from Visual Studio 2013 are migrated, but they cannot be migrated back to Visual Studio 2013 after that.
 
-## See Also
+## See also
  [Personalizing the  IDE](../ide/personalizing-the-visual-studio-ide.md)

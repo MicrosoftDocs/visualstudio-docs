@@ -90,7 +90,7 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools support three m
   
 3. Click **Concurrency**.  
   
-## See Also  
+## See also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)   
  [Performance Session Properties](../profiling/performance-session-properties.md)

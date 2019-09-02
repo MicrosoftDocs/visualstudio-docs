@@ -20,6 +20,6 @@ In terms of the debugger architecture, a **session**:
   
 - Is implemented by a session debug manager (SDM). For more information, see [Session Debug Manager](../../extensibility/debugger/session-debug-manager.md).  
   
-## See Also  
+## See also  
  [Session Debug Manager](../../extensibility/debugger/session-debug-manager.md)   
  [Debugger Concepts](../../extensibility/debugger/debugger-concepts.md)

@@ -84,7 +84,7 @@ Update("this/Address/State")
   
  For more information about using **Update** with forward chaining, see [Using the PolicyActivity Activity](http://go.microsoft.com/fwlink?LinkID=65004).  
   
-## See Also  
+## See also  
  [PolicyActivity](http://go.microsoft.com/fwlink?LinkID=65019)   
  [Select Rule Set Dialog Box (Legacy)](../workflow-designer/select-rule-set-dialog-box-legacy.md)   
  [Using the PolicyActivity Activity](http://go.microsoft.com/fwlink?LinkID=65004)   

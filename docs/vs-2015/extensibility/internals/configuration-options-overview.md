@@ -65,7 +65,7 @@ Configuration interfaces
   
   For further information on the Configuration Object interfaces and Configuration Provider Object interfaces in the previous diagram, see [Project Configuration Object](../../extensibility/internals/project-configuration-object.md). In addition, [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md) provides more information on the Configuration Builder and Build Dependency Object interfaces, and [Project Configuration for Managing Deployment](../../extensibility/internals/project-configuration-for-managing-deployment.md) further describes the interfaces attached to the configuration deployer and deployment dependency objects. Finally, [Project Configuration for Output](../../extensibility/internals/project-configuration-for-output.md) describes the Output Group and Output Object interfaces, and the use of property pages to view and set configuration-dependent properties.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsCfgProvider2>   
  [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md)   
  [Solution Configuration](../../extensibility/internals/solution-configuration.md)

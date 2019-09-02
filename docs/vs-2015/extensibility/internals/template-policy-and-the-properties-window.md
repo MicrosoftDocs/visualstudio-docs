@@ -24,6 +24,6 @@ When a project is contained inside an enterprise template project, that enterpri
   
   Using template policy to selectively constrain specific properties in the **Properties** window when a project item of a specified type is selected in **Solution Explorer** can be beneficial to all members of the development team working on a project. For example, using template policy, you can set up all the connection-string information in a database for your developers and make the connection string read-only. In that way, you can provide a simple way to assure that each developer uses the correct path for data access.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing>   
  [Extending Properties](../../extensibility/internals/extending-properties.md)

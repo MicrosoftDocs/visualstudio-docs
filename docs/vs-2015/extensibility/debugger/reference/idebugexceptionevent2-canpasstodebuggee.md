@@ -36,6 +36,6 @@ int CanPassToDebuggee();
 ## Remarks  
  The DE must have a default action for passing to the debuggee. The IDE may receive the [IDebugExceptionEvent2](../../../extensibility/debugger/reference/idebugexceptionevent2.md) event and call the [Continue](../../../extensibility/debugger/reference/idebugprocess3-continue.md) method without calling the `CanPassToDebuggee` method. Therefore, the DE should have a default case for passing the exception on or not.  
   
-## See Also  
+## See also  
  [IDebugExceptionEvent2](../../../extensibility/debugger/reference/idebugexceptionevent2.md)   
  [Continue](../../../extensibility/debugger/reference/idebugprocess3-continue.md)

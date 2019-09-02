@@ -86,5 +86,5 @@ In a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] design-time text template, the
 <#@ assembly name="$(myLibFolder)\MyLib.dll" #>  
 ```  
   
-## See Also  
+## See also  
  [T4 Include Directive](../modeling/t4-include-directive.md)

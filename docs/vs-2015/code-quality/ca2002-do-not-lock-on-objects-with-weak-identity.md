@@ -63,7 +63,7 @@ manager: "wpickett"
  [!code-csharp[FxCop.Reliability.LockWeakObjects#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Reliability.LockWeakObjects/cs/FxCop.Reliability.LockWeakObjects.cs#1)]
  [!code-vb[FxCop.Reliability.LockWeakObjects#1](../snippets/visualbasic/VS_Snippets_CodeAnalysis/FxCop.Reliability.LockWeakObjects/vb/FxCop.Reliability.LockWeakObjects.vb#1)]
 
-## See Also
+## See also
  <xref:System.Threading.Monitor>
  <xref:System.AppDomain>
  [lock Statement](https://msdn.microsoft.com/library/656da1a4-707e-4ef6-9c6e-6d13b646af42)

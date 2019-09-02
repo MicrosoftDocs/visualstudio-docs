@@ -52,5 +52,5 @@ You can change the project settings for a C# debug configuration in the **Proper
 |**Optimize code**|Unless you find a bug that appears only in optimized code, you should leave this setting turned off in the Debug version. Optimized code is harder to debug because instructions do not correspond directly to statements in your source windows.|  
 |**Output path:**|Typically set to bin\Debug for debugging.|  
   
-## See Also  
+## See also  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

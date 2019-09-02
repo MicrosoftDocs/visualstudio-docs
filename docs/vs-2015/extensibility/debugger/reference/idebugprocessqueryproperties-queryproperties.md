@@ -54,5 +54,5 @@ int QueryProperties(
 ## Remarks  
  This method is seldom used.  
   
-## See Also  
+## See also  
  [IDebugProcessQueryProperties](../../../extensibility/debugger/reference/idebugprocessqueryproperties.md)

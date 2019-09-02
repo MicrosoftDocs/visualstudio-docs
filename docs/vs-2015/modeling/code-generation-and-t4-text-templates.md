@@ -116,6 +116,6 @@ namespace Fabrikam.FirstJob
  [Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)  
  How to write directive processors and custom templating hosts for your own data sources.  
   
-## See Also  
+## See also  
  [Generate files from a UML model](../modeling/generate-files-from-a-uml-model.md)   
  [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)

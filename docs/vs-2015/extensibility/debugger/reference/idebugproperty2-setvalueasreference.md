@@ -61,6 +61,6 @@ int SetValueAsReference(
 |`E_SETVALUE_VALUE_IS_READONLY`|The value is read-only and cannot be set.|  
 |`E_NOTIMPL`|The method is not implemented.|  
   
-## See Also  
+## See also  
  [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)   
  [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)

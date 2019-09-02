@@ -47,5 +47,5 @@ int GetStringFromValue(
 ## Remarks  
  If there is more than one name associated with the same value, the first name defined in the enumeration will be returned.  
   
-## See Also  
+## See also  
  [IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md)

@@ -55,5 +55,5 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../includes/vsprv
   
 - Learn how to analyze captured graphics information using the Graphics Diagnostics tools. See [Overview](../debugger/overview-of-visual-studio-graphics-diagnostics.md).  
   
-## See Also  
+## See also  
  [Capturing Graphics Information](../debugger/capturing-graphics-information.md)

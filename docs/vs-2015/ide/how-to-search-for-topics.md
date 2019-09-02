@@ -36,7 +36,7 @@ You can use the full-text search feature to locate all topics that contain a par
   
 4. To view a topic, choose its title from the results list.  
   
-## See Also  
+## See also  
  [Full-Text Search Tips](../ide/full-text-search-tips.md)   
  [Logical Operators in Search Expressions](../ide/logical-operators-in-search-expressions.md)   
  [Advanced Search Operators in Search Expressions](../ide/advanced-search-operators-in-search-expressions.md)   

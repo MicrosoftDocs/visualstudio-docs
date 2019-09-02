@@ -234,7 +234,7 @@ _Ret_maybenull_ void *MightReturnNullPtr2();
   
  In this example, `_Out_opt_` says that the pointer might be NULL as part of the precondition. However, preconditions cannot be applied to the return value. In this case, the correct annotation is `_Ret_maybenull_`.  
   
-## See Also  
+## See also  
  [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   
  [Understanding SAL](../code-quality/understanding-sal.md)   
  [Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)   

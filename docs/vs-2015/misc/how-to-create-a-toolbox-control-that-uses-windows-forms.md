@@ -83,5 +83,5 @@ The Windows Forms Toolbox Control template that is included in the [!INCLUDE[vss
   
      If you upload the file to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site, other users can use **Extension Manager** in Visual Studio to find the control and install it.  
   
-## See Also  
+## See also  
  [Creating a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)

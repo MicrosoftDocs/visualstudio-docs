@@ -26,6 +26,6 @@ Microsoft exposes a variety of community resources for you to learn about, discu
 
  [Windows Presentation Foundation developer center](https://www.visualstudio.com/features/wpf-vs)
 
-## See Also
+## See also
 
 - [Create Modern Desktop Applications with Windows Presentation Foundation](../designers/create-modern-desktop-applications-with-windows-presentation-foundation.md)

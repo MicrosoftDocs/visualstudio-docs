@@ -115,5 +115,5 @@ You can call external tools from inside Visual Studio. A few default tools are a
 |Solution Directory|$(SolutionDir)|The directory of the current solution (drive + path).|  
 |Solution file name|$(SolutionFileName)|The file name of the current solution (drive + path + file name).|  
   
-## See Also  
+## See also  
  [C/C++ Build Tools](https://msdn.microsoft.com/library/48d9daf4-6bbf-473a-8ce2-bf2923b69f80)

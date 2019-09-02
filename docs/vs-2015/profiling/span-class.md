@@ -42,5 +42,5 @@ class span;
   
  **Namespace:** Concurrency::diagnostic  
   
-## See Also  
+## See also  
  [diagnostic Namespace](../profiling/diagnostic-namespace.md)

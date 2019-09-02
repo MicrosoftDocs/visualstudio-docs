@@ -113,6 +113,6 @@ Contains a set of tasks for [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.
 </Target>  
 ```  
   
-## See Also  
+## See also  
  [Targets](../msbuild/msbuild-targets.md)   
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)

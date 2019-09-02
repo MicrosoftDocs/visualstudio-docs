@@ -32,5 +32,5 @@ To create a domain-specific language solution, choose one of the solution templa
 |Minimal WPF Designer|-   A small model<br />-   A Windows Presentation Foundation user interface that displays the model|Use this template if you want to build an application in which a DSL is bound to a WPF user interface, rather than a graphical designer.<br /><br /> The designer for the user interface is in the folder Dsl\UI.<br /><br /> You should build the project before opening the UI designer.<br /><br /> For more information, see [Creating a WPF-Based Domain-Specific Language](../modeling/creating-a-wpf-based-domain-specific-language.md).|  
 |DSL Library|-   A minimal library|Use this template if you want to build a partial DSL definition that can be imported into other DSL definitions.|  
   
-## See Also  
+## See also  
  [Overview of Domain-Specific Language Tools](../modeling/overview-of-domain-specific-language-tools.md)

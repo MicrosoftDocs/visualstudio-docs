@@ -73,5 +73,5 @@ The SCC_CAP_*xxx* flags are bit flags used to indicate the capabilities of a sou
 |`SCC_EXCAP_DELETE_CHECKEDOUT`|10|Can delete checked-out files.|  
 |`SCC_EXCAP_RENAME_CHECKEDOUT`|11|Can rename checked-out files.|  
   
-## See Also  
+## See also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)

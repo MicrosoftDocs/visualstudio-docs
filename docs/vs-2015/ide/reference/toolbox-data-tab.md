@@ -32,7 +32,7 @@ Displays data objects you can add to a forms and components. The **Data** tab of
 |<xref:System.Windows.Forms.BindingSource>|Simplifies the process of binding controls to an underlying data source.|  
 |<xref:System.Windows.Forms.BindingNavigator>|Represents the navigation and manipulation user interface (UI) for controls on a form that are bound to data.|  
   
-## See Also  
+## See also  
  [Data Walkthroughs](https://msdn.microsoft.com/library/15a88fb8-3bee-4962-914d-7a1f8bd40ec4)   
  [Bind Windows Forms controls to data in Visual Studio](../../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [Preparing Your Application to Receive Data](https://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   

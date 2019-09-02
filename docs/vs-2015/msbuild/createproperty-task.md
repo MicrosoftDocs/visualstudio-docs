@@ -63,6 +63,6 @@ Populates properties with the values passed in. This allows values to be copied 
   
  After running the project, the value of the `NewFile` property is `Module1.vb`.  
   
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Tasks](../msbuild/msbuild-tasks.md)

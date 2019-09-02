@@ -162,5 +162,5 @@ Error:
 }  
 ```  
   
-## See Also  
+## See also  
  [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)

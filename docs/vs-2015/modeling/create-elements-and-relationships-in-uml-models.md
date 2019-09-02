@@ -123,6 +123,6 @@ anElement.Delete();
   
 - Every shape that represented it on a diagram is also deleted.  
   
-## See Also  
+## See also  
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   
  [Display a UML model on diagrams](../modeling/display-a-uml-model-on-diagrams.md)

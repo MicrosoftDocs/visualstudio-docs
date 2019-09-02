@@ -28,7 +28,7 @@ Visual Studio provides two ways of implementing Find/Replace. One way is to pass
   
 3. If you implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Find%2A> and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Replace%2A> methods, you can simplify your searching tasks by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindHelper> interface.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindHelper>   
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget>   
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Find%2A>   

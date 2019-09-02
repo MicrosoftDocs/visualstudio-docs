@@ -31,6 +31,6 @@ To export a class diagram that you created from code in a project, save the diag
   
      To automatically update exported images that are linked from other documents, export the diagram again in Visual Studio.  
   
-## See Also  
+## See also  
  [How to: Print Class Diagrams (Class Designer)](../ide/how-to-print-class-diagrams-class-designer.md)   
  [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)

@@ -42,5 +42,5 @@ HRESULT WINAPI WriteContextTLogs(LPCTSTR intermediateDirectory, LPCTSTR tlogRoot
 ## Requirements  
  **Header:** FileTracker.h  
   
-## See Also  
+## See also  
  [WriteAllTLogs](../msbuild/writealltlogs.md)

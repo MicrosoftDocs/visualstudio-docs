@@ -29,6 +29,6 @@ elem.Xml
 ## Remarks  
  This property is equivalent to the <xref:System.Xml.Linq.XNode.ToString%28System.Xml.Linq.SaveOptions%29> method of the <xref:System.Xml.Linq.XNode?displayProperty=fullName> class, with the `SaveOptions` parameter set to <xref:System.Xml.Linq.SaveOptions>.  
   
-## See Also  
+## See also  
  [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)   
  [Value](../designers/value-xelement-dynamic-property.md)

@@ -168,5 +168,5 @@ You can run the installation application for [!INCLUDE[vsprvs](../includes/vsprv
 
      (For more information, see the [How to: Locate the Visual Studio Product Key](../install/how-to-locate-the-visual-studio-product-key.md) and the [How to: Automatically apply product keys when deploying Visual Studio](../install/how-to-automatically-apply-product-keys-when-deploying-visual-studio.md) topics.)
 
-## See Also
+## See also
  [Install Visual Studio](../install/install-visual-studio-2015.md)

@@ -53,5 +53,5 @@ This dialog box appears when you are debugging in a language that supports Edit 
  **OK**  
  Exit the dialog box and cancel the immediately preceding edit attempt.  
   
-## See Also  
+## See also  
  [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md)

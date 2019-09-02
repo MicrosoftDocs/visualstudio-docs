@@ -79,5 +79,5 @@ You have made an edit to a section of code that is not allowed in Visual C# Edit
   
 2. Stop the debugging session, make your edits, and start a new debugging session.  
   
-## See Also  
+## See also  
  [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)

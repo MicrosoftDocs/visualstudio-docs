@@ -51,6 +51,6 @@ class MyClass : Level2 { }
   
  The enumeration would return the base classes in the order `Level2`, `Level1`, `Root`.  
   
-## See Also  
+## See also  
  [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)   
  [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)

@@ -23,7 +23,7 @@ This topic describes how to use themes in [!INCLUDE[wf](../includes/wf-md.md)] w
   
  You can select default and saved custom themes by using the [Themes, Workflow Designer, Options Dialog Box (Legacy)](../workflow-designer/themes-workflow-designer-options-dialog-box-legacy.md). To open this dialog box, click **Select Custom Theme** on the **Workflow** menu (or right-click the workflow design surface and click **Select Custom Theme**) and then select the **Workflow Designer** option. Select the theme you want and click **OK**.  
   
-## See Also  
+## See also  
  [Theme Configuration Dialog Box (Legacy)](../workflow-designer/theme-configuration-dialog-box-legacy.md)   
  [Themes, Workflow Designer, Options Dialog Box (Legacy)](../workflow-designer/themes-workflow-designer-options-dialog-box-legacy.md)   
  [Using the Legacy Workflow Designer](../workflow-designer/using-the-legacy-workflow-designer.md)

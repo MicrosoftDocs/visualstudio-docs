@@ -33,5 +33,5 @@ Text buffer object
  [Using the Text Manager to Monitor Global Settings](../extensibility/using-the-text-manager-to-monitor-global-settings.md)  
  Explains how to use the text manager to monitor global settings..  
   
-## See Also  
+## See also  
  [Inside the Core Editor](../extensibility/inside-the-core-editor.md)

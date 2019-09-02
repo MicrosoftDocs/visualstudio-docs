@@ -44,6 +44,6 @@ HRESULT get_noInline(
 |Header:|dia2.h|  
 |Version:|DIA SDK v8.0|  
   
-## See Also  
+## See also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [noinline](https://msdn.microsoft.com/library/f259d55b-dec7-4bde-8cf9-14521e4fdc42)

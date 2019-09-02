@@ -50,7 +50,7 @@ This topic describes how to use the activity designer in the legacy [!INCLUDE[wf
 ## Adding Child Activities  
  You can drag child activities from the Toolbox to the activity that you are designing. You can then configure each child activity using the property browser.  
   
-## See Also  
+## See also  
  [Developing Workflow Activities](http://go.microsoft.com/fwlink?LinkID=65024)   
  [Creating Custom Activities](http://go.microsoft.com/fwlink?LinkID=65021)   
  [Legacy Workflow Activities](../workflow-designer/legacy-workflow-activities.md)   

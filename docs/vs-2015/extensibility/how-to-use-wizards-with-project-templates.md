@@ -302,7 +302,7 @@ namespace $safeprojectname$
   
      Notice that `$custommessage$` has been replaced with the text entered in the wizard user input form.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.TemplateWizard.IWizard>   
  [Customizing Templates](../ide/customizing-project-and-item-templates.md)   
  [WizardExtension Element (Visual Studio Templates)](../extensibility/wizardextension-element-visual-studio-templates.md)

@@ -41,5 +41,5 @@ To profile binaries, such as DLLs, you must enter information in the **\<Target>
   
 7. Click **OK**.  
   
-## See Also  
+## See also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)

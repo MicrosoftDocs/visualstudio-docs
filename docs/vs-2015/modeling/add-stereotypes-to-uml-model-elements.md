@@ -75,7 +75,7 @@ You can add a stereotype to a UML model element to annotate it and provide it wi
   
          You can do this only with some types of diagram.  
   
-## See Also  
+## See also  
  [Define a profile to extend UML](../modeling/define-a-profile-to-extend-uml.md)   
  [Customize your model with profiles and stereotypes](../modeling/customize-your-model-with-profiles-and-stereotypes.md)   
  [Define packages and namespaces](../modeling/define-packages-and-namespaces.md)   

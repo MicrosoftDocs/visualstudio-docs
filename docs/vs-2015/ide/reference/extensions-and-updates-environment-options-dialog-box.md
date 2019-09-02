@@ -29,5 +29,5 @@ Use this page to set options for how Visual Studio performs updates and how exte
 ### Additional Extension Galleries  
  An Enterprise feature that enables support for galleries of proprietary extensions. For more information, see [Private Galleries](../../extensibility/private-galleries.md).  
   
-## See Also  
+## See also  
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

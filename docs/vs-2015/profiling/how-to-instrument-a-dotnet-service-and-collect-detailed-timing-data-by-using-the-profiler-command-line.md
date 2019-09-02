@@ -106,6 +106,6 @@ This topic describes how to use [!INCLUDE[vsPreShort](../includes/vspreshort-md.
 
 5. Restart the computer.  
 
-## See Also  
+## See also  
  [Profiling Services](../profiling/command-line-profiling-of-services.md)   
  [Instrumentation Method Data Views](../profiling/instrumentation-method-data-views.md)

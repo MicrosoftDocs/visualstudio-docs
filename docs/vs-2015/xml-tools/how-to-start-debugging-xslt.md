@@ -81,6 +81,6 @@ namespace ConsoleApplication
 }  
 ```  
   
-## See Also  
+## See also  
  [Walkthrough: Debug an XSLT Style Sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md)   
  [Code Stepping Overview](https://msdn.microsoft.com/8791dac9-64d1-4bb9-b59e-8d59af1833f9)

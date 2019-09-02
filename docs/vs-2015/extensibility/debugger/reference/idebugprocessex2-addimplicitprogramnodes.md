@@ -52,6 +52,6 @@ int AddImplicitProgramNodes(
 ## Remarks  
  [Program Nodes](../../../extensibility/debugger/program-nodes.md) will be added for each DE listed in `rgguidSpecificEngines`—excluding the launching engine (as given in `guidLaunchingEngine`), which is assumed to add its own program node when it launches a program.  
   
-## See Also  
+## See also  
  [IDebugProgramEx2](../../../extensibility/debugger/reference/idebugprogramex2.md)   
  [Program Nodes](../../../extensibility/debugger/program-nodes.md)

@@ -74,5 +74,5 @@ HRESULT CDebugSymbolProvider::LoadSymbolsFromStream(
 }  
 ```  
   
-## See Also  
+## See also  
  [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

@@ -50,7 +50,7 @@ The <xref:System.Activities.Statements.PickBranch> provides an event-based path 
 |<xref:System.Activities.Statements.PickBranch.Trigger%2A>|True|Each <xref:System.Activities.Statements.PickBranch> contains a <xref:System.Activities.Statements.PickBranch.Trigger%2A> action that can invoke the <xref:System.Activities.Statements.PickBranch.Action%2A>.|  
 |<xref:System.Activities.Statements.PickBranch.Action%2A>|False|Each <xref:System.Activities.Statements.PickBranch> contains an <xref:System.Activities.Statements.PickBranch.Action%2A> that is executed if triggered.|  
   
-## See Also  
+## See also  
  [Control Flow](../workflow-designer/control-flow-activity-designers.md)   
  [Pick Activity](https://msdn.microsoft.com/library/b3e49b7f-0285-4720-8c09-11ae18f0d53e)   
  [Using the Pick Activity](https://msdn.microsoft.com/library/b89be812-a247-4025-b0e3-ffb20db027a6)

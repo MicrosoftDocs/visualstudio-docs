@@ -72,5 +72,5 @@ internal class NativeMethods{
 }
 ```
 
-## See Also
+## See also
  [Portability Warnings](../code-quality/portability-warnings.md)

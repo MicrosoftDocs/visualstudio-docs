@@ -80,7 +80,7 @@ if (FAILED(hr))
 }  
 ```  
   
-## See Also  
+## See also  
  [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)   
  [IDiaLoadCallback](../../debugger/debug-interface-access/idialoadcallback.md)   
  [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)   

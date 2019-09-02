@@ -44,5 +44,5 @@ A language service defines the elements and features for a specific language, an
 |Text manager|Managed by the <xref:Microsoft.VisualStudio.TextManager.Interop.SVsTextManager> service, from which you obtain an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager> pointer|A component that maintains common information shared by all the components described previously.|  
 |Language service|Implementation dependent; implements <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo>|An object that provides the editor with language-specific information such as syntax highlighting, statement completion, and brace matching.|  
   
-## See Also  
+## See also  
  [Document Data and Document View in Custom Editors](../../extensibility/document-data-and-document-view-in-custom-editors.md)

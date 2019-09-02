@@ -44,7 +44,7 @@ When publishing a ClickOnce application to the Web, a Web page is automatically 
   
 4. Optional. To prevent Visual Studio from overwriting your customized publish Web page, uncheck **Automatically generate deployment web page after every publish** in the Publish Options dialog box.  
   
-## See Also  
+## See also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [How to: Install Prerequisites with a ClickOnce Application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)   

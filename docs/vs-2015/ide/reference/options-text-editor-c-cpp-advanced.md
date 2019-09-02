@@ -150,5 +150,5 @@ By changing these options, you can change the behavior related to IntelliSense a
   
  **Disable Reference Highlighting**  
   
-## See Also  
+## See also  
  [Setting Language-Specific Editor Options](../../ide/reference/setting-language-specific-editor-options.md)

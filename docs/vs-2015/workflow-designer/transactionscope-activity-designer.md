@@ -34,7 +34,7 @@ The **TransactionScope** activity designer is used to create and configure a <xr
 |<xref:System.Activities.Statements.TransactionScope.Timeout%2A>|False|Specifies the interval of time (formatted as 00:00:00, which indicates hours:minutes:seconds) that the transaction has to complete. The default value is 1 minute (00:01:00).|  
 |<xref:System.Activities.Statements.TransactionScope.AbortInstanceOnTransactionFailure?qualifyHint=False&autoUpgrade=True>|True|Specifies the value that indicates whether the workflow should be aborted if the transaction aborts.|  
   
-## See Also  
+## See also  
  [Transaction](../workflow-designer/transaction-activity-designers.md)   
  [TerminateWorkflow](../workflow-designer/terminateworkflow-activity-designer.md)   
  [CompensableActivity](../workflow-designer/compensableactivity-activity-designer.md)   

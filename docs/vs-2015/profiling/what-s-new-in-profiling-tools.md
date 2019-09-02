@@ -37,5 +37,5 @@ For information about everything that’s new in Visual Studio 2015 Update 1 deb
   
  Windows Phone Application Analysis Tools are available from the **Debug / Profiler / Windows Phone Application Analysis Tools** (or **ALT+F1**).  
   
-## See Also  
+## See also  
  [Profiling Tools](../profiling/profiling-tools.md)

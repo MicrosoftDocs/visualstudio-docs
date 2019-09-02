@@ -57,5 +57,5 @@ HRESULT CProgram::GetHostPid(DWORD* pdwHostPid) {
 }    
 ```  
   
-## See Also  
+## See also  
  [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

@@ -38,5 +38,5 @@ When you debug a multithreaded application, you can use any one of several metho
   
 2. In the list, click the thread to which you want to switch.  
   
-## See Also  
+## See also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)

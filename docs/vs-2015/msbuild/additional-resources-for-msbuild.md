@@ -34,7 +34,7 @@ The following Web sites and forums can help you find answers to common questions
  [Visual Studio MSBuild Forum](http://go.microsoft.com/fwlink/?LinkId=48931)  
  A community forum dedicated to [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)].  
   
-## See Also  
+## See also  
  [MSBuild](msbuild.md)   
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)

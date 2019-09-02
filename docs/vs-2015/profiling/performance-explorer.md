@@ -42,5 +42,5 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools let developers 
 |**Control profiling programatically:** Learn how to use the managed and native Profiling Tools APIs to control data collection directly from source code.|[Profiling Tools APIs](../profiling/profiling-tools-apis.md)|  
 |**Troubleshoot profiling issues**|[Troubleshooting Performance Tools Issues](../profiling/troubleshooting-performance-tools-issues.md)|  
   
-## See Also  
+## See also  
  [Profiling Tools](../profiling/profiling-tools.md)

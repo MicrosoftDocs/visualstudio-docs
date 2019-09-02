@@ -92,6 +92,6 @@ Reference: 4.0
   
  If all output items are up-to-date, MSBuild skips the target, which significantly improves the build speed. This is called an incremental build of the target. If only some files are up-to-date, MSBuild executes the target without the up-to-date items. This is called a partial incremental build of the target. For more information, see [Incremental Builds](../msbuild/incremental-builds.md).  
   
-## See Also  
+## See also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [How to: Use the Same Target in Multiple Project Files](../msbuild/how-to-use-the-same-target-in-multiple-project-files.md)

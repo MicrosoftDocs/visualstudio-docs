@@ -57,5 +57,5 @@ int EnableAutoAttach(
 ## Remarks  
  When a program associated with the specified URL is started, the specified debug engines are automatically started and attached.  
   
-## See Also  
+## See also  
  [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)

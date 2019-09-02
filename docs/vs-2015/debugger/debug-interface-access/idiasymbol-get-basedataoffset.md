@@ -31,5 +31,5 @@ HRESULT get_baseDataOffset(
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.  
   
-## See Also  
+## See also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

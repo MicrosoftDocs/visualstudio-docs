@@ -37,5 +37,5 @@ HRESULT get_informational(
 ## Remarks  
  Typically the .directive section contains information.  
   
-## See Also  
+## See also  
  [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)

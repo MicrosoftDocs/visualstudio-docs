@@ -43,5 +43,5 @@ Devenv /edit [file1[ file2]]
 devenv /edit MyFile.cs  
 ```  
   
-## See Also  
+## See also  
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)

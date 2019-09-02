@@ -216,5 +216,5 @@ public sealed class TestAsyncPackage : AsyncPackage
 
 8. Build the solution and start debugging. When the experimental instance of Visual Studio appears, go to the **Tools** menu and look for the **Invoke TestAsyncCommand** menu item. When you click it, the TextWriterService writes to the file you specified. (You don’t need to open a solution, because invoking the command also causes the package to load.)
 
-## See Also
+## See also
  [Using and Providing Services](../extensibility/using-and-providing-services.md)

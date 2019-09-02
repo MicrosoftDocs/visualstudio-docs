@@ -132,7 +132,7 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
   
    ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-## See Also  
+## See also  
  [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studio.md)   
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
  [IntelliTrace](../debugger/intellitrace.md)

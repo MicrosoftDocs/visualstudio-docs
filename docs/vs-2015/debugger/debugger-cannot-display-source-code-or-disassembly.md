@@ -32,7 +32,7 @@ This error reads:
   
 - Security considerations may have prevented the debugger from reading stack, thread, register, and other context information from the program you are debugging. This is most likely to happen if you are debugging a Web application and don't have the right permission to access the virtual directory. Set security for the virtual directory to Anonymous and try again.  
   
-## See Also  
+## See also  
  [Debugger Basics](../debugger/debugger-basics.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)

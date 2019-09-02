@@ -67,5 +67,5 @@ Wraps the Microsoft Manifest Tool, mt.exe. For more information, see "Mt.exe" on
   
 ## Remarks  
   
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)

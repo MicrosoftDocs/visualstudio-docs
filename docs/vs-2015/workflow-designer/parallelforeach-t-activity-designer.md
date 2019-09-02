@@ -42,7 +42,7 @@ The <xref:System.Activities.Statements.ParallelForEach%601> activity enumerates 
   
  By default, the loop iterator is named item. You can change the name of the iterator variable in the **ForEach** box in **ParallelForEach\<T>** activity designer. The loop iterator can be used in expressions in the children of the <xref:System.Activities.Statements.ParallelForEach%601> activity.  
   
-## See Also  
+## See also  
  [Sequence](../workflow-designer/sequence-activity-designer.md)   
  [Parallel](../workflow-designer/parallel-activity-designer.md)   
  [Control Flow](../workflow-designer/control-flow-activity-designers.md)

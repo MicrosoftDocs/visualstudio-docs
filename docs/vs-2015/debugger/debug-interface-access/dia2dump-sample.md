@@ -44,6 +44,6 @@ The Dia2dump sample is installed with Visual Studio and contains the Dia2dump.cp
     dia2dump filename  
     ```  
   
-## See Also  
+## See also  
  [Dia2dump.cpp Source File](../../debugger/debug-interface-access/dia2dump-cpp-source-file.md)   
  [How to: Troubleshoot Unsuccessful Visual Studio Project Upgrades](../../porting/how-to-troubleshoot-unsuccessful-visual-studio-project-upgrades.md)

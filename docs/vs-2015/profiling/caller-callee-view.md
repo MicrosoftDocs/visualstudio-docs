@@ -34,7 +34,7 @@ The Caller/Callee view displays profiling information for a selected function an
   
  You can sort the data by clicking column names. Additional columns can be added to the Caller/Callee view. For more information, see [How to: Customize Report View Columns](../profiling/how-to-customize-report-view-columns.md).  
   
-## See Also  
+## See also  
  [Caller / Callee View - Sampling Data](../profiling/caller-callee-view-sampling-data.md)   
  [Caller/Callee View - Instrumentation Data](../profiling/caller-callee-view-instrumentation-data.md)   
  [Caller/Callee View - NET Memory Instrumentation Data](../profiling/caller-callee-view-net-memory-instrumentation-data.md)   

@@ -77,7 +77,7 @@ N1
   
      The object manager calls this method to obtain the list of nodes contained in the presentation path of the symbol.  
   
-## See Also  
+## See also  
  [Supporting Symbol-Browsing Tools](../../extensibility/internals/supporting-symbol-browsing-tools.md)   
  [How to: Register a Library with the Object Manager](../../extensibility/internals/how-to-register-a-library-with-the-object-manager.md)   
  [How to: Expose Lists of Symbols Provided by the Library to the Object Manager](../../extensibility/internals/how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager.md)

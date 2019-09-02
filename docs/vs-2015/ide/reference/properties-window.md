@@ -78,6 +78,6 @@ Use this window to view and change the design-time properties and events of sele
  Search  
  Provides a Search function for properties and events when editing XAML files in the designer. The search box responds to partial word searches and updates search results as you type.  
   
-## See Also  
+## See also  
  [Project Properties Reference](../../ide/reference/project-properties-reference.md)   
  [Customizing window layouts](../../ide/customizing-window-layouts-in-visual-studio.md)

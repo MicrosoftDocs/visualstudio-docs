@@ -45,6 +45,6 @@ This section describes how to create workflow projects using the legacy [!INCLUD
   
  [How to: Add a New Item to a Workflow Project (Legacy)](../workflow-designer/how-to-add-a-new-item-to-a-workflow-project-legacy.md)  
   
-## See Also  
+## See also  
  [Sequential Workflow Views (Legacy)](../workflow-designer/sequential-workflow-views-legacy.md)   
  [Visual Studio Workflow Windows (Legacy)](../workflow-designer/visual-studio-workflow-windows-legacy.md)

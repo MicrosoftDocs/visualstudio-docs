@@ -245,6 +245,6 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
 - If the `GUID` and command ID match the GUID:ID pair that is used by the command in the .vsct file, execute the code that is associated with the command and return <xref:Microsoft.VisualStudio.VSConstants.S_OK>.  
   
-## See Also  
+## See also  
  [VSCT XML Schema Reference](../extensibility/vsct-xml-schema-reference.md)   
  [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)

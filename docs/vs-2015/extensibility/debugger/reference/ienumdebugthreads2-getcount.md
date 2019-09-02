@@ -42,5 +42,5 @@ int GetCount(
 ## Remarks  
  This method is not part of the customary COM enumeration interface which specifies that only the `Next`, `Clone`, `Skip`, and `Reset` methods need to be implemented.  
   
-## See Also  
+## See also  
  [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md)

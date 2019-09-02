@@ -144,7 +144,7 @@ protected override void ProcessOnMenuDeleteCommand()
   
   For more information about how to navigate from element to element and about how to create objects and links, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).  
   
-## See Also  
+## See also  
  <xref:System.ComponentModel.Design.MenuCommand>   
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)   
  [How to: Add a Command to the Shortcut Menu](../modeling/how-to-add-a-command-to-the-shortcut-menu.md)   

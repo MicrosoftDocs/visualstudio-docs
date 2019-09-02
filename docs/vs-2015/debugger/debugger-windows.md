@@ -43,5 +43,5 @@ You can open most debugger windows while you are debugging your program. To see 
 |Disassembly|CTRL+ALT+D|[How to: Use the Disassembly Window](../debugger/how-to-use-the-disassembly-window.md)|  
 |Registers|CTRL+ALT+G|[How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)|  
   
-## See Also  
+## See also  
  [Debugger Basics](../debugger/debugger-basics.md)

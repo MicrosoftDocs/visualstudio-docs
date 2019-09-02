@@ -28,7 +28,7 @@ The following table lists shortcuts that you can use to modify the shape of an e
 |Take a segment and bend it into a curve to pass through the pointer position|Hover over a segment in a path, hold down ALT, and then drag the segment|![](../designers/media/975a855a-8536-441f-97ed-2f1496e416bf.png "975a855a-8536-441f-97ed-2f1496e416bf")<br /><br /> Convert segment pointer|  
 |Adjust one end of a tangent independently of the other side|Direct-select a point or a segment, hold down ALT, and then drag a tangent end point|![](../designers/media/923951da-4081-4f8b-bebc-0f1f64d87504.png "923951da-4081-4f8b-bebc-0f1f64d87504")<br /><br /> Convert tangent pointer|  
   
-## See Also  
+## See also  
  [Keyboard shortcuts and modifier keys](../designers/keyboard-shortcuts-and-modifier-keys-in-blend.md)   
  [Artboard modifier keys](../designers/artboard-modifier-keys-in-blend.md)   
  [Pen tool modifier keys](../designers/pen-tool-modifier-keys-in-blend.md)   

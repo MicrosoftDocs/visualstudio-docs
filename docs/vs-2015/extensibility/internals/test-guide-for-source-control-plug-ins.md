@@ -101,5 +101,5 @@ This section provides guidance for testing your source control plug-in with [!IN
 
   - Case 8b: Solution-based Change  
 
-## See Also  
+## See also  
  [Source Control Plug-ins](../../extensibility/source-control-plug-ins.md)

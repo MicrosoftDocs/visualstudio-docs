@@ -40,5 +40,5 @@ Each type of event has a specific purpose.
 |Thread name change events|Sent when the user changes the name of a thread.|  
 |Program name change events|Sent when the user changes the name of a program.|  
   
-## See Also  
+## See also  
  [Sending Events](../../extensibility/debugger/sending-events.md)

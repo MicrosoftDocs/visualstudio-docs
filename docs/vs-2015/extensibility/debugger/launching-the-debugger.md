@@ -47,6 +47,6 @@ Launching the debugger requires sending the correct sequence of methods and even
   
 8. The DE sends an [IDebugEntryPointEvent2](../../extensibility/debugger/reference/idebugentrypointevent2.md) to the SDM with an `EVENT_SYNC` attribute.  
   
-## See Also  
+## See also  
  [Calling Debugger Events](../../extensibility/debugger/calling-debugger-events.md)   
  [Launching a Program](../../extensibility/debugger/launching-a-program.md)

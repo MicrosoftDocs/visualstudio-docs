@@ -281,6 +281,6 @@ P: ABCDEvwxyz
   
  Statement completion provides pop-up lists of potential completions for method names, XML elements, and other coding or markup elements. In general, a user gesture invokes a completion session. The session displays the list of potential completions, and the user can select one or dismiss the list. The <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionBroker> is responsible for creating and triggering the <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSession>. The <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSource> computes the <xref:Microsoft.VisualStudio.Language.Intellisense.CompletionSet> of completion items for the session.  
   
-## See Also  
+## See also  
  [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md)   
  [Editor Imports](../extensibility/editor-imports.md)

@@ -41,7 +41,7 @@ HRESULT findFileById ( 
 ## Remarks  
  The source file identifier is a unique value used internally to the DIA SDK to make all source files unique. This method is typically used internally to the DIA SDK.  
   
-## See Also  
+## See also  
  [IDiaSession](../../debugger/debug-interface-access/idiasession.md)   
  [IDiaSession::findFile](../../debugger/debug-interface-access/idiasession-findfile.md)   
  [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)

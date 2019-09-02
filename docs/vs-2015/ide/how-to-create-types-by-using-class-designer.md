@@ -89,7 +89,7 @@ To design new types for Visual C# .NET and Visual Basic .NET projects, create th
   
      When you're done, the custom attributes are applied to the type.  
   
-## See Also  
+## See also  
  [How to: Create Inheritance Between Types (Class Designer)](../ide/how-to-create-inheritance-between-types-class-designer.md)   
  [How to: Create Associations Between Types (Class Designer)](../ide/how-to-create-associations-between-types-class-designer.md)   
  [Creating and Configuring Type Members (Class Designer)](../ide/creating-and-configuring-type-members-class-designer.md)   

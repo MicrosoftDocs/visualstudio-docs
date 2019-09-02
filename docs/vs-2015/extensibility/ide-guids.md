@@ -120,7 +120,7 @@ The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some part
 |<xref:Microsoft.VisualStudio.VSConstants.VsPackageGuid.VsDocOutlinePackage_guid>|21af45b0-ffa5-11d0-b63f-00a0c922e851|  
 |Microsoft.VisualStudio.VSConstants.SID_SVsToolboxActiveXDataProvider|35222106-bb44-11d0-8c46-00c04fc2aae2|  
   
-## See Also  
+## See also  
  [COM Constants in Managed Code](../extensibility/com-constants-in-managed-code.md)   
  [IDE Constants](../extensibility/ide-constants.md)   
  [IDE-Defined Commands for Extending Project Systems](../extensibility/internals/ide-defined-commands-for-extending-project-systems.md)

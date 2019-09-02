@@ -44,7 +44,7 @@ Building applications in Visual Studio for User Account Control (UAC) on Windows
   
   For information about configuring Visual Basic projects for manifest generation, see [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md).  
   
-## See Also  
+## See also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [User Permissions and Visual Studio](https://msdn.microsoft.com/d5c55084-1e7b-4b61-b478-137db01c0fc0)   
  [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)   

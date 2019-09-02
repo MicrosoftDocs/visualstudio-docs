@@ -108,6 +108,6 @@ The Graphics Log document is the record of graphics events that occurred while y
 |**Session Start Time**|The date and time that the capture session began.|  
 |**Size**|The size of the graphics log document.|  
   
-## See Also  
+## See also  
  [Walkthrough: Missing Objects Due to Vertex Shading](../debugger/walkthrough-missing-objects-due-to-vertex-shading.md)   
  [Walkthrough: Debugging Rendering Errors Due to Shading](../debugger/walkthrough-debugging-rendering-errors-due-to-shading.md)

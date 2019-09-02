@@ -105,5 +105,5 @@ VSPerfCmd /Attach:MyService.exe
   
  If the correct environment was not set during profiling, a warning is reported during analysis and the managed function names will not be properly resolved.  
   
-## See Also  
+## See also  
  [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)

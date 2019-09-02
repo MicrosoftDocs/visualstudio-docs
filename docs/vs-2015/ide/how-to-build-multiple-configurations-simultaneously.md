@@ -32,7 +32,7 @@ You can build most types of projects with multiple, or even all, of their build 
   
 3. Choose the **Build** or **Rebuild** buttons to build the project with the configurations that you specified.  
   
-## See Also  
+## See also  
  [How to: Create and Edit Configurations](../ide/how-to-create-and-edit-configurations.md)   
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
  [Building Multiple Projects in Parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)

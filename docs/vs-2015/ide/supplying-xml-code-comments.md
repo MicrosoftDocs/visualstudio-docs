@@ -27,5 +27,5 @@ You can make the comments in source code files available as IntelliSense. When y
   
  For more information about documenting code in C++, see [Comments](https://msdn.microsoft.com/library/6fcb906c-c264-4083-84bc-373800b2e514) and [XML Documentation](https://msdn.microsoft.com/library/a1aec1c5-b2d1-4c74-83ae-1dbbbb76b506).  
   
-## See Also  
+## See also  
  [Using IntelliSense](../ide/using-intellisense.md)

@@ -26,6 +26,6 @@ You can write program code to read and modify the models that you create with Vi
 |Microsoft.VisualStudio.Uml.Interfaces.dll|-   Read and change model elements such as IUseCase, IAssociation, and so on.<br />-   Navigate relationships between elements.<br /><br /> The namespaces and types correspond to those that are defined in the UML Specification.|  
 |Microsoft.VisualStudio.ArchitectureTools.Extensibility.dll|-   Create new instances of model elements<br />-   Access and modify shapes and diagrams.|  
   
-## See Also  
+## See also  
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   
  [API Reference for Modeling SDK for Visual Studio](../modeling/api-reference-for-modeling-sdk-for-visual-studio.md)

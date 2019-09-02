@@ -70,7 +70,7 @@ The `PackageFiles` element contains `PackageFile` elements, which define the ins
 </PackageFiles>  
 ```  
   
-## See Also  
+## See also  
  [\<Product> Element](../deployment/product-element-bootstrapper.md)   
  [\<Package> Element](../deployment/package-element-bootstrapper.md)   
  [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)

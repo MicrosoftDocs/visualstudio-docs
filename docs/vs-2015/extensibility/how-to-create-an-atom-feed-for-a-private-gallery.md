@@ -69,5 +69,5 @@ You can create an Atom (RSS) feed to an intranet location that contains extensio
   
  Notice that the two link tags refer to screen shots in the generated folder of images.  
   
-## See Also  
+## See also  
  [Private Galleries](../extensibility/private-galleries.md)

@@ -84,5 +84,5 @@ This document demonstrates how to use the Image Editor to create a basic texture
   
     As a next step, you can generate MIP levels for this texture. For information, see [How to: Create and Modify MIP Levels](../designers/how-to-create-and-modify-mip-levels.md).  
   
-## See Also  
+## See also  
  [Image Editor](../designers/image-editor.md)

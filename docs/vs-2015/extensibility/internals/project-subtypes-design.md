@@ -83,6 +83,6 @@ Project Subtype Automation Extender.
 |<xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment>|Allows the project subtype to persist arbitrary XML structured data to the project file (.vbproj or .csproj). This data is not visible to MSBuild.|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage>|Allows the project subtype to:<br /><br /> -   Add new MSBuild properties to be persisted.<br />-   Remove unnecessary properties from MSBuild.<br />-   Query for a current value of an MSBuild property.<br />-   Change the current value of an MSBuild property.|  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.__VSPROPID>   
  <xref:Microsoft.VisualStudio.Shell.Interop.__VSPROPID2>

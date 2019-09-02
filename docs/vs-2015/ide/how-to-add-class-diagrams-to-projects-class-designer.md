@@ -44,7 +44,7 @@ To design, edit, and refactor classes and other types, add a class diagram to yo
   
      An auto-populated Class Diagram is created.  
   
-## See Also  
+## See also  
  [How to: Create Types by using Class Designer](../ide/how-to-create-types-by-using-class-designer.md)   
  [How to: View Existing Types (Class Designer)](../ide/how-to-view-existing-types-class-designer.md)   
  [Designing Classes and Types (Class Designer)](../ide/designing-classes-and-types-class-designer.md)   

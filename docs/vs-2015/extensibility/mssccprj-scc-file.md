@@ -68,6 +68,6 @@ When a Visual Studio solution or project is placed under source control using th
   
  There is no end delimiter to this section. The name of the file, as well as all literals that appear in the file, are defined in the scc.h header file. For more information, see [Strings Used as Keys for Finding a Source Control Plug-in](../extensibility/strings-used-as-keys-for-finding-a-source-control-plug-in.md).  
   
-## See Also  
+## See also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
  [Strings Used as Keys for Finding a Source Control Plug-in](../extensibility/strings-used-as-keys-for-finding-a-source-control-plug-in.md)

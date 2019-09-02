@@ -148,5 +148,5 @@ The steps in this walkthrough demonstrate how to use the XSLT debugger. Steps in
 </bookstore>  
 ```  
   
-## See Also  
+## See also  
  [Debugging XSLT](../xml-tools/debugging-xslt.md)

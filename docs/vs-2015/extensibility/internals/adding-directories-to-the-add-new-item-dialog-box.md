@@ -50,7 +50,7 @@ NoRemove Projects
   
  You can also extend an existing project by programming a project subtype. With a project subtype, you can extend a project without writing a new project type. For more information about project subtypes, see [Project Subtypes](../../extensibility/internals/project-subtypes.md).  
   
-## See Also  
+## See also  
  [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md)   
  [Adding Items to the Add New Item Dialog Boxes](../../extensibility/internals/adding-items-to-the-add-new-item-dialog-boxes.md)   
  [Adding Directories to the New Project Dialog Box](../../extensibility/internals/adding-directories-to-the-new-project-dialog-box.md)

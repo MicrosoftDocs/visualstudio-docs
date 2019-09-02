@@ -50,5 +50,5 @@ Versions of the Microsoft .NET Framework earlier than 2.0 do not provide support
   
 - See [Setting Up SQL Debugging](https://msdn.microsoft.com/3db09e68-edcc-42de-9c22-4e97cfd55ab3).  
   
-## See Also  
+## See also  
  [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)

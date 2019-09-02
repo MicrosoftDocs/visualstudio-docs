@@ -37,7 +37,7 @@ The process that renders or displays colorized text in user interface (UI) eleme
   
   After you have obtained font and color information, parse the text to be displayed to identify elements requiring colorization and then display the text in the window using the appropriate fonts and colors.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaultsProvider>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults>   
  [Using Fonts and Text](https://msdn.microsoft.com/library/d43640f3-da94-4df2-a29d-a9d021a1c069)   

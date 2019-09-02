@@ -51,5 +51,5 @@ You can create your own Visual Studio-based application in either integrated or 
 ## Additional Resources  
  For more information about redistributable packages, see the [Visual Studio Extensibility Downloads](http://go.microsoft.com/fwlink/?LinkID=119298) Web site.  
   
-## See Also  
+## See also  
  [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)

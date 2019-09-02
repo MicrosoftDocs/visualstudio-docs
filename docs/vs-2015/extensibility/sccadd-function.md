@@ -89,5 +89,5 @@ SCCRTN SccAdd(
 |SCC_FILETYPE_UTF16LE|0x20|Treats the file as Unicode text in UTF16 Little Endian format.|  
 |SCC_FILETYPE_UTF16BE|0x40|Treats the file as Unicode text in UTF16 Big Endian format.|  
   
-## See Also  
+## See also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

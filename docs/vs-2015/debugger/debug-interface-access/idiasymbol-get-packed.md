@@ -40,5 +40,5 @@ HRESULT get_packed ( 
 ## Remarks  
  Packed means all the members of the UDT are positioned as close together as possible, with no intervening padding to align to memory boundaries.  
   
-## See Also  
+## See also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

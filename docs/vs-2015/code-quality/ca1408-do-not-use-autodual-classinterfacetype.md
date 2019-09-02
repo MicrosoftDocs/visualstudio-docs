@@ -51,7 +51,7 @@ manager: "wpickett"
 
  [CA1412: Mark ComSource Interfaces as IDispatch](../code-quality/ca1412-mark-comsource-interfaces-as-idispatch.md)
 
-## See Also
+## See also
  [Introducing the Class Interface](https://msdn.microsoft.com/733c0dd2-12e5-46e6-8de1-39d5b25df024)
  [Qualifying .NET Types for Interoperation](https://msdn.microsoft.com/library/4b8afb52-fb8d-4e65-b47c-fd82956a3cdd)
  [Interoperating with Unmanaged Code](https://msdn.microsoft.com/library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)

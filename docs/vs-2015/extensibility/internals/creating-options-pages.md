@@ -78,6 +78,6 @@ In the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] managed package framework
  [!code-csharp[UI_UserSettings_ToolsOptionPages#08](../../snippets/csharp/VS_Snippets_VSSDK/ui_usersettings_toolsoptionpages/cs/uiusersettingstoolsoptionspagespackage.cs#08)]
  [!code-vb[UI_UserSettings_ToolsOptionPages#08](../../snippets/visualbasic/VS_Snippets_VSSDK/ui_usersettings_toolsoptionpages/vb/uiusersettingstoolsoptionspagespackage.vb#08)]  
   
-## See Also  
+## See also  
  [Extending User Settings and Options](../../extensibility/extending-user-settings-and-options.md)   
  [Automation Support for Options Pages](../../extensibility/internals/automation-support-for-options-pages.md)

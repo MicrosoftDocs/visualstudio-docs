@@ -39,5 +39,5 @@ int GetPortName( 
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)

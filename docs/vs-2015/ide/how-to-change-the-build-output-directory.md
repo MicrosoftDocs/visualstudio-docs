@@ -35,7 +35,7 @@ You can specify the location of output on a per-configuration basis (for debug, 
 > [!NOTE]
 > In a Setup Project, the **Output file name** box changes only the location of the Setup.exe file, not the location of the project files. For more information, see **Build, Configuration Properties, Deployment Project Properties Dialog Box**.  
   
-## See Also  
+## See also  
  [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md)   
  [General Property Page (Project)](https://msdn.microsoft.com/library/593b383c-cd0f-4dcd-ad65-9ec9b4b19c45)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)

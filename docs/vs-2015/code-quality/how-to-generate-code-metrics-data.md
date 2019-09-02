@@ -53,5 +53,5 @@ You can decide to generate code metrics results for either an entire solution or
   
 - Expand the tree in the **Hierarchy** column.  
   
-## See Also  
+## See also  
  [Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)

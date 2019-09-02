@@ -45,7 +45,7 @@ The Call Tree view displays the function execution paths that were traversed in 
   
  [Call Tree View](../profiling/call-tree-view-contention-data.md)  
   
-## See Also  
+## See also  
  [Performance Report Views](../profiling/performance-report-views.md)   
  [Understanding Instrumentation Data Values](../profiling/understanding-instrumentation-data-values.md)   
  [Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)

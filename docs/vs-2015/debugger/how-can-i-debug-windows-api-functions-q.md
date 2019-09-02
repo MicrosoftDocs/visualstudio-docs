@@ -39,6 +39,6 @@ If you want to debug a Windows API function that has NT symbols loaded, you must
   
      To obtain the decorated name, see [Viewing Decorated Names](https://msdn.microsoft.com/f79e2717-a4db-4d12-a689-69830cce2be0).  
   
-## See Also  
+## See also  
  [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)   
  [Debugging Native Code](../debugger/debugging-native-code.md)

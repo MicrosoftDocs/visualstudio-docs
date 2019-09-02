@@ -75,6 +75,6 @@ This section contains information about XML elements in .vstemplate files, which
 |[WizardData](../extensibility/wizarddata-element-visual-studio-templates.md)|--|Name|  
 |[WizardExtension](../extensibility/wizardextension-element-visual-studio-templates.md)|Assembly<br /><br /> FullClassName|--|  
   
-## See Also  
+## See also  
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [How to: Create Starter Kits](../ide/how-to-create-starter-kits.md)

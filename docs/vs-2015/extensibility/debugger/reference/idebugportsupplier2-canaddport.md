@@ -36,6 +36,6 @@ int CanAddPort();
 ## Remarks  
  Call this method before calling the [AddPort](../../../extensibility/debugger/reference/idebugportsupplier2-addport.md) method since the latter method creates the port as well as adding it, which could be a time-consuming operation.  
   
-## See Also  
+## See also  
  [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)   
  [AddPort](../../../extensibility/debugger/reference/idebugportsupplier2-addport.md)

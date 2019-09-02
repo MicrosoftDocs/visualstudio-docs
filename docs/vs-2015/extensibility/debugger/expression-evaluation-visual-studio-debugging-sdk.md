@@ -34,5 +34,5 @@ During break mode, the IDE must be able to evaluate simple expressions involving
   
  Synchronous and asynchronous evaluation require the implementation of the [IDebugProperty2::GetPropertyInfo](../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) method. Asynchronous expression evaluation requires the implementation of [IDebugExpressionEvaluationCompleteEvent2](../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md).  
   
-## See Also  
+## See also  
  [Execution Control and State Evaluation](../../extensibility/debugger/execution-control-and-state-evaluation.md)

@@ -37,5 +37,5 @@ HRESULT get_imageBase ( 
 ## Remarks  
  Due to image base conflicts, an image may be rebased automatically to an unused memory location when it is loaded. This method returns the base hint (suggested memory location) that was stored in the module at compile time.  
   
-## See Also  
+## See also  
  [IDiaImageData](../../debugger/debug-interface-access/idiaimagedata.md)

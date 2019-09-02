@@ -31,7 +31,7 @@ When you debug a managed application, [!INCLUDE[vsprvs](../includes/vsprvs-md.md
   
  Remember that the **Suppress JIT optimization on module load** option suppresses optimization of code when modules are loaded. If you attach to a process that is already running, it may contain code that is already loaded, JIT-compiled, and optimized. The **Suppress JIT optimization on module load** option has no effect on such code, although it will affect modules that are loaded after you attach. In addition, the **Suppress JIT optimization on module load** option does not affect modules, such as WinForms.dll, that are created with NGEN.  
   
-## See Also  
+## See also  
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
  [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)   
  [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   

@@ -56,5 +56,5 @@ You can bind data sources to controls by dragging objects from the **Data Source
   
  Note also that each control has a smart tag. This tag enables customizations that apply to that control only.  
   
-## See Also  
+## See also  
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

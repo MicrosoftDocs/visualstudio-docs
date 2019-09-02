@@ -32,5 +32,5 @@ Depending on the development language and the product type, certain buttons are 
 > [!NOTE]
 > You cannot add toolbar buttons to the **Properties** window by using unmanaged code. To add a toolbar button, you must create a managed object that derives from <xref:System.Windows.Forms.Design.PropertyTab>.  
   
-## See Also  
+## See also  
  [Extending Properties](../../extensibility/internals/extending-properties.md)

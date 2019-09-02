@@ -33,5 +33,5 @@ Debug information about a compiled program is stored in the program database (.p
  [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)  
  Describes the symbol types that correspond to different language elements such as classes, arrays, and function return types.  
   
-## See Also  
+## See also  
  [Debug Interface Access SDK](../../debugger/debug-interface-access/debug-interface-access-sdk.md)

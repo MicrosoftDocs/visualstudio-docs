@@ -17,5 +17,5 @@ manager: jillfra
 
 Use this page to specify whether to synchronize (roam) your settings across multiple machines. For more information, see [Synchronized Settings](../../ide/synchronized-settings-in-visual-studio.md).  
   
-## See Also  
+## See also  
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

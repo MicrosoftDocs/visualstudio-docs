@@ -125,7 +125,7 @@ namespace BankAccountNS
 ## Working with the Code  
  To work with this code, you first have to create a project for it in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Follow the steps in the "Prepare the Walkthrough" section in [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md).  
   
-## See Also  
+## See also  
  [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)   
  [Walkthrough: Run tests and view code coverage](https://msdn.microsoft.com/d4aab8e2-2140-4975-b4e3-41ef3fa944c8)   
  [Walkthrough: using the command-line test utility](https://msdn.microsoft.com/library/52c11992-9e94-4067-a4b7-59f19d69d867)

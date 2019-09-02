@@ -83,7 +83,7 @@ In addition to all the Python data-scientist libraries, the Python Tools for Vis
 
 We recommend obtaining IPython and scientific computing libraries (matplotlib, scipy, numpy, etc.) from [University of California, Irvine](http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy-stack).  
   
-## See Also  
+## See also  
 
 [Getting Started with PTVS: Setting up Visual Studio](../python/getting-started-with-ptvs-setting-up-visual-studio.md)
 [Getting Started with PTVS: Start Coding (Projects)](../python/getting-started-with-ptvs-start-coding-projects.md)

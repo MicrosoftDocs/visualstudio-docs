@@ -27,6 +27,6 @@ In the Concurrency Visualizer, the reason that a section of the timeline is empt
   
 - For a marker channel, it means that no markers were generated.  
   
-## See Also  
+## See also  
  [Threads View](../profiling/threads-view-parallel-performance.md)   
  [Zoom Control (Threads View)](../profiling/zoom-control-threads-view.md)

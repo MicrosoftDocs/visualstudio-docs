@@ -95,7 +95,7 @@ When you clean a build, all intermediate and output files are deleted, leaving o
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Exec Task](../msbuild/exec-task.md)   
  [MakeDir Task](../msbuild/makedir-task.md)   
  [RemoveDir Task](../msbuild/removedir-task.md)   

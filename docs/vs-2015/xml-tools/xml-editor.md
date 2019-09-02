@@ -74,5 +74,5 @@ The XML Editor is based on the [!INCLUDE[msCoName](../includes/msconame-md.md)] 
  [XML Standards Reference](https://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)  
  Provides information about XML technologies, including XML, Document Type Definition (DTD), XML Schema definition language (XSD), and XSLT.  
   
-## See Also  
+## See also  
  [XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)

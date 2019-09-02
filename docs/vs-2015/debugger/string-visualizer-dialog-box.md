@@ -30,6 +30,6 @@ manager: jillfra
 
 This dialog box is one of the standard visualizers included with the Visual Studio debugger. In addition to normal text, the String Visualizer can evaluate HTML and XML strings, allowing you to view the results in a meaningful format.  
   
-## See Also  
+## See also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)

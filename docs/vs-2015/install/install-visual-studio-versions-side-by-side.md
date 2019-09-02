@@ -48,7 +48,7 @@ You can install this version of Visual Studio on a computer that already has an 
     |C++|[How to: Modify the Target Framework and Platform Toolset](https://msdn.microsoft.com/library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)|
     |[!INCLUDE[jsprjscript](../includes/jsprjscript-md.md)]|[Running a JScript Application on a Previous Version of the Common Language Runtime](https://msdn.microsoft.com/bbea51b5-ac03-4e6c-b9a6-f487ef63eda5)|
 
-## See Also
+## See also
 
 - [Install Visual Studio](../install/install-visual-studio-2015.md)
 - [Port, Migrate, and Upgrade Visual Studio Projects](/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects?view=vs-2015)

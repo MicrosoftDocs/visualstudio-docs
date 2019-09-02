@@ -62,6 +62,6 @@ Writes the paths of the specified items to the specified text file.
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)

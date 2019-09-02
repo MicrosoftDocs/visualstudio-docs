@@ -43,6 +43,6 @@ This section provides conceptual and terminology overviews for [!INCLUDE[vsprvs]
  [Profiling and Windows Vista Security](../profiling/profiling-and-windows-vista-security.md)  
  Learn the issues and steps that are required to collect sampling data and to profile cross-session applications on [!INCLUDE[wiprlhext](../includes/wiprlhext-md.md)].  
   
-## See Also  
+## See also  
  [Getting Started](../profiling/getting-started-with-performance-tools.md)   
  [Performance Explorer](../profiling/performance-explorer.md)

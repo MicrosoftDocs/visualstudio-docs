@@ -52,5 +52,5 @@ function areaFunction(radiusParam) {
   
 ```  
   
-## See Also  
+## See also  
  [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md)

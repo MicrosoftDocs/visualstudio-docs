@@ -80,6 +80,6 @@ Creating a Web template is different than creating other kinds of templates. Bec
 </VSTemplate>  
 ```  
   
-## See Also  
+## See also  
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)

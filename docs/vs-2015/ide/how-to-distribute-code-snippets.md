@@ -96,5 +96,5 @@ You can simply give your code snippets to your friends and have them install the
     Console.WriteLine("Hello, World!")  
     ```  
   
-## See Also  
+## See also  
  [Code Snippets](../ide/code-snippets.md)

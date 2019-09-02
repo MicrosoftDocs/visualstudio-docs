@@ -101,6 +101,6 @@ Coded UI test logs filter and record important information about your coded UI t
   
  Both of these settings have been deprecated since Visual Studio 2012. EqtTraceLevel is the only setting which is required to be modified to enable HtmlLogger.  
   
-## See Also  
+## See also  
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
  [How to: Run Tests from Microsoft Visual Studio](https://msdn.microsoft.com/library/1a1207a9-2a33-4a1e-a1e3-ddf0181b1046)

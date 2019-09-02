@@ -262,6 +262,6 @@ namespace SimpleTask2
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)

@@ -25,7 +25,7 @@ You can automate the build and selected item processes in [!INCLUDE[vsprvs](../.
 ## Automation for SelectedItem  
  You do not have to provide an implementation for the `SelectedItem` object because Visual Studio contains a standard implementation. However, you can implement the `SelectedItem` object if you prefer. You must implement an object that contains the `SelectedItem` interface and return a response to a call to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage%2A> method with VSITEMID set to <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID>.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage%2A>   
  [Contributing to the Automation Model](../../extensibility/internals/contributing-to-the-automation-model.md)   
  [Understanding Build Configurations](../../ide/understanding-build-configurations.md)

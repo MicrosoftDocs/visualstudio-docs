@@ -48,7 +48,7 @@ int GetInfo( 
 ## Remarks  
  The [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md) structure contains the name of the module that is displayed in the **Modules** window.  
   
-## See Also  
+## See also  
  [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md)   
  [MODULE_INFO_FIELDS](../../../extensibility/debugger/reference/module-info-fields.md)   
  [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md)

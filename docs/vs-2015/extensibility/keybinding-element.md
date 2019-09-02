@@ -66,6 +66,6 @@ The KeyBinding element specifies keyboard shortcuts for the commands.
 </KeyBindings>  
 ```  
   
-## See Also  
+## See also  
  [KeyBindings Element](../extensibility/keybindings-element.md)   
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

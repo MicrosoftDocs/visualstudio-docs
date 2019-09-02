@@ -33,5 +33,5 @@ An assertion statement specifies a condition that you expect to hold true at som
 |Ignore|Ignore the assertion and continue running the program.|  
 |Abort|Halt execution of the program and end the debugging session.|  
   
-## See Also  
+## See also  
  [C/C++ Assertions](../debugger/c-cpp-assertions.md)

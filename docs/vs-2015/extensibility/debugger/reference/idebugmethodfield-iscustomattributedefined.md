@@ -39,5 +39,5 @@ int IsCustomAttributeDefined(
 ## Return Value  
  Returns S_OK if the custom attribute is defined on this method, otherwise returns S_FALSE.  
   
-## See Also  
+## See also  
  [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md)

@@ -88,6 +88,6 @@ The AL task wraps AL.exe, a tool that is distributed with the [!INCLUDE[winsdklo
 </AL>  
 ```  
   
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Tasks](../msbuild/msbuild-tasks.md)

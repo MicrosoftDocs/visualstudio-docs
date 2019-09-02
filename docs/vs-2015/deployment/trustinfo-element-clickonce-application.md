@@ -264,6 +264,6 @@ Describes the minimum security permissions required for the application to run o
 </trustInfo>  
 ```  
   
-## See Also  
+## See also  
  [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)

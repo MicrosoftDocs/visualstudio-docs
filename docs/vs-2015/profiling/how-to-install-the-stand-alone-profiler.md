@@ -46,7 +46,7 @@ manager: jillfra
   
 6. Use the [VSPerfReport](../profiling/vsperfreport.md) tool to serialize your symbols into the profiling data (.vsp) file. Use the **VSPerfReport /summary:all /packsymbols** switches. If you do not have symbols inserted in your data file, make sure that you have the _NT_SYMBOL_PATH environment variable set.  
   
-## See Also  
+## See also  
  [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)   
  [Walkthrough: Command-Line Profiling Using Sampling](../profiling/walkthrough-command-line-profiling-using-sampling.md)   
  [Walkthrough: Command-Line Profiling Using Instrumentation](../profiling/walkthrough-command-line-profiling-using-instrumentation.md)   

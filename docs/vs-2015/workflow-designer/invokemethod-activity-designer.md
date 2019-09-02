@@ -52,7 +52,7 @@ manager: jillfra
   
    This restriction does not apply to <xref:System.Activities.Statements.InvokeMethod.TargetType%2A> and <xref:System.Activities.Statements.InvokeMethod.RunAsynchronously%2A> because they are not workflow arguments and therefore are not registered in the <xref:System.Activities.Statements.InvokeMethod.GenericTypeArguments%2A> collection of <xref:System.Activities.Statements.InvokeMethod> activity in <xref:System.Activities.Activity.CacheMetadata%2A> method.  
   
-## See Also  
+## See also  
  [Primitives](../workflow-designer/primitives-activity-designers.md)   
  [Assign](../workflow-designer/assign-activity-designer.md)   
  [Delay](../workflow-designer/delay-activity-designer.md)   

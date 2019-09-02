@@ -28,5 +28,5 @@ Edit and Continue could not apply the changes you made to your native code. This
   
  You can edit the code to fix the error while still debugging, stop debugging and fix the code, or ignore the error and continue debugging. If you continue without making the fix, your code changes will not be applied immediately.  
   
-## See Also  
+## See also  
  [Edit and Continue, Debugging, Options Dialog Box](https://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)

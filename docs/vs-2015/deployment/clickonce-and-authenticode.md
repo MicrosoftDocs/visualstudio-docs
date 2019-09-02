@@ -65,7 +65,7 @@ Authenticode* is a Microsoft technology that uses industry-standard cryptography
   
 - You can store certificates as a .pfx file on your file system, or you can store them inside of a key container. A user on a Windows domain can have a number of key containers. By default, MakeCert.exe will store certificates in your personal key container, unless you specify that it should save it to a .pfx instead. Mage.exe and MageUI.exe, the [!INCLUDE[winsdkshort](../includes/winsdkshort-md.md)] tools for creating [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployments, enable you to use certificates stored in either fashion.  
   
-## See Also  
+## See also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md)   

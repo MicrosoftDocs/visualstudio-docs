@@ -45,6 +45,6 @@ This topic helps you diagnose and resolve the most common issues with [!INCLUDE[
  [Debugging ClickOnce Applications That Use System.Deployment.Application](../deployment/debugging-clickonce-applications-that-use-system-deployment-application.md)  
  Describes a technique for debugging ClickOnce applications that use System.Deployment.Application.  
   
-## See Also  
+## See also  
  [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)

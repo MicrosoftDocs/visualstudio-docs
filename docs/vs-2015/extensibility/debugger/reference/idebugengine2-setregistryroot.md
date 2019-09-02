@@ -42,5 +42,5 @@ int SetRegistryRoot( 
 ## Remarks  
  This method allows [!INCLUDE[vsprvs](../../../includes/vsprvs-md.md)] to specify an alternate registry root that the DE should use to obtain registry settings; for example, "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp".  
   
-## See Also  
+## See also  
  [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)

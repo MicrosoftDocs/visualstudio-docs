@@ -105,5 +105,5 @@ This topic describes how to configure the firewall to enable remote debugging on
   
 8. You should see your new rule in the **Inbound Rules** or **Outbound Rules** list.  
   
-## See Also  
+## See also  
  [Remote Debugging](../debugger/remote-debugging.md)

@@ -75,5 +75,5 @@ Incremental builds are builds that are optimized so that targets that have outpu
   
  This creates the property CompileRan and gives it the value `true`, but only if the target is executed. If the target is skipped, CompileRan is not created.  
   
-## See Also  
+## See also  
  [Targets](../msbuild/msbuild-targets.md)

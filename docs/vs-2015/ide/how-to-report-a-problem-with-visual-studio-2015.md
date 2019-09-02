@@ -63,6 +63,6 @@ If you were able to work around the problem, please describe the workaround in t
 
 Click on the submit button to send your report, along with any images and trace or dump files. If the **Submit** button is grayed out, make sure that you have provided a title and description.
 
-## See Also
+## See also
 
 - [Talk to Us](../ide/talk-to-us.md)

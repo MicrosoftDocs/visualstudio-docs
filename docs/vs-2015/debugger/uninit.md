@@ -26,5 +26,5 @@ void UnInit();
   
  After `UnInit` has been called on an instance of the `VsgDbg` class, a new graphics log file can be created by calling `Init` and finalized by calling `UnInit`. You can repeat this as many times as you want to use the same `VsgDbg` instance to create several independent graphics log files.  
   
-## See Also  
+## See also  
  [Init](../debugger/init.md)

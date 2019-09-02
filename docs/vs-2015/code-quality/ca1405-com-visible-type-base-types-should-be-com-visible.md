@@ -44,7 +44,7 @@ manager: "wpickett"
  [!code-csharp[FxCop.Interoperability.ComBaseTypes#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Interoperability.ComBaseTypes/cs/FxCop.Interoperability.ComBaseTypes.cs#1)]
  [!code-vb[FxCop.Interoperability.ComBaseTypes#1](../snippets/visualbasic/VS_Snippets_CodeAnalysis/FxCop.Interoperability.ComBaseTypes/vb/FxCop.Interoperability.ComBaseTypes.vb#1)]
 
-## See Also
+## See also
  <xref:System.Runtime.InteropServices.ClassInterfaceAttribute?displayProperty=fullName>
  [Introducing the Class Interface](https://msdn.microsoft.com/733c0dd2-12e5-46e6-8de1-39d5b25df024)
  [Interoperating with Unmanaged Code](https://msdn.microsoft.com/library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)

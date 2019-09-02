@@ -133,6 +133,6 @@ LONG SendStatusMessage(
 }  
 ```  
   
-## See Also  
+## See also  
  [Callback Functions Implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)   
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)

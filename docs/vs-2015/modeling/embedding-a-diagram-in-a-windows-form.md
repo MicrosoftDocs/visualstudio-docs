@@ -147,6 +147,6 @@ You can embed a DSL diagram in a Windows Control, which appears in the [!INCLUDE
   
      Notice that the list box shows a list of the elements in the model, and that it is correct after any addition or deletion, and after Undo and Redo.  
   
-## See Also  
+## See also  
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)   
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)

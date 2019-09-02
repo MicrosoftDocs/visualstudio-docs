@@ -32,7 +32,7 @@ When you use [!INCLUDE[wfd1](../includes/wfd1-md.md)], you can set breakpoints o
   
      Alternatively, you can also press the shortcut **F9** key after selecting the activity or you can right-click the activity and select **Breakpoint** then **Insert Breakpoint** from the context menu.  
   
-## See Also  
+## See also  
  [How to: Invoke the Workflow Debugger](../workflow-designer/how-to-invoke-the-workflow-debugger.md)   
  [Debugging Workflows with the Workflow Designer](../workflow-designer/debugging-workflows-with-the-workflow-designer.md)   
  [How to: Debug XAML with the Workflow Designer](../workflow-designer/how-to-debug-xaml-with-the-workflow-designer.md)

@@ -33,6 +33,6 @@ Destroys the `span` object and releases its resources.
 
 **Namespace:** Concurrency::diagnostic
 
-## See Also
+## See also
 
 [span Class](../profiling/span-class.md)

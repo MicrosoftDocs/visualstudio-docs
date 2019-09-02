@@ -35,7 +35,7 @@ The **CompensableActivity** activity designer is used to create and configure a 
 |<xref:System.Activities.Statements.CompensableActivity.CompensationHandler%2A>|False|Specifies the activity to be executed when compensating for the <xref:System.Activities.Statements.CompensableActivity.Body%2A> activity. This handler can be explicitly invoked using the <xref:System.Activities.Statements.Compensate> activity.<br /><br /> To add the activity, drop its activity designer from the **Toolbox** into the **CompensationHandler** box on the **CompensableActivity** activity designer with hint text “Drop Activity Here”.|  
 |<xref:System.Activities.Statements.CompensableActivity.ConfirmationHandler%2A>|False|Specifies the activity to be executed when confirming the <xref:System.Activities.Statements.CompensableActivity.Body%2A> activity. This handler can be explicitly invoked using the <xref:System.Activities.Statements.Confirm> activity.<br /><br /> To add the activity, drop its activity designer from the **Toolbox** into the **ConfirmationHandler** box on the **CompensableActivity** activity designer with hint text “Drop Activity Here”.|  
   
-## See Also  
+## See also  
  [Transaction](../workflow-designer/transaction-activity-designers.md)   
  [CancellationScope](../workflow-designer/cancellationscope-activity-designer.md)   
  [Compensate](../workflow-designer/compensate-activity-designer.md)   

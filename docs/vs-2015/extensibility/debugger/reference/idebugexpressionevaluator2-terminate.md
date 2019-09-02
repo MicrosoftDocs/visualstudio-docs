@@ -52,5 +52,5 @@ STDMETHODIMP ExpressionEvaluatorPackage::Terminate(void)
 }  
 ```  
   
-## See Also  
+## See also  
  [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)

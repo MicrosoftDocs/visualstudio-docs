@@ -113,6 +113,6 @@ Use the **Build** page of the **Project Designer** to specify the project's buil
  **Advanced**  
  Click to display the [Advanced Build Settings Dialog Box (C#)](../../ide/reference/advanced-build-settings-dialog-box-csharp.md) dialog box.  
   
-## See Also  
+## See also  
  [Project Properties Reference](../../ide/reference/project-properties-reference.md)   
  [C# Compiler Options](https://msdn.microsoft.com/library/d3403556-1816-4546-a782-e8223a772e44)

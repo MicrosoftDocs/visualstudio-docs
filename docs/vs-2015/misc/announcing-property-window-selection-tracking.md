@@ -33,6 +33,6 @@ If you want to work with the **Properties** window or the **Property** pages, fo
   
      If you specify a multiple selection, then the **Properties** window finds the intersection between common properties for the objects. If you specify a single object selection, then the **Properties** window displays all of the properties for the one object.  
   
-## See Also  
+## See also  
  [Extending Properties](../extensibility/internals/extending-properties.md)   
  [Property Pages](../extensibility/internals/property-pages.md)

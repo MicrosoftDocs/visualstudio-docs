@@ -50,7 +50,7 @@ Use the **Build Events** page of the **Project Designer** to specify build confi
 |**On successful build**|Post-build event will run if the build succeeds. Thus, the event will run even for a project that is up-to-date, as long as the build succeeds.|  
 |**When the build updates the project output**|Post-build event will only run when the compiler's output file (.exe or .dll) is different than the previous compiler output file. Thus, a post-build event is not run if a project is up-to-date.|  
   
-## See Also  
+## See also  
  [How to: Specify Build Events (Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md)   
  [How to: Specify Build Events (C#)](../../ide/how-to-specify-build-events-csharp.md)   
  [Project Properties Reference](../../ide/reference/project-properties-reference.md)   

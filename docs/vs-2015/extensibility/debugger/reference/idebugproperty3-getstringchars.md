@@ -82,7 +82,7 @@ CStringW RetrievePropertyString(IDebugProperty2 *pPropInfo)
   
 <!-- TODO: review snippet reference  [!CODE [}](})]  -->  
   
-## See Also  
+## See also  
  [GetStringCharLength](../../../extensibility/debugger/reference/idebugproperty3-getstringcharlength.md)   
  [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)   
  [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)

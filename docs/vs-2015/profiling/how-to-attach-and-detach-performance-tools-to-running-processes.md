@@ -64,7 +64,7 @@ The profiler can be used to attach to or detach from a running process to make s
   
 3. Click **Detach**.  
   
-## See Also  
+## See also  
  [Controlling Data Collection](../profiling/controlling-data-collection.md)   
  [Performance Session Overview](../profiling/performance-session-overview.md)   
  [How to: Start and End Performance Data Collection](../profiling/how-to-start-and-end-performance-data-collection.md)   

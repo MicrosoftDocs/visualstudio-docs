@@ -59,5 +59,5 @@ Several support options are available for customers who have questions about how
   
  Information about individual support requests can be found at [Individual Support Requests](http://go.microsoft.com/fwlink/?LinkID=82385).  
   
-## See Also  
+## See also  
  [Talk to Us](../ide/talk-to-us.md)

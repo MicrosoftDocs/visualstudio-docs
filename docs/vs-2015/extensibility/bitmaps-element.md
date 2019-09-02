@@ -58,6 +58,6 @@ Groups [Bitmap Element](../extensibility/bitmap-element.md) elements.
 </Bitmaps>  
 ```  
   
-## See Also  
+## See also  
  [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

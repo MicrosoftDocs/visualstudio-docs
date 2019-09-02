@@ -88,6 +88,6 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
 3. Replace the instrumented module with the original. If necessary, reconfigure the Startup Type of the service.  
 
-## See Also  
+## See also  
  [Profiling Services](../profiling/command-line-profiling-of-services.md)   
  [Instrumentation Method Data Views](../profiling/instrumentation-method-data-views.md)

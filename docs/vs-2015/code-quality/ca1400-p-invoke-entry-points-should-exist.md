@@ -43,5 +43,5 @@ manager: "wpickett"
 
  [!code-csharp[FxCop.Interoperability.DLLExists#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Interoperability.DLLExists/cs/FxCop.Interoperability.DLLExists.cs#1)]
 
-## See Also
+## See also
  <xref:System.Runtime.InteropServices.DllImportAttribute?displayProperty=fullName>

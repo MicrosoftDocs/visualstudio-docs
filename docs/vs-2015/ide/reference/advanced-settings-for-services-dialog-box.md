@@ -43,7 +43,7 @@ Client application services provide simplified access to [!INCLUDE[ajax_current_
  **Use custom connection string**  
  Specifies whether the client service providers will use a custom data store for the local cache. By default, the service providers will use the local file system for the cache. Selecting this option will automatically populate the text box with a default connection string. You can keep the default connection string to automatically generate and use a SQL Server Compact Edition database, or you can specify a connection string to an existing SQL Server database. For more information, see [How to: Configure Client Application Services](https://msdn.microsoft.com/library/34a8688a-a32c-40d3-94be-c8e610c6a4e8). This option is cleared by default.  
   
-## See Also  
+## See also  
  [Client Application Services](https://msdn.microsoft.com/library/1487d8df-089e-4f21-abfb-a791a652b58e)   
  [Services Page, Project Designer](../../ide/reference/services-page-project-designer.md)   
  [How to: Configure Client Application Services](https://msdn.microsoft.com/library/34a8688a-a32c-40d3-94be-c8e610c6a4e8)   

@@ -260,5 +260,5 @@ You can find assistance with troubleshooting errors and warnings in the Microsof
   
  For information about how to troubleshoot connectivity to SQL Server, see [How to Troubleshoot Connecting to the SQL Server Database Engine](http://go.microsoft.com/fwlink/?LinkID=246151).  
   
-## See Also  
+## See also  
  [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

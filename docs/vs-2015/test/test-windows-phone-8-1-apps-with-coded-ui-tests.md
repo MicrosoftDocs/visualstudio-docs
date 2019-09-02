@@ -378,5 +378,5 @@ public void DataDrivingDemo_MyTestMethod(int x, int y)
 ## External resources
  Microsoft Visual Studio Application Lifecycle Management blog: [Using Coded UI to test XAML-based Windows Phone apps](http://blogs.msdn.com/b/visualstudioalm/archive/2014/04/05/using-coded-ui-to-test-xaml-based-windows-phone-apps.aspx?PageIndex=2#comments)
 
-## See Also
+## See also
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)

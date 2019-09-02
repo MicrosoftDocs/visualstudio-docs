@@ -636,7 +636,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
  Shared code in a PCL is platform-neutral, because the PCL is compiled once and included in each platform-specific app package. If you want to write shared code that uses conditional compilation to isolate platform-specific code, you can use a *shared* project. For more details, see [ode Sharing Options](http://developer.xamarin.com/guides/cross-platform/application_fundamentals/building_cross_platform_applications/sharing_code_options/) (xamarin.com).
 
-## See Also
+## See also
  [Xamarin Developer site](http://developer.xamarin.com/)
  [Windows Dev Center](https://dev.windows.com/en-us)
  [Swift and C# Quick Reference Poster](https://aka.ms/scposter)

@@ -111,7 +111,7 @@ If you change the information persisted in the project file between different Vi
   
   If you fail to upgrade, return <xref:Microsoft.VisualStudio.Shell.Interop.VSErrorCodes> from `IVsProjectUpgrade::UpgradeProject`. If no upgrade is necessary or you choose not to upgrade, treat the `IVsProjectUpgrade::UpgradeProject` call as a no-op. If you return <xref:Microsoft.VisualStudio.Shell.Interop.VSErrorCodes>, a placeholder node is added to the solution for your project.  
   
-## See Also  
+## See also  
  [Visual Studio Conversion Wizard](https://msdn.microsoft.com/4acfd30e-c192-4184-a86f-2da5e4c3d83c)   
  [Upgrading Project Items](../misc/upgrading-project-items.md)   
  [Projects](../extensibility/internals/projects.md)

@@ -32,7 +32,7 @@ This topic describes how use the **Choose Operation** dialog box in the legacy [
 > [!NOTE]
 > The **Choose Operation** dialog box shows only contracts or operations that are used by other <xref:System.Workflow.Activities.SendActivity> activities in the workflow. Similarly, the **Choose Operation** dialog box for <xref:System.Workflow.Activities.ReceiveActivity> activities shows only contracts or operations that are used by other **ReceiveActivity** activities in the workflow.  
   
-## See Also  
+## See also  
  [How to: Implement a WCF Contract Operation (Legacy)](../workflow-designer/how-to-implement-a-windows-communication-foundation-contract-operation-legacy.md)   
  [How to: Invoke a WCF Contract Operation (Legacy)](../workflow-designer/how-to-invoke-a-windows-communication-foundation-contract-operation-legacy.md)   
  [Legacy Designer for Windows Workflow Foundation UI Help](../workflow-designer/legacy-designer-for-windows-workflow-foundation-ui-help.md)

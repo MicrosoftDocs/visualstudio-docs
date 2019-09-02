@@ -108,5 +108,5 @@ The XSLT Hierarchy tool simplifies many XML development tasks. An XSLT style she
   
 6. When the debugger stops at the instruction `<xsl:include href="xslincludefile.xsl" />`, press the step into button. Note that the debugging can be continued in the referenced style sheet. The hierarchy is visible and the designer displays the right path.  
   
-## See Also  
+## See also  
  [Walkthrough: XSLT Profiler](../xml-tools/walkthrough-xslt-profiler.md)

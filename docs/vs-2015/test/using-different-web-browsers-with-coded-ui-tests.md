@@ -145,7 +145,7 @@ Coded UI tests can automate testing for web applications by recording your tests
 ### Forum  
  [Visual Studio UI Automation Testing (includes Coded UI)](http://go.microsoft.com/fwlink/?LinkID=224497)  
   
-## See Also  
+## See also  
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
  [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)   
  [Analyzing Coded UI Tests Using Coded UI Test Logs](../test/analyzing-coded-ui-tests-using-coded-ui-test-logs.md)

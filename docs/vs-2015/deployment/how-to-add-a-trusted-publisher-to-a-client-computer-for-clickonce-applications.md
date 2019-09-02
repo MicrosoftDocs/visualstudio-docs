@@ -53,7 +53,7 @@ With Trusted Application Deployment, you can configure client computers so that 
   
      **certmgr.exe -add good.cer -c -s -r localMachine TrustedPublisher**  
   
-## See Also  
+## See also  
  [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [Code Access Security for ClickOnce Applications](../deployment/code-access-security-for-clickonce-applications.md)   

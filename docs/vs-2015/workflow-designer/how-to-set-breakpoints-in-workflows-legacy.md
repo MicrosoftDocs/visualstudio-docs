@@ -56,6 +56,6 @@ This topic describes how to set breakpoints in [!INCLUDE[wf](../includes/wf-md.m
   
 6. Click **OK**.  
   
-## See Also  
+## See also  
  [Debugging Legacy Workflows](../workflow-designer/debugging-legacy-workflows.md)   
  [Invoking the Visual Studio Debugger for Windows Workflow Foundation (Legacy)](../workflow-designer/invoking-the-visual-studio-debugger-for-windows-workflow-foundation-legacy.md)

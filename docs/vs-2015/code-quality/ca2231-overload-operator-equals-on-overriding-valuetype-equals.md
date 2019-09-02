@@ -71,5 +71,5 @@ return left.Equals(right);
 
  [CA2218: Override GetHashCode on overriding Equals](../code-quality/ca2218-override-gethashcode-on-overriding-equals.md)
 
-## See Also
+## See also
  <xref:System.Object.Equals%2A?displayProperty=fullName>

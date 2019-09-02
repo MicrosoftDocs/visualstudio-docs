@@ -41,6 +41,6 @@ enum SccDirStatus {
  SCC_DIRSTATUS_EMPTYPROJ  
  Project corresponding to this directory is empty.  
   
-## See Also  
+## See also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
  [SccDirQueryInfo](../extensibility/sccdirqueryinfo-function.md)

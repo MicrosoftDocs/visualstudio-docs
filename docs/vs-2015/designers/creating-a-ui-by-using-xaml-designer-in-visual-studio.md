@@ -157,7 +157,7 @@ The XAML Designer in Visual Studio provides a visual interface to help you desig
 
  To the right of each property value is a *property marker* that appears as a box symbol. The appearance of the property marker indicates whether there's a data binding or a resource applied to the property. For example, a white box symbol indicates a default value, a black box symbol typically indicates that a local resource has been applied, and an orange box typically indicates a data binding has been applied. When you click the property marker, you can navigate to the definition of a style, open the data binding builder, or open the resource picker.
 
-## See Also
+## See also
  [Working with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md)
  [How to create and apply a resource](../designers/how-to-create-and-apply-a-resource.md)
  [Walkthrough: Binding to data in XAML Designer](../designers/walkthrough-binding-to-data-in-xaml-designer.md)

@@ -107,6 +107,6 @@ The following context menu items are used to perform schema-specific searches an
 |**Show All Members**|Finds and highlights all members of the named group.|  
 |**Show All References**|Finds and highlights all references (groups that have `ref="selectedGroup"`) to the selected group.|  
   
-## See Also  
+## See also  
  [XML Schema Explorer](../xml-tools/xml-schema-explorer.md)   
  [Searching the Schema Set](../xml-tools/searching-the-schema-set.md)

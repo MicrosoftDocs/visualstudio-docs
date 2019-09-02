@@ -18,6 +18,6 @@ manager: jillfra
 
 You can add or remove projects and project items by right-clicking on the project or solution node in **Solution Explorer**, and choosing **Add** or **Remove**. Removing a project from a solution, or an item from a project, does not delete it from disk or source control unless you select the option to delete it permanently.  
   
-## See Also  
+## See also  
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)   
  [Managing Project and Solution Properties](../ide/managing-project-and-solution-properties.md)

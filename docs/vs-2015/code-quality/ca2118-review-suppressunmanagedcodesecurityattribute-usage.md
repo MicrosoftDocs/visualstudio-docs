@@ -65,7 +65,7 @@ manager: "wpickett"
 
  [!code-csharp[FxCop.Security.TypeInvokeAndSuppress#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Security.TypeInvokeAndSuppress/cs/FxCop.Security.TypeInvokeAndSuppress.cs#1)]
 
-## See Also
+## See also
  <xref:System.Security.SuppressUnmanagedCodeSecurityAttribute?displayProperty=fullName>
  [Secure Coding Guidelines](https://msdn.microsoft.com/library/4f882d94-262b-4494-b0a6-ba9ba1f5f177)
  [Security Optimizations](https://msdn.microsoft.com/cf255069-d85d-4de3-914a-e4625215a7c0)

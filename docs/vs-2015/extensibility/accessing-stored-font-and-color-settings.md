@@ -72,7 +72,7 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environm
   
  The settings of all **Display Items** in a particular **Category** can be obtained by using the methods of the `T:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults` interface.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage>   
  <xref:Microsoft.VisualStudio.Shell.Interop.__FCSTORAGEFLAGS>   
  [Implementing Custom Categories and Display Items](../extensibility/implementing-custom-categories-and-display-items.md)

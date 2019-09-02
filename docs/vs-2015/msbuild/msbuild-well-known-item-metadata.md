@@ -43,7 +43,7 @@ The following table describes the metadata assigned to every item upon creation.
 |%(CreatedTime)|Contains the timestamp from when the item was created. For example:<br /><br /> `2004-06-25 09:26:45.8237425`|  
 |%(AccessedTime)|Contains the timestamp from the last time the item was accessed.<br /><br /> `2004-08-14 16:52:36.3168743`|  
   
-## See Also  
+## See also  
  [Items](../msbuild/msbuild-items.md)   
  [Batching](../msbuild/msbuild-batching.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)

@@ -111,5 +111,5 @@ A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application manifest is
 </Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>  
 ```  
   
-## See Also  
+## See also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)

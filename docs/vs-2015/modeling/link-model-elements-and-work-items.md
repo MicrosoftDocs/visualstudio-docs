@@ -167,6 +167,6 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
 |The work item doesn't have the linked model elements that you expect.|A work item shows a linked layer element only if the link was created from the work item. If your team does not use [!INCLUDE[esprscc](../includes/esprscc-md.md)], the local path of the diagrams will be used to create the links. If the modeling project and its diagrams are in [!INCLUDE[esprscc](../includes/esprscc-md.md)], all team members who can access the project can view linked elements in work items.|Try refreshing the work item.|  
 |Deleting a link to a model element from a work item doesn't delete the link from the model element to the work item.||Delete the link to the work item starting from the model element.|  
   
-## See Also  
+## See also  
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
  [Create models for your app](../modeling/create-models-for-your-app.md)

@@ -53,5 +53,5 @@ You can change the project settings for a [!INCLUDE[vbprvb](../includes/vbprvb-m
 |**Define DEBUG Constant**|Defining this symbol enables conditional compiling of output functions from the [Debug class](https://msdn.microsoft.com/library/system.diagnostics.debug.aspx). With this symbol defined, Debug class methods generate output to the [Output window](../ide/reference/output-window.md). Without this symbol, Debug class methods are not compiled and no output is generated. This symbol should be defined in the Debug version and not defined in the Release version. Defining this symbol in a Release version creates unnecessary code that slows your program down.|  
 |**Define TRACE Constant**|Defining this symbol enables conditional compiling of output functions from the [Trace class](https://msdn.microsoft.com/library/system.diagnostics.trace.aspx). With this symbol defined, the Trace class methods generate output to the [Output window](../ide/reference/output-window.md). Without this symbol, Trace class methods are not compiled and no Trace output is generated. This symbol is defined by default for both Debug and Release versions.|  
   
-## See Also  
+## See also  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

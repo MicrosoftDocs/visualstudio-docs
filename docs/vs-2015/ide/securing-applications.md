@@ -60,5 +60,5 @@ While most applications possess common security challenges, each application dom
  [Windows Forms Security](https://msdn.microsoft.com/library/932d438a-5285-46d8-a958-8c93d0ad6cae)  
  Provides an overview of the Windows Forms security implementation.  
   
-## See Also  
+## See also  
  [Security](../ide/security-in-visual-studio.md)

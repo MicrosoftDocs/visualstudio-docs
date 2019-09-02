@@ -54,6 +54,6 @@ One of the more useful methods of locating information in Help is by performing 
 ### Words Ignored in Searches (Stop Words)  
  Commonly occurring words or numbers, which are sometimes called stop words, are automatically ignored during a full-text search. For example, if you search for the phrase "pass through", search results will display topics that contain the word "pass" but not "through".  
   
-## See Also  
+## See also  
  [Locate Information](../ide/locate-information.md)   
  [Logical Operators in Search Expressions](../ide/logical-operators-in-search-expressions.md)

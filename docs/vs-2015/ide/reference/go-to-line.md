@@ -23,7 +23,7 @@ This dialog box allows you to move to a specific line in the active document. To
  Line number (1 - `n`)  
  Allows you to enter the number of the line in the active document to which you want to move. The number entered must fall between 1 and `n`, the number of lines in the current document.  
   
-## See Also  
+## See also  
  [Setting Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)   
  [Finding and Replacing Text](../../ide/finding-and-replacing-text.md)   
  [Writing Code](../../ide/writing-code-in-the-code-and-text-editor.md)

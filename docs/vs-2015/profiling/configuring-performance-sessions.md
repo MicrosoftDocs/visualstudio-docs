@@ -34,5 +34,5 @@ By using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools, you can c
 ## Related Sections  
  [Controlling Data Collection](../profiling/controlling-data-collection.md)  
   
-## See Also  
+## See also  
  [Performance Explorer](../profiling/performance-explorer.md)

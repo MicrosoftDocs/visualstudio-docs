@@ -152,6 +152,6 @@ Use the **Application** page of the Project Designer to specify a project's appl
   
  The <xref:System.Windows.Application> object raises events when certain application state changes occur (for example, on application startup or shutdown). For a full list of the events that this class exposes, see <xref:System.Windows.Application>. These events are handled in the user code section of the `Application` partial class.  
   
-## See Also  
+## See also  
 [Managing Application Properties](../../ide/application-properties.md)
  [Writing Code in Office Solutions](https://msdn.microsoft.com/library/2d4d8fd0-e881-4829-976f-0d1a9221dec0)

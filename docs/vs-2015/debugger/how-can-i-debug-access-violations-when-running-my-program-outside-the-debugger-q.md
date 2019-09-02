@@ -32,6 +32,6 @@ Problem Description
   
  Also see the Knowledge Base article Q133174, "How to Locate Where a General Protection (GP) Fault Occurs." You can find Knowledge Base articles on the MSDN Library CD or by searching [http://support.microsoft.com/](http://support.microsoft.com/).  
   
-## See Also  
+## See also  
  [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)   
  [Debugging Native Code](../debugger/debugging-native-code.md)

@@ -121,5 +121,5 @@ public override void Unregister(RegistrationContext context)
 }  
 ```  
   
-## See Also  
+## See also  
  [VSPackages](../extensibility/internals/vspackages.md)

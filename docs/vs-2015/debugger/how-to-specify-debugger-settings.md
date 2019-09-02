@@ -41,7 +41,7 @@ In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you can specify various setting
   
 4. Select or clear the desired option or options. Press F1 to get Help about the options.  
   
-## See Also  
+## See also  
  [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md)   
  [Edit and Continue, Debugging, Options Dialog Box](https://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   

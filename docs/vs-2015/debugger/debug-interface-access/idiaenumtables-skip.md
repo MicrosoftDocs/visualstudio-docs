@@ -34,5 +34,5 @@ HRESULT Skip ( 
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` if there are no more tables to skip.  
   
-## See Also  
+## See also  
  [IDiaEnumTables](../../debugger/debug-interface-access/idiaenumtables.md)

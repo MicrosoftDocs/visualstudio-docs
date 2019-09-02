@@ -48,7 +48,7 @@ HRESULT findAcceleratorInlineeLinesByName ( 
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDiaSession](../../debugger/debug-interface-access/idiasession.md)   
  [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)   
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

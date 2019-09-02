@@ -28,7 +28,7 @@ This topic describes how use the **Bind to an Activity's Property** dialog box i
 |**Bind to an existing member**|Select a member that you want to bind to in the tree view pane. The pane below the tree view displays a message that indicates if the member is a valid type to bind to or not. Click **OK** to bind to the selected valid member.|  
 |**Bind to a new member**|Create a new member field or property to bind to. Enter a **New Member Name**. Choose whether you want to create a dependency property or a public field by selecting **Create Field** or **Create Property**. Click **OK** to create the new member.|  
   
-## See Also  
+## See also  
  [Using Activity Properties](http://go.microsoft.com/fwlink?LinkID=65013)   
  [Using Dependency Properties](http://go.microsoft.com/fwlink?LinkID=65007)   
  [Legacy Designer for Windows Workflow Foundation UI Help](../workflow-designer/legacy-designer-for-windows-workflow-foundation-ui-help.md)

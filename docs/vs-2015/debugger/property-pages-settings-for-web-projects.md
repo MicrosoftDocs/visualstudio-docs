@@ -48,5 +48,5 @@ You can change the property settings for a web site debug configuration in the *
 |**SQL Server debugging**|Allows debugging of SQL Server database objects.|  
 |**Silverlight debugging**|Allows debugging of Silverlight components.|  
   
-## See Also  
+## See also  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

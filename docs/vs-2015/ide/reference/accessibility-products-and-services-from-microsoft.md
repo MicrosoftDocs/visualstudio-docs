@@ -72,6 +72,6 @@ Microsoft is committed to making its products and services easier for everyone t
 ## <a name="moreinfo"></a> For More Information  
  For more information about how accessible technology for computers helps to improve the lives of people with disabilities, see the [Microsoft Accessibility Web site](http://go.microsoft.com/fwlink/?LinkId=8431).  
   
-## See Also  
+## See also  
  [Resources for Designing Accessible Applications](../../ide/reference/resources-for-designing-accessible-applications.md)   
  [Accessibility Features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)

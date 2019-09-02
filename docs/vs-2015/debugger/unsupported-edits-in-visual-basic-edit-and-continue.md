@@ -211,6 +211,6 @@ Edit and Continue les you stop program execution in Break mode, make changes to 
   
 - Changing the type of a field.  
   
-## See Also  
+## See also  
  [How to: Apply Edits in Break Mode with Edit and Continue](../debugger/how-to-apply-edits-in-break-mode-with-edit-and-continue.md)   
  [Edit and Continue (Visual Basic)](../debugger/edit-and-continue-visual-basic.md)

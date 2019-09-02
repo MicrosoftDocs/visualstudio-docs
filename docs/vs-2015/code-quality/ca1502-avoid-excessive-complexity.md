@@ -86,5 +86,5 @@ manager: "wpickett"
 ## Related Rules
  [CA1501: Avoid excessive inheritance](../code-quality/ca1501-avoid-excessive-inheritance.md)
 
-## See Also
+## See also
  [Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)

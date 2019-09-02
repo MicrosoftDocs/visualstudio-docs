@@ -162,7 +162,7 @@ Use the **Compile** page of the Project Designer to specify compilation instruct
   **Advanced Compile Options**  
   Click this button to access the **AdvancedCompiler Settings** dialog box. Use the **AdvancedCompiler Settings** dialog box to specify a project's advanced build configuration properties. This dialog box applies to Visual Basic projects only. For more information, see [Advanced Compiler Settings Dialog Box (Visual Basic)](../../ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md).  
   
-## See Also  
+## See also  
  [Debug and Release Project Configurations](https://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e)   
  [Managing Compilation Properties](https://msdn.microsoft.com/94308881-f10f-4caf-a729-f1028e596a2c)   
  [How to: Specify Build Events (Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md)   

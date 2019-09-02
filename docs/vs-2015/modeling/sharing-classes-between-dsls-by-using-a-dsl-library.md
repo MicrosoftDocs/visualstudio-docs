@@ -59,5 +59,5 @@ In the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visualization and Modeling S
   
    A DSL Library can import other libraries. When you import a library, its imports also automatically appear in DSL Explorer.  
   
-## See Also  
+## See also  
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)

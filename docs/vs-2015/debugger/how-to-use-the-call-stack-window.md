@@ -131,7 +131,7 @@ By using the **Call Stack** window, you can view the function or procedure calls
   
 5. Click **OK** to close the **Options** dialog box.  
   
-## See Also  
+## See also  
  [Mixed Code and Missing Information in the Call Stack Window](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md)   
  [How to: Change the Numeric Format of Debugger Windows](https://msdn.microsoft.com/library/cd593847-a625-411d-a430-b798346ef18f)   
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   

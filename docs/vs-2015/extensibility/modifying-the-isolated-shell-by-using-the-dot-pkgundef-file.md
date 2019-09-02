@@ -38,6 +38,6 @@ You can modify the .pkgundef file to exclude specified registry entries from an 
   
  to the application's .pkgundef file.  
   
-## See Also  
+## See also  
  [Package GUIDs of Visual Studio Features](../extensibility/package-guids-of-visual-studio-features.md)   
  [Customizing the Isolated Shell](../extensibility/customizing-the-isolated-shell.md)

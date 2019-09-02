@@ -44,6 +44,6 @@ HRESULT get_hasSecurityChecks(
 |Header:|dia2.h|  
 |Version:|DIA SDK v8.0|  
   
-## See Also  
+## See also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [/GS (Buffer Security Check)](https://msdn.microsoft.com/library/8d8a5ea1-cd5e-42e1-bc36-66e1cd7e731e)

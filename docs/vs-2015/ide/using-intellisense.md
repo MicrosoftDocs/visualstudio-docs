@@ -95,7 +95,7 @@ MessageBox( hWnd, "String literal|") )
   
  **The automatic options are turned off.** By default, IntelliSense works automatically, but you can disable it. Even if automatic statement completion is disabled, you can invoke an IntelliSense feature.  
   
-## See Also  
+## See also  
  [Visual Basic-Specific IntelliSense](../ide/visual-basic-specific-intellisense.md)   
  [Visual C# IntelliSense](../ide/visual-csharp-intellisense.md)   
  [JavaScript IntelliSense](../ide/javascript-intellisense.md)   

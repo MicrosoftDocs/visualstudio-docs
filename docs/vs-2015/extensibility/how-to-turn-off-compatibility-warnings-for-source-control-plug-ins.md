@@ -37,5 +37,5 @@ A user may see several compatibility warnings when employing source control in [
   
      It is best to support reentrancy (`SCC_CAP_REENTRANT` capability); doing so will remove this warning. However, if this support is not possible, these registry entries can be set.  
   
-## See Also  
+## See also  
  [Capability Flags](../extensibility/capability-flags.md)

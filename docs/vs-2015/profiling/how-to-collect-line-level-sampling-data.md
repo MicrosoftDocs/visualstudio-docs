@@ -52,6 +52,6 @@ Line-level sampling is the ability of the profiler to determine where in the cod
   
 - When starting an application, type **VSPerfCmd /lineoff \<other arguments>**.  
   
-## See Also  
+## See also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)

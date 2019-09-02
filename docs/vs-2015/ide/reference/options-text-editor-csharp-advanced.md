@@ -72,7 +72,7 @@ Use this dialog box to modify the settings for editor formatting, code refactori
  Place 'System' directives first when sorting usings  
  When selected, `System` using directives appear before other using directives. For more information, see [Sort Usings](../../misc/sort-usings.md).  
   
-## See Also  
+## See also  
  [XML Documentation Comments](https://msdn.microsoft.com/library/803b7f7b-7428-4725-b5db-9a6cff273199)   
  [Setting Language-Specific Editor Options](../../ide/reference/setting-language-specific-editor-options.md)   
  [Visual C# IntelliSense](../../ide/visual-csharp-intellisense.md)

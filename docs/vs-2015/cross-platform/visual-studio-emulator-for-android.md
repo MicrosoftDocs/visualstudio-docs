@@ -104,6 +104,6 @@ The Visual Studio Emulator for Android is a desktop application that emulates an
   
 - Report an issue using the Send a Smile tool in Visual Studio or in the Emulator Manager.  
   
-## See Also  
+## See also  
  [System Requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)   
  [Troubleshooting the Visual Studio Emulator for Android](../cross-platform/troubleshooting-the-visual-studio-emulator-for-android.md)

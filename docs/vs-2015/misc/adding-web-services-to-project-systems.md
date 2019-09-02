@@ -22,7 +22,7 @@ XML Web services are, in general, URL-addressable resources that return programm
   
 3. Call the <xref:Microsoft.VisualStudio.Shell.Interop.IDiscoveryResult.AddWebReference%2A> method. Pass in the automation object for the Web service references folder as the `pUnkWebReferenceFolder` parameter. The Visual Studio environment then checks if the Web service is already present. If the Web service is not present, the environment downloads and adds the Web service to a folder and any additional files (such as .wsdl files) to the child nodes of the folder.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsAddWebReferenceDlg2>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IDiscoveryResult>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IDiscoverySession>   

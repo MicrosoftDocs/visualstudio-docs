@@ -45,5 +45,5 @@ The `IDSymbol` element contains the ID of the GUID:ID pair that represents a men
 ## Remarks  
  Every `IDSymbol` element in a given `GuidSymbol` element must have a unique `value`. However, `IDSymbol` elements that have identical values can exist in a package as long as they have different parents.  
   
-## See Also  
+## See also  
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

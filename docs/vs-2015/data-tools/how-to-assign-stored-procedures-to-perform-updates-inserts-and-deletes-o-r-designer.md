@@ -58,7 +58,7 @@ Stored procedures can be added to the O/R Designer and executed as typical <xref
   
      To revert to using the default runtime logic for updates, click the ellipsis next to the Insert, Update, or Delete command in the **Properties** window and then select **Use runtime** in the **Configure Behavior** dialog box.  
   
-## See Also  
+## See also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
  [DataContext Methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md)   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](https://msdn.microsoft.com/library/35aad4a4-2e8a-46e2-ae09-5fbfd333c233)   

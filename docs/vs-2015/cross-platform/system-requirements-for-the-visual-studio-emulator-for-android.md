@@ -148,5 +148,5 @@ Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the vir
 ## Hardware Graphics Forwarding (OpenGL ES support) Requirements
  In order for the emulator to emulate calls to the GPU, such as those used by OpenGL ES, your machine must have a DirectX compatible GPU with appropriate DirectX drivers installed.
 
-## See Also
+## See also
  [Troubleshooting the Visual Studio Emulator for Android](../cross-platform/troubleshooting-the-visual-studio-emulator-for-android.md)

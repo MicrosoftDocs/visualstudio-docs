@@ -104,7 +104,7 @@ int LaunchSuspended(
   
  The [ResumeProcess](../../../extensibility/debugger/reference/idebugenginelaunch2-resumeprocess.md) method is called to start the process after the process has been successfully launched in a suspended state.  
   
-## See Also  
+## See also  
  [IDebugEngineLaunch2](../../../extensibility/debugger/reference/idebugenginelaunch2.md)   
  [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)   
  [LAUNCH_FLAGS](../../../extensibility/debugger/reference/launch-flags.md)   

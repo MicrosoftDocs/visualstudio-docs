@@ -28,5 +28,5 @@ The **Content Definition** dialog box is used in [!INCLUDE[wfd1](../includes/wfd
   
  The content can be specified within the **Message** section for a <xref:System.ServiceModel.Activities.ReceiveMessageContent> activity or within the **Parameter** section for a <xref:System.ServiceModel.Activities.ReceiveParametersContent> activity.  
   
-## See Also  
+## See also  
  [Workflow Designer UI Help](../workflow-designer/workflow-designer-ui-help.md)

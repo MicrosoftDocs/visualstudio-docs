@@ -33,7 +33,7 @@ The **Confirm** activity designer is used to create and configure a <xref:System
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the optional friendly name of the <xref:System.Activities.Statements.CancellationScope> activity. The default is Confirm.|  
 |<xref:System.Activities.Statements.Confirm.Target%2A>|True|Specifies the <xref:System.Activities.InArgument%601> that contains the <xref:System.Activities.Statements.CompensationToken> for this <xref:System.Activities.Statements.Confirm> activity.|  
   
-## See Also  
+## See also  
  [Transaction](../workflow-designer/transaction-activity-designers.md)   
  [CancellationScope](../workflow-designer/cancellationscope-activity-designer.md)   
  [CompensableActivity](../workflow-designer/compensableactivity-activity-designer.md)   

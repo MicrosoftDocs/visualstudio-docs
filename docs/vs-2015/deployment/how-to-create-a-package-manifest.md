@@ -95,5 +95,5 @@ installing this package.</String>
 </Package>  
 ```  
   
-## See Also  
+## See also  
  [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)

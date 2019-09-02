@@ -108,5 +108,5 @@ Identifies the assembly that should be executed when this [!INCLUDE[ndptecclick]
   </entryPoint>  
 ```  
   
-## See Also  
+## See also  
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)

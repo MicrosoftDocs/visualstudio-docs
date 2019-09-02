@@ -76,7 +76,7 @@ manager: jillfra
 |On the **CPU Counters** page, specify one or more processor performance counters to add to the profiling data.|-   [How to: Collect CPU Counter Data](../profiling/how-to-collect-cpu-counter-data.md)|  
 |On the **Advanced** page, specify any additional VSInstr.exe options that you want, such as options to include or exclude specific functions. For more information about VSInstr options, see [VSInstr](../profiling/vsinstr.md)|-   [How to: Specify Additional Instrumentation Options](../profiling/how-to-specify-additional-instrumentation-options.md)<br />-   [How to: Limit Instrumentation to Specific Functions](../profiling/how-to-limit-instrumentation-to-specific-functions.md)|  
   
-## See Also  
+## See also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [How to: Choose Collection Methods](../profiling/how-to-choose-collection-methods.md)   
  [Performance Session Properties](../profiling/performance-session-properties.md)

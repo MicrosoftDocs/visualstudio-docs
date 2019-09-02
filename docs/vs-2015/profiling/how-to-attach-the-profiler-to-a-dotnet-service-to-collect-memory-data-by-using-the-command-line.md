@@ -122,6 +122,6 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
 4. Restart the computer.  
 
-## See Also  
+## See also  
  [Profiling Services](../profiling/command-line-profiling-of-services.md)   
  [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md)

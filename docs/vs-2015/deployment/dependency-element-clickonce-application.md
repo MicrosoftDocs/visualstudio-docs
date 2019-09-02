@@ -213,6 +213,6 @@ Identifies a platform or assembly dependency that is required for the applicatio
 </dependency>  
 ```  
   
-## See Also  
+## See also  
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)   
  [\<dependency> Element](../deployment/dependency-element-clickonce-deployment.md)

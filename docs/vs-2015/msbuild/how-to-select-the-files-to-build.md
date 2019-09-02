@@ -166,6 +166,6 @@ When you build a project that contains several files, you can list each file sep
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [How to: Exclude Files from the Build](../msbuild/how-to-exclude-files-from-the-build.md)   
  [Items](../msbuild/msbuild-items.md)

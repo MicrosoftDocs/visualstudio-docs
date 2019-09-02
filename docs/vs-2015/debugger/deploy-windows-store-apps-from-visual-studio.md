@@ -114,5 +114,5 @@ Applies to Windows only](../Image/windows_only_content.png "windows_only_content
 
 - On the JavaScript and Debug property page, set the **Launch Application** value to **Yes**.
 
-## See Also
+## See also
  [Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md)

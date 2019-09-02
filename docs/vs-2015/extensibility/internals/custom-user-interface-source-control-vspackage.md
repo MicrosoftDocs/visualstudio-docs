@@ -51,7 +51,7 @@ A VSPackage declares its menu items and their default states through the Visual 
 |Tool windows|The source control VSPackage hides any tool windows it owns when it is made inactive.|  
 |Source control VSPackage-specific options pages|The registry key HKLM\SOFTWARE\Microsoft\VisualStudio\X.Y\ToolsOptionsPages\VisibilityCmdUIContexts lets a VSPackage set the contexts in which it requires its options pages to be displayed. A registry entry under this key would have to be created by using the service ID (SID) of the source control service and assigning it a DWORD value of 1. Whenever a UI event occurs in a context the source control VSPackage is registered with, the VSPackage will be called if it is active.|  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>   

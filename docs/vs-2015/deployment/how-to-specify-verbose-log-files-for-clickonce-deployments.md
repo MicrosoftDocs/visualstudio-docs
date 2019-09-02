@@ -37,5 +37,5 @@ manager: jillfra
   
 4. Set the `LogVerbosityLevel` value to `1`.  
   
-## See Also  
+## See also  
  [Troubleshooting ClickOnce Deployments](../deployment/troubleshooting-clickonce-deployments.md)

@@ -39,6 +39,6 @@ int GetEngine( 
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDebugEngineCreateEvent2](../../../extensibility/debugger/reference/idebugenginecreateevent2.md)   
  [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)

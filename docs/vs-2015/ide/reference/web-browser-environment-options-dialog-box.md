@@ -57,7 +57,7 @@ Sets options for both the internal Web browser and Internet Explorer. To access 
 > [!NOTE]
 > Use the Browse With dialog box to replace the Visual Studio internal Web browser, which is a version of Internet Explorer, by using a different, external Web browser.  
   
-## See Also  
+## See also  
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)   
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)   
  [HTML Designer](https://msdn.microsoft.com/library/640043cc-3657-4677-a091-bc315e636477)

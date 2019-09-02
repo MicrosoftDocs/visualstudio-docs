@@ -21,7 +21,7 @@ By using this tool, you can precisely measure a length of time in the timeline. 
   
  You can repeat the measurement process, but only the most recent measurement is shown. Click the measure button again to turn the measure mode off.  
   
-## See Also  
+## See also  
  [Manage Channels](../profiling/manage-channels.md)   
  [Zoom Control (Threads View)](../profiling/zoom-control-threads-view.md)   
  [Threads View](../profiling/threads-view-parallel-performance.md)

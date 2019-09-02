@@ -462,7 +462,7 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
   
     ```  
   
-## See Also  
+## See also  
  [Supporting Symbol-Browsing Tools](../../extensibility/internals/supporting-symbol-browsing-tools.md)   
  [How to: Register a Library with the Object Manager](../../extensibility/internals/how-to-register-a-library-with-the-object-manager.md)   
  [How to: Identify Symbols in a Library](../../extensibility/internals/how-to-identify-symbols-in-a-library.md)   

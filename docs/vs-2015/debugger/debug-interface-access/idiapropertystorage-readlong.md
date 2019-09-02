@@ -41,5 +41,5 @@ HRESULT ReadDLONG ( 
 ## Remarks  
  A `LONG` is defined by Windows as a 32-bit signed integer.  
   
-## See Also  
+## See also  
  [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)

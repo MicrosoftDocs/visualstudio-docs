@@ -96,6 +96,6 @@ SCCRTN SccGet(
   
     6. The updated b.txt file can now be checked in.  
   
-## See Also  
+## See also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
  [Bitflags Used by Specific Commands](../extensibility/bitflags-used-by-specific-commands.md)

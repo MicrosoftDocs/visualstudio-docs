@@ -69,6 +69,6 @@ Allows [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project files to
 </ProjectExtensions>  
 ```  
   
-## See Also  
+## See also  
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)  
  [MSBuild](msbuild.md)

@@ -69,7 +69,7 @@ Code snippets are ready-made snippets of code you can quickly insert into your c
 |using|Creates a [using](https://msdn.microsoft.com/library/b42b8e61-5e7e-439c-bb71-370094b44ae8) directive.|Inside a namespace (including the global namespace).|  
 |while|Creates a [while](https://msdn.microsoft.com/library/72a0765c-6852-4aca-b327-4a11cb7f5c59) loop.|Inside a method, an indexer, a property accessor, or an event accessor.|  
   
-## See Also  
+## See also  
  [Code Snippet Functions](../ide/code-snippet-functions.md)   
  [Code Snippets](../ide/code-snippets.md)   
  [How to: Create a New Snippet with Replacements](https://msdn.microsoft.com/8d56d43c-097a-475b-aa85-cae1554b6338)   

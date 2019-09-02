@@ -40,6 +40,6 @@ NOTE]
   
 - Use the **Call Stack** window.  
   
-## See Also  
+## See also  
  [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)   
  [Debugging Native Code](../debugger/debugging-native-code.md)

@@ -49,5 +49,5 @@ You can use geometry shapes to specify how instances of domain classes are displ
 |Fixed Tooltip Text|The text that is used for a fixed tooltip.|\<none>|  
 |Help Keyword|The keyword that is used to index F1 help for this shape.|\<none>|  
   
-## See Also  
+## See also  
  [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

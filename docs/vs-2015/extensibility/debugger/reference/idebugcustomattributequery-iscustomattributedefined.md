@@ -78,5 +78,5 @@ Error:
 }  
 ```  
   
-## See Also  
+## See also  
  [IDebugCustomAttributeQuery](../../../extensibility/debugger/reference/idebugcustomattributequery.md)

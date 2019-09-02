@@ -70,7 +70,7 @@ manager: "wpickett"
 **LinkDemand: Caller's Deny has no effect on LinkDemand with the asserted permission.**
 **LinkDemand: Caller's Deny has no effect with LinkDemand-protected code.**
 **LinkDemand: This Deny has no effect with LinkDemand-protected code.**
-## See Also
+## See also
  <xref:System.Security.CodeAccessPermission.PermitOnly%2A?displayProperty=fullName>
  <xref:System.Security.CodeAccessPermission.Assert%2A?displayProperty=fullName>
  <xref:System.Security.CodeAccessPermission.Deny%2A?displayProperty=fullName>

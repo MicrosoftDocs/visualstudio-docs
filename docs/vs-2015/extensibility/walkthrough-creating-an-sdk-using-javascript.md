@@ -309,5 +309,5 @@ This walkthrough teaches how to use JavaScript to create a simple math SDK as a 
   
 12. In the app UI, enter any two numbers, select an operation, and then choose the **=** button. The correct result appears.  
   
-## See Also  
+## See also  
  [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md)

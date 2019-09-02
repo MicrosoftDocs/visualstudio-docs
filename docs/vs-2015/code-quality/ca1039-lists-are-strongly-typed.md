@@ -64,7 +64,7 @@ manager: "wpickett"
 
  [CA1038: Enumerators should be strongly typed](../code-quality/ca1038-enumerators-should-be-strongly-typed.md)
 
-## See Also
+## See also
  <xref:System.Collections.CollectionBase?displayProperty=fullName>
  <xref:System.Collections.ICollection?displayProperty=fullName>
  <xref:System.Collections.IEnumerable?displayProperty=fullName>

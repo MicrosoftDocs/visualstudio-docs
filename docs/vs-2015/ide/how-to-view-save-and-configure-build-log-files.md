@@ -50,7 +50,7 @@ After you build a project in the Visual Studio IDE, you can view information abo
     > [!IMPORTANT]
     > You must rebuild the project for your changes to take effect in the **Output** window (all projects) and the *ProjectName*.txt file (C++ projects only).  
   
-## See Also  
+## See also  
  [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)   
  [Building and Cleaning Projects and Solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)

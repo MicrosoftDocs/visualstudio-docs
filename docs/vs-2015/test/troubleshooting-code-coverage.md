@@ -139,5 +139,5 @@ The code coverage analysis tool in Visual Studio collects data for native and ma
  Resolution  
  None.  
   
-## See Also  
+## See also  
  [Using Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)

@@ -42,5 +42,5 @@ int Detach(
 ## Remarks  
  The interface passed in `pSession` is to be treated only as a cookie, a value that uniquely identifies the session debug manager that originally attached to this process; none of the methods on the supplied interface are functional.  
   
-## See Also  
+## See also  
  [IDebugProcessEx2](../../../extensibility/debugger/reference/idebugprocessex2.md)

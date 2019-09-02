@@ -392,6 +392,6 @@ namespace Company.CompartmentDrag
   
 ```  
   
-## See Also  
+## See also  
  [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)   
  [Properties of Decorators](../modeling/properties-of-decorators.md)

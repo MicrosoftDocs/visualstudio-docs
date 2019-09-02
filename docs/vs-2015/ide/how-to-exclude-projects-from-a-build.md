@@ -49,7 +49,7 @@ You can build a solution without building all projects that it contains. For exa
   
 7. On the menu bar, choose **Build**, **Rebuild Solution**.  
   
-## See Also  
+## See also  
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
  [How to: Create and Edit Configurations](../ide/how-to-create-and-edit-configurations.md)   
  [How to: Build Multiple Configurations Simultaneously](../ide/how-to-build-multiple-configurations-simultaneously.md)

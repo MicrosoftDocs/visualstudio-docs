@@ -63,6 +63,6 @@ Wraps LC.exe, which generates a .license file from a .licx file. For more inform
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)

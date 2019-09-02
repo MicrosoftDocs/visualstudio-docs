@@ -348,7 +348,7 @@ Output:
 -->  
 ```  
   
-## See Also  
+## See also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)  
  [MSBuild](msbuild.md)   
  [How to: Select the Files to Build](../msbuild/how-to-select-the-files-to-build.md)   

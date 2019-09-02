@@ -49,7 +49,7 @@ The Call Tree view displays the function execution paths that were traversed in 
 |**Inclusive Samples**|The number of samples that were collected in this function when it was called by the parent function in the call tree. This number includes samples that were collected in functions that were called by the function.|  
 |**Inclusive Samples %**|The percentage of all samples in the profiling run that were inclusive samples of this function when it was called by the parent function in the call tree.|  
   
-## See Also  
+## See also  
  [How to: Customize Report View Columns](../profiling/how-to-customize-report-view-columns.md)   
  [Call Tree View - Profiler Sampling Data](../profiling/call-tree-view-sampling-data.md)   
  [Call Tree View - Sampling](../profiling/call-tree-view-dotnet-memory-sampling-data.md)   

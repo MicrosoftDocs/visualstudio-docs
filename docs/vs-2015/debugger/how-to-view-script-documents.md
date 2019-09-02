@@ -44,5 +44,5 @@ In earlier versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], client-side
   
      The client-side script file opens in a source window.  
   
-## See Also  
+## See also  
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)

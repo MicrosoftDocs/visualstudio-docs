@@ -88,5 +88,5 @@ In Visual Studio, you can use a *layer diagram* to visualize the high-level, log
     |**Supports Validation**|If **True**, then the layer validation process can verify that the project conforms to dependencies to or from this element.<br /><br /> If **False**, then the link does not participate in the layer validation process.<br /><br /> For more information, see [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md).|  
     |**Identifier**|The reference to the linked artifact|  
   
-## See Also  
+## See also  
  [Create models for your app](../modeling/create-models-for-your-app.md)

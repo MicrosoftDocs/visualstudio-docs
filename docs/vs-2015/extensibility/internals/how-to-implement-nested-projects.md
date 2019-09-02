@@ -82,7 +82,7 @@ When you create a nested project type there are a several additional steps that 
   
     [Filtering the AddItem Dialog Box for Nested Projects](../../extensibility/internals/filtering-the-additem-dialog-box-for-nested-projects.md)  
   
-## See Also  
+## See also  
  [Adding Items to the Add New Item Dialog Boxes](../../extensibility/internals/adding-items-to-the-add-new-item-dialog-boxes.md)   
  [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md)   
  [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)   

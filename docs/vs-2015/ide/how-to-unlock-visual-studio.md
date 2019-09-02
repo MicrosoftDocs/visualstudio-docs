@@ -66,5 +66,5 @@ You can evaluate Visual Studio for free up to 30 days. When you sign into the ID
 
 2. If you have another subscription associated with a different account, add that account to the All Accounts list on the left side of File > Account Settings dialog by clicking on the “Add an account…” link.
 
-## See Also
+## See also
  [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)

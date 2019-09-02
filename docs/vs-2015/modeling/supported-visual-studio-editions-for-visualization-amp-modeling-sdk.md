@@ -40,5 +40,5 @@ The following are lists of the Visual Studio editions that are supported with [!
 > [!NOTE]
 > To make a DSL able to run on a Shell product, you must set the **Supported VS Edition** field in the Extension Manifest. For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
 
-## See Also
+## See also
  [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

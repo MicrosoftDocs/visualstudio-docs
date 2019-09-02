@@ -41,5 +41,5 @@ HRESULT ReadBOOL ( 
 ## Remarks  
  For consistent results, interpret the `BOOL` value so that nonzero values are `TRUE` and zero is `FALSE`.  
   
-## See Also  
+## See also  
  [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)

@@ -79,7 +79,7 @@ Specifies the organization and contents of multi-project templates.
 </VSTemplate>  
 ```  
   
-## See Also  
+## See also  
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [How to: Create Multi-Project Templates](../ide/how-to-create-multi-project-templates.md)

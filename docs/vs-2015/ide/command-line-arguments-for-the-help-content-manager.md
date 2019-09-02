@@ -82,6 +82,6 @@ UpdateAlreadyRunning = 1300 – (Signals that the update didn't run because anot
   
 ```  
   
-## See Also  
+## See also  
  [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md)   
  [Help Content Manager Overrides](../ide/help-content-manager-overrides.md)

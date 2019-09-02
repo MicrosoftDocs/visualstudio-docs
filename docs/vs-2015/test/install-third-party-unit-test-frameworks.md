@@ -52,5 +52,5 @@ Visual Studio Test Explorer can run any unit test framework that has developed a
   
 7. Choose a framework in the results list to navigate to a Visual Studio Gallery page for the tool.  
   
-## See Also  
+## See also  
  [Unit Test Your Code](../test/unit-test-your-code.md)

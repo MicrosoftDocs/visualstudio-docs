@@ -296,7 +296,7 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
 
 7. **Stop debugging.** On the **Debug** menu, choose **Stop Debugging** (Keyboard: **Shift+F5**). This ends your debug session.
 
-## See Also
+## See also
  [Start a debug session  (JavaScript)](../debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md)
  [Quickstart: Debugger navigation (JavaScript)](../debugger/control-execution-of-a-store-app-in-a-visual-studio-debug-session-for-windows-store-apps-javascript.md)
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)

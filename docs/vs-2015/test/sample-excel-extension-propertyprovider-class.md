@@ -29,7 +29,7 @@ This internal class extends the <xref:Microsoft.VisualStudio.TestTools.UITesting
 ## Code Generation Customization Methods  
  These methods are not implemented for this extension. Therefore, they either return `null` or throw the <xref:System.NotImplementedException>.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider>   
  <xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard>   
  [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)

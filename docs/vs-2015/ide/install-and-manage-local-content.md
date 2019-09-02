@@ -118,5 +118,5 @@ By using the Microsoft Help Viewer, you can add, remove, update, and move the He
   
 3. Choose the **Close** button when the content has been moved.  
   
-## See Also  
+## See also  
  [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)

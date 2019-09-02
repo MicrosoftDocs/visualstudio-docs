@@ -45,5 +45,5 @@ int GetMachineUtilities_V7(
 ## Remarks  
  [!INCLUDE[vsprvs](../../../includes/vsprvs-md.md)] always returns `E_NOTIMPL` if this method is called.  
   
-## See Also  
+## See also  
  [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)

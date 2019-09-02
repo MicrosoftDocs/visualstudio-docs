@@ -36,6 +36,6 @@ With this dialog box, you can customize the action that occurs when a breakpoint
  **Continue Execution**  
  This control is enabled only when **Print a Message** is selected. With this control selected, you can use a breakpoint as a tracepoint to trace your program execution, rather than breaking when the location is hit.  
   
-## See Also  
+## See also  
  [Using Breakpoints](../debugger/using-breakpoints.md)   
  [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)

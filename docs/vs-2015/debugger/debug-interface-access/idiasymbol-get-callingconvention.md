@@ -44,6 +44,6 @@ HRESULT get_callingConvention ( 
 |Header:|dia2.h|  
 |Version:|DIA SDK v7.0|  
   
-## See Also  
+## See also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [CV_call_e Enumeration](../../debugger/debug-interface-access/cv-call-e.md)

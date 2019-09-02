@@ -31,7 +31,7 @@ The following table lists shortcuts that you can use to modify a path while you 
 |Create a smooth corner when joining two paths|Select two paths, click the **Pen** tool, click an end point of one of the paths, and then drag an end point of the other path|![](../designers/media/bd12dfa4-112e-4f37-9765-3479e6b69894.png "bd12dfa4-112e-4f37-9765-3479e6b69894")<br /><br /> Pen join pointer|  
 |Create a new path|Hold down CTRL and click outside the previous path to stop adding points to the previous path, and then click or drag where you want the new path to begin|![](../designers/media/69758176-5f53-465b-808c-f13fd1a0b3f2.png "69758176-5f53-465b-808c-f13fd1a0b3f2")<br /><br /> Pen start pointer|  
   
-## See Also  
+## See also  
  [Keyboard shortcuts and modifier keys](../designers/keyboard-shortcuts-and-modifier-keys-in-blend.md)   
  [Artboard modifier keys](../designers/artboard-modifier-keys-in-blend.md)   
  [Direct Selection tool modifier keys](../designers/direct-selection-tool-modifier-keys-in-blend.md)   

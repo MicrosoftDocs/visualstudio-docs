@@ -38,6 +38,6 @@ public int GetComputerInfo(
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
-## See Also  
+## See also  
  [IDebugWindowsComputerPort2](../../../extensibility/debugger/reference/idebugwindowscomputerport2.md)   
  [COMPUTER_INFO](../../../extensibility/debugger/reference/computer-info.md)

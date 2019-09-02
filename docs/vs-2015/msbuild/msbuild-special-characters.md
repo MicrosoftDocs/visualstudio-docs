@@ -34,6 +34,6 @@ manager: jillfra
 |?|%3F|Wildcard character for file names in `Include` and `Exclude` attributes|  
 |*|%2A|Wildcard character for use in file names in `Include` and `Exclude` attributes|  
   
-## See Also  
+## See also  
  [Advanced Concepts](../msbuild/msbuild-advanced-concepts.md)   
  [Items](../msbuild/msbuild-items.md)

@@ -41,6 +41,6 @@ To support on-demand loading, a service provider must register its global servic
 regasm /tlb MyAssembly.dll  
 ```  
   
-## See Also  
+## See also  
  [Using and Providing Services](../extensibility/using-and-providing-services.md)   
  [Service Essentials](../extensibility/internals/service-essentials.md)

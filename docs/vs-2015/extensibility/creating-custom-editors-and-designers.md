@@ -94,5 +94,5 @@ The Visual Studio integrated development environment (IDE) can host different ty
  [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)  
  Explains how to create UI elements that match the rest of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>

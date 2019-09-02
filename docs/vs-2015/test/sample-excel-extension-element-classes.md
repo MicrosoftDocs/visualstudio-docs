@@ -43,7 +43,7 @@ The extension uses classes that are derived from <xref:Microsoft.VisualStudio.Te
   
  The `Utilities` class has helper methods that return a variety of information about the UI. Some methods use direct calls into external system DLLs, such as **USER32.DLL** and **OLEACC.DLL**, to get window handles from the UI<strong>.</strong>  
   
-## See Also  
+## See also  
  <xref:System.Runtime.InteropServices.ComVisibleAttribute>   
  <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.IQueryElement>   
  [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)

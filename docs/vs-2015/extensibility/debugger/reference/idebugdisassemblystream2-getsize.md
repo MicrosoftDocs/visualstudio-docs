@@ -42,7 +42,7 @@ int GetSize( 
 ## Remarks  
  The value returned from this method can be used to allocate an array of [DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md) structures which is then passed to the [Read](../../../extensibility/debugger/reference/idebugdisassemblystream2-read.md) method.  
   
-## See Also  
+## See also  
  [IDebugDisassemblyStream2](../../../extensibility/debugger/reference/idebugdisassemblystream2.md)   
  [DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md)   
  [Read](../../../extensibility/debugger/reference/idebugdisassemblystream2-read.md)

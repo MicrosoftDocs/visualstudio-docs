@@ -80,7 +80,7 @@ If `false`, specifies that the template will only be displayed under the specifi
 </VSTemplate>  
 ```  
   
-## See Also  
+## See also  
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
  [TemplateGroupID Element (Visual Studio Templates)](../extensibility/templategroupid-element-visual-studio-templates.md)

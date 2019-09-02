@@ -34,7 +34,7 @@ There is one `SymTagCompiland` symbol for each Compiland linked to the .exe file
 |[IDiaSymbol::get_symIndexId](../../debugger/debug-interface-access/idiasymbol-get-symindexid.md)|`DWORD`|Index ID of symbol.|  
 |[IDiaSymbol::get_symTag](../../debugger/debug-interface-access/idiasymbol-get-symtag.md)|`DWORD`|Returns `SymTagCompiland` (one of the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) values).|  
   
-## See Also  
+## See also  
  [CompilandDetails](../../debugger/debug-interface-access/compilanddetails.md)   
  [CompilandEnv](../../debugger/debug-interface-access/compilandenv.md)   
  [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)

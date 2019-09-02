@@ -39,5 +39,5 @@ Deletes the temporary files that MSBuild creates when a Visual C++ project is bu
 
 ## Remarks  
 
-## See Also  
+## See also  
  [Task Reference](../msbuild/msbuild-task-reference.md)

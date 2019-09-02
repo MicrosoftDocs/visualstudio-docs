@@ -101,6 +101,6 @@ Manage different versions of your modeling projects and diagrams, including code
   
 - Renaming or deleting elements that are referenced only within their own package.  
   
-## See Also  
+## See also  
  [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)   
  [Share models and exporting diagrams](../modeling/share-models-and-exporting-diagrams.md)

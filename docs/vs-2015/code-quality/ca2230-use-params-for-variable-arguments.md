@@ -45,6 +45,6 @@ manager: "wpickett"
 
  [!code-csharp[FxCop.Usage.UseParams#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Usage.UseParams/cs/FxCop.Usage.UseParams.cs#1)]
 
-## See Also
+## See also
  <xref:System.Reflection.CallingConventions?displayProperty=fullName>
  [Language Independence and Language-Independent Components](https://msdn.microsoft.com/library/4f0b77d0-4844-464f-af73-6e06bedeafc6)

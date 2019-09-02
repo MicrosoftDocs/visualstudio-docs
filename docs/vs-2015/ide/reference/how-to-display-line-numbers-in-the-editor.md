@@ -35,7 +35,7 @@ You can display or hide line numbering in your code.
 > [!NOTE]
 > Depending on your language or settings, you may have to select the **Show All Settings** check box in the **Options** dialog box to reveal the **All Languages** sub-node.  
   
-## See Also  
+## See also  
  [Customizing the Editor](../../ide/customizing-the-editor.md)   
  [Text Editor Options Dialog Box](../../ide/reference/text-editor-options-dialog-box.md)   
  [Writing Code](../../ide/writing-code-in-the-code-and-text-editor.md)

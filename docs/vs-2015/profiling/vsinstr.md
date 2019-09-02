@@ -52,7 +52,7 @@ VSInstr [/U] filename [/options]
 |**SuspendOnly:**{**Before**`&#124;`**After**`&#124;`**Top**`&#124;`**Bottom**}`,funcname`|Halts data collection during a profiling run. It inserts the SuspendProfile API at the specified location.<br /><br /> **Before** - immediately before the target function entry.<br /><br /> **After** - immediately after the target function exit.<br /><br /> **Top** - immediately after the target function entry.<br /><br /> **Bottom** - immediately before each return in the target function.<br /><br /> `funcname` - name of the target function.<br /><br /> If the target function contains a StartProfile function, the SuspendProfile function is inserted before it.|  
 |**ResumeOnly:**{**Before**`&#124;`**After**`&#124;`**Top**`&#124;`**Bottom**}`,funcname`|Begins or resumes data collection during a profiling run.<br /><br /> It is usually used to start profiling after a **SuspendOnly** option has stopped profiling. It inserts a ResumeProfile API at the specified location.<br /><br /> **Before** - immediately before the target function entry.<br /><br /> **After** - immediately after the target function exit.<br /><br /> **Top** - immediately after the target function entry.<br /><br /> **Bottom** - immediately before each return in the target function.<br /><br /> `funcname` - name of the target function.<br /><br /> If the target function contains a StopProfile function, the ResumeProfile function is inserted after it.|  
   
-## See Also  
+## See also  
  [VSPerfMon](../profiling/vsperfmon.md)   
  [VSPerfCmd](../profiling/vsperfcmd.md)   
  [VSPerfReport](../profiling/vsperfreport.md)   

@@ -45,5 +45,5 @@ manager: "wpickett"
 ## Related Rules
  [CA1065: Do not raise exceptions in unexpected locations](../code-quality/ca1065-do-not-raise-exceptions-in-unexpected-locations.md)
 
-## See Also
+## See also
  [Design Warnings](../code-quality/design-warnings.md)

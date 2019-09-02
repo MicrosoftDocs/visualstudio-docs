@@ -37,7 +37,7 @@ This topic describes how use the **Select Rule Set** dialog box in the legacy [!
   
  For more information about conditions, see [Using Conditions in Workflows](http://go.microsoft.com/fwlink?LinkID=65009).  
   
-## See Also  
+## See also  
  [PolicyActivity](http://go.microsoft.com/fwlink?LinkID=65019)   
  [Rule Set Editor Dialog Box (Legacy)](../workflow-designer/rule-set-editor-dialog-box-legacy.md)   
  [Using the PolicyActivity Activity](http://go.microsoft.com/fwlink?LinkID=65004)   

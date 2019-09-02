@@ -79,6 +79,6 @@ manager: jillfra
   
 3. Manually publish (copy) the files to your deployment source location (Web server, UNC share, or CD-ROM).  
   
-## See Also  
+## See also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Choosing a ClickOnce Deployment Strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)

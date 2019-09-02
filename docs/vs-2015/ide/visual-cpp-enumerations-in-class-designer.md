@@ -39,6 +39,6 @@ enum class CardSuit {
   
  For more information about using the `enum` type, see [Enumerations](https://msdn.microsoft.com/library/081829db-5dca-411e-a53c-bffef315bcb3).  
   
-## See Also  
+## See also  
  [Working with Visual C++ Code (Class Designer)](../ide/working-with-visual-cpp-code-class-designer.md)   
  [Enumerations](https://msdn.microsoft.com/library/081829db-5dca-411e-a53c-bffef315bcb3)

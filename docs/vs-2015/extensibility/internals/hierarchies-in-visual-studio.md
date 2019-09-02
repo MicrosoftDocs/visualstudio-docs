@@ -28,7 +28,7 @@ The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development envir
 
  When a user opens an item in an editor, the hierarchy that controls that item is selected and becomes the active hierarchy. The selected hierarchy determines the set of commands available to act on the item. Tracking user focus in this manner enables the hierarchy to reflect the user's current context.
 
-## See Also
+## See also
  [Project Types](../../extensibility/internals/project-types.md)
  [Selection and Currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)
  [VSSDK Samples](../../misc/vssdk-samples.md)

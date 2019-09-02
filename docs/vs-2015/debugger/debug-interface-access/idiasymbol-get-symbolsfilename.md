@@ -40,6 +40,6 @@ HRESULT get_symbolsFileName ( 
 ## Remarks  
  This property is valid only for symbols with a [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) value of `SymTagExe` that also have global scope.  
   
-## See Also  
+## See also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)

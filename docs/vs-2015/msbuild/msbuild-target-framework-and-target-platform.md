@@ -79,5 +79,5 @@ A project can be built to run on a *target framework*, which is a particular ver
   
 ```  
   
-## See Also  
+## See also  
  [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)

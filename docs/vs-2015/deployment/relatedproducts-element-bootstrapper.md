@@ -79,5 +79,5 @@ The `RelatedProducts` element defines other products that either depend upon or 
 </RelatedProducts>  
 ```  
   
-## See Also  
+## See also  
  [\<Product> Element](../deployment/product-element-bootstrapper.md)

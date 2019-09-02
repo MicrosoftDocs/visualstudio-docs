@@ -287,5 +287,5 @@ A deployment is an optional operation for projects. A Web project, for example, 
 > [!NOTE]
 > All code examples provided in this topic are parts of a larger example, [VSSDK Samples](../../misc/vssdk-samples.md).  
   
-## See Also  
+## See also  
  [Project Subtypes](../../extensibility/internals/project-subtypes.md)

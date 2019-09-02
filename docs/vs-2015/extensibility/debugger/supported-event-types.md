@@ -81,5 +81,5 @@ Visual Studio debugging currently supports the following event types:
 |[IDebugThreadDestroyEvent2](../../extensibility/debugger/reference/idebugthreaddestroyevent2.md)|Required|Required|No|  
 |[IDebugThreadNameChangedEvent2](../../extensibility/debugger/reference/idebugthreadnamechangedevent2.md)|Allowed, but not required|Allowed, but not required|No|  
   
-## See Also  
+## See also  
  [Sending Events](../../extensibility/debugger/sending-events.md)

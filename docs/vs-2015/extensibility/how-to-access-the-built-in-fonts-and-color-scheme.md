@@ -91,7 +91,7 @@ if (spPropCatContainer != NULL){
 }  
 ```  
   
-## See Also  
+## See also  
  [Using Fonts and Colors](../extensibility/using-fonts-and-colors.md)   
  [Getting Font and Color Information for Text Colorization](../extensibility/getting-font-and-color-information-for-text-colorization.md)   
  [Accessing Stored Font and Color Settings](../extensibility/accessing-stored-font-and-color-settings.md)   

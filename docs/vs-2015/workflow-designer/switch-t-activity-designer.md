@@ -47,5 +47,5 @@ The <xref:System.Activities.Statements.Switch%601> activity evaluates a specifie
   
    Note that you must select the case itself to delete it. Selecting and deleting the activity inside a case only deletes the activity not the case.  
   
-## See Also  
+## See also  
  [Control Flow](../workflow-designer/control-flow-activity-designers.md)

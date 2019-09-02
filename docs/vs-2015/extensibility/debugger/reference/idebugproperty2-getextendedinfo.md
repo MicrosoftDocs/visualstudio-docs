@@ -57,7 +57,7 @@ int GetExtendedInfo ( 
 |guidExtendedInfoSlot|{6df235ad-82c6-4292-9c97-7389770bc42f}|Returns a 32-bit number representing the desired slot number if this property represents a managed code local address.|  
 |guidExtendedInfoSignature|{b5fb6d46-f805-417f-96a3-8ba737073ffd}|Returns a string containing the signature of the variable associated with the property object.|  
   
-## See Also  
+## See also  
  [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)   
  [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)   
  [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)

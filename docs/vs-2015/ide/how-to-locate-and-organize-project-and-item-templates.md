@@ -166,7 +166,7 @@ Template files must be placed in a location that Visual Studio recognizes so tha
   
 8. Put the new .zip file in the directory that had the deleted .zip file.  
   
-## See Also  
+## See also  
  [Customizing Templates](../ide/customizing-project-and-item-templates.md)   
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
  [NumberOfParentCategoriesToRollUp (Visual Studio Templates)](../extensibility/numberofparentcategoriestorollup-visual-studio-templates.md)   

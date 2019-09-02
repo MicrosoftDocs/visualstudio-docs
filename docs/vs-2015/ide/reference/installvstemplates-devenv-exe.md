@@ -30,5 +30,5 @@ devenv.exe /InstallVSTemplates
   
 ## Remarks  
   
-## See Also  
+## See also  
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)

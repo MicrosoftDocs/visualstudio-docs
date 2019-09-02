@@ -120,6 +120,6 @@ Specifies a possible block of code for the `Choose` element to select.
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Conditional Constructs](../msbuild/msbuild-conditional-constructs.md)   
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)

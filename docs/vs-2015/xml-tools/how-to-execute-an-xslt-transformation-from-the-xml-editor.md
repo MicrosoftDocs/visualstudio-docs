@@ -59,5 +59,5 @@ The XML Editor allows you to associate an XSLT style sheet with an XML document,
   
      The resulting output from the XSLT transformation is displayed in a new document window and the editor used in the output window depends on the file extension of your **Output** document property.  
   
-## See Also  
+## See also  
  [XML Editor](../xml-tools/xml-editor.md)

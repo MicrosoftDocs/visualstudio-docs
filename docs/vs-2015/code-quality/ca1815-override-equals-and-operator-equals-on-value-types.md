@@ -61,5 +61,5 @@ manager: "wpickett"
 
  [CA2226: Operators should have symmetrical overloads](../code-quality/ca2226-operators-should-have-symmetrical-overloads.md)
 
-## See Also
+## See also
  <xref:System.Object.Equals%2A?displayProperty=fullName>

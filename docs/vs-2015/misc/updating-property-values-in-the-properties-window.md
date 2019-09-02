@@ -39,6 +39,6 @@ There are two ways to keep the **Properties** window in sync with property value
   
 5. `IConnection` can also be called to obtain access to connection point sub-objects with the <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPoint> interface for each outgoing IID. Through the <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPoint> interface, a client starts or terminates an advisory loop with the connectable object and the client's own sync. The client can also call the <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPoint> interface to obtain an enumerator object with the <xref:Microsoft.VisualStudio.OLE.Interop.IEnumConnections> interface to enumerate the connections that it knows about.  
   
-## See Also  
+## See also  
  [Announcing Property Window Selection Tracking](../misc/announcing-property-window-selection-tracking.md)   
  [Extending Properties](../extensibility/internals/extending-properties.md)

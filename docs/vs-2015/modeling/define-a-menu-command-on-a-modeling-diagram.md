@@ -356,7 +356,7 @@ namespace SwapClassNames
 }  
 ```  
 
-## See Also  
+## See also  
  [Define and install a modeling extension](../modeling/define-and-install-a-modeling-extension.md)   
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   
  [Define a gesture handler on a modeling diagram](../modeling/define-a-gesture-handler-on-a-modeling-diagram.md)   

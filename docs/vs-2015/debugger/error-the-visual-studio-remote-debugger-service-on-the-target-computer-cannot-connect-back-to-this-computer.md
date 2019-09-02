@@ -70,6 +70,6 @@ This error means that the Visual Studio Remote Debugger service is running under
   
 - Run the Remote Debugging Monitor as an application instead of a service.  
   
-## See Also  
+## See also  
  [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)   
  [Remote Debugging](../debugger/remote-debugging.md)

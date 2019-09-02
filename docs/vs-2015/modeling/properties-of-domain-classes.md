@@ -32,5 +32,5 @@ Domain classes have the properties in the following table. For information about
 |Display Name|The name that will be displayed in the generated designer for this domain class.|\<none>|  
 |Help Keyword|The optional keyword that is used to index F1 help for this domain class.|\<none>|  
   
-## See Also  
+## See also  
  [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

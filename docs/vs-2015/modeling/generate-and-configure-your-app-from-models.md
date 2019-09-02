@@ -72,7 +72,7 @@ You can generate or configure parts of your application from a model. The model 
   
      For example, a UML class diagram is a collection of boxes and arrows; with this notation you can in theory define anything. But we do not recommend that you use the class diagram except where you are in fact describing a set of types. For example, you could adapt class diagrams to describe different types of Web pages.  
   
-## See Also  
+## See also  
  [Generate files from a UML model](../modeling/generate-files-from-a-uml-model.md)   
  [Read a UML model in program code](../modeling/read-a-uml-model-in-program-code.md)   
  [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)   

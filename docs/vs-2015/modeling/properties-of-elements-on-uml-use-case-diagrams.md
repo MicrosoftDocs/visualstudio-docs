@@ -41,6 +41,6 @@ In a UML Use Case Diagram, each element on the diagram has properties. To see th
   
  For a list of the properties of associations, see [Properties of associations on UML class diagrams](../modeling/properties-of-associations-on-uml-class-diagrams.md).  
   
-## See Also  
+## See also  
  [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)   
  [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md)
