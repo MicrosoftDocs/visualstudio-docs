@@ -134,7 +134,7 @@ For details of the commands and actions you can use when working with code maps,
 
  Now you're done with your investigation. You successfully found and fixed the problem by mapping the code. You also have a map that helps you navigate around the code, remember what you learned, and shows the steps you took to fix the problem.
 
-## See Also
+## See also
 
 - [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)
 - [Visualize code](../modeling/visualize-code.md)

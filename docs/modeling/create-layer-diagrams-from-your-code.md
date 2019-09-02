@@ -150,7 +150,7 @@ Before you create a dependency diagram, make sure your solution has a modeling p
 
 - [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)
 
-## See Also
+## See also
 
 - [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#edition-support-for-architecture-and-modeling-tools)
 - [Video: Validate your architecture dependencies in real time](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4)
