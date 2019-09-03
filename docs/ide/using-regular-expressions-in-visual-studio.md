@@ -27,7 +27,7 @@ The following table contains some regular expression characters, operators, cons
 
 |Purpose|Expression|Example|
 |-------------|----------------|-------------|
-|Match any single character (except a line break). For more information, see [Any character](/dotnet/standard/base-types/character-classes-in-regular-expressions#any-character-).|.|`a.o` matches "aro" in "around" and "abo" in "about" but not "acro" in "across".|
+|Match any single character (except a line break). For more information, see [Any character](/dotnet/standard/base-types/character-classes-in-regular-expressions#any-character-).|.|`a.o` matches "aro" in "around" and "abo" in "about" but not "acro" in "across"|
 |Match zero or more occurrences of the preceding expression (match as many characters as possible). For more information, see [Match zero or more times](/dotnet/standard/base-types/quantifiers-in-regular-expressions#match-zero-or-more-times-).|*|`a*r` matches "r" in "rack", "ar" in "ark", and "aar" in "aardvark"|
 |Match any character zero or more times (Wildcard \*)|.*|`c.*e` matches "cke" in "racket", "comme" in "comment", and "code" in "code"|
 |Match one or more occurrences of the preceding expression (match as many characters as possible). For more information, see [Match one or more times](/dotnet/standard/base-types/quantifiers-in-regular-expressions#match-one-or-more-times-).|+|`e.+d` matches "eed" in "feeder" but not "ed"|
@@ -36,12 +36,12 @@ The following table contains some regular expression characters, operators, cons
 |Match one or more occurrences of the preceding expression (match as few characters as possible). For more information, see [Match one or more times (lazy match)](/dotnet/standard/base-types/quantifiers-in-regular-expressions#match-one-or-more-times-lazy-match-).|+?|`e.+?e` matches "ente" and "erprise" in "enterprise" but not the whole word "enterprise"|
 |Anchor the match string to the [beginning of a line or string](/dotnet/standard/base-types/anchors-in-regular-expressions#start-of-string-or-line-)|^|`^car` matches the word "car" only when it appears at the beginning of a line|
 |Anchor the match string to the [end of a line](/dotnet/standard/base-types/anchors-in-regular-expressions#end-of-string-or-line-)|\r?$|`end\r?$` matches "end" only when it appears at the end of a line|
-|Anchor the match string to the end of the file|$|`end$` matches "end" only when it appears at the end of the file.|
+|Anchor the match string to the end of the file|$|`end$` matches "end" only when it appears at the end of the file|
 |Match any single character in a set|[abc]|`b[abc]` matches "ba", "bb", and "bc"|
-|Match any character in a range of characters|[a-f]|`be[n-t]` matches "bet" in "between", "ben" in "beneath", and "bes" in "beside", but not "below".|
+|Match any character in a range of characters|[a-f]|`be[n-t]` matches "bet" in "between", "ben" in "beneath", and "bes" in "beside", but not "below"|
 |Capture and implicitly number the expression contained within parenthesis|()|`([a-z])X\1` matches "aXa"and "bXb", but not "aXb". "\1" refers to the first expression group "[a-z]". For more information, see [Capture groups and replacement patterns](#capture-groups-and-replacement-patterns). |
 |Invalidate a match|(?!abc)|`real(?!ity)` matches "real" in "realty" and "really" but not in "reality." It also finds the second "real" (but not the first "real") in "realityreal".|
-|Match any character that is not in a given set of characters. For more information, see [Negative character group](/dotnet/standard/base-types/character-classes-in-regular-expressions#negative-character-group-).|[^abc]|`be[^n-t]` matches "bef" in "before", "beh" in "behind", and "bel" in "below", but not "beneath".|
+|Match any character that is not in a given set of characters. For more information, see [Negative character group](/dotnet/standard/base-types/character-classes-in-regular-expressions#negative-character-group-).|[^abc]|`be[^n-t]` matches "bef" in "before", "beh" in "behind", and "bel" in "below", but not "beneath"|
 |Match either the expression before or the one after the symbol|&#124;|`(sponge|mud) bath` matches "sponge bath" and "mud bath"|
 |[Escape the character](/dotnet/standard/base-types/character-escapes-in-regular-expressions) following the backslash| \\ |`\^` matches the character ^|
 |Specify the number of occurrences of the preceding character or group. For more information, see [Match exactly n times](/dotnet/standard/base-types/quantifiers-in-regular-expressions#match-exactly-n-times-n).|{n}, where 'n' is the number of occurrences|`x(ab){2}x` matches "xababx"<br/>`x(ab){2,3}x` matches "xababx" and "xabababx" but not "xababababx"|
@@ -50,8 +50,8 @@ The following table contains some regular expression characters, operators, cons
 |Match a line break (that is, a carriage return followed by a new line)|\r?\n|`End\r?\nBegin` matches "End" and "Begin" only when "End" is the last string in a line and "Begin" is the first string in the next line|
 |Match any [word character](/dotnet/standard/base-types/character-classes-in-regular-expressions#word-character-w)|\w|`a\wd` matches "add" and "a1d" but not "a d"|
 |Match any [whitespace character](/dotnet/standard/base-types/character-classes-in-regular-expressions#whitespace-character-s)|\s|`Public\sInterface` matches the phrase "Public Interface"|
-|Match any [decimal digit character](/dotnet/standard/base-types/character-classes-in-regular-expressions#decimal-digit-character-d)|\d|`\d` matches and "3" in "3456", "2" in 23", and "1" in "1".|
-|Match a Unicode character|\uXXXX where XXXX specifies the Unicode character value.|`\u0065` matches the character "e".|
+|Match any [decimal digit character](/dotnet/standard/base-types/character-classes-in-regular-expressions#decimal-digit-character-d)|\d|`\d` matches and "3" in "3456", "2" in 23", and "1" in "1"|
+|Match a Unicode character|\uXXXX where XXXX specifies the Unicode character value.|`\u0065` matches the character "e"|
 |Match an identifier|\b[\_\w-[0-9]][\_\w]*\b|Matches "type1" but not "&type1" or "#define"|
 |Match a string inside quotes|((\\".+?\\")&#124;('.+?'))|Matches any string inside single or double quotes|
 |Match a hexadecimal number|\b0[xX]([0-9a-fA-F]+\)\b|Matches "0xc67f" but not "0xc67g"|
