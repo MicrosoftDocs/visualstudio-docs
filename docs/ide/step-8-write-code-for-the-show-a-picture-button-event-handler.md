@@ -1,14 +1,14 @@
 ---
 title: "Step 8: Write code for the show a picture button event handler"
-ms.date: 08/22/2019
+ms.date: 08/30/2019
 ms.assetid: 07f4ec00-cda4-42f4-98bb-37edc7167de7
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang: 
+ms.devlang:
  - "csharp"
  - "vb"
-dev_langs: 
+dev_langs:
   - "csharp"
   - "vb"
 author: TerryGLee
@@ -19,23 +19,25 @@ ms.workload:
 ---
 # Step 8: Write code for the show a picture button event handler
 
-In this step, you make the **Show a picture** button work like this:
+In this step, you make the **Show a picture** button work as follows:
 
 - When a user chooses that button, the program opens an <xref:System.Windows.Forms.OpenFileDialog> box.
 
 - If a user opens a picture file, the program shows that picture in the <xref:System.Windows.Forms.PictureBox>.
 
-The IDE has a powerful tool called IntelliSense that helps you write code. As you enter code, the IDE opens a box with suggested completions for partial words that you enter. It tries to determine what you want to do next, and automatically jumps to the last item you choose from the list. You can use the up or down arrows to move in the list, or you can keep typing letters to narrow the choices. When you see the choice you want, choose the **Tab** key to select it. Or, you can ignore the suggestions, if not needed.
+The IDE has a powerful tool called IntelliSense that helps you write code. As you type code, the IDE opens a box with suggested completions for partial words that you enter.
+
+IntelliSense tries to determine what you want to do next, and automatically jumps to the last item you choose from the list. You can use the up or down arrows to move in the list, or you can keep typing letters to narrow the choices. When you see the choice you want, choose the **Tab** key to select it. Or, you can ignore the suggestions, if not needed.
 
 ## To write code for the show a picture button event handler
 
-1. Go to **Windows Forms Designer** and double-click the **Show a picture** button. The IDE immediately goes to the code designer and moves your cursor so it's inside the `showButton_Click()` method that you added previously.
+1. Go to **Windows Forms Designer** and double-click the **Show a picture** button. The IDE immediately goes to the code designer and moves your cursor so it's inside the `showButton_Click()` (alternatively, `ShowButton_Click()`) method that you added previously.
 
 1. Type an `i` on the empty line between the two braces `{ }`. (In Visual Basic, type on the empty line between `Private Sub...` and `End Sub`.) An **IntelliSense** window opens, as shown in the following image.
 
     ![IntelliSense with Visual C&#35; code](../ide/media/express_ifintellisense.png)
 
-1. The **IntelliSense** window should be highlighting the word `if`. (If not, enter a lowercase `f`, and it will.) Notice how a little *tooltip* box next to the **IntelliSense** window appears with the description, **Code snippet for if statement**. (In Visual Basic, the tooltip also states that this is a snippet, but with slightly different wording.) You want to use that snippet, so choose the **Tab** key to insert `if` into your code. Then choose the **Tab** key again to use the `if` snippet. (If you chose somewhere else and your **IntelliSense** window disappeared, backspace over the `i` and retype it, and the **IntelliSense** window opens again.)
+1. The **IntelliSense** window should highlight the word `if`. (If not, enter a lowercase `f`, and it will.) Notice how a *tooltip* box next to the **IntelliSense** window appears with the description, **Code snippet for if statement**. (In Visual Basic, the tooltip also states that this is a snippet, but with slightly different wording.) You want to use that snippet, so choose the **Tab** key to insert `if` into your code. Then choose the **Tab** key again to use the `if` snippet. (If you chose somewhere else and your **IntelliSense** window disappeared, backspace over the `i` and retype it, and the **IntelliSense** window opens again.)
 
     ![Visual C&#35; code](../ide/media/express_highlighttrue.png)
 
@@ -63,7 +65,7 @@ Next, you use IntelliSense to enter more code to open an **Open File** dialog bo
     > [!NOTE]
     > Methods are an important part of any program, and this tutorial has shown several ways to use methods. You can call a component's method to tell it to do something, like how you called the **OpenFileDialog** component's `ShowDialog()` method. You can create your own methods to make your program do things, like the one you're building now, called the `showButton_Click()` method, which opens a dialog box and a picture when a user chooses a button.
 
- 1. For Visual C#, add a space, and then add two equal signs (`==`). For Visual Basic, add a space, and then use a single equal sign (`=`). (Visual C# and Visual Basic use different equality operators.)
+ 1. For C#, add a space, and then add two equal signs (`==`). For Visual Basic, add a space, and then use a single equal sign (`=`). (C# and Visual Basic use different equality operators.)
 
  1. Add another space. As soon as you do, another **IntelliSense** window opens. Start to type `DialogResult` and choose the **Tab** key to add it.
 
@@ -75,7 +77,7 @@ Next, you use IntelliSense to enter more code to open an **Open File** dialog bo
     To learn more about DialogResult, see [DialogResult](<xref:System.Windows.Forms.DialogResult>).
 
     > [!NOTE]
-    > The first line of code should be complete. For Visual C#, it should be the following.
+    > The first line of code should be complete. For C#, it should be similar to the following.
     >
     >  `if (openFileDialog1.ShowDialog() == DialogResult.OK)`
     >

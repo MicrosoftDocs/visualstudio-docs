@@ -1,11 +1,11 @@
 ---
 title: "Tutorial 1: Create a picture viewer"
-ms.date: 08/22/2019
+ms.date: 08/30/2019
 ms.assetid: 3071d6df-2b2f-4e95-ab68-bef727323136
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang: 
+ms.devlang:
  - "csharp"
  - "vb"
 author: TerryGLee
@@ -21,7 +21,7 @@ In this tutorial, you build an app that loads a picture from a file and displays
 > [!NOTE]
 > This tutorial covers both Visual C# and Visual Basic, so focus on the information that's specific to the programming language that you're using.
 
-This tutorial walks you through the following tasks: 
+This tutorial walks you through the following tasks:
 
 * Create a new project.
 

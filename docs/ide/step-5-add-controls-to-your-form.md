@@ -1,11 +1,11 @@
 ---
 title: "Step 5: Add controls to your form"
-ms.date: 08/22/2019
+ms.date: 08/30/2019
 ms.assetid: dc2746f4-0b5c-4674-9ef7-f40f94150f52
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang: 
+ms.devlang:
  - "csharp"
  - "vb"
 author: TerryGLee
@@ -20,7 +20,7 @@ In this step, you add controls, such as a <xref:System.Windows.Forms.PictureBox>
 
 ## How to add controls to your form
 
-1. Go to the **Toolbox** tab (located on the left side of the Visual Studio IDE) and expand the **Common Controls** group. This shows the most common controls that you see on forms.
+1. Choose the **Toolbox** tab on the left side of the Visual Studio IDE (or press **Ctrl**+**Alt**+**X**), and then expand the **Common Controls** group. This shows the most common controls that you see on forms.
 
 1. Double-click the **PictureBox** item to add a PictureBox control to your form. Because the TableLayoutPanel is docked to fill your form, the IDE adds the PictureBox control to the first empty cell (the upper left corner).
 
@@ -38,36 +38,44 @@ In this step, you add controls, such as a <xref:System.Windows.Forms.PictureBox>
     > [!NOTE]
     > If you don't see a **ColumnSpan** property for your PictureBox, then it's likely that the PictureBox was added to the form rather than the TableLayoutPanel. To fix this, choose the **PictureBox**, delete it, choose the **TableLayoutPanel**, and then add a new PictureBox.
 
-1. Choose the **TableLayoutPanel** on the form and then add a CheckBox control to the form. Double-click the **CheckBox** item in the **Toolbox** to add a new CheckBox control to the next free cell in your table. Because a PictureBox takes up the first two cells in the TableLayoutPanel, the CheckBox control is added to the lower-left cell. Choose the **Text** property and type in the word **Stretch**, as shown in the following picture.
+1. Choose the **TableLayoutPanel** on the form and then add a CheckBox control to the form. Double-click the **CheckBox** item in the **Toolbox** to add a new CheckBox control to the next free cell in your table. Because a PictureBox takes up the first two cells in the TableLayoutPanel, the CheckBox control is added to the lower-left cell. Choose the **Text** property and type in the word **Stretch**, as shown in the following image.
 
     ![TextBox control with Stretch property](../ide/media/express_pictureviewercheckbox.png)<br/>***TextBox*** *control with* ***Stretch*** *property*
 
-1. Choose the **TableLayoutPanel** on the form, and then go to the **Containers** group in the **Toolbox** (where you got your TableLayoutPanel control) and double-click the **FlowLayoutPanel** item to add a new control to the last cell in the PictureBox (bottom right). Then dock the FlowLayoutPanel in the TableLayoutPanel. You can do so either by choosing **Dock in parent container** on the FlowLayoutPanel's black triangle task list, or by setting the FlowLayoutPanel's **Dock** property to **Fill**.
+1. Choose the **TableLayoutPanel** on the form, and then go to the **Containers** group in the **Toolbox** (where you got your TableLayoutPanel control) and double-click the **FlowLayoutPanel** item to add a new control to the last cell (bottom right). Then, dock the FlowLayoutPanel in the TableLayoutPanel. You can do so either by choosing **Dock in parent container** on the FlowLayoutPanel's black triangle task list, or by setting the FlowLayoutPanel's **Dock** property to **Fill**.
 
     > [!NOTE]
-    > A <xref:System.Windows.Forms.FlowLayoutPanel> is a container that arranges other controls in neat rows in order. When you resize a FlowLayoutPanel, if it has room to lay out all of its controls in a single row, it does that. Otherwise, it arranges them in lines, one on top of the other. You will use a FlowLayoutPanel to hold four buttons. If the buttons arrange one on top another when added, be sure that the FlowLayoutPanel is selected before adding the buttons. Although it was stated earlier that each cell can hold only one control, the lower-right cell of the TableLayoutPanel has four button controls. This is because you can put a control in a cell that holds other controls. That kind of control is called a container, and the FlowLayoutPanel is a container.
+    > A <xref:System.Windows.Forms.FlowLayoutPanel> is a container that arranges other controls in a row, one after another. When you resize a FlowLayoutPanel, it lays out all of its controls in a single row, if it has room to do so. Otherwise, it arranges them in lines, one on top of the other. <br/><br/>Here, you'll use a FlowLayoutPanel to hold four buttons. If the buttons arrange one on top another when you add them, make sure that you select the FlowLayoutPanel before you add the buttons. <br/><br/>(Typically, each cell contains only one control. In this example, the lower-right cell of the TableLayoutPanel contains four button controls. Why?  Because the FlowLayoutPanel is a container control, which is a control in a cell that holds other controls.)
 
 ## To add buttons
 
 1. Choose the new FlowLayoutPanel that you added. Go to **Common Controls** in the **Toolbox** and double-click the **Button** item to add a button control called **button1** to your FlowLayoutPanel. Repeat to add another button. The IDE determines that there's already a button called **button1** and calls the next one **button2**.
 
-1. Typically, you add the other buttons using the **Toolbox**. This time, choose **button2**, and then on the menu bar, choose **Edit** > **Copy** (or press **Ctrl**+**C**). On the menu bar, choose **Edit** > **Paste** (or press **Ctrl**+**V**) to paste a copy of your button. Now paste it again. The IDE has now added **button3** and **button4** to the FlowLayoutPanel.
+1. Typically, you add the other buttons by using the **Toolbox**. This time, choose **button2**, and then from the menu bar, choose **Edit** > **Copy** (or press **Ctrl**+**C**). Next, choose **Edit** > **Paste** from the menu bar (or press **Ctrl**+**V**) to paste a copy of your button. Now paste it again. Notice that the IDE adds **button3** and **button4** to the FlowLayoutPanel.
 
     > [!NOTE]
     > You can copy and paste any control. The IDE names and places the new controls in a logical manner. If you paste a control into a container, the IDE chooses the next logical space for placement.
 
 1. Choose the first button and set its **Text** property to **Show a picture**. Then set the **Text** properties of the next three buttons to **Clear the picture**, **Set the background color**, and **Close**.
 
-1. The next step is to size the buttons and arrange them so they align to the right side of the panel. Choose the **FlowLayoutPanel** and look at its **FlowDirection** property. Change it so it's set to **RightToLeft**. As soon as you do, the buttons should align themselves to the right side of the cell, and reverse their order so that the **Show a picture** button is on the right.
+1. Let's size the buttons and arrange them so they align to the right side of the panel. Choose the **FlowLayoutPanel** and look at its **FlowDirection** property. Change it so it's set to **RightToLeft**.
+
+   The buttons should align themselves to the right side of the cell, and reverse their order so that the **Show a picture** button is on the right.
 
     > [!NOTE]
     > If the buttons are still in the wrong order, you can drag the buttons around the FlowLayoutPanel to rearrange them in any order. You can choose a button and drag it left or right.
 
-1. Choose the **Close** button to select it. Hold down the **Ctrl** key and choose the other three buttons, so that they're all selected. While all the buttons are selected, go to the **Properties** window and scroll up to the **AutoSize** property. This property tells the button to automatically resize itself to fit all of its text. Set it to **true**. Your buttons should now be sized properly and be in the right order. (As long as all four buttons are selected, you can change all four **AutoSize** properties at the same time.) The following image shows the four buttons.
+1. Choose the **Close** button to select it. Then, to choose the rest of the buttons at the same time, press and hold the **Ctrl** key and choose them, too.
+
+   After you've selected all the buttons, go to the **Properties** window and scroll up to the **AutoSize** property. This property tells the button to automatically resize itself to fit all of its text. Set it to **True**.
+
+   Your buttons should now be sized properly and be in the right order. (As long as all four buttons are selected, you can change all four **AutoSize** properties at the same time.) The following image shows the four buttons.
 
     ![Picture Viewer with four buttons](../ide/media/express_autosize.png)<br/>***Picture Viewer*** *with four buttons*
 
-1. Now run your program again to see your newly laid out form. Choosing the buttons and the check box doesn't do anything yet, but it will work soon.
+1. Now run your program again to see your changes.
+
+   Notice that the buttons and the check box don't do anything yet&mdash;but they will, soon.
 
 ## To continue or review
 

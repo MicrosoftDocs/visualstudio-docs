@@ -1,11 +1,11 @@
 ---
 title: "Step 11: Run your program and try other features"
-ms.date: 08/22/2019
+ms.date: 08/30/2019
 ms.assetid: 656614d0-4fe7-4a67-8edc-c10919377d09
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang: 
+ms.devlang:
  - "csharp"
  - "vb"
 author: TerryGLee
@@ -24,10 +24,10 @@ Your program is finished and ready to run. You can run your program and set the 
 
 1. Before you open a picture, choose the **Set the background color** button. The **Color** dialog box opens.
 
-     ![Color dialog box](../ide/media/express_colordialog.png)<br>
-***Color** dialog box*
+     ![Color dialog box](../ide/media/express_colordialog.png)<br/>
+***Color*** *dialog box*
 
-1. Choose a color to set the PictureBox background color. Look closely at the `backgroundButton_Click()` method to understand how it works.
+1. Choose a color to set the PictureBox background color. Look closely at the `backgroundButton_Click()` (or, `BackgroundButton_Click()`) method to understand how it works.
 
     > [!NOTE]
     > You can load a picture from the Internet by pasting its URL into the **Open File** dialog box. Try to find an image with a transparent background, so your background color shows.

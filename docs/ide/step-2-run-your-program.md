@@ -1,11 +1,11 @@
 ---
 title: "Step 2: Run your program"
-ms.date: 08/22/2019
+ms.date: 08/30/2019
 ms.assetid: 9a8fe90e-c97b-4e98-b6c8-0c6b3962c49d
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang: 
+ms.devlang:
  - "csharp"
  - "vb"
 author: TerryGLee
@@ -16,11 +16,11 @@ ms.workload:
 ---
 # Step 2: Run your program
 
-When you create a new solution, you actually build a program that runs. It doesn't do much yet&mdash;it just displays an empty window that shows **Form1** in the title bar. But it does run, as you're about to find out.
+When you create a Windows Forms Application project, you actually build a program that runs. In this tutorial, your *PictureViewer* app doesn't do much yet&mdash;although it will. For now though, it just displays an empty window that shows **Form1** in the title bar.
 
-## How to run your program
+Here's how to run your program. 
 
-1. Use one of the following methods to run your program.
+1. Choose one of the following methods:
 
     - Choose the **F5** key.
 
@@ -29,17 +29,17 @@ When you create a new solution, you actually build a program that runs. It doesn
     - On the toolbar, choose the **Start Debugging** button, which appears as follows:
 
       ![Start Debugging toolbar button](../ide/media/express_icondebug.png)<br>
-      ***Start Debugging** toolbar button*
+      ***Start Debugging*** *toolbar button*
 
 1. Visual Studio runs your program, and a window called **Form1** appears. The following screenshot shows the program you just built. The program is running, and you'll soon add to it.
 
      ![Windows Form application program running](../ide/media/express_firstrun.png)<br>
-***Windows Forms** application program, running*
+***Windows Forms*** *application program, running*
 
 1. Go back to the Visual Studio integrated development environment (IDE), and then look at the new toolbar. Additional buttons appear on the toolbar when you run a program. These buttons let you do things like stop and start your program, and help you track down any errors (bugs) it may have. For this example, we're using it to start and stop the program.
 
      ![Debugging toolbar](../ide/media/express_debugtoolbar.png)<br>
-***Debugging** toolbar*
+***Debugging*** *toolbar*
 
 1. Use one of the following methods to stop your program:
 
@@ -47,12 +47,12 @@ When you create a new solution, you actually build a program that runs. It doesn
 
     - On the menu bar, choose **Debug** > **Stop Debugging**.
 
-    - Use your keyboard and press **Shift**+**F5**. 
+    - Use your keyboard and press **Shift**+**F5**.
 
     - Choose the **X** button in the upper corner of the **Form1** window.
 
     > [!NOTE]
-    > When you run your program from inside the IDE, it's called debugging because you typically do it to locate and fix bugs (errors) in the program. Although this program is small and doesn't really do anything yet, it's still a real program. You follow the same procedure to run and debug other programs. To learn more about debugging, see [First look at the debugger](../debugger/debugger-feature-tour.md).
+    > When you run your program from inside the IDE, it's called debugging because you typically do so to locate and fix bugs (errors) in the program. Although this program is small and doesn't really do anything yet, it's still a real program. You follow the same procedure to run and debug other programs. To learn more about debugging, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 ## Next steps
 

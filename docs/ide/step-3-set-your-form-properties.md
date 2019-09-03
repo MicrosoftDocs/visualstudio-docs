@@ -1,11 +1,11 @@
 ---
 title: "Step 3: Set your form properties"
-ms.date: 08/22/2019
+ms.date: 08/30/2019
 ms.assetid: 634ef037-1525-48c8-ac7f-abf04be69376
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang: 
+ms.devlang:
  - "csharp"
  - "vb"
 author: TerryGLee
@@ -27,10 +27,10 @@ Next, you use the **Properties** window to change the way your form looks.
    > [!NOTE]
    > If the **Properties** window doesn't appear, stop your program by choosing the square **Stop Debugging** button on the toolbar, or just close the window. If the program is stopped and you still don't see the **Properties** window, on the menu bar, choose **View** > **Properties Window**.
 
-1. After the form is selected, find the **Text** property in the **Properties** window. Depending on how the list is sorted, you might need to scroll down. Choose **Text**, type **Picture Viewer**, and then choose **Enter**.  Your form should now have the text **Picture Viewer** in its title bar, and the **Properties** window should look similar to the following picture.
+1. After the form is selected, find the **Text** property in the **Properties** window. Depending on how the list is sorted, you might need to scroll down. Choose **Text**, type **Picture Viewer**, and then choose **Enter**.  Your form should now have the text **Picture Viewer** in its title bar, and the **Properties** window should look similar to the following screenshot.
 
     ![Properties window](../ide/media/express_edittextproperty.png)<br>
-   ***Properties** window*
+   ***Properties*** *window*
 
    > [!NOTE]
    > Properties can be ordered by a **Categorized** or **Alphabetical** view. You can switch between these two views by using the buttons on the **Properties** window. In this tutorial, it's easier to find properties through the **Alphabetical** view.
@@ -53,7 +53,7 @@ Next, you use the **Properties** window to change the way your form looks.
    - On the toolbar, choose the **Start Debugging** button, which appears as follows.
 
       ![Start Debugging toolbar button](../ide/media/express_icondebug.png)<br>
-     ***Start Debugging** toolbar button*
+     ***Start Debugging*** *toolbar button*
 
      Just like before, the IDE builds and runs your program, and a window appears.
 
@@ -62,8 +62,8 @@ Next, you use the **Properties** window to change the way your form looks.
    - On the toolbar, choose the **Stop Debugging** button.
 
    - On the menu bar, choose **Debug** > **Stop Debugging**.
-   
-   - Use your keyboard and press **Shift**+**F5**. 
+
+   - Use your keyboard and press **Shift**+**F5**.
 
    - Choose the **X** button in the upper corner of the **Picture Viewer** window.
 
@@ -72,7 +72,7 @@ Next, you use the **Properties** window to change the way your form looks.
 * To go to the next tutorial step, see [Step 4: Lay out your form with a TableLayoutPanel control](../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md).
 
 * To return to the previous tutorial step, see [Step 2: Run your program](../ide/step-2-run-your-program.md).
- 
+
 ## See also
 
 * [Tutorial 2: Create a timed math quiz](tutorial-2-create-a-timed-math-quiz.md)

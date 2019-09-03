@@ -1,14 +1,14 @@
 ---
 title: "Step 9: Review, comment, and test your code"
-ms.date: 08/22/2019
+ms.date: 08/30/2019
 ms.assetid: f26f79ba-c91b-4164-b87f-679a1b231c09
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang: 
+ms.devlang:
  - "csharp"
  - "vb"
-dev_langs: 
+dev_langs:
   - "csharp"
   - "vb"
 author: TerryGLee
@@ -19,9 +19,9 @@ ms.workload:
 ---
 # Step 9: Review, comment, and test your code
 
-You next add a comment to your code. A comment is a note that doesn't change the way the program behaves. It makes it easier for someone who is reading your code to understand what it does. Adding comments to your code is a good habit to get into. 
+You next add a comment to your code. A comment is a note that doesn't change the way the program behaves. It makes it easier for someone who is reading your code to understand what it does. Adding comments to your code is a good habit to get into.
 
-In Visual C#, two forward slashes (//) mark a line as a comment. In Visual Basic, a single quotation mark (') is used to mark a line as a comment. After you add a comment, you test your program. It's good practice to run and test your code frequently while you're working on your projects, so you can catch and fix any problems early, before the code gets more complicated. This is called *iterative testing*.
+In C#, two forward slashes (//) mark a line as a comment. In Visual Basic, a single quotation mark (') is used to mark a line as a comment. After you add a comment, you test your program. It's good practice to run and test your code frequently while you're working on your projects, so you can catch and fix any problems early, before the code gets more complicated. This is called *iterative testing*.
 
 You just built something that works, and although it's not done yet, it can already load a picture. Before you add a comment to your code and test it, take time to review the code concepts, because you will use these concepts frequently:
 
@@ -29,7 +29,7 @@ You just built something that works, and although it's not done yet, it can alre
 
 - Methods are how you organize your code: It's how your code is grouped together.
 
-- Most of the time, a method does a small number of things in a specific order, like how your `showButton_Click()` method shows a dialog box and then loads a picture.
+- Most of the time, a method does a small number of things in a specific order, like how your `showButton_Click()` (or `ShowButton_Click()`) method shows a dialog box and then loads a picture.
 
 - A method is made up of code *statements*, or lines of code. Think of a method as a way to bundle code statements together.
 
@@ -37,43 +37,43 @@ You just built something that works, and although it's not done yet, it can alre
 
    The following is an example of a statement.
 
-  ```csharp
-  pictureBox1.Load(openFileDialog1.FileName);
+  ```
+  PictureBox1.Load(openFileDialog1.FileName);
   ```
 
   ```vb
   pictureBox1.Load(openFileDialog1.FileName)
   ```
 
-   Statements are what make your programs do things. In Visual C#, a statement always ends in a semicolon. In Visual Basic, the end of a line is the end of a statement. (No semicolon is needed in Visual Basic.) The preceding statement tells your <xref:System.Windows.Forms.PictureBox> control to load the file that the user selected with the **OpenFileDialog** component.
+   Statements are what make your programs do things. In C#, a statement always ends in a semicolon. In Visual Basic, the end of a line is the end of a statement. (No semicolon is needed in Visual Basic.) The preceding statement tells your <xref:System.Windows.Forms.PictureBox> control to load the file that the user selected with the **OpenFileDialog** component.
 
 ## To add comments
 
 1. Add the following comment to your code.
 
+    > [!IMPORTANT]
+    > Use the programming language control at the top right of this page to view either the C# code snippet or the Visual Basic code snippet.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
+
      [!code-csharp[VbExpressTutorial1Step9_10#1](../ide/codesnippet/CSharp/step-9-review-comment-and-test-your-code_1.cs)]
      [!code-vb[VbExpressTutorial1Step9_10#1](../ide/codesnippet/VisualBasic/step-9-review-comment-and-test-your-code_1.vb)]
-
-    > [!NOTE]
-    > You can view code for either C# or Visual Basic by using the programming language control at the top right of this page. C# is the default code view. To view the code for Visual Basic, choose **VB**.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
 
     Your **showButton** button's <xref:System.Windows.Forms.Control.Click> event handler is now finished, and it works. You have started writing code, starting with an `if` statement. An `if` statement is how you tell your program, "Check this one thing, and if it's true, do these actions." In this case, you tell your program to open the **Open File** dialog box, and if the user selects a file and chooses the **OK** button, load that file in the **PictureBox**.
 
     > [!TIP]
     > The IDE is built to make it easy for you to write code, and *code snippets* are one way it does that. A snippet is a shortcut that gets expanded into a small block of code.
     >
-    >  You can see all of the snippets available. On the menu bar, choose **Tools** > **Code Snippets Manager**. For Visual C#, the `if` snippet is in **Visual C#** . For Visual Basic, the `if` snippets are in **Conditionals and Loops** > **Code Patterns**. You can use this manager to browse existing snippets or add your own snippets.
+    >  You can see all of the snippets available. On the menu bar, choose **Tools** > **Code Snippets Manager**. For C#, the `if` snippet is in **Visual C#** . For Visual Basic, the `if` snippets are in **Conditionals and Loops** > **Code Patterns**. You can use this manager to browse existing snippets or add your own snippets.
     >
     >  To activate a snippet when typing code, type it and choose the **Tab** key. Many snippets appear in the **IntelliSense** window, which is why you choose the **Tab** key twice: first to select the snippet from the **IntelliSense** window, and then to tell the IDE to use the snippet. (IntelliSense supports the `if` snippet, but not the `ifelse` snippet.)
 
-1. Before you run your program, save your program by choosing the **Save All** toolbar button, which appears as follows.
+1. Before you run your program, save your program by choosing the **Save All** toolbar button, which should look similar to the following screenshot.
 
      ![Save All toolbar button](../ide/media/express_iconsaveall.png)<br>
-***Save All** button*
+***Save All*** *button*
 
-     Alternatively, to save your program, on the menu bar, choose **File** > **Save All**. It's a best practice to save early and often.
+     Alternatively, to save your program, choose **File** > **Save All** from the menu bar (or press **Ctrl**+**Shift**+**S**). It's a best practice to save early and often.
 
-     When it's running, your program should look like the following picture.
+     When it's running, your program should look like the following image.
 
      ![Picture Viewer](../ide/media/express_pictureviewerdonerun.png)<br>***Picture Viewer***
 
