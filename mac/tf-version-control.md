@@ -10,15 +10,13 @@ ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
 
 # Does Visual Studio for Mac support Team Foundation Version Control?
 
-> [!IMPORTANT]
+> [!WARNING]
 > The preview TFVC extension for Visual Studio for Mac is no longer supported in Visual Studio 2019 for Mac.
 
 
 ## Alternative Version Control options in Visual Studio for Mac
 
-For the best version control experience on macOS, we recommend using Git instead of Team Foundation Version Control (TFVC). 
-
-Azure Repos provides two models of version control: [Git](/azure/devops/repos/git/?view=azure-devops), a distributed version control system, and [Team Foundation Version Control](/azure/devops/repos/tfvc/index?view=azure-devops) (TFVC), a centralized version control system.
+For the best version control experience on macOS, we recommend using **Git** instead of Team Foundation Version Control (TFVC). 
 
 Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](/visualstudio/mac/set-up-git-repository) guide.
 
@@ -26,17 +24,17 @@ Git is supported in Visual Studio for Mac and is the default option for reposito
 
 While Visual Studio for Mac doesn't officially support TFVC, the rest of this guide provides some workarounds to work with TFVC on macOS. If you're using TFVC for version control today, here are some solutions you can use to access your source code hosted in TFVC:
 
-* [Use Visual Studio Code and the Azure Repos extension, for a graphical UI](#use-visual-studio-code-and-the-azure-repos-extension)
-* [Connect to your repo using the Team Explorer Everywhere Command Line Client (TEE-CLC)](#connecting-using-the-team-explorer-everywhere-command-line-client)
+* [1. Use Visual Studio Code and the Azure Repos extension, for a graphical UI](#use-visual-studio-code-and-the-azure-repos-extension)
+* [2. Connect to your repo using the Team Explorer Everywhere Command Line Client (TEE-CLC)](#connecting-using-the-team-explorer-everywhere-command-line-client)
 
-### Use Visual Studio Code and the Azure Repos extension
+### 1. Use Visual Studio Code and the Azure Repos extension
 
 If you like to work with a graphical interface to manage your files in version control, then the Azure Repos extension for Visual Studio Code provides a supported solution from Microsoft. To get started, download [Visual Studio Code](https://code.visualstudio.com) and then learn how to [configure the Azure Repos extension](https://marketplace.visualstudio.com/items?itemName=ms-vsts.team).
 
-### Connecting using the Team Explorer Everywhere Command Line Client
+### 2. Connecting using the Team Explorer Everywhere Command Line Client
 
 > [!IMPORTANT]
-> As per the TEE README, this project is [no longer being maintained](https://github.com/microsoft/team-explorer-everywhere).
+> As per the Team Explorer Everywhere README, this project is [no longer being maintained](https://github.com/microsoft/team-explorer-everywhere).
 
 If you're comfortable using the macOS Terminal, then the Team Explorer Everywhere Command Line Client (TEE-CLC) provides a supported way to connect to your source in TFVC.
 
