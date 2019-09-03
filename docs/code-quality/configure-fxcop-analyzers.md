@@ -84,10 +84,10 @@ You can share an .editorconfig file for FxCop analyzer configuration between two
    ...
    ```
 
+4. Reload the project.
+
 > [!NOTE]
 > The arbitrary shared location of the EditorConfig file described here applies only to configuring FxCop analyzers. For other settings, such as indentation and code style, the EditorConfig file must always be placed in the project folder or a parent folder.
-
-4. Reload the project.
 
 ## Option scopes
 
