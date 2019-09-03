@@ -57,7 +57,6 @@
 
 # Version Control
 ## [Overview](version-control.md)
-## [TF Version Control](tf-version-control.md)
 ## [Setting Up a Git Repository](set-up-git-repository.md)
 ## [Working with Git](working-with-git.md)
 ## [Setting Up a Subversion Repository](set-up-subversion-repository.md)
@@ -100,6 +99,7 @@
 ## [Logs and Exceptions](troubleshooting.md)
 ## [Visual Studio Customer Experience Improvement Program](visual-studio-experience-improvement-program.md)
 ## [Report a Problem](report-a-problem.md)
+## [Troueblshooting: Does Visual Studio for Mac support Team Foundation Version Control?](tf-version-control.md)
 ## [Troubleshooting: Why can I not see all templates?](troubleshooting-no-templates.md)
 ## [Troubleshooting: Updater has errors retrieving information](updater-troubleshooting.md)
 
