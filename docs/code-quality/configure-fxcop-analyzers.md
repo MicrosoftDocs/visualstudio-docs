@@ -40,7 +40,10 @@ For more information, see [Rule sets for code analyzers](analyzer-rule-sets.md).
 
 ## EditorConfig file
 
-You can configure analyzer rules by adding key-value pairs to an [.editorconfig](https://editorconfig.org) file. A configuration file can be [specific to a project](#per-project-configuration) or it can be [shared](#shared-configuration) between two or more projects.
+You can configure FxCop analyzer rules by adding key-value pairs to an [.editorconfig](https://editorconfig.org) file. A configuration file can be [specific to a project](#per-project-configuration) or it can be [shared](#shared-configuration) between two or more projects.
+
+> [!NOTE]
+> You cannot configure legacy FxCop rules by using an .editorconfig file.
 
 ### Per-project configuration
 
@@ -55,7 +58,7 @@ Currently there is no hierarchical support for "combining" .editorconfig files t
 
 ### Shared configuration
 
-You can share an .editorconfig file for analyzer configuration between two or more projects, but it requires some additional steps.
+You can share an .editorconfig file for FxCop analyzer configuration between two or more projects, but it requires some additional steps.
 
 1. Save the *.editorconfig* file to a common location.
 
@@ -81,10 +84,10 @@ You can share an .editorconfig file for analyzer configuration between two or mo
    ...
    ```
 
-4. Reload the project.
-
 > [!NOTE]
-> You cannot configure legacy FxCop rules by using an .editorconfig file.
+> The arbitrary shared location of the EditorConfig file described here applies only to configuring FxCop analyzers. For other settings, such as indentation and code style, the EditorConfig file must always be placed in the project folder or a parent folder.
+
+4. Reload the project.
 
 ## Option scopes
 
