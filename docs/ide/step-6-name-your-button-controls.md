@@ -62,6 +62,9 @@ You can verify the names by choosing the control selector drop-down list in the 
     End Sub
     ```
 
+   > [!IMPORTANT]
+   > Use the programming language control at the top right of this page to view either the C# code snippet or the Visual Basic code snippet.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
+
    You're looking at code called `showButton_Click()` (alternatively, `ShowButton_Click()`). The IDE added this to the form's code when you opened the code file for the **showButton** button. At design-time, when you open the code file for a control in a form, code is generated for the control if it doesn't already exist. This code, known as a *method*, runs when you run your program and choose the control - in this case, the **Show a picture** button.
 
 1. Choose the **Windows Forms Designer** tab again (**Form1.cs [Design]**), and then open the code file for the **Clear the picture** button to create a method for it in the form's code. Repeat this for the remaining two buttons. Each time, the IDE adds a new method to the form's code file.
