@@ -107,6 +107,24 @@ Visual Studio provides several different tools to help you deploy your apps.
         </div>
         </a>
     </li>
+    <li>
+        <a href="/nuget/quickstart/create-and-publish-a-package-using-visual-studio">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/logos/logo_nuget.svg" alt="Publish NuGet packages">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Create and publish NuGet packages (.NET)</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
 </ul>
 
 <h2>Go deeper with tutorials</h2>
