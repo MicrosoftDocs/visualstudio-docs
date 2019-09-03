@@ -1,7 +1,6 @@
 ---
 title: Publish to a folder
 ms.date: 04/02/2019
-ms.topic: "quickstart"
 helpviewer_keywords:
   - "deployment, website"
 ms.assetid: e963fb4b-6d32-4d45-86bb-ef7e4d3028b0
