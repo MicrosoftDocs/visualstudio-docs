@@ -49,5 +49,4 @@ You may come across the following errors while using XAML Hot Reload.
 |Error message|Description|
 |-|-|
 |Ensure Event Failed|Error indicates you are attempting to wire an event to one of your controls, which isn’t supported while your application is running.|
-|XAML Edit and Continue did not find any elements to update.|Error occurs when you are editing XAML that Hot Reload cannot update in your app.</br> This error can sometimes be fixed by using your running app to navigate to a view where the XAML is used.</br> Sometimes, this error means that the specific change can't be applied until you restart the debugging session. |
-|This change is not supported during a debugging session.|Error indicates that the change you are attempting is not supported by XAML Hot Reload. Stop the debugging session, make the change, and then restart the debugging session.|
+|This change is not supported by XAML Hot Reload and will not be applied during the debugging session.|Error indicates that the change you are attempting is not supported by XAML Hot Reload. Stop the debugging session, make the change, and then restart the debugging session.|

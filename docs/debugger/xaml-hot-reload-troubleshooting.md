@@ -14,7 +14,13 @@ ms.workload:
 ---
 # Troubleshooting XAML Hot Reload
 
+This troubleshooting guide includes detailed instructions that should resolve most issues that prevent XAML Hot Reload from working correctly.
+
 XAML Hot Reload is supported for WPF and UWP apps. For detailed requirements, see [Write and debug running XAML code with XAML Hot Reload](xaml-hot-reload.md).
+
+## Hot Reload is not available
+
+If you see the message "Hot Reload is not available" in the in-app toolbar while debugging your app, follow the instructions described in this article to resolve the issue.
 
 ## Verify that XAML Hot Reload is enabled
 
@@ -32,7 +38,7 @@ If these options are selected, then go to Live Visual Tree (**Debug** > **Window
 
 ## Verify that you use Start Debugging rather than Attach to Process
 
-XAML Hot Reload requires that the environment variable `ENABLE_XAML_DIAGNOSTICS_SOURCE_INFO` is set to 1 at the time application starts. Visual Studio sets this automatically as part of the **Start Debugging**command. If you want to use XAML Hot Reload with the **Attach to Process** command instead, then set the environment variable yourself.
+XAML Hot Reload requires that the environment variable `ENABLE_XAML_DIAGNOSTICS_SOURCE_INFO` is set to 1 at the time application starts. Visual Studio sets this automatically as part of the **Debug** > **Start Debugging** (or **F5**) command. If you want to use XAML Hot Reload with the **Debug** > **Attach to Process** command instead, then set the environment variable yourself.
 
 ## Verify that your MSBuild properties are correct
 
