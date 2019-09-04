@@ -1,0 +1,51 @@
+---
+title: "Troubleshooting XAML Hot Reload"
+description: "Fix problems that you may encounter with XAML Hot Reload."
+ms.date: "09/04/2019"
+ms.topic: "conceptual"
+helpviewer_keywords:
+  - "xaml edit and continue, troubleshooting"
+  - "xaml hot reload, troubleshooting"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: jillfra
+ms.workload:
+  - "multiple"
+---
+# Troubleshooting XAML Hot Reload
+
+XAML Hot Reload is supported for WPF and UWP apps. For detailed requirements, see [Write and debug running XAML code with XAML Hot Reload](xaml-hot-reload.md).
+
+## Verify that XAML Hot Reload is enabled
+
+The feature is enabled by default. When you start debugging your app, make sure you see the in-app toolbar, which confirms that XAML Hot Reload is available:
+
+![XAML Hot Reload available](../debugger/media/xaml-hot-reload-available.png)
+
+If you do not see the in-app toolbar, then open **Debug** > **Options** > **General**. Make sure that both options, **Enable UI Debugging Tools for XAML** and **Enable XAML Hot Reload** are selected.
+
+![Enable XAML Hot Reload](../debugger/media/xaml-hot-reload-enable.png)
+
+If these options are selected, then go to Live Visual Tree (**Debug** > **Windows** > **Live Visual Tree**) and make sure that **Show runtime tools in application** toolbar button (on the far left) is selected.
+
+![Enable XAML Hot Reload](../debugger/media/xaml-hot-reload-show-runtime-tools.png)
+
+## Verify that you use Start Debugging rather than Attach to Process
+
+XAML Hot Reload requires that the environment variable `ENABLE_XAML_DIAGNOSTICS_SOURCE_INFO` is set to 1 at the time application starts. Visual Studio sets this automatically as part of the **Start Debugging**command. If you want to use XAML Hot Reload with the **Attach to Process** command instead, then set the environment variable yourself.
+
+## Verify that your MSBuild properties are correct
+
+By default, source info is included in a Debug configuration. It is controlled by MSBuild properties in your project files (such as *.csproj). For WPF, the property is `XamlDebuggingInformation`, which must be set to `True`. For UWP, the property is `DisableXbfLineInfo`, which must be set to `False`. For example:
+
+WPF:
+
+`<XamlDebuggingInformation>True</XamlDebuggingInformation>` 
+
+UWP:
+
+`<DisableXbfLineInfo>False</DisableXbfLineInfo>`
+
+## Verify that you are using the correct build configuration name
+
+You must not change your build configuration from Debug, and you must use the default build configuration name (Debug). A custom build configuration name won't work, nor will a Release build.
