@@ -1,8 +1,13 @@
 ---
 title: "Tutorial 1: Create a picture viewer"
-ms.date: 11/04/2016
-ms.topic: conceptual
+ms.date: 08/30/2019
 ms.assetid: 3071d6df-2b2f-4e95-ab68-bef727323136
+ms.topic: tutorial
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
+ms.devlang:
+ - "csharp"
+ - "vb"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -11,40 +16,32 @@ ms.workload:
 ---
 # Tutorial 1: Create a picture viewer
 
-In this tutorial, you build a program that loads a picture from a file and displays it in a window. You learn how to use the **Windows Forms Designer** to drag controls like buttons and picture boxes on your form, set their properties, and use containers to smoothly resize the form. You also get started writing code. You learn how to:
-
-- Create a new project.
-
-- Test (debug) an application.
-
-- Add basic controls like check boxes and buttons to a form.
-
-- Position controls on a form using layouts.
-
-- Add **Open File** and **Color** dialog boxes to a form.
-
-- Write code using IntelliSense and code snippets.
-
-- Write event handler methods.
-
-When you finish, your program will look like the following picture:
-
-![Picture that you create in this tutorial](../ide/media/express_pictureviewerdone.png)
-
-## Tutorial links
-
-To download a completed version of the sample, see [Complete picture viewer tutorial sample](https://code.msdn.microsoft.com/Complete-Picture-Viewer-7d91d3a8).
-
-![link to video](../data-tools/media/playvideo.gif)For a video version of this topic, see [How do I: Create a picture viewer in Visual Basic?](http://go.microsoft.com/fwlink/?LinkId=205207) or [How do I: Create a picture viewer in C#?](http://go.microsoft.com/fwlink/?LinkId=205198).
+In this tutorial, you build an app that loads a picture from a file and displays it in a window. You learn how to use the **Windows Forms Designer** to drag controls like buttons and picture boxes on to your form, set their properties, and use containers to smoothly resize the form. You also get started writing code.
 
 > [!NOTE]
-> These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio. Visual C# and Visual Basic are both covered in this tutorial, so focus on information specific to the programming language that you're using.
->
-> To see code for Visual Basic, choose the **VB** tab at the top of code blocks, and to see code for Visual C#, choose the **C#** tab. If you're interested in learning about Visual C++, see [Get started](../ide/getting-started-with-cpp-in-visual-studio.md) and [C++ language tutorial](http://www.cplusplus.com/doc/tutorial/).
->
-> If you're interested in learning how to write Visual C# or Visual Basic UWP apps, see [Build UWP apps](https://developer.microsoft.com/windows/apps).
+> This tutorial covers both Visual C# and Visual Basic, so focus on the information that's specific to the programming language that you're using.
 
-## Related topics
+This tutorial walks you through the following tasks:
+
+* Create a new project.
+
+* Test (debug) an application.
+
+* Add basic controls like check boxes and buttons to a form.
+
+* Position controls on a form by using layouts.
+
+* Add **Open File** and **Color** dialog boxes to a form.
+
+* Write code by using IntelliSense and code snippets.
+
+* Write event handler methods.
+
+When you finish, your program should look similar to the following image:
+
+![Picture Viewer app that you create in this tutorial](../ide/media/express_pictureviewerdone.png)
+
+## Tutorial links
 
 |Title|Description|
 |-----------|-----------------|
@@ -59,3 +56,13 @@ To download a completed version of the sample, see [Complete picture viewer tuto
 |[Step 9: Review, comment, and test your code](../ide/step-9-review-comment-and-test-your-code.md)|Review and test your code. Add comments as needed.|
 |[Step 10: Write code for additional buttons and a check box](../ide/step-10-write-code-for-additional-buttons-and-a-check-box.md)|Write code to make other buttons and a check box work using IntelliSense.|
 |[Step 11: Run your program and try other features](../ide/step-11-run-your-program-and-try-other-features.md)|Run your program and set the background color. Try other features, such as changing colors, fonts, and borders.|
+
+## Next steps
+
+To begin the tutorial, start with **[Step 1: Create a Windows Forms application project](../ide/step-1-create-a-windows-forms-application-project.md)**.
+
+## See also
+
+* [More C# tutorials](/visualstudio/get-started/csharp/)
+* [Visual Basic tutorials](/visualstudio/get-started/visual-basic/)
+* [C++ tutorials](../ide/getting-started-with-cpp-in-visual-studio.md)
