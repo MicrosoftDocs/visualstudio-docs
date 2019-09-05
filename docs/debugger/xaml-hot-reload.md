@@ -22,7 +22,7 @@ XAML Hot Reload is especially helpful in these scenarios:
 
 * Building a new UI component for an app that is under development, while taking advantage of your app’s runtime context.
 
-![XAML Hot Reload](../debugger/media/xaml-hot-reload-using.png)
+![XAML Hot Reload](../debugger/media/xaml-hot-reload-using.gif)
 
 |Supported Application Types|Operating System and Tools|
 |-|-|-|
