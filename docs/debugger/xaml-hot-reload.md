@@ -22,6 +22,8 @@ XAML Hot Reload is especially helpful in these scenarios:
 
 * Building a new UI component for an app that is under development, while taking advantage of your app’s runtime context.
 
+![XAML Hot Reload](../debugger/media/xaml-hot-reload-using.png)
+
 |Supported Application Types|Operating System and Tools|
 |-|-|-|
 |Windows Presentation Foundation (WPF) |.NET Framework 4.6+</br>Windows 7 and above |

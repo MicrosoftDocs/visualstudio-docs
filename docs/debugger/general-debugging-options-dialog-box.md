@@ -169,7 +169,7 @@ The Live Visual Tree and the Live Property Explore windows will appear when you 
     Shows the **Live Visual Tree** commands in a toolbar on the main window of the XAML application that is being debugged. This option was introduced in Visual Studio 2015 Update 2.
 
 - **Enable XAML Hot Reload**:
-    Allows you to use the XAML hot reload feature with XAML code when your app is running. (This feature was previously called "XAML Edit and Continue")
+    Allows you to use the XAML Hot Reload feature with XAML code when your app is running. (This feature was previously called "XAML Edit and Continue")
 
 **Enable Diagnostic Tools while debugging**:
 The **Diagnostic Tools** window appears while you are debugging.
