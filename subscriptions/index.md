@@ -1,12 +1,12 @@
 ---
 title: Visual Studio Subscriptions
-Author: evanwindom
-Ms.author: tglee
-Manager: lank
+author: evanwindom
+ms.author: lank
+manager: lank
 layout: LandingPage
-Ms.date: 06/25/2018
-Ms.topic: landing-page
-Description:  Welcome to Visual Studio Subscriptions
+ms.date: 06/25/2018
+ms.topic: landing-page
+description:  Welcome to Visual Studio Subscriptions
 ---
 
 # Visual Studio Subscriptions
