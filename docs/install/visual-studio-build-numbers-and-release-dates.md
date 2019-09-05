@@ -5,7 +5,7 @@ description: "A list of released versions and build numbers for Visual Studio, s
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 08/20/2019
+ms.date: 09/04/2019
 ms.topic: reference
 ms.custom: "seodec18"
 ms.workload:
@@ -23,6 +23,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.3.0 | Preview 3 | September 4, 2019 | 16.3.29230.61 |
 | 16.2.3 | Release | August 20, 2019 | 16.2.29215.179 |
 | 16.2.2 | Release | August 13, 2019 | 16.2.29209.62 |
 | 16.3.0 | Preview 2 | August 13, 2019 | 16.3.29209.152 |
@@ -180,7 +181,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.5.1 | Release | December 7, 2017 | 15.0.27130.2003 |
 | 15.6.0 Preview 1 | Preview | December 7, 2017 | 15.6.27205.0 |
 | 15.0.7 | Release | December 6, 2017 | 15.0.26228.18 |
-| 15.5 | Release | December 4, 2017 | 15.0.27130.0 |
+| 15.5.0 | Release | December 4, 2017 | 15.0.27130.0 |
 | 15.5.0 Preview 5 | Preview | November 30, 2017 | 15.0.27128.1 |
 | 15.4.5 | Release | November 27, 2017 | 15.0.27004.2010 |
 | 15.5.0 Preview 4 | Preview | November 14, 2017 | 15.0.27110.0 |
@@ -192,7 +193,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.5.0 Preview 2 | Preview | October 23, 2017 | 15.0.27019.1 |
 | 15.4.1 | Release | October 19, 2017 | 15.0.27004.2005 |
 | 15.5 Preview 1 | Preview | October 11, 2017 | 15.0.27009.1 |
-| 15.4 | Release | October 9, 2017 | 15.0.27004.2002 |
+| 15.4.0 | Release | October 9, 2017 | 15.0.27004.2002 |
 | 15.4 Preview 6 | Preview | October 9, 2017| 15.0.27004.20002 |
 | 15.4 Preview 5 | Preview | October 6, 2017 | 15.0.27004.2000 |
 | 15.4 Preview 4 | Preview | October 2, 2017 | 15.0.26929.2 |
@@ -208,7 +209,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.3.1 Preview 1 | Preview | August 18, 2017 | 15.0.26730.08 |
 | 15.3.1  | Release | August 18, 2017 | 15.0.26730.08 |
 | 15.4 Preview 1 | Preview | August 24, 2017 | 15.0.26823.1 |
-| 15.3 | Release | August 14, 2017 | 15.0.26730.3 |
+| 15.3.0 | Release | August 14, 2017 | 15.0.26730.3 |
 | 15.3 Preview 7.1 | Preview | August 11, 2017 | 15.0.26730.3 |
 | 15.3 Preview 7 | Preview | August 1, 2017 | 15.0.26730.0 |
 | 15.3 Preview 6 | Preview | July 26, 2017 | 15.0.26724.1 |
@@ -226,14 +227,14 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.2.1  | Release | May 12, 2017 | 15.0.26430.6 |
 | 15.3 Preview 1.1 | Preview | May 11, 2017 | 15.0.26510.0 |
 | 15.3 Preview 1 | Preview | May 10, 2017 | 15.0.26507.0 |
-| 15.2 | Release | May 10, 2017 | 15.0.26430.4 |
+| 15.2.0 | Release | May 10, 2017 | 15.0.26430.4 |
 | 15.2 Preview 4 | Preview | May 3, 2017 | 15.0.26430.1 |
 | 15.2 Preview 3 | Preview | April 26, 2017 | 15.0.26424.2 |
 | 15.2 Preview 2 | Preview | April 20, 2017 | 15.0.26419.1 |
 | 15.2 Preview 1 | Preview | April 17, 2017 | 15.0.26412.1 |
 | 15.1.2  | Release | April 17, 2017 | 15.0.26403.7 |
 | 15.1.1 | Release | April 10, 2017 | 15.0.26403.3 |
-| 15.1 | Release | April 5, 2017 | 15.0.26403.0 |
+| 15.1.0 | Release | April 5, 2017 | 15.0.26403.0 |
 | 15.0.3  | Release | March 31, 2017 | 15.0.26228.12 |
 | 15.0.2 | Release | March 28, 2017 | 15.0.26228.10 |
 | 15.1 Preview 3 | Preview | March 27, 2017 | 15.0.26323.1 |
