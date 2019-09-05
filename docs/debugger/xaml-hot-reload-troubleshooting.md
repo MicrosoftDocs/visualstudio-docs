@@ -2,7 +2,7 @@
 title: "Troubleshooting XAML Hot Reload"
 description: "Fix problems that you may encounter with XAML Hot Reload."
 ms.date: "09/04/2019"
-ms.topic: "conceptual"
+ms.topic: troubleshooting
 helpviewer_keywords:
   - "xaml edit and continue, troubleshooting"
   - "xaml hot reload, troubleshooting"
