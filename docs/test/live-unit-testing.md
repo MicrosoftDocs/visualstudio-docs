@@ -173,6 +173,12 @@ You can also use the following attributes to exclude individual methods from Liv
 - For NUnit: `[Category("SkipWhenLiveUnitTesting")]`
 - For MSTest: `[TestCategory("SkipWhenLiveUnitTesting")]`
 
+You can also exclude an entire assembly of tests from Live Unit Testing:
+
+- For xUnit: `[assembly: AssemblyTrait("Category", "SkipWhenLiveUnitTesting")]`
+- For NUnit: `[assembly: Category("SkipWhenLiveUnitTesting")]`
+- For MSTest: `[assembly: TestCategory("SkipWhenLiveUnitTesting")]`
+
 ## See also
 
 - [Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)
