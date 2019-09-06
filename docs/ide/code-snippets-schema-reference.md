@@ -34,7 +34,7 @@ The text value of the **Assembly** element is either the friendly text name of t
 | - |-----------------|
 |[Reference element](../ide/code-snippets-schema-reference.md#reference-element)|Contains information about assembly references required by the code snippet.|
 
- A text value is required. This text specifies the assembly that the code snippet references.
+A text value is required. This text specifies the assembly that the code snippet references.
 
 ## Author element
 
@@ -50,7 +50,7 @@ Specifies the name of the snippet author. The **Code Snippets Manager** displays
 | - |-----------------|
 |[Header element](../ide/code-snippets-schema-reference.md#header-element)|Contains general information about the code snippet.|
 
- A text value is required. This text specifies the author of the code snippet.
+A text value is required. This text specifies the author of the code snippet.
 
 ## Code element
 
@@ -115,7 +115,7 @@ There are three attributes available for the Code element:
    |`SQL`|Identifies a SQL code snippet.|
    |`HTML`|Identifies an HTML code snippet.|
 
-- **Kind** - _Optional_ attribute that specifies the kind of code that the snippet contains, and the location at which a code snippet must be inserted for the code snippet to compile. The value can be one of the following:
+- **Kind** - _Optional_ attribute that specifies the kind of code that the snippet contains. The value can be one of the following:
 
    |Value|Description|
    |-----|-----------|
@@ -206,7 +206,7 @@ Specifies the default value of the literal or object for an IntelliSense Code Sn
 |[Literal element](../ide/code-snippets-schema-reference.md#literal-element)|Defines the literal fields of the code snippet that you can edit.|
 |[Object element](../ide/code-snippets-schema-reference.md#object-element)|Defines the object fields of the code snippet that you can edit.|
 
- A text value is required. This text specifies the default value of the literal or object that fills the fields of the code snippet that you can edit.
+A text value is required. This text specifies the default value of the literal or object that fills the fields of the code snippet that you can edit.
 
 ## Description element
 
@@ -222,7 +222,7 @@ Specifies descriptive information about the contents of an IntelliSense Code Sni
 | - |-----------------|
 |[Header element](../ide/code-snippets-schema-reference.md#header-element)|Contains general information about the code snippet.|
 
- A text value is required. This text describes the code snippet.
+A text value is required. This text describes the code snippet.
 
 ## Function element
 
@@ -242,7 +242,7 @@ Specifies a function to execute when the literal or object receives focus in Vis
 |[Literal element](../ide/code-snippets-schema-reference.md#literal-element)|Defines the literal fields of the code snippet that you can edit.|
 |[Object element](../ide/code-snippets-schema-reference.md#object-element)|Defines the object fields of the code snippet that you can edit.|
 
- A text value is required. This text specifies a function to execute when the literal or object field receives focus in Visual Studio.
+A text value is required. This text specifies a function to execute when the literal or object field receives focus in Visual Studio.
 
 ## Header element
 
@@ -512,7 +512,7 @@ Specifies the shortcut text used to insert the snippet. The text value of a `Sho
 | - |-----------------|
 |[Header element](../ide/code-snippets-schema-reference.md#header-element)|Contains general information about the code snippet.|
 
- A text value is optional. This text is used as a shortcut for inserting the code snippet.
+A text value is optional. This text is used as a shortcut for inserting the code snippet.
 
 ## Snippet element
 
@@ -593,7 +593,7 @@ Specifies the title for the code snippet. The title stored in the `Title` elemen
 | - |-----------------|
 |[Header element](../ide/code-snippets-schema-reference.md#header-element)|Specifies general information about the code snippet.|
 
- A text value is required. This text specifies the title of the code snippet.
+A text value is required. This text specifies the title of the code snippet.
 
 ## ToolTip element
 
@@ -610,7 +610,7 @@ Describes the expected value and usage of a literal or object in a code snippet,
 |[Literal element](../ide/code-snippets-schema-reference.md#literal-element)|Defines the literal fields of the code snippet that you can edit.|
 |[Object element](../ide/code-snippets-schema-reference.md#object-element)|Defines the object fields of the code snippet that you can edit.|
 
- A text value is required. This text specifies the ToolTip description to be associated with the object or literal in the code snippet.
+A text value is required. This text specifies the ToolTip description to be associated with the object or literal in the code snippet.
 
 ## Type element
 

@@ -26,6 +26,8 @@
       href: hosting-web-apps-in-docker.md
     - name: Deploy to Azure App Service
       href: deploy-app-service.md
+    - name: Deploy to Docker Hub
+      href: deploy-docker-hub.md
     - name: View and diagnose containers
       href: view-and-diagnose-containers.md
     - name: Configure Container Tools
@@ -40,4 +42,8 @@
     items:
     - name: MSBuild properties for container projects
       href: container-msbuild-properties.md
+    - name: Settings for Docker Compose projects
+      href: docker-compose-properties.md
+    - name: Launch settings
+      href: container-launch-settings.md
       

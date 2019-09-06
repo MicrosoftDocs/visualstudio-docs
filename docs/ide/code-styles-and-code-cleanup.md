@@ -52,7 +52,7 @@ Options set in this window are applicable to your Visual Studio personalization 
 
 ### Preference and severity
 
-For each code style setting on this page, you can set the **Preference** and **Severity** values using the drop-downs on each line. Severity can be set to **None**, **Suggestion**, **Warning**, or **Error**. If you want to enable [Quick Actions](../ide/quick-actions.md) for a code style, ensure that the **Severity** setting is set to something other than **None**. The **Quick Actions** light bulb ![light bulb](media/light-bulb-dropdown.png), error light bulb ![error light bulb](media/error-bulb.png), or screwdriver ![screwdriver](media/screwdriver.png) icon appears when a non-preferred style is used, and you can choose an option on the **Quick Actions** list to automatically rewrite code to the preferred style.
+For each code style setting on this page, you can set the **Preference** and **Severity** values using the drop-downs on each line. Severity can be set to **Refactoring Only**, **Suggestion**, **Warning**, or **Error**. If you want to enable [Quick Actions](../ide/quick-actions.md) for a code style, ensure that the **Severity** setting is set to something other than **Refactoring Only**. The **Quick Actions** light bulb ![light bulb](media/light-bulb-dropdown.png), error light bulb ![error light bulb](media/error-bulb.png), or screwdriver ![screwdriver](media/screwdriver.png) icon appears when a non-preferred style is used, and you can choose an option on the **Quick Actions** list to automatically rewrite code to the preferred style.
 
 ## Apply code styles
 

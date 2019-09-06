@@ -10,12 +10,10 @@ dev_langs:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.workload:
-  - "uwp"
 ---
 # Walkthrough: Bind to data in XAML Designer
 
-In XAML Designer, you can set data binding properties by using the artboard and the Properties window. The example in this walkthrough shows how to bind data to a control. Specifically, the walkthrough shows how to create a simple shopping cart class that has a [DependencyProperty](/uwp/api/Windows.UI.Xaml.DependencyProperty) named `ItemCount`, and then bind the `ItemCount` property to the **Text** property of a [TextBlock](/uwp/api/Windows.UI.Xaml.Controls.TextBlock) control.
+In XAML Designer, you can set data binding properties by using the artboard and the Properties window. The example in this walkthrough shows how to bind data to a control. Specifically, the walkthrough shows how to create a simple shopping cart class that has a [DependencyProperty](xref:Windows.UI.Xaml.DependencyProperty) named `ItemCount`, and then bind the `ItemCount` property to the **Text** property of a [TextBlock](xref:Windows.UI.Xaml.Controls.TextBlock) control.
 
 ## To create a class to use as a data source
 
@@ -59,7 +57,7 @@ In XAML Designer, you can set data binding properties by using the artboard and 
    End Class
    ```
 
-   This code sets a value of 0 as the default item count by using the [PropertyMetadata](/uwp/api/Windows.UI.Xaml.PropertyMetadata) object.
+   This code sets a value of 0 as the default item count by using the [PropertyMetadata](xref:Windows.UI.Xaml.PropertyMetadata) object.
 
 1. On the **File** menu, choose **Build** > **Build Solution**.
 
@@ -67,7 +65,7 @@ In XAML Designer, you can set data binding properties by using the artboard and 
 
 1. In Solution Explorer, open the shortcut menu for **MainWindow.xaml** and choose **View Designer**.
 
-1. In the Toolbox, choose a [Grid](/uwp/api/Windows.UI.Xaml.Controls.Grid) control and add it to the form.
+1. In the Toolbox, choose a [Grid](xref:Windows.UI.Xaml.Controls.Grid) control and add it to the form.
 
 1. With the `Grid` selected, in the Properties window, choose the **New** button next to the **DataContext** property.
 

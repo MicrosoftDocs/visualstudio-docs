@@ -31,6 +31,7 @@
 # Source Editor
 ## [Editor Features](source-editor.md)
 ## [Refactoring](refactoring.md)
+## [IntelliSense](intellisense.md)
 ## [Comments](comments.md)
 ## [Editor Behavior](editor-behavior.md)
 ## [Task Comments](task-comments.md)
@@ -56,7 +57,6 @@
 
 # Version Control
 ## [Overview](version-control.md)
-## [TF Version Control](tf-version-control.md)
 ## [Setting Up a Git Repository](set-up-git-repository.md)
 ## [Working with Git](working-with-git.md)
 ## [Setting Up a Subversion Repository](set-up-subversion-repository.md)
@@ -99,8 +99,17 @@
 ## [Logs and Exceptions](troubleshooting.md)
 ## [Visual Studio Customer Experience Improvement Program](visual-studio-experience-improvement-program.md)
 ## [Report a Problem](report-a-problem.md)
+## [Troubleshooting: Does Visual Studio for Mac support Team Foundation Version Control?](tf-version-control.md)
 ## [Troubleshooting: Why can I not see all templates?](troubleshooting-no-templates.md)
 ## [Troubleshooting: Updater has errors retrieving information](updater-troubleshooting.md)
 
 # [Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes)
 # [Preview Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-preview-relnotes)
+# Samples
+## [Featured Samples](samples.yml)
+## [All ASP.NET Core Samples](https://docs.microsoft.com/samples/browse/?products=aspnet-core)
+## [All .NET Core Samples](https://docs.microsoft.com/samples/browse/?products=dotnet-core)
+## [All Xamarin.Forms Samples](https://docs.microsoft.com/xamarin/xamarin-forms/samples/)
+## [All Xamarin.iOS Samples](https://docs.microsoft.com/xamarin/ios/samples/)
+## [All Xamarin.Android Samples](https://docs.microsoft.com/xamarin/android/samples/)
+## [All Xamarin.Mac Samples](https://docs.microsoft.com/xamarin/mac/samples/)

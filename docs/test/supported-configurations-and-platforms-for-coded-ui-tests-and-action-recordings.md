@@ -62,7 +62,7 @@ The supported configurations and platforms for coded UI tests for Visual Studio 
 | Citrix/Terminal Services | We don't recommend recording actions on a terminal server. The recorder doesn't support running multiple instances at the same time. |
 | PowerBuilder | Partially supported.<br /><br /> The support is to the extent accessibility is enabled for PowerBuilder controls. |
 
- For information about how to create extensions to support other platforms, see [Enable coded UI testing of your controls](../test/enable-coded-ui-testing-of-your-controls.md) and [Extend coded UI tests and action recordings](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md).
+For information about how to create extensions to support other platforms, see [Enable coded UI testing of your controls](../test/enable-coded-ui-testing-of-your-controls.md) and [Extend coded UI tests and action recordings](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md).
 
 ## See also
 

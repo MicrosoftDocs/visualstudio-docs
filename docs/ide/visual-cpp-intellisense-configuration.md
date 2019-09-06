@@ -32,7 +32,7 @@ If you run your builds outside of the Visual Studio IDE, and your builds are suc
 
 ![VC++ Include Directories](media/vcpp-intellisense-include-paths.png)
 
- To see the current values for build macros such as **VC_IncludePath**, select the Include Directories line and click the dropdown on the right. Then choose **\<Edit>** and click on the **Macros** button.
+To see the current values for build macros such as **VC_IncludePath**, select the Include Directories line and click the dropdown on the right. Then choose **\<Edit>** and click on the **Macros** button.
 
 ### Makefile projects
 
@@ -42,7 +42,7 @@ For Makefile projects that are based on the NMake project template, choose **NMa
 
 ### Open Folder projects
 
-For CMake projects, make sure that #include paths are specified correctly for all configurations in CMakeLists.txt. Other project types might require a CppProperties.json file. For more information, see [Configure IntelliSense with CppProperties.json](/cpp/build/open-folder-projects-cpp#configure-intellisense-and-browsing-hints-with-cpppropertiesjson). Make sure that the paths are correct for each configuration that is defined in the file.
+For CMake projects, make sure that #include paths are specified correctly for all configurations in CMakeLists.txt. Other project types might require a CppProperties.json file. For more information, see [Configure IntelliSense with CppProperties.json](/cpp/build/open-folder-projects-cpp#configure-code-navigation-with-cpppropertiesjson). Make sure that the paths are correct for each configuration that is defined in the file.
 
 If there is a syntax error in the CppProperties.json file, IntelliSense in the affected files will be incorrect. Visual Studio will display the error in the Output Window.
 
@@ -73,18 +73,18 @@ To check whether IntelliSense compiler is using correct compiler options, includ
 The Output Window will now show the command lines that are passed to the IntelliSense compiler. Here is a sample output:
 
 ```output
- [IntelliSense] Configuration Name: Debug|Win32
- [IntelliSense] Toolset IntelliSense Identifier:
- [IntelliSense] command line options:
- /c
- /I.
- /IC:\Repo\Includes
- /DWIN32
- /DDEBUG
- /D_DEBUG
- /Zc:wchar_t-
- /Zc:forScope
- /Yustdafx.h
+[IntelliSense] Configuration Name: Debug|Win32
+[IntelliSense] Toolset IntelliSense Identifier:
+[IntelliSense] command line options:
+/c
+/I.
+/IC:\Repo\Includes
+/DWIN32
+/DDEBUG
+/D_DEBUG
+/Zc:wchar_t-
+/Zc:forScope
+/Yustdafx.h
 ```
 
 This information may help you understand why IntelliSense is providing inaccurate information. For example, if your project’s Include directory contains **$(MyVariable)\Include**, and the diagnostic log shows **/I\Include** as an Include path, it means that **$(MyVariable)** wasn’t evaluated, and was removed from the final include path.
@@ -104,10 +104,10 @@ An IntelliSense build does not produce binaries, but it can still fail. One poss
 The error message might instruct you to enable design-time tracing:
 
 ```output
- error: Designtime build failed for project 'E:\src\MyProject\MyProject.vcxproj',
- configuration 'Debug|x64'. IntelliSense might be unavailable.
- Set environment variable TRACEDESIGNTIME=true and restart
- Visual Studio to investigate.
+error: Designtime build failed for project 'E:\src\MyProject\MyProject.vcxproj',
+configuration 'Debug|x64'. IntelliSense might be unavailable.
+Set environment variable TRACEDESIGNTIME=true and restart
+Visual Studio to investigate.
 ```
 
 If you set the environment variable TRACEDESIGNTIME to true and restart Visual Studio, you will see a log file in the %TEMP% directory, which might help diagnose the build failure.

@@ -21,7 +21,7 @@ ms.workload:
 **Updated for the [16.2 release](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
->[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019)
+>[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
 
 With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in this new version!
 
@@ -59,7 +59,7 @@ Simply invoke the refactorings by pressing **Ctrl+.** and selecting the action y
 
 [Visual Studio IntelliCode](/visualstudio/intellicode/) enhances your software development efforts by using artificial intelligence (AI). IntelliCode trains across 2,000 open-source projects on GitHub&mdash;each with over 100 stars&mdash;to generate its recommendations.
 
- ![An animation of IntelliCode in Visual Studio 2019](media/vs-2019/IntelliCode.gif)
+![An animation of IntelliCode in Visual Studio 2019](media/vs-2019/IntelliCode.gif)
 
 Here are a few ways that Visual Studio IntelliCode can help enhance your productivity:
 

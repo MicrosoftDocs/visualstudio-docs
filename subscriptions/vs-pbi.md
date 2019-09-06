@@ -28,8 +28,6 @@ To use Power BI Pro, you’ll need to set up an account or sign in using an exis
    > ![Power BI Pro Benefit Existing Account](_img/vs-pbi/vs-pbi-existing-account.png)
 
 4. To create a new account, provide your contact information, then click **Next**.
-   > [!div class="mx-imgBorder"]
-   > ![Power BI Pro Benefit Create Account](_img/vs-pbi/vs-pbi-create-account-cropped.png)
 
 5. Next, create your user ID and password.  If you already have an account and you’re creating a new one, you’ll need to provide a different company name than you used on the existing account.  Click **Create my account**.
    > [!div class="mx-imgBorder"]
@@ -40,8 +38,6 @@ To use Power BI Pro, you’ll need to set up an account or sign in using an exis
    > ![Power BI Pro Benefit Not A Robot](_img/vs-pbi/vs-pbi-robot1-cropped.png)
 
 7. Enter the code you receive, and click **Next**.
-   > [!div class="mx-imgBorder"]
-   > ![Power BI Pro Benefit Not A Robot2](_img/vs-pbi/vs-pbi-robot2-cropped.png)
 
 8. Provide your contact information, then click **Next**.
    > [!div class="mx-imgBorder"]
@@ -54,8 +50,6 @@ To use Power BI Pro, you’ll need to set up an account or sign in using an exis
     > ![Power BI Pro Benefit Contact Information](_img/vs-pbi/vs-pbi-payment-blurred-cropped.png)
 
 11. The next page confirms you’re all set to start using Power BI Pro.  The page will provide a link to the sign-in page.  We recommend recording the link to the sign-in page as well as your user ID.  (You will also receive a welcome email at the address you provided when you set up the account.)  You may also see an automated Office 365 Assistant window, which you can use if you have questions.  Click **Let’s get started** to continue.
-    > [!div class="mx-imgBorder"]
-    > ![Power BI Pro Benefit All Set](_img/vs-pbi/vs-pbi-all-set-cropped.png)
 
 12. Now that your Power BI Pro account is set up, you’ll see the Office 365 Admin center, where you can manage users and domains, install Office software, and learn about Office 365.  That’s it!  You’re ready to go.
 

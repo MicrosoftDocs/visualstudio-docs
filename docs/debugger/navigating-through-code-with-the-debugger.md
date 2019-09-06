@@ -180,5 +180,5 @@ To load Microsoft symbols, see [Configure symbol locations and loading options](
 
 ## See also
 - [What is debugging?](../debugger/what-is-debugging.md)
-- [DDebugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)
+- [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)
 - [First look at debugging](../debugger/debugger-feature-tour.md)

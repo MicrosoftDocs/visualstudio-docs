@@ -41,20 +41,20 @@ The following table lists the built-in graphs that are available to analyze load
 |Controller and Agents|Information about the computers on which the load tests run. This includes data about memory use, the processor, the physical disk, processes.<br /><br /> By default Only the Available Mbytes and Processor Time counters are collected.|
 |Transaction Response Time|The average response time for transactions that occur during the load test.|
 
- You can display different counters on the graph both at run time and after a test has run.
+You can display different counters on the graph both at run time and after a test has run.
 
 > [!NOTE]
 > Only response time performance counters can be added to an automatically generated response time graph.
 
- The counter information displays both in the graph and in the legend underneath the graphs. You can also zoom in on a section of the graph. For more information, see [How to: Zoom in on a region of the graph](../test/how-to-zoom-in-on-a-region-of-the-graph-in-load-test-results.md).
+The counter information displays both in the graph and in the legend underneath the graphs. You can also zoom in on a section of the graph. For more information, see [How to: Zoom in on a region of the graph](../test/how-to-zoom-in-on-a-region-of-the-graph-in-load-test-results.md).
 
 ## Counters displayed in graphs
 
- Graphs display *counters*. Counters refer to the data gathered during a load test, such as tests per second or average test time. For more information about counters, see [Specifying the counter sets and threshold rules for computers in a load test](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md).
+Graphs display *counters*. Counters refer to the data gathered during a load test, such as tests per second or average test time. For more information about counters, see [Specifying the counter sets and threshold rules for computers in a load test](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md).
 
- The legend for the counters that are displayed in the graphs shows several columns of useful data about the load test run. To turn off the display of any data in the graph, clear the check box in the row in the legend.
+The legend for the counters that are displayed in the graphs shows several columns of useful data about the load test run. To turn off the display of any data in the graph, clear the check box in the row in the legend.
 
- The legend contains the following columns:
+The legend contains the following columns:
 
 |Counter|The name of the counter|
 |-|-|
@@ -81,11 +81,11 @@ The following table lists the built-in graphs that are available to analyze load
 
 ## Related tasks
 
- [Analyze load test results and errors in the tables view](../test/analyze-load-test-results-and-errors-in-the-tables-view.md)
+[Analyze load test results and errors in the tables view](../test/analyze-load-test-results-and-errors-in-the-tables-view.md)
 
- [How to: Access load test results for analysis](../test/how-to-access-load-test-results-for-analysis.md)
+[How to: Access load test results for analysis](../test/how-to-access-load-test-results-for-analysis.md)
 
- [Analyze load test results](../test/analyze-load-test-results-using-the-load-test-analyzer.md)
+[Analyze load test results](../test/analyze-load-test-results-using-the-load-test-analyzer.md)
 
 ## See also
 

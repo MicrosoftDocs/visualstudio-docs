@@ -140,13 +140,13 @@ There are some differences between Live Unit Testing automatically running and u
 
 - Running or debugging tests from the Test Explorer window runs regular binaries, whereas Live Unit Testing runs instrumented binaries.
 - Live Unit Testing does not create a new application domain to run tests, but rather runs tests from the default domain. Tests run from the **Test Explorer** window do create a new application domain.
-- Live Unit Testing runs tests in each test assembly sequentially. If you run multiple tests from the **Test Explorer** window and the **Run Tests in Parallel** button is selected, tests run in parallel.
+- Live Unit Testing runs tests in each test assembly sequentially. In the **Test Explorer** window, you can choose an option to run multiple tests in parallel.
 
 ## Live Unit Testing and large solutions
 
 If your solution has 10 or more projects, when you start Live Unit Testing and there is no persisted data, or when you select the **Test** > **Live Unit Testing** > **Reset Clean** option from the top-level Visual Studio menu, Visual Studio displays the following dialog to warn you that dynamic execution of large numbers of tests in large projects can severely impact performance. If you select **OK**, Live Unit Testing executes all tests in the solution. If you select **Cancel**, you can select the tests to execute. For information on how to do this, see the following section, [Include and exclude test projects and test methods](#include-and-exclude-test-projects-and-test-methods).
 
- ![Live Unit Testing dialog for large projects](media/lut-large-project.png)
+![Live Unit Testing dialog for large projects](media/lut-large-project.png)
 
 ## Include and exclude test projects and test methods
 
