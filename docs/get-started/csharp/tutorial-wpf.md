@@ -70,7 +70,7 @@ When you create an application in Visual Studio, you first create a project and 
 
    ![View the 'Create a new project' window](../../get-started/media/vs-2019/start-window-create-new-project.png "Screenshot of the 'Create a new project' window")
 
-1. On the **Create a new project** screen, search for "WPF," choose **WPF App (.NET Framework)**, and then choose **Next**.
+1. On the **Create a new project** screen, search for "WPF," choose **WPF App (.NET Core)**, and then choose **Next**.
 
    ![WPF app template in 'Create a new project' dialog](media/vs-2019/exploreide-newprojectcsharp-vs2019.png "Screenshot of the WPF app template in 'Create a new project' dialog")
 
