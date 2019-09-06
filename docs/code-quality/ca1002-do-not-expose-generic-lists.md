@@ -25,10 +25,12 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
-A type contains an externally visible member that is a <xref:System.Collections.Generic.List%601?displayProperty=fullName> type, returns a <xref:System.Collections.Generic.List%601?displayProperty=fullName> type, or whose signature includes a <xref:System.Collections.Generic.List%601?displayProperty=fullName> parameter.
+
+A type contains an externally visible member that is a <xref:System.Collections.Generic.List%601?displayProperty=fullName> type, returns a <xref:System.Collections.Generic.List%601> type, or whose signature includes a <xref:System.Collections.Generic.List%601> parameter.
 
 ## Rule description
- <xref:System.Collections.Generic.List%601?displayProperty=fullName> is a generic collection that is designed for performance and not inheritance. <xref:System.Collections.Generic.List%601?displayProperty=fullName> does not contain virtual members that make it easier to change the behavior of an inherited class. The following generic collections are designed for inheritance and should be exposed instead of <xref:System.Collections.Generic.List%601?displayProperty=fullName>.
+
+<xref:System.Collections.Generic.List%601?displayProperty=fullName> is a generic collection that's designed for performance and not inheritance. <xref:System.Collections.Generic.List%601> does not contain virtual members that make it easier to change the behavior of an inherited class. The following generic collections are designed for inheritance and should be exposed instead of <xref:System.Collections.Generic.List%601>.
 
 - <xref:System.Collections.ObjectModel.Collection%601?displayProperty=fullName>
 
@@ -36,13 +38,20 @@ A type contains an externally visible member that is a <xref:System.Collections.
 
 - <xref:System.Collections.ObjectModel.KeyedCollection%602?displayProperty=fullName>
 
+- <xref:System.Collections.Generic.IList%601?displayProperty=fullName>
+
+- <xref:System.Collections.Generic.ICollection%601?displayProperty=fullName>
+
 ## How to fix violations
-To fix a violation of this rule, change the <xref:System.Collections.Generic.List%601?displayProperty=fullName> type to one of the generic collections that is designed for inheritance.
+
+To fix a violation of this rule, change the <xref:System.Collections.Generic.List%601?displayProperty=fullName> type to one of the generic collections that's designed for inheritance.
 
 ## When to suppress warnings
-Do not suppress a warning from this rule unless the assembly that raises this warning is not meant to be a reusable library. For example, it would be safe to suppress this warning in a performance tuned application where a performance benefit was gained from the use of generic lists.
+
+Do not suppress a warning from this rule unless the assembly that raises this warning is not meant to be a reusable library. For example, it would be safe to suppress this warning in a performance-tuned application where a performance benefit was gained from the use of generic lists.
 
 ## Related rules
+
 [CA1005: Avoid excessive parameters on generic types](../code-quality/ca1005-avoid-excessive-parameters-on-generic-types.md)
 
 [CA1010: Collections should implement generic interface](../code-quality/ca1010-collections-should-implement-generic-interface.md)
@@ -58,4 +67,5 @@ Do not suppress a warning from this rule unless the assembly that raises this wa
 [CA1007: Use generics where appropriate](../code-quality/ca1007-use-generics-where-appropriate.md)
 
 ## See also
+
 [Generics](/dotnet/csharp/programming-guide/generics/index)
