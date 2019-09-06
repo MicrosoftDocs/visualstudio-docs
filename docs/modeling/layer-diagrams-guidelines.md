@@ -20,7 +20,7 @@ Describe your app's architecture at a high level by creating *dependency diagram
 To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
 > [!NOTE]
-> Dependency diagrams are not supported for .NET Core projects in Visual Studio.
+> Dependency diagrams for .NET Core projects are supported starting in Visual Studio 2019 version 16.2.
 
 ## What is a dependency diagram?
 
