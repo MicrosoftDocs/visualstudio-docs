@@ -67,7 +67,28 @@ The following snippet shows a type `TypeB` that violates rule CA2213 by declarin
 
 [!code-csharp[FxCop.Usage.IDisposableFields#1](../code-quality/codesnippet/CSharp/ca2213-disposable-fields-should-be-disposed_2.cs)]
 
+To fix the violation, call `Dispose()` on the disposable field:
+
+```csharp
+protected virtual void Dispose(bool disposing)
+{
+   if (!disposed)
+   {
+      // Dispose of resources held by this instance.
+      aFieldOfADisposableType.Dispose();
+
+      disposed = true;
+
+      // Suppress finalization of this disposed instance.
+      if (disposing)
+      {
+          GC.SuppressFinalize(this);
+      }
+   }
+}
+```
+
 ## See also
 
 - <xref:System.IDisposable?displayProperty=fullName>
-- [Dispose Pattern](/dotnet/standard/design-guidelines/dispose-pattern)
+- [Dispose pattern](/dotnet/standard/design-guidelines/dispose-pattern)
