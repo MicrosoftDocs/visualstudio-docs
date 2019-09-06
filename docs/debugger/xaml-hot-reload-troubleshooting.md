@@ -16,7 +16,7 @@ ms.workload:
 
 This troubleshooting guide includes detailed instructions that should resolve most issues that prevent XAML Hot Reload from working correctly.
 
-XAML Hot Reload is supported for WPF and UWP apps. For detailed requirements, see [Write and debug running XAML code with XAML Hot Reload](xaml-hot-reload.md).
+XAML Hot Reload is supported for WPF and UWP apps. For details on operating system and tooling requirements, see [Write and debug running XAML code with XAML Hot Reload](xaml-hot-reload.md).
 
 ## Hot Reload is not available
 

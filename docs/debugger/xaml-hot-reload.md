@@ -22,12 +22,12 @@ XAML Hot Reload is especially helpful in these scenarios:
 
 * Building a new UI component for an app that is under development, while taking advantage of your app’s runtime context.
 
-![XAML Hot Reload](../debugger/media/xaml-hot-reload-using.gif)
-
 |Supported Application Types|Operating System and Tools|
 |-|-|-|
 |Windows Presentation Foundation (WPF) |.NET Framework 4.6+</br>Windows 7 and above |
 |Universal Windows apps (UWP)|Windows 10 and above, with the [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk) 14393+ |
+
+![XAML Hot Reload](../debugger/media/xaml-hot-reload-using.gif)
 
 > [!NOTE]
 > Visual Studio XAML Hot Reload is currently only supported when running your application in Visual Studio or Blend for Visual Studio with the debugger attached (**F5** or **Start debugging**). You can't enable this experience by using [Attach to process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
@@ -42,7 +42,7 @@ The following are known limitations of XAML Hot Reload. To work around any limit
 |Creating resource objects in a resource dictionary such as those in your app's Page/Window or *App.xaml*|Supported starting in Visual Studio 2019 Update 2|Supported|Example: adding a `SolidColorBrush` into a resource dictionary for use as a `StaticResource`.</br>Note: Static resources, style converters, and other elements written into a resource dictionary can be applied/used while using XAML Hot Reload. Only the creation of the resource is not supported.</br> Changing the resource dictionary `Source` property.|
 |Adding new controls, classes, windows, or other files to your project while the app is running|Not Supported|Not Supported|None|
 |Managing NuGet packages (adding/removing/updating packages)|Not Supported|Not Supported|None|
-|Changing data binding that uses the {x:Bind} markup extension|N/A|Supported starting in Visual Studio 2019 and later versions|Not supported in Visual Studio 2017 or previous versions|
+|Changing data binding that uses the {x:Bind} markup extension|N/A|Supported starting in Visual Studio 2019|Not supported in Visual Studio 2017 or previous versions|
 
 ## Error messages
 
