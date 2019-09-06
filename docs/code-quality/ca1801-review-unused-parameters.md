@@ -43,7 +43,7 @@ This rule does not examine the following kinds of methods:
 
 - Methods declared with the `extern` (`Declare` statement in Visual Basic) modifier.
 
-If you're using [FxCop analyzers](install-fxcop-analyzers.md), this rule does not flag parameters that are named with the [discard](/dotnet/csharp/discards) symbol, for example, `_` and `_1`. This reduces warning noise on parameters that are needed for signature requirements, for example, a method used as a delegate, a parameter with special attributes, or a parameter whose value is implicitly accessed at run time by a framework but is not referenced in code.
+If you're using [FxCop analyzers](install-fxcop-analyzers.md), this rule does not flag parameters that are named with the [discard](/dotnet/csharp/discards) symbol, for example, `_`, `_1`, and `_2`. This reduces warning noise on parameters that are needed for signature requirements, for example, a method used as a delegate, a parameter with special attributes, or a parameter whose value is implicitly accessed at run time by a framework but is not referenced in code.
 
 ## Rule description
 
