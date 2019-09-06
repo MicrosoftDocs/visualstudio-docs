@@ -55,7 +55,7 @@ The following table lists the reserved template parameters that can be used by a
 |safeitemrootname|Same as `safeitemname`.|
 |safeprojectname|The name provided by the user when the project was created but with all unsafe characters and spaces removed.|
 |time|The current time in the format DD/MM/YYYY 00:00:00.|
-|SpecificSolutionName|The name of the solution. When "create solution directory" is checked, `SpecificSolutionName` has the solution name. When "create solution directory" is not checked, `SpecificSolutionName` is blank.|
+|specifiedSolutionName|The name of the solution. When "create solution directory" is checked, `specifiedSolutionName` has the solution name. When "create solution directory" is not checked, `specifiedSolutionName` is blank.|
 |userdomain|The current user domain.|
 |username|The current user name.|
 |webnamespace|The name of the current website. This parameter is used in the web form template to guarantee unique class names. If the website is at the root directory of the web server, this template parameter resolves to the root directory of the web server.|
