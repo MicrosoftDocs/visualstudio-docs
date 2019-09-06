@@ -55,3 +55,7 @@ UWP:
 ## Verify that you are using the correct build configuration name
 
 You must not change your build configuration from Debug, and you must use the default build configuration name (Debug). A custom build configuration name won't work, nor will a Release build.
+
+## See also
+
+[Write and debug running XAML code with XAML Hot Reload](xaml-hot-reload.md)

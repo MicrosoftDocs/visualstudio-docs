@@ -56,3 +56,5 @@ You may come across the following errors while using XAML Hot Reload.
 |This change is not supported by XAML Hot Reload and will not be applied during the debugging session.|Error indicates that the change you are attempting is not supported by XAML Hot Reload. Stop the debugging session, make the change, and then restart the debugging session.|
 
 ## See also
+
+[Troubleshooting XAML Hot Reload](xaml-hot-reload-troubleshooting.md)
