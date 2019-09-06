@@ -27,6 +27,8 @@ XAML Hot Reload is especially helpful in these scenarios:
 |Windows Presentation Foundation (WPF) |.NET Framework 4.6+</br>Windows 7 and above |
 |Universal Windows apps (UWP)|Windows 10 and above, with the [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk) 14393+ |
 
+The following illustration shows the use of the Live Visual Tree to open your source code, and then XAML Hot Reload to change the button text and button color.
+
 ![XAML Hot Reload](../debugger/media/xaml-hot-reload-using.gif)
 
 > [!NOTE]
@@ -52,3 +54,5 @@ You may come across the following errors while using XAML Hot Reload.
 |-|-|
 |Ensure Event Failed|Error indicates you are attempting to wire an event to one of your controls, which isn’t supported while your application is running.|
 |This change is not supported by XAML Hot Reload and will not be applied during the debugging session.|Error indicates that the change you are attempting is not supported by XAML Hot Reload. Stop the debugging session, make the change, and then restart the debugging session.|
+
+## See also
