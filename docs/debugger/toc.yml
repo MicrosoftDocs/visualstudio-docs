@@ -127,6 +127,7 @@
       - name: Apply edits in break mode with Edit and Continue
         href: how-to-apply-edits-in-break-mode-with-edit-and-continue.md
     - name: XAML Hot Reload
+      items:
       - name: Write and debug running XAML code
         href: xaml-hot-reload.md
       - name: Troubleshooting XAML Hot Reload
