@@ -24,18 +24,23 @@ ms.workload:
 |Breaking Change|Non-breaking|
 
 ## Cause
+
 A type implements a finalizer that is empty, calls only the base type finalizer, or calls only conditionally emitted methods.
 
 ## Rule description
-Whenever you can, avoid finalizers because of the additional performance overhead that is involved in tracking object lifetime. The garbage collector will run the finalizer before it collects the object. This means that two collections will be required to collect the object. An empty finalizer incurs this added overhead without any benefit.
+
+Whenever you can, avoid finalizers because of the additional performance overhead that's involved in tracking object lifetime. The garbage collector runs the finalizer before it collects the object. This means that at least two collections are required to collect the object. An empty finalizer incurs this added overhead without any benefit.
 
 ## How to fix violations
+
 Remove the empty finalizer. If a finalizer is required for debugging, enclose the whole finalizer in `#if DEBUG / #endif` directives.
 
 ## When to suppress warnings
-Do not suppress a message from this rule. Failure to suppress finalization decreases performance and provides no benefits.
+
+Do not suppress a message from this rule.
 
 ## Example
+
 The following example shows an empty finalizer that should be removed, a finalizer that should be enclosed in `#if DEBUG / #endif` directives, and a finalizer that uses the `#if DEBUG / #endif` directives correctly.
 
 [!code-csharp[FxCop.Performance.RemoveEmptyFinalizers#1](../code-quality/codesnippet/CSharp/ca1821-remove-empty-finalizers_1.cs)]
