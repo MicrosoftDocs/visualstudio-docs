@@ -25,7 +25,7 @@ This troubleshooting guide includes step-by-step instructions that should resolv
 
 ## Troubleshoot an online installation
 
-The following steps are optimized for a typical online installation. For an issue that affects an offline installation, please see [How to troubleshoot an offline installation](#how-to-troubleshoot-an-offline-installation).
+The following steps are optimized for a typical online installation. For an issue that affects an offline installation, please see [How to troubleshoot an offline installation](#troubleshoot-an-offline-installation).
 
 ### Step 1 - Check whether this problem is a known issue
 
@@ -76,7 +76,7 @@ In some situations, such as those related to corrupted files, the problems might
 
 ::: moniker range="vs-2017"
 
-1. Collect your setup logs. See [How to get the Visual Studio installation logs](#how-to-get-visual-studio-installation-logs) for details.
+1. Collect your setup logs. See [How to get the Visual Studio installation logs](#get-installation-logs) for details.
 2. Open the Visual Studio Installer, and then click **Report a problem** to open the Visual Studio Feedback tool.
 ![You can tab to the Provide Feedback button to open the feedback tool](media/report-a-problem.png)
 3. Give your problem report a title, and provide relevant details. Click **Next** to go to the **Attachments** section, and then attach the generated log file (typically, the file is at `%TEMP%\vslogs.zip`).
@@ -86,7 +86,7 @@ In some situations, such as those related to corrupted files, the problems might
 
 ::: moniker range="vs-2019"
 
-1. Collect your setup logs. See [How to get the Visual Studio installation logs](#how-to-get-visual-studio-installation-logs) for details.
+1. Collect your setup logs. See [How to get the Visual Studio installation logs](#get-installation-logs) for details.
 2. Open the Visual Studio Installer, and then click **Report a problem** to open the Visual Studio Feedback tool.
 ![You can tab to the Provide Feedback button to open the feedback tool](media/vs-2019/vs-installer-report-problem.png)
 3. Give your problem report a title, and provide relevant details. Click **Next** to go to the **Attachments** section, and then attach the generated log file (typically, the file is at `%TEMP%\vslogs.zip`).
