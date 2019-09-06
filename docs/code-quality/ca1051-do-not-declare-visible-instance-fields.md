@@ -32,9 +32,11 @@ By default, this rule only looks at externally visible types, but this is [confi
 
 ## Rule description
 
-The primary use of a field should be as an implementation detail. Fields should be `private` or `internal` and should be exposed by using properties. It is as easy to access a property as it is to access a field, and the code in the accessors of a property can change as the features of the type expand without introducing breaking changes. Properties that just return the value of a private or internal field are optimized to perform on par with accessing a field; very little performance gain is associated with the use of externally visible fields over properties.
+The primary use of a field should be as an implementation detail. Fields should be `private` or `internal` and should be exposed by using properties. It's as easy to access a property as it is to access a field, and the code in the accessors of a property can change as the features of the type expand without introducing breaking changes.
 
-Externally visible refers to `public`, `protected`, and `protected internal` (`Public`, `Protected`, and `Protected Friend` in Visual Basic) accessibility levels.
+Properties that just return the value of a private or internal field are optimized to perform on par with accessing a field; the performance gain from using externally visible fields instead of properties is minimal. (*Externally visible* refers to `public`, `protected`, and `protected internal` (`Public`, `Protected`, and `Protected Friend` in Visual Basic) accessibility levels.)
+
+Additionally, public fields cannot be protected by [Link demands](/dotnet/framework/misc/link-demands). For more information, see [CA2112: Secured types should not expose fields](../code-quality/ca2112-secured-types-should-not-expose-fields.md). (Link demands are not applicable to .NET Core apps.)
 
 ## How to fix violations
 
@@ -42,7 +44,7 @@ To fix a violation of this rule, make the field `private` or `internal` and expo
 
 ## When to suppress warnings
 
-Do not suppress a warning from this rule. Externally visible fields do not provide any benefits that are unavailable to properties. Additionally, public fields cannot be protected by [Link Demands](/dotnet/framework/misc/link-demands). See [CA2112: Secured types should not expose fields](../code-quality/ca2112-secured-types-should-not-expose-fields.md).
+Only suppress this warning when you are certain that consumers need direct access to the field. For example, field access is needed in ASP.NET WebForms content controls or when the target platform makes use of `ref` to modify fields, such as model-view-viewmodel (MVVM) frameworks for WPF and UWP. For most other applications, exposed fields do not provide performance or maintainability benefits over properties.
 
 ## Configurability
 
