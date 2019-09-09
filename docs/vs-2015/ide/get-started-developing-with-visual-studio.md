@@ -27,7 +27,7 @@ Welcome to Visual Studio! After you have [downloaded](http://www.visualstudio.co
 
 - **[Make cross-platform mobile apps in C# or Visual Basic (Xamarin)](../cross-platform/visual-studio-and-xamarin.md)** : Get started using Visual Studio and Tools for Xamarin to create mobile apps that run on Android, iOS, and the Universal Windows Platform from a shared code base.
 
-     Load a sample:[TaskyPortable](https://github.com/xamarin/mobile-samples/tree/master/TaskyPortable) (native UI) or  [Xamarin Forms Todo sample](https://github.com/xamarin/xamarin-forms-samples/tree/master/Todo) (Xamarin.Forms shared UI) &#124;   [Do a tutorial](https://msdn.microsoft.com/library/dn879698\(v=vs.140\).aspx) &#124;                             [Browse the docs](https://msdn.microsoft.com/library/mt299001.aspx) &#124;                                  [Watch a video](https://channel9.msdn.com/Series/Cross-Platform-Development-with-Xamarin--Visual-Studio/01)
+     Load a sample: [TaskyPortable](https://github.com/xamarin/mobile-samples/tree/master/TaskyPortable) (native UI) or  [Xamarin Forms Todo sample](https://github.com/xamarin/xamarin-forms-samples/tree/master/Todo) (Xamarin.Forms shared UI) &#124;   [Do a tutorial](https://msdn.microsoft.com/library/dn879698\(v=vs.140\).aspx) &#124;                             [Browse the docs](https://msdn.microsoft.com/library/mt299001.aspx) &#124;                                  [Watch a video](https://channel9.msdn.com/Series/Cross-Platform-Development-with-Xamarin--Visual-Studio/01)
 
 - **[Make native cross-platform apps and libraries in C++](https://www.visualstudio.com/explore/cplusplus-mdd-vs.aspx)** Go here to get started creating C++ apps and libraries that run on Android, iOS, and the Universal Windows Platform.
 
