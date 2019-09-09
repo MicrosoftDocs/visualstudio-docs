@@ -63,7 +63,7 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
 - Python logs, if they exist
 
 > [!NOTE]
-  > The above logs are uploaded/sent to Microsoft only when you provide permission by submitting the problem report with which they are included. You can see which files are included on the 'Summary' step of the 'Report a Problem' window (see the screenshot included in this note). Any collected logs are stored in %temp% folder and are cleaned up regularly and after each upload. In case if you don't wish to include a log in your problem report, simply delete the file from the %temp% folder before submitting the report.  
+> Log files are sent to Microsoft only when you provide permission by submitting the problem report with which they are included. You can see which files are included on the 'Summary' step of the 'Report a Problem' window (see the screenshot included in this note). Collected logs are stored in the %temp% folder and are cleaned up regularly and after each upload. If you don't want to include a log in your problem report, delete the file from the %temp% folder before submitting the report.  
   > ![Report a Problem - Summary of logs collected](media/report-a-problem-logs-collected.png)
 
 - A screenshot, if you choose to include it
