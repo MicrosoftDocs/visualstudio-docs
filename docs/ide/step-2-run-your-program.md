@@ -1,6 +1,6 @@
 ---
 title: "Step 2: Run your program"
-ms.date: 08/30/2019
+ms.date: 09/06/2019
 ms.assetid: 9a8fe90e-c97b-4e98-b6c8-0c6b3962c49d
 ms.topic: tutorial
 ms.prod: visual-studio-windows
@@ -14,7 +14,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Step 2: Run your program
+# Step 2: Run your PictureViewer app
 
 When you create a Windows Forms Application project, you actually build a program that runs. In this tutorial, your *PictureViewer* app doesn't do much yet&mdash;although it will. For now though, it just displays an empty window that shows **Form1** in the title bar.
 

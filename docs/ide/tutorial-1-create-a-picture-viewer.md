@@ -46,7 +46,7 @@ When you finish, your program should look similar to the following image:
 |Title|Description|
 |-----------|-----------------|
 |[Step 1: Create a Windows Forms application project](../ide/step-1-create-a-windows-forms-application-project.md)|Begin by creating a Windows Forms application project.|
-|[Step 2: Run your program](../ide/step-2-run-your-program.md)|Run the Windows Forms application program that you created in the previous step.|
+|[Step 2: Run your app](../ide/step-2-run-your-program.md)|Run the Windows Forms application program that you created in the previous step.|
 |[Step 3: Set your form properties](../ide/step-3-set-your-form-properties.md)|Change the way your form looks using the **Properties** window.|
 |[Step 4: Lay out your form with a TableLayoutPanel control](../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md)|Add a `TableLayoutPanel` control to your form.|
 |[Step 5: Add controls to your form](../ide/step-5-add-controls-to-your-form.md)|Add controls, such as a `PictureBox` control and a `CheckBox` control, to your form. Add buttons to your form.|
