@@ -61,6 +61,7 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
 - Service Hub logs and MEF error logs, if they exist
 
 - Python logs, if they exist
+
 > [!NOTE]
   > The above logs are uploaded/sent to Microsoft only when you provide permission by submitting the problem report with which they are included. You can see which files are included on the 'Summary' step of the 'Report a Problem' window (see the screenshot included in this note). Any collected logs are stored in %temp% folder and are cleaned up regularly and after each upload. In case if you don't wish to include a log in your problem report, simply delete the file from the %temp% folder before submitting the report.  
   > ![Report a Problem - Summary of logs collected](media/report-a-problem-logs-collected.png)
