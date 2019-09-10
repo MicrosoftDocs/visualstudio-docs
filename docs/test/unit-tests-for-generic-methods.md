@@ -159,6 +159,7 @@ In other words, when you call the `DataTestHelper<T>()` method from the test met
 ```csharp
 using ClassLibrary2;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 namespace TestProject1
 {
     [TestClass()]
