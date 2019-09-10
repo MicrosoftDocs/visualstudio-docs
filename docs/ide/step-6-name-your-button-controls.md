@@ -65,14 +65,14 @@ You can verify the names by choosing the control selector drop-down list in the 
    > [!IMPORTANT]
    > Use the programming language control at the top right of this page to view either the C# code snippet or the Visual Basic code snippet.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
 
-   You're looking at code called `showButton_Click()` (alternatively, `ShowButton_Click()`). The IDE added this to the form's code when you opened the code file for the **showButton** button. At design-time, when you open the code file for a control in a form, code is generated for the control if it doesn't already exist. This code, known as a *method*, runs when you run your program and choose the control - in this case, the **Show a picture** button.
+   You're looking at code called `showButton_Click()` (alternatively, `ShowButton_Click()`). The IDE added this to the form's code when you opened the code file for the **showButton** button. At design-time, when you open the code file for a control in a form, code is generated for the control if it doesn't already exist. This code, known as a *method*, runs when you run your app and choose the control - in this case, the **Show a picture** button.
 
 1. Choose the **Windows Forms Designer** tab again (**Form1.cs [Design]**), and then open the code file for the **Clear the picture** button to create a method for it in the form's code. Repeat this for the remaining two buttons. Each time, the IDE adds a new method to the form's code file.
 
 1. To add one more method, open the code file for the **CheckBox** control in **Windows Forms Designer** to make the IDE add a `checkBox1_CheckedChanged()` method. That method is called whenever the user selects or clears the check box.
 
    > [!TIP]
-   > When working on a program, you often move between the code editor and **Windows Forms Designer**. The IDE makes it easy to navigate in your project. Use **Solution Explorer** to open **Windows Forms Designer** by double-clicking *Form1.cs* in C# or *Form1.vb* in Visual Basic, or on the menu bar, choose **View** > **Designer**.
+   > When working on an app, you often move between the code editor and **Windows Forms Designer**. The IDE makes it easy to navigate in your project. Use **Solution Explorer** to open **Windows Forms Designer** by double-clicking *Form1.cs* in C# or *Form1.vb* in Visual Basic, or on the menu bar, choose **View** > **Designer**.
 
     The following shows the new code that you see in the code editor.
 
@@ -80,7 +80,7 @@ You can verify the names by choosing the control selector drop-down list in the 
     
     [!code-vb[VbExpressTutorial1Step6_#2](../ide/codesnippet/VisualBasic/step-6-name-your-button-controls_2.vb)]
 
-    The five methods that you added are called *event handlers*, because your program calls them whenever an event (like a user choosing a button or selecting a box) happens.
+    The five methods that you added are called *event handlers*, because your application calls them whenever an event (like a user choosing a button or selecting a box) happens.
 
     When you view the code for a control in the IDE at design time, Visual Studio adds an event handler method for the control if one isn't there. For example, when you double-click a button, the IDE adds an event handler for its <xref:System.Windows.Forms.Control.Click> event (which is called whenever the user chooses the button). When you double-click a check box, the IDE adds an event handler for its <xref:System.Windows.Forms.CheckBox.CheckedChanged> event (which is called whenever the user selects or clears the box).
 
@@ -94,7 +94,7 @@ You can verify the names by choosing the control selector drop-down list in the 
 
 ## Next steps
 
-* To go to the next tutorial step, see [Step 7: Add dialog components to your form](../ide/step-7-add-dialog-components-to-your-form.md).
+* To go to the next tutorial step, see **[Step 7: Add dialog components to your form](../ide/step-7-add-dialog-components-to-your-form.md)**.
 
 * To return to the previous tutorial step, see [Step 5: Add controls to your form](../ide/step-5-add-controls-to-your-form.md).
 
