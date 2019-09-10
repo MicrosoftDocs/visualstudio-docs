@@ -28,9 +28,9 @@ The following procedures describe the steps to create, run and debug unit tests 
 
      The **New Project** dialog displays.
 
-2. Under Templates, choose the programming language you want to create unit tests in, and then choose the associated Windows Universal unit test library. For example, choose **Visual C#** , then choose **Windows Universal**, and then choose **Unit Test Library (Universal Windows)**.
+2. Under Templates, choose the programming language you want to create unit tests in, and then choose the associated Windows Universal unit test library. For example, choose **Visual C#** , then choose **Windows Universal**, and then choose **Unit Test App (Universal Windows)**.
 
-3. (Optional) In the **Name** textbox, enter the name you want to use for the project.
+3. (Optional) In the **Project name** textbox, enter the name you want to use for the project.
 
 4. (Optional) Modify the path where you want to create the project by entering it in the **Location** textbox, or by choosing the **Browse** button.
 
