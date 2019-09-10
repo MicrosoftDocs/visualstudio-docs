@@ -89,14 +89,17 @@ This article also creates a single Visual Studio solution and separate projects 
 3. Add the following code to the Rooter class *Rooter.cs* file:
 
    ```csharp
-   public Rooter()
+   public class Rooter
    {
-   }
+       public Rooter()
+       {
+       }
 
-   // estimate the square root of a number
-   public double SquareRoot(double x)
-   {
-       return 0.0;
+       // estimate the square root of a number
+       public double SquareRoot(double x)
+       {
+           return 0.0;
+       }
    }
    ```
 
