@@ -278,9 +278,9 @@ All tests now pass.
 
     ```csharp
     // old code
-    //result = result - (result*result - v)/(2*result);
+    //estimate = estimate - (estimate * estimate - x) / (2 * estimate);
     // new code
-    result = (result + v/result) / 2.0;
+    estimate = (estimate + x/estimate) / 2.0;
     ```
 
 2. Choose **Run All** to test the refactored method and make sure that you haven't introduced a regression.
