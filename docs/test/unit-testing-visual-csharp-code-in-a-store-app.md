@@ -161,7 +161,7 @@ You have set up the test and the code projects, and verified that you can run te
        {
            double expected = v;
            double actual = rooter.SquareRoot(v*v);
-           double tolerance = ToleranceHelper(expected);
+           double tolerance = expected/1000;
            Assert.AreEqual(expected, actual, tolerance);
        }
    }
