@@ -41,7 +41,7 @@ First, we'll create a Visual Basic application project. The project type comes w
 
 2. From the top menu bar, choose **File** > **New** > **Project**.
 
-3. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *HelloWorld*.
+3. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the project *WhatIsYourName*.
 
    ![Console App (.NET Core) project template in the New Project dialog box in the Visual Studio IDE](media/new-project-vb-dotnetcore-whatisyourname-console-app.png)
 
