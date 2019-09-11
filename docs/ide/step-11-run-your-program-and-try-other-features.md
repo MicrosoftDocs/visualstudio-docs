@@ -1,6 +1,6 @@
 ---
-title: "Step 11: Run your app and try other features"
-ms.date: 08/30/2019
+title: "Step 11: Run your picture viewer app and try other features"
+ms.date: 09/11/2019
 ms.assetid: 656614d0-4fe7-4a67-8edc-c10919377d09
 ms.topic: tutorial
 ms.prod: visual-studio-windows
@@ -14,9 +14,9 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Step 11: Run your app and try other features
+# Step 11: Run your picture viewer app and try other features
 
-Your app is finished and ready to run. You can run your app and set the background color of the <xref:System.Windows.Forms.PictureBox>. To learn more, try to improve the application by changing the color of the form, customizing the buttons and check box, and changing the properties of the form.
+Your picture viewer app is finished and ready to run. You can run your app and set the background color of the <xref:System.Windows.Forms.PictureBox>. To learn more, try to improve the application by changing the color of the form, customizing the buttons and check box, and changing the properties of the form.
 
 ## How to run your app and set the background color
 
