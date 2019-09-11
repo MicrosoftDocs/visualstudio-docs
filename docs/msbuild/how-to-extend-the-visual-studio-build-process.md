@@ -25,6 +25,9 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] build process is d
 ## Override predefined targets
 The common targets contains a set of predefined empty targets that is called before and after some of the major targets in the build process. For example, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] calls the `BeforeBuild` target before the main `CoreBuild` target and the `AfterBuild` target after the `CoreBuild` target. By default, the empty targets in the common targets do nothing, but you can override their default behavior by defining the targets you want in a project file that imports the common targets. By overriding the predefined targets, you can use [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] tasks to give you more control over the build process.
 
+> [!NOTE]
+> SDK-style projects have an implicit import of targets *after the last line of the project file*. This means that you cannot override default targets unless you specify your imports manually as described in [How to: Use MSBuild project SDKs](how-to-use-project-sdk.md).
+
 #### To override a predefined target
 
 1. Identify a predefined target in the common targets that you want to override. See the table below for the complete list of targets that you can safely override.
