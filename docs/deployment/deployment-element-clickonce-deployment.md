@@ -52,7 +52,7 @@ Identifies the attributes used for the deployment of updates and exposure to the
 ```
 
 ## Elements and attributes
- The `deployment` element is required and is in the `urn:schemas-microsoft-com:asm.v1` namespace. The element has the following attributes.
+ The `deployment` element is required and is in the `urn:schemas-microsoft-com:asm.v2` namespace. The element has the following attributes.
 
 | Attribute | Description |
 |--------------------------| - |
