@@ -65,7 +65,7 @@ For information about creating key files, see [How to: Create a public-private k
 4. Enter the password to access the key file, and then select **Enter**.
 
 > [!NOTE]
-> The *.pfx* file cannot include certificate chaining information. If it does, the following import error will occur: **Cannot find the certificate and private key for decryption**.
+> The *.pfx* file cannot include certificate chaining information. If it does, the following import error will occur: **Cannot find the certificate and private key for decryption**. To remove the certificate chaining information, you can use *Certmgr.msc* and [disable the option](/previous-versions/aa730868(v=vs.80)?redirectedfrom=MSDN#rsvssign_topic3) to **Include all certificates** when exporting the  *.pfx file.
 
 ## Sign using a test certificate
 

@@ -9,7 +9,6 @@ author: gewarren
 f1_keywords:
   - vs.startpage
   - VS.StartPage.HowDoI
-  - MSDNSTART
 ms.author: gewarren
 manager: jillfra
 ms.workload:

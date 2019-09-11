@@ -24,7 +24,7 @@ Now you're ready to complete the other four methods. You could copy and paste th
 This code adds functionality to the buttons you added earlier. Without this code, the buttons don't do anything. The buttons use code in their <xref:System.Windows.Forms.Control.Click> events (and the check box uses the <xref:System.Windows.Forms.CheckBox.CheckedChanged> event) to do different things when you activate the controls. For example, the `clearButton_Click` (or `ClearButton_Click`) event, which activates when you choose the **Clear the picture** button, erases the current image by setting its **Image** property to **null** (or, **nothing**). Each event in the code includes comments that explain what the code does.
 
 > [!TIP]
-> As a best practice: Always comment your code. Comments are information for a person to read, and it's worth the time to make your code understandable. Everything on a comment line is ignored by the program. In C#, you comment a line by typing two forward slashes at the beginning (//), and in Visual Basic you comment a line by starting with a single quotation mark (').
+> As a best practice: Always comment your code. Comments are information for a person to read, and it's worth the time to make your code understandable. Everything on a comment line is ignored by the app. In C#, you comment a line by typing two forward slashes at the beginning (//), and in Visual Basic you comment a line by starting with a single quotation mark (').
 
 ## How to write code for additional buttons and a check box
 
@@ -38,7 +38,7 @@ Add the following code to your **Form1** code file (*Form1.cs* or *Form1.vb*).
 
 ## Next steps
 
-* To go to the next tutorial step, see [Step 11: Run your program and try other features](../ide/step-11-run-your-program-and-try-other-features.md).
+* To go to the next tutorial step, see **[Step 11: Run your app and try other features](../ide/step-11-run-your-program-and-try-other-features.md)**.
 
 * To return to the previous tutorial step, see [Step 9: Review, comment, and test your code](../ide/step-9-review-comment-and-test-your-code.md).
 

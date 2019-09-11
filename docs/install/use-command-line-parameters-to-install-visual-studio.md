@@ -2,7 +2,7 @@
 title: "Use command-line parameters to install Visual Studio"
 titleSuffix: ""
 description: "Learn how to use command-line parameters to control or customize your Visual Studio installation."
-ms.date: 04/26/2019
+ms.date: 09/11/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
@@ -50,7 +50,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 
 > Syntax: `vs_enterprise.exe [command] <options>...`
 
-(Replace `vs_enterprise.exe` as appropriate for the product edition you're installing.)
+Replace `vs_enterprise.exe` as appropriate for the product edition you're installing. (Alternatively, you can use `vs_installer.exe`.)
 
 >[!TIP]
 > For more examples of how to use the command line to install Visual Studio, see the [Command-line parameter examples](command-line-parameter-examples.md) page.
