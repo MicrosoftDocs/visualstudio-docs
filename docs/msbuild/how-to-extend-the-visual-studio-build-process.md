@@ -18,7 +18,7 @@ ms.workload:
 # How to: Extend the Visual Studio build process
 The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] build process is defined by a series of [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] *.targets* files that are imported into your project file. One of these imported files, *Microsoft.Common.targets*, can be extended to allow you to run custom tasks at several points in the build process. This article explains two methods you can use to extend the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] build process:
 
-- Overriding specific predefined targets defined in the common targets (*Microsoft.Common.targets* or the common *.targets* file that it imports).
+- Overriding specific predefined targets defined in the common targets (*Microsoft.Common.targets* or the files that it imports).
 
 - Overriding the "DependsOn" properties defined in the common targets.
 
