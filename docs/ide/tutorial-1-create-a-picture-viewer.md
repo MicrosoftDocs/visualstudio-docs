@@ -45,7 +45,7 @@ When you finish, your app should look similar to the following image:
 
 |Title|Description|
 |-----------|-----------------|
-|[Step 1: Create a Windows Forms application project](../ide/step-1-create-a-windows-forms-application-project.md)|Begin by creating a Windows Forms App project.|
+|[Step 1: Create a Windows Forms App project](../ide/step-1-create-a-windows-forms-application-project.md)|Begin by creating a Windows Forms App project.|
 |[Step 2: Run your picture viewer app](../ide/step-2-run-your-program.md)|Run the Windows Forms App project that you created in the previous step.|
 |[Step 3: Set your form properties](../ide/step-3-set-your-form-properties.md)|Change the way your form looks using the **Properties** window.|
 |[Step 4: Lay out your form with a TableLayoutPanel control](../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md)|Add a `TableLayoutPanel` control to your form.|
