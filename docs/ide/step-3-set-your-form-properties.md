@@ -71,7 +71,7 @@ Next, you use the **Properties** window to change the way your form looks.
 
 * To go to the next tutorial step, see **[Step 4: Lay out your form with a TableLayoutPanel control](../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md)**.
 
-* To return to the previous tutorial step, see [Step 2: Run your picture viewer app(../ide/step-2-run-your-program.md).
+* To return to the previous tutorial step, see [Step 2: Run your picture viewer app](../ide/step-2-run-your-program.md).
 
 ## See also
 
