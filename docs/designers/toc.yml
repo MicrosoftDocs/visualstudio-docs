@@ -116,9 +116,9 @@
       - name: Overview
         displayName: Tutorial 1 Picture viewer
         href: ../ide/tutorial-1-create-a-picture-viewer.md
-      - name: "Step 1: Create a Windows Forms Application project"
+      - name: "Step 1: Create a Windows Forms App project"
         href: ../ide/step-1-create-a-windows-forms-application-project.md
-      - name: "Step 2: Run your program"
+      - name: "Step 2: Run your app"
         href: ../ide/step-2-run-your-program.md
       - name: "Step 3: Set your form properties"
         href: ../ide/step-3-set-your-form-properties.md
@@ -136,7 +136,7 @@
         href: ../ide/step-9-review-comment-and-test-your-code.md
       - name: "Step 10: Write code for additional buttons and a check box"
         href: ../ide/step-10-write-code-for-additional-buttons-and-a-check-box.md
-      - name: "Step 11: Run your program and try other features"
+      - name: "Step 11: Run your app and try other features"
         href: ../ide/step-11-run-your-program-and-try-other-features.md
     - name: "Tutorial 2: Create a timed math quiz (C#)"
       items:
