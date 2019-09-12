@@ -18,6 +18,13 @@ The Technical Support benefit in Visual Studio subscriptions is for resolving br
 
 **To submit a support request using the benefit, you must first activate it.  Follow the steps in the next section to complete the activation.**
 
+## Supported products 
+Developer Tools such as the Visual Studio IDE and Azure DevOps Server will receive both mainstream and extended support through Visual Studio subscriptions.
+
+Non-developer products (such as SQL, Windows, SharePoint) downloaded from Visual Studio subscriptions are eligible only for mainstream support. These products are only licensed for development environments to design, develop, test, or demonstrate applications. These products are not licensed for production environments.
+
+Product level descriptions - expand **Unavailable support plans** if you see Support plan cannot be used for support on the specified product (Code:8). Your support contract cannot be used for the product version you selected.
+
 ## How to activate the benefit
 1. Go to https://my.visualstudio.com/Benefits, scroll down to the Support section and on the Technical Support tile click **Chat to activate**.
     > [!div class="mx-imgBorder"]
