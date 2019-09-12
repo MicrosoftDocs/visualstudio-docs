@@ -2,7 +2,7 @@
 
 title: Visual Studio for Mac Documentation
 summary: Learn how to use Visual Studio for Mac to develop apps and games for iOS, Android, and web using .NET.
-brand: vs
+brand: visual-studio
 metadata:
   title: Visual Studio for Mac Documentation | Microsoft Docs
   description: This article introduces the features of Visual Studio for Mac.
@@ -61,7 +61,7 @@ conceptualContent:
         - url: ~/signing-in.md
           itemType: get-started
           text: Signing in
-        - url: f~/customizing-the-ide.md
+        - url: ~/customizing-the-ide.md
           itemType: get-started
           text: Customizing the IDE
         - url: ~/keyboard-shortcuts.md
