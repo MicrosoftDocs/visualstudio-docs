@@ -12,49 +12,53 @@ ms.workload:
 ---
 # Configure FxCop analyzers
 
-The [FxCop analyzers package](install-fxcop-analyzers.md) consists of the most important "FxCop" rules from legacy analysis converted to .NET Compiler Platform-based code analyzers. For each rule, you can configure its severity (for example, whether it's an error or a warning) in an [EditorConfig file](use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file) (starting in Visual Studio 2019 version 16.3) or in a [rule set](#fxcop-analyzer-rule-sets). For some rules, you can also refine which parts of your codebase they should be applied to through [configurable options](fxcop-analyzer-options.md).
-
-- Starting in version 2.6.3 of the [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers) NuGet package, through an [.editorconfig file](#editorconfig-file). The [configurable options](fxcop-analyzer-options.md) let you refine which parts of your codebase to analyze.
-
-> [!TIP]
-> For information about the differences between legacy analysis and FxCop analyzers, see [FxCop analyzers FAQ](fxcop-analyzers-faq.md).
-
-## FxCop analyzer rule sets
-
-A rule set is a grouping of code analysis rules that identify targeted issues and specific conditions. Rule sets let you enable or disable rules and set the severity for individual rule violations.
-
-The FxCop analyzer NuGet package includes predefined rule sets for the following rule categories:
-
-- design
-- documentation
-- maintainability
-- naming
-- performance
-- reliability
-- security
-- usage
-
-For more information, see [Rule sets for code analyzers](analyzer-rule-sets.md).
-
-## EditorConfig file
-
-Starting in version 2.6.3 of the [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers) NuGet package, you can refine certain FxCop analyzer rules by adding key-value pairs to an [.editorconfig](https://editorconfig.org) file. A configuration file can be [specific to a project](#per-project-configuration) or it can be [shared](#shared-configuration) between two or more projects.
-
-> [!NOTE]
-> You cannot configure legacy FxCop rules by using an .editorconfig file.
-
-### Per-project configuration
-
-To enable .editorconfig-based analyzer configuration for a specific project, add an *.editorconfig* file to the project's root directory.
+The [FxCop analyzers package](install-fxcop-analyzers.md) consists of the most important "FxCop" rules from legacy analysis converted to .NET Compiler Platform-based code analyzers. For certain FxCop rules, you can refine which parts of your codebase they should be applied to through [configurable options](fxcop-analyzer-options.md). Each option is specified by adding a key-value pair to an [EditorConfig](https://editorconfig.org) file. A configuration file can be [specific to a project](#per-project-configuration) or it can be [shared](#shared-configuration) between two or more projects.
 
 > [!TIP]
 > You can add an .editorconfig file to your project by right-clicking on the project in **Solution Explorer** and selecting **Add** > **New Item**. In the **Add New Item** window, enter **editorconfig** in the search box. Select the **editorconfig File (default)** template and choose **Add**.
 >
-> ![Add editorconfig item to project in Visual Studio](media/add-editorconfig-file.png)
+> ![Add editorconfig file to project in Visual Studio](media/add-editorconfig-file.png)
+
+The remainder of this article discusses general syntax for options that refine where FxCop rules are applied. For a list of available refining options, see [Rule scope options for FxCop analyzers](fxcop-analyzer-options.md). For information about configuring a rule's severity (for example, whether it's an error or a warning), see [Set rule severity in an EditorConfig file](use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file). Or, you can choose one of the built-in [rule sets](analyzer-rule-sets.md) to quickly enable or disable a category of rules.
+
+> [!NOTE]
+> You cannot configure legacy FxCop rules by using an EditorConfig file. For information about the differences between legacy analysis and FxCop analyzers, see [FxCop analyzers FAQ](fxcop-analyzers-faq.md).
+
+## Option scopes
+
+Each refining option can be configured for all rules, for a category of rules (for example, Naming or Design), or for a specific rule.
+
+### All rules
+
+The syntax for configuring an option for *all* rules is as follows:
+
+|Syntax|Example|
+|-|-|
+| dotnet_code_quality.OptionName = OptionValue | `dotnet_code_quality.api_surface = public` |
+
+### Category of rules
+
+The syntax for configuring an option for a *category* of rules (such as Naming, Design, or Performance) is as follows:
+
+|Syntax|Example|
+|-|-|
+| dotnet_code_quality.RuleCategory.OptionName = OptionValue | `dotnet_code_quality.Naming.api_surface = public` |
+
+### Specific rule
+
+The syntax for configuring an option for a *specific* rule is as follows:
+
+|Syntax|Example|
+|-|-|
+| dotnet_code_quality.RuleId.OptionName = OptionValue | `dotnet_code_quality.CA1040.api_surface = public` |
+
+## Per-project configuration
+
+To enable EditorConfig-based analyzer configuration for a specific project, add an *.editorconfig* file to the project's root directory.
 
 Currently there is no hierarchical support for "combining" .editorconfig files that exist at different directory levels, for example, the solution and project level.
 
-### Shared configuration
+## Shared configuration
 
 You can share an .editorconfig file for FxCop analyzer configuration between two or more projects, but it requires some additional steps.
 
@@ -87,36 +91,9 @@ You can share an .editorconfig file for FxCop analyzer configuration between two
 > [!NOTE]
 > The arbitrary shared location of the EditorConfig file described here applies only to configuring the scope of certain FxCop analyzer rules. For other settings, such as rule severity, general editor settings, and code style, the EditorConfig file must always be placed in the project folder or a parent folder.
 
-## Option scopes
-
-Each option can be configured for all rules, for a category of rules (for example, Naming or Design), or for a specific rule.
-
-### All rules
-
-The syntax for configuring an option for all rules is as follows:
-
-|Syntax|Example|
-|-|-|
-| dotnet_code_quality.OptionName = OptionValue | `dotnet_code_quality.api_surface = public` |
-
-### Category of rules
-
-The syntax for configuring an option for a *category* of rules (such as Naming, Design, or Performance) is as follows:
-
-|Syntax|Example|
-|-|-|
-| dotnet_code_quality.RuleCategory.OptionName = OptionValue | `dotnet_code_quality.Naming.api_surface = public` |
-
-### Specific rule
-
-The syntax for configuring an option for a specific rule is as follows:
-
-|Syntax|Example|
-|-|-|
-| dotnet_code_quality.RuleId.OptionName = OptionValue | `dotnet_code_quality.CA1040.api_surface = public` |
-
 ## See also
 
+- [Rule scope options for FxCop analyzers](fxcop-analyzer-options.md)
 - [Analyzer configuration](https://github.com/dotnet/roslyn-analyzers/blob/master/docs/Analyzer%20Configuration.md)
 - [FxCop analyzers](install-fxcop-analyzers.md)
 - [.NET coding conventions for EditorConfig](../ide/editorconfig-code-style-settings-reference.md)
