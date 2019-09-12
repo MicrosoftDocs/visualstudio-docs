@@ -27,7 +27,7 @@ but with certain benefits removed (many of which are offered separately to partn
 | Cloud Customer Relationship Management      | 5 Visual Studio Enterprise subscriptions                  | 25 Visual Studio Enterprise subscriptions               |
 | Cloud Platform                              | 5 Visual Studio Enterprise subscriptions                  | 25 Visual Studio Enterprise subscriptions               |
 | Cloud Productivity                          | 5 Visual Studio Enterprise subscriptions                  | 25 Visual Studio Enterprise subscriptions               |
-| DevOps                                      | 1 Visual Studio Enterprise subscriptions                  | 5 Visual Studio Enterprise subscriptions                |
+| DevOps                                      | 5 Visual Studio Enterprise subscriptions                  | 25 Visual Studio Enterprise subscriptions                |
 
 Regardless of how many competencies a partner earns, the number of Visual Studio subscriptions are limited as follows:
 
