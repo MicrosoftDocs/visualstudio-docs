@@ -27,7 +27,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker range=">=vs-2019"
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
 ::: moniker-end
 
@@ -94,29 +94,23 @@ After you create the project, you can customize it. By using the **Properties** 
 
 ### Change the name of MainWindow.xaml
 
-Let's give MainWindow a more specific name.
-
-1. In **Solution Explorer**, select *MainWindow.xaml*. You should see the **Properties** window, but if you don't, choose the **View** menu and then the **Properties Window** item.
-
-1. Change the **File Name** property to `Greetings.xaml`.
-
-     ![Properties window with File Name highlighted](../media/exploreide-filenameinpropertieswindow.png)
-
-     **Solution Explorer** shows that the name of the file is now *Greetings.xaml*, and the nested code file is now named *Greetings.xaml.vb*. This code file is nested under the *.xaml* file node to show they are closely related to each other.
+Let's give MainWindow a more specific name. In **Solution Explorer**, right-click on *MainWindow.xaml* and choose **Rename**. Rename the file to *Greetings.xaml*.
 
 ## Design the user interface (UI)
+
+If the designer is not open, select *Greetings.xaml* in **Solution Explorer**, and press **Shift**+**F7** to open the designer.
 
 We will add three types of controls to this application: a <xref:System.Windows.Controls.TextBlock> control, two <xref:System.Windows.Controls.RadioButton> controls, and a <xref:System.Windows.Controls.Button> control.
 
 ### Add a TextBlock control
 
-1. Enter **Ctrl**+**Q** to activate the search box and type **Toolbox**. Choose **View > Toolbox** from the results list.
+1. Press **Ctrl**+**Q** to activate the search box and type **Toolbox**. Choose **View > Toolbox** from the results list.
 
 2. In the **Toolbox**, expand the **Common WPF Controls** node to see the TextBlock control.
 
      ![Toolbox with the TextBlock control highlighted](../media/exploreide-textblocktoolbox.png)
 
-3. Add a TextBlock control to the design surface by choosing the **TextBlock** item and dragging it to the window on the design surface. Center the control near the top of the window.
+3. Add a TextBlock control to the design surface by choosing the **TextBlock** item and dragging it to the window on the design surface. Center the control near the top of the window. In Visual Studio 2019 and later, you can use the red guidelines to center the control.
 
 Your window should resemble the following illustration:
 
@@ -146,7 +140,7 @@ Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) c
 
      ![Toolbox window with RadioButton control selected](../media/exploreide-radiobuttontoolbox.png)
 
-2. Add two RadioButton controls to the design surface by choosing the **RadioButton** item and dragging it to the window on the design surface. Move the buttons (by selecting them and using the arrow keys) so that the buttons appear side by side under the TextBlock control.
+2. Add two RadioButton controls to the design surface by choosing the **RadioButton** item and dragging it to the window on the design surface. Move the buttons (by selecting them and using the arrow keys) so that the buttons appear side by side under the TextBlock control. Use the red guidelines to align the controls.
 
      Your window should look like this:
 
@@ -162,9 +156,15 @@ You can now add display text for each RadioButton control. The following procedu
 
 ### Add display text for each radio button
 
-1. On the design surface, open the shortcut menu for HelloButton by pressing the right mouse button on HelloButton, choose **Edit Text**, and then enter `Hello`.
+Update the **Content** attribute for the `HelloButton` and `GoodbyeButton` to `"Hello"` and `"Goodbye"` in the XAML. The XAML markup should now look similar to the following example:
 
-2. Open the shortcut menu for GoodbyeButton by pressing the right mouse button on GoodbyeButton, choose **Edit Text**, and then enter `Goodbye`.
+   ```xaml
+   <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="252,47,0,0" TextWrapping="Wrap" Text="Select a message option and then choose the Display button." VerticalAlignment="Top"/>
+        <RadioButton x:Name="HelloButton" Content="Hello" HorizontalAlignment="Left" Margin="297,161,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="GoodbyeButton" Content="Goodbye" HorizontalAlignment="Left" Margin="488,161,0,0" VerticalAlignment="Top"/>
+   </Grid>
+   ```
 
 ### Set a radio button to be checked by default
 
@@ -180,7 +180,7 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
 
 ### Add the button control
 
-1. In the **Toolbox**, find the **Button** control, and then add it to the design surface under the RadioButton controls by dragging it to the form in the design view.
+1. In the **Toolbox**, find the **Button** control, and then add it to the design surface under the RadioButton controls by dragging it to the form in the design view. If you're using Visual Studio 2019 or later, a red line helps you center the control.
 
 2. In the XAML view, change the value of **Content** for the Button control from `Content="Button"` to `Content="Display"`, and then save the changes.
 
@@ -200,7 +200,7 @@ When this application runs, a message box appears after a user chooses a radio b
      *Greetings.xaml.vb* opens, with the cursor in the `Button_Click` event.
 
     ```vb
-    Private Sub Button_Click_1(sender As Object, e As RoutedEventArgs)
+    Private Sub Button_Click(sender As Object, e As RoutedEventArgs)
 
     End Sub
     ```
@@ -243,7 +243,16 @@ We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this tutorial, 
 
 2. Change `StartupUri="MainWindow.xaml"` to `StartupUri="Greetings.xaml"`, and then save the changes.
 
-Start the debugger again (press **F5**). You should see the **Greetings** window of the application. Now close the application window to stop debugging.
+Start the debugger again (press **F5**). You should see the **Greetings** window of the application.
+
+::: moniker range="vs-2017"
+![Screenshot of running app](media/exploreide-wpf-running-app.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+![Screenshot of running app](media/vs-2019/exploreide-wpf-running-app.png)
+::: moniker-end
+
+ Now close the application window to stop debugging.
 
 ### Debug with breakpoints
 
@@ -282,6 +291,12 @@ You can test the code during debugging by adding some breakpoints. You can add b
 10. Close the application window to stop debugging.
 
 11. On the menu bar, choose **Debug** > **Disable All Breakpoints**.
+
+### View a representation of the UI elements
+
+In the running app, you should see a widget that appears at the top of your window. This is a runtime helper that provides quick access to some helpful debugging features. Click on the first button, **Go to Live Visual Tree**. You should see a window with a tree that contains all the visual elements of your page. Expand the nodes to find the buttons you added.
+
+![Screenshot of Live Visual Tree window](media/vs-2019/exploreide-live-visual-tree.png)
 
 ### Build a release version of the application
 

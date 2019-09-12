@@ -43,21 +43,23 @@ This rule does not examine the following kinds of methods:
 
 - Methods declared with the `extern` (`Declare` statement in Visual Basic) modifier.
 
+If you're using [FxCop analyzers](install-fxcop-analyzers.md), this rule does not flag parameters that are named with the [discard](/dotnet/csharp/discards) symbol, for example, `_`, `_1`, and `_2`. This reduces warning noise on parameters that are needed for signature requirements, for example, a method used as a delegate, a parameter with special attributes, or a parameter whose value is implicitly accessed at run time by a framework but is not referenced in code.
+
 ## Rule description
 
-Review parameters in non-virtual methods that are not used in the method body to make sure no correctness exists around failure to access them. Unused parameters incur maintenance and performance costs.
+Review parameters in non-virtual methods that are not used in the method body to make sure no incorrectness exists around failure to access them. Unused parameters incur maintenance and performance costs.
 
-Sometimes a violation of this rule can point to an implementation bug in the method. For example, the parameter should have been used in the method body. Suppress warnings of this rule if the parameter has to exist because of backward compatibility.
+Sometimes, a violation of this rule can point to an implementation bug in the method. For example, the parameter should have been used in the method body. Suppress warnings of this rule if the parameter must exist because of backward compatibility.
 
 ## How to fix violations
 
-To fix a violation of this rule, remove the unused parameter (a breaking change) or use the parameter in the method body (a non-breaking change).
+To fix a violation of this rule, remove the unused parameter (a breaking change), or use the parameter in the method body (a non-breaking change).
 
 ## When to suppress warnings
 
 It is safe to suppress a warning from this rule:
 
-- For previously shipped code for which the fix would be a breaking change.
+- In previously shipped code for which the fix would be a breaking change.
 
 - For the `this` parameter in a custom extension method for <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert?displayProperty=nameWithType>. The functions in the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> class are static, so there's no need to access the `this` parameter in the method body.
 

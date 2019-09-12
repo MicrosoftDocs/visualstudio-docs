@@ -243,7 +243,7 @@ As product updates become available, you might want to [update the network insta
 ::: moniker range="vs-2019"
 
 > [!NOTE]
-> The Visual Studio bootstrappers that are available on [visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) download and install the latest Visual Studio release that's available whenever they are run.
+> The Visual Studio bootstrappers that are available on [visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads) download and install the latest Visual Studio release that's available whenever they are run.
 >
 > So, if you download a Visual Studio *bootstrapper* today and run it six months from now, it installs the Visual Studio release that is current at the time you run the bootstrapper.
 >

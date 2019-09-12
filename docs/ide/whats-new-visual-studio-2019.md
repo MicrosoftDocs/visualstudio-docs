@@ -21,7 +21,7 @@ ms.workload:
 **Updated for the [16.2 release](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
->[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019)
+>[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
 
 With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in this new version!
 

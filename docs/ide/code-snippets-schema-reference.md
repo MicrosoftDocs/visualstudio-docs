@@ -115,7 +115,7 @@ There are three attributes available for the Code element:
    |`SQL`|Identifies a SQL code snippet.|
    |`HTML`|Identifies an HTML code snippet.|
 
-- **Kind** - _Optional_ attribute that specifies the kind of code that the snippet contains, and the location at which a code snippet must be inserted for the code snippet to compile. The value can be one of the following:
+- **Kind** - _Optional_ attribute that specifies the kind of code that the snippet contains. The value can be one of the following:
 
    |Value|Description|
    |-----|-----------|

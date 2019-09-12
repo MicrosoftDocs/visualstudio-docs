@@ -47,4 +47,8 @@ For information on MSBuild properties generally, see [MSBuild Properties](../msb
 
 ## See also
 
-[MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md).
+[Docker Compose build properties](docker-compose-properties.md)
+
+[Container Tools launch settings](container-launch-settings.md)
+
+[MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md)

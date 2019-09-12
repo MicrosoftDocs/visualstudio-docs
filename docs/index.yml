@@ -8,6 +8,8 @@ metadata:
    description: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for any platform or device.
    ms.topic: hub-page
    monikerRange: ">=vs-2017"
+   f1_keywords:
+     - MSDNSTART
 
 highlightedContent:
    items:
@@ -133,7 +135,7 @@ additionalContent:
         summary: Run tests on your projects.
         url: test/improve-code-quality.md
       - title: Deploy
-        summary: Share your apps using Web Deploy, InstallShield, and Continuous Integration, and more. 
+        summary: Share your apps and code by using Web Deploy, InstallShield, NuGet, Continuous Integration, and more. 
         url: deployment/index.md
       - title: Version Control
         summary: Share code using version control technologies such as Git and TFVC.
@@ -148,7 +150,7 @@ additionalContent:
         summary: Add your own functionality to the Visual Studio IDE to improve your development experience.
         url: extensibility/index.md
       - title: Data
-        summary: Create data apps that connect to any database or service, and anywhere&#8212;local or cloud.
+        summary: Create data apps that connect to any database or service, and anywhere—local or cloud.
         url: data-tools/accessing-data-in-visual-studio.md
       - title: Collaborate
         summary: Share, edit, and debug code in a collaborative, real-time environment.
