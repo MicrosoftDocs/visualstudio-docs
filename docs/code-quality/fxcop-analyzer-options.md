@@ -8,9 +8,9 @@ manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# Configuration options for FxCop analyzers
+# Rule scope options for FxCop analyzers
 
-This page lists the available configuration options, their allowable values, and the configurable rules for each option.
+Some FxCop analyzer rules let you refine which parts of your codebase they should be applied to. This page lists the available scope configuration options, their allowable values, and the rules to which they can be applied. To use these options, specify them in an [EditorConfig file]().
 
 ## api_surface
 

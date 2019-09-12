@@ -12,9 +12,7 @@ ms.workload:
 ---
 # Configure FxCop analyzers
 
-The [FxCop analyzers](install-fxcop-analyzers.md) consist of the most important "FxCop" rules from legacy analysis, converted to .NET Compiler Platform-based code analyzers. You can configure FxCop code analyzers in two ways:
-
-- With a [rule set](#fxcop-analyzer-rule-sets), which lets you enable or disable rule and set the severity for individual rule violations.
+The [FxCop analyzers package](install-fxcop-analyzers.md) consists of the most important "FxCop" rules from legacy analysis converted to .NET Compiler Platform-based code analyzers. For each rule, you can configure its severity (for example, whether it's an error or a warning) in an [EditorConfig file](use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file) (starting in Visual Studio 2019 version 16.3) or in a [rule set](#fxcop-analyzer-rule-sets). For some rules, you can also refine which parts of your codebase they should be applied to through [configurable options](fxcop-analyzer-options.md).
 
 - Starting in version 2.6.3 of the [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers) NuGet package, through an [.editorconfig file](#editorconfig-file). The [configurable options](fxcop-analyzer-options.md) let you refine which parts of your codebase to analyze.
 
@@ -23,7 +21,7 @@ The [FxCop analyzers](install-fxcop-analyzers.md) consist of the most important 
 
 ## FxCop analyzer rule sets
 
-One way to configure FxCop analyzers is by using an XML *rule set*. A rule set is a grouping of code analysis rules that identify targeted issues and specific conditions. Rule sets let you enable or disable rule and set the severity for individual rule violations.
+A rule set is a grouping of code analysis rules that identify targeted issues and specific conditions. Rule sets let you enable or disable rules and set the severity for individual rule violations.
 
 The FxCop analyzer NuGet package includes predefined rule sets for the following rule categories:
 
@@ -40,7 +38,7 @@ For more information, see [Rule sets for code analyzers](analyzer-rule-sets.md).
 
 ## EditorConfig file
 
-You can configure FxCop analyzer rules by adding key-value pairs to an [.editorconfig](https://editorconfig.org) file. A configuration file can be [specific to a project](#per-project-configuration) or it can be [shared](#shared-configuration) between two or more projects.
+Starting in version 2.6.3 of the [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers) NuGet package, you can refine certain FxCop analyzer rules by adding key-value pairs to an [.editorconfig](https://editorconfig.org) file. A configuration file can be [specific to a project](#per-project-configuration) or it can be [shared](#shared-configuration) between two or more projects.
 
 > [!NOTE]
 > You cannot configure legacy FxCop rules by using an .editorconfig file.
@@ -87,7 +85,7 @@ You can share an .editorconfig file for FxCop analyzer configuration between two
 4. Reload the project.
 
 > [!NOTE]
-> The arbitrary shared location of the EditorConfig file described here applies only to configuring FxCop analyzers. For other settings, such as indentation and code style, the EditorConfig file must always be placed in the project folder or a parent folder.
+> The arbitrary shared location of the EditorConfig file described here applies only to configuring the scope of certain FxCop analyzer rules. For other settings, such as rule severity, general editor settings, and code style, the EditorConfig file must always be placed in the project folder or a parent folder.
 
 ## Option scopes
 

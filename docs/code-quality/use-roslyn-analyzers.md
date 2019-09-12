@@ -40,17 +40,18 @@ The icons next to each diagnostic in **Solution Explorer** correspond to the ico
 
 ## Rule severity
 
-You can configure the severity of analyzer rules, or *diagnostics*, if you [install the analyzers](../code-quality/install-roslyn-analyzers.md) as a NuGet package. The following table shows the severity options for diagnostics:
+You can configure the severity of analyzer rules, or *diagnostics*, if you [install the analyzers](../code-quality/install-roslyn-analyzers.md) as a NuGet package. Starting in Visual Studio 2019 version 16.3, you can configure the severity of a rule [in an EditorConfig file](#set-rule-severity-in-an-editorconfig-file). You can also change the severity of a rule [from Solution Explorer](#set-rule-severity-from-solution-explorer)or [in a rule set file](#set-rule-severity-in-the-rule-set-file).
 
-|Severity|Build-time behavior|Editor behavior|
+The following table shows the different severity options:
+
+| Severity (Solution Explorer) | Severity (EditorConfig file) | Build-time behavior | Editor behavior |
 |-|-|-|
-|Error|Violations appear as *Errors* in the **Error List** and in command-line build output, and cause builds to fail.|Offending code is underlined with a red squiggly, and marked by a small red box in the scroll bar.|
-|Warning|Violations appear as *Warnings* in the **Error List** and in command-line build output, but do not cause builds to fail.|Offending code is underlined with a green squiggly, and marked by a small green box in the scroll bar.|
-|Info|Violations appear as *Messages* in the **Error List**, and not at all in command-line build output.|Offending code is underlined with a gray squiggly, and marked by a small gray box in the scroll bar.|
-|Hidden|Non-visible to user.|Non-visible to user. The diagnostic is reported to the IDE diagnostic engine, however.|
-|None|Suppressed completely.|Suppressed completely.|
-
-In addition, you can "reset" a rule's severity by setting it to **Default**. Each diagnostic has a default severity that can be seen in the **Properties** window.
+| Error | `error` | Violations appear as *Errors* in the **Error List** and in command-line build output, and cause builds to fail.| Offending code is underlined with a red squiggly, and marked by a small red box in the scroll bar. |
+| Warning | `warning` | Violations appear as *Warnings* in the **Error List** and in command-line build output, but do not cause builds to fail. | Offending code is underlined with a green squiggly, and marked by a small green box in the scroll bar. |
+| Info | `suggestion` | Violations appear as *Messages* in the **Error List**, and not at all in command-line build output. | Offending code is underlined with a gray squiggly, and marked by a small gray box in the scroll bar. |
+| Hidden | `silent` | Non-visible to user. | Non-visible to user. The diagnostic is reported to the IDE diagnostic engine, however. |
+| None | `none` | Suppressed completely. | Suppressed completely. |
+| Default | `default` | Corresponds to the default severity of the rule. To determine what the default value for a rule is, look in the Properties window. | Corresponds to the default severity of the rule. |
 
 The following screenshot shows three different diagnostic violations in the code editor, with three different severities. Notice the color of the squiggly, as well as the small box in the scroll bar on the right.
 
@@ -60,9 +61,23 @@ The following screenshot shows the same three violations as they appear in the *
 
 ![Error, warning, and info violation in Error List](media/diagnostics-severities-in-error-list.png)
 
-You can change the severity of a rule [from Solution Explorer](#set-rule-severity-from-solution-explorer), [in a rule set file](#set-rule-severity-in-the-rule-set-file), or [in an EditorConfig file](#set-rule-severity-in-an-editorconfig-file) (Visual Studio 2019 version 16.3 and later).
+### Set rule severity in an EditorConfig file
 
-![Rule set file in Solution Explorer](media/ruleset-in-solution-explorer.png)
+(Visual Studio 2019 version 16.3 and later)
+
+Setting a rule's severity in an EditorConfig file takes precedence over any severity that's set in a rule set or in Solution Explorer.
+
+1. If you don't already have an EditorConfig file for your project, [add one](../ide/create-portable-custom-editor-options.md#add-an-editorconfig-file-to-a-project).
+
+2. Add an entry for each rule you want to configure under the corresponding file extension. For example, to set the severity for [CA1822](ca1822-mark-members-as-static.md) to `error` for C# files, the entry looks as follows:
+
+   ```ini
+   [*.cs]
+   dotnet_diagnostic.CA1822.severity = error
+   ```
+
+> [!NOTE]
+> For IDE code-style analyzers, you can also configure them in an EditorConfig file using a different syntax, for example, `dotnet_style_qualification_for_field = false:suggestion`. However, if you set a severity using the `dotnet_diagnostic` syntax, it takes precedence. For more information, see [.NET coding convention settings for EditorConfig](../ide/editorconfig-code-style-settings-reference.md).
 
 ### Set rule severity from Solution Explorer
 
@@ -76,6 +91,8 @@ You can change the severity of a rule [from Solution Explorer](#set-rule-severit
 
 ### Set rule severity in the rule set file
 
+![Rule set file in Solution Explorer](media/ruleset-in-solution-explorer.png)
+
 1. Open the active [rule set](analyzer-rule-sets.md) file by double-clicking it in **Solution Explorer**, selecting **Open Active Rule Set** on the right-click menu of the **References** > **Analyzers** node, or by selecting **Open** on the **Code Analysis** property page for the project.
 
    If this is the first time you're editing the rule set, Visual Studio makes a copy of the default rule set file, names it *\<projectname>.ruleset*, and adds it to your project. This custom rule set also becomes the active rule set for your project.
@@ -88,23 +105,6 @@ You can change the severity of a rule [from Solution Explorer](#set-rule-severit
 1. In the **Action** column, select the value to open a drop-down list, and select the desired severity from the list.
 
    ![Rule set file open in editor](media/ruleset-file-in-editor.png)
-
-### Set rule severity in an EditorConfig file
-
-(Visual Studio 2019 version 16.3 and later)
-
-Setting a rule's severity in an EditorConfig file takes precedence over severity set in a rule set or in Solution Explorer.
-
-1. If you don't already have an EditorConfig file for your project, [add one](../ide/create-portable-custom-editor-options.md#add-an-editorconfig-file-to-a-project).
-
-2. Add an entry for each rule you want to configure under the corresponding file extension. For example, to set the severity for [CA1822](ca1822-mark-members-as-static.md) to `error` for C# files, the entry looks as follows:
-
-   ```ini
-   [*.cs]
-   dotnet_diagnostic.CA1822.severity = error
-   ```
-
-   To suppress a rule, set the severity to `none`. The full list of severity options is: error, warning, info, hidden, none.
 
 ## Suppress violations
 

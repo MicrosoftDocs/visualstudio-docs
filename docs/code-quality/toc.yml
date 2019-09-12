@@ -123,7 +123,9 @@
       items:
       - name: Overview
         href: configure-fxcop-analyzers.md
-      - name: EditorConfig options
+      - name: Predefined rule sets
+        href: analyzer-rule-sets.md
+      - name: Scope options
         href: fxcop-analyzer-options.md
     - name: FAQ
       href: fxcop-analyzers-faq.md
@@ -137,8 +139,6 @@
     items:
     - name: Overview
       href: using-rule-sets-to-group-code-analysis-rules.md
-    - name: Rule sets for analyzer packages
-      href: analyzer-rule-sets.md
     - name: Configure rule sets
       href: how-to-configure-code-analysis-for-a-managed-code-project.md
     - name: Configure code analysis for an ASP.NET web app
