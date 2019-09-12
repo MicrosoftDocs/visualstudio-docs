@@ -30,7 +30,10 @@ Rules for language conventions have the following general format:
 
 `option_name = value:severity`
 
-For each language convention, you specify a value that defines if or when to prefer the style. Many rules accept a value of `true` (prefer this style) or `false` (do not prefer this style); others accept values such as `when_on_single_line` or `never`. The second part of the rule specifies the **severity**.
+For each language convention, you specify a value that defines if or when to prefer the style. Many rules accept a value of `true` (prefer this style) or `false` (do not prefer this style). Other rules accept values such as `when_on_single_line` or `never`. The second part of the rule specifies the **severity**.
+
+> [!NOTE]
+> Because language conventions are enforced by analyzers, you can also set their severity by using the default configuration syntax for analyzers. The syntax takes the form `dotnet_diagnostic.<rule ID>.severity = <severity>`, for example, `dotnet_diagnostic.IDE0040.severity = silent`. For more information, see [Set rule severity in an EditorConfig file](../code-quality/use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file).
 
 ### Severity
 
@@ -38,11 +41,11 @@ A language convention severity specifies the level at which to enforce that styl
 
 Severity | Effect
 :------- | ------
-`none` | Do not show anything to the user when this rule is violated. Code generation features generate code in this style, however. Rules with `none` severity never appear in the **Quick Actions and Refactorings** menu. In most cases, this is considered "disabled" or "ignored".
-`silent` (also `refactoring` in Visual Studio 2017 version 15.8 and later) | Do not show anything to the user when this rule is violated. Code generation features generate code in this style, however. Rules with `silent` severity participate in cleanup as well as appear in the **Quick Actions and Refactorings** menu.
-`suggestion` | When this style rule is violated, show it to the user as a suggestion. Suggestions appear as three gray dots under the first two characters.
-`warning` | When this style rule is violated, show a compiler warning.
 `error` | When this style rule is violated, show a compiler error.
+`warning` | When this style rule is violated, show a compiler warning.
+`suggestion` | When this style rule is violated, show it to the user as a suggestion. Suggestions appear as three gray dots under the first two characters.
+`silent` | Do not show anything to the user when this rule is violated. Code generation features generate code in this style, however. Rules with `silent` severity participate in cleanup and appear in the **Quick Actions and Refactorings** menu.
+`none` | Do not show anything to the user when this rule is violated. Code generation features generate code in this style, however. Rules with `none` severity never appear in the **Quick Actions and Refactorings** menu. In most cases, this is considered "disabled" or "ignored".
 
 ## .NET code style settings
 
