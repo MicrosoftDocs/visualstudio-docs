@@ -38,20 +38,6 @@ The icons next to each diagnostic in **Solution Explorer** correspond to the ico
 
 ![Diagnostics icons in Solution Explorer](media/diagnostics-icons-solution-explorer.png)
 
-## Rule sets
-
-A [rule set](../code-quality/using-rule-sets-to-group-code-analysis-rules.md) is an XML file that stores the severity and suppression state for individual diagnostics.
-
-> [!NOTE]
-> Rule sets can include rules from both legacy analysis and code analyzers.
-
-To edit the active rule set in the rule set editor, right-click on the **References** > **Analyzers** node in **Solution Explorer** and select **Open Active Rule Set**. If this is the first time you're editing the rule set, Visual Studio makes a copy of the default rule set file, names it *\<projectname>.ruleset*, and adds it to your project. This custom rule set also becomes the active rule set for your project.
-
-To change the active rule set for a project, navigate to the **Code Analysis** tab of a project's properties. Select the rule set from the list under **Run this rule set**. To open the rule set, select **Open**.
-
-> [!NOTE]
-> .NET Core and .NET Standard projects do not support the menu commands for rule sets in **Solution Explorer**, for example, **Open Active Rule Set**. To specify a non-default rule set for a .NET Core or .NET Standard project, manually [add the **CodeAnalysisRuleSet** property](using-rule-sets-to-group-code-analysis-rules.md#specify-a-rule-set-for-a-project) to the project file. You can still configure the rules within the rule set in the Visual Studio rule set editor UI.
-
 ## Rule severity
 
 You can configure the severity of analyzer rules, or *diagnostics*, if you [install the analyzers](../code-quality/install-roslyn-analyzers.md) as a NuGet package. The following table shows the severity options for diagnostics:
@@ -74,7 +60,7 @@ The following screenshot shows the same three violations as they appear in the *
 
 ![Error, warning, and info violation in Error List](media/diagnostics-severities-in-error-list.png)
 
-You can change the severity of a rule from **Solution Explorer**, or within the *\<projectname>.ruleset* file that is added to the solution after you change the severity of a rule in **Solution Explorer**.
+You can change the severity of a rule [from Solution Explorer](#set-rule-severity-from-solution-explorer), [in a rule set file](#set-rule-severity-in-the-rule-set-file), or [in an EditorConfig file](#set-rule-severity-in-an-editorconfig-file) (Visual Studio 2019 version 16.3 and later).
 
 ![Rule set file in Solution Explorer](media/ruleset-in-solution-explorer.png)
 
@@ -90,13 +76,35 @@ You can change the severity of a rule from **Solution Explorer**, or within the 
 
 ### Set rule severity in the rule set file
 
-1. Open the [rule set](analyzer-rule-sets.md) file by double-clicking it in **Solution Explorer**, selecting **Open Active Rule Set** on the right-click menu of the **Analyzers** node, or by selecting **Open** on the **Code Analysis** property page for the project.
+1. Open the active [rule set](analyzer-rule-sets.md) file by double-clicking it in **Solution Explorer**, selecting **Open Active Rule Set** on the right-click menu of the **References** > **Analyzers** node, or by selecting **Open** on the **Code Analysis** property page for the project.
+
+   If this is the first time you're editing the rule set, Visual Studio makes a copy of the default rule set file, names it *\<projectname>.ruleset*, and adds it to your project. This custom rule set also becomes the active rule set for your project.
+
+   > [!NOTE]
+   > .NET Core and .NET Standard projects do not support the menu commands for rule sets in **Solution Explorer**, for example, **Open Active Rule Set**. To specify a non-default rule set for a .NET Core or .NET Standard project, manually [add the **CodeAnalysisRuleSet** property](using-rule-sets-to-group-code-analysis-rules.md#specify-a-rule-set-for-a-project) to the project file. You can still configure the rules within the rule set in the Visual Studio rule set editor UI.
 
 1. Browse to the rule by expanding its containing assembly.
 
 1. In the **Action** column, select the value to open a drop-down list, and select the desired severity from the list.
 
    ![Rule set file open in editor](media/ruleset-file-in-editor.png)
+
+### Set rule severity in an EditorConfig file
+
+(Visual Studio 2019 version 16.3 and later)
+
+Setting a rule's severity in an EditorConfig file takes precedence over severity set in a rule set or in Solution Explorer.
+
+1. If you don't already have an EditorConfig file for your project, [add one](../ide/create-portable-custom-editor-options.md#add-an-editorconfig-file-to-a-project).
+
+2. Add an entry for each rule you want to configure under the corresponding file extension. For example, to set the severity for [CA1822](ca1822-mark-members-as-static.md) to `error` for C# files, the entry looks as follows:
+
+   ```ini
+   [*.cs]
+   dotnet_diagnostic.CA1822.severity = error
+   ```
+
+   To suppress a rule, set the severity to `none`. The full list of severity options is: error, warning, info, hidden, none.
 
 ## Suppress violations
 
@@ -106,23 +114,27 @@ There are multiple ways to suppress rule violations:
 
   Select **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar to suppress all current violations. This is sometimes referred to as "baselining".
 
+- In an EditorConfig file
+
+  Set the severity to `none`, for example, `dotnet_diagnostic.CA1822.severity = none`.
+
 - From **Solution Explorer**
 
-  To suppress a violation in **Solution Explorer**, set the rule's severity to **None**.
+  Set the rule's severity to **None**.
 
 - From the **rule set editor**
 
-  To suppress a violation from the rule set editor, uncheck the box next to its name or set **Action** to **None**.
+  Uncheck the box next to its name or set **Action** to **None**.
 
 - From the **code editor**
 
-  To suppress a violation from the code editor, place the cursor in the line of code with the violation and press **Ctrl**+**.** to open the **Quick Actions** menu. Select **Suppress CAXXXX** > **in Source/in Suppression File**.
+  Place the cursor in the line of code with the violation and press **Ctrl**+**Period (.)** to open the **Quick Actions** menu. Select **Suppress CAXXXX** > **in Source/in Suppression File**.
 
   ![Suppress diagnostic from quick actions menu](media/suppress-diagnostic-from-editor.png)
 
 - From the **Error List**
 
-  You can suppress one or many diagnostics from the **Error List** by selecting the ones you want to suppress, and then right-clicking and selecting **Suppress** > **In Source/In Suppression File**.
+  Select the rules you want to suppress, and then right-click and select **Suppress** > **In Source/In Suppression File**.
 
   - If you suppress **In Source**, the **Preview Changes** dialog opens and shows a preview of the C# [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) or Visual Basic [#Disable warning](/dotnet/visual-basic/language-reference/directives/directives) directive that's added to the source code.
 
