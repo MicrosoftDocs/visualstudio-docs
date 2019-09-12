@@ -1,8 +1,8 @@
 ### YamlMime:Hub
 
-title: Visual Studio for Mac documentation
+title: Visual Studio for Mac Documentation
 summary: Learn how to use Visual Studio for Mac to develop apps and games for iOS, Android, and web using .NET.
-brand: visual-studio
+brand: vs
 metadata:
   title: Visual Studio for Mac Documentation | Microsoft Docs
   description: This article introduces the features of Visual Studio for Mac.
@@ -20,11 +20,71 @@ highlightedContent:
       itemType: overview
       url: ~/ide-tour.md
     - title: Visual Studio for Mac Release Notes
-      itemType: get-started
+      itemType: whats-new
       url: https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes
     - title: Improve your development skills
       itemType: learn
       url: /learn/
+
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: Get Started
+  items:
+    - title: Get Start with Visual Studio for Mac
+      links:
+        - url: ~/ide-tour.md
+          itemType: overview
+          text: Tour the IDE
+        - url: ~/version-control.md
+          itemType: overview
+          text: Open code from a repo
+        - url: ~/projects-and-solutions.md
+          itemType: overview
+          text: Working with Projects and Solutions
+        - url: ~/source-editor.md
+          itemType: overview
+          text: Writing Code
+        - url: ~/debugging.md
+          itemType: overview
+          text: Debug your code
+        - url: ~/compiling-and-building.md
+          itemType: overview
+          text: Compiling and Building Projects
+        - url: ~/install-preview.md
+          itemType: download
+          text: Install a preview release
+        - url: ~/update.md
+          itemType: download
+          text: Updating the IDE
+    - title: Make it your own
+      links:
+        - url: ~/signing-in.md
+          itemType: get-started
+          text: Signing in
+        - url: f~/customizing-the-ide.md
+          itemType: get-started
+          text: Customizing the IDE
+        - url: ~/keyboard-shortcuts.md
+          itemType: get-started
+          text: Keyboard shortcuts
+        - url: ~/editorconfig.md
+          itemType: get-started
+          text: Setting an EditorConfig
+    # Card
+    - title: More Information
+      links:
+        - url: https://visualstudio.microsoft.com/vs/support/mac/
+          itemType: reference
+          text: Visual Studio for Mac Support – FAQs
+        - url: https://visualstudio.microsoft.com/vs/pricing/
+          itemType: reference
+          text: Pricing and subscriptions
+        - url: https://visualstudio.microsoft.com/vs/compare/
+          itemType: reference
+          text: Compare editions
+        - url: https://my.visualstudio.com/Downloads?q=Visual%20Studio%20for%20Mac
+          itemType: reference
+          text: Subscriber Access 
 
 productDirectory:
   title: What can I build?
