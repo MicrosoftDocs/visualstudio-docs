@@ -147,7 +147,7 @@ tools:
       imageSrc: https://docs.microsoft.com/media/logos/logo_TS.svg
       url: ~/javascript.md
     - title: HTML/Razor
-      imageSrc: https://docs.microsoft.com/media/logos/logo_R.svg
+      imageSrc: https://docs.microsoft.com/media/logos/logo_html5.svg
       url: ~/razor.md
 
 
