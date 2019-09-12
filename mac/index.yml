@@ -107,17 +107,17 @@ additionalContent:
       - title: Version Control
         summary: Share code using version control technologies such as Git and Subversion.
         url: ~/version-control.md
-    - title: More Information
-      items:
-        - text: Visual Studio for Mac Support – FAQs
-          url: https://visualstudio.microsoft.com/vs/support/mac/
-        - text: Pricing and subscriptions
-          url: https://visualstudio.microsoft.com/vs/pricing/
-        - text: Compare editions
-          url: https://visualstudio.microsoft.com/vs/compare/
-        - text: Subscriber Access (Including 2017 downloads)
-          url: https://my.visualstudio.com/Downloads?q=Visual%20Studio%20for%20Mac
-          note: (Requires log in)
-        - text: Visual Studio Code
-          url: https://code.visualstudio.com
+   - title: More Information
+     items:
+      - text: Visual Studio for Mac Support – FAQs
+        url: https://visualstudio.microsoft.com/vs/support/mac/
+      - text: Pricing and subscriptions
+        url: https://visualstudio.microsoft.com/vs/pricing/
+      - text: Compare editions
+        url: https://visualstudio.microsoft.com/vs/compare/
+      - text: Subscriber Access (Including 2017 downloads)
+        url: https://my.visualstudio.com/Downloads?q=Visual%20Studio%20for%20Mac
+        note: (Requires log in)
+      - text: Visual Studio Code
+        url: https://code.visualstudio.com
    footer: "[Blogs](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/visualstudiomac) - [Issue Reporting](~/report-a-problem.md) - [Developer Community](https://developercommunity.visualstudio.com/content/problem/post.html?space=41)"
