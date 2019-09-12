@@ -43,7 +43,7 @@ productDirectory:
     - title: Azure
       imageSrc: https://docs.microsoft.com/media/logos/logo_azure.svg
       links:
-        - url: ~/azure-function.md
+        - url: ~/azure-functions.md
           text: Introduction to Azure Functions
         - url: ~/azure-functions-lab.md
           text: Azure Functions Tutorial
