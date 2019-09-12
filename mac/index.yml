@@ -21,14 +21,13 @@ highlightedContent:
       url: ~/ide-tour.md
     - title: Visual Studio for Mac Release Notes
       itemType: get-started
-      url: /visualstudio/releasenotes/vs2019-mac-relnotes
+      url: https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes
     - title: Improve your development skills
       itemType: learn
       url: /learn/
 
 productDirectory:
   title: What can I build?
-  summary: With Visual Studio for Mac you can build websites with ASP.NET Core and apps using .NET Core, games with Unity, and mobile apps for Android and iOS using Xamarin. Azure can be incorporated into all your apps. 
   items:
     - title: ASP.NET Core
       imageSrc: https://docs.microsoft.com/media/logos/logo_NETcore.svg
@@ -65,7 +64,7 @@ productDirectory:
         - url: https://docs.microsoft.com/xamarin/cross-platform/get-started/introduction-to-mobile-development
           text: What is Xamarin?
         - url: https://docs.microsoft.com/xamarin/cross-platform/get-started/introduction-to-mobile-development
-          text: Get Started with Xamarin
+          text: Introduction to Xamarin
         - url: https://docs.microsoft.com/xamarin/get-started/quickstarts/single-page?pivots=macos
           text: Get Started with Xamarin
         - url: https://docs.microsoft.com/xamarin/whats-new/index
@@ -73,7 +72,7 @@ productDirectory:
 
 tools: 
   title: Languages
-  summary: With Visual Studio for Mac you can write in C#, F#, Razor, HTML5, CSS, Javascript and Typescript, XAML, and XML.
+  summary: "With Visual Studio for Mac you can write in C#, F#, Razor, HTML5, CSS, Javascript and Typescript, XAML, and XML."
   items: 
     - title: C# 
       imageSrc: https://docs.microsoft.com/media/logos/logo_Csharp.svg 
@@ -93,32 +92,19 @@ tools:
 
 
 additionalContent:
-   sections:
-   - title: Tasks
-     items:
-      - title: Develop
-        summary: Intellisense, refactoring, and syntax highlighting for your favorite language.
-        url: ~/source-editor.md
-      - title: Build
-        summary: Configure your compiler and build your app.
-        url: ~/compiling-and-building.md
-      - title: Debug
-        summary: Run your app under the debugger to investigate problems.
-        url: ~/debugging.md
-      - title: Version Control
-        summary: Share code using version control technologies such as Git and Subversion.
-        url: ~/version-control.md
-   - title: More Information
-     items:
-      - text: Visual Studio for Mac Support – FAQs
-        url: https://visualstudio.microsoft.com/vs/support/mac/
-      - text: Pricing and subscriptions
-        url: https://visualstudio.microsoft.com/vs/pricing/
-      - text: Compare editions
-        url: https://visualstudio.microsoft.com/vs/compare/
-      - text: Subscriber Access (Including 2017 downloads)
-        url: https://my.visualstudio.com/Downloads?q=Visual%20Studio%20for%20Mac
-        note: (Requires log in)
-      - text: Visual Studio Code
-        url: https://code.visualstudio.com
-   footer: "[Blogs](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/visualstudiomac) - [Issue Reporting](~/report-a-problem.md) - [Developer Community](https://developercommunity.visualstudio.com/content/problem/post.html?space=41)"
+  sections:
+    - title: Tasks
+      items:
+        - title: Develop
+          summary: Intellisense, refactoring, and syntax highlighting for your favorite language.
+          url: ~/source-editor.md
+        - title: Build
+          summary: Configure your compiler and build your app.
+          url: ~/compiling-and-building.md
+        - title: Debug
+          summary: Run your app under the debugger to investigate problems.
+          url: ~/debugging.md
+        - title: Version Control
+          summary: Share code using version control technologies such as Git and Subversion.
+          url: ~/version-control.md
+  footer: "[Blogs](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/visualstudiomac) - [Issue Reporting](~/report-a-problem.md) - [Developer Community](https://developercommunity.visualstudio.com/content/problem/post.html?space=41)"
