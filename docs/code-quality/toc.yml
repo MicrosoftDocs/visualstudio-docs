@@ -123,10 +123,10 @@
       items:
       - name: Overview
         href: configure-fxcop-analyzers.md
-      - name: Predefined rule sets
-        href: analyzer-rule-sets.md
       - name: Scope options
         href: fxcop-analyzer-options.md
+      - name: Predefined rule sets
+        href: analyzer-rule-sets.md
     - name: FAQ
       href: fxcop-analyzers-faq.md
   - name: Migrate from legacy analysis to FxCop analyzers

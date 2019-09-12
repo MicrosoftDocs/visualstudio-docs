@@ -1,6 +1,6 @@
 ---
 title: Analyzer rule severity and suppression
-ms.date: 03/26/2019
+ms.date: 09/23/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "code analysis, managed code"
@@ -40,30 +40,34 @@ The icons next to each diagnostic in **Solution Explorer** correspond to the ico
 
 ## Rule severity
 
-You can configure the severity of analyzer rules, or *diagnostics*, if you [install the analyzers](../code-quality/install-roslyn-analyzers.md) as a NuGet package. Starting in Visual Studio 2019 version 16.3, you can configure the severity of a rule [in an EditorConfig file](#set-rule-severity-in-an-editorconfig-file). You can also change the severity of a rule [from Solution Explorer](#set-rule-severity-from-solution-explorer)or [in a rule set file](#set-rule-severity-in-the-rule-set-file).
+You can configure the severity of analyzer rules, or *diagnostics*, if you [install the analyzers](../code-quality/install-roslyn-analyzers.md) as a NuGet package. Starting in Visual Studio 2019 version 16.3, you can configure the severity of a rule [in an EditorConfig file](#set-rule-severity-in-an-editorconfig-file). You can also change the severity of a rule [from Solution Explorer](#set-rule-severity-from-solution-explorer) or [in a rule set file](#set-rule-severity-in-the-rule-set-file).
 
 The following table shows the different severity options:
 
 | Severity (Solution Explorer) | Severity (EditorConfig file) | Build-time behavior | Editor behavior |
 |-|-|-|
-| Error | `error` | Violations appear as *Errors* in the **Error List** and in command-line build output, and cause builds to fail.| Offending code is underlined with a red squiggly, and marked by a small red box in the scroll bar. |
-| Warning | `warning` | Violations appear as *Warnings* in the **Error List** and in command-line build output, but do not cause builds to fail. | Offending code is underlined with a green squiggly, and marked by a small green box in the scroll bar. |
-| Info | `suggestion` | Violations appear as *Messages* in the **Error List**, and not at all in command-line build output. | Offending code is underlined with a gray squiggly, and marked by a small gray box in the scroll bar. |
+| Error | `error` | Violations appear as *Errors* in the Error List and in command-line build output, and cause builds to fail.| Offending code is underlined with a red squiggly, and marked by a small red box in the scroll bar. |
+| Warning | `warning` | Violations appear as *Warnings* in the Error List and in command-line build output, but do not cause builds to fail. | Offending code is underlined with a green squiggly, and marked by a small green box in the scroll bar. |
+| Info | `suggestion` | Violations appear as *Messages* in the Error List, and not at all in command-line build output. | Offending code is underlined with a gray squiggly, and marked by a small gray box in the scroll bar. |
 | Hidden | `silent` | Non-visible to user. | Non-visible to user. The diagnostic is reported to the IDE diagnostic engine, however. |
 | None | `none` | Suppressed completely. | Suppressed completely. |
 | Default | `default` | Corresponds to the default severity of the rule. To determine what the default value for a rule is, look in the Properties window. | Corresponds to the default severity of the rule. |
 
-The following screenshot shows three different diagnostic violations in the code editor, with three different severities. Notice the color of the squiggly, as well as the small box in the scroll bar on the right.
+The following screenshot of the code editor shows three different violations with different severities. Notice the color of the squiggly, as well as the small box in the scroll bar on the right.
 
 ![Error, warning, and info violation in the code editor](media/diagnostics-severity-colors.png)
 
-The following screenshot shows the same three violations as they appear in the **Error List**:
+The following screenshot shows the same three violations as they appear in the Error List:
 
 ![Error, warning, and info violation in Error List](media/diagnostics-severities-in-error-list.png)
 
 ### Set rule severity in an EditorConfig file
 
 (Visual Studio 2019 version 16.3 and later)
+
+The general syntax for specifying the severity of a rule in an EditorConfig file is as follows:
+
+`dotnet_diagnostic.<rule ID>.severity = <severity>`
 
 Setting a rule's severity in an EditorConfig file takes precedence over any severity that's set in a rule set or in Solution Explorer.
 
@@ -114,7 +118,7 @@ There are multiple ways to suppress rule violations:
 
   Select **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar to suppress all current violations. This is sometimes referred to as "baselining".
 
-- In an EditorConfig file
+- In an **EditorConfig file**
 
   Set the severity to `none`, for example, `dotnet_diagnostic.CA1822.severity = none`.
 

@@ -1,6 +1,6 @@
 ---
 title: Configure FxCop analyzers using editorconfig
-ms.date: 03/11/2019
+ms.date: 09/23/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "FxCop analyzers, configuring"

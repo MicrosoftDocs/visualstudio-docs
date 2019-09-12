@@ -1,6 +1,6 @@
 ---
 title: FxCop analyzer rule sets
-ms.date: 04/22/2019
+ms.date: 09/23/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "analyzer packages, rule sets"

@@ -1,6 +1,6 @@
 ---
 title: FxCop analyzer configuration options
-ms.date: 03/11/2019
+ms.date: 09/23/2019
 ms.topic: reference
 author: gewarren
 ms.author: gewarren

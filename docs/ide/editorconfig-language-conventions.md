@@ -1,6 +1,6 @@
 ---
 title: .NET language conventions for EditorConfig
-ms.date: 07/17/2019
+ms.date: 09/23/2019
 ms.topic: reference
 dev_langs:
   - "CSharp"
