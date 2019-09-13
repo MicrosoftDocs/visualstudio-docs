@@ -37,6 +37,9 @@ IntelliSense tries to determine what you want to do next, and automatically jump
 
     ![IntelliSense with Visual C&#35; code](../ide/media/express_ifintellisense.png)
 
+    > [!NOTE]
+    > Your code might not display event handlers in "camelCase" letters. 
+
 1. The **IntelliSense** window should highlight the word `if`. (If not, enter a lowercase `f`, and it will.) Notice how a *tooltip* box next to the **IntelliSense** window appears with the description, **Code snippet for if statement**. (In Visual Basic, the tooltip also states that this is a snippet, but with slightly different wording.) You want to use that snippet, so choose the **Tab** key to insert `if` into your code. Then choose the **Tab** key again to use the `if` snippet. (If you chose somewhere else and your **IntelliSense** window disappeared, backspace over the `i` and retype it, and the **IntelliSense** window opens again.)
 
     ![Visual C&#35; code](../ide/media/express_highlighttrue.png)
