@@ -34,7 +34,7 @@ When you finish, your quiz will look similar to the following screenshot, except
 To download a completed version of the quiz, see [Complete math quiz tutorial sample](https://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).
 
 > [!NOTE]
-> This tutorial covers both Visual C# and Visual Basic, so focus on the information that's specific to the programming language that you're using.
+> This tutorial covers both C# and Visual Basic, so focus on the information that's specific to the programming language that you're using.
 
 ## Related topics
 

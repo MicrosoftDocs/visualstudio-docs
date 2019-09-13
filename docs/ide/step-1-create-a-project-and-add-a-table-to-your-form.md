@@ -116,9 +116,9 @@ The first step in creating a matching game is to create the project and add a ta
    > [!NOTE]
    > If you paste too many times, the IDE adds a new row to the TableLayoutPanel so that it has a place to add your new Label control. You can undo it. To remove the new cell, choose the **Ctrl**+**Z** keys, or on the menu bar, choose **Edit** > **Undo**.
 
-    Now your form is laid out. It should look like the following picture.
+    Now your form is laid out. It should look similar to the following picture.
 
-    ![Initial matching game form](../ide/media/express_tut4step1.png)<br/>   Initial matching game form
+    ![Initial matching game form](../ide/media/express_tut4step1.png)<br/>*Initial matching game form*
 
 ## To continue or review
 
