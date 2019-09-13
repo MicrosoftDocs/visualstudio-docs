@@ -56,9 +56,9 @@ UWP:
 
 You must either manually set the correct MSBuild property to support XAML Hot Reload (see previous section), or you must use the default build configuration name (Debug). If you don't set the MSBuild property correctly, a custom build configuration name won't work, nor will a Release build.
 
-## Verify that your project has no XAML parsing errors
+## Verify that your XAML file has no errors
 
-In some projects with highly customized *.csproj and *.targets files, it may be possible to build and run your app even with XAML parsing errors (for example, the build and runtime app might reference different DLLs). If you have XAML parsing errors, you will see error squiggles in your XAML code. XAML Hot Reload will not attempt to reload XAML if it finds parsing errors.
+If your XAML file shows errors in the **Error List**, then XAML Hot Reload may not work.
 
 ## See also
 

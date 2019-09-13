@@ -16,6 +16,9 @@ ms.workload:
 
 XAML Hot Reload helps you build your WPF or UWP app user interface (UI) by letting you make changes to XAML code while your app is running. Hot Reload is available in both Visual Studio and Blend for Visual Studio. This feature enables you to incrementally build and test XAML code with the benefit of the running app's data context, authentication state, and other real-world complexity that’s hard to simulate during design-time. If you need help troubleshooting XAML Hot Reload, see [Troubleshooting XAML Hot Reload](xaml-hot-reload-troubleshooting.md) instead.
 
+> [!NOTE]
+> If you are using Xamarin.Forms, see [XAML Hot Reload for Xamarin.Forms](/xamarin/xamarin-forms/xaml/hot-reload).
+
 XAML Hot Reload is especially helpful in these scenarios:
 
 * Fixing UI problems found in your XAML code after the app was started in debug mode.
@@ -58,3 +61,4 @@ You may come across the following errors while using XAML Hot Reload.
 ## See also
 
 [Troubleshooting XAML Hot Reload](xaml-hot-reload-troubleshooting.md)
+[XAML Hot Reload for Xamarin.Forms](/xamarin/xamarin-forms/xaml/hot-reload)
