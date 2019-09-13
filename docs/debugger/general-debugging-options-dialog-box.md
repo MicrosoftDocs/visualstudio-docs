@@ -121,7 +121,7 @@ Disables the JIT optimization of managed code when a module is loaded and JIT is
 Enables the script debugger for ASP.NET apps. On first use in Chrome, you may need to sign into the browser to enable Chrome extensions that you have installed. Disable this option to revert to legacy behavior.
 
 **Enable Edge Developer Tools for UWP JavaScript Apps (Experimental)**:
-Enables developer tools for UWP JavaScript apps in Edge.
+Enables developer tools for UWP JavaScript apps in Microsoft Edge.
 
 **Enable legacy Chrome JavaScript debugger for ASP.NET**:
 Enables the legacy Chrome JavaScript script debugger for ASP.NET apps. On first use in Chrome, you may need to sign into the browser to enable Chrome extensions that you have installed.
