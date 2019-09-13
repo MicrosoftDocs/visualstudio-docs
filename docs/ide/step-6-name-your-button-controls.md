@@ -46,7 +46,7 @@ You can verify the names by choosing the control selector drop-down list in the 
 ***Form1.cs*** *tab with C# code*
 
     > [!NOTE]
-    > Your Form1.cs of Form1.vb tab might display **showButton** as **ShowButton** instead.
+    > Your Form1.cs or Form1.vb tab might display **showButton** as **ShowButton** instead.
 
 1. Focus on this part of the code.
 
