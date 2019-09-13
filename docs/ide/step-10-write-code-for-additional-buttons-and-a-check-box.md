@@ -36,6 +36,9 @@ Add the following code to your **Form1** code file (*Form1.cs* or *Form1.vb*).
 
   [!code-vb[VbExpressTutorial1Step9_10#2](../ide/codesnippet/VisualBasic/step-10-write-code-for-additional-buttons-and-a-check-box_1.vb)]
 
+> [!NOTE]
+> Your code might not display "camelCase" letters. 
+
 ## Next steps
 
 * To go to the next tutorial step, see **[Step 11: Run your app and try other features](../ide/step-11-run-your-program-and-try-other-features.md)**.
