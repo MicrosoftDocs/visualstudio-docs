@@ -121,7 +121,7 @@ Disables the JIT optimization of managed code when a module is loaded and JIT is
 Enables the script debugger for ASP.NET apps. On first use in Chrome, you may need to sign into the browser to enable Chrome extensions that you have installed. Disable this option to revert to legacy behavior.
 
 **Enable Edge Developer Tools for UWP JavaScript Apps (Experimental)**:
-Enables developer tools for UWP JavaScript apps in Edge.
+Enables developer tools for UWP JavaScript apps in Microsoft Edge.
 
 **Enable legacy Chrome JavaScript debugger for ASP.NET**:
 Enables the legacy Chrome JavaScript script debugger for ASP.NET apps. On first use in Chrome, you may need to sign into the browser to enable Chrome extensions that you have installed.
@@ -169,7 +169,7 @@ The Live Visual Tree and the Live Property Explore windows will appear when you 
     Shows the **Live Visual Tree** commands in a toolbar on the main window of the XAML application that is being debugged. This option was introduced in Visual Studio 2015 Update 2.
 
 - **Enable XAML Hot Reload**:
-    Allows you to use the XAML hot reload feature with XAML code when your app is running. (This feature was previously called "XAML Edit and Continue")
+    Allows you to use the XAML Hot Reload feature with XAML code when your app is running. (This feature was previously called "XAML Edit and Continue")
 
 **Enable Diagnostic Tools while debugging**:
 The **Diagnostic Tools** window appears while you are debugging.
