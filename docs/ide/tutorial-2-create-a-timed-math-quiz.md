@@ -4,7 +4,7 @@ ms.date: 11/04/2016
 ms.assetid: d7165d08-ace3-457d-b57d-fb8f80760a6f
 ms.topic: tutorial
 ms.technology: vs-ide-general
-ms.devlang: 
+ms.devlang:
  - "csharp"
  - "vb"
 author: TerryGLee
@@ -25,7 +25,7 @@ In this tutorial, you build a quiz in which the quiz taker must answer four rand
 
 - Perform basic arithmetic operations in code.
 
-When you finish, your quiz will look like the following picture, except with different numbers:
+When you finish, your quiz will look similar to the following screenshot, except with different numbers:
 
 ![Math quiz with four problems](../ide/media/express_finishedquiz.png)
 

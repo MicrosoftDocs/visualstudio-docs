@@ -1,8 +1,13 @@
 ---
 title: "Step 4: Add the CheckTheAnswer() method"
 ms.date: 11/04/2016
-ms.topic: conceptual
-dev_langs: 
+ms.topic: tutorial
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
+ms.devlang:
+ - "csharp"
+ - "vb"
+dev_langs:
   - "csharp"
   - "vb"
 ms.assetid: c66f3831-b4a0-40bc-a109-8f46f4db35ed
@@ -16,9 +21,12 @@ ms.workload:
 In the fourth part of this tutorial, you'll write a method, `CheckTheAnswer()`, that determines whether the answers to the math problems are correct. This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
 
 > [!NOTE]
-> If you're following along in Visual Basic, you'll use the `Function` keyword instead of the usual `Sub` keyword because this method returns a value. It's really that simple: a sub doesn't return a value, but a function does.
+> This topic is part of a tutorial series about basic coding concepts. <br><li>For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md). <br><li>To download a completed version of the code, see [Complete math quiz tutorial sample](https://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).
 
 ## To verify whether the answers are correct
+
+> [!NOTE]
+> If you're following along in Visual Basic, you'll use the `Function` keyword instead of the usual `Sub` keyword because this method returns a value. It's really that simple: a sub doesn't return a value, but a function does.
 
 1. Add the `CheckTheAnswer()` method.
 
@@ -26,6 +34,9 @@ In the fourth part of this tutorial, you'll write a method, `CheckTheAnswer()`, 
 
      [!code-vb[VbExpressTutorial3Step4#8](../ide/codesnippet/VisualBasic/step-4-add-the-checktheanswer-parens-method_1.vb)]
      [!code-csharp[VbExpressTutorial3Step4#8](../ide/codesnippet/CSharp/step-4-add-the-checktheanswer-parens-method_1.cs)]
+
+     > [!IMPORTANT]
+     > Use the programming language control at the top right of this page to view either the C# code snippet or the Visual Basic code snippet.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
 
      Next, you'll check the answer by updating the code in the method for the timer's <xref:System.Windows.Forms.Timer.Tick> event handler to call the new `CheckTheAnswer()` method.
 
@@ -45,6 +56,6 @@ In the fourth part of this tutorial, you'll write a method, `CheckTheAnswer()`, 
 
 ## To continue or review
 
-- To go to the next tutorial step, see [Step 5: Add Enter event handlers for the NumericUpDown controls](../ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md).
+- To go to the next tutorial step, see **[Step 5: Add Enter event handlers for the NumericUpDown controls](../ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md)**.
 
 - To return to the previous tutorial step, see [Step 3: Add a countdown timer](../ide/step-3-add-a-countdown-timer.md).
