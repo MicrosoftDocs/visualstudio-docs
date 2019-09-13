@@ -97,3 +97,7 @@ You can use these XAML tools even when you don't have the source code. When you 
 3. The application starts running.
 
 4. In the second instance of Visual Studio, open the **Live Visual Tree** (**Debug > Windows > Live Visual Tree**). You should see the **TestXaml** UI elements, and you should be able to manipulate them as you did while debugging the application directly.
+
+## See also
+
+[Write and debug running XAML code with XAML Hot Reload](xaml-hot-reload.md)
