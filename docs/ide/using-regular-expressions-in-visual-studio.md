@@ -32,7 +32,7 @@ The following table contains some regular expression characters, operators, cons
 |Match any character zero or more times.|.*|`c.*e` matches "cke" in "racket", "comme" in "comment", and "code" in "code"|
 |Match one or more occurrences of the preceding expression (match as many characters as possible). For more information, see [Match one or more times](/dotnet/standard/base-types/quantifiers-in-regular-expressions#match-one-or-more-times-).|+|`e+d` matches "eed" in "feeder" and "ed" in "faded"|
 |Match any character one or more times.|.+|`e.+e` matches "eede" in "feeder" but finds no matches in "feed"|
-|Match zero or more occurrences of the preceding expression (match as few characters as possible). For more information, see [Match zero or more times (lazy match)](/dotnet/standard/base-types/quantifiers-in-regular-expressions#match-zero-or-more-times-lazy-match-).|*?|`e*?a` matches "a" in "faded" and "ea" in "lead"|
+|Match zero or more occurrences of the preceding expression (match as few characters as possible). For more information, see [Match zero or more times (lazy match)](/dotnet/standard/base-types/quantifiers-in-regular-expressions#match-zero-or-more-times-lazy-match-).|*?|`\w*?d` matches "fad" and "ed" in "faded" but not the entire word "faded" due to the lazy match|
 |Match one or more occurrences of the preceding expression (match as few characters as possible). For more information, see [Match one or more times (lazy match)](/dotnet/standard/base-types/quantifiers-in-regular-expressions#match-one-or-more-times-lazy-match-).|+?|`e\w+?` matches "ee" in "asleep" and "ed" in "faded" but finds no matches in "fade"|
 |Anchor the match string to the [beginning of a line or string](/dotnet/standard/base-types/anchors-in-regular-expressions#start-of-string-or-line-)|^|`^car` matches the word "car" only when it appears at the beginning of a line|
 |Anchor the match string to the [end of a line](/dotnet/standard/base-types/anchors-in-regular-expressions#end-of-string-or-line-)|\r?$|`car\r?$` matches "car" only when it appears at the end of a line|
@@ -51,12 +51,11 @@ The following table contains some regular expression characters, operators, cons
 |Match any [word character](/dotnet/standard/base-types/character-classes-in-regular-expressions#word-character-w)|\w|`a\wd` matches "add" and "a1d" but not "a d"|
 |Match any [whitespace character](/dotnet/standard/base-types/character-classes-in-regular-expressions#whitespace-character-s)|\s|`Public\sInterface` matches the phrase "Public Interface"|
 |Match any [decimal digit character](/dotnet/standard/base-types/character-classes-in-regular-expressions#decimal-digit-character-d)|\d|`\d` matches "4" and "0" in "wd40"|
-|Match a Unicode character|\uXXXX where XXXX specifies the Unicode character value.|`\u0065` matches the character "e"|
-|Match a string inside quotes|((\\".+?\\")&#124;('.+?'))|Matches any string inside single or double quotes|
-|Match a hexadecimal number|\b0[xX]([0-9a-fA-F]+\)\b|Matches "0xc67f" but not "0xc67g"|
+
+An example regular expression that combines some of the operators and constructs to match a hexadecimal number is `\b0[xX]([0-9a-fA-F]+\)\b`. This expression matches "0xc67f" but not "0xc67g".
 
 > [!TIP]
-> In Windows operating systems, most lines end in "\r\n" (a carriage return followed by a new line). These characters aren't visible, but are present in the editor and are passed to the .NET regular expression service.
+> In Windows operating systems, most lines end in "\r\n" (a carriage return followed by a new line). These characters aren't visible but are present in the editor and passed to the .NET regular expression service.
 
 ## Capture groups and replacement patterns
 
