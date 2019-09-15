@@ -125,6 +125,16 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. |
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
 
+### InternalsVisibleTo
+ Specifies assemblies to be emitted as `[InternalsVisibleTo(..)]` assembly attributes.
+
+| Item metadata name | Description |
+|-----------------------| - |
+| Include | The assembly name. |
+| Key | Optional string. The public key of the assembly. |
+
+> NOTE: applies to SDK-style projects only.
+
 ### BaseApplicationManifest
  Represents the base application manifest for the build, and contains [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment security information.
 
