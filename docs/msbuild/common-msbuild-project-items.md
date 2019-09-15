@@ -125,6 +125,14 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. |
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
 
+### AssemblyMetadata
+ Represents assembly attributes to be generated as `[AssemblyMetadata(key, value)]`.
+
+| Item metadata name | Description |
+|-----------------------| - |
+| Include | Becomes the first parameter (the key) in the `AssemblyMetadataAttribute` attribute constructor. |
+| Value | Required string. Becomes the second parameter (the value) in the `AssemblyMetadataAttribute` attribute constructor. |
+
 ### BaseApplicationManifest
  Represents the base application manifest for the build, and contains [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment security information.
 
