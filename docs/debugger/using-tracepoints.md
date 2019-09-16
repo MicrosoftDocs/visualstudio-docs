@@ -87,7 +87,7 @@ Conditions allow you to filter your output messages, so they display only under 
 ### Conditional expression
 For a conditional expression, an output message displays only when certain conditions are met.
 
-For conditional expressions you can either set the tracepoint to output a message when a certain condition is true or when it has changed. For example if you only wanted to display the value of counter during even iterations of the for loop, you could select the &quot;is true&quot; option and then type &quot;i%2 == 0&quot; (without the quotes) in the expression field.
+For conditional expressions, you can either set the tracepoint to output a message when a certain condition is true or when it has changed. For example, if you only want to display the value of counter during even iterations of the `for` loop, you could select the **Is true** option and then type `i%2 == 0` in the message text box.
 
 ![Conditional Expression Is True](../debugger/media/conditionalexpressionistrue.png "Conditional Expression Is True")
 
