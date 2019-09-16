@@ -52,7 +52,7 @@ Notice how to red circle changes to a diamond indicating that you have switched 
 
    ![Checked Conditions Box](../debugger/media/checkedconditionsbox.png "Checked Conditions Box")
 
-You have three choices: Conditional Expression, Filter, and Hit Count.
+   You have three choices for conditions: **Conditional Expression**, **Filter**, and **Hit Count**.
 
 ## Actions Menu
 
