@@ -48,7 +48,7 @@ Notice how to red circle changes to a diamond indicating that you have switched 
 
    Your tracepoint is now set. Hit the &quot;Close&quot; button if all you want to do is log some information to the Output Window.
 
-6.If you want to add some conditions on when your message is displayed check the conditions box
+6. If you want to add conditions that determine whether your message is displayed, select the **Conditions** checkbox.
 
 ![Checked Conditions Box](../debugger/media/checkedconditionsbox.png "Checked Conditions Box")
 
