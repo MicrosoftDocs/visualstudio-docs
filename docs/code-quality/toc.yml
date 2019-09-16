@@ -336,6 +336,13 @@
           href: ca1068.md
         - name: "CA2210: Assemblies should have valid strong names"
           href: ca2210-assemblies-should-have-valid-strong-names.md
+      - name: Documentation warnings
+        items:
+        - name: Overview
+          displayName: "documentation warnings"
+          href: documentation-warnings.md
+        - name: "CA1200: Avoid using cref tags with a prefix"
+          href: ca1200.md
       - name: Globalization warnings
         items:
         - name: Overview
