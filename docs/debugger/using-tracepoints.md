@@ -58,7 +58,7 @@ Notice how to red circle changes to a diamond indicating that you have switched 
 
 This menu allows you to log a message to the Output window. Type the strings you want to output into the message box (no quotes necessary). If you want to display values of variables, make sure you enclose it in curly braces.
 
-For example, if we want to display the value of our counter variable in the output console we would type {counter} in the message field.
+For example, if you want to display the value of the `counter` variable in the output console, type {counter} in the message text box.
 
 ![Counter Output Message](../debugger/media/counteroutputmessage.png "Counter Output Message")
 
