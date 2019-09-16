@@ -25,7 +25,7 @@ RStudio is available in open source and commercial editions and runs on the desk
 3. You'll be redirected to the RStudio page for the benefit that's included with your Visual Studio subscription.
 
     > [!NOTE]
-    > At the top of the landing page you'll see a section called Configure Your Plan in which you'll have an opportunity to purchase additional licenses for RStudio Desktop commercial edition.  Your subscription includes one license.  Enter a quantity in the blank **ONLY** if you wish to purchase an additional licese.
+    > At the top of the landing page you'll see a section called Configure Your Plan in which you'll have an opportunity to purchase additional licenses for RStudio Desktop commercial edition.  Your subscription includes one license.  Enter a quantity in the blank **ONLY** if you wish to purchase an additional license.
 
     > [!div class="mx-imgBorder"]
     > ![RStudio Landing Page](_img/vs-rstudio/vs-rstudio-landing-page.png)
