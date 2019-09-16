@@ -40,7 +40,7 @@ You can set tracepoints by specifying an output string under the **Action** chec
 
    ![Checked Actions Box](../debugger/media/checkedactionsbox.png "Checked Actions Box")
 
-Notice how to red circle changes to a diamond indicating that you have switched from a tracepoint to tracepoint.
+   Notice how to red circle changes to a diamond indicating that you have switched from a tracepoint to tracepoint.
 
 5. Enter the message you want to log into the **Show a message in the Output Window** text box (for details, see later sections in this article).
 
