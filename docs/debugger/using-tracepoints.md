@@ -98,7 +98,7 @@ If you want to print the value of counter when the iteration of the `for` loop c
 The behavior of the  **When changed**  option is different for different programming languages.
 
 - For native code, the debugger doesn't consider the first evaluation of the condition to be a change, so doesn't hit the tracepoint on the first evaluation.
-- For managed code, the debugger hits the tracepoint on the first evaluation after  **When changed**  is selected.&quot;
+- For managed code, the debugger hits the tracepoint on the first evaluation after **When changed**  is selected.
 
 For a more comprehensive look at valid expressions you can use while setting conditions, see this doc: [https://docs.microsoft.com/en-us/visualstudio/debugger/expressions-in-the-debugger?view=vs-2019](https://docs.microsoft.com/en-us/visualstudio/debugger/expressions-in-the-debugger?view=vs-2019)
 
