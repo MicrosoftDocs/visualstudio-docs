@@ -109,7 +109,8 @@ For hit count, you can choose to output a message when the line of code where th
 
 ![Conditional Expression Hit Count](../debugger/media/conditionalexpressionhitcount.png "Conditional Expression Hit Count")
 
-**3. Filter**: Specify which devices, processes or threads output is shown for.
+### Filter
+For a filter condition, specify which devices, processes or threads output is shown for.
 
 ![Conditional Expression Filter](../debugger/media/conditionalexpressionfilter.png "Conditional Expression Filter")
 
