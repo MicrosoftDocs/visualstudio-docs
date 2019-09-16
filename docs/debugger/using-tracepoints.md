@@ -25,7 +25,7 @@ The following example program is a simple `for` loop with a counter variable tha
 
 ## Set tracepoints in source code
 
-You can set tracepoints by specifying an output string under the **Actions** checkbox in the **Breakpoint Settings** window.
+You can set tracepoints by specifying an output string under the **Action** checkbox in the **Breakpoint Settings** window.
 
 1. To initialize a tracepoint, first click on the gutter to the left of the line number where you want to set the tracepoint.
 
