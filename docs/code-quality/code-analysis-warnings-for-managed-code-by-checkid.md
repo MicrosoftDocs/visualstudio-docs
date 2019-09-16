@@ -68,6 +68,7 @@ f1_keywords:
   - "CA1063"
   - "CA1064"
   - "CA1065"
+  - "CA1068"
   - "CA1300"
   - "CA1301"
   - "CA1302"
@@ -328,6 +329,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1063 | [CA1063: Implement IDisposable correctly](../code-quality/ca1063-implement-idisposable-correctly.md) | All IDisposable types should implement the Dispose pattern correctly. |
 | CA1064 | [CA1064: Exceptions should be public](../code-quality/ca1064-exceptions-should-be-public.md) | An internal exception is visible only inside its own internal scope. After the exception falls outside the internal scope, only the base exception can be used to catch the exception. If the internal exception is inherited from <xref:System.Exception>, <xref:System.SystemException>, or <xref:System.ApplicationException>, the external code will not have sufficient information to know what to do with the exception. |
 | CA1065 | [CA1065: Do not raise exceptions in unexpected locations](../code-quality/ca1065-do-not-raise-exceptions-in-unexpected-locations.md) | A method that is not expected to throw exceptions throws an exception. |
+| CA1068 | [CA1068: CancellationToken parameters must come last](../code-quality/ca1068.md) | A method has a CancellationToken parameter that is not the last parameter. |
 | CA1300 | [CA1300: Specify MessageBoxOptions](../code-quality/ca1300-specify-messageboxoptions.md) | To correctly display a message box for cultures that use a right-to-left reading order, the RightAlign and RtlReading members of the MessageBoxOptions enumeration must be passed to the Show method. |
 | CA1301 | [CA1301: Avoid duplicate accelerators](../code-quality/ca1301-avoid-duplicate-accelerators.md) | An access key, also known as an accelerator, enables keyboard access to a control by using the ALT key. When multiple controls have duplicate access keys, the behavior of the access key is not well-defined. |
 | CA1302 | [CA1302: Do not hardcode locale specific strings](../code-quality/ca1302-do-not-hardcode-locale-specific-strings.md) | The System.Environment.SpecialFolder enumeration contains members that refer to special system folders. The locations of these folders can have different values on different operating systems; the user can change some of the locations; and the locations are localized. The Environment.GetFolderPath method returns the locations that are associated with the Environment.SpecialFolder enumeration, localized and appropriate for the currently running computer. |

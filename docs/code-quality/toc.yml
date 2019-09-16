@@ -332,6 +332,8 @@
           href: ca1064-exceptions-should-be-public.md
         - name: "CA1065: Do not raise exceptions in unexpected locations"
           href: ca1065-do-not-raise-exceptions-in-unexpected-locations.md
+        - name: "CA1068: CancellationToken parameters must come last"
+          href: ca1068.md
         - name: "CA2210: Assemblies should have valid strong names"
           href: ca2210-assemblies-should-have-valid-strong-names.md
       - name: Globalization warnings
