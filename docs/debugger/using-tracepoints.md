@@ -90,7 +90,7 @@ For conditional expressions, you can either set the tracepoint to output a messa
 
 ![Conditional Expression Is True](../debugger/media/conditionalexpressionistrue.png "Conditional Expression Is True")
 
-If you wanted to print the value of counter when the iteration of the for loop changes, select the &quot;when changes&quot; option and type &quot;i&quot; (without the quotes) in the expression field.
+If you want to print the value of counter when the iteration of the `for` loop changes, select the **When changed** option and type `i` in the message text box.
 
 ![Conditional Expression When Changed](../debugger/media/conditionalexpressionwhenchanged.png "Conditional Expression When Changed")
 
