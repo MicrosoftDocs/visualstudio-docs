@@ -133,7 +133,8 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 | Include | The assembly name. |
 | Key | Optional string. The public key of the assembly. |
 
-> NOTE: applies to SDK-style projects only.
+> [!NOTE] 
+> This applies to SDK-style projects only.
 
 ### BaseApplicationManifest
  Represents the base application manifest for the build, and contains [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment security information.
