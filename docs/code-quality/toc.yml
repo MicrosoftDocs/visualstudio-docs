@@ -514,6 +514,8 @@
           href: ca1823-avoid-unused-private-fields.md
         - name: "CA1824: Mark assemblies with NeutralResourcesLanguageAttribute"
           href: ca1824-mark-assemblies-with-neutralresourceslanguageattribute.md
+        - name: "CA1825: Avoid zero-length array allocations"
+          href: ca1825.md
       - name: Portability warnings
         items:
         - name: Overview
