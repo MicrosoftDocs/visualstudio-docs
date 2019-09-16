@@ -1,5 +1,5 @@
 ---
-title: Documentation Warnings
+title: Documentation warnings
 ms.date: 09/16/2019
 ms.topic: reference
 f1_keywords:
