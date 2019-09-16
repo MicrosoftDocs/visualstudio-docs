@@ -18,7 +18,7 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-# Troubleshooting network-related errors when you install or use Visual Studio
+# Troubleshoot network-related errors when you install or use Visual Studio
 
 We've got solutions for the most typical network- or proxy-related errors that you might encounter when you install or use Visual Studio behind a firewall or a proxy server.
 
