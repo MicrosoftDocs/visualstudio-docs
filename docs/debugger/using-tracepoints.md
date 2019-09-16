@@ -4,7 +4,6 @@ ms.date: "9/4/2019"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "tracepoints, about tracepoints"
-ms.assetid: 75593c5f-5706-4151-bdeb-4dbb625e91bb
 author: "Sagar-S-S"
 ms.author: "sashe"
 manager: AndSter
