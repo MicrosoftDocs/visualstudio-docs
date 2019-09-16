@@ -13,7 +13,7 @@ ms.workload:
 ---
 
 
-## Use Tracepoints in the Visual Studio debugger
+# Use Tracepoints in the Visual Studio debugger
 
 Tracepoints allow you to log information to the Output window under configurable conditions without modifying or stopping your
 
