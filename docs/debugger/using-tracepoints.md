@@ -38,7 +38,7 @@ Summary - Click on the far-left margin next to a line of code -> Click the Gear 
 
    ![Breakpoint Window](../debugger/media/breakpointwindow.png "Breakpoint Window")
 
-4.Check the Actions box.
+4. Select the **Action** checkbox.
 
 ![Checked Actions Box](../debugger/media/checkedactionsbox.png "Checked Actions Box")
 
