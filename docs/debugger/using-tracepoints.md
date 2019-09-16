@@ -100,7 +100,7 @@ The behavior of the  **When changed**  option is different for different program
 - For native code, the debugger doesn't consider the first evaluation of the condition to be a change, so doesn't hit the tracepoint on the first evaluation.
 - For managed code, the debugger hits the tracepoint on the first evaluation after **When changed**  is selected.
 
-For a more comprehensive look at valid expressions you can use while setting conditions, see this doc: [https://docs.microsoft.com/en-us/visualstudio/debugger/expressions-in-the-debugger?view=vs-2019](https://docs.microsoft.com/en-us/visualstudio/debugger/expressions-in-the-debugger?view=vs-2019)
+For a more comprehensive look at valid expressions you can use while setting conditions, see [Expressions in the debugger](expressions-in-the-debugger.md)
 
 **2. Hit Count**: This condition allows you to output only after a pre-specified number of times the line the tracepoint was set on has been executed.
 
