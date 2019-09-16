@@ -7896,11 +7896,6 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "subscriptions/vs-rstudio.md",
-            "redirect_url": "/visualstudio/subscriptions",
-            "redirect_document_id": false
-        },
-        {
             "source_path": "subscriptions/leave-vsde.md",
             "redirect_url": "/visualstudio/subscriptions/join-dev-essentials",
             "redirect_document_id": false
