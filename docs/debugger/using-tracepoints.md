@@ -33,7 +33,7 @@ Summary - Click on the far-left margin next to a line of code -> Click the Gear 
 
    ![Breakpoint Initialization](../debugger/media/breakpointinitialization.png "Breakpoint Initialization")
 
-2.Hover over the red circle and then click on the gear icon.
+2. Hover over the red circle and then click the gear icon.
 3.This should bring up the following menu
 
 ![Breakpoint Window](../debugger/media/breakpointwindow.png "Breakpoint Window")
