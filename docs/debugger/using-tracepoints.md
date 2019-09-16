@@ -46,7 +46,7 @@ Notice how to red circle changes to a diamond indicating that you have switched 
 
 5. Enter the message you want to log into the **Show a message in the Output Window** text box (for details, see later sections in this article).
 
-Your tracepoint is now set. Hit the &quot;Close&quot; button if all you want to do is log some information to the Output Window.
+   Your tracepoint is now set. Hit the &quot;Close&quot; button if all you want to do is log some information to the Output Window.
 
 6.If you want to add some conditions on when your message is displayed check the conditions box
 
