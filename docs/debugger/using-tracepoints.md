@@ -84,7 +84,8 @@ You can also use special keywords to display more specific information. Enter th
 
 Conditions allow you to filter your output messages, so they display only under certain scenarios. There are three main kinds of conditions available to you.
 
- **1. Conditional Expression**: Output message displayed only when certain conditions are met.
+### Conditional expression
+For a conditional expression, an output message displays only when certain conditions are met.
 
 For conditional expressions you can either set the tracepoint to output a message when a certain condition is true or when it has changed. For example if you only wanted to display the value of counter during even iterations of the for loop, you could select the &quot;is true&quot; option and then type &quot;i%2 == 0&quot; (without the quotes) in the expression field.
 
