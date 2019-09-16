@@ -50,7 +50,7 @@ Notice how to red circle changes to a diamond indicating that you have switched 
 
 6. If you want to add conditions that determine whether your message is displayed, select the **Conditions** checkbox.
 
-![Checked Conditions Box](../debugger/media/checkedconditionsbox.png "Checked Conditions Box")
+   ![Checked Conditions Box](../debugger/media/checkedconditionsbox.png "Checked Conditions Box")
 
 You have three choices: Conditional Expression, Filter, and Hit Count.
 
