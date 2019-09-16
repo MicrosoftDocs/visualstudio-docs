@@ -114,7 +114,7 @@ For a filter condition, specify which devices, processes or threads output is sh
 
 ![Conditional Expression Filter](../debugger/media/conditionalexpressionfilter.png "Conditional Expression Filter")
 
-List of Filter Expressions:
+List of filter expressions:
 
 - MachineName = "name"
 - ProcessId = value
