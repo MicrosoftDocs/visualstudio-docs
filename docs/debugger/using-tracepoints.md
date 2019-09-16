@@ -80,7 +80,7 @@ You can also use special keywords to display more specific information. Enter th
 | $TNAME   | Thread name |
 | $TICK | Tick count (from Windows GetTickCount) |
 
-## Conditions Menu
+## Conditions menu
 
 Conditions allow you to filter your output messages, so they displayed only under certain scenarios. There are three main kinds of conditions available to you.
 
