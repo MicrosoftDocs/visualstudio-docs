@@ -62,7 +62,7 @@ For example, if you want to display the value of the `counter` variable in the o
 
 ![Counter Output Message](../debugger/media/counteroutputmessage.png "Counter Output Message")
 
-If you hit the close button and Debug the program (F5) you should see the following Output in the console.
+If you click **Close** and then debug the program (**F5**), you see the following output in the Output window.
 
 ![Actions Message In Output Window](../debugger/media/actionsmessageinoutputwindow.png "Actions Message In Output Window")
 
