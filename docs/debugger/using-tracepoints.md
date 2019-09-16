@@ -36,7 +36,7 @@ Summary - Click on the far-left margin next to a line of code -> Click the Gear 
 2. Hover over the red circle and then click the gear icon.
 3. This opens the **Breakpoint Settings** window.
 
-![Breakpoint Window](../debugger/media/breakpointwindow.png "Breakpoint Window")
+   ![Breakpoint Window](../debugger/media/breakpointwindow.png "Breakpoint Window")
 
 4.Check the Actions box.
 
