@@ -21,7 +21,7 @@ code. This feature is supported for both managed and native code as well as seve
 
 ## Let&#39;s Take an Example
 
-The following example program is a simple for loop with a counter variable that increases by 1 every time the loop runs another iteration.
+The following example program is a simple `for` loop with a counter variable that increases by one every time the loop runs another iteration.
 
 ![Counter Example](../debugger/media/counterexample.png "Counter Example")
 
