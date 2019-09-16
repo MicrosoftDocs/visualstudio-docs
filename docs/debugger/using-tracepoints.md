@@ -114,7 +114,7 @@ For hit count, you can choose to output a message when the number of times the t
 
 List of Filter Expressions:
 
-- MachineName = "name”
+- MachineName = "name"
 - ProcessId = value
 - ProcessName = "name"
 - ThreadId = value
