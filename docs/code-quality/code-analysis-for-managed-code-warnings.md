@@ -41,6 +41,7 @@ The Managed Code Analysis tool provides warnings that indicate rule violations i
 |[Warnings By CheckId](../code-quality/code-analysis-warnings-for-managed-code-by-checkid.md)|Lists all warnings by CheckId|
 |[Cryptography Warnings](../code-quality/cryptography-warnings.md)|Warnings that support safer libraries and applications through the correct use of cryptography.|
 |[Design Warnings](../code-quality/design-warnings.md)|Warnings that support correct library design as specified by the .NET Design Guidelines.|
+|[Documentation Warnings](../code-quality/documentation-warnings.md)|Warnings that support well-documented library design through the correct use of XML documentation comments.|
 |[Globalization Warnings](../code-quality/globalization-warnings.md)|Warnings that support world-ready libraries and applications.|
 |[Interoperability Warnings](../code-quality/interoperability-warnings.md)|Warnings that support interaction with COM clients.|
 |[Maintainability Warnings](../code-quality/maintainability-warnings.md)|Warnings that support library and application maintenance.|
