@@ -15,7 +15,6 @@ ms.workload:
 # Use Tracepoints in the Visual Studio debugger
 
 Tracepoints allow you to log information to the Output window under configurable conditions without modifying or stopping your
-
 code. This feature is supported for both managed and native code as well as several languages such as JavaScript and C#.
 
 ## Let&#39;s Take an Example
