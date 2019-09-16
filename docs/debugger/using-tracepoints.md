@@ -44,7 +44,7 @@ Summary - Click on the far-left margin next to a line of code -> Click the Gear 
 
 Notice how to red circle changes to a diamond indicating that you have switched from a tracepoint to tracepoint.
 
-5.Enter the message you want to log into the field titled &quot;Show a message in the Output Window&quot; (more information below)
+5. Enter the message you want to log into the **Show a message in the Output Window** text box (for details, see later sections in this article).
 
 Your tracepoint is now set. Hit the &quot;Close&quot; button if all you want to do is log some information to the Output Window.
 
