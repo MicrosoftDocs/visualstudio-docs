@@ -95,7 +95,7 @@ If you want to print the value of counter when the iteration of the `for` loop c
 ![Conditional Expression When Changed](../debugger/media/conditionalexpressionwhenchanged.png "Conditional Expression When Changed")
 
 
-&quot;The behavior of the  **When changed**  field is different for different programming languages.
+The behavior of the  **When changed**  option is different for different programming languages.
 
 - For native code, the debugger doesn&#39;t consider the first evaluation of the condition to be a change, so doesn&#39;t hit the tracepoint on the first evaluation.
 - For managed code, the debugger hits the tracepoint on the first evaluation after  **When changed**  is selected.&quot;
