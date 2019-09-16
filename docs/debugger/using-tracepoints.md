@@ -40,7 +40,7 @@ Summary - Click on the far-left margin next to a line of code -> Click the Gear 
 
 4. Select the **Action** checkbox.
 
-![Checked Actions Box](../debugger/media/checkedactionsbox.png "Checked Actions Box")
+   ![Checked Actions Box](../debugger/media/checkedactionsbox.png "Checked Actions Box")
 
 Notice how to red circle changes to a diamond indicating that you have switched from a tracepoint to tracepoint.
 
