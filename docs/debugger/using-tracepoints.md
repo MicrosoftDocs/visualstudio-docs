@@ -31,7 +31,7 @@ Summary - Click on the far-left margin next to a line of code -> Click the Gear 
 
 1. To initialize a tracepoint first click on the gutter to the left of the line number of interests.
 
-![Breakpoint Initialization](../debugger/media/breakpointinitialization.png "Breakpoint Initialization")
+   ![Breakpoint Initialization](../debugger/media/breakpointinitialization.png "Breakpoint Initialization")
 
 2.Hover over the red circle and then click on the gear icon.
 3.This should bring up the following menu
