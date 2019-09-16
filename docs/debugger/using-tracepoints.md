@@ -105,7 +105,7 @@ For a more comprehensive look at valid expressions you can use while setting con
 ### Hit count
 A hit count condition allows you to send output only after the line of code where the tracepoint is set has executed a specified number of times.
 
-For hit count, you can choose to output a message when the number of times the tracepoint line has been executed is equal to, is a multiple of, or is greater than or equal to a pre-specified value. Choose the option that best suits your needs and type an integer value in the field (ex: 5) that represents that iteration of interest.
+For hit count, you can choose to output a message when the line of code where the tracepoint is set has executed a number of times that is equal to, is a multiple of, or is greater than or equal to the specified hit count value. Choose the option that best suits your needs and type an integer value in the field (for example, 5) that represents that iteration of interest.
 
 ![Conditional Expression Hit Count](../debugger/media/conditionalexpressionhitcount.png "Conditional Expression Hit Count")
 
