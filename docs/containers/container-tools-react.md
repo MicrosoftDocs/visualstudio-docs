@@ -3,7 +3,7 @@ title: Visual Studio Container Tools with ASP.NET Core
 author: ghogen
 description: Learn how to use Visual Studio Container Tools and Docker for Windows
 ms.author: ghogen
-ms.date: 08/28/2019
+ms.date: 09/12/2019
 ms.technology: vs-azure
 ms.topic: quickstart
 ---
@@ -102,15 +102,15 @@ When the new project dialog's **Configure for HTTPS** check box is checked, the 
 
 ## Modify the Dockerfile (Windows containers)
 
-Update the project file (*.csproj) by adding the following property:
+Open the project file by double-clicking on the project node, and update the project file (*.csproj) by adding the following property as a child of the `<PropertyGroup>` element:
 
    ```xml
     <DockerfileFastModeStage>base</DockerfileFastModeStage>
    ```
 
-Update the Dockerfile by adding the following lines. This will copy Node.js and npm.exe to the container.
+Update the Dockerfile by adding the following lines. This will copy node and npm to the container.
 
-   1. Add `# escape=` ` to the first line of the Dockerfile
+   1. Add ``# escape=` `` to the first line of the Dockerfile
    1. Add the following lines before `FROM … base`
 
       ```
@@ -121,7 +121,7 @@ Update the Dockerfile by adding the following lines. This will copy Node.js and 
       Rename-Item "C:\node-v10.16.3-win-x64" c:\nodejs
       ```
 
-   1. Add the following line before `FROM … build`
+   1. Add the following line before and after `FROM … build`
 
       ```
       COPY --from=downloadnodejs C:\nodejs\ C:\Windows\system32\
@@ -131,11 +131,13 @@ Update the Dockerfile by adding the following lines. This will copy Node.js and 
 
       ```
       # escape=`
+      #Depending on the operating system of the host machines(s) that will build or run the containers, the image specified in the FROM statement may need to be changed.
+      #For more information, please see https://aka.ms/containercompat
       FROM mcr.microsoft.com/powershell:nanoserver-1903 AS downloadnodejs
       SHELL ["pwsh", "-Command", "$ErrorActionPreference = 'Stop';$ProgressPreference='silentlyContinue';"]
       RUN Invoke-WebRequest -OutFile nodejs.zip -UseBasicParsing "https://nodejs.org/dist/v10.16.3/node-v10.16.3-win-x64.zip"; `
-      Expand-Archive nodejs.zip -DestinationPath C:\; `
-      Rename-Item "C:\node-v10.16.3-win-x64" c:\nodejs
+      RUN Expand-Archive nodejs.zip -DestinationPath C:\; `
+      RUN Rename-Item "C:\node-v10.16.3-win-x64" c:\nodejs
 
       FROM mcr.microsoft.com/dotnet/core/aspnet:2.2-nanoserver-1903 AS base
       WORKDIR /app
@@ -144,25 +146,28 @@ Update the Dockerfile by adding the following lines. This will copy Node.js and 
       COPY --from=downloadnodejs C:\nodejs\ C:\Windows\system32\
 
       FROM mcr.microsoft.com/dotnet/core/sdk:2.2-nanoserver-1903 AS build
+      COPY --from=downloadnodejs C:\nodejs\ C:\Windows\system32\
       WORKDIR /src
-      COPY ["WebApplication7/WebApplication7.csproj", "WebApplication7/"]
+      COPY ["WebApplication7/WebApplication37.csproj", "WebApplication37/"]
       RUN dotnet restore "WebApplication7/WebApplication7.csproj"
       COPY . .
-      WORKDIR "/src/WebApplication7"
-      RUN dotnet build "WebApplication7.csproj" -c Release -o /app/build
+      WORKDIR "/src/WebApplication37"
+      RUN dotnet build "WebApplication37.csproj" -c Release -o /app/build
 
       FROM build AS publish
-      RUN dotnet publish "WebApplication7.csproj" -c Release -o /app/publish
+      RUN dotnet publish "WebApplication37.csproj" -c Release -o /app/publish
 
       FROM base AS final
       WORKDIR /app
       COPY --from=publish /app/publish .
-      ENTRYPOINT ["dotnet", "WebApplication7.dll"]
+      ENTRYPOINT ["dotnet", "WebApplication37.dll"]
       ```
+
+1. Update the .dockerignore file by removing the `**/bin`.
 
 ## Debug
 
-Select **Docker** from the debug drop-down in the toolbar, and start debugging the app. You might see a message with a prompt about trusting a certificate; choose to trust the certificate to continue.
+Select **Docker** from the debug drop-down in the toolbar, and start debugging the app. You might see a message with a prompt about trusting a certificate; choose to trust the certificate to continue.  The first time you build, docker downloads the base images, so it might take a bit longer.
 
 The **Container Tools** option in the **Output** window shows what actions are taking place. You should see the installation steps associated with *npm.exe*.
 
