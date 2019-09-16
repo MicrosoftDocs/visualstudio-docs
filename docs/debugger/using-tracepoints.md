@@ -120,7 +120,7 @@ List of Filter Expressions:
 - ThreadId = value
 - ThreadName = "name"
 
-Enclose strings (such as names) in double quotes. Values can be entered without quotes. You can combine clauses using & (AND), || (OR), ! (NOT), and parentheses.
+Enclose strings (such as names) in double quotes. Values can be entered without quotes. You can combine clauses using `&` (`AND`), `||` (`OR`), `!` (`NOT`), and parentheses.
 
 ## Considerations
 
