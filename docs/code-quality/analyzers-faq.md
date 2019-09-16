@@ -24,7 +24,7 @@ This page contains answers to some frequently asked questions about .NET Compile
 
 **Q**: Should I configure my analyzers using a rule set or an EditorConfig file?
 
-**A**: Rule sets and EditorConfig files can both be used to configure analyzers and can coexist. [Rule sets](analyzer-rule-sets.md) let you enable and disable rules and set their severity. EditorConfig files offer other ways to configure rules. For FxCop analyzers, EditorConfig files let you [define which types of code to analyze](fxcop-analyzer-options.md). For the code-style analyzers that are built into Visual Studio, EditorConfig files let you [define the preferred code styles](../ide/editorconfig-code-style-settings-reference.md) for a codebase.
+**A**: Rule sets and EditorConfig files can coexist and can both be used to configure analyzers. [Rule sets](analyzer-rule-sets.md) let you enable and disable rules and set their severity. EditorConfig files offer other ways to configure rules. For FxCop analyzers, EditorConfig files let you [define which types of code to analyze](fxcop-analyzer-options.md). For the code-style analyzers that are built into Visual Studio, EditorConfig files let you [define the preferred code styles](../ide/editorconfig-code-style-settings-reference.md) for a codebase.
 
 In addition to rule sets and EditorConfig files, some analyzers are configured through the use of text files marked as [additional files](../ide/build-actions.md#build-action-values) for the C# and VB compilers.
 
