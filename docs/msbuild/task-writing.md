@@ -135,6 +135,30 @@ public string RequiredProperty { get; set; }
 
  The `[Required]` attribute is defined by <xref:Microsoft.Build.Framework.RequiredAttribute> in the <xref:Microsoft.Build.Framework> namespace.
 
+## How [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] invokes a task
+
+When invoking a task, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] first instantiates the task class, then calls that object's property setters for task parameters that are set in the task element in the project file. If the task element does not specify a parameter, or if the expression specified in the element evaluates to an empty string, the property setter is not called.
+
+For example, in the project
+
+```xml
+<Project>
+ <Target Name="InvokeCustomTask">
+  <CustomTask Input1=""
+              Input2="$(PropertyThatIsNotDefined)"
+              Input3="value3" />
+ </Target>
+</Project>
+```
+
+only the setter for `Input3` is called.
+
+A task should not depend on any relative order of parameter-property setter invocation.
+
+### Task parameter types
+
+The [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] natively handles properties of type `string`, `bool`, `ITaskItem` and `ITaskItem[]`. If a task accepts a parameter of a different type, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] will invoke <xref:System.Convert.ChangeType> to convert from `string` (with all property and item references expanded) to the destination type. If the conversion fails for any input parameter, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] will emit an error and will not call the task's `Execute()` method.
+
 ## Example
 
 ### Description
