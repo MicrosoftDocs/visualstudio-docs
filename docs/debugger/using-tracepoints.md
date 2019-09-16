@@ -95,7 +95,6 @@ If you wanted to print the value of counter when the iteration of the for loop c
 
 ![Conditional Expression When Changed](../debugger/media/conditionalexpressionwhenchanged.png "Conditional Expression When Changed")
 
-An important note on the "When changed" field from our tracepoint doc: [https://docs.microsoft.com/en-us/visualstudio/debugger/using-tracepoints?view=vs-2019](https://docs.microsoft.com/en-us/visualstudio/debugger/using-tracepoints?view=vs-2019)
 
 &quot;The behavior of the  **When changed**  field is different for different programming languages.
 
