@@ -56,7 +56,7 @@ Notice how to red circle changes to a diamond indicating that you have switched 
 
 ## Actions Menu
 
-This menu allows you to log a message to the Output console. Simply type whatever strings you want into the message box (no quotes necessary). If you want to display values of variables, make sure you enclose it in curly braces.
+This menu allows you to log a message to the Output window. Type the strings you want to output into the message box (no quotes necessary). If you want to display values of variables, make sure you enclose it in curly braces.
 
 For example, if we want to display the value of our counter variable in the output console we would type {counter} in the message field.
 
