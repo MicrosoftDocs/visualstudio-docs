@@ -28,7 +28,7 @@ The following example program is a simple `for` loop with a counter variable tha
 
 Summary - Click on the far-left margin next to a line of code -> Click the Gear Icon -> Check Actions Box -> Input Message -> Hit Close Button. Check Conditions box and add if you need them. You can also right-click and select  **tracepoint**  ->  **Insert tracepoint**.
 
-1. To initialize a tracepoint first click on the gutter to the left of the line number of interests.
+1. To initialize a tracepoint, first click on the gutter to the left of the line number where you want to set the tracepoint.
 
    ![Breakpoint Initialization](../debugger/media/breakpointinitialization.png "Breakpoint Initialization")
 
