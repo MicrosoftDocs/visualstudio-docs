@@ -66,7 +66,7 @@ If you click **Close** and then debug the program (**F5**), you see the followin
 
 ![Actions Message In Output Window](../debugger/media/actionsmessageinoutputwindow.png "Actions Message In Output Window")
 
-You can also use special Keywords to display some more specific information. Input the keyword exactly as shown below ($ in front of keywords and all caps).
+You can also use special keywords to display more specific information. Enter the keyword exactly as shown below (use a "$" in front of each keyword and all caps for the keyword itself).
 
 | Keyword | What is Displayed |
 | --- | --- |
