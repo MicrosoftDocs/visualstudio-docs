@@ -82,7 +82,7 @@ You can also use special keywords to display more specific information. Enter th
 
 ## Conditions menu
 
-Conditions allow you to filter your output messages, so they displayed only under certain scenarios. There are three main kinds of conditions available to you.
+Conditions allow you to filter your output messages, so they display only under certain scenarios. There are three main kinds of conditions available to you.
 
  **1. Conditional Expression**: Output message displayed only when certain conditions are met.
 
