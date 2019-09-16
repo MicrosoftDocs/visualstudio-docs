@@ -124,7 +124,7 @@ Enclose strings (such as names) in double quotes. Values can be entered without 
 
 ## Considerations
 
-While tracepoints aim to make debugging a cleaner and smoother experience, there are some considerations you should be aware of when it comes to using them.
+While tracepoints are intended to make debugging a cleaner and smoother experience, there are some considerations you should be aware of when it comes to using them.
 
 Sometimes when you inspect a property or attribute of an object, its value can change. This is not a bug caused by the tracepoint feature itself, but it is worth mentioning that using tracepoints to inspect objects does not avoid these accidental modifications.
 
