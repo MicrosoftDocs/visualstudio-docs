@@ -102,7 +102,8 @@ The behavior of the  **When changed**  option is different for different program
 
 For a more comprehensive look at valid expressions you can use while setting conditions, see [Expressions in the debugger](expressions-in-the-debugger.md)
 
-**2. Hit Count**: This condition allows you to output only after a pre-specified number of times the line the tracepoint was set on has been executed.
+### Hit count
+A hit count condition allows you to send output only after the line of code where the tracepoint is set has executed a specified number of times.
 
 For hit count, you can choose to output a message when the number of times the tracepoint line has been executed is equal to, is a multiple of, or is greater than or equal to a pre-specified value. Choose the option that best suits your needs and type an integer value in the field (ex: 5) that represents that iteration of interest.
 
