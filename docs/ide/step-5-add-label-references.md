@@ -2,8 +2,8 @@
 title: "Step 5: Add label references"
 ms.date: 11/04/2016
 ms.topic: conceptual
-dev_langs: 
-  - "csharp"
+dev_langs:
+  - "CSharp"
   - "vb"
 ms.assetid: d418350c-0396-494e-8149-71fa61b395c5
 author: TerryGLee

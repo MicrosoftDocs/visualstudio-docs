@@ -42,6 +42,8 @@
     items:
     - name: Use breakpoints
       href: using-breakpoints.md
+    - name: Use tracepoints
+      href: using-tracepoints.md
     - name: Troubleshooting breakpoints
       href: troubleshooting-breakpoints.md
   - name: Data inspection
