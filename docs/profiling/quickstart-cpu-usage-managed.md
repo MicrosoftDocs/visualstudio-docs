@@ -1,5 +1,5 @@
 ---
-title: "Analyze CPU usage data (managed code)"
+title: "Analyze CPU usage data (C#, Visual Basic)"
 description: "Measure app performance in C# and Visual Basic using the CPU Usage diagnostics tool"
 ms.custom: "mvc"
 ms.date: 08/06/2018
@@ -13,7 +13,7 @@ manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# Quickstart: Analyze CPU usage data in Visual Studio (managed code)
+# Quickstart: Analyze CPU usage data in Visual Studio (C#, Visual Basic)
 
 The Visual Studio provides many powerful features to help you analyze performance issues in your application. This topic provides a quick way to learn some of the basic features. Here, we look at the tool to identify performance bottlenecks due to high CPU usage. The Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, and for native/C++ development.
 

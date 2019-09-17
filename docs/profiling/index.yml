@@ -34,7 +34,7 @@ landingContent:
     linkLists:
       - linkListType: quickstart
         links:
-          - text: Analyze CPU usage (managed)
+          - text: Analyze CPU usage (C#, Visual Basic)
             url: quickstart-cpu-usage-managed.md
           - text: Analyze CPU usage (C++)
             url: quickstart-cpu-usage-native.md
@@ -52,10 +52,10 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Analyze resource consumption (XAML)
-            url: application-timeline.md
           - text: PerfTips
             url: perftips.md
+          - text: Analyze resource consumption (XAML)
+            url: application-timeline.md
           - text: Analyze GPU usage (Direct3D)
             url: gpu-usage.md
           - text: Analyze network usage (UWP)

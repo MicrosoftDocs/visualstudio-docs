@@ -145,7 +145,7 @@ additionalContent:
         url: /azure/devops
       - title: Measure performance
         summary: Identify bottlenecks and optimize code performance by using diagnostic tools.
-        url: profiling/index.md
+        url: profiling/index.yml
       - title: Extend
         summary: Add your own functionality to the Visual Studio IDE to improve your development experience.
         url: extensibility/index.md
