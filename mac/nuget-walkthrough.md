@@ -72,7 +72,7 @@ From the solution pad, you can view what version of a package is currently insta
 
 You will also see a notification next to the package name when a new version of a package is available, so you can decide if you may want to update it.
 
-![Notification shown when a new package version is available](media/nuget-walkthrough-PackageUpdateAvailable.png)
+![Notification shown when a new package version is available](media/nuget-walkthrough-package-update-available.png)
 
 In the menu shown, you have two options:
 
