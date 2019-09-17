@@ -23,3 +23,7 @@ Documentation warnings support writing well-documented libraries through the cor
 | Rule | Description |
 | - | - |
 | [CA1200: Avoid using cref tags with a prefix](../code-quality/ca1200.md) | The [cref](https://docs.microsoft.com/dotnet/csharp/programming-guide/xmldoc/cref-attribute) attribute in an XML documentation tag means "code reference". It specifies that the inner text of the tag is a code element, such as a type, method, or property. Avoid using `cref` tags with prefixes, because it prevents the compiler from verifying references. It also prevents the Visual Studio integrated development environment (IDE) from finding and updating these symbol references during refactorings. |
+
+## See also
+
+- [Code analysis warnings](../code-quality/code-analysis-for-managed-code-warnings.md)
