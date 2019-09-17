@@ -48,15 +48,19 @@ landingContent:
             url: beginners-guide-to-performance-profiling.md
 
   # Card (optional)
-  - title: How-to guides
+  - title: More performance tools
     linkLists:
       - linkListType: how-to-guide
         links:
           - text: Analyze resource consumption (XAML)
             url: application-timeline.md
+          - text: PerfTips
+            url: perftips.md
           - text: Analyze GPU usage (Direct3D)
             url: gpu-usage.md
           - text: Analyze network usage (UWP)
             url: network-usage.md
           - text: Analyze energy usage (UWP)
             url: analyze-energy-use-in-store-apps.md
+          - text: Performance Explorer (legacy)
+            url: performance-explorer.md
