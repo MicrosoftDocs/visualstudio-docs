@@ -154,6 +154,7 @@ f1_keywords:
   - "CA1822"
   - "CA1823"
   - "CA1824"
+  - "CA1825"
   - "CA1900"
   - "CA1901"
   - "CA1903"
@@ -408,6 +409,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1822 |[CA1822: Mark members as static](../code-quality/ca1822-mark-members-as-static.md) | Members that do not access instance data or call instance methods can be marked as static (Shared in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]). After you mark the methods as static, the compiler will emit nonvirtual call sites to these members. This can give you a measurable performance gain for performance-sensitive code. |
 | CA1823 | [CA1823: Avoid unused private fields](../code-quality/ca1823-avoid-unused-private-fields.md) | Private fields were detected that do not appear to be accessed in the assembly. |
 | CA1824 |[CA1824: Mark assemblies with NeutralResourcesLanguageAttribute](../code-quality/ca1824-mark-assemblies-with-neutralresourceslanguageattribute.md) | The NeutralResourcesLanguage attribute informs the resource manager of the language that was used to display the resources of a neutral culture for an assembly. This improves lookup performance for the first resource that you load and can reduce your working set. |
+| CA1825 |[CA1825: Avoid zero-length array allocations](../code-quality/ca1825.md) | Initializing a zero-length array leads to unnecessary memory allocation. Instead, use the statically allocated empty array instance by calling <xref:System.Array.Empty%2A?displayProperty=nameWithType>. The memory allocation is shared across all invocations of this method. |
 | CA1900 | [CA1900: Value type fields should be portable](../code-quality/ca1900-value-type-fields-should-be-portable.md) | This rule checks that structures that are declared by using explicit layout will align correctly when marshaled to unmanaged code on 64-bit operating systems. |
 | CA1901 | [CA1901: P/Invoke declarations should be portable](../code-quality/ca1901-p-invoke-declarations-should-be-portable.md) | This rule evaluates the size of each parameter and the return value of a P/Invoke, and verifies that the size of the parameter is correct when marshaled to unmanaged code on 32-bit and 64-bit operating systems. |
 | CA1903 | [CA1903: Use only API from targeted framework](../code-quality/ca1903-use-only-api-from-targeted-framework.md) | A member or type is using a member or type that was introduced in a service pack that was not included together with the targeted framework of the project. |
