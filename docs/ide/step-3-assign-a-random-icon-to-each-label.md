@@ -2,6 +2,9 @@
 title: "Step 3: Assign a random icon to each label"
 ms.date: 11/04/2016
 ms.topic: conceptual
+ms.devlang: 
+ - "csharp"
+ - "vb"
 dev_langs:
   - "CSharp"
   - "VB"

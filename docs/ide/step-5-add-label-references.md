@@ -2,6 +2,9 @@
 title: "Step 5: Add label references"
 ms.date: 11/04/2016
 ms.topic: conceptual
+ms.devlang: 
+ - "csharp"
+ - "vb"
 dev_langs:
   - "CSharp"
   - "VB"
