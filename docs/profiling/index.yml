@@ -18,7 +18,7 @@ landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
   # Card (optional)
-  - title: About deployment
+  - title: About profiling
     linkLists:
       - linkListType: overview
         links:
@@ -42,6 +42,14 @@ landingContent:
             url: beginners-guide-to-performance-profiling.md
           - text: Get started measuring memory usage
             url: beginners-guide-to-performance-profiling.md
+
+  # Card (optional)
+  - title: Concepts
+    linkLists:
+      - linkListType: concept
+        links:
+         - text: Ways to run profiling tools
+           url: running-profiling-tools-with-or-without-the-debugger.md
 
   # Card (optional)
   - title: How-to guides
