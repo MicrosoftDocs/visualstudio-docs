@@ -108,14 +108,14 @@ If none of the previous steps help you successfully install or upgrade Visual St
 
 ## Offline installations
 
-Here is a table of known issues and some workarounds that might help you when you install from a local layout.
+Here is a table of known issues and some workarounds that might help you when you create an [offline installation](create-an-offline-installation-of-visual-studio.md) and then install from a local layout.
 
 | Issue       | Item                   | Solution |
 | ----------- | ---------------------- | -------- |
 | Users do not have access to files. | permissions (ACLs) | Make sure that you adjust the permissions (ACLs) so that they grant Read access to other users  *before* you share the offline install. |
 | New workloads, components, or languages fail to install.  | `--layout`  | Make sure that you have internet access if you install from a partial layout and select workloads, components, or languages that were not downloaded previously in that partial layout. |
 
-For more information about how to resolve issues with offline installations on a network, see [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio).
+For more information about how to resolve issues with a [network installation](create-a-network-installation-of-visual-studio.md), see [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio).
 
 ## Installation logs
 
