@@ -51,6 +51,8 @@ The *.pdb* file must be generated from the same build as the *.dll* or *.exe* fi
 
 Resolution&mdash;Make sure that your build settings generate the *.pdb* file. If the *.pdb* files are not updated when the project is built, then open the project properties, select the **Build** page, choose **Advanced**, and inspect **Debug Info**.
 
+For C++ projects, ensure that the generated .pdb files have full debug information. Open the project properties and verify that **Linker** > **Debugging** > **Generate Debug Info** is set to **Generate Debug Information optimized for sharing and publishing (/DEBUG:FULL)**.
+
 If the *.pdb* and *.dll* or *.exe* files are in different places, copy the *.pdb* file to the same directory. It is also possible to configure code coverage engine to search for *.pdb* files in another location. For more information, see [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md).
 
 ### Use an instrumented or optimized binary
