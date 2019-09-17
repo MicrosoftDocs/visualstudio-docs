@@ -16,7 +16,7 @@ This refactoring applies to:
 
 - C# 
 
-**What:** Creates and adds `if` statements that check nullity of all the nullable non-checked parameters. 
+**What:** Creates and adds `if` statements that check nullity of all the nullable, non-checked parameters. 
 
 **When:** You want to quickly add null checks for all applicable method parameters.
 
