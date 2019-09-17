@@ -18,7 +18,7 @@ ms.workload:
 
 Documentation warnings support writing well-documented libraries through the correct use of [XML documentation comments](https://docs.microsoft.com/dotnet/csharp/codedoc) for externally visible APIs.
 
-## In This Section
+## In this section
 
 | Rule | Description |
 | - | - |
