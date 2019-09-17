@@ -1,10 +1,15 @@
 ---
 title: "Step 7: Keep pairs visible"
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: tutorial
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
+ms.devlang: 
+ - "csharp"
+ - "vb"
 dev_langs: 
-  - "csharp"
-  - "vb"
+  - "CSharp"
+  - "VB"
 ms.assetid: 42e1d08c-7b2e-4efd-9f47-85d6206afe35
 author: TerryGLee
 ms.author: tglee
