@@ -23,9 +23,9 @@ ms.technology: vs-installation
 
 This troubleshooting guide includes step-by-step instructions that should resolve most installation issues.
 
-## How to troubleshoot an online installation
+## Online installations
 
-The following steps are optimized for a typical online installation. For an issue that affects an offline installation, please see [How to troubleshoot an offline installation](#how-to-troubleshoot-an-offline-installation).
+The following steps are optimized for a typical online installation. For an issue that affects an offline installation, please see [How to troubleshoot an offline installation](#offline-installations).
 
 ### Step 1 - Check whether this problem is a known issue
 
@@ -76,7 +76,7 @@ In some situations, such as those related to corrupted files, the problems might
 
 ::: moniker range="vs-2017"
 
-1. Collect your setup logs. See [How to get the Visual Studio installation logs](#how-to-get-visual-studio-installation-logs) for details.
+1. Collect your setup logs. See [How to get the Visual Studio installation logs](#installation-logs) for details.
 2. Open the Visual Studio Installer, and then click **Report a problem** to open the Visual Studio Feedback tool.
 ![You can tab to the Provide Feedback button to open the feedback tool](media/report-a-problem.png)
 3. Give your problem report a title, and provide relevant details. Click **Next** to go to the **Attachments** section, and then attach the generated log file (typically, the file is at `%TEMP%\vslogs.zip`).
@@ -86,7 +86,7 @@ In some situations, such as those related to corrupted files, the problems might
 
 ::: moniker range="vs-2019"
 
-1. Collect your setup logs. See [How to get the Visual Studio installation logs](#how-to-get-visual-studio-installation-logs) for details.
+1. Collect your setup logs. See [How to get the Visual Studio installation logs](#installation-logs) for details.
 2. Open the Visual Studio Installer, and then click **Report a problem** to open the Visual Studio Feedback tool.
 ![You can tab to the Provide Feedback button to open the feedback tool](media/vs-2019/vs-installer-report-problem.png)
 3. Give your problem report a title, and provide relevant details. Click **Next** to go to the **Attachments** section, and then attach the generated log file (typically, the file is at `%TEMP%\vslogs.zip`).
@@ -106,7 +106,7 @@ As a last resort, you can [remove Visual Studio](remove-visual-studio.md) to rem
 
 If none of the previous steps help you successfully install or upgrade Visual Studio, contact us by using our [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) support option (English only) for further assistance.
 
-## How to troubleshoot an offline installation
+## Offline installations
 
 Here is a table of known issues and some workarounds that might help you when you install from a local layout.
 
@@ -115,7 +115,7 @@ Here is a table of known issues and some workarounds that might help you when yo
 | Users do not have access to files. | permissions (ACLs) | Make sure that you adjust the permissions (ACLs) so that they grant Read access to other users  *before* you share the offline install. |
 | New workloads, components, or languages fail to install.  | `--layout`  | Make sure that you have internet access if you install from a partial layout and select workloads, components, or languages that were not downloaded previously in that partial layout. |
 
-## How to get Visual Studio installation logs
+## Installation logs
 
 Setup logs are needed to troubleshoot most installation issues. When you submit an issue by using [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) in the Visual Studio Installer, these logs are automatically included in your report.
 
@@ -131,7 +131,7 @@ To collect the logs:
 > [!NOTE]
 > The tool must be run under the same user account that the failed installation was run under. If you are running the tool from a different user account, set the `–user:<name>` option to specify the user account under which the failed installation was run. Run `Collect.exe -?` from an administrator command prompt for additional options and usage information.
 
-## Get live help
+## Live help
 
 If the solutions listed in this troubleshooting guide do not help you to successfully install or upgrade Visual Studio, use our [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) support option (English only) for further assistance.
 

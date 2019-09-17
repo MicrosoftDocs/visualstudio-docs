@@ -2,8 +2,8 @@
 title: "Step 4: Add a click event handler to each label"
 ms.date: 11/04/2016
 ms.topic: conceptual
-dev_langs: 
-  - "csharp"
+dev_langs:
+  - "CSharp"
   - "vb"
 ms.assetid: 16bdbc7c-4129-411d-bace-f4a3e5375975
 author: TerryGLee

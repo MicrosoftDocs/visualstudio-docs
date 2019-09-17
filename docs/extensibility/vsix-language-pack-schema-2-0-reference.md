@@ -8,11 +8,9 @@ helpviewer_keywords:
   - "localize package"
   - "localize extension"
 ms.assetid: 2a2932bc-cdbe-4d32-91fa-a3e0474f9098
-ms.author: "dagriffe"
-author: "dgriffen"
+ms.author: zorio
+author: zoeyr
 manager: jillfra
-ms.workload:
-  - "dagriffe"
 ---
 # VSIX language pack schema 2.0 reference
 

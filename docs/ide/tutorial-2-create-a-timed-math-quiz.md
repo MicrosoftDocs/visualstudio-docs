@@ -1,8 +1,12 @@
 ---
 title: "Tutorial 2: Create a timed math quiz"
 ms.date: 11/04/2016
-ms.topic: conceptual
 ms.assetid: d7165d08-ace3-457d-b57d-fb8f80760a6f
+ms.topic: tutorial
+ms.technology: vs-ide-general
+ms.devlang:
+ - "csharp"
+ - "vb"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -21,7 +25,7 @@ In this tutorial, you build a quiz in which the quiz taker must answer four rand
 
 - Perform basic arithmetic operations in code.
 
-When you finish, your quiz will look like the following picture, except with different numbers:
+When you finish, your quiz will look similar to the following screenshot, except with different numbers:
 
 ![Math quiz with four problems](../ide/media/express_finishedquiz.png)
 
@@ -30,7 +34,7 @@ When you finish, your quiz will look like the following picture, except with dif
 To download a completed version of the quiz, see [Complete math quiz tutorial sample](https://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).
 
 > [!NOTE]
-> This tutorial covers both Visual C# and Visual Basic, so focus on the information that's specific to the programming language that you're using.
+> This tutorial covers both C# and Visual Basic, so focus on the information that's specific to the programming language that you're using.
 
 ## Related topics
 

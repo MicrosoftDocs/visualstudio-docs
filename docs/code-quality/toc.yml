@@ -332,8 +332,17 @@
           href: ca1064-exceptions-should-be-public.md
         - name: "CA1065: Do not raise exceptions in unexpected locations"
           href: ca1065-do-not-raise-exceptions-in-unexpected-locations.md
+        - name: "CA1068: CancellationToken parameters must come last"
+          href: ca1068.md
         - name: "CA2210: Assemblies should have valid strong names"
           href: ca2210-assemblies-should-have-valid-strong-names.md
+      - name: Documentation warnings
+        items:
+        - name: Overview
+          displayName: "documentation warnings"
+          href: documentation-warnings.md
+        - name: "CA1200: Avoid using cref tags with a prefix"
+          href: ca1200.md
       - name: Globalization warnings
         items:
         - name: Overview
@@ -692,6 +701,8 @@
           href: ca3011-review-code-for-dll-injection-vulnerabilities.md
         - name: "CA3012: Review code for regex injection vulnerabilities"
           href: ca3012-review-code-for-regex-injection-vulnerabilities.md
+        - name: "CA3061: Do not add schema by URL"
+          href: ca3061.md
         - name: "CA3075: Insecure DTD Processing"
           href: ca3075-insecure-dtd-processing.md
         - name: "CA3076: Insecure XSLT Script Execution"
@@ -702,12 +713,30 @@
           href: ca3147-mark-verb-handlers-with-validateantiforgerytoken.md
         - name: "CA5361: Do not disable SChannel use of strong crypto"
           href: ca5361.md
+        - name: "CA5363: Do not disable request validation"
+          href: ca5363.md
         - name: "CA5364: Do not use deprecated security protocols"
           href: ca5364.md
+        - name: "CA5369: Use XmlReader for Deserialize"
+          href: ca5369.md
+        - name: "CA5370: Use XmlReader for validating reader"
+          href: ca5370.md
+        - name: "CA5371: Use XmlReader for schema read"
+          href: ca5371.md
+        - name: "CA5372: Use XmlReader for XPathDocument"
+          href: ca5372.md
+        - name: "CA5373: Do not use obsolete key derivation function"
+          href: ca5373.md
         - name: "CA5378: Do not disable ServicePointManagerSecurityProtocols"
           href: ca5378.md
+        - name: "CA5380: Do not add certificates to root store"
+          href: ca5380.md
+        - name: "CA5381: Ensure certificates are not added to root store"
+          href: ca5381.md
         - name: "CA5386: Avoid hardcoding SecurityProtocolType value"
           href: ca5386.md
+        - name: "CA5389: Do not add archive item's path to the target file system path"
+          href: ca5389.md
         - name: "CA5397: Do not use deprecated SslProtocols values"
           href: ca5397.md
         - name: "CA5398: Avoid hardcoded SslProtocols values"

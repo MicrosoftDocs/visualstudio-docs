@@ -8,6 +8,8 @@ metadata:
    description: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for any platform or device.
    ms.topic: hub-page
    monikerRange: ">=vs-2017"
+   f1_keywords:
+     - MSDNSTART
 
 highlightedContent:
    items:

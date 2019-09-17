@@ -1,9 +1,14 @@
 ---
 title: "Step 7: Add multiplication and division problems"
 ms.date: 11/04/2016
-ms.topic: conceptual
-dev_langs: 
-  - "csharp"
+ms.topic: tutorial
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
+ms.devlang:
+ - "csharp"
+ - "vb"
+dev_langs:
+  - "CSharp"
   - "vb"
 ms.assetid: e638959e-f6a4-4eb4-b2e9-f63b7855cf8f
 author: TerryGLee
@@ -13,7 +18,13 @@ ms.workload:
   - "multiple"
 ---
 # Step 7: Add multiplication and division problems
+
 In the seventh part of this tutorial, you'll add multiplication and division problems, but first think about how to make that change. Consider the initial step, which involves storing values.
+
+> [!NOTE]
+> This topic is part of a tutorial series about basic coding concepts.
+> - For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
+> - To download a completed version of the code, see [Complete math quiz tutorial sample](https://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).
 
 ## To add multiplication and division problems
 
@@ -21,6 +32,9 @@ In the seventh part of this tutorial, you'll add multiplication and division pro
 
      [!code-vb[VbExpressTutorial3Step7#15](../ide/codesnippet/VisualBasic/step-7-add-multiplication-and-division-problems_1.vb)]
      [!code-csharp[VbExpressTutorial3Step7#15](../ide/codesnippet/CSharp/step-7-add-multiplication-and-division-problems_1.cs)]
+
+     > [!IMPORTANT]
+     > Use the programming language control at the top right of this page to view either the C# code snippet or the Visual Basic code snippet.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
 
 2. As you did before, modify the `StartTheQuiz()` method to fill in random numbers for the multiplication and division problems.
 
@@ -43,11 +57,11 @@ In the seventh part of this tutorial, you'll add multiplication and division pro
 
      Quiz takers must answer four problems to complete the quiz, as the following illustration shows.
 
-     ![Math quiz with four problems](../ide/media/express_finishedquiz.png)
-**Math quiz** with four problems
+     ![Math quiz with four problems](../ide/media/express_finishedquiz.png)<br/>
+***Math quiz*** *with four problems*
 
 ## To continue or review
 
-- To go to the next tutorial step, see [Step 8: Customize the quiz](../ide/step-8-customize-the-quiz.md).
+- To go to the next tutorial step, see **[Step 8: Customize the quiz](../ide/step-8-customize-the-quiz.md)**S.
 
 - To return to the previous tutorial step, see [Step 6: Add a subtraction problem](../ide/step-6-add-a-subtraction-problem.md).
