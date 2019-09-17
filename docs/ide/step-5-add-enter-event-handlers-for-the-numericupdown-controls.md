@@ -9,14 +9,11 @@ ms.devlang:
  - "vb"
 dev_langs:
   - "CSharp"
-  - "vb"
+  - "VB"
 ms.assetid: 45a99a5d-c881-4298-b74d-adb481dec5ee
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-dev_langs:
- - CSharp
- - VB
 ms.workload:
   - "multiple"
 ---
