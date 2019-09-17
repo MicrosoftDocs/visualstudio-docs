@@ -24,6 +24,10 @@ landingContent:
         links:
           - text: First look at profiling tools
             url: profiling-feature-tour.md
+      - linkListType: concept
+        links:
+         - text: Ways to run profiling tools
+           url: running-profiling-tools-with-or-without-the-debugger.md
 
   # Card (optional)
   - title: Get started
@@ -42,14 +46,6 @@ landingContent:
             url: beginners-guide-to-performance-profiling.md
           - text: Get started measuring memory usage
             url: beginners-guide-to-performance-profiling.md
-
-  # Card (optional)
-  - title: Concepts
-    linkLists:
-      - linkListType: concept
-        links:
-         - text: Ways to run profiling tools
-           url: running-profiling-tools-with-or-without-the-debugger.md
 
   # Card (optional)
   - title: How-to guides
