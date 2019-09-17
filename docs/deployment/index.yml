@@ -56,7 +56,7 @@ landingContent:
             url: building-clickonce-applications-from-the-command-line.md
 
     # Card
-  - title: Deploy .NET DLLs to NuGet.org
+  - title: Deploy .NET packages to NuGet.org
     linkLists:
       - linkListType: tutorial
         links:
