@@ -55,6 +55,16 @@ landingContent:
           - text: Build ClickOnce applications from the Command line
             url: building-clickonce-applications-from-the-command-line.md
 
+    # Card
+  - title: Deploy .NET DLLs to NuGet.org
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Publish to NuGet.org (.NET Standard)
+            url: /nuget/quickstart/create-and-publish-a-package-using-visual-studio
+          - text: Publish to NuGet.org (.NET Framework)
+            url: /nuget/quickstart/create-and-publish-a-package-using-visual-studio-net-framework
+
   # Card
   - title: Deploy ASP.NET apps
     linkLists:
