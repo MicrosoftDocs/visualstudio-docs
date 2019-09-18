@@ -48,7 +48,7 @@ landingContent:
         links:
           - text: .NET Core
             url: /dotnet/core/deploying/deploy-with-vs
-          - text: Package a desktop app as UWP
+          - text: Package a desktop app for Windows Store
             url: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
           - text: Deploy a desktop app using ClickOnce
             url: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
@@ -88,7 +88,7 @@ landingContent:
         links:
           - text: Deploy using a Setup project (C/C++)
             url: /cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project.md
-          - text: Package a desktop app as UWP
+          - text: Package a desktop app for Windows Store
             url: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
           - text: Deploy using ClickOnce (C++/CLR)
             url: /cpp/windows/clickonce-deployment-for-visual-cpp-applications
