@@ -5,7 +5,7 @@ summary: Learn how to deploy applications, services, and components using Visual
 
 metadata:
   title: Deployment in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Learn how use Visual Studio to deploy applications, services, and components.
+  description: Learn how to use Visual Studio to deploy applications, services, and components.
   ms.topic: landing-page
   author: mikejo5000
   ms.author: mikejo
