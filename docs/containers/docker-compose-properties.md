@@ -36,7 +36,7 @@ The following table shows the MSBuild properties available for Docker Compose pr
 |DockerLaunchAction| dcproj | Specifies the launch action to perform on F5 or Ctrl+F5.  Allowed values are None, LaunchBrowser, and LaunchWCFTestClient|None|
 |DockerLaunchBrowser| dcproj | Indicates whether to launch the browser. Ignored if DockerLaunchAction is specified. | False |
 |DockerServiceName| dcproj|If DockerLaunchAction or DockerLaunchBrowser are specified, then DockerServiceName is the name of the service that should be launched.  Use this property to determine which of the potentially many projects that a docker-compose file can reference will be launched.|-|
-|DockerServiceUrl| dcproj | The URL to use when launching the browser.  Valid replacement tokens are "{ServiceIPAddress}", "{ServicePort}", and "{Sheme}".  For example: {Scheme}://{ServiceIPAddress}:{ServicePort}|-|
+|DockerServiceUrl| dcproj | The URL to use when launching the browser.  Valid replacement tokens are "{ServiceIPAddress}", "{ServicePort}", and "{Scheme}".  For example: {Scheme}://{ServiceIPAddress}:{ServicePort}|-|
 |DockerTargetOS| dcproj | The target OS used when building the Docker image.|-|
 
 > [!NOTE]
