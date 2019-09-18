@@ -36,7 +36,7 @@ If you're ready to dive into more coding, one of the following language-specific
 
 - [Use Visual Studio to create your first Node.js app](../ide/quickstart-nodejs.md)
 
-- [Get started with C++ in Visual Studio](../ide/getting-started-with-cpp-in-visual-studio.md)
+- [Use Visual Studio to create your first C++ console app](/cpp/get-started/tutorial-console-cpp)
 
 ## See also
 

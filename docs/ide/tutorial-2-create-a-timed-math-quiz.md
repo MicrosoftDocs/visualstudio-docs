@@ -4,9 +4,6 @@ ms.date: 11/04/2016
 ms.assetid: d7165d08-ace3-457d-b57d-fb8f80760a6f
 ms.topic: tutorial
 ms.technology: vs-ide-general
-ms.devlang:
- - "csharp"
- - "vb"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
