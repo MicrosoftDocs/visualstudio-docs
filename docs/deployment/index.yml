@@ -76,12 +76,8 @@ landingContent:
             url: /aspnet/core/tutorials/publish-to-azure-webapp-using-vsd
           - text: Import publish settings and deploy to IIS
             url: tutorial-import-publish-settings-iis.md
-          - text: Import publish settings and deploy to Azure App Service
-            url: tutorial-import-publish-settings-azure.md
           - text: Publish with Git
             url: /aspnet/core/host-and-deploy/azure-apps/azure-continuous-deployment
-          - text: Publish to Kubernetes
-            url: ../containers/tutorial-kubernetes-tools.md
 
   # Card
   - title: Deploy C++ apps
@@ -92,8 +88,6 @@ landingContent:
             url: /cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project.md
           - text: Package a desktop app for Windows Store
             url: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
-          - text: Deploy using ClickOnce (C++/CLR)
-            url: /cpp/windows/clickonce-deployment-for-visual-cpp-applications
 
   # Card
   - title: Deploy Python apps
