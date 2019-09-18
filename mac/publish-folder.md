@@ -2,7 +2,7 @@
 title: Publish to a folder
 ms.date: 04/02/2019
 helpviewer_keywords:
-  - "deployment, website"
+  - "deployment, website, console, publish"
 ms.assetid: e963fb4b-6d32-4d45-86bb-ef7e4d3028b0
 author: sayedihashimi
 ms.author: sayedha
