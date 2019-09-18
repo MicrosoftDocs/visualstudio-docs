@@ -172,3 +172,7 @@ Congratulations on completing this tutorial! We hope you learned some basics abo
 
 > [!div class="nextstepaction"]
 > [Create a user interface](/windows/uwp/design/basics/xaml-basics-ui)
+
+## See also
+
+[Get UWP app samples](/windows/uwp/get-started/get-uwp-app-samples)
