@@ -1,6 +1,6 @@
 ---
 title: "Use tracepoints in the debugger | Microsoft Docs"
-ms.date: "9/4/2019"
+ms.date: "9/17/2019"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "tracepoints, about tracepoints"
@@ -12,12 +12,12 @@ ms.workload:
 ---
 
 
-# Use Tracepoints in the Visual Studio debugger
+# Use tracepoints in the Visual Studio debugger
 
 Tracepoints allow you to log information to the Output window under configurable conditions without modifying or stopping your
 code. This feature is supported for both managed and native code as well as several languages such as JavaScript and C#.
 
-## Let&#39;s Take an Example
+## Let&#39;s take an example
 
 The following example program is a simple `for` loop with a counter variable that increases by one every time the loop runs another iteration.
 
@@ -93,7 +93,6 @@ If you want to print the value of counter when the iteration of the `for` loop c
 
 ![Conditional Expression When Changed](../debugger/media/conditionalexpressionwhenchanged.png "Conditional Expression When Changed")
 
-
 The behavior of the  **When changed**  option is different for different programming languages.
 
 - For native code, the debugger doesn't consider the first evaluation of the condition to be a change, so doesn't hit the tracepoint on the first evaluation.
@@ -130,3 +129,11 @@ While tracepoints are intended to make debugging a cleaner and smoother experien
 Sometimes when you inspect a property or attribute of an object, its value can change. This is not a bug caused by the tracepoint feature itself, but it is worth mentioning that using tracepoints to inspect objects does not avoid these accidental modifications.
 
 The way that expressions are evaluated in the **Action** message box may be different than the language you are currently using for development. For example, to output a string you do not need to wrap a message in quotes even if you normally would while using `Debug.WriteLine()` or `console.log()`. Also, the curly brace syntax (`{ }`) to output expressions may also be different than the convention for outputting values in your development language. (However, the contents within the curly braces (`{ }`) should still be written using your development language’s syntax).
+
+## See also
+
+- [What is debugging?](../debugger/what-is-debugging.md)
+- [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md)
+- [First look at debugging](../debugger/debugger-feature-tour.md)
+- [Expressions in the debugger](expressions-in-the-debugger.md)
+- [Use breakpoints](../debugger/using-breakpoints.md)

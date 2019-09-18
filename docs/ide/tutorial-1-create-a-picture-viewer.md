@@ -5,9 +5,6 @@ ms.assetid: 3071d6df-2b2f-4e95-ab68-bef727323136
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang:
- - "csharp"
- - "vb"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -65,4 +62,4 @@ To begin the tutorial, start with **[Step 1: Create a Windows Forms application 
 
 * [More C# tutorials](/visualstudio/get-started/csharp/)
 * [Visual Basic tutorials](/visualstudio/get-started/visual-basic/)
-* [C++ tutorials](../ide/getting-started-with-cpp-in-visual-studio.md)
+* [C++ tutorials](/cpp/get-started/tutorial-console-cpp)

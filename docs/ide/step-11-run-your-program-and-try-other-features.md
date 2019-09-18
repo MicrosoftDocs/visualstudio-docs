@@ -5,9 +5,6 @@ ms.assetid: 656614d0-4fe7-4a67-8edc-c10919377d09
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang:
- - "csharp"
- - "vb"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -57,4 +54,4 @@ To return to the previous tutorial step, see [Step 10: Write code for additional
 
 * [More C# tutorials](/visualstudio/get-started/csharp/)
 * [More Visual Basic tutorials](/visualstudio/get-started/visual-basic/)
-* [C++ tutorial](../ide/getting-started-with-cpp-in-visual-studio.md)
+* [C++ tutorial](/cpp/get-started/tutorial-console-cpp)

@@ -5,9 +5,6 @@ ms.assetid: 185cf370-ab39-4ac0-b6bc-601d5b95a4a2
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang:
- - "csharp"
- - "vb"
 dev_langs:
   - "CSharp"
   - "VB"
