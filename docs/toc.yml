@@ -139,7 +139,7 @@
     displayName: Feature tour
     href: ide/quickstart-ide-orientation.md
   - name: "C++: Create a console app"
-    href: ide/getting-started-with-cpp-in-visual-studio.md
+    href: /cpp/get-started/tutorial-console-cpp
   - name: "Python: Create a web app"
     href: ide/quickstart-python.md
   - name: "Node.js: Create a web app"

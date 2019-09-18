@@ -84,6 +84,6 @@ For JavaScript-specific editor options, see [JavaScript editor options](../ide/r
 
 - [Source editor (Visual Studio for Mac)](/visualstudio/mac/source-editor)
 - [Visual Studio IDE](../get-started/visual-studio-ide.md)
-- [Get started with C++ in Visual Studio](../ide/getting-started-with-cpp-in-visual-studio.md)
+- [Get started with C++ in Visual Studio](/cpp/get-started/tutorial-console-cpp)
 - [Get started with C# and ASP.NET in Visual Studio](../get-started/csharp/tutorial-aspnet-core.md)
 - [Get started with Python in Visual Studio](../ide/quickstart-python.md)
