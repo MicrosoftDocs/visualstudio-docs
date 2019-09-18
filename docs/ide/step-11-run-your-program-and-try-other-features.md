@@ -57,4 +57,4 @@ To return to the previous tutorial step, see [Step 10: Write code for additional
 
 * [More C# tutorials](/visualstudio/get-started/csharp/)
 * [More Visual Basic tutorials](/visualstudio/get-started/visual-basic/)
-* [C++ tutorial](../ide/getting-started-with-cpp-in-visual-studio.md)
+* [C++ tutorial](/cpp/get-started/tutorial-console-cpp)
