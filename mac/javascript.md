@@ -12,7 +12,7 @@ ms.assetid: 61432695-5B12-4257-B250-48D37EED106D
 
 Visual Studio for Mac provides support for JavaScript and TypeScript through syntax highlighting, code formatting, and IntelliSense.
 
-![typescript editor support](https://msdnshared.blob.core.windows.net/media/2018/03/TypeScript-editor.gif)
+![typescript editor support](/media/tsjseditor-2019.gif)
 
 For more information on writing JavaScript, see to the [Writing JavaScript Code](/scripting/javascript/writing-javascript-code) guides.
 
@@ -36,7 +36,7 @@ JavaScript intellisense in Visual Studio for Mac can be based on type inference,
 - **JSDoc** – There are times when type inference doesn't provide the correct type information. In these cases, the type information can be provided explicitly by [JSDoc](https://jsdoc.app/about-getting-started.html) annotations. For more information, see Visual Studio's section on [IntelliSense based on JSDoc](/visualstudio/ide/javascript-intellisense#intellisense-based-on-jsdoc)
 - **TypeScript declaration files** – `.d.ts` files are used to provide values for JavaScript IntelliSense. Types declared in that file can be used as types on JSDoc comments. For more information, see Visual Studio's section on [IntelliSense based on TypeScript declaration files](/visualstudio/ide/javascript-intellisense#intellisense-based-on-typescript-declaration-files)
 
-    ![adding a typescript definition file](media/javascript-image3.png)
+    ![adding a typescript definition file](media/javascript-type-intellisense-2019.gif)
 
 ## See also
 
