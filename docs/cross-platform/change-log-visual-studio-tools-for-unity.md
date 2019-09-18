@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows) | Microsoft Docs"
 ms.custom: ""
-ms.date: "07/29/2019"
+ms.date: "09/18/2019"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
@@ -14,6 +14,89 @@ ms.workload:
 # Change log (Visual Studio Tools for Unity, Windows)
 
 Visual Studio Tools for Unity change log.
+
+## 4.3.3.0
+
+Released September 23, 2019
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed error and warning reporting for lightweight builds.
+
+## 4.3.2.0
+
+Released September 16, 2019
+
+### New Features
+
+- **Integration:**
+
+  - We've deepened the understanding that Visual Studio has for Unity projects by adding new diagnostics specific to Unity. We've also made the IDE smarter by suppressing general C# diagnostics that don't apply to Unity projects. For example, the IDE won't show a quick-fix to change an inspector variable to `readonly` which would prevent you from modifying the variable in the Unity Editor.
+    - `UNT0001`: Unity messages are called by the runtime even if they are empty, do not declare them to avoid uncesseray processing by the Unity runtime.
+    - `UNT0002`: Tag comparison using string equality is slower than the built-in CompareTag method.
+    - `UNT0003`: Usage of the generic form of GetComponent is preferred for type safety.
+    - `UNT0004`: Update message is frame-rate dependent, and should use Time.deltaTime instead of Time.fixedDeltaTime.
+    - `UNT0005`: FixedUpdate message is frame-rate independent, and should use Time.fixedDeltaTime instead of Time.deltaTime.
+    - `UNT0006`: An incorrect method signature was detected for this Unity message.
+    - `UNT0007`: Unity overrides the null comparison operator for Unity objects which is incompatible with null coalescing.
+    - `UNT0008`: Unity overrides the null comparison operator for Unity objects which is incompatible with null propagation.
+    - `UNT0009`: When applying the InitializeOnLoad attribute to a class, you need to provide a static constructor. InitializeOnLoad attribute ensures that it will be called as the editor launches.
+    - `UNT0010`: MonoBehaviours should only be created using AddComponent(). MonoBehaviour is a component, and needs to be attached to a GameObject.
+    - `UNT0011`: ScriptableObject should only be created using CreateInstance(). ScriptableObject needs to be created by the Unity engine to handle Unity message methods.
+    - `USP0001` for `IDE0029`: Unity objects should not use null coalescing.
+    - `USP0002` for `IDE0031`: Unity objects should not use null propagation.
+    - `USP0003` for `IDE0051`: Unity messages are invoked by the Unity runtime.
+    - `USP0004` for `IDE0044`: Fields with a SerializeField attribute should not be made readonly.
+
+## 4.3.1.0
+
+Released September 4, 2019
+
+### New Features
+
+- **Evaluation:**
+
+  - Added support for better type display, i.e. `List<object>` instead of `List'1[[System.Object, <corlib...>]]`.
+
+  - Added support for pointer member access, i.e. `p->data->member`.
+
+  - Added support for implicit conversions in array initializers, i.e. `new byte [] {1,2,3,4}`.
+
+## 4.3.0.0
+
+Released August 13, 2019
+
+### New Features
+
+- **Debugger:**
+
+  - Added support for MDS protocol 2.51.
+
+- **Integration:**
+
+  - Improved the "Attach To Unity instance" window with sort, search and refresh features. PID is now displayed even for local players (by querying listening sockets on the system to retrieve the owning process).
+
+  - Added support for asmdef files.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed handling of malformed messages while communicating with Unity Players.
+
+- **Evaluation:**
+
+  - Fixed handling of namespaces in expressions.
+
+  - Fixed inspection with IntPtr types.
+
+  - Fixed evaluation of pseudo identifiers (like $exception).
+
+  - Prevent crash when dereferencing invalid addresses.  
+
+  - Fixed issue with unloaded appdomains.
 
 ## 4.2.0.1
 
@@ -73,7 +156,7 @@ Released May 21, 2019
 
   - Updated project name extraction mechanism with Unity 2019.x.
 
-  - Added support for Unity packages in the UPE. Only Referenced packages (using manifest.json in the ```Packages``` folder) and Local packages (embedded in the ```Packages``` folder) are visible.
+  - Added support for Unity packages in the UPE. Only Referenced packages (using manifest.json in the `Packages` folder) and Local packages (embedded in the `Packages` folder) are visible.
 
 - **Project Generation:**
 
@@ -83,7 +166,7 @@ Released May 21, 2019
 
   - Added support for alias-qualified names (only the global namespace for now). So the expression evaluator is now accepting types using the form global::namespace.type.
 
-  - Added support for ```pointer[index]``` form, which is semantically identical to pointer dereference ```*(pointer+index)``` form.
+  - Added support for `pointer[index]` form, which is semantically identical to pointer dereference `*(pointer+index)` form.
 
 ### Bug fixes
 
@@ -123,7 +206,7 @@ Released February 13, 2019
 
   - Added support to properly detect Unity processes during installation and allow setup engine to better handle file locks.
 
-  - Updated the ScriptableObject API.
+  - Updated the `ScriptableObject` API.
 
 ## 4.0.0.3
 
@@ -133,13 +216,13 @@ Released January 31, 2019
 
 - **Project Generation:**
 
-  - Public and serialized fields will no longer cause warnings. We've auto-suppressed the CS0649 and IDE0051 compiler warnings in Unity projects that created these messages.
+  - Public and serialized fields will no longer cause warnings. We've auto-suppressed the `CS0649` and `IDE0051` compiler warnings in Unity projects that created these messages.
 
 - **Integration:**
 
   - Improved the user experience for displaying Unity editor and player instances (windows are now resizable, use uniform margins and display a resizing grip). Added Process-Id information for Unity editors.
 
-  - Updated the MonoBehaviour API.
+  - Updated the `MonoBehaviour` API.
 
 - **Evaluation:**
 
