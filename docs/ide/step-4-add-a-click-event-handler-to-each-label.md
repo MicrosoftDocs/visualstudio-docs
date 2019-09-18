@@ -4,9 +4,6 @@ ms.date: 11/04/2016
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang: 
- - "csharp"
- - "vb"
 dev_langs:
   - "CSharp"
   - "vb"
