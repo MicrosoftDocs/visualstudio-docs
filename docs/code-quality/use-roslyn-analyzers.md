@@ -83,11 +83,11 @@ Setting a rule's severity in an EditorConfig file takes precedence over any seve
    ```
 
 > [!NOTE]
-> For IDE code-style analyzers, you can also configure them in an EditorConfig file using a different syntax, for example, `dotnet_style_qualification_for_field = false:suggestion`. However, if you set a severity using the `dotnet_diagnostic` syntax, it takes precedence. For more information, see [.NET coding convention settings for EditorConfig](../ide/editorconfig-code-style-settings-reference.md).
+> For IDE code-style analyzers, you can also configure them in an EditorConfig file using a different syntax, for example, `dotnet_style_qualification_for_field = false:suggestion`. However, if you set a severity using the `dotnet_diagnostic` syntax, it takes precedence. For more information, see [Language conventions for EditorConfig](../ide/editorconfig-language-conventions.md).
 
 #### Automatically configure rule severity
 
-Visual Studio provides a convenient way to configure a rule's severity from the [light bulb](../ide/quick-actions.md) menu.
+Visual Studio provides a convenient way to configure a rule's severity from the [Quick Actions](quick-actions.md) light bulb menu.
 
 1. After a violation occurs, hover over the violation squiggle in the editor and open the light bulb menu. Or, put your cursor on the line and press **Ctrl**+**.** (period).
 
