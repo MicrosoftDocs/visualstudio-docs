@@ -38,7 +38,7 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
 5. An alert will appear asking you to acknowledge the privacy and license terms. Follow the links to read them, then press **Continue** if you agree:
 
-    [![Follow the links to the privacy and terms, then continue if you agree](media/install-privacy-sml.png)](media/install-privacy.png#lightbox)
+    [![Follow the links to the privacy and terms, then continue if you agree](media/install-privacy.png)](media/install-privacy.png#lightbox)
 
 6. The list of available workloads is displayed. Select the components you wish to use:
 
