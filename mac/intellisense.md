@@ -38,16 +38,6 @@ By clicking on any of the icons, or by pressing the corresponding hotkeys, the c
 
 ![Intellisense Type Filtering](media/intellisense-typefiltering.gif)
 
-## Show Import Items
-
-By default, IntelliSense completion will only display completions from libraries which have been imported into your project. For example, if you do not have `System.Collections.Generic` imported via `using` then you would not have a completion for `List<>`. In order to display completions from libraries that are not imported, you must enable **Show Import Items** within the Preferences for Visual Studio for Mac. This setting can be found under **Preferences > Text Editor > IntelliSense**:
-
-![IntelliSense Show Import Items](media/intellisense-showimport.png)
-
-Once **Show Import Items** is enabled, the completion list will include completions that you have not yet imported. Upon selecting an item which corresponds to an undeclared library, the `using` statement for that library will automatically be added to the header of the code file. The name of the library to which the completion belongs is also listed along with the completion itself.
-
-![Show Import Items List](media/intellisense-importaction.png)
-
 ## Parameter Window
 
 Another feature of IntelliSense is the ability to provide a parameter list where appropriate. The parameter list provides details of the method signatures for the code being called. By clicking on the up/down arrows within the signature, you can cycle through each of the available parameter signatures to determine the most appropriate for your needs. In addition to the details of the types of data allowed, there may also be a description as defined in the target method via XML comments.

@@ -32,6 +32,7 @@
 ## [Editor Features](source-editor.md)
 ## [Refactoring](refactoring.md)
 ## [IntelliSense](intellisense.md)
+## [Show Import Items](showimports.md)
 ## [Comments](comments.md)
 ## [Editor Behavior](editor-behavior.md)
 ## [Task Comments](task-comments.md)
