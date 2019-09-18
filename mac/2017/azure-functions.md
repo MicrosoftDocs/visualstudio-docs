@@ -4,7 +4,6 @@ description: "Using Azure functions in Visual Studio for Mac."
 author: conceptdev
 ms.author: crdun
 ms.date: 05/06/2018
-ms.topic: article
 ms.technology: vs-ide-install
 ms.assetid: 25CD47A4-5B32-4734-8EF3-E24A02AABF29
 ---

@@ -56,7 +56,7 @@ Specifies whether Visual Studio sets the adjustment to the visual experience aut
 ::: moniker range="vs-2017"
 
 > [!TIP]
-> Windows 10 has a setting that says **Let Windows try to fix apps so they're not blurry**. Turning that setting **on** is recommended if Visual Studio appears blurry on your monitor. Consider upgrading to [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019), which has significantly improved display clarity because it is a per-monitor dots per inch aware application.
+> Windows 10 has a setting that says **Let Windows try to fix apps so they're not blurry**. Turning that setting **on** is recommended if Visual Studio appears blurry on your monitor. Consider upgrading to [Visual Studio 2019](https://visualstudio.microsoft.com/downloads), which has significantly improved display clarity because it is a per-monitor dots per inch aware application.
 
 ::: moniker-end
 
