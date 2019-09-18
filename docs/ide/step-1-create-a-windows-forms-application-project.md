@@ -5,9 +5,6 @@ ms.assetid: 16ac2422-e720-4e3a-b511-bc2a54201a86
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang:
- - "csharp"
- - "vb"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
