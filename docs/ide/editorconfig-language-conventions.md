@@ -68,7 +68,7 @@ To change the code style convention:
 
    ![Configure code style setting](media/vs-2019/configure-code-style-setting.png)
 
-   Visual Studio adds or modifies the configuration setting in the EditorConfig file as necessary.
+   Visual Studio adds or modifies the configuration setting in the EditorConfig file, as shown in the preview box.
 
 To change the severity of the code style violation, follow the same steps, but choose **Configure \<rule ID> severity** instead of **Configure \<rule ID> code style**. For more information, see [Automatically configure rule severity](../code-quality/use-roslyn-analyzers.md#automatically-configure-rule-severity).
 

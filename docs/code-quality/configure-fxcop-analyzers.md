@@ -19,7 +19,9 @@ The [FxCop analyzers package](install-fxcop-analyzers.md) consists of the most i
 >
 > ![Add editorconfig file to project in Visual Studio](media/add-editorconfig-file.png)
 
-The remainder of this article discusses general syntax for options that refine where FxCop rules are applied. For a list of available refining options, see [Rule scope options for FxCop analyzers](fxcop-analyzer-options.md). For information about configuring a rule's severity (for example, whether it's an error or a warning), see [Set rule severity in an EditorConfig file](use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file). Or, you can choose one of the built-in [rule sets](analyzer-rule-sets.md) to quickly enable or disable a category of rules.
+For information about configuring a rule's severity (for example, whether it's an error or a warning), see [Set rule severity in an EditorConfig file](use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file). Or, you can choose one of the built-in [rule sets](analyzer-rule-sets.md) to quickly enable or disable a category of rules.
+
+The remainder of this article discusses general syntax for the [options that refine](fxcop-analyzer-options.md) where FxCop rules are applied.
 
 > [!NOTE]
 > You cannot configure legacy FxCop rules by using an EditorConfig file. For information about the differences between legacy analysis and FxCop analyzers, see [FxCop analyzers FAQ](fxcop-analyzers-faq.md).

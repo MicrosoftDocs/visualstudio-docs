@@ -53,7 +53,7 @@ The following table shows the different severity options:
 | None | `none` | Suppressed completely. | Suppressed completely. |
 | Default | `default` | Corresponds to the default severity of the rule. To determine what the default value for a rule is, look in the Properties window. | Corresponds to the default severity of the rule. |
 
-The following screenshot of the code editor shows three different violations with different severities. Notice the color of the squiggly, as well as the small box in the scroll bar on the right.
+The following screenshot of the code editor shows three different violations with different severities. Notice the color of the squiggle and the small, colored square in the scroll bar on the right.
 
 ![Error, warning, and info violation in the code editor](media/diagnostics-severity-colors.png)
 
@@ -87,24 +87,26 @@ Setting a rule's severity in an EditorConfig file takes precedence over any seve
 
 #### Automatically configure rule severity
 
-Visual Studio provides a convenient way to configure a rule's severity from the [Quick Actions](quick-actions.md) light bulb menu.
+Visual Studio provides a convenient way to configure a rule's severity from the [Quick Actions](../ide/quick-actions.md) light bulb menu.
 
 1. After a violation occurs, hover over the violation squiggle in the editor and open the light bulb menu. Or, put your cursor on the line and press **Ctrl**+**.** (period).
 
-2. From the light bulb menu, select **Configure or Suppress issues** > **Configure \<rule ID> severity**, and then select one of the severity options.
+2. From the light bulb menu, select **Configure or Suppress issues** > **Configure \<rule ID> severity**.
 
    ![Configure rule severity from light bulb menu in Visual Studio](media/configure-rule-severity.png)
 
+3. From there, select one of the severity options.
+
    ![Configure rule severity as Suggestion](media/configure-rule-severity-suggestion.png)
 
-   Visual Studio adds an entry to the EditorConfig file to configure the rule to the requested level.
+   Visual Studio adds an entry to the EditorConfig file to configure the rule to the requested level, as shown in the preview box.
 
    > [!TIP]
    > If you don't already have an EditorConfig file in the project, Visual Studio creates one for you.
 
 ### Set rule severity from Solution Explorer
 
-1. In **Solution Explorer**, expand **References** > **Analyzers** (**Dependencies** > **Analyzers** for .NET Core projects).
+1. In **Solution Explorer**, expand **References** > **Analyzers** (or **Dependencies** > **Analyzers** for .NET Core projects).
 
 1. Expand the assembly that contains the rule you want to set severity for.
 
