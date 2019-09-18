@@ -19,7 +19,11 @@ The [FxCop analyzers package](install-fxcop-analyzers.md) consists of the most i
 >
 > ![Add editorconfig file to project in Visual Studio](media/add-editorconfig-file.png)
 
+::: moniker range=">=vs-2019"
+
 For information about configuring a rule's severity (for example, whether it's an error or a warning), see [Set rule severity in an EditorConfig file](use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file). Or, you can choose one of the built-in [rule sets](analyzer-rule-sets.md) to quickly enable or disable a category of rules.
+
+::: moniker-end
 
 The remainder of this article discusses general syntax for the [options that refine](fxcop-analyzer-options.md) where FxCop rules are applied.
 

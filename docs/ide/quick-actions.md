@@ -19,7 +19,17 @@ Quick Actions can be used to:
 
 - Apply a code fix for a [code analyzer](../code-quality/roslyn-analyzers-overview.md) rule violation
 
+::: moniker range=">=vs-2019"
+
 - [Suppress](../code-quality/use-roslyn-analyzers.md#suppress-violations) a code analyzer rule violation or [configure](../code-quality/use-roslyn-analyzers.md#automatically-configure-rule-severity) its severity
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+- [Suppress](../code-quality/use-roslyn-analyzers.md#suppress-violations) a code analyzer rule violation
+
+::: moniker-end
 
 - Apply a refactoring (for example, [inline a temporary variable](../ide/reference/inline-temporary-variable.md))
 

@@ -40,7 +40,17 @@ The icons next to each diagnostic in **Solution Explorer** correspond to the ico
 
 ## Rule severity
 
+::: moniker range=">=vs-2019"
+
 You can configure the severity of analyzer rules, or *diagnostics*, if you [install the analyzers](../code-quality/install-roslyn-analyzers.md) as a NuGet package. Starting in Visual Studio 2019 version 16.3, you can configure the severity of a rule [in an EditorConfig file](#set-rule-severity-in-an-editorconfig-file). You can also change the severity of a rule [from Solution Explorer](#set-rule-severity-from-solution-explorer) or [in a rule set file](#set-rule-severity-in-the-rule-set-file).
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+You can configure the severity of analyzer rules, or *diagnostics*, if you [install the analyzers](../code-quality/install-roslyn-analyzers.md) as a NuGet package. You can change the severity of a rule [from Solution Explorer](#set-rule-severity-from-solution-explorer) or [in a rule set file](#set-rule-severity-in-the-rule-set-file).
+
+::: moniker-end
 
 The following table shows the different severity options:
 
@@ -60,6 +70,8 @@ The following screenshot of the code editor shows three different violations wit
 The following screenshot shows the same three violations as they appear in the Error List:
 
 ![Error, warning, and info violation in Error List](media/diagnostics-severities-in-error-list.png)
+
+::: moniker range=">=vs-2019"
 
 ### Set rule severity in an EditorConfig file
 
@@ -104,6 +116,8 @@ Visual Studio provides a convenient way to configure a rule's severity from the 
    > [!TIP]
    > If you don't already have an EditorConfig file in the project, Visual Studio creates one for you.
 
+::: moniker-end
+
 ### Set rule severity from Solution Explorer
 
 1. In **Solution Explorer**, expand **References** > **Analyzers** (or **Dependencies** > **Analyzers** for .NET Core projects).
@@ -135,13 +149,17 @@ Visual Studio provides a convenient way to configure a rule's severity from the 
 
 There are multiple ways to suppress rule violations:
 
-- From the **Analyze** menu
-
-  Select **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar to suppress all current violations. This is sometimes referred to as "baselining".
+::: moniker range=">=vs-2019"
 
 - In an **EditorConfig file**
 
   Set the severity to `none`, for example, `dotnet_diagnostic.CA1822.severity = none`.
+
+::: moniker-end
+
+- From the **Analyze** menu
+
+  Select **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar to suppress all current violations. This is sometimes referred to as "baselining".
 
 - From **Solution Explorer**
 
@@ -172,7 +190,7 @@ There are multiple ways to suppress rule violations:
   In the **Preview Changes** dialog, select **Apply**.
 
   > [!NOTE]
-  > If you don't see the **Suppress** menu option in **Solution Explorer**, the violation is likely coming from build and not live analysis. The **Error List** displays diagnostics, or rule violations, from both live code analysis and build. Since the build diagnostics can be stale, for example, if you've edited the code to fix the violation but haven't rebuilt, you cannot suppress these diagnostics from the **Error List**. Diagnostics from live analysis, or IntelliSense, are always up-to-date with current sources and can be suppressed from the **Error List**. To exclude *build* diagnostics from your selection, switch the **Error List** source filter from **Build + IntelliSense** to **Intellisense Only**. Then, select the diagnostics you want to suppress and proceed as described previously.
+  > If you don't see the **Suppress** menu option in **Solution Explorer**, the violation is likely coming from build and not live analysis. The **Error List** displays diagnostics, or rule violations, from both live code analysis and build. Since the build diagnostics can be stale, for example, if you've edited the code to fix the violation but haven't rebuilt, you cannot suppress these diagnostics from the **Error List**. Diagnostics from live analysis, or IntelliSense, are always up-to-date with current sources and can be suppressed from the **Error List**. To exclude *build* diagnostics from your selection, switch the **Error List** source filter from **Build + IntelliSense** to **IntelliSense Only**. Then, select the diagnostics you want to suppress and proceed as described previously.
   >
   > ![Error List source filter in Visual Studio](media/error-list-filter.png)
 
