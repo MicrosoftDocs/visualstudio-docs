@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 
-title: Visual Studio for Mac Documentation
+title: Visual Studio for Mac documentation
 summary: Learn how to use Visual Studio for Mac to develop apps and games for iOS, Android, and web using .NET.
 brand: visual-studio
 metadata:
@@ -88,7 +88,7 @@ conceptualContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
   title: Get Started
   items:
-    - title: Get Start with Visual Studio for Mac
+    - title: Get Started with Visual Studio for Mac
       links:
         - url: ~/ide-tour.md
           itemType: overview
@@ -129,7 +129,7 @@ conceptualContent:
           itemType: get-started
           text: Setting an EditorConfig
     # Card
-    - title: More Information
+    - title: More information
       links:
         - url: https://visualstudio.microsoft.com/vs/support/mac/
           itemType: reference
