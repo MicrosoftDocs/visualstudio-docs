@@ -99,12 +99,12 @@ This brings some of the following features:
 * RTL/BiDi language support
 * Roslyn 3
 * Multi-caret support
-* Word Wrap
+* Word wrap
 * Updated IntelliSense UI
-* Improved Find/Replace
-* Snippet Support 
-* Format Selection
-* Inline Lightbulbs
+* Improved find/replace
+* Snippet support 
+* Format selection
+* Inline lightbulbs
 
 For more information on using the Source Editor in Visual Studio for Mac, see the [Source Editor](/visualstudio/mac/source-editor) documentation.
 
@@ -120,7 +120,7 @@ Visual Studio for Mac provides two useful ways to refactor your code: Context Ac
 
 Visual Studio for Mac has a native debugger allowing debugging support for Xamarin.iOS, Xamarin.Mac, and Xamarin.Android applications. Visual Studio for Mac uses the Mono Soft Debugger, which is implemented into the Mono runtime, allowing the IDE to debug managed code across all platforms. For additional information on debugging, visit the [Debugging](/visualstudio/mac/debugging) article.
 
-The debugger contains rich visualizers for special types such as strings, colors, URLs, as well as sizes, co-ordinates, and bézier curves.
+The debugger contains rich visualizers for special types such as strings, colors, URLs, as well as sizes, coordinates, and bézier curves.
 
 For more information on the debugger's data visualizations, visit the [Data Visualizations](/visualstudio/mac/data-visualizations) article.
 

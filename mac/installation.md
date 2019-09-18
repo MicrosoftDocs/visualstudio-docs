@@ -64,7 +64,7 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
     [![Choose which optional workload features you would like to install](media/installation-progress.png)](media/installation-progress.png#lightbox)
 
-9. Once installed, Visual Studio for Mac will prompt you to personalize your installation by signing in and selecting the keybindings that you'd like to use:
+9. Once installed, Visual Studio for Mac will prompt you to personalize your installation by signing in and selecting the key bindings that you'd like to use:
 
     [![Sign in to the IDE](media/ide-tour-2019-start-signin.png)](media/ide-tour-2019-start-signin.png#lightbox)
 
