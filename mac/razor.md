@@ -10,9 +10,9 @@ ms.assetid: F898CB6E-05ED-44CD-8DB6-427B2592CCC6
 
 # Razor
 
-Visual Studio for Mac provides support for Razor editing, including IntelliSense and syntax highlighting in *.cshtml* files.
+Visual Studio for Mac provides support for Razor editing, including IntelliSense and syntax highlighting in *.cshtml* files. New in Visual Studio for Mac 2019 8.3+ is the ability to have context aware IntelliSense within a Razor file, so that you receive IntelliSense that matches the language you are currently editing wthin a document.
 
-![Razor editing in Visual Studio for Mac](media/razor-editor.png)
+![Razor editing in Visual Studio for Mac](media/razor-2019.png)
 
 This guide provides an introduction to creating your first Razor web app. For a more in-depth guide please refer to the [Razor Pages in .NET Core documentation](/aspnet/core/razor-pages/index).
 
