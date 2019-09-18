@@ -91,6 +91,8 @@ Released August 13, 2019
   - Fixed handling of namespaces in expressions.
 
   - Fixed inspection with IntPtr types.
+  
+  - Fixed stepping issues with exceptions.
 
   - Fixed evaluation of pseudo identifiers (like $exception).
 
