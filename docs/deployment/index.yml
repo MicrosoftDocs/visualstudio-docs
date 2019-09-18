@@ -46,14 +46,16 @@ landingContent:
     linkLists:
       - linkListType: tutorial
         links:
-          - text: .NET Core
+          - text: Deploy .NET Core apps
             url: /dotnet/core/deploying/deploy-with-vs
-          - text: Package a desktop app for Windows Store
-            url: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
           - text: Deploy a desktop app using ClickOnce
             url: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
           - text: Build ClickOnce applications from the Command line
             url: building-clickonce-applications-from-the-command-line.md
+      - linkListType: how-to-guide
+        links:
+          - text: Package a desktop app for Windows Store
+            url: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
 
     # Card
   - title: Deploy .NET packages to NuGet.org
