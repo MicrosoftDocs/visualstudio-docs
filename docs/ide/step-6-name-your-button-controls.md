@@ -9,8 +9,8 @@ ms.devlang:
  - "csharp"
  - "vb"
 dev_langs:
-  - "csharp"
-  - "vb"
+  - "CSharp"
+  - "VB"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -58,7 +58,7 @@ You can verify the names by choosing the control selector drop-down list in the 
 
     ```vb
         Private Sub showButton_Click() Handles showButton.Click
-    
+
     End Sub
     ```
 
@@ -77,11 +77,11 @@ You can verify the names by choosing the control selector drop-down list in the 
     The following shows the new code that you see in the code editor.
 
     [!code-csharp[VbExpressTutorial1Step6_#2](../ide/codesnippet/CSharp/step-6-name-your-button-controls_2.cs)]
-    
+
     [!code-vb[VbExpressTutorial1Step6_#2](../ide/codesnippet/VisualBasic/step-6-name-your-button-controls_2.vb)]
 
     > [!NOTE]
-    > Your code might not display event handlers in "camelCase" letters. 
+    > Your code might not display event handlers in "camelCase" letters.
 
     The five methods that you added are called *event handlers*, because your application calls them whenever an event (like a user choosing a button or selecting a box) happens.
 

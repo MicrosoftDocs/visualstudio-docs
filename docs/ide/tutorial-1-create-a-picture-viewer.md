@@ -65,4 +65,4 @@ To begin the tutorial, start with **[Step 1: Create a Windows Forms application 
 
 * [More C# tutorials](/visualstudio/get-started/csharp/)
 * [Visual Basic tutorials](/visualstudio/get-started/visual-basic/)
-* [C++ tutorials](../ide/getting-started-with-cpp-in-visual-studio.md)
+* [C++ tutorials](/cpp/get-started/tutorial-console-cpp)

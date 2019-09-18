@@ -10,8 +10,12 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ---
-# User Accounts and Updates
+# User accounts and updates
+
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
+> [!WARNING]
+> Visual Studio 2015 cannot access resources that are configured for conditional access. To work with those resources, upgrade to Visual Studio 2017 or later.
 
 Visual Studio itself is a connected environment. By signing-in you enable access to all the services associated with your user account as well as all the accounts that are linked to that account. Your account settings roam with you wherever you use Visual Studio. You can configure permissions levels on a specific Visual Studio instance for individual users. Also, Visual Studio informs you when any component of your installation, such as an SDK, had an update available.  
   
@@ -25,5 +29,6 @@ Visual Studio itself is a connected environment. By signing-in you enable access
 |[How to Unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)|Describes how to unlock Visual Studio in various scenarios.|  
 |[Notifications](../ide/visual-studio-notifications.md)|Describes how Visual Studio notifies you when components such as SDKs, or Visual Studio itself, have an update available.|  
   
-## See Also  
- [Visual Studio IDE](../ide/visual-studio-ide.md)
+## See also
+
+- [Visual Studio IDE](../ide/visual-studio-ide.md)
