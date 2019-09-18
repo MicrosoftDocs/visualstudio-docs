@@ -175,4 +175,5 @@ Congratulations on completing this tutorial! We hope you learned some basics abo
 
 ## See also
 
-[Get UWP app samples](/windows/uwp/get-started/get-uwp-app-samples)
+- [UWP overview](/windows/uwp/get-started/universal-application-platform-guide)
+- [Get UWP app samples](/windows/uwp/get-started/get-uwp-app-samples)
