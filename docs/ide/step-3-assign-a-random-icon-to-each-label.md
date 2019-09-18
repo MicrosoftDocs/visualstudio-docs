@@ -1,10 +1,15 @@
 ---
 title: "Step 3: Assign a random icon to each label"
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: tutorial
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
+ms.devlang: 
+ - "csharp"
+ - "vb"
 dev_langs:
   - "CSharp"
-  - "vb"
+  - "VB"
 ms.assetid: 0ba5ed7a-9aaa-41f4-95d2-e3c2d567bc79
 author: TerryGLee
 ms.author: tglee

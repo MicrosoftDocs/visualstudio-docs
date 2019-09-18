@@ -9,7 +9,7 @@ ms.devlang:
  - "vb"
 dev_langs:
   - "CSharp"
-  - "vb"
+  - "VB"
 ms.assetid: dc8edb13-1b23-47d7-b859-8c6f7888c1a9
 author: TerryGLee
 ms.author: tglee
