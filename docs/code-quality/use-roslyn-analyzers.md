@@ -30,9 +30,9 @@ To see online documentation for a diagnostic, right-click on the diagnostic and 
 
 The icons next to each diagnostic in **Solution Explorer** correspond to the icons you see in the rule set when you open it in the editor:
 
-- the "i" in a circle indicates a [severity](#rule-severity) of **Info**
-- the "!" in a triangle indicates a [severity](#rule-severity) of **Warning**
 - the "x" in a circle indicates a [severity](#rule-severity) of **Error**
+- the "!" in a triangle indicates a [severity](#rule-severity) of **Warning**
+- the "i" in a circle indicates a [severity](#rule-severity) of **Info**
 - the "i" in a circle on a light-colored background indicates a [severity](#rule-severity) of **Hidden**
 - the downward-pointing arrow in a circle indicates that the diagnostic is suppressed
 
@@ -69,7 +69,9 @@ The general syntax for specifying the severity of a rule in an EditorConfig file
 
 `dotnet_diagnostic.<rule ID>.severity = <severity>`
 
-Setting a rule's severity in an EditorConfig file takes precedence over any severity that's set in a rule set or in Solution Explorer.
+Setting a rule's severity in an EditorConfig file takes precedence over any severity that's set in a rule set or in Solution Explorer. You can [manually](#manually-configure-rule-severity) configure severity in an EditorConfig file or [automatically](#automatically-configure-rule-severity) through the light bulb that appears next to a violation.
+
+#### Manually configure rule severity
 
 1. If you don't already have an EditorConfig file for your project, [add one](../ide/create-portable-custom-editor-options.md#add-an-editorconfig-file-to-a-project).
 
@@ -82,6 +84,23 @@ Setting a rule's severity in an EditorConfig file takes precedence over any seve
 
 > [!NOTE]
 > For IDE code-style analyzers, you can also configure them in an EditorConfig file using a different syntax, for example, `dotnet_style_qualification_for_field = false:suggestion`. However, if you set a severity using the `dotnet_diagnostic` syntax, it takes precedence. For more information, see [.NET coding convention settings for EditorConfig](../ide/editorconfig-code-style-settings-reference.md).
+
+#### Automatically configure rule severity
+
+Visual Studio provides a convenient way to configure a rule's severity from the [light bulb](../ide/quick-actions.md) menu.
+
+1. After a violation occurs, hover over the violation squiggle in the editor and open the light bulb menu. Or, put your cursor on the line and press **Ctrl**+**.** (period).
+
+2. From the light bulb menu, select **Configure or Suppress issues** > **Configure \<rule ID> severity**, and then select one of the severity options.
+
+   ![Configure rule severity from light bulb menu in Visual Studio](media/configure-rule-severity.png)
+
+   ![Configure rule severity as Suggestion](media/configure-rule-severity-suggestion.png)
+
+   Visual Studio adds an entry to the EditorConfig file to configure the rule to the requested level.
+
+   > [!TIP]
+   > If you don't already have an EditorConfig file in the project, Visual Studio creates one for you.
 
 ### Set rule severity from Solution Explorer
 
