@@ -28,3 +28,4 @@ The following table describes the versions of .NET Core supported by the stable 
 * .NET Core v2.1.701 (v2.1.700 for 8.1) is installed by default with the installer.
 * To download any other version of .NET Core, visit the [dotnet page](https://dotnet.microsoft.com/download/dotnet-core).
 * For information on installing a preview version of Visual Studio for Mac, see the [Install a Preview Release](https://docs.microsoft.com/visualstudio/mac/install-preview) guide.
+* When using .NET Core 3.0, C# version 8 will be used by default. C# 7.3 is default when using .NET Core 2.x. See [C# language versioning](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/configure-language-version) for more info.
