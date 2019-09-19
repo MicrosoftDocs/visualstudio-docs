@@ -4,7 +4,7 @@ title: Visual Studio for Mac documentation
 summary: Learn how to use Visual Studio for Mac to develop apps and games for iOS, Android, and web using .NET.
 brand: visual-studio
 metadata:
-  title: Visual Studio for Mac Documentation | Microsoft Docs
+  title: Visual Studio for Mac documentation | Microsoft Docs
   description: This article introduces the features of Visual Studio for Mac.
   author: asb3993
   ms.author: amburns
@@ -98,42 +98,42 @@ conceptualContent:
           text: Open code from a repo
         - url: ~/projects-and-solutions.md
           itemType: overview
-          text: Working with Projects and Solutions
+          text: Work with Projects and Solutions
         - url: ~/source-editor.md
           itemType: overview
-          text: Writing Code
+          text: Write code
         - url: ~/debugging.md
           itemType: overview
           text: Debug your code
         - url: ~/compiling-and-building.md
           itemType: overview
-          text: Compiling and Building Projects
+          text: Compile and build Projects
         - url: ~/install-preview.md
           itemType: download
           text: Install a preview release
         - url: ~/update.md
           itemType: download
-          text: Updating the IDE
+          text: Updat the IDE
     - title: Make it your own
       links:
         - url: ~/signing-in.md
           itemType: get-started
-          text: Signing in
+          text: Sign in
         - url: ~/customizing-the-ide.md
           itemType: get-started
-          text: Customizing the IDE
+          text: Customize the IDE
         - url: ~/keyboard-shortcuts.md
           itemType: get-started
-          text: Keyboard shortcuts
+          text: Ust keyboard shortcuts
         - url: ~/editorconfig.md
           itemType: get-started
-          text: Setting an EditorConfig
+          text: Set an EditorConfig
     # Card
     - title: More information
       links:
         - url: https://visualstudio.microsoft.com/vs/support/mac/
           itemType: reference
-          text: Visual Studio for Mac Support – FAQs
+          text: Visual Studio for Mac support – FAQs
         - url: https://visualstudio.microsoft.com/vs/pricing/
           itemType: reference
           text: Pricing and subscriptions
@@ -142,7 +142,7 @@ conceptualContent:
           text: Compare editions
         - url: https://my.visualstudio.com/Downloads?q=Visual%20Studio%20for%20Mac
           itemType: reference
-          text: Subscriber Access 
+          text: Subscriber access 
 
 additionalContent:
   sections:
