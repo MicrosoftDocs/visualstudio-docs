@@ -318,7 +318,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
      }
     ```
 
-1. Notice that two wavy underlines appear under **Environment** and **String**. The wavy underlines appear because these types aren't in scope.
+1. Notice that two wavy underlines appear under **DateTime**. The wavy underlines appear because these type isn't in scope.
 
    ![Errors marked with wavy underlines in OnGet method](media/vs-2019/csharp-aspnet-add-new-onget-method.png)
 
