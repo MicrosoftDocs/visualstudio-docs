@@ -113,7 +113,7 @@ conceptualContent:
           text: Install a preview release
         - url: ~/update.md
           itemType: download
-          text: Updat the IDE
+          text: Update the IDE
     - title: Make it your own
       links:
         - url: ~/signing-in.md
@@ -124,7 +124,7 @@ conceptualContent:
           text: Customize the IDE
         - url: ~/keyboard-shortcuts.md
           itemType: get-started
-          text: Ust keyboard shortcuts
+          text: Use keyboard shortcuts
         - url: ~/editorconfig.md
           itemType: get-started
           text: Set an EditorConfig
