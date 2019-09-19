@@ -47,9 +47,6 @@ The pane on the left categorizes extensions by those that are installed, those a
 
 You can install extensions from [Visual Studio Marketplace](https://marketplace.visualstudio.com) or the Extensions and Updates dialog box in Visual Studio.
 
-> [!NOTE]
-> Visual Studio Marketplace contains both VSIX and MSI extensions. The Extensions and Updates dialog box can't enable or disable MSI-based extensions.
-
 To install extensions from within Visual Studio:
 
 1. From **Tools** > **Extensions and Updates**, find the extension you want to install. If you know the name or part of the name of the extension, you can search in the **Search** window.
@@ -60,14 +57,19 @@ To install extensions from within Visual Studio:
 
 If you try to install an extension that has dependencies, the installer verifies whether they're already installed. If they aren't installed, the **Extensions and Updates** dialog box lists the dependencies that must be installed before you can install the extension.
 
+### Install without using the Extensions and Updates dialog box
+
+Extensions that have been packaged in *.vsix* files may be available in locations other than Visual Studio Marketplace. The **Tools** > **Extensions and Updates** dialog box can't detect these files, but you can install a *.vsix* file by double-clicking the file or selecting the file and pressing **Enter**. After that, just follow the instructions. When the extension is installed, you can use the **Extensions and Updates** dialog box to enable it, disable it, or uninstall it.
+
+> [!NOTE]
+> - Visual Studio Marketplace contains both VSIX and MSI extensions. The Extensions and Updates dialog box can't enable or disable MSI-based extensions.
+> - If an MSI-based extension includes an *extension.vsixmanifest* file, the extension appears in the **Extensions and Updates** dialog box.
+
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
 You can install extensions from [Visual Studio Marketplace](https://marketplace.visualstudio.com) or the Manage Extensions dialog box in Visual Studio.
-
-> [!NOTE]
-> Visual Studio Marketplace contains both VSIX and MSI extensions. The Manage Extensions dialog box can't enable or disable MSI-based extensions.
 
 To install extensions from within Visual Studio:
 
@@ -78,6 +80,14 @@ To install extensions from within Visual Studio:
    The extension is scheduled for install. Your extension will be installed after all instances of Visual Studio have been closed.
 
 If you try to install an extension that has dependencies, the installer verifies whether they're already installed. If they aren't installed, the **Manage Extensions** dialog box lists the dependencies that must be installed before you can install the extension.
+
+### Install without using the Manage Extensions dialog box
+
+Extensions that have been packaged in *.vsix* files may be available in locations other than Visual Studio Marketplace. The **Extensions** > **Manage Extensions** dialog box can't detect these files, but you can install a *.vsix* file by double-clicking the file or selecting the file and pressing **Enter**. After that, just follow the instructions. When the extension is installed, you can use the **Manage Extensions** dialog box to enable it, disable it, or uninstall it.
+
+> [!NOTE]
+> - Visual Studio Marketplace contains both VSIX and MSI extensions. The Manage Extensions dialog box can't enable or disable MSI-based extensions.
+> - If an MSI-based extension includes an *extension.vsixmanifest* file, the extension appears in the **Manage Extensions** dialog box.
 
 ::: moniker-end
 
@@ -124,7 +134,7 @@ If you wish to disable automatic updates, you can disable the feature for all ex
 
 ::: moniker-end
 
-## Extension crash and unresponsiveness notifications
+## Crash and unresponsiveness notifications
 
 Visual Studio notifies you if it suspects that an extension was involved in a crash during a previous session. When Visual Studio crashes, it stores the exception stack. The next time Visual Studio launches, it examines the stack, starting with the leaf and working towards the base. If Visual Studio determines that a frame belongs to a module that is part of an installed and enabled extension, it shows a notification.
 
@@ -156,7 +166,7 @@ When these notifications are shown, you can ignore the notification or take one 
 > [!NOTE]
 > A UI unresponsiveness or crash notification means only that one of the extension’s modules was on the stack when the UI was unresponsive or when the crash occurred. It does not necessarily mean that the extension itself was the culprit. It's possible that the extension called code that's part of Visual Studio, which in turn resulted in unresponsive UI or a crash. However, the notification may still be useful if the extension which led to the UI unresponsiveness or crash is not important to you. In this case, disabling the extension avoids the UI unresponsiveness or the crash in the future, without impacting your productivity.
 
-## Sample master copies and working copies
+## Samples
 
 When you install an online sample, the solution is stored in two locations:
 
@@ -187,36 +197,6 @@ You can use the **Extensions** > **Manage Extensions** dialog box to perform the
 - View update notifications when source code changes are published for installed samples.
 
 - Update the master copy of an installed sample when there is an update notification.
-
-::: moniker range="vs-2017"
-
-## Install without using the Extensions and Updates dialog box
-
-Extensions that have been packaged in *.vsix* files may be available in locations other than Visual Studio Marketplace. The **Tools** > **Extensions and Updates** dialog box can't detect these files, but you can install a *.vsix* file by double-clicking the file or selecting the file and pressing **Enter**. After that, just follow the instructions. When the extension is installed, you can use the **Extensions and Updates** dialog box to enable it, disable it, or uninstall it.
-
-## Extension types not supported by the Extensions and Updates dialog box
-
-Visual Studio continues to support extensions that are installed by the Microsoft Installer (MSI) but not through the **Tools** > **Extensions and Updates** dialog box without modification.
-
-> [!TIP]
-> If an MSI-based extension includes an *extension.vsixmanifest* file, the extension appears in the **Extensions and Updates** dialog box.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-## Install without using the Manage Extensions dialog box
-
-Extensions that have been packaged in *.vsix* files may be available in locations other than Visual Studio Marketplace. The **Extensions** > **Manage Extensions** dialog box can't detect these files, but you can install a *.vsix* file by double-clicking the file or selecting the file and pressing **Enter**. After that, just follow the instructions. When the extension is installed, you can use the **Manage Extensions** dialog box to enable it, disable it, or uninstall it.
-
-## Extension types not supported by the Manage Extensions dialog box
-
-Visual Studio continues to support extensions that are installed by the Microsoft Installer (MSI) but not through the **Extensions** > **Manage Extensions** dialog box without modification.
-
-> [!TIP]
-> If an MSI-based extension includes an *extension.vsixmanifest* file, the extension appears in the **Manage Extensions** dialog box.
-
-::: moniker-end
 
 ## See also
 
