@@ -2,25 +2,25 @@
 title: Publish to a folder
 ms.date: 04/02/2019
 helpviewer_keywords:
-  - "deployment, website"
+  - "deployment, website, console, publish"
 ms.assetid: e963fb4b-6d32-4d45-86bb-ef7e4d3028b0
 author: sayedihashimi
 ms.author: sayedha
 manager: unniravindranathan
 ms.prod: visual-studio-mac
 ---
-# Publish a Web app to a folder using Visual Studio for Mac
+# Publish to a folder using Visual Studio for Mac
 
-You can use the Publish tool to publish ASP.NET Core apps to a folder.
+You can use the Publish tool to publish .NET Core Console or ASP.NET Core apps to a folder.
 
 ## Prerequisites
 
-- [Visual Studio 2019 for Mac](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs4mac2019) installed with ASP.NET Core enabled.
-- An ASP.NET Core project. If you don’t already have a project, you can [create a new one](https://docs.microsoft.com/visualstudio/mac/create-new-projects?view=vsmac-2019).
+- [Visual Studio 2019 for Mac](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs4mac2019) installed with .NET Core enabled.
+- A .NET Core console or ASP.NET Core project. If you don’t already have a project, you can [create a new one](https://docs.microsoft.com/visualstudio/mac/create-new-projects?view=vsmac-2019).
 
 ## Publish to Folder
 
-Using Visual Studio for Mac you can publish your ASP.NET Core projects to a folder using the Publish tool. After publishing to a folder you can transfer the files to your web server to get it into a different environment. To publish to a folder follow these steps.
+Using Visual Studio for Mac you can publish your .NET Core projects to a folder using the Publish tool. After publishing to a folder you can transfer the files to a different environment. To publish to a folder follow these steps.
 
  1. In the Solution Pad, right-click the project and choose **Publish**.
 
