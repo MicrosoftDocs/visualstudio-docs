@@ -3,41 +3,52 @@ title: "Building and Cleaning Projects and Solutions"
 description: "This article describes how to build a project in Visual Studio for Mac"
 author: heiligerdankgesang
 ms.author: dominicn
-ms.date: 05/06/2018
+ms.date: 09/19/2019
 ms.assetid: E4B6CB42-9FE2-43B9-93B7-BD4BD50518B1
 ---
 
 # Building and cleaning projects and solutions
 
-Follow the steps in this article to learn how to build, rebuild, and clean your solution and project.
+Follow the steps in this article to learn how to build, rebuild, or clean your all or some of the projects in a solution.
+
+> [!NOTE]
+> This topic applies to Visual Studio for Mac. For Visual Studio on Windows, see [Build and clean projects and solutions in Visual Studio](/visualstudio/ide/building-and-cleaning-projects-and-solutions-in-visual-studio).
 
 ## To build, rebuild, or clean an entire solution
 
-To build, rebuild, or clean an entire solution:
-
-1. Select the Solution node in the Solution Pad:
+1. Select the Solution node in the **Solution Pad**:
 
     ![Selecting the solution node](media/compiling-and-building-image1.png)
 
-2. Select Build Menu in the Menu bar and select one of the following options:
+2. Select the **Build** menu in the Menu Bar and choose one of the following options:
 
     ![selecting the build all menu item](media/compiling-and-building-image2.png)
 
-    * **Build All** - Attempts to build all files within project that have changed within the project since the most recent build.
-    * **Rebuild All** - Cleans the solution and then builds it.
-    * **Clean All** - Removes all build products from your solution.
+    * Choose **Build All** to compile the files and components within the project that have changed since the most recent build.
+
+    * Choose **Rebuild All** to "clean" the solution and then builds all project files and components.
+
+    * Choose **Clean All** to delete any intermediate and output files. With only the project and component files left, new instances of the intermediate and output files can then be built.
 
 ## To build or rebuild a single project
 
-1. In the Solution Pad, select the project.
+1. Select the project in the **Solution Pad**.
 
-2. On the menu bar, choose Build, and then choose either Build[ProjectName], Rebuild[ProjectName], or Clean[ProjectName].
+2. Select the **Build** menu from the Menu Bar.
+
+3. Choose either Build[ProjectName], Rebuild[ProjectName], or Clean[ProjectName].
 
 ## To stop a build
 
-To stop a build, press the red square in the status area:
+To stop a build, use one of the following options:
 
-![Press red square to stop build](media/compiling-and-building-image3.png)
+* Press the red square in the status area:
+
+    ![Press red square to stop build](media/compiling-and-building-image3.png)
+
+* Use the **Stop** item in the **Build** menu.
+
+* Press **Cmd+Shift+Return**.
 
 ## See also
 
