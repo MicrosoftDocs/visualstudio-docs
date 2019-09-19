@@ -14,7 +14,20 @@ You can add an [EditorConfig](http://editorconfig.org/) file to your project or 
 
 EditorConfig settings are supported by numerous code editors and IDEs, including Visual Studio. It's a portable component that travels with your code, and can enforce coding styles even outside of Visual Studio.
 
-When you add an EditorConfig file to your project in Visual Studio, the formatting of existing code is not changed unless you run [Code Cleanup](../ide/code-styles-and-code-cleanup.md) (**Ctrl**+**K**, **Ctrl**+**E**). Or, if you only want to fix whitespace, you can format the document with **Edit** > **Advanced** > **Format Document** (or **Ctrl**+**K**, **Ctrl**+**D** in the default profile). New lines of code are formatted according to the EditorConfig settings.
+::: moniker range=">=vs-2019"
+
+When you add an EditorConfig file to your project in Visual Studio, new lines of code are formatted according to the EditorConfig settings. The formatting of existing code is not changed unless you run one of the following commands:
+
+ - [Code Cleanup](../ide/code-styles-and-code-cleanup.md) (**Ctrl**+**K**, **Ctrl**+**E**), which applies any white space settings, such as indent style, and selected code style settings, such as how to sort `using` statements. (Visual Studio 2019 and later.)
+ - **Edit** > **Advanced** > **Format Document** (or **Ctrl**+**K**, **Ctrl**+**D** in the default profile), which only applies whitespace settings, such as indent style.
+ 
+ ::: moniker-end
+ 
+::: moniker range="=vs-2017"
+
+When you add an EditorConfig file to your project in Visual Studio, new lines of code are formatted according to the EditorConfig settings. The formatting of existing code is not changed unless you run unless you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D** in the default profile). Formatting the document only affects white space settings, such as indent style, unless you've configured Format Document to [perform additional code cleanup](../ide/code-styles-and-code-cleanup.md#apply-code-styles).
+ 
+ ::: moniker-end
 
 ::: moniker range="vs-2017"
 
