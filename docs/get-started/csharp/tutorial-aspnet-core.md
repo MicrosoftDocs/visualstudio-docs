@@ -251,7 +251,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
  1. View the **Index.cshtml** file in the code editor.
 
-     ![View the Index.cshtml file in the Visual Studio code editor](media/vs-2019/csharp-aspnet-razor-index-cshtml.png)
+     ![View the Index.cshtml file in the Visual Studio code editor](media/vs-2019/csharp-aspnet-index-cshtml.png)
 
  1. Each .cshtml file has an associated code file. To open the code file in the editor, expand the **Index.cshtml** node in Solution Explorer, and choose the **Index.cshtml.cs** file.
 
@@ -289,7 +289,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
    The **Privacy** page in the browser renders the text that is set in the *Privacy.cshtml* file.
 
-   ![View the text on the Privacy page](media/vs-2019/csharp-aspnet-razor-browser-page-privacy.png)
+   ![View the text on the Privacy page](media/vs-2019/csharp-aspnet-browser-page-privacy.png)
 
 1. Return to Visual Studio, and then press **Shift+F5** to stop Debug mode. This also closes the project in the browser window.
 
