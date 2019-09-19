@@ -300,7 +300,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
    Choose any of the grayed-out `using` directives and a [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Choose the light bulb, and then hover over **Remove unnecessary usings**. 
 
-   ![Remove unnecessary Usings in the Privacy.cshtml.cs file](media/csharp-aspnet-remove-unnecessary-usings.png)
+   ![Remove unnecessary Usings in the Privacy.cshtml.cs file](media/vs-2019/csharp-aspnet-remove-unnecessary-usings.png)
 
    Now choose **Preview changes** to see what will change.
 
