@@ -125,7 +125,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 1. In the **Create a new ASP.NET Core Web Application** window, verify that **ASP.NET Core 3.0** appears in the top drop-down menu. Then, choose **Web Application**, which includes example Razor Pages. Next, choose  **Create**.
 
-   ![The 'Create a new ASP.NET Core Web Application' window](./media/vs-2019/csharp-create-aspnet-core-razor-pages-app.png)
+   ![The 'Create a new ASP.NET Core Web Application' window](./media/vs-2019/csharp-create-aspnet-razor-pages-app.png)
 
    Visual Studio opens your new project.
 
@@ -271,7 +271,6 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
      ![Configuration files in the Solution Explorer in Visual Studio](media/csharp-aspnet-razor-solution-explorer-appsettingsjson.png)
 
-
 ## Run, debug, and make changes
 
 1. Choose the **IIS Express** button in the IDE to build and run the app in Debug mode. (Alternatively, press **F5**, or choose **Debug** > **Start Debugging** from the menu bar.)
@@ -299,9 +298,9 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. Now, let's make a code change. Choose **Privacy.cshtml.cs**. Then, clean up the `using` directives at the top of the file by using the following shortcut:
 
-   Choose any of the grayed-out `using` directives and a [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Choose the light bulb, and then hover over **Remove unnecessary usings**. and then choose **Preview changes**.
+   Choose any of the grayed-out `using` directives and a [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Choose the light bulb, and then hover over **Remove unnecessary usings**. 
 
-   ![Remove unnecessary Usings in the Privacy.cshtml.cs file](media/csharp-aspnet-razor-remove-unnecessary-usings.png)
+   ![Remove unnecessary Usings in the Privacy.cshtml.cs file](media/csharp-aspnet-remove-unnecessary-usings.png)
 
    Now choose **Preview changes** to see what will change.
 
