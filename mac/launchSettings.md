@@ -30,7 +30,7 @@ There are primarily two things that you'll configure here.
 
 ## Configure environment variables
 
-To configure environment variables use the grid on this dialog to manage environment variables that are set when the application is launched. When developing ASP.NET Core applications, you should be aware of the special `ASPNETCORE_ENVIRONMENT` value. To learn more about that see [Use multiple environments in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments). This should typically be set to 'Development'.
+You can use the grid to specify values for environment variables. These environment variables will be set when you start your application within Visual Studio for Mac. When developing ASP.NET Core applications, you should be aware of the special `ASPNETCORE_ENVIRONMENT` environment variable. To learn more see [Use multiple environments in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments).
 
 
 ## Configure start URL
