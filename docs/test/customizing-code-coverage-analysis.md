@@ -71,7 +71,7 @@ Code coverage requires symbol files (*.pdb* files) for assemblies. For assemblie
 > [!NOTE]
 > Symbol resolution can take time, especially when using a remote file location with many assemblies. Therefore, consider copying *.pdb* files to the same local location as the binary (*.dll* and *.exe*) files.
 
-## Include or exclude assemblies and symbols
+## Include or exclude assemblies and members
 
 You can include or exclude assemblies or specific types and members from code coverage analysis. If the **Include** section is empty or omitted, then all assemblies that are loaded and have associated PDB files are included. If an assembly or member matches a clause in the **Exclude** section, then it is excluded from code coverage. The **Exclude** section takes precedence over the **Include** section: if an assembly is listed in both **Include** and **Exclude**, it will not be included in code coverage.
 
@@ -99,14 +99,14 @@ The following example specifies that only a single assembly should be included i
 
 The following table shows the various ways that assemblies and members can be matched for inclusion in or exclusion from code coverage.
 
-| XML element | What it matches | Example |
-| - | - | - |
-| ModulePath | Matches assemblies specified by assembly name or file path. | |
-| CompanyName | Matches assemblies by the **Company** attribute. | |
-| PublicKeyToken | Matches signed assemblies by the public key token. | |
-| Source | Matches elements by the path name of the source file in which they're defined. | |
-| Attribute | Matches elements that have the specified attribute. Specify the full name of the attribute, for example `<Attribute>^System\.Diagnostics\.DebuggerHiddenAttribute$</Attribute>`.<br/><br/>If you exclude the <xref:System.Runtime.CompilerServices.CompilerGeneratedAttribute> attribute, code that uses language features such as `async`, `await`, `yield return`, and auto-implemented properties is excluded from code coverage analysis. To exclude truly generated code, only exclude the <xref:System.CodeDom.Compiler.GeneratedCodeAttribute> attribute. | |
-| Function | Matches procedures, functions, or methods by fully qualified name, including the parameter list. You can also match part of the name by using a [regular expression](#regular-expressions). | `Fabrikam.Math.LocalMath.SquareRoot(double);` (C#)<br/><br/>`Fabrikam::Math::LocalMath::SquareRoot(double)` (C++) |
+| XML element | What it matches |
+| - | - |
+| ModulePath | Matches assemblies specified by assembly name or file path. |
+| CompanyName | Matches assemblies by the **Company** attribute. |
+| PublicKeyToken | Matches signed assemblies by the public key token. |
+| Source | Matches elements by the path name of the source file in which they're defined. |
+| Attribute | Matches elements that have the specified attribute. Specify the full name of the attribute, for example `<Attribute>^System\.Diagnostics\.DebuggerHiddenAttribute$</Attribute>`.<br/><br/>If you exclude the <xref:System.Runtime.CompilerServices.CompilerGeneratedAttribute> attribute, code that uses language features such as `async`, `await`, `yield return`, and auto-implemented properties is excluded from code coverage analysis. To exclude truly generated code, only exclude the <xref:System.CodeDom.Compiler.GeneratedCodeAttribute> attribute. |
+| Function | Matches procedures, functions, or methods by fully qualified name, including the parameter list. You can also match part of the name by using a [regular expression](#regular-expressions).<br/><br/>Examples:<br/><br/>`Fabrikam.Math.LocalMath.SquareRoot(double);` (C#)<br/><br/>`Fabrikam::Math::LocalMath::SquareRoot(double)` (C++) |
 
 ### Regular expressions
 
