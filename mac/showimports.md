@@ -25,9 +25,7 @@ Once you enable Show Import Items, the process of using the feature to import an
 
 ![show import items list](media/show-import-items-list.png)
 
-However, if you have a NuGet package added to your project, but not yet imported into your code file, the namespace for the package will be listed along with packages provided by the framework. However, if the NuGet package isn't added to the project, the import will not be available or listed within your completion list.
-
-
+If you have a NuGet package added to your project, but not yet imported, the namespace for the package will be listed along with packages provided by the framework. However, if the NuGet package isn't added to the project, the import will not be available or listed within your completion list.
 
 ## See also
 
