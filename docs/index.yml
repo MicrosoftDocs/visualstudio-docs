@@ -136,7 +136,7 @@ additionalContent:
         url: test/improve-code-quality.md
       - title: Deploy
         summary: Share your apps and code by using Web Deploy, InstallShield, NuGet, Continuous Integration, and more. 
-        url: deployment/index.md
+        url: deployment/index.yml
       - title: Version Control
         summary: Share code using version control technologies such as Git and TFVC.
         url: version-control/index.md
@@ -145,7 +145,7 @@ additionalContent:
         url: /azure/devops
       - title: Measure performance
         summary: Identify bottlenecks and optimize code performance by using diagnostic tools.
-        url: profiling/index.md
+        url: profiling/index.yml
       - title: Extend
         summary: Add your own functionality to the Visual Studio IDE to improve your development experience.
         url: extensibility/index.md

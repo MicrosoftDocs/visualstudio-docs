@@ -57,7 +57,7 @@ To turn the custom settings off and on, deselect or select the file on the **Set
 
 ::: moniker-end
 
-### Specify symbol search paths
+## Symbol search paths
 
 Code coverage requires symbol files (*.pdb* files) for assemblies. For assemblies built by your solution, symbol files are usually present alongside the binary files, and code coverage works automatically. In some cases, you might want to include referenced assemblies in your code coverage analysis. In such cases, the *.pdb* files might not be adjacent to the binaries, but you can specify the symbol search path in the *.runsettings* file.
 
@@ -71,9 +71,11 @@ Code coverage requires symbol files (*.pdb* files) for assemblies. For assemblie
 > [!NOTE]
 > Symbol resolution can take time, especially when using a remote file location with many assemblies. Therefore, consider copying *.pdb* files to the same local location as the binary (*.dll* and *.exe*) files.
 
-### Exclude and include
+## Include or exclude assemblies and members
 
-You can exclude specified assemblies from code coverage analysis. For example:
+You can include or exclude assemblies or specific types and members from code coverage analysis. If the **Include** section is empty or omitted, then all assemblies that are loaded and have associated PDB files are included. If an assembly or member matches a clause in the **Exclude** section, then it is excluded from code coverage. The **Exclude** section takes precedence over the **Include** section: if an assembly is listed in both **Include** and **Exclude**, it will not be included in code coverage.
+
+For example, the following XML excludes a single assembly by specifying its name:
 
 ```xml
 <ModulePaths>
@@ -84,7 +86,7 @@ You can exclude specified assemblies from code coverage analysis. For example:
 </ModulePaths>
 ```
 
-As an alternative, you can specify which assemblies should be included. This approach has the drawback that when you add more assemblies to the solution, you must remember to add them to the list:
+The following example specifies that only a single assembly should be included in code coverage:
 
 ```xml
 <ModulePaths>
@@ -95,11 +97,20 @@ As an alternative, you can specify which assemblies should be included. This app
 </ModulePaths>
 ```
 
-If **Include** is empty, then code coverage processing includes all assemblies that are loaded and for which *.pdb* files can be found. Code coverage does not include items that match a clause in an **Exclude** list. **Include** is processed before **Exclude**.
+The following table shows the various ways that assemblies and members can be matched for inclusion in or exclusion from code coverage.
+
+| XML element | What it matches |
+| - | - |
+| ModulePath | Matches assemblies specified by assembly name or file path. |
+| CompanyName | Matches assemblies by the **Company** attribute. |
+| PublicKeyToken | Matches signed assemblies by the public key token. |
+| Source | Matches elements by the path name of the source file in which they're defined. |
+| Attribute | Matches elements that have the specified attribute. Specify the full name of the attribute, for example `<Attribute>^System\.Diagnostics\.DebuggerHiddenAttribute$</Attribute>`.<br/><br/>If you exclude the <xref:System.Runtime.CompilerServices.CompilerGeneratedAttribute> attribute, code that uses language features such as `async`, `await`, `yield return`, and auto-implemented properties is excluded from code coverage analysis. To exclude truly generated code, only exclude the <xref:System.CodeDom.Compiler.GeneratedCodeAttribute> attribute. |
+| Function | Matches procedures, functions, or methods by fully qualified name, including the parameter list. You can also match part of the name by using a [regular expression](#regular-expressions).<br/><br/>Examples:<br/><br/>`Fabrikam.Math.LocalMath.SquareRoot(double);` (C#)<br/><br/>`Fabrikam::Math::LocalMath::SquareRoot(double)` (C++) |
 
 ### Regular expressions
 
-Include and exclude nodes use regular expressions, which aren't the same as wildcards. For more information, see [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md). Some examples are:
+Include and exclude nodes use regular expressions, which aren't the same as wildcards. All matches are case-insensitive. Some examples are:
 
 - **.\*** matches a string of any characters
 
@@ -113,9 +124,7 @@ Include and exclude nodes use regular expressions, which aren't the same as wild
 
 - **$** matches the end of the string
 
-All matches are case-insensitive.
-
-For example:
+The following XML shows how to include and exclude specific assemblies by using regular expressions:
 
 ```xml
 <ModulePaths>
@@ -132,48 +141,27 @@ For example:
 </ModulePaths>
 ```
 
+The following XML shows how to include and exclude specific functions by using regular expressions:
+
+```xml
+<Functions>
+  <Include>
+    <!-- Include methods in the Fabrikam namespace: -->
+    <Function>^Fabrikam\..*</Function>
+    <!-- Include all methods named EqualTo: -->
+    <Function>.*\.EqualTo\(.*</Function>
+  </Include>
+  <Exclude>
+    <!-- Exclude methods in a class or namespace named UnitTest: -->
+    <Function>.*\.UnitTest\..*</Function>
+  </Exclude>
+</Functions>
+```
+
 > [!WARNING]
 > If there is an error in a regular expression, such as an unescaped or unmatched parenthesis, code coverage analysis won't run.
 
-### Other ways to include or exclude elements
-
-- **ModulePath** - matches assemblies specified by assembly file path.
-
-- **CompanyName** - matches assemblies by the **Company** attribute.
-
-- **PublicKeyToken** - matches signed assemblies by the public key token.
-
-- **Source** - matches elements by the path name of the source file in which they are defined.
-
-- **Attribute** - matches elements to which a particular attribute is attached. Specify the full name of the attribute, for example `<Attribute>^System\.Diagnostics\.DebuggerHiddenAttribute$</Attribute>`.
-
-  > [!TIP]
-  > If you exclude the <xref:System.Runtime.CompilerServices.CompilerGeneratedAttribute> attribute, code that uses language features such as `async`, `await`, `yield return`, and auto-implemented properties is excluded from code coverage analysis. To exclude truly generated code, only exclude the <xref:System.CodeDom.Compiler.GeneratedCodeAttribute> attribute.
-
-- **Function** - matches procedures, functions, or methods by fully qualified name. To match a function name, the regular expression must match the fully qualified name of the function, including namespace, class name, method name, and parameter list. For example:
-
-   ```csharp
-   Fabrikam.Math.LocalMath.SquareRoot(double);
-   ```
-
-   ```cpp
-   Fabrikam::Math::LocalMath::SquareRoot(double)
-   ```
-
-   ```xml
-   <Functions>
-     <Include>
-       <!-- Include methods in the Fabrikam namespace: -->
-       <Function>^Fabrikam\..*</Function>
-       <!-- Include all methods named EqualTo: -->
-       <Function>.*\.EqualTo\(.*</Function>
-     </Include>
-     <Exclude>
-       <!-- Exclude methods in a class or namespace named UnitTest: -->
-       <Function>.*\.UnitTest\..*</Function>
-     </Exclude>
-   </Functions>
-   ```
+For more information about regular expressions, see [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
 
 ## Sample .runsettings file
 

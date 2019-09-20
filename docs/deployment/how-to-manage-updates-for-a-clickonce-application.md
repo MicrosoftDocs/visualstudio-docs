@@ -103,6 +103,6 @@ ms.workload:
 - <xref:System.Deployment.Application.ApplicationDeployment>
 - [Application updates dialog box](/previous-versions/visualstudio/visual-studio-2010/axw1fa38(v=vs.100))
 - [Choose a ClickOnce update strategy](../deployment/choosing-a-clickonce-update-strategy.md)
-- [Publish ClickOnce aplications](../deployment/publishing-clickonce-applications.md)
+- [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
 - [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
 - [How to: Check for application updates programmatically using the ClickOnce deployment API](../deployment/how-to-check-for-application-updates-programmatically-using-the-clickonce-deployment-api.md)
