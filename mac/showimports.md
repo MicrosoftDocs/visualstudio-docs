@@ -9,7 +9,7 @@ ms.custom: video
 ---
 # Show Import Items
 
-Visual Studio for Mac offers the ability to include all available types, even if they are not imported, to your IntelliSense completion list. By selecting an item which is not yet imported, the correct using statement will be added to your source file.
+Visual Studio for Mac can show all available types, even if they are not imported to your project, in your IntelliSense completion list. By selecting an item which is not yet imported, the correct using statement will be added to your source file.
 
 ![show import items overview](media/importitems-overview.gif)
 
@@ -21,11 +21,11 @@ To enable this feature, open Preferences via Visual Studio > Preferences and nav
 
 ## Usage
 
-Once you enable Show Import Items, the process of using the feature to import an item is very similar to the normal actions within IntelliSense. As you type code within  C# file, items which are valid but not yet imported will populate the completion list along with items that have been imported. Item which have not yet been imported will show their full namespace to the right of the item, allowing you to see which imports you are pulling in to your project.
+Once you enable Show Import Items, the process of using the feature to import an item is very similar to the normal actions within IntelliSense. As you type code, items which are valid will populate the completion list. This includes items which have not been imported yet. Item which have not yet been imported will show their full namespace to the right of the item, allowing you to see which imports you are pulling in to your project.
 
 ![show import items list](media/show-import-items-list.png)
 
-If a you have a NuGet package added to your project, but not yet imported into your code file, the namespace for the package will be listed along others. However, if the NuGet is not added to the project, the import will not be available or listed within your completion list.
+For example, if a you have a NuGet package added to your project, but not yet imported into your code file, the namespace for the package will be listed along with packages provided by the framework. However, if the NuGet package is not added to the project, the import will not be available or listed within your completion list.
 
 
 
