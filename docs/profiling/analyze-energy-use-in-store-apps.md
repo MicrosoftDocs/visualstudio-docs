@@ -151,5 +151,5 @@ if (performance && performance.mark) {
 
 ## See also
 
-- [Profiling in Visual Studio](../profiling/index.md)
+- [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)
