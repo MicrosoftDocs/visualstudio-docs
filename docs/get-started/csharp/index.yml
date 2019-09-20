@@ -26,8 +26,8 @@ landingContent:
       - linkListType: how-to-guide
         links:
           - text: Install Visual Studio
-            url: ./../install/install-visual-studio.md
-      - linkListType: how-to-guide
+            url: ../../install/install-visual-studio.md
+      - linkListType: get-started
         links:
           - text: Start a guided tour 
             url: visual-studio-ide.md
@@ -39,24 +39,14 @@ landingContent:
         links:
           - text: Create a console app
             url: tutorial-console.md
-      - linkListType: tutorial
-        links:
           - text: Create a web app 
             url: tutorial-aspnet-core.md
-      - linkListType: tutorial
-        links:
           - text: Create your first ASP.NET Core app
             url: tutorial-aspnet-core-ef-step-01.md 
-      - linkListType: tutorial
-        links:
           - text: Create a Universal Windows Platform app 
             url: tutorial-uwp.md
-      - linkListType: tutorial
-        links:
           - text: Create a Windows Desktop app
             url: tutorial-wpf.md
-      - linkListType: tutorial
-        links:
           - text: Learn about the C# language
             url: /dotnet/csharp/tutorials/intro-to-csharp/
        
@@ -67,20 +57,12 @@ landingContent:
         links:
           - text: Open code from a repo
             url: ../tutorial-open-project-from-repo.md?
-      - linkListType: get-started
-        links:
           - text: Write and edit code 
             url: tutorial-editor.md
-      - linkListType: overview
-        links:
           - text: Compile and build 
             url: ../../ide/compiling-and-building-in-visual-studio.md
-      - linkListType: tutorial
-        links:
           - text: Debug your code
             url: ../csharp/tutorial-debugger.md
-      - linkListType: get-started
-        links:
           - text: Test your code
             url: ../../test/getting-started-with-unit-testing.md
       - linkListType: how-to-guide
