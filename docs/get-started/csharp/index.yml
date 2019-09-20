@@ -48,6 +48,10 @@ landingContent:
             url: tutorial-aspnet-core.md
       - linkListType: tutorial
         links:
+          - text: Create your first ASP.NET Core app
+            url: tutorial-aspnet-core-ef-step-01.md 
+      - linkListType: tutorial
+        links:
           - text: Create a Universal Windows Platform app 
             url: tutorial-uwp.md
       - linkListType: tutorial
@@ -58,11 +62,7 @@ landingContent:
         links:
           - text: Learn about the C# language
             url: /dotnet/csharp/tutorials/intro-to-csharp/
-      - linkListType: video
-        links:
-          - text: Create your first ASP.NET Core app
-            url: tutorial-aspnet-core-ef-step-01.md          
-
+       
   # Card
   - title: Learn Visual Studio
     linkLists:
