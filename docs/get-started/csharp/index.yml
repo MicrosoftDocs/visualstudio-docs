@@ -58,7 +58,7 @@ landingContent:
         links:
           - text: Learn about the C# language
             url: /dotnet/csharp/tutorials/intro-to-csharp/
-        - linkListType: video
+      - linkListType: video
         links:
           - text: Create your first ASP.NET Core app
             url: tutorial-aspnet-core-ef-step-01.md          
