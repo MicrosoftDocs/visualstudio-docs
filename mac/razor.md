@@ -18,25 +18,22 @@ This guide provides an introduction to creating your first Razor web app. For a 
 
 ## Creating a new Razor project
 
-* From the welcome screen, select **New** to create a new project:
+1. From the welcome screen, select **New** to create a new project:
 
-![Visual Studio for Mac new project](media/razor-new.png)
+   ![Visual Studio for Mac new project](media/razor-new.png)
+1. In the New Project dialogue, navigate to **.NET Core** > **App** > **Web Application** and select the **Next** button:
 
-* In the New Project dialogue, navigate to **.NET Core** > **App** > **Web Application** and select the **Next** button:
+   ![Razor project template](media/razor-new-project1.png)
+1. Select your .NET Core Target Framework required (recommended 2.2 or above) and select **Next**.  Choose a name for your project, and add git support if required. Select **Create** to create the project.
 
-![Razor project template](media/razor-new-project1.png)
+   ![Razor project name](media/razor-new-project2.png)
 
-* Select your .NET Core Target Framework required (recommended 2.2 or above) and select **Next**.  Choose a name for your project, and add git support if required. Select **Create** to create the project.
+   Visual Studio for Mac will open your project in the Code layout.
+1. Run the project without debugging using **Cmd-Opt-F5**
 
-![Razor project name](media/razor-new-project2.png)
+   Visual Studio will start [Kestral](https://docs.microsoft.com/aspnet/core/fundamentals/servers/kestrel) and launch a browser to `https://localhost:5001` and display your first Razor web app:
 
-Visual Studio for Mac will open your project in the Code layout.
-
-* Run the project without debugging using **Cmd-Opt-F5**
-
-Visual Studio will start [Kestral](https://docs.microsoft.com/aspnet/core/fundamentals/servers/kestrel) and launch a browser to `https://localhost:5001` and display your first Razor web app:
-
-![Razor web app in Safari](media/razor-webapp.png)
+   ![Razor web app in Safari](media/razor-webapp.png)
 
 ## Project anatomy
 
@@ -72,6 +69,6 @@ Contains the entry point for the program. For more information, see [ASP.NET Cor
 
 Contains code that configures app behavior, such as whether it requires consent for cookies. For more information, see [App startup in ASP.NET Core](https://docs.microsoft.com/aspnet/core/fundamentals/startup).
 
-## See aso
+## See also
 
-For a more comprehensive guide on creating Razor web apps see [Introduction to Razor Pages in ASP.NET Core](https://docs.microsoft.com/aspnet/core/razor-pages/index).
+For a more comprehensive guide on creating Razor web apps, see [Introduction to Razor Pages in ASP.NET Core](https://docs.microsoft.com/aspnet/core/razor-pages/index).
