@@ -68,7 +68,7 @@ landingContent:
             url: watch-and-quickwatch-windows.md
 
     # Card
-  - title: More debugging features
+  - title: Go deeper with the debugger
     linkLists:
       - linkListType: how-to-guide
         links:
@@ -76,7 +76,9 @@ landingContent:
             url: debugger-tips-and-tricks.md
           - text: Write and debug running XAML code
             url: xaml-hot-reload.md
-          - name: Debug a live Azure app
+          - text: Debug a live Azure app
             url: debug-live-azure-applications.md
+          - text: Tell the debugger what to show
+            url: using-the-debuggerdisplay-attribute.md
           - text: Remote debugging
             url: remote-debugging.md
