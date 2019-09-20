@@ -1,7 +1,7 @@
 ---
 title: Create a database file and use table designer
 description: Tutorial that describes how to add tables and foreign keys to a database by using Table Designer in Visual Studio. It also shows how to add data through the graphical interface.
-ms.date: 11/03/2017
+ms.date: 09/19/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "database tables, creating"
@@ -20,19 +20,7 @@ You can use Visual Studio to create and update a local database file in SQL Serv
 
 ## Prerequisites
 
-To complete this walkthrough, you must have the optional **Data storage and processing** workload installed in Visual Studio. To install it, open **Visual Studio Installer** and choose **Modify** or **More** > **Modify** next to the version of Visual Studio you want to modify.
-
-::: moniker range=">=vs-2019"
-
-On the **Workloads** tab, under **Other Toolsets**, choose **Data storage and processing**, and then click **Modify** to add the workload to Visual Studio.
-
-::: moniker-end
-
-::: moniker range="=vs-2017"
-
-On the **Workloads** tab, under **Web & Cloud**, choose **Data storage and processing**, and then click **Modify** to add the workload to Visual Studio.
-
-::: moniker-end
+To complete this walkthrough, you'll need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify.
 
 ## Create a project and a local database file
 
@@ -42,7 +30,7 @@ On the **Workloads** tab, under **Web & Cloud**, choose **Data storage and proce
 
 3. In the list of item templates, scroll down and select **Service-based Database**.
 
-     ![Item Templates dialog box](../data-tools/media/raddata-vsitemtemplates.png)
+   ![Item Templates dialog box](../data-tools/media/raddata-vsitemtemplates.png)
 
 4. Name the database **SampleDatabase**, and then click **Add**.
 
@@ -50,7 +38,9 @@ On the **Workloads** tab, under **Web & Cloud**, choose **Data storage and proce
 
 1. If the **Data Sources** window isn't open, open it by pressing **Shift**+**Alt**+**D** or selecting **View** > **Other Windows** > **Data Sources** on the menu bar.
 
-1. In the **Data Sources** window, select the **Add New Data Source** link.
+1. In the **Data Sources** window, select **Add New Data Source**.
+
+   ![Add new data source in Visual Studio](media/add-new-data-source.png)
 
    The **Data Source Configuration Wizard** opens.
 
@@ -62,15 +52,15 @@ On the **Workloads** tab, under **Web & Cloud**, choose **Data storage and proce
 
 1. On the **Save the Connection String to the Application Configuration File** page, choose **Next**.
 
-1. One the **Choose your Database Objects** page, you'll see a message that says the database doesn't contain any objects. Choose **Finish**.
+1. On the **Choose your Database Objects** page, you'll see a message that says the database doesn't contain any objects. Choose **Finish**.
 
 ### View properties of the data connection
 
-You can view the connection string for the *SampleDatabase.mdf* file by opening the properties window of the data connection:
+You can view the connection string for the *SampleDatabase.mdf* file by opening the Properties window of the data connection:
 
 - Select **View** > **SQL Server Object Explorer** to open the **SQL Server Object Explorer** window. Expand **(localdb)\MSSQLLocalDB** > **Databases**, and then right-click on *SampleDatabase.mdf* and select **Properties**.
 
-- Alternatively, you can select **View** > **Server Explorer**, if that window isn't already open. Open the properties window by expanding the **Data Connections** node, opening the shortcut menu for *SampleDatabase.mdf*, and then selecting **Properties**.
+- Alternatively, you can select **View** > **Server Explorer**, if that window isn't already open. Open the Properties window by expanding the **Data Connections** node, right-clicking on *SampleDatabase.mdf*, and then selecting **Properties**.
 
 ## Create tables and keys by using Table Designer
 
@@ -80,83 +70,85 @@ In this section, you'll create two tables, a primary key in each table, and a fe
 
 1. In **Server Explorer**, expand the **Data Connections** node, and then expand the **SampleDatabase.mdf** node.
 
-2. Open the shortcut menu for **Tables**, and then select **Add New Table**.
+2. Right-click on **Tables** and select **Add New Table**.
 
-     The **Table Designer** opens and shows a grid with one default row, which represents a single column in the table that you're creating. By adding rows to the grid, you'll add columns in the table.
+   The Table Designer opens and shows a grid with one default row, which represents a single column in the table that you're creating. By adding rows to the grid, you'll add columns in the table.
 
 3. In the grid, add a row for each of the following entries:
 
-    |Column name|Data type|Allow nulls|
-    |-----------------|---------------|-----------------|
-    |`CustomerID`|`nchar(5)`|False (cleared)|
-    |`CompanyName`|`nvarchar(50)`|False (cleared)|
-    |`ContactName`|`nvarchar (50)`|True (selected)|
-    |`Phone`|`nvarchar (24)`|True (selected)|
+   |Column name|Data type|Allow nulls|
+   |-----------------|---------------|-----------------|
+   |`CustomerID`|`nchar(5)`|False (cleared)|
+   |`CompanyName`|`nvarchar(50)`|False (cleared)|
+   |`ContactName`|`nvarchar (50)`|True (selected)|
+   |`Phone`|`nvarchar (24)`|True (selected)|
 
-4. Open the shortcut menu for the `CustomerID` row, and then select **Set Primary Key**.
+4. Right-click on the `CustomerID` row, and then select **Set Primary Key**.
 
-5. Open the shortcut menu for the default row, and then select **Delete**.
+5. Right-click on the default row (`Id`), and then select **Delete**.
 
 6. Name the Customers table by updating the first line in the script pane to match the following sample:
 
-    ```sql
-    CREATE TABLE [dbo].[Customers]
-    ```
+   ```sql
+   CREATE TABLE [dbo].[Customers]
+   ```
 
-    You should see something like this:
+   You should see something like this:
 
-    ![Table Designer](../data-tools/media/raddata-table-designer.png)
+   ![Table Designer](../data-tools/media/table-designer.png)
 
 7. In the upper-left corner of **Table Designer**, select **Update**.
 
 8. In the **Preview Database Updates** dialog box, select **Update Database**.
 
-    Your changes are saved to the local database file.
+   The Customers table is created in the local database file.
 
 ### Create the Orders table
 
 1. Add another table, and then add a row for each entry in the following table:
 
-    |Column name|Data type|Allow nulls|
-    |-----------------|---------------|-----------------|
-    |`OrderID`|`int`|False (cleared)|
-    |`CustomerID`|`nchar(5)`|False (cleared)|
-    |`OrderDate`|`datetime`|True (selected)|
-    |`OrderQuantity`|`int`|True (selected)|
+   |Column name|Data type|Allow nulls|
+   |-----------------|---------------|-----------------|
+   |`OrderID`|`int`|False (cleared)|
+   |`CustomerID`|`nchar(5)`|False (cleared)|
+   |`OrderDate`|`datetime`|True (selected)|
+   |`OrderQuantity`|`int`|True (selected)|
 
 2. Set **OrderID** as the primary key, and then delete the default row.
 
 3. Name the Orders table by updating the first line in the script pane to match the following sample:
 
-    ```sql
-    CREATE TABLE [dbo].[Orders]
-    ```
+   ```sql
+   CREATE TABLE [dbo].[Orders]
+   ```
 
-4. In the upper-left corner of the **Table Designer**, select the **Update** button.
+4. In the upper-left corner of the **Table Designer**, select **Update**.
 
-5. In the **Preview Database Updates** dialog box, select the **Update Database** button.
+5. In the **Preview Database Updates** dialog box, select **Update Database**.
 
-    Your changes are saved to the local database file.
+   The Orders table is created in the local database file. If you expand the **Tables** node in Server Explorer, you see the two tables:
+
+   ![Tables node expanded in Server Explorer](media/server-explorer-tables-node.png)
 
 ### Create a foreign key
 
-1. In the context pane on the right side of the grid, open the shortcut menu for **Foreign Keys**, and then select **Add New Foreign Key**, as the following illustration shows.
+1. In the context pane on the right side of the Table Designer grid for the Orders table, right-click on **Foreign Keys** and select **Add New Foreign Key**.
 
-     ![Adding a foreign key in Table Designer](../data-tools/media/foreignkey.png)
+   ![Add a foreign key in Table Designer in Visual Studio](../data-tools/media/add-foreign-key.png)
 
-2. In the text box that appears, replace **ToTable** with **Customers**.
+2. In the text box that appears, replace the text **ToTable** with **Customers**.
 
 3. In the T-SQL pane, update the last line to match the following sample:
 
-    ```sql
-    CONSTRAINT [FK_Orders_Customers] FOREIGN KEY ([CustomerID]) REFERENCES [Customers]([CustomerID])
-    ```
+   ```sql
+   CONSTRAINT [FK_Orders_Customers] FOREIGN KEY ([CustomerID]) REFERENCES [Customers]([CustomerID])
+   ```
 
-4. In the upper-left corner of the **Table Designer**, select the **Update** button.
+4. In the upper-left corner of the **Table Designer**, select **Update**.
 
-5. In the **Preview Database Updates** dialog box, select the **Update Database** button.
+5. In the **Preview Database Updates** dialog box, select **Update Database**.
 
-    Your changes are saved to the local database file.
+   The foreign key is created.
 
 ## Populate the tables with data
 
