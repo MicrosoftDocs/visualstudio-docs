@@ -66,6 +66,8 @@ landingContent:
             url: autos-and-locals-windows.md
           - text: Set a watch on variables
             url: watch-and-quickwatch-windows.md
+          - text: View the call stack
+            url: how-to-use-the-call-stack-window.md
 
     # Card
   - title: Go deeper with the debugger
