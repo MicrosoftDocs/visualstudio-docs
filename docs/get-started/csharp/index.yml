@@ -5,6 +5,7 @@ summary: Create C# apps with Visual Studio.
 brand: visual-studio
 documentType: LandingData
 title: Visual Studio tutorials | C#
+
 metadata:
   title: C# Development with Visual Studio
   description: Create C# apps by using Visual Studio.
@@ -20,104 +21,73 @@ metadata:
   dev_langs:
     - CSharp
 
-landingContent:
-- title: Get Started
-  items:
-  - type: list
-    style: cards
-    className: cardsM
-    columns: 3
-    items:
-    - href: ../../install/install-visual-studio.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_setup.svg
-      title: Install Visual Studio
-    - href: visual-studio-ide.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/logos/logo_visual-studio.svg
-      title: Start a guided tour
-- title: C# tutorials
-  items:
-  - type: list
-    style: cards
-    className: cardsM
-    columns: 3
-    items:
-    - href: tutorial-console.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/logos/logo_csharp.svg
-      title: Create your first C# app
-    - href: tutorial-aspnet-core.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_web-color.svg
-      title: Create a web app
-    - href: tutorial-uwp.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/logos/logo_Windows.svg
-      title: Create a Universal Windows App
-    - href: tutorial-wpf.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/logos/logo_Windows.svg
-      title: Create a Windows Desktop app
-    - href: /dotnet/csharp/tutorials/intro-to-csharp/
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/logos/logo_csharp.svg
-      title: Learn the C# language
-- title: Video tutorials 
-  items:
-  - type: list
-    style: cards
-    classname: cardsM
-    columns: 3
-    items:
-    - href: tutorial-aspnet-core-ef-step-01.md
-      html: <p>Use Visual Studio 2019 to create a web app that uses data and exposes a web API, and deploy it to Azure.</p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_video.svg
-      title: Create your first ASP.NET Core app
-- title: Learn Visual Studio
-  items:
-  - type: paragraph
-    text: 'Learn how to use Visual Studio for your development tasks.'
-  - type: list
-    style: cards
-    className: cardsM
-    columns: 3
-    items:
-    - href: ../tutorial-open-project-from-repo.md?toc=/visualstudio/get-started/csharp/toc.json&bc=/visualstudio/get-started/csharp/breadcrumb/toc.json
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_pull-request.svg
-      title: Open code from a repo
-    - href: tutorial-editor.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_code-edit.svg
-      title: Write and edit code
-    - href: ../../ide/compiling-and-building-in-visual-studio.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_build.svg
-      title: Compile and build
-    - href: ../csharp/tutorial-debugger.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_debug.svg
-      title: Debug your code
-    - href: ../../test/getting-started-with-unit-testing.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_test.svg
-      title: Test your code
-    - href: ../../data-tools/create-a-sql-database-by-using-a-designer.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_generic-database.svg
-      title: Access data
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+
+landingContent: 
+  # Card
+  - title: Get started
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Install Visual Studio
+            url: ./../install/install-visual-studio.md
+      - linkListType: how-to-guide
+        links:
+          - text: Start a guided tour 
+            url: visual-studio-ide.md
+
+  # Card
+  - title: Create C# apps
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Create a console app
+            url: tutorial-console.md
+      - linkListType: tutorial
+        links:
+          - text: Create a web app 
+            url: tutorial-aspnet-core.md
+      - linkListType: tutorial
+        links:
+          - text: Create a Universal Windows Platform app 
+            url: tutorial-uwp.md
+      - linkListType: tutorial
+        links:
+          - text: Create a Windows Desktop app
+            url: tutorial-wpf.md
+      - linkListType: tutorial
+        links:
+          - text: Learn about the C# language
+            url: /dotnet/csharp/tutorials/intro-to-csharp/
+        - linkListType: video
+        links:
+          - text: Create your first ASP.NET Core app
+            url: tutorial-aspnet-core-ef-step-01.md          
+
+  # Card
+  - title: Learn Visual Studio
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Open code from a repo
+            url: ../tutorial-open-project-from-repo.md?
+      - linkListType: get-started
+        links:
+          - text: Write and edit code 
+            url: tutorial-editor.md
+      - linkListType: overview
+        links:
+          - text: Compile and build 
+            url: ../../ide/compiling-and-building-in-visual-studio.md
+      - linkListType: tutorial
+        links:
+          - text: Debug your code
+            url: ../csharp/tutorial-debugger.md
+      - linkListType: get-started
+        links:
+          - text: Test your code
+            url: ../../test/getting-started-with-unit-testing.md
+      - linkListType: how-to-guide
+        links:
+          - text: Access data
+            url:  ../../data-tools/create-a-sql-database-by-using-a-designer.md
