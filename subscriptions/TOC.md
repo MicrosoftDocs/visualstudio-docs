@@ -1,4 +1,4 @@
-# [Visual Studio subscriptions](index.md)
+# [Visual Studio subscriptions](index.yml)
 ## [What's New](whats-new-in-subscriptions.md)
 ## Subscriptions
 ### Buy subscriptions
