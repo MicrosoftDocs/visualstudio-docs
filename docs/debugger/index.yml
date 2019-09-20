@@ -66,3 +66,17 @@ landingContent:
             url: autos-and-locals-windows.md
           - text: Set a watch on variables
             url: watch-and-quickwatch-windows.md
+
+    # Card
+  - title: More debugging features
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Debugger tips and tricks
+            url: debugger-tips-and-tricks.md
+          - text: Write and debug running XAML code
+            url: xaml-hot-reload.md
+          - name: Debug a live Azure app
+            url: debug-live-azure-applications.md
+          - text: Remote debugging
+            url: remote-debugging.md
