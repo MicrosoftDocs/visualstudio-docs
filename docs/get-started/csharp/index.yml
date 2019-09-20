@@ -1,22 +1,26 @@
-### YamlMime:YamlDocument
+### YamlMime:Landing
+
+title: Visual Studio tutorials | C# 
+summary: Create C# apps with Visual Studio.
+brand: visual-studio
 documentType: LandingData
 title: Visual Studio tutorials | C#
 metadata:
-  title: C# Development with Visual Studio | Microsoft Docs
-  description: Tutorials and conceptual articles about developing C# apps with Visual Studio.
+  title: C# Development with Visual Studio
+  description: Create C# apps by using Visual Studio.
   ms.custom: seodec18
+  ms.topic: landing-page
+  ms.date: 09/20/2019
+  search
   author: ghogen
+  ms.author: ghogen  
   manager: jillfra
   ms.prod: visual-studio-windows
-  ms.technology: vs-acquisition
-  ms.topic: landing-page
-  ms.date: 10/30/2018
-  ms.author: ghogen
+  ms.technology: vs-acquisition  
   dev_langs:
     - CSharp
-abstract:
-  description: This page contains links to beginner tutorials for learning how to create C# apps with Visual Studio. For the full Visual Studio documentation, see <a href="/visualstudio/ide/">Visual Studio</a>. For the C# language documentation, see the <a href="/dotnet/csharp">C# Guide</a>.
-sections:
+
+landingContent:
 - title: Get Started
   items:
   - type: list
