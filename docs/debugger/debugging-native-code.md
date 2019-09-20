@@ -68,4 +68,4 @@ The section covers some common debugging problems and techniques for native appl
 ## See Also
 
 - [Debugger Security](../debugger/debugger-security.md)
-- [Debugging in Visual Studio](../debugger/index.md)
+- [Debugging in Visual Studio](../debugger/index.yml)

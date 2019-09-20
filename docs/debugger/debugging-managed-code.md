@@ -77,5 +77,5 @@ Describes common debugging problems and techniques you may encounter when debugg
 
 - [Walkthrough: Debug Custom Windows Forms Controls at Design Time](/dotnet/framework/winforms/controls/walkthrough-debugging-custom-windows-forms-controls-at-design-time)
 - [Debugger Security](../debugger/debugger-security.md)
-- [Debugging in Visual Studio](../debugger/index.md)
+- [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
