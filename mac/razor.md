@@ -12,26 +12,23 @@ ms.assetid: F898CB6E-05ED-44CD-8DB6-427B2592CCC6
 
 This guide offers an introduction to creating your first Razor web app. For more in-depth guidance, see [Introduction to Razor Pages in ASP.NET Core](https://docs.microsoft.com/aspnet/core/razor-pages/index).
 
-Visual Studio for Mac provides support for Razor editing, including IntelliSense and syntax highlighting in *.cshtml* files.
+Visual Studio for Mac provides support for Razor editing, including IntelliSense and syntax highlighting in *.cshtml* files. New in Visual Studio 2019 for Mac 8.3+ is the ability to have context aware IntelliSense within a Razor file, so that you receive IntelliSense that matches the language you are currently editing within a document.
 
-![Razor editing in Visual Studio for Mac](media/razor-editor.png)
+![Razor editing in Visual Studio for Mac](media/razor-2019.png)
 
 ## Creating a new Razor project
 
 1. On the welcome screen, select **New** to create a new project:
 
-     ![Visual Studio for Mac new project](media/razor-new.png)
-
+   ![Visual Studio for Mac new project](media/razor-new.png)
 1. In the **New Project** dialog box, go to **.NET Core** > **App** > **Web Application** and select **Next**:
 
-     ![Razor project template](media/razor-new-project1.png)
-
+   ![Razor project template](media/razor-new-project1.png)
 1. Select your .NET Core target framework (we recommend version 2.2 or later), and then select **Next**. Choose a name for your project, and add Git support if necessary. Select **Create** to create the project.
 
-     ![Razor project name](media/razor-new-project2.png)
+   ![Razor project name](media/razor-new-project2.png)
 
    Visual Studio for Mac opens your project in the Code layout window.
-
 1. Run the project without debugging by using **Command+Option+F5**.
 
    Visual Studio starts [Kestrel](https://docs.microsoft.com/aspnet/core/fundamentals/servers/kestrel), opens a browser to `https://localhost:5001`, and displays your first Razor web app.
