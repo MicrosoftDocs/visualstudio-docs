@@ -57,6 +57,10 @@ First, create a Universal Windows Platform project. The project type comes with 
    > [!NOTE]
    > If you don't see the **Blank App (Universal Windows)** project template, click the **Install more tools and features** link.<br><br>![Click the Install more tools and features link](media/vs-2019/uwp-not-finding.png)<br><br>The Visual Studio Installer launches. Choose the **Universal Windows Platform development** workload, and then choose **Modify**.<br><br>![Universal Windows Platform development workload in the Visual Studio Installer](media/uwp-dev-workload.png)
 
+1. Give the project a name, _HelloWorld_, and choose **Create**.
+
+   ![Configure your project screen](media/vs-2019/uwp-configure-your-project.png)
+
 1. Accept the default **Target version** and **Minimum version** settings in the **New Universal Windows Platform Project** dialog box.
 
    ![Accept the default Target version and Minimum version settings in the New Universal Windows Platform Project dialog box](media/vs-2019/new-uwp-project-target-minver-dialog.png)
@@ -158,7 +162,12 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 
 1. View your app, which appears soon after a splash screen disappears. The app should look similar to this:
 
+::: moniker range="vs-2017"
    ![A UWP "Hello World" app](media/uwp-hello-world-app.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+   ![A UWP "Hello World" app](media/vs-2019/uwp-hello-world-app.png)
+::: moniker-end
 
 1. Click the **Hello World** button.
 
