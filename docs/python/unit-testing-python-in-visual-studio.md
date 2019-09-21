@@ -72,9 +72,8 @@ Visual Studio allows you to run and test existing Python code without a project,
 
 ::: moniker-end
 
-## Discover and view tests
-
 ::: moniker range="vs-2017"
+## Discover and view tests
 
 By convention, Visual Studio identifies tests as methods whose names start with `test`. To see this behavior, do the following:
 
@@ -111,6 +110,7 @@ For more information on the `unittest` module and writing tests, see the [Python
 ::: moniker-end
 
 ::: moniker-range=">=vs-2019"
+## Discover and view tests
 
 By default, Visual Studio identifies **unittest** tests as methods whose names start with `test`, while **pytest** has no required convention. To see test discovery, do the following:
 
