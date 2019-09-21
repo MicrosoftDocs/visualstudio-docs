@@ -43,6 +43,7 @@ Visual Studio allows you to run and test existing Python code without a project,
 1. Navigate to the **PythonSettings.json** file within the **Local Settings** folder. If you don't see this file in the **Local Settings** folder, create it manually.
    
 1. Add the field **TestFramework** to the settings file and set it to **pytest** or **unittest** depending on the testing framework you want to use.
+
     ```json
     {
     "TestFramework": "unittest",
@@ -50,10 +51,12 @@ Visual Studio allows you to run and test existing Python code without a project,
     "UnitTestPattern": "test_*.py"
     }
     ```
+
     > [!Note]
     > For the **unittest** framework, if the fields **UnitTestRootDirectory** and **UnitTestPattern** are not specified in the PythonSettings.json file, the are added and assigned default values of "." and "test*.py" respectively.
 
 1. If your folder contains a **src** directory that is separate from the folder that contains your tests, specify the path to the **src** folder using the **SearchPaths** field in your **PythonSettings.json** file.
+
     ```json
     {
     "TestFramework": "unittest",
@@ -62,6 +65,7 @@ Visual Studio allows you to run and test existing Python code without a project,
     "SearchPaths": [ ".\\src"]
     }
     ```
+
 1. Save your changes to the PythonSettings.json file to initiate test discovery for the specified framework. 
    > [!Note]
    > If the Test Explorer window is already open **CTRL** + **R,A** also triggers discovery.
@@ -101,9 +105,11 @@ By convention, Visual Studio identifies tests as methods whose names start with 
 1. You can also enter text in the **Search** field to filter tests by name.
 
 For more information on the `unittest` module and writing tests, see the [Python 2.7 documentation](https://docs.python.org/2/library/unittest.html) or the [Python 3.7 documentation](https://docs.python.org/3/library/unittest.html) (python.org).
+
 ::: moniker-end
 
 ::: moniker-range=">=vs-2019"
+
 By default, Visual Studio identifies **unittest** tests as methods whose names start with `test`, while **pytest** has no required convention. To see test discovery, do the following:
 
 1. Open a [Python project](managing-python-projects-in-visual-studio.md).
@@ -140,6 +146,7 @@ By default, Visual Studio identifies **unittest** tests as methods whose names s
 1. You can also enter text in the **Search** field to filter tests by name.
 
 For more information on the `unittest` module and writing tests, see the [Python 2.7 documentation](https://docs.python.org/2/library/unittest.html) or the [Python 3.7 documentation](https://docs.python.org/3/library/unittest.html) (python.org).
+
 ::: moniker-end
 
 ## Run tests
@@ -167,8 +174,10 @@ Tests run in the background and **Test Explorer** updates each test's status as 
 Because unit tests are pieces of code, they are subject to bugs just like any other code and occasionally need to be run in a debugger. In the debugger you can set breakpoints, examine variables, and step through code. Visual Studio also provides diagnostic tools for unit tests.
 
 ::: moniker-range=">=vs-2019"
+
 > [!Note]
 > By default, test debugging uses the ptvsd 4 debugger. If you would like to instead use ptvsd 3, you can select the **Use Legacy Debugger** option on **Tools** > **Options** > **Python** > **Debugging**. 
+
 ::: moniker-end
 
 To start debugging, set an initial breakpoint in your code, then right-click the test (or a selection) in **Test Explorer** and select **Debug Selected Tests**. Visual Studio starts the Python debugger as it would for application code.
@@ -178,10 +187,12 @@ To start debugging, set an initial breakpoint in your code, then right-click the
 You can also use the **Analyze Code Coverage for Selected Tests**. For more information, see [Use code coverage to determine how much code is tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
 ::: moniker-range="vs-2017"
+
 ### Known issues
 
 - When starting debugging, Visual Studio appears to start and stop debugging, and then start again. This behavior is expected.
 - When debugging multiple tests, each one is run independently, which interrupts the debugging session.
 - Visual Studio intermittently fails to start a test when debugging. Normally, attempting to debug the test again succeeds.
 - When debugging, it is possible to step out of a test into the `unittest` implementation. Normally, the next step runs to the end of the program and stops debugging.
+
 ::: moniker-end
