@@ -17,7 +17,7 @@ ms.topic: include
 
 By convention, Visual Studio identifies tests as methods whose names start with `test`. To see this behavior, do the following:
 
-1. Open a [Python project](../../python-projects-in-visual-studio.md) loaded in Visual Studio, right-click your project, select **Add** > **New Item**, then select **Python Unit Test** followed by **Add**.
+1. Open a [Python project](../../managing-python-projects-in-visual-studio.md) loaded in Visual Studio, right-click your project, select **Add** > **New Item**, then select **Python Unit Test** followed by **Add**.
 
 1. This action creates a *test1.py* file with code that imports the standard `unittest` module, derives a test class from `unittest.TestCase`, and invokes `unittest.main()` if you run the script directly:
 

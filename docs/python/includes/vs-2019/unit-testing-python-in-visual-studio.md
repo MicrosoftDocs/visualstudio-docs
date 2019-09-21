@@ -23,7 +23,7 @@ Visual Studio supports two testing frameworks for Python, [unittest](https://doc
 Once you've saved your framework selection and settings, test discovery is initiated in the Test Explorer. If the Test Explorer window is not already open, navigate to the toolbar and select **Test** > **Test Explorer**.
 
 ## Configure testing for Python without a project
-Visual Studio allows you to run and test existing Python code without a project, by [opening a folder](../../quickstart-05-python-visual-studio-open-folder.md) with Python code instead. Under these circumstances, you'll need to use a **PythonSettings.json** file to configure testing. 
+Visual Studio allows you to run and test existing Python code without a project, by [opening a folder](../../quickstart-05-python-visual-studio-open-folder.md) with Python code. Under these circumstances, you'll need to use a **PythonSettings.json** file to configure testing. 
 1. Open your existing Python code using the **Open a Local Folder** option. 
 
    ![The Visual Studio startup screen](../../media/quickstart-open-folder/01-open-local-folder.png)
@@ -45,7 +45,7 @@ Visual Studio allows you to run and test existing Python code without a project,
     ```
 
     > [!Note]
-    > For the **unittest** framework, if the fields **UnitTestRootDirectory** and **UnitTestPattern** are not specified in the PythonSettings.json file, the are added and assigned default values of "." and "test*.py" respectively.
+    > For the **unittest** framework, if the fields **UnitTestRootDirectory** and **UnitTestPattern** are not specified in the PythonSettings.json file, they are added and assigned default values of "." and "test*.py" respectively.
 
 1. If your folder contains a **src** directory that is separate from the folder that contains your tests, specify the path to the **src** folder using the **SearchPaths** field in your **PythonSettings.json** file.
 
