@@ -73,7 +73,9 @@ Visual Studio allows you to run and test existing Python code without a project,
 ::: moniker-end
 
 ## Discover and view tests
+
 ::: moniker range="vs-2017"
+
 By convention, Visual Studio identifies tests as methods whose names start with `test`. To see this behavior, do the following:
 
 1. Open a [Python project](managing-python-projects-in-visual-studio.md) loaded in Visual Studio, right-click your project, select **Add** > **New Item**, then select **Python Unit Test** followed by **Add**.
