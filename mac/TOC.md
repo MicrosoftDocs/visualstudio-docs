@@ -94,6 +94,10 @@
 ## [Mobile apps with Xamarin](/visualstudio/mac/xamarin)
 
 # [Accessibility](accessibility.md)
+## [Setting IDE accessibility options](accessibility-ide-options.md)
+## [Using macOS accessibility tools](accessibility-macos.md)
+### [Using keyboard navigation](accessibility-keyboard.md)
+### [Using VoiceOver](accessibility-voiceover.md)
 
 # Troubleshooting
 ## [Logs and Exceptions](troubleshooting.md)
