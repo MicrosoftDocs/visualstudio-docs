@@ -255,7 +255,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
  1. Each .cshtml file has an associated code file. To open the code file in the editor, expand the **Index.cshtml** node in Solution Explorer, and choose the **Index.cshtml.cs** file.
 
-     ![Choose the Index.cshtml.cs file in the Visual Studio code editor](media/vs-2019/csharp-aspnet-index-cshtml.png)
+     ![Choose the Index.cshtml.cs file in the Visual Studio code editor](media/vs-2019/csharp-aspnet-choose-index-cshtml.png)
 
  1. View the **Index.cshtml.cs** file in the code editor.
 
