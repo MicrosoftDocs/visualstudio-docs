@@ -152,6 +152,8 @@ The code uses some Windows APIs to create a speech synthesis object and then giv
 
 ## Run the application
 
+
+::: moniker range="vs-2017"
 It's time to build, deploy, and launch the "Hello World" UWP app to see what it looks and sounds like. Here's how.
 
 1. Use the Play button (it has the text **Local Machine**) to start the application on the local machine.
@@ -162,18 +164,35 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 
 1. View your app, which appears soon after a splash screen disappears. The app should look similar to this:
 
-::: moniker range="vs-2017"
    ![A UWP "Hello World" app](media/uwp-hello-world-app.png)
-::: moniker-end
-::: moniker range=">=vs-2019"
-   ![A UWP "Hello World" app](media/vs-2019/uwp-hello-world-app.png)
-::: moniker-end
 
 1. Click the **Hello World** button.
 
    Your Windows 10 device will literally say, "Hello, World!"
 
 1. To close the app, click the **Stop Debugging** button in the toolbar. (Alternatively, choose **Debug** > **Stop debugging** from the menu bar, or press Shift+F5.)
+
+::: moniker-end
+::: moniker range=">=vs-2019"
+It's time to build, deploy, and launch the "Hello World" UWP app to see what it looks and sounds like. Here's how.
+
+1. Use the Play button (it has the text **Local Machine**) to start the application on the local machine.
+
+   ![Click Local Machine to start and debug your UWP app](media/uwp-start-or-debug.png)
+
+   (Alternatively, you can choose **Debug** > **Start Debugging** from the menu bar or press F5 to start your app.)
+
+1. View your app, which appears soon after a splash screen disappears. The app should look similar to this:
+
+   ![A UWP "Hello World" app](media/vs-2019/uwp-hello-world-app.png)
+
+1. Click the **Hello World** button.
+
+   Your Windows 10 device will literally say, "Hello, World!"
+
+1. To close the app, click the **Stop Debugging** button in the toolbar. (Alternatively, choose **Debug** > **Stop debugging** from the menu bar, or press Shift+F5.)
+
+::: moniker-end
 
 ## Next steps
 
