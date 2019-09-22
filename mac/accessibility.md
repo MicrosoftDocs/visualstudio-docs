@@ -22,7 +22,7 @@ There are a number of accessibility tools and features built right into macOS th
 
 For more information see the following topics:
 
-* [Set IDE accessibility options](accessibility-ide-options)
-* [Use macOS accessibility features and tools](accessibility-macos)
-* [Use keyboard navigation](accessibility-keyboard)
-* [Use macOS VoiceOver with Visual Studio for Mac](accessibility-voiceover)
+* [Set IDE accessibility options](accessibility-ide-options.md)
+* [Use macOS accessibility features and tools](accessibility-macos.md)
+* [Use keyboard navigation](accessibility-keyboard.md)
+* [Use macOS VoiceOver with Visual Studio for Mac](accessibility-voiceover.md)

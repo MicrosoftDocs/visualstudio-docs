@@ -47,4 +47,4 @@ Visual Studio for Mac has a range of keyboard shortcuts for various tasks. You c
 |Switch tabs|Cycle through open files|**⌘⇧[**, **⌘⇧]**|
 |Debug|Start debugging|**⌘⏎**|
 
-> [!TIP] A comprehensive list of keyboard commands can be found on the [Keyboard Shortcuts](keyboard-shortcuts) page.
+> [!TIP] A comprehensive list of keyboard commands can be found on the [Keyboard Shortcuts](keyboard-shortcuts.md) page.
