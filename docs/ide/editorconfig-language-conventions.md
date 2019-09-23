@@ -1,6 +1,6 @@
 ---
 title: .NET language conventions for EditorConfig
-ms.date: 07/17/2019
+ms.date: 09/23/2019
 ms.topic: reference
 dev_langs:
   - "CSharp"
@@ -19,10 +19,11 @@ ms.workload:
 Language conventions for EditorConfig in Visual Studio fall into two categories: those that apply to Visual Basic and C#, and those that are C# specific. Language conventions affect how various aspects of a programming language are used, for example, modifiers and parentheses.
 
 > [!TIP]
-> - Use the **In this article** links to jump to different sections of the page.
 > - To see the code examples in your preferred programming language, choose it using the language picker at the top-right corner of the browser window.
 >
 >   ![Code language picker control](media/code-language-picker.png)
+>
+> - Use the **In this article** links to jump to different sections of the page.
 
 ## Rule format
 
@@ -30,19 +31,48 @@ Rules for language conventions have the following general format:
 
 `option_name = value:severity`
 
-For each language convention, you specify a value that defines if or when to prefer the style. Many rules accept a value of `true` (prefer this style) or `false` (do not prefer this style); others accept values such as `when_on_single_line` or `never`. The second part of the rule specifies the **severity**.
+For each language convention, you specify a value that defines if or when to prefer the style. Many rules accept a value of `true` (prefer this style) or `false` (do not prefer this style). Other rules accept values such as `when_on_single_line` or `never`. The second part of the rule specifies the [severity](#severity-levels).
 
-### Severity
+::: moniker range=">=vs-2019"
+
+> [!NOTE]
+> Because language conventions are enforced by analyzers, you can also set their severity by using the default configuration syntax for analyzers. The syntax takes the form `dotnet_diagnostic.<rule ID>.severity = <severity>`, for example, `dotnet_diagnostic.IDE0040.severity = silent`. For more information, see [Set rule severity in an EditorConfig file](../code-quality/use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file).
+
+::: moniker-end
+
+## Severity levels
 
 A language convention severity specifies the level at which to enforce that style. The following table lists the possible severity values and their effects:
 
 Severity | Effect
 :------- | ------
-`none` | Do not show anything to the user when this rule is violated. Code generation features generate code in this style, however. Rules with `none` severity never appear in the **Quick Actions and Refactorings** menu. In most cases, this is considered "disabled" or "ignored".
-`silent` (also `refactoring` in Visual Studio 2017 version 15.8 and later) | Do not show anything to the user when this rule is violated. Code generation features generate code in this style, however. Rules with `silent` severity participate in cleanup as well as appear in the **Quick Actions and Refactorings** menu.
-`suggestion` | When this style rule is violated, show it to the user as a suggestion. Suggestions appear as three gray dots under the first two characters.
-`warning` | When this style rule is violated, show a compiler warning.
 `error` | When this style rule is violated, show a compiler error.
+`warning` | When this style rule is violated, show a compiler warning.
+`suggestion` | When this style rule is violated, show it to the user as a suggestion. Suggestions appear as three gray dots under the first two characters.
+`silent` | Do not show anything to the user when this rule is violated. Code generation features generate code in this style, however. Rules with `silent` severity participate in cleanup and appear in the **Quick Actions and Refactorings** menu.
+`none` | Do not show anything to the user when this rule is violated. Code generation features generate code in this style, however. Rules with `none` severity never appear in the **Quick Actions and Refactorings** menu. In most cases, this is considered "disabled" or "ignored".
+
+::: moniker range=">=vs-2019"
+
+## Automatically configure code styles
+
+Starting in Visual Studio 2019 version 16.3, you can configure code style rules from the [Quick Actions](quick-actions.md) light bulb menu after a style violation occurs.
+
+To change the code style convention:
+
+1. Hover over the squiggle in the editor, and then open the light bulb menu that appears. Choose **Configure or Suppress issues** > **Configure \<rule ID> code style**.
+
+   ![Configure code style from light bulb menu in Visual Studio](media/vs-2019/configure-code-style.png)
+
+2. From there, choose one of the code style options.
+
+   ![Configure code style setting](media/vs-2019/configure-code-style-setting.png)
+
+   Visual Studio adds or modifies the configuration setting in the EditorConfig file, as shown in the preview box.
+
+To change the severity of the code style violation, follow the same steps, but choose **Configure \<rule ID> severity** instead of **Configure \<rule ID> code style**. For more information, see [Automatically configure rule severity](../code-quality/use-roslyn-analyzers.md#automatically-configure-rule-severity).
+
+::: moniker-end
 
 ## .NET code style settings
 
