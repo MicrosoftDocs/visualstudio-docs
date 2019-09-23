@@ -214,7 +214,7 @@ Snapshot Debugging and Application Insights depend on an ICorProfiler, which loa
 
 ## See also
 
-- [Debugging in Visual Studio](../debugger/index.md)
+- [Debugging in Visual Studio](../debugger/index.yml)
 - [Debug live ASP.NET apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md)
 - [Debug live ASP.NET Azure Virtual Machines\Virtual Machines Scale Sets using the Snapshot Debugger](../debugger/debug-live-azure-virtual-machines.md)
 - [Debug live ASP.NET Azure Kubernetes using the Snapshot Debugger](../debugger/debug-live-azure-kubernetes.md)

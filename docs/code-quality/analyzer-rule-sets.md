@@ -1,6 +1,6 @@
 ---
-title: Analyzer rule sets
-ms.date: 04/22/2019
+title: FxCop analyzer rule sets
+ms.date: 09/23/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "analyzer packages, rule sets"
@@ -14,6 +14,17 @@ ms.workload:
 # Rule sets for analyzer packages
 
 Predefined rule sets are included with some NuGet analyzer packages. For example, the rule sets that are included with the [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) NuGet analyzer package (starting in version 2.6.2) enable or disable rules based on their category, such as security, naming, or performance. Using rule sets makes it easy to quickly see only those rule violations that pertain to a particular category of rule.
+
+A rule set is a grouping of code analysis rules that identify targeted issues and specific conditions. Rule sets let you enable or disable rules and set the severity for individual rule violations. The FxCop analyzer NuGet package includes predefined rule sets for the following rule categories:
+
+- design
+- documentation
+- maintainability
+- naming
+- performance
+- reliability
+- security
+- usage
 
 If you're migrating from legacy "FxCop" analysis to .NET Compiler Platform-based code analysis, these rule sets enable you to continue using similar rule configurations to [those you used previously](rule-set-reference.md).
 
@@ -68,5 +79,5 @@ The [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Micro
 - [Analyzers FAQ](analyzers-faq.md)
 - [Overview of .NET Compiler Platform analyzers](roslyn-analyzers-overview.md)
 - [Install analyzers](install-roslyn-analyzers.md)
-- [Use analyzers](use-roslyn-analyzers.md)
+- [Configure analyzers](use-roslyn-analyzers.md)
 - [Use rule sets to group code analysis rules](using-rule-sets-to-group-code-analysis-rules.md)

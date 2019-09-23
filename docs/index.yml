@@ -130,7 +130,7 @@ additionalContent:
         url: ide/compiling-and-building-in-visual-studio.md
       - title: Debug
         summary: Investigate and fix bugs in your code.
-        url: debugger/index.md
+        url: debugger/index.yml
       - title: Test
         summary: Run tests on your projects.
         url: test/improve-code-quality.md
