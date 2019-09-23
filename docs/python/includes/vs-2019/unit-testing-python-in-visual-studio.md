@@ -15,7 +15,7 @@ ms.topic: include
 
 ## Select the test framework for a Python project
 
-Visual Studio supports two testing frameworks for Python, [unittest](https://docs.python.org/3/library/unittest.html) and [pytest](https://pytest.org/en/latest/). By default, no framework is selected when you create a Python project. To specify a framework, right-click on the project name in Solution Explorer and select the **Properties** option. This opens the project designer, which allows you to configure tests through the **Test** tab. From this tab, you can select the test framework that you want to use for your project. 
+Visual Studio supports two testing frameworks for Python, [unittest](https://docs.python.org/3/library/unittest.html) and [pytest](https://pytest.org/en/latest/) (available in Visual Studio 2019 starting with version 16.3). By default, no framework is selected when you create a Python project. To specify a framework, right-click on the project name in Solution Explorer and select the **Properties** option. This opens the project designer, which allows you to configure tests through the **Test** tab. From this tab, you can select the test framework that you want to use for your project. 
 
 * For the **unittest** framework, the project's root directory is used for test discovery. This location, as well as the text pattern for identifying tests, can be modified on the **Test** tab to user specified values.
 * For the **pytest** framework, testing options such as test location and filename patterns are specified using the standard pytest .ini configuration file. See the [pytest reference documentation](https://docs.pytest.org/en/latest/reference.html#ini-options-ref) for more details.
@@ -64,13 +64,13 @@ Visual Studio allows you to run and test existing Python code without a project,
 
 ## Discover and view tests
 
-By default, Visual Studio identifies **unittest** tests as methods whose names start with `test`, while **pytest** has no required convention. To see test discovery, do the following:
+By default, Visual Studio identifies **unittest** and **pytest** tests as methods whose names start with `test`. To see test discovery, do the following:
 
 1. Open a [Python project](../../managing-python-projects-in-visual-studio.md).
 
 1. Once the project is loaded in Visual Studio, right-click your project in Solution Explorer and select the **unittest** or **pytest** framework from the Properties **Test** tab.
    > [!Note]
-   > If you use the pytest framework, you'll need to specify test location and filename patterns using the standard pytest .ini configuration file. See the [pytest reference documentation](https://docs.pytest.org/en/latest/reference.html#ini-options-ref) for more details.
+   > If you use the pytest framework, you can specify test location and filename patterns using the standard pytest .ini configuration file. By default, the workspace/project folder is used, with a pattern of `test_*py` and `*_test.py`. See the [pytest reference documentation](https://docs.pytest.org/en/latest/reference.html#ini-options-ref) for more details.
 
 1. After the framework is selected, right-click the project again and select **Add** > **New Item**, then select **Python Unit Test** followed by **Add**.
 
