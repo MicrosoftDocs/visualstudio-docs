@@ -404,6 +404,8 @@
             href: ide/reference/sort-usings.md
           - name: Split or merge if statements
             href: ide/reference/split-or-merge-if-statement.md
+          - name: Static local function refactorings
+            href: ide/reference/static-local-function-refactorings.md
           - name: Sync namespace and folder name
             href: ide/reference/sync-namespace-and-folder-name.md
           - name: Synchronize type and filename
