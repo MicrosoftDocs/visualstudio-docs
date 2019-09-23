@@ -3,7 +3,7 @@ title: "Including a NuGet package in your project"
 description: This document covers how to include a NuGet package in a project using Visual Studio for Mac. It walks through finding and downloading a package, as well as introducing the IDE integration features.
 author: jmatthiesen
 ms.author: jomatthi
-ms.date: 09/17/2019
+ms.date: 09/18/2019
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ms.custom: conceptual
 ---
@@ -18,17 +18,17 @@ For an intro to using NuGet in Visual Studio for Mac, see [Quickstart: Install a
 
 ## Find and Install a Package
 
-1. With a project open in Visual Studio for Mac, right-click on the **Dependencies** folder (**Packages** folder if using a Xamarin project) in the **Solution Pad** and select **Add Packages**.
+1. With a project open in Visual Studio for Mac, right-click on the **Dependencies** folder (**Packages** folder if using a Xamarin project) in the **Solution Pad** and select **Manage NuGet Packages...**.
 
-    ![Add new NuGet package context action](media/nuget-walkthrough-PackagesMenu.png)
+    ![Add new NuGet package context action](media/nuget-walkthrough-packages-menu.png)
 
-2. This launches the **Add Packages** window. Ensure that the Source drop-down in the top left corner of the dialog is set to `nuget.org`.
+2. This launches the **Manage NuGet Packages** window. Ensure that the Source drop-down in the top left corner of the dialog is set to `nuget.org`.
 
-    ![List NuGet Packages](media/nuget-walkthrough-AddPackages1.png)
+    ![List NuGet Packages](media/nuget-walkthrough-add-packages1.png)
 
 3. Use the search box in the top-right corner to find a specific package, for example `EntityFramework`. When you have found a package that you wish to use, select it and click the **Add Package** button to begin installation.
 
-    ![Add Azure NuGet Package](media/nuget-walkthrough-AddPackages2.png)
+    ![Add EntityFramework NuGet Package](media/nuget-walkthrough-add-packages2.png)
 
 4. Once the package has been downloaded, it will be added to your project. The solution will change depending on the type of project you're editing:
 
@@ -38,7 +38,7 @@ For an intro to using NuGet in Visual Studio for Mac, see [Quickstart: Install a
     
     **.NET Core Projects**
 
-    The **Dependencies > NuGet** node displays each NuGet package that you have downloaded. You can update or remove a package from this list.
+    * The **Dependencies > NuGet** node displays each NuGet package that you have downloaded. You can update or remove a package from this list.
 
 ## Using NuGet Packages
 
@@ -54,11 +54,11 @@ using Newtonsoft.Json;
 
 ## Updating Packages
 
-Package updates can be done either all at once, by right-clicking on the **Dependencies** node (or **Packages** node for Xamarin projects), or individually on each component.
+Package updates can be done either all at once, by right-clicking on the **Dependencies** node (**Packages** node for Xamarin projects), or individually on each package. When a new version of a NuGet package is available, an update icon appears ![Up arrow with circle](media/nuget-walkthrough-update-icon.png).
 
-Right-click on **Dependencies** to access the context menu:
+Right-click on **Dependencies** to access the context menu and choose **Update** to update all packages:
 
-![Packages menu](media/nuget-walkthrough-PackagesMenu.png)
+![Packages menu](media/nuget-walkthrough-packages-menu-update.png)
 
 * **Manage NuGet Packages** - Opens the window to add more packages to the project.
 * **Update** - Checks the source server for each package and downloads any newer versions.
