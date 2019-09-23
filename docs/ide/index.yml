@@ -1,12 +1,11 @@
 ### YamlMime:Landing
 
 title: Visual Studio IDE documentation
-summary:
 
 metadata:
   title: Visual Studio IDE documentation
   titleSuffix: ""
-  description:
+  description: Navigate to different pages that help you learn how to use the Visual Studio interactive development environment.
   ms.prod: visual-studio-windows
   ms.technology: vs-ide-general
   ms.topic: landing-page
