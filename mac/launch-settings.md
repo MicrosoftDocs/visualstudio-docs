@@ -11,7 +11,7 @@ ms.assetid: a556f9d7-86a8-408e-aa54-392584845889
 
 When developing ASP.NET Core projects, you can configure how your project should be started in development scenarios by customizing the contents of the `launchSettings.json` file. In Visual Studio for Mac, you can update this file by using the Project Options UI or by directly editing the `launchSettings.json` file. This file is the same configuration file that can be used when running Visual Studio on Windows or from the command line using `dotnet`. This file is stored in your project under the `Properties` folder.
 
-For more detailed info, you can go to [Use multiple environments in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments). In this doc, we'll cover how to update this file in Visual Studio for Mac.
+For more detailed info, you can go to [Use multiple environments in ASP.NET Core](https://docs.microsoft.com/aspnet/core/fundamentals/environments). In this doc, we'll cover how to update this file in Visual Studio for Mac.
 
 ## Updating start configuration using Visual Studio for Mac
 
@@ -30,7 +30,7 @@ There are primarily two things that you'll configure here.
 
 ## Configure environment variables
 
-You can use the grid to specify values for environment variables. These environment variables will be set when you start your application within Visual Studio for Mac. When developing ASP.NET Core applications, you should be aware of the special `ASPNETCORE_ENVIRONMENT` environment variable. To learn more, see [Use multiple environments in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments).
+You can use the grid to specify values for environment variables. These environment variables will be set when you start your application within Visual Studio for Mac. When developing ASP.NET Core applications, you should be aware of the special `ASPNETCORE_ENVIRONMENT` environment variable. To learn more, see [Use multiple environments in ASP.NET Core](https://docs.microsoft.com/aspnet/core/fundamentals/environments).
 
 
 ## Configure start URL
