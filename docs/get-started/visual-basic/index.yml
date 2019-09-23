@@ -7,13 +7,13 @@ metadata:
   title: Visual Basic development with Visual Studio
   description: Create Visual Basic apps by using Visual Studio.
   ms.custom: seodec18
+  ms.topic: landing-page
+  ms.date: 09/20/2019
+  ms.author: ghogen
   author: ghogen
   manager: jillfra
   ms.prod: visual-studio-windows
   ms.technology: vs-acquisition
-  ms.topic: landing-page
-  ms.date: 09/20/2019
-  ms.author: ghogen
   dev_langs:
     - VB
 
@@ -39,8 +39,6 @@ landingContent:
         links:
           - text: Create a console app
             url: tutorial-console.md
-          - text: Create a Universal Windows Platform app 
-            url: tutorial-uwp.md
           - text: Create a Windows Desktop app
             url: tutorial-wpf.md
           - text: Learn about the Visual Basic language
