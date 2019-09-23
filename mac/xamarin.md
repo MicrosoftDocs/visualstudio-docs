@@ -11,6 +11,14 @@ ms.assetid: 339F6051-5F90-48DC-8237-EBBC8A03A32B
 
 First-class support for [Xamarin](/xamarin) allows you to develop rich native experiences for Android, macOS, iOS, tvOS, and watchOS. Xamarin.Forms cross-platform applications help you share XAML-based UI code between Android, iOS, and macOS without limiting access to native functionality.
 
+## Xamarin.Forms
+
+XAML Hot Reload for Xamarin.Forms is built into Visual Studio for Mac in version 8.3 and later. With this feature enabled changes are instantly reflected in your running app every time you save the file.
+
+XAML Hot Reload can be enabled by checking the **Enable Xamarin Hot Reload** checkbox at **Visual Studio > Preferences > Projects > Xamarin Hot Reload**.
+
+For more information on Hot Reload, see the [XAML Hot Reload for Xamarin.Forms guide](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/xaml/hot-reload) within the documentation.
+
 ## Android
 
 Visual Studio for Mac has its own integrated Android SDK manager, allowing you access to the SDKs you want your app to target.

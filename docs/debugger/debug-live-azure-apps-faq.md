@@ -192,7 +192,7 @@ There are several ways to disable the Snapshot Debugger:
 
 ## See also
 
-- [Debugging in Visual Studio](../debugger/index.md)
+- [Debugging in Visual Studio](../debugger/index.yml)
 - [Debug live ASP.NET apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md)
 - [Debug live ASP.NET Azure Virtual Machines\Virtual Machines scale sets using the Snapshot Debugger](../debugger/debug-live-azure-virtual-machines.md)
 - [Debug live ASP.NET Azure Kubernetes using the Snapshot Debugger](../debugger/debug-live-azure-kubernetes.md)

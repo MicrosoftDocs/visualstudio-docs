@@ -22,10 +22,12 @@ The following sections deal with debugging for specific types of applications. D
 |||
 |-|-|
 |[Debug UWP apps](../debugger/debugging-windows-store-and-windows-universal-apps.md)|Describes how to debug UWP apps.|
-|[Debug managed code](../debugger/debugging-managed-code.md)|Describes how to debug managed code (Visual C#, Visual Basic, and F3).|
+|[Debug managed code](../debugger/debugging-managed-code.md)|Describes how to debug managed code (Visual C#, Visual Basic, F#, and C++/CLI).|
 |[Debug native code](../debugger/debugging-native-code.md)|Describes how to debug different kind of native C++ applications.|
 |[Debug GPU code](../debugger/debugging-gpu-code.md)|Describes how to debug C++ code that runs on the graphical processing unit (GPU).|
 |[Graphics diagnostics (Debugging DirectX graphics)](/visualstudio/debugger/graphics/visual-studio-graphics-diagnostics)|Describes how to debug DirectX graphics.|
 |[Debug ASP.NET applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)|Describes how to debug ASP.NET applications.|
+|[Debug Python code](../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md)|Describes how to debug Python code|
+|[Debug JavaScript and TypeScript applications](/javascript/debug-nodejs.md)|Describes how to debug JavaScript, TypeScript, and Node.js applications|
 |[Debug Web applications](../debugger/debugging-web-applications.md)|Describes how to debug Web applications and script.|
 |[Debug WCF services](../debugger/debugging-wcf-services.md)|Describes how to debug Windows Communication Foundation services.|
