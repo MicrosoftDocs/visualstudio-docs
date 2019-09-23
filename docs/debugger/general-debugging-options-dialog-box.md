@@ -223,5 +223,5 @@ When this option is selected, the debugger uses the Visual Studio 2010 native de
 
 ## See also
 
-- [Debugging in Visual Studio](../debugger/index.md)
+- [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

@@ -62,3 +62,4 @@ You may come across the following errors while using XAML Hot Reload.
 
 * [Troubleshooting XAML Hot Reload](xaml-hot-reload-troubleshooting.md)
 * [XAML Hot Reload for Xamarin.Forms](/xamarin/xamarin-forms/xaml/hot-reload)
+* [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)

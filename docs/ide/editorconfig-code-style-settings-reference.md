@@ -19,8 +19,8 @@ ms.workload:
 You can define and maintain consistent code style in your codebase with the use of an [EditorConfig](../ide/create-portable-custom-editor-options.md) file. EditorConfig includes several core formatting properties, such as `indent_style` and `indent_size`. In Visual Studio, .NET coding conventions settings can also be configured by using an EditorConfig file. You can enable or disable individual .NET coding conventions and configure the degree to which you want each rule enforced, via a severity level.
 
 > [!TIP]
-> - When you define coding conventions in an .editorconfig file, you're configuring how you want the [code style analyzers](../code-quality/roslyn-analyzers-overview.md) that are built into Visual Studio to analyze your code. The .editorconfig file is the configuration file for these analyzers.
-> - Code style preferences for Visual Studio can also be set in the [Text editor options](code-styles-and-code-cleanup.md) dialog. However, .editorconfig settings take precedence and preferences you set in **Options** aren't associated with a particular project.
+> - When you define coding conventions in an EditorConfig file, you're configuring how you want the [code style analyzers](../code-quality/roslyn-analyzers-overview.md) that are built into Visual Studio to analyze your code. The EditorConfig file is the configuration file for these analyzers.
+> - Code style preferences for Visual Studio can also be set in the [Text editor options](code-styles-and-code-cleanup.md) dialog. However, EditorConfig settings take precedence and preferences you set in **Options** aren't associated with a particular project.
 
 ## Convention categories
 
