@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 
-title: Visual Studio | Python # < 60 chars
+title: Visual Studio | Python documentation # < 60 chars
 summary: Tutorials and conceptual articles about developing Python apps with Visual Studio. # < 160 chars
 
 metadata:
@@ -35,15 +35,15 @@ landingContent:
       #     - text: linktext2
       #       url: file2.md
 
-  # # Card (optional)
-  # - title: Get started
-  #   linkLists:
-  #     - linkListType: linkListType
-  #       links:
-  #         - text: linktext1
-  #           url: file1.md
-  #         - text: linktext2
-  #           url: file2.md
+  # Card (optional)
+  - title: Get started
+    linkLists:
+      - linkListType: get-started
+        links:
+           - text: How to install Python support in Visual Studio
+             url: installing-python-support-in-visual-studio.md
+          # - text: linktext2
+          #   url: file2.md
   #     - linkListType: linkListType
   #       links:
   #         - text: linktext1
@@ -51,21 +51,21 @@ landingContent:
   #         - text: linktext2
   #           url: file2.md
 
-  # # Card
-  # - title: cardtitle3
-  #   linkLists:
-  #     - linkListType: linkListType
-  #       links:
-  #         - text: linktext1
-  #           url: file1.md
-  #         - text: linktext2
-  #           url: file2.md
-  #     - linkListType: linkListType
-  #       links:
-  #         - text: linktext1
-  #           url: file1.md
-  #         - text: linktext2
-  #           url: file2.md
+  # Card
+  - title: Get started with Web development
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Get started with the Django web framework in Visual Studio
+            url: learn-django-in-visual-studio-step-01-project-and-solution.md
+      #     - text: linktext2
+      #       url: file2.md
+      # - linkListType: linkListType
+      #   links:
+      #     - text: linktext1
+      #       url: file1.md
+      #     - text: linktext2
+      #       url: file2.md
 
   # # Card
   # - title: cardtitle4
