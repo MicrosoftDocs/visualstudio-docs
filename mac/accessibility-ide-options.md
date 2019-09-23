@@ -17,7 +17,8 @@ As well as features built right into macOS, Visual Studio for Mac has a number o
 
 1. Choose **View (menu) > Zoom In (&#8984;+) / Zoom Out (&#8984;-)**
 
-> [!TIP] To reset the content to the default size you can choose **View (menu) > Normal Size (&#8984;0)**
+> [!TIP]
+> To reset the content to the default size you can choose **View (menu) > Normal Size (&#8984;0)**
 
 ## Changing the content font and size
 
@@ -31,7 +32,8 @@ It's possible to customize the font and size of content in most pads in Visual S
 
 1. Select the desired font, style and size and select **OK**
 
-> [!TIP] To return to the default font and style for each setting, select **Set to Default**
+> [!TIP]
+> To return to the default font and style for each setting, select **Set to Default**
 
 ## Changing the editor syntax highlighting
 
@@ -43,4 +45,5 @@ Some users may find that the default color scheme does not meet their contrast o
 
 1. Select the desired theme.
 
-> [!TIP] The theme will update in the editor in real time so you can preview and select your preferred theme.
+> [!TIP]
+> The theme will update in the editor in real time so you can preview and select your preferred theme.

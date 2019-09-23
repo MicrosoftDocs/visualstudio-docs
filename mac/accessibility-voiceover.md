@@ -28,4 +28,5 @@ Here are a list of some common VoiceOver commands for Visual Studio for Mac:
 |Interact|Select or interact with the control in focus|**VO␣**|
 |Interact|Interact with the Visual Studio for Mac menu bar|**VO M**|
 
-> [!TIP] For further information on using VoiceOver and a comprehensive list of commands, please refer to [Apple's VoiceOver Getting Started Guide](https://support.apple.com/en-us/guide/voiceover-guide/welcome/web).
+> [!TIP]
+> For further information on using VoiceOver and a comprehensive list of commands, please refer to [Apple's VoiceOver Getting Started Guide](https://support.apple.com/en-us/guide/voiceover-guide/welcome/web).

@@ -35,7 +35,8 @@ Visual Studio for Mac has a range of keyboard shortcuts for various tasks. You c
 
 1. Select **Apply**
 
-> [!TIP] You can chose from a list of key binding schemes to best suit your needs if you are familiar with other common keyboard shortcuts, for example Visual Studio in Windows.
+> [!TIP]
+> You can chose from a list of key binding schemes to best suit your needs if you are familiar with other common keyboard shortcuts, for example Visual Studio in Windows.
 
 ## Useful keyboard shortcuts
 
@@ -47,4 +48,5 @@ Visual Studio for Mac has a range of keyboard shortcuts for various tasks. You c
 |Switch tabs|Cycle through open files|**⌘⇧[**, **⌘⇧]**|
 |Debug|Start debugging|**⌘⏎**|
 
-> [!TIP] A comprehensive list of keyboard commands can be found on the [Keyboard Shortcuts](keyboard-shortcuts.md) page.
+> [!TIP]
+> A comprehensive list of keyboard commands can be found on the [Keyboard Shortcuts](keyboard-shortcuts.md) page.
