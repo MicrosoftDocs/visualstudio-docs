@@ -1,6 +1,6 @@
 ---
 title: "Debugging Managed Code | Microsoft Docs"
-ms.date: "11/04/2016"
+ms.date: "09/23/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -17,9 +17,9 @@ manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# Debugging Managed Code
+# Debug Managed Code (C#, Visual Basic, F#, C++/CLI)
 
-This section covers common debugging problems and techniques for managed applications, or applications written in languages that target the common language runtime, such as Visual Basic, C#, and C++. The techniques described here are high-level techniques. [First look at the debugger](../debugger/debugger-feature-tour.md).
+This section covers common debugging problems and techniques for managed applications, or applications written in languages that target the common language runtime, such as Visual Basic, C#, and C++/CLI. The techniques described here are high-level techniques. [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 ## In This Section
 

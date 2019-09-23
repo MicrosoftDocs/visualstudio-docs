@@ -450,7 +450,7 @@
         href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
       - name: Prefetch content for Microsoft Store apps
         href: prefetch-content-for-windows-store-apps.md
-    - name: Managed code
+    - name: Managed code (C#, Visual Basic, F#)
       items:
       - name: Debug managed code
         href: debugging-managed-code.md
@@ -494,7 +494,7 @@
           href: how-to-display-wpf-trace-information.md
       - name: Debug F#
         href: debugging-f-hash.md
-    - name: Native code
+    - name: C/C++ code
       items:
       - name: Debug native code
         href: debugging-native-code.md
@@ -582,7 +582,7 @@
           href: com-debugging-tools.md
       - name: Debug injected code
         href: how-to-debug-injected-code.md
-    - name: Debug GPU code
+    - name: GPU code
       href: debugging-gpu-code.md
     - name: Graphics diagnostics
       href: graphics/toc.yml
@@ -632,6 +632,10 @@
             href: error-the-web-server-could-not-find-the-requested-resource.md
           - name: The web server is not configured correctly
             href: error-the-web-server-is-not-configured-correctly.md
+    - name: Python
+      href: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
+    - name: JavaScript and TypeScript
+      href: ../javascript/debug-nodejs.md
     - name: Web apps
       items:
       - name: Debug Web applications
