@@ -37,16 +37,6 @@ landingContent:
             url: ../get-started/visual-studio-ide.md
 
   # Card
-  - title: Discover what's new
-    linkLists:
-      - linkListType: whats-new
-        links:
-          - text: What's New in Visual Studio 2019
-            url: ../ide/whats-new-visual-studio-2019.md
-          - text: What's New in Visual Studio 2017
-            url: ../ide/whats-new-visual-studio-2017.md
-
-  # Card
   - title: Use Visual Studio
     linkLists:
       - linkListType: how-to-guide
@@ -87,3 +77,13 @@ landingContent:
             url: /visualstudio/javascript/tutorial-nodejs
           - text: F#
             url: /dotnet/fsharp/get-started/get-started-visual-studio
+
+  # Card
+  - title: Discover what's new
+    linkLists:
+      - linkListType: whats-new
+        links:
+          - text: What's New in Visual Studio 2019
+            url: ../ide/whats-new-visual-studio-2019.md
+          - text: What's New in Visual Studio 2017
+            url: ../ide/whats-new-visual-studio-2017.md
