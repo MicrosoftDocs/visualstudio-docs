@@ -45,5 +45,5 @@ This section describes the debugger-related property settings, and the preparati
 
 ## See Also
 - [Debugger Security](../debugger/debugger-security.md)
-- [Debugging in Visual Studio](../debugger/index.md)
+- [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
