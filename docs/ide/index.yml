@@ -45,12 +45,6 @@ landingContent:
             url: ../ide/whats-new-visual-studio-2019.md
           - text: What's New in Visual Studio 2017
             url: ../ide/whats-new-visual-studio-2017.md
-      - linkListType: linkListType
-        links:
-          - text: linktext1
-            url: file1.md
-          - text: linktext2
-            url: file2.md
 
   # Card
   - title: Develop apps
@@ -67,9 +61,17 @@ landingContent:
             url: ../test/getting-started-with-unit-testing.md
           - text: Access data
             url: ../data-tools/create-a-simple-data-application-by-using-adonet.md
-      - linkListType: linkListType
+      - linkListType: tutorial
         links:
-          - text: linktext1
-            url: file1.md
-          - text: linktext2
-            url: file2.md
+          - text: C#
+            url: ../get-started/csharp/tutorial-console.md
+          - text: C++
+            url: /cpp/get-started/tutorial-console-cpp
+          - text: Visual Basic
+            url: ../get-started/visual-basic/tutorial-console.md
+          - text: Python
+            url: ../python/tutorial-working-with-python-in-visual-studio-step-00-installation.md
+          - text: JavaScript
+            url: /visualstudio/javascript/tutorial-nodejs
+          - text: F#
+            url: /dotnet/fsharp/get-started/get-started-visual-studio
