@@ -3,7 +3,7 @@ title: "Updating Visual Studio for Mac"
 description: "Instructions for updating Visual Studio for Mac and accessing preview releases."
 author: asb3993
 ms.author: amburns
-ms.date: 08/27/2019
+ms.date: 09/18/2019
 ms.technology: vs-ide-install
 ms.assetid: DB8DC9FE-FF21-4061-8A96-3F9FC08A4F8F
 ---
@@ -39,7 +39,7 @@ To change the channel select it from the channel drop down and press the **Switc
 
 Switching channels automatically starts the download process of new updates.
 
-If you have selected the option to **Check Automatically**, the updater box will pop up when Visual Studio for Mac is open to let you know that new updates are available. It will also give you the option to start downloading them.
+If you have selected the option to **Check Automatically**, the updater box will pop up when Visual Studio for Mac is open to let you know that new updates are available. New downloads will start downloading automatically to your machine when this box appears.
 
 To start installing updates, select the **Restart and Install Updates** button:
 
