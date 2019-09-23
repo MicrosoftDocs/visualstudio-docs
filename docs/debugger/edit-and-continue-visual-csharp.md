@@ -35,4 +35,4 @@ ms.workload:
 ## See Also
 - [How to: Use Edit and Continue (C#)](../debugger/how-to-use-edit-and-continue-csharp.md)
 - [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md)
-- [Write and debug running XAML code with XAML Hot Reload in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/debugger/xaml-hot-reload?view=vs-2019)
+- [Write and debug running XAML code with XAML Hot Reload in Visual Studio](../debugger/xaml-hot-reload.md)
