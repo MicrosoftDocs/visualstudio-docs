@@ -1,100 +1,67 @@
-### YamlMime:YamlDocument
-documentType: LandingData
+### YamlMime:Landing
+
 title: Visual Studio tutorials | Visual Basic
+summary: Create Visual Basic apps with Visual Studio.
+
 metadata:
-  title: Visual Basic development with Visual Studio | Microsoft Docs
-  description: Tutorials and conceptual articles about developing Visual Basic apps with Visual Studio.
+  title: Visual Basic development with Visual Studio
+  description: Create Visual Basic apps by using Visual Studio.
   ms.custom: seodec18
   author: ghogen
   manager: jillfra
   ms.prod: visual-studio-windows
   ms.technology: vs-acquisition
   ms.topic: landing-page
-  ms.date: 10/30/2018
+  ms.date: 09/20/2019
   ms.author: ghogen
-abstract:
-  description: This page contains links to beginner tutorials for learning Visual Studio for Visual Basic users. For the full Visual Studio documentation, see <a href="/visualstudio/ide/">Visual Studio</a>. For the Visual Basic language documentation, see <a href=/dotnet/visual-basic>Visual Basic Guide</a>.
-sections:
-- title: Get started
-  items:
-  - type: list
-    style: cards
-    className: cardsM
-    columns: 3
-    items:
-    - href: ../../install/install-visual-studio.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_setup.svg
-      title: Install Visual Studio
-    - href: visual-studio-ide.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/logos/logo_visual-studio.svg
-      title: Start a guided tour
-- title: Visual Basic tutorials
-  items:
-  - type: list
-    style: cards
-    className: cardsM
-    columns: 3
-    items:
-    - href: ../tutorial-open-project-from-repo.md?toc=/visualstudio/get-started/visual-basic/toc.json&bc=/visualstudio/get-started/visual-basic/breadcrumb/toc.json
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_pull-request.svg
-      title: Open code from a repo
-    - href: tutorial-console.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/logos/logo_vb.svg
-      title: Create your first Visual Basic app
-    - href: /windows/uwp/get-started/create-a-hello-world-app-xaml-universal?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/logos/logo_Windows.svg
-      title: Create a Universal Windows app
-    - href: tutorial-wpf.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/logos/logo_Windows.svg
-      title: Create a Windows Desktop app
-    - href: /dotnet/visual-basic/developing-apps/programming/
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/logos/logo_vb.svg
-      title: Learn Visual Basic
-- title: Learn Visual Studio
-  items:
-  - type: paragraph
-    text: 'Learn how to use Visual Studio for your development tasks.'
-  - type: list
-    style: cards
-    className: cardsM
-    columns: 3
-    items:
-    - href: tutorial-editor.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_code-edit.svg
-      title: Write and edit code
-    - href: ../../ide/compiling-and-building-in-visual-studio.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_build.svg
-      title: Compile and build
-    - href: ../visual-basic/tutorial-debugger.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_debug.svg
-      title: Debug your code
-    - href: ../../test/getting-started-with-unit-testing.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_test.svg
-      title: Test your code
-    - href: ../../data-tools/create-a-sql-database-by-using-a-designer.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_generic-database.svg
-      title: Access data
+  dev_langs:
+    - VB
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+
+landingContent: 
+  # Card
+  - title: Get started
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Install Visual Studio
+            url: ../../install/install-visual-studio.md
+      - linkListType: get-started
+        links:
+          - text: Start a guided tour 
+            url: visual-studio-ide.md
+
+  # Card
+  - title: Create Visual Basic apps
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Create a console app
+            url: tutorial-console.md
+          - text: Create a Universal Windows Platform app 
+            url: tutorial-uwp.md
+          - text: Create a Windows Desktop app
+            url: tutorial-wpf.md
+          - text: Learn about the Visual Basic language
+            url: /dotnet/visual-basic/developing-apps/programming/
+       
+  # Card
+  - title: Learn Visual Studio
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Open code from a repo
+            url: ../tutorial-open-project-from-repo.md?
+          - text: Write and edit code 
+            url: tutorial-editor.md
+          - text: Compile and build 
+            url: ../../ide/compiling-and-building-in-visual-studio.md
+          - text: Debug your code
+            url: ../csharp/tutorial-debugger.md
+          - text: Test your code
+            url: ../../test/getting-started-with-unit-testing.md
+      - linkListType: how-to-guide
+        links:
+          - text: Access data
+            url:  ../../data-tools/create-a-sql-database-by-using-a-designer.md
