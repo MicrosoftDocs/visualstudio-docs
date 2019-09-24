@@ -23,7 +23,7 @@ ms.workload:
 
  If you add the controls at design time, you must set positioning options for each control.
 
- If you add a Windows Forms control programmatically and supply a range argument, the control automatically resizes when a cell within the range is resized. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+ If you add a Windows Forms control programmatically and supply a range argument, the control automatically resizes when a cell within the range is resized. For more information, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
 ## Resize controls at design time
 
@@ -39,8 +39,8 @@ ms.workload:
 
      When you resize the cell that contains the control, the control resizes to fit the cell.
 
-## Resize controls at runtime
- If you add a Windows Forms control at runtime and pass in a <xref:Microsoft.Office.Interop.Excel.Range> as the location for the control, the control will automatically resize when the worksheet cell that contains the range is resized.
+## Resize controls at run time
+ If you add a Windows Forms control at run time and pass in a <xref:Microsoft.Office.Interop.Excel.Range> as the location for the control, the control will automatically resize when the worksheet cell that contains the range is resized.
 
 ### To make controls resize with cells at run time
 
@@ -71,5 +71,5 @@ ms.workload:
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
 - [How to: Add Windows Forms controls to Office documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)
 - [How to: Hide controls on worksheets when printing](../vsto/how-to-hide-controls-on-worksheets-when-printing.md)
-- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)

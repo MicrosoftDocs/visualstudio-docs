@@ -41,12 +41,12 @@ ms.workload:
 ## Programmatically create host items
  When you programmatically create or open a document, workbook, or worksheet at run time by using the Word or Excel object model, the item is not a host item. Instead, the new object is a native Office object. For example, if you use the <xref:Microsoft.Office.Interop.Word.Documents.Add%2A> method to create a new Word document at run time, it will be a native <xref:Microsoft.Office.Interop.Word.Document> object rather than a <xref:Microsoft.Office.Tools.Word.Document> host item. Similarly, when you create a new worksheet at run time using the <xref:Microsoft.Office.Interop.Excel.Worksheets.Add%2A> method, you get a native <xref:Microsoft.Office.Interop.Excel.Worksheet> object rather than a <xref:Microsoft.Office.Tools.Excel.Worksheet> host item.
 
- In document-level projects, you cannot create host items at runtime. Host items can be created only at design time in document-level projects. For more information, see [Document host item](../vsto/document-host-item.md), [Workbook host item](../vsto/workbook-host-item.md), and [Worksheet host item](../vsto/worksheet-host-item.md).
+ In document-level projects, you cannot create host items at run time. Host items can be created only at design time in document-level projects. For more information, see [Document host item](../vsto/document-host-item.md), [Workbook host item](../vsto/workbook-host-item.md), and [Worksheet host item](../vsto/worksheet-host-item.md).
 
- In VSTO Add-in projects, you can create <xref:Microsoft.Office.Tools.Word.Document>, <xref:Microsoft.Office.Tools.Excel.Workbook>, or <xref:Microsoft.Office.Tools.Excel.Worksheet> host items at runtime. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
+ In VSTO Add-in projects, you can create <xref:Microsoft.Office.Tools.Word.Document>, <xref:Microsoft.Office.Tools.Excel.Workbook>, or <xref:Microsoft.Office.Tools.Excel.Worksheet> host items at run time. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
 
 ## Programmatically create host controls
- You can programmatically add host controls to a <xref:Microsoft.Office.Tools.Word.Document> or <xref:Microsoft.Office.Tools.Excel.Worksheet> host item at runtime. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+ You can programmatically add host controls to a <xref:Microsoft.Office.Tools.Word.Document> or <xref:Microsoft.Office.Tools.Excel.Worksheet> host item at run time. For more information, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
  You cannot add host controls to a native <xref:Microsoft.Office.Interop.Word.Document> or <xref:Microsoft.Office.Interop.Excel.Worksheet>.
 
@@ -77,7 +77,7 @@ ms.workload:
  [!code-csharp[Trin_VstcoreHostControlsWord#10](../vsto/codesnippet/CSharp/trin_vstcorehostcontrolsword/ThisDocument.cs#10)]
  [!code-vb[Trin_VstcoreHostControlsWord#10](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsWordVB/ThisDocument.vb#10)]
 
- For more information about the Controls property of host items, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+ For more information about the Controls property of host items, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
  The Word and Excel object models include properties that expose collections of native controls on documents and worksheets. You cannot access managed controls by using these properties. For example, it is not possible to enumerate each <xref:Microsoft.Office.Tools.Word.Bookmark> host control in a document by using the <xref:Microsoft.Office.Interop.Word._Document.Bookmarks%2A> property of a <xref:Microsoft.Office.Interop.Word.Document> or the <xref:Microsoft.Office.Tools.Word.Document.Bookmarks%2A> property of a <xref:Microsoft.Office.Tools.Word.Document>. These properties include only the <xref:Microsoft.Office.Interop.Word.Bookmark> controls in the document; they do not contain the <xref:Microsoft.Office.Tools.Word.Bookmark> host controls in the document.
 

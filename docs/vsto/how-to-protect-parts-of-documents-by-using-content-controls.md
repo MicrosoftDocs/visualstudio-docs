@@ -29,7 +29,7 @@ ms.workload:
   [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
 
 ## <a name="EditDeleteControl"></a> Protect a content control
- You can prevent users from editing or deleting a content control by setting properties of the control in a document-level project at design time or at runtime.
+ You can prevent users from editing or deleting a content control by setting properties of the control in a document-level project at design time or at run time.
 
  You can also protect content controls that you add to a document at run time by using a VSTO Add-in project. For more information, see [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md).
 
@@ -45,7 +45,7 @@ ms.workload:
 
 3. Click **OK**.
 
-### To protect a content control at runtime
+### To protect a content control at run time
 
 1. Set the `LockContents` property of the content control to **true** to prevent users from editing the control, and set the `LockContentControl` property to **true** to prevent users from deleting the control.
 
@@ -80,9 +80,9 @@ ms.workload:
 
 3. In the **Controls** group, click the **Group** drop-down button, and then click **Group**.
 
-     A <xref:Microsoft.Office.Tools.Word.GroupContentControl> that contains the protected region is automatically generated in the `ThisDocument` class in your project. A border that represents the group control is visible at design time, but there is no visible border at runtime.
+     A <xref:Microsoft.Office.Tools.Word.GroupContentControl> that contains the protected region is automatically generated in the `ThisDocument` class in your project. A border that represents the group control is visible at design time, but there is no visible border at run time.
 
-### To protect an area of a document at runtime
+### To protect an area of a document at run time
 
 1. Programmatically select the area that you want to protect, and then call the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddGroupContentControl%2A> method to create a <xref:Microsoft.Office.Tools.Word.GroupContentControl>.
 
@@ -102,4 +102,4 @@ ms.workload:
 - [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
 - [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
-- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)

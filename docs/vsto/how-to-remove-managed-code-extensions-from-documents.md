@@ -23,7 +23,7 @@ ms.workload:
 
  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How Do I: Attach or Detach a VSTO Assembly from a Word Document?](http://go.microsoft.com/fwlink/?LinkId=136782).
 
-## To remove the customization assembly at runtime
+## To remove the customization assembly at run time
 
 1. In your customization code, call the <xref:Microsoft.Office.Tools.Word.Document.RemoveCustomization%2A> method (for Word) or the <xref:Microsoft.Office.Tools.Excel.Workbook.RemoveCustomization%2A> method (for Excel). This method should be called only after the customization is no longer needed.
 

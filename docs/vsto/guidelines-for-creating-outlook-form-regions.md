@@ -81,7 +81,7 @@ ms.workload:
   The **Window** icon appears in the notification area and in the **Alt**+**Tab** dialog box for open items that display replacement or replace-all form regions.
 
 ## See also
-- [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)
+- [Access a form region at run time](../vsto/accessing-a-form-region-at-run-time.md)
 - [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
 - [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md)
 - [How to: Add a form region to an Outlook Add-in project](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md)

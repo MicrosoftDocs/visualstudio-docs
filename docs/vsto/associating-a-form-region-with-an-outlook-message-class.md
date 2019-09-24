@@ -98,7 +98,7 @@ ms.workload:
 > Visual Studio does not verify that the message class names that you provide are correct or valid.
 
 ## See also
-- [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)
+- [Access a form region at run time](../vsto/accessing-a-form-region-at-run-time.md)
 - [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
 - [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md)
 - [Guidelines to create Outlook form regions](../vsto/guidelines-for-creating-outlook-form-regions.md)
