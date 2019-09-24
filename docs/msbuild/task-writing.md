@@ -157,7 +157,7 @@ A task should not depend on any relative order of parameter-property setter invo
 
 ### Task parameter types
 
-The [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] natively handles properties of type `string`, `bool`, `ITaskItem` and `ITaskItem[]`. If a task accepts a parameter of a different type, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] will invoke <xref:System.Convert.ChangeType> to convert from `string` (with all property and item references expanded) to the destination type. If the conversion fails for any input parameter, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] will emit an error and will not call the task's `Execute()` method.
+The [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] natively handles properties of type `string`, `bool`, `ITaskItem` and `ITaskItem[]`. If a task accepts a parameter of a different type, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] invokes <xref:System.Convert.ChangeType> to convert from `string` (with all property and item references expanded) to the destination type. If the conversion fails for any input parameter, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] emits an error and does not call the task's `Execute()` method.
 
 ## Example
 
