@@ -91,7 +91,7 @@ By default, Visual Studio identifies **unittest** and **pytest** tests as method
 
 1. **Test Explorer** searches your project for tests and displays them as shown below. Double-clicking a test opens its source file.
 
-    ![Test Explorer showing default test_A](../../media/unit-test-A-2.png) 
+    ![Test Explorer showing default test_A](../../media/unit-test-a-2.png) 
 
 1. As you add more tests to your project, you can organize the view in **Test Explorer** using the **Group By** menu on the toolbar:
 

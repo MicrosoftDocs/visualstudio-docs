@@ -23,12 +23,12 @@ This article provides a brief outline of unit testing capabilities in Visual Stu
 
 ::: moniker range="vs-2017"
 
-[!include[Visual Studio Container Tools](includes/vs-2017/unit-testing-python-in-visual-studio.md)]
+[!include[Testing Python code](includes/vs-2017/unit-testing-python.md)]
 
 ::: moniker-end
 
 ::: moniker range=">= vs-2019"
 
-[!include[Visual Studio Container Tools](includes/vs-2019/unit-testing-python-in-visual-studio.md)]
+[!include[Testing Python code](includes/vs-2019/unit-testing-python.md)]
 
 ::: moniker-end
