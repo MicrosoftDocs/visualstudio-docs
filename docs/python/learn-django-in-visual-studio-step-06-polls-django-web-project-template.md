@@ -107,9 +107,9 @@ class Choice(models.Model):
         return self.text
 ```
 
-As you can see, a Poll maintains a description in its `text` field and a publication date in `pub_date`. These fields are the only ones that exist for the Poll in the database; the `total_votes` field is calculated at runtime.
+As you can see, a Poll maintains a description in its `text` field and a publication date in `pub_date`. These fields are the only ones that exist for the Poll in the database; the `total_votes` field is calculated at run time.
 
-A Choice is related to a Poll through the `poll` field, contains a description in `text`, and maintains a count for that choice in `votes`. The `votes_percentage` field is calculated at runtime and is not found in the database.
+A Choice is related to a Poll through the `poll` field, contains a description in `text`, and maintains a count for that choice in `votes`. The `votes_percentage` field is calculated at run time and is not found in the database.
 
 The full list of field types is `CharField` (limited text) `TextField` (unlimited text), `EmailField`, `URLField`, `DateTimeField`, `IntegerField`, `DecimalField`, `BooleanField`, `ForeignKey`, and `ManyToMany`. Each field takes some attributes, like `max_length`. The `blank=True` attribute means the field is optional; `null=true` means that a value is optional. There is also a `choices` attribute that limits values to values in an array of data value/display value tuples. (See the [Model field reference](https://docs.djangoproject.com/en/2.0/ref/models/fields/) in the Django documentation.)
 
@@ -187,7 +187,7 @@ Overall, Django's migration feature means that you need never manage your databa
 
 ### Question: What happens if I forget to run the migrate command after making changes to models?
 
-Answer: If the models don't match what's in the database, Django fails at runtime with appropriate exceptions. For example, if you forget to migrate the model change shown in the previous section, you see an error **no such column: app_poll.author**:
+Answer: If the models don't match what's in the database, Django fails at run time with appropriate exceptions. For example, if you forget to migrate the model change shown in the previous section, you see an error **no such column: app_poll.author**:
 
 ![Error shown when a model change has not been migrated](media/django/step06-exception-when-forgetting-to-migrate.png).
 

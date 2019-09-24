@@ -1,5 +1,5 @@
 ---
-title: "Access the Ribbon at runtime"
+title: "Access the Ribbon at run time"
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -15,7 +15,7 @@ manager: jillfra
 ms.workload:
   - "office"
 ---
-# Access the Ribbon at runtime
+# Access the Ribbon at run time
   You can write code to show, hide, and modify the Ribbon, and enable users to run the code from controls in a custom task pane, actions pane, or Outlook form region.
 
  You can access the Ribbon by using the `Globals` class. For Outlook projects, you can access the Ribbons that appear in a specific Outlook Inspector or Outlook Explorer window.
@@ -54,6 +54,6 @@ ms.workload:
 - [Ribbon XML](../vsto/ribbon-xml.md)
 - [Ribbon object model overview](../vsto/ribbon-object-model-overview.md)
 - [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)
-- [Walkthrough: Update the controls on a Ribbon at runtime](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)
+- [Walkthrough: Update the controls on a Ribbon at run time](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)
 - [Customize a Ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md)
-- [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)
+- [Access a form region at run time](../vsto/accessing-a-form-region-at-run-time.md)
