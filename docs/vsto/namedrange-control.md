@@ -29,7 +29,7 @@ ms.workload:
  You can add <xref:Microsoft.Office.Tools.Excel.NamedRange> controls to a worksheet at run time in a VSTO Add-in. For more information, see [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md).
 
 > [!NOTE]
-> By default, dynamically created named ranges are not persisted in the worksheet as host controls when the worksheet is closed. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+> By default, dynamically created named ranges are not persisted in the worksheet as host controls when the worksheet is closed. For more information, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
  <xref:Microsoft.Office.Tools.Excel.NamedRange> controls can only consist of ranges on specific sheets. <xref:Microsoft.Office.Tools.Excel.NamedRange> controls cannot have relative names that apply to all sheets, and they cannot consist of ranges that span two or more worksheets in a workbook (3-D ranges).
 
@@ -69,9 +69,9 @@ ms.workload:
 - [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
 - [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
 - [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
-- [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
+- [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
-- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md)
 - [How to: Resize NamedRange controls](../vsto/how-to-resize-namedrange-controls.md)
 - [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)

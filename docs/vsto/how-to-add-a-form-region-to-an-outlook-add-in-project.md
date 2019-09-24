@@ -59,7 +59,7 @@ ms.workload:
 11. On the **Identify the message classes that will display this form region** page, select standard Outlook message classes or type the names of one or more custom message classes, and then click **Finish**. For more information, see [Associate a form region with an Outlook message class](../vsto/associating-a-form-region-with-an-outlook-message-class.md).
 
 ## See also
-- [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)
+- [Access a form region at run time](../vsto/accessing-a-form-region-at-run-time.md)
 - [Outlook solutions](../vsto/outlook-solutions.md)
 - [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
 - [Guidelines for create Outlook form regions](../vsto/guidelines-for-creating-outlook-form-regions.md)

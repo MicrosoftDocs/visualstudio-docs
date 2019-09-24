@@ -92,7 +92,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
      The anchor button holds the icon and the tooltip text. The parent of the anchor button is also the **MyMenuControllerGroup**. You add the NoShowOnMenuController command flag to make sure the button doesn't actually appear in the menu controller dropdown, and the FixMenuController command flag to make it the permanent anchor.
 
     ```xml
-    <!-- The placeholder for the dynamic items that expand to N items at runtime. -->
+    <!-- The placeholder for the dynamic items that expand to N items at run time. -->
     <Buttons>
         <Button guid="guidDynamicMenuPackageCmdSet" id="cmdidMyDynamicStartCommand" priority="0x1000" >
           <Parent guid="guidDynamicMenuPackageCmdSet" id="MyMenuControllerGroup" />

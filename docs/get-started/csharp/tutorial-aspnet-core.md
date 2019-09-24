@@ -164,7 +164,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
     You can put static site content&mdash;such as CSS, images, and JavaScript libraries&mdash;directly in the paths where you want them.
 
- 1. The project also contains configuration files that manage the web app at runtime. The default application [configuration](/aspnet/core/fundamentals/configuration) is stored in *appsettings.json*. However, you can override these settings by using *appsettings.Development.json*. Expand the **appsettings.json** file to view the **appsettings.Development.json** file.
+ 1. The project also contains configuration files that manage the web app at run time. The default application [configuration](/aspnet/core/fundamentals/configuration) is stored in *appsettings.json*. However, you can override these settings by using *appsettings.Development.json*. Expand the **appsettings.json** file to view the **appsettings.Development.json** file.
 
      ![Configuration files in the Solution Explorer in Visual Studio](media/csharp-aspnet-razor-solution-explorer-appsettingsjson.png)
 
@@ -267,7 +267,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
     You can put static site content&mdash;such as CSS, images, and JavaScript libraries&mdash;directly in the paths where you want them.
 
- 1. The project also contains configuration files that manage the web app at runtime. The default application [configuration](/aspnet/core/fundamentals/configuration) is stored in *appsettings.json*. However, you can override these settings by using *appsettings.Development.json*. Expand the **appsettings.json** file to view the **appsettings.Development.json** file.
+ 1. The project also contains configuration files that manage the web app at run time. The default application [configuration](/aspnet/core/fundamentals/configuration) is stored in *appsettings.json*. However, you can override these settings by using *appsettings.Development.json*. Expand the **appsettings.json** file to view the **appsettings.Development.json** file.
 
      ![Configuration files in the Solution Explorer in Visual Studio](media/csharp-aspnet-razor-solution-explorer-appsettingsjson.png)
 
@@ -298,7 +298,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. Now, let's make a code change. Choose **Privacy.cshtml.cs**. Then, clean up the `using` directives at the top of the file by using the following shortcut:
 
-   Choose any of the grayed-out `using` directives and a [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Choose the light bulb, and then hover over **Remove unnecessary usings**. 
+   Choose any of the grayed-out `using` directives and a [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Choose the light bulb, and then hover over **Remove unnecessary usings**.
 
    ![Remove unnecessary Usings in the Privacy.cshtml.cs file](media/vs-2019/csharp-aspnet-remove-unnecessary-usings.png)
 

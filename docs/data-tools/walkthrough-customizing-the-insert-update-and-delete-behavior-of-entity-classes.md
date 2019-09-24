@@ -21,7 +21,7 @@ By default, the logic to perform updates is provided by the LINQ to SQL runtime.
 > [!NOTE]
 > This walkthrough requires the availability of the **InsertCustomer**, **UpdateCustomer**, and **DeleteCustomer** stored procedures for the Northwind database.
 
-This walkthrough provides the steps that you must follow to override the default LINQ to SQL runtime behavior for saving data back to a database by using stored procedures.
+This walkthrough provides the steps that you must follow to override the default LINQ to SQL run-time behavior for saving data back to a database by using stored procedures.
 
 During this walkthrough, you learn how to perform the following tasks:
 
