@@ -14,7 +14,7 @@ monikerRange: vs-2017
 
 The following error might appear if you try to target the .NET Framework 2.0, 3.0, or 3.5 in an F# project when Visual Studio is installed on Windows 8.1:
 
-**This project requires the 2.0 F# runtime, but that run time is not installed.**
+**This project requires the 2.0 F# runtime, but that runtime is not installed.**
 
 This error is known to occur under the following combination of conditions:
 

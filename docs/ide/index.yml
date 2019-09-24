@@ -83,7 +83,7 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
-          - text: What's New in Visual Studio 2019
+          - text: What's new in Visual Studio 2019
             url: ../ide/whats-new-visual-studio-2019.md
-          - text: What's New in Visual Studio 2017
+          - text: What's new in Visual Studio 2017
             url: ../ide/whats-new-visual-studio-2017.md
