@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|NormalizeStringsToUppercase|
 |CheckId|CA1308|
 |Category|Microsoft.Globalization|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 An operation normalizes a string to lowercase.

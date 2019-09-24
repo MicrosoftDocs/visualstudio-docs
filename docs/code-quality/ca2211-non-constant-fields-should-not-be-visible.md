@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|NonConstantFieldsShouldNotBeVisible|
 |CheckId|CA2211|
 |Category|Microsoft.Usage|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A public or protected static field is not constant nor is it read-only.

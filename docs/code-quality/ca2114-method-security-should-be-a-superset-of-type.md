@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|MethodSecurityShouldBeASupersetOfType|
 |CheckId|CA2114|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A type has declarative security and one of its methods has declarative security for the same security action, and the security action is not [Link Demands](/dotnet/framework/misc/link-demands), and the permissions checked by the type are not a subset of the permissions checked by the method.

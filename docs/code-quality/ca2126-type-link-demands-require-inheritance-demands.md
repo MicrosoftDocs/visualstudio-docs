@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|TypeLinkDemandsRequireInheritanceDemands|
 |CheckId|CA2126|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A public unsealed type is protected with a link demand, has an overridable method, and neither the type nor the method is protected with an inheritance demand.

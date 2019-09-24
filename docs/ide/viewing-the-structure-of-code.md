@@ -1,7 +1,7 @@
 ---
 title: Class view, call hierarchy, object browser, code definition window
-ms.date: 05/18/2018
-ms.topic: conceptual
+ms.date: 09/19/2019
+ms.topic: reference
 f1_keywords:
   - "vs.documentoutline.window"
   - "vs.objectbrowser"
@@ -62,18 +62,17 @@ The **Class View Settings** button on the toolbar has the following settings:
 |||
 |-|-|
 |**Show Base Types**|Base types are displayed.|
-|**Show Derived Types**|Derived types are displayed.|
+|**Show Project References**|Project references are displayed.|
 |**Show Hidden Types and Members**|Hidden types and members (not intended for use by clients) are displayed in light gray text.|
 |**Show Public Members**|Public members are displayed.|
 |**Show Protected Members**|Protected members are displayed.|
 |**Show Private Members**|Private members are displayed.|
 |**Show Other Members**|Other kinds of members are displayed, including internal (or Friend in Visual Basic) members.|
 |**Show Inherited Members**|Inherited members are displayed.|
-|**Show Extension Methods**|Extension methods are displayed.|
 
 ### Class View shortcut menu
 
-The shortcut menu in **Class View** may contain the following commands, depending on the kind of project selected:
+The shortcut (or right-click) menu in **Class View** may contain the following commands, depending on the kind of project selected:
 
 |||
 |-|-|
@@ -151,7 +150,6 @@ By using the **Object Browser Settings** button on the toolbar, you can specify 
 |**View Namespaces**|Displays namespaces rather than physical containers, in the left pane. Namespaces stored in multiple physical containers are merged.|
 |**View Containers**|Displays physical containers rather than namespaces, in the left pane. **View Namespaces** and **View Containers** are mutually exclusive settings.|
 |**Show Base Types**|Displays base types.|
-|**Show Derived Types**|Displays derived types.|
 |**Show Hidden Types and Members**|Displays hidden types and members (not intended for use by clients), in light gray text.|
 |**Show Public Members**|Displays public members.|
 |**Show Protected Members**|Displays protected members.|
@@ -162,7 +160,7 @@ By using the **Object Browser Settings** button on the toolbar, you can specify 
 
 ### Object Browser shortcut menu commands
 
-The shortcut menu in the **Object Browser** may contain the following commands, depending on the kind of item selected:
+The shortcut (or right-click) menu in **Object Browser** may contain the following commands, depending on the kind of item selected:
 
 |||
 |-|-|
@@ -191,7 +189,7 @@ Although this window is read-only, you can set breakpoints or bookmarks in it. T
 
 ### Code Definition shortcut menu
 
-The shortcut menu in the **Code Definition** window may contain the following commands:
+The shortcut (or right-click) menu in the **Code Definition** window may contain the following commands:
 
 |||
 |-|-|

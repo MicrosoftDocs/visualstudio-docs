@@ -1726,6 +1726,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/getting-started-with-cpp-in-visual-studio.md",
+            "redirect_url": "/cpp/get-started/tutorial-console-cpp",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/getting-started-with-visual-csharp-and-visual-basic.md",
             "redirect_url": "/visualstudio/ide/quickstart-visual-basic-console",
             "redirect_document_id": false
@@ -1957,7 +1962,7 @@
         },
         {
             "source_path": "docs/ide/quickstart-cpp.md",
-            "redirect_url": "/visualstudio/ide/getting-started-with-cpp-in-visual-studio",
+            "redirect_url": "/cpp/get-started/tutorial-console-cpp",
             "redirect_document_id": false
         },
         {
@@ -7892,11 +7897,6 @@
         },
         {
             "source_path": "subscriptions/vs-opsgility.md",
-            "redirect_url": "/visualstudio/subscriptions",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "subscriptions/vs-rstudio.md",
             "redirect_url": "/visualstudio/subscriptions",
             "redirect_document_id": false
         },

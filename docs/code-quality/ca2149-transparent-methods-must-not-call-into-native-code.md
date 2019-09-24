@@ -18,7 +18,7 @@ ms.workload:
 |TypeName|TransparentMethodsMustNotCallNativeCode|
 |CheckId|CA2149|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A method calls a native function through a method stub such as P/Invoke.

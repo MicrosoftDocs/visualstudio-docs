@@ -19,7 +19,7 @@ The selected `DataContext` method is currently used as one of the `Insert`, `Upd
 
 - To delete the selected method, causing the entity class to use runtime updates, click **Yes**.
 
-   The selected method is deleted and any classes that used this method for overriding update behavior are reverted to using the default LINQ to SQL runtime behavior.
+   The selected method is deleted and any classes that used this method for overriding update behavior are reverted to using the default LINQ to SQL run-time behavior.
 
 - To close the message box, leaving the selected method unchanged, click **No**.
 

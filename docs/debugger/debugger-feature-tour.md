@@ -110,6 +110,16 @@ When you press **Restart**, it saves time versus stopping the app and restarting
 
 If you do want to stop the debugger and get back into the code editor, you can press the red stop ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") button instead of **Restart**.
 
+## Edit your code and continue debugging (C#, VB, C++, XAML)
+
+In most languages supported by Visual Studio, you can edit your code in the middle of a debugging session and continue debugging. To use this feature, click into your code with your cursor while paused in the debugger, make edits, and press **F5**, **F10**, or **F11** to continue debugging.
+
+![Edit and continue debugging](../debugger/media/dbg-tips-edit-and-continue.gif "EditAndContinue")
+
+For more information on using the feature and on feature limitations, see [Edit and Continue](../debugger/edit-and-continue.md).
+
+To modify XAML code during a debugging session, see [Write and debug running XAML code with XAML Hot Reload](xaml-hot-reload.md).
+
 ## Inspect variables with data tips
 
 Now that you know your way around a little, you have a good opportunity to start inspecting your app state (variables) with the debugger. Features that allow you to inspect variables are some of the most useful features of the debugger, and there are different ways to do it. Often, when you try to debug an issue, you are attempting to find out whether variables are storing the values that you expect them to have in a particular app state.

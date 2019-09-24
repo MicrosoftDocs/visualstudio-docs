@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|UseGenericEventHandlerInstances|
 |CheckId|CA1003|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

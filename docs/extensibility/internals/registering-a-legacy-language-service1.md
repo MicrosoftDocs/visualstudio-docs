@@ -12,7 +12,7 @@ ms.workload:
   - "vssdk"
 ---
 # Registering a Legacy Language Service
-In the managed package framework (MPF), the language service is proffered by a VSPackage (see [VSPackages](../../extensibility/internals/vspackages.md)) and is registered with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] by adding registry keys and entries. This registration process is done in partly during installation and partly at runtime.
+In the managed package framework (MPF), the language service is proffered by a VSPackage (see [VSPackages](../../extensibility/internals/vspackages.md)) and is registered with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] by adding registry keys and entries. This registration process is done in partly during installation and partly at run time.
 
 ## Register the Language Service by Using Attributes
  The following attributes are used to register a language service.
@@ -153,7 +153,7 @@ namespace TestLanguagePackage
 }
 ```
 
-## Proffer the Language Service at Runtime
+## Proffer the Language Service at run time
  When your language package is loaded, you must tell [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] that your language service is ready. You do this by proffering the service. This is done in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method. In addition, you need to start a timer that calls your language service during idle periods so background parsing can be accomplished. This idle timer is also used to update document properties if you have implemented any through the <xref:Microsoft.VisualStudio.Package.DocumentProperties> class. In order to support a timer, your package must implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleComponent> interface (only the <xref:Microsoft.VisualStudio.OLE.Interop.IOleComponent.FDoIdle%2A> method needs to be fully implemented; the remaining methods can return default values).
 
 ### Example

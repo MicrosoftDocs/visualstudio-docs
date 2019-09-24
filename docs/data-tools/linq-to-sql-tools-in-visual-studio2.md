@@ -53,7 +53,7 @@ You can create <xref:System.Data.Linq.DataContext> methods that call (are mapped
 
 ## Configure a DataContext to use stored procedures to save data between entity classes and a database
 
-As stated earlier, you can create <xref:System.Data.Linq.DataContext> methods that call stored procedures and functions. Additionally, you can also assign stored procedures that are used for the default LINQ to SQL runtime behavior, which performs inserts, updates, and deletes. For more information, see [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md).
+As stated earlier, you can create <xref:System.Data.Linq.DataContext> methods that call stored procedures and functions. Additionally, you can also assign stored procedures that are used for the default LINQ to SQL run-time behavior, which performs inserts, updates, and deletes. For more information, see [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md).
 
 ## Inheritance and the O/R designer
 

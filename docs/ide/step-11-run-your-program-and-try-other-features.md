@@ -1,24 +1,21 @@
 ---
-title: "Step 11: Run your program and try other features"
-ms.date: 08/30/2019
+title: "Step 11: Run your picture viewer app and try other features"
+ms.date: 09/11/2019
 ms.assetid: 656614d0-4fe7-4a67-8edc-c10919377d09
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang:
- - "csharp"
- - "vb"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Step 11: Run your program and try other features
+# Step 11: Run your picture viewer app and try other features
 
-Your program is finished and ready to run. You can run your program and set the background color of the <xref:System.Windows.Forms.PictureBox>. To learn more, try to improve the program by changing the color of the form, customizing the buttons and check box, and changing the properties of the form.
+Your picture viewer app is finished and ready to run. You can run your app and set the background color of the <xref:System.Windows.Forms.PictureBox>. To learn more, try to improve the application by changing the color of the form, customizing the buttons and check box, and changing the properties of the form.
 
-## How to run your program and set the background color
+## How to run your app and set the background color
 
 1. Choose **F5**, or on the menu bar, choose **Debug** > **Start Debugging**.
 
@@ -32,7 +29,7 @@ Your program is finished and ready to run. You can run your program and set the 
     > [!NOTE]
     > You can load a picture from the Internet by pasting its URL into the **Open File** dialog box. Try to find an image with a transparent background, so your background color shows.
 
-1. Choose the **Clear the picture** button to make sure it clears. Then, exit the program by choosing the **Close** button.
+1. Choose the **Clear the picture** button to make sure it clears. Then, exit the app by choosing the **Close** button.
 
 ## Try other features
 
@@ -42,7 +39,7 @@ Your program is finished and ready to run. You can run your program and set the 
 
 * Change your form's **FormBorderStyle** and **ControlBox** properties.
 
-* Use your form's **AcceptButton** and **CancelButton** properties so that buttons are automatically chosen when the user chooses the **Enter** or **Esc** key. Make the program open the **Open File** dialog box when the user chooses **Enter** and close the box when the user chooses **Esc**.
+* Use your form's **AcceptButton** and **CancelButton** properties so that buttons are automatically chosen when the user chooses the **Enter** or **Esc** key. Make the app open the **Open File** dialog box when the user chooses **Enter** and close the box when the user chooses **Esc**.
 
 ## Next steps
 
@@ -57,4 +54,4 @@ To return to the previous tutorial step, see [Step 10: Write code for additional
 
 * [More C# tutorials](/visualstudio/get-started/csharp/)
 * [More Visual Basic tutorials](/visualstudio/get-started/visual-basic/)
-* [C++ tutorial](../ide/getting-started-with-cpp-in-visual-studio.md)
+* [C++ tutorial](/cpp/get-started/tutorial-console-cpp)

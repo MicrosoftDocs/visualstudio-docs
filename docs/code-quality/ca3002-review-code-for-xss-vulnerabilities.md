@@ -18,7 +18,7 @@ ms.workload:
 |TypeName|ReviewCodeForXssVulnerabilities|
 |CheckId|CA3002|
 |Category|Microsoft.Security|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

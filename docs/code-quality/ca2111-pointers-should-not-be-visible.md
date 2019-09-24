@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|PointersShouldNotBeVisible|
 |CheckId|CA2111|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A public or protected <xref:System.IntPtr?displayProperty=fullName> or <xref:System.UIntPtr?displayProperty=fullName> field is not read-only.

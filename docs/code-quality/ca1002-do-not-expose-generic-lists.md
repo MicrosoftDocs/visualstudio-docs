@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|DoNotExposeGenericLists|
 |CheckId|CA1002|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

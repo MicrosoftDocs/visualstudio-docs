@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|AvoidExcessiveLocals|
 |CheckId|CA1809|
 |Category|Microsoft.Performance|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 A member contains more than 64 local variables, some of which might be compiler-generated.

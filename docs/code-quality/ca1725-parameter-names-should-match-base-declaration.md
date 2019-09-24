@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|ParameterNamesShouldMatchBaseDeclaration|
 |CheckId|CA1725|
 |Category|Microsoft.Naming|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

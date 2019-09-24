@@ -16,7 +16,7 @@ ms.workload:
 |TypeName||
 |CheckId|CA2151|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

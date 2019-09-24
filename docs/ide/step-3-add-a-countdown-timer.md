@@ -1,10 +1,12 @@
 ---
 title: "Step 3: Add a countdown timer"
 ms.date: 11/04/2016
-ms.topic: conceptual
-dev_langs: 
-  - "csharp"
-  - "vb"
+ms.topic: tutorial
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
+dev_langs:
+  - "CSharp"
+  - "VB"
 ms.assetid: 62670a2b-efdc-45c6-9646-9b17eeb33dcb
 author: TerryGLee
 ms.author: tglee
@@ -13,10 +15,13 @@ ms.workload:
   - "multiple"
 ---
 # Step 3: Add a countdown timer
+
 In the third part of this tutorial, you'll add a countdown timer to track the number of seconds that remain for the quiz taker to finish.
 
 > [!NOTE]
-> This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
+> This topic is part of a tutorial series about basic coding concepts.
+> - For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
+> - To download a completed version of the code, see [Complete math quiz tutorial sample](https://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).
 
 ## To add a countdown timer
 
@@ -24,6 +29,9 @@ In the third part of this tutorial, you'll add a countdown timer to track the nu
 
      [!code-vb[VbExpressTutorial3Step3#5](../ide/codesnippet/VisualBasic/step-3-add-a-countdown-timer_1.vb)]
      [!code-csharp[VbExpressTutorial3Step3#5](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_1.cs)]
+
+   > [!IMPORTANT]
+   > Use the programming language control at the top right of this page to view either the C# code snippet or the Visual Basic code snippet.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
 
      Now you need a method that actually counts the seconds, such as a timer, which raises an event after the amount of time that you specify.
 
@@ -51,7 +59,7 @@ In the third part of this tutorial, you'll add a countdown timer to track the nu
      You just added an `if else` statement, which is how you tell programs to make decisions. An `if else` statement looks like the following.
 
     > [!NOTE]
-    > The following example is for illustration only-don't add it to your project.
+    > The following example is for demonstration only--don't add it to your project.
 
     ```vb
     If (something that your program will check) Then
@@ -96,11 +104,11 @@ In the third part of this tutorial, you'll add a countdown timer to track the nu
 
      The timer starts to count down. When time runs out, the quiz ends, and the answer appears. The following illustration shows the quiz in progress.
 
-     ![Math quiz in progress](../ide/media/express_addcountdown.png)
-Math quiz in progress
+     ![Math quiz in progress](../ide/media/express_addcountdown.png)<br/>
+*Math quiz in progress*
 
 ## To continue or review
 
-- To go to the next tutorial step, see [Step 4: Add the CheckTheAnswer() method](../ide/step-4-add-the-checktheanswer-parens-method.md).
+- To go to the next tutorial step, see **[Step 4: Add the CheckTheAnswer() method](../ide/step-4-add-the-checktheanswer-parens-method.md)**.
 
 - To return to the previous tutorial step, see [Step 2: Create a random addition problem](../ide/step-2-create-a-random-addition-problem.md).

@@ -11,8 +11,6 @@ dev_langs:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.workload:
-  - "multiple"
 ---
 # Use code coverage to determine how much code is being tested
 
@@ -22,33 +20,51 @@ Code coverage analysis can be applied to both managed (CLI) and unmanaged (nativ
 
 Code coverage is an option when you run test methods using Test Explorer. The results table shows the percentage of the code that was run in each assembly, class, and method. In addition, the source editor shows you which code has been tested.
 
+::: moniker range="vs-2017"
+
 ![Code coverage results with coloring](../test/media/codecoverage1.png)
+
+::: moniker-end
 
 ## Requirements
 
 The code coverage feature is available only in Visual Studio Enterprise edition.
 
-## To analyze code coverage on unit tests in Test Explorer
+## Analyze code coverage
 
 ::: moniker range="vs-2017"
+
 1. On the **Test** menu, choose **Analyze Code Coverage**.
+
 ::: moniker-end
+
 ::: moniker range=">=vs-2019"
-1. In **Test Explorer**, select **Analyze Code Coverage** from the **Run** menu.
+
+1. In **Test Explorer**, select **Analyze Code Coverage for All Tests** from the **Run** menu.
+
+   ![Analyze code coverage menu in VS 2019](../test/media/vs-2019/analyze-code-coverage.png)
+
+   If **Test Explorer** is not open, open it by selecting **Test** > **Windows** > **Test Explorer**, or press **Ctrl**+**E**,**T**.
+
 ::: moniker-end
 
-2. To see which lines have been run, choose ![Show Code Coverage Coloring Icon](../test/media/codecoverage-showcoloringicon.png) **Show Code Coverage Coloring**.
+2. After the tests have run, to see which lines have been run, choose ![Show Code Coverage Coloring icon](../test/media/codecoverage-showcoloringicon.png) **Show Code Coverage Coloring** in the **Code Coverage Results** window. By default, code that is covered by tests is highlighted in light blue.
 
-   To alter the colors, or to use bold face, choose **Tools** > **Options** > **Environment** > **Fonts and Colors** > **Show settings for: Text Editor**. Under **Display Items**, adjust the Coverage items.
+   > [!TIP]
+   > To change the colors or to use bold face, choose **Tools** > **Options** > **Environment** > **Fonts and Colors** > **Show settings for: Text Editor**. Under **Display items**, adjust settings for the "Coverage" items, for example, **Coverage Not Touched Area**.
+   >
+   > ![Code coverage fonts and colors](media/vs-2019/coverage-fonts-and-colors.png)
 
 3. If the results show low coverage, investigate which parts of the code are not being exercised, and write more tests to cover them. Development teams typically aim for about 80% code coverage. In some situations, lower coverage is acceptable. For example, lower coverage is acceptable where some code is generated from a standard template.
 
 > [!TIP]
-> - make sure that compiler optimization is turned off
-> - if you are working with unmanaged (native) code, use a debug build
-> - make sure that you are generating .pdb (symbol) files for each assembly
+> - Turn compiler optimization off
+> - If you're working with unmanaged (native) code, use a debug build
+> - Generate .pdb (symbol) files for each assembly
 
-If you don't get the results you expect, see [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md). Don't forget to run code coverage again after updating your code. Coverage results and code coloring are not automatically updated after you modify your code or when you run tests.
+If you don't get the results you expect, see [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md).
+
+Don't forget to run code coverage again after updating your code. Coverage results and code coloring are not automatically updated after you modify your code or when you run tests.
 
 ## Report in blocks or lines
 

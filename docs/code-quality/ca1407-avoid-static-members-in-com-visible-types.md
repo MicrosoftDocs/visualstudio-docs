@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|AvoidStaticMembersInComVisibleTypes|
 |CheckId|CA1407|
 |Category|Microsoft.Interoperability|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 A type that is specifically marked as visible to Component Object Model (COM) contains a `public``static` method.

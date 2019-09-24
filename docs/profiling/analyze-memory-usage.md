@@ -28,5 +28,5 @@ You can use the profiling tools without the debugger with Windows 7 and later. W
 
 ## See also
 
-- [Profiling in Visual Studio](../profiling/index.md)
+- [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)

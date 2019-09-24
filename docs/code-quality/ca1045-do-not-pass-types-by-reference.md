@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|DoNotPassTypesByReference|
 |CheckId|CA1045|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A public or protected method in a public type has a `ref` parameter that takes a primitive type, a reference type, or a value type that is not one of the built-in types.

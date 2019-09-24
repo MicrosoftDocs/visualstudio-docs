@@ -75,6 +75,7 @@
 ### [Building ASP.NET Core applications in Visual Studio for Mac](building-asp-net-core.md)
 ### [Razor](razor.md)
 ### [JavaScript and TypeScript](javascript.md)
+### [launchSettings.json](launch-settings.md)
 ## Azure
 ### [Overview](azure-workload.md)
 ### [Introduction to Azure Functions](azure-functions.md)
@@ -106,7 +107,7 @@
 # [Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes)
 # [Preview Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-preview-relnotes)
 # Samples
-## [Featured Samples](samples.yml)
+## [Featured Samples](samples/index.yml)
 ## [All ASP.NET Core Samples](https://docs.microsoft.com/samples/browse/?products=aspnet-core)
 ## [All .NET Core Samples](https://docs.microsoft.com/samples/browse/?products=dotnet-core)
 ## [All Xamarin.Forms Samples](https://docs.microsoft.com/xamarin/xamarin-forms/samples/)

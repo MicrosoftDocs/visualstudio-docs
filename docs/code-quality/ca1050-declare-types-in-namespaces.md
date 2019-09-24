@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|DeclareTypesInNamespaces|
 |CheckId|CA1050|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A public or protected type is defined outside the scope of a named namespace.

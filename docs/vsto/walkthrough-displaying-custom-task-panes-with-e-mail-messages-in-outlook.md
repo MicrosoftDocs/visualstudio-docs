@@ -269,4 +269,4 @@ ms.workload:
 - [Walkthrough: Synchronize a custom task pane with a Ribbon button](../vsto/walkthrough-synchronizing-a-custom-task-pane-with-a-ribbon-button.md)
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [Outlook object model overview](../vsto/outlook-object-model-overview.md)
-- [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
+- [Access the ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)

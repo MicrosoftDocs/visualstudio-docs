@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|DoNotDecreaseInheritedMemberVisibility|
 |CheckId|CA2222|
 |Category|Microsoft.Usage|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

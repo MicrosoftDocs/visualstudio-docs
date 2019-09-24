@@ -68,6 +68,8 @@ f1_keywords:
   - "CA1063"
   - "CA1064"
   - "CA1065"
+  - "CA1068"
+  - "CA1200"
   - "CA1300"
   - "CA1301"
   - "CA1302"
@@ -152,6 +154,7 @@ f1_keywords:
   - "CA1822"
   - "CA1823"
   - "CA1824"
+  - "CA1825"
   - "CA1900"
   - "CA1901"
   - "CA1903"
@@ -328,6 +331,8 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1063 | [CA1063: Implement IDisposable correctly](../code-quality/ca1063-implement-idisposable-correctly.md) | All IDisposable types should implement the Dispose pattern correctly. |
 | CA1064 | [CA1064: Exceptions should be public](../code-quality/ca1064-exceptions-should-be-public.md) | An internal exception is visible only inside its own internal scope. After the exception falls outside the internal scope, only the base exception can be used to catch the exception. If the internal exception is inherited from <xref:System.Exception>, <xref:System.SystemException>, or <xref:System.ApplicationException>, the external code will not have sufficient information to know what to do with the exception. |
 | CA1065 | [CA1065: Do not raise exceptions in unexpected locations](../code-quality/ca1065-do-not-raise-exceptions-in-unexpected-locations.md) | A method that is not expected to throw exceptions throws an exception. |
+| CA1068 | [CA1068: CancellationToken parameters must come last](../code-quality/ca1068.md) | A method has a CancellationToken parameter that is not the last parameter. |
+| CA1200 | [CA1200: Avoid using cref tags with a prefix](../code-quality/ca1200.md) | The [cref](https://docs.microsoft.com/dotnet/csharp/programming-guide/xmldoc/cref-attribute) attribute in an XML documentation tag means "code reference". It specifies that the inner text of the tag is a code element, such as a type, method, or property. Avoid using `cref` tags with prefixes, because it prevents the compiler from verifying references. It also prevents the Visual Studio integrated development environment (IDE) from finding and updating these symbol references during refactorings. |
 | CA1300 | [CA1300: Specify MessageBoxOptions](../code-quality/ca1300-specify-messageboxoptions.md) | To correctly display a message box for cultures that use a right-to-left reading order, the RightAlign and RtlReading members of the MessageBoxOptions enumeration must be passed to the Show method. |
 | CA1301 | [CA1301: Avoid duplicate accelerators](../code-quality/ca1301-avoid-duplicate-accelerators.md) | An access key, also known as an accelerator, enables keyboard access to a control by using the ALT key. When multiple controls have duplicate access keys, the behavior of the access key is not well-defined. |
 | CA1302 | [CA1302: Do not hardcode locale specific strings](../code-quality/ca1302-do-not-hardcode-locale-specific-strings.md) | The System.Environment.SpecialFolder enumeration contains members that refer to special system folders. The locations of these folders can have different values on different operating systems; the user can change some of the locations; and the locations are localized. The Environment.GetFolderPath method returns the locations that are associated with the Environment.SpecialFolder enumeration, localized and appropriate for the currently running computer. |
@@ -404,6 +409,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1822 |[CA1822: Mark members as static](../code-quality/ca1822-mark-members-as-static.md) | Members that do not access instance data or call instance methods can be marked as static (Shared in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]). After you mark the methods as static, the compiler will emit nonvirtual call sites to these members. This can give you a measurable performance gain for performance-sensitive code. |
 | CA1823 | [CA1823: Avoid unused private fields](../code-quality/ca1823-avoid-unused-private-fields.md) | Private fields were detected that do not appear to be accessed in the assembly. |
 | CA1824 |[CA1824: Mark assemblies with NeutralResourcesLanguageAttribute](../code-quality/ca1824-mark-assemblies-with-neutralresourceslanguageattribute.md) | The NeutralResourcesLanguage attribute informs the resource manager of the language that was used to display the resources of a neutral culture for an assembly. This improves lookup performance for the first resource that you load and can reduce your working set. |
+| CA1825 |[CA1825: Avoid zero-length array allocations](../code-quality/ca1825.md) | Initializing a zero-length array leads to unnecessary memory allocation. Instead, use the statically allocated empty array instance by calling <xref:System.Array.Empty%2A?displayProperty=nameWithType>. The memory allocation is shared across all invocations of this method. |
 | CA1900 | [CA1900: Value type fields should be portable](../code-quality/ca1900-value-type-fields-should-be-portable.md) | This rule checks that structures that are declared by using explicit layout will align correctly when marshaled to unmanaged code on 64-bit operating systems. |
 | CA1901 | [CA1901: P/Invoke declarations should be portable](../code-quality/ca1901-p-invoke-declarations-should-be-portable.md) | This rule evaluates the size of each parameter and the return value of a P/Invoke, and verifies that the size of the parameter is correct when marshaled to unmanaged code on 32-bit and 64-bit operating systems. |
 | CA1903 | [CA1903: Use only API from targeted framework](../code-quality/ca1903-use-only-api-from-targeted-framework.md) | A member or type is using a member or type that was introduced in a service pack that was not included together with the targeted framework of the project. |

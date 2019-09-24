@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|ImplementSerializationConstructors|
 |CheckId|CA2229|
 |Category|Microsoft.Usage|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 The type implements the <xref:System.Runtime.Serialization.ISerializable?displayProperty=fullName> interface, is not a delegate or interface, and one of the following conditions is true:

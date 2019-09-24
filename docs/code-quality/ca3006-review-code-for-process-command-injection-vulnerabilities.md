@@ -18,7 +18,7 @@ ms.workload:
 |TypeName|ReviewCodeForProcessCommandInjectionVulnerabilities|
 |CheckId|CA3006|
 |Category|Microsoft.Security|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

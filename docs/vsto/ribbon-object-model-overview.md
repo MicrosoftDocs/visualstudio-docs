@@ -14,7 +14,7 @@ ms.workload:
   - "office"
 ---
 # Ribbon object model overview
-  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] exposes a strongly typed object model that you can use to get and set the properties of Ribbon controls at runtime. For example, you can dynamically populate menu controls, or show and hide controls contextually. You can also add tabs, groups, and controls to a ribbon, but only before the ribbon is loaded by the Office application. For information, see [Set properties that become read-only](#SettingReadOnlyProperties).
+  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] exposes a strongly typed object model that you can use to get and set the properties of Ribbon controls at run time. For example, you can dynamically populate menu controls, or show and hide controls contextually. You can also add tabs, groups, and controls to a ribbon, but only before the ribbon is loaded by the Office application. For information, see [Set properties that become read-only](#SettingReadOnlyProperties).
 
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]
 
@@ -92,7 +92,7 @@ ms.workload:
 
 - In the `CreateRibbonExtensibilityObject` method of the `ThisAddin`, `ThisWorkbook`, or `ThisDocument` class of your project.
 
-  Dynamic menus provide some exceptions. You can create new controls, set their properties, and then add them to a dynamic menu at runtime, even after the ribbon that contains the menu is loaded.
+  Dynamic menus provide some exceptions. You can create new controls, set their properties, and then add them to a dynamic menu at run time, even after the ribbon that contains the menu is loaded.
 
   Properties of controls that you add to a dynamic menu can be set at any time.
 
@@ -157,7 +157,7 @@ ms.workload:
  If you have conditional logic that sets any of these properties to a different value when other instances of the ribbon are created, this code will have no effect.
 
 > [!NOTE]
-> Ensure that the **Name** property is set for each control that you add to an Outlook Ribbon. If you add a control to an Outlook Ribbon at runtime, you must set this property in your code. If you add a control to an Outlook Ribbon at design time, the Name property is set automatically.
+> Ensure that the **Name** property is set for each control that you add to an Outlook Ribbon. If you add a control to an Outlook Ribbon at run time, you must set this property in your code. If you add a control to an Outlook Ribbon at design time, the Name property is set automatically.
 
 ## Ribbon control events
  Each control class contains one or more events. The following table describes these events.
@@ -179,12 +179,12 @@ ms.workload:
 |*e*|A <xref:Microsoft.Office.Tools.Ribbon.RibbonControlEventArgs> that contains a <xref:Microsoft.Office.Core.IRibbonControl>. Use this control to access any property that is not available in the Ribbon object model provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].|
 
 ## See also
-- [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
+- [Access the ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)
 - [Ribbon Designer](../vsto/ribbon-designer.md)
 - [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)
-- [Walkthrough: Update the controls on a ribbon at runtime](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)
+- [Walkthrough: Update the controls on a ribbon at run time](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)
 - [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md)
 - [How to: Customize a built-in tab](../vsto/how-to-customize-a-built-in-tab.md)
 - [How to: Add controls to the Backstage view](../vsto/how-to-add-controls-to-the-backstage-view.md)

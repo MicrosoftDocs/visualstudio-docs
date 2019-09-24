@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|DoNotDisposeObjectsMultipleTimes|
 |CheckId|CA2202|
 |Category|Microsoft.Usage|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

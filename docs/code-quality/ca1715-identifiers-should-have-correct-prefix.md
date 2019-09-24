@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|IdentifiersShouldHaveCorrectPrefix|
 |CheckId|CA1715|
 |Category|Microsoft.Naming|
-|Breaking Change|Breaking - when fired on interfaces.<br /><br /> Non-breaking - when raised on generic type parameters.|
+|Breaking change|Breaking - when fired on interfaces.<br /><br /> Non-breaking - when raised on generic type parameters.|
 
 ## Cause
 

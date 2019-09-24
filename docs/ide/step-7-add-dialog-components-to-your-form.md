@@ -5,9 +5,6 @@ ms.assetid: ea98c55e-6213-4893-ba7b-f19d7f119527
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang:
- - "csharp"
- - "vb"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -16,7 +13,7 @@ ms.workload:
 ---
 # Step 7: Add dialog components to your form
 
-To enable your program to open picture files and choose a background color, in this step, you add an <xref:System.Windows.Forms.OpenFileDialog> component and a <xref:System.Windows.Forms.ColorDialog> component to your form.
+To enable your app to open picture files and choose a background color, in this step, you add an <xref:System.Windows.Forms.OpenFileDialog> component and a <xref:System.Windows.Forms.ColorDialog> component to your form.
 
 A component is like a control in some ways. You use the **Toolbox** to add a component to your form, and you set its properties using the **Properties** window. But unlike a control, adding a component to your form doesn't add a visible item that the user can see on the form. Instead, it provides certain behaviors that you can trigger with code. It's a component that opens an **Open File** dialog box.
 
@@ -48,7 +45,7 @@ A component is like a control in some ways. You use the **Toolbox** to add a com
 
 ## Next steps
 
-* To go to the next tutorial step, see [Step 8: Write code for the show a picture button event handler](../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md).
+* To go to the next tutorial step, see **[Step 8: Write code for the show a picture button event handler](../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md)**.
 
 * To return to the previous tutorial step, see [Step 6: Name your button controls](../ide/step-6-name-your-button-controls.md).
 

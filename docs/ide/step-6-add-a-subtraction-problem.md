@@ -1,10 +1,12 @@
 ---
 title: "Step 6: Add a subtraction problem"
 ms.date: 11/04/2016
-ms.topic: conceptual
-dev_langs: 
-  - "csharp"
-  - "vb"
+ms.topic: tutorial
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
+dev_langs:
+  - "CSharp"
+  - "VB"
 ms.assetid: 59204ef9-24bd-4f81-b85f-e3168e518a3e
 author: TerryGLee
 ms.author: tglee
@@ -23,12 +25,20 @@ In the sixth part of this tutorial, you'll add a subtraction problem and learn h
 
 - Update your timer's <xref:System.Windows.Forms.Timer.Tick> event handler so that the event handler fills in the correct answer when time runs out.
 
+> [!NOTE]
+> This topic is part of a tutorial series about basic coding concepts.
+> - For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
+> - To download a completed version of the code, see [Complete math quiz tutorial sample](https://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).
+
 ## To add a subtraction problem
 
 1. Add two integer variables for the subtraction problem to your form, between the integer variables for the addition problem and the timer. The code should look like the following.
 
      [!code-vb[VbExpressTutorial3Step5_6#12](../ide/codesnippet/VisualBasic/step-6-add-a-subtraction-problem_1.vb)]
      [!code-csharp[VbExpressTutorial3Step5_6#12](../ide/codesnippet/CSharp/step-6-add-a-subtraction-problem_1.cs)]
+
+     > [!IMPORTANT]
+     > Use the programming language control at the top right of this page to view either the C# code snippet or the Visual Basic code snippet.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
 
      The names of the new integer variables—**minuend** and **subtrahend**—aren't programming terms. They're the traditional names in arithmetic for the number that's being subtracted (the subtrahend) and the number from which the subtrahend is being subtracted (the minuend). The difference is the minuend minus the subtrahend. You could use other names, because your program doesn't require specific names for variables, controls, components, or methods. You must follow rules such as not starting names with digits, but you can generally use names such as x1, x2, x3, and x4. However, generic names make code difficult to read and problems nearly impossible to track down. To keep variable names unique and helpful, you'll use the traditional names for multiplication (multiplicand × multiplier = product) and division (dividend ÷ divisor = quotient) later in this tutorial.
 
@@ -46,13 +56,13 @@ In the sixth part of this tutorial, you'll add a subtraction problem and learn h
 
      You can call the `Next()` method of the Random class, which you named "randomizer" earlier in this tutorial, in multiple ways. Methods that you can call in more than one way are referred to as overloaded, and you can use IntelliSense to explore them. Look again at the tooltip of the IntelliSense window for the `Next()` method.
 
-     ![IntelliSense window tooltip](../ide/media/express_overloads.png)
-**IntelliSense** window tooltip
+     ![IntelliSense window tooltip](../ide/media/express_overloads.png)<br/>
+***IntelliSense*** *window tooltip*
 
      The tooltip shows **(+ 2 overload(s))**, which means that you can call the `Next()` method in two other ways. Overloads contain different numbers or types of arguments, so that they work slightly differently from one another. For example, a method might take a single integer argument, and one of its overloads might take an integer and a string. You choose the correct overload based on what you want it to do. When you add the code to the `StartTheQuiz()` method, more information appears in the IntelliSense window as soon as you enter `randomizer.Next(`. To cycle through the overloads, choose the **Up Arrow** and **Down Arrow** keys as shown in the following illustration:
 
-     ![Overload for Next&#40;&#41; method in IntelliSense](../ide/media/express_nextoverload.png)
-Overload for **Next()** method in **IntelliSense**
+     ![Overload for Next&#40;&#41; method in IntelliSense](../ide/media/express_nextoverload.png)<br/>
+*Overload for* ***Next()*** *method in* ***IntelliSense***
 
      In this case, you want to choose the last overload, because you can specify minimum and maximum values.
 
@@ -72,11 +82,11 @@ Overload for **Next()** method in **IntelliSense**
 
      Your program includes a subtraction problem, as the following illustration shows:
 
-     ![Math quiz with subtraction problem](../ide/media/express_addsubtract.png)
-**Math quiz** with subtraction problem
+     ![Math quiz with subtraction problem](../ide/media/express_addsubtract.png)<br/>
+***Math quiz*** *with subtraction problem*
 
 ## To continue or review
 
-- To go to the next tutorial step, see [Step 7: Add multiplication and division problems](../ide/step-7-add-multiplication-and-division-problems.md).
+- To go to the next tutorial step, see **[Step 7: Add multiplication and division problems](../ide/step-7-add-multiplication-and-division-problems.md)**.
 
 - To return to the previous tutorial step, see [Step 5: Add Enter event handlers for the NumericUpDown controls](../ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md).

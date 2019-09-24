@@ -21,7 +21,7 @@ ms.workload:
 |TypeName|RemoveEmptyFinalizers|
 |CheckId|CA1821|
 |Category|Microsoft.Performance|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

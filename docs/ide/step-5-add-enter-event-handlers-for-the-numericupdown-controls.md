@@ -1,14 +1,16 @@
 ---
 title: "Step 5: Add Enter event handlers for NumericUpDown controls"
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: tutorial
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
+dev_langs:
+  - "CSharp"
+  - "VB"
 ms.assetid: 45a99a5d-c881-4298-b74d-adb481dec5ee
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-dev_langs:
- - CSharp
- - VB
 ms.workload:
   - "multiple"
 ---
@@ -17,7 +19,9 @@ ms.workload:
 In the fifth part of this tutorial, you'll add <xref:System.Windows.Forms.Control.Enter> event handlers to make entering answers for quiz problems a little easier. This code will select and clear the current value in each <xref:System.Windows.Forms.NumericUpDown> control as soon as the quiz taker chooses it and starts to enter a different value.
 
 > [!NOTE]
-> This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
+> This topic is part of a tutorial series about basic coding concepts.
+> - For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
+> - To download a completed version of the code, see [Complete math quiz tutorial sample](https://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).
 
 ## To verify the default behavior
 
@@ -52,6 +56,9 @@ In the fifth part of this tutorial, you'll add <xref:System.Windows.Forms.Contro
      [!code-vb[VbExpressTutorial3Step5_6#11](../ide/codesnippet/VisualBasic/step-5-add-enter-event-handlers-for-the-numericupdown-controls_1.vb)]
      [!code-csharp[VbExpressTutorial3Step5_6#11](../ide/codesnippet/CSharp/step-5-add-enter-event-handlers-for-the-numericupdown-controls_1.cs)]
 
+     > [!IMPORTANT]
+     > Use the programming language control at the top right of this page to view either the C# code snippet or the Visual Basic code snippet.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
+
      This code may look complex, but you can understand it if you look at it step by step. First, look at the top of the method: `object sender` in C# or `sender As System.Object` in Visual Basic. This parameter refers to the object whose event is firing, which is known as the sender. In this case, the sender object is the NumericUpDown control. So, in the first line of the method, you specify that the sender isn't just any generic object but specifically a NumericUpDown control. (Every NumericUpDown control is an object, but not every object is a NumericUpDown control.) The NumericUpDown control is named **answerBox** in this method, because it will be used for all of the NumericUpDown controls on the form, not just the sum NumericUpDown control. Because you declare the answerBox variable in this method, its scope applies only to this method. In other words, the variable can be used only within this method.
 
      The next line verifies whether answerBox was successfully converted (cast) from an object to a NumericUpDown control. If the conversion was unsuccessful, the variable would have a value of `null` (C#) or `Nothing` (Visual Basic). The third line gets the length of the answer that appears in the NumericUpDown control, and the fourth line selects the current value in the control based on this length. Now, when the quiz taker chooses the control, Visual Studio fires this event, which causes the current answer to be selected. As soon as the quiz taker starts to enter a different answer, the previous answer is cleared and replaced with the new answer.
@@ -68,6 +75,6 @@ In the fifth part of this tutorial, you'll add <xref:System.Windows.Forms.Contro
 
 ## To continue or review
 
-- To go to the next tutorial step, see [Step 6: Add a subtraction problem](../ide/step-6-add-a-subtraction-problem.md).
+- To go to the next tutorial step, see **[Step 6: Add a subtraction problem](../ide/step-6-add-a-subtraction-problem.md)**.
 
 - To return to the previous tutorial step, see [Step 4: Add the CheckTheAnswer() method](../ide/step-4-add-the-checktheanswer-parens-method.md).

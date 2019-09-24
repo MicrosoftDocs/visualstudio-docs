@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|AvoidOverloadsInComVisibleInterfaces|
 |CheckId|CA1402|
 |Category|Microsoft.Interoperability|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A Component Object Model (COM) visible interface declares overloaded methods.

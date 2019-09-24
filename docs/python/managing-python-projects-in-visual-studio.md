@@ -138,7 +138,7 @@ Extension references typically indicate dependencies between projects and are us
 
 A reference to a *.pyd* file enables IntelliSense for the generated module. Visual Studio loads the *.pyd* file into the Python interpreter and introspects its types and functions. It also attempts to parse the doc strings for functions to provide signature help.
 
-If at any time the extension module is updated on disk, Visual Studio reanalyzes the module in the background. This action has no effect on runtime behavior but some completions aren't available until analysis is complete.
+If at any time the extension module is updated on disk, Visual Studio reanalyzes the module in the background. This action has no effect on run-time behavior but some completions aren't available until analysis is complete.
 
 You may also need to add a [search path](search-paths.md) to the folder containing the module.
 

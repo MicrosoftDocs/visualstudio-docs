@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|OverrideLinkDemandsShouldBeIdenticalToBase|
 |CheckId|CA2123|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A public or protected method in a public type overrides a method or implements an interface, and does not have the same [Link Demands](/dotnet/framework/misc/link-demands) as the interface or virtual method.

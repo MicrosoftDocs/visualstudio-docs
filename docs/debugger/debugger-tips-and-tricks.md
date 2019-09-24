@@ -33,6 +33,10 @@ In most languages supported by Visual Studio, you can edit your code in the midd
 
 For more information on using the feature and on feature limitations, see [Edit and Continue](../debugger/edit-and-continue.md).
 
+## Edit XAML code and continue debugging
+
+To modify XAML code during a debugging session, see [Write and debug running XAML code with XAML Hot Reload](xaml-hot-reload.md).
+
 ## Debug issues that are hard to reproduce
 
 If it is difficult or time-consuming to recreate a particular state in your app, consider whether the use of a conditional breakpoint can help. You can use [conditional breakpoints](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression) and filter breakpoints to avoid breaking into your app code until the app enters a desired state (such as a state in which a variable is storing bad data). You can set conditions using expressions, filters, hit counts, and so on.

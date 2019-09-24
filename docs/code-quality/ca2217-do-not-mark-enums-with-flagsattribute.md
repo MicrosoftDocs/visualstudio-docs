@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|DoNotMarkEnumsWithFlags|
 |CheckId|CA2217|
 |Category|Microsoft.Usage|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

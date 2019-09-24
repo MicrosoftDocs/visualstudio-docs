@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|DoNotRaiseExceptionsInExceptionClauses|
 |CheckId|CA2219|
 |Category|Microsoft.Usage|
-|Breaking Change|Non Breaking, Breaking|
+|Breaking change|Non-breaking, Breaking|
 
 ## Cause
 An exception is thrown from a `finally`, filter, or fault clause.

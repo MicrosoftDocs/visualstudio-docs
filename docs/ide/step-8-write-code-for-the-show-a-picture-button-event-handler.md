@@ -5,12 +5,9 @@ ms.assetid: 07f4ec00-cda4-42f4-98bb-37edc7167de7
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang:
- - "csharp"
- - "vb"
 dev_langs:
-  - "csharp"
-  - "vb"
+  - "CSharp"
+  - "VB"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -21,9 +18,9 @@ ms.workload:
 
 In this step, you make the **Show a picture** button work as follows:
 
-- When a user chooses that button, the program opens an <xref:System.Windows.Forms.OpenFileDialog> box.
+- When a user chooses that button, the app opens an <xref:System.Windows.Forms.OpenFileDialog> box.
 
-- If a user opens a picture file, the program shows that picture in the <xref:System.Windows.Forms.PictureBox>.
+- If a user opens a picture file, the app shows that picture in the <xref:System.Windows.Forms.PictureBox>.
 
 The IDE has a powerful tool called IntelliSense that helps you write code. As you type code, the IDE opens a box with suggested completions for partial words that you enter.
 
@@ -36,6 +33,9 @@ IntelliSense tries to determine what you want to do next, and automatically jump
 1. Type an `i` on the empty line between the two braces `{ }`. (In Visual Basic, type on the empty line between `Private Sub...` and `End Sub`.) An **IntelliSense** window opens, as shown in the following image.
 
     ![IntelliSense with Visual C&#35; code](../ide/media/express_ifintellisense.png)
+
+    > [!NOTE]
+    > Your code might not display event handlers in "camelCase" letters.
 
 1. The **IntelliSense** window should highlight the word `if`. (If not, enter a lowercase `f`, and it will.) Notice how a *tooltip* box next to the **IntelliSense** window appears with the description, **Code snippet for if statement**. (In Visual Basic, the tooltip also states that this is a snippet, but with slightly different wording.) You want to use that snippet, so choose the **Tab** key to insert `if` into your code. Then choose the **Tab** key again to use the `if` snippet. (If you chose somewhere else and your **IntelliSense** window disappeared, backspace over the `i` and retype it, and the **IntelliSense** window opens again.)
 
@@ -63,7 +63,7 @@ Next, you use IntelliSense to enter more code to open an **Open File** dialog bo
  1. When you use a method on a control or a component (referred to as *calling a method*), you need to add parentheses. So enter opening and closing parentheses immediately after the "g" in `ShowDialog`: `()` It should now look like "openFileDialog1.ShowDialog()".
 
     > [!NOTE]
-    > Methods are an important part of any program, and this tutorial has shown several ways to use methods. You can call a component's method to tell it to do something, like how you called the **OpenFileDialog** component's `ShowDialog()` method. You can create your own methods to make your program do things, like the one you're building now, called the `showButton_Click()` method, which opens a dialog box and a picture when a user chooses a button.
+    > Methods are an important part of any app, and this tutorial has shown several ways to use methods. You can call a component's method to tell it to do something, like how you called the **OpenFileDialog** component's `ShowDialog()` method. You can create your own methods to make your app do things, like the one you're building now, called the `showButton_Click()` method, which opens a dialog box and a picture when a user chooses a button.
 
  1. For C#, add a space, and then add two equal signs (`==`). For Visual Basic, add a space, and then use a single equal sign (`=`). (C# and Visual Basic use different equality operators.)
 
@@ -96,7 +96,7 @@ Next, you use IntelliSense to enter more code to open an **Open File** dialog bo
 
 ## Next steps
 
-* To go to the next tutorial step, see [Step 9: Review, comment, and test your code](../ide/step-9-review-comment-and-test-your-code.md).
+* To go to the next tutorial step, see **[Step 9: Review, comment, and test your code](../ide/step-9-review-comment-and-test-your-code.md)**.
 
 * To return to the previous tutorial step, see [Step 7: Add dialog components to your form](../ide/step-7-add-dialog-components-to-your-form.md).
 

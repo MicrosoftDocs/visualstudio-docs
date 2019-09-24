@@ -1,4 +1,4 @@
-- name: Visual Studio documentation
+- name: Visual Studio IDE documentation
   href: ide/index.yml
   pdf_name: Visual Studio documentation
 - name: Overview
@@ -139,7 +139,7 @@
     displayName: Feature tour
     href: ide/quickstart-ide-orientation.md
   - name: "C++: Create a console app"
-    href: ide/getting-started-with-cpp-in-visual-studio.md
+    href: /cpp/get-started/tutorial-console-cpp
   - name: "Python: Create a web app"
     href: ide/quickstart-python.md
   - name: "Node.js: Create a web app"
@@ -654,18 +654,18 @@
     - name: "Walkthrough: Create a multiple-computer build environment"
       href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
   - name: Debug >>
-    href: debugger/index.md
+    href: debugger/index.yml
   - name: Test >>
     displayName: Unit testing
     href: test/improve-code-quality.md
   - name: Measure performance >>
     displayName: Profiling
-    href: profiling/index.md
+    href: profiling/index.yml
   - name: Analyze code quality >>
     displayName: Code analysis FxCop Analyzers
     href: code-quality/index.md
   - name: Deploy >>
-    href: deployment/index.md
+    href: deployment/index.yml
   - name: Extend Visual Studio >>
     displayName: Visual Studio SDK
     href: extensibility/visual-studio-sdk.md

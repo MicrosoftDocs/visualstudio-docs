@@ -5,12 +5,9 @@ ms.assetid: f26f79ba-c91b-4164-b87f-679a1b231c09
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang:
- - "csharp"
- - "vb"
 dev_langs:
-  - "csharp"
-  - "vb"
+  - "CSharp"
+  - "VB"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -19,9 +16,9 @@ ms.workload:
 ---
 # Step 9: Review, comment, and test your code
 
-You next add a comment to your code. A comment is a note that doesn't change the way the program behaves. It makes it easier for someone who is reading your code to understand what it does. Adding comments to your code is a good habit to get into.
+You next add a comment to your code. A comment is a note that doesn't change the way the app behaves. It makes it easier for someone who is reading your code to understand what it does. Adding comments to your code is a good habit to get into.
 
-In C#, two forward slashes (//) mark a line as a comment. In Visual Basic, a single quotation mark (') is used to mark a line as a comment. After you add a comment, you test your program. It's good practice to run and test your code frequently while you're working on your projects, so you can catch and fix any problems early, before the code gets more complicated. This is called *iterative testing*.
+In C#, two forward slashes (//) mark a line as a comment. In Visual Basic, a single quotation mark (') is used to mark a line as a comment. After you add a comment, you test your application. It's good practice to run and test your code frequently while you're working on your projects, so you can catch and fix any problems early, before the code gets more complicated. This is called *iterative testing*.
 
 You just built something that works, and although it's not done yet, it can already load a picture. Before you add a comment to your code and test it, take time to review the code concepts, because you will use these concepts frequently:
 
@@ -55,10 +52,10 @@ You just built something that works, and although it's not done yet, it can alre
     > Use the programming language control at the top right of this page to view either the C# code snippet or the Visual Basic code snippet.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
 
      [!code-csharp[VbExpressTutorial1Step9_10#1](../ide/codesnippet/CSharp/step-9-review-comment-and-test-your-code_1.cs)]
-     
+
      [!code-vb[VbExpressTutorial1Step9_10#1](../ide/codesnippet/VisualBasic/step-9-review-comment-and-test-your-code_1.vb)]
 
-    Your **showButton** button's <xref:System.Windows.Forms.Control.Click> event handler is now finished, and it works. You have started writing code, starting with an `if` statement. An `if` statement is how you tell your program, "Check this one thing, and if it's true, do these actions." In this case, you tell your program to open the **Open File** dialog box, and if the user selects a file and chooses the **OK** button, load that file in the **PictureBox**.
+    Your **showButton** button's <xref:System.Windows.Forms.Control.Click> event handler is now finished, and it works. You have started writing code, starting with an `if` statement. An `if` statement is how you tell your app, "Check this one thing, and if it's true, do these actions." In this case, you tell your app to open the **Open File** dialog box, and if the user selects a file and chooses the **OK** button, load that file in the **PictureBox**.
 
     > [!TIP]
     > The IDE is built to make it easy for you to write code, and *code snippets* are one way it does that. A snippet is a shortcut that gets expanded into a small block of code.
@@ -67,22 +64,22 @@ You just built something that works, and although it's not done yet, it can alre
     >
     >  To activate a snippet when typing code, type it and choose the **Tab** key. Many snippets appear in the **IntelliSense** window, which is why you choose the **Tab** key twice: first to select the snippet from the **IntelliSense** window, and then to tell the IDE to use the snippet. (IntelliSense supports the `if` snippet, but not the `ifelse` snippet.)
 
-1. Before you run your program, save your program by choosing the **Save All** toolbar button, which should look similar to the following screenshot.
+1. Before you run your application, save your app by choosing the **Save All** toolbar button, which should look similar to the following screenshot.
 
      ![Save All toolbar button](../ide/media/express_iconsaveall.png)<br>
 ***Save All*** *button*
 
-     Alternatively, to save your program, choose **File** > **Save All** from the menu bar (or press **Ctrl**+**Shift**+**S**). It's a best practice to save early and often.
+     Alternatively, to save your app, choose **File** > **Save All** from the menu bar (or press **Ctrl**+**Shift**+**S**). It's a best practice to save early and often.
 
      When it's running, your program should look like the following image.
 
      ![Picture Viewer](../ide/media/express_pictureviewerdonerun.png)<br>***Picture Viewer***
 
-## To test your program
+## To test your app
 
 1. Choose the **F5** key or choose the **Start Debugging** toolbar button.
 
-1. Choose the **Show a picture** button to run the code you just wrote. First, the program opens an **Open File** dialog box. Verify that your filters appear in the **Files of type** drop-down list at the bottom of the dialog box. Then navigate to a picture and open it. You can usually find sample pictures that ship with the Windows operating system in your *My Documents* folder, inside the *My Pictures\Sample Pictures* folder.
+1. Choose the **Show a picture** button to run the code you just wrote. First, the app opens an **Open File** dialog box. Verify that your filters appear in the **Files of type** drop-down list at the bottom of the dialog box. Then navigate to a picture and open it. You can usually find sample pictures that ship with the Windows operating system in your *My Documents* folder, inside the *My Pictures\Sample Pictures* folder.
 
     > [!TIP]
     > If you don't see any images in the **Select a picture file** dialog box, be sure that the **All files (*.\*)** filter is selected in the drop-down list on the lower right side of the dialog box.
@@ -93,7 +90,7 @@ You just built something that works, and although it's not done yet, it can alre
 
 ## To continue or review
 
-- To go to the next tutorial step, see [Step 10: Write code for additional buttons and a check box](../ide/step-10-write-code-for-additional-buttons-and-a-check-box.md).
+- To go to the next tutorial step, see **[Step 10: Write code for additional buttons and a check box](../ide/step-10-write-code-for-additional-buttons-and-a-check-box.md)**.
 
 - To return to the previous tutorial step, see [Step 8: Write code for the show a picture button event handler](../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md).
 

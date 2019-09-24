@@ -31,5 +31,10 @@ A:  No.  The anonymization is in response to an event that causes the loss of ac
 ### Q:  I'm an administrator for my organization's subscriptions.  If one of my subscriber's information is anonymized, can that subscription be reassigned to another user?
 A:  Yes -- As long as the subscription has not expired, it can be reassigned to another subscriber.
 
+### Q: How can I prevent anonymization caused by deleting a sign-in email address?
+A:  There are two ways to prevent the issue:
+- Deploy a single identity management system -- either MSA or AAD -- but not both.  
+- Associate the AAD and MSA identities via the tenant. 
+
 ## Next steps
-Learn how to prevent anonymization by [linking MSA and AAD identities](/azure/active-directory/b2b/add-users-administrator).
+Learn how to prevent anonymization by [associating MSA and AAD identities](/azure/active-directory/b2b/add-users-administrator).

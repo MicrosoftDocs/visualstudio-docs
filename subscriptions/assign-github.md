@@ -1,15 +1,15 @@
 ---
-title: Visual Studio + GitHub Enterprise bundle | Microsoft Docs
+title: Visual Studio + GitHub Enterprise offer | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
 ms.date: 07/28/2019
 ms.topic: conceptual
-description: Managing subscriptions in the Visual Studio + GitHub Enterprise bundle
+description: Managing subscriptions in the Visual Studio + GitHub Enterprise offer
 ---
 
 # Manage Visual Studio subscriptions with GitHub Enterprise
-Customers who have Enterprise Agreements (EA) with Microsoft are eligible to purchase a new subscription bundle that brings together Visual Studio standard subscriptions and GitHub Enterprise. It's the easy and economical way for Visual Studio subscribers to acquire GitHub Enterprise. 
+Customers who have Enterprise Agreements (EA) with Microsoft are eligible to purchase a new subscription offer that brings together Visual Studio standard subscriptions and GitHub Enterprise. It's the easy and economical way for Visual Studio subscribers to acquire GitHub Enterprise. 
 
 When your organization purchases Visual Studio Subscriptions with GitHub Enterprise, they are provisioned and managed in two parts.
 

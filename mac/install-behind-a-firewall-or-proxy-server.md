@@ -5,7 +5,7 @@ ms.topic: troubleshooting
 ms.assetid: 79C0F1A3-0C13-4E55-A820-1138A4082B77
 author: asb3993
 ms.author: amburns
-ms.date: 10/23/2018
+ms.date: 09/18/2019
 ---
 
 # Install and use Visual Studio for Mac behind a firewall or proxy server

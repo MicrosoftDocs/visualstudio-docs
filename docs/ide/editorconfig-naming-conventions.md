@@ -178,7 +178,7 @@ Naming conventions should be ordered from most-specific to least-specific in the
 
 ::: moniker range=">=vs-2019"
 
-Starting in Visual Studio 2019 version 16.2, the order in which naming rules are defined in an EditorConfig file doesn't matter. Instead, Visual Studio orders the naming rules automatically according to the definition of the rules themselves. The [EditorConfig Language Service extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EditorConfig) can analyze an EditorConfig file and report cases where the rule ordering in the file is different to what the compiler will use at runtime.
+Starting in Visual Studio 2019 version 16.2, the order in which naming rules are defined in an EditorConfig file doesn't matter. Instead, Visual Studio orders the naming rules automatically according to the definition of the rules themselves. The [EditorConfig Language Service extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EditorConfig) can analyze an EditorConfig file and report cases where the rule ordering in the file is different to what the compiler will use at run time.
 
 If you're using an earlier version of Visual Studio, naming conventions should be ordered from most-specific to least-specific in the EditorConfig file. The first rule encountered that can be applied is the only rule that is applied. However, if there are multiple rule *properties* with the same name, the most recently found property with that name takes precedence. For more information, see [File hierarchy and precedence](create-portable-custom-editor-options.md#file-hierarchy-and-precedence).
 

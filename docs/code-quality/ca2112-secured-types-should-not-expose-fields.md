@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|SecuredTypesShouldNotExposeFields|
 |CheckId|CA2112|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A public or protected type contains public fields and is secured by a [Link Demands](/dotnet/framework/misc/link-demands).

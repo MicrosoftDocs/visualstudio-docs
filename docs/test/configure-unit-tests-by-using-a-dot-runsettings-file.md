@@ -150,12 +150,16 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
 
       <DataCollector uri="datacollector://microsoft/VideoRecorder/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder.VideoRecorderDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Screen and Voice Recorder">
         <!--Video data collector was introduced in Visual Studio 2017 version 15.5 -->
+        <Configuration>
+           <!-- Change to "false" to only add video attachments to failed tests -->
+          <MediaRecorder sendRecordedMediaForPassedTestCase="true" xmlns="" />
+        </Configuration>
       </DataCollector>
 
     </DataCollectors>
   </DataCollectionRunSettings>
 
-  <!-- Parameters used by tests at runtime -->
+  <!-- Parameters used by tests at run time -->
   <TestRunParameters>
     <Parameter name="webAppUrl" value="http://localhost" />
     <Parameter name="webAppUserName" value="Admin" />
@@ -246,7 +250,7 @@ To customize any other type of diagnostic data adapters, use a [test settings fi
 </TestRunParameters>
 ```
 
-Test run parameters provide a way to define variables and values that are available to the tests at runtime. Access the parameters using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties%2A?displayProperty=nameWithType> property:
+Test run parameters provide a way to define variables and values that are available to the tests at run time. Access the parameters using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties%2A?displayProperty=nameWithType> property:
 
 ```csharp
 [TestMethod]

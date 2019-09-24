@@ -43,7 +43,7 @@ The *rproject.rproj* file maintains certain R-specific project settings that are
 | NumSpacesForTab | 2 | The number of spaces to insert if UseSpacesForTab is Yes. |
 | Encoding | UTF-8 | The default encoding for `.R` files. |
 | RnwWeave | Sweave | Package to use when weaving a Rnw file. |
-| LaTeX | pdfLaTeX | Library to use when converting RMarkdwon to PDF. |
+| LaTeX | pdfLaTeX | Library to use when converting RMarkdown to PDF. |
 
 ### Converting a folder of files to an R project
 
@@ -94,7 +94,7 @@ RTVS includes a number of templates for specific file types. You access template
 | R Documentation | A generic R documentation file containing only name, alias, and title fields. |
 | R Documentation (Function) | An R documentation file containing many fields with comments for describing a function. |
 | R Documentation (Dataset) | An R documentation file containing many fields with comments for describing a dataset. |
-| SQL Query | And empty *.sql* file. See [Work with SQL Server and R](integrating-sql-server-with-r.md). |
+| SQL Query | An empty *.sql* file. See [Work with SQL Server and R](integrating-sql-server-with-r.md). |
 | Stored Procedure with R | An R file with child SQL Query and child stored procedure template file. See [Work with SQL Server and R](integrating-sql-server-with-r.md). |
 
 ## Use multiple project types in Visual Studio

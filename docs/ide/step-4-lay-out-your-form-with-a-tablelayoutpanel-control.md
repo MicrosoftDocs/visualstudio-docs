@@ -5,9 +5,6 @@ ms.assetid: 61acde79-e115-4bad-bb06-1fbe37717a3e
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang:
- - "csharp"
- - "vb"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -87,7 +84,7 @@ In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to 
 
 ## Next steps
 
-* To go to the next tutorial step, see [Step 5: Add controls to your form](../ide/step-5-add-controls-to-your-form.md).
+* To go to the next tutorial step, see **[Step 5: Add controls to your form](../ide/step-5-add-controls-to-your-form.md)**.
 
 * To return to the previous tutorial step, see [Step 3: Set your form properties](../ide/step-3-set-your-form-properties.md).
 
