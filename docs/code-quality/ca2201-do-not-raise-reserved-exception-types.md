@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|DoNotRaiseReservedExceptionTypes|
 |CheckId|CA2201|
 |Category|Microsoft.Usage|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

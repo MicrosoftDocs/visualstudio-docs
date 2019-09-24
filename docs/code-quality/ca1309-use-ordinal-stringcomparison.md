@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|UseOrdinalStringComparison|
 |CheckId|CA1309|
 |Category|Microsoft.Globalization|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

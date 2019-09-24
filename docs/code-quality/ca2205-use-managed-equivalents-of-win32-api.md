@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|UseManagedEquivalentsOfWin32Api|
 |CheckId|CA2205|
 |Category|Microsoft.Usage|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

@@ -15,7 +15,7 @@ ms.workload:
 |TypeName|InsecureXSLTScriptExecution|
 |CheckId|CA3076|
 |Category|Microsoft.Security|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

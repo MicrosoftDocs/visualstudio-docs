@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|AvoidExcessiveParametersOnGenericTypes|
 |CheckId|CA1005|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 An externally visible generic type has more than two type parameters.

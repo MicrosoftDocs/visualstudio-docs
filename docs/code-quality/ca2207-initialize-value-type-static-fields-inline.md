@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|InitializeValueTypeStaticFieldsInline|
 |CheckId|CA2207|
 |Category|Microsoft.Usage|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 A value-type declares an explicit static constructor.

@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|AvoidUnusedPrivateFields|
 |CheckId|CA1823|
 |Category|Microsoft.Performance|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 This rule is reported when a private field in your code exists but is not used by any code path.

@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|ValueTypeFieldsShouldBePortable|
 |CheckId|CA1900|
 |Category|Microsoft.Portability|
-|Breaking Change|Breaking - If the field can be seen outside the assembly.<br /><br /> Non-breaking - If the field is not visible outside the assembly.|
+|Breaking change|Breaking - If the field can be seen outside the assembly.<br /><br /> Non-breaking - If the field is not visible outside the assembly.|
 
 ## Cause
 This rule checks that structures that are declared with explicit layout will align correctly when marshaled to unmanaged code on 64-bit operating systems. IA-64 does not allow unaligned memory accesses and the process will crash if this violation is not fixed.

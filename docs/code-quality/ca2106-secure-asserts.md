@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|SecureAsserts|
 |CheckId|CA2106|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A method asserts a permission and performs no security checks on the caller.

@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|ProvideObsoleteAttributeMessage|
 |CheckId|CA1041|
 |Category|Microsoft.Design|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

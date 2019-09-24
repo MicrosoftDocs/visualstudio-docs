@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|DoNotMarkServicedComponentsWithWebMethod|
 |CheckId|CA2212|
 |Category|Microsoft.Usage|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

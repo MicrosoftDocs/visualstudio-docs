@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|AvoidUninstantiatedInternalClasses|
 |CheckId|CA1812|
 |Category|Microsoft.Performance|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

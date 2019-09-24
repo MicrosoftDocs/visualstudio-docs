@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|AvoidNonpublicFieldsInComVisibleValueTypes|
 |CheckId|CA1413|
 |Category|Microsoft.Interoperability|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A value type that is specifically marked as visible to Component Object Model (COM) declares a nonpublic instance field.

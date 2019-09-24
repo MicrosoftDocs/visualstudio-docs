@@ -18,7 +18,7 @@ ms.workload:
 |TypeName|TransparentMethodsMustBeVerifiable|
 |CheckId|CA2137|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A method contains unverifiable code or returns a type by reference.

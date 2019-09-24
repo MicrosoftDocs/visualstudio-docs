@@ -18,7 +18,7 @@ ms.workload:
 |TypeName|SecurityRuleSetLevel2MethodsShouldNotBeProtectedWithLinkDemands|
 |CheckId|CA2135|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A class or class member is using a <xref:System.Security.Permissions.SecurityAction> in an application that is using Level 2 security.

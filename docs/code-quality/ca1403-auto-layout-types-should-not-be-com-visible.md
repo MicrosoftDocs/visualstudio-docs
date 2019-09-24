@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|AutoLayoutTypesShouldNotBeComVisible|
 |CheckId|CA1403|
 |Category|Microsoft.Interoperability|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

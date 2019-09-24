@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|UseLiteralsWhereAppropriate|
 |CheckId|CA1802|
 |Category|Microsoft.Performance|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|AvoidExcessiveComplexity|
 |CheckId|CA1502|
 |Category|Microsoft.Maintainability|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|FlagsEnumsShouldHavePluralNames|
 |CheckId|CA1714|
 |Category|Microsoft.Naming|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

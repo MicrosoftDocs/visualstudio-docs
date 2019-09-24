@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|TestForEmptyStringsUsingStringLength|
 |CheckId|CA1820|
 |Category|Microsoft.Performance|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

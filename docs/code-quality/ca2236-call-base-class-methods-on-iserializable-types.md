@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|CallBaseClassMethodsOnISerializableTypes|
 |CheckId|CA2236|
 |Category|Microsoft.Usage|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 A type derives from a type that implements the <xref:System.Runtime.Serialization.ISerializable?displayProperty=fullName> interface, and one of the following conditions is true:

@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|DoNotNameEnumValuesReserved|
 |CheckId|CA1700|
 |Category|Microsoft.Naming|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|DefineAccessorsForAttributeArguments|
 |CheckId|CA1019|
 |Category|Microsoft.Design|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 In its constructor, an attribute defines arguments that do not have corresponding properties.

@@ -23,7 +23,7 @@ ms.workload:
 |TypeName|TransparencyAnnotationsShouldNotConflict|
 |CheckId|CA2136|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 This rule fires when a type member is marked with a <xref:System.Security> security attribute that has a different transparency than the security attribute of a container of the member.

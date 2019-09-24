@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|ReviewImperativeSecurity|
 |CheckId|CA2103|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A method uses imperative security and might be constructing the permission by using state information or return values that can change as long as the demand is active.

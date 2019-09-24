@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|UseEventsWhereAppropriate|
 |CheckId|CA1030|
 |Category|Microsoft.Design|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

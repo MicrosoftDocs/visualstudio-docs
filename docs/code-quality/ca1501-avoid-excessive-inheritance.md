@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|AvoidExcessiveInheritance|
 |CheckId|CA1501|
 |Category|Microsoft.Maintainability|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

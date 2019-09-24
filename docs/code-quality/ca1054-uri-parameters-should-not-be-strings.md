@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|UriParametersShouldNotBeStrings|
 |CheckId|CA1054|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

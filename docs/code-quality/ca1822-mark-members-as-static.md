@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|MarkMembersAsStatic|
 |CheckId|CA1822|
 |Category|Microsoft.Performance|
-|Breaking Change|Non-breaking - If the member is not visible outside the assembly, regardless of the change you make. Non Breaking - If you just change the member to an instance member with the `this` keyword.<br /><br /> Breaking - If you change the member from an instance member to a static member and it is visible outside the assembly.|
+|Breaking change|Non-breaking - If the member is not visible outside the assembly, regardless of the change you make. Non-breaking - If you just change the member to an instance member with the `this` keyword.<br /><br /> Breaking - If you change the member from an instance member to a static member and it is visible outside the assembly.|
 
 ## Cause
 A member that does not access instance data is not marked as static (Shared in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]).

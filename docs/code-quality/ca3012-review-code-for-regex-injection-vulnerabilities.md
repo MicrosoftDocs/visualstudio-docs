@@ -18,7 +18,7 @@ ms.workload:
 |TypeName|ReviewCodeForRegexInjectionVulnerabilities|
 |CheckId|CA3012|
 |Category|Microsoft.Security|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

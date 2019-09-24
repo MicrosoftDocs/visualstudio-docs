@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|AssembliesShouldHaveValidStrongNames|
 |CheckId|CA2210|
 |Category|Microsoft.Design|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

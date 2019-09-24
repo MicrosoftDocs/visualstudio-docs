@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|StaticConstructorsShouldBePrivate|
 |CheckId|CA2121|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

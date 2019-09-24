@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|AvoidUnsealedAttributes|
 |CheckId|CA1813|
 |Category|Microsoft.Performance|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

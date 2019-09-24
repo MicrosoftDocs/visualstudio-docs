@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|IndexersShouldNotBeMultidimensional|
 |CheckId|CA1023|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A public or protected type contains a public or protected indexer that uses more than one index.

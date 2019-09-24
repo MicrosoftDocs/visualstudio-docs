@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|AvoidUncalledPrivateCode|
 |CheckId|CA1811|
 |Category|Microsoft.Performance|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 A private or internal (assembly-level) member does not have callers in the assembly, is not invoked by the common language runtime, and is not invoked by a delegate. The following members are not checked by this rule:
