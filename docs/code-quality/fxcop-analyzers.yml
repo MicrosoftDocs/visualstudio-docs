@@ -19,68 +19,56 @@ metadata:
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
 landingContent:
-# Cards and links should be based on top customer tasks or top subjects
-# Start card title with a verb
-  # Card (optional)
-  - title: About [service]
+  # Card
+  - title: Get started
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: Frequently asked questions
+            url: fxcop-analyzers-faq.md
+      - linkListType: overview
+        links:
+          - text: Overview of code analyzers
+            url: roslyn-analyzers-overview.md
+      - linkListType: download
+        links:
+          - text: Install code analyzers
+            url: install-roslyn-analyzers.md
+      - linkListType: how-to-guide
+        links:
+          - text: Set rule severity and suppress errors
+            url: use-roslyn-analyzers.md
+          - text: Command-line usage
+            url: use-roslyn-analyzers.md#command-line-usage
+
+  # Card
+  - title: Migrate off legacy analysis
     linkLists:
       - linkListType: overview
         links:
-          - text: What is [service]?
-            url: file1.md
-          - text: linktext2
-            url: file2.md
-      - linkListType: linkListType
+          - text: What's different
+            url: roslyn-analyzers-overview.md#net-compiler-platform-based-analysis-versus-legacy-analysis
+      - linkListType: download
         links:
-          - text: linktext1
-            url: file1.md
-          - text: linktext2
-            url: file2.md
-
-  # Card (optional)
-  - title: Get started
-    linkLists:
-      - linkListType: linkListType
+          - text: Install FxCop analyzers
+            url: install-fxcop-analyzers.md
+      - linkListType: how-to-guide
         links:
-          - text: linktext1
-            url: file1.md
-          - text: linktext2
-            url: file2.md
-      - linkListType: linkListType
+          - text: Configure FxCop analyzers
+            url: configure-fxcop-analyzers.md
+          - text: Use predefined rule sets
+            url: analyzer-rule-sets.md
+      - linkListType: reference
         links:
-          - text: linktext1
-            url: file1.md
-          - text: linktext2
-            url: file2.md
+          - text: Ported and unported rules
+            url: fxcop-rule-port-status.md
 
   # Card
-  - title: cardtitle3
+  - title: See also
     linkLists:
-      - linkListType: linkListType
+      - linkListType: overview
         links:
-          - text: linktext1
-            url: file1.md
-          - text: linktext2
-            url: file2.md
-      - linkListType: linkListType
-        links:
-          - text: linktext1
-            url: file1.md
-          - text: linktext2
-            url: file2.md
-
-  # Card
-  - title: cardtitle4
-    linkLists:
-      - linkListType: linkListType
-        links:
-          - text: linktext1
-            url: file1.md
-          - text: linktext2
-            url: file2.md
-      - linkListType: linkListType
-        links:
-          - text: linktext1
-            url: file1.md
-          - text: linktext2
-            url: file2.md
+          - text: C++ code analysis
+            url: code-analysis-for-c-cpp-overview.md
+          - text: Code metrics
+            url: code-metrics-values.md
