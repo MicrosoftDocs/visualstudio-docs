@@ -20,12 +20,8 @@ metadata:
 
 landingContent:
   # Card
-  - title: Get started
+  - title: Introduction to code analysis
     linkLists:
-      - linkListType: get-started
-        links:
-          - text: Frequently asked questions
-            url: fxcop-analyzers-faq.md
       - linkListType: overview
         links:
           - text: Overview of code analyzers
@@ -48,6 +44,10 @@ landingContent:
         links:
           - text: What's different
             url: roslyn-analyzers-overview.md#net-compiler-platform-based-analysis-versus-legacy-analysis
+      - linkListType: get-started
+        links:
+          - text: FAQ about FxCop analyzers
+            url: fxcop-analyzers-faq.md
       - linkListType: download
         links:
           - text: Install FxCop analyzers
@@ -64,7 +64,7 @@ landingContent:
             url: fxcop-rule-port-status.md
 
   # Card
-  - title: See also
+  - title: Other types of code analysis
     linkLists:
       - linkListType: overview
         links:
