@@ -1,107 +1,86 @@
-### YamlMime:YamlDocument
-documentType: LandingData
+### YamlMime:Landing
+
 title: Migrate from binary analysis (FxCop) to source analysis (FxCop analyzers)
+summary: Learn how to analyze code for the first time or how to migrate from binary analysis (FxCop) to the new way of analyzing managed code using source analysis (FxCop analyzers).
+
 metadata:
   title: FxCop migration documentation
   description: Learn how to move from legacy binary analysis (FxCop) to source analysis (FxCop analyzers) when you analyze code.
-  ms.date: 07/11/2019
   ms.prod: visual-studio-dev16
   ms.technology: vs-ide-code-analysis
   ms.topic: landing-page
   f1_keywords:
     - "vs.projectpropertypages.codeanalysis"
-  ms.author: gewarren
   author: gewarren
+  ms.author: gewarren
   manager: jillfra
-abstract:
-  description: Learn how to analyze code for the first time or how to migrate from binary analysis (FxCop) to the new way of analyzing managed code using source analysis (FxCop analyzers).
-  aside:
-    image:
-      alt: Common management tasks logo
-      height: 133
-      width: 48
-      src: https://docs.microsoft.com/media/illustrations/bcs-partner-advanced-management-settings-8.svg
-    title:
-sections:
-- title: Frequently asked questions
-  items:
-  - html: Get answers to some <a href="fxcop-analyzers-faq.md">frequently asked questions</a> about the differences between binary FxCop analysis and source analysis using FxCop analyzers.
+  ms.date: 09/24/2019
 
-- title: If you're new to code analysis...
-  items:
-  - type: list
-    style: cards
-    className: cardsM
-    columns: 2
-    items:
-      - href: roslyn-analyzers-overview.md
-        html: <p>Learn what analyzers are.</p>
-        image:
-          src: https://docs.microsoft.com/media/common/i_learn-about.svg
-        title: Analyzers overview
-      - href: install-roslyn-analyzers.md
-        html: <p>Learn how to install analyzers as a NuGet package or Visual Studio extension.</p>
-        image:
-          src: https://docs.microsoft.com/media/common/i_setup.svg
-        title: Install analyzers
-      - href: use-roslyn-analyzers.md
-        html: <p>Learn how to use analyzers and suppress violations for C# or Visual Basic code.</p>
-        image:
-          src: https://docs.microsoft.com/media/common/i_config-tools.svg
-        title: Set rule severity and suppress errors
-      - href: use-roslyn-analyzers.md#command-line-usage
-        html: <p>Learn how to use analyzers from the command line.</p>
-        image:
-          src: https://docs.microsoft.com/media/common/i_cligeneric.svg
-        title: Command-line usage
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
-- title: If you're currently using binary analysis (FxCop)...
-  items:
-  - type: list
-    style: cards
-    className: cardsM
-    columns: 2
-    items:
-      - href: roslyn-analyzers-overview.md#net-compiler-platform-based-analysis-versus-legacy-analysis
-        html: <p>Learn the differences between binary analysis (FxCop) and source analysis (FxCop analyzers).</p>
-        image:
-          src: https://docs.microsoft.com/media/common/i_learn-about.svg
-        title: What's different?
-      - href: install-fxcop-analyzers.md
-        html: <p>Learn how to install the FxCop analyzer package.</p>
-        image:
-          src: https://docs.microsoft.com/media/common/i_setup.svg
-        title: Install FxCop analyzers
-      - href: fxcop-rule-port-status.md
-        html: <p>Lists the binary analysis (FxCop) rules that have been ported to source analysis (FxCop analyzers).</p>
-        image:
-          src: https://docs.microsoft.com/media/common/i_upgrade.svg
-        title: Ported and unported rules
-      - href: use-roslyn-analyzers.md#command-line-usage
-        html: <p>If you typically run code analysis from the command line, learn how to use analyzers from the command line.</p>
-        image:
-          src: https://docs.microsoft.com/media/common/i_cligeneric.svg
-        title: Command-line usage
-      - href: analyzer-rule-sets.md
-        html: <p>Learn about analyzer package rule sets.</p>
-        image:
-          src: https://docs.microsoft.com/media/common/i_code-samples.svg
-        title: Rule sets
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: About [service]
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: What is [service]?
+            url: file1.md
+          - text: linktext2
+            url: file2.md
+      - linkListType: linkListType
+        links:
+          - text: linktext1
+            url: file1.md
+          - text: linktext2
+            url: file2.md
 
-- title: Related articles
-  items:
-  - type: list
-    style: cards
-    className: cardsM
-    columns: 2
-    items:
-      - href: code-analysis-for-c-cpp-overview.md
-        html: <p>Learn how to run code analysis on native C++ code. Analysis of managed C++ code is deprecated.</p>
-        image:
-          src: https://docs.microsoft.com/media/logos/logo_Cplusplus.svg
-        title: C++ code analysis
-      - href: code-metrics-values.md
-        html: <p>Learn how to obtain code metrics. The user experience for code metrics remains unchanged.</p>
-        image:
-          src: https://docs.microsoft.com/media/common/i_data-collection.svg
-        title: Code metrics
+  # Card (optional)
+  - title: Get started
+    linkLists:
+      - linkListType: linkListType
+        links:
+          - text: linktext1
+            url: file1.md
+          - text: linktext2
+            url: file2.md
+      - linkListType: linkListType
+        links:
+          - text: linktext1
+            url: file1.md
+          - text: linktext2
+            url: file2.md
+
+  # Card
+  - title: cardtitle3
+    linkLists:
+      - linkListType: linkListType
+        links:
+          - text: linktext1
+            url: file1.md
+          - text: linktext2
+            url: file2.md
+      - linkListType: linkListType
+        links:
+          - text: linktext1
+            url: file1.md
+          - text: linktext2
+            url: file2.md
+
+  # Card
+  - title: cardtitle4
+    linkLists:
+      - linkListType: linkListType
+        links:
+          - text: linktext1
+            url: file1.md
+          - text: linktext2
+            url: file2.md
+      - linkListType: linkListType
+        links:
+          - text: linktext1
+            url: file1.md
+          - text: linktext2
+            url: file2.md
