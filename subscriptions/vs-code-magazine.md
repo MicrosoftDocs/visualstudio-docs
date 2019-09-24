@@ -13,7 +13,7 @@ description:  Learn about the CODE Magazine benefit included in your Visual Stud
 CODE Magazine is a leading independent software developer magazine covering dev technologies across all platforms.  Selected Visual Studio subscriptions are eligible to receive a one-year subscription to either the printed or digital editions of the magazine.
 
 ## Activation steps
-The process to set up your CODE Magazine subscription simple.  Just follow these steps:
+The process to set up your CODE Magazine subscription is simple.  Just follow these steps:
 
 1. Visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)
 2. Locate the CODE Magazine tile in the Professional Development or Education section of your portal, and click **Get Code**.
@@ -25,7 +25,7 @@ The process to set up your CODE Magazine subscription simple.  Just follow these
 4. You'll be redirected to the CODE Magazine landing page. Select your country and choose how you'd like to receive the magazine. 
 > [!NOTE]
 > Visual Studio Dev Essentials members have access to the digital subscription only. 
-5. Based on your selections, you see a note showing the price of your subscription along with the amount of the coupon that's been applied.
+5. Based on your selections, you'll see a note showing the price of your subscription along with the amount of the coupon that's been applied.
 > [!NOTE]
 > For print subscriptions:
 > - Subscribers outside the United States may incur shipping charges. 
@@ -43,15 +43,13 @@ After you complete your subscription order, you'll see a confirmation page, incl
 ## Eligibility
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  Yes          |
-| Visual Studio Professional (Standard<sup>2</sup>) | VL, Azure, Retail                                       | Available                                                            |  Yes          |
-| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Available                                             |  N/A          |
-| MSDN Platforms (Standard)                                          | VL, Retail                                              | Available                                              |  N/A          |
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  No          |
+| Visual Studio Professional (Standard<sup>2</sup>) | VL, Azure, Retail                                       | Available                                                            |  No          |
+| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Available                                             |  No          |
+| MSDN Platforms (Standard)                                          | VL, Retail                                              | Available                                              |  No          |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, BizSpark, Imagine Premium.  Excludes: Microsoft Partner Network (MPN), Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services Developer, MCT Software & Services, Imagine.*
-
-<sup>2</sup> *Excludes Microsoft Partner Network (Professional)*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
@@ -60,7 +58,7 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## Frequently asked questions
 ### Q: If the subscription is free, why am I being asked for a credit card?  
-A: It is cost-prohibitive to send free printed copies internationally.  Subscribers who choose the print edition of CODE magazine and reside outside of the United States will be charged a fee for shipping. 
+A: It is cost-prohibitive to send free printed copies internationally.  Subscribers who choose the print edition of CODE magazine and reside outside of the United States will be charged a fee for shipping. To avoid shipping charges, choose the digital version of the magazine. 
 
 ### Q: Why do I need to provide a delivery address for a digital subscription?
 A:  CODE Magazine collects your address, regardless of whether the subscription is for a print or digital subscription to support fulfillment, offer selection, and digital access processes.  For more information about what CODE Magazine does with your data, please see their [Privacy Policy](https://www.codemag.com/Home/Privacy).
