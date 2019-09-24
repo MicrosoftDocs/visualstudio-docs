@@ -159,7 +159,7 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
     </DataCollectors>
   </DataCollectionRunSettings>
 
-  <!-- Parameters used by tests at runtime -->
+  <!-- Parameters used by tests at run time -->
   <TestRunParameters>
     <Parameter name="webAppUrl" value="http://localhost" />
     <Parameter name="webAppUserName" value="Admin" />
@@ -250,7 +250,7 @@ To customize any other type of diagnostic data adapters, use a [test settings fi
 </TestRunParameters>
 ```
 
-Test run parameters provide a way to define variables and values that are available to the tests at runtime. Access the parameters using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties%2A?displayProperty=nameWithType> property:
+Test run parameters provide a way to define variables and values that are available to the tests at run time. Access the parameters using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties%2A?displayProperty=nameWithType> property:
 
 ```csharp
 [TestMethod]

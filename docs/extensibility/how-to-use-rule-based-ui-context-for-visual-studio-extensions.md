@@ -16,7 +16,7 @@ Loading packages can have a performance impact and loading them sooner than need
 
 ## Rule-based UI Context
 
-A "Rule" consists of a new UI Context (a GUID) and a Boolean expression that references one or more "Terms" combined with logical "and", "or", "not" operations. "Terms" are evaluated dynamically at runtime and the expression is reevaluated whenever any of its terms changes. When the expression evaluates to true, the associated UI Context is activated. Otherwise, the UI Context is de-activated.
+A "Rule" consists of a new UI Context (a GUID) and a Boolean expression that references one or more "Terms" combined with logical "and", "or", "not" operations. "Terms" are evaluated dynamically at run time and the expression is reevaluated whenever any of its terms changes. When the expression evaluates to true, the associated UI Context is activated. Otherwise, the UI Context is de-activated.
 
 Rule-based UI Context can be used in various ways:
 

@@ -28,7 +28,7 @@ ms.workload:
 A method uses imperative security and might be constructing the permission by using state information or return values that can change as long as the demand is active.
 
 ## Rule description
-Imperative security uses managed objects to specify permissions and security actions during code execution, compared to declarative security, which uses attributes to store permissions and actions in metadata. Imperative security is very flexible because you can set the state of a permission object and select security actions by using information that is not available until run time. Together with that flexibility comes the risk that the runtime information that you use to determine the state of a permission does not remain unchanged as long as the action is in effect.
+Imperative security uses managed objects to specify permissions and security actions during code execution, compared to declarative security, which uses attributes to store permissions and actions in metadata. Imperative security is very flexible because you can set the state of a permission object and select security actions by using information that is not available until run time. Together with that flexibility comes the risk that the run-time information that you use to determine the state of a permission does not remain unchanged as long as the action is in effect.
 
 Use declarative security whenever possible. Declarative demands are easier to understand.
 

@@ -309,7 +309,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
   - You can reduce startup time by disabling events that aren't relevant to the app. For example, disable Windows Workflow events for apps that don't use Windows Workflow.
 
-  - You can improve both startup and runtime performance by disabling registry events for apps that access the registry but don't show problems with registry settings.
+  - You can improve both startup and run-time performance by disabling registry events for apps that access the registry but don't show problems with registry settings.
 
 - Review the modules in the collection plan for which IntelliTrace collects data. Edit the collection plan to include only the modules that interest you:
 
