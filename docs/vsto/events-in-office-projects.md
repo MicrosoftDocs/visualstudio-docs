@@ -119,7 +119,7 @@ ms.workload:
 
 10. Other sheets in order.
 
-    The order is determined when the project is compiled. If the user rearranges the sheets at runtime, it does not change the order that the events are raised the next time the workbook is opened or closed.
+    The order is determined when the project is compiled. If the user rearranges the sheets at run time, it does not change the order that the events are raised the next time the workbook is opened or closed.
 
 ## VSTO Add-in projects
  Visual Studio provides generated code in VSTO Add-ins. This code raises two different events: <xref:Microsoft.Office.Tools.AddInBase.Startup> and <xref:Microsoft.Office.Tools.AddInBase.Shutdown>.
