@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|DisposableFieldsShouldBeDisposed|
 |CheckId|CA2213|
 |Category|Microsoft.Usage|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

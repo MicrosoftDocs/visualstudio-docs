@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|SpecifyCultureInfo|
 |CheckId|CA1304|
 |Category|Microsoft.Globalization|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

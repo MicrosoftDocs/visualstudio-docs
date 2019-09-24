@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|DoNotCatchGeneralExceptionTypes|
 |CheckId|CA1031|
 |Category|Microsoft.Design|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 A general exception such as <xref:System.Exception?displayProperty=fullName> or <xref:System.SystemException?displayProperty=fullName> is caught in a `catch` statement, or a general catch clause such as `catch()` is used.

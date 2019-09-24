@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|ComVisibleTypesShouldBeCreatable|
 |CheckId|CA1409|
 |Category|Microsoft.Interoperability|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 A reference type that is specifically marked as visible to Component Object Model (COM) contains a public parameterized constructor but does not contain a public default (parameterless) constructor.

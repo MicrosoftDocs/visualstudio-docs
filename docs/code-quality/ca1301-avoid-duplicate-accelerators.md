@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|AvoidDuplicateAccelerators|
 |CheckId|CA1301|
 |Category|Microsoft.Globalization|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 A type extends <xref:System.Windows.Forms.Control?displayProperty=fullName> and contains two or more top-level controls that have identical access keys that are stored in a resource file.

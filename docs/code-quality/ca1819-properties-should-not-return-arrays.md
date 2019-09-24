@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|PropertiesShouldNotReturnArrays|
 |CheckId|CA1819|
 |Category|Microsoft.Performance|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

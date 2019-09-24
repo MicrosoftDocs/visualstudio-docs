@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|DeclarePInvokesCorrectly|
 |CheckId|CA1415|
 |Category|Microsoft.Interoperability|
-|Breaking Change|Non-breaking - If the P/Invoke that declares the parameter cannot be seen outside the assembly. Breaking - If the P/Invoke that declares the parameter can be seen outside the assembly.|
+|Breaking change|Non-breaking - If the P/Invoke that declares the parameter cannot be seen outside the assembly. Breaking - If the P/Invoke that declares the parameter can be seen outside the assembly.|
 
 ## Cause
 A platform invoke method is incorrectly declared.

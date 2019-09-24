@@ -16,7 +16,7 @@ ms.workload:
 |TypeName|DoNotUseBrokenCryptographicAlgorithms|
 |CheckId|CA5351|
 |Category|Microsoft.Cryptography|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 > [!NOTE]
 > This warning was last updated on November 2015.

@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|CollectionsShouldImplementGenericInterface|
 |CheckId|CA1010|
 |Category|Microsoft.Design|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

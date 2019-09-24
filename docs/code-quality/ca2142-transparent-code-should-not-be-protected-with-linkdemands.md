@@ -18,7 +18,7 @@ ms.workload:
 |TypeName|TransparentMethodsShouldNotBeProtectedWithLinkDemands|
 |CheckId|CA2142|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A transparent method requires a <xref:System.Security.Permissions.SecurityAction> or other security demand.

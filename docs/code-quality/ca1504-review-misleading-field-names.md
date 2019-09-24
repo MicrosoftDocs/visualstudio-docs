@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|ReviewMisleadingFieldNames|
 |CheckId|CA1504|
 |Category|Microsoft.Maintainability|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 The name of an instance field starts with "s_" or the name of a `static` (`Shared` in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]) field starts with "m_".

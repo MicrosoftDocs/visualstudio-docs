@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|DoNotPrefixEnumValuesWithTypeName|
 |CheckId|CA1712|
 |Category|Microsoft.Naming|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 An enumeration contains a member whose name starts with the type name of the enumeration.

@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|IdentifiersShouldNotContainUnderscores|
 |CheckId|CA1707|
 |Category|Microsoft.Naming|
-|Breaking Change|Breaking - when raised on assemblies<br /><br /> Non-breaking - when raised on type parameters|
+|Breaking change|Breaking - when raised on assemblies<br /><br /> Non-breaking - when raised on type parameters|
 
 ## Cause
 

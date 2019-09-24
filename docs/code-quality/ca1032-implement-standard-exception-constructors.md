@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|ImplementStandardExceptionConstructors|
 |CheckId|CA1032|
 |Category|Microsoft.Design|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

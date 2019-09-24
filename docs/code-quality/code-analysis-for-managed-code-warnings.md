@@ -26,7 +26,7 @@ The Managed Code Analysis tool provides warnings that indicate rule violations i
 |Type|The TypeName for the rule.|
 |CheckId|The unique identifier for the rule. CheckId and Category are used for in-source suppression of a warning.|
 |Category|The category of the warning.|
-|Breaking Change|Whether the fix for a violation of the rule is a breaking change. Breaking change means that an assembly that has a dependency on the target that caused the violation will not recompile with the new fixed version or might fail at run time because of the change. When multiple fixes are available and at least one fix is a breaking change and one fix is not, both 'Breaking' and 'Non Breaking' are specified.|
+|Breaking change|Whether the fix for a violation of the rule is a breaking change. Breaking change means that an assembly that has a dependency on the target that caused the violation will not recompile with the new fixed version or might fail at run time because of the change. When multiple fixes are available and at least one fix is a breaking change and one fix is not, both 'Breaking' and 'Non-breaking' are specified.|
 |Cause|The specific managed code that causes the rule to generate a warning.|
 |Description|Discusses the issues that are behind the warning.|
 |How to Fix Violations|Explains how to change the source code to satisfy the rule and prevent it from generating a warning.|

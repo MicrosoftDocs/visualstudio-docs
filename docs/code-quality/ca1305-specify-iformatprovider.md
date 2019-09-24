@@ -24,7 +24,7 @@ ms.workload:
 |TypeName|SpecifyIFormatProvider|
 |CheckId|CA1305|
 |Category|Microsoft.Globalization|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

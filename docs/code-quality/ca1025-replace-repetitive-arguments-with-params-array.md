@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|ReplaceRepetitiveArgumentsWithParamsArray|
 |CheckId|CA1025|
 |Category|Microsoft.Design|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 A public or protected method in a public type has more than three parameters, and its last three parameters are the same type.

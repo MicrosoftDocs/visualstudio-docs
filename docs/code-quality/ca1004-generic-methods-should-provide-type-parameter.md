@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|GenericMethodsShouldProvideTypeParameter|
 |CheckId|CA1004|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 The parameter signature of an externally visible generic method does not contain types that correspond to all the type parameters of the method.
