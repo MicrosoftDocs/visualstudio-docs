@@ -42,12 +42,16 @@ landingContent:
         links:
            - text: How to install Python support in Visual Studio
              url: installing-python-support-in-visual-studio.md
-          # - text: linktext2
-          #   url: file2.md
-  #     - linkListType: linkListType
-  #       links:
-  #         - text: linktext1
-  #           url: file1.md
+           - text: Editing Python code in Visual Studio
+             url: editing-python-code-in-visual-studio.md
+           - text: Debugging Python code in Visual Studio
+             url: debugging-python-in-visual-studio.md
+           - text: Testing Python code in Visual Studio
+             url: unit-testing-python-in-visual-studio.md
+      - linkListType: tutorial
+        links:
+          - text: Working with Python in Visual Studio
+            url: tutorial-working-with-python-in-visual-studio-step-00-installation.md
   #         - text: linktext2
   #           url: file2.md
 
@@ -58,8 +62,8 @@ landingContent:
         links:
           - text: Get started with the Django web framework in Visual Studio
             url: learn-django-in-visual-studio-step-01-project-and-solution.md
-      #     - text: linktext2
-      #       url: file2.md
+          - text: Get started with the Flask web framework in Visual Studio
+            url: learn-flask-visual-studio-step-01-project-solution.md
       # - linkListType: linkListType
       #   links:
       #     - text: linktext1
