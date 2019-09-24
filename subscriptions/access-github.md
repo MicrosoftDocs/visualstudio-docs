@@ -27,7 +27,7 @@ If your organization has an EA that's not due to renew yet, you can purchase the
 
 Existing SKUs for Visual Studio Enterprise, Visual Studio Professional, and GitHub Enterprise will also continue to be available separately. 
 
-To learn more about benefits, options, and pricing please visit https://visualstudio.microsoft.com/subscriptions/visual-studio-github. 
+To learn more about benefits and options please visit https://visualstudio.microsoft.com/subscriptions/visual-studio-github. 
 
 ## Getting your subscriptions
 
