@@ -29,4 +29,4 @@ You can use Visual Studio to debug Azure services in different scenarios:
 
 ## See Also
 
-- [Debugging in Visual Studio](../debugger/index.md)
+- [Debugging in Visual Studio](../debugger/index.yml)

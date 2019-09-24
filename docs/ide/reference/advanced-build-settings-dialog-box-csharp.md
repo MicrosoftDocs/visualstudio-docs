@@ -1,6 +1,6 @@
 ---
 title: Advanced Build Settings Dialog Box (C#)
-ms.date: 06/20/2017
+ms.date: 08/05/2019
 ms.technology: vs-ide-compile
 ms.topic: reference
 f1_keywords:
@@ -14,9 +14,9 @@ manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# Advanced Build Settings Dialog Box (C#)
+# Advanced Build Settings dialog box (C#)
 
-Use the **Advanced Build Settings** dialog box of the **Project Designer** to specify the project's advanced build configuration properties. This dialog box applies to [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] projects only.
+Use the **Advanced Build Settings** dialog box of the **Project Designer** to specify the project's advanced build configuration properties. This dialog box applies to C# projects only.
 
 ## General
 
@@ -24,19 +24,19 @@ The following options enable you to set general advanced settings.
 
 **Language Version**
 
-Specifies the version of the language to use. The feature set is different in each version, so this option can be used to force the compiler to allow only a subset of the implemented features, or to enable only those features compatible with an existing standard. This setting has the following options:
+::: moniker range=">=vs-2019"
 
-- **default**
+Links to [/langversion (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/langversion-compiler-option), which provides information about how a default language version is chosen based on a project's target framework.
 
-   Targets the current version.
+::: moniker-end
 
-- **ISO-1** and **ISO-2**
+::: moniker range="vs-2017"
 
-   Targets the ISO-1 and ISO-2 standard features, respectively.
+Specifies the version of the language to use. The feature set is different in each version, so this option can be used to force the compiler to allow only a subset of the implemented features, or to enable only those features compatible with an existing standard.
 
-- **C# [version number]**
+The default value is C# 7.0.
 
-   Targets a specific version of C#. For more information, see [/langversion (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/langversion-compiler-option).
+::: moniker-end
 
 **Internal Compiler Error Reporting**
 
@@ -90,5 +90,5 @@ Specifies the preferred base address at which to load a DLL. The default base ad
 
 ## See Also
 
-- [C# Compiler Options](/dotnet/csharp/language-reference/compiler-options/index)
-- [Build Page, Project Designer (C#)](../../ide/reference/build-page-project-designer-csharp.md)
+- [C# compiler options](/dotnet/csharp/language-reference/compiler-options/index)
+- [Build page, Project Designer (C#)](../../ide/reference/build-page-project-designer-csharp.md)

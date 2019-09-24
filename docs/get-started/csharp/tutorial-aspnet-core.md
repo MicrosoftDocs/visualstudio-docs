@@ -123,9 +123,9 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
    ![in the 'Configure your new project' window, name your project 'MyCoreApp'](./media/vs-2019/csharp-name-your-aspnet-mycoreapp-project.png)
 
-1. In the **Create a new ASP.NET Core Web Application** window, verify that **ASP.NET Core 2.1** appears in the top drop-down menu. Then, choose **Web Application**, which includes example Razor Pages. Next, choose  **Create**.
+1. In the **Create a new ASP.NET Core Web Application** window, verify that **ASP.NET Core 3.0** appears in the top drop-down menu. Then, choose **Web Application**, which includes example Razor Pages. Next, choose  **Create**.
 
-   ![The 'Create a new ASP.NET Core Web Application' window](./media/vs-2019/csharp-create-aspnet-core-razor-pages-app.png)
+   ![The 'Create a new ASP.NET Core Web Application' window](./media/vs-2019/csharp-create-aspnet-razor-pages-app.png)
 
    Visual Studio opens your new project.
 
@@ -135,6 +135,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 This solution follows the **Razor Page** design pattern. It's different than the [Model-View-Controller (MVC)](/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-2.1&tabs=aspnetcore2x) design pattern in that it's streamlined to include the model and controller code within the Razor Page itself.
 
+::: moniker range="vs-2017"
 ## Tour your solution
 
  1. The project template creates a solution with a single ASP.NET Core project that is named _MyCoreApp_. Choose the **Solution Explorer** tab to view its contents.
@@ -210,7 +211,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
      public void OnGet()
      {
          string directory = Environment.CurrentDirectory;
-     Message = String.Format("Your directory is {0}.", directory);
+         Message = String.Format("Your directory is {0}.", directory);
      }
     ```
 
@@ -233,6 +234,110 @@ This solution follows the **Razor Page** design pattern. It's different than the
    ![View the updated About page that includes the changes you made](media/csharp-aspnet-razor-browser-page-about-changed.png)
 
 1. Close the web browser, press **Shift**+**F5** to stop Debug mode, and then close Visual Studio.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+## Tour your solution
+
+ 1. The project template creates a solution with a single ASP.NET Core project that is named _MyCoreApp_. Choose the **Solution Explorer** tab to view its contents.
+
+    ![ASP.NET Solution Explorer in Visual Studio for Razor Pages solution that is named MyCoreApp](media/csharp-aspnet-razor-solution-explorer-mycoreapp.png)
+
+ 1. Expand the **Pages** folder.
+
+     ![The Pages folder in Solution Explorer](media/vs-2019/csharp-aspnet-solution-explorer-pages.png)
+
+ 1. View the **Index.cshtml** file in the code editor.
+
+     ![View the Index.cshtml file in the Visual Studio code editor](media/vs-2019/csharp-aspnet-index-cshtml.png)
+
+ 1. Each .cshtml file has an associated code file. To open the code file in the editor, expand the **Index.cshtml** node in Solution Explorer, and choose the **Index.cshtml.cs** file.
+
+     ![Choose the Index.cshtml.cs file in the Visual Studio code editor](media/vs-2019/csharp-aspnet-choose-index-cshtml.png)
+
+ 1. View the **Index.cshtml.cs** file in the code editor.
+
+     ![View the About.cshtml file in the Visual Studio code editor](media/vs-2019/csharp-aspnet-index-cshtml-editing.png)
+
+ 1. The project contains a **wwwroot** folder that is the root for your website. Expand the folder to view its contents.
+
+     ![wwwroot folder in the Solution Explorer in Visual Studio](media/csharp-aspnet-razor-solution-explorer-wwwroot.png)
+
+    You can put static site content&mdash;such as CSS, images, and JavaScript libraries&mdash;directly in the paths where you want them.
+
+ 1. The project also contains configuration files that manage the web app at runtime. The default application [configuration](/aspnet/core/fundamentals/configuration) is stored in *appsettings.json*. However, you can override these settings by using *appsettings.Development.json*. Expand the **appsettings.json** file to view the **appsettings.Development.json** file.
+
+     ![Configuration files in the Solution Explorer in Visual Studio](media/csharp-aspnet-razor-solution-explorer-appsettingsjson.png)
+
+## Run, debug, and make changes
+
+1. Choose the **IIS Express** button in the IDE to build and run the app in Debug mode. (Alternatively, press **F5**, or choose **Debug** > **Start Debugging** from the menu bar.)
+
+     ![Select the IIS Express button in Visual Studio](media/csharp-aspnet-razor-iisexpress.png)
+
+     > [!NOTE]
+     > If you get an error message that says **Unable to connect to web server 'IIS Express'**, close Visual Studio and then open it by using the **Run as administrator** option from the right-click or context menu. Then, run the application again.
+     >
+     > You might also get a message that asks if you want to accept an IIS SSL Express certificate. To view the code in a web browser, choose **Yes**, and then choose **Yes** if you receive a follow-up security warning message.
+
+1. Visual Studio launches a browser window. You should then see **Home**, and **Privacy** pages in the menu bar.
+
+1. Choose **Privacy** from the menu bar.
+
+   The **Privacy** page in the browser renders the text that is set in the *Privacy.cshtml* file.
+
+   ![View the text on the Privacy page](media/vs-2019/csharp-aspnet-browser-page-privacy.png)
+
+1. Return to Visual Studio, and then press **Shift+F5** to stop Debug mode. This also closes the project in the browser window.
+
+1. In Visual Studio, open **Privacy.cshtml** for editing. Then, delete the words _Use this page to detail your site's privacy policy_ and in its place, add the words _This page is under construction as of @ViewData["TimeStamp"]_.
+
+    ![Change the text in the Privacy.cshtml file](media/vs-2019/csharp-aspnet-privacy-cshtml-code-changed.png)
+
+1. Now, let's make a code change. Choose **Privacy.cshtml.cs**. Then, clean up the `using` directives at the top of the file by using the following shortcut:
+
+   Choose any of the grayed-out `using` directives and a [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Choose the light bulb, and then hover over **Remove unnecessary usings**. 
+
+   ![Remove unnecessary Usings in the Privacy.cshtml.cs file](media/vs-2019/csharp-aspnet-remove-unnecessary-usings.png)
+
+   Now choose **Preview changes** to see what will change.
+
+   ![Preview changes](media/vs-2019/csharp-aspnet-preview-changes.png)
+
+   Choose **Apply**. Visual Studio deletes the unnecessary `using` directives from the file.
+
+1. Next, in the `OnGet()` method, change the body to the following code:
+
+     ```csharp
+     public void OnGet()
+     {
+        string dateTime = DateTime.Now.ToShortDateString();
+        ViewData["TimeStamp"] = dateTime;
+     }
+    ```
+
+1. Notice that two wavy underlines appear under **DateTime**. The wavy underlines appear because these type isn't in scope.
+
+   ![Errors marked with wavy underlines in OnGet method](media/vs-2019/csharp-aspnet-add-new-onget-method.png)
+
+    Open the **Error List** toolbar to see the same errors listed there. (If you don't see the **Error List** toolbar, choose **View** > **Error List** from the top menu bar.)
+
+   ![Error List in Visual Studio](media/vs-2019/csharp-aspnet-error-list.png)
+
+1. Let's fix this. In the code editor, place your cursor on either line that contains the error, and then choose the Quick Actions light bulb in the left margin. Then, from the drop-down menu, choose **using System;** to add this directive to the top of your file and resolve the errors.
+
+   ![Add the "using System;" directive](media/vs-2019/csharp-aspnet-add-usings.png)
+
+1. Press **F5** to open your project in the web browser.
+
+1. At the top of the web site, choose **Privacy** to view your changes.
+
+   ![View the updated Privacy page that includes the changes you made](media/vs-2019/csharp-aspnet-browser-page-privacy-changed.png)
+
+1. Close the web browser, press **Shift**+**F5** to stop Debug mode, and then close Visual Studio.
+::: moniker-end
 
 ## Quick answers FAQ
 
