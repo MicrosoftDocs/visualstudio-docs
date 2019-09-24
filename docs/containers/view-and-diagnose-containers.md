@@ -82,7 +82,7 @@ You can open a command prompt in the container by using the **Attach to Process*
 
 ![Screenshot of Attach to Process in the Containers window](media/view-and-diagnose-containers/container-tools-attach-button.png)
 
-For Windows containers, the Windows command prompt opens.  For Linux containers, it opens a window using the bash shell.
+For Windows containers, the Windows command prompt opens. For Linux containers, it opens a window using the bash shell.
 
 ![Screensot of bash window](media/view-and-diagnose-containers/container-bash-window.png)
 
