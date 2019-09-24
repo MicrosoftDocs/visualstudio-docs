@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|MarkEnumsWithFlags|
 |CheckId|CA1027|
 |Category|Microsoft.Design|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

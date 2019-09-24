@@ -18,7 +18,7 @@ ms.workload:
 |TypeName|ReviewCodeForOpenRedirectVulnerabilities|
 |CheckId|CA3007|
 |Category|Microsoft.Security|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

@@ -18,7 +18,7 @@ ms.workload:
 |TypeName|ReviewCodeForXPathInjectionVulnerabilities|
 |CheckId|CA3008|
 |Category|Microsoft.Security|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

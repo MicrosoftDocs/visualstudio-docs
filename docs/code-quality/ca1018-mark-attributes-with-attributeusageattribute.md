@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|MarkAttributesWithAttributeUsage|
 |CheckId|CA1018|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 The <xref:System.AttributeUsageAttribute?displayProperty=fullName> attribute is not present on the custom attribute.

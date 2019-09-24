@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|DisposeObjectsBeforeLosingScope|
 |CheckId|CA2000|
 |Category|Microsoft.Reliability|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|DoNotUseIdleProcessPriority|
 |CheckId|CA1600|
 |Category|Microsoft.Mobility|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 This rule occurs when processes are set to `ProcessPriorityClass.Idle`.

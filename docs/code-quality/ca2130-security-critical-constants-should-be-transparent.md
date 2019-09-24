@@ -18,7 +18,7 @@ ms.workload:
 |TypeName|ConstantsShouldBeTransparent|
 |CheckId|CA2130|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A constant field or an enumeration member is marked with the <xref:System.Security.SecurityCriticalAttribute>.

@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|AvoidUnmantainableCode|
 |CheckId|CA1505|
 |Category|Microsoft.Maintainability|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

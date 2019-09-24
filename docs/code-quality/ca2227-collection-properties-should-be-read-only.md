@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|CollectionPropertiesShouldBeReadOnly|
 |CheckId|CA2227|
 |Category|Microsoft.Usage|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

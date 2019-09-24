@@ -232,11 +232,11 @@ In this example, `_Out_opt_` says that the pointer might be NULL as part of the 
 
 ## See also
 
-[Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
-[Understanding SAL](../code-quality/understanding-sal.md)
-[Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)
-[Annotating Function Behavior](../code-quality/annotating-function-behavior.md)
-[Annotating Structs and Classes](../code-quality/annotating-structs-and-classes.md)
-[Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)
-[Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)
-[Intrinsic Functions](../code-quality/intrinsic-functions.md)
+[Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)  
+[Understanding SAL](../code-quality/understanding-sal.md)  
+[Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)  
+[Annotating Function Behavior](../code-quality/annotating-function-behavior.md)  
+[Annotating Structs and Classes](../code-quality/annotating-structs-and-classes.md)  
+[Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)  
+[Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)  
+[Intrinsic Functions](../code-quality/intrinsic-functions.md)  

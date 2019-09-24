@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|AvoidNamespacesWithFewTypes|
 |CheckId|CA1020|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

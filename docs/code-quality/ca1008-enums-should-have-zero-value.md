@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|EnumsShouldHaveZeroValue|
 |CheckId|CA1008|
 |Category|Microsoft.Design|
-|Breaking Change|Non-breaking - When you are prompted to add a **None** value to a non-flag enumeration. Breaking - When you are prompted to rename or remove any enumeration values.|
+|Breaking change|Non-breaking - When you are prompted to add a **None** value to a non-flag enumeration. Breaking - When you are prompted to rename or remove any enumeration values.|
 
 ## Cause
 

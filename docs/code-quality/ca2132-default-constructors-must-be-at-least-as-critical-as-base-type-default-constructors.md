@@ -18,7 +18,7 @@ ms.workload:
 |TypeName|DefaultConstructorsMustHaveConsistentTransparency|
 |CheckId|CA2132|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 > [!NOTE]
 > This warning is only applied to code that is running the CoreCLR (the version of the CLR that is specific to Silverlight web applications).

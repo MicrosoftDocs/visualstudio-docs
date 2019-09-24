@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|PreferJaggedArraysOverMultidimensional|
 |CheckId|CA1814|
 |Category|Microsoft.Performance|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A member is declared as a multidimensional array.

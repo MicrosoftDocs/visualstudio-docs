@@ -16,7 +16,7 @@ ms.workload:
 |TypeName|InsecureDTDProcessing|
 |CheckId|CA3075|
 |Category|Microsoft.Security|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

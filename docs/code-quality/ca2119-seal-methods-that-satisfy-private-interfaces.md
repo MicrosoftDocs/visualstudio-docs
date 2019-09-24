@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|SealMethodsThatSatisfyPrivateInterfaces|
 |CheckId|CA2119|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 An inheritable public type provides an overridable method implementation of an `internal` (`Friend` in Visual Basic) interface.

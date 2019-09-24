@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|DoNotUseTimersThatPreventPowerStateChanges|
 |CheckId|CA1601|
 |Category|Microsoft.Mobility|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A timer has an interval set to occur more than one time per second.

@@ -29,7 +29,7 @@ ms.workload:
 |TypeName|OverloadOperatorEqualsOnOverloadingAddAndSubtract|
 |CheckId|CA1013|
 |Category|Microsoft.Design|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 A public or protected type implements the addition or subtraction operators without implementing the equality operator.

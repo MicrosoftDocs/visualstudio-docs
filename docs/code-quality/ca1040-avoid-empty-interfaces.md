@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|AvoidEmptyInterfaces|
 |CheckId|CA1040|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

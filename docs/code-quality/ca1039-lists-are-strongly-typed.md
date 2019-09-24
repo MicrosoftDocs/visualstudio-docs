@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|ListsAreStronglyTyped|
 |CheckId|CA1039|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

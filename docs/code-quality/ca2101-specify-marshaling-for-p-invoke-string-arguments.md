@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|SpecifyMarshalingForPInvokeStringArguments|
 |CheckId|CA2101|
 |Category|Microsoft.Globalization|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 A platform invoke member allows for partially trusted callers, has a string parameter, and does not explicitly marshal the string.

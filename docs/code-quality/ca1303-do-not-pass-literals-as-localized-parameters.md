@@ -27,7 +27,7 @@ ms.workload:
 |TypeName|DoNotPassLiteralsAsLocalizedParameters|
 |CheckId|CA1303|
 |Category|Microsoft.Globalization|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

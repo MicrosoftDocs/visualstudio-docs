@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|ReviewVisibleEventHandlers|
 |CheckId|CA2109|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A public or protected event-handling method was detected.
