@@ -28,7 +28,7 @@ ms.workload:
 A member that does not access instance data is not marked as static (Shared in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]).
 
 ## Rule description
-Members that do not access instance data or call instance methods can be marked as static (Shared in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]). After you mark the methods as static, the compiler will emit nonvirtual call sites to these members. Emitting nonvirtual call sites will prevent a check at runtime for each call that makes sure that the current object pointer is non-null. This can achieve a measurable performance gain for performance-sensitive code. In some cases, the failure to access the current object instance represents a correctness issue.
+Members that do not access instance data or call instance methods can be marked as static (Shared in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]). After you mark the methods as static, the compiler will emit nonvirtual call sites to these members. Emitting nonvirtual call sites will prevent a check at run time for each call that makes sure that the current object pointer is non-null. This can achieve a measurable performance gain for performance-sensitive code. In some cases, the failure to access the current object instance represents a correctness issue.
 
 ## How to fix violations
 Mark the member as static (or Shared in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]) or use 'this'/'Me' in the method body, if appropriate.

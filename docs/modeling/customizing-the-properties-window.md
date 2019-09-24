@@ -16,7 +16,7 @@ You can customize the appearance and behavior of the properties window in your d
 
 ## Names, descriptions, and categories
 
-**Name and Display Name**. In your definition of a domain property, the Display Name of the property is the name that appears at runtime in the properties window. By contrast, the Name is used when you write program code to update the property. The Name must be a correct CLR alphanumeric name, but the Display Name can contain spaces.
+**Name and Display Name**. In your definition of a domain property, the Display Name of the property is the name that appears at run time in the properties window. By contrast, the Name is used when you write program code to update the property. The Name must be a correct CLR alphanumeric name, but the Display Name can contain spaces.
 
 When you set the Name of a property in the DSL Definition, its Display Name is automatically set to a copy of the Name. If you write a Pascal cased name such as "FuelGauge", the Display Name will automatically contain a space: "Fuel Gauge". However, you can set the Display Name explicitly to another value.
 
@@ -211,7 +211,7 @@ For more information, see <xref:System.Drawing.Design.UITypeEditor>.
 You can provide a list of values for a user to choose from.
 
 > [!NOTE]
-> This technique provides a list of values that can change at runtime. If you want to provide a list that does not change, consider instead using an enumerated type as the type of your domain property.
+> This technique provides a list of values that can change at run time. If you want to provide a list that does not change, consider instead using an enumerated type as the type of your domain property.
 
 To define a list of standard values, you add to your domain property a CLR attribute that has the following form:
 
