@@ -76,6 +76,18 @@ Using the **Files** tab, you can view application logs such as IIS logs, configu
 
 By default, the **Containers** window shows all containers on the machine that Docker manages. You can use the toolbar buttons to start, stop, or remove (delete) a container you no longer want.  This list is dynamically updated as containers are created or removed.
 
+## Open a command prompt inside the container
+
+You can open a command prompt in the container by using the **Attach to Process** button in the **Container** window.
+
+![Screenshot of Attach to Process in the Containers window](media/view-and-diagnose-containers/container-tools-attach-button.png)
+
+For Windows containers, the Windows command prompt opens.  For Linux containers, it opens a window using the bash shell.
+
+![Screensot of bash window](media/view-and-diagnose-containers/container-bash-window.png)
+
+Normally, the terminal window opens outside Visual Studio as a separate window. If you want a command-line environment integrated into the Visual Studio IDE as a dockable tool window, you can install [Whack Whack Terminal](https://marketplace.visualstudio.com/items?itemName=DanielGriffen.WhackWhackTerminal).
+
 ## Next steps
 
 Learn more about the Container Tools available in Visual Studio by reading the [Container Tools Overview](overview.md).
