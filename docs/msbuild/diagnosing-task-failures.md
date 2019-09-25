@@ -17,37 +17,46 @@ ms.workload:
 ---
 # Diagnosing task failures
 
-`MSB6006` is emitted when a <xref:Microsoft.Build.Utilities.ToolTask>–derived class runs a tool process that returns a nonzero exit code and did not log a more-specific error.
+`MSB6006` is emitted when a <xref:Microsoft.Build.Utilities.ToolTask>–derived class runs a tool process that returns a nonzero exit code and did not log a more specific error.
 
 ## Identifying the failing task
 
+When you encounter a task error, the first task is to identify the task that is failing.
+
+The text of the error will specify the tool name name (this will be either a friendly name provided by the task implementation or the name of the executable) and the numeric exit code. For example, in
+
+```text
+error MSB6006: "custom tool" exited with code 1.
+```
+
+The tool name is `custom tool` and the exit code is `1`.
+
 ### Command-line builds
 
-If the build 
+If the build was configured to include a summary (the default), the summary will look like this:
+
+```text
+Build FAILED.
+
+"S:\MSB6006_demo\MSB6006_demo.csproj" (default target) (1) ->
+(InvokeToolTask target) ->
+  S:\MSB6006_demo\MSB6006_demo.csproj(19,5): error MSB6006: "custom tool" exited with code 1.
+```
+
+This indicates that the error occurred in a task defined on line 19 of the file `S:\MSB6006_demo\MSB6006_demo.csproj`, in a target named `InvokeToolTask`, in the project `S:\MSB6006_demo\MSB6006_demo.csproj`.
 
 ### In Visual Studio
 
+The same information is available in the Visual Studio error window in the columns `Project`, `File` and `Line`.
+
 ## Finding more failure information
 
-TODO: there's hopefully some useful console output?
+This error is emitted when the task did not provide specific error information to MSBuild. This is often because the task is not configured to understand the error format emitted by the tool it calls.
+
+Well-behaved tools generally emit some contextual or error information to their standard output or error stream, and tasks capture and log this information by default. Look in the log before the error for additional information. Rerunning the build with a higher log level may be required to preserve this information.
 
 ## Next steps
 
-----
+Hopefully the additional context or errors identified in logging reveal the root cause of the problem.
 
-Yeah, that’s pretty bogus. Code in that class is why that specific error is thrown, but unlikely to help the actual problem, which is an error that some tool or script has returned for whatever reason (bad inputs? MSBuild authoring error? Network blip?)
-
-It might be worth making a new page just for MSB6006, if it’s a common source of user pain. The troubleshooting steps are (extremely rough, if we want to go this direction I can actually write it up):
-
-* Figure out what actually failed
-  * what task was it?
-  * What target is it in?
-* Figure out what went wrong
-  * were errors, warnings, or other messages logged?
-* Figure out whose problem it is
-  * is it a bug in your build logic? Probably!
-  * Is it a bug in a task? Who owns it? NuGet package? VS? You?
-* Fix it
-  * Fix your build logic/project file
-  * Update tools
-  * File bug, work around?
+If they do not, you may have to narrow down the potential causes by examining the properties and items that are inputs to the failing task.
