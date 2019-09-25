@@ -62,6 +62,9 @@ You can view the connection string for the *SampleDatabase.mdf* file by opening 
 
 - Alternatively, you can select **View** > **Server Explorer**, if that window isn't already open. Open the Properties window by expanding the **Data Connections** node, right-clicking on *SampleDatabase.mdf*, and then selecting **Properties**.
 
+  > [!TIP]
+  > If you can't expand the Data Connections node, or the SampleDatabase.mdf connection is not listed, select the **Connect to Database** button in the Server Explorer toolbar. In the **Add Connection** dialog box, make sure that **Microsoft SQL Server Database File** is selected under **Data source**, and then browse to and select the SampleDatabase.mdf file. Finish adding the connection by selecting **OK**.
+
 ## Create tables and keys by using Table Designer
 
 In this section, you'll create two tables, a primary key in each table, and a few rows of sample data. You'll also create a foreign key to specify how records in one table correspond to records in the other table.
@@ -69,6 +72,8 @@ In this section, you'll create two tables, a primary key in each table, and a fe
 ### Create the Customers table
 
 1. In **Server Explorer**, expand the **Data Connections** node, and then expand the **SampleDatabase.mdf** node.
+
+   If you can't expand the Data Connections node, or the SampleDatabase.mdf connection is not listed, select the **Connect to Database** button in the Server Explorer toolbar. In the **Add Connection** dialog box, make sure that **Microsoft SQL Server Database File** is selected under **Data source**, and then browse to and select the SampleDatabase.mdf file. Finish adding the connection by selecting **OK**.
 
 2. Right-click on **Tables** and select **Add New Table**.
 
