@@ -84,3 +84,10 @@ landingContent:
             url: using-the-debuggerdisplay-attribute.md
           - text: Remote debugging
             url: remote-debugging.md
+    # Card
+  - title: Collaborate
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Write and debug code with Live Share >>
+            url: /visualstudio/liveshare/use/vs

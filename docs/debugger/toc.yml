@@ -666,6 +666,10 @@
         href: how-to-step-into-wcf-services.md
       - name: Debug a self-hosted WCF service
         href: how-to-debug-a-self-hosted-wcf-service.md
+  - name: Collaborate
+    items:
+    - name: Write and debug code using Live Share
+      href: /visualstudio/liveshare/use/vs
   - name: Dump files
     items:
     - name: Use dump files
