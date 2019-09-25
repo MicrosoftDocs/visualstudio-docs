@@ -10,6 +10,10 @@ ms.workload:
 ---
 # Convert a local function to a method
 
+This refactoring applies to:
+
+- C#
+
 **What:** Convert a local function to a method.
 
 **When:** You have a local function that you want to define outside your current local context.
