@@ -1,6 +1,6 @@
 ---
 title: "Diagnosing task failures | Microsoft Docs"
-ms.date: "10/25/2019"
+ms.date: "09/25/2019"
 ms.topic: "reference"
 f1_keywords:
   - "MSBuild.ToolTask.ToolCommandFailed"
@@ -23,7 +23,7 @@ ms.workload:
 
 When you encounter a task error, the first task is to identify the task that is failing.
 
-The text of the error will specify the tool name name (this will be either a friendly name provided by the task implementation or the name of the executable) and the numeric exit code. For example, in
+The text of the error specifies the tool name (either a friendly name provided by the task implementation or the name of the executable) and the numeric exit code. For example, in
 
 ```text
 error MSB6006: "custom tool" exited with code 1.
