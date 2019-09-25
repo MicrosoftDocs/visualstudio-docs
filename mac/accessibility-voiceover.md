@@ -19,7 +19,7 @@ VoiceOver commands appear in this guide as **VO _key_** whereby **VO** refers to
 
 ## Useful VoiceOver commands
 
-Here are a list of some common VoiceOver commands for Visual Studio for Mac:
+Here is a list of some common VoiceOver commands for Visual Studio for Mac:
 
 |Feature|Description|Shortcut|
 |-------|-----------|--------|

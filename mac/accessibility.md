@@ -20,7 +20,7 @@ There are a number of accessibility tools and features built right into macOS th
 > [!NOTE]
 > This guide refers to Visual Studio for Mac. For Visual Studio on Windows, see [Accessibility features of Visual Studio](/visualstudio/ide/reference/accessibility-features-of-visual-studio).
 
-For more information see the following topics:
+For more information, see the following topics:
 
 * [Set IDE accessibility options](accessibility-ide-options.md)
 * [Use macOS accessibility features and tools](accessibility-macos.md)

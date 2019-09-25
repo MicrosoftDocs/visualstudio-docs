@@ -9,11 +9,11 @@ ms.assetid: EF574E49-0465-4973-BE67-286DA20B8836
 
 # Keyboard navigation in Visual Studio for Mac
 
-Visual Studio for Mac is accessible by keyboard users using most common macOS keyboard shortcuts as well as many specific to Visual Studio for Mac. We will cover some basic keyboard commands for both, and demonstrate how to set up Visual Studio for Mac keyboard shortcuts.
+Visual Studio for Mac is accessible by keyboard users using most common macOS keyboard shortcuts, as well as many specific to Visual Studio for Mac. Here we'll cover some basic keyboard commands for both, and demonstrate how to set up Visual Studio for Mac keyboard shortcuts.
 
-## How to: Use Keyboard Navigation
+## How to: Use keyboard navigation
 
-Keyboard navigation support is built right into macOS, but in order to have the most comprehensive experience you should set macOS to navigate **All controls**:
+Keyboard navigation support is built right into macOS, but to have the most comprehensive experience you should set macOS to navigate **All controls**:
 
 ![System preferences keyboard all controls](media/accessibility-preferences-keyboard.png)
 
@@ -21,7 +21,7 @@ Setting **Full Keyboard Access** to **All controls** allows you to navigate thro
 
 ## Customizing keyboard shortcuts
 
-Visual Studio for Mac has a range of keyboard shortcuts for various tasks. You can view and edit these as follows:
+Visual Studio for Mac has a range of keyboard shortcuts for various tasks. You can view and edit these shortcuts as follows:
 
 1. Open the Visual Studio for Mac preferences using **Visual Studio (menu) > Preferences (&#8984;,)**
 
@@ -40,13 +40,13 @@ Visual Studio for Mac has a range of keyboard shortcuts for various tasks. You c
 
 ## Useful keyboard shortcuts
 
-|Feature|Description|Shortcut|
-|-------|-----------|--------|
-|Navigating UI|Navigate all elements of the UI|**⇥**, **⇧⇥**|
-|Interact|Select the control currently in focus|**␣**|
-|Interact|Select the default control on screen / dialog|**⏎**|
-|Switch tabs|Cycle through open files|**⌘⇧[**, **⌘⇧]**|
-|Debug|Start debugging|**⌘⏎**|
+|Feature         |Description                                   |Shortcut         |
+|----------------|----------------------------------------------|-----------------|
+|Navigating UI   |Navigate all elements of the UI               |**⇥**, **⇧⇥**    |
+|Interact        |Select the control currently in focus         |**␣**            |
+|Interact        |Select the default control on screen / dialog |**⏎**            |
+|Switch tabs     |Cycle through open files                      |**⌘⇧[**, **⌘⇧]** |
+|Debug           |Start debugging                               |**⌘⏎**           |
 
 > [!TIP]
 > A comprehensive list of keyboard commands can be found on the [Keyboard Shortcuts](keyboard-shortcuts.md) page.

@@ -9,11 +9,11 @@ ms.assetid: 598FC25A-6DA3-44BB-B128-AD979E9F86EA
 
 # Accessibility features of macOS
 
-macOS is an accessible operating system and has a number of in-built features to assist users of varying abilities. These include a high contrast mode, keyboard navigation and VoiceOver; the macOS screen reader.
+macOS is an accessible operating system. It has a number of in-built features to assist users of varying abilities. These features include a high contrast mode, keyboard navigation, and VoiceOver; the macOS screen reader.
 
 ## Enabling accessibility features
 
-Visual Studio for Mac's support for assistive technologies is turned off by default. To enable it follow these steps:
+Visual Studio for Mac's support for assistive technologies is turned off by default. To enable accessibility support, follow these steps:
 
 1. Go to **Visual Studio (menu) > Preferences > Other > Accessibility**
 
