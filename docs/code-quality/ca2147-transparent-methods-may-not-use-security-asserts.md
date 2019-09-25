@@ -23,7 +23,7 @@ ms.workload:
 |TypeName|SecurityTransparentCodeShouldNotAssert|
 |CheckId|CA2147|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 Code that is marked as <xref:System.Security.SecurityTransparentAttribute> is not granted sufficient permissions to assert.

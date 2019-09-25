@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|UseParamsForVariableArguments|
 |CheckId|CA2230|
 |Category|Microsoft.Usage|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A public or protected type contains a public or protected method that uses the `VarArgs` calling convention.

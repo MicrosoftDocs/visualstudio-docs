@@ -21,7 +21,7 @@ f1_keywords:
 |TypeName|DoNotUseInsecureDeserializerObjectStateFormatter|
 |CheckId|CA2315|
 |Category|Microsoft.Security|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

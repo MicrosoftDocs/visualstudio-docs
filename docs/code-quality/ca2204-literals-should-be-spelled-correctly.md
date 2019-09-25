@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|LiteralsShouldBeSpelledCorrectly|
 |CheckId|CA2204|
 |Category|Microsoft.Usage|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

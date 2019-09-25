@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|PropertyNamesShouldNotMatchGetMethods|
 |CheckId|CA1721|
 |Category|Microsoft.Naming|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

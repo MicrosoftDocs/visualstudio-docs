@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|UseGenericsWhereAppropriate|
 |CheckId|CA1007|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 An externally visible method contains a reference parameter of type <xref:System.Object?displayProperty=fullName>, and the containing assembly targets .NET Framework 2.0.

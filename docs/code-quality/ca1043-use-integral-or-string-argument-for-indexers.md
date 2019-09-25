@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|UseIntegralOrStringArgumentForIndexers|
 |CheckId|CA1043|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

@@ -22,7 +22,7 @@ ms.workload:
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
 
- Using Excel, you can turn protection on and off while the workbook is open in the designer. Using Word, you can turn protection on only outside of the designer. At runtime, you can enable or disable protection programmatically for both Word and Excel.
+ Using Excel, you can turn protection on and off while the workbook is open in the designer. Using Word, you can turn protection on only outside of the designer. At run time, you can enable or disable protection programmatically for both Word and Excel.
 
  When document protection is enabled on a document that is open in the designer, all controls are removed from the **Toolbox** or are made unavailable, and you cannot drag anything from the **Data Sources** window to the document.
 

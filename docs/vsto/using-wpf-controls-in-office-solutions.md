@@ -77,7 +77,7 @@ You cannot add WPF controls directly to UI elements in Office solutions. Instead
 
      Visual Studio automatically creates an <xref:System.Windows.Forms.Integration.ElementHost> object that hosts the WPF user control in the Windows Forms user control.
 
-8. Write code that programmatically adds the Windows Forms user control to the document or workbook. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+8. Write code that programmatically adds the Windows Forms user control to the document or workbook. For more information, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
     > [!NOTE]
     > You cannot drag the Windows Forms user control to the document or worksheet in the designer.
@@ -86,7 +86,7 @@ You cannot add WPF controls directly to UI elements in Office solutions. Instead
 
 ## Host WPF controls by using the ElementHost class
 
-Visual Studio provides features that help you use Windows Forms controls in your Office solutions, but it does not provide similar features for WPF controls. For example, you can add Windows Forms controls to documents and worksheets at design time by dragging controls from the **Toolbox**, or at runtime by using helper methods. However, these tools are not available for WPF controls.
+Visual Studio provides features that help you use Windows Forms controls in your Office solutions, but it does not provide similar features for WPF controls. For example, you can add Windows Forms controls to documents and worksheets at design time by dragging controls from the **Toolbox**, or at run time by using helper methods. However, these tools are not available for WPF controls.
 
 WPF controls use the <xref:System.Windows.Forms.Integration.ElementHost> class as an integration layer between a Windows Forms control or form and the WPF controls. When you add WPF controls to your solution at design time, Visual Studio automatically generates an <xref:System.Windows.Forms.Integration.ElementHost> object for you.
 

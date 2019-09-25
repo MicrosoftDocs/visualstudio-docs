@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|AvoidOutParameters|
 |CheckId|CA1021|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A public or protected method in a public type has an `out` parameter.

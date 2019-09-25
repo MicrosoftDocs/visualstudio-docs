@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|RethrowToPreserveStackDetails|
 |CheckId|CA2200|
 |Category|Microsoft.Usage|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

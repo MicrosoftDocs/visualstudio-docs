@@ -130,7 +130,7 @@ For Each element As ExampleElement In Me.WorkModel.Elements
 ```
 
 ## Loading models dynamically
- If you want to determine at runtime which models to load, you can load a model file dynamically in your program code, instead of using the DSL-specific directive.
+ If you want to determine at run time which models to load, you can load a model file dynamically in your program code, instead of using the DSL-specific directive.
 
  However, one of the functions of the DSL-specific directive is to import the DSL namespace, so that the template code can use the domain classes defined in that DSL. Because you are not using the directive, you must add **\<assembly>** and **\<import>** directives for all the models that you might load. This is easy if the different models that you might load are all instances of the same DSL.
 

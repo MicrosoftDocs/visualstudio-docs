@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|OverrideMethodsOnComparableTypes|
 |CheckId|CA1036|
 |Category|Microsoft.Design|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

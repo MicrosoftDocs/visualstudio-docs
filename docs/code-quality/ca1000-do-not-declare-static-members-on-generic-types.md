@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|DoNotDeclareStaticMembersOnGenericTypes|
 |CheckId|CA1000|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

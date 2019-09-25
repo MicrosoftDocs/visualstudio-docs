@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|ImplementSerializationMethodsCorrectly|
 |CheckId|CA2238|
 |Category|Microsoft.Usage|
-|Breaking Change|Breaking - If the method is visible outside the assembly.<br /><br /> Non Breaking - If the method is not visible outside the assembly.|
+|Breaking change|Breaking - If the method is visible outside the assembly.<br /><br /> Non-breaking - If the method is not visible outside the assembly.|
 
 ## Cause
 A method that handles a serialization event does not have the correct signature, return type, or visibility.

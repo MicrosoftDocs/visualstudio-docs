@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|CallGCKeepAliveWhenUsingNativeResources|
 |CheckId|CA2115|
 |Category|Microsoft.Security|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

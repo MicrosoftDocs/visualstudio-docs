@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|ResourceStringsShouldBeSpelledCorrectly|
 |CheckId|CA1703|
 |Category|Microsoft.Naming|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

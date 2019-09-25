@@ -21,7 +21,7 @@ ms.workload:
 |TypeName|CatchNonClsCompliantExceptionsInGeneralHandlers|
 |CheckId|CA2102|
 |Category|Microsoft.Security|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

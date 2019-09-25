@@ -24,7 +24,7 @@ ms.workload:
 |TypeName|DoNotLockOnObjectsWithWeakIdentity|
 |CheckId|CA2002|
 |Category|Microsoft.Reliability|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

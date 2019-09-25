@@ -45,9 +45,9 @@ ms.workload:
 
 - The `ThisAddIn` class in a VSTO Add-in project. You can access this object by using the `Globals.ThisAddIn` property.
 
-- All Ribbons in your project that you customized by using the Ribbon Designer. You can access the Ribbons by using the `Globals.Ribbons` property. For more information, see [Access the Ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md).
+- All Ribbons in your project that you customized by using the Ribbon Designer. You can access the Ribbons by using the `Globals.Ribbons` property. For more information, see [Access the Ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md).
 
-- All Outlook form regions in an Outlook VSTO Add-in project. You can access the form regions by using the `Globals.FormRegions` property. For more information, see [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md).
+- All Outlook form regions in an Outlook VSTO Add-in project. You can access the form regions by using the `Globals.FormRegions` property. For more information, see [Access a form region at run time](../vsto/accessing-a-form-region-at-run-time.md).
 
 - A factory object that enables you to create Ribbon controls, and host items at run time in projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]. You can access this object by using the `Globals.Factory` property. This object is an instance of a class that implements one the following interfaces:
 
@@ -71,8 +71,8 @@ ms.workload:
 > The `Globals` class is never initialized at design time, but control instances are created by the designer. This means that if you create a user control that uses a property of the `Globals` class from inside a user control class, you must check whether the property returns **null** before you try to use the returned object.
 
 ## See also
-- [Access the Ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
-- [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)
+- [Access the Ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)
+- [Access a form region at run time](../vsto/accessing-a-form-region-at-run-time.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
 - [Document host item](../vsto/document-host-item.md)
 - [Workbook host item](../vsto/workbook-host-item.md)

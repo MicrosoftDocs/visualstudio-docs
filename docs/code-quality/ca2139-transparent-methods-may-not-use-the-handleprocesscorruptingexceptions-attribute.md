@@ -18,7 +18,7 @@ ms.workload:
 |TypeName|TransparentMethodsMustNotHandleProcessCorruptingExceptions|
 |CheckId|CA2139|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A transparent method is marked with the <xref:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute> attribute.

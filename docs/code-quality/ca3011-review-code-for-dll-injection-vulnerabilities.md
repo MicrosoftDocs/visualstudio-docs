@@ -18,7 +18,7 @@ ms.workload:
 |TypeName|ReviewCodeForDllInjectionVulnerabilities|
 |CheckId|CA3011|
 |Category|Microsoft.Security|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

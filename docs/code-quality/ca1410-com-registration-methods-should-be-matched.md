@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|ComRegistrationMethodsShouldBeMatched|
 |CheckId|CA1410|
 |Category|Microsoft.Interoperability|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|OverrideGetHashCodeOnOverridingEquals|
 |CheckId|CA2218|
 |Category|Microsoft.Usage|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 A public type overrides <xref:System.Object.Equals%2A?displayProperty=fullName> but does not override <xref:System.Object.GetHashCode%2A?displayProperty=fullName>.

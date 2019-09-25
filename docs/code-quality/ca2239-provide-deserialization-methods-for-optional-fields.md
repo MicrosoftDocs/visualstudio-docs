@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|ProvideDeserializationMethodsForOptionalFields|
 |CheckId|CA2239|
 |Category|Microsoft.Usage|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 A type has a field that is marked with the <xref:System.Runtime.Serialization.OptionalFieldAttribute?displayProperty=fullName> attribute and the type does not provide de-serialization event handling methods.

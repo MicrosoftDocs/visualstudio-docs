@@ -173,7 +173,7 @@ For more information about wildcard characters, see [How to: Select the files to
  Starting in the .NET Framework 3.5, `Target` elements may contain [ItemGroup](../msbuild/itemgroup-element-msbuild.md) elements that may contain item elements. The attributes in this section are valid when they are specified for an item in an `ItemGroup` that's in a `Target`.
 
 ### <a name="BKMK_RemoveAttribute"></a> Remove attribute
- The `Remove` attribute removes specific items (files) from the item type. This attribute was introduced in the .NET Framework 3.5, but was only supported inside targets until MSBuild 15.0.
+ The `Remove` attribute removes specific items (files) from the item type. This attribute was introduced in the .NET Framework 3.5 (inside targets only). Both inside and outside targets are supported starting in MSBuild 15.0.
 
  The following example removes every *.config* file from the Compile item type.
 

@@ -135,10 +135,35 @@ public string RequiredProperty { get; set; }
 
  The `[Required]` attribute is defined by <xref:Microsoft.Build.Framework.RequiredAttribute> in the <xref:Microsoft.Build.Framework> namespace.
 
+## How [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] invokes a task
+
+When invoking a task, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] first instantiates the task class, then calls that object's property setters for task parameters that are set in the task element in the project file. If the task element does not specify a parameter, or if the expression specified in the element evaluates to an empty string, the property setter is not called.
+
+For example, in the project
+
+```xml
+<Project>
+ <Target Name="InvokeCustomTask">
+  <CustomTask Input1=""
+              Input2="$(PropertyThatIsNotDefined)"
+              Input3="value3" />
+ </Target>
+</Project>
+```
+
+only the setter for `Input3` is called.
+
+A task should not depend on any relative order of parameter-property setter invocation.
+
+### Task parameter types
+
+The [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] natively handles properties of type `string`, `bool`, `ITaskItem` and `ITaskItem[]`. If a task accepts a parameter of a different type, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] invokes <xref:System.Convert.ChangeType%2A> to convert from `string` (with all property and item references expanded) to the destination type. If the conversion fails for any input parameter, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] emits an error and does not call the task's `Execute()` method.
+
 ## Example
 
 ### Description
- This following [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class demonstrates a task deriving from the <xref:Microsoft.Build.Utilities.Task> helper class. This task returns `true`, indicating that it succeeded.
+
+This following [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class demonstrates a task deriving from the <xref:Microsoft.Build.Utilities.Task> helper class. This task returns `true`, indicating that it succeeded.
 
 ### Code
 
@@ -162,7 +187,8 @@ namespace SimpleTask1
 ## Example
 
 ### Description
- This following [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class demonstrates a task implementing the <xref:Microsoft.Build.Framework.ITask> interface. This task returns `true`, indicating that it succeeded.
+
+This following [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class demonstrates a task implementing the <xref:Microsoft.Build.Framework.ITask> interface. This task returns `true`, indicating that it succeeded.
 
 ### Code
 
@@ -197,15 +223,18 @@ namespace SimpleTask2
 ## Example
 
 ### Description
- This [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class demonstrates a task that derives from the <xref:Microsoft.Build.Utilities.Task> helper class. It has a required string property, and raises an event that is displayed by all registered loggers.
+
+This [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class demonstrates a task that derives from the <xref:Microsoft.Build.Utilities.Task> helper class. It has a required string property, and raises an event that is displayed by all registered loggers.
 
 ### Code
- [!code-csharp[msbuild_SimpleTask3#1](../msbuild/codesnippet/CSharp/task-writing_1.cs)]
+
+[!code-csharp[msbuild_SimpleTask3#1](../msbuild/codesnippet/CSharp/task-writing_1.cs)]
 
 ## Example
 
 ### Description
- The following example shows a project file invoking the previous example task, SimpleTask3.
+
+The following example shows a project file invoking the previous example task, SimpleTask3.
 
 ### Code
 
@@ -221,4 +250,5 @@ namespace SimpleTask2
 ```
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)

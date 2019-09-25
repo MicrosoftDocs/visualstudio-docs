@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Manage application settings (.NET)
 
-Application settings enable you to store application information dynamically. Settings allow you to store information on the client computer that should not be included in the application code (for example a connection string), user preferences, and other information you need at runtime.
+Application settings enable you to store application information dynamically. Settings allow you to store information on the client computer that should not be included in the application code (for example a connection string), user preferences, and other information you need at run time.
 
 Application settings replace the dynamic properties used in earlier versions of Visual Studio.
 

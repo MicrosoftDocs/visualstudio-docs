@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|RemoveUnusedLocals|
 |CheckId|CA1804|
 |Category|Microsoft.Performance|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 A method declares a local variable but does not use the variable except possibly as the recipient of an assignment statement. For analysis by this rule, the tested assembly must be built with debugging information and the associated program database (.pdb) file must be available.

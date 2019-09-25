@@ -1,5 +1,5 @@
 ---
-title: "Access a form region at runtime"
+title: "Access a form region at run time"
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -8,14 +8,14 @@ dev_langs:
 helpviewer_keywords:
   - "Inspectors [Office development in Visual Studio]"
   - "Explorers [Office development in Visual Studio]"
-  - "form regions [Office development in Visual Studio], accessing at runtime"
+  - "form regions [Office development in Visual Studio], accessing at run time"
 author: John-Hart
 ms.author: johnhart
 manager: jillfra
 ms.workload:
   - "office"
 ---
-# Access a form region at runtime
+# Access a form region at run time
 
 |Applies to|
 |----------------|
@@ -75,4 +75,4 @@ ms.workload:
 - [Walkthrough: Import a form region that is designed in Outlook](../vsto/walkthrough-importing-a-form-region-that-is-designed-in-outlook.md)
 - [How to: Prevent Outlook from displaying a form region](../vsto/how-to-prevent-outlook-from-displaying-a-form-region.md)
 - [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
-- [Access the Ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
+- [Access the Ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)

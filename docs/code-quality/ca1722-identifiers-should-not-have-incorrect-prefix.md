@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|IdentifiersShouldNotHaveIncorrectPrefix|
 |CheckId|CA1722|
 |Category|Microsoft.Naming|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 An identifier has an incorrect prefix.

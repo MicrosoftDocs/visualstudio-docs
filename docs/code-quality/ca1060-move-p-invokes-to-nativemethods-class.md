@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|MovePInvokesToNativeMethodsClass|
 |CheckId|CA1060|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

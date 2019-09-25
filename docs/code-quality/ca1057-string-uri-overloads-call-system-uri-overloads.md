@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|StringUriOverloadsCallSystemUriOverloads|
 |CheckId|CA1057|
 |Category|Microsoft.Design|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

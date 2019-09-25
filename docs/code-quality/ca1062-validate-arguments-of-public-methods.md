@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|ValidateArgumentsOfPublicMethods|
 |CheckId|CA1062|
 |Category|Microsoft.Design|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

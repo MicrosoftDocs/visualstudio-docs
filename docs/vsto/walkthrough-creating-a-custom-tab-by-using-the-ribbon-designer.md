@@ -153,7 +153,7 @@ ms.workload:
 - Extend a standard or custom Microsoft Office Outlook form. For more information, see [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md).
 
 ## See also
-- [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
+- [Access the ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [Ribbon Designer](../vsto/ribbon-designer.md)
 - [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md)

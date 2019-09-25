@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|DeclareEventHandlersCorrectly|
 |CheckId|CA1009|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A delegate that handles a public or protected event does not have the correct signature, return type, or parameter names.

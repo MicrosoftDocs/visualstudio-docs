@@ -24,7 +24,7 @@ ms.workload:
 |TypeName|ImplementIDisposableCorrectly|
 |CheckId|CA1063|
 |Category|Microsoft.Design|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

@@ -23,7 +23,7 @@ ms.workload:
 |TypeName|ReviewUnusedParameters|
 |CheckId|CA1801|
 |Category|Microsoft.Usage|
-|Breaking Change|Non Breaking - If the member is not visible outside the assembly, regardless of the change you make.<br /><br /> Non Breaking - If you change the member to use the parameter within its body.<br /><br /> Breaking - If you remove the parameter and it is visible outside the assembly.|
+|Breaking change|Non-breaking - If the member is not visible outside the assembly, regardless of the change you make.<br /><br /> Non-breaking - If you change the member to use the parameter within its body.<br /><br /> Breaking - If you remove the parameter and it is visible outside the assembly.|
 
 ## Cause
 

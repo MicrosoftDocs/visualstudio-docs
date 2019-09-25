@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|DoNotNestGenericTypesInMemberSignatures|
 |CheckId|CA1006|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 An externally visible member has a signature that contains a nested type argument.

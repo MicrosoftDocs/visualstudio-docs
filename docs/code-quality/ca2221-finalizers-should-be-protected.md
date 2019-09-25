@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|FinalizersShouldBeProtected|
 |CheckId|CA2221|
 |Category|Microsoft.Usage|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 A public type implements a finalizer that does not specify family (protected) access.

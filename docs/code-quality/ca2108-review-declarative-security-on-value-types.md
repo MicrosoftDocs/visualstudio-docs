@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|ReviewDeclarativeSecurityOnValueTypes|
 |CheckId|CA2108|
 |Category|Microsoft.Security|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

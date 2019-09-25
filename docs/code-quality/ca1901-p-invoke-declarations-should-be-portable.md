@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|PInvokeDeclarationsShouldBePortable|
 |CheckId|CA1901|
 |Category|Microsoft.Portability|
-|Breaking Change|Breaking - If the P/Invoke is visible outside the assembly. Non Breaking - If the P/Invoke is not visible outside the assembly.|
+|Breaking change|Breaking - If the P/Invoke is visible outside the assembly. Non-breaking - If the P/Invoke is not visible outside the assembly.|
 
 ## Cause
 This rule evaluates the size of each parameter and the return value of a P/Invoke and verifies that their size, when marshaled to unmanaged code on 32-bit and 64-bit platforms, is correct. The most common violation of this rule is to pass a fixed-sized integer where a platform-dependent, pointer-sized variable is required.

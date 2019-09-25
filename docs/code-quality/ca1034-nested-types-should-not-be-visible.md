@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|NestedTypesShouldNotBeVisible|
 |CheckId|CA1034|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|DoNotCallOverridableMethodsInConstructors|
 |CheckId|CA2214|
 |Category|Microsoft.Usage|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

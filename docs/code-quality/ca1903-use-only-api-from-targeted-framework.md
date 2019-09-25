@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|UseOnlyApiFromTargetedFramework|
 |CheckId|CA1903|
 |Category|Microsoft.Portability|
-|Breaking Change|Breaking - when fired against the signature of an externally visible member or type.<br /><br /> Non-Breaking - when fired in the body of a method.|
+|Breaking change|Breaking - when fired against the signature of an externally visible member or type.<br /><br /> Non-Breaking - when fired in the body of a method.|
 
 ## Cause
 A member or type is using a member or type that was introduced in a service pack that was not included with the project's targeted framework.

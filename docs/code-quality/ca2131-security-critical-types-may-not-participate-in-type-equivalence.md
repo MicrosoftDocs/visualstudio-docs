@@ -18,7 +18,7 @@ ms.workload:
 |TypeName|CriticalTypesMustNotParticipateInTypeEquivalence|
 |CheckId|CA2131|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A type participates in type equivalence and a either the type itself, or a member or field of the type, is marked with the <xref:System.Security.SecurityCriticalAttribute> attribute.

@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|DoNotTreatFibersAsThreads|
 |CheckId|CA2003|
 |Category|Microsoft.Reliability|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

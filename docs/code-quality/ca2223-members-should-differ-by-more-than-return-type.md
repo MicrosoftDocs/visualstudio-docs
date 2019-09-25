@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|MembersShouldDifferByMoreThanReturnType|
 |CheckId|CA2223|
 |Category|Microsoft.Usage|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 Two public or protected members have signatures that are identical except for return type.

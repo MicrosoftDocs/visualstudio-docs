@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|IdentifiersShouldBeCasedCorrectly|
 |CheckId|CA1709|
 |Category|Microsoft.Naming|
-|Breaking Change|Breaking - when raised on assemblies, namespaces, types, members, and parameters.<br /><br /> Non-breaking - when fired on generic type parameters.|
+|Breaking change|Breaking - when raised on assemblies, namespaces, types, members, and parameters.<br /><br /> Non-breaking - when fired on generic type parameters.|
 
 ## Cause
 
