@@ -17,13 +17,13 @@ ms.workload:
 ---
 # Diagnosing task failures
 
-`MSB6006` is emitted when a <xref:Microsoft.Build.Utilities.ToolTask>–derived class runs a tool process that returns a nonzero exit code and did not log a more specific error.
+`MSB6006` is emitted when a <xref:Microsoft.Build.Utilities.ToolTask>–derived class runs a tool process that returns a nonzero exit code if the task did not log a more specific error.
 
 ## Identifying the failing task
 
 When you encounter a task error, the first step is to identify the task that is failing.
 
-The text of the error specifies the tool name (either a friendly name provided by the task implementation or the name of the executable) and the numeric exit code. For example, in
+The text of the error specifies the tool name (either a friendly name provided by the task's implementation of <xref:Microsoft.Build.Utilities.ToolTask.ToolName> or the name of the executable) and the numeric exit code. For example, in
 
 ```text
 error MSB6006: "custom tool" exited with code 1.
@@ -51,7 +51,7 @@ The same information is available in the Visual Studio error list in the columns
 
 ## Finding more failure information
 
-This error is emitted when the task did not provide specific error information to MSBuild. This is often because the task is not configured to understand the error format emitted by the tool it calls.
+This error is emitted when the task did not log a specific error. This is often because the task is not configured to understand the error format emitted by the tool it calls.
 
 Well-behaved tools generally emit some contextual or error information to their standard output or error stream, and tasks capture and log this information by default. Look in the log entries before the error occurred for additional information. Rerunning the build with a higher log level may be required to preserve this information.
 
