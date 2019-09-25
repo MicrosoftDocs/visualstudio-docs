@@ -96,7 +96,7 @@
 
 # [Accessibility](accessibility.md)
 ## [Setting IDE accessibility options](accessibility-ide-options.md)
-## [macOS Accessibility Tools and Features
+## macOS Accessibility Tools and Features
 ### [Using macOS Accessibility Tools](accessibility-macos.md)
 ### [Using Keyboard Navigation](accessibility-keyboard.md)
 ### [Using VoiceOver](accessibility-voiceover.md)
