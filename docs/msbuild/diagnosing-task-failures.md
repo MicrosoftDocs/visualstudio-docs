@@ -1,7 +1,7 @@
 ---
 title: "Diagnosing task failures | Microsoft Docs"
 ms.date: "09/25/2019"
-ms.topic: "reference"
+ms.topic: "troubleshooting"
 f1_keywords:
   - "MSBuild.ToolTask.ToolCommandFailed"
 dev_langs:
@@ -21,7 +21,7 @@ ms.workload:
 
 ## Identifying the failing task
 
-When you encounter a task error, the first task is to identify the task that is failing.
+When you encounter a task error, the first step is to identify the task that is failing.
 
 The text of the error specifies the tool name (either a friendly name provided by the task implementation or the name of the executable) and the numeric exit code. For example, in
 
@@ -47,16 +47,16 @@ This indicates that the error occurred in a task defined on line 19 of the file 
 
 ### In Visual Studio
 
-The same information is available in the Visual Studio error window in the columns `Project`, `File` and `Line`.
+The same information is available in the Visual Studio error list in the columns `Project`, `File` and `Line`.
 
 ## Finding more failure information
 
 This error is emitted when the task did not provide specific error information to MSBuild. This is often because the task is not configured to understand the error format emitted by the tool it calls.
 
-Well-behaved tools generally emit some contextual or error information to their standard output or error stream, and tasks capture and log this information by default. Look in the log before the error for additional information. Rerunning the build with a higher log level may be required to preserve this information.
+Well-behaved tools generally emit some contextual or error information to their standard output or error stream, and tasks capture and log this information by default. Look in the log entries before the error occurred for additional information. Rerunning the build with a higher log level may be required to preserve this information.
 
 ## Next steps
 
-Hopefully the additional context or errors identified in logging reveal the root cause of the problem.
+Hopefully, the additional context or errors identified in logging reveal the root cause of the problem.
 
 If they do not, you may have to narrow down the potential causes by examining the properties and items that are inputs to the failing task.
