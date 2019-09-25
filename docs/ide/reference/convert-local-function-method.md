@@ -5,9 +5,6 @@ ms.topic: reference
 author: kendrahavens
 ms.author: kehavens
 manager: jillfra
-dev_langs:
-  - CSharp
-  - VB
 ms.workload:
   - "dotnet"
 ---
@@ -16,7 +13,6 @@ ms.workload:
 This refactoring applies to:
 
 - C#
-- Visual Basic
 
 **What:** Convert a local function to a method.
 

@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|MarkBooleanPInvokeArgumentsWithMarshalAs|
 |CheckId|CA1414|
 |Category|Microsoft.Interoperability|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A platform invoke method declaration includes a <xref:System.Boolean?displayProperty=fullName> parameter or return value but the <xref:System.Runtime.InteropServices.MarshalAsAttribute?displayProperty=fullName> attribute is not applied to the parameter or return value.

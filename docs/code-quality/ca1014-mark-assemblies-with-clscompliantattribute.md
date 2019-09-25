@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|MarkAssembliesWithClsCompliant|
 |CheckId|CA1014|
 |Category|Microsoft.Design|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 An assembly does not have the <xref:System.CLSCompliantAttribute?displayProperty=fullName> attribute applied to it.

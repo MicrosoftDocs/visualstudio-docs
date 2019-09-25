@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|StaticHolderTypesShouldNotHaveConstructors|
 |CheckId|CA1053|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 > [!NOTE]
 > Rule CA1053 is combined into [CA1052: Static holder types should be sealed](ca1052-static-holder-types-should-be-sealed.md) in [FxCop analyzers](fxcop-analyzers.yml).

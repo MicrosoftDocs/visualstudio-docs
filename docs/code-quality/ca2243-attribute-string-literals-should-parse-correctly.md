@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|AttributeStringLiteralsShouldParseCorrectly|
 |CheckId|CA2243|
 |Category|Microsoft.Usage|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 An attribute's string literal parameter does not parse correctly for a URL, GUID, or Version.

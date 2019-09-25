@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|DoNotCastUnnecessarily|
 |CheckId|CA1800|
 |Category|Microsoft.Performance|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 A method performs duplicate casts on one of its arguments or local variables.

@@ -1,7 +1,7 @@
 ---
 title: "Automatically apply product keys"
 description: "Learn how to apply product keys programmatically when you deploy Visual Studio."
-ms.date: 04/10/2019
+ms.date: 09/24/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 ms.assetid: d79260be-6234-4fd3-89b5-a9756b4a93c1
@@ -93,10 +93,10 @@ If `StorePID.exe` successfully applies the product key, it returns an `%ERRORLEV
 | `PID_ACTION_FAILURE`      | 5    |
 | `PID_ACTION_NOUPGRADE`    | 6    |
 
-[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
-
 > [!NOTE]
-> For troubleshooting virtual instances, run *C:\Program Files (x86)\Microsoft Visual Studio \<version\>\Common7\IDE\DDConfigCA.exe*.
+> When you run a virtual instance of Visual Studio, make sure that you also virtualize the local AppData folder and the registry. To troubleshoot virtual instances, run *C:\Program Files (x86)\Microsoft Visual Studio\ <version\> \Common7\IDE\DDConfigCA.exe*.  
+
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 

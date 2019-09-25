@@ -71,7 +71,7 @@ ms.workload:
 
  All generated classes in Office projects include `Startup` and `Shutdown` event handlers. To get started writing code, you typically add code to these event handlers. To initialize your VSTO Add-in, you can add code to the `Startup` event handler. To clean up resources used by your VSTO Add-in, you can add code to the `Shutdown` event handler. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
 
-### Access the generated classes at runtime
+### Access the generated classes at run time
  When an Office solution is loaded, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] instantiates each of the generated classes in your project. You can access these objects from any code in your project by using the `Globals` class. For example, you can use the `Globals` class to call code in the `ThisAddIn` class from an event handler of a Ribbon button in a VSTO Add-in.
 
  For more information, see [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md).

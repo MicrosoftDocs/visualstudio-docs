@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|UsePropertiesWhereAppropriate|
 |CheckId|CA1024|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|ParameterNamesShouldNotMatchMemberNames|
 |CheckId|CA1719|
 |Category|Microsoft.Naming|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 The name of an externally visible member matches, in a case-insensitive comparison, the name of one of its parameters.

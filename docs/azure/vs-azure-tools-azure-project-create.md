@@ -55,7 +55,7 @@ This section walks you through creating an Azure cloud service project in Visual
 
 The Visual Studio Azure project has associations to the role projects in the solution. The project also includes the *service definition file* and *service configuration file*:
 
-- **Service definition file** - Defines the runtime settings for your application, including what roles are required, endpoints, and virtual machine size.
+- **Service definition file** - Defines the run-time settings for your application, including what roles are required, endpoints, and virtual machine size.
 - **Service configuration file** - Configures how many instances of a role are run and the values of the settings defined for a role.
 
 For more information about these files, see [Configure the Roles for an Azure cloud service with Visual Studio](vs-azure-tools-configure-roles-for-cloud-service.md).

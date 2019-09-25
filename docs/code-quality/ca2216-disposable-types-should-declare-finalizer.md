@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|DisposableTypesShouldDeclareFinalizer|
 |CheckId|CA2216|
 |Category|Microsoft.Usage|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

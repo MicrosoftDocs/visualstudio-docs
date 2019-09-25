@@ -18,7 +18,7 @@ ms.workload:
 |TypeName|TransparentMethodsShouldNotLoadAssembliesFromByteArrays|
 |CheckId|CA2144|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A transparent method loads an assembly from a byte array using one of the following methods:

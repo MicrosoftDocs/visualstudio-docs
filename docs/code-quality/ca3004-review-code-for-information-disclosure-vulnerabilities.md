@@ -18,7 +18,7 @@ ms.workload:
 |TypeName|ReviewCodeForInformationDisclosureVulnerabilities|
 |CheckId|CA3004|
 |Category|Microsoft.Security|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

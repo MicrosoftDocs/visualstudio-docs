@@ -61,7 +61,7 @@ Starting with Visual Studio 2017, these copies of the PIAs are installed to foll
 - (or *%ProgramFiles(x86)%\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\* on 64-bit operating systems)
 
 > [!NOTE]
-> For older versions of Visual Studio, these PIAs will be installed to the Visual Studio Tools for Office\PIA folder under the *%ProgramFiles% folder for that version of Visual Studio.  
+> For older versions of Visual Studio, these PIAs will be installed to the Visual Studio Tools for Office\PIA folder under the *%ProgramFiles% folder for that version of Visual Studio.
 > For Example: *%ProgramFiles(x86)%\Microsoft Visual Studio 14.0\Visual Studio Tools for Office\PIA\*
 
 ### Primary interop assemblies in the global assembly cache
@@ -116,7 +116,7 @@ The following table lists the primary interop assemblies that are available for 
 
 ### Binding redirect assemblies
 
-When you install and register the Office PIAs in the global assembly cache (either with Office or by installing the redistributable package for the PIAs), the binding redirect assemblies are also installed only in the global assembly cache. These assemblies help make sure that the correct version of the primary interop assemblies is loaded at runtime.
+When you install and register the Office PIAs in the global assembly cache (either with Office or by installing the redistributable package for the PIAs), the binding redirect assemblies are also installed only in the global assembly cache. These assemblies help make sure that the correct version of the primary interop assemblies is loaded at run time.
 
 For example, when a solution that references a [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)] assembly runs on a computer that has the [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] version of the same primary interop assembly, the binding redirect assembly instructs the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)] runtime to load the [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] version of the primary interop assembly.
 

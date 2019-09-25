@@ -22,7 +22,7 @@ ms.workload:
 
  This walkthrough illustrates the following tasks:
 
-- Adding a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> control to a document at runtime.
+- Adding a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> control to a document at run time.
 
 - Binding the <xref:Microsoft.Office.Tools.Word.RichTextContentControl> control to data from a web service.
 
@@ -67,8 +67,8 @@ ms.workload:
 
 6. In the **Add Reference Wizard** dialog box, click **Finish**.
 
-## Add a content control and bind to data at runtime
- In VSTO Add-in projects, you add and bind controls at runtime. For this walkthrough, configure the content control to retrieve data from the web service when a user clicks inside the control.
+## Add a content control and bind to data at run time
+ In VSTO Add-in projects, you add and bind controls at run time. For this walkthrough, configure the content control to retrieve data from the web service when a user clicks inside the control.
 
 ### To add a content control and bind to data
 

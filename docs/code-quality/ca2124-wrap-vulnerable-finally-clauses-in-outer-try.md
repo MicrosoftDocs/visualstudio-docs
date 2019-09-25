@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|WrapVulnerableFinallyClausesInOuterTry|
 |CheckId|CA2124|
 |Category|Microsoft.Security|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 In versions 1.0 and 1.1 of the .NET Framework, a public or protected method contains a `try`/`catch`/`finally` block. The `finally` block appears to reset security state and is not enclosed in a `finally` block.

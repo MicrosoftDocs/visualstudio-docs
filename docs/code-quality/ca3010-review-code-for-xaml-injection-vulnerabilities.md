@@ -18,7 +18,7 @@ ms.workload:
 |TypeName|ReviewCodeForXamlInjectionVulnerabilities|
 |CheckId|CA3010|
 |Category|Microsoft.Security|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

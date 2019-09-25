@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|AvoidCallingProblematicMethods|
 |CheckId|CA2001|
 |Category|Microsoft.Reliability|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

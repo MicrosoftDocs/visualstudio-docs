@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|DefaultParametersShouldNotBeUsed|
 |CheckId|CA1026|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 An externally visible type contains an externally visible method that uses a default parameter.

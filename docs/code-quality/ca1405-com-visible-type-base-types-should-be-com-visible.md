@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|ComVisibleTypeBaseTypesShouldBeComVisible|
 |CheckId|CA1405|
 |Category|Microsoft.Interoperability|
-|Breaking Change|DependsOnFix|
+|Breaking change|DependsOnFix|
 
 ## Cause
 A Component Object Model (COM) visible type derives from a type that is not COM visible.

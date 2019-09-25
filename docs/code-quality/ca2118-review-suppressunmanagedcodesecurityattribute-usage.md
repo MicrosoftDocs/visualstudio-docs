@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|ReviewSuppressUnmanagedCodeSecurityUsage|
 |CheckId|CA2118|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|AvoidInt64ArgumentsForVB6Clients|
 |CheckId|CA1406|
 |Category|Microsoft.Interoperability|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A type that is specifically marked as visible to Component Object Model (COM) declares a member that takes a <xref:System.Int64?displayProperty=fullName> argument.

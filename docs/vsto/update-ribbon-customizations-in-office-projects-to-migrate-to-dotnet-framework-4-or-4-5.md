@@ -18,7 +18,7 @@ ms.workload:
 
 - Modify the generated Ribbon code.
 
-- Modify any code that instantiates Ribbon controls at runtime, handles Ribbon events, or sets the position of a Ribbon component programmatically.
+- Modify any code that instantiates Ribbon controls at run time, handles Ribbon events, or sets the position of a Ribbon component programmatically.
 
 ## Update the generated Ribbon code
  If the target framework of your project is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must change the generated code for the Ribbon item by performing the following steps. The code files you need to update depend on the programming language and how you created the project:

@@ -24,7 +24,7 @@ ms.workload:
 |TypeName|TestForNaNCorrectly|
 |CheckId|CA2242|
 |Category|Microsoft.Usage|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 An expression tests a value against <xref:System.Single.NaN?displayProperty=fullName> or <xref:System.Double.NaN?displayProperty=fullName>.

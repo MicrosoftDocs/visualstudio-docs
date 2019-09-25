@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|UseSafeHandleToEncapsulateNativeResources|
 |CheckId|CA2006|
 |Category|Microsoft.Reliability|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

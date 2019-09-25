@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|InitializeReferenceTypeStaticFieldsInline|
 |CheckId|CA1810|
 |Category|Microsoft.Performance|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 A reference type declares an explicit static constructor.

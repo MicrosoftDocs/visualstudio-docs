@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|EnumStorageShouldBeInt32|
 |CheckId|CA1028|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

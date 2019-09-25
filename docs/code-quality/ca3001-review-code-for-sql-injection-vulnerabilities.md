@@ -18,7 +18,7 @@ ms.workload:
 |TypeName|ReviewCodeForSqlInjectionsVulnerabilities|
 |CheckId|CA3001|
 |Category|Microsoft.Security|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

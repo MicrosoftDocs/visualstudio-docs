@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|MarkAssembliesWithComVisible|
 |CheckId|CA1017|
 |Category|Microsoft.Design|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 An assembly does not have the <xref:System.Runtime.InteropServices.ComVisibleAttribute?displayProperty=fullName> attribute applied to it.

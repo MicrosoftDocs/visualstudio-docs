@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|SpecifyStringComparison|
 |CheckId|CA1307|
 |Category|Microsoft.Globalization|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 A string comparison operation uses a method overload that does not set a <xref:System.StringComparison> parameter.

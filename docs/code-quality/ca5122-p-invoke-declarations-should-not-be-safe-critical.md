@@ -16,7 +16,7 @@ ms.workload:
 |TypeName|PInvokesShouldNotBeSafeCriticalFxCopRule|
 |CheckId|CA5122|
 |Category|Microsoft.Security|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 A P/Invoke declaration has been marked with a <xref:System.Security.SecuritySafeCriticalAttribute>:

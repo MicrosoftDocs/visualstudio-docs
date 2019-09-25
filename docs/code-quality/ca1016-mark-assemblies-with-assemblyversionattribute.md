@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|MarkAssembliesWithAssemblyVersion|
 |CheckId|CA1016|
 |Category|Microsoft.Design|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

@@ -50,12 +50,12 @@ In most cases, Office projects in Visual Studio meet accessibility standards or 
 
 7. Press **F6** to display the shortcut keys for the Ribbon.
 
-## Accessibility at runtime
+## Accessibility at run time
 
 ### Windows Forms controls on Office documents
  Windows Forms controls expose accessibility properties to provide information about the control to accessibility aids, such as screen readers. You can take advantage of these accessibility properties when the controls are on an Office document in a document-level customization. For more information, see [Provide accessibility information for controls on a Windows Form](/dotnet/framework/winforms/controls/providing-accessibility-information-for-controls-on-a-windows-form).
 
- However, there are some accessibility limitations at runtime when Windows Forms controls are hosted on an Excel workbook or Word document:
+ However, there are some accessibility limitations at run time when Windows Forms controls are hosted on an Excel workbook or Word document:
 
 - You cannot tab from one control to another.
 

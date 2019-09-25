@@ -24,7 +24,7 @@ ms.workload:
 |TypeName|AbstractTypesShouldNotHaveConstructors|
 |CheckId|CA1012|
 |Category|Microsoft.Design|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 

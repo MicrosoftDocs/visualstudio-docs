@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|RemoveCallsToGCKeepAlive|
 |CheckId|CA2004|
 |Category|Microsoft.Reliability|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 Classes use `SafeHandle` but still contain calls to `GC.KeepAlive`.

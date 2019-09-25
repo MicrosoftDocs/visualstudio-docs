@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|ExceptionsShouldBePublic|
 |CheckId|CA1064|
 |Category|Microsoft.Design|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 A non-public exception derives directly from <xref:System.Exception>, <xref:System.SystemException>, or <xref:System.ApplicationException>.

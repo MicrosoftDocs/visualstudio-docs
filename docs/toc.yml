@@ -1,4 +1,4 @@
-- name: Visual Studio documentation
+- name: Visual Studio IDE documentation
   href: ide/index.yml
   pdf_name: Visual Studio documentation
 - name: Overview

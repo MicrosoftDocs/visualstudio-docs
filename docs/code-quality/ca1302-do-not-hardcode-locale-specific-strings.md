@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|DoNotHardcodeLocaleSpecificStrings|
 |CheckId|CA1302|
 |Category|Microsoft.Globalization|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 A method uses a string literal that represents part of the path of certain system folders.
