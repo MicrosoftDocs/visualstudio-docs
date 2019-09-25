@@ -30,7 +30,7 @@ The following procedures describe the steps to create, run, and debug unit tests
 
 2. In the search box of the **Create a new project** page, enter **unit test**.
 
-   The list of template filters to those for unit testing.
+   The list of templates filters to those for unit testing.
 
 3. Select the **Unit Test App (Universal Windows)** template for either C# or Visual Basic, and then select **Next**.
 
