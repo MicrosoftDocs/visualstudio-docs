@@ -94,7 +94,8 @@
 ### [Change Log](/visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac/?context=visualstudio/mac/context)
 ## [Mobile apps with Xamarin](/visualstudio/mac/xamarin)
 
-# [Accessibility](accessibility.md)
+# Accessibility
+## [Overview](accessibility.md)
 ## [Setting IDE accessibility options](accessibility-ide-options.md)
 ## macOS Accessibility Tools and Features
 ### [Using macOS Accessibility Tools](accessibility-macos.md)
