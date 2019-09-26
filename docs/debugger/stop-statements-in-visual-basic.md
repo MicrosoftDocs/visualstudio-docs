@@ -5,8 +5,6 @@ ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
   - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords:
   - "End statements"
   - "breakpoints, Stop statements"
@@ -21,6 +19,7 @@ ms.workload:
   - "multiple"
 ---
 # Stop Statements in Visual Basic
+
 The Visual Basic Stop statement provides a programmatic alternative to setting a breakpoint. When the debugger encounters a Stop statement, it breaks execution of the program (enters break mode). C# programmers can achieve the same effect using a call to System.Diagnostics.Debugger.Break.
 
  You set or remove a Stop statement by editing your source code. You cannot set or clear Stop statements using debugger commands, as you would a breakpoint.
@@ -31,7 +30,7 @@ The Visual Basic Stop statement provides a programmatic alternative to setting a
 
  To avoid the necessity of removing Stop statements, you can use conditional compilation:
 
-```cpp
+```vb
 #If DEBUG Then
    Stop
 #Else
@@ -39,19 +38,20 @@ The Visual Basic Stop statement provides a programmatic alternative to setting a
 #End If
 ```
 
- Another alternative is to use an Assert statement instead of the Stop statement. A Debug.Assert statement breaks execution only when a specified condition is not met and is automatically removed when you build a Release version. For more information, see [Assertions in Managed Code](../debugger/assertions-in-managed-code.md). If you want an Assert statement that always breaks execution in the Debug version, you can do this:
+ Another alternative is to use an Assert statement instead of the Stop statement. A Debug.Assert statement breaks execution only when a specified condition is not met and is automatically removed when you build a Release version. For more information, see [Assertions in Managed Code](assertions-in-managed-code.md). If you want an Assert statement that always breaks execution in the Debug version, you can do this:
 
 ```csharp
-Debug.Assert(false)
+Debug.Assert(false);
 ```
 
  Yet another alternative is to use the Debug.Fail method:
 
 ```csharp
-Debug.Fail("a clever output string goes here")
+Debug.Fail("a clever output string goes here");
 ```
 
 ## See Also
-- [Debugger Security](../debugger/debugger-security.md)
-- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
-- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+
+- [Debugger Security](debugger-security.md)
+- [C#, F#, and Visual Basic Project Types](debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
+- [Debugging Managed Code](debugging-managed-code.md)
