@@ -26,7 +26,7 @@ The Visual Basic Stop statement provides a programmatic alternative to setting a
 
  Unlike an End statement, the Stop statement does not reset variables or return you to design mode. You can choose Continue from the Debug menu to continue running the application.
 
- When you run a Visual Basic application outside of the debugger, a Stop statement will launch the debugger if Just-in-Time debugging is enabled. If Just-in-Time debugging is not enabled, the Stop statement behaves as if it were an End statement, terminating execution. No QueryUnload or Unload event occurs, so you must remove all Stop statements from the Release version of your Visual Basic application. For more information, see [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studio.md).
+ When you run a Visual Basic application outside of the debugger, a Stop statement will launch the debugger if Just-in-Time debugging is enabled. If Just-in-Time debugging is not enabled, the Stop statement behaves as if it were an End statement, terminating execution. No QueryUnload or Unload event occurs, so you must remove all Stop statements from the Release version of your Visual Basic application. For more information, see [Just-In-Time Debugging](just-in-time-debugging-in-visual-studio.md).
 
  To avoid the necessity of removing Stop statements, you can use conditional compilation:
 
