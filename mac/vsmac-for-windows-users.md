@@ -18,7 +18,7 @@ As developers, many of you will be accustomed to using the keyboard for your tas
 The first time you run Visual Studio for Mac you'll see the keyboard shortcuts selection window:
 ![Key bindings window](media/ide-tour-2019-keyboard-shortcut.png)
 
-If you want to change this setting later you can find this in the preferences:
+If you want to change the key bindings later, you can find the setting in the preferences:
 ![Key bindings preferences](media/customizing-the-ide-image10a.png)
 
 It's important to note that macOS uses different system-wide shortcuts to Windows. Changing the key binding preferences will allow you to use familiar Windows shortcuts in Visual Studio for Mac. However, in other areas of macOS you'll need to be familiar with macOS shortcuts.
@@ -40,7 +40,7 @@ The macOS Command (⌘) modifier key can commonly replace the Control key in Win
 
 ## Menus
 
-Menus in macOS are usually organized differently to those in Windows. Visual Studio for Mac is no exception. You can find some of the most common menu options here:
+Menus in macOS are organized differently than menus in Windows. Visual Studio for Mac is no exception. You can find some of the most common menu options here:
 
 |Task                   |Visual Studio (Windows)                                              |Visual Studio for Mac                |
 |-----------------------|---------------------------------------------------------------------|-------------------------------------|
