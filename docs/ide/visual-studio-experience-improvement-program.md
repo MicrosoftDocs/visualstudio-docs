@@ -14,6 +14,8 @@ ms.workload:
 The Visual Studio Customer Experience Improvement Program (VSCEIP) is designed to help Microsoft improve Visual Studio over time. This program [collects information about errors](../ide/diagnostic-data-collection.md), computer hardware, and how people use Visual Studio, without interrupting users in their tasks at the computer. The information that's collected helps Microsoft identify which features to improve. This document covers how to opt in or out of the VSCEIP.
 
 [!INCLUDE [gdpr-hybrid-note](../misc/includes/gdpr-hybrid-note.md)]
+> [!NOTE]
+> VSCEIP opt in or out settings do not apply to 'Report a Problem' in Visual Studio. When reporting a problem, logs are sent to Microsoft only when you provide permission at the time of submitting each report with which they are included. If you are interested in managing logs submitted with 'Report a Problem' please see [Feedback Data Privacy](./developer-community-privacy.md) for more details.
 
 ## Opt in or out
 
