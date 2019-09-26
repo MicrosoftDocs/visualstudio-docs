@@ -1,22 +1,22 @@
 ---
-title: "Create a Windows Forms app with Visual Basic"
-description: "Learn how to create a Windows Forms app in Visual Studio with Visual Basic, step-by-step."
-ms.date: 03/23/2019
+title: "Create a Windows Forms app with C#"
+description: "Learn how to create a Windows Forms app in Visual Studio with C#, step-by-step."
+ms.date: 09/26/2019
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang: vb
+ms.devlang: CSharp
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 dev_langs:
-  - vb
+  - CSharp
 ms.workload:
   - "multiple"
 ---
-# Create a Windows Forms app in Visual Studio with Visual Basic
+# Create a Windows Forms app in Visual Studio with C#
 
-In this short introduction to the Visual Studio integrated development environment (IDE), you'll create a simple Visual Basic application that has a Windows-based user interface (UI).
+In this short introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# application that has a Windows-based user interface (UI).
 
 ::: moniker range="vs-2017"
 
@@ -35,7 +35,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ## Create a project
 
-First, you'll create a Visual Basic application project. The project type comes with all the template files you'll need, before you've even added anything.
+First, you'll create a C# application project. The project type comes with all the template files you'll need, before you've even added anything.
 
 ::: moniker range="vs-2017"
 
@@ -43,7 +43,7 @@ First, you'll create a Visual Basic application project. The project type comes 
 
 2. From the top menu bar, choose **File** > **New** > **Project**.
 
-3. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **Windows Desktop**. In the middle pane, choose **Windows Forms App (.NET Framework)**. Then name the file `HelloWorld`.
+3. In the **New Project** dialog box in the left pane, expand **Visual C#**, and then choose **Windows Desktop**. In the middle pane, choose **Windows Forms App (.NET Framework)**. Then name the file `HelloWorld`.
 
      If you don't see the **Windows Forms App (.NET Framework)** project template, cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the **.NET desktop development** workload, then choose **Modify**.
 
@@ -59,11 +59,11 @@ First, you'll create a Visual Basic application project. The project type comes 
 
    ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. On the **Create a new project** window, enter or type *Windows Forms* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
+1. On the **Create a new project** window, enter or type *Windows Forms* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list. 
 
    After you apply the language and platform filters, choose the **Windows Forms App (.NET Framework)** template, and then choose **Next**.
 
-   ![Choose the Visual Basic template for the Windows Forms App (.NET Framework)](../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png)
+   ![Choose the C# template for the Windows Forms App (.NET Framework)](../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png)
 
    > [!NOTE]
    > If you do not see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
@@ -86,7 +86,7 @@ First, you'll create a Visual Basic application project. The project type comes 
 
 ## Create the application
 
-After you select your Visual Basic project template and name your file, Visual Studio opens a form for you. A form is a Windows user interface. We'll create a "Hello World" application by adding controls to the form, and then we'll run the application.
+After you select your C# project template and name your file, Visual Studio opens a form for you. A form is a Windows user interface. We'll create a "Hello World" application by adding controls to the form, and then we'll run the application.
 
 ### Add a button to the form
 
@@ -94,7 +94,7 @@ After you select your Visual Basic project template and name your file, Visual S
 
      ![Click the Toolbox to open the Toolbox window](../ide/media/vb-toolbox-toolwindow.png)
 
-     (If you don't see the **Toolbox** fly-out option, you can open it by pressing **Ctrl**+**Alt**+**X**.)
+     (If you don't see the **Toolbox** fly-out option, you can open by pressing **Ctrl**+**Alt**+**X**.)
 
 2. Click the **Pin** icon to dock the **Toolbox** window.
 
@@ -124,11 +124,11 @@ Now that we've added a button control to create an action, let's add a label con
 
 ### Add code to the form
 
-1. In the **Form1.vb &#91;Design&#93;** window, double-click the **Click this** button to open the **Form1.vb** window.
+1. In the **Form1.cs &#91;Design&#93;** window, double-click the **Click this** button to open the **Form1.cs** window.
 
-      (Alternatively, you can expand **Form1.vb** in **Solution Explorer**, and then click **Form1**.)
+      (Alternatively, you can expand **Form1.cs** in **Solution Explorer**, and then click **Form1**.)
 
-2. In the **Form1.vb** window, between the **Private Sub** line and the **End Sub** line (or between the **Public Class Form1** line and the **End Class** line), type the following code.
+2. In the **Form1.cs** window, between the **Private Sub** line and the **End Sub** line (or between the **Public Class Form1** line and the **End Class** line), type the following code.
 
      ![Add code to the form](../ide/media/vb-add-code-to-the-form.png)
 
@@ -144,9 +144,10 @@ Now that we've added a button control to create an action, let's add a label con
 
     ![A Form1 dialog box that includes Label1 text ](../ide/media/vb-form1-dialog-hello-world.png)
 
-Congratulations on completing this quickstart! We hope you learned a little bit about Visual Basic and the Visual Studio IDE. If you'd like to delve deeper, please continue with a tutorial in the **Tutorials** section of the table of contents.
+Congratulations on completing this quickstart! We hope you learned a little bit about C# and the Visual Studio IDE. If you'd like to delve deeper, please continue with a tutorial in the **Tutorials** section of the table of contents.
 
 ## See also
 
-* [Quickstart: Create a console app in Visual Studio with Visual Basic](quickstart-visual-basic-console.md)
-* [Learn more about Visual Basic IntelliSense](visual-basic-specific-intellisense.md)
+* [C# tutorials](/visualstudio/get-started/csharp/)
+* [Visual Basic tutorials](/visualstudio/get-started/visual-basic/)
+* [C++ tutorials](/cpp/get-started/tutorial-console-cpp)
