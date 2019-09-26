@@ -30,13 +30,13 @@ Primarily, you'll configure two things here:
 
 ## Configure environment variables
 
-You can use the grid to specify values for environment variables. These environment variables will be set when you open your application in Visual Studio for Mac. When you're developing ASP.NET Core applications, you should be aware of the special `ASPNETCORE_ENVIRONMENT` environment variable. To learn more, see [Use multiple environments in ASP.NET Core](https://docs.microsoft.com/aspnet/core/fundamentals/environments).
+You can use the grid to specify values for environment variables. These environment variables will be set when you start your application in Visual Studio for Mac. When you're developing ASP.NET Core applications, you should be aware of the special `ASPNETCORE_ENVIRONMENT` environment variable. To learn more, see [Use multiple environments in ASP.NET Core](https://docs.microsoft.com/aspnet/core/fundamentals/environments).
 
 
-## Configure the application URL
+## Configure the start URL
 
-To configure the URL that the application will be opened with, go to the **ASP.NET Core** tab.
+To configure the URL that the application will be started with, go to the **ASP.NET Core** tab.
 
 ![Application URL in project options](media/vsmac-run-config-default-aspnetcore.png)
 
-Here you can specify the URL that the application will listen on when it's opened.
+Here you can specify the URL that the application will listen on when it's started.
