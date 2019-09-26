@@ -1,5 +1,7 @@
 # [Visual Studio for Mac](index.yml)
-# [IDE Tour](ide-tour.md)
+
+# Getting Started
+## [IDE Tour](ide-tour.md)
 ## [Visual Studio for Mac for Windows Users](vsmac-for-windows-users.md)
 
 # Installation
@@ -101,6 +103,8 @@
 ## [Using macOS accessibility tools](accessibility-macos.md)
 ### [Using keyboard navigation](accessibility-keyboard.md)
 ### [Using VoiceOver](accessibility-voiceover.md)
+
+# [Visual Studio for Mac for Windows Users](vsmac-for-windows-users.md)
 
 # Troubleshooting
 ## [Logs and Exceptions](troubleshooting.md)
