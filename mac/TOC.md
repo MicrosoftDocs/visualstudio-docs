@@ -100,8 +100,9 @@
 # Accessibility
 ## [Overview](accessibility.md)
 ## [Setting IDE accessibility options](accessibility-ide-options.md)
-## [Using macOS accessibility tools](accessibility-macos.md)
-### [Using keyboard navigation](accessibility-keyboard.md)
+## macOS Accessibility Tools and Features
+### [Using macOS Accessibility Tools](accessibility-macos.md)
+### [Using Keyboard Navigation](accessibility-keyboard.md)
 ### [Using VoiceOver](accessibility-voiceover.md)
 
 # [Visual Studio for Mac for Windows Users](vsmac-for-windows-users.md)
