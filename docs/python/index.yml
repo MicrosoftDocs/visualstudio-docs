@@ -20,7 +20,7 @@ landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
   # Card (optional)
-  - title: About Python Support in Visual Studio
+  - title: About Python support in Visual Studio
     linkLists:
       - linkListType: overview
         links:
@@ -28,150 +28,38 @@ landingContent:
             url: overview-of-python-tools-for-visual-studio.md
           - text: Tour the Visual Studio IDE
             url: visual-studio-ide.md
-      # - linkListType: linkListType
-      #   links:
-      #     - text: linktext1
-      #       url: file1.md
-      #     - text: linktext2
-      #       url: file2.md
 
   # Card (optional)
-  - title: Get started
+  - title: Get started with Python
     linkLists:
       - linkListType: get-started
         links:
-           - text: How to install Python support in Visual Studio
+           - text: Install Python support in Visual Studio
              url: installing-python-support-in-visual-studio.md
-           - text: Editing Python code in Visual Studio
+           - text: Write and edit code
              url: editing-python-code-in-visual-studio.md
-           - text: Debugging Python code in Visual Studio
+           - text: Debug your code
              url: debugging-python-in-visual-studio.md
-           - text: Testing Python code in Visual Studio
+           - text: Write and run tests
              url: unit-testing-python-in-visual-studio.md
+           - text: Use the interactive REPL
+             url: python-interactive-repl-in-visual-studio.md
+           - text: Manage Python environments
+             url: managing-python-environments-in-visual-studio.md
+           - text: Write C/C++ extensions for Python
+             url: working-with-c-cpp-python-in-visual-studio.md
       - linkListType: tutorial
         links:
           - text: Working with Python in Visual Studio
             url: tutorial-working-with-python-in-visual-studio-step-00-installation.md
-  #         - text: linktext2
-  #           url: file2.md
 
   # Card
-  - title: Get started with Web development
+  - title: Get started with web development
     linkLists:
       - linkListType: tutorial
         links:
-          - text: Get started with the Django web framework in Visual Studio
+          - text: Create a web app with the Django framework
             url: learn-django-in-visual-studio-step-01-project-and-solution.md
-          - text: Get started with the Flask web framework in Visual Studio
+          - text: Create a web app with the Flask framework 
             url: learn-flask-visual-studio-step-01-project-solution.md
-      # - linkListType: linkListType
-      #   links:
-      #     - text: linktext1
-      #       url: file1.md
-      #     - text: linktext2
-      #       url: file2.md
 
-  # # Card
-  # - title: cardtitle4
-  #   linkLists:
-  #     - linkListType: linkListType
-  #       links:
-  #         - text: linktext1
-  #           url: file1.md
-  #         - text: linktext2
-  #           url: file2.md
-  #     - linkListType: linkListType
-  #       links:
-  #         - text: linktext1
-  #           url: file1.md
-  #         - text: linktext2
-  #           url: file2.md
-
-### YamlMime:YamlDocument
-# documentType: LandingData
-# title: Visual Studio | Python
-# metadata:
-#   title: Python Development with Visual Studio
-#   titleSuffix: ""
-#   meta.description: Tutorials and conceptual articles about developing Python apps with Visual Studio.
-#   author: JoshuaPartlow
-#   manager: jillfra
-#   ms.prod: visual-studio-windows
-#   ms.technology: vs-python
-#   ms.topic: landing-page
-#   ms.date: 09/23/2019
-#   ms.author: joshuapa
-#   dev_langs:
-#     - Python
-# sections:
-# - title: Get Started with Visual Studio
-#   items:
-#   - type: list
-#     style: cards
-#     className: cardsM
-#     columns: 3
-#     items:
-#     - href: ../install/install-visual-studio.md
-#       html: <p></p>
-#       image:
-#         src: https://docs.microsoft.com/media/common/i_setup.svg
-#       title: Install Visual Studio
-#     - href: visual-studio-ide.md
-#       html: <p></p>
-#       image:
-#         src: https://docs.microsoft.com/media/logos/logo_visual-studio.svg
-#       title: Tour the Visual Studio IDE
-# - title: Python Tutorials
-#   items:
-#   - type: paragraph
-#     text: 'Getting started with Python in Visual Studio'
-#   - type: list
-#     style: cards
-#     className: cardsM
-#     columns: 3
-#     items:
-#     - href: tutorial-working-with-python-in-visual-studio-step-00-installation.md
-#       html: <p>Experience Visual Studio support for Python</p>
-#       image:
-#         src: https://docs.microsoft.com/media/logos/logo_python.svg
-#     - href: learn-django-in-visual-studio-step-01-project-and-solution.md
-#       html: <p>Create a web app with the Django framework</p>
-#       image:
-#         src: https://docs.microsoft.com/media/common/i_web-color.svg
-#     - href: learn-flask-visual-studio-step-01-project-solution.md
-#       html: <p>Create a web app with the Flask framework</p>
-#       image:
-#         src: https://docs.microsoft.com/media/common/i_web-color.svg
-# - title: Develop Applications
-#   items:
-#   - type: paragraph
-#     text: 'Tutorials for using Visual Studio to develop applications with Python'
-#   - type: list
-#     style: cards
-#     className: cardsM
-#     columns: 3
-#     items:
-#     - href: editing-python-code-in-visual-studio.md
-#       html: <p>Write and edit code</p>
-#       image:
-#         src: https://docs.microsoft.com/media/common/i_code-edit.svg
-#     - href: python-interactive-repl-in-visual-studio.md
-#       html: <p>Use the interactive REPL</p>
-#       image:
-#         src: https://docs.microsoft.com/media/common/i_cligeneric.svg
-#     - href: managing-python-environments-in-visual-studio.md
-#       html: <p>Manage Python environments</p>
-#       image:
-#         src: https://docs.microsoft.com/media/common/i_package.svg
-#     - href: debugging-python-in-visual-studio.md
-#       html: <p>Debug your code</p>
-#       image:
-#         src: https://docs.microsoft.com/media/common/i_debug.svg
-#     - href: working-with-c-cpp-python-in-visual-studio.md
-#       html: <p>Write C/C++ extensions for Python</p>
-#       image:
-#         src: https://docs.microsoft.com/media/logos/logo_Cplusplus.svg
-#     - href: unit-testing-python-in-visual-studio.md
-#       html: <p>Write and run unit tests</p>
-#       image:
-#         src: https://docs.microsoft.com/media/common/i_unit-testing.svg
