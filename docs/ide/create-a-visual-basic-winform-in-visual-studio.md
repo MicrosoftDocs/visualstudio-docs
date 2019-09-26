@@ -1,7 +1,7 @@
 ---
 title: "Create a Windows Forms app with Visual Basic"
 description: "Learn how to create a Windows Forms app in Visual Studio with Visual Basic, step-by-step."
-ms.date: 03/23/2019
+ms.date: 09/26/2019
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
@@ -94,7 +94,7 @@ After you select your Visual Basic project template and name your file, Visual S
 
      ![Click the Toolbox to open the Toolbox window](../ide/media/vb-toolbox-toolwindow.png)
 
-     (If you don't see the **Toolbox** fly-out option, you can open it by pressing **Ctrl**+**Alt**+**X**.)
+     (If you don't see the **Toolbox** fly-out option, you can open it from the menu bar. To do so, **View** > **Toolbox**. Or, press **Ctrl**+**Alt**+**X**.)
 
 2. Click the **Pin** icon to dock the **Toolbox** window.
 
@@ -144,9 +144,15 @@ Now that we've added a button control to create an action, let's add a label con
 
     ![A Form1 dialog box that includes Label1 text ](../ide/media/vb-form1-dialog-hello-world.png)
 
-Congratulations on completing this quickstart! We hope you learned a little bit about Visual Basic and the Visual Studio IDE. If you'd like to delve deeper, please continue with a tutorial in the **Tutorials** section of the table of contents.
+## Next steps
+
+To learn more, continue with the following tutorial:
+
+> [!div class="nextstepaction"]
+> [Tutorial: Create a picture viewer](tutorial-1-create-a-picture-viewer.md)
 
 ## See also
 
-* [Quickstart: Create a console app in Visual Studio with Visual Basic](quickstart-visual-basic-console.md)
-* [Learn more about Visual Basic IntelliSense](visual-basic-specific-intellisense.md)
+* [More Visual Basic tutorials](/visualstudio/get-started/visual-basic/)
+* [C# tutorials](/visualstudio/get-started/csharp/)
+* [C++ tutorials](/cpp/get-started/tutorial-console-cpp)

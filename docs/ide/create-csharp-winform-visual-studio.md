@@ -90,25 +90,25 @@ After you select your C# project template and name your file, Visual Studio open
 
 ### Add a button to the form
 
-1. Click **Toolbox** to open the Toolbox fly-out window.
+1. Choose **Toolbox** to open the Toolbox fly-out window.
 
-     ![Click the Toolbox to open the Toolbox window](../ide/media/vb-toolbox-toolwindow.png)
+     ![Choose the Toolbox to open the Toolbox window](../ide/media/vb-toolbox-toolwindow.png)
 
-     (If you don't see the **Toolbox** fly-out option, you can open by pressing **Ctrl**+**Alt**+**X**.)
+     (If you don't see the **Toolbox** fly-out option, you can open it from the menu bar. To do so, **View** > **Toolbox**. Or, press **Ctrl**+**Alt**+**X**.)
 
-2. Click the **Pin** icon to dock the **Toolbox** window.
+2. Choose the **Pin** icon to dock the **Toolbox** window.
 
-     ![Click the Pin icon to pin the Toolbox window to the IDE](../ide/media/vb-pin-the-toolbox-window.png)
+     ![Choose the Pin icon to pin the Toolbox window to the IDE](../ide/media/vb-pin-the-toolbox-window.png)
 
-3. Click the **Button** control and then drag it onto the form.
+3. Choose the **Button** control and then drag it onto the form.
 
      ![Add a button to the form](../ide/media/vb-add-a-button-to-form1.png)
 
-4. In the **Appearance** section (or the **Fonts** section) of the **Properties** window, type `Click this`, and then press **Enter**.
+4. In the **Properties** window, locate `Text`, type `Click this`, and then press **Enter**.
 
      ![Add text to the button on the form](../ide/media/vb-button-control-text.png)
 
-     (If you don't see the **Properties** window, you can open it from the menu bar. To do so, click **View** > **Properties Window**. Or, press **F4**.)
+     (If you don't see the **Properties** window, you can open it from the menu bar. To do so, choose **View** > **Properties Window**. Or, press **F4**.)
 
 5. In the **Design** section of the **Properties** window, change the name from **Button1** to `btnClickThis`, and then press **Enter**.
 
@@ -126,7 +126,7 @@ Now that we've added a button control to create an action, let's add a label con
 
 1. In the **Form1.cs &#91;Design&#93;** window, double-click the **Click this** button to open the **Form1.cs** window.
 
-      (Alternatively, you can expand **Form1.cs** in **Solution Explorer**, and then click **Form1**.)
+      (Alternatively, you can expand **Form1.cs** in **Solution Explorer**, and then choose **Form1**.)
 
 2. In the **Form1.cs** window, between the **Private Sub** line and the **End Sub** line (or between the **Public Class Form1** line and the **End Class** line), type the following code.
 
@@ -134,20 +134,25 @@ Now that we've added a button control to create an action, let's add a label con
 
 ## Run the application
 
-1. Click the **Start** button to run the application.
+1. Choose the **Start** button to run the application.
 
-     ![Click Start to debug and run the app](../ide/media/vb-click-start-hello-world.png)
+     ![Choose Start to debug and run the app](../ide/media/vb-click-start-hello-world.png)
 
    Several things will happen. In the Visual Studio IDE, the **Diagnostics Tools** window will open, and an **Output** window will open, too. But outside of the IDE, a **Form1** dialog box appears. It will include your **Click this** button and text that says **Label1**.
 
-2. Click the **Click this** button in the **Form1** dialog box. Notice that the **Label1** text changes to **Hello World!**.
+2. Choose the **Click this** button in the **Form1** dialog box. Notice that the **Label1** text changes to **Hello World!**.
 
     ![A Form1 dialog box that includes Label1 text ](../ide/media/vb-form1-dialog-hello-world.png)
 
-Congratulations on completing this quickstart! We hope you learned a little bit about C# and the Visual Studio IDE. If you'd like to delve deeper, please continue with a tutorial in the **Tutorials** section of the table of contents.
+## Next steps
+
+To learn more, continue with the following tutorial:
+
+> [!div class="nextstepaction"]
+> [Tutorial: Create a picture viewer](tutorial-1-create-a-picture-viewer.md)
 
 ## See also
 
-* [C# tutorials](/visualstudio/get-started/csharp/)
+* [More C# tutorials](/visualstudio/get-started/csharp/)
 * [Visual Basic tutorials](/visualstudio/get-started/visual-basic/)
 * [C++ tutorials](/cpp/get-started/tutorial-console-cpp)
