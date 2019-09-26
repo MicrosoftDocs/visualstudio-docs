@@ -44,10 +44,18 @@ The Visual Basic Stop statement provides a programmatic alternative to setting a
 Debug.Assert(false);
 ```
 
+```vb
+Debug.Assert(False)
+```
+
  Yet another alternative is to use the Debug.Fail method:
 
 ```csharp
 Debug.Fail("a clever output string goes here");
+```
+
+```vb
+Debug.Fail("a clever output string goes here")
 ```
 
 ## See Also
