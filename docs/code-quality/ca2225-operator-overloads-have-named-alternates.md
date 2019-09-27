@@ -40,7 +40,7 @@ This rule examines:
 
 - The operators listed in the following table:
 
-|C#|Visual Basic|C++|Alternate name|
+|C#|Visual Basic|C++|Alternate method name|
 |-|-|-|-|
 |+ (binary)|+|+ (binary)|Add|
 |+=|+=|+=|Add|
@@ -54,14 +54,14 @@ This rule examines:
 |==|=|==|Equals|
 |^|Xor|^|Xor|
 |^=|Xor=|^=|Xor|
-|>|>|>|Compare|
-|>=|>=|>=|Compare|
+|>|>|>|CompareTo or Compare|
+|>=|>=|>=|CompareTo or Compare|
 |++|N/A|++|Increment|
-|!=|<>|!=|NotEquals|
+|!=|<>|!=|Equals|
 |<<|<<|<<|LeftShift|
 |<<=|<<=|<<=|LeftShift|
-|<|<|<|Compare|
-|<=|<=|\<=|Compare|
+|<|<|<|CompareTo or Compare|
+|<=|<=|\<=|CompareTo or Compare|
 |&&|N/A|&&|LogicalAnd|
 |&#124;&#124;|N/A|&#124;&#124;|LogicalOr|
 |!|N/A|!|LogicalNot|
