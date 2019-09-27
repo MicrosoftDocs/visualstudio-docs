@@ -12,8 +12,8 @@ ms.assetid: af8f7ab1-63ad-4861-afb9-b7a7a2be15e1
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.workload:
-  - "multiple"
+dev_langs:
+  - CSharp
 ---
 # CA2225: Operator overloads have named alternates
 
@@ -32,12 +32,16 @@ By default, this rule only looks at externally visible types, but this is [confi
 
 ## Rule description
 
-Operator overloading allows the use of symbols to represent computations for a type. For example, a type that overloads the plus symbol (+) for addition would typically have an alternative member named 'Add'. The named alternative member provides access to the same functionality as the operator, and is provided for developers who program in languages that do not support overloaded operators.
+Operator overloading allows the use of symbols to represent computations for a type. For example, a type that overloads the plus symbol `+` for addition would typically have an alternative member named `Add`. The named alternative member provides access to the same functionality as the operator. It's provided for developers who program in languages that do not support overloaded operators.
 
-This rule examines the operators listed in the following table.
+This rule examines:
+
+- Implicit and explicit cast operators in a type by checking for methods named `To<typename>` and `From<typename>`.
+
+- The operators listed in the following table:
 
 |C#|Visual Basic|C++|Alternate name|
-|---------|------------------|-----------|--------------------|
+|-|-|-|-|
 |+ (binary)|+|+ (binary)|Add|
 |+=|+=|+=|Add|
 |&|And|&|BitwiseAnd|
@@ -53,7 +57,7 @@ This rule examines the operators listed in the following table.
 |>|>|>|Compare|
 |>=|>=|>=|Compare|
 |++|N/A|++|Increment|
-|<>|!=|Equals|
+|!=|<>|!=|NotEquals|
 |<<|<<|<<|LeftShift|
 |<<=|<<=|<<=|LeftShift|
 |<|<|<|Compare|
@@ -75,19 +79,18 @@ This rule examines the operators listed in the following table.
 |+ (unary)|N/A|+|Plus|
 |false|IsFalse|False|IsTrue (Property)|
 
-N/A == Cannot be overloaded in the selected language.
+*N/A means the operator cannot be overloaded in the selected language.
 
-The rule also checks implicit and explicit cast operators in a type (`SomeType`) by checking for methods named `ToSomeType` and `FromSomeType`.
-
-In C#, when a binary operator is overloaded, the corresponding assignment operator, if any, is also implicitly overloaded.
+> [!NOTE]
+> In C#, when a binary operator is overloaded, the corresponding assignment operator, if any, is also implicitly overloaded.
 
 ## How to fix violations
 
-To fix a violation of this rule, implement the alternative method for the operator; name it using the recommended alternative name.
+To fix a violation of this rule, implement the alternative method for the operator. Name it using the recommended alternative name.
 
 ## When to suppress warnings
 
-Do not suppress a warning from this rule if you are implementing a shared library. Applications can ignore a warning from this rule.
+Do not suppress a warning from this rule if you're implementing a shared library. Applications can ignore a warning from this rule.
 
 ## Configurability
 
