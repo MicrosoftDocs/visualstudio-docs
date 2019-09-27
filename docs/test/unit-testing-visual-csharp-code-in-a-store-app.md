@@ -276,14 +276,14 @@ You've set up the test and app projects and verified that you can run tests that
 1. Simplify the central calculation in the **SquareRoot** function by changing one line of code, as follows:
 
     ```csharp
-    // old code
-    //estimate = estimate - (estimate * estimate - x)/(2 * estimate);
+    // Old code
+    //estimate = estimate - (estimate * estimate - x) / (2 * estimate);
 
-    // new code
+    // New code
     estimate = (estimate + x/estimate) / 2.0;
     ```
 
-2. Run all tests to make sure that you haven't introduced a regression.
+2. Run all tests to make sure that you haven't introduced a regression. They should all pass.
 
 > [!TIP]
 > A stable set of good unit tests gives confidence that you have not introduced bugs when you change the code.
@@ -292,7 +292,7 @@ You've set up the test and app projects and verified that you can run tests that
 
 The **RangeTest** method hard codes the denominator of the `tolerance` variable that's passed to the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> method. If you plan to add additional tests that use the same tolerance calculation, the use of a hard-coded value in multiple locations could lead to errors.
 
-1. Add a private method to the Unit1Test class to calculate the tolerance value, and then call that method instead.
+1. Add a private method to the **UnitTest1** class to calculate the tolerance value, and then call that method instead.
 
     ```csharp
     private double ToleranceHelper(double expected)
@@ -306,16 +306,16 @@ The **RangeTest** method hard codes the denominator of the `tolerance` variable 
     public void RangeTest()
     {
         ...
-        // old code
+        // Old code
         // double tolerance = expected/1000;
-        // new code
+
+        // New code
         double tolerance = ToleranceHelper(expected);
-        Assert.AreEqual(expected, actual, tolerance);
     }
     ...
     ```
 
-2. Choose **Run All** to test the refactored method and make sure that you haven't introduced an error.
+2. Run **RangeTest** to make sure that it still passes.
 
-> [!NOTE]
-> If you add a helper method to a test class that you don't want to appear in **Test Explorer**, do not add the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute> attribute to the method.
+> [!TIP]
+> If you add a helper method to a test class, and you don't want it to appear in **Test Explorer**, don't add the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute> attribute to the method.
