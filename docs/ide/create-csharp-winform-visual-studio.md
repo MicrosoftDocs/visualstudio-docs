@@ -104,7 +104,7 @@ After you select your C# project template and name your file, Visual Studio open
 
      ![Add a button to the form](../ide/media/vb-add-a-button-to-form1.png)
 
-4. In the **Properties** window, locate `Text`, type `Click this`, and then press **Enter**.
+4. In the **Properties** window, locate **Text**, change the name from **Button1** to `Click this`, and then press **Enter**.
 
      ![Add text to the button on the form](../ide/media/vb-button-control-text.png)
 
@@ -128,9 +128,9 @@ Now that we've added a button control to create an action, let's add a label con
 
       (Alternatively, you can expand **Form1.cs** in **Solution Explorer**, and then choose **Form1**.)
 
-2. In the **Form1.cs** window, between the **Private Sub** line and the **End Sub** line (or between the **Public Class Form1** line and the **End Class** line), type the following code.
+2. In the **Form1.cs** window, after the **private void** line, type `lblHelloWorld.Text = "Hello World!";` as shown in the following screenshot:
 
-     ![Add code to the form](../ide/media/vb-add-code-to-the-form.png)
+     ![Add code to the form](../get-started/csharp/media/csharp-winforms-add-code.png)
 
 ## Run the application
 

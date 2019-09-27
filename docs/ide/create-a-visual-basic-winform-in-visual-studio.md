@@ -10,7 +10,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 dev_langs:
-  - vb
+  - VB
 ms.workload:
   - "multiple"
 ---
