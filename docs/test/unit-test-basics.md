@@ -363,7 +363,7 @@ Learn more about [data-driven unit tests](../test/how-to-create-a-data-driven-un
 
 You can run code coverage on selected tests or on all tests in a solution. The **Code Coverage Results** window displays the percentage of the blocks of product code that were exercised by line, function, class, namespace and module.
 
-To run code coverage for test methods in a solution, choose **Tests** on the Visual Studio menu and then choose **Analyze code coverage**.
+To run code coverage for test methods in a solution, choose **Test** > **Analyze Code Coverage for All Tests**.
 
 Coverage results appear in the **Code Coverage Results** window.
 

@@ -30,7 +30,6 @@ This task was added in 15.8, but requires a [workaround](https://github.com/Micr
 |---------------|-----------------|
 |`File`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br />The files to be hashed and validated.|
 |`Hash`|Required `String` parameter.<br /><br />The expected hash of the file.|
-|`Items`|<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br />The `Files` input with additional metadata set to the file hash.|
 |`Algorithm`|Optional `String` parameter.<br /><br />The algorithm. Allowed values: `SHA256`, `SHA384`, `SHA512`. Default = `SHA256`.|
 |`HashEncoding`|Optional `String` parameter.<br /><br />The encoding to use for generated hashes. Defaults to `hex`. Allowed values = `hex`, `base64`.|
 
