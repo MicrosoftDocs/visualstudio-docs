@@ -1,7 +1,7 @@
 ---
 title: "Write unit tests for C/C++"
 description: Write C++ unit tests in Visual Studio using various test frameworks including CTest, Boost.Test and Google Test.
-ms.date: 05/06/2019
+ms.date: 09/27/2019
 ms.topic: conceptual
 ms.author: "mblome"
 manager: markl
@@ -80,6 +80,8 @@ If the test code doesn't export the functions that you want to test, you can add
 Next, in your unit test *.cpp* file, add an `#include` directive for any header files that declare the types and functions you want to test. Type `#include "` and then IntelliSense will activate to help you choose. Repeat for any additional headers.
 
 ![Add include directives](media/cpp-add-includes-test-project.png)
+
+To avoid having to type the full path in each include statement in the source file, you can add the required folders in **Project** > **Properties** > **C/C++** > **General** > **Additional Include Directories**.
 
 ### Write test methods
 

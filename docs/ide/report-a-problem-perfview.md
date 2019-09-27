@@ -1,6 +1,6 @@
 ---
 title: Collect an ETL trace with PerfView
-ms.date: 06/27/2019
+ms.date: 09/27/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "perfview"
@@ -22,7 +22,7 @@ PerfView is a tool that creates ETL (event trace log) files based on [Event Trac
 
 ## Install PerfView
 
-Download PerfView from the [Microsoft Download Center](http://www.microsoft.com/download/details.aspx?id=28567).
+Download PerfView from [GitHub](https://github.com/Microsoft/perfview/blob/master/documentation/Downloading.md).
 
 ## Run PerfView
 
