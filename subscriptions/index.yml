@@ -17,10 +17,10 @@ highlightedContent:
   - title: What's new in Visual Studio Subscriptions
     itemType: whats-new
     url: ~/whats-new-in-subscriptions.md
-  - title: Subscriber portal
+  - title: How to use the subscriber portal
     itemType: get-started
     url: ~/using-the-subscriber-portal.md
-  - title: Administrator portal
+  - title: How to use the administrator portal
     itemType: get-started
     url: ~/using-admin-portal.md
 
@@ -28,22 +28,17 @@ highlightedContent:
 conceptualContent:
   title: Get started 
   items:
-    - title: Subscribers
+    - title: Using benefits
       links:
-        - text: How to use the portal
-          url: ~/using-the-subscriber-portal.md
+        - text: Azure credit
+          url: ~/vs-azure.md
           itemType: get-started
-        - text: Login to the portal
-          url: https://my.visualstudio.com/
+        - text: Software downloads
+          url: ~/software-download-list.md
           itemType: get-started
-    - title: Administrators
-      links:
-        - text: How to use the portal
-          url: ~/using-admin-portal.md
-          itemType: get-started
-        - text: Login to the portal
-          url: https://manage.visualstudio.com/
-          itemType: get-started
+      footerLink:
+        url: ~/vs-azure.md
+        text: See more
     - title: Popular resources
       links:
         - text: Compare options and pricing
@@ -52,7 +47,14 @@ conceptualContent:
         - text: Visual Studio Administration & Subscriptions support
           url: https://visualstudio.microsoft.com/support/support-overview-vs
           itemType: overview
-
+    - title: Subscriptions portal access
+      links:
+        - text: Subscribers
+          url: https://my.visualstudio.com/
+          itemType: get-started
+        - text: Administrators
+          url: https://manage.visualstudio.com/
+          itemType: get-started
 
 tools: 
   title: Products available
