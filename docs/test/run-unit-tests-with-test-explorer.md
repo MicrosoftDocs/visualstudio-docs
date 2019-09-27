@@ -314,6 +314,7 @@ You can determine the amount of product code that is actually being tested by yo
 To run code coverage for test methods in a solution:
 
 ::: moniker range="vs-2017"
+
 1. Choose **Test** on the top menu bar and then choose **Analyze code coverage**.
 
 2. Choose one of the following commands from the sub-menu:
@@ -321,9 +322,13 @@ To run code coverage for test methods in a solution:
     - **Selected tests** runs the test methods that you have selected in Test Explorer.
 
     - **All tests** runs all the test methods in the solution.
+
 ::: moniker-end
+
 ::: moniker range=">=vs-2019"
-* Right-click in the Test Explorer and select **Analyze Code Coverage for Selected tests**
+
+* Right-click in Test Explorer and select **Analyze Code Coverage for Selected tests**
+
 ::: moniker-end
 
 The **Code Coverage Results** window displays the percentage of the blocks of product code that were exercised by line, function, class, namespace and module.
@@ -332,7 +337,7 @@ For more information, see [Use code coverage to determine how much code is being
 
 ## Test shortcuts
 
-Tests can be run from the **Test Explorer**, by right-clicking in the code editor on a test and selecting **Run test**, or by using the default [Test Explorer shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorerGLOBAL) in Visual Studio. Some of the shortcuts are context-based. This means that they run or debug tests based on where your cursor is in the code editor. If your cursor is inside a test method, then that test method runs. If your cursor is at the class level, then all the tests in that class run. This is the same for the namespace level as well.
+Tests can be run from Test Explorer by right-clicking in the code editor on a test and selecting **Run test** or by using the default [Test Explorer shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorerGLOBAL) in Visual Studio. Some of the shortcuts are context-based. This means that they run or debug tests based on where your cursor is in the code editor. If your cursor is inside a test method, then that test method runs. If your cursor is at the class level, then all the tests in that class run. This is the same for the namespace level as well.
 
 |Frequent Commands| Keyboard Shortcuts|
 |-|------------------------|
