@@ -209,67 +209,9 @@ You've set up the test and app projects and verified that you can run tests that
 > [!TIP]
 > Develop code by adding tests one at a time. Make sure that all the tests pass after each iteration.
 
-## Debug a failing test
-
-1. Add another new test named **NegativeRangeTest**:
-
-    ```csharp
-    // Verify that negative inputs throw an exception.
-    [TestMethod]
-    public void NegativeRangeTest()
-    {
-        string message;
-        Rooter rooter = new Rooter();
-        for (double v = -0.1; v > -3.0; v = v - 0.5)
-        {
-            try
-            {
-                // Should raise an exception:
-                double actual = rooter.SquareRoot(v);
-
-                message = String.Format("No exception for input {0}", v);
-                Assert.Fail(message);
-            }
-            catch (ArgumentOutOfRangeException ex)
-            {
-                continue; // Correct exception.
-            }
-            catch (Exception e)
-            {
-                message = String.Format("Incorrect exception for {0}", v);
-                Assert.Fail(message);
-            }
-        }
-    }
-    ```
-
-2. Run the test and verify that it fails.
-
-3. Choose the test name in **Test Explorer**. The failure message displays in the detail pane of Test Explorer.
-
-   ![NegativeRangeTest failed in Test Explorer](../test/media/vs-2019/negativerangetest-fail.png)
-
-   The test looks for an <xref:System.ArgumentOutOfRangeException> and if it catches one, the test passes. In this case, the expected exception wasn't thrown.
-
-4. Add code to the beginning of the **SquareRoot** method to check the input and throw an exception if it is negative:
-
-   ```csharp
-   public double SquareRoot(double x)
-   {
-       if (x < 0.0)
-       {
-           throw new ArgumentOutOfRangeException();
-       }
-       ...
-   ```
-
-5. Run all of the tests to make sure that you haven't introduced a regression.
-
-   All tests now pass.
-
-   ![All tests pass in Test Explorer](../test/media/ute_ult_alltestspass.png)
-
 ## Refactor the code
+
+In this section, you refactor both app and test code, then rerun tests to make sure they still pass.
 
 ### Simplify the square root estimation
 
@@ -290,9 +232,9 @@ You've set up the test and app projects and verified that you can run tests that
 
 ### Eliminate duplicated code
 
-The **RangeTest** method hard codes the denominator of the `tolerance` variable that's passed to the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> method. If you plan to add additional tests that use the same tolerance calculation, the use of a hard-coded value in multiple locations could lead to errors.
+The **RangeTest** method hard codes the denominator of the *tolerance* variable that's passed to the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> method. If you plan to add additional tests that use the same tolerance calculation, the use of a hard-coded value in multiple locations makes the code harder to maintain.
 
-1. Add a private method to the **UnitTest1** class to calculate the tolerance value, and then call that method instead.
+1. Add a private helper method to the **UnitTest1** class to calculate the tolerance value, and then call that method from **RangeTest**.
 
     ```csharp
     private double ToleranceHelper(double expected)
@@ -319,3 +261,7 @@ The **RangeTest** method hard codes the denominator of the `tolerance` variable 
 
 > [!TIP]
 > If you add a helper method to a test class, and you don't want it to appear in **Test Explorer**, don't add the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute> attribute to the method.
+
+## See also
+
+- [Walkthrough: Test-driven development using Test Explorer](quick-start-test-driven-development-with-test-explorer.md)
