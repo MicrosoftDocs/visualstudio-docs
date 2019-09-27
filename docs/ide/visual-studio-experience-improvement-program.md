@@ -15,7 +15,7 @@ The Visual Studio Customer Experience Improvement Program (VSCEIP) is designed t
 
 [!INCLUDE [gdpr-hybrid-note](../misc/includes/gdpr-hybrid-note.md)]
 > [!NOTE]
-> VSCEIP opt in or out settings do not apply to 'Report a Problem' in Visual Studio. When reporting a problem, logs are sent to Microsoft only when you provide permission at the time of submitting each report with which they are included. If you are interested in managing logs submitted with 'Report a Problem' please see [Feedback Data Privacy](./developer-community-privacy.md) for more details.
+> VSCEIP telemetry opt in or out settings do not apply to 'Report a Problem' in Visual Studio. When you report a problem logs are collected and sent to Microsoft only when you provide permission by clicking ‘Submit’. If you are interested in managing logs before submitting to 'Report a Problem' please see [Feedback Data Privacy](./developer-community-privacy.md) for more details.
 
 ## Opt in or out
 
