@@ -1,7 +1,7 @@
 ---
 title: "Create a Windows Forms app with Visual Basic"
 description: "Learn how to create a Windows Forms app in Visual Studio with Visual Basic, step-by-step."
-ms.date: 09/26/2019
+ms.date: 09/27/2019
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
@@ -59,7 +59,7 @@ First, you'll create a Visual Basic application project. The project type comes 
 
    ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. On the **Create a new project** window, choose the **Windows Forms App (.NET Framework)** template for Visual Basic. 
+1. On the **Create a new project** window, choose the **Windows Forms App (.NET Framework)** template for Visual Basic.
 
    (If you prefer, you can refine your search to quickly get to the template you want. For example, enter or type *Windows Forms App* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list.)  
 
@@ -68,10 +68,10 @@ First, you'll create a Visual Basic application project. The project type comes 
    > [!NOTE]
    > If you do not see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
    >
-   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png) 
-   > 
+   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png)
+   >
    > Next, in the Visual Studio Installer, choose the Choose the **.NET desktop development** workload.
-   > 
+   >
    > ![.NET Core workload in the Visual Studio Installer](../ide/media/install-dot-net-desktop-env.png)
    >
    > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
