@@ -59,11 +59,11 @@ First, you'll create a C# application project. The project type comes with all t
 
    ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. On the **Create a new project** window, enter or type *Windows Forms* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list. 
+1. On the **Create a new project** window, choose the **Windows Forms App (.NET Framework)** template for C#. 
 
-   After you apply the language and platform filters, choose the **Windows Forms App (.NET Framework)** template, and then choose **Next**.
+   (If you prefer, you can refine your search to quickly get to the template you want. For example, enter or type *Windows Forms App* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list.)  
 
-   ![Choose the C# template for the Windows Forms App (.NET Framework)](../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png)
+   ![Choose the C# template for the Windows Forms App (.NET Framework)](../get-started/csharp/media/vs-2019/csharp-create-new-winforms-project-nonfiltered.png)
 
    > [!NOTE]
    > If you do not see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
@@ -78,7 +78,7 @@ First, you'll create a C# application project. The project type comes with all t
 
 1. In the **Configure your new project** window, type or enter *HelloWorld* in the **Project name** box. Then, choose **Create**.
 
-   ![in the 'Configure your new project' window, name your project 'HelloWorld'](../get-started/visual-basic/media/vs-2019/vb-name-your-winform-project-helloworld.png)
+   ![in the 'Configure your new project' window, name your project 'HelloWorld'](../get-started/csharp/media/vs-2019/csharp-name-your-winform-project-helloworld.png)
 
    Visual Studio opens your new project.
 

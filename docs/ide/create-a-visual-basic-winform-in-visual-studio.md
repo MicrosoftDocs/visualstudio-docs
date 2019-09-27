@@ -59,9 +59,9 @@ First, you'll create a Visual Basic application project. The project type comes 
 
    ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. On the **Create a new project** window, enter or type *Windows Forms* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
+1. On the **Create a new project** window, choose the **Windows Forms App (.NET Framework)** template for Visual Basic. 
 
-   After you apply the language and platform filters, choose the **Windows Forms App (.NET Framework)** template, and then choose **Next**.
+   (If you prefer, you can refine your search to quickly get to the template you want. For example, enter or type *Windows Forms App* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list.)  
 
    ![Choose the Visual Basic template for the Windows Forms App (.NET Framework)](../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png)
 
