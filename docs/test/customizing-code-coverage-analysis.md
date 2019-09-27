@@ -34,7 +34,7 @@ To customize code coverage, follow these steps:
 
 ::: moniker range=">=vs-2019"
 
-3. To select the run settings file, in **Test Explorer**, select the arrow on the **Settings** button, and then select **Select Settings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#command-line).
+3. To select the run settings file, on the **Test** menu, choose **Select Settings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#command-line).
 
 ::: moniker-end
 
@@ -53,7 +53,7 @@ To turn the custom settings off and on, deselect or select the file in the **Tes
 
 ::: moniker range=">=vs-2019"
 
-To turn the custom settings off and on, deselect or select the file on the **Settings** menu in **Test Explorer**.
+To turn the custom settings off and on, deselect or select the file on the **Test** menu.
 
 ::: moniker-end
 
@@ -264,7 +264,7 @@ Included items must then not match any entries in the exclude list to remain inc
             </PublicKeyTokens>
 
             <!-- We recommend you do not change the following values: -->
-            
+
             <!-- Set this to True to collect coverage information for functions marked with the "SecuritySafeCritical" attribute. Instead of writing directly into a memory location from such functions, code coverage inserts a probe that redirects to another function, which in turns writes into memory. -->
             <UseVerifiableInstrumentation>True</UseVerifiableInstrumentation>
             <!-- When set to True, collects coverage information from child processes that are launched with low-level ACLs, for example, UWP apps. -->

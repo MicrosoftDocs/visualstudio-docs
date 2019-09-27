@@ -56,13 +56,13 @@ These copies of the PIAs help Visual Studio avoid several development issues tha
 
 Starting with Visual Studio 2017, these copies of the PIAs are installed to following shared locations on the development computer:
 
-- *%ProgramFiles%\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\*
+- `%ProgramFiles%\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\`
 
-- (or *%ProgramFiles(x86)%\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\* on 64-bit operating systems)
+- (or `%ProgramFiles(x86)%\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\` on 64-bit operating systems)
 
 > [!NOTE]
-> For older versions of Visual Studio, these PIAs will be installed to the Visual Studio Tools for Office\PIA folder under the *%ProgramFiles% folder for that version of Visual Studio.
-> For Example: *%ProgramFiles(x86)%\Microsoft Visual Studio 14.0\Visual Studio Tools for Office\PIA\*
+> For older versions of Visual Studio, these PIAs will be installed to the Visual Studio Tools for Office\PIA folder under the `%ProgramFiles%` folder for that version of Visual Studio.
+> For Example: `%ProgramFiles(x86)%\Microsoft Visual Studio 14.0\Visual Studio Tools for Office\PIA\`
 
 ### Primary interop assemblies in the global assembly cache
 
@@ -81,7 +81,7 @@ In most cases, you should add references to the PIAs that are installed by Visua
 If you have installed and registered the PIAs in the global assembly cache, these versions of the assemblies appear on the **COM** tab of the **Reference Manager** dialog box. You should avoid adding references to these versions of the assemblies, because there are some development issues that can occur when you use them. For example, if you have registered different versions of the PIAs in the global assembly cache, your project will automatically bind to the version of the assembly that was registered last—even if you specify a different version of the assembly on the **COM** tab of the **Reference Manager** dialog box.
 
 > [!NOTE]
-> Some assemblies are added to a project automatically when an assembly that references them is added. For example, references to the *Office.dll* and *Microsoft.Vbe.Interop.dll* assemblies are added automatically when you add a reference to the Word, Excel, Outlook, Microsoft Forms, or Graph assemblies.
+> Some assemblies are added to a project automatically when an assembly that references them is added. For example, references to the `Office.dll` and `Microsoft.Vbe.Interop.dll` assemblies are added automatically when you add a reference to the Word, Excel, Outlook, Microsoft Forms, or Graph assemblies.
 
 <a name="pialist"></a>
 
