@@ -92,7 +92,7 @@ After you select your C# project template and name your file, Visual Studio open
 
 1. Choose **Toolbox** to open the Toolbox fly-out window.
 
-     ![Choose the Toolbox to open the Toolbox window](../ide/media/vb-toolbox-toolwindow.png)
+     ![Choose the Toolbox to open the Toolbox window](../ide/media/csharp-toolbox-toolwindow.png)
 
      (If you don't see the **Toolbox** fly-out option, you can open it from the menu bar. To do so, **View** > **Toolbox**. Or, press **Ctrl**+**Alt**+**X**.)
 
@@ -102,7 +102,7 @@ After you select your C# project template and name your file, Visual Studio open
 
 3. Choose the **Button** control and then drag it onto the form.
 
-     ![Add a button to the form](../ide/media/vb-add-a-button-to-form1.png)
+     ![Add a button to the form](../ide/media/csharp-add-button-form1.png)
 
 4. In the **Properties** window, locate **Text**, change the name from **Button1** to `Click this`, and then press **Enter**.
 
