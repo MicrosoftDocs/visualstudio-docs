@@ -47,6 +47,8 @@ landingContent:
             url: tutorial-uwp.md
           - text: Create a Windows Desktop app
             url: tutorial-wpf.md
+          - text: Create a Windows Forms app
+            url: ../../ide/create-csharp-winform-visual-studio.md
           - text: Learn about the C# language
             url: /dotnet/csharp/tutorials/intro-to-csharp/
        
