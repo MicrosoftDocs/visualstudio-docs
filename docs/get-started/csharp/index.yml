@@ -8,7 +8,7 @@ metadata:
   description: Create C# apps by using Visual Studio.
   ms.custom: seodec18
   ms.topic: landing-page
-  ms.date: 09/20/2019
+  ms.date: 09/27/2019
   author: ghogen
   ms.author: ghogen  
   manager: jillfra
@@ -41,12 +41,14 @@ landingContent:
             url: tutorial-console.md
           - text: Create a web app 
             url: tutorial-aspnet-core.md
-          - text: Create your first ASP.NET Core app
+          - text: Create an ASP.NET Core app
             url: tutorial-aspnet-core-ef-step-01.md 
           - text: Create a Universal Windows Platform app 
             url: tutorial-uwp.md
           - text: Create a Windows Desktop app
             url: tutorial-wpf.md
+          - text: Create a Windows Forms app
+            url: ../../ide/create-csharp-winform-visual-studio.md
           - text: Learn about the C# language
             url: /dotnet/csharp/tutorials/intro-to-csharp/
        
