@@ -41,6 +41,8 @@ landingContent:
             url: tutorial-console.md
           - text: Create a Windows Desktop app
             url: tutorial-wpf.md
+          - text: Create a Windows Forms app
+            url: ../../ide/create-a-visual-basic-winform-in-visual-studio.md
           - text: Learn about the Visual Basic language
             url: /dotnet/visual-basic/developing-apps/programming/
        
