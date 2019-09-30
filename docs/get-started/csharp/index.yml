@@ -41,8 +41,6 @@ landingContent:
             url: tutorial-console.md
           - text: Create a web app 
             url: tutorial-aspnet-core.md
-          - text: Create an ASP.NET Core app
-            url: tutorial-aspnet-core-ef-step-01.md 
           - text: Create a Universal Windows Platform app 
             url: tutorial-uwp.md
           - text: Create a Windows Desktop app
@@ -51,6 +49,10 @@ landingContent:
             url: ../../ide/create-csharp-winform-visual-studio.md
           - text: Learn about the C# language
             url: /dotnet/csharp/tutorials/intro-to-csharp/
+      - linkListType: video
+        links:
+          - text: Create an ASP.NET Core app
+            url: tutorial-aspnet-core-ef-step-01.md           
        
   # Card
   - title: Learn Visual Studio
