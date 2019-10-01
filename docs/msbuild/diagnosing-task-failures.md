@@ -43,15 +43,15 @@ Build FAILED.
   S:\MSB6006_demo\MSB6006_demo.csproj(19,5): error MSB6006: "custom tool" exited with code 1.
 ```
 
-This indicates that the error occurred in a task defined on line 19 of the file `S:\MSB6006_demo\MSB6006_demo.csproj`, in a target named `InvokeToolTask`, in the project `S:\MSB6006_demo\MSB6006_demo.csproj`.
+This result indicates that the error occurred in a task defined on line 19 of the file `S:\MSB6006_demo\MSB6006_demo.csproj`, in a target named `InvokeToolTask`, in the project `S:\MSB6006_demo\MSB6006_demo.csproj`.
 
 ### In Visual Studio
 
-The same information is available in the Visual Studio error list in the columns `Project`, `File` and `Line`.
+The same information is available in the Visual Studio error list in the columns `Project`, `File`, and `Line`.
 
 ## Finding more failure information
 
-This error is emitted when the task did not log a specific error. This is often because the task is not configured to understand the error format emitted by the tool it calls.
+This error is emitted when the task did not log a specific error. The failure to log an error is often because the task is not configured to understand the error format emitted by the tool it calls.
 
 Well-behaved tools generally emit some contextual or error information to their standard output or error stream, and tasks capture and log this information by default. Look in the log entries before the error occurred for additional information. Rerunning the build with a higher log level may be required to preserve this information.
 
