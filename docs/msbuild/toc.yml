@@ -293,6 +293,8 @@
         href: taskextension-base-class.md
       - name: ToolTaskExtension Base Class
         href: tooltaskextension-base-class.md
+      - name: Diagnosing task failures
+        href: diagnosing-task-failures.md
       - name: AL (Assembly Linker) Task
         href: al-assembly-linker-task.md
       - name: AspNetCompiler Task
