@@ -30,11 +30,11 @@ Hover over variables using [data tips](view-data-values-in-data-tips-in-the-code
 
 ## Observe the changing value of a specific variable
 
-Set a watch on the variable. For more information, see [Set a watch on variables](uwatch-and-quickwatch-windows.md).
+Set a watch on the variable. For more information, see [Set a watch on variables](watch-and-quickwatch-windows.md).
 
-## Pause only when a specific object’s property or value changes
+## Pause code only when a specific object’s property or value changes
 
-For C++, set a [data breakpoint](using-breakpoints.md#BKMK_set_a_data_breakpoint_native_cplusplus_only). For apps using .NET Core 3, you can also set a [data breakpoint](using-breakpoints.md#BKMK_set_a_data_breakpoint_managed).
+For C++, set a [data breakpoint](using-breakpoints.md#BKMK_set_a_data_breakpoint_native_cplusplus). For apps using .NET Core 3, you can also set a [data breakpoint](using-breakpoints.md#BKMK_set_a_data_breakpoint_managed).
 
 Otherwise, for C# and F# only, you can [track an object ID with a conditional breakpoint](using-breakpoints.md#using-object-ids-in-breakpoint-conditions-c-and-f).
 
@@ -42,33 +42,37 @@ Otherwise, for C# and F# only, you can [track an object ID with a conditional br
 
 For more information, see [Navigate code with the debugger](navigating-through-code-with-the-debugger.md).
 
-## Pause inside a loop at a certain iteration
+## Edit code during a debugging session
+
+Use [Edit and continue](edit-and-continue.md). For XAML, use [XAML Hot Reload](xaml-hot-reload.md).
+
+## Pause code inside a loop at a certain iteration
 
 Set a breakpoint using **Hit count** as a condition. For more information, see [Hit count](using-breakpoints.md#hit-count).
 
-## Pause at the start of a function when you know the function name but not its location
+## Pause code at the start of a function when you know the function name but not its location
 
-You can do this with a function breakpoint. For more information, see [Set function breakpoints](using-breakpoints.md#BKMK_Set_a_breakpoint_in_a_source_file)
-
-## Manage and keep track of your breakpoints
-
-Use the **Breakpoints** window. For more information, see [Manage breakpoints](using-breakpoints.md#BKMK_Specify_advanced_properties_of_a_breakpoint_).
-
-## Pause and debug when a specific handled or unhandled exception is thrown
-
-Although the Exception Helper shows you where an error occurred, if you want to pause and debug the specific error, you can [tell the debugger to break when an exception is thrown](managing-exceptions-with-the-debugger.md#tell-the-debugger-to-break-when-an-exception-is-thrown).
+You can do this with a function breakpoint. For more information, see [Set function breakpoints](using-breakpoints.md#BKMK_Set_a_breakpoint_in_a_source_file).
 
 ## Send messages to the Output window without modifying code
 
 Set a tracepoint. For more information, see [Using tracepoints](using-tracepoints.md).
 
+## Manage and keep track of your breakpoints
+
+Use the **Breakpoints** window. For more information, see [Manage breakpoints](using-breakpoints.md#BKMK_Specify_advanced_properties_of_a_breakpoint_).
+
+## Pause code and debug when a specific handled or unhandled exception is thrown
+
+Although the Exception Helper shows you where an error occurred, if you want to pause and debug the specific error, you can [tell the debugger to break when an exception is thrown](managing-exceptions-with-the-debugger.md#tell-the-debugger-to-break-when-an-exception-is-thrown).
+
 ## Set a breakpoint from the call stack
 
-If you want to pause and debug code while examining execution flow or viewing functions in the **Call Stack** windows, see [Set a breakpoint in the Call Stack window](using-breakpoints.md#BKMK_Set_a_breakpoint_in_the_call_stack_window).
+If you want to pause and debug code while examining execution flow or viewing functions in the **Call Stack** windows, see [Set a breakpoint in the Call Stack window](using-breakpoints.md#BKMK_Set_a_breakpoint_from_debugger_windows).
 
-## Pause at a specific assembly instruction
+## Pause code at a specific assembly instruction
 
-You can do this by [setting a breakpoint from the **Disassembly** window](using-breakpoints.md#setting-a-breakpoint-in-the-disassembly-window).
+You can do this by [setting a breakpoint from the **Disassembly** window](using-breakpoints.md#BKMK_Set_a_breakpoint_from_debugger_windows).
 
 ## View strings that are too long for the debugger window
 
@@ -76,7 +80,7 @@ Open the built-in [string visualizer](view-strings-visualizer.md) while debuggin
 
 ## Customize information shown in the debugger
 
-You may want to show information other than the object type as the value in different debugger windows. For C#, Visual Basic, F#, and C++/CLI, use the [DebuggerDisplay](using-the-debuggerdisplay-attribute.md) attribute. For more advanced options, you can also customize the UI by creating a [custom visualizer](create-custom-visualizers-of-data.md).
+You may want to show information other than the object type as the value in different debugger windows. For C#, Visual Basic, F#, and C++/CLI code, use the [DebuggerDisplay](using-the-debuggerdisplay-attribute.md) attribute. For more advanced options, you can also customize the UI by creating a [custom visualizer](create-custom-visualizers-of-data.md).
 
 For native C++, use the [NatVis framework](create-custom-views-of-native-objects.md).
 
