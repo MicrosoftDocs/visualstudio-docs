@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Find your debugging task in Visual Studio
 
-Use the information here to map your debugging task to the particular feature of the Visual Studio debugger that is relevant. The list of tasks here is not exhaustive, but includes most of the commonly used debugger features. For an overview of debugger features, see [First look at the debugger](debugger-feature-tour.md) instead.
+If you need help to map your debugging task to the correct feature of the Visual Studio debugger that is relevant, use the links provided in this article. The list of tasks here includes common tasks such as pausing code to debug, inspecting variables, and sending messages to the **Output** window. If you need an overview of debugger features, see [First look at the debugger](debugger-feature-tour.md) instead.
 
 ## Pause running code
 
