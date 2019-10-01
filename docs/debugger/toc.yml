@@ -6,6 +6,8 @@
     href: what-is-debugging.md
   - name: Debugging techniques and tools
     href: write-better-code-with-visual-studio.md
+  - name: Find your debugging task
+    href: find-your-debugging-task.md
 - name: Quickstarts
   items:
   - name: First look at the debugger
