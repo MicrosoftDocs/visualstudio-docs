@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Find your debugging task in Visual Studio
 
-Use the information here to map your debugging task to the particular feature of the Visual Studio debugger that is relevant. The list of tasks here is not exhaustive, but includes most of the commonly used debugger features.
+Use the information here to map your debugging task to the particular feature of the Visual Studio debugger that is relevant. The list of tasks here is not exhaustive, but includes most of the commonly used debugger features. For an overview of debugger features, see [First look at the debugger](debugger-feature-tour.md) instead.
 
 ## Pause running code
 
@@ -54,7 +54,7 @@ If you want to pause and debug code while examining execution flow or viewing fu
 
 ### Pause code at a specific assembly instruction
 
-You can do this by [setting a breakpoint from the **Disassembly** window](using-breakpoints.md#BKMK_Set_a_breakpoint_from_debugger_windows).
+You can do this by [setting a breakpoint from the Disassembly window](using-breakpoints.md#BKMK_Set_a_breakpoint_from_debugger_windows).
 
 ## Inspect data
 
