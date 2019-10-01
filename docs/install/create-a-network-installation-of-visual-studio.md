@@ -37,8 +37,9 @@ Your setup executable&mdash;or to be more specific, a bootstrapper file&mdash;sh
 |-------------|-----------------------|
 |Visual Studio Enterprise | [**vs_enterprise.exe**](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=enterprise&rel=15&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=network+install&utm_content=download+vs2017) |
 |Visual Studio Professional | [**vs_professional.exe**](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=15&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=network+install&utm_content=download+vs2017) |
+| Visual Studio Build Tools   | [vs_buildtools.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=buildtools&rel=15&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=offline+install&utm_content=download+vs2017) |
 
-Other supported bootstrappers include [vs_buildtools.exe](https://aka.ms/vs/15/release/vs_buildtools.exe), [vs_feedbackclient.exe](https://aka.ms/vs/15/release/vs_feedbackclient.exe), [vs_teamexplorer.exe](https://aka.ms/vs/15/release/vs_teamexplorer.exe), [vs_testagent.exe](https://aka.ms/vs/15/release/vs_testagent.exe), [vs_testcontroller.exe](https://aka.ms/vs/15/release/vs_testcontroller.exe), and [vs_testprofessional.exe](https://aka.ms/vs/15/release/vs_testprofessional.exe).
+Other supported bootstrappers include [vs_feedbackclient.exe](https://aka.ms/vs/15/release/vs_feedbackclient.exe), [vs_teamexplorer.exe](https://aka.ms/vs/15/release/vs_teamexplorer.exe), [vs_testagent.exe](https://aka.ms/vs/15/release/vs_testagent.exe), [vs_testcontroller.exe](https://aka.ms/vs/15/release/vs_testcontroller.exe), and [vs_testprofessional.exe](https://aka.ms/vs/15/release/vs_testprofessional.exe).
 
 ::: moniker-end
 
@@ -48,14 +49,15 @@ Other supported bootstrappers include [vs_buildtools.exe](https://aka.ms/vs/15/r
 |-------------|-----------------------|
 |Visual Studio Enterprise | [**vs_enterprise.exe**](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=enterprise&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=network+install&utm_content=download+vs2019) |
 |Visual Studio Professional | [**vs_professional.exe**](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=network+install&utm_content=download+vs2019) |
+| Visual Studio Build Tools   | [vs_buildtools.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=buildtools&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=offline+install&utm_content=download+vs2019) |
 
-Other supported bootstrappers include [vs_buildtools.exe](https://aka.ms/vs/16/release/vs_buildtools.exe), [vs_teamexplorer.exe](https://aka.ms/vs/16/release/vs_teamexplorer.exe), [vs_testagent.exe](https://aka.ms/vs/16/release/vs_testagent.exe), and [vs_testcontroller.exe](https://aka.ms/vs/16/release/vs_testcontroller.exe).
+Other supported bootstrappers include [vs_teamexplorer.exe](https://aka.ms/vs/16/release/vs_teamexplorer.exe), [vs_testagent.exe](https://aka.ms/vs/16/release/vs_testagent.exe), and [vs_testcontroller.exe](https://aka.ms/vs/16/release/vs_testcontroller.exe).
 
 ::: moniker-end
 
 ## Create an offline installation folder
 
-You must have an internet connection to complete this step. To create an offline installation with all languages and all features, use one of the commands from the following examples.
+You must have an internet connection to complete this step. To create an offline installation with all languages and all features, use a command that is similar to one of the following examples.
 
    > [!IMPORTANT]
    > A complete Visual Studio layout requires a minimum of 35 GB of disk space and can take some time to download. See the [Customize the network layout](#customize-the-network-layout) section for details on how to create a layout with only the components you want to install.
