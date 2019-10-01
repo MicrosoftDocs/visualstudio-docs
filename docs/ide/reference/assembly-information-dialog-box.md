@@ -56,6 +56,9 @@ Specifies which culture the assembly supports. Corresponds to <xref:System.Resou
 **Make assembly COM-Visible**\
 Specifies whether types in the assembly will be available to COM. Corresponds to <xref:System.Runtime.InteropServices.ComVisibleAttribute>.
 
+> [!NOTE]
+> For more information on setting these properties when generating a NuGet package in a .NET Framework class library, see [Configure project properties for the package](/nuget/quickstart/create-and-publish-a-package-using-visual-studio-net-framework#configure-project-properties-for-the-package).
+
 ## See also
 
 - [Application Page, Project Designer (Visual Basic)](../../ide/reference/application-page-project-designer-visual-basic.md)
