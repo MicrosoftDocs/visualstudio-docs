@@ -18,10 +18,10 @@ highlightedContent:
     itemType: whats-new
     url: ~/whats-new-in-subscriptions.md
   - title: How to use the subscriber portal
-    itemType: get-started
+    itemType: how-to-guide
     url: ~/using-the-subscriber-portal.md
   - title: How to use the administrator portal
-    itemType: get-started
+    itemType: how-to-guide
     url: ~/using-admin-portal.md
 
 
