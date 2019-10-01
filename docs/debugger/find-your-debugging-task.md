@@ -16,7 +16,7 @@ ms.workload:
 
 Use the information here to map your debugging task to the particular feature of the Visual Studio debugger that is relevant. The list of tasks here is not exhaustive, but includes most of the commonly used debugger features.
 
-## Breakpoints
+## Pause running code
 
 ### Pause running code to inspect a line of code that may contain a bug
 
@@ -40,10 +40,6 @@ Set a breakpoint using **Hit count** as a condition. For more information, see [
 
 You can do this with a function breakpoint. For more information, see [Set function breakpoints](using-breakpoints.md#BKMK_Set_a_breakpoint_in_a_source_file).
 
-### Send messages to the Output window without modifying code
-
-Set a tracepoint. For more information, see [Using tracepoints](using-tracepoints.md).
-
 ### Manage and keep track of your breakpoints
 
 Use the **Breakpoints** window. For more information, see [Manage breakpoints](using-breakpoints.md#BKMK_Specify_advanced_properties_of_a_breakpoint_).
@@ -60,7 +56,7 @@ If you want to pause and debug code while examining execution flow or viewing fu
 
 You can do this by [setting a breakpoint from the **Disassembly** window](using-breakpoints.md#BKMK_Set_a_breakpoint_from_debugger_windows).
 
-## Data inspection
+## Inspect data
 
 ### Check the value of variables while running your app
 
@@ -83,6 +79,10 @@ For more information, see [Navigate code with the debugger](navigating-through-c
 ### Edit code during a debugging session
 
 Use [Edit and continue](edit-and-continue.md). For XAML, use [XAML Hot Reload](xaml-hot-reload.md).
+
+### Send messages to the Output window without modifying code
+
+Set a tracepoint. For more information, see [Using tracepoints](using-tracepoints.md).
 
 ### Customize information shown in the debugger
 
