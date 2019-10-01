@@ -334,7 +334,7 @@
     items:
     - name: Debug multithreaded applications
       href: debug-multithreaded-applications-in-visual-studio.md
-    - name: Get started Debugging multithreaded applications
+    - name: Get started debugging multithreaded applications
       href: get-started-debugging-multithreaded-apps.md
     - name: Tools to debug threads and processes
       items:
@@ -352,9 +352,9 @@
         href: how-to-use-the-gpu-threads-window.md
     - name: Debug multiple processes
       href: debug-multiple-processes.md
-    - name: "Walkthrough: Debug using the Threads window"
+    - name: Debug using the Threads window
       href: how-to-use-the-threads-window.md
-    - name: "Walkthrough: Debug a parallel application"
+    - name: Debug a parallel application
       href: walkthrough-debugging-a-parallel-application.md
     - name: Switch to another thread while debugging
       href: how-to-switch-to-another-thread-while-debugging.md

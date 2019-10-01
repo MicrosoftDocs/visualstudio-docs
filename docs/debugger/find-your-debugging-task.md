@@ -58,6 +58,10 @@ Use the **Breakpoints** window. For more information, see [Manage breakpoints](u
 
 Although the Exception Helper shows you where an error occurred, if you want to pause and debug the specific error, you can [tell the debugger to break when an exception is thrown](managing-exceptions-with-the-debugger.md#tell-the-debugger-to-break-when-an-exception-is-thrown).
 
+## Send messages to the Output window without modifying code
+
+Set a tracepoint. For more information, see [Using tracepoints](using-tracepoints.md).
+
 ## Set a breakpoint from the call stack
 
 If you want to pause and debug code while examining execution flow or viewing functions in the **Call Stack** windows, see [Set a breakpoint in the Call Stack window](using-breakpoints.md#BKMK_Set_a_breakpoint_in_the_call_stack_window).
@@ -65,10 +69,6 @@ If you want to pause and debug code while examining execution flow or viewing fu
 ## Pause at a specific assembly instruction
 
 You can do this by [setting a breakpoint from the **Disassembly** window](using-breakpoints.md#setting-a-breakpoint-in-the-disassembly-window).
-
-## Send messages to the Output window without modifying code
-
-Set a tracepoint. For more information, see [Using tracepoints](using-tracepoints.md).
 
 ## View strings that are too long for the debugger window
 
@@ -80,6 +80,14 @@ You may want to show information other than the object type as the value in diff
 
 For native C++, use the [NatVis framework](create-custom-views-of-native-objects.md).
 
+## Debug on remote machines
+
+See [Remote debugging](remote-debugging.md).
+
 ## Debug an app that is already running
 
 See [Attach to a running processes](attach-to-running-processes-with-the-visual-studio-debugger.md).
+
+## Debug multithreaded applications
+
+See [Debug multithreaded applications](debug-multithreaded-applications-in-visual-studio.md).
