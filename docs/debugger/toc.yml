@@ -236,7 +236,7 @@
           href: visual-cpp-custom-visualizer-compatibility.md
       - name: Custom views (managed)
         items:
-        - name: Create custom views of managed objects
+        - name: Create custom views of objects
           href: create-custom-views-of-dot-managed-objects.md
         - name: Tell the debugger what to show
           href: using-the-debuggerdisplay-attribute.md

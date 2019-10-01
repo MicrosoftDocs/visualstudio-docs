@@ -61,11 +61,11 @@ In C# code, breakpoint and current execution lines are automatically highlighted
 
 - Set conditions and actions, add and edit labels, or export a breakpoint by right-clicking it and selecting the appropriate command, or hovering over it and selecting the **Settings** icon.
 
-## <a name="BKMK_Set_a_breakpoint_in_a_function"></a> Set breakpoints from debugger windows
+## <a name="BKMK_Set_a_breakpoint_from_debugger_windows"></a> Set breakpoints from debugger windows
 
 You can also set breakpoints from the **Call Stack** and **Disassembly** debugger windows.
 
-### <a name="BKMK_Set_a_breakpoint_in_the_call_stack_window"></a> Set a breakpoint in the Call Stack window
+### Set a breakpoint in the Call Stack window
 
  To break at the instruction or line that a calling function returns to, you can set a breakpoint in the **Call Stack** window.
 
