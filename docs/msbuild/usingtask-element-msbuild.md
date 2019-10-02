@@ -34,6 +34,9 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
     Condition="'String A'=='String B'" />
 ```
 
+> [!NOTE]
+> Unlike properties and items, the *first* `UsingTask` element that applies to a `TaskName` will be used; to override tasks you must define a new `UsingTask` *before* the existing one.
+
 ## Attributes and elements
  The following sections describe attributes, child elements, and parent elements.
 
