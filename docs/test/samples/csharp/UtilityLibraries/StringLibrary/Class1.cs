@@ -22,9 +22,6 @@ namespace UtilityLibraries
 
         public static bool HasEmbeddedSpaces(this string s)
         {
-            if (String.IsNullOrWhiteSpace(s))
-                return false;
-
             foreach (var ch in s.Trim())
             {
                 if (ch == ' ')
