@@ -19,8 +19,6 @@ This article steps you through the process of using legacy analysis to analyze y
 
 ## Create a class library
 
-### To create a class library
-
 1. On the **File** menu, choose **New** > **Project**.
 
 1. In the **New Project** dialog box, expand **Installed** > **Visual C#**, and then choose **Windows Desktop**.
@@ -49,31 +47,39 @@ This article steps you through the process of using legacy analysis to analyze y
 
 1. Save the Class1.cs file.
 
-## Analyze the project
-
-### To analyze a managed project for code defects
+## Analyze the project for code defects
 
 1. Select the CodeAnalysisManagedDemo project in **Solution Explorer**.
 
-1. On the **Project** menu, click **Properties**.
+2. On the **Project** menu, click **Properties**.
 
      The CodeAnalysisManagedDemo properties page is displayed.
 
-1. Choose the **Code Analysis** tab.
+3. Choose the **Code Analysis** tab.
 
-1. Make sure that **Enable Code Analysis on Build** is checked.
+::: moniker range="vs-2017"
 
-1. From the **Run this rule set** drop-down list, select **Microsoft All Rules**.
+4. Make sure that **Enable Code Analysis on Build** is checked.
 
-1. On the **File** menu, click **Save Selected Items**, and then close the properties pages.
+5. From the **Run this rule set** drop-down list, select **Microsoft All Rules**.
 
-1. On the **Build** menu, click **Build CodeAnalysisManagedDemo**.
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+4. Make sure that **Run on build** is checked.
+
+5. From the **Active rules** drop-down list, select **Microsoft All Rules**.
+
+::: moniker-end
+
+6. On the **File** menu, click **Save Selected Items**, and then close the properties pages.
+
+7. On the **Build** menu, click **Build CodeAnalysisManagedDemo**.
 
     The CodeAnalysisManagedDemo project build warnings are shown in the **Error List** and **Output** windows.
 
 ## Correct the code analysis issues
-
-### To correct code analysis rule violations
 
 1. On the **View** menu, choose **Error List**.
 

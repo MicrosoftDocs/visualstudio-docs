@@ -18,14 +18,24 @@ This article applies only to legacy analysis and not live code analysis using [c
 
 1. In **Solution Explorer**, right-click the project, and then choose **Properties**.
 
-1. In the properties dialog box for the project, choose the **Code Analysis** tab.
+2. In the properties dialog box for the project, choose the **Code Analysis** tab.
 
    > [!TIP]
    > Newer project types such as .NET Core and .NET Standard applications don't have a **Code Analysis** tab. Legacy analysis is not available for these project types, but you can get live code analysis using [.NET Compiler Platform-based code analyzers](roslyn-analyzers-overview.md). To suppress warnings from code analyzers, see the note at the end of this article.
 
-1. Specify the build type in **Configuration** and the target platform in **Platform**.
+3. Specify the build type in **Configuration** and the target platform in **Platform**.
 
-1. To enable or disable automatic code analysis, select or clear the **Enable Code Analysis on Build** check box.
+::: moniker range="vs-2017"
+
+4. To enable or disable automatic code analysis, select or clear the **Enable Code Analysis on Build** check box.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+4. To enable or disable automatic code analysis, select or clear the **Run on build** check box.
+
+::: moniker-end
 
 > [!NOTE]
 > The **Enable Code Analysis on Build** check box only affects legacy analysis. It doesn't affect [.NET Compiler Platform-based code analyzers](roslyn-analyzers-overview.md), which always execute at build if you installed them as a NuGet package. If you want to clear analyzer errors from the **Error List**, you can suppress all the current violations by choosing **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar. For more information, see [Suppress violations](use-roslyn-analyzers.md#suppress-violations).
