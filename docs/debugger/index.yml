@@ -28,6 +28,8 @@ landingContent:
             url: write-better-code-with-visual-studio.md
           - text: First look at the debugger
             url: debugger-feature-tour.md
+          - text: Find your debugging task
+            url: find-your-debugging-task.md
 
   # Card (optional)
   - title: Get started
