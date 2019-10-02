@@ -80,7 +80,7 @@ Non-user code is any code that is not shown when [Just My Code](../debugger/just
 
 ## Set a breakpoint on the exit point of a function call
 
-- See [Set a breakpoint at a call stack function](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_in_the_call_stack_window).
+- See [Set a breakpoint at a call stack function](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_from_debugger_windows).
 
 ## Display calls to or from another thread
 
