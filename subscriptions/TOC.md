@@ -31,6 +31,7 @@
 ##### [CAST Highlight](vs-cast.md)
 ##### [CloudPilot](vs-cloudpilot.md)
 ##### [Enterprise Mobility & Security](vs-ems.md)
+##### [Microsoft 365](vs-m365.md)
 ##### [Office 365 Developer subscription](vs-office-dev.md)
 ##### [Office 365 subscription](vs-office365.md)
 ##### [Parasoft](vs-parasoft.md)
