@@ -91,47 +91,27 @@ This article steps you through the process of using legacy analysis to analyze y
 
 1. Use the following tips to correct the warnings:
 
-   [CA1014: Mark assemblies with CLSCompliantAttribute](../code-quality/ca1014-mark-assemblies-with-clscompliantattribute.md): Microsoft.Design: 'demo' should be marked with the CLSCompliantAttribute, and its value should be true.
+   [CA1014: Mark assemblies with CLSCompliantAttribute](../code-quality/ca1014-mark-assemblies-with-clscompliantattribute.md): Add the code `[assembly: CLSCompliant(true)]` to the end of the AssemblyInfo.cs file.
 
-   1. Add the code `using System;` to the AssemblyInfo.cs file.
+   [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Add the constructor `public demo (String s) : base(s) { }` to the class `demo`.
 
-   1. Next, add the code `[assembly: CLSCompliant(true)]` to the end of the AssemblyInfo.cs file.
+   [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Add the constructor `public demo (String s, Exception e) : base(s, e) { }` to the class `demo`.
 
-   [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Microsoft.Design: Add the following constructor to this class: public demo(String)
+   [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Add the constructor `protected demo (SerializationInfo info, StreamingContext context) : base(info, context) { }` to the class demo. You'll also need to add a `using` statement for <xref:System.Runtime.Serialization?displayProperty=fullName>.
 
-   1. Add the constructor `public demo (String s) : base(s) { }` to the class `demo`.
+   [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Add the constructor `public demo () : base() { }` to the class `demo`.
 
-   [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Microsoft.Design: Add the following constructor to this class: public demo(String, Exception)
+   [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md): Change the casing of the namespace `testCode` to `TestCode`.
 
-   1. Add the constructor `public demo (String s, Exception e) : base(s, e) { }` to the class `demo`.
+   [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md): Change the name of the member to `Demo`.
 
-   [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Microsoft.Design: Add the following constructor to this class: protected demo(SerializationInfo, StreamingContext)
+   [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md): Change the name of the member to `Item`.
 
-   1. Add the code `using System.Runtime.Serialization;` to the beginning of the Class1.cs file.
+   [CA1710: Identifiers should have correct suffix](../code-quality/ca1710-identifiers-should-have-correct-suffix.md): Change the name of the class and its constructors to `DemoException`.
 
-   1. Next, add the constructor `protected demo (SerializationInfo info, StreamingContext context) : base(info, context) { } to the class demo.`
+   [CA2237: Mark ISerializable types with SerializableAttribute](../code-quality/ca2237-mark-iserializable-types-with-serializableattribute.md): Add the `[Serializable ()]` attribute to the class `demo`.
 
-   [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Microsoft.Design: Add the following constructor to this class: public demo()
-
-   1. Add the constructor `public demo () : base() { }` to the class `demo`**.**
-
-   [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md): Microsoft.Naming: Correct the casing of namespace name 'testCode' by changing it to 'TestCode'.
-
-   1. Change the casing of the namespace `testCode` to `TestCode`.
-
-   [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md): Microsoft.Naming: Correct the casing of type name 'demo' by changing it to 'Demo'.
-
-   1. Change the name of the member to `Demo`.
-
-   [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md): Microsoft.Naming: Correct the casing of member name 'item' by changing it to 'Item'.
-
-   1. Change the name of the member to `Item`.
-
-   [CA1710: Identifiers should have correct suffix](../code-quality/ca1710-identifiers-should-have-correct-suffix.md): Microsoft.Naming: Rename 'testCode.demo' to end in 'Exception'.
-
-   1. Change the name of the class and its constructors to `DemoException`.
-
-   [CA2210: Assemblies should have valid strong names](../code-quality/ca2210-assemblies-should-have-valid-strong-names.md): Sign 'CodeAnalysisManagedDemo' with a strong name key.
+   [CA2210: Assemblies should have valid strong names](../code-quality/ca2210-assemblies-should-have-valid-strong-names.md): Sign 'CodeAnalysisManagedDemo' with a strong name key:
 
    1. On the **Project** menu, choose **CodeAnalysisManagedDemo Properties**.
 
@@ -141,21 +121,17 @@ This article steps you through the process of using legacy analysis to analyze y
 
    1. Select the **Sign the assembly** check box.
 
-   1. In the **Choose a string name key file** list, select **\<New...>**.
+   1. In the **Choose a string name key file** list, select **\<New>**.
 
       The **Create Strong Name Key** dialog box appears.
 
-   1. In the **Key file name**, type TestKey.
+   1. For **Key file name**, enter **TestKey**.
 
-   1. Enter a password and then choose **OK**.
+   1. Enter a password, and then choose **OK**.
 
    1. On the **File** menu, choose **Save Selected Items**, and then close the property pages.
 
-   [CA2237: Mark ISerializable types with SerializableAttribute](../code-quality/ca2237-mark-iserializable-types-with-serializableattribute.md): Microsoft.Usage: Add a [Serializable] attribute to type 'demo' as this type implements ISerializable.
-
-   1. Add the `[Serializable ()]` attribute to the class `demo`.
-
-   After you complete the changes, the Class1.cs file should look like the following:
+   After you complete all the changes, the Class1.cs file should look like the following:
 
    ```csharp
    using System;
