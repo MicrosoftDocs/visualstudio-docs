@@ -38,6 +38,36 @@ To specify a run settings file in the IDE, select **Test** > **Select Settings F
 
 The file appears on the Test menu, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
 
+#### In versions 16.4 and later, there are three total ways of specifying run settings files 
+1. Add a build property to a project through either the project file or `Build.Directory.props`. The run settings file within the property `RunSettingsFilePath` is automatically used for the project(s) it is specified for. 
+    - Project level run settings is currently supported in `C#`, `VB`, `C++`, and `F#` projects
+    - A file specified for a project overrides any other run settings file specified in the solution.
+
+    Example of specifying a *.runsettings* file for a project
+    ```xml
+    <Project Sdk="Microsoft.NET.Sdk">
+      <PropertyGroup>
+        <RunSettingsFilePath>$(SolutionDir)\example.runsettings</RunSettingsFilePath>
+      </PropertyGroup>
+      ...
+    </Project>
+    ```
+
+2. Place a run settings file named ".runsettings" at the root of your solution. If auto detection of run settings files is enabled, the settings in this file is applied across all tests run.
+  Auto detection of the runsettings file can be turned on from: 
+    - **Test** > **Test Settings** > **Options** > **Auto detect runsettings files**
+
+      ![Auto detect runsettings file menu in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-menu.PNG)
+    - **Test** > **Test Settings** > **Configure Run Settings** > **Auto detect runsettings files**
+
+      ![Auto detect runsettings file tools window in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-tools-window.PNG)
+
+3. Specify a run settings file in the IDE, select **Test** > **Test Settings** > **Select Solution Wide runsettings File**, and then select the *.runsettings* file.
+
+      ![Select test solution wide runsettings file menu in Visual Studio 2019](media/vs-2019/select-solution-settings-file.PNG)
+    - This file overrides the ".runsettings" file placed at the root of the solution, and is applied across all tests run.  
+    - This selection, similar to previous versions, only persists locally. 
+
 ::: moniker-end
 
 ### Command line
