@@ -94,7 +94,7 @@ If `StorePID.exe` successfully applies the product key, it returns an `%ERRORLEV
 | `PID_ACTION_NOUPGRADE`    | 6    |
 
 > [!NOTE]
-> When you run a virtual instance of Visual Studio, make sure that you also virtualize the local AppData folder and the registry. To troubleshoot virtual instances, run *C:\Program Files (x86)\Microsoft Visual Studio\ <version\> \Common7\IDE\DDConfigCA.exe*.  
+> When you run a virtual instance of Visual Studio, make sure that you also virtualize the local AppData folder and the registry. To troubleshoot virtual instances, run `C:\Program Files (x86)\Microsoft Visual Studio\<version>\Common7\IDE\DDConfigCA.exe`.  
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

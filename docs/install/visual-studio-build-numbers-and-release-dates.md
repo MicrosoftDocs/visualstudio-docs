@@ -5,7 +5,7 @@ description: "A list of released versions and build numbers for Visual Studio, s
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 09/25/2019
+ms.date: 10/01/2019
 ms.topic: reference
 ms.custom: "seodec18"
 ms.workload:
@@ -23,6 +23,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.3.2 | Release | October 1, 2019 | 16.3.29326.143 |
 | 16.3.1 | Release | September 25, 2019 | 16.3.29324.140 |
 | 16.4.0 | Preview 1 | September 23, 2019 | 16.4.29319.158 |
 | 16.3.0 | Release | September 23, 2019 | 16.3.29318.209 |

@@ -49,7 +49,7 @@ The Visual Studio **Interactive** window for Python provides a rich read-evaluat
         return ' ' * int(20 * cos(radians(x)) + 20) + 'o'
     ```
 
-1. Select only the `import` and `from` statements in the *.py* file, right-click, and select **Send to Interactive** (or press **Ctrl**+**Enter**). The code fragment is immediately pasted into the **Interactive** window and run. Now select the `make_dot_string` function and repeat the same command, which again runs that code fragment. Because the code defines a function, you can quickly test that function by calling it a few times:
+1. Select the `import`, `from`, and `make_dot_string` function statements in the *.py* file, right-click, and select **Send to Interactive** (or press **Ctrl**+**Enter**). The code fragment is immediately pasted into the **Interactive** window and run. Now select the `make_dot_string` function and repeat the same command, which again runs that code fragment. Because the code defines a function, you can quickly test that function by calling it a few times:
 
     ![Sending code to the interactive window and testing it](media/vs-getting-started-python-14-interactive4.png)
 
