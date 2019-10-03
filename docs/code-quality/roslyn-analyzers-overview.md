@@ -41,7 +41,7 @@ Not only do .NET Compiler Platform-based code analyzers report the same types of
 > The following UI options apply only to legacy analysis:
 >
 > - The **Analyze** > **Run Code Analysis** menu option.
-> - The **Enable Code Analysis on Build** and **Suppress results from generated code** checkboxes on the **Code Analysis** tab of a project's property pages.
+> - The **Run on build** and **Suppress results from generated code** checkboxes on the **Code Analysis** tab of a project's property pages.
 
 To differentiate between violations from code analyzers and legacy analysis in the Error List window, look at the **Tool** column. If the Tool value matches one of the analyzer assemblies in **Solution Explorer**, for example **Microsoft.CodeQuality.Analyzers**, the violation comes from a code analyzer. Otherwise, the violation originates from legacy analysis.
 
