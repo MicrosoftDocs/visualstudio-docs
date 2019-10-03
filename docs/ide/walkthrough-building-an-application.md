@@ -59,7 +59,7 @@ Next, you'll build the solution with the custom build configuration.
 
 ### Build the solution
 
-- On the menu bar, choose **Build** > **Build Solution**.
+- On the menu bar, choose **Build** > **Build Solution**, or press **Ctrl+Shift+B**.
 
     The **Output** window displays the results of the build. The build succeeded.
 
