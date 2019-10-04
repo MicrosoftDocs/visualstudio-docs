@@ -19,7 +19,7 @@ ms.workload:
 In Visual Studio, you can choose from a list of code analysis [rule sets](../code-quality/rule-set-reference.md) to apply to a managed code project. By default, the **Microsoft Minimum Recommended Rules** rule set is selected, but you can apply a different rule set if desired. Rule sets can be applied to one or multiple projects in a solution.
 
 > [!NOTE]
-> This article applies to legacy analysis and not to [.NET Compiler Platform-based code analyzers](use-roslyn-analyzers.md), which don't run code analysis after build.
+> This article applies to legacy analysis and not to [.NET Compiler Platform-based code analyzers](use-roslyn-analyzers.md).
 
 ## Configure a rule set for a .NET Framework project
 
@@ -33,13 +33,13 @@ In Visual Studio, you can choose from a list of code analysis [rule sets](../cod
 
 ::: moniker range="vs-2017"
 
-3. To run code analysis every time the project is built using the selected configuration, select the **Enable Code Analysis on Build** check box. You can also run code analysis manually by selecting **Analyze** > **Run Code Analysis** > **Run Code Analysis on \<projectname>**.
+3. To run code analysis every time the project is built using the selected configuration, select **Enable Code Analysis on Build**. You can also run code analysis manually by selecting **Analyze** > **Run Code Analysis** > **Run Code Analysis on \<projectname>**.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-3. To run code analysis every time the project is built using the selected configuration, select the **Run on build** check box. You can also run code analysis manually by selecting **Analyze** > **Run Code Analysis** > **Run Code Analysis on \<projectname>**.
+3. To run code analysis every time the project is built using the selected configuration, select **Run on build** in the **Binary analyzers** section. You can also run code analysis manually by selecting **Analyze** > **Run Code Analysis** > **Run Code Analysis on \<projectname>**.
 
 ::: moniker-end
 

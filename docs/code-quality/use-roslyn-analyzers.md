@@ -155,11 +155,19 @@ There are multiple ways to suppress rule violations:
 
   Set the severity to `none`, for example, `dotnet_diagnostic.CA1822.severity = none`.
 
+- From the **Analyze** menu
+
+  Select **Analyze** > **Build and Suppress Active Issues** on the menu bar to suppress all current violations. This is sometimes referred to as "baselining".
+
 ::: moniker-end
+
+::: moniker range="vs-2017"
 
 - From the **Analyze** menu
 
   Select **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar to suppress all current violations. This is sometimes referred to as "baselining".
+
+::: moniker-end
 
 - From **Solution Explorer**
 

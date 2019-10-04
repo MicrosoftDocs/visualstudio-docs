@@ -19,13 +19,9 @@ This article steps you through the process of using legacy analysis to analyze y
 
 ## Create a class library
 
-1. On the **File** menu, choose **New** > **Project**.
+1. Open Visual Studio and create a new project from the **Class Library (.NET Framework)** template.
 
-1. In the **New Project** dialog box, expand **Installed** > **Visual C#**, and then choose **Windows Desktop**.
-
-1. Choose the **Class Library (.NET Framework)** template.
-
-1. In the **Name** text box, type **CodeAnalysisManagedDemo** and then click **OK**.
+1. Name the project **CodeAnalysisManagedDemo**.
 
 1. After the project is created, open the *Class1.cs* file.
 
@@ -53,13 +49,13 @@ This article steps you through the process of using legacy analysis to analyze y
 
 2. On the **Project** menu, click **Properties**.
 
-     The CodeAnalysisManagedDemo properties page is displayed.
+   The CodeAnalysisManagedDemo properties page is displayed.
 
 3. Choose the **Code Analysis** tab.
 
 ::: moniker range="vs-2017"
 
-4. Make sure that **Enable Code Analysis on Build** is checked.
+4. Make sure that **Enable Code Analysis on Build** is selected.
 
 5. From the **Run this rule set** drop-down list, select **Microsoft All Rules**.
 
@@ -67,7 +63,7 @@ This article steps you through the process of using legacy analysis to analyze y
 
 ::: moniker range=">=vs-2019"
 
-4. Make sure that **Run on build** is checked.
+4. Make sure that **Run on build** is selected in the **Binary analyzers** section.
 
 5. From the **Active rules** drop-down list, select **Microsoft All Rules**.
 

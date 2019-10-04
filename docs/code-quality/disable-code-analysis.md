@@ -9,7 +9,7 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ---
-# How to disable code analysis in Visual Studio
+# How to disable source code analysis for managed code
 
 ::: moniker range=">=vs-2019"
 
