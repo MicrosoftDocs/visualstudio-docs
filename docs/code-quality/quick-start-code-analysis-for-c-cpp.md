@@ -24,7 +24,7 @@ You can improve the quality of your application by running code analysis regular
 
 3. To run code analysis every time the project is built using the selected configuration, select the **Enable Code Analysis on Build** check box. You can also run code analysis manually by opening the **Analyze** menu and then choosing **Run Code Analysis on** *ProjectName* or **Run Code Analysis on File**.
 
-4. Choose the [rule set](../code-quality/using-rule-sets-to-specify-the-cpp-rules-to-run) that you want to use or create a [custom rule set](../code-quality/how-to-create-a-custom-rule-set.md). If using LLVM/clang-cl, see [Using Clang-Tidy in Visual Studio](../code-quality/clang-tidy.md) to configure Clang-Tidy analysis options.
+4. Choose the [rule set](../code-quality/using-rule-sets-to-specify-the-cpp-rules-to-run.md) that you want to use or create a [custom rule set](../code-quality/how-to-create-a-custom-rule-set.md). If using LLVM/clang-cl, see [Using Clang-Tidy in Visual Studio](../code-quality/clang-tidy.md) to configure Clang-Tidy analysis options.
 
 ### Standard C/C++ Rule Sets
 
