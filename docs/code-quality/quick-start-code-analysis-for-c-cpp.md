@@ -35,7 +35,7 @@ You can improve the quality of your application by running code analysis regular
 
     - Choose the rule set that you want to use.
 
-    - Choose **\<Browse...>** to specify an existing custom rule set that is not in the list.
+    - Choose **\<Browse>** to specify an existing custom rule set that is not in the list.
 
     - Define a [custom rule set](../code-quality/how-to-create-a-custom-rule-set.md).
 

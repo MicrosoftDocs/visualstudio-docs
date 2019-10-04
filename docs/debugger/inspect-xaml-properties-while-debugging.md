@@ -65,11 +65,13 @@ private void button_Click(object sender, RoutedEventArgs e)
 
 Build the project and start debugging. (The build configuration must be Debug, not Release. For more information about build configurations, see [Understanding Build Configurations](../ide/understanding-build-configurations.md).)
 
-When the window comes up, click the **Add Item** button a couple of times. You should see something like this:
+When the window comes up you should see the in-app toolbar appear within your running application. 
 
 ![Main window of the app](../debugger/media/livevisualtree-app.png "LiveVIsualTree-App")
 
-Now open the **Live Visual Tree** window (**Debug > Windows > Live Visual Tree**, or find it along the left side of the IDE). Drag it away from its docking position so we can look at this window and the **Live Properties** window side by side. In the **Live Visual Tree** window, expand the **ContentPresenter** node. It should contain nodes for the button and the list box. Expand the list box (and then the **ScrollContentPresenter** and the **ItemsPresenter**) to find the list box items. The window should look like this:
+Now click the **Add Item** button a few times to add new items into the list.
+
+Next open the **Live Visual Tree** window by clicking on the very left button of the in-app toolbar (or by going to **Debug > Windows > Live Visual Tree**). Once it s open, drag it away from its docking position so we can look at this window and the **Live Properties** window side by side. In the **Live Visual Tree** window, expand the **ContentPresenter** node. It should contain nodes for the button and the list box. Expand the list box (and then the **ScrollContentPresenter** and the **ItemsPresenter**) to find the list box items. The window should look like this:
 
 ![ListBoxItems in the Live Visual Tree](../debugger/media/livevisualtree-listboxitems.png "LiveVisualTree-ListBoxItems")
 

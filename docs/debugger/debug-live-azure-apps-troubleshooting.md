@@ -50,6 +50,7 @@ Take these steps:
 
 * Verify that you have a website deployed and running on the App Service resource that you're attaching to.
 * Verify that the site is available at https://\<resource\>.azurewebsites.net
+* Verify that your properly running custom web application does not return a status code of 404 when accessed at https://\<resource\>.azurewebsites.net
 * If this error continues to persist, use one of the feedback channels described in the beginning of this article.
 
 ### (406) Not Acceptable
