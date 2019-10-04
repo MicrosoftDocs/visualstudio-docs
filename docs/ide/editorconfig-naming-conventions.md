@@ -220,7 +220,7 @@ Now let's change the violation severity to `warning`:
 dotnet_naming_rule.public_members_must_be_capitalized.severity = warning
 ```
 
-If you close and reopen your code file, instead of seeing the suggestion under the name violation, you see a green squiggly, and a warning in the **Error List**:
+If you close and reopen your code file, instead of seeing the suggestion under the name violation, you see a green squiggle and a warning in the Error List:
 
 ![Naming rule warning](media/editorconfig-naming-rule-warning.png)
 
