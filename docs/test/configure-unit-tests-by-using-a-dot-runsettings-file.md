@@ -1,6 +1,6 @@
 ---
 title: "Configure unit tests with a .runsettings file"
-ms.date: 06/14/2019
+ms.date: 10/03/2019
 ms.topic: conceptual
 ms.author: gewarren
 manager: jillfra
@@ -32,18 +32,25 @@ The file appears on the Test Settings menu, and you can select or deselect it. W
 
 ::: moniker range=">=vs-2019"
 
+#### Visual Studio 2019 version 16.3 and earlier
+
 To specify a run settings file in the IDE, select **Test** > **Select Settings File**. Browse to and select the *.runsettings* file.
 
 ![Select test settings file menu in Visual Studio 2019](media/vs-2019/select-settings-file.png)
 
 The file appears on the Test menu, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
 
-#### In versions 16.4 and later, there are three total ways of specifying run settings files 
-1. Add a build property to a project through either the project file or `Build.Directory.props`. The run settings file within the property `RunSettingsFilePath` is automatically used for the project(s) it is specified for. 
-    - Project level run settings is currently supported in `C#`, `VB`, `C++`, and `F#` projects
+#### Visual Studio 2019 version 16.4 and later
+
+There are three ways of specifying a run settings file in Visual Studio 2019 version 16.4 and later:
+
+- Add a build property to a project through either the project file or a Build.Directory.props file. The run settings file for a project is specified by the property **RunSettingsFilePath**. 
+
+    - Project-level run settings is currently supported in C#, VB, C++, and F# projects.
     - A file specified for a project overrides any other run settings file specified in the solution.
 
-    Example of specifying a *.runsettings* file for a project
+    Example of specifying a *.runsettings* file for a project:
+    
     ```xml
     <Project Sdk="Microsoft.NET.Sdk">
       <PropertyGroup>
@@ -53,20 +60,24 @@ The file appears on the Test menu, and you can select or deselect it. While sele
     </Project>
     ```
 
-2. Place a run settings file named ".runsettings" at the root of your solution. If auto detection of run settings files is enabled, the settings in this file is applied across all tests run.
-  Auto detection of the runsettings file can be turned on from: 
-    - **Test** > **Test Settings** > **Options** > **Auto detect runsettings files**
+- Place a run settings file named ".runsettings" at the root of your solution.
 
+  If auto detection of run settings files is enabled, the settings in this file are applied across all tests run. You can turn on auto detection of runsettings files from two places:
+  
+    - **Tools** > **Options** > **Test** > **Auto Detect runsettings Files**
+
+      ![Auto detect runsettings file option in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-tools-window.png)
+      
+    - **Test** > **Configure Run Settings** > **Auto Detect runsettings Files**
+    
       ![Auto detect runsettings file menu in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-menu.png)
-    - **Test** > **Test Settings** > **Configure Run Settings** > **Auto detect runsettings files**
 
-      ![Auto detect runsettings file tools window in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-tools-window.png)
+- In the IDE, select **Test** > **Configure Run Settings** > **Select Solution Wide runsettings File**, and then select the *.runsettings* file.
 
-3. Specify a run settings file in the IDE, select **Test** > **Test Settings** > **Select Solution Wide runsettings File**, and then select the *.runsettings* file.
-
-      ![Select test solution wide runsettings file menu in Visual Studio 2019](media/vs-2019/select-solution-settings-file.png)
-    - This file overrides the ".runsettings" file placed at the root of the solution, and is applied across all tests run.  
-    - This selection, similar to previous versions, only persists locally. 
+   ![Select test solution wide runsettings file menu in Visual Studio 2019](media/vs-2019/select-solution-settings-file.png)
+      
+   - This file overrides the ".runsettings" file at the root of the solution, if it exists, and is applied across all tests run.  
+   - This file selection only persists locally. 
 
 ::: moniker-end
 
