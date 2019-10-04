@@ -210,7 +210,7 @@ internal int points;
 
 The red squiggly lines in the code editor go away.
 
-Next, hover over the green squiggly in the declaration of the `points` data member. The code analyzer tells you the variable is never assigned a value.
+Next, hover over the green squiggle in the declaration of the `points` data member. The code analyzer tells you the variable is never assigned a value.
 
 ![Warning message for unassigned variable](../debugger/media/write-better-code-warning-message.png)
 
