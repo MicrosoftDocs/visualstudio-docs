@@ -30,7 +30,7 @@ Like legacy analysis rule violations, .NET Compiler Platform-based code analysis
 
 ![Squiggles in the code editor](media/diagnostics-severity-colors.png)
 
-.NET Compiler Platform-based code analyzers analyze code at build time, like legacy analysis if it's enabled, but also live as you type. If you enable [full solution analysis](../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md#to-toggle-full-solution-analysis), code analyzers also provide design-time analysis of code files that aren't open in the editor.
+.NET Compiler Platform-based code analyzers analyze code at build time, like legacy analysis if it's enabled, but also live as you type. If you enable [full solution analysis](../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md#toggle-full-solution-analysis), code analyzers also provide design-time analysis of code files that aren't open in the editor.
 
 > [!TIP]
 > Build-time errors and warnings from code analyzers are shown only if the analyzers are installed as a NuGet package.
