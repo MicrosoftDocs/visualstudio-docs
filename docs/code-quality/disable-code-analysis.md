@@ -49,7 +49,7 @@ To turn off source code analysis for analyzers installed as part of a NuGet pack
 | - | - | - |
 | `RunAnalyzersDuringBuild` | Controls whether NuGet-based analyzers run at build time. | `true` |
 | `RunAnalyzersDuringLiveAnalysis` | Controls whether NuGet-based analyzers analyze code live at design time. | `true` |
-| `RunAnalyzers` | Disables NuGet-based analyzers during both build and live analysis. This property takes precendence over `RunAnalyzersDuringBuild` and `RunAnalyzersDuringLiveAnalysis`. | `true` |
+| `RunAnalyzers` | Disables NuGet-based analyzers at both build and design time. This property takes precedence over `RunAnalyzersDuringBuild` and `RunAnalyzersDuringLiveAnalysis`. | `true` |
 
 Examples:
 
