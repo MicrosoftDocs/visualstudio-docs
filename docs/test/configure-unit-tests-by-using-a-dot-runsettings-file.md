@@ -57,14 +57,14 @@ The file appears on the Test menu, and you can select or deselect it. While sele
   Auto detection of the runsettings file can be turned on from: 
     - **Test** > **Test Settings** > **Options** > **Auto detect runsettings files**
 
-      ![Auto detect runsettings file menu in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-menu.PNG)
+      ![Auto detect runsettings file menu in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-menu.png)
     - **Test** > **Test Settings** > **Configure Run Settings** > **Auto detect runsettings files**
 
-      ![Auto detect runsettings file tools window in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-tools-window.PNG)
+      ![Auto detect runsettings file tools window in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-tools-window.png)
 
 3. Specify a run settings file in the IDE, select **Test** > **Test Settings** > **Select Solution Wide runsettings File**, and then select the *.runsettings* file.
 
-      ![Select test solution wide runsettings file menu in Visual Studio 2019](media/vs-2019/select-solution-settings-file.PNG)
+      ![Select test solution wide runsettings file menu in Visual Studio 2019](media/vs-2019/select-solution-settings-file.png)
     - This file overrides the ".runsettings" file placed at the root of the solution, and is applied across all tests run.  
     - This selection, similar to previous versions, only persists locally. 
 
