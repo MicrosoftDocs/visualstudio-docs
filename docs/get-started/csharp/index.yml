@@ -60,7 +60,7 @@ landingContent:
       - linkListType: tutorial
         links:
           - text: Open code from a repo
-            url: ../tutorial-open-project-from-repo.md?
+            url: ../tutorial-open-project-from-repo.md
           - text: Write and edit code 
             url: tutorial-editor.md
           - text: Compile and build 
