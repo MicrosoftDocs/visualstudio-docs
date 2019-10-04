@@ -47,9 +47,9 @@ To turn off source code analysis for analyzers installed as part of a NuGet pack
 
 | MSBuild property | Description | Default |
 | - | - | - |
-| **RunAnalyzersDuringBuild** | Controls whether NuGet-based analyzers run at build time. | `true` |
-| **RunAnalyzersDuringLiveAnalysis** | Controls whether NuGet-based analyzers analyze code live at design time. | `true` |
-| **RunAnalyzers** | Setting it to `false` overrides the other two properties, and disables analyzers during both build and live analysis. | `true` |
+| `RunAnalyzersDuringBuild` | Controls whether NuGet-based analyzers run at build time. | `true` |
+| `RunAnalyzersDuringLiveAnalysis` | Controls whether NuGet-based analyzers analyze code live at design time. | `true` |
+| `RunAnalyzers` | Disables NuGet-based analyzers during both build and live analysis. This property takes precendence over `RunAnalyzersDuringBuild` and `RunAnalyzersDuringLiveAnalysis`. | `true` |
 
 Examples:
 
