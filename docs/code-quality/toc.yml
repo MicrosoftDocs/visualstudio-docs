@@ -4,7 +4,8 @@
   items:
   - name: Overview
     href: code-analysis-for-managed-code-overview.md
-  - name: Code analysis
+  - name: Source code analysis
+    expanded: true
     items:
     - name: Overview
       displayName: roslyn analyzers, source analysis
@@ -13,10 +14,35 @@
       href: install-roslyn-analyzers.md
     - name: Configuration
       href: use-roslyn-analyzers.md
+    - name: Disable code analysis
+      href: disable-code-analysis.md
     - name: Enable full solution analysis
       href: how-to-enable-and-disable-full-solution-analysis-for-managed-code.md
     - name: FAQ
       href: analyzers-faq.md
+    - name: FxCop analyzers
+      items:
+      - name: Overview
+        displayName: "fxcop analyzers"
+        href: fxcop-analyzers.yml
+      - name: Installation
+        href: install-fxcop-analyzers.md
+      - name: Configuration
+        items:
+        - name: Overview
+          href: configure-fxcop-analyzers.md
+        - name: Scope options
+          href: fxcop-analyzer-options.md
+        - name: Predefined rule sets
+          href: analyzer-rule-sets.md
+      - name: FAQ
+        href: fxcop-analyzers-faq.md
+    - name: Migrate from legacy analysis to FxCop analyzers
+      items:
+      - name: Overview
+        href: fxcop-analyzers.yml
+      - name: Ported rules
+        href: fxcop-rule-port-status.md
   - name: Legacy analysis
     items:
     - name: Overview
@@ -112,29 +138,6 @@
         href: how-to-synchronize-code-project-rule-sets-with-team-project-check-in-policy.md
       - name: Version compatibility
         href: version-compatibility-for-code-analysis-check-in-policies.md
-  - name: FxCop analyzers
-    items:
-    - name: Overview
-      displayName: "fxcop analyzers"
-      href: fxcop-analyzers.yml
-    - name: Installation
-      href: install-fxcop-analyzers.md
-    - name: Configuration
-      items:
-      - name: Overview
-        href: configure-fxcop-analyzers.md
-      - name: Scope options
-        href: fxcop-analyzer-options.md
-      - name: Predefined rule sets
-        href: analyzer-rule-sets.md
-    - name: FAQ
-      href: fxcop-analyzers-faq.md
-  - name: Migrate from legacy analysis to FxCop analyzers
-    items:
-    - name: Overview
-      href: fxcop-analyzers.yml
-    - name: Ported rules
-      href: fxcop-rule-port-status.md
   - name: Rule sets
     items:
     - name: Overview

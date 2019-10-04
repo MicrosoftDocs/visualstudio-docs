@@ -422,7 +422,7 @@ For more information on the kinds of content that is supported by various contro
 
 ### Triggers
 
-Although the main purpose of XAML markup is to implement an application's appearance, you can also use XAML to implement some aspects of an application's behavior. One example is the use of triggers to change an application's appearance based on user interactions. For more information, see [Styling and templating](/dotnet/framework/wpf/controls/styling-and-templating).
+Although the main purpose of XAML markup is to implement an application's appearance, you can also use XAML to implement some aspects of an application's behavior. One example is the use of triggers to change an application's appearance based on user interactions. For more information, see [Styles and templates](/dotnet/desktop-wpf/fundamentals/styles-templates-overview).
 
 ### Control templates
 
@@ -539,7 +539,7 @@ Because this style targets all <xref:System.Windows.Controls.Button> controls, t
 
 ![Two orange buttons](../designers/media/wpfintrofigure20.png)
 
-For more information, see [Styling and templating](/dotnet/framework/wpf/controls/styling-and-templating).
+For more information, see [Styles and templates](/dotnet/desktop-wpf/fundamentals/styles-templates-overview).
 
 ### Resources
 
