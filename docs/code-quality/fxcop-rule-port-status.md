@@ -143,28 +143,28 @@ CA2010 | Always consume the value returned by methods marked with PreserveSigAtt
 [CA2242](ca2242-test-for-nan-correctly.md) | Test for NaN correctly
 [CA2243](ca2243-attribute-string-literals-should-parse-correctly.md) | Attribute string literals should parse correctly
 CA2244 | Do not duplicate indexed element initializations
-[CA2300](ca2300-do-not-use-insecure-deserializer-binaryformatter.md) | Do not use insecure deserializer BinaryFormatter
-[CA2301](ca2301-do-not-call-binaryformatter-deserialize-without-first-setting-binaryformatter-binder.md) | Do not call BinaryFormatter.Deserialize without first setting BinaryFormatter.Binder
-[CA2302](ca2302-ensure-binaryformatter-binder-is-set-before-calling-binaryformatter-deserialize.md) | Ensure BinaryFormatter.Binder is set before calling BinaryFormatter.Deserialize
-[CA2305](ca2305-do-not-use-insecure-deserializer-losformatter.md) | Do not use insecure deserializer LosFormatter
-[CA2310](ca2310-do-not-use-insecure-deserializer-netdatacontractserializer.md) | Do not use insecure deserializer NetDataContractSerializer
-[CA2311](ca2311-do-not-deserialize-without-first-setting-netdatacontractserializer-binder.md) | Do not deserialize without first setting NetDataContractSerializer.Binder
-[CA2312](ca2312-ensure-netdatacontractserializer-binder-is-set-before-deserializing.md) | Ensure NetDataContractSerializer.Binder is set before deserializing
-[CA2315](ca2315-do-not-use-insecure-deserializer-objectstateformatter.md) | Do not use insecure deserializer ObjectStateFormatter
+[CA2300](ca2300.md) | Do not use insecure deserializer BinaryFormatter
+[CA2301](ca2301.md) | Do not call BinaryFormatter.Deserialize without first setting BinaryFormatter.Binder
+[CA2302](ca2302.md) | Ensure BinaryFormatter.Binder is set before calling BinaryFormatter.Deserialize
+[CA2305](ca2305.md) | Do not use insecure deserializer LosFormatter
+[CA2310](ca2310.md) | Do not use insecure deserializer NetDataContractSerializer
+[CA2311](ca2311.md) | Do not deserialize without first setting NetDataContractSerializer.Binder
+[CA2312](ca2312.md) | Ensure NetDataContractSerializer.Binder is set before deserializing
+[CA2315](ca2315.md) | Do not use insecure deserializer ObjectStateFormatter
 [CA2321](ca2321.md) | Do not deserialize with JavaScriptSerializer using a SimpleTypeResolver
 [CA2322](ca2322.md) | Ensure JavaScriptSerializer is not initialized with SimpleTypeResolver before deserializing
-[CA3001](ca3001-review-code-for-sql-injection-vulnerabilities.md) | Review code for SQL injection vulnerabilities
-[CA3002](ca3002-review-code-for-xss-vulnerabilities.md) | Review code for XSS vulnerabilities
-[CA3003](ca3003-review-code-for-file-path-injection-vulnerabilities.md) | Review code for file path injection vulnerabilities
-[CA3004](ca3004-review-code-for-information-disclosure-vulnerabilities.md) | Review code for information disclosure vulnerabilities
-[CA3005](ca3005-review-code-for-ldap-injection-vulnerabilities.md) | Review code for LDAP injection vulnerabilities
-[CA3006](ca3006-review-code-for-process-command-injection-vulnerabilities.md) | Review code for process command injection vulnerabilities
-[CA3007](ca3007-review-code-for-open-redirect-vulnerabilities.md) | Review code for open redirect vulnerabilities
-[CA3008](ca3008-review-code-for-xpath-injection-vulnerabilities.md) | Review code for XPath injection vulnerabilities
-[CA3009](ca3009-review-code-for-xml-injection-vulnerabilities.md) | Review code for XML injection vulnerabilities
-[CA3010](ca3010-review-code-for-xaml-injection-vulnerabilities.md) | Review code for XAML injection vulnerabilities
-[CA3011](ca3011-review-code-for-dll-injection-vulnerabilities.md) | Review code for DLL injection vulnerabilities
-[CA3012](ca3012-review-code-for-regex-injection-vulnerabilities.md) | Review code for regex injection vulnerabilities
+[CA3001](ca3001.md) | Review code for SQL injection vulnerabilities
+[CA3002](ca3002.md) | Review code for XSS vulnerabilities
+[CA3003](ca3003.md) | Review code for file path injection vulnerabilities
+[CA3004](ca3004.md) | Review code for information disclosure vulnerabilities
+[CA3005](ca3005.md) | Review code for LDAP injection vulnerabilities
+[CA3006](ca3006.md) | Review code for process command injection vulnerabilities
+[CA3007](ca3007.md) | Review code for open redirect vulnerabilities
+[CA3008](ca3008.md) | Review code for XPath injection vulnerabilities
+[CA3009](ca3009.md) | Review code for XML injection vulnerabilities
+[CA3010](ca3010.md) | Review code for XAML injection vulnerabilities
+[CA3011](ca3011.md) | Review code for DLL injection vulnerabilities
+[CA3012](ca3012.md) | Review code for regex injection vulnerabilities
 CA3061 | Do Not Add Schema By URL
 [CA3075](ca3075-insecure-dtd-processing.md) | Insecure DTD processing in XML
 [CA3076](ca3076-insecure-xslt-script-execution.md) | Insecure XSLT script processing.

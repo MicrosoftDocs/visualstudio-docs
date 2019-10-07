@@ -47,6 +47,10 @@ If you've installed FxCop analyzers but continue to get warning CA0507 **""Run C
 
 For information about which legacy analysis rules have been ported to [FxCop analyzers](install-fxcop-analyzers.md), see [Fxcop rule port status](fxcop-rule-port-status.md).
 
+## Code analysis warnings are treated as errors
+
+If your project uses the build option to treat warnings as errors, FxCop analyzer warnings may appear as errors. To prevent code analysis warnings from being treated as errors, follow the steps at [Code analysis FAQ](../code-quality/analyzers-faq.md#treat-warnings-as-errors).
+
 ## See also
 
 - [Overview of .NET Compiler Platform analyzers](roslyn-analyzers-overview.md)

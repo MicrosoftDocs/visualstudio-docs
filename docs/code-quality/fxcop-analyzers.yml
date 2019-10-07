@@ -43,7 +43,7 @@ landingContent:
       - linkListType: overview
         links:
           - text: What's different
-            url: roslyn-analyzers-overview.md#net-compiler-platform-based-analysis-versus-legacy-analysis
+            url: roslyn-analyzers-overview.md#source-code-analysis-versus-legacy-analysis
       - linkListType: get-started
         links:
           - text: FAQ about FxCop analyzers

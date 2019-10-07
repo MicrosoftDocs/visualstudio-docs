@@ -49,7 +49,32 @@ In addition to rule sets and EditorConfig files, some analyzers are configured t
 
 **Q**: What's the difference between legacy analysis and .NET Compiler Platform-based code analysis?
 
-**A**: .NET Compiler Platform-based code analysis analyzes source code in real time and during compilation, whereas legacy analysis analyzes binary files after build has completed. For more information, see [.NET Compiler Platform-based analysis versus legacy analysis](roslyn-analyzers-overview.md#net-compiler-platform-based-analysis-versus-legacy-analysis) and [FxCop analyzers FAQ](fxcop-analyzers-faq.md).
+**A**: .NET Compiler Platform-based code analysis analyzes source code in real time and during compilation, whereas legacy analysis analyzes binary files after build has completed. For more information, see [.NET Compiler Platform-based analysis versus legacy analysis](roslyn-analyzers-overview.md#source-code-analysis-versus-legacy-analysis) and [FxCop analyzers FAQ](fxcop-analyzers-faq.md).
+
+## Treat warnings as errors
+
+**Q**: My project uses the build option to treat warnings as errors. After migrating from legacy analysis to source code analysis, all of the code analysis warnings are now appearing as errors. How can I prevent that?
+
+**A**: To prevent code analysis warnings from being treated as errors, follow these steps:
+
+  1. Create a .props file with the following content:
+
+     ```xml
+     <Project>
+        <PropertyGroup>
+           <CodeAnalysisTreatWarningsAsErrors>false</CodeAnalysisTreatWarningsAsErrors>
+        </PropertyGroup>
+     </Project>
+     ```
+
+  2. Add a line to your .csproj or .vbproj project file to import the .props file you created in the previous step. This line must be placed before any lines that import the FxCop analyzer .props files. For example, if your .props file is named codeanalysis.props:
+
+     ```xml
+     ...
+     <Import Project="..\..\codeanalysis.props" Condition="Exists('..\..\codeanalysis.props')" />
+     <Import Project="..\packages\Microsoft.CodeAnalysis.FxCopAnalyzers.2.6.5\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props" Condition="Exists('..\packages\Microsoft.CodeAnalysis.FxCopAnalyzers.2.6.5\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props')" />
+     ...
+     ```
 
 ## See also
 
