@@ -1,5 +1,5 @@
 ---
-title: "Quick Start: Code Analysis for C/C++"
+title: "Quickstart: Code Analysis for C/C++"
 description: Run static analysis on C++ code in Visual Studio to detect common coding problems and defects.
 ms.date: 11/04/2016
 ms.topic: "conceptual"
@@ -97,7 +97,7 @@ You can use the work item tracking feature to log bugs from within Visual Studio
 
 You can search long lists of warning messages and you can filter warnings in multi-project solutions.
 
-- **To filter warnings by title or warning id**: Enter the keyword in the search box.
+- **To filter warnings by title or warning ID**: Enter the keyword in the search box.
 
 - **To filter warnings by severity**: By default, code analysis messages are assigned a severity of **Warning**. You can assign the severity of one or more messages as **Error** in a custom rule set. On the **Severity** column of the **Error List**, choose the drop-down arrow and then the filter icon. Choose **Warning** or **Error** to display only the messages that are assigned the respective severity. Choose **Select All** to display all messages.
 
