@@ -26,7 +26,7 @@ The analysis tool represents the checks it performs during an analysis as warnin
 
 You can run code analysis on your project manually or automatically.
 
-To run code analysis each time that you build a project, select **Enable Code Analysis on Build** on the project's Property Page. For more information, see [How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md).
+To run code analysis each time that you build a project, select the option on the project's **Code Analysis** property page. For more information, see [How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md).
 
 To run code analysis manually on a project, from the menu bar choose **Analyze** > **Run Code Analysis** > **Run Code Analysis on \<project>**.
 
@@ -50,8 +50,21 @@ Public class MyClass
 
 For more information, see [Suppress warnings](../code-quality/in-source-suppression-overview.md).
 
+::: moniker range="vs-2017"
+
 > [!NOTE]
-> If you migrate a project to Visual Studio 2017 or Visual Studio 2019, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings and want to become productive right away, you can *baseline* the analysis state of your project. From the **Analyze** menu, select **Run Code Analysis and Suppress Active Issues**.
+> If you migrate a project to Visual Studio 2017, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings, you can suppress all of them by choosing **Analyze** > **Run Code Analysis and Suppress Active Issues**.
+>
+> ![Run code analysis and suppress issues in Visual Studio](media/suppress-active-issues.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+> [!NOTE]
+> If you migrate a project to Visual Studio 2019, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings, you can suppress all of them by choosing **Analyze** > **Build and Suppress Active Issues**.
+
+::: moniker-end
 
 ## Run code analysis as part of check-in policy
 
