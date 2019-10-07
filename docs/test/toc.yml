@@ -62,13 +62,14 @@
       href: using-the-assert-classes.md
     - name: Microsoft Fakes
       items:
-      - name: Isolate code under test with Microsoft Fakes
+      - name: Isolate code under test
+        displayName: shim, stub
         href: isolating-code-under-test-with-microsoft-fakes.md
-      - name: Use stubs to isolate parts of your application from each other for unit testing
+      - name: Use stubs to isolate parts of your app
         href: using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md
-      - name: Use shims to isolate your application from other assemblies for unit testing
+      - name: Use shims to isolate your app from other assemblies
         href: using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md
-      - name: Code generation, compilation, and naming conventions in Microsoft Fakes
+      - name: Code generation, compilation, and naming conventions
         href: code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md
     - name: Data-driven unit tests
       items:
