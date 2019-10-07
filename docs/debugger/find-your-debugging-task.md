@@ -28,10 +28,7 @@ Try a conditional breakpoint to control where and when a breakpoint gets activat
 
 ### Pause code only when a specific object’s property or value changes
 
-For C++, set a [data breakpoint](using-breakpoints.md#BKMK_set_a_data_breakpoint_native_cplusplus). 
-::: moniker range=">= vs-2019"
-For apps using .NET Core 3, you can also set a [data breakpoint](using-breakpoints.md#BKMK_set_a_data_breakpoint_managed).
-::: moniker-end
+For C++, set a [data breakpoint](using-breakpoints.md#BKMK_set_a_data_breakpoint_native_cplusplus). ::: moniker range=">= vs-2019" For apps using .NET Core 3, you can also set a [data breakpoint](using-breakpoints.md#BKMK_set_a_data_breakpoint_managed).::: moniker-end
 
 Otherwise, for C# and F# only, you can [track an object ID with a conditional breakpoint](using-breakpoints.md#using-object-ids-in-breakpoint-conditions-c-and-f).
 
