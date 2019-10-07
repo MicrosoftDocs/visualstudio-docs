@@ -4,8 +4,8 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 ms.author: gewarren
 manager: jillfra
-dev_langs:
 author: gewarren
+dev_langs:
  - CSharp
  - VB
 ---
