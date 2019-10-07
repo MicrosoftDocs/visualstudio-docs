@@ -8239,6 +8239,21 @@
       "source_path": "docs/code-quality/ca3147-mark-verb-handlers-with-validateantiforgerytoken.md",
       "redirect_url": "/visualstudio/code-quality/ca3147",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca1900-value-type-fields-should-be-portable.md",
+      "redirect_url": "/visualstudio/code-quality/ca1900",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca1901-p-invoke-declarations-should-be-portable.md",
+      "redirect_url": "/visualstudio/code-quality/ca1901",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca1903-use-only-api-from-targeted-framework.md",
+      "redirect_url": "/visualstudio/code-quality/ca1903",
+      "redirect_document_id": true
     }
   ]
 }
