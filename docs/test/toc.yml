@@ -63,7 +63,7 @@
     - name: Microsoft Fakes
       items:
       - name: Isolate code under test
-        displayName: shim, stub
+        displayName: shim, stub, fakes
         href: isolating-code-under-test-with-microsoft-fakes.md
       - name: Use stubs to isolate parts of your app
         href: using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md
