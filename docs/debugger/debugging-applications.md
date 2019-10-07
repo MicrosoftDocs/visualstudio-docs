@@ -28,6 +28,6 @@ The following sections deal with debugging for specific types of applications. D
 |[Graphics diagnostics (Debugging DirectX graphics)](/visualstudio/debugger/graphics/visual-studio-graphics-diagnostics)|Describes how to debug DirectX graphics.|
 |[Debug ASP.NET applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)|Describes how to debug ASP.NET applications.|
 |[Debug Python code](../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md)|Describes how to debug Python code|
-|[Debug JavaScript and TypeScript applications](/javascript/debug-nodejs)|Describes how to debug JavaScript, TypeScript, and Node.js applications|
+|[Debug JavaScript and TypeScript applications](../javascript/debug-nodejs.md)|Describes how to debug JavaScript, TypeScript, and Node.js applications|
 |[Debug Web applications](../debugger/debugging-web-applications.md)|Describes how to debug Web applications and script.|
 |[Debug WCF services](../debugger/debugging-wcf-services.md)|Describes how to debug Windows Communication Foundation services.|
