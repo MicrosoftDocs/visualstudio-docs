@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "code analysis,C/C++"
 author: mikeblome
 ms.author: mblome
-manager: wpickett
+manager: markl
 ms.workload:
   - "cplusplus"
 ---

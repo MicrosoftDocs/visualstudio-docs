@@ -4,7 +4,7 @@ ms.date: 08/14/2018
 ms.topic: "conceptual"
 author: mikeblome
 ms.author: mblome
-manager: wpickett
+manager: markl
 dev_langs:
  - CPP
 ---
