@@ -71,7 +71,6 @@ You must have an internet connection to complete this step.
 
 ::: moniker range="vs-2017"
 
-!IMPORTANT
 To get a bootstrapper for Visual Studio 2017, see the [Visual Studio previous versions](https://visualstudio.microsoft.com/vs/older-downloads/) download page for details on how to do so.
 
 Your setup executable&mdash;or to be more specific, the bootstrapper file&mdash;should match one of the following.
