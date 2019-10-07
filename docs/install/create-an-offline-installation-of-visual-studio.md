@@ -71,19 +71,18 @@ You must have an internet connection to complete this step.
 
 ::: moniker range="vs-2017"
 
->[!IMPORTANT]
->To download a bootstrapper for Visual Studio 2017, see the [Visual Studio previous versions](https://visualstudio.microsoft.com/vs/older-downloads/) download page for details on how to do so.
+!IMPORTANT
+To get a bootstrapper for Visual Studio 2017, see the [Visual Studio previous versions](https://visualstudio.microsoft.com/vs/older-downloads/) download page for details on how to do so.
 
-Your setup executable&mdash;or to be more specific, a bootstrapper file&mdash;should match one of the following.
+Your setup executable&mdash;or to be more specific, the bootstrapper file&mdash;should match one of the following.
 
 | Edition | Filename |
 |-------------|-----------------------|
-|Visual Studio Enterprise | **vs_enterprise.exe** |
-|Visual Studio Professional | **vs_professional.exe** |
-|Visual Studio Build Tools   | **vs_buildtools.exe** |
+|Visual Studio Community | vs_community.exe |
+|Visual Studio Professional | vs_professional.exe |
+|Visual Studio Enterprise | vs_enterprise.exe |
+|Visual Studio Build Tools   | vs_buildtools.exe |
 
-Other supported bootstrappers include **vs_feedbackclient.exe**, **vs_teamexplorer.exe**, **vs_testagent.exe**, **vs_testcontroller.exe**, and **vs_testprofessional.exe**.
- 
 ::: moniker-end
 
 ::: moniker range="vs-2019"

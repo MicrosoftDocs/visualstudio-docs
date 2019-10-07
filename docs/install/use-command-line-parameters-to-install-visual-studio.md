@@ -26,12 +26,11 @@ When you install Visual Studio from a command prompt, you can use a variety of c
 - Automate the installation process.
 - Create a cache (layout) of the installation files for later use.
 
-The command-line options are used in conjunction with the setup bootstrapper, which is the small (1 MB) file that initiates the download process. The bootstrapper is the first executable that is launched when you download from the Visual Studio site. Use the following links to get a direct link to the latest release bootstrapper for the product edition that you're installing:
+The command-line options are used in conjunction with the setup bootstrapper, which is the small (1 MB) file that initiates the download process. The bootstrapper is the first executable that is launched when you download from the Visual Studio site. Use the following links to get a direct link to the latest release bootstrapper for the product edition that you're installing.
 
 ::: moniker range="vs-2017"
 
->[!IMPORTANT]
->To download a bootstrapper for Visual Studio 2017, see the [**Visual Studio previous versions**](https://visualstudio.microsoft.com/vs/older-downloads/) download page for details on how to do so.
+To get a bootstrapper for Visual Studio 2017, see the [**Visual Studio previous versions**](https://visualstudio.microsoft.com/vs/older-downloads/) download page for details on how to do so.
 
 Your bootstrapper file should match or be similar to one of the following:
 
