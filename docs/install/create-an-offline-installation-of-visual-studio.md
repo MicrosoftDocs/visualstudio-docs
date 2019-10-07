@@ -1,7 +1,7 @@
 ---
 title: "Create an offline installation"
 description: "Learn how to install Visual Studio offline when you have an unreliable internet connection or low bandwidth."
-ms.date: 07/24/2019
+ms.date: 10/07/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
@@ -21,7 +21,7 @@ ms.technology: vs-installation
 
 ::: moniker range="vs-2017"
 
-We designed Visual Studio 2017 to work well in a variety of network and computer configurations. While we recommend that you try the [Visual Studio web installer](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download)&mdash;which is a small file and allows you to stay current with all the latest fixes and features&mdash;we understand that you might not be able to.
+We designed Visual Studio 2017 to work well in a variety of network and computer configurations. While we recommend that you try the [Visual Studio web installer](https://visualstudio.microsoft.com/vs/older-downloads)&mdash;which is a small file and allows you to stay current with all the latest fixes and features&mdash;we understand that you might not be able to.
 
 ::: moniker-end
 
@@ -69,20 +69,26 @@ Here's how.
 
 You must have an internet connection to complete this step.
 
-Start by downloading the Visual Studio bootstrapper for your chosen edition of Visual Studio. Your setup file&mdash;or bootstrapper&mdash;will match or be similar to one of the following.
-
 ::: moniker range="vs-2017"
 
-| Edition                    | File                                                                    |
-|----------------------------|-------------------------------------------------------------------------|
-| Visual Studio Community    | [vs_community.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=15&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=offline+install&utm_content=download+vs2017)       |
-| Visual Studio Professional | [vs_professional.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=15&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=offline+install&utm_content=download+vs2017) |
-| Visual Studio Enterprise   | [vs_enterprise.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=enterprise&rel=15&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=offline+install&utm_content=download+vs2017)     |
-| Visual Studio Build Tools   | [vs_buildtools.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=buildtools&rel=15&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=offline+install&utm_content=download+vs2017)     |
+>[!IMPORTANT]
+>To download a bootstrapper for Visual Studio 2017, see the [Visual Studio previous versions](https://visualstudio.microsoft.com/vs/older-downloads/) download page for details on how to do so.
 
+Your setup executable&mdash;or to be more specific, a bootstrapper file&mdash;should match one of the following.
+
+| Edition | Filename |
+|-------------|-----------------------|
+|Visual Studio Enterprise | **vs_enterprise.exe** |
+|Visual Studio Professional | **vs_professional.exe** |
+|Visual Studio Build Tools   | **vs_buildtools.exe** |
+
+Other supported bootstrappers include **vs_feedbackclient.exe**, **vs_teamexplorer.exe**, **vs_testagent.exe**, **vs_testcontroller.exe**, and **vs_testprofessional.exe**.
+ 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
+
+Start by downloading the Visual Studio bootstrapper for your chosen edition of Visual Studio. Your setup file&mdash;or bootstrapper&mdash;will match or be similar to one of the following.
 
 | Edition                    | File                                                                    |
 |----------------------------|-------------------------------------------------------------------------|

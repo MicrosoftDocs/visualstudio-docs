@@ -99,7 +99,7 @@ Next, download the Visual Studio bootstrapper file. To do so, choose the followi
 ::: moniker range="vs-2017"
 
  > [!div class="button"]
- > [Download Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download)
+ > [Download Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads)
 
 ::: moniker-end
 

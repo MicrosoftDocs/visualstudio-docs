@@ -2,7 +2,7 @@
 title: "Use command-line parameters to install Visual Studio"
 titleSuffix: ""
 description: "Learn how to use command-line parameters to control or customize your Visual Studio installation."
-ms.date: 09/11/2019
+ms.date: 10/07/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
@@ -30,9 +30,14 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 
 ::: moniker range="vs-2017"
 
-- [Visual Studio 2017 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=enterprise&rel=15&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2017)
-- [Visual Studio 2017 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=15&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2017)
-- [Visual Studio 2017 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=15&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2017)
+>[!IMPORTANT]
+>To download a bootstrapper for Visual Studio 2017, see the [**Visual Studio previous versions**](https://visualstudio.microsoft.com/vs/older-downloads/) download page for details on how to do so.
+
+Your bootstrapper file should match or be similar to one of the following:
+
+* vs_enterprise.exe
+* vs_professional.exe
+* vs_community.exe
 
 ::: moniker-end
 
