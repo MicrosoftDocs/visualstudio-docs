@@ -136,10 +136,7 @@ Accept the default format to generate your tests, or change how your project and
 ### Q: Can I use other unit test frameworks with IntelliTest?
 
 **A:** Yes, follow these steps to [find and install other frameworks](../test/install-third-party-unit-test-frameworks.md).
-Test framework extensions are also available in Visual Studio Marketplace:
-
-* [NUnit extension for the test generators](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension-18371)
-* [xUnit.net extension for the test generators](https://marketplace.visualstudio.com/items?itemName=BradWilson.xUnitnetTestExtensions)
+Test framework extensions are also available in Visual Studio Marketplace, for example, [NUnit Test Generator](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension-18371).
 
 After you restart Visual Studio and reopen your solution, right-click in the class or method, then choose **Create IntelliTest**. Select your installed framework here:
 
