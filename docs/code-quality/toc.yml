@@ -847,7 +847,7 @@
     href: quick-start-code-analysis-for-c-cpp.md
   - name: Analyze C/C++ code for defects
     href: walkthrough-analyzing-c-cpp-code-for-defects.md
-  - name: Demo sample
+  - name: Sample project
     href: demo-sample.md
   - name: Use the C++ Core Guidelines checkers
     href: using-the-cpp-core-guidelines-checkers.md
@@ -855,6 +855,8 @@
     href: how-to-set-code-analysis-properties-for-c-cpp-projects.md
   - name: Rule sets for C++ code
     href: using-rule-sets-to-specify-the-cpp-rules-to-run.md
+  - name: Use Clang-Tidy
+    href: clang-tidy.md
   - name: Use SAL annotations to reduce code defects
     items:
     - name: Overview
