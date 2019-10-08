@@ -1,6 +1,6 @@
 ---
 title: "Localizing Menu Commands | Microsoft Docs"
-ms.date: "11/04/2016"
+ms.date: "10/08/2019"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "localize"
@@ -118,9 +118,19 @@ You can provide localized text for menu and toolbar commands by creating localiz
 
 4. Open the project file in the editor.
 
-5. Locate the `ItemGroup` element that contains `EmbeddedResource` elements.
+5. In the root `Project` element, add a `PropertyGroup` element with a `UICulture` element matches your default language.
 
-6. In the `EmbeddedResource` element that calls *VSPackage.en-US.resx*, replace the `ManifestResourceName` element with a `LogicalName` element, set to `VSPackage.en-US.Resources`, as follows.
+    ```xml
+    <PropertyGroup>
+      <UICulture>en-US</UICulture>
+    </PropertyGroup>
+    ```
+
+     This sets US English as the default UI culture for Windows Presentation Foundation (WPF) controls.
+
+6. Locate the `ItemGroup` element that contains `EmbeddedResource` elements.
+
+7. In the `EmbeddedResource` element that calls *VSPackage.en-US.resx*, replace the `ManifestResourceName` element with a `LogicalName` element, set to `VSPackage.en-US.Resources`, as follows.
 
     ```xml
     <EmbeddedResource Include="VSPackage.en-US.resx">
@@ -129,9 +139,9 @@ You can provide localized text for menu and toolbar commands by creating localiz
     </EmbeddedResource>
     ```
 
-7. For each localized language, copy the  `EmbeddedResource` element for `VsPackage.en-US`, and set the **Include** attribute and **LogicalName** element of the copy to the target locale, as shown in the following example.
+8. For each localized language, copy the  `EmbeddedResource` element for `VsPackage.en-US`, and set the **Include** attribute and **LogicalName** element of the copy to the target locale, as shown in the following example.
 
-8. To each localized `VSCTCompile` element, add a `ResourceName` element that points to `Menus.ctmenu`, as shown in the following example.
+9. To each localized `VSCTCompile` element, add a `ResourceName` element that points to `Menus.ctmenu`, as shown in the following example.
 
     ```xml
     <ItemGroup>
@@ -141,9 +151,9 @@ You can provide localized text for menu and toolbar commands by creating localiz
     </ItemGroup>
     ```
 
-9. Save the project file and reload the project.
+10. Save the project file and reload the project.
 
-10. Build the project.
+11. Build the project.
 
      This creates a main assembly, and resource assemblies for each language. For information on localizing the deployment process, see [Localize VSIX packages](../extensibility/localizing-vsix-packages.md)
 
