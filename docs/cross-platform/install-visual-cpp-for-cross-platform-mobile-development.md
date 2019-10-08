@@ -19,18 +19,30 @@ You can use C++ in Visual Studio to build Windows Desktop apps, Universal Window
 
 ## Requirements
 
+::: moniker range="vs-2017"
+
 - For installation requirements, see [Visual Studio product family system requirements](/visualstudio/productinfo/vs2017-system-requirements-vs).
 
    > [!IMPORTANT]
    > If you are using Windows 7 or Windows Server 2008 R2, you can develop code for Windows Desktop applications, Android Native Activity apps and libraries, and apps and code libraries for iOS, but not Windows Phone or UWP apps.
 
+::: moniker-end
+::: moniker range=">=vs-2019"
+
+- For installation requirements, see [Visual Studio product family system requirements](/visualstudio/releases/2019/system-requirements).
+
+   > [!IMPORTANT]
+   > If you are using Windows 7 or Windows Server 2008 R2, you can develop code for Windows Desktop applications, Android Native Activity apps and libraries, and apps and code libraries for iOS, but not Windows Phone or UWP apps.
+
+::: moniker-end
+
 To build apps for specific device platforms, there are some additional requirements:
 
-- Windows Phone emulators and the Microsoft Visual Studio Emulator for Android require a computer that can run Hyper-V. The Hyper-V feature in Windows must be enabled before you can install and run the emulators. For more information, see the emulator's [system requirements](system-requirements-for-the-visual-studio-emulator-for-android.md).
+- The x86 Android emulators that come with the Android SDK work best on computers that can use hardware acceleration. For more information, see [Hardware acceleration for emulator performance (Hyper-V & HAXM)](/xamarin/android/get-started/installation/android-emulator/hardware-acceleration?tabs=vswin&pivots=windows).
 
-- The x86 Android emulators that come with the Android SDK work best on computers that can run the Intel HAXM driver. This driver requires an Intel x64 processor with VT-x and Execute Disable Bit support. For more information, see [Intel® Hardware Accelerated Execution Manager (Intel® HAXM)](https://go.microsoft.com/fwlink/p/?LinkId=536385).
+- Building code for iOS requires an Apple ID, an iOS Developer Program account, and a Mac computer that can run [Xcode](https://developer.apple.com/xcode/) version 10.2 or later on OS X Mavericks (version 10.9) or later versions. For a link to installation steps, see [Install tools for iOS](#install-tools-for-ios).
 
-- Building code for iOS requires an Apple ID, an iOS Developer Program account, and a Mac computer that can run [Xcode](https://go.microsoft.com/fwlink/p/?LinkId=536387) version 6 or later on OS X Mavericks (version 10.9) or later versions. For a link to installation steps, see [Install tools for iOS](#install-tools-for-ios).
+- Windows Phone emulators require a computer that can run Hyper-V. The Hyper-V feature in Windows must be enabled before you can install and run the emulators. For more information, see the emulator's [system requirements](system-requirements-for-the-visual-studio-emulator-for-android.md).
 
 ## Get the tools
 
@@ -38,13 +50,13 @@ Mobile development with C++ is available in Visual Studio Community, Professiona
 
 ## Install the tools
 
-The Visual Studio Installer for Visual Studio 2017 includes a **Mobile development with C++** workload that installs the C++ language tools, templates, and components required for Android and iOS development in Visual Studio. It installs the GCC and Clang tool sets needed for Android builds and debugging, and components to communicate with a Mac for iOS development. It also installs all the third-party tools and software development kits that are required to support iOS and Android app development. Most of these third-party tools are open-source software required for Android platform support.
+The Visual Studio Installer includes a **Mobile development with C++** workload that installs the C++ language tools, templates, and components required for Android and iOS development in Visual Studio. It installs the GCC and Clang tool sets needed for Android builds and debugging, the Android SDK, and components to communicate with a Mac for iOS development. It also installs all the other third-party tools and software development kits that are required to support iOS and Android app development. Most of these third-party tools are open-source software required for Android platform support.
 
-- Android Native Development Kit (NDK) is required to build C++ code that targets the Android platform.
+- Android Native Development Kit (NDK), Apache Ant, and the C++ Android development tools are required to build C++ code that targets the Android platform.
 
-- Android SDK, Apache Ant, and Java SE Development Kit are required for the Android build process.
+- The Google Android Emulator and Intel Hardware Accelerated Execution Manager (HAXM) are optional, but recommended, components. (The Intel HAXM drivers only work on Intel processors, and are incompatible with some VMs, including Hyper-V.) You can develop and debug directly on an Android device, but it's often easier to use an emulator on your desktop for debugging.
 
-- The Google Android Emulator and Intel Hardware Accelerated Execution Manager are optional, but recommended, components. You can develop and debug directly on an Android device, but it's often easier to use an emulator on your desktop for debugging. Microsoft also provides a Visual Studio Emulator for Android that can be installed separately.
+- C++ iOS development tools are required to build C++ code that targets the iOS platform.
 
 ### Install the Mobile development with C++ workload
 
@@ -78,34 +90,9 @@ You can use Visual C++ for Cross-Platform Mobile Development to edit, debug, and
 
 If you decide not to install one or more third-party dependencies using the Visual Studio installer when you install the **Mobile development with C++** workload (or in Visual Studio 2015, the Visual C++ Mobile Development option), you can install them later by using the steps in [Install the tools](#install-the-tools). The Visual Studio Installer is updated regularly to install the latest third-party components. You can use it to install updated SDKs and NDKs. You can also install or update them independently of Visual Studio.
 
-> [!CAUTION]
-> You can install the dependencies in any order, except for Java. You must install and configure the JDK before you install the Android SDK.
+You can run the SDK Manager app in the Android SDK directory again to update the SDK and install optional tools and additional API levels. Updates may fail to install unless you use **Run as administrator** to run the SDK Manager app. If you have problems building an Android app, check the SDK Manager for updates to your installed SDKs.
 
-Read the following information and use these links to install dependencies manually.
-
-- [Java SE Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-
-   By default, the installer puts the Java tools in *C:\Program Files (x86)\Java*.
-
-- [Android SDK](https://developer.android.com/sdk/index.html#command-tools)
-
-   During the installation, update the APIs as recommended. Make sure that at least the SDK for Android 5.0 Lollipop (API level 21) is installed. By default, the installer puts the Android SDK in *C:\Program Files (x86)\Android\android-sdk*.
-
-   You can run the SDK Manager app in the Android SDK directory again to update the SDK and install optional tools and additional API levels. Updates may fail to install unless you use **Run as administrator** to run the SDK Manager app. If you have problems building an Android app, check the SDK Manager for updates to your installed SDKs.
-
-   To use some of the Android emulators that come with the Android SDK, you must install the optional Intel HAXM drivers. You may have to remove the Hyper-V feature from Windows to install the Intel HAXM drivers successfully. You must restore the Hyper-V feature to use the Windows Phone emulators and the Microsoft Visual Studio Emulator for Android. For more information, see [Android Emulator hardware acceleration](https://docs.microsoft.com/xamarin/android/get-started/installation/android-emulator/hardware-acceleration?tabs=vswin).
-
-- [Android NDK](https://developer.android.com/tools/sdk/ndk/index.html)
-
-   By default, the installer puts the Android NDK in *C:\ProgramData\Microsoft\AndroidNDK*. You can download and install the Android NDK again to update the NDK installation.
-
-- [Apache Ant](https://ant.apache.org/bindownload.cgi)
-
-   By default, the installer puts Apache Ant in *C:\Program Files (x86)\Microsoft Visual Studio 14.0\Apps*.
-
-- [Microsoft Visual Studio Emulator for Android](https://aka.ms/vscomemudownload)
-
-   Microsoft Visual Studio Emulator for Android is an optional emulator useful for testing and debugging your code. After the release of Visual Studio Emulator for Android, Google updated their Android emulator to use hardware acceleration through Intel’s HAXM. We recommend you use Google’s accelerated emulator when you can, as it offers access to the latest Android OS images and Google Play services.
+To use some of the Android emulators that come with the Android SDK, you may need to set up hardware acceleration. For more information, see [Hardware acceleration for emulator performance (Hyper-V & HAXM)](https://docs.microsoft.com/xamarin/android/get-started/installation/android-emulator/hardware-acceleration?tabs=vswin).
 
 In most cases, Visual Studio can detect the configurations for the third-party software you've installed, and maintains the installation paths in internal environment variables. You can override the default paths of these cross-platform development tools in the Visual Studio IDE.
 

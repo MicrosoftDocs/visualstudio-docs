@@ -25,7 +25,7 @@ To build and test the iOS app, you'll need a Mac computer, set up according to t
 
 ## Create a new OpenGLES Application project
 
-In this tutorial, you first create a new OpenGL ES Application project. and then build and run the default app in the Visual Studio Emulator for Android. Next you build the app for iOS and run the app on an iOS device.
+In this tutorial, you first create a new OpenGL ES Application project. and then build and run the default app in an Android emulator. Next you build the app for iOS and run the app on an iOS device.
 
 ::: moniker range="vs-2017"
 
@@ -121,7 +121,7 @@ To deploy an iOS app to an iOS device, you must also set up automatic signing on
 
 ### To set up automatic signing on Xcode
 
-1. If you haven't already, install [Xcode](https://developer.apple.com/xcode/downloads/) version 10.2.1 or later on your Mac.
+1. If you haven't already, install [Xcode](https://developer.apple.com/xcode/) version 11 or later on your Mac.
 
 1. Open the Xcode app on your Mac.
 
