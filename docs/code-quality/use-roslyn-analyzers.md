@@ -132,7 +132,7 @@ Visual Studio provides a convenient way to configure a rule's severity from the 
 
 ![Rule set file in Solution Explorer](media/ruleset-in-solution-explorer.png)
 
-1. Open the active [rule set](analyzer-rule-sets.md) file by double-clicking it in **Solution Explorer**, selecting **Open Active Rule Set** on the right-click menu of the **References** > **Analyzers** node, or by selecting **Open** on the **Code Analysis** property page for the project.
+1. Open the active rule set file by double-clicking it in **Solution Explorer**, selecting **Open Active Rule Set** on the right-click menu of the **References** > **Analyzers** node, or by selecting **Open** on the **Code Analysis** property page for the project.
 
    If this is the first time you're editing the rule set, Visual Studio makes a copy of the default rule set file, names it *\<projectname>.ruleset*, and adds it to your project. This custom rule set also becomes the active rule set for your project.
 

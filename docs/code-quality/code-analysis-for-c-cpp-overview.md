@@ -40,7 +40,7 @@ You can also use the analysis tool from the command line, as shown in the follow
 C:\>cl /analyze Sample.cpp
 ```
 
-**Visual Studio 2017 version 15.7 and later** You can run the tool from the command line with any build system including CMake.
+**Visual Studio 2017 version 15.7 and later:** You can run the tool from the command line with any build system including CMake.
 
 ## #pragma support
 
