@@ -1,7 +1,7 @@
 ---
 title: "Build an OpenGL ES Application on Android and iOS | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/17/2019"
+ms.date: "10/09/2019"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 dev_langs:
@@ -121,7 +121,7 @@ To deploy an iOS app to an iOS device, you must also set up automatic signing on
 
 ### To set up automatic signing on Xcode
 
-1. If you haven't already, install [Xcode](https://developer.apple.com/xcode/) version 11 or later on your Mac.
+1. If you haven't already, install [Xcode](https://developer.apple.com/xcode/) on your Mac.
 
 1. Open the Xcode app on your Mac.
 
