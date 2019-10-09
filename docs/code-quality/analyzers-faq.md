@@ -18,24 +18,30 @@ This page contains answers to some frequently asked questions about .NET Compile
 
 **Q**: Should I use code analysis or EditorConfig for checking code style?
 
-**A**: Code analysis and EditorConfig files work hand-in-hand. When you define code styles [in an EditorConfig file](../ide/editorconfig-code-style-settings-reference.md) or on the [text editor Options](../ide/code-styles-and-code-cleanup.md) page, you're actually configuring the code analyzers that are built into Visual Studio. EditorConfig files can also be used to configure some NuGet analyzer packages, such as [FxCop analyzers](configure-fxcop-analyzers.md).
+**A**: Code analysis and EditorConfig files work hand-in-hand. When you define code styles [in an EditorConfig file](../ide/editorconfig-code-style-settings-reference.md) or on the [text editor Options](../ide/code-styles-and-code-cleanup.md) page, you're actually configuring the code analyzers that are built into Visual Studio. EditorConfig files can be used to enable or disable analyzer rules, and also to configure some NuGet analyzer packages, such as [FxCop analyzers](configure-fxcop-analyzers.md).
 
 ## EditorConfig versus rule sets
 
 **Q**: Should I configure my analyzers using a rule set or an EditorConfig file?
 
-**A**: Rule sets and EditorConfig files can coexist and can both be used to configure analyzers. [Rule sets](analyzer-rule-sets.md) let you enable and disable rules and set their severity. EditorConfig files offer other ways to configure rules. For FxCop analyzers, EditorConfig files let you [define which types of code to analyze](fxcop-analyzer-options.md). For the code-style analyzers that are built into Visual Studio, EditorConfig files let you [define the preferred code styles](../ide/editorconfig-code-style-settings-reference.md) for a codebase.
+**A**: Rule sets and EditorConfig files can coexist and can both be used to configure analyzers. Both EditorConfig files and rule sets let you enable and disable rules and set their severity.
+
+However, EditorConfig files offer additional ways to configure rules too:
+
+- For FxCop analyzers, EditorConfig files let you [define which types of code to analyze](fxcop-analyzer-options.md).
+- For the code-style analyzers that are built into Visual Studio, EditorConfig files let you [define the preferred code styles](../ide/editorconfig-code-style-settings-reference.md) for a codebase.
 
 In addition to rule sets and EditorConfig files, some analyzers are configured through the use of text files marked as [additional files](../ide/build-actions.md#build-action-values) for the C# and VB compilers.
 
 > [!NOTE]
-> EditorConfig files cannot be used to configure legacy analysis, whereas rule sets can.
+> - EditorConfig files can only be used to enable rules and set their severity in Visual Studio 2019 version 16.3 and later.
+> - EditorConfig files cannot be used to configure legacy analysis, whereas rule sets can.
 
 ## Code analysis in CI builds
 
 **Q**: Does .NET Compiler Platform-based code analysis work in continuous integration (CI) builds?
 
-**A**: Yes. For analyzers that are installed from a NuGet package, those rules are [enforced at build time](roslyn-analyzers-overview.md#build-errors), including during a CI build. Analyzers used in CI builds respect rule configuration from both [rule sets](analyzer-rule-sets.md) and [.editorconfig files](configure-fxcop-analyzers.md). Currently, the code analyzers that are built into Visual Studio are not available as a NuGet package, and so these rules are not enforceable in a CI build.
+**A**: Yes. For analyzers that are installed from a NuGet package, those rules are [enforced at build time](roslyn-analyzers-overview.md#build-errors), including during a CI build. Analyzers used in CI builds respect rule configuration from both rule sets and EditorConfig files. Currently, the code analyzers that are built into Visual Studio are not available as a NuGet package, and so these rules are not enforceable in a CI build.
 
 ## IDE analyzers versus StyleCop
 
