@@ -15,13 +15,13 @@ ms.workload:
 The [FxCop analyzers package](install-fxcop-analyzers.md) consists of the most important "FxCop" rules from legacy analysis converted to .NET Compiler Platform-based code analyzers. For certain FxCop rules, you can refine which parts of your codebase they should be applied to through [configurable options](fxcop-analyzer-options.md). Each option is specified by adding a key-value pair to an [EditorConfig](https://editorconfig.org) file. A configuration file can be [specific to a project](#per-project-configuration) or it can be [shared](#shared-configuration) between two or more projects.
 
 > [!TIP]
-> You can add an .editorconfig file to your project by right-clicking on the project in **Solution Explorer** and selecting **Add** > **New Item**. In the **Add New Item** window, enter **editorconfig** in the search box. Select the **editorconfig File (default)** template and choose **Add**.
+> Add an .editorconfig file to your project by right-clicking on the project in **Solution Explorer** and selecting **Add** > **New Item**. In the **Add New Item** window, enter **editorconfig** in the search box. Select the **editorconfig File (default)** template and choose **Add**.
 >
 > ![Add editorconfig file to project in Visual Studio](media/add-editorconfig-file.png)
 
 ::: moniker range=">=vs-2019"
 
-For information about configuring a rule's severity (for example, whether it's an error or a warning), see [Set rule severity in an EditorConfig file](use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file). Or, you can choose one of the built-in [rule sets](analyzer-rule-sets.md) to quickly enable or disable a category of rules.
+For information about configuring a rule's severity (for example, whether it's an error or a warning), see [Set rule severity in an EditorConfig file](use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file). Or, you can choose one of the built-in [EditorConfig files or rule sets](analyzer-rule-sets.md) to quickly enable or disable a category of rules.
 
 ::: moniker-end
 

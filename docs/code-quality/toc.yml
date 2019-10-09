@@ -33,7 +33,7 @@
           href: configure-fxcop-analyzers.md
         - name: Scope options
           href: fxcop-analyzer-options.md
-        - name: Predefined rule sets
+        - name: Enable a category of rules
           href: analyzer-rule-sets.md
       - name: FAQ
         href: fxcop-analyzers-faq.md
