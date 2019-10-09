@@ -1,6 +1,6 @@
 ---
-title: FxCop analyzer rule sets
-ms.date: 09/23/2019
+title: FxCop analyzer rule sets and editorconfig files
+ms.date: 10/08/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "analyzer packages, rule sets"
@@ -11,34 +11,59 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Rule sets for analyzer packages
+# Enable a category of rules
 
-Predefined rule sets are included with some NuGet analyzer packages. For example, the rule sets that are included with the [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) NuGet analyzer package (starting in version 2.6.2) enable or disable rules based on their category, such as security, naming, or performance. Using rule sets makes it easy to quickly see only those rule violations that pertain to a particular category of rule.
+Analyzer packages may include predefined [EditorConfig](use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file) and [rule set](using-rule-sets-to-group-code-analysis-rules.md) files that make it quick and easy to enable a category of rules, such as security or design rules. The [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) NuGet analyzer package includes both rule sets (starting in version 2.6.2) and EditorConfig files (starting in version 2.9.5). By enabling a specific category of rules, you can identify targeted issues and specific conditions.
 
-A rule set is a grouping of code analysis rules that identify targeted issues and specific conditions. Rule sets let you enable or disable rules and set the severity for individual rule violations. The FxCop analyzer NuGet package includes predefined rule sets for the following rule categories:
+> [!NOTE]
+> Enabling analyzer rules and setting their severity by using an EditorConfig file is supported starting in Visual Studio 2019 version 16.3.
 
-- design
-- documentation
-- maintainability
-- naming
-- performance
-- reliability
-- security
-- usage
+The FxCop analyzer NuGet package includes predefined rule sets and EditorConfig files for the following rule categories:
 
-If you're migrating from legacy "FxCop" analysis to .NET Compiler Platform-based code analysis, these rule sets enable you to continue using similar rule configurations to [those you used previously](rule-set-reference.md).
+- All rules
+- Dataflow
+- Design
+- Documentation
+- Globalization
+- Interoperability
+- Maintainability
+- Naming
+- Performance
+- Ported from FxCop
+- Reliability
+- Security
+- Usage
 
-## Use analyzer package rule sets
+Each of those categories of rules has an EditorConfig or rule set file to:
 
-After you [install a NuGet analyzer package](install-roslyn-analyzers.md), locate the predefined rule set in its *rulesets* directory. For example, if you referenced the `Microsoft.CodeAnalysis.FxCopAnalyzers` analyzer package, then you can find its *rulesets* directory at *%USERPROFILE%\\.nuget\packages\microsoft.codeanalysis.fxcopanalyzers\\\<version\>\rulesets*. From there, copy one or more of the rulesets and paste them in the directory that contains your Visual Studio project or directly into **Solution Explorer**.
+- enable all the rules in the category (and disable all other rules)
+- use each rule's default severity and enablement setting (and disable all other rules)
+
+> [!TIP]
+> The "all rules" category has an additional EditorConfig or rule set file to disable all rules. Use this file to quickly get rid of any analyzer warnings or errors in a project.
+
+> [!TIP]
+> If you're migrating from legacy "FxCop" analysis to .NET Compiler Platform-based code analysis, the EditorConfig and rule set files enable you to continue using similar rule configurations to [those you used previously](rule-set-reference.md).
+
+## Predefined EditorConfig files
+
+The predefined EditorConfig files for the Microsoft.CodeAnalysis.FxCopAnalyzers analyzer package are located in the *%USERPROFILE%\\.nuget\packages\microsoft.codeanalysis.fxcopanalyzers\\\<version\>\editorconfig* directory. For example, the EditorConfig file to enable all security rules is located at *%USERPROFILE%\\.nuget\packages\microsoft.codeanalysis.fxcopanalyzers\\\<version\>\editorconfig\SecurityRulesEnabled\\.editorconfig*.
+
+Copy the chosen .editorconfig file to your project's root directory.
+
+## Predefined rule sets
+
+The predefined rule set files for the Microsoft.CodeAnalysis.FxCopAnalyzers analyzer package are located in the *%USERPROFILE%\\.nuget\packages\microsoft.codeanalysis.fxcopanalyzers\\\<version\>\rulesets* directory. For example, the rule set file to enable all security rules is located at *%USERPROFILE%\\.nuget\packages\microsoft.codeanalysis.fxcopanalyzers\\\<version\>\rulesets\SecurityRulesEnabled.ruleset*.
+
+Copy one or more of the rule sets and paste them in the directory that contains your Visual Studio project or directly into **Solution Explorer**.
 
 You can also [customize a predefined rule set](how-to-create-a-custom-rule-set.md) to your preference. For example, you can change the severity of one or more rules so that violations appear as errors or warnings in the **Error List**.
 
-## Set the active rule set
+### Set the active rule set
 
 The process for setting the active rule set is a little different depending on whether you have a .NET Core/.NET Standard project or a .NET Framework project.
 
-### .NET Core
+#### .NET Core
 
 To make a rule set the active rule set for analysis in .NET Core or .NET Standard projects, manually add the **CodeAnalysisRuleSet** property to your project file. For example, the following code snippet sets `HelloWorld.ruleset` as the active rule set.
 
@@ -49,7 +74,7 @@ To make a rule set the active rule set for analysis in .NET Core or .NET Standar
 </PropertyGroup>
 ```
 
-### .NET Framework
+#### .NET Framework
 
 To make a rule set the active rule set for analysis in .NET Framework projects:
 
@@ -70,27 +95,6 @@ To make a rule set the active rule set for analysis in .NET Framework projects:
 ::: moniker-end
 
    Now you only see rule violations for those rules that are enabled in the selected rule set.
-
-## Available rule sets
-
-The predefined analyzer rule sets include three rulesets that affect all the rules in the package&mdash;one that enables them all, one that disables them all, and one that honors each rule's default severity and enablement settings:
-
-- AllRulesEnabled.ruleset
-- AllRulesDisabled.ruleset
-- AllRulesDefault.ruleset
-
-Additionally, there are two rule sets for each category of rules in the package, such as performance or security. One rule set enables all rules for the category, and one rule set honors the default severity and enablement settings for each rule in the category.
-
-The [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) NuGet analyzer package includes rule sets for the following categories:
-
-- design
-- documentation
-- maintainability
-- naming
-- performance
-- reliability
-- security
-- usage
 
 ## See also
 
