@@ -33,7 +33,7 @@
           href: configure-fxcop-analyzers.md
         - name: Scope options
           href: fxcop-analyzer-options.md
-        - name: Predefined rule sets
+        - name: Enable a category of rules
           href: analyzer-rule-sets.md
       - name: FAQ
         href: fxcop-analyzers-faq.md
@@ -532,11 +532,11 @@
           displayName: "portability warnings"
           href: portability-warnings.md
         - name: "CA1900: Value type fields should be portable"
-          href: ca1900-value-type-fields-should-be-portable.md
+          href: ca1900.md
         - name: "CA1901: P-Invoke declarations should be portable"
-          href: ca1901-p-invoke-declarations-should-be-portable.md
+          href: ca1901.md
         - name: "CA1903: Use only API from targeted framework"
-          href: ca1903-use-only-api-from-targeted-framework.md
+          href: ca1903.md
       - name: Reliability warnings
         items:
         - name: Overview
@@ -847,7 +847,7 @@
     href: quick-start-code-analysis-for-c-cpp.md
   - name: Analyze C/C++ code for defects
     href: walkthrough-analyzing-c-cpp-code-for-defects.md
-  - name: Demo sample
+  - name: Sample project
     href: demo-sample.md
   - name: Use the C++ Core Guidelines checkers
     href: using-the-cpp-core-guidelines-checkers.md
@@ -855,6 +855,8 @@
     href: how-to-set-code-analysis-properties-for-c-cpp-projects.md
   - name: Rule sets for C++ code
     href: using-rule-sets-to-specify-the-cpp-rules-to-run.md
+  - name: Use Clang-Tidy
+    href: clang-tidy.md
   - name: Use SAL annotations to reduce code defects
     items:
     - name: Overview
