@@ -40,7 +40,7 @@ Remove all underscore characters from the name.
 
 ## When to suppress warnings
 
-CA1707 is meant only for production code, so should be explicitly turned off for test projects using [Rule severity](https://docs.microsoft.com/en-us/visualstudio/code-quality/use-roslyn-analyzers?view=vs-2019#rule-severity).
+Do not suppress warnings for production code. However, it's safe to suppress this warning for test code. You can suppress warnings from this rule by setting its [severity](use-roslyn-analyzers.md#rule-severity) to **none**. 
 
 ## Related rules
 
