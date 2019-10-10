@@ -52,7 +52,7 @@ The following example shows a type that implements <xref:System.IDisposable> to 
 ## Related rules
 [CA2115: Call GC.KeepAlive when using native resources](../code-quality/ca2115-call-gc-keepalive-when-using-native-resources.md)
 
-[CA1816: Call GC.SuppressFinalize correctly](../code-quality/ca1816-call-gc-suppressfinalize-correctly.md)
+[CA1816: Call GC.SuppressFinalize correctly](../code-quality/ca1816.md)
 
 [CA2216: Disposable types should declare finalizer](../code-quality/ca2216-disposable-types-should-declare-finalizer.md)
 
