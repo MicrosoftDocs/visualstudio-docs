@@ -8289,6 +8289,11 @@
       "source_path": "docs/code-quality/ca1903-use-only-api-from-targeted-framework.md",
       "redirect_url": "/visualstudio/code-quality/ca1903",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/version-control/index.md",
+      "redirect_url": "/azure/devops/repos/index",
+      "redirect_document_id": false
     }
   ]
 }
