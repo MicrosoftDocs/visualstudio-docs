@@ -28,7 +28,7 @@ Live Unit Testing works with the three popular unit testing frameworks listed in
 |NUnit |NUnit3TestAdapter version 3.5.1 |NUnit version 3.5.0 |
 |MSTest |MSTest.TestAdapter 1.1.4-preview |MSTest.TestFramework 1.0.5-preview |
 
-If you have older MSTest-based test projects that reference <xref:Microsoft.VisualStudio.QualityTools.UnitTestFramework?displayProperty=fullName> and you don’t wish to move to the newer MSTest NuGet packages, upgrade to Visual Studio 2019 or Visual Studio 2017.
+If you have older MSTest-based test projects that reference Microsoft.VisualStudio.QualityTools.UnitTestFramework, and you don’t wish to move to the newer MSTest NuGet packages, upgrade to Visual Studio 2019 or Visual Studio 2017.
 
 In some cases, you may need to explicitly restore the NuGet packages referenced by a project in order for Live Unit Testing to work. You can do this either by doing an explicit build of the solution (select **Build** > **Rebuild Solution** from the top-level Visual Studio menu) or by restoring packages in the solution (right-click on the solution and select **Restore NuGet Packages**).
 
@@ -37,7 +37,7 @@ In some cases, you may need to explicitly restore the NuGet packages referenced 
 Configure Live Unit Testing by selecting **Tools** > **Options** from the top-level Visual Studio menu bar, and then selecting **Live Unit Testing** in the left pane of the **Options** dialog.
 
 > [!TIP]
-> After Live Unit Testing is enabled (see the next section, [Start, pause, and stop Live Unit Testing](#start-pause-and-stop-live-unit-testing)), you can also open the **Options** dialog by selecting **Test** > **Live Unit Testing** > **Options**.
+> After Live Unit Testing is enabled (see the next section, [Start, pause, and stop Live Unit Testing](#start-pause-and-stop)), you can also open the **Options** dialog by selecting **Test** > **Live Unit Testing** > **Options**.
 
 The following image shows the Live Unit Testing configuration options available in the dialog:
 
@@ -169,7 +169,11 @@ To select the individual projects in unit tests, do the following after Live Uni
 
 ### Exclude individual tests from the code editor window
 
-You can use the code editor window to include or exclude individual test methods. Right-click on the signature of the test method in the code editor window, and then select **Live Tests** > **Include \<selected method>**, **Live Tests** > **Exclude \<selected method>**, or **Live Tests** > **Exclude All But \<selected method>**.
+You can use the code editor window to include or exclude individual test methods. Right-click on the signature of the test method in the code editor window, and then select one of the following options:
+
+- **Live Tests** > **Include \<selected method>**
+- **Live Tests** > **Exclude \<selected method>**
+- **Live Tests** > **Exclude All But \<selected method>**
 
 ### Exclude tests programmatically
 
