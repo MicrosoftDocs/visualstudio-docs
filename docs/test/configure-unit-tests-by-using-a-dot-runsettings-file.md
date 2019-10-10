@@ -263,6 +263,9 @@ public void HomePageTest()
 
 To use test run parameters, add a private <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> field and a public <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> property to your test class.
 
+> [!NOTE]
+> It's best practice to store passwords in a non-visible, secure location, see [Best practices for deploying passwords](/aspnet/identity/overview/features-api/best-practices-for-deploying-passwords-and-other-sensitive-data-to-aspnet-and-azure). The examples above are intended for test environments only.
+
 ### MSTest run settings
 
 ```xml
