@@ -44,6 +44,20 @@
       href: pen-tool-modifier-keys-in-blend.md
     - name: Direct selection tool modifier keys (Blend)
       href: direct-selection-tool-modifier-keys-in-blend.md
+- name: Debug XAML
+  items:
+  - name: Inspect XAML properties while debugging
+    href: inspect-xaml-properties-while-debugging.md
+  - name: XAML Hot Reload
+    items:
+    - name: Write and debug running XAML code
+      href: xaml-hot-reload.md
+    - name: Troubleshoot
+      href: xaml-hot-reload-troubleshooting.md
+  - name: Debug XAML in Blend
+    href: debug-xaml-in-blend.md
+  - name: Debug UWP apps >>
+    href: debugging-windows-store-and-windows-universal-apps.md
 - name: Windows Presentation Foundation (WPF)
   items:
   - name: Get started
@@ -90,3 +104,11 @@
           href: ../designers/l2dbform-xaml-source-code.md
         - name: L2DBForm.xaml.cs source code
           href: ../designers/l2dbform-xaml-cs-source-code.md
+  - name: Debug WPF apps
+    items:
+    - name: Debug WPF
+      href: ../debugger/debugging-wpf.md?toc=/visualstudio/debugger/toc.json&bc=/visualstudio/debugger/breadcrumb/toc.json
+    - name: Use the WPF Tree Visualizer
+      href: ../debugger/how-to-use-the-wpf-tree-visualizer.md?toc=/visualstudio/debugger/toc.json&bc=/visualstudio/debugger/breadcrumb/toc.json
+    - name: Display WPF trace information
+      href: ../debugger/how-to-display-wpf-trace-information.md?toc=/visualstudio/debugger/toc.json&bc=/visualstudio/debugger/breadcrumb/toc.json
