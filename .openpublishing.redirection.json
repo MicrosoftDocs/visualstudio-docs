@@ -8241,6 +8241,41 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "docs/code-quality/ca2000-dispose-objects-before-losing-scope.md",
+      "redirect_url": "/visualstudio/code-quality/ca2000",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2001-avoid-calling-problematic-methods.md",
+      "redirect_url": "/visualstudio/code-quality/ca2001",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2002-do-not-lock-on-objects-with-weak-identity.md",
+      "redirect_url": "/visualstudio/code-quality/ca2002",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2003-do-not-treat-fibers-as-threads.md",
+      "redirect_url": "/visualstudio/code-quality/ca2003",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2004-remove-calls-to-gc-keepalive.md",
+      "redirect_url": "/visualstudio/code-quality/ca2004",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2006-use-safehandle-to-encapsulate-native-resources.md",
+      "redirect_url": "/visualstudio/code-quality/ca2006",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2007-do-not-directly-await-task.md",
+      "redirect_url": "/visualstudio/code-quality/ca2007",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "docs/code-quality/ca1900-value-type-fields-should-be-portable.md",
       "redirect_url": "/visualstudio/code-quality/ca1900",
       "redirect_document_id": true
