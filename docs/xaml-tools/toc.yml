@@ -1,0 +1,92 @@
+- name: XAML tools in Visual Studio
+  href: index.yml
+- name: XAML overview
+  href: xaml-overview.md
+- name: XAML Designer
+  items:
+  - name: Design XAML in Visual Studio and Blend
+    href: designing-xaml-in-visual-studio.md
+  - name: XAML Designer overview
+    href: creating-a-ui-by-using-xaml-designer-in-visual-studio.md
+  - name: Work with elements
+    href: working-with-elements-in-xaml-designer.md
+  - name: Organize objects into layout containers
+    href: organize-objects-into-layout-containers-in-xaml-designer.md
+  - name: Create and apply a resource
+    href: how-to-create-and-apply-a-resource.md
+  - name: "Walkthrough: Bind to data"
+    href: walkthrough-binding-to-data-in-xaml-designer.md
+  - name: Debug or disable project code
+    href: debugging-or-disabling-project-code-in-xaml-designer.md
+  - name: Blend for Visual Studio
+    items:
+    - name: Overview
+      href: creating-a-ui-by-using-blend-for-visual-studio.md
+    - name: Draw shapes and paths
+      href: draw-shapes-and-paths.md
+    - name: Modify the style of objects
+      href: modify-the-style-of-objects-in-blend.md
+    - name: Animate objects
+      href: animate-objects-in-xaml-designer.md
+    - name: Display data
+      href: display-data-in-blend.md
+  - name: Reference
+    items:
+    - name: XAML errors and warnings
+      href: xaml-errors-warnings.md
+    - name: Keyboard shortcuts for XAML Designer
+      href: keyboard-shortcuts-for-xaml-designer.md
+    - name: Keyboard shortcuts for Blend
+      href: keyboard-shortcuts-in-blend.md
+    - name: Artboard modifier keys (Blend)
+      href: artboard-modifier-keys-in-blend.md
+    - name: Pen tool modifier keys (Blend)
+      href: pen-tool-modifier-keys-in-blend.md
+    - name: Direct selection tool modifier keys (Blend)
+      href: direct-selection-tool-modifier-keys-in-blend.md
+- name: Windows Presentation Foundation (WPF)
+  items:
+  - name: Get started
+    displayName: Windows Presentation Foundation (WPF)
+    href: getting-started-with-wpf.md
+  - name: WPF overview
+    href: introduction-to-wpf.md
+  - name: Data binding
+    items:
+    - name: WPF data binding with LINQ to XML
+      href: wpf-data-binding-with-linq-to-xml-overview.md
+    - name: LINQ to XML dynamic properties
+      items:
+      - name: Overview
+        displayName: LINQ to XML dynamic properties
+        href: linq-to-xml-dynamic-properties.md
+      - name: XAttribute class dynamic properties
+        items:
+        - name: Value (XAttribute dynamic property)
+          href: value-xattribute-dynamic-property.md
+      - name: XElement class dynamic properties
+        items:
+        - name: Attribute (XElement dynamic property)
+          href: attribute-xelement-dynamic-property.md
+        - name: Element (XElement dynamic property)
+          href: element-xelement-dynamic-property.md
+        - name: Elements (XElement dynamic property)
+          href: elements-xelement-dynamic-property.md
+        - name: Descendants (XElement dynamic property)
+          href: descendants-xelement-dynamic-property.md
+        - name: Value (XElement dynamic property)
+          href: value-xelement-dynamic-property.md
+        - name: Xml (XElement dynamic property)
+          href: xml-xelement-dynamic-property.md
+      - name: Examples
+        items:
+        - name: WPF data binding using LINQ to XML
+          href: wpf-data-binding-using-linq-to-xml-example.md
+        - name: Build and run the LinqToXmlDataBinding example
+          href: how-to-build-and-run-the-linqtoxmldatabinding-example.md
+        - name: "Walkthrough: LINQ to XML data binding"
+          href: walkthrough-linqtoxmldatabinding-example.md
+        - name: L2DBForm.xaml source code
+          href: l2dbform-xaml-source-code.md
+        - name: L2DBForm.xaml.cs source code
+          href: l2dbform-xaml-cs-source-code.md
