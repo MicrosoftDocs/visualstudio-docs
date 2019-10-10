@@ -246,8 +246,7 @@ To customize any other type of diagnostic data adapters, use a [test settings fi
 ```xml
 <TestRunParameters>
     <Parameter name="webAppUrl" value="http://localhost" />
-    <Parameter name="webAppUserName" value="Admin" />
-    <Parameter name="webAppPassword" value="Password" />
+    <Parameter name="docsUrl" value="https://docs.microsoft.com" />
 </TestRunParameters>
 ```
 
@@ -262,9 +261,6 @@ public void HomePageTest()
 ```
 
 To use test run parameters, add a private <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> field and a public <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> property to your test class.
-
-> [!NOTE]
-> It's best practice to store passwords in a non-visible, secure location, see [Best practices for deploying passwords](/aspnet/identity/overview/features-api/best-practices-for-deploying-passwords-and-other-sensitive-data-to-aspnet-and-azure). The examples above are intended for test environments only.
 
 ### MSTest run settings
 
