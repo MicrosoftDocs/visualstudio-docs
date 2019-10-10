@@ -56,7 +56,7 @@ The following example shows a type that violates this rule.
 
 [CA2115: Call GC.KeepAlive when using native resources](../code-quality/ca2115-call-gc-keepalive-when-using-native-resources.md)
 
-[CA1816: Call GC.SuppressFinalize correctly](../code-quality/ca1816-call-gc-suppressfinalize-correctly.md)
+[CA1816: Call GC.SuppressFinalize correctly](../code-quality/ca1816.md)
 
 [CA1049: Types that own native resources should be disposable](../code-quality/ca1049-types-that-own-native-resources-should-be-disposable.md)
 
