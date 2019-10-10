@@ -3,23 +3,23 @@ title: "Live Unit Testing"
 ms.date: "03/07/2017"
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Visual Studio ALM"
   - "Live Unit Testing"
-author: rpetrusha
-ms.author: "ronpet"
+author: gewarren
+ms.author: gewarren
 ms.workload:
   - "dotnet"
 ---
 # Live Unit Testing with Visual Studio
 
-As you are developing an application, Live Unit Testing automatically runs any impacted unit tests in the background and presents the results and code coverage live in the Visual Studio IDE in real time. As you modify your code, Live Unit Testing provides feedback on how your changes impacted existing tests and whether the new code you've added is covered by one or more existing tests. This will gently remind you to write unit tests as you are making bug fixes or adding new features.
+As you're developing an application, Live Unit Testing automatically runs any impacted unit tests in the background and presents the results and code coverage in real time. As you modify your code, Live Unit Testing provides feedback on how your changes impacted existing tests and whether the new code you've added is covered by one or more existing tests. This will gently remind you to write unit tests as you're making bug fixes or adding new features.
 
 > [!NOTE]
-> Live Unit Testing is available for C# and Visual Basic projects that target the .NET Core or .NET Framework in the Enterprise Edition of Visual Studio.
+> Live Unit Testing is available for C# and Visual Basic projects that target .NET Core or .NET Framework in the Enterprise edition of Visual Studio.
 
 When you use Live Unit Testing for your tests, Live Unit Testing persists data about the status of your tests. Its ability to use persisted data allows Live Unit Testing to offer superior performance while running your tests dynamically in response to code changes.
 
 ## Supported test frameworks
+
 Live Unit Testing works with the three popular unit testing frameworks listed in the following table. The minimum supported version of their adapters and frameworks is also listed in the table. The unit testing frameworks are all available from NuGet.org.
 
 |Test Framework  |Visual Studio Adapter minimum version  |Framework minimum version  |
@@ -28,20 +28,20 @@ Live Unit Testing works with the three popular unit testing frameworks listed in
 |NUnit |NUnit3TestAdapter version 3.5.1 |NUnit version 3.5.0 |
 |MSTest |MSTest.TestAdapter 1.1.4-preview |MSTest.TestFramework 1.0.5-preview |
 
-If you have older MSTest based test projects that are referencing `Microsoft.VisualStudio.QualityTools.UnitTestFramework` and you don’t wish to move to the newer MSTest NuGet packages, upgrade to Visual Studio 2017 version 15.4 or later.
+If you have older MSTest-based test projects that are referencing `Microsoft.VisualStudio.QualityTools.UnitTestFramework` and you don’t wish to move to the newer MSTest NuGet packages, upgrade to Visual Studio 2019 or Visual Studio 2017.
 
 In some cases, you may need to explicitly restore the NuGet packages referenced by the projects in the solution in order for Live Unit Testing to work. You can do this either by doing an explicit build of the solution (select **Build** > **Rebuild Solution** from the top-level Visual Studio menu) or by restoring packages in the solution (right-click on the solution and select **Restore NuGet Packages**) before enabling Living Unit Testing.
 
-## Configure Live Unit Testing
+## Conimage Live Unit Testing
 
-You can configure Live Unit Testing by selecting **Tools** > **Options** from the top-level Visual Studio menu bar, and then selecting **Live Unit Testing** in the left pane of the **Options** dialog.
+You can conimage Live Unit Testing by selecting **Tools** > **Options** from the top-level Visual Studio menu bar, and then selecting **Live Unit Testing** in the left pane of the **Options** dialog.
 
 > [!TIP]
 > Once Live Unit Testing is enabled (see the next section, [Start, pause, and stop Live Unit Testing](#start-pause-and-stop-live-unit-testing)), you can also open the **Options** dialog by selecting **Test** > **Live Unit Testing** > **Options**.
 
-The following figure shows the Live Unit Testing configuration options available in the dialog:
+The following image shows the Live Unit Testing configuration options available in the dialog:
 
-  ![Image](./media/lut-options.png)
+  ![Live Unit Testing configuration options](./media/lut-options.png)
 
 The configurable options include:
 
@@ -57,7 +57,7 @@ The configurable options include:
 
 - The ability to delete all persisted data. This is useful when Live Unit Testing is behaving in unpredictable or unexpected ways, which suggests that the persisted data has become corrupted.
 
-- The interval after which a test case times out; the default is 30 seconds.
+- The interval after which a test case times out. The default is 30 seconds.
 
 - The maximum number of test processes that Live Unit Testing creates.
 
@@ -78,61 +78,60 @@ You enable Live Unit Testing by selecting **Test** > **Live Unit Testing** > **S
 > [!NOTE]
 > If you start Live Unit Testing in a solution that does not include a unit test project, the **Pause**, **Stop**, and **Reset Clean** options appear on the **Live Unit Testing** menu, but Live Unit Testing does not start. The **Output** window displays a message that begins, "No supported test adapters are referenced by this solution..."
 
-At any time, you can temporarily pause or completely stop Live Unit Testing. You may want to do this, for example, if you are in the middle of a refactoring and know that your tests will be broken for a while. The three menu options are:
+At any time, you can temporarily pause or completely stop Live Unit Testing. You may want to do this, for example, if you're in the middle of a refactoring and know that your tests will be broken for a while. The three menu options are:
 
 - **Pause**, which temporarily suspends Live Unit Testing.
 
-    When Live Unit Testing is paused, your coverage visualization does not appear in the editor, but all the data that was collected is preserved. To resume Live Unit Testing, select **Continue** from the Live Unit Testing menu. Live Unit Testing does the necessary work to catch up with all the edits that have been made while it was paused, and updates the glyphs appropriately.
+    When Live Unit Testing is paused, your coverage visualization does not appear in the editor, but all the data that was collected is preserved. To resume Live Unit Testing, select **Continue** from the Live Unit Testing menu. Live Unit Testing does the necessary work to catch up with all the edits that have been made while it was paused and updates the glyphs appropriately.
 
 - **Stop**, to completely stop Live Unit Testing. Live Unit Testing discards all data that it has collected.
 
 - **Reset Clean**, which stops Live Unit Testing, deletes persisted data, and restarts Live Unit Testing.
 
-- **Options**, which opens the **Options** dialog described in the [Configure Live Unit Testing](#configure-live-unit-testing) section.
+- **Options**, which opens the **Options** dialog described in the [Conimage Live Unit Testing](#conimage-live-unit-testing) section.
 
 ## View coverage visualization in the editor as you type
 
-Once enabled, Live Unit Testing updates each line of code in the Visual Studio editor to show you whether the code you're writing is covered by unit tests and whether the tests that cover it are passing.  The following figure shows lines of code with both passing and failing tests, as well as lines of code that are not covered by tests. Lines decorated with a green "✓" are covered only by passing tests, lines decorated with a red "x" are covered by one or more failing tests, and lines decorated by a blue  "➖" are not covered by any test.
+Once enabled, Live Unit Testing updates each line of code in the Visual Studio editor to show you whether the code you're writing is covered by unit tests and whether the tests that cover it are passing. The following image shows lines of code with both passing and failing tests, as well as lines of code that are not covered by tests. Lines decorated with a green "✓" are covered only by passing tests, lines decorated with a red "x" are covered by one or more failing tests, and lines decorated by a blue  "➖" are not covered by any test.
 
-  ![Image](./media/lut-codewindow.png)
+  ![Code coverage in Visual Studio](./media/lut-codewindow.png)
 
-Live Unit Testing coverage visualization is updated immediately as you modify code in the code editor. While processing the edits, visualization changes to indicate that the data is not up-to-date by adding a round timer image below the passing, failing, and not covered symbols, as the following figure shows.
+Live Unit Testing coverage visualization is updated immediately as you modify code in the code editor. While processing the edits, visualization changes to indicate that the data is not up-to-date by adding a round timer image below the passing, failing, and not covered symbols, as the following image shows.
 
-  ![Image](./media/lut-codeupdating.png)
+  ![Code coverage in Visual Studio with timer icon](./media/lut-codeupdating.png)
 
 ## Get information on successful or failed tests
 
-By hovering over the succeeded or failed symbol in the code window, you can see how many tests are hitting that line. If you click on the symbol, you can see the status of the individual tests, as the following figure shows:
+By hovering over the succeeded or failed symbol in the code window, you can see how many tests are hitting that line. If you click on the symbol, you can see the status of the individual tests, as the following image shows:
 
-  ![Image](./media/lut-failedinfo.png)
+  ![Test status for a symbol in Visual Studio](./media/lut-failedinfo.png)
 
-In addition to providing the names and result of tests, the tooltip lets you re-run the set of tests, as well as run the set of tests using the debugger. If you select one or more of the tests in the tooltip, you can also run or debug just those tests. This allows you to debug your tests without having to leave the code window. When debugging, in addition to observing any breakpoints you may have already set, program execution pauses when the debugger executes an [`Assert`](/dotnet/api/microsoft.visualstudio.testtools.unittesting.assert) method that returns an unexpected result.
+In addition to providing the names and result of tests, the tooltip lets you re-run the set of tests, as well as run the set of tests using the debugger. If you select one or more of the tests in the tooltip, you can also run or debug just those tests. This allows you to debug your tests without having to leave the code window. When debugging, in addition to observing any breakpoints you may have already set, program execution pauses when the debugger executes an <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> method that returns an unexpected result.
 
 When you hover over a failed test in the tooltip, it expands to provide additional info about the failure, as shown in the following image. If you double-click on the failed test in the tooltip, you can navigate directly to it.
 
-  ![Image](./media/lut-failedmsg.png)
+  ![Failed test tooltip info in Visual Studio](./media/lut-failedmsg.png)
 
-When you navigate to the failed test, Live Unit Testing also visually indicates in the method signature the tests that have passed (indicated by a half-full beaker along with a green "✓"), failed (a half-full beaker along with a red  "🞩"), or are not involved in Live Unit Testing (a half-full beaker along with a blue  "➖"). Non-test methods are not decorated with a symbol. The following figure illustrates all four types of methods.
+When you navigate to the failed test, Live Unit Testing also visually indicates in the method signature the tests that have passed (indicated by a half-full beaker along with a green "✓"), failed (a half-full beaker along with a red  "🞩"), or are not involved in Live Unit Testing (a half-full beaker along with a blue  "➖"). Non-test methods are not decorated with a symbol. The following image illustrates all four types of methods.
 
-  ![Image](media/lut-testsource.png)
+  ![Test methods in Visual Studio with pass or fail symbol    ](media/lut-testsource.png)
 
 ## Diagnose and correct test failures
 
 From the failed test, you can easily debug to the product code, make edits, and continue developing your application. Because Live Unit Testing runs in the background, you do not have to stop and restart Live Unit Testing during the debug, edit, and continue cycle.
 
-For example, the test failure shown in the previous figure was caused by an incorrect assumption in the test method that non-alphabetic characters return `true` when passed to the <xref:System.Char.IsLower%2A?displayProperty=fullName> method. Once we correct the test method, we find that all tests pass. While we are doing this, we do not have to pause or stop Live Unit Testing.
+For example, the test failure shown in the previous image was caused by an incorrect assumption in the test method that non-alphabetic characters return `true` when passed to the <xref:System.Char.IsLower%2A?displayProperty=fullName> method. Once we correct the test method, we find that all tests pass. While we are doing this, we do not have to pause or stop Live Unit Testing.
 
 ## Live Unit Testing and Test Explorer
 
 Ordinarily, **Test Explorer** provides the interface that lets you run, debug, and analyze your test results. Live Unit Testing integrates with **Test Explorer**. When Live Unit Testing is not enabled or is stopped, **Test Explorer** displays the status of unit tests the last time a test was run. Source code changes require that you rerun the tests. In contrast, when Live Unit Testing is enabled, the status of unit tests in **Test Explorer** is updated immediately. You no longer need to explicitly run your unit tests.
 
-> [!NOTE]
-> You can open **Test Explorer** by selecting **Test** > **Windows** > **Test Explorer** from the top-level Visual Studio menu.
+> [!TIP]
+> Open **Test Explorer** by selecting **Test** > **Windows** > **Test Explorer** from the top-level Visual Studio menu.
 
-You may notice in the **Test Explorer** window that some tests are faded out.
-For example, when you enable Live Unit Testing after opening a previously saved project, the **Test Explorer** window had faded out all but the failed test, as the following figure shows. In this case, Live Unit Testing has rerun the failed test, but it has not rerun the successful tests, since Live Unit Testing's persisted data indicates that there were no changes since the tests were last run successfully.
+You may notice in the **Test Explorer** window that some tests are faded out. For example, when you enable Live Unit Testing after opening a previously saved project, the **Test Explorer** window had faded out all but the failed test, as the following image shows. In this case, Live Unit Testing has rerun the failed test, but it has not rerun the successful tests, because Live Unit Testing's persisted data indicates that there were no changes since the tests were last run successfully.
 
-  ![Image](media/lut-test-explorer.png)
+![Failed test in Test Explorer](media/lut-test-explorer.png)
 
 You can rerun any tests that appear faded by selecting the **Run All** or **Run** options from the **Test Explorer** menu, or by selecting one or more tests in the  **Test Explorer** menu, right-clicking, and selecting **Run Selected Tests** or **Debug Selected Tests** from the popup menu. As tests are run, they bubble up the top.
 
