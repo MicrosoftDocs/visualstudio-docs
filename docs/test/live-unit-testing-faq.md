@@ -11,7 +11,7 @@ ms.workload:
 ---
 # Live Unit Testing frequently asked questions
 
-## Supported frameworks and versions
+## Supported frameworks
 
 **What test frameworks does Live Unit Testing support and what are the minimum supported versions?**
 
@@ -79,7 +79,7 @@ For example, there may be a target that produces NuGet packages during a regular
 </Target>
 ```
 
-## Error messages with \<OutputPath&> or \<OutDir>
+## Error messages with \<OutputPath> or \<OutDir>
 
 **Why do I get the following error when Live Unit Testing tries to build my solution: "...appears to unconditionally set `<OutputPath>` or `<OutDir>`. Live Unit Testing will not execute tests from the output assembly"?**
 
@@ -110,7 +110,7 @@ This ensures that `<OutputPath>` lies within the `<BaseOutputPath>` folder.
 
 Do not override `<OutDir>` directly in your build process; override `<OutputPath>` instead to drop build artifacts to a specific location.
 
-## Set the location of build artifacts
+## Build artifact location
 
 **I want the artifacts of a Live Unit Testing build to go to a specific location instead of the default location under the *.vs* folder. How can I change that?**
 
@@ -130,7 +130,7 @@ There are several differences:
 
 - Discovery and execution of tests in Live Unit Testing uses version 2 of `TestPlatform`, whereas the **Test Explorer** window uses version 1. You won't notice a difference in most cases, though.
 
-- **Test Explorer** currently runs tests in a single-threaded apartment (STA) by default, whereas Live Unit Testing runs tests in a multithreaded apartment (MTA). To run MSTest tests in STA in Live Unit Testing, decorate the test method or the containing class with the `<STATestMethod>` or `<STATestClass>` attribute that can be found in the `MSTest.STAExtensions 1.0.3-beta` NuGet package. For NUnit, decorate the test method with the `<RequiresThread(ApartmentState.STA)>` attribute, and for xUnit, with the `<STAFact>` attribute.
+- **Test Explorer** runs tests in a single-threaded apartment (STA) by default, whereas Live Unit Testing runs tests in a multi-threaded apartment (MTA). To run MSTest tests in STA in Live Unit Testing, decorate the test method or the containing class with the `<STATestMethod>` or `<STATestClass>` attribute that can be found in the `MSTest.STAExtensions 1.0.3-beta` NuGet package. For NUnit, decorate the test method with the `<RequiresThread(ApartmentState.STA)>` attribute, and for xUnit, with the `<STAFact>` attribute.
 
 ## Exclude tests
 
