@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio ALM"
   - "Live Unit Testing"
-author: rpetrusha
-ms.author: "ronpet"
+author: gewarren
+ms.author: gewarren
 ms.workload:
   - "dotnet"
 ---
