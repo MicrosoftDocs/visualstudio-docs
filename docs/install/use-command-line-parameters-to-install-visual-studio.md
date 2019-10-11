@@ -51,6 +51,9 @@ Your bootstrapper file should match or be similar to one of the following:
 * vs_professional.exe
 * vs_community.exe
 
+>[!TIP]
+>If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, see the [Visual Studio build numbers and release dates](visual-studio-build-numbers-and-release-dates.md) page.
+
 ## Command-line parameters
 
  Visual Studio command-line parameters are case-insensitive.
