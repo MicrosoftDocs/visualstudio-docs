@@ -59,7 +59,7 @@ You can verify the names by choosing the control selector drop-down list in the 
     End Sub
     ```
 
-   [!INCLUDE [devlang-control](../includes/devlang-control.md)]
+   [!INCLUDE [devlang-control](./includes/devlang-control.md)]
 
    You're looking at code called `showButton_Click()` (alternatively, `ShowButton_Click()`). The IDE added this to the form's code when you opened the code file for the **showButton** button. At design-time, when you open the code file for a control in a form, code is generated for the control if it doesn't already exist. This code, known as a *method*, runs when you run your app and choose the control - in this case, the **Show a picture** button.
 
