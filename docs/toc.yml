@@ -566,9 +566,9 @@
     - name: Windows Forms development
       items:
       - name: Windows Forms Designer overview
-        href: windows-forms-designer-overview.md
+        href: designers/windows-forms-designer-overview.md
       - name: Get started with Windows Forms Designer
-        href: walkthrough-windows-forms-designer.md
+        href: designers/walkthrough-windows-forms-designer.md
       - name: Arrange controls >>
         href: /dotnet/framework/winforms/controls/arranging-controls-on-windows-forms
       - name: Create a data-bound control >>
@@ -576,7 +576,7 @@
       - name: Create custom controls >>
         href: /dotnet/framework/winforms/controls/developing-windows-forms-controls-at-design-time
       - name: Disable DPI awareness for Windows Forms Designer
-        href: disable-dpi-awareness.md
+        href: designers/disable-dpi-awareness.md
       - name: Reference
         items:
         - name: System.Windows.Forms API >>
@@ -653,7 +653,7 @@
           - name: "Step 8: Add a method to verify whether the player won"
             href: ide/step-8-add-a-method-to-verify-whether-the-player-won.md
           - name: "Step 9: Try other features"
-            href: step-9-try-other-features.md
+            href: ide/step-9-try-other-features.md
     - name: Cross-platform mobile development
       href: cross-platform/cross-platform-mobile-development-in-visual-studio.md
     - name: F# in Visual Studio
