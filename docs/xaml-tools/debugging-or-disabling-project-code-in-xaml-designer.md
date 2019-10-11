@@ -23,7 +23,7 @@ Project code includes:
 
 When project code is disabled, Visual Studio shows placeholders. For example, Visual Studio shows the name of the property for a binding where the data is no longer available, or a placeholder for a control that's no longer running.
 
-![Unhandled exception dialog](media/xaml_unhandledexception.png)
+![Unhandled exception dialog](../designers/media/xaml_unhandledexception.png)
 
 ## To determine if project code is causing an exception
 

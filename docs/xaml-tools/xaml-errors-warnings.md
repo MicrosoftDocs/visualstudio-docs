@@ -32,4 +32,4 @@ Open the **Options** dialog by selecting **Tools > Options**, and then select **
 
 Uncheck the **Show errors detected by the XAML designer** check box.
 
-![Suppress XAML Designer errors](../designers/media/suppress_xaml_designer_errors.png)
+![Suppress XAML Designer errors](media/suppress_xaml_designer_errors.png)
