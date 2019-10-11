@@ -126,7 +126,7 @@
         "test/**/**.md": "vs-ide-test",
         "vsto/**/**.md": "office-development",
         "workflow-designer/**/**.md": "vs-workflow-designer",
-        "xaml/**/**.md": "vs-ide-designers",
+        "xaml-tools/**/**.md": "vs-ide-designers",
         "xml-tools/**/**.md": "vs-xml-tools"
       },
       "titleSuffix": {
