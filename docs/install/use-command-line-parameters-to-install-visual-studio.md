@@ -2,7 +2,7 @@
 title: "Use command-line parameters to install Visual Studio"
 titleSuffix: ""
 description: "Learn how to use command-line parameters to control or customize your Visual Studio installation."
-ms.date: 10/07/2019
+ms.date: 10/11/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
