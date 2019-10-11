@@ -57,7 +57,7 @@
   - name: Debug XAML in Blend
     href: debug-xaml-in-blend.md
   - name: Debug UWP apps >>
-    href: debugging-windows-store-and-windows-universal-apps.md
+    href: ../debugger/debugging-windows-store-and-windows-universal-apps.md
 - name: Windows Presentation Foundation (WPF)
   items:
   - name: Get started

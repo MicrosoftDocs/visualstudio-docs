@@ -49,7 +49,7 @@ landingContent:
           - text: Debug WPF apps
             url: ../debugger/debugging-wpf.md?toc=/visualstudio/debugger/toc.json&bc=/visualstudio/debugger/breadcrumb/toc.json
           - text: Debug UWP apps
-            url: debugging-windows-store-and-windows-universal-apps.md
+            url: ../debugger/debugging-windows-store-and-windows-universal-apps.md
 
   # Card
   - title: Develop WPF apps
