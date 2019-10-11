@@ -75,6 +75,6 @@ Hover over each button in the window to learn more about the available functiona
 
 ## See also
 
-- [Animate objects](../designers/animate-objects-in-xaml-designer.md)
-- [Draw shapes and paths](../designers/draw-shapes-and-paths.md)
-- [Designing XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md)
+- [Animate objects](../xaml-tools/animate-objects-in-xaml-designer.md)
+- [Draw shapes and paths](../xaml-tools/draw-shapes-and-paths.md)
+- [Designing XAML in Visual Studio and Blend for Visual Studio](../xaml-tools/designing-xaml-in-visual-studio.md)

@@ -61,7 +61,7 @@ To align two or more elements by using menu commands:
 
 To align two or more elements by using snaplines, in XAML Designer, in a layout that contains at least two elements, drag or resize one of the elements so that the edge is aligned with another element.
 
-When the edges are aligned, an *alignment boundary* appears to indicate alignment. The alignment boundary is a red dashed line. Alignment boundaries appear only when **snapping to snaplines** is enabled. For an illustration of the artboard that shows an alignment boundary, see [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).
+When the edges are aligned, an *alignment boundary* appears to indicate alignment. The alignment boundary is a red dashed line. Alignment boundaries appear only when **snapping to snaplines** is enabled. For an illustration of the artboard that shows an alignment boundary, see [Creating a UI by using XAML Designer](../xaml-tools/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).
 
 ## Change an element's margins
 
@@ -73,7 +73,7 @@ To change an element's margins in the Properties window:
 
 2. Under **Layout** in the Properties window, change the value (in pixels or device-independent units, which are approximately 1/96 inch) for any of the **Margin** properties (**Top**, **Left**, **Right**, or **Bottom**).
 
-In the artboard, to change an element's margins relative to the element's layout container, click the *margin adorners* that appear around the element when the element is selected and is within a layout container. For an illustration that shows margin adorners, see [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).
+In the artboard, to change an element's margins relative to the element's layout container, click the *margin adorners* that appear around the element when the element is selected and is within a layout container. For an illustration that shows margin adorners, see [Creating a UI by using XAML Designer](../xaml-tools/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).
 
 If a margin adorner is open, vertically or horizontally, that margin isn't set. If a margin adorner is closed, that margin is set.
 
@@ -105,4 +105,4 @@ To reset the element layout, right-click the element in the Document Outline win
 
 ## See also
 
-- [Create a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)
+- [Create a UI by using XAML Designer](../xaml-tools/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)

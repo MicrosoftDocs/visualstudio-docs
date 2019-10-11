@@ -42,4 +42,4 @@ Play around with other changes to the rectangle at different points in time. For
 
 ## See also
 
-- [Create a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)
+- [Create a UI by using Blend for Visual Studio](../xaml-tools/creating-a-ui-by-using-blend-for-visual-studio.md)

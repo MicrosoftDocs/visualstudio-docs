@@ -27,7 +27,7 @@ XAML Designer provides a XAML view and a synchronized Design view of your app's 
 
 ### Design view
 
-In Design view, the window containing the artboard is the active window and you can use it as a primary work surface. You can use it to visually design a page in your app by adding, drawing, or modifying elements. For more information, see [Work with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md). This illustration shows the artboard in Design view.
+In Design view, the window containing the artboard is the active window and you can use it as a primary work surface. You can use it to visually design a page in your app by adding, drawing, or modifying elements. For more information, see [Work with elements in XAML Designer](../xaml-tools/working-with-elements-in-xaml-designer.md). This illustration shows the artboard in Design view.
 
 ![Design view of XAML Designer](../designers/media/xaml-artboard.png)
 
@@ -51,7 +51,7 @@ Grid adorners are used to control the width and height of a Grid's rows and colu
 
 **Resize handles**
 
-Resize handles appear on selected controls and enable you to resize the control. When you resize a control, width and height values typically appear to help you size the control. For more information about manipulating controls in **Design** view, see [Work with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md).
+Resize handles appear on selected controls and enable you to resize the control. When you resize a control, width and height values typically appear to help you size the control. For more information about manipulating controls in **Design** view, see [Work with elements in XAML Designer](../xaml-tools/working-with-elements-in-xaml-designer.md).
 
 **Margins**
 
@@ -107,7 +107,7 @@ The Document Outline window in Visual Studio is similar to the [Objects and Time
 
 - View the hierarchical structure of all elements on the artboard.
 
-- Select elements so that you can modify them (for example, move them around in the hierarchy or set their properties in the Properties window). For more information, see [Work with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md).
+- Select elements so that you can modify them (for example, move them around in the hierarchy or set their properties in the Properties window). For more information, see [Work with elements in XAML Designer](../xaml-tools/working-with-elements-in-xaml-designer.md).
 
 - Create and modify templates for elements that are controls.
 
@@ -154,6 +154,6 @@ For more information about using properties and handling events, see [Intro to c
 
 ## See also
 
-- [Work with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md)
-- [How to create and apply a resource](../designers/how-to-create-and-apply-a-resource.md)
-- [Walkthrough: Bind to data in XAML Designer](../designers/walkthrough-binding-to-data-in-xaml-designer.md)
+- [Work with elements in XAML Designer](../xaml-tools/working-with-elements-in-xaml-designer.md)
+- [How to create and apply a resource](../xaml-tools/how-to-create-and-apply-a-resource.md)
+- [Walkthrough: Bind to data in XAML Designer](../xaml-tools/walkthrough-binding-to-data-in-xaml-designer.md)
