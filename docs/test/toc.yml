@@ -120,13 +120,13 @@
   - name: Introduction
     displayName: Live Unit Testing introduction
     href: live-unit-testing-intro.md
-  - name: What's new in Live Unit Testing
+  - name: What's new
     href: live-unit-testing-whats-new.md
-  - name: Get started with Live Unit Testing
+  - name: Get started
     href: live-unit-testing-start.md
-  - name: Use Live Unit Testing in Enterprise edition
+  - name: Configure and use
     href: live-unit-testing.md
-  - name: Live Unit Testing FAQ
+  - name: FAQ
     href: live-unit-testing-faq.md
 - name: Web performance and load testing
   items:
