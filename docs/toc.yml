@@ -764,87 +764,87 @@
   - name: 3D assets
     items:
     - name: Work with 3D assets for games and apps
-      href: working-with-3-d-assets-for-games-and-apps.md
+      href: designers/working-with-3-d-assets-for-games-and-apps.md
     - name: "How to: Use 3D assets in your game or app"
-      href: using-3-d-assets-in-your-game-or-app.md
+      href: designers/using-3-d-assets-in-your-game-or-app.md
     - name: Textures and images
       items:
       - name: Work with textures and images
-        href: working-with-textures-and-images.md
+        href: designers/working-with-textures-and-images.md
       - name: Image editor
-        href: image-editor.md
+        href: designers/image-editor.md
       - name: Image editor examples
         items:
         - name: Create a basic texture
-          href: how-to-create-a-basic-texture.md
+          href: designers/how-to-create-a-basic-texture.md
         - name: Create and modify MIP levels
-          href: how-to-create-and-modify-mip-levels.md
+          href: designers/how-to-create-and-modify-mip-levels.md
     - name: 3D models
       items:
       - name: Work with 3D models
-        href: working-with-3-d-models.md
+        href: designers/working-with-3-d-models.md
       - name: Model editor
-        href: model-editor.md
+        href: designers/model-editor.md
       - name: Model editor examples
         items:
         - name: Create a basic 3D model
-          href: how-to-create-a-basic-3-d-model.md
+          href: designers/how-to-create-a-basic-3-d-model.md
         - name: Modify the pivot point of a 3D model
-          href: how-to-modify-the-pivot-point-of-a-3-d-model.md
+          href: designers/how-to-modify-the-pivot-point-of-a-3-d-model.md
         - name: Model 3D terrain
-          href: how-to-model-3-d-terrain.md
+          href: designers/how-to-model-3-d-terrain.md
         - name: Apply a shader to a 3D model
-          href: how-to-apply-a-shader-to-a-3-d-model.md
+          href: designers/how-to-apply-a-shader-to-a-3-d-model.md
     - name: Shaders
       items:
       - name: Work with shaders
-        href: working-with-shaders.md
+        href: designers/working-with-shaders.md
       - name: Shader designer
-        href: shader-designer.md
+        href: designers/shader-designer.md
       - name: Shader designer nodes
         items:
         - name: Overview
           displayName: Shader designer nodes
-          href: shader-designer-nodes.md
+          href: designers/shader-designer-nodes.md
         - name: Constant nodes
-          href: constant-nodes.md
+          href: designers/constant-nodes.md
         - name: Parameter nodes
-          href: parameter-nodes.md
+          href: designers/parameter-nodes.md
         - name: Texture nodes
-          href: texture-nodes.md
+          href: designers/texture-nodes.md
         - name: Math nodes
-          href: math-nodes.md
+          href: designers/math-nodes.md
         - name: Utility nodes
-          href: utility-nodes.md
+          href: designers/utility-nodes.md
         - name: Filter nodes
-          href: filter-nodes.md
+          href: designers/filter-nodes.md
       - name: Shader designer examples
         items:
         - name: Create a basic color shader
           displayName: Shader designer example
-          href: how-to-create-a-basic-color-shader.md
+          href: designers/how-to-create-a-basic-color-shader.md
         - name: Create a basic Lambert shader
-          href: how-to-create-a-basic-lambert-shader.md
+          href: designers/how-to-create-a-basic-lambert-shader.md
         - name: Create a basic Phong shader
-          href: how-to-create-a-basic-phong-shader.md
+          href: designers/how-to-create-a-basic-phong-shader.md
         - name: Create a basic texture shader
-          href: how-to-create-a-basic-texture-shader.md
+          href: designers/how-to-create-a-basic-texture-shader.md
         - name: Create a grayscale texture shader
-          href: how-to-create-a-grayscale-texture-shader.md
+          href: designers/how-to-create-a-grayscale-texture-shader.md
         - name: Create a geometry-based gradient shader
-          href: how-to-create-a-geometry-based-gradient-shader.md
+          href: designers/how-to-create-a-geometry-based-gradient-shader.md
         - name: "Walkthrough: Create a realistic 3D billiard ball"
-          href: walkthrough-creating-a-realistic-3-d-billiard-ball.md
+          href: designers/walkthrough-creating-a-realistic-3-d-billiard-ball.md
         - name: Export a shader
-          href: how-to-export-a-shader.md
+          href: designers/how-to-export-a-shader.md
     - name: Export textures
       items:
       - name: Export a texture that contains mipmaps
-        href: how-to-export-a-texture-that-contains-mipmaps.md
+        href: designers/how-to-export-a-texture-that-contains-mipmaps.md
       - name: Export a texture that has premultiplied alpha
-        href: how-to-export-a-texture-that-has-premultiplied-alpha.md
+        href: designers/how-to-export-a-texture-that-has-premultiplied-alpha.md
       - name: Export a texture for use with Direct2D or JavaScript apps
-        href: how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md
+        href: designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md
   - name: Tips and tricks
     items:
     - name: Productivity features
