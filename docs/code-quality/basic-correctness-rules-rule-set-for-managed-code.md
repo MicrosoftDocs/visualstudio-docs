@@ -34,7 +34,7 @@ The following table describes all the rules in the Microsoft Basic Correctness R
 |[CA1405](../code-quality/ca1405-com-visible-type-base-types-should-be-com-visible.md)|COM visible type base types should be COM visible|
 |[CA1410](../code-quality/ca1410-com-registration-methods-should-be-matched.md)|COM registration methods should be matched|
 |[CA1415](../code-quality/ca1415-declare-p-invokes-correctly.md)|Declare P/Invokes correctly|
-|[CA1821](../code-quality/ca1821-remove-empty-finalizers.md)|Remove empty finalizers|
+|[CA1821](../code-quality/ca1821.md)|Remove empty finalizers|
 |[CA1900](../code-quality/ca1900-value-type-fields-should-be-portable.md)|Value type fields should be portable|
 |[CA1901](../code-quality/ca1901-p-invoke-declarations-should-be-portable.md)|P/Invoke declarations should be portable|
 |[CA2002](../code-quality/ca2002-do-not-lock-on-objects-with-weak-identity.md)|Do not lock on objects with weak identity|
@@ -83,10 +83,10 @@ The following table describes all the rules in the Microsoft Basic Correctness R
 |[CA1013](../code-quality/ca1013-overload-operator-equals-on-overloading-add-and-subtract.md)|Overload operator equals on overloading add and subtract|
 |[CA1303](../code-quality/ca1303-do-not-pass-literals-as-localized-parameters.md)|Do not pass literals as localized parameters|
 |[CA1308](../code-quality/ca1308-normalize-strings-to-uppercase.md)|Normalize strings to uppercase|
-|[CA1806](../code-quality/ca1806-do-not-ignore-method-results.md)|Do not ignore method results|
-|[CA1816](../code-quality/ca1816-call-gc-suppressfinalize-correctly.md)|Call GC.SuppressFinalize correctly|
-|[CA1819](../code-quality/ca1819-properties-should-not-return-arrays.md)|Properties should not return arrays|
-|[CA1820](../code-quality/ca1820-test-for-empty-strings-using-string-length.md)|Test for empty strings using string length|
+|[CA1806](../code-quality/ca1806.md)|Do not ignore method results|
+|[CA1816](../code-quality/ca1816.md)|Call GC.SuppressFinalize correctly|
+|[CA1819](../code-quality/ca1819.md)|Properties should not return arrays|
+|[CA1820](../code-quality/ca1820.md)|Test for empty strings using string length|
 |[CA1903](../code-quality/ca1903-use-only-api-from-targeted-framework.md)|Use only API from targeted framework|
 |[CA2004](../code-quality/ca2004-remove-calls-to-gc-keepalive.md)|Remove calls to GC.KeepAlive|
 |[CA2006](../code-quality/ca2006-use-safehandle-to-encapsulate-native-resources.md)|Use SafeHandle to encapsulate native resources|

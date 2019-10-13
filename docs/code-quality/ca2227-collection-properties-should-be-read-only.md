@@ -58,4 +58,4 @@ The following example shows a type with a writable collection property and shows
 
 ## Related rules
 
-- [CA1819: Properties should not return arrays](../code-quality/ca1819-properties-should-not-return-arrays.md)
+- [CA1819: Properties should not return arrays](../code-quality/ca1819.md)

@@ -23,9 +23,9 @@ Usage warnings support proper usage of .NET.
 
 |Rule|Description|
 |----------|-----------------|
-|[CA1801: Review unused parameters](../code-quality/ca1801-review-unused-parameters.md)|A method signature includes a parameter that is not used in the method body.|
-|[CA1806: Do not ignore method results](../code-quality/ca1806-do-not-ignore-method-results.md)|A new object is created but never used; or a method that creates and returns a new string is called and the new string is never used; or a COM or P/Invoke method returns an HRESULT or error code that is never used.|
-|[CA1816: Call GC.SuppressFinalize correctly](../code-quality/ca1816-call-gc-suppressfinalize-correctly.md)|A method that is an implementation of Dispose does not call GC.SuppressFinalize; or a method that is not an implementation of Dispose calls GC.SuppressFinalize; or a method calls GC.SuppressFinalize and passes something other than this (Me in Visual Basic).|
+|[CA1801: Review unused parameters](../code-quality/ca1801.md)|A method signature includes a parameter that is not used in the method body.|
+|[CA1806: Do not ignore method results](../code-quality/ca1806.md)|A new object is created but never used; or a method that creates and returns a new string is called and the new string is never used; or a COM or P/Invoke method returns an HRESULT or error code that is never used.|
+|[CA1816: Call GC.SuppressFinalize correctly](../code-quality/ca1816.md)|A method that is an implementation of Dispose does not call GC.SuppressFinalize; or a method that is not an implementation of Dispose calls GC.SuppressFinalize; or a method calls GC.SuppressFinalize and passes something other than this (Me in Visual Basic).|
 |[CA2200: Rethrow to preserve stack details](../code-quality/ca2200-rethrow-to-preserve-stack-details.md)|An exception is rethrown and the exception is explicitly specified in the throw statement. If an exception is rethrown by specifying the exception in the throw statement, the list of method calls between the original method that threw the exception and the current method is lost.|
 |[CA2201: Do not raise reserved exception types](../code-quality/ca2201-do-not-raise-reserved-exception-types.md)|This makes the original error hard to detect and debug.|
 |[CA2202: Do not dispose objects multiple times](../code-quality/ca2202-do-not-dispose-objects-multiple-times.md)|A method implementation contains code paths that could cause multiple calls to System.IDisposable.Dispose or a Dispose equivalent (such as a Close() method on some types) on the same object.|
