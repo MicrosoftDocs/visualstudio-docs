@@ -57,7 +57,7 @@ Use the Microsoft Security Rules rule set for legacy code analysis to maximize t
 |[CA2146](../code-quality/ca2146-types-must-be-at-least-as-critical-as-their-base-types-and-interfaces.md)|Types must be at least as critical as their base types and interfaces|
 |[CA2147](../code-quality/ca2147-transparent-methods-may-not-use-security-asserts.md)|Transparent methods may not use security asserts|
 |[CA2149](../code-quality/ca2149-transparent-methods-must-not-call-into-native-code.md)|Transparent methods must not call into native code|
-|[CA2210](../code-quality/ca2210-assemblies-should-have-valid-strong-names.md)|Assemblies should have valid strong names|
+|[CA2210](../code-quality/ca2210.md)|Assemblies should have valid strong names|
 |[CA2300](ca2300.md)|Do not use insecure deserializer BinaryFormatter|
 |[CA2301](ca2301.md)|Do not call BinaryFormatter.Deserialize without first setting BinaryFormatter.Binder|
 |[CA2302](ca2302.md)|Ensure BinaryFormatter.Binder is set before calling BinaryFormatter.Deserialize|
