@@ -19,7 +19,7 @@ You can view what's going on inside the containers that host your app by using t
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 - Install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
-- Install the [Containers window extension](https://aka.ms/vscontainerspreview)
+- Install the [Containers window extension](https://aka.ms/vscontainerspreview) or use Visual Studio 2019 16.4 Preview 2 or later.
 
 ## View information about your containers
 
@@ -53,12 +53,12 @@ Well-known ports are linked, so if there's content available on a port, you can 
 
 The **Logs** tab shows the results of the `docker logs` command. By default, the tab shows stdout and stderr streams on a container, but you can configure the output. For details, see [Docker logging](https://docs.docker.com/config/containers/logging/).  By default, the **Logs** tab streams the logs, but you can disable that by choosing the **Stop** button on the tab.
 
-![Screenshot of Logs tab in Containers window](media/view-and-diagnose-containers/containers-logs.jpg)
+![Screenshot of Logs tab in Containers window](media/view-and-diagnose-containers/containers-logs.png)
 
 To clear the logs, use the **Clear** button on the **Logs** tab.  To get all the logs, use the **Refresh** button.
 
 > [!NOTE]
-> Visual Studio automatically redirects stdout and stderr to the **Output** window, so containers started from Visual Studio (that is, the containers in the **Solution Containers** section) will not display logs in this tab; use the **Output** window instead.
+> Visual Studio automatically redirects stdout and stderr to the **Output** window when you run without debugging with Windows containers, so Windows containers started from Visual Studio using **Ctrl**+**F5** will not display logs in this tab; use the **Output** window instead.
 
 ## View the filesystem
 
@@ -78,15 +78,25 @@ By default, the **Containers** window shows all containers on the machine that D
 
 ## Open a command prompt inside the container
 
-You can open a command prompt in the container by using the **Attach to Process** button in the **Container** window.
+You can open a command prompt in the container by using the **Open Terminal Window** button in the **Container** window.
 
-![Screenshot of Attach to Process in the Containers window](media/view-and-diagnose-containers/container-tools-attach-button.png)
+![Screenshot of Open Terminal Window in the Containers window](media/view-and-diagnose-containers/containers-open-terminal-window.png)
 
 For Windows containers, the Windows command prompt opens. For Linux containers, it opens a window using the bash shell.
 
-![Screensot of bash window](media/view-and-diagnose-containers/container-bash-window.png)
+![Screenshot of bash window](media/view-and-diagnose-containers/container-bash-window.png)
 
 Normally, the terminal window opens outside Visual Studio as a separate window. If you want a command-line environment integrated into the Visual Studio IDE as a dockable tool window, you can install [Whack Whack Terminal](https://marketplace.visualstudio.com/items?itemName=DanielGriffen.WhackWhackTerminal).
+
+## Attach the debugger to a process
+
+You can attach the debugger to a process that is running in the container by using the **Attach to Process** button. When you use this button, the **Attach to Process** dialog appears and shows the available processes that are running in the container.  You can choose a different container using the **Find** button.
+
+## Viewing images
+
+You can also view images on the local machine by using the **Images** tab in the **Containers** window. Images from external repositories are grouped together in a treeview. Select an image to view the properties for the image.
+
+To remove an image, right-click on the image in the treeview and choose **Remove**, or select the image, and use the **Remove** button.
 
 ## Next steps
 
