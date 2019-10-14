@@ -36,7 +36,7 @@ On the left side, you see the list of containers on your local machine. The cont
 
 The **Environment** tab shows the environment variables in the container. For your app's container, you can set these variables in many ways, for example, in the Dockerfile, in a .env file, or by using the -e option when you start a container using a Docker command.
 
-![Screenshot of Environment tab in Containers window](media/view-and-diagnose-containers/container-environment-vars.png)
+![Screenshot of Environment tab in Containers window](media/view-and-diagnose-containers/containers-environment-vars.png)
 
 > [!NOTE]
 > Any changes to the environment variables aren't reflected in real time. Also, the environment variables in this tab are the system environment variables on the container, and do not reflect user environment variables local to the app.
