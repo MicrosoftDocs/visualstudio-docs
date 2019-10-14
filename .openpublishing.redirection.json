@@ -8384,6 +8384,11 @@
       "source_path": "docs/version-control/index.md",
       "redirect_url": "/azure/devops/repos/index",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "subscriptions/vs-office-dev.md",
+      "redirect_url": "/visualstudio/subscriptions/vs-m365",
+      "redirect_document_id": false
     }
   ]
 }
