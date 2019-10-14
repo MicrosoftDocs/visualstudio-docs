@@ -59,7 +59,7 @@ If you can't use NuGet packages, you can reference MSBuild assemblies that are d
 
 #### Binding redirects
 
-Reference the Microsoft.Build.Locator package to ensure that your application automatically uses the required binding redirects of all versions of MSBuild assemblies to version `15.1.0.0`.
+Reference the Microsoft.Build.Locator package to ensure that your application automatically uses the required binding redirects to version 15.1.0.0. Binding redirects to this version support both MSBuild 15 and MSBuild 16.
 
 ### Ensure output is clean
 
