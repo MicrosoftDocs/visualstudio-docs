@@ -8291,6 +8291,96 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "docs/code-quality/ca1800-do-not-cast-unnecessarily.md",
+      "redirect_url": "/visualstudio/code-quality/ca1800",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca1801-review-unused-parameters.md",
+      "redirect_url": "/visualstudio/code-quality/ca1801",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca1802-use-literals-where-appropriate.md",
+      "redirect_url": "/visualstudio/code-quality/ca1802",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca1804-remove-unused-locals.md",
+      "redirect_url": "/visualstudio/code-quality/ca1804",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca1806-do-not-ignore-method-results.md",
+      "redirect_url": "/visualstudio/code-quality/ca1806",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca1809-avoid-excessive-locals.md",
+      "redirect_url": "/visualstudio/code-quality/ca1809",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca1810-initialize-reference-type-static-fields-inline.md",
+      "redirect_url": "/visualstudio/code-quality/ca1810",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca1811-avoid-uncalled-private-code.md",
+      "redirect_url": "/visualstudio/code-quality/ca1811",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca1812-avoid-uninstantiated-internal-classes.md",
+      "redirect_url": "/visualstudio/code-quality/ca1812",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca1813-avoid-unsealed-attributes.md",
+      "redirect_url": "/visualstudio/code-quality/ca1813",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca1814-prefer-jagged-arrays-over-multidimensional.md",
+      "redirect_url": "/visualstudio/code-quality/ca1814",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca1815-override-equals-and-operator-equals-on-value-types.md",
+      "redirect_url": "/visualstudio/code-quality/ca1815",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca1819-properties-should-not-return-arrays.md",
+      "redirect_url": "/visualstudio/code-quality/ca1819",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca1820-test-for-empty-strings-using-string-length.md",
+      "redirect_url": "/visualstudio/code-quality/ca1820",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca1821-remove-empty-finalizers.md",
+      "redirect_url": "/visualstudio/code-quality/ca1821",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca1822-mark-members-as-static.md",
+      "redirect_url": "/visualstudio/code-quality/ca1822",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca1823-avoid-unused-private-fields.md",
+      "redirect_url": "/visualstudio/code-quality/ca1823",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca1824-mark-assemblies-with-neutralresourceslanguageattribute.md",
+      "redirect_url": "/visualstudio/code-quality/ca1824",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "docs/version-control/index.md",
       "redirect_url": "/azure/devops/repos/index",
       "redirect_document_id": false

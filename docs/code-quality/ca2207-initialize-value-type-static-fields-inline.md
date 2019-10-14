@@ -39,4 +39,4 @@ To fix a violation of this rule initialize all static data when it is declared a
 Do not suppress a warning from this rule.
 
 ## Related rules
-[CA1810: Initialize reference type static fields inline](../code-quality/ca1810-initialize-reference-type-static-fields-inline.md)
+[CA1810: Initialize reference type static fields inline](../code-quality/ca1810.md)
