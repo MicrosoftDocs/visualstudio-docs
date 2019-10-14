@@ -50,7 +50,7 @@ The following example defines two attributes. `BadCodeMaintainerAttribute` incor
 ## Related rules
 [CA1019: Define accessors for attribute arguments](../code-quality/ca1019-define-accessors-for-attribute-arguments.md)
 
-[CA1813: Avoid unsealed attributes](../code-quality/ca1813-avoid-unsealed-attributes.md)
+[CA1813: Avoid unsealed attributes](../code-quality/ca1813.md)
 
 ## See also
 

@@ -493,37 +493,43 @@
           displayName: "performance warnings"
           href: performance-warnings.md
         - name: "CA1800: Do not cast unnecessarily"
-          href: ca1800-do-not-cast-unnecessarily.md
+          href: ca1800.md
+        - name: "CA1801: Review unused parameters"
+          href: ca1801.md
         - name: "CA1802: Use Literals Where Appropriate"
-          href: ca1802-use-literals-where-appropriate.md
+          href: ca1802.md
         - name: "CA1804: Remove unused locals"
-          href: ca1804-remove-unused-locals.md
+          href: ca1804.md
+        - name: "CA1806: Do not ignore method results"
+          href: ca1806.md
         - name: "CA1809: Avoid excessive locals"
-          href: ca1809-avoid-excessive-locals.md
+          href: ca1809.md
         - name: "CA1810: Initialize reference type static fields inline"
-          href: ca1810-initialize-reference-type-static-fields-inline.md
+          href: ca1810.md
         - name: "CA1811: Avoid uncalled private code"
-          href: ca1811-avoid-uncalled-private-code.md
+          href: ca1811.md
         - name: "CA1812: Avoid uninstantiated internal classes"
-          href: ca1812-avoid-uninstantiated-internal-classes.md
+          href: ca1812.md
         - name: "CA1813: Avoid unsealed attributes"
-          href: ca1813-avoid-unsealed-attributes.md
+          href: ca1813.md
         - name: "CA1814: Prefer jagged arrays over multidimensional"
-          href: ca1814-prefer-jagged-arrays-over-multidimensional.md
+          href: ca1814.md
         - name: "CA1815: Override equals and operator equals on value types"
-          href: ca1815-override-equals-and-operator-equals-on-value-types.md
+          href: ca1815.md
+        - name: "CA1816: Call GC.SuppressFinalize correctly"
+          href: ca1816.md
         - name: "CA1819: Properties should not return arrays"
-          href: ca1819-properties-should-not-return-arrays.md
+          href: ca1819.md
         - name: "CA1820: Test for empty strings using string length"
-          href: ca1820-test-for-empty-strings-using-string-length.md
+          href: ca1820.md
         - name: "CA1821: Remove empty finalizers"
-          href: ca1821-remove-empty-finalizers.md
+          href: ca1821.md
         - name: "CA1822: Mark members as static"
-          href: ca1822-mark-members-as-static.md
+          href: ca1822.md
         - name: "CA1823: Avoid unused private fields"
-          href: ca1823-avoid-unused-private-fields.md
+          href: ca1823.md
         - name: "CA1824: Mark assemblies with NeutralResourcesLanguageAttribute"
-          href: ca1824-mark-assemblies-with-neutralresourceslanguageattribute.md
+          href: ca1824.md
         - name: "CA1825: Avoid zero-length array allocations"
           href: ca1825.md
       - name: Portability warnings
@@ -751,11 +757,11 @@
           displayName: "usage warnings"
           href: usage-warnings.md
         - name: "CA1801: Review unused parameters"
-          href: ca1801-review-unused-parameters.md
+          href: ca1801.md
         - name: "CA1806: Do not ignore method results"
-          href: ca1806-do-not-ignore-method-results.md
+          href: ca1806.md
         - name: "CA1816: Call GC.SuppressFinalize correctly"
-          href: ca1816-call-gc-suppressfinalize-correctly.md
+          href: ca1816.md
         - name: "CA2200: Rethrow to preserve stack details"
           href: ca2200-rethrow-to-preserve-stack-details.md
         - name: "CA2201: Do not raise reserved exception types"

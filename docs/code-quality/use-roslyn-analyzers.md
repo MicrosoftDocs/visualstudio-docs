@@ -87,7 +87,7 @@ Setting a rule's severity in an EditorConfig file takes precedence over any seve
 
 1. If you don't already have an EditorConfig file for your project, [add one](../ide/create-portable-custom-editor-options.md#add-an-editorconfig-file-to-a-project).
 
-2. Add an entry for each rule you want to configure under the corresponding file extension. For example, to set the severity for [CA1822](ca1822-mark-members-as-static.md) to `error` for C# files, the entry looks as follows:
+2. Add an entry for each rule you want to configure under the corresponding file extension. For example, to set the severity for [CA1822](ca1822.md) to `error` for C# files, the entry looks as follows:
 
    ```ini
    [*.cs]

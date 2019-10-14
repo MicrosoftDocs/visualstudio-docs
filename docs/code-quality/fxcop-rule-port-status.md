@@ -92,21 +92,21 @@ CA1509 | Invalid entry in code metrics rule specification file
 [CA1721](ca1721-property-names-should-not-match-get-methods.md) | Property names should not match get methods
 [CA1724](ca1724-type-names-should-not-match-namespaces.md) | Type names should not match namespaces
 [CA1725](ca1725-parameter-names-should-match-base-declaration.md) | Parameter names should match base declaration
-[CA1801](ca1801-review-unused-parameters.md) | Review unused parameters
-[CA1802](ca1802-use-literals-where-appropriate.md) | Use literals where appropriate
-[CA1806](ca1806-do-not-ignore-method-results.md) | Do not ignore method results
-[CA1810](ca1810-initialize-reference-type-static-fields-inline.md) | Initialize reference type static fields inline
-[CA1812](ca1812-avoid-uninstantiated-internal-classes.md) | Avoid uninstantiated internal classes
-[CA1813](ca1813-avoid-unsealed-attributes.md) | Avoid unsealed attributes
-[CA1814](ca1814-prefer-jagged-arrays-over-multidimensional.md) | Prefer jagged arrays over multidimensional
-[CA1815](ca1815-override-equals-and-operator-equals-on-value-types.md) | Override equals and operator equals on value types
-[CA1816](ca1816-call-gc-suppressfinalize-correctly.md) | Dispose methods should call SuppressFinalize
-[CA1819](ca1819-properties-should-not-return-arrays.md) | Properties should not return arrays
-[CA1820](ca1820-test-for-empty-strings-using-string-length.md) | Test for empty strings using string length
-[CA1821](ca1821-remove-empty-finalizers.md) | Remove empty Finalizers
-[CA1822](ca1822-mark-members-as-static.md) | Mark members as static
-[CA1823](ca1823-avoid-unused-private-fields.md) | Avoid unused private fields
-[CA1824](ca1824-mark-assemblies-with-neutralresourceslanguageattribute.md) | Mark assemblies with NeutralResourcesLanguageAttribute
+[CA1801](ca1801.md) | Review unused parameters
+[CA1802](ca1802.md) | Use literals where appropriate
+[CA1806](ca1806.md) | Do not ignore method results
+[CA1810](ca1810.md) | Initialize reference type static fields inline
+[CA1812](ca1812.md) | Avoid uninstantiated internal classes
+[CA1813](ca1813.md) | Avoid unsealed attributes
+[CA1814](ca1814.md) | Prefer jagged arrays over multidimensional
+[CA1815](ca1815.md) | Override equals and operator equals on value types
+[CA1816](ca1816.md) | Dispose methods should call SuppressFinalize
+[CA1819](ca1819.md) | Properties should not return arrays
+[CA1820](ca1820.md) | Test for empty strings using string length
+[CA1821](ca1821.md) | Remove empty Finalizers
+[CA1822](ca1822.md) | Mark members as static
+[CA1823](ca1823.md) | Avoid unused private fields
+[CA1824](ca1824.md) | Mark assemblies with NeutralResourcesLanguageAttribute
 CA1825 | Avoid zero-length array allocations.
 CA1826 | Do not use Enumerable methods on indexable collections. Instead use the collection directly
 [CA2000](ca2000-dispose-objects-before-losing-scope.md) | Dispose objects before losing scope
@@ -246,8 +246,8 @@ Rule ID | Tracking issue
 [CA1719](ca1719-parameter-names-should-not-match-member-names.md) | [https://github.com/dotnet/roslyn-analyzers/issues/453](https://github.com/dotnet/roslyn-analyzers/issues/453)
 [CA1722](ca1722-identifiers-should-not-have-incorrect-prefix.md) | [https://github.com/dotnet/roslyn-analyzers/issues/455](https://github.com/dotnet/roslyn-analyzers/issues/455)
 [CA1726](ca1726-use-preferred-terms.md) | [https://github.com/dotnet/roslyn-analyzers/issues/458](https://github.com/dotnet/roslyn-analyzers/issues/458)
-[CA1804](ca1804-remove-unused-locals.md) | [https://github.com/dotnet/roslyn-analyzers/issues/461](https://github.com/dotnet/roslyn-analyzers/issues/461)
-[CA1811](ca1811-avoid-uncalled-private-code.md) | [https://github.com/dotnet/roslyn-analyzers/issues/464](https://github.com/dotnet/roslyn-analyzers/issues/464)
+[CA1804](ca1804.md) | [https://github.com/dotnet/roslyn-analyzers/issues/461](https://github.com/dotnet/roslyn-analyzers/issues/461)
+[CA1811](ca1811.md) | [https://github.com/dotnet/roslyn-analyzers/issues/464](https://github.com/dotnet/roslyn-analyzers/issues/464)
 [CA1900](ca1900-value-type-fields-should-be-portable.md) | [https://github.com/dotnet/roslyn-analyzers/issues/474](https://github.com/dotnet/roslyn-analyzers/issues/474)
 [CA2001](ca2001-avoid-calling-problematic-methods.md) | [https://github.com/dotnet/roslyn-analyzers/issues/477](https://github.com/dotnet/roslyn-analyzers/issues/477)
 [CA2004](ca2004-remove-calls-to-gc-keepalive.md) | [https://github.com/dotnet/roslyn-analyzers/issues/479](https://github.com/dotnet/roslyn-analyzers/issues/479)
@@ -282,8 +282,8 @@ The following FxCop legacy analysis rules are deprecated and won't be implemente
 - [CA1701](ca1701-resource-string-compound-words-should-be-cased-correctly.md)
 - [CA1702](ca1702-compound-words-should-be-cased-correctly.md)
 - [CA1703](ca1703-resource-strings-should-be-spelled-correctly.md)
-- [CA1800](ca1800-do-not-cast-unnecessarily.md)
-- [CA1809](ca1809-avoid-excessive-locals.md)
+- [CA1800](ca1800.md)
+- [CA1809](ca1809.md)
 - [CA1901](ca1901-p-invoke-declarations-should-be-portable.md)
 - [CA1903](ca1903-use-only-api-from-targeted-framework.md)
 - [CA2003](ca2003-do-not-treat-fibers-as-threads.md)

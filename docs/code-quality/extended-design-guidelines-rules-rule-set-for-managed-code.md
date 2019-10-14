@@ -36,7 +36,7 @@ The following table describes all the rules in the Microsoft Extended Design Gui
 |[CA1405](../code-quality/ca1405-com-visible-type-base-types-should-be-com-visible.md)|COM visible type base types should be COM visible|
 |[CA1410](../code-quality/ca1410-com-registration-methods-should-be-matched.md)|COM registration methods should be matched|
 |[CA1415](../code-quality/ca1415-declare-p-invokes-correctly.md)|Declare P/Invokes correctly|
-|[CA1821](../code-quality/ca1821-remove-empty-finalizers.md)|Remove empty finalizers|
+|[CA1821](../code-quality/ca1821.md)|Remove empty finalizers|
 |[CA1900](../code-quality/ca1900-value-type-fields-should-be-portable.md)|Value type fields should be portable|
 |[CA1901](../code-quality/ca1901-p-invoke-declarations-should-be-portable.md)|P/Invoke declarations should be portable|
 |[CA2002](../code-quality/ca2002-do-not-lock-on-objects-with-weak-identity.md)|Do not lock on objects with weak identity|
@@ -132,19 +132,19 @@ The following table describes all the rules in the Microsoft Extended Design Gui
 |[CA1502](../code-quality/ca1502-avoid-excessive-complexity.md)|Avoid excessive complexity|
 |[CA1708](../code-quality/ca1708-identifiers-should-differ-by-more-than-case.md)|Identifiers should differ by more than case|
 |[CA1716](../code-quality/ca1716-identifiers-should-not-match-keywords.md)|Identifiers should not match keywords|
-|[CA1801](../code-quality/ca1801-review-unused-parameters.md)|Review unused parameters|
-|[CA1804](../code-quality/ca1804-remove-unused-locals.md)|Remove unused locals|
-|[CA1809](../code-quality/ca1809-avoid-excessive-locals.md)|Avoid excessive locals|
-|[CA1810](../code-quality/ca1810-initialize-reference-type-static-fields-inline.md)|Initialize reference type static fields inline|
-|[CA1811](../code-quality/ca1811-avoid-uncalled-private-code.md)|Avoid uncalled private code|
-|[CA1812](../code-quality/ca1812-avoid-uninstantiated-internal-classes.md)|Avoid uninstantiated internal classes|
-|[CA1813](../code-quality/ca1813-avoid-unsealed-attributes.md)|Avoid unsealed attributes|
-|[CA1814](../code-quality/ca1814-prefer-jagged-arrays-over-multidimensional.md)|Prefer jagged arrays over multidimensional|
-|[CA1815](../code-quality/ca1815-override-equals-and-operator-equals-on-value-types.md)|Override equals and operator equals on value types|
-|[CA1819](../code-quality/ca1819-properties-should-not-return-arrays.md)|Properties should not return arrays|
-|[CA1820](../code-quality/ca1820-test-for-empty-strings-using-string-length.md)|Test for empty strings using string length|
-|[CA1822](../code-quality/ca1822-mark-members-as-static.md)|Mark members as static|
-|[CA1823](../code-quality/ca1823-avoid-unused-private-fields.md)|Avoid unused private fields|
+|[CA1801](../code-quality/ca1801.md)|Review unused parameters|
+|[CA1804](../code-quality/ca1804.md)|Remove unused locals|
+|[CA1809](../code-quality/ca1809.md)|Avoid excessive locals|
+|[CA1810](../code-quality/ca1810.md)|Initialize reference type static fields inline|
+|[CA1811](../code-quality/ca1811.md)|Avoid uncalled private code|
+|[CA1812](../code-quality/ca1812.md)|Avoid uninstantiated internal classes|
+|[CA1813](../code-quality/ca1813.md)|Avoid unsealed attributes|
+|[CA1814](../code-quality/ca1814.md)|Prefer jagged arrays over multidimensional|
+|[CA1815](../code-quality/ca1815.md)|Override equals and operator equals on value types|
+|[CA1819](../code-quality/ca1819.md)|Properties should not return arrays|
+|[CA1820](../code-quality/ca1820.md)|Test for empty strings using string length|
+|[CA1822](../code-quality/ca1822.md)|Mark members as static|
+|[CA1823](../code-quality/ca1823.md)|Avoid unused private fields|
 |[CA2201](../code-quality/ca2201-do-not-raise-reserved-exception-types.md)|Do not raise reserved exception types|
 |[CA2205](../code-quality/ca2205-use-managed-equivalents-of-win32-api.md)|Use managed equivalents of Win32 API|
 |[CA2208](../code-quality/ca2208-instantiate-argument-exceptions-correctly.md)|Instantiate argument exceptions correctly|
