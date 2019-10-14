@@ -18,22 +18,26 @@ landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
   # Card (optional)
-  - title: About JavaScript and TypeScript in Visual Studio
+  - title: Get started
     linkLists:
       - linkListType: overview
         links:
-          - text: JavaScript and TypeScript in Visual Studio 2019
+          - text: JavaScript and TypeScript in Visual Studio
             url: javascript-in-vs-2019.md
-          - text: First look at the Visual Studio IDE
-            url: quickstart-ide-orientation-js.md
-
-  # Card (optional)
-  - title: Get started
-    linkLists:
-      - linkListType: tutorial
+      - linkListType: how-to-guide
         links:
           - text: Install Visual Studio
             url: ../install/install-visual-studio.md
+      - linkListType: get-started
+        links:
+          - text: Start a guided tour
+            url: quickstart-ide-orientation-js.md
+
+  # Card (optional)
+  - title: Create JavaScript and TypeScript apps
+    linkLists:
+      - linkListType: tutorial
+        links:
           - text: Create a web app with Node.js and Express
             url: tutorial-nodejs.md
           - text: Create a web app with Node.js and React
@@ -42,7 +46,7 @@ landingContent:
             url: quickstart-vuejs-with-nodejs.md
 
   # Card
-  - title: Develop apps
+  - title: Learn Visual Studio
     linkLists:
       - linkListType: how-to-guide
         links:
