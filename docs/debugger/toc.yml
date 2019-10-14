@@ -93,7 +93,7 @@
     - name: View memory for variables
       href: memory-windows.md
     - name: Inspect XAML properties while debugging
-      href: ../xaml-tools/inspect-xaml-properties-while-debugging.md?toc=/visualstudio/toc.json&bc=/visualstudio/breadcrumb/toc.json
+      href: ../xaml-tools/inspect-xaml-properties-while-debugging.md?toc=/visualstudio/debugger/toc.json
   - name: Call stack
     items:
     - name: View the call stack
@@ -133,9 +133,9 @@
     - name: XAML Hot Reload
       items:
       - name: Write and debug running XAML code
-        href: ../xaml-tools/xaml-hot-reload.md?toc=/visualstudio/toc.json&bc=/visualstudio/breadcrumb/toc.json
+        href: ../xaml-tools/xaml-hot-reload.md?toc=/visualstudio/debugger/toc.json
       - name: Troubleshooting XAML Hot Reload
-        href: ../xaml-tools/xaml-hot-reload-troubleshooting.md?toc=/visualstudio/toc.json&bc=/visualstudio/breadcrumb/toc.json
+        href: ../xaml-tools/xaml-hot-reload-troubleshooting.md?toc=/visualstudio/debugger/toc.json
     - name: Edit and Continue not supported for F#
       href: edit-and-continue-not-supported-for-f-hash.md
   - name: View debugger data
@@ -435,7 +435,7 @@
       - name: Debug an installed app package
         href: debug-installed-app-package.md
       - name: Debug XAML in Blend
-        href: ../xaml-tools/debug-xaml-in-blend.md?toc=/visualstudio/toc.json&bc=/visualstudio/breadcrumb/toc.json
+        href: ../xaml-tools/debug-xaml-in-blend.md?toc=/visualstudio/debugger/toc.json
       - name: HTML and CSS
         items:
         - name: Debug HTML and CSS
