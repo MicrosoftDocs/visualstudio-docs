@@ -35,8 +35,7 @@ In this step, you create a set of matching symbols for the game. Each symbol is 
 
 3. When adding the List object, notice the **IntelliSense** window that opens. The following is a Visual C# example, but similar text appears when you add a list in Visual Basic.
 
-     ![Properties window showing Click event](../ide/media/express_listintellisense.png)
-IntelliSense window
+     ![Properties window showing Click event](../ide/media/express_listintellisense.png)<br/>***IntelliSense** window*
 
     > [!NOTE]
     > The IntelliSense window appears only when you enter code manually. If you copy and paste the code, it doesn't appear.
@@ -54,6 +53,6 @@ IntelliSense window
 
 ## To continue or review
 
-- To go to the next tutorial step, see [Step 3: Assign a random icon to each label](../ide/step-3-assign-a-random-icon-to-each-label.md).
+- To go to the next tutorial step, see [**Step 3: Assign a random icon to each label**](../ide/step-3-assign-a-random-icon-to-each-label.md).
 
 - To return to the previous tutorial step, see [Step 1: Create a project and add a table to your form](../ide/step-1-create-a-project-and-add-a-table-to-your-form.md).
