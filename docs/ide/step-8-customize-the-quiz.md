@@ -35,8 +35,7 @@ In the last part of the tutorial, you'll explore some ways to customize the quiz
   timeLabel.BackColor = Color.Red
   ```
 
-  > [!IMPORTANT]
-  > Use the programming language control at the top right of this page to view either the C# code snippet or the Visual Basic code snippet.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
+  [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
 
   Reset the color when the quiz is over.
 
