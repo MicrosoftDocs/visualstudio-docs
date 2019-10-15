@@ -24,8 +24,6 @@ landingContent:
         links:
           - text: What is debugging?
             url: what-is-debugging.md
-          - text: Debugging techniques and tools
-            url: write-better-code-with-visual-studio.md
           - text: First look at the debugger
             url: debugger-feature-tour.md
           - text: Find your debugging task
