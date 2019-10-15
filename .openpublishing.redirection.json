@@ -7752,12 +7752,12 @@
     },
     {
       "source_path": "scripting-docs/winscript/index.md",
-      "redirect_url": "/script/winscript/active-script-debugging-overview",
+      "redirect_url": "/scripting/winscript/active-script-debugging-overview",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/index.md",
-      "redirect_url": "/script/winscript/windows-script-interfaces-reference",
+      "redirect_url": "/scripting/winscript/reference/windows-script-interfaces-reference",
       "redirect_document_id": false
     },
     {
@@ -8589,6 +8589,11 @@
       "source_path": "docs/code-quality/ca2243-attribute-string-literals-should-parse-correctly.md",
       "redirect_url": "/visualstudio/code-quality/ca2243",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "subscriptions/vs-office-dev.md",
+      "redirect_url": "/visualstudio/subscriptions/vs-m365",
+      "redirect_document_id": false
     }
   ]
 }
