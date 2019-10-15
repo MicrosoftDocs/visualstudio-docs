@@ -36,7 +36,7 @@ The primary use of a field should be as an implementation detail. Fields should 
 
 Properties that just return the value of a private or internal field are optimized to perform on par with accessing a field; the performance gain from using externally visible fields instead of properties is minimal. *Externally visible* refers to `public`, `protected`, and `protected internal` (`Public`, `Protected`, and `Protected Friend` in Visual Basic) accessibility levels.
 
-Additionally, public fields cannot be protected by [Link demands](/dotnet/framework/misc/link-demands). For more information, see [CA2112: Secured types should not expose fields](../code-quality/ca2112-secured-types-should-not-expose-fields.md). (Link demands are not applicable to .NET Core apps.)
+Additionally, public fields cannot be protected by [Link demands](/dotnet/framework/misc/link-demands). For more information, see [CA2112: Secured types should not expose fields](../code-quality/ca2112.md). (Link demands are not applicable to .NET Core apps.)
 
 ## How to fix violations
 
@@ -69,7 +69,7 @@ The following example shows a type (`BadPublicInstanceFields`) that violates thi
 
 ## Related rules
 
-- [CA2112: Secured types should not expose fields](../code-quality/ca2112-secured-types-should-not-expose-fields.md)
+- [CA2112: Secured types should not expose fields](../code-quality/ca2112.md)
 
 ## See also
 

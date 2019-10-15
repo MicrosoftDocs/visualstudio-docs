@@ -8594,6 +8594,21 @@
       "source_path": "subscriptions/vs-office-dev.md",
       "redirect_url": "/visualstudio/subscriptions/vs-m365",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca5350-do-not-use-weak-cryptographic-algorithms.md",
+      "redirect_url": "/visualstudio/code-quality/ca5350",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca5351-do-not-use-broken-cryptographic-algorithms.md",
+      "redirect_url": "/visualstudio/code-quality/ca5351",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2101-specify-marshaling-for-p-invoke-string-arguments.md",
+      "redirect_url": "/visualstudio/code-quality/ca2101",
+      "redirect_document_id": true
     }
   ]
 }
