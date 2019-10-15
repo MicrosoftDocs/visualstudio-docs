@@ -1,7 +1,7 @@
 ### YamlMime:Landing
 
 title: Edit code in Visual Studio
-summary: This page provides links for tasks such as opening a project, using code editor features, and maintaining consistent code style.
+summary: Learn about editing tasks such as opening a project, using code editor features, and maintaining consistent code style.
 
 metadata:
   title: Code editor features
@@ -52,7 +52,7 @@ landingContent:
             url: ../code-quality/roslyn-analyzers-overview.md
 
   # Card
-  - title: Get started in a particular programming language
+  - title: Get started with programming languages
     linkLists:
       - linkListType: tutorial
         links:
