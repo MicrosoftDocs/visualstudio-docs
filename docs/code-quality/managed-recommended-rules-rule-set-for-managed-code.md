@@ -61,21 +61,21 @@ Include this rule set in any custom rule set that you create for your projects.
 |[CA2146](../code-quality/ca2146-types-must-be-at-least-as-critical-as-their-base-types-and-interfaces.md)|Types must be at least as critical as their base types and interfaces|
 |[CA2147](../code-quality/ca2147-transparent-methods-may-not-use-security-asserts.md)|Transparent methods may not use security asserts|
 |[CA2149](../code-quality/ca2149-transparent-methods-must-not-call-into-native-code.md)|Transparent methods must not call into native code|
-|[CA2200](../code-quality/ca2200-rethrow-to-preserve-stack-details.md)|Rethrow to preserve stack details|
-|[CA2202](../code-quality/ca2202-do-not-dispose-objects-multiple-times.md)|Do not dispose objects multiple times|
-|[CA2207](../code-quality/ca2207-initialize-value-type-static-fields-inline.md)|Initialize value type static fields inline|
-|[CA2212](../code-quality/ca2212-do-not-mark-serviced-components-with-webmethod.md)|Do not mark serviced components with WebMethod|
-|[CA2213](../code-quality/ca2213-disposable-fields-should-be-disposed.md)|Disposable fields should be disposed|
-|[CA2214](../code-quality/ca2214-do-not-call-overridable-methods-in-constructors.md)|Do not call overridable methods in constructors|
-|[CA2216](../code-quality/ca2216-disposable-types-should-declare-finalizer.md)|Disposable types should declare finalizer|
-|[CA2220](../code-quality/ca2220-finalizers-should-call-base-class-finalizer.md)|Finalizers should call base class finalizer|
-|[CA2229](../code-quality/ca2229-implement-serialization-constructors.md)|Implement serialization constructors|
-|[CA2231](../code-quality/ca2231-overload-operator-equals-on-overriding-valuetype-equals.md)|Overload operator equals on overriding ValueType.Equals|
-|[CA2232](../code-quality/ca2232-mark-windows-forms-entry-points-with-stathread.md)|Mark Windows Forms entry points with STAThread|
-|[CA2235](../code-quality/ca2235-mark-all-non-serializable-fields.md)|Mark all non-serializable fields|
-|[CA2236](../code-quality/ca2236-call-base-class-methods-on-iserializable-types.md)|Call base class methods on ISerializable types|
-|[CA2237](../code-quality/ca2237-mark-iserializable-types-with-serializableattribute.md)|Mark ISerializable types with SerializableAttribute|
-|[CA2238](../code-quality/ca2238-implement-serialization-methods-correctly.md)|Implement serialization methods correctly|
-|[CA2240](../code-quality/ca2240-implement-iserializable-correctly.md)|Implement ISerializable correctly|
-|[CA2241](../code-quality/ca2241-provide-correct-arguments-to-formatting-methods.md)|Provide correct arguments to formatting methods|
-|[CA2242](../code-quality/ca2242-test-for-nan-correctly.md)|Test for NaN correctly|
+|[CA2200](../code-quality/ca2200.md)|Rethrow to preserve stack details|
+|[CA2202](../code-quality/ca2202.md)|Do not dispose objects multiple times|
+|[CA2207](../code-quality/ca2207.md)|Initialize value type static fields inline|
+|[CA2212](../code-quality/ca2212.md)|Do not mark serviced components with WebMethod|
+|[CA2213](../code-quality/ca2213.md)|Disposable fields should be disposed|
+|[CA2214](../code-quality/ca2214.md)|Do not call overridable methods in constructors|
+|[CA2216](../code-quality/ca2216.md)|Disposable types should declare finalizer|
+|[CA2220](../code-quality/ca2220.md)|Finalizers should call base class finalizer|
+|[CA2229](../code-quality/ca2229.md)|Implement serialization constructors|
+|[CA2231](../code-quality/ca2231.md)|Overload operator equals on overriding ValueType.Equals|
+|[CA2232](../code-quality/ca2232.md)|Mark Windows Forms entry points with STAThread|
+|[CA2235](../code-quality/ca2235.md)|Mark all non-serializable fields|
+|[CA2236](../code-quality/ca2236.md)|Call base class methods on ISerializable types|
+|[CA2237](../code-quality/ca2237.md)|Mark ISerializable types with SerializableAttribute|
+|[CA2238](../code-quality/ca2238.md)|Implement serialization methods correctly|
+|[CA2240](../code-quality/ca2240.md)|Implement ISerializable correctly|
+|[CA2241](../code-quality/ca2241.md)|Provide correct arguments to formatting methods|
+|[CA2242](../code-quality/ca2242.md)|Test for NaN correctly|

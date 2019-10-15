@@ -56,13 +56,13 @@ You can configure this option for just this rule, for all rules, or for all rule
 
 ## Example
 
-In the following example, `DaysEnumNeedsFlags` is an enumeration that meets the requirements for using <xref:System.FlagsAttribute> but doesn't have it. The `ColorEnumShouldNotHaveFlag` enumeration does not have values that are powers of two but incorrectly specifies <xref:System.FlagsAttribute>. This violates rule [CA2217: Do not mark enums with FlagsAttribute](../code-quality/ca2217-do-not-mark-enums-with-flagsattribute.md).
+In the following example, `DaysEnumNeedsFlags` is an enumeration that meets the requirements for using <xref:System.FlagsAttribute> but doesn't have it. The `ColorEnumShouldNotHaveFlag` enumeration does not have values that are powers of two but incorrectly specifies <xref:System.FlagsAttribute>. This violates rule [CA2217: Do not mark enums with FlagsAttribute](../code-quality/ca2217.md).
 
 [!code-csharp[FxCop.Design.EnumFlags#1](../code-quality/codesnippet/CSharp/ca1027-mark-enums-with-flagsattribute_1.cs)]
 
 ## Related rules
 
-- [CA2217: Do not mark enums with FlagsAttribute](../code-quality/ca2217-do-not-mark-enums-with-flagsattribute.md)
+- [CA2217: Do not mark enums with FlagsAttribute](../code-quality/ca2217.md)
 
 ## See also
 

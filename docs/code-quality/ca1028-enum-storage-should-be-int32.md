@@ -73,7 +73,7 @@ The following example fixes the previous violation by changing the underlying da
 
 - [CA1008: Enums should have zero value](../code-quality/ca1008-enums-should-have-zero-value.md)
 - [CA1027: Mark enums with FlagsAttribute](../code-quality/ca1027-mark-enums-with-flagsattribute.md)
-- [CA2217: Do not mark enums with FlagsAttribute](../code-quality/ca2217-do-not-mark-enums-with-flagsattribute.md)
+- [CA2217: Do not mark enums with FlagsAttribute](../code-quality/ca2217.md)
 - [CA1700: Do not name enum values 'Reserved'](../code-quality/ca1700-do-not-name-enum-values-reserved.md)
 - [CA1712: Do not prefix enum values with type name](../code-quality/ca1712-do-not-prefix-enum-values-with-type-name.md)
 

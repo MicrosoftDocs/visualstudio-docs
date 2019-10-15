@@ -140,7 +140,7 @@ If the violation was caused by an exception declaration instead of a thrown exce
 
 ## Related rules
 
-- [CA2219: Do not raise exceptions in exception clauses](../code-quality/ca2219-do-not-raise-exceptions-in-exception-clauses.md)
+- [CA2219: Do not raise exceptions in exception clauses](../code-quality/ca2219.md)
 
 ## See also
 

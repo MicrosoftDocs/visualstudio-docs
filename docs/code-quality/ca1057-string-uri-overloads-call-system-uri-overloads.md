@@ -49,7 +49,7 @@ The following example shows a correctly implemented string overload.
 [!code-vb[FxCop.Design.CallUriOverload#1](../code-quality/codesnippet/VisualBasic/ca1057-string-uri-overloads-call-system-uri-overloads_1.vb)]
 
 ## Related rules
-[CA2234: Pass System.Uri objects instead of strings](../code-quality/ca2234-pass-system-uri-objects-instead-of-strings.md)
+[CA2234: Pass System.Uri objects instead of strings](../code-quality/ca2234.md)
 
 [CA1056: URI properties should not be strings](../code-quality/ca1056-uri-properties-should-not-be-strings.md)
 
