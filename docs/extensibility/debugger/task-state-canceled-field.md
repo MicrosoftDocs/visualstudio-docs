@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "TASK_STATE_CANCELED field, Task class [.NET Framework debug engines]"
 ms.assetid: f4f5a96a-8230-493d-9696-8d2716bda261
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|MarkComSourceInterfacesAsIDispatch|
 |CheckId|CA1412|
 |Category|Microsoft.Interoperability|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

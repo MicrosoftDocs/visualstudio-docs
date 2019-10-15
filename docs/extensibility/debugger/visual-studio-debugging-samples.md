@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], samples"
   - "Debugging SDK, samples"
 ms.assetid: fbcc42a7-7851-487f-b981-8c4ae7ec7347
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

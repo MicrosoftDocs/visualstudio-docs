@@ -160,6 +160,8 @@ To create unit tests that use [NUnit](https://nunit.org/):
 
 4. Add a reference from the test project to the project that contains the code you want to test.
 
+   Right-click on the project in **Solution Explorer**, and then select **Add** > **Reference**. (You can also add a reference from the right-click menu of the **References** or **Dependencies** node.)
+
 5. Add code to your test method.
 
    ![Add code to your unit test code file](media/vs-2019/unit-test-method.png)

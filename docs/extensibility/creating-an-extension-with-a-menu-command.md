@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "tutorials"
   - "visual studio package"
 ms.assetid: f97104c8-2bcb-45c7-a3c9-85abeda8df98
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -133,4 +133,4 @@ This walkthrough has shown you only a small part of what you can do with a Visua
 
 5. Add Options and Property pages and user settings to your extension: [Extend properties and the Property window](../extensibility/extending-properties-and-the-property-window.md) and [Extend user settings and options](../extensibility/extending-user-settings-and-options.md)
 
-   Other kinds of extensions require a little more work, such as creating a new type of project ([Extend projects](../extensibility/extending-projects.md)), creating a new type of editor ([Create custom editors and designers](../extensibility/creating-custom-editors-and-designers.md)), or implementing your extension in an isolated shell: [Visual Studio isolated shell](/visualstudio/extensibility/shell/visual-studio-isolated-shell)
+   Other kinds of extensions require a little more work, such as creating a new type of project ([Extend projects](../extensibility/extending-projects.md)), creating a new type of editor ([Create custom editors and designers](../extensibility/creating-custom-editors-and-designers.md)), or implementing your extension in an isolated shell: [Visual Studio isolated shell](https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/)

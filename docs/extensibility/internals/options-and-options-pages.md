@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "Tools Options pages [Visual Studio SDK], layouts"
   - "Tools Options pages [Visual Studio SDK], attributes"
 ms.assetid: e6c0e636-5ec3-450e-b395-fc4bb9d75918
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

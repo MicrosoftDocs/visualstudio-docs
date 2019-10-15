@@ -137,7 +137,7 @@ This topic contains information to help you resolve issues that you may experien
 
 - Make sure that minimum hardware requirements are fulfilled and that BIOS settings are correct.
 
-   The Emulator and Windows 8 Hyper-V require a 64-bit processor with Second Level Address Translation (SLAT). For Intel, you essentially need a Core i3, i5 or i7 processor (or one of many Xeons). A list of AMD chips is available [here](http://support.amd.com/en-us).
+   The Emulator and Windows 8 Hyper-V require a 64-bit processor with Second Level Address Translation (SLAT). For Intel, you essentially need a Core i3, i5 or i7 processor (or one of many Xeons). A list of AMD chips is available [here](https://www.amd.com/en/support).
 
   1. Make sure your computer meets the [system requirements](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md).
 

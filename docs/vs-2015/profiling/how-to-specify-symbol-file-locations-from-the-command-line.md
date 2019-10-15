@@ -42,7 +42,7 @@ To display symbol information such as function names and line numbers, the VSPer
   
 2. Use the following syntax to set the **_NT_SYMBOL_PATH** environment variable or the VSPerfReport /SymbolPath option:  
   
-    **srv\\*** *LocalStore* **\*http://msdl.microsoft.com/downloads/symbols**  
+    **srv\*** *LocalStore* **\*http://msdl.microsoft.com/downloads/symbols**  
   
     where *LocalStore* is the path of the local directory that you created.  
   

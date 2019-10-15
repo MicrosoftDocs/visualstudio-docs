@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPointerField::GetDereferencedField method"
 ms.assetid: 8de988ab-cd79-4287-be72-3c900f2fe407
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetDereferencedField(
 ```
 
 ## Parameters
- `ppField`\
-
- [out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) describing the type of target object.
+`ppField`\
+[out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) describing the type of target object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

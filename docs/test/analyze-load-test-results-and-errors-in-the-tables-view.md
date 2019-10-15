@@ -58,13 +58,13 @@ The following table lists the tables that are available to analyze load test run
 
 ## Collect percentile data
 
- Some load test tables can contain additional columns, which include percentile data and response times broken into groups based on network emulation. By default, this data is not collected. Percentile data is only available when you save results to a database, and not when you save locally. For more information, see [Managing load test results in the Load Test Results Repository](../test/manage-load-test-results-in-the-load-test-results-repository.md). Additionally, to collect this data, in the **Load Test Editor**, under the **Run Settings** node, select the specific run setting node to change. In the **Properties** window, for the **Timing Details Storage** property, select **StatisticsOnly** or **AllIndividualDetails**. For more information, see [How to: View web page response](../test/how-to-view-web-page-response-time-in-a-load-test.md).
+Some load test tables can contain additional columns, which include percentile data and response times broken into groups based on network emulation. By default, this data is not collected. Percentile data is only available when you save results to a database, and not when you save locally. For more information, see [Managing load test results in the Load Test Results Repository](../test/manage-load-test-results-in-the-load-test-results-repository.md). Additionally, to collect this data, in the **Load Test Editor**, under the **Run Settings** node, select the specific run setting node to change. In the **Properties** window, for the **Timing Details Storage** property, select **StatisticsOnly** or **AllIndividualDetails**. For more information, see [How to: View web page response](../test/how-to-view-web-page-response-time-in-a-load-test.md).
 
 ## The Requests table
 
- The **Requests** table displays details for individual requests issued during a load test. This includes all HTTP requests, and dependent requests such as images. The table lists requests by test and scenario, because one request can be included in many tests and scenarios.
+The **Requests** table displays details for individual requests issued during a load test. This includes all HTTP requests, and dependent requests such as images. The table lists requests by test and scenario, because one request can be included in many tests and scenarios.
 
- The following table lists the columns in the **Requests** table:
+The following table lists the columns in the **Requests** table:
 
 |Column|Description|Visible by Default|
 |-|-|-|
@@ -84,9 +84,9 @@ The following table lists the tables that are available to analyze load test run
 
 ## The Tests table
 
- The **Tests** table displays details for individual tests run during a load test. The table lists tests by test and scenario, because one test can be included in many scenarios.
+The **Tests** table displays details for individual tests run during a load test. The table lists tests by test and scenario, because one test can be included in many scenarios.
 
- The following table lists the columns in the **Tests** table.
+The following table lists the columns in the **Tests** table.
 
 |Column|Description|Visible by Default|
 |-|-|-|
@@ -105,9 +105,9 @@ The following table lists the tables that are available to analyze load test run
 
 ## The Transactions table
 
- The **Transactions** table displays a list of transactions that occurred during a load test run. Transactions refer to either transactions defined in a web performance test, or timers defined in a unit test. Transaction does not refer to database transactions.
+The **Transactions** table displays a list of transactions that occurred during a load test run. Transactions refer to either transactions defined in a web performance test, or timers defined in a unit test. Transaction does not refer to database transactions.
 
- The following table lists the columns in the **Transactions** table.
+The following table lists the columns in the **Transactions** table.
 
 > [!NOTE]
 > To view all columns, you must enable the Timing Details Storage property that is associated with the active run setting. For more information, see [How to: Specify the Timing Details Storage property](../test/how-to-specify-the-timing-details-storage-property-for-a-load-test.md).
@@ -132,11 +132,11 @@ The following table lists the tables that are available to analyze load test run
 
 ## The Errors table
 
- When you run a load test, you can analyze errors that occur. Analyzing errors and adjusting your tests are an important part of the load test process. If any errors occurred, an **errors** hyperlink appears on the load test status bar and specifies the number of errors that occurred. To display the errors table, you choose the hyperlink.
+When you run a load test, you can analyze errors that occur. Analyzing errors and adjusting your tests are an important part of the load test process. If any errors occurred, an **errors** hyperlink appears on the load test status bar and specifies the number of errors that occurred. To display the errors table, you choose the hyperlink.
 
- The errors table groups the errors that occurred during a load test by the type and subtype of the error. There is also a **total** line in the table that specifies the total count of all the errors that occurred.
+The errors table groups the errors that occurred during a load test by the type and subtype of the error. There is also a **total** line in the table that specifies the total count of all the errors that occurred.
 
- The errors table contains the following columns:
+The errors table contains the following columns:
 
 |Column|Description|Visible by default|
 |-|-|-|
@@ -145,7 +145,7 @@ The following table lists the tables that are available to analyze load test run
 |Count|The number of errors of this type that occurred during the load test. The entries in this column appear as hyperlinks. You can choose any hyperlink to view a list of the individual errors.|Yes|
 |Last Message|A message that describes the error. For example, 404 - NotFound.|Yes|
 
- For more information, see [Working with load test tables](../test/analyze-load-test-results-and-errors-in-the-tables-view.md).
+For more information, see [Working with load test tables](../test/analyze-load-test-results-and-errors-in-the-tables-view.md).
 
 ### Drill down to the error list
 

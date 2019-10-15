@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "designers [Visual Studio SDK]"
   - "editors [Visual Studio SDK], custom"
 ms.assetid: b6a5e8b2-0ae1-4fc3-812d-09d40051b435
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

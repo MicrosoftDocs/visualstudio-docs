@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_LOCATION_CODE_ADDRESS structure"
 ms.assetid: 83c9da8b-19d9-4be5-b225-854543654901
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

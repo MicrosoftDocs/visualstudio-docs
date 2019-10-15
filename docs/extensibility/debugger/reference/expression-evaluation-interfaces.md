@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "expression evaluation, interfaces"
 ms.assetid: 2d259f60-2cd7-460e-b02d-24a8fb202850
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

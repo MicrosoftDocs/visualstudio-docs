@@ -41,7 +41,7 @@ All project and item templates, whether installed with Visual Studio or created 
 
 ::: moniker-end
 
-   For more information about *.vstemplate* files, see [Template parameters](../ide/template-parameters.md).
+   For more information about *.vstemplate* files, see [Template tags](template-tags.md) and [Template parameters](../ide/template-parameters.md).
 
 When these files are compressed into a *.zip* file and put in the correct folder, Visual Studio automatically displays them in the following places:
 
@@ -65,6 +65,7 @@ For more information about template folders, see [How to: Locate and organize te
 
 - [How to: Create project templates](../ide/how-to-create-project-templates.md)
 - [How to: Create item templates](../ide/how-to-create-item-templates.md)
+- [Template tags](template-tags.md)
 - [Template parameters](../ide/template-parameters.md)
 - [Customize templates](../ide/customizing-project-and-item-templates.md)
 - [NuGet packages in Visual Studio templates](/nuget/visual-studio-extensibility/visual-studio-templates)

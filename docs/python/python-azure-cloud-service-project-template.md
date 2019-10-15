@@ -19,7 +19,7 @@ Visual Studio provides templates to help you get started creating Azure Cloud Se
 
 A [cloud service](https://docs.microsoft.com/azure/cloud-services/) consists of any number of *worker roles* and *web roles*, each of which performs a conceptually separate task but can be separately replicated across virtual machines as needed for scaling. Web roles provide hosting for front-end web applications. Where Python is concerned, any web framework that supports WSGI can be used to write such an application (as supported by the [Web project template](python-web-application-project-templates.md)). Worker roles are intended for long-running processes that do not interact directly with users. They typically make use of the packages within the "azure" package, which is installed with [`pip install azure`](https://pypi.org/project/azure).
 
-This article contains details about the project template and other support in Visual Studio 2017 and later (earlier versions are similar, but with some differences). For more about working with Azure from Python, visit the [Azure Python Developer Center](https://docs.microsoft.com/python/azure/?view=azure-python/?view=azure-python).
+This article contains details about the project template and other support in Visual Studio 2017 and later (earlier versions are similar, but with some differences). For more about working with Azure from Python, visit the [Azure Python Developer Center](https://docs.microsoft.com/azure/python/).
 
 ## Create a project
 

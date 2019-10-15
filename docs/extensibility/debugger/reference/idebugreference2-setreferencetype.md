@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugReference2::SetReferenceType"
 ms.assetid: 5854a172-ea82-481c-97d9-c7fc16923d44
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int SetReferenceType ( 
 ```
 
 ## Parameters
- `dwRefType`\
-
- [in] A value from the [REFERENCE_TYPE](../../../extensibility/debugger/reference/reference-type.md) enumeration that specifies the reference type.
+`dwRefType`\
+[in] A value from the [REFERENCE_TYPE](../../../extensibility/debugger/reference/reference-type.md) enumeration that specifies the reference type.
 
 ## Return Value
  Always returns `E_NOTIMPL`.

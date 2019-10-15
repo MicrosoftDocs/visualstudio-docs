@@ -67,7 +67,7 @@ Developing apps for modern platforms involves many more activities than just wri
 3. Binary assets in a Unity project—such as textures or audio files—can take up a large amount of storage. Various source control systems like Git store a unique copy of a file for every change that is made, even if the change affects only a small portion of the file. This can cause the Git repository to become bloated. To address this, Unity developers often elect to add only final assets to their repository, and use a different means of keeping a working history of their assets, such as OneDrive, DropBox, or git-annex. This approach works because such assets typically don’t need to be versioned along with source code changes. Developers also typically set the project editor’s Asset Serialization Mode to Force Text to store scene files in text rather than binary format, which allows for merges in source control. For details, see [Editor Settings](http://docs.unity3d.com/Manual/class-EditorManager.html) (Unity documentation).  
   
 ## Build  
- Reference link: **[Build](https://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)**  
+ Reference link: **[Build](/azure/devops/pipelines/index)**  
   
 |Feature|Supported with Unity|Additional Comments|  
 |-------------|--------------------------|-------------------------|  

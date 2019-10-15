@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugModule3::SetJustMyCodeState"
 ms.assetid: 68f8166d-ef64-49ae-ad5e-79604f43bbd4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int SetJustMyCodeState(
 ```
 
 ## Parameters
- `fIsUserCode`\
-
- [in] Nonzero (`TRUE`) if the module should be considered user code, zero (`FALSE`) if it should not.
+`fIsUserCode`\
+[in] Nonzero (`TRUE`) if the module should be considered user code, zero (`FALSE`) if it should not.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.

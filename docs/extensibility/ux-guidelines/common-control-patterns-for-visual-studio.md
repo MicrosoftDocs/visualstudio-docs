@@ -3,8 +3,8 @@ title: "Common Control Patterns for Visual Studio | Microsoft Docs"
 ms.date: "04/26/2017"
 ms.topic: "conceptual"
 ms.assetid: 3e893949-6398-42f1-9eab-a8d8c2b7f02d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -290,7 +290,8 @@ Guidelines for using the button:
 #### Graphical buttons
 Some buttons should always use a graphical image and never include text to conserve space and avoid localization problems. These are often used in field pickers and other sortable lists.
 
-> **Note:** Users have to tab to these buttons (there are no access keys), so place them in a sensible order. Map the `name` property of the button to the action that it takes so that screen readers correctly interpret the button action.
+> [!NOTE]
+> Users have to tab to these buttons (there are no access keys), so place them in a sensible order. Map the `name` property of the button to the action that it takes so that screen readers correctly interpret the button action.
 
 | Function | Button |
 | --- | --- |

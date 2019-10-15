@@ -248,9 +248,9 @@ if (performance.mark && performance.measure) {
 
 - View approximate start times, duration, and end times for an event in a timeline and grid view. The timeline details graph can show periods ranging from 30 milliseconds to 30 seconds in the grid view, depending on the zoom state. For duration values:
 
-    - Inclusive times represent the duration of the event, including the event children. In the grid view, this value appears first.
+  - Inclusive times represent the duration of the event, including the event children. In the grid view, this value appears first.
 
-    - Exclusive times represent the duration of the event, not including the event children. In the grid view, this value appears in parentheses.
+  - Exclusive times represent the duration of the event, not including the event children. In the grid view, this value appears in parentheses.
 
 - Expand an event in the hierarchy to view children of the event. The event children are other events that are raised by the parent event. For example, a DOM event might have event listeners that appear as children. An event listener might have other events that result from it, like a layout event.
 
@@ -258,12 +258,12 @@ if (performance.mark && performance.measure) {
 
 - View details for each event in the details pane (right pane). The properties vary depending on the particular event, as these examples show:
 
-    - For timers, event listeners (DOM events), and animation frame callbacks,  the **Callback function** property provides a link to the source code location along with the name of the event handler or callback function.
+  - For timers, event listeners (DOM events), and animation frame callbacks,  the **Callback function** property provides a link to the source code location along with the name of the event handler or callback function.
 
-    - For timers, event listeners (DOM events), layout events, and animation frame callbacks, a color-coded summary of the selected event and all its children appear in the **Inclusive time summary** section (the color-coded ring). Each color-coded slice of the image represents an event type. Tooltips provide the event type name.
+  - For timers, event listeners (DOM events), layout events, and animation frame callbacks, a color-coded summary of the selected event and all its children appear in the **Inclusive time summary** section (the color-coded ring). Each color-coded slice of the image represents an event type. Tooltips provide the event type name.
 
-    > [!TIP]
-    > The timeline details graph and **Inclusive time summary** can help you identify areas for optimization. If either of these views shows large numbers of small tasks, the event may be a candidate for optimization. For example, an app may be refreshing DOM elements frequently, resulting in large numbers of layout and HTML parsing events. You may be able to optimize performance by batching this work.
+  > [!TIP]
+  > The timeline details graph and **Inclusive time summary** can help you identify areas for optimization. If either of these views shows large numbers of small tasks, the event may be a candidate for optimization. For example, an app may be refreshing DOM elements frequently, resulting in large numbers of layout and HTML parsing events. You may be able to optimize performance by batching this work.
 
 ### <a name="FilterTimelineDetails"></a> Filter timeline details
  You can filter the view in the timeline details to a particular event by selecting **Filter to event** from the context menu for a specific event. When you choose this option, the timeline and grid view are scoped to the selected event. The selection in the CPU utilization graph also scopes to the specific event.

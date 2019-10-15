@@ -1,5 +1,5 @@
 ---
-title: "Extending the Properties, Task List, Output, and Options Windows | Microsoft Docs"
+title: "Extend the Properties, Task List, Output, Options windows"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "tutorials"
   - "tool windows"
 ms.assetid: 06990510-5424-44b8-9fd9-6481acec5c76
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

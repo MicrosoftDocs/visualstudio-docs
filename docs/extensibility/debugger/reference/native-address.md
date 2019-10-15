@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "NATIVE_ADDRESS structure"
 ms.assetid: 7a0cd085-bfc8-45cc-a3d4-4459070e207a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -37,7 +37,6 @@ public struct NATIVE_ADDRESS {
 ## Members
 
 `unknown`\
-
 The native address (the meaning of this depends on the runtime and operating system).
 
 ## Remarks

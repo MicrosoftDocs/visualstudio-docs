@@ -8,7 +8,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Integrating Models by using Visual Studio Modelbus
+# Integrate models by using Visual Studio Modelbus
 
 Visual Studio ModelBus provides a method for creating links between models and from other tools into models. For example, you could link domain-specific language (DSL) models and UML models. You can create an integrated set of DSLs.
 
@@ -40,7 +40,7 @@ For additional information and sample code, see:
 
 5. If you want to access the DSL from a text template, you must modify AdapterManager.tt in the new project. Omit this step if you want to access the DSL from other code such as commands and event handlers. For more information, see [Using Visual Studio ModelBus in a Text Template](../modeling/using-visual-studio-modelbus-in-a-text-template.md).
 
-   1. Change the base class of AdapterManagerBase to <xref:Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager>.
+   1. Change the base class of AdapterManagerBase to [VsTextTemplatingModelingAdapterManager](/previous-versions/ee844317(v=vs.140)).
 
    2. Near the end of the file, insert this additional attribute in front of class AdapterManager:
 

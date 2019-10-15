@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "designers [Visual Studio SDK], undo support"
 ms.assetid: 43eb1f14-b129-404a-8806-5bf9b099b67b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -23,7 +23,7 @@ Designer implementations that need to provide support for the undo feature:
 
 - Supply persistence and CodeDOM support by implementing the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService> and  <xref:System.ComponentModel.Design.IComponentChangeService> classes.
 
-For more information on writing designers using [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], see [Extend Design-Time Support](/previous-versions/37899azc(v=vs.140)).
+For more information on writing designers using .NET Framework, see [Extend Design-Time Support](/previous-versions/37899azc(v=vs.140)).
 
 The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides a default undo infrastructure by:
 
@@ -44,7 +44,7 @@ Any designer created in Visual Studio has automatic and full undo support if, th
 ## When to Use Explicit Designer Undo Support
  Designers must supply their own undo management if they use a graphical user interface, referred to as a view adapter, other than the one supplied by <xref:System.Windows.Forms.Control>.
 
- An example of this might be creating a product with a web-based graphical design interface rather than a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]-based graphical interface.
+ An example of this might be creating a product with a web-based graphical design interface rather than a .NET Framework-based graphical interface.
 
  In such cases, one would need to register this view adapter with Visual Studio using <xref:Microsoft.VisualStudio.Shell.Design.ProvideViewAdapterAttribute>, and provide explicit undo management.
 
@@ -53,7 +53,7 @@ Any designer created in Visual Studio has automatic and full undo support if, th
 ## Undo Support Features of the Designer
  The Environment SDK provides default implementations of interfaces needed to provide undo support that can be used by designers not using <xref:System.Windows.Forms.Control> based classes for their user interfaces or the standard CodeDOM and persistence model.
 
- The <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine> class derives from the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] <xref:System.ComponentModel.Design.UndoEngine> class using an implementation of the <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoManager> class to manage undo operations.
+ The <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine> class derives from the .NET Framework <xref:System.ComponentModel.Design.UndoEngine> class using an implementation of the <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoManager> class to manage undo operations.
 
  Visual Studio provides the following feature to designer undo:
 

@@ -1,5 +1,5 @@
 ---
-title: Convert Get method to property and convert a property to a Get method
+title: Convert Get method to property; convert property to Get method
 ms.date: 01/26/2018
 ms.topic: reference
 ms.devlang: csharp

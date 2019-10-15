@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugErrorBreakpointResolution2::GetResolutionInfo"
 ms.assetid: d94c4f60-8796-4848-86ee-186bbaa613f5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -37,11 +37,9 @@ int GetResolutionInfo( 
 
 ## Parameters
 `dwFields`\
-
 [in] A combination of flags from the [BPERESI_FIELDS](../../../extensibility/debugger/reference/bperesi-fields.md) enumeration that determine which fields of `pErrorResolutionInfo` are to be filled out.
 
 `pErrorResolutionInfo`\
-
 [in, out] The [BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md) structure that is filled in with the description of the breakpoint resolution.
 
 ## Return Value

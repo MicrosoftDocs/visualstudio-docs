@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "INTERCEPT_EXCEPTION_ACTION enumeration"
 ms.assetid: e647f1eb-2932-4447-8c78-3b0d706fb972
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -39,7 +39,6 @@ public enum enum_INTERCEPT_EXCEPTION_ACTION
 ## Parameters
 
 `IEA_INTERCEPT`\
-
 Enables intercepting the current exception. This is the only value supported at present and must be specified.
 
 ## Remarks

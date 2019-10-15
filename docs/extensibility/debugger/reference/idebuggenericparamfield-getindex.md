@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugGenericParamField::GetIndex"
 ms.assetid: 8e0bdb26-1247-44d9-8d80-ec6e35187fb4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -33,8 +33,7 @@ int GetIndex(
 
 ## Parameters
 `pIndex`\
-
- [out] Index value of this generic parameter.
+[out] Index value of this generic parameter.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

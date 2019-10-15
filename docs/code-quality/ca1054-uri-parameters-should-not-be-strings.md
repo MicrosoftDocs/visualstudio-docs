@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|UriParametersShouldNotBeStrings|
 |CheckId|CA1054|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 
@@ -48,7 +48,7 @@ It's safe to suppress a warning from this rule if the parameter does not represe
 
 ## Configurability
 
-If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
+If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not with legacy analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
 
 ```ini
 dotnet_code_quality.ca1054.api_surface = private, internal
@@ -68,5 +68,5 @@ The following example shows a type, `ErrorProne`, that violates this rule, and a
 
 - [CA1056: URI properties should not be strings](../code-quality/ca1056-uri-properties-should-not-be-strings.md)
 - [CA1055: URI return values should not be strings](../code-quality/ca1055-uri-return-values-should-not-be-strings.md)
-- [CA2234: Pass System.Uri objects instead of strings](../code-quality/ca2234-pass-system-uri-objects-instead-of-strings.md)
+- [CA2234: Pass System.Uri objects instead of strings](../code-quality/ca2234.md)
 - [CA1057: String URI overloads call System.Uri overloads](../code-quality/ca1057-string-uri-overloads-call-system-uri-overloads.md)

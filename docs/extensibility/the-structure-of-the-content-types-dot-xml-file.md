@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "opc"
   - "vsix"
 ms.assetid: 9c399598-b9fa-4da7-84b5-defbf82e9335
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

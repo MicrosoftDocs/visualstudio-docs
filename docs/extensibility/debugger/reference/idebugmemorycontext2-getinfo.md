@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "GetInfo method"
   - "IDebugMemoryContext2::GetInfo method"
 ms.assetid: 08c7f091-1816-4d64-8834-f9ecaac5c58d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -37,13 +37,11 @@ int GetInfo(
 ```
 
 ## Parameters
- `dwFields`\
+`dwFields`\
+[in] A combination of flags from the [CONTEXT_INFO_FIELDS](../../../extensibility/debugger/reference/context-info-fields.md) enumeration that indicate which fields of the [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md) structure are to be fill in.
 
- [in] A combination of flags from the [CONTEXT_INFO_FIELDS](../../../extensibility/debugger/reference/context-info-fields.md) enumeration that indicate which fields of the [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md) structure are to be fill in.
-
- `pInfo`\
-
- [in, out] The `CONTEXT_INFO` structure that is filled in.
+`pInfo`\
+[in, out] The `CONTEXT_INFO` structure that is filled in.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -56,61 +56,61 @@ TFSConfig CodeIndex /indexingStatus | /setIndexing:[ on | off | keepupOnly ] | /
 > [!NOTE]
 > The example companies, organizations, products, domain names, email addresses, logos, people, places, and events depicted herein are fictitious.  No association with any real company, organization, product, domain name, email address, logo, person, places, or events is intended or should be inferred.
 
- To see the code indexing status and configuration:
+To see the code indexing status and configuration:
 
 ```cmd
 TFSConfig CodeIndex /indexingStatus /collectionName:"Fabrikam Website"
 ```
 
- To start indexing all changesets:
+To start indexing all changesets:
 
 ```cmd
 TFSConfig CodeIndex /setIndexing:on /collectionName:"Fabrikam Website"
 ```
 
- To stop indexing previously created changesets and start indexing new changesets only:
+To stop indexing previously created changesets and start indexing new changesets only:
 
 ```cmd
 TFSConfig CodeIndex /setIndexing:keepupOnly /collectionName:"Fabrikam Website"
 ```
 
- To find up to 50 files that are larger than 10 KB:
+To find up to 50 files that are larger than 10 KB:
 
 ```cmd
 TFSConfig CodeIndex /listLargeFiles /fileCount:50 /minSize:10 /collectionName:"Fabrikam Website"
 ```
 
- To exclude a specific file from indexing and add it to the ignored file list:
+To exclude a specific file from indexing and add it to the ignored file list:
 
 ```cmd
 TFSConfig CodeIndex /ignoreList:add "$/Fabrikam Website/Catalog.cs" /collectionName:"Fabrikam Website"
 ```
 
- To see all the files that aren't indexed:
+To see all the files that aren't indexed:
 
 ```cmd
 TFSConfig CodeIndex /ignoreList:view
 ```
 
- To clear previously indexed data and restart indexing:
+To clear previously indexed data and restart indexing:
 
 ```cmd
 TFSConfig CodeIndex /reindexAll /collectionName:"Fabrikam Website"
 ```
 
- To save all changeset history:
+To save all changeset history:
 
 ```cmd
 TFSConfig CodeIndex /indexHistoryPeriod:all /collectionName:"Fabrikam Website"
 ```
 
- To remove the size limit on CodeLens temporary data and continue indexing regardless of temporary data size:
+To remove the size limit on CodeLens temporary data and continue indexing regardless of temporary data size:
 
 ```cmd
 TFSConfig CodeIndex /temporaryDataSizeLimit:disable /collectionName:"Fabrikam Website"
 ```
 
- To delete the code index with confirmation:
+To delete the code index with confirmation:
 
 ```cmd
 TFSConfig CodeIndex /destroyCodeIndex /collectionName:"Fabrikam Website"

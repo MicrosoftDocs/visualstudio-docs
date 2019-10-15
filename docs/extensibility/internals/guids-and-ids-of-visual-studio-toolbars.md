@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "tool window toolbar"
   - "guid"
 ms.assetid: c9cacd57-9225-450f-a9ac-cbf3168ea844
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

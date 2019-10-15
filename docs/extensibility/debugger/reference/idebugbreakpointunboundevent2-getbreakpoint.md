@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugBreakpointUnboundEvent2::GetBreakpoint"
 ms.assetid: ad73a207-b778-4dc5-b645-5ec668a63333
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -35,8 +35,7 @@ int GetBreakpoint(
 
 ## Parameters
 `ppBP`\
-
- [out] Returns an [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md) object that represents the breakpoint that became unbound.
+[out] Returns an [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md) object that represents the breakpoint that became unbound.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

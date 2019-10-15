@@ -49,6 +49,7 @@ You can set the following registry values:
 | `CachePath` | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%\Microsoft\VisualStudio\Packages | The directory where package manifests and, optionally, payloads are stored. For more information, see the [Disable or move the package cache](disable-or-move-the-package-cache.md) page. |
 | `KeepDownloadedPayloads` | `REG_DWORD` | 1 | Keep package payloads even after they are installed. You can change the value anytime. Disabling the policy removes any cached package payloads for the instance you repair or modify. For more information, see the [Disable or move the package cache](disable-or-move-the-package-cache.md) page. |
 | `SharedInstallationPath` | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramFiles(x86)%\Microsoft Visual Studio\Shared | The directory where some packages shared across versions of instances of Visual Studio are installed. You can change the value any time, but it will only affect future installs. Any products already installed to the old location must not be moved or they might not function correctly. |
+| `BackgroundDownloadDisabled` |`REG_DWORD` | 1 | Prevent setup from downloading updates automatically for all installed Visual Studio products. You can change the value anytime. |
 
 > [!IMPORTANT]
 > If you change the `CachePath` registry policy after any installations, you must move the existing package cache to the new location and make sure it's secured so that `SYSTEM` and `Administrators` have Full Control and that `Everyone` has Read access.

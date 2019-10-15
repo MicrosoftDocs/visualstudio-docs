@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProcess2::GetName"
 ms.assetid: a2f66ab5-53e5-4cdc-a1b5-3b8afa8ee646
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int GetName( 
 ```
 
 ## Parameters
- `gnType`\
+`gnType`\
+[in] A value from the [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md) enumeration that specifies what type of name to return.
 
- [in] A value from the [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md) enumeration that specifies what type of name to return.
-
- `pbstrName`\
-
- [out] Returns the name of the process.
+`pbstrName`\
+[out] Returns the name of the process.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

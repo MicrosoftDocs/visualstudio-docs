@@ -18,7 +18,7 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-# Troubleshooting network-related errors when you install or use Visual Studio
+# Troubleshoot network-related errors when you install or use Visual Studio
 
 We've got solutions for the most typical network- or proxy-related errors that you might encounter when you install or use Visual Studio behind a firewall or a proxy server.
 
@@ -32,15 +32,15 @@ This error generally occurs when users are connected to the internet through a p
 
 - If restarting Visual Studio does not solve the problem, it might be that your proxy server does not prompt for credentials for http:&#47;&#47;go.microsoft.com addresses but does so for &#42;.visualStudio.microsoft.com addresses. For these servers, consider adding the following URLs to an allow list to unblock all sign-in scenarios in Visual Studio:
 
-    - &#42;.windows.net
+  - &#42;.windows.net
 
-    - &#42;.microsoftonline.com
+  - &#42;.microsoftonline.com
 
-    - &#42;.visualstudio.microsoft.com
+  - &#42;.visualstudio.microsoft.com
 
-    - &#42;.microsoft.com
+  - &#42;.microsoft.com
 
-    - &#42;.live.com
+  - &#42;.live.com
 
 - You can otherwise remove the http:&#47;&#47;go.microsoft.com address from the allow list so that the proxy authentication dialog shows up for both the http:&#47;&#47;go.microsoft.com address and the server endpoints when Visual Studio is restarted.
 

@@ -6,7 +6,7 @@ ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.assetid: 2341013d-a08b-49a7-b6fd-a7b6aaa797e0
 caps.latest.revision: 13
-author: "erickson-doug"
+author: gewarren
 ms.author: gewarren
 manager: jillfra
 ---

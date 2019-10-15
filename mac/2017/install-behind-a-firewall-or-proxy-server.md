@@ -1,6 +1,6 @@
 ---
 title: "Install and use Visual Studio for Mac behind a firewall or proxy server"
-description: "This document provides a list of hosts that must be whitelisted in your firewall to allow Visual Studio for Mac (and its workloads, including Xamarin) to work in a corporate environment."
+description: "This document provides a list of hosts that must be allowed in your firewall to allow Visual Studio for Mac (and its workloads, including Xamarin) to work in a corporate environment."
 ms.topic: troubleshooting
 ms.assetid: 79C0F1A3-0C13-4E55-A820-1138A4082B77
 author: asb3993
@@ -10,11 +10,11 @@ ms.date: 10/23/2018
 
 # Install and use Visual Studio for Mac behind a firewall or proxy server
 
-If you or your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to "whitelist" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio for Mac and Azure Services.
+If you or your organization uses security measures such as a firewall or a proxy server, then there are domains that you might want to add to an "allow list" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio for Mac and Azure Services.
 
-- [**Install Visual Studio for Mac**](#install-visual-studio-for-mac): These tables include the URLs to whitelist so that you have access to all features and workloads of Visual Studio for Mac.
+- [**Install Visual Studio for Mac**](#install-visual-studio-for-mac): These tables include the domains that must allow connectivity so that you have access to all features and workloads of Visual Studio for Mac.
 
-- [**Use Visual Studio for Mac**](#use-visual-studio-for-mac): These tables include URLs to whitelist so that you have access to all of the services and features that you want.
+- [**Use Visual Studio for Mac**](#use-visual-studio-for-mac): These tables include domains that must allow connectivity so that you have access to the related features.
 
 ## Install Visual Studio for Mac
 
@@ -45,7 +45,7 @@ Because the Visual Studio for Mac Installer downloads from a various domains and
 
 ## Use Visual Studio for Mac
 
-To make sure that you have access to every feature that you need in Visual Studio for Mac while behind a proxy or firewall, we recommend whitelisting the following domains and ports.
+To make sure that you have access to every feature that you need in Visual Studio for Mac while behind a proxy or firewall, we recommend adding the following domains and ports to the allowed-access list.
 
 ### General
 

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugManagedObject::GetManagedObject method"
 ms.assetid: 6abe1402-6aad-41e6-8ec1-ae12d5945992
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetManagedObject(
 ```
 
 ## Parameters
- `ppManagedObject`\
-
- [out] Returns an interface that represents the managed object.
+`ppManagedObject`\
+[out] Returns an interface that represents the managed object.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

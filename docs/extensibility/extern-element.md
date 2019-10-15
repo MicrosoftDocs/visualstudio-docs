@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "VSCT XML schema elements, Extern"
   - "Extern element (VSCT XML schema)"
 ms.assetid: db6c3ddd-a1ba-450a-897a-bb568a5377fc
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

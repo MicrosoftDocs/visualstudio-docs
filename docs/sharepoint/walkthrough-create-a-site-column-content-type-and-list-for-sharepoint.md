@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Create a Site Column, Content Type, and List for SharePoint | Microsoft Docs"
+title: "Create site column, content type, and list for SharePoint"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

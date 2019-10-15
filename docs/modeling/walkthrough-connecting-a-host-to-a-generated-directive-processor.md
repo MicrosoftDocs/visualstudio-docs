@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Connecting a Host to a Generated Directive Processor"
+title: "Connect host to generated directive processor"
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

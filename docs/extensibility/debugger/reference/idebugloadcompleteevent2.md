@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugLoadCompleteEvent2"
 ms.assetid: 37eb7360-28e9-4273-862a-4c17f22af690
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

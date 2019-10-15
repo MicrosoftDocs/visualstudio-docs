@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "IDebugMemoryContext2::Compare method"
   - "Compare method"
 ms.assetid: c51b5128-848e-4d8e-b2e9-1161339763c3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -41,21 +41,17 @@ int Compare(
 ```
 
 ## Parameters
- `compare`\
+`compare`\
+[in] A value from the [CONTEXT_COMPARE](../../../extensibility/debugger/reference/context-compare.md) enumeration that determines the type of comparison.
 
- [in] A value from the [CONTEXT_COMPARE](../../../extensibility/debugger/reference/context-compare.md) enumeration that determines the type of comparison.
+`rgpMemoryContextSet`\
+[in] An array of references to the [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) objects to compare against.
 
- `rgpMemoryContextSet`\
+`dwMemoryContextSetLen`\
+[in] The number of contexts in the `rgpMemoryContextSet` array.
 
- [in] An array of references to the [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) objects to compare against.
-
- `dwMemoryContextSetLen`\
-
- [in] The number of contexts in the `rgpMemoryContextSet` array.
-
- `pdwMemoryContext`\
-
- [out] Returns the index of the first memory context that satisfies the comparison.
+`pdwMemoryContext`\
+[out] Returns the index of the first memory context that satisfies the comparison.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_COMPARE_CANNOT_COMPARE` if the two contexts cannot be compared.

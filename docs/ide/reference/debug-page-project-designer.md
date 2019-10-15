@@ -1,6 +1,7 @@
 ---
 title: Debug Page, Project Designer
 ms.date: 06/27/2018
+ms.technology: vs-ide-debug
 ms.topic: reference
 f1_keywords:
   - "vb.ProjectPropertiesDebug"
@@ -8,8 +9,8 @@ helpviewer_keywords:
   - "Project Designer, Debug page"
   - "Debug page in Project Designer"
 ms.assetid: ef11eae9-df96-4e20-aabd-2678ba317140
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -210,7 +210,7 @@ internal int points;
 
 The red squiggly lines in the code editor go away.
 
-Next, hover over the green squiggly in the declaration of the `points` data member. The code analyzer tells you the variable is never assigned a value.
+Next, hover over the green squiggle in the declaration of the `points` data member. The code analyzer tells you the variable is never assigned a value.
 
 ![Warning message for unassigned variable](../debugger/media/write-better-code-warning-message.png)
 
@@ -286,7 +286,7 @@ Here are a couple of important tips for exception handling:
     }
     ```
 
-* For unfamiliar functions that you include in your app, expecially those interacting with external data (such as a web request), check the documentation to see what exceptions the function is likely to throw. This can be critical information for proper error handling and for debugging your app.
+* For unfamiliar functions that you include in your app, especially those interacting with external data (such as a web request), check the documentation to see what exceptions the function is likely to throw. This can be critical information for proper error handling and for debugging your app.
 
 For the sample app, fix the `SerializationException` in the `GetJsonData` method by changing `4o` to `40`.
 

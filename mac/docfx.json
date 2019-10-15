@@ -73,7 +73,8 @@
       "feedback_product_url": "https://developercommunity.visualstudio.com/spaces/41/index.html",
       "contributors_to_exclude": [
         "conceptdev",
-        "meganbradley"
+        "meganbradley",
+        "Craig Dunn"
       ],
       "breadcrumb_path": "~/_breadcrumb/toc.yml",
       "extendBreadcrumb": true,

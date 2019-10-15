@@ -1,6 +1,6 @@
 ---
 title: Manage references in a project
-ms.date: 04/11/2018
+ms.date: 08/02/2019
 ms.topic: conceptual
 f1_keywords:
   - "vs.ProjectPropertiesReferencePaths"
@@ -32,13 +32,15 @@ To add a reference, right click on the **References** or **Dependencies** node i
 
 You can add a reference to the following types of components and services:
 
-- .NET Framework class libraries or assemblies
+- .NET class libraries or assemblies
 
 - UWP apps
 
 - COM components
 
 - Other assemblies or class libraries of projects in the same solution
+
+- Shared projects
 
 - XML Web services
 
@@ -95,24 +97,28 @@ If you deploy an application that contains a reference to a custom component tha
 
 By default, the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> property is set to **False** if the assembly or component is in the global assembly cache or is a framework component. Otherwise, the value is set to **True**. Project-to-project references are always set to **True**.
 
-## Reference a project or assembly that targets a different version of the .NET Framework
+## Reference a project or assembly that targets a different version of .NET
 
-You can create applications that reference projects or assemblies that target a different version of the .NET Framework. For example, you could create an application that targets .NET Framework 4.6, that references an assembly that targets .NET Framework 4.5. If you create a project that targets an earlier version of the .NET Framework, you cannot set a reference in that project to a project or assembly that targets a newer version.
+You can create applications that reference projects or assemblies that target a different version of the .NET. For example, you could create an application that targets .NET Framework 4.6, that references an assembly that targets .NET Framework 4.5. If you create a project that targets an earlier version of .NET, you cannot set a reference in that project to a project or assembly that targets a newer version.
 
-For more information, see [Multi-targeting overview](../ide/visual-studio-multi-targeting-overview.md).
+For more information, see [Framework targeting overview](../ide/visual-studio-multi-targeting-overview.md).
 
 ## Project-to project references
 
-Project-to-project references are references to projects that contain assemblies; you create them by using the **Project** tab. Visual Studio can find an assembly when given a path to the project.
+Project-to-project references are references to projects that contain assemblies; you add project references by using the **Projects** tab of the Reference Manager dialog box. Visual Studio can find an assembly when given a path to the project.
 
 When you have a project that produces an assembly, you should reference the project and not use a file reference (see below). The advantage of a project-to-project reference is that it creates a dependency between the projects in the build system. The dependent project will be built if it has changed since the last time the referencing project was built. A file reference does not create a build dependency, so it is possible to build the referencing project without building the dependent project, and the reference can become obsolete. (That is, the project can reference a previously built version of the project.) This can result in several versions of a single DLL being required in the *bin* directory, which is not possible. When this conflict occurs, you will see a message such as "Warning: the dependency 'file' in project 'project' cannot be copied to the run directory because it would overwrite the reference 'file.'". For more information, see [Troubleshoot broken references](../ide/troubleshooting-broken-references.md) and [How to: Create and remove project dependencies](../ide/how-to-create-and-remove-project-dependencies.md).
 
 > [!NOTE]
 > A file reference instead of a project-to-project reference is created if the target version of the .NET Framework of one project is version 4.5, and the target version of the other project is version 2, 3, 3.5, or 4.0.
 
+## Shared project references
+
+Unlike most other project types, a *shared project* does not have any binary output. Instead, the code is compiled into each project that references it. [Shared Projects](/xamarin/cross-platform/app-fundamentals/shared-projects?tabs=windows) let you write common code that's referenced by a number of different application projects. The code is compiled as part of each referencing project and can include compiler directives to help incorporate platform-specific functionality into the shared code base. Add a reference to a shared project on the **Shared Projects** tab of the Reference Manager dialog box.
+
 ## File references
 
-File references are direct references to assemblies outside the context of a Visual Studio project. You create them by using the **Browse** tab of the **Reference Manager**. Use a file reference when you just have an assembly or component, and not the project that creates it as output.
+File references are direct references to assemblies outside the context of a Visual Studio project. You create them by using the **Browse** tab of the Reference Manager dialog box. Use a file reference when you just have an assembly or component, and not the project that creates it as output.
 
 ## See also
 

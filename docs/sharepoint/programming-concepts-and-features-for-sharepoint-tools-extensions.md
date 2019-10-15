@@ -1,5 +1,5 @@
 ---
-title: "Programming Concepts and Features for SharePoint Tools Extensions | Microsoft Docs"
+title: "Programming concepts & features for SharePoint tool extensions"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

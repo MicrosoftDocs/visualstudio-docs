@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccQueryChanges function"
 ms.assetid: 4cd58eb3-6952-49b1-9620-8682e3eaa604
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

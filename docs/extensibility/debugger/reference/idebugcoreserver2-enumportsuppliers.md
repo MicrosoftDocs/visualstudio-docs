@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCoreServer2::EnumPortSuppliers"
 ms.assetid: ce0c90e4-8e02-4b08-b558-7677fb2c88f7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int EnumPortSuppliers(
 ```
 
 ## Parameters
- `ppEnum`\
-
- [out] Returns an [IEnumDebugPortSuppliers2](../../../extensibility/debugger/reference/ienumdebugportsuppliers2.md) object that contains a list of all port suppliers.
+`ppEnum`\
+[out] Returns an [IEnumDebugPortSuppliers2](../../../extensibility/debugger/reference/ienumdebugportsuppliers2.md) object that contains a list of all port suppliers.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

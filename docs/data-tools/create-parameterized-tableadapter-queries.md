@@ -73,7 +73,7 @@ You create parameterized TableAdapter queries in the **Dataset Designer**.You ca
 
 TableAdapter parameters can be assigned null values when you want to query for records that have no current value. For example, consider the following query that has a `ShippedDate` parameter in its `WHERE` clause:
 
- ```sql
+```sql
 SELECT CustomerID, OrderDate, ShippedDate
 FROM Orders
 WHERE (ShippedDate = @ShippedDate) OR (ShippedDate IS NULL)

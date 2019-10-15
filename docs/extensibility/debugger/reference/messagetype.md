@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "MESSAGETYPE enumeration"
 ms.assetid: 800cc77d-3c27-4763-a9df-552a9384bd49
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

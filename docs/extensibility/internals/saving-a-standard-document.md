@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], saving standard documents"
   - "persistence, saving standard documents"
 ms.assetid: d692fedf-b46e-4d60-84bd-578635042235
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -31,9 +31,9 @@ Manage different versions of your modeling projects and diagrams, including code
   
 - Each diagram is stored in two files. For example, a class diagram has:  
   
-    - **DiagramName.classdiagram** - If this file is deleted or corrupted, the diagram will be lost, but the classes and associations that it showed will still be in the model, and can be seen in UML Model Explorer.  
-  
-    - **DiagramName.classdiagram.layout** - If this file is deleted, the shapes will still appear the diagram, but they will lose their sizes and positions. Each layout file is subsidiary to a diagram file. To see it, click the [+] next to the diagram file in Solution Explorer.  
+  - **DiagramName.classdiagram** - If this file is deleted or corrupted, the diagram will be lost, but the classes and associations that it showed will still be in the model, and can be seen in UML Model Explorer.  
+
+  - **DiagramName.classdiagram.layout** - If this file is deleted, the shapes will still appear the diagram, but they will lose their sizes and positions. Each layout file is subsidiary to a diagram file. To see it, click the [+] next to the diagram file in Solution Explorer.  
   
 > [!NOTE]
 > It is important to maintain consistency between the files. For example, if you use source control to roll back changes in a .uml file, you should roll back the corresponding changes in the .*diagram and .layout files at the same time. Elements represented in a .\*diagram file will be lost if they are not also represented in a .uml file.  
@@ -49,9 +49,9 @@ Manage different versions of your modeling projects and diagrams, including code
   
 - To help ensure that you change only the package that you are working on:  
   
-    - Set the **LinkedPackage** property of a UML class, component, or use case diagram.  
-  
-    - In UML Model Explorer, drag an activity or interaction into your package as soon as you have created it. This element will appear in UML Model Explorer when you create the first node in the activity or sequence diagram.  
+  - Set the **LinkedPackage** property of a UML class, component, or use case diagram.  
+
+  - In UML Model Explorer, drag an activity or interaction into your package as soon as you have created it. This element will appear in UML Model Explorer when you create the first node in the activity or sequence diagram.  
   
 - To help you keep track of packages, rename the package files to reflect the actual package names.  
   

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "EXCEPTION_STATE enumeration"
 ms.assetid: 597f4f4c-9b70-485c-b5dc-3c2e3aecc664
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

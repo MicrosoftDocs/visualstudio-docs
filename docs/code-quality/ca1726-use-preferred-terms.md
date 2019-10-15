@@ -21,7 +21,7 @@ ms.workload:
 |TypeName|UsePreferredTerms|
 |CheckId|CA1726|
 |Category|Microsoft.Naming|
-|Breaking Change|Breaking - when fired on assemblies<br /><br /> Non-breaking - when fired on type parameters|
+|Breaking change|Breaking - when fired on assemblies<br /><br /> Non-breaking - when fired on type parameters|
 
 ## Cause
 
@@ -59,10 +59,10 @@ This rule parses an identifier into tokens. Each single token and each contiguou
 |`Writeable`|`Writable`|
 
 ## How to fix violations
- To fix a violation of this rule, replace the term with the preferred alternative term.
+To fix a violation of this rule, replace the term with the preferred alternative term.
 
 ## When to suppress warnings
- Suppress a warning from this rule only if the name of the identifier is intentional and relates specifically to the original term instead of the preferred term.
+Suppress a warning from this rule only if the name of the identifier is intentional and relates specifically to the original term instead of the preferred term.
 
 ## Related rules
- [Naming Warnings](../code-quality/naming-warnings.md)
+[Naming Warnings](../code-quality/naming-warnings.md)

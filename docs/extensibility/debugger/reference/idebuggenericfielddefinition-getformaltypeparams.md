@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "GetFormalTypeParams"
   - "IDebugGenericFieldDefinition::GetFormalTypeParams"
 ms.assetid: cadbd6a1-bc7c-4aff-8777-5396b7a23c3e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -37,17 +37,14 @@ int GetFormalTypeParams(
 ```
 
 ## Parameters
- `cParams`\
+`cParams`\
+[in] Number of parameters.
 
- [in] Number of parameters.
+`ppParams`\
+[out] Array of type parameters.
 
- `ppParams`\
-
- [out] Array of type parameters.
-
- `pcParams`\
-
- [in, out] Number of parameters in the `ppParams` array.
+`pcParams`\
+[in, out] Number of parameters in the `ppParams` array.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -61,11 +61,11 @@ In C# code, breakpoint and current execution lines are automatically highlighted
 
 - Set conditions and actions, add and edit labels, or export a breakpoint by right-clicking it and selecting the appropriate command, or hovering over it and selecting the **Settings** icon.
 
-## <a name="BKMK_Set_a_breakpoint_in_a_function"></a> Set breakpoints from debugger windows
+## <a name="BKMK_Set_a_breakpoint_from_debugger_windows"></a> Set breakpoints from debugger windows
 
 You can also set breakpoints from the **Call Stack** and **Disassembly** debugger windows.
 
-### <a name="BKMK_Set_a_breakpoint_in_the_call_stack_window"></a> Set a breakpoint in the Call Stack window
+### Set a breakpoint in the Call Stack window
 
  To break at the instruction or line that a calling function returns to, you can set a breakpoint in the **Call Stack** window.
 
@@ -138,9 +138,9 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
 
 4. Add the following to the **Function Name** box, and select **C++** language.
 
-    ```C++
-    ((my_class *) 0xcccccccc)->my_method
-    ```
+   ```cpp
+   ((my_class *) 0xcccccccc)->my_method
+   ```
 
 ::: moniker range=">= vs-2019"
 
@@ -161,7 +161,7 @@ Data breakpoints in .NET Core won't work for:
 - Properties that are not expandable in the tooltip, Locals, Autos, or Watch window
 - Static variables
 - Classes with the DebuggerTypeProxy Attribute
-- Fields inside of structs 
+- Fields inside of structs
 
 ::: moniker-end
 
@@ -173,7 +173,7 @@ Data breakpoints in .NET Core won't work for:
 
 1. In a C++ project, start debugging, and wait until a breakpoint is reached. On the **Debug** menu, choose **New Breakpoint** > **Data Breakpoint**
 
-    You can also select **New** > **Data Breakpoint** in the **Breakpoints** window or right-click an item in the **Autos**, **Watch**, or **Locals** window and select **Break when value changes**in the context menu.
+    You can also select **New** > **Data Breakpoint** in the **Breakpoints** window or right-click an item in the **Autos**, **Watch**, or **Locals** window and select **Break when value changes** in the context menu.
 
 2. In the **Address** box, type a memory address, or an expression that evaluates to a memory address. For example, type `&avar` to break when the contents of the variable `avar` changes.
 
@@ -183,11 +183,12 @@ Data breakpoints don't work under the following conditions:
 - A process that is not being debugged writes to the memory location.
 - The memory location is shared between two or more processes.
 - The memory location is updated within the kernel. For example, if memory is passed to the 32-bit Windows `ReadFile` function, the memory will be updated from kernel mode, so the debugger won't break on the update.
+- Where the watch expression is larger than 4 bytes on 32-bit hardware and 8 bytes on 64-bit hardware. This is a limitation of the x86 architecture.
 
->[!NOTE]
->- Data breakpoints depend on specific memory addresses. The address of a variable changes from one debugging session to the next, so data breakpoints are automatically disabled at the end of each debugging session.
+> [!NOTE]
+> - Data breakpoints depend on specific memory addresses. The address of a variable changes from one debugging session to the next, so data breakpoints are automatically disabled at the end of each debugging session.
 >
->- If you set a data breakpoint on a local variable, the breakpoint remains enabled when the function ends, but the memory address is no longer applicable, so the behavior of the breakpoint is unpredictable. If you set a data breakpoint on a local variable, you should delete or disable the breakpoint before the function ends.
+> - If you set a data breakpoint on a local variable, the breakpoint remains enabled when the function ends, but the memory address is no longer applicable, so the behavior of the breakpoint is unpredictable. If you set a data breakpoint on a local variable, you should delete or disable the breakpoint before the function ends.
 
 ## <a name="BKMK_Specify_advanced_properties_of_a_breakpoint_"></a> Manage breakpoints in the Breakpoints window
 
@@ -252,6 +253,7 @@ When you select **Conditional Expression**, you can choose between two condition
  >- For native code, the debugger doesn't consider the first evaluation of the condition to be a change, so doesn't hit the breakpoint on the first evaluation.
  >- For managed code, the debugger hits the breakpoint on the first evaluation after **When changed** is selected.
 
+<a name="using-object-ids-in-breakpoint-conditions-c-and-f"></a>
 ### Using Object IDs in conditional expressions (C# and F# only)
  There are times when you want to observe the behavior of a specific object. For example, you might want to find out why an object was inserted into a collection more than once. In C# and F#, you can create object IDs for specific instances of [reference types](/dotnet/csharp/language-reference/keywords/reference-types), and use them in breakpoint conditions. The object ID is generated by the common language runtime (CLR) debugging services and associated with the object.
 

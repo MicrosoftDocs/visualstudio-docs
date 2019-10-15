@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], switching plug-ins"
   - "source control plug-ins, switching"
 ms.assetid: 01370792-b5da-4e46-9ce2-7dd326587141
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

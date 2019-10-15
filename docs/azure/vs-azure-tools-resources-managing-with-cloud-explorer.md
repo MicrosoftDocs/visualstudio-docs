@@ -18,7 +18,7 @@ Like the [Azure portal](http://go.microsoft.com/fwlink/p/?LinkID=525040), Cloud 
 
 ## Prerequisites
 
-* Visual Studio 2017 or later (see [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)) with the **Azure workload** selected. You can also use an earlier version of Visual Studio with the [Microsoft Azure SDK for .NET 2.9](https://www.microsoft.com/download/details.aspx?id=51657).
+* Visual Studio 2017 or later (see [Visual Studio downloads](https://visualstudio.microsoft.com/downloads)) with the **Azure workload** selected. You can also use an earlier version of Visual Studio with the [Microsoft Azure SDK for .NET 2.9](https://www.microsoft.com/download/details.aspx?id=51657).
 * Microsoft Azure account - If you don't have an account, you can [sign up for a free trial](http://go.microsoft.com/fwlink/?LinkId=623901) or [activate your Visual Studio subscriber benefits](http://go.microsoft.com/fwlink/?LinkId=623901).
 
 > [!NOTE]

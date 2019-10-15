@@ -16,7 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # Naming Warnings
-Naming warnings support adherence to the naming conventions of the .NET Framework Design Guidelines.
+
+Naming warnings support adherence to the naming conventions of the .NET Design Guidelines.
 
 ## In This Section
 
@@ -36,7 +37,7 @@ Naming warnings support adherence to the naming conventions of the .NET Framewor
 |[CA1719: Parameter names should not match member names](../code-quality/ca1719-parameter-names-should-not-match-member-names.md)|A parameter name should communicate the meaning of a parameter, and a member name should communicate the meaning of a member. It would be a rare design where these were the same. Naming a parameter the same as its member name is unintuitive and makes the library difficult to use.|
 |[CA1701: Resource string compound words should be cased correctly](../code-quality/ca1701-resource-string-compound-words-should-be-cased-correctly.md)|Each word in the resource string is split into tokens that are based on the casing. Each contiguous two-token combination is checked by the Microsoft spelling checker library. If recognized, the word produces a violation of the rule.|
 |[CA1703: Resource strings should be spelled correctly](../code-quality/ca1703-resource-strings-should-be-spelled-correctly.md)|A resource string contains one or more words that are not recognized by the Microsoft spelling checker library.|
-|[CA1724: Type Names Should Not Match Namespaces](../code-quality/ca1724-type-names-should-not-match-namespaces.md)|Type names should not match the names of namespaces that are defined in the .NET Framework class library. Violation of this rule can reduce the usability of the library.|
+|[CA1724: Type Names Should Not Match Namespaces](../code-quality/ca1724-type-names-should-not-match-namespaces.md)|Type names should not match the names of .NET namespaces. Violation of this rule can reduce the usability of the library.|
 |[CA1707: Identifiers should not contain underscores](../code-quality/ca1707-identifiers-should-not-contain-underscores.md)|By convention, identifier names do not contain the underscore (_) character. This rule checks namespaces, types, members, and parameters.|
 |[CA1721: Property names should not match get methods](../code-quality/ca1721-property-names-should-not-match-get-methods.md)|The name of a public or protected member starts with "Get" and otherwise matches the name of a public or protected property. "Get" methods and properties should have names that clearly distinguish their function.|
 |[CA1716: Identifiers should not match keywords](../code-quality/ca1716-identifiers-should-not-match-keywords.md)|A namespace name or a type name matches a reserved keyword in a programming language. Identifiers for namespaces and types should not match keywords that are defined by languages that target the common language runtime.|

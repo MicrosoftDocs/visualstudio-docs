@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugMemoryContext2 interface"
 ms.assetid: 3a544c8b-11dc-46bb-8549-261e4ac5bbc4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

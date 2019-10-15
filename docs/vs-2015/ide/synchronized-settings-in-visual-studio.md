@@ -24,17 +24,17 @@ When you use the same personalization account to sign in to Visual Studio on mul
 
 - The following options in the **Tools &#124; Options** pages:
 
-    - **Theme** and menu bar casing settings, on the **Environment**, **General** options page
+  - **Theme** and menu bar casing settings, on the **Environment**, **General** options page
 
-    - All settings on the **Environment**, **Fonts and Colors** options page
+  - All settings on the **Environment**, **Fonts and Colors** options page
 
-    - All keyboard shortcuts, on the **Environment**, **Keyboard** options page
+  - All keyboard shortcuts, on the **Environment**, **Keyboard** options page
 
-    - All settings on the **Environment, Tabs and Windows** options page
+  - All settings on the **Environment, Tabs and Windows** options page
 
-    - All settings on the **Environment**, **StartUp** options page
+  - All settings on the **Environment**, **StartUp** options page
 
-    - All settings on the **Text Editor** options pages
+  - All settings on the **Text Editor** options pages
 
 - All settings on the XAML Designer options pages
 

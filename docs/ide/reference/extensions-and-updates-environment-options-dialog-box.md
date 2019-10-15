@@ -30,7 +30,3 @@ For more information, see [Finding and Using Visual Studio Extensions](../../ide
 ## Additional Extension Galleries
 
 An Enterprise feature that enables support for galleries of proprietary extensions. For more information, see [Private galleries](../../extensibility/private-galleries.md).
-
-## See also
-
-- [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

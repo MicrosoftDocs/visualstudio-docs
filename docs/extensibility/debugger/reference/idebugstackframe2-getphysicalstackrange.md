@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugStackFrame2::GetPhysicalStackRange"
 ms.assetid: 2f6992e2-ac1c-433f-83b7-a7f83a4ce63d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int GetPhysicalStackRange ( 
 ```
 
 ## Parameters
- `paddrMin`\
+`paddrMin`\
+[out] Returns the lowest physical address associated with this stack frame.
 
- [out] Returns the lowest physical address associated with this stack frame.
-
- `paddrMax`\
-
- [out] Returns the highest physical address associated with this stack frame.
+`paddrMax`\
+[out] Returns the highest physical address associated with this stack frame.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

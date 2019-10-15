@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie"
 ms.assetid: 07b20866-e598-4783-9ecc-6aa8625c8804
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetInterceptCookie(
 ```
 
 ## Parameters
- `pqwCookie`\
-
- [out] Unique value that is associated with the exception that was intercepted.
+`pqwCookie`\
+[out] Unique value that is associated with the exception that was intercepted.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise returns error code.

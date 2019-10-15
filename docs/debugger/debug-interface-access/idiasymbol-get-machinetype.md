@@ -27,7 +27,7 @@ HRESULT get_machineType ( 
 #### Parameters
  `pRetVal`
 
-[out] Returns a value from the [CV_CPU_TYPE_e Enumeration](../../debugger/debug-interface-access/cv-cpu-type-e.md) enumeration that specifies the target CPU type.
+[out] Returns a value from the [IMAGE_FILE_MACHINE_ Constants](/windows/desktop/SysInfo/image-file-machine-constants) that specifies the target CPU type.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -36,5 +36,5 @@ HRESULT get_machineType ( 
 > A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## See Also
-- [CV_CPU_TYPE_e Enumeration](../../debugger/debug-interface-access/cv-cpu-type-e.md)
+- [IMAGE_FILE_MACHINE_ Constants](/windows/desktop/SysInfo/image-file-machine-constants) 
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

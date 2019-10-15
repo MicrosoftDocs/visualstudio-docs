@@ -15,13 +15,13 @@ ms.workload:
 # How to: Add validation to entity classes
 *Validating* entity classes is the process of confirming that the values entered into data objects comply with the constraints in an object's schema, and also to the rules established for the application. Validating data before you send updates to the underlying database is a good practice that reduces errors. It also reduces the potential number of round trips between an application and the database.
 
- The [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides partial methods that enable users to extend the designer-generated code that runs during Inserts, Updates, and Deletes of complete entities, and also during and after individual column changes.
+The [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides partial methods that enable users to extend the designer-generated code that runs during Inserts, Updates, and Deletes of complete entities, and also during and after individual column changes.
 
 > [!NOTE]
 > This topic provides the basic steps for adding validation to entity classes by using the **O/R Designer**. Because it might be difficult to follow these generic steps without referring to a specific entity class, a walkthrough that uses actual data is provided.
 
 ## Add validation for changes to the value in a specific column
- This procedure shows how to validate data when the value in a column changes. Because the validation is performed inside the class definition (instead of in the user interface), an exception is thrown if the value causes validation to fail. Implement error handling for the code in your application that attempts to change the column values.
+This procedure shows how to validate data when the value in a column changes. Because the validation is performed inside the class definition (instead of in the user interface), an exception is thrown if the value causes validation to fail. Implement error handling for the code in your application that attempts to change the column values.
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 
@@ -66,7 +66,7 @@ ms.workload:
     ```
 
 ## Add Validation for Updates to an Entity Class
- In addition to checking values during changes, you can also validate data when an attempt is made to update a complete entity class. Validation during an attempted update enables you to compare values in multiple columns if business rules require this. The following procedure shows how to validate when an attempt is made to update a complete entity class.
+In addition to checking values during changes, you can also validate data when an attempt is made to update a complete entity class. Validation during an attempted update enables you to compare values in multiple columns if business rules require this. The following procedure shows how to validate when an attempt is made to update a complete entity class.
 
 > [!NOTE]
 > Validation code for updates to complete entity classes is executed in the partial <xref:System.Data.Linq.DataContext> class (instead of in the partial class of a specific entity class).

@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|IdentifiersShouldHaveCorrectPrefix|
 |CheckId|CA1715|
 |Category|Microsoft.Naming|
-|Breaking Change|Breaking - when fired on interfaces.<br /><br /> Non-breaking - when raised on generic type parameters.|
+|Breaking change|Breaking - when fired on interfaces.<br /><br /> Non-breaking - when raised on generic type parameters.|
 
 ## Cause
 
@@ -50,7 +50,7 @@ Naming conventions provide a common look for libraries that target the common la
 
 ## Configurability
 
-If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your code this rule analyzes. For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
+If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not with legacy analysis), you can configure which parts of your code this rule analyzes. For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
 
 ### Single-character type parameters
 

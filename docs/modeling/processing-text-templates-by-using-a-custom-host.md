@@ -38,18 +38,18 @@ string output = engine.ProcessTemplate(templateString, host);
 
  Your application must find and provide the template, and must deal with the output.
 
- In the `host` parameter, you must provide a class that implements <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>. This is called back by the Engine.
+ In the `host` parameter, you must provide a class that implements [ITextTemplatingEngineHost](/previous-versions/visualstudio/visual-studio-2012/bb126505(v=vs.110)). This is called back by the Engine.
 
  The host must be able to log errors, resolve references to assembly and include files, provide an Application Domain in which the template can execute, and call the appropriate processor for each directive.
 
- <xref:Microsoft.VisualStudio.TextTemplating.Engine?displayProperty=fullName> is defined in **Microsoft.VisualStudio.TextTemplating.\*.0.dll**, and <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost> is defined in **Microsoft.VisualStudio.TextTemplating.Interfaces.\*.0.dll**.
+ <xref:Microsoft.VisualStudio.TextTemplating.Engine?displayProperty=fullName> is defined in **Microsoft.VisualStudio.TextTemplating.\*.0.dll**, and [ITextTemplatingEngineHost](/previous-versions/visualstudio/visual-studio-2012/bb126505(v=vs.110)) is defined in **Microsoft.VisualStudio.TextTemplating.Interfaces.\*.0.dll**.
 
 ## In This Section
  [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md)
  Shows you how to create a custom text template host that makes the text template functionality available outside Visual Studio.
 
 ## Reference
- <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>
+ [ITextTemplatingEngineHost](/previous-versions/visualstudio/visual-studio-2012/bb126505(v=vs.110))
 
 ## Related Sections
 

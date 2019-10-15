@@ -42,7 +42,7 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
 
 ## How the ToolsVersion attribute works
 
- When you create a project in Visual Studio, or upgrade an existing project, an attribute named `ToolsVersion` is automatically included in the project file and its value corresponds to the version of MSBuild that is included in the Visual Studio edition. For more information, see [Targeting a specific .NET Framework version](../ide/visual-studio-multi-targeting-overview.md).
+ When you create a project in Visual Studio, or upgrade an existing project, an attribute named `ToolsVersion` is automatically included in the project file and its value corresponds to the version of MSBuild that is included in the Visual Studio edition. For more information, see [Framework targeting overview](../ide/visual-studio-multi-targeting-overview.md).
 
  When a `ToolsVersion` value is defined in a project file, MSBuild uses that value to determine the values of the Toolset properties that are available to the project. One Toolset property is `$(MSBuildToolsPath)`, which specifies the path of the .NET Framework tools. Only that Toolset property (or `$(MSBuildBinPath)`), is required.
 
@@ -54,7 +54,7 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
 <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 ```
 
- You can modify the value of `MSBuildToolsPath` by defining a custom Toolset. For more information, see [Standard and custom Toolset configurations](../msbuild/standard-and-custom-toolset-configurations.md)
+ You can modify the value of `MSBuildToolsPath` by defining a custom Toolset. For more information, see [Standard and custom Toolset configurations](../msbuild/standard-and-custom-toolset-configurations.md).
 
  When you build a solution on the command line and specify a `ToolsVersion` for *msbuild.exe*, all projects and their project-to-project dependencies are built according to that `ToolsVersion`, even if each project in the solution specifies its own `ToolsVersion`. To define the `ToolsVersion` value on a per project basis, see [Overriding ToolsVersion settings](../msbuild/overriding-toolsversion-settings.md).
 
@@ -100,7 +100,7 @@ Alternately, you can determine the Toolset programmatically by calling the metho
 
 - <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkSdkFile%2A> returns the path of a file, which is typically located in the managed tools folder.
 
-- <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToBuildTools%2A> returns the path of the build tools.
+- [GetPathToBuildTools](/previous-versions/visualstudio/visual-studio-2013/dn251121(v=vs.121)) returns the path of the build tools.
 
 ### Sub-toolsets
 

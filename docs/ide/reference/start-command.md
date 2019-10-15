@@ -24,15 +24,15 @@ Debug.Start [address]
 ```
 
 ## Arguments
- `address`
+`address`
 
- Optional. The address at which the program suspends execution, similar to a breakpoint in source code. This argument is only valid in debug mode.
+Optional. The address at which the program suspends execution, similar to a breakpoint in source code. This argument is only valid in debug mode.
 
 ## Remarks
- The **Start** command, when executed, performs a RunToCursor operation to the specified address.
+The **Start** command, when executed, performs a RunToCursor operation to the specified address.
 
 ## Example
- This example starts the debugger and ignores any exceptions that occur.
+This example starts the debugger and ignores any exceptions that occur.
 
 ```cmd
 >Debug.Start

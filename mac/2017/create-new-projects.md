@@ -10,7 +10,7 @@ ms.assetid: 5880BB10-0A12-47E2-8A82-7A2D59C4D579
 
 ## Creating new Projects and Solutions from a template
 
-Solutions can be created at any time by using a predefined template. To create a solution this way, browse to **File > New Solution**, select the required platform(s), and then the required template:
+Solutions can be created at any time by using a predefined template. To create a solution this way, browse to **File > New Solution**, select the required platform(s), and then the required template:
 
 ![Create new Solutions](media/projects-and-solutions-image0.png)
 

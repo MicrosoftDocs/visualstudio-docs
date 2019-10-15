@@ -1,6 +1,6 @@
 ---
 title: Code coverage testing
-ms.date: 09/18/2018
+ms.date: 07/23/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "code coverage"
@@ -11,8 +11,6 @@ dev_langs:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.workload:
-  - "multiple"
 ---
 # Use code coverage to determine how much code is being tested
 
@@ -22,36 +20,60 @@ Code coverage analysis can be applied to both managed (CLI) and unmanaged (nativ
 
 Code coverage is an option when you run test methods using Test Explorer. The results table shows the percentage of the code that was run in each assembly, class, and method. In addition, the source editor shows you which code has been tested.
 
+::: moniker range="vs-2017"
+
 ![Code coverage results with coloring](../test/media/codecoverage1.png)
+
+::: moniker-end
 
 ## Requirements
 
 The code coverage feature is available only in Visual Studio Enterprise edition.
 
-## To analyze code coverage on unit tests in Test Explorer
+## Analyze code coverage
+
+::: moniker range="vs-2017"
 
 1. On the **Test** menu, choose **Analyze Code Coverage**.
 
-2. To see which lines have been run, choose ![Show Code Coverage Coloring Icon](../test/media/codecoverage-showcoloringicon.png) **Show Code Coverage Coloring**.
+::: moniker-end
 
-   To alter the colors, or to use bold face, choose **Tools** > **Options** > **Environment** > **Fonts and Colors** > **Show settings for: Text Editor**. Under **Display Items**, adjust the Coverage items.
+::: moniker range=">=vs-2019"
+
+1. On the **Test** menu, select **Analyze Code Coverage for All Tests**.
+
+   ![Analyze code coverage menu in VS 2019](../test/media/vs-2019/analyze-code-coverage.png)
+
+   You can also run code coverage from the Test Explorer tool window.
+
+::: moniker-end
+
+2. After the tests have run, to see which lines have been run, choose ![Show Code Coverage Coloring icon](../test/media/codecoverage-showcoloringicon.png) **Show Code Coverage Coloring** in the **Code Coverage Results** window. By default, code that is covered by tests is highlighted in light blue.
+
+   > [!TIP]
+   > To change the colors or to use bold face, choose **Tools** > **Options** > **Environment** > **Fonts and Colors** > **Show settings for: Text Editor**. Under **Display items**, adjust settings for the "Coverage" items, for example, **Coverage Not Touched Area**.
+   >
+   > ![Code coverage fonts and colors](media/vs-2019/coverage-fonts-and-colors.png)
 
 3. If the results show low coverage, investigate which parts of the code are not being exercised, and write more tests to cover them. Development teams typically aim for about 80% code coverage. In some situations, lower coverage is acceptable. For example, lower coverage is acceptable where some code is generated from a standard template.
 
 > [!TIP]
-> - make sure that compiler optimization is turned off
-> - if you are working with unmanaged (native) code, use a debug build
-> - make sure that you are generating .pdb (symbol) files for each assembly.
+> - Turn compiler optimization off
+> - If you're working with unmanaged (native) code, use a debug build
+> - Generate .pdb (symbol) files for each assembly
 
-If you don't get the results you expect, see [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md). Don't forget to run code coverage again after updating your code. Coverage results and code coloring are not automatically updated after you modify your code or when you run tests.
+If you don't get the results you expect, see [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md).
+
+Don't forget to run code coverage again after updating your code. Coverage results and code coloring are not automatically updated after you modify your code or when you run tests.
 
 ## Report in blocks or lines
 
 Code coverage is counted in *blocks*. A block is a piece of code with exactly one entry and exit point.  If the program's control flow passes through a block during a test run, that block is counted as covered. The number of times the block is used has no effect on the result.
 
-You can also have the results displayed in terms of lines by choosing **Add/Remove Columns** in the table header. If the test run exercised all the code blocks in any line of code, it is counted as one line. Where a line contains some code blocks that were exercised and some that were not, that is counted as a partial line.
+You can also have the results displayed in terms of lines by choosing **Add/Remove Columns** in the table header. Some users prefer a count of lines because the percentages correspond more closely to the size of the fragments that you see in the source code. A long block of calculation would count as a single block even if it occupies many lines.
 
-Some users prefer a count of lines because the percentages correspond more closely to the size of the fragments that you see in the source code. A long block of calculation would count as a single block even if it occupies many lines.
+> [!TIP]
+> A line of code can contain more than one code block. If this is the case, and the test run exercises all the code blocks in the line, it is counted as one line. If some but not all code blocks in the line are exercised, it is counted as a partial line.
 
 ## Manage code coverage results
 

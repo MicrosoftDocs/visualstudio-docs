@@ -1,15 +1,18 @@
 ---
 title: XAML Designer Extensibility Migration
-ms.date: 04/17/2019
+ms.date: 07/09/2019
 ms.topic: conceptual
 author: lutzroeder
 ms.author: lutzr
 manager: jillfra
+dev_langs:
+  - csharp
+  - vb
 monikerRange: vs-2019
 ---
 # XAML designer extensibility migration
 
-Starting in Visual Studio 2019 version 16.1 as a public preview, the XAML designer supports two different architectures: the designer isolation architecture and the more recent surface isolation architecture. This architecture transition is required to support target runtimes that can't be hosted in a .NET Framework process. Moving to the surface isolation architecture introduces breaking changes to the third-party extensibility model. This article outlines the changes.
+In Visual Studio 2019, the XAML designer supports two different architectures: the designer isolation architecture and the more recent surface isolation architecture. This architecture transition is required to support target runtimes that can't be hosted in a .NET Framework process. Moving to the surface isolation architecture introduces breaking changes to the third-party extensibility model. This article outlines these changes, which are available in Visual Studio 2019 starting with version 16.3.
 
 **Designer isolation** is used by the WPF designer for projects that target the .NET Framework and supports *.design.dll* extensions. User code, control libraries, and third-party extensions are loaded in an external process (*XDesProc.exe*) along with the actual designer code and designer panels.
 
@@ -17,7 +20,7 @@ Starting in Visual Studio 2019 version 16.1 as a public preview, the XAML design
 
 ![extensibility-migration-architecture](media/xaml-designer-extensibility-migration-architecture.png)
 
-Because of this architecture transition, third-party extensions are no longer loaded into the same process as the third-party control libraries. The extensions can no longer have direct dependencies on control libraries or directly access runtime objects. Extensions that were previously written for the designer isolation architecture using the *Microsoft.Windows.Extensibility.dll* API must be migrated to a new approach to work with the surface isolation architecture. In practice, an existing extension will need to be compiled against new extensibility API assemblies. Access to runtime control types via [typeof](/dotnet/csharp/language-reference/keywords/typeof) or runtime instances must be replaced or removed because control libraries are now loaded in a different process.
+Because of this architecture transition, third-party extensions are no longer loaded into the same process as the third-party control libraries. The extensions can no longer have direct dependencies on control libraries or directly access run-time objects. Extensions that were previously written for the designer isolation architecture using the *Microsoft.Windows.Extensibility.dll* API must be migrated to a new approach to work with the surface isolation architecture. In practice, an existing extension will need to be compiled against new extensibility API assemblies. Access to run-time control types via [typeof](/dotnet/csharp/language-reference/keywords/typeof) or run-time instances must be replaced or removed because control libraries are now loaded in a different process.
 
 ## New extensibility API assemblies
 
@@ -34,11 +37,11 @@ Instead of using the *.design.dll* file extension, new surface extensions will b
 
 While third-party control libraries are compiled for the actual target runtime (.NET Core or UWP), the *.designtools.dll* extension should always be compiled as a .NET Framework assembly.
 
-## Decouple attribute tables from runtime types
+## Decouple attribute tables from run-time types
 
 The surface isolation extensibility model doesn't allow for extensions to depend on actual control libraries, and therefore, extensions can't reference types from the control library. For example, *MyLibrary.designtools.dll* should not have a dependency on *MyLibrary.dll*.
 
-Such dependencies were most common when registering metadata for types via attribute tables. Extension code that references control library types directly via [typeof](/dotnet/csharp/language-reference/keywords/typeof)  is substituted in the new APIs by using string-based type names:
+Such dependencies were most common when registering metadata for types via attribute tables. Extension code that references control library types directly via [typeof](/dotnet/csharp/language-reference/keywords/typeof) or [GetType](/dotnet/visual-basic/language-reference/operators/gettype-operator) is substituted in the new APIs by using string-based type names:
 
 ```csharp
 using Microsoft.VisualStudio.DesignTools.Extensibility.Metadata;
@@ -53,7 +56,7 @@ public class AttributeTableProvider : IProvideAttributeTable
   {
     get
     {
-      AttributeTableBuilder builder = new AttributeTableBuilder();
+      var builder = new AttributeTableBuilder();
       builder.AddCustomAttributes("MyLibrary.MyControl", new DescriptionAttribute(Strings.MyControlDescription);
       builder.AddCustomAttributes("MyLibrary.MyControl", new FeatureAttribute(typeof(MyControlDefaultInitializer));
       return builder.CreateTable();
@@ -62,11 +65,41 @@ public class AttributeTableProvider : IProvideAttributeTable
 }
 ```
 
+```vb
+Imports Microsoft.VisualStudio.DesignTools.Extensibility.Metadata
+Imports Microsoft.VisualStudio.DesignTools.Extensibility.Features
+Imports Microsoft.VisualStudio.DesignTools.Extensibility.Model
+
+<Assembly: ProvideMetadata(GetType(AttributeTableProvider))>
+
+Public Class AttributeTableProvider
+    Implements IProvideAttributeTable
+
+    Public ReadOnly Property AttributeTable As AttributeTable Implements IProvideAttributeTable.AttributeTable
+        Get
+            Dim builder As New AttributeTableBuilder
+            builder.AddCustomAttributes("MyLibrary.MyControl", New DescriptionAttribute(Strings.MyControlDescription))
+            builder.AddCustomAttributes("MyLibrary.MyControl", New FeatureAttribute(GetType(MyControlDefaultInitializer)))
+            Return builder.CreateTable()
+        End Get
+    End Property
+End Class
+```
+
 ## Feature providers and Model API
 
 Feature providers are implemented in extension assemblies and loaded in the Visual Studio process. `FeatureAttribute` will continue to reference feature provider types directly using [typeof](/dotnet/csharp/language-reference/keywords/typeof).
 
-Because feature providers are now loaded in a process different from the actual runtime code and control libraries, they are no longer able to access runtime objects directly. Instead, all such interactions must be converted to use the corresponding Model-based APIs. The Model API has been updated, and access to <xref:System.Type> or <xref:System.Object> is either no longer available or has been replaced with `TypeIdentifier` and `TypeDefinition`.
+Currently, the following feature providers are supported:
+
+* `DefaultInitializer`
+* `AdornerProvider`
+* `ContextMenuProvider`
+* `ParentAdapter`
+* `PlacementAdapter`
+* `DesignModeValueProvider` is supported with the limitation that `TranslatePropertyValue` will be called via `InvalidateProperty` or when modified in the designer. It will not be called when modified in run-time code.
+
+Because feature providers are now loaded in a process different from the actual run-time code and control libraries, they are no longer able to access run-time objects directly. Instead, all such interactions must be converted to use the corresponding Model-based APIs. The Model API has been updated, and access to <xref:System.Type> or <xref:System.Object> is either no longer available or has been replaced with `TypeIdentifier` and `TypeDefinition`.
 
 `TypeIdentifier` represents a string without an assembly name identifying a type. A `TypeIdenfifier` can be resolved to a `TypeDefinition` to query additional information about the type. `TypeDefinition` instances can't be cached in extension code.
 
@@ -75,9 +108,19 @@ TypeDefinition type = ModelFactory.ResolveType(
     item.Context, new TypeIdentifier("MyLibrary.MyControl"));
 TypeDefinition buttonType = ModelFactory.ResolveType(
     item.Context, new TypeIdentifier("System.Windows.Controls.Button"));
-if (type != null && buttonType != type.IsSubclassOf(buttonType))
+if (type?.IsSubclassOf(buttonType) == true)
 {
 }
+```
+
+```vb
+Dim type As TypeDefinition = ModelFactory.ResolveType(
+    item.Context, New TypeIdentifier("MyLibrary.MyControl"))
+Dim buttonType As TypeDefinition = ModelFactory.ResolveType(
+    item.Context, New TypeIdentifier("System.Windows.Controls.Button"))
+If type?.IsSubclassOf(buttonType) Then
+
+End If
 ```
 
 APIs removed from the surface isolation extensibility API set:
@@ -85,12 +128,15 @@ APIs removed from the surface isolation extensibility API set:
 * `ModelFactory.CreateItem(EditingContext context, object item)`
 * `ViewItem.PlatformObject`
 * `ModelProperty.DefaultValue`
+* `AssemblyReferences.GetTypes(Type baseType)`
 
 APIs that use `TypeIdentifier` instead of <xref:System.Type>:
 
 * `ModelFactory.CreateItem(EditingContext context, Type itemType, params object[] arguments)`
 * `ModelFactory.CreateItem(EditingContext context, Type itemType, CreateOptions options, params object[] arguments)`
 * `ModelFactory.CreateStaticMemberItem(EditingContext context, Type type, string memberName)`
+* `ModelFactory.ResolveType(EditingContext context, Type)` changed to `MetadataFactory.ResolveType(EditingContext context, TypeIdentifier typeIdentifier)`
+* `ModelService.ResolveType(TypeIdentifier typeIdentifier)` changed to `MetadataService.ResolveType(TypeIdentifier typeIdentifier)`
 * `ViewItem.ItemType`
 * `ModelEvent.EventType`
 * `ModelEvent.IsEventOfType(Type type)`
@@ -109,7 +155,6 @@ APIs that use `TypeIdentifier` instead of <xref:System.Type> and no longer suppo
 
 APIs that use `TypeDefinition` instead of <xref:System.Type>:
 
-* `ModelFactory.ResolveType(EditingContext context, TypeIdentifier typeIdentifier)`
 * `ValueTranslationService.GetProperties(Type itemType)`
 * `ValueTranslationService.HasValueTranslation(Type itemType, PropertyIdentifier identifier)`
 * `ValueTranslationService.TranslatePropertyValue(Type itemType, ModelItem item, PropertyIdentifier identifier, object value)`
@@ -117,24 +162,26 @@ APIs that use `TypeDefinition` instead of <xref:System.Type>:
 * `ModelService.Find(ModelItem startingItem, Predicate<Type> match)`
 * `ModelItem.ItemType`
 * `ModelProperty.AttachedOwnerType`
-* `ModelProperty.PropertyType
+* `ModelProperty.PropertyType`
 * `FeatureManager.CreateFeatureProviders(Type featureProviderType, Type type)`
 * `FeatureManager.CreateFeatureProviders(Type featureProviderType, Type type, Predicate<Type> match)`
 * `FeatureManager.InitializeFeatures(Type type)`
 * `FeatureManager.GetCustomAttributes(Type type, Type attributeType)`
 * `AdapterService.GetAdapter<TAdapterType>(Type itemType)`
 * `AdapterService.GetAdapter(Type adapterType, Type itemType)`
+* `PropertyEntry.PropertyType`
 
-APIs that use `ModelItem` instead of <xref:System.Object>:
+APIs that use `AssemblyIdentifier` instead of `<xref:System.Reflection.AssemblyName?displayProperty=fullName>`:
 
-* `ModelItemCollection.Insert(int index, object value)`
-* `ModelItemCollection.Remove(object value)`
-* `ModelItemDictionary.Add(object key, object value)`
-* `ModelItemDictionary.ContainsKey(object key)`
-* `ModelItemDictionary.Remove(object key)`
-* `ModelItemDictionary.TryGetValue(object key, out ModelItem value)`
+* `AssemblyReferences.ReferencedAssemblies`
+* `AssemblyReferences.LocalAssemblyName` changed to `AssemblyReferences.LocalAssemblyIdentifier`
 
-Known primitive types like `int`, `string`, or `Thickness` can be passed to the Model API as .NET Framework instances and will be converted to the corresponding object in the target runtime process. For example:
+Furthermore, `ModelItem` APIs like `SetValue` will only support instances of primitive types or built-in .NET Framework types which can be converted for the target runtime. Currently these types are supported:
+
+* Primitive .NET Framework types: `Boolean`, `Byte`, `Char`, `DateTime`, `Double`, `Enum`, `Guid`, `Int16`, `Int32`, `Int64`, `Nullable`, `SByte`, `Single`, `String`, `Type`, `UInt16`, `UInt32`, `UInt64`, `Uri`
+* Known WPF .NET Framework types (and derived types): `Brush`, `Color`, `CompositeTransform`, `CornerRadius`, `Duration`, `EasingFunctionBase`, `EasingMode`, `EllipseGeometry`, `FontFamily`, `GeneralTransform`, `Geometry`, `GradientStopCollection`, `GradientStop`, `GridLength`, `ImageSource`, `InlineCollection`, `Inline`, `KeySpline`, `Material`, `Matrix`, `PathFigureCollection`, `PathFigure`, `PathSegmentCollection`, `PathSegment`, `Path`, `PointCollection`, `Point`, `PropertyPath`, `Rect`, `RepeatBehavior`, `Setter`, `Size`, `StaticResource`, `TextAlignment`, `TextDecorationCollection`, `ThemeResourceExtension`, `Thickness`, `TimeSpan`, `Transform3D`, `TransformCollection`
+
+For example:
 
 ```csharp
 using Microsoft.VisualStudio.DesignTools.Extensibility.Features;
@@ -149,6 +196,22 @@ public class MyControlDefaultInitializer : DefaultInitializer
   }
 }
 ```
+
+```vb
+Imports Microsoft.VisualStudio.DesignTools.Extensibility.Features
+Imports Microsoft.VisualStudio.DesignTools.Extensibility.Model
+
+Public Class MyControlDefaultInitializer
+    Inherits DefaultInitializer
+
+    Public Overrides Sub InitializeDefaults(item As ModelItem)
+        item.Properties!Width.SetValue(800.0)
+        MyBase.InitializeDefaults(item)
+    End Sub
+End Class
+```
+
+More code samples are available in the [xaml-designer-extensibility-samples](https://github.com/microsoft/xaml-designer-extensibility-samples) repository.
 
 ## Limited support for .design.dll extensions
 

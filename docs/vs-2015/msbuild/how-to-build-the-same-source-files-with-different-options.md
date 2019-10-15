@@ -55,7 +55,7 @@ When you build projects, you frequently compile the same components with differe
     msbuild file.proj /property:Flavor=Debug  
     ```  
   
-     - or -  
+     \- or -  
   
     ```  
     Msbuild file.proj /p:Flavor=Debug  
@@ -69,7 +69,7 @@ When you build projects, you frequently compile the same components with differe
   msbuild file.proj /p:Flavor=Debug;Platform=x86  
   ```  
   
-   - or-  
+   \- or-  
   
   ```  
   msbuild file.proj /p:Flavor=Debug /p:Platform=x86  

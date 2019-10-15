@@ -39,5 +39,4 @@ You can choose to have the Code Editor treat Uniform Resource Locators (URLs) in
 
 ## See also
 
-- [Text Editor Options Dialog Box](../../ide/reference/text-editor-options-dialog-box.md)
 - [Features of the code editor](../../ide/writing-code-in-the-code-and-text-editor.md)

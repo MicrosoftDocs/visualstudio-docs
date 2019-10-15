@@ -25,19 +25,19 @@ The **Details** view displays the **Virtual User Activity Chart**, which is used
 > [!NOTE]
 > Before you run the load test for which you want to use the **Virtual User Activity Details Chart**, you must verify that the **Timing Details Storage** property is set to the **AllIndividualDetails** option by using the Load Performance Test Editor.
 
- **Details Legend Panel**
+**Details Legend Panel**
 
- ![Details legend panel](../test/media/ltest_detailslegend.png)
+![Details legend panel](../test/media/ltest_detailslegend.png)
 
- The details legend panel is visible in the **Virtual User Activity Chart**. The details legend pane lets you filter out tests, pages and transactions based on several different criteria. For example, you can remove certain tests from the view, or remove all successful tests, or remove tests which failed with certain failures. You can also remove all tests that do not have logs.
+The details legend panel is visible in the **Virtual User Activity Chart**. The details legend pane lets you filter out tests, pages and transactions based on several different criteria. For example, you can remove certain tests from the view, or remove all successful tests, or remove tests which failed with certain failures. You can also remove all tests that do not have logs.
 
- You can highlight tests which failed, which displays all failed tests colored in red. You can also highlight tests that have test logs. Tests with logs will be colored in green.
+You can highlight tests which failed, which displays all failed tests colored in red. You can also highlight tests that have test logs. Tests with logs will be colored in green.
 
- **Filter results Panel**
+**Filter results Panel**
 
- ![Filter results panel](../test/media/ltest_filterresults.png)
+![Filter results panel](../test/media/ltest_filterresults.png)
 
- The Filter results panel is visible in the **Virtual User Activity Chart**. The Filter results panel can filter on the following:
+The Filter results panel is visible in the **Virtual User Activity Chart**. The Filter results panel can filter on the following:
 
 - **Show only results with logs** Displays only test results that have test logs associated with them.
 

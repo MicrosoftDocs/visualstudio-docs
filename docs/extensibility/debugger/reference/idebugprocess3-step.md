@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProcess3::Step"
 ms.assetid: 6ad9094c-27cc-4927-8a7c-1b4d97b2e436
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -41,17 +41,14 @@ int Step(
 ```
 
 ## Parameters
- `pThread`\
+`pThread`\
+[in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object representing the thread being stepped.
 
- [in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object representing the thread being stepped.
+`sk`\
+[in] One of the [STEPKIND](../../../extensibility/debugger/reference/stepkind.md) values.
 
- `sk`\
-
- [in] One of the [STEPKIND](../../../extensibility/debugger/reference/stepkind.md) values.
-
- `step`\
-
- [in] One of the [STEPUNIT](../../../extensibility/debugger/reference/stepunit.md) values.
+`step`\
+[in] One of the [STEPUNIT](../../../extensibility/debugger/reference/stepunit.md) values.
 
 ## Return Value
  If successful, returns S_OK; otherwise returns error code.

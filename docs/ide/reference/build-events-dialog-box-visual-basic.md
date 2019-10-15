@@ -1,6 +1,7 @@
 ---
 title: Build Events Dialog Box (Visual Basic)
 ms.date: 11/04/2016
+ms.technology: vs-ide-compile
 ms.topic: reference
 f1_keywords:
   - "vb.ProjectPropertiesBuildEvents"
@@ -11,8 +12,8 @@ helpviewer_keywords:
   - "Build Events dialog box"
   - "post-build events"
 ms.assetid: 3a81a7c7-39f9-47a8-ba5a-b351227f380e
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -45,7 +46,7 @@ Specifies the conditions for the post-build event to run, as shown in the follow
 |**On successful build**|Post-build event will run if the build succeeds. The event will run even for a project that is up-to-date, as long as the build succeeds. This is the default setting.|
 |**When the build updates the project output**|Post-build event will run only when the compiler's output file (.exe or .dll) differs from the previous compiler output file. A post-build event is not run if a project is up-to-date.|
 
-## See Also
+## See also
 
 - [Compile Page, Project Designer (Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md)
 - [How to: Specify Build Events (Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md)

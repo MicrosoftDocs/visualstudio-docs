@@ -89,9 +89,9 @@ You can also modify a SQL Server Express connection to use LocalDB by opening th
 
 - In Visual Studio, open the project without upgrading it.
 
-    - To run the project, select the **F5** key.
+  - To run the project, select the **F5** key.
 
-    - To edit the database, open the *.mdf* file in **Solution Explorer**, and expand the node in **Server Explorer** to work with your database.
+  - To edit the database, open the *.mdf* file in **Solution Explorer**, and expand the node in **Server Explorer** to work with your database.
 
 ### To make SQL Server Express the default database engine
 

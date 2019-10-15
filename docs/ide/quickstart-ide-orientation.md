@@ -21,7 +21,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker range=">=vs-2019"
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
 ::: moniker-end
 
@@ -45,7 +45,7 @@ If you close the **Start Page** and want to see it again, you can reopen it from
 
 The first thing you'll see after you open Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to clone or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
 
-[![](media/vs-2019/start-window-labeled.png "The start window in Visual Studio 2019")](media/vs-2019/start-window-labeled.png#lightbox)
+[![Start window in Visual Studio 2019](media/vs-2019/start-window-labeled.png)](media/vs-2019/start-window-labeled.png#lightbox)
 
 If this is the first time you're using Visual Studio, your recent projects list will be empty.
 
@@ -65,7 +65,7 @@ To continue exploring Visual Studio's features, let's create a new project.
 
    ![Search project templates on Visual Studio Start Page](media/start-page-search-templates.png)
 
-   Visual Studio provides various kinds of project templates that help you get started coding quickly. Choose a C# **Console App (.NET Framework)** project template. (Alternatively, if you're a Visual Basic, C++, Javascript, or other language developer, feel free to create a project in one of those languages. The UI we'll be looking at is similar for all programming languages.)
+   Visual Studio provides various kinds of project templates that help you get started coding quickly. Choose a C# **Console App (.NET Core)** project template. (Alternatively, if you're a Visual Basic, C++, Javascript, or other language developer, feel free to create a project in one of those languages. The UI we'll be looking at is similar for all programming languages.)
 
 1. In the **New Project** dialog box that appears, accept the default project name and choose **OK**.
 
@@ -81,13 +81,13 @@ To continue exploring Visual Studio's features, let's create a new project.
 
    ![New project dialog in Visual Studio 2019](media/vs-2019/create-a-new-project.png)
 
-1. If you selected C#, Visual Basic, or F# as your language, select the **Console App (.NET Framework)** template, and then choose **Next**. (If you selected a different language, just pick any template. The UI we'll be looking at is similar for all programming languages.)
+1. If you selected C#, Visual Basic, or F# as your language, select the **Console App (.NET Core)** template, and then choose **Next**. (If you selected a different language, just pick any template. The UI we'll be looking at is similar for all programming languages.)
 
 1. On the **Configure your new project** page, accept the default project name and location, and then choose **Create**.
 
 ::: moniker-end
 
-   The project is created and a file named *Program.cs* opens in the **Editor** window. The **Editor** shows the contents of files, and is where you'll do most of your coding work in Visual Studio.
+   The project is created and a file named *Program.cs* opens in the **Editor** window. The **Editor** shows the contents of files and is where you'll do most of your coding work in Visual Studio.
 
    ![Editor in Visual Studio](media/editor.png)
 

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugField::GetTypeInfo method"
 ms.assetid: bb5acfa3-04c3-4088-be84-9ff8926cd16f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetTypeInfo(
 ```
 
 ## Parameters
- `pTypeInfo`\
-
- [out] Returns type information in the supplied [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md) structure.
+`pTypeInfo`\
+[out] Returns type information in the supplied [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md) structure.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

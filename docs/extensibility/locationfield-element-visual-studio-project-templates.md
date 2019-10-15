@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
   - "LocationField element [Visual Studio project templates]"
 ms.assetid: 6aaaa155-6ce0-4f7f-aa50-8d63d7a7c992
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

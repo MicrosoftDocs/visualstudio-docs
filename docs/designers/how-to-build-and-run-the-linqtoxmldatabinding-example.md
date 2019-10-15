@@ -16,7 +16,9 @@ For more information about Visual Studio, see [Visual Studio IDE overview](../ge
 
 ## Create the project
 
-1. Open Visual Studio and create a C# **WPF App** named **LinqToXmlDataBinding**. The project should target the .NET Framework 3.5 (or later).
+1. Open Visual Studio and create a C# **WPF App** named **LinqToXmlDataBinding**.
+
+   The project should target the .NET Framework 3.5 (or later).
 
 1. If not already present, add project references for the following .NET assemblies:
 

@@ -181,7 +181,7 @@ The table is organized by entities (shown in rows) and properties (shown in colu
 
 In Table Designer, open the shortcut menu for an entity (a single row) or a property (a single cell), and then select **Edit**.
 
-    ![Add or edit a table entity](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC656238.png)
+![Add or edit a table entity](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC656238.png)
 
 Entities in a single table aren’t required to have the same set of properties (columns). Keep in mind the following restrictions on viewing and editing table data:
 

@@ -68,7 +68,7 @@ The Visual Studio Installer for Visual Studio 2017 includes a **Mobile developme
 1. Open Visual Studio.
 
 > [!NOTE]
-> If you're using Visual Studio 2015, see [Install Visual C++ for Cross-Platform Mobile Development (Visual Studio 2015)](/cross-platform/install-visual-cpp-for-cross-platform-mobile-development?view=vs-2015)
+> If you're using Visual Studio 2015, see [Install Visual C++ for Cross-Platform Mobile Development (Visual Studio 2015)](install-visual-cpp-for-cross-platform-mobile-development.md?view=vs-2015)
 
 ## Install tools for iOS
 

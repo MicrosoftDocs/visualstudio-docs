@@ -42,7 +42,7 @@ C++ and JavaScript projects have a different user interface for managing project
 
 ![Visual C&#43;&#43; project properties](../ide/media/vs2015_projprops_cpp.png)
 
-For information about C++ project properties, see [Work with project properties (C++)](/cpp/ide/working-with-project-properties). For more information about JavaScript properties, see [Property pages, JavaScript](../ide/reference/property-pages-javascript.md).
+For information about C++ project properties, see [Work with project properties (C++)](/cpp/build/working-with-project-properties). For more information about JavaScript properties, see [Property pages, JavaScript](../ide/reference/property-pages-javascript.md).
 
 ## Solution properties
 

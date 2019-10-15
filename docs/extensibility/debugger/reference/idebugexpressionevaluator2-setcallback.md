@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugExpressionEvaluator2::SetCallback"
   - "SetCallback"
 ms.assetid: 31e3a99e-e784-44a3-8b19-cc5ef31ed546
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,8 +34,7 @@ int SetCallback (
 
 ## Parameters
 `pCallback`\
-
- [in] Interface to use for the settings callback.
+[in] Interface to use for the settings callback.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

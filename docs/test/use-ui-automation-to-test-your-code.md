@@ -152,7 +152,7 @@ If you don't want to start and stop the application, browser, or database separa
 
 ## Validate the properties of UI controls
 
-You can use the **Coded UI Test Builder** to add a user interface (UI) control to the <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> for your test, or to generate code for a validation method that uses an assertion for a UI control.
+You can use the **Coded UI Test Builder** to add a user interface (UI) control to the [UIMap](/previous-versions/dd580454(v=vs.140)) for your test, or to generate code for a validation method that uses an assertion for a UI control.
 
 To generate assertions for your UI controls, choose the **Add Assertions** tool in the **Coded UI Test Builder** and drag it to the control on the application under test that you want to verify is correct. When the box outlines your control, release the mouse. The control class code is immediately created in the *UIMap.Designer.cs* file.
 
@@ -279,23 +279,23 @@ After you've created your Coded UI test, you can edit it by using any of the fol
 
 - **Code Editor:**
 
-    - Manually add code for the controls in your test as described in the [Coded UI control actions and properties](#coded-ui-control-actions-and-properties) section in this topic.
+  - Manually add code for the controls in your test as described in the [Coded UI control actions and properties](#coded-ui-control-actions-and-properties) section in this topic.
 
-    - After you create a Coded UI test, you can modify it to be data-driven. For more information, see [Create a data-driven Coded UI test](../test/creating-a-data-driven-coded-ui-test.md).
+  - After you create a Coded UI test, you can modify it to be data-driven. For more information, see [Create a data-driven Coded UI test](../test/creating-a-data-driven-coded-ui-test.md).
 
-    - In a Coded UI test playback, you can instruct the test to wait for certain events to occur, such as a window to appear, the progress bar to disappear, and so on. To do this, add the appropriate UITestControl.WaitForControlXXX() method. For a complete list of the available methods, see [Make coded UI tests wait for specific events during playback](../test/making-coded-ui-tests-wait-for-specific-events-during-playback.md). For an example of a Coded UI test that waits for a control to be enabled using the WaitForControlEnabled method, see [Walkthrough: Creating, editing and maintaining a coded UI test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md).
+  - In a Coded UI test playback, you can instruct the test to wait for certain events to occur, such as a window to appear, the progress bar to disappear, and so on. To do this, add the appropriate UITestControl.WaitForControlXXX() method. For a complete list of the available methods, see [Make coded UI tests wait for specific events during playback](../test/making-coded-ui-tests-wait-for-specific-events-during-playback.md). For an example of a Coded UI test that waits for a control to be enabled using the WaitForControlEnabled method, see [Walkthrough: Creating, editing and maintaining a coded UI test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md).
 
-    - Coded UI tests include support for some of the HTML5 controls that are included in Internet Explorer 9 and Internet Explorer 10. For more information, see [Using HTML5 controls in coded UI tests](../test/using-html5-controls-in-coded-ui-tests.md).
+  - Coded UI tests include support for some of the HTML5 controls that are included in Internet Explorer 9 and Internet Explorer 10. For more information, see [Using HTML5 controls in coded UI tests](../test/using-html5-controls-in-coded-ui-tests.md).
 
-    - Coded UI test coding guidance:
+  - Coded UI test coding guidance:
 
-       - [Anatomy of a coded UI test](../test/anatomy-of-a-coded-ui-test.md)
+    - [Anatomy of a coded UI test](../test/anatomy-of-a-coded-ui-test.md)
 
-       - [Best practices for coded UI tests](../test/best-practices-for-coded-ui-tests.md)
+    - [Best practices for coded UI tests](../test/best-practices-for-coded-ui-tests.md)
 
-       - [Test a large application with multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)
+    - [Test a large application with multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)
 
-       - [Supported configurations and platforms for coded UI tests and action recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+    - [Supported configurations and platforms for coded UI tests and action recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
 
 ### The generated code
 
@@ -396,10 +396,10 @@ To get and set UI control specific property values, you can directly get or set 
 
 With controls that derive from <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl>, such as [HtmlList](xref:Microsoft.VisualStudio.TestTools.UITesting.HtmlControls.HtmlList) or [WinComboBox](xref:Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinComboBox), you can get or set their property values directly. The following code shows some examples:
 
- ```csharp
- int i = myHtmlList.ItemCount;
- myWinCheckBox.Checked = true;
- ```
+```csharp
+int i = myHtmlList.ItemCount;
+myWinCheckBox.Checked = true;
+```
 
 ### To get properties from UI test controls
 
@@ -449,7 +449,6 @@ Coded UI tests are often used to automate manual tests. For more information abo
 
 - [Record and play back manual tests](/azure/devops/test/mtm/record-play-back-manual-tests?view=vsts)
 - [Xamarin.UITest](/appcenter/test-cloud/uitest/)
-- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert>
 - [Walkthrough: Create, edit, and maintain a Coded UI test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
 - [Create a Coded UI test to test a UWP app](test-uwp-app-with-coded-ui-test.md)

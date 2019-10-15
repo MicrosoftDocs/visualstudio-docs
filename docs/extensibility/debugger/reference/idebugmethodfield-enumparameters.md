@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugMethodField::EnumParameters method"
 ms.assetid: d77b1197-deb6-4144-8d1b-8b09949ccfac
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int EnumParameters(
 ```
 
 ## Parameters
- `ppParams`\
-
- [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of parameters to the method; otherwise, returns a null value if there are no parameters.
+`ppParams`\
+[out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of parameters to the method; otherwise, returns a null value if there are no parameters.
 
 ## Return Value
  If successful, returns S_OK or returns S_FALSE if there are no parameters. Otherwise, returns an error code.

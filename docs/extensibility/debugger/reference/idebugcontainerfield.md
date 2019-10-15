@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugContainerField interface"
 ms.assetid: a8bbe061-c382-4fe9-a193-3f7d12216041
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

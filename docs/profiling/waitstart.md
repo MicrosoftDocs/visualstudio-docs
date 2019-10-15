@@ -17,7 +17,7 @@ The WaitStart option causes the *VSPerfCmd.exe* Start sub-command to return only
 ## Syntax
 
 ```cmd
-VSPerfCmd.exe /Start:Method /Output:FileName[Options] /StartWait[:Seconds]
+VSPerfCmd.exe /Start:Method /Output:FileName[Options] /WaitStart[:Seconds]
 ```
 
 #### Parameters

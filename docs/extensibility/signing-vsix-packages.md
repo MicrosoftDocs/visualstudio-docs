@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "vsix"
   - "packages"
 ms.assetid: e34cfc2c-361c-44f8-9cfe-9f2be229d248
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

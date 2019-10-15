@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "programs, registration"
   - "debugging [Debugging SDK], program registration"
 ms.assetid: d726a161-7db3-4ef4-b258-9f6a5be68418
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPointerObject::Dereference method"
 ms.assetid: 196ec2cc-8569-4780-b217-23b24e7f50ca
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int Dereference(
 ```
 
 ## Parameters
- `dwIndex`\
+`dwIndex`\
+[in] A simple byte offset from the beginning of the object pointed to.
 
- [in] A simple byte offset from the beginning of the object pointed to.
-
- `ppObject`\
-
- [out] Returns an [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object representing the object pointed to, plus offset, if any.
+`ppObject`\
+[out] Returns an [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object representing the object pointed to, plus offset, if any.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code. Returns E_FAIL if this object does not point to another object.

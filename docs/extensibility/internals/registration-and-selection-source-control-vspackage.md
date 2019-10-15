@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "registration, source control packages"
   - "source control packages, registration"
 ms.assetid: 7d21fe48-489a-4f55-acb5-73da64c4e155
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

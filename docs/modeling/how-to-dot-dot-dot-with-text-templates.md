@@ -39,13 +39,14 @@ Text templates in Visual Studio provide a useful way of generating text of any k
      In your code, use `this.Host.ResolvePath(filename)` to obtain the full path of the file.
 
 ### Invoke methods from a template
- If the methods already exist, for example, in standard [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] classes:
+
+If the methods already exist, for example, in .NET classes:
 
 - Use the \<#@assembly#> directive to load the assembly, and use \<#@import#> to set the namespace context. For more information, see [T4 Import Directive](../modeling/t4-import-directive.md).
 
    If you frequently use the same set of assembly and import directives, consider writing a directive processor. In each template, you can invoke the directive processor, which can load the assemblies and the model files and set the namespace context. For more information, see [Creating Custom T4 Text Template Directive Processors](../modeling/creating-custom-t4-text-template-directive-processors.md).
 
-  If you are writing the methods yourself:
+If you are writing the methods yourself:
 
 - If you are writing a runtime text template, write a partial class definition that has the same name as your runtime text template. Add the additional methods into this class.
 

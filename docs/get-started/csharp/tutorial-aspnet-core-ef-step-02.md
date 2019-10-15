@@ -106,6 +106,9 @@ public void OnGet()
 
 You should now see the actual server time in the browser when you navigate to the app.
 
+> [!NOTE]
+> Your output might differ from the image, since the output format of ToShortDateTimeString depends on the current culture setting. See <xref:System.DateTime.ToShortTimeString>.
+
 ![Visual Studio 2019 ASP.NET Core Project in Browser](media/vs-2019/vs2019-app-fixed-in-browser.png)
 
 ## Next steps

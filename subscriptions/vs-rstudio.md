@@ -3,7 +3,7 @@ title:  The RStudio Benefit in Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 04/02/2019
+ms.date: 09/16/2019
 ms.topic: conceptual
 description: Learn about the RStudio Desktop benefit included in Visual Studio Enterprise subscriptions
 searchscope: VS Subscription
@@ -15,9 +15,6 @@ Take control of your R code.  RStudio is an integrated development environment (
 
 RStudio is available in open source and commercial editions and runs on the desktop (Windows, Mac, and Linux) or in a browser connected to RStudio Server or RStudio Server Pro (Debian/Ubuntu, RedHat/CentOS, and SUSE Linux).  The RStudio Desktop benefit included in Visual Studio Enterprise subscriptions includes one year of access to the commercial edition.
 
-> [!IMPORTANT]
-> The RStudio Desktop benefit is available for a limited time only.  To use the benefit, you must activate it before July 1, 2019.
-
 ## Activation steps
 1. To activate your subscription, connect to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the **Get code** link on the RStudio benefit tile, located in the tools section.
    > [!div class="mx-imgBorder"]
@@ -28,7 +25,7 @@ RStudio is available in open source and commercial editions and runs on the desk
 3. You'll be redirected to the RStudio page for the benefit that's included with your Visual Studio subscription.
 
     > [!NOTE]
-    > At the top of the landing page you'll see a section called Configure Your Plan in which you'll have an opportunity to purchase additional licenses for RStudio Desktop commercial edition.  Your subscription includes one license.  Enter a quantity in the blank **ONLY** if you wish to purchase an additional licese.
+    > At the top of the landing page you'll see a section called Configure Your Plan in which you'll have an opportunity to purchase additional licenses for RStudio Desktop commercial edition.  Your subscription includes one license.  Enter a quantity in the blank **ONLY** if you wish to purchase an additional license.
 
     > [!div class="mx-imgBorder"]
     > ![RStudio Landing Page](_img/vs-rstudio/vs-rstudio-landing-page.png)
@@ -86,9 +83,9 @@ RStudio is available in open source and commercial editions and runs on the desk
 |         Visual Studio Professional (Standard)          | VL, Retail |   Not available    | NA |
 |              Visual Studio Test Professional (Standard)              |    VL, Retail     |   Not available    | NA |
 |                      MSDN Platforms (Standard)                       |    VL, Retail     |   Not available   | NA |
-|                     Visual Studio Dev Essentials                     |        NA         |   Not available    |       NA       |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) |       Azure       | Not available |       NA       |
 |             Visual Studio Enterprise (NFR<sup>1</sup> )              |      Program      | Not available |       NA       |
+||
 
 <sup>1</sup>  *NFR Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Partner Network (MPN), FTE, Imagine.*
 
@@ -98,10 +95,6 @@ RStudio is available in open source and commercial editions and runs on the desk
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
 ## Frequently asked questions
-
-### Q: If I claim my coupon code by clicking on the "Get code" button but I don't activate until after June 1, 2019, will I still be able to use the benefit?
-
-A:  No.  The offer will expire on June 1, 2019. You must complete the entire activation process before the expiration date in order to use the benefit.
 
 ### Q: I don't want to sign up for a recurring subscription.  Can I opt out?
 

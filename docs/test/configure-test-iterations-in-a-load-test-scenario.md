@@ -26,18 +26,18 @@ The **Maximum Test Iterations** property controls the maximum number of test ite
 > [!NOTE]
 > For a full list of the load test scenario properties and their descriptions, see [Load test scenario properties](../test/load-test-scenario-properties.md).
 
- For sequential test mix, one iteration is one pass through all the tests in the mix. For all other test mixes, each test execution counts as an iteration. For more information, see [About the mix control](../test/edit-the-test-mix-to-specify-which-web-browsers-types-in-a-load-test-scenario.md).
+For sequential test mix, one iteration is one pass through all the tests in the mix. For all other test mixes, each test execution counts as an iteration. For more information, see [About the mix control](../test/edit-the-test-mix-to-specify-which-web-browsers-types-in-a-load-test-scenario.md).
 
- If the load test is a duration-based load test, and the duration expires before the iteration count is complete, the test will still stop. If the test is iteration-based, and the test iterations are met before scenario iterations, the test will stop. The duration is configured by using the **Run Duration** property in the **Properties** window associated with a run setting in a load test.
+If the load test is a duration-based load test, and the duration expires before the iteration count is complete, the test will still stop. If the test is iteration-based, and the test iterations are met before scenario iterations, the test will stop. The duration is configured by using the **Run Duration** property in the **Properties** window associated with a run setting in a load test.
 
- When the scenario iteration count is met, the scenario will stop running, but any other active scenarios will continue to run.
+When the scenario iteration count is met, the scenario will stop running, but any other active scenarios will continue to run.
 
 > [!NOTE]
 > A related property is the **Unique** property on a web test data source, which moves sequentially through the data, row-by-row, but only one time for each record. For more information, see [Add a data source to a web performance test](../test/add-a-data-source-to-a-web-performance-test.md).
 
- The **Maximum Test Iterations** property is useful for a variety of situations. Some load testers prefer to conduct iteration-based testing, whereas other load testers prefer to conduct duration-based testing.
+The **Maximum Test Iterations** property is useful for a variety of situations. Some load testers prefer to conduct iteration-based testing, whereas other load testers prefer to conduct duration-based testing.
 
- ![Specifying test iterations in a scenario](../test/media/loadtest_prop.png)
+![Specifying test iterations in a scenario](../test/media/loadtest_prop.png)
 
 ### To specify the maximum test iterations
 

@@ -27,7 +27,7 @@ Toolbox appears in conjunction with designer views, such as the designer view of
 > [!NOTE]
 > For some project types, **Toolbox** may not show any items.
 
-The .NET Framework version that your project targets also affects the set of controls visible in Toolbox. You can set your project to target a different version of the .NET Framework from the project's property pages. Select the project node in **Solution Explorer**, and then on the menu bar, choose **Project** > **projectname Properties**. On the **Application** tab, use the **Target framework** drop-down.
+The .NET version that your project targets also affects the set of controls visible in Toolbox. You can change the target framework version from the project's property pages, if necessary. Select the project node in **Solution Explorer**, and then on the menu bar, choose **Project** > **projectname Properties**. On the **Application** tab, use the **Target framework** drop-down.
 
 ## Manage the Toolbox window and its controls
 

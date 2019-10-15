@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "what's new [Visual Studio SDK], source control"
   - "source control [Visual Studio SDK], what's new"
 ms.assetid: bcf85418-18fb-4824-9dae-d14bf3d56a77
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

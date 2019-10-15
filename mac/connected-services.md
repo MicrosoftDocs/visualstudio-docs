@@ -2,8 +2,8 @@
 title: "Connected Services"
 description: "Add Azure data storage, authentication, and push notifications to mobile apps from within Visual Studio for Mac"
 ms.assetid: 41CB62FF-0F39-4CE8-8917-6A77F058719F
-author: conceptdev
-ms.author: crdun
+author: sayedihashimi
+ms.author: sayedha
 ms.date: 11/06/2018
 ---
 

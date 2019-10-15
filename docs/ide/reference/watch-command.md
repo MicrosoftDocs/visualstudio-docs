@@ -24,12 +24,13 @@ Debug.Watch[index]
 ```
 
 ## Arguments
- `index`
 
- Required. The instance number of the watch window.
+`index`\
+Required. The instance number of the watch window.
 
 ## Remarks
- The `index` must be an integer. Valid values are 1, 2, 3, or 4.
+
+The `index` must be an integer. Valid values are 1, 2, 3, or 4.
 
 ## Example
 

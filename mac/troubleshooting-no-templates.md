@@ -2,8 +2,8 @@
 title: Why can I not see all available templates?
 description: "Troubleshooting article on why you cannot see all available templates."
 ms.topic: troubleshooting
-author: conceptdev
-ms.author: crdun
+author: asb3993
+ms.author: amburns
 ms.date: 04/02/2019
 ms.assetid: 297D9094-B40F-4C1A-BF19-B14CB735003A
 ---

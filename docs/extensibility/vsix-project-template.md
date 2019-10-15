@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "deploy packages"
   - "publish extension"
 ms.assetid: b6c82167-e2a5-4cff-8c8b-2d72e2a9092c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -1,5 +1,5 @@
 ---
-title: "Debug Source Files, Common Properties, Solution Property Pages Dialog Box | Microsoft Docs"
+title: "Debug Source Files/Common Properties/Solution Property Pages"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:

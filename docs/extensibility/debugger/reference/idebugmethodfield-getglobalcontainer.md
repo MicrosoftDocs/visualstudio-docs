@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugMethodField::GetGlobalContainer method"
 ms.assetid: 041ac5aa-0b80-4310-b9ae-b88f8e7e0e5f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetGlobalContainer(
 ```
 
 ## Parameters
- `ppClass`\
-
- [out] Returns an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) representing the module in which this method is defined.
+`ppClass`\
+[out] Returns an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) representing the module in which this method is defined.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

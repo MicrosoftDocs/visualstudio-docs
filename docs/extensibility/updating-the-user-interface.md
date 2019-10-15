@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "user interfaces, updating"
   - "commands, updating UI"
 ms.assetid: 376e2f56-e7bf-4e62-89f5-3dada84a404b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

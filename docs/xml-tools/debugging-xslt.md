@@ -19,7 +19,7 @@ You can execute code one line at a time by stepping into, stepping over, or step
 Once you start debugging, the XSLT debugger opens windows to show the input document and the XSLT output.
 
 > [!NOTE]
-> The XSLT debugger is only available in the Enterprise edition of Visual Studio.
+> The XSLT debugger is only available in the Professional and Enterprise editions of Visual Studio.
 
 ## Debug from the XML editor
 

@@ -1,5 +1,5 @@
 ---
-title: "Workflow Designer - Add Parameters and Add Arguments Dialog Boxes"
+title: "Workflow Designer: Add Parameters & Add Arguments dialog boxes"
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

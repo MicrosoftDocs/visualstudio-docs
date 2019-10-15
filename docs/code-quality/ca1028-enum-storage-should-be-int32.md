@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|EnumStorageShouldBeInt32|
 |CheckId|CA1028|
 |Category|Microsoft.Design|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 
@@ -47,7 +47,7 @@ Suppress a warning from this rule only if backward compatibility issues require 
 
 ## Configurability
 
-If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
+If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not with legacy analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
 
 ```ini
 dotnet_code_quality.ca1028.api_surface = private, internal
@@ -73,7 +73,7 @@ The following example fixes the previous violation by changing the underlying da
 
 - [CA1008: Enums should have zero value](../code-quality/ca1008-enums-should-have-zero-value.md)
 - [CA1027: Mark enums with FlagsAttribute](../code-quality/ca1027-mark-enums-with-flagsattribute.md)
-- [CA2217: Do not mark enums with FlagsAttribute](../code-quality/ca2217-do-not-mark-enums-with-flagsattribute.md)
+- [CA2217: Do not mark enums with FlagsAttribute](../code-quality/ca2217.md)
 - [CA1700: Do not name enum values 'Reserved'](../code-quality/ca1700-do-not-name-enum-values-reserved.md)
 - [CA1712: Do not prefix enum values with type name](../code-quality/ca1712-do-not-prefix-enum-values-with-type-name.md)
 

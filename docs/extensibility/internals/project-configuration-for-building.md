@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], configuration for building"
   - "project configurations, building"
 ms.assetid: 2c83615d-fa4d-4b9f-b315-7a69b3000da0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

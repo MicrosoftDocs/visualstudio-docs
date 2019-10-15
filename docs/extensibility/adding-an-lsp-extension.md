@@ -3,8 +3,8 @@ title: "Adding a Language Server Protocol extension | Microsoft Docs"
 ms.date: "11/14/2017"
 ms.topic: "conceptual"
 ms.assetid: 52f12785-1c51-4c2c-8228-c8e10316cd83
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -27,7 +27,7 @@ For support within Visual Studio, language servers can communicate with the clie
 * Named pipes
 * Sockets (TCP only)
 
-The intent of the LSP and support for it in Visual Studio is to onboard language services that are not part of Visual Studio product. It's not intended to extend existing language services (like C#) in Visual Studio. To extend existing languages, refer to the language service’s extensibility guide (for example, the ["Roslyn" .NET Compiler Platform](../extensibility/dotnet-compiler-platform-roslyn-extensibility.md)).
+The intent of the LSP and support for it in Visual Studio is to onboard language services that are not part of Visual Studio product. It's not intended to extend existing language services (like C#) in Visual Studio. To extend existing languages, refer to the language service’s extensibility guide (for example, the ["Roslyn" .NET Compiler Platform](../extensibility/dotnet-compiler-platform-roslyn-extensibility.md)) or see [Extend the editor and language services](../extensibility/extending-the-editor-and-language-services.md).
 
 For more information on the protocol itself, see the documentation [here](https://github.com/Microsoft/language-server-protocol).
 

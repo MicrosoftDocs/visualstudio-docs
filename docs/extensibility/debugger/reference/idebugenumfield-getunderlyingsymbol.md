@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEnumField::GetUnderlyingSymbol method"
 ms.assetid: c3b8a117-6708-4cfd-8ffc-5f007d706bc5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetUnderlyingSymbol(
 ```
 
 ## Parameters
- `ppField`\
-
- [out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) describing the name of this enumeration.
+`ppField`\
+[out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) describing the name of this enumeration.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

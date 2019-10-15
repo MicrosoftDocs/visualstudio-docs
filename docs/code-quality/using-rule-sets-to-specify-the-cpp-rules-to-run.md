@@ -2,9 +2,11 @@
 title: Using Rule Sets to Specify the C++ Rules to Run
 ms.date: 04/28/2018
 ms.topic: "conceptual"
+f1_keywords:
+  - "vs.codeanalysis.rulesets.native"
 author: mikeblome
 ms.author: mblome
-manager: wpickett
+manager: markl
 ms.workload:
   - "cplusplus"
 ---
@@ -12,8 +14,7 @@ ms.workload:
 
 In Visual Studio, you can create and modify a custom *rule set* to meet specific project needs associated with code analysis. The default rule sets are stored in `%VSINSTALLDIR%\Team Tools\Static Analysis Tools\Rule Sets`.
 
-**Visual Studio 2017 version 15.7 and later**
-You can create custom rule sets using any text editor and apply them in command line builds no matter what build system you are using. For more information, see [/analyze:ruleset](/cpp/build/reference/analyze-code-analysis).
+**Visual Studio 2017 version 15.7 and later:** You can create custom rule sets using any text editor and apply them in command line builds no matter what build system you are using. For more information, see [/analyze:ruleset](/cpp/build/reference/analyze-code-analysis).
 
 To create a custom C++ rule set in Visual Studio, a C/C++ project must be open in the Visual Studio IDE. You then open a standard rule set in the rule set editor and then add or remove specific rules and optionally change the action that occurs when code analysis determines that a rule has been violated.
 
@@ -21,7 +22,7 @@ To create a new custom rule set, you save it by using a new file name. The custo
 
 ## To create a custom rule from a single existing rule set
 
-1. In Solution Explorer, open the shortcut menu for the project and then choose **Properties**.
+1. In the Solution Explorer, open the shortcut menu for the project and then choose **Properties**.
 
 2. On the **Properties** tab, choose **Code Analysis**.
 
@@ -45,9 +46,11 @@ To create a new custom rule set, you save it by using a new file name. The custo
 
 - To change the action taken when a rule is violated in a code analysis, choose the **Action** field for the rule and then choose one of the following values:
 
-     **Warn** - generates a warning.
+     **Warning** - generates a warning.
 
      **Error** - generates an error.
+     
+     **Info** - generates a message.
 
      **None** - disables the rule. This action is the same as removing the rule from the rule set.
 

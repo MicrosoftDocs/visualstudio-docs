@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Create your first document-level customization for Excel"
+title: "Create your first document-level customization for Excel"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

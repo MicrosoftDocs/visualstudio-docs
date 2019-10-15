@@ -3,8 +3,8 @@ title: "Application Patterns for Visual Studio | Microsoft Docs"
 ms.date: "04/26/2017"
 ms.topic: "conceptual"
 ms.assetid: 8ed68602-4e28-46fe-b39f-f41979b308a2
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

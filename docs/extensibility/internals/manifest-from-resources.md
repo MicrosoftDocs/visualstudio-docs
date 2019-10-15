@@ -3,8 +3,8 @@ title: "Manifest from Resources | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 0234109b-5dcb-4d9d-acb9-a63f8bd5699c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -1,6 +1,6 @@
 ---
 title: "Word solutions"
-ms.date: "02/02/2017"
+ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -32,8 +32,7 @@ ms.workload:
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
 
-> [!NOTE]
-> Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
+[!include[Add-ins note](includes/addinsnote.md)]
 
  This topic provides the following information:
 
@@ -109,5 +108,5 @@ ms.workload:
 |[Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)|Describes how you can add Windows Forms controls to Word documents.|
 |[Walkthrough: Create your first document-level customization for Word](../vsto/walkthrough-creating-your-first-document-level-customization-for-word.md)|Demonstrates how to create a basic document-level customization for Word.|
 |[Walkthrough: Create your first VSTO Add-in for Word](../vsto/walkthrough-creating-your-first-vsto-add-in-for-word.md)|Demonstrates how to create a basic VSTO Add-in for Word.|
-|[Walkthrough: Add controls to a document at runtime in a VSTO Add-in](../vsto/walkthrough-adding-controls-to-a-document-at-run-time-in-a-vsto-add-in.md)|Demonstrates how to add a Windows Forms button and a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> to a document at run time by using a VSTO Add-in.|
+|[Walkthrough: Add controls to a document at run time in a VSTO Add-in](../vsto/walkthrough-adding-controls-to-a-document-at-run-time-in-a-vsto-add-in.md)|Demonstrates how to add a Windows Forms button and a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> to a document at run time by using a VSTO Add-in.|
 |[Word 2010 in Office development](http://go.microsoft.com/fwlink/?LinkId=199020)|Provides links to articles and reference documentation about developing Word solutions (not specific to Office development using Visual Studio).|

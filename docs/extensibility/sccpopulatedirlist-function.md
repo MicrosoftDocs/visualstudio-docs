@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccPopulateDirList function"
 ms.assetid: dfff634b-b155-498b-a356-6eb252ac4fad
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

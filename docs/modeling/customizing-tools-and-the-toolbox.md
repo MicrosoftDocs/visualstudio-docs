@@ -190,7 +190,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 
  **Link Connect Directive in DSL Details Window**
 
- ![](../modeling/media/connectionbuilder_4b.png)
+ ![Link connect directive in DSL Details window](../modeling/media/connectionbuilder_4b.png)
 
  You must then provide methods in the ConnectionBuilder class:
 

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProperty3::GetCustomViewerCount"
 ms.assetid: dc5bb3e4-dc85-46e4-98fa-c6be8583b985
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -35,8 +35,7 @@ int GetCustomViewerCount(
 
 ## Parameters
 `pcelt`\
-
- [out] The number of custom viewers available for this property.
+[out] The number of custom viewers available for this property.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

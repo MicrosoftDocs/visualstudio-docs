@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "ObjectIdForDbugger property, AsyncVoidMethodBuilder structure [.NET Framework debug engines]"
 ms.assetid: 97c48c49-3fb2-4778-accd-8585fa4feabf
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

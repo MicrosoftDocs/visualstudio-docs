@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "Strings element (VSCT XML schema)"
   - "VSCT XML schema elements, Strings"
 ms.assetid: 23a42074-a689-481d-824f-b43aa448f266
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

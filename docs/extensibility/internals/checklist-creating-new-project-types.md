@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], creating new types"
   - "project types, checklist for creating"
 ms.assetid: 29eb9c3b-1933-4741-aa85-65a33f0825ba
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

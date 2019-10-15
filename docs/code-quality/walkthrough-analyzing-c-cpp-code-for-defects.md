@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "code analysis tool, walkthroughs"
 author: mikeblome
 ms.author: mblome
-manager: wpickett
+manager: markl
 ms.workload:
   - "cplusplus"
 ---

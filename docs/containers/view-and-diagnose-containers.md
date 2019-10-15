@@ -1,5 +1,5 @@
 ---
-title: View container logs and environment variables and access the filesystem.
+title: Container logs, environment variables, & filesystem access
 description: Describes how to improve your ability to debug and diagnose your container-based apps in Visual Studio by using a tool window  to see what's going on inside the containers that host your app.
 author: ghogen
 ms.author: ghogen
@@ -18,7 +18,7 @@ You can view what's going on inside the containers that host your app by using t
 ## Prerequisites
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- Install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)
+- Install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
 - Install the [Containers window extension](https://aka.ms/vscontainerspreview)
 
 ## View information about your containers

@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "VSDIR files"
   - "template directory description files"
 ms.assetid: 9df51800-190e-4662-b685-fdaafcff1400
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

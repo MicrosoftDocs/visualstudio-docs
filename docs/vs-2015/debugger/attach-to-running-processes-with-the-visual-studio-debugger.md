@@ -80,7 +80,8 @@ You can use this capability to debug apps that are running on a local or remote 
 
    1. Type the name in the **Qualifier** list box.
 
-      >**Note** If, in later steps, you can't connect using the remote computer name, use the IP address. (The port number may appear automatically after selecting the process. You can also enter it manually. In the illustration below, 4020 is the default port for the remote debugger.)
+      > [!NOTE]
+      > If, in later steps, you can't connect using the remote computer name, use the IP address. (The port number may appear automatically after selecting the process. You can also enter it manually. In the illustration below, 4020 is the default port for the remote debugger.)
 
    2. Click the drop-down arrow attached to the **Qualifier** list box and select the computer name from the drop-down list.
 

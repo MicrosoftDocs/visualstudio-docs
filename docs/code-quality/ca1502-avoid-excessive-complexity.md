@@ -26,7 +26,7 @@ ms.workload:
 |TypeName|AvoidExcessiveComplexity|
 |CheckId|CA1502|
 |Category|Microsoft.Maintainability|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 
@@ -50,7 +50,7 @@ To fix a violation of this rule, refactor the method to reduce its cyclomatic co
 
 ## When to suppress warnings
 
-It is safe to suppress a warning from this rule if the complexity cannot easily be reduced and the method is easy to understand, test, and maintain. In particular, a method that contains a large `switch` (`Select` in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]) statement is a candidate for exclusion. The risk of destabilizing the code base late in the development cycle or introducing an unexpected change in runtime behavior in previously shipped code might outweigh the maintainability benefits of refactoring the code.
+It is safe to suppress a warning from this rule if the complexity cannot easily be reduced and the method is easy to understand, test, and maintain. In particular, a method that contains a large `switch` (`Select` in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]) statement is a candidate for exclusion. The risk of destabilizing the code base late in the development cycle or introducing an unexpected change in run-time behavior in previously shipped code might outweigh the maintainability benefits of refactoring the code.
 
 ## How Cyclomatic complexity is calculated
 

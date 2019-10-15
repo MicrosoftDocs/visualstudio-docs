@@ -54,31 +54,32 @@
     items:
     - name: "Walkthrough: Create and run unit tests for managed code"
       href: walkthrough-creating-and-running-unit-tests-for-managed-code.md
-    - name: "Quickstart: Test-driven development with Test Explorer"
+    - name: "Walkthrough: Test-driven development"
       href: quick-start-test-driven-development-with-test-explorer.md
-    - name: Use Microsoft.VisualStudio.TestTools.UnitTesting members in unit tests
+    - name: Use the MSTest API in unit tests
       href: using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md
     - name: Use the assert classes
       href: using-the-assert-classes.md
     - name: Microsoft Fakes
       items:
-      - name: Isolate code under test with Microsoft Fakes
+      - name: Isolate code under test
+        displayName: shim, stub, fakes
         href: isolating-code-under-test-with-microsoft-fakes.md
-      - name: Use stubs to isolate parts of your application from each other for unit testing
+      - name: Use stubs to isolate parts of your app
         href: using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md
-      - name: Use shims to isolate your application from other assemblies for unit testing
+      - name: Use shims to isolate your app from other assemblies
         href: using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md
-      - name: Code generation, compilation, and naming conventions in Microsoft Fakes
+      - name: Code generation, compilation, and naming conventions
         href: code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md
     - name: Data-driven unit tests
       items:
-      - name: Create a data-driven Unit test
+      - name: Create a data-driven unit test
         href: how-to-create-a-data-driven-unit-test.md
-      - name: "Walkthrough: Use a configuration file to define a data source"
+      - name: Use a configuration file to define a data source
         href: walkthrough-using-a-configuration-file-to-define-a-data-source.md
     - name: Unit tests for generic methods
       href: unit-tests-for-generic-methods.md
-    - name: Configure unit tests to target An earlier version of the .NET Framework
+    - name: Configure unit tests to target an earlier version of .NET
       href: how-to-configure-unit-tests-to-target-an-earlier-version-of-the-dotnet-framework.md
   - name: Unit tests for C/C++ code
     items:
@@ -119,13 +120,13 @@
   - name: Introduction
     displayName: Live Unit Testing introduction
     href: live-unit-testing-intro.md
-  - name: What's new in Live Unit Testing
+  - name: What's new
     href: live-unit-testing-whats-new.md
-  - name: Get started with Live Unit Testing
+  - name: Get started
     href: live-unit-testing-start.md
-  - name: Use Live Unit Testing in Enterprise edition
+  - name: Configure and use
     href: live-unit-testing.md
-  - name: Live Unit Testing FAQ
+  - name: FAQ
     href: live-unit-testing-faq.md
 - name: Web performance and load testing
   items:

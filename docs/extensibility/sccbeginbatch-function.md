@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccBeginBatch function"
 ms.assetid: 33968183-2e15-4e0d-955b-ca12212d1c25
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

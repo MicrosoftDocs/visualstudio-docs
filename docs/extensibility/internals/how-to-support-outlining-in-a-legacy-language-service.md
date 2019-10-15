@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "language services, supporting Collapse to Definitions command"
   - "hidden text, Collapse to Definitions command"
 ms.assetid: bb6e74c3-93e4-4ef7-afc7-1c9b342f083b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Debugging a SharePoint Application by Using IntelliTrace | Microsoft Docs"
+title: "Debug SharePoint application using IntelliTrace"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

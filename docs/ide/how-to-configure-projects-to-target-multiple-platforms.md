@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "projects [Visual Studio], targeting platforms"
   - "platforms, changing target platforms"
 ms.assetid: affa2392-7aed-45ac-9ffa-1d8e0496d590
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

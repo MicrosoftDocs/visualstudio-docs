@@ -158,7 +158,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
   Shows the **Live Visual Tree** commands in a toolbar on the main window of the XAML application that is being debugged. This option was introduced in Visual Studio 2015 Update 2.  
   
   **Enable Diagnostic Tools while debugging**  
-  The **Diagnostic Tools** window appears while you are debugging. For more information, see [Debugger-integrated profiling](https://msdn.microsoft.com/library/a1f40370-7b61-42c2-afc4-0e13eba98859).  
+  The **Diagnostic Tools** window appears while you are debugging. For more information, see [Debugger-integrated profiling](/visualstudio/profiling/running-profiling-tools-with-or-without-the-debugger).  
   
   **Show elapsed time PerfTip while debugging**  
   The code window displays the elapsed time of a given method call when you are debugging.  

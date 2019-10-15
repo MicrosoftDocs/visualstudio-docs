@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramNode2::GetProgramName"
 ms.assetid: 510c7f5d-48ff-4d9f-ad79-fbad9f15239d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -35,8 +35,7 @@ int GetProgramName (
 
 ## Parameters
 `pbstrProgramName`\
-
- [out] Returns the name of the program.
+[out] Returns the name of the program.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

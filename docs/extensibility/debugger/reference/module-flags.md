@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "MODULE_FLAGS enumeration"
 ms.assetid: 0e555b42-b846-4dbb-812e-8e3d11c85b2d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

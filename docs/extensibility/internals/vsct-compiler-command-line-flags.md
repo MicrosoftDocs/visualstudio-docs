@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "VSCT files, compiling"
   - "command-table file compilation (VSCT files)"
 ms.assetid: 9dc6c33f-e6cf-4cf2-9b05-e8f7bfac1cfb
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

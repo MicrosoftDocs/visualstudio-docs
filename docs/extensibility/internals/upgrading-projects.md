@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "upgrading applications, strategies"
   - "VSPackages, upgrade support"
 ms.assetid: e01cb44a-8105-4cf4-8223-dfae65f8597a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

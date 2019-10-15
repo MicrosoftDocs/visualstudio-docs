@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "editors [Visual Studio SDK], new - getting the DTE object"
 ms.assetid: c1f40bab-c6ec-45b0-8333-ea5ceb02a39d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "PENDING_BP_STATE enumeration"
 ms.assetid: ac04ad72-fa92-4a15-ade2-0d0bbbadfc7f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

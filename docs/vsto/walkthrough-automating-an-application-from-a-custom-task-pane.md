@@ -76,12 +76,12 @@ ms.workload:
 
      The **MyUserControl.cs** or **MyUserControl.vb** file opens, and an event handler for the <xref:System.Windows.Forms.MonthCalendar.DateChanged> event is created.
 
-2. Add the following code to the top of the file. This code creates aliases for the <xref:Microsoft.Office.Core> and <xref:Microsoft.Office.Interop.PowerPoint> namespaces.
+2. Add the following code to the top of the file. This code creates aliases for the <xref:Microsoft.Office.Core> and [PowerPoint](/previous-versions/office/developer/office-2010/ff763170%28v%3doffice.14%29) namespaces.
 
      [!code-csharp[Trin_TaskPaneMonthCalendar#1](../vsto/codesnippet/CSharp/Trin_TaskPaneMonthCalendar/MyUserControl.cs#1)]
      [!code-vb[Trin_TaskPaneMonthCalendar#1](../vsto/codesnippet/VisualBasic/Trin_TaskPaneMonthCalendar/MyUserControl.vb#1)]
 
-3. Add the following code to the `MyUserControl` class. This code declares a <xref:Microsoft.Office.Interop.PowerPoint.Shape> object as a member of `MyUserControl`. In the following step, you will use this <xref:Microsoft.Office.Interop.PowerPoint.Shape> to add a text box to a slide in the active presentation.
+3. Add the following code to the `MyUserControl` class. This code declares a [Shape](/previous-versions/office/developer/office-2010/ff760244(v=office.14)) object as a member of `MyUserControl`. In the following step, you will use this [Shape](/previous-versions/office/developer/office-2010/ff760244(v=office.14)) to add a text box to a slide in the active presentation.
 
      [!code-csharp[Trin_TaskPaneMonthCalendar#2](../vsto/codesnippet/CSharp/Trin_TaskPaneMonthCalendar/MyUserControl.cs#2)]
      [!code-vb[Trin_TaskPaneMonthCalendar#2](../vsto/codesnippet/VisualBasic/Trin_TaskPaneMonthCalendar/MyUserControl.vb#2)]

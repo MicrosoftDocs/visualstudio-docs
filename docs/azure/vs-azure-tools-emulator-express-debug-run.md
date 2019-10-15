@@ -1,5 +1,5 @@
 ---
-title: Using Emulator Express to run and debug an Azure cloud service on a local machine | Microsoft Docs
+title: Emulator Express to run/debug Azure cloud service on local box
 description: Using Emulator Express to run and debug a cloud service on a local machine
 author: mikejo5000
 manager: jillfra

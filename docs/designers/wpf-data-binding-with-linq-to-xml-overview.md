@@ -15,7 +15,7 @@ This topic introduces the dynamic data binding features in the <xref:System.Xml.
 
 ## XAML and LINQ to XML
 
-The Extensible Application Markup Language (XAML) is an XML dialect created by Microsoft to support .NET Framework 3.0 technologies. It is used in WPF to represent user interface elements and related features, such as events and data binding. In Windows Workflow Foundation, XAML is used to represent program structure, such as program control (*workflows*). XAML enables the declarative aspects of a technology to be separated from the related procedural code that defines the more individualized behavior of a program.
+The Extensible Application Markup Language (XAML) is an XML dialect created by Microsoft to support .NET technologies. It is used in WPF to represent user interface elements and related features, such as events and data binding. In Windows Workflow Foundation, XAML is used to represent program structure, such as program control (*workflows*). XAML enables the declarative aspects of a technology to be separated from the related procedural code that defines the more individualized behavior of a program.
 
 There are two broad ways that XAML and LINQ to XML can interact:
 

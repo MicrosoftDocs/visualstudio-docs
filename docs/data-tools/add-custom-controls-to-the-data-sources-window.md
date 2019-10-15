@@ -15,18 +15,16 @@ ms.assetid: 8c43e7d2-ba94-4d9b-96de-3aa971955afd
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.workload:
-  - "data-storage"
 ---
 # Add custom controls to the Data Sources window
 
-When you drag an item from the **Data Sources** window to a design surface to create a data-bound control, you can select the type of control that you create. Each item in the window has a drop-down list that displays the controls that you can choose from. The set of controls associated with each item is determined by the data type of the item. If the control that you want to create does not appear in the list, you can follow the instructions in this topic to add the control to the list.
+When you drag an item from the Data Sources window to a design surface to create a data-bound control, you can select the type of control that you create. Each item in the window has a drop-down list that displays the controls that you can choose from. The set of controls associated with each item is determined by the data type of the item. If the control that you want to create does not appear in the list, you can follow the instructions in this topic to add the control to the list.
 
-For more information about selecting data-bound controls to create for items in the **Data Sources** window, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
+For more information about selecting data-bound controls to create for items in the Data Sources window, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
 
 ## Customize the bindable controls list
 
-To add or remove controls from the list of available controls for items in the **Data Sources** window that have a specific data type, perform the following steps.
+To add or remove controls from the list of available controls for items in the Data Sources window that have a specific data type, perform the following steps.
 
 ### To select the controls to be listed for a data type
 
@@ -35,11 +33,11 @@ To add or remove controls from the list of available controls for items in the *
 2. In the **Data Sources** window, click an item that is part of a data source you added to the window, and then click the drop-down menu for the item.
 
    > [!TIP]
-   > If the **Data Sources** window isn't open, open it by selecting **View** > **Other Windows** > **Data Sources**.
+   > If the Data Sources window isn't open, open it by selecting **View** > **Other Windows** > **Data Sources**.
 
 3. In the drop-down menu, click **Customize**. One of the following dialog boxes opens:
 
-    - If the **Windows Forms Designer** is open, the **Data UI Customization** page of the **Options** dialog box opens.
+    - If the **Windows Forms Designer** is open, the **Data UI Customization** page of the **Options** dialog box opens. For more information, see [Data UI Customization options dialog box](../ide/reference/options-windows-forms-designer-data-ui-customization.md).
 
     - If the **WPF Designer** is open, the **Customize Control Binding** dialog box opens.
 
@@ -66,11 +64,11 @@ To add or remove controls from the list of available controls for items in the *
 
 If you want to associate a control with a data type, but the control does not appear in the **Associated controls** box, you must add the control to the list. The control must be located in the current solution or in a referenced assembly. It must also be available in the **Toolbox** and have an attribute that specifies the control's data binding behavior.
 
-### To add controls to the list of associated controls
+To add controls to the list of associated controls:
 
 1. Add the desired control to the **Toolbox** by right-clicking the **Toolbox** and selecting **Choose Items**.
 
-     The control must have one of the following attributes.
+     The control must have one of the following attributes:
 
     |Attribute|Description|
     |---------------|-----------------|
@@ -83,8 +81,9 @@ If you want to associate a control with a data type, but the control does not ap
 3. In the **Associated controls** box, the control that you just added to the **Toolbox** should now appear.
 
     > [!NOTE]
-    > Only controls that are located within the current solution or in a referenced assembly can be added to the list of associated controls. (The controls must also implement one of the data-binding attributes in the previous table.) To bind data to a custom control that is not available in the **Data Sources** window, drag the control from the **Toolbox** onto the design surface, and then drag the item to bind to from the **Data Sources** window onto the control.
+    > Only controls that are located within the current solution or in a referenced assembly can be added to the list of associated controls. (The controls must also implement one of the data-binding attributes in the previous table.) To bind data to a custom control that is not available in the Data Sources window, drag the control from the **Toolbox** onto the design surface, and then drag the item to bind to from the **Data Sources** window onto the control.
 
 ## See also
 
 - [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)
+- [Data UI Customization options dialog box](../ide/reference/options-windows-forms-designer-data-ui-customization.md)

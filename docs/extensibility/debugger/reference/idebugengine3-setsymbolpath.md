@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEngine3::SetSymbolPath"
 ms.assetid: 47b48f84-8a96-401f-84df-0baa8a96d26e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -39,11 +39,14 @@ int SetSymbolPath(
 
 ## Parameters
 
-|Parameter|Description|
-|---------------|-----------------|
-|`szSymbolSearchPath`|[in] String containing the symbol search path or paths. See "Remarks" for details. Cannot be null.|
-|`szSymbolCachePath`|[in] String containing the local path where symbols can be cached. Cannot be null.|
-|`Flags`|[in] Not used; always set to 0.|
+`szSymbolSearchPath`\
+[in] String containing the symbol search path or paths. See "Remarks" for details. Cannot be null.
+
+`szSymbolCachePath`\
+[in] String containing the local path where symbols can be cached. Cannot be null.
+
+`Flags`\
+[in] Not used; always set to 0.
 
 ## Return Value
  If successful, returns S_OK; otherwise returns an error code.

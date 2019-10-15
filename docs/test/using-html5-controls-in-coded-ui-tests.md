@@ -14,7 +14,7 @@ Coded UI tests include support for some of the HTML5 controls that are included 
 
 [!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
 
- **Requirements**
+**Requirements**
 
 - Visual Studio Enterprise
 
@@ -41,17 +41,17 @@ Coded UI tests include support for some of the HTML5 controls that are included 
 
 See [HTMLAudioElement](https://developer.mozilla.org/docs/Web/API/HTMLAudioElement) for a list of properties on which you can add an assertion.
 
- **Search properties:** The search properties for `HtmlAudio` are `Id`, `Name` and `Title`.
+**Search properties:** The search properties for `HtmlAudio` are `Id`, `Name` and `Title`.
 
- **Filter properties:** The filter properties for `HtmlAudio` are `Src`, `Class`, `ControlDefinition` and `TagInstance`.
+**Filter properties:** The filter properties for `HtmlAudio` are `Src`, `Class`, `ControlDefinition` and `TagInstance`.
 
 > [!NOTE]
 > The amount of time for Seek and Pause can be significant. During playback, the coded UI test will wait until the specified time in `(TimeSpan)` before Pausing the audio. If by some special circumstance, the specified time has passed before hitting the Pause command, an exception will be thrown.
 
 ## Video Control
- **Video control:** Actions on the HTML5 Video control are correctly recorded and played back.
+**Video control:** Actions on the HTML5 Video control are correctly recorded and played back.
 
- ![HTML5 Video control](../test/media/codedui_html5_video.png)
+![HTML5 Video control](../test/media/codedui_html5_video.png)
 
 |Action|Recording|Generated Code|
 |-|---------------|-|
@@ -64,17 +64,17 @@ See [HTMLAudioElement](https://developer.mozilla.org/docs/Web/API/HTMLAudioEleme
 
 See [HTMLVideoElement](https://developer.mozilla.org/docs/Web/HTML/Element/video) for a list of properties on which you can add an assertion.
 
- **Search properties:** The search properties for `HtmlVideo` are `Id`, `Name` and `Title`.
+**Search properties:** The search properties for `HtmlVideo` are `Id`, `Name` and `Title`.
 
- **Filter properties:** The filter properties for `HtmlVideo` are `Src`, `Poster`, `Class`, `ControlDefinition` and `TagInstance`.
+**Filter properties:** The filter properties for `HtmlVideo` are `Src`, `Poster`, `Class`, `ControlDefinition` and `TagInstance`.
 
 > [!NOTE]
 > If you rewind or fast forward the video using -30s or +30s labels, this will be aggregated to seek to the appropriate time.
 
 ## ProgressBar
- **ProgressBar control:** The ProgressBar is a non-interactable control. You can add assertions on the `Value` and `Max` properties of this control. For more information, see [HTMLProgressElement](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress).
+**ProgressBar control:** The ProgressBar is a non-interactable control. You can add assertions on the `Value` and `Max` properties of this control. For more information, see [HTMLProgressElement](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress).
 
- ![HTML5 ProgressBar control](../test/media/codedui_html5_progressbar.png)
+![HTML5 ProgressBar control](../test/media/codedui_html5_progressbar.png)
 
 ## See also
 

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProcess2::GetServer"
 ms.assetid: 8f73c530-cceb-4f1f-8c63-1cc0ccd4a310
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetServer( 
 ```
 
 ## Parameters
- `ppServer`\
-
- [out] Returns an [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md) object that represents the server on which this process is running.
+`ppServer`\
+[out] Returns an [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md) object that represents the server on which this process is running.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

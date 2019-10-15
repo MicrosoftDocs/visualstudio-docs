@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "GUID_ARRAY structure"
 ms.assetid: 9e12500c-2c1c-49b1-a0ba-e08366c97eb8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

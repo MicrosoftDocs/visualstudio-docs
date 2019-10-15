@@ -56,7 +56,7 @@ The `PackageFiles` element contains `PackageFile` elements, which define the ins
 | `Hash` | Optional. An SHA1 hash of the package file. This is used to verify the integrity of the file at install time. If the identical hash cannot be computed from the package file, the package will not be installed. |
 
 ## Example
- The following code example defines packages for the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] redistributable package and its dependencies, such as the Windows Installer.
+ The following code example defines packages for the .NET Framework redistributable package and its dependencies, such as the Windows Installer.
 
 ```xml
 <PackageFiles>

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCoreServer3::GetConnectionProtocol"
 ms.assetid: 368ced5b-c5d9-4090-a5b4-26ff400d1a55
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetConnectionProtocol(
 ```
 
 ## Parameters
- `pProtocol`\
-
- [out] Returns one of the values from the [CONNECTION_PROTOCOL](../../../extensibility/debugger/reference/connection-protocol.md) enumeration.
+`pProtocol`\
+[out] Returns one of the values from the [CONNECTION_PROTOCOL](../../../extensibility/debugger/reference/connection-protocol.md) enumeration.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugDocumentChecksum2::GetChecksumAndAlgorithmI"
   - "GetChecksumAndAlgorithmI"
 ms.assetid: 25efef99-0ef3-4332-a752-607605fc6e67
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -40,20 +40,16 @@ public int GetChecksumAndAlgorithmId(
 
 ## Parameters
 `pRetVal`\
-
- [out] Unique identifier for the checksum algorithm.
+[out] Unique identifier for the checksum algorithm.
 
 `cMaxBytes`\
-
- [in] Maximum number of bytes to be used for the checksum.
+[in] Maximum number of bytes to be used for the checksum.
 
 `pChecksum`\
-
- [out] Value of the checksum.
+[out] Value of the checksum.
 
 `pcNumBytes`\
-
- [out] Actual number of bytes used for the checksum.
+[out] Actual number of bytes used for the checksum.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

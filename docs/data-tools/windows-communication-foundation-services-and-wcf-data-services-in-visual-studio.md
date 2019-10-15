@@ -50,7 +50,7 @@ WCF Data Services is an implementation of the Open Data (OData) Protocol standar
 
 ### WCF programming model
 
-The WCF programming model is based on communication between two entities: a WCF service and a WCF client. The programming model is encapsulated in the <xref:System.ServiceModel> namespace in the .NET Framework.
+The WCF programming model is based on communication between two entities: a WCF service and a WCF client. The programming model is encapsulated in the <xref:System.ServiceModel> namespace in .NET.
 
 ### WCF Service
 
@@ -222,7 +222,7 @@ You can bind data returned by a Windows Communication Foundation (WCF) service t
 
 ## How to: Configure a service to reuse existing types
 
-When a service reference is added to a project, any types defined in the service are generated in the local project. In many cases, this creates duplicate types when a service uses common .NET Framework types or when types are defined in a shared library.
+When a service reference is added to a project, any types defined in the service are generated in the local project. In many cases, this creates duplicate types when a service uses common .NET types or when types are defined in a shared library.
 
 To avoid this problem, types in referenced assemblies are shared by default. If you want to disable type sharing for one or more assemblies, you can do so in the **Configure Service References** dialog box.
 

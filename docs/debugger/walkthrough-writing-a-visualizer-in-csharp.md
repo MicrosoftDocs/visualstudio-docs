@@ -196,7 +196,8 @@ Follow the tasks below to create a visualizer.
 
 2. Edit the name from Program.cs to something more meaningful, such as TestConsole.cs.
 
-    **Note** [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically changes the class declaration in TestConsole.cs to match the new file name.
+    > [!NOTE]
+    > [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically changes the class declaration in TestConsole.cs to match the new file name.
 
 3. In TestConsole.cs, add the following code to the `using` statements:
 

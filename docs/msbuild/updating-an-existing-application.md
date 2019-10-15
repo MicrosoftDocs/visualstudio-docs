@@ -59,21 +59,23 @@ If you can't use NuGet packages, you can reference MSBuild assemblies that are d
 
 #### Binding redirects
 
-Reference the Microsoft.Build.Locator package to ensure that your application automatically uses the required binding redirects of all versions of MSBuild assemblies to version `15.1.0.0`.
+Reference the Microsoft.Build.Locator package to ensure that your application automatically uses the required binding redirects to version 15.1.0.0. Binding redirects to this version support both MSBuild 15 and MSBuild 16.
 
 ### Ensure output is clean
 
 Build your project and inspect the output directory to make sure that it doesn't contain any *Microsoft.Build.\*.dll* assemblies other than *Microsoft.Build.Locator.dll*, added in the next step.
 
-### Add package reference
+### Add package reference for Microsoft.Build.Locator
 
-Add a NuGet package reference to [Microsoft.Build.Locator](https://www.nuget.org/packages/Microsoft.Build.Locator/).
+Add a NuGet package reference for [Microsoft.Build.Locator](https://www.nuget.org/packages/Microsoft.Build.Locator/).
 
 ```xml
     <PackageReference Include="Microsoft.Build.Locator">
       <Version>1.1.2</Version>
     </PackageReference>
 ```
+
+Do not specify `ExcludeAssets=runtime` for the Microsoft.Build.Locator package.
 
 ### Register instance before calling MSBuild
 

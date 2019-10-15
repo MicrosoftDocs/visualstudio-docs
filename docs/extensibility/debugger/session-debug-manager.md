@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "session debug manager, debug engine multiplexing"
   - "session debug manager, delegating"
 ms.assetid: fbb1928d-dddc-43d1-98a4-e23b0ecbae09
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

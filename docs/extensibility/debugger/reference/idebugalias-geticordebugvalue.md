@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugAlias::GetICorDebugValue method"
 ms.assetid: b9eb39ee-84af-4ace-9cfe-236b3d48aff5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -41,7 +41,7 @@ int GetICorDebugValue(
  If successful, returns S_OK; otherwise, returns an error code.
 
 ## Remarks
- This method applies only to managed values (the `ICorDebugValue` is an interface available in the [!INCLUDE[dnprdnshort](../../../code-quality/includes/dnprdnshort_md.md)] and is defined in the [!INCLUDE[dnprdnshort](../../../code-quality/includes/dnprdnshort_md.md)] SDK in the cordebug.idl file).
+ This method applies only to managed values (the `ICorDebugValue` is an interface available in the .NET Framework and is defined in the .NET Framework SDK in the cordebug.idl file).
 
 ## See also
 - [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)

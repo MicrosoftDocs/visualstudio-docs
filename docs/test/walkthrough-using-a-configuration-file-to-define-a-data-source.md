@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Using a Configuration File to Define a Data Source"
+title: "Use config file to define data source"
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -65,7 +65,7 @@ The **section** element should look similar to this:
 ```
 
 > [!NOTE]
-> The assembly name must match the Microsoft Visual Studio .NET Framework build that you are using.
+> The assembly name must match the version that you are using.
 
 ## Define connection strings
 

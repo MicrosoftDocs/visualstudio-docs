@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_REQUEST_INFO structure"
 ms.assetid: 42a31412-5b6b-47fe-a762-0c2bc769e1cc
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

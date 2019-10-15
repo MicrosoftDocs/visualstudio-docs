@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|AvoidExcessiveClassCoupling|
 |CheckId|CA1506|
 |Category|Microsoft.Maintainability|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

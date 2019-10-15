@@ -26,28 +26,28 @@ The load pattern is a component of a scenario. The scenarios, together with thei
 
 ### Constant
 
- The constant load pattern is used to specify a user load that does not change during the load test. For example, when you run a smoke test on a web application, you might want to set a light, constant load of 10 users.
+The constant load pattern is used to specify a user load that does not change during the load test. For example, when you run a smoke test on a web application, you might want to set a light, constant load of 10 users.
 
 #### Constant load pattern considerations
 
- A constant load pattern is used to run the same user load during the run of a load test. Be careful about using a constant load pattern that has a high user count; doing so may place an unreasonable and unrealistic demand on your server or servers at the beginning of the load test. For example, if your load test contains a web test that starts with a request to a home page, and you set up the load test with a constant load of 1,000 users, the load test will submit the first 1,000 requests to the home page as fast as possible. This may not be a realistic simulation of real-world access to your website. To mitigate this, consider using a step load pattern that increases gradually to 1,000 users, or specify a warm-up period in the Load Test Run Settings. If a warm-up period is specified, the load test will automatically increase the load gradually during the warm-up period. For more information, see [Configure scenario start delays](../test/configure-scenario-start-delays.md).
+A constant load pattern is used to run the same user load during the run of a load test. Be careful about using a constant load pattern that has a high user count; doing so may place an unreasonable and unrealistic demand on your server or servers at the beginning of the load test. For example, if your load test contains a web test that starts with a request to a home page, and you set up the load test with a constant load of 1,000 users, the load test will submit the first 1,000 requests to the home page as fast as possible. This may not be a realistic simulation of real-world access to your website. To mitigate this, consider using a step load pattern that increases gradually to 1,000 users, or specify a warm-up period in the Load Test Run Settings. If a warm-up period is specified, the load test will automatically increase the load gradually during the warm-up period. For more information, see [Configure scenario start delays](../test/configure-scenario-start-delays.md).
 
 ### Step
 
- The step load pattern is used to specify a user load that increases with time up to a defined maximum user load. For stepping loads, you specify the **Initial User Count**, **Maximum User Count**, **Step Duration (seconds)**, and **Step User Count**.
+The step load pattern is used to specify a user load that increases with time up to a defined maximum user load. For stepping loads, you specify the **Initial User Count**, **Maximum User Count**, **Step Duration (seconds)**, and **Step User Count**.
 
- For example a Step load with an **Initial User Count** of one, **Maximum User Count** of 100, **Step Duration (seconds)** of 10, and a **Step User Count** of 1 creates a user load pattern that starts at 1, increases by 1 every 10 seconds until it reaches 100 Users.
+For example a Step load with an **Initial User Count** of one, **Maximum User Count** of 100, **Step Duration (seconds)** of 10, and a **Step User Count** of 1 creates a user load pattern that starts at 1, increases by 1 every 10 seconds until it reaches 100 Users.
 
 > [!NOTE]
 > If the total test duration is shorter than the time that is required to step up to the maximum user load, then the test stops after the elapsed duration and does not reach the **Maximum User Count** target.
 
- You can use the Step goal to increase the load until the server reaches a point that where performance diminishes significantly. As load increases, the server will eventually run out of resources. The step load is a good way to determine the number of users at which this occurs. With the stepping load, you also have to monitor agent resources closely to make sure that the agents can generate the desired load.
+You can use the Step goal to increase the load until the server reaches a point that where performance diminishes significantly. As load increases, the server will eventually run out of resources. The step load is a good way to determine the number of users at which this occurs. With the stepping load, you also have to monitor agent resources closely to make sure that the agents can generate the desired load.
 
- Ordinarily, you should conduct several runs that have different step durations and step user counts so that you can obtain good measurements for a given load. Frequently, loads show an initial spike for each step as users are added. Holding the load at that rate allows you to measure system performance after the system recovers from the initial spike.
+Ordinarily, you should conduct several runs that have different step durations and step user counts so that you can obtain good measurements for a given load. Frequently, loads show an initial spike for each step as users are added. Holding the load at that rate allows you to measure system performance after the system recovers from the initial spike.
 
 #### Step load pattern considerations
 
- A step load pattern can be used to increase the load on the server or servers as the load test runs so that you can see how performance varies as the user load increases. For example, to see how your server or servers perform as the user load increases to 2,000 users, you might run a 10-hour load test by using a step load pattern that has the following properties:
+A step load pattern can be used to increase the load on the server or servers as the load test runs so that you can see how performance varies as the user load increases. For example, to see how your server or servers perform as the user load increases to 2,000 users, you might run a 10-hour load test by using a step load pattern that has the following properties:
 
 - **Initial User Count**: 100
 
@@ -63,7 +63,7 @@ The load pattern is a component of a scenario. The scenarios, together with thei
 
 ### Goal-based
 
- A goal-based load pattern resembles the step pattern but adjusts the user load based on performance counter thresholds versus periodic user load adjustments. Goal based loads are useful for a variety of different purposes:
+A goal-based load pattern resembles the step pattern but adjusts the user load based on performance counter thresholds versus periodic user load adjustments. Goal based loads are useful for a variety of different purposes:
 
 - Maximizing output from the agents: measure the key limiting metric on the agent to maximize the output of the agents. Typically, it is CPU; However, it could also be memory.
 
@@ -87,17 +87,17 @@ The load pattern is a component of a scenario. The scenarios, together with thei
 |User Count Limits|Maximum User Count Increment|5|
 |User Count Limits|Minimum User Count|1|
 
- Those settings cause the **Load Test Analyzer** to adjust the user load between 1 and 100 during a test run in such a way that the **Counter** for `% Processor Time` of the WebServer01 hovers between `70%` and `90%.`
+Those settings cause the **Load Test Analyzer** to adjust the user load between 1 and 100 during a test run in such a way that the **Counter** for `% Processor Time` of the WebServer01 hovers between `70%` and `90%.`
 
- The size of the each user load adjustment is determined by **Maximum User Count Increment** and **Maximum User Count Decrement** settings. The user count limits are set by the **Maximum User Count** and **Minimum User Count** properties.
+The size of the each user load adjustment is determined by **Maximum User Count Increment** and **Maximum User Count Decrement** settings. The user count limits are set by the **Maximum User Count** and **Minimum User Count** properties.
 
 #### Goal-based load pattern considerations
 
- A goal-based load pattern is useful when you want to determine the number of users that your system can support before it reaches some level of resource utilization. This option works best when you have already identified the limiting resource (that is, the bottleneck) in your system.
+A goal-based load pattern is useful when you want to determine the number of users that your system can support before it reaches some level of resource utilization. This option works best when you have already identified the limiting resource (that is, the bottleneck) in your system.
 
- For example, suppose you know that the limiting resource in your system is the CPU on your database server, and you want to see how many users can be supported when the CPU on the database server is approximately 75 percent busy. You could use a goal-based load pattern that has the goal of keeping the value of the performance counter "%Processor Time" between 70 percent and 80 percent.
+For example, suppose you know that the limiting resource in your system is the CPU on your database server, and you want to see how many users can be supported when the CPU on the database server is approximately 75 percent busy. You could use a goal-based load pattern that has the goal of keeping the value of the performance counter "%Processor Time" between 70 percent and 80 percent.
 
- One thing to watch out for is if some other resource is limiting the throughput of the system. Such resources can cause the goal that is specified by the goal-based load pattern to never be reached. Also, the user load will continue to rise until the value that is specified for the **Maximum User Count** is reached. This is usually not the desired load, so be careful about the choice of the performance counter in the goal-based load pattern.
+One thing to watch out for is if some other resource is limiting the throughput of the system. Such resources can cause the goal that is specified by the goal-based load pattern to never be reached. Also, the user load will continue to rise until the value that is specified for the **Maximum User Count** is reached. This is usually not the desired load, so be careful about the choice of the performance counter in the goal-based load pattern.
 
 ## Tasks
 
@@ -110,12 +110,12 @@ The load pattern is a component of a scenario. The scenarios, together with thei
 
 ## Change the load pattern
 
- After you create your load test with the **New Load Test Wizard**, you can use the **Load Test Editor** to change the load pattern properties associated with a scenario to levels that meet your test goals.
+After you create your load test with the **New Load Test Wizard**, you can use the **Load Test Editor** to change the load pattern properties associated with a scenario to levels that meet your test goals.
 
 > [!NOTE]
 > For a full list of the load test scenario properties and their descriptions, see [Load test scenario properties](../test/load-test-scenario-properties.md).
 
- A load pattern specifies the number of virtual users active during a load test, and the rate at which new users are added. You can choose from the three available patterns: step pattern, constant and goal based. For more information, see [Specify the number of virtual users with load patterns in a load test scenario](../test/edit-load-patterns-to-model-virtual-user-activities.md).
+A load pattern specifies the number of virtual users active during a load test, and the rate at which new users are added. You can choose from the three available patterns: step pattern, constant and goal based. For more information, see [Specify the number of virtual users with load patterns in a load test scenario](../test/edit-load-patterns-to-model-virtual-user-activities.md).
 
 > [!NOTE]
 > You can also change your load properties programmatically by using a load test plug-in. For more information, see [How to: Create a load test plug-in](../test/how-to-create-a-load-test-plug-in.md).

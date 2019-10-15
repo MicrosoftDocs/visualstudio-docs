@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a Shortcut Menu Item to a Custom SharePoint Project Item Type | Microsoft Docs"
+title: "Add shortcut menu item to custom SharePoint project item type"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

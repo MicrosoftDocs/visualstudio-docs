@@ -10,7 +10,7 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ---
-# How to: Create a Visual Studio add-in for the Web Performance Test Results Viewer
+# How to: Create an add-in for the Web Performance Test Results Viewer
 
 You can extend the UI for the **Web Performance Test Results Viewer** by using the following namespaces:
 
@@ -37,9 +37,9 @@ Either create or open a non-production solution that you can experiment with whi
 
 An add-in is a compiled DLL that runs in the Visual Studio integrated development environment (IDE). Compilation helps protect your intellectual property and improves performance. Although you can create add-ins manually, you may find it easier to use the **Add-In Wizard**. This wizard creates a functional but basic add-in that you can run immediately after you create it. After the **Add-In Wizard** generates the basic program, you can add code to it and customize it.
 
- The **Add-In Wizard** lets you supply a display name and description for your add-in. Both will appear in **Add-In Manager**. Optionally, you can have the wizard generate code that adds to the **Tools** menu a command to open the add-in. You can also choose to display a custom **About** dialog box for your add-in. When the wizard is finished, you have a new project that has just one class  that implements the add-in. That class is named Connect.
+The **Add-In Wizard** lets you supply a display name and description for your add-in. Both will appear in **Add-In Manager**. Optionally, you can have the wizard generate code that adds to the **Tools** menu a command to open the add-in. You can also choose to display a custom **About** dialog box for your add-in. When the wizard is finished, you have a new project that has just one class  that implements the add-in. That class is named Connect.
 
- You will use the **Add-In Manager** at the end of this article.
+You will use the **Add-In Manager** at the end of this article.
 
 ### To create an add-in by using the Add-In Wizard
 
@@ -250,9 +250,9 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
 1. In **Solution Explorer**, right-click the WebPerfTestResultsViewerControl project node and select **Properties**.
 
-2. Select the **Application** tab and then choose the **Target framework** drop-down list and select **.NET Framework 4** and close the **Properties**.
+2. Select the **Application** tab and then choose the **Target framework** drop-down list and select **.NET Framework 4** (or later). Close the **Properties** window.
 
-     This is required in order to support the DLL references that are needed for extending the **Web Performance Test Results Viewer**.
+   This is required in order to support the DLL references that are needed for extending the **Web Performance Test Results Viewer**.
 
 3. In **Solution Explorer**, in the WebPerfTestResultsViewerControl project, right-click the **References** node and select **Add Reference**.
 
@@ -294,15 +294,11 @@ The Visual Studio add-in created in the previous procedure references a Windows 
             }
     ```
 
-## Build the WebPerfTestResultsViewerAddin solution
-
-### To build the solution
+## Build the solution
 
 - On the **Build** menu, select **Build Solution**.
 
 ## Register the WebPerfTestResultsViewerAddin add-in
-
-### To register the add-in using the Add-in Manager
 
 1. On the **Tools** menu, select **Add-in Manager**.
 
@@ -312,23 +308,21 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
 4. Choose **OK**.
 
-## Run the web performance test using the Build the WebPerfTestResultsViewerAddin add-in
-
-### To run the new VS add-in for the Web Test Results Viewer
+## Run the web performance test using the Web Test Results Viewer
 
 1. Run your web performance test and you will see the WebPerfTestResultsViewerAddin add-in's new tab titled Sample displayed in the **Web Performance Test Results Viewer**.
 
 2. Choose the tab to see the properties presented in the DataGridView.
 
-## .NET Framework Security
+## .NET security
 
 To improve security by preventing malicious add-ins from automatically activating, Visual Studio provides settings in a **Tools Options** page named **Add-in/Macros Security**.
 
 In addition, this options page allows you to specify the folders in which Visual Studio searches for *.AddIn* registration files. This improves security by allowing you to limit the locations where *.AddIn* registration files can be read. This  helps prevent malicious *.AddIn* files from unintentionally being used.
 
- **Add-In Security Settings**
+**Add-In Security Settings**
 
- The settings in the options page for add-in security are as follows:
+The settings in the options page for add-in security are as follows:
 
 - **Allow Add-in components to load.** Selected by default. When selected, add-ins are allowed to load in Visual Studio. When not selected, add-ins are prohibited from loading in Visual Studio.
 

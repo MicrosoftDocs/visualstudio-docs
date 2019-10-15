@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "builds [Visual Studio], common directory"
   - "common directory"
 ms.assetid: 1fcc2c48-07cb-4c4f-9556-36945e7dfc4e
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

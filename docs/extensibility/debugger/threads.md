@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], threads"
   - "threading [Debugging SDK]"
 ms.assetid: 2243d24a-c3d2-41d1-abbb-6db21a2db9ee
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

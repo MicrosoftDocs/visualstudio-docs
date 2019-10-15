@@ -1,5 +1,5 @@
 ---
-title: "How to: Get an Overview of a Schema Set Using the Graph View in XML Schema Designer"
+title: "XML Schema Designer: Get schema set overview using Graph View"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: c0df4b0d-52ef-4a6c-9676-1d8311aad7c7

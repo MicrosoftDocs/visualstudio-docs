@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgram2::GetProcess"
 ms.assetid: 1d602485-ebaf-451c-9165-f2e226f20a90
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetProcess(
 ```
 
 ## Parameters
- `ppProcess`\
-
- [out] Returns the [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) interface that represents the process.
+`ppProcess`\
+[out] Returns the [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) interface that represents the process.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

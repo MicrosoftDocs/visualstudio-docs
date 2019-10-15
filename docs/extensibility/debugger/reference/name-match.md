@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "NAME_MATCH enumeration"
 ms.assetid: 3842c417-a3c9-4259-a05f-52b64b829ef6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

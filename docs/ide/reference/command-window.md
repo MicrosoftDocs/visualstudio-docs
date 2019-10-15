@@ -21,22 +21,22 @@ ms.workload:
 The **Command** window is used to execute commands or aliases directly in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). You can execute both menu commands and commands that do not appear on any menu. To display the **Command** window, choose **Other Windows** from the **View** menu, and select **Command Window**.
 
 ## Displaying the Values of Variables
- To check the value of a variable `varA`, use the [Print Command](../../ide/reference/print-command.md):
+To check the value of a variable `varA`, use the [Print Command](../../ide/reference/print-command.md):
 
 ```cmd
 >Debug.Print varA
 ```
 
- The question mark (?) is an alias for `Debug.Print`, so this command can also be written:
+The question mark (?) is an alias for `Debug.Print`, so this command can also be written:
 
 ```cmd
 >? varA
 ```
 
- Both versions of this command will return the value of the variable `varA`.
+Both versions of this command will return the value of the variable `varA`.
 
 ## Entering Commands
- The greater than symbol (`>`) appears at the left edge of the Command window as a prompt for new lines. Use the UP ARROW and DOWN ARROW keys to scroll through previously issued commands.
+The greater than symbol (`>`) appears at the left edge of the Command window as a prompt for new lines. Use the UP ARROW and DOWN ARROW keys to scroll through previously issued commands.
 
 |Task|Solution|Example|
 |----------|--------------|-------------|
@@ -44,7 +44,7 @@ The **Command** window is used to execute commands or aliases directly in the [!
 |Switch to an Immediate window.|Enter `immed` into the window without the greater than sign (>)|`immed`|
 |Switch back to the Command window from an Immediate window.|Enter `cmd` into the window.|`>cmd`|
 
- The following shortcuts help you navigate while in Command mode.
+The following shortcuts help you navigate while in Command mode.
 
 |Action|Cursor location|Keybinding|
 |------------| - |----------------|
@@ -56,23 +56,23 @@ The **Command** window is used to execute commands or aliases directly in the [!
 > You can copy all or part of a previous command to the input line by scrolling to it, highlighting all or part of it, and then pressing ENTER.
 
 ## Mark Mode
- When you click on any previous line in the **Command** window, you shift automatically into Mark mode. This allows you to select, edit, and copy the text of previous commands as you would in any text editor, and paste them into the current line.
+When you click on any previous line in the **Command** window, you shift automatically into Mark mode. This allows you to select, edit, and copy the text of previous commands as you would in any text editor, and paste them into the current line.
 
 ## The Equals (=) Sign
- The window used to enter the `EvaluateStatement` command determines whether an equals sign (=) is interpreted as a comparison operator or as an assignment operator.
+The window used to enter the `EvaluateStatement` command determines whether an equals sign (=) is interpreted as a comparison operator or as an assignment operator.
 
- In the **Command** window, an equals sign (=) is interpreted as a comparison operator. You cannot use assignment operators in the **Command** window. So, for example, if the values of variables `varA` and `varB` are different, then the command `>Debug.EvaluateStatement(varA=varB)` will return a value of `False`.
+In the **Command** window, an equals sign (=) is interpreted as a comparison operator. You cannot use assignment operators in the **Command** window. So, for example, if the values of variables `varA` and `varB` are different, then the command `>Debug.EvaluateStatement(varA=varB)` will return a value of `False`.
 
- In the **Immediate** window, by contrast, an equals sign (=) is interpreted as an assignment operator. So, for example, the command `>Debug.EvaluateStatement(varA=varB)` will assign to variable `varA` the value of variable `varB`.
+In the **Immediate** window, by contrast, an equals sign (=) is interpreted as an assignment operator. So, for example, the command `>Debug.EvaluateStatement(varA=varB)` will assign to variable `varA` the value of variable `varB`.
 
 ## Parameters, Switches, and Values
- Some [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] commands have required and optional arguments, switches and values. Certain rules apply when dealing with such commands. The following is an example of a rich command to clarify the terminology.
+Some [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] commands have required and optional arguments, switches and values. Certain rules apply when dealing with such commands. The following is an example of a rich command to clarify the terminology.
 
 ```cmd
 Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar
 ```
 
- In this example,
+In this example,
 
 - `Edit.ReplaceInFiles` is the command
 
@@ -92,16 +92,16 @@ Nearly every switch supported by a command has two forms: a short (one character
 If short-form switches are combined into a group and given a value, that value applies to every switch. For example, `/pgm:123` equates to `/p:123 /g:123 /m:123`. An error occurs if any of the switches in the group does not accept a value.
 
 ## Escape Characters
- A caret (^) character in a command line means that the character immediately following it is interpreted literally, rather than as a control character. This can be used to embed straight quotation marks ("), spaces, leading slashes, carets, or any other literal characters in a parameter or switch value, with the exception of switch names. For example,
+A caret (^) character in a command line means that the character immediately following it is interpreted literally, rather than as a control character. This can be used to embed straight quotation marks ("), spaces, leading slashes, carets, or any other literal characters in a parameter or switch value, with the exception of switch names. For example,
 
 ```cmd
 >Edit.Find ^^t /regex
 ```
 
- A caret functions the same whether it is inside or outside quotation marks. If a caret is the last character on the line, it is ignored. The example shown here demonstrates how to search for the pattern "^t".
+A caret functions the same whether it is inside or outside quotation marks. If a caret is the last character on the line, it is ignored. The example shown here demonstrates how to search for the pattern "^t".
 
 ## Use Quotes for Path Names with Spaces
- If, for example, you want to open a file that has a path containing spaces, you must put double quotes around the path or path segment that contains spaces: **C:\\"Program Files"** or **"C:\Program Files"**.
+If, for example, you want to open a file that has a path containing spaces, you must put double quotes around the path or path segment that contains spaces: **C:\\"Program Files"** or **"C:\Program Files"**.
 
 ## See Also
 

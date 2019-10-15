@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_ERROR_RESOLUTION_INFO structure"
 ms.assetid: a6b83242-5728-4716-80f3-840c96d59c6c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

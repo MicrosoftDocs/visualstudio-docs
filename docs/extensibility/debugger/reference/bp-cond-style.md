@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_COND_STYLE enumeration"
 ms.assetid: a93b1412-f447-48a1-af9d-38f3dbb3092f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

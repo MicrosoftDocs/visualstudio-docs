@@ -13,7 +13,10 @@ ms.workload:
 
 Entity Framework is an object-relational mapping technology that enables .NET developers to work with relational data by using domain-specific objects. It eliminates the need for most of the data-access code that developers usually need to write. Entity Framework is the recommended object-relational mapping (ORM) modeling technology for new .NET applications.
 
-Entity Framework Tools are designed to help you build Entity Framework (EF) applications. The complete documentation for Entity Framework is here: [EF Core and EF 6](/ef/).
+Entity Framework Tools are designed to help you build Entity Framework (EF) applications. The complete documentation for Entity Framework is here: [Overview - EF 6](/ef/ef6/).
+
+  > [!NOTE]
+  > The Entity Framework Tools described on this page are used to generate *.edmx* files, which are not supported in EF Core. To generate an EF Core model from an existing database, see [Reverse Engineering - EF Core](/ef/core/managing-schemas/scaffolding). For more information on the differences between EF 6 and EF Core, see [Compare EF 6 and EF Core](/ef/efcore-and-ef6/).
 
 With Entity Framework Tools, you can create a *conceptual model* from an existing database and then graphically visualize and edit your conceptual model. Or, you can graphically create a conceptual model first, and then generate a database that supports your model. In either case, you can automatically update your model when the underlying database changes and automatically generate object-layer code for your application. Database generation and object-layer code generation are customizable.
 

@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "Add New Project dialog box"
   - "registry, Add New Project dialog box"
 ms.assetid: 6b909f93-d7f5-4aec-81c6-ee9ff0f31638
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

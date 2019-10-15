@@ -1,7 +1,7 @@
 ---
 title: "Step 1: Create a project and add labels to your form"
-ms.date: 11/04/2016
-ms.topic: conceptual
+ms.date: 05/31/2019
+ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.assetid: f44e50be-a5f5-4d77-9cff-dd52374c3f74
@@ -16,19 +16,24 @@ ms.workload:
 As the first steps in developing this quiz, you create the project, and you add labels, a button, and other controls to a form. You also set properties for each control that you add. The project will contain the form, the controls, and (later in the tutorial) code. The button starts the quiz, the labels show the quiz problems, and the other controls show the quiz answers and the time that remains to finish the quiz.
 
 > [!NOTE]
-> This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
+> This topic is part of a tutorial series about basic coding concepts. 
+> - For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md). 
+> - To download a completed version of the code, see [Complete math quiz tutorial sample](https://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).
 
-## To create a project and set properties for a form
+## To create a project for a form
 
 ::: moniker range="vs-2017"
 
 1. On the menu bar, choose **File** > **New** > **Project**.
 
-1. In the **Installed Templates** list, choose either **C#** or **Visual Basic**.
+1. Choose either **Visual C#** or **Visual Basic** on the left side of the **New Project** dialog box, and then choose **Windows Desktop**.
 
-1. In the list of templates, choose the **Windows Forms Application** template, name it **MathQuiz**, and then choose the **OK** button.
+1. In the list of templates, choose the **Windows Forms App (.NET Framework)** template, name it *MathQuiz*, and then choose the **OK** button.
 
-     A form that's named *Form1.cs* or *Form1.vb* appears, depending on the programming language that you chose.
+    A form that's named *Form1.cs* or *Form1.vb* appears, depending on the programming language that you chose.
+
+   > [!NOTE]
+   > If you don't see the **Windows Forms App (.NET Framework)** template, use the Visual Studio Installer to install the **.NET desktop development** workload.<br/><br/>![.NET desktop development workload in the Visual Studio Installer](../ide/media/dot-net-desktop-dev-workload.png)<br/><br/> For more information, see the [Install Visual Studio](../install/install-visual-studio.md) page.
 
 ::: moniker-end
 
@@ -36,15 +41,32 @@ As the first steps in developing this quiz, you create the project, and you add 
 
 1. On the start window, choose **Create a new project**.
 
-1. In the search box, type "WPF", choose **WPF App (.NET Framework)**, and then choose **Next**.
+   ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-   (If you don't see the **WPF App (.NET Framework)** template, use the Visual Studio Installer to install the **.NET desktop development** workload.)
+1. On the **Create a new project** window, enter or type *Windows Forms* in the search box.
 
-1. Give the project a name, **MathQuiz**, and choose **Create**
+1. Choose the **Windows Forms App (.NET Framework)** template, and then choose **Next**.
+
+   ![Choose the Visual Basic template for the Windows Forms App (.NET Framework)](../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png)
+
+   > [!NOTE]
+   > If you do not see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   >
+   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png)
+   >
+   > Next, in the Visual Studio Installer, choose the Choose the **.NET desktop development** workload.
+   >
+   > ![.NET Core workload in the Visual Studio Installer](../ide/media/install-dot-net-desktop-env.png)
+   >
+   > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload.
+
+1. In the **Configure your new project** window, type or enter *MathQuiz* in the **Project name** box. Then, choose **Create**.
 
 ::: moniker-end
 
-1. Choose the form, and then change its **Text** property to **Math Quiz**.
+## To set properties for a form
+
+1. In Visual Studio, choose the form (either *Form1.cs* or *Form1.vb*, depending on the programming language), and then change its **Text** property to **Math Quiz**.
 
      The **Properties** window contains properties for the form.
 
@@ -76,7 +98,7 @@ As the first steps in developing this quiz, you create the project, and you add 
 
 7. Choose the plus sign (**+**) next to the **Font** property, and then change the value of the **Size** property to **15.75**.
 
-     You can change several font properties, as the following picture shows.
+     You can change several font properties, as the following screenshot shows.
 
      ![Properties window showing font size](../ide/media/express_setfontsize.png)
 
@@ -124,7 +146,7 @@ As the first steps in developing this quiz, you create the project, and you add 
 
 16. Change the value of the **(Name)** property for the NumericUpDown control to **sum**.
 
-     You've created the first row, as the following picture shows.
+     You've created the first row, as shown in the following illustration.
 
      ![First row of math quiz](../ide/media/express_firstrow.png)
 
@@ -174,7 +196,7 @@ As the first steps in developing this quiz, you create the project, and you add 
 
 7. Set the value of the **TabIndex** property for the NumericUpDown sum control to **2**, for the difference control to **3**, for the product control to **4**, and for the quotient control to **5**.
 
-     The form should look like the following illustration.
+     The form should look similar to the following screenshot.
 
      ![Initial math quiz form](../ide/media/express_formlaidout.png)
 
@@ -182,6 +204,6 @@ As the first steps in developing this quiz, you create the project, and you add 
 
 ## To continue or review
 
-- To go to the next tutorial step, see [Step 2: Create a random addition problem](../ide/step-2-create-a-random-addition-problem.md).
+- To go to the next tutorial step, see **[Step 2: Create a random addition problem](../ide/step-2-create-a-random-addition-problem.md)**.
 
 - To return to the overview topic, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).

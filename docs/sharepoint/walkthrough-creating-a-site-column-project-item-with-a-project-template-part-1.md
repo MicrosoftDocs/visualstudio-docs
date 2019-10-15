@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Site Column Project Item with a Project Template, Part 1 | Microsoft Docs"
+title: "Create site column project item with project template, part 1"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

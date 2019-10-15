@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "dbgmetric.h"
   - "metrics [Debugging SDK]"
 ms.assetid: 80a52e93-4a04-4ab2-8adc-a7847c2dc20b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

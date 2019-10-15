@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "Symbols element (VSCT XML schema)"
   - "VSCT XML schema elements, Symbols"
 ms.assetid: 1cda43d8-42a5-4b1b-a3c8-cf0401c3202f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

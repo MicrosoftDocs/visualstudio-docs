@@ -150,7 +150,7 @@ Create your first app in Visual Studio.
         </a>
     </li>
     <li>
-        <a href="/visualstudio/ide/getting-started-with-cpp-in-visual-studio">
+        <a href="/cpp/get-started/tutorial-console-cpp">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

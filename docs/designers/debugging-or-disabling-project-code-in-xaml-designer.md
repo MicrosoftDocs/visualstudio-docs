@@ -6,12 +6,10 @@ ms.assetid: ac600581-8fc8-49e3-abdf-1569a3483d74
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.workload:
-  - "uwp"
 ---
 # Debug or disable project code in XAML Designer
 
-In many cases, unhandled exceptions in the **XAML** designer can be caused by project code attempting to access properties or methods that return different values, or work in a different way when your application runs in the designer. You can resolve these exceptions by debugging the project code in another instance of Visual Studio, or temporarily prevent exceptions by disabling project code in the designer.
+In many cases, unhandled exceptions in the XAML Designer can be caused by project code attempting to access properties or methods that return different values or work in a different way when your application runs in the designer. You can resolve these exceptions by debugging the project code in another instance of Visual Studio, or temporarily prevent exceptions by disabling project code in the designer.
 
 Project code includes:
 
@@ -43,7 +41,7 @@ When project code is disabled, Visual Studio shows placeholders. For example, Vi
 
      ![XAML designer instances in TaskManager](../designers/media/xaml_taskmanager.png)
 
-3. In Visual Studio, open the XAML page which contains the code or control you want to debug.
+3. In Visual Studio, open the XAML page that contains the code or control you want to debug.
 
 4. Open a new instance of Visual Studio, and then open a second instance of your project.
 

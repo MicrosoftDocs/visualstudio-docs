@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "delay loading"
   - "VSPackages, loading"
 ms.assetid: 386e0ce5-4107-4164-b0cd-1cf43eb5e7cf
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

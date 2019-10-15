@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "selection, tracking"
   - "selection, context objects"
 ms.assetid: 7308ea8f-a42c-47e5-954e-7dee933dce7a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

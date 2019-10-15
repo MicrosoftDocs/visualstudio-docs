@@ -27,4 +27,4 @@ The **Suppress results from generated code** check box on the code analysis prop
 3. Select the **Suppress results from generated code** check box.
 
 > [!NOTE]
-> You can only suppress warnings from static code analysis. Currently, you cannot suppress code analysis warnings from [analyzers](roslyn-analyzers-overview.md).
+> You can only suppress warnings from legacy analysis. Currently, you cannot suppress code analysis warnings from [analyzers](roslyn-analyzers-overview.md).

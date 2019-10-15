@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugStackFrame2::GetDebugProperty"
 ms.assetid: 02c2fa04-1424-4bca-9936-feaecd2afab6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetDebugProperty ( 
 ```
 
 ## Parameters
- `ppDebugProp`\
-
- [out] Returns an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that describes the properties of this stack frame.
+`ppDebugProp`\
+[out] Returns an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that describes the properties of this stack frame.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

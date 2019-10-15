@@ -4,7 +4,6 @@ description: "Using Azure functions in Visual Studio for Mac."
 author: conceptdev
 ms.author: crdun
 ms.date: 05/06/2018
-ms.topic: article
 ms.technology: vs-ide-install
 ms.assetid: 25CD47A4-5B32-4734-8EF3-E24A02AABF29
 ---
@@ -137,14 +136,14 @@ One important setting you may need to set is `FUNCTIONS_EXTENSION_VERSION`. When
 ## Available function templates
 
 - **GitHub Trigger** – Respond to events that occur in your GitHub repositories. For more information, see the [Azure Functions article on GitHub](/azure/azure-functions/functions-create-github-webhook-triggered-function)
-    - GitHub commenter – This function will be run when it receives a GitHub webhook for an issue or pull request and adds a comment.
-    - GitHub WebHook – This function will be run when it receives a GitHub webhook.
+  - GitHub commenter – This function will be run when it receives a GitHub webhook for an issue or pull request and adds a comment.
+  - GitHub WebHook – This function will be run when it receives a GitHub webhook.
 
 - **HTTP** – Trigger the execution of your code by using an HTTP request. There are explicit templates for the following HTTP triggers:
-    - Http Trigger
-    - Http GET CRUD
-    - Http POST CRUD
-    - Http Trigger with parameters
+  - Http Trigger
+  - Http GET CRUD
+  - Http POST CRUD
+  - Http Trigger with parameters
 
 - **Timer** – Execute cleanup or other batch tasks on a predefined schedule. This template takes two fields: a Name and a schedule, which is a six field CRON expression. For more information, see the [Azure functions article on Time](/azure/azure-functions/functions-create-scheduled-function)
 

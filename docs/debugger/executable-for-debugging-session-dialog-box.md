@@ -35,5 +35,5 @@ This dialog box appears when you try to debug a DLL for which no executable is s
 
 ## See Also
 
-- [Debugging in Visual Studio](../debugger/index.md)
+- [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

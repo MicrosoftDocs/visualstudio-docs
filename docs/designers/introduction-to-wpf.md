@@ -18,13 +18,13 @@ Windows Presentation Foundation (WPF) lets you create desktop client application
 
 ![Contoso Healthcare UI sample](../designers/media/wpfintrofigure24.png)
 
-The core of WPF is a resolution-independent and vector-based rendering engine that is built to take advantage of modern graphics hardware. WPF extends the core with a comprehensive set of application-development features that include Extensible Application Markup Language (XAML), controls, data binding, layout, 2D and 3D graphics, animation, styles, templates, documents, media, text, and typography. WPF is included in the .NET Framework, so you can build applications that incorporate other elements of the .NET Framework class library.
+The core of WPF is a resolution-independent and vector-based rendering engine that is built to take advantage of modern graphics hardware. WPF extends the core with a comprehensive set of application-development features that include Extensible Application Markup Language (XAML), controls, data binding, layout, 2D and 3D graphics, animation, styles, templates, documents, media, text, and typography. WPF is part of .NET, so you can build applications that incorporate other elements of the .NET API.
 
 This overview is intended for newcomers and covers the key capabilities and concepts of WPF.
 
 ## Program with WPF
 
-WPF exists as a subset of .NET Framework types that are for the most part located in the <xref:System.Windows> namespace. If you have previously built applications with .NET Framework using managed technologies like ASP.NET and Windows Forms, the fundamental WPF programming experience should be familiar; you instantiate classes, set properties, call methods, and handle events, all using your favorite .NET programming language, such as C# or Visual Basic.
+WPF exists as a subset of .NET types that are (for the most part) located in the <xref:System.Windows> namespace. If you have previously built applications with .NET using managed technologies like ASP.NET and Windows Forms, the fundamental WPF programming experience should be familiar; you instantiate classes, set properties, call methods, and handle events, using your favorite .NET programming language, such as C# or Visual Basic.
 
 WPF includes additional programming constructs that enhance properties and events: [dependency properties](/dotnet/framework/wpf/advanced/dependency-properties-overview) and [routed events](/dotnet/framework/wpf/advanced/routed-events-overview).
 
@@ -233,7 +233,7 @@ The next example demonstrates how to bind a <xref:System.Windows.Controls.TextBo
 
 The following markup binds the <xref:System.Windows.Controls.TextBox> to an instance of a custom `Person` object.
 
- ```xaml
+```xaml
  <Window
      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -243,7 +243,7 @@ The following markup binds the <xref:System.Windows.Controls.TextBox> to an inst
    <TextBox Name="personNameTextBox" Text="{Binding Path=Name}" />
 
  </Window>
- ```
+```
 
 [!code-vb[SimpleDataBindingSnippets#DataBindingCODEBEHIND](../designers/codesnippet/VisualBasic/introduction-to-wpf_6.vb)]
 [!code-csharp[SimpleDataBindingSnippets#DataBindingCODEBEHIND](../designers/codesnippet/CSharp/introduction-to-wpf_6.cs)]
@@ -422,7 +422,7 @@ For more information on the kinds of content that is supported by various contro
 
 ### Triggers
 
-Although the main purpose of XAML markup is to implement an application's appearance, you can also use XAML to implement some aspects of an application's behavior. One example is the use of triggers to change an application's appearance based on user interactions. For more information, see [Styling and templating](/dotnet/framework/wpf/controls/styling-and-templating).
+Although the main purpose of XAML markup is to implement an application's appearance, you can also use XAML to implement some aspects of an application's behavior. One example is the use of triggers to change an application's appearance based on user interactions. For more information, see [Styles and templates](/dotnet/desktop-wpf/fundamentals/styles-templates-overview).
 
 ### Control templates
 
@@ -539,7 +539,7 @@ Because this style targets all <xref:System.Windows.Controls.Button> controls, t
 
 ![Two orange buttons](../designers/media/wpfintrofigure20.png)
 
-For more information, see [Styling and templating](/dotnet/framework/wpf/controls/styling-and-templating).
+For more information, see [Styles and templates](/dotnet/desktop-wpf/fundamentals/styles-templates-overview).
 
 ### Resources
 
@@ -591,7 +591,7 @@ As an alternative to directly associating your resources with a particular scope
 </ResourceDictionary>
 ```
 
- The following example references the resource dictionary defined in the previous example so that it is shared across an application.
+The following example references the resource dictionary defined in the previous example so that it is shared across an application.
 
 ```xaml
 <Application

@@ -35,7 +35,7 @@ Before you create a dependency diagram, make sure your solution has a modeling p
 ### Add a new dependency diagram to a modeling project
 
 > [!NOTE]
-> Dependency diagrams are not supported for .NET Core projects in Visual Studio.
+> Dependency diagrams for .NET Core projects are supported starting in Visual Studio 2019 version 16.2.
 
 1. On the **Architecture** menu, choose **New Dependency Diagram**.
 

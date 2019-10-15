@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "SupportsCodeSeparation element [Visual Studio Templates]"
   - "<SupportsCodeSeparation> element [Visual Studio Templates]"
 ms.assetid: 8112aac8-a269-40e5-b92b-9b9a6ff5a542
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

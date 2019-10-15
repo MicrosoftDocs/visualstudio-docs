@@ -13,7 +13,7 @@ ms.workload:
 
 The **Generate Sample XML** feature generates a sample XML file based on your XML Schema (XSD) file.
 
- You can use this option for the following scenarios:
+You can use this option for the following scenarios:
 
 - To understand the use of various constructs in your schema.
 

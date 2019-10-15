@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "enumerations [Visual Studio SDK]"
   - "debugging [Debugging SDK], enumerations"
 ms.assetid: 557065bf-081f-4d57-8744-bae02b8a5a6e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

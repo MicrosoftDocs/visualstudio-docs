@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "BSTR_ARRAY structure"
 ms.assetid: 48da37f7-a237-48a9-9ff9-389c1a00862c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

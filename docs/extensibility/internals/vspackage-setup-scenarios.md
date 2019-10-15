@@ -4,8 +4,8 @@ ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "VSPackages, deployment considerations"
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

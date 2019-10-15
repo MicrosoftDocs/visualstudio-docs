@@ -1,5 +1,5 @@
 ---
-title: Implementing Custom Code Analysis Check-in Policies for Managed Code
+title: Custom code analysis check-in policies for managed code
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -104,10 +104,18 @@ You specify a project check-in policy rule set as the code analysis rule set of 
 
 4. If necessary, click the appropriate options in the **Configuration** and **Platform** lists.
 
-5. To run code analysis every time that the code project is built using the specified configuration, select the **Enable Code Analysis on Build (defines CODE_ANALYSIS constant)** check box.
+::: moniker range="vs-2017"
 
-6. To ignore code in components from other companies, select the **Suppress results from generated code** check box.
+5. To run code analysis every time that the code project is built using the specified configuration, select **Enable Code Analysis on Build**.
 
-7. In the **Run this rule set** list, click **\<Browse...>**.
+::: moniker-end
 
-8. Specify the local version of the check-in policy rule set file.
+::: moniker range=">=vs-2019"
+
+5. To run code analysis every time that the code project is built using the specified configuration, select **Run on build** in the **Binary analyzers** section.
+
+::: moniker-end
+
+6. In the **Run this rule set** list, click **\<Browse>**.
+
+8. Select the local version of the check-in policy rule set file.

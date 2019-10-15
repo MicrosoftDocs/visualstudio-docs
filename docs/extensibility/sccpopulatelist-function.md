@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccPopulateList function"
 ms.assetid: 7416e781-c571-4a7f-8af3-a089ce8be662
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

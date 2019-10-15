@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCanStopEvent2::CanStop"
 ms.assetid: 7d61adbe-6b3d-41f3-86a1-45d9cc01a7f8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int CanStop ( 
 ```
 
 ## Parameters
- `fCanStop`\
-
- [in] Non-zero (`TRUE`) if the DE should stop at the current code location; otherwise, zero (`FALSE`).
+`fCanStop`\
+[in] Non-zero (`TRUE`) if the DE should stop at the current code location; otherwise, zero (`FALSE`).
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

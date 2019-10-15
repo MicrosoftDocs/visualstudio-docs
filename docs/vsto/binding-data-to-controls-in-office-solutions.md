@@ -78,7 +78,7 @@ ms.workload:
 - [How to: Scroll through database records in a worksheet](../vsto/how-to-scroll-through-database-records-in-a-worksheet.md)
 
 ### Bind data in VSTO Add-in projects
- In VSTO Add-in projects, you can add controls only at runtime. The following topics show examples of binding data at runtime:
+ In VSTO Add-in projects, you can add controls only at run time. The following topics show examples of binding data at run time:
 
 - [Walkthrough: Simple data binding in VSTO Add-in project](../vsto/walkthrough-simple-data-binding-in-vsto-add-in-project.md)
 

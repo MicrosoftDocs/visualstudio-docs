@@ -11,8 +11,8 @@ f1_keywords:
 helpviewer_keywords:
   - "language services, developing"
 ms.assetid: 6151ba88-c1c3-41de-a1cc-668f494d48d1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

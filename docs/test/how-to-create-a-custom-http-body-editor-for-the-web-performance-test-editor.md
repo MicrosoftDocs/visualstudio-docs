@@ -1,5 +1,5 @@
 ---
-title: "Create a Custom HTTP Body Editor for the Web Performance Test Editor"
+title: "Create custom HTTP body editor for Web Performance Test Editor"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -37,7 +37,7 @@ These interfaces are contained in the <xref:Microsoft.VisualStudio.TestTools.Web
 
 1. In the **Properties**, select the **Application** tab.
 
-1. In the **Target framework** drop-down list, select **.NET Framework 4**.
+1. In the **Target framework** drop-down list, select .NET Framework 4 (or later).
 
 1. The **Target Framework Change** dialog box is displayed.
 
@@ -111,9 +111,9 @@ The MessageEditorControl <xref:System.Windows.Forms.UserControl> that was create
 private MessageEditorControl messageEditorControl
 ```
 
- The messageEditorControl instance is hosted within the plug-in dialog that is created by the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin.CreateEditor*> method. Additionally, the messageEditorControl's <xref:System.Windows.Forms.RichTextBox> is populated with the contents in the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IHttpBody>. However, the creation of the plug-in cannot occur unless <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin.SupportsContentType*> returns `true`. In the case of this editor, <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin.SupportsContentType*> returns `true` if the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IHttpBody.ContentType*> in the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IHttpBody> contains "xml".
+The messageEditorControl instance is hosted within the plug-in dialog that is created by the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin.CreateEditor*> method. Additionally, the messageEditorControl's <xref:System.Windows.Forms.RichTextBox> is populated with the contents in the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IHttpBody>. However, the creation of the plug-in cannot occur unless <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin.SupportsContentType*> returns `true`. In the case of this editor, <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin.SupportsContentType*> returns `true` if the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IHttpBody.ContentType*> in the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IHttpBody> contains "xml".
 
- When editing of the string body is completed and the user clicks **OK** in the plug-in dialog box, <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin.GetNewValue*> is called to get the edited text as a string and update the **String Body** in the request in the Web Test Performance Editor.
+When editing of the string body is completed and the user clicks **OK** in the plug-in dialog box, <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin.GetNewValue*> is called to get the edited text as a string and update the **String Body** in the request in the Web Test Performance Editor.
 
 ### Create a class and implement the IStringHttpBodyEditorPlugin interface
 

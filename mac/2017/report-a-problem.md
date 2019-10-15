@@ -52,7 +52,7 @@ To report a problem with Visual Studio for Mac, select **Help > Report a Problem
 
 1. Select **Submit** to send your report, along with any images and log files.
 
-   For information about what data is collected, see [Data we collect](/visualstudio/ide/developer-community-privacy.md#data-we-collect).
+   For information about what data is collected, see [Data we collect](/visualstudio/ide/developer-community-privacy#data-we-collect).
 
 ## Search for solutions or provide feedback
 

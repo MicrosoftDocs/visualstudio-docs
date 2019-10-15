@@ -79,6 +79,5 @@ Select this option to cause files containing information incompatible with the s
 
 ## See also
 
-- [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)
 - [Miscellaneous Files](../../ide/reference/miscellaneous-files.md)
 - [Finding and Replacing Text](../../ide/finding-and-replacing-text.md)

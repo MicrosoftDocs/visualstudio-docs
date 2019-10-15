@@ -27,13 +27,13 @@ Visual Studio Enterprise provides named counter sets which collect common perfor
 
 ## SQL Server versions
 
- To use load tests, you can use SQL Server Express LocalDB, which is installed with Visual Studio. It is the default database server for load tests (including Microsoft Excel integration). SQL Server Express LocalDB is an execution mode of SQL Server Express that is targeted to program developers. SQL Server Express LocalDB installation copies a minimal set of files necessary to start the SQL Server Database Engine.
+To use load tests, you can use SQL Server Express LocalDB, which is installed with Visual Studio. It is the default database server for load tests (including Microsoft Excel integration). SQL Server Express LocalDB is an execution mode of SQL Server Express that is targeted to program developers. SQL Server Express LocalDB installation copies a minimal set of files necessary to start the SQL Server Database Engine.
 
- If your team expects heavy database needs, or your projects outgrow SQL Server Express LocalDB, you should consider upgrading to either SQL Express or full SQL Server to provide further scaling potential. If you upgrade SQL Server, the MDF and LDF files for the SQL Server Express LocalDB are stored in the user profile folder. These files can be used to import the load test database to SQL Server Express or SQL Server.
+If your team expects heavy database needs, or your projects outgrow SQL Server Express LocalDB, you should consider upgrading to either SQL Express or full SQL Server to provide further scaling potential. If you upgrade SQL Server, the MDF and LDF files for the SQL Server Express LocalDB are stored in the user profile folder. These files can be used to import the load test database to SQL Server Express or SQL Server.
 
 ## Load test results store considerations
 
- When Visual Studio Enterprise is installed, the load test results store is set up to use an instance of SQL Express that is installed on the computer. SQL Express is limited to using a maximum of 4 GB of disk space. If you will run many load tests over a long period of time, you should consider configuring the load test results store to use an instance of the full SQL Server product if available.
+When Visual Studio Enterprise is installed, the load test results store is set up to use an instance of SQL Express that is installed on the computer. SQL Express is limited to using a maximum of 4 GB of disk space. If you will run many load tests over a long period of time, you should consider configuring the load test results store to use an instance of the full SQL Server product if available.
 
 ## Load Test Analyzer tasks
 
@@ -46,9 +46,9 @@ Visual Studio Enterprise provides named counter sets which collect common perfor
 
 ## Related tasks
 
- [Analyze load test results](../test/analyze-load-test-results-using-the-load-test-analyzer.md)
+[Analyze load test results](../test/analyze-load-test-results-using-the-load-test-analyzer.md)
 
- You can view the results of both a running load test and a completed load test by using the **Load Test Analyzer**.
+You can view the results of both a running load test and a completed load test by using the **Load Test Analyzer**.
 
 ## See also
 

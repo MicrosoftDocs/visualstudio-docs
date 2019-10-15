@@ -37,7 +37,7 @@ This section describes how to debug the basic project types created by the [!INC
   [Windows Forms applications (.NET)](#BKMK_Windows_Forms_Applications___NET_)
 
 ## <a name="BKMK_Recommended_Property_Settings"></a> Recommended property settings
- Certain properties should be set the same way for all unmanaged debugging scenarios. The following tables display recommended property settings. Settings not listed here may vary among the different unmanaged project types. For more information, see [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
+ Certain properties should be set the same way for all unmanaged debugging scenarios. The following tables display recommended property settings. Settings not listed here may vary among the different unmanaged project types. For more information, see [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).
 
 ### Configuration Properties &#124; C/C++ &#124; Optimization node
 

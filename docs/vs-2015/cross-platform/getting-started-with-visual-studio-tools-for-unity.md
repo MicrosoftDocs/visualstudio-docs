@@ -62,7 +62,7 @@ In this section, you'll learn how to install Visual Studio Tools for Unity and c
   
  Otherwise, if you're new to Unity, start small with a basic tutorial. Visit the Unity Learn page to find tutorials on example projects you can start with and lessons you can learn from to build your own game with Unity. The Unity Learn page has easy-to-follow tutorials for several different games.  
   
- [Tutorials – Unity Learn page](http://unity3d.com/learn/tutorials/modules)  
+ [Tutorials – Unity Learn page](https://learn.unity.com/tutorials)  
   
 #### 2 - Configure Unity Editor to use Visual Studio Tools for Unity  
  To enable your project to use Visual Studio Tools for Unity, just set Visual Studio as its external script editor. In the Unity Editor, on the main menu, choose **Edit, Preferences**; then, in the **Unity Preferences** dialog, choose **External Tools**. Next, set the **External Script Editor** property to the version of Visual Studio you want to use (Visual Studio Tools for Unity must be installed for this version of Visual Studio) and make sure the **Editor Attaching** property is set.  
@@ -84,7 +84,7 @@ In this section, you'll learn how to install Visual Studio Tools for Unity and c
   
  Otherwise, if you're new to Unity, start small with a basic tutorial. Visit the Unity Learn page to find tutorials on example projects you can start with and lessons you can learn from to build your own game with Unity. The Unity Learn page has easy-to-follow tutorials for several different games.  
   
- [Tutorials – Unity Learn page](http://unity3d.com/learn/tutorials/modules)  
+ [Tutorials – Unity Learn page](https://learn.unity.com/tutorials)  
   
 #### 2 - Configure Unity Editor to use Visual Studio Tools for Unity  
  If you're starting from an existing Unity project or you didn't import the Visual Studio Tools unitypackage when you created the project, you need to import the unitypackage now. In the Unity editor, on the main menu, choose **Assets, Import Package, Visual Studio 2015 Tools** (you should see an option for the version of Visual Studio you have installed).  

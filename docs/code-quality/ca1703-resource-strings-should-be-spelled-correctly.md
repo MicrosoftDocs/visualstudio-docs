@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|ResourceStringsShouldBeSpelledCorrectly|
 |CheckId|CA1703|
 |Category|Microsoft.Naming|
-|Breaking Change|Non-breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 
@@ -54,4 +54,4 @@ Do not suppress a warning from this rule. Correctly spelled words reduce the tim
 
 - [CA1701: Resource string compound words should be cased correctly](../code-quality/ca1701-resource-string-compound-words-should-be-cased-correctly.md)
 - [CA1704: Identifiers should be spelled correctly](../code-quality/ca1704-identifiers-should-be-spelled-correctly.md)
-- [CA2204: Literals should be spelled correctly](../code-quality/ca2204-literals-should-be-spelled-correctly.md)
+- [CA2204: Literals should be spelled correctly](../code-quality/ca2204.md)

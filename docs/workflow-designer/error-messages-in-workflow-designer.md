@@ -29,7 +29,7 @@ Errors in Workflow Designer occur in the following situations:
 
 4. There are errors in the XAML file that cause the workflow to fail to load.
 
-Invalid expressions and unsatisfied validation constraints do not cause the workflow to fail to build. Building your workflow succeeds, but an <xref:System.Activities.InvalidWorkflowException> is thrown at runtime. If there are errors in the XAML file, the build fails.
+Invalid expressions and unsatisfied validation constraints do not cause the workflow to fail to build. Building your workflow succeeds, but an <xref:System.Activities.InvalidWorkflowException> is thrown at run time. If there are errors in the XAML file, the build fails.
 
 Inside Visual Studio, when a workflow is loaded, its errors are displayed in the **Error List**. To navigate to the activity that is the source of the error, double-click the error in the **Error List**.
 

@@ -1,5 +1,5 @@
 ---
-title: "Overview of the Programming Model of SharePoint Tools Extensions | Microsoft Docs"
+title: "Overview of programming model of SharePoint tools extensions"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -49,7 +49,7 @@ ms.workload:
 - *SharePoint server and client object models*. Use these object models to modify a SharePoint site or to retrieve data from a SharePoint site from the context of a SharePoint tools extension.
 
 ### SharePoint tools object model
- Each SharePoint tools extension uses types in the SharePoint tools object model to define the core behavior and functionality of the extension. The following tables describe the namespaces that are included in this object model, by the assemby that contains them.
+ Each SharePoint tools extension uses types in the SharePoint tools object model to define the core behavior and functionality of the extension. The following tables describe the namespaces that are included in this object model, by the assembly that contains them.
 
 #### Microsoft.VisualStudio.SharePoint.dll
 

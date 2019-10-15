@@ -1,13 +1,11 @@
 ---
-title: Keyboard shortcuts  for XAML Designer
+title: Keyboard shortcuts for XAML Designer
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 ms.assetid: 40211cc7-294a-4943-85a4-941ad6418dad
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.workload:
-  - "uwp"
 ---
 # Keyboard shortcuts for XAML Designer
 
@@ -25,7 +23,7 @@ This table lists the shortcuts that are available for working with elements on t
 |Select a single element|Press **Tab** to select elements in the order they appear in the document. (You can also select elements using the arrow keys.)|
 |Select multiple elements|Press and hold **Shift** while selecting each element|
 |Select multiple non-adjacent elements|Press and hold **Ctrl** while selecting the first and last elements|
-|Move selected elements|Press the arrow keys (You can hold down **Shift** to increase the distance to move per key press.)|
+|Move selected elements|Press the arrow keys. (You can hold down **Shift** to increase the distance to move per key press.)|
 |Rotate an element in 15-degree increments|Hold down **Shift** while rotating the element|
 |Select all elements|Press **Ctrl**+**A**|
 |Clear selection of all elements|Press **Ctrl**+**Shift**+**A**|

@@ -3,8 +3,8 @@ title: "Visual Studio User Experience Guidelines | Microsoft Docs"
 ms.date: "10/05/2018"
 ms.topic: "conceptual"
 ms.assetid: 3abbe495-cbbc-4982-a809-38bda34553a7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -14,7 +14,7 @@ Follow the Visual Studio User Experience Guidelines if you design new features f
 
 If you develop software for Microsoft products, learn to use these resources:
 
-- The [Windows User Experience Interaction Guidelines](https://developer.microsoft.com/windows/desktop) are the basics for Windows desktop behavior and appearance.
+- The [Windows User Experience Interaction Guidelines](https://docs.microsoft.com/windows/win32/uxguide/guidelines) are the basics for Windows desktop behavior and appearance.
 
 - These Visual Studio guidelines, which are platform-specific guidelines that supersede the general Windows guidelines wherever appropriate to our environment.
 

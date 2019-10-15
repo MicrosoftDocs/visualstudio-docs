@@ -1,6 +1,6 @@
 ---
 title: Work with multiple user accounts
-ms.date: 12/10/2018
+ms.date: 07/23/2019
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
@@ -27,7 +27,7 @@ Sign into Visual Studio with a Microsoft account or an organizational account. Y
 
 ### Access your Azure account in Server Explorer
 
-Press **Ctrl**+**Alt**+**S** to open **Server Explorer**. Expand the **Azure** node and notice that it contains the resources available in the Azure account that's associated with the account that you used to sign in to Visual Studio. It looks similar to the following image:
+To open Server Explorer, choose **View** > **Server Explorer** (or, if you're using the "General" [environment settings](../ide/environment-settings.md), press **Ctrl**+**Alt**+**S**). Expand the **Azure** node and notice that it contains the resources available in the Azure account that's associated with the account that you used to sign in to Visual Studio. It looks similar to the following image:
 
 ![Server Explorer with Azure node expanded](../ide/media/work-with-multiple-user-accounts/server-explorer.png)
 
@@ -49,7 +49,19 @@ The next time you open **Server Explorer**, the resources for that subscription 
 
 Azure Active Directory (AAD) enables support for end-user single sign-in in ASP.NET MVC web apps or AD authentication in web API services. Domain authentication is different from individual user account authentication. Users that have access to your Active Directory domain can use their existing AAD accounts to connect to your web applications. Office 365 apps can also use domain authentication.
 
-To see this in action, create a new **ASP.NET Web Application** project. In the **New ASP.NET Project** dialog, choose **Change Authentication**. The authentication wizard appears and enables you to choose what kind of authentication to use in your application.
+::: moniker range="vs-2017"
+
+To see this in action, create a new **ASP.NET Core Web Application** project. In the **New ASP.NET Core Web Application** dialog box, choose the **Web Application** template, and then choose **Change Authentication**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+To see this in action, create a new **ASP.NET Core Web Application** project. On the **Create a new ASP.NET Core Web Application** page, choose the **Web Application** template, and then choose **Change** under **Authentication**.
+
+::: moniker-end
+
+The **Change Authentication** dialog box appears where you can choose what kind of authentication to use in your application.
 
 ![Change authentication dialog for ASP.NET](../ide/media/vs2015_change_authentication.png)
 

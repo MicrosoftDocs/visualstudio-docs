@@ -1,5 +1,5 @@
 ---
-title: "Collect concurrency data for an ASP.NET Web Application Using the Profiler Command Line | Microsoft Docs"
+title: "Profiler command line to get ASP.NET web app concurrency data"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

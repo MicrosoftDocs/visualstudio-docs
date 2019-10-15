@@ -14,7 +14,3 @@ ms.workload:
 # Options dialog box: Environment \> Import and Export Settings
 
 Use this page to specify where your user settings file is saved. For more information about settings, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
-
-### See also
-
-- [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

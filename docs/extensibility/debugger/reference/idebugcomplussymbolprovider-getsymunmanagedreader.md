@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::GetSymUnmanagedReader"
   - "GetSymUnmanagedReader"
 ms.assetid: 8f1c1627-217f-4405-8141-7a2eb80310a5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -38,16 +38,13 @@ int GetSymUnmanagedReader(
 
 ## Parameters
 `ulAppDomainID`\
-
- [in] Identifier of the application domain.
+[in] Identifier of the application domain.
 
 `guidModule`\
-
- [in] Unique identifier of the module.
+[in] Unique identifier of the module.
 
 `ppSymUnmanagedReader`\
-
- [out] Returns the object that represents the symbol reader.
+[out] Returns the object that represents the symbol reader.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

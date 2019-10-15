@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEEVisualizerService::GetPropertyProxy method"
 ms.assetid: 748750f4-76e7-4580-9da2-afba07681b37
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int GetPropertyProxy(
 ```
 
 ## Parameters
- `dwID`\
+`dwID`\
+[in] ID of property proxy to retrieve.
 
- [in] ID of property proxy to retrieve.
-
- `proxy`\
-
- [out] Desired proxy implemented in an [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) interface.
+`proxy`\
+[out] Desired proxy implemented in an [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) interface.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

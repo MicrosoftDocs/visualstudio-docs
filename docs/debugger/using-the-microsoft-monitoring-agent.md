@@ -145,7 +145,7 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
 
 - For web apps and SharePoint applications, the agent records data for every app that shares the specified application pool. This might slow down any app that shares the same application pool, even though you can restrict collection to the modules for a single app. To avoid slowing down other apps, host each app in its own application pool.
 
-- Review the events for which the agent collects data in the collection plan. Edit the collection plan to disable events that aren't relevant or don't interest you. This can improve startup performance and runtime performance.
+- Review the events for which the agent collects data in the collection plan. Edit the collection plan to disable events that aren't relevant or don't interest you. This can improve startup performance and run-time performance.
 
    To disable an event, set the `enabled` attribute for the `<DiagnosticEventSpecification>` element to `false`:
 

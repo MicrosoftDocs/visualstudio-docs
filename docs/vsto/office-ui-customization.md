@@ -82,7 +82,7 @@ ms.workload:
 ## <a name="Controls"></a> Controls on documents
  You can add a variety of controls to Word documents and Excel worksheets. For example, you might want to add a date picker control to a document so the user can enter dates in a standard format, or put a button on a worksheet to send data to a database.
 
- When you develop document-level projects for Excel or Word, you can use the Visual Studio designer to add controls to the document or workbook in your project at design time, or you can programmatically add controls at runtime. When you develop VSTO Add-in projects for Excel or Word, you can programmatically add controls to any open document or workbook at runtime.
+ When you develop document-level projects for Excel or Word, you can use the Visual Studio designer to add controls to the document or workbook in your project at design time, or you can programmatically add controls at run time. When you develop VSTO Add-in projects for Excel or Word, you can programmatically add controls to any open document or workbook at run time.
 
  For more information, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md) and [Windows forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md).
 

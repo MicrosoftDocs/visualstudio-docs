@@ -241,7 +241,7 @@ See the [JavaScript IntelliSense](/visualstudio/ide/javascript-intellisense/) pa
 ### VSDoc
 
 XML documentation comments, sometimes referred to as VSDocs, could previously be used to decorate your source code with additional data that would be used to buff up IntelliSense results.
-VSDoc is no longer supported in favor of [JSDoc](http://usejsdoc.org/about-getting-started.html) which is easier to write and the accepted standard for JavaScript.
+VSDoc is no longer supported in favor of [JSDoc](https://jsdoc.app/about-getting-started.html) which is easier to write and the accepted standard for JavaScript.
 
 ### `.intellisense.js` extensions
 

@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "menu commands, changing appearance"
   - "menus, changing command appearance"
 ms.assetid: da2474fa-f92d-4e9e-b8bf-67c61bf249c2
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

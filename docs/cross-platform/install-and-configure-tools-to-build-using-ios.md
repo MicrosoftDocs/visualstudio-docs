@@ -60,7 +60,6 @@ To install and use the remote agent to develop code for iOS, you must first have
 
    Install version 8.11.3 of Node.js on your Mac. If you install the Node.js package, it should come with npm version 5.6.0. Note that other versions of Node.js and npm may not support some modules used in the remote agent vcremote, which can cause vcremote installation to fail.
 
-
 ## <a name="Install"></a> Install the remote agent for iOS
 
 When you install Visual C++ for Cross-Platform Mobile Development, Visual Studio can communicate with [vcremote](https://go.microsoft.com/fwlink/p/?LinkId=534988), a remote agent running on your Mac to transfer files, build and run your iOS app, and send debugging commands.

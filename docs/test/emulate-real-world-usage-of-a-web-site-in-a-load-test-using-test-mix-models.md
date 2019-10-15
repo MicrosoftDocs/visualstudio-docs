@@ -46,7 +46,7 @@ For each test in the mix, you can specify a percentage that determines how frequ
 If you use this setting, the next test to start is based on the assigned percentages. You do this without taking into account the number of virtual users who are currently running each test.
 
 ### <a name="PercentageBasedonVirtualUsers"></a> Percentage based on virtual users
- This model of test mix determines the percentage of virtual users who will run a particular test. If you use this model of test mix, the next test to start is based not only on the assigned percentages but also on the percentage of virtual users who are currently running a particular test. At any point in the load test, the number of users who are running a particular test matches the assigned distribution as closely as possible.
+This model of test mix determines the percentage of virtual users who will run a particular test. If you use this model of test mix, the next test to start is based not only on the assigned percentages but also on the percentage of virtual users who are currently running a particular test. At any point in the load test, the number of users who are running a particular test matches the assigned distribution as closely as possible.
 
 ### <a name="PacingTestMix"></a> Pacing test mix
 
@@ -63,7 +63,7 @@ If you use the pacing test mix model, the load test runtime engine guarantees th
 The **Think Time Between Test Iterations** setting does not apply when you use a pacing test mix.
 
 #### Apply distribution to pacing delay
- The value for the **Apply Distribution to Pacing Delay** property in a load test scenario can be set to either true or false:
+The value for the **Apply Distribution to Pacing Delay** property in a load test scenario can be set to either true or false:
 
 - **True**: The scenario will apply typical statistical distribution delays specified by the value in the **Tests Per User Per Hour** column in the **Edit Test Mix** dialog. For more information, see [Edit text mix models to specify the probability of a virtual user running a test](../test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md).
 
@@ -76,13 +76,13 @@ The **Think Time Between Test Iterations** setting does not apply when you use a
   For more information, see [How to: Apply distribution to pacing delay when using a user pace test mix model](../test/how-to-apply-distribution-to-pacing-delay-when-using-a-user-pace-test-mix-model.md).
 
 ### <a name="SequentialOrder"></a> Sequential order
- Selecting the Based on sequential test order option makes each virtual user run all the tests in the scenario in the order that the tests were defined.
+Selecting the Based on sequential test order option makes each virtual user run all the tests in the scenario in the order that the tests were defined.
 
 ## Test iterations property
- In the Run Settings properties, you can specify a value for the Test Iterations property. This value is the number of test iterations to run in a load test. After the specified number of test iterations has been started, no additional test iterations will be started despite the settings of any of the load profiles. After the number of test iterations specified has been completed, the load test ends. For more information, see [How to: Specify the number of test iterations in a run setting](../test/how-to-specify-the-number-of-test-iterations-in-a-load-test.md).
+In the Run Settings properties, you can specify a value for the Test Iterations property. This value is the number of test iterations to run in a load test. After the specified number of test iterations has been started, no additional test iterations will be started despite the settings of any of the load profiles. After the number of test iterations specified has been completed, the load test ends. For more information, see [How to: Specify the number of test iterations in a run setting](../test/how-to-specify-the-number-of-test-iterations-in-a-load-test.md).
 
 ## Initialize and terminate tests
- You can select tests to run at the beginning and end of each virtual user's load testing session. For more information, see [Edit text mix models to specify the probability of a virtual user running a test](../test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md).
+You can select tests to run at the beginning and end of each virtual user's load testing session. For more information, see [Edit text mix models to specify the probability of a virtual user running a test](../test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md).
 
 - **Initialize test**. This test is run by each virtual user before any of the tests in the test mix are run.
 

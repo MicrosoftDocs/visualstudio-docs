@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "toolbars [Visual Studio], adding to IDE"
   - "IDE, adding toolbars"
 ms.assetid: 17302c25-6f59-4e97-8c85-54f95336a07f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

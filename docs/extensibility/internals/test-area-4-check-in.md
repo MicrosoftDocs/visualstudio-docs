@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], checking items in"
   - "source control plug-ins, checking items in"
 ms.assetid: d0329fa8-7a8d-4d30-b67b-6f2a97b75a30
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

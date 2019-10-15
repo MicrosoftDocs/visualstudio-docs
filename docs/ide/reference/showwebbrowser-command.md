@@ -25,24 +25,24 @@ View.ShowWebBrowser URL [/new][/ext]
 ```
 
 ## Arguments
- `URL`
+`URL`
 
- Required. URL (Uniform Resource Locator) for the website.
+Required. URL (Uniform Resource Locator) for the website.
 
 ## Switches
- /new
+/new
 
- Optional. Specifies that the page appears in a new instance of the web browser.
+Optional. Specifies that the page appears in a new instance of the web browser.
 
- /ext
+/ext
 
- Optional. Specifies that the page appears in the default web browser outside of the IDE.
+Optional. Specifies that the page appears in the default web browser outside of the IDE.
 
 ## Remarks
- The alias for the **ShowWebBrowser** command is **navigate** or **nav**.
+The alias for the **ShowWebBrowser** command is **navigate** or **nav**.
 
 ## Example
- The following example displays the Microsoft Docs home page in a web browser outside of the IDE. If an instance of the web browser is already open, it is used; otherwise a new instance is launched.
+The following example displays the Microsoft Docs home page in a web browser outside of the IDE. If an instance of the web browser is already open, it is used; otherwise a new instance is launched.
 
 ```cmd
 >View.ShowWebBrowser https://docs.microsoft.com /ext

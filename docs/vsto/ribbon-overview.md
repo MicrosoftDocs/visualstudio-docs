@@ -92,12 +92,12 @@ ms.workload:
     > [!NOTE]
     > An Inspector is a window that opens when users perform certain tasks, such as creating an e-mail message.
 
-- Select which ribbon to display at runtime.
+- Select which ribbon to display at run time.
 
-### Select which ribbons to display at runtime
- Because a project can contain more than one ribbon, you can select which ribbon to display at runtime.
+### Select which ribbons to display at run time
+ Because a project can contain more than one ribbon, you can select which ribbon to display at run time.
 
- To select a ribbon to display at runtime, override the `CreateRibbonExtensibilityObject` method in the `ThisAddin`, `ThisWorkbook`, or `ThisDocument` class of your project and return the ribbon that you want to display. The following example checks the value of a field named `myCondition` and returns the appropriate ribbon.
+ To select a ribbon to display at run time, override the `CreateRibbonExtensibilityObject` method in the `ThisAddin`, `ThisWorkbook`, or `ThisDocument` class of your project and return the ribbon that you want to display. The following example checks the value of a field named `myCondition` and returns the appropriate ribbon.
 
 > [!NOTE]
 > The syntax used in this example returns a ribbon that was created by using the **Ribbon (Visual Designer)** item. The syntax for returning a ribbon that is created by using a **Ribbon (XML)** item is slightly different. For more information about returning a **Ribbon (XML)** item, see [Ribbon XML](../vsto/ribbon-xml.md).
@@ -114,11 +114,11 @@ ms.workload:
 |[How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)|Shows you how to customize the ribbon of a Microsoft Office application, add a **Ribbon (Visual Designer)** or **Ribbon (XML)** item to an Office project.|
 |[Ribbon designer](../vsto/ribbon-designer.md)|Describes how you can use the Ribbon Designer to add custom tabs, groups, and controls to the ribbon of a Microsoft Office application.|
 |[Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)|Shows you how to create a custom Ribbon tab by using the Ribbon Designer. You can use the Ribbon Designer to add and position controls on the custom tab.|
-|[Ribbon object model overview](../vsto/ribbon-object-model-overview.md)|Provides an overview of the strongly typed object model that you can use to get and set the properties of Ribbon controls at runtime.|
-|[Walkthrough: Update the controls on a ribbon at runtime](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)|Demonstrates how to use the Ribbon object model to update the controls on a ribbon after the ribbon is loaded into the Office application.|
+|[Ribbon object model overview](../vsto/ribbon-object-model-overview.md)|Provides an overview of the strongly typed object model that you can use to get and set the properties of Ribbon controls at run time.|
+|[Walkthrough: Update the controls on a ribbon at run time](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)|Demonstrates how to use the Ribbon object model to update the controls on a ribbon after the ribbon is loaded into the Office application.|
 |[Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md)|Provides guidance for customizing the ribbon in Microsoft Office Outlook.|
 |[Customize a ribbon for InfoPath](../vsto/customizing-a-ribbon-for-infopath.md)|Provides guidance for customizing the ribbon in Microsoft Office InfoPath.|
-|[Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)|Shows how to show, hide, and modify the ribbon, and enable users to run the code from controls in a custom task pane, actions pane, or Outlook form region.|
+|[Access the ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)|Shows how to show, hide, and modify the ribbon, and enable users to run the code from controls in a custom task pane, actions pane, or Outlook form region.|
 |[How to: Change the position of a tab on the ribbon](../vsto/how-to-change-the-position-of-a-tab-on-the-ribbon.md)|Shows how to change the order of tabs on a ribbon.|
 |[How to: Customize a built-in tab](../vsto/how-to-customize-a-built-in-tab.md)|Shows how to add groups and controls to a built-in tab.|
 |[How to: Add controls to the Backstage View](../vsto/how-to-add-controls-to-the-backstage-view.md)|Shows how to add controls to the menu that opens when you click the **File**.|

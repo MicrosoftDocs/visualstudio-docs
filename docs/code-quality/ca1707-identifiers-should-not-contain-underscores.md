@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|IdentifiersShouldNotContainUnderscores|
 |CheckId|CA1707|
 |Category|Microsoft.Naming|
-|Breaking Change|Breaking - when raised on assemblies<br /><br /> Non-breaking - when raised on type parameters|
+|Breaking change|Breaking - when raised on assemblies<br /><br /> Non-breaking - when raised on type parameters|
 
 ## Cause
 
@@ -40,7 +40,7 @@ Remove all underscore characters from the name.
 
 ## When to suppress warnings
 
-Do not suppress a warning from this rule.
+Do not suppress warnings for production code. However, it's safe to suppress this warning for test code. You can suppress warnings from this rule by setting its [severity](use-roslyn-analyzers.md#rule-severity) to **none**. 
 
 ## Related rules
 

@@ -3,8 +3,8 @@ title: "How to: Managing Multiple Threads in Managed Code | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 59730063-cc29-4dae-baff-2234ad8d0c8f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Launch a Stand-Alone Application with the Profiler and Collect Application Statistics by Using the Command Line | Microsoft Docs"
+title: "Profiler command line: Launch stand-alone app, get app stats"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 52dcee2b-f178-4a76-bddc-e36c50bfcb78

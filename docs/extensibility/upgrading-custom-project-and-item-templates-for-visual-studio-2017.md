@@ -1,10 +1,11 @@
 ---
-title: "Upgrading Custom Project and Item Templates for Visual Studio 2017 | Microsoft Docs"
+title: "Upgrade custom project and item templates for Visual Studio 2017"
+titleSuffix: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: ad02477b-e101-4f32-aeb7-292bf95d5c2f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -173,9 +174,9 @@ We show the points of difference between the Visual Studio 2015 and Visual Studi
 
 Some MSI-based extensions deploy templates to common template locations such as the following directories:
 
-- **\<Visual Studio installation directory>\Common7\IDE\\<ProjectTemplates/ItemTemplates>**
+- **\<Visual Studio installation directory>\Common7\IDE\\<ProjectTemplates/ItemTemplates\>**
 
-- **\<Visual Studio installation directory>\Common7\IDE\Extensions\\<ExtensionName\>\\<Project/ItemTemplates>**
+- **\<Visual Studio installation directory>\Common7\IDE\Extensions\\<ExtensionName\>\\<Project/ItemTemplates\>**
 
 If your extension performs an MSI-based deployment, you need to generate the template manifest manually and ensure that it is included in the extension setup. Compare the .vstman examples listed above and the [Visual Studio Template Manifest Schema Reference](../extensibility/visual-studio-template-manifest-schema-reference.md).
 

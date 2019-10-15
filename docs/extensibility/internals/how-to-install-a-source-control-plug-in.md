@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "installation [Visual Studio SDK], source control plug-ins"
   - "source control plug-ins, installing"
 ms.assetid: 9e2e01d9-7beb-42b2-99b2-86995578afda
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

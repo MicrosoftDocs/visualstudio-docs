@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugClassField::DoesInterfaceExist method"
 ms.assetid: cc0c8642-1a76-4fda-a309-7018a34883c9
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int DoesInterfaceExist(
 ```
 
 ## Parameters
- `pszInterfaceName`\
-
- [in] A string containing the interface name to look for.
+`pszInterfaceName`\
+[in] A string containing the interface name to look for.
 
 ## Return Value
  If successful, returns S_OK, returns S_FALSE if the interface does not exist; otherwise, returns an error code.

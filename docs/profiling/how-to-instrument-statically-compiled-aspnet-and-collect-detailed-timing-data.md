@@ -1,5 +1,5 @@
 ---
-title: "How to: Instrument a Statically Compiled ASP.NET Web Application and Collect Detailed Timing Data with the Profiler by Using the Command Line | Microsoft Docs"
+title: "Profiler command line: Instrument static ASP.NET app, get timing data"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: b260ce68-76e6-4c3b-8062-3c00bd5cf7b8

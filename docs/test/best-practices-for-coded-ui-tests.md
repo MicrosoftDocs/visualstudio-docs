@@ -36,11 +36,11 @@ Use the following guidelines to create a flexible coded UI test.
 
 - If the user interface (UI) changes, re-record the test methods, or the assertion methods, or re-record the affected sections of an existing test method.
 
-- Create a separate <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> file for each module in your application under test. For more information, see [Testing a large application with multiple UI maps](../test/testing-a-large-application-with-multiple-ui-maps.md).
+- Create a separate [UIMap](/previous-versions/dd580454(v=vs.140)) file for each module in your application under test. For more information, see [Testing a large application with multiple UI maps](../test/testing-a-large-application-with-multiple-ui-maps.md).
 
 - In the application under test, use meaningful names when you create the UI controls. Using meaningful names gives greater clarity and usability to the automatically generated control names.
 
-- If you are creating assertions by coding with the API, create a method for each assertion in the part of the <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> class that is in the *UIMap.cs* file. To execute the assertion, call this method from your test method.
+- If you are creating assertions by coding with the API, create a method for each assertion in the part of the [UIMap](/previous-versions/dd580454(v=vs.140)) class that is in the *UIMap.cs* file. To execute the assertion, call this method from your test method.
 
 - If you are directly coding with the API, use the properties and methods in the classes generated in the *UIMap.Designer.cs* file in your code as much as you can. These classes will make your work easier, more reliable, and will help you be more productive.
 
@@ -56,11 +56,11 @@ User interfaces frequently change during development. Here are some ways to redu
 
 - If a control has an assertion that is no longer valid:
 
-    - Delete the method that contains the assertion.
+  - Delete the method that contains the assertion.
 
-    - Remove the call to this method from the test method.
+  - Remove the call to this method from the test method.
 
-    - Add a new assertion by dragging the cross-hair button onto the UI control, open the UI map, and add the new assertion.
+  - Add a new assertion by dragging the cross-hair button onto the UI control, open the UI map, and add the new assertion.
 
 For more information about how to record coded UI tests, see [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md).
 
@@ -81,7 +81,7 @@ Playback.PlaybackSettings.WaitForReadyLevel = WaitForReadyLevel.UIThreadOnly;
 
 ## See also
 
-- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>
+- [UIMap](/previous-versions/dd580454(v=vs.140))
 - <xref:Microsoft.VisualStudio.TestTools.UITesting>
 - [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)
 - [Creating coded UI tests](../test/use-ui-automation-to-test-your-code.md)

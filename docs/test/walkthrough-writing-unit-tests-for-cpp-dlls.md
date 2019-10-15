@@ -1,6 +1,6 @@
 ---
 title: "How to: Write unit tests for C++ DLLs"
-ms.date: 05/01/2019
+ms.date: 06/13/2019
 ms.topic: conceptual
 ms.author: mblome
 manager: markl
@@ -82,7 +82,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 The following steps show how to create a DLL project in Visual Studio 2019.
 
-1. Create a C++ project by using the **Windows Desktop Wizard**: Right-click on the solution name in **Solution Explorer** and choose **Add** > **New Project**. Set the **Language** to C++ and then type "windows" in the search box. Choose **Windows Desktop Wizard** from the results list. 
+1. Create a C++ project by using the **Windows Desktop Wizard**: Right-click on the solution name in **Solution Explorer** and choose **Add** > **New Project**. Set the **Language** to C++ and then type "windows" in the search box. Choose **Windows Desktop Wizard** from the results list.
 
      In this walkthrough, the project is named `RootFinder`.
 
@@ -146,13 +146,9 @@ The following steps show how to create a DLL project in Visual Studio 2017.
 
 1. Add the DLL project to the project references of the test project:
 
-   1. Open the properties of the test project and choose **Common Properties** > **Framework and References**.
+   1. Right-click on the test project node in **Solution Explorer** and choose **Add** > **Reference**.
 
-        ![C++ project properties | Framework and References](../test/media/utecpp08.png)
-
-   2. Choose **Add New Reference**.
-
-        In the **Add Reference** dialog box, select the DLL project and choose **Add**.
+   2. In the **Add Reference** dialog box, select the DLL project and choose **Add**.
 
         ![C++ project properties | Add New Reference](../test/media/utecpp09.png)
 
@@ -319,10 +315,21 @@ The following steps show how to create a DLL project in Visual Studio 2017.
 
 6. All tests now pass.
 
-     ![All tests pass](../test/media/ute_ult_alltestspass.png)
+   ![All tests pass](../test/media/ute_ult_alltestspass.png)
+
+::: moniker range="vs-2017"
 
 > [!TIP]
 > If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+> [!TIP]
+> If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution in the settings menu of the toolbar. This can noticeably reduce the time taken to run all the tests.
+
+::: moniker-end
 
 ## <a name="refactor"></a> Refactor the code without changing tests
 
@@ -351,7 +358,7 @@ The following steps show how to create a DLL project in Visual Studio 2017.
 
 - **Checkin tests.** You can mandate that some tests are performed before each team member checks code into source control. Typically this is a subset of the complete set of build verification tests.
 
-     You can also mandate a minimum level of code coverage.
+   You can also mandate a minimum level of code coverage.
 
 ## See also
 

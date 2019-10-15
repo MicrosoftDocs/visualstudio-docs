@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "commands, handling using interop assemblies"
   - "command handling with interop assemblies"
 ms.assetid: 8f4af525-39e5-4e69-92c8-d3efabe80bb2
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -158,7 +158,7 @@ catch (Exception ex)
 ## <a name="elements"></a> Creating Model Elements
  This example adds an element to an existing model:
 
-```
+```csharp
 FamilyTreeModel familyTree = ...; // The root of the model.
 using (Transaction t =
     familyTree.Store.TransactionManager
@@ -184,7 +184,7 @@ using (Transaction t =
 
 - Set the properties of a new element, particularly the property for which `IsName` is true in the DslDefinition. This flag marks the property that serves to identify the element uniquely within its owner. In this case, the Name property has that flag.
 
-- The DSL definition of this DSL must have been loaded into the Store. If you are writing an extension such as a menu command, this will typically be already true. In other cases, you can explicitly load the model into the Store, or use <xref:Microsoft.VisualStudio.Modeling.Integration.ModelBus> to load it. For more information, see [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md).
+- The DSL definition of this DSL must have been loaded into the Store. If you are writing an extension such as a menu command, this will typically be already true. In other cases, you can explicitly load the model into the Store, or use [ModelBus](/previous-versions/ee904639(v=vs.140)) to load it. For more information, see [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md).
 
   When you create an element in this way, a shape is automatically created (if the DSL has a diagram). It appears in an automatically assigned location, with default shape, color, and other features. If you want to control where and how the associated shape appears, see [Creating an Element and its Shape](#merge).
 
@@ -287,7 +287,7 @@ In some cases, deletion is prevented by the existence of a lock, either on the e
 ## <a name="copy"></a> Copy and Paste
  You can copy elements or groups of elements to an <xref:System.Windows.Forms.IDataObject>:
 
-```
+```csharp
 Person person = personShape.ModelElement as Person;
 Person adopter = adopterShape.ModelElement as Person;
 IDataObject data = new DataObject();
@@ -299,7 +299,7 @@ personShape.Diagram.ElementOperations
 
  You can merge elements from an IDataObject into a model:
 
-```
+```csharp
 using (Transaction t = targetDiagram.Store.
         TransactionManager.BeginTransaction("paste"))
 {
@@ -430,7 +430,7 @@ This method:
 
 This example creates a shape at the mouse position, when the user double-clicks the diagram. In the DSL Definition for this sample, the `FillColor` property of `ExampleShape` has been exposed.
 
-```
+```csharp
 using Microsoft.VisualStudio.Modeling;
 using Microsoft.VisualStudio.Modeling.Diagrams;
 partial class MyDiagram

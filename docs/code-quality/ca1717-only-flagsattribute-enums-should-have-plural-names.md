@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|OnlyFlagsEnumsShouldHavePluralNames|
 |CheckId|CA1717|
 |Category|Microsoft.Naming|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 
@@ -48,7 +48,7 @@ It is safe to suppress a warning from the rule if the name ends in a singular wo
 
 ## Configurability
 
-If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
+If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not with legacy analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
 
 ```ini
 dotnet_code_quality.ca1717.api_surface = private, internal
@@ -60,7 +60,7 @@ You can configure this option for just this rule, for all rules, or for all rule
 
 - [CA1714: Flags enums should have plural names](../code-quality/ca1714-flags-enums-should-have-plural-names.md)
 - [CA1027: Mark enums with FlagsAttribute](../code-quality/ca1027-mark-enums-with-flagsattribute.md)
-- [CA2217: Do not mark enums with FlagsAttribute](../code-quality/ca2217-do-not-mark-enums-with-flagsattribute.md)
+- [CA2217: Do not mark enums with FlagsAttribute](../code-quality/ca2217.md)
 
 ## See also
 

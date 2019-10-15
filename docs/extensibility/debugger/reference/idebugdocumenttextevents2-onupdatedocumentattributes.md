@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDocumentTextEvents2::onUpdateDocumentAttributes"
 ms.assetid: 31b7d151-9ce2-438e-b405-f8cc46b9f537
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int onUpdateDocumentAttributes( 
 ```
 
 ## Parameters
- `textdocattr`\
-
- [in] A combination of flags from the [TEXT_DOC_ATTR_2](../../../extensibility/debugger/reference/text-doc-attr-2.md) enumeration that specifies the updated attributes of the document.
+`textdocattr`\
+[in] A combination of flags from the [TEXT_DOC_ATTR_2](../../../extensibility/debugger/reference/text-doc-attr-2.md) enumeration that specifies the updated attributes of the document.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

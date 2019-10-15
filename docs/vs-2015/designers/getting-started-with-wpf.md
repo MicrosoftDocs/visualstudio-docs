@@ -28,5 +28,5 @@ Windows Presentation Foundation (WPF) is a UI framework that creates desktop cli
 ## See Also  
  [Class Library (WPF)](https://msdn.microsoft.com/library/ms753307\(v=vs.100\).aspx)   
  [Application Development Overview](https://msdn.microsoft.com/library/bb613549\(v=vs.100\).aspx)   
- [.NET Framework Developer Center](http://go.microsoft.com/fwlink/?LinkId=187437)   
+ [.NET Framework Developer Center](https://dotnet.microsoft.com/)   
  [Create Modern Desktop Applications with Windows Presentation Foundation](../designers/create-modern-desktop-applications-with-windows-presentation-foundation.md)

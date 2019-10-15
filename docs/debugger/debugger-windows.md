@@ -1,5 +1,5 @@
 ---
-title: "Debugger windows | Microsoft Docs"
+title: "Inspect data using debugger windows | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "04/25/2018"
 ms.topic: "conceptual"
@@ -10,7 +10,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Learn about Debugger Windows in Visual Studio
+# Inspect data using debugger windows in Visual Studio
 
 You can open most debugger windows while you are debugging your program. To see a list of debugger windows, set a breakpoint and start debugging. When you hit the breakpoint and execution stops, click **Debug > Windows**.
 

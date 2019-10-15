@@ -12,9 +12,9 @@ ms.workload:
 ---
 # Visual Studio data tools for .NET
 
-Visual Studio and the .NET Framework together provide extensive API and tooling support for connecting to databases, modeling data in memory, and displaying the data in the user interface. The .NET Framework classes that provide data-access functionality are known as [ADO.NET](/dotnet/framework/data/adonet/index). ADO.NET, along with the data tooling in Visual Studio, was designed primarily to support relational databases and XML. These days, many NoSQL database vendors, or third parties, offer ADO.NET providers.
+Visual Studio and .NET together provide extensive API and tooling support for connecting to databases, modeling data in memory, and displaying the data in the user interface. The .NET classes that provide data-access functionality are known as [ADO.NET](/dotnet/framework/data/adonet/index). ADO.NET, along with the data tooling in Visual Studio, was designed primarily to support relational databases and XML. These days, many NoSQL database vendors, or third parties, offer ADO.NET providers.
 
-[.NET Core](/dotnet/core/) supports ADO.NET, except for datasets and related types. If you are targeting .NET Core and require an object-relational mapping (ORM) layer, use [Entity Framework Core](/ef/core/).
+[.NET Core](/dotnet/core/) supports ADO.NET, except for datasets and their related types. If you're targeting .NET Core and require an object-relational mapping (ORM) layer, use [Entity Framework Core](/ef/core/).
 
 The following diagram shows a simplified view of the basic architecture:
 

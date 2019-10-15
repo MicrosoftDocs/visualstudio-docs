@@ -84,9 +84,9 @@ Create the sample database by following these steps:
 |Button|Name = btnGoToFillOrCancel|
 |Button|Name = btnExit|
 
- **NewCustomer form**
+**NewCustomer form**
 
- ![Add  a new customer and place an order](../data-tools/media/simpleappnewcust.png)
+![Add  a new customer and place an order](../data-tools/media/simpleappnewcust.png)
 
 |Controls for the NewCustomer form|Properties|
 | - |----------------|
@@ -99,9 +99,9 @@ Create the sample database by following these steps:
 |Button|Name = btnAddAnotherAccount|
 |Button|Name = btnAddFinish|
 
- **FillOrCancel form**
+**FillOrCancel form**
 
- ![fill or cancel orders](../data-tools/media/simpleappcancelfill.png)
+![fill or cancel orders](../data-tools/media/simpleappcancelfill.png)
 
 |Controls for the FillOrCancel form|Properties|
 | - |----------------|
@@ -114,9 +114,9 @@ Create the sample database by following these steps:
 |Button|Name = btnFinishUpdates|
 
 ## Store the connection string
- When your application tries to open a connection to the database, your application must have access to the connection string. To avoid entering the string manually on each form, store the string in the *App.config* file in your project, and create a method that returns the string when the method is called from any form in your application.
+When your application tries to open a connection to the database, your application must have access to the connection string. To avoid entering the string manually on each form, store the string in the *App.config* file in your project, and create a method that returns the string when the method is called from any form in your application.
 
- You can find the connection string by right-clicking on the **Sales** data connection in **Server Explorer** and choosing **Properties**. Locate the **ConnectionString** property, then use **Ctrl**+**A**, **Ctrl**+**C** to select and copy the string to the clipboard.
+You can find the connection string by right-clicking on the **Sales** data connection in **Server Explorer** and choosing **Properties**. Locate the **ConnectionString** property, then use **Ctrl**+**A**, **Ctrl**+**C** to select and copy the string to the clipboard.
 
 1. If you're using C#, in **Solution Explorer**, expand the **Properties** node under the project, and then open the **Settings.settings** file.
     If you're using Visual Basic, in **Solution Explorer**, click **Show All Files**, expand the **My Project** node, and then open the **Settings.settings** file.

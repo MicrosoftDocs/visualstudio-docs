@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IPropertyProxyEESide::InPlaceUpdateObject"
 ms.assetid: abf89411-1853-4f23-b244-d5e0afa197b1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int InPlaceUpdateObject(
 ```
 
 ## Parameters
- `dataIn`\
+`dataIn`\
+[in] An [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object containing the new data.
 
- [in] An [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object containing the new data.
-
- `dataOut`\
-
- [out] Returns a new `IEEDataStorage` object containing the replaced data.
+`dataOut`\
+[out] Returns a new `IEEDataStorage` object containing the replaced data.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

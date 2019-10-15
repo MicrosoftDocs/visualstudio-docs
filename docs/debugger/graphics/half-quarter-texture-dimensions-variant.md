@@ -35,7 +35,7 @@ Reduces the texture dimensions on textures that are not render targets.
   If mip-maps are enabled for the texture, the variant reduces the number of mip levels accordingly—one fewer when scaling to half-size or two fewer when scaling to quarter-size.
 
 ## Example
- This variant resizes textures at runtime before the call to `CreateTexture2D`. We recommend against this approach for production code because the full-size textures consume more disk space and because the additional step can increase loading times in your app—especially for compressed textures, which require significant computational resources to encode. Instead, we recommend that you resize your textures offline by using an image editor or image processor that's part of your build pipeline. These approaches reduce disk-space requirements and eliminate runtime overhead in your app, and afford more processing time so that you can retain the best image quality while shrinking or compressing your textures.
+ This variant resizes textures at run time before the call to `CreateTexture2D`. We recommend against this approach for production code because the full-size textures consume more disk space and because the additional step can increase loading times in your app—especially for compressed textures, which require significant computational resources to encode. Instead, we recommend that you resize your textures offline by using an image editor or image processor that's part of your build pipeline. These approaches reduce disk-space requirements and eliminate runtime overhead in your app, and afford more processing time so that you can retain the best image quality while shrinking or compressing your textures.
 
 ## See Also
 - [Mip-map Generation Variant](mip-map-generation-variant.md)

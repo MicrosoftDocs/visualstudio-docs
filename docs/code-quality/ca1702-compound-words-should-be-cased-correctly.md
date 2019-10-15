@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|CompoundWordsShouldBeCasedCorrectly|
 |CheckId|CA1702|
 |Category|Microsoft.Naming|
-|Breaking Change|Breaking- when fired on assemblies.<br /><br /> Non-breaking - when fired on type parameters.|
+|Breaking change|Breaking- when fired on assemblies.<br /><br /> Non-breaking - when fired on type parameters.|
 
 ## Cause
 

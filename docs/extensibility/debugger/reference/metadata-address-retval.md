@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "METADATA_ADDRESS_RETVAL structure"
 ms.assetid: 5b0ec0fb-84b3-4ce7-8e24-becf3d881d7d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -44,7 +44,7 @@ public struct METADATA_ADDRESS_RETVAL {
  The ID of the method this return value is for.
 
  `dwCorType`\
- The base type of return value. This is a value from the `CorElementType` enumeration defined in the [!INCLUDE[dnprdnshort](../../../code-quality/includes/dnprdnshort_md.md)] SDK corhdr.h file.
+ The base type of return value. This is a value from the `CorElementType` enumeration defined in the .NET Framework SDK corhdr.h file.
 
  `dwSigSize`\
  The size of the return value signature (as stored in `rgSig`).

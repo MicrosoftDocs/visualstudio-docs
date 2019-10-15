@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "deploying applications [Visual Studio SDK]"
   - "specialized deployment"
 ms.assetid: de068b6a-e806-45f0-9dec-2458fbb486f7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

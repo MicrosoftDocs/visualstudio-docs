@@ -1,5 +1,5 @@
 ---
-title: "How to: Build Specific Targets in Solutions By Using MSBuild.exe | Microsoft Docs"
+title: "Use MSBuild.exe to build specific targets in solutions"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugProgram3::ExecuteOnThread"
 ms.assetid: 2f5211e3-7a3f-47bf-9595-dfc8b4895d0d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -31,9 +31,8 @@ int ExecuteOnThread(
 ```
 
 ## Parameters
- `pThread`\
-
- [in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object.
+`pThread`\
+[in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

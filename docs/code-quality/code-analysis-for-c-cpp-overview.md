@@ -18,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: 81f0c9e8-f471-4de5-aac4-99db336a8809
 author: mikeblome
 ms.author: mblome
-manager: wpickett
+manager: markl
 ms.workload:
   - "cplusplus"
 ---
@@ -40,7 +40,7 @@ You can also use the analysis tool from the command line, as shown in the follow
 C:\>cl /analyze Sample.cpp
 ```
 
-**Visual Studio 2017 version 15.7 and later** You can run the tool from the command line with any build system including CMake.
+**Visual Studio 2017 version 15.7 and later:** You can run the tool from the command line with any build system including CMake.
 
 ## #pragma support
 
@@ -48,11 +48,11 @@ You can use the `#pragma` directive to treat warnings as errors; enable or disab
 
 ## Annotation support
 
-Annotations improve the accuracy of the code analysis. Annotations provide additional information about pre- and post- conditions on function parameters and return types. For more information, see [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
+Annotations improve the accuracy of the code analysis. Annotations provide additional information about pre- and post- conditions on function parameters and return types. For more information, see [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md).
 
 ## Run analysis tool as part of check-in policy
 
-You might want to require that all source code check-ins satisfy certain policies. In particular, you want to make sure that analysis was run as a step of the most recent local build. For more information about enabling a code analysis check-in policy, see [Creating and Using Code Analysis Check-In Policies](../code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies.md)
+You might want to require that all source code check-ins satisfy certain policies. In particular, you want to make sure that analysis was run as a step of the most recent local build. For more information about enabling a code analysis check-in policy, see [Creating and Using Code Analysis Check-In Policies](../code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies.md).
 
 ## Team Build integration
 

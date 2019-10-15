@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Change document formatting using CheckBox controls"
+title: "Change document formatting using CheckBox controls"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

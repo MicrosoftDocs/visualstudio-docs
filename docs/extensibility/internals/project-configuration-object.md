@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "project configurations, object"
   - "objects, project configuration"
 ms.assetid: 877756c9-4261-43d9-9f32-51bf06b4219f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

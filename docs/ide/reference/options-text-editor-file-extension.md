@@ -30,7 +30,7 @@ Type the file extension whose Editing Experience in the IDE you wish to define.
 
 **Editor**
 
- Select the IDE editor or designer in which documents with this file extension will open. When you select an option "with ncoding," a dialog will be displayed whenever you open such a document that allows you to select an encoding scheme.
+Select the IDE editor or designer in which documents with this file extension will open. When you select an option "with ncoding," a dialog will be displayed whenever you open such a document that allows you to select an encoding scheme.
 
 **Add**
 

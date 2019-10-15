@@ -26,6 +26,12 @@ Visual Studio makes it easy to interact with npm and issue npm commands through 
 
 These features work together and synchronize with the project system and the *package.json* file in the project.
 
+> [!Important]
+> NPM expects the *node_modules* folder and *package.json* in the project root. If your app's folder structure is different, you should update your folder structure if you want to manage npm packages using Visual Studio.
+
+> [!NOTE]
+> For existing NPM projects, use the **From existing Node.js code** solution template.
+
 ## <a name="npmInstallWindow"></a> Install packages from Solution Explorer
 
 The easiest way to install npm packages is through the npm package installation window. To access this window, right-click the **npm** node in the project and select **Install New npm Packages**.

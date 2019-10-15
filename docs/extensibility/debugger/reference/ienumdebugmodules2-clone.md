@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumDebugModules2::Clone"
 ms.assetid: fd6d3abc-20d9-4f6f-9c8e-5bd29f68d47d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int Clone(
 ```
 
 ## Parameters
- `ppEnum`\
-
- [out] Returns a copy of this enumeration as a separate object.
+`ppEnum`\
+[out] Returns a copy of this enumeration as a separate object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

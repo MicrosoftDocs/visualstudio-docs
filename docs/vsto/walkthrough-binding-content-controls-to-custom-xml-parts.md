@@ -33,7 +33,7 @@ ms.workload:
 
 - Attaching the XML schema to the document at design time.
 
-- Adding the contents of the XML file to a custom XML part in the document at runtime.
+- Adding the contents of the XML file to a custom XML part in the document at run time.
 
 - Binding the content controls to elements in the custom XML part.
 
@@ -94,7 +94,7 @@ ms.workload:
     That is the entire user interface for this project. If you run the project now, you can type text in the first row and select a date in the second row. The next step is to attach the data that you want to display to the document in an XML file.
 
 ## Create the XML data file
- Typically, you will obtain XML data to store in a custom XML part from an external source, such as a file or a database. In this walkthrough, you create an XML file that contains the employee data, marked by elements that you will bind to the content controls in the document. To make the data available at runtime, embed the XML file as a resource in the customization assembly.
+ Typically, you will obtain XML data to store in a custom XML part from an external source, such as a file or a database. In this walkthrough, you create an XML file that contains the employee data, marked by elements that you will bind to the content controls in the document. To make the data available at run time, embed the XML file as a resource in the customization assembly.
 
 #### To create the data file
 
@@ -125,7 +125,7 @@ ms.workload:
 
 6. In the **Properties** window, select the **Build Action** property, and then change the value to **Embedded Resource**.
 
-     This step embeds the XML file as a resource in the assembly when you build the project. This enables you to access the contents of the XML file at runtime.
+     This step embeds the XML file as a resource in the assembly when you build the project. This enables you to access the contents of the XML file at run time.
 
 ## Create an XML Schema
  If you want to bind a content control to a single element in a custom XML part, you do not have to use an XML schema. However, to bind the <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> to a set of values, you must create an XML schema that validates the XML data file that you created earlier. The XML schema defines the possible values for the `title` element. You will bind the <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> to this element later in this walkthrough.
@@ -317,4 +317,4 @@ ms.workload:
 - [How to: Protect parts of documents by using content controls](../vsto/how-to-protect-parts-of-documents-by-using-content-controls.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
 - [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
-- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)

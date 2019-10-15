@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "property pages"
   - "property pages, changing configuration options"
 ms.assetid: b9b3e6e8-1e30-4c89-9862-330265dcf38c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

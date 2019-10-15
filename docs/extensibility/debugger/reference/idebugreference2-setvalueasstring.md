@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugReference2::SetValueAsString"
 ms.assetid: 9a508ced-fd54-44f5-bb42-ec15c80384d7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -38,17 +38,14 @@ int SetValueAsString ( 
 ```
 
 ## Parameters
- `pszValue`\
+`pszValue`\
+[in] The value as a string.
 
- [in] The value as a string.
+`dwRadix`\
+[in] The radix to be used in formatting any numerical information.
 
- `dwRadix`\
-
- [in] The radix to be used in formatting any numerical information.
-
- `dwTimeout`\
-
- [in] Maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
+`dwTimeout`\
+[in] Maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
 
 ## Return Value
  Always returns `E_NOTIMPL`.

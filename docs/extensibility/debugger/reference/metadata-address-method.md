@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "METADATA_ADDRESS_METHOD structure"
 ms.assetid: fc0e5370-1b4f-4867-837f-0d63c4b9dd09
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -39,17 +39,14 @@ public struct METADATA_ADDRESS_METHOD {
 
 ## Members
  `tokMethod`\
-
  The ID of the method.
 
  [C++] `_mdToken` is a `typedef` for a 32-bit `int`.
 
  `dwOffset`\
-
  The offset from the class start to this method (can represent the offset into the vtable).
 
  `dwVersion`\
-
  The version of the method (this value is unique to the symbol provider).
 
 ## Remarks

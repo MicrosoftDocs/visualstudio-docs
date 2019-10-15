@@ -22,7 +22,7 @@ ms.workload:
 |TypeName|TypeNamesShouldNotMatchNamespaces|
 |CheckId|CA1724|
 |Category|Microsoft.Naming|
-|Breaking Change|Breaking|
+|Breaking change|Breaking|
 
 ## Cause
 

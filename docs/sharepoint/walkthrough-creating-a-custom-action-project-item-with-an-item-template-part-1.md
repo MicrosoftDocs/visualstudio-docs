@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 1 | Microsoft Docs"
+title: "Create custom action project item with item template, part 1"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

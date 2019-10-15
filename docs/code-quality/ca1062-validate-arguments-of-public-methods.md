@@ -25,7 +25,7 @@ ms.workload:
 |TypeName|ValidateArgumentsOfPublicMethods|
 |CheckId|CA1062|
 |Category|Microsoft.Design|
-|Breaking Change|Non Breaking|
+|Breaking change|Non-breaking|
 
 ## Cause
 
@@ -49,8 +49,8 @@ You can suppress a warning from this rule if you are sure that the dereferenced 
 
 The following example shows a method that violates the rule and a method that satisfies the rule.
 
- ```csharp
- using System;
+```csharp
+using System;
 
 namespace DesignLibrary
 {

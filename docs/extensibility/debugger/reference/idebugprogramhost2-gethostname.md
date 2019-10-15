@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramHost2::GetHostName"
 ms.assetid: 48bbb089-e59a-471a-9965-24b42a8dabf3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int GetHostName( 
 ```
 
 ## Parameters
- `dwType`\
+`dwType`\
+[in] A value from the [GETHOSTNAME_TYPE](../../../extensibility/debugger/reference/gethostname-type.md) enumeration.
 
- [in] A value from the [GETHOSTNAME_TYPE](../../../extensibility/debugger/reference/gethostname-type.md) enumeration.
-
- `pbstrHostName`\
-
- [out] Returns the requested name of the hosting process.
+`pbstrHostName`\
+[out] Returns the requested name of the hosting process.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

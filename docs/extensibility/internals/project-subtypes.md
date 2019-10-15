@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], subtypes"
   - "project subtypes [Visual Studio SDK]"
 ms.assetid: d235b47b-cf11-4d47-a63f-e33d9d16105d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -17,7 +17,7 @@ Each platform has specific configurations for its build.
 
 ## Solution configurations
 
-Akin to project configurations, solution configurations are used to create custom configurations for an entire project. By using the **Configuration Mappings** tab under the **Build > Configurations** item, you can assign a target configuration for each solution item, as illustrated in the following image:
+Akin to project configurations, solution configurations are used to create custom configurations for an entire project. By using the **Configuration Mappings** tab under the **Build > Configurations** item, you can assign a target configuration for each solution item, as illustrated in the following image:
 
 ![Configuration Mapping Options](media/projects-and-solutions-image3.png)
 
@@ -31,7 +31,7 @@ In Visual Studio for Mac, instead of setting a startup project, you can set a _r
 
 ![Run Configuration drop-down](media/projects-and-solutions-image8.png)
 
-A run configuration is a set of execution options with a name and several configurations that are defined in a project for different purposes. Run configurations are defined at the project level, and a default will be created automatically for each executable project, although it is possible to add as many as needed. Certain project types automatically generate additional run configurations. For example, watchOS projects may generate  _Glance and Notification configurations._
+A run configuration is a set of execution options with a name and several configurations that are defined in a project for different purposes. Run configurations are defined at the project level, and a default will be created automatically for each executable project, although it is possible to add as many as needed. Certain project types automatically generate additional run configurations. For example, watchOS projects may generate  _Glance and Notification configurations._
 
 Configurations can be shared with other developers (in which case the configurations will be stored in the .csproj file) or kept locally (in which case they will be stored in a .user file).
 
@@ -46,21 +46,21 @@ Activities other than the `MainLauncher` will need to have `Exported=true` added
 The following list provides some examples of data that could be included in run configurations:
 
 * Regular .NET project
-    * Alternative startup app
-    * Start arguments
-    * Working directory
-    * Environment variables
-    * Mono runtime options (to be used only when running on Mono)
+  * Alternative startup app
+  * Start arguments
+  * Working directory
+  * Environment variables
+  * Mono runtime options (to be used only when running on Mono)
 * Android project
-    * Entry point (activity, service, receiver)
-    * Intent arguments and data
+  * Entry point (activity, service, receiver)
+  * Intent arguments and data
 * iOS project
-    * Mode (Normal, Background Fetch)
+  * Mode (Normal, Background Fetch)
 * iOS extension project
-    * Startup app: default or custom
+  * Startup app: default or custom
 * WatchKit project
-    * Mode (Glance, Notification)
-    * Notification payload
+  * Mode (Glance, Notification)
+  * Notification payload
 
 ## See also
 

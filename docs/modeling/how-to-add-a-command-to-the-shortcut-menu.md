@@ -161,7 +161,8 @@ The command set class is derived from <xref:Microsoft.VisualStudio.Modeling.Shel
 
      `{ internal partial class Language1CommandSet { ...`
 
-     **Note** If you used the class template to create the new file, you must correct both the namespace and the class name.
+     > [!NOTE]
+     > If you used the class template to create the new file, you must correct both the namespace and the class name.
 
 Your command set code will typically need to import the following namespaces:
 

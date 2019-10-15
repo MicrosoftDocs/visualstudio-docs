@@ -1,6 +1,6 @@
 ---
 title: "Target Element (MSBuild) | Microsoft Docs"
-ms.date: "03/13/2017"
+ms.date: "06/13/2019"
 ms.topic: "reference"
 f1_keywords:
   - "http://schemas.microsoft.com/developer/msbuild/2003#Target"
@@ -80,6 +80,8 @@ Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/internals/i
 
 ## Remarks
  The first target to execute is specified at run time. Targets can have dependencies on other targets. For example, a target for deployment depends on a target for compilation. The [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] engine executes dependencies in the order in which they appear in the `DependsOnTargets` attribute, from left to right. For more information, see [Targets](../msbuild/msbuild-targets.md).
+
+ MSBuild is import-order dependent, and the last definition of a target with a specific `Name` attribute is the definition used.
 
  A target is only executed once during a build, even if more than one target has a dependency on it.
 

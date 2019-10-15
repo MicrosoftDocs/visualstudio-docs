@@ -3,8 +3,8 @@ title: "Walkthrough: Implementing Code Snippets | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: adbc5382-d170-441c-9fd0-80faa1816478
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

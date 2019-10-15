@@ -1,15 +1,23 @@
 ---
-title: Xamarin in Visual Studio for Mac
+title: Xamarin
 description: "using Xamarin in Visual Studio for Mac allows you to create cross platform applications targeting iOS, Mac, Android, tvOS, and watchOS "
-author: conceptdev
-ms.author: crdun
-ms.date: 02/12/2019
+author: therealjohn
+ms.author: johmil
+ms.date: 06/18/2019
 ms.assetid: 339F6051-5F90-48DC-8237-EBBC8A03A32B
 ---
 
 # Xamarin mobile app development
 
 First-class support for [Xamarin](/xamarin) allows you to develop rich native experiences for Android, macOS, iOS, tvOS, and watchOS. Xamarin.Forms cross-platform applications help you share XAML-based UI code between Android, iOS, and macOS without limiting access to native functionality.
+
+## Xamarin.Forms
+
+XAML Hot Reload for Xamarin.Forms is built into Visual Studio for Mac in version 8.3 and later. With this feature enabled changes are instantly reflected in your running app every time you save the file.
+
+XAML Hot Reload can be enabled by checking the **Enable Xamarin Hot Reload** checkbox at **Visual Studio > Preferences > Projects > Xamarin Hot Reload**.
+
+For more information on Hot Reload, see the [XAML Hot Reload for Xamarin.Forms guide](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/xaml/hot-reload) within the documentation.
 
 ## Android
 
@@ -51,6 +59,6 @@ The Xamarin Inspector provides an interactive C# console with user tools. It can
 
 ![Xamarin Inspector](media/intro-inspector.png)
 
-It consists of a standalone application that provides a rich C# console that can target various programming platforms (Android, iOS, Mac, and Windows) and integrate into your IDEs debugging workflow. 
+It consists of a standalone application that provides a rich C# console that can target various programming platforms (Android, iOS, Mac, and Windows) and integrate into your IDEs debugging workflow.
 
 For more information, see the [Xamarin Inspector](/xamarin/tools/inspector/) guide.

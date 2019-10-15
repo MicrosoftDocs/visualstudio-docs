@@ -86,7 +86,7 @@ public static void Main(string[] args)
 
         try
         {
-            var context = services.GetRequiredService<SchoolContext>();
+            var context = services.GetRequiredService<AppDbContext>();
             context.Database.EnsureCreated();
         }
         catch (Exception ex)
@@ -99,6 +99,15 @@ public static void Main(string[] args)
     host.Run();
 }
 ```
+
+To resolve the typenames in the preceding code, add the following using statements to *Program.cs* at the end of the existing block of using statements:
+
+```csharp
+using Microsoft.Extensions.DependencyInjection;
+using WebApplication1.Models;
+```
+
+Be sure to use your project name instead of WebApplication1 in your code.
 
 Most of the code is just for error handling and to provide access to the EF Core `AppDbContext` before the app is running. The important line is the one that says `context.Database.EnsureCreated()`, which will create the database if it doesn't already exist. Now the app is ready to run.
 

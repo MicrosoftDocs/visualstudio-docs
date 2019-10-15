@@ -19,6 +19,9 @@ ms.workload:
 
 The Visual Studio **Interactive** window for Python provides a rich read-evaluate-print-loop (REPL) experience that greatly shortens the usual edit-build-debug cycle. The **Interactive** window provides all the capabilities of the REPL experience of the Python command line. It also makes it very easy to exchange code with source files in the Visual Studio editor, which is otherwise cumbersome with the command line.
 
+> [!NOTE]
+> For issues with REPL, be sure to have `ipython` and `ipykernel` packages installed, and for help installing packages, see [Python environments packages tab](https://docs.microsoft.com/en-us/visualstudio/python/python-environments-window-tab-reference#packages-tab).
+
 1. Open the **Interactive** window by right-clicking the project's Python environment in **Solution Explorer** (such as **Python 3.6 (32-bit)** shown in an earlier graphic) and selecting **Open Interactive Window**. You can alternately select **View** > **Other Windows** > **Python Interactive Windows** from the main Visual Studio menu.
 
 1. The **Interactive** window opens below the editor with the standard **>>>** Python REPL prompt. The **Environment** drop-down list allows you to select a specific interpreter to work with. Oftentimes you also want to make the **Interactive** window larger, which you can do by dragging the separator between the two windows:
@@ -46,7 +49,7 @@ The Visual Studio **Interactive** window for Python provides a rich read-evaluat
         return ' ' * int(20 * cos(radians(x)) + 20) + 'o'
     ```
 
-1. Select only the `import` and `from` statements in the *.py* file, right-click, and select **Send to Interactive** (or press **Ctrl**+**Enter**). The code fragment is immediately pasted into the **Interactive** window and run. Now select the `make_dot_string` function and repeat the same command, which again runs that code fragment. Because the code defines a function, you can quickly test that function by calling it a few times:
+1. Select the `import`, `from`, and `make_dot_string` function statements in the *.py* file, right-click, and select **Send to Interactive** (or press **Ctrl**+**Enter**). The code fragment is immediately pasted into the **Interactive** window and run. Now select the `make_dot_string` function and repeat the same command, which again runs that code fragment. Because the code defines a function, you can quickly test that function by calling it a few times:
 
     ![Sending code to the interactive window and testing it](media/vs-getting-started-python-14-interactive4.png)
 

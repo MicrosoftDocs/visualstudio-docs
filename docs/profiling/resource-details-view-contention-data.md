@@ -30,9 +30,9 @@ The Resource Details view presents a timeline graph of the blocking events that 
 
 - Perform one of the following steps:
 
-    - Click **Zoom Out** to return to the previous zoom level.
+  - Click **Zoom Out** to return to the previous zoom level.
 
-    - Click **Zoom Reset** to show all of the timeline in the view.
+  - Click **Zoom Reset** to show all of the timeline in the view.
 
 #### To view the call stack of an event
 
@@ -48,7 +48,7 @@ The Resource Details view presents a timeline graph of the blocking events that 
 
 - In the timeline graph, click **Total**.
 
-     The Contentions view appears for the resource. For more information, see [Resource Contentions View](../profiling/resource-contentions-view-contention-data.md)
+     The Contentions view appears for the resource. For more information, see [Resource Contentions View](../profiling/resource-contentions-view-contention-data.md).
 
 #### To view all the contention events of a thread
 

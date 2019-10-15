@@ -9,7 +9,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Access Visual Studio or other Hosts from a Text Template
+# Access Visual Studio or other hosts from a text template
 
 In a text template, you can use methods and properties that are exposed by the host that executes the template. Visual Studio is an example of a host.
 
@@ -18,7 +18,7 @@ In a text template, you can use methods and properties that are exposed by the h
 
 ## Obtain access to the host
 
-To access the host, set `hostspecific="true"` in the `template` directive. Now you can use `this.Host`, which has type <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>. The <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost> type has members that you can use, for example, to resolve file names and log errors.
+To access the host, set `hostspecific="true"` in the `template` directive. Now you can use `this.Host`, which has type [ITextTemplatingEngineHost](/previous-versions/visualstudio/visual-studio-2012/bb126505(v=vs.110)). The [ITextTemplatingEngineHost](/previous-versions/visualstudio/visual-studio-2012/bb126505(v=vs.110)) type has members that you can use to resolve file names and log errors, for example.
 
 ### Resolve File Names
 

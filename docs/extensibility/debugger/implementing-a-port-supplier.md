@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], implementing port suppliers"
   - "port suppliers, implementing"
 ms.assetid: 6b8579df-58df-4c7f-8112-6015993e8765
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "source control plug-ins, comparing versions"
   - "source control plug-ins, local project folders"
 ms.assetid: 65217e8b-15a6-4446-92b0-4cff1c6220f5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

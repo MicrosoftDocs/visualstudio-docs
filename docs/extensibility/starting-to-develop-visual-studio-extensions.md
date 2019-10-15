@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "getting started, Visual Studio integration"
   - "Visual Studio, integration"
 ms.assetid: 8fe5e2ab-a424-4173-9d39-dd082c4d58d0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -55,7 +55,7 @@ In practice, we have found that the features most people want to extend are comm
 
 - [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
 
-- [Visual Studio Isolated Shell](/visualstudio/extensibility/shell/visual-studio-isolated-shell)
+- [Visual Studio Isolated Shell](https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/)
 
 ## <a name="BKMK_ProjectTemplate"></a> What project templates are provided by the VSSDK?
  The two main types of extensions are VSPackages and MEF extensions. In general, VSPackage extensions are used for extensions that use or extend commands, tool windows, and projects. MEF extensions are used to extend or customize the Visual Studio editor.

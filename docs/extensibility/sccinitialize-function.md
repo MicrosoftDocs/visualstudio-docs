@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccInitialize function"
 ms.assetid: 5bc0d28b-2c68-4d43-9e51-541506a8f76e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugStackFrame2::GetExpressionContext"
 ms.assetid: a2604e6a-502d-473b-868f-b11ac64c7a35
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetExpressionContext ( 
 ```
 
 ## Parameters
- `ppExprCxt`\
-
- [out] Returns an [IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md) object that represents a context for expression evaluation.
+`ppExprCxt`\
+[out] Returns an [IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md) object that represents a context for expression evaluation.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

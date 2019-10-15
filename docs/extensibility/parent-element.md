@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "VSCT XML schema elements, Parent"
   - "Parent element (VSCT XML schema)"
 ms.assetid: e4624ac8-1b9a-4940-910a-528a661cefad
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

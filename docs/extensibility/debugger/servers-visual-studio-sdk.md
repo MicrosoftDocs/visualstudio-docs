@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "servers, debugging"
   - "debugging [Debugging SDK], servers"
 ms.assetid: 62236d64-7956-448c-9ac3-5528f3edac1d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

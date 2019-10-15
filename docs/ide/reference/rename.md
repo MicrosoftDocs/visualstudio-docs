@@ -62,10 +62,17 @@ This refactoring applies to:
 
 4. When you're happy with the change, choose the **Apply** button or press **Enter** and the changes will be committed.
 
-> [!NOTE]
-> If you use a name that already exists which would cause a conflict, the **Rename** box will warn you.
->
-> ![Rename Conflict](media/rename-conflict-cs.png)
+## Remarks
+
+- Starting in Visual Studio 2019 version 16.3, when you rename a type that matches the name of the file it's in, a checkbox appears that enable you to rename the file at the same time. This option appears when you rename a class, interface, or enumeration. This option is not supported for partial types with multiple definitions.
+
+   ![Rename animation with file - C#](media/rename-with-file-animated-cs.gif)
+   
+- If you use a name that already exists which would cause a conflict, the **Rename** box will warn you.
+
+   ![Rename Conflict](media/rename-conflict-cs.png)
+
+- Another way to rename a symbol is to change its name in the editor. Then, with the cursor in the symbol name, press **Ctrl**+**.** or just expand the light bulb icon menu that appears and choose **Rename \<old name> to \<new name>**.
 
 ## See also
 

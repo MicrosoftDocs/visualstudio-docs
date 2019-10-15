@@ -80,7 +80,7 @@ When you type [override](/dotnet/csharp/language-reference/keywords/override) an
 
 ### AI-enhanced IntelliSense
 
-You can install an experimental [IntelliCode extension](/visualstudio/intellicode/intellicode-visual-studio) for Visual Studio that provides artificial intelligence-enhanced IntelliSense completion lists. This extension predicts the most likely correct API to use, rather than just presenting an alphabetical list of members. It uses your current code context and patterns to provide the dynamic list.
+[Visual Studio IntelliCode](/visualstudio/intellicode/intellicode-visual-studio) provides artificial intelligence-enhanced IntelliSense completion lists. IntelliCode predicts the most likely correct API to use rather than just presenting an alphabetical list of members. It uses your current code context and patterns to provide the dynamic list.
 
 ## Automatic code generation
 

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDocumentContext2::GetDocument"
 ms.assetid: c6d46c5d-ade8-4dc8-9862-8fc7876658c4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetDocument( 
 ```
 
 ## Parameters
- `ppDocument`\
-
- [out] Returns an [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) object that represents the document that contains this document context.
+`ppDocument`\
+[out] Returns an [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) object that represents the document that contains this document context.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

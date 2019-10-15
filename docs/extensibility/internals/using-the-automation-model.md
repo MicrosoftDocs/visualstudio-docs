@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "automation [Visual Studio SDK], automation model"
 ms.assetid: 0c7f7889-fbfb-4b19-804f-b742138baecd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -12,32 +12,39 @@ ms.workload:
 # MSBuild target framework and target platform
 A project can be built to run on a *target framework*, which is a particular version of the .NET Framework, and a *target platform*, which is a particular software architecture.  For example, you can target an application to run on the .NET Framework 2.0 on a 32-bit platform that is compatible with the 802x86 processor family ("x86"). The combination of target framework and target platform is known as the *target context*.
 
+> [!IMPORTANT]
+> This article shows the old way to specify a target framework. SDK-style projects enable different TargetFrameworks like netstandard. For more info, see [Target frameworks](/dotnet/standard/frameworks).
+
 ## Target framework and profile
- A target framework is the particular version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] that your project is built to run on. Specification of a target framework is required because it enables compiler features and assembly references that are exclusive to that version of the framework.
+ A target framework is the particular version of the .NET Framework that your project is built to run on. Specification of a target framework is required because it enables compiler features and assembly references that are exclusive to that version of the framework.
 
  Currently, the following versions of the .NET Framework are available for use:
 
-- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 2.0 (included in Visual Studio 2005)
+- The .NET Framework 2.0 (included in Visual Studio 2005)
 
-- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 3.0 (included in [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)])
+- The .NET Framework 3.0 (included in [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)])
 
-- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 3.5 (included in [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)])
+- The .NET Framework 3.5 (included in [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)])
 
-- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.5.2
+- The .NET Framework 4.5.2
 
-- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.6 (included in [!INCLUDE[vs_dev14](../misc/includes/vs_dev14_md.md)])
+- The .NET Framework 4.6 (included in [!INCLUDE[vs_dev14](../misc/includes/vs_dev14_md.md)])
 
-- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.6.1
+- The .NET Framework 4.6.1
 
-- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.6.2
+- The .NET Framework 4.6.2
 
-- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.7
+- The .NET Framework 4.7
 
-- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.7.1
+- The .NET Framework 4.7.1
+
+- The .NET Framework 4.7.2
+
+- The .NET Framework 4.8
 
 The versions of the .NET Framework differ from one another in the list of assemblies that each makes available to reference. For example, you cannot build Windows Presentation Foundation (WPF) applications unless your project targets the .NET Framework version 3.0 or above.
 
-The target framework is specified in the `TargetFrameworkVersion` property in the project file. You can change the target framework for a project by using the project property pages in the Visual Studio integrated development environment (IDE). For more information, see [How to: Target a version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md). The available values for `TargetFrameworkVersion` are `v2.0`, `v3.0`, `v3.5`, `v4.5.2`, `v4.6`, `v4.6.1`, `v4.6.2`, `v4.7`, and `v4.7.1`.
+The target framework is specified in the `TargetFrameworkVersion` property in the project file. You can change the target framework for a project by using the project property pages in the Visual Studio integrated development environment (IDE). For more information, see [How to: Target a version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md). The available values for `TargetFrameworkVersion` are `v2.0`, `v3.0`, `v3.5`, `v4.5.2`, `v4.6`, `v4.6.1`, `v4.6.2`, `v4.7`, `v4.7.1`, `v4.7.2`, and `v4.8`.
 
 ```xml
 <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
@@ -45,7 +52,10 @@ The target framework is specified in the `TargetFrameworkVersion` property in th
 
  A *target profile* is a subset of a target framework. For example, the .NET Framework 4 Client profile does not include references to the MSBuild assemblies.
 
- The target profile is specified in the `TargetFrameworkProfile` property in a project file. You can change the target profile by using the target-framework control in the project property pages in the IDE. For more information, see [How to: Target a version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).
+ > [!NOTE]
+ > Target profiles apply only to [portable class libraries](/dotnet/standard/cross-platform/cross-platform-development-with-the-portable-class-library).
+
+ The target profile is specified in the `TargetFrameworkProfile` property in a project file. You can change the target profile by using the target-framework control in the project property pages in the IDE.
 
 ```xml
 <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>

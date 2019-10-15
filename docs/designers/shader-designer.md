@@ -103,17 +103,17 @@ Use **Select** mode to add, remove, reposition, connect, and configure nodes. He
 
 - Here's how:
 
-   - To add a node to the graph, select it in the **Toolbox** and then move it to the design surface.
+  - To add a node to the graph, select it in the **Toolbox** and then move it to the design surface.
 
-   - To remove a node from the graph, select it and then press **Delete**.
+  - To remove a node from the graph, select it and then press **Delete**.
 
-   - To reposition a node, select it and then move it to a new location.
+  - To reposition a node, select it and then move it to a new location.
 
-   - To connect two nodes, move an output terminal of one node to an input terminal of the other node. Only terminals that have compatible types can be connected. A line between the terminals shows the connection.
+  - To connect two nodes, move an output terminal of one node to an input terminal of the other node. Only terminals that have compatible types can be connected. A line between the terminals shows the connection.
 
-   - To remove a connection, on the shortcut menu for either one of the connected terminals, choose **Break Links**.
+  - To remove a connection, on the shortcut menu for either one of the connected terminals, choose **Break Links**.
 
-   - To configure the properties of a node, select the node, and then, in the **Properties** window, specify new values for the properties.
+  - To configure the properties of a node, select the node, and then, in the **Properties** window, specify new values for the properties.
 
 ### Preview shaders
 

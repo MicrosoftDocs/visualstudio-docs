@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "project system"
   - "tutorial"
 ms.assetid: aee48fc6-a15f-4fd5-8420-7f18824de220
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

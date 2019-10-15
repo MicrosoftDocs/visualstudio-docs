@@ -93,7 +93,7 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
  If you run a solution that you have created from the **Minimal Language** template, your experimental Visual Studio will resemble the following example:
 
- ![](../modeling/media/dsl_min.png)
+ ![Domain specific language sample tree in Visual Studio](../modeling/media/dsl_min.png)
 
  Experiment with the tools. Create elements and connect them.
 

@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugComPlusSymbolProvider2 interface"
 ms.assetid: fa2f9b49-03ad-43c7-92d6-6dcb9c3d0531
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

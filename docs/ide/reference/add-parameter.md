@@ -26,14 +26,14 @@ This code generation applies to:
 
 1. Add an extra argument to a method call.
 
-   A red "squiggly" appears under the name of the method where you call it.
+   A red squiggle appears under the name of the method where you call it.
 
-2. Place your pointer over the red "squiggly" until the Quick Actions menu appears. Select the **down arrow** on the Quick Actions menu, and then select **Add parameter to [method]**.
+2. Place your pointer over the red squiggle until the Quick Actions menu appears. Select the **down arrow** on the Quick Actions menu, and then select **Add parameter to [method]**.
 
    ![Add parameter to method quick action in Visual Studio](media/add-parameter-to-method.png)
 
    > [!TIP]
-   > You can also access the Quick Actions menu by placing your cursor on the line of the method call, and then either pressing **Ctrl**+**.** or selecting the light bulb icon in the file margin.
+   > You can also access the Quick Actions menu by placing your cursor on the line of the method call, and then either pressing **Ctrl**+**.** (period) or selecting the light bulb icon in the file margin.
 
    Visual Studio adds the new parameter to the method declaration.
 

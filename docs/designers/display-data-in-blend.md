@@ -1,5 +1,6 @@
 ---
-title: Display data in Blend
+title: Visualize sample data in a XAML UI
+titleSuffix: Blend for Visual Studio
 ms.date: 03/06/2018
 ms.topic: conceptual
 ms.assetid: 87d31b6c-4607-4121-bb7d-cfc80390ab93
@@ -9,7 +10,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Display data in Blend
+# Display data in Blend for Visual Studio
 
 You can view sample data in your designer as you customize the layout of your pages. You can generate sample data from scratch or by using an existing class. You can also connect to *Live data* that appears in your app when you run it.
 
@@ -25,9 +26,7 @@ If you want your sample data to appear in your pages when you run the app, choos
 
 ![Enable When Running Application menu item](../designers/media/05d5356d-91bb-4e6b-b3f7-29b76852c4b3.png)
 
- **Watch a short video:** ![Play icon](../designers/media/bldadminconsoleinitialconfigicon.PNG) [Create sample data from scratch](http://www.bing.com/videos/search?q=blend%20data&qs=n&form=QBVR&pq=blend%20data&sc=8-7&sp=-1&sk=#view=detail&mid=F8F2449A76956D480FD2F8F2449A76956D480FD2).
-
- **Watch a short video:** ![Play icon](../designers/media/bldadminconsoleinitialconfigicon.PNG) [Mixing up some data binding with Blend](https://www.youtube.com/watch?v=LSwPB6CAvjg).
+**Watch a short video:** ![Play icon](../designers/media/bldadminconsoleinitialconfigicon.PNG) [Create sample data from scratch](http://www.bing.com/videos/search?q=blend%20data&qs=n&form=QBVR&pq=blend%20data&sc=8-7&sp=-1&sk=#view=detail&mid=F8F2449A76956D480FD2F8F2449A76956D480FD2).
 
 ## Generate sample data from a class
 
@@ -35,17 +34,7 @@ If you've already created classes that describe the structure of your data, you 
 
 To generate sample data from a class, open a XAML document, and then in the **Data** panel, click the **Create sample data** ![Create sample data icon](../designers/media/30540d76-7256-43ce-b5d9-4b2edf3d339f.png) button, and then click **Create Sample Data from Class**.
 
-**Watch a short video:** ![Play icon](../designers/media/bldadminconsoleinitialconfigicon.PNG) [Create sample data from a class](https://channel9.msdn.com/Shows/Inside+Windows+Phone/IWP54--Windows-Phone-Data-Binding-and-the-Magic-of-XAML).
-
 **Watch a short video:** ![Play icon](../designers/media/bldadminconsoleinitialconfigicon.PNG) [Mix up some data binding with Blend](https://www.youtube.com/watch?v=LSwPB6CAvjg).
-
-## Show live data in a WPF application
-
-**Watch a short video:** ![Play icon](../designers/media/bldadminconsoleinitialconfigicon.PNG) [Create an XML data source](https://www.youtube.com/watch?v=RjQueappjqk&feature=youtube_gdata).
-
-## Show live data in a store or phone app
-
-See [Work with data and files (XAML)](/previous-versions/windows/apps/br229562(v=win.10)).
 
 ## See also
 

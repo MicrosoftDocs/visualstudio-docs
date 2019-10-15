@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "code snippets, retrieving list"
   - "GetSnippets method"
 ms.assetid: 7d142f8b-35b1-44c4-a13e-f89f6460c906
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

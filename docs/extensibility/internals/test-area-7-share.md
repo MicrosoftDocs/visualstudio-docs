@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], sharing items"
   - "source control plug-ins, sharing items"
 ms.assetid: 6ec4780a-bda4-4327-bb3e-c6c9e7eabf35
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

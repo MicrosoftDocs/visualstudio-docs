@@ -1,5 +1,5 @@
 ---
-title: "How to: Set a Custom Log File Location for ClickOnce Deployment Errors | Microsoft Docs"
+title: "Set custom log file location for ClickOnce deploy errors"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

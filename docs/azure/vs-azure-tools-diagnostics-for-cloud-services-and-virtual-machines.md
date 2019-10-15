@@ -1,5 +1,5 @@
 ---
-title: Set up diagnostics for Azure Cloud Services and virtual machines | Microsoft Docs
+title: Diagnostics for Azure Cloud Services and virtual machines
 description: Learn how to set up diagnostics for debugging Azure cloud services and virtual machines (VMs) in Visual Studio.
 author: ghogen
 manager: jillfra
@@ -77,7 +77,7 @@ In Visual Studio, you can collect diagnostics data for roles that run in Azure w
 5. To view the **Diagnostics configuration** dialog box, select **Configure**. Except for **General** and **Log Directories**, each tab represents a diagnostics data source that you can collect. The default **General** tab offers the following diagnostics data collection options: **Errors only**, **All information**, and **Custom plan**. The default **Errors only** option uses the least amount of storage, because it doesn’t transfer warnings or tracing messages. The **All information** option transfers the most information, uses the most storage, and therefore, is the most expensive option.
 
    > [!NOTE]
-   > Minimum supported size for “Disk Quota in MB” is 4GB. However, if you are collecting Memory dumps, increase this to a higher value like 10GB.
+   > Minimum supported size for “Disk Quota in MB” is 50MB, and the default size is 4GB. However, if you are collecting Memory dumps, increase this to a higher value like 10GB.
    >
 
     ![Enable Azure diagnostics and configuration](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758144.png)
