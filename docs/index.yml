@@ -124,7 +124,7 @@ additionalContent:
      items:
       - title: Develop
         summary: Write and manage your code using the code editor.
-        url: ide/index-writing-code.md
+        url: ide/index-writing-code.yml
       - title: Build
         summary: Compile and build your source code.
         url: ide/compiling-and-building-in-visual-studio.md
