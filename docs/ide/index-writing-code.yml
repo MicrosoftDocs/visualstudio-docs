@@ -1,11 +1,11 @@
 ### YamlMime:Landing
 
 title: Edit code in Visual Studio
-summary: This page provides links for tasks such as creating or opening a project, using code editor features, and maintaining consistent code style. If you're more interested in learning how to use a particular programming language in Visual Studio, it has links for that, too.
+summary: This page provides links for tasks such as opening a project, using code editor features, and maintaining consistent code style.
 
 metadata:
   title: Code editor features
-  description: Learn how to use the code editor and other tools in Visual Studio to write, navigate, manage, and improve your code.
+  description: Learn about code editing features in Visual Studio.
   ms.prod: visual-studio-windows
   ms.technology: vs-ide-general
   ms.topic: landing-page

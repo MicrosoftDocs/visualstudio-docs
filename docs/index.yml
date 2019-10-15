@@ -38,7 +38,7 @@ conceptualContent:
           url: get-started/tutorial-open-project-from-repo.md
           itemType: tutorial
         - text: Write and edit code
-          url: ide/index-writing-code.md
+          url: ide/index-writing-code.yml
           itemType: tutorial
         - text: Build your code
           url: ide/compiling-and-building-in-visual-studio.md
