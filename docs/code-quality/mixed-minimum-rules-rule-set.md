@@ -149,5 +149,5 @@ Include this rule set in any custom rule set you create for your C++ projects th
 |[C28351](../code-quality/c28351.md)|The annotation describes where a dynamic value (a variable) cannot be used in the condition.|
 |[CA1001](../code-quality/ca1001-types-that-own-disposable-fields-should-be-disposable.md)|Types that own disposable fields should be disposable|
 |[CA1821](../code-quality/ca1821.md)|Remove empty finalizers|
-|[CA2213](../code-quality/ca2213-disposable-fields-should-be-disposed.md)|Disposable fields should be disposed|
-|[CA2231](../code-quality/ca2231-overload-operator-equals-on-overriding-valuetype-equals.md)|Overload operator equals on overriding ValueType.Equals|
+|[CA2213](../code-quality/ca2213.md)|Disposable fields should be disposed|
+|[CA2231](../code-quality/ca2231.md)|Overload operator equals on overriding ValueType.Equals|

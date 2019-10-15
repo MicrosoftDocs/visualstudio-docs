@@ -105,9 +105,9 @@ This article steps you through the process of using legacy analysis to analyze y
 
    [CA1710: Identifiers should have correct suffix](../code-quality/ca1710-identifiers-should-have-correct-suffix.md): Change the name of the class and its constructors to `DemoException`.
 
-   [CA2237: Mark ISerializable types with SerializableAttribute](../code-quality/ca2237-mark-iserializable-types-with-serializableattribute.md): Add the `[Serializable ()]` attribute to the class `demo`.
+   [CA2237: Mark ISerializable types with SerializableAttribute](../code-quality/ca2237.md): Add the `[Serializable ()]` attribute to the class `demo`.
 
-   [CA2210: Assemblies should have valid strong names](../code-quality/ca2210-assemblies-should-have-valid-strong-names.md): Sign 'CodeAnalysisManagedDemo' with a strong name key:
+   [CA2210: Assemblies should have valid strong names](../code-quality/ca2210.md): Sign 'CodeAnalysisManagedDemo' with a strong name key:
 
    1. On the **Project** menu, choose **CodeAnalysisManagedDemo Properties**.
 

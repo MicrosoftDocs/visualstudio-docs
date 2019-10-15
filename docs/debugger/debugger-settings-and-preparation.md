@@ -25,6 +25,10 @@ This section describes the debugger-related property settings, and the preparati
  For more information, see [How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md).
 
 ## In This Section
+
+ [How to: Specify Debugger Settings](../debugger/how-to-specify-debugger-settings.md)
+ Describes debugger settings in the **Options** dialog box.
+ 
  [Debugger Project Settings](../debugger/debugger-project-settings.md)
  Explains how to specify debugger settings, how to set debug and release configurations, and how to manage symbols and source code. Also describes appropriate project settings for C++, C#, F#, and Visual Basic debug configurations, as well as web projects.
 
