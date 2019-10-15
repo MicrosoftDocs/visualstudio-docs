@@ -44,8 +44,6 @@
     items:
     - name: Use breakpoints
       href: using-breakpoints.md
-    - name: Use tracepoints
-      href: using-tracepoints.md
     - name: Troubleshooting breakpoints
       href: troubleshooting-breakpoints.md
   - name: Data inspection
@@ -138,6 +136,8 @@
         href: xaml-hot-reload-troubleshooting.md
     - name: Edit and Continue not supported for F#
       href: edit-and-continue-not-supported-for-f-hash.md
+  - name: Log to Output window
+    href: using-tracepoints.md
   - name: View debugger data
     items:
     - name: Modules
