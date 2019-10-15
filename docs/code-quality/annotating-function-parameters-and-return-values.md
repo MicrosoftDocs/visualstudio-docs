@@ -1,6 +1,6 @@
 ---
 title: Annotating Function Parameters and Return Values
-ms.date: 07/11/2019
+ms.date: 10/15/2019
 ms.topic: "conceptual"
 f1_keywords:
   - "_Outptr_opt_result_bytebuffer_to_"
