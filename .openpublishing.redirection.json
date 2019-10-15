@@ -7752,12 +7752,12 @@
     },
     {
       "source_path": "scripting-docs/winscript/index.md",
-      "redirect_url": "/script/winscript/active-script-debugging-overview",
+      "redirect_url": "/scripting/winscript/active-script-debugging-overview",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/index.md",
-      "redirect_url": "/script/winscript/windows-script-interfaces-reference",
+      "redirect_url": "/scripting/winscript/reference/windows-script-interfaces-reference",
       "redirect_document_id": false
     },
     {
