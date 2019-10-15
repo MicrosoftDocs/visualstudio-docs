@@ -54,7 +54,7 @@ The following example shows a type that implements <xref:System.IDisposable> to 
 
 [CA1816: Call GC.SuppressFinalize correctly](../code-quality/ca1816.md)
 
-[CA2216: Disposable types should declare finalizer](../code-quality/ca2216-disposable-types-should-declare-finalizer.md)
+[CA2216: Disposable types should declare finalizer](../code-quality/ca2216.md)
 
 [CA1001: Types that own disposable fields should be disposable](../code-quality/ca1001-types-that-own-disposable-fields-should-be-disposable.md)
 
