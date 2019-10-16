@@ -24,6 +24,9 @@ If the icons show up in the same cells every game, it's not very challenging. To
      [!code-csharp[VbExpressTutorial4Step2_3_4#2](../ide/codesnippet/CSharp/step-3-assign-a-random-icon-to-each-label_1.cs)]
      [!code-vb[VbExpressTutorial4Step2_3_4#2](../ide/codesnippet/VisualBasic/step-3-assign-a-random-icon-to-each-label_1.vb)]
 
+      > [!IMPORTANT]
+      > Use the programming language control at the top right of this page to view either the C# code snippet or the Visual Basic code snippet.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
+
 2. Add the `AssignIconsToSquares()` method as shown in the previous step. You can put it just below the code you added in [Step 2: Add a Random object and a list of icons](../ide/step-2-add-a-random-object-and-a-list-of-icons.md).
 
      As mentioned earlier, there's something new in your `AssignIconsToSquares()` method: a `foreach` loop in Visual C# and `For Each` in Visual Basic. You can use a `For Each` loop any time you want to do the same action multiple times. In this case, you want to execute the same statements for every label on your <xref:System.Windows.Forms.TableLayoutPanel>, as explained by the following code. The first line creates a variable named `control` that stores each control one at a time while that control has the statements in the loop executed on it.

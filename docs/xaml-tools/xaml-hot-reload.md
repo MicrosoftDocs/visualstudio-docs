@@ -49,6 +49,7 @@ The following are known limitations of XAML Hot Reload. To work around any limit
 |Adding new controls, classes, windows, or other files to your project while the app is running|Not Supported|Not Supported|None|
 |Managing NuGet packages (adding/removing/updating packages)|Not Supported|Not Supported|None|
 |Changing data binding that uses the {x:Bind} markup extension|N/A|Supported starting in Visual Studio 2019|This requires Windows 10 version 1809 (build 10.0.17763). Not supported in Visual Studio 2017 or previous versions.|
+|Changing x:Uid directives is not supported|N/A|Not Supported|None|
 
 ## Error messages
 

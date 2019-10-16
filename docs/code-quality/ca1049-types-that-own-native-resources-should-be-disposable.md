@@ -50,11 +50,11 @@ The following example shows a type that implements <xref:System.IDisposable> to 
 [!code-vb[FxCop.Design.UnmanagedResources#1](../code-quality/codesnippet/VisualBasic/ca1049-types-that-own-native-resources-should-be-disposable_1.vb)]
 
 ## Related rules
-[CA2115: Call GC.KeepAlive when using native resources](../code-quality/ca2115-call-gc-keepalive-when-using-native-resources.md)
+[CA2115: Call GC.KeepAlive when using native resources](../code-quality/ca2115.md)
 
-[CA1816: Call GC.SuppressFinalize correctly](../code-quality/ca1816-call-gc-suppressfinalize-correctly.md)
+[CA1816: Call GC.SuppressFinalize correctly](../code-quality/ca1816.md)
 
-[CA2216: Disposable types should declare finalizer](../code-quality/ca2216-disposable-types-should-declare-finalizer.md)
+[CA2216: Disposable types should declare finalizer](../code-quality/ca2216.md)
 
 [CA1001: Types that own disposable fields should be disposable](../code-quality/ca1001-types-that-own-disposable-fields-should-be-disposable.md)
 

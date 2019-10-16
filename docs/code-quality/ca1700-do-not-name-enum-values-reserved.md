@@ -52,7 +52,7 @@ It is safe to suppress a warning from this rule for a member that is currently u
 
 ## Related rules
 
-[CA2217: Do not mark enums with FlagsAttribute](../code-quality/ca2217-do-not-mark-enums-with-flagsattribute.md)
+[CA2217: Do not mark enums with FlagsAttribute](../code-quality/ca2217.md)
 
 [CA1712: Do not prefix enum values with type name](../code-quality/ca1712-do-not-prefix-enum-values-with-type-name.md)
 

@@ -63,7 +63,7 @@ The following example shows how to apply the custom attribute to two properties:
 [!code-csharp[FxCop.Design.AttributeAccessorsNamedApplied#1](../code-quality/codesnippet/CSharp/ca1019-define-accessors-for-attribute-arguments_3.cs)]
 
 ## Related rules
-[CA1813: Avoid unsealed attributes](../code-quality/ca1813-avoid-unsealed-attributes.md)
+[CA1813: Avoid unsealed attributes](../code-quality/ca1813.md)
 
 ## See also
 [Attributes](/dotnet/standard/design-guidelines/attributes)

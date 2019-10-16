@@ -44,8 +44,6 @@
     items:
     - name: Use breakpoints
       href: using-breakpoints.md
-    - name: Use tracepoints
-      href: using-tracepoints.md
     - name: Troubleshooting breakpoints
       href: troubleshooting-breakpoints.md
   - name: Data inspection
@@ -138,6 +136,8 @@
         href: ../xaml-tools/xaml-hot-reload-troubleshooting.md?toc=/visualstudio/debugger/toc.json
     - name: Edit and Continue not supported for F#
       href: edit-and-continue-not-supported-for-f-hash.md
+  - name: Log to Output window
+    href: using-tracepoints.md
   - name: View debugger data
     items:
     - name: Modules
@@ -238,7 +238,7 @@
           href: visual-cpp-custom-visualizer-compatibility.md
       - name: Custom views (managed)
         items:
-        - name: Create custom views of objects
+        - name: Create custom views of managed objects
           href: create-custom-views-of-dot-managed-objects.md
         - name: Tell the debugger what to show
           href: using-the-debuggerdisplay-attribute.md

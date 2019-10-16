@@ -54,7 +54,7 @@ The following example shows an incorrectly named enumeration followed by the cor
 
 [CA1027: Mark enums with FlagsAttribute](../code-quality/ca1027-mark-enums-with-flagsattribute.md)
 
-[CA2217: Do not mark enums with FlagsAttribute](../code-quality/ca2217-do-not-mark-enums-with-flagsattribute.md)
+[CA2217: Do not mark enums with FlagsAttribute](../code-quality/ca2217.md)
 
 ## See also
 

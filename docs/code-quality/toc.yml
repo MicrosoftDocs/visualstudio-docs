@@ -203,9 +203,9 @@
           displayName: "cryptography warnings"
           href: cryptography-warnings.md
         - name: "CA5350: Do Not Use Weak Cryptographic Algorithms"
-          href: ca5350-do-not-use-weak-cryptographic-algorithms.md
+          href: ca5350.md
         - name: "CA5351 Do Not Use Broken Cryptographic Algorithms"
-          href: ca5351-do-not-use-broken-cryptographic-algorithms.md
+          href: ca5351.md
       - name: Design warnings
         items:
         - name: Overview
@@ -336,7 +336,7 @@
         - name: "CA1068: CancellationToken parameters must come last"
           href: ca1068.md
         - name: "CA2210: Assemblies should have valid strong names"
-          href: ca2210-assemblies-should-have-valid-strong-names.md
+          href: ca2210.md
       - name: Documentation warnings
         items:
         - name: Overview
@@ -370,7 +370,7 @@
         - name: "CA1309: Use ordinal StringComparison"
           href: ca1309-use-ordinal-stringcomparison.md
         - name: "CA2101: Specify marshaling for P-Invoke string arguments"
-          href: ca2101-specify-marshaling-for-p-invoke-string-arguments.md
+          href: ca2101.md
       - name: Interoperability warnings
         items:
         - name: Overview
@@ -493,37 +493,43 @@
           displayName: "performance warnings"
           href: performance-warnings.md
         - name: "CA1800: Do not cast unnecessarily"
-          href: ca1800-do-not-cast-unnecessarily.md
+          href: ca1800.md
+        - name: "CA1801: Review unused parameters"
+          href: ca1801.md
         - name: "CA1802: Use Literals Where Appropriate"
-          href: ca1802-use-literals-where-appropriate.md
+          href: ca1802.md
         - name: "CA1804: Remove unused locals"
-          href: ca1804-remove-unused-locals.md
+          href: ca1804.md
+        - name: "CA1806: Do not ignore method results"
+          href: ca1806.md
         - name: "CA1809: Avoid excessive locals"
-          href: ca1809-avoid-excessive-locals.md
+          href: ca1809.md
         - name: "CA1810: Initialize reference type static fields inline"
-          href: ca1810-initialize-reference-type-static-fields-inline.md
+          href: ca1810.md
         - name: "CA1811: Avoid uncalled private code"
-          href: ca1811-avoid-uncalled-private-code.md
+          href: ca1811.md
         - name: "CA1812: Avoid uninstantiated internal classes"
-          href: ca1812-avoid-uninstantiated-internal-classes.md
+          href: ca1812.md
         - name: "CA1813: Avoid unsealed attributes"
-          href: ca1813-avoid-unsealed-attributes.md
+          href: ca1813.md
         - name: "CA1814: Prefer jagged arrays over multidimensional"
-          href: ca1814-prefer-jagged-arrays-over-multidimensional.md
+          href: ca1814.md
         - name: "CA1815: Override equals and operator equals on value types"
-          href: ca1815-override-equals-and-operator-equals-on-value-types.md
+          href: ca1815.md
+        - name: "CA1816: Call GC.SuppressFinalize correctly"
+          href: ca1816.md
         - name: "CA1819: Properties should not return arrays"
-          href: ca1819-properties-should-not-return-arrays.md
+          href: ca1819.md
         - name: "CA1820: Test for empty strings using string length"
-          href: ca1820-test-for-empty-strings-using-string-length.md
+          href: ca1820.md
         - name: "CA1821: Remove empty finalizers"
-          href: ca1821-remove-empty-finalizers.md
+          href: ca1821.md
         - name: "CA1822: Mark members as static"
-          href: ca1822-mark-members-as-static.md
+          href: ca1822.md
         - name: "CA1823: Avoid unused private fields"
-          href: ca1823-avoid-unused-private-fields.md
+          href: ca1823.md
         - name: "CA1824: Mark assemblies with NeutralResourcesLanguageAttribute"
-          href: ca1824-mark-assemblies-with-neutralresourceslanguageattribute.md
+          href: ca1824.md
         - name: "CA1825: Avoid zero-length array allocations"
           href: ca1825.md
       - name: Portability warnings
@@ -562,95 +568,95 @@
           displayName: "security warnings"
           href: security-warnings.md
         - name: "CA2100: Review SQL queries for security vulnerabilities"
-          href: ca2100-review-sql-queries-for-security-vulnerabilities.md
+          href: ca2100.md
         - name: "CA2102: Catch non-CLSCompliant exceptions in general handlers"
-          href: ca2102-catch-non-clscompliant-exceptions-in-general-handlers.md
+          href: ca2102.md
         - name: "CA2103: Review imperative security"
-          href: ca2103-review-imperative-security.md
+          href: ca2103.md
         - name: "CA2104: Do not declare read only mutable reference types"
-          href: ca2104-do-not-declare-read-only-mutable-reference-types.md
+          href: ca2104.md
         - name: "CA2105: Array fields should not be read only"
-          href: ca2105-array-fields-should-not-be-read-only.md
+          href: ca2105.md
         - name: "CA2106: Secure asserts"
-          href: ca2106-secure-asserts.md
+          href: ca2106.md
         - name: "CA2107: Review deny and permit only usage"
-          href: ca2107-review-deny-and-permit-only-usage.md
+          href: ca2107.md
         - name: "CA2108: Review declarative security on value types"
-          href: ca2108-review-declarative-security-on-value-types.md
+          href: ca2108.md
         - name: "CA2109: Review visible event handlers"
-          href: ca2109-review-visible-event-handlers.md
+          href: ca2109.md
         - name: "CA2111: Pointers should not be visible"
-          href: ca2111-pointers-should-not-be-visible.md
+          href: ca2111.md
         - name: "CA2112: Secured types should not expose fields"
-          href: ca2112-secured-types-should-not-expose-fields.md
+          href: ca2112.md
         - name: "CA2114: Method security should be a superset of type"
-          href: ca2114-method-security-should-be-a-superset-of-type.md
+          href: ca2114.md
         - name: "CA2115: Call GC.KeepAlive when using native resources"
-          href: ca2115-call-gc-keepalive-when-using-native-resources.md
+          href: ca2115.md
         - name: "CA2116: APTCA methods should only call APTCA methods"
-          href: ca2116-aptca-methods-should-only-call-aptca-methods.md
+          href: ca2116.md
         - name: "CA2117: APTCA types should only extend APTCA base types"
-          href: ca2117-aptca-types-should-only-extend-aptca-base-types.md
+          href: ca2117.md
         - name: "CA2118: Review SuppressUnmanagedCodeSecurityAttribute usage"
-          href: ca2118-review-suppressunmanagedcodesecurityattribute-usage.md
+          href: ca2118.md
         - name: "CA2119: Seal methods that satisfy private interfaces"
-          href: ca2119-seal-methods-that-satisfy-private-interfaces.md
+          href: ca2119.md
         - name: "CA2120: Secure serialization constructors"
-          href: ca2120-secure-serialization-constructors.md
+          href: ca2120.md
         - name: "CA2121: Static constructors should be private"
-          href: ca2121-static-constructors-should-be-private.md
+          href: ca2121.md
         - name: "CA2122: Do not indirectly expose methods with link demands"
-          href: ca2122-do-not-indirectly-expose-methods-with-link-demands.md
+          href: ca2122.md
         - name: "CA2123: Override link demands should be identical to base"
-          href: ca2123-override-link-demands-should-be-identical-to-base.md
+          href: ca2123.md
         - name: "CA2124: Wrap vulnerable finally clauses in outer try"
-          href: ca2124-wrap-vulnerable-finally-clauses-in-outer-try.md
+          href: ca2124.md
         - name: "CA2126: Type link demands require inheritance demands"
-          href: ca2126-type-link-demands-require-inheritance-demands.md
+          href: ca2126.md
         - name: "CA2130: Security critical constants should be transparent"
-          href: ca2130-security-critical-constants-should-be-transparent.md
+          href: ca2130.md
         - name: "CA2131: Security critical types may not participate in type equivalence"
-          href: ca2131-security-critical-types-may-not-participate-in-type-equivalence.md
+          href: ca2131.md
         - name: "CA2132: Default constructors must be at least as critical as base type default constructors"
-          href: ca2132-default-constructors-must-be-at-least-as-critical-as-base-type-default-constructors.md
+          href: ca2132.md
         - name: "CA2133: Delegates must bind to methods with consistent transparency"
-          href: ca2133-delegates-must-bind-to-methods-with-consistent-transparency.md
+          href: ca2133.md
         - name: "CA2134: Methods must keep consistent transparency when overriding base methods"
-          href: ca2134-methods-must-keep-consistent-transparency-when-overriding-base-methods.md
+          href: ca2134.md
         - name: "CA2135: Level 2 assemblies should not contain LinkDemands"
-          href: ca2135-level-2-assemblies-should-not-contain-linkdemands.md
+          href: ca2135.md
         - name: "CA2136: Members should not have conflicting transparency annotations"
-          href: ca2136-members-should-not-have-conflicting-transparency-annotations.md
+          href: ca2136.md
         - name: "CA2137: Transparent methods must contain only verifiable IL"
-          href: ca2137-transparent-methods-must-contain-only-verifiable-il.md
+          href: ca2137.md
         - name: "CA2138: Transparent methods must not call methods with the SuppressUnmanagedCodeSecurity attribute"
-          href: ca2138-transparent-methods-must-not-call-methods-with-the-suppressunmanagedcodesecurity-attribute.md
+          href: ca2138.md
         - name: "CA2139: Transparent methods may not use the HandleProcessCorruptingExceptions attribute"
-          href: ca2139-transparent-methods-may-not-use-the-handleprocesscorruptingexceptions-attribute.md
+          href: ca2139.md
         - name: "CA2140: Transparent code must not reference security critical items"
-          href: ca2140-transparent-code-must-not-reference-security-critical-items.md
+          href: ca2140.md
         - name: "CA2141:Transparent methods must not satisfy LinkDemands"
-          href: ca2141-transparent-methods-must-not-satisfy-linkdemands.md
+          href: ca2141.md
         - name: "CA2142: Transparent code should not be protected with LinkDemands"
-          href: ca2142-transparent-code-should-not-be-protected-with-linkdemands.md
+          href: ca2142.md
         - name: "CA2143: Transparent methods should not use security demands"
-          href: ca2143-transparent-methods-should-not-use-security-demands.md
+          href: ca2143.md
         - name: "CA2144: Transparent code should not load assemblies from byte arrays"
-          href: ca2144-transparent-code-should-not-load-assemblies-from-byte-arrays.md
+          href: ca2144.md
         - name: "CA2145: Transparent methods should not be decorated with the SuppressUnmanagedCodeSecurityAttribute"
-          href: ca2145-transparent-methods-should-not-be-decorated-with-the-suppressunmanagedcodesecurityattribute.md
+          href: ca2145.md
         - name: "CA2146: Types must be at least as critical as their base types and interfaces"
-          href: ca2146-types-must-be-at-least-as-critical-as-their-base-types-and-interfaces.md
+          href: ca2146.md
         - name: "CA2147: Transparent methods may not use security asserts"
-          href: ca2147-transparent-methods-may-not-use-security-asserts.md
+          href: ca2147.md
         - name: "CA2149: Transparent methods must not call into native code"
-          href: ca2149-transparent-methods-must-not-call-into-native-code.md
+          href: ca2149.md
         - name: "CA2151: Fields with critical types should be security critical"
-          href: ca2151-fields-with-critical-types-should-be-security-critical.md
+          href: ca2151.md
         - name: "CA5122 P-Invoke declarations should not be safe critical"
-          href: ca5122-p-invoke-declarations-should-not-be-safe-critical.md
+          href: ca5122.md
         - name: "CA2153: Avoid Handling Corrupted State Exceptions"
-          href: ca2153-avoid-handling-corrupted-state-exceptions.md
+          href: ca2153.md
         - name: "CA2300: Do not use insecure deserializer BinaryFormatter"
           href: ca2300.md
         - name: "CA2301: Do not call BinaryFormatter.Deserialize without first setting BinaryFormatter.Binder"
@@ -708,13 +714,13 @@
         - name: "CA3061: Do not add schema by URL"
           href: ca3061.md
         - name: "CA3075: Insecure DTD Processing"
-          href: ca3075-insecure-dtd-processing.md
+          href: ca3075.md
         - name: "CA3076: Insecure XSLT Script Execution"
-          href: ca3076-insecure-xslt-script-execution.md
+          href: ca3076.md
         - name: "CA3077: Insecure Processing in API Design, XML Document and XML Text Reader"
-          href: ca3077-insecure-processing-in-api-design-xml-document-and-xml-text-reader.md
+          href: ca3077.md
         - name: "CA3147: Mark verb handlers with ValidateAntiForgeryToken"
-          href: ca3147-mark-verb-handlers-with-validateantiforgerytoken.md
+          href: ca3147.md
         - name: "CA5361: Do not disable SChannel use of strong crypto"
           href: ca5361.md
         - name: "CA5363: Do not disable request validation"
@@ -751,91 +757,91 @@
           displayName: "usage warnings"
           href: usage-warnings.md
         - name: "CA1801: Review unused parameters"
-          href: ca1801-review-unused-parameters.md
+          href: ca1801.md
         - name: "CA1806: Do not ignore method results"
-          href: ca1806-do-not-ignore-method-results.md
+          href: ca1806.md
         - name: "CA1816: Call GC.SuppressFinalize correctly"
-          href: ca1816-call-gc-suppressfinalize-correctly.md
+          href: ca1816.md
         - name: "CA2200: Rethrow to preserve stack details"
-          href: ca2200-rethrow-to-preserve-stack-details.md
+          href: ca2200.md
         - name: "CA2201: Do not raise reserved exception types"
-          href: ca2201-do-not-raise-reserved-exception-types.md
+          href: ca2201.md
         - name: "CA2202: Do not dispose objects multiple times"
-          href: ca2202-do-not-dispose-objects-multiple-times.md
+          href: ca2202.md
         - name: "CA2204: Literals should be spelled correctly"
-          href: ca2204-literals-should-be-spelled-correctly.md
+          href: ca2204.md
         - name: "CA2205: Use managed equivalents of Win32 API"
-          href: ca2205-use-managed-equivalents-of-win32-api.md
+          href: ca2205.md
         - name: "CA2207: Initialize value type static fields inline"
-          href: ca2207-initialize-value-type-static-fields-inline.md
+          href: ca2207.md
         - name: "CA2208: Instantiate argument exceptions correctly"
-          href: ca2208-instantiate-argument-exceptions-correctly.md
+          href: ca2208.md
         - name: "CA2211: Non-constant fields should not be visible"
-          href: ca2211-non-constant-fields-should-not-be-visible.md
+          href: ca2211.md
         - name: "CA2212: Do not mark serviced components with WebMethod"
-          href: ca2212-do-not-mark-serviced-components-with-webmethod.md
+          href: ca2212.md
         - name: "CA2213: Disposable fields should be disposed"
-          href: ca2213-disposable-fields-should-be-disposed.md
+          href: ca2213.md
         - name: "CA2214: Do not call overridable methods in constructors"
-          href: ca2214-do-not-call-overridable-methods-in-constructors.md
+          href: ca2214.md
         - name: "CA2215: Dispose methods should call base class dispose"
-          href: ca2215-dispose-methods-should-call-base-class-dispose.md
+          href: ca2215.md
         - name: "CA2216: Disposable types should declare finalizer"
-          href: ca2216-disposable-types-should-declare-finalizer.md
+          href: ca2216.md
         - name: "CA2217: Do not mark enums with FlagsAttribute"
-          href: ca2217-do-not-mark-enums-with-flagsattribute.md
+          href: ca2217.md
         - name: "CA2218: Override GetHashCode on overriding Equals"
-          href: ca2218-override-gethashcode-on-overriding-equals.md
+          href: ca2218.md
         - name: "CA2219: Do not raise exceptions in exception clauses"
-          href: ca2219-do-not-raise-exceptions-in-exception-clauses.md
+          href: ca2219.md
         - name: "CA2220: Finalizers should call base class finalizer"
-          href: ca2220-finalizers-should-call-base-class-finalizer.md
+          href: ca2220.md
         - name: "CA2221: Finalizers should be protected"
-          href: ca2221-finalizers-should-be-protected.md
+          href: ca2221.md
         - name: "CA2222: Do not decrease inherited member visibility"
-          href: ca2222-do-not-decrease-inherited-member-visibility.md
+          href: ca2222.md
         - name: "CA2223: Members should differ by more than return type"
-          href: ca2223-members-should-differ-by-more-than-return-type.md
+          href: ca2223.md
         - name: "CA2224: Override equals on overloading operator equals"
-          href: ca2224-override-equals-on-overloading-operator-equals.md
+          href: ca2224.md
         - name: "CA2225: Operator overloads have named alternates"
-          href: ca2225-operator-overloads-have-named-alternates.md
+          href: ca2225.md
         - name: "CA2226: Operators should have symmetrical overloads"
-          href: ca2226-operators-should-have-symmetrical-overloads.md
+          href: ca2226.md
         - name: "CA2227: Collection properties should be read only"
-          href: ca2227-collection-properties-should-be-read-only.md
+          href: ca2227.md
         - name: "CA2228: Do not ship unreleased resource formats"
-          href: ca2228-do-not-ship-unreleased-resource-formats.md
+          href: ca2228.md
         - name: "CA2229: Implement serialization constructors"
-          href: ca2229-implement-serialization-constructors.md
+          href: ca2229.md
         - name: "CA2230: Use params for variable arguments"
-          href: ca2230-use-params-for-variable-arguments.md
+          href: ca2230.md
         - name: "CA2231: Overload operator equals on overriding ValueType.Equals"
-          href: ca2231-overload-operator-equals-on-overriding-valuetype-equals.md
+          href: ca2231.md
         - name: "CA2232: Mark Windows Forms entry points with STAThread"
-          href: ca2232-mark-windows-forms-entry-points-with-stathread.md
+          href: ca2232.md
         - name: "CA2233: Operations should not overflow"
-          href: ca2233-operations-should-not-overflow.md
+          href: ca2233.md
         - name: "CA2234: Pass System.Uri objects instead of strings"
-          href: ca2234-pass-system-uri-objects-instead-of-strings.md
+          href: ca2234.md
         - name: "CA2235: Mark all non-serializable fields"
-          href: ca2235-mark-all-non-serializable-fields.md
+          href: ca2235.md
         - name: "CA2236: Call base class methods on ISerializable types"
-          href: ca2236-call-base-class-methods-on-iserializable-types.md
+          href: ca2236.md
         - name: "CA2237: Mark ISerializable types with SerializableAttribute"
-          href: ca2237-mark-iserializable-types-with-serializableattribute.md
+          href: ca2237.md
         - name: "CA2238: Implement serialization methods correctly"
-          href: ca2238-implement-serialization-methods-correctly.md
+          href: ca2238.md
         - name: "CA2239: Provide deserialization methods for optional fields"
-          href: ca2239-provide-deserialization-methods-for-optional-fields.md
+          href: ca2239.md
         - name: "CA2240: Implement ISerializable correctly"
-          href: ca2240-implement-iserializable-correctly.md
+          href: ca2240.md
         - name: "CA2241: Provide correct arguments to formatting methods"
-          href: ca2241-provide-correct-arguments-to-formatting-methods.md
+          href: ca2241.md
         - name: "CA2242: Test for NaN correctly"
-          href: ca2242-test-for-nan-correctly.md
+          href: ca2242.md
         - name: "CA2243: Attribute string literals should parse correctly"
-          href: ca2243-attribute-string-literals-should-parse-correctly.md
+          href: ca2243.md
       - name: Automatic feature suspension
         href: automatic-feature-suspension.md
 - name: Analyze C/C++ code

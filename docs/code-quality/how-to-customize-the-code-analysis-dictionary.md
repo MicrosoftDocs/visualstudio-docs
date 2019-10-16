@@ -101,7 +101,7 @@ Terms in Dictionary/Words/Recognized nodes are applied to the following code ana
 
 - [CA1726: Use preferred terms](../code-quality/ca1726-use-preferred-terms.md)
 
-- [CA2204: Literals should be spelled correctly](../code-quality/ca2204-literals-should-be-spelled-correctly.md)
+- [CA2204: Literals should be spelled correctly](../code-quality/ca2204.md)
 
 ### <a name="BKMK_DictionaryWordsUnrecognizedWord"></a> Dictionary/Words/Unrecognized/Word
 
@@ -136,7 +136,7 @@ Terms in the Dictionary/Words/Unrecognized node are applied to the following cod
 
 - [CA1726: Use preferred terms](../code-quality/ca1726-use-preferred-terms.md)
 
-- [CA2204: Literals should be spelled correctly](../code-quality/ca2204-literals-should-be-spelled-correctly.md)
+- [CA2204: Literals should be spelled correctly](../code-quality/ca2204.md)
 
 ### <a name="BKMK_DictionaryWordsDeprecatedTermPreferredAlternate"></a> Dictionary/Words/Deprecated/Term[@PreferredAlternate]
 
@@ -144,7 +144,7 @@ To include a term in the list of terms that code analysis identifies as deprecat
 
 To include a suggested alternate term in the warning, specify the alternate in the PreferredAlternate attribute of the Term element. You can leave the attribute value empty if you do not want to suggest an alternate.
 
-- The deprecated term in Dictionary/Words/ Deprecated/Term element is not case-sensitive.
+- The deprecated term in Dictionary/Words/Deprecated/Term element is not case-sensitive.
 
 - The PreferredAlternate attribute value is case-sensitive. Use Pascal case for compound alternates.
 
@@ -179,9 +179,9 @@ Terms in the Dictionary/Words/Deprecated node are applied to the following code 
 
 The built-in dictionary identifies some terms as single, discrete terms rather than a compound term. To include a term in the list of terms that code analysis identifies as a compound word and to specify the correct casing of the term, add the term as the inner text of a Dictionary/Words/Compound/Term element. In the CompoundAlternate attribute of the Term element, specify the individual words that make up the compound term by capitalizing the first letter of the individual words (Pascal case). Note that the term specified in the inner text is automatically added to the Dictionary/Words/DiscreteExceptions list.
 
-- The deprecated term in Dictionary/Words/ Deprecated/Term element is not case-sensitive.
+- The compound term in Dictionary/Words/Compound/Term element is not case-sensitive.
 
-- The PreferredAlternate attribute value is case-sensitive. Use Pascal case for compound alternates.
+- The CompoundAlternate attribute value is case-sensitive. Use Pascal case for compound alternates.
 
 **Example**
 

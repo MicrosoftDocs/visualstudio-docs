@@ -1,5 +1,5 @@
 ---
-title: "Create custom views of objects | Microsoft Docs"
+title: "Create custom views of managed objects | Microsoft Docs"
 ms.date: "01/08/2019"
 ms.topic: "conceptual"
 f1_keywords:
@@ -24,7 +24,7 @@ manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# Create custom views of objects (C#, Visual Basic, F#, C++/CLI)
+# Create custom views of managed objects (C#, Visual Basic, F#, C++/CLI)
 You can customize the way Visual Studio displays data types in debugger variable windows.
 
 ## Attributes

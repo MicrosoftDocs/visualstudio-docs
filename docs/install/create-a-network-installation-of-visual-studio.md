@@ -1,7 +1,7 @@
 ---
 title: "Create a network-based installation"
 description: "Learn how to create a network install point for deploying Visual Studio within an enterprise."
-ms.date: 10/07/2019
+ms.date: 10/11/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
@@ -33,7 +33,7 @@ Download a bootstrapper file for the edition of Visual Studio you want. Make sur
 
 To get a bootstrapper for Visual Studio 2017, see the [Visual Studio previous versions](https://visualstudio.microsoft.com/vs/older-downloads/) download page for details on how to do so.
 
-Your setup executable&mdash;or to be more specific, the bootstrapper file&mdash;should match one of the following.
+Your setup executable&mdash;or to be more specific, the bootstrapper file&mdash;should match or be similar to one of the following.
 
 | Edition | Filename |
 |-------------|-----------------------|
@@ -47,7 +47,7 @@ Other supported bootstrappers include **vs_feedbackclient.exe**, **vs_teamexplor
 
 ::: moniker range="vs-2019"
 
-Your setup executable&mdash;or to be more specific, a bootstrapper file&mdash;should match one of the following.
+Your setup executable&mdash;or to be more specific, a bootstrapper file&mdash;should match or be similar to one of the following.
 
 |Edition | Download|
 |-------------|-----------------------|
@@ -58,6 +58,9 @@ Your setup executable&mdash;or to be more specific, a bootstrapper file&mdash;sh
 Other supported bootstrappers include [vs_teamexplorer.exe](https://aka.ms/vs/16/release/vs_teamexplorer.exe), [vs_testagent.exe](https://aka.ms/vs/16/release/vs_testagent.exe), and [vs_testcontroller.exe](https://aka.ms/vs/16/release/vs_testcontroller.exe).
 
 ::: moniker-end
+
+>[!TIP]
+>If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, see the [Visual Studio build numbers and release dates](visual-studio-build-numbers-and-release-dates.md) page.
 
 ## Create an offline installation folder
 
@@ -217,6 +220,13 @@ Administrators can deploy Visual Studio onto client workstations as part of an i
 > This is useful if an enterprise administrator wants to perform further actions on a completed installation (for example, to [apply a product key to a successful installation](automatically-apply-product-keys-when-deploying-visual-studio.md)) but must wait for the installation to finish to handle the return code from that installation.
 >
 > If you do not use `--wait`, the `vs_enterprise.exe` process exits before the installation is complete and returns an inaccurate exit code that doesn't represent the state of the install operation.
+>
+
+::: moniker range="vs-2019"
+
+> For offline installations, if you get an error message that says "A project matching the following parameters cannot be found", make sure that you are using the --noweb switch with version 16.3.5 or later.
+
+::: moniker-end
 
 When you install from a layout, the content that is installed is acquired from the layout. However, if you select a component that isn't in the layout, it will be acquired from the internet.  If you want to prevent Visual Studio setup from downloading any content that is missing in your layout, use the `--noWeb` option. If `--noWeb` is used and the layout is missing any content that is selected to be installed, setup fails.
 
