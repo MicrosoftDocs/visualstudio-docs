@@ -75,7 +75,7 @@ For more information about Process Lifetime Management and background tasks, see
 
          ![C&#35;&#47;VB debug launch application property](../debugger/media/dbg_csvb_dontlaunchapp.png "DBG_CsVb_DontLaunchApp")
 
-    - For Visual C++ projects, choose **No** from the **Launch application** list.
+    - For C++ projects, choose **No** from the **Launch application** list.
 
          ![C&#43;&#43;&#47;VB Launch application debug property](../debugger/media/dbg_cppjs_dontlaunchapp.png "DBG_CppJs_DontLaunchApp")
 
