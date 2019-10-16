@@ -19,13 +19,26 @@ metadata:
 # Start card title with a verb
 
 landingContent:
+
+  # Card
+  - title: Analyze C and C++ code
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Analyze C and C++ code
+            url: code-analysis-for-c-cpp-overview.md
+      - linkListType: reference
+        links:
+          - text: C++ code analysis warnings
+            url: code-analysis-for-c-cpp-warnings.md
+
   # Card
   - title: Analyze managed code quality
     linkLists:
       - linkListType: overview
         links:
           - text: Source analysis
-            url: roslyn-analyzers-overview
+            url: roslyn-analyzers-overview.md
           - text: Legacy analysis
             url: static-code-analysis-for-managed-code-overview.md
       - linkListType: concept
@@ -35,7 +48,7 @@ landingContent:
       - linkListType: how-to-guide
         links:
           - text: Install FxCop analyzers
-            url: install-fxcop-analyzers
+            url: install-fxcop-analyzers.md
       - linkListType: reference
         links:
           - text: Managed code analysis warnings
@@ -56,15 +69,3 @@ landingContent:
         links:
           - text: Code metrics
             url: code-metrics-values.md
-
-  # Card
-  - title: Analyze C and C++ code
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: Analyze C and C++ code
-            url: code-analysis-for-c-cpp-overview.md
-      - linkListType: reference
-        links:
-          - text: C++ code analysis warnings
-            url: code-analysis-for-c-cpp-warnings
