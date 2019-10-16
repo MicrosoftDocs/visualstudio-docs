@@ -224,7 +224,7 @@ Administrators can deploy Visual Studio onto client workstations as part of an i
 
 ::: moniker range="vs-2019"
 > [!IMPORTANT]
-> For offline installations, if you get an error message that says "A project matching the following parameters cannot be found", make sure that you are using the --noweb switch with version 16.3.5 or later.
+> For offline installations, if you get an error message that says "A product matching the following parameters cannot be found", make sure that you are using the --noweb switch with version 16.3.5 or later.
 >
 ::: moniker-end
 
