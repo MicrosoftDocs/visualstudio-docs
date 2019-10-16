@@ -16,8 +16,8 @@ dev_langs:
   - "jsharp"
   - "C++"
 helpviewer_keywords:
-  - "MSBUILD (Visual C++), MT task"
-  - "MT task (MSBuild (Visual C++))"
+  - "MSBUILD (C++), MT task"
+  - "MT task (MSBuild (C++))"
 ms.assetid: bb94913c-1042-4968-9f08-b394518e899f
 author: mikejo5000
 ms.author: mikejo

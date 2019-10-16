@@ -28,7 +28,7 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
 1. Click the **File** menu, point to **New**, and then click **New Project**.
 
-2. In the **Project types** tree list, if Visual C++ is not your default language in VS expand **Other Languages**.
+2. In the **Project types** tree list, if C++ is not your default language in VS expand **Other Languages**.
 
 3. Expand **Visual C++**, and then click **General**.
 
