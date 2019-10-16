@@ -6,6 +6,7 @@ ms.assetid: 390edde4-7b8d-4c89-8d69-55106b7e6b11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+ms.technology: vs-ide-debug
 ms.workload:
   - "uwp"
 ---
@@ -65,7 +66,7 @@ private void button_Click(object sender, RoutedEventArgs e)
 
 Build the project and start debugging. (The build configuration must be Debug, not Release. For more information about build configurations, see [Understanding Build Configurations](../ide/understanding-build-configurations.md).)
 
-When the window comes up you should see the in-app toolbar appear within your running application. 
+When the window comes up you should see the in-app toolbar appear within your running application.
 
 ![Main window of the app](../debugger/media/livevisualtree-app.png "LiveVIsualTree-App")
 

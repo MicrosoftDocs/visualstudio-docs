@@ -23,7 +23,7 @@ Project code includes:
 
 When project code is disabled, Visual Studio shows placeholders. For example, Visual Studio shows the name of the property for a binding where the data is no longer available, or a placeholder for a control that's no longer running.
 
-![Unhandled exception dialog](../designers/media/xaml_unhandledexception.png)
+![Unhandled exception dialog](media/xaml_unhandledexception.png)
 
 ## To determine if project code is causing an exception
 
@@ -39,7 +39,7 @@ When project code is disabled, Visual Studio shows placeholders. For example, Vi
 
 2. In the Windows Task Manager, choose the **End Task** button to close any instances of the Visual Studio XAML Designer that are currently running.
 
-     ![XAML designer instances in TaskManager](../designers/media/xaml_taskmanager.png)
+     ![XAML designer instances in TaskManager](media/xaml_taskmanager.png)
 
 3. In Visual Studio, open the XAML page that contains the code or control you want to debug.
 
@@ -51,7 +51,7 @@ When project code is disabled, Visual Studio shows placeholders. For example, Vi
 
 7. In the **Attach to Process** dialog, in the **Available Processes** list, choose **XDesProc.exe**, and then choose the **Attach** button.
 
-     ![The XAML designer process](../designers/media/xaml_attach.png)
+     ![The XAML designer process](media/xaml_attach.png)
 
      This is the process for the XAML designer in the first instance of Visual Studio.
 
@@ -65,7 +65,7 @@ When project code is disabled, Visual Studio shows placeholders. For example, Vi
 
 - Alternatively, on the toolbar in the **XAML designer**, choose the **Disable project code** button.
 
-     ![The Disable Project Code button](../designers/media/xaml_disablecode.png)
+     ![The Disable Project Code button](media/xaml_disablecode.png)
 
      You can toggle the button again to re-enable project code.
 
@@ -86,7 +86,7 @@ In the XAML designer, you can change your control display options to only displa
 
 To change control display options, click the icon in the bottom left of the designer window, and then select an option under **Control Display Options**:
 
-![Control Display Options](../designers/media/control_display_options.png)
+![Control Display Options](media/control_display_options.png)
 
 When you select **Only Display Platform Controls**, all custom controls coming from SDKs, customer user controls, and more, will not render completely. Instead, they are replaced by fallback controls to demonstrate the size and position of the control.
 

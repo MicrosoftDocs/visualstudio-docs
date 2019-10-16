@@ -169,7 +169,7 @@ When you build a project from the Visual Studio IDE with the standard **Debug** 
 
   If you build your C/C++ application using a makefile, and you specify **/ZI** or **/Zi** without using **/Fd**, the compiler creates two *.pdb* files:
 
-  - *VC\<x>.pdb*, where *\<x>* represents the version of Visual C++, for example *VC11.pdb*
+  - *VC\<x>.pdb*, where *\<x>* represents the version of the Microsoft C++ compiler, for example *VC11.pdb*
 
     The *VC\<x>.pdb* file stores all debugging information for the individual object files, and resides in the same directory as the project makefile. Each time it creates an object file, the C/C++ compiler merges debug information into *VC\<x>.pdb*. So even if every source file includes common header files such as *\<windows.h>*, the typedefs from those headers are stored only once, rather than in every object file. The inserted information includes type information, but does not include symbol information, such as function definitions.
 

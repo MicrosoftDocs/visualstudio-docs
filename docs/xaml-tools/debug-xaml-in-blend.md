@@ -2,28 +2,26 @@
 title: "Debug XAML in Blend | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
 ms.assetid: 29a37182-2a2c-47e4-a4a9-2d5412738fed
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+ms.technology: vs-ide-debug
 ms.workload:
   - "uwp"
 ---
 # Debug XAML in Blend
-You can use the tools in [!INCLUDE[blend_first](../debugger/includes/blend_first_md.md)] to debug the XAML in your app. When you build a project, any errors are displayed in the **Results** panel. Double-click an error to locate the markup related to the error. If you need more room to work, you can hide the **Results** panel by pressing F12.
+
+You can use the tools in Blend for Visual Studio to debug the XAML in your app. When you build a project, any errors are displayed in the **Results** panel. Double-click an error to locate the markup related to the error. If you need more room to work, you can hide the **Results** panel by pressing **F12**.
 
 ## Syntax errors
- Syntax errors occur if the XAML or the code-behind files do not follow the formatting rules of the language. The description of the error can help you understand how to fix it. The list also specifies the name of the file and the line number where the error occurs. XAML errors are listed on the **Markup** tab in the **Results** panel.
+
+Syntax errors occur if the XAML or the code-behind files do not follow the formatting rules of the language. The description of the error can help you understand how to fix it. The list also specifies the name of the file and the line number where the error occurs. XAML errors are listed on the **Markup** tab in the **Results** panel.
 
 > [!TIP]
 > XAML is an XML-based markup language and follows XML syntax rules.
 
- Some common causes of XAML syntax errors are:
+Some common causes of XAML syntax errors are:
 
 - A keyword has been misspelled or the capitalization is wrong.
 
@@ -33,16 +31,17 @@ You can use the tools in [!INCLUDE[blend_first](../debugger/includes/blend_first
 
 - A XAML element exists in a location where it is not allowed.
 
-  For more information on common XAML syntax, see [Basic XAML syntax guide](http://go.microsoft.com/fwlink/?LinkId=329942).
+For more information on common XAML syntax, see [Basic XAML syntax guide](http://go.microsoft.com/fwlink/?LinkId=329942).
 
-  You can also identify and resolve simple code-behind syntax errors, compilation errors, and run-time errors in [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)]. However, code-behind errors may be easier to identify and resolve in Visual Studio.
+You can also identify and resolve simple code-behind syntax errors, compilation errors, and run-time errors in Blend. However, code-behind errors may be easier to identify and resolve in Visual Studio.
 
 ### Debugging sample XAML code
- The following example will walk you through a simple XAML debugging session in [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)].
 
-##### To create a project
+The following example will walk you through a simple XAML debugging session in Blend.
 
-1. In [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)], open the **File** menu, and then click **New Project**.
+#### To create a project
+
+1. In Blend, open the **File** menu, and then click **New Project**.
 
     In the **New Project** dialog box, a list of project types appears on the left side. When you click a project type, the project templates that are associated with it appear on the right side.
 
@@ -84,16 +83,17 @@ You can use the tools in [!INCLUDE[blend_first](../debugger/includes/blend_first
     </Grid>
     ```
 
-10. Press Ctrl+Shift+B to build the project.
+10. Press **Ctrl**+**Shift**+**B** to build the project.
 
     An error message appears alerting you that the project cannot be built, and the **Results** panel listing the errors appears at the bottom of the app.
 
     ![Debug XAML in Blend for Visual Studio](../debugger/media/blend_debugxaml_xaml.png "blend_debugXAML_XAML")
 
-### Resolving XAML errors
- When XAML errors are detected, the design surface displays an alert that your project contains invalid markup. As you resolve the errors, the error list in the **Results** panel is updated. When you have resolved all the errors, the design surface is enabled, and your app is displayed on the design surface.
+### Resolve XAML errors
 
-##### To resolve the XAML errors
+When XAML errors are detected, the design surface displays an alert that your project contains invalid markup. As you resolve the errors, the error list in the **Results** panel is updated. When you have resolved all the errors, the design surface is enabled, and your app is displayed on the design surface.
+
+#### To resolve the XAML errors
 
 1. Double-click the first error in the list. The description is "The value '<' is not valid in an attribute." When you double-click the error, the pointer finds the corresponding location in the code. The `<` preceding `Button` is valid, and not an attribute as suggested in the error message. If you look at the preceding line of code, you'll notice that the closing quotation marks for the attribute `Top` are missing. Type the closing quotation marks. Notice that the error list in the **Results** panel updates to reflect your changes.
 
@@ -107,12 +107,14 @@ You can use the tools in [!INCLUDE[blend_first](../debugger/includes/blend_first
 
     ![Debugging XAML in Blend for Visual Studio](../debugger/media/blend_debugartboard_xaml.png "blend_debugArtboard_XAML")
 
-    Press Ctrl+Shift+B to build your project and confirm that there are no remaining errors.
+    Press **Ctrl**+**Shift**+**B** to build your project and confirm that there are no remaining errors.
 
-## Debugging in Visual Studio
- You can open [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)] projects in Visual Studio to more easily debug the code in your app. To open a [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)] project in Visual Studio, right-click the project in the **Projects** panel, and then click **Edit in Visual Studio**. After you have finished your debugging session in Visual Studio, press Ctrl+Shift+S to save all your changes, and then switch back to [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)]. You will be prompted to reload the project. Click **Yes to All** to continue working in [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)].
+## Debug in Visual Studio
 
- For more information about debugging your app, see [Debug UWP apps in Visual Studio](http://go.microsoft.com/fwlink/?LinkId=329944).
+You can open Blend projects in Visual Studio to more easily debug the code in your app. To open a Blend project in Visual Studio, right-click the project in the **Projects** panel, and then click **Edit in Visual Studio**. After you have finished your debugging session in Visual Studio, press Ctrl+Shift+S to save all your changes, and then switch back to Blend. You will be prompted to reload the project. Click **Yes to All** to continue working in Blend.
 
-## Getting help
- If you need more help debugging your [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)] app, you can search the [UWP app community forums](http://go.microsoft.com/fwlink/?LinkId=280308) for posts related your issue or post a question.
+For more information about debugging your app, see [Debug UWP apps in Visual Studio](http://go.microsoft.com/fwlink/?LinkId=329944).
+
+## Get help
+
+If you need more help debugging your Blend app, you can search the [UWP app community forums](http://go.microsoft.com/fwlink/?LinkId=280308) for posts related your issue or post a question.

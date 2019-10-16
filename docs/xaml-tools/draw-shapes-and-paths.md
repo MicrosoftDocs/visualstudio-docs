@@ -20,7 +20,7 @@ Shapes and paths use vector graphics, so they scale well to high resolution disp
 
 Find shapes in the **Assets** window.
 
-![Shapes category on the Assets window](../designers/media/blend-shapes.png)
+![Shapes category on the Assets window](media/blend-shapes.png)
 
 Drag any shape that you want to the artboard. Then, use handles on the shape to scale, rotate, move, or skew the shape.
 

@@ -99,5 +99,5 @@ Scale objects much like you would with a zoom control. You can add only one obje
 
 ## See also
 
-- [Work with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md)
-- [Create a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)
+- [Work with elements in XAML Designer](../xaml-tools/working-with-elements-in-xaml-designer.md)
+- [Create a UI by using XAML Designer](../xaml-tools/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)

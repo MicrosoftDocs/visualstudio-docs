@@ -35,6 +35,6 @@ Some keyboard shortcuts do not have associated menu items, which means that you 
 
 ## See also
 
-- [Keyboard shortcuts](../designers/keyboard-shortcuts-in-blend.md)
-- [Pen tool modifier keys](../designers/pen-tool-modifier-keys-in-blend.md)
-- [Direct Selection tool modifier keys](../designers/direct-selection-tool-modifier-keys-in-blend.md)
+- [Keyboard shortcuts](../xaml-tools/keyboard-shortcuts-in-blend.md)
+- [Pen tool modifier keys](../xaml-tools/pen-tool-modifier-keys-in-blend.md)
+- [Direct Selection tool modifier keys](../xaml-tools/direct-selection-tool-modifier-keys-in-blend.md)
