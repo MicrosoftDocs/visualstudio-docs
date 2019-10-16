@@ -1,6 +1,6 @@
 ---
 title: "Tutorial 3: Create a matching game"
-ms.date: 11/04/2016
+ms.date: 10/16/2019
 ms.assetid: 525815c8-2845-45e8-be96-100d1f144725
 ms.topic: tutorial
 ms.technology: vs-ide-general
@@ -12,7 +12,7 @@ ms.workload:
 ---
 # Tutorial 3: Create a matching game
 
-In this tutorial, you build a matching game, where the player must match pairs of hidden icons. 
+In this tutorial, you build a matching game, where the player must match pairs of hidden icons.
 
 > [!NOTE]
 > This tutorial covers both C# and Visual Basic, so focus on the information that's specific to the programming language that you're using.

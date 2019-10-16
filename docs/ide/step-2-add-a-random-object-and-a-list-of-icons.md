@@ -15,11 +15,12 @@ ms.workload:
   - "multiple"
 ---
 # Step 2: Add a Random object and a list of icons
+
 In this step, you create a set of matching symbols for the game. Each symbol is added to two random cells in the TableLayoutPanel on the form. To do this, you use two `new` statements to create two objects. The first is a <xref:System.Random> object, like the one you used in the math quiz game. It is used in this code to randomly choose cells in the TableLayoutPanel. The second object, which may be new to you, is a <xref:System.Collections.Generic.List%601> object which is used to store the randomly-chosen symbols.
 
 ## To add a random object and a list of icons
 
-1. In **Solution Explorer**, choose *Form1.cs* if you're using Visual C#, or *Form1.vb* if you're using Visual Basic, and then on the menu bar, choose **View** > **Code**. As an alternative, you can choose the **F7** key or double-click **Form1** in **Solution Explorer**.
+1. In **Solution Explorer**, choose *Form1.cs* if you're using C#, or *Form1.vb* if you're using Visual Basic, and then on the menu bar, choose **View** > **Code**. As an alternative, you can choose the **F7** key or double-click **Form1** in **Solution Explorer**.
 
      This displays the code module behind Form1.
 
