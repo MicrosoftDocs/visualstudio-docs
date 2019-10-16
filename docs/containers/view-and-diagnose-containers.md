@@ -1,25 +1,21 @@
 ---
-title: Container logs, environment variables, & filesystem access
+title: Docker container logs, environment variables, and filesystem access
 description: Describes how to improve your ability to debug and diagnose your container-based apps in Visual Studio by using a tool window  to see what's going on inside the containers that host your app.
 author: ghogen
 ms.author: ghogen
 ms.topic: conceptual
-ms.date: 05/06/2019
+ms.date: 10/16/2019
 ms.technology: vs-azure
 monikerRange: vs-2019
 ---
-# How to view and diagnose containers in Visual Studio
+# How to view and diagnose containers and images in Visual Studio
 
 You can view what's going on inside the containers that host your app by using the **Containers** window. If you're used to using the command prompt to run Docker commands to view and diagnose what's going on with your containers, this window provides a more convenient way to monitor your containers without leaving the Visual Studio IDE.
-
-> [!NOTE]
-> The Containers window is currently available as a Preview extension that you can [download](https://aka.ms/vscontainerspreview) for Visual Studio 2019.
 
 ## Prerequisites
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- Install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
-- Install the [Containers window extension](https://aka.ms/vscontainerspreview) or use Visual Studio 2019 16.4 Preview 2 or later.
+- [Visual Studio 2019 version 16.4 Preview 2](https://visualstudio.microsoft.com/downloads) or later, or if you are using an earlier version of Visual Studio 2019, install the [Containers window extension](https://aka.ms/vscontainerspreview).
 
 ## View information about your containers
 
@@ -76,9 +72,9 @@ Using the **Files** tab, you can view application logs such as IIS logs, configu
 
 By default, the **Containers** window shows all containers on the machine that Docker manages. You can use the toolbar buttons to start, stop, or remove (delete) a container you no longer want.  This list is dynamically updated as containers are created or removed.
 
-## Open a command prompt inside the container
+## Open a terminal window in a running container
 
-You can open a command prompt in the container by using the **Open Terminal Window** button in the **Container** window.
+You can open a terminal window (command prompt or interactive shell) in the container by using the **Open Terminal Window** button in the **Container** window.
 
 ![Screenshot of Open Terminal Window in the Containers window](media/view-and-diagnose-containers/containers-open-terminal-window.png)
 
@@ -90,13 +86,19 @@ Normally, the terminal window opens outside Visual Studio as a separate window. 
 
 ## Attach the debugger to a process
 
-You can attach the debugger to a process that is running in the container by using the **Attach to Process** button. When you use this button, the **Attach to Process** dialog appears and shows the available processes that are running in the container.  You can choose a different container using the **Find** button.
+You can attach the debugger to a process that is running in the container by using the **Attach to Process** button. When you use this button, the **Attach to Process** dialog appears and shows the available processes that are running in the container.  
+
+![Screenshot of Attach to Process dialog box](media/view-and-diagnose-containers/containers-attach-to-process.jpg)
+
+You can attach to managed processes in the container.
+
+You can choose a different container using the **Find** button.
 
 ## Viewing images
 
-You can also view images on the local machine by using the **Images** tab in the **Containers** window. Images from external repositories are grouped together in a treeview. Select an image to view the properties for the image.
+You can also view images on the local machine by using the **Images** tab in the **Containers** window. Images pulled from external repositories are grouped together in a treeview. Select an image to inspect the details for the image.
 
-To remove an image, right-click on the image in the treeview and choose **Remove**, or select the image, and use the **Remove** button.
+To remove an image, right-click on the image in the treeview and choose **Remove**, or select the image, and use the **Remove** button on the toolbar.
 
 ## Next steps
 
