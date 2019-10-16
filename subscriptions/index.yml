@@ -117,7 +117,5 @@ additionalContent:
             note: (data science and AI)
           - text: Microsoft Professional Technical Support incidents
             url: ~/vs-tech-support.md
-          - text: Azure Advisory Chat
-            url: ~/vs-azure-advisory-chat.md
           - text: Azure Community
             url: ~/vs-azure-community.md
