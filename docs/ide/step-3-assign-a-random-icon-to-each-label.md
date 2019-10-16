@@ -65,8 +65,8 @@ If the icons show up in the same cells every game, it's not very challenging. To
 
 5. Close your program, and then run it again. Notice that different icons are assigned to each label, as shown in the following picture.
 
-     ![Matching game with random icons](../ide/media/express_tut4step3.png)
-Matching game with random icons
+     ![Matching game with random icons](../ide/media/express_tut4step3.png)<br/>
+*Matching game with random icons*
 
      The icons are visible now because you haven't hidden them. To hide them from the player, you can set each label's **ForeColor** property to the same color as its **BackColor** property.
 

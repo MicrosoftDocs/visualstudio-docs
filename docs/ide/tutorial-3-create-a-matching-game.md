@@ -29,7 +29,7 @@ This tutorial walks you through the following tasks:
 
 - Make a timer that counts down and then fires an event exactly once after being started.
 
-hen you finish, your app should look similar to the following image:
+When you finish, your app should look similar to the following image:
 
 ![Game that you create in this tutorial](../ide/media/express_finishedgame.png)
 
