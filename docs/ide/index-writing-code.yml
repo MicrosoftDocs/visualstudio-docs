@@ -50,6 +50,8 @@ landingContent:
             url: code-styles-and-code-cleanup.md
           - text: Code analysis
             url: ../code-quality/roslyn-analyzers-overview.md
+          - text: IntelliCode
+            url: /visualstudio/intellicode/intellicode-visual-studio
 
   # Card
   - title: Get started with programming languages
