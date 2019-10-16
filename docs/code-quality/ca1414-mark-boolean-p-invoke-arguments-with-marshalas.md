@@ -51,9 +51,9 @@ The following example shows platform invoke methods that are marked with the app
 [!code-cpp[FxCop.Interoperability.BoolMarshalAs#1](../code-quality/codesnippet/CPP/ca1414-mark-boolean-p-invoke-arguments-with-marshalas_1.cpp)]
 
 ## Related rules
-[CA1901: P/Invoke declarations should be portable](../code-quality/ca1901-p-invoke-declarations-should-be-portable.md)
+[CA1901: P/Invoke declarations should be portable](../code-quality/ca1901.md)
 
-[CA2101: Specify marshaling for P/Invoke string arguments](../code-quality/ca2101-specify-marshaling-for-p-invoke-string-arguments.md)
+[CA2101: Specify marshaling for P/Invoke string arguments](../code-quality/ca2101.md)
 
 ## See also
 

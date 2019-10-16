@@ -38,4 +38,4 @@ To generate sample data from a class, open a XAML document, and then in the **Da
 
 ## See also
 
-- [Create a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)
+- [Create a UI by using Blend for Visual Studio](../xaml-tools/creating-a-ui-by-using-blend-for-visual-studio.md)

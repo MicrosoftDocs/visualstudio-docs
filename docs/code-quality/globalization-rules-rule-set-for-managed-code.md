@@ -25,4 +25,4 @@ Use the Microsoft Globalization Rules rule set to focus on problems that might p
 |[CA1307](../code-quality/ca1307-specify-stringcomparison.md)|Specify StringComparison|
 |[CA1308](../code-quality/ca1308-normalize-strings-to-uppercase.md)|Normalize strings to uppercase|
 |[CA1309](../code-quality/ca1309-use-ordinal-stringcomparison.md)|Use ordinal StringComparison|
-|[CA2101](../code-quality/ca2101-specify-marshaling-for-p-invoke-string-arguments.md)|Specify marshaling for P/Invoke string arguments|
+|[CA2101](../code-quality/ca2101.md)|Specify marshaling for P/Invoke string arguments|

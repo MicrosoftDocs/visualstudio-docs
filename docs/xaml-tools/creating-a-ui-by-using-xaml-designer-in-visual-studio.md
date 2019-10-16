@@ -27,9 +27,9 @@ XAML Designer provides a XAML view and a synchronized Design view of your app's 
 
 ### Design view
 
-In Design view, the window containing the artboard is the active window and you can use it as a primary work surface. You can use it to visually design a page in your app by adding, drawing, or modifying elements. For more information, see [Work with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md). This illustration shows the artboard in Design view.
+In Design view, the window containing the artboard is the active window and you can use it as a primary work surface. You can use it to visually design a page in your app by adding, drawing, or modifying elements. For more information, see [Work with elements in XAML Designer](../xaml-tools/working-with-elements-in-xaml-designer.md). This illustration shows the artboard in Design view.
 
-![Design view of XAML Designer](../designers/media/xaml-artboard.png)
+![Design view of XAML Designer](media/xaml-artboard.png)
 
 These features are available in the artboard:
 
@@ -51,7 +51,7 @@ Grid adorners are used to control the width and height of a Grid's rows and colu
 
 **Resize handles**
 
-Resize handles appear on selected controls and enable you to resize the control. When you resize a control, width and height values typically appear to help you size the control. For more information about manipulating controls in **Design** view, see [Work with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md).
+Resize handles appear on selected controls and enable you to resize the control. When you resize a control, width and height values typically appear to help you size the control. For more information about manipulating controls in **Design** view, see [Work with elements in XAML Designer](../xaml-tools/working-with-elements-in-xaml-designer.md).
 
 **Margins**
 
@@ -67,7 +67,7 @@ You can modify an element by using the element handles that appear on the artboa
 
 In **Design** view, additional artboard commands are available in the lower-left area of the window, as shown here:
 
-![Design view commands](../designers/media/xaml-design-view-controls.png)
+![Design view commands](media/xaml-design-view-controls.png)
 
 These commands are available on this toolbar:
 
@@ -99,7 +99,7 @@ Disables [project code](debugging-or-disabling-project-code-in-xaml-designer.md)
 
 In **XAML** view, the window containing the XAML editor is the active window, and the XAML editor is your primary authoring tool. The Extensible Application Markup Language (XAML) provides a declarative, XML-based vocabulary for specifying an application's user interface. XAML view includes IntelliSense, automatic formatting, syntax highlighting, and tag navigation. The following image shows XAML view with an IntelliSense menu open:
 
-![XAML view](../designers/media/xaml-editor.png)
+![XAML view](media/xaml-editor.png)
 
 ## Document Outline window
 
@@ -107,7 +107,7 @@ The Document Outline window in Visual Studio is similar to the [Objects and Time
 
 - View the hierarchical structure of all elements on the artboard.
 
-- Select elements so that you can modify them (for example, move them around in the hierarchy or set their properties in the Properties window). For more information, see [Work with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md).
+- Select elements so that you can modify them (for example, move them around in the hierarchy or set their properties in the Properties window). For more information, see [Work with elements in XAML Designer](../xaml-tools/working-with-elements-in-xaml-designer.md).
 
 - Create and modify templates for elements that are controls.
 
@@ -116,7 +116,7 @@ The Document Outline window in Visual Studio is similar to the [Objects and Time
 To view the Document Outline window in Visual Studio, on the menu bar select **View** > **Other Windows** > **Document Outline**.
 To view the Objects and Timeline window in Blend for Visual Studio, on the menu bar select **View** > **Document Outline**.
 
-![Document Outline window in Visual Studio](../designers/media/document-outline-window.png)
+![Document Outline window in Visual Studio](media/document-outline-window.png)
 
 The main view in the Document Outline/Objects and Timeline window displays the hierarchy of a document in a tree structure. You can use the hierarchical nature of the document outline to examine the document at varying levels of detail and to lock and hide elements singly or in groups. These are the options available in the Document Outline/Objects and Timeline window:
 
@@ -136,7 +136,7 @@ The option at the top of the Document Outline/Objects and Timeline window, which
 
 The **Properties** window enables you to set property values on controls. Here's what it looks like:
 
-![Properties window](../designers/media/xaml-designer-properties-window.png)
+![Properties window](media/xaml-designer-properties-window.png)
 
 There are various options at the top of the **Properties** window:
 
@@ -154,6 +154,6 @@ For more information about using properties and handling events, see [Intro to c
 
 ## See also
 
-- [Work with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md)
-- [How to create and apply a resource](../designers/how-to-create-and-apply-a-resource.md)
-- [Walkthrough: Bind to data in XAML Designer](../designers/walkthrough-binding-to-data-in-xaml-designer.md)
+- [Work with elements in XAML Designer](../xaml-tools/working-with-elements-in-xaml-designer.md)
+- [How to create and apply a resource](../xaml-tools/how-to-create-and-apply-a-resource.md)
+- [Walkthrough: Bind to data in XAML Designer](../xaml-tools/walkthrough-binding-to-data-in-xaml-designer.md)

@@ -73,7 +73,7 @@ In the **Create Style Resource** dialog box, you can either name the style or te
 
 ### Apply a style or template to a control
 
-Right-click an object in the [Objects and Timeline](../designers/creating-a-ui-by-using-blend-for-visual-studio.md#objects-and-timeline-window) window, choose **Edit Template**, and then choose **Apply Resource**.
+Right-click an object in the [Objects and Timeline](../xaml-tools/creating-a-ui-by-using-blend-for-visual-studio.md#objects-and-timeline-window) window, choose **Edit Template**, and then choose **Apply Resource**.
 
 ![Apply Resource menu](../designers/media/dc12debc-7711-47d9-84ce-10322a384397.png)
 
@@ -97,4 +97,4 @@ You can convert just about anything in your project to a resource. A resource is
 
 ## See also
 
-- [Creating a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)
+- [Creating a UI by using Blend for Visual Studio](../xaml-tools/creating-a-ui-by-using-blend-for-visual-studio.md)

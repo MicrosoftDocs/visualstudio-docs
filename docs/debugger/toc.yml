@@ -91,7 +91,7 @@
     - name: View memory for variables
       href: memory-windows.md
     - name: Inspect XAML properties while debugging
-      href: inspect-xaml-properties-while-debugging.md
+      href: ../xaml-tools/inspect-xaml-properties-while-debugging.md?toc=/visualstudio/debugger/toc.json
   - name: Call stack
     items:
     - name: View the call stack
@@ -108,9 +108,9 @@
       href: how-to-enable-and-disable-edit-and-continue.md
     - name: Stop code changes
       href: how-to-stop-code-changes.md
-    - name: Edit and Continue (Visual C++)
+    - name: Edit and Continue (C++)
       items:
-      - name: Edit and Continue for Visual C++
+      - name: Edit and Continue for C++
         href: edit-and-continue-visual-cpp.md
       - name: Supported Code Changes (C++)
         href: supported-code-changes-cpp.md
@@ -131,9 +131,9 @@
     - name: XAML Hot Reload
       items:
       - name: Write and debug running XAML code
-        href: xaml-hot-reload.md
+        href: ../xaml-tools/xaml-hot-reload.md?toc=/visualstudio/debugger/toc.json
       - name: Troubleshooting XAML Hot Reload
-        href: xaml-hot-reload-troubleshooting.md
+        href: ../xaml-tools/xaml-hot-reload-troubleshooting.md?toc=/visualstudio/debugger/toc.json
     - name: Edit and Continue not supported for F#
       href: edit-and-continue-not-supported-for-f-hash.md
   - name: Log to Output window
@@ -202,7 +202,7 @@
           items:
           - name: Project settings for a C++ debug configuration
             href: project-settings-for-a-cpp-debug-configuration.md
-          - name: Enable debug features in Visual C++ (-D_DEBUG)
+          - name: Enable debug features in C++ (-D_DEBUG)
             href: enabling-debug-features-in-visual-cpp-d-debug.md
         - name: Property pages settings for Web projects
           href: property-pages-settings-for-web-projects.md
@@ -234,7 +234,7 @@
         items:
         - name: Create custom views of C++ objects
           href: create-custom-views-of-native-objects.md
-        - name: "Visual C++ custom visualizer compatibility"
+        - name: "C++ custom visualizer compatibility"
           href: visual-cpp-custom-visualizer-compatibility.md
       - name: Custom views (managed)
         items:
@@ -411,7 +411,7 @@
     - name: Troubleshooting snapshot debugging
       href: debug-live-azure-apps-troubleshooting.md
     - name: Time Travel Debugging live Azure virtual machine app
-      href: debug-live-azure-virtual-machines-time-travel-debugging.md      
+      href: debug-live-azure-virtual-machines-time-travel-debugging.md
   - name: Application types
     items:
     - name: Debug specific application types
@@ -435,7 +435,7 @@
       - name: Debug an installed app package
         href: debug-installed-app-package.md
       - name: Debug XAML in Blend
-        href: debug-xaml-in-blend.md
+        href: ../xaml-tools/debug-xaml-in-blend.md?toc=/visualstudio/debugger/toc.json
       - name: HTML and CSS
         items:
         - name: Debug HTML and CSS
@@ -500,7 +500,7 @@
       items:
       - name: Debug native code
         href: debugging-native-code.md
-      - name: "Debugging preparation: Visual C++ project types"
+      - name: "Debugging preparation: C++ project types"
         href: debugging-preparation-visual-cpp-project-types.md
       - name: Debug optimized code
         href: how-to-debug-optimized-code.md

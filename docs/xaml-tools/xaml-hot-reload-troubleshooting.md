@@ -9,6 +9,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -46,7 +47,7 @@ By default, source info is included in a Debug configuration. It is controlled b
 
 WPF:
 
-`<XamlDebuggingInformation>True</XamlDebuggingInformation>` 
+`<XamlDebuggingInformation>True</XamlDebuggingInformation>`
 
 UWP:
 

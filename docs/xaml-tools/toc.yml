@@ -1,0 +1,114 @@
+- name: XAML tools in Visual Studio
+  href: index.yml
+- name: XAML overview
+  href: xaml-overview.md
+- name: XAML Designer
+  items:
+  - name: Design XAML in Visual Studio and Blend
+    href: designing-xaml-in-visual-studio.md
+  - name: XAML Designer overview
+    href: creating-a-ui-by-using-xaml-designer-in-visual-studio.md
+  - name: Work with elements
+    href: working-with-elements-in-xaml-designer.md
+  - name: Organize objects into layout containers
+    href: organize-objects-into-layout-containers-in-xaml-designer.md
+  - name: Create and apply a resource
+    href: how-to-create-and-apply-a-resource.md
+  - name: "Walkthrough: Bind to data"
+    href: walkthrough-binding-to-data-in-xaml-designer.md
+  - name: Debug or disable project code
+    href: debugging-or-disabling-project-code-in-xaml-designer.md
+  - name: Blend for Visual Studio
+    items:
+    - name: Overview
+      href: creating-a-ui-by-using-blend-for-visual-studio.md
+    - name: Draw shapes and paths
+      href: draw-shapes-and-paths.md
+    - name: Modify the style of objects
+      href: modify-the-style-of-objects-in-blend.md
+    - name: Animate objects
+      href: animate-objects-in-xaml-designer.md
+    - name: Display data
+      href: display-data-in-blend.md
+  - name: Reference
+    items:
+    - name: XAML errors and warnings
+      href: xaml-errors-warnings.md
+    - name: Keyboard shortcuts for XAML Designer
+      href: keyboard-shortcuts-for-xaml-designer.md
+    - name: Keyboard shortcuts for Blend
+      href: keyboard-shortcuts-in-blend.md
+    - name: Artboard modifier keys (Blend)
+      href: artboard-modifier-keys-in-blend.md
+    - name: Pen tool modifier keys (Blend)
+      href: pen-tool-modifier-keys-in-blend.md
+    - name: Direct selection tool modifier keys (Blend)
+      href: direct-selection-tool-modifier-keys-in-blend.md
+- name: Debug XAML
+  items:
+  - name: Inspect XAML properties while debugging
+    href: inspect-xaml-properties-while-debugging.md
+  - name: XAML Hot Reload
+    items:
+    - name: Write and debug running XAML code
+      href: xaml-hot-reload.md
+    - name: Troubleshoot
+      href: xaml-hot-reload-troubleshooting.md
+  - name: Debug XAML in Blend
+    href: debug-xaml-in-blend.md
+  - name: Debug UWP apps >>
+    href: ../debugger/debugging-windows-store-and-windows-universal-apps.md
+- name: Windows Presentation Foundation (WPF)
+  items:
+  - name: Get started
+    displayName: Windows Presentation Foundation (WPF)
+    href: ../designers/getting-started-with-wpf.md
+  - name: WPF overview
+    href: ../designers/introduction-to-wpf.md
+  - name: Data binding
+    items:
+    - name: WPF data binding with LINQ to XML
+      href: ../designers/wpf-data-binding-with-linq-to-xml-overview.md
+    - name: LINQ to XML dynamic properties
+      items:
+      - name: Overview
+        displayName: LINQ to XML dynamic properties
+        href: ../designers/linq-to-xml-dynamic-properties.md
+      - name: XAttribute class dynamic properties
+        items:
+        - name: Value (XAttribute dynamic property)
+          href: ../designers/value-xattribute-dynamic-property.md
+      - name: XElement class dynamic properties
+        items:
+        - name: Attribute (XElement dynamic property)
+          href: ../designers/attribute-xelement-dynamic-property.md
+        - name: Element (XElement dynamic property)
+          href: ../designers/element-xelement-dynamic-property.md
+        - name: Elements (XElement dynamic property)
+          href: ../designers/elements-xelement-dynamic-property.md
+        - name: Descendants (XElement dynamic property)
+          href: ../designers/descendants-xelement-dynamic-property.md
+        - name: Value (XElement dynamic property)
+          href: ../designers/value-xelement-dynamic-property.md
+        - name: Xml (XElement dynamic property)
+          href: ../designers/xml-xelement-dynamic-property.md
+      - name: Examples
+        items:
+        - name: WPF data binding using LINQ to XML
+          href: ../designers/wpf-data-binding-using-linq-to-xml-example.md
+        - name: Build and run the LinqToXmlDataBinding example
+          href: ../designers/how-to-build-and-run-the-linqtoxmldatabinding-example.md
+        - name: "Walkthrough: LINQ to XML data binding"
+          href: ../designers/walkthrough-linqtoxmldatabinding-example.md
+        - name: L2DBForm.xaml source code
+          href: ../designers/l2dbform-xaml-source-code.md
+        - name: L2DBForm.xaml.cs source code
+          href: ../designers/l2dbform-xaml-cs-source-code.md
+  - name: Debug WPF apps
+    items:
+    - name: Debug WPF
+      href: ../debugger/debugging-wpf.md?toc=/visualstudio/xaml-tools/toc.json
+    - name: Use the WPF Tree Visualizer
+      href: ../debugger/how-to-use-the-wpf-tree-visualizer.md?toc=/visualstudio/xaml-tools/toc.json
+    - name: Display WPF trace information
+      href: ../debugger/how-to-display-wpf-trace-information.md?toc=/visualstudio/xaml-tools/toc.json

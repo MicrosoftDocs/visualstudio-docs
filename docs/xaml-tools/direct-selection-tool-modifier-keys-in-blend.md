@@ -29,6 +29,6 @@ The following table lists shortcuts that you can use to modify the shape of an e
 
 ## See also
 
-- [Artboard modifier keys](../designers/artboard-modifier-keys-in-blend.md)
-- [Pen tool modifier keys](../designers/pen-tool-modifier-keys-in-blend.md)
-- [Draw shapes and paths](../designers/draw-shapes-and-paths.md)
+- [Artboard modifier keys](../xaml-tools/artboard-modifier-keys-in-blend.md)
+- [Pen tool modifier keys](../xaml-tools/pen-tool-modifier-keys-in-blend.md)
+- [Draw shapes and paths](../xaml-tools/draw-shapes-and-paths.md)

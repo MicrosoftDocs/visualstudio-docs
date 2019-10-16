@@ -43,4 +43,4 @@ The following table lists the shortcuts available when working with elements in 
 
 ## See also
 
-- [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)
+- [Creating a UI by using XAML Designer](../xaml-tools/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)

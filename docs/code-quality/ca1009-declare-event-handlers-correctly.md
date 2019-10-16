@@ -50,7 +50,7 @@ The following example shows a delegate that is suited to handling events. The me
 [!code-vb[FxCop.Design.EventsTwoParams#1](../code-quality/codesnippet/VisualBasic/ca1009-declare-event-handlers-correctly_1.vb)]
 
 ## Related rules
-[CA2109: Review visible event handlers](../code-quality/ca2109-review-visible-event-handlers.md)
+[CA2109: Review visible event handlers](../code-quality/ca2109.md)
 
 ## See also
 
