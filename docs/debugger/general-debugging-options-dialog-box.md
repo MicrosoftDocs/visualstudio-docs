@@ -112,7 +112,7 @@ Tells the debugger to verify that a source file matches the version of the sourc
 Sends all debugger messages that would ordinarily appear in the **Output** window to the **Immediate** window instead.
 
 **Show raw structure of objects in variables windows**:
-Turns off all object structure view customizations. For more information about view customizations, see [Create custom views of .managed objects](../debugger/create-custom-views-of-dot-managed-objects.md).
+Turns off all object structure view customizations. For more information about view customizations, see [Create custom views of managed objects](../debugger/create-custom-views-of-managed-objects.md).
 
 **Suppress JIT optimization on module load (Managed only)**:
 Disables the JIT optimization of managed code when a module is loaded and JIT is compiled while the debugger is attached. Disabling optimization may make it easier to debug some problems, although at the expense of performance. If you are using Just My Code, suppressing JIT optimization can cause non-user code to appear as user code ("My Code"). For more information, see [JIT optimization and debugging](../debugger/jit-optimization-and-debugging.md).

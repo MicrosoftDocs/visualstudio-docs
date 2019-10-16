@@ -581,6 +581,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/create-custom-views-of-dot-managed-objects.md",
+      "redirect_url": "/visualstudio/debugger/create-custom-views-of-managed-objects",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "docs/debugger/debug-css-styles-using-dom-explorer.md",
       "redirect_url": "/visualstudio/debugger/quickstart-debug-html-and-css",
       "redirect_document_id": false
@@ -3674,6 +3679,11 @@
       "source_path": "docs/vb6/vb6-support.md",
       "redirect_url": "/previous-versions/visualstudio/visual-basic-6/visual-basic-6-support-policy",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/vs-2015/debugger/create-custom-views-of-dot-managed-objects.md",
+      "redirect_url": "/visualstudio/debugger/create-custom-views-of-managed-objects?view=vs-2015",
+      "redirect_document_id": true
     },
     {
       "source_path": "docs/vs-2015/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running-on-the-remote-computer.md",

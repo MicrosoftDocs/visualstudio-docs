@@ -172,7 +172,7 @@
 # Auto-expanded node
       items:
       - name: Create Custom Views of Managed Objects
-        href: create-custom-views-of-dot-managed-objects.md
+        href: create-custom-views-of-managed-objects.md
       - name: Using DebuggerTypeProxy Attribute
         href: using-debuggertypeproxy-attribute.md
       - name: Using the DebuggerDisplay Attribute
