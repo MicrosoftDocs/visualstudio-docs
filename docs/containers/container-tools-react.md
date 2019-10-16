@@ -3,7 +3,7 @@ title: Visual Studio Container Tools with ASP.NET Core and React.js
 author: ghogen
 description: Learn how to use Visual Studio Container Tools and Docker for Windows
 ms.author: ghogen
-ms.date: 09/12/2019
+ms.date: 10/16/2019
 ms.technology: vs-azure
 ms.topic: quickstart
 ---
