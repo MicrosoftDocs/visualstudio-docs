@@ -41,7 +41,7 @@ Pseudovariables are terms used to display certain information in a variable wind
 |`$clk`|Displays the time in clock cycles.|
 |`$user`|Displays a structure with account information for the account running the application. For security reasons, the password information is not displayed.|
 |`$exceptionstack`|Displays the stack trace of the current Windows Runtime exception. `$ exceptionstack` works only in UWP apps. `$ exceptionstack` is not supported for C++ and SEH exceptions|
-|`$returnvalue`|Displays the return value of a .NET Framework method.|
+|`$returnvalue`|Displays the return value of a .NET method.|
 
  In C# you can use the pseudovariables shown in the following table:
 
@@ -49,7 +49,7 @@ Pseudovariables are terms used to display certain information in a variable wind
 |--------------------|--------------|
 |`$exception`|Displays information on the last exception. If no exception has occurred, evaluating `$exception` displays an error message.<br /><br /> When the Exception Assistant is disabled, `$exception` is automatically added to the **Locals** window when an exception occurs.|
 |`$user`|Displays a structure with account information for the account running the application. For security reasons, the password information is not displayed.|
-|`$returnvalue`|Displays the return value of a .NET Framework method.|
+|`$returnvalue`|Displays the return value of a .NET method.|
 
  In Visual Basic, you can use the pseudovariables shown in the following table:
 
@@ -59,7 +59,7 @@ Pseudovariables are terms used to display certain information in a variable wind
 |`$delete` or `$$delete`|Deletes an implicit variable that was created in the **Immediate** window. The syntax is `$delete,` *variable* or`$delete,` *variable*`.`|
 |`$objectids` or `$listobjectids`|Displays all active Object IDs as children of the specified expression. The syntax is `$objectid,` *expression* or`$listobjectids,` *expression*`.`|
 |`$` *N* `#`|Displays object with Object ID equal to *N*.|
-|`$dynamic`|Displays the special **Dynamic View** node for an object that implements the `IDynamicMetaObjectProvider`. Interface. The syntax is `$dynamic,` *object*. This feature applies only to code that uses .NET Framework version 4.|
+|`$dynamic`|Displays the special **Dynamic View** node for an object that implements the `IDynamicMetaObjectProvider`. Interface. The syntax is `$dynamic,` *object*. This feature applies only to code that uses .NET Framework version 4 or later.|
 
 ## See Also
 - [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)
