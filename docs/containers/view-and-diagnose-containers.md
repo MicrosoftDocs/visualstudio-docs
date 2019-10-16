@@ -86,13 +86,11 @@ Normally, the terminal window opens outside Visual Studio as a separate window. 
 
 ## Attach the debugger to a process
 
-You can attach the debugger to a process that is running in the container by using the **Attach to Process** button. When you use this button, the **Attach to Process** dialog appears and shows the available processes that are running in the container.  
+You can attach the debugger to a process that is running in the container by using the **Attach to Process** button on the Containers window toolbar. When you use this button, the **Attach to Process** dialog appears and shows the available processes that are running in the container.  
 
 ![Screenshot of Attach to Process dialog box](media/view-and-diagnose-containers/containers-attach-to-process.jpg)
 
-You can attach to managed processes in the container.
-
-You can choose a different container using the **Find** button.
+You can attach to managed processes in the container. To look for a process in another container, use the **Find** button and select another container on the **Select Docker Container** dialog.
 
 ## Viewing images
 
