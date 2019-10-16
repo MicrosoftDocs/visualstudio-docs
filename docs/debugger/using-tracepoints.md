@@ -130,7 +130,7 @@ Sometimes when you inspect a property or attribute of an object, its value can c
 
 The way that expressions are evaluated in the **Action** message box may be different than the language you are currently using for development. For example, to output a string you do not need to wrap a message in quotes even if you normally would while using `Debug.WriteLine()` or `console.log()`. Also, the curly brace syntax (`{ }`) to output expressions may also be different than the convention for outputting values in your development language. (However, the contents within the curly braces (`{ }`) should still be written using your development language’s syntax).
 
-If you are trying to debug a live aplication and looking for a similar feature, check out our logpoint feature in the snapshot debugger. The snapshot debugger is a tool used to investigate issues in production applications. Logpoints also allow you to send message to the Output Window without having to modify source code and will not impact your running application. For more information, see [Debug live Azure application](../debugger/debug-live-azure-applications.md).
+If you are trying to debug a live application and looking for a similar feature, check out our logpoint feature in the Snapshot Debugger. The snapshot debugger is a tool used to investigate issues in production applications. Logpoints also allow you to send messages to the Output Window without having to modify source code and do not impact your running application. For more information, see [Debug live Azure application](../debugger/debug-live-azure-applications.md).
 
 ## See also
 
