@@ -104,7 +104,7 @@ Soon after, Visual Studio opens your project file.
 
    ![in the 'Configure your new project' window, name your project 'HelloWorld'](../get-started/csharp/media/vs-2019/csharp-name-your-aspnet-helloworld-project.png)
 
-1. In the **Create a new ASP.NET Core Web Application** window, verify that **ASP.NET Core 2.1** appears in the top drop-down menu. Then, choose **Web Application**, which includes example Razor Pages. Next, choose  **Create**.
+1. In the **Create a new ASP.NET Core Web Application** window, verify that **ASP.NET Core 3.0** appears in the top drop-down menu. Then, choose **Web Application**, which includes example Razor Pages. Next, choose  **Create**.
 
    ![The 'Create a new ASP.NET Core Web Application' window](../get-started/csharp/media/vs-2019/csharp-create-aspnet-razor-pages-app.png)
 
