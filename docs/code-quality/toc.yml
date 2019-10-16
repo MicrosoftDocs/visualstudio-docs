@@ -1,5 +1,5 @@
 - name: Code analysis documentation
-  href: index.md
+  href: index.yml
 - name: Analyze managed code
   items:
   - name: Overview

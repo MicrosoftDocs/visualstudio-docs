@@ -753,7 +753,7 @@
     href: profiling/index.yml
   - name: Analyze code quality >>
     displayName: Code analysis FxCop Analyzers
-    href: code-quality/index.md
+    href: code-quality/index.yml
   - name: Deploy >>
     href: deployment/index.yml
   - name: Extend Visual Studio >>
