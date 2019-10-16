@@ -36,7 +36,7 @@ Pseudovariables are terms used to display certain information in a variable wind
 |`$tid`|Displays the thread ID for the current thread.|
 |`$env`|Displays the environment block in the string viewer.|
 |`$cmdline`|Displays the command line string that launched the program.|
-|`$pid`|Displays the process id.|
+|`$pid`|Displays the process ID.|
 |`$` *registername*<br /><br /> or<br /><br /> `@` *registername*|Displays the contents of the register *registername*.<br /><br /> Normally, you can display register contents just by entering the register name. The only time you need to use this syntax is when the register name overloads a variable name. If the register name is the same as a variable name in the current scope, the debugger interprets the name as a variable name. That's when `$`*registername* or `@`*registername* comes in handy.|
 |`$clk`|Displays the time in clock cycles.|
 |`$user`|Displays a structure with account information for the account running the application. For security reasons, the password information is not displayed.|
