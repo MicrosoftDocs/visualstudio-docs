@@ -58,7 +58,7 @@ conceptualContent:
 
 tools: 
   title: Products available
-  summary: "Visit products available via Visual Studio Subscriptions"
+  summary: "These are just some of the products available via Visual Studio Subscriptions"
   items: 
     - title: Azure
       imageSrc: https://docs.microsoft.com/media/logos/logo_azure.svg
@@ -104,7 +104,7 @@ additionalContent:
             url: ~/vs-office-dev.md
           - text: Windows Developer Account
             url: ~/vs-pbi.md
-      - title: Developer tools
+      - title: Training and Support
         links:
           - text: LinkedIn Premium
             url: ~/vs-linkedin-learning.md
