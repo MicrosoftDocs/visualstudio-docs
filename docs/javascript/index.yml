@@ -1,7 +1,7 @@
 ### YamlMime:Landing
 
-title: Visual Studio JavaScript and TypeScript documentation # < 60 chars
-summary: Visual Studio allows you to develop apps in JavaScript and TypeScript. # < 160 chars
+title: Visual Studio tutorials | JavaScript and TypeScript # < 60 chars
+summary: Create JavaScript and TypeScript apps with Visual Studio # < 160 chars
 
 metadata:
   title: JavaScript and TypeScript in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
