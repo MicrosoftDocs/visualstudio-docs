@@ -15,11 +15,12 @@ ms.workload:
   - "multiple"
 ---
 # Step 2: Add a Random object and a list of icons
+
 In this step, you create a set of matching symbols for the game. Each symbol is added to two random cells in the TableLayoutPanel on the form. To do this, you use two `new` statements to create two objects. The first is a <xref:System.Random> object, like the one you used in the math quiz game. It is used in this code to randomly choose cells in the TableLayoutPanel. The second object, which may be new to you, is a <xref:System.Collections.Generic.List%601> object which is used to store the randomly-chosen symbols.
 
 ## To add a random object and a list of icons
 
-1. In **Solution Explorer**, choose *Form1.cs* if you're using Visual C#, or *Form1.vb* if you're using Visual Basic, and then on the menu bar, choose **View** > **Code**. As an alternative, you can choose the **F7** key or double-click **Form1** in **Solution Explorer**.
+1. In **Solution Explorer**, choose *Form1.cs* if you're using C#, or *Form1.vb* if you're using Visual Basic, and then on the menu bar, choose **View** > **Code**. As an alternative, you can choose the **F7** key or double-click **Form1** in **Solution Explorer**.
 
      This displays the code module behind Form1.
 
@@ -35,8 +36,7 @@ In this step, you create a set of matching symbols for the game. Each symbol is 
 
 3. When adding the List object, notice the **IntelliSense** window that opens. The following is a Visual C# example, but similar text appears when you add a list in Visual Basic.
 
-     ![Properties window showing Click event](../ide/media/express_listintellisense.png)
-IntelliSense window
+     ![Properties window showing Click event](../ide/media/express_listintellisense.png)<br/>***IntelliSense** window*
 
     > [!NOTE]
     > The IntelliSense window appears only when you enter code manually. If you copy and paste the code, it doesn't appear.
@@ -54,6 +54,6 @@ IntelliSense window
 
 ## To continue or review
 
-- To go to the next tutorial step, see [Step 3: Assign a random icon to each label](../ide/step-3-assign-a-random-icon-to-each-label.md).
+- To go to the next tutorial step, see [**Step 3: Assign a random icon to each label**](../ide/step-3-assign-a-random-icon-to-each-label.md).
 
 - To return to the previous tutorial step, see [Step 1: Create a project and add a table to your form](../ide/step-1-create-a-project-and-add-a-table-to-your-form.md).
