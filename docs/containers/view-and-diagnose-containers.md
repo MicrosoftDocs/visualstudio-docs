@@ -41,7 +41,7 @@ The **Environment** tab shows the environment variables in the container. For yo
 
 On the **Ports** tab, you can check the port mappings that are in effect for your container.
 
-![Screenshot of Ports tab in Containers window](media/view-and-diagnose-containers/container-ports.png)
+![Screenshot of Ports tab in Containers window](media/view-and-diagnose-containers/containers-ports.png)
 
 Well-known ports are linked, so if there's content available on a port, you can click on the link to open the browser.
 
