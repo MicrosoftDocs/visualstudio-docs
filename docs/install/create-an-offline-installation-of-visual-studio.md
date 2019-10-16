@@ -159,7 +159,7 @@ If you want to install a language other than English, change `en-US` to a locale
 
 ::: moniker range="vs-2019"
 > [!IMPORTANT]
-> For offline installations, if you get an error message that says "A product matching the following parameters cannot be found", make sure that you are using the --noweb switch with version 16.3.5 or later.
+> For offline installations, if you get an error message that says "A product matching the following parameters cannot be found", make sure that you are using the `--noweb` switch with version 16.3.5 or later.
 >
 ::: moniker-end
 
