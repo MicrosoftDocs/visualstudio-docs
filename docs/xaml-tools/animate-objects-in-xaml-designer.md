@@ -16,7 +16,7 @@ To create an animation, you need a *storyboard*. A storyboard contains one or mo
 
 The following images shows a storyboard named **Storyboard1**. The timeline contains keyframes that mark the X and Y position of a rectangle. When this animation runs, the rectangle moves from one position to another smoothly.
 
-![Storyboard for animation in Blend for Visual Studio](../designers/media/storyboard-timeline.png)
+![Storyboard for animation in Blend for Visual Studio](media/storyboard-timeline.png)
 
 ## Create an animation
 
@@ -42,4 +42,4 @@ Play around with other changes to the rectangle at different points in time. For
 
 ## See also
 
-- [Create a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)
+- [Create a UI by using Blend for Visual Studio](../xaml-tools/creating-a-ui-by-using-blend-for-visual-studio.md)

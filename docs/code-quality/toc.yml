@@ -1,5 +1,5 @@
 - name: Code analysis documentation
-  href: index.md
+  href: index.yml
 - name: Analyze managed code
   items:
   - name: Overview
@@ -203,9 +203,9 @@
           displayName: "cryptography warnings"
           href: cryptography-warnings.md
         - name: "CA5350: Do Not Use Weak Cryptographic Algorithms"
-          href: ca5350-do-not-use-weak-cryptographic-algorithms.md
+          href: ca5350.md
         - name: "CA5351 Do Not Use Broken Cryptographic Algorithms"
-          href: ca5351-do-not-use-broken-cryptographic-algorithms.md
+          href: ca5351.md
       - name: Design warnings
         items:
         - name: Overview
@@ -370,7 +370,7 @@
         - name: "CA1309: Use ordinal StringComparison"
           href: ca1309-use-ordinal-stringcomparison.md
         - name: "CA2101: Specify marshaling for P-Invoke string arguments"
-          href: ca2101-specify-marshaling-for-p-invoke-string-arguments.md
+          href: ca2101.md
       - name: Interoperability warnings
         items:
         - name: Overview

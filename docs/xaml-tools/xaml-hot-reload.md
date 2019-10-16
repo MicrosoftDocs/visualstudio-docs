@@ -9,6 +9,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

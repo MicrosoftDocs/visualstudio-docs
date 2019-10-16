@@ -160,7 +160,7 @@ Visual Studio warns you when you are using a custom debugger visualizer that is 
 Enables the windows debug heap to improve heap diagnostics. Enabling this option will impact debugging performance.
 
 **Enable UI Debugging Tools for XAML**:
-The Live Visual Tree and the Live Property Explore windows will appear when you start debugging (**F5**) a supported project type. For more information, see [Inspect XAML properties while debugging](../debugger/inspect-xaml-properties-while-debugging.md).
+The Live Visual Tree and the Live Property Explore windows will appear when you start debugging (**F5**) a supported project type. For more information, see [Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md).
 
 - **Preview selected elements in Live Visual Tree**:
     The XAML element whose context is selected is also selected in the **Live Visual Tree** window.
@@ -181,7 +181,7 @@ The code window displays the elapsed time of a given method call when you are de
 Enables the Edit and Continue functionality while debugging.
 
 - **Enable Native Edit and Continue**:
-    You can use the Edit and Continue functionality while debugging native C++ code. For more information, see [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md).
+    You can use the Edit and Continue functionality while debugging native C++ code. For more information, see [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md).
 
 - **Apply changes on continue (Native only)**:
     Visual Studio automatically compiles and applies any outstanding code changes you have made when continuing the process from a break state. If not selected, you can choose to apply changes using the **Apply Code Changes** item under the **Debug** menu.
@@ -195,7 +195,7 @@ When this option is selected, the [Run to Click](../debugger/debugger-feature-to
 **Automatically close the console when debugging stops**:
 Tells Visual Studio to close the console at the end of a debugging session.
 
-::: moniker range=">= vs-2019" 
+::: moniker range=">= vs-2019"
 **Enable fast expression evaluation (Managed only)**:
 Allows the debugger to attempt faster evaluation by simulating execution of simple properties and methods.
 ::: moniker-end

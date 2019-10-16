@@ -981,6 +981,126 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/designers/designing-user-interfaces.md",
+      "redirect_url": "/visualstudio/xaml-tools/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/animate-objects-in-xaml-designer.md",
+      "redirect_url": "/visualstudio/xaml-tools/animate-objects-in-xaml-designer.",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/artboard-modifier-keys-in-blend.md",
+      "redirect_url": "/visualstudio/xaml-tools/artboard-modifier-keys-in-blend",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/creating-a-ui-by-using-blend-for-visual-studio.md",
+      "redirect_url": "/visualstudio/xaml-tools/creating-a-ui-by-using-blend-for-visual-studio",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md",
+      "redirect_url": "/visualstudio/xaml-tools/creating-a-ui-by-using-xaml-designer-in-visual-studio",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/debugger/debug-xaml-in-blend.md",
+      "redirect_url": "/visualstudio/xaml-tools/debug-xaml-in-blend",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/debugging-or-disabling-project-code-in-xaml-designer.md",
+      "redirect_url": "/visualstudio/xaml-tools/debugging-or-disabling-project-code-in-xaml-designer",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/designing-xaml-in-visual-studio.md",
+      "redirect_url": "/visualstudio/xaml-tools/designing-xaml-in-visual-studio",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/direct-selection-tool-modifier-keys-in-blend.md",
+      "redirect_url": "/visualstudio/xaml-tools/direct-selection-tool-modifier-keys-in-blend",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/display-data-in-blend.md",
+      "redirect_url": "/visualstudio/xaml-tools/display-data-in-blend",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/draw-shapes-and-paths.md",
+      "redirect_url": "/visualstudio/xaml-tools/draw-shapes-and-paths",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/how-to-create-and-apply-a-resource.md",
+      "redirect_url": "/visualstudio/xaml-tools/how-to-create-and-apply-a-resource",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/debugger/inspect-xaml-properties-while-debugging.md",
+      "redirect_url": "/visualstudio/xaml-tools/inspect-xaml-properties-while-debugging",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/keyboard-shortcuts-for-xaml-designer.md",
+      "redirect_url": "/visualstudio/xaml-tools/keyboard-shortcuts-for-xaml-designer",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/keyboard-shortcuts-in-blend.md",
+      "redirect_url": "/visualstudio/xaml-tools/keyboard-shortcuts-in-blend",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/modify-the-style-of-objects-in-blend.md",
+      "redirect_url": "/visualstudio/xaml-tools/modify-the-style-of-objects-in-blend",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/organize-objects-into-layout-containers-in-xaml-designer.md",
+      "redirect_url": "/visualstudio/xaml-tools/organize-objects-into-layout-containers-in-xaml-designer",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/pen-tool-modifier-keys-in-blend.md",
+      "redirect_url": "/visualstudio/xaml-tools/pen-tool-modifier-keys-in-blend",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/walkthrough-binding-to-data-in-xaml-designer.md",
+      "redirect_url": "/visualstudio/xaml-tools/walkthrough-binding-to-data-in-xaml-designer",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/working-with-elements-in-xaml-designer.md",
+      "redirect_url": "/visualstudio/xaml-tools/working-with-elements-in-xaml-designer",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/xaml-errors-warnings.md",
+      "redirect_url": "/visualstudio/xaml-tools/xaml-errors-warnings",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/debugger/xaml-hot-reload-troubleshooting.md",
+      "redirect_url": "/visualstudio/xaml-tools/xaml-hot-reload-troubleshooting",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/debugger/xaml-hot-reload.md",
+      "redirect_url": "/visualstudio/xaml-tools/xaml-hot-reload",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/xaml-overview.md",
+      "redirect_url": "/visualstudio/xaml-tools/xaml-overview",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "docs/designers/insert-images-videos-and-audio-clips-in-xaml-designer.md",
       "redirect_url": "/visualstudio/designers/creating-a-ui-by-using-blend-for-visual-studio",
       "redirect_document_id": false
@@ -8594,6 +8714,21 @@
       "source_path": "subscriptions/vs-office-dev.md",
       "redirect_url": "/visualstudio/subscriptions/vs-m365",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca5350-do-not-use-weak-cryptographic-algorithms.md",
+      "redirect_url": "/visualstudio/code-quality/ca5350",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca5351-do-not-use-broken-cryptographic-algorithms.md",
+      "redirect_url": "/visualstudio/code-quality/ca5351",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2101-specify-marshaling-for-p-invoke-string-arguments.md",
+      "redirect_url": "/visualstudio/code-quality/ca2101",
+      "redirect_document_id": true
     }
   ]
 }
