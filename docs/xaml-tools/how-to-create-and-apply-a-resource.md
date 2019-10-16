@@ -69,4 +69,4 @@ Whenever you create a new resource from an existing property, [Style](xref:Windo
 
 ## See also
 
-- [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)
+- [Creating a UI by using XAML Designer](../xaml-tools/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)

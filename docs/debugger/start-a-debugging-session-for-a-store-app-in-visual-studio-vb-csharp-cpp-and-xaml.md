@@ -211,4 +211,5 @@ To attach the debugger to a [!INCLUDE[win8_appname_long](../debugger/includes/wi
 ::: moniker-end
 
 ## See also
-- [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
+
+- [Debug apps in Visual Studio](../debugger/debugging-windows-store-and-windows-universal-apps.md)

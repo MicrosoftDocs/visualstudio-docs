@@ -91,7 +91,7 @@
     - name: View memory for variables
       href: memory-windows.md
     - name: Inspect XAML properties while debugging
-      href: inspect-xaml-properties-while-debugging.md
+      href: ../xaml-tools/inspect-xaml-properties-while-debugging.md?toc=/visualstudio/debugger/toc.json
   - name: Call stack
     items:
     - name: View the call stack
@@ -131,9 +131,9 @@
     - name: XAML Hot Reload
       items:
       - name: Write and debug running XAML code
-        href: xaml-hot-reload.md
+        href: ../xaml-tools/xaml-hot-reload.md?toc=/visualstudio/debugger/toc.json
       - name: Troubleshooting XAML Hot Reload
-        href: xaml-hot-reload-troubleshooting.md
+        href: ../xaml-tools/xaml-hot-reload-troubleshooting.md?toc=/visualstudio/debugger/toc.json
     - name: Edit and Continue not supported for F#
       href: edit-and-continue-not-supported-for-f-hash.md
   - name: Log to Output window
@@ -411,7 +411,7 @@
     - name: Troubleshooting snapshot debugging
       href: debug-live-azure-apps-troubleshooting.md
     - name: Time Travel Debugging live Azure virtual machine app
-      href: debug-live-azure-virtual-machines-time-travel-debugging.md      
+      href: debug-live-azure-virtual-machines-time-travel-debugging.md
   - name: Application types
     items:
     - name: Debug specific application types
@@ -435,7 +435,7 @@
       - name: Debug an installed app package
         href: debug-installed-app-package.md
       - name: Debug XAML in Blend
-        href: debug-xaml-in-blend.md
+        href: ../xaml-tools/debug-xaml-in-blend.md?toc=/visualstudio/debugger/toc.json
       - name: HTML and CSS
         items:
         - name: Debug HTML and CSS
