@@ -70,7 +70,7 @@ namespace DesignLibrary
         {
             if (input == null)
             {
-                throw new ArgumentNullException("input");
+                throw new ArgumentNullException(nameof(input));
             }
             if (input.Length != 0)
             {
@@ -101,7 +101,7 @@ Namespace DesignLibrary
         Sub Validate(ByVal input As String)
 
             If input Is Nothing Then
-                Throw New ArgumentNullException("input")
+                Throw New ArgumentNullException(NameOf(input))
             End If
 
             If input.Length <> 0 Then
@@ -169,7 +169,7 @@ public class Person
     private static Person PassThroughNonNull(Person person)
     {
         if (person == null)
-            throw new ArgumentNullException("person");
+            throw new ArgumentNullException(nameof(person));
         return person;
     }
 }

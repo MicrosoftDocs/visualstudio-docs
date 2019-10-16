@@ -14,9 +14,8 @@ ms.workload:
 
 You can open most debugger windows while you are debugging your program. To see a list of debugger windows, set a breakpoint and start debugging. When you hit the breakpoint and execution stops, click **Debug > Windows**.
 
-||||
+|Window|Hotkey|See topic|
 |-|-|-|
-|**Window**|**Hotkey**|**See Topic**|
 |Breakpoints|CTRL+ALT+B|[Use Breakpoints](../debugger/using-breakpoints.md)|
 |Exception Settings|CTRL+ALT+E|[Manage Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)|
 |Output|CTRL+ALT+O|[Output Window](../ide/reference/output-window.md)|
@@ -35,8 +34,8 @@ You can open most debugger windows while you are debugging your program. To see 
 |Python Debug Interactive|SHIFT+ALT+I|[Python Interactive REPL](../python/python-interactive-repl-in-visual-studio.md)|
 |JavaScript Console|CTRL+ALT+V, C|[QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md)|
 |DOM Explorer|CTRL+ALT+V, D|[Debug layout using DOM Explorer](/visualstudio/debugger/quickstart-debug-html-and-css)|
-|Live Visual Tree|-|[Inspect XAML properties while debugging](../debugger/inspect-xaml-properties-while-debugging.md)|
-|Live Property Explorer|-|[Inspect XAML properties while debugging](../debugger/inspect-xaml-properties-while-debugging.md)|
+|Live Visual Tree|-|[Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md)|
+|Live Property Explorer|-|[Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md)|
 |Processes|CTRL+ALT+Z|[Debug Threads and Processes](../debugger/debug-threads-and-processes.md)|
 |Memory|CTRL+ALT+M, (1, 2, 3, 4)|[Memory Windows](../debugger/memory-windows.md)|
 |Disassembly|CTRL+ALT+D|[How to: Use the Disassembly Window](../debugger/how-to-use-the-disassembly-window.md)|

@@ -14,7 +14,7 @@ manager: jillfra
 ms.workload:
   - "cplusplus"
 ---
-# Create custom views of C++ objects in the debugger
+# Create custom views of C++ objects in the debugger using the Natvis framework
 
 The Visual Studio *Natvis* framework customizes the way native types appear in debugger variable windows, such as the **Locals** and **Watch** windows, and in **DataTips**. Natvis visualizations can help make the types you create more visible during debugging.
 

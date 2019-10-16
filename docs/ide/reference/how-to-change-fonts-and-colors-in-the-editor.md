@@ -27,9 +27,7 @@ You can change the default font face, adjust the font size, and change the foreg
 
 ## Change the default font face, size, and colors
 
-1. Select **Options** from the **Tools** menu, and in the **Environment** folder, select **Fonts and Colors**.
-
-     The [Fonts and Colors, Environment, Options Dialog Box](../../ide/reference/fonts-and-colors-environment-options-dialog-box.md) opens.
+1. Select **Options** from the **Tools** menu. Under **Environment**, select [Fonts and Colors](../../ide/reference/fonts-and-colors-environment-options-dialog-box.md).
 
 2. In **Show settings for**, select **Text Editor**.
 

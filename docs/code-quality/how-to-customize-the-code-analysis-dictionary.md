@@ -101,7 +101,7 @@ Terms in Dictionary/Words/Recognized nodes are applied to the following code ana
 
 - [CA1726: Use preferred terms](../code-quality/ca1726-use-preferred-terms.md)
 
-- [CA2204: Literals should be spelled correctly](../code-quality/ca2204-literals-should-be-spelled-correctly.md)
+- [CA2204: Literals should be spelled correctly](../code-quality/ca2204.md)
 
 ### <a name="BKMK_DictionaryWordsUnrecognizedWord"></a> Dictionary/Words/Unrecognized/Word
 
@@ -136,7 +136,7 @@ Terms in the Dictionary/Words/Unrecognized node are applied to the following cod
 
 - [CA1726: Use preferred terms](../code-quality/ca1726-use-preferred-terms.md)
 
-- [CA2204: Literals should be spelled correctly](../code-quality/ca2204-literals-should-be-spelled-correctly.md)
+- [CA2204: Literals should be spelled correctly](../code-quality/ca2204.md)
 
 ### <a name="BKMK_DictionaryWordsDeprecatedTermPreferredAlternate"></a> Dictionary/Words/Deprecated/Term[@PreferredAlternate]
 

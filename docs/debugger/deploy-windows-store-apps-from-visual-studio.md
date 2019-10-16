@@ -70,7 +70,7 @@ Deployment uses the remote debugger network channel to send the app files to the
 
     The **Remote Connection** dialog box displays the devices on the local network subnet and any device that is directly connected to the Visual Studio machine by an Ethernet cable.
 
-   **Specifying the remote device in a Visual C++ project page**
+   **Specifying the remote device in a C++ project page**
 
    ![C&#43;&#43; project properties for remote debugging](../debugger/media/vsrun_cpp_projprop_remote.png "VSRUN_CPP_ProjProp_Remote")
 

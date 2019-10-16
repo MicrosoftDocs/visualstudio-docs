@@ -68,5 +68,5 @@ The following example shows a type, `ErrorProne`, that violates this rule, and a
 
 - [CA1056: URI properties should not be strings](../code-quality/ca1056-uri-properties-should-not-be-strings.md)
 - [CA1055: URI return values should not be strings](../code-quality/ca1055-uri-return-values-should-not-be-strings.md)
-- [CA2234: Pass System.Uri objects instead of strings](../code-quality/ca2234-pass-system-uri-objects-instead-of-strings.md)
+- [CA2234: Pass System.Uri objects instead of strings](../code-quality/ca2234.md)
 - [CA1057: String URI overloads call System.Uri overloads](../code-quality/ca1057-string-uri-overloads-call-system-uri-overloads.md)
