@@ -139,4 +139,4 @@ If you are trying to debug a live aplication and looking for a similar feature, 
 - [First look at debugging](../debugger/debugger-feature-tour.md)
 - [Expressions in the debugger](expressions-in-the-debugger.md)
 - [Use breakpoints](../debugger/using-breakpoints.md)
-- [Debug live Azure application](../debugger/debug-live-azure-applications.md)
+- [Debug live Azure applications](../debugger/debug-live-azure-applications.md)
