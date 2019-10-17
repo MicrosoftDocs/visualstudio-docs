@@ -17,7 +17,7 @@ CodeLens lets you stay focused on your work while you find out what happened to 
 ::: moniker range=">=vs-2019"
 
 > [!NOTE]
-> The source control CodeLens indicators are not available in Visual Studio Community edition.
+> CodeLens is available in Visual Studio Community edition, however, the *source control* indicators are not available in this edition.
 
 ::: moniker-end
 
@@ -269,7 +269,7 @@ Turn CodeLens file-level indicators on and off using the chevron icons at the bo
 ::: moniker range=">=vs-2019"
 
 > [!TIP]
-> Source control indicators are not available in Visual Studio Community edition.
+> CodeLens is available in Visual Studio Community edition, however, the *source control* indicators are not available in this edition.
 
 ::: moniker-end
 
