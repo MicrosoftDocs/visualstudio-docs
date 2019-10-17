@@ -70,7 +70,7 @@ In the sixth part of this tutorial, you'll add a subtraction problem and learn h
      [!code-vb[VbExpressTutorial3Step5_6#14](../ide/codesnippet/VisualBasic/step-6-add-a-subtraction-problem_4.vb)]
      [!code-csharp[VbExpressTutorial3Step5_6#14](../ide/codesnippet/CSharp/step-6-add-a-subtraction-problem_4.cs)]
 
-     In Visual C#, `&&` is the `logical and` operator. In Visual Basic, the equivalent operator is `AndAlso`. These operators indicate "If the sum of addend1 and addend2 equals the value of the sum NumericUpDown and if minuend minus subtrahend equals the value of the difference NumericUpDown." The `CheckTheAnswer()` method returns `true` only if the answers to the addition and the subtraction problems are both correct.
+     In C#, `&&` is the `logical and` operator. In Visual Basic, the equivalent operator is `AndAlso`. These operators indicate "If the sum of addend1 and addend2 equals the value of the sum NumericUpDown and if minuend minus subtrahend equals the value of the difference NumericUpDown." The `CheckTheAnswer()` method returns `true` only if the answers to the addition and the subtraction problems are both correct.
 
 4. Replace the last part of the timer's Tick event handler with the following code so that it fills in the correct answer when time runs out.
 

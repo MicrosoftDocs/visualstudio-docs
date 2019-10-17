@@ -42,7 +42,7 @@ In the seventh part of this tutorial, you'll add multiplication and division pro
      [!code-vb[VbExpressTutorial3Step7#17](../ide/codesnippet/VisualBasic/step-7-add-multiplication-and-division-problems_3.vb)]
      [!code-csharp[VbExpressTutorial3Step7#17](../ide/codesnippet/CSharp/step-7-add-multiplication-and-division-problems_3.cs)]
 
-     You can't easily enter the multiplication sign (×) and the division sign (÷) using the keyboard, so Visual C# and Visual Basic accept an asterisk (*) for multiplication and a slash mark (/) for division.
+     You can't easily enter the multiplication sign (×) and the division sign (÷) using the keyboard, so C# and Visual Basic accept an asterisk (*) for multiplication and a slash mark (/) for division.
 
 4. Change the last part of the timer's <xref:System.Windows.Forms.Timer.Tick> event handler so that it fills in the correct answer when time runs out.
 
