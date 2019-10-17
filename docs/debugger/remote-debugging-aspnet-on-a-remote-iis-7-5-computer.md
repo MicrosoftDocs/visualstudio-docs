@@ -58,7 +58,7 @@ This article includes steps on setting up a basic configuration of IIS on Window
     To do this in Visual Studio 2017, choose **File > New > Project**, then select **Visual C# > Web > ASP.NET Web Application**. In the **ASP.NET 4.5.2** templates section, select **MVC**. Make sure that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.)
     ::: moniker-end
 
-2. Open the  HomeController.cs file, and set a breakpoint in the `About()` method.
+2. Open the  *HomeController.cs* file, and set a breakpoint in the `About()` method.
 
 ## <a name="bkmk_configureIIS"></a> Install and Configure IIS on Windows Server
 
@@ -154,7 +154,7 @@ You can use this option to deploy your app if you want to copy the app to IIS us
 
 You can also publish and deploy the app using the file system or other tools.
 
-1. (ASP.NET 4.5.2) Make sure that the web.config file lists the correct version of the .NET Framework.  For example, if you are targeting ASP.NET 4.5.2, make sure this version is listed in web.config.
+1. (ASP.NET 4.5.2) Make sure that the web.config file lists the correct version of .NET.  For example, if you are targeting ASP.NET 4.5.2, make sure this version is listed in web.config.
 
     ```xml
     <system.web>

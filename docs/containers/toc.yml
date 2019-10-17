@@ -28,7 +28,7 @@
       href: deploy-app-service.md
     - name: Deploy to Docker Hub
       href: deploy-docker-hub.md
-    - name: View and diagnose containers
+    - name: View and diagnose containers and images
       href: view-and-diagnose-containers.md
     - name: Configure Container Tools
       href: container-tools-configure.md
