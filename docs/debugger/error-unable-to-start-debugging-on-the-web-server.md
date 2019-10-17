@@ -88,7 +88,9 @@ In addition, here are some of the common error codes and a few suggestions.
 
 ## <a name="cannot_connect"></a> The debugger cannot connect to the remote computer
 
-If you are debugging locally, this error may occur because Visual Studio is a 32-bit application, so it uses the 64-bit version of the remote debugger to debug 64-bit applications. Open your project properties and make sure that the project is configured to connect to the correct Web server and URL. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type.)
+If you are debugging locally, open your project properties in Visual Studio and make sure that the project is configured to connect to the correct Web server and URL. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type.)
+
+This error may occur when debugging locally because Visual Studio is a 32-bit application, so it uses the 64-bit version of the remote debugger to debug 64-bit applications. Check your App Pool on IIS to make sure that **Enable 32-bit applications** is set to `true`, restart IIS, and try again.
 
 Also, if you are using a HOSTS file, make sure it is configured correctly. For example, the HOSTS file needs to include the same project URL as in your project properties, **Properties > Web > Servers** or **Properties > Debug**, depending on your project type.
 
