@@ -22,5 +22,5 @@ Mobility warnings support efficient power usage.
 
 |Rule|Description|
 |----------|-----------------|
-|[CA1600: Do not use idle process priority](../code-quality/ca1600-do-not-use-idle-process-priority.md)|Do not set process priority to Idle. Processes that have System.Diagnostics.ProcessPriorityClass.Idle will occupy the CPU when it would otherwise be idle, and will therefore block standby.|
-|[CA1601: Do not use timers that prevent power state changes](../code-quality/ca1601-do-not-use-timers-that-prevent-power-state-changes.md)|Higher-frequency periodic activity will keep the CPU busy and interfere with power-saving idle timers that turn off the display and hard disks.|
+|[CA1600: Do not use idle process priority](../code-quality/ca1600.md)|Do not set process priority to Idle. Processes that have System.Diagnostics.ProcessPriorityClass.Idle will occupy the CPU when it would otherwise be idle, and will therefore block standby.|
+|[CA1601: Do not use timers that prevent power state changes](../code-quality/ca1601.md)|Higher-frequency periodic activity will keep the CPU busy and interfere with power-saving idle timers that turn off the display and hard disks.|

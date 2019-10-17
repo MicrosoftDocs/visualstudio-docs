@@ -17,23 +17,23 @@ The following table describes all the rules in the Microsoft Basic Correctness R
 
 |Rule|Description|
 |----------|-----------------|
-|[CA1001](../code-quality/ca1001-types-that-own-disposable-fields-should-be-disposable.md)|Types that own disposable fields should be disposable|
-|[CA1009](../code-quality/ca1009-declare-event-handlers-correctly.md)|Declare event handlers correctly|
-|[CA1016](../code-quality/ca1016-mark-assemblies-with-assemblyversionattribute.md)|Mark assemblies with AssemblyVersionAttribute|
-|[CA1033](../code-quality/ca1033-interface-methods-should-be-callable-by-child-types.md)|Interface methods should be callable by child types|
-|[CA1049](../code-quality/ca1049-types-that-own-native-resources-should-be-disposable.md)|Types that own native resources should be disposable|
-|[CA1060](../code-quality/ca1060-move-p-invokes-to-nativemethods-class.md)|Move P/Invokes to NativeMethods class|
-|[CA1061](../code-quality/ca1061-do-not-hide-base-class-methods.md)|Do not hide base class methods|
-|[CA1063](../code-quality/ca1063-implement-idisposable-correctly.md)|Implement IDisposable correctly|
-|[CA1065](../code-quality/ca1065-do-not-raise-exceptions-in-unexpected-locations.md)|Do not raise exceptions in unexpected locations|
-|[CA1301](../code-quality/ca1301-avoid-duplicate-accelerators.md)|Avoid duplicate accelerators|
-|[CA1400](../code-quality/ca1400-p-invoke-entry-points-should-exist.md)|P/Invoke entry points should exist|
-|[CA1401](../code-quality/ca1401-p-invokes-should-not-be-visible.md)|P/Invokes should not be visible|
-|[CA1403](../code-quality/ca1403-auto-layout-types-should-not-be-com-visible.md)|Auto layout types should not be COM visible|
-|[CA1404](../code-quality/ca1404-call-getlasterror-immediately-after-p-invoke.md)|Call GetLastError immediately after P/Invoke|
-|[CA1405](../code-quality/ca1405-com-visible-type-base-types-should-be-com-visible.md)|COM visible type base types should be COM visible|
-|[CA1410](../code-quality/ca1410-com-registration-methods-should-be-matched.md)|COM registration methods should be matched|
-|[CA1415](../code-quality/ca1415-declare-p-invokes-correctly.md)|Declare P/Invokes correctly|
+|[CA1001](../code-quality/ca1001.md)|Types that own disposable fields should be disposable|
+|[CA1009](../code-quality/ca1009.md)|Declare event handlers correctly|
+|[CA1016](../code-quality/ca1016.md)|Mark assemblies with AssemblyVersionAttribute|
+|[CA1033](../code-quality/ca1033.md)|Interface methods should be callable by child types|
+|[CA1049](../code-quality/ca1049.md)|Types that own native resources should be disposable|
+|[CA1060](../code-quality/ca1060.md)|Move P/Invokes to NativeMethods class|
+|[CA1061](../code-quality/ca1061.md)|Do not hide base class methods|
+|[CA1063](../code-quality/ca1063.md)|Implement IDisposable correctly|
+|[CA1065](../code-quality/ca1065.md)|Do not raise exceptions in unexpected locations|
+|[CA1301](../code-quality/ca1301.md)|Avoid duplicate accelerators|
+|[CA1400](../code-quality/ca1400.md)|P/Invoke entry points should exist|
+|[CA1401](../code-quality/ca1401.md)|P/Invokes should not be visible|
+|[CA1403](../code-quality/ca1403.md)|Auto layout types should not be COM visible|
+|[CA1404](../code-quality/ca1404.md)|Call GetLastError immediately after P/Invoke|
+|[CA1405](../code-quality/ca1405.md)|COM visible type base types should be COM visible|
+|[CA1410](../code-quality/ca1410.md)|COM registration methods should be matched|
+|[CA1415](../code-quality/ca1415.md)|Declare P/Invokes correctly|
 |[CA1821](../code-quality/ca1821.md)|Remove empty finalizers|
 |[CA1900](../code-quality/ca1900.md)|Value type fields should be portable|
 |[CA1901](../code-quality/ca1901.md)|P/Invoke declarations should be portable|
@@ -79,10 +79,10 @@ The following table describes all the rules in the Microsoft Basic Correctness R
 |[CA2240](../code-quality/ca2240.md)|Implement ISerializable correctly|
 |[CA2241](../code-quality/ca2241.md)|Provide correct arguments to formatting methods|
 |[CA2242](../code-quality/ca2242.md)|Test for NaN correctly|
-|[CA1008](../code-quality/ca1008-enums-should-have-zero-value.md)|Enums should have zero value|
-|[CA1013](../code-quality/ca1013-overload-operator-equals-on-overloading-add-and-subtract.md)|Overload operator equals on overloading add and subtract|
-|[CA1303](../code-quality/ca1303-do-not-pass-literals-as-localized-parameters.md)|Do not pass literals as localized parameters|
-|[CA1308](../code-quality/ca1308-normalize-strings-to-uppercase.md)|Normalize strings to uppercase|
+|[CA1008](../code-quality/ca1008.md)|Enums should have zero value|
+|[CA1013](../code-quality/ca1013.md)|Overload operator equals on overloading add and subtract|
+|[CA1303](../code-quality/ca1303.md)|Do not pass literals as localized parameters|
+|[CA1308](../code-quality/ca1308.md)|Normalize strings to uppercase|
 |[CA1806](../code-quality/ca1806.md)|Do not ignore method results|
 |[CA1816](../code-quality/ca1816.md)|Call GC.SuppressFinalize correctly|
 |[CA1819](../code-quality/ca1819.md)|Properties should not return arrays|
