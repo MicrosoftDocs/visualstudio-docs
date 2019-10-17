@@ -63,6 +63,6 @@ The following example shows a method that violates the rule and a method that sa
 
 [CA1401: P/Invokes should not be visible](../code-quality/ca1401-p-invokes-should-not-be-visible.md)
 
-[CA2101: Specify marshaling for P/Invoke string arguments](../code-quality/ca2101-specify-marshaling-for-p-invoke-string-arguments.md)
+[CA2101: Specify marshaling for P/Invoke string arguments](../code-quality/ca2101.md)
 
-[CA2205: Use managed equivalents of Win32 API](../code-quality/ca2205-use-managed-equivalents-of-win32-api.md)
+[CA2205: Use managed equivalents of Win32 API](../code-quality/ca2205.md)

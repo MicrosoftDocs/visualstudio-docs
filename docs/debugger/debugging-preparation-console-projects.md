@@ -54,7 +54,7 @@ Like all project properties, these arguments persist between debug sessions and 
 ## See Also
 - [Debugging Native Code](../debugger/debugging-native-code.md)
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
-- [Visual C++ Project Types](../debugger/debugging-preparation-visual-cpp-project-types.md)
+- [Prepare to debug C++ projects](../debugger/debugging-preparation-visual-cpp-project-types.md)
 - [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
 - [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
 - [Debugger Security](../debugger/debugger-security.md)

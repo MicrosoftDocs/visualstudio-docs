@@ -1,5 +1,5 @@
 ---
-title: "Edit and Continue (Visual C++) | Microsoft Docs"
+title: "Edit and Continue (C++) | Microsoft Docs"
 ms.date: "05/31/2018"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,8 +18,8 @@ manager: jillfra
 ms.workload:
   - "cplusplus"
 ---
-# Edit and Continue (Visual C++)
-You can use Edit and Continue in Visual C++ projects. See [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md) for information about the limitations of Edit and Continue.
+# Edit and Continue (C++)
+You can use Edit and Continue in C++ projects. See [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md) for information about the limitations of Edit and Continue.
 
 For more information about Visual Studio 2015 Update 3 improvements, see [C++ Edit and Continue in Visual Studio 2015 Update 3](https://devblogs.microsoft.com/cppblog/c-edit-and-continue-in-visual-studio-2015-update-3/).
 
@@ -46,7 +46,7 @@ For more information about Visual Studio 2015 Update 3 improvements, see [C++ Ed
    Altering this setting affects all projects you work on. You do not need to rebuild your application after changing this setting. If you build your application from the command line or from a makefile, but you debug in the Visual Studio environment, you can still use Edit and Continue if you set the **/ZI** option.
 
 ## <a name="BKMK_How_to_apply_code_changes_explicitly"></a> How to apply code changes explicitly
- In Visual C++, Edit and Continue can apply code changes in two ways. Code changes can be applied implicitly, when you choose an execution command, or explicitly, using the **Apply Code Changes** command.
+ In C++, Edit and Continue can apply code changes in two ways. Code changes can be applied implicitly, when you choose an execution command, or explicitly, using the **Apply Code Changes** command.
 
  When you apply code changes explicitly, your program remains in break mode - no execution occurs.
 
@@ -66,7 +66,7 @@ For more information about Visual Studio 2015 Update 3 improvements, see [C++ Ed
 ## <a name="BKMK_How_to_reset_the_point_of_execution"></a> How to reset the point of execution
  Some code changes can cause the point of execution to move to a new location when Edit and Continue applies the changes. Edit and Continue places the point of execution as accurately as possible, but the results may not be correct in all cases.
 
- In Visual C++, a dialog box informs you when the point of execution changes. You should verify that the location is correct before you continue debugging. If it is not correct, use the **Set Next Statement** command. For more information, see [Set the next statement to execute](https://msdn.microsoft.com/library/y740d9d3.aspx#BKMK_Set_the_next_statement_to_execute).
+ In C++, a dialog box informs you when the point of execution changes. You should verify that the location is correct before you continue debugging. If it is not correct, use the **Set Next Statement** command. For more information, see [Set the next statement to execute](https://msdn.microsoft.com/library/y740d9d3.aspx#BKMK_Set_the_next_statement_to_execute).
 
 ## <a name="BKMK_How_to_work_with_stale_code"></a> How to work with stale code
  In some cases, Edit and Continue cannot apply code changes to the executable immediately, but might be able to apply the code changes later if you continue debugging. This happens if you edit a function that calls the current function or if you add more than 64 bytes of new variables to a function on the call stack

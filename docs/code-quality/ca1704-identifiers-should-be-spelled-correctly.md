@@ -104,7 +104,7 @@ Suppress a warning from this rule only if the word is intentionally misspelled a
 
 ## Related rules
 
-- [CA2204: Literals should be spelled correctly](../code-quality/ca2204-literals-should-be-spelled-correctly.md)
+- [CA2204: Literals should be spelled correctly](../code-quality/ca2204.md)
 - [CA1703: Resource strings should be spelled correctly](../code-quality/ca1703-resource-strings-should-be-spelled-correctly.md)
 - [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md)
 - [CA1708: Identifiers should differ by more than case](../code-quality/ca1708-identifiers-should-differ-by-more-than-case.md)

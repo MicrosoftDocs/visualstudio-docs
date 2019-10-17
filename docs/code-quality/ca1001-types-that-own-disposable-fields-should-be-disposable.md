@@ -46,10 +46,10 @@ The following example shows a class that violates the rule and a class that sati
 [!code-csharp[FxCop.Design.DisposableFields#1](../code-quality/codesnippet/CSharp/ca1001-types-that-own-disposable-fields-should-be-disposable_1.cs)]
 
 ## Related rules
-[CA2213: Disposable fields should be disposed](../code-quality/ca2213-disposable-fields-should-be-disposed.md)
+[CA2213: Disposable fields should be disposed](../code-quality/ca2213.md)
 
-[CA2216: Disposable types should declare finalizer](../code-quality/ca2216-disposable-types-should-declare-finalizer.md)
+[CA2216: Disposable types should declare finalizer](../code-quality/ca2216.md)
 
-[CA2215: Dispose methods should call base class dispose](../code-quality/ca2215-dispose-methods-should-call-base-class-dispose.md)
+[CA2215: Dispose methods should call base class dispose](../code-quality/ca2215.md)
 
 [CA1049: Types that own native resources should be disposable](../code-quality/ca1049-types-that-own-native-resources-should-be-disposable.md)

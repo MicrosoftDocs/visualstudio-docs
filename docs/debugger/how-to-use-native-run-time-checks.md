@@ -39,7 +39,7 @@ ms.workload:
   - "cplusplus"
 ---
 # How to: Use Native Run-Time Checks
-In Visual C++, you can use native [runtime_checks](/cpp/preprocessor/runtime-checks) to catch common run-time errors such as:
+In a Visual Studio C++ project, you can use native [runtime_checks](/cpp/preprocessor/runtime-checks) to catch common run-time errors such as:
 
 - Stack pointer corruption.
 

@@ -51,4 +51,4 @@ The following example shows a type that violates this rule and a type that corre
 [!code-csharp[FxCop.Design.ExceptionAndSystemException#1](../code-quality/codesnippet/CSharp/ca1031-do-not-catch-general-exception-types_1.cs)]
 
 ## Related rules
-[CA2200: Rethrow to preserve stack details](../code-quality/ca2200-rethrow-to-preserve-stack-details.md)
+[CA2200: Rethrow to preserve stack details](../code-quality/ca2200.md)

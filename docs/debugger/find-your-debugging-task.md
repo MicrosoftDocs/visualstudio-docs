@@ -59,6 +59,12 @@ If you want to pause and debug code while examining execution flow or viewing fu
 
 You can do this by [setting a breakpoint from the Disassembly window](using-breakpoints.md#BKMK_Set_a_breakpoint_from_debugger_windows).
 
+## Execute code
+
+### Learn the commands to step through your code while debugging
+
+For more information, see [Navigate code with the debugger](navigating-through-code-with-the-debugger.md).
+
 ## Inspect data
 
 ### Check the value of variables while running your app
@@ -73,19 +79,7 @@ Set a watch on the variable. For more information, see [Set a watch on variables
 
 Open the built-in [string visualizer](view-strings-visualizer.md) while debugging.
 
-## Additional tasks
-
-### Learn the commands to step through your code while debugging
-
-For more information, see [Navigate code with the debugger](navigating-through-code-with-the-debugger.md).
-
-### Edit code during a debugging session
-
-Use [Edit and continue](edit-and-continue.md). For XAML, use [XAML Hot Reload](xaml-hot-reload.md).
-
-### Send messages to the Output window without modifying code
-
-Set a tracepoint. For more information, see [Using tracepoints](using-tracepoints.md).
+## Configure debugging
 
 ### Customize information shown in the debugger
 
@@ -96,6 +90,16 @@ For native C++, use the [NatVis framework](create-custom-views-of-native-objects
 ### Configure debugger settings
 
 To configure debugger options and debugger project settings, see [Debugger settings and preparation](debugger-settings-and-preparation.md).
+
+## Additional tasks
+
+### Edit code during a debugging session
+
+Use [Edit and continue](edit-and-continue.md). For XAML, use [XAML Hot Reload](xaml-hot-reload.md).
+
+### Send messages to the Output window without modifying code
+
+Set a tracepoint. For more information, see [Using tracepoints](using-tracepoints.md).
 
 ### Debug on remote machines
 

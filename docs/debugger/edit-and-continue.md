@@ -31,7 +31,7 @@ Edit and Continue is a time-saving feature that enables you to make changes to y
 
  [How to: Stop Code Changes](../debugger/how-to-stop-code-changes.md)
 
- [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md)
+ [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md)
 
  [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)
 
