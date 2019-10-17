@@ -43,6 +43,6 @@ HRESULT CreateApplication(
 ## Remarks  
  The object created by this method has no name and is not added to the running application list. Use the `IProcessDebugManager::AddApplication` to add the debug application to the application list.  
   
-## See Also  
+## See also  
  [IProcessDebugManager Interface](../../winscript/reference/iprocessdebugmanager-interface.md)   
  [IProcessDebugManager::AddApplication](../../winscript/reference/iprocessdebugmanager-addapplication.md)

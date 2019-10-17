@@ -21,5 +21,5 @@ Provides a method to start garbage collection. This interface should be implemen
 |------------|-----------------|  
 |[IActiveScriptGarbageCollector::CollectGarbage](../../winscript/reference/iactivescriptgarbagecollector-collectgarbage.md)|Starts garbage collection.|  
   
-## See Also  
+## See also  
  [Active Script Interfaces](../../winscript/reference/active-script-interfaces.md)

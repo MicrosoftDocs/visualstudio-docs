@@ -35,5 +35,5 @@ You are calling the **Array** constructor with an argument that is not a whole n
   
      There is no upper limit for the size of an array, other than the maximum integer value (approximately 4 billion).  
   
-## See Also  
+## See also  
  [Using Arrays](../../javascript/advanced/using-arrays-javascript.md)

@@ -28,7 +28,7 @@ You composed an identifier using a character (or characters) not recognized as v
   
 - Avoid using characters that are not part of the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] language definition.  
   
-## See Also  
+## See also  
  [Variables](../../javascript/variables-javascript.md)   
  [Special Characters](../../javascript/advanced/special-characters-javascript.md)   
  [Data Types](../../javascript/data-types-javascript.md)

@@ -47,5 +47,5 @@ HRESULT onReplaceText(
 ## Remarks  
  This method indicates that text has been replaced.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextEvents Interface](../../winscript/reference/idebugdocumenttextevents-interface.md)

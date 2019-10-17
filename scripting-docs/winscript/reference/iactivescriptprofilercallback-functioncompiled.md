@@ -52,5 +52,5 @@ HRESULT FunctionCompiled(
 ## Remarks  
  The scripting engine can provide the document context only if this is supported by the host.  
   
-## See Also  
+## See also  
  [IActiveScriptProfilerCallback Interface](../../winscript/reference/iactivescriptprofilercallback-interface.md)

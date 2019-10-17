@@ -51,7 +51,7 @@ HRESULT SetTextAttributes(
 ## Remarks  
  It is an error to call `SetTextAttributes` on a text range before that text is added to the document. Call the `AddDBCSText`, `AddUnicodeText`, or `AddDeferredText` methods to add text to the document.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)   
  [IDebugDocumentHelper::AddUnicodeText](../../winscript/reference/idebugdocumenthelper-addunicodetext.md)   
  [IDebugDocumentHelper::AddDBCSText](../../winscript/reference/idebugdocumenthelper-adddbcstext.md)   

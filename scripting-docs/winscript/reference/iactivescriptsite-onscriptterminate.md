@@ -43,5 +43,5 @@ HRESULT OnScriptTerminate(
 ## Remarks  
  The scripting engine calls this method before the call to the [IActiveScriptSite::OnStateChange](../../winscript/reference/iactivescriptsite-onstatechange.md) method, with the SCRIPTSTATE_INITIALIZED flag set, is completed. This method can be used to return completion status and results to the host. Note that many script languages, which are based on sinking events from the host, have life spans that are defined by the host. In this case, this method may never be called.  
   
-## See Also  
+## See also  
  [IActiveScriptSite](../../winscript/reference/iactivescriptsite.md)

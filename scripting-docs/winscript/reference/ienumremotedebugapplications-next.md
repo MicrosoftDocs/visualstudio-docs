@@ -51,5 +51,5 @@ HRESULT Next(
 ## Remarks  
  This method retrieves a specified number of segments in the enumeration sequence.  
   
-## See Also  
+## See also  
  [IEnumRemoteDebugApplications Interface](../../winscript/reference/ienumremotedebugapplications-interface.md)

@@ -49,6 +49,6 @@ enum {
  EX_DBGPROP_INFO_DEBUGEXTPROP  
  Initializes the `pDebugExtProp` field that contains an `IDebugExtendedProperty` interface.  
   
-## See Also  
+## See also  
  [ExtendedDebugPropertyInfo Structure](../../winscript/reference/extendeddebugpropertyinfo-structure.md)   
  [IDebugExtendedProperty Interface](../../winscript/reference/idebugextendedproperty-interface.md)

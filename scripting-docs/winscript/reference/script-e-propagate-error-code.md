@@ -21,5 +21,5 @@ A script error is being propagated to the caller, which might be in a different 
 SCRIPT_E_PROPAGATE  0x80020102L  
 ```  
   
-## See Also  
+## See also  
  [Active Script Constants, Enumerations, and Error Codes](../../winscript/reference/active-script-constants-enumerations-and-error-codes.md)

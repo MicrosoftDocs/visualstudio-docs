@@ -48,5 +48,5 @@ HRESULT GetScriptSite(
 |`E_POINTER`|An invalid pointer was specified.|  
 |`S_FALSE`|No site has been set; the `ppvSiteObject` parameter is set to `NULL`.|  
   
-## See Also  
+## See also  
  [IActiveScript](../../winscript/reference/iactivescript.md)

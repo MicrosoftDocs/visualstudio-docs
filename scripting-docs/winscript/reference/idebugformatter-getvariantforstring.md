@@ -47,5 +47,5 @@ HRESULT GetVariantForString(
 ## Remarks  
  This method returns a VARIANT containing the given string.  
   
-## See Also  
+## See also  
  [IDebugFormatter Interface](../../winscript/reference/idebugformatter-interface.md)

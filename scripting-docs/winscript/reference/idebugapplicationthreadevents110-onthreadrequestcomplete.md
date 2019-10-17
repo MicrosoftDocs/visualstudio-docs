@@ -29,5 +29,5 @@ HRESULT OnThreadRequestComplete( void );
 #### Parameters  
  This method has no parameters.  
   
-## See Also  
+## See also  
  [IDebugApplicationThreadEvents110 Interface](../../winscript/reference/idebugapplicationthreadevents110-interface.md)

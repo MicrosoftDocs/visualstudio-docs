@@ -51,5 +51,5 @@ HRESULT ReplaceText(
 ## Remarks  
  This method replaces text in the document.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextAuthor Interface](../../winscript/reference/idebugdocumenttextauthor-interface.md)

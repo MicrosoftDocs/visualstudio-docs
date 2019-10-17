@@ -43,5 +43,5 @@ HRESULT EnumStackFrames(
 ## Remarks  
  This method must be called from within a breakpoint. The stack frame enumerator should return the frames starting at the top of the stack, starting with the most recently pushed frame.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationThread Interface](../../winscript/reference/iremotedebugapplicationthread-interface.md)

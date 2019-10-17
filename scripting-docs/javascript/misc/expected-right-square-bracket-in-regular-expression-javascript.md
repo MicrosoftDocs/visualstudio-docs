@@ -25,6 +25,6 @@ You attempted to create a character class for a regular expression match, but di
     > [!NOTE]
     > If you want to match a single bracket, escape it with a backslash - \\[ - so it is not interpreted as a special character by [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)].  
   
-## See Also  
+## See also  
  [Regular Expression Object](../../javascript/reference/regular-expression-object-javascript.md)   
  [Regular Expression Syntax (JavaScript)](https://msdn.microsoft.com/library/1400241x)

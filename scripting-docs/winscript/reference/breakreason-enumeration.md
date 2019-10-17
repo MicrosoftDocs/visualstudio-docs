@@ -49,5 +49,5 @@ typedef enum tagBREAKREASON {
 |BREAKREASON_ERROR|An execution error caused the break.|  
 |BREAKREASON_JIT|Caused by JIT Debugging startup.|  
   
-## See Also  
+## See also  
  [Active Script Debugger Constants, Enumerations, and Structures](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)

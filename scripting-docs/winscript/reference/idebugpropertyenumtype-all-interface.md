@@ -42,5 +42,5 @@ IDebugPropertyEnumType_LocalsPlusArgs : IDebugPropertyEnumType_All 
 IDebugPropertyEnumType_Registers : IDebugPropertyEnumType_All  
 ```  
   
-## See Also  
+## See also  
  [IDebugProperty::EnumMembers](../../winscript/reference/idebugproperty-enummembers.md)

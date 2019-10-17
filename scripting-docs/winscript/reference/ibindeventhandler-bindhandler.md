@@ -47,5 +47,5 @@ HRESULT BindHandler(
 ## Remarks  
  This method binds an event to an object.  
   
-## See Also  
+## See also  
  [IBindEventHandler Interface](../../winscript/reference/ibindeventhandler-interface.md)

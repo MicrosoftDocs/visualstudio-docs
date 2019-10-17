@@ -51,5 +51,5 @@ HRESULT GetChild(
 ## Remarks  
  For `IScriptEntry` objects that specify a function object and for `IScriptScriptlet` objects, this method fails because there are no child entries.  
   
-## See Also  
+## See also  
  [IScriptNode Interface](../../winscript/reference/iscriptnode-interface.md)

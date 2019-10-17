@@ -66,6 +66,6 @@ HRESULT GetScriptTextAttributes(
 ## Remarks  
  This method returns the text attributes for an arbitrary block of document text. It is acceptable for hosts to return `E_NOTIMPL`, in which case the default attributes are used.  
   
-## See Also  
+## See also  
  [IDebugDocumentHost Interface](../../winscript/reference/idebugdocumenthost-interface.md)   
  [SOURCE_TEXT_ATTR Enumeration](../../winscript/reference/source-text-attr-enumeration.md)

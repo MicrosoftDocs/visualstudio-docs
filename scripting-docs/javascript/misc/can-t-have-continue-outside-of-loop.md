@@ -38,7 +38,7 @@ You attempted to use the **continue** statement outside of a loop. The **continu
 
   - **for/in** loop.  
   
-## See Also  
+## See also  
  [continue Statement](../../javascript/reference/continue-statement-javascript.md)   
  [Controlling Program Flow](../../javascript/controlling-program-flow-javascript.md)   
  [Troubleshooting Your Scripts](../../javascript/advanced/troubleshooting-your-scripts-javascript.md)
