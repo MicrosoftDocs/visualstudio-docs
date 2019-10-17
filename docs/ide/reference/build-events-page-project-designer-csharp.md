@@ -1,6 +1,6 @@
 ---
 title: Build Events Page, Project Designer (C#)
-ms.date: 11/04/2016
+ms.date: 10/17/2019
 ms.technology: vs-ide-compile
 ms.topic: reference
 f1_keywords:
@@ -55,6 +55,8 @@ Specifies the following conditions for the post-build event to run, as shown in 
 |**On successful build**|Post-build event will run if the build succeeds. Thus, the event will run even for a project that is up-to-date, as long as the build succeeds.|
 |**When the build updates the project output**|Post-build event will only run when the compiler's output file (.exe or .dll) is different than the previous compiler output file. Thus, a post-build event is not run if a project is up-to-date.|
 
+::: moniker range=">=vs-2019"
+
 ## In the project file
 
 In versions of Visual Studio prior to Visual Studio 2019 version 16.x, when you add a **PreBuildEvent** or **PostBuildEvent** by changing this setting in the IDE, Visual Studio adds a `PreBuildEvent` or `PostBuildEvent` property to the project file. So for example, if your **PreBuildEvent** command line setting in the IDE is follows:
@@ -81,6 +83,7 @@ In versions of Visual Studio after Visual Studio 2019 16.x, Visual Studio adds a
 
 > [!NOTE]
 > These project file changes were made to support the SDK-style projects introduced with .NET Core 3. If you are migrating a project file from the old format to the SDK-style format manually, you should delete the `PreBuildEvent` and `PostBuildEvent` properties and replace them with `PreBuild` and `PostBuild` targets as shown in the preceding code.
+::: moniker-end
 
 ## See also
 
