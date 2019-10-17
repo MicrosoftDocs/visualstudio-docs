@@ -1,7 +1,7 @@
 ---
 title: Port, migrate, and upgrade projects
 description: A reference for the support in Visual Studio 2017 for projects created in earlier versions of Visual Studio, and how Visual Studio decides when it needs to migrate a project.
-ms.date: 04/16/2019
+ms.date: 10/17/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -66,7 +66,7 @@ If you don't see a project or file type listed here that should be, consult the 
 | Visual Studio Tools for Apache Cordova | Projects can be opened in Visual Studio 2017, but are not backwards compatible. Upon opening a project from Visual Studio 2015, you're prompted to allow modifications to your project. This modification upgrades the project to use toolsets instead of a `taco.json` file to manage the versioning of the Cordova library, its platforms, its plugins, and its node/npm dependencies. See the [migration guide](https://docs.microsoft.com/visualstudio/cross-platform/tools-for-cordova/first-steps/migrate-from-visual-studio-2015) for more information. |
 | Web Deployment (wdproj) | Support for Web Deployment projects was removed in Visual Studio 2012 with the addition of publish profile support. Because there is no equivalent in Visual Studio 2017, there is no automatic migration path for such projects. Instead, open the wdproj file in a text editor and copy-paste any customizations into to the pubxml (publish profile) file, as described on [StackOverflow](https://stackoverflow.com/a/12061065/1203388). |
 | Windows Communication Foundation, Windows Workflow Foundation | You can open this project in Visual Studio 2017, Visual Studio 2015, Visual Studio 2013, and Visual Studio 2012 |
-| Windows Presentation Foundation | You can open this project in Visual Studio 2013, Visual Studio 2012, and Visual Studio 2010 SP1. |
+| Windows Presentation Foundation | You can open this project in Visual Studio 2017, Visual Studio 2013, Visual Studio 2012, and Visual Studio 2010 SP1. |
 | Windows Store/Phone apps | Projects for Windows Store 8.1 and 8.0, and Windows Phone 8.1 and 8.0 are not supported in Visual Studio 2017. To maintain these apps, continue to use Visual Studio 2015. To maintain Windows Phone 7.x projects, use Visual Studio 2012. |
 
 ## How Visual Studio decides when to migrate a project
@@ -156,7 +156,7 @@ If you don't see a project or file type listed here that should be, consult the 
 | Visual Studio Tools for Apache Cordova | Support for Apache Cordova was removed in Visual Studio 2019. Because there is no equivalent in Visual Studio 2019, there is no automatic migration path for such projects.<br/><br/>You can use the Cordova Tools for Visual Studio Code extension (which provides support for the latest version of Cordova) or continue using Visual Studio 2017. |
 | Web Deployment (wdproj) | Support for Web Deployment projects was removed in Visual Studio 2012 with the addition of publish profile support. Because there is no equivalent in Visual Studio 2019, there is no automatic migration path for such projects. Instead, open the wdproj file in a text editor and copy-paste any customizations into to the pubxml (publish profile) file, as described on [StackOverflow](https://stackoverflow.com/a/12061065/1203388). |
 | Windows Communication Foundation, Windows Workflow Foundation | You can open this project in Visual Studio 2019, Visual Studio 2017, Visual Studio 2015, Visual Studio 2013, and Visual Studio 2012. |
-| Windows Presentation Foundation | You can open this project in Visual Studio 2017, Visual Studio 2013, Visual Studio 2012, and Visual Studio 2010 SP1. |
+| Windows Presentation Foundation | You can open this project in Visual Studio 2019, Visual Studio 2017, Visual Studio 2013, Visual Studio 2012, and Visual Studio 2010 SP1. |
 | Windows Phone apps | Projects for Windows Phone are not supported in Visual Studio 2019. <br/><br/>To maintain Windows Phone 8.x apps, use Visual Studio 2015. To maintain Windows Phone 7.x projects, use Visual Studio 2012. |
 | Windows Store apps | JavaScript Universal Windows Projects are not supported in Visual Studio 2019. To maintain these projects, use Visual Studio 2017. <br/><br/>Windows 10 SDKs before the Windows 10 Fall Creators Update (build 16299) have been removed from the Visual Studio 2019 installer. You can download the older SDKs manually or retarget your projects to use the newer SDKs.<br/><br/>Universal Windows Projects using project.json are not supported. We recommend upgrading these projects to use package references. Alternately, add a reference to Microsoft.NET.Test.Sdk version 16.0.0.0 in the project.json file.<br/><br/>Projects for Windows Store 8.1 and 8.0 are not supported in Visual Studio 2019. To maintain these apps, continue to use Visual Studio 2015. |
 | Xamarin | The Xamarin Live Player extension for Visual Studio and Visual Studio for Mac has been removed. This removes the pairing screen and any integration. Instead, use the built in Xamarin.Forms Previewer.<br/><br/>The Visual Studio Emulator for Android has been removed from the Visual Studio Installer. Instead, use the new Hyper-V support in the Google Android emulator. |
