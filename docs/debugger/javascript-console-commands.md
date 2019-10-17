@@ -19,11 +19,6 @@ ms.workload:
 
 You can use commands to send messages and perform other tasks in the JavaScript Console window of Visual Studio. For examples that show how to use this window, see [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md?view=vs-2017). The information in this topic applies to Node.js app, UWP apps, and apps created using Visual Studio Tools for Apache Cordova.
 
-::: moniker range=">=vs-2019"
-> [!NOTE]
-> The JavaScript Console is available in Visual Studio 2017, but is no longer present in Visual Studio 2019. 
-::: moniker-end
-
 If the JavaScript Console window is closed, you can open it while you're debugging in Visual Studio by choosing **Debug** > **Windows** > **JavaScript Console**.
 
 > [!NOTE]
