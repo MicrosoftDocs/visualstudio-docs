@@ -743,7 +743,7 @@
 # Auto-expanded node
           items:
           - name: Prerequisites for Remote Debugging Web Applications
-            href: prerequisites-for-remote-debugging-web-applications.md
+            href: prerequistes-for-remote-debugging-web-applications.md
           - name: Find the Name of the ASP.NET Process
             href: how-to-find-the-name-of-the-aspnet-process.md
       - name: Debugging Web Applications

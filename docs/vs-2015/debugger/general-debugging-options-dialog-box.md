@@ -52,7 +52,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
  Automatically shows the **Disassembly** window when you try to debug code for which source is unavailable.  
   
  **Enable breakpoint filters**  
- Enables you to set filters on breakpoints so that they will affect only specific processes, threads, or computers.  
+ Enables you to set filters on breakpoints so that they affect only specific processes, threads, or computers.  
   
  **Enable the exception assistant**  
  For managed code only. Managed exceptions open the  exception assistant dialog box.  See [Exception Assistant](https://msdn.microsoft.com/library/992892ac-9d52-44cc-bf09-b44bfc5befeb).  
@@ -117,7 +117,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
  **Load dll exports**  
  Loads dll export tables. Symbol information from dll export tables can be useful if you are working with Windows messages, Windows procedures (WindowProcs), COM objects, or marshaling, or any dll for which you do not have symbols. Reading dll export information involves some overhead. Therefore, this capability is turned off by default.  
   
- To see what symbols are available in the export table of a dll, use `dumpbin /exports`. Symbols are available for any 32-bit system dll. By reading the `dumpbin /exports` output, you can see the exact function name, including non-alphanumeric characters. This is useful for setting a breakpoint on a function. Function names from dll export tables might appear truncated elsewhere in the debugger. The calls are listed in the calling order, with the current function (the most deeply nested) at the top. For more information, see [dumpbin /exports](https://msdn.microsoft.com/library/2971ab7e-4ee6-478b-9c85-cda42a4ce1bf).  
+ To see what symbols are available in the export table of a dll, use `dumpbin /exports`. Symbols are available for any 32-bit system dll. By reading the `dumpbin /exports` output, you can see the exact function name, including non-alphanumeric characters. This is useful for setting a breakpoint on a function. Function names from dll export tables might appear truncated elsewhere in the debugger. The calls are listed in the calling order, with the current function (the most deeply nested) at the top. For more information, see [dump bin /exports](https://msdn.microsoft.com/library/2971ab7e-4ee6-478b-9c85-cda42a4ce1bf).  
   
  **Show parallel stacks diagram bottom-up**  
  Controls the direction in which stacks are displayed in the **Parallel Stacks** window.  
@@ -137,7 +137,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
   **Use Native Compatibility Mode**  
   When this option is selected, the debugger uses the Visual Studio 2010 native debugger instead of the new native debugger.  
   
-  You should use this option when you are debugging .NET C++ code, because the new debugging engine does not support evaluating .NET C++ expressions. However, enabling Native Compatibility Mode disables many features that depend on the current debugger implementation to operate. For example, the legacy engine lacks many visualizers for built-in types like `std::string` in Visual Studio 2015 projects.   Please use Visual Studio 2013 projects for the optimal debugging experience in these cases.  
+  You should use this option when you are debugging .NET C++ code, because the new debugging engine does not support evaluating .NET C++ expressions. However, enabling Native Compatibility Mode disables many features that depend on the current debugger implementation to operate. For example, the legacy engine lacks many visualizers for built-in types like `std::string` in Visual Studio 2015 projects.  Use Visual Studio 2013 projects for the optimal debugging experience in these cases.  
   
   **Use the legacy C# and VB expression evaluators**  
   The debugger will use the Visual Studio 2013 C#/VB expression evaluators instead of the Visual Studio 2015 Roslyn-based expression evaluators.  
