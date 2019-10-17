@@ -1,6 +1,6 @@
 ---
 title: Port, migrate, and upgrade projects
-description: A reference for the support in Visual Studio 2017 for projects created in earlier versions of Visual Studio, and how Visual Studio decides when it needs to migrate a project.
+description: A reference for the support of projects created in current and earlier versions of Visual Studio.
 ms.date: 10/17/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
@@ -24,7 +24,7 @@ helpviewer_keywords:
 
 ::: moniker range="vs-2017"
 
-Each new version of Visual Studio generally supports most previous types of projects, files, and other assets. You can work with them [as you always have](../ide/solutions-and-projects-in-visual-studio.md), and provided that you don't depend on newer features, Visual Studio generally tries to preserve backwards compatibility with previous versions like Visual Studio 2015, Visual Studio 2013, and Visual Studio 2012. (See the [Release Notes](/visualstudio/releasenotes/vs2017-relnotes/) for which features are specific to which versions.)
+Each version of Visual Studio generally supports most previous types of projects, files, and other assets. You can work with them [as you always have](../ide/solutions-and-projects-in-visual-studio.md), and provided that you don't depend on newer features, Visual Studio tries to preserve backwards compatibility with previous versions like Visual Studio 2015, Visual Studio 2013, and Visual Studio 2012. (See the [Release Notes](/visualstudio/releasenotes/vs2017-relnotes/) for which features are specific to which versions.)
 
 Support for some project types also changes over time. A newer version of Visual Studio may no longer support certain projects at all, or requires updating a project such that it's no longer backwards compatible. For current status on migration issues, refer to the [Visual Studio Developer Community site](https://developercommunity.visualstudio.com).
 
@@ -106,11 +106,11 @@ Refer to the following articles for further discussion:
 
 ::: moniker range="vs-2019"
 
-Each new version of Visual Studio generally supports most previous types of projects, files, and other assets. You can work with them [as you always have](../ide/solutions-and-projects-in-visual-studio.md), and provided that you don't depend on newer features, Visual Studio generally tries to preserve backwards compatibility with previous versions like Visual Studio 2017, Visual Studio 2015, Visual Studio 2013, and Visual Studio 2012. (See the [Release Notes](/visualstudio/releases/2019/release-notes/) for which features are specific to which versions.)
+Each new version of Visual Studio generally supports most previous types of projects, files, and other assets. You can work with them [as you always have](../ide/solutions-and-projects-in-visual-studio.md), and provided that you don't depend on newer features, Visual Studio tries to preserve backwards compatibility with previous versions like Visual Studio 2017, Visual Studio 2015, Visual Studio 2013, and Visual Studio 2012. (See the [Release Notes](/visualstudio/releases/2019/release-notes/) for which features are specific to which versions.)
 
-Support for some project types also changes over time. A newer version of Visual Studio might no longer support certain projects at all, or it might require updating a project so that it's no longer backwards-compatible. For current status on migration issues, refer to the [Visual Studio Developer Community](https://developercommunity.visualstudio.com).
+Support for some project types changes over time. A newer version of Visual Studio might no longer support certain projects at all, or it might require updating a project so that it's no longer backwards-compatible. For current status on migration issues, refer to the [Visual Studio Developer Community](https://developercommunity.visualstudio.com).
 
-This article provides details for project types that Visual Studio 2019 can migrate. It also provides details on project types that are deprecated in Visual Studio 2019, or are soon to be deprecated. The article excludes project types that are no longer supported in Visual Studio 2019 and cannot therefore be migrated. The article also excludes supported project types that have no migration issues; that list is found on [Platform Targeting and Compatibility](/visualstudio/releases/2019/compatibility).
+This article provides details for project types that Visual Studio 2019 can migrate. It also includes information about project types that are deprecated in Visual Studio 2019, or are soon to be deprecated. The article excludes project types that are no longer supported in Visual Studio 2019 and cannot therefore be migrated. The article also excludes supported project types that have no migration issues; that list is found on [Platform Targeting and Compatibility](/visualstudio/releases/2019/compatibility).
 
 > [!IMPORTANT]
 > Certain project types require that you install specific workloads through the Visual Studio Installer. If you don't have the workload installed, Visual Studio reports an unknown or incompatible project type. In that case, check your installation options and try again. See the [Platform Targeting and Compatibility](/visualstudio/releases/2019/compatibility) article for details on project support in Visual Studio 2019.
