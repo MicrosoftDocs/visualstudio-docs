@@ -247,7 +247,7 @@ You can also switch the execution context by using the `cd` command, but you mus
 - [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
 - [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017)
 - [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)
-- [Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md)
+- [Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md?view=vs-2017)
 - [Debug HTML, CSS, and JavaScript sample code](../debugger/debug-html-css-and-javascript-sample-code.md)
 - [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)
 - [Debug a WebView control](../debugger/debug-a-webview-control.md)
