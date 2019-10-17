@@ -78,6 +78,8 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |[Develop apps for the Universal Windows Platform (UWP)](../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md)|
 |[Migrate apps to the Universal Windows Platform (UWP)](https://msdn.microsoft.com/library/mt148501.aspx)|
 
+::: moniker range="vs-2017"
+
 ## <a name="HTML"></a> Build an app for Android, iOS, and Windows (HTML/JavaScript)
 
  ![Windows, iOS, and Android devices](../cross-platform/media/homedevices.png "Windows, iOS, and Android devices")
@@ -103,6 +105,8 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |[Install Visual Studio](http://visualstudio.microsoft.com/products/visual-studio-community-vs) (VisualStudio.com)|
 |[Get started with Visual Studio Tools for Apache Cordova](/visualstudio/cross-platform/tools-for-cordova/)|
 |[Learn about the Visual Studio Emulator for Android](http://visualstudio.microsoft.com/explore/msft-android-emulator-vs) (VisualStudio.com)|
+
+::: moniker-end
 
 <a name="CPP"></a>
 
