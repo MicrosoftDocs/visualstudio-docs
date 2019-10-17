@@ -739,11 +739,11 @@
             href: how-to-enable-debugging-for-aspnet-applications.md
           - name: Run the Worker Process Under a User Account
             href: how-to-run-the-worker-process-under-a-user-account.md
-        - name: Prerequistes for Remote Debugging Web Applications
+        - name: Prerequisites for Remote Debugging Web Applications
 # Auto-expanded node
           items:
-          - name: Prerequistes for Remote Debugging Web Applications
-            href: prerequistes-for-remote-debugging-web-applications.md
+          - name: Prerequisites for Remote Debugging Web Applications
+            href: prerequisites-for-remote-debugging-web-applications.md
           - name: Find the Name of the ASP.NET Process
             href: how-to-find-the-name-of-the-aspnet-process.md
       - name: Debugging Web Applications
