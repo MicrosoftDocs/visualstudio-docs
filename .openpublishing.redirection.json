@@ -526,16 +526,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/debugger/javascript-console-commands.md?view=vs-2019",
-      "redirect_url": "/visualstudio/debugger/javascript-console-commands?view=vs-2017",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/debugger/keyboard-shortcuts-html-and-javascript.md?view=vs-2019",
-      "redirect_url": "/visualstudio/debugger/keyboard-shortcuts-html-and-javascript?view=vs-2017",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/debugger/0x-2x-4x-msaa-variants.md",
       "redirect_url": "/visualstudio/debugger/graphics/0x-2x-4x-msaa-variants",
       "redirect_document_id": false
