@@ -87,23 +87,23 @@ This article steps you through the process of using legacy analysis to analyze y
 
 1. Use the following tips to correct the warnings:
 
-   [CA1014: Mark assemblies with CLSCompliantAttribute](../code-quality/ca1014-mark-assemblies-with-clscompliantattribute.md): Add the code `[assembly: CLSCompliant(true)]` to the end of the AssemblyInfo.cs file.
+   [CA1014: Mark assemblies with CLSCompliantAttribute](../code-quality/ca1014.md): Add the code `[assembly: CLSCompliant(true)]` to the end of the AssemblyInfo.cs file.
 
-   [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Add the constructor `public demo (String s) : base(s) { }` to the class `demo`.
+   [CA1032: Implement standard exception constructors](../code-quality/ca1032.md): Add the constructor `public demo (String s) : base(s) { }` to the class `demo`.
 
-   [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Add the constructor `public demo (String s, Exception e) : base(s, e) { }` to the class `demo`.
+   [CA1032: Implement standard exception constructors](../code-quality/ca1032.md): Add the constructor `public demo (String s, Exception e) : base(s, e) { }` to the class `demo`.
 
-   [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Add the constructor `protected demo (SerializationInfo info, StreamingContext context) : base(info, context) { }` to the class demo. You'll also need to add a `using` statement for <xref:System.Runtime.Serialization?displayProperty=fullName>.
+   [CA1032: Implement standard exception constructors](../code-quality/ca1032.md): Add the constructor `protected demo (SerializationInfo info, StreamingContext context) : base(info, context) { }` to the class demo. You'll also need to add a `using` statement for <xref:System.Runtime.Serialization?displayProperty=fullName>.
 
-   [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Add the constructor `public demo () : base() { }` to the class `demo`.
+   [CA1032: Implement standard exception constructors](../code-quality/ca1032.md): Add the constructor `public demo () : base() { }` to the class `demo`.
 
-   [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md): Change the casing of the namespace `testCode` to `TestCode`.
+   [CA1709: Identifiers should be cased correctly](../code-quality/ca1709.md): Change the casing of the namespace `testCode` to `TestCode`.
 
-   [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md): Change the name of the member to `Demo`.
+   [CA1709: Identifiers should be cased correctly](../code-quality/ca1709.md): Change the name of the member to `Demo`.
 
-   [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md): Change the name of the member to `Item`.
+   [CA1709: Identifiers should be cased correctly](../code-quality/ca1709.md): Change the name of the member to `Item`.
 
-   [CA1710: Identifiers should have correct suffix](../code-quality/ca1710-identifiers-should-have-correct-suffix.md): Change the name of the class and its constructors to `DemoException`.
+   [CA1710: Identifiers should have correct suffix](../code-quality/ca1710.md): Change the name of the class and its constructors to `DemoException`.
 
    [CA2237: Mark ISerializable types with SerializableAttribute](../code-quality/ca2237.md): Add the `[Serializable ()]` attribute to the class `demo`.
 

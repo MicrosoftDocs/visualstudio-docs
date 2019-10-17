@@ -3,8 +3,6 @@
 - name: Visual Studio Tools for Xamarin
   displayName: ".NET Mobile Developer Tools (Android & iOS)"
   href: /xamarin/
-- name: Visual Studio Tools for Apache Cordova
-  href: /visualstudio/cross-platform/tools-for-cordova/
 - name: Visual Studio Tools for Unity
 # Auto-expanded node
   items:
