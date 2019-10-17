@@ -70,5 +70,5 @@ To implement a Microsoft Windows Script engine, create an OLE COM object that su
   
  The script site is never called from within the context of a simple thread state control method (for example, the [IActiveScript::InterruptScriptThread](../winscript/reference/iactivescript-interruptscriptthread.md) method) or from the [IActiveScript::Clone](../winscript/reference/iactivescript-clone.md) method.  
   
-## See Also  
+## See also  
  [Windows Script Interfaces](../winscript/windows-script-interfaces.md)

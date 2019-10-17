@@ -43,5 +43,5 @@ HRESULT GetDebugProperty(
 ## Remarks  
  This method returns a property browser for the current frame.  
   
-## See Also  
+## See also  
  [IDebugStackFrame Interface](../../winscript/reference/idebugstackframe-interface.md)

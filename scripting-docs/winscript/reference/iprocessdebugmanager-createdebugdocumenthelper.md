@@ -47,5 +47,5 @@ HRESULT CreateDebugDocumentHelper(
 ## Remarks  
  This method creates a new debug document helper for this application.  
   
-## See Also  
+## See also  
  [IProcessDebugManager Interface](../../winscript/reference/iprocessdebugmanager-interface.md)

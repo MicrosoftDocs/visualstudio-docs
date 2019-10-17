@@ -41,5 +41,5 @@ HRESULT QueryIsComplete();
 ## Remarks  
  This method determines if the debug operation has completed.  
   
-## See Also  
+## See also  
  [IDebugAsyncOperation Interface](../../winscript/reference/idebugasyncoperation-interface.md)

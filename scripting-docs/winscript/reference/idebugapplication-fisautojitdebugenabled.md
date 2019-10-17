@@ -36,5 +36,5 @@ BOOL FIsAutoJitDebugEnabled();
 ## Remarks  
  This method determines if a JIT debugger is registered to auto-debug dumb hosts.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)

@@ -47,7 +47,7 @@ HRESULT AddStackFrameSniffer(
 ## Remarks  
  Although language engines typically call this method to expose their stack frames to the debugger, it is possible for other entities to expose stack frames.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)   
  [IDebugApplication::RemoveStackFrameSniffer](../../winscript/reference/idebugapplication-removestackframesniffer.md)   
  [IDebugStackFrameSniffer Interface](../../winscript/reference/idebugstackframesniffer-interface.md)

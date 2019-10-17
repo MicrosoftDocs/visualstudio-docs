@@ -30,5 +30,5 @@ HRESULT GetActiveThreadRequestCount([out, annotation("_Out_")] UINT * puiThreadR
  `puiThreadRequests`  
  [out] The number of thread requests.  
   
-## See Also  
+## See also  
  [IDebugApplicationThread110 Interface](../../winscript/reference/idebugapplicationthread110-interface.md)

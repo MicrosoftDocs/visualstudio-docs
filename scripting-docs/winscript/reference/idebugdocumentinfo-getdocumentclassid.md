@@ -45,5 +45,5 @@ HRESULT GetDocumentClassId(
   
  If the document does not have viewable data, the return value of `pclsidDocument` is `CLSID_NULL`.  
   
-## See Also  
+## See also  
  [IDebugDocumentInfo Interface](../../winscript/reference/idebugdocumentinfo-interface.md)

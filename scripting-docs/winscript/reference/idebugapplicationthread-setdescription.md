@@ -43,5 +43,5 @@ HRESULT SetDescription(
 ## Remarks  
  This method sets the description of this thread.  
   
-## See Also  
+## See also  
  [IDebugApplicationThread Interface](../../winscript/reference/idebugapplicationthread-interface.md)

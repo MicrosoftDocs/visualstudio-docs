@@ -67,7 +67,7 @@ HRESULT GetScriptTextAttributes(
   
  This method for script blocks; the `GetScriptletTextAttributes` method is for scriptlets.  
   
-## See Also  
+## See also  
  [IActiveScriptDebug Interface](../../winscript/reference/iactivescriptdebug-interface.md)   
  [IActiveScriptDebug::GetScriptletTextAttributes](../../winscript/reference/iactivescriptdebug-getscriptlettextattributes.md)   
  [IDebugDocumentText Interface](../../winscript/reference/idebugdocumenttext-interface.md)   

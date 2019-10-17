@@ -43,6 +43,6 @@ HRESULT StartDebugSession(
 ## Remarks  
  This method initiates a debug session with the specified application. The debugger should call `IRemoteDebugApplication::ConnectDebugger` before returning from this call.  
   
-## See Also  
+## See also  
  [IDebugSessionProvider Interface](../../winscript/reference/idebugsessionprovider-interface.md)   
  [IRemoteDebugApplication::ConnectDebugger](../../winscript/reference/iremotedebugapplication-connectdebugger.md)

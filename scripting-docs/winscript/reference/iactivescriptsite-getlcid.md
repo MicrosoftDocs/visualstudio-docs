@@ -45,5 +45,5 @@ HRESULT GetLCID(
 ## Remarks  
  If this method returns `E_NOTIMPL`, the system-defined locale identifier should be used.  
   
-## See Also  
+## See also  
  [IActiveScriptSite](../../winscript/reference/iactivescriptsite.md)

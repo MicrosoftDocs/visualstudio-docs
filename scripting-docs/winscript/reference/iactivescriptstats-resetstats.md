@@ -40,5 +40,5 @@ HRESULT ResetStats();
 ## Remarks  
  This method resets the statistics for this script.  
   
-## See Also  
+## See also  
  [IActiveScriptStats Interface](../../winscript/reference/iactivescriptstats-interface.md)

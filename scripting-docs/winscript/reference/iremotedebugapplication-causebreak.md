@@ -40,5 +40,5 @@ HRESULT CauseBreak();
 ## Remarks  
  Calling this method does not cause an application to break immediately. If the application is not currently executing script code, a long time may elapse before the application actually breaks.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)

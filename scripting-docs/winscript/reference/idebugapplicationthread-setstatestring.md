@@ -43,5 +43,5 @@ HRESULT SetStateString(
 ## Remarks  
  This method sets the description of the thread state.  
   
-## See Also  
+## See also  
  [IDebugApplicationThread Interface](../../winscript/reference/idebugapplicationthread-interface.md)

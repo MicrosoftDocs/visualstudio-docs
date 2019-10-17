@@ -55,7 +55,7 @@ HRESULT CreatePropertyBrowser(
 ## Remarks  
  This method returns a property browser that wraps a VARIANT.  
   
-## See Also  
+## See also  
  [IDebugHelper::CreatePropertyBrowserEx](../../winscript/reference/idebughelper-createpropertybrowserex.md)   
  [IDebugHelper Interface](../../winscript/reference/idebughelper-interface.md)   
  [IDebugProperty Interface](../../winscript/reference/idebugproperty-interface.md)

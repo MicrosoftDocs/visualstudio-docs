@@ -43,5 +43,5 @@ HRESULT OnDestroyThread(
 ## Remarks  
  This method handles the thread-destroyed event.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationEvents Interface](../../winscript/reference/iremotedebugapplicationevents-interface.md)

@@ -59,7 +59,7 @@ HRESULT CreatePropertyBrowserEx(
 ## Remarks  
  This method returns a property browser that wraps a VARIANT and allows for custom conversion of VARIANT values or VARTYPE types to strings.  
   
-## See Also  
+## See also  
  [IDebugHelper::CreatePropertyBrowser](../../winscript/reference/idebughelper-createpropertybrowser.md)   
  [IDebugHelper Interface](../../winscript/reference/idebughelper-interface.md)   
  [IDebugProperty Interface](../../winscript/reference/idebugproperty-interface.md)

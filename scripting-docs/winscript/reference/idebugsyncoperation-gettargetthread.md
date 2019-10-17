@@ -43,5 +43,5 @@ HRESULT GetTargetThread(
 ## Remarks  
  This method returns the target application thread for this synchronous operation.  
   
-## See Also  
+## See also  
  [IDebugSyncOperation Interface](../../winscript/reference/idebugsyncoperation-interface.md)

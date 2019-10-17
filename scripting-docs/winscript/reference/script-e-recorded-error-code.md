@@ -21,5 +21,5 @@ An error has been passed between the script engine and the host. The host needs 
 SCRIPT_E_RECORDED   0x86664004L  
 ```  
   
-## See Also  
+## See also  
  [Active Script Constants, Enumerations, and Error Codes](../../winscript/reference/active-script-constants-enumerations-and-error-codes.md)

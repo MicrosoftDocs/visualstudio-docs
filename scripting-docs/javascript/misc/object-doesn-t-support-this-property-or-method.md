@@ -26,6 +26,6 @@ You specified a property or method that does not exist for this object. Not all 
   
 - See the object's documentation for more information.  
   
-## See Also  
+## See also  
  [Object Object](../../javascript/reference/object-object-javascript.md)   
  [JavaScript Objects](../../javascript/reference/javascript-objects.md)

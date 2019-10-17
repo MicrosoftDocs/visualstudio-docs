@@ -47,5 +47,5 @@ HRESULT SetNextStatement(
 ## Remarks  
  This method forces execution to continue as close as possible to the code context specified by `pCodeContext`, in the context of the frame specified by `pStackFrame`. Either of these arguments may be `NULL`, representing the current frame or context.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationThread Interface](../../winscript/reference/iremotedebugapplicationthread-interface.md)

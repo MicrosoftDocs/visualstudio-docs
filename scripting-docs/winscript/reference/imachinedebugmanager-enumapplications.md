@@ -43,5 +43,5 @@ HRESULT EnumApplications(
 ## Remarks  
  This method returns an enumerator of the current list of running applications. The debugger IDE uses this method to display and attach applications for debugging purposes.  
   
-## See Also  
+## See also  
  [IMachineDebugManager Interface](../../winscript/reference/imachinedebugmanager-interface.md)

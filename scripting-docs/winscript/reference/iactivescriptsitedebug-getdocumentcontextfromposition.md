@@ -55,5 +55,5 @@ HRESULT GetDocumentContextFromPosition(
 ## Remarks  
  Language engines use this method to delegate `IDebugCodeContext::GetSourceContext`.  
   
-## See Also  
+## See also  
  [IActiveScriptSiteDebug Interface](../../winscript/reference/iactivescriptsitedebug-interface.md)

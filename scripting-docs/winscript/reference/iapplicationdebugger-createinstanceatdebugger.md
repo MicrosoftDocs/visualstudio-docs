@@ -64,5 +64,5 @@ HRESULT CreateInstanceAtDebugger(
   
  The method is not currently implemented.  
   
-## See Also  
+## See also  
  [IApplicationDebugger Interface](../../winscript/reference/iapplicationdebugger-interface.md)
