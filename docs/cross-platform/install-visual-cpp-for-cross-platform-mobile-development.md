@@ -1,7 +1,7 @@
 ---
-title: "Install Visual C++ for Cross-Platform Mobile Development | Microsoft Docs"
+title: "Install cross-platform mobile development with C++ | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/21/2018"
+ms.date: "10/17/2019"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 dev_langs:
@@ -13,9 +13,9 @@ manager: jillfra
 ms.workload:
   - "xplat-cplusplus"
 ---
-# Install cross-platform Mobile development with C++
+# Install cross-platform mobile development with C++
 
-You can use C++ in Visual Studio to build Windows Desktop apps, Universal Windows Platform (UWP) apps, Linux apps, and now, apps for Android and iOS. The **Mobile development with C++** workload is an installable set of components in Visual Studio that includes cross-platform iOS, Android, and UWP Visual Studio templates. It installs the cross-platform tools and SDKs you need to get started quickly, without having to locate, download, and configure them yourself. You can use these tools in Visual Studio to easily create, edit, debug, and test your cross-platform projects. This topic describes how to install the tools and third-party software required to develop cross-platform apps in C++ using Visual Studio. For an overview, see [Visual C++ cross-platform mobile](https://visualstudio.microsoft.com/vs/features/cplusplus-mdd/)
+You can use C++ in Visual Studio to build Windows Desktop apps, Universal Windows Platform (UWP) apps, Linux apps, and now, apps for Android and iOS. The **Mobile development with C++** workload is an installable set of components in Visual Studio that includes cross-platform iOS, Android, and UWP Visual Studio templates. It installs the cross-platform tools and SDKs you need to get started quickly, without having to locate, download, and configure them yourself. You can use these tools in Visual Studio to easily create, edit, debug, and test your cross-platform projects. This article describes how to install the tools and third-party software required to develop cross-platform apps in C++ using Visual Studio. For an overview, see [Visual C++ cross-platform mobile](https://visualstudio.microsoft.com/vs/features/cplusplus-mdd/)
 
 ## Requirements
 
@@ -24,7 +24,7 @@ You can use C++ in Visual Studio to build Windows Desktop apps, Universal Window
 - For installation requirements, see [Visual Studio product family system requirements](/visualstudio/productinfo/vs2017-system-requirements-vs).
 
    > [!IMPORTANT]
-   > If you are using Windows 7 or Windows Server 2008 R2, you can develop code for Windows Desktop applications, Android Native Activity apps and libraries, and apps and code libraries for iOS, but not Windows Phone or UWP apps.
+   > If you are using Windows 7 or Windows Server 2008 R2, you can develop code for Windows Desktop applications, Android Native Activity apps and libraries, and apps and code libraries for iOS, but not Windows Store or UWP apps.
 
 ::: moniker-end
 ::: moniker range=">=vs-2019"
@@ -38,7 +38,7 @@ You can use C++ in Visual Studio to build Windows Desktop apps, Universal Window
 
 To build apps for specific device platforms, there are some additional requirements:
 
-- The x86 Android emulators that come with the Android SDK work best on computers that can use hardware acceleration. For more information, see [Hardware acceleration for emulator performance (Hyper-V & HAXM)](/xamarin/android/get-started/installation/android-emulator/hardware-acceleration?tabs=vswin&pivots=windows).
+- The x86 Android emulators that come with the Android SDK work best on computers that can use hardware acceleration, such as the Intel Hardware Accelerated Execution Manager (HAXM). For more information, see [Hardware acceleration for emulator performance (Hyper-V & HAXM)](/xamarin/android/get-started/installation/android-emulator/hardware-acceleration?tabs=vswin&pivots=windows).
 
 - Building code for iOS requires an Apple ID, an iOS Developer Program account, and a Mac computer that can run [Xcode](https://developer.apple.com/xcode/) version 10.2 or later on OS X Mavericks (version 10.9) or later versions. For a link to installation steps, see [Install tools for iOS](#install-tools-for-ios).
 
@@ -50,13 +50,16 @@ Mobile development with C++ is available in Visual Studio Community, Professiona
 
 ## Install the tools
 
-The Visual Studio Installer includes a **Mobile development with C++** workload that installs the C++ language tools, templates, and components required for Android and iOS development in Visual Studio. It installs the GCC and Clang tool sets needed for Android builds and debugging, the Android SDK, and components to communicate with a Mac for iOS development. It also installs all the other third-party tools and software development kits that are required to support iOS and Android app development. Most of these third-party tools are open-source software required for Android platform support.
+The Visual Studio Installer includes a **Mobile development with C++** workload. This workload installs the C++ language tools, templates, and components required for Android and iOS development in Visual Studio. It includes the GCC and Clang tool sets needed for Android builds and debugging, the Android SDK, and components to communicate with a Mac for iOS development. It also installs all the other third-party tools and software development kits that are required to support iOS and Android app development. Most of these third-party tools are open-source software required for Android platform support.
 
 - Android Native Development Kit (NDK), Apache Ant, and the C++ Android development tools are required to build C++ code that targets the Android platform.
 
 - The Google Android Emulator and Intel Hardware Accelerated Execution Manager (HAXM) are optional, but recommended, components. (The Intel HAXM drivers only work on Intel processors, and are incompatible with some VMs, including Hyper-V.) You can develop and debug directly on an Android device, but it's often easier to use an emulator on your desktop for debugging.
 
 - C++ iOS development tools are required to build C++ code that targets the iOS platform.
+
+> [!NOTE]
+> If you're using Visual Studio 2015, see [Install Visual C++ for Cross-Platform Mobile Development (Visual Studio 2015)](install-visual-cpp-for-cross-platform-mobile-development.md?view=vs-2015)
 
 ### Install the Mobile development with C++ workload
 
@@ -72,19 +75,16 @@ The Visual Studio Installer includes a **Mobile development with C++** workload 
 
 1. Choose the **Modify** or **Install** button to install the **Mobile development with C++** workload and your other selected workloads and optional components.
 
-   When installation is complete, close the installer and then restart your computer. Some setup actions for the third-party components do not take effect until the computer is restarted.
+   When installation is complete, close the installer and then restart your computer. Some setup actions for the third-party components don't take effect until the computer is restarted.
 
    > [!IMPORTANT]
    > You must restart to make sure everything is installed correctly.
 
 1. Open Visual Studio.
 
-> [!NOTE]
-> If you're using Visual Studio 2015, see [Install Visual C++ for Cross-Platform Mobile Development (Visual Studio 2015)](install-visual-cpp-for-cross-platform-mobile-development.md?view=vs-2015)
-
 ## Install tools for iOS
 
-You can use Visual C++ for Cross-Platform Mobile Development to edit, debug, and deploy iOS code to the iOS Simulator or to an iOS device, but because of licensing restrictions, the code must be built remotely on a Mac. To build and run iOS apps using Visual Studio, you must set up and configure the remote agent on your Mac. For detailed installation instructions, prerequisites and configuration options, see [Install and configure tools to build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md). If you're not building for iOS, you can skip this step.
+You can use Visual Studio to edit, debug, and deploy iOS code to the iOS Simulator or to an iOS device. However, because of licensing restrictions, the code must be built remotely on a Mac. To build and run iOS apps using Visual Studio, you must set up and configure the remote agent on your Mac. For detailed installation instructions, prerequisites and configuration options, see [Install and configure tools to build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md). If you're not building for iOS, you can skip this step.
 
 ## Install or update dependencies manually
 
