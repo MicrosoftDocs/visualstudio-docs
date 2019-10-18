@@ -29,11 +29,11 @@ Development using C++ for cross-platform mobile development has several advantag
 
 ## Get the tools
 
-Mobile development with C++ is an installable workload that comes with Visual Studio. For prerequisites and installation instructions, see [Install the Mobile development with C++ workload](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md). To build code for iOS, you also need a Mac computer and an Apple iOS Developer Account. For more information, see [Install and configure tools to build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md).
+Mobile development with C++ is an installable workload that comes with Visual Studio. For prerequisites and installation instructions, see [Install cross-platform mobile development with C++](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md). To build code for iOS, you also need a Mac computer and an Apple iOS Developer Account. For more information, see [Install and configure tools to build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md).
 
 ## Come up to speed
 
-If you're coming from Android or iOS development, we have some great material on how to get started. Visual Studio is an expressive and capable development environment. To learn how to use it, try [Get started for Android developers](/previous-versions/windows/apps/dn275875\(v=win.10\)) or [Get started for iOS developers](/previous-versions/windows/apps/jj657966\(v=win.10\)). These articles introduce you to Visual Studio, and to the concepts you'll need to develop cross-platform apps for Windows and Windows Store. To get started writing your first cross-platform app for iOS and Android, see [Build an OpenGL ES Application on Android and iOS](../cross-platform/build-an-opengl-es-application-on-android-and-ios.md).
+If you're coming from Android or iOS development, we have some great material on how to get started. Visual Studio is an expressive and capable development environment. To learn how to use it, try [Get started for Android developers](/previous-versions/windows/apps/dn275875\(v=win.10\)) or [Get started for iOS developers](/previous-versions/windows/apps/jj657966\(v=win.10\)). These articles introduce you to Visual Studio, and to the concepts you'll need to develop cross-platform apps for Windows and Windows Store. To get started writing your first cross-platform app for iOS and Android, see [Build an OpenGL ES application on Android and iOS](../cross-platform/build-an-opengl-es-application-on-android-and-ios.md).
 
 The Mobile development with C++ workload includes several templates to help you get started on your apps:
 
@@ -95,7 +95,7 @@ Download samples that show how to create shared code libraries you can use in Wi
 
 ## In this section
 
-1. [Install the Mobile development with C++ workload](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)
+1. [Install cross-platform mobile development with C++](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)
 
 1. [Install and configure tools to build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md)
 

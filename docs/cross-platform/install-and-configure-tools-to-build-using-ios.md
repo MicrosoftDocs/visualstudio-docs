@@ -1,5 +1,5 @@
 ---
-title: "Install And Configure Tools to Build using iOS | Microsoft Docs"
+title: "Install and configure tools to build using iOS | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/17/2019"
 ms.technology: vs-ide-mobile

@@ -1,5 +1,5 @@
 ---
-title: "Import an XCode Project | Microsoft Docs"
+title: "Import an XCode project | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/17/2019"
 ms.topic: "conceptual"

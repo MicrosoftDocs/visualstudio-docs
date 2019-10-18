@@ -1,5 +1,5 @@
 ---
-title: "Build an OpenGL ES Application on Android and iOS | Microsoft Docs"
+title: "Build an OpenGL ES application on Android and iOS | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/09/2019"
 ms.technology: vs-ide-mobile
@@ -69,7 +69,7 @@ The solution has two projects to build the apps for the Android and iOS platform
 
 - `MyOpenGLESApp.Android.Packaging` creates the *.apk* file for deployment on an Android device or emulator. This file contains the resources and AndroidManifest.xml file where you set manifest properties. It also contains the *build.xml* file that controls the Ant build process. It's set as the startup project by default, so that it can be deployed and run directly from Visual Studio.
 
-- **MyOpenGLESApp.iOS.Application** contains the resources and Objective-C glue code to create an iOS app that links to the C++ static library code in `MyOpenGLESApp.iOS.StaticLibrary`. This project creates a build package that is transferred to your Mac by Visual Studio and the remote agent. When you build this project, Visual Studio sends the files and commands to build and deploy your app on the Mac.
+- `MyOpenGLESApp.iOS.Application` contains the resources and Objective-C glue code to create an iOS app that links to the C++ static library code in `MyOpenGLESApp.iOS.StaticLibrary`. This project creates a build package that is transferred to your Mac by Visual Studio and the remote agent. When you build this project, Visual Studio sends the files and commands to build and deploy your app on the Mac.
 
 ## Build and run the Android app
 
@@ -97,7 +97,7 @@ The solution created by the template sets the Android app as the default project
 
    If you have installed other emulators or connected an Android device, you can choose them in the deployment target drop-down list. To run the app, the built Solution Platform must match the platform of the target device.
 
-1. Press F5 to start debugging, or Shift+F5 to start without debugging.
+1. Press **F5** to start debugging, or **Shift**+**F5** to start without debugging.
 
    Visual Studio starts the emulator, which takes several seconds to load and deploy your code. Here's how the app appears in the emulator:
 
