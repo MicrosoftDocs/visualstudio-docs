@@ -114,7 +114,7 @@ You can implement language-based statement completion by defining the identifier
 
 1. Add a file named `TestCompletionCommandHandler`.
 
-2. Add these using statements:
+2. Add these using directives:
 
      [!code-csharp[VSSDKCompletionTest#11](../extensibility/codesnippet/CSharp/walkthrough-displaying-statement-completion_11.cs)]
      [!code-vb[VSSDKCompletionTest#11](../extensibility/codesnippet/VisualBasic/walkthrough-displaying-statement-completion_11.vb)]
