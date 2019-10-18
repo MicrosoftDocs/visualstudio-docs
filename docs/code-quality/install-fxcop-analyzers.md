@@ -18,7 +18,9 @@ You can install these FxCop analyzers either as a NuGet package or as a VSIX ext
 
 ## NuGet package
 
-You can install the [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers) NuGet package directly from the project's Code Analysis properties page:
+::: moniker range=">=vs-2019"
+
+In Visual Studio 2019 version 16.3 and later, you can install the [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers) NuGet package directly from the project's Code Analysis properties page:
 
 1. Right-click on the project node in **Solution Explorer**, select **Properties**, and then select the **Code Analysis** tab.
 
@@ -29,6 +31,25 @@ You can install the [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.or
    Visual Studio installs the latest version of the Microsoft.CodeAnalyzers.FxCopAnalyzers package. The assemblies appear in **Solution Explorer** under **References** > **Analyzers**.
 
    ![Analyzers node in Solution Explorer](media/solution-explorer-analyzers-node.png)
+   
+If you're using an older version of Visual Studio 2019, install the package using either the [Package Manager Console](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console) or the [Package Manager UI](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console).
+   
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+1. [Determine which analyzer package version](#fxcopanalyzers-package-versions) to install, based on your version of Visual Studio.
+
+2. Install the package in Visual Studio using either the [Package Manager Console](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console) or the [Package Manager UI](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console).
+
+   > [!NOTE]
+   > The nuget.org page for each analyzer package shows you the command to paste into the **Package Manager Console**. There's even a handy button to copy the text to the clipboard.
+   >
+   > ![NuGet.org page showing Package Manager Console command](media/nuget-package-manager-command.png)
+
+   The analyzer assemblies are installed, and they appear in **Solution Explorer** under **References** > **Analyzers**.
+   
+::: moniker-end
 
 ### Custom installation
 
