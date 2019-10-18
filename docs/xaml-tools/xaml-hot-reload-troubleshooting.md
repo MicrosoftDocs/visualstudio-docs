@@ -42,7 +42,7 @@ If these options are selected, then go to Live Visual Tree (**Debug** > **Window
 XAML Hot Reload requires that the environment variable `ENABLE_XAML_DIAGNOSTICS_SOURCE_INFO` is set to 1 at the time application starts. Visual Studio sets this automatically as part of the **Debug** > **Start Debugging** (or **F5**) command. If you want to use XAML Hot Reload with the **Debug** > **Attach to Process** command instead, then set the environment variable yourself.
 
 > [!NOTE]
-> To set an environment variable, search for "environment variable" and choose **Edit the system environment variables**. In the dialog box that opens, choose **Environment Variables**, then add it as a user variable, and set the value to `1`. To clean up, remove the variable when you are finished debugging.
+> To set an environment variable, use the Start button to search for "environment variable" and choose **Edit the system environment variables**. In the dialog box that opens, choose **Environment Variables**, then add it as a user variable, and set the value to `1`. To clean up, remove the variable when you are finished debugging.
 
 ## Verify that your MSBuild properties are correct
 
