@@ -9,9 +9,7 @@ ms.assetid: 591b21ee-8c3f-446b-9505-7d41bfc86701
 
 # Tutorial: Getting started with ASP.NET Core in Visual Studio for Mac
 
-In this tutorial, you'll create an ASP.NET Core web app that uses data, and deploy it to Azure. This tutorial consists of the following steps:
-
-This tutorial consists of two parts; Creating your own ASP.NET Core web application and Extending an existing ASP.NET Core web application. The Extending an existing ASP.NET Core web application we will use the [eShopOnWeb reference app](https://github.com/dotnet-architecture/eShopOnWeb).
+This tutorial consists of two parts; [Creating your own ASP.NET Core web application](#building-your-first-aspnet-core-web-application-in-visual-studio-for-mac) and [Extending an existing ASP.NET Core web application](#extending-an-existing-aspnet-core-web-application). The Extending an existing ASP.NET Core web application we will use the [eShopOnWeb reference app](https://github.com/dotnet-architecture/eShopOnWeb).
 
 ## Before you begin
 
@@ -33,7 +31,7 @@ In these tutorials you will be working with the [eShopOnWeb reference app](https
 
 This video will walk you through getting started with the eShopOnWeb application. 
 
-[Full doc](https://github.com/dotnet-architecture/eShopOnWeb/wiki/Getting-Started-for-Beginners-with-Visual-Studio-for-Mac)
+[Step-by-step walkthrough](https://github.com/dotnet-architecture/eShopOnWeb/wiki/Getting-Started-for-Beginners-with-Visual-Studio-for-Mac)
 
 > [!VIDEO https://www.youtube.com/embed/-joD6W2aR3o]
 
@@ -41,7 +39,7 @@ This video will walk you through getting started with the eShopOnWeb application
 
 You will learn how to work with the eShopOnWeb solution in Visual Studio for Mac.
 
-[Full doc](https://github.com/dotnet-architecture/eShopOnWeb/wiki/Getting-Started-for-Beginners-with-Visual-Studio-for-Mac)
+[Step-by-step walkthrough](https://github.com/dotnet-architecture/eShopOnWeb/wiki/Getting-Started-for-Beginners-with-Visual-Studio-for-Mac)
 
 > [!VIDEO https://www.youtube.com/embed/PXTJCzCwvE4]
 
@@ -49,7 +47,7 @@ You will learn how to work with the eShopOnWeb solution in Visual Studio for Mac
 
 You will learn how to add Docker containers to the eShopOnWeb application as well as how to run and debug the dockerized application.
 
-[Full doc](https://github.com/dotnet-architecture/eShopOnWeb/wiki/03b.-Running-Locally-on-a-Linux-Container-from-Visual-Studio-for-Mac)
+[Step-by-step walkthrough](https://github.com/dotnet-architecture/eShopOnWeb/wiki/03b.-Running-Locally-on-a-Linux-Container-from-Visual-Studio-for-Mac)
 
 > [!VIDEO https://www.youtube.com/embed/QqZr6cbKoIM]
 
@@ -57,6 +55,6 @@ You will learn how to add Docker containers to the eShopOnWeb application as wel
 
 You will learn how to deploy the eShopOnWeb application to [Azure App Services](https://azure.microsoft.com/en-us/services/app-service/).
 
-[Full doc](https://github.com/dotnet-architecture/eShopOnWeb/wiki/01b.-Deploying-to-Azure-App-Service-from-Visual-Studio-for-Mac)
+[Step-by-step walkthrough](https://github.com/dotnet-architecture/eShopOnWeb/wiki/01b.-Deploying-to-Azure-App-Service-from-Visual-Studio-for-Mac)
 
 > [!VIDEO https://www.youtube.com/embed/HfJPTzlLIWA]
