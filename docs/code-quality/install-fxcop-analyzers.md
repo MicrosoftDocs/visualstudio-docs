@@ -47,8 +47,9 @@ If you're using an older version of Visual Studio 2019, install the package usin
    >
    > ![NuGet.org page showing Package Manager Console command](media/nuget-package-manager-command.png)
 
-   The analyzer assemblies are installed, and they appear in **Solution Explorer** under **References** > **Analyzers**.   
-:::
+   The analyzer assemblies are installed, and they appear in **Solution Explorer** under **References** > **Analyzers**.
+   
+::: moniker-end
 
 ### Custom installation
 
