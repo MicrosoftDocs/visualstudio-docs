@@ -32,7 +32,7 @@ The matching game works as follows:
 
 2. Choose the first label control to select it. Then, hold down the **Ctrl** key while you choose each of the other labels to select them. Be sure that every label is selected.
 
-3. Choose the **Events** button on the tool bar in the **Properties** window to view the **Events** page in the **Properties** window. Scroll down to the **Click** event, and enter **label_Click** in the box, as shown in the following picture.
+3. Choose the **Events** button on the tool bar in the **Properties** window to view the **Events** page in the **Properties** window. Scroll down to the **Click** event, and enter **label_Click** in the box, as shown in the following screenshot.
 
      ![Properties window showing Click event](../ide/media/express_labelclick.png)
 
@@ -58,6 +58,6 @@ The matching game works as follows:
 
 ## To continue or review
 
-- To go to the next tutorial step, see [Step 5: Add label references](../ide/step-5-add-label-references.md).
+- To go to the next tutorial step, see **[Step 5: Add label references](../ide/step-5-add-label-references.md)**.
 
 - To return to the previous tutorial step, see [Step 3: Assign a random icon to each label](../ide/step-3-assign-a-random-icon-to-each-label.md).
