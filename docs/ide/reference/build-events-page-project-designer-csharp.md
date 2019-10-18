@@ -80,7 +80,7 @@ In versions of Visual Studio after Visual Studio 2017 15.5, Visual Studio adds a
 ```
 
 > [!NOTE]
-> These project file changes were made to support the SDK-style projects introduced with .NET Core 3. If you are migrating a project file from the old format to the SDK-style format manually, you should delete the `PreBuildEvent` and `PostBuildEvent` properties and replace them with `PreBuild` and `PostBuild` targets as shown in the preceding code.
+> These project file changes were made to support SDK-style projects. If you are migrating a project file from the old format to the SDK-style format manually, you should delete the `PreBuildEvent` and `PostBuildEvent` properties and replace them with `PreBuild` and `PostBuild` targets as shown in the preceding code. To find out how to tell if your project is an SDK-style project, see [Check project format](/nuget/resources/check-project-format).
 
 ## See also
 
