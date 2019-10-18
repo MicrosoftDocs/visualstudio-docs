@@ -57,7 +57,7 @@ Specifies the following conditions for the post-build event to run, as shown in 
 
 ## In the project file
 
-In versions of Visual Studio prior to Visual Studio 2017 version 15.5, when you add a **PreBuildEvent** or **PostBuildEvent** by changing this setting in the IDE, Visual Studio adds a `PreBuildEvent` or `PostBuildEvent` property to the project file. So for example, if your **PreBuildEvent** command line setting in the IDE is follows:
+In earlier versions of Visual Studio, when you change the **PreBuildEvent** or **PostBuildEvent** setting in the IDE, Visual Studio adds a `PreBuildEvent` or `PostBuildEvent` property to the project file. So for example, if your **PreBuildEvent** command line setting in the IDE is follows:
 
 ```input
 "$(ProjectDir)PreBuildEvent.bat" "$(ProjectDir)..\" "$(ProjectDir)" "$(TargetDir)"
@@ -71,7 +71,7 @@ then the project file setting is:
 </PropertyGroup>
 ```
 
-In versions of Visual Studio after Visual Studio 2017 15.5, Visual Studio adds an MSBuild target named `PreBuild` or `PostBuild` for **PreBuildEvent** and **PostBuildEvent** settings. For example, for the preceding example, Visual Studio now generates the following code:
+Visual Studio 2019 (and Visual Studio 2017 in more recent updates) adds an MSBuild target named `PreBuild` or `PostBuild` for **PreBuildEvent** and **PostBuildEvent** settings. For example, for the preceding example, Visual Studio now generates the following code:
 
 ```xml
 <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
