@@ -13,6 +13,7 @@ ms.workload:
   - "vssdk"
 ---
 # Add a tool window
+
 In this walkthrough you learn how to create a tool window and integrate it into Visual Studio in the following ways:
 
 - Add a control to the tool window.
@@ -26,7 +27,8 @@ In this walkthrough you learn how to create a tool window and integrate it into 
 - Set the default position for the tool window.
 
 ## Prerequisites
-Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
+
+The Visual Studio SDK is included as an optional feature in Visual Studio setup. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create a tool window
 
@@ -84,7 +86,8 @@ By adding a toolbar in the following manner, you guarantee that its gradients an
     By setting the parent GUID and ID to the GUID and ID of the toolbar, you add the group to the toolbar.
 
 ## Add a command to the toolbar
- Add a command to the toolbar, which is displayed as a button.
+
+Add a command to the toolbar, which is displayed as a button.
 
 1. In the `<Symbols>` section, declare the following IDSymbol elements just after the toolbar and toolbar group declarations.
 
@@ -132,7 +135,7 @@ public System.Windows.Controls.MediaElement MediaPlayer
 ## Instantiate the tool window and toolbar
 Add a toolbar and a menu command that invokes the **Open File** dialog and plays the selected media file.
 
-1. Open *FirstToolWindow.cs* and add the following `using` directives.
+1. Open *FirstToolWindow.cs* and add the following `using` directives:
 
     ```csharp
     using System.ComponentModel.Design;
@@ -161,7 +164,7 @@ Add a toolbar and a menu command that invokes the **Open File** dialog and plays
     this.ToolBarLocation = (int)VSTWT_LOCATION.VSTWT_TOP;
     ```
 
-5. At this point the FirstToolWindow constructor should look like this:
+5. At this point, the FirstToolWindow constructor should look like this:
 
     ```csharp
     public FirstToolWindow() : base(null)
@@ -177,7 +180,7 @@ Add a toolbar and a menu command that invokes the **Open File** dialog and plays
     }
     ```
 
-6. Add the menu command to the toolbar. In the FirstToolWindowCommand.cs class, add the following using directive
+6. Add the menu command to the toolbar. In the FirstToolWindowCommand.cs class, add the following using directive:
 
     ```csharp
     using System.Windows.Forms;
@@ -243,7 +246,8 @@ Add a toolbar and a menu command that invokes the **Open File** dialog and plays
     ```
 
 ## Set the default position for the tool window
- Next, specify a default location in the IDE for the tool window. Configuration information for the tool window is in the *FirstToolWindowPackage.cs* file.
+
+Next, specify a default location in the IDE for the tool window. Configuration information for the tool window is in the *FirstToolWindowPackage.cs* file.
 
 1. In *FirstToolWindowPackage.cs*, find the <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> attribute on the `FirstToolWindowPackage` class, which passes the FirstToolWindow type to the constructor. To specify a default position, you must add more parameters to the constructor following example.
 
