@@ -132,7 +132,7 @@ public System.Windows.Controls.MediaElement MediaPlayer
 ## Instantiate the tool window and toolbar
 Add a toolbar and a menu command that invokes the **Open File** dialog and plays the selected media file.
 
-1. Open *FirstToolWindow.cs* and add the following `using` statements.
+1. Open *FirstToolWindow.cs* and add the following `using` directives.
 
     ```csharp
     using System.ComponentModel.Design;
@@ -177,7 +177,7 @@ Add a toolbar and a menu command that invokes the **Open File** dialog and plays
     }
     ```
 
-6. Add the menu command to the toolbar. In the FirstToolWindowCommand.cs class, add the following using statement
+6. Add the menu command to the toolbar. In the FirstToolWindowCommand.cs class, add the following using directive
 
     ```csharp
     using System.Windows.Forms;
