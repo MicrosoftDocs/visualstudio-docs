@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1700"
 ms.assetid: 7a7e01c3-ae7d-4c82-a646-91b58864a749
 caps.latest.revision: 19
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1700: Do not name enum values &#39;Reserved&#39;

@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "load tests, adding delays"
   - "load tests, changing think times"
 ms.assetid: 8e03bee5-ab7b-4b40-9497-9dbe91ccb90e
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Edit think times to simulate website human interaction delays in load tests scenarios

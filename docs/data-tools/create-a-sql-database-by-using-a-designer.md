@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "database files, creating"
   - "table designer"
 ms.assetid: 99c2b06f-47aa-414e-8057-a3453712fd23
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

@@ -40,5 +40,5 @@ HRESULT NotifyChanged();
 ## Remarks  
  This method is called by an external editor after a file-based debugger document is modified and saved to notify the host that the document source has changed. The host then refreshes the document from the source file.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextExternalAuthor Interface](../../winscript/reference/idebugdocumenttextexternalauthor-interface.md)

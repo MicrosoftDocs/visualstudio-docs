@@ -2,8 +2,8 @@
 title: Ways to debug XSLT code
 ms.date: 03/05/2019
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 dev_langs:
   - "CSharp"

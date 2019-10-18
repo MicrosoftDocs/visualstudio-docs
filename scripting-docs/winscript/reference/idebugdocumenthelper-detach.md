@@ -40,6 +40,6 @@ HRESULT Detach();
 ## Remarks  
  This method removes this document from the document tree.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper::Attach](../../winscript/reference/idebugdocumenthelper-attach.md)   
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)

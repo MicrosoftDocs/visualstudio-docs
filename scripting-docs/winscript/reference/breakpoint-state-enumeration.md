@@ -39,5 +39,5 @@ typedef enum tagBREAKPOINT_STATE {
 |BREAKPOINT_DISABLED|The breakpoint exists but is disabled.|  
 |BREAKPOINT_ENABLED|The breakpoint exists and is enabled.|  
   
-## See Also  
+## See also  
  [Active Script Debugger Constants, Enumerations, and Structures](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)

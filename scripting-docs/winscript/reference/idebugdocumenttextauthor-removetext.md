@@ -47,6 +47,6 @@ HRESULT RemoveText(
 ## Remarks  
  This method removes text from the document.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextAuthor Interface](../../winscript/reference/idebugdocumenttextauthor-interface.md)   
  [IDebugDocumentTextAuthor::InsertText](../../winscript/reference/idebugdocumenttextauthor-inserttext.md)

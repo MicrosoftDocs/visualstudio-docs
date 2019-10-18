@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "datasets [Visual Basic], constraints"
   - "TableAdapters"
 ms.assetid: afe6cb8a-dc6a-428b-b07b-903ac02c890b
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

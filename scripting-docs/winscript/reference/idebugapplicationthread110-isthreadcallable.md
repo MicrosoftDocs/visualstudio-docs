@@ -30,5 +30,5 @@ HRESULT IsThreadCallable([out, annotation("_Out_")] BOOL * pfIsCallable);
  `pfIsCallable`  
  [out] `true` if the thread is callable, otherwise `false`.  
   
-## See Also  
+## See also  
  [IDebugApplicationThread110 Interface](../../winscript/reference/idebugapplicationthread110-interface.md)

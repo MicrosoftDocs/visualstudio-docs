@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "pre-defined command aliases"
   - "command aliases"
 ms.assetid: de8bb378-8c1c-4087-a9a5-537fa8314c19
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

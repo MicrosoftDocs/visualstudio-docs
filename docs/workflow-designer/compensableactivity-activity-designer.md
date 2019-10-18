@@ -5,8 +5,8 @@ ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.CompensableActivity.UI"
 ms.assetid: e0340d89-d39e-4a52-8557-13e27040d7b5
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

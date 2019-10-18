@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "Debug.ListRegisters command"
   - "ListRegisters command"
 ms.assetid: 19a9d789-f6c9-46b3-b1f6-4934fc33e055
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -51,7 +51,7 @@ HRESULT ThreadCallHandler(
 ## Remarks  
  This method handles calls to run code in the debugger thread.  
   
-## See Also  
+## See also  
  [IDebugThreadCall Interface](../../winscript/reference/idebugthreadcall-interface.md)   
  [IDebugApplication::SynchronousCallInDebuggerThread](../../winscript/reference/idebugapplication-synchronouscallindebuggerthread.md)   
  [IDebugApplicationThread::SynchronousCallIntoThread](../../winscript/reference/idebugapplicationthread-synchronouscallintothread.md)

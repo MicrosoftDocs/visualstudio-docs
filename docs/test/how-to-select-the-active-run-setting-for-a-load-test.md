@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, run settings, active"
 ms.assetid: ed6ff546-acfa-4dd8-b3a2-6e7455930ca4
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Select the active run setting for a load test

@@ -27,8 +27,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.U-SQL.ScrollBars"
   - "VS.ToolsOptionsPages.Text_Editor.XAML.ScrollBars"
   - "VS.ToolsOptionsPages.Text_Editor.XML.ScrollBars"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

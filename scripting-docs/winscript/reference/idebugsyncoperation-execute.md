@@ -44,5 +44,5 @@ HRESULT Execute(
 ## Remarks  
  The Process Debug Manager in the target thread calls the `Execute` method synchronously.  
   
-## See Also  
+## See also  
  [IDebugSyncOperation Interface](../../winscript/reference/idebugsyncoperation-interface.md)

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "class diagrams, copying elements to Office documents"
   - "Office documents [Visual Studio]"
 ms.assetid: c43061ad-d258-46b1-be66-f97a312e86d5
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

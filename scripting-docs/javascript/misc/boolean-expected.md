@@ -28,7 +28,7 @@ o.f();
 
 - Only invoke the **Boolean.prototype.toString** or **Boolean.prototype.valueOf** methods on objects of type **Boolean.**
 
-## See Also
+## See also
 
 - [Boolean Object](../../javascript/reference/boolean-object-javascript.md)
 - [Data Types](../../javascript/data-types-javascript.md)

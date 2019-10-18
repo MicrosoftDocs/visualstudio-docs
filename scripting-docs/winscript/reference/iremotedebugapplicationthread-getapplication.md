@@ -43,5 +43,5 @@ HRESULT GetApplication(
 ## Remarks  
  This method returns the application object associated with this thread.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationThread Interface](../../winscript/reference/iremotedebugapplicationthread-interface.md)

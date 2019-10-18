@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "load tests, creating Excel reports"
   - "load tests, reporting"
 ms.assetid: b87fb196-9973-4512-a924-088788def4ea
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Create load test performance reports using Microsoft Excel

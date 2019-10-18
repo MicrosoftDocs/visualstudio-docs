@@ -30,7 +30,7 @@ There are two kinds of settings stores:
 ## Using the Configuration Settings Store
  This section shows how to detect and display configuration settings.
 
-1. In the SettingsStorageCommand.cs file, add the following using statements:
+1. In the SettingsStorageCommand.cs file, add the following using directives:
 
    ```
    using System.Collections.Generic;

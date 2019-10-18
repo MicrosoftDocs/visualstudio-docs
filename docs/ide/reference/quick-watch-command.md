@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Quick Watch command"
   - "Debug.Quickwatch command"
 ms.assetid: 9670ac3a-8f2f-4874-974d-cb87d3b0cde1
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

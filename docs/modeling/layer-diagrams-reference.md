@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "dependency diagrams"
   - "diagrams - modeling, layer"
   - "constraints, architectural"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "open folder [Visual Studio]"
   - "anycode [Visual Studio]"
   - projects and solutions, develop code without
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

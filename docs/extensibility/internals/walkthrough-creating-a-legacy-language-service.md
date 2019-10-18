@@ -64,7 +64,7 @@ Using the managed package framework (MPF) language classes to implement a langua
 
      You can use whatever name you want. These procedures detailed here assume `MyLanguageService` as the name.
 
-6. In the MyLanguageService.cs file, add the following `using` statements.
+6. In the MyLanguageService.cs file, add the following `using` directives.
 
      [!code-csharp[CreatingALanguageService(ManagedPackageFramework)#1](../../extensibility/internals/codesnippet/CSharp/walkthrough-creating-a-legacy-language-service_1.cs)]
      [!code-vb[CreatingALanguageService(ManagedPackageFramework)#1](../../extensibility/internals/codesnippet/VisualBasic/walkthrough-creating-a-legacy-language-service_1.vb)]
@@ -80,7 +80,7 @@ Using the managed package framework (MPF) language classes to implement a langua
 
 ### Register the Language Service
 
-1. Open the MyLanguagePackagePackage.cs file and add the following `using` statements:
+1. Open the MyLanguagePackagePackage.cs file and add the following `using` directives:
 
      [!code-vb[CreatingALanguageService(ManagedPackageFramework)#3](../../extensibility/internals/codesnippet/VisualBasic/walkthrough-creating-a-legacy-language-service_3.vb)]
      [!code-csharp[CreatingALanguageService(ManagedPackageFramework)#3](../../extensibility/internals/codesnippet/CSharp/walkthrough-creating-a-legacy-language-service_3.cs)]
@@ -104,7 +104,7 @@ Using the managed package framework (MPF) language classes to implement a langua
 
      Enter a suitable name for the class file and click **Add**.
 
-3. In the new class file, add the following `using` statements.
+3. In the new class file, add the following `using` directives.
 
      [!code-csharp[CreatingALanguageService(ManagedPackageFramework)#4](../../extensibility/internals/codesnippet/CSharp/walkthrough-creating-a-legacy-language-service_4.cs)]
      [!code-vb[CreatingALanguageService(ManagedPackageFramework)#4](../../extensibility/internals/codesnippet/VisualBasic/walkthrough-creating-a-legacy-language-service_4.vb)]

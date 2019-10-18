@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
   - "Class Designer [Visual Studio], typedefs"
 ms.assetid: c1984108-71fc-4d3a-b4d4-3eac2c6b4ebf
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "cplusplus"

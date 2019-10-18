@@ -42,5 +42,5 @@ HRESULT QueryAlive();
   
  If the debugger process terminates unexpectedly, COM returns an error from the marshalling proxy for calls to this method.  
   
-## See Also  
+## See also  
  [IApplicationDebugger Interface](../../winscript/reference/iapplicationdebugger-interface.md)

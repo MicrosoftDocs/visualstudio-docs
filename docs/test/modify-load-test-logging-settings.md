@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, logging, modifying"
 ms.assetid: 9649226a-857d-41ef-8ec7-047b6e498033
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Modify load test logging settings

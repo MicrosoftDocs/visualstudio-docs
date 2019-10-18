@@ -6,7 +6,7 @@ ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.assetid: f1502b51-d6db-4894-9fbf-4a5723e4bb1a
 caps.latest.revision: 8
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ---
 # Upgrade Visual Studio 2010 unit test projects

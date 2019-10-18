@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "walkthroughs [text templates], connecting host to processor"
   - "text templates, custom directive hosts"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

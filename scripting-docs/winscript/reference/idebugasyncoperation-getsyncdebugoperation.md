@@ -43,5 +43,5 @@ HRESULT GetSyncDebugOperation(
 ## Remarks  
  This method returns the synchronous debug operation associated with this object.  
   
-## See Also  
+## See also  
  [IDebugAsyncOperation Interface](../../winscript/reference/idebugasyncoperation-interface.md)

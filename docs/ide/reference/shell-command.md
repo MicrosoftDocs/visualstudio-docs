@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Shell, launching exe files"
   - "Visual Studio, executables from"
 ms.assetid: 737fda23-b852-45c4-a9fe-41cbce6ba70f
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

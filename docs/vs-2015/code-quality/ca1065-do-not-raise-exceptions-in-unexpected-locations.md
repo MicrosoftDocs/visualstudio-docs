@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1065"
 ms.assetid: 4e1bade4-4ca2-4219-abc3-c7b2d741e157
 caps.latest.revision: 18
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1065: Do not raise exceptions in unexpected locations

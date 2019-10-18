@@ -48,6 +48,6 @@ HRESULT GetResult(
 ## Remarks  
  If the operation has completed, this method returns the `HRESULT` and object parameter from `IDebugSyncOperation::Execute`.  
   
-## See Also  
+## See also  
  [IDebugAsyncOperation Interface](../../winscript/reference/idebugasyncoperation-interface.md)   
  [IDebugSyncOperation::Execute](../../winscript/reference/idebugsyncoperation-execute.md)

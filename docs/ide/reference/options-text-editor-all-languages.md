@@ -37,8 +37,8 @@ helpviewer_keywords:
   - "line numbers"
   - "virtual space"
 ms.assetid: 49ee7306-9d46-4170-850f-a1716171752d
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

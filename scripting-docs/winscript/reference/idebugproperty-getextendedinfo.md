@@ -47,5 +47,5 @@ HRESULT GetExtendedInfo (
 ## Remarks  
  This interface gets extended info for this object. The API exists only for the purpose of retrieving info that does not lend itself to being retrieved by the use of `IDebugProperty::GetPropertyInfo`).  
   
-## See Also  
+## See also  
  [IDebugProperty Interface](../../winscript/reference/idebugproperty-interface.md)

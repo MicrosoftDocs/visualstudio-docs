@@ -43,6 +43,6 @@ HRESULT GetDebugger(
 ## Remarks  
  This method returns the current debugger connected to the application.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication::ConnectDebugger](../../winscript/reference/iremotedebugapplication-connectdebugger.md)   
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)

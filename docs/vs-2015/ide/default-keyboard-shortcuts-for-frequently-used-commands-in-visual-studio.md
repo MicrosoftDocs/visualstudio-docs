@@ -6,8 +6,8 @@ ms.technology: "vs-ide-general"
 ms.topic: conceptual
 ms.assetid: 5839d6ca-e5ac-4468-9025-3d5ea177f19c
 caps.latest.revision: 9
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Default Keyboard Shortcuts for Frequently Used Commands in Visual Studio

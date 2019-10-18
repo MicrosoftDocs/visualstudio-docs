@@ -28,8 +28,8 @@ helpviewer_keywords:
   - "Text Editor [Visual Studio]"
   - "editors, global settings"
 ms.assetid: 4ac21e48-3243-4141-9058-7eaf12b3cde7
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

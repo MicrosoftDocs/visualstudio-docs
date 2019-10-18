@@ -2,8 +2,8 @@
 title: Using Peek Definition
 ms.date: 01/10/2018
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

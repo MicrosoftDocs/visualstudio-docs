@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "connecting to data, Access databases"
   - "Access databases, connecting"
 ms.assetid: 4159e815-d430-4ad0-a234-e4125fcbef18
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

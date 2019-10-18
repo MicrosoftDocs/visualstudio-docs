@@ -31,5 +31,5 @@ Enumerates `DebugPropertyInfo` structures.
 ## Requirements  
  Header: dbgprop.h  
   
-## See Also  
+## See also  
  [DebugPropertyInfo Structure](../../winscript/reference/debugpropertyinfo-structure.md)

@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords:
   - "n-tier applications, extending DataSets"
 ms.assetid: d43c2ccd-4902-43d8-b1a8-d10ca5d3210c
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

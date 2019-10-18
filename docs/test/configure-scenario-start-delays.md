@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, scenarios, start delays"
 ms.assetid: 2f634fba-8dfa-4c7a-a8b9-be867b78d16a
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Configure scenario start delays in load tests

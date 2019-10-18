@@ -55,6 +55,6 @@ HRESULT EnumCodeContextsOfPosition(
 ## Remarks  
  Smart hosts use this method to delegate the `IDebugDocumentContext::EnumCodeContexts` method.  
   
-## See Also  
+## See also  
  [IActiveScriptDebug Interface](../../winscript/reference/iactivescriptdebug-interface.md)   
  [IDebugDocumentContext::EnumCodeContexts](../../winscript/reference/idebugdocumentcontext-enumcodecontexts.md)

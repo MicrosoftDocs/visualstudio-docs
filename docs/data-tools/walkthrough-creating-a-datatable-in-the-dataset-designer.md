@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "Dataset Designer, creating data tables"
   - "tables [Visual Studio], creating"
   - "data [Visual Studio], Dataset Designer"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

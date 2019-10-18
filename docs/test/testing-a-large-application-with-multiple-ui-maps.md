@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "coded UI tests, multiple UI maps"
   - "coded UI tests, for large applications"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -4,8 +4,8 @@ ms.date: 08/07/2019
 ms.topic: conceptual
 f1_keywords:
   - "vs.UnitTest.CreateUnitTest"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

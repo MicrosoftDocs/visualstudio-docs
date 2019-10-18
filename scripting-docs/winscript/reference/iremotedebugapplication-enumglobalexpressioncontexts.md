@@ -43,5 +43,5 @@ HRESULT EnumGlobalExpressionContexts(
 ## Remarks  
  This method enumerates the global expression contexts for all languages running in this application.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)

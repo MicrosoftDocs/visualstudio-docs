@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Add New Item command"
   - "File.AddNewItem command"
 ms.assetid: 63b7df32-db83-463b-bbe7-7ff011fe5298
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

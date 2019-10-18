@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "ImplementStandardExceptionConstructors"
 ms.assetid: a8623c56-273a-4c95-8d83-95911a042be7
 caps.latest.revision: 18
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1032: Implement standard exception constructors

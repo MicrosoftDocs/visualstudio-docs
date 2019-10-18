@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Debug JavaScript using the console in Visual Studio
 
-You can use the JavaScript Console window to interact with and debug UWP apps built using JavaScript. These features are supported for UWP apps and apps created using Visual Studio Tools for Apache Cordova. For the console command reference, see [JavaScript Console commands](../debugger/javascript-console-commands.md).
+You can use the JavaScript Console window to interact with and debug UWP apps built using JavaScript. These features are supported for UWP apps and apps created using Visual Studio Tools for Apache Cordova. For the console command reference, see [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017).
 
 The JavaScript Console window allows you to:
 
@@ -33,7 +33,7 @@ The JavaScript Console window allows you to:
 
 - View JavaScript errors and exceptions, in addition to Document Object Model (DOM) and Windows Runtime exceptions.
 
-- Perform other tasks, like clearing the screen. See [JavaScript Console commands](../debugger/javascript-console-commands.md) for the full list of commands.
+- Perform other tasks, like clearing the screen. See [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017) for the full list of commands.
 
 > [!TIP]
 > If the JavaScript Console window is closed, choose **Debug**> **Windows** > **JavaScript Console** to re-open it. The window appears only during a script debugging session.
@@ -245,9 +245,9 @@ You can also switch the execution context by using the `cd` command, but you mus
 
 ## See Also
 - [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
-- [JavaScript Console commands](../debugger/javascript-console-commands.md)
+- [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017)
 - [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)
-- [Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md)
+- [Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md?view=vs-2017)
 - [Debug HTML, CSS, and JavaScript sample code](../debugger/debug-html-css-and-javascript-sample-code.md)
 - [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)
 - [Debug a WebView control](../debugger/debug-a-webview-control.md)

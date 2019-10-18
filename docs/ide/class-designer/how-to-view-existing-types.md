@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "types [Visual Studio], class diagrams"
   - "class diagrams, types"
 ms.assetid: de110a4e-5b51-4a40-9dee-615df4d8f999
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

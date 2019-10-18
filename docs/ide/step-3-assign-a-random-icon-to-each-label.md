@@ -82,6 +82,6 @@ If the icons show up in the same cells every game, it's not very challenging. To
 
 ## To continue or review
 
-- To go to the next tutorial step, see [Step 4: Add a click event handler to each label](../ide/step-4-add-a-click-event-handler-to-each-label.md).
+- To go to the next tutorial step, see **[Step 4: Add a click event handler to each label](../ide/step-4-add-a-click-event-handler-to-each-label.md)**.
 
 - To return to the previous tutorial step, see [Step 2: Add a Random object and a list of icons](../ide/step-2-add-a-random-object-and-a-list-of-icons.md).

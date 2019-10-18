@@ -3,8 +3,8 @@ title: Common Quick Actions
 description: Most popular Quick Actions for C# and Visual Basic including fixing misspelled keywords or symbols, resolving merge conflicts, removing necessary imports, generating types, introducing local variables, etc.
 ms.date: 03/28/2018
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 dev_langs:
   - CSharp
@@ -90,7 +90,7 @@ private void MyMethod()
 
 ### Remove unnecessary usings/Imports
 
-The **Remove Unnecessary Usings/Imports** Quick Action removes any unused `using` and `Import` statements for the current file. When you select this item, unused namespace imports are removed.
+The **Remove Unnecessary Usings/Imports** Quick Action removes any unused `using` and `Import` directives for the current file. When you select this item, unused namespace imports are removed.
 
 | Applicable Languages | Supported Version |
 | - | - |
@@ -178,7 +178,7 @@ Using types located in other projects in your solution will display the Quick Ac
 - Suggest usings/imports for types in reference assemblies
 - Suggest usings/imports for types in NuGet packages
 
-When enabled, if you use a type in a namespace that is currently not imported, but exists in a reference assembly or NuGet package, the using/import statement will be created.
+When enabled, if you use a type in a namespace that is currently not imported but exists in a reference assembly or NuGet package, the using or import directive is created.
 
 ```csharp
 // Before
@@ -198,7 +198,7 @@ Debug.WriteLine("Hello")
 
 ' Imports System.Diagnostics
 
-// After
+' After
 Imports System.Diagnostics
 
 Debug.WriteLine("Hello")

@@ -6,8 +6,8 @@ f1_keywords:
   - "vs.dsltools.EditAttributesDialog"
 helpviewer_keywords:
   - "Domain-Specific Language, custom attrributes"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

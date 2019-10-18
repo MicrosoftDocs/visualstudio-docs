@@ -21,5 +21,5 @@ The scripting engine has reported an unhandled exception to the host via [IActiv
 SCRIPT_E_REPORTED   0x80020101L  
 ```  
   
-## See Also  
+## See also  
  [Active Script Constants, Enumerations, and Error Codes](../../winscript/reference/active-script-constants-enumerations-and-error-codes.md)

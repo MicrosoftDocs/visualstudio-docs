@@ -41,5 +41,5 @@ HRESULT QueryIsDebuggerThread();
 ## Remarks  
  This method determines if this thread is the debugger thread.  
   
-## See Also  
+## See also  
  [IDebugApplicationThread Interface](../../winscript/reference/idebugapplicationthread-interface.md)

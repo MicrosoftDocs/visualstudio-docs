@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "text templates, custom host walkthrough"
 ms.assetid: d00bc366-65ed-4229-885a-196ef9625f05
 caps.latest.revision: 53
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Walkthrough: Creating a Custom Text Template Host

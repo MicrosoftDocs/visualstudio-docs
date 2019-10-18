@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "plug-ins, load test"
   - "load tests, plug-ins"
 ms.assetid: 27806972-1b15-4388-833d-6d0632816f1f
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Create a load test plug-in

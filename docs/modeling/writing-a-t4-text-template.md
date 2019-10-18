@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "text templates, syntax"
   - "text templates, guide"
   - "text templates, functions that generate text"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

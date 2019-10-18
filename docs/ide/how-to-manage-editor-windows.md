@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "editors, windows management"
   - "Code Editor, windows management"
 ms.assetid: 340143d4-8a71-490d-823e-162b276f4c6d
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

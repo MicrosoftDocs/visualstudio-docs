@@ -50,5 +50,5 @@ HRESULT GetState(
 ## Remarks  
  This method gets the state of this thread.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationThread Interface](../../winscript/reference/iremotedebugapplicationthread-interface.md)

@@ -27,5 +27,5 @@ When setting the **length** property of an existing **Array** object, you specif
     my_array.length = 99;  
     ```  
   
-## See Also  
+## See also  
  [Using Arrays](../../javascript/advanced/using-arrays-javascript.md)

@@ -8,8 +8,8 @@ f1_keywords:
   - VS.CHOOSEITEMS.UniversalWindowsComponents
 helpviewer_keywords:
   - "Toolbox, Components tab"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

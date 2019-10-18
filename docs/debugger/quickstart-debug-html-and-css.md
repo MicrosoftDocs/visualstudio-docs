@@ -231,7 +231,7 @@ You can select DOM elements in three ways when debugging an app:
 
 - By using the **Select Element** button (Ctrl+B).
 
-- By using the `select` command, which is one of the [JavaScript Console commands](../debugger/javascript-console-commands.md).
+- By using the `select` command, which is one of the [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017).
 
   When you use the DOM Explorer window to select elements, and rest the mouse pointer on an element, the corresponding element is highlighted in the running app. You must click on the element in DOM Explorer to select it, or you can use the arrow keys to highlight and select elements.You can also select elements in DOM Explorer by using the **Select element** button. The following illustration shows the **Select Element** button.
 
@@ -252,7 +252,7 @@ You can select DOM elements in three ways when debugging an app:
 - [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
 - [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)
 - [Debug a WebView control](../debugger/debug-a-webview-control.md)
-- [Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md)
-- [JavaScript Console commands](../debugger/javascript-console-commands.md)
+- [Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md?view=vs-2017)
+- [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017)
 - [Debug HTML, CSS, and JavaScript sample code](../debugger/debug-html-css-and-javascript-sample-code.md)
 - [Product Support and Accessibility](https://msdn.microsoft.com/library/tzbxw1af(VS.120).aspx)

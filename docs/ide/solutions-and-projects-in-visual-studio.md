@@ -15,8 +15,8 @@ f1_keywords:
 helpviewer_keywords:
   - "solutions [Visual Studio]"
   - "projects [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

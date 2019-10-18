@@ -5,11 +5,11 @@ ms.date: 03/19/2019
 ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.custom: vs-get-started
-author: gewarren
+author: jillre
 f1_keywords:
   - vs.startpage
   - VS.StartPage.HowDoI
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

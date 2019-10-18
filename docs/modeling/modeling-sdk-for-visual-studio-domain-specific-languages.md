@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language Tools"
   - "Domain-Specific Language"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -55,6 +55,6 @@ HRESULT GetStatEx(
 > [!NOTE]
 > This method is not currently implemented.  
   
-## See Also  
+## See also  
  [IActiveScriptStats::GetStat](../../winscript/reference/iactivescriptstats-getstat.md)   
  [IActiveScriptStats Interface](../../winscript/reference/iactivescriptstats-interface.md)

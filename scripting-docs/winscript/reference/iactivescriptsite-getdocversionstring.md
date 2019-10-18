@@ -39,5 +39,5 @@ HRESULT GetDocVersionString(
 ## Remarks  
  If `E_NOTIMPL` is returned, the scripting engine should assume that the script is in sync with the document.  
   
-## See Also  
+## See also  
  [IActiveScriptSite](../../winscript/reference/iactivescriptsite.md)

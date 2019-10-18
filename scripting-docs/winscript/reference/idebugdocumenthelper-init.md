@@ -57,7 +57,7 @@ HRESULT Init(
   
  This document does not appear in the tree until `IDebugDocumentHelper::Attach` is called.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper::Attach](../../winscript/reference/idebugdocumenthelper-attach.md)   
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)   
  [TEXT_DOC_ATTR Constants](../../winscript/reference/text-doc-attr-constants.md)

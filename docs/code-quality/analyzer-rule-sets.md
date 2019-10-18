@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "analyzer packages, rule sets"
   - "rule sets for analyzers"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

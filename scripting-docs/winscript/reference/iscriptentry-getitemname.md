@@ -43,5 +43,5 @@ HRESULT GetItemName(
 ## Remarks  
  For `IScriptScriptlet` objects, you set the item name by using [IActiveScriptAuthor::AddScriptlet](../../winscript/reference/iactivescriptauthor-addscriptlet.md). For other interfaces, you set the item name by using [IScriptEntry::SetItemName](../../winscript/reference/iscriptentry-setitemname.md).  
   
-## See Also  
+## See also  
  [IScriptEntry Interface](../../winscript/reference/iscriptentry-interface.md)

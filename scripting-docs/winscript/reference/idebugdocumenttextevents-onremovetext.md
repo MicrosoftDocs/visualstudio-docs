@@ -47,6 +47,6 @@ HRESULT onRemoveText(
 ## Remarks  
  This method indicates that text has been removed from the document.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextEvents Interface](../../winscript/reference/idebugdocumenttextevents-interface.md)   
  [IDebugDocumentTextEvents::onInsertText](../../winscript/reference/idebugdocumenttextevents-oninserttext.md)

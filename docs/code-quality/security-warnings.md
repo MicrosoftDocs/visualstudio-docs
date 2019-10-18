@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "managed code analysis warnings, security warnings"
   - "warnings, security"
 ms.assetid: 60d4e8ea-230a-494f-aa6a-b91db77540e4
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

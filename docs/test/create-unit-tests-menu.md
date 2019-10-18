@@ -4,8 +4,8 @@ ms.date: 04/01/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "unit testing, create unit tests"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

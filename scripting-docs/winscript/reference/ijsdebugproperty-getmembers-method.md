@@ -40,5 +40,5 @@ HRESULT GetMembers(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsDebugProperty Interface](../../winscript/reference/ijsdebugproperty-interface.md)

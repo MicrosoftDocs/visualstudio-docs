@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "TextTemplatingFilePreprocessor custom tool"
   - "text templates, TransformText() method"
   - "text templates, generating files at run time"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

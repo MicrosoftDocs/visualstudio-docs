@@ -51,5 +51,5 @@ HRESULT OpenVirtualProcess(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsDebug Interface](../../winscript/reference/ijsdebug-interface.md)

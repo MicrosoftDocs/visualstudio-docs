@@ -58,6 +58,6 @@ HRESULT GetEventHandler(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IActiveScriptAuthor Interface](../../winscript/reference/iactivescriptauthor-interface.md)   
  [IScriptEntry Interface](../../winscript/reference/iscriptentry-interface.md)

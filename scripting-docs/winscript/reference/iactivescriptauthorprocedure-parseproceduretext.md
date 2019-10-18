@@ -71,5 +71,5 @@ HRESULT ParseProcedureText(
 ## Remarks  
  The current [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] engine does not implement this method.  
   
-## See Also  
+## See also  
  [IActiveScriptAuthorProcedure Interface](../../winscript/reference/iactivescriptauthorprocedure-interface.md)

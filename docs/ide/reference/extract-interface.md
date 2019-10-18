@@ -2,8 +2,8 @@
 title: Extract an interface refactoring
 ms.date: 01/26/2018
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 f1_keywords:
   - "vs.csharp.refactoring.extractinterface"

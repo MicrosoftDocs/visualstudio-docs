@@ -76,5 +76,5 @@ BSTR bstrName;
    // Use dispid  
 ```  
   
-## See Also  
+## See also  
  [IDispatchEx Interface](../../winscript/reference/idispatchex-interface.md)

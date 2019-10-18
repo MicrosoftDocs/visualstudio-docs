@@ -6,8 +6,8 @@ ms.technology: vs-ide-modeling
 ms.topic: conceptual
 ms.assetid: 2ff722f3-21d6-44e2-9efd-f6694aee9987
 caps.latest.revision: 28
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Integrating Models by using Visual Studio Modelbus

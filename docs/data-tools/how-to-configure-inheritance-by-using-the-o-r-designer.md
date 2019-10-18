@@ -3,8 +3,8 @@ title: "How to: Configure inheritance by using the O-R Designer"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: e594af12-e777-434a-bc08-7dd2dac84cdc
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

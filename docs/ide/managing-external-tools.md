@@ -6,8 +6,8 @@ f1_keywords:
   - "vs.externaltools"
 helpviewer_keywords:
   - "external tools [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

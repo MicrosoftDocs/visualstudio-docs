@@ -22,5 +22,5 @@ You did not include the left brace that marks the beginning of the function body
   
 - Add the left brace that marks the beginning of the function body.  
   
-## See Also  
+## See also  
  [Function Object](../../javascript/reference/function-object-javascript.md)

@@ -42,5 +42,5 @@ DOCUMENTNAMETYPE_UNIQUE_TITLE,} DOCUMENTNAMETYPE;
 |DOCUMENTNAMETYPE_URL|Gets the URL of the document.|  
 |DOCUMENTNAMETYPE_UNIQUE_TITLE|Gets the title appended with enumeration for identification.|  
   
-## See Also  
+## See also  
  [Active Script Debugger Constants, Enumerations, and Structures](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)
