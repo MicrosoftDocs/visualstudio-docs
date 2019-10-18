@@ -12,7 +12,7 @@ ms.workload:
 
 In a domain-specific language in Visual Studio, you can make the appearance of a shape reflect the state of the underlying model.
 
-The code examples in this topic should be added to a `.cs` file in your `Dsl` project. You need these statements in each file:
+The code examples in this topic should be added to a `.cs` file in your `Dsl` project. You need these directives in each file:
 
 ```csharp
 using Microsoft.VisualStudio.Modeling;
