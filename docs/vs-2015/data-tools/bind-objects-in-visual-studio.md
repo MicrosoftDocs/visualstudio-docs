@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "binding, to objects"
 ms.assetid: ed743ce6-73af-45e5-a8ff-045eddaccc86
 caps.latest.revision: 24
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Bind objects in Visual Studio

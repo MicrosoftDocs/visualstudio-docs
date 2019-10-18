@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "editors, text case"
   - "text, case"
 ms.assetid: b04d1327-a45e-4c12-a0d0-67672b3fa855
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -4,8 +4,8 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.All_Languages.CodeLens"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

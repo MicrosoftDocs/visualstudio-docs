@@ -6,8 +6,8 @@ f1_keywords:
   - "VS.CallHierarchy"
 helpviewer_keywords:
   - "Call Hierarchy"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

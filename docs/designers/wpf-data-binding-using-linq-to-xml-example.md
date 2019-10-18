@@ -3,8 +3,8 @@ title: WPF Data Binding Using LINQ to XML Example
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 8e90b252-646e-4449-a898-5f03e40df87d
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

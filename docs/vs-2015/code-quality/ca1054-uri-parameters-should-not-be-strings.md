@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "UriParametersShouldNotBeStrings"
 ms.assetid: 8e99d72b-a658-47a7-8dd5-9784ce2c30b8
 caps.latest.revision: 16
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1054: URI parameters should not be strings

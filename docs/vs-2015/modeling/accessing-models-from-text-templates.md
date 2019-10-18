@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "text templates, accessing models"
 ms.assetid: cf65395a-0ca3-4826-89c7-b1869562685c
 caps.latest.revision: 35
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Accessing Models from Text Templates

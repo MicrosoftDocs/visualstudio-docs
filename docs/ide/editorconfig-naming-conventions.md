@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "naming conventions [EditorConfig]"
   - "EditorConfig naming conventions"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -11,8 +11,8 @@ f1_keywords:
 helpviewer_keywords:
   - "automated tests, testing UI interface"
   - "coded UI test"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

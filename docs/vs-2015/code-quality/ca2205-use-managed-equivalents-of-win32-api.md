@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA2205"
 ms.assetid: 1c65ab59-3e50-4488-a727-3969c7f6cbe4
 caps.latest.revision: 15
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2205: Use managed equivalents of Win32 API

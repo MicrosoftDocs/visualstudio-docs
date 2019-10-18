@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Start Page [Visual Studio]"
   - "customizing Start Page [Visual Studio]"
   - "Visual Studio Start Page"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "managed code analysis warnings"
   - "code analysis,managed code"
 ms.assetid: 3c2741ff-0d3a-42e6-acd5-d42310bd03c4
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

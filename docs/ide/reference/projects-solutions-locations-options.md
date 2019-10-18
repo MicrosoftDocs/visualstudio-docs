@@ -4,8 +4,8 @@ ms.date: 07/26/2019
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Projects.Locations"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

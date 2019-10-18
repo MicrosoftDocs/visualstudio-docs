@@ -8,8 +8,8 @@ f1_keywords:
   - "vs.codeanalysis.propertypages.csvb.express"
 ms.assetid: cab553fc-19a9-4cbf-858e-8200258ffe50
 caps.latest.revision: 16
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Analyze Visual Basic and C# code quality in Store apps using Visual Studio static code analysis

@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "walkthrough [Visual Studio ALM], visualizing code"
   - "walkthrough [Visual Studio ALM], modeling software"
   - "walkthroughs [Visual Studio ALM], modeling software"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

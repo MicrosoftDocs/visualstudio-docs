@@ -6,8 +6,8 @@ ms.technology: "vs-ide-general"
 ms.topic: conceptual
 ms.assetid: 4842955d-8959-4e4e-98b8-2358360179b3
 caps.latest.revision: 10
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Walkthrough: Building an Application

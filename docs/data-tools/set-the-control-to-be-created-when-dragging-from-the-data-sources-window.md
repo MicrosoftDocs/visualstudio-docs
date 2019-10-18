@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "data [Visual Studio], displaying on Windows Forms"
   - "data [Visual Studio], Data Sources window"
 ms.assetid: 20597ff8-0c98-43ec-8fb1-05376804ba48
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

@@ -3,8 +3,8 @@ title: Tour of the Visual Studio IDE
 titleSuffix: ""
 ms.date: 02/21/2019
 ms.topic: quickstart
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

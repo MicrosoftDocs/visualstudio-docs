@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "WPF Designer, XAML formatting"
   - "XAML view settings, attribute spacing"
 ms.assetid: 2a420e58-a408-4e8d-9220-44eeb4f67801
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "uwp"

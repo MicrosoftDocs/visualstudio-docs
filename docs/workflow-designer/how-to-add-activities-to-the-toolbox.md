@@ -3,8 +3,8 @@ title: "Workflow Designer - How to: Add Activities to the Toolbox"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: b3a8a785-5928-457a-8a50-30267e29503d
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

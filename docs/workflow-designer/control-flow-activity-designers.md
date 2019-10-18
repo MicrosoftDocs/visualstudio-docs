@@ -3,8 +3,8 @@ title: "Workflow Designer - Control Flow Activity Designers"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: ba74af23-5398-4e62-bd90-c50612e3bfef
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

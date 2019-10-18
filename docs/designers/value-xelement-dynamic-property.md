@@ -3,8 +3,8 @@ title: Value (XElement Dynamic Property)
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: b30e770d-9646-4632-9738-cc9f51bb2343
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

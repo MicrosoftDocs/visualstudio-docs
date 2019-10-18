@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "Web services [Visual Studio ALM], creating"
   - "service tests, Web"
 ms.assetid: fbcd57ee-06ad-4260-8694-09f8e0f93e39
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Create a web service test

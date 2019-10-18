@@ -7,8 +7,8 @@ f1_keywords:
  - "vs.texteditor"
  - "vs.ambient"
 manager: jillfra
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 ---
 # F1 help
 

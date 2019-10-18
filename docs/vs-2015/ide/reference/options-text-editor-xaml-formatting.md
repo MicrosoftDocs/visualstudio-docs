@@ -28,8 +28,8 @@ helpviewer_keywords:
   - "XAML view settings, attribute spacing"
 ms.assetid: ad3820b1-0d94-4807-a74c-c3467ed973a2
 caps.latest.revision: 20
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Options, Text Editor, XAML, Formatting
@@ -121,6 +121,6 @@ Use this setting to specify whether user controls and custom controls are shown 
 |**Automatically populate toolbox items**|Specifies whether user controls and custom controls in the current solution are shown in the Toolbox automatically.|
 
 ## See Also
-[XAML in WPF](https://msdn.microsoft.com/library/5d858575-a83b-42df-ad3f-047ed2d6e3c8)  
-[How to: Change XAML View Settings](https://msdn.microsoft.com/aee87c79-ca01-4f84-8fb7-a9e47048ee47)  
+[XAML in WPF](https://msdn.microsoft.com/library/5d858575-a83b-42df-ad3f-047ed2d6e3c8)
+[How to: Change XAML View Settings](https://msdn.microsoft.com/aee87c79-ca01-4f84-8fb7-a9e47048ee47)
 [XAML and Code Walkthroughs](https://msdn.microsoft.com/b3ff41a0-a2a3-4f61-b698-ac88ec8f799c)

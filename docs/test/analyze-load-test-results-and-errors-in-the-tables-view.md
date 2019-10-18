@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Load Test Viewer, tables"
   - "load tests, results tables"
 ms.assetid: 0a84bda3-6051-45eb-9c7f-d57419e1f97d
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Analyze load test results and errors in the Tables view of the Load Test Analyzer

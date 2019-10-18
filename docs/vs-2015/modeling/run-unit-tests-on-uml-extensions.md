@@ -6,8 +6,8 @@ ms.technology: vs-ide-modeling
 ms.topic: conceptual
 ms.assetid: 745d74ae-e48c-4fd9-a755-4354b81b9f8a
 caps.latest.revision: 9
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Run unit tests on UML extensions

@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "list call stack command"
   - "Debug.ListCallStack command"
 ms.assetid: a8b20bf2-81d2-4069-aea8-23e6b15b4347
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

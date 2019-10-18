@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "data binding, user controls"
   - "data binding, complex"
   - "user controls [Visual Studio], complex data binding"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

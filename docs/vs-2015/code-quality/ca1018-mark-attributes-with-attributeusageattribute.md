@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "MarkAttributesWithAttributeUsage"
 ms.assetid: 6ab70ec0-220f-4880-af31-45067703133c
 caps.latest.revision: 19
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1018: Mark attributes with AttributeUsageAttribute

@@ -6,8 +6,8 @@ ms.technology: vs-ide-modeling
 ms.topic: conceptual
 ms.assetid: 53066a5d-5b0c-4f60-adf1-60ac81cb9ab1
 caps.latest.revision: 4
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Nesting Shapes

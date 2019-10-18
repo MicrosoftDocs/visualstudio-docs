@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "ComplexBindingPropertiesAttribute class, using"
   - "Data Sources Window, selecting controls"
 ms.assetid: 8c43e7d2-ba94-4d9b-96de-3aa971955afd
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Add custom controls to the Data Sources window

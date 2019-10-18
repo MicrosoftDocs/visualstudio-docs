@@ -4,8 +4,8 @@ ms.date: 09/06/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "code analysis FAQ"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

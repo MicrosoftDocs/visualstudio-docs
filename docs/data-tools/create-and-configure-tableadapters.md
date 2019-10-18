@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "data [Visual Studio], TableAdapters"
   - "data [Visual Studio], creating table adapters"
 ms.assetid: 08630d69-0d6c-4e8f-b42d-2922f45f8415
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

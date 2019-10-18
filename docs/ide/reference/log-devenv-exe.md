@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "Log switch [devenv.exe]"
   - "/Log Devenv switch"
 ms.assetid: ae23c4ae-2376-4fe3-b8d2-81d34e61c8ba
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

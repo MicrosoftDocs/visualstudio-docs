@@ -5,8 +5,8 @@ ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.WriteLine.UI"
 ms.assetid: 1b5f29a8-b7fd-477e-949e-2f689cae3c96
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

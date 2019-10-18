@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "EditorConfig coding conventions"
   - "language code style rules [EditorConfig]"
   - "formatting conventions [EditorConfig]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

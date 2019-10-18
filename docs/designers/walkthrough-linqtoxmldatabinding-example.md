@@ -3,8 +3,8 @@ title: "Walkthrough: LinqToXmlDataBinding Example"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: aedf42e8-896c-48fa-88df-7f7c9536aa69
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

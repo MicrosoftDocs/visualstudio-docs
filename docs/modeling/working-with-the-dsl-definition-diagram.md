@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, Show Map Lines"
   - "Domain-Specific Language Tools, Show As Class"
   - "Domain-Specific Language Tools, Bring Tree Here"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

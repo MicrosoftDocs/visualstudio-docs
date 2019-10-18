@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "n-tier applications, creating"
   - "n-tier applications, walkthroughs"
 ms.assetid: d15e4d31-2839-48d9-9e0e-2e73404d82a2
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

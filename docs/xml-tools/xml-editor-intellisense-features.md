@@ -3,8 +3,8 @@ title: "XML editor IntelliSense Features"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 2b26f214-cc3a-46bf-b260-14eb8e599182
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

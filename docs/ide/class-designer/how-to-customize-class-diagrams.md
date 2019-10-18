@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "type shapes, removing from class diagrams"
   - "class diagrams, removing type shapes"
 ms.assetid: e9030aea-c77d-4cc1-b8f6-b6ca469b692d
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

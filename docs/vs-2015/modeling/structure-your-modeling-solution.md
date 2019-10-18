@@ -6,8 +6,8 @@ ms.technology: vs-ide-modeling
 ms.topic: conceptual
 ms.assetid: 2ba70ba4-2cea-4e01-93c2-055903d59470
 caps.latest.revision: 16
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 

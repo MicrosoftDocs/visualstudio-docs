@@ -3,11 +3,11 @@ title: "How to: Use Search in the Workflow Designer"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: f42d3115-2ed2-4941-8f1e-92dac41c30fa
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # How to: Use Search in the Workflow Designer
 

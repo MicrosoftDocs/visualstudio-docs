@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "transactions, saving data"
   - "data [Visual Studio], saving"
 ms.assetid: 8b835e8f-34a3-413d-9bb5-ebaeb87f1198
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

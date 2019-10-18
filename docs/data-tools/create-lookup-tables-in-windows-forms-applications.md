@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "lookup tables"
   - "lookup tables, creating"
 ms.assetid: 0edd5385-c381-4b17-9096-74e2778db9d5
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

@@ -6,7 +6,7 @@ ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.assetid: 11232a83-73ea-46bd-bc0c-46f74f6e3a42
 caps.latest.revision: 35
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ---
 # Upgrading Coded UI Tests from Visual Studio 2010

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "Load Test Editor"
   - "load tests, Load Test Editor"
 ms.assetid: ba16ed02-137e-40bf-a4cb-45d87d922d37
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Edit load tests

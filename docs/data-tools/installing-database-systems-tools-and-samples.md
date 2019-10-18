@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "database compatibility"
   - "databases for Visual Studio"
 ms.assetid: 821de34b-eaa9-40af-b9aa-b8305de16899
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

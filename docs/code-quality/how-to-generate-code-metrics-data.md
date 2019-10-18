@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "code metrics data"
   - "code metrics results"
   - "code metrics [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

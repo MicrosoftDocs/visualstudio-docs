@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "WPF Designer, data binding"
   - "data binding, WPF"
 ms.assetid: 3aa80194-0191-474d-9d28-5ec05654b426
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

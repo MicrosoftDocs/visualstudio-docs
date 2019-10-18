@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "Options dialog box, development environment"
   - "tools [Visual Studio], customizing"
 ms.assetid: 02b09877-1df1-4531-a0d1-a4ca17c7f857
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

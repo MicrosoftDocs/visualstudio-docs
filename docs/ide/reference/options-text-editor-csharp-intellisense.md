@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "wavy underlines"
   - "Text Editor Options dialog box, IntelliSense"
 ms.assetid: 3466dedb-e5f4-424c-8dd8-e4941b2f4fc2
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

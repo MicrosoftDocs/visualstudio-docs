@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "saving files, automatically"
   - "files, saving automatically"
 ms.assetid: 397e5e44-4bbe-4289-94d1-642b466c9111
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "data [Visual Studio], extending TableAdapters"
   - "TableAdapters, adding functionality"
 ms.assetid: 418249c8-c7f3-47ef-a94c-744cb6fe6aaf
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

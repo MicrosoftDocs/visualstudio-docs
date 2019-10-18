@@ -8,8 +8,8 @@ f1_keywords:
   - "CA2143"
 ms.assetid: 5d3923d7-cf40-4512-bc5c-0db0e0d6e25a
 caps.latest.revision: 14
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2143: Transparent methods should not use security demands

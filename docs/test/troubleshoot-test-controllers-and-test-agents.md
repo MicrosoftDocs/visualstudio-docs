@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "load tests, test agents"
   - "troubleshooting, test controllers and agents in load tests"
 ms.assetid: 77329348-3a5d-43de-b6cb-90f93296a081
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Strategies for troubleshooting test controllers and test agents in load tests

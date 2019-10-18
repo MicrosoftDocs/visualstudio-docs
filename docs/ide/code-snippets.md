@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
   - "surround with"
   - "code snippets"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 dev_langs:
  - CSharp

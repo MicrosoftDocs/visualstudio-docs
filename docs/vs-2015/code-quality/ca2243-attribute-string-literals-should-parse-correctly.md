@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA2243"
 ms.assetid: bfadb366-379d-4ee4-b17b-c4a09bf1106b
 caps.latest.revision: 12
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2243: Attribute string literals should parse correctly

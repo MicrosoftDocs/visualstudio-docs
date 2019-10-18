@@ -7,8 +7,8 @@ f1_keywords:
   - "System.Activities.Presentation.ErrorActivity.UI"
   - "System.Activities.Presentation.View.ErrorView.UI"
 ms.assetid: 4d8bbc2e-34fc-477f-9140-4adfd70c34a0
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -4,8 +4,8 @@ ms.date: 03/22/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language, overriding event handlers"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

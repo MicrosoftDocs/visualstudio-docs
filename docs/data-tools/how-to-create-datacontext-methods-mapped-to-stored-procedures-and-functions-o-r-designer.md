@@ -3,8 +3,8 @@ title: "Map DataContext methods to sprocs and functions (O-R Designer)"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: e7ca32f1-50b3-48af-ad92-ceafd749296a
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

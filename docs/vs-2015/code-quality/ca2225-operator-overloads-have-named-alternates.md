@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA2225"
 ms.assetid: af8f7ab1-63ad-4861-afb9-b7a7a2be15e1
 caps.latest.revision: 22
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2225: Operator overloads have named alternates

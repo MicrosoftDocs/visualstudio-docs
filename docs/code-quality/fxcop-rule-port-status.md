@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - fxcop rules
   - fxcop analyzers, ported rules
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

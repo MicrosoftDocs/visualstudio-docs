@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "test controller, walkthrough"
   - "walkthroughs, test controller and test agents"
 ms.assetid: 57ed43ae-4e67-4139-8aec-3e9fceb0a745
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Assign roles to a test controller and test agent

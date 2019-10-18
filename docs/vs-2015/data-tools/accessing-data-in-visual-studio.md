@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "ADO.NET, data access"
 ms.assetid: 9812a6d5-23d2-4427-8b98-70a2abfec3bc
 caps.latest.revision: 103
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 robots: noindex,nofollow
 ---

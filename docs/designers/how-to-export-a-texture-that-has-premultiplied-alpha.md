@@ -3,8 +3,8 @@ title: "How to: Export a Texture that has Premultiplied Alpha"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 05348afa-f079-4f53-a05b-ecd91d13adab
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

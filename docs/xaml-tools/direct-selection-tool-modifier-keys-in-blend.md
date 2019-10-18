@@ -4,8 +4,8 @@ titleSuffix: Blend for Visual Studio
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 21f9b951-dc2b-4d09-bd70-75caed8fb964
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

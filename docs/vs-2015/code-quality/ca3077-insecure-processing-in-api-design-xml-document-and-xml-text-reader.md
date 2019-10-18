@@ -5,8 +5,8 @@ ms.technology: vs-ide-code-analysis
 ms.topic: reference
 ms.assetid: 7f33771b-f3c8-4c02-bef6-f581b623c303
 caps.latest.revision: 9
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA3077: Insecure Processing in API Design, XML Document and XML Text Reader

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "StaticHolderTypesShouldBeSealed"
 ms.assetid: 51a3165d-781e-4a55-aa0d-ea25fee7d4f2
 caps.latest.revision: 21
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1052: Static holder types should be sealed

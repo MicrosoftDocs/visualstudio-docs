@@ -2,11 +2,11 @@
 title: "Configure unit tests with a .runsettings file"
 ms.date: 06/14/2019
 ms.topic: conceptual
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Configure unit tests by using a *.runsettings* file
 
@@ -143,7 +143,7 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
             <AllowLowIntegrityProcesses>True</AllowLowIntegrityProcesses>
             <CollectFromChildProcesses>True</CollectFromChildProcesses>
             <CollectAspDotNet>False</CollectAspDotNet>
-            
+
           </CodeCoverage>
         </Configuration>
       </DataCollector>

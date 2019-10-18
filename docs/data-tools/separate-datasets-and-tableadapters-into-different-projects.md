@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "TableAdapters, n-tier applications"
   - "n-tier applications, separating Datasets and TableAdapters"
 ms.assetid: f66a3940-6227-46af-a930-9177f425f4fd
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

@@ -5,11 +5,11 @@ ms.topic: reference
 f1_keywords:
   - "AddParameters.UI"
 ms.assetid: a21fb4fe-134b-40b0-8497-86b842940ca1
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Add Parameters and Add Arguments Dialog Boxes
 

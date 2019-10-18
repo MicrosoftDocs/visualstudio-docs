@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "application settings [Visual Studio]"
 ms.assetid: 35254321-ad14-47d9-b8c6-39ab3203c5d9
 caps.latest.revision: 27
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Managing Application Settings (.NET)

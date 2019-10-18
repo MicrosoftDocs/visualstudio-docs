@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA2122"
 ms.assetid: 3eda58e7-c6ec-41c3-8112-ae0841109c6a
 caps.latest.revision: 19
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2122: Do not indirectly expose methods with link demands

@@ -4,11 +4,11 @@ ms.date: 05/02/2017
 ms.topic: conceptual
 helpviewer_keywords:
   - "IntelliTest, Dynamic symbolic execution"
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Input generation using dynamic symbolic execution
 

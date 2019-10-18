@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "ADO.NET Data Services, Visual Studio"
   - "WCF data services in Visual Studio"
 ms.assetid: da66ad1b-a25d-485c-af13-2d18f0422e3d
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

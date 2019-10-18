@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "Options dialog box, international settings"
   - "languages, specifying default"
 ms.assetid: e3a8815c-6995-4099-8e88-34f91fad55b2
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

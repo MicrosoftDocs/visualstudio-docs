@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Prerequisites dialog box"
 ms.assetid: 53ac863c-77a0-409b-91e5-7a4bd8b8474e
 caps.latest.revision: 79
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Prerequisites Dialog Box

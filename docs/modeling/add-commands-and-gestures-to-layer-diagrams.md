@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "dependency diagrams, adding custom commands"
   - "dependency diagrams, adding custom gestures"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -3,8 +3,8 @@ title: "How to: Edit XML Files"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 07fa3ecf-6345-4d30-9d85-d5ef5b083319
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

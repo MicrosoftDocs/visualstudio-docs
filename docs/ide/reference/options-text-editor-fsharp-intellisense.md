@@ -4,8 +4,8 @@ ms.date: 01/16/2019
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.FSharp.IntelliSense"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

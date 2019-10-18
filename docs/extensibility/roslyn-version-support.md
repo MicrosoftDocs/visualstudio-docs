@@ -4,8 +4,8 @@ ms.date: 04/29/2019
 ms.topic: reference
 helpviewer_keywords:
   - "roslyn package versions"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "vssdk"

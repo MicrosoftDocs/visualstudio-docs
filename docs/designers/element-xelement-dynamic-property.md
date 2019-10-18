@@ -6,8 +6,8 @@ apiname:
   - "XElement.Element"
 apitype: "Assembly"
 ms.assetid: c6c25b8d-a1da-41ff-aeff-867ff1dcf749
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

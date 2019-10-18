@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "text templates, output directive"
   - "text templates, directives"
   - "text templates, template directive"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

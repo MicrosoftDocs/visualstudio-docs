@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "bidirectional language support, encoded files"
   - "file encoding, bidirectional languages"
 ms.assetid: cb52b732-b395-4ba1-a3ef-104b3942a12a
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

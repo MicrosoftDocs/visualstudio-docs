@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "peek definition"
   - "go to line"
   - "go to"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

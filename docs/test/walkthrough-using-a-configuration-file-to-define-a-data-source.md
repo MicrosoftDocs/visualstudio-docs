@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "configuration files [Visual Studio ALM], defining data sources"
   - "unit tests, walkthrough"
   - "data sources, defining with configuration files"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

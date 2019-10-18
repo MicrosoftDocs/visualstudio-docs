@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "data [Visual Studio], LINQ to Entities"
   - "data [Visual Studio], querying an EDM"
 ms.assetid: 2cd873cf-b010-49f2-a278-bb1277aaa934
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

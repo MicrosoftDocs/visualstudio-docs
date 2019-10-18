@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IntelliSense [Visual Basic]"
   - "IntelliSense [Visual Studio], Visual Basic"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

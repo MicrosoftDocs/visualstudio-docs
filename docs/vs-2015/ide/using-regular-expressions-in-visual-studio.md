@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Visual Studio, regular expressions"
 ms.assetid: 718a617d-0e05-47e1-a218-9746971527f4
 caps.latest.revision: 56
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Use Regular Expressions in Visual Studio
