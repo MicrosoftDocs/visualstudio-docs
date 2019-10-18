@@ -39,7 +39,7 @@ This walkthrough explains how to create a tool window that responds to events in
     </Grid>
     ```
 
-2. Open the RDTExplorerWindow.cs file in code view. Add the following using statements to the start of the file.
+2. Open the RDTExplorerWindow.cs file in code view. Add the following using directives to the start of the file.
 
     ```csharp
     using Microsoft.VisualStudio;
