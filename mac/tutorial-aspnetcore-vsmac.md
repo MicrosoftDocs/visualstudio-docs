@@ -27,20 +27,36 @@ Follow this video to learn how to create your first ASP.NET Core Web Application
 
 ## Extending an existing ASP.NET Core web application
 
-In these tutorials you will be working with the [eShopOnWeb reference app](https://github.com/dotnet-architecture/eShopOnWeb).
+In these tutorials you will be working with the [eShopOnWeb reference app](https://github.com/dotnet-architecture/eShopOnWeb). Each step consists of a video and a tutorial doc.
 
 ### Step 1: Getting started with ASP.NET Core using eShopOnWeb
+
+This video will walk you through getting started with the eShopOnWeb application. 
+
+[Full doc](https://github.com/dotnet-architecture/eShopOnWeb/wiki/Getting-Started-for-Beginners-with-Visual-Studio-for-Mac)
 
 > [!VIDEO https://www.youtube.com/embed/-joD6W2aR3o]
 
 ### Step 2: Working with the eShopOnWeb solution
 
+You will learn how to work with the eShopOnWeb solution in Visual Studio for Mac.
+
+[Full doc](https://github.com/dotnet-architecture/eShopOnWeb/wiki/Getting-Started-for-Beginners-with-Visual-Studio-for-Mac)
+
 > [!VIDEO https://www.youtube.com/embed/PXTJCzCwvE4]
 
-### Step 3: Adding docker to eShopOnWeb and running it locally
+### Step 3: Adding Docker to eShopOnWeb and running it locally
+
+You will learn how to add Docker containers to the eShopOnWeb application as well as how to run and debug the dockerized application.
+
+[Full doc](https://github.com/dotnet-architecture/eShopOnWeb/wiki/03b.-Running-Locally-on-a-Linux-Container-from-Visual-Studio-for-Mac)
 
 > [!VIDEO https://www.youtube.com/embed/QqZr6cbKoIM]
 
 ### Step 4: Deploying eShopOnWeb to Azure App Services
+
+You will learn how to deploy the eShopOnWeb application to [Azure App Services](https://azure.microsoft.com/en-us/services/app-service/).
+
+[Full doc](https://github.com/dotnet-architecture/eShopOnWeb/wiki/01b.-Deploying-to-Azure-App-Service-from-Visual-Studio-for-Mac)
 
 > [!VIDEO https://www.youtube.com/embed/HfJPTzlLIWA]
