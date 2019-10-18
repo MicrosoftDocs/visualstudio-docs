@@ -6,6 +6,9 @@ ms.assetid: adbc5382-d170-441c-9fd0-80faa1816478
 author: madskristensen
 ms.author: madsk
 manager: jillfra
+dev_langs:
+ - CSharp
+ - VB
 ms.workload:
   - "vssdk"
 ---
