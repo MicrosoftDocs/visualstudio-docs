@@ -16,7 +16,7 @@ You can use the settings store to find all available services or to determine wh
 
 1. Create a VSIX project named `FindServicesExtension` and then add a custom command named `FindServicesCommand`. For more information about how to create a custom command, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md)
 
-2. In *FindServicesCommand.cs*, add the following using statements:
+2. In *FindServicesCommand.cs*, add the following using directives:
 
     ```vb
     using System.Collections.Generic;

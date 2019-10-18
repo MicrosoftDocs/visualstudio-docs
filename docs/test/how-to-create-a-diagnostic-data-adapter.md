@@ -62,7 +62,7 @@ For a complete example diagnostic data adapter project, including a custom confi
 
    3. Choose **OK**.
 
-4. Add the following `using` statements to your class file:
+4. Add the following `using` directives to your class file:
 
    ```csharp
    using Microsoft.VisualStudio.TestTools.Common;

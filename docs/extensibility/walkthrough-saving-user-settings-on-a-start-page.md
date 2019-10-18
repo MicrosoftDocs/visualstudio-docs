@@ -73,7 +73,7 @@ For more information about how to persist settings, see [Extending User Settings
 
      This step opens *MyControl.xaml.cs*, and creates a stub handler for the `Button_Click` event.
 
-2. Add the following `using` statements to the top of the file.
+2. Add the following `using` directives to the top of the file.
 
      [!code-csharp[StartPageDTE#11](../extensibility/codesnippet/CSharp/walkthrough-saving-user-settings-on-a-start-page_1.cs)]
 

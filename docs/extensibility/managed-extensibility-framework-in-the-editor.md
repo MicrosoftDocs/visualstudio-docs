@@ -78,7 +78,7 @@ internal IClassificationTypeRegistryService ClassificationRegistry;
 
 1. Add references to *System.Composition.ComponentModel.dll*, which is in the global assembly cache (GAC), and to the editor assemblies.
 
-2. Add the relevant using statements.
+2. Add the relevant using directives.
 
     ```
     using System.ComponentModel.Composition;

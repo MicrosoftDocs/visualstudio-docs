@@ -78,7 +78,7 @@ You can specify which controls you want to appear in the Web Part by adding them
 
      The Web Part code file opens in Code Editor.
 
-2. Add the following statements to the top of the Web Part code file.
+2. Add the following directives to the top of the Web Part code file.
 
      [!code-csharp[SP_WebPart#1](../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs#1)]
      [!code-vb[SP_WebPart#1](../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb#1)]

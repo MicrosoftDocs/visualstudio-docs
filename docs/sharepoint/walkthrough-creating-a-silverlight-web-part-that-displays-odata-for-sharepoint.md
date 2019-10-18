@@ -97,7 +97,7 @@ ms.workload:
     ```
 
     ```csharp
-    // Add the following three using statements.
+    // Add the following three using directives.
     using SLApplication.ServiceReference1;
     using System.Windows.Data;
     using System.Data.Services.Client;
