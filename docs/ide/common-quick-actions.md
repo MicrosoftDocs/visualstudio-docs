@@ -90,7 +90,7 @@ private void MyMethod()
 
 ### Remove unnecessary usings/Imports
 
-The **Remove Unnecessary Usings/Imports** Quick Action removes any unused `using` and `Import` statements for the current file. When you select this item, unused namespace imports are removed.
+The **Remove Unnecessary Usings/Imports** Quick Action removes any unused `using` and `Import` directives for the current file. When you select this item, unused namespace imports are removed.
 
 | Applicable Languages | Supported Version |
 | - | - |
@@ -178,7 +178,7 @@ Using types located in other projects in your solution will display the Quick Ac
 - Suggest usings/imports for types in reference assemblies
 - Suggest usings/imports for types in NuGet packages
 
-When enabled, if you use a type in a namespace that is currently not imported, but exists in a reference assembly or NuGet package, the using/import statement will be created.
+When enabled, if you use a type in a namespace that is currently not imported, but exists in a reference assembly or NuGet package, the using/import directive will be created.
 
 ```csharp
 // Before
@@ -198,7 +198,7 @@ Debug.WriteLine("Hello")
 
 ' Imports System.Diagnostics
 
-// After
+' After
 Imports System.Diagnostics
 
 Debug.WriteLine("Hello")
