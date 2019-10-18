@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "editors, line numbers"
   - "code, line number displaying"
 ms.assetid: 40b38559-b8de-4041-91f2-68986767c976
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

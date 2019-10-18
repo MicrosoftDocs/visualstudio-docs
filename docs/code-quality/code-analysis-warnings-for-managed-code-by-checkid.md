@@ -258,8 +258,8 @@ f1_keywords:
   - "CA2243"
   - "CA5122"
 ms.assetid: 5cb221f6-dc59-4abf-9bfa-adbd6f907f96
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

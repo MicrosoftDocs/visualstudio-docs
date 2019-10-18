@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "command aliases"
   - "alias command"
 ms.assetid: bdf857df-b5d5-450f-8c10-a6fd4dccc130
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

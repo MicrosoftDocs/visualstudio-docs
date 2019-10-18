@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "permissions"
 ms.assetid: 70485ed7-6342-41bf-8250-7a6826e21b98
 caps.latest.revision: 17
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # User Permissions and Visual Studio

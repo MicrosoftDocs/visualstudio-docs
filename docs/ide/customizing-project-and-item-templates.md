@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "customizing templates [Visual Studio]"
   - "Visual Studio templates, customizing"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Customize project and item templates

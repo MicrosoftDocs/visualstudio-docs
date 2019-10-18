@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "LookupBindingPropertiesAttribute class, examples"
   - "user controls [Visual Basic], creating"
 ms.assetid: c48b4d75-ccfc-4950-8b14-ff8adbfe4208
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

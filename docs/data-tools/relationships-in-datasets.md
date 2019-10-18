@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "datasets [Visual Basic], relationships"
   - "relationships, datasets"
 ms.assetid: cfe274f0-71fe-40f6-994e-7c7f6273c9ba
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

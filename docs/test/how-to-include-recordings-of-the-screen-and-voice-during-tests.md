@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
  - "test settings, recording desktop video"
 ms.assetid: 2cefe8c2-430a-4cb4-bbe0-f3edb2e5bc03
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Include recordings of the screen and voice during tests using test settings

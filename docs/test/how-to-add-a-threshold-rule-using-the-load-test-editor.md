@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "load tests, analyzing"
   - "thresholds in load tests"
 ms.assetid: 3d8fac8f-426f-4155-9ced-f7cd4c79792c
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Add a threshold rule using the load test editor

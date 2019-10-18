@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "/ResetSettings Devenv switch"
   - "settings [Visual Studio], resetting"
 ms.assetid: 1d41021c-6f58-4bd5-b122-d1c995812192
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

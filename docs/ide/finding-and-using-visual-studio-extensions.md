@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "install packages"
   - "managing extensions visual studio"
 ms.assetid: 4ca92d93-31b9-47ef-8109-4a429d9e2ca3
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

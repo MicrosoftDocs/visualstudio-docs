@@ -7,8 +7,8 @@ f1_keywords:
 dev_langs:
  - CSharp
  - VB
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Walkthrough: Bind to data in XAML Designer

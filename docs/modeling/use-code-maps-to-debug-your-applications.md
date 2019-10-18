@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "mapping code relationships"
   - "code maps"
   - "mapping relationships in code"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

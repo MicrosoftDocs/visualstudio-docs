@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "load tests, properties"
   - "load tests, run settings"
 ms.assetid: 45a625db-b3e7-4d64-beda-b9a76248096d
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Specify the number of test iterations in a load test run setting

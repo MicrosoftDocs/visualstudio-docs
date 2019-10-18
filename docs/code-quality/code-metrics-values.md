@@ -4,8 +4,8 @@ ms.date: 11/02/2018
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "code metrics [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

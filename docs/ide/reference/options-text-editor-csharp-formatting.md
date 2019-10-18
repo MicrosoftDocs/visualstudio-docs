@@ -13,8 +13,8 @@ f1_keywords:
 helpviewer_keywords:
   - "formatting options [C#]"
   - "Text editor Options dialog box, formatting"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Find command"
   - "Edit.Find command"
 ms.assetid: f0c705dc-2b97-423d-abbf-5584d4827208
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

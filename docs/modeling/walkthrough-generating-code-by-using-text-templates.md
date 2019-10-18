@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "walkthroughs [text templates], generating application code"
   - "walkthroughs [text templates]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

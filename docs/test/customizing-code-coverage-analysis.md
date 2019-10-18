@@ -2,11 +2,11 @@
 title: "Customizing Code Coverage Analysis"
 ms.date: 08/21/2019
 ms.topic: conceptual
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Customize code coverage analysis
 

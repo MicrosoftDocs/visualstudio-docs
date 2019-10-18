@@ -4,8 +4,8 @@ ms.date: 08/03/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "fxcop analyzers"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"
@@ -31,9 +31,9 @@ In Visual Studio 2019 version 16.3 and later, you can install the [Microsoft.Cod
    Visual Studio installs the latest version of the Microsoft.CodeAnalyzers.FxCopAnalyzers package. The assemblies appear in **Solution Explorer** under **References** > **Analyzers**.
 
    ![Analyzers node in Solution Explorer](media/solution-explorer-analyzers-node.png)
-   
+
 If you're using an older version of Visual Studio 2019, install the package using either the [Package Manager Console](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console) or the [Package Manager UI](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console).
-   
+
 ::: moniker-end
 
 ::: moniker range="vs-2017"
@@ -48,7 +48,7 @@ If you're using an older version of Visual Studio 2019, install the package usin
    > ![NuGet.org page showing Package Manager Console command](media/nuget-package-manager-command.png)
 
    The analyzer assemblies are installed, and they appear in **Solution Explorer** under **References** > **Analyzers**.
-   
+
 ::: moniker-end
 
 ### Custom installation

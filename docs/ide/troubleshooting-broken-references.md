@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "troubleshooting references"
   - "referencing files from projects"
   - "referencing components, troubleshooting"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -2,8 +2,8 @@
 title: "Walkthrough: Using XSLT Hierarchy"
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Walkthrough: Use XSLT hierarchy

@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Immediate window"
   - "first-chance exception notifications"
 ms.assetid: d33e7937-73f3-4c69-9df0-777a8713c6f2
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

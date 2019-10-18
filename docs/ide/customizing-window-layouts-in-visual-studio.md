@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "debug mode"
   - "custom layouts"
 ms.assetid: 7517ff13-76de-4ecf-9c1b-eb9b7ff4d718
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

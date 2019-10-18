@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "UML model, extending"
 ms.assetid: c5937139-49d0-4439-8a9f-89f5e0474618
 caps.latest.revision: 21
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Programming with the UML API

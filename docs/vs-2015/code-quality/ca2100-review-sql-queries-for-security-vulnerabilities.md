@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "ReviewSqlQueriesForSecurityVulnerabilities"
 ms.assetid: 79670604-c02a-448d-9c0e-7ea0120bc5fe
 caps.latest.revision: 26
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2100: Review SQL queries for security vulnerabilities

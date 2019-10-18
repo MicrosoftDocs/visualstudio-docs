@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "security [.NET Framework], about security"
 ms.assetid: 318c34ce-f643-468c-83a1-843196f5d845
 caps.latest.revision: 24
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Security in Visual Studio

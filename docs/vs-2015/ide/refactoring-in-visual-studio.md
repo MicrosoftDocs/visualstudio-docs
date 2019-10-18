@@ -6,8 +6,8 @@ ms.technology: "vs-ide-general"
 ms.topic: conceptual
 ms.assetid: f0181ee8-9b46-45f7-b86e-316e3de024b9
 caps.latest.revision: 7
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Refactoring in Visual Studio

@@ -6,8 +6,8 @@ f1_keywords:
   - "vs.newproject"
 helpviewer_keywords:
   - "projects [Visual Studio], creating"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

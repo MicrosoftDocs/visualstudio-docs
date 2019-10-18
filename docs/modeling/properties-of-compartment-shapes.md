@@ -6,8 +6,8 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.compartmentshape"
 helpviewer_keywords:
   - "Domain-Specific Language, compartment shape"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

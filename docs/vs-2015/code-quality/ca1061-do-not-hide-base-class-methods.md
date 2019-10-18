@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1061"
 ms.assetid: 0bda9dc8-87b4-4038-ab9d-563298387466
 caps.latest.revision: 11
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1061: Do not hide base class methods

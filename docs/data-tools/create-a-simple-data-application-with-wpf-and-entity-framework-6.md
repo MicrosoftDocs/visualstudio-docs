@@ -4,8 +4,8 @@ ms.date: 08/22/2017
 ms.topic: conceptual
 dev_langs:
   - "CSharp"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

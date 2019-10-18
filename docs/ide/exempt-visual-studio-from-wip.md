@@ -2,8 +2,8 @@
 title: Exempt from Windows Information Protection
 ms.date: 06/01/2018
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

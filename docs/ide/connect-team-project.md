@@ -2,8 +2,8 @@
 title: Connect to projects in Team Explorer
 ms.date: 12/04/2018
 ms.topic: conceptual
-ms.author: gewarren
-author: gewarren
+ms.author: jillfra
+author: jillre
 ms.manager: jillfra
 ---
 # Connect to projects in Team Explorer

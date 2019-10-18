@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "dependency graphs, customizing"
   - "graph documents, grouping nodes"
   - "dependency graphs, assigning categories and properties"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

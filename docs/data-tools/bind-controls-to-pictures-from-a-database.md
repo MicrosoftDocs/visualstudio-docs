@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "PictureBox control [Windows Forms], data binding"
   - "images [Visual Basic], dragging from Data Sources window"
 ms.assetid: 9748815e-3556-49e8-86b1-c6aa593c6163
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

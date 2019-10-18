@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "multitargeting [Visual Studio]"
 ms.assetid: b1702c33-0672-4ebc-b779-2b324d6ea880
 caps.latest.revision: 39
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Visual Studio Multi-Targeting Overview

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "custom shortcut keys [Visual Studio]"
   - "customizing keyboard shortcuts [Visual Studio]"
   - "exporting shortcut keys [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

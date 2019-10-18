@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, external types"
   - "Domain-Specific Language, relationships"
   - "Domain-Specific Language, domain properties"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -2,9 +2,9 @@
 title: "Using shims to isolate your application for unit testing"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
-author: gewarren
+author: jillre
 dev_langs:
  - CSharp
  - VB

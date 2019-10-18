@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "captions, data-bound"
   - "Data Sources Window, label captions"
 ms.assetid: 6d4d15f8-4d78-42fd-af64-779ae98d62c8
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

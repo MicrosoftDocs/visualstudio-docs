@@ -7,8 +7,8 @@ dev_langs:
   - "VB"
 helpviewer_keywords:
   - "language code style rules [EditorConfig]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

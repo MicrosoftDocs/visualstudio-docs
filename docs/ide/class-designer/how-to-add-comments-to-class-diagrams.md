@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "class diagrams, adding comment shapes"
   - "comment shapes"
 ms.assetid: d54005d5-a29d-4c4e-b153-feb6e84dd44f
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

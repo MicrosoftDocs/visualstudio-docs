@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "builds [Visual Studio], errors"
   - "output files, build errors"
 ms.assetid: 9002d8c2-36d4-451c-b489-8f01932f31f7
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
