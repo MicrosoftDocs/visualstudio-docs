@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Class Designer [Visual Studio], refactoring classes"
   - "refactoring, classes"
 ms.assetid: dcf07bb4-fa3b-4224-9dec-566fd924a8ce
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

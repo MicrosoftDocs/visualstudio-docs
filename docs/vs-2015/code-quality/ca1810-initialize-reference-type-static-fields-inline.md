@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1810"
 ms.assetid: e9693118-a914-4efb-9550-ec659d8d97d2
 caps.latest.revision: 23
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1810: Initialize reference type static fields inline

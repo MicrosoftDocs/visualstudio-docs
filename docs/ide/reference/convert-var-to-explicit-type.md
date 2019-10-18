@@ -2,8 +2,8 @@
 title: Refactor code to replace var with an explicit type
 ms.date: 05/15/2018
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 dev_langs:
   - CSharp

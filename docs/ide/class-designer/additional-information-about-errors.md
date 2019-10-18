@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "Class Designer [Visual Studio], errors"
   - "class diagrams, errors"
 ms.assetid: 79d70e70-704c-4255-ab68-c10d6949470e
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

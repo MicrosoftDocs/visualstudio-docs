@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "vstest.console.exe"
   - "command-line tests"
-ms.author: gewarren
-author: gewarren
+ms.author: jillfra
+author: jillre
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -4,11 +4,11 @@ ms.date: 10/04/2015
 ms.topic: reference
 helpviewer_keywords:
   - "coded UI tests"
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Supported configurations and platforms for coded UI tests and action recordings
 

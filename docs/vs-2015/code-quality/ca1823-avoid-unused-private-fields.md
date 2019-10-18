@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1823"
 ms.assetid: 614f94f6-0dc7-430f-8124-cb889a4a720f
 caps.latest.revision: 13
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1823: Avoid unused private fields

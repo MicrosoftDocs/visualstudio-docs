@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "code, editing [Visual Studio]"
   - "code editor [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

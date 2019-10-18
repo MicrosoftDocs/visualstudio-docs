@@ -4,8 +4,8 @@ ms.date: 08/09/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "Windows Forms Designer"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Windows Forms Designer overview

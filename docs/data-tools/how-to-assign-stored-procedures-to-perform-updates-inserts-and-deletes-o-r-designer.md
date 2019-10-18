@@ -3,8 +3,8 @@ title: "Use stored procedures in LINQ to SQL to update data (O/R Designer)"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: e88224ab-ff61-4a3a-b6b8-6f3694546cac
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

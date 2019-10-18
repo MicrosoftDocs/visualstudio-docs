@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "deploying applications [Visual Studio], after build"
   - "/Deploy Devenv switch"
 ms.assetid: e47c8723-df08-4645-aa2d-0c956e7ccca2
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

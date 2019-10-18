@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "what's new [Visual Studio]"
 ms.assetid: 7307e180-ba28-4774-8a43-cbb980085a71
 caps.latest.revision: 364
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # What&#39;s New in Visual Studio 2015

@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "Code Editor, displaying URLs"
   - "editors, displaying URLs"
 ms.assetid: 7c673953-476e-4897-9c2d-1fc15556c172
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

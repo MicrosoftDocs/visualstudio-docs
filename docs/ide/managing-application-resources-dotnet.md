@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "resources [Visual Studio]"
   - "Resources page in Project Designer"
   - "application resources [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

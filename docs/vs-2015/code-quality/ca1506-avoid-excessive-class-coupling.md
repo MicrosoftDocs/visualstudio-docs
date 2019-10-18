@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1506"
 ms.assetid: 9f0943c0-e802-4e3f-8798-2ab8653ddc80
 caps.latest.revision: 14
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1506: Avoid excessive class coupling

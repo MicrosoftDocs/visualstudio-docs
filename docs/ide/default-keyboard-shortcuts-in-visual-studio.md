@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Help [Visual Studio], shortcut keys"
   - "keyboard shortcuts [Visual Studio], keyboard binding schemes"
   - "keyboard shortcuts"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "load tests, run settings, context parameters"
   - "load tests, context parameters"
 ms.assetid: a8a0b97e-8040-4711-85ab-36548b130ed2
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Add context parameters to a load test run setting

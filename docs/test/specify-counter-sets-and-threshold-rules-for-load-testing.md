@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "load tests, counter sets"
   - "load tests, threshold rules"
 ms.assetid: 9e14d955-f3a4-4717-bbfe-7f08cdda5678
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Specify counter sets and threshold rules for computers in a load test

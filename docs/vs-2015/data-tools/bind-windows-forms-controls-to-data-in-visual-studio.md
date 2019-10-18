@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "data [Windows Forms], displaying"
 ms.assetid: 243338ef-41af-4cc5-aff7-1e830236f0ec
 caps.latest.revision: 40
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Bind Windows Forms controls to data in Visual Studio

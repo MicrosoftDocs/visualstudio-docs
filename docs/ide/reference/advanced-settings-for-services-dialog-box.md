@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "Advanced Settings for Services dialog box"
 ms.assetid: 6dde4a2d-85e1-4275-aa55-24b84111be91
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -5,11 +5,11 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "testing tools [Visual Studio]"
   - "unit tests [Visual Studio]"
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Testing tools in Visual Studio
 

@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "service references [Visual Studio], configuring behavior"
   - "Configure Service Reference dialog box"
 ms.assetid: 25e4c36b-2db6-4e71-9010-b7068255d09d
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

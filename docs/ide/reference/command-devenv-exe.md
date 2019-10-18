@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "/Command Devenv switch"
   - "Command Devenv switch"
 ms.assetid: 13c20cd6-f09d-400a-8b7b-ecc266a32cef
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

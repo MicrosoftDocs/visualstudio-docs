@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "managed code analysis warnings, maintainability warnings"
   - "maintainability warnings"
 ms.assetid: 537e70ca-a88c-49df-bfc7-0ee63bbe4f16
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

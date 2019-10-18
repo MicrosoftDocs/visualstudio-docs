@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "performance, warnings"
   - "managed code analysis warnings, performance warnings"
 ms.assetid: e014ac3a-02e6-46d9-942c-3491dd63782f
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

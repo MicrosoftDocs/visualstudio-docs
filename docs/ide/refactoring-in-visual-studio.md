@@ -5,8 +5,8 @@ ms.date: 01/10/2018
 ms.topic: conceptual
 helpviewer_keywords:
  - refactoring [Visual Studio]
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

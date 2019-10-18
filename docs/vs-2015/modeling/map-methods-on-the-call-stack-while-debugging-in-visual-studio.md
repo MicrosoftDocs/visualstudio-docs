@@ -28,7 +28,7 @@ helpviewer_keywords:
 ms.assetid: d6a72e5e-f88d-46fc-94a3-1789d34805ef
 caps.latest.revision: 43
 author: MikeJo5000
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ---
 # Map methods on the call stack while debugging in Visual Studio

@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, programming domain models"
 ms.assetid: 1427ae91-be8a-4ce7-85df-00038faa2cbb
 caps.latest.revision: 28
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Navigating and Updating a Model in Program Code

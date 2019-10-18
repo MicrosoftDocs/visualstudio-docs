@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA2237"
 ms.assetid: 9bd6bb24-a527-43dd-9952-043c0c694f46
 caps.latest.revision: 15
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2237: Mark ISerializable types with SerializableAttribute

@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "troubleshooting IntelliSense Code Snippets"
   - "troubleshooting Visual Basic, IntelliSense Code Snippets"
 ms.assetid: 7b6dd40e-2f78-4b50-8e68-41fac1bcb81e
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

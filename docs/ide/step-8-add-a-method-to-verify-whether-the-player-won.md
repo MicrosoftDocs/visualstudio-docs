@@ -34,13 +34,13 @@ You've created a fun game, but it needs an additional item to finish it. The gam
      [!code-csharp[VbExpressTutorial4Step8#11](../ide/codesnippet/CSharp/step-8-add-a-method-to-verify-whether-the-player-won_2.cs)]
      [!code-vb[VbExpressTutorial4Step8#11](../ide/codesnippet/VisualBasic/step-8-add-a-method-to-verify-whether-the-player-won_2.vb)]
 
-3. Save and run the program. Play the game and match all of the icons. When you win, the program displays a congratulatory **MessageBox** (as shown in the following picture), and then closes the box.
+3. Save and run the program. Play the game and match all of the icons. When you win, the program displays a congratulatory **MessageBox** (as shown in the following screenshot), and then closes the box.
 
      ![Matching game with MessageBox](../ide/media/express_tut4step8.png)<br/>
-**Matching game** with **MessageBox**
+***Matching game*** *with* ***MessageBox***
 
 ## To continue or review
 
-- To go to the next tutorial step, see [Step 9: Try other features](../ide/step-9-try-other-features.md).
+- To go to the next tutorial step, see **[Step 9: Try other features](../ide/step-9-try-other-features.md)**.
 
 - To return to the previous tutorial step, see [Step 7: Keep pairs visible](../ide/step-7-keep-pairs-visible.md).

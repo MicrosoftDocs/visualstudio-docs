@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "custom dictionary, code analysis"
   - "dictionary, code analysis"
 ms.assetid: 667e3b4e-beff-48be-b3d1-376e1716a895
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -6,8 +6,8 @@ ms.technology: "vs-ide-general"
 ms.topic: troubleshooting
 ms.assetid: c2d24ae1-9902-460e-b72a-0299eed9ee82
 caps.latest.revision: 9
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Proxy Authorization Required

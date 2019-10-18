@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "AvoidUnsealedAttributes"
 ms.assetid: f5e31b4c-9f8b-49e1-a2a8-bb5f1140729a
 caps.latest.revision: 15
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1813: Avoid unsealed attributes

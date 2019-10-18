@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "Class Designer, partial classes"
   - "partial classes, Class Designer"
 ms.assetid: 6f6b0b30-3996-4569-9200-20482b3adf90
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 dev_langs:
  - CSharp

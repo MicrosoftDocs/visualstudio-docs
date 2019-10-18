@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "policy errors, code analysis"
 ms.assetid: d1f221cd-68c0-4277-9397-b76ad0dbae77
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

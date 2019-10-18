@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Watch command"
   - "Debug.Watch command"
 ms.assetid: aa02e647-d9f5-4905-a651-52a8df595795
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

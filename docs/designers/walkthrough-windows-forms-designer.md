@@ -4,8 +4,8 @@ ms.date: 08/09/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "Windows Forms Designer, get started"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Walkthrough: Get started with Windows Forms Designer

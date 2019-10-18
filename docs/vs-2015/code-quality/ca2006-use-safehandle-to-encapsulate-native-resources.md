@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA2006"
 ms.assetid: a71950bd-bcc1-463d-b1f2-5233bc451456
 caps.latest.revision: 19
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2006: Use SafeHandle to encapsulate native resources

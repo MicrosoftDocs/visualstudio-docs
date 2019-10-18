@@ -9,7 +9,7 @@ f1_keywords:
 ms.assetid: c5355e43-a37c-4686-a969-18e3dfc59a9c
 caps.latest.revision: 15
 author: "alexhomer1"
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ---
 # Analyze C++ code quality of Store apps using Visual Studio static code analysis

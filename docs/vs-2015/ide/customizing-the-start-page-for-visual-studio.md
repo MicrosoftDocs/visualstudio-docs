@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Visual Studio Start page"
 ms.assetid: 925d42eb-ec34-426e-ad81-19db8630e536
 caps.latest.revision: 48
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Customizing the Start Page for Visual Studio

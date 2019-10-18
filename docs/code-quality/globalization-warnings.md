@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "globalization [Visual Studio], warnings"
   - "managed code analysis warnings, globalization warnings"
 ms.assetid: a8d12d41-14bf-4b43-af24-168312d7c390
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

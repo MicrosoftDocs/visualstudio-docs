@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Output window"
   - "Toolbox, removing controls"
 ms.assetid: d8931d88-250e-4db4-963f-2c5b3e99b45f
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "sorting datasets, using data views"
   - "dataset filtering, using data views"
 ms.assetid: f4f100f1-776d-46dc-b2fd-5b35b98d9561
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

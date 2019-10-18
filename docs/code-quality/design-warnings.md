@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "managed code analysis warnings, design warnings"
   - "warnings, design"
 ms.assetid: 34e65a18-560c-423f-814f-519089e318cf
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

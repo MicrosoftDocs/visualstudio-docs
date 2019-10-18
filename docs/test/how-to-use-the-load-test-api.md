@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "plug-ins, load test"
   - "APIs, load tests"
 ms.assetid: e15567bc-1f21-4feb-b81d-f17ba35cfde5
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Use the load test API

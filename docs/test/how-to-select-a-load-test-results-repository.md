@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "Load Test Results Repository"
   - "SQL, Load Test Results Store"
 ms.assetid: fa0c4dd9-612f-4a57-b8eb-458f129d9cda
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Select a load test results repository

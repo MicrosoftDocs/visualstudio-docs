@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "find text"
   - "replace text"
   - "multi-caret selection"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

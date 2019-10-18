@@ -4,11 +4,11 @@ ms.date: 05/02/2017
 ms.topic: conceptual
 helpviewer_keywords:
   - "IntelliTest, Visual Studio IntelliTest developer testing tool"
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Overview of Microsoft IntelliTest
 

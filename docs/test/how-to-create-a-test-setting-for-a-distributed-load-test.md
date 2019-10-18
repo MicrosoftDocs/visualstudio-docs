@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "test settings, for distributed load tests"
 ms.assetid: b63d4b71-3b74-4872-b2d1-f0bd1a9a8544
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Create a test settings file for a distributed load test

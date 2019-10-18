@@ -2,11 +2,11 @@
 title: "Troubleshooting Code Coverage"
 ms.date: 11/04/2016
 ms.topic: troubleshooting
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Troubleshoot code coverage
 

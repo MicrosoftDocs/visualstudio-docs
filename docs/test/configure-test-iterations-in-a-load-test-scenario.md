@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "load test, iterations"
   - "load tests, scenarios"
 ms.assetid: ac480fb7-f4f7-47dc-9ae5-98be3aca4fba
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Configure test iterations in a load test scenario

@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "code snippets [C#]"
   - "Code Snippet Inserter [C#]"
   - "C#, code snippets"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

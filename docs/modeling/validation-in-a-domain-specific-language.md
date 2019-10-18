@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language, constraints"
   - "Domain-Specific Language, validation"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

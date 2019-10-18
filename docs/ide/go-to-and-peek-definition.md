@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "peek definition"
   - "type definition [Visual Studio]"
   - "member definition [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

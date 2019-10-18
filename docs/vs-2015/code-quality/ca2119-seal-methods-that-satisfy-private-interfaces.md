@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "SealMethodsThatSatisfyPrivateInterfaces"
 ms.assetid: 483d02e1-cfaf-4754-a98f-4116df0f3509
 caps.latest.revision: 20
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2119: Seal methods that satisfy private interfaces

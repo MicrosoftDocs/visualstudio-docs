@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "MSBuild, tasks"
   - "MSBuild, dependency diagrams"
   - "MSBuild, validating code"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

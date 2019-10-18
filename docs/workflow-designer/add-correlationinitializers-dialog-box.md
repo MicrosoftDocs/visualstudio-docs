@@ -5,8 +5,8 @@ ms.topic: reference
 f1_keywords:
   - "AddCorrelationInitializers.UI"
 ms.assetid: c0517467-d54a-4ee6-aef0-c19b96b6f395
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

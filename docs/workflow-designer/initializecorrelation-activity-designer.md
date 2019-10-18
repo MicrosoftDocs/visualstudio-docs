@@ -5,8 +5,8 @@ ms.topic: reference
 f1_keywords:
   - "System.ServiceModel.Activities.InitializeCorrelation.UI"
 ms.assetid: 4c54f34c-ee84-42a6-abb0-ec260c1ccb76
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

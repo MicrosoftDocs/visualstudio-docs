@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "/Rebuild Devenv switch"
   - "applications [Visual Studio], rebuilding"
 ms.assetid: c5a8a4bf-0e2b-46eb-a44a-8aeb29b92c32
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

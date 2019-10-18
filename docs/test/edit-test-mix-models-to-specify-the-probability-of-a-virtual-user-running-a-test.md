@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "load tests, scenarios"
   - "load tests, virtual users"
 ms.assetid: e3b7d952-9012-400a-8131-3444390a6066
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Edit test mix models to specify the probability of a virtual user running a test

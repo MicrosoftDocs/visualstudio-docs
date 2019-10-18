@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "naming warnings"
   - "warnings, naming"
 ms.assetid: f97223ce-1d39-4134-81c9-fff2c75d979b
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

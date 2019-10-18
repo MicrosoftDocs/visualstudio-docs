@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Project Designer, My Extensions page"
   - "My Extensions page in Project Designer"
 ms.assetid: 2f08494e-84c1-444b-872b-900fbbcf0364
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

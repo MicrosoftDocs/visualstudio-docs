@@ -7,8 +7,8 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.imageshape"
 helpviewer_keywords:
   - "Domain-Specific Language, image shape"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

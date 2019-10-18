@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "code analysis, managed code"
   - "analyzers"
   - "Roslyn analyzers"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

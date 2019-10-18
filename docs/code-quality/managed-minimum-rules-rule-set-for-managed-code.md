@@ -3,8 +3,8 @@ title: Managed Minimum Rules rule set for managed code
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 44a50c54-8dd3-42b2-8387-532a150e5a6c
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

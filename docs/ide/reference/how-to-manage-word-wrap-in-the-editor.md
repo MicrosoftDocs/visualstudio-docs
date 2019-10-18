@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "editors, text viewing"
   - "Code Editor, word wrap"
 ms.assetid: 442f33ef-9f52-4515-b55f-fb816d664645
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

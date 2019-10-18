@@ -30,8 +30,8 @@ helpviewer_keywords:
   - "XMLDataDocument class"
 ms.assetid: 1fd5de47-2d61-4180-9539-c2c4bf9ab768
 caps.latest.revision: 29
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # XML Tools in Visual Studio

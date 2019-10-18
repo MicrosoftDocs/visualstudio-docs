@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "Class Designer [Visual Studio], structures"
 ms.assetid: bad18ab6-d956-47a6-a413-811cc26db5f5
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "cplusplus"

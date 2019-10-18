@@ -8,8 +8,8 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.selectcursordialog"
 helpviewer_keywords:
   - "Domain-Specific Language, toolbox"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

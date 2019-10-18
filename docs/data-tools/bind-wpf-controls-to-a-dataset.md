@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "WPF data binding [Visual Studio], walkthroughs"
   - "WPF Designer, data binding"
 ms.assetid: 177420b9-568b-4dad-9d16-1b0e98a24d71
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

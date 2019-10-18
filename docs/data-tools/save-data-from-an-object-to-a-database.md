@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "data access [Visual Studio], objects"
   - "saving data"
 ms.assetid: efd6135a-40cf-4b0d-8f8b-41a5aaea7057
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

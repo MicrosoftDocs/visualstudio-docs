@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "Debug.ToggleBreakPoint command"
   - "Toggle Breakpoint command"
 ms.assetid: d50dfadb-ce79-4d5e-9c09-1cfddd57876d
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

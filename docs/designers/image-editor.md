@@ -5,8 +5,8 @@ ms.topic: conceptual
 f1_keywords:
   - "vs.graphics.designer.imageeditor"
   - "vs.graphics.imageeditor"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
