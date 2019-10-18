@@ -178,7 +178,7 @@ Using types located in other projects in your solution will display the Quick Ac
 - Suggest usings/imports for types in reference assemblies
 - Suggest usings/imports for types in NuGet packages
 
-When enabled, if you use a type in a namespace that is currently not imported, but exists in a reference assembly or NuGet package, the using/import directive will be created.
+When enabled, if you use a type in a namespace that is currently not imported but exists in a reference assembly or NuGet package, the using or import directive is created.
 
 ```csharp
 // Before
