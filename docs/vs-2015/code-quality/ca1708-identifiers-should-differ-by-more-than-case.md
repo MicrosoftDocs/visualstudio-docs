@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "IdentifiersShouldDifferByMoreThanCase"
 ms.assetid: dac0f01d-dd21-484d-add1-c8cd2bf6969f
 caps.latest.revision: 23
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1708: Identifiers should differ by more than case

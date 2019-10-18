@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "TextMate language grammar"
   - "language support"
 ms.assetid: d78c43ee-4ef2-42e5-984e-d137de4e7e92
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "icons, IntelliSense"
   - "symbols, Object Browser icons"
   - "Object Browser, icons in Class View"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

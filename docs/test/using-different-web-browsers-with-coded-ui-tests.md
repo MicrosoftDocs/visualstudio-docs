@@ -2,11 +2,11 @@
 title: "Using Different Web Browsers with Coded UI Tests"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Use different web browsers with coded UI tests
 

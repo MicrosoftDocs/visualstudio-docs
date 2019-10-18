@@ -5,8 +5,8 @@ ms.date: 07/11/2018
 ms.topic: reference
 helpviewer_keywords:
   - "F# features [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

@@ -2,11 +2,11 @@
 title: "Create a Coded UI Test"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Walkthrough: Create, edit, and maintain a coded UI test
 

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Visual Studio ALM, graph documents"
   - "Visual Studio Ultimate, graph documents"
   - "dependency graphs, browsing"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -6,8 +6,8 @@ f1_keywords:
   - "TypeBrowser.UI"
   - "ActivityTypeResolver.UI"
 ms.assetid: 864b60b6-a070-4e5c-aa5b-a25341b57ea6
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "agents, firewalls"
   - "controllers, firewalls"
 ms.assetid: 211edbd7-9fe4-4251-ba85-8bec4363261b
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Configure ports for test controllers and test agents

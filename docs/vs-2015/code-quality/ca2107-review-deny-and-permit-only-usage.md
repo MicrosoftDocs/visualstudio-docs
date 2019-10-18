@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA2107"
 ms.assetid: 366f4a56-ae93-4882-81d0-bd0a55ebbc26
 caps.latest.revision: 21
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2107: Review deny and permit only usage

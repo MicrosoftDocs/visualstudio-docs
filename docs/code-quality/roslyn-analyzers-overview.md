@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "analyzers"
   - "Roslyn analyzers"
   - "code analyzers"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

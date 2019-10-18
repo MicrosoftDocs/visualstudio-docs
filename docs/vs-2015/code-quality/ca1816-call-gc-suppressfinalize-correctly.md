@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1816"
 ms.assetid: 47915fbb-103f-4333-b157-1da16bf49660
 caps.latest.revision: 21
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1816: Call GC.SuppressFinalize correctly

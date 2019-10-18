@@ -4,8 +4,8 @@ ms.date: 01/02/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "item templates [Visual Studio], creating"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Create item templates

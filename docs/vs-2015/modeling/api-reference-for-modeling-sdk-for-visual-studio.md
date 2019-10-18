@@ -6,8 +6,8 @@ ms.technology: vs-ide-modeling
 ms.topic: reference
 ms.assetid: 590c9a69-4e22-4841-bb23-f32e80ec1e76
 caps.latest.revision: 10
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # API Reference for Modeling SDK for Visual Studio

@@ -27,8 +27,8 @@ helpviewer_keywords:
   - "XSL, style sheets"
   - "XMLDataDocument class"
 ms.assetid: 1fd5de47-2d61-4180-9539-c2c4bf9ab768
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

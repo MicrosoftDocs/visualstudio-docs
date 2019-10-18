@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "text templates, getting started"
   - "Text Template project item"
   - "text templates, generating code for your application"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

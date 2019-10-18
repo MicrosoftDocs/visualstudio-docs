@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "References page in Project Designer"
   - "Project Designer, References page"
 ms.assetid: 5a47c595-e084-401c-86e1-74e0bf74fd86
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

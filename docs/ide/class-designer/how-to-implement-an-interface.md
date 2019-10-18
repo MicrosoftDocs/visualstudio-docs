@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "interfaces [Visual Studio], implementing"
   - "interfaces [Visual Studio]"
 ms.assetid: 81d2cf46-7f60-448c-83e3-1d16bb88ca36
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

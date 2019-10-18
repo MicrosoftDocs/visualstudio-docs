@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "mobility warnings"
   - "warnings, mobility"
 ms.assetid: 9808054c-593b-4fc3-92cc-1fc45f41569c
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

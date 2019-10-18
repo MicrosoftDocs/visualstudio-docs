@@ -8,8 +8,8 @@ dev_langs:
   - "CSharp"
   - "VB"
   - "CPP"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Use code coverage to determine how much code is being tested

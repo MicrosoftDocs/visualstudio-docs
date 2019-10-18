@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "collections, collection associations"
   - "Class Designer [Visual Studio], collection associations"
 ms.assetid: 54e39838-2fc9-4dc2-85b6-7e88a743108e
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

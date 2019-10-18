@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "data tier"
   - "n-tier applications, about n-tier applications"
 ms.assetid: 1020581d-eaaa-41a2-aca4-bf4c212895f6
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

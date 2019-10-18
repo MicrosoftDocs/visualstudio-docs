@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "Error List window"
   - "errors [Visual Studio], Error List window"
 ms.assetid: b7f6d45a-733b-4ad8-bc2f-737a37509e56
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

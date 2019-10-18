@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "templates [Visual Studio], item"
   - "item templates [Visual Studio]"
   - "project templates [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Project and item templates

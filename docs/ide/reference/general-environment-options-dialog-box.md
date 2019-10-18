@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Options dialog box, General Environment"
   - "General Environment Options dialog box"
   - "Environment Options dialog box"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

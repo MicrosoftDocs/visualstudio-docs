@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "Visual Studio templates, creating multi-file item templates"
   - "multi-file item templates"
   - "item templates, creating multi-file item templates"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Create multi-file item templates

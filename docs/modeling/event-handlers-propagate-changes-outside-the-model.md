@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language, programming domain models"
   - "Domain-Specific Language, events"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

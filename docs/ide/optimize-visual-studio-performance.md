@@ -5,8 +5,8 @@ ms.date: 04/11/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "performance [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 f1_keywords:
   - "vs.performancecenter"

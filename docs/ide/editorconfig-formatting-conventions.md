@@ -7,8 +7,8 @@ dev_langs:
   - "VB"
 helpviewer_keywords:
   - "formatting conventions [EditorConfig]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

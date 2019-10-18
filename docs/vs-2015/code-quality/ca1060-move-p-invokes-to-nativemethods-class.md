@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1060"
 ms.assetid: 06686c8c-6ad3-42f7-a355-cbaefa347cfc
 caps.latest.revision: 23
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1060: Move P/Invokes to NativeMethods class

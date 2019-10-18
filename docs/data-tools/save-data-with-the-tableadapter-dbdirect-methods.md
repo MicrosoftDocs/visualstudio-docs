@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "saving data, walkthroughs"
   - "data [Visual Studio], TableAdapter"
 ms.assetid: 74a6773b-37e1-4d96-a39c-63ee0abf49b1
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

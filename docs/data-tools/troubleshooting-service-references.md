@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "service references [Visual Studio], troubleshooting"
   - "WCF services, troubleshooting"
 ms.assetid: 3b531120-1325-4734-90c6-6e6113bd12ac
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

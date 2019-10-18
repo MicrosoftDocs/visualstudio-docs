@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1809"
 ms.assetid: 5c81ea43-cb49-448f-980f-a1dd9764043c
 caps.latest.revision: 21
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1809: Avoid excessive locals

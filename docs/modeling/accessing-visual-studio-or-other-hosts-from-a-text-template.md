@@ -3,8 +3,8 @@ title: Accessing Visual Studio or other Hosts from a Text Template
 titleSuffix: ""
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

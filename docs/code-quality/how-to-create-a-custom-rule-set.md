@@ -6,8 +6,8 @@ f1_keywords:
   - "vs.codeanalysis.addremoverulesets"
 helpviewer_keywords:
   - "rule sets"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

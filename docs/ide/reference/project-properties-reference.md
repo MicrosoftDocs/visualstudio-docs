@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "user interface [Visual Studio], projects"
   - "projects [Visual Studio], user interface"
 ms.assetid: eec49aec-5474-48a7-889d-709045b9a475
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

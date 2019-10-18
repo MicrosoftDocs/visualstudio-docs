@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Edit.FindInFiles command"
   - "find in files command"
 ms.assetid: 2fc78bfe-b339-4599-97f9-4cafd8a194d9
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

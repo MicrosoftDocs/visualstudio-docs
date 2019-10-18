@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "documents, searching"
   - "files, searching"
   - "Find in Files tab, Find and Replace window"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

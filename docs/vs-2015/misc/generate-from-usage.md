@@ -4,9 +4,9 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.technology: "devlang-csharp"
 ms.topic: conceptual
-f1_keywords: 
+f1_keywords:
   - "vsl.GenerateFromUsage"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "classes, generating stubs"
   - "Generate From Usage"
   - "properties, generating stubs"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "delegates, generating stubs"
 ms.assetid: 585a3fd5-516f-4166-9fd1-d406cbab369e
 caps.latest.revision: 67
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Generate From Usage

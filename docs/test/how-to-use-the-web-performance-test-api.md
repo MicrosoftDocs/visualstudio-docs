@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "Web performance tests, using the API"
   - "APIs, Web performance tests"
 ms.assetid: 93a6a1dd-663b-4ab5-8760-7d6b081561d3
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Use the web performance test API

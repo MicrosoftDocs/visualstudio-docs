@@ -5,8 +5,8 @@ ms.date: 07/31/2019
 ms.topic: conceptual
 f1_keywords:
   - "Blend.Start.Dev12"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "counter sets"
   - "load tests, counter sets"
 ms.assetid: 64315c2f-a0b2-4378-be16-0774b99beef5
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Manage counter sets using the Load Test Editor

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "load tests, virtual user activity chart"
   - "virtual user activity chart, isolating performance issues"
 ms.assetid: d1c10fb9-cfeb-4e7f-9991-2d1e1103699e
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Walkthrough: Using the Virtual User Activity Chart to isolate issues

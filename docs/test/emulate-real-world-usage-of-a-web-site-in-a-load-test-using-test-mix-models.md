@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "load model, specifying"
   - "load test load model, specifying"
 ms.assetid: b7fae849-0538-40d1-ab35-2bb3a0fe4393
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Test mix models overview

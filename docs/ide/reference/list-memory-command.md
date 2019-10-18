@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "ListMemory command"
   - "list memory command"
 ms.assetid: a84de361-a6a6-4f6d-96aa-a0d4a424371e
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

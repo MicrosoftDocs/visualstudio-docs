@@ -2,11 +2,11 @@
 title: "Unit Tests Target Earlier Version of .NET Framework"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"
-author: gewarren
+author: jillre
 ---
 # How to: Configure unit tests to target an earlier version of the .NET Framework
 

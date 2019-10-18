@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "application architecture"
   - "architecture [Visual Studio ALM], modeling"
   - "application modeling"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

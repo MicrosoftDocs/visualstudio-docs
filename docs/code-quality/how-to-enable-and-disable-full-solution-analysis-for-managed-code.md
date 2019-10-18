@@ -4,8 +4,8 @@ ms.date: 03/23/2018
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "full solution analysis"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

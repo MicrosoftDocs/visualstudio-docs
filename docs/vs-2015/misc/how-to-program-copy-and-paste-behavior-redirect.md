@@ -6,8 +6,8 @@ ms.technology: "devlang-csharp"
 ms.topic: conceptual
 ms.assetid: 04445417-65c1-4938-9db3-79a40aa5d56d
 caps.latest.revision: 6
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Program Copy and Paste Behavior - redirect

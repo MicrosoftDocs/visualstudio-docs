@@ -8,8 +8,8 @@ f1_keywords:
   - "CA2142"
 ms.assetid: 6dc59053-5dd9-4583-bf10-5f339107e59f
 caps.latest.revision: 12
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2142: Transparent code should not be protected with LinkDemands

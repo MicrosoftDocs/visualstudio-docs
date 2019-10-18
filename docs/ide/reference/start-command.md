@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Start command"
   - "Debug.Start command"
 ms.assetid: dc4e4aa2-b0ab-4e00-92db-6dc3058ddc21
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

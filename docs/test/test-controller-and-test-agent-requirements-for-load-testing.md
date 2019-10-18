@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "agents, requirements"
   - "controllers, requirements"
 ms.assetid: 372d97ce-12e4-46a9-9863-da508adba68f
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Test controller and test agent requirements for load testing

@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "log Command window output command"
   - "View.LogCommandWindowOutput command"
 ms.assetid: d4ecec35-5af4-4954-8d60-2cd24583fbb4
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
