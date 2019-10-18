@@ -21,11 +21,11 @@ Writing code for multiple platforms is often frustrating. The primary developmen
 
 Development using C++ for cross-platform mobile development has several advantages:
 
-1. **Easy installation.** The Visual Studio installer acquires and installs the required third-party tools and SDKs you need to build apps or libraries for Android and iOS. Configuration and setup are simple and mostly automatic.
+- **Easy installation.** The Visual Studio installer acquires and installs the required third-party tools and SDKs you need to build apps or libraries for Android and iOS. Configuration and setup are simple and mostly automatic.
 
-1. **A powerful and familiar build environment.** Create sharable cross-platform solutions and projects easily with Visual Studio templates. Manage properties for all projects using one common interface. Edit all your code in the Visual Studio editor, and take advantage of the built-in cross-platform IntelliSense for code completion and error highlighting.
+- **A powerful and familiar build environment.** Create sharable cross-platform solutions and projects easily with Visual Studio templates. Manage properties for all projects using one common interface. Edit all your code in the Visual Studio editor, and take advantage of the built-in cross-platform IntelliSense for code completion and error highlighting.
 
-1. **A unified debugging experience.** Use the world-class debugging tools in Visual Studio to watch and step through C++ code on all platforms: Android devices and emulators, iOS simulators and devices, and Windows or Windows Store devices and emulators.
+- **A unified debugging experience.** Use the world-class debugging tools in Visual Studio to watch and step through C++ code on all platforms: Android devices and emulators, iOS simulators and devices, and Windows or Windows Store devices and emulators.
 
 ## Get the tools
 
@@ -93,14 +93,10 @@ The Mobile development with C++ workload includes several templates to help you 
 
 Download samples that show how to create shared code libraries you can use in Windows, Android, and iOS apps. And, see examples of how to create complete Native Activity apps for Android. To get started, see [Cross-platform mobile development examples](../cross-platform/cross-platform-mobile-development-examples.md).
 
-## In this section
+## See also
 
-1. [Install cross-platform mobile development with C++](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)
-
-1. [Install and configure tools to build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md)
-
-1. [Create an Android native activity app](../cross-platform/create-an-android-native-activity-app.md)
-
-1. [Build an OpenGL ES application on Android and iOS](../cross-platform/build-an-opengl-es-application-on-android-and-ios.md)
-
-1. [Cross-platform mobile development examples](../cross-platform/cross-platform-mobile-development-examples.md)
+[Install cross-platform mobile development with C++](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)\
+[Install and configure tools to build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md)\
+[Create an Android native activity app](../cross-platform/create-an-android-native-activity-app.md)\
+[Build an OpenGL ES application on Android and iOS](../cross-platform/build-an-opengl-es-application-on-android-and-ios.md)\
+[Cross-platform mobile development examples](../cross-platform/cross-platform-mobile-development-examples.md)
