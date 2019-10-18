@@ -58,6 +58,6 @@ In the seventh part of this tutorial, you'll add multiplication and division pro
 
 ## To continue or review
 
-- To go to the next tutorial step, see **[Step 8: Customize the quiz](../ide/step-8-customize-the-quiz.md)**S.
+- To go to the next tutorial step, see **[Step 8: Customize the quiz](../ide/step-8-customize-the-quiz.md)**.
 
 - To return to the previous tutorial step, see [Step 6: Add a subtraction problem](../ide/step-6-add-a-subtraction-problem.md).

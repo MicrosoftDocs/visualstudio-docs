@@ -19,10 +19,10 @@ Next, you add a <xref:System.Windows.Forms.Timer> control to the matching game. 
 
 ## To add a timer
 
-1. From the toolbox in **Windows Forms Designer**, choose **Timer** (in the **Components** category) and then choose the **Enter** key, or double-click the timer to add a timer control to the form. The timer's icon, called **Timer1**, should appear in a space below the form, as shown in the following picture.
+1. From the toolbox in **Windows Forms Designer**, choose **Timer** (in the **Components** category) and then choose the **Enter** key, or double-click the timer to add a timer control to the form. The timer's icon, called **Timer1**, should appear in a space below the form, as shown in the following image.
 
      ![Timer](../ide/media/express_timer.png)<br/>
-**Timer**
+***Timer***
 
     > [!NOTE]
     > If the toolbox is empty, be sure to select the form designer, and not the code behind the form, before opening the toolbox.
@@ -57,6 +57,6 @@ Next, you add a <xref:System.Windows.Forms.Timer> control to the matching game. 
 
 ## To continue or review
 
-- To go to the next tutorial step, see [Step 7: Keep pairs visible](../ide/step-7-keep-pairs-visible.md).
+- To go to the next tutorial step, see **[Step 7: Keep pairs visible](../ide/step-7-keep-pairs-visible.md)**.
 
 - To return to the previous tutorial step, see [Step 5: Add label references](../ide/step-5-add-label-references.md).
