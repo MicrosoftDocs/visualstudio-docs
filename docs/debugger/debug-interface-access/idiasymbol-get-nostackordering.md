@@ -42,6 +42,6 @@ HRESULT get_noStackOrdering(
 |Header:|dia2.h|
 |Version:|DIA SDK v8.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [/GS (Buffer Security Check)](/cpp/build/reference/gs-buffer-security-check)

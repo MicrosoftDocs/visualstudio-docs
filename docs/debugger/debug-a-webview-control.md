@@ -77,6 +77,6 @@ ms.workload:
 
 6. View and modify variables in your app or use console commands, as described in [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md) and [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017).
 
-## See Also
+## See also
 
 - [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)

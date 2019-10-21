@@ -315,7 +315,7 @@ To reference the alias from an element in the .dgml file, enclose the `Id` of th
 </Properties>
 ```
 
-## See Also
+## See also
 
 - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
 - [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)

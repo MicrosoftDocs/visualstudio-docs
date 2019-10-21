@@ -49,7 +49,7 @@ If you open a model and its diagrams in a version of Visual Studio that does not
 
 You can save these changes. If you want to make your changes visible to other users, you must at least send the updated **.layout** files.
 
-## See Also
+## See also
 
 - [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)
 - [Create models for your app](../modeling/create-models-for-your-app.md)

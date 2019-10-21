@@ -55,7 +55,7 @@ In the Visual Studio Visualization and Modeling SDK, you can create an incomplet
 
    A DSL Library can import other libraries. When you import a library, its imports also automatically appear in DSL Explorer.
 
-## See Also
+## See also
 
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
 

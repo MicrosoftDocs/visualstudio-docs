@@ -130,5 +130,5 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 ## <a name="BKMK_IDL_Attribute_Limitations"></a> IDL Attribute Limitations
  Edit and Continue does not regenerate interface definition (IDL) files. Therefore, changes to IDL attributes will not be reflected while you are debugging. To see the result of changes to IDL attributes, you must stop debugging and rebuild your app. Edit and Continue does not generate an error or warning if IDL attributes have changed. For more information, see [IDL Attributes](/cpp/windows/idl-attributes).
 
-## See Also
+## See also
 - [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md)

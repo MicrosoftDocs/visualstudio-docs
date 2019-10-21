@@ -67,5 +67,5 @@ You want to run the remote debugger as an administrator in several scenarios:
 
 You do **not** want to run as an administrator if you want to launch processes, and the process you want to launch should **not** be an administrator.
 
-## See Also
+## See also
 - [Remote Debugging](../debugger/remote-debugging.md)

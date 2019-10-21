@@ -61,6 +61,6 @@ Pseudovariables are terms used to display certain information in a variable wind
 |`$` *N* `#`|Displays object with Object ID equal to *N*.|
 |`$dynamic`|Displays the special **Dynamic View** node for an object that implements the `IDynamicMetaObjectProvider`. Interface. The syntax is `$dynamic,` *object*. This feature applies only to code that uses .NET Framework version 4 or later.|
 
-## See Also
+## See also
 - [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)
 - [Variable Windows](../debugger/debugger-windows.md)

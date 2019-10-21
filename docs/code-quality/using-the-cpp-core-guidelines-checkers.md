@@ -248,6 +248,6 @@ Because of the way the code analysis rules are loaded, you must install the Micr
 
    The NuGet package adds an additional MSBuild *.targets* file to your project that is invoked when you enable code analysis on your project. This *.targets* file adds the C++ Core Check rules as an additional extension to the Visual Studio code analysis tool. When the package is installed, you can use the Property Pages dialog to enable or disable the released and experimental rules.
 
-## See Also
+## See also
 
 - [Visual Studio C++ Core Check Reference](code-analysis-for-cpp-corecheck.md)

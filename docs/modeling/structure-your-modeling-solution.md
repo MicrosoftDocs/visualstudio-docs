@@ -100,7 +100,7 @@ For example, if you frequently use solutions that have Presentation, Business, a
 
 [Organize and manage your models](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-9-organizing-and-managing-your-models)
 
-## See Also
+## See also
 
 - [Use models in your development process](../modeling/use-models-in-your-development-process.md)
 - [Visual Studio Architecture Tooling Guidance](../modeling/visual-studio-architecture-tooling-guidance.md)

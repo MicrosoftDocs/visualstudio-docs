@@ -35,6 +35,6 @@ The properties in the following table are associated with a domain role. For inf
 > [!NOTE]
 > The default value of a display name is based on the associated property value by inserting spaces before each upper-case character that is preceded by a lower-case character and that is not followed by another upper-case character.
 
-## See Also
+## See also
 
 - [Properties of Domain Relationships](../modeling/properties-of-domain-relationships.md)

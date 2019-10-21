@@ -32,5 +32,5 @@ HRESULT Skip ( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` if there are no more symbols to skip.
 
-## See Also
+## See also
 - [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)

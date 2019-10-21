@@ -30,7 +30,7 @@ This section explains how to debug several types of Web applications.
  [Debug ASP.NET applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)
  Describes the steps that are required to enable debugging of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications.
 
-## See Also
+## See also
 - [Debugging Web Applications and Script](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

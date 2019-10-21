@@ -35,6 +35,6 @@ HRESULT get_platform ( 
 > [!NOTE]
 > A return value of `S_FALSE` means that the property is not available for the symbol.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [CV_CPU_TYPE_e Enumeration](../../debugger/debug-interface-access/cv-cpu-type-e.md)

@@ -57,7 +57,7 @@ This example adds a new solution item, MyHTMLpg, to the current solution.
 >File.AddNewItem MyHTMLpg /t:"General\HTML Page"
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

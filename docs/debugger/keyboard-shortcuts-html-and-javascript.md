@@ -52,7 +52,7 @@ Keyboard shortcuts in Visual Studio for debugging UWP apps using HTML and JavaSc
 |Increase selected CSS value by 1|Up Arrow|
 |Decrease selected CSS value by 1|Down Arrow|
 
-## See Also
+## See also
 - [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017)
 - [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md?view=vs-2017)
 - [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md?view=vs-2017)
