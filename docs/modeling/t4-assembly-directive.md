@@ -82,6 +82,6 @@ In a Visual Studio design-time text template, the `assembly` directive loads an 
 <#@ assembly name="$(myLibFolder)\MyLib.dll" #>
 ```
 
-## See Also
+## See also
 
 - [T4 Include Directive](../modeling/t4-include-directive.md)

@@ -28,6 +28,6 @@ A user of an extended DSL can create and save a model that contains instances of
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
-## See Also
+## See also
 
 - [Related blog posts](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/)
