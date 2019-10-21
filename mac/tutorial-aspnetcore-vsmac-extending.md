@@ -42,7 +42,7 @@ You will learn how to add Docker containers to the eShopOnWeb application as wel
 
 ### Step 4: Deploying eShopOnWeb to Azure App Services
 
-You will learn how to deploy the eShopOnWeb application to [Azure App Services](https://azure.microsoft.com/en-us/services/app-service/).
+You will learn how to deploy the eShopOnWeb application to [Azure App Services](https://azure.microsoft.com/services/app-service/).
 
 [Step-by-step walkthrough](https://github.com/dotnet-architecture/eShopOnWeb/wiki/01b.-Deploying-to-Azure-App-Service-from-Visual-Studio-for-Mac)
 
