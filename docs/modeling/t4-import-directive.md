@@ -43,6 +43,6 @@ The file contains: <#=  fileContent #>
 
 - Your DSL's namespace
 
-## See Also
+## See also
 
 - [T4 Assembly Directive](../modeling/t4-assembly-directive.md)

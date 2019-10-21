@@ -58,6 +58,6 @@ Decorators are icons, text, or expand/collapse chevrons that can appear on shape
 |OffsetFromShape|The offset of the decorator from the shape, relative to its default position, in inches. (On connectors only.)|0|
 |Position|The default position of the decorator.|TargetBottom|
 
-## See Also
+## See also
 
 - [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

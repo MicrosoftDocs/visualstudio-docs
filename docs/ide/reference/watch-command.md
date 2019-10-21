@@ -38,7 +38,7 @@ The `index` must be an integer. Valid values are 1, 2, 3, or 4.
 >Debug.Watch1
 ```
 
-## See Also
+## See also
 
 - [Autos and Locals Windows](../../debugger/autos-and-locals-windows.md)
 - [Set a Watch on Variables using the Watch and QuickWatch Windows in Visual Studio](../../debugger/watch-and-quickwatch-windows.md)

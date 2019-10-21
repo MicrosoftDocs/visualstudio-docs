@@ -118,7 +118,7 @@ This setting has no effect on Copy or Cut when a line is not blank. If nothing i
 > [!TIP]
 > To display indicators for spaces, tabs, and line ends, and thus distinguish indented lines from lines that are entirely blank, select **Advanced** from the **Edit** menu and choose **View White Space**.
 
-## See Also
+## See also
 
 - [Options, Text Editor, All Languages, Tabs](../../ide/reference/options-text-editor-all-languages-tabs.md)
 - [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)

@@ -78,7 +78,7 @@ This example searches for btnCancel in all .cls files located in the folder "My 
 >Edit.FindinFiles btnCancel /lookin:"c:/My Visual Studio Projects" /ext:*.cls /text2
 ```
 
-## See Also
+## See also
 
 - [Find in Files](../../ide/find-in-files.md)
 - [Command Window](../../ide/reference/command-window.md)

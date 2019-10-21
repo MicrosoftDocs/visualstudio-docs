@@ -56,7 +56,7 @@ This example runs the solution `MySolution` using the active deployment configur
 devenv /run "%USERPROFILE%\source\repos\MySolution\MySolution.sln"
 ```
 
-## See Also
+## See also
 
 - [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)
 - [/Runexit (devenv.exe)](../../ide/reference/runexit-devenv-exe.md)

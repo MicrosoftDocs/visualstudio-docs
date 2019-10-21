@@ -104,7 +104,7 @@ Notes for this example:
 - `_Field_range_` for `bufferSize` specifies that the value of `bufferSize` should be within 1 and `MaxBufferSize` (both inclusive).
 - The end results of the `_Struct_size_bytes_` and `_Field_size_` annotations are equivalent. For structures or classes that have a similar layout, `_Field_size_` is easier to read and maintain, because it has fewer references and calculations than the equivalent `_Struct_size_bytes_` annotation. `_Field_size_` doesn’t require conversion to the byte size. If byte size is the only option, for example, for a void pointer field, `_Field_size_bytes_` can be used. If both `_Struct_size_bytes_` and `_Field_size_` exist, both will be available to tools. It is up to the tool what to do if the two annotations disagree.
 
-## See Also
+## See also
 
 - [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
 - [Understanding SAL](../code-quality/understanding-sal.md)

@@ -53,5 +53,5 @@ The articles in this section of the documentation discuss aspects of SAL, provid
 ## Related Resources
 [Code Analysis Team Blog](http://go.microsoft.com/fwlink/?LinkId=251197)
 
-## See Also
+## See also
 [SAL 2.0 Annotations for Windows Drivers](http://go.microsoft.com/fwlink/?LinkId=250979)

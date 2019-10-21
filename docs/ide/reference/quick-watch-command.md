@@ -38,7 +38,7 @@ If `text` is omitted, the currently selected text or word at the cursor is added
 >Debug.QuickWatch
 ```
 
-## See Also
+## See also
 
 - [Set a Watch on Variables using the Watch and QuickWatch Windows in Visual Studio](../../debugger/watch-and-quickwatch-windows.md)
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)

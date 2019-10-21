@@ -37,6 +37,6 @@ HRESULT findInjectedSource ( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)
 - [IDiaSession](../../debugger/debug-interface-access/idiasession.md)

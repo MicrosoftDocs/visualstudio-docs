@@ -97,7 +97,7 @@ A *decorator* is an icon or line of text that appears on a shape in a domain-spe
 
 8. Rebuild and run the solution.
 
-## See Also
+## See also
 
 - [Defining Shapes and Connectors](../modeling/defining-shapes-and-connectors.md)
 - [Setting a Background Image on a Diagram](../modeling/setting-a-background-image-on-a-diagram.md)

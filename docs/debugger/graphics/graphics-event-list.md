@@ -109,5 +109,5 @@ This window allows you to view the history of the selected item in the event lis
 
 <!-- /VERSIONLESS -->
 
-## See Also
+## See also
 - [Walkthrough: Missing Objects Due to Device State](walkthrough-missing-objects-due-to-device-state.md)

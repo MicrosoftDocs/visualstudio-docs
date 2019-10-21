@@ -114,6 +114,6 @@ If you set the environment variable TRACEDESIGNTIME to true and restart Visual S
 
 To learn more about TRACEDESIGNTIME environment variable, see [Roslyn](https://github.com/dotnet/roslyn/wiki/Diagnosing-Project-System-Build-Errors) and [Common Project System](https://github.com/dotnet/project-system/blob/master/docs/design-time-builds.md). The information in these articles is relevant for C++ projects.
 
-## See Also
+## See also
 
 - [Visual C++ IntelliSense](visual-cpp-intellisense.md)

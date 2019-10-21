@@ -59,7 +59,7 @@ Visual Basic does not have open type syntax, so you cannot do the same thing in 
 
 `"Namespace.TypeName'2"`
 
-## See Also
+## See also
 
 - [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)
 - [Create custom views of managed objects](../debugger/create-custom-views-of-managed-objects.md)

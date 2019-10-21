@@ -88,6 +88,6 @@ For more information, see [Design-Time Code Generation by using T4 Text Template
 
 The text template transformation feature is named *T4*.
 
-## See Also
+## See also
 
 - [Generate Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
