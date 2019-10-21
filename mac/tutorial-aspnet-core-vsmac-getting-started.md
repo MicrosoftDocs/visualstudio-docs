@@ -19,8 +19,13 @@ Learn how to install Visual Studio 2019 for Mac with this video tutorial and ste
 
 > [!VIDEO https://www.youtube.com/embed/qBWzzhW-Xys]
 
-## Building your first ASP.NET Core Web Application in Visual Studio for Mac
+## Building your first ASP.NET Core Web Application
 
 Follow this video to learn how to create your first ASP.NET Core Web Application using Visual Studio for Mac.
 
 > [!VIDEO https://www.youtube.com/embed/2CsZpJdFFnQ]
+
+## Next Steps
+
+ - [Extending an existing ASP.NET Core web application](tutorial-aspnet-core-vsmac-extending.md)
+ - [Getting Started with ASP.NET Core](asp-net-core.md)
