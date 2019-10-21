@@ -11,8 +11,8 @@ dev_langs:
   - "jsharp"
   - "C++"
 helpviewer_keywords:
-  - "MSBuild (Visual C++), MultiToolTask task"
-  - "MultiToolTask task (MSBuild (Visual C++))"
+  - "MSBuild (C++), MultiToolTask task"
+  - "MultiToolTask task (MSBuild (C++))"
 author: mikeblome
 ms.author: mblome
 ms.workload:
