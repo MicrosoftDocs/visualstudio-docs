@@ -22,8 +22,8 @@ dev_langs:
   - "C++"
   - "jsharp"
 helpviewer_keywords:
-  - "MSBuild (Visual C++), Link task"
-  - "Link task (MSBuild (Visual C++))"
+  - "MSBuild (C++), Link task"
+  - "Link task (MSBuild (C++))"
 ms.assetid: 0a61f168-3113-4fa7-83a3-d9142e2a33f8
 author: mikejo5000
 ms.author: mikejo
@@ -32,7 +32,7 @@ ms.workload:
   - "multiple"
 ---
 # Link task
-Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Object File Format (COFF) object files and libraries to create an executable (*.exe*) file or a dynamic-link library (DLL). For more information, see [Linker options](/cpp/build/reference/linker-options).
+Wraps the Microsoft C++ linker tool, *link.exe*. The linker tool links Common Object File Format (COFF) object files and libraries to create an executable (*.exe*) file or a dynamic-link library (DLL). For more information, see [Linker options](/cpp/build/reference/linker-options).
 
 ## Parameters
  The following describes the parameters of the **Link** task. Most task parameters, and a few sets of parameters, correspond to a command-line option.

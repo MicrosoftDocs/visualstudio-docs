@@ -96,6 +96,6 @@ If you change `newPropertyValue` to `m_property`, then every instance of `newPro
 - [Best practices for using code snippets](../ide/best-practices-for-using-code-snippets.md)
 - [Troubleshooting snippets](../ide/troubleshooting-snippets.md)
 - [C# code snippets](../ide/visual-csharp-code-snippets.md)
-- [Visual C++ code snippets](../ide/visual-cpp-code-snippets.md)
+- [C++ code snippets](../ide/visual-cpp-code-snippets.md)
 - [Code snippets schema reference](../ide/code-snippets-schema-reference.md)
 - [Code snippets (Visual Studio for Mac)](/visualstudio/mac/snippets)

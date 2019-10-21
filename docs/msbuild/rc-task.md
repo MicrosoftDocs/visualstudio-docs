@@ -14,8 +14,8 @@ dev_langs:
   - "jsharp"
   - "C++"
 helpviewer_keywords:
-  - "RC task (MSBuild (Visual C++))"
-  - "MSBuild (Visual C++), RC task"
+  - "RC task (MSBuild (C++))"
+  - "MSBuild (C++), RC task"
 ms.assetid: 2fd26c75-a056-4dda-9f7e-2f90d3748d88
 author: mikejo5000
 ms.author: mikejo

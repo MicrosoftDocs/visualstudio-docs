@@ -14,7 +14,7 @@ ms.workload:
 # Walkthrough: Create an MSBuild project file from scratch
 Programming languages that target the .NET Framework use MSBuild project files to describe and control the application build process. When you use Visual Studio to create an MSBuild project file, the appropriate XML is added to the file automatically. However, you may find it helpful to understand how the XML is organized and how you can change it to control a build.
 
- For information about creating a project file for a C++ project, see [MSBuild (Visual C++)](/cpp/build/msbuild-visual-cpp).
+ For information about creating a project file for a C++ project, see [MSBuild (C++)](/cpp/build/msbuild-visual-cpp).
 
  This walkthrough shows how to create a basic project file incrementally, by using only a text editor. The walkthrough follows these steps:
 
