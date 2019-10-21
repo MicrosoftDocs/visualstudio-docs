@@ -25,7 +25,7 @@ Follow this video to learn how to create your first ASP.NET Core Web Application
 
 > [!VIDEO https://www.youtube.com/embed/2CsZpJdFFnQ]
 
-## Next Steps
+## Next steps
 
  - [Extending an existing ASP.NET Core web application](tutorial-aspnet-core-vsmac-extending.md)
  - [Getting Started with ASP.NET Core](asp-net-core.md)
