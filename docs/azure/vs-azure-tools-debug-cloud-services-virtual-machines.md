@@ -44,7 +44,7 @@ To debug a cloud service from a remote machine, you must enable that functionali
 If you enable remote debugging for a cloud service, it doesn't exhibit degraded performance or incur additional charges. Don't use remote debugging on a production service, because clients who use the service might be adversely affected.
 
 > [!NOTE]
-> When you publish a cloud service from Visual Studio, you can enable **IntelliTrace** for any roles in that service that target the .NET Framework 4 or the .NET Framework 4.5. By using **IntelliTrace**, you can examine events that occurred in a role instance in the past and reproduce the context from that time. See [Debugging a published cloud service with IntelliTrace and Visual Studio](http://go.microsoft.com/fwlink/?LinkID=623016) and [Using IntelliTrace](https://msdn.microsoft.com/library/dd264915.aspx).
+> When you publish a cloud service from Visual Studio, you can enable **IntelliTrace** for any roles in that service that target the .NET Framework 4 or the .NET Framework 4.5. By using **IntelliTrace**, you can examine events that occurred in a role instance in the past and reproduce the context from that time. See [Debugging a published cloud service with IntelliTrace and Visual Studio](https://docs.microsoft.com/visualstudio/azure/vs-azure-tools-intellitrace-debug-published-cloud-services?view=vs-2019) and [Using IntelliTrace](https://msdn.microsoft.com/library/dd264915.aspx).
 
 ### To enable remote debugging for a cloud service
 
@@ -70,7 +70,7 @@ If you enable remote debugging for a cloud service, it doesn't exhibit degraded 
 
     ![Attach Debugger](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC746719.gif)
 
-3. After the debugger attaches to an instance, debug as usual. The debugger automatically attaches to the appropriate host process for your role. Depending on what the role is, the debugger attaches to w3wp.exe, WaWorkerHost.exe, or WaIISHost.exe. To verify the process to which the debugger is attached, expand the instance node in Server Explorer. See [Azure Role Architecture](http://blogs.msdn.com/b/kwill/archive/2011/05/05/windows-azure-role-architecture.aspx) for more information about Azure processes.
+3. After the debugger attaches to an instance, debug as usual. The debugger automatically attaches to the appropriate host process for your role. Depending on what the role is, the debugger attaches to w3wp.exe, WaWorkerHost.exe, or WaIISHost.exe. To verify the process to which the debugger is attached, expand the instance node in Server Explorer. See [Azure Role Architecture](https://blogs.msdn.microsoft.com/kwill/2011/05/05/windows-azure-role-architecture/) for more information about Azure processes.
 
     ![Select code type dialog box](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC718346.png)
 
@@ -144,7 +144,7 @@ Visual Studio ASP.NET projects offer an option to create a handy virtual machine
     > [!NOTE]
     > You'll be asked to sign in to your Azure account if you're not already signed in.
 
-3. Select the various settings for the virtual machine and then select **OK**. See [Virtual Machines](http://go.microsoft.com/fwlink/?LinkId=623033) for more information.
+3. Select the various settings for the virtual machine and then select **OK**. See [Virtual Machines](https://docs.microsoft.com/previous-versions/azure/jj156003(v=azure.100)) for more information.
 
     The name you enter for DNS name will be the name of the virtual machine.
 
@@ -182,6 +182,6 @@ Visual Studio ASP.NET projects offer an option to create a handy virtual machine
 
 ## Next steps
 
-* Use **IntelliTrace** to collect a log of calls and events from a release server. See [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](http://go.microsoft.com/fwlink/?LinkID=623016).
+* Use **IntelliTrace** to collect a log of calls and events from a release server. See [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](https://docs.microsoft.com/visualstudio/azure/vs-azure-tools-intellitrace-debug-published-cloud-services?view=vs-2019).
 
-* Use **Azure Diagnostics** to log detailed information from code running within roles, whether the roles are running in the development environment or in Azure. See [Collecting logging data by using Azure Diagnostics](http://go.microsoft.com/fwlink/p/?LinkId=400450).
+* Use **Azure Diagnostics** to log detailed information from code running within roles, whether the roles are running in the development environment or in Azure. See [Collecting logging data by using Azure Diagnostics](https://docs.microsoft.com/previous-versions/azure/gg433048(v=azure.100)).
