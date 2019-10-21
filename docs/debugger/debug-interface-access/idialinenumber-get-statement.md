@@ -35,5 +35,5 @@ HRESULT get_statement ( 
 ## Remarks
  Statements can span multiple lines. This method indicates if the associated line number marks the beginning of such a multi-line statement.
 
-## See Also
+## See also
 - [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)

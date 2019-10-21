@@ -39,7 +39,7 @@ The C run-time library provides extensive debugging support. To use one of the C
 
  For more information on the various run-time libraries you can use, see [C Run-Time Libraries](/cpp/c-runtime-library/crt-library-features).
 
-## See Also
+## See also
 
 - [CRT Debugging Techniques](../debugger/crt-debugging-techniques.md)
 - [/MD, /MT, /LD (Use Run-Time Library)](/cpp/build/reference/md-mt-ld-use-run-time-library)

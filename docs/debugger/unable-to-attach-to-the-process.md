@@ -53,5 +53,5 @@ Unable to attach to the process. Debugger component on server received access de
 
 7. Close all windows.
 
-## See Also
+## See also
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

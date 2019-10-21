@@ -35,6 +35,6 @@ HRESULT get_allocatesBasePointer ( 
 ## Remarks
  This property should be used only by code that formerly accessed FPO_DATA, or when the program string returned by the [IDiaFrameData::get_program](../../debugger/debug-interface-access/idiaframedata-get-program.md) method is `NULL`. Otherwise, the program string contains all the information needed to compute previous register values.
 
-## See Also
+## See also
 - [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
 - [IDiaFrameData::get_program](../../debugger/debug-interface-access/idiaframedata-get-program.md)

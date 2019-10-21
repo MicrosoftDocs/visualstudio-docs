@@ -26,5 +26,5 @@ The **Symbol Load Information** dialog box opens when you right-click on the **M
  **Symbol Settings**
  Click this button to change symbol settings in the **Options** dialog box (**Debugging** category, **Symbols** page). On that page, you can add or remove symbol locations, specify a local cache location if you are using a symbol server, and control when symbol locations are searched.
 
-## See Also
+## See also
 - [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)

@@ -198,7 +198,7 @@ The values in this enumeration are passed to the following methods to limit the 
 ## Requirements
 Header: cvconst.h
 
-## See Also
+## See also
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 - [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
 - [IDiaSession::findSymbolByAddr](../../debugger/debug-interface-access/idiasession-findsymbolbyaddr.md)

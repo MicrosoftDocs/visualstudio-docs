@@ -42,6 +42,6 @@ HRESULT execute ( 
 ## Remarks
  This method is called during debugging to unwind the stack. The [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md) object is implemented by the client application to receive updates to the registers and to provide methods used by the `execute` method.
 
-## See Also
+## See also
 - [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
 - [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md)

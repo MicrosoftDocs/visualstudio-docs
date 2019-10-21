@@ -127,6 +127,6 @@ console.log("%s is %f years old!", user.first, user.age);
 // Fred is 10.01 years old!
 ```
 
-## See Also
+## See also
 - [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md?view=vs-2017)
 - [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md?view=vs-2017)

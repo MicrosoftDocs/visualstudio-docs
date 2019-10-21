@@ -38,6 +38,6 @@ HRESULT get_registerId ( 
 ## Remarks
  If the symbol is relative to a register, that is, if the symbol's [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md) is set to `LocIsRegRel`, use the `get_registerId` method followed by a call to the [IDiaSymbol::get_offset](../../debugger/debug-interface-access/idiasymbol-get-offset.md) method to get the offset from the register where the symbol is located.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)

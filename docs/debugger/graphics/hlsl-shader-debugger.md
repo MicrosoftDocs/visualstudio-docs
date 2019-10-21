@@ -66,7 +66,7 @@ The HLSL debugger in Visual Studio Graphics Analyzer helps you understand how yo
 
    For examples about how to use the HLSL Debugger to debug shader errors, see [Examples](graphics-diagnostics-examples.md) or the walkthroughs linked to in the See Also section.
 
-## See Also
+## See also
 - [Walkthrough: Missing Objects Due to Vertex Shading](walkthrough-missing-objects-due-to-vertex-shading.md)
 - [Walkthrough: Debugging Rendering Errors Due to Shading](walkthrough-debugging-rendering-errors-due-to-shading.md)
 - [Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader](walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader.md)
