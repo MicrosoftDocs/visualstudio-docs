@@ -15,7 +15,7 @@ This tutorial consists of two parts; [Creating your own ASP.NET Core web applica
 
 Learn how to install Visual Studio 2019 for Mac with this video tutorial and step-by-step instructions.
 
-[Step-by-step walkthrough](/mac/installation?view=vsmac-2019)
+[Step-by-step walkthrough](/visualstudio/mac/installation?view=vsmac-2019)
 
 > [!VIDEO https://www.youtube.com/embed/qBWzzhW-Xys]
 
@@ -27,16 +27,16 @@ Follow this video to learn how to create your first ASP.NET Core Web Application
 
 ## Extending an existing ASP.NET Core web application
 
-In these tutorials you will be working with the [eShopOnWeb reference app](https://github.com/dotnet-architecture/eShopOnWeb). Each step consists of a video and a tutorial doc.
+In these tutorials, you will be working with the [eShopOnWeb reference app](https://github.com/dotnet-architecture/eShopOnWeb). Each step consists of a video and a tutorial doc.
 
- - Step 1: Getting started with ASP.NET Core using eShopOnWeb
- - Step 2: Working with the eShopOnWeb solution
- - Step 3: Adding Docker to eShopOnWeb and running it locally
- - Step 4: Deploying eShopOnWeb to Azure App Services
+ - [Step 1: Getting started with ASP.NET Core using eShopOnWeb](#step-1-getting-started-with-aspnet-core-using-eshoponweb)
+ - [Step 2: Working with the eShopOnWeb solution](#step-2-working-with-the-eshoponweb-solution)
+ - [Step 3: Adding Docker to eShopOnWeb and running it locally](#step-3-adding-docker-to-eshoponweb-and-running-it-locally)
+ - [Step 4: Deploying eShopOnWeb to Azure App Services](#step-4-deploying-eshoponweb-to-azure-app-services)
 
 ### Step 1: Getting started with ASP.NET Core using eShopOnWeb
 
-This video will walk you through getting started with the eShopOnWeb application. 
+This video will walk you through getting started with the eShopOnWeb application using Visual Studio for Mac.
 
 [Step-by-step walkthrough](https://github.com/dotnet-architecture/eShopOnWeb/wiki/Getting-Started-for-Beginners-with-Visual-Studio-for-Mac)
 
