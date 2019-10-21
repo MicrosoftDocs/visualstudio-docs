@@ -43,7 +43,7 @@ You will learn how to deploy the eShopOnWeb application to [Azure App Services](
 
 > [!VIDEO https://www.youtube.com/embed/HfJPTzlLIWA]
 
-## Next Steps
+## Next steps
 
  - [Getting Started with ASP.NET Core](asp-net-core.md)
  - [ASP.NET Core Web App Deployment](web-app-deployment.md)
