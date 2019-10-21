@@ -28,7 +28,7 @@ This video will walk you through getting started with the eShopOnWeb application
 
 You will learn how to work with the eShopOnWeb solution in Visual Studio for Mac.
 
-[Step-by-step walkthrough](https://github.com/dotnet-architecture/eShopOnWeb/wiki/Getting-Started-for-Beginners-with-Visual-Studio-for-Mac)
+[Step-by-step walkthrough](https://github.com/dotnet-architecture/eShopOnWeb/wiki/Working-with-the-Project-and-Adding-New-Features-using-Visual-Studio-for-Mac)
 
 > [!VIDEO https://www.youtube.com/embed/PXTJCzCwvE4]
 
