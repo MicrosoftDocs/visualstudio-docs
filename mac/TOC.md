@@ -107,7 +107,7 @@
 
 # Video tutorials
 ## [Getting started with ASP.NET Core in Visual Studio for Mac](tutorial-aspnetcore-vsmac-getting-started.md)
-## [Extending an existing ASP.NET Core web application](tutorial-aspnetcore-vsmac.md)
+## [Extending an existing ASP.NET Core web application](tutorial-aspnetcore-vsmac-extending.md)
 
 # [Visual Studio for Mac for Windows Users](vsmac-for-windows-users.md)
 
