@@ -97,6 +97,9 @@
 ### [Change Log](/visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac/?context=visualstudio/mac/context)
 ## [Mobile apps with Xamarin](/visualstudio/mac/xamarin)
 
+# Video tutorials
+## [Getting started with ASP.NET Core in Visual Studio for Mac](tutorial-aspnetcore-vsmac.md)
+
 # Accessibility
 ## [Overview](accessibility.md)
 ## [Setting IDE accessibility options](accessibility-ide-options.md)

@@ -15,7 +15,7 @@ This tutorial consists of two parts; [Creating your own ASP.NET Core web applica
 
 Learn how to install Visual Studio 2019 for Mac with this video tutorial and step-by-step instructions.
 
-[Step-by-step walkthrough](/visualstudio/mac/installation?view=vsmac-2019)
+[Step-by-step walkthrough](installation.md)
 
 > [!VIDEO https://www.youtube.com/embed/qBWzzhW-Xys]
 
