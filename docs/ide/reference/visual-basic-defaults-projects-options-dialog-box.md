@@ -36,6 +36,6 @@ Sets the compiler default for string comparisons: binary (case-sensitive) or tex
 
 Sets the compiler default for local type inference. By default, **Option Infer** is set to **On** for newly created projects and to **Off** for migrated projects created in earlier versions of Visual Basic. For more information, see [/optioninfer](/dotnet/visual-basic/reference/command-line-compiler/optioninfer).
 
-## See Also
+## See also
 
 - [Solutions and Projects](../../ide/solutions-and-projects-in-visual-studio.md)

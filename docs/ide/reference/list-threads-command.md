@@ -38,7 +38,7 @@ When specified, the `index` argument marks the indicated thread as the current t
 >Debug.ListThreads
 ```
 
-## See Also
+## See also
 
 - [List Call Stack Command](../../ide/reference/list-call-stack-command.md)
 - [List Disassembly Command](../../ide/reference/list-disassembly-command.md)

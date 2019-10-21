@@ -78,7 +78,7 @@ The following command uses xcopy.exe to copy the file `MyText.txt` into the `Tex
 >Tools.Shell /o /c xcopy.exe c:\MyText.txt c:\Text\MyText.txt
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

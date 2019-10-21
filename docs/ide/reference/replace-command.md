@@ -94,7 +94,7 @@ This example replaces `btnSend` with `btnSubmit` in all open documents.
 >Edit.Replace btnSend btnSubmit /open
 ```
 
-## See Also
+## See also
 
 - [Finding and Replacing Text](../../ide/finding-and-replacing-text.md)
 - [Command Window](../../ide/reference/command-window.md)

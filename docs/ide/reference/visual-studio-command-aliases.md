@@ -119,7 +119,7 @@ The table below contains a list of the pre-defined Visual Studio command aliases
 |List Processes|&#124;|Debug.ListProcesses|
 |[List Threads Command](../../ide/reference/list-threads-command.md)|~ ~*k ~\*kb|Debug.ListThreads Debug.ListTheads /AllThreads|
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

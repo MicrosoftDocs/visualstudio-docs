@@ -53,7 +53,7 @@ Or, if you prefer not to write code to handle invalid uses of the application, D
 
 Many of these same methods may also be used to enforce [end-of-life deadlines][shelflife] for evaluation or trial software.
 
-## See Also
+## See also
 
 [This topic in the full Dotfuscator Community User Guide][full]
 
