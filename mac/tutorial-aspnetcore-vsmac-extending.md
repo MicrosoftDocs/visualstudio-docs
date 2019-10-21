@@ -4,28 +4,10 @@ description: This document contains video tutorials showing how to get start wit
 author: sayedihashimi
 ms.author: sayedha
 ms.date: 10/18/2019
-ms.assetid: 591b21ee-8c3f-446b-9505-7d41bfc86701
+ms.assetid: 047f5e36-f38e-4bf6-a1c5-3fde32978b7d
 ---
 
 # Tutorial: Getting started with ASP.NET Core in Visual Studio for Mac
-
-This tutorial consists of two parts; [Creating your own ASP.NET Core web application](#building-your-first-aspnet-core-web-application-in-visual-studio-for-mac) and [Extending an existing ASP.NET Core web application](#extending-an-existing-aspnet-core-web-application). The Extending an existing ASP.NET Core web application we will use the [eShopOnWeb reference app](https://github.com/dotnet-architecture/eShopOnWeb).
-
-## Before you begin
-
-Learn how to install Visual Studio 2019 for Mac with this video tutorial and step-by-step instructions.
-
-[Step-by-step walkthrough](installation.md)
-
-> [!VIDEO https://www.youtube.com/embed/qBWzzhW-Xys]
-
-## Building your first ASP.NET Core Web Application in Visual Studio for Mac
-
-Follow this video to learn how to create your first ASP.NET Core Web Application using Visual Studio for Mac.
-
-> [!VIDEO https://www.youtube.com/embed/2CsZpJdFFnQ]
-
-## Extending an existing ASP.NET Core web application
 
 In these tutorials, you will be working with the [eShopOnWeb reference app](https://github.com/dotnet-architecture/eShopOnWeb). Each step consists of a video and a tutorial doc.
 
