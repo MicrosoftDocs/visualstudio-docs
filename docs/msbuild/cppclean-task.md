@@ -11,8 +11,8 @@ dev_langs:
   - "jsharp"
   - "C++"
 helpviewer_keywords:
-  - "MSBuild (Visual C++), CPPClean task"
-  - "CPPClean task (MSBuild (Visual C++))"
+  - "MSBuild (C++), CPPClean task"
+  - "CPPClean task (MSBuild (C++))"
 ms.assetid: b62a482e-8fb5-4999-b50b-6605a078e291
 author: mikejo5000
 ms.author: mikejo
@@ -21,7 +21,7 @@ ms.workload:
   - "multiple"
 ---
 # CPPClean Task
-Deletes the temporary files that MSBuild creates when a Visual C++ project is built. The process of deleting build files is known as *cleaning*.
+Deletes the temporary files that MSBuild creates when a C++ project is built. The process of deleting build files is known as *cleaning*.
 
 ## Parameters
  The following table describes the parameters of the **CPPClean** task.

@@ -43,5 +43,5 @@ int Clone(
 ## Remarks
  The copy of the enumeration has the same state as the original at the time this method is called. However, the copy's and the original's states are separate and can be changed individually.
 
-## See Also
+## See also
 - [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)

@@ -38,7 +38,7 @@ An exception has occurred in your program. This dialog box reports the kind of e
  **Ignore**
  Allows execution to continue without invoking the exception handler. Because the exception handler is not invoked, this can lead to further consequences, including additional exceptions and errors. This option is not available for certain types of exceptions.
 
-## See Also
+## See also
 - [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)
 - [Best Practices for Exceptions](/dotnet/standard/exceptions/best-practices-for-exceptions)
 - [Exception Handling](/cpp/extensions/exception-handling-cpp-component-extensions)

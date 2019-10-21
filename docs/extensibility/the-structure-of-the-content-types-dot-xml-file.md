@@ -93,7 +93,7 @@ Contains information about the kinds of content in a VSIX package. Visual Studio
 </Types>
 ```
 
-## See Also
+## See also
 - [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)
 - [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/library/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)
 - [OPC: A New Standard For Packaging Your Data](http://go.microsoft.com/fwlink/?LinkID=148207)

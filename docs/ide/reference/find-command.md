@@ -72,7 +72,7 @@ This example performs a case-sensitive search for the word "somestring" in the c
 >Edit.Find somestring /sel /case
 ```
 
-## See Also
+## See also
 
 - [Command Window](../../ide/reference/command-window.md)
 - [Find/Command Box](../../ide/find-command-box.md)

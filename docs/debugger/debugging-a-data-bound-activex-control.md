@@ -28,6 +28,6 @@ If you are developing an ActiveX control that will be bound to a data source con
 
  If you need to step into the container's code while you are debugging, use the debug version of your container or use the debug version of the ActiveX Test Container. For more information, see [TSTCON Sample: ActiveX Control Test Container](https://msdn.microsoft.com/library/72fa40ef-27d3-400c-813f-10b03236e600).
 
-## See Also
+## See also
 - [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)
 - [ActiveX Controls](/cpp/mfc/activex-controls)

@@ -42,5 +42,5 @@ HRESULT Next ( 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if there are no more streams. Otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaEnumDebugStreams](../../debugger/debug-interface-access/idiaenumdebugstreams.md)

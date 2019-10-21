@@ -58,6 +58,6 @@ Specifies the platform that the project template targets. This element is used t
 </VSTemplate>
 ```
 
-## See Also
+## See also
 - [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
 - [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)

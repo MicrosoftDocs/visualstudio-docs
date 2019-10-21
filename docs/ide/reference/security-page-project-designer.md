@@ -66,7 +66,7 @@ Opens the application manifest template (app.manifest) to configure the permissi
 
 Opens the [Advanced Security Settings Dialog Box](../../ide/reference/advanced-security-settings-dialog-box.md), which is used to configure settings for debugging the application with restricted permissions. These settings are checked during debugging, and permission exceptions indicate that your application may need more permissions than defined in a zone.
 
-## See Also
+## See also
 
 - <xref:System.Security.Permissions.WebBrowserPermission>
 - <xref:System.Security.Permissions.MediaPermission>

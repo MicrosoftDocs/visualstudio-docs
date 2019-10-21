@@ -69,7 +69,7 @@ This example displays a list of all current aliases and definitions.
 >Tools.Alias
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

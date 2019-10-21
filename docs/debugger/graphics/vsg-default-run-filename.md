@@ -44,5 +44,5 @@ Defines the default file name of the graphics log file.
 #include <vsgcapture.h>
 ```
 
-## See Also
+## See also
 - [DONT_SAVE_VSGLOG_TO_TEMP](dont-save-vsglog-to-temp.md)

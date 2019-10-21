@@ -66,6 +66,6 @@ keeping objects in the Store (instead of just as ordinary objects) provides seve
 
 - **Serialization**. The Store provides a standard way to serialize the objects it contains to a file. You can customize the rules for serializing and deserializing. For more information, see [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md).
 
-## See Also
+## See also
 
 - [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md)

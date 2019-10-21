@@ -39,6 +39,6 @@ Describes a number of strings and their labels that can be used with the interfa
 
 Describes what symbols are and how they are identified by type.
 
-## See Also
+## See also
 
 - [Debug Interface Access SDK](../../debugger/debug-interface-access/debug-interface-access-sdk.md)

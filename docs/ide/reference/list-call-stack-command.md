@@ -102,7 +102,7 @@ to set the current stack frame to the second frame.
 >Debug.CallStack /Count:4 /ShowTypes:yes
 ```
 
-## See Also
+## See also
 
 - [List Disassembly Command](../../ide/reference/list-disassembly-command.md)
 - [List Threads Command](../../ide/reference/list-threads-command.md)

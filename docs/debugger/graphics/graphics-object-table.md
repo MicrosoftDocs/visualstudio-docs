@@ -103,6 +103,6 @@ The Graphics Object Table in Visual Studio Graphics Analysis helps you understan
 |**uint64**|A 64-bit unsigned integer value. Same as **u8byte**.|
 |**bool**|A Boolean (`true` or `false`) value. Each Boolean value is represented by a 32-bit value.|
 
-## See Also
+## See also
 - [Graphics Diagnostics (Debugging DirectX Graphics)](visual-studio-graphics-diagnostics.md)
 - [Walkthrough: Missing Objects Due to Device State](walkthrough-missing-objects-due-to-device-state.md)
