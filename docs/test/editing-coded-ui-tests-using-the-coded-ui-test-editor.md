@@ -6,11 +6,11 @@ f1_keywords:
   - "vs.codedUItest.testeditor"
 helpviewer_keywords:
   - "coded UI test, Coded UI Test Editor"
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Edit coded UI tests using the Coded UI Test Editor
 

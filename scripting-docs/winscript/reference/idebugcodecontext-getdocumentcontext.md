@@ -43,5 +43,5 @@ HRESULT GetDocumentContext(
 ## Remarks  
  For text documents, the character-position range should include the text for the entire statement. This allows the debugger IDE to highlight the current source statement.  
   
-## See Also  
+## See also  
  [IDebugCodeContext Interface](../../winscript/reference/idebugcodecontext-interface.md)

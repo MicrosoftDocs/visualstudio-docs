@@ -5,8 +5,8 @@ ms.topic: conceptual
 f1_keywords:
   - "vs.graphics"
 ms.assetid: 910d673b-c884-4eeb-9928-0e89f3d38cb6
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

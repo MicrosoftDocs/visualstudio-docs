@@ -2,8 +2,8 @@
 title: Disable legacy code analysis
 ms.date: 10/04/2019
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Enable and disable binary code analysis for managed code

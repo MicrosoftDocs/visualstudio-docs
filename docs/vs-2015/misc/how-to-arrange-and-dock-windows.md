@@ -4,10 +4,10 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.technology: "devlang-csharp"
 ms.topic: conceptual
-f1_keywords: 
+f1_keywords:
   - "VisualStudio.TreeGrid.AddRemoveColumnsDialogBox"
   - "VisualStudio.TreeGrid.SortColumnDialogBox"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "layouts, windows"
   - "windows, arranging"
   - "windows, tabbing"
@@ -29,8 +29,8 @@ helpviewer_keywords:
   - "windows, hiding"
 ms.assetid: 6a68f761-4589-4634-b39d-311fc46309aa
 caps.latest.revision: 35
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Arrange and Dock Windows

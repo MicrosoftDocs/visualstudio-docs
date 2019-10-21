@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "sample applications [Visual Studio]"
 ms.assetid: 3070fa13-46c7-4252-a1c2-857b4a2c9528
 caps.latest.revision: 58
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Visual Studio Samples

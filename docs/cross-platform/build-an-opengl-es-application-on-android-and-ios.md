@@ -1,7 +1,7 @@
 ---
-title: "Build an OpenGL ES Application on Android and iOS | Microsoft Docs"
+title: "Build an OpenGL ES application on Android and iOS | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/17/2019"
+ms.date: "10/09/2019"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 dev_langs:
@@ -19,13 +19,13 @@ You can create Visual Studio solutions and projects for iOS apps and Android app
 
 ## Requirements
 
-Before you can create an OpenGL ES app for iOS and Android, make sure you've met all system requirements. If you haven't already, install the Mobile Development with C++ workload in the Visual Studio Installer. To build for iOS, include the optional C++ iOS development tools. To build for Android, install the C++ Android development tools and the required third-party tools: Android NDK, Apache Ant, and Google Android Emulator. For better emulator performance on Intel platforms, we recommend you also install the Intel Hardware Accelerated Execution Manager (HAXM). Next, configure Intel HAXM and the Android Emulator to run on your system. For more information and detailed instructions, see [Install Visual C++ for cross-platform mobile development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md).
+Before you can create an OpenGL ES app for iOS and Android, make sure you've met all system requirements. If you haven't already, install the Mobile Development with C++ workload in the Visual Studio Installer. To get the OpenGL ES templates, and to build for iOS, include the optional C++ iOS development tools. To build for Android, install the C++ Android development tools and the required third-party tools: Android NDK, Apache Ant, and Google Android Emulator. For better emulator performance on Intel platforms, we recommend you also install the Intel Hardware Accelerated Execution Manager (HAXM). Next, configure Intel HAXM and the Android Emulator to run on your system. For more information and detailed instructions, see [Install cross-platform mobile development with C++](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md).
 
 To build and test the iOS app, you'll need a Mac computer, set up according to the installation instructions. For more information about how to set up for iOS development, see [Install and configure tools to build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md).
 
 ## Create a new OpenGLES Application project
 
-In this tutorial, you first create a new OpenGL ES Application project. and then build and run the default app in the Visual Studio Emulator for Android. Next you build the app for iOS and run the app on an iOS device.
+In this tutorial, you first create a new OpenGL ES Application project. and then build and run the default app in an Android emulator. Next you build the app for iOS and run the app on an iOS device.
 
 ::: moniker range="vs-2017"
 
@@ -69,7 +69,7 @@ The solution has two projects to build the apps for the Android and iOS platform
 
 - `MyOpenGLESApp.Android.Packaging` creates the *.apk* file for deployment on an Android device or emulator. This file contains the resources and AndroidManifest.xml file where you set manifest properties. It also contains the *build.xml* file that controls the Ant build process. It's set as the startup project by default, so that it can be deployed and run directly from Visual Studio.
 
-- **MyOpenGLESApp.iOS.Application** contains the resources and Objective-C glue code to create an iOS app that links to the C++ static library code in `MyOpenGLESApp.iOS.StaticLibrary`. This project creates a build package that is transferred to your Mac by Visual Studio and the remote agent. When you build this project, Visual Studio sends the files and commands to build and deploy your app on the Mac.
+- `MyOpenGLESApp.iOS.Application` contains the resources and Objective-C glue code to create an iOS app that links to the C++ static library code in `MyOpenGLESApp.iOS.StaticLibrary`. This project creates a build package that is transferred to your Mac by Visual Studio and the remote agent. When you build this project, Visual Studio sends the files and commands to build and deploy your app on the Mac.
 
 ## Build and run the Android app
 
@@ -97,7 +97,7 @@ The solution created by the template sets the Android app as the default project
 
    If you have installed other emulators or connected an Android device, you can choose them in the deployment target drop-down list. To run the app, the built Solution Platform must match the platform of the target device.
 
-1. Press F5 to start debugging, or Shift+F5 to start without debugging.
+1. Press **F5** to start debugging, or **Shift**+**F5** to start without debugging.
 
    Visual Studio starts the emulator, which takes several seconds to load and deploy your code. Here's how the app appears in the emulator:
 
@@ -121,7 +121,7 @@ To deploy an iOS app to an iOS device, you must also set up automatic signing on
 
 ### To set up automatic signing on Xcode
 
-1. If you haven't already, install [Xcode](https://developer.apple.com/xcode/downloads/) version 10.2.1 or later on your Mac.
+1. If you haven't already, install [Xcode](https://developer.apple.com/xcode/) on your Mac.
 
 1. Open the Xcode app on your Mac.
 

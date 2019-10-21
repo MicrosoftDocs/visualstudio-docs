@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "load tests, command line"
   - "load tests, run settings, selecting"
 ms.assetid: 175d1d58-f09a-4449-b132-a29a394a7c8e
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Select a load test run setting to use from the command line

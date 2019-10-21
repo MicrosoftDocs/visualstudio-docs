@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "types [Visual Studio], base"
   - "types [Visual Studio], derived"
 ms.assetid: ea3f0ada-f53b-4fb1-9fb5-908286f5ec3e
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

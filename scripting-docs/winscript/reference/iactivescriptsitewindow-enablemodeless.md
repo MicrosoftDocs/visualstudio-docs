@@ -41,5 +41,5 @@ HRESULT EnableModeless(
   
  Calls to this method can be nested.  
   
-## See Also  
+## See also  
  [IActiveScriptSiteWindow](../../winscript/reference/iactivescriptsitewindow.md)

@@ -43,5 +43,5 @@ HRESULT Suspend(
 ## Remarks  
  When this method suspends the thread, it increments the suspend count.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationThread Interface](../../winscript/reference/iremotedebugapplicationthread-interface.md)

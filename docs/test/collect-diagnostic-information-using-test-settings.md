@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, configuring run settings"
 ms.assetid: 0c86918b-cd63-4468-8f49-6d547a1276dc
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Collect diagnostic information using test settings

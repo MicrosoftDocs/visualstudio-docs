@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
   - "code analysis, selecting rule sets"
   - "code analysis, rule sets"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

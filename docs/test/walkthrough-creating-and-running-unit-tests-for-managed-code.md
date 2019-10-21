@@ -8,11 +8,11 @@ helpviewer_keywords:
   - "unit tests, generating"
   - "unit tests, running"
   - "unit tests, authoring"
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"
-author: gewarren
+author: jillre
 ---
 # Walkthrough: Create and run unit tests for managed code
 

@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "code [Visual Studio], outlining"
   - "code [Visual Studio], hiding"
   - "outlining code"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

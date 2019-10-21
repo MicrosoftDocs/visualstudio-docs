@@ -45,5 +45,5 @@ HRESULT GetDefaultApplication(
   
  Language engines should use the application specified by the `GetDefaultApplication` method if they are running on a host that does not provide an application.  
   
-## See Also  
+## See also  
  [IProcessDebugManager Interface](../../winscript/reference/iprocessdebugmanager-interface.md)

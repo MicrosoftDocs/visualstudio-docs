@@ -2,8 +2,8 @@
 title: XAML overview
 ms.date: 07/31/2019
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Overview of XAML

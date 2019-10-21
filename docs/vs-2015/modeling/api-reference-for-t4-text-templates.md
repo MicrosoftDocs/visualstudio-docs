@@ -6,8 +6,8 @@ ms.technology: vs-ide-modeling
 ms.topic: reference
 ms.assetid: 63279da9-69ac-49ad-ac7d-43957c45e0ce
 caps.latest.revision: 8
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # API Reference for T4 Text Templates

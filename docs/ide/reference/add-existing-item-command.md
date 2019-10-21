@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "File.AddExistingItem command"
   - "Add Existing Item command"
 ms.assetid: 41f56131-d4c7-4f81-83b7-bdac713ea870
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "template parameters [Visual Studio]"
   - "project templates, parameters"
   - "item templates, parameters"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Template parameters

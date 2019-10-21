@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "AvoidNonpublicFieldsInComVisibleValueTypes"
 ms.assetid: 1352e7eb-fefc-4239-8847-25edc7804a54
 caps.latest.revision: 17
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1413: Avoid non-public fields in COM visible value types

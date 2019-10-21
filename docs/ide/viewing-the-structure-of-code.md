@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "Visual Studio, call hierarchy window"
   - "class view"
   - "object browser"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -8,8 +8,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting.Indentation"
   - "VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting"
   - "VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting.General"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

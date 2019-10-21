@@ -40,5 +40,5 @@ HRESULT CanJITDebug(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IDebugSessionProviderEx Interface](../../winscript/reference/idebugsessionproviderex-interface.md)

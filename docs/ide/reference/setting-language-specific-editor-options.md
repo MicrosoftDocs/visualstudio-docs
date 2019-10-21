@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "editor options"
   - "configure editor"
   - "editor settings"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

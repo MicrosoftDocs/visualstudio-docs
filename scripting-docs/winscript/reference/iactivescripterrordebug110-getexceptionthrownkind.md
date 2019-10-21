@@ -39,5 +39,5 @@ HRESULT GetExceptionThrownKind(
 |-----------|-----------------|  
 |`S_OK`|The method succeeded.|  
   
-## See Also  
+## See also  
  [IActiveScriptErrorDebug110 Interface](../../winscript/reference/iactivescripterrordebug110-interface.md)

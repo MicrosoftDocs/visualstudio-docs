@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "Option Compare statement, setting in the IDE"
   - "Option Strict statement, setting in the IDE"
 ms.assetid: 2465cd9d-18b6-4c4a-b1ea-86dbab23fc79
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

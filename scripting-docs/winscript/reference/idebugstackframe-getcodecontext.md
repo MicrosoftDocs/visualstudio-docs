@@ -43,5 +43,5 @@ HRESULT GetCodeContext(
 ## Remarks  
  This method returns the current code context associated with the stack frame.  
   
-## See Also  
+## See also  
  [IDebugStackFrame Interface](../../winscript/reference/idebugstackframe-interface.md)

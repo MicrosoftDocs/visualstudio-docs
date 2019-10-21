@@ -219,8 +219,8 @@ helpviewer_keywords:
   - "troubleshooting data access"
   - "datasets [Visual Basic], troubleshooting"
 ms.assetid: 357c9f0a-9d59-4db4-9b7c-b96cad839961
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

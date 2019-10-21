@@ -6,8 +6,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords:
   - "app.config files, adding to C# projects"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

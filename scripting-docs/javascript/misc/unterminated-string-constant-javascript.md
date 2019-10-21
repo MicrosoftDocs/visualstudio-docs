@@ -25,6 +25,6 @@ You did not end your string constant with a closing quotation mark. String const
   
 - Add the closing quotation mark to the end of the string.  
   
-## See Also  
+## See also  
  [String Object](../../javascript/reference/string-object-javascript.md)   
  [toString Method (Object)](../../javascript/reference/tostring-method-object-javascript.md)

@@ -9,8 +9,8 @@ helpviewer_keywords:
  - "data access [Visual Studio]"
  - "data [C#]"
  - "ADO.NET, data access"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
  - "data-storage"

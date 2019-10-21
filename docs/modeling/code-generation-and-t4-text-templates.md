@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "code generation"
   - "text templates"
   - "generating code"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

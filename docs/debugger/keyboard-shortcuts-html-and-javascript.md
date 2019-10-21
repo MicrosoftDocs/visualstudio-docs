@@ -1,27 +1,22 @@
 ---
 title: "Keyboard shortcuts (HTML and JavaScript) | Microsoft Docs"
-ms.date: "03/28/2019"
+ms.date: "10/17/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: 8d44425a-6584-477d-932e-4e10d5e79511
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: vs-2017
 ms.workload:
   - "multiple"
 ---
 # Keyboard shortcuts (HTML and JavaScript)
 
-::: moniker range=">=vs-2019"
- Keyboard shortcuts in Visual Studio for debugging Node.js apps in Visual Studio with the **Node.js development** workload installed.
-::: moniker-end
-::: moniker range="vs-2017"
- Keyboard shortcuts in Visual Studio for debugging UWP apps using HTML and JavaScript.
-::: moniker-end
+Keyboard shortcuts in Visual Studio for debugging UWP apps using HTML and JavaScript.
 
 ## General shortcuts
 
@@ -58,6 +53,6 @@ ms.workload:
 |Decrease selected CSS value by 1|Down Arrow|
 
 ## See Also
-- [JavaScript Console commands](../debugger/javascript-console-commands.md)
+- [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017)
 - [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md?view=vs-2017)
 - [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md?view=vs-2017)

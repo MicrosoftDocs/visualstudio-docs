@@ -35,5 +35,5 @@ Provides methods that are used by the scripting engine to notify a profiler obje
 > - Call [IActiveScriptProfilerControl2::CompleteProfilerStart](../../winscript/reference/iactivescriptprofilercontrol2-completeprofilerstart.md) to notify the profiler that you have started profiling.  
 >   - Call [IActiveScriptProfilerControl2::PrepareProfilerStop](../../winscript/reference/iactivescriptprofilercontrol2-prepareprofilerstop.md) to notify the profiler that you will soon stop profiling.  
   
-## See Also  
+## See also  
  [Active Script Profiler Interfaces](../../winscript/reference/active-script-profiler-interfaces.md)

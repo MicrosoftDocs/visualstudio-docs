@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "code snippets, references"
   - "code snippets, imports"
 ms.assetid: 0dcaae11-39cf-4463-9c90-2494321251c2
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 dev_langs:
   - "VB"
@@ -70,9 +70,9 @@ The following XML is the basic snippet template:
        <![CDATA[Dim root = Math.Sqrt(16)]]>
    </Code>
    ```
-   
+
    > [!NOTE]
-   > You can't specify how lines of code in the **CDATA** section of a code snippet should be indented or formatted. Upon insertion, the language service formats the inserted code automatically. 
+   > You can't specify how lines of code in the **CDATA** section of a code snippet should be indented or formatted. Upon insertion, the language service formats the inserted code automatically.
 
 5. Save the snippet as *SquareRoot.snippet* (you can save it anywhere).
 

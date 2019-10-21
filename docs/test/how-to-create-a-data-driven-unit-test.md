@@ -9,11 +9,11 @@ helpviewer_keywords:
   - "unit tests, running"
   - "unit tests, data-driven"
   - "data-driven unit tests"
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # How to: Create a data-driven unit test
 

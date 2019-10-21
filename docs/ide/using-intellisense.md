@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "Complete word"
   - "List members"
   - "IntelliSense [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "text, fonts"
   - "editors, text color"
 ms.assetid: 3f7629d1-1cdf-4046-9a31-0632517f234d
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

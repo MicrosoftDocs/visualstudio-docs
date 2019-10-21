@@ -5,8 +5,8 @@ ms.topic: reference
 apiname:
   - "XElement.Xml"
 ms.assetid: 69ab2a33-4fe7-4cfa-97f8-eaf063decb18
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

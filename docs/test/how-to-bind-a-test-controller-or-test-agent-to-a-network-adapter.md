@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "agents, network adapter"
   - "controllers, configuring"
 ms.assetid: 7eb9290a-f9f6-4e41-9caa-796fcfaf0610
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Bind a test controller or test agent to a network adapter

@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Edit.Replace command"
   - "Replace command"
 ms.assetid: a15767f1-5a3d-44f5-8c77-7b0f1157f340
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

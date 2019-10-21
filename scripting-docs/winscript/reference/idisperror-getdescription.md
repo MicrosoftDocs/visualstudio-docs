@@ -46,6 +46,6 @@ HRESULT GetDescription(
 > [!NOTE]
 > This method is not implemented.  
   
-## See Also  
+## See also  
  [IDispError Interface](../../winscript/reference/idisperror-interface.md)   
  [IDispatchEx::InvokeEx](../../winscript/reference/idispatchex-invokeex.md)

@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Visual Studio, getting started"
 ms.assetid: 041ef726-f117-4a91-9c18-fef043bf2529
 caps.latest.revision: 67
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Get Started Developing with Visual Studio

@@ -30,7 +30,7 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 ### To display project properties in a tool window
 
-1. In the ProjectPropertiesToolWindowCommand.cs file, add the following using statements.
+1. In the ProjectPropertiesToolWindowCommand.cs file, add the following using directives.
 
     ```csharp
     using EnvDTE;

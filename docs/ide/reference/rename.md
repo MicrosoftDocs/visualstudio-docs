@@ -2,8 +2,8 @@
 title: Refactor rename
 ms.date: 01/26/2018
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 f1_keywords:
   - "vs.csharp.refactoring.rename"
@@ -67,7 +67,7 @@ This refactoring applies to:
 - Starting in Visual Studio 2019 version 16.3, when you rename a type that matches the name of the file it's in, a checkbox appears that enable you to rename the file at the same time. This option appears when you rename a class, interface, or enumeration. This option is not supported for partial types with multiple definitions.
 
    ![Rename animation with file - C#](media/rename-with-file-animated-cs.gif)
-   
+
 - If you use a name that already exists which would cause a conflict, the **Rename** box will warn you.
 
    ![Rename Conflict](media/rename-conflict-cs.png)

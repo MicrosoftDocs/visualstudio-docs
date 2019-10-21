@@ -2,8 +2,8 @@
 title: "How to: Add a Drag-and-Drop Handler"
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -18,7 +18,7 @@ This topic discusses drag-and-drop gestures that originate on other diagrams. Fo
 
 `OnDragDrop`, `OnDoubleClick`, `OnDragOver`, and other methods can be overridden.
 
-Add a new code file to your DSL project. For a gesture handler, you usually must have at least the following `using` statements:
+Add a new code file to your DSL project. For a gesture handler, you usually must have at least the following `using` directives:
 
 ```csharp
 using Microsoft.VisualStudio.Modeling;

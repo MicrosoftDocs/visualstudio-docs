@@ -92,5 +92,5 @@ HRESULT AddScriptlet(
 |`OLESCRIPT_E_INVALIDNAME`|The default name supplied is invalid in this scripting language.|  
 |`OLESCRIPT_E_SYNTAX`|An unspecified syntax error occurred in the scriptlet.|  
   
-## See Also  
+## See also  
  [IActiveScriptParse](../../winscript/reference/iactivescriptparse.md)

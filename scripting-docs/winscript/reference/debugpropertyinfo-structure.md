@@ -57,7 +57,7 @@ typedef struct DebugPropertyInfo{
  pDebugProp  
  The `IDebugProperty` described by the information in this `DebugPropertyInfo` structure.  
   
-## See Also  
+## See also  
  [IDebugProperty Interface](../../winscript/reference/idebugproperty-interface.md)   
  [DBGPROP_ATTRIB_FLAGS](../../winscript/reference/dbgprop-attrib-flags.md)   
  [DBGPROP_INFO_FLAGS](../../winscript/reference/dbgprop-info-flags.md)

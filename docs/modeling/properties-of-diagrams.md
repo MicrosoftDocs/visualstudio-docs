@@ -6,8 +6,8 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.dsldiagram"
 helpviewer_keywords:
   - "Domain-Specific Language, diagram"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

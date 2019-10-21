@@ -4,8 +4,8 @@ ms.date: 03/11/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "analyzers, faq"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

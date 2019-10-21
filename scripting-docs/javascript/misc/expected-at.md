@@ -26,7 +26,7 @@ You attempted to create a variable to be used with conditional compilation state
     @set @myvar = 1  
     ```  
   
-## See Also  
+## See also  
  [@set Statement](../../javascript/reference/at-set-statement-javascript.md)   
  [Conditional Compilation](../../javascript/advanced/conditional-compilation-javascript.md)   
  [Conditional Compilation Variables](../../javascript/advanced/conditional-compilation-variables-javascript.md)

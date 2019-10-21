@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "Data tab, Toolbox"
   - "data [Visual Studio], Toolbox"
 ms.assetid: 2ae38b2a-29d2-461c-a67d-29dad274bf45
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -43,6 +43,6 @@ HRESULT GetDocumentAttributes(
 ## Remarks  
  This method returns the attributes of the document.  
   
-## See Also  
+## See also  
  [IDebugDocumentText Interface](../../winscript/reference/idebugdocumenttext-interface.md)   
  [TEXT_DOC_ATTR Constants](../../winscript/reference/text-doc-attr-constants.md)

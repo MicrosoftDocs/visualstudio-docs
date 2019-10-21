@@ -22,6 +22,6 @@ You did not include the `while` condition in a `do...while` loop. A **do** state
   
 - Include the `while` test statement after the closing curly brace.  
   
-## See Also  
+## See also  
  [while Statement](../../javascript/reference/while-statement-javascript.md)   
  [Controlling Program Flow](../../javascript/controlling-program-flow-javascript.md)

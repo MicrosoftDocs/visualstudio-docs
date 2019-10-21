@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "debugging [Visual Studio ALM], difficult issues using IntelliTrace"
   - "Test Runner, InteliTrace"
 ms.assetid: 02b6716f-569e-4961-938a-e790a0c74b5c
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Collect IntelliTrace data to help debug difficult issues

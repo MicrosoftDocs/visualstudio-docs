@@ -30,6 +30,6 @@ HRESULT GetMainThread([out] IRemoteDebugApplicationThread **ppThread);
  `ppThread`  
  [out] The main [IRemoteDebugApplicationThread Interface](../../winscript/reference/iremotedebugapplicationthread-interface.md).  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)   
  [IRemoteDebugApplication110 Interface](../../winscript/reference/iremotedebugapplication110-interface.md)

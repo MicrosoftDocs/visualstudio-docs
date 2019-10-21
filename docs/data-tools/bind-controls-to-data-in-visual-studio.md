@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Data Sources window"
   - "displaying data"
 ms.assetid: be8b6623-86a6-493e-ab7a-050de4661fd6
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

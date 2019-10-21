@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "Live Unit Testing"
   - "Live Unit Testing What's New"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 ms.workload:
   - "dotnet"
 monikerRange: vs-2017

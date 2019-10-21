@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "targeting .NET Framework [Visual Studio]"
   - "framework targeting [Visual Studio]"
   - ".NET framework targeting [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

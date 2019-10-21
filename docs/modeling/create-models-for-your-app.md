@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "diagrams - modeling, layer"
   - "software, designing"
   - "software, modeling"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

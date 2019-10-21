@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "WPF Components tab, Choose Toolbox Items dialog box"
   - "Choose Toolbox Items dialog box, WPF Components tab"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

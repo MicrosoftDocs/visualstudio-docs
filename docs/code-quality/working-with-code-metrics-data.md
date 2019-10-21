@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "code metrics results"
   - "code metrics results window"
   - "results window, code metrics"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

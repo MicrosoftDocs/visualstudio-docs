@@ -47,6 +47,6 @@ HRESULT onInsertText(
 ## Remarks  
  This method is typically called by a host that progressively loads content, such as a Web browser.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextEvents Interface](../../winscript/reference/idebugdocumenttextevents-interface.md)   
  [IDebugDocumentTextEvents::onRemoveText](../../winscript/reference/idebugdocumenttextevents-onremovetext.md)

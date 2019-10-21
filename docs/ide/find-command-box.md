@@ -6,8 +6,8 @@ f1_keywords:
   - "vs.findcommandbox"
 helpviewer_keywords:
   - "Find/Command box"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

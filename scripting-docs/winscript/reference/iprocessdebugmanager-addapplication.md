@@ -47,6 +47,6 @@ HRESULT AddApplication(
 ## Remarks  
  This method adds an application to the running application list in the machine debug manager.  
   
-## See Also  
+## See also  
  [IProcessDebugManager Interface](../../winscript/reference/iprocessdebugmanager-interface.md)   
  [IProcessDebugManager::RemoveApplication](../../winscript/reference/iprocessdebugmanager-removeapplication.md)

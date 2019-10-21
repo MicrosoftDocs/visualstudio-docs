@@ -44,5 +44,5 @@ HRESULT InProgressAbort();
   
  If the `InProgressAbort` method cannot complete the operation, it returns `E_ABORT` as soon as possible. This method can return `E_NOTIMPL` if the operation cannot be cancelled.  
   
-## See Also  
+## See also  
  [IDebugSyncOperation Interface](../../winscript/reference/idebugsyncoperation-interface.md)

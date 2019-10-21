@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "class diagrams, exporting as images"
 ms.assetid: c57055c5-1340-449f-b9d3-ca6f87e2f69a
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

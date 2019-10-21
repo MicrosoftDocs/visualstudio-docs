@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "File.NewFile command"
   - "New File command"
 ms.assetid: 767868d6-a525-425b-a43b-2198f636ab6b
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "forms, passing data between"
   - "Windows Forms, walkthroughs"
 ms.assetid: 78bf038b-9296-4fbf-b0e8-d881d1aff0df
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

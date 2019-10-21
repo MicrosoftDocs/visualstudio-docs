@@ -43,5 +43,5 @@ HRESULT BringDocumentContextToTop(
 ## Remarks  
  This method brings a context of this document to the top in the debugger user interface.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)

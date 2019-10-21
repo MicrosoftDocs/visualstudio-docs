@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
   - "Project Designer, Application page"
   - "Application page in Project Designer"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

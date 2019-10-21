@@ -44,5 +44,5 @@ HRESULT GetSourcePosition(
 ## Return Value  
  Returns `S_OK` if successful, or `E_FAIL` if the location was not retrieved.  
   
-## See Also  
+## See also  
  [IActiveScriptError](../../winscript/reference/iactivescripterror.md)

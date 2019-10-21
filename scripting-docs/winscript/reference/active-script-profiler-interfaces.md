@@ -45,5 +45,5 @@ Active Script Profiler Interfaces enable you to receive profiling events from th
 >   
 > In Internet Explorer 8 and Internet Explorer 9, only the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] language uses these interfaces to support script profiling.  
   
-## See Also  
+## See also  
  [Windows Script Interfaces Reference](../../winscript/reference/windows-script-interfaces-reference.md)
