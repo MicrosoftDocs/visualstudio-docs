@@ -126,7 +126,7 @@ These macros correspond to the rule sets and expand into a space-separated list 
 
 ## Attributes
 
-The Microsoft Visual C++ compiler has a limited support for the GSL suppress attribute. It can be used to suppress warnings on expression and block statements inside of a function.
+The Microsoft C++ compiler has a limited support for the GSL suppress attribute. It can be used to suppress warnings on expression and block statements inside of a function.
 
 ```cpp
 // Suppress only warnings from the 'r.11' rule in expression.
@@ -248,6 +248,6 @@ Because of the way the code analysis rules are loaded, you must install the Micr
 
    The NuGet package adds an additional MSBuild *.targets* file to your project that is invoked when you enable code analysis on your project. This *.targets* file adds the C++ Core Check rules as an additional extension to the Visual Studio code analysis tool. When the package is installed, you can use the Property Pages dialog to enable or disable the released and experimental rules.
 
-## See Also
+## See also
 
 - [Visual Studio C++ Core Check Reference](code-analysis-for-cpp-corecheck.md)

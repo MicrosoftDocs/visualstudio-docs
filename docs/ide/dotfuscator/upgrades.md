@@ -59,7 +59,7 @@ Additionally, Dotfuscator Professional offers tighter integration with Visual St
 For more information about the advanced application protection features of Dotfuscator Professional, visit PreEmptive Solutions' [Dotfuscator Overview page][product-about] and [compare it to Dotfuscator Community][product-compare].
 [Fully supported trials are available at preemptive.com][eval].
 
-## See Also
+## See also
 
 [This article in the full Dotfuscator Community User Guide][full]
 

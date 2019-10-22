@@ -53,7 +53,7 @@ Both versions of this command return the current value of the expression `expA`.
 >Debug.Print DateTime.Now.Day
 ```
 
-## See Also
+## See also
 
 - [Evaluate Statement Command](../../ide/reference/evaluate-statement-command.md)
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)

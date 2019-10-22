@@ -243,7 +243,7 @@ The following illustration shows the Target list in the JavaScript Console windo
 
 You can also switch the execution context by using the `cd` command, but you must know the name of the other execution context and the reference you use must be in scope. The **Target** list provides better access to other execution contexts.
 
-## See Also
+## See also
 - [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
 - [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017)
 - [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)

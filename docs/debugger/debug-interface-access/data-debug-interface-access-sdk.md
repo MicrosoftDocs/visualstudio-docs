@@ -55,7 +55,7 @@ All variables, such as parameters, local variables, global variables, and class 
 |[IDiaSymbol::get_virtualAddress](../../debugger/debug-interface-access/idiasymbol-get-virtualaddress.md)|`ULONGLONG`|Position of the data within the executable.|
 |[IDiaSymbol::get_volatileType](../../debugger/debug-interface-access/idiasymbol-get-volatiletype.md)|`BOOL`|`TRUE` if the data is marked as volatile.|
 
-## See Also
+## See also
 - [CV_access_e Enumeration](../../debugger/debug-interface-access/cv-access-e.md)
 - [DataKind Enumeration](../../debugger/debug-interface-access/datakind.md)
 - [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)

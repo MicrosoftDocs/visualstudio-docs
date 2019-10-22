@@ -52,5 +52,5 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-qualit
 
 - Learn how to analyze captured graphics information using the Graphics Diagnostics tools. See [Overview](overview-of-visual-studio-graphics-diagnostics.md).
 
-## See Also
+## See also
 - [Capturing Graphics Information](capturing-graphics-information.md)

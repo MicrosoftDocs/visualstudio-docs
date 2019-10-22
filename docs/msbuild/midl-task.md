@@ -18,8 +18,8 @@ dev_langs:
   - "C++"
   - "jsharp"
 helpviewer_keywords:
-  - "MSBuild (Visual C++), MIDL task"
-  - "MIDL task (MSBuild (Visual C++))"
+  - "MSBuild (C++), MIDL task"
+  - "MIDL task (MSBuild (C++))"
 ms.assetid: 727efa8c-3336-40b8-8bef-ae6cbd77a422
 author: mikejo5000
 ms.author: mikejo

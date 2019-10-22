@@ -40,7 +40,7 @@ There are two accounts involved:
 
   - Consult with your network or database administrator.
 
-## See Also
+## See also
 
 - [Setting Up SQL Debugging](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/s4sszxst(v=vs.100))
 - [How to: Set SQL Server Permissions for Debugging](https://msdn.microsoft.com/84e088d0-0409-41d4-841b-f5d4b0fda414)

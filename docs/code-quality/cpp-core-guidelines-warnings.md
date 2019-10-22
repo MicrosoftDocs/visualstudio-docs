@@ -1,6 +1,6 @@
 ---
 title: C++ Core Guidelines warnings
-ms.date: 08/10/2017
+ms.date: 10/16/2019
 ms.topic: "conceptual"
 ms.assetid: 7c83814a-f21d-4323-ad5f-13bac40d3e38
 author: "mblome"
@@ -116,7 +116,7 @@ These macros correspond to the rule sets and expand into a space-separated lists
 
 ## Attributes
 
-The Microsoft Visual C++ compiler has a limited support for the GSL suppress attribute. It can be used to suppress warnings on expression and block statements inside of a function.
+The Microsoft C++ compiler has a limited support for the GSL suppress attribute. It can be used to suppress warnings on expression and block statements inside of a function.
 
 ```cpp
 // Suppress only warnings from the 'r.11' rule in expression.

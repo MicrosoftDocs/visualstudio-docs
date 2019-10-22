@@ -1,5 +1,5 @@
 ---
-title: Visual C++ Classes in Class Designer
+title: C++ Classes in Class Designer
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -13,7 +13,7 @@ manager: jillfra
 ms.workload:
   - "cplusplus"
 ---
-# Visual C++ classes in Class Designer
+# C++ classes in Class Designer
 
 **Class Designer** supports C++ classes and visualizes native C++ classes in the same way as Visual Basic and C# class shapes, except that C++ classes can have multiple inheritance relationships. You can expand the class shape to show more fields and methods in the class or collapse it to conserve space.
 
@@ -168,7 +168,7 @@ The following table shows some examples of canonical specialized class connectio
 
 ## See also
 
-- [Working with Visual C++ Code](working-with-visual-cpp-code.md)
+- [Working with C++ Code](working-with-visual-cpp-code.md)
 - [Classes and Structs](/cpp/cpp/classes-and-structs-cpp)
 - [Anonymous Class Types](/cpp/cpp/anonymous-class-types)
 - [Multiple Inheritance](https://msdn.microsoft.com/library/6td5yws2.aspx)

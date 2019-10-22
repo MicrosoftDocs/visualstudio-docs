@@ -48,7 +48,7 @@ The following example displays the Microsoft Docs home page in a web browser out
 >View.ShowWebBrowser https://docs.microsoft.com /ext
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

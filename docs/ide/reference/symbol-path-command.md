@@ -46,7 +46,7 @@ This example displays a semi-colon delimited list of current symbol paths.
 Debug.SymbolPath
 ```
 
-## See Also
+## See also
 
 - [Command Window](../../ide/reference/command-window.md)
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)

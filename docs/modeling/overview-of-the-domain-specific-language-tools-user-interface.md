@@ -40,7 +40,7 @@ When you first open a Domain-Specific Language Tools (DSL Tools) solution in Vis
 |Shapes and Connectors|Shapes specify how model elements should be displayed on a DSL diagram., Connectors specify lines on a DSL diagram that can be used to display relationships.<br /><br /> To create a shape or connector, drag the tool to the **Diagram Elements** side of the diagram.|
 |Shape Maps|A shape map appears as a line on the domain model diagram, linking a shape to the domain class that it displays, or a connector to the domain relationship that it displays.|
 
-## See Also
+## See also
 
 - [Overview of Domain-Specific Language Tools](../modeling/overview-of-domain-specific-language-tools.md)
 - [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

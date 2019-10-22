@@ -111,7 +111,7 @@ Smart locks typically wrap native locks and manage their lifetime. The following
 |`_Swaps_locks_(left, right)`|Describes the standard `swap` behavior which assumes that objects `left` and `right` exchange their state. The state exchanged includes lock count and aliasing target, if present. Aliases that point to the `left` and `right` objects remain unchanged.|
 |`_Detaches_lock_(detached, lock)`|Describes a scenario in which a lock wrapper type allows dissociation with its contained resource. This is similar to how `std::unique_ptr` works with its internal pointer: it allows programmers to extract the pointer and leave its smart pointer container in a clean state. Similar logic is supported by `std::unique_lock` and can be implemented in custom lock wrappers. The detached lock retains its state (lock count and aliasing target, if any), while the wrapper is reset to contain zero lock count and no aliasing target, while retaining its own aliases. There's no operation on lock counts (releasing and acquiring). This annotation behaves exactly as `_Moves_lock_` except that the detached argument should be `return` rather than `this`.|
 
-## See Also
+## See also
 
 - [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
 - [Understanding SAL](../code-quality/understanding-sal.md)

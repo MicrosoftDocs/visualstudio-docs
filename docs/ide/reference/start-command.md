@@ -38,7 +38,7 @@ This example starts the debugger and ignores any exceptions that occur.
 >Debug.Start
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)
