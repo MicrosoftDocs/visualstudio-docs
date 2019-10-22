@@ -183,13 +183,13 @@ If the function succeeds when the return value is nonzero, use `return != 0` as 
 
 ```cpp
 // Incorrect
-_Success_(return == TRUE), _Acquires_lock_(*lpCriticalSection)
+_Success_(return == TRUE) _Acquires_lock_(*lpCriticalSection)
 BOOL WINAPI TryEnterCriticalSection(
   _Inout_ LPCRITICAL_SECTION lpCriticalSection
 );
 
 // Correct
-_Success_(return != 0), _Acquires_lock_(*lpCriticalSection)
+_Success_(return != 0) _Acquires_lock_(*lpCriticalSection)
 BOOL WINAPI TryEnterCriticalSection(
   _Inout_ LPCRITICAL_SECTION lpCriticalSection
 );
