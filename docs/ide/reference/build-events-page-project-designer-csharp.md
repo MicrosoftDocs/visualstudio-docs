@@ -1,6 +1,6 @@
 ---
 title: Build Events Page, Project Designer (C#)
-ms.date: 11/04/2016
+ms.date: 10/17/2019
 ms.technology: vs-ide-compile
 ms.topic: reference
 f1_keywords:
@@ -54,6 +54,33 @@ Specifies the following conditions for the post-build event to run, as shown in 
 |**Always**|Post-build event will run regardless of whether the build succeeds.|
 |**On successful build**|Post-build event will run if the build succeeds. Thus, the event will run even for a project that is up-to-date, as long as the build succeeds.|
 |**When the build updates the project output**|Post-build event will only run when the compiler's output file (.exe or .dll) is different than the previous compiler output file. Thus, a post-build event is not run if a project is up-to-date.|
+
+## In the project file
+
+In earlier versions of Visual Studio, when you change the **PreBuildEvent** or **PostBuildEvent** setting in the IDE, Visual Studio adds a `PreBuildEvent` or `PostBuildEvent` property to the project file. So for example, if your **PreBuildEvent** command line setting in the IDE is follows:
+
+```input
+"$(ProjectDir)PreBuildEvent.bat" "$(ProjectDir)..\" "$(ProjectDir)" "$(TargetDir)"
+```
+
+then the project file setting is:
+
+```xml
+<PropertyGroup>
+    <PreBuildEvent>"$(ProjectDir)PreBuildEvent.bat" "$(ProjectDir)..\" "$(ProjectDir)" "$(TargetDir)" />
+</PropertyGroup>
+```
+
+Visual Studio 2019 (and Visual Studio 2017 in more recent updates) adds an MSBuild target named `PreBuild` or `PostBuild` for **PreBuildEvent** and **PostBuildEvent** settings. For example, for the preceding example, Visual Studio now generates the following code:
+
+```xml
+<Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="&quot;$(ProjectDir)PreBuildEvent.bat&quot; &quot;$(ProjectDir)..\&quot; &quot;$(ProjectDir)&quot; &quot;$(TargetDir)&quot;" />
+</Target>
+```
+
+> [!NOTE]
+> These project file changes were made to support SDK-style projects. If you are migrating a project file from the old format to the SDK-style format manually, you should delete the `PreBuildEvent` and `PostBuildEvent` properties and replace them with `PreBuild` and `PostBuild` targets as shown in the preceding code. To find out how to tell if your project is an SDK-style project, see [Check project format](/nuget/resources/check-project-format).
 
 ## See also
 
