@@ -54,4 +54,4 @@ The articles in this section of the documentation discuss aspects of SAL, provid
 [Code Analysis Team Blog](https://blogs.msdn.microsoft.com/codeanalysis/)
 
 ## See Also
-[SAL 2.0 Annotations for Windows Drivers](https://docs.microsoft.com/windows-hardware/drivers/devtest/sal-2-annotations-for-windows-drivers)
+[SAL 2.0 Annotations for Windows Drivers](/windows-hardware/drivers/devtest/sal-2-annotations-for-windows-drivers)
