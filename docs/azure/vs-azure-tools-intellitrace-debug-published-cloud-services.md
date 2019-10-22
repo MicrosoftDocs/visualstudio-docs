@@ -23,7 +23,7 @@ As an alternative, you can use [remote debugging](https://docs.microsoft.com/vis
 >
 
 ## Configure an Azure application for IntelliTrace
-To enable IntelliTrace for an Azure application, you must create and publish the application from a Visual Studio Azure project. You must configure IntelliTrace for your Azure application before you publish it to Azure. If you publish your application without configuring IntelliTrace, you need to republish the project. For more information, see [Publishing an Azure cloud services projects using Visual Studio](https://docs.microsoft.com/visualstudio/azure/vs-azure-tools-publishing-a-cloud-service?view=vs-2019).
+To enable IntelliTrace for an Azure application, you must create and publish the application from a Visual Studio Azure project. You must configure IntelliTrace for your Azure application before you publish it to Azure. If you publish your application without configuring IntelliTrace, you need to republish the project. For more information, see [Publishing an Azure cloud services projects using Visual Studio](vs-azure-tools-publishing-a-cloud-service.md).
 
 1. When you are ready to deploy your Azure application, verify that your project build targets are set to **Debug**.
 
@@ -39,7 +39,7 @@ To enable IntelliTrace for an Azure application, you must create and publish the
 
     ![IntelliTrace settings link](./media/vs-azure-tools-intellitrace-debug-published-cloud-services/intellitrace-settings-link.png)
 
-1. In the **IntelliTrace Settings** dialog, you can specify which events to log, whether to collect call information, which modules and processes to collect logs for, and how much space to allocate to the recording. For more information about IntelliTrace, see [Debugging with IntelliTrace](https://docs.microsoft.com/visualstudio/debugger/intellitrace?view=vs-2015&redirectedfrom=MSDN).
+1. In the **IntelliTrace Settings** dialog, you can specify which events to log, whether to collect call information, which modules and processes to collect logs for, and how much space to allocate to the recording. For more information about IntelliTrace, see [Debugging with IntelliTrace](../debugger/IntelliTrace.md).
 
     ![IntelliTrace settings](./media/vs-azure-tools-intellitrace-debug-published-cloud-services/IC519063.png)
 
