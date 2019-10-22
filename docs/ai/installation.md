@@ -38,7 +38,7 @@ Before training deep learning models on your local computer, make sure you have 
 
 ### NVIDIA GPU driver
 
-Deep learning frameworks take advantage of NVIDIA GPU to let machines learn at a speed, accuracy, and scale towards true artificial intelligence. If your computer has NVIDIA GPU cards, see [NVIDIA Driver Downloads](http://www.nvidia.com/Download/index.aspx) or try an operating system update to install the latest driver.
+Deep learning frameworks take advantage of NVIDIA GPU to let machines learn at a speed, accuracy, and scale towards true artificial intelligence. If your computer has NVIDIA GPU cards, see [NVIDIA Driver Downloads](https://www.nvidia.com/Download/index.aspx) or try an operating system update to install the latest driver.
 
 ### CUDA
 
@@ -188,7 +188,7 @@ pip3.5 install Theano==0.9.0
 
 ### PyTorch
 
-[PyTorch](http://pytorch.org/) is a python package that provides two high-level features:
+[PyTorch](https://pytorch.org/) is a python package that provides two high-level features:
 
 - Tensor computation (like numpy) with strong GPU acceleration
 - Deep Neural Networks built on a tape-based autograd system
