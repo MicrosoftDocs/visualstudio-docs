@@ -104,7 +104,7 @@ See the following topics for more information.
 
 * For an overview, see [Shared Access Signature Authentication with Service Bus](https://msdn.microsoft.com/library/dn170477.aspx)
 * [How to use Shared Access Signature Authentication with Service Bus](https://msdn.microsoft.com/library/dn205161.aspx)
-* For a sample project, see [Using Shared Access Signature (SAS) authentication with Service Bus Subscriptions](https://docs.microsoft.com/samples/browse/?products=azure)
+* For a sample project, see [Using Shared Access Signature (SAS) authentication with Service Bus Subscriptions](/samples/browse/?products=azure)
 
 ## Consider using OnMessage method to avoid "receive loop"
 ### ID
@@ -390,7 +390,7 @@ Store connection strings in the configuration files or Azure environments.
 * For IIS-hosted web applications, use web.config to store connection strings.
 * For ASP.NET vNext applications, use configuration.json to store connection strings.
 
-For information on using configurations files such as web.config or app.config, see [ASP.NET Web Configuration Guidelines](https://msdn.microsoft.com/library/vstudio/ff400235\(v=vs.100\).aspx). For information on how Azure environment variables work, see [Azure Web Sites: How Application Strings and Connection Strings Work](https://azure.microsoft.com/blog/2013/07/17/windows-azure-web-sites-how-application-strings-and-connection-strings-work/). For information on storing connection string in source control, see [avoid putting sensitive information such as connection strings in files that are stored in source code repository](http://www.asp.net/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/source-control).
+For information on using configurations files such as web.config or app.config, see [ASP.NET Web Configuration Guidelines](https://msdn.microsoft.com/library/vstudio/ff400235\(v=vs.100\).aspx). For information on how Azure environment variables work, see [Azure Web Sites: How Application Strings and Connection Strings Work](https://azure.microsoft.com/blog/2013/07/17/windows-azure-web-sites-how-application-strings-and-connection-strings-work/). For information on storing connection string in source control, see [avoid putting sensitive information such as connection strings in files that are stored in source code repository](/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/source-control).
 
 ## Use diagnostics configuration file
 ### ID

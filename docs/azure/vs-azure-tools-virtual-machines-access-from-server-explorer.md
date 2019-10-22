@@ -23,7 +23,7 @@ If you have virtual machines hosted by Azure, you can access them in Server Expl
    | DNS Name |The URL with the Internet address of the virtual machine. |
    | Environment |For a virtual machine, the value of this property is always Production. |
    | Name |The name of the virtual machine. |
-   | Size |The size of the virtual machine, which reflects the amount of memory and disk space that’s available. For more information, see [Virtual Machine Sizes](https://docs.microsoft.com/azure/cloud-services/cloud-services-sizes-specs). |
+   | Size |The size of the virtual machine, which reflects the amount of memory and disk space that’s available. For more information, see [Virtual Machine Sizes](/azure/cloud-services/cloud-services-sizes-specs). |
    | Status |Values include Starting, Started, Stopping, Stopped, and Retrieving Status. If Retrieving Status appears, the current status is unknown. The values for this property differ from the values that are used on the [Azure portal](https://portal.azure.com). |
    | SubscriptionID |The subscription ID for your Azure account. You can show this information on the [Azure portal](https://portal.azure.com) by viewing the properties for a subscription. |
 2. Choose an endpoint node, and then view the **Properties** window.

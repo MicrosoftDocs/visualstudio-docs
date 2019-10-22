@@ -14,7 +14,7 @@ ms.author: mikejo
 You can test the performance of a cloud service in the following ways:
 
 * Use Azure Diagnostics to collect information about requests and connections, and to review site statistics that show how the service performs from a customer perspective. To get started with , see [Configuring diagnostics for Azure Cloud Services and Virtual Machines](vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md).
-* Use the Visual Studio profiler to get an in-depth analysis of the computational aspects of how the service runs. As this topic describes, you can use the profiler to measure performance as a service runs in Azure. For information about how to use the profiler to measure performance as a service runs locally in a compute emulator, see [Testing the Performance of an Azure Cloud Service Locally in the Compute Emulator Using the Visual Studio Profiler](https://docs.microsoft.com/azure/cloud-services/cloud-services-performance-testing-visual-studio-profiler).
+* Use the Visual Studio profiler to get an in-depth analysis of the computational aspects of how the service runs. As this topic describes, you can use the profiler to measure performance as a service runs in Azure. For information about how to use the profiler to measure performance as a service runs locally in a compute emulator, see [Testing the Performance of an Azure Cloud Service Locally in the Compute Emulator Using the Visual Studio Profiler](/azure/cloud-services/cloud-services-performance-testing-visual-studio-profiler).
 
 ## Choosing a performance testing method
 ### Use Azure Diagnostics to collect:
