@@ -29,7 +29,7 @@ SQL Server is the Microsoft flagship database offering. SQL Server 2016 delivers
 
 ## Oracle
 
-You can download a paid or free edition of the Oracle database from the [Oracle technology network](https://www.oracle.com/database/technologies/oracle-database-software-downloads.html) page. For design-time support for Entity Framework and TableAdapters, you will need the [Oracle Developer tools for Visual Studio](http://www.oracle.com/technetwork/developer-tools/visual-studio/overview/index.html). Other official Oracle products, including the Oracle Instant Client, are available through the NuGet Package Manager. You can download Oracle sample schemas by following the instructions in the [Oracle online documentation](http://docs.oracle.com/cd/E11882_01/server.112/e10831/toc.htm).
+You can download a paid or free edition of the Oracle database from the [Oracle technology network](https://www.oracle.com/database/technologies/oracle-database-software-downloads.html) page. For design-time support for Entity Framework and TableAdapters, you will need the [Oracle Developer tools for Visual Studio](https://www.oracle.com/database/technologies/developer-tools/visual-studio/). Other official Oracle products, including the Oracle Instant Client, are available through the NuGet Package Manager. You can download Oracle sample schemas by following the instructions in the [Oracle online documentation](https://docs.oracle.com/cd/E11882_01/server.112/e10831/toc.htm).
 
 ## MySQL
 
