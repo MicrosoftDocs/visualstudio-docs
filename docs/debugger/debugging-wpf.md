@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # Debugging WPF
+
 [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] provides additional features to make debugging WPF applications easier.
 
 ## Related Topics
