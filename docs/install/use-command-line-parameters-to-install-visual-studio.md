@@ -214,11 +214,11 @@ Replace `vs_enterprise.exe` as appropriate for the product edition you're instal
 
 ::: moniker-end
 
-## List of workload IDs and component IDs
+## Workload IDs and component IDs
 
 For a list of workload and component IDs sorted by Visual Studio product, see the [Visual Studio workload and component IDs](workload-and-component-ids.md) page.
 
-## List of language locales
+## Language locales
 
 | **Language-locale** | **Language** |
 | ----------------------- | --------------- |
