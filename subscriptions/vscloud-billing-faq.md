@@ -91,14 +91,13 @@ Also, the discount only applies to charges in a given monthly billing period. So
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
 ## Other questions
-### Q: Can I use the monthly Azure credits as a Visual Studio subscriber to buy more Visual Studio cloud subscriptions?
-A: No, you can't use your [monthly Azure credits](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/) as a Visual Studio subscriber to pay for Visual Studio Marketplace purchases. Any Visual Studio cloud subscription purchases will be billed to your credit card.
+### Q: Can I use the monthly Azure DevTest individual credit as a Visual Studio subscriber to buy more Visual Studio cloud subscriptions?
+A: No, you can't use your [monthly Azure DevTest individual credit](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/) as a Visual Studio subscriber to pay for Visual Studio Marketplace purchases. Any Visual Studio cloud subscription purchases will be billed to your credit card.
 Before you make purchases, you will need to [remove your spending limit](https://azure.microsoft.com/pricing/spending-limits/).
 
 ### Q: What's the difference between annual and monthly cloud subscriptions?
 A:  Monthly cloud subscriptions include Visual Studio plus use of Azure DevOps Services and TFS. Annual cloud subscriptions have this too, but also include subscriber
-benefits, including use of Windows and other Microsoft software to install and run for development and testing, a monthly Azure credit to use for
-experimenting with Azure services and doing development and testing in the cloud, training, support, and much more.
+benefits, including use of Windows and other Microsoft software to install and run for development and testing, a monthly Azure DevTest indiviual credit to use for experimenting with Azure services and doing development and testing in the cloud, training, support, and much more.
 [Compare cloud subscription benefits and pricing](https://visualstudio.microsoft.com/vs/pricing/)
 
 ### Q: Do I get new versions of Visual Studio if I buy a Visual Studio cloud subscription?
