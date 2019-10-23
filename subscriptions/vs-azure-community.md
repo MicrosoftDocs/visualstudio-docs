@@ -64,4 +64,4 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## Next steps
-Did you know that many Visual Studio subscriptions come with Azure credits?  Learn how to [activate](vs-azure.md) yours.
+Did you know that many Visual Studio subscriptions come with Azure DevTest individual credit?  Learn how to [activate](vs-azure.md) yours.

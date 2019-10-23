@@ -25,7 +25,7 @@
 ### [Contact your subscriptions administrator](contact-my-admin.md)
 ### Benefits
 #### Tools
-##### [Azure credit](vs-azure.md)
+##### [Azure DevTest individual credit](vs-azure.md)
 ##### [Azure DevOps](vs-azure-devops.md)
 ##### [Azure Pay-As-You-Go](vs-azure-payg.md)
 ##### [CAST Highlight](vs-cast.md)

@@ -52,8 +52,7 @@ With the Action Pack, the partner earns **3 Visual Studio Professional (MPN) sub
 
 Visual Studio Professional (MPN) subscribers can also download and use software for their development, including the SQL Server Developer Edition.
 
-The Visual Studio Professional (MPN) subscription does not include Azure DevOps Services benefits, monthly Azure credits, technical support, training, or other subscriber benefits that are available
-with Visual Studio subscriptions that are offered commercially.
+The Visual Studio Professional (MPN) subscription does not include Azure DevOps Services benefits, Azure DevTest individiaul credit, technical support, training, or other subscriber benefits that are available with Visual Studio subscriptions that are offered commercially.
 
 ## Internal use-only restriction
 
