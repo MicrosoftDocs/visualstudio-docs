@@ -11,7 +11,7 @@ ms.workload:
 ---
 # Images and Icons for Visual Studio
 ## <a name="BKMK_ImageUseInVisualStudio"></a> Image use in Visual Studio
- Before creating artwork, consider making use of the 1,000+ images in the [Visual Studio Image Library](http://www.microsoft.com/en-my/download/details.aspx?id=35825).
+ Before creating artwork, consider making use of the 1,000+ images in the [Visual Studio Image Library](https://www.microsoft.com/en-my/download/details.aspx?id=35825).
 
 ### Types of images
 
