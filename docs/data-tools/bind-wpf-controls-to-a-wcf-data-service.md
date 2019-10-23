@@ -40,7 +40,7 @@ You need the following components to complete this walkthrough:
 
 - Visual Studio
 
-- Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex website](http://go.microsoft.com/fwlink/?linkid=87843).
+- Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex website](https://archive.codeplex.com/?p=SqlServerSamples).
 
 Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:
 
