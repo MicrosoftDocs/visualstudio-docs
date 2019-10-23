@@ -5,10 +5,10 @@ ms.author: lank
 manager: lank
 ms.date: 07/29/2019
 ms.topic: conceptual
-description:  Learn how to activate the Azure benefit included in your Visual Studio subscription.
+description:  Learn how to activate the Azure DevTest individual credit benefit included in your Visual Studio subscription.
 ---
 # Use Microsoft Azure in Visual Studio subscriptions
-As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  With your [monthly Azure credit](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/), Azure is your personal sandbox for dev/test.  You can provision virtual machines, cloud services, and other Azure resources.  Credit amounts vary by subscription level.
+As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  With your [monthly Azure DevTest individual credit](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/), Azure is your personal sandbox for dev/test.  You can provision virtual machines, cloud services, and other Azure resources.  Credit amounts vary by subscription level.
 
 ## Activation Steps
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
@@ -73,9 +73,9 @@ A:  You’re receiving this email because you use the Azure benefit associated w
 
 **Recommended action:**
 
-To continue using your Visual Studio Azure credit and discounts, take one of the following steps:
+To continue using your Visual Studio Azure DevTest individual credit and discounts, take one of the following steps:
 
-If someone in your team or organization purchases subscriptions on your behalf, contact your organization’s Visual Studio administrator and request a Visual Studio subscription that entitles you to the Azure monthly credit amount you need.   Please request the administrator to assign the new subscription to the same user ID that your previous subscription was assigned to, so that you don’t have to worry about transferring your Azure subscription.
+If someone in your team or organization purchases subscriptions on your behalf, contact your organization’s Visual Studio administrator and request a Visual Studio subscription that entitles you to the Azure DevTest individual credit amount you need.   Please request the administrator to assign the new subscription to the same user ID that your previous subscription was assigned to, so that you don’t have to worry about transferring your Azure subscription.
 
 If you can purchase a subscription directly, please do one of the following:
 1. Purchase an annual Visual Studio [Enterprise](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-annual) or [Professional](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-annual) cloud subscription through the Visual Studio Marketplace.

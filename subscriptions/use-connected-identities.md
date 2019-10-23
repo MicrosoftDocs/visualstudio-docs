@@ -21,7 +21,7 @@ If your administrator connects your MSA and Azure AD identities, you'll receive 
 After your admin has connected your MSA to your Azure AD identity, you'll need to sign in to the subscriber portal at https://my.visualstudio.com with your Azure AD identity to access benefits that rely on Azure AD.  These include:
 - Visual Studio IDE
 - Azure DevOps
-- Azure credits
+- Azure DevTest individual credit
 
 ## How to access benefits using your MSA
 For many of the benefits offered in Visual Studio subscriptions such as Pluralsight, LinkedIn, CloudPilot and others, you actually create user accounts on the partners' web sites.  For those accounts, you should continue to use the identity you used when you created the account.  For example, if you activated your Pluralsight benefit using your MSA, you should continue to use your MSA when taking Pluralsight training, regardless of the identity you use to sign into the subscriber portal.  
@@ -34,4 +34,4 @@ Adding an alternate account to your Visual Studio subscription allows you to acc
 A:  Please see our [Contact your subscriptions administrator](contact-my-admin.md) article for information about contacting your admin.  
 
 ## Next steps
-After your admin connects your Azure AD and MSA accounts, we recommend verifying that you can successfully sign in to the [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and access benefits like Azure DevOps, Visual Studio, and your Azure credits. 
+After your admin connects your Azure AD and MSA accounts, we recommend verifying that you can successfully sign in to the [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and access benefits like Azure DevOps, Visual Studio, and your Azure DevTest individual credit. 
