@@ -514,7 +514,7 @@ The return value of a function resembles an `_Out_` parameter but is at a differ
 
 ## Related Resources
 
-[Code Analysis Team Blog](http://go.microsoft.com/fwlink/?LinkId=251197)
+[Code Analysis Team Blog](https://blogs.msdn.microsoft.com/codeanalysis/)
 
 ## See also
 

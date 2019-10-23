@@ -24,7 +24,7 @@ ms.workload:
 ---
 # Code analysis for C/C++ overview
 
-The C/C++ Code Analysis tool provides information about possible defects in your C/C++ source code. Common coding errors reported by the tool include buffer overruns, uninitialized memory, null pointer dereferences, and memory and resource leaks. The tool can also run checks against the [C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md).
+The C/C++ Code Analysis tool provides information about possible defects in your C/C++ source code. Common coding errors reported by the tool include buffer overruns, uninitialized memory, null pointer dereferences, and memory and resource leaks. The tool can also run checks against the [C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md).
 
 ## IDE (integrated development environment) integration
 
@@ -44,7 +44,7 @@ C:\>cl /analyze Sample.cpp
 
 ## #pragma support
 
-You can use the `#pragma` directive to treat warnings as errors; enable or disable warnings, and suppress warnings for individual lines of code. For more information, see [Pragma Directives and the __Pragma Keyword](https://docs.microsoft.com/cpp/preprocessor/pragma-directives-and-the-pragma-keyword).
+You can use the `#pragma` directive to treat warnings as errors; enable or disable warnings, and suppress warnings for individual lines of code. For more information, see [Pragma Directives and the __Pragma Keyword](/cpp/preprocessor/pragma-directives-and-the-pragma-keyword).
 
 ## Annotation support
 
