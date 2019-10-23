@@ -33,7 +33,7 @@ You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version
 <a name="iis"></a>
 - Select **Development time IIS support** when installing Visual Studio. (If necessary, rerun the Visual Studio Installer, select **Modify**, and add this component.)
 - Be running Visual Studio as an administrator.
-- Install and correctly configure IIS with the appropriate version(s) of ASP.NET and/or ASP.NET Core. For more information and instructions, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) or [Host ASP.NET Core on Windows with IIS](https://docs.microsoft.com/aspnet/core/host-and-deploy/iis/index).
+- Install and correctly configure IIS with the appropriate version(s) of ASP.NET and/or ASP.NET Core. For more information and instructions, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) or [Host ASP.NET Core on Windows with IIS](/aspnet/core/host-and-deploy/iis/index).
 - Make sure the app runs on IIS without errors.
 
 ## Debug ASP.NET apps
