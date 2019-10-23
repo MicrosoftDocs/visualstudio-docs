@@ -23,7 +23,7 @@ In summary, the steps are performed in the DslPackage project as follows:
 
 3. [Write methods in the CommandSet class](#CommandSet) to make the command visible and to define what you want the command to do.
 
-   For samples, see the [Visualization and Modeling SDK website](http://go.microsoft.com/fwlink/?LinkID=185579).
+   For samples, see the [Visualization and Modeling SDK website](https://visualstudio.microsoft.com/).
 
 > [!NOTE]
 > You can also modify the behavior of some existing commands such as Cut, Paste, Select All, and Print by overriding methods in CommandSet.cs. For more information, see [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md).
