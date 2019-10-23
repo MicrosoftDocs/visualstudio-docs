@@ -22,6 +22,9 @@ You can use the WPF Tree visualizer to explore the visual tree of a WPF object, 
 
  When you open the WPF Tree visualizer, you will see two panes: the **Visual Tree** on the left and the **Properties of** _Name_**:**_Type_ pane on the right. Select any object in the **Visual Tree** pane, and the **Properties of** _Name_**:**_Type_ pane is automatically updated to show the properties for that object.
 
+ > [!NOTE]
+ > You can also use the [Live Visual Tree and Live Property Explorer](../xaml-tools/inspect-xaml-properties-while-debugging.md) to examine the visual tree of WPF objects. The WPF Tree Visualizer is a legacy feature and is not in active development.
+
 ### To open the WPF Tree visualizer
 
 1. In a DataTip, **Watch** window, **Autos** window, or **Locals** window, next to a WPF object name, click the arrow adjacent to the magnifying glass icon.
