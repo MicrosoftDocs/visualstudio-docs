@@ -58,4 +58,4 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## Next steps
-Azure is your personal sandbox for dev/test.  You can provision virtual machines, cloud services, and other Azure resources. Be sure to activate your [Azure benefit](vs-azure.md) to get started using Azure with monthly credits.
+Azure is your personal sandbox for dev/test.  You can provision virtual machines, cloud services, and other Azure resources. Be sure to activate your [Azure benefit](vs-azure.md) to get started using your Azure DevTest individual credit.

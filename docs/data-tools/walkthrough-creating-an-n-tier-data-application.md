@@ -42,7 +42,7 @@ During this walkthrough, you perform the following steps:
 
 - Write code to populate the data tables.
 
-![link to video](../data-tools/media/playvideo.gif) For a video version of this topic, see [Video How to: Creating an n-tier data application](http://go.microsoft.com/fwlink/?LinkId=115188).
+![link to video](../data-tools/media/playvideo.gif) For a video version of this topic, see [Video How to: Creating an n-tier data application](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2008/cc178916(v=vs.90)).
 
 ## Prerequisites
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.

@@ -51,7 +51,7 @@ The articles in this section of the documentation discuss aspects of SAL, provid
      Provides examples that show how to use SAL annotations. Also explains common pitfalls.
 
 ## Related Resources
-[Code Analysis Team Blog](http://go.microsoft.com/fwlink/?LinkId=251197)
+[Code Analysis Team Blog](https://blogs.msdn.microsoft.com/codeanalysis/)
 
-## See also
-[SAL 2.0 Annotations for Windows Drivers](http://go.microsoft.com/fwlink/?LinkId=250979)
+## See Also
+[SAL 2.0 Annotations for Windows Drivers](/windows-hardware/drivers/devtest/sal-2-annotations-for-windows-drivers)

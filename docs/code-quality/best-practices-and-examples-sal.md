@@ -182,15 +182,14 @@ The expression `result` refers to a post-state value that is not available in pr
 If the function succeeds when the return value is nonzero, use `return != 0` as the success condition instead of `return == TRUE`. Nonzero does not necessarily mean equivalence to the actual value that the compiler provides for `TRUE`. The parameter to `_Success_` is an expression, and the following expressions are evaluated as equivalent: `return != 0`, `return != false`, `return != FALSE`, and `return` with no parameters or comparisons.
 
 ```cpp
-
 // Incorrect
-_Success_(return == TRUE, _Acquires_lock_(*lpCriticalSection))
+_Success_(return == TRUE) _Acquires_lock_(*lpCriticalSection)
 BOOL WINAPI TryEnterCriticalSection(
   _Inout_ LPCRITICAL_SECTION lpCriticalSection
 );
 
 // Correct
-_Success_(return != 0, _Acquires_lock_(*lpCriticalSection))
+_Success_(return != 0) _Acquires_lock_(*lpCriticalSection)
 BOOL WINAPI TryEnterCriticalSection(
   _Inout_ LPCRITICAL_SECTION lpCriticalSection
 );

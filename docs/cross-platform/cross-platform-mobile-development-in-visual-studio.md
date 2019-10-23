@@ -27,7 +27,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
 |**Learn more**|
 |--------------------|
-|[Install Visual Studio](http://visualstudio.microsoft.com/products/visual-studio-community-vs) (VisualStudio.com)|
+|[Install Visual Studio](https://visualstudio.microsoft.com/vs/community/) (VisualStudio.com)|
 |[Learn about Xamarin in Visual Studio](https://visualstudio.microsoft.com/xamarin/) (VisualStudio.com)|
 |[Xamarin mobile app development documentation](/xamarin/) |
 |[DevOps with Xamarin apps](/xamarin/tools/ci/devops/) |
@@ -102,9 +102,9 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
 |**Learn more**|
 |--------------------|
-|[Install Visual Studio](http://visualstudio.microsoft.com/products/visual-studio-community-vs) (VisualStudio.com)|
+|[Install Visual Studio](https://visualstudio.microsoft.com/vs/community/) (VisualStudio.com)|
 |[Get started with Visual Studio Tools for Apache Cordova](/visualstudio/cross-platform/tools-for-cordova/)|
-|[Learn about the Visual Studio Emulator for Android](http://visualstudio.microsoft.com/explore/msft-android-emulator-vs) (VisualStudio.com)|
+|[Learn about the Visual Studio Emulator for Android](https://visualstudio.microsoft.com/vs/msft-android-emulator/) (VisualStudio.com)|
 
 ::: moniker-end
 
@@ -134,7 +134,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
 |**Learn more**|
 |--------------------|
-|[Download Visual Studio](http://visualstudio.microsoft.com/products/visual-studio-community-vs) (VisualStudio.com)|
+|[Download Visual Studio](https://visualstudio.microsoft.com/vs/community/) (VisualStudio.com)|
 |[Install cross-platform mobile development with C++](install-visual-cpp-for-cross-platform-mobile-development.md)|
 |[Learn more about using C++ to target multiple platforms](https://visualstudio.microsoft.com/vs/cplusplus-mdd/) (VisualStudio.com)|
 |[Install what you need, and then create a native activity application for Android](create-an-android-native-activity-app.md)|
@@ -157,8 +157,8 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |[Read more about Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) |
 |[Start using Visual Studio Tools for Unity](../cross-platform/getting-started-with-visual-studio-tools-for-unity.md) |
 |[Read about the latest enhancements to the Visual Studio Tools for Unity 2.0 Preview](https://devblogs.microsoft.com/visualstudio/visual-studio-tools-for-unity-2-0-preview/) (Visual Studio blog)|
-|[Watch a video introduction to the Visual Studio Tools for Unity 2.0 Preview](http://www.bing.com/videos/search?q=visual+studio+tools+for+unity&qs=n&form=QBVLPG&pq=visual+studio+tools+for+unity&sc=6-29&sp=-1&sk=#view=detail&mid=0A13177F0BC7463A24080A13177F0BC7463A2408) (Video)|
-|[Learn about Unity](http://unity3d.com/) (Unity website)|
+|[Watch a video introduction to the Visual Studio Tools for Unity 2.0 Preview](https://www.bing.com/videos/search?q=visual+studio+tools+for+unity&qs=n&form=QBVLPG&pq=visual+studio+tools+for+unity&sc=6-29&sp=-1&sk=#view=detail&mid=0A13177F0BC7463A24080A13177F0BC7463A2408) (Video)|
+|[Learn about Unity](https://unity.com/) (Unity website)|
 
 ## See also
 
