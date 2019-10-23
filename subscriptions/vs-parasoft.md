@@ -87,4 +87,4 @@ Test earlier and more often.  Simulate and test the behavior of unavailable evol
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## Next steps
-Take advantage of your own development sandbox by activating your [Azure credits](vs-azure.md). 
+Take advantage of your own development sandbox by activating your [Azure DevTest individual credit](vs-azure.md). 
