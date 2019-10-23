@@ -25,9 +25,9 @@ If Visual Studio Build Tools does not have what you require to build your source
 ## Before you begin
 
 Some familiarity with [Docker](https://www.docker.com/what-docker) is assumed below. If you're not already familiar
-with running Docker on Windows, read about how to [install and configure the Docker engine on Windows](https://docs.microsoft.com/virtualization/windowscontainers/manage-docker/configure-docker-daemon).
+with running Docker on Windows, read about how to [install and configure the Docker engine on Windows](/virtualization/windowscontainers/manage-docker/configure-docker-daemon).
 
-The base image below is a sample and may not work for your system. Read [Windows container version compatibility](https://docs.microsoft.com/virtualization/windowscontainers/deploy-containers/version-compatibility)
+The base image below is a sample and may not work for your system. Read [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility)
 to determine which base image you should use for your environment.
 
 ## Create and build the Dockerfile
@@ -89,7 +89,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    >
    > Visual Studio 2017 version 15.8 or earlier (any product) will not properly install on mcr.microsoft.com/windows/servercore:1809 or later. No error is displayed.
    >
-   > See [Windows container version compatibility](https://docs.microsoft.com/virtualization/windowscontainers/deploy-containers/version-compatibility) to see which container OS versions are supported on which host OS versions, and [Known issues for containers](build-tools-container-issues.md) for known issues.
+   > See [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility) to see which container OS versions are supported on which host OS versions, and [Known issues for containers](build-tools-container-issues.md) for known issues.
 
    ::: moniker-end
 
@@ -127,7 +127,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    > [!WARNING]
    > If you base your image directly on microsoft/windowsservercore, the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on [microsoft/dotnet-framework:4.8](https://hub.docker.com/r/microsoft/dotnet-framework) or later. Also note that images that are tagged version 4.8 or later might use PowerShell as the default `SHELL`, which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
    >
-   > See [Windows container version compatibility](https://docs.microsoft.com/virtualization/windowscontainers/deploy-containers/version-compatibility) to see which container OS versions are supported on which host OS versions, and [Known issues for containers](build-tools-container-issues.md) for known issues.
+   > See [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility) to see which container OS versions are supported on which host OS versions, and [Known issues for containers](build-tools-container-issues.md) for known issues.
 
    ::: moniker-end
 
