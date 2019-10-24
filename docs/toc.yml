@@ -575,7 +575,7 @@
     - name: Use the keyboard exclusively
       displayName: accessibility
       href: ide/reference/how-to-use-the-keyboard-exclusively.md
-  - name: Work with specific file types and apps
+  - name: Tools for working with specific file types and apps
     items:
     - name: Windows Forms apps
       items:
