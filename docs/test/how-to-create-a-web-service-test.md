@@ -17,7 +17,7 @@ You can use a web performance test to test web services. By using the **Insert R
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
-The following procedures use a web service that is contained within the Commerce Starter Kit. You can download it from [ASP.NET commerce starter kit](http://go.microsoft.com/fwlink/?LinkId=181469).
+The following procedures use a web service that is contained within the Commerce Starter Kit. You can download it from [ASP.NET commerce starter kit](https://dotnet.microsoft.com/download).
 
 **Requirements**
 
