@@ -39,7 +39,7 @@ To enable IntelliTrace for an Azure application, you must create and publish the
 
     ![IntelliTrace settings link](./media/vs-azure-tools-intellitrace-debug-published-cloud-services/intellitrace-settings-link.png)
 
-1. In the **IntelliTrace Settings** dialog, you can specify which events to log, whether to collect call information, which modules and processes to collect logs for, and how much space to allocate to the recording. For more information about IntelliTrace, see [Debugging with IntelliTrace](../debugger/IntelliTrace.md).
+1. In the **IntelliTrace Settings** dialog, you can specify which events to log, whether to collect call information, which modules and processes to collect logs for, and how much space to allocate to the recording. For more information about IntelliTrace, see [Debugging with IntelliTrace](../debugger/intellitrace.md).
 
     ![IntelliTrace settings](./media/vs-azure-tools-intellitrace-debug-published-cloud-services/IC519063.png)
 
