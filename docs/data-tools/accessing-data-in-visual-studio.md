@@ -88,7 +88,7 @@ If you are connecting to Azure services, be sure to download the latest [Azure S
 
 ### Data providers
 
-For a database to be consumable in ADO.NET, it must have a custom *ADO.NET data provider* or else must expose an ODBC or OLE DB interface. Microsoft provides a [list of ADO.NET data providers](https://docs.microsoft.com/dotnet/framework/data/adonet/ado-net-overview) for SQL Server products, as well as ODBC and OLE DB providers.
+For a database to be consumable in ADO.NET, it must have a custom *ADO.NET data provider* or else must expose an ODBC or OLE DB interface. Microsoft provides a [list of ADO.NET data providers](/dotnet/framework/data/adonet/ado-net-overview) for SQL Server products, as well as ODBC and OLE DB providers.
 
 ### Data modeling
 
@@ -141,7 +141,7 @@ Install [Python support in Visual Studio](../python/overview-of-python-tools-for
 
 [ADO.NET](/dotnet/framework/data/adonet/index)&mdash;Describes the ADO.NET architecture and how to use the ADO.NET classes to manage application data and interact with data sources and XML.
 
-[ADO.NET Entity Framework](https://docs.microsoft.com/ef/ef6/)&mdash;Describes how to create data applications that allow developers to program against a conceptual model instead of directly against a relational database.
+[ADO.NET Entity Framework](/ef/ef6/)&mdash;Describes how to create data applications that allow developers to program against a conceptual model instead of directly against a relational database.
 
 [WCF Data Services 4.5](/dotnet/framework/data/wcf/index)&mdash;Describes how to use [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] to deploy data services on the web or an intranet that implement the [Open Data Protocol (OData)](https://www.odata.org/).
 

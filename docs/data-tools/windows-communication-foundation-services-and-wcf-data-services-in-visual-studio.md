@@ -46,7 +46,7 @@ Windows Communication Foundation (WCF) is a unified framework for creating secur
 
 ### What are WCF Data Services
 
-WCF Data Services is an implementation of the Open Data (OData) Protocol standard.  WCF Data Services lets you expose tabular data as a set of REST APIs, allowing you to return data using standard HTTP verbs such as GET, POST, PUT, or DELETE. On the server side, WCF Data Services are being superseded by [ASP.NET Web API](http://www.asp.net/web-api) for creating new OData services. The WCF Data Services client library continues to be a good choice for consuming OData services in a .NET application from Visual Studio (**Project** > **Add Service Reference**). For more information, see [WCF Data Services 4.5](http://go.microsoft.com/fwlink/?LinkID=119952).
+WCF Data Services is an implementation of the Open Data (OData) Protocol standard.  WCF Data Services lets you expose tabular data as a set of REST APIs, allowing you to return data using standard HTTP verbs such as GET, POST, PUT, or DELETE. On the server side, WCF Data Services are being superseded by [ASP.NET Web API](https://dotnet.microsoft.com/apps/aspnet/apis) for creating new OData services. The WCF Data Services client library continues to be a good choice for consuming OData services in a .NET application from Visual Studio (**Project** > **Add Service Reference**). For more information, see [WCF Data Services 4.5](http://go.microsoft.com/fwlink/?LinkID=119952).
 
 ### WCF programming model
 
