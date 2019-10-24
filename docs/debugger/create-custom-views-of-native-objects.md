@@ -24,7 +24,7 @@ Natvis replaces the *autoexp.dat* file in earlier versions of Visual Studio with
 
 You use the Natvis framework to create visualization rules for the types you create, so that developers can see them more easily during debugging.
 
-For example, the following illustration shows a variable of type [Windows::UI::Xaml::Controls::TextBox](http://go.microsoft.com/fwlink/?LinkId=258422) in a debugger window without any custom visualizations applied.
+For example, the following illustration shows a variable of type [Windows::UI::Xaml::Controls::TextBox](/uwp/api/Windows.UI.Xaml.Controls.TextBox) in a debugger window without any custom visualizations applied.
 
 ![TextBox default visualization](../debugger/media/dbg_natvis_textbox_default.png "TextBox default visualization")
 

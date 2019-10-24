@@ -153,7 +153,7 @@ If Just-In-Time debugging doesn't start when an app crashes, even though it is e
 
   - (For 64-bit machines): **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows\Windows Error Reporting**
 
-  For more information, see [.WER settings](https://docs.microsoft.com/windows/desktop/wer/wer-settings).
+  For more information, see [.WER settings](/windows/desktop/wer/wer-settings).
 
 - A known Windows issue may be causing the Just-In-Time debugger to fail.
 
