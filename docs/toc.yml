@@ -575,9 +575,83 @@
     - name: Use the keyboard exclusively
       displayName: accessibility
       href: ide/reference/how-to-use-the-keyboard-exclusively.md
-- name: Use specialized IDE tools for certain file and app types
+- name: Compile and build
   items:
-  - name: Windows Forms development
+  - name: Overview
+    displayName: Compile build
+    href: ide/compiling-and-building-in-visual-studio.md
+  - name: "Walkthrough: Build an application"
+    href: ide/walkthrough-building-an-application.md
+  - name: Build and clean projects and solutions
+    items:
+    - name: Overview
+      displayName: Build clean
+      href: ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md
+    - name: Change the build output directory
+      href: ide/how-to-change-the-build-output-directory.md
+    - name: Build to a common output directory
+      href: ide/how-to-build-to-a-common-output-directory.md
+    - name: Specify custom build events
+      href: ide/specifying-custom-build-events-in-visual-studio.md
+    - name: Set multiple startup projects
+      href: ide/how-to-set-multiple-startup-projects.md
+    - name: Create and remove project dependencies
+      href: ide/how-to-create-and-remove-project-dependencies.md
+    - name: View, save, and configure build log files
+      href: ide/how-to-view-save-and-configure-build-log-files.md
+    - name: Exclude projects from a build
+      href: ide/how-to-exclude-projects-from-a-build.md
+    - name: Suppress compiler warnings
+      href: ide/how-to-suppress-compiler-warnings.md
+  - name: Build actions
+    href: ide/build-actions.md
+  - name: Build configurations
+    items:
+    - name: Understand build configurations
+      href: ide/understanding-build-configurations.md
+    - name: Create and edit configurations
+      href: ide/how-to-create-and-edit-configurations.md
+    - name: Manage build configurations with Visual Basic developer settings
+      href: ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md
+    - name: Build multiple configurations simultaneously
+      href: ide/how-to-build-multiple-configurations-simultaneously.md
+  - name: Build platforms
+    items:
+    - name: Understand build platforms
+      href: ide/understanding-build-platforms.md
+    - name: Configure projects to target a platform
+      href: ide/how-to-configure-projects-to-target-platforms.md
+    - name: Configure projects to target multiple platforms
+      href: ide/how-to-configure-projects-to-target-multiple-platforms.md
+  - name: MSBuild >>
+    href: msbuild/msbuild.md
+  - name: Azure Pipelines and TFS >>
+    displayName: VSTS Azure DevOps CI/CD Continuous integration delivery
+    href: /azure/devops/pipelines/index?view=vsts
+  - name: Specify build events (Visual Basic)
+    href: ide/how-to-specify-build-events-visual-basic.md
+  - name: Specify build events (C#)
+    href: ide/how-to-specify-build-events-csharp.md
+  - name: Configure warnings in Visual Basic
+    href: ide/configuring-warnings-in-visual-basic.md
+  - name: "Walkthrough: Create a multiple-computer build environment"
+    href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
+- name: Debug >>
+  href: debugger/index.yml
+- name: Test >>
+  displayName: Unit testing
+  href: test/improve-code-quality.md
+- name: Measure performance >>
+  displayName: Profiling
+  href: profiling/index.yml
+- name: Analyze code quality >>
+  displayName: Code analysis FxCop Analyzers
+  href: code-quality/index.yml
+- name: Deploy >>
+  href: deployment/index.yml
+- name: Tools for specific types of development
+  items:
+  - name: Work with Windows Forms
     items:
     - name: Windows Forms Designer overview
       href: designers/windows-forms-designer-overview.md
@@ -668,35 +742,13 @@
           href: ide/step-8-add-a-method-to-verify-whether-the-player-won.md
         - name: "Step 9: Try other features"
           href: ide/step-9-try-other-features.md
-  - name: Cross-platform mobile development
-    href: cross-platform/cross-platform-mobile-development-in-visual-studio.md
-  - name: F# in Visual Studio
+  - name: Work with F#
     items:
     - name: F# development
       href: ide/fsharp-visual-studio.md
     - name: Target older .NET versions
       href: ide/fsharp-target-older-dotnet-versions.md
-  - name: Office and SharePoint development >>
-    href: vsto/office-and-sharepoint-development-in-visual-studio.md
-  - name: Work with XML and XSLT files >>
-    href: xml-tools/xml-tools-in-visual-studio.md
-  - name: Develop with containers >>
-    href: containers/index.yml
-  - name: Develop inclusive apps
-    items:
-    - name: Design accessible apps
-      href: ide/reference/resources-for-designing-accessible-applications.md
-    - name: Design international apps
-      displayName: Globalization localization world-ready
-      href: ide/globalizing-and-localizing-applications.md
-  - name: Use XAML tools >>
-    href: xaml-tools/index.yml
-  - name: Access data >>
-    displayName: Data connections
-    href: data-tools/accessing-data-in-visual-studio.md
-  - name: Develop apps with Workflow Designer >>
-    href: workflow-designer/developing-applications-with-the-workflow-designer.md
-  - name: 3D assets
+  - name: Work with 3D graphical assets
     items:
     - name: Work with 3D assets for games and apps
       href: designers/working-with-3-d-assets-for-games-and-apps.md
@@ -780,86 +832,34 @@
         href: designers/how-to-export-a-texture-that-has-premultiplied-alpha.md
       - name: Export a texture for use with Direct2D or JavaScript apps
         href: designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md
-- name: Compile and build
-  items:
-  - name: Overview
-    displayName: Compile build
-    href: ide/compiling-and-building-in-visual-studio.md
-  - name: "Walkthrough: Build an application"
-    href: ide/walkthrough-building-an-application.md
-  - name: Build and clean projects and solutions
+  - name: Develop inclusive apps
     items:
-    - name: Overview
-      displayName: Build clean
-      href: ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md
-    - name: Change the build output directory
-      href: ide/how-to-change-the-build-output-directory.md
-    - name: Build to a common output directory
-      href: ide/how-to-build-to-a-common-output-directory.md
-    - name: Specify custom build events
-      href: ide/specifying-custom-build-events-in-visual-studio.md
-    - name: Set multiple startup projects
-      href: ide/how-to-set-multiple-startup-projects.md
-    - name: Create and remove project dependencies
-      href: ide/how-to-create-and-remove-project-dependencies.md
-    - name: View, save, and configure build log files
-      href: ide/how-to-view-save-and-configure-build-log-files.md
-    - name: Exclude projects from a build
-      href: ide/how-to-exclude-projects-from-a-build.md
-    - name: Suppress compiler warnings
-      href: ide/how-to-suppress-compiler-warnings.md
-  - name: Build actions
-    href: ide/build-actions.md
-  - name: Build configurations
-    items:
-    - name: Understand build configurations
-      href: ide/understanding-build-configurations.md
-    - name: Create and edit configurations
-      href: ide/how-to-create-and-edit-configurations.md
-    - name: Manage build configurations with Visual Basic developer settings
-      href: ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md
-    - name: Build multiple configurations simultaneously
-      href: ide/how-to-build-multiple-configurations-simultaneously.md
-  - name: Build platforms
-    items:
-    - name: Understand build platforms
-      href: ide/understanding-build-platforms.md
-    - name: Configure projects to target a platform
-      href: ide/how-to-configure-projects-to-target-platforms.md
-    - name: Configure projects to target multiple platforms
-      href: ide/how-to-configure-projects-to-target-multiple-platforms.md
-  - name: MSBuild >>
-    href: msbuild/msbuild.md
-  - name: Azure Pipelines and TFS >>
-    displayName: VSTS Azure DevOps CI/CD Continuous integration delivery
-    href: /azure/devops/pipelines/index?view=vsts
-  - name: Specify build events (Visual Basic)
-    href: ide/how-to-specify-build-events-visual-basic.md
-  - name: Specify build events (C#)
-    href: ide/how-to-specify-build-events-csharp.md
-  - name: Configure warnings in Visual Basic
-    href: ide/configuring-warnings-in-visual-basic.md
-  - name: "Walkthrough: Create a multiple-computer build environment"
-    href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
-- name: Debug >>
-  href: debugger/index.yml
-- name: Test >>
-  displayName: Unit testing
-  href: test/improve-code-quality.md
-- name: Measure performance >>
-  displayName: Profiling
-  href: profiling/index.yml
-- name: Analyze code quality >>
-  displayName: Code analysis FxCop Analyzers
-  href: code-quality/index.yml
-- name: Deploy >>
-  href: deployment/index.yml
+    - name: Design accessible apps
+      href: ide/reference/resources-for-designing-accessible-applications.md
+    - name: Design international apps
+      displayName: Globalization localization world-ready
+      href: ide/globalizing-and-localizing-applications.md
+  - name: Work with XAML files >>
+    href: xaml-tools/index.yml
+  - name: Access data >>
+    displayName: Data connections
+    href: data-tools/accessing-data-in-visual-studio.md
+  - name: Work with workflows >>
+    href: workflow-designer/developing-applications-with-the-workflow-designer.md
+  - name: Create mobile apps
+    href: cross-platform/cross-platform-mobile-development-in-visual-studio.md
+  - name: Work with Office and SharePoint >>
+    href: vsto/office-and-sharepoint-development-in-visual-studio.md
+  - name: Work with XML and XSLT files >>
+    href: xml-tools/xml-tools-in-visual-studio.md
+  - name: Work with Docker containers >>
+    href: containers/index.yml 
 - name: Extend Visual Studio >>
   displayName: Visual Studio SDK
   href: extensibility/visual-studio-sdk.md
 - name: Analyze and Model Architecture >>
   href: modeling/analyze-and-model-your-architecture.md
-- name: Personalize
+- name: Personalize Visual Studio
   items:
   - name: Customize the IDE
     displayName: Personalize
