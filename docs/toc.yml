@@ -166,9 +166,9 @@
     href: python/
   - name: Node.js
     href: javascript/
-- name: Work with code
+- name: Develop
   items:
-  - name: Organizing and editing code
+  - name: Organize and edit code
     href: ide/index-writing-code.yml
   - name: Move around in the IDE
     href: ide/how-to-move-around-in-the-visual-studio-ide.md
