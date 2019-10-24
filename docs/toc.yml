@@ -561,6 +561,22 @@
       href: ide/class-designer/additional-information-about-errors.md
   - name: Improve your code
     href: ide/find-and-fix-code-errors.md
+  - name: Tips and tricks
+    items:
+    - name: Productivity features
+      href: ide/productivity-features.md
+    - name: Productivity shortcuts
+      href: ide/productivity-shortcuts.md
+    - name: Tips for C# developers
+      displayName: ReSharper
+      href: ide/csharp-developer-productivity.md
+    - name: Customize keyboard shortcuts
+      href: ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md
+    - name: Use the keyboard exclusively
+      displayName: accessibility
+      href: ide/reference/how-to-use-the-keyboard-exclusively.md
+- name: Use specialized IDE tools for certain file and app types
+  items:
   - name: Windows Forms development
     items:
     - name: Windows Forms Designer overview
@@ -764,20 +780,6 @@
         href: designers/how-to-export-a-texture-that-has-premultiplied-alpha.md
       - name: Export a texture for use with Direct2D or JavaScript apps
         href: designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md
-  - name: Tips and tricks
-    items:
-    - name: Productivity features
-      href: ide/productivity-features.md
-    - name: Productivity shortcuts
-      href: ide/productivity-shortcuts.md
-    - name: Tips for C# developers
-      displayName: ReSharper
-      href: ide/csharp-developer-productivity.md
-    - name: Customize keyboard shortcuts
-      href: ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md
-    - name: Use the keyboard exclusively
-      displayName: accessibility
-      href: ide/reference/how-to-use-the-keyboard-exclusively.md
 - name: Compile and build
   items:
   - name: Overview
