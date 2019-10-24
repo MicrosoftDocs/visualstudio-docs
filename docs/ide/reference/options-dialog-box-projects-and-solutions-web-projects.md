@@ -21,7 +21,7 @@ By default, running a web project in Visual Studio uses the Visual Studio Develo
 
 **Use the 64-bit version of IIS Express for web sites and projects**
 
-Select this option to use IIS Express instead of the Visual Studio Development Server. For more information, see [Introducing IIS Express](http://go.microsoft.com/?linkid=9747914) and [IIS Express Overview](http://go.microsoft.com/?linkid=9747915).
+Select this option to use IIS Express instead of the Visual Studio Development Server. For more information, see [Introducing IIS Express](https://weblogs.asp.net/scottgu/introducing-iis-express) and [IIS Express Overview](/iis/extensions/introduction-to-iis-express/iis-express-overview).
 
 **Warn before running web applications when there are errors in the error list**
 
