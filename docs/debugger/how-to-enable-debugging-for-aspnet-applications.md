@@ -147,7 +147,7 @@ There are different ways to publish apps to IIS. These steps show how to create 
 
 1. In Visual Studio, right-click the project and choose **Publish**.
 
-3. Choose **IIS, FTP, etc** and click **Publish**.
+3. Choose **IIS, FTP, etc.** and click **Publish**.
 
     ![Publish to IIS](media/dbg-aspnet-local-iis.png "Publish to IIS")
 

@@ -180,13 +180,13 @@ Go to specific points in your application's execution when you start debugging f
 
     |**IntelliTrace field**|**SharePoint ULS field**|
     |----------------------------|------------------------------|
-    |**Id**|**EventID**|
+    |**ID**|**EventID**|
     |**Level**|**Level**|
-    |**Category Id**|**Category Id**|
+    |**Category ID**|**Category ID**|
     |**Category**|**Category**|
     |**Area**|**Product**|
     |**Output**|**Message**|
-    |**Correlation Id**|**Correlation Id**|
+    |**Correlation ID**|**Correlation ID**|
 
 ##### Start debugging from an unhandled exception
 

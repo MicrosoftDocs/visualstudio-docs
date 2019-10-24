@@ -295,7 +295,7 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
     - **ProjectPath**: The path to your app's project file (.csproj or .vbproj)
 
-    - **CommitId**: The id for your commit
+    - **CommitId**: The ID for your commit
 
       For example:
 
@@ -319,7 +319,7 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
   - **BuildReportUrl** (for TeamBuild): The location of the build report in TFS
 
-  - **BuildId** (for TeamBuild): The URI for the build details in TFS. This URI is also used as the ID of the deployment event. This must id must be unique if you're not using TeamBuild.
+  - **BuildId** (for TeamBuild): The URI for the build details in TFS. This URI is also used as the ID of the deployment event. This ID must be unique if you're not using TeamBuild.
 
   - **BuiltSolution**: The path to the solution file that Visual Studio uses to find and open the matching solution. This is the contents of the **SolutionPath** MsBuild property.
 
