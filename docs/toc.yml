@@ -577,7 +577,7 @@
       href: ide/reference/how-to-use-the-keyboard-exclusively.md
   - name: Work with specific file types and apps
     items:
-    - name: Work with Windows Forms
+    - name: Windows Forms apps
       items:
       - name: Windows Forms Designer overview
         href: designers/windows-forms-designer-overview.md
@@ -668,13 +668,13 @@
             href: ide/step-8-add-a-method-to-verify-whether-the-player-won.md
           - name: "Step 9: Try other features"
             href: ide/step-9-try-other-features.md
-    - name: Work with F#
+    - name: F#
       items:
       - name: F# development
         href: ide/fsharp-visual-studio.md
       - name: Target older .NET versions
         href: ide/fsharp-target-older-dotnet-versions.md
-    - name: Work with 3D graphical assets
+    - name: 3D graphical assets
       items:
       - name: Work with 3D assets for games and apps
         href: designers/working-with-3-d-assets-for-games-and-apps.md
@@ -758,28 +758,28 @@
           href: designers/how-to-export-a-texture-that-has-premultiplied-alpha.md
         - name: Export a texture for use with Direct2D or JavaScript apps
           href: designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md
-    - name: Develop inclusive apps
+    - name: XAML files >>
+      href: xaml-tools/index.yml
+    - name: XML and XSLT files >>
+      href: xml-tools/xml-tools-in-visual-studio.md
+    - name: Docker containers >>
+      href: containers/index.yml 
+    - name: Workflows >>
+      href: workflow-designer/developing-applications-with-the-workflow-designer.md
+    - name: Mobile apps
+      href: cross-platform/cross-platform-mobile-development-in-visual-studio.md
+    - name: Office and SharePoint apps >>
+      href: vsto/office-and-sharepoint-development-in-visual-studio.md
+  - name: Access data >>
+    displayName: Data connections
+    href: data-tools/accessing-data-in-visual-studio.md
+  - name: Develop inclusive apps
       items:
       - name: Design accessible apps
         href: ide/reference/resources-for-designing-accessible-applications.md
       - name: Design international apps
         displayName: Globalization localization world-ready
         href: ide/globalizing-and-localizing-applications.md
-    - name: Work with XAML files >>
-      href: xaml-tools/index.yml
-    - name: Access data >>
-      displayName: Data connections
-      href: data-tools/accessing-data-in-visual-studio.md
-    - name: Work with workflows >>
-      href: workflow-designer/developing-applications-with-the-workflow-designer.md
-    - name: Create mobile apps
-      href: cross-platform/cross-platform-mobile-development-in-visual-studio.md
-    - name: Work with Office and SharePoint >>
-      href: vsto/office-and-sharepoint-development-in-visual-studio.md
-    - name: Work with XML and XSLT files >>
-      href: xml-tools/xml-tools-in-visual-studio.md
-    - name: Work with Docker containers >>
-      href: containers/index.yml 
 - name: Compile and build
   items:
   - name: Overview
