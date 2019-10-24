@@ -44,7 +44,7 @@ To debug a cloud service from a remote machine, you must enable that functionali
 If you enable remote debugging for a cloud service, it doesn't exhibit degraded performance or incur additional charges. Don't use remote debugging on a production service, because clients who use the service might be adversely affected.
 
 > [!NOTE]
-> When you publish a cloud service from Visual Studio, you can enable **IntelliTrace** for any roles in that service that target the .NET Framework 4 or the .NET Framework 4.5. By using **IntelliTrace**, you can examine events that occurred in a role instance in the past and reproduce the context from that time. See [Debugging a published cloud service with IntelliTrace and Visual Studio](vs-azure-tools-IntelliTrace-debug-published-cloud-services.md) and [Using IntelliTrace](https://msdn.microsoft.com/library/dd264915.aspx).
+> When you publish a cloud service from Visual Studio, you can enable **IntelliTrace** for any roles in that service that target the .NET Framework 4 or the .NET Framework 4.5. By using **IntelliTrace**, you can examine events that occurred in a role instance in the past and reproduce the context from that time. See [Debugging a published cloud service with IntelliTrace and Visual Studio](vs-azure-tools-IntelliTrace-debug-published-cloud-services.md) and [Using IntelliTrace](/debugger/intellitrace).
 
 ### To enable remote debugging for a cloud service
 
