@@ -113,12 +113,12 @@ ms.workload:
  For complete information about the Word object model, you can refer to the Word primary interop assembly (PIA) reference and the Visual Basic for Applications (VBA) object model reference.
 
 ### Primary interop assembly reference
- The Word PIA reference documentation describes the types in the primary interop assembly for Word. This documentation is available from the following location: [Word 2010 primary interop assembly reference](http://go.microsoft.com/fwlink/?LinkId=189588).
+ The Word PIA reference documentation describes the types in the primary interop assembly for Word. This documentation is available from the following location: [Word 2010 primary interop assembly reference](/visualstudio/vsto/office-primary-interop-assemblies&view=vs-2019).
 
- For more information about the design of the Word PIA, such as the differences between classes and interfaces in the PIA and how events in the PIA are implemented, see [Overview of classes and interfaces in the Office primary interop assemblies](http://go.microsoft.com/fwlink/?LinkId=189592).
+ For more information about the design of the Word PIA, such as the differences between classes and interfaces in the PIA and how events in the PIA are implemented, see [Overview of classes and interfaces in the Office primary interop assemblies](/previous-versions/office/office-12/ms247299(v=office.12)).
 
 ### VBA object model reference
- The VBA object model reference documents the Word object model as it is exposed to VBA code. For more information, see [Word 2010 object model reference](http://go.microsoft.com/fwlink/?LinkId=199772).
+ The VBA object model reference documents the Word object model as it is exposed to VBA code. For more information, see [Word 2010 object model reference](/office/vba/api/overview/Word/object-model).
 
  All of the objects and members in the VBA object model reference correspond to types and members in the Word PIA. For example, the Document object in the VBA object model reference corresponds to the <xref:Microsoft.Office.Interop.Word.Document> object in the Word PIA. Although the VBA object model reference provides code examples for most properties, methods, and events, you must translate the VBA code in this reference to Visual Basic or Visual C# if you want to use them in a Word project that you create by using Visual Studio.
 

@@ -23,7 +23,7 @@ Data access works the same way in document-level projects for Microsoft Office a
 
 The following example shows how to add data-bound controls to documents at design time. For an example of how to add data-bound controls in VSTO Add-ins at run time, see [Walkthrough: Bind to data from a service in a VSTO Add-in project](../vsto/walkthrough-binding-to-data-from-a-service-in-a-vsto-add-in-project.md).
 
-![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Interact with web services from Microsoft Excel?](http://go.microsoft.com/fwlink/?LinkID=130284).
+![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Interact with web services from Microsoft Excel?](https://msdn.microsoft.com/).
 
 ## To populate a document-level project with data from a web service
 

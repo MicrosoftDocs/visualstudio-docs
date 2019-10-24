@@ -26,7 +26,7 @@ ms.workload:
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use Outlook to create a custom task report?](http://go.microsoft.com/fwlink/?LinkID=130315).
+ ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use Outlook to create a custom task report?](https://developer.microsoft.com/office/docs).
 
 ## Access objects in an Outlook project
  Outlook provides many objects with which you can interact. To use the object model effectively, you should be familiar with the following top-level objects:
@@ -116,12 +116,12 @@ ms.workload:
  For complete information about the Outlook object model, you can refer to the Outlook primary interop assembly (PIA) reference and the VBA object model reference.
 
 ### Primary interop assembly reference
- The Outlook PIA reference documents the types in the primary interop assemblies for Outlook 2010. For more information, see [Outlook 2010 primary interop assembly reference](http://go.microsoft.com/fwlink/?LinkId=189580).
+ The Outlook PIA reference documents the types in the primary interop assemblies for Outlook 2010. For more information, see [Outlook 2010 primary interop assembly reference](/previous-versions/office/developer/office-2010/bb652780(v=office.14)).
 
  In addition to providing information for all of the types in the PIAs, this documentation also provides additional information about the structure of the PIAs and code examples for common Outlook automation tasks.
 
 ### VBA object model reference
- The VBA object model reference documents the Outlook object model as it is exposed to Visual Basic for Applications (VBA) code. For more information, see [Outlook 2010 object model reference](http://go.microsoft.com/fwlink/?LinkId=199769).
+ The VBA object model reference documents the Outlook object model as it is exposed to Visual Basic for Applications (VBA) code. For more information, see [Outlook 2010 object model reference](/office/vba/api/overview/Outlook/object-model).
 
  All of the objects and members in the VBA object model reference correspond to types and members in the Outlook PIA. For example, the Inspector object in the VBA object model reference corresponds to the <xref:Microsoft.Office.Interop.Outlook.Inspector> object in the Outlook PIA. Although the VBA object model reference provides code examples for most properties, methods, and events, you must translate the VBA code in this reference to Visual Basic or Visual C# if you want to use them in an Outlook VSTO Add-In project that you create by using Visual Studio.
 

@@ -20,7 +20,7 @@ ms.workload:
 
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]
 
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use XML mapping in Excel?](http://go.microsoft.com/fwlink/?LinkID=130288).
+ ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use XML mapping in Excel?](https://msdn.microsoft.com/).
 
 ## Bind data to the control
  An <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> control supports binding to a single data field (simple data binding). The <xref:Microsoft.Office.Tools.Excel.ListObject> control can supports complex data binding, and is automatically created when a repeating schema element is mapped onto a cell. For more information, see [ListObject control](../vsto/listobject-control.md).

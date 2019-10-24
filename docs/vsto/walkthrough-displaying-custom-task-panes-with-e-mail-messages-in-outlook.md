@@ -51,7 +51,7 @@ ms.workload:
 
 - Microsoft [!INCLUDE[Outlook_15_short](../vsto/includes/outlook-15-short-md.md)] or Microsoft Outlook 2010.
 
-  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use task panes in Outlook?](http://go.microsoft.com/fwlink/?LinkID=130309).
+  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use task panes in Outlook?](https://msdn.microsoft.com/).
 
 ## Create the project
  Custom task panes are implemented in VSTO Add-ins. Start by creating a VSTO Add-in project for Outlook.

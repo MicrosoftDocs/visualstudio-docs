@@ -23,7 +23,7 @@ You can access data in document-level Office projects in the same way that you a
 
 The following example shows how to add data-bound controls in document-level projects using a designer. For an example of how to add data-bound controls in application-level projects at run time, see [Walkthrough: Complex data binding in VSTO Add-in project](../vsto/walkthrough-complex-data-binding-in-vsto-add-in-project.md).
 
-![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Transfer data into an Excel worksheet?](http://go.microsoft.com/fwlink/?LinkID=130277), and [How do I: Consume database data in Excel?](http://go.microsoft.com/fwlink/?LinkID=130287).
+![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Transfer data into an Excel worksheet?](https://msdn.microsoft.com/), and [How do I: Consume database data in Excel?](https://msdn.microsoft.com/).
 
 ## Add a data-bound control to a worksheet at design time
 
@@ -72,5 +72,5 @@ For information about how to send updates to the typed dataset and the database,
 - [How to: Populate documents with data from a database](../vsto/how-to-populate-documents-with-data-from-a-database.md)
 - [How to: Populate documents with data from services](../vsto/how-to-populate-documents-with-data-from-services.md)
 - [How to: Update a data source with data from a host control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md)
-- [How do I: Transfer data into an Excel worksheet](http://go.microsoft.com/fwlink/?LinkID=130277)
-- [How do I: Consume database data in Excel?](http://go.microsoft.com/fwlink/?LinkID=130287)
+- [How do I: Transfer data into an Excel worksheet](https://msdn.microsoft.com/)
+- [How do I: Consume database data in Excel?](https://msdn.microsoft.com/)

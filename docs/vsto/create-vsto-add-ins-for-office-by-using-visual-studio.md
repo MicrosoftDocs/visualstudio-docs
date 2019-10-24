@@ -22,9 +22,9 @@ ms.workload:
 
  For the latest information about Office development, see the following development centers on MSDN:
 
-- The [Office development with Visual Studio developer portal](http://go.microsoft.com/fwlink/?LinkId=123844) contains links to product information, code samples, videos, and community resources about using Visual Studio to customize Office applications as part of your solutions.
+- The [Office development with Visual Studio developer portal](https://developer.microsoft.com/office/docs) contains links to product information, code samples, videos, and community resources about using Visual Studio to customize Office applications as part of your solutions.
 
-- The [Microsoft Office developer center](http://go.microsoft.com/fwlink/?LinkId=83467) contains links to technical articles, code samples, downloads, community information, support, and other documentation about Office customizations and Office Business Applications (OBAs).
+- The [Microsoft Office developer center](https://developer.microsoft.com/office/docs) contains links to technical articles, code samples, downloads, community information, support, and other documentation about Office customizations and Office Business Applications (OBAs).
 
 ## In this section
 - [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
@@ -101,23 +101,23 @@ ms.workload:
 
 - [Managed reference &#40;Office development in Visual Studio&#41;](../vsto/managed-reference-office-development-in-visual-studio.md)
 
- Provides links to information about API namespaces and types that are used in Office projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]. For API reference documentation about the namespaces and types that are used in Office projects that target the .NET Framework 3.5, see the following reference section in the Visual Studio 2008 documentation: [2007 system managed reference](http://go.microsoft.com/fwlink/?LinkId=160658).
+ Provides links to information about API namespaces and types that are used in Office projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]. For API reference documentation about the namespaces and types that are used in Office projects that target the .NET Framework 3.5, see the following reference section in the Visual Studio 2008 documentation: [2007 system managed reference](/visualstudio/vsto/managed-reference-office-development-in-visual-studio&view=vs-2019).
 
 - [Unmanaged API reference &#40;Office development in Visual Studio&#41;](../vsto/unmanaged-api-reference-office-development-in-visual-studio.md)
 
  Contains links to information about COM interfaces that you can use to perform actions such as load and unload managed VSTO Add-ins in Office applications.
 
 ## Related sections
-- [Office development with Visual Studio developer portal](http://go.microsoft.com/fwlink/?LinkId=123844)
+- [Office development with Visual Studio developer portal](https://developer.microsoft.com/office/docs)
  Provides additional resources such as technical articles, videos, and blogs.
 
-- [Visual Studio developer center](http://go.microsoft.com/fwlink/?LinkID=99124)
+- [Visual Studio developer center](https://visualstudio.microsoft.com/)
  Provides additional Visual Studio resources such as technical articles, videos, and blogs.
 
-- [Office Business Applications developer portal](http://go.microsoft.com/fwlink/?LinkId=99125)
+- [Office Business Applications developer portal](https://developer.microsoft.com/office/docs)
  Provides information about Office Business Applications (OBAs) and how to build them by using the Office system platform.
 
-- [Microsoft Office development section of the MSDN library](http://go.microsoft.com/fwlink/?LinkId=149870)
+- [Microsoft Office development section of the MSDN library](/previous-versions/office/office-12/bb726434(v=office.12))
  The area of the MSDN library where you can find articles and reference documentation about developing solutions for several versions of Office (not specific to Office development using Visual Studio).
 
 - [Application development in Visual Studio](https://msdn.microsoft.com/97490c1b-a247-41fb-8f2c-bc4c201eff68)
