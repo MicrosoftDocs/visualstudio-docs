@@ -78,7 +78,7 @@ The error you are most likely to see for a type resolution issue is **Code could
 
 ### Troubleshoot other error messages
 
-You can find assistance with troubleshooting errors and warnings in the Microsoft Developer Network (MSDN) public forums. See the [Visual Studio Class Designer Forum](http://go.microsoft.com/fwlink/?linkid=160754).
+You can find assistance with troubleshooting errors and warnings in the Microsoft Developer Network (MSDN) public forums. See the [Visual Studio Class Designer Forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsclassdesigner).
 
 ## Limitations for C++ code elements
 

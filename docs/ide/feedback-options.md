@@ -69,7 +69,7 @@ Pre-release versions of Visual Studio have a **Rate this Product** menu item tha
 There are two ways that you can help us improve the documentation:
 
 * Choose the **Was this page helpful?** feedback button at the bottom of the page. You can find this button on all our documentation pages.
-* Use your GitHub account to provide feedback for any Visual Studio page on [docs.microsoft.com](https://docs.microsoft.com/visualstudio/). To do so, choose the **Send feedback about** > **This page** button, also at the bottom of the page.
+* Use your GitHub account to provide feedback for any Visual Studio page on [docs.microsoft.com](/visualstudio/). To do so, choose the **Send feedback about** > **This page** button, also at the bottom of the page.
 
 ## Contact Microsoft support
 
