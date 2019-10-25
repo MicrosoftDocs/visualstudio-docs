@@ -34,11 +34,11 @@ ms.workload:
 
 |Term|Definition|
 |----------|----------------|
-|[SharePoint Development](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=sharepointdevelopmentprevious)|Provides a forum for questions about SharePoint development in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].|
-|[Visual Studio Forums](https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?category=visualstudio)|Provides a forum for questions about [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].|
-|[Microsoft Help and Support](https://support.microsoft.com/en-us)|Provides access to Knowledge Base (KB) articles, downloads and updates, support Webcasts, and other services.|
+|[SharePoint Development](https://social.msdn.microsoft.com/Forums/office/home?forum=sharepointdevelopmentprevious)|Provides a forum for questions about SharePoint development in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].|
+|[Visual Studio Forums](https://social.msdn.microsoft.com/Forums/vstudio/home?category=visualstudio)|Provides a forum for questions about [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].|
+|[Microsoft Help and Support](https://support.microsoft.com/)|Provides access to Knowledge Base (KB) articles, downloads and updates, support Webcasts, and other services.|
 
- If you still cannot find  the answers that you need, you can access online support options, such as contacting Microsoft Product Support Services or searching KnowledgeBase articles. For more information, see the [Microsoft Help and Support](https://support.microsoft.com/en-us) page.
+ If you still cannot find  the answers that you need, you can access online support options, such as contacting Microsoft Product Support Services or searching KnowledgeBase articles. For more information, see the [Microsoft Help and Support](https://support.microsoft.com/) page.
 
 ## See also
 - [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
