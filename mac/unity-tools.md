@@ -46,7 +46,7 @@ Write more usable code with quick menus and keyboard shortcuts for [renaming, re
 
 Write better code that captures the best practices with Visual Studio for Macs deep understanding of Unity projects. 
 
-:::image type="content" source="../media/using-vsmac-tools-unity-image9.png" alt-text="VS for Mac quick fix to use CompareTag method":::
+![VS for Mac refactoring string compare with CompareTag](media/using-vsmac-tools-unity-image9.png)
 
 ### Browse and add new files
 

@@ -46,7 +46,7 @@ Visual Studio Tools for Unity supports the robust [debugging](using-visual-studi
 
 Write better code that captures the best practices with Visual Studios deep understanding of Unity projects.
 
-:::image type="content" source="media/unity-diagnostics.png" alt-text="Animated image of VS refactoring string comparison with CompareTag":::
+![VS refactoring string comparison with CompareTag](media/unity-diagnostics.png)
 
 ### Visual Studio for Mac Tools for Unity
 
