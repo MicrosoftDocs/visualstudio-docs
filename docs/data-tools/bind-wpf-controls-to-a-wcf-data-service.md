@@ -50,7 +50,7 @@ Prior knowledge of the following concepts is also helpful, but not required to c
 
 - Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework overview](/dotnet/framework/data/adonet/ef/overview).
 
-- WPF data binding. For more information, see [Data Binding overview](/dotnet/framework/wpf/data/data-binding-overview).
+- WPF data binding. For more information, see [Data Binding overview](/dotnet/desktop-wpf/data/data-binding-overview).
 
 ## Create the service project
 
@@ -295,4 +295,4 @@ After completing this walkthrough, you can perform the following related tasks:
 - [Bind WPF controls to a dataset](../data-tools/bind-wpf-controls-to-a-dataset.md)
 - [WCF overview (.NET Framework)](/dotnet/framework/data/wcf/wcf-data-services-overview)
 - [Entity Framework overview (.NET Framework)](/dotnet/framework/data/adonet/ef/overview)
-- [Data Binding overview (.NET Framework)](/dotnet/framework/wpf/data/data-binding-overview)
+- [Data Binding overview (.NET Framework)](/dotnet/desktop-wpf/data/data-binding-overview)
