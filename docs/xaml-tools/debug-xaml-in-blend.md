@@ -31,7 +31,7 @@ Some common causes of XAML syntax errors are:
 
 - A XAML element exists in a location where it is not allowed.
 
-For more information on common XAML syntax, see [Basic XAML syntax guide](/previous-versions/windows/apps/hh700351(v=win.10)).
+For more information on common XAML syntax, see [Basic XAML syntax guide](/windows/uwp/xaml-platform/xaml-syntax-guide).
 
 You can also identify and resolve simple code-behind syntax errors, compilation errors, and run-time errors in Blend. However, code-behind errors may be easier to identify and resolve in Visual Studio.
 
@@ -113,7 +113,7 @@ When XAML errors are detected, the design surface displays an alert that your pr
 
 You can open Blend projects in Visual Studio to more easily debug the code in your app. To open a Blend project in Visual Studio, right-click the project in the **Projects** panel, and then click **Edit in Visual Studio**. After you have finished your debugging session in Visual Studio, press Ctrl+Shift+S to save all your changes, and then switch back to Blend. You will be prompted to reload the project. Click **Yes to All** to continue working in Blend.
 
-For more information about debugging your app, see [Debug UWP apps in Visual Studio](/visualstudio/debugger/debug-store-apps-in-visual-studio?view=vs-2015&redirectedfrom=MSDN).
+For more information about debugging your app, see [Debug UWP apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md).
 
 ## Get help
 
