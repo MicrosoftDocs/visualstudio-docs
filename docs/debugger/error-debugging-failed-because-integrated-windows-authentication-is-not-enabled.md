@@ -109,5 +109,5 @@ Authentication of the user who requested debugging was prevented by an authentic
 
 ## See also
 - [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)
-- [Microsoft Digest Authentication](http://go.microsoft.com/fwlink/?LinkId=77938)
+- [Microsoft Digest Authentication](/windows/win32/secauthn/microsoft-digest-authentication)
 - [Running Web Applications on Windows Vista with IIS 7.0 and Visual Studio](https://msdn.microsoft.com/Library/262a82ac-dd0e-4096-86c6-fb463e88be66)

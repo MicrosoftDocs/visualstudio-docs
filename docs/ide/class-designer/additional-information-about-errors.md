@@ -38,7 +38,7 @@ ms.workload:
 You can find assistance with other errors and warnings in the following resources:
 
 - [Work with Visual C++ code](working-with-visual-cpp-code.md) includes troubleshooting information about displaying C++ in a class diagram.
-- [Visual Studio Class Designer forum](http://go.microsoft.com/fwlink/?LinkId=160754) provides a forum for questions about **Class Designer**.
+- [Visual Studio Class Designer forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsclassdesigner) provides a forum for questions about **Class Designer**.
 
 ## See also
 

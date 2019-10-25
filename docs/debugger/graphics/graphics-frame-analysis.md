@@ -87,7 +87,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 
  ![The statistical relevance of the draw call variant](media/pix_frame_analysis_summary_stats.png "pix_frame_analysis_summary_stats")
 
- To determine statistical relevance, Frame Analysis uses the [Student's t-test](http://www.wikipedia.org/wiki/Student%27s_t-test).
+ To determine statistical relevance, Frame Analysis uses the [Student's t-test](https://en.wikipedia.org/wiki/Student's_t-test).
 
 ### Details table
  Below the Summary table is the Details table, which is collapsed by default. The content of the Details table depends on the hardware platform of the playback machine. For information about supported hardware platforms, see [Hardware support](#HardwareSupport).
