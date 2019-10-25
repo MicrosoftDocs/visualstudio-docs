@@ -20,9 +20,6 @@ Several support options are available for customers who have questions about how
 
 ## Free Support
 
-### MSDN Development Center
- The [Visual Studio Extensibility Developer Center](https://visualstudio.microsoft.com/) on MSDN contains resources that help answer questions about how to extend Visual Studio. For example, there are several links to VSIP developer blogs.
-
 ### Microsoft Newsgroups
  Members of the Visual Studio development team and other developers who extend Visual Studio often participate in the microsoft.public.vstudio.extensibility newsgroup. This newsgroup is a managed newsgroup. If you are an MSDN Universal Subscriber, make sure that you register a no-spam alias to make it possible for Microsoft to respond.
 

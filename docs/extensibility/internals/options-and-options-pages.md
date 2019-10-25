@@ -53,7 +53,7 @@ Clicking **Options** on the **Tools** menu opens the **Options** dialog box. The
 - <xref:System.ComponentModel.DescriptionAttribute> determines the description of the option.
 
   > [!NOTE]
-  > Equivalent attributes, SRCategory, LocDisplayName, and SRDescription, use string resources for localization and are defined in the [managed project sample](/azure/devops/integrate/index?view=azure-devops&viewFallbackFrom=vsts).
+  > Equivalent attributes, SRCategory, LocDisplayName, and SRDescription, use string resources for localization and are defined in the [managed project sample](/azure/devops/integrate/index).
 
   Consider the following code fragment:
 
