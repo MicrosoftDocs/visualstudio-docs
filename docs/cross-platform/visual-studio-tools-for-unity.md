@@ -42,6 +42,12 @@ Visual Studio Tools for Unity supports the robust [debugging](using-visual-studi
 * Inspect and modify the value of variables and arguments.
 * Drill down into complex objects and data structures.
 
+#### Roslyn diagnostics and quick-fixes for Unity
+
+Write better code that captures the best practices with Visual Studios deep understanding of Unity projects.
+
+:::image type="content" source="media/unity-diagnostics.png" alt-text="Animated image of VS refactoring string comparison with CompareTag":::
+
 ### Visual Studio for Mac Tools for Unity
 
 Visual Studio for Mac also supports Unity projects. For more information, see the [Visual Studio for Mac Tools for Unity documentation](/visualstudio/mac/unity-tools).

@@ -42,6 +42,12 @@ Visual Studio for Mac Tools for Unity supports all the [debugging](using-vsmac-t
 
 Write more usable code with quick menus and keyboard shortcuts for [renaming, refactoring, and context actions](refactoring.md).
 
+#### Roslyn diagnostics and quick-fixes for Unity
+
+Write better code that captures the best practices with Visual Studio for Macs deep understanding of Unity projects. 
+
+:::image type="content" source="../media/using-vsmac-tools-unity-image9.png" alt-text="VS for Mac quick fix to use CompareTag method":::
+
 ### Browse and add new files
 
 Browse Unity projects and [add folders, scripts, or shaders](using-vsmac-tools-unity.md#adding-new-unity-files-and-folders), all within the Visual Studio for Mac IDE.
