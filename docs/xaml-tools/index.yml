@@ -44,12 +44,14 @@ landingContent:
         links:
           - text: Write and debug running XAML code
             url: xaml-hot-reload.md
-          - text: Debug XAML in Blend
-            url: debug-xaml-in-blend.md
+          - text: Inspect XAML properties
+            url: inspect-xaml-properties-while-debugging.md
           - text: Debug WPF apps
-            url: ../debugger/debugging-wpf.md?toc=/visualstudio/debugger/toc.json&bc=/visualstudio/debugger/breadcrumb/toc.json
+            url: ../debugger/debugging-wpf.md
           - text: Debug UWP apps
             url: ../debugger/debugging-windows-store-and-windows-universal-apps.md
+          - text: Debug XAML in Blend
+            url: debug-xaml-in-blend.md
 
   # Card
   - title: Develop WPF apps

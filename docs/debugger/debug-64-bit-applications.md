@@ -48,7 +48,7 @@ You can debug a 64-bit application that is running on the local computer or on a
 
 ## See also
 
-- [64-bit Applications](https://docs.microsoft.com/dotnet/framework/64-bit-apps)
+- [64-bit Applications](/dotnet/framework/64-bit-apps)
 - [Configuring Programs for 64-Bit](/cpp/build/configuring-programs-for-64-bit-visual-cpp)
 - [Visual Studio IDE 64-Bit Support](../ide/visual-studio-ide-64-bit-support.md)
 - [Using Dump Files](../debugger/using-dump-files.md)

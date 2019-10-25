@@ -19,7 +19,7 @@ The Node.js Tools For Visual Studio allow you to write and run unit tests using 
 JavaScript frameworks without the need to switch to a command prompt.
 
 The supported frameworks are:
-* Mocha ([mochajs.org](http://mochajs.org/))
+* Mocha ([mochajs.org](https://mochajs.org/))
 * Jasmine ([Jasmine.github.io](https://jasmine.github.io/))
 * Tape ([github.com/substack/tape](https://github.com/substack/tape))
 * Jest ([jestjs.io](https://jestjs.io/))

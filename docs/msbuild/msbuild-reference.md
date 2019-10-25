@@ -78,9 +78,9 @@ ms.workload:
 ## See also
 
 - [MSBuild overview](../msbuild/msbuild.md)
-- [Microsoft.Build.Evaluation](https://docs.microsoft.com/dotnet/api/microsoft.build.evaluation)
-- [Microsoft.Build.Execution](https://docs.microsoft.com/dotnet/api/microsoft.build.execution)
-- [Microsoft.Build.Framework](https://docs.microsoft.com/dotnet/api/microsoft.build.framework)
-- [Microsoft.Build.Logging](https://docs.microsoft.com/dotnet/api/microsoft.build.logging)
-- [Microsoft.Build.Tasks](https://docs.microsoft.com/dotnet/api/microsoft.build.tasks)
-- [Microsoft.Build.Utilities](https://docs.microsoft.com/dotnet/api/microsoft.build.utilities)
+- [Microsoft.Build.Evaluation](/dotnet/api/microsoft.build.evaluation)
+- [Microsoft.Build.Execution](/dotnet/api/microsoft.build.execution)
+- [Microsoft.Build.Framework](/dotnet/api/microsoft.build.framework)
+- [Microsoft.Build.Logging](/dotnet/api/microsoft.build.logging)
+- [Microsoft.Build.Tasks](/dotnet/api/microsoft.build.tasks)
+- [Microsoft.Build.Utilities](/dotnet/api/microsoft.build.utilities)

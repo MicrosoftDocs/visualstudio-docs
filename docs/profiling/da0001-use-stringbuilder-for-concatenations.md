@@ -35,4 +35,4 @@ ms.workload:
 ## How to investigate a warning
  Double-click the message in the **Error List** window to navigate to the [Function Details View](../profiling/function-details-view.md) of the sampling profile data. Find the sections of the program that make the most frequent use of string concatenation. Use the StringBuilder class for complex string manipulations, including frequent string concatenation operations.
 
- For more information about how to work with strings, the [String Operations](http://go.microsoft.com/fwlink/?LinkId=177816) section of [Chapter 5 - Improving Managed Code Performance](http://go.microsoft.com/fwlink/?LinkId=177817) in the Microsoft Patterns and Practices library.
+ For more information about how to work with strings, the [String Operations](/previous-versions/msp-n-p/ff647790(v=pandp.10)#scalenetchapt05_topic26) section of [Chapter 5 - Improving Managed Code Performance](/previous-versions/msp-n-p/ff647790(v=pandp.10)) in the Microsoft Patterns and Practices library.

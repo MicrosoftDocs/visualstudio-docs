@@ -44,7 +44,7 @@ Prior knowledge of the following concepts is also helpful, but not required to c
 
 - Datasets and TableAdapters. For more information, see [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md) and [TableAdapters](../data-tools/create-and-configure-tableadapters.md).
 
-- WPF data binding. For more information, see [Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview).
+- WPF data binding. For more information, see [Data Binding Overview](/dotnet/desktop-wpf/data/data-binding-overview).
 
 ## Create the project
 
@@ -256,4 +256,4 @@ After completing this walkthrough, you might try the following related tasks:
 
 - [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)
 - [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)
-- [Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview)
+- [Data Binding Overview](/dotnet/desktop-wpf/data/data-binding-overview)

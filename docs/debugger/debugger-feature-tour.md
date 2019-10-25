@@ -1,9 +1,9 @@
 ---
 title: "First look at the debugger"
 description: "Get started debugging applications using the Visual Studio debugger"
-ms.custom: "seoapril2019"
+ms.custom: ""
 ms.date: 04/08/2019
-ms.topic: quickstart
+ms.topic: conceptual
 helpviewer_keywords:
   - "debugger"
 ms.assetid: c763d706-3213-494f-b4d2-990b6e1ec456
