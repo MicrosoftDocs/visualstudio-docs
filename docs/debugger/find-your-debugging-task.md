@@ -83,7 +83,7 @@ Open the built-in [string visualizer](view-strings-visualizer.md) while debuggin
 
 ### Customize information shown in the debugger
 
-You may want to show information other than the object type as the value in different debugger windows. For C#, Visual Basic, F#, and C++/CLI code, use the [DebuggerDisplay](using-the-debuggerdisplay-attribute.md) attribute. For more advanced options, you can also customize the UI by creating a [custom visualizer](create-custom-visualizers-of-data.md).
+You may want to show information other than the object type as the value in different debugger windows. For C#, Visual Basic, F#, and C++//CLI code, use the [DebuggerDisplay](using-the-debuggerdisplay-attribute.md) attribute. For more advanced options, you can also customize the UI by creating a [custom visualizer](create-custom-visualizers-of-data.md).
 
 For native C++, use the [NatVis framework](create-custom-views-of-native-objects.md).
 

@@ -22,7 +22,7 @@ The following sections deal with debugging for specific types of applications. D
 |||
 |-|-|
 |[Debug UWP apps](../debugger/debugging-windows-store-and-windows-universal-apps.md)|Describes how to debug UWP apps.|
-|[Debug managed code](../debugger/debugging-managed-code.md)|Describes how to debug managed code (Visual C#, Visual Basic, F#, and C++/CLI).|
+|[Debug managed code](../debugger/debugging-managed-code.md)|Describes how to debug managed code (Visual C#, Visual Basic, F#, and C++//CLI).|
 |[Debug native code](../debugger/debugging-native-code.md)|Describes how to debug different kind of native C++ applications.|
 |[Debug GPU code](../debugger/debugging-gpu-code.md)|Describes how to debug C++ code that runs on the graphical processing unit (GPU).|
 |[Graphics diagnostics (Debugging DirectX graphics)](/visualstudio/debugger/graphics/visual-studio-graphics-diagnostics)|Describes how to debug DirectX graphics.|

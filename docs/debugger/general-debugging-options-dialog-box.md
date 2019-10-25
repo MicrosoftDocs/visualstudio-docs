@@ -143,7 +143,7 @@ Ignores race conditions that were detected during debugging if the data didn't c
 **Use Managed Compatibility Mode**:
 Replaces the default debugging engine with a legacy version to enable these scenarios:
 
-- You are using a .NET language other than C#, Visual Basic, or F# that provides its own Expression Evaluator (this includes C++/CLI).
+- You are using a .NET language other than C#, Visual Basic, or F# that provides its own Expression Evaluator (this includes C++//CLI).
 
 - You want to enable Edit and Continue for C++ projects during mixed mode debugging.
 

@@ -17,9 +17,9 @@ manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# Debug Managed Code (C#, Visual Basic, F#, C++/CLI)
+# Debug Managed Code (C#, Visual Basic, F#, C++//CLI)
 
-This section covers common debugging problems and techniques for managed applications, or applications written in languages that target the common language runtime, such as Visual Basic, C#, and C++/CLI. The techniques described here are high-level techniques. [First look at the debugger](../debugger/debugger-feature-tour.md).
+This section covers common debugging problems and techniques for managed applications, or applications written in languages that target the common language runtime, such as Visual Basic, C#, and C++//CLI. The techniques described here are high-level techniques. [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 ## In This Section
 

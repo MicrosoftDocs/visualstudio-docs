@@ -100,7 +100,7 @@ Debugger intrinsic functions:
 |**Windows 8**|WindowsGetStringLen(), WindowsGetStringRawBuffer()<br /><br /> These functions require the process that is being debugged to be running on Windows 8. Debugging dump files generated from a Windows 8 device also requires that the Visual Studio computer be running Windows 8. However, if you are debugging a Windows 8 device remotely, the Visual Studio computer can be running Windows 7.|
 |**Miscellaneous**|__log2<br /><br /> Returns the log base 2 of a specified integer, rounded to the nearest lower integer.|
 
-## C++/CLI - Unsupported Expressions
+## C++//CLI - Unsupported Expressions
 
 - Casts that involve pointers, or user-defined casts, are not supported.
 
