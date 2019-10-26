@@ -154,11 +154,9 @@ The `Data` and `Prototype` properties of the event arguments contain only a refe
 
 Make the source DSL accessible by Visual Studio Model Bus:
 
-1. Download and install the Visual Studio Model Bus extension, if it is not already installed. For more information, see [Visualization and Modeling SDK](https://visualstudio.microsoft.com/).
+1. Open the DSL definition file of the source DSL in DSL Designer. Right-click the design surface and then click **Enable Modelbus**. In the dialog box, choose one or both of the options.  Click **OK**. A new project "ModelBus" is added to the DSL solution.
 
-2. Open the DSL definition file of the source DSL in DSL Designer. Right-click the design surface and then click **Enable Modelbus**. In the dialog box, choose one or both of the options.  Click **OK**. A new project "ModelBus" is added to the DSL solution.
-
-3. Click **Transform All Templates** and rebuild the solution.
+2. Click **Transform All Templates** and rebuild the solution.
 
 ### To send an object from a source DSL
 

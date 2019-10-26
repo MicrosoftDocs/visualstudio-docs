@@ -30,15 +30,13 @@ For additional information and sample code, see:
 
 ### <a name="expose"></a> To expose a DSL Definition to Model Bus
 
-1. Download and install the Visual Studio Model Bus extension, unless you have already installed it. For more information, see [Visualization and Modeling SDK](https://visualstudio.microsoft.com/).
+1. Open the DSL definition file. Right-click the design surface and then click **Enable Modelbus**.
 
-2. Open the DSL definition file. Right-click the design surface and then click **Enable Modelbus**.
+2. In the dialog box, choose **I want to expose this DSL to the ModelBus**. You can choose both options if you want this DSL both to expose its models and to consume references to other DSLs.
 
-3. In the dialog box, choose **I want to expose this DSL to the ModelBus**. You can choose both options if you want this DSL both to expose its models and to consume references to other DSLs.
+3. Click **OK**. A new project "ModelBusAdapter" is added to the DSL solution.
 
-4. Click **OK**. A new project "ModelBusAdapter" is added to the DSL solution.
-
-5. If you want to access the DSL from a text template, you must modify AdapterManager.tt in the new project. Omit this step if you want to access the DSL from other code such as commands and event handlers. For more information, see [Using Visual Studio ModelBus in a Text Template](../modeling/using-visual-studio-modelbus-in-a-text-template.md).
+4. If you want to access the DSL from a text template, you must modify AdapterManager.tt in the new project. Omit this step if you want to access the DSL from other code such as commands and event handlers. For more information, see [Using Visual Studio ModelBus in a Text Template](../modeling/using-visual-studio-modelbus-in-a-text-template.md).
 
    1. Change the base class of AdapterManagerBase to [VsTextTemplatingModelingAdapterManager](/previous-versions/ee844317(v=vs.140)).
 
@@ -50,9 +48,9 @@ For additional information and sample code, see:
 
       If you want to access the DSL both from text templates and from other code, you need two adapters, one modified and one unmodified.
 
-6. Click **Transform All Templates**.
+5. Click **Transform All Templates**.
 
-7. Rebuild the solution.
+6. Rebuild the solution.
 
    It is now possible for ModelBus to open instances of this DSL.
 
