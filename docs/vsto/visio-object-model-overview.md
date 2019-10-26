@@ -56,7 +56,7 @@ ms.workload:
  To create shapes, you can use methods that include the `Microsoft.Office.Interop.Visio.Page.DrawSpline` and `Microsoft.Office.Interop.Visio.Page.DrawOval` methods. Additionally, you can retrieve masters from stencils and place the shapes on a page by using the `Microsoft.Office.Interop.Visio.Page.Drop` or `Microsoft.Office.Interop.Visio.Page.DropMany` methods.
 
 ## Use the Visio object model documentation
- For complete information about the Visio object model, you can refer to the Visio VBA object model reference. The VBA object model reference documents the Visio object model as it is exposed to Visual Basic for Applications (VBA) code. For more information, see [Visio 2010 object model reference](https://msdn.microsoft.com/library/ff769201.aspx).
+ For complete information about the Visio object model, you can refer to the Visio VBA object model reference. The VBA object model reference documents the Visio object model as it is exposed to Visual Basic for Applications (VBA) code. For more information, see [Visio object model reference](/office/vba/api/overview/visio/object-model).
 
  All of the objects and members in the VBA object model reference correspond to types and members in the Visio primary interop assembly (PIA). For example, the `Document` object in the VBA object model reference corresponds to the Microsoft.Office.Interop.Visio.Document type in the Visio PIA. Although the VBA object model reference provides code examples for most properties, methods, and events, you must translate the VBA code in this reference to Visual Basic or Visual C# if you want to use them in a Visio VSTO Add-in project that you create by using Visual Studio.
 

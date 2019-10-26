@@ -43,8 +43,6 @@ ms.workload:
 > [!NOTE]
 > There are some tasks that you cannot accomplish by using the Ribbon Designer. For more information about these tasks and how you can accomplish them, see [Ribbon overview](../vsto/ribbon-overview.md).
 
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use the Ribbon Designer to customize the ribbon in Outlook?](https://developer.microsoft.com/office/docs).
-
 ## Add a Ribbon (Visual Designer) item to a project
  To use the Ribbon Designer, add a new **Ribbon (Visual Designer)** item to your project. For more information, see [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md).
 

@@ -20,11 +20,7 @@ ms.workload:
 
 [!include[Add-ins note](includes/addinsnote.md)]
 
- For the latest information about Office development, see the following development centers on MSDN:
-
-- The [Office development with Visual Studio developer portal](https://developer.microsoft.com/office/docs) contains links to product information, code samples, videos, and community resources about using Visual Studio to customize Office applications as part of your solutions.
-
-- The [Microsoft Office developer center](https://developer.microsoft.com/office/docs) contains links to technical articles, code samples, downloads, community information, support, and other documentation about Office customizations and Office Business Applications (OBAs).
+ For the latest information about Office development, see the [Microsoft Office developer center](https://developer.microsoft.com/office/docs).
 
 ## In this section
 - [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
@@ -101,7 +97,7 @@ ms.workload:
 
 - [Managed reference &#40;Office development in Visual Studio&#41;](../vsto/managed-reference-office-development-in-visual-studio.md)
 
- Provides links to information about API namespaces and types that are used in Office projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]. For API reference documentation about the namespaces and types that are used in Office projects that target the .NET Framework 3.5, see the following reference section in the Visual Studio 2008 documentation: [2007 system managed reference](/visualstudio/vsto/managed-reference-office-development-in-visual-studio&view=vs-2019).
+ Provides links to information about API namespaces and types that are used in Office projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]. For API reference documentation about the namespaces and types that are used in Office projects that target the .NET Framework 3.5, see the following reference section in the Visual Studio 2008 documentation: [2007 system managed reference](../vsto/managed-reference-office-development-in-visual-studio.md).
 
 - [Unmanaged API reference &#40;Office development in Visual Studio&#41;](../vsto/unmanaged-api-reference-office-development-in-visual-studio.md)
 
@@ -113,9 +109,6 @@ ms.workload:
 
 - [Visual Studio developer center](https://visualstudio.microsoft.com/)
  Provides additional Visual Studio resources such as technical articles, videos, and blogs.
-
-- [Office Business Applications developer portal](https://developer.microsoft.com/office/docs)
- Provides information about Office Business Applications (OBAs) and how to build them by using the Office system platform.
 
 - [Microsoft Office development section of the MSDN library](/previous-versions/office/office-12/bb726434(v=office.12))
  The area of the MSDN library where you can find articles and reference documentation about developing solutions for several versions of Office (not specific to Office development using Visual Studio).

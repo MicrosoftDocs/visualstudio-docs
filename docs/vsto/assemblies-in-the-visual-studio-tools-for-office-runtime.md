@@ -41,7 +41,7 @@ ms.workload:
 |Microsoft.Office.Tools.Word.v4.0.Utilities.dll|Provides the following types:<br /><br /> -   Base classes for the generated `ThisDocument` class in document-level projects for Word.<br />-   Windows Forms controls that you can use on documents in Word projects.|
 
 ## Assemblies in the Office extensions for the .NET Framework 3.5
- The following table lists the assemblies that are included in the Office extensions for the .NET Framework 3.5. For documentation about the namespaces and classes in these assemblies, see the following reference section in the Visual Studio 2008 documentation: [http://go.microsoft.com/fwlink/?LinkId=160658](/visualstudio/vsto/managed-reference-office-development-in-visual-studio&view=vs-2019).
+ The following table lists the assemblies that are included in the Office extensions for the .NET Framework 3.5. For documentation about the namespaces and classes in these assemblies, see the following reference section in the Visual Studio 2008 documentation: [http://go.microsoft.com/fwlink/?LinkId=160658](../vsto/managed-reference-office-development-in-visual-studio.md).
 
 |Assembly name|Description|
 |-------------------|-----------------|

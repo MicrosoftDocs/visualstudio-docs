@@ -26,8 +26,6 @@ ms.workload:
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use Outlook to create a custom task report?](https://developer.microsoft.com/office/docs).
-
 ## Access objects in an Outlook project
  Outlook provides many objects with which you can interact. To use the object model effectively, you should be familiar with the following top-level objects:
 

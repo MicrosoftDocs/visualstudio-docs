@@ -23,8 +23,6 @@ ms.workload:
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
 
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Create a list in Excel that is connected to a SharePoint list?](https://msdn.microsoft.com/).
-
 ### To bind data to a ListObject control
 
 1. Create a <xref:System.Data.DataTable> at the class level.

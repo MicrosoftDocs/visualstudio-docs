@@ -30,7 +30,7 @@ ms.workload:
 > - Excel 2010 Workbook
 > - Excel 2010 Template
 >
->   If you want to perform this task in any other type of project, you must add a reference to the **Microsoft.Office.Interop.Excel** assembly, and then you must use classes from that assembly to open a workbook and delete a worksheet. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md) and [Excel 2010 primary interop assembly reference](/visualstudio/vsto/office-primary-interop-assemblies&view=vs-2019).
+>   If you want to perform this task in any other type of project, you must add a reference to the **Microsoft.Office.Interop.Excel** assembly, and then you must use classes from that assembly to open a workbook and delete a worksheet. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md) and [Excel 2010 primary interop assembly reference](../vsto/office-primary-interop-assemblies.md).
 
 ### To delete a worksheet by using a worksheet host item
 
@@ -49,7 +49,7 @@ ms.workload:
   The following code deletes a worksheet from a workbook by referencing the sheet through the index number of the **Sheets** collection. This code assumes that a new worksheet was created programmatically.
 
 > [!IMPORTANT]
-> If you want to perform this task in any other type of project, you must add a reference to the **Microsoft.Office.Interop.Excel** assembly, and then you must use classes from that assembly to open a workbook and delete a worksheet. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md) and [Excel 2010 primary interop assembly reference](/visualstudio/vsto/office-primary-interop-assemblies&view=vs-2019).
+> If you want to perform this task in any other type of project, you must add a reference to the **Microsoft.Office.Interop.Excel** assembly, and then you must use classes from that assembly to open a workbook and delete a worksheet. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md) and [Excel 2010 primary interop assembly reference](../vsto/office-primary-interop-assemblies.md).
 
 ### To delete a worksheet by using the Sheets collection of the Excel workbook
 

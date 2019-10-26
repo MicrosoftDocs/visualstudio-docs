@@ -30,8 +30,6 @@ ms.workload:
 
 - [Expose code that is not in a host item class](#NonHostItem)
 
-  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Call VSTO code from VBA?](https://msdn.microsoft.com/).
-
 ## <a name="HostItemCode"></a> Expose code in a host item class
  To enable VBA code to call Visual Basic code in a host item class, set the **EnableVbaCallers** property of the host item to **True**.
 

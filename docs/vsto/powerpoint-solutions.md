@@ -27,8 +27,6 @@ ms.workload:
 
 [!include[Add-ins note](includes/addinsnote.md)]
 
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Create an Add-in for Microsoft PowerPoint?](https://msdn.microsoft.com/).
-
 ## Automate PowerPoint by using the PowerPoint object model
  The PowerPoint object model exposes many types that you can use to automate PowerPoint. These types enable you to write code to accomplish common tasks:
 
@@ -46,7 +44,7 @@ ms.workload:
  For complete information about the PowerPoint object model, you can refer to the PowerPoint primary interop assembly (PIA) reference and the VBA object model reference.
 
 ### Primary interop assembly reference
- The PowerPoint PIA reference documentation describes the types in the primary interop assembly for PowerPoint. This documentation is available from the following location: [PowerPoint 2010 primary interop assembly reference](/visualstudio/vsto/office-primary-interop-assemblies&view=vs-2019).
+ The PowerPoint PIA reference documentation describes the types in the primary interop assembly for PowerPoint. This documentation is available from the following location: [PowerPoint 2010 primary interop assembly reference](../vsto/office-primary-interop-assemblies.md).
 
  For more information about the design of the PowerPoint PIA, such as the differences between classes and interfaces in the PIA and how events in the PIA are implemented, see [Overview of classes and interfaces in the Office primary interop assemblies](/previous-versions/office/developer/office-2010/ff759900(v=office.14)).
 

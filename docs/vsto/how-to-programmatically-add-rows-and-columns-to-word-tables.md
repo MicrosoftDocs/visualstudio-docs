@@ -31,7 +31,7 @@ ms.workload:
 > - Word 2010 Document
 > - Word 2010 Template
 >
->   If you want to perform this task in any other type of project, you must add a reference to the **Microsoft.Office.Interop.Word** assembly, and then you must use classes from that assembly to add rows and columns to tables. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md) and [Word 2010 primary interop assembly reference](/visualstudio/vsto/office-primary-interop-assemblies&view=vs-2019).
+>   If you want to perform this task in any other type of project, you must add a reference to the **Microsoft.Office.Interop.Word** assembly, and then you must use classes from that assembly to add rows and columns to tables. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md) and [Word 2010 primary interop assembly reference](../vsto/office-primary-interop-assemblies.md).
 
 ### To add a row to a table
 
@@ -53,7 +53,7 @@ ms.workload:
 > [!IMPORTANT]
 > This code runs only in projects that you create by using Word VSTO Add-in templates.
 >
-> If you want to perform this task in any other type of project, you must add a reference to the **Microsoft.Office.Interop.Word** assembly, and then you must use classes from that assembly to add rows and columns to tables. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md) and [Word 2010 primary interop assembly reference](/visualstudio/vsto/office-primary-interop-assemblies&view=vs-2019).
+> If you want to perform this task in any other type of project, you must add a reference to the **Microsoft.Office.Interop.Word** assembly, and then you must use classes from that assembly to add rows and columns to tables. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md) and [Word 2010 primary interop assembly reference](../vsto/office-primary-interop-assemblies.md).
 
 ### To add a row to a table
 

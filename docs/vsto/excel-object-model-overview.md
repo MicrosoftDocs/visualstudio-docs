@@ -41,8 +41,6 @@ ms.workload:
 
   This topic provides a brief overview of the Excel object model. For resources where you can learn more about the entire Excel object model, see [Use the Excel object model documentation](#ExcelOMDocumentation).
 
-  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use event handlers in an Excel 2007 Add-in?](https://msdn.microsoft.com/), and [How do I: Use shapes to create a bubble chart in Excel?](https://developer.microsoft.com/office/docs).
-
 ## Access objects in an Excel project
  When you create a new VSTO Add-in project for Excel, Visual Studio automatically creates a *ThisAddIn.vb* or *ThisAddIn.cs* code file. You can access the Application object by using `Me.Application` or `this.Application`.
 
