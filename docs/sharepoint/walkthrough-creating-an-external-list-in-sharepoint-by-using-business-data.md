@@ -40,7 +40,7 @@ You need the following components to complete this walkthrough:
 
 - Supported editions of Windows and SharePoint.
 
-- Access to the AdventureWorks sample database. For more information about how to install the AdventureWorks database, see [SQL Server Sample Databases](https://archive.codeplex.com/?p=msftdbprodsamples).
+- Access to the AdventureWorks sample database. For more information about how to install the AdventureWorks database, see [SQL Server Sample Databases](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks).
 
 ## Create a project that contains a BDC model
 
