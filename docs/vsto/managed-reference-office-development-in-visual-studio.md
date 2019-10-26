@@ -15,7 +15,7 @@ ms.workload:
   - "office"
 ---
 # Managed reference (Office development in Visual Studio)
-  This section contains API reference documentation for namespaces and types that are used in Office projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]. For API reference documentation about the namespaces and types that are used in Office projects that target the .NET Framework 3.5, see the following reference section in the Visual Studio documentation: [Managed reference (Office development in Visual Studio)](managed-reference-office-development-in-visual-studio.md).
+  This section contains API reference documentation for namespaces and types that are used in Office projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](includes/net-v45-md.md)]. For API reference documentation about the namespaces and types that are used in Office projects that target the .NET Framework 3.5, see the following reference section in the Visual Studio documentation: [Managed reference (Office development in Visual Studio)](managed-reference-office-development-in-visual-studio.md).
 
 [!include[Add-ins note](includes/addinsnote.md)]
 
@@ -58,14 +58,14 @@ ms.workload:
 
  <xref:Microsoft.VisualStudio.Tools.Applications.Runtime>
 
- Contains most of the exceptions that can be thrown by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)], several classes that can be used to cache data in document-level customizations, and other APIs that are part of the Visual Studio infrastructure.
+ Contains most of the exceptions that can be thrown by the [!INCLUDE[vsto_runtime](includes/vsto-runtime-md.md)], several classes that can be used to cache data in document-level customizations, and other APIs that are part of the Visual Studio infrastructure.
 
  <xref:Microsoft.VisualStudio.Tools.Office.BuildTasks>
 
  Contains MSBuild task classes that are used to build Office projects.
 
 ## See also
-- [Visual Studio tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)
-- [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
-- [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
-- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [Visual Studio tools for Office runtime overview](visual-studio-tools-for-office-runtime-overview.md)
+- [Get started &#40;Office development in Visual Studio&#41;](getting-started-office-development-in-visual-studio.md)
+- [Office development samples and walkthroughs](office-development-samples-and-walkthroughs.md)
+- [Design and create Office solutions](designing-and-creating-office-solutions.md)
