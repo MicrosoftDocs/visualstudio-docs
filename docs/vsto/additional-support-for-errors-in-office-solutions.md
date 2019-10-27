@@ -77,7 +77,7 @@ For assistance with some common errors in Office solutions, see the following to
 
 Provides a forum for questions about the Office developer tools in Visual Studio.
 
-[Microsoft help and support](https://support.microsoft.com/en-us)
+[Microsoft help and support](https://support.microsoft.com)
 
 Provides access to Knowledge Base (KB) articles, downloads and updates, support Webcasts, and other services.
 
