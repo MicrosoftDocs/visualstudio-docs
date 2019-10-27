@@ -68,9 +68,9 @@ To ensure that element IDs are persisted:
 
 3. For each class to which you want to create Model Bus references:
 
-    Click the class node, and in the Properties window, make sure that **Serialize Id** is set to `true`.
+    Click the class node, and in the Properties window, make sure that **Serialize ID** is set to `true`.
 
-   Alternatively, if you want to use element names to identify elements instead of guids, you can override parts of the generated adapters. Override the following methods in the adapter class:
+   Alternatively, if you want to use element names to identify elements instead of GUIDs, you can override parts of the generated adapters. Override the following methods in the adapter class:
 
 - Override `GetElementId` to return the identifier you want to use. This method is called when creating references.
 
@@ -116,7 +116,7 @@ To enable a DSL to use references to another DSL, you should first make it a *co
 
 2. Select the appropriate **Kind of ModelBusReference**: to a model or to an element inside a model.
 
-3. In file dialog filter string, enter a string such as `Family Tree files |*.ftree`. Subsitute the file extension of your exposed DSL.
+3. In file dialog filter string, enter a string such as `Family Tree files |*.ftree`. Substute the file extension of your exposed DSL.
 
 4. If you chose to reference an element in a model, you can add a list of types that the user can select, for example Company.FamilyTree.Person.
 

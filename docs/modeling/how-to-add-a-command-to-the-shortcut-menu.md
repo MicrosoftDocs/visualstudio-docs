@@ -94,7 +94,7 @@ Use the method in this topic if:
     </VisibilityConstraints>
     ```
 
-4. Define the names that you used for the guids and ids. To do this, add a `Symbols` element in the `CommandTable` element after the `Commands` element.
+4. Define the names that you used for the GUIDs and IDs. To do this, add a `Symbols` element in the `CommandTable` element after the `Commands` element.
 
     ```xml
     <Symbols>
