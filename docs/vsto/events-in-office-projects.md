@@ -144,7 +144,7 @@ ms.workload:
 - The <xref:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.Close> event of the <xref:Microsoft.Office.Interop.Outlook.Explorer> object.
 
 > [!NOTE]
-> You can force Outlook to raise the <xref:Microsoft.Office.Tools.AddInBase.Shutdown> event when it exits by modifying the registry. However, if an administrator reverts this setting, any code that you add to the `ThisAddIn_Shutdown` method no longer runs when Outlook exits. For more information, see [Shutdown changes for Outlook 2010](http://go.microsoft.com/fwlink/?LinkID=184614).
+> You can force Outlook to raise the <xref:Microsoft.Office.Tools.AddInBase.Shutdown> event when it exits by modifying the registry. However, if an administrator reverts this setting, any code that you add to the `ThisAddIn_Shutdown` method no longer runs when Outlook exits. For more information, see [Shutdown changes for Outlook 2010](/previous-versions/office/developer/office-2010/ee720183(v=office.14)).
 
 ## See also
 - [Develop Office solutions](../vsto/developing-office-solutions.md)

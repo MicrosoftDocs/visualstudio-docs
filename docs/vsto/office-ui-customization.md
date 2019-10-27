@@ -70,7 +70,7 @@ ms.workload:
 
  Visual Studio does not provide a designer or APIs for customizing the Backstage view. However, if you add a **Ribbon (XML)** item to your Office project, you can add XML to the Ribbon XML file to customize the Backstage view. For more information about **Ribbon (XML)** items, see [Ribbon XML](../vsto/ribbon-xml.md).
 
- For more information about customizing the Backstage view, see [Introduction to the Office 2010 Backstage view for developers](http://go.microsoft.com/fwlink/?LinkId=182189) and [Customize the Office 2010 Backstage view for developers](http://go.microsoft.com/fwlink/?LinkId=182188).
+ For more information about customizing the Backstage view, see [Introduction to the Office 2010 Backstage view for developers](/previous-versions/office/developer/office-2010/ee691833(v=office.14)) and [Customize the Office 2010 Backstage view for developers](/previous-versions/office/developer/office-2010/ee815851(v=office.14)).
 
 ## <a name="FormRegion"></a> Outlook form regions
  Use form regions to add custom functionality to standard Microsoft Office Outlook forms. You can create form regions that extend any existing form with additional fields or controls. If you create a new form region by using the Office development tools in Visual Studio, you can use only Windows Forms controls on the form region. If you import a form region that was designed in Outlook, then you can use only native Outlook controls.
