@@ -25,7 +25,7 @@ This dialog box is employed in a number of user scenarios, including the followi
 - When adding a catch on the <xref:System.Activities.Statements.TryCatch> activity.
 
 > [!NOTE]
-> The type browser can display Visual Basic jagged array types, but not multidimensional array types. See [Jagged Arrays](http://go.microsoft.com/fwlink/?LinkId=195226) and [Multidimensional Arrays](http://go.microsoft.com/fwlink/?LinkId=195227) for details.
+> The type browser can display Visual Basic jagged array types, but not multidimensional array types. See [Jagged Arrays](/previous-versions/visualstudio/visual-studio-2008/hkhhsz9t(v=vs.90)) and [Multidimensional Arrays](/previous-versions/visualstudio/visual-studio-2008/d2de1t93(v=vs.90)) for details.
 
 ## Selecting a Value or Reference Type from the Type Browser
 

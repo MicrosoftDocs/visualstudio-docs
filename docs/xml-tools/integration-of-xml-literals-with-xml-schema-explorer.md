@@ -11,7 +11,7 @@ ms.workload:
 ---
 # Integration of XML literals with XML Schema Explorer
 
-Visual Basic supports XML literals, which means that you can incorporate XML fragments directly into your Visual Basic code. For more information, see [XML literals overview](http://go.microsoft.com/fwlink/?LinkId=140325).
+Visual Basic supports XML literals, which means that you can incorporate XML fragments directly into your Visual Basic code. For more information, see [XML literals overview](/dotnet/visual-basic/programming-guide/language-features/xml/xml-literals-overview).
 
 ## How to
 

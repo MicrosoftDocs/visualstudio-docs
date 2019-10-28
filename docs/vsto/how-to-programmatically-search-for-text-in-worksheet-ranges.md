@@ -25,8 +25,6 @@ ms.workload:
 > [!NOTE]
 > The <xref:Microsoft.Office.Interop.Excel.Range.FindNext%2A> method's search wraps back to the beginning of the search range after it has reached the end of the range. Your code must ensure that the search does not wrap around in an infinite loop. The sample procedure shows one way to handle this using the <xref:Microsoft.Office.Interop.Excel.Range.Address%2A> property.
 
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use the Find method in an Excel Add-in?](http://go.microsoft.com/fwlink/?LinkID=130294).
-
 ## To search for text in a worksheet range
 
 1. Declare variables for tracking the entire range, the first found range, and the current found range.

@@ -43,7 +43,7 @@ ms.workload:
 
 - Wizards for project and item templates in Visual Studio. For more information, see [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md) and the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface.
 
-- Custom actions in SharePoint. For more information, see [Custom Action](http://go.microsoft.com/fwlink/?LinkId=177800).
+- Custom actions in SharePoint. For more information, see [Custom Action](/previous-versions/office/developer/sharepoint-2010/ms458635(v=office.14)).
 
 ## Create the wizard project
  To complete this walkthrough, you must add a project to the CustomActionProjectItem solution that you created in [Walkthrough: Create a custom action project item with an item template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md). You will implement the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface and define the wizard UI in this project.
@@ -98,7 +98,7 @@ ms.workload:
 ## Define the default location and ID strings for custom actions
  Every custom action has a location and ID that is specified in the `GroupID` and `Location` attributes of the `CustomAction` element in the *Elements.xml* file. In this step, you define some of the valid strings for these attributes in the ItemTemplateWizard project. When you complete this walkthrough, these strings are written to the *Elements.xml* file in the Custom Action project item when users specify a location and an ID in the wizard.
 
- For simplicity, this sample supports only a subset of the available default locations and IDs. For a full list, see [Default Custom Action Locations and IDs](http://go.microsoft.com/fwlink/?LinkId=181964).
+ For simplicity, this sample supports only a subset of the available default locations and IDs. For a full list, see [Default Custom Action Locations and IDs](/previous-versions/office/developer/sharepoint-2010/bb802730(v=office.14)).
 
 #### To define the default location and ID strings
 
@@ -341,4 +341,4 @@ ms.workload:
 - [Create item templates and project templates for SharePoint project items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md)
 - [Visual Studio Template Schema Reference](/visualstudio/extensibility/visual-studio-template-schema-reference)
 - [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md)
-- [Default Custom Action Locations and IDs](http://go.microsoft.com/fwlink/?LinkId=181964)
+- [Default Custom Action Locations and IDs](/previous-versions/office/developer/sharepoint-2010/bb802730(v=office.14))
