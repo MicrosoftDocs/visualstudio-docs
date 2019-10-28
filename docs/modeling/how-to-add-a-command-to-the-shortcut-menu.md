@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a Command to the Shortcut Menu"
+title: "How to: Add a command to the shortcut menu"
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,7 +11,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# How to: Add a Command to the Shortcut Menu
+# How to: Add a command to the shortcut menu
 
 You can add menu commands to your domain-specific language (DSL) so that your users can perform tasks that are specific to your DSL. The commands appear on the context (shortcut) menu when users right-click on the diagram. You can define a command so that it only appears in the menu in specific circumstances. For example, you can make the command visible only when the user clicks specific types of element, or elements in specific states.
 
@@ -353,8 +353,8 @@ protected override IList<MenuCommand> GetMenuCommands()
 
 ## See also
 
-- [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
-- [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md)
+- [Writing code to customize a domain-specific language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
+- [How to: Modify a standard menu command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md)
 - [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md)
 - [Sample code: Circuit Diagrams](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
 
