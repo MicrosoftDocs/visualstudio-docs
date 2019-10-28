@@ -22,7 +22,7 @@ The System.Xml namespace provides comprehensive tools for loading an XML documen
 In this example project, a template reads a sample XML file, and generates classes that correspond to each type of node. In the hand-written code, you can use these classes to navigate the XML file. You can also run your application on any other files that use the same node types. The purpose of the sample XML file is to provide examples of all the node types that you want your application to deal with.
 
 > [!NOTE]
-> The application [xsd.exe](http://go.microsoft.com/fwlink/?LinkId=178765), which is included with Visual Studio, can generate strongly-typed classes from XML files. The template shown here is provided as an example.
+> The application [xsd.exe](/dotnet/standard/serialization/xml-schema-definition-tool-xsd-exe), which is included with Visual Studio, can generate strongly-typed classes from XML files. The template shown here is provided as an example.
 
 Here is the sample file:
 

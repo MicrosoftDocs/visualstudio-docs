@@ -27,7 +27,7 @@ ms.workload:
 
 2. In the **Toolbox**, from the **BusinessDataCatalog** group, add an **Entity** control onto the designer.
 
-     The new entity appears on the designer. Visual Studio adds an `<Entity>` element to the XML of the BDC model file in your project. For more information about the attributes of an Entity element, see [Entity](http://go.microsoft.com/fwlink/?LinkId=169296).
+     The new entity appears on the designer. Visual Studio adds an `<Entity>` element to the XML of the BDC model file in your project. For more information about the attributes of an Entity element, see [Entity](/previous-versions/office/developer/sharepoint-2010/ee558325(v=office.14)).
 
 3. On the designer, open the shortcut menu for the entity, choose **Add**, and then choose **Identifier**.
 

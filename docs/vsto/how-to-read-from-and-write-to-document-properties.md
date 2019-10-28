@@ -19,8 +19,6 @@ ms.workload:
 # How to: Read from and write to document properties
   You can store document properties along with a document. Office applications provide a number of built-in properties, such as author, title, and subject. This topic shows how to set document properties in Microsoft Office Excel and Microsoft Office Word.
 
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Access and manipulate custom document properties in Microsoft Word?](http://go.microsoft.com/fwlink/?LinkId=136772).
-
  [!INCLUDE[appliesto_docprops](../vsto/includes/appliesto-docprops-md.md)]
 
 ## Set document properties in Excel

@@ -49,7 +49,7 @@ ms.workload:
 
   Knowledge of the following concepts is helpful, but not required, to complete the walkthrough:
 
-- Custom actions in SharePoint. For more information, see [Custom Action](http://go.microsoft.com/fwlink/?LinkId=177800).
+- Custom actions in SharePoint. For more information, see [Custom Action](/previous-versions/office/developer/sharepoint-2010/ms458635(v=office.14)).
 
 - Item templates in Visual Studio. For more information, see [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md).
 
@@ -256,7 +256,7 @@ ms.workload:
     </Elements>
     ```
 
-     This file defines a default custom action that creates a menu item on the **Site Actions** menu of the SharePoint site. When a user chooses the menu item, the URL specified in the `UrlAction` element opens in the web browser. For more information about the XML elements you can use to define a custom action, see [Custom Action Definitions](http://go.microsoft.com/fwlink/?LinkId=177801).
+     This file defines a default custom action that creates a menu item on the **Site Actions** menu of the SharePoint site. When a user chooses the menu item, the URL specified in the `UrlAction` element opens in the web browser. For more information about the XML elements you can use to define a custom action, see [Custom Action Definitions](/sharepoint/dev/schema/custom-action-definition-schema).
 
 12. Optionally, open the *ItemTemplate.ico* file and modify it so that it has a design that you can recognize. This icon will display next to the project item in the **Add New Item** dialog box.
 

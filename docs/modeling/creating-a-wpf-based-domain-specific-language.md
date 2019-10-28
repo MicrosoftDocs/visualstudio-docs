@@ -12,7 +12,7 @@ ms.workload:
 
 You can create a domain-specific language that has a WPF designer instead of a graphical designer.
 
-Information and samples about this feature can be found on the Visual Studio Visualization and Modeling Tools website at [http://go.microsoft.com/fwlink/?LinkId=186128](http://go.microsoft.com/fwlink/?LinkId=186128)
+Information and samples about this feature can be found on the Visual Studio Visualization and Modeling Tools website at [http://go.microsoft.com/fwlink/?LinkId=186128](https://code.msdn.microsoft.com/Visualization-and-Modeling-313535db)
 
 ## See also
 

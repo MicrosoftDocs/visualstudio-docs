@@ -47,7 +47,7 @@ ms.workload:
 
 6. On the BDC Designer, a line that represents the association appears between the source entity and the destination entity.
 
-     Visual Studio adds an Association Navigator method to the service class of the destination entity and the service class of the source entity. For more information about Association Navigation methods, see [Supported Operations](http://go.microsoft.com/fwlink/?LinkId=169286).
+     Visual Studio adds an Association Navigator method to the service class of the destination entity and the service class of the source entity. For more information about Association Navigation methods, see [Supported Operations](/previous-versions/office/developer/sharepoint-2010/ee557363(v=office.14)).
 
 7. In the Association Navigator method of the source entity, add code that returns a collection of destination entities.
 

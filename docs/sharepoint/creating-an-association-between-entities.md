@@ -33,7 +33,7 @@ ms.workload:
 
  By default, the **Association Editor** adds an Association Navigation method to the source and destination entities. An Association Navigation method in the source entity enables consumers to retrieve a list of destination entities. An Association Navigation method in the destination entity enables consumers to retrieve the source entity that relates to a destination entity.
 
- You must add the code to each of these methods to return the appropriate information. You can also add other types of methods to support more advanced scenarios. For more information about each of these methods, see [Supported Operations](http://go.microsoft.com/fwlink/?LinkId=169286).
+ You must add the code to each of these methods to return the appropriate information. You can also add other types of methods to support more advanced scenarios. For more information about each of these methods, see [Supported Operations](/previous-versions/office/developer/sharepoint-2010/ee557363(v=office.14)).
 
 ## Types of associations
  You can create two types of associations in the BDC designer: foreign key-based associations and foreign keyless associations.
