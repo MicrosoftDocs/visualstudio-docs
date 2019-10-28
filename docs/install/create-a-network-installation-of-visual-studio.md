@@ -1,7 +1,7 @@
 ---
 title: "Create a network-based installation"
 description: "Learn how to create a network install point for deploying Visual Studio within an enterprise."
-ms.date: 10/11/2019
+ms.date: 10/29/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
@@ -82,8 +82,9 @@ You must have an internet connection to complete this step. To create an offline
 
 ## Modify the response.json file
 
-You can modify the response.json to set default values that are used when setup is run.  For example, you can configure the `response.json` file to select a specific set of workloads selected automatically.
-See [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md) for details.
+You can modify the response.json to set default values that are used when setup is run.  For example, you can configure the `response.json` file to select a specific set of workloads selected automatically. See [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md) for details.
+
+And, if you run into a problem with the Visual Studio bootstrapper throwing an error when you pair it with a response.json file, see the [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio#error-failed-to-parse-id-from-parent-process) page for more information on what to do.
 
 ## Copy the layout to a network share
 
@@ -213,7 +214,7 @@ Administrators can deploy Visual Studio onto client workstations as part of an i
 
 > [!IMPORTANT]
 > To prevent an error, make sure that your full layout path is less than 80 characters.
->
+
 > [!TIP]
 > When executed as part of a batch file, the `--wait` option ensures that the `vs_enterprise.exe` process waits until the installation is complete before it returns an exit code.
 >
@@ -281,6 +282,7 @@ We have other support options available, too. For a list, see our [Feedback](../
 
 - [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 - [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
+- [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
 - [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 - [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
 - [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)
