@@ -43,21 +43,24 @@ Breakpoints are one of the most important debugging techniques in your developer
 > If you know the task or problem you're trying to solve, but you need to know what kind of breakpoint to use, see [Find your debugging task](../debugger/find-your-debugging-task.md#pause-running-code).
 
 ## <a name="BKMK_Overview"></a> Set breakpoints in source code
- You can set a breakpoint on any line of executable code. For example, in the following C# code, you could set a breakpoint on the variable declaration, the `for` loop, or any code inside the `for` loop. You can't set a breakpoint on the namespace or class declarations, or on the method signature.
 
- To set a breakpoint in source code, click in the far left margin next to a line of code. You can also select the line and press **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert breakpoint**. The breakpoint appears as a red dot in the left margin.
+You can set a breakpoint on any line of executable code. For example, in the following C# code, you could set a breakpoint on the variable declaration, the `for` loop, or any code inside the `for` loop. You can't set a breakpoint on the namespace or class declarations, or on the method signature.
 
-In C# code, breakpoint and current execution lines are automatically highlighted. For C++ code, you can turn on highlighting of breakpoint and current lines by selecting **Tools** (or **Debug**) > **Options** > **Debugging** >  **Highlight entire source line for breakpoints and current statement (C++ only)**.
+To set a breakpoint in source code, click in the far left margin next to a line of code. You can also select the line and press **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert breakpoint**. The breakpoint appears as a red dot in the left margin.
 
- ![Set a breakpoint](../debugger/media/basicbreakpoint.png "Basic breakpoint")
+For most languages including C#, breakpoint and current execution lines are automatically highlighted. For C++ code, you can turn on highlighting of breakpoint and current lines by selecting **Tools** (or **Debug**) > **Options** > **Debugging** >  **Highlight entire source line for breakpoints and current statement (C++ only)**.
 
- When you debug, execution pauses at the breakpoint, before the code on that line is executed. The breakpoint symbol shows a yellow arrow.
+![Set a breakpoint](../debugger/media/basicbreakpoint.png "Basic breakpoint")
 
- At the breakpoint in the following example, the value of `testInt` is still 1.
+When you debug, execution pauses at the breakpoint, before the code on that line is executed. The breakpoint symbol shows a yellow arrow.
 
- ![Breakpoint execution stopped](../debugger/media/breakpointexecution.png "Breakpoint execution")
+At the breakpoint in the following example, the value of `testInt` is still 1. So, the value hasn't changed since the variable was initialized (set to a value of 1) because the statement in yellow hasn't yet executed.
 
- When the debugger stops at the breakpoint, you can look at the current state of the app, including variable values and the call stack. For more information about the call stack, see [How to: Use the Call Stack window](../debugger/how-to-use-the-call-stack-window.md).
+![Breakpoint execution stopped](../debugger/media/breakpointexecution.png "Breakpoint execution")
+
+When the debugger stops at the breakpoint, you can look at the current state of the app, including [variable values](../debugger/debugger-feature-tour.md#inspect-variables-with-data-tips) and the [call stack](../debugger/how-to-use-the-call-stack-window.md).
+
+Here are a few general instructions for working with breakpoints.
 
 - The breakpoint is a toggle. You can click it, press **F9**, or use **Debug** > **Toggle Breakpoint** to delete or reinsert it.
 
@@ -67,12 +70,11 @@ In C# code, breakpoint and current execution lines are automatically highlighted
 
 ## <a name="BKMK_Print_to_the_Output_window_with_tracepoints"></a> Breakpoint actions and tracepoints
 
-A *tracepoint* is a breakpoint that prints a message to the **Output** window. A tracepoint can act like a temporary trace statement in the programming language.
-
-For detailed instructions, see [Use tracepoints in the Visual Studio debugger](../debugger/using-tracepoints.md).
+A *tracepoint* is a breakpoint that prints a message to the **Output** window. A tracepoint can act like a temporary trace statement in the programming language. You create a tracepoint by setting a special action in the **Breakpoint Settings** window. For detailed instructions, see [Use tracepoints in the Visual Studio debugger](../debugger/using-tracepoints.md).
 
 ## Breakpoint conditions
- You can control when and where a breakpoint executes by setting conditions. The condition can be any valid expression that the debugger recognizes. For more information about valid expressions, see [Expressions in the debugger](../debugger/expressions-in-the-debugger.md).
+
+You can control when and where a breakpoint executes by setting conditions. The condition can be any valid expression that the debugger recognizes. For more information about valid expressions, see [Expressions in the debugger](../debugger/expressions-in-the-debugger.md).
 
 **To set a breakpoint condition:**
 
@@ -89,27 +91,28 @@ For detailed instructions, see [Use tracepoints in the Visual Studio debugger](.
 Breakpoints with conditions set appear with a **+** symbol in the source code and **Breakpoints** windows.
 
 <a name="BKMK_Specify_a_breakpoint_condition_using_a_code_expression"></a>
-### Conditional Expression
+### Create a conditional expression
 
 When you select **Conditional Expression**, you can choose between two conditions: **Is true** or **When changed**. Choose **Is true** to break when the expression is satisfied, or **When changed** to break when the value of the expression has changed.
 
- In the following example, the breakpoint is hit only when the value of `testInt` is **4**:
+In the following example, the breakpoint is hit only when the value of `testInt` is **4**:
 
- ![Breakpoint condition is true](../debugger/media/breakpointconditionistrue.png "Breakpoint Is true")
+![Breakpoint condition is true](../debugger/media/breakpointconditionistrue.png "Breakpoint Is true")
 
- In the following example, the breakpoint is hit only when the value of `testInt` changes:
+In the following example, the breakpoint is hit only when the value of `testInt` changes:
 
- ![Breakpoint When changed](../debugger/media/breakpointwhenchanged.png "Breakpoint When changed")
+![Breakpoint When changed](../debugger/media/breakpointwhenchanged.png "Breakpoint When changed")
 
- If you set a breakpoint condition with invalid syntax, a warning message appears. If you specify a breakpoint condition with valid syntax but invalid semantics, a warning message appears the first time the breakpoint is hit. In either case, the debugger breaks when it hits the invalid breakpoint. The breakpoint is skipped only if the condition is valid and evaluates to `false`.
+If you set a breakpoint condition with invalid syntax, a warning message appears. If you specify a breakpoint condition with valid syntax but invalid semantics, a warning message appears the first time the breakpoint is hit. In either case, the debugger breaks when it hits the invalid breakpoint. The breakpoint is skipped only if the condition is valid and evaluates to `false`.
 
- >[!NOTE]
- >The behavior of the **When changed** field is different for different programming languages.
- >- For native code, the debugger doesn't consider the first evaluation of the condition to be a change, so doesn't hit the breakpoint on the first evaluation.
- >- For managed code, the debugger hits the breakpoint on the first evaluation after **When changed** is selected.
+>[!NOTE]
+>The behavior of the **When changed** field is different for different programming languages.
+>- For native code, the debugger doesn't consider the first evaluation of the condition to be a change, so doesn't hit the breakpoint on the first evaluation.
+>- For managed code, the debugger hits the breakpoint on the first evaluation after **When changed** is selected.
 
 <a name="using-object-ids-in-breakpoint-conditions-c-and-f"></a>
-### Using Object IDs in conditional expressions (C# and F# only)
+### Use Object IDs in conditional expressions (C# and F# only)
+
  There are times when you want to observe the behavior of a specific object. For example, you might want to find out why an object was inserted into a collection more than once. In C# and F#, you can create object IDs for specific instances of [reference types](/dotnet/csharp/language-reference/keywords/reference-types), and use them in breakpoint conditions. The object ID is generated by the common language runtime (CLR) debugging services and associated with the object.
 
 **To create an Object ID:**
@@ -130,17 +133,19 @@ When you select **Conditional Expression**, you can choose between two condition
 
    To delete the Object ID, right-click the variable in the **Locals** window and select **Delete Object ID**.
 
->[!NOTE]
->Object IDs create weak references, and do not prevent the object from being garbage collected. They are valid only for the current debugging session.
+> [!NOTE]
+> Object IDs create weak references, and do not prevent the object from being garbage collected. They are valid only for the current debugging session.
 
-### Hit Count
- If you suspect that a loop in your code starts misbehaving after a certain number of iterations, you can set a breakpoint to stop execution after that number of hits, rather than having to repeatedly press **F5** to reach that iteration.
+### Set a hit count condition
 
- Under **Conditions** in the **Breakpoint Settings** window, select **Hit Count**, and then specify the number of iterations. In the following example, the breakpoint is set to hit on every other iteration:
+If you suspect that a loop in your code starts misbehaving after a certain number of iterations, you can set a breakpoint to stop execution after that number of hits, rather than having to repeatedly press **F5** to reach that iteration.
 
- ![Breakpoint hit count](../debugger/media/breakpointhitcount.png "BreakpointHitCount")
+Under **Conditions** in the **Breakpoint Settings** window, select **Hit Count**, and then specify the number of iterations. In the following example, the breakpoint is set to hit on every other iteration:
 
-### Filter
+![Breakpoint hit count](../debugger/media/breakpointhitcount.png "BreakpointHitCount")
+
+### Set a filter condition
+
 You can restrict a breakpoint to fire only on specified devices, or in specified processes and threads.
 
 Under **Conditions** in the **Breakpoint Settings** window, select **Filter**, and then enter one or more of the following expressions:
