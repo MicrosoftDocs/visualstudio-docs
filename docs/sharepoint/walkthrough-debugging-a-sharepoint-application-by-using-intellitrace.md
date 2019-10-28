@@ -287,7 +287,7 @@ If you install Microsoft Monitoring Agent on the system that's running SharePoin
 
       An error occurs (in this case, because of the error thrown in the FeatureDeactivating() event handler).
 
-3. In the PowerShell window, run the [Stop-WebApplicationMonitoring](http://go.microsoft.com/fwlink/?LinkID=313687) command to create the .iTrace file, stop monitoring, and restart your SharePoint solution.
+3. In the PowerShell window, run the [Stop-WebApplicationMonitoring](/previous-versions/system-center/powershell/system-center-2012-r2/dn472753(v=sc.20)) command to create the .iTrace file, stop monitoring, and restart your SharePoint solution.
 
      **Stop-WebApplicationMonitoring**  *"\<SharePointSite>\\<SharePointAppName\>"*
 
