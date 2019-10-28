@@ -84,7 +84,7 @@ You must have an internet connection to complete this step. To create an offline
 
 You can modify the response.json to set default values that are used when setup is run.  For example, you can configure the `response.json` file to select a specific set of workloads selected automatically. See [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md) for details.
 
-And, if you run into a problem with the Visual Studio bootstrapper throwing an error when you pair it with a response.json file, see the [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio#error-failed-to-parse-id-from-parent-process) page for more information on what to do.
+And, if you run into a problem with the Visual Studio bootstrapper throwing an error when you pair it with a response.json file, see the "Failed to parse ID from parent process" section of the [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md#error-failed-to-parse-id-from-parent-process) page for more information on what to do.
 
 ## Copy the layout to a network share
 
