@@ -2,7 +2,7 @@
 title: Python support in Visual Studio on Windows
 titleSuffix: ""
 description: Summary of Python features in Visual Studio, making it the best Python IDE on Windows (also known as Python Tools for Visual Studio, PTVS).
-ms.date: 06/05/2019
+ms.date: 10/28/2019
 ms.topic: overview
 author: JoshuaPartlow
 ms.author: joshuapa
@@ -58,7 +58,7 @@ For more information:
 
 ## Rich editing, IntelliSense, and code comprehension
 
-Visual Studio provides a first-class Python editor, including syntax coloring, auto-complete across all your code and libraries, code formatting, signature help, refactoring, linting, and type hints. Visual Studio also provides unique features like class view, **Go to Definition**, **Find All References**, and code snippets. Direct integration with the [Interactive window](#interactive-window) helps you quickly develop Python code that's already saved in a file.
+Visual Studio provides a first-class Python editor, including syntax coloring, auto-complete across all your code and libraries, code formatting, signature help, refactoring, linting, and type hints. Visual Studio also provides unique features like **Go to Definition**, **Find All References**, and code snippets. Direct integration with the [Interactive window](#interactive-window) helps you quickly develop Python code that's already saved in a file.
 
 ![Code completions for Python code in Visual Studio](media/code-editing-completions-simple.png)
 
