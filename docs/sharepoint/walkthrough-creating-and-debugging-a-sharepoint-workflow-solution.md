@@ -277,9 +277,9 @@ ms.workload:
 ## Next steps
  You can learn more about how to create workflow templates from these topics:
 
-- To learn more about SharePoint workflow activities, see [Workflow Activities for SharePoint Foundation](http://go.microsoft.com/fwlink/?LinkId=178992).
+- To learn more about SharePoint workflow activities, see [Workflow Activities for SharePoint Foundation](/previous-versions/office/developer/sharepoint-2010/ms446847(v=office.14)).
 
-- To learn more about Windows Workflow Foundation activities, see [System.Workflow.Activities Namespace](http://go.microsoft.com/fwlink/?LinkId=178993).
+- To learn more about Windows Workflow Foundation activities, see [System.Workflow.Activities Namespace](/dotnet/api/system.workflow.activities&view=netframework-4.8).
 
 ## See also
 - [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)

@@ -229,7 +229,7 @@ A design-time text template is a file for which **Custom Tool** is set to **Text
 
 For a design-time text template, you can specify any base class that is derived from <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation?displayProperty=fullName>. Use the `<#@assembly#>` directive to load the assembly or project that contains the base class.
 
-For more information, see ["Inheritance in Text Templates" in Gareth Jones' Blog](http://go.microsoft.com/fwlink/?LinkId=208373).
+For more information, see ["Inheritance in Text Templates" in Gareth Jones' Blog](https://blogs.msdn.microsoft.com/garethj/2011/01/03/vs2010-sp1-t4-template-inheritance-part-i-sample-metadata/).
 
 ## linePragmas attribute
 

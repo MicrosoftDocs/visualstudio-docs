@@ -82,5 +82,5 @@ ms.workload:
 
  Provides information about how to make Office solutions available to your users, and describes the major issues to consider when you choose a deployment method and set security.
 
-- [Visual Studio Tools for Office technical articles and Visual How Tos](http://go.microsoft.com/fwlink/?LinkID=106640)
+- [Visual Studio Tools for Office technical articles and Visual How Tos](/previous-versions/office/developer/office-2007/bb871648(v=office.12))
  Contains links into videos and technical articles about Office solutions created by using Visual Studio.

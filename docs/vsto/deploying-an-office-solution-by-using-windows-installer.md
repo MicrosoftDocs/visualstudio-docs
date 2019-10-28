@@ -53,15 +53,15 @@ By using Visual Studio to create a Windows Installer, you can deploy an Office s
 
 For more information about how to deploy an Office solution by using ClickOnce, see [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md).
 
-For information about how to create a Windows Installer file by using [!INCLUDE[vs_dev10_long](../sharepoint/includes/vs-dev10-long-md.md)], see [Deploy a Visual Studio 2010 Tools for Office solution using Windows Installer](http://go.microsoft.com/fwlink/?LinkId=201807).
+For information about how to create a Windows Installer file by using [!INCLUDE[vs_dev10_long](../sharepoint/includes/vs-dev10-long-md.md)], see [Deploy a Visual Studio 2010 Tools for Office solution using Windows Installer](/previous-versions/visualstudio/visual-studio-2010/ff937654(v=msdn.10)).
 
 ## <a name="Download"></a>Download samples
 This topic refers to the following downloadable samples.
 
 |Sample<br /><br />|Description<br /><br />|
 |----------|---------------|
-|[ExcelAddIn](http://go.microsoft.com/fwlink/?LinkID=275492)<br /><br />|An Excel VSTO Add-in that you can install on a computer that runs a 32-bit or 64-bit version of Office.<br /><br />|
-|[ExcelWorkbook](http://go.microsoft.com/fwlink/?LinkID=275493)<br /><br />|An Excel document-level customization that you can install on a computer that runs a 32-bit or 64-bit version of Office.<br /><br />|
+|[ExcelAddIn](https://code.msdn.microsoft.com/VSTO-Deploy-an-Office-fbcc09ad)<br /><br />|An Excel VSTO Add-in that you can install on a computer that runs a 32-bit or 64-bit version of Office.<br /><br />|
+|[ExcelWorkbook](https://code.msdn.microsoft.com/VSTO-Deploy-a-Customization-f70fae33)<br /><br />|An Excel document-level customization that you can install on a computer that runs a 32-bit or 64-bit version of Office.<br /><br />|
 
 ## <a name="ApplySecurity"></a>Decide how to grant trust to the solution
 Before a solution can run on user computers, you must grant trust in either of the following ways, or users must respond to a trust prompt when they install the solution.
@@ -504,4 +504,4 @@ To modify custom properties, you create a program that removes the document-leve
 - [Custom document properties overview](../vsto/custom-document-properties-overview.md)
 - [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md)
 - [Grant trust to documents](../vsto/granting-trust-to-documents.md)
-- [Deploy a Visual Studio 2010 Tools for Office solution using Windows Installer](http://go.microsoft.com/fwlink/?LinkId=201807)
+- [Deploy a Visual Studio 2010 Tools for Office solution using Windows Installer](/previous-versions/visualstudio/visual-studio-2010/ff937654(v=msdn.10))
