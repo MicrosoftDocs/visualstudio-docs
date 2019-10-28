@@ -160,7 +160,7 @@ Enclose string values in double quotes. You can combine clauses using `&` (AND),
 
 ## <a name="BKMK_Set_a_breakpoint_in_a_source_file"></a> Set function breakpoints
 
-  You can break execution when a function is called.
+You can break execution when a function is called. This is useful, for example, when you know the function name but not its location. It is also useful if you have functions with the same name and you want to break on them all (such as overloaded functions or functions in different projects).
 
 **To set a function breakpoint:**
 

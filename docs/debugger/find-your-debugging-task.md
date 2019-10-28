@@ -43,6 +43,10 @@ Set a breakpoint using **Hit count** as a condition. For more information, see [
 
 You can do this with a function breakpoint. For more information, see [Set function breakpoints](using-breakpoints.md#BKMK_Set_a_breakpoint_in_a_source_file).
 
+### Pause code at the start of multiple functions with the same name
+
+When you have multiple functions with the same name (overloaded functions or functions in different projects), you can use a [function breakpoint](using-breakpoints.md#BKMK_Set_a_breakpoint_in_a_source_file).
+
 ### Manage and keep track of your breakpoints
 
 Use the **Breakpoints** window. For more information, see [Manage breakpoints](using-breakpoints.md#BKMK_Specify_advanced_properties_of_a_breakpoint_).
@@ -100,6 +104,10 @@ Use [Edit and continue](edit-and-continue.md). For XAML, use [XAML Hot Reload](x
 ### Send messages to the Output window without modifying code
 
 Set a tracepoint. For more information, see [Using tracepoints](using-tracepoints.md).
+
+## View the order in which functions are called
+
+See [How to view the call stack](how-to-use-the-call-stack-window.md).
 
 ### Debug on remote machines
 
