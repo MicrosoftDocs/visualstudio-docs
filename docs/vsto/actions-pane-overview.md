@@ -26,8 +26,6 @@ ms.workload:
 > [!NOTE]
 > The actions pane differs from custom task panes. Custom task panes are associated with the application, not a specific document. You can create custom task panes in VSTO Add-ins for some Microsoft Office applications. For more information, see [Custom task panes](../vsto/custom-task-panes.md).
 
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use WPF controls inside an Excel actions pane?](http://go.microsoft.com/fwlink/?LinkId=132763).
-
 ## Display the actions pane
  The actions pane is represented by the <xref:Microsoft.Office.Tools.ActionsPane> class. When you create a document-level project, an instance of this class is available to your code by using the `ActionsPane` field of the `ThisWorkbook` (for Excel) or `ThisDocument` (for Word) class in your project. To display the actions pane, add a Windows Forms control to the <xref:Microsoft.Office.Tools.ActionsPane.Controls%2A> property of the `ActionsPane` field. The following code example adds a control named `actions` to the actions pane.
 

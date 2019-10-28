@@ -24,7 +24,7 @@ In addition, you can display data by using host controls. Host controls are nati
 
 The following example shows how to add data-bound controls in document-level projects using a designer. For an example of how to add data-bound controls in VSTO Add-in projects at run time, see [Walkthrough: Simple data binding in VSTO Add-in project](../vsto/walkthrough-simple-data-binding-in-vsto-add-in-project.md).
 
-![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [Bind data to Word 2007 content controls Using Visual Studio Tools for the Office system (3.0)](http://go.microsoft.com/fwlink/?LinkId=136785).
+![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [Bind data to Word 2007 content controls Using Visual Studio Tools for the Office system (3.0)](/previous-versions/office/developer/office-2007/bb967663(v=office.12)).
 
 ## Add a control to a document at design time
 

@@ -140,7 +140,7 @@ To discover the formats in which your drag source information is available, run 
     }
     ```
 
-     To accept UML shapes, determine the Guids of the UML shape classes by experiment. Remember that there is usually more than one type of element on any diagram. Remember also that an object dragged from a DSL or UML diagram is the shape, not the model element.
+     To accept UML shapes, determine the GUIDs of the UML shape classes by experiment. Remember that there is usually more than one type of element on any diagram. Remember also that an object dragged from a DSL or UML diagram is the shape, not the model element.
 
 `DiagramDragEventArgs` also has properties that indicate the current mouse pointer position and whether the user is pressing the CTRL, ALT, or SHIFT keys.
 
@@ -154,11 +154,9 @@ The `Data` and `Prototype` properties of the event arguments contain only a refe
 
 Make the source DSL accessible by Visual Studio Model Bus:
 
-1. Download and install the Visual Studio Model Bus extension, if it is not already installed. For more information, see [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579).
+1. Open the DSL definition file of the source DSL in DSL Designer. Right-click the design surface and then click **Enable Modelbus**. In the dialog box, choose one or both of the options.  Click **OK**. A new project "ModelBus" is added to the DSL solution.
 
-2. Open the DSL definition file of the source DSL in DSL Designer. Right-click the design surface and then click **Enable Modelbus**. In the dialog box, choose one or both of the options.  Click **OK**. A new project "ModelBus" is added to the DSL solution.
-
-3. Click **Transform All Templates** and rebuild the solution.
+2. Click **Transform All Templates** and rebuild the solution.
 
 ### To send an object from a source DSL
 

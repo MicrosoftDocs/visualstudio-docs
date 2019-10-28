@@ -110,7 +110,7 @@ Before you can start this procedure, install these components:
  **Use existing strong name key**
  Use this option if you want to integrate your DSL with another assembly.
 
- For more information about strong naming, see [Creating and Using Strong-Named Assemblies](http://go.microsoft.com/fwlink/?LinkId=186073).
+ For more information about strong naming, see [Creating and Using Strong-Named Assemblies](/dotnet/standard/assembly/create-use-strong-named).
 
 ## See also
 
