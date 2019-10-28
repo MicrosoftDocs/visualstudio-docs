@@ -1,6 +1,6 @@
 ---
-title: "Use tracepoints in the debugger | Microsoft Docs"
-ms.date: "9/17/2019"
+title: "Log info to the Output window | Microsoft Docs"
+ms.date: "10/28/2019"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "tracepoints, about tracepoints"
@@ -12,10 +12,10 @@ ms.workload:
 ---
 
 
-# Use tracepoints in the Visual Studio debugger
+# Log info to the Output window using tracepoints in Visual Studio
 
 Tracepoints allow you to log information to the Output window under configurable conditions without modifying or stopping your
-code. This feature is supported for both managed and native code as well as several languages such as JavaScript and C#.
+code. This feature is supported for both managed and native code as well as several languages such as JavaScript and Python.
 
 ## Let&#39;s take an example
 
