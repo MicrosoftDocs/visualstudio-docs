@@ -31,7 +31,7 @@ To download a completed version of the sample, see [Complete matching game tutor
 - Add a sound when the player finds a match, another sound when the player uncovers two icons that don't match, and a third sound when the program hides the icons again.
 
     > [!TIP]
-    > To play sounds, you can use the <xref:System.Media> namespace. See [Play sounds in Windows Forms app (C#)](http://youtu.be/qOh4ooHg1UU) or [How to play audio in Visual Basic](http://youtu.be/-4oPDeQrtMs) for more information.
+    > To play sounds, you can use the <xref:System.Media> namespace. See [Play sounds in Windows Forms app (C#)](https://www.youtube.com/watch?v=qOh4ooHg1UU&feature=youtu.be) or [How to play audio in Visual Basic](https://www.youtube.com/watch?v=-4oPDeQrtMs&feature=youtu.be) for more information.
 
 - Make the game more difficult by making the board bigger.
 

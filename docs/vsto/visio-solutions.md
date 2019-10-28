@@ -68,4 +68,4 @@ ms.workload:
 - [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)
 - [Office UI customization](../vsto/office-ui-customization.md)
 - [Visio object model overview](../vsto/visio-object-model-overview.md)
-- [Visio 2010 in Office development](http://go.microsoft.com/fwlink/?LinkId=199017)
+- [Visio 2010 in Office development](/previous-versions/office/developer/office-2010/ff604964(v=office.14))

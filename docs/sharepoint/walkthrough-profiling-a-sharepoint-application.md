@@ -270,4 +270,4 @@ ms.workload:
 - [Performance Explorer](/visualstudio/profiling/performance-explorer)
 - [Performance Session Overview](/visualstudio/profiling/performance-session-overview)
 - [Beginners Guide to Performance Profiling](/visualstudio/profiling/beginners-guide-to-performance-profiling)
-- [Find Application Bottlenecks with Visual Studio Profiler](http://go.microsoft.com/fwlink/?LinkID=137266)
+- [Find Application Bottlenecks with Visual Studio Profiler](https://msdn.microsoft.com/magazine/cc337887.aspx)

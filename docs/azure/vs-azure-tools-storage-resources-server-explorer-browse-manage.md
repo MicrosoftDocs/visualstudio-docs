@@ -114,7 +114,7 @@ By default, a blob is downloaded to a temporary directory. To download blobs to 
 
 To upload blobs, select the **Upload Blob** button when the container is open for viewing in the blob container view.
 
-You can choose one or more files to upload, and you can upload files of any type. The **Azure Activity Log** window shows the progress of the upload. For more information about how to work with blob data, see [How to use Azure Blob storage in .NET](http://go.microsoft.com/fwlink/p/?LinkId=267911).
+You can choose one or more files to upload, and you can upload files of any type. The **Azure Activity Log** window shows the progress of the upload. For more information about how to work with blob data, see [How to use Azure Blob storage in .NET](/azure/storage/blobs/storage-quickstart-blobs-dotnet).
 
 ### To view logs transferred to blobs
 
@@ -149,10 +149,10 @@ The following image shows a queue that contains two messages:
 
 ![Viewing a queue](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC651470.png)
 
-For more information about storage services queues, see [Get started with Azure Queue storage using .NET](http://go.microsoft.com/fwlink/?LinkID=264702). For information about the web service for storage services queues, see [Queue Service Concepts](http://go.microsoft.com/fwlink/?LinkId=264788). For information about how to send messages to a storage services queue by using Visual Studio, see [Sending Messages to a Storage Services Queue](https://docs.microsoft.com/azure/visual-studio/vs-storage-cloud-services-getting-started-queues).
+For more information about storage services queues, see [Get started with Azure Queue storage using .NET](/azure/storage/queues/storage-dotnet-how-to-use-queues). For information about the web service for storage services queues, see [Queue Service Concepts](/rest/api/storageservices/Queue-Service-Concepts). For information about how to send messages to a storage services queue by using Visual Studio, see [Sending Messages to a Storage Services Queue](/azure/visual-studio/vs-storage-cloud-services-getting-started-queues).
 
 > [!NOTE]
-> Storage services queues are distinct from Azure Service Bus queues. For more information about Service Bus queues, see [Service Bus queues, topics, and subscriptions](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-queues-topics-subscriptions).
+> Storage services queues are distinct from Azure Service Bus queues. For more information about Service Bus queues, see [Service Bus queues, topics, and subscriptions](/azure/service-bus-messaging/service-bus-queues-topics-subscriptions).
 
 ## Work with table resources
 

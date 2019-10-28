@@ -24,7 +24,7 @@ Extension assemblies do not need to be signed before they can run in Visual Stud
 > Beginning with Visual Studio 2015, VSIX packages signed using anything other than SHA256 encryption will be identified as having an invalid signature. VSIX installation is not blocked but the user will be warned.
 
 ## Signing a VSIX with VSIXSignTool
- There is a SHA256 encryption signing tool available from [VisualStudioExtensibility](http://www.nuget.org/profiles/VisualStudioExtensibility) on nuget.org at [VsixSignTool](http://www.nuget.org/packages/Microsoft.VSSDK.Vsixsigntool).
+ There is a SHA256 encryption signing tool available from [VisualStudioExtensibility](https://www.nuget.org/profiles/VisualStudioExtensibility) on nuget.org at [VsixSignTool](https://www.nuget.org/packages/Microsoft.VSSDK.Vsixsigntool).
 
 #### To use the VSIXSignTool
 

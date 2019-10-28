@@ -31,7 +31,7 @@ It is worth noting that _both_ approaches can be used together, if desired, sinc
 Benefits:
 * Thread names are visible when debugging in Visual Studio, regardless of whether or not the debugger was attached to the process at the time that SetThreadDescription is invoked.
 * Thread names are visible when performing post-mortem debugging by loading a crash dump in Visual Studio.
-* Thread names are also visible when using other tools, such as the [WinDbg](https://docs.microsoft.com/windows-hardware/drivers/debugger/debugger-download-tools) debugger and the [Windows Performance Analyzer](https://docs.microsoft.com/windows-hardware/test/wpt/windows-performance-analyzer) performance analyzer.
+* Thread names are also visible when using other tools, such as the [WinDbg](/windows-hardware/drivers/debugger/debugger-download-tools) debugger and the [Windows Performance Analyzer](/windows-hardware/test/wpt/windows-performance-analyzer) performance analyzer.
 
 Caveats:
 * Thread names are only visible in Visual Studio 2017 version 15.6 and later versions.

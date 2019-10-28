@@ -39,7 +39,7 @@ A variety of third-party setup tools provide a development environment for Windo
 
 - Windows Installer XML toolset
 
-   The Windows Installer XML (WiX) toolset builds Windows Installer packages from XML source files. The WiX toolset is a Microsoft open-source project. You can download the source code and executables from [Wix toolset](http://sourceforge.net/projects/wix).
+   The Windows Installer XML (WiX) toolset builds Windows Installer packages from XML source files. The WiX toolset is a Microsoft open-source project. You can download the source code and executables from [Wix toolset](https://sourceforge.net/projects/wix/).
 
    For commercial products that integrate into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] by using the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)], see [Visual Studio Marketplace](https://marketplace.visualstudio.com/).
 

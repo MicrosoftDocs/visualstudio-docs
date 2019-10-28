@@ -1106,6 +1106,81 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "docs/designers/introduction-to-wpf.md",
+      "redirect_url": "/dotnet/framework/wpf/introduction-to-wpf",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/attribute-xelement-dynamic-property.md",
+      "redirect_url": "/dotnet/framework/wpf/data/attribute-xelement-dynamic-property",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/descendants-xelement-dynamic-property.md",
+      "redirect_url": "/dotnet/framework/wpf/data/descendants-xelement-dynamic-property",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/element-xelement-dynamic-property.md",
+      "redirect_url": "/dotnet/framework/wpf/data/element-xelement-dynamic-property",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/elements-xelement-dynamic-property.md",
+      "redirect_url": "/dotnet/framework/wpf/data/elements-xelement-dynamic-property",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/linq-to-xml-dynamic-properties.md",
+      "redirect_url": "/dotnet/framework/wpf/data/linq-to-xml-dynamic-properties",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/value-xattribute-dynamic-property.md",
+      "redirect_url": "/dotnet/framework/wpf/data/value-xattribute-dynamic-property",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/value-xelement-dynamic-property.md",
+      "redirect_url": "/dotnet/framework/wpf/data/value-xelement-dynamic-property",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/xml-xelement-dynamic-property.md",
+      "redirect_url": "/dotnet/framework/wpf/data/xml-xelement-dynamic-property",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/wpf-data-binding-with-linq-to-xml-overview.md",
+      "redirect_url": "/dotnet/framework/wpf/data/wpf-data-binding-with-linq-to-xml-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/wpf-data-binding-using-linq-to-xml-example.md",
+      "redirect_url": "/dotnet/framework/wpf/data/linq-to-xml-data-binding-sample",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/walkthrough-linqtoxmldatabinding-example.md",
+      "redirect_url": "/dotnet/framework/wpf/data/linq-to-xml-data-binding-sample",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/how-to-build-and-run-the-linqtoxmldatabinding-example.md",
+      "redirect_url": "/dotnet/framework/wpf/data/linq-to-xml-data-binding-sample",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/l2dbform-xaml-source-code.md",
+      "redirect_url": "/dotnet/framework/wpf/data/l2dbform-xaml-source-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/l2dbform-xaml-cs-source-code.md",
+      "redirect_url": "/dotnet/framework/wpf/data/l2dbform-xaml-cs-source-code",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/designers/insert-images-videos-and-audio-clips-in-xaml-designer.md",
       "redirect_url": "/visualstudio/designers/creating-a-ui-by-using-blend-for-visual-studio",
       "redirect_document_id": false

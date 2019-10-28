@@ -103,7 +103,7 @@ Connect to databases created with Access 2000-2003 by using the following proced
 
 The dataset that you just created is available in the **Data Sources** window. You can now perform any of the following tasks:
 
-- Select items in the **Data Sources** window and drag them onto your form or design surface (see [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md) or [WPF data binding overview](/dotnet/framework/wpf/data/data-binding-overview)).
+- Select items in the **Data Sources** window and drag them onto your form or design surface (see [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md) or [WPF data binding overview](/dotnet/desktop-wpf/data/data-binding-overview)).
 
 - Open the data source in the **Dataset Designer** to add or edit the objects that make up the dataset.
 

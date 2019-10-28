@@ -59,7 +59,7 @@ Wraps the Microsoft C++ linker tool, *link.exe*. The linker tool links Common Ob
 
   Specifies attributes that will be placed in the `dependency` section of the manifest file.
 
-  For more information, see [/MANIFESTDEPENDENCY (Specify manifest dependencies)](/cpp/build/reference/manifestdependency-specify-manifest-dependencies). Also see [Publisher configuration files](https://docs.microsoft.com/windows/desktop/SbsCs/publisher-configuration-files).
+  For more information, see [/MANIFESTDEPENDENCY (Specify manifest dependencies)](/cpp/build/reference/manifestdependency-specify-manifest-dependencies). Also see [Publisher configuration files](/windows/desktop/SbsCs/publisher-configuration-files).
 
 - **AdditionalOptions**
 
