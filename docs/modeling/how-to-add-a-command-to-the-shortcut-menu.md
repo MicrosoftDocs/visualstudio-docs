@@ -355,7 +355,7 @@ protected override IList<MenuCommand> GetMenuCommands()
 
 - [Writing code to customize a domain-specific language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
 - [How to: Modify a standard menu command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md)
-- [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md)
-- [Sample code: Circuit Diagrams](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
+- [Deploying domain-specific language solutions](msi-and-vsix-deployment-of-a-dsl.md)
+- [Sample code: Circuit diagrams](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
