@@ -116,7 +116,7 @@ To enable a DSL to use references to another DSL, you should first make it a *co
 
 2. Select the appropriate **Kind of ModelBusReference**: to a model or to an element inside a model.
 
-3. In file dialog filter string, enter a string such as `Family Tree files |*.ftree`. Substute the file extension of your exposed DSL.
+3. In file dialog filter string, enter a string such as `Family Tree files |*.ftree`. Substitute the file extension of your exposed DSL.
 
 4. If you chose to reference an element in a model, you can add a list of types that the user can select, for example Company.FamilyTree.Person.
 
