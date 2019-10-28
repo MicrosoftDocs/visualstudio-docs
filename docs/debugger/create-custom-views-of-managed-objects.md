@@ -24,12 +24,12 @@ manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# Create custom views of managed objects (C#, Visual Basic, F#, C++//CLI)
+# Create custom views of managed objects (C#, Visual Basic, F#, C++/CLI)
 You can customize the way Visual Studio displays data types in debugger variable windows.
 
 ## Attributes
 
-In C#, Visual Basic, F#, and C++ (C++//CLI code only), you can add expansions for custom data using <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, <xref:System.Diagnostics.DebuggerDisplayAttribute>, and <xref:System.Diagnostics.DebuggerBrowsableAttribute>.
+In C#, Visual Basic, F#, and C++ (C++/CLI code only), you can add expansions for custom data using <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, <xref:System.Diagnostics.DebuggerDisplayAttribute>, and <xref:System.Diagnostics.DebuggerBrowsableAttribute>.
 
 In .NET Framework 2.0 code, Visual Basic does not support the DebuggerBrowsable attribute. This limitation is removed in more recent versions of .NET.
 

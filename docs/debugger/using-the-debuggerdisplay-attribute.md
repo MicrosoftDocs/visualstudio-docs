@@ -13,7 +13,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Tell the debugger what to show using the DebuggerDisplay Attribute (C#, Visual Basic, F#, C++//CLI)
+# Tell the debugger what to show using the DebuggerDisplay Attribute (C#, Visual Basic, F#, C++/CLI)
 
 The <xref:System.Diagnostics.DebuggerDisplayAttribute> controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types, delegates, properties, fields, and assemblies. If applied to a base type, the attribute also applies to a subclass.
 
@@ -27,7 +27,7 @@ Whether the debugger evaluates this implicit `ToString()` call depends on a user
 > If the **Show raw structure of objects in variables windows** check box is selected in the **Tools /Options / Debugging** dialog box, then the `DebuggerDisplay` attribute is ignored.
 
 > [!NOTE]
-> For native code, this attribute is supported only in C++//CLI code.
+> For native code, this attribute is supported only in C++/CLI code.
 
 The following table shows some possible uses of the `DebuggerDisplay` attribute and example outputs.
 
