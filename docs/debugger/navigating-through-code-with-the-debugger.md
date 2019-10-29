@@ -20,7 +20,7 @@ ms.workload:
 
 The Visual Studio debugger can help you navigate through code to inspect the state of an app and show its execution flow. You can use keyboard shortcuts, debug commands, breakpoints, and other features to quickly get to the code you want to examine. Familiarity with debugger navigation commands and shortcuts makes it faster and easier to find and resolve app issues.  If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before going through this article.
 
-## Getting into "break mode"
+## Get into "break mode"
 
 In *break mode*, app execution is suspended while functions, variables, and objects remain in memory. Once the debugger is in break mode, you can navigate through your code. The typical ways to get into break mode quickly is to either:
 
