@@ -127,6 +127,7 @@ To diagnose UI responsiveness, slow loading time, and slow visual updates in UWP
 ![HTML UI Responsiveness profiling tool](../profiling/media/diaghtmlresp.png "DiagHTMLResp")
 ::: moniker-end
 
+::: moniker range="vs-2017"
 ## Analyze network usage (UWP)
 
 In UWP apps, you can analyze network operations performed using the `Windows.Web.Http` API.This tool may help you to resolve issues like access and authentication problems, incorrect cache-use, and poor display and download performance. To use the tool, choose **Network** in the Performance Profiler, and then choose **Start**. In your app, go through the scenario that uses `Windows.Web.Http`, and then choose **Stop collection** to generate the report.
@@ -138,6 +139,7 @@ Select an operation in the summary view to view more details.
 ![Detailed information in the Network Usage tool](../profiling/media/prof-tour-network-usage-details.png "Diag Network Usage Details")
 
 For more information, see [Network Usage](../profiling/network-usage.md).
+::: moniker-end
 
 ## Analyze performance (legacy tools)
 
@@ -149,6 +151,21 @@ If you need features such as instrumentation that are not currently present in C
 
 Here is a table that lists the different tools Visual Studio offers and the different project types you can use them with:
 
+::: moniker range=">=vs-2019"
+|Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core|
+|----------------------|---------------------|-------------|-------------|
+|[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes|
+|[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|
+|[GPU Usage](../debugger/gpu-usage.md)|yes|yes|no|
+|[Application Timeline](../profiling/application-timeline.md)|yes|yes|no|
+|[PerfTips](../profiling/perftips.md)|yes|yes for XAML, no for HTML|yes|
+|[Performance Explorer](../profiling/performance-explorer.md)|yes|no|yes|
+|[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
+|[HTML UI responsiveness](../profiling/html-ui-responsiveness.md)|no|yes for HTML, no for XAML|no|
+|[JavaScript Memory](../profiling/javascript-memory.md)|no|yes for HTML, no for XAML|no|
+::: moniker-end
+
+::: moniker range="vs-2017"
 |Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core|
 |----------------------|---------------------|-------------|-------------|
 |[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes|
@@ -161,6 +178,8 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |[Network Usage](../profiling/network-usage.md)|no|yes|no|
 |[HTML UI responsiveness](../profiling/html-ui-responsiveness.md)|no|yes for HTML, no for XAML|no|
 |[JavaScript Memory](../profiling/javascript-memory.md)|no|yes for HTML, no for XAML|no|
+::: moniker-end
+
 
 ## See also
 - [Debugging in Visual Studio](/visualstudio/debugger/debugger-feature-tour)

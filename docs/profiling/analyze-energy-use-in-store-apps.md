@@ -13,6 +13,7 @@ ms.author: "mikejo"
 manager: jillfra
 ms.workload:
   - "uwp"
+monikerRange: vs-2017
 ---
 # Analyze energy use in UWP apps
 
