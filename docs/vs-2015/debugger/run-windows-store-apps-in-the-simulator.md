@@ -134,11 +134,8 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
   
    [Network information sample](http://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)  
   
-  
-  ::: moniker range="vs-2017"
    [Analyze energy use](../profiling/analyze-energy-use-in-store-apps.md)  
-  ::: moniker-end
-  
+    
    [Windows.Networking.Connectivity](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.aspx)  
   
    [How to respond to system events with background tasks](https://msdn.microsoft.com/f7c86e86-a7ae-4abb-a923-76b03337a80a)  
