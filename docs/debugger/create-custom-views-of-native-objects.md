@@ -314,6 +314,10 @@ In the following example, the visualization is applicable only for the `DirectUI
 </Type>
 ```
 
+`Min` and `Max` are optional attributes. No wildcard characters are supported.
+
+The `Name` attribute is in the format *filename.ext*. No path names are allowed.
+
 ### <a name="BKMK_DisplayString"></a> DisplayString element
 The `DisplayString` element specifies a string to show as the value of a variable. It accepts arbitrary strings mixed with expressions. Everything inside curly braces is interpreted as an expression. For instance, the following `DisplayString` entry:
 
