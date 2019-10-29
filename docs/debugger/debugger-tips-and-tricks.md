@@ -139,9 +139,7 @@ If you need to debug the kinds of issues that are common to multithreaded apps, 
 
 In UWP apps, you can analyze network operations performed using the `Windows.Web.Http` API. You can use this tool to help debug web services and network resources. To use the tool, select **Debug > Performance Profiler**. Select **Network**, and then choose **Start**. In your app, go through the scenario that uses `Windows.Web.Http`, and then choose **Stop collection** to generate the report.
 
-::: moniker range="vs-2017"
 ![Network Usage profiling tool](../profiling/media/prof-tour-network-usage.png "NetworkUsageProfTool")
-::: moniker-end
 
 Select an operation in the summary view to view more details.
 
