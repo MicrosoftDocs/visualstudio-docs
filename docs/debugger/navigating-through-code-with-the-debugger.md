@@ -26,14 +26,14 @@ In *break mode*, app execution is suspended while functions, variables, and obje
 
 - Begin code stepping by pressing **F10** or **F11**. This allows you to quickly find the entry point of your app, then you can continue pressing step commands to navigate code.
 
-- [Run to a specific location or function](#BKMK_Break_into_code_by_using_breakpoints_or_Break_All), for example, by setting a breakpoint and starting your app.
+- [Run to a specific location or function](#BKMK_Break_into_code_by_using_breakpoints_or_Break_All), for example, by [setting a breakpoint](using-breakpoints.md) and starting your app.
 
-Once in break mode, you can use a lot of different commands to navigate through your code. While in break mode, you can examine the elements' positions and states to look for violations or bugs. For some project types, you can also make adjustments to the app while in break mode.
+Once in break mode, you can use a variety of commands to navigate through your code. While in break mode, you can examine the values of variables to look for violations or bugs. For some project types, you can also make adjustments to the app while in break mode.
 
 Most debugger windows, like the **Modules** and **Watch** windows, are available only while the debugger is attached to your app. Some debugger features, such as viewing variable values in the **Locals** window or evaluating expressions in the **Watch** window, are available only while the debugger is paused (that is, in break mode).
 
 > [!NOTE]
-> If you break in code that doesn't have source or symbol (*.pdb*) files loaded, the debugger displays a **Source Files Not Found** or **Symbols Not Found** page that can help you find and load the files. See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md). If you can't load the symbol or source files, you can still debug the assembly instructions in the **Disassembly** window.
+> If you break into code that doesn't have source or symbol (*.pdb*) files loaded, the debugger displays a **Source Files Not Found** or **Symbols Not Found** page that can help you find and load the files. See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md). If you can't load the symbol or source files, you can still debug the assembly instructions in the **Disassembly** window.
 
 ## Step through code
 
@@ -41,7 +41,7 @@ The debugger step commands help you inspect your app state or find out more abou
 
 ### <a name="BKMK_Step_into__over__or_out_of_the_code"></a> Step into code line by line
 
-To stop on each line of code or statement while debugging, use **Debug** > **Step Into**, or press **F11**.
+To stop on each statement while debugging, use **Debug** > **Step Into**, or press **F11**.
 
 The debugger steps through code statements, not physical lines. For example, an `if` clause can be written on one line:
 
