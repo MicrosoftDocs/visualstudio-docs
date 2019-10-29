@@ -37,7 +37,7 @@ Otherwise, for C# and F# only, you can [track an object ID with a conditional br
 
 ### Pause code inside a loop at a certain iteration
 
-Set a breakpoint using **Hit count** as a condition. For more information, see [Hit count](using-breakpoints.md#hit-count).
+Set a breakpoint using **Hit count** as a condition. For more information, see [Hit count](using-breakpoints.md#set-a-hit-count-condition).
 
 ### Pause code at the start of a function when you know the function name but not its location
 
