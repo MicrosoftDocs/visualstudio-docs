@@ -45,7 +45,7 @@ landingContent:
           - text: Get started analyzing CPU usage
             url: beginners-guide-to-performance-profiling.md
           - text: Get started measuring memory usage
-            url: beginners-guide-to-performance-profiling.md
+            url: memory-usage.md
 
   # Card (optional)
   - title: More performance tools
