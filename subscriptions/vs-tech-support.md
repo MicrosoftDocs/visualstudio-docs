@@ -23,7 +23,7 @@ Developer Tools such as the Visual Studio IDE and Azure DevOps Server will recei
 
 Non-developer products (such as SQL, Windows, SharePoint) downloaded from Visual Studio subscriptions are eligible only for mainstream support. These products are only licensed for development environments to design, develop, test, or demonstrate applications. These products are not licensed for production environments.
 
-Product level descriptions - expand **Unavailable support plans**. If you see **Support plan cannot be used for support on the specified product (Code: 8)**, your support contract cannot be used for the product version you selected.
+Product level descriptions: Expand **Unavailable support plans**. If you see **Support plan cannot be used for support on the specified product (Code: 8)**, your support contract cannot be used for the product version you selected.
 
 ## How to activate the benefit
 1. Go to https://my.visualstudio.com/Benefits, scroll down to the Support section and on the Technical Support tile click **Chat to activate**.
