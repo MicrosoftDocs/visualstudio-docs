@@ -70,7 +70,7 @@ Here are a few general instructions for working with breakpoints.
 
 ## <a name="BKMK_Print_to_the_Output_window_with_tracepoints"></a> Breakpoint actions and tracepoints
 
-A *tracepoint* is a breakpoint that prints a message to the **Output** window. A tracepoint can act like a temporary trace statement in the programming language. You create a tracepoint by setting a special action in the **Breakpoint Settings** window. For detailed instructions, see [Use tracepoints in the Visual Studio debugger](../debugger/using-tracepoints.md).
+A *tracepoint* is a breakpoint that prints a message to the **Output** window. A tracepoint can act like a temporary trace statement in the programming language and does not pause the execution of code. You create a tracepoint by setting a special action in the **Breakpoint Settings** window. For detailed instructions, see [Use tracepoints in the Visual Studio debugger](../debugger/using-tracepoints.md).
 
 ## Breakpoint conditions
 

@@ -1,5 +1,5 @@
 ---
-title: "Log info to the Output window | Microsoft Docs"
+title: "Log info with tracepoints | Microsoft Docs"
 ms.date: "10/28/2019"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -15,7 +15,7 @@ ms.workload:
 # Log info to the Output window using tracepoints in Visual Studio
 
 Tracepoints allow you to log information to the Output window under configurable conditions without modifying or stopping your
-code. This feature is supported for both managed and native code as well as several languages such as JavaScript and Python.
+code. This feature is supported for both managed languages (C#, Visual Basic, F#) and native code as well as languages such as JavaScript and Python.
 
 ## Let&#39;s take an example
 
