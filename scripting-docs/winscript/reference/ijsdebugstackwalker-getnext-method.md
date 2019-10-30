@@ -39,5 +39,5 @@ HRESULT GetNext(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsDebugStackWalker Interface](../../winscript/reference/ijsdebugstackwalker-interface.md)

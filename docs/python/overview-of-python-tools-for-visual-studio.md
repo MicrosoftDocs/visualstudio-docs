@@ -35,7 +35,7 @@ To get started:
 
 ::: moniker range=">=vs-2019"
 > [!Note]
-> Visual Studio supports Python version 2.7, as well as version 3.5 and greater. While it is possible to use Visual Studio to edit code written in other versions of Python, those versions are not officially supported and features such as IntelliSense and debugging might not work.
+> Visual Studio supports Python version 2.7, as well as version 3.5 through 3.7. While it is possible to use Visual Studio to edit code written in other versions of Python, those versions are not officially supported and features such as IntelliSense and debugging might not work. Python version 3.8 support is still under development, specific details about support can be seen in this tracking [issue on GitHub](https://github.com/microsoft/PTVS/issues/5822).
 ::: moniker-end
 
 ## Support for multiple interpreters
@@ -152,7 +152,7 @@ For more information:
 
 The Azure libraries for Python simplify consuming Azure services from Windows, Mac OS X, and Linux apps. You can use them to create and manage Azure resources, as well as to connect to Azure services. 
 
-For more information, see [Azure SDK for Python](/python/azure/?view=azure-python) and [Azure libraries for Python](/python/azure/python-sdk-azure-overview?view=azure-python)
+For more information, see [Azure SDK for Python](/azure/python/) and [Azure libraries for Python](/azure/python/python-sdk-azure-overview)
 .
 
 ## Questions and answers

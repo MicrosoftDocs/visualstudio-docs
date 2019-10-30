@@ -13,6 +13,7 @@ ms.author: "mikejo"
 manager: jillfra
 ms.workload:
   - "uwp"
+monikerRange: vs-2017
 ---
 # Analyze energy use in UWP apps
 
@@ -151,5 +152,5 @@ if (performance && performance.mark) {
 
 ## See also
 
-- [Profiling in Visual Studio](../profiling/index.md)
+- [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)

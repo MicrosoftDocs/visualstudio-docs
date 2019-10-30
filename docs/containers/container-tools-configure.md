@@ -61,8 +61,8 @@ The following table describes **Single Project** and **Docker Compose** settings
 
 ::: moniker-end
 > [!WARNING]
-> If the localhost SSL certificate is not trusted, and you check the box to suppress prompting, then HTTPS web requests might fail at runtime in your app or service. In that case, uncheck the **Do not prompt** checkbox, run your project, and indicate trust at the prompt.
+> If the localhost SSL certificate is not trusted, and you check the box to suppress prompting, then HTTPS web requests might fail at run time in your app or service. In that case, uncheck the **Do not prompt** checkbox, run your project, and indicate trust at the prompt.
 
 ## Next steps
 
-Read more about working with containers in Visual Studio in this [overview](visual-studio-tools-for-docker.md).
+Read more about working with containers in Visual Studio in this [overview](overview.md).

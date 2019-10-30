@@ -1,10 +1,12 @@
 ---
 title: "Step 2: Create a random addition problem"
 ms.date: 11/04/2016
-ms.topic: conceptual
-dev_langs: 
-  - "csharp"
-  - "vb"
+ms.topic: tutorial
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
+dev_langs:
+  - "CSharp"
+  - "VB"
 ms.assetid: 6461c4cf-f2aa-4bf5-91ed-06820a4f893d
 author: TerryGLee
 ms.author: tglee
@@ -13,10 +15,13 @@ ms.workload:
   - "multiple"
 ---
 # Step 2: Create a random addition problem
+
 In the second part of this tutorial, you make the quiz challenging by adding math problems that are based on random numbers. You also create a method that's named `StartTheQuiz()` and that fills in the problems and starts the countdown timer. Later in this tutorial, you'll add the subtraction, multiplication, and division problems.
 
 > [!NOTE]
-> This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
+> This topic is part of a tutorial series about basic coding concepts.
+> - For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
+> - To download a completed version of the code, see [Complete math quiz tutorial sample](https://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).
 
 ## To create a random addition problem
 
@@ -30,6 +35,8 @@ In the second part of this tutorial, you make the quiz challenging by adding mat
 
      [!code-csharp[VbExpressTutorial3Step2#1](../ide/codesnippet/CSharp/step-2-create-a-random-addition-problem_1.cs)]
      [!code-vb[VbExpressTutorial3Step2#1](../ide/codesnippet/VisualBasic/step-2-create-a-random-addition-problem_1.vb)]
+
+     [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
 
      You've added a Random object to your form and named the object **randomizer**.
 
@@ -54,13 +61,13 @@ In the second part of this tutorial, you make the quiz challenging by adding mat
 
      Notice that when you enter the dot (.) after `randomizer` in the code, an IntelliSense window opens and shows you all of the Random object's methods that you can call. For example, IntelliSense lists the `Next()` method, as follows.
 
-     ![Next method](../ide/media/express_randomwhite.png)
-Next method
+     ![Next method](../ide/media/express_randomwhite.png)<br/>
+*Next method*
 
      When you enter a dot after an object, IntelliSense shows a list of the object's members, such as properties, methods, and events.
 
     > [!NOTE]
-    > When you use the `Next()` method with the `Random` object, such as when you call `randomizer.Next(50)`, you get a random number that's less than 50 (from 0 through 49). In this example, you called `randomizer.Next(51)`. You used 51 and not 50 so that the two random numbers will add up to an answer that's from 0 through 100. If you pass 50 to the `Next()` method, it chooses a number from 0 through 49, so the highest possible answer is 98, not 100. After the first two statements in the method run, each of the two integer variables, **addend1** and **addend2**, hold a random number from 0 through 50. This screenshot shows Visual C# code, but IntelliSense works the same way for Visual Basic.
+    > When you use the `Next()` method with the `Random` object, such as when you call `randomizer.Next(50)`, you get a random number that's less than 50 (from 0 through 49). In this example, you called `randomizer.Next(51)`. You used 51 and not 50 so that the two random numbers will add up to an answer that's from 0 through 100. If you pass 50 to the `Next()` method, it chooses a number from 0 through 49, so the highest possible answer is 98, not 100. After the first two statements in the method run, each of the two integer variables, **addend1** and **addend2**, hold a random number from 0 through 50. This screenshot shows C# code, but IntelliSense works the same way for Visual Basic.
 
      Take a closer look at these statements.
 
@@ -82,15 +89,15 @@ Next method
 
 8. Save your code, run it, and then choose the **Start** button.
 
-     A random addition problem appears, as the following illustration shows.
+     A random addition problem appears, as shown in the following screenshot.
 
-     ![Random addition problem](../ide/media/express_additionproblem.png)
-Random addition problem
+     ![Random addition problem](../ide/media/express_additionproblem.png)<br/>
+*Random addition problem*
 
      In the next step of the tutorial, you'll add the sum.
 
 ## To continue or review
 
-- To go to the next tutorial step, see [Step 3: Add a countdown timer](../ide/step-3-add-a-countdown-timer.md).
+- To go to the next tutorial step, see **[Step 3: Add a countdown timer](../ide/step-3-add-a-countdown-timer.md)**.
 
 - To return to the previous tutorial step, see [Step 1: Create a project and add labels to your form](../ide/step-1-create-a-project-and-add-labels-to-your-form.md).

@@ -5,8 +5,8 @@ ms.topic: conceptual
 f1_keywords:
   - "vs.codeanalysis.ruleseteditor"
 ms.assetid: 370c97bf-bb29-4b2f-b9ae-ba125bce7b2d
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

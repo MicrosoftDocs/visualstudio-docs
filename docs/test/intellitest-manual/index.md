@@ -4,11 +4,11 @@ ms.date: 05/02/2017
 ms.topic: conceptual
 helpviewer_keywords:
   - "IntelliTest Reference Manual, IntelliTest"
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # IntelliTest Reference Manual
 

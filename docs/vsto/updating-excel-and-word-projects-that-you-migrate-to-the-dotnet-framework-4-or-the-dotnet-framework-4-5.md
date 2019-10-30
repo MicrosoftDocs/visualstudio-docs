@@ -114,7 +114,7 @@ Microsoft.Office.Tools.Word.Document vstoDocument =
       Globals.Factory.GetVstoObject(Globals.ThisAddIn.Application.ActiveDocument);
   ```
 
-  For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
+  For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
 
 ## <a name="generatedclasses"></a> Update code that uses instances of the generated classes in document-level projects
  In document-level projects that target the .NET Framework 3.5, the generated classes in the projects derive from the following classes in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]:
@@ -188,7 +188,7 @@ private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet
 
  In projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, these methods are extension methods that are available on the Controls property. To use these extension methods, the code file in which you use the methods must have a **using** or **Imports** statement for the <xref:Microsoft.Office.Tools.Excel> or <xref:Microsoft.Office.Tools.Word> namespace. This statement is generated automatically in new projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later. However, this statement is not added automatically in projects that target the .NET Framework 3.5, so you must add it when you retarget the project.
 
- For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+ For more information, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
 ## <a name="ccevents"></a> Update code that handles Word content control events
  In projects that target the .NET Framework 3.5, events of Word content controls are handled by the generic <xref:System.EventHandler%601> delegate. In projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, these events are handled by other delegates.
@@ -209,14 +209,14 @@ private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet
 
  In projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, these classes have been replaced by the <xref:Microsoft.Office.Tools.Excel.ControlSite> and <xref:Microsoft.Office.Tools.Word.ControlSite> interfaces. You must modify code that refers to `Microsoft.Office.Tools.Excel.OLEObject` and `Microsoft.Office.Tools.Word.OLEControl` to instead refer to <xref:Microsoft.Office.Tools.Excel.ControlSite> and <xref:Microsoft.Office.Tools.Word.ControlSite>. Other than the new names, these controls behave the same way that they do in projects that target the .NET Framework 3.5.
 
- For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+ For more information, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
 ## <a name="itemproperty"></a> Update code that uses the Controls.Item(Object) property
  In projects that target the .NET Framework 3.5, you can use the Item(Object) property of the Microsoft.Office.Tools.Word.Document.Controls or `Microsoft.Office.Tools.Excel.Worksheet.Controls` collection to determine whether a document or worksheet has a specified control.
 
  In projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, the Item(Object) property has been removed from these collections. To determine whether a document or worksheet contains a specified control, use the Contains(System.Object) method of the <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> or <xref:Microsoft.Office.Tools.Excel.Worksheet.Controls%2A> collection instead.
 
- For more information about the Controls collection of documents and worksheets, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+ For more information about the Controls collection of documents and worksheets, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
 ## <a name="collections"></a> Update code that uses collections that derive from CollectionBase
  In projects that target the .NET Framework 3.5, several collection types in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] derive from the <xref:System.Collections.CollectionBase> class, such as `Microsoft.Office.Tools.SmartTagCollection`, `Microsoft.Office.Tools.Excel.ControlCollection`, and `Microsoft.Office.Tools.Word.ControlCollection`.
@@ -226,6 +226,6 @@ private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet
 ## See also
 - [Migrate Office solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md)
 - [Content controls](../vsto/content-controls.md)
-- [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
-- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
+- [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)

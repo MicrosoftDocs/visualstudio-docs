@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "UML model, sharing"
   - "UML diagrams, saving"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -43,6 +43,6 @@ In Visual Studio, you can share models and diagrams with colleagues in several w
 |[Export diagrams as images](../modeling/export-diagrams-as-images.md)|You can copy parts of diagrams into applications such as PowerPoint or Word, or print a diagram to an XPS file.|
 |[Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)|Overview of models and diagrams.|
 
-## See Also
+## See also
 
 - [Use models in your development process](../modeling/use-models-in-your-development-process.md)

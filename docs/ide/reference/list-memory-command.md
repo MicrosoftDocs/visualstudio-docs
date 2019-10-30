@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "ListMemory command"
   - "list memory command"
 ms.assetid: a84de361-a6a6-4f6d-96aa-a0d4a424371e
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -79,7 +79,7 @@ Here is a list of the available aliases for the **Debug.ListMemory** command:
 >Debug.ListMemory /Format:float /Count:30 /Unicode
 ```
 
-## See Also
+## See also
 
 - [List Call Stack Command](../../ide/reference/list-call-stack-command.md)
 - [List Threads Command](../../ide/reference/list-threads-command.md)

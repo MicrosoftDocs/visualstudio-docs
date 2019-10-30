@@ -41,5 +41,5 @@ HRESULT QueryIsCurrentThread();
 ## Remarks  
  This method determines if this thread is the currently running thread.  
   
-## See Also  
+## See also  
  [IDebugApplicationThread Interface](../../winscript/reference/idebugapplicationthread-interface.md)

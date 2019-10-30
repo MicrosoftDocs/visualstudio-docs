@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "code editor, find all references"
   - "find all references"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

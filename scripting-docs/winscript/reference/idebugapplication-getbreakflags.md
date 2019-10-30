@@ -47,6 +47,6 @@ HRESULT GetBreakFlags(
 ## Remarks  
  This method returns the current break flags for the application.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)   
  [APPBREAKFLAGS Enumeration](../../winscript/reference/appbreakflags-enumeration.md)

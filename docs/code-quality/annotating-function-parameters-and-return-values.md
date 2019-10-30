@@ -1,6 +1,6 @@
 ---
 title: Annotating Function Parameters and Return Values
-ms.date: 07/11/2019
+ms.date: 10/15/2019
 ms.topic: "conceptual"
 f1_keywords:
   - "_Outptr_opt_result_bytebuffer_to_"
@@ -125,7 +125,7 @@ f1_keywords:
 ms.assetid: 82826a3d-0c81-421c-8ffe-4072555dca3a
 author: mikeblome
 ms.author: mblome
-manager: wpickett
+manager: markl
 ms.workload:
   - "multiple"
 ---
@@ -194,34 +194,6 @@ For the annotations in the following table, when a pointer parameter is being an
      `_Inout_updates_bytes_(s)`
 
      A pointer to an array, which is both read and written to in the function.  It is of size `s` elements, and valid in pre-state and post-state.
-
-     The `_bytes_` variant gives the size in bytes instead of elements. Use this only when the size cannot be expressed as elements.  For example, `char` strings would use the `_bytes_` variant only if a similar function that uses `wchar_t` would.
-
-- `_Inout_updates_z_(s)`
-
-     A pointer to an array that is null-terminated and has a known size. The elements up through the null terminator—which must be present—must be valid in both pre-state and post-state.  The value in the post-state is presumed to be different from the value in the pre-state; this includes the location of the null terminator. If the size is known in bytes, scale `s` by the element size.
-
-- `_Out_writes_to_(s,c)`
-
-     `_Out_writes_bytes_to_(s,c)`
-
-     `_Out_writes_all_(s)`
-
-     `_Out_writes_bytes_all_(s)`
-
-     A pointer to an array of `s` elements.  The elements do not have to be valid in pre-state.  In post-state, the elements up to the `c`-th element must be valid.  If the size is known in bytes, scale `s` and `c` by the element size or use the `_bytes_` variant, which is defined as:
-
-     `_Out_writes_to_(_Old_(s), _Old_(s))    _Out_writes_bytes_to_(_Old_(s), _Old_(s))`
-
-     In other words, every element that exists in the buffer up to `s` in the pre-state is valid in the post-state.  For example:
-
-     `void *memcpy(_Out_writes_bytes_all_(s) char *p1,    _In_reads_bytes_(s) char *p2,    _In_ int s); void * wordcpy(_Out_writes_all_(s) DWORD *p1,     _In_reads_(s) DWORD *p2,    _In_ int s);`
-
-- `_Inout_updates_to_(s,c)`
-
-     `_Inout_updates_bytes_to_(s,c)`
-
-     A pointer to an array, which is both read and written by the function.  It is of size `s` elements, all of which must be valid in pre-state, and `c` elements must be valid in post-state.
 
      The `_bytes_` variant gives the size in bytes instead of elements. Use this only when the size cannot be expressed as elements.  For example, `char` strings would use the `_bytes_` variant only if a similar function that uses `wchar_t` would.
 
@@ -542,9 +514,9 @@ The return value of a function resembles an `_Out_` parameter but is at a differ
 
 ## Related Resources
 
-[Code Analysis Team Blog](http://go.microsoft.com/fwlink/?LinkId=251197)
+[Code Analysis Team Blog](https://blogs.msdn.microsoft.com/codeanalysis/)
 
-## See Also
+## See also
 
 - [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
 - [Understanding SAL](../code-quality/understanding-sal.md)

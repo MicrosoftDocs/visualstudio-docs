@@ -32,6 +32,6 @@ HRESULT get_compilands ( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)
 - [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)

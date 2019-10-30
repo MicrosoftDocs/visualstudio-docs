@@ -80,6 +80,6 @@ To set up your computer so that you can run the [!INCLUDE[vstecasp](../code-qual
 
 13. Click **OK** to close the **Temporary ASP.NET Files Properties** dialog box.
 
-## See Also
+## See also
 - [Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)
 - [ASP.NET Debugging: System Requirements](../debugger/aspnet-debugging-system-requirements.md)

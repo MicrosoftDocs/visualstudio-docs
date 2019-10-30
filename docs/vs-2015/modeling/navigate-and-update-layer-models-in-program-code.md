@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "layer models, updating in program code"
 ms.assetid: c60edc87-33ee-4964-a954-40069f9febf3
 caps.latest.revision: 22
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Navigate and update layer models in program code

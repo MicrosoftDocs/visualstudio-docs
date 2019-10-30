@@ -6,8 +6,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Environment.PreviewFeatures"
 helpviewer_keywords:
   - "Preview Features Options dialog box"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

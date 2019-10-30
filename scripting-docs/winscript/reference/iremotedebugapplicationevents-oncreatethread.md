@@ -43,5 +43,5 @@ HRESULT OnCreateThread(
 ## Remarks  
  This method handles the create thread event.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationEvents Interface](../../winscript/reference/iremotedebugapplicationevents-interface.md)

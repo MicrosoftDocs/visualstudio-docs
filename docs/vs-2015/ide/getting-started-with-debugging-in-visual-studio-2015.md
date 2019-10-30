@@ -7,8 +7,8 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
 caps.latest.revision: 7
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Getting Started with Debugging in Visual Studio 2015

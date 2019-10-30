@@ -22,29 +22,31 @@
 #### [Anonymizations of subscriber data](anonymization.md)
 ### [Subscriptions portal overview](using-the-subscriber-portal.md)
 ### [Manage your subscriptions](manage-vs-subscriptions.md)
+### [Contact your subscriptions administrator](contact-my-admin.md)
 ### Benefits
 #### Tools
-##### [Azure credit](vs-azure.md)
+##### [Azure DevTest individual credit](vs-azure.md)
 ##### [Azure DevOps](vs-azure-devops.md)
 ##### [Azure Pay-As-You-Go](vs-azure-payg.md)
 ##### [CAST Highlight](vs-cast.md)
 ##### [CloudPilot](vs-cloudpilot.md)
 ##### [Enterprise Mobility & Security](vs-ems.md)
-##### [Office 365 Developer subscription](vs-office-dev.md)
+##### [Microsoft 365](vs-m365.md)
 ##### [Office 365 subscription](vs-office365.md)
 ##### [Parasoft](vs-parasoft.md)
 ##### [Power BI Pro](vs-pbi.md)
+##### [RStudio](vs-rstudio.md)
 ##### [Visual Studio App Center](vs-visual-studio-app-center.md)
 ##### [Visual Studio IDE](vs-ide-benefit.md)
 ##### [WhiteSource Bolt](vs-whitesource.md)
 ##### [Windows Developer Account](vs-windows-dev.md)
 #### Professional development
+##### [CODE Magazine](vs-code-magazine.md)
 ##### [DataCamp](vs-datacamp.md)
 ##### [LinkedIn Learning](vs-linkedin-learning.md)
 ##### [MSDN Magazine subscription](vs-msdn.md)
 ##### [Pluralsight](vs-pluralsight.md)
 #### Support 
-##### [Azure Advisory Chat](vs-azure-advisory-chat.md)
 ##### [Azure Community](vs-azure-community.md)
 ##### [Concierge Support](vs-concierge-chat.md)
 ##### [Technical Support](vs-tech-support.md)
@@ -58,17 +60,22 @@
 #### [Find and claim keys](find-keys.md)
 #### [Internet demonstrations](internet-demos.md)
 ## Administrators
-### [Administrator responsibilities](admin-responsibilities.md)
+### Administrator responsibilities
+#### [Administrator responsibilities](admin-responsibilities.md)
 #### [Pre-production inventory](admin-inventory.md)
 #### [Manage large teams and external contractors](manage-teams.md)
 #### [Track user assignments and process orders](assignments-orders.md)
-### Onboarding your organization
-#### [Open and Open License Migration](open-migration.md)
+### Accessing the admin portal
+#### [Volume License](volume-license.md)
 #### [MPSA](mpsa.md)
 #### [Cloud subscriptions](cloud-admin.md)
-#### [Onboarding video](https://youtu.be/plSu6fpi7UI)
+#### [Partners managing for customers](open-migration.md)
+#### [Video tutorial: Access the admin portal](https://youtu.be/plSu6fpi7UI)
 ### Using the admin portal
+#### [Super admins and administrators](admin-roles.md)
+#### [Set agreement preferences](admin-prefs.md)
 #### [Overview](using-admin-portal.md)
+#### [Video tutorial: Use the admin portal](https://www.youtube.com/watch?v=XG-E-IDjA-w&list=PLReL099Y5nReJhZ6o8CQFPSBgzGCHX99_&index=3&t=0s)
 #### Assign subscriptions
 ##### [Add single users](assign-license.md)
 ##### [Add multiple users](assign-license-bulk.md)
@@ -81,7 +88,7 @@
 #### [Expired subscriptions](handle-expired-license.md)
 #### [Subscribers using aliases](aliasing.md)
 #### [Subscribers with personal email sign-ins](personal-email-sign-ins.md)
-### [Managing Visual Studio with GitHub Enterprise](assign-github.md)
+#### [Managing Visual Studio with GitHub Enterprise](assign-github.md)
 ## Resources
 ### [Visual Studio licensing white paper](https://aka.ms/vslicensing)
 ### [Compare subscription options and pricing](https://visualstudio.microsoft.com/vs/pricing)

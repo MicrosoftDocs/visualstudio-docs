@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Toolbox, HTML tab"
   - "HTML Designer, setting options"
   - "HTML tab in Toolbox"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

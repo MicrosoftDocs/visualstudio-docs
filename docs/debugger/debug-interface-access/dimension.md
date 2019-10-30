@@ -28,6 +28,6 @@ Each FORTRAN array has a dimension that is identified by a `SymTagDimension` sym
 |[IDiaSymbol::get_upperBound](../../debugger/debug-interface-access/idiasymbol-get-upperbound.md)|`IDiaSymbol*`|Upper bound of a FORTRAN array dimension.|
 |[IDiaSymbol::get_upperBoundId](../../debugger/debug-interface-access/idiasymbol-get-upperboundid.md)|`DWORD`|ID of the upper-bound symbol.|
 
-## See Also
+## See also
 - [ArrayType](../../debugger/debug-interface-access/arraytype.md)
 - [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)

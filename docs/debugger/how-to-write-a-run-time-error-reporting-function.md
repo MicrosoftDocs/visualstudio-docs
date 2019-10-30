@@ -116,5 +116,5 @@ int main()
 }
 ```
 
-## See Also
+## See also
 [Native Run-Time Checks Customization](../debugger/native-run-time-checks-customization.md)

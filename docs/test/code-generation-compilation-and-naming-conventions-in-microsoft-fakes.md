@@ -2,11 +2,11 @@
 title: "Microsoft Fakes: Generate & compile code; naming conventions"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Code generation, compilation, and naming conventions in Microsoft Fakes
 

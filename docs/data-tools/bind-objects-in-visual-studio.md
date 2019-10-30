@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "object binding"
   - "binding, to objects"
 ms.assetid: ed743ce6-73af-45e5-a8ff-045eddaccc86
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

@@ -51,5 +51,5 @@ HRESULT GetLineOfPosition(
 ## Remarks  
  This method returns the line number and, optionally, the character offset within the line that corresponds to the given character-position.  
   
-## See Also  
+## See also  
  [IDebugDocumentText Interface](../../winscript/reference/idebugdocumenttext-interface.md)

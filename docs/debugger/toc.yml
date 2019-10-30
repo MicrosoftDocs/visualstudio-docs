@@ -1,11 +1,13 @@
 - name: Debugger documentation
-  href: index.md
+  href: index.yml
 - name: Overview
   items:
   - name: "What is debugging?"
     href: what-is-debugging.md
   - name: Debugging techniques and tools
     href: write-better-code-with-visual-studio.md
+  - name: Find your debugging task
+    href: find-your-debugging-task.md
 - name: Quickstarts
   items:
   - name: First look at the debugger
@@ -42,8 +44,6 @@
     items:
     - name: Use breakpoints
       href: using-breakpoints.md
-    - name: Use tracepoints
-      href: using-tracepoints.md
     - name: Troubleshooting breakpoints
       href: troubleshooting-breakpoints.md
   - name: Data inspection
@@ -91,7 +91,7 @@
     - name: View memory for variables
       href: memory-windows.md
     - name: Inspect XAML properties while debugging
-      href: inspect-xaml-properties-while-debugging.md
+      href: ../xaml-tools/inspect-xaml-properties-while-debugging.md?toc=/visualstudio/debugger/toc.json
   - name: Call stack
     items:
     - name: View the call stack
@@ -108,9 +108,9 @@
       href: how-to-enable-and-disable-edit-and-continue.md
     - name: Stop code changes
       href: how-to-stop-code-changes.md
-    - name: Edit and Continue (Visual C++)
+    - name: Edit and Continue (C++)
       items:
-      - name: Edit and Continue for Visual C++
+      - name: Edit and Continue for C++
         href: edit-and-continue-visual-cpp.md
       - name: Supported Code Changes (C++)
         href: supported-code-changes-cpp.md
@@ -128,10 +128,16 @@
         href: edit-and-continue-visual-basic.md
       - name: Apply edits in break mode with Edit and Continue
         href: how-to-apply-edits-in-break-mode-with-edit-and-continue.md
-    - name: Write and debug running XAML code
-      href: xaml-hot-reload.md
+    - name: XAML Hot Reload
+      items:
+      - name: Write and debug running XAML code
+        href: ../xaml-tools/xaml-hot-reload.md?toc=/visualstudio/debugger/toc.json
+      - name: Troubleshooting XAML Hot Reload
+        href: ../xaml-tools/xaml-hot-reload-troubleshooting.md?toc=/visualstudio/debugger/toc.json
     - name: Edit and Continue not supported for F#
       href: edit-and-continue-not-supported-for-f-hash.md
+  - name: Log to Output window
+    href: using-tracepoints.md
   - name: View debugger data
     items:
     - name: Modules
@@ -196,7 +202,7 @@
           items:
           - name: Project settings for a C++ debug configuration
             href: project-settings-for-a-cpp-debug-configuration.md
-          - name: Enable debug features in Visual C++ (-D_DEBUG)
+          - name: Enable debug features in C++ (-D_DEBUG)
             href: enabling-debug-features-in-visual-cpp-d-debug.md
         - name: Property pages settings for Web projects
           href: property-pages-settings-for-web-projects.md
@@ -228,12 +234,12 @@
         items:
         - name: Create custom views of C++ objects
           href: create-custom-views-of-native-objects.md
-        - name: "Visual C++ custom visualizer compatibility"
+        - name: "C++ custom visualizer compatibility"
           href: visual-cpp-custom-visualizer-compatibility.md
       - name: Custom views (managed)
         items:
         - name: Create custom views of managed objects
-          href: create-custom-views-of-dot-managed-objects.md
+          href: create-custom-views-of-managed-objects.md
         - name: Tell the debugger what to show
           href: using-the-debuggerdisplay-attribute.md
         - name: Tell the debugger what type to show
@@ -330,7 +336,7 @@
     items:
     - name: Debug multithreaded applications
       href: debug-multithreaded-applications-in-visual-studio.md
-    - name: Get started Debugging multithreaded applications
+    - name: Get started debugging multithreaded applications
       href: get-started-debugging-multithreaded-apps.md
     - name: Tools to debug threads and processes
       items:
@@ -348,9 +354,9 @@
         href: how-to-use-the-gpu-threads-window.md
     - name: Debug multiple processes
       href: debug-multiple-processes.md
-    - name: "Walkthrough: Debug using the Threads window"
+    - name: Debug using the Threads window
       href: how-to-use-the-threads-window.md
-    - name: "Walkthrough: Debug a parallel application"
+    - name: Debug a parallel application
       href: walkthrough-debugging-a-parallel-application.md
     - name: Switch to another thread while debugging
       href: how-to-switch-to-another-thread-while-debugging.md
@@ -405,7 +411,7 @@
     - name: Troubleshooting snapshot debugging
       href: debug-live-azure-apps-troubleshooting.md
     - name: Time Travel Debugging live Azure virtual machine app
-      href: debug-live-azure-virtual-machines-time-travel-debugging.md      
+      href: debug-live-azure-virtual-machines-time-travel-debugging.md
   - name: Application types
     items:
     - name: Debug specific application types
@@ -428,8 +434,12 @@
           href: deploy-windows-store-apps-from-visual-studio.md
       - name: Debug an installed app package
         href: debug-installed-app-package.md
+      - name: Inspect XAML properties while debugging
+        href: inspect-xaml-properties-while-debugging.md
+      - name: Write and debug running XAML code
+        href: xaml-hot-reload.md
       - name: Debug XAML in Blend
-        href: debug-xaml-in-blend.md
+        href: ../xaml-tools/debug-xaml-in-blend.md?toc=/visualstudio/debugger/toc.json
       - name: HTML and CSS
         items:
         - name: Debug HTML and CSS
@@ -446,7 +456,7 @@
         href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
       - name: Prefetch content for Microsoft Store apps
         href: prefetch-content-for-windows-store-apps.md
-    - name: Managed code
+    - name: Managed code (C#, Visual Basic, F#)
       items:
       - name: Debug managed code
         href: debugging-managed-code.md
@@ -484,17 +494,21 @@
         items:
         - name: Debug WPF
           href: debugging-wpf.md
+        - name: Inspect XAML properties while debugging
+          href: inspect-xaml-properties-while-debugging.md
+        - name: Write and debug running XAML code
+          href: xaml-hot-reload.md
         - name: Use the WPF Tree Visualizer
           href: how-to-use-the-wpf-tree-visualizer.md
         - name: Display WPF trace information
           href: how-to-display-wpf-trace-information.md
       - name: Debug F#
         href: debugging-f-hash.md
-    - name: Native code
+    - name: C/C++ code
       items:
       - name: Debug native code
         href: debugging-native-code.md
-      - name: "Debugging preparation: Visual C++ project types"
+      - name: "Debugging preparation: C++ project types"
         href: debugging-preparation-visual-cpp-project-types.md
       - name: Debug optimized code
         href: how-to-debug-optimized-code.md
@@ -578,7 +592,7 @@
           href: com-debugging-tools.md
       - name: Debug injected code
         href: how-to-debug-injected-code.md
-    - name: Debug GPU code
+    - name: GPU code
       href: debugging-gpu-code.md
     - name: Graphics diagnostics
       href: graphics/toc.yml
@@ -628,6 +642,10 @@
             href: error-the-web-server-could-not-find-the-requested-resource.md
           - name: The web server is not configured correctly
             href: error-the-web-server-is-not-configured-correctly.md
+    - name: Python
+      href: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
+    - name: JavaScript and TypeScript
+      href: ../javascript/debug-nodejs.md
     - name: Web apps
       items:
       - name: Debug Web applications
@@ -658,6 +676,10 @@
         href: how-to-step-into-wcf-services.md
       - name: Debug a self-hosted WCF service
         href: how-to-debug-a-self-hosted-wcf-service.md
+  - name: Collaborate
+    items:
+    - name: Write and debug code using Live Share
+      href: /visualstudio/liveshare/use/vs
   - name: Dump files
     items:
     - name: Use dump files

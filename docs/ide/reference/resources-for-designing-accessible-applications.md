@@ -1,8 +1,10 @@
 ---
 title: "Resources for designing accessible applications"
 description: "Learn how to create accessible applications to make them easier for people with disabilities to use."
-ms.date: 11/04/2016
+ms.date: 08/27/2019
 ms.topic: conceptual
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
 helpviewer_keywords:
   - "accessibility, Windows applications"
   - "Windows applications, accessibility"
@@ -17,7 +19,10 @@ ms.workload:
 ---
 # Resources for designing accessible applications
 
-Use the following links to find information about technologies that support accessible design, plus tips and examples for developing accessible Windows applications and websites. General information on accessibility can be found online at [http://www.microsoft.com/enable/](http://www.microsoft.com/enable/).
+Learn more about technologies that support accessible design. We've also included tips and links to tutorials that can help you develop accessible Windows apps and websites.
+
+>[!NOTE]
+>For more information about how we develop products that empower everyone, see [Microsoft Accessibility](https://www.microsoft.com/accessibility/).
 
 ## Technologies
 
@@ -47,4 +52,5 @@ Use the following links to find information about technologies that support acce
 
 ## See also
 
-[Accessibility features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
+* [Accessibility features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
+* [Accessibility for Visual Studio for Mac](/visualstudio/mac/accessibility/)

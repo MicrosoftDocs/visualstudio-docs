@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1005"
 ms.assetid: 372b2f28-5c59-4815-9753-6c65b2bb3589
 caps.latest.revision: 20
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1005: Avoid excessive parameters on generic types

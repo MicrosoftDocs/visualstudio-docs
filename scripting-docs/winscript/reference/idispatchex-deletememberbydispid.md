@@ -58,7 +58,7 @@ if (SUCCEEDED(pdex->GetDispID(bstrName, fdexNameCaseSensitive, &dispid)))
     pdex->DeleteMemberByDispID(dispid);  
 ```  
   
-## See Also  
+## See also  
  [IDispatchEx Interface](../../winscript/reference/idispatchex-interface.md)   
  [IDispatchEx::GetDispID](../../winscript/reference/idispatchex-getdispid.md)   
  [IDispatchEx::GetNextDispID](../../winscript/reference/idispatchex-getnextdispid.md)

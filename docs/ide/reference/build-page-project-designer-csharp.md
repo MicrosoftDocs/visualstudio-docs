@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "Build options [C#]"
   - "Project Designer, Build page"
 ms.assetid: 77ff1bfc-d633-4634-ba29-9afdb6d7e362
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"
@@ -98,17 +98,14 @@ Blocks the compiler's ability to generate one or more warnings. Separate multipl
 
 The following settings are used to specify which warnings are treated as errors. Select one of the following options to indicate under what conditions to return an error when the build encounters a warning. For more information, see [/warnaserror (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/warnaserror-compiler-option).
 
-**None**
+**None** - Treats no warnings as errors.
 
-Treats no warnings as errors.
+**All** - Treats all warnings as errors.
 
-**Specific warnings**
+**Specific warnings** - Treats the specified warnings as errors. Separate multiple warning numbers with a comma or semicolon.
 
-Treats the specified warnings as errors. Separate multiple warning numbers with a comma or semicolon.
-
-**All**
-
-Treats all warnings as errors.
+> [!TIP]
+> If you don't want code analysis warnings to be treated as errors, see [Code analysis FAQ](../../code-quality/analyzers-faq.md#treat-warnings-as-errors).
 
 ## Output
 

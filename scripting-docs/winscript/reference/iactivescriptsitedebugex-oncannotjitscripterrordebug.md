@@ -49,5 +49,5 @@ HRESULT OnCanNotJITScriptErrorDebug(
 ## Remarks  
  You should also implement this interface to get a notification.  
   
-## See Also  
+## See also  
  [IActiveScriptSiteDebugEx Interface](../../winscript/reference/iactivescriptsitedebugex-interface.md)

@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "dependency diagrams, creating extensions"
   - "layer models"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

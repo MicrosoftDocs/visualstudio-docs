@@ -58,7 +58,7 @@ if (FAILED(hr))
 }
 ```
 
-## See Also
+## See also
 - [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
 - [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)
 - [IDiaDataSource::loadAndValidateDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loadandvalidatedatafrompdb.md)

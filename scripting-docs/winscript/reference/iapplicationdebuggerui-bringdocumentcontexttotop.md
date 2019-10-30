@@ -44,5 +44,5 @@ HRESULT BringDocumentContextToTop(
 ## Remarks  
  This method brings the window containing the given document context to the top in the debugger user interface and scrolls the window to the context.  
   
-## See Also  
+## See also  
  [IApplicationDebuggerUI Interface](../../winscript/reference/iapplicationdebuggerui-interface.md)

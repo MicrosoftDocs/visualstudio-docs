@@ -4,8 +4,8 @@ ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
   - "Domain-Specific Language, domain relationships"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -30,6 +30,6 @@ The properties in the following table are associated with a domain relationship.
 |Display Name|The name that is displayed in the generated designer for the domain relationship.|\<none>|
 |Help Keyword|The optional keyword that is used to index F1 help for the domain relationship.|\<none>|
 
-## See Also
+## See also
 
 - [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

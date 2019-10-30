@@ -32,6 +32,6 @@ HRESULT get_Count ( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
 - [IDiaEnumLineNumbers::Item](../../debugger/debug-interface-access/idiaenumlinenumbers-item.md)

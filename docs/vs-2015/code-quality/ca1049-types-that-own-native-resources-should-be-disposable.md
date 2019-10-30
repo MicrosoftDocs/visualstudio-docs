@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1049"
 ms.assetid: 084e587d-0e45-4092-b767-49eed30d6a35
 caps.latest.revision: 19
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1049: Types that own native resources should be disposable

@@ -61,6 +61,6 @@ Below are the errors and warning dialog boxes you may encounter while debugging 
 
  [Troubleshooting SQL Debugging Setup](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/s7ahaxtd(v=vs.100))
 
- [Debugging Visual C++ FAQs](../debugger/debugging-native-code-faqs.md)
+ [Debugging native code FAQs](../debugger/debugging-native-code-faqs.md)
 
  [Debugger Security](../debugger/debugger-security.md)

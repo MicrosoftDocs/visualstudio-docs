@@ -6,8 +6,8 @@ ms.technology: "vs-ide-general"
 ms.topic: conceptual
 ms.assetid: ccc5e543-7dcf-465c-97dd-e133e869800c
 caps.latest.revision: 32
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Productivity Tips for Visual Studio

@@ -3,8 +3,8 @@ title: Execute an XSLT transformation
 ms.date: 03/05/2019
 ms.topic: conceptual
 ms.assetid: 56a0fe82-5231-487d-8b6e-a08a9b04e0fc
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

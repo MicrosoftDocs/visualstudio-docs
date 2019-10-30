@@ -54,7 +54,7 @@ Specifies that the item template uses an SDK reference.
 ...
 ```
 
-## See Also
+## See also
 - [References Element (Visual Studio Templates)](../extensibility/references-element-visual-studio-templates.md)
 - [Reference Element (Visual Studio Templates)](../extensibility/reference-element-visual-studio-templates.md)
 - [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)

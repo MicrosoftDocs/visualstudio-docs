@@ -4,46 +4,46 @@ ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-modeling
 ms.topic: reference
-f1_keywords: 
+f1_keywords:
   - "vs.teamarch.common.association.properties"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "UML, element properties"
 ms.assetid: f82bcd34-7903-4c00-8da1-613efa07d223
 caps.latest.revision: 26
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Properties of associations on UML class diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-In a UML class diagram, you can draw *associations* between any pair of types. A type is a class, interface, or enumeration.  
+In a UML class diagram, you can draw *associations* between any pair of types. A type is a class, interface, or enumeration.
 
- An association indicates that the system you are developing stores links of some kind between the instances of the associated types. Generally, it does not imply anything about the implementation of the links. For example, they might be pointers, rows in a table, cross-referenced names in XML, and so on.  
+ An association indicates that the system you are developing stores links of some kind between the instances of the associated types. Generally, it does not imply anything about the implementation of the links. For example, they might be pointers, rows in a table, cross-referenced names in XML, and so on.
 
- An association is a diagrammatic method of showing an attribute or pair of attributes. For example, if you have defined a class Restaurant to have an attribute of type Menu, you can state the same definition by drawing an association between Restaurant and Menu.  
+ An association is a diagrammatic method of showing an attribute or pair of attributes. For example, if you have defined a class Restaurant to have an attribute of type Menu, you can state the same definition by drawing an association between Restaurant and Menu.
 
- To draw an association, click **Association** in the toolbox, click the first type, then the second. You can click the same type two times to show that instances can be linked with other instances of the same type.  
+ To draw an association, click **Association** in the toolbox, click the first type, then the second. You can click the same type two times to show that instances can be linked with other instances of the same type.
 
-## Properties  
- These are the properties of an association on a UML Class Diagram.  
+## Properties
+ These are the properties of an association on a UML Class Diagram.
 
- To see the properties of an association, right-click the association and then click **Properties**. The properties will appear in the Properties window.  
+ To see the properties of an association, right-click the association and then click **Properties**. The properties will appear in the Properties window.
 
- Some of the properties are also visible on the diagram, as shown in the following illustration.  
+ Some of the properties are also visible on the diagram, as shown in the following illustration.
 
- ![Properties on assocations](../modeling/media/uml-classprop.png "UML_ClassProp")  
+ ![Properties on assocations](../modeling/media/uml-classprop.png "UML_ClassProp")
 
-|**Property**|Description|  
-|------------------|-----------------|  
-|**Name (1)**|Identifies the association. Also appears on the diagram near the mid-point of the association.|  
-|**Qualified Name**|Identifies the association uniquely. Prefixed with the qualified name of the package that contains the association's first role.|  
-|**Work Items**|The number of work items linked to this association. To link work items, see [Link model elements and work items](../modeling/link-model-elements-and-work-items.md).|  
-|**Color**|The color of the connector. Unlike the other properties, this is a property of this view of the association, not a property of the underlying relationship in the model.|  
-|**First Role**<br /><br /> **Second Role**|Each end of the association is called a role. Each role describes the properties of the equivalent attribute on the class at the opposite end of the association.<br /><br /> In the example diagram, the association between Menu and Menu Item has roles called Menu and Contents.<br /><br /> Contents is the name of an attribute on the Menu class.|  
+|**Property**|Description|
+|------------------|-----------------|
+|**Name (1)**|Identifies the association. Also appears on the diagram near the mid-point of the association.|
+|**Qualified Name**|Identifies the association uniquely. Prefixed with the qualified name of the package that contains the association's first role.|
+|**Work Items**|The number of work items linked to this association. To link work items, see [Link model elements and work items](../modeling/link-model-elements-and-work-items.md).|
+|**Color**|The color of the connector. Unlike the other properties, this is a property of this view of the association, not a property of the underlying relationship in the model.|
+|**First Role**<br /><br /> **Second Role**|Each end of the association is called a role. Each role describes the properties of the equivalent attribute on the class at the opposite end of the association.<br /><br /> In the example diagram, the association between Menu and Menu Item has roles called Menu and Contents.<br /><br /> Contents is the name of an attribute on the Menu class.|
 
-### Properties of Each Role  
- To see the properties of each role, expand the **First Role** or **Second Role** property.  
+### Properties of Each Role
+ To see the properties of each role, expand the **First Role** or **Second Role** property.
 
 |     **Property**     |          **Default**          |                                                                                                                                                                                                                                                                                                                                        Description                                                                                                                                                                                                                                                                                                                                         |
 |----------------------|-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -58,9 +58,9 @@ In a UML class diagram, you can draw *associations* between any pair of types. A
 |    **Is Unique**     |             False             |                                                                                                                                                                                                                                                                                              If true, there are no duplicate values in the returned collection. For Multiplicity more than 1.                                                                                                                                                                                                                                                                                              |
 |    **Visibility**    |            Public             |                                                                                                                                                                                                                                 Public - visible globally<br /><br /> Private - not visible outside the owning type<br /><br /> Protected - visible to types derived from the owner<br /><br /> Package - visible to other types within the same package.                                                                                                                                                                                                                                  |
 
-## See Also  
- [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)   
- [Properties of types on UML class diagrams](../modeling/properties-of-types-on-uml-class-diagrams.md)   
- [Properties of attributes on UML class diagrams](../modeling/properties-of-attributes-on-uml-class-diagrams.md)   
- [Properties of operations on UML class diagrams](../modeling/properties-of-operations-on-uml-class-diagrams.md)   
+## See Also
+ [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)
+ [Properties of types on UML class diagrams](../modeling/properties-of-types-on-uml-class-diagrams.md)
+ [Properties of attributes on UML class diagrams](../modeling/properties-of-attributes-on-uml-class-diagrams.md)
+ [Properties of operations on UML class diagrams](../modeling/properties-of-operations-on-uml-class-diagrams.md)
  [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)

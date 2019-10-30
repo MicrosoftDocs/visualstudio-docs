@@ -39,5 +39,5 @@ HRESULT GetWindow(
 ## Remarks  
  This method is similar to the `IOleWindow::GetWindow` method.  
   
-## See Also  
+## See also  
  [IActiveScriptSiteWindow](../../winscript/reference/iactivescriptsitewindow.md)

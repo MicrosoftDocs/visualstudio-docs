@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "templates [Visual Studio], Web"
   - "Web templates [Visual Studio]"
   - "project templates [Visual Studio], Web"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Manually create web templates

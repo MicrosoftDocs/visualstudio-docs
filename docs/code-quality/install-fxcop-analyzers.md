@@ -4,8 +4,8 @@ ms.date: 08/03/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "fxcop analyzers"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"
@@ -16,11 +16,31 @@ Microsoft created a set of analyzers, called [Microsoft.CodeAnalysis.FxCopAnalyz
 
 You can install these FxCop analyzers either as a NuGet package or as a VSIX extension to Visual Studio. To learn about the pros and cons of each, see [NuGet package vs. VSIX extension](roslyn-analyzers-overview.md#nuget-package-versus-vsix-extension).
 
-## To install FxCop analyzers as a NuGet package
+## NuGet package
+
+::: moniker range=">=vs-2019"
+
+In Visual Studio 2019 version 16.3 and later, you can install the [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers) NuGet package directly from the project's Code Analysis properties page:
+
+1. Right-click on the project node in **Solution Explorer**, select **Properties**, and then select the **Code Analysis** tab.
+
+   ![Install FxCop analyzers package from properties page in Visual Studio](media/install-fxcop-properties-page.png)
+
+2. Select **Install**.
+
+   Visual Studio installs the latest version of the Microsoft.CodeAnalyzers.FxCopAnalyzers package. The assemblies appear in **Solution Explorer** under **References** > **Analyzers**.
+
+   ![Analyzers node in Solution Explorer](media/solution-explorer-analyzers-node.png)
+
+If you're using an older version of Visual Studio 2019, install the package using either the [Package Manager Console](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console) or the [Package Manager UI](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console).
+
+::: moniker-end
+
+::: moniker range="vs-2017"
 
 1. [Determine which analyzer package version](#fxcopanalyzers-package-versions) to install, based on your version of Visual Studio.
 
-2. Install the package in Visual Studio, using either the [Package Manager Console](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console) or the [Package Manager UI](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console).
+2. Install the package in Visual Studio using either the [Package Manager Console](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console) or the [Package Manager UI](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console).
 
    > [!NOTE]
    > The nuget.org page for each analyzer package shows you the command to paste into the **Package Manager Console**. There's even a handy button to copy the text to the clipboard.
@@ -29,7 +49,16 @@ You can install these FxCop analyzers either as a NuGet package or as a VSIX ext
 
    The analyzer assemblies are installed, and they appear in **Solution Explorer** under **References** > **Analyzers**.
 
-   ![Analyzers node in Solution Explorer](media/solution-explorer-analyzers-node.png)
+::: moniker-end
+
+### Custom installation
+
+For custom installation, for example to specify a different version of the package, select the ellipsis (...) button on the project's Code Analysis properties page. This button opens the NuGet package manager with "Microsoft.CodeAnalysis.FxCopAnalyzers" as the search string.
+
+![Install custom FxCop analyzers package from properties page in Visual Studio](media/install-fxcop-properties-page-ellipsis.png)
+
+> [!TIP]
+> Determine [which analyzer package version](#fxcopanalyzers-package-versions) to install, based on your version of Visual Studio. You can also install the package from the [Package Manager UI](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console).
 
 ### FxCopAnalyzers package versions
 
@@ -37,7 +66,7 @@ Use the following guidelines to determine which version of the FxCop analyzers p
 
 | Visual Studio version | FxCop analyzer package version |
 | - | - |
-| Visual Studio 2019 (all versions)<br />Visual Studio 2017 version 15.8 and later | [2.9.3](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/2.9.3) |
+| Visual Studio 2019 (all versions)<br />Visual Studio 2017 version 15.8 and later | [latest](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) |
 | Visual Studio 2017 version 15.5 to 15.7 | [2.6.3](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/2.6.3) |
 | Visual Studio 2017 version 15.3 to 15.4 | [2.3.0-beta1](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/2.3.0-beta1) |
 | Visual Studio 2017 version 15.0 to 15.2 | [2.0.0-beta2](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/2.0.0-beta2) |
@@ -45,7 +74,7 @@ Use the following guidelines to determine which version of the FxCop analyzers p
 | Visual Studio 2015 Update 1 | [1.1.0](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/1.1.0) |
 | Visual Studio 2015 RTW | [1.0.1](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/1.0.1) |
 
-## To install FxCop analyzers as a VSIX
+## VSIX
 
 ::: moniker range="vs-2017"
 

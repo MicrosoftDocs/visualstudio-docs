@@ -47,8 +47,8 @@ helpviewer_keywords:
   - "miscellaneous files"
 ms.assetid: aeaf56cb-c2dd-47f6-b012-23b84b7a7254
 caps.latest.revision: 41
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Solutions and Projects in Visual Studio

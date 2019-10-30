@@ -4,8 +4,8 @@ ms.date: 12/12/2018
 ms.technology: vs-ide-general
 ms.custom: get-started
 ms.topic: tutorial
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 dev_langs:
  - VB
@@ -26,7 +26,7 @@ In this introductory article, we'll explore what it means to create a *solution*
 ::: moniker range="vs-2019"
 
 > [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
 ::: moniker-end
 

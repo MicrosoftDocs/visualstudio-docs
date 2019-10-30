@@ -57,6 +57,7 @@ The table below shows the changes that may be made to C# and Visual Basic code d
 |Types|Add abstract or virtual member, add override (see [details](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits))|
 |Types|Add destructor|
 |Members|Modify a member referencing an embedded interop type|
+|Members|Modify a static member after it has already been accessed by executing code|
 |Members (Visual Basic)|Modify a member with On Error or Resume statement|
 |Members (Visual Basic)|Modify a member containing an Aggregate, Group By, Simple Join, or Group Join LINQ query clause|
 |Methods|Modify signatures|
@@ -98,6 +99,6 @@ Unsupported apps and platforms include ASP.NET 5, Silverlight 5, and Windows 8.1
 
 - Debugging an old version of your code after a new version failed to build because of build errors.
 
-## See Also
+## See also
 - [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)
 - [How to: Use Edit and Continue (C#)](../debugger/how-to-use-edit-and-continue-csharp.md)

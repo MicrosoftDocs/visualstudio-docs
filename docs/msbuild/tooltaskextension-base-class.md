@@ -2,8 +2,6 @@
 title: "ToolTaskExtension Base Class | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
-f1_keywords:
-  - "MSBuild.ToolTask.ToolCommandFailed"
 dev_langs:
   - "VB"
   - "CSharp"

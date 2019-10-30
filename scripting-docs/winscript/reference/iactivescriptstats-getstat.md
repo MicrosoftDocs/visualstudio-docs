@@ -55,6 +55,6 @@ HRESULT GetStat(
 ## Remarks  
  This method returns one of the standard script statistics.  
   
-## See Also  
+## See also  
  [IActiveScriptStats::GetStatEx](../../winscript/reference/iactivescriptstats-getstatex.md)   
  [IActiveScriptStats Interface](../../winscript/reference/iactivescriptstats-interface.md)

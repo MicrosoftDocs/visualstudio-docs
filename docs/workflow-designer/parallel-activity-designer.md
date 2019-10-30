@@ -5,8 +5,8 @@ ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.Parallel.UI"
 ms.assetid: 0306dc3b-075a-4091-ac3a-96486fbabed5
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

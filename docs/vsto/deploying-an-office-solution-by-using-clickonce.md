@@ -311,7 +311,7 @@ ms.workload:
 
     - Use the Office Configuration Tool to add the server that's running SharePoint to the Trust Center in Word or Excel on all user computers.
 
-         See [Security policies and settings in Office 2010](http://go.microsoft.com/fwlink/?LinkId=99227).
+         See [Security policies and settings in Office 2010](/previous-versions/office/office-2010/cc178946(v=office.14)).
 
     - Ensure that each user performs the following steps.
 

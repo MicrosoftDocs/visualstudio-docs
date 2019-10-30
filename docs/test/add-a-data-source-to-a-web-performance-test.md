@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "Web performance tests, walkthroughs"
   - "Web performance tests, data binding (database)"
 ms.assetid: 2ada376d-f168-455d-9643-6acb535360c1
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Add a data source to a web performance test
@@ -60,7 +60,7 @@ Your solution should also include a web performance test that browses through th
 
 ::: moniker range="vs-2019"
 
-1. If you don’t have Visual Studio Enterprise, you can download it from the [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page.
+1. If you don’t have Visual Studio Enterprise, you can download it from the [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads) page.
 
 2. Create a SQL database.
 

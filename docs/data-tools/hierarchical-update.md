@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "updated data saving"
   - "related tables, saving"
 ms.assetid: 68bae3f6-ec9b-45ee-a33a-69395029f54c
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

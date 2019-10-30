@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "load test results graphs, creating"
   - "load test results graphs"
 ms.assetid: 17fcafce-76f9-4411-9389-6e5376eab236
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Create custom graphs in load test results

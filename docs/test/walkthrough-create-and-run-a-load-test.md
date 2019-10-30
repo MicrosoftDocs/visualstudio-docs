@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "unit tests, load test walkthrough"
   - "load tests, walkthrough"
 ms.assetid: bbf075a5-96d5-48ed-a03c-330f0fc04748
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Walkthrough: Create and run a load test that contains unit tests

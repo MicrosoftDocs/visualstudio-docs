@@ -1,7 +1,7 @@
 ---
 title: "Update a network-based installation"
 description: "Learn how to update a network-based Visual Studio installation by using the --layout command"
-ms.date: 03/30/2019
+ms.date: 10/07/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
@@ -36,7 +36,7 @@ If you selected a partial layout when you first created the network layout, thos
 
 ::: moniker-end
 
-If you host a layout on a file share, you should update a private copy of the layout (for example, c:\vsoffline) and then, after all of the updated content is downloaded, copy it to your file share (for example, \\server\products\VS). If you don't do this, there is a greater chance that any users who run Setup while you are updating the layout might not be able to get all of the content from the layout because it is not yet completely updated.
+If you host a layout on a file share, you should update a private copy of the layout (for example, c:\VSLayout) and then, after all of the updated content is downloaded, copy it to your file share (for example, \\server\products\VS). If you don't do this, there is a greater chance that any users who run Setup while you are updating the layout might not be able to get all of the content from the layout because it is not yet completely updated.
 
 Let's walk through a few examples of how to create and then update a layout:
 

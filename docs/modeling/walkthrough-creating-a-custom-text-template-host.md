@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "walkthroughs [text templates], custom host"
   - "text templates, custom host walkthrough"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

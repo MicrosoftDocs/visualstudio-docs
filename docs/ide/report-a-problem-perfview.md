@@ -1,6 +1,6 @@
 ---
 title: Collect an ETL trace with PerfView
-ms.date: 06/27/2019
+ms.date: 09/27/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "perfview"
@@ -22,7 +22,7 @@ PerfView is a tool that creates ETL (event trace log) files based on [Event Trac
 
 ## Install PerfView
 
-Download PerfView from the [Microsoft Download Center](http://www.microsoft.com/download/details.aspx?id=28567).
+Download PerfView from [GitHub](https://github.com/Microsoft/perfview/blob/master/documentation/Downloading.md).
 
 ## Run PerfView
 
@@ -36,4 +36,4 @@ Download PerfView from the [Microsoft Download Center](http://www.microsoft.com/
 
 PerfView can store only the most recent data that fits into its buffer. Therefore, try to stop the collection as soon as possible after Visual Studio starts to freeze or slow down. Don't collect for more than 30 seconds after you hit a problem.
 
-For more information, see [PerfView Tutorial on Channel9](http://channel9.msdn.com/Series/PerfView-Tutorial/PerfView-Tutorial-1-Collecting-data-with-the-Run-command).
+For more information, see [PerfView Tutorial on Channel9](https://channel9.msdn.com/Series/PerfView-Tutorial/PerfView-Tutorial-1-Collecting-data-with-the-Run-command).

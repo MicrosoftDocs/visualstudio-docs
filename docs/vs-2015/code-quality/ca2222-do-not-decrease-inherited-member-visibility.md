@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA2222"
 ms.assetid: 066c8675-381f-43cc-956c-d757cc494028
 caps.latest.revision: 16
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2222: Do not decrease inherited member visibility

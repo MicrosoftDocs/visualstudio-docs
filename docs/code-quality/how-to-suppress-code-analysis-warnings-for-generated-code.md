@@ -3,8 +3,8 @@ title: Suppress Code Analysis violations for Generated Code
 ms.date: 05/13/2019
 ms.topic: conceptual
 ms.assetid: 3a96434e-d419-43a7-81ba-95cccac835b8
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

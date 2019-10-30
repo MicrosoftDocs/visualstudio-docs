@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "code snippets [Visual Studio], schema reference"
   - "IntelliSense Code Snippets, XML Schema"
 ms.assetid: 58a60621-725f-4763-93b7-62ea5424ef88
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -115,7 +115,7 @@ There are three attributes available for the Code element:
    |`SQL`|Identifies a SQL code snippet.|
    |`HTML`|Identifies an HTML code snippet.|
 
-- **Kind** - _Optional_ attribute that specifies the kind of code that the snippet contains, and the location at which a code snippet must be inserted for the code snippet to compile. The value can be one of the following:
+- **Kind** - _Optional_ attribute that specifies the kind of code that the snippet contains. The value can be one of the following:
 
    |Value|Description|
    |-----|-----------|

@@ -36,5 +36,5 @@ HRESULT GetExceptionInfo(
 ## Return Value  
  Returns `S_OK` if successful, or `E_FAIL` if an error occurred.  
   
-## See Also  
+## See also  
  [IActiveScriptError](../../winscript/reference/iactivescripterror.md)

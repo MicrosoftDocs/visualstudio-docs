@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "load tests, run settings, adding"
   - "load tests, run settings"
 ms.assetid: 257d2a24-d582-4cfe-8b2b-51f51ba9cc84
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Add additional run settings to a load test

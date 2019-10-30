@@ -30,11 +30,11 @@ ms.workload:
 ## Update the in-memory data source
  By default, host controls that enable simple data binding (such as content controls on a Word document or a named range control on an Excel worksheet) do not save data changes to the in-memory data source. That is, when an end user changes a value in a host control and then navigates away from the control, the new value in the control is not automatically saved to the data source.
 
- To save the data to the data source, you can write code that updates the data source in response to a specific event at runtime, or you can configure the control to automatically update the data source when the value in the control changes.
+ To save the data to the data source, you can write code that updates the data source in response to a specific event at run time, or you can configure the control to automatically update the data source when the value in the control changes.
 
  You do not need to save <xref:Microsoft.Office.Tools.Excel.ListObject> changes to the in-memory data source. When you bind a <xref:Microsoft.Office.Tools.Excel.ListObject> control to data, the <xref:Microsoft.Office.Tools.Excel.ListObject> control automatically saves changes to the in-memory data source without requiring additional code.
 
-### To update the in-memory data source at runtime
+### To update the in-memory data source at run time
 
 - Call the <xref:System.Windows.Forms.Binding.WriteValue%2A> method of the <xref:System.Windows.Forms.Binding> object that binds the control to the data source.
 

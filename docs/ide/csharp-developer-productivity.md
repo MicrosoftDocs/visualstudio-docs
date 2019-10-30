@@ -2,7 +2,7 @@
 title: Increase your productivity for .NET development
 description: "An overview of navigation, code analysis, unit testing, and other features to help you write better .NET code faster."
 author: kuhlenh
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.date: 04/25/2019
 ms.topic: conceptual

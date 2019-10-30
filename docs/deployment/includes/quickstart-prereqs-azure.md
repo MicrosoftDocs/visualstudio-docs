@@ -2,7 +2,7 @@
 
 ::: moniker range=">=vs-2019"
 
-* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) installed with the appropriate workloads for your language of choice:
+* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) installed with the appropriate workloads for your language of choice:
   * ASP.NET: **ASP.NET and web development**
   * Node.js: **Node.js development**
 ::: moniker-end

@@ -1,6 +1,7 @@
 ---
 title: "ASP.NET Core Web App Deployment"
 description: "Information about ASP.NET Core Web Application Deployment in Visual Studio for Mac."
+ms.topic: overview
 author: sayedihashimi
 ms.author: sayedha
 ms.date: 01/25/2019

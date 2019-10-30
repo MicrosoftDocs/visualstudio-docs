@@ -4,7 +4,6 @@ description: "Using Azure functions in Visual Studio for Mac."
 author: sayedihashimi
 ms.author: sayedha
 ms.date: 04/02/2019
-ms.topic: article
 ms.technology: vs-ide-install
 ms.assetid: 25CD47A4-5B32-4734-8EF3-E24A02AABF29
 ---
@@ -17,7 +16,7 @@ Azure functions is a way to create and run event-driven snippets of code –– 
 
 Azure Function tools are included in **Visual Studio for Mac 7.5** and newer.
 
-To create and deploy functions you also need an Azure subscription, which is available for free from [https://azure.com/free](https://azure.com/free).
+To create and deploy functions you also need an Azure subscription. If you don't have an Azure account, you can sign up today for free and receive 12 months of free popular services, $200 free credit and 25+ always free services -> [https://azure.com/free](https://azure.com/free/dotnet).
 
 ## Creating your first Azure Functions project
 
@@ -156,4 +155,4 @@ One important setting you may need to set is `FUNCTIONS_EXTENSION_VERSION`. When
 
 - **Image Resizer** – This function creates resized images whenever a blob is added to a container. The template takes path and connection string for the trigger, a small image output, and a medium image output.
 
-- **SAS token** – This function generates a SAS token for a given Azure Storage container and blob name. In addition to the function name, this template also takes a path and connection property. The path property is the path within your storage account that the trigger will monitor. The connection account is the name of the app setting containing your storage account connection string. The **Access rights** also need to be set. Authorization level controls whether the function requires an API key and which key to use; Function uses a function key; Admin uses your master key. For more information, see the [C# Azure Function for generating SAS tokens](https://azure.microsoft.com/resources/samples/functions-dotnet-sas-token/) sample.
+- **SAS token** – This function generates a SAS token for a given Azure Storage container and blob name. In addition to the function name, this template also takes a path and connection property. The path property is the path within your storage account that the trigger will monitor. The connection account is the name of the app setting containing your storage account connection string. The **Access rights** also need to be set. Authorization level controls whether the function requires an API key and which key to use; Function uses a function key; Admin uses your master key. For more information, see the [C# Azure Function for generating SAS tokens](https://github.com/Azure-Samples/functions-dotnet-sas-token/) sample.

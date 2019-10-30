@@ -16,7 +16,7 @@ The Visual Studio Extension Color Editor tool can create and edit custom colors 
 
  **Package definition files**
 
- Package definition (.pkgdef) files are the files that define themes. The colors themselves are stored in theme color .xml files, which are compiled into a .pkgdef file. The .pkgdef files are deployed to Visual Studio searchable locations, processed at runtime, and merged together to define themes.
+ Package definition (.pkgdef) files are the files that define themes. The colors themselves are stored in theme color .xml files, which are compiled into a .pkgdef file. The .pkgdef files are deployed to Visual Studio searchable locations, processed at run time, and merged together to define themes.
 
  **Color tokens**
 

@@ -59,5 +59,5 @@ HRESULT AddTypeLib(
 |`E_UNEXPECTED`|The call was not expected (for example, the scripting engine has not yet been loaded or initialized).|  
 |`TYPE_E_CANTLOADLIBRARY`|The specified type library could not be loaded.|  
   
-## See Also  
+## See also  
  [IActiveScript](../../winscript/reference/iactivescript.md)

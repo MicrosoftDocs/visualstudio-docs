@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
   - "surround with"
   - "code snippets"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 dev_langs:
  - CSharp
@@ -25,7 +25,7 @@ Code snippets are small blocks of reusable code that can be inserted in a code f
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Code snippets (Visual Studio for Mac)](/visualstudio/mac/snippets).
 
-Code snippets are available for a multitude of languages, including C#, C++, Visual Basic, XML, and T-SQL, to name a few. To view all the available installed snippets for a language, open the **Code Snippets Manager** from the **Tools** menu in Visual Studio, and choose the language from the drop-down menu at the top.
+Code snippets are available for a multitude of languages, including C#, C++, Visual Basic, XML, and T-SQL, to name a few. To view all the available installed snippets for a language, open the **Code Snippets Manager** from the **Tools** menu (or, press **Ctrl**+**K**, **Ctrl**+**B**), and choose the language from the drop-down menu at the top.
 
 ![Code Snippets Manager dialog box](media/code-snippets-manager.png)
 
@@ -35,7 +35,7 @@ Code snippets can be accessed in the following general ways:
 
 - From the right-click or context menu in the code editor, choose **Snippet** > **Insert Snippet**
 
-- From the keyboard, press **Ctrl**+**K**+**X**
+- From the keyboard, press **Ctrl**+**K**,**Ctrl**+**X**
 
 ## Expansion snippets and surround-with snippets
 
@@ -96,6 +96,6 @@ If you change `newPropertyValue` to `m_property`, then every instance of `newPro
 - [Best practices for using code snippets](../ide/best-practices-for-using-code-snippets.md)
 - [Troubleshooting snippets](../ide/troubleshooting-snippets.md)
 - [C# code snippets](../ide/visual-csharp-code-snippets.md)
-- [Visual C++ code snippets](../ide/visual-cpp-code-snippets.md)
+- [C++ code snippets](../ide/visual-cpp-code-snippets.md)
 - [Code snippets schema reference](../ide/code-snippets-schema-reference.md)
 - [Code snippets (Visual Studio for Mac)](/visualstudio/mac/snippets)

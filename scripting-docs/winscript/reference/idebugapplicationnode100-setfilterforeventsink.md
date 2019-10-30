@@ -33,5 +33,5 @@ HRESULT SetFilterForEventSink(        [in] DWORD dwCookie,        [in] APPLICATI
  `filter`  
  The filter.  
   
-## See Also  
+## See also  
  [IDebugApplicationNode100 Interface](../../winscript/reference/idebugapplicationnode100-interface.md)

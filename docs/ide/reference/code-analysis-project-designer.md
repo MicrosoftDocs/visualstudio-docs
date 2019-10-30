@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Code Analysis page in Project Designer"
   - "Project Designer, Code Analysis page"
 ms.assetid: 71743d26-4da5-4f7d-a403-7ab96cf2ef2e
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

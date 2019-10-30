@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "command aliases"
 ms.assetid: de8bb378-8c1c-4087-a9a5-537fa8314c19
 caps.latest.revision: 24
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Visual Studio Command Aliases

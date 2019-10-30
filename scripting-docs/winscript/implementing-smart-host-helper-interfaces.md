@@ -98,5 +98,5 @@ pddh->CreateDebugDocumentContext(ulStartPos + uCharacterOffset, cChars, &pddcNew
   
 - Provide a path name in the file system for the document. Some debugging UIs use this to permit the user to edit and save changes to the document. [IDebugDocumentHost::NotifyChanged](../winscript/reference/idebugdocumenthost-notifychanged.md) is called to notify the host after the document has been saved.  
   
-## See Also  
+## See also  
  [Active Script Debugging Overview](../winscript/active-script-debugging-overview.md)

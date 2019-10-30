@@ -77,5 +77,5 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 ## Next steps
 Once you have Visual Studio installed, don't forget to activate these other important benefits:
 - [Azure DevOps](vs-azure-devops.md)
-- [Azure credits](vs-azure.md)
+- [Azure DevTest individual credit](vs-azure.md)
 - [Windows Developer account](vs-windows-dev.md)

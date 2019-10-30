@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "code snippets, distributing"
 ms.assetid: 5f717abd-e167-47ae-818c-6b0bae100ceb
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 dev_langs:
   - "VB"

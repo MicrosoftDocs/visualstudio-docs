@@ -42,7 +42,7 @@ For Makefile projects that are based on the NMake project template, choose **NMa
 
 ### Open Folder projects
 
-For CMake projects, make sure that #include paths are specified correctly for all configurations in CMakeLists.txt. Other project types might require a CppProperties.json file. For more information, see [Configure IntelliSense with CppProperties.json](/cpp/build/open-folder-projects-cpp#configure-intellisense-and-browsing-hints-with-cpppropertiesjson). Make sure that the paths are correct for each configuration that is defined in the file.
+For CMake projects, make sure that #include paths are specified correctly for all configurations in CMakeLists.txt. Other project types might require a CppProperties.json file. For more information, see [Configure IntelliSense with CppProperties.json](/cpp/build/open-folder-projects-cpp#configure-code-navigation-with-cpppropertiesjson). Make sure that the paths are correct for each configuration that is defined in the file.
 
 If there is a syntax error in the CppProperties.json file, IntelliSense in the affected files will be incorrect. Visual Studio will display the error in the Output Window.
 
@@ -114,6 +114,6 @@ If you set the environment variable TRACEDESIGNTIME to true and restart Visual S
 
 To learn more about TRACEDESIGNTIME environment variable, see [Roslyn](https://github.com/dotnet/roslyn/wiki/Diagnosing-Project-System-Build-Errors) and [Common Project System](https://github.com/dotnet/project-system/blob/master/docs/design-time-builds.md). The information in these articles is relevant for C++ projects.
 
-## See Also
+## See also
 
 - [Visual C++ IntelliSense](visual-cpp-intellisense.md)

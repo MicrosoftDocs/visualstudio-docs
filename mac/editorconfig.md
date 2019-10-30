@@ -4,7 +4,6 @@ description: "Using an editorconfig file to enable consistent project coding sty
 author: cobey
 ms.author: cobey
 ms.date: 05/06/2018
-ms.topic: article
 ms.technology: vs-ide-install
 ms.assetid: 26A0DE31-2FBF-4E1B-99FB-083111AA1680
 ---

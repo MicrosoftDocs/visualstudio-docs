@@ -6,8 +6,8 @@ f1_keywords:
   - "VS.ExportTemplateWizard"
 helpviewer_keywords:
   - "project templates [Visual Studio], creating"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Create project templates

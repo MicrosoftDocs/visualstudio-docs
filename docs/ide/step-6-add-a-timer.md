@@ -1,10 +1,12 @@
 ---
 title: "Step 6: Add a timer"
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: tutorial
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
 dev_langs: 
-  - "csharp"
-  - "vb"
+  - "CSharp"
+  - "VB"
 ms.assetid: 09e7930b-cab6-4a22-9a6f-72e23f489585
 author: TerryGLee
 ms.author: tglee
@@ -17,10 +19,10 @@ Next, you add a <xref:System.Windows.Forms.Timer> control to the matching game. 
 
 ## To add a timer
 
-1. From the toolbox in **Windows Forms Designer**, choose **Timer** (in the **Components** category) and then choose the **Enter** key, or double-click the timer to add a timer control to the form. The timer's icon, called **Timer1**, should appear in a space below the form, as shown in the following picture.
+1. From the toolbox in **Windows Forms Designer**, choose **Timer** (in the **Components** category) and then choose the **Enter** key, or double-click the timer to add a timer control to the form. The timer's icon, called **Timer1**, should appear in a space below the form, as shown in the following image.
 
-     ![Timer](../ide/media/express_timer.png)
-**Timer**
+     ![Timer](../ide/media/express_timer.png)<br/>
+***Timer***
 
     > [!NOTE]
     > If the toolbox is empty, be sure to select the form designer, and not the code behind the form, before opening the toolbox.
@@ -32,7 +34,10 @@ Next, you add a <xref:System.Windows.Forms.Timer> control to the matching game. 
      [!code-csharp[VbExpressTutorial4Step6#7](../ide/codesnippet/CSharp/step-6-add-a-timer_1.cs)]
      [!code-vb[VbExpressTutorial4Step6#7](../ide/codesnippet/VisualBasic/step-6-add-a-timer_1.vb)]
 
-     The Tick event handler does three things: First, it makes sure the timer isn't running by calling the <xref:System.Windows.Forms.Timer.Stop> method. Then it uses two reference variables, `firstClicked` and `secondClicked`, to make the icons of the two labels that the player chose invisible again. Finally, it resets the `firstClicked` and `secondClicked` reference variables to `null` in Visual C# and `Nothing` in Visual Basic. This step is important because it's how the program resets itself. Now it's not keeping track of any <xref:System.Windows.Forms.Label> controls, and it's ready for the player to choose a label again.
+      > [!IMPORTANT]
+      > Use the programming language control at the top right of this page to view either the C# code snippet or the Visual Basic code snippet.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
+
+     The Tick event handler does three things: First, it makes sure the timer isn't running by calling the <xref:System.Windows.Forms.Timer.Stop> method. Then it uses two reference variables, `firstClicked` and `secondClicked`, to make the icons of the two labels that the player chose invisible again. Finally, it resets the `firstClicked` and `secondClicked` reference variables to `null` in C# and `Nothing` in Visual Basic. This step is important because it's how the program resets itself. Now it's not keeping track of any <xref:System.Windows.Forms.Label> controls, and it's ready for the player to choose a label again.
 
     > [!NOTE]
     > A Timer object has a `Start()` method that starts the timer, and a `Stop()` method that stops it. When you set the timer's **Enabled** property to **True** in the **Properties** window, it starts ticking as soon as the program begins. But when you leave it set to **False**, it doesn't start ticking until its `Start()` method is called. Normally, a timer fires its Tick event over and over again, using the **Interval** property to determine how many milliseconds to wait between ticks. You may have noticed how the timer's `Stop()` method is called inside the Tick event. That puts the timer into *one shot mode*, meaning that when the `Start()` method is called, it waits for the specified interval, triggers a single Tick event, and then stops.
@@ -52,6 +57,6 @@ Next, you add a <xref:System.Windows.Forms.Timer> control to the matching game. 
 
 ## To continue or review
 
-- To go to the next tutorial step, see [Step 7: Keep pairs visible](../ide/step-7-keep-pairs-visible.md).
+- To go to the next tutorial step, see **[Step 7: Keep pairs visible](../ide/step-7-keep-pairs-visible.md)**.
 
 - To return to the previous tutorial step, see [Step 5: Add label references](../ide/step-5-add-label-references.md).

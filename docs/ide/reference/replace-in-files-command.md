@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "Replace In Files command"
   - "ReplaceInFiles command"
 ms.assetid: f116066a-4f65-4f2c-94ef-12cbd8cfb598
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -99,7 +99,7 @@ This example searches for `btnCancel` and replaces it with `btnReset` in all .cl
 >Edit.ReplaceinFiles btnCancel btnReset /lookin:"c:/my visual studio projects" /ext:.cls /text2
 ```
 
-## See Also
+## See also
 
 - [Finding and Replacing Text](../../ide/finding-and-replacing-text.md)
 - [Replace in Files](../../ide/replace-in-files.md)

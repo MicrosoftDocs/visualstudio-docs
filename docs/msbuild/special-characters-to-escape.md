@@ -35,6 +35,9 @@ Special characters must be escaped only if they have special meaning in the cont
 |?|Question mark, a wildcard character when describing a file spec in an item's Include/Exclude section.|
 |*|Asterisk, a wildcard character when describing a file spec in an item's Include/Exclude section.|
 
+> [!NOTE]
+> In some scenarios, you may need to escape double quote (") characters, such as when using within an `Exec` task.
+
 ## See also
 - [How to: Escape special characters in MSBuild](../msbuild/how-to-escape-special-characters-in-msbuild.md)
 - [MSBuild reference](../msbuild/msbuild-reference.md)

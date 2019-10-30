@@ -50,7 +50,7 @@ ms.workload:
 
   [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
 
-  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [Bind data to Word 2007 content controls using Visual Studio Tools for the Office system (3.0)](http://go.microsoft.com/fwlink/?LinkId=136785).
+  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [Bind data to Word 2007 content controls using Visual Studio Tools for the Office system (3.0)](/previous-versions/office/developer/office-2007/bb967663(v=office.12)).
 
 ## Overview of content controls
  Content controls provide a UI that is optimized for both user input and print. When you add a content control to a document, the control is identified by a border, a title, and temporary text that can provide instructions to the user. The border and the title of the control do not appear in printed versions of the document.

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "records, inserting"
   - "saving data"
 ms.assetid: ea118fff-69b1-4675-b79a-e33374377f04
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

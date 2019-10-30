@@ -43,7 +43,7 @@ ms.workload:
 ### Microsoft Office version
  Office applications can load VSTO Add-ins that are registered under **HKEY_LOCAL_MACHINE** or **HKEY_CURRENT_USER**.
 
- To load VSTO Add-ins that are registered under **HKEY_LOCAL_MACHINE**, computers must have update package 976477 installed. For more information, see [http://go.microsoft.com/fwlink/?LinkId=184923](http://go.microsoft.com/fwlink/?LinkId=184923).
+ To load VSTO Add-ins that are registered under **HKEY_LOCAL_MACHINE**, computers must have update package 976477 installed. For more information, see [http://go.microsoft.com/fwlink/?LinkId=184923](https://support.microsoft.com/help/976811/a-2007-office-system-application-does-not-load-an-add-in-that-is-devel).
 
 ### Deployment type
  If you use ClickOnce to deploy a VSTO Add-in, the VSTO Add-in can be registered only for the current user. This is because ClickOnce only supports creating keys under **HKEY_CURRENT_USER**. If you want to register a VSTO Add-in to all users on a computer, you must use Windows Installer to deploy the VSTO Add-in. For more information about these deployment types, see [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md) and [Deploy an Office solution by using Windows Installer](../vsto/deploying-an-office-solution-by-using-windows-installer.md).

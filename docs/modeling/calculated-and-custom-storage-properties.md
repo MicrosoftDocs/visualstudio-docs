@@ -4,8 +4,8 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language, programming domain properties"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -101,7 +101,7 @@ void SetAgeValue(int value)
 
  For more information about transactions, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).
 
-## See Also
+## See also
 
 - [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)
 - [Properties of Domain Properties](../modeling/properties-of-domain-properties.md)

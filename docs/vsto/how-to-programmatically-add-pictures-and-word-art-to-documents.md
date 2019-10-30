@@ -37,7 +37,7 @@ ms.workload:
 
      The picture is added to your document at the current cursor location.
 
-## Add a picture at runtime
+## Add a picture at run time
  You can insert a picture into a document at the current cursor location.
 
 ### To add a picture at the cursor location
@@ -62,7 +62,7 @@ ms.workload:
 
      The text is added to your document with the selected WordArt style applied.
 
-## Add WordArt at runtime
+## Add WordArt at run time
  You can insert WordArt into a document at the current cursor location. The procedure is different for document-level customizations and VSTO Add-ins.
 
 ### To add WordArt at the cursor location in a document-level customization

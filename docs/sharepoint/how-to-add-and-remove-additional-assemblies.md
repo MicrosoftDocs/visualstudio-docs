@@ -21,7 +21,7 @@ ms.workload:
  You can also add and change the safe controls and class resource files associated with the assemblies.
 
 ## Add additional assemblies, safe controls, and class resources
- You can add additional assemblies into the SharePoint solution package. Additional assemblies in a sandboxed solution deploy to the global assembly cache, but SharePoint project items in a sandboxed solution are added to the content database. You can also add safe controls and class resources to these additional assemblies. For more information about safe controls, see [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md) or "Creating a SafeControl Entry" in [Deploying Web Parts in SharePoint Foundation](http://go.microsoft.com/fwlink/?LinkId=245505).
+ You can add additional assemblies into the SharePoint solution package. Additional assemblies in a sandboxed solution deploy to the global assembly cache, but SharePoint project items in a sandboxed solution are added to the content database. You can also add safe controls and class resources to these additional assemblies. For more information about safe controls, see [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md) or "Creating a SafeControl Entry" in [Deploying Web Parts in SharePoint Foundation](/previous-versions/office/developer/sharepoint-2010/cc768621(v=office.14)).
 
 #### To add an existing assembly
 

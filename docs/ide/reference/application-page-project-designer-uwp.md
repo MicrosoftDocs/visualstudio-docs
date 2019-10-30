@@ -6,8 +6,8 @@ f1_keywords:
   - AppPackage.Properties.Application
 helpviewer_keywords:
   - "Application page [UWP project]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "uwp"

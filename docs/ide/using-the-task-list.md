@@ -9,8 +9,8 @@ f1_keywords:
 helpviewer_keywords:
   - "task list"
   - "Visual Studio, task list"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -57,6 +57,9 @@ A comment in your code preceded by a comment marker and a predefined token also 
 ```
 
 Because `TODO` is a predefined token, this comment appears as a `TODO` task in the list.
+
+> [!NOTE]
+> Default tokens are only available for the C/C++, C#, and VB languages. For other languages, see the **Custom tokens** section.
 
 ### Custom tokens
 

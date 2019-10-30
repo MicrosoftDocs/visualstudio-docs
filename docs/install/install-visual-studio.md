@@ -2,7 +2,7 @@
 title: "Install Visual Studio"
 titleSuffix: ""
 description: "Learn how to install Visual Studio, step-by-step."
-ms.date: 04/16/2019
+ms.date: 10/07/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
@@ -76,7 +76,7 @@ Before you begin installing Visual Studio:
 
 1. Reboot. The reboot ensures that any pending installs or updates don't hinder the Visual Studio install.
 
-1. Free up space. Remove unneeded files and applications from your %SystemDrive% by, for example, running the Disk Cleanup app. 
+1. Free up space. Remove unneeded files and applications from your %SystemDrive% by, for example, running the Disk Cleanup app.
 
 ::: moniker-end
 
@@ -94,19 +94,20 @@ For questions about running previous versions of Visual Studio side by side with
 
 ## Step 2 - Download Visual Studio
 
-Next, download the Visual Studio bootstrapper file. To do so, choose the following button, choose the edition of Visual Studio that you want, choose **Save**, and then choose **Open folder**.
+Next, download the Visual Studio bootstrapper file.
 
 ::: moniker range="vs-2017"
 
- > [!div class="button"]
- > [Download Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download)
+To get a bootstrapper for Visual Studio 2017, see the [Visual Studio previous versions](https://visualstudio.microsoft.com/vs/older-downloads/) download page for details on how to do so.
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
+To do so, choose the following button, choose the edition of Visual Studio that you want, choose **Save**, and then choose **Open folder**.
+
  > [!div class="button"]
- > [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019)
+ > [Download Visual Studio](https://visualstudio.microsoft.com/downloads)
 
 ::: moniker-end
 
@@ -230,7 +231,7 @@ For more information, see the [Select installation locations](change-installatio
 
 3. Select a project type.
 
-   For example, to [build a C++ app](../ide/getting-started-with-cpp-in-visual-studio.md), choose **Installed**, expand **Visual C++**, and then choose the C++ project type that you want to build.
+   For example, to [build a C++ app](/cpp/get-started/tutorial-console-cpp), choose **Installed**, expand **Visual C++**, and then choose the C++ project type that you want to build.
 
    To [build a C# app](../get-started/csharp/tutorial-console.md), choose **Installed**, expand **Visual C#**, and then choose the C# project type that you want to build.
 
@@ -244,7 +245,7 @@ For more information, see the [Select installation locations](change-installatio
 
 1. In the search box, enter the type of app you want to create to see a list of available templates. The list of templates depends on the workload(s) that you chose during installation. To see different templates, choose different workloads.
 
-   You can also filter your search for a specific programming language by using the **Language** drop-down list. You can filter by using the **Platform** list and the **Project type** list, too. 
+   You can also filter your search for a specific programming language by using the **Language** drop-down list. You can filter by using the **Platform** list and the **Project type** list, too.
 
 1. Visual Studio opens your new project, and you're ready to code!
 

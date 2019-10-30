@@ -43,6 +43,6 @@ HRESULT RemoveGlobalExpressionContextProvider(
 ## Remarks  
  The `RemoveGlobalExpressionContextProvider` method removes a global expression context provider from this application.  
   
-## See Also  
+## See also  
  [IDebugApplication::AddGlobalExpressionContextProvider](../../winscript/reference/idebugapplication-addglobalexpressioncontextprovider.md)   
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)

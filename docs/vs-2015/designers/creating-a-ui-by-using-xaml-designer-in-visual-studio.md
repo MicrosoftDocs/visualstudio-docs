@@ -11,8 +11,8 @@ f1_keywords:
   - "VS.DocumentOutline"
 ms.assetid: c54969a7-d75a-4a35-9b37-af7a596a7c24
 caps.latest.revision: 31
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Creating a UI by using XAML Designer in Visual Studio

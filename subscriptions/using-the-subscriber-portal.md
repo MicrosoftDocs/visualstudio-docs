@@ -17,7 +17,7 @@ Using the portal requires that you sign in with the identity associated with you
 The portal is organized in six pages.  Each page provides you with access to different products or services included with your subscription.  The six pages are Benefits, Downloads, Product Keys, Subscriptions, Support, and Marketplace.
 
 ## [Benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)
-The tools and services included with your subscription are displayed as "tiles" on the Benefits page.  Not all benefits are included with all subscriptions. The tiles are grouped into three categories:  Tools, Professional Development, and Support.  If you're using Visual Studio Dev Essentials, you'll also see a category entitled Featured, which may contain selected benefits from the other three categories.
+The tools and services included with your subscription are displayed as "tiles" on the Benefits page.  Not all benefits are included with all subscriptions. The tiles are grouped into three categories:  Tools, Professional Development, and Support.  
 
 ### Tools
 The Tools category is where you'll find the core development tools, such as the Visual Studio IDE, Azure DevOps, as well as tools provided by our partners.  You'll also see services such as Azure and Visual Studio App Center.

@@ -59,7 +59,7 @@ To attach the debugger from Visual Studio and hit breakpoints in client-side cod
     ::: moniker range=">=vs-2019"
 
     > [!NOTE]
-    > You can also set the `--remote-debugging-port` flag at browser launch by selecting **Browse With...** > from the **Debug** toolbar, then choosing **Add**, and then setting the flag in the **Arguments** field. Use a different friendly name for the browser such as **Chrome with Debugging**. For details, see the [Release Notes](https://docs.microsoft.com/visualstudio/releases/2019/release-notes-preview).
+    > You can also set the `--remote-debugging-port` flag at browser launch by selecting **Browse With...** > from the **Debug** toolbar, then choosing **Add**, and then setting the flag in the **Arguments** field. Use a different friendly name for the browser such as **Chrome with Debugging**. For details, see the [Release Notes](/visualstudio/releases/2019/release-notes-preview).
 
     ::: moniker-end
 
@@ -85,7 +85,9 @@ To attach the debugger from Visual Studio and hit breakpoints in client-side cod
 
     ![Attach to process](../javascript/media/tutorial-nodejs-react-attach-to-process.png)
 
+    ::: moniker range="vs-2017"
     You know the debugger has attached correctly when the DOM Explorer and the JavaScript Console open in Visual Studio. These debugging tools are similar to Chrome Developer Tools and F12 Tools for Microsoft Edge.
+    ::: moniker-end
 
     > [!NOTE]
     > If the debugger does not attach and you see the message "Unable to attach to the process. An operation is not legal in the current state", use the Task Manager to close all instances of Chrome before starting Chrome in debugging mode. Chrome Extensions may be running and preventing full debug mode.

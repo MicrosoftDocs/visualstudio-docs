@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, run settings"
 ms.assetid: 51cbe7d6-5dfd-4842-bca3-f7f8a665dc84
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Specify the sample rate for a load test run setting

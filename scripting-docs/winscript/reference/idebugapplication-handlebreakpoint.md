@@ -52,7 +52,7 @@ HRESULT HandleBreakPoint(
   
  This method causes `IApplicationDebugger::onHandleBreakPoint` to be called.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)   
  [IApplicationDebugger::onHandleBreakPoint](../../winscript/reference/iapplicationdebugger-onhandlebreakpoint.md)   
  [BREAKREASON Enumeration](../../winscript/reference/breakreason-enumeration.md)   

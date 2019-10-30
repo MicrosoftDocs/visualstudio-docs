@@ -52,6 +52,6 @@ IEnumDebugObjects : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
 - [GetElements](../../../extensibility/debugger/reference/idebugarrayobject-getelements.md)

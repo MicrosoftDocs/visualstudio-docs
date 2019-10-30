@@ -19,11 +19,15 @@ ms.workload:
   - "multiple"
 ---
 # Measure application performance by analyzing CPU usage
-You can use Visual Studio profiling tools to analyze performance issues in your application. This procedure shows how to use **CPU Usage** tab of the Diagnostics Tools to obtain performance data for your app. The Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, and for native/C++ development.
+
+You can use Visual Studio profiling tools to analyze performance issues in your application. This procedure shows how to use **CPU Usage** tab of the Diagnostics Tools to obtain performance data for your app.
 
 When the debugger pauses, the **CPU Usage** tool collects information about the functions that are executing in your application. The tool lists the functions that were performing work, and provides a timeline graph you can use to focus on specific segments of the sampling session.
 
 The Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. If **CPU Usage** does not give you the data that you need, the [other profiling tools](../profiling/profiling-feature-tour.md) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time. The Diagnostics hub offers you a lot of other options to record and analyze this kind of data.
+
+> [!Important]
+> The Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, and for native/C++ development.
 
 In this article, we'll discuss analyzing CPU usage in your normal debugging workflow. You can also analyze CPU usage without a debugger attached or by targeting a running app - for more information see [Collect profiling data without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-without-debugging) in [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 

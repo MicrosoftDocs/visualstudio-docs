@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Shell, launching exe files"
   - "Visual Studio, executables from"
 ms.assetid: 737fda23-b852-45c4-a9fe-41cbce6ba70f
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -78,7 +78,7 @@ The following command uses xcopy.exe to copy the file `MyText.txt` into the `Tex
 >Tools.Shell /o /c xcopy.exe c:\MyText.txt c:\Text\MyText.txt
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

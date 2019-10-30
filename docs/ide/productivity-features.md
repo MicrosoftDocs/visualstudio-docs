@@ -2,8 +2,8 @@
 title: Productivity tips
 ms.date: 2/21/2019
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

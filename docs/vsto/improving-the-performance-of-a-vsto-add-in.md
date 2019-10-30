@@ -22,7 +22,7 @@ ms.workload:
 
 - [Perform expensive operations in a separate execution thread](#Perform).
 
-  For more information about how to optimize an Outlook VSTO Add-in, see [Performance criteria to keep VSTO Add-ins enabled](http://go.microsoft.com/fwlink/?LinkID=266503).
+  For more information about how to optimize an Outlook VSTO Add-in, see [Performance criteria to keep VSTO Add-ins enabled](/previous-versions/office/jj228679(v=office.15)#ol15WhatsNew_AddinDisabling).
 
 ## <a name="Load"></a> Load VSTO Add-ins on demand
  You can configure a VSTO Add-in to load only under the following circumstances:
@@ -92,7 +92,7 @@ ms.workload:
   For more information, see [Deploy an Office solution by using Windows Installer](../vsto/deploying-an-office-solution-by-using-windows-installer.md).
 
 ## <a name="Bypass"></a> Bypass Ribbon reflection
- If you build a solution by using [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)], ensure that your users have installed the most recent version of the Visual Studio 2010 Tools for Office runtime when you deploy the solution. Older versions of that runtime reflected into solution assemblies to locate Ribbon customizations. This process can cause the VSTO Add-in to load more slowly.
+ If you build a solution by using [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)], ensure that your users have installed the most recent version of the Visual Studio 2010 Tools for Office runtime when you deploy the solution. Older versions of the VSTO runtime reflected into solution assemblies to locate Ribbon customizations. This process can cause the VSTO Add-in to load more slowly.
 
  As an alternative, you can prevent any version of the Visual Studio 2010 Tools for Office runtime from using reflection to identify Ribbon customizations. To follow this strategy, override the `CreateRibbonExtensibility` method, and explicitly return Ribbon objects. If your VSTO Add-in doesn't contain any Ribbon customizations, return `null` inside of the method.
 

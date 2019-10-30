@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "dependency diagrams"
   - "diagrams - modeling, layer"
   - "constraints, architectural"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -35,7 +35,7 @@ Before you create a dependency diagram, make sure your solution has a modeling p
 ### Add a new dependency diagram to a modeling project
 
 > [!NOTE]
-> Dependency diagrams are not supported for .NET Core projects in Visual Studio.
+> Dependency diagrams for .NET Core projects are supported starting in Visual Studio 2019 version 16.2.
 
 1. On the **Architecture** menu, choose **New Dependency Diagram**.
 
@@ -150,7 +150,7 @@ Before you create a dependency diagram, make sure your solution has a modeling p
 
 - [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)
 
-## See Also
+## See also
 
 - [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#edition-support-for-architecture-and-modeling-tools)
 - [Video: Validate your architecture dependencies in real time](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4)

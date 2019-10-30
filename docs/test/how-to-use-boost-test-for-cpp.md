@@ -19,7 +19,7 @@ If you don't have the **Desktop development with C++** workload installed, open 
 
 ## Install Boost
 
-Boost.Test requires [Boost](http://www.boost.org/)! If you do not have Boost installed, we recommend that you use the Vcpkg package manager.
+Boost.Test requires [Boost](https://www.boost.org/)! If you do not have Boost installed, we recommend that you use the Vcpkg package manager.
 
 1. Follow the instructions at [Vcpkg: a C++ package manager for Windows](/cpp/vcpkg) to install vcpkg (if you don't already have it).
 
@@ -120,7 +120,7 @@ BOOST_AUTO_TEST_CASE(my_boost_test)
 
 ## Write and run tests
 
-You're now ready to write and run Boost tests. See the [Boost test library documentation](http://www.boost.org/doc/libs/release/libs/test/doc/html/index.html) for information about the test macros. See [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md) for information about discovering, running, and grouping your tests by using **Test Explorer**.
+You're now ready to write and run Boost tests. See the [Boost test library documentation](https://www.boost.org/doc/libs/1_71_0/libs/test/doc/html/index.html) for information about the test macros. See [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md) for information about discovering, running, and grouping your tests by using **Test Explorer**.
 
 ## See also
 

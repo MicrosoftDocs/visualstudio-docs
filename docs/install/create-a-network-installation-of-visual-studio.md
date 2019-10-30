@@ -1,7 +1,7 @@
 ---
 title: "Create a network-based installation"
 description: "Learn how to create a network install point for deploying Visual Studio within an enterprise."
-ms.date: 08/06/2019
+ms.date: 10/29/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
@@ -27,35 +27,44 @@ We've done this so that client workstations can use the same network location to
 
 ## Download the Visual Studio bootstrapper
 
-Download the edition of Visual Studio you want. Make sure to click **Save**, and then click **Open folder**.
-
-Your setup executable&mdash;or to be more specific, a bootstrapper file&mdash;should match one of the following.
+Download a bootstrapper file for the edition of Visual Studio you want. Make sure to choose **Save**, and then choose **Open folder**.
 
 ::: moniker range="vs-2017"
 
-|Edition | Download|
-|-------------|-----------------------|
-|Visual Studio Enterprise | [**vs_enterprise.exe**](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=enterprise&rel=15&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=network+install&utm_content=download+vs2017) |
-|Visual Studio Professional | [**vs_professional.exe**](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=15&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=network+install&utm_content=download+vs2017) |
+To get a bootstrapper for Visual Studio 2017, see the [Visual Studio previous versions](https://visualstudio.microsoft.com/vs/older-downloads/) download page for details on how to do so.
 
-Other supported bootstrappers include [vs_buildtools.exe](https://aka.ms/vs/15/release/vs_buildtools.exe), [vs_feedbackclient.exe](https://aka.ms/vs/15/release/vs_feedbackclient.exe), [vs_teamexplorer.exe](https://aka.ms/vs/15/release/vs_teamexplorer.exe), [vs_testagent.exe](https://aka.ms/vs/15/release/vs_testagent.exe), [vs_testcontroller.exe](https://aka.ms/vs/15/release/vs_testcontroller.exe), and [vs_testprofessional.exe](https://aka.ms/vs/15/release/vs_testprofessional.exe).
+Your setup executable&mdash;or to be more specific, the bootstrapper file&mdash;should match or be similar to one of the following.
+
+| Edition | Filename |
+|-------------|-----------------------|
+|Visual Studio Enterprise | **vs_enterprise.exe** |
+|Visual Studio Professional | **vs_professional.exe** |
+|Visual Studio Build Tools   | **vs_buildtools.exe** |
+
+Other supported bootstrappers include **vs_feedbackclient.exe**, **vs_teamexplorer.exe**, **vs_testagent.exe**, **vs_testcontroller.exe**, and **vs_testprofessional.exe**.
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
+Your setup executable&mdash;or to be more specific, a bootstrapper file&mdash;should match or be similar to one of the following.
+
 |Edition | Download|
 |-------------|-----------------------|
 |Visual Studio Enterprise | [**vs_enterprise.exe**](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=enterprise&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=network+install&utm_content=download+vs2019) |
 |Visual Studio Professional | [**vs_professional.exe**](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=network+install&utm_content=download+vs2019) |
+| Visual Studio Build Tools   | [**vs_buildtools.exe**](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=buildtools&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=offline+install&utm_content=download+vs2019) |
 
-Other supported bootstrappers include [vs_buildtools.exe](https://aka.ms/vs/16/release/vs_buildtools.exe), [vs_teamexplorer.exe](https://aka.ms/vs/16/release/vs_teamexplorer.exe), [vs_testagent.exe](https://aka.ms/vs/16/release/vs_testagent.exe), and [vs_testcontroller.exe](https://aka.ms/vs/16/release/vs_testcontroller.exe).
+Other supported bootstrappers include [vs_teamexplorer.exe](https://aka.ms/vs/16/release/vs_teamexplorer.exe), [vs_testagent.exe](https://aka.ms/vs/16/release/vs_testagent.exe), and [vs_testcontroller.exe](https://aka.ms/vs/16/release/vs_testcontroller.exe).
 
 ::: moniker-end
 
+>[!TIP]
+>If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, see the [Visual Studio build numbers and release dates](visual-studio-build-numbers-and-release-dates.md) page.
+
 ## Create an offline installation folder
 
-You must have an internet connection to complete this step. To create an offline installation with all languages and all features, use one of the commands from the following examples.
+You must have an internet connection to complete this step. To create an offline installation with all languages and all features, use a command that is similar to one of the following examples.
 
    > [!IMPORTANT]
    > A complete Visual Studio layout requires a minimum of 35 GB of disk space and can take some time to download. See the [Customize the network layout](#customize-the-network-layout) section for details on how to create a layout with only the components you want to install.
@@ -65,16 +74,17 @@ You must have an internet connection to complete this step. To create an offline
 
 - For Visual Studio Enterprise, run:
 
-  ```vs_enterprise.exe --layout c:\vsoffline```
+  ```vs_enterprise.exe --layout c:\VSLayout```
 
 - For Visual Studio Professional, run:
 
-  ```vs_professional.exe --layout c:\vsoffline```
+  ```vs_professional.exe --layout c:\VSLayout```
 
 ## Modify the response.json file
 
-You can modify the response.json to set default values that are used when setup is run.  For example, you can configure the `response.json` file to select a specific set of workloads selected automatically.
-See [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md) for details.
+You can modify the response.json to set default values that are used when setup is run.  For example, you can configure the `response.json` file to select a specific set of workloads selected automatically. See [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md) for details.
+
+And, if you run into a problem with the Visual Studio bootstrapper throwing an error when you pair it with a response.json file, see the "Failed to parse ID from parent process" section of the [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md#error-failed-to-parse-id-from-parent-process) page for more information on what to do.
 
 ## Copy the layout to a network share
 
@@ -87,7 +97,7 @@ The following example uses [xcopy](/windows-server/administration/windows-comman
 Example:
 
 ```cmd
-xcopy /e c:\vsoffline \\server\products\VS2017
+xcopy /e c:\VSLayout \\server\products\VS2017
 ```
 
 ::: moniker-end
@@ -95,7 +105,7 @@ xcopy /e c:\vsoffline \\server\products\VS2017
 ::: moniker range="vs-2019"
 
 ```cmd
-xcopy /e c:\vsoffline \\server\products\VS2019
+xcopy /e c:\VSLayout \\server\products\VS2019
 ```
 
 ::: moniker-end
@@ -117,37 +127,37 @@ Here are a few examples of how to create a custom partial layout.
 * To download all workloads and components for only one language, run:
 
     ```cmd
-    vs_enterprise.exe --layout C:\vsoffline --lang en-US
+    vs_enterprise.exe --layout C:\VSLayout --lang en-US
     ```
 
 * To download all workloads and components for multiple languages, run:
 
     ```cmd
-    vs_enterprise.exe --layout C:\vsoffline --lang en-US de-DE ja-JP
+    vs_enterprise.exe --layout C:\VSLayout --lang en-US de-DE ja-JP
     ```
 
 * To download one workload for all languages, run:
 
     ```cmd
-    vs_enterprise.exe --layout C:\vsoffline --add Microsoft.VisualStudio.Workload.Azure --includeRecommended
+    vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --includeRecommended
     ```
 
 * To download two workloads and one optional component for three languages, run:
 
     ```cmd
-    vs_enterprise.exe --layout C:\vsoffline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeRecommended --lang en-US de-DE ja-JP
+    vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeRecommended --lang en-US de-DE ja-JP
     ```
 
 * To download two workloads and all of their recommended components:
 
     ```cmd
-    vs_enterprise.exe --layout C:\vsoffline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeRecommended
+    vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeRecommended
     ```
 
 * To download two workloads and all of their recommended and optional components, run:
 
     ```cmd
-    vs_enterprise.exe --layout C:\vsoffline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeOptional
+    vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeOptional
     ```
 
 ::: moniker range="vs-2017"
@@ -199,18 +209,25 @@ Administrators can deploy Visual Studio onto client workstations as part of an i
 * Administrators can install in an unattended mode by running the following command:
 
     ```cmd
-    \server\products\VS\vs_enterprise.exe --quiet --wait --norestart
+    \\server\products\VS\vs_enterprise.exe --quiet --wait --norestart
     ```
 
 > [!IMPORTANT]
 > To prevent an error, make sure that your full layout path is less than 80 characters.
->
+
 > [!TIP]
 > When executed as part of a batch file, the `--wait` option ensures that the `vs_enterprise.exe` process waits until the installation is complete before it returns an exit code.
 >
 > This is useful if an enterprise administrator wants to perform further actions on a completed installation (for example, to [apply a product key to a successful installation](automatically-apply-product-keys-when-deploying-visual-studio.md)) but must wait for the installation to finish to handle the return code from that installation.
 >
 > If you do not use `--wait`, the `vs_enterprise.exe` process exits before the installation is complete and returns an inaccurate exit code that doesn't represent the state of the install operation.
+>
+
+::: moniker range="vs-2019"
+> [!IMPORTANT]
+> For offline installations, if you get an error message that says "A product matching the following parameters cannot be found", make sure that you are using the `--noweb` switch with version 16.3.5 or later.
+>
+::: moniker-end
 
 When you install from a layout, the content that is installed is acquired from the layout. However, if you select a component that isn't in the layout, it will be acquired from the internet.  If you want to prevent Visual Studio setup from downloading any content that is missing in your layout, use the `--noWeb` option. If `--noWeb` is used and the layout is missing any content that is selected to be installed, setup fails.
 
@@ -243,7 +260,7 @@ As product updates become available, you might want to [update the network insta
 ::: moniker range="vs-2019"
 
 > [!NOTE]
-> The Visual Studio bootstrappers that are available on [visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) download and install the latest Visual Studio release that's available whenever they are run.
+> The Visual Studio bootstrappers that are available on [visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads) download and install the latest Visual Studio release that's available whenever they are run.
 >
 > So, if you download a Visual Studio *bootstrapper* today and run it six months from now, it installs the Visual Studio release that is current at the time you run the bootstrapper.
 >
@@ -265,6 +282,7 @@ We have other support options available, too. For a list, see our [Feedback](../
 
 - [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 - [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
+- [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
 - [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 - [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
 - [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)

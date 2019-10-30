@@ -6,8 +6,8 @@ dev_langs:
   - "VB"
   - "CSharp"
 ms.assetid: 2222841f-e443-4a3d-8c70-4506aa905193
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

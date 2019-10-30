@@ -39,5 +39,5 @@ HRESULT IsEnabled(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsDebugBreakPoint Interface](../../winscript/reference/ijsdebugbreakpoint-interface.md)

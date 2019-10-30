@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "Visual Studio templates, creating multi-project"
   - "project templates, multi-project"
   - "multi-project templates"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Create multi-project templates

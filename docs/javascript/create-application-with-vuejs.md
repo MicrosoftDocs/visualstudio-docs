@@ -32,7 +32,7 @@ The following new features support Vue.js application development in Visual Stud
     > This article requires features that are only available starting in Visual Studio 2017 version 15.8.
 
     ::: moniker range=">=vs-2019"
-    If a required version is not already installed, install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019).
+    If a required version is not already installed, install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads).
     ::: moniker-end
     ::: moniker range="vs-2017"
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.

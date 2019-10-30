@@ -24,5 +24,5 @@ Allows the debug cookie to be set, for use with the `IMachineDebugManagerCookie`
 |------------|-----------------|  
 |[IDebugCookie::SetDebugCookie](../../winscript/reference/idebugcookie-setdebugcookie.md)|Sets the debug application cookie.|  
   
-## See Also  
+## See also  
  [IMachineDebugManagerCookie Interface](../../winscript/reference/imachinedebugmanagercookie-interface.md)

@@ -5,8 +5,8 @@ ms.topic: reference
 f1_keywords:
   - VS.ToolsOptionsPages.XAMLDesigner
   - VS.ToolsOptionsPages.XAML_Designer.General
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "uwp"

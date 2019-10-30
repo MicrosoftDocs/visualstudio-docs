@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "FlagsEnumsShouldHavePluralNames"
 ms.assetid: 95ef5b43-7681-49e9-a5a3-ac0357cf1be7
 caps.latest.revision: 16
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1714: Flags enums should have plural names

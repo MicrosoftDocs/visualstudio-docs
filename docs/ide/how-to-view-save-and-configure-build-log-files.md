@@ -1,6 +1,6 @@
 ---
 title: "How to: View, save, and configure build log files | Microsoft Docs"
-ms.date: 11/04/2016
+ms.date: 08/28/2019
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 ms.assetid: 75d38b76-26d6-4f43-bbe7-cbacd7cc81e7
@@ -36,6 +36,8 @@ If you build any kind of project by using MSBuild, you can create a *.txt* file 
 
    Visual Studio prompts you for a location to save the build output.
 
+You can also generate logs by running MSBuild directly from the command line, using the `-fileLogger` (`-fl`) command-line option. See [Obtain build logs with MSBuild](../msbuild/obtaining-build-logs-with-msbuild.md).
+
 ## To change the amount of information included in the build log
 
 1. On the menu bar, choose **Tools** > **Options**.
@@ -57,8 +59,11 @@ If you build any kind of project by using MSBuild, you can create a *.txt* file 
     > [!IMPORTANT]
     > You must rebuild the project for your changes to take effect in the **Output** window (all projects) and the *\<ProjectName>.txt* file (C++ projects only).
 
+## Use binary logs to make it easier to browse large log files
+
+Binary logs are an optional feature for .NET projects that lets you have a richer log browsing experience that might make it easier to find information in large logs. To use binary logs, install the [Project System Tools](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools). For more information, see [https://msbuildlog.com](https://msbuildlog.com) and [Binary Log](https://github.com/microsoft/msbuild/blob/master/documentation/wiki/Binary-Log.md)
+
 ## See also
 
-- [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md)
 - [Build and clean projects and solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)
 - [Compile and build](../ide/compiling-and-building-in-visual-studio.md)

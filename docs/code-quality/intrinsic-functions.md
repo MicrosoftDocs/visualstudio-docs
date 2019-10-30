@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: adf29f8c-89fd-4a5e-9804-35ac83e1c457
 author: mikeblome
 ms.author: mblome
-manager: wpickett
+manager: markl
 ms.workload:
   - "multiple"
 ---
@@ -40,7 +40,7 @@ The following intrinsic function annotations enable manipulation of strings. All
 |`strlen(param)`|`param` is the number of elements in the string up to but not including a null terminator. This annotation is reserved for use on character arrays and resembles the C Runtime function [strlen()](/cpp/c-runtime-library/reference/strlen-wcslen-mbslen-mbslen-l-mbstrlen-mbstrlen-l).|
 |`wcslen(param)`|`param` is the number of elements in the string up to (but not including) a null terminator. This annotation is reserved for use on wide character arrays and resembles the C Runtime function [wcslen()](/cpp/c-runtime-library/reference/strlen-wcslen-mbslen-mbslen-l-mbstrlen-mbstrlen-l).|
 
-## See Also
+## See also
 
 - [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
 - [Understanding SAL](../code-quality/understanding-sal.md)

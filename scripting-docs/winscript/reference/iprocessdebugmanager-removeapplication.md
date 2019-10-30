@@ -43,6 +43,6 @@ HRESULT RemoveApplication(
 ## Remarks  
  This method removes an application from the running application list.  
   
-## See Also  
+## See also  
  [IProcessDebugManager::AddApplication](../../winscript/reference/iprocessdebugmanager-addapplication.md)   
  [IProcessDebugManager Interface](../../winscript/reference/iprocessdebugmanager-interface.md)

@@ -34,5 +34,5 @@ typedef SCRIPT_DEBUGGER_OPTIONS
 |SDO_ENABLE_FIRST_CHANCE_EXCEPTIONS|0x00000001|Indicates that the script runtime should raise BREAKREASON_ERROR events when an exception is thrown. This option may be set by the debugger, or set by user-code via `Debug.enableFirstChanceExceptions(<true&#124;false>)`.|  
 |SDO_ENABLE_WEB_WORKER_SUPPORT|0x00000002|Indicates that the attached debugger supports web workers.|  
   
-## See Also  
+## See also  
  [Active Script Debugger Constants, Enumerations, and Structures](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)

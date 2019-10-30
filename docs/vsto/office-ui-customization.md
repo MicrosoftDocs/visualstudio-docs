@@ -70,7 +70,7 @@ ms.workload:
 
  Visual Studio does not provide a designer or APIs for customizing the Backstage view. However, if you add a **Ribbon (XML)** item to your Office project, you can add XML to the Ribbon XML file to customize the Backstage view. For more information about **Ribbon (XML)** items, see [Ribbon XML](../vsto/ribbon-xml.md).
 
- For more information about customizing the Backstage view, see [Introduction to the Office 2010 Backstage view for developers](http://go.microsoft.com/fwlink/?LinkId=182189) and [Customize the Office 2010 Backstage view for developers](http://go.microsoft.com/fwlink/?LinkId=182188).
+ For more information about customizing the Backstage view, see [Introduction to the Office 2010 Backstage view for developers](/previous-versions/office/developer/office-2010/ee691833(v=office.14)) and [Customize the Office 2010 Backstage view for developers](/previous-versions/office/developer/office-2010/ee815851(v=office.14)).
 
 ## <a name="FormRegion"></a> Outlook form regions
  Use form regions to add custom functionality to standard Microsoft Office Outlook forms. You can create form regions that extend any existing form with additional fields or controls. If you create a new form region by using the Office development tools in Visual Studio, you can use only Windows Forms controls on the form region. If you import a form region that was designed in Outlook, then you can use only native Outlook controls.
@@ -82,7 +82,7 @@ ms.workload:
 ## <a name="Controls"></a> Controls on documents
  You can add a variety of controls to Word documents and Excel worksheets. For example, you might want to add a date picker control to a document so the user can enter dates in a standard format, or put a button on a worksheet to send data to a database.
 
- When you develop document-level projects for Excel or Word, you can use the Visual Studio designer to add controls to the document or workbook in your project at design time, or you can programmatically add controls at runtime. When you develop VSTO Add-in projects for Excel or Word, you can programmatically add controls to any open document or workbook at runtime.
+ When you develop document-level projects for Excel or Word, you can use the Visual Studio designer to add controls to the document or workbook in your project at design time, or you can programmatically add controls at run time. When you develop VSTO Add-in projects for Excel or Word, you can programmatically add controls to any open document or workbook at run time.
 
  For more information, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md) and [Windows forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md).
 

@@ -88,8 +88,8 @@ f1_keywords:
   - "VB_E_TERRCLASSNOTREG"
   - "vs.webclient.help.general"
 ms.assetid: 8f866eb5-a206-4c16-807e-96a0f2c0e645
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -113,7 +113,7 @@ You can access forums, blogs, chats, and other resources on the [Microsoft Techn
 
 ## Product support
 
-If you still have questions after you try the other resources, you can contact Microsoft support services by visiting the [Microsoft Support](http://go.microsoft.com/fwlink/?linkid=1782) website. For information about product support available in your area, see the [Visual Studio feedback options](../../ide/feedback-options.md) page.
+If you still have questions after you try the other resources, you can contact Microsoft support services by visiting the [Microsoft Support](https://support.microsoft.com/en-us) website. For information about product support available in your area, see the [Visual Studio feedback options](../../ide/feedback-options.md) page.
 
 ## See also
 

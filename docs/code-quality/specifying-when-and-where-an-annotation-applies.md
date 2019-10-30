@@ -10,7 +10,7 @@ f1_keywords:
 ms.assetid: 8e4f4f9c-5dfa-4835-87df-ecd1698fc650
 author: mikeblome
 ms.author: mblome
-manager: wpickett
+manager: markl
 ms.workload:
   - "multiple"
 ---
@@ -27,7 +27,7 @@ To control when and where annotations apply, use the following structural annota
 |`_Group_(anno-list)`|The annotations in `anno-list` are all considered to have any qualifier that applies to the group annotation that is applied to each annotation.|
 |`_When_(expr, anno-list)`|`expr` is an expression that can be converted to `bool`. When it is non-zero (`true`), the annotations that are specified in `anno-list` are considered applicable.<br /><br /> By default, for each annotation in `anno-list`, `expr` is interpreted as using the input values if the annotation is a precondition, and as using the output values if the annotation is a post-condition. To override the default, you can use the `_Old_` intrinsic when you evaluate a post-condition to indicate that input values should be used. **Note:**  Different annotations might be enabled as a consequence of using `_When_` if a mutable value—for example, `*pLength`—is involved because the evaluated result of `expr` in precondition may differ from its evaluated result in post-condition.|
 
-## See Also
+## See also
 
 - [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
 - [Understanding SAL](../code-quality/understanding-sal.md)

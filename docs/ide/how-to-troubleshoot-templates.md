@@ -4,8 +4,8 @@ ms.date: 01/02/2018
 ms.topic: troubleshooting
 helpviewer_keywords:
   - "templates [Visual Studio], troubleshooting"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Troubleshoot templates

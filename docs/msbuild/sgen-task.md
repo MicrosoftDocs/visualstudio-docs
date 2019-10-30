@@ -29,7 +29,7 @@ Creates an XML serialization assembly for types in the specified assembly. This 
 |-----------------------------| - |
 | `BuildAssemblyName` | Required `String` parameter.<br /><br /> The assembly to generate serialization code for. |
 | `BuildAssemblyPath` | Required `String` parameter.<br /><br /> The path to the assembly to generate serialization code for. |
-| `DelaySign` | Optional `Boolean` parameter.<br /><br /> If `true`, specifies that you want a fully signed assembly. If `false`, specifies that you only want to place the public key in the assembly.<br /><br /> This parameter has no effect unless used with either the `KeyFile` or `KeyContainer` parameter. |
+| `DelaySign` | Optional `Boolean` parameter.<br /><br /> If `true`, specifies that you only want to place the public key in the assembly. If `false`, specifies that you want a fully signed assembly.<br /><br /> This parameter has no effect unless used with either the `KeyFile` or `KeyContainer` parameter. |
 | `KeyContainer` | Optional `String` parameter.<br /><br /> Specifies a container that holds a key pair. This will sign the assembly by inserting a public key into the assembly manifest. The task will then sign the final assembly with the private key. |
 | `KeyFile` | Optional `String` parameter.<br /><br /> Specifies a key pair or a public key to use to sign an assembly. The compiler inserts the public key in the assembly manifest and then signs the final assembly with the private key. |
 | `Platform` | Optional `String` parameter.<br /><br /> Gets or Sets the Compiler Platform used to generate the output assembly. This parameter can have a value of `x86`, `x64`, or `anycpu`. Default is `anycpu`. |

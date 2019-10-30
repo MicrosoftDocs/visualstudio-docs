@@ -51,6 +51,6 @@ HRESULT Next(
 ## Remarks  
  This method retrieves a specified number of segments in the enumeration sequence.  
   
-## See Also  
+## See also  
  [IEnumDebugStackFrames Interface](../../winscript/reference/ienumdebugstackframes-interface.md)   
  [DebugStackFrameDescriptor Structure](../../winscript/reference/debugstackframedescriptor-structure.md)

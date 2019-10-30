@@ -5,8 +5,8 @@ ms.date: "10/23/2017"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 ms.assetid: 65f4868b-b864-4989-a275-1e51869ef599
-author: "corob"
-ms.author: "mblome"
+author: "corob-msft"
+ms.author: "corob"
 manager: jillfra
 f1_keywords:
   - VC.Project.VCConfiguration.OutputDirectory

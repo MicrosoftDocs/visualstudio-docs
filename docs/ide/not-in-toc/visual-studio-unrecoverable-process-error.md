@@ -5,8 +5,8 @@ ms.topic: troubleshooting
 helpviewer_keywords:
   - "unrecoverable error"
   - "error, process"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

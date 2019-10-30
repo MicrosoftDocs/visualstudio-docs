@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "graphs, analyzing load tests"
   - "load tests, zooming with graphs"
 ms.assetid: 729b4c30-4bc3-4698-91b3-17a676897443
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Zoom in on a region of the graph in load test results

@@ -37,5 +37,5 @@ enum JS_PROPERTY_MEMBERS{   JS_PROPERTY_MEMBERS_ALL = 0,   JS_PROPERTY_MEMBERS_A
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [Windows Script Interfaces Reference](../../winscript/reference/windows-script-interfaces-reference.md)
