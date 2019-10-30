@@ -15,7 +15,7 @@ ms.workload:
   - "vssdk"
 ---
 # VSTextView object
-The text view is a window that lets users view and edit the Unicode text of the text buffer. Essentially, the view is what most users refer to as the editor. Because the view is separated from the buffer by various text layers (word wrap, outlining text, and so on), the view is not guaranteed to be an exact representation of the text in the buffer. For more information about the text view, see [Accessing theText view by using the legacy API](../extensibility/accessing-thetext-view-by-using-the-legacy-api.md).
+The text view is a window that lets users view and edit the Unicode text of the text buffer. Essentially, the view is what most users refer to as the editor. Because the view is separated from the buffer by various text layers (word wrap, outlining text, and so on), the view is not guaranteed to be an exact representation of the text in the buffer. For more information about the text view, see [Accessing theText view by using the legacy API](/visualstudio/extensibility/accessing-thetext-view-by-using-the-legacy-api?view=vs-2015).
 
  The following table shows the interfaces in the <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView> object.
 
@@ -34,4 +34,4 @@ The text view is a window that lets users view and edit the Unicode text of the 
 ## See also
 - [Figures edit](https://www.microsoft.com/download/details.aspx?id=55984)
 - [VSTextBuffer object](../extensibility/vstextbuffer-object.md)
-- [Accessing theText view by using the legacy API](../extensibility/accessing-thetext-view-by-using-the-legacy-api.md)
+- [Accessing theText view by using the legacy API](/visualstudio/extensibility/accessing-thetext-view-by-using-the-legacy-api?view=vs-2015)

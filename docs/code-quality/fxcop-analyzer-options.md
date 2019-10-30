@@ -32,7 +32,7 @@ These configuration options are available starting in version 2.6.3 of the [Micr
 
 | Description | Allowable values | Default value | Configurable rules |
 | - | - | - | - |
-| Whether to ignore asynchronous methods that don't return a value | `true`<br/>`false` | `false` | [CA2007](ca2007-do-not-directly-await-task.md) |
+| Whether to ignore asynchronous methods that don't return a value | `true`<br/>`false` | `false` | [CA2007](/visualstudio/code-quality/ca2007) |
 
 > [!NOTE]
 > In version 2.6.3 and earlier of the analyzer package, this option was named `skip_async_void_methods`.
@@ -50,4 +50,4 @@ These configuration options are available starting in version 2.6.3 of the [Micr
 
 | Description | Allowable values | Default value | Configurable rules |
 | - | - | - | - |
-| Specifies that code in a project that generates this type of assembly should be analyzed | One or more fields of the <xref:Microsoft.CodeAnalysis.OutputKind> enumeration<br/><br/>Separate multiple values with a comma (,) | All output kinds | [CA2007](ca2007-do-not-directly-await-task.md) |
+| Specifies that code in a project that generates this type of assembly should be analyzed | One or more fields of the <xref:Microsoft.CodeAnalysis.OutputKind> enumeration<br/><br/>Separate multiple values with a comma (,) | All output kinds | [CA2007](/visualstudio/code-quality/ca2007) |

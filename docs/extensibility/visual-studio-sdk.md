@@ -87,5 +87,5 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
 - [Ship Visual Studio extensions](../extensibility/shipping-visual-studio-extensions.md)
 - [Inside the Visual Studio SDK](../extensibility/internals/inside-the-visual-studio-sdk.md)
 - [Support for the Visual Studio SDK](../extensibility/support-for-the-visual-studio-sdk.md)
-- [Archive](../extensibility/archive.md)
+- [Archive](/visualstudio/extensibility/archive?view=vs-2015)
 - [Visual Studio SDK reference](../extensibility/visual-studio-sdk-reference.md)

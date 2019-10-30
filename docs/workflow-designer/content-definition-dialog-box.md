@@ -30,4 +30,4 @@ The content can be specified within the **Message** section for a <xref:System.S
 
 ## See also
 
-- [Workflow Designer UI Help](../workflow-designer/workflow-designer-ui-help.md)
+- [Workflow Designer UI Help](/visualstudio/workflow-designer/browse-and-select-a-dotnet-type-dialog-box)

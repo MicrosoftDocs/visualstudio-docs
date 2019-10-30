@@ -180,7 +180,7 @@ Nobody gets code right the first time, and one of the things you might have to c
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Learn about projects and solutions](tutorial-projects-solutions.md)
+> [Learn about projects and solutions](/visualstudio/get-started/tutorial-projects-solutions)
 
 ## See also
 

@@ -34,4 +34,4 @@ The following table lists shortcuts that you can use to modify a path while you 
 
 - [Artboard modifier keys](../designers/artboard-modifier-keys-in-blend.md)
 - [Direct Selection tool modifier keys](../designers/direct-selection-tool-modifier-keys-in-blend.md)
-- [Draw shapes and paths](../designers/draw-shapes-and-paths.md)
+- [Draw shapes and paths](/visualstudio/xaml-tools/draw-shapes-and-paths)

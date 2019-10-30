@@ -161,5 +161,5 @@ You must modify the *assemblyinfo.cs* file and the project file to incorporate t
 
 ## See also
 - [Extend menus and commands](../extensibility/extending-menus-and-commands.md)
-- [MenuCommands vs. OleMenuCommands](../extensibility/menucommands-vs-olemenucommands.md)
+- [MenuCommands vs. OleMenuCommands](/visualstudio/extensibility/menucommands-vs-olemenucommands?view=vs-2015)
 - [Globalize and Localize applications](../ide/globalizing-and-localizing-applications.md)

@@ -32,6 +32,6 @@ ms.workload:
 
 ## See also
 - [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
-- [How to: Target a version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md)
+- [How to: Target a version of the .NET Framework](/visualstudio/ide/visual-studio-multi-targeting-overview)
 - [Troubleshoot errors in Office solutions](../vsto/troubleshooting-errors-in-office-solutions.md)
 - [Additional support for errors in Office solutions](../vsto/additional-support-for-errors-in-office-solutions.md)

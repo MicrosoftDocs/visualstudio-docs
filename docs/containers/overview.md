@@ -145,4 +145,4 @@ For further details on the services implementation and use of Visual Studio tool
 
 [Debugging apps in a local Docker container](vs-azure-tools-docker-edit-and-refresh.md)
 
-[Deploy an ASP.NET container to a container registry using Visual Studio](vs-azure-tools-docker-hosting-web-apps-in-docker.md)
+[Deploy an ASP.NET container to a container registry using Visual Studio](/visualstudio/containers/hosting-web-apps-in-docker)

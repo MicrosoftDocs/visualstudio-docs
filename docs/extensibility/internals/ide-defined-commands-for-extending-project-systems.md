@@ -65,5 +65,5 @@ When you want to extend project systems, you can use commands and command groups
 
 ## See also
 - [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
-- [MenuCommands Vs. OleMenuCommands](../../extensibility/menucommands-vs-olemenucommands.md)
+- [MenuCommands Vs. OleMenuCommands](/visualstudio/extensibility/menucommands-vs-olemenucommands?view=vs-2015)
 - [Creating Reusable Groups of Buttons](../../extensibility/creating-reusable-groups-of-buttons.md)

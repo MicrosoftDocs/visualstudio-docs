@@ -35,7 +35,7 @@ For other types of activity designers, see the following topics:
 
 - [Control Flow](../workflow-designer/control-flow-activity-designers.md)
 
-- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+- [Using the Activity Designers](/visualstudio/workflow-designer/control-flow-activity-designers)
 
 - [Flowchart](../workflow-designer/flowchart-activity-designers.md)
 
@@ -51,4 +51,4 @@ For other types of activity designers, see the following topics:
 
 ## External resources
 
-[Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+[Using the Activity Designers](/visualstudio/workflow-designer/control-flow-activity-designers)

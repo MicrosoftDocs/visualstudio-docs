@@ -35,7 +35,7 @@ Visual Studio*Graphics Diagnostics* is a set of tools for recording and then ana
  [Capturing Graphics Information](capturing-graphics-information.md)
  To use Graphics Diagnostics to examine a rendering problem in your app, you first record information about how the app uses DirectX. During the recording session, as your app runs normally, you *capture* (that is, select) the frames that you're interested in. The captures contain detailed information about how the frames are rendered. You can save the captured information as a graphics log document to examine later or share with other members of your team.
 
- [GPU Usage](gpu-usage.md)
+ [GPU Usage](/visualstudio/profiling/gpu-usage)
  To use Graphics Diagnostics to profile your app, use the GPU Usage tool. GPU usage can be used in concert with other profiling tools, such as CPU Usage, to correlate CPU and GPU activity that might contribute to performance problems in your app.
 
  [Graphics Log Document](graphics-log-document.md)

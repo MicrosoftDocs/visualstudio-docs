@@ -87,7 +87,7 @@ Explains how to implement document data and document views in custom editors.
 
 ## Related sections
 
-[Legacy interfaces in the editor](../extensibility/legacy-interfaces-in-the-editor.md)\
+[Legacy interfaces in the editor](/visualstudio/extensibility/legacy-interfaces-in-the-editor?view=vs-2015)\
 Explains how to access the core editor by means of the legacy API.
 
 [Develop a legacy language service](../extensibility/internals/developing-a-legacy-language-service.md)\

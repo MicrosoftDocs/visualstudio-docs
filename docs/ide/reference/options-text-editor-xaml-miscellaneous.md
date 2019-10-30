@@ -46,7 +46,7 @@ Use this setting to control when tags and quotes are automatically generated.
 
 ## Errors and Warnings
 
-Use this setting to control when errors and warnings are automatically generated. For more information, see [XAML errors and warnings](../../designers/xaml-errors-warnings.md).
+Use this setting to control when errors and warnings are automatically generated. For more information, see [XAML errors and warnings](/visualstudio/xaml-tools/xaml-errors-warnings).
 
 ## See also
 

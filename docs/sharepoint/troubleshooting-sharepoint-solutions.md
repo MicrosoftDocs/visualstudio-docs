@@ -275,4 +275,4 @@ ms.workload:
 
 - [Troubleshoot SharePoint packaging and deployment](../sharepoint/troubleshooting-sharepoint-packaging-and-deployment.md)
 - [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
-- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
+- [Debugging in Visual Studio](/visualstudio/debugger/debugger-feature-tour)

@@ -35,7 +35,7 @@ For more information on using the feature and on feature limitations, see [Edit 
 
 ## Edit XAML code and continue debugging
 
-To modify XAML code during a debugging session, see [Write and debug running XAML code with XAML Hot Reload](xaml-hot-reload.md).
+To modify XAML code during a debugging session, see [Write and debug running XAML code with XAML Hot Reload](/visualstudio/xaml-tools/xaml-hot-reload).
 
 ## Debug issues that are hard to reproduce
 

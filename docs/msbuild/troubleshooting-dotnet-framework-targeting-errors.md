@@ -49,7 +49,7 @@ This topic describes MSBuild errors that might occur because of reference issues
 
 ## See also
 
-- [How to: Target a version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md)
+- [How to: Target a version of the .NET Framework](/visualstudio/ide/visual-studio-multi-targeting-overview)
 - [.NET Framework client profile](/dotnet/framework/deployment/client-profile)
 - [Framework targeting overview](../ide/visual-studio-multi-targeting-overview.md)
 - [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)

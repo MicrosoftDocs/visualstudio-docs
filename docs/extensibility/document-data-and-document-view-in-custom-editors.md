@@ -39,4 +39,4 @@ A custom editor consists of two parts: a document data object and a document vie
 - [Save a standard document](../extensibility/internals/saving-a-standard-document.md)
 - [Persistence and the running document table](../extensibility/internals/persistence-and-the-running-document-table.md)
 - [Determine which editor opens a file in a project](../extensibility/internals/determining-which-editor-opens-a-file-in-a-project.md)
-- [Editor factories](../extensibility/editor-factories.md)
+- [Editor factories](/visualstudio/extensibility/editor-factories?view=vs-2015)

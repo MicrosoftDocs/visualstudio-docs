@@ -110,7 +110,7 @@ ms.workload:
 
 3. Make sure that the target framework is set to the .NET Framework 4.5, not the .NET Framework 4.5 Client Profile.
 
-     For more information, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).
+     For more information, see [How to: Target a Version of the .NET Framework](/visualstudio/ide/visual-studio-multi-targeting-overview).
 
 4. Open the shortcut menu for the **ProjectTemplateWizard** project, choose **Add**, and then choose **New Item**.
 

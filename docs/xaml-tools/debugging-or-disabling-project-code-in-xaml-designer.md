@@ -92,4 +92,4 @@ When you select **Only Display Platform Controls**, all custom controls coming f
 
 ## See also
 
-- [Design XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md)
+- [Design XAML in Visual Studio and Blend for Visual Studio](/visualstudio/xaml-tools/designing-xaml-in-visual-studio)
