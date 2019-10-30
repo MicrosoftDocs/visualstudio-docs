@@ -105,7 +105,7 @@ For more information, see [Application Timeline](../profiling/application-timeli
 
 ## Analyze GPU Usage (Direct3D)
 
-In Direct3D apps (Direct3D components must be in C++), you can examine activity on the GPU and analyze performance issues. For more information, see [GPU Usage](../debugger/gpu-usage.md). To use the tool, choose **GPU Usage** in the Performance Profiler, and then choose **Start**. In your app, go through the scenario that you're interested in profiling, and then choose **Stop collection** to generate a report.
+In Direct3D apps (Direct3D components must be in C++), you can examine activity on the GPU and analyze performance issues. For more information, see [GPU Usage](/visualstudio/debugger/graphics/gpu-usage). To use the tool, choose **GPU Usage** in the Performance Profiler, and then choose **Start**. In your app, go through the scenario that you're interested in profiling, and then choose **Stop collection** to generate a report.
 
 When you select a time period in the graphs and choose **view details**, a detailed view appears in the lower pane. In the detailed view, you can examine how much activity is happening on each CPU and GPU. Select events in the lowest pane to get popups in the timeline. For example, select the **Present** event to view **Present** call popups. (The light gray vertical Vsync lines can be used as a reference to understand whether certain **Present** calls missed Vsync. There must be one **Present** call between every two Vsyncs in order for the app to steadily hit 60 FPS.)
 
@@ -127,6 +127,7 @@ To diagnose UI responsiveness, slow loading time, and slow visual updates in UWP
 ![HTML UI Responsiveness profiling tool](../profiling/media/diaghtmlresp.png "DiagHTMLResp")
 ::: moniker-end
 
+::: moniker range="vs-2017"
 ## Analyze network usage (UWP)
 
 In UWP apps, you can analyze network operations performed using the `Windows.Web.Http` API.This tool may help you to resolve issues like access and authentication problems, incorrect cache-use, and poor display and download performance. To use the tool, choose **Network** in the Performance Profiler, and then choose **Start**. In your app, go through the scenario that uses `Windows.Web.Http`, and then choose **Stop collection** to generate the report.
@@ -138,6 +139,7 @@ Select an operation in the summary view to view more details.
 ![Detailed information in the Network Usage tool](../profiling/media/prof-tour-network-usage-details.png "Diag Network Usage Details")
 
 For more information, see [Network Usage](../profiling/network-usage.md).
+::: moniker-end
 
 ## Analyze performance (legacy tools)
 
@@ -149,11 +151,24 @@ If you need features such as instrumentation that are not currently present in C
 
 Here is a table that lists the different tools Visual Studio offers and the different project types you can use them with:
 
+::: moniker range=">=vs-2019"
 |Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core|
 |----------------------|---------------------|-------------|-------------|
 |[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes|
 |[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|
-|[GPU Usage](../debugger/gpu-usage.md)|yes|yes|no|
+|[GPU Usage](/visualstudio/debugger/graphics/gpu-usage)|yes|yes|no|
+|[Application Timeline](../profiling/application-timeline.md)|yes|yes|no|
+|[PerfTips](../profiling/perftips.md)|yes|yes for XAML, no for HTML|yes|
+|[Performance Explorer](../profiling/performance-explorer.md)|yes|no|yes|
+|[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
+::: moniker-end
+
+::: moniker range="vs-2017"
+|Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core|
+|----------------------|---------------------|-------------|-------------|
+|[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes|
+|[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|
+|[GPU Usage](/visualstudio/debugger/graphics/gpu-usage)|yes|yes|no|
 |[Application Timeline](../profiling/application-timeline.md)|yes|yes|no|
 |[PerfTips](../profiling/perftips.md)|yes|yes for XAML, no for HTML|yes|
 |[Performance Explorer](../profiling/performance-explorer.md)|yes|no|yes|
@@ -161,6 +176,8 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |[Network Usage](../profiling/network-usage.md)|no|yes|no|
 |[HTML UI responsiveness](../profiling/html-ui-responsiveness.md)|no|yes for HTML, no for XAML|no|
 |[JavaScript Memory](../profiling/javascript-memory.md)|no|yes for HTML, no for XAML|no|
+::: moniker-end
+
 
 ## See also
-- [Debugging in Visual Studio](/visualstudio/debugger/debugger-feature-tour)
+- [Debugging in Visual Studio](../debugger/debugger-feature-tour.md)

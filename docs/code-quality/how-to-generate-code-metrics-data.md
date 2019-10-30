@@ -27,7 +27,7 @@ You can generate code metrics data in three ways:
 The [FxCopAnalyzers NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers) includes several code metrics [analyzer](roslyn-analyzers-overview.md) rules:
 
 - [CA1501](ca1501-avoid-excessive-inheritance.md)
-- [CA1502](ca1502-avoid-excessive-complexity.md)
+- [CA1502](ca1502.md)
 - [CA1505](ca1505-avoid-unmaintainable-code.md)
 - [CA1506](ca1506-avoid-excessive-class-coupling.md)
 
@@ -54,7 +54,7 @@ You can configure the thresholds at which the code metrics rules in the FxCop an
    CA1502: 10
    ```
 
-   In this example, rule [CA1502](ca1502-avoid-excessive-complexity.md) is configured to fire when a method's cyclomatic complexity is greater than 10.
+   In this example, rule [CA1502](ca1502.md) is configured to fire when a method's cyclomatic complexity is greater than 10.
 
 3. In the **Properties** window of Visual Studio, or in the project file, mark the build action of the configuration file as [**AdditionalFiles**](../ide/build-actions.md#build-action-values). For example:
 

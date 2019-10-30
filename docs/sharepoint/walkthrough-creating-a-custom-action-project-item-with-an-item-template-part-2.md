@@ -73,7 +73,7 @@ ms.workload:
 
 2. In the **Project Designer**, make sure that the target framework is set to .NET Framework 4.5.
 
-     For Visual C# projects, you can set this value on the **Application** tab. For Visual Basic projects, you can set this value on the **Compile** tab. For more information, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).
+     For Visual C# projects, you can set this value on the **Application** tab. For Visual Basic projects, you can set this value on the **Compile** tab. For more information, see [How to: Target a Version of the .NET Framework](../ide/visual-studio-multi-targeting-overview.md).
 
 3. In the **ItemTemplateWizard** project, add a **Window (WPF)** item to the project, and then name the item **WizardWindow**.
 
@@ -124,7 +124,7 @@ ms.workload:
      [!code-xml[SPExtensibility.ProjectItem.CustomAction#9](../sharepoint/codesnippet/Xaml/customactionprojectitem/itemtemplatewizard/wizardwindow.xaml#9)]
 
     > [!NOTE]
-    > The window that's created in this XAML is derived from the <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> base class. When you add a custom WPF dialog box to Visual Studio, we recommend that you derive your dialog box from this class to have consistent styling with other dialog boxes in Visual Studio and to avoid issues that might otherwise occur with modal dialog boxes. For more information, see [Creating and Managing Modal Dialog Boxes](/visualstudio/extensibility/creating-and-managing-modal-dialog-boxes).
+    > The window that's created in this XAML is derived from the <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> base class. When you add a custom WPF dialog box to Visual Studio, we recommend that you derive your dialog box from this class to have consistent styling with other dialog boxes in Visual Studio and to avoid issues that might otherwise occur with modal dialog boxes. For more information, see [Creating and Managing Modal Dialog Boxes](../extensibility/creating-and-managing-modal-dialog-boxes.md).
 
 3. If you're developing a Visual Basic project, remove the `ItemTemplateWizard` namespace from the `WizardWindow` class name in the `x:Class` attribute of the `Window` element. This element is in the first line of the XAML. When you're done, the first line should resemble the following code:
 
@@ -200,7 +200,7 @@ ms.workload:
     </WizardExtension>
     ```
 
-     For more information about the `WizardExtension` element, see [WizardExtension Element &#40;Visual Studio Templates&#41;](/visualstudio/extensibility/wizardextension-element-visual-studio-templates).
+     For more information about the `WizardExtension` element, see [WizardExtension Element &#40;Visual Studio Templates&#41;](../extensibility/wizardextension-element-visual-studio-templates.md).
 
 3. Save and close the file.
 
@@ -339,6 +339,6 @@ ms.workload:
 - [Walkthrough: Create a custom action project item with an item template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md)
 - [Define custom SharePoint project item types](../sharepoint/defining-custom-sharepoint-project-item-types.md)
 - [Create item templates and project templates for SharePoint project items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md)
-- [Visual Studio Template Schema Reference](/visualstudio/extensibility/visual-studio-template-schema-reference)
+- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
 - [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md)
 - [Default Custom Action Locations and IDs](/previous-versions/office/developer/sharepoint-2010/bb802730(v=office.14))

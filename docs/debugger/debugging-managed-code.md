@@ -70,7 +70,7 @@ Provides considerations for debugging Windows service applications, including se
 [Debugging and Profiling](/dotnet/framework/debug-trace-profile/index)\
 Discusses debugging .NET applications and the configuration requirements.
 
-[Debugging Script and Web Applications](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)\
+[Debugging Script and Web Applications](how-to-enable-debugging-for-aspnet-applications.md)\
 Describes common debugging problems and techniques you may encounter when debugging script and Web applications.
 
 ## See also

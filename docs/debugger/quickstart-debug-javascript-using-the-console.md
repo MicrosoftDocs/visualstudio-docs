@@ -38,7 +38,7 @@ The JavaScript Console window allows you to:
 > [!TIP]
 > If the JavaScript Console window is closed, choose **Debug**> **Windows** > **JavaScript Console** to re-open it. The window appears only during a script debugging session.
 
-Using the JavaScript Console window, you can interact with your app without stopping and restarting the debugger. For more info, see [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md). For info on other JavaScript debugging features, such as using the DOM Explorer and setting breakpoints, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md) and [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps).
+Using the JavaScript Console window, you can interact with your app without stopping and restarting the debugger. For more info, see [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md). For info on other JavaScript debugging features, such as using the DOM Explorer and setting breakpoints, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md) and [Debug apps in Visual Studio](debugging-windows-store-and-windows-universal-apps.md).
 
 ## <a name="InteractiveConsole"></a> Debug by using the JavaScript Console window
 The following steps create a `FlipView` app and show how to interactively debug a JavaScript coding error.
@@ -244,7 +244,7 @@ The following illustration shows the Target list in the JavaScript Console windo
 You can also switch the execution context by using the `cd` command, but you must know the name of the other execution context and the reference you use must be in scope. The **Target** list provides better access to other execution contexts.
 
 ## See also
-- [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
+- [Debug apps in Visual Studio](debugging-windows-store-and-windows-universal-apps.md)
 - [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017)
 - [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)
 - [Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md?view=vs-2017)

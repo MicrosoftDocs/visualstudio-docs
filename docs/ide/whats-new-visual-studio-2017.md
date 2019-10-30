@@ -380,7 +380,7 @@ Sometimes, a message isn't enough to convey the full impact of a problem that yo
 ## See also
 
 * [Visual Studio 2017 release notes](/visualstudio/releasenotes/vs2017-relnotes)
-* [What's New in the Visual Studio 2017 SDK](/visualstudio/extensibility/what-s-new-in-the-visual-studio-2017-sdk)
+* [What's New in the Visual Studio 2017 SDK](../extensibility/what-s-new-in-the-visual-studio-2017-sdk.md)
 * [What's new in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
 * [What's new in C#](/dotnet/csharp/whats-new)
 * [What's new for Team Foundation Server](/tfs/server/whats-new?view=vsts)

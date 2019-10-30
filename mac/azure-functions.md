@@ -16,7 +16,7 @@ Azure functions is a way to create and run event-driven snippets of code –– 
 
 Azure Function tools are included in **Visual Studio for Mac 7.5** and newer.
 
-To create and deploy functions you also need an Azure subscription, which is available for free from [https://azure.com/free](https://azure.com/free).
+To create and deploy functions you also need an Azure subscription. If you don't have an Azure account, you can sign up today for free and receive 12 months of free popular services, $200 free credit and 25+ always free services -> [https://azure.com/free](https://azure.com/free/dotnet).
 
 ## Creating your first Azure Functions project
 
