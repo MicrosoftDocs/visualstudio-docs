@@ -72,9 +72,9 @@ You can also use special keywords to display more specific information. Enter th
 | $CALLER | Calling function name |
 | $CALLSTACK | Call stack |
 | $FUNCTION | Current function name |
-| $PID | Process id |
+| $PID | Process ID |
 | $PNAME | Process name |
-| $TID | Thread id |
+| $TID | Thread ID |
 | $TNAME   | Thread name |
 | $TICK | Tick count (from Windows GetTickCount) |
 
@@ -108,7 +108,7 @@ For hit count, you can choose to output a message when the line of code where th
 ![Conditional Expression Hit Count](../debugger/media/conditionalexpressionhitcount.png "Conditional Expression Hit Count")
 
 ### Filter
-For a filter condition, specify which devices, processes or threads output is shown for.
+For a filter condition, specify which devices, processes, or threads output is shown for.
 
 ![Conditional Expression Filter](../debugger/media/conditionalexpressionfilter.png "Conditional Expression Filter")
 
@@ -126,7 +126,7 @@ Enclose strings (such as names) in double quotes. Values can be entered without 
 
 While tracepoints are intended to make debugging a cleaner and smoother experience, there are some considerations you should be aware of when it comes to using them.
 
-Sometimes when you inspect a property or attribute of an object, its value can change. This is not a bug caused by the tracepoint feature itself, but it is worth mentioning that using tracepoints to inspect objects does not avoid these accidental modifications.
+Sometimes when you inspect a property or attribute of an object, its value can change. If the value changes during inspection, it's not a bug caused by the tracepoint feature itself. However, using tracepoints to inspect objects does not avoid these accidental modifications.
 
 The way that expressions are evaluated in the **Action** message box may be different than the language you are currently using for development. For example, to output a string you do not need to wrap a message in quotes even if you normally would while using `Debug.WriteLine()` or `console.log()`. Also, the curly brace syntax (`{ }`) to output expressions may also be different than the convention for outputting values in your development language. (However, the contents within the curly braces (`{ }`) should still be written using your development language’s syntax).
 
