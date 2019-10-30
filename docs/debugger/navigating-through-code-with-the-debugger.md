@@ -28,7 +28,9 @@ In *break mode*, app execution is suspended while functions, variables, and obje
 
 - [Run to a specific location or function](#BKMK_Break_into_code_by_using_breakpoints_or_Break_All), for example, by [setting a breakpoint](using-breakpoints.md) and starting your app.
 
-![Run to cursor and step into code](../debugger/media/navigate-code-code-stepping.gif "Run to cursor and step into code")
+   For example, from the code editor in Visual Studio, you can use the **Run to Cursor** command to start the app, debugger attached, and get into break mode, then **F11** to navigate code.
+
+   ![Run to cursor and step into code](../debugger/media/navigate-code-code-stepping.gif "Run to cursor and step into code")
 
 Once in break mode, you can use a variety of commands to navigate through your code. While in break mode, you can examine the values of variables to look for violations or bugs. For some project types, you can also make adjustments to the app while in break mode.
 
