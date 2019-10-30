@@ -118,7 +118,7 @@ In most languages supported by Visual Studio, you can edit your code in the midd
 
 For more information on using the feature and on feature limitations, see [Edit and Continue](../debugger/edit-and-continue.md).
 
-To modify XAML code during a debugging session, see [Write and debug running XAML code with XAML Hot Reload](xaml-hot-reload.md).
+To modify XAML code during a debugging session, see [Write and debug running XAML code with XAML Hot Reload](../xaml-tools/xaml-hot-reload.md).
 
 ## Inspect variables with data tips
 

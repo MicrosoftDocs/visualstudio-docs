@@ -109,7 +109,7 @@ After you create a custom editor, you can add more features to it.
 
 12. Implement context-sensitive Help support.
 
-     This step allows you to provide F1 Help and Dynamic Help window support for items in your editor. For more information, see [How to: Provide context for editors](../extensibility/how-to-provide-context-for-editors.md).
+     This step allows you to provide F1 Help and Dynamic Help window support for items in your editor. For more information, see [How to: Provide context for editors](/visualstudio/extensibility/how-to-provide-context-for-editors?view=vs-2015).
 
 13. Expose an Automation Object Model from your editor by implementing the `IDispatch` interface.
 
@@ -147,5 +147,5 @@ After you create a custom editor, you can add more features to it.
   - `Window.Object`
 
 ## See also
+
 - [Contribute to the automation model](../extensibility/internals/contributing-to-the-automation-model.md)
-- [How to: Provide context for editors](../extensibility/how-to-provide-context-for-editors.md)

@@ -55,7 +55,7 @@ You can see lists of server-side and client-side script documents in the **Solut
 
 ## See also
 
-- [Debugging ASP.NET and AJAX Applications](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)
+- [Debugging ASP.NET and AJAX Applications](how-to-enable-debugging-for-aspnet-applications.md)
 - [Limitations on Script Debugging](../debugger/limitations-on-script-debugging.md)
 - [Variable Windows](../debugger/debugger-windows.md)
 - [Immediate Window](../ide/reference/immediate-window.md)

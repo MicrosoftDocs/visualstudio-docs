@@ -41,7 +41,7 @@ Workflow Designer includes a number of system-provided activities that you can u
 
 For other types of activity designers, see the following topics:
 
- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+ [Using the Activity Designers](control-flow-activity-designers.md)
 
  [Flowchart](../workflow-designer/flowchart-activity-designers.md)
 
@@ -59,4 +59,4 @@ For other types of activity designers, see the following topics:
 
 ## External Resources
 
-- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+- [Using the Activity Designers](control-flow-activity-designers.md)
