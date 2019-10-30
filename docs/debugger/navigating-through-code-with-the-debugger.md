@@ -22,7 +22,7 @@ The Visual Studio debugger can help you navigate through code to inspect the sta
 
 ## Get into "break mode"
 
-In *break mode*, app execution is suspended while functions, variables, and objects remain in memory. Once the debugger is in break mode, you can navigate through your code. The typical ways to get into break mode quickly is to either:
+In *break mode*, app execution is suspended while functions, variables, and objects remain in memory. Once the debugger is in break mode, you can navigate through your code. The most common ways to get into break mode quickly is to either:
 
 - Begin code stepping by pressing **F10** or **F11**. This allows you to quickly find the entry point of your app, then you can continue pressing step commands to navigate code.
 
@@ -68,7 +68,7 @@ On a nested function call, **Step Into** steps into the most deeply nested funct
 
 ### <a name="BKMK_Step_over_Step_out"></a> Step through code and skip some functions
 
-You may not care about a function while debugging, or you know it works, like well-tested library code. You can use the following commands to skip through code. The functions still execute, but the debugger skips over them.
+You may not care about a function while debugging, or you know it works, like well-tested library code. You can use the following commands to skip code while code stepping. The functions still execute, but the debugger skips over them.
 
 |Keyboard command|Debug menu command|Description|
 |----------------------|------------------|-----------------|
