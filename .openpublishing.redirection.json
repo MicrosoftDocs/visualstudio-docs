@@ -1472,7 +1472,7 @@
     },
     {
       "source_path": "docs/extensibility/in-place-activation.md",
-      "redirect_url": "/visualstudio/extensibility/in-place-activation?view=vs-2015",
+      "redirect_url": "/visualstudio/misc/in-place-activation?view=vs-2015",
       "redirect_document_id": true
     },
     {
@@ -1507,7 +1507,7 @@
     },
     {
       "source_path": "docs/extensibility/menucommands-vs-olemenucommands.md",
-      "redirect_url": "/visualstudio/extensibility/menucommands-vs-olemenucommands?view=vs-2015",
+      "redirect_url": "/visualstudio/misc/menucommands-vs-olemenucommands?view=vs-2015",
       "redirect_document_id": true
     },
     {
@@ -1537,7 +1537,7 @@
     },
     {
       "source_path": "docs/extensibility/understanding-and-diagnosing-ui-unresponsiveness-caused-by-extensions.md",
-      "redirect_url": "/visualstudio/extensibility/understanding-and-diagnosing-ui-unresponsiveness-caused-by-extensions?view=vs-2015",
+      "redirect_url": "/visualstudio/extensibility/starting-to-develop-visual-studio-extensions?view=vs-2015",
       "redirect_document_id": true
     },
     {
