@@ -212,7 +212,7 @@ ms.workload:
     </VSTemplate>
     ```
 
-     This file defines the contents and behavior of the item template. For more information about the contents of this file, see [Visual Studio Template Schema Reference](/visualstudio/extensibility/visual-studio-template-schema-reference).
+     This file defines the contents and behavior of the item template. For more information about the contents of this file, see [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md).
 
 4. In **Solution Explorer**, open the shortcut menu for the **ItemTemplate** project, choose **Add**, and then choose **New Item**.
 
@@ -449,6 +449,6 @@ ms.workload:
 - [Define custom SharePoint project item types](../sharepoint/defining-custom-sharepoint-project-item-types.md)
 - [Create item templates and project templates for SharePoint project items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md)
 - [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md)
-- [Visual Studio Template Schema Reference](/visualstudio/extensibility/visual-studio-template-schema-reference)
+- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
 - [Image Editor for Icons](/cpp/windows/image-editor-for-icons)
 - [Creating an Icon or Other Image &#40;Image Editor for Icons&#41;](/cpp/windows/creating-an-icon-or-other-image-image-editor-for-icons)

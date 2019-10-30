@@ -82,5 +82,5 @@ You can use Magnifier to overcome these limitations. Magnifier is a display util
 
 - [Develop Office solutions](../vsto/developing-office-solutions.md)
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
-- [Accessibility for people with disabilities](../ide/reference/accessibility-for-people-with-disabilities.md)
+- [Accessibility for people with disabilities](../ide/reference/accessibility-features-of-visual-studio.md)
 - [Accessibility features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md)

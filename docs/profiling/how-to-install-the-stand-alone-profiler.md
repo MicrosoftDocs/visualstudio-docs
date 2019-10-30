@@ -48,6 +48,6 @@ ms.workload:
 ## See also
 - [Profile from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)
 - [Walkthrough: Command-line profiling using sampling](../profiling/walkthrough-command-line-profiling-using-sampling.md)
-- [Walkthrough: Command-line profiling using instrumentation](/visualstudio/profiling/command-line-profiling-of-stand-alone-applications)
+- [Walkthrough: Command-line profiling using instrumentation](command-line-profiling-of-stand-alone-applications.md)
 - [How to: Reference Windows symbol information](../profiling/how-to-reference-windows-symbol-information.md)
 - [VSPerfReport](../profiling/vsperfreport.md)

@@ -40,7 +40,7 @@ Explore Visual Studio further by following along with one of these introductory 
 > [Learn to use the code editor](tutorial-editor.md)
 
 > [!div class="nextstepaction"]
-> [Learn about projects and solutions](tutorial-projects-solutions.md)
+> [Learn about projects and solutions](../tutorial-projects-solutions.md)
 
 ## See also
 

@@ -417,7 +417,7 @@ To do this, a VSPackage must:
 
   **OR**
 
-- **poll the IDE for changes**. This can be done through the system-implemented [IVsFontAndColorStorage](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage) interface. Although primarily for support of persistence, the [GetItem](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage.getitem) method can obtain font and color information for Display Items. For more information on font and color settings, see the MSDN article [Accessing Stored Font and Color Settings](../accessing-stored-font-and-color-settings.md).
+- **poll the IDE for changes**. This can be done through the system-implemented [IVsFontAndColorStorage](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage) interface. Although primarily for support of persistence, the [GetItem](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage.getitem) method can obtain font and color information for Display Items. For more information on font and color settings, see the MSDN article [Accessing Stored Font and Color Settings](/visualstudio/extensibility/accessing-stored-font-and-color-settings?view=vs-2015).
 
 > [!NOTE]
 > To ensure that polling results are correct, use the [IVsFontAndColorCacheManager](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolorcachemanager) interface to determine if a cache flush and update are needed prior to calling the retrieval methods of the [IVsFontAndColorStorage](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage) interface.

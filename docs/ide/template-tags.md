@@ -34,9 +34,9 @@ You can add tags by updating the *.vstemplate* XML file. You can either use temp
 
 You might want to add or edit tags in your project template's *.vstemplate* XML when you take one of the following actions:
 
-* [Create a new project template](/visualstudio/ide/how-to-create-project-templates) by using the Export Template wizard.
-* [Update your existing project template](/visualstudio/ide/how-to-update-existing-templates).
-* [Create a new VSIX project template](/visualstudio/extensibility/getting-started-with-the-vsix-project-template).
+* [Create a new project template](how-to-create-project-templates.md) by using the Export Template wizard.
+* [Update your existing project template](how-to-update-existing-templates.md).
+* [Create a new VSIX project template](../extensibility/getting-started-with-the-vsix-project-template.md).
 
 ## Syntax
 
@@ -141,7 +141,7 @@ The following example shows the metadata for a project template for a Visual C# 
 
 ## See also
 
-- [Visual Studio template schema reference](/visualstudio/extensibility/visual-studio-template-schema-reference)
-- [Create project and item templates](/visualstudio/ide/creating-project-and-item-templates)
-- [Customize project and item templates](/visualstudio/ide/customizing-project-and-item-templates)
-- [Get started with the VSIX project template](/visualstudio/extensibility/getting-started-with-the-vsix-project-template)
+- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+- [Create project and item templates](creating-project-and-item-templates.md)
+- [Customize project and item templates](customizing-project-and-item-templates.md)
+- [Get started with the VSIX project template](../extensibility/getting-started-with-the-vsix-project-template.md)
