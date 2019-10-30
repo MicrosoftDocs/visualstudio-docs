@@ -87,4 +87,4 @@ Set up continuous integration and delivery (CI/CD) with [Azure Pipelines](/azure
 
 ## See also
 
-[Deploy to Azure Container Registry](/visualstudio/containers/hosting-web-apps-in-docker)
+[Deploy to Azure Container Registry](hosting-web-apps-in-docker.md)

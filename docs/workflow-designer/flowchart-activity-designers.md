@@ -27,7 +27,7 @@ Workflow Designer includes a number of system-provided activities that you can u
 
  [Control Flow](../workflow-designer/control-flow-activity-designers.md)
 
- [Using the Activity Designers](/visualstudio/workflow-designer/control-flow-activity-designers)
+ [Using the Activity Designers](control-flow-activity-designers.md)
 
  [Messaging](../workflow-designer/messaging-activity-designers.md)
 

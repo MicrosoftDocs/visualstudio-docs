@@ -93,7 +93,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
 - [View a snapshot diff](#view-a-snapshot-diff). Shows differential values between snapshots. These views show differences in object size and object counts.
 
 ## Isolate a memory leak
- These steps provide a workflow that might help you use the JavaScript memory analyzer more effectively. These steps can be useful if you suspect that your app has a memory leak. For a tutorial that leads you through the process of identifying a memory leak in a working app, see [Walkthrough: Find a memory leak (JavaScript)](/visualstudio/profiling/javascript-memory).
+ These steps provide a workflow that might help you use the JavaScript memory analyzer more effectively. These steps can be useful if you suspect that your app has a memory leak. For a tutorial that leads you through the process of identifying a memory leak in a working app, see [Walkthrough: Find a memory leak (JavaScript)](javascript-memory.md).
 
 1. Open your app in Visual Studio.
 
@@ -353,7 +353,7 @@ if (performance && performance.mark) {
 
   - Some objects might provide a `dispose` method and recommendations for use. For example, you should call `dispose` on a [WinJS.Binding.List](/previous-versions/windows/apps/hh700774\(v\=win.10\)) if you call the list's `createFiltered` method and then navigate away from a page.
 
-  - You might need to remove one or more event listeners. For more info, see [View DOM event listeners](/visualstudio/debugger/quickstart-debug-html-and-css).
+  - You might need to remove one or more event listeners. For more info, see [View DOM event listeners](../debugger/quickstart-debug-html-and-css.md).
 
 - Watch the latter part of [this video](https://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the JavaScript memory analyzer.
 

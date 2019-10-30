@@ -23,7 +23,7 @@ For other types of activity designers, see the following topics:
 
 - [Flowchart](../workflow-designer/flowchart-activity-designers.md)
 
-- [Using the Activity Designers](/visualstudio/workflow-designer/control-flow-activity-designers)
+- [Using the Activity Designers](control-flow-activity-designers.md)
 
 - [Messaging](../workflow-designer/messaging-activity-designers.md)
 

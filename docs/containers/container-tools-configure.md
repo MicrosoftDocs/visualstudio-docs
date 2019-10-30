@@ -65,4 +65,4 @@ The following table describes **Single Project** and **Docker Compose** settings
 
 ## Next steps
 
-Read more about working with containers in Visual Studio in this [overview](/visualstudio/containers/overview).
+Read more about working with containers in Visual Studio in this [overview](overview.md).

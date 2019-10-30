@@ -30,4 +30,4 @@ Primitives activity designers are used to create and configure various activitie
 
 ## See also
 
-- [Using the Activity Designers](/visualstudio/workflow-designer/control-flow-activity-designers)
+- [Using the Activity Designers](control-flow-activity-designers.md)

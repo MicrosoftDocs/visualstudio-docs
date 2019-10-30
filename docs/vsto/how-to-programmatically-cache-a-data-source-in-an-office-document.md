@@ -54,4 +54,4 @@ ms.workload:
 - [How to: Cache data for use offline or on a server](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md)
 - [How to: Cache data in a password-protected document](../vsto/how-to-cache-data-in-a-password-protected-document.md)
 - [Access data in documents on the server](../vsto/accessing-data-in-documents-on-the-server.md)
-- [Save data](/visualstudio/data-tools/save-data-back-to-the-database)
+- [Save data](../data-tools/save-data-back-to-the-database.md)

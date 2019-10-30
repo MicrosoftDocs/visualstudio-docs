@@ -29,4 +29,4 @@ Runtime activity designers are used to persist and terminate workflow activities
 
 ## See also
 
-- [Using the Activity Designers](/visualstudio/workflow-designer/control-flow-activity-designers)
+- [Using the Activity Designers](control-flow-activity-designers.md)

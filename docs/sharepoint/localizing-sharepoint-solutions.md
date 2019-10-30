@@ -36,7 +36,7 @@ ms.workload:
 |Language-neutral|A resource file that contains strings localized for a language, but not a specific culture. For example, "fr" for French.|
 |Language-specific|A resource file that contains strings localized for a language and a culture. For example, "fr-CA" for French Canadian.|
 
- For more information, see [Hierarchical Organization of Resources for Localization](/visualstudio/ide/globalizing-and-localizing-applications).
+ For more information, see [Hierarchical Organization of Resources for Localization](../ide/globalizing-and-localizing-applications.md).
 
  To specify default resource files in SharePoint projects that you develop in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], choose **Invariant Language (Invariant Country)** in the culture list of the **Add Resource** dialog box when you add a resource file.
 

@@ -69,4 +69,4 @@ When selecting a service contract type, the type browser only shows types that h
 
 ## See also
 
-- [Using the Activity Designers](/visualstudio/workflow-designer/control-flow-activity-designers)
+- [Using the Activity Designers](control-flow-activity-designers.md)

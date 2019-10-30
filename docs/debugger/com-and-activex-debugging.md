@@ -44,4 +44,4 @@ This section provides tips on debugging COM applications and ActiveX controls.
 - [Debugger Security](../debugger/debugger-security.md)
 - [Introduction to COM](/cpp/atl/introduction-to-com)
 - [ActiveX Controls](/cpp/mfc/activex-controls)
-- [SDI Server Applications](/visualstudio/debugger/com-server-and-container-debugging)
+- [SDI Server Applications](com-server-and-container-debugging.md)

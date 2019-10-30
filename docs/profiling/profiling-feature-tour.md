@@ -180,4 +180,4 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 
 
 ## See also
-- [Debugging in Visual Studio](/visualstudio/debugger/debugger-feature-tour)
+- [Debugging in Visual Studio](../debugger/debugger-feature-tour.md)

@@ -44,7 +44,7 @@ ms.workload:
 
  Lists topics that illustrate how to work with data in Visual Studio.
 
-- [Save data](/visualstudio/data-tools/save-data-back-to-the-database)
+- [Save data](../data-tools/save-data-back-to-the-database.md)
 
  Provides links to topics about working with datasets, including modifying data in a dataset and writing changes back to the data source.
 

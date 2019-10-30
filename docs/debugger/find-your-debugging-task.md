@@ -95,7 +95,7 @@ To configure debugger options and debugger project settings, see [Debugger setti
 
 ### Edit code during a debugging session
 
-Use [Edit and continue](edit-and-continue.md). For XAML, use [XAML Hot Reload](/visualstudio/xaml-tools/xaml-hot-reload).
+Use [Edit and continue](edit-and-continue.md). For XAML, use [XAML Hot Reload](../xaml-tools/xaml-hot-reload.md).
 
 ### Send messages to the Output window without modifying code
 

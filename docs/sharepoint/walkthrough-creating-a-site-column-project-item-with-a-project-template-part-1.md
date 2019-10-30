@@ -427,7 +427,7 @@ ms.workload:
 
    - Uses the namespace "<http://schemas.microsoft.com/developer/vstemplate/2005>". Other project files in this solution use the "<http://schemas.microsoft.com/developer/msbuild/2003>" namespace. Therefore, XML schema warning messages will be generated, but you can disregard them in this walkthrough.
 
-     For more information about the contents of *.vstemplate* files, see [Visual Studio Template Schema Reference](/visualstudio/extensibility/visual-studio-template-schema-reference).
+     For more information about the contents of *.vstemplate* files, see [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md).
 
 2. Save and close the file.
 
