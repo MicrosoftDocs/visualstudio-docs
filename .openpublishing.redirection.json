@@ -1507,7 +1507,7 @@
     },
     {
       "source_path": "docs/extensibility/menucommands-vs-olemenucommands.md",
-      "redirect_url": "/visualstudio/extensibility/menucommands-vs-olemenucommands?view=vs-2015",
+      "redirect_url": "/visualstudio/misc/menucommands-vs-olemenucommands?view=vs-2015",
       "redirect_document_id": true
     },
     {

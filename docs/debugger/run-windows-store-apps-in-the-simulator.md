@@ -137,7 +137,9 @@ For more information about managing network connections, see:
 
 [Network information sample](https://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)
 
+::: moniker range="vs-2017"
 [Analyze energy use](../profiling/analyze-energy-use-in-store-apps.md)
+::: moniker-end
 
 [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity)
 
@@ -153,4 +155,4 @@ You can shut down the simulator by pressing **CTRL + ALT + F4**.
 
 ## See also
 
-- [Run apps from Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
+- [Run apps from Visual Studio](debugging-windows-store-and-windows-universal-apps.md)

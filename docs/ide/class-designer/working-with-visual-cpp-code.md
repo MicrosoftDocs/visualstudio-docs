@@ -40,7 +40,7 @@ ms.workload:
 - Typedef
 
 > [!NOTE]
-> This is not the same as the UML class diagram, which you can create in a Modeling Project. For more information, see [UML Class Diagrams: Reference](../../modeling/create-uml-modeling-projects-and-diagrams.md).
+> This is not the same as the UML class diagram, which you can create in a Modeling Project. For more information, see [UML Class Diagrams: Reference](../../modeling/what-s-new-for-design-in-visual-studio.md).
 
 ## Troubleshoot type resolution and display issues
 

@@ -153,3 +153,4 @@ The following example installs Visual Studio Enterprise with six common workload
 ## See also
 
 * [Visual Studio workload and component IDs](workload-and-component-ids.md)
+* [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
