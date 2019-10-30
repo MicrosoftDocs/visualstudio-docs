@@ -68,7 +68,3 @@ Visual Studio uses a coloring service to identify elements of the language and d
 - [Custom Colorable Items](../../extensibility/internals/custom-colorable-items.md)
 
  Discusses how to implement custom colorable items.
-
-## See also
-
-- [Using Fonts and Colors](/visualstudio/extensibility/using-fonts-and-colors?view=vs-2015)
