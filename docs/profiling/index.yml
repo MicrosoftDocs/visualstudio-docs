@@ -62,7 +62,6 @@ landingContent:
             url: network-usage.md
           - text: Analyze energy usage (UWP)
             url: analyze-energy-use-in-store-apps.md
- ::: moniker range="vs-2017"          
           - text: Performance Explorer (legacy)
             url: performance-explorer.md
  ::: moniker-end
