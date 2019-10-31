@@ -62,5 +62,4 @@ landingContent:
             url: network-usage.md
           - text: Analyze energy usage (UWP)
             url: analyze-energy-use-in-store-apps.md
-          - text: Performance Explorer (legacy)
-            url: performance-explorer.md
+          
