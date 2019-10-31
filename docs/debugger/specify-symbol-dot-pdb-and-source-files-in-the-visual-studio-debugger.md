@@ -57,10 +57,10 @@ The debugger only loads *.pdb* files that exactly match the *.pdb* files created
 
 ## Symbol file locations and loading behavior
 
+When you debug a project in the Visual Studio IDE, the debugger automatically loads symbol files that are located in the project folder.
+
 > [!NOTE]
 > When debugging managed code on a remote device, all symbol files must be located either on the local machine, or in a location [specified in the debugger options](#BKMK_Specify_symbol_locations_and_loading_behavior).
-
-When you debug a project in the Visual Studio IDE, the debugger automatically loads symbol files that are located in the project folder.
 
 The debugger also searches for symbol files in the following locations:
 
