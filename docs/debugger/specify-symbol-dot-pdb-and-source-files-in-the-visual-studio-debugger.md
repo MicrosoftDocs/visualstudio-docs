@@ -1,7 +1,7 @@
 ---
 title: "Set symbol (.pdb) and source files in the debugger"
-ms.custom: "seodec18"
-ms.date: "10/08/2018"
+ms.custom: ""
+ms.date: "10/31/2019"
 ms.topic: "conceptual"
 f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.Native"
@@ -92,14 +92,14 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
 
 1. In Visual Studio, open **Tools** > **Options** > **Debugging** > **Symbols** (or **Debug** > **Options** > **Symbols**).
 
-   ![Tools &#45; Options &#45; Debugging &#45; Symbols page](media/dbg-options-symbols.png "Tools &#45; Options &#45; Debugging &#45; Symbols page")
-
 2. Under **Symbol file (.pdb) locations**,
-   - To use the **Microsoft Symbol Servers**, select the checkbox.
+   - To use the **Microsoft Symbol Servers** or **NuGet.org Symbol Server**, select the checkbox.
 
    - To add a new symbol server location,
      1. Select the **+** symbol in the toolbar.
-     1. Type the URL or folder path of the symbol server or symbol location in the text field. Statement completion helps you find the correct format.
+     1. Type the URL (http), network share, or local path of the symbol server or symbol location in the text field. Statement completion helps you find the correct format.
+
+     ![Tools &#45; Options &#45; Debugging &#45; Symbols page](media/dbg-options-symbols.gif "Tools &#45; Options &#45; Debugging &#45; Symbols page")
 
      >[!NOTE]
      >Only the specified folder is searched. You must add entries for any subfolders that you want to search.
