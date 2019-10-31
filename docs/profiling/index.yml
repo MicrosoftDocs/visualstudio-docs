@@ -10,7 +10,8 @@ metadata:
   author: mikejo5000
   ms.author: mikejo
   manager: jillfra
-  ms.date: 09/17/2019
+  monikerRange: '>= vs-2017'
+  ms.date: 10/30/2019
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -62,5 +63,7 @@ landingContent:
             url: network-usage.md
           - text: Analyze energy usage (UWP)
             url: analyze-energy-use-in-store-apps.md
+ ::: moniker range="vs-2017"          
           - text: Performance Explorer (legacy)
             url: performance-explorer.md
+ ::: moniker-end
