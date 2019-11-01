@@ -19,7 +19,7 @@ Learn how Visual Studio makes developers more productive than ever. Take advanta
 
 ::: moniker range="vs-2017"
 
-**New in Visual Studio 2017 version 15.8**
+**New in Visual Studio 2020 version 15.8**
 
 ::: moniker-end
 
