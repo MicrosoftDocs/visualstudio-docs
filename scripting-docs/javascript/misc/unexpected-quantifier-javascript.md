@@ -39,8 +39,8 @@ When composing your regular expression search pattern, you created a pattern ele
   
 ### To correct this error  
   
--   Ensure your search pattern element contains legal repetition factors only.  
+- Ensure your search pattern element contains legal repetition factors only.  
   
-## See Also  
+## See also  
  [Regular Expression Object](../../javascript/reference/regular-expression-object-javascript.md)   
  [Regular Expression Syntax (JavaScript)](https://msdn.microsoft.com/library/1400241x)

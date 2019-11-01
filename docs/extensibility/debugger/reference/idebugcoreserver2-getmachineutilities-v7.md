@@ -7,17 +7,20 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCoreServer2::GetMachineUtilities_V7"
 ms.assetid: 64c1f08f-853b-4498-9810-29791581ef2f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCoreServer2::GetMachineUtilities_V7
 This method gets the machine utilities for a server.
 
 > [!NOTE]
->  This method is obsolete: do not use ([!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] always returns `E_NOTIMPL` if this method is called). It is retained for historical reasons.
+> This method is obsolete: do not use ([!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] always returns `E_NOTIMPL` if this method is called). It is retained for historical reasons.
 
 ## Syntax
 
@@ -33,10 +36,9 @@ int GetMachineUtilities_V7(
 );
 ```
 
-#### Parameters
- `ppUtil`
-
- [out] Returns an `IDebugMDMUtil2_V7` interface that represents the machine utilities information.
+## Parameters
+`ppUtil`\
+[out] Returns an `IDebugMDMUtil2_V7` interface that represents the machine utilities information.
 
 ## Return Value
  Always returns `E_NOTIMPL`, indicating that the method is not implemented.
@@ -44,5 +46,5 @@ int GetMachineUtilities_V7(
 ## Remarks
  [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] always returns `E_NOTIMPL` if this method is called.
 
-## See Also
+## See also
 - [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)

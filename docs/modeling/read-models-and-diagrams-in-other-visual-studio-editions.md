@@ -5,8 +5,8 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
   - "models, versions of Visual Studio"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -28,16 +28,16 @@ For this reason, if you want to read a dependency diagram, you must also have ac
 
 To read a dependency diagram, the minimum set of files that you need is as follows:
 
--   The two diagram files for the diagram that you want to read, for example, **MyDiagram.classdiagram and MyDiagram.classdiagram.layout**.
+- The two diagram files for the diagram that you want to read, for example, **MyDiagram.classdiagram and MyDiagram.classdiagram.layout**.
 
     > [!NOTE]
     > For dependency diagrams, you should also have the file that is named _MyDiagram_**.layerdiagram.suppressions**.
 
--   The modeling project file (**MyModel.modelproj**)
+- The modeling project file (**MyModel.modelproj**)
 
--   The root model file (**ModelDefinition\MyModel.uml**)
+- The root model file (**ModelDefinition\MyModel.uml**)
 
--   The package files for any package referenced in the diagram (**ModelDefinition\MyPackage.uml**)
+- The package files for any package referenced in the diagram (**ModelDefinition\MyPackage.uml**)
 
 ## Changes that you can Make in Read-Only Mode
 
@@ -49,7 +49,7 @@ If you open a model and its diagrams in a version of Visual Studio that does not
 
 You can save these changes. If you want to make your changes visible to other users, you must at least send the updated **.layout** files.
 
-## See Also
+## See also
 
 - [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)
 - [Create models for your app](../modeling/create-models-for-your-app.md)

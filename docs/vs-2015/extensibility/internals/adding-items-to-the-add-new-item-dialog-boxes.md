@@ -17,7 +17,7 @@ manager: jillfra
 The process for adding items to the **Add New Item** dialog box starts with the registry keys. As shown in the following registry entries, the AddItemTemplates section contains the path of and name of the directory in which items made available in the **Add New Item** dialog box are put.  
   
 > [!NOTE]
->  The table immediately following the code segment contains additional information about the registry entry.  
+> The table immediately following the code segment contains additional information about the registry entry.  
   
  This section is located under [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0Exp\Projects].  
   
@@ -38,7 +38,7 @@ The process for adding items to the **Add New Item** dialog box starts with the 
 |Val SortPriority|REG_DWORD|100 ([!INCLUDE[vcprx64](../../includes/vcprx64-md.md)])|Determines the sort order in the tree node of files displayed in the **Add New Item** dialog box.|  
   
 > [!NOTE]
->  The GUIDS for the Visual C# and Visual Basic project types are as follows:[!INCLUDE[csprcs](../../includes/csprcs-md.md)]: {FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}[!INCLUDE[vbprvb](../../includes/vbprvb-md.md)]: {F184B08F-C81C-45F6-A57F-5ABD9991F28F}  
+> The GUIDS for the Visual C# and Visual Basic project types are as follows:[!INCLUDE[csprcs](../../includes/csprcs-md.md)]: {FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}[!INCLUDE[vbprvb](../../includes/vbprvb-md.md)]: {F184B08F-C81C-45F6-A57F-5ABD9991F28F}  
   
  The directory listed for TemplateDirs, which is %TEMPLATE_PATH%\SomeProjectItems, is the node on the left side of the **Add New Item** dialog box tree. Additional elements in the tree are based on the subdirectory within that root directory. The files available to be added to the project are the items in the right pane of the **Add New Item** dialog box.  
   
@@ -47,7 +47,7 @@ The process for adding items to the **Add New Item** dialog box starts with the 
  However, you do not have to have everything in one .vsdir file. You can have one .vsdir file for every item in the directory. For more information, see [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md) and [Template Directory Description (.Vsdir) Files](../../extensibility/internals/template-directory-description-dot-vsdir-files.md).  
   
 > [!NOTE]
->  The .vsdir files in the template directories are optional. If you just want to put a project element in the directory and display it in the **Add New Item** dialog box, you can put that file in the templates directory specified in the TemplatesDir statement. The file will then be displayed in the right pane of the **Add New Item** dialog box for that project. However, if you want to display a localized caption for the file or an icon, you must include at least one .vsdir file in the templates directory.  
+> The .vsdir files in the template directories are optional. If you just want to put a project element in the directory and display it in the **Add New Item** dialog box, you can put that file in the templates directory specified in the TemplatesDir statement. The file will then be displayed in the right pane of the **Add New Item** dialog box for that project. However, if you want to display a localized caption for the file or an icon, you must include at least one .vsdir file in the templates directory.  
   
 ## Grouping Project Items  
  If you want to contain template groups in folders in the **Add New Item** dialog box tree, you must have subdirectories under the root template directory with the items in them. When the **Add New Item** dialog box is displayed to users, they will also see the subfolders and be able to select project elements from them.  

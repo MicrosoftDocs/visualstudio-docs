@@ -17,7 +17,6 @@ manager: jillfra
 # How to: Select the Files to Build
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you build a project that contains several files, you can list each file separately in the project file, or you can use wildcards to include all the files in one directory or a nested set of directories.  
   
 ## Specifying Inputs  
@@ -27,7 +26,7 @@ When you build a project that contains several files, you can list each file sep
   
 #### To declare items individually  
   
--   Use the `Include` attributes similar to following:  
+- Use the `Include` attributes similar to following:  
   
      `<CSFile Include="form1.cs"/>`  
   
@@ -36,11 +35,11 @@ When you build a project that contains several files, you can list each file sep
      `<VBFile Include="form1.vb"/>`  
   
     > [!NOTE]
-    >  If items in an item collection are not in the same directory as the project file, you must specify the full or relative path to the item. For example: `Include="..\..\form2.cs"`.  
+    > If items in an item collection are not in the same directory as the project file, you must specify the full or relative path to the item. For example: `Include="..\..\form2.cs"`.  
   
 #### To declare multiple items  
   
--   Use the `Include` attributes similar to following:  
+- Use the `Include` attributes similar to following:  
   
      `<CSFile Include="form1.cs;form2.cs"/>`  
   
@@ -61,19 +60,19 @@ When you build a project that contains several files, you can list each file sep
   
 #### To include all .jpg files in the Images directory and subdirectories  
   
--   Use the following `Include` attribute:  
+- Use the following `Include` attribute:  
   
      `Include="Images\**\*.jpg"`  
   
 #### To include all .jpg files starting with "img"  
   
--   Use the following `Include` attribute:  
+- Use the following `Include` attribute:  
   
      `Include="Images\**\img*.jpg"`  
   
 #### To include all files in directories with names ending in "jpgs"  
   
--   Use one of the following `Include` attributes:  
+- Use one of the following `Include` attributes:  
   
      `Include="Images\**\*jpgs\*.*"`  
   
@@ -86,7 +85,7 @@ When you build a project that contains several files, you can list each file sep
   
 #### To use all Visual C# or Visual Basic files as inputs  
   
--   Use the `Include` attributes similar to the following:  
+- Use the `Include` attributes similar to the following:  
   
      `<CSC Sources="@(CSFile)">...</CSC>`  
   
@@ -95,9 +94,9 @@ When you build a project that contains several files, you can list each file sep
      `<VBC Sources="@(VBFile)">...</VBC>`  
   
 > [!NOTE]
->  You must use wildcards with items to specifiy the inputs for a build; you cannot specify the inputs using the `Sources` attribute in [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] tasks such as [Csc](../msbuild/csc-task.md) or [Vbc](../msbuild/vbc-task.md). The following example is not valid in a project file:  
+> You must use wildcards with items to specifiy the inputs for a build; you cannot specify the inputs using the `Sources` attribute in [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] tasks such as [Csc](../msbuild/csc-task.md) or [Vbc](../msbuild/vbc-task.md). The following example is not valid in a project file:  
 >   
->  `<CSC Sources="*.cs">...</CSC>`  
+> `<CSC Sources="*.cs">...</CSC>`  
   
 ## Example  
  The following code example shows a project that includes all of the input files separately.  

@@ -54,7 +54,7 @@ IDiaEnumSourceFiles* pEnum;
 pSession->findFile( NULL, L"sourcefile.cpp", nsFNameExt, &pEnum );
 ```
 
-## See Also
+## See also
 - [IDiaEnumSourceFiles](../../debugger/debug-interface-access/idiaenumsourcefiles.md)
 - [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

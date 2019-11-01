@@ -84,6 +84,7 @@ typedef enum CV_CPU_TYPE_e {
     CV_CFL_EBC          = 0xE0,
     CV_CFL_THUMB        = 0xF0
     CV_CFL_ARMNT        = 0xF4,
+    CV_CFL_ARM64        = 0xF6,
     CV_CFL_D3D11_SHADER = 0x100,
 } CV_CPU_TYPE_e;
 ```
@@ -94,6 +95,6 @@ The values in this enumeration are returned by a call to the [IDiaSymbol::get_pl
 ## Requirements
 Header: cvconst.h
 
-## See Also
+## See also
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 - [IDiaSymbol::get_platform](../../debugger/debug-interface-access/idiasymbol-get-platform.md)

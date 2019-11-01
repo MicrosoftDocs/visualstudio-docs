@@ -7,15 +7,15 @@ helpviewer_keywords:
   - "expression evaluators, architecture"
   - "debugging [Debugging SDK], expression evaluators"
 ms.assetid: aad7c4c6-1dc1-4d32-b975-f1fdf76bdeda
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
 ---
 # Expression evaluator architecture
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
+> In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
  Integrating a proprietary language into the Visual Studio debug package means you must set up the required expression evaluator (EE) interfaces and call the common language run-time symbol provider (SP) and binder interfaces. The SP and binder objects, together with the current execution address, are the context in which expressions are evaluated. The information that these interfaces produce and consume represents the key concepts in the architecture of an EE.
 

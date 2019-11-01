@@ -21,7 +21,6 @@ manager: jillfra
 # FindAppConfigFile Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Finds the app.config file, if any, in the provided lists.  
   
 ## Parameters  

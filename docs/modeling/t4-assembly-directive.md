@@ -2,8 +2,8 @@
 title: T4 Assembly Directive
 ms.date: 11/04/2016
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -15,7 +15,7 @@ In a Visual Studio design-time text template, the `assembly` directive loads an 
  For a general overview of writing text templates, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).
 
 > [!NOTE]
->  You do not need the `assembly` directive in a run-time (preprocessed) text template. Instead, add the necessary assemblies to the **References** of your Visual Studio project.
+> You do not need the `assembly` directive in a run-time (preprocessed) text template. Instead, add the necessary assemblies to the **References** of your Visual Studio project.
 
 ## Using the Assembly Directive
  The syntax of the directive is as follows:
@@ -82,6 +82,6 @@ In a Visual Studio design-time text template, the `assembly` directive loads an 
 <#@ assembly name="$(myLibFolder)\MyLib.dll" #>
 ```
 
-## See Also
+## See also
 
 - [T4 Include Directive](../modeling/t4-include-directive.md)

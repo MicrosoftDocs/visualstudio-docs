@@ -10,13 +10,12 @@ helpviewer_keywords:
   - "command syntax"
 ms.assetid: 76ffa394-ee89-4629-aba9-1a62b72e6cc1
 caps.latest.revision: 23
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Visual Studio Commands
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
-
 
 Visual Studio commands allow you to invoke a command from the **Command** window, **Immediate** window, or **Find/Command** box. In each case, the greater than sign (`>`) is used to indicate that a command rather than a search or debug operation is to follow.
 

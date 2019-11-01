@@ -5,11 +5,14 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugExpressionEvaluator3::Parse2"
 ms.assetid: 78099628-d600-4f76-b7c8-ee07c864af1e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExpressionEvaluator3::Parse2
 Converts an expression string to a parsed expression given the symbol provider and the address of the evaluating frame.
@@ -42,38 +45,30 @@ HRESULT Parse2 (
 );
 ```
 
-#### Parameters
-`upstrExpression`
+## Parameters
+`upstrExpression`\
+[in] The expression string to be parsed.
 
- [in] The expression string to be parsed.
+`dwFlags`\
+[in] A collection of [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md) constants that determine how the expression is to be parsed.
 
-`dwFlags`
+`nRadix`\
+[in] Radix to be used to interpret any numerical information.
 
- [in] A collection of [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md) constants that determine how the expression is to be parsed.
+`pSymbolProvider`\
+[in] Interface of the symbol provider.
 
-`nRadix`
+`pAddress`\
+[in] Address of the evaluating frame.
 
- [in] Radix to be used to interpret any numerical information.
+`pbstrError`\
+[out] Returns the error as human-readable text.
 
-`pSymbolProvider`
+`pichError`\
+[out] Returns the character position of the start of the error in the expression string.
 
- [in] Interface of the symbol provider.
-
-`pAddress`
-
- [in] Address of the evaluating frame.
-
-`pbstrError`
-
- [out] Returns the error as human-readable text.
-
-`pichError`
-
- [out] Returns the character position of the start of the error in the expression string.
-
-`ppParsedExpression`
-
- [out] Returns the parsed expression in an [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md) object.
+`ppParsedExpression`\
+[out] Returns the parsed expression in an [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md) object.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -136,5 +131,5 @@ HRESULT CEE::Parse2 ( LPCOLESTR in_szExprText,
 }
 ```
 
-## See Also
+## See also
 - [IDebugExpressionEvaluator3](../../../extensibility/debugger/reference/idebugexpressionevaluator3.md)

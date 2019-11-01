@@ -31,7 +31,7 @@ The <xref:System.Diagnostics.DebuggerDisplayAttribute> controls how an object, p
  Whether the debugger evaluates this implicit `ToString()` call depends on a user setting in the **Tools / Options / Debugging** dialog box . Visual Basic does not implement this implicit `ToString()` evaluation.  
   
 > [!IMPORTANT]
->  If the **Show raw structure of objects in variables windows** check box is selected in the **Tools /Options / Debugging** dialog box, then the `DebuggerDisplay` attribute is ignored.  
+> If the **Show raw structure of objects in variables windows** check box is selected in the **Tools /Options / Debugging** dialog box, then the `DebuggerDisplay` attribute is ignored.  
   
  The following table shows some possible uses of the `DebuggerDisplay` attribute and example outputs.  
   
@@ -175,4 +175,4 @@ class MyHashtable
   
 ## See Also  
  [Using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md) 
- [Enhancing Debugging with the Debugger Display Attributes](http://msdn.microsoft.com/library/72bb7aa9-459b-42c4-9163-9312fab4c410)
+ [Enhancing Debugging with the Debugger Display Attributes](https://msdn.microsoft.com/library/72bb7aa9-459b-42c4-9163-9312fab4c410)

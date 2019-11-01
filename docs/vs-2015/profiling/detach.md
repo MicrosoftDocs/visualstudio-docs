@@ -20,7 +20,7 @@ The VSPerfCmd.exe **Detach** option disconnects the profiler fromthe specified p
  **Detach** does not close the profiling data file. Use the **Shutdown** option to end profiling and close the data file.  
   
 > [!NOTE]
->  If the **Start** option was specified with the **Crosssession** option, any calls to **VSPerfCmd /Attach** or to **VSPerfCmd /Detach** must also specify **Crosssession**.  
+> If the **Start** option was specified with the **Crosssession** option, any calls to **VSPerfCmd /Attach** or to **VSPerfCmd /Detach** must also specify **Crosssession**.  
   
 ## Syntax  
   

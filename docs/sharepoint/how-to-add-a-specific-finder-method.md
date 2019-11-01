@@ -52,14 +52,14 @@ ms.workload:
 5. Configure the type descriptor of the return parameter as an entity type descriptor. For information about how to create an entity type descriptor, see [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md).
 
    > [!NOTE]
-   >  You don't have to perform this step if you have added a Finder method to the entity. Visual Studio uses the type descriptor that you defined in the Finder method.
+   > You don't have to perform this step if you have added a Finder method to the entity. Visual Studio uses the type descriptor that you defined in the Finder method.
 
    > [!NOTE]
-   >  If the identifier field of the entity type represents a field in a database table that's automatically generated, set the **Read-only** property of the identifier field to **True**.
+   > If the identifier field of the entity type represents a field in a database table that's automatically generated, set the **Read-only** property of the identifier field to **True**.
 
 6. In the **Method Details** window, choose the method instance of the method.
 
-7. In the **Properties Window**, set the **Return Parameter Name** property to the name of the return parameter of the method. For more information about method instance properties, see [MethodInstance](http://go.microsoft.com/fwlink/?LinkID=169282).
+7. In the **Properties Window**, set the **Return Parameter Name** property to the name of the return parameter of the method. For more information about method instance properties, see [MethodInstance](/previous-versions/office/developer/sharepoint-2010/ee556838(v=office.14)).
 
 8. In **Solution Explorer**, open the shortcut menu of the service code file that was generated for the entity, and then choose **View Code**.
 
@@ -74,7 +74,7 @@ ms.workload:
      The following example returns a contact from the AdventureWorks sample database for SQL Server.
 
      > [!NOTE]
-     >  Replace the value of the `ServerName` field with the name of your server.
+     > Replace the value of the `ServerName` field with the name of your server.
 
      [!code-csharp[SP_BDC#3](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#3)]
      [!code-vb[SP_BDC#3](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#3)]

@@ -2,11 +2,6 @@
 title: "Send messages to the Output window | Microsoft Docs"
 ms.date: "11/08/2018"
 ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords:
   - "diagnostic messages [C#]"
   - "System.Diagnostics.Debug class, Output window"

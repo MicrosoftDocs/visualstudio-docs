@@ -38,7 +38,7 @@ ms.workload:
     The **New Project** dialog box appears.
 
    > [!NOTE]
-   >  Office projects target the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] by default. For more information, see [.NET Framework client profile](/dotnet/framework/deployment/client-profile).
+   > Office projects target the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] by default. For more information, see [.NET Framework client profile](/dotnet/framework/deployment/client-profile).
 
 2. In the templates pane, under the node for the language you want to use, expand **Office/SharePoint**.
 
@@ -47,7 +47,7 @@ ms.workload:
 4. In the list of project templates, select a VSTO Add-in project template. For a list of available VSTO Add-in project templates, see [Office project templates overview](../vsto/office-project-templates-overview.md).
 
    > [!NOTE]
-   >  If project templates are not visible when you select the **Office Add-ins** node, make sure that **.NET Framework 4** or later is selected in the combo box at the top of the dialog box. Office project templates are visible for both versions of the .NET Framework.
+   > If project templates are not visible when you select the **Office Add-ins** node, make sure that **.NET Framework 4** or later is selected in the combo box at the top of the dialog box. Office project templates are visible for both versions of the .NET Framework.
 
 5. In the **Name** box, type a name for the project. By default, the project name is also used as the solution name.
 
@@ -79,17 +79,18 @@ ms.workload:
 
 7. Choose the **OK** button.
 
-    > [!NOTE]
-    >  Add-in projects are always saved when they are created. They cannot be created as temporary projects. For more information about temporary projects, see [Temporary projects](https://msdn.microsoft.com/9cf1944c-7045-44cc-8701-7b0eb4099f2b).
+   ::: moniker range="vs-2017"
+
+   > [!NOTE]
+   > Add-in projects are always saved when they are created. They cannot be created as temporary projects. For more information about temporary projects, see [Temporary projects](../ide/creating-solutions-and-projects.md#create-a-temporary-project).
+
+   ::: moniker-end
 
 ### To create a document-level customization project
 
 1. On the **File** menu, choose **New** > **Project**. If your IDE is set to use Visual Basic development settings, on the **File** menu, choose **New** > **Project**.
 
     The **New Project** dialog box appears.
-
-   > [!NOTE]
-   >  Office projects target the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] by default.  For more information, see [.NET Framework client profile](/dotnet/framework/deployment/client-profile).
 
 2. In the templates pane, under the node for the language you want to use, expand **Office/SharePoint**.
 
@@ -98,12 +99,12 @@ ms.workload:
 4. In the list of project templates, select a document-level project template. For a list of available document-level project templates, see [Office project templates overview](../vsto/office-project-templates-overview.md).
 
    > [!NOTE]
-   >  If project templates are not visible when you select the **Office Add-ins** node, make sure that **.NET Framework 4** or later is selected in the combo box at the top of the dialog box. Office project templates are visible for both versions of the .NET Framework.
+   > If project templates are not visible when you select the **Office Add-ins** node, make sure that **.NET Framework 4** or later is selected.
 
 5. In the **Name** box, type a name for the project. By default, this name is also used for the document. If your IDE is set to use Visual C# development settings or General development settings, also enter a location and solution name.
 
    > [!NOTE]
-   >  You cannot use surrogate characters in the path of the project location or in the project name. Also, if you plan to deploy the solution for use offline, the characters in the project name must fit the HTTP protocol specifications.
+   > You cannot use surrogate characters in the path of the project location or in the project name. Also, if you plan to deploy the solution for use offline, the characters in the project name must fit the HTTP protocol specifications.
 
 6. Choose the **OK** button.
 
@@ -140,7 +141,7 @@ ms.workload:
    - Percent sign (%)
 
    > [!NOTE]
-   >  If you use an existing document in a [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] project, only use documents that were created in or converted to [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)]. Similarly, if you use an existing document in a Word 2010 project, only use documents that were created in or converted to Word 2010. Certain features will be disabled in the document if you use a document that was created in an earlier version of Word. If you try to write code that uses these features, you might encounter errors in your project. To convert a document, open it in [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or Word 2010, on the **File** tab on the ribbon, choose **Info** > **Convert**.
+   > If you use an existing document in a [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] project, only use documents that were created in or converted to [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)]. Similarly, if you use an existing document in a Word 2010 project, only use documents that were created in or converted to Word 2010. Certain features will be disabled in the document if you use a document that was created in an earlier version of Word. If you try to write code that uses these features, you might encounter errors in your project. To convert a document, open it in [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or Word 2010, on the **File** tab on the ribbon, choose **Info** > **Convert**.
 
 8. Choose **Finish**.
 

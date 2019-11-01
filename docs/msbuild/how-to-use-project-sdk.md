@@ -50,7 +50,15 @@ During evaluation of the project, [!INCLUDE[vstecmsbuild](../extensibility/inter
     </Project>
     ```
 
-    An implicit import is added to the top and bottom of the project as discussed above.  The format of the `Sdk` attribute is `Name[/Version]` where Version is optional.  For example, you can specify `My.Custom.Sdk/1.2.3`.
+    An implicit import is added to the top and bottom of the project as discussed above.
+    
+    To specify a specific version of the SDK you may append it to the `Sdk` attribute:
+
+    ```xml
+    <Project Sdk="My.Custom.Sdk/1.2.3">
+        ...
+    </Project>
+    ```
 
     > [!NOTE]
     > This is currently the only supported way to reference a project SDK in Visual Studio for Mac.
@@ -93,7 +101,7 @@ When evaluating the import, [!INCLUDE[vstecmsbuild](../extensibility/internals/i
    This resolver locates project SDKs such as `Microsoft.NET.Sdk` and `Microsoft.NET.Sdk.Web` which are part of the product.
 3. A default resolver that resolves SDKs that were installed with MSBuild.
 
-The NuGet-based SDK resolver supports specifying a version in your [global.json](https://docs.microsoft.com/dotnet/core/tools/global-json) that allows you to control the project SDK version in one place rather than in each individual project:
+The NuGet-based SDK resolver supports specifying a version in your [global.json](/dotnet/core/tools/global-json) that allows you to control the project SDK version in one place rather than in each individual project:
 
 ```json
 {

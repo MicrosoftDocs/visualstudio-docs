@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "CONST_GUID_ARRAY structure"
 ms.assetid: bd55e7d8-372c-4c3e-9eed-28f6b415a5db
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # CONST_GUID_ARRAY
 A structure that holds a list of `GUID`s.
@@ -33,10 +36,10 @@ public struct CONST_GUID_ARRAY {
 ```
 
 ## Members
-dwCount
+`dwCount`\
 Number of `GUID`s in the `Members` array.
 
-Members
+`Members`\
 Array of `GUID`s.
 
 ## Remarks
@@ -51,7 +54,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [PublishProgram](../../../extensibility/debugger/reference/idebugprogrampublisher2-publishprogram.md)
 - [GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md)

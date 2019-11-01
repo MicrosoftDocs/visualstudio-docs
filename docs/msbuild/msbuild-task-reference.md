@@ -18,7 +18,7 @@ ms.workload:
 ---
 # MSBuild task reference
 
-Tasks provide the code that runs during the build process. The tasks in the following list are included with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. When [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] is installed, additional tasks are available that are used to build [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects. For more information, see [Visual C++ tasks](../msbuild/msbuild-tasks-specific-to-visual-cpp.md).
+Tasks provide the code that runs during the build process. The tasks in the following list are included with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. When [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] is installed, additional tasks are available that are used to build [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects. For more information, see [C++ tasks](../msbuild/msbuild-tasks-specific-to-visual-cpp.md).
 
 In addition to the parameters listed in the topics in this section, each task also has the following parameters:
 
@@ -163,7 +163,7 @@ In addition to the parameters listed in the topics in this section, each task al
 
 - [GetFrameworkPath task](../msbuild/getframeworkpath-task.md)
 
- Retrieves the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] assemblies.
+ Retrieves the path to the .NET Framework assemblies.
 
 - [GetFrameworkSdkPath task](../msbuild/getframeworksdkpath-task.md)
 

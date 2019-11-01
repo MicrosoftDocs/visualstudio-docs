@@ -1,9 +1,10 @@
 ---
-title: "Tutorial: Hello World app with Windows Presentation Foundation (WPF) in Visual Basic"
+title: "Hello World app with WPF in Visual Basic"
 description: Create a simple Windows Desktop .NET app in Visual Basic with Visual Studio using the Windows Presentation Foundation (WPF) UI framework.
 ms.custom: "seodec18, get-started"
-ms.date: 10/03/2017
+ms.date: 04/23/2019
 ms.technology: vs-ide-general
+ms.prod: visual-studio-windows
 ms.topic: conceptual
 dev_langs:
   - "VB"
@@ -16,17 +17,27 @@ ms.workload:
 ---
 # Tutorial: Create a simple application with Visual Basic
 
-By completing this walkthrough, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment ([IDE](visual-studio-ide.md)).
+By completing this tutorial, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment ([IDE](visual-studio-ide.md)).
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+::: moniker range="vs-2017"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+
+::: moniker-end
 
 ## Configure the IDE
 
-When you start Visual Studio for the first time, you'll be prompted to sign in. This step is optional for this walkthrough. Next you may be shown a dialog box that asks you to choose your development settings and color theme. Keep the defaults and choose **Start Visual Studio**.
+::: moniker range="vs-2017"
+
+When you open Visual Studio for the first time, you'll be prompted to sign in. This step is optional for this tutorial. Next you may be shown a dialog box that asks you to choose your development settings and color theme. Keep the defaults and choose **Start Visual Studio**.
 
 ![Choose settings dialog box](../media/exploreide-settings.png)
-
-::: moniker range="vs-2017"
 
 After Visual Studio launches, you'll see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. In the center of the application window is the **Start Page**. When you load a solution or project, editors and designers appear in the space where the **Start Page** is. When you develop an application, you'll spend most of your time in this central area.
 
@@ -36,7 +47,7 @@ After Visual Studio launches, you'll see tool windows, the menus and toolbars, a
 
 ::: moniker range=">=vs-2019"
 
-When you launch Visual Studio, the **Start** window opens first. Select **Contine without code** to open the development environment. You'll see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. When you load a solution or project, editors and designers appear in the central space of the application window. When you develop an application, you'll spend most of your time in this central area.
+When you launch Visual Studio, the start window opens first. Select **Continue without code** to open the development environment. You'll see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with a search box, the menu bar, and the standard toolbar at the top. When you load a solution or project, editors and designers appear in the central space of the application window. When you develop an application, you'll spend most of your time in this central area.
 
 ::: moniker-end
 
@@ -44,50 +55,62 @@ When you launch Visual Studio, the **Start** window opens first. Select **Contin
 
 When you create an application in Visual Studio, you first create a project and a solution. For this example, you'll create a Windows Presentation Foundation (WPF) project.
 
+::: moniker range="vs-2017"
+
 1. Create a new project. On the menu bar, select **File** > **New** > **Project**.
 
      ![On the menu bar, choose File, New, Project](../media/exploreide-filenewproject.png)
 
-1. In the **New Project** dialog, select the **Installed** > **Visual Basic** > **Windows Desktop** category, and then select the **WPF App (.NET Framework)** template. Name the project **HelloWPFApp**.
+2. In the **New Project** dialog, select the **Installed** > **Visual Basic** > **Windows Desktop** category, and then select the **WPF App (.NET Framework)** template. Name the project **HelloWPFApp**, and select **OK**.
 
      ![WPF app template in Visual Studio New Project dialog](media/exploreide-newproject-vb.png)
 
-1. Select **OK**.
+Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view. The following items appear in **Solution Explorer**:
 
-   Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view. The following items appear in **Solution Explorer**:
+![Solution Explorer with HelloWPFApp files loaded](../media/exploreide-hellowpfappfiles.png)
 
-   ![Solution Explorer with HelloWPFApp files loaded](../media/exploreide-hellowpfappfiles.png)
+::: moniker-end
 
-   > [!NOTE]
-   > For more information about XAML (eXtensible Application Markup Language), see the [XAML overview for WPF](/dotnet/framework/wpf/advanced/xaml-overview-wpf) page.
+::: moniker range="vs-2019"
+
+1. Open Visual Studio 2019.
+
+2. On the **Create a new project** screen, search for "WPF", and choose **WPF App (.NET Framework)**, and then choose **Next**.
+
+   ![WPF app template in Visual Studio New Project dialog](media/vs-2019/exploreide-newprojectvb-vs2019.png)
+
+3. At the next screen, give the project a name, **HelloWPFApp**, and choose **Create**.
+
+Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view. The following items appear in **Solution Explorer**:
+
+![Solution Explorer with HelloWPFApp files loaded](../media/vs-2019/exploreide-hellowpfappfiles.png)
+
+::: moniker-end
+
+> [!NOTE]
+> For more information about XAML (eXtensible Application Markup Language), see the [XAML overview for WPF](/dotnet/framework/wpf/advanced/xaml-overview-wpf) page.
 
 After you create the project, you can customize it. By using the **Properties** window (found on the **View** menu), you can display and change options for project items, controls, and other items in an application.
 
 ### Change the name of MainWindow.xaml
 
-Let's give MainWindow a more specific name.
-
-1. In **Solution Explorer**, select *MainWindow.xaml*. You should see the **Properties** window, but if you don't, choose the **View** menu and then the **Properties Window** item.
-
-1. Change the **File Name** property to `Greetings.xaml`.
-
-     ![Properties window with File Name highlighted](../media/exploreide-filenameinpropertieswindow.png)
-
-     **Solution Explorer** shows that the name of the file is now *Greetings.xaml*, and the nested code file is now named *Greetings.xaml.vb*. This code file is nested under the *.xaml* file node to show they are closely related to each other.
+Let's give MainWindow a more specific name. In **Solution Explorer**, right-click on *MainWindow.xaml* and choose **Rename**. Rename the file to *Greetings.xaml*.
 
 ## Design the user interface (UI)
+
+If the designer is not open, select *Greetings.xaml* in **Solution Explorer**, and press **Shift**+**F7** to open the designer.
 
 We will add three types of controls to this application: a <xref:System.Windows.Controls.TextBlock> control, two <xref:System.Windows.Controls.RadioButton> controls, and a <xref:System.Windows.Controls.Button> control.
 
 ### Add a TextBlock control
 
-1. Open the **Toolbox** window by choosing the **View** menu and the **Toolbox** item.
+1. Press **Ctrl**+**Q** to activate the search box and type **Toolbox**. Choose **View > Toolbox** from the results list.
 
 2. In the **Toolbox**, expand the **Common WPF Controls** node to see the TextBlock control.
 
      ![Toolbox with the TextBlock control highlighted](../media/exploreide-textblocktoolbox.png)
 
-3. Add a TextBlock control to the design surface by choosing the **TextBlock** item and dragging it to the window on the design surface. Center the control near the top of the window.
+3. Add a TextBlock control to the design surface by choosing the **TextBlock** item and dragging it to the window on the design surface. Center the control near the top of the window. In Visual Studio 2019 and later, you can use the red guidelines to center the control.
 
 Your window should resemble the following illustration:
 
@@ -96,7 +119,7 @@ Your window should resemble the following illustration:
 The XAML markup should look something like the following example:
 
 ```xaml
-<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" RenderTransformOrigin="4.08,2.312" Margin="237,57,221,238"><Run Text="TextBlock"/><InlineUIContainer><TextBlock TextWrapping="Wrap" Text="TextBlock"/>
+<TextBlock HorizontalAlignment="Left" Margin="381,100,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
 ```
 
 ### Customize the text in the text block
@@ -107,7 +130,7 @@ The XAML markup should look something like the following example:
    Text="Select a message option and then choose the Display button."
    ```
 
-2. Center the TextBlock again if necessary, and save your changes by pressing **Ctrl**+**S** or using the **File** menu item.
+2. Center the TextBlock again if necessary, and save your changes by pressing Ctrl+S or using the **File** menu item.
 
 Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) controls to the form.
 
@@ -117,11 +140,11 @@ Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) c
 
      ![Toolbox window with RadioButton control selected](../media/exploreide-radiobuttontoolbox.png)
 
-2. Add two RadioButton controls to the design surface by choosing the **RadioButton** item and dragging it to the window on the design surface. Move the buttons (by selecting them and using the arrow keys) so that the buttons appear side by side under the TextBlock control.
+2. Add two RadioButton controls to the design surface by choosing the **RadioButton** item and dragging it to the window on the design surface. Move the buttons (by selecting them and using the arrow keys) so that the buttons appear side by side under the TextBlock control. Use the red guidelines to align the controls.
 
      Your window should look like this:
 
-     ![Greetings form with textblock and two radiobuttons](../media/exploreide-greetingswithradiobuttons.png)
+     ![Greetings form with TextBlock control and two radio buttons](../media/exploreide-greetingswithradiobuttons.png)
 
 3. In the **Properties** window for the left RadioButton control, change the **Name** property (the property at the top of the **Properties** window) to `HelloButton`.
 
@@ -133,9 +156,15 @@ You can now add display text for each RadioButton control. The following procedu
 
 ### Add display text for each radio button
 
-1. On the design surface, open the shortcut menu for HelloButton by pressing the right mouse button on HelloButton, choose **Edit Text**, and then enter `Hello`.
+Update the **Content** attribute for the `HelloButton` and `GoodbyeButton` to `"Hello"` and `"Goodbye"` in the XAML. The XAML markup should now look similar to the following example:
 
-2. Open the shortcut menu for GoodbyeButton by pressing the right mouse button on GoodbyeButton, choose **Edit Text**, and then enter `Goodbye`.
+   ```xaml
+   <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="252,47,0,0" TextWrapping="Wrap" Text="Select a message option and then choose the Display button." VerticalAlignment="Top"/>
+        <RadioButton x:Name="HelloButton" Content="Hello" HorizontalAlignment="Left" Margin="297,161,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="GoodbyeButton" Content="Goodbye" HorizontalAlignment="Left" Margin="488,161,0,0" VerticalAlignment="Top"/>
+   </Grid>
+   ```
 
 ### Set a radio button to be checked by default
 
@@ -151,7 +180,7 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
 
 ### Add the button control
 
-1. In the **Toolbox**, find the **Button** control, and then add it to the design surface under the RadioButton controls by dragging it to the form in the design view.
+1. In the **Toolbox**, find the **Button** control, and then add it to the design surface under the RadioButton controls by dragging it to the form in the design view. If you're using Visual Studio 2019 or later, a red line helps you center the control.
 
 2. In the XAML view, change the value of **Content** for the Button control from `Content="Button"` to `Content="Display"`, and then save the changes.
 
@@ -171,7 +200,7 @@ When this application runs, a message box appears after a user chooses a radio b
      *Greetings.xaml.vb* opens, with the cursor in the `Button_Click` event.
 
     ```vb
-    Private Sub Button_Click_1(sender As Object, e As RoutedEventArgs)
+    Private Sub Button_Click(sender As Object, e As RoutedEventArgs)
 
     End Sub
     ```
@@ -198,17 +227,15 @@ In this step, you'll find the error that we caused earlier by changing the name 
 
 #### Start debugging and find the error
 
-1. Start the debugger by selecting **Debug**, then **Start Debugging**.
+1. Start the debugger by pressing **F5** or selecting **Debug**, then **Start Debugging**.
 
-     ![Start Debugging command on the Debug menu](../media/exploreide-startdebugging.png)
+   A **Break Mode** window appears, and the **Output** window indicates that an IOException has occurred: Cannot locate resource 'mainwindow.xaml'.
 
-     A **Break Mode** window appears, and the **Output** window indicates that an IOException has occurred: Cannot locate resource 'mainwindow.xaml'.
+   ![Screenshot of IOException message](../media/exploreide-ioexception.png)
 
 2. Stop the debugger by choosing **Debug** > **Stop Debugging**.
 
-     ![Stop Debugging command on the Debug menu](../media/exploreide-stopdebugging.png)
-
-We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this walkthrough, but the code still refers to *MainWindow.xaml* as the startup URI for the application, so the project can't start.
+We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this tutorial, but the code still refers to *MainWindow.xaml* as the startup URI for the application, so the project can't start.
 
 #### Specify Greetings.xaml as the startup URI
 
@@ -216,7 +243,16 @@ We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this walkthroug
 
 2. Change `StartupUri="MainWindow.xaml"` to `StartupUri="Greetings.xaml"`, and then save the changes.
 
-Start the debugger again (press **F5**). You should see the **Greetings** window of the application. Now close the application window to stop debugging.
+Start the debugger again (press **F5**). You should see the **Greetings** window of the application.
+
+::: moniker range="vs-2017"
+![Screenshot of running app](media/exploreide-wpf-running-app.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+![Screenshot of running app](media/vs-2019/exploreide-wpf-running-app.png)
+::: moniker-end
+
+ Now close the application window to stop debugging.
 
 ### Debug with breakpoints
 
@@ -226,11 +262,9 @@ You can test the code during debugging by adding some breakpoints. You can add b
 
 1. Open *Greetings.xaml.vb*, and select the following line: `MessageBox.Show("Hello.")`
 
-2. Add a breakpoint from the menu by selecting **Debug**, then **Toggle Breakpoint**.
+2. Add a breakpoint by pressing **F9** or from the menu by selecting **Debug**, then **Toggle Breakpoint**.
 
-     ![Toggle Breakpoint command on the Debug menu](../media/exploreide-togglebreakpoint.png)
-
-     A red circle appears next to the line of code in the far left margin of the editor window.
+   A red circle appears next to the line of code in the far left margin of the editor window.
 
 3. Select the following line: `MessageBox.Show("Goodbye.")`.
 
@@ -238,7 +272,9 @@ You can test the code during debugging by adding some breakpoints. You can add b
 
 5. In the **Greetings** window, choose the **Hello** radio button, and then choose the **Display** button.
 
-     The line `MessageBox.Show("Hello.")` is highlighted in yellow. At the bottom of the IDE, the Autos, Locals, and Watch windows are docked together on the left side, and the Call Stack, Breakpoints, Command, Immediate, and Output windows are docked together on the right side.
+   The line `MessageBox.Show("Hello.")` is highlighted in yellow. At the bottom of the IDE, the Autos, Locals, and Watch windows are docked together on the left side, and the Call Stack, Breakpoints, Exception Settings, Command, Immediate, and Output windows are docked together on the right side.
+
+   ![Screenshot of breakpoint in the debugger](media/exploreide-debugbreakpoint.png)
 
 6. On the menu bar, choose **Debug** > **Step Out**.
 
@@ -256,25 +292,36 @@ You can test the code during debugging by adding some breakpoints. You can add b
 
 11. On the menu bar, choose **Debug** > **Disable All Breakpoints**.
 
+### View a representation of the UI elements
+
+In the running app, you should see a widget that appears at the top of your window. This is a runtime helper that provides quick access to some helpful debugging features. Click on the first button, **Go to Live Visual Tree**. You should see a window with a tree that contains all the visual elements of your page. Expand the nodes to find the buttons you added.
+
+![Screenshot of Live Visual Tree window](media/vs-2019/exploreide-live-visual-tree.png)
+
 ### Build a release version of the application
 
 Now that you've verified that everything works, you can prepare a release build of the application.
 
 1. On the main menu, select **Build** > **Clean solution** to delete intermediate files and output files that were created during previous builds. This is not necessary, but it cleans up the debug build outputs.
 
-     ![The Clean Solution command on the Build menu](../media/exploreide-cleansolution.png)
-
 2. Change the build configuration for HelloWPFApp from **Debug** to **Release** by using the dropdown control on the toolbar (it says "Debug" currently).
-
-     ![The Standard toolbar with Release selected](../media/exploreide-releaseversion.png)
 
 3. Build the solution by choosing **Build** > **Build Solution**.
 
-     ![Build Solution command on the Build menu](../media/exploreide-buildsolution.png)
-
-Congratulations on completing this walkthrough! You can find the *.exe* you built under your solution and project directory (*...\HelloWPFApp\HelloWPFApp\bin\Release*).
+Congratulations on completing this tutorial! You can find the *.exe* you built under your solution and project directory (*...\HelloWPFApp\HelloWPFApp\bin\Release*).
 
 ## See also
 
-- [What's new in Visual Studio 2017](../../ide/whats-new-visual-studio.md)
-- [Productivity tips](../../ide/productivity-tips-for-visual-studio.md)
+::: moniker range="vs-2017"
+
+- [What's new in Visual Studio 2017](../../ide/whats-new-visual-studio-2017.md)
+- [Productivity tips](../../ide/productivity-features.md)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+- [What's new in Visual Studio 2019](../../ide/whats-new-visual-studio-2019.md)
+- [Productivity tips](../../ide/productivity-features.md)
+
+::: moniker-end

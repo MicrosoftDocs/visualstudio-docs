@@ -2,8 +2,8 @@
 title: Customizing Copy Behavior
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -80,7 +80,7 @@ partial class MyDslClipboardCommandSet
  Override *MyDsl*`ClipboardCommandSet.CopyModelElementsIntoElementGroupPrototype()` in the DslPackage project.
 
  **Preserve shape layout through copy and paste.**
- When the user copies multiple shapes, you can preserve their relative positions when they are pasted. This technique is demonstrated by the example at [VMSDK: Circuit Diagrams sample](http://go.microsoft.com/fwlink/?LinkId=213879).
+ When the user copies multiple shapes, you can preserve their relative positions when they are pasted. This technique is demonstrated by the example at [VMSDK: Circuit Diagrams sample](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8).
 
  To achieve this effect, add the shapes and connectors to the copied ElementGroupPrototype. The most convenient method to override is ElementOperations.CreateElementGroupPrototype(). To do this, add the following code to the Dsl project:
 
@@ -136,7 +136,7 @@ partial class MyDslDiagram // EDIT NAME
 ```
 
  **Paste shapes in a chosen location, such as the current cursor position.**
- When the user copies multiple shapes, you can preserve their relative positions when they are pasted. This technique is demonstrated by the example at [VMSDK: Circuit Diagrams sample](http://go.microsoft.com/fwlink/?LinkId=213879).
+ When the user copies multiple shapes, you can preserve their relative positions when they are pasted. This technique is demonstrated by the example at [VMSDK: Circuit Diagrams sample](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8).
 
  To achieve this effect, override `ClipboardCommandSet.ProcessOnMenuPasteCommand()` to use the location-specific version of `ElementOperations.Merge()`. To do this, add the following code in the DslPackage project:
 
@@ -226,7 +226,7 @@ partial class MyDslClipboardCommandSet // EDIT NAME
  Many aspects of a DSL's behavior with regard to copy, paste, creation, and deletion of objects are governed by an instance of <xref:Microsoft.VisualStudio.Modeling.ElementOperations> that is coupled to the diagram. You can modify your DSL's behavior by deriving your own class from <xref:Microsoft.VisualStudio.Modeling.ElementOperations> and overriding the <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.ElementOperations%2A> property of your diagram class.
 
 > [!TIP]
->  For more information about customizing the model by using program code, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).
+> For more information about customizing the model by using program code, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).
 
  ![Sequence diagram for the Copy operation](../modeling/media/dslcopyseqdiagram.png)
 
@@ -278,9 +278,9 @@ using Microsoft.VisualStudio.Modeling.Diagrams.ExtensionEnablement;
 
  Define two methods in your ElementOperations class:
 
--   `CanMerge(ModelElement targetElement, System.Windows.Forms.IDataObject data)` which determines whether the source element can be dragged onto the target shape, connector or diagram.
+- `CanMerge(ModelElement targetElement, System.Windows.Forms.IDataObject data)` which determines whether the source element can be dragged onto the target shape, connector or diagram.
 
--   `MergeElementGroupPrototype(ModelElement targetElement, ElementGroupPrototype sourcePrototype)` which combines the source element into the target.
+- `MergeElementGroupPrototype(ModelElement targetElement, ElementGroupPrototype sourcePrototype)` which combines the source element into the target.
 
 ### CanMerge()
  `CanMerge()` is called to determine feedback that should be given to the user as the mouse moves across the diagram. The parameters to the method are the element over which the mouse is hovering, and data about the source from which the drag operation has been performed. The user can drag from anywhere on the screen. Therefore, the source object can be of many different types and can be serialized in different formats. If the source is a DSL or UML model, the data parameter is the serialization of an <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype>. Drag, copy and toolbox operations use ElementGroupPrototypes to represent fragments of models.
@@ -550,7 +550,6 @@ namespace Company.MyDsl
 
 - [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md)
 - [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)
-- [Customizing Deletion Behavior](../modeling/customizing-deletion-behavior.md)
-- [Sample: VMSDK Circuit Diagrams sample](http://go.microsoft.com/fwlink/?LinkId=213879)
+- [Sample: VMSDK Circuit Diagrams sample](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

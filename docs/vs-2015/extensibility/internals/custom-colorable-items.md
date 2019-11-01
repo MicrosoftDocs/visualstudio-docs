@@ -24,11 +24,11 @@ You can override the list of types for colorizing, such as keywords and comments
  Because the IDE handles user overrides of colorable items in the **Fonts and Colors** dialog box, you need only supply each custom colorable item with a name. This name is what appears in the **Display items** list. The colorable items appear in alphabetical order. To group your language service's custom colorable items, you can begin each name with your language name, for example **NewLanguage - Comment** and **NewLanguage - Keyword**.  
   
 > [!CAUTION]
->  You should include the language name in the colorable item name to avoid collisions with existing colorable item names. If you change the name of one of your colorable items during development, you must reset the cache that was created the first time your colorable items were accessed. You can reset the experimental cache with the CreateExpInstance tool, which is installed with the Visual Studio SDK, typically in the directory  
+> You should include the language name in the colorable item name to avoid collisions with existing colorable item names. If you change the name of one of your colorable items during development, you must reset the cache that was created the first time your colorable items were accessed. You can reset the experimental cache with the CreateExpInstance tool, which is installed with the Visual Studio SDK, typically in the directory  
 >   
->  **C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin**  
+> **C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin**  
 >   
->  To reset the cache, call `CreateExpInstance /Reset`. For more information about CreateExpInstance, see [CreateExpInstance Utility](../../extensibility/internals/createexpinstance-utility.md).  
+> To reset the cache, call `CreateExpInstance /Reset`. For more information about CreateExpInstance, see [CreateExpInstance Utility](../../extensibility/internals/createexpinstance-utility.md).  
   
  The first item in your list of colorable items is never referenced. The first item corresponds to a colorable item index of 0, and [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] always supplies the default text colors and attributes for that item. The easiest way of dealing with this unreferenced item is to supply a placeholder colorable item in your list as the first item.  
   

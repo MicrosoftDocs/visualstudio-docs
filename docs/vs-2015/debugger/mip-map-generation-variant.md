@@ -64,7 +64,7 @@ d3d_device->CreateTexture2D(&texture_description, initial_data.data(), &texture)
  Remember that when you provide initial data to `CreateTexture2D`, you must provide a D3D11_SUBRESOURCE_DATA object for each mip level.  
   
 > [!NOTE]
->  If you want to provide your own mip level contents instead of generating them automatically, you must create your textures by using an image editor that supports mip-mapped textures and then load the file and pass the mip levels to `CreateTexture2D`.  
+> If you want to provide your own mip level contents instead of generating them automatically, you must create your textures by using an image editor that supports mip-mapped textures and then load the file and pass the mip levels to `CreateTexture2D`.  
   
 ## See Also  
  [Half/Quarter Texture Dimensions Variant](../debugger/half-quarter-texture-dimensions-variant.md)

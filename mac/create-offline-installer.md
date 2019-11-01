@@ -1,8 +1,8 @@
 ---
-title: "Create an Offline Installer for Visual Studio for Mac"
+title: "Create an Offline Installer"
 description:
-author: conceptdev
-ms.author: crdun
+author: asb3993
+ms.author: amburns
 ms.date: 11/06/2018
 ms.technology: vs-ide-install
 ms.assetid: 5CA4B8C1-2D01-46EA-A6B2-8573B324509B

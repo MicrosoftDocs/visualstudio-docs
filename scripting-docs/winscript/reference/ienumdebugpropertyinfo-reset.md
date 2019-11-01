@@ -2,7 +2,6 @@
 title: "IEnumDebugPropertyInfo::Reset | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -33,5 +32,5 @@ void
 ## Return Value  
  Returns a valid `HRESULT`, typically `S_OK`.  
   
-## See Also  
+## See also  
  [IEnumDebugPropertyInfo Interface](../../winscript/reference/ienumdebugpropertyinfo-interface.md)

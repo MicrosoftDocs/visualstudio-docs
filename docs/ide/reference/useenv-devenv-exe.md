@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "/UseEnv Devenv switch"
   - "Devenv, /UseEnv"
 ms.assetid: 2dd14603-a61b-42d2-ba31-427a0ee8a799
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -63,4 +63,4 @@ devenv.exe /useenv "%USERPROFILE%\source\repos\MySolution\MySolution.sln"
 ## See also
 
 - [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)
-- [VC++ Directories Property Page (Windows)](/cpp/ide/vcpp-directories-property-page)
+- [VC++ Directories Property Page (Windows)](/cpp/build/reference/vcpp-directories-property-page)

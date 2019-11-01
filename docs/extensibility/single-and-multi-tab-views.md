@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "editors [Visual Studio SDK], custom - single and multi-tab views"
 ms.assetid: e3611704-349f-4323-b03c-f2b0a445d781
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -106,7 +106,7 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md)
 - [How to: Attach Views to Document Data](../extensibility/how-to-attach-views-to-document-data.md)
 - [Creating Custom Editors and Designers](../extensibility/creating-custom-editors-and-designers.md)

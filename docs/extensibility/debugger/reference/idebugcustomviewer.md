@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCustomViewer interface"
 ms.assetid: 7aca27d3-c7b8-470f-b42c-d1e9d9115edd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -98,7 +98,7 @@ IDebugCustomViewer *GetFirstCustomViewer(IDebugProperty2 *pProperty)
 }
 ```
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [GetCustomViewerList](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md)
 - [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)

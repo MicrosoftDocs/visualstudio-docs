@@ -1,0 +1,125 @@
+### YamlMime:YamlDocument
+documentType: LandingData
+title: Container Tools in Visual Studio
+metadata:
+  title: Docker container development tools documentation
+  description: 'Learn how to build and manage container-based apps and services. Get documentation, example code, tutorials, and more.'
+  author: ghogen
+  manager: jillfra
+  ms.prod: visual-studio-windows
+  ms.technology: vs-azure
+  ms.topic: landing-page
+  ms.date: 02/15/2019
+  ms.author: ghogen
+sections:
+- title: ''
+  items:
+  - type: paragraph
+    text: 'Explore Docker and Kubernetes tools, and Azure services for managing container-based development projects.'
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 3
+    items:
+    - href: container-tools.md
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/logos/logo_docker.svg
+      title: 'Quickstart: Docker in Visual Studio'
+    - href: tutorial-multicontainer.md
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/logos/logo_docker.svg
+      title: 'Multicontainer app with Docker Compose'
+    - href: /visualstudio/install/build-tools-container
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_build.svg
+      title: 'Running build tools in a container'
+    - href: tutorial-kubernetes-tools.md
+      html: <p></p>
+      image: 
+        src: https://docs.microsoft.com/media/logos/logo_kubernetes.svg
+      title: Visual Studio Tools for Kubernetes
+- title: .NET Core
+  items:
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 3
+    items:
+    - href: /dotnet/core/docker/intro-net-docker
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/logos/logo_NETcore.svg
+      title: Introduction to .NET and Docker
+    - href: /dotnet/core/docker/docker-basics-dotnet-core
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/logos/logo_docker.svg
+      title: Learn Docker Basics
+    - href: /dotnet/core/docker/building-net-docker-images
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_build.svg
+      title: Build Docker Images
+    - href: /aspnet/core/host-and-deploy/docker/visual-studio-tools-for-docker
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_web.svg
+      title: ASP.NET Container Tools
+    - href: https://docs.microsoft.com/azure/vs-azure-tools-docker-hosting-web-apps-in-docker
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/logos/logo_azure.svg
+      title: Deploy to Azure Container Registry
+    - href: /dotnet/standard/containerized-lifecycle-architecture/
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_architecture.svg
+      title: Microservices architecture guide
+- title: Azure
+  items:
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 3
+    items:
+    - href: /azure/aks
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/azure/media/index/ContainerService.svg
+      title: Azure Kubernetes Service (AKS)
+    - href: /azure/dev-spaces
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/azure/media/index/AzureDevSpaceController_50x.svg
+      title: Azure Dev Spaces
+    - href: /azure/container-instances/container-instances-tutorial-prepare-app
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/azure/media/index/ContainerInstances.svg
+      title: Azure Container Instances
+    - href: /azure/container-registry/
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/azure/media/index/container-registry.svg
+      title: Azure Container Registry
+    - href: /azure/docker
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/logos/logo_docker.svg
+      title: Docker on Azure
+- title: Videos
+  items:
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 3
+    items:
+    - href: https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T111
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_video.svg
+      title: 'Channel 9: Docker Development'
+

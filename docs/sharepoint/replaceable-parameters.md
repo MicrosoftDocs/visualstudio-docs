@@ -80,7 +80,7 @@ ms.workload: "office"
   You can, however, add additional file extensions to the list. Add a `<TokenReplacementFileExtensions>` element to any PropertyGroup in the SharePoint project file that is defined before the \<Import> of the SharePoint targets file.
 
 > [!NOTE]
->  Because token replacement occurs after a project is compiled, you should not add file extensions for file types that are compiled, such as *.cs*, *.vb* or *.resx*. Tokens are replaced only in files that are not compiled.
+> Because token replacement occurs after a project is compiled, you should not add file extensions for file types that are compiled, such as *.cs*, *.vb* or *.resx*. Tokens are replaced only in files that are not compiled.
 
  For example, to add the file name extensions (*.myextension* and *.yourextension*) to the list of token replacement file name extensions, you would add the following to a project (*.csproj*) file:
 

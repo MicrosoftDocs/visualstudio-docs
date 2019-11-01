@@ -2,7 +2,6 @@
 title: "IActiveScriptWinRTErrorDebug::GetCapabilitySid | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,7 +18,7 @@ manager: "ghogen"
 Returns the capability SID for the Windows Runtime error, if available.  
   
 > [!IMPORTANT]
->  [IActiveScriptWinRTErrorDebug Interface](../../winscript/reference/iactivescriptwinrterrordebug-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> [IActiveScriptWinRTErrorDebug Interface](../../winscript/reference/iactivescriptwinrterrordebug-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   
@@ -31,5 +30,5 @@ HRESULT GetCapabilitySid([out] BSTR * capabilitySid);
  `capabilitySid`  
  The capability SID of the error.  
   
-## See Also  
+## See also  
  [IActiveScriptWinRTErrorDebug Interface](../../winscript/reference/iactivescriptwinrterrordebug-interface.md)

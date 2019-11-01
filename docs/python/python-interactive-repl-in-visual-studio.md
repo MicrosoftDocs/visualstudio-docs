@@ -3,8 +3,8 @@ title: Python interactive window (REPL)
 description: Use the interactive window (REPL) for rapid Python code development in Visual Studio.
 ms.date: 02/11/2019
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
@@ -51,7 +51,7 @@ Finally, you can select code in file and use the [**Send to Interactive** comman
 
 ## Interactive window options
 
-You can control various aspects of the **Interactive** window through **Tools** > **Options** > **Python Tools** > **Interactive Windows** (see [Options](python-support-options-and-settings-in-visual-studio.md)):
+You can control various aspects of the **Interactive** window through **Tools** > **Options** > **Python** > **Interactive Windows** (see [Options](python-support-options-and-settings-in-visual-studio.md)):
 
 ![Python interactive window options](media/options-interactive-windows.png)
 
@@ -107,7 +107,11 @@ This command is useful for iterative or evolutionary code development, including
 
 <!-- After 15.3 is released, you can also press **Undo** after pasting to restore prompts. Press **Undo** a second time to remove the pasted code entirely. -->
 
-When using a code file as a scratchpad, you often have a small block of code you want to send all at once. To group code together, mark the code as a *code cell* by adding a comment starting with `#%%` to the beginning of the cell, which ends the previous one. Code cells can be collapsed and expanded, and using **Ctrl**+**Enter** inside a code cell sends the entire cell to the **Interactive** window and moves to the next one.
+## Work with code cells
+
+Code cells can be used in data analysis and are supported by a variety of text editors.
+
+For example, when using a code file as a scratchpad, you often have a small block of code you want to send all at once. To group code together, mark the code as a *code cell* by adding a comment starting with `#%%` to the beginning of the cell, which ends the previous one. Code cells can be collapsed and expanded, and using **Ctrl**+**Enter** inside a code cell sends the entire cell to the **Interactive** window and moves to the next one.
 
 Visual Studio also detects code cells starting with comments like `# In[1]:`, which is the format you get when exporting a Jupyter notebook as a Python file. This detection makes it easy to run a notebook from [Azure Notebooks](https://notebooks.azure.com/) by downloading as a Python file, opening in Visual Studio, and using **Ctrl**+**Enter** to run each cell.
 
@@ -117,4 +121,4 @@ Visual Studio also detects code cells starting with comments like `# In[1]:`, wh
 
 The **Interactive** window includes IntelliSense based on the live objects, unlike the code editor in which IntelliSense is based on source code analysis only. These suggestions are more correct in the **Interactive** window, especially with dynamically generated code. The drawback is that functions with side-effects (such as logging messages) may impact your development experience.
 
-If this behavior is a problem, change the settings under **Tools** > **Options** > **Python Tools** > **Interactive Windows** in the **Completion Mode** group, as described on [Options - Interactive windows options](python-support-options-and-settings-in-visual-studio.md#interactive-windows-options).
+If this behavior is a problem, change the settings under **Tools** > **Options** > **Python** > **Interactive Windows** in the **Completion Mode** group, as described on [Options - Interactive windows options](python-support-options-and-settings-in-visual-studio.md#interactive-windows-options).

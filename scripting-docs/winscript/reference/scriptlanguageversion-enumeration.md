@@ -2,7 +2,6 @@
 title: "SCRIPTLANGUAGEVERSION Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -31,5 +30,5 @@ typedef enum tagSCRIPTLANGUAGEVERSION{    SCRIPTLANGUAGEVERSION_DEFAULT = 0,    
 |SCRIPTLANGUAGEVERSION_5_8|Windows Scripting version 5.8. The integer value is 2.|  
 |SCRIPTLANGUAGEVERSION_MAX|The maximum version. The integer value is 255.|  
   
-## See Also  
+## See also  
  [Active Script Constants, Enumerations, and Error Codes](../../winscript/reference/active-script-constants-enumerations-and-error-codes.md)

@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "WPF Designer, data binding"
   - "data binding, WPF"
 ms.assetid: e05a1e0c-5082-479d-bbc9-d395b0bc6580
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"
@@ -21,7 +21,7 @@ ms.workload:
 
 You can display data to users of your application by binding data to [!INCLUDE[TLA#tla_titlewinclient](../data-tools/includes/tlasharptla_titlewinclient_md.md)] controls. To create these data-bound controls, you can drag items from the **Data Sources** window onto the [!INCLUDE[wpfdesigner_current_short](../data-tools/includes/wpfdesigner_current_short_md.md)] in Visual Studio. This topic describes some of the most common tasks, tools, and classes that you can use to create data-bound [!INCLUDE[TLA#tla_titlewinclient](../data-tools/includes/tlasharptla_titlewinclient_md.md)] applications.
 
-For general information about how to create data-bound controls in Visual Studio, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md). For more information about [!INCLUDE[TLA#tla_titlewinclient](../data-tools/includes/tlasharptla_titlewinclient_md.md)] data binding, see [Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview).
+For general information about how to create data-bound controls in Visual Studio, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md). For more information about [!INCLUDE[TLA#tla_titlewinclient](../data-tools/includes/tlasharptla_titlewinclient_md.md)] data binding, see [Data Binding Overview](/dotnet/desktop-wpf/data/data-binding-overview).
 
 ## Tasks involved in binding WPF controls to data
 
@@ -55,9 +55,9 @@ The following table lists the [!INCLUDE[TLA#tla_titlexaml](../data-tools/include
 
 When you drag a table or column from the **Data Sources** window to the designer, Visual Studio generates [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] that does the following:
 
--   Adds the dataset and a new <xref:System.Windows.Data.CollectionViewSource> to the resources of the container you dragged the item to. The <xref:System.Windows.Data.CollectionViewSource> is an object that can be used to navigate and display the data in the dataset.
+- Adds the dataset and a new <xref:System.Windows.Data.CollectionViewSource> to the resources of the container you dragged the item to. The <xref:System.Windows.Data.CollectionViewSource> is an object that can be used to navigate and display the data in the dataset.
 
--   Creates a data binding for a control. If you drag the item to an existing control in the designer, the XAML binds the control to the item. If you drag the item to a container, the XAML creates the control that was selected for the dragged item, and it binds the control to the item. The control is created inside a new <xref:System.Windows.Controls.Grid>.
+- Creates a data binding for a control. If you drag the item to an existing control in the designer, the XAML binds the control to the item. If you drag the item to a container, the XAML creates the control that was selected for the dragged item, and it binds the control to the item. The control is created inside a new <xref:System.Windows.Controls.Grid>.
 
 Visual Studio also makes the following changes to the code-behind file:
 
@@ -96,9 +96,9 @@ When you drag an object or property from the **Data Sources** window to the desi
 
 Visual Studio generates [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] that does the following:
 
--   Adds a new <xref:System.Windows.Data.CollectionViewSource> to the resources of the container that you dragged the item to. The <xref:System.Windows.Data.CollectionViewSource> is an object that can be used to navigate and display the data in the object.
+- Adds a new <xref:System.Windows.Data.CollectionViewSource> to the resources of the container that you dragged the item to. The <xref:System.Windows.Data.CollectionViewSource> is an object that can be used to navigate and display the data in the object.
 
--   Creates a data binding for a control. If you drag the item to an existing control in the designer, the XAML binds the control to the item. If you drag the item to a container, the XAML creates the control that was selected for the dragged item, and it binds the control to the item. The control is created inside a new <xref:System.Windows.Controls.Grid>.
+- Creates a data binding for a control. If you drag the item to an existing control in the designer, the XAML binds the control to the item. If you drag the item to a container, the XAML creates the control that was selected for the dragged item, and it binds the control to the item. The control is created inside a new <xref:System.Windows.Controls.Grid>.
 
 ## See also
 

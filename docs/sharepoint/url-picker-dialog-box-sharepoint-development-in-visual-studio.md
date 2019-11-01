@@ -1,5 +1,5 @@
 ---
-title: "URL Picker Dialog Box (SharePoint development in Visual Studio) | Microsoft Docs"
+title: "URL picker dialog box (SharePoint development)"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

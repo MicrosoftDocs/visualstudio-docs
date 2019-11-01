@@ -13,7 +13,6 @@ manager: jillfra
 # Programming Visual Studio Tools for Unity
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In this section, you'll find examples for using the Visual Studio Tools for Unity API.  
   
 ## Examples  

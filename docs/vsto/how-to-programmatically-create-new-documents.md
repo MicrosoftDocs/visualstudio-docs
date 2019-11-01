@@ -20,11 +20,11 @@ ms.workload:
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
 
- When you develop a document-level project, you cannot programmatically add <xref:Microsoft.Office.Tools.Word.Document> host items to your project. In a VSTO Add-in project, you can convert any <xref:Microsoft.Office.Interop.Word.Document> object to a <xref:Microsoft.Office.Tools.Word.Document> host item at run time. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
+ When you develop a document-level project, you cannot programmatically add <xref:Microsoft.Office.Tools.Word.Document> host items to your project. In a VSTO Add-in project, you can convert any <xref:Microsoft.Office.Interop.Word.Document> object to a <xref:Microsoft.Office.Tools.Word.Document> host item at run time. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
 
 ## To create a new document based on the Normal template
 
--   Use the <xref:Microsoft.Office.Interop.Word.Documents.Add%2A> method of the <xref:Microsoft.Office.Interop.Word.Documents> collection to create a new document based on the Normal template. To use this code example, run it from the `ThisDocument` or `ThisAddIn` class in your project.
+- Use the <xref:Microsoft.Office.Interop.Word.Documents.Add%2A> method of the <xref:Microsoft.Office.Interop.Word.Documents> collection to create a new document based on the Normal template. To use this code example, run it from the `ThisDocument` or `ThisAddIn` class in your project.
 
      [!code-vb[Trin_VstcoreWordAutomation#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#1)]
      [!code-csharp[Trin_VstcoreWordAutomation#1](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#1)]
@@ -34,7 +34,7 @@ ms.workload:
 
 ### To create a new document based on a custom template
 
--   Call the <xref:Microsoft.Office.Interop.Word.Documents.Add%2A> method of the <xref:Microsoft.Office.Interop.Word.Documents> collection and specify the path to the template. To use this code example, run it from the `ThisDocument` or `ThisAddIn` class in your project.
+- Call the <xref:Microsoft.Office.Interop.Word.Documents.Add%2A> method of the <xref:Microsoft.Office.Interop.Word.Documents> collection and specify the path to the template. To use this code example, run it from the `ThisDocument` or `ThisAddIn` class in your project.
 
      [!code-vb[Trin_VstcoreWordAutomation#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#2)]
      [!code-csharp[Trin_VstcoreWordAutomation#2](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#2)]

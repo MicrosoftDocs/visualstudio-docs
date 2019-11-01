@@ -1,0 +1,65 @@
+### YamlMime:Landing
+
+title: Measure app performance in Visual Studio # < 60 chars
+summary: Profiling and diagnostics tools help you diagnose memory and CPU usage and other application-level issues. With these tools, you can accumulate performance data while you run your application. # < 160 chars
+
+metadata:
+  title: Measure performance in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Learn how to use Visual Studio to measure performance using profiling tools.
+  ms.topic: landing-page
+  author: mikejo5000
+  ms.author: mikejo
+  manager: jillfra
+  ms.date: 10/30/2019
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: About profiling
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: First look at profiling tools
+            url: profiling-feature-tour.md
+      - linkListType: concept
+        links:
+         - text: Ways to run profiling tools
+           url: running-profiling-tools-with-or-without-the-debugger.md
+
+  # Card (optional)
+  - title: Get started
+    linkLists:
+      - linkListType: quickstart
+        links:
+          - text: Analyze CPU usage (C#, Visual Basic)
+            url: quickstart-cpu-usage-managed.md
+          - text: Analyze CPU usage (C++)
+            url: quickstart-cpu-usage-native.md
+          - text: Analyze CPU usage (ASP.NET)
+            url: quickstart-cpu-usage-aspnet.md
+      - linkListType: tutorial
+        links:
+          - text: Get started analyzing CPU usage
+            url: beginners-guide-to-performance-profiling.md
+          - text: Get started measuring memory usage
+            url: memory-usage.md
+
+  # Card (optional)
+  - title: More performance tools
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: PerfTips
+            url: perftips.md
+          - text: Analyze resource consumption (XAML)
+            url: application-timeline.md
+          - text: Analyze GPU usage (Direct3D)
+            url: gpu-usage.md
+          - text: Analyze network usage (UWP)
+            url: network-usage.md
+          - text: Analyze energy usage (UWP)
+            url: analyze-energy-use-in-store-apps.md
+          

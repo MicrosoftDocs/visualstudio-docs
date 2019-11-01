@@ -45,6 +45,6 @@ Reviews the basic architecture of DIA.
 
 Provides step-by-step instructions on how to use the DIA API to query a .pdb file.
 
-## See Also
+## See also
 
 - [Debug Interface Access SDK](../../debugger/debug-interface-access/debug-interface-access-sdk.md)

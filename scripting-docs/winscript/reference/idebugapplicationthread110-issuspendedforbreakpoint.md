@@ -2,7 +2,6 @@
 title: "IDebugApplicationThread110::IsSuspendedForBreakPoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,7 +18,7 @@ manager: "ghogen"
 Determines whether [IDebugApplicationThreadEvents110::OnSuspendForBreakPoint](../../winscript/reference/idebugapplicationthreadevents110-onsuspendforbreakpoint.md) has been called on this thread and has not yet completed.  
   
 > [!IMPORTANT]
->  [IDebugApplicationThread110 Interface](../../winscript/reference/idebugapplicationthread110-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> [IDebugApplicationThread110 Interface](../../winscript/reference/idebugapplicationthread110-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   
@@ -31,5 +30,5 @@ HRESULT IsSuspendedForBreakPoint([out, annotation("_Out_")] BOOL * pfIsSuspended
  `pfIsSuspended`  
  [out] `true` if the thread is suspended for a breakpoint, otherwise `false`.  
   
-## See Also  
+## See also  
  [IDebugApplicationThread110 Interface](../../winscript/reference/idebugapplicationthread110-interface.md)

@@ -23,7 +23,7 @@ You may want to persist a property you add to a project item, such as the author
   
 ### To obtain the project hierarchy with the DTE object  
   
-1.  Add the following code to your VSPackage:  
+1. Add the following code to your VSPackage:  
   
     ```csharp  
     EnvDTE.DTE dte = (EnvDTE.DTE)Package.GetGlobalService(typeof(EnvDTE.DTE));  
@@ -37,7 +37,7 @@ You may want to persist a property you add to a project item, such as the author
   
 ### To persist the project item property with the DTE object  
   
-1.  Add the following code to the code given in the method in the previous procedure:  
+1. Add the following code to the code given in the method in the previous procedure:  
   
     ```csharp  
     IVsBuildPropertyStorage buildPropertyStorage =   
@@ -54,7 +54,7 @@ You may want to persist a property you add to a project item, such as the author
   
 ### To obtain the project hierarchy using IVsMonitorSelection  
   
-1.  Add the following code to your VSPackage:  
+1. Add the following code to your VSPackage:  
   
     ```csharp  
     IVsHierarchy hierarchy = null;  
@@ -96,11 +96,11 @@ You may want to persist a property you add to a project item, such as the author
     }  
     ```  
   
-2.  
+2. 
   
 ### To persist the selected project item property, given the project hierarchy  
   
-1.  Add the following code to the code given in the method in the previous procedure:  
+1. Add the following code to the code given in the method in the previous procedure:  
   
     ```  
     IVsBuildPropertyStorage buildPropertyStorage =   
@@ -113,16 +113,16 @@ You may want to persist a property you add to a project item, such as the author
   
 ### To verify that the property is persisted  
   
-1.  Start [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and then open or create a solution.  
+1. Start [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and then open or create a solution.  
   
-2.  Select the project item VsPkg.cs in **Solution Explorer**.  
+2. Select the project item VsPkg.cs in **Solution Explorer**.  
   
-3.  Use a breakpoint or otherwise determine that your VSPackage is loaded and that SetItemAttribute runs.  
+3. Use a breakpoint or otherwise determine that your VSPackage is loaded and that SetItemAttribute runs.  
   
     > [!NOTE]
-    >  You can autoload a VSPackage in the UI context <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionExists_guid>. For more information, see [Loading VSPackages](../extensibility/loading-vspackages.md).  
+    > You can autoload a VSPackage in the UI context <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionExists_guid>. For more information, see [Loading VSPackages](../extensibility/loading-vspackages.md).  
   
-4.  Close [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and then open the project file in Notepad. You should see the \<Author> tag with the value Tom, as follows:  
+4. Close [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and then open the project file in Notepad. You should see the \<Author> tag with the value Tom, as follows:  
   
     ```  
     <Compile Include="VsPkg.cs">  

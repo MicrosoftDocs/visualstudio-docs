@@ -21,9 +21,9 @@ ms.workload:
 ---
 # Persist dynamic controls in Office documents
 
-Controls that are added at runtime are not persisted when the document or workbook is saved and closed. The exact behavior is different for host controls and Windows Forms controls. In both cases, you can add code to your solution to re-create the controls when the user reopens the document.
+Controls that are added at run time are not persisted when the document or workbook is saved and closed. The exact behavior is different for host controls and Windows Forms controls. In both cases, you can add code to your solution to re-create the controls when the user reopens the document.
 
-Controls that you add to documents at run time are called *dynamic controls*. For more information about dynamic controls, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+Controls that you add to documents at run time are called *dynamic controls*. For more information about dynamic controls, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
 [!INCLUDE[appliesto_controls](../vsto/includes/appliesto-controls-md.md)]
 
@@ -70,11 +70,11 @@ In VSTO Add-ins, the controls are removed, but the ActiveX wrappers remain in th
 
 You can re-create deleted Windows Forms controls when the user reopens the document. To do this, your solution must perform the following tasks:
 
-1.  Store information about the size, location, and state of the controls when the document is saved or closed. In a document-level customization, you can save the data to the data cache in the document. In a VSTO Add-in, you can save the data to a custom XML part in the document.
+1. Store information about the size, location, and state of the controls when the document is saved or closed. In a document-level customization, you can save the data to the data cache in the document. In a VSTO Add-in, you can save the data to a custom XML part in the document.
 
-2.  Re-create the controls in an event that is raised when the document is opened. In document-level projects, you can do this in the `Sheet`*n*`_Startup` or `ThisDocument_Startup` event handlers. In VSTO Add-in projects, you can do this in the event handlers for the <xref:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookOpen> or <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentOpen> events.
+2. Re-create the controls in an event that is raised when the document is opened. In document-level projects, you can do this in the `Sheet`*n*`_Startup` or `ThisDocument_Startup` event handlers. In VSTO Add-in projects, you can do this in the event handlers for the <xref:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookOpen> or <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentOpen> events.
 
-###  <a name="removingActiveX"></a> Remove ActiveX wrappers in an Add-in
+### <a name="removingActiveX"></a> Remove ActiveX wrappers in an Add-in
 
 When you add dynamic Windows Forms controls to documents by using a VSTO Add-in, you can prevent the ActiveX wrappers for the controls from appearing in the document the next time it is opened in the following ways.
 
@@ -89,7 +89,7 @@ The following code example demonstrates how to call the `GetVstoObject` method w
 [!code-vb[Trin_WordAddInDynamicControls#11](../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb#11)]
 [!code-csharp[Trin_WordAddInDynamicControls#11](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs#11)]
 
-Although the `GetVstoObject` method is used primarily to generate a new host item at runtime, this method also clears all ActiveX wrappers from the document the first time it is called for a specific document. For more information about how to use the `GetVstoObject` method, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
+Although the `GetVstoObject` method is used primarily to generate a new host item at run time, this method also clears all ActiveX wrappers from the document the first time it is called for a specific document. For more information about how to use the `GetVstoObject` method, see [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
 
 If your VSTO Add-in creates dynamic controls when the document is opened, your VSTO Add-in will already call the `GetVstoObject` method as part of the process to create the controls. You do not need to add a separate call to the `GetVstoObject` method to remove the ActiveX wrappers in this scenario.
 
@@ -104,4 +104,4 @@ The following code example demonstrates how to remove all of the Windows Forms c
 
 ## See also
 
-- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)

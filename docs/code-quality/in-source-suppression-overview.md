@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "source suppression, code analysis"
   - "code analysis, source suppression"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 dev_langs:
  - CSharp
@@ -26,10 +26,21 @@ In C++/CLI, use the macros CA\_SUPPRESS\_MESSAGE or CA\_GLOBAL\_SUPPRESS_MESSAGE
 > [!NOTE]
 > You should not use in-source suppressions on release builds, to prevent shipping the in-source suppression metadata accidentally. Additionally, because of the processing cost of in-source suppression, the performance of your application can be degraded.
 
+::: moniker range="vs-2017"
+
 > [!NOTE]
-> If you migrate a project to Visual Studio 2017, you might suddenly be faced with a large number of code analysis warnings. These warnings are coming from [Roslyn analyzers](roslyn-analyzers-overview.md). If you aren't ready to fix the warnings, you can suppress all of them by choosing **Analyze** > **Run Code Analysis and Suppress Active Issues**.
+> If you migrate a project to Visual Studio 2017, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings, you can suppress all of them by choosing **Analyze** > **Run Code Analysis and Suppress Active Issues**.
 >
 > ![Run code analysis and suppress issues in Visual Studio](media/suppress-active-issues.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+> [!NOTE]
+> If you migrate a project to Visual Studio 2019, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings, you can suppress all of them by choosing **Analyze** > **Build and Suppress Active Issues**.
+
+::: moniker-end
 
 ## SuppressMessage attribute
 
@@ -61,17 +72,17 @@ The properties of the attribute include:
 
 - **Scope** - The target on which the warning is being suppressed. If the target is not specified, it is set to the target of the attribute. Supported [scopes](xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope) include the following:
 
-   - `module`
+  - `module`
 
-   - `resource`
+  - `resource`
 
-   - `type`
+  - `type`
 
-   - `member`
+  - `member`
 
-   - `namespace` - This scope suppresses warnings against the namespace itself. It does not suppress warnings against types within the namespace.
+  - `namespace` - This scope suppresses warnings against the namespace itself. It does not suppress warnings against types within the namespace.
 
-   - `namespaceanddescendants` - (New for Visual Studio 2019) This scope suppresses warnings in a namespace and all its descendant symbols. The `namespaceanddescendants` value is only valid for Roslyn analyzers, and is ignored by binary, FxCop-based static analysis.
+  - `namespaceanddescendants` - (New for Visual Studio 2019) This scope suppresses warnings in a namespace and all its descendant symbols. The `namespaceanddescendants` value is ignored by legacy analysis.
 
 - **Target** - An identifier that is used to specify the target on which the warning is being suppressed. It must contain a fully qualified item name.
 
@@ -93,9 +104,9 @@ For maintainability reasons, omitting the rule name is not recommended.
 
 Suppression attributes can be applied to a method, but cannot be embedded within a method body. This means that all violations of a particular rule are suppressed if you add the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to the method.
 
-In some cases, you might want to suppress a particular instance of the violation, for example so that future code isn't automatically exempt from the code analysis rule. Certain code analysis rules allow you to do this by using the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. In general, legacy rules for violations on a particular symbol (a local variable or parameter) respect the `MessageId` property. [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500-variable-names-should-not-match-field-names.md) is an example of such a rule. However, legacy rules for violations on executable code (non-symbol) do not respect the `MessageId` property. Additionally, .NET Compiler Platform ("Roslyn") analyzers do not respect the `MessageId` property.
+In some cases, you might want to suppress a particular instance of the violation, for example so that future code isn't automatically exempt from the code analysis rule. Certain code analysis rules allow you to do this by using the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. In general, legacy rules for violations on a particular symbol (a local variable or parameter) respect the `MessageId` property. [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500.md) is an example of such a rule. However, legacy rules for violations on executable code (non-symbol) do not respect the `MessageId` property. Additionally, .NET Compiler Platform ("Roslyn") analyzers do not respect the `MessageId` property.
 
-To suppress a particular symbol violation of a rule, specify the symbol name for the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. The following example shows code with two violations of [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500-variable-names-should-not-match-field-names.md)&mdash;one for the `name` variable and one for the `age` variable. Only the violation for the `age` symbol is suppressed.
+To suppress a particular symbol violation of a rule, specify the symbol name for the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. The following example shows code with two violations of [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500.md)&mdash;one for the `name` variable and one for the `age` variable. Only the violation for the `age` symbol is suppressed.
 
 ```vb
 Public Class Animal
@@ -165,4 +176,4 @@ The global suppression file maintains suppressions that are either global-level 
 
 - <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope>
 - <xref:System.Diagnostics.CodeAnalysis>
-- [Use Roslyn analyzers](../code-quality/use-roslyn-analyzers.md)
+- [Use code analyzers](../code-quality/use-roslyn-analyzers.md)

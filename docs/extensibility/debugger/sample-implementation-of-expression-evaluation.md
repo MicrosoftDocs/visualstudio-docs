@@ -7,28 +7,28 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], expression evaluators"
   - "expression evaluation, examples"
 ms.assetid: 2a5f04b8-6c65-4232-bddd-9093653a22c4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
 ---
 # Sample implementation of expression evaluation
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
+> In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
  For a **Watch** window expression, Visual Studio calls [ParseText](../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md) to produce an [IDebugExpression2](../../extensibility/debugger/reference/idebugexpression2.md) object. `IDebugExpressionContext2::ParseText` instantiates an expression evaluator (EE) and calls [Parse](../../extensibility/debugger/reference/idebugexpressionevaluator-parse.md) to get an [IDebugParsedExpression](../../extensibility/debugger/reference/idebugparsedexpression.md) object.
 
  The `IDebugExpressionEvaluator::Parse` performs the following tasks:
 
-1.  [C++ only] Parses the expression to look for errors.
+1. [C++ only] Parses the expression to look for errors.
 
-2.  Instantiates a class (called `CParsedExpression` in this example) that runs the `IDebugParsedExpression` interface and stores in the class the expression to be parsed.
+2. Instantiates a class (called `CParsedExpression` in this example) that runs the `IDebugParsedExpression` interface and stores in the class the expression to be parsed.
 
-3.  Returns the `IDebugParsedExpression` interface from the `CParsedExpression` object.
+3. Returns the `IDebugParsedExpression` interface from the `CParsedExpression` object.
 
 > [!NOTE]
->  In the examples that follow and in the MyCEE sample, the expression evaluator does not separate the parsing from the evaluation.
+> In the examples that follow and in the MyCEE sample, the expression evaluator does not separate the parsing from the evaluation.
 
 ## Managed code
  The following code shows an implementation of `IDebugExpressionEvaluator::Parse` in managed code. This version of the method defers the parsing to [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) as the code for parsing also evaluates at the same time (see [Evaluate a Watch expression](../../extensibility/debugger/evaluating-a-watch-expression.md)).

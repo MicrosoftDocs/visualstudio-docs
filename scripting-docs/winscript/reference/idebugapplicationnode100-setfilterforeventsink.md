@@ -2,7 +2,6 @@
 title: "IDebugApplicationNode100::SetFilterForEventSink | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,7 +18,7 @@ manager: "ghogen"
 Sets the filter on a particular [IDebugApplicationNodeEvents Interface](../../winscript/reference/idebugapplicationnodeevents-interface.md) implementation. It allows script debuggers to filter out compiler-generated child application nodes so that the PDM will no longer send events when these are created or removed. By default, all nodes will be sent.  
   
 > [!IMPORTANT]
->  [IDebugApplicationNode100 Interface](../../winscript/reference/idebugapplicationnode100-interface.md) is implemented by PDM v10.0 and greater. Found in activdbg100.h.  
+> [IDebugApplicationNode100 Interface](../../winscript/reference/idebugapplicationnode100-interface.md) is implemented by PDM v10.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   
@@ -34,5 +33,5 @@ HRESULT SetFilterForEventSink(        [in] DWORD dwCookie,        [in] APPLICATI
  `filter`  
  The filter.  
   
-## See Also  
+## See also  
  [IDebugApplicationNode100 Interface](../../winscript/reference/idebugapplicationnode100-interface.md)

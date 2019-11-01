@@ -33,7 +33,7 @@ HRESULT get_noInline(
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 > [!NOTE]
->  A return value of `S_FALSE` means the property is not available for the symbol.
+> A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## Requirements
 
@@ -42,6 +42,6 @@ HRESULT get_noInline(
 |Header:|dia2.h|
 |Version:|DIA SDK v8.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [noinline](/cpp/cpp/noinline)

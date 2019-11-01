@@ -58,4 +58,4 @@ A VSPackage and its supporting files must be on a user's file system. The locati
 ## See Also  
  [Choosing Between Shared and Versioned VSPackages](../../extensibility/choosing-between-shared-and-versioned-vspackages.md)   
  [Managing VSPackages](../../extensibility/managing-vspackages.md)   
- [Managed Package Registration](http://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)
+ [Managed Package Registration](https://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)

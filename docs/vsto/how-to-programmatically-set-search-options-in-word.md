@@ -32,7 +32,7 @@ ms.workload:
 
 ### To set search options using a Find object
 
-1.  Set the properties of a <xref:Microsoft.Office.Interop.Word.Find> object to search forward through a selection for the text **find me**.
+1. Set the properties of a <xref:Microsoft.Office.Interop.Word.Find> object to search forward through a selection for the text **find me**.
 
      [!code-vb[Trin_VstcoreWordAutomation#76](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#76)]
 
@@ -41,7 +41,7 @@ ms.workload:
 
 ### To set search options using Execute method arguments
 
-1.  Pass search criteria as parameters of the <xref:Microsoft.Office.Interop.Word.Find.Execute%2A> method to search forward through a selection for the text **find me**.
+1. Pass search criteria as parameters of the <xref:Microsoft.Office.Interop.Word.Find.Execute%2A> method to search forward through a selection for the text **find me**.
 
      [!code-vb[Trin_VstcoreWordAutomation#77](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#77)]
      [!code-csharp[Trin_VstcoreWordAutomation#77](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#77)]

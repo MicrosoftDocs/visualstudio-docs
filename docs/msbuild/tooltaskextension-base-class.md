@@ -2,8 +2,6 @@
 title: "ToolTaskExtension Base Class | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
-f1_keywords:
-  - "MSBuild.ToolTask.ToolCommandFailed"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -21,7 +19,6 @@ Many tasks inherit from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class
 
 ## Parameters
  The following table describes the parameters of the base classes.
-
 
 | Parameter | Description |
 | - | - |

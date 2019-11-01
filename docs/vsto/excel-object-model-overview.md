@@ -1,6 +1,6 @@
 ---
 title: "Excel Object model overview"
-ms.date: "02/02/2017"
+ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -33,13 +33,13 @@ ms.workload:
 
   [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
 
+[!include[Add-ins note](includes/addinsnote.md)]
+
   The object model closely follows the user interface. The <xref:Microsoft.Office.Interop.Excel.Application> object represents the entire application, and each <xref:Microsoft.Office.Interop.Excel.Workbook> object contains a collection of `Worksheet` objects. From there, the major abstraction that represents cells is the <xref:Microsoft.Office.Interop.Excel.Range> object, which enables you to work with individual cells or groups of cells.
 
   In addition to the Excel object model, Office projects in Visual Studio provide *host items* and *host controls* that extend some objects in the Excel object model. Host items and host controls behave like the Excel objects they extend, but they also have additional functionality such as data-binding capabilities and extra events. For more information, see [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md) and [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).
 
   This topic provides a brief overview of the Excel object model. For resources where you can learn more about the entire Excel object model, see [Use the Excel object model documentation](#ExcelOMDocumentation).
-
-  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use event handlers in an Excel 2007 Add-in?](http://go.microsoft.com/fwlink/?LinkID=130291), and [How do I: Use shapes to create a bubble chart in Excel?](http://go.microsoft.com/fwlink/?LinkID=130313).
 
 ## Access objects in an Excel project
  When you create a new VSTO Add-in project for Excel, Visual Studio automatically creates a *ThisAddIn.vb* or *ThisAddIn.cs* code file. You can access the Application object by using `Me.Application` or `this.Application`.
@@ -74,7 +74,7 @@ ms.workload:
  The Excel <xref:Microsoft.Office.Interop.Excel.Application> object represents the Excel application itself. The <xref:Microsoft.Office.Interop.Excel.Application> object exposes a great deal of information about the running application, the options applied to that instance, and the current user objects open within the instance.
 
 > [!NOTE]
->  You should not set the <xref:Microsoft.Office.Interop.Excel.ApplicationClass.EnableEvents%2A> property of the <xref:Microsoft.Office.Interop.Excel.Application> object in Excel to **false**. Setting this property to false prevents Excel from raising any events, including the events of host controls.
+> You should not set the <xref:Microsoft.Office.Interop.Excel.ApplicationClass.EnableEvents%2A> property of the <xref:Microsoft.Office.Interop.Excel.Application> object in Excel to **false**. Setting this property to false prevents Excel from raising any events, including the events of host controls.
 
 ### Workbook object
  The <xref:Microsoft.Office.Interop.Excel.Workbook> object represents a single workbook within the Excel application.
@@ -93,16 +93,16 @@ ms.workload:
 
  Visual Studio extends the <xref:Microsoft.Office.Interop.Excel.Range> object by providing the <xref:Microsoft.Office.Tools.Excel.NamedRange> and <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> types. These types have most of the same features as a <xref:Microsoft.Office.Interop.Excel.Range> object, as well as new features such as the data binding capability and new events. For more information, see [NamedRange control](../vsto/namedrange-control.md) and [XmlMappedRange control](../vsto/xmlmappedrange-control.md).
 
-##  <a name="ExcelOMDocumentation"></a> Use the Excel object model documentation
+## <a name="ExcelOMDocumentation"></a> Use the Excel object model documentation
  For complete information about the Excel object model, you can refer to the Excel primary interop assembly (PIA) reference and the VBA object model reference.
 
 ### Primary interop assembly reference
- The Excel PIA reference documentation describes the types in the primary interop assembly for Excel. This documentation is available from the following location: [Excel 2010 primary interop assembly reference](http://go.microsoft.com/fwlink/?LinkId=189585).
+ The Excel PIA reference documentation describes the types in the primary interop assembly for Excel. This documentation is available from the following location: [Excel 2010 primary interop assembly reference](/visualstudio/vsto/office-primary-interop-assemblies&view=vs-2019).
 
- For more information about the design of the Excel PIA, such as the differences between classes and interfaces in the PIA and how events in the PIA are implemented, see [Overview of classes and interfaces in the Office primary interop assemblies](http://go.microsoft.com/fwlink/?LinkId=189592).
+ For more information about the design of the Excel PIA, such as the differences between classes and interfaces in the PIA and how events in the PIA are implemented, see [Overview of classes and interfaces in the Office primary interop assemblies](/previous-versions/office/office-12/ms247299(v=office.12)).
 
 ### VBA object model reference
- The VBA object model reference documents the Excel object model as it is exposed to Visual Basic for Applications (VBA) code. For more information, see [Excel 2010 object model reference](http://go.microsoft.com/fwlink/?LinkId=199768).
+ The VBA object model reference documents the Excel object model as it is exposed to Visual Basic for Applications (VBA) code. For more information, see [Excel 2010 object model reference](/office/vba/api/overview/Excel/object-model).
 
  All of the objects and members in the VBA object model reference correspond to types and members in the Excel PIA. For example, the Worksheet object in the VBA object model reference corresponds to the <xref:Microsoft.Office.Interop.Excel.Worksheet> object in the Excel PIA. Although the VBA object model reference provides code examples for most properties, methods, and events, you must translate the VBA code in this reference to Visual Basic or Visual C# if you want to use them in an Excel project that you create by using Visual Studio.
 

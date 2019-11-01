@@ -23,7 +23,6 @@ Creates a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]-style manifest
 ## Parameters
  The following table describes the parameters of the [CreateCSharpManifestResourceName task](../msbuild/createcsharpmanifestresourcename-task.md).
 
-
 | Parameter | Description |
 | - | - |
 | `ManifestResourceNames` | <xref:Microsoft.Build.Framework.ITaskItem> `[]` output read-only parameter.<br /><br /> The resulting manifest names. |

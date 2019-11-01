@@ -2,7 +2,6 @@
 title: "IProcessDebugManager::GetDefaultApplication | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -46,5 +45,5 @@ HRESULT GetDefaultApplication(
   
  Language engines should use the application specified by the `GetDefaultApplication` method if they are running on a host that does not provide an application.  
   
-## See Also  
+## See also  
  [IProcessDebugManager Interface](../../winscript/reference/iprocessdebugmanager-interface.md)

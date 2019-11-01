@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "list threads command"
   - "Debug.ListThreads command"
 ms.assetid: 34b665c0-d46f-4c1a-a066-b678eba5ac54
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -25,12 +25,12 @@ Debug.ListThreads [index]
 ```
 
 ## Arguments
- `index`
+`index`
 
- Optional. Selects a thread by its index to be the current thread.
+Optional. Selects a thread by its index to be the current thread.
 
 ## Remarks
- When specified, the `index` argument marks the indicated thread as the current thread. An asterisk (*) is displayed in the list next to the current thread.
+When specified, the `index` argument marks the indicated thread as the current thread. An asterisk (*) is displayed in the list next to the current thread.
 
 ## Example
 
@@ -38,7 +38,7 @@ Debug.ListThreads [index]
 >Debug.ListThreads
 ```
 
-## See Also
+## See also
 
 - [List Call Stack Command](../../ide/reference/list-call-stack-command.md)
 - [List Disassembly Command](../../ide/reference/list-disassembly-command.md)

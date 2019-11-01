@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCoreServer3 interface"
 ms.assetid: 51f5f41b-a5a4-4df0-a703-41f3d1811d7f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -52,6 +52,6 @@ IDebugCoreServer3 : IDebugCoreServer2
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)
 - [GetServer](../../../extensibility/debugger/reference/idebugdefaultport2-getserver.md)

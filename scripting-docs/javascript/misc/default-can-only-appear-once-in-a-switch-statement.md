@@ -20,9 +20,9 @@ You attempted to use the **default** statement more than once within a switch st
   
 ### To correct this error  
   
--   Remove any extra **default** case statements from your `switch` statement (use at most one default case statement in your switch statement).  
+- Remove any extra **default** case statements from your `switch` statement (use at most one default case statement in your switch statement).  
   
-## See Also  
+## See also  
  [switch Statement](../../javascript/reference/switch-statement-javascript.md)   
  [Controlling Program Flow](../../javascript/controlling-program-flow-javascript.md)   
  [JavaScript Reserved Words](../../javascript/reference/javascript-reserved-words.md)

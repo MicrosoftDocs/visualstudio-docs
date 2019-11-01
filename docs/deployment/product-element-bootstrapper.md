@@ -139,7 +139,7 @@ ProductCode
 |`ProductCode`|A unique identifier for the product.|
 
 ## Example
- The following code example shows a complete product file for installing the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].
+ The following code example shows a complete product file for installing the .NET Framework.
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>

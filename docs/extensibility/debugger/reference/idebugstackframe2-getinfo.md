@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugStackFrame2::GetInfo"
 ms.assetid: 19c6870b-b94e-453c-bf19-82ce95b79d26
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugStackFrame2::GetInfo
 Gets a description of the stack frame.
@@ -34,23 +37,20 @@ int GetInfo ( 
 );
 ```
 
-#### Parameters
- `dwFieldSpec`
+## Parameters
+`dwFieldSpec`\
+[in] A combination of flags from the [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md) enumeration that specifies which fields of the `pFrameInfo` parameter are to be filled in.
 
- [in] A combination of flags from the [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md) enumeration that specifies which fields of the `pFrameInfo` parameter are to be filled in.
+`nRadix`\
+[in] The radix to be used in formatting any numerical information.
 
- `nRadix`
-
- [in] The radix to be used in formatting any numerical information.
-
- `pFrameInfo`
-
- [out] A [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md) structure that is filled in with the description of the stack frame.
+`pFrameInfo`\
+[out] A [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md) structure that is filled in with the description of the stack frame.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)
 - [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md)
 - [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md)

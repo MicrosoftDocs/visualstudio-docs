@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "peek definition"
   - "go to line"
   - "go to"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -33,7 +33,7 @@ You can use the **Navigate Backward** (**Ctrl**+**-**) and **Navigate Forward** 
 
 You can use the **navigation bar** (the drop-down boxes at the top of the code window) to navigate to code in a codebase. You can choose a type or member to go directly to it. The navigation bar appears when you edit code in a Visual Basic, C#, or C++ code base. In a partial class, members defined outside the current code file may be disabled (they appear in gray).
 
- ![Code navigation bar](../ide/media/vside_navigation_bar.png)
+![Code navigation bar](../ide/media/vside_navigation_bar.png)
 
 You can navigate around the drop-down boxes as follows:
 
@@ -76,7 +76,7 @@ Go To has the following commands, which are available in the **Edit** menu under
 
 - **Go To File** (**Ctrl**+**1**, **Ctrl**+**F**): Move to the specified file in the solution.
 
-- **Go To Recent File** (**Ctrl**+**1**, **Ctrl**+**R**): Move to the specified, recently visited file in the solution (new in Visual Studio 2017 version 15.8).
+- **Go To Recent File** (**Ctrl**+**1**, **Ctrl**+**R**): Move to the specified, recently visited file in the solution.
 
 - **Go To Type** (**Ctrl**+**1**, **Ctrl**+**T**): Move to the specified type in the solution.
 
@@ -99,7 +99,7 @@ Go To Definition takes you to the definition of the selected element. For more i
 Input | Function
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **F12**
-**Mouse** | Right-click on the type name and select **Go To Definition**  OR  press **Ctrl** and click on the type name (new for Visual Studio 2017 version 15.4)
+**Mouse** | Right-click on the type name and select **Go To Definition**  OR  press **Ctrl** and click on the type name
 
 ## Peek Definition
 

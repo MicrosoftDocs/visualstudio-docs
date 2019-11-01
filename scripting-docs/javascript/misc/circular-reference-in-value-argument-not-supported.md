@@ -21,7 +21,7 @@ An attempt has been made to invoke `JSON.stringify` with a value that is not val
   
 ### To correct this error  
   
--   Remove the circular reference from the argument.  
+- Remove the circular reference from the argument.  
   
 ## Example  
  The code in this example causes a runtime error because `john` has a reference to `mary` and `mary` has a reference to `john`. to remove the circular reference, either remove or unset the property `brother` from the `mary` object or the `sister` property from the `john` object.  
@@ -36,7 +36,7 @@ mary.brother = john;
 var error = JSON.stringify(john);  
 ```  
   
-## See Also  
+## See also  
  [JSON Object](../../javascript/reference/json-object-javascript.md)   
  [JSON.parse Function](../../javascript/reference/json-parse-function-javascript.md)   
  [JavaScript Run-time Errors](../../javascript/reference/javascript-run-time-errors.md)

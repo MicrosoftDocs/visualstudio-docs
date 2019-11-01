@@ -15,7 +15,6 @@ manager: jillfra
 # MSBuild Concepts
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] provides a basic XML schema that you can use to control how the build platform builds software. To specify the components in the build and how they are to be built, use these four parts of MSBuild: properties, items, tasks, and targets.  
   
 ## Related Topics  
@@ -31,4 +30,4 @@ manager: jillfra
 |[Walkthrough: Creating an MSBuild Project File from Scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md)|Shows how to create a basic project file incrementally, by using only a text editor.|  
 |[Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md)|Introduces the building blocks of MSBuild and shows how to write, manipulate, and debug MSBuild projects without closing the Visual Studio integrated development environment (IDE).|  
 |[MSBuild Reference](../msbuild/msbuild-reference.md)|Links to documents that contain reference information.|  
-|[MSBuild](http://msdn.microsoft.com/e39f13f7-1e1d-4435-95ca-0c222bca071c)|Presents an overview of the XML schema for a project file and shows how it controls processes that builds software.|
+|[MSBuild](https://msdn.microsoft.com/e39f13f7-1e1d-4435-95ca-0c222bca071c)|Presents an overview of the XML schema for a project file and shows how it controls processes that builds software.|

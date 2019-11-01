@@ -2,7 +2,6 @@
 title: "IDebugApplication110::AsynchronousCallInMainThread | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,7 +18,7 @@ manager: "ghogen"
 Makes an asynchronous call on the main thread.  
   
 > [!IMPORTANT]
->  [IDebugApplication110 Interface](../../winscript/reference/idebugapplication110-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> [IDebugApplication110 Interface](../../winscript/reference/idebugapplication110-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   
@@ -43,5 +42,5 @@ HRESULT AsynchronousCallInMainThread([in] IDebugThreadCall* pptc, [in] DWORD_PTR
  `dwParam3`  
  The third parameter of the call.  
   
-## See Also  
+## See also  
  [IDebugApplication110 Interface](../../winscript/reference/idebugapplication110-interface.md)

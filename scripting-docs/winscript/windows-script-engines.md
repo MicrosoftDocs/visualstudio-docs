@@ -2,7 +2,6 @@
 title: "Windows Script Engines | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -26,7 +25,7 @@ To implement a Microsoft Windows Script engine, create an OLE COM object that su
 |IPersist*|Provides persistence support. Implementation of at least one of the following interfaces is required if [IActiveScriptParse](../winscript/reference/iactivescriptparse.md) is not implemented.<br /><br /> IPersistStorage: Provides support for the DATA={url} attribute in the OBJECT tag.<br /><br /> IPersistStreamInit: Provides support for the same as `IPersistStorage` as well as the DATA="string-encoded byte stream" attribute in the OBJECT tag.<br /><br /> IPersistPropertyBag: Provides support for the PARAM= attribute in the OBJECT tag.|  
   
 > [!NOTE]
->  It is possible that the scripting engine will never be called upon to save or restore a script state through `IPersist*`. Instead, [IActiveScriptParse](../winscript/reference/iactivescriptparse.md) is used by calling [IActiveScriptParse::InitNew](../winscript/reference/iactivescriptparse-initnew.md) to create a blank script, then scriptlets are added and connected to events with [IActiveScriptParse::AddScriptlet](../winscript/reference/iactivescriptparse-addscriptlet.md) and general code is added with [IActiveScriptParse::ParseScriptText](../winscript/reference/iactivescriptparse-parsescripttext.md). Nonetheless, a scripting engine should fully implement at least one `IPersist*` interface (preferably `IPersistStreamInit`), because other host applications may try to make use of them.  
+> It is possible that the scripting engine will never be called upon to save or restore a script state through `IPersist*`. Instead, [IActiveScriptParse](../winscript/reference/iactivescriptparse.md) is used by calling [IActiveScriptParse::InitNew](../winscript/reference/iactivescriptparse-initnew.md) to create a blank script, then scriptlets are added and connected to events with [IActiveScriptParse::AddScriptlet](../winscript/reference/iactivescriptparse-addscriptlet.md) and general code is added with [IActiveScriptParse::ParseScriptText](../winscript/reference/iactivescriptparse-parsescripttext.md). Nonetheless, a scripting engine should fully implement at least one `IPersist*` interface (preferably `IPersistStreamInit`), because other host applications may try to make use of them.  
   
  The following sections describe implementing a Windows Scripting engine in more detail.  
   
@@ -71,5 +70,5 @@ To implement a Microsoft Windows Script engine, create an OLE COM object that su
   
  The script site is never called from within the context of a simple thread state control method (for example, the [IActiveScript::InterruptScriptThread](../winscript/reference/iactivescript-interruptscriptthread.md) method) or from the [IActiveScript::Clone](../winscript/reference/iactivescript-clone.md) method.  
   
-## See Also  
+## See also  
  [Windows Script Interfaces](../winscript/windows-script-interfaces.md)

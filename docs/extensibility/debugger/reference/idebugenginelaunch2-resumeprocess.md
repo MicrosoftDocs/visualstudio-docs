@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEngineLaunch2::ResumeProcess"
 ms.assetid: 61ccc14e-75c6-44e7-aae4-57a9aac52089
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugEngineLaunch2::ResumeProcess
 Resumes process execution.
@@ -30,10 +33,9 @@ int ResumeProcess ( 
 );
 ```
 
-#### Parameters
- `pProcess`
-
- [in] An [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) object that represents the process to be resumed.
+## Parameters
+`pProcess`\
+[in] An [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) object that represents the process to be resumed.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise returns an error code.
@@ -41,7 +43,7 @@ int ResumeProcess ( 
 ## Remarks
  This method is called after a process has been launched with a call to the [LaunchSuspended](../../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md) method.
 
-## See Also
+## See also
 - [IDebugEngineLaunch2](../../../extensibility/debugger/reference/idebugenginelaunch2.md)
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
 - [LaunchSuspended](../../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md)

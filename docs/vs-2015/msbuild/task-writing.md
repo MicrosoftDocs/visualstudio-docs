@@ -17,7 +17,6 @@ manager: jillfra
 # Task Writing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Tasks provide the code that runs during the build process. Tasks are contained in targets. A library of typical tasks is included with [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)], and you can also create your own tasks. For more information about the library of tasks that are included with [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)], see [Task Reference](../msbuild/msbuild-task-reference.md).  
   
 ## Tasks  
@@ -100,7 +99,7 @@ namespace MyTasks
  The [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] file Microsoft.Common.Tasks is a project file that contains a list of `UsingTask` elements that register all the tasks that are supplied with [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]. This file is automatically included when building every project. If a task that is registered in Microsoft.Common.Tasks is also registered in the current project file, the current project file takes precedence; that is, you can override a default task with your own task that has the same name.  
   
 > [!TIP]
->  You can see a list of the tasks that are supplied with [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] by viewing the contents of Microsoft.Common.Tasks.  
+> You can see a list of the tasks that are supplied with [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] by viewing the contents of Microsoft.Common.Tasks.  
   
 ## Raising Events from a Task  
  If your task derives from the <xref:Microsoft.Build.Utilities.Task> helper class, you can use any of the following helper methods on the <xref:Microsoft.Build.Utilities.Task> class to raise events that will be caught and displayed by any registered loggers:  

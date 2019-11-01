@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "IDebugDocumentChecksum2::GetChecksumAndAlgorithmI"
   - "GetChecksumAndAlgorithmI"
 ms.assetid: 25efef99-0ef3-4332-a752-607605fc6e67
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDocumentChecksum2::GetChecksumAndAlgorithmId
 Retrieves the document checksum and algorithm identifier given the maximum number of bytes to use.
@@ -35,22 +38,18 @@ public int GetChecksumAndAlgorithmId(
 );
 ```
 
-#### Parameters
-`pRetVal`
+## Parameters
+`pRetVal`\
+[out] Unique identifier for the checksum algorithm.
 
- [out] Unique identifier for the checksum algorithm.
+`cMaxBytes`\
+[in] Maximum number of bytes to be used for the checksum.
 
-`cMaxBytes`
+`pChecksum`\
+[out] Value of the checksum.
 
- [in] Maximum number of bytes to be used for the checksum.
-
-`pChecksum`
-
- [out] Value of the checksum.
-
-`pcNumBytes`
-
- [out] Actual number of bytes used for the checksum.
+`pcNumBytes`\
+[out] Actual number of bytes used for the checksum.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -121,5 +120,5 @@ HRESULT CDebugCodeContext::GetDocumentChecksumAndAlgorithmId(GUID *pguidAlgorith
 }
 ```
 
-## See Also
+## See also
 - [IDebugDocumentChecksum2](../../../extensibility/debugger/reference/idebugdocumentchecksum2.md)

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugThread2::SetThreadName"
 ms.assetid: fa934121-3f58-44dc-9c30-d3f752e44c8b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugThread2::SetThreadName
 Sets the name of the thread.
@@ -30,10 +33,9 @@ int SetThreadName ( 
 );
 ```
 
-#### Parameters
- `pszName`
-
- [in] The name of the thread.
+## Parameters
+`pszName`\
+[in] The name of the thread.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -41,6 +43,6 @@ int SetThreadName ( 
 ## Remarks
  To get the thread name, call the [GetName](../../../extensibility/debugger/reference/idebugthread2-getname.md) method.
 
-## See Also
+## See also
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
 - [GetName](../../../extensibility/debugger/reference/idebugthread2-getname.md)

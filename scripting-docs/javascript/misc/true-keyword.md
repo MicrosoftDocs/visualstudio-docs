@@ -20,5 +20,5 @@ manager: "ghogen"
 # True Keyword
 The **True** keyword has a value equal to -1.  
   
-## See Also  
+## See also  
  [False (Windows Script Technologies)](../../javascript/misc/false-windows-script-technologies.md)

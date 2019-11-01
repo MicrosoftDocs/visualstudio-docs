@@ -4,11 +4,11 @@ ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-modeling
 ms.topic: reference
-f1_keywords: 
+f1_keywords:
   - "vs.teamarch.componentdiagram.diagram"
   - "vs.teamarch.componentdiagram.toolbox"
   - "vs.teamarch.UMLModelExplorer.componentdiagram"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "UML diagrams, component"
   - "diagrams - modeling, component"
   - "diagrams - modeling, UML component"
@@ -16,29 +16,28 @@ helpviewer_keywords:
   - "component diagrams"
 ms.assetid: 5eddff6a-892a-4c3c-9278-687ac1eccc50
 caps.latest.revision: 38
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # UML Component Diagrams: Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-In Visual Studio, a *component diagram* shows the parts of a design for a software system. A component diagram helps you visualize the high-level structure of the system and the service behavior that those pieces provide and consume through interfaces. To create a UML component diagram, on the **Architecture** menu, click **New UML or Layer Diagram**.  
+In Visual Studio, a *component diagram* shows the parts of a design for a software system. A component diagram helps you visualize the high-level structure of the system and the service behavior that those pieces provide and consume through interfaces. To create a UML component diagram, on the **Architecture** menu, click **New UML or Layer Diagram**.
 
- To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
+ To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
- You can use a component diagram to describe a design that is implemented in any language or style. It is only necessary to identify parts of the design that interact with the other parts of the design through a restricted set of inputs and outputs. The components can be of any scale, and can be interconnected in any manner.  
+ You can use a component diagram to describe a design that is implemented in any language or style. It is only necessary to identify parts of the design that interact with the other parts of the design through a restricted set of inputs and outputs. The components can be of any scale, and can be interconnected in any manner.
 
- For more information about how to use component diagrams in the process of design, see [Model your app's architecture](../modeling/model-your-app-s-architecture.md).  
+ For more information about how to use component diagrams in the process of design, see [Model your app's architecture](../modeling/model-your-app-s-architecture.md).
 
 > [!NOTE]
->  This topic describes the elements that you can use in Component diagrams. For more detailed in information about how to draw Component diagrams see [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams-guidelines.md). For more information about how to draw modeling diagrams in general, see [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
+> This topic describes the elements that you can use in Component diagrams. For more detailed in information about how to draw Component diagrams see [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams-guidelines.md). For more information about how to draw modeling diagrams in general, see [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).
 
-## Reading Component Diagrams  
- The following table describes the elements that you can use on a component diagram, together with their main properties. For a full list of the properties of the elements, see [Properties of elements on UML component diagrams](../modeling/properties-of-elements-on-uml-component-diagrams.md).  
+## Reading Component Diagrams
+ The following table describes the elements that you can use on a component diagram, together with their main properties. For a full list of the properties of the elements, see [Properties of elements on UML component diagrams](../modeling/properties-of-elements-on-uml-component-diagrams.md).
 
- ![Elements used on component diagrams](../modeling/media/uml-compovreading.png "UML_CompOvReading")  
-
+ ![Elements used on component diagrams](../modeling/media/uml-compovreading.png "UML_CompOvReading")
 
 |  **Shape**  |         **Element**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         **Description and Main Properties**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |-------------|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -53,11 +52,11 @@ In Visual Studio, a *component diagram* shows the parts of a design for a softwa
 |      9      |   Collapse/Expand control   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Use this to hide or show a component's internal parts.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | (not shown) |         **Comment**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                For additional notes. You can link a comment to any number of elements on the diagram by using the **Connector** tool.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
-## See Also  
- [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
- [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams-guidelines.md)   
- [Validate your system during development](../modeling/validate-your-system-during-development.md)   
- [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)   
- [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)   
- [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md)   
+## See Also
+ [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)
+ [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams-guidelines.md)
+ [Validate your system during development](../modeling/validate-your-system-during-development.md)
+ [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)
+ [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)
+ [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md)
  [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)

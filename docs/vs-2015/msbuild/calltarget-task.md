@@ -21,7 +21,6 @@ manager: jillfra
 # CallTarget Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Invokes the specified targets within the project file.  
   
 ## Task Parameters  

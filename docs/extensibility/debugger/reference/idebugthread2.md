@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugThread2 interface"
 ms.assetid: 221b4b1b-4a26-466e-bc29-5eff800fab13
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -61,7 +61,7 @@ IDebugThread2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)
 - [GetThread](../../../extensibility/debugger/reference/idebugstackframe2-getthread.md)

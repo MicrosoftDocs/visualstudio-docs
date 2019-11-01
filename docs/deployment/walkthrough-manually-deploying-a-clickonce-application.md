@@ -29,7 +29,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
 
 - Install *Mage.exe* and *MageUI.exe*.
 
-   *Mage.exe* and *MageUI.exe* are part of the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. You must either have the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] installed or the version of the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] included with Visual Studio. For more information, see [Windows SDK](http://go.microsoft.com/fwlink/?LinkId=158044) on MSDN.
+   *Mage.exe* and *MageUI.exe* are part of the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. You must either have the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] installed or the version of the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] included with Visual Studio. For more information, see [Windows SDK](https://www.microsoft.com/download/details.aspx?id=8279) on MSDN.
 
 - Provide an application to deploy.
 
@@ -48,11 +48,11 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
    You should sign your deployment with an Authenticode certificate. You can generate a test certificate by using Visual Studio, *MageUI.exe*, or *MakeCert.exe* and *Pvk2Pfx.exe* tools, or you can obtain a certificate from a Certificate Authority (CA). If you choose to use Trusted Application Deployment, you must also perform a one-time installation of the certificate onto all client computers. For more information, see [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md).
 
   > [!NOTE]
-  >  You can also sign your deployment with a CNG certificate that you can obtain from a Certificate Authority.
+  > You can also sign your deployment with a CNG certificate that you can obtain from a Certificate Authority.
 
 - Make sure that the application does not have a manifest with UAC information.
 
-   You need to determine whether your application contains a manifest with User Account Control (UAC) information, such as an `<dependentAssembly>` element. To examine an application manifest, you can use the Windows Sysinternals [Sigcheck](http://go.microsoft.com/fwlink/?LinkId=158035) utility.
+   You need to determine whether your application contains a manifest with User Account Control (UAC) information, such as an `<dependentAssembly>` element. To examine an application manifest, you can use the Windows Sysinternals [Sigcheck](/sysinternals/downloads/sigcheck) utility.
 
    If your application contains a manifest with UAC details, you must re-build it without the UAC information. For a C# project in Visual Studio, open the project properties and select the Application tab. In the **Manifest** drop-down list, select **Create application without a manifest**. For a Visual Basic project in Visual Studio, open the project properties, select the Application tab, and click **View UAC Settings**. In the opened manifest file, remove all elements within the single `<asmv1:assembly>` element.
 
@@ -67,7 +67,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
 2. In the deployment directory you just created, create a version subdirectory. If this is the first time that you are deploying the application, name the version subdirectory **1.0.0.0**.
 
    > [!NOTE]
-   >  The version of your deployment can be distinct from the version of your application.
+   > The version of your deployment can be distinct from the version of your application.
 
 3. Copy all of your application files to the version subdirectory, including executable files, assemblies, resources, and data files. If necessary, you can create additional subdirectories that contain additional files.
 
@@ -80,7 +80,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
    ```
 
    > [!NOTE]
-   >  Be sure to include the dot (.) after the `-FromDirectory` option, which indicates the current directory. If you do not include the dot, you must specify the path to your application files.
+   > Be sure to include the dot (.) after the `-FromDirectory` option, which indicates the current directory. If you do not include the dot, you must specify the path to your application files.
 
 6. Sign the application manifest with your Authenticode certificate. Replace *mycert.pfx* with the path to your certificate file. Replace *passwd* with the password for your certificate file.
 
@@ -115,7 +115,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
 2. In the deployment directory you just created, create a version subdirectory. If this is the first time that you are deploying the application, name the version subdirectory **1.0.0.0**.
 
    > [!NOTE]
-   >  The version of your deployment is probably distinct from the version of your application.
+   > The version of your deployment is probably distinct from the version of your application.
 
 3. Copy all of your application files to the version subdirectory, including executable files, assemblies, resources, and data files. If necessary, you can create additional subdirectories that contain additional files.
 

@@ -16,25 +16,25 @@ manager: jillfra
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
+> In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
  When Visual Studio is ready to populate the **Locals** window, it calls [EnumChildren](../../extensibility/debugger/reference/idebugproperty2-enumchildren.md) on the [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) object returned from [GetMethodProperty](../../extensibility/debugger/reference/idebugexpressionevaluator-getmethodproperty.md) (see [Implementing GetMethodProperty](../../extensibility/debugger/implementing-getmethodproperty.md)). `IDebugProperty2::EnumChildren` returns an [IEnumDebugPropertyInfo2](../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md) object.  
   
  This implementation of `IDebugProperty2::EnumChildren` performs the following tasks:  
   
-1.  Ensures this is representing a method.  
+1. Ensures this is representing a method.  
   
-2.  Uses the `guidFilter` argument to determine which method to call on the [IDebugMethodField](../../extensibility/debugger/reference/idebugmethodfield.md) object. If `guidFilter` equals:  
+2. Uses the `guidFilter` argument to determine which method to call on the [IDebugMethodField](../../extensibility/debugger/reference/idebugmethodfield.md) object. If `guidFilter` equals:  
   
-    1.  `guidFilterLocals`, call [EnumLocals](../../extensibility/debugger/reference/idebugmethodfield-enumlocals.md) to obtain an [IEnumDebugFields](../../extensibility/debugger/reference/ienumdebugfields.md) object.  
+    1. `guidFilterLocals`, call [EnumLocals](../../extensibility/debugger/reference/idebugmethodfield-enumlocals.md) to obtain an [IEnumDebugFields](../../extensibility/debugger/reference/ienumdebugfields.md) object.  
   
-    2.  `guidFilterArgs`, call [EnumArguments](../../extensibility/debugger/reference/idebugmethodfield-enumarguments.md) to obtain an `IEnumDebugFields` object.  
+    2. `guidFilterArgs`, call [EnumArguments](../../extensibility/debugger/reference/idebugmethodfield-enumarguments.md) to obtain an `IEnumDebugFields` object.  
   
-    3.  `guidFilterLocalsPlusArgs`, synthesize an enumeration that combines the results from `IDebugMethodField::EnumLocals` and `IDebugMethodField::EnumArguments`. This synthesis is represented by the class `CEnumMethodField`.  
+    3. `guidFilterLocalsPlusArgs`, synthesize an enumeration that combines the results from `IDebugMethodField::EnumLocals` and `IDebugMethodField::EnumArguments`. This synthesis is represented by the class `CEnumMethodField`.  
   
-3.  Instantiates a class (called `CEnumPropertyInfo` in this example) that implements the `IEnumDebugPropertyInfo2` interface and contains the `IEnumDebugFields` object.  
+3. Instantiates a class (called `CEnumPropertyInfo` in this example) that implements the `IEnumDebugPropertyInfo2` interface and contains the `IEnumDebugFields` object.  
   
-4.  Returns the `IEnumDebugProperty2Info2` interface from the `CEnumPropertyInfo` object.  
+4. Returns the `IEnumDebugProperty2Info2` interface from the `CEnumPropertyInfo` object.  
   
 ## Managed Code  
  This example shows an implementation of `IDebugProperty2::EnumChildren` in managed code.  

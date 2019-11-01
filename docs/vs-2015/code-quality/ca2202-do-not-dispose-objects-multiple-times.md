@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA2202"
 ms.assetid: fa85349a-cf1e-42c8-a86b-eacae1f8bd96
 caps.latest.revision: 22
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2202: Do not dispose objects multiple times
@@ -79,4 +79,4 @@ finally
 
 ## See Also
  <xref:System.IDisposable?displayProperty=fullName>
- [Dispose Pattern](http://msdn.microsoft.com/library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)
+ [Dispose Pattern](https://msdn.microsoft.com/library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)

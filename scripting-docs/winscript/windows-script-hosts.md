@@ -2,7 +2,6 @@
 title: "Windows Script Hosts | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -35,5 +34,5 @@ When implementing Microsoft Windows Script host, you can safely assume that a sc
 ## Remarks  
  None of these restrictions apply to a host that chooses to implement a free-threaded [IActiveScriptSite](../winscript/reference/iactivescriptsite.md) interface and a free-threaded object model. Such a host can use the [IActiveScript](../winscript/reference/iactivescript.md) interface from any thread, without restriction.  
   
-## See Also  
+## See also  
  [Windows Script Interfaces](../winscript/windows-script-interfaces.md)

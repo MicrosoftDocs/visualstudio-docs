@@ -24,12 +24,10 @@ manager: jillfra
 # CPPClean Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-
 Deletes the temporary files that MSBuild creates when a Visual C++ project is built. The process of deleting build files is known as *cleaning*.  
 
 ## Parameters  
  The following table describes the parameters of the **CPPClean** task.  
-
 
 |            Parameter            |                                                                                                Description                                                                                                 |
 |---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

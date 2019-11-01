@@ -13,7 +13,6 @@ manager: jillfra
 # Customize Project Files Created by VSTU
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Visual Studio Tools for Unity provides a Unity-style callback during project file generation. Register with the `VisualStudioIntegration.ProjectFileGeneration` event to modify the project file whenever it's regenerated.  
   
 ## Demonstrates  

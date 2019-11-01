@@ -21,7 +21,7 @@ An attempt has been made to invoke `JSON.stringify` with an argument that is not
   
 ### To correct this error  
   
--   Change the `replacer` argument to a function or an array.  
+- Change the `replacer` argument to a function or an array.  
   
 ## Example  
  The code in this example causes a runtime error because `memberfilter` is an object instead of a function or array.  
@@ -38,7 +38,7 @@ var memberfilter = new Object();
 var jsontext = JSON.stringify(contact, memberfilter, "\t");  
 ```  
   
-## See Also  
+## See also  
  [JSON Object](../../javascript/reference/json-object-javascript.md)   
  [JSON.parse Function](../../javascript/reference/json-parse-function-javascript.md)   
  [JavaScript Run-time Errors](../../javascript/reference/javascript-run-time-errors.md)

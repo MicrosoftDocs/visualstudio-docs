@@ -16,15 +16,16 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically print worksheets
-  You can print any worksheet in a workbook.
 
- [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
+You can print any worksheet in a workbook.
+
+[!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
 
 ## Print a worksheet in a document-level customization
 
 ### To print a worksheet
 
-1. Call the <xref:Microsoft.Office.Tools.Excel.Worksheet.PrintOut%2A> method of `Sheet1`, request two copies, and preview the document before printing.
+1. Call the `PrintOut` method of `Sheet1`, request two copies, and preview the document before printing.
 
     [!code-csharp[Trin_VstcoreExcelAutomation#22](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#22)]
     [!code-vb[Trin_VstcoreExcelAutomation#22](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#22)]
@@ -33,7 +34,7 @@ ms.workload:
 
 ### To preview a page before printing
 
-1.  Call the <xref:Microsoft.Office.Tools.Excel.Worksheet.PrintPreview%2A> method of the worksheet.
+1. Call the <xref:Microsoft.Office.Tools.Excel.Worksheet.PrintPreview%2A> method of the worksheet.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#23](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#23)]
      [!code-vb[Trin_VstcoreExcelAutomation#23](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#23)]
@@ -51,12 +52,13 @@ ms.workload:
 
 ### To preview a page before printing
 
-1.  Call the <xref:Microsoft.Office.Interop.Excel._Worksheet.PrintPreview%2A> method of the active worksheet.
+1. Call the <xref:Microsoft.Office.Interop.Excel._Worksheet.PrintPreview%2A> method of the active worksheet.
 
      [!code-csharp[Trin_VstcoreExcelAutomationAddIn#15](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#15)]
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#15](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#15)]
 
 ## See also
+
 - [Work with worksheets](../vsto/working-with-worksheets.md)
 - [How to: Programmatically check spelling in worksheets](../vsto/how-to-programmatically-check-spelling-in-worksheets.md)
 - [Worksheet host item](../vsto/worksheet-host-item.md)

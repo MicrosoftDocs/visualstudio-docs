@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "PENDING_BP_STATE enumeration"
 ms.assetid: ac04ad72-fa92-4a15-ade2-0d0bbbadfc7f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # PENDING_BP_STATE
 Specifies the state of a pending breakpoint (a breakpoint that has not yet been bound).
@@ -37,17 +40,17 @@ public enum enum_PENDING_BP_STATE { 
 };
 ```
 
-## Members
- PBPS_NONE
+## Fields
+ `PBPS_NONE`\
  Placeholder for zero. This value is never returned.
 
- PBPS_DELETED
+ `PBPS_DELETED`\
  Indicates that the pending breakpoint has been deleted.
 
- PBPS_DISABLED
+ `PBPS_DISABLED`\
  Indicates that the pending breakpoint is disabled.
 
- PBPS_ENABLED
+ `PBPS_ENABLED`\
  Indicates that the pending breakpoint is enabled.
 
 ## Remarks
@@ -60,6 +63,6 @@ public enum enum_PENDING_BP_STATE { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [PENDING_BP_STATE_INFO](../../../extensibility/debugger/reference/pending-bp-state-info.md)

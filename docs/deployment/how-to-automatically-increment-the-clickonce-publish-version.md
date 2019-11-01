@@ -29,11 +29,11 @@ You can disable this behavior on the **Publish** page of the **Project Designer*
 
 ## To disable automatically incrementing the publish version
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
-2.  Click the **Publish** tab.
+2. Click the **Publish** tab.
 
-3.  In the **Publish Version** section, clear the **Automatically increment revision with each release** check box.
+3. In the **Publish Version** section, clear the **Automatically increment revision with each release** check box.
 
 ## See also
 

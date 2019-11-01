@@ -3,8 +3,8 @@ title: "How to: Use AsyncPackage to Load VSPackages in the Background | Microsof
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: dedf0173-197e-4258-ae5a-807eb3abc952
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 ms.workload:
   - "vssdk"
 ---
@@ -69,11 +69,11 @@ public sealed class TestPackage : AsyncPackage
 ## Convert an existing VSPackage to AsyncPackage
  The majority of the work is the same as creating a new **AsyncPackage**. Follow steps 1 through 5 above. You also need to take extra caution with the following recommendations:
 
-1.  Remember to remove the `Initialize` override you had in your package.
+1. Remember to remove the `Initialize` override you had in your package.
 
-2.  Avoid deadlocks: There could be hidden RPCs in your code. which now happen on a background thread. Make sure that if you are making an RPC (for example, **GetService**), you need to either (1) switch to the main thread or (2) use the asynchronous version of the API if one exists (for example, **GetServiceAsync**).
+2. Avoid deadlocks: There could be hidden RPCs in your code. which now happen on a background thread. Make sure that if you are making an RPC (for example, **GetService**), you need to either (1) switch to the main thread or (2) use the asynchronous version of the API if one exists (for example, **GetServiceAsync**).
 
-3.  Do not switch between threads too frequently. Try to localize the work that can happen in a background thread to reduce the load time.
+3. Do not switch between threads too frequently. Try to localize the work that can happen in a background thread to reduce the load time.
 
 ## Querying services from AsyncPackage
  An **AsyncPackage** may or may not load asynchronously depending on the caller. For instance,

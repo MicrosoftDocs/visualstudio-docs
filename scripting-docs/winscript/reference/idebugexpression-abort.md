@@ -2,7 +2,6 @@
 title: "IDebugExpression::Abort | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -41,6 +40,6 @@ HRESULT Abort();
 ## Remarks  
  This method stops an expression evaluation at the earliest opportunity.  
   
-## See Also  
+## See also  
  [IDebugExpression Interface](../../winscript/reference/idebugexpression-interface.md)   
  [IDebugExpression::Start](../../winscript/reference/idebugexpression-start.md)

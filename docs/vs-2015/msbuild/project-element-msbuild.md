@@ -24,7 +24,6 @@ manager: jillfra
 # Project Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Required root element of an [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project file.  
   
 ## Syntax  

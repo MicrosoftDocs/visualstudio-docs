@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "GetEngineFilter"
   - "IDebugProcess3::GetEngineFilter"
 ms.assetid: ccb7ecb0-f189-4e80-b5b2-221a095e01f5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProcess3::GetEngineFilter
 Retrieves an array of unique identifiers for available debug engines.
@@ -29,14 +32,13 @@ public int GetEngineFilter(
 );
 ```
 
-#### Parameters
- `pEngineArray`
-
- [out] Reference to a structure that contains unique identifiers for debug engines.
+## Parameters
+`pEngineArray`\
+[out] Reference to a structure that contains unique identifiers for debug engines.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)
 - [GUID_ARRAY](../../../extensibility/debugger/reference/guid-array.md)

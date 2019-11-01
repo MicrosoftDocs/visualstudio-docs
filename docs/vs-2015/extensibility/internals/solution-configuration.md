@@ -19,7 +19,7 @@ Solution configurations store solution-level properties. They direct the behavio
  The standard Visual Studio toolbar contains a Start button and a solution configuration drop-down to the right of the Start button. This list allows users to choose the configuration to be started when F5 is pressed, create their own solution configurations, or edit an existing configuration.  
   
 > [!NOTE]
->  There are no extensibility interfaces to create or edit the solution configurations. You must use `DTE.SolutionBuilder`. However, there are extensibility APIs for managing the solution build. For more information, see <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionBuildManager2>.  
+> There are no extensibility interfaces to create or edit the solution configurations. You must use `DTE.SolutionBuilder`. However, there are extensibility APIs for managing the solution build. For more information, see <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionBuildManager2>.  
   
  Here is how you can implement the solution configurations supported by your project type:  
   

@@ -49,7 +49,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI MarkProfile( long lMarker );
  The profiling state for the thread that contains the mark profile function must be on when marks and comments inserted with the Mark command or with API functions (CommentMarkAtProfile, CommentMarkProfile, or MarkProfile).  
   
 > [!IMPORTANT]
->  MarkProfile method should be used with instrumentation profiling only.  
+> MarkProfile method should be used with instrumentation profiling only.  
   
 ## .NET Framework Equivalent  
  Microsoft.VisualStudio.Profiler.dll  

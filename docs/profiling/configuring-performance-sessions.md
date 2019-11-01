@@ -18,7 +18,7 @@ ms.workload:
 By using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools, you can collect a wide variety of performance data for a large number of application types. This section shows you how to use the Performance Wizardand properties of the performance session and target binary to configure Profiling Tools to collect the data that interests you. Profiling Tools configuration properties can also be used to control how much data is collected in a profiling run. For more information, see [Control data collection](../profiling/controlling-data-collection.md).
 
 > [!NOTE]
->  In many cases, using the default properties of the Performance Wizard is an effective way of collecting profiling data. For more information, see [Beginners guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md) and [Getting started](../profiling/getting-started-with-performance-tools.md).
+> In many cases, using the default properties of the Performance Wizard is an effective way of collecting profiling data. For more information, see [Beginners guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md) and [Getting started](../profiling/getting-started-with-performance-tools.md).
 
 ## Common tasks
 

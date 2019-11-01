@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IPropertyProxyEESide interface"
 ms.assetid: cf227cf8-39d9-4758-8f7e-a697aebb1926
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -50,7 +50,7 @@ IPropertyProxyEESide : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)
 - [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)

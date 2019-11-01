@@ -6,8 +6,8 @@ ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.assetid: 2341013d-a08b-49a7-b6fd-a7b6aaa797e0
 caps.latest.revision: 13
-author: "erickson-doug"
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Analyze the code quality of Store apps using Visual Studio static code analysis

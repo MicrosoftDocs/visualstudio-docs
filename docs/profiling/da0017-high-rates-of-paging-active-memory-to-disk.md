@@ -31,7 +31,7 @@ ms.workload:
 ## Rule description
 
 > [!NOTE]
->  This informational rule fires when levels of paging of active memory reach a significant amount. When an extremely high level of paging occurs, the warning rule [DA0014: Extremely high rates of paging active memory to disk](../profiling/da0014-extremely-high-rates-of-paging-active-memory-to-disk.md) fires instead.
+> This informational rule fires when levels of paging of active memory reach a significant amount. When an extremely high level of paging occurs, the warning rule [DA0014: Extremely high rates of paging active memory to disk](../profiling/da0014-extremely-high-rates-of-paging-active-memory-to-disk.md) fires instead.
 
  Excessive paging to disk can be caused by a shortage of physical memory. If paging operations dominate use of the physical disk where the paging file resides, they can slow down other application-oriented disk operations to the same disk.
 

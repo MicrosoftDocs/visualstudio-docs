@@ -8,11 +8,14 @@ helpviewer_keywords:
   - "GetState method"
   - "IDebugBoundBreakpoint2::GetState method"
 ms.assetid: a40a8382-295e-4916-aae6-ffe3a9cd3f2d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBoundBreakpoint2::GetState
 Gets the state of this bound breakpoint.
@@ -31,10 +34,9 @@ int GetState( 
 );
 ```
 
-#### Parameters
-`pState`
-
- [out] Returns a value from the [BP_STATE](../../../extensibility/debugger/reference/bp-state.md) enumeration that describes the state of the breakpoint.
+## Parameters
+`pState`\
+[out] Returns a value from the [BP_STATE](../../../extensibility/debugger/reference/bp-state.md) enumeration that describes the state of the breakpoint.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -62,6 +64,6 @@ HRESULT CBoundBreakpoint::GetState(BP_STATE* pState)
 }
 ```
 
-## See Also
+## See also
 - [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
 - [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugArrayField interface"
 ms.assetid: 9667b0a5-4295-46cc-9388-b75c1350be15
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -44,7 +44,7 @@ IDebugArrayField : IDebugContainerField
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
 - [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

@@ -18,7 +18,6 @@ manager: jillfra
 
 **Note**: The Visual Studio Gallery is being replaced by the Visual Studio Marketplace. See the latest version of this topic for details.
 
-
 After you’ve finished developing your extension, you can install it on other machines, share it with your friends and coworkers, or publish it on the Visual Studio Gallery. In this section we explain all the things you need to do in order to publish and maintain your extension: working with .vsix files, publishing, localizing, and updating.
 
 ## Working with VSIX Extensions
@@ -29,7 +28,7 @@ After you’ve finished developing your extension, you can install it on other m
  The VSIX format does not support the installation of code snippets. It also does not support certain other scenarios such as writing to the Global Assembly Cache (GAC) or to the system registry. If you need to write to the GAC or the registry in the installation, you must use the Windows Installer. For more information, see [Preparing Extensions for Windows Installer Deployment](../extensibility/preparing-extensions-for-windows-installer-deployment.md).
 
 ## Publishing your Extension to the Visual Studio Gallery
- You can distribute your extension to other people simply by mailing them the .vsix file or putting in on a server. But the best way to get your code in the hands of a lot of people is to put it on the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847). Visual Studio Gallery extensions are available to Visual Studio users through **Extensions and Updates**. For more information, see [Finding and Using Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md).
+ You can distribute your extension to other people simply by mailing them the .vsix file or putting in on a server. But the best way to get your code in the hands of a lot of people is to put it on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/). Visual Studio Gallery extensions are available to Visual Studio users through **Extensions and Updates**. For more information, see [Finding and Using Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md).
 
  For a full example that shows how to upload an extension to the Visual Studio Gallery, see [Walkthrough: Publishing a Visual Studio Extension](../extensibility/walkthrough-publishing-a-visual-studio-extension.md).
 

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "DEBUG_ADDRESS structure"
 ms.assetid: 79f5e765-9aac-4b6e-82ef-bed88095e9ba
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # DEBUG_ADDRESS
 This structure represents an address.
@@ -36,20 +39,20 @@ public struct DEBUG_ADDRESS {
 }
 ```
 
-## Terms
-ulAppDomainID
+## Members
+`ulAppDomainID`\
 The process ID.
 
-guidModule
+`guidModule`\
 The GUID of the module that contains this address.
 
-tokClass
+`tokClass`\
 The token identifying the class or type of this address.
 
 > [!NOTE]
 > This value is specific to a symbol provider and therefore has no general meaning other than as an identifier for a class type.
 
-addr
+`addr`\
 A [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) structure, which contains a union of structures that describe the individual address types. The value `addr`.`dwKind` comes from the [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md) enumeration, which explains how to interpret the union.
 
 ## Remarks
@@ -73,7 +76,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [GetAddress](../../../extensibility/debugger/reference/idebugaddress-getaddress.md)
 - [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)

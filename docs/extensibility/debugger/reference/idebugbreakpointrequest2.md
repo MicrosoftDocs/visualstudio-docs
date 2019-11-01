@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugBreakpointRequest2 interface"
 ms.assetid: 01ac4013-96f9-4235-b289-f55f9e99558f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -46,7 +46,7 @@ IDebugBreakpointRequest2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [CreatePendingBreakpoint](../../../extensibility/debugger/reference/idebugengine2-creatependingbreakpoint.md)
 - [GetBreakpointRequest](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-getbreakpointrequest.md)
 - [Bind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md)

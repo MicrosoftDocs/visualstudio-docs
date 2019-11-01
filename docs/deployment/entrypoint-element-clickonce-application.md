@@ -62,7 +62,6 @@ Identifies the assembly that should be executed when this [!INCLUDE[ndptecclick]
 ## commandLine
  Required. Must be a child of the `entryPoint` element. It has no child elements and has the following attributes.
 
-
 | Attribute | Description |
 |--------------| - |
 | `file` | Required. A local reference to the startup assembly for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. This value cannot contain forward slash (/) or backslash (\\) path separators. |

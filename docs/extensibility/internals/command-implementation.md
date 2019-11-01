@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "commands, implementation"
 ms.assetid: c782175c-cce4-4bd0-8374-4a897ceb1b3d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -14,11 +14,11 @@ ms.workload:
 # Command implementation
 To implement a command in a VSPackage, you must perform the following tasks:
 
-1.  In the *.vsct* file, set up a command group and then add the command to it. For more information, see [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).
+1. In the *.vsct* file, set up a command group and then add the command to it. For more information, see [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).
 
-2.  Register the command with Visual Studio.
+2. Register the command with Visual Studio.
 
-3.  Implement the command.
+3. Implement the command.
 
 The following sections explain how to register and implement commands.
 
@@ -55,29 +55,29 @@ if ( null != mcs )
 ## QueryStatus methods
  If you are implementing either the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> method or the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.QueryStatusCommand%2A> method, check for the GUID of the command set to which the command belongs and the ID of the command. Follow these guidelines:
 
--   If the GUID is not recognized, your implementation of either method must return <xref:Microsoft.VisualStudio.OLE.Interop.Constants.OLECMDERR_E_UNKNOWNGROUP>.
+- If the GUID is not recognized, your implementation of either method must return <xref:Microsoft.VisualStudio.OLE.Interop.Constants.OLECMDERR_E_UNKNOWNGROUP>.
 
--   If your implementation of either method recognizes the GUID but has not implemented the command, then the method should return <xref:Microsoft.VisualStudio.OLE.Interop.Constants.OLECMDERR_E_NOTSUPPORTED>.
+- If your implementation of either method recognizes the GUID but has not implemented the command, then the method should return <xref:Microsoft.VisualStudio.OLE.Interop.Constants.OLECMDERR_E_NOTSUPPORTED>.
 
--   If your implementation of either method recognizes both the GUID and the command, then the method should set the command-flags field of every command (in the `prgCmds` parameter) by using the following <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> flags:
+- If your implementation of either method recognizes both the GUID and the command, then the method should set the command-flags field of every command (in the `prgCmds` parameter) by using the following <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> flags:
 
-    -   `OLECMDF_SUPPORTED`: The command is supported.
+  - `OLECMDF_SUPPORTED`: The command is supported.
 
-    -   `OLECMDF_INVISIBLE`: The command should not be visible.
+  - `OLECMDF_INVISIBLE`: The command should not be visible.
 
-    -   `OLECMDF_LATCHED`: The command is toggled on and appears to have been checked.
+  - `OLECMDF_LATCHED`: The command is toggled on and appears to have been checked.
 
-    -   `OLECMDF_ENABLED`: The command is enabled.
+  - `OLECMDF_ENABLED`: The command is enabled.
 
-    -   `OLECMDF_DEFHIDEONCTXTMENU`: The command should be hidden if it appears on a shortcut menu.
+  - `OLECMDF_DEFHIDEONCTXTMENU`: The command should be hidden if it appears on a shortcut menu.
 
-    -   `OLECMDF_NINCHED`: The command is a menu controller and is not enabled, but its drop-down menu list is not empty and is still available. (This flag is rarely used.)
+  - `OLECMDF_NINCHED`: The command is a menu controller and is not enabled, but its drop-down menu list is not empty and is still available. (This flag is rarely used.)
 
--   If the command was defined in the *.vsct* file with the `TextChanges` flag, set the following parameters:
+- If the command was defined in the *.vsct* file with the `TextChanges` flag, set the following parameters:
 
-    -   Set the `rgwz` element of the `pCmdText` parameter to the new text of the command.
+  - Set the `rgwz` element of the `pCmdText` parameter to the new text of the command.
 
-    -   Set the `cwActual` element of the `pCmdText` parameter to the size of the command string.
+  - Set the `cwActual` element of the `pCmdText` parameter to the size of the command string.
 
 Also, make sure that the current context is not an automation function, unless your command is specifically intended to handle automation functions.
 

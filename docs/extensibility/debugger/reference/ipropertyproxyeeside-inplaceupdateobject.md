@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IPropertyProxyEESide::InPlaceUpdateObject"
 ms.assetid: abf89411-1853-4f23-b244-d5e0afa197b1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IPropertyProxyEESide::InPlaceUpdateObject
 Updates the object's data with the given data object and returns a new data object representing the object's new data.
@@ -32,14 +35,12 @@ int InPlaceUpdateObject(
 );
 ```
 
-#### Parameters
- `dataIn`
+## Parameters
+`dataIn`\
+[in] An [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object containing the new data.
 
- [in] An [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object containing the new data.
-
- `dataOut`
-
- [out] Returns a new `IEEDataStorage` object containing the replaced data.
+`dataOut`\
+[out] Returns a new `IEEDataStorage` object containing the replaced data.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -51,7 +52,7 @@ int InPlaceUpdateObject(
 
  The [CreateReplacementObject](../../../extensibility/debugger/reference/ipropertyproxyeeside-createreplacementobject.md) method creates a data object based on the incoming data object but does not affect the property's original data.
 
-## See Also
+## See also
 - [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)
 - [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)
 - [CreateReplacementObject](../../../extensibility/debugger/reference/ipropertyproxyeeside-createreplacementobject.md)

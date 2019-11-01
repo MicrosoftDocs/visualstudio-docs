@@ -149,7 +149,7 @@ If you are debugging .NET or JavaScript code with [Just My Code](../debugger/jus
 
    ![**Continue when unhandled in user code** setting](../debugger/media/continuewhenunhandledinusercodesetting.png "ContinueWhenUnhandledInUserCodeSetting")
 
-For example, ASP.NET web applications handle exceptions by converting them to an HTTP 500 status code ([Exception handling in ASP.NET Web API](http://www.asp.net/web-api/overview/error-handling/exception-handling)), which may not help you determine the source of the exception. In the example below, the user code makes a call to `String.Format()` that throws a <xref:System.FormatException>. Execution breaks as follows:
+For example, ASP.NET web applications handle exceptions by converting them to an HTTP 500 status code ([Exception handling in ASP.NET Web API](/aspnet/web-api/overview/error-handling/exception-handling)), which may not help you determine the source of the exception. In the example below, the user code makes a call to `String.Format()` that throws a <xref:System.FormatException>. Execution breaks as follows:
 
 ![Breaks on user&#45;unhandled exception](../debugger/media/exceptionunhandledbyuser.png "ExceptionUnhandledByUser")
 
@@ -198,7 +198,7 @@ You can add the exception to **Exception Settings** using the previous procedure
 Use the **Exception Settings** window to set conditions on exceptions. Currently supported conditions include the module name(s) to include or exclude for the exception. By setting module names as conditions, you can choose to break for the exception only on certain code modules. You may also choose to avoid breaking on particular modules.
 
 > [!NOTE]
-> Adding conditions to an exception is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
+> Adding conditions to an exception is supported starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
 
 To add conditional exceptions:
 

@@ -21,7 +21,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
  For more information about services, see [Service Essentials](../extensibility/internals/service-essentials.md) .  
   
 > [!NOTE]
->  When a VSPackage is about to be unloaded, Visual Studio waits until all requests for services that a VSPackage provides have been delivered. It does not allow new requests for these services. You should not explicitly call the <xref:Microsoft.VisualStudio.Shell.Interop.IProfferService.RevokeService%2A> method to revoke a service when unloading.  
+> When a VSPackage is about to be unloaded, Visual Studio waits until all requests for services that a VSPackage provides have been delivered. It does not allow new requests for these services. You should not explicitly call the <xref:Microsoft.VisualStudio.Shell.Interop.IProfferService.RevokeService%2A> method to revoke a service when unloading.  
   
 #### Implementing a service  
   
@@ -72,7 +72,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
   
 ### Registering a service  
   
-1.  To register a service, add the <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> to the VSPackage that provides the service. Here is an example:  
+1. To register a service, add the <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> to the VSPackage that provides the service. Here is an example:  
   
     ```csharp  
     [ProvideService(typeof(SMyService))]  
@@ -85,11 +85,11 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
      This attribute registers `SMyService` with Visual Studio.  
   
     > [!NOTE]
-    >  To register a service that replaces another service with the same name, use the <xref:Microsoft.VisualStudio.Shell.ProvideServiceOverrideAttribute>. Note that only one override of a service is allowed.  
+    > To register a service that replaces another service with the same name, use the <xref:Microsoft.VisualStudio.Shell.ProvideServiceOverrideAttribute>. Note that only one override of a service is allowed.  
   
 ### Adding a Service  
   
-1.  1.  In the VSPackage initializer, add the service and add a callback method to create the services. Here is the change to make to the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method:  
+1. 1.  In the VSPackage initializer, add the service and add a callback method to create the services. Here is the change to make to the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method:  
   
     ```csharp  
     protected override void Initialize()  
@@ -101,7 +101,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
     }  
     ```  
   
-2.  Implement the callback method, which should create and return the service, or null if it cannot be created.  
+2. Implement the callback method, which should create and return the service, or null if it cannot be created.  
   
     ```  
     private object CreateService(IServiceContainer container, Type serviceType)  
@@ -113,9 +113,9 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
     ```  
   
     > [!NOTE]
-    >  Visual Studio can reject a request to provide a service. It does so if another VSPackage already provides the service.  
+    > Visual Studio can reject a request to provide a service. It does so if another VSPackage already provides the service.  
   
-3.  Now you can get the service and use its methods. We’ll show this in the initializer, but you can get the service anywhere you want to use the service.  
+3. Now you can get the service and use its methods. We’ll show this in the initializer, but you can get the service anywhere you want to use the service.  
   
     ```csharp  
     protected override void Initialize()  

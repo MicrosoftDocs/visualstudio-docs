@@ -32,5 +32,5 @@ HRESULT get_relativeVirtualAddress ( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaImageData](../../debugger/debug-interface-access/idiaimagedata.md)

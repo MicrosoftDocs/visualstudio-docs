@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramNode2::GetHostPid"
 ms.assetid: e65b4b15-46d8-4ca7-9456-2b4c078f7cf9
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramNode2::GetHostPid
 Gets the system process identifier for the process hosting the program.
@@ -30,10 +33,9 @@ int GetHostPid ( 
 );
 ```
 
-#### Parameters
- `pdwHostPid`
-
- [out] Returns the system process identifier for the hosting process.
+## Parameters
+`pdwHostPid`\
+[out] Returns the system process identifier for the hosting process.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -54,5 +56,5 @@ HRESULT CProgram::GetHostPid(AD_PROCESS_ID* pdwHostPid) {
 }
 ```
 
-## See Also
+## See also
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

@@ -2,7 +2,6 @@
 title: "IJsEnumDebugProperty::Next Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -45,5 +44,5 @@ HRESULT Next(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsEnumDebugProperty Interface](../../winscript/reference/ijsenumdebugproperty-interface.md)

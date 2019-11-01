@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "SupportsLanguageDropDown element [Visual Studio Templates]"
   - "<SupportsLanguageDropDown> element [Visual Studio Templates]"
 ms.assetid: 641197d5-f724-4c06-bc47-2e22dad3fbfb
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -80,6 +80,6 @@ Specifies whether the Web item template is identical for multiple languages, and
 </VSTemplate>
 ```
 
-## See Also
+## See also
 - [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
 - [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)

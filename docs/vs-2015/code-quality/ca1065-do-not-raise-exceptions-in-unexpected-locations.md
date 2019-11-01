@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1065"
 ms.assetid: 4e1bade4-4ca2-4219-abc3-c7b2d741e157
 caps.latest.revision: 18
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1065: Do not raise exceptions in unexpected locations
@@ -59,24 +59,24 @@ manager: "wpickett"
 
  The following exceptions are allowed to be thrown from a property get method:
 
--   <xref:System.InvalidOperationException?displayProperty=fullName> and all derivatives (including <xref:System.ObjectDisposedException?displayProperty=fullName>)
+- <xref:System.InvalidOperationException?displayProperty=fullName> and all derivatives (including <xref:System.ObjectDisposedException?displayProperty=fullName>)
 
--   <xref:System.NotSupportedException?displayProperty=fullName> and all derivatives
+- <xref:System.NotSupportedException?displayProperty=fullName> and all derivatives
 
--   <xref:System.ArgumentException?displayProperty=fullName> (only from indexed get)
+- <xref:System.ArgumentException?displayProperty=fullName> (only from indexed get)
 
--   <xref:System.Collections.Generic.KeyNotFoundException> (only from indexed get)
+- <xref:System.Collections.Generic.KeyNotFoundException> (only from indexed get)
 
 ### Event Accessor Methods
  Event accessors should be simple operations that do not throw exceptions. An event should not throw an exception when you try to add or remove an event handler.
 
  The following exceptions are allowed to be thrown from an event accesor:
 
--   <xref:System.InvalidOperationException?displayProperty=fullName> and all derivatives (including <xref:System.ObjectDisposedException?displayProperty=fullName>)
+- <xref:System.InvalidOperationException?displayProperty=fullName> and all derivatives (including <xref:System.ObjectDisposedException?displayProperty=fullName>)
 
--   <xref:System.NotSupportedException?displayProperty=fullName> and all derivatives
+- <xref:System.NotSupportedException?displayProperty=fullName> and all derivatives
 
--   <xref:System.ArgumentException> and derivatives
+- <xref:System.ArgumentException> and derivatives
 
 ### Equals Methods
  The following **Equals** methods should not throw exceptions:

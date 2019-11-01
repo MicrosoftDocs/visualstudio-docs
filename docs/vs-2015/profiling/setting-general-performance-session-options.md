@@ -19,7 +19,7 @@ You can set the collection method and profiling data naming conventions for a [!
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
 ## Choosing Data Collection Methods  
  You set the base collection method by selecting one of the options under **Profiling collection**. The options are described following in the following table:  

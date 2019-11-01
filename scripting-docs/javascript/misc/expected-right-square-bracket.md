@@ -20,8 +20,8 @@ You made a reference to an array element, but did not include the right bracket.
   
 ### To correct this error  
   
--   Add the right bracket to the expression that refers to the array element.  
+- Add the right bracket to the expression that refers to the array element.  
   
-## See Also  
+## See also  
  [Using Arrays](../../javascript/advanced/using-arrays-javascript.md)   
  [Array Object](../../javascript/reference/array-object-javascript.md)

@@ -23,17 +23,17 @@ ms.workload:
 
 ## To hide text in a Bookmark control while printing the document
 
-1.  Create a procedure that hides all text that is in a specified range.
+1. Create a procedure that hides all text that is in a specified range.
 
      [!code-vb[Trin_VstcoreWordAutomation#105](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#105)]
      [!code-csharp[Trin_VstcoreWordAutomation#105](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#105)]
 
-2.  Create a procedure that unhides all text that is in a specified range.
+2. Create a procedure that unhides all text that is in a specified range.
 
      [!code-vb[Trin_VstcoreWordAutomation#106](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#106)]
      [!code-csharp[Trin_VstcoreWordAutomation#106](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#106)]
 
-3.  Pass the range of a bookmark to the `HideText` method, print the document, and then pass the same range to the `UnhideText` method.
+3. Pass the range of a bookmark to the `HideText` method, print the document, and then pass the same range to the `UnhideText` method.
 
      The following code example can be used in a document-level customization. To use this example, run it from the `ThisDocument` class in your project.
 

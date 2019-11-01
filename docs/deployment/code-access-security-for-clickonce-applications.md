@@ -37,7 +37,7 @@ ClickOnce applications are based on the .NET Framework and are subject to code a
 - When an application requires Full Trust permissions, the end user may be prompted to grant permissions to the application. This means that the application does not truly provide a ClickOnce experience, and the prompt can potentially be confusing to less experienced users.
 
   > [!NOTE]
-  >  When installing an application from removable media such as a CD-ROM, the user is not prompted. In addition, a network administrator can configure network policy so that users are not prompted when they install an application from a trusted source. For more information, see [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md).
+  > When installing an application from removable media such as a CD-ROM, the user is not prompted. In addition, a network administrator can configure network policy so that users are not prompted when they install an application from a trusted source. For more information, see [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md).
 
   To restrict the permissions for a ClickOnce application, you can modify the code access security permissions for your application to request the zone that best fits the permissions that your application requires. In most cases, you can select the zone from which the application is being deployed. For example, if your application is an enterprise application, you can use the **Local Intranet** zone. If your application is an internet application, you can use the **Internet** zone.
 

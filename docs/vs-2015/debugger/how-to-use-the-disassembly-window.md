@@ -54,17 +54,17 @@ This feature is available only if address-level debugging is enabled the **Optio
   You probably will never have the desire or need to view machine-code instructions in their raw, numeric form, rather than assembly language. However, if you want to do so, you can use the Memory window for that purpose or choose Code Bytes from the shortcut menu in the Disassembly window.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ### To display the Disassembly window  
   
--   On the **Debug** menu, choose **Windows**, and click **Disassembly**.  
+- On the **Debug** menu, choose **Windows**, and click **Disassembly**.  
   
      The debugger must be running or in break mode.  
   
 ### To turn optional information on or off  
   
--   Right-click the **Disassembly** window, and set or clear the desired options in the shortcut menu.  
+- Right-click the **Disassembly** window, and set or clear the desired options in the shortcut menu.  
   
      A yellow arrow in the left margin marks the location of the current execution point. For native code, this corresponds to the CPU's program counter. This location shows the next instruction that will be executed in your program.  
   

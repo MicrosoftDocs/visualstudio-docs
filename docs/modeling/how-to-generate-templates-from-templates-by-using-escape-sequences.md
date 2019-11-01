@@ -1,11 +1,11 @@
 ---
-title: "How to: Generate Templates from Templates By Using Escape Sequences"
+title: "Use escape sequences to generate templates from templates"
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
   - "text templates, generating templates from templates"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -15,7 +15,7 @@ You can create a text template that creates another text template as its generat
 
 ### To generate a text template from within a text template
 
--   Use the backslash (\\) as an escape character to produce the necessary markup tags within the text template for directives, statements, expressions, and class features in a separate text template file.
+- Use the backslash (\\) as an escape character to produce the necessary markup tags within the text template for directives, statements, expressions, and class features in a separate text template file.
 
     ```
     \<#@ directive \#>

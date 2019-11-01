@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "VSCT XML schema elements, VisibilityConstraints"
   - "VisibilityConstraints element (VSCT XML schema)"
 ms.assetid: d6dcd314-6fe4-4693-a189-91fa026c7b34
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -21,9 +21,9 @@ The VisibilityConstraints element determines the static visibility of groups of 
 
 ```xml
 <VisibilityConstraints>
-  <VisibilityConstraint>... </VisibilityConstraint>
-  <VisibilityConstraint>... </VisibilityConstraint>
-</VisibilityConstraint>
+  <VisibilityItem />
+  <VisibilityItem />
+</VisibilityConstraints>
 ```
 
 ## Attributes and elements

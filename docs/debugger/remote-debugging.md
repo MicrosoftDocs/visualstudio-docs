@@ -49,11 +49,22 @@ If you just want to download and install the remote debugger and don't need any 
 
 You can find the remote debugger (*msvsmon.exe*) on a computer with Visual Studio Community, Professional, or Enterprise already installed. For some scenarios, the easiest way to set up remote debugging is to run the remote debugger (msvsmon.exe) from a file share. For usage limitations, see the remote debugger's Help page (**Help > Usage** in the remote debugger).
 
-1. Find *msvsmon.exe* in the directory matching your version of Visual Studio. For Visual Studio Enterprise 2017:
+1. Find *msvsmon.exe* in the directory matching your version of Visual Studio:
 
-      *Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Remote Debugger\x86\msvsmon.exe*
+   ::: moniker range=">=vs-2019"
 
-      *Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Remote Debugger\x64\msvsmon.exe*
+   *Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Remote Debugger\x86\msvsmon.exe*
+
+   *Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Remote Debugger\x64\msvsmon.exe*
+
+   ::: moniker-end
+   ::: moniker range="vs-2017"
+
+   *Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Remote Debugger\x86\msvsmon.exe*
+
+   *Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Remote Debugger\x64\msvsmon.exe*
+
+   ::: moniker-end
 
 2. Share the **Remote Debugger** folder on the Visual Studio computer.
 
@@ -69,21 +80,21 @@ You can find the remote debugger (*msvsmon.exe*) on a computer with Visual Studi
 ### <a name="configure_msvsmon"></a> Configure the remote debugger
 You can change some aspects of the configuration of the remote debugger after you have started it for the first time.
 
--   If you need to add permissions for other users to connect to the remote debugger, choose **Tools > Permissions**. You must have administrator privileges to grant or deny permissions.
+- If you need to add permissions for other users to connect to the remote debugger, choose **Tools > Permissions**. You must have administrator privileges to grant or deny permissions.
 
      > [!IMPORTANT]
      > You can run the remote debugger under a user account that differs from the user account you are using on the Visual Studio computer, but you must add the different user account to the remote debugger's permissions.
 
      Alternatively, you can start the remote debugger from the command line with the **/allow \<username>** parameter: **msvsmon /allow \<username@computer>**.
 
--   If you need to change the Authentication mode or the port number, or specify a timeout value for the remote tools: choose **Tools > Options**.
+- If you need to change the Authentication mode or the port number, or specify a timeout value for the remote tools: choose **Tools > Options**.
 
      For a listing of the port numbers used by default, see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md).
 
      > [!WARNING]
-     >  You can choose to run the remote tools in No Authentication mode, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose the No Authentication mode only if you are sure that the network is not at risk from malicious or hostile traffic.
+     > You can choose to run the remote tools in No Authentication mode, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose the No Authentication mode only if you are sure that the network is not at risk from malicious or hostile traffic.
 
-##  <a name="bkmk_configureService"></a> (Optional) Configure the remote debugger as a service
+## <a name="bkmk_configureService"></a> (Optional) Configure the remote debugger as a service
 For debugging in ASP.NET and other server environments, you must either run the remote debugger as an Administrator or, if you want it always running,  run the remote debugger as a service.
 
  If you want to configure the remote debugger as a service, follow these steps.
@@ -108,7 +119,7 @@ For debugging in ASP.NET and other server environments, you must either run the 
 
    You can stop and start the remote debugger service from **Control Panel > Services**.
 
-## Set Up Debugging with Remote Symbols
+## Set up debugging with remote symbols
 
 [!INCLUDE [remote-debugger-symbols](../debugger/includes/remote-debugger-symbols.md)]
 

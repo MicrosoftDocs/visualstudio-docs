@@ -2,11 +2,11 @@
 title: "Using Different Web Browsers with Coded UI Tests"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Use different web browsers with coded UI tests
 
@@ -18,13 +18,13 @@ First, install the [Selenium components for coded UI cross browser testing](http
 
 ## What's supported across all web browsers?
 
--   [Add custom code for controlling features](https://devblogs.microsoft.com/devops/coded-ui-test-configuring-search-properties-while-recording-on-internet-explorer/) such as properties, search, and playback waiters.
+- [Add custom code for controlling features](https://devblogs.microsoft.com/devops/coded-ui-test-configuring-search-properties-while-recording-on-internet-explorer/) such as properties, search, and playback waiters.
 
--   Pop-ups and dialog boxes
+- Pop-ups and dialog boxes
 
--   [Execute basic JavaScript with no return type](https://devblogs.microsoft.com/devops/introducing-javascript-execution-on-internetexplorer-and-crossbrowser-in-coded-ui-test/)
+- [Execute basic JavaScript with no return type](https://devblogs.microsoft.com/devops/introducing-javascript-execution-on-internetexplorer-and-crossbrowser-in-coded-ui-test/)
 
--   Search resilience (using smart match) and [performance improvements](https://devblogs.microsoft.com/devops/guidelines-on-improving-performance-of-coded-ui-test-playback/)
+- Search resilience (using smart match) and [performance improvements](https://devblogs.microsoft.com/devops/guidelines-on-improving-performance-of-coded-ui-test-playback/)
 
 ## Why should I use coded UI tests across multiple web browser types?
 
@@ -37,19 +37,31 @@ By testing your web application using a variety of web browser types, you better
 > [!NOTE]
 > You cannot record coded UI tests using Google Chrome or Mozilla Firefox browsers.
 
- **Play back with Internet Explorer:** When no browser is explicitly specified, tests will run on Internet Explorer by default. You can explicitly state the browser to be used by setting the **BrowserWindow.CurrentBrowser** property in your test code. For Internet Explorer, this property should be set to **IE** or **Internet Explorer**.
+**Play back with Internet Explorer:** When no browser is explicitly specified, tests will run on Internet Explorer by default. You can explicitly state the browser to be used by setting the **BrowserWindow.CurrentBrowser** property in your test code. For Internet Explorer, this property should be set to **IE** or **Internet Explorer**.
 
- **Play back with non-Internet Explorer web browsers:** To play back on non-Internet Explorer web browsers, change BrowserWindow.CurrentBrowser property in your test code to either **Firefox** or **Chrome**.
+**Play back with non-Internet Explorer web browsers:** To play back on non-Internet Explorer web browsers, change BrowserWindow.CurrentBrowser property in your test code to either **Firefox** or **Chrome**.
 
- To play back tests on non-IE web browsers, you must install the **Selenium components for Coded UI Cross Browser Testing**.
+To play back tests on non-IE web browsers, you must install the **Selenium components for Coded UI Cross Browser Testing**.
 
 ### Install Selenium components
 
-1.  On the **Tools** menu, choose **Extensions and Updates**.
+::: moniker range="vs-2017"
 
-2.  In the **Extension and Updates** dialog box, search for `Selenium components for Cross Browser Testing`.
+1. On the **Tools** menu, choose **Extensions and Updates**.
 
-3.  Highlight the extension and choose **Download**.
+2. In the **Extensions and Updates** dialog box, search for `Selenium components for Cross Browser Testing`.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. On the **Extensions** menu, choose **Manage Extensions**.
+
+2. In the **Manage Extensions** dialog box, search for `Selenium components for Cross Browser Testing`.
+
+::: moniker-end
+
+3. Highlight the extension and choose **Download**.
 
     > [!TIP]
     > You can also download the Selenium components for Coded UI Cross Browser Testing from [here](https://marketplace.visualstudio.com/items?itemName=AtinBansal.SeleniumcomponentsforCodedUICrossBrowserTesting).
@@ -60,17 +72,17 @@ For more information about creating and using coded UI tests, see [Create coded 
 
 To enable debugging your web application, you must complete the following configuration options:
 
-1.  Enable Just My Code:
+1. Enable Just My Code:
 
-    1.  On the **Tools** menu, choose **Options** and then choose **Debugging**.
+    1. On the **Tools** menu, choose **Options** and then choose **Debugging**.
 
-    2.  Select **Enable Just My Code**.
+    2. Select **Enable Just My Code**.
 
-2.  Disable CLR exceptions:
+2. Disable CLR exceptions:
 
-    1.  On the **Debug** menu, choose **Exceptions**.
+    1. On the **Debug** menu, choose **Exceptions**.
 
-    2.  For **Common Language Runtime Exceptions**, uncheck **User-unhandled**.
+    2. For **Common Language Runtime Exceptions**, uncheck **User-unhandled**.
 
 If don't see the option to change `BrowserWindow.CurrentBrowser` in the coded UI test, you might be using a version of Visual Studio that does not support coded UI tests using various web browsers. To use such coded UI tests, you must use Visual Studio Enterprise edition.
 
@@ -102,15 +114,15 @@ For more information, see [Analyze coded UI tests using coded UI test logs](../t
 
 ## Video resources
 
- [Record on IE and playback everywhere](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!183&authkey=!ANqaLtCZbtJrImU)
+[Record on IE and playback everywhere](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!183&authkey=!ANqaLtCZbtJrImU)
 
- [Author cross browser tests with coded UI test builder](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!184&authkey=!AKG8CSow_qmeTq8)
+[Author cross browser tests with coded UI test builder](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!184&authkey=!AKG8CSow_qmeTq8)
 
- [Author cross browser tests using plain hand coding without UI Map](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!186&authkey=!AJaEvxJnsefyAT4)
+[Author cross browser tests using plain hand coding without UI Map](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!186&authkey=!AJaEvxJnsefyAT4)
 
- [Run cross browser tests sequentially on multiple browsers](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!187&authkey=!ADI8eCQkxHnpOR8)
+[Run cross browser tests sequentially on multiple browsers](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!187&authkey=!ADI8eCQkxHnpOR8)
 
- [Troubleshoot cross browser test failures](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!182&authkey=!AEpS48i295B49FI)
+[Troubleshoot cross browser test failures](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!182&authkey=!AEpS48i295B49FI)
 
 ## See also
 

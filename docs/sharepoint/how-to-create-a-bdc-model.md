@@ -19,35 +19,35 @@ ms.workload:
 
 ### To create a BDC project
 
-1.  On the menu bar, choose **File** > **New** > **Project**.
+1. On the menu bar, choose **File** > **New** > **Project**.
 
     > [!NOTE]
-    >  If your IDE is set to use Visual Basic development settings, choose **File** > **New Project**.
+    > If your IDE is set to use Visual Basic development settings, choose **File** > **New Project**.
 
      The **New Project** dialog box opens.
 
-2.  Under either **Visual Basic** or **Visual C#**, choose **Office/SharePoint**, **SharePoint Solutions**.
+2. Under either **Visual Basic** or **Visual C#**, choose **Office/SharePoint**, **SharePoint Solutions**.
 
-3.  In the **Templates** pane, choose the **SharePoint 2013 - Empty Project** item, and then choose the **OK** button.
+3. In the **Templates** pane, choose the **SharePoint 2013 - Empty Project** item, and then choose the **OK** button.
 
      The **SharePoint Customization Wizard** opens.
 
-4.  On the **Specify the site and security level for debugging** page, specify the URL of a SharePoint site on the local computer, choose the **Deploy as farm solution** option button, and then choose the **Finish** button.
+4. On the **Specify the site and security level for debugging** page, specify the URL of a SharePoint site on the local computer, choose the **Deploy as farm solution** option button, and then choose the **Finish** button.
 
      You will test the model on the SharePoint site that you specified.
 
     > [!IMPORTANT]
-    >  You must deploy the project as a farm solution because BDC models support only farm solutions.
+    > You must deploy the project as a farm solution because BDC models support only farm solutions.
 
      An empty SharePoint project is created.
 
-5.  On the menu bar, choose **Project** > **Add New Item**.
+5. On the menu bar, choose **Project** > **Add New Item**.
 
-6.  In the **Add New Item** dialog box, choose the **Office/SharePoint** node.
+6. In the **Add New Item** dialog box, choose the **Office/SharePoint** node.
 
-7.  In the list of SharePoint templates, choose **Business Data Connectivity Model (Farm Solution Only)**.
+7. In the list of SharePoint templates, choose **Business Data Connectivity Model (Farm Solution Only)**.
 
-8.  In the **Name** box, specify a name for the BDC model, and then choose the **Add** button.
+8. In the **Name** box, specify a name for the BDC model, and then choose the **Add** button.
 
      A **Business Data Connectivity Model** item is added to the project. By default, the model appears in the BDC designer. For more information, see [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md).
 

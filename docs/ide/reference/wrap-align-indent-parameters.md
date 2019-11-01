@@ -3,7 +3,7 @@ title: Wrap, Indent, Align parameters
 ms.date: 02/13/2019
 ms.topic: reference
 author: kendrahavens
-ms.author: kendrahavens
+ms.author: kehavens
 manager: jillfra
 dev_langs:
   - CSharp
@@ -11,7 +11,7 @@ dev_langs:
 ms.workload:
   - "dotnet"
 ---
-# Wrap, indent, and align parameters
+# Wrap, indent, and align parameters or arguments
 
 This refactoring applies to:
 
@@ -19,11 +19,11 @@ This refactoring applies to:
 
 - Visual Basic
 
-**What:** Lets you wrap, indent, and align parameters.
+**What:** Lets you wrap, indent, and align parameters or arguments.
 
-**When:** You have a method declaration or call that has multiple parameters.
+**When:** You have a method declaration or call that has multiple parameters or arguments.
 
-**Why:** Reading a long list of parameters is easier when they're wrapped or indented according to user preference.
+**Why:** Reading a long list of parameters or arguments is easier when they're wrapped or indented according to user preference.
 
 ## How-to
 

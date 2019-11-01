@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEEDataStorage interface"
 ms.assetid: 704e932d-2325-410e-89c4-ce88c6ec19da
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -48,7 +48,7 @@ IEEDataStorage : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)
 - [Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)

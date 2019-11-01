@@ -1,5 +1,5 @@
 ---
-title: Visual C++ Typedefs in Class Designer
+title: C++ Typedefs in Class Designer
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -8,13 +8,13 @@ f1_keywords:
 helpviewer_keywords:
   - "Class Designer [Visual Studio], typedefs"
 ms.assetid: c1984108-71fc-4d3a-b4d4-3eac2c6b4ebf
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "cplusplus"
 ---
-# Visual C++ typedefs in Class Designer
+# C++ typedefs in Class Designer
 
 [Typedef](/cpp/cpp/aliases-and-typedefs-cpp#typedefs) statements create one or more layers of indirection between a name and its underlying type. **Class Designer** supports C++ typedef types, which are declared with the keyword `typedef`, for example:
 
@@ -53,8 +53,8 @@ typedef B MyB;
 ```cpp
 typedef struct mystructtag
 {
-	int   i;
-	double f;
+    int   i;
+    double f;
 } mystruct;
 ```
 
@@ -78,5 +78,5 @@ typedef class coord
 
 ## See also
 
-- [Work with Visual C++ Code](working-with-visual-cpp-code.md)
+- [Work with C++ Code](working-with-visual-cpp-code.md)
 - [Typedefs](/cpp/cpp/aliases-and-typedefs-cpp#typedefs)

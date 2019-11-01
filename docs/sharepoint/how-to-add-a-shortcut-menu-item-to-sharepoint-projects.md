@@ -22,11 +22,11 @@ ms.workload:
 
 ### To add a shortcut menu item to SharePoint projects
 
-1.  In the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension.Initialize%2A> method of your <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension> implementation, handle the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents.ProjectMenuItemsRequested> event of the *projectService* parameter.
+1. In the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension.Initialize%2A> method of your <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension> implementation, handle the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents.ProjectMenuItemsRequested> event of the *projectService* parameter.
 
-2.  In your event handler for the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents.ProjectMenuItemsRequested> event, add a new <xref:Microsoft.VisualStudio.SharePoint.IMenuItem> object to the <xref:Microsoft.VisualStudio.SharePoint.SharePointProjectMenuItemsRequestedEventArgs.ActionMenuItems%2A> or <xref:Microsoft.VisualStudio.SharePoint.SharePointProjectMenuItemsRequestedEventArgs.AddMenuItems%2A> collection of the event arguments parameter.
+2. In your event handler for the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents.ProjectMenuItemsRequested> event, add a new <xref:Microsoft.VisualStudio.SharePoint.IMenuItem> object to the <xref:Microsoft.VisualStudio.SharePoint.SharePointProjectMenuItemsRequestedEventArgs.ActionMenuItems%2A> or <xref:Microsoft.VisualStudio.SharePoint.SharePointProjectMenuItemsRequestedEventArgs.AddMenuItems%2A> collection of the event arguments parameter.
 
-3.  In the <xref:Microsoft.VisualStudio.SharePoint.IMenuItem.Click> event handler for the new <xref:Microsoft.VisualStudio.SharePoint.IMenuItem> object, perform the tasks you want to execute when a user clicks your shortcut menu item.
+3. In the <xref:Microsoft.VisualStudio.SharePoint.IMenuItem.Click> event handler for the new <xref:Microsoft.VisualStudio.SharePoint.IMenuItem> object, perform the tasks you want to execute when a user clicks your shortcut menu item.
 
 ## Example
  The following code example demonstrates how to add a shortcut menu item to SharePoint project nodes in **Solution Explorer**. When the user right-clicks a project node and clicks the **Write Message to Output Window** menu item, Visual Studio displays a message in the **Output** window. This example uses the SharePoint project service to display the message. For more information, see [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md).
@@ -37,9 +37,9 @@ ms.workload:
 ## Compile the code
  This example requires a class library project with references to the following assemblies:
 
--   Microsoft.VisualStudio.SharePoint
--
--   System.ComponentModel.Composition
+- Microsoft.VisualStudio.SharePoint
+
+- System.ComponentModel.Composition
 
 ## Deploy the extension
  To deploy the extension, create a [!include[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (VSIX) package for the assembly and any other files that you want to distribute with the extension. For more information, see [Deploy extensions for the SharePoint tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).

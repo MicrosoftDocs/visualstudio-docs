@@ -33,7 +33,7 @@ HRESULT get_isMSILNetmodule(
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 > [!NOTE]
->  A return value of `S_FALSE` means that the property is not available for the symbol.
+> A return value of `S_FALSE` means that the property is not available for the symbol.
 
 ## Remarks
  This property is available from the `SymTagCompilandDetails` symbol type (see [CompilandDetails](../../debugger/debug-interface-access/compilanddetails.md)).
@@ -45,6 +45,6 @@ HRESULT get_isMSILNetmodule(
 |Header:|dia2.h|
 |Version:|DIA SDK v8.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [CompilandDetails](../../debugger/debug-interface-access/compilanddetails.md)

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "FRAMEINFO_FLAGS enumeration"
 ms.assetid: 41578062-8455-412a-9d8b-1e1e9dc8d52e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # FRAMEINFO_FLAGS
 Specifies the information to retrieve about a stack frame object.
@@ -91,98 +94,98 @@ public enum enum_FRAMEINFO_FLAGS {
 };
 ```
 
-## Members
-FIF_FUNCNAME
+## Fields
+`FIF_FUNCNAME`\
 Initialize/use the `m_bstrFuncName` field.
 
-FIF_RETURNTYPE
+`FIF_RETURNTYPE`\
 Initialize/use the `m_bstrReturnType` field.
 
-FIF_ARGS
+`FIF_ARGS`\
 Initialize/use the `m_bstrArgs` field.
 
-FIF_LANGUAGE
+`FIF_LANGUAGE`\
 Initialize/use the `m_bstrLanguage` field.
 
-FIF_MODULE
+`FIF_MODULE`\
 Initialize/use the `m_bstrModule` field.
 
-FIF_STACKRANGE
+`FIF_STACKRANGE`\
 Initialize/use the `m_addrMin` and `m_addrMax` (stack range) fields.
 
-FIF_FRAME
+`FIF_FRAME`\
 Initialize/use the `m_pFrame` field.
 
-FIF_DEBUGINFO
+`FIF_DEBUGINFO`\
 Initialize/use the `m_fHasDebugInfo` field.
 
-FIF_STALECODE
+`FIF_STALECODE`\
 Initialize/use the `m_fStaleCode` field.
 
-FIF_ANNOTATEDFRAME
+`FIF_ANNOTATEDFRAME`\
 Initialize/use the `m_fAnnotatedFrame` field.
 
-FIF_DEBUG_MODULEP
+`FIF_DEBUG_MODULEP`\
 Initialize/use the `m_pModule` field.
 
-FIF_FUNCNAME_FORMAT
+`FIF_FUNCNAME_FORMAT`\
 Formats the function name. The result is returned in the `m_bstrFunName` field and no other fields are filled out.
 
-FIF_FUNCNAME_RETURNTYPE
+`FIF_FUNCNAME_RETURNTYPE`\
 Adds the return type to the `m_bstrFuncName` field.
 
-FIF_FUNCNAME_ARGS
+`FIF_FUNCNAME_ARGS`\
 Adds the arguments to the `m_bstrFuncName` field.
 
-FIF_FUNCNAME_LANGUAGE
+`FIF_FUNCNAME_LANGUAGE`\
 Adds the language to the `m_bstrFuncName` field.
 
-FIF_FUNCNAME_MODULE
+`FIF_FUNCNAME_MODULE`\
 Adds the module name to the `m_bstrFuncName` field.
 
-FIF_FUNCNAME_LINES
+`FIF_FUNCNAME_LINES`\
 Adds the number of lines to the `m_bstrFuncName` field.
 
-FIF_FUNCNAME_OFFSET
+`FIF_FUNCNAME_OFFSET`\
 Adds to the `m_bstrFuncName` field the offset in bytes from the start of the line if `FIF_FUNCNAME_LINES` is specified. If `FIF_FUNCNAME_LINES` is not specified, or if line numbers are not available, adds the offset in bytes from the start of the function.
 
-FIF_FUNCNAME_ARGS_TYPES
+`FIF_FUNCNAME_ARGS_TYPES`\
 Adds the type of each function argument to the `m_bstrFuncName` field.
 
-FIF_FUNCNAME_ARGS_NAMES
+`FIF_FUNCNAME_ARGS_NAMES`\
 Adds the name of each function argument to the `m_bstrFuncName` field.
 
-FIF_FUNCNAME_ARGS_VALUES
+`FIF_FUNCNAME_ARGS_VALUES`\
 Adds the value of each function argument to the `m_bstrFuncName` field.
 
-FIF_FUNCNAME_ARGS_ALL
+`FIF_FUNCNAME_ARGS_ALL`\
 Adds the type, name, and value of all arguments to the `m_bstrFuncName` field.
 
-FIF_ARGS_TYPES
+`FIF_ARGS_TYPES`\
 The argument types are retrieved and formatted.
 
-FIF_ARGS_NAMES
+`FIF_ARGS_NAMES`\
 The argument names are retrieved and formatted.
 
-FIF_ARGS_VALUES
+`FIF_ARGS_VALUES`\
 The argument values are retrieved and formatted.
 
-FIF_ARGS_ALL
+`FIF_ARGS_ALL`\
 Retrieve and format the type, name, and value of all arguments.
 
-FIF_ARGS_NOFORMAT
+`FIF_ARGS_NOFORMAT`\
 Specifies that the arguments are not be formatted (for example, do not add opening and closing parentheses around the argument list nor add a separator between arguments).
 
-FIF_ARGS_NO_FUNC_EVAL
+`FIF_ARGS_NO_FUNC_EVAL`\
 Specifies that function (property) evaluation should not be used when retrieving argument values.
 
-FIF_FILTER_NON_USER_CODE
+`FIF_FILTER_NON_USER_CODE`\
 The debug engine is to filter non-user code frames so they are not included.
 
-FIF_ARGS_NO_TOSTRING
+`FIF_ARGS_NO_TOSTRING`\
 Do not allow `ToString()` function evaluation or formatting when returning function arguments.
 
-FIF_DESIGN_TIME_EXPR_EVAL
+`FIF_DESIGN_TIME_EXPR_EVAL`\
 Frame information should be gotten from the hosted app-domain rather than the hosting process.
 
 ## Remarks
@@ -197,7 +200,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md)
 - [EnumFrameInfo](../../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md)

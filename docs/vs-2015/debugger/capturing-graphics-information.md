@@ -37,7 +37,7 @@ Capture graphics information from your Direct3D app so that you can use Visual S
 - On the keyboard, press Print Screen.  
   
   > [!NOTE]
-  >  While an app is running under **Graphics Diagnostics**, the Print Screen key can only be used to capture a frame of graphics information; it doesn't perform its regular function. This remains in effect until you have stopped capturing graphics information—usually by stopping debugging or exiting the app normally—even if another application is in focus.  
+  > While an app is running under **Graphics Diagnostics**, the Print Screen key can only be used to capture a frame of graphics information; it doesn't perform its regular function. This remains in effect until you have stopped capturing graphics information—usually by stopping debugging or exiting the app normally—even if another application is in focus.  
   
 - In the Visual Studio capture interface, chose the **Capture Frame** button located above the **Diagnostic session** timeline, or choose the large **Capture Frame** button located below the **Frames per second** swim-lane and to the right of any previously-captured frames. Both buttons are highlighted in the image below.  
   
@@ -54,9 +54,9 @@ Capture graphics information from your Direct3D app so that you can use Visual S
   
 ##### To configure Graphics Diagnostics capture options  
   
-1.  On the menu bar, choose Tools, Options. The Options dialog box appears.  
+1. On the menu bar, choose Tools, Options. The Options dialog box appears.  
   
-2.  In the options category list on the left, choose Graphics Diagnostics, then configure the Graphics Diagnostics options that you want.  
+2. In the options category list on the left, choose Graphics Diagnostics, then configure the Graphics Diagnostics options that you want.  
   
      **Collect call stacks during capture (makes capture slower)**  
      Check this box to collect call stacks. By default, call stacks are not collected. To capture call stacks, make sure that the **Collect call stacks during capture (makes capture slower** checkbox is set to enable collection and then set either the **for draw, dispatch, present, and perf markers** option (default) to collect only the most important call stacks, or the **for everything** option to collect all call stacks. To stop collecting call stacks later, clear the **Collect call stacks during capture (makes capture slower** checkbox.  
@@ -73,7 +73,7 @@ Capture graphics information from your Direct3D app so that you can use Visual S
 ## Capturing graphics information remotely  
  Graphics information can be captured from an app that's running on the local machine, or on a remote machine or device. Remote capture is supported for [!INCLUDE[winblue_client_2](../includes/winblue-client-2-md.md)] machines and [!INCLUDE[winblue_winrt_2](../includes/winblue-winrt-2-md.md)] devices. To capture graphics information from an app that's running remotely, configure your project for remote debugging and then run your app under Graphics Diagnostics as described earlier. The app runs on the remote machine, and the captured graphics information is recorded on your development machine.  
   
- How you configure your project for remote debugging depends on the kind of app you're developing and the programming language you're using. For information about how to configure remote debugging for a Windows Store app, see [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md). For information about how to configure remote debugging for a Windows desktop app, see [Set Up Remote Debugging for a Visual Studio Project](http://msdn.microsoft.com/library/ec332dc4-400a-498b-a0e6-c8dcf10fef8a).  
+ How you configure your project for remote debugging depends on the kind of app you're developing and the programming language you're using. For information about how to configure remote debugging for a Windows Store app, see [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md). For information about how to configure remote debugging for a Windows desktop app, see [Set Up Remote Debugging for a Visual Studio Project](https://msdn.microsoft.com/library/ec332dc4-400a-498b-a0e6-c8dcf10fef8a).  
   
  Later, you can use a remote machine or device to play back graphics information, regardless of where the information was captured from. For more information, see [How to: Change the Graphics Diagnostics Playback Machine](../debugger/how-to-change-the-graphics-diagnostics-playback-machine.md).  
   

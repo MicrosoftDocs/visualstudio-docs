@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "Print method"
   - "Print command"
 ms.assetid: 0412d381-590a-483f-bab4-6e1cca095645
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -53,7 +53,7 @@ Both versions of this command return the current value of the expression `expA`.
 >Debug.Print DateTime.Now.Day
 ```
 
-## See Also
+## See also
 
 - [Evaluate Statement Command](../../ide/reference/evaluate-statement-command.md)
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)

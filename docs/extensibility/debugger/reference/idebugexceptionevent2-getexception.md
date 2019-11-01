@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugExceptionEvent2::GetException"
 ms.assetid: 7c98f41d-322b-4e72-a514-cbd4823eb70d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExceptionEvent2::GetException
 Gets a detailed description of the exception that fired this event.
@@ -30,10 +33,9 @@ int GetException( 
 );
 ```
 
-#### Parameters
- `pExceptionInfo`
-
- [in, out] An [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) structure that is filled in with the description of the exception.
+## Parameters
+`pExceptionInfo`\
+[in, out] An [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) structure that is filled in with the description of the exception.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -42,7 +44,7 @@ int GetException( 
 
  [C++ only] The caller is responsible for freeing any strings in the [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) structure as well as releasing the [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) object in the structure.
 
-## See Also
+## See also
 - [IDebugExceptionEvent2](../../../extensibility/debugger/reference/idebugexceptionevent2.md)
 - [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md)
 - [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)

@@ -12,9 +12,9 @@ ms.workload:
 # Troubleshoot performance tools issues
 You might experience one of the following issues when you use the Profiling Tools:
 
--   [No data is collected by the profiling tools](#no-data-is-collected-by-the-profiling-tools)
+- [No data is collected by the profiling tools](#no-data-is-collected-by-the-profiling-tools)
 
--   [Performance Views and reports display numbers for function names](#performance-views-and-reports-display-numbers-for-function-names)
+- [Performance Views and reports display numbers for function names](#performance-views-and-reports-display-numbers-for-function-names)
 
 ## No data is collected by the profiling tools
  After you profile an application, a profiling data (.*vsp*) file is not created and you receive the following warning in the **Output** window or in the command window:
@@ -23,7 +23,7 @@ You might experience one of the following issues when you use the Profiling Tool
 
  This problem can be caused by several issues:
 
--   A process that was profiled by using the sampling or the .NET memory method starts a child process that becomes the process that performs the application work. For example, some applications read the command line to determine whether they were started as a Windows application or as a command-line application. If a Windows application was requested, the original process starts a new process configured as a Windows application and then the original process exits. Because the Profiling Tools do not automatically collect data for child processes, no data is collected.
+- A process that was profiled by using the sampling or the .NET memory method starts a child process that becomes the process that performs the application work. For example, some applications read the command line to determine whether they were started as a Windows application or as a command-line application. If a Windows application was requested, the original process starts a new process configured as a Windows application and then the original process exits. Because the Profiling Tools do not automatically collect data for child processes, no data is collected.
 
      To collect profiling data in this situation, attach the profiler to the child process instead of starting the application with the profiler. For more information, see [How to: Attach and detach performance tools to running processes](../profiling/how-to-attach-and-detach-performance-tools-to-running-processes.md) and [Attach (VSPerfCmd)](../profiling/attach.md)
 
@@ -34,9 +34,9 @@ You might experience one of the following issues when you use the Profiling Tool
 
  You can fix the problem in one of two ways:
 
--   Find the .*pdb* files and place them in the same directory as the application files.
+- Find the .*pdb* files and place them in the same directory as the application files.
 
--   Embed the symbol information in the profiling data (.*vsp*) file. For more information, see [Save symbol information with performance data files](../profiling/saving-symbol-information-with-performance-data-files.md).
+- Embed the symbol information in the profiling data (.*vsp*) file. For more information, see [Save symbol information with performance data files](../profiling/saving-symbol-information-with-performance-data-files.md).
 
 > [!NOTE]
->  The analysis engine requires that the .*pdb* file is the same version as the compiled application file. A .*pdb* file from an earlier or later build of the application file will not work.
+> The analysis engine requires that the .*pdb* file is the same version as the compiled application file. A .*pdb* file from an earlier or later build of the application file will not work.

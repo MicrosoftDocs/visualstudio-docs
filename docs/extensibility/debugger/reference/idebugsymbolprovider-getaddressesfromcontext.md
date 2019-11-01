@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugSymbolProvider::GetAddressesFromContext method"
 ms.assetid: a3124883-a255-4543-a5ec-e1c7a97beb69
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugSymbolProvider::GetAddressesFromContext
 This method maps a document context into an array of debug addresses.
@@ -36,22 +39,18 @@ int GetAddressesFromContext(
 );
 ```
 
-#### Parameters
- `pDocContext`
+## Parameters
+`pDocContext`\
+[in] The document context.
 
- [in] The document context.
+`fStatmentOnly`\
+[in] If TRUE, limits the debug addresses to a single statement.
 
- `fStatmentOnly`
+`ppEnumBegAddresses`\
+[out] Returns an enumerator for the starting debug addresses associated with this statement or line.
 
- [in] If TRUE, limits the debug addresses to a single statement.
-
- `ppEnumBegAddresses`
-
- [out] Returns an enumerator for the starting debug addresses associated with this statement or line.
-
- `ppEnumEndAddresses`
-
- [out] Returns an [IEnumDebugAddresses](../../../extensibility/debugger/reference/ienumdebugaddresses.md) enumerator for the ending debug addresses associated with this statement or line.
+`ppEnumEndAddresses`\
+[out] Returns an [IEnumDebugAddresses](../../../extensibility/debugger/reference/ienumdebugaddresses.md) enumerator for the ending debug addresses associated with this statement or line.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -61,7 +60,7 @@ int GetAddressesFromContext(
 
  It is possible for a single statement to have multiple debug addresses, as in the case of templates.
 
-## See Also
+## See also
 - [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
 - [GetAddressesFromPosition](../../../extensibility/debugger/reference/idebugsymbolprovider-getaddressesfromposition.md)
 - [IEnumDebugAddresses](../../../extensibility/debugger/reference/ienumdebugaddresses.md)

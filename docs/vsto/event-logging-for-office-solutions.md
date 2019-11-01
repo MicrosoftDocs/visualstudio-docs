@@ -26,19 +26,19 @@ ms.workload:
 
 ### To read the Event Log in Windows Server 2003 and Windows XP
 
-1.  In Control Panel, open **Administrative Tools**.
+1. In Control Panel, open **Administrative Tools**.
 
-2.  Start **Event Viewer**.
+2. Start **Event Viewer**.
 
-3.  In the list of event logs, select **Application**.
+3. In the list of event logs, select **Application**.
 
-4.  On the **View** menu, click **Filter**.
+4. On the **View** menu, click **Filter**.
 
-5.  In the **Event source** list, select **VSTO 4.0**.
+5. In the **Event source** list, select **VSTO 4.0**.
 
-6.  For installation events, in the **Event ID** box, type **4096**.
+6. For installation events, in the **Event ID** box, type **4096**.
 
-7.  Click **OK** to see the filtered view.
+7. Click **OK** to see the filtered view.
 
 ### To read the Event Log in Windows 7, Windows Vista, and Windows Server 2008
 
@@ -78,17 +78,17 @@ ms.workload:
 
 ### To disable the Event Log
 
-1.  In Control Panel, open **System**.
+1. In Control Panel, open **System**.
 
-2.  On the **Advanced** tab, click **Environment Variables**.
+2. On the **Advanced** tab, click **Environment Variables**.
 
-3.  In the **System variables** pane, click **New**.
+3. In the **System variables** pane, click **New**.
 
-4.  In the **New System Variable** dialog box, type **VSTO_EVENTLOGDISABLED** in the **Variable name** box.
+4. In the **New System Variable** dialog box, type **VSTO_EVENTLOGDISABLED** in the **Variable name** box.
 
-5.  In the **Variable value** box, type **1**.
+5. In the **Variable value** box, type **1**.
 
-6.  Click **OK**.
+6. Click **OK**.
 
 ## See also
 - [Deploy an Office solution](../vsto/deploying-an-office-solution.md)

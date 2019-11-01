@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugging [Debugging SDK], enabling for programs"
 ms.assetid: 61d24820-0cd9-48b6-8674-6813f7493237
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

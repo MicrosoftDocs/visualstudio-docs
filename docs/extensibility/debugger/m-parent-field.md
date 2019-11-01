@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "m_parent field, Task class [.NET Framework debug engines]"
 ms.assetid: da9e3dc7-8e9b-4c3a-a9e0-12921b5300c6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

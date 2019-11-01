@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProcess3::GetDebugReason"
 ms.assetid: f23fbabc-8b18-4278-bebf-4cdc7091513c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProcess3::GetDebugReason
 This method returns the reason that the process was launched for debugging.
@@ -30,14 +33,13 @@ int GetDebugReason(
 );
 ```
 
-#### Parameters
- `pReason`
-
- [out] Returns a value from the [DEBUG_REASON](../../../extensibility/debugger/reference/debug-reason.md) enumeration.
+## Parameters
+`pReason`\
+[out] Returns a value from the [DEBUG_REASON](../../../extensibility/debugger/reference/debug-reason.md) enumeration.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.
 
-## See Also
+## See also
 - [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)
 - [DEBUG_REASON](../../../extensibility/debugger/reference/debug-reason.md)

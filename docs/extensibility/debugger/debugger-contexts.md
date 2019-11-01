@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugging [Debugging SDK], contexts"
 ms.assetid: 79808036-b680-4e4c-9c61-4ed43aa11323
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -14,11 +14,11 @@ ms.workload:
 # Debugger contexts
 In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging, the debug engine (DE) operates simultaneously within several distinct contexts, as follows:
 
--   The code context, which describes the current location in a program's execution stream.
+- The code context, which describes the current location in a program's execution stream.
 
--   The documentation context or position, which describes the current position within a source document.
+- The documentation context or position, which describes the current position within a source document.
 
--   The expression evaluation context, which describes the context in which expression evaluation will take place.
+- The expression evaluation context, which describes the context in which expression evaluation will take place.
 
 ## In this section
  [Code context](../../extensibility/debugger/code-context.md)

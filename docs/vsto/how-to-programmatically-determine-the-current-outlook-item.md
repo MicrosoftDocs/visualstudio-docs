@@ -28,7 +28,7 @@ ms.workload:
 ## Compile the code
  This example requires:
 
--   Appointment, contact, and e-mail items in Microsoft Office Outlook.
+- Appointment, contact, and e-mail items in Microsoft Office Outlook.
 
 ## See also
 - [Outlook object model overview](../vsto/outlook-object-model-overview.md)

@@ -54,7 +54,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkAtProfile (
  The profiling state for the thread that contains the mark profile function must be on when marks and comments inserted with the Mark command or with API functions (CommentMarkAtProfile, CommentMarkProfile, or MarkProfile). Profile marks are global in scope. For example, a profile mark inserted in one thread can be used to mark the start or end of a data segment in any thread in the .vsp file.
 
 > [!IMPORTANT]
->  CommentMarkAtProfile methods should be used with instrumentation only.
+> CommentMarkAtProfile methods should be used with instrumentation only.
 
 ## .NET Framework equivalent
  *Microsoft.VisualStudio.Profiler.dll*

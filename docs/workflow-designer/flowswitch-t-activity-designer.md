@@ -8,8 +8,8 @@ f1_keywords:
   - "System.Activities.Core.Presentation.FlowSwitchLink`1.UI"
   - "System.Activities.Core.Presentation.FlowSwitchLinkIdentifier.UI"
 ms.assetid: 5b9c5afe-7499-4ee8-8c33-28aff14bde07
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

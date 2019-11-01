@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccPopulateDirList function"
 ms.assetid: dfff634b-b155-498b-a356-6eb252ac4fad
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -65,7 +65,7 @@ SCCRTN SccPopulateDirList(
 ## Remarks
  Only those directories and (optionally) file names that are actually in the source control repository are passed to the callback function.
 
-## See Also
+## See also
 - [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
 - [Bitflags Used by Specific Commands](../extensibility/bitflags-used-by-specific-commands.md)
 - [POPDIRLISTFUNC](../extensibility/popdirlistfunc.md)

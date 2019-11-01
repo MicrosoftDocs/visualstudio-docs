@@ -57,7 +57,7 @@ CommandTable is the root element of the .vsct file. This is the file that define
 |[VisibilityConstraints Element](../extensibility/visibilityconstraints-element.md)|Optional. Determines the static visibility of commands and toolbars.|  
 |[KeyBindings Element](../extensibility/keybindings-element.md)|Optional. Specifies the shortcut key combinations, if any, for the commands.|  
 |[UsedCommands Element](../extensibility/usedcommands-element.md)|Optional. Allows a VSPackage to optionally implement its own version of functionality originally supported by other VSPackages.|  
-|[Symbols Element](http://msdn.microsoft.com/f2ddd0aa-c3dd-439e-834d-28f136a27ffa)|Optional. Contains any symbol data -- GUIDs, IDs, and so forth -- for the compiler.|  
+|[Symbols Element](https://msdn.microsoft.com/f2ddd0aa-c3dd-439e-834d-28f136a27ffa)|Optional. Contains any symbol data -- GUIDs, IDs, and so forth -- for the compiler.|  
   
 ### Parent Elements  
   

@@ -3,8 +3,8 @@ title: The property cannot be deleted
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 55873f74-7834-4ec1-8815-eeeb65618d87
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"
@@ -27,5 +27,4 @@ Set the **Discriminator Property** to a different property of the data class to 
 
 ## See also
 
-- [O/R Designer messages](../data-tools/o-r-designer-messages.md)
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

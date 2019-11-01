@@ -1,9 +1,9 @@
 ---
 title: "Updating Visual Studio for Mac"
 description: "Instructions for updating Visual Studio for Mac and accessing preview releases."
-author: conceptdev
-ms.author: crdun
-ms.date: 05/06/2018
+author: asb3993
+ms.author: amburns
+ms.date: 09/18/2019
 ms.technology: vs-ide-install
 ms.assetid: DB8DC9FE-FF21-4061-8A96-3F9FC08A4F8F
 ---
@@ -12,10 +12,10 @@ ms.assetid: DB8DC9FE-FF21-4061-8A96-3F9FC08A4F8F
 
 Visual Studio for Mac distributes updates for the IDE and supported frameworks on a regular basis. These updates can be in the form of new features, improvements, and bug fixes.
 
-Visual Studio for Mac provides three channels to get these latest versions:
+Visual Studio for Mac provides two channels to get these latest versions:
 
 * **Stable** - Provides thoroughly tested updates. This channel is recommended for the best development experience.
-* **Beta** / **Alpha** - Provides early access to updates that are candidates for release in the Stable Channel. These releases may not be reliable for everyday use.
+* **Preview** - Provides early access to updates that are candidates for release in the Stable Channel. These releases may not be reliable for everyday use.
 
 ## Checking for updates
 
@@ -39,13 +39,17 @@ To change the channel select it from the channel drop down and press the **Switc
 
 Switching channels automatically starts the download process of new updates.
 
-If you have selected the option to **Check Automatically**, the updater box will pop up when Visual Studio for Mac is open to let you know that new updates are available. It will also give you the option to start downloading them.
+If you have selected the option to **Check Automatically**, the updater box will pop up when Visual Studio for Mac is open to let you know that new updates are available. New downloads will start downloading automatically to your machine when this box appears.
 
 To start installing updates, select the **Restart and Install Updates** button:
 
 ![Button to start installing updates](media/update-image4.png)
 
 Depending on the components that need to be installed, you may need to accept additional licenses or enter your machine's administrator username and password.
+
+## Troubleshooting
+
+If you have issues with the updater, try following the steps in the [Updater Troubleshooting](updater-troubleshooting.md) guide.
 
 ## See also
 

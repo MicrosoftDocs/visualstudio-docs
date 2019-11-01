@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1036"
 ms.assetid: 2329f844-4cb8-426d-bee2-cd065d1346d0
 caps.latest.revision: 23
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1036: Override methods on comparable types
@@ -61,4 +61,4 @@ manager: "wpickett"
 ## See Also
  <xref:System.IComparable?displayProperty=fullName>
  <xref:System.Object.Equals%2A?displayProperty=fullName>
- [Equality Operators](http://msdn.microsoft.com/library/bc496a91-fefb-4ce0-ab4c-61f09964119a)
+ [Equality Operators](https://msdn.microsoft.com/library/bc496a91-fefb-4ce0-ab4c-61f09964119a)

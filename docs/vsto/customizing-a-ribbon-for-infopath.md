@@ -30,7 +30,7 @@ ms.workload:
   The Print Preview window enables designers and users to preview the pages of a form or form template before they print them.
 
 > [!NOTE]
->  The **AddIns** tab does not appear in the Print Preview window. If you want a custom tab to appear in the Print Preview window, make sure that the **OfficeId** property of the tab is not set to **TabAddIns**.
+> The **AddIns** tab does not appear in the Print Preview window. If you want a custom tab to appear in the Print Preview window, make sure that the **OfficeId** property of the tab is not set to **TabAddIns**.
 
  You must specify the Ribbon type of each window in which you want your Ribbon to appear.
 
@@ -56,7 +56,7 @@ ms.workload:
  [!code-vb[Trin_RibbonInfoPathBasic#1](../vsto/codesnippet/VisualBasic/myinfopathproject/ribbon.vb#1)]
 
 ## See also
-- [Access the Ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
+- [Access the Ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [Ribbon designer](../vsto/ribbon-designer.md)
 - [Ribbon XML](../vsto/ribbon-xml.md)

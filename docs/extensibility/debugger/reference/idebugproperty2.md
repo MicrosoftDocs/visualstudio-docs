@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProperty2 interface"
 ms.assetid: a7d5c70f-a1a5-4120-9f70-184e01c25bff
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -17,7 +17,7 @@ ms.workload:
 This interface represents a stack frame property, a program document property, or some other property. The property is usually the result of an expression evaluation.
 
 > [!NOTE]
->  This use of "property" should not be confused with that meaning a member variable of a class, although an `IDebugProperty2` can represent such an entity.
+> This use of "property" should not be confused with that meaning a member variable of a class, although an `IDebugProperty2` can represent such an entity.
 
 ## Syntax
 
@@ -70,7 +70,7 @@ IDebugProperty2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md)
 - [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)

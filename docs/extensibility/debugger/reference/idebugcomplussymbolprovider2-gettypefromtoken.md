@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider2::GetTypeFromToken"
   - "GetTypeFromToken"
 ms.assetid: 4452bc5d-0225-40e0-a467-c472a5c7c4ee
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider2::GetTypeFromToken
 Retrieves a type given its token.
@@ -35,22 +38,18 @@ int GetTypeFromToken(
 );
 ```
 
-#### Parameters
-`appDomain`
+## Parameters
+`appDomain`\
+[in] Identifier of the application domain.
 
- [in] Identifier of the application domain.
+`guidModule`\
+[in] Unique identifier of the module.
 
-`guidModule`
+`tdToken`\
+[in] Token of the type to be retrieved.
 
- [in] Unique identifier of the module.
-
-`tdToken`
-
- [in] Token of the type to be retrieved.
-
-`ppField`
-
- [out] Returns the type that is represented by the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md).
+`ppField`\
+[out] Returns the type that is represented by the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md).
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -84,5 +83,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)

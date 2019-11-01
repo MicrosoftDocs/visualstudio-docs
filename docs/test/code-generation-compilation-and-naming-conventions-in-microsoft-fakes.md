@@ -1,12 +1,12 @@
 ---
-title: "Code generation, compilation, and naming conventions in Microsoft Fakes"
+title: "Microsoft Fakes: Generate & compile code; naming conventions"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Code generation, compilation, and naming conventions in Microsoft Fakes
 
@@ -14,8 +14,8 @@ This article discusses options and issues in Fakes code generation and compilati
 
 **Requirements**
 
--   Visual Studio Enterprise
--   A .NET Framework project
+- Visual Studio Enterprise
+- A .NET Framework project
 
 > [!NOTE]
 > .NET Standard projects are not supported.
@@ -56,23 +56,23 @@ For example, the following *.fakes* file generates stubs for types under the Sys
 
 The filter strings use a simple grammar to define how the matching should be done:
 
--   Filters are case-insensitive by default; filters perform a substring matching:
+- Filters are case-insensitive by default; filters perform a substring matching:
 
      `el` matches "hello"
 
--   Adding `!` to the end of the filter makes it a precise case-sensitive match:
+- Adding `!` to the end of the filter makes it a precise case-sensitive match:
 
      `el!` does not match "hello"
 
      `hello!` matches "hello"
 
--   Adding `*` to the end of the filter makes it match the prefix of the string:
+- Adding `*` to the end of the filter makes it match the prefix of the string:
 
      `el*` does not match "hello"
 
      `he*` matches "hello"
 
--   Multiple filters in a semicolon-separated list are combined as a disjunction:
+- Multiple filters in a semicolon-separated list are combined as a disjunction:
 
      `el;wo` matches "hello" and "world"
 
@@ -104,13 +104,13 @@ The Fakes code generator generates shim types and stub types for types that are 
 [assembly: InternalsVisibleTo("FileSystem.Tests")]
 ```
 
- **Internal types in strongly named assemblies**
+**Internal types in strongly named assemblies**
 
- If the shimmed assembly is strongly named, and you want to access internal types of the assembly:
+If the shimmed assembly is strongly named, and you want to access internal types of the assembly:
 
--   Both your test assembly and the Fakes assembly must be strongly named.
+- Both your test assembly and the Fakes assembly must be strongly named.
 
--   Add the public keys of the test and Fakes assembly to the **InternalsVisibleToAttribute** attributes in the shimmed assemblies. Here's how the example attributes in the shimmed assembly code would look when the shimmed assembly is strongly named:
+- Add the public keys of the test and Fakes assembly to the **InternalsVisibleToAttribute** attributes in the shimmed assemblies. Here's how the example attributes in the shimmed assembly code would look when the shimmed assembly is strongly named:
 
     ```csharp
     // FileSystem\AssemblyInfo.cs
@@ -155,29 +155,29 @@ The compilation of Fakes assemblies can significantly increase your build time. 
 
 From your unit test projects, add a reference to the compiled Fakes assemblies that are placed under FakesAssemblies in the project folder.
 
-1.  Create a new Class Library with the .NET runtime version matching your test projects. Let's call it Fakes.Prebuild. Remove the *class1.cs* file from the project, not needed.
+1. Create a new Class Library with the .NET runtime version matching your test projects. Let's call it Fakes.Prebuild. Remove the *class1.cs* file from the project, not needed.
 
-2.  Add reference to all the System and third-party assemblies you need Fakes for.
+2. Add reference to all the System and third-party assemblies you need Fakes for.
 
-3.  Add a *.fakes* file for each of the assemblies and build.
+3. Add a *.fakes* file for each of the assemblies and build.
 
-4.  From your test project
+4. From your test project
 
-    -   Make sure that you have a reference to the Fakes runtime DLL:
+    - Make sure that you have a reference to the Fakes runtime DLL:
 
          *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PublicAssemblies\Microsoft.QualityTools.Testing.Fakes.dll*
 
-    -   For each assembly that you have created Fakes for, add a reference to the corresponding DLL file in the *Fakes.Prebuild\FakesAssemblies* folder of your project.
+    - For each assembly that you have created Fakes for, add a reference to the corresponding DLL file in the *Fakes.Prebuild\FakesAssemblies* folder of your project.
 
 ### Avoid assembly name clashing
 
 In a Team Build environment, all build outputs are merged into a single directory. If multiple projects use Fakes, it might happen that Fakes assemblies from different versions override each other. For example, TestProject1 fakes *mscorlib.dll* from the .NET Framework 2.0 and TestProject2 fakes *mscorlib.dll* for the .NET Framework 4 would both yield to a *mscorlib.Fakes.dll* Fakes assembly.
 
- To avoid this issue, Fakes should automatically create version qualified Fakes assembly names for non-project references when adding the *.fakes* files. A version-qualified Fakes assembly name embeds a version number when you create the Fakes assembly name:
+To avoid this issue, Fakes should automatically create version qualified Fakes assembly names for non-project references when adding the *.fakes* files. A version-qualified Fakes assembly name embeds a version number when you create the Fakes assembly name:
 
- Given an assembly MyAssembly and a version 1.2.3.4, the Fakes assembly name is MyAssembly.1.2.3.4.Fakes.
+Given an assembly MyAssembly and a version 1.2.3.4, the Fakes assembly name is MyAssembly.1.2.3.4.Fakes.
 
- You can change or remove this version by the editing the Version attribute of the Assembly element in the *.fakes*:
+You can change or remove this version by the editing the Version attribute of the Assembly element in the *.fakes*:
 
 ```xml
 attribute of the Assembly element in the .fakes:
@@ -191,7 +191,7 @@ attribute of the Assembly element in the .fakes:
 
 ### Shim type and stub type naming conventions
 
- **Namespaces**
+**Namespaces**
 
 - .Fakes suffix is added to the namespace.
 
@@ -264,9 +264,9 @@ attribute of the Assembly element in the .fakes:
 
 The following rules are applied recursively:
 
--   Because Fakes uses C# to generate the Fakes assemblies, any character that would produce an invalid C# token is escaped to "_" (underscore).
+- Because Fakes uses C# to generate the Fakes assemblies, any character that would produce an invalid C# token is escaped to "_" (underscore).
 
--   If a resulting name clashes with any member of the declaring type, a numbering scheme is used by appending a two-digit counter, starting at 01.
+- If a resulting name clashes with any member of the declaring type, a numbering scheme is used by appending a two-digit counter, starting at 01.
 
 ## See also
 

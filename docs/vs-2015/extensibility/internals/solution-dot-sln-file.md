@@ -97,4 +97,4 @@ EndGlobal
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps>   
  [Solution User Options (.Suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md)   
- [Solutions](../../extensibility/internals/solutions.md)
+ [Solutions](../../extensibility/internals/solutions-overview.md)

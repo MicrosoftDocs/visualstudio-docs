@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccDirQueryInfo function"
 ms.assetid: 459e2d99-573d-47c4-b834-6d82c5e14162
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -60,7 +60,7 @@ LPLONG  lpStatus
  The IDE uses this function before a directory is renamed to check whether the directory is under source control by querying whether it has a corresponding project. If the directory is not under source control, the IDE can provide the proper warning to the user.
 
 > [!NOTE]
->  If a source control plug-in chooses to not implement one or more of the status values, unimplemented bits should be set to zero.
+> If a source control plug-in chooses to not implement one or more of the status values, unimplemented bits should be set to zero.
 
 ## See also
 - [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)

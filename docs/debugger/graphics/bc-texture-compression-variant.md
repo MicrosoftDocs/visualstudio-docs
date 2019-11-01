@@ -22,13 +22,13 @@ Enables block compression on textures that have a pixel format that's a variatio
 
 - The `D3D11_TEXTURE2D_DESC` object passed in `pDesc` describes an unchanging shader resource; that is:
 
-  -   The BindFlags member has only the D3D11_BIND_SHADER_RESOURCE flag set.
+  - The BindFlags member has only the D3D11_BIND_SHADER_RESOURCE flag set.
 
-  -   The Usage member is set to either D3D11_USAGE_DEFAULT or D3D11_USAGE_IMMUTABLE.
+  - The Usage member is set to either D3D11_USAGE_DEFAULT or D3D11_USAGE_IMMUTABLE.
 
-  -   The CPUAccessFlags member is set to 0 (no CPU access).
+  - The CPUAccessFlags member is set to 0 (no CPU access).
 
-  -   The SamplerDesc member has its Count member set to 1 (no Multi-Sample Anti-Aliasing (MSAA)).
+  - The SamplerDesc member has its Count member set to 1 (no Multi-Sample Anti-Aliasing (MSAA)).
 
 - Initial data is provided to the call to `CreateTexture2D`.
 
@@ -54,5 +54,5 @@ Enables block compression on textures that have a pixel format that's a variatio
 ## Example
  This variant block-compresses textures at run time, before the call to `CreateTexture2D`. We recommend against this approach for production code because the uncompressed textures consume more disk space and because the additional step can significantly increase loading times in your app because block-based compression requires significant computational resources to encode. Instead, we recommend that you compress your textures offline by using an image editor or image processor that's part of your build pipeline. These approaches reduce disk-space requirements, eliminate run-time overhead in your app, and afford more processing time so that you can retain the best image quality.
 
-## See Also
+## See also
 - [Half/Quarter Texture Dimensions Variant](half-quarter-texture-dimensions-variant.md)

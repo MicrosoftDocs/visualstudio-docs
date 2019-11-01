@@ -17,15 +17,15 @@ manager: jillfra
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
+> In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
  Visual Studio calls [EnumChildren](../../extensibility/debugger/reference/idebugproperty2-enumchildren.md) to obtain an [IEnumDebugPropertyInfo2](../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md) object that provides access to all the locals to be displayed in the **Locals** window. Visual Studio then calls [Next](../../extensibility/debugger/reference/ienumdebugpropertyinfo2-next.md) to get the information to be displayed for each local. In this example, the class `CEnumPropertyInfo` implements the `IEnumDebugPropertyInfo2` interface.  
   
  This implementation of `IEnumDebugPropertyInfo2::Next` performs the following tasks:  
   
-1.  Clears the array where the information is to be stored.  
+1. Clears the array where the information is to be stored.  
   
-2.  Calls [Next](../../extensibility/debugger/reference/ienumdebugfields-next.md) for each local, storing the returned [DEBUG_PROPERTY_INFO](../../extensibility/debugger/reference/debug-property-info.md) in the array to be returned. The [IEnumDebugFields](../../extensibility/debugger/reference/ienumdebugfields.md) object was supplied when this `CEnumPropertyInfo` class was instantiated.  
+2. Calls [Next](../../extensibility/debugger/reference/ienumdebugfields-next.md) for each local, storing the returned [DEBUG_PROPERTY_INFO](../../extensibility/debugger/reference/debug-property-info.md) in the array to be returned. The [IEnumDebugFields](../../extensibility/debugger/reference/ienumdebugfields.md) object was supplied when this `CEnumPropertyInfo` class was instantiated.  
   
 ## Managed Code  
  This example shows an implementation of `IEnumDebugPropertyInfo2::EnumChildren` for a method's locals in managed code.  

@@ -33,7 +33,7 @@ HRESULT get_hasSecurityChecks(
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 > [!NOTE]
->  A return value of `S_FALSE` means that the property is not available for the symbol.
+> A return value of `S_FALSE` means that the property is not available for the symbol.
 
 ## Requirements
 
@@ -42,6 +42,6 @@ HRESULT get_hasSecurityChecks(
 |Header:|dia2.h|
 |Version:|DIA SDK v8.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [/GS (Buffer Security Check)](/cpp/build/reference/gs-buffer-security-check)

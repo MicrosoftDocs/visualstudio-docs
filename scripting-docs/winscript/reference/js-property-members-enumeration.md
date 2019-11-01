@@ -2,7 +2,6 @@
 title: "JS_PROPERTY_MEMBERS Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -38,5 +37,5 @@ enum JS_PROPERTY_MEMBERS{   JS_PROPERTY_MEMBERS_ALL = 0,   JS_PROPERTY_MEMBERS_A
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [Windows Script Interfaces Reference](../../winscript/reference/windows-script-interfaces-reference.md)

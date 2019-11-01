@@ -29,9 +29,9 @@ ms.workload:
 ## Run code when a SharePoint solution is deployed or retracted
  You can handle events to perform additional tasks when a SharePoint solution is deployed or retracted. Visual Studio raises events that you can handle in the following scenarios:
 
--   Before and after each deployment step is executed for a SharePoint project item. For more information, see [How to: Run code when deployment steps are executed](../sharepoint/how-to-run-code-when-deployment-steps-are-executed.md).
+- Before and after each deployment step is executed for a SharePoint project item. For more information, see [How to: Run code when deployment steps are executed](../sharepoint/how-to-run-code-when-deployment-steps-are-executed.md).
 
--   Before and after a SharePoint project is deployed or retracted. For more information, see [How to: Run code when a SharePoint project is deployed or retracted](../sharepoint/how-to-run-code-when-a-sharepoint-project-is-deployed-or-retracted.md).
+- Before and after a SharePoint project is deployed or retracted. For more information, see [How to: Run code when a SharePoint project is deployed or retracted](../sharepoint/how-to-run-code-when-a-sharepoint-project-is-deployed-or-retracted.md).
 
 ## Handle deployment conflicts
  Some types of SharePoint project items, including modules, Web parts, list instances, and content types, provide built-in deployment conflict resolution. When you deploy a solution that contains one of these project items, Visual Studio first checks whether a file already exists on the SharePoint site with the same name, URL, or ID as a file in the item you are deploying. If a conflict exists, Visual Studio can automatically resolve the conflict, or it can prompt you to determine whether you want to have Visual Studio resolve the conflict or cancel the deployment. For more information, see [Troubleshooting SharePoint Packaging and Deployment](../sharepoint/troubleshooting-sharepoint-packaging-and-deployment.md).

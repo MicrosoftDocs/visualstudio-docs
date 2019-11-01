@@ -36,7 +36,7 @@ To include files for a build, they must be included in an item list in the [!INC
 
 #### To declare multiple items
 
--   Use the `Include` attributes similar to following:
+- Use the `Include` attributes similar to following:
 
     `<CSFile Include="form1.cs;form2.cs"/>`
 
@@ -91,7 +91,7 @@ In a project file, you can use the @() notation in tasks to specify an entire it
     `<VBC Sources="@(VBFile)">...</VBC>`
 
 > [!NOTE]
->  You must use wildcards with items to specify the inputs for a build; you cannot specify the inputs using the `Sources` attribute in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] tasks such as [Csc](../msbuild/csc-task.md) or [Vbc](../msbuild/vbc-task.md). The following example is not valid in a project file:
+> You must use wildcards with items to specify the inputs for a build; you cannot specify the inputs using the `Sources` attribute in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] tasks such as [Csc](../msbuild/csc-task.md) or [Vbc](../msbuild/vbc-task.md). The following example is not valid in a project file:
 >
 > `<CSC Sources="*.cs">...</CSC>`
 

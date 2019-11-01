@@ -146,7 +146,7 @@ The following describe the parameters of the `GenerateBootstrapper` task.
 In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## Example
-The following example uses the `GenerateBootstrapper` task to install an application that must have the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] installed as a prerequisite.
+The following example uses the `GenerateBootstrapper` task to install an application that must have the .NET Framework 2.0 installed as a prerequisite.
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">

@@ -4,8 +4,8 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.All_Languages.CodeLens"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -14,8 +14,19 @@ ms.workload:
 
 CodeLens lets you stay focused on your work while you find out what happened to your code&ndash;without leaving the editor. You can find references to a piece of code, changes to your code, linked bugs, work items, code reviews, and unit tests.
 
+::: moniker range=">=vs-2019"
+
 > [!NOTE]
-> CodeLens is available only in Visual Studio Enterprise and Visual Studio Professional editions. It is not available in Visual Studio Community edition.
+> CodeLens is available in Visual Studio Community edition, however, the *source control* indicators are not available in this edition.
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+> [!NOTE]
+> CodeLens is available only in Visual Studio Enterprise and Professional editions. It is not available in Visual Studio Community edition.
+
+::: moniker-end
 
 See where and how the individual parts of your code are used in your solution:
 
@@ -31,7 +42,7 @@ To choose the indicators that you want to see, or to turn CodeLens off and on, g
 
 You can find references in C# or Visual Basic code.
 
-1. Choose the **references** indicator, or press **Alt**+**2**.
+1. Choose the **references** indicator or press **Alt**+**2**.
 
    ![CodeLens references](../ide/media/codelens-view-references.png)
 
@@ -50,15 +61,15 @@ To see relationships between the code and its references, [create a code map](..
 
 ![CodeLens - References on code map](../ide/media/codelensmappedreferences.png)
 
-## <a name="find-code-history"/>Find changes in your code
+## Find changes in your code
 
 Inspect your code's history to find out what happened to your code. Or, review changes before they're merged into your code so you can better understand how changes in other branches might affect your code.
 
 You need:
 
-- Visual Studio Enterprise or Visual Studio Professional
+- Visual Studio Enterprise or Professional edition
 
-- Team Foundation Server 2013 or later, Azure DevOps Services, or Git
+- Azure DevOps Services, Team Foundation Server 2013 or later, or Git
 
 - [Skype for Business](/skypeforbusiness/) to contact your team from the code editor
 
@@ -72,7 +83,7 @@ For file types other than *.cs* or *.vb*, you get CodeLens details for the entir
 
 ### Code element-level indicators
 
-Code element-level indicators let you see who changed your code, and what changes they made. Code element-level indicators are available for C# and Visual Basic code.
+Code element-level indicators let you see who changed your code and what changes they made. Code element-level indicators are available for C# and Visual Basic code.
 
 This is what you see when you use Team Foundation Version Control (TFVC) in Team Foundation Server or Azure DevOps Services:
 
@@ -200,7 +211,7 @@ You can discover unit tests that exist for your C# or Visual Basic code without 
 
 1. Go to application code that has associated [unit test code](../test/unit-test-your-code.md).
 
-2. If you have not already, build your application to load the CodeLens test indicators. Make sure [discovery by built assemblies](../test/test-explorer-faq.md#assembly-based-discovery) is turned on.
+2. If you have not already, build your application to load the CodeLens test indicators. 
 
 3. Review the tests for the code by pressing **Alt**+**3**.
 
@@ -214,11 +225,11 @@ You can discover unit tests that exist for your C# or Visual Basic code without 
 
      ![CodeLens - Go to unit test definition](../ide/media/codelens-unit-test-definition.png)
 
-6. To review the test's results, choose the test status indicator (![test failed icon](../ide/media/codelenstestfailedicon.png) or ![test passed icon](../ide/media/codelenstestpassedicon.png)), or press **Alt**+**1**.
+6. To review the test's results, choose the test status indicator (![test failed icon](../ide/media/codelenstestfailedicon.png) or ![test passed icon](../ide/media/codelenstestpassedicon.png)) or press **Alt**+**1**.
 
      ![CodeLens - See unit test result](../ide/media/codelens-unit-test-result.png)
 
-7. To see how many people changed this test, who changed this test, or how many changes were made to this test, [find your code's history](#find-code-history) and linked items.
+7. To see how many people changed this test, who changed this test, or how many changes were made to this test, [find your code's history](#find-changes-in-your-code) and linked items.
 
 ## Keyboard shortcuts
 
@@ -231,7 +242,7 @@ To use the keyboard to select indicators, press and hold the **Alt** key to disp
 
 ## Q & A
 
-### Q: How do I turn CodeLens off or on, or choose which indicators to see?
+### Q: How do I turn CodeLens off or on or choose which indicators to see?
 
 **A:**  You can turn indicators off or on, except for the references indicator. Go to **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens**.
 
@@ -254,6 +265,20 @@ Turn CodeLens file-level indicators on and off using the chevron icons at the bo
 - DevOps-related indicators appear only when work items are linked to the code and when you have permissions to open linked work items. Confirm that you have [team member permissions](/azure/devops/organizations/security/view-permissions?view=vsts).
 
 - Unit test indicators don't appear when application code doesn't have unit tests. Test status indicators appear automatically in test projects. If you know that your application code has unit tests, but the test indicators don't appear, try building the solution (**Ctrl**+**Shift**+**B**).
+
+::: moniker range=">=vs-2019"
+
+> [!TIP]
+> CodeLens is available in Visual Studio Community edition, however, the *source control* indicators are not available in this edition.
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+> [!TIP]
+> CodeLens is not available in Visual Studio Community edition.
+
+::: moniker-end
 
 ### Q: Why don't I see the work item details for a commit?
 
@@ -303,11 +328,11 @@ To use the keyboard:
 
 - **References**: This indicator updates automatically when the code changes. If the **References** indicator is docked as a separate window, refresh the indicator by selecting **Refresh**:
 
-     ![Refresh button in CodeLens References](../ide/media/codelensviewreferencesdocked.png)
+   ![Refresh button in CodeLens References](../ide/media/codelensviewreferencesdocked.png)
 
 - **Team**: Refresh these indicators by selecting **Refresh CodeLens Team Indicators** from the right-click menu:
 
-     ![Refresh CodeLens Team Indicators menu item](../ide/media/codelensrefreshindicatorsfromcode.png)
+   ![Refresh CodeLens Team Indicators menu item](../ide/media/codelensrefreshindicatorsfromcode.png)
 
 - **Test**: [Find unit tests for your code](#associated-unit-tests) to refresh the **Test** indicator.
 
@@ -321,8 +346,7 @@ To use the keyboard:
 
 ### Q: My CodeLens test indicators no longer appear in my file when I first open my solution. How can I load them?
 
-**A:** Rebuild your project to get CodeLens test indicators to load in your file. Make sure [discovery by built assemblies](../test/test-explorer-faq.md#assembly-based-discovery
-) is turned on. To improve performance, Visual Studio no longer fetches source information for test indicators when code files are loaded. Test indicators are loaded after a build, or when you navigate to a test by double-clicking on it in **Test Explorer**.
+**A:** Rebuild your project to get CodeLens test indicators to load in your file. To improve performance, Visual Studio no longer fetches source information for test indicators when code files are loaded. Test indicators are loaded after a build, or when you navigate to a test by double-clicking on it in **Test Explorer**.
 
 ## See also
 

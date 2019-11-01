@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDocumentPosition2::GetDocument"
 ms.assetid: eaa172c9-5748-4ce1-a0e2-33c2063f6752
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDocumentPosition2::GetDocument
 Gets the containing document.
@@ -30,14 +33,13 @@ int GetDocument( 
 );
 ```
 
-#### Parameters
- `ppDoc`
-
- [out] Returns an [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) object that represents the document containing this position.
+## Parameters
+`ppDoc`\
+[out] Returns an [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) object that represents the document containing this position.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md)
 - [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)

@@ -58,21 +58,21 @@ The following steps give a high-level overview of visualizer creation. For detai
 
 To create the visualizer user interface on the debugger side, you create a class that inherits from <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>, and override the <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer.Show%2A?displayProperty=fullName> method to display the interface. You can use <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDialogVisualizerService> to display Windows forms, dialogs, and controls in your visualizer.
 
-1.  Use <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider> methods to get the visualized object on the debugger side.
+1. Use <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider> methods to get the visualized object on the debugger side.
 
-1.  Create a class that inherits from <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>.
+1. Create a class that inherits from <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>.
 
-1.  Override the <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer.Show%2A?displayProperty=fullName> method to display your interface. Use <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDialogVisualizerService> methods to display Windows forms, dialogs, and controls in your interface.
+1. Override the <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer.Show%2A?displayProperty=fullName> method to display your interface. Use <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDialogVisualizerService> methods to display Windows forms, dialogs, and controls in your interface.
 
-4.  Apply <xref:System.Diagnostics.DebuggerVisualizerAttribute>, giving it the visualizer to display (<xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>).
+4. Apply <xref:System.Diagnostics.DebuggerVisualizerAttribute>, giving it the visualizer to display (<xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>).
 
 ### To create the debuggee side
 
 You specify debuggee-side code by using the <xref:System.Diagnostics.DebuggerVisualizerAttribute>.
 
-1.  Apply <xref:System.Diagnostics.DebuggerVisualizerAttribute>, giving it a visualizer (<xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>) and an object source (<xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>). If you omit the object source, the visualizer will use a default object source.
+1. Apply <xref:System.Diagnostics.DebuggerVisualizerAttribute>, giving it a visualizer (<xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>) and an object source (<xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>). If you omit the object source, the visualizer will use a default object source.
 
-1.  To let the visualizer edit as well as display data objects, override the `TransferData` or `CreateReplacementObject` methods from <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>.
+1. To let the visualizer edit as well as display data objects, override the `TransferData` or `CreateReplacementObject` methods from <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>.
 
 ## See also
 

@@ -13,8 +13,8 @@ f1_keywords:
 helpviewer_keywords:
   - "Basic Text Editor Options dialog box"
 ms.assetid: 5a8cafca-f7b4-4a2d-92ce-6894a7673d00
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -44,7 +44,6 @@ The **VB Specific** property page, in the **Basic** folder of the **Text Editor*
    When these options are selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
 
    ![Quick Action to install NuGet package in Visual Studio](media/nuget-lightbulb.png)
-
 
 ## Highlighting
 
@@ -77,19 +76,19 @@ When selected, vertical lines appear in the editor that line up with structured 
 **Pretty Listing (reformatting) of code**
 The text editor reformats your code as appropriate. When this option is selected, the code editor will:
 
--   Align your code to the correct tab position
+- Align your code to the correct tab position
 
--   Recase keywords, variables, and objects to the correct case
+- Recase keywords, variables, and objects to the correct case
 
--   Add a missing `Then` to an `If...Then` statement
+- Add a missing `Then` to an `If...Then` statement
 
--   Add parenthesis to function calls
+- Add parenthesis to function calls
 
--   Add missing end quotes to strings
+- Add missing end quotes to strings
 
--   Reformat exponential notation
+- Reformat exponential notation
 
--   Reformat dates
+- Reformat dates
 
 **Automatic insertion of end constructs**
 

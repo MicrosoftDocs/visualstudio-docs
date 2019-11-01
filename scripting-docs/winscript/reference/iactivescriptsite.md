@@ -2,7 +2,6 @@
 title: "IActiveScriptSite | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -32,5 +31,5 @@ Implemented by the host to create a site for the Windows Script engine. Usually,
 |[IActiveScriptSite::OnEnterScript](../../winscript/reference/iactivescriptsite-onenterscript.md)|Informs the host that the scripting engine has begun executing the script code.|  
 |[IActiveScriptSite::OnLeaveScript](../../winscript/reference/iactivescriptsite-onleavescript.md)|Informs the host that the scripting engine has returned from executing script code.|  
   
-## See Also  
+## See also  
  [Active Script Interfaces](../../winscript/reference/active-script-interfaces.md)

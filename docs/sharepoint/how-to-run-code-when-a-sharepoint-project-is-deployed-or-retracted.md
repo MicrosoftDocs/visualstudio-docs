@@ -1,5 +1,5 @@
 ---
-title: "How to: Run Code When a SharePoint Project is Deployed or Retracted | Microsoft Docs"
+title: "Run code when SharePoint project is deployed or retracted"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -20,11 +20,11 @@ ms.workload:
 
 1. Create a project item extension, a project extension, or a definition of a new project item type. For more information, see the following topics:
 
-   -   [How to: Create a SharePoint project item extension](../sharepoint/how-to-create-a-sharepoint-project-item-extension.md)
+   - [How to: Create a SharePoint project item extension](../sharepoint/how-to-create-a-sharepoint-project-item-extension.md)
 
-   -   [How to: Create a SharePoint project extension](../sharepoint/how-to-create-a-sharepoint-project-extension.md)
+   - [How to: Create a SharePoint project extension](../sharepoint/how-to-create-a-sharepoint-project-extension.md)
 
-   -   [How to: Define a SharePoint project item type](../sharepoint/how-to-define-a-sharepoint-project-item-type.md)
+   - [How to: Define a SharePoint project item type](../sharepoint/how-to-define-a-sharepoint-project-item-type.md)
 
 2. In the extension, access the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> object. For more information, see [How to: Retrieve the SharePoint project service](../sharepoint/how-to-retrieve-the-sharepoint-project-service.md).
 
@@ -40,9 +40,9 @@ ms.workload:
 ## Compile the code
  This example requires references to the following assemblies:
 
--   Microsoft.VisualStudio.SharePoint
+- Microsoft.VisualStudio.SharePoint
 
--   System.ComponentModel.Composition
+- System.ComponentModel.Composition
 
 ## Deploy the extension
  To deploy the extension, create a [!include[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (VSIX) package for the assembly and any other files that you want to distribute with the extension. For more information, see [Deploy extensions for the SharePoint tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).

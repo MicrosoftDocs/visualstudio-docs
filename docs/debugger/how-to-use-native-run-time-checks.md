@@ -39,7 +39,7 @@ ms.workload:
   - "cplusplus"
 ---
 # How to: Use Native Run-Time Checks
-In Visual C++, you can use native [runtime_checks](/cpp/preprocessor/runtime-checks) to catch common run-time errors such as:
+In a Visual Studio C++ project, you can use native [runtime_checks](/cpp/preprocessor/runtime-checks) to catch common run-time errors such as:
 
 - Stack pointer corruption.
 
@@ -65,14 +65,14 @@ In Visual C++, you can use native [runtime_checks](/cpp/preprocessor/runtime-che
 
 ### To enable native run-time checks in a debug build
 
--   Use the **/RTC** option and link with the debug version of a C run-time library (/MDd, for example).
+- Use the **/RTC** option and link with the debug version of a C run-time library (/MDd, for example).
 
 ### To modify native run-time check behavior
 
--   Use the `runtime_checks` pragma.
+- Use the `runtime_checks` pragma.
 
-## See Also
-- [Debugging in Visual Studio](../debugger/index.md)
+## See also
+- [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [runtime_checks](/cpp/preprocessor/runtime-checks)
 - [Run-Time Error Checking](/cpp/c-runtime-library/run-time-error-checking)

@@ -23,7 +23,6 @@ manager: jillfra
 # Message Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Logs a message during a build.  
   
 ## Parameters  

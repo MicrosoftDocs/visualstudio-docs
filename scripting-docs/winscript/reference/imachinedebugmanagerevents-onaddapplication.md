@@ -2,7 +2,6 @@
 title: "IMachineDebugManagerEvents::onAddApplication | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -48,6 +47,6 @@ HRESULT onAddApplication(
 ## Remarks  
  This method indicates that an application was added to the running application list.  
   
-## See Also  
+## See also  
  [IMachineDebugManagerEvents Interface](../../winscript/reference/imachinedebugmanagerevents-interface.md)   
  [IMachineDebugManagerEvents::onRemoveApplication](../../winscript/reference/imachinedebugmanagerevents-onremoveapplication.md)

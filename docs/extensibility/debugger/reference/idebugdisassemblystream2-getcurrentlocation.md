@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDisassemblyStream2::GetCurrentLocation"
 ms.assetid: 512302f1-12b1-4107-8a6e-c5bc878ce1c3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDisassemblyStream2::GetCurrentLocation
 Returns a code location identifier that represents the current code location.
@@ -30,10 +33,9 @@ int GetCurrentLocation( 
 );
 ```
 
-#### Parameters
- `puCodeLocationId`
-
- [out] Returns the code location identifier. See the Remarks section for the [GetCodeLocationId](../../../extensibility/debugger/reference/idebugdisassemblystream2-getcodelocationid.md) method for a description of a code location identifier.
+## Parameters
+`puCodeLocationId`\
+[out] Returns the code location identifier. See the Remarks section for the [GetCodeLocationId](../../../extensibility/debugger/reference/idebugdisassemblystream2-getcodelocationid.md) method for a description of a code location identifier.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -41,7 +43,7 @@ int GetCurrentLocation( 
 ## Remarks
  The code location identifier can be converted to a code context by calling the [GetCodeContext](../../../extensibility/debugger/reference/idebugdisassemblystream2-getcodecontext.md) method.
 
-## See Also
+## See also
 - [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)
 - [GetCodeLocationId](../../../extensibility/debugger/reference/idebugdisassemblystream2-getcodelocationid.md)
 - [GetCodeContext](../../../extensibility/debugger/reference/idebugdisassemblystream2-getcodecontext.md)

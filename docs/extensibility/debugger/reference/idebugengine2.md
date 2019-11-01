@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEngine2 interface"
 ms.assetid: 1f0e9ac0-6dfb-461a-976c-888d82144cdb
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -54,6 +54,6 @@ IDebugEngine2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)
 - [GetEngine](../../../extensibility/debugger/reference/idebugenginecreateevent2-getengine.md)

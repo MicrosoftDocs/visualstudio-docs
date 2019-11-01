@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA2243"
 ms.assetid: bfadb366-379d-4ee4-b17b-c4a09bf1106b
 caps.latest.revision: 12
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2243: Attribute string literals should parse correctly
@@ -49,11 +49,11 @@ manager: "wpickett"
 
  The rule is triggered by the following:
 
--   Parameters that contain ‘version’ and cannot be parsed to System.Version.
+- Parameters that contain ‘version’ and cannot be parsed to System.Version.
 
--   Parameters that contain ‘guid’ and cannot be parsed to System.Guid.
+- Parameters that contain ‘guid’ and cannot be parsed to System.Guid.
 
--   Parameters that contain ‘uri’, 'urn', or ‘url’ and cannot be parsed to System.Uri.
+- Parameters that contain ‘uri’, 'urn', or ‘url’ and cannot be parsed to System.Uri.
 
 ## See Also
  [CA1054: URI parameters should not be strings](../code-quality/ca1054-uri-parameters-should-not-be-strings.md)

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugBreakpointResolution2::GetResolutionInfo"
 ms.assetid: 828cbdf6-b87d-4c45-be87-d87087b04a60
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBreakpointResolution2::GetResolutionInfo
 Gets the breakpoint resolution information that describes this breakpoint.
@@ -32,14 +35,12 @@ int GetResolutionInfo( 
 );
 ```
 
-#### Parameters
- `dwFields`
+## Parameters
+`dwFields`\
+[in] A combination of flags from the [BPRESI_FIELDS](../../../extensibility/debugger/reference/bpresi-fields.md) enumeration that determine which fields of the `pBPResolutionInfo` parameter are to be filled out.
 
- [in] A combination of flags from the [BPRESI_FIELDS](../../../extensibility/debugger/reference/bpresi-fields.md) enumeration that determine which fields of the `pBPResolutionInfo` parameter are to be filled out.
-
- `pBPResolutionInfo`
-
- [out] The [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md) structure to be filled in with information about this breakpoint.
+`pBPResolutionInfo`\
+[out] The [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md) structure to be filled in with information about this breakpoint.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise returns an error code.
@@ -134,7 +135,7 @@ HRESULT CDebugBreakpointResolution::CopyBP_RESOLUTION_INFO(
 }
 ```
 
-## See Also
+## See also
 - [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md)
 - [BPRESI_FIELDS](../../../extensibility/debugger/reference/bpresi-fields.md)
 - [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md)

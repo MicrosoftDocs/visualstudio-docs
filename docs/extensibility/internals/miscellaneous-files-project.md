@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Solution Items folder"
   - "files, opening with Miscellaneous Files project"
 ms.assetid: 93a278a8-d4f4-400b-8945-4f1b0a2b5bac
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -29,7 +29,7 @@ When a user opens project items, the IDE assigns to the Miscellaneous Files proj
 
  The Miscellaneous Files project does not require the user to explicitly create it with the **New Project** dialog box. Also, the Miscellaneous Files project does not permanently manage a list of project members. It uses an optional feature to record a list of most recently used files for each user.
 
-## See Also
+## See also
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument>
 - <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY>

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugMethodField::EnumArguments method"
 ms.assetid: 3ab55488-2437-4ff6-a9ae-78ea6d7b23a8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugMethodField::EnumArguments
 Creates an enumerator for the type of each argument required to call the method.
@@ -30,10 +33,9 @@ int EnumArguments(
 );
 ```
 
-#### Parameters
- `ppParams`
-
- [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of argument types. Returns a null value if there are no arguments.
+## Parameters
+`ppParams`\
+[out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of argument types. Returns a null value if there are no arguments.
 
 ## Return Value
  If successful, returns S_OK or returns S_FALSE if there are no arguments. Otherwise, returns an error code.
@@ -43,7 +45,7 @@ int EnumArguments(
 
  If the name of the parameter is needed along with the type, then call the [EnumParameters](../../../extensibility/debugger/reference/idebugmethodfield-enumparameters.md) method.
 
-## See Also
+## See also
 - [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md)
 - [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

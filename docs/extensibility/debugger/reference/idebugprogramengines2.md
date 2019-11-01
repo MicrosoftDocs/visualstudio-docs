@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramEngines2 interface"
 ms.assetid: 53d648f0-6c11-4337-badd-c43f3872b62c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -46,7 +46,7 @@ IDebugProgramEngines2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
 - [GetEngineInfo](../../../extensibility/debugger/reference/idebugprogramnode2-getengineinfo.md)

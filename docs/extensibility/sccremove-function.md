@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccRemove function"
 ms.assetid: 20830fdc-c0e9-4a5f-bf60-33f28874442f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -76,5 +76,5 @@ SCCRTN SccRemove(
 ## Remarks
  This function removes the files from the source control system but does not delete them from the user's local hard drive.
 
-## See Also
+## See also
 - [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

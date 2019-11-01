@@ -29,35 +29,35 @@ ms.workload:
 ## Objects that can contain custom data
  You can add custom data to any object in the SharePoint tools object model that implements the <xref:Microsoft.VisualStudio.SharePoint.IAnnotatedObject> interface. This interface defines just one property, <xref:Microsoft.VisualStudio.SharePoint.IAnnotatedObject.Annotations%2A>, which is a collection of custom data objects. The following types implement <xref:Microsoft.VisualStudio.SharePoint.IAnnotatedObject>:
 
--   <xref:Microsoft.VisualStudio.SharePoint.IMappedFolder>
+- <xref:Microsoft.VisualStudio.SharePoint.IMappedFolder>
 
--   <xref:Microsoft.VisualStudio.SharePoint.IMenuItem>
+- <xref:Microsoft.VisualStudio.SharePoint.IMenuItem>
 
--   <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject>
+- <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject>
 
--   <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectFeature>
+- <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectFeature>
 
--   <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectFeatureResourceFile>
+- <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectFeatureResourceFile>
 
--   <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItem>
+- <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItem>
 
--   <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemFile>
+- <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemFile>
 
--   <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemType>
+- <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemType>
 
--   <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeDefinition>
+- <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeDefinition>
 
--   <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectMember>
+- <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectMember>
 
--   <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectPackage>
+- <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectPackage>
 
--   <xref:Microsoft.VisualStudio.SharePoint.Deployment.IDeploymentContext>
+- <xref:Microsoft.VisualStudio.SharePoint.Deployment.IDeploymentContext>
 
--   <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNode>
+- <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNode>
 
--   <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeType>
+- <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeType>
 
--   <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeDefinition>
+- <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeDefinition>
 
 ## Add and retrieve custom data
  To add custom data to an object in a SharePoint tools extension, get the <xref:Microsoft.VisualStudio.SharePoint.IAnnotatedObject.Annotations%2A> property of the object you want to add the data to, and then use the <xref:Microsoft.VisualStudio.SharePoint.IAnnotationDictionary.Add%2A> method to add the data to the object.

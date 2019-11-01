@@ -7,11 +7,13 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_LOCATION_CODE_STRING structure"
 ms.assetid: a4cd71c6-5052-45fe-907b-ebc6ca1df2e4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
 ---
 # BP_LOCATION_CODE_STRING
 Used for setting code breakpoints based on a string that the user can enter from the integrated development environment (IDE).
@@ -26,10 +28,10 @@ typedef struct _BP_LOCATION_CODE_STRING {
 ```
 
 ## Members
-`bstrContext`
+`bstrContext`\
 The context of the breakpoint within the code, typically a method or function name as seen on a call stack.
 
-`bstrCodeExpr`
+`bstrCodeExpr`\
 The string that the user types in to describe the code breakpoint.
 
 ## Remarks
@@ -42,6 +44,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)

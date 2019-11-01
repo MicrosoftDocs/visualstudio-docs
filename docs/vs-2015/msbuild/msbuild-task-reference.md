@@ -20,7 +20,6 @@ manager: jillfra
 # MSBuild Task Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Tasks provide the code that runs during the build process. The tasks in the following list are included with [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]. When [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] is installed, additional tasks are available that are used to build [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] projects. For more information, see [Visual C++ Tasks](../msbuild/msbuild-tasks-specific-to-visual-cpp.md).  
   
  In addition to the parameters listed in the topics in this section, each task also has the following parameters:  

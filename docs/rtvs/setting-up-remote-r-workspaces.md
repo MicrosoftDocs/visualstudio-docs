@@ -91,14 +91,19 @@ To issue a self-signed certificate yourself:
 
 1. SSH or login to your Linux machine.
 2. Install `ssl-cert` package:
+
     ```sh
     sudo apt-get install ssl-cert
     ```
+
 3. Run `make-ssl-cert` to generate the default self-signed SSL certificate:
+
     ```sh
     sudo make-ssl-cert generate-default-snakeoil --force-overwrite
     ```
+
 4. Convert the generated key and PEM files to PFX. The generated PFX should be in your home folder:
+
     ```sh
     openssl pkcs12 -export -out ~/ssl-cert-snakeoil.pfx -inkey /etc/ssl/private/ssl-cert-snakeoil.key -in /etc/ssl/certs/ssl-cert-snakeoil.pem -password pass:SnakeOil
     ```
@@ -168,7 +173,7 @@ With R services running on the remote computer, you also need to create user acc
 
 1. Firewall rules: By default, the `R Host Broker` listens on TCP port 5444. Therefore, ensure that there are Windows firewall rules enabled for both inbound and outbound traffic (outbound is needed for installing packages and similar scenarios).  The R services installer sets these rules automatically for the built-in Windows firewall. If you're using a third-party firewall, however, open port 5444 for `R Host Broker` manually.
 
-1. Azure configuration: If your remote computer is a virtual machine on Azure, open port 5444 for incoming traffic within Azure networking as well, which is independent of the Windows firewall. For details, see [Filter network traffic with network security group](https://docs.microsoft.com/azure/virtual-network/virtual-networks-nsg) in the Azure documentation.
+1. Azure configuration: If your remote computer is a virtual machine on Azure, open port 5444 for incoming traffic within Azure networking as well, which is independent of the Windows firewall. For details, see [Filter network traffic with network security group](/azure/virtual-network/virtual-networks-nsg) in the Azure documentation.
 
 1. Tell the R Host Broker which SSL certificate to load: If you're installing the certificate on an Intranet server, it is likely that the fully-qualified domain name of your server is the same as its NETBIOS name. In this case, there is nothing that you need to do, as this is the default certificate that is loaded.
 

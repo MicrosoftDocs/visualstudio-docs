@@ -34,7 +34,7 @@ Applies to Windows only](../Image/windows_only_content.png "windows_only_content
 
 - Deploying an app that will be debugged when it is started by another app or method.
 
-##  <a name="BKMK_In_this_topic"></a> In this topic
+## <a name="BKMK_In_this_topic"></a> In this topic
  In this topic, you can learn:
 
  [How to deploy a Windows Store app](#BKMK_How_to_deploy_a_Windows_Store_app)
@@ -43,25 +43,25 @@ Applies to Windows only](../Image/windows_only_content.png "windows_only_content
 
  [Deployment options](#BKMK_Deployment_options)
 
-##  <a name="BKMK_How_to_deploy_a_Windows_Store_app"></a> How to deploy a Windows Store app
+## <a name="BKMK_How_to_deploy_a_Windows_Store_app"></a> How to deploy a Windows Store app
  Manually deploying an app is a simple process:
 
-1.  If you are deploying to a remote device, specify the name or IP address of the device in the property project page of the app's startup project. (The steps to do this are listed further down in this topic.).
+1. If you are deploying to a remote device, specify the name or IP address of the device in the property project page of the app's startup project. (The steps to do this are listed further down in this topic.).
 
-2.  On the debugger Visual Studio toolbar, choose the deployment target from the drop-down list next to the **Start Debugging** button.
+2. On the debugger Visual Studio toolbar, choose the deployment target from the drop-down list next to the **Start Debugging** button.
 
      ![Run on Local Machine](../debugger/media/vsrun-f5-local.png "VSRUN_F5_Local")
 
-3.  On the **Build** menu, choose **Deploy**
+3. On the **Build** menu, choose **Deploy**
 
-##  <a name="BKMK_How_to_specify_a_remote_device"></a> How to specify a remote device
+## <a name="BKMK_How_to_specify_a_remote_device"></a> How to specify a remote device
  **Prerequisites**
 
  To deploy an app to a remote device:
 
--   A developer's license must be installed on the remote device.
+- A developer's license must be installed on the remote device.
 
--   The Visual Studio Remote Tools must be installed on the remote device and the Remote Debugging Monitor must be running.
+- The Visual Studio Remote Tools must be installed on the remote device and the Remote Debugging Monitor must be running.
 
      Deployment uses the remote debugger network channel to send the app files to the remote device.
 
@@ -95,7 +95,7 @@ Applies to Windows only](../Image/windows_only_content.png "windows_only_content
 
 8. Enter the network name of the remote device in the **Remote Machine** box or click **Find** to choose the device from the **Select Remote Debugger Connection** dialog box.
 
-##  <a name="BKMK_Deployment_options"></a> Deployment options
+## <a name="BKMK_Deployment_options"></a> Deployment options
  You can set the following deployment options on the Debug property page of the startup project.
 
  **Allow Network Loopback**

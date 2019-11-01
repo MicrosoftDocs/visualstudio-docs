@@ -2,7 +2,6 @@
 title: "IActiveScriptParseProcedure::ParseProcedureText | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -92,5 +91,5 @@ HRESULT ParseProcedureText(
 ## Remarks  
  No script code is evaluated during this call; rather, the procedure is compiled into the script state where it can be called by the script later.  
   
-## See Also  
+## See also  
  [IActiveScriptParseProcedure](../../winscript/reference/iactivescriptparseprocedure.md)

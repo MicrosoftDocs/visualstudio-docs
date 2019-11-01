@@ -8,8 +8,8 @@ f1_keywords:
   - "CA2132"
 ms.assetid: e758afa1-8bde-442a-8a0a-bd1ea7b0ce4d
 caps.latest.revision: 13
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2132: Default constructors must be at least as critical as base type default constructors
@@ -23,7 +23,7 @@ manager: "wpickett"
 |Breaking Change|Breaking|
 
 > [!NOTE]
->  This warning is only applied to code that is running the CoreCLR (the version of the CLR that is specific to Silverlight Web applications).
+> This warning is only applied to code that is running the CoreCLR (the version of the CLR that is specific to Silverlight Web applications).
 
 ## Cause
  The transparency attribute of the default constructor of a derived class is not as critical as the transparency of the base class.

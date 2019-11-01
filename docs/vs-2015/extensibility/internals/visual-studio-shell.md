@@ -34,17 +34,17 @@ The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] shell is the primary agent o
   
 - Tracking shell-wide selection, context, and currency. The shell tracks the following types of items:  
   
-  -   The current project  
+  - The current project  
   
-  -   The current project item or ItemID the current <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>  
+  - The current project item or ItemID the current <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>  
   
-  -   The current selection for the **Properties** window or `SelectionContainer`  
+  - The current selection for the **Properties** window or `SelectionContainer`  
   
-  -   The UI context IDs or CmdUIGuids that control the visibility of commands, menus, and toolbars  
+  - The UI context IDs or CmdUIGuids that control the visibility of commands, menus, and toolbars  
   
-  -   The currently active elements such as the active window, document, and undo manager  
+  - The currently active elements such as the active window, document, and undo manager  
   
-  -   The User Context attributes that drive Dynamic Help  
+  - The User Context attributes that drive Dynamic Help  
   
   The shell also mediates communication among installed VSPackages and current services. It supports the core features of the shell and makes them available to all VSPackages integrated in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. These core features include the following items:  
   

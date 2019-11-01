@@ -2,7 +2,6 @@
 title: "IDebugApplicationNode::GetParent | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -44,5 +43,5 @@ HRESULT GetParent(
 ## Remarks  
  This method returns the parent node of this application node.  
   
-## See Also  
+## See also  
  [IDebugApplicationNode Interface](../../winscript/reference/idebugapplicationnode-interface.md)

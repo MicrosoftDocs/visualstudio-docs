@@ -23,9 +23,9 @@ ms.workload:
 
  This topic provides a brief overview of the Visio object model. For information about using the Visio object model to perform tasks in Office projects, see the following topics:
 
--   [Work with Visio documents](../vsto/working-with-visio-documents.md)
+- [Work with Visio documents](../vsto/working-with-visio-documents.md)
 
--   [Work with Visio shapes](../vsto/working-with-visio-shapes.md)
+- [Work with Visio shapes](../vsto/working-with-visio-shapes.md)
 
 ## Understand the Visio object model
  Visio provides many objects with which you can interact. These objects are organized in a hierarchy that closely follows the user interface. At the top of the hierarchy is the [Microsoft.Office.Interop.Visio.Application](/office/vba/api/Visio.Application) object. This object represents the current instance of Visio. The `Microsoft.Office.Interop.Visio.Application` object contains the `Microsoft.Office.Interop.Visio.Document` and `Microsoft.Office.Interop.Visio.Page` objects as well as the `Microsoft.Office.Interop.Visio.Documents` and `Microsoft.Office.Interop.Visio.Pages` collections. Each of these objects and collections has many methods and properties that you can access to manipulate and interact with it.
@@ -34,11 +34,11 @@ ms.workload:
 
  The following sections briefly describe the top-level objects and how they interact with each other. These objects include the following objects:
 
--   Application object
+- Application object
 
--   Document object
+- Document object
 
--   Page object
+- Page object
 
 ### Application object
  The Microsoft.Office.Interop.Visio.Application object represents the Visio application, and is the parent of all of the other objects. Its members usually apply to Visio as a whole. You can use the properties and methods of the Microsoft.Office.Interop.Visio.Application and the `Microsoft.Office.Interop.Visio.ApplicationSettings` objects to control the Visio environment.
@@ -56,19 +56,19 @@ ms.workload:
  To create shapes, you can use methods that include the `Microsoft.Office.Interop.Visio.Page.DrawSpline` and `Microsoft.Office.Interop.Visio.Page.DrawOval` methods. Additionally, you can retrieve masters from stencils and place the shapes on a page by using the `Microsoft.Office.Interop.Visio.Page.Drop` or `Microsoft.Office.Interop.Visio.Page.DropMany` methods.
 
 ## Use the Visio object model documentation
- For complete information about the Visio object model, you can refer to the Visio VBA object model reference. The VBA object model reference documents the Visio object model as it is exposed to Visual Basic for Applications (VBA) code. For more information, see [Visio 2010 object model reference](http://go.microsoft.com/fwlink/?LinkId=199775).
+ For complete information about the Visio object model, you can refer to the Visio VBA object model reference. The VBA object model reference documents the Visio object model as it is exposed to Visual Basic for Applications (VBA) code. For more information, see [Visio object model reference](/office/vba/api/overview/visio/object-model).
 
  All of the objects and members in the VBA object model reference correspond to types and members in the Visio primary interop assembly (PIA). For example, the `Document` object in the VBA object model reference corresponds to the Microsoft.Office.Interop.Visio.Document type in the Visio PIA. Although the VBA object model reference provides code examples for most properties, methods, and events, you must translate the VBA code in this reference to Visual Basic or Visual C# if you want to use them in a Visio VSTO Add-in project that you create by using Visual Studio.
 
 > [!NOTE]
->  At this time, there is no reference documentation for the Visio primary interop assembly.
+> At this time, there is no reference documentation for the Visio primary interop assembly.
 
- For related code samples and additional tools for creating Visio solutions, see [Visio 2010 software development kit](http://go.microsoft.com/fwlink/?LinkId=196501).
+ For related code samples and additional tools for creating Visio solutions, see [Visio 2010 software development kit](https://www.microsoft.com/download/details.aspx?id=12365).
 
 ### Additional types in primary interop assemblies
  You can find types in the primary interop assemblies that are not visible to VBA because of implementation differences. VBA provides a view of the Visio object model that includes only the objects and members that you can use directly. The primary interop assemblies expose the same object model, but they also include other interfaces, classes, and members that translate objects in the COM object model to managed code. These additional items are not intended to be used directly in your code.
 
- For more information, see [Overview of classes and interfaces in the Office primary interop assemblies](http://go.microsoft.com/fwlink/?LinkId=189592) and [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md).
+ For more information, see [Overview of classes and interfaces in the Office primary interop assemblies](/previous-versions/office/office-12/ms247299(v=office.12)) and [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md).
 
 ## See also
 - [Visio solutions](../vsto/visio-solutions.md)

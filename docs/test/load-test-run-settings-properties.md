@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "load tests, run settings"
 ms.assetid: de10dabb-02ed-403b-9e6f-0b735524988c
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Load test run settings properties
@@ -39,7 +39,7 @@ For more information, see [Configure load test run settings](../test/configure-l
 |**Save Log Frequency for Completed Tests**|Specifies the frequency at which the test log will be written. The number indicates that one out of every entered number of tests will be saved to the test log. For example, entering the value of ten specifies that the tenth, twentieth, thirtieth and so on will be written to the test log. Setting the value to 0 specifies that no test logs will be saved.|
 |**Save Log on Test Failure**|A Boolean value that determines whether if test logs are saved if a test fails in a load test. The default is `True`.<br /><br /> For more information, see [How to: Specify if test failures are saved to test logs](../test/how-to-specify-if-test-failures-are-saved-to-test-logs.md)|
 
- For more information, see [Modify load test logging settings](../test/modify-load-test-logging-settings.md).
+For more information, see [Modify load test logging settings](../test/modify-load-test-logging-settings.md).
 
 ## Results properties
 
@@ -64,7 +64,7 @@ For more information, see [Configure load test run settings](../test/configure-l
 |**Test Iterations**|Specifies the total number of individual tests to run before the load test is complete. This property only applies when the property "Use Test Iterations" is `True`.|
 |**Use Test Iterations**|If Use Test Iterations is `True`, then the load test runs until the number of individual tests completed within the load test reaches the number that is specified by the "Test Iterations" property. In this case, the time-based settings, which are Warm up Duration, Run Duration, and Cool-down Duration, are ignored. If "Use Test Iterations" is `False`, all the timing settings apply, and "Test Iterations" is ignored.|
 
- For more information, see [How to: Specify the number of test iterations in a run setting](../test/how-to-specify-the-number-of-test-iterations-in-a-load-test.md).
+For more information, see [How to: Specify the number of test iterations in a run setting](../test/how-to-specify-the-number-of-test-iterations-in-a-load-test.md).
 
 ## Timing properties
 
@@ -82,27 +82,28 @@ For more information, see [Configure load test run settings](../test/configure-l
 |**WebTest Connection Model**|This controls the usage of connections from the load test agent to the web server for web performance tests that run inside a load test. Three web performance test connection model options are available:<br /><br /> -   The **Connection Per User** model simulates the behavior of a user who is using a real browser. When Internet Explorer 6 or Internet Explorer 7 is simulated, each virtual user who is running a web performance test uses one or two dedicated connections to the web server. The first connection is established when the first request in the web performance test is issued. A second connection may be used when a page contains more than one dependent request. These requests are issued in parallel by using the two connections. These connections are reused for subsequent requests in the web performance test. The connections are closed when the web performance test finishes. A drawback to this model is that the number of connections that is held open on the agent computer might be high (up to two times the user load). Consequently, the resources that are required to support this high connection count might limit the user load that can be driven from a single load test agent. When Internet Explorer 8 is simulated, six concurrent connections are supported.<br />-   The **Connection Pool** model conserves the resources on the load test agent by sharing connections to the web server among multiple virtual web performance test users. If the user load is larger than the connection pool size, the web performance tests that are run by different virtual users will share a connection. This could mean that one web performance test might have to wait before it issues a request when another web performance test is using the connection. The average time that a web performance test waits before it submits a request is tracked by the load test performance counter Average Connection Wait Time. This number should be less than the average response time for a page. If it is not, the connection pool size is probably too small.<br />-   The **Connection Per Test Iteration** model specifies the use of dedicated connections for each test iteration.|
 |**WebTest Connection Pool Size**|This specifies the maximum number of connections to make between the load test agent and the Web server. This applies only to the **Connection Pool** model.|
 
-##  Change run setting properties
- You can add more run settings to your load test with different property settings so that you can run the load test under different conditions. For example, you can add a new test setting and use a different sample rate, or specify a longer run duration. You can only use one run setting at a time and you must specify which run setting to use by marking it as active. For an example, see [How to: Select the active run setting for a load test](../test/how-to-select-the-active-run-setting-for-a-load-test.md).
+## Change run setting properties
 
-### To change run settings
+You can add more run settings to your load test with different property settings so that you can run the load test under different conditions. For example, you can add a new test setting and use a different sample rate, or specify a longer run duration. You can only use one run setting at a time and you must specify which run setting to use by marking it as active. For an example, see [How to: Select the active run setting for a load test](../test/how-to-select-the-active-run-setting-for-a-load-test.md).
 
-1.  Open a load test.
+To change run settings:
 
-2.  Expand the **Run Settings** folder.
+1. Open a load test.
 
-3.  Choose a **Run Settings** node.
+2. Expand the **Run Settings** folder.
 
-4.  On the **View** menu, choose **Properties Window**.
+3. Choose a **Run Settings** node.
+
+4. On the **View** menu, choose **Properties Window**.
 
      The **Properties Window** is displayed and the properties for the selected run setting are displayed.
 
-5.  Use the **Properties Window** to change the run settings. For example, change the run duration to **00:05:00** to run your test for five minutes.
+5. Use the **Properties Window** to change the run settings. For example, change the run duration to **00:05:00** to run your test for five minutes.
 
     > [!NOTE]
     > For a complete list of the run settings properties and their descriptions, see [Load test run setting properties](../test/load-test-run-settings-properties.md).
 
-6.  When you are finished changing properties, save your load test. On the **File** menu, choose **Save**.
+6. When you are finished changing properties, save your load test. On the **File** menu, choose **Save**.
 
 > [!NOTE]
 > Counter set mappings are also a part of run settings. For more information, see [Specify the counter sets and threshold rules for computers in a load test](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md).

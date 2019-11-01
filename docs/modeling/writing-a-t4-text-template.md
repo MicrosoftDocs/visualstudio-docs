@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "text templates, syntax"
   - "text templates, guide"
   - "text templates, functions that generate text"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -19,11 +19,11 @@ A text template contains the text that will be generated from it. For example, a
 
  Text templates are composed of the following parts:
 
--   **Directives** - elements that control how the template is processed.
+- **Directives** - elements that control how the template is processed.
 
--   **Text blocks** - content that is copied directly to the output.
+- **Text blocks** - content that is copied directly to the output.
 
--   **Control blocks** - program code that inserts variable values into the text, and controls conditional or repeated parts of the text.
+- **Control blocks** - program code that inserts variable values into the text, and controls conditional or repeated parts of the text.
 
 To try the examples in this topic, copy them into a template file as described in [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md). After editing the template file, save it, and then inspect the output **.txt** file.
 
@@ -88,7 +88,7 @@ Hello!
  You can insert a text block wherever a `Write();` statement would be allowed in the code.
 
 > [!NOTE]
->  When you embed a text block within a compound statement such as a loop or conditional, always use braces {...} to contain the text block.
+> When you embed a text block within a compound statement such as a loop or conditional, always use braces {...} to contain the text block.
 
 ### Expression control blocks
  An expression control block evaluates an expression and converts it to a string. This is inserted into the output file.
@@ -230,7 +230,7 @@ private void WriteSquareLine(int i)
 <# string fileContent = File.ReadAllText(@"C:\myData.txt"); ...
 ```
 
- **Load a file as a navigable model**. A more powerful method is to read the data as a model, which your text template code can navigate. For example, you can load an XML file and navigate it with XPath expressions. You could also use [xsd.exe](http://go.microsoft.com/fwlink/?LinkId=178765) to create a set of classes with which you can read the XML data.
+ **Load a file as a navigable model**. A more powerful method is to read the data as a model, which your text template code can navigate. For example, you can load an XML file and navigate it with XPath expressions. You could also use [xsd.exe](/dotnet/standard/serialization/xml-schema-definition-tool-xsd-exe) to create a set of classes with which you can read the XML data.
 
  **Edit the model file in a diagram or form.** [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] provides tools that let you edit a model as a diagram or Windows form. This makes it easier to discuss the model with users of the generated application. [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] also creates a set of strongly-typed classes that reflect the structure of the model. For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md).
 

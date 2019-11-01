@@ -26,17 +26,17 @@ Script Debugging is currently disabled in Internet Explorer
   
 ### To enable script debugging in Internet Explorer  
   
-1.  On the Internet Explorer **Tools** menu, choose **Internet Options**.  
+1. On the Internet Explorer **Tools** menu, choose **Internet Options**.  
   
-2.  In the **Internet Options** dialog box, click the **Advanced** tab.  
+2. In the **Internet Options** dialog box, click the **Advanced** tab.  
   
-3.  On the **Advanced** tab, look in the **Settings** box, **Browsing** category.  
+3. On the **Advanced** tab, look in the **Settings** box, **Browsing** category.  
   
-4.  Clear **Disable Script Debugging (Internet Explorer)**.  
+4. Clear **Disable Script Debugging (Internet Explorer)**.  
   
-5.  Click **OK**.  
+5. Click **OK**.  
   
-6.  Exit and restart Internet Explorer.  
+6. Exit and restart Internet Explorer.  
   
      The new settings will now be in effect.  
   

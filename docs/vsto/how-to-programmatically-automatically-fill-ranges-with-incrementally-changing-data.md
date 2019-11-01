@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically automatically fill ranges with incrementally changing data"
+title: "Autofill incrementally changing data ranges programmatically"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -23,12 +23,12 @@ ms.workload:
 
  You must specify two ranges when using <xref:Microsoft.Office.Interop.Excel.Range.AutoFill%2A>:
 
--   The range that calls the <xref:Microsoft.Office.Interop.Excel.Range.AutoFill%2A> method, which specifies the starting point of the fill and contains an initial value.
+- The range that calls the <xref:Microsoft.Office.Interop.Excel.Range.AutoFill%2A> method, which specifies the starting point of the fill and contains an initial value.
 
--   The range that you want to fill, passed as a parameter to the <xref:Microsoft.Office.Interop.Excel.Range.AutoFill%2A> method. This destination range must include the range that contains the initial value.
+- The range that you want to fill, passed as a parameter to the <xref:Microsoft.Office.Interop.Excel.Range.AutoFill%2A> method. This destination range must include the range that contains the initial value.
 
     > [!NOTE]
-    >  You cannot pass a <xref:Microsoft.Office.Tools.Excel.NamedRange> control in place of the <xref:Microsoft.Office.Interop.Excel.Range>. For more information, see [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md).
+    > You cannot pass a <xref:Microsoft.Office.Tools.Excel.NamedRange> control in place of the <xref:Microsoft.Office.Interop.Excel.Range>. For more information, see [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md).
 
 ## Example
  [!code-csharp[Trin_VstcoreExcelAutomation#49](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#49)]
@@ -39,11 +39,11 @@ ms.workload:
 
  The example requires that you fill three regions:
 
--   Column B is to include five weekdays. For the initial value, type **Monday** in cell B1.
+- Column B is to include five weekdays. For the initial value, type **Monday** in cell B1.
 
--   Column C is to include five months. For the initial value, type **January** in cell C1.
+- Column C is to include five months. For the initial value, type **January** in cell C1.
 
--   Column D is to include a series of numbers, incrementing by two for each row. For the initial values, type **4** in cell D1 and **6** in cell D2.
+- Column D is to include a series of numbers, incrementing by two for each row. For the initial values, type **4** in cell D1 and **6** in cell D2.
 
 ## See also
 - [Work with ranges](../vsto/working-with-ranges.md)

@@ -27,13 +27,13 @@ ms.workload:
 
  For information about using the Word object model to perform specific tasks, see the following topics:
 
--   [Work with documents](../vsto/working-with-documents.md)
+- [Work with documents](../vsto/working-with-documents.md)
 
--   [Work with text in documents](../vsto/working-with-text-in-documents.md)
+- [Work with text in documents](../vsto/working-with-text-in-documents.md)
 
--   [Work with tables](../vsto/working-with-tables.md)
+- [Work with tables](../vsto/working-with-tables.md)
 
-##  <a name="understanding"></a> Understand the Word object model
+## <a name="understanding"></a> Understand the Word object model
  Word provides hundreds of objects with which you can interact. These objects are organized in a hierarchy that closely follows the user interface. At the top of the hierarchy is the <xref:Microsoft.Office.Interop.Word.Application> object. This object represents the current instance of Word. The <xref:Microsoft.Office.Interop.Word.Application> object contains the <xref:Microsoft.Office.Interop.Word.Document>, <xref:Microsoft.Office.Interop.Word.Selection>, <xref:Microsoft.Office.Interop.Word.Bookmark>, and <xref:Microsoft.Office.Interop.Word.Range> objects. Each of these objects has many methods and properties that you can access to manipulate and interact with the object.
 
  The following illustration shows one view of these objects in the hierarchy of the Word object model.
@@ -73,7 +73,7 @@ ms.workload:
  [!code-vb[Trin_VstcoreWordAutomation#120](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#120)]
  [!code-csharp[Trin_VstcoreWordAutomation#120](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#120)]
 
- In VSTO Add-in projects, you can generate <xref:Microsoft.Office.Tools.Word.Document> host items at runtime. You can use the generated host item to add controls to the associated document. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
+ In VSTO Add-in projects, you can generate <xref:Microsoft.Office.Tools.Word.Document> host items at run time. You can use the generated host item to add controls to the associated document. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
 
 ### Selection object
  The <xref:Microsoft.Office.Interop.Word.Selection> object represents the area that is currently selected. When you perform an operation in the Word user interface, such as bolding text, you select, or highlight the text and then apply the formatting. The <xref:Microsoft.Office.Interop.Word.Selection> object is always present in a document. If nothing is selected, then it represents the insertion point. In addition, a selection can encompass multiple blocks of text that are not contiguous.
@@ -109,16 +109,16 @@ ms.workload:
 
   Visual Studio extends the <xref:Microsoft.Office.Interop.Word.Bookmark> object by providing the <xref:Microsoft.Office.Tools.Word.Bookmark> host control. The <xref:Microsoft.Office.Tools.Word.Bookmark> host control behaves like a native <xref:Microsoft.Office.Interop.Word.Bookmark>, but has additional events and data-binding capabilities. You can bind data to a bookmark control on a document in the same way that you bind data to a text box control on a Windows Form. For more information, see [Bookmark control](../vsto/bookmark-control.md).
 
-##  <a name="WordOMDocumentation"></a> Use the Word object model documentation
+## <a name="WordOMDocumentation"></a> Use the Word object model documentation
  For complete information about the Word object model, you can refer to the Word primary interop assembly (PIA) reference and the Visual Basic for Applications (VBA) object model reference.
 
 ### Primary interop assembly reference
- The Word PIA reference documentation describes the types in the primary interop assembly for Word. This documentation is available from the following location: [Word 2010 primary interop assembly reference](http://go.microsoft.com/fwlink/?LinkId=189588).
+ The Word PIA reference documentation describes the types in the primary interop assembly for Word. This documentation is available from the following location: [Word 2010 primary interop assembly reference](../vsto/office-primary-interop-assemblies.md).
 
- For more information about the design of the Word PIA, such as the differences between classes and interfaces in the PIA and how events in the PIA are implemented, see [Overview of classes and interfaces in the Office primary interop assemblies](http://go.microsoft.com/fwlink/?LinkId=189592).
+ For more information about the design of the Word PIA, such as the differences between classes and interfaces in the PIA and how events in the PIA are implemented, see [Overview of classes and interfaces in the Office primary interop assemblies](/previous-versions/office/office-12/ms247299(v=office.12)).
 
 ### VBA object model reference
- The VBA object model reference documents the Word object model as it is exposed to VBA code. For more information, see [Word 2010 object model reference](http://go.microsoft.com/fwlink/?LinkId=199772).
+ The VBA object model reference documents the Word object model as it is exposed to VBA code. For more information, see [Word 2010 object model reference](/office/vba/api/overview/Word/object-model).
 
  All of the objects and members in the VBA object model reference correspond to types and members in the Word PIA. For example, the Document object in the VBA object model reference corresponds to the <xref:Microsoft.Office.Interop.Word.Document> object in the Word PIA. Although the VBA object model reference provides code examples for most properties, methods, and events, you must translate the VBA code in this reference to Visual Basic or Visual C# if you want to use them in a Word project that you create by using Visual Studio.
 

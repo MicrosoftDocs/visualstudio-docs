@@ -603,7 +603,6 @@ manager: jillfra
 # Additional MSBuild Resources
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If you are trying to solve a problem and cannot find the information you need in the documentation, you can consult other resources such as Knowledge Base articles, the developer community, or product support.  
   
 ## Knowledge Base Articles  

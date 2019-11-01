@@ -21,7 +21,6 @@ manager: jillfra
 # CombinePath Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Combines the specified paths into a single path.  
   
 ## Task Parameters  

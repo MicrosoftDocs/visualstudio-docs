@@ -31,14 +31,14 @@ ms.workload:
 
 ### To protect a workbook
 
-1.  Call the <xref:Microsoft.Office.Tools.Excel.Workbook.Protect%2A> method of the workbook and include a password. To use the following code example, run it in the `ThisWorkbook` class, not in a sheet class.
+1. Call the <xref:Microsoft.Office.Tools.Excel.Workbook.Protect%2A> method of the workbook and include a password. To use the following code example, run it in the `ThisWorkbook` class, not in a sheet class.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#10](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/ThisWorkbook.cs#10)]
      [!code-vb[Trin_VstcoreExcelAutomation#10](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/ThisWorkbook.vb#10)]
 
 ### To unprotect a workbook
 
-1.  Call the <xref:Microsoft.Office.Tools.Excel.Workbook.Unprotect%2A> method, passing a password if it is required. To use the following code example, run it in the `ThisWorkbook` class, not in a sheet class.
+1. Call the <xref:Microsoft.Office.Tools.Excel.Workbook.Unprotect%2A> method, passing a password if it is required. To use the following code example, run it in the `ThisWorkbook` class, not in a sheet class.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#11](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/ThisWorkbook.cs#11)]
      [!code-vb[Trin_VstcoreExcelAutomation#11](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/ThisWorkbook.vb#11)]
@@ -47,14 +47,14 @@ ms.workload:
 
 ### To protect a workbook
 
-1.  Call the <xref:Microsoft.Office.Interop.Excel._Workbook.Protect%2A> method of the workbook and include a password. This code example uses the active workbook. To use this example, run the code from the `ThisAddIn` class in your project.
+1. Call the <xref:Microsoft.Office.Interop.Excel._Workbook.Protect%2A> method of the workbook and include a password. This code example uses the active workbook. To use this example, run the code from the `ThisAddIn` class in your project.
 
      [!code-csharp[Trin_VstcoreExcelAutomationAddIn#6](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#6)]
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#6](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#6)]
 
 ### To unprotect a workbook
 
-1.  Call the <xref:Microsoft.Office.Interop.Excel._Workbook.Unprotect%2A> method of the active workbook, passing a password if it is required. To use this example, run the code from the `ThisAddIn` class in your project.
+1. Call the <xref:Microsoft.Office.Interop.Excel._Workbook.Unprotect%2A> method of the active workbook, passing a password if it is required. To use this example, run the code from the `ThisAddIn` class in your project.
 
      [!code-csharp[Trin_VstcoreExcelAutomationAddIn#7](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#7)]
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#7](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#7)]

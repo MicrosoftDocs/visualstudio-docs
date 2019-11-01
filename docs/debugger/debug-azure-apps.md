@@ -1,6 +1,6 @@
 ---
 title: "Debug Azure services | Microsoft Docs"
-ms.date: "09/14/2017"
+ms.date: "09/14/2018"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugger"
@@ -27,6 +27,6 @@ You can use Visual Studio to debug Azure services in different scenarios:
 
 - To remote debug ASP.NET on Azure Service Fabric, see [Debug a remote Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application)
 
-## See Also
+## See also
 
-- [Debugging in Visual Studio](../debugger/index.md)
+- [Debugging in Visual Studio](../debugger/index.yml)

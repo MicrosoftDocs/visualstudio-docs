@@ -4,8 +4,8 @@ ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 ms.assetid: ba830937-3317-4674-8cc2-c0cd565603c5
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

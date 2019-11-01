@@ -12,7 +12,7 @@ ms.workload:
 
 In versions of MSBuild prior to 15.0, MSBuild was loaded from the Global Assembly Cache (GAC) and MSBuild extensions were installed in the registry. This ensured all applications used the same version of MSBuild and had access to the same Toolsets, but prevented side-by-side installations of different versions of Visual Studio.
 
-To support faster, smaller, and side-by-side installation, Visual Studio 2017 no longer places MSBuild in the GAC or modifies the registry. Unfortunately, this means that applications that wish to use the MSBuild API to evaluate or build projects can't implicitly rely on the Visual Studio installation.
+To support faster, smaller, and side-by-side installation, Visual Studio 2017 and later versions no longer place MSBuild in the GAC or modifies the registry. Unfortunately, this means that applications that wish to use the MSBuild API to evaluate or build projects can't implicitly rely on the Visual Studio installation.
 
 ## Use MSBuild from Visual Studio
 
@@ -32,18 +32,18 @@ The mechanism for changing your project to avoid loading MSBuild from a central 
 
 #### Use NuGet packages (preferred)
 
-These instructions assume that you're using [PackageReference-style NuGet references](https://docs.microsoft.com/nuget/consume-packages/package-references-in-project-files).
+These instructions assume that you're using [PackageReference-style NuGet references](/nuget/consume-packages/package-references-in-project-files).
 
 Change your project file(s) to reference MSBuild assemblies from their NuGet packages. Specify `ExcludeAssets=runtime` to tell NuGet that the assemblies are needed only at build time, and shouldn't be copied to the output directory.
 
-The major and minor version of the MSBuild packages must be less than or equal to the minimum version of Visual Studio you wish to support. If you wish to support any version of Visual Studio 2017, reference package version `15.1.548`.
+The major and minor version of the MSBuild packages must be less than or equal to the minimum version of Visual Studio you wish to support. For example, if you wish to support Visual Studio 2017 and later versions, reference package version `15.1.548`.
 
 For example, you can use this XML:
 
 ```xml
 <ItemGroup>
   <PackageReference Include="Microsoft.Build" Version="15.1.548" ExcludeAssets="runtime" />
-  <PackageReference Include="Microsoft.Build.Utilities" Version="15.1.548" ExcludeAssets="runtime" />
+  <PackageReference Include="Microsoft.Build.Utilities.Core" Version="15.1.548" ExcludeAssets="runtime" />
 </ItemGroup>
 ```
 
@@ -59,21 +59,23 @@ If you can't use NuGet packages, you can reference MSBuild assemblies that are d
 
 #### Binding redirects
 
-Reference the Microsoft.Build.Locator package to ensure that your application automatically uses the required binding redirects of all versions of MSBuild assemblies to version `15.1.0.0`.
+Reference the Microsoft.Build.Locator package to ensure that your application automatically uses the required binding redirects to version 15.1.0.0. Binding redirects to this version support both MSBuild 15 and MSBuild 16.
 
 ### Ensure output is clean
 
 Build your project and inspect the output directory to make sure that it doesn't contain any *Microsoft.Build.\*.dll* assemblies other than *Microsoft.Build.Locator.dll*, added in the next step.
 
-### Add package reference
+### Add package reference for Microsoft.Build.Locator
 
-Add a NuGet package reference to [Microsoft.Build.Locator](https://www.nuget.org/packages/Microsoft.Build.Locator/).
+Add a NuGet package reference for [Microsoft.Build.Locator](https://www.nuget.org/packages/Microsoft.Build.Locator/).
 
 ```xml
     <PackageReference Include="Microsoft.Build.Locator">
       <Version>1.1.2</Version>
     </PackageReference>
 ```
+
+Do not specify `ExcludeAssets=runtime` for the Microsoft.Build.Locator package.
 
 ### Register instance before calling MSBuild
 

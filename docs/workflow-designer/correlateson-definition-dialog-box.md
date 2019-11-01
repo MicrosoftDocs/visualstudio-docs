@@ -5,8 +5,8 @@ ms.topic: reference
 f1_keywords:
   - "CorrelatesOnDefinition.UI"
 ms.assetid: 8b2b627a-f236-4479-aa09-525df65e3413
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -32,5 +32,4 @@ The **Receive** activity designer can be dragged from **Toolbox** and dropped on
 
 - <xref:System.ServiceModel.Activities.Receive>
 - [Add CorrelationInitializers Dialog Box](../workflow-designer/add-correlationinitializers-dialog-box.md)
-- [Add Correlation Dialog Box](http://msdn.microsoft.com/en-us/9e41a149-e8ab-41b1-8886-ea06a63041b6)
 - [Initialize Correlation Dialog Box](../workflow-designer/initialize-correlation-dialog-box.md)

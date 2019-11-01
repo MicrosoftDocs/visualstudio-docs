@@ -2,7 +2,6 @@
 title: "IDebugCookie Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -25,5 +24,5 @@ Allows the debug cookie to be set, for use with the `IMachineDebugManagerCookie`
 |------------|-----------------|  
 |[IDebugCookie::SetDebugCookie](../../winscript/reference/idebugcookie-setdebugcookie.md)|Sets the debug application cookie.|  
   
-## See Also  
+## See also  
  [IMachineDebugManagerCookie Interface](../../winscript/reference/imachinedebugmanagercookie-interface.md)

@@ -6,15 +6,15 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], expression evaluation"
   - "expression evaluation, context"
 ms.assetid: 008a20c7-1b27-4013-bf96-d6a3f510da02
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
 ---
 # Evaluation context
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
+> In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
  When the debug engine (DE) calls the expression evaluator (EE), three arguments that are passed to [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) determine the context for finding and evaluating symbols, as shown in the following table.
 

@@ -23,7 +23,6 @@ manager: jillfra
 # GenerateDeploymentManifest Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Generates a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment manifest. A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment manifest describes the deployment of an application by defining a unique identity for the deployment, identifying deployment traits such as install or online mode, specifying application update settings and update locations, and indicating the corresponding [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application manifest.  
   
 ## Parameters  

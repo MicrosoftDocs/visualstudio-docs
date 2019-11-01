@@ -2,7 +2,6 @@
 title: "IActiveScriptParseProcedureOld Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -23,7 +22,7 @@ manager: "ghogen"
 Allows the source code text for procedures to be added to the script. For interpreted scripting languages that do not have an independent authoring environment, such as VBScript, this provides an alternative mechanism (other than `IActiveScriptParse` or `IPersist*`) to add script procedures to the name space.  
   
 > [!NOTE]
->  This interface is deprecated in favor of the `IActiveScriptParseProcedure` interface.  
+> This interface is deprecated in favor of the `IActiveScriptParseProcedure` interface.  
   
 ## Methods  
  In addition to the methods inherited from `IUnknown`, the `IActiveScriptParseProcedureOld` interface exposes the following methods.  
@@ -32,5 +31,5 @@ Allows the source code text for procedures to be added to the script. For interp
 |------------|-----------------|  
 |[IActiveScriptParseProcedureOld::ParseProcedureText](../../winscript/reference/iactivescriptparseprocedureold-parseproceduretext.md)|Parses the given code procedure and adds the procedure to the name space.|  
   
-## See Also  
+## See also  
  [IActiveScriptParseProcedure](../../winscript/reference/iactivescriptparseprocedure.md)

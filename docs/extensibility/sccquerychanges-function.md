@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccQueryChanges function"
 ms.assetid: 4cd58eb3-6952-49b1-9620-8682e3eaa604
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -62,7 +62,7 @@ SCCRTN SccQueryChanges(
 ## Remarks
  Changes being queried for are to the namespace: specifically, renaming, adding, and removing a file.
 
-## See Also
+## See also
 - [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
 - [QUERYCHANGESFUNC](../extensibility/querychangesfunc.md)
 - [Error Codes](../extensibility/error-codes.md)

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "class diagrams, exporting as images"
 ms.assetid: c57055c5-1340-449f-b9d3-ca6f87e2f69a
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -19,15 +19,15 @@ To export a class diagram that you created from code in a project, save the diag
 
 ## Export a diagram
 
-1.  Open your class diagram (*.cd*) file.
+1. Open your class diagram (*.cd*) file.
 
-2.  From the **Class Diagram** menu or the diagram surface shortcut menu, choose **Export Diagram as Image**.
+2. From the **Class Diagram** menu or the diagram surface shortcut menu, choose **Export Diagram as Image**.
 
-3.  Select a diagram.
+3. Select a diagram.
 
-4.  Select the format that you want.
+4. Select the format that you want.
 
-5.  Choose **Export** to finish exporting.
+5. Choose **Export** to finish exporting.
 
 To automatically update exported images that are linked from other documents, export the diagram again in Visual Studio.
 

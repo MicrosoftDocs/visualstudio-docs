@@ -20,8 +20,8 @@ You attempted to invoke the **String.prototype.toString** or **String.prototype.
   
 ### To correct this error  
   
--   Only invoke the **String.prototype.toString** or **String.prototype.valueOf** methods on objects of type `String`.  
+- Only invoke the **String.prototype.toString** or **String.prototype.valueOf** methods on objects of type `String`.  
   
-## See Also  
+## See also  
  [String Object](../../javascript/reference/string-object-javascript.md)   
  [toString Method (Object)](../../javascript/reference/tostring-method-object-javascript.md)

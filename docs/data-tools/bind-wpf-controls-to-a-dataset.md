@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "WPF data binding [Visual Studio], walkthroughs"
   - "WPF Designer, data binding"
 ms.assetid: 177420b9-568b-4dad-9d16-1b0e98a24d71
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"
@@ -44,21 +44,35 @@ Prior knowledge of the following concepts is also helpful, but not required to c
 
 - Datasets and TableAdapters. For more information, see [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md) and [TableAdapters](../data-tools/create-and-configure-tableadapters.md).
 
-- WPF data binding. For more information, see [Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview).
+- WPF data binding. For more information, see [Data Binding Overview](/dotnet/desktop-wpf/data/data-binding-overview).
 
 ## Create the project
 
 Create a new WPF project to display product records.
 
-1. Start Visual Studio.
+::: moniker range="vs-2017"
+
+1. Open Visual Studio.
 
 2. On the **File** menu, select **New** > **Project**.
 
 3. Expand **Visual Basic** or **Visual C#**, and then select **Windows**.
 
-4. Select the **WPF Application** project template.
+4. Select the **WPF App** project template.
 
 5. In the **Name** box, enter **AdventureWorksProductsEditor** and then select **OK**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Open Visual Studio.
+
+2. On the start window, choose **Create a new project**.
+
+3. Search for the C# **WPF App** project template and follow the steps to create the project, naming the project **AdventureWorksProductsEditor**.
+
+::: moniker-end
 
    Visual Studio creates the AdventureWorksProductsEditor project.
 
@@ -242,4 +256,4 @@ After completing this walkthrough, you might try the following related tasks:
 
 - [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)
 - [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)
-- [Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview)
+- [Data Binding Overview](/dotnet/desktop-wpf/data/data-binding-overview)

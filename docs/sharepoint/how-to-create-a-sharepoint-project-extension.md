@@ -20,19 +20,19 @@ ms.workload:
 
 ### To create a project extension
 
-1.  Create a class library project.
+1. Create a class library project.
 
-2.  Add references to the following assemblies:
+2. Add references to the following assemblies:
 
-    -   Microsoft.VisualStudio.SharePoint
+    - Microsoft.VisualStudio.SharePoint
 
-    -   System.ComponentModel.Composition
+    - System.ComponentModel.Composition
 
-3.  Create a class that implements the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension> interface.
+3. Create a class that implements the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension> interface.
 
-4.  Add the <xref:System.ComponentModel.Composition.ExportAttribute> to the class. This attribute enables Visual Studio to discover and load your <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension> implementation. Pass the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension> type to the attribute constructor.
+4. Add the <xref:System.ComponentModel.Composition.ExportAttribute> to the class. This attribute enables Visual Studio to discover and load your <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension> implementation. Pass the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension> type to the attribute constructor.
 
-5.  In your implementation of the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension.Initialize%2A> method, use members of the *projectService* parameter to define the behavior of your extension. This parameter is an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> object that provides access to the events defined in the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents> interface.
+5. In your implementation of the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension.Initialize%2A> method, use members of the *projectService* parameter to define the behavior of your extension. This parameter is an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> object that provides access to the events defined in the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents> interface.
 
 ## Example
  The following code example demonstrates how to create a simple project extension that handles most of the SharePoint project events that are defined by the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents> interface. To test the code, create a SharePoint project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and then add more projects to the solution, change project property values, or delete or exclude a project. The extension notifies you of the events by writing messages to the **Output** window and **Error List** window.
@@ -186,9 +186,9 @@ This example uses the SharePoint project service to write the message to the **O
 ## Compile the code
  This example requires references to the following assemblies:
 
--   Microsoft.VisualStudio.SharePoint
+- Microsoft.VisualStudio.SharePoint
 
--   System.ComponentModel.Composition
+- System.ComponentModel.Composition
 
 ## Deploy the extension
  To deploy the extension, create a [!include[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (VSIX) package for the assembly and any other files that you want to distribute with the extension. For more information, see [Deploy Extensions for the SharePoint tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).

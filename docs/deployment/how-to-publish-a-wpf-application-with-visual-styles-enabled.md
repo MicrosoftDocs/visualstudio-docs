@@ -26,7 +26,7 @@ Visual styles enable the appearance of common controls to change based on the th
 
   Then, you can move the published files to the location from which you want end users to install the application.
 
-##  Publish the solution without visual styles enabled
+## Publish the solution without visual styles enabled
 
 1. Ensure that your project does not have visual styles enabled. First, check your project's manifest file for the following XML. Then, if the XML is present, enclose the XML with a comment tag.
 

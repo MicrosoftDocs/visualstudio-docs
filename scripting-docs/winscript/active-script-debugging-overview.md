@@ -2,7 +2,6 @@
 title: "Active Script Debugging Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -287,5 +286,5 @@ Figure 1
   [ISimpleConnectionPoint Interface](../winscript/reference/isimpleconnectionpoint-interface.md)  
   Provides a simple way for describing and enumerating the events fired on a particular connection point, for script engines.  
   
-## See Also  
+## See also  
  [Active Script Debugger Interfaces](../winscript/reference/active-script-debugger-interfaces.md)

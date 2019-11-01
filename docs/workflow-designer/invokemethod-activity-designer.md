@@ -5,8 +5,8 @@ ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.InvokeMethod.UI"
 ms.assetid: 15e6efdc-52ca-46d8-9c5e-063f7c8265a6
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -43,11 +43,11 @@ Methods with arguments called **TargetObject** or **Result** can't be invoked us
 
 The algorithm for registering the parameters in <xref:System.Activities.Activity.CacheMetadata%2A> is shown in the following list:
 
-1.  Register <xref:System.Activities.Statements.InvokeMethod.TargetObject%2A> argument.
+1. Register <xref:System.Activities.Statements.InvokeMethod.TargetObject%2A> argument.
 
-2.  Register <xref:System.Activities.Statements.InvokeMethod.Result%2A> argument.
+2. Register <xref:System.Activities.Statements.InvokeMethod.Result%2A> argument.
 
-3.  Iterate through the <xref:System.Activities.Statements.InvokeMethod.Parameters%2A> collection and register each argument.
+3. Iterate through the <xref:System.Activities.Statements.InvokeMethod.Parameters%2A> collection and register each argument.
 
 The resulting exception is of type <xref:System.Activities.InvalidWorkflowException> with the following message: 'InvokeMethod': A variable, RuntimeArgument or a DelegateArgument already exists with the name 'TargetObject'. Names must be unique within an environment scope.
 

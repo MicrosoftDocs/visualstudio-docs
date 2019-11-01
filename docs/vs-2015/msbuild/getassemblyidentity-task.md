@@ -23,7 +23,6 @@ manager: jillfra
 # GetAssemblyIdentity Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Retrieves the assembly identities from the specified files and outputs the identity information.  
   
 ## Task Parameters  

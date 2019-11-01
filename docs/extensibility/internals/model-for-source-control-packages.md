@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "source control [Visual Studio SDK], model"
 ms.assetid: 6164b2d3-a622-4de8-bef3-a6de985e9ebd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -28,7 +28,7 @@ Example Source Control Project
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>|Called by projects to register with the source control package and to obtain information on source control status. This interface is accessed using the <xref:Microsoft.VisualStudio.Shell.Interop.SVsSccManager> service.|
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProject2>|Implemented by the project to respond to source control requests for information about files and to obtain the source control settings required for the project file.|
 
-## See Also
+## See also
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProject2>

@@ -33,7 +33,7 @@ HRESULT get_liveRangeStartRelativeVirtualAddress ( 
  If successful, returns `S_OK`; otherwise, returns an error code. The relative virtual address returned is the beginning of the range in which the symbol is valid.
 
 > [!NOTE]
->  A returned error code means that the symbol does not have live range information.
+> A returned error code means that the symbol does not have live range information.
 
 ## Remarks
 
@@ -44,5 +44,5 @@ HRESULT get_liveRangeStartRelativeVirtualAddress ( 
 
  DLL: msdia100.dll
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

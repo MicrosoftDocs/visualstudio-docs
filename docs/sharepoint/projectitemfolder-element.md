@@ -52,7 +52,7 @@ ms.workload:
 
 |||
 |-|-|
-|**Namespace**|http<nolink>://schemas.microsoft.com/VisualStudio/2010/<br>SharePointTools/SharePointProjectItemModel|
+|**Namespace**|http:\/\/schemas.microsoft.com/VisualStudio/2010/<br>SharePointTools/SharePointProjectItemModel|
 |**Schema name**|SharePoint Project Item Schema|
 |**Validation file**|ProjectItemModelSchema.xsd|
 |**Can be empty**|No|

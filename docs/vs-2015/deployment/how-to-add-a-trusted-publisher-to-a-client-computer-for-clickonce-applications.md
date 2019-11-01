@@ -25,7 +25,7 @@ With Trusted Application Deployment, you can configure client computers so that 
  The commands you use vary slightly depending on whether the certificate authority (CA) that issued your certificate is part of a client's trusted root. If a Windows client computer is part of a domain, it will contain, in a list, CAs that are considered trusted roots. This list is usually configured by the system administrator. If your certificate was issued by one of these trusted roots, or by a CA that chains to one of these trusted roots, you can add the certificate to the client's trusted root store. If, on the other hand, your certificate was not issued by one of these trusted roots, you must add the certificate to both the client's Trusted Root store and Trusted Publisher store.  
   
 > [!NOTE]
->  You must add certificates this way on every client computer to which you plan to deploy a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application that requires elevated permissions. You add the certificates either manually or through an application you deploy to your clients. You only need to configure these computers once, after which you can deploy any number of [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications signed with the same certificate.  
+> You must add certificates this way on every client computer to which you plan to deploy a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application that requires elevated permissions. You add the certificates either manually or through an application you deploy to your clients. You only need to configure these computers once, after which you can deploy any number of [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications signed with the same certificate.  
   
  You may also add a certificate to a store programmatically using the <xref:System.Security.Cryptography.X509Certificates.X509Store> class.  
   
@@ -33,21 +33,21 @@ With Trusted Application Deployment, you can configure client computers so that 
   
 ### To add a certificate to the Trusted Publishers store under the trusted root  
   
-1.  Obtain a digital certificate from a CA.  
+1. Obtain a digital certificate from a CA.  
   
-2.  Export the certificate into the Base64 X.509 (.cer) format. For more information about certificate formats, see [Export a Certificate](http://go.microsoft.com/fwlink/?LinkId=164793).  
+2. Export the certificate into the Base64 X.509 (.cer) format. For more information about certificate formats, see [Export a Certificate](http://go.microsoft.com/fwlink/?LinkId=164793).  
   
-3.  From the command prompt on client computers, run the following command:  
+3. From the command prompt on client computers, run the following command:  
   
      **certmgr.exe -add certificate.cer -c -s -r localMachine TrustedPublisher**  
   
 ### To add a certificate to the Trusted Publishers store under a different root  
   
-1.  Obtain a digital certificate from a CA.  
+1. Obtain a digital certificate from a CA.  
   
-2.  Export the certificate into the Base64 X.509 (.cer) format. For more information about certificate formats, see [Export a Certificate](http://go.microsoft.com/fwlink/?LinkId=164793).  
+2. Export the certificate into the Base64 X.509 (.cer) format. For more information about certificate formats, see [Export a Certificate](http://go.microsoft.com/fwlink/?LinkId=164793).  
   
-3.  From the command prompt on client computers, run the following command:  
+3. From the command prompt on client computers, run the following command:  
   
      **certmgr.exe -add good.cer -c -s -r localMachine Root**  
   

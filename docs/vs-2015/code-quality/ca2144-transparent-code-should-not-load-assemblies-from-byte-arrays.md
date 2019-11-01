@@ -8,8 +8,8 @@ f1_keywords:
   - "CA2144"
 ms.assetid: 777b1310-6e16-4413-b4ee-5f3136304f82
 caps.latest.revision: 14
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2144: Transparent code should not load assemblies from byte arrays
@@ -25,11 +25,11 @@ manager: "wpickett"
 ## Cause
  A transparent method loads an assembly from a byte array using one of the following methods:
 
--   <xref:System.Reflection.Assembly.Load%2A>
+- <xref:System.Reflection.Assembly.Load%2A>
 
--   <xref:System.Reflection.Assembly.Load%2A>
+- <xref:System.Reflection.Assembly.Load%2A>
 
--   <xref:System.Reflection.Assembly.Load%2A>
+- <xref:System.Reflection.Assembly.Load%2A>
 
 ## Rule Description
  The security review for transparent code is not as thorough as the security review for critical code, because transparent code cannot perform security sensitive actions. Assemblies loaded from a byte array might not be noticed in transparent code, and that byte array might contain critical, or more importantly safe-critical code, that does need to be audited. Therefore, transparent code should not load assemblies from a byte array.

@@ -1,5 +1,5 @@
 ---
-title: "How to: Launch a Stand-Alone .NET Framework Application with the Profiler to Collect Memory Data by Using the Command Line | Microsoft Docs"
+title: "Profiler command line: Open client .NET Framework app, get memory data"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 3bc53041-91b7-4ad0-8413-f8bf2c4b3f5e
@@ -14,14 +14,14 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 
  A profiling session has three parts:
 
--   Starting the application by using the profiler.
+- Starting the application by using the profiler.
 
--   Collecting profiling data.
+- Collecting profiling data.
 
--   Ending the profiling session.
+- Ending the profiling session.
 
 > [!NOTE]
->  To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
+> To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
 
 ## Start the application with the profiler
  To start a target application by using the profiler, you use the **VSPerfCmd.exe/start** and **/launch** options to initialize the profiler and start the application. You can specify **/start** and **/launch** and their respective options on one command line.
@@ -46,7 +46,6 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
    | - | - |
    | [/wincounter](../profiling/wincounter.md) **:** `WinCounterPath` | Specifies a Windows performance counter to be collected during profiling. |
    | [/automark](../profiling/automark.md) **:** `Interval` | Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms. |
-
 
 3. Start the target application. Type:
 
@@ -73,7 +72,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 
 #### To start and stop data collection
 
--   The following pairs of options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
+- The following pairs of options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
 
     |Option|Description|
     |------------|-----------------|
@@ -81,22 +80,22 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
     |[/processon](../profiling/processon-and-processoff.md) **:** `PID` [processoff](../profiling/processon-and-processoff.md) **:** `PID`|Starts (**/processon**) or stops (**/processoff**) data collection for the process that is specified by the process ID (`PID`).|
     |[/attach](../profiling/attach.md) **:** `PID` [/detach](../profiling/detach.md)|**/attach** starts to collect data for the process that is specified by `PID` (the process ID). **/detach** stops data collection for all processes.|
 
--   You can also use the **VSPerfCmd.exe**[/mark](../profiling/mark.md) option to insert a profiling mark into the data file. The **/mark** command adds an identifier, a time stamp, and an optional user-defined text string. Marks can be used to filter the data.
+- You can also use the **VSPerfCmd.exe**[/mark](../profiling/mark.md) option to insert a profiling mark into the data file. The **/mark** command adds an identifier, a time stamp, and an optional user-defined text string. Marks can be used to filter the data.
 
 ## End the profiling session
  To end a profiling session, the profiler must be detached from all profiled processes and the profiler must be explicitly shut down. You can detach the profiler from an application that was profiled by using the sampling method by closing the application or by calling the **VSPerfCmd /detach** option. You then call the **VSPerfCmd /shutdown** option to turn off the profiler and close the profiling data file. The **VSPerfClrEnv /off** command clears the profiling environment variables.
 
 #### To end a profiling session
 
-1.  Perform one of the following steps to detach the profiler from the target application:
+1. Perform one of the following steps to detach the profiler from the target application:
 
-    -   Close the target application.
+    - Close the target application.
 
          -or-
 
-    -   Type **VSPerfCmd /detach**
+    - Type **VSPerfCmd /detach**
 
-2.  Shut down the profiler. Type:
+2. Shut down the profiler. Type:
 
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)
 

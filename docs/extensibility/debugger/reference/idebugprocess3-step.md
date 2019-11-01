@@ -7,17 +7,20 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProcess3::Step"
 ms.assetid: 6ad9094c-27cc-4927-8a7c-1b4d97b2e436
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProcess3::Step
 Causes the process to step one instruction or statement.
 
 > [!NOTE]
->  This method should be used instead of [Step](../../../extensibility/debugger/reference/idebugprogram2-step.md).
+> This method should be used instead of [Step](../../../extensibility/debugger/reference/idebugprogram2-step.md).
 
 ## Syntax
 
@@ -37,18 +40,15 @@ int Step(
 );
 ```
 
-#### Parameters
- `pThread`
+## Parameters
+`pThread`\
+[in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object representing the thread being stepped.
 
- [in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object representing the thread being stepped.
+`sk`\
+[in] One of the [STEPKIND](../../../extensibility/debugger/reference/stepkind.md) values.
 
- `sk`
-
- [in] One of the [STEPKIND](../../../extensibility/debugger/reference/stepkind.md) values.
-
- `step`
-
- [in] One of the [STEPUNIT](../../../extensibility/debugger/reference/stepunit.md) values.
+`step`\
+[in] One of the [STEPUNIT](../../../extensibility/debugger/reference/stepunit.md) values.
 
 ## Return Value
  If successful, returns S_OK; otherwise returns error code.
@@ -58,7 +58,7 @@ int Step(
 
  **Warning** Do not send a stopping event or an immediate (synchronous) event to [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) while handling this call; otherwise the debugger may hang.
 
-## See Also
+## See also
 - [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
 - [STEPKIND](../../../extensibility/debugger/reference/stepkind.md)

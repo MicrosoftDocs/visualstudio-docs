@@ -23,17 +23,17 @@ In VSPackages, you can get the DTE object by calling the <xref:Microsoft.VisualS
   
 #### To get the DTE object from the ServiceProvider  
   
-1.  Create a C# VSIX project named `DTETest`. Add an Editor Classifier item template and name it `DTETest`. For more information, see [Creating an Extension with an Editor Item Template](../extensibility/creating-an-extension-with-an-editor-item-template.md).  
+1. Create a C# VSIX project named `DTETest`. Add an Editor Classifier item template and name it `DTETest`. For more information, see [Creating an Extension with an Editor Item Template](../extensibility/creating-an-extension-with-an-editor-item-template.md).  
   
-2.  Add the following assembly references to the project:  
+2. Add the following assembly references to the project:  
   
-    -   EnvDTE  
+    - EnvDTE  
   
-    -   EnvDTE80  
+    - EnvDTE80  
   
-    -   Microsoft.VisualStudio.Shell.Immutable.10.0  
+    - Microsoft.VisualStudio.Shell.Immutable.10.0  
   
-3.  Go to the DTETest.cs file, and add the following `using` directives:  
+3. Go to the DTETest.cs file, and add the following `using` directives:  
   
     ```csharp  
     using EnvDTE;  
@@ -42,7 +42,7 @@ In VSPackages, you can get the DTE object by calling the <xref:Microsoft.VisualS
   
     ```  
   
-4.  In the `GetDTEProvider` class, import a <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider>.  
+4. In the `GetDTEProvider` class, import a <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider>.  
   
     ```csharp  
     [Import]  
@@ -50,14 +50,14 @@ In VSPackages, you can get the DTE object by calling the <xref:Microsoft.VisualS
   
     ```  
   
-5.  In the `GetClassifier()` method, add the following code.  
+5. In the `GetClassifier()` method, add the following code.  
   
     ```csharp  
     DTE dte = (DTE)ServiceProvider.GetService(typeof(DTE));  
   
     ```  
   
-6.  If you have to use the <xref:EnvDTE80.DTE2> interface, you can cast the DTE object to it.  
+6. If you have to use the <xref:EnvDTE80.DTE2> interface, you can cast the DTE object to it.  
   
 ## See Also  
  [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md)

@@ -7,14 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumDebugThreads2"
 ms.assetid: 1854f078-3b49-42c2-b65b-33e3b506fd63
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
 ---
 # IEnumDebugThreads2
-This interfac enumerates the threads running in the current debug session.
+This interface enumerates the threads running in the current debug session.
 
 ## Syntax
 
@@ -49,7 +49,7 @@ IEnumDebugThreads2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [EnumThreads](../../../extensibility/debugger/reference/idebugprocess2-enumthreads.md)
 - [EnumThreads](../../../extensibility/debugger/reference/idebugprogram2-enumthreads.md)

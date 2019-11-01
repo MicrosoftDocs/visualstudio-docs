@@ -21,17 +21,17 @@ ms.workload:
 
 ### To add a dialog box launcher to a Ribbon group
 
-1.  Select the Ribbon code file (*.vb* or *.cs* file) in **Solution Explorer**.
+1. Select the Ribbon code file (*.vb* or *.cs* file) in **Solution Explorer**.
 
-2.  On the **View** menu, click **Designer**.
+2. On the **View** menu, click **Designer**.
 
-3.  In the Ribbon Designer, right-click any group, and then click **Add DialogBoxLauncher**.
+3. In the Ribbon Designer, right-click any group, and then click **Add DialogBoxLauncher**.
 
      Add code to the <xref:Microsoft.Office.Tools.Ribbon.RibbonGroup.DialogLauncherClick> event of the group to open a custom or built-in dialog box.
 
 ## See also
 - [Ribbon overview](../vsto/ribbon-overview.md)
-- [Access the Ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
+- [Access the Ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)
 - [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
 - [Ribbon designer](../vsto/ribbon-designer.md)
 - [Ribbon object model overview](../vsto/ribbon-object-model-overview.md)
@@ -44,5 +44,5 @@ ms.workload:
 - [How to: Get started customizing the Ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)
 - [How to: Show Add-in user interface errors](../vsto/how-to-show-add-in-user-interface-errors.md)
 - [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)
-- [Walkthrough: Update the controls on a Ribbon at runtime](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)
+- [Walkthrough: Update the controls on a Ribbon at run time](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)
 - [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)

@@ -27,25 +27,25 @@ manager: jillfra
   
  To debug a [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] application:  
   
--   You must have required permissions. For more information, see [System Requirements](../debugger/aspnet-debugging-system-requirements.md).  
+- You must have required permissions. For more information, see [System Requirements](../debugger/aspnet-debugging-system-requirements.md).  
   
--   [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] debugging must be enabled in **Project Properties**.  
+- [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] debugging must be enabled in **Project Properties**.  
   
--   The configuration file of your application (Web.config) must be set to debug mode. Debug mode causes [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] to generate symbols for dynamically generated files and enables the debugger to attach to the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] application. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] sets this automatically when you start to debug, if you created your project from the Web projects template.  
+- The configuration file of your application (Web.config) must be set to debug mode. Debug mode causes [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] to generate symbols for dynamically generated files and enables the debugger to attach to the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] application. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] sets this automatically when you start to debug, if you created your project from the Web projects template.  
   
--   For more information, see [How to: Enable Debugging for ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md).  
+- For more information, see [How to: Enable Debugging for ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md).  
   
 ### To debug a Web application during development  
   
-1.  On the **Debug** menu, click **Start** to begin debugging the Web application.  
+1. On the **Debug** menu, click **Start** to begin debugging the Web application.  
   
      [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] builds the Web application project, deploys the application if necessary, starts the ASP.NET Development Server if you are debugging locally, and attaches to the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process.  
   
-2.  Use the Debugger to set and clear breakpoints, step, and perform other debugging operations, as you would for any application.  
+2. Use the Debugger to set and clear breakpoints, step, and perform other debugging operations, as you would for any application.  
   
      For more information, see [Debugger Basics](../debugger/debugger-basics.md).  
   
-3.  On the **Debug** menu, click **Stop Debugging** to end the debugging session, or, on the **File** menu in Internet Explorer, click **Close**.  
+3. On the **Debug** menu, click **Stop Debugging** to end the debugging session, or, on the **File** menu in Internet Explorer, click **Close**.  
   
 ## See Also  
  [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)   

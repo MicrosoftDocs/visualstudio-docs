@@ -1,7 +1,7 @@
 ---
 title: "Create an Android Native Activity App | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "10/17/2019"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 dev_langs:
@@ -15,64 +15,78 @@ ms.workload:
 ---
 # Create an Android Native Activity App
 
-When you install the Visual C++ for Cross-Platform Mobile Development option, Visual Studio 2015 can be used to create fully functional Android Native Activity apps. The Android Native Development Kit (NDK) is a toolset that allows you to implement the majority of your Android app using pure C/C++ code. Some Java JNI code acts as glue to allow your C/C++ code to interact with Android. The Android NDK introduced the ability to create Native Activity apps with Android API Level 9. Native Activity code is popular for creating gaming and graphic intensive apps that use Unreal Engine or OpenGL. This topic will guide you through creation of a simple Native Activity app that uses OpenGL. Additional topics walk through the developer lifecycle of editing, building, debugging and deploying Native Activity code.
+When you install the cross-platform **Mobile development with C++** workload, Visual Studio can be used to create fully functional Android Native Activity apps. The Android Native Development Kit (NDK) is a toolset that allows you to implement the majority of your Android app using pure C/C++ code. Some Java JNI code acts as glue to allow your C/C++ code to interact with Android. The Android NDK introduced the ability to create Native Activity apps with Android API Level 9. Native Activity code is popular for creating gaming and graphic intensive apps that use Unreal Engine or OpenGL. This topic will guide you through creation of a simple Native Activity app that uses OpenGL. Additional topics walk through the developer lifecycle of editing, building, debugging and deploying Native Activity code.
 
 ## Requirements
 
-Before you can create an Android Native Activity app, you must make sure you've met all system requirements, and installed the Visual C++ Mobile Development option in Visual Studio 2015. For more information, see [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md). Make sure that the required third-party tools and SDKs are included in the installation, and that the Microsoft Visual Studio Emulator for Android is installed.
+Before you can create an Android Native Activity app, you must make sure you've met all system requirements, and installed the **Mobile development with C++** workload in Visual Studio. For more information, see [Install cross-platform mobile development with C++](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md). Make sure that the required third-party tools and SDKs are included in the installation, and that an Android emulator is installed.
 
 ## Create a new Native Activity project
 
-In this tutorial, you'll first create a new Android Native Activity project and then build and run the default app in the Visual Studio Emulator for Android.
+In this tutorial, you'll first create a new Android Native Activity project and then build and run the default app in an Android emulator.
 
-### To create a new project
+::: moniker range="vs-2017"
 
-1. Open Visual Studio. On the menu bar, choose **File** > **New** > **Project**.
+1. In Visual Studio, choose **File** > **New** > **Project**.
 
-2. In the **New Project** dialog box, under **Templates**, choose **Visual C++** > **Cross Platform**, and then choose the **Native-Activity Application (Android)** template.
+1. In the **New Project** dialog box, under **Templates**, choose **Visual C++** > **Cross Platform**, and then choose the **Native-Activity Application (Android)** template.
 
-3. Give the app a name like `MyAndroidApp`, and then choose **OK**.
+1. Give the app a name like *MyAndroidApp*, and then choose **OK**.
 
-    ![Create a Native Activity project](../cross-platform/media/cppmdd_newproject.PNG "CppMDD_NewProject")
+   ![Create a Native Activity project](../cross-platform/media/cppmdd_newproject.PNG "CppMDD_NewProject")
 
-    Visual Studio creates the new solution and opens Solution Explorer.
+   Visual Studio creates the new solution and opens Solution Explorer.
 
-    ![Native Activity project in Solution Explorer](../cross-platform/media/cppmdd_rc_na_solutionexp.PNG "CPPMDD_RC_NA_SolutionExp")
+   ![Native Activity project in Solution Explorer](../cross-platform/media/cppmdd_rc_na_solutionexp.PNG "CPPMDD_RC_NA_SolutionExp")
 
-   The new Android Native Activity app solution includes two projects:
+::: moniker-end
 
--   `MyAndroidApp.NativeActivity` contains the references and glue code for your app to run as a Native Activity on Android. The implementation of the entry points from the glue code are in *main.cpp*. Precompiled headers are in *pch.h*. This Native Activity app project is compiled into a shared library *.so* file which is picked up by the Packaging project.
+::: moniker range=">=vs-2019"
 
--   `MyAndroidApp.Packaging` creates the *.apk* file for deployment on an Android device or emulator. This contains the resources and *AndroidManifest.xml* file where you set manifest properties. It also contains the *build.xml* file that controls the Ant build process. It's set as the startup project by default, so that it can be deployed and run directly from Visual Studio.
+1. In Visual Studio, choose **File** > **New** > **Project**.
+
+1. In the **Create a new project** dialog box, select the **Native-Activity Application (Android)** template, and then choose **Next**.
+
+1. In the **Configure your new project** dialog box, enter a name like *MyAndroidApp* in **Project name**, and then choose **Create**.
+
+   Visual Studio creates the new solution and opens Solution Explorer.
+
+::: moniker-end
+
+The new Android Native Activity app solution includes two projects:
+
+- `MyAndroidApp.NativeActivity` contains the references and glue code for your app to run as a Native Activity on Android. The implementation of the entry points from the glue code are in *main.cpp*. Precompiled headers are in *pch.h*. This Native Activity app project is compiled into a shared library *.so* file which is picked up by the Packaging project.
+
+- `MyAndroidApp.Packaging` creates the *.apk* file for deployment on an Android device or emulator. This contains the resources and *AndroidManifest.xml* file where you set manifest properties. It also contains the *build.xml* file that controls the Ant build process. It's set as the startup project by default, so that it can be deployed and run directly from Visual Studio.
 
 ## Build and run the default Android Native Activity app
 
-Build and run the app generated by the template to verify your installation and setup. For this initial test, run the app on one of the device profiles installed by the Visual Studio Emulator for Android. If you prefer to test your app on another target, you can load the target emulator or connect the device to your computer.
+Build and run the app generated by the template to verify your installation and setup. For this initial test, run the app on one of the device profiles installed by the Android emulator. If you prefer to test your app on another target, you can load the target emulator or connect the device to your computer.
 
 ## To build and run the default Native Activity app
 
-1.  If it is not already selected, choose **x86** from the **Solution Platforms** dropdown list.
+1. If it is not already selected, choose **x86** from the **Solution Platforms** dropdown list.
 
      ![Solution Platforms dropdown x86 selection](../cross-platform/media/cppmdd_rc_na_solution_x86.png "CPPMDD_RC_NA_Solution_x86")
 
      If the **Solution Platforms** list isn't showing, choose **Solution Platforms** from the **Add/Remove Buttons** list, and then choose your platform.
 
-2.  On the menu bar, choose **Build** > **Build Solution**.
+1. On the menu bar, choose **Build** > **Build Solution**.
 
      The Output window displays the output of the build process for the two projects in the solution.
 
-3.  Choose one of the VS Emulator Android Phone (x86) profiles as your deployment target.
+1. Choose one of the Android emulator profiles as your deployment target.
 
      If you have installed other emulators or connected an Android device, you can choose them in the deployment target dropdown list.
 
-4.  Press **F5** to start debugging, or Shift+F5 to start without debugging.
+1. Press **F5** to start debugging, or **Shift**+**F5** to start without debugging.
 
-     Here's what the default app looks like in the Visual Studio emulator for Android.
+   Here's what the default app looks like in an Android emulator.
 
-     ![The emulator running your app](../cross-platform/media/cppmdd_emulator_running_app.PNG "CppMDD_Emulator_Running_App")
+   ![The emulator running your app](../cross-platform/media/cppmdd_emulator_running_app.PNG "CppMDD_Emulator_Running_App")
 
-     Visual Studio starts the emulator, which takes a few seconds to load and deploy your code. Once your app has started, you can set breakpoints and use the debugger to step through code, examine locals, and watch values.
+   Visual Studio starts the emulator, which takes a few seconds to load and deploy your code. Once your app has started, you can set breakpoints and use the debugger to step through code, examine locals, and watch values.
 
-5.  Press **Shift**+**F5** to stop debugging.
+1. Press **Shift**+**F5** to stop debugging.
 
-     The emulator is a separate process that continues to run. You can edit, compile, and deploy your code multiple times to the same emulator.
+   The emulator is a separate process that continues to run. You can edit, compile, and deploy your code multiple times to the same emulator.

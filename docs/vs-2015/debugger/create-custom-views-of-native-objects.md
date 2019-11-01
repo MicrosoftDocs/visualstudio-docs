@@ -25,13 +25,13 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  Natvis supersedes the **autoexp.dat** file that was used in earlier versions of Visual Studio and offers XML syntax, better diagnostics, versioning, and multiple file support.  
 
 > [!NOTE]
->  You cannot use the Natvis framework for visualizations when:  
+> You cannot use the Natvis framework for visualizations when:  
 > 
 > - You are debugging a C++ Windows desktop project with debugger type set to **mixed**.  
->   -   You are doing mixed mode debugging in a Windows desktop application in managed compatibility mode (**Tools / Options / Debugging / General / Use Managed Compatibility Mode**).  
->   -   You are debugging in a Windows desktop application in native compatibility mode (**Tools / Options / Debugging / General / Use Native Compatibility Mode**).  
+>   - You are doing mixed mode debugging in a Windows desktop application in managed compatibility mode (**Tools / Options / Debugging / General / Use Managed Compatibility Mode**).  
+>   - You are debugging in a Windows desktop application in native compatibility mode (**Tools / Options / Debugging / General / Use Native Compatibility Mode**).  
 
-##  <a name="BKMK_Why_create_visualizations_"></a> Why create Natvis visualizations?  
+## <a name="BKMK_Why_create_visualizations_"></a> Why create Natvis visualizations?  
  You can use the Natvis framework to create visualization rules for the types you create so developers can see them easily during debugging.  
 
  For example, the image below shows a variable of type [Windows::UI::Xaml::Controls::TextBox](http://go.microsoft.com/fwlink/?LinkId=258422) that is displayed in the debugger without any custom visualizations applied.  
@@ -44,7 +44,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 
  ![TextBox data using visualizer](../debugger/media/dbg-natvis-textbox-visualizer.png "DBG_NATVIS_TextBox_Visualizer")  
 
-##  <a name="BKMK_Using_Natvis_files"></a> Using Natvis files  
+## <a name="BKMK_Using_Natvis_files"></a> Using Natvis files  
  .natvis files are XML files with a .natvis extension. The schema is defined in **%VSINSTALLDIR%\Xml\Schemas\natvis.xsd**.  
 
  The basic structure of a .natvis file is one or more `Type` elements, where each `Type` element represents a visualization entry for a type whose fully qualified name is specified in the `Name` attribute.  
@@ -76,18 +76,18 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 
  Natvis files that are loaded from a .pdb apply only to types in the module to which the pdb refers. For example, if Module1.pdb defines an entry for a type named `Test`, this entry only applied to the **Test** class in Module1.dll. If another module also defines a class named **Test**, Module1.pdb’s natvis entry does not apply to it.  
 
-##  <a name="BKMK_natvis_location"></a> Deploying .natvis files  
+## <a name="BKMK_natvis_location"></a> Deploying .natvis files  
  If your .natvis file applies only to the types you are creating in a Visual Studio project, you don’t have to do anything; the .natvis is included in the .pdb. You can, however, add .natvis files to your user directory or to a system directory if you want them to apply to multiple projects.  
 
  The order in which .natvis files are evaluated is as follows:  
 
-1.  .natvis files embedded in a .pdb you are debugging (unless a file of the same name exists in a loaded project)  
+1. .natvis files embedded in a .pdb you are debugging (unless a file of the same name exists in a loaded project)  
 
-2.  .natvis files that are part of a loaded C++ projects or a top-level solution item. This includes all loaded C++ projects, including class libraries, but it does not include projects of other languages (e.g. you can’t load a .natvis file from a C# project). For executable projects, you should use the solution items to host any .natvis files that are not already present in a .pdb, since there is no C++ project available.  
+2. .natvis files that are part of a loaded C++ projects or a top-level solution item. This includes all loaded C++ projects, including class libraries, but it does not include projects of other languages (e.g. you can’t load a .natvis file from a C# project). For executable projects, you should use the solution items to host any .natvis files that are not already present in a .pdb, since there is no C++ project available.  
 
-3.  The user-specific natvis directory (**%USERPROFILE%\My Documents\Visual Studio 2015\Visualizers**  
+3. The user-specific natvis directory (**%USERPROFILE%\My Documents\Visual Studio 2015\Visualizers**  
 
-4.  The system-wide Natvis directory (**%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers**). This is where .natvis files that are installed with Visual Studio are copied. You can add other files to this directory as well if you have administrator permissions.  
+4. The system-wide Natvis directory (**%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers**). This is where .natvis files that are installed with Visual Studio are copied. You can add other files to this directory as well if you have administrator permissions.  
 
 ## Modifying .natvis files while debugging  
  You can modify a .natvis file in the IDE while debugging the project in which it is included. Open the file in the IDE (using the same instance of Visual Studio that you are debugging with), modify it, and save it. As soon as the file is saved, the **Watch** and **Locals** windows should be updated to reflect the change. If you modify the .natvis file outside the IDE, the changes do not take effect automatically. To update the windows, you can evaluate the **.natvisreload** command in the **Watch** window. This causes the changes to take effect without restarting the debug session.  
@@ -98,7 +98,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 
  Use the **.natvisreload** command when you are upgrading the natvis file to a newer version (for example, if it’s checked into source control and you want to pick up recent changes that somebody else made to the file). It is recommended that you edit natvis files using the Visual Studio xml editor.  
 
-##  <a name="BKMK_Expressions_and_formatting"></a> Expressions and formatting  
+## <a name="BKMK_Expressions_and_formatting"></a> Expressions and formatting  
  Natvis visualizations use C++ expressions to specify the data items to display. In addition to the enhancements and limitations of C++ expressions in the debugger that are described in [Context Operator (C++)](../debugger/context-operator-cpp.md), you should be aware of the following differences:  
 
 - Natvis expressions are evaluated in the context of the object being visualized, not the current stack frame. For example, if you use `x` in a Natvis expression, this refers to the field named `x` in the object being visualized, not to a local variable named `x` in the currently-executing function. You cannot access local variables in Natvis expressions, although you can access global variables.  
@@ -128,12 +128,12 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 
  ![Watch window with simple view](../debugger/media/watch-simpleview.png "Watch-SimpleView")  
 
-##  <a name="BKMK_Diagnosing_Natvis_errors"></a> Diagnosing Natvis errors  
+## <a name="BKMK_Diagnosing_Natvis_errors"></a> Diagnosing Natvis errors  
  You can use Natvis diagnostics to troubleshoot syntax and parse errors. When the debugger encounters errors in a visualization entry, it ignores the errors and either displays the type in its raw form or picks another suitable visualization. To understand why a certain visualization entry is ignored and to see what the underlying errors are, you can turn on Natvis diagnostics **Tools / Options / Debugging / Output Window / Natvis diagnostic messages (C++ only)** option. The errors are displayed in the **Output** window.  
 
-##  <a name="BKMK_Syntax_reference"></a> Natvis syntax reference  
+## <a name="BKMK_Syntax_reference"></a> Natvis syntax reference  
 
-###  <a name="BKMK_AutoVisualizer"></a> AutoVisualizer element  
+### <a name="BKMK_AutoVisualizer"></a> AutoVisualizer element  
  The `AutoVisualizer`  element is the root node of the .natvis file and contains the namespace `xmlns:` attribute.  
 
 ```xml  
@@ -144,7 +144,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 </AutoVisualizer>  
 ```  
 
-###  <a name="BKMK_Type"></a> Type element  
+### <a name="BKMK_Type"></a> Type element  
  A basic Type looks like this:  
 
 ```xml  
@@ -178,7 +178,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 
  Note that template parameters can be referenced in the visualization entry by using macros $T1, $T2, and so forth. To find examples of these macros, see the .natvis files shipped with Visual Studio.  
 
-####  <a name="BKMK_Visualizer_type_matching"></a> Visualizer type matching  
+#### <a name="BKMK_Visualizer_type_matching"></a> Visualizer type matching  
  If a visualization entry fails to validate, then the next available visualization is used.  
 
 #### Inheritable attribute  
@@ -217,7 +217,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 </Type>  
 ```  
 
-####  <a name="BKMK_Versioning"></a> Version element  
+#### <a name="BKMK_Versioning"></a> Version element  
  Use the `Version` element to scope visualizations to specific modules and their versions so that name collisions can be minimized and different visualizations can be used for different versions of the types. For example:  
 
 ```xml  
@@ -244,7 +244,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 </Type>  
 ```  
 
-###  <a name="BKMK_Condition_attribute"></a> Condition attribute  
+### <a name="BKMK_Condition_attribute"></a> Condition attribute  
  The optional `Condition` attribute is available for many visualization elements and specifies when a visualization rule should be used. If the expression inside the condition attribute resolves to `false`, then the visualization rule specified by the element is not applied. If it evaluates to true, or if there is no `Condition` attribute, then the visualization rule is applied to the type. You can use this attribute for `if-else` logic in the visualization entries. For example, the visualization below has two `DisplayString` elements for a smart pointer type:  
 
 ```xml  
@@ -281,7 +281,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 
  You can use the `IncludeView` and `ExcludeView` attributes on types as well as on individual members.  
 
-###  <a name="BKMK_DisplayString"></a> DisplayString  
+### <a name="BKMK_DisplayString"></a> DisplayString  
  A `DisplayString` element specifies the string to be shown as the value of the variable. It accepts arbitrary strings mixed with expressions. Everything inside curly braces is interpreted as an expression. For instance, a `DisplayString` entry like this:  
 
 ```xml  
@@ -298,9 +298,9 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  In the `DisplayString` expression, `x` and `y`, which are members of `CPoint`, are inside curly braces and so their values are evaluated. The expression also shows how you can escape a curly brace by using double curly braces ( `{{` or `}}` ).  
 
 > [!NOTE]
->  The `DisplayString` element is the only element that accepts arbitrary strings and curly brace syntax. All other visualization elements accept only expressions that are evaluated by the debugger.  
+> The `DisplayString` element is the only element that accepts arbitrary strings and curly brace syntax. All other visualization elements accept only expressions that are evaluated by the debugger.  
 
-###  <a name="BKMK_StringView"></a> StringView  
+### <a name="BKMK_StringView"></a> StringView  
  The `StringView` element defines the expression whose value is going to be sent to the built-in text visualizer. For example, suppose we have the following visualization for the `ATL::CStringT` type:  
 
 ```xml  
@@ -330,18 +330,18 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  ![CStringT data with StringView visualizer](../debugger/media/dbg-natvis-stringview-cstringt.png "DBG_NATVIS_StringView_CStringT")  
 
 > [!NOTE]
->  Note that the expression `{m_pszData,su}` includes a C++ format specifier `su` to display the value as a Unicode string. See [Format Specifiers in C++](../debugger/format-specifiers-in-cpp.md) for more information.  
+> Note that the expression `{m_pszData,su}` includes a C++ format specifier `su` to display the value as a Unicode string. See [Format Specifiers in C++](../debugger/format-specifiers-in-cpp.md) for more information.  
 
-###  <a name="BKMK_Expand"></a> Expand  
+### <a name="BKMK_Expand"></a> Expand  
  The `Expand` node is used to customize the children of the visualized type when the user expands it in the variable windows. It accepts a list of child nodes that define the child elements.  
 
  The `Expand` node is optional.  
 
--   If an `Expand` node is not specified in a visualization entry, Visual Studio’s default expansion rules are used.  
+- If an `Expand` node is not specified in a visualization entry, Visual Studio’s default expansion rules are used.  
 
--   If an `Expand` node is specified with no child nodes under it, the type won’t be expandable in the debugger windows.  
+- If an `Expand` node is specified with no child nodes under it, the type won’t be expandable in the debugger windows.  
 
-####  <a name="BKMK_Item_expansion"></a> Item expansion  
+#### <a name="BKMK_Item_expansion"></a> Item expansion  
  The `Item` element is the most basic and the most common element to be used in an `Expand` node. `Item` defines a single child element. For example, suppose that you have a `CRect` class with `top`, `left`, `right`, and `bottom` as its fields and the following visualization entry:  
 
 ```xml  
@@ -362,9 +362,9 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  The expressions specified in `Width` and `Height` elements are evaluated and shown in the value column. The `[Raw View]` node is automatically created by the debugger whenever a custom expansion is used. It is expanded in the screenshot above to show how the raw view of the object is different from its visualization. The Visual Studio default expansion creates a subtree for the base class and lists all the data members of the base class as children.  
 
 > [!NOTE]
->  If the expression of the item element points to a complex type, the `Item` node itself is expandable.  
+> If the expression of the item element points to a complex type, the `Item` node itself is expandable.  
 
-####  <a name="BKMK_ArrayItems_expansion"></a> ArrayItems expansion  
+#### <a name="BKMK_ArrayItems_expansion"></a> ArrayItems expansion  
  Use the `ArrayItems` node to have the Visual Studio debugger interpret the type as an array and display its individual elements. The visualization for `std::vector` is a good example:  
 
 ```xml  
@@ -420,7 +420,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 
  ![Two dimensional array with ArrayItems expansion](../debugger/media/dbg-natvis-expand-arrayitems-2d.png "DBG_NATVIS_Expand_ArrayItems_2D")  
 
-####  <a name="BKMK_IndexListItems_expansion"></a> IndexListItems expansion  
+#### <a name="BKMK_IndexListItems_expansion"></a> IndexListItems expansion  
  You can use the `ArrayItems` expansion, only if the array elements are laid out contiguously in memory. The debugger gets to the next element by simply incrementing its pointer to the current element. To support cases where you need to manipulate the index to the value node, `IndexListItems` nodes can be used. Here’s a visualization using `IndexListItems` node:  
 
 ```xml  
@@ -441,7 +441,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 
  The only difference between `ArrayItems` and `IndexListItems` is that the `ValueNode` expects the full expression to the i<sup>th</sup> element with the implicit `$i` parameter.  
 
-####  <a name="BKMK_LinkedListItems_expansion"></a> LinkedListItems expansion  
+#### <a name="BKMK_LinkedListItems_expansion"></a> LinkedListItems expansion  
  If the visualized type represents a linked list, the debugger can display its children by using a `LinkedListItems` node. Here’s the visualization for the `CAtlList` type using this feature:  
 
 ```xml  
@@ -462,9 +462,9 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 
  The `Size` element refers to the length of the list. `HeadPointer` points to the first element, `NextPointer` refers to the next element, and `ValueNode` refers to the value of the item.  
 
--   The `NextPointer` and `ValueNode` expressions are evaluated in the context of the linked list node element and not the parent list type. In the example above, `CAtlList` has a `CNode` class (found in `atlcoll.h`) that represents a node of the linked list. `m_pNext` and `m_element` are fields of that `CNode` class and not of `CAtlList` class.  
+- The `NextPointer` and `ValueNode` expressions are evaluated in the context of the linked list node element and not the parent list type. In the example above, `CAtlList` has a `CNode` class (found in `atlcoll.h`) that represents a node of the linked list. `m_pNext` and `m_element` are fields of that `CNode` class and not of `CAtlList` class.  
 
--   The `ValueNode` can be left empty or have `this` to refer to the linked list node itself.  
+- The `ValueNode` can be left empty or have `this` to refer to the linked list node itself.  
 
 #### CustomListItems expansion  
  The `CustomListItems` expansion allows you to write custom logic for traversing a data structure such as a hashtable. You should use `CustomListItems` to visualize data structures in which everything you need to evaluate is expressible via C++ expressions, but don’t quite fit the mold for `ArrayItems`, `TreeItems`, or `LinkedListItems.`  
@@ -500,7 +500,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 </Type>  
 ```  
 
-####  <a name="BKMK_TreeItems_expansion"></a> TreeItems expansion  
+#### <a name="BKMK_TreeItems_expansion"></a> TreeItems expansion  
  If the visualized type represents a tree, the debugger can walk the tree and display its children by using a `TreeItems` node. Here’s the visualization for the `std::map` type using this feature:  
 
 ```xml  
@@ -523,7 +523,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 
  The syntax is very similar to the `LinkedListItems` node. `LeftPointer`, `RightPointer`, and `ValueNode` are evaluated under the context of the tree node class, and `ValueNode` can be left empty or have `this` to refer to the tree node itself.  
 
-####  <a name="BKMK_ExpandedItem_expansion"></a> ExpandedItem expansion  
+#### <a name="BKMK_ExpandedItem_expansion"></a> ExpandedItem expansion  
  The `ExpandedItem` element can be used to generate an aggregated child view by displaying properties of base classes or data members as if they were children of the visualized type. The specified expression is evaluated and the child nodes of the result are appended to the child list of the visualized type. For example, suppose we have a smart pointer type `auto_ptr<vector<int>>` which will typically be displayed as:  
 
  ![auto&#95;ptr&#60;vector&#60;int&#62;&#62; default expansion](../debugger/media/dbg-natvis-expand-expandeditem-default.png "DBG_NATVIS_Expand_ExpandedItem_Default")  
@@ -555,7 +555,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 
 ```  
 
-####  <a name="BKMK_Synthetic_Item_expansion"></a> Synthetic Item expansion  
+#### <a name="BKMK_Synthetic_Item_expansion"></a> Synthetic Item expansion  
  Where the `ExpandedItem` element provides a flatter view of data by eliminating hierarchies, the `Synthetic` node does the opposite. It allows you to create an artificial child element (that is, a child element that is not a result of an expression). This child element can contain children elements of its own. In the following example, the visualization for the `Concurrency::array` type uses a `Synthetic` node to show a diagnostic message to the user:  
 
 ```xml  
@@ -578,7 +578,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 
  ![Concurrency::Array with Sythentic element expansio](../debugger/media/dbg-natvis-expand-synthetic.png "DBG_NATVIS_Expand_Synthetic")  
 
-###  <a name="BKMK_HResult"></a> HResult  
+### <a name="BKMK_HResult"></a> HResult  
  The `HResult` element enables you to customize the information that is displayed for an HRESULT in debugger windows. The `HRValue` element must contain the 32-bit value of the HRESULT that is to be customized. The `HRDescription` element contains the information that is displayed in the debugger.  
 
 ```  
@@ -589,7 +589,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 </HResult>  
 ```  
 
-###  <a name="BKMK_UIVisualizer"></a> UIVisualizer  
+### <a name="BKMK_UIVisualizer"></a> UIVisualizer  
  A `UIVisualizer` element registers a graphical visualizer plug-in with the debugger. A graphical visualizer plug-in creates a dialog box or another interface to display a variable or object in a manner that is appropriate to its data type. The visualizer plug-in must be authored as a [VSPackage](../extensibility/internals/vspackages.md) and needs to expose a service that can be consumed by the debugger. The .natvis file contains registration information for the plug-in such as its name, the GUID of the service exposed, and also the types it can visualize.  
 
  Here's an example of a UIVisualizer element:  

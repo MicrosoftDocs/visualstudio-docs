@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProcess3::GetHostingProcessLanguage"
 ms.assetid: 52fca002-a9ef-43b1-9192-afbe7bb59ad4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProcess3::GetHostingProcessLanguage
 This method returns a `GUID` representing the language of this process as set by a call to [SetHostingProcessLanguage](../../../extensibility/debugger/reference/idebugprocess3-sethostingprocesslanguage.md).
@@ -30,14 +33,13 @@ int GetHostingProcessLanguage(
 );
 ```
 
-#### Parameters
- `pguidLang`
-
- [out] The `GUID` of the language of this process. `GUID_NULL` (C++) or `Guid.Empty` (C#) means that the language is not set.
+## Parameters
+`pguidLang`\
+[out] The `GUID` of the language of this process. `GUID_NULL` (C++) or `Guid.Empty` (C#) means that the language is not set.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.
 
-## See Also
+## See also
 - [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)
 - [SetHostingProcessLanguage](../../../extensibility/debugger/reference/idebugprocess3-sethostingprocesslanguage.md)

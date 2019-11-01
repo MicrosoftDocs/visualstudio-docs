@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugBoundBreakpoint2 interface"
 ms.assetid: df33c52e-ded2-48a0-951d-1f36c8fc922e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -50,7 +50,7 @@ IDebugBoundBreakpoint2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [GetBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2-getbreakpoint.md)
 - [Next](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2-next.md)
 - [Bind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md)

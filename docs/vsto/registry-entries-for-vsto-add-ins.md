@@ -1,6 +1,6 @@
 ---
 title: "Registry entries for VSTO Add-ins"
-ms.date: "02/02/2017"
+ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -22,12 +22,14 @@ ms.workload:
 
  [!INCLUDE[appliesto_allapp](../vsto/includes/appliesto-allapp-md.md)]
 
+[!include[Add-ins note](includes/addinsnote.md)]
+
  When you build your project, Visual Studio creates these registry entries on the development computer so that you can easily run and debug the VSTO Add-in. If you use ClickOnce to deploy your VSTO Add-in, the registry entries are automatically created on the end-user computer. If you use Windows Installer to deploy your VSTO Add-in, you must configure the InstallShield Limited Edition project to create the registry entries on the end-user computer.
 
  For more information about how the registry entries are used during the load process for VSTO Add-ins, see [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).
 
 > [!NOTE]
->  In this topic, the text *add-in ID* represents a unique ID for your VSTO Add-in. By default, the ID is the name of your VSTO Add-in assembly.
+> In this topic, the text *add-in ID* represents a unique ID for your VSTO Add-in. By default, the ID is the name of your VSTO Add-in assembly.
 
 ## Register VSTO Add-ins for the current user vs. all users
  When a VSTO Add-in is installed, it can be registered in two ways:
@@ -41,7 +43,7 @@ ms.workload:
 ### Microsoft Office version
  Office applications can load VSTO Add-ins that are registered under **HKEY_LOCAL_MACHINE** or **HKEY_CURRENT_USER**.
 
- To load VSTO Add-ins that are registered under **HKEY_LOCAL_MACHINE**, computers must have update package 976477 installed. For more information, see [http://go.microsoft.com/fwlink/?LinkId=184923](http://go.microsoft.com/fwlink/?LinkId=184923).
+ To load VSTO Add-ins that are registered under **HKEY_LOCAL_MACHINE**, computers must have update package 976477 installed. For more information, see [http://go.microsoft.com/fwlink/?LinkId=184923](https://support.microsoft.com/help/976811/a-2007-office-system-application-does-not-load-an-add-in-that-is-devel).
 
 ### Deployment type
  If you use ClickOnce to deploy a VSTO Add-in, the VSTO Add-in can be registered only for the current user. This is because ClickOnce only supports creating keys under **HKEY_CURRENT_USER**. If you want to register a VSTO Add-in to all users on a computer, you must use Windows Installer to deploy the VSTO Add-in. For more information about these deployment types, see [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md) and [Deploy an Office solution by using Windows Installer](../vsto/deploying-an-office-solution-by-using-windows-installer.md).
@@ -72,7 +74,7 @@ ms.workload:
 |**LoadBehavior**|REG_DWORD|Required. A value that specifies when the application attempts to load the VSTO Add-in and the current state of the VSTO Add-in (loaded or unloaded).<br /><br /> By default, this entry is set to 3, which specifies that the VSTO Add-in is loaded at startup. For more information, see [LoadBehavior values](#LoadBehavior). **Note:**  If a user disables the VSTO Add-in, that action modifies **LoadBehavior** value in the **HKEY_CURRENT_USER** registry hive. For each user, the value of the **LoadBehavior** value in the HKEY_CURRENT_USER hive overrides the default **LoadBehavior** defined in the **HKEY_LOCAL_MACHINE** hive.|
 |**Manifest**|REG_SZ|Required. The full path of the deployment manifest for the VSTO Add-in. The path can be a location on the local computer, a network share (UNC), or a Web server (HTTP).<br /><br /> If you use Windows Installer to deploy the solution, you must add the prefix **file:///** to the **manifest** path. You must also append the string **&#124;vstolocal** (that is, the pipe character **&#124;** followed by **vstolocal**) to the end of this path. This ensures that your solution is loaded from the installation folder, rather than the ClickOnce cache. For more information, see [Deploy an Office solution by using Windows Installer](../vsto/deploying-an-office-solution-by-using-windows-installer.md). **Note:**  When you build a VSTO Add-in on the development computer, Visual Studio automatically appends the **&#124;vstolocal** string to this registry entry.|
 
-###  <a name="OutlookEntries"></a> Registry entries for Outlook form regions
+### <a name="OutlookEntries"></a> Registry entries for Outlook form regions
  If you create a custom form region in a VSTO Add-in for Outlook, additional registry entries are used to register the form region with Outlook. These entries are created under a different registry key for each message class that the form region supports. These registry keys are in the following location, where *Root* is **HKEY_CURRENT_USER** or **HKEY_LOCAL_MACHINE**.
 
  *Root*\Software\Microsoft\Office\Outlook\FormRegions\\*message class*
@@ -81,7 +83,7 @@ ms.workload:
 
  For more information about the form region registry entries, see [Specify the location of a form region in a custom form](/office/vba/outlook/Concepts/Creating-Form-Regions/specify-the-location-of-a-form-region-in-a-custom-form). For more information about Outlook form regions, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).
 
-##  <a name="LoadBehavior"></a> LoadBehavior values
+## <a name="LoadBehavior"></a> LoadBehavior values
  The **LoadBehavior** entry under the *Root*\Software\Microsoft\Office\\*application name*\Addins\\*add-in ID* key contains a bitwise combination of values that specify the run time behavior of the VSTO Add-in. The lowest order bit (values 0 and 1) indicates whether the VSTO Add-in is currently unloaded or loaded. Other bits indicate when the application attempts to load the VSTO Add-in.
 
  Typically, the **LoadBehavior** entry is intended to be set to 0, 3, or 16 (in decimal) when the VSTO Add-in is installed on end-user computers. By default, Visual Studio sets the **LoadBehavior** entry of your VSTO Add-in to 3 when you build or publish it.

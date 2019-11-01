@@ -1,0 +1,266 @@
+- name: Deploying Applications, Services, and Components
+# Auto-expanded node
+  items:
+  - name: Deploying Applications, Services, and Components
+    href: deploying-applications-services-and-components.md
+  - name: ClickOnce Security and Deployment
+# Auto-expanded node
+    items:
+    - name: ClickOnce Security and Deployment
+      href: clickonce-security-and-deployment.md
+    - name: Choosing a ClickOnce Deployment Strategy
+      href: choosing-a-clickonce-deployment-strategy.md
+    - name: ClickOnce Cache Overview
+      href: clickonce-cache-overview.md
+    - name: ClickOnce and Application Settings
+      href: clickonce-and-application-settings.md
+    - name: ClickOnce Deployment on Windows Vista
+      href: clickonce-deployment-on-windows-vista.md
+    - name: Localizing ClickOnce Applications
+# Auto-expanded node
+      items:
+      - name: Localizing ClickOnce Applications
+        href: localizing-clickonce-applications.md
+      - name: Publish a Project That Has a Specific Locale
+        href: how-to-publish-a-project-that-has-a-specific-locale.md
+    - name: Securing ClickOnce Applications
+# Auto-expanded node
+      items:
+      - name: Securing ClickOnce Applications
+        href: securing-clickonce-applications.md
+      - name: ClickOnce and Authenticode
+        href: clickonce-and-authenticode.md
+      - name: Trusted Application Deployment Overview
+        href: trusted-application-deployment-overview.md
+      - name: Code Access Security for ClickOnce Applications
+        href: code-access-security-for-clickonce-applications.md
+      - name: Enable ClickOnce Security Settings
+        href: how-to-enable-clickonce-security-settings.md
+      - name: Set a Security Zone for a ClickOnce Application
+        href: how-to-set-a-security-zone-for-a-clickonce-application.md
+      - name: Set Custom Permissions for a ClickOnce Application
+        href: how-to-set-custom-permissions-for-a-clickonce-application.md
+      - name: Debug a ClickOnce Application with Restricted Permissions
+        href: how-to-debug-a-clickonce-application-with-restricted-permissions.md
+      - name: Add a Trusted Publisher to a Client Computer for ClickOnce Applications
+        href: how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md
+      - name: Re-sign Application and Deployment Manifests
+        href: how-to-re-sign-application-and-deployment-manifests.md
+      - name: Configure the ClickOnce Trust Prompt Behavior
+        href: how-to-configure-the-clickonce-trust-prompt-behavior.md
+      - name: Sign Setup Files with SignTool.exe (ClickOnce)
+        href: how-to-sign-setup-files-with-signtool-exe-clickonce.md
+    - name: Publishing ClickOnce Applications
+# Auto-expanded node
+      items:
+      - name: Publishing ClickOnce Applications
+        href: publishing-clickonce-applications.md
+      - name: Creating ClickOnce Applications for Others to Deploy
+        href: creating-clickonce-applications-for-others-to-deploy.md
+      - name: Deploying ClickOnce Applications For Testing and Production Servers without Resigning
+        href: deploying-clickonce-applications-for-testing-and-production-servers-without-resigning.md
+      - name: Accessing Local and Remote Data in ClickOnce Applications
+        href: accessing-local-and-remote-data-in-clickonce-applications.md
+      - name: Deploying COM Components with ClickOnce
+        href: deploying-com-components-with-clickonce.md
+      - name: Building ClickOnce Applications from the Command Line
+        href: building-clickonce-applications-from-the-command-line.md
+      - name: Publish a ClickOnce Application using the Publish Wizard
+        href: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
+      - name: Specify Where Visual Studio Copies the Files
+        href: how-to-specify-where-visual-studio-copies-the-files.md
+      - name: Specify the Location Where End Users Will Install From
+        href: how-to-specify-the-location-where-end-users-will-install-from.md
+      - name: Specify the ClickOnce Offline or Online Install Mode
+        href: how-to-specify-the-clickonce-offline-or-online-install-mode.md
+      - name: Set the ClickOnce Publish Version
+        href: how-to-set-the-clickonce-publish-version.md
+      - name: Automatically Increment the ClickOnce Publish Version
+        href: how-to-automatically-increment-the-clickonce-publish-version.md
+      - name: Specify Which Files Are Published by ClickOnce
+# Auto-expanded node
+        items:
+        - name: Specify Which Files Are Published by ClickOnce
+          href: how-to-specify-which-files-are-published-by-clickonce.md
+        - name: Include a Data File in a ClickOnce Application
+          href: how-to-include-a-data-file-in-a-clickonce-application.md
+      - name: Install Prerequisites with a ClickOnce Application
+        href: how-to-install-prerequisites-with-a-clickonce-application.md
+      - name: Include Prerequisites with a ClickOnce Application
+        href: how-to-include-prerequisites-with-a-clickonce-application.md
+      - name: Manage Updates for a ClickOnce Application
+        href: how-to-manage-updates-for-a-clickonce-application.md
+      - name: Change the Publish Language for a ClickOnce Application
+        href: how-to-change-the-publish-language-for-a-clickonce-application.md
+      - name: Specify a Start Menu Name for a ClickOnce Application
+        href: how-to-specify-a-start-menu-name-for-a-clickonce-application.md
+      - name: Specify a Link for Technical Support
+# Auto-expanded node
+        items:
+        - name: Specify a Link for Technical Support
+          href: how-to-specify-a-link-for-technical-support.md
+        - name: Specify a Support URL for Individual Prerequisites in a ClickOnce Deployment
+          href: how-to-specify-a-support-url-for-individual-prerequisites-in-a-clickonce-deployment.md
+      - name: Specify a Publish Page for a ClickOnce Application
+# Auto-expanded node
+        items:
+        - name: Specify a Publish Page for a ClickOnce Application
+          href: how-to-specify-a-publish-page-for-a-clickonce-application.md
+        - name: Customize the ClickOnce Default Web Page
+          href: how-to-customize-the-default-web-page-for-a-clickonce-application.md
+      - name: Enable AutoStart for CD Installations
+        href: how-to-enable-autostart-for-cd-installations.md
+      - name: Create File Associations For a ClickOnce Application
+        href: how-to-create-file-associations-for-a-clickonce-application.md
+      - name: Retrieve Query String Information in an Online ClickOnce Application
+        href: how-to-retrieve-query-string-information-in-an-online-clickonce-application.md
+      - name: Disable URL Activation of ClickOnce Applications by Using the Designer
+# Auto-expanded node
+        items:
+        - name: Disable URL Activation of ClickOnce Applications by Using the Designer
+          href: how-to-disable-url-activation-of-clickonce-applications-by-using-the-designer.md
+        - name: Disable URL Activation of ClickOnce Applications
+          href: how-to-disable-url-activation-of-clickonce-applications.md
+      - name: Use ClickOnce to Deploy Applications That Can Run on Multiple Versions of the .NET Framework
+        href: how-to-use-clickonce-to-deploy-applications-that-can-run-on-multiple-versions-of-the-dotnet-framework.md
+      - name: Publish a WPF Application with Visual Styles Enabled
+        href: how-to-publish-a-wpf-application-with-visual-styles-enabled.md
+      - name: Downloading Assemblies on Demand with the ClickOnce Deployment API Using the Designer
+# Auto-expanded node
+        items:
+        - name: Downloading Assemblies on Demand with the ClickOnce Deployment API Using the Designer
+          href: walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md
+        - name: Downloading Assemblies on Demand with the ClickOnce Deployment API
+          href: walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api.md
+      - name: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API Using the Designer
+        href: walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md
+      - name: Manually Deploying a ClickOnce Application
+# Auto-expanded node
+        items:
+        - name: Manually Deploying a ClickOnce Application
+          href: walkthrough-manually-deploying-a-clickonce-application.md
+        - name: Manually Deploying a ClickOnce Application that Does Not Require Re-Signing and that Preserves Branding Information
+          href: /visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required?view=vs-2015
+      - name: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API
+        href: walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md
+      - name: Creating a Custom Installer for a ClickOnce Application
+        href: walkthrough-creating-a-custom-installer-for-a-clickonce-application.md
+    - name: Choosing a ClickOnce Update Strategy
+# Auto-expanded node
+      items:
+      - name: Choosing a ClickOnce Update Strategy
+        href: choosing-a-clickonce-update-strategy.md
+      - name: How ClickOnce Performs Application Updates
+        href: how-clickonce-performs-application-updates.md
+      - name: Check for Application Updates Programmatically Using the ClickOnce Deployment API
+        href: how-to-check-for-application-updates-programmatically-using-the-clickonce-deployment-api.md
+      - name: Specify an Alternate Location for Deployment Updates
+        href: how-to-specify-an-alternate-location-for-deployment-updates.md
+    - name: Troubleshooting ClickOnce Deployments
+# Auto-expanded node
+      items:
+      - name: Troubleshooting ClickOnce Deployments
+        href: troubleshooting-clickonce-deployments.md
+      - name: Set a Custom Log File Location for ClickOnce Deployment Errors
+        href: how-to-set-a-custom-log-file-location-for-clickonce-deployment-errors.md
+      - name: Specify Verbose Log Files for ClickOnce Deployments
+        href: how-to-specify-verbose-log-files-for-clickonce-deployments.md
+      - name: Server and Client Configuration Issues in ClickOnce Deployments
+        href: server-and-client-configuration-issues-in-clickonce-deployments.md
+      - name: Security, Versioning, and Manifest Issues in ClickOnce Deployments
+        href: security-versioning-and-manifest-issues-in-clickonce-deployments.md
+      - name: Troubleshooting Specific Errors in ClickOnce Deployments
+        href: troubleshooting-specific-errors-in-clickonce-deployments.md
+      - name: Debugging ClickOnce Applications That Use System.Deployment.Application
+        href: debugging-clickonce-applications-that-use-system-deployment-application.md
+    - name: ClickOnce Reference
+# Auto-expanded node
+      items:
+      - name: ClickOnce Reference
+        href: clickonce-reference.md
+      - name: ClickOnce Application Manifest
+# Auto-expanded node
+        items:
+        - name: ClickOnce Application Manifest
+          href: clickonce-application-manifest.md
+        - name: \<assembly> Element
+          href: assembly-element-clickonce-application.md
+        - name: \<assemblyIdentity> Element
+          href: assemblyidentity-element-clickonce-application.md
+        - name: \<trustInfo> Element
+          href: trustinfo-element-clickonce-application.md
+        - name: \<entryPoint> Element
+          href: entrypoint-element-clickonce-application.md
+        - name: \<dependency> Element
+          href: dependency-element-clickonce-application.md
+        - name: \<file> Element
+          href: file-element-clickonce-application.md
+        - name: \<fileAssociation> Element
+          href: fileassociation-element-clickonce-application.md
+      - name: ClickOnce Deployment Manifest
+# Auto-expanded node
+        items:
+        - name: ClickOnce Deployment Manifest
+          href: clickonce-deployment-manifest.md
+        - name: \<assembly> Element
+          href: assembly-element-clickonce-deployment.md
+        - name: \<assemblyIdentity> Element
+          href: assemblyidentity-element-clickonce-deployment.md
+        - name: \<description> Element
+          href: description-element-clickonce-deployment.md
+        - name: \<deployment> Element
+          href: deployment-element-clickonce-deployment.md
+        - name: \<compatibleFrameworks> Element
+          href: compatibleframeworks-element-clickonce-deployment.md
+        - name: \<dependency> Element
+          href: dependency-element-clickonce-deployment.md
+        - name: \<publisherIdentity> Element
+          href: publisheridentity-element-clickonce-deployment.md
+        - name: \<Signature> Element
+          href: signature-element-clickonce-deployment.md
+        - name: \<customErrorReporting> Element
+          href: customerrorreporting-element-clickonce-deployment.md
+      - name: ClickOnce Unmanaged API Reference
+        href: clickonce-unmanaged-api-reference.md
+    - name: ClickOnce Deployment Samples and Walkthroughs
+      href: clickonce-deployment-samples-and-walkthroughs.md
+  - name: Application Deployment Prerequisites
+# Auto-expanded node
+    items:
+    - name: Application Deployment Prerequisites
+      href: application-deployment-prerequisites.md
+    - name: Deploying Prerequisites for 64-bit Applications
+      href: deploying-prerequisites-for-64-bit-applications.md
+    - name: Creating Bootstrapper Packages
+      href: creating-bootstrapper-packages.md
+    - name: Create a Product Manifest
+      href: how-to-create-a-product-manifest.md
+    - name: Create a Package Manifest
+      href: how-to-create-a-package-manifest.md
+    - name: Create a Localized Bootstrapper Package
+      href: how-to-create-a-localized-bootstrapper-package.md
+    - name: Creating a Custom Bootstrapper to Show a Privacy Prompt
+      href: walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt.md
+    - name: Product and Package Schema Reference
+# Auto-expanded node
+      items:
+      - name: Product and Package Schema Reference
+        href: product-and-package-schema-reference.md
+      - name: \<Product> Element
+        href: product-element-bootstrapper.md
+      - name: \<Package> Element
+        href: package-element-bootstrapper.md
+      - name: \<RelatedProducts> Element
+        href: relatedproducts-element-bootstrapper.md
+      - name: \<InstallChecks> Element
+        href: installchecks-element-bootstrapper.md
+      - name: \<Commands> Element
+        href: commands-element-bootstrapper.md
+      - name: \<PackageFiles> Element
+        href: packagefiles-element-bootstrapper.md
+      - name: \<Strings> Element
+        href: strings-element-bootstrapper.md
+      - name: \<Schedules> Element
+        href: schedules-element-bootstrapper.md
+  - name: InstallShield Limited Edition
+    href: installshield-limited-edition.md

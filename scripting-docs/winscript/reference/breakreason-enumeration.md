@@ -2,7 +2,6 @@
 title: "BREAKREASON Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -50,5 +49,5 @@ typedef enum tagBREAKREASON {
 |BREAKREASON_ERROR|An execution error caused the break.|  
 |BREAKREASON_JIT|Caused by JIT Debugging startup.|  
   
-## See Also  
+## See also  
  [Active Script Debugger Constants, Enumerations, and Structures](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)

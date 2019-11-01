@@ -17,13 +17,13 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../includes/vsprv
   
  This walkthrough illustrates these tasks:  
   
--   Using the **Graphics Event List** to locate potential sources of the problem.  
+- Using the **Graphics Event List** to locate potential sources of the problem.  
   
--   Using the **Graphics Pipeline Stages** window to check the effect of the `DrawIndexed` Direct3D API calls.  
+- Using the **Graphics Pipeline Stages** window to check the effect of the `DrawIndexed` Direct3D API calls.  
   
--   Using the **HLSL Debugger** to examine the vertex shader.  
+- Using the **HLSL Debugger** to examine the vertex shader.  
   
--   Using the **Graphics Event Call Stack** to help find the source of an incorrect HLSL constant.  
+- Using the **Graphics Event Call Stack** to help find the source of an incorrect HLSL constant.  
   
 ## Scenario  
  One of the common causes of a missing object in a 3-D app occurs when the vertex shader transforms the object's vertices in an incorrect or unexpected way—for example, the object might be scaled to a very small size, or transformed such that it appears behind the camera, rather than in front of it.  
@@ -58,7 +58,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../includes/vsprv
     In the **Graphics Pipeline Stages** window, the **Input Assembler** stage shows the object's geometry before its transformed, and the **Vertex Shader** stage shows the same object after it's transformed. In this scenario, you know that you've found the missing object when it is displayed in the **Input Assembler** stage and nothing is displayed in the **Vertex Shader** stage.  
   
    > [!NOTE]
-   >  If other geometry stages—for example, the Hull Shader, Domain Shader, or Geometry Shader stages—process the object, they might be the cause of the problem. Typically, the problem is related to the earliest stage in which the result is not displayed or is displayed in an unexpected way.  
+   > If other geometry stages—for example, the Hull Shader, Domain Shader, or Geometry Shader stages—process the object, they might be the cause of the problem. Typically, the problem is related to the earliest stage in which the result is not displayed or is displayed in an unexpected way.  
   
 4. Stop when you reach the draw call that corresponds to the missing object. In this scenario, the **Graphics Pipeline Stages** window indicates that the geometry was issued to the GPU (indicated by the Input Assembler thumbnail), but doesn't appear in the render target because something went wrong during the vertex shader stage (indicated by the Vertex Shader thumbnail):  
   
@@ -101,7 +101,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../includes/vsprv
     ![The code that sets the object's constant buffer](../debugger/media/gfx-diag-demo-missing-object-shader-step-7.png "gfx_diag_demo_missing_object_shader_step_7")  
   
    > [!TIP]
-   >  If you are simultaneously debugging your app, you can set a breakpoint at this location and it will be hit when the next frame is rendered. You can then inspect the members of `m_marbleConstantBufferData` to confirm that the value of the `projection` member is set to all zeros when the constant buffer is filled.  
+   > If you are simultaneously debugging your app, you can set a breakpoint at this location and it will be hit when the next frame is rendered. You can then inspect the members of `m_marbleConstantBufferData` to confirm that the value of the `projection` member is set to all zeros when the constant buffer is filled.  
   
    After you find the location where the constant buffer is being filled and discover that its values come from the variable `m_marbleConstantBufferData`, the next step is to find out where the `m_marbleConstantBufferData.projection` member is set to all zeros. You can use **Find All References** to quickly scan for code that changes the value of `m_marbleConstantBufferData.projection`.  
   

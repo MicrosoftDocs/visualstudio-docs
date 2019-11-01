@@ -2,7 +2,6 @@
 title: "ISimpleConnectionPoint::DescribeEvents | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -62,5 +61,5 @@ HRESULT DescribeEvents(
 ## Remarks  
  This method returns the DISPID and name for each event in a specified range of events.  
   
-## See Also  
+## See also  
  [ISimpleConnectionPoint Interface](../../winscript/reference/isimpleconnectionpoint-interface.md)

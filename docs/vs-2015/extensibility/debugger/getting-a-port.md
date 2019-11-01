@@ -27,7 +27,7 @@ A port represents a connection to a machine on which processes are running. That
  This code fragment shows how to use the port supplied to [LaunchSuspended](../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md) to register a program node in [ResumeProcess](../../extensibility/debugger/reference/idebugenginelaunch2-resumeprocess.md). Parameters not directly related to this concept have been omitted for clarity.  
   
 > [!NOTE]
->  This example uses the port to launch and resume the process and assumes that the [IDebugPortEx2](../../extensibility/debugger/reference/idebugportex2.md) interface is implemented on the port. This is by no means the only way to perform these tasks, and it is possible that the port may not even be involved other than to have the program's [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md) given to it.  
+> This example uses the port to launch and resume the process and assumes that the [IDebugPortEx2](../../extensibility/debugger/reference/idebugportex2.md) interface is implemented on the port. This is by no means the only way to perform these tasks, and it is possible that the port may not even be involved other than to have the program's [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md) given to it.  
   
 ```cpp#  
 // This is an IDebugEngineLaunch2 method.  

@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplicationEvents::OnCreateThread | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -44,5 +43,5 @@ HRESULT OnCreateThread(
 ## Remarks  
  This method handles the create thread event.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationEvents Interface](../../winscript/reference/iremotedebugapplicationevents-interface.md)

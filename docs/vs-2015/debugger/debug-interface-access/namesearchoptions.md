@@ -61,11 +61,11 @@ enum NameSearchOptions { 
 ## Remarks  
  The values from this enumeration are passed to the following methods:  
   
--   [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)  
+- [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)  
   
--   [IDiaSession::findFile](../../debugger/debug-interface-access/idiasession-findfile.md)  
+- [IDiaSession::findFile](../../debugger/debug-interface-access/idiasession-findfile.md)  
   
--   [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)  
+- [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)  
   
 ## Requirements  
  Header: dia2.h  

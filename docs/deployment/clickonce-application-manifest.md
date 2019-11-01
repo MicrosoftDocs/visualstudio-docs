@@ -21,7 +21,6 @@ A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application 
 
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifests have the following elements and attributes.
 
-
 | Element | Description | Attributes |
 | - | - | - |
 | [\<assembly> Element](../deployment/assembly-element-clickonce-application.md) | Required. Top-level element. | `manifestVersion` |

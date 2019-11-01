@@ -37,13 +37,13 @@ helpviewer_keywords:
   - "line numbers"
   - "virtual space"
 ms.assetid: 49ee7306-9d46-4170-850f-a1716171752d
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Options, Text Editor, All Languages
+# Options dialog box: Text Editor \> All Languages
 
 This dialog box allows you to change the default behavior of the Code Editor. These settings also apply to other editors based upon the Code Editor, such as the HTML Designer's Source view. To open this dialog box, select **Options** from the **Tools** menu. Within the **Text Editor** folder, expand the **All Languages** subfolder and then choose **General**.
 
@@ -109,16 +109,16 @@ When selected, displays the **Navigation bar** at the top of the code editor. It
 
 This option sets the behavior of the editor when you place the insertion point on a blank line, select nothing, and then Copy or Cut.
 
--   When this option is selected, the blank line is copied or cut. If you then Paste, a new, blank line is inserted.
+- When this option is selected, the blank line is copied or cut. If you then Paste, a new, blank line is inserted.
 
--   When this option is cleared, the Cut command removes blank lines. However, the data on the Clipboard is preserved. Therefore, if you then use the Paste command, the content most recently copied onto the Clipboard is pasted. If nothing has been copied previously, nothing is pasted.
+- When this option is cleared, the Cut command removes blank lines. However, the data on the Clipboard is preserved. Therefore, if you then use the Paste command, the content most recently copied onto the Clipboard is pasted. If nothing has been copied previously, nothing is pasted.
 
 This setting has no effect on Copy or Cut when a line is not blank. If nothing is selected, the entire line is copied or cut. If you then Paste, the text of the entire line and its endline character are pasted.
 
 > [!TIP]
 > To display indicators for spaces, tabs, and line ends, and thus distinguish indented lines from lines that are entirely blank, select **Advanced** from the **Edit** menu and choose **View White Space**.
 
-## See Also
+## See also
 
 - [Options, Text Editor, All Languages, Tabs](../../ide/reference/options-text-editor-all-languages-tabs.md)
 - [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)

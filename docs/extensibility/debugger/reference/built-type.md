@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "BUILT_TYPE structure"
 ms.assetid: cc02c32c-0f65-4210-ad25-a9b1899066e8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # BUILT_TYPE
 This structure specifies information about a field type taken from metadata.
@@ -34,14 +37,14 @@ public struct BUILT_TYPE {
 };
 ```
 
-#### Parameters
-ulAppDomainID
+## Members
+`ulAppDomainID`\
 ID of the application from which the symbol came. This is used to uniquely identify an instance of the application.
 
-guidModule
+`guidModule`\
 The GUID of the module that contains this field.
 
-pUnderlyingField
+`pUnderlyingField`\
 An [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object identifying the underlying field associated with this built field.
 
 ## Remarks
@@ -54,7 +57,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md)
 - [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md)

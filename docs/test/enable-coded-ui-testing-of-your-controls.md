@@ -2,11 +2,11 @@
 title: "Enable Coded UI Testing of Your Controls"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Enable coded UI testing of your controls
 
@@ -20,18 +20,18 @@ Implement support for the coded UI testing framework to make your control more t
 
 The coded UI test builder captures information about the controls that it encounters during a recording and then generates code to replay that session. If your control doesn't support accessibility, then the coded UI test builder captures actions (like mouse clicks) using screen coordinates. When the test is played back, the generated code issues the actions in the same screen coordinates. If your control appears in a different place on the screen when the test is played back, the generated code will fail to perform the action. By not implementing accessibility for your control, you might see test failures if the test is played back on different screen configurations, in different environments, or when the UI layout changes.
 
- ![CUIT&#95;RecordNoSupport](../test/media/cuit_recordnosupport.png)
+![CUIT&#95;RecordNoSupport](../test/media/cuit_recordnosupport.png)
 
- If you implement accessibility, the coded UI test builder uses that to capture information about your control when it records a test. Then, when you run the test, the generated code will replay those events against your control, even if it's somewhere else in the user interface. Test authors can also create asserts using the basic properties of your control.
+If you implement accessibility, the coded UI test builder uses that to capture information about your control when it records a test. Then, when you run the test, the generated code will replay those events against your control, even if it's somewhere else in the user interface. Test authors can also create asserts using the basic properties of your control.
 
- ![CUIT&#95;Record](../test/media/cuit_record.png)
+![CUIT&#95;Record](../test/media/cuit_record.png)
 
 ### To support record and playback, property validation, and navigation for a Windows Forms control
- Implement accessibility for your control as outlined in the following procedure, and explained in detail in <xref:System.Windows.Forms.AccessibleObject>.
+Implement accessibility for your control as outlined in the following procedure, and explained in detail in <xref:System.Windows.Forms.AccessibleObject>.
 
- ![CUIT&#95;Accessible](../test/media/cuit_accessible.png)
+![CUIT&#95;Accessible](../test/media/cuit_accessible.png)
 
-1.  Implement a class that derives from <xref:System.Windows.Forms.Control.ControlAccessibleObject>, and override the <xref:System.Windows.Forms.Control.AccessibilityObject%2A> property to return an object of your class.
+1. Implement a class that derives from <xref:System.Windows.Forms.Control.ControlAccessibleObject>, and override the <xref:System.Windows.Forms.Control.AccessibilityObject%2A> property to return an object of your class.
 
     ```csharp
     public partial class ChartControl : UserControl
@@ -56,11 +56,11 @@ The coded UI test builder captures information about the controls that it encoun
     }
     ```
 
-2.  Override the accessible object's <xref:System.Windows.Forms.AccessibleObject.Role%2A>, <xref:System.Windows.Forms.AccessibleObject.State%2A>, <xref:System.Windows.Forms.AccessibleObject.GetChild%2A> and <xref:System.Windows.Forms.AccessibleObject.GetChildCount%2A> properties and methods.
+2. Override the accessible object's <xref:System.Windows.Forms.AccessibleObject.Role%2A>, <xref:System.Windows.Forms.AccessibleObject.State%2A>, <xref:System.Windows.Forms.AccessibleObject.GetChild%2A> and <xref:System.Windows.Forms.AccessibleObject.GetChildCount%2A> properties and methods.
 
-3.  Implement another accessibility object for the child control and override the child control's <xref:System.Windows.Forms.Control.AccessibilityObject%2A> property to return the accessibility object.
+3. Implement another accessibility object for the child control and override the child control's <xref:System.Windows.Forms.Control.AccessibilityObject%2A> property to return the accessibility object.
 
-4.  Override the <xref:System.Windows.Forms.AccessibleObject.Bounds%2A>, <xref:System.Windows.Forms.AccessibleObject.Name%2A>, <xref:System.Windows.Forms.AccessibleObject.Parent%2A>, <xref:System.Windows.Forms.AccessibleObject.Role%2A>, <xref:System.Windows.Forms.AccessibleObject.State%2A>, <xref:System.Windows.Forms.AccessibleObject.Navigate%2A>, and <xref:System.Windows.Forms.AccessibleObject.Select%2A> properties and methods for the child control's accessibility object.
+4. Override the <xref:System.Windows.Forms.AccessibleObject.Bounds%2A>, <xref:System.Windows.Forms.AccessibleObject.Name%2A>, <xref:System.Windows.Forms.AccessibleObject.Parent%2A>, <xref:System.Windows.Forms.AccessibleObject.Role%2A>, <xref:System.Windows.Forms.AccessibleObject.State%2A>, <xref:System.Windows.Forms.AccessibleObject.Navigate%2A>, and <xref:System.Windows.Forms.AccessibleObject.Select%2A> properties and methods for the child control's accessibility object.
 
 > [!NOTE]
 > This topic starts with the accessibility sample in <xref:System.Windows.Forms.AccessibleObject>, and then builds on that sample in the remaining procedures. If you want to create a working version of the accessibility sample, create a console application and then replace the code in *Program.cs* with the sample code. Add references to Accessibility, System.Drawing, and System.Windows.Forms. Change the **Embed Interop Types** for Accessibility to **False** to eliminate a build warning. You can change the project's output type from **Console Application** to **Windows Application** so that a console window doesn't appear when you run the application.
@@ -69,7 +69,7 @@ The coded UI test builder captures information about the controls that it encoun
 
 After you implement basic support for record and playback and property validation, you can make your control's custom properties available to coded UI tests by implementing a <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider> plug-in. For example, the following procedure creates a property provider that allows coded UI tests to access the State property of the chart control's CurveLegend child controls:
 
- ![CUIT&#95;CustomProps](../test/media/cuit_customprops.png)
+![CUIT&#95;CustomProps](../test/media/cuit_customprops.png)
 
 ### To support custom property validation
 
@@ -153,15 +153,15 @@ If you've implemented a property provider to provide access to your control's cu
 
 ## Support intent-aware actions by implementing an action filter
 
- When Visual Studio records a test, it captures each mouse and keyboard event. However, in some cases, the intent of the action can be lost in the series of mouse and keyboard events. For example, if your control supports autocomplete, the same set of mouse and keyboard events may result in a different value when the test is played back in a different environment. You can add an action filter plug-in that replaces the series of keyboard and mouse events with a single action. This way, you can replace the series of mouse and keyboard events that select a value with a single action that sets the value. Doing that protects coded UI tests from the differences in autocomplete from one environment to another.
+When Visual Studio records a test, it captures each mouse and keyboard event. However, in some cases, the intent of the action can be lost in the series of mouse and keyboard events. For example, if your control supports autocomplete, the same set of mouse and keyboard events may result in a different value when the test is played back in a different environment. You can add an action filter plug-in that replaces the series of keyboard and mouse events with a single action. This way, you can replace the series of mouse and keyboard events that select a value with a single action that sets the value. Doing that protects coded UI tests from the differences in autocomplete from one environment to another.
 
 ### To support intent-aware actions
 
 ![CUIT&#95;Actions](../test/media/cuit_actions.png)
 
-1. Implement an action filter class that's derived from <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter>, overriding the properties <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.ApplyTimeout%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Category%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Enabled%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.FilterType%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Group%2A> and <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Name%2A>.
+1. Implement an action filter class that's derived from [UITestActionFilter](/previous-versions/visualstudio/visual-studio-2012/dd985757(v=vs.110)), overriding the properties [ApplyTimeout](/previous-versions/visualstudio/visual-studio-2012/dd984649%28v%3dvs.110%29), [Category](/previous-versions/visualstudio/visual-studio-2012/dd986905(v=vs.110)), [Enabled](/previous-versions/visualstudio/visual-studio-2012/dd985633(v=vs.110)), [FilterType](/previous-versions/visualstudio/visual-studio-2012/dd778726(v=vs.110)), [Group](/previous-versions/visualstudio/visual-studio-2012/dd779219(v=vs.110)) and [Name](/previous-versions/visualstudio/visual-studio-2012/dd998334(v=vs.110)).
 
-1. Override <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.ProcessRule%2A>. The example here replaces a double-click action with a single-click action.
+1. Override [ProcessRule](/previous-versions/visualstudio/visual-studio-2012/dd987281(v=vs.110)). The example here replaces a double-click action with a single-click action.
 
 1. Add the action filter to the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage.GetService%2A> method of your extension package.
 
@@ -176,19 +176,19 @@ Your property provider and action filter are implemented in an extension package
 
 ### To debug your property provider or action filter
 
-1.  Build the debug version of your extension package copy the *.dll* and *.pdb* files to *%ProgramFiles%\Common Files\Microsoft Shared\VSTT\10.0\UITestExtensionPackages*.
+1. Build the debug version of your extension package copy the *.dll* and *.pdb* files to *%ProgramFiles%\Common Files\Microsoft Shared\VSTT\10.0\UITestExtensionPackages*.
 
-2.  Run your application (not in the debugger).
+2. Run your application (not in the debugger).
 
-3.  Run the coded UI test builder.
+3. Run the coded UI test builder.
 
      `codedUITestBuilder.exe  /standalone`
 
-4.  Attach the debugger to the codedUITestBuilder process.
+4. Attach the debugger to the codedUITestBuilder process.
 
-5.  Set breakpoints in your code.
+5. Set breakpoints in your code.
 
-6.  In the coded UI test builder, create asserts to exercise your property provider, and record actions to exercise your action filters.
+6. In the coded UI test builder, create asserts to exercise your property provider, and record actions to exercise your action filters.
 
 ## See also
 

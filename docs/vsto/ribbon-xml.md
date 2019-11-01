@@ -49,12 +49,12 @@ ms.workload:
 ## Define the behavior of the custom ribbon
  You can respond to user actions, such as clicking a button on the ribbon, by creating *callback methods*. Callback methods resemble events in Windows Forms controls, but they are identified by an attribute in the XML of the UI element. You write methods in the Ribbon class, and a control calls the method that has the same name as the attribute value. For example, you can create a callback method that is called when a user clicks a button on the ribbon. Two steps are required to create a callback method:
 
--   Assign an attribute to a control in the Ribbon XML file that identifies a callback method in your code.
+- Assign an attribute to a control in the Ribbon XML file that identifies a callback method in your code.
 
--   Define the callback method in the Ribbon class.
+- Define the callback method in the Ribbon class.
 
 > [!NOTE]
->  Outlook requires an additional step. For more information, see [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md).
+> Outlook requires an additional step. For more information, see [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md).
 
  For a walkthrough that demonstrates how to automate an application from the ribbon, see [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md).
 
@@ -71,7 +71,7 @@ ms.workload:
 
  There are many different types of callback methods that you can assign to Ribbon controls. For a complete list of the callback methods available for each control, see the technical article [Customize the Office (2007) Ribbon user interface for developers (Part 3 of 3)](/previous-versions/office/developer/office-2007/aa722523(v=office.12)).
 
-###  <a name="CallBackMethods"></a> Define callback methods
+### <a name="CallBackMethods"></a> Define callback methods
  Define your callback methods in the Ribbon class in the Ribbon code file. A callback method has several requirements:
 
 - It must be declared as public.
@@ -87,7 +87,7 @@ ms.workload:
   [!code-csharp[Trin_RibbonOutlookBasic#2](../vsto/codesnippet/CSharp/Trin_RibbonOutlookBasic/Ribbon1.cs#2)]
   [!code-vb[Trin_RibbonOutlookBasic#2](../vsto/codesnippet/VisualBasic/Trin_RibbonOutlookBasic/Ribbon1.vb#2)]
 
-##  <a name="RibbonDescriptorFile"></a> Ribbon XML file reference
+## <a name="RibbonDescriptorFile"></a> Ribbon XML file reference
  You can define your custom ribbon by adding elements and attributes to the Ribbon XML file. By default, the Ribbon XML file contains the following XML.
 
 ```xml
@@ -126,7 +126,7 @@ ms.workload:
 
  The default elements and attributes in the Ribbon XML file are a small subset of the elements and attributes that are available. For a complete list of the available elements and attributes, see the technical article [Customize the Office (2007) Ribbon user interface for developers (Part 2 of 3)](/previous-versions/office/developer/office-2007/aa338199(v=office.12)).
 
-##  <a name="RibbonExtensionClass"></a> Ribbon class reference
+## <a name="RibbonExtensionClass"></a> Ribbon class reference
  Visual Studio generates the Ribbon class in the Ribbon code file. Add the callback methods for controls on the ribbon to this class. This class implements the <xref:Microsoft.Office.Core.IRibbonExtensibility> interface.
 
  The following table describes the default methods in this class.

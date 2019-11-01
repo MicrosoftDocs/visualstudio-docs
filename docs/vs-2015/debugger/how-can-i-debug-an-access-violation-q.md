@@ -38,26 +38,26 @@ using namespace std;
   
 class ClassB {  
 public:  
-    	ClassC* C;  
-    	ClassB() {  
-		        C = new ClassC();  
-    	}  
+      ClassC* C;  
+      ClassB() {  
+            C = new ClassC();  
+      }  
      void printHello() {  
-		        cout << "hello world";  
-    	}  
+            cout << "hello world";  
+      }  
 };  
   
 class ClassA {  
 public:  
     ClassB* B;  
-	  ClassA() {  
-		        B = nullptr;  
-	    }  
+    ClassA() {  
+            B = nullptr;  
+      }  
 };  
   
 int main() {  
     ClassA* A = new ClassA();  
-	  A->B->printHello();  
+    A->B->printHello();  
 }  
 ```  
   

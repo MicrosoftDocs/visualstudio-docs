@@ -2,7 +2,6 @@
 title: "IApplicationDebugger::onClose | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -41,6 +40,6 @@ HRESULT onClose();
 ## Remarks  
  This method is called when `IDebugApplication::Close` is called.  
   
-## See Also  
+## See also  
  [IApplicationDebugger Interface](../../winscript/reference/iapplicationdebugger-interface.md)   
  [IDebugApplication::Close](../../winscript/reference/idebugapplication-close.md)

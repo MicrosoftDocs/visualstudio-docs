@@ -12,7 +12,7 @@ ms.workload:
   - "multiple"
 ---
 # Concurrency Visualizer SDK
-You can instrument your source code by using the Concurrency Visualizer SDK to display additional information in the Concurrency Visualizer. You can associate the additional data with phases and events in your code. These additional visualizations are known as *markers*.  For an introductory walkthrough, see [Introducing the Concurrency Visualizer SDK](http://go.microsoft.com/fwlink/?LinkId=235405).
+You can instrument your source code by using the Concurrency Visualizer SDK to display additional information in the Concurrency Visualizer. You can associate the additional data with phases and events in your code. These additional visualizations are known as *markers*.  For an introductory walkthrough, see [Introducing the Concurrency Visualizer SDK](https://blogs.msdn.microsoft.com/visualizeparallel/2011/10/17/introducing-the-concurrency-visualizer-sdk/).
 
 ## Properties
  Flags, spans, and messages each have two properties: category and importance. In the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box, you can use these properties to filter the set of markers that are displayed. In addition, these properties affect the visual representation of markers. For example, the size of flags is used to represent importance. In addition, color is used to indicate category.
@@ -21,15 +21,15 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
  The Concurrency Visualizer exposes a default provider that you can use to generate markers. The provider is already registered together with the Concurrency Visualizer and you don't have to do anything else to make the markers appear in the UI.
 
 ### C# and Visual Basic
- In C#, Visual basic, and other managed code, use the default provider by calling <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers>. It exposes four functions for generating markers: <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers.WriteFlag%2A>, <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers.EnterSpan%2A>, <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers.WriteMessage%2A>, and <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers.WriteAlert%2A>. There are multiple overloads for these functions, depending on whether you want to use defaults for the properties.  The simplest overload takes only a string parameter that specifies the description of the event. The description is displayed in the Concurrency Visualizer reports.
+ In C#, Visual basic, and other managed code, use the default provider by calling methods in the [Markers](/previous-versions/hh694099(v=vs.140)) class. It exposes four methods for generating markers: [WriteFlag](/previous-versions/hh694185%28v%3dvs.140%29), [EnterSpan](/previous-versions/hh694205(v=vs.140)), [WriteMessage](/previous-versions/hh694161(v=vs.140)), and [WriteAlert](/previous-versions/hh694180(v=vs.140)). There are multiple overloads for these functions, depending on whether you want to use defaults for the properties.  The simplest overload takes only a string parameter that specifies the description of the event. The description is displayed in the Concurrency Visualizer reports.
 
 ##### To add SDK support to a C# or Visual Basic project
 
-1.  On the menu bar, choose **Analyze**, **Concurrency Visualizer**, **Add SDK to project**.
+1. On the menu bar, choose **Analyze**, **Concurrency Visualizer**, **Add SDK to project**.
 
-2.  Select the project in which you want to access the SDK and then choose the **Add SDK to Selected Project** button.
+2. Select the project in which you want to access the SDK and then choose the **Add SDK to Selected Project** button.
 
-3.  Add an imports or using statement to your code.
+3. Add an imports or using statement to your code.
 
     ```csharp
     using Microsoft.ConcurrencyVisualizer.Instrumentation;
@@ -44,19 +44,19 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
 
 ##### To add SDK support to a C++ or C project
 
-1.  On the menu bar, choose **Analyze**, **Concurrency Visualizer**, **Add SDK to project**.
+1. On the menu bar, choose **Analyze**, **Concurrency Visualizer**, **Add SDK to project**.
 
-2.  Select the project in which you want to access the SDK and then choose the **Add SDK to Selected Project** button.
+2. Select the project in which you want to access the SDK and then choose the **Add SDK to Selected Project** button.
 
-3.  For C++, include `cvmarkersobj.h`. For C, include `cvmarkers.h`.
+3. For C++, include `cvmarkersobj.h`. For C, include `cvmarkers.h`.
 
-4.  Add a using statement to your code.
+4. Add a using statement to your code.
 
     ```cpp
     using namespace Concurrency::diagnostic;
     ```
 
-5.  Create a `marker_series` object and pass it to the `span` constructor.
+5. Create a `marker_series` object and pass it to the `span` constructor.
 
     ```C++
 
@@ -70,19 +70,19 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
 
 #### To use a new marker provider in a C# or Visual Basic project
 
-1.  Create a <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerWriter> object.  The constructor takes a GUID.
+1. Create a [MarkerWriter](/previous-versions/hh694138(v=vs.140)) object.  The constructor takes a GUID.
 
-2.  To register the provider, open the Concurrency Visualizer [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box.  Select the **Markers** tab and then choose the **Add New Provider** button. In the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box, enter the GUID that was used to create the provider and a description of the provider.
+2. To register the provider, open the Concurrency Visualizer [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box.  Select the **Markers** tab and then choose the **Add New Provider** button. In the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box, enter the GUID that was used to create the provider and a description of the provider.
 
 #### To use a new marker provider in a C++ or C project
 
-1.  Use the `CvInitProvider` function to initialize a PCV_PROVIDER.  The constructor takes a GUID* and  PCV_PROVIDER\*.
+1. Use the `CvInitProvider` function to initialize a PCV_PROVIDER.  The constructor takes a GUID* and  PCV_PROVIDER\*.
 
-2.  To register the provider, open the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box.  Select the **Markers** tab and then choose the **Add New Provider** button. In this dialog box, enter the GUID that was used to create the provider and a description of the provider.
+2. To register the provider, open the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box.  Select the **Markers** tab and then choose the **Add New Provider** button. In this dialog box, enter the GUID that was used to create the provider and a description of the provider.
 
 #### To use a marker series in a C# or Visual Basic project
 
-1.  To use a new <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerSeries>, first create it by using a <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerWriter> object, and then generate marker events directly from the new series.
+1. To use a new [MarkerSeries](/previous-versions/hh694127(v=vs.140)), first create it by using a [MarkerWriter](/previous-versions/hh694138(v=vs.140)) object, and then generate marker events directly from the new series.
 
     ```csharp
     MarkerSeries series1 = myMarkerWriter.CreateMarkerSeries("Series 1");
@@ -96,7 +96,7 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
 
 #### To use a marker series in a C++ project
 
-1.  Create a `marker_series` object.  You can generate events from this new series.
+1. Create a `marker_series` object.  You can generate events from this new series.
 
     ```scr
     marker_series series;
@@ -105,7 +105,7 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
 
 #### To use a marker series in a C project
 
-1.  Use the `CvCreateMarkerSeries` function to create a PCV_MARKERSERIES.
+1. Use the `CvCreateMarkerSeries` function to create a PCV_MARKERSERIES.
 
     ```C++
     PCV_MARKERSERIES series;
@@ -119,5 +119,5 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
 |-----------|-----------------|
 |[C++ library reference](../profiling/cpp-library-reference.md)|Describes the Concurrency Visualizer API for C++.|
 |[C library reference](../profiling/c-library-reference.md)|Describes the Concurrency Visualizer API for C.|
-|<xref:Microsoft.ConcurrencyVisualizer.Instrumentation>|Describes the Concurrency Visualizer API for managed code.|
+|[Instrumentation](/previous-versions/hh694104(v=vs.140))|Describes the Concurrency Visualizer API for managed code.|
 |[Concurrency Visualizer](../profiling/concurrency-visualizer.md)|Reference information for the views and reports of profiling data files that are generated by using the concurrency method and that include thread execution data.|

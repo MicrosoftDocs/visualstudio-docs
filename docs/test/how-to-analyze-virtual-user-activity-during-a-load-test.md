@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "virtual user activity chart, viewing"
 ms.assetid: 8bda19b3-91c1-4daf-b6c7-09108bddadff
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Analyze what virtual users are doing during a load test using the virtual user activity chart
@@ -19,9 +19,9 @@ The procedures below demonstrate how to view the **Virtual User Activity Chart**
 
 ## To view the Virtual User Activity Chart in your load test results
 
-1.  To view the virtual user data, you must first configure the **All Individual Details** setting for the **Timing Details Storage** property that is associated with your load test. Then run the load test.
+1. To view the virtual user data, you must first configure the **All Individual Details** setting for the **Timing Details Storage** property that is associated with your load test. Then run the load test.
 
-2.  After your load test runs, the test results summary page is displayed. Choose the **User Detail** button on the toolbar.
+2. After your load test runs, the test results summary page is displayed. Choose the **User Detail** button on the toolbar.
 
      -or-
 

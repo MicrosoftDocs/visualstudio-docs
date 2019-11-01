@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "builds [Visual Studio], about building in Visual Studio"
   - "custom build steps, types of builds"
 ms.assetid: c7958821-285f-4e28-9e7a-b5d8b40336a1
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -19,7 +19,7 @@ When you build source code, the build engine creates assemblies and executable a
 
 By building your code often, you can quickly identify compile-time errors, such as incorrect syntax, misspelled keywords, and type mismatches. You can also detect and correct run-time errors, such as logic errors and semantic errors, by building and running debug versions of the code.
 
-A successful build validates that the application's source code contains correct syntax and that all static references to libraries, assemblies, and other components can resolve. An application executable is produced that can be tested for proper functioning in both a [debugging environment](../debugger/index.md) and through a variety of manual and automated tests to [validate code quality](../test/improve-code-quality.md). Once the application has been fully tested, you can compile a release version to deploy to your customers. For an introduction to this process, see [Walkthrough: Building an application](../ide/walkthrough-building-an-application.md).
+A successful build validates that the application's source code contains correct syntax and that all static references to libraries, assemblies, and other components can resolve. An application executable is produced that can be tested for proper functioning in both a [debugging environment](../debugger/index.yml) and through a variety of manual and automated tests to [validate code quality](../test/improve-code-quality.md). Once the application has been fully tested, you can compile a release version to deploy to your customers. For an introduction to this process, see [Walkthrough: Building an application](../ide/walkthrough-building-an-application.md).
 
 You can use any of the following methods to build an application: the Visual Studio IDE, the MSBuild command-line tools, and Azure Pipelines:
 

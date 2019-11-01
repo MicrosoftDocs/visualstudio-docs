@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], checking items in"
   - "source control plug-ins, checking items in"
 ms.assetid: d0329fa8-7a8d-4d30-b67b-6f2a97b75a30
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -27,11 +27,11 @@ This source-control plug-in test area covers sending updated items to the versio
 
 ## Common Expected Behavior
 
--   Projects and files added to a solution or project under source control appear in the **Check In** dialog box and the **Pending Checkins** window.
+- Projects and files added to a solution or project under source control appear in the **Check In** dialog box and the **Pending Checkins** window.
 
--   After the check in, added items appear in source control.
+- After the check in, added items appear in source control.
 
--   After the check in, updated items are properly versioned in the store.
+- After the check in, updated items are properly versioned in the store.
 
 ## Test Cases
  The following are specific test cases for the Checkin test area.
@@ -60,5 +60,5 @@ This source-control plug-in test area covers sending updated items to the versio
 |Add a project to a blank solution under source control (**Check In** dialog box)|1.  Create a blank solution.<br />2.  Add the solution to source control.<br />3.  Add a new project.<br />4.  Accept check out of the solution if prompted.<br />5.  Check in from the **Check In** dialog box.|Common Expected Behavior.|
 |Add a project to a blank solution under source control (**Pending Checkins** window)|1.  Create a blank solution.<br />2.  Add the solution to source control.<br />3.  Add a new project.<br />4.  Accept check out of the solution if prompted.<br />5.  Check in solution from **Pending Checkins** window.|Common Expected Behavior.|
 
-## See Also
+## See also
 - [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

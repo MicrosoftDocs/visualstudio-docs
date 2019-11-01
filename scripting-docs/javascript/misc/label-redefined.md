@@ -20,9 +20,9 @@ You created a new label, but gave it the name of an existing label. Labels can b
   
 ### To correct this error  
   
--   Ensure that all labels you use in your programs are unique within their respective scopes.  
+- Ensure that all labels you use in your programs are unique within their respective scopes.  
   
-## See Also  
+## See also  
  [Labeled Statement](../../javascript/reference/labeled-statement-javascript.md)   
  [switch Statement](../../javascript/reference/switch-statement-javascript.md)   
  [break Statement](../../javascript/reference/break-statement-javascript.md)   

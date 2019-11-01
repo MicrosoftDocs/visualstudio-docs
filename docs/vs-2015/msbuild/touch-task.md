@@ -23,7 +23,6 @@ manager: jillfra
 # Touch Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Sets the access and modification times of files.  
   
 ## Parameters  

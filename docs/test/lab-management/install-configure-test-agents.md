@@ -1,11 +1,11 @@
 ---
 title: "Install test agents and test controllers"
-ms.date: 10/24/2018
+ms.date: 04/17/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "configure test agents, test lab"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -18,7 +18,7 @@ You might also consider if it's better to use [build or release management](use-
 
 ## System requirements
 
-The following table shows the system requirements for installing the test agent or test controller for Visual Studio 2017:
+The following table shows the system requirements for installing the test agent or test controller for Visual Studio:
 
 | Item | Requirements |
 | ---- | ------------ |
@@ -28,9 +28,9 @@ The following table shows the system requirements for installing the test agent 
 
 ## Install the test controller and test agents
 
-You can download agents for Visual Studio 2017 from [visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads/?q=agents). Look for *Agents for Visual Studio 2017*, select either *Agent* or *Controller*, and then choose *Download*. Run the downloaded executable to install the test agent or controller.
+You can download agents for Visual Studio from [visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads/?q=agents). Look for *Agents for Visual Studio 2019*, select either *Agent* or *Controller*, and then choose *Download*. Run the downloaded executable to install the test agent or controller.
 
-You can download agents for Visual Studio 2015 and Visual Studio 2013 from the [older downloads](https://visualstudio.microsoft.com/vs/older-downloads/) page.
+You can download agents for Visual Studio 2017, Visual Studio 2015, and Visual Studio 2013 from the [older downloads](https://visualstudio.microsoft.com/vs/older-downloads/) page.
 
 These installers are available as ISO files for easy installation on virtual machines.
 

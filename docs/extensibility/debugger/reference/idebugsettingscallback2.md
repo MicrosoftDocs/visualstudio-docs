@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugSettingsCallback2 interface"
 ms.assetid: 7e525d0b-7d7a-4d1c-8b78-e1398fa922f2
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

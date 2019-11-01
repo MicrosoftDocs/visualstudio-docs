@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugMemoryBytes2 interface"
 ms.assetid: d7647575-0e06-4190-88f5-ca40b82209a4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -49,7 +49,7 @@ IDebugMemoryBytes2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [GetMemoryBytes](../../../extensibility/debugger/reference/idebugprogram2-getmemorybytes.md)
 - [GetMemoryBytes](../../../extensibility/debugger/reference/idebugproperty2-getmemorybytes.md)

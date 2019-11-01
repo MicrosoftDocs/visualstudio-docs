@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "VSTextBuffer object, reference"
   - "views [Visual Studio SDK], VSTextBuffer object"
 ms.assetid: c5f94b45-7249-4e1f-a53d-1d2a1c61e0ef
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -35,7 +35,7 @@ The text buffer object represents a stream of Unicode text, which is generally a
 |<xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer>|Supports connection points for events.|
 
 ## Remarks
- The `VSTextBuffer` is usually found by a `QueryInterface` call on `IVsTextBuffer`. For more information, see [Text buffer](../extensibility/accessing-the-text-buffer-by-using-the-legacy-api.md).
+ The `VSTextBuffer` is usually found by a `QueryInterface` call on `IVsTextBuffer`. For more information, see [Text buffer](/visualstudio/extensibility/accessing-the-text-buffer-by-using-the-legacy-api?view=vs-2015).
 
 ## See also
 - <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer>

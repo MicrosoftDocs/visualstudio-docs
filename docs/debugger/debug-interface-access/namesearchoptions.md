@@ -50,7 +50,7 @@ Applies a case-insensitive name match.
 Treats names as paths and applies a filename.ext name match.
 
 `nsfRegularExpression`
-Applies a case-sensitive name match using asterisks (*) and question marks (?) as wildcards.
+Applies a case-sensitive name match using asterisks (*) and question marks (?) as wildcards. (Other common regular expression characters are not supported.)
 
 `nsfUndecoratedName`
 Applies only to symbols that have both undecorated and decorated names.
@@ -67,7 +67,7 @@ The values from this enumeration are passed to the following methods:
 ## Requirements
 Header: dia2.h
 
-## See Also
+## See also
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 - [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)
 - [IDiaSession::findFile](../../debugger/debug-interface-access/idiasession-findfile.md)

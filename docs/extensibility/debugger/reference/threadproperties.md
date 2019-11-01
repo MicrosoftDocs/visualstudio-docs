@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "THREADPROPERTIES structure"
 ms.assetid: 7d397207-db03-4ec0-9f79-3794056ed89f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # THREADPROPERTIES
 Describes the properties of a thread.
@@ -43,25 +46,25 @@ public struct THREADPROPERTIES { 
 ```
 
 ## Members
- dwFields
+ `dwFields`\
  A combination of flags from the [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md) enumeration, describing which fields in this structure are valid.
 
- dwThreadId
+ `dwThreadId`\
  The thread ID.
 
- dwSuspendCount
+ `dwSuspendCount`\
  The thread suspend count.
 
- dwThreadState
+ `dwThreadState`\
  A value from the [THREADSTATE](../../../extensibility/debugger/reference/threadstate.md) enumeration indicating the state of the operating thread.
 
- bstrPriority
+ `bstrPriority`\
  A string specifying the thread priority; for example, "Above Normal", "Normal", or "Time Critical".
 
- bstName
+ `bstName`\
  The thread name.
 
- bstrLocation
+ `bstrLocation`\
  The thread location (usually the topmost stack frame), typically expressed as the name of the method where execution is currently halted.
 
 ## Remarks
@@ -74,7 +77,7 @@ public struct THREADPROPERTIES { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [GetThreadProperties](../../../extensibility/debugger/reference/idebugthread2-getthreadproperties.md)
 - [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md)

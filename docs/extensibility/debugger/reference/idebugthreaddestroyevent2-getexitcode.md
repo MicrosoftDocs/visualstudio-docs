@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugThreadDestroyEvent2::GetExitCode"
 ms.assetid: 8bf47a17-f811-4d9b-bcea-7488908830ff
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugThreadDestroyEvent2::GetExitCode
 Gets the exit code for a thread.
@@ -30,13 +33,12 @@ int GetExitCode ( 
 );
 ```
 
-#### Parameters
- `pdwExit`
-
- [out] Returns the thread's exit code.
+## Parameters
+`pdwExit`\
+[out] Returns the thread's exit code.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugThreadDestroyEvent2](../../../extensibility/debugger/reference/idebugthreaddestroyevent2.md)

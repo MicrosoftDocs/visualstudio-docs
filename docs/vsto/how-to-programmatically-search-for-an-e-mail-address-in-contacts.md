@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically search for an email address in contacts"
+title: "Find an email address in contacts programmatically"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -26,7 +26,7 @@ ms.workload:
 ## Compile the code
  This example requires:
 
--   Contacts that have the domain name **example.com** in their e-mail addresses (for example, `somebody@example.com`), and that have first names and last names.
+- Contacts that have the domain name **example.com** in their e-mail addresses (for example, `somebody@example.com`), and that have first names and last names.
 
 ## See also
 - [Work with contact items](../vsto/working-with-contact-items.md)

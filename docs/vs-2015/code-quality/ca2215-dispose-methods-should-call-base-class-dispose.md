@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "CA2215"
 ms.assetid: c772e7a6-a87e-425c-a70e-912664ae9042
 caps.latest.revision: 18
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2215: Dispose methods should call base class dispose
@@ -51,4 +51,4 @@ manager: "wpickett"
 
 ## See Also
  <xref:System.IDisposable?displayProperty=fullName>
- [Dispose Pattern](http://msdn.microsoft.com/library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)
+ [Dispose Pattern](https://msdn.microsoft.com/library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)

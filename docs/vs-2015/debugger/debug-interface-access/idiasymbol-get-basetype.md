@@ -35,7 +35,7 @@ HRESULT get_baseType ( 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.  
   
 > [!NOTE]
->  A return value of `S_FALSE` means that the property is not available for the symbol.  
+> A return value of `S_FALSE` means that the property is not available for the symbol.  
   
 ## Remarks  
  The basic type for a symbol can be determined by first getting the type of the symbol and then interrogating that returned type for the base type. Note that some symbols may not have a base type—for example, a structure name.  

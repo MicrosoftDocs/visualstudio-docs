@@ -9,8 +9,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "JScript"
-  - "SQL"
 helpviewer_keywords:
   - "datasets [Visual Studio], Dataset Visualizer dialog box"
   - "visualizers, Dataset Visualizer dialog box"
@@ -31,7 +29,7 @@ The DataSet Visualizer allows you to view the contents of a DataSet, DataTable, 
  Table
  Use this dropdown listbox to select a table within the dataset that you want to visualize.
 
-## See Also
+## See also
 
 - [Debugger Security](../debugger/debugger-security.md)
 - [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)

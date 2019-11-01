@@ -31,13 +31,13 @@ Edit and Continue is a time-saving feature that enables you to make changes to y
   
  This section includes the following topics:  
   
- [How to: Apply Code Changes Explicitly](http://msdn.microsoft.com/89c4fce9-a3ef-432d-a840-67840b1c4be8)  
+ [How to: Apply Code Changes Explicitly](https://msdn.microsoft.com/89c4fce9-a3ef-432d-a840-67840b1c4be8)  
   
  [How to: Enable and Disable Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md)  
   
  [How to: Stop Code Changes](../debugger/how-to-stop-code-changes.md)  
   
- [Point of Execution](http://msdn.microsoft.com/dd9855a7-b536-4e76-821f-27017829b996)  
+ [Point of Execution](https://msdn.microsoft.com/dd9855a7-b536-4e76-821f-27017829b996)  
   
  [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md)  
   
@@ -49,5 +49,5 @@ Edit and Continue is a time-saving feature that enables you to make changes to y
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [Edit and Continue, Debugging, Options Dialog Box](http://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)   
+ [Edit and Continue, Debugging, Options Dialog Box](https://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)   
  [Debugger Basics](../debugger/debugger-basics.md)

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "IdentifiersShouldNotHaveIncorrectSuffix"
 ms.assetid: a63359ab-386d-44ae-b381-ee3a983aca29
 caps.latest.revision: 20
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1711: Identifiers should not have incorrect suffix
@@ -69,5 +69,5 @@ manager: "wpickett"
  [CA1710: Identifiers should have correct suffix](../code-quality/ca1710-identifiers-should-have-correct-suffix.md)
 
 ## See Also
- [Attributes](http://msdn.microsoft.com/library/ee0038ef-b247-4747-a650-3c5c5cd58d8b)
- [NIB: Events and Delegates](http://msdn.microsoft.com/d98fd58b-fa4f-4598-8378-addf4355a115)
+ [Attributes](https://msdn.microsoft.com/library/ee0038ef-b247-4747-a650-3c5c5cd58d8b)
+ [NIB: Events and Delegates](https://msdn.microsoft.com/d98fd58b-fa4f-4598-8378-addf4355a115)

@@ -18,13 +18,13 @@ helpviewer_keywords:
 ms.assetid: 81f0c9e8-f471-4de5-aac4-99db336a8809
 author: mikeblome
 ms.author: mblome
-manager: wpickett
+manager: markl
 ms.workload:
   - "cplusplus"
 ---
 # Code analysis for C/C++ overview
 
-The C/C++ Code Analysis tool provides information about possible defects in your C/C++ source code. Common coding errors reported by the tool include buffer overruns, uninitialized memory, null pointer dereferences, and memory and resource leaks. The tool can also run checks against the [C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md).
+The C/C++ Code Analysis tool provides information about possible defects in your C/C++ source code. Common coding errors reported by the tool include buffer overruns, uninitialized memory, null pointer dereferences, and memory and resource leaks. The tool can also run checks against the [C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md).
 
 ## IDE (integrated development environment) integration
 
@@ -40,19 +40,19 @@ You can also use the analysis tool from the command line, as shown in the follow
 C:\>cl /analyze Sample.cpp
 ```
 
-**Visual Studio 2017 version 15.7 and later** You can run the tool from the command line with any build system including CMake.
+**Visual Studio 2017 version 15.7 and later:** You can run the tool from the command line with any build system including CMake.
 
 ## #pragma support
 
-You can use the `#pragma` directive to treat warnings as errors; enable or disable warnings, and suppress warnings for individual lines of code. For more information, see [How to: Set Code Analysis Properties for C/C++ Projects](how-to-set-code-analysis-properties-for-c-cpp-projects.md).
+You can use the `#pragma` directive to treat warnings as errors; enable or disable warnings, and suppress warnings for individual lines of code. For more information, see [Pragma Directives and the __Pragma Keyword](/cpp/preprocessor/pragma-directives-and-the-pragma-keyword).
 
 ## Annotation support
 
-Annotations improve the accuracy of the code analysis. Annotations provide additional information about pre- and post- conditions on function parameters and return types. For more information, see [How to: Specify Additional Code Information by Using __analysis_assume](../code-quality/how-to-specify-additional-code-information-by-using-analysis-assume.md)
+Annotations improve the accuracy of the code analysis. Annotations provide additional information about pre- and post- conditions on function parameters and return types. For more information, see [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md).
 
 ## Run analysis tool as part of check-in policy
 
-You might want to require that all source code check-ins satisfy certain policies. In particular, you want to make sure that analysis was run as a step of the most recent local build. For more information about enabling a code analysis check-in policy, see [Creating and Using Code Analysis Check-In Policies](../code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies.md)
+You might want to require that all source code check-ins satisfy certain policies. In particular, you want to make sure that analysis was run as a step of the most recent local build. For more information about enabling a code analysis check-in policy, see [Creating and Using Code Analysis Check-In Policies](../code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies.md).
 
 ## Team Build integration
 

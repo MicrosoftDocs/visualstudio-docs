@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumDebugCodeContexts2::Reset"
 ms.assetid: df6cf1e3-2ef8-4d38-81a0-8e9adf151884
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEnumDebugCodeContexts2::Reset
 Resets the enumeration to the first element.
@@ -34,5 +37,5 @@ int Reset();
 ## Remarks
  After this method is called, the next call to the [Next](../../../extensibility/debugger/reference/ienumdebugcodecontexts2-next.md) method returns the first element of the enumeration.
 
-## See Also
+## See also
 - [IEnumDebugCodeContexts2](../../../extensibility/debugger/reference/ienumdebugcodecontexts2.md)

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramEx2::Attach"
 ms.assetid: 1545ffbf-1422-4b5d-9bb9-314ba8665041
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramEx2::GetProgramNode
 Gets the program node associated with a program.
@@ -30,14 +33,13 @@ int GetProgramNode( 
 );
 ```
 
-#### Parameters
- `ppProgramNode`
-
- [out] Returns an [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object that represents the program node associated with this program.
+## Parameters
+`ppProgramNode`\
+[out] Returns an [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object that represents the program node associated with this program.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugProgramEx2](../../../extensibility/debugger/reference/idebugprogramex2.md)
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

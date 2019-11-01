@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1300"
 ms.assetid: 9357a724-026e-4a3d-a03a-f14635064ec6
 caps.latest.revision: 21
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1300: Specify MessageBoxOptions
@@ -46,4 +46,4 @@ manager: "wpickett"
 
 ## See Also
  <xref:System.Resources.ResourceManager?displayProperty=fullName>
- [Resources in Desktop Apps](http://msdn.microsoft.com/library/8ad495d4-2941-40cf-bf64-e82e85825890)
+ [Resources in Desktop Apps](https://msdn.microsoft.com/library/8ad495d4-2941-40cf-bf64-e82e85825890)

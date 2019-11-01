@@ -16,7 +16,7 @@ ms.workload:
 # MsBuild properties supported by SharePoint
   Any [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] property defined in the Microsoft.VisualStudio.SharePoint.targets file, project file, or project user file can be used in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint projects. In addition to the common [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] properties supplied by the project, SharePoint defines additional properties that are specific to SharePoint projects.
 
- For a list of common [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] properties, see [Common MSBuild Project Properties](http://go.microsoft.com/fwlink/?LinkID=168687). For a full list of the properties supported by your programming language, look in the *.targets* file, the project file (*.csproj* or *.vbproj*), or the project user file (*csproj.user* or *.vbproj.user*).
+ For a list of common [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] properties, see [Common MSBuild Project Properties](/previous-versions/dotnet/netframework-4.0/bb629394(v=vs.100)). For a full list of the properties supported by your programming language, look in the *.targets* file, the project file (*.csproj* or *.vbproj*), or the project user file (*csproj.user* or *.vbproj.user*).
 
 ## MsBuild properties specific to SharePoint
  The following table lists [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] properties that apply specifically to SharePoint projects in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. Other properties exist, but they are for internal use.
@@ -43,7 +43,7 @@ ms.workload:
  For flexibility, instead of using hard-coded strings in the **Pre-deployment Command Line** and **Post-deployment Command Line** boxes on the SharePoint Properties page, you can use the SharePoint properties as arguments. For example, instead of specifying a specific [!INCLUDE[TLA2#tla_url](../sharepoint/includes/tla2sharptla-url-md.md)] string for the SharePoint site, you can instead use `$(SharePointSiteUrl)`.
 
 > [!NOTE]
->  You can use either the [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] variable syntax `$(`*propertyName*`)` or the environment variable syntax `%`*propertyName*`%` to specify a property.
+> You can use either the [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] variable syntax `$(`*propertyName*`)` or the environment variable syntax `%`*propertyName*`%` to specify a property.
 
 ## See also
 

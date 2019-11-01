@@ -2,7 +2,6 @@
 title: "DBGPROP_INFO_FLAGS | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -60,6 +59,6 @@ enum {
  DBGPROP_INFO_AUTOEXPAND  
  Specifies that the value field should contain the auto-expanded value, if available, for this type of object.  
   
-## See Also  
+## See also  
  [DebugPropertyInfo Structure](../../winscript/reference/debugpropertyinfo-structure.md)   
  [IDebugProperty Interface](../../winscript/reference/idebugproperty-interface.md)

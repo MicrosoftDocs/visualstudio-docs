@@ -2,7 +2,6 @@
 title: "IDebugApplication::CreateApplicationNode | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -44,5 +43,5 @@ HRESULT CreateApplicationNode(
 ## Remarks  
  The new application node is not visible until it is attached to a parent node.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)

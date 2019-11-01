@@ -36,3 +36,4 @@ To find Visual Studio and other tools in build environments, PowerShell scripts,
 ## See also
 
 * [Changes to Visual Studio 2017 setup](https://devblogs.microsoft.com/setup/changes-to-visual-studio-15-setup/)
+* [Launch Visual Studio using DTE](launch-visual-studio-dte.md)

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugManagedObject::SetFromManagedObject method"
 ms.assetid: 8700ee8d-2704-4580-bccc-046837a24edd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugManagedObject::SetFromManagedObject
 Sets the value of the instance of the value class object from the instance of the value class provided as a parameter.
@@ -30,10 +33,9 @@ int SetFromManagedObject(
 );
 ```
 
-#### Parameters
- `pManagedObject`
-
- [in] An interface that represents the managed object containing the new value.
+## Parameters
+`pManagedObject`\
+[in] An interface that represents the managed object containing the new value.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.
@@ -41,5 +43,5 @@ int SetFromManagedObject(
 ## Remarks
  This method is used to change the managed object as represented by the [IDebugManagedObject](../../../extensibility/debugger/reference/idebugmanagedobject.md) object.
 
-## See Also
+## See also
 - [IDebugManagedObject](../../../extensibility/debugger/reference/idebugmanagedobject.md)

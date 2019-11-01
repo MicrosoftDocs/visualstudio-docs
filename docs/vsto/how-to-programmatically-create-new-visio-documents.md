@@ -21,7 +21,7 @@ ms.workload:
 
 ### To create a new document
 
--   Use the `Microsoft.Office.Interop.Visio.Documents.Add` method to create a new blank document that is not based on a template.
+- Use the `Microsoft.Office.Interop.Visio.Documents.Add` method to create a new blank document that is not based on a template.
 
      [!code-csharp[Trin_VstcoreVisioAutomationAddIn#1](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#1)]
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#1](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#1)]
@@ -31,7 +31,7 @@ ms.workload:
 
 ### To create a new document that is copied from an existing document
 
--   Call the `Microsoft.Office.Interop.Visio.Documents.Add` method and specify the path of the Visio diagram.
+- Call the `Microsoft.Office.Interop.Visio.Documents.Add` method and specify the path of the Visio diagram.
 
      [!code-csharp[Trin_VstcoreVisioAutomationAddIn#2](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#2)]
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#2](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#2)]
@@ -41,7 +41,7 @@ ms.workload:
 
 ### To create a new stencil that is copied from an existing stencil
 
--   Call the `Microsoft.Office.Interop.Visio.Documents.Add` method and specify the path of the stencil.
+- Call the `Microsoft.Office.Interop.Visio.Documents.Add` method and specify the path of the stencil.
 
      [!code-csharp[Trin_VstcoreVisioAutomationAddIn#3](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#3)]
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#3](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#3)]
@@ -51,7 +51,7 @@ ms.workload:
 
 ### To create a new document that is based on an existing template
 
--   Call the `Microsoft.Office.Interop.Visio.Documents.Add` method and specify the path of the template.
+- Call the `Microsoft.Office.Interop.Visio.Documents.Add` method and specify the path of the template.
 
      [!code-csharp[Trin_VstcoreVisioAutomationAddIn#4](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#4)]
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#4](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#4)]
@@ -59,11 +59,11 @@ ms.workload:
 ## Compile the code
  This code example requires the following:
 
--   A Visio document named `myDrawing.vsd` must be located in a directory named `Test` in the *My Documents* folder (for Windows XP and earlier) or the *Documents* folder (for Windows Vista).
+- A Visio document named `myDrawing.vsd` must be located in a directory named `Test` in the *My Documents* folder (for Windows XP and earlier) or the *Documents* folder (for Windows Vista).
 
--   A Visio document named `myStencil.vss` must be located in a directory named `Test` in the *My Documents* folder (for Windows XP and earlier) or the *Documents* folder (for Windows Vista).
+- A Visio document named `myStencil.vss` must be located in a directory named `Test` in the *My Documents* folder (for Windows XP and earlier) or the *Documents* folder (for Windows Vista).
 
--   A Visio document named `myTemplate.vst` must be located in a directory named `Test` in the *My Documents* folder (for Windows XP and earlier) or the *Documents* folder (for Windows Vista).
+- A Visio document named `myTemplate.vst` must be located in a directory named `Test` in the *My Documents* folder (for Windows XP and earlier) or the *Documents* folder (for Windows Vista).
 
 ## See also
 - [Visio solutions](../vsto/visio-solutions.md)

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgram2::GetEngineInfo"
 ms.assetid: 3a4f2dc0-e082-4d8d-aeaf-463ab09d279b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgram2::GetEngineInfo
 Gets the name and GUID of the debug engine (DE) running this program.
@@ -32,14 +35,12 @@ int GetEngineInfo( 
 );
 ```
 
-#### Parameters
- `pbstrEngine`
+## Parameters
+`pbstrEngine`\
+[out] Returns the name of the DE running this program.
 
- [out] Returns the name of the DE running this program.
-
- `pguidEngine`
-
- [out] Returns the GUID of the DE running this program.
+`pguidEngine`\
+[out] Returns the GUID of the DE running this program.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -47,5 +48,5 @@ int GetEngineInfo( 
 ## Remarks
  Each DE defines its own GUID for identification.
 
-## See Also
+## See also
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

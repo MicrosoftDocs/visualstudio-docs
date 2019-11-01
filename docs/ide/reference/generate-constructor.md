@@ -2,8 +2,8 @@
 title: Generate a constructor quick action
 ms.date: 01/26/2018
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"
@@ -24,11 +24,11 @@ This code generation applies to:
 
 **How:** There are several ways to generate a constructor:
 
-   - [Generate constructor and pick members](#pick)
-   - [Generate constructor from selected fields](#selection)
-   - [Generate constructor from new usage](#usage)
-   - [Add parameter to existing constructor](#addparameter)
-   - [Create and initialize field/property from a constructor parameter](#create)
+- [Generate constructor and pick members](#pick)
+- [Generate constructor from selected fields](#selection)
+- [Generate constructor from new usage](#usage)
+- [Add parameter to existing constructor](#addparameter)
+- [Create and initialize field/property from a constructor parameter](#create)
 
 ## <a id = "pick"></a> Generate constructor and pick members (C# only)
 

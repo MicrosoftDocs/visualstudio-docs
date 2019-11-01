@@ -22,7 +22,6 @@ manager: jillfra
 # ResourcesGenerator Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The <xref:Microsoft.Build.Tasks.Windows.ResourcesGenerator> task embeds one or more resources (.jpg, .ico, .bmp, [!INCLUDE[TLA2#tla_xaml](../includes/tla2sharptla-xaml-md.md)] in binary format, and other extension types) into a .resources file.  
   
 ## Task Parameters  
@@ -55,4 +54,4 @@ The <xref:Microsoft.Build.Tasks.Windows.ResourcesGenerator> task embeds one or m
  [Task Reference](../msbuild/wpf-msbuild-task-reference.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Building a WPF Application (WPF)](http://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c)
+ [Building a WPF Application (WPF)](https://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c)

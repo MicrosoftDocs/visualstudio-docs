@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "template parameters"
   - "template parameters, substituting"
   - "Visual Studio templates, using parameters"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Substitute parameters in a template

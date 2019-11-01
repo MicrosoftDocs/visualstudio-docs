@@ -14,8 +14,8 @@ You can filter the data that appears in performance reports by specifying a time
 
 ### To filter a profiling report from the Summary timeline graph
 
-1.  In the Summary View timeline graph, click a point on the timeline, and then drag the mouse to another point on the timeline.
+1. In the Summary View timeline graph, click a point on the timeline, and then drag the mouse to another point on the timeline.
 
      The region that you specified is shaded.
 
-2.  Click **Filter by Selection**.
+2. Click **Filter by Selection**.

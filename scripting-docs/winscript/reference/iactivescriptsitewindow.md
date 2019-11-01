@@ -2,7 +2,6 @@
 title: "IActiveScriptSiteWindow | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -25,5 +24,5 @@ This interface is implemented by hosts that support a user interface on the same
 |[IActiveScriptSiteWindow::GetWindow](../../winscript/reference/iactivescriptsitewindow-getwindow.md)|Retrieves the window handle that can act as the owner of a pop-up window that the scripting engine must display.|  
 |[IActiveScriptSiteWindow::EnableModeless](../../winscript/reference/iactivescriptsitewindow-enablemodeless.md)|Causes the host to enable or disable its main window as well as any modeless dialog boxes.|  
   
-## See Also  
+## See also  
  [Active Script Interfaces](../../winscript/reference/active-script-interfaces.md)

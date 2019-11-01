@@ -40,7 +40,7 @@ You can search for a specific message in Messages view by using its handle, type
 4. Clear any fields for which you do not want to specify values.  
   
    > [!TIP]
-   >  To reduce screen clutter, select the **Hide Spy** option. This option conceals the main Spy++ window, leaving only the **Find Window** dialog box visible on top of your other applications. The Spy++ main window is restored when you click **OK** or **Cancel**, or when you clear the **Hide Spy++** option.  
+   > To reduce screen clutter, select the **Hide Spy** option. This option conceals the main Spy++ window, leaving only the **Find Window** dialog box visible on top of your other applications. The Spy++ main window is restored when you click **OK** or **Cancel**, or when you clear the **Hide Spy++** option.  
   
 5. Choose **Up** or **Down** for the initial direction of the search.  
   

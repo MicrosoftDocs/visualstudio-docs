@@ -27,9 +27,9 @@ ms.workload:
 ## Compile the code
  This example requires the following components:
 
--   A comma-delimited text file named `Test.txt` that contains at least three lines of text.
+- A comma-delimited text file named `Test.txt` that contains at least three lines of text.
 
--   The text file `Test.txt` to be stored on drive C.
+- The text file `Test.txt` to be stored on drive C.
 
 ## See also
 - [Work with workbooks](../vsto/working-with-workbooks.md)

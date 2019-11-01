@@ -3,8 +3,8 @@ title: Changing the return type of a DataContext method cannot be undone
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 76b161fc-5075-4192-8d94-f15b02e199e9
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"
@@ -33,5 +33,4 @@ The return type of a <xref:System.Data.Linq.DataContext> method differs dependin
 
 ## See also
 
-- [O/R Designer messages](../data-tools/o-r-designer-messages.md)
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

@@ -1,7 +1,7 @@
 ---
-title: "Install And Configure Tools to Build using iOS | Microsoft Docs"
+title: "Install and configure tools to build using iOS | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/21/2018"
+ms.date: "10/17/2019"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 dev_langs:
@@ -15,58 +15,58 @@ ms.workload:
 ---
 # Install and configure tools to build using iOS
 
-You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and deploy iOS code to the iOS Simulator or to an iOS device, but because of licensing restrictions, the code must be built and run remotely on a Mac. To build and run iOS apps using Visual Studio, you need to set up and configure the remote agent, [vcremote](https://go.microsoft.com/fwlink/p/?LinkId=534988), on your Mac. The remote agent handles build requests from Visual Studio and runs the app on an iOS device connected to the Mac, or in the iOS Simulator on the Mac.
+You can use Visual Studio with the cross-platform **Mobile development with C++** tools to edit, debug, and deploy iOS code to the iOS Simulator or to an iOS device. But, because of licensing restrictions, the code must be built and run remotely on a Mac. To build and run iOS apps using Visual Studio, you need to set up and configure the remote agent, [vcremote](https://go.microsoft.com/fwlink/p/?LinkId=534988), on your Mac. The remote agent handles build requests from Visual Studio and runs the app on an iOS device connected to the Mac, or in the iOS Simulator on the Mac.
 
 > [!NOTE]
-> For information on using cloud-hosted Mac services instead of a Mac, see [Configure Visual Studio to connect to your cloud hosted Mac](/visualstudio/cross-platform/tools-for-cordova/tips-workarounds/host-a-mac-in-the-cloud?view=toolsforcordova-2017#configure-visual-studio-to-connect-to-your-cloud-hosted-mac). The instructions are for building using Visual Studio Tools for Apache Cordova. To use the instructions to build using C++, substitute vcremote for remotebuild.
+> For information on using cloud-hosted Mac services instead of a Mac, see [Configure Visual Studio to connect to your cloud hosted Mac](/visualstudio/cross-platform/tools-for-cordova/tips-workarounds/host-a-mac-in-the-cloud?view=toolsforcordova-2017#configure-visual-studio-to-connect-to-your-cloud-hosted-mac). The instructions are for building using Visual Studio Tools for Apache Cordova. To use the instructions to build using C++, substitute `vcremote` for `remotebuild`.
 
-Once you have installed the tools to build using iOS, refer to this topic for ways to quickly configure and update the remote agent for iOS development in Visual Studio and on your Mac.
+Once you have installed the tools to build using iOS, refer to this article for ways to quickly configure and update the remote agent for iOS development in Visual Studio and on your Mac.
 
 ## Prerequisites
 
 To install and use the remote agent to develop code for iOS, you must first have these prerequisites:
 
-- A Mac computer running OS X Mavericks (version 10.9) or later
+- A Mac computer running macOS Mojave version 10.14 or later
 
 - An [Apple ID](https://appleid.apple.com/)
 
-- An active [iOS Developer Program](https://developer.apple.com/programs/ios/) account with Apple
+- An active [Apple Developer Program](https://developer.apple.com/programs/) account
 
-- [Xcode](https://developer.apple.com/xcode/downloads/) version 6 or later.
+   You can get a free account that allows sideloading apps to an iOS device for testing only but not for distribution.
+
+- [Xcode](https://developer.apple.com/xcode/downloads/) version 10.2.1 or later
 
    Xcode can be downloaded from the App Store.
 
-- Xcode command line tools
+- Xcode command-line tools
 
-   To install the Xcode command line tools, open the Terminal app on your Mac and enter the following command:
+   To install the Xcode command-line tools, open the Terminal app on your Mac and enter the following command:
 
    `xcode-select --install`
 
-- An iOS signing identity configured in Xcode
+- An Apple ID account configured in Xcode as a signing identity to sign apps
 
-   For detailed information on obtaining an iOS Signing Identity, see [Maintain your signing identities and certificates](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html) in the iOS Developer Library. To see or set your signing identity in Xcode, open the **Xcode** menu and choose **Preferences**. Select **Accounts** and choose your Apple ID, and then choose the **View Details** button.
+   To see or set your signing identity in Xcode, open the **Xcode** menu and choose **Preferences**. Select **Accounts** and choose your Apple ID, and then choose the **View Details** button. See [Add your Apple ID account](https://help.apple.com/xcode/mac/current/#/devaf282080a) for detailed instructions.
+   
+   For detailed information on signing requirements, see [What is app signing](https://help.apple.com/xcode/mac/current/#/dev3a05256b8). 
 
-- If you are using an iOS device for development, a Provisioning Profile configured in Xcode for your device
+- If you are using an iOS device for development, a provisioning Profile configured in Xcode for your device
 
-   For detailed information on creating provisioning Profiles, see [Create provisioning profiles using Member Center](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingProfiles/MaintainingProfiles.html#//apple_ref/doc/uid/TP40012582-CH30-SW24) in the iOS Developer Library.
+   Xcode provides automatic signing where it creates signing certificates for you as needed. For detailed information about Xcode automatic signing see [automatic signing](https://help.apple.com/xcode/mac/current/#/dev80cc24546).
 
-- [Node.js](https://nodejs.org/)
+   If you want to do manual signing, you need to create a provisioning Profile for your app. For detailed information on creating provisioning Profiles, see [Create a development provisioning profile](https://help.apple.com/developer-account/#/devf2eb157f8). 
 
-   Install the latest Long Term Support (LTS) version 8.x of Node.js on your Mac. Note that other latest release versions may not support some modules used in vcremote and can cause vcremote installation to fail.
+- [Node.js](https://nodejs.org/) version 8.11.3 and npm version 5.6.0
 
-- An updated version of npm
+   Install version 8.11.3 of Node.js on your Mac. If you install the Node.js package, it should come with npm version 5.6.0. Other versions of Node.js and npm may not support some modules used in the remote agent `vcremote`, which can cause `vcremote` installation to fail.
 
-   The version of npm that comes with Node.js may not be recent enough to install vcremote. To update npm, open the Terminal app on your Mac and enter the following command:
+## <a name="Install"></a> Install the remote agent for iOS
 
-   `sudo npm install -g npm@latest`
+When you install the Mobile development with C++ workload, Visual Studio can communicate with [vcremote](https://go.microsoft.com/fwlink/p/?LinkId=534988), a remote agent running on your Mac to transfer files, build and run your iOS app, and send debugging commands.
 
-##  <a name="Install"></a> Install the remote agent for iOS
+Before you install the remote agent, make sure you have satisfied the [Prerequisites](#prerequisites) and completed the installation steps in [Install cross-platform mobile development with C++](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md#install-the-tools).
 
-When you install Visual C++ for Cross-Platform Mobile Development, Visual Studio can communicate with [vcremote](https://go.microsoft.com/fwlink/p/?LinkId=534988), a remote agent running on your Mac to transfer files, build and run your iOS app, and send debugging commands.
-
-Before you install the remote agent, make sure you have satisfied the [Prerequisites](#Prerequisites) and installed [Visual C++ for cross-platform mobile development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md#install-the-tools).
-
-###  <a name="DownloadInstall"></a> To download and install the remote agent
+### <a name="DownloadInstall"></a> To download and install the remote agent
 
 - From the Terminal app on your Mac, enter:
 
@@ -74,26 +74,26 @@ Before you install the remote agent, make sure you have satisfied the [Prerequis
 
    The global installation (**-g**) switch is recommended but not required.
 
-   During the installation, vcremote is installed and developer mode is activated on your Mac. [Homebrew](https://brew.sh/) and two npm packages, vcremote-lib and vcremote-utils, are also installed. When installation completes, it's safe to ignore any warnings about skipped optional dependencies.
+   During the installation, `vcremote` is installed and developer mode is activated on your Mac. [Homebrew](https://brew.sh/) and two npm packages, `vcremote-lib` and `vcremote-utils`, are also installed. When installation completes, it's safe to ignore any warnings about skipped optional dependencies.
 
    > [!NOTE]
-   > To install Homebrew, you must have sudo (administrator) access. If you need to install vcremote without sudo, you can install Homebrew manually in a usr/local location and add its bin folder to your path. For more information, see the [Homebrew documentation](https://github.com/Homebrew/homebrew/wiki/Installation). To manually enable developer mode, enter this command in the Terminal app: `DevToolsSecurity -enable`
+   > To install Homebrew, you must have sudo (administrator) access. If you need to install `vcremote` without sudo, you can install Homebrew manually in a usr/local location and add its bin folder to your path. For more information, see the [Homebrew documentation](https://github.com/Homebrew/homebrew/wiki/Installation). To manually enable developer mode, enter this command in the Terminal app: `DevToolsSecurity -enable`
 
 If you update to a new version of Visual Studio, you must update to the current version of the remote agent as well. To update the remote agent, repeat the steps to download and install the remote agent.
 
-##  <a name="Start"></a> Start the remote agent
+## <a name="Start"></a> Start the remote agent
 
 The remote agent must be running for Visual Studio to build and run your iOS code. Visual Studio must be paired with the remote agent before it can communicate. By default, the remote agent runs in secured connection mode, which requires a PIN to pair with Visual Studio.
 
-###  <a name="RemoteAgentStartServer"></a> To start the remote agent
+### <a name="RemoteAgentStartServer"></a> To start the remote agent
 
 - From the Terminal app on your Mac, enter:
 
    `vcremote`
 
-   This starts the remote agent with a default build directory of ~/vcremote. For additional configuration options, see [Configure the remote agent on the Mac](#ConfigureMac).
+   This command starts the remote agent with a default build directory of `~/vcremote`. For additional configuration options, see [Configure the remote agent on the Mac](#ConfigureMac).
 
-The first time you start the agent, and any time you create a new client certificate, you are provided with the required information to configure the agent in Visual Studio, including the host name, the port, and the PIN.
+The first time you start the agent, and every time you create a new client certificate, you are provided with the required information to configure the agent in Visual Studio, including the host name, the port, and the PIN.
 
 ![Use vcremote to generate a secure PIN](../cross-platform/media/cppmdd_vcremote_generateclientcert.png "CPPMDD_vcremote_generateClientCert")
 
@@ -105,7 +105,7 @@ You can use the remote agent in unsecured mode. In unsecured mode, the remote ag
 
 #### To disable secured connection mode
 
-- To disable secured connection mode in vcremote, enter this command in the Terminal app on your Mac:
+- To disable secured connection mode in `vcremote`, enter this command in the Terminal app on your Mac:
 
    `vcremote --secure false`
 
@@ -119,15 +119,15 @@ Once you have started the remote agent, you can use it from Visual Studio until 
 
 #### To stop the remote agent
 
-- In the Terminal window vcremote is running in, enter **Control**+**C**.
+- In the Terminal window `vcremote` is running in, enter **Control**+**C**.
 
-##  <a name="ConfigureVS"></a> Configure the remote agent in Visual Studio
+## <a name="ConfigureVS"></a> Configure the remote agent in Visual Studio
 
 To connect to the remote agent from Visual Studio, you must specify the remote configuration in the Visual Studio options.
 
-#### To configure the remote agent from Visual Studio
+### To configure the remote agent from Visual Studio
 
-1. If the agent is not already running on your Mac, follow the steps in [Start the remote agent](#Start). Your Mac must be running vcremote for Visual Studio to successfully pair, connect and build your project.
+1. If the agent is not already running on your Mac, follow the steps in [Start the remote agent](#Start). Your Mac must be running `vcremote` for Visual Studio to successfully pair, connect, and build your project.
 
 1. On your Mac, get the host name or IP address of your Mac.
 
@@ -152,17 +152,17 @@ To connect to the remote agent from Visual Studio, you must specify the remote c
 
    If the pairing does not succeed, verify that the remote agent is running by following the steps in [Start the remote agent](#Start). If too much time has passed since the remote agent PIN was generated, follow the steps in [Generate a new security PIN](#GeneratePIN) on the Mac and then try again. If you are using the host name of your Mac, try using the IP address in the **Host Name** field instead.
 
-1. Update the folder name in the **Remote Root** field to specify the folder used by the remote agent in your home (*~*) directory on the Mac. By default, the remote agent uses /Users/`username`/vcremote as the remote root.
+1. Update the folder name in the **Remote Root** field to specify the folder used by the remote agent in your home (*~*) directory on the Mac. By default, the remote agent uses `/Users/<username>/vcremote` as the remote root.
 
 1. Choose **OK** to save the remote pairing connection settings.
 
 Visual Studio uses the same information to connect to the remote agent on your Mac each time you use it. You do not need to pair Visual Studio with the remote agent again unless you generate a new security certificate on your Mac, or its hostname or IP address changes.
 
-##  <a name="GeneratePIN"></a> Generate a new security PIN
+## <a name="GeneratePIN"></a> Generate a new security PIN
 
 When you start the remote agent the first time, the generated PIN is valid for a limited amount of time—by default, 10 minutes. If you don't pair Visual Studio to the remote agent before the time expires, you will need to generate a new PIN.
 
-#### To generate a new PIN
+### To generate a new PIN
 
 1. Stop the agent, or open a second Terminal app window on your Mac and use that to enter the command.
 
@@ -172,13 +172,13 @@ When you start the remote agent the first time, the generated PIN is valid for a
 
    The remote agent generates a new temporary PIN. To pair Visual Studio by using the new PIN, repeat the steps in [Configure the remote agent in Visual Studio](#ConfigureVS).
 
-##  <a name="GenerateCert"></a> Generate a new server certificate
+## <a name="GenerateCert"></a> Generate a new server certificate
 
 For security purposes, the server certificates that pair Visual Studio with the remote agent are tied to the IP address or host name of your Mac. If these values change, you must generate a new server certificate, and then reconfigure Visual Studio with the new values.
 
-#### To generate a new server certificate
+### To generate a new server certificate
 
-1. Stop the vcremote agent.
+1. Stop the `vcremote` agent.
 
 1. Enter this command in the Terminal app:
 
@@ -190,21 +190,21 @@ For security purposes, the server certificates that pair Visual Studio with the 
 
    `vcremote generateClientCert`
 
-   This generates a new temporary PIN.
+   This command generates a new temporary PIN.
 
 1. To pair Visual Studio by using the new PIN, repeat the steps in [Configure the remote agent in Visual Studio](#ConfigureVS).
 
-##  <a name="ConfigureMac"></a> Configure the remote agent on the Mac
+## <a name="ConfigureMac"></a> Configure the remote agent on the Mac
 
-You can configure the remote agent using various command line options. For example, you can specify the port to listen for build requests and specify the maximum number of builds to maintain on the file system. By default, the limit is 10 builds. The remote agent will remove builds that exceed the maximum on shutdown.
+You can configure the remote agent using various command-line options. For example, you can specify the port to listen for build requests and specify the maximum number of builds to maintain on the file system. By default, the limit is 10 builds. The remote agent will remove builds that exceed the maximum on shutdown.
 
-#### To configure the remote agent
+### To configure the remote agent
 
 - To see a complete list of remote agent commands, in the Terminal app, enter:
 
    `vcremote --help`
 
-- To disable secure mode and enable simple HTTP based connections, enter:
+- To disable secure mode and enable simple HTTP-based connections, enter:
 
    `vcremote --secure false`
 
@@ -214,7 +214,7 @@ You can configure the remote agent using various command line options. For examp
 
    `vcremote --serverDir directory_path`
 
-   where *directory_path* is the location on your Mac to place log files, builds, and server certificates. By default, this location is */Users/\<username>/vcremote*. Builds are organized by build number in this location.
+   where *directory_path* is the location on your Mac to place log files, builds, and server certificates. By default, this location is `/Users/<username>/vcremote`. Builds are organized by build number in this location.
 
 - To use a background process to capture `stdout` and `stderr` to a file named server.log, enter:
 
@@ -228,6 +228,50 @@ You can configure the remote agent using various command line options. For examp
 
    where *config_file_path* is the path to a configuration file in JSON format. The startup options and their values must not include dashes.
 
+## Troubleshoot the remote agent
+
+### Debugging on an iOS device
+
+If debugging on an iOS device does not work, there could be issues with the tool [ideviceinstaller](https://github.com/libimobiledevice/ideviceinstaller), which is used to communicate with an iOS device. This tool is typically installed from Homebrew during the installation of `vcremote`. Follow the steps below as a workaround.
+
+Open the Terminal app and update `ideviceinstaller` and its dependencies by running the following commands in order:
+
+1. Ensure Homebrew is updated
+
+   `brew update`
+
+1. Uninstall `libimobiledevice` and `usbmuxd`
+
+   `brew uninstall --ignore-dependencies libimobiledevice`
+
+   `brew uninstall --ignore-dependencies usbmuxd`
+
+1. Install the latest version of `libimobiledevice` and `usbmuxd`
+
+   `brew install --HEAD usbmuxd`
+
+   `brew unlink usbmuxd`
+
+   `brew link usbmuxd`
+
+   `brew install --HEAD libimobiledevice`
+
+1. Uninstall and reinstall `ideviceinstaller`
+
+   `brew uninstall ideviceinstaller`
+
+   `brew install ideviceinstaller`
+
+Verify that `ideviceinstaller` can communicate with the device by trying to list the apps installed on the device:
+
+`ideviceinstaller -l`
+
+If `ideviceinstaller` errors that it cannot access the folder `/var/db/lockdown`, change the privilege on the folder with:
+
+`sudo chmod 777 /var/db/lockdown`
+    
+Then verify again if `ideviceinstaller` can communicate with the device.
+
 ## See also
 
-- [Install Visual C++ for cross-platform mobile development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)
+- [Install cross-platform mobile development with C++](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)

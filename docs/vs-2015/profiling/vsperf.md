@@ -21,7 +21,7 @@ Use the **VsPerf** command line tool to:
   
    For more information about your profiling options, see [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
   
-##  <a name="BKMK_In_this_topic"></a> In this topic  
+## <a name="BKMK_In_this_topic"></a> In this topic  
  This topic describes the options that you can use with the `vsperf.exe` command line tool. The topic contains the following sections:  
   
  [Windows Store apps only](#BKMK_windows_store_apps_only)  
@@ -30,7 +30,7 @@ Use the **VsPerf** command line tool to:
   
  [All applications](#BKMK_All_applications)  
   
-##  <a name="BKMK_windows_store_apps_only"></a> Windows Store apps only  
+## <a name="BKMK_windows_store_apps_only"></a> Windows Store apps only  
  These options apply only to Windows Store apps.  
   
 |||  
@@ -41,7 +41,7 @@ Use the **VsPerf** command line tool to:
 |**/noclr**|Optional. Do not collect CLR data.<br /><br /> Use only with /package or /attach.<br /><br /> Optimization, no managed symbols will resolve.|  
 |**/listapps**|List installed app Names and PackageFullNames.|  
   
-##  <a name="BKMK_Windows_8_classic_applications_and_Windows_Server_2012_applications_only"></a> Windows 8 desktop applications and Windows Server 2012 applications only  
+## <a name="BKMK_Windows_8_classic_applications_and_Windows_Server_2012_applications_only"></a> Windows 8 desktop applications and Windows Server 2012 applications only  
  These options do not work on Windows Store apps.  
   
 |||  
@@ -50,7 +50,7 @@ Use the **VsPerf** command line tool to:
 |**/args:{ExecutableArguments}**|Specifies command line arguments to pass the **/launch** target.|  
 |**/console**|Runs the **/launch** target in a new command window.|  
   
-##  <a name="BKMK_All_applications"></a> All applications  
+## <a name="BKMK_All_applications"></a> All applications  
  These option apply to any Windows 8 or Windows Server 2012 application.  
   
 |||  

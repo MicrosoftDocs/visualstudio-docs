@@ -30,13 +30,13 @@ ms.workload:
 ## Import reusable workflows by using the Import SharePoint 2010 Solution Package template
  If you import a reusable workflow by using the Import SharePoint 2010 Solution Package template, you need to consider the following issues:
 
--   After importing the workflow, you can immediately deploy and run it in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by choosing the **F5** key. However, if you change anything in the workflow in the imported solution, you may have to manually fix elements in the project before you can deploy and run the workflow.
+- After importing the workflow, you can immediately deploy and run it in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by choosing the **F5** key. However, if you change anything in the workflow in the imported solution, you may have to manually fix elements in the project before you can deploy and run the workflow.
 
--   Because the workflow is declarative, code cannot be added to it. To convert the workflow into a code workflow, you must import it into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by using the Import Reusable SharePoint 2010 Workflow template.
+- Because the workflow is declarative, code cannot be added to it. To convert the workflow into a code workflow, you must import it into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by using the Import Reusable SharePoint 2010 Workflow template.
 
--   While you can edit the workflow designer (.xoml) file in Design view, it is recommended that you edit it in Source view, because the workflow designer displays false errors.
+- While you can edit the workflow designer (.xoml) file in Design view, it is recommended that you edit it in Source view, because the workflow designer displays false errors.
 
--   Debugging in the workflow does not work for declarative content. Breakpoints set in the [!INCLUDE[wfd2](../sharepoint/includes/wfd2-md.md)] are not hit.
+- Debugging in the workflow does not work for declarative content. Breakpoints set in the [!INCLUDE[wfd2](../sharepoint/includes/wfd2-md.md)] are not hit.
 
 ## Import globally reusable workflow solutions
  Globally reusable workflows cannot be imported by using the Import Reusable SharePoint 2010 Workflow template. To import a globally reusable workflow, you have to convert it into a non-globally reusable workflow or you have to use the Import SharePoint 2010 Solution Package template.

@@ -27,7 +27,7 @@ manager: jillfra
 # Debugging Preparation: Windows Forms Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The Windows Forms project template creates a Windows Forms application. Debugging this type of application in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] is straightforward. For more information, see [Creating a Windows Application Project](http://msdn.microsoft.com/b2f93fed-c635-4705-8d0e-cf079a264efa).  
+The Windows Forms project template creates a Windows Forms application. Debugging this type of application in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] is straightforward. For more information, see [Creating a Windows Application Project](https://msdn.microsoft.com/b2f93fed-c635-4705-8d0e-cf079a264efa).  
   
  When you create a Windows Forms project with the project template, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] automatically creates required settings for the Debug and Release configurations. If necessary, you can change these settings. These settings can be changed in the **\<project name> Property Pages** dialog box (**My Project** in Visual Basic).  
   
@@ -57,7 +57,7 @@ The Windows Forms project template creates a Windows Forms application. Debuggin
   
    3. Focus and Validation Events.  
   
-      For more information, see [Creating Event Handlers in Windows Forms](http://msdn.microsoft.com/library/6514e530-c6b8-489c-a8d2-eda7b7072701).  
+      For more information, see [Creating Event Handlers in Windows Forms](https://msdn.microsoft.com/library/6514e530-c6b8-489c-a8d2-eda7b7072701).  
   
 3. On the **Debug** menu, click **Start**.  
   
@@ -70,4 +70,4 @@ The Windows Forms project template creates a Windows Forms application. Debuggin
  [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)   
  [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)   
  [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
- [Windows Forms](http://msdn.microsoft.com/library/627df1e9-b254-41af-bbac-9a4f02810c54)
+ [Windows Forms](https://msdn.microsoft.com/library/627df1e9-b254-41af-bbac-9a4f02810c54)

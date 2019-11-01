@@ -60,7 +60,7 @@ Specifies a folder that will be added to the project.
   
  You can use any of the following methods to organize project items into folders in a template:  
   
--   Include the folders in the template .zip file, and add them to the project in the .vstemplate file by specifying the path to the file in the `ProjectItem` elements, with no `Folder` elements. This is the recommended method. For example:  
+- Include the folders in the template .zip file, and add them to the project in the .vstemplate file by specifying the path to the file in the `ProjectItem` elements, with no `Folder` elements. This is the recommended method. For example:  
   
      `...`  
   
@@ -70,7 +70,7 @@ Specifies a folder that will be added to the project.
   
      `...`  
   
--   Include the folders in the template .zip file, and add them to the project in the .vstemplate file with `Folder` elements. For example:  
+- Include the folders in the template .zip file, and add them to the project in the .vstemplate file with `Folder` elements. For example:  
   
      `...`  
   
@@ -84,7 +84,7 @@ Specifies a folder that will be added to the project.
   
      `...`  
   
--   Do not include folders in the template .zip file, but add folders using the `TargetFileName` attribute of the `ProjectItem` element. For example:  
+- Do not include folders in the template .zip file, but add folders using the `TargetFileName` attribute of the `ProjectItem` element. For example:  
   
      `...`  
   

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1402"
 ms.assetid: 2724c1f9-d5d3-4704-b124-21c4d398e5df
 caps.latest.revision: 19
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1402: Avoid overloads in COM visible interfaces
@@ -68,5 +68,5 @@ void SomeMethod_3(int valueOne, int valueTwo);
  [CA1017: Mark assemblies with ComVisibleAttribute](../code-quality/ca1017-mark-assemblies-with-comvisibleattribute.md)
 
 ## See Also
- [Interoperating with Unmanaged Code](http://msdn.microsoft.com/library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)
- [Long Data Type](http://msdn.microsoft.com/library/b4770c34-1804-4f8c-b512-c10b0893e516)
+ [Interoperating with Unmanaged Code](https://msdn.microsoft.com/library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)
+ [Long Data Type](https://msdn.microsoft.com/library/b4770c34-1804-4f8c-b512-c10b0893e516)

@@ -2,7 +2,6 @@
 title: "JS_NATIVE_FRAME Structure | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -44,5 +43,5 @@ typedef struct {
 ## Remarks  
  The `JS_NATIVE_FRAME` struct is used by `IJsStackFrameEnumerator`.  
   
-## See Also  
+## See also  
  [Active Script Debugger Constants, Enumerations, and Structures](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "PropertyNamesShouldNotMatchGetMethods"
 ms.assetid: 45a0e853-1f06-4688-af1b-cc634409e295
 caps.latest.revision: 19
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1721: Property names should not match get methods
@@ -41,7 +41,7 @@ manager: "wpickett"
  Do not suppress a warning from this rule.
 
 > [!NOTE]
->  This warning may be excluded if the Get method is caused by implementing IExtenderProvider interface.
+> This warning may be excluded if the Get method is caused by implementing IExtenderProvider interface.
 
 ## Example
  The following example contains a method and property that violate this rule.

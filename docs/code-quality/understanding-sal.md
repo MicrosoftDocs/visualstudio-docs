@@ -5,13 +5,13 @@ ms.topic: "conceptual"
 ms.assetid: a94d6907-55f2-4874-9571-51d52d6edcfd
 author: mikeblome
 ms.author: mblome
-manager: wpickett
+manager: markl
 ms.workload:
   - "multiple"
 ---
 # Understanding SAL
 
-The Microsoft source-code annotation language (SAL) provides a set of annotations that you can use to describe how a function uses its parameters, the assumptions that it makes about them, and the guarantees that it makes when it finishes. The annotations are defined in the header file `<sal.h>`. Visual Studio code analysis for C++ uses SAL annotations to modify its analysis of functions. For more information about SAL 2.0 for Windows driver development, see [SAL 2.0 Annotations for Windows Drivers](http://go.microsoft.com/fwlink/?LinkId=250979).
+The Microsoft source-code annotation language (SAL) provides a set of annotations that you can use to describe how a function uses its parameters, the assumptions that it makes about them, and the guarantees that it makes when it finishes. The annotations are defined in the header file `<sal.h>`. Visual Studio code analysis for C++ uses SAL annotations to modify its analysis of functions. For more information about SAL 2.0 for Windows driver development, see [SAL 2.0 Annotations for Windows Drivers](/windows-hardware/drivers/devtest/sal-2-annotations-for-windows-drivers).
 
 Natively, C and C++ provide only limited ways for developers to consistently express intent and invariance. By using SAL annotations, you can describe your functions in greater detail so that developers who are consuming them can better understand how to use them.
 
@@ -74,7 +74,7 @@ wchar_t * wmemcpy(
 This implementation contains a common off-by-one error. Fortunately, the code author included the SAL buffer size annotation—a code analysis tool could catch the bug by analyzing this function alone.
 
 ### SAL Basics
- SAL defines four basic kinds of parameters, which are categorized by usage pattern.
+SAL defines four basic kinds of parameters, which are categorized by usage pattern.
 
 |Category|Parameter Annotation|Description|
 |--------------|--------------------------|-----------------|
@@ -83,9 +83,9 @@ This implementation contains a common off-by-one error. Fortunately, the code au
 |**Output to caller**|`_Out_`|The caller only provides space for the called function to write to. The called function writes data into that space.|
 |**Output of pointer to caller**|`_Outptr_`|Like **Output to caller**. The value that's returned by the called function is a pointer.|
 
- These four basic annotations can be made more explicit in various ways. By default, annotated pointer parameters are assumed to be required—they must be non-NULL for the function to succeed. The most commonly used variation of the basic annotations indicates that a pointer parameter is optional—if it's NULL, the function can still succeed in doing its work.
+These four basic annotations can be made more explicit in various ways. By default, annotated pointer parameters are assumed to be required—they must be non-NULL for the function to succeed. The most commonly used variation of the basic annotations indicates that a pointer parameter is optional—if it's NULL, the function can still succeed in doing its work.
 
- This table shows how to distinguish between required and optional parameters:
+This table shows how to distinguish between required and optional parameters:
 
 ||Parameters are required|Parameters are optional|
 |-|-----------------------------|-----------------------------|
@@ -94,19 +94,19 @@ This implementation contains a common off-by-one error. Fortunately, the code au
 |**Output to caller**|`_Out_`|`_Out_opt_`|
 |**Output of pointer to caller**|`_Outptr_`|`_Outptr_opt_`|
 
- These annotations help identify possible uninitialized values and invalid null pointer uses in a formal and accurate manner. Passing NULL to a required parameter might cause a crash, or it might cause a "failed" error code to be returned. Either way, the function cannot succeed in doing its job.
+These annotations help identify possible uninitialized values and invalid null pointer uses in a formal and accurate manner. Passing NULL to a required parameter might cause a crash, or it might cause a "failed" error code to be returned. Either way, the function cannot succeed in doing its job.
 
 ## SAL Examples
- This section shows code examples for the basic SAL annotations.
+This section shows code examples for the basic SAL annotations.
 
 ### Using the Visual Studio Code Analysis Tool to Find Defects
- In the examples, the Visual Studio Code Analysis tool is used together with SAL annotations to find code defects. Here's how to do that.
+In the examples, the Visual Studio Code Analysis tool is used together with SAL annotations to find code defects. Here's how to do that.
 
 #### To use Visual Studio code analysis tools and SAL
 
-1.  In Visual Studio, open a C++ project that contains SAL annotations.
+1. In Visual Studio, open a C++ project that contains SAL annotations.
 
-2.  On the menu bar, choose **Build**, **Run Code Analysis on Solution**.
+2. On the menu bar, choose **Build**, **Run Code Analysis on Solution**.
 
      Consider the \_In\_ example in this section. If you run code analysis on it, this warning is displayed:
 
@@ -117,15 +117,15 @@ This implementation contains a common off-by-one error. Fortunately, the code au
 
 The `_In_` annotation indicates that:
 
--   The parameter must be valid and will not be modified.
+- The parameter must be valid and will not be modified.
 
--   The function will only read from the single-element buffer.
+- The function will only read from the single-element buffer.
 
--   The caller must provide the buffer and initialize it.
+- The caller must provide the buffer and initialize it.
 
--   `_In_` specifies "read-only". A common mistake is to apply `_In_` to a parameter that should have the `_Inout_` annotation instead.
+- `_In_` specifies "read-only". A common mistake is to apply `_In_` to a parameter that should have the `_Inout_` annotation instead.
 
--   `_In_` is allowed but ignored by the analyzer on non-pointer scalars.
+- `_In_` is allowed but ignored by the analyzer on non-pointer scalars.
 
 ```cpp
 void InCallee(_In_ int *pInt)
@@ -397,9 +397,9 @@ Or you can annotate all parameters to make your intent clear throughout and to m
 
 ## Related Resources
 
-[Code Analysis Team Blog](http://go.microsoft.com/fwlink/p/?LinkId=251197)
+[Code Analysis Team Blog](https://blogs.msdn.microsoft.com/codeanalysis/)
 
-## See Also
+## See also
 
 - [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
 - [Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)

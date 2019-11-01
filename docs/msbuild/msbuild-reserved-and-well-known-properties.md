@@ -24,7 +24,6 @@ ms.workload:
 ## Reserved and well-known properties
  The following table describes the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] predefined properties.
 
-
 | Property | Reserved or well-known | Description |
 |----------------------------------|------------------------| - |
 | `MSBuildBinPath` | Reserved | The absolute path of the folder where the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] binaries that are currently being used are located (for example, *C:\Windows\Microsoft.Net\Framework\\\<versionNumber>*). This property is useful if you have to refer to files in the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] directory.<br /><br /> Do not include the final backslash on this property. |
@@ -51,6 +50,7 @@ ms.workload:
 | `MSBuildThisFileName` | Reserved | The file name portion of `MSBuildThisFileFullPath`, without the file name extension. |
 | `MSBuildToolsPath` | Reserved | The installation path of the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] version that's associated with the value of `MSBuildToolsVersion`.<br /><br /> Do not include the final backslash in the path.<br /><br /> This property cannot be overridden. |
 | `MSBuildToolsVersion` | Reserved | The version of the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] Toolset that is used to build the project.<br /><br /> Note: An [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] Toolset consists of tasks, targets, and tools that are used to build an application. The tools include compilers such as *csc.exe* and *vbc.exe*. For more information, see [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md), and [Standard and custom Toolset configurations](../msbuild/standard-and-custom-toolset-configurations.md). |
+| `MSBuildVersion` | Reserved | The version of [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] used to build the project. <br /><br/> This property can't be overridden, otherwise the error message `MSB4004 - The 'MSBuildVersion' property is reserved, and can not be modified.` is returned. |
 
 ## Names that conflict with MSBuild elements
 

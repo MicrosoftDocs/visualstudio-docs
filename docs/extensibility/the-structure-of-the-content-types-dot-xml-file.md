@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "opc"
   - "vsix"
 ms.assetid: 9c399598-b9fa-4da7-84b5-defbf82e9335
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -18,7 +18,7 @@ ms.workload:
 Contains information about the kinds of content in a VSIX package. Visual Studio uses the [Content_Types].xml file to install the package, but it does not install the file itself.
 
 > [!NOTE]
->  Although this topic applies only to [Content_Type].xml files that are used in VSIX packages, the [Content_Types].xml file type is part of the *Open Packaging Conventions (OPC)* standard. For more information, see [OPC: A New Standard For Packaging Your Data](http://go.microsoft.com/fwlink/?LinkID=148207) on the MSDN Web site.
+> Although this topic applies only to [Content_Type].xml files that are used in VSIX packages, the [Content_Types].xml file type is part of the *Open Packaging Conventions (OPC)* standard. For more information, see [OPC: A New Standard For Packaging Your Data](https://msdn.microsoft.com/magazine/cc163372.aspx) on the MSDN Web site.
 
 ## Attributes and Elements
  The following sections describe the root element and its attributes and child elements.
@@ -93,7 +93,7 @@ Contains information about the kinds of content in a VSIX package. Visual Studio
 </Types>
 ```
 
-## See Also
+## See also
 - [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)
 - [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/library/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)
-- [OPC: A New Standard For Packaging Your Data](http://go.microsoft.com/fwlink/?LinkID=148207)
+- [OPC: A New Standard For Packaging Your Data](https://msdn.microsoft.com/magazine/cc163372.aspx)

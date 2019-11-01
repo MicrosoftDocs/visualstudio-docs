@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "UsedCommands element (VSCT XML schema)"
   - "VSCT XML schema elements, UsedCommands"
 ms.assetid: 5e000ee0-a919-46e9-9277-2a0659f1eb78
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -58,6 +58,6 @@ The UsedCommands element groups UsedCommand elements and other UsedCommands grou
 </UsedCommands>
 ```
 
-## See Also
+## See also
 - [UsedCommand Element](../extensibility/usedcommand-element.md)
 - [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

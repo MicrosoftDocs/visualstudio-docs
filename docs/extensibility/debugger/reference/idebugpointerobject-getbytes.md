@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPointerObject::GetBytes method"
 ms.assetid: e986c188-87fb-4b51-86e9-ee6a0035bdab
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPointerObject::GetBytes
 Gets the value pointed to as a series of consecutive bytes.
@@ -36,22 +39,18 @@ int GetBytes(
 );
 ```
 
-#### Parameters
- `dwStart`
+## Parameters
+`dwStart`\
+[in] An offset, in bytes, from the start of the object pointed to.
 
- [in] An offset, in bytes, from the start of the object pointed to.
+`dwCount`\
+[in] The number of bytes to retrieve.
 
- `dwCount`
+`pBytes`\
+[in, out] An array that is filled in with the value as a series of consecutive bytes, starting at the given offset from the object pointed to.
 
- [in] The number of bytes to retrieve.
-
- `pBytes`
-
- [in, out] An array that is filled in with the value as a series of consecutive bytes, starting at the given offset from the object pointed to.
-
- `pdwBytes`
-
- [out] Returns the number of bytes actually retrieved.
+`pdwBytes`\
+[out] Returns the number of bytes actually retrieved.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.
@@ -59,6 +58,6 @@ int GetBytes(
 ## Remarks
  This method is used if the pointer as represented by this [IDebugPointerObject](../../../extensibility/debugger/reference/idebugpointerobject.md) points to a primitive type or a simple array of primitive types (that is, an array that can be represented by a simple sequence of bytes).
 
-## See Also
+## See also
 - [IDebugPointerObject](../../../extensibility/debugger/reference/idebugpointerobject.md)
 - [SetBytes](../../../extensibility/debugger/reference/idebugpointerobject-setbytes.md)

@@ -17,7 +17,7 @@ manager: jillfra
 # IDiaSymbol::get_noReturn
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-Retrieves a flag that specifies whether the function has been marked as never returning with the [noreturn](http://msdn.microsoft.com/library/9c6517e5-22d7-4051-9974-3d2200ae4d1d) attribute.  
+Retrieves a flag that specifies whether the function has been marked as never returning with the [noreturn](https://msdn.microsoft.com/library/9c6517e5-22d7-4051-9974-3d2200ae4d1d) attribute.  
   
 ## Syntax  
   
@@ -35,7 +35,7 @@ HRESULT get_noReturn(
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.  
   
 > [!NOTE]
->  A return value of `S_FALSE` means the property is not available for the symbol.  
+> A return value of `S_FALSE` means the property is not available for the symbol.  
   
 ## Requirements  
   
@@ -46,4 +46,4 @@ HRESULT get_noReturn(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [noreturn](http://msdn.microsoft.com/library/9c6517e5-22d7-4051-9974-3d2200ae4d1d)
+ [noreturn](https://msdn.microsoft.com/library/9c6517e5-22d7-4051-9974-3d2200ae4d1d)

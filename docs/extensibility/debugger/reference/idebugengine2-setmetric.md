@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEngine2:::SetMetric"
 ms.assetid: dcda4972-c32e-4693-a0e1-25d5c58b9782
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugEngine2::SetMetric
 This method sets a registry value known as a metric.
@@ -32,14 +35,12 @@ int SetMetric(
 );
 ```
 
-#### Parameters
- `pszMetric`
+## Parameters
+`pszMetric`\
+[in] The metric name.
 
- [in] The metric name.
-
- `varValue`
-
- [in] Specifies the metric value.
+`varValue`\
+[in] Specifies the metric value.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -47,6 +48,6 @@ int SetMetric(
 ## Remarks
  A metric is a registry value used to change a debug engine's behavior or to advertise supported functionality. This method can forward the call to the appropriate form of the [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md) function, `SetMetric`.
 
-## See Also
+## See also
 - [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
 - [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)

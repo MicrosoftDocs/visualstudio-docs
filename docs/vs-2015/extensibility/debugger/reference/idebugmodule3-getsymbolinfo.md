@@ -47,7 +47,7 @@ int GetSymbolInfo(
  If the method succeeds, it returns `S_OK`; otherwise, it returns an error code.  
   
 > [!NOTE]
->  The returned string (in the `MODULE_SYMBOL_SEARCH_INFO` structure) could be empty even if `S_OK` is returned. In this case, there was no search information to return.  
+> The returned string (in the `MODULE_SYMBOL_SEARCH_INFO` structure) could be empty even if `S_OK` is returned. In this case, there was no search information to return.  
   
 ## Remarks  
  If the `bstrVerboseSearchInfo` field of the `MODULE_SYMBOL_SEARCH_INFO` structure is not empty, then it contains a list of paths searched and the results of that search. The list is formatted with a path, followed by ellipses ("..."), followed by the result. If there is more than one path result pair, then each pair is separated by a "\r\n" (carriage-return/linefeed) pair. The pattern looks like this:  
@@ -60,7 +60,7 @@ int GetSymbolInfo(
  In this example, this method returns three paths with three different search results. Each line is terminated with a carriage-return/linefeed pair. The example output just prints the search results as a single string.  
   
 > [!NOTE]
->  A status result is everything immediately following the "..." up to the end of the line.  
+> A status result is everything immediately following the "..." up to the end of the line.  
   
 ```cpp#  
 void ShowSymbolSearchResults(IDebugModule3 *pIDebugModule3)  

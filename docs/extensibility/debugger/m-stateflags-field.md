@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "m_stateFlags field, Task class [.NET Framework debug engines]"
 ms.assetid: 82b20efc-08f2-4cd2-91f6-4e01e3da906b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -31,15 +31,15 @@ Stores information about the current state of the <xref:System.Threading.Tasks.T
 
  This member can be any combination of the following values:
 
--   [TASK_STATE_EXECUTED](../../extensibility/debugger/task-state-executed-field.md)
+- [TASK_STATE_EXECUTED](../../extensibility/debugger/task-state-executed-field.md)
 
--   [TASK_STATE_FAULTED](../../extensibility/debugger/task-state-faulted-field.md)
+- [TASK_STATE_FAULTED](../../extensibility/debugger/task-state-faulted-field.md)
 
--   [TASK_STATE_CANCELED](../../extensibility/debugger/task-state-canceled-field.md)
+- [TASK_STATE_CANCELED](../../extensibility/debugger/task-state-canceled-field.md)
 
--   [TASK_STATE_WAITING_ON_CHILDREN](../../extensibility/debugger/task-state-waiting-on-children-field.md)
+- [TASK_STATE_WAITING_ON_CHILDREN](../../extensibility/debugger/task-state-waiting-on-children-field.md)
 
--   [TASK_STATE_RAN_TO_COMPLETION](../../extensibility/debugger/task-state-ran-to-completion-field.md)
+- [TASK_STATE_RAN_TO_COMPLETION](../../extensibility/debugger/task-state-ran-to-completion-field.md)
 
 ## See also
 - [Task class](../../extensibility/debugger/task-class-internal-members.md)

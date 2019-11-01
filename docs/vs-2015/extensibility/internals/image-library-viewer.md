@@ -124,7 +124,7 @@ The Visual Studio Image Library Viewer tool can load and search image manifests,
 |||  
 |-|-|  
 |**Attribute**|**Definition**|  
-|Uri|[Required] A URI that defines where the image can be loaded from. It can be one of the following:<br /><br /> -     A [Pack URI](http://msdn.microsoft.com/library/aa970069\(v=vs.100\).aspx) using the application:/// authority<br /><br /> - An absolute component resource reference<br /><br /> - A path to a file containing a native resource|  
+|Uri|[Required] A URI that defines where the image can be loaded from. It can be one of the following:<br /><br /> -     A [Pack URI](https://msdn.microsoft.com/library/aa970069\(v=vs.100\).aspx) using the application:/// authority<br /><br /> - An absolute component resource reference<br /><br /> - A path to a file containing a native resource|  
 |Background|[Optional] Indicates what on kind of background the source is intended to be used.<br /><br /> It can be one of the following:<br /><br /> - *Light*: The source can be used on a light background.<br /><br /> - *Dark*: The source can be used on a dark background.<br /><br /> - *HighContrast*: The source can be used on any background in High Contrast mode.<br /><br /> - *HighContrastLight*: The source can be used on a light background in High Contrast mode.<br /><br /> -*HighContrastDark*: The source can be used on a dark background in High Contrast mode.<br /><br /> If the **Background** attribute is omitted, the source can be used on any background.<br /><br /> If **Background** is *Light*, *Dark*, *HighContrastLight*, or *HighContrastDark*, the source’s colors are never inverted. If **Background** is omitted or set to *HighContrast*, the inversion of the source’s colors is controlled by the image’s **AllowColorInversion** attribute.|  
   
  A \<Source> element can have exactly one of the following optional subelements:  
@@ -218,9 +218,9 @@ The Visual Studio Image Library Viewer tool can load and search image manifests,
   
 ## Notes  
   
--   By default, the tool will pull in several image manifests present in the Visual Studio install directory. The only one that has publicly consumable monikers is the **Microsoft.VisualStudio.ImageCatalog** manifest. GUID: ae27a6b0-e345-4288-96df-5eaf394ee369 (do **not** override this GUID in a custom manifest) Type: KnownMonikers  
+- By default, the tool will pull in several image manifests present in the Visual Studio install directory. The only one that has publicly consumable monikers is the **Microsoft.VisualStudio.ImageCatalog** manifest. GUID: ae27a6b0-e345-4288-96df-5eaf394ee369 (do **not** override this GUID in a custom manifest) Type: KnownMonikers  
   
--   The tool attempts on launch to load all image manifests it finds, so it might take several seconds for the application to actually appear. It might also be slow or nonresponsive while loading the manifests.  
+- The tool attempts on launch to load all image manifests it finds, so it might take several seconds for the application to actually appear. It might also be slow or nonresponsive while loading the manifests.  
   
 ## Sample Output  
  This tool does not generate any output.

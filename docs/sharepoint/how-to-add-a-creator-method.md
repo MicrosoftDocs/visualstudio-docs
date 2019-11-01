@@ -52,7 +52,7 @@ ms.workload:
 5. Add code to the Creator method that adds data to the data source. The following example adds a contact to the AdventureWorks sample database for SQL Server.
 
    > [!NOTE]
-   >  Replace the value of the `ServerName` field with the name of your server.
+   > Replace the value of the `ServerName` field with the name of your server.
 
     [!code-csharp[SP_BDC#4](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#4)]
     [!code-vb[SP_BDC#4](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#4)]

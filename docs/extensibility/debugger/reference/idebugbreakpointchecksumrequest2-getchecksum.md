@@ -5,11 +5,14 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugBreakpointChecksumRequest2::GetChecksum"
 ms.assetid: ec434882-e5c0-4d76-a58b-22c260d8626e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBreakpointChecksumRequest2::GetChecksum
 Retrieves the document checksum for a breakpoint request given the unique identifier of the checksum algorithm to use.
@@ -30,14 +33,12 @@ public int GetChecksum(
 );
 ```
 
-#### Parameters
-`guidAlgorithm`
+## Parameters
+`guidAlgorithm`\
+[in] Unique identifier of the checksum algorithm.
 
- [in] Unique identifier of the checksum algorithm.
-
-`pChecksumData`
-
- [out] Document checksum for the breakpoint request.
+`pChecksumData`\
+[out] Document checksum for the breakpoint request.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -97,5 +98,5 @@ bool CDebugProgram::DoChecksumsMatch(CDebugPendingBreakpoint *pPending, CDebugCo
 }
 ```
 
-## See Also
+## See also
 - [IDebugBreakpointChecksumRequest2](../../../extensibility/debugger/reference/idebugbreakpointchecksumrequest2.md)

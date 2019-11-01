@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "OPTNAMECHANGEPFN callback function"
 ms.assetid: 147303f3-c7f1-438a-81b7-db891ea3d076
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

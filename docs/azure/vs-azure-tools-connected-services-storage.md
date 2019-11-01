@@ -41,9 +41,9 @@ After completion, the **Add Connected Services** dialog automatically displays d
 
 1. In the **Azure Storage** dialog, select an existing storage account, and select **Add**.
 
-	If you need to create a storage account, go to the next step. Otherwise, skip to step 6.
+    If you need to create a storage account, go to the next step. Otherwise, skip to step 6.
 
-	![Add existing storage account to project](./media/vs-azure-tools-connected-services-storage/select-azure-storage-account.png)
+    ![Add existing storage account to project](./media/vs-azure-tools-connected-services-storage/select-azure-storage-account.png)
 
 1. To create a storage account:
 
@@ -61,14 +61,14 @@ After completion, the **Add Connected Services** dialog automatically displays d
 
 When you finish the dialog, Visual Studio adds references and modifies certain configuration files. The specific changes depend on the project type:
 
-- ASP.NET project - [What happened – ASP.NET Projects](http://go.microsoft.com/fwlink/p/?LinkId=513126)
-- ASP.NET Core project - [What happened – ASP.NET 5 Projects](http://go.microsoft.com/fwlink/p/?LinkId=513124)
-- Cloud service project (web roles and worker roles) - [What happened – Cloud Service projects](http://go.microsoft.com/fwlink/p/?LinkId=516965)
+- ASP.NET project - [What happened – ASP.NET Projects](/azure/visual-studio/vs-storage-aspnet-getting-started-blobs)
+- ASP.NET Core project - [What happened – ASP.NET 5 Projects](/azure/visual-studio/vs-storage-aspnet5-getting-started-blobs)
+- Cloud service project (web roles and worker roles) - [What happened – Cloud Service projects](/azure/visual-studio/vs-storage-cloud-services-getting-started-blobs)
 - WebJob project - [What happened - WebJob projects](/azure/visual-studio/vs-storage-webjobs-what-happened)
 
 ## See also
 
 - [MSDN Forum: Azure Storage](https://social.msdn.microsoft.com/forums/azure/home?forum=windowsazuredata)
-- [Microsoft Azure Storage Team Blog](http://blogs.msdn.com/b/windowsazurestorage/)
-- [Azure Storage documentation](https://docs.microsoft.com/azure/storage/)
+- [Microsoft Azure Storage Team Blog](https://blogs.msdn.microsoft.com/windowsazurestorage/)
+- [Azure Storage documentation](/azure/storage/)
 - [Connected services (Visual Studio for Mac)](/visualstudio/mac/connected-services)

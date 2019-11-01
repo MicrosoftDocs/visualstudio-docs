@@ -21,7 +21,6 @@ manager: jillfra
 # FindInList Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In a specified list, finds an item that has the matching itemspec.  
   
 ## Parameters  

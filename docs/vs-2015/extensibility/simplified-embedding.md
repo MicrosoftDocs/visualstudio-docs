@@ -20,7 +20,7 @@ Simplified embedding is enabled in an editor when its document view object is pa
 Editor with simplified embedding  
   
 > [!NOTE]
->  Of the objects in this illustration, only the `CYourEditorFactory` object is required to create a standard file-based editor. If you are creating a custom editor, you are not required to implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2>, because your editor will likely have its own private persistence mechanism. For non-custom editors, however, you must do so.  
+> Of the objects in this illustration, only the `CYourEditorFactory` object is required to create a standard file-based editor. If you are creating a custom editor, you are not required to implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2>, because your editor will likely have its own private persistence mechanism. For non-custom editors, however, you must do so.  
   
  All interfaces implemented to create an editor with simplified embedding are contained in the `CYourEditorDocument` object. However, to support multiple views of document data, split the interfaces onto separate data and view objects as indicated in the following table.  
   

@@ -2,7 +2,6 @@
 title: "IDebugDocumentText::GetDocumentAttributes | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -44,6 +43,6 @@ HRESULT GetDocumentAttributes(
 ## Remarks  
  This method returns the attributes of the document.  
   
-## See Also  
+## See also  
  [IDebugDocumentText Interface](../../winscript/reference/idebugdocumenttext-interface.md)   
  [TEXT_DOC_ATTR Constants](../../winscript/reference/text-doc-attr-constants.md)

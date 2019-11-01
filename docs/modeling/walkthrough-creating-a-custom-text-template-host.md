@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "walkthroughs [text templates], custom host"
   - "text templates, custom host walkthrough"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -18,24 +18,24 @@ dev_langs:
 
 A *text template host* provides an environment that enables the *text template transformation engine* to run. The host is responsible for managing the engine's interaction with the file system. The engine or *directive processor* that needs a file or an assembly can request a resource from the host. The host can then search directories and the global assembly cache to locate the requested resource. For more information, see [The Text Template Transformation Process](../modeling/the-text-template-transformation-process.md).
 
-You can write a custom host if you want to use the *text template transformation* functionality from outside Visual Studio or if you want to integrate that functionality into custom tools. To create a custom host, you must create a class that inherits from <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>. For the documentation of the individual methods, see <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>.
+You can write a custom host if you want to use the *text template transformation* functionality from outside Visual Studio or if you want to integrate that functionality into custom tools. To create a custom host, you must create a class that inherits from [ITextTemplatingEngineHost](/previous-versions/visualstudio/visual-studio-2012/bb126505(v=vs.110)). For the documentation of the individual methods, see [ITextTemplatingEngineHost](/previous-versions/visualstudio/visual-studio-2012/bb126505(v=vs.110)).
 
 > [!WARNING]
 > If you are writing a Visual Studio extension or package, consider using the text templating service instead of creating your own host. For more information, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md).
 
 This walkthrough illustrates the following tasks:
 
--   Creating a custom text template host.
+- Creating a custom text template host.
 
--   Testing the custom host.
+- Testing the custom host.
 
 ## Prerequisites
 
 To complete this walkthrough, you must have the following:
 
--   Visual Studio 2010 or later
+- Visual Studio 2010 or later
 
--   Visual Studio SDK
+- Visual Studio SDK
 
 ## Create a Custom Text Template Host
 
@@ -45,9 +45,9 @@ In this walkthrough, you create a custom host in an executable application that 
 
 2. Add references to the following assemblies:
 
-   -   **Microsoft.VisualStudio.TextTemplating.\*.0**
+   - **Microsoft.VisualStudio.TextTemplating.\*.0**
 
-   -   **Microsoft.VisualStudio.TextTemplating.Interfaces.10.0 and later versions**
+   - **Microsoft.VisualStudio.TextTemplating.Interfaces.10.0 and later versions**
 
 3. Replace the code in the Program.cs or Module1.vb file with the following code:
 
@@ -720,11 +720,11 @@ To test the custom host, you write a text template, then you run the custom host
 
 ### To create a text template to test the custom host
 
-1.  Create a text file, and name it `TestTemplate.tt`.
+1. Create a text file, and name it `TestTemplate.tt`.
 
      You can use any text editor (for example, Notepad) to create the file.
 
-2.  Add the following to the file:
+2. Add the following to the file:
 
     > [!NOTE]
     > The programming language of the text template does not have to match that of the custom host.
@@ -767,13 +767,13 @@ To test the custom host, you write a text template, then you run the custom host
 
     ```
 
-3.  Save and close the file.
+3. Save and close the file.
 
 ### To test the custom host
 
-1.  Open the Command Prompt window.
+1. Open the Command Prompt window.
 
-2.  Type the path of the executable file for the custom host, but do not press ENTER yet.
+2. Type the path of the executable file for the custom host, but do not press ENTER yet.
 
      For example, type:
 
@@ -782,9 +782,9 @@ To test the custom host, you write a text template, then you run the custom host
     > [!NOTE]
     > Instead of typing the address, you can browse to the file CustomHost.exe in **Windows Explorer** and then drag the file into the Command Prompt window.
 
-3.  Type a space.
+3. Type a space.
 
-4.  Type the path of the text template file, and then press ENTER.
+4. Type the path of the text template file, and then press ENTER.
 
      For example, type:
 
@@ -795,11 +795,11 @@ To test the custom host, you write a text template, then you run the custom host
 
      The custom host application runs and completes the text template transformation process.
 
-5.  In **Windows Explorer**, browse to the folder that contains the file TestTemplate.tt.
+5. In **Windows Explorer**, browse to the folder that contains the file TestTemplate.tt.
 
      That folder also contains the file TestTemplate1.txt.
 
-6.  Open this file to see the results of the text template transformation.
+6. Open this file to see the results of the text template transformation.
 
      The generated text output appears and looks like this:
 
@@ -817,4 +817,4 @@ In this walkthrough, you created a text template transformation host that suppor
 
 ## See also
 
-- <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>
+- [ITextTemplatingEngineHost](/previous-versions/visualstudio/visual-studio-2012/bb126505(v=vs.110))

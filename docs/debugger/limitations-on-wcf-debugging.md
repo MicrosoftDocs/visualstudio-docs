@@ -31,13 +31,13 @@ There are three ways that you can begin debugging a WCF service:
 ## Limitations on Stepping Into a Service
  To step into a service from a client applications that you are debugging, the following conditions must be met:
 
--   The client must call the service by using a synchronous client object.
+- The client must call the service by using a synchronous client object.
 
--   The contract operation cannot be one-way.
+- The contract operation cannot be one-way.
 
--   If the server is asynchronous, you cannot view the full call stack while you are executing code inside the service.
+- If the server is asynchronous, you cannot view the full call stack while you are executing code inside the service.
 
--   Debugging must be enabled with the following code in the app.config or Web.config file:
+- Debugging must be enabled with the following code in the app.config or Web.config file:
 
     ```xml
     <system.web>
@@ -73,6 +73,6 @@ There are three ways that you can begin debugging a WCF service:
 ## Self-Hosting
  To enable debugging of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 or 3.5 applications, [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 or 3.5 must be installed before [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] is installed. If [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] is installed before [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 or 3.5, an error occurs when you try to debug a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 or 3.5 application. The error message is, "Unable to Automatically Step Into the Server." To fix this problem, use the Windows **Control Panel** > **Programs and Features** to repair your [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] installation.
 
-## See Also
+## See also
 - [Debugging WCF Services](../debugger/debugging-wcf-services.md)
 - [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md)

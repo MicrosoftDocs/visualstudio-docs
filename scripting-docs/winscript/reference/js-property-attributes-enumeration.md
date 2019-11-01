@@ -2,7 +2,6 @@
 title: "JS_PROPERTY_ATTRIBUTES Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -40,5 +39,5 @@ enum JS_PROPERTY_ATTRIBUTES{   JS_PROPERTY_ATTRIBUTE_NONE = 0,   JS_PROPERTY_HAS
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [Windows Script Interfaces Reference](../../winscript/reference/windows-script-interfaces-reference.md)

@@ -19,18 +19,18 @@ You can use editor extensions to add language service features such as outlining
  To get started writing editor extensions, use the editor project templates that are installed as part of the Visual Studio SDK. The Visual Studio SDK is a downloadable set of tools that make it easier to develop Visual Studio extensions, either by using VSPackages or by using the Managed Extensibility Framework (MEF).  
   
 > [!NOTE]
->  For more information about the Visual Studio SDK, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
+> For more information about the Visual Studio SDK, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   
  We recommend that you learn about the following concepts and technologies before you write your own editor extensions.  
   
 ## The Windows Presentation Foundation (WPF) and Editor Extensions  
- The Visual Studio editor user interface (UI) is implemented by using the Windows Presentation Foundation (WPF). The WPF provides a rich visual experience and a consistent programming model that separates the visual aspects of the code from the business logic. You can use many WPF elements and features when you create editor extensions. For more information, see [Windows Presentation Foundation](http://msdn.microsoft.com/library/f667bd15-2134-41e9-b4af-5ced6fafab5d).  
+ The Visual Studio editor user interface (UI) is implemented by using the Windows Presentation Foundation (WPF). The WPF provides a rich visual experience and a consistent programming model that separates the visual aspects of the code from the business logic. You can use many WPF elements and features when you create editor extensions. For more information, see [Windows Presentation Foundation](https://msdn.microsoft.com/library/f667bd15-2134-41e9-b4af-5ced6fafab5d).  
   
 ## The Managed Extensibility Framework (MEF) and Editor Extensions  
  The Visual Studio editor uses the Managed Extensibility Framework (MEF) to manage its components and extensions. The MEF also lets developers more easily create extensions for a host application like Visual Studio. In this framework, you define an extension according to a MEF contract and export it as a MEF component part. The host application manages the component parts by finding them, registering them, and making sure that they are applied to the correct context.  
   
 > [!NOTE]
->  For more information about the MEF in the editor, see [Managed Extensibility Framework in the Editor](../extensibility/managed-extensibility-framework-in-the-editor.md).  
+> For more information about the MEF in the editor, see [Managed Extensibility Framework in the Editor](../extensibility/managed-extensibility-framework-in-the-editor.md).  
   
 ## Visual Studio Editor Extension Points and Extensions  
  Editor extension points are MEF component parts that you can customize and extend. In some cases you extend the extension point by implementing an interface and exporting it together with the correct metadata. In other cases you just declare an extension and export it as a particular type.  
@@ -55,7 +55,7 @@ You can use editor extensions to add language service features such as outlining
  When you install an extension on a computer, include the binaries and the manifest in a subfolder of folder that is known to Visual Studio.  
   
 > [!WARNING]
->  You do not have to worry about the details of manifests and deployment locations if you use one of the editor extensibility templates that are included in Visual Studio. The templates contain everything that is required to register and deploy an extension.  
+> You do not have to worry about the details of manifests and deployment locations if you use one of the editor extensibility templates that are included in Visual Studio. The templates contain everything that is required to register and deploy an extension.  
   
 ## Running Extensions in the Experimental Instance  
  You can insulate your working version of Visual Studio while you are developing an extension by deploying it in the following experimental folder (on Windows Vista and Windows 7):  
@@ -78,9 +78,9 @@ You can use editor extensions to add language service features such as outlining
   
  You can also create editor MEF components from a Visual Studio Package extension. See the following walkthroughs for details:  
   
--   [Walkthrough: Using a Shell Command with an Editor Extension](../extensibility/walkthrough-using-a-shell-command-with-an-editor-extension.md)  
+- [Walkthrough: Using a Shell Command with an Editor Extension](../extensibility/walkthrough-using-a-shell-command-with-an-editor-extension.md)  
   
--   [Walkthrough: Using a Shortcut Key with an Editor Extension](../extensibility/walkthrough-using-a-shortcut-key-with-an-editor-extension.md)  
+- [Walkthrough: Using a Shortcut Key with an Editor Extension](../extensibility/walkthrough-using-a-shortcut-key-with-an-editor-extension.md)  
   
 ## See Also  
  [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md)

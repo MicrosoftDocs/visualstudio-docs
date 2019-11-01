@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IPropertyProxyProvider interface"
 ms.assetid: 52e9f7fc-6fe0-4d23-890b-5673dca8c3cb
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -45,7 +45,7 @@ IPropertyProxyProvider : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [GetPropertyProxy](../../../extensibility/debugger/reference/ieevisualizerservice-getpropertyproxy.md)
 - [Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)

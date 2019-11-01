@@ -23,7 +23,6 @@ manager: jillfra
 # ItemGroup Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Contains a set of user-defined [Item](../msbuild/item-element-msbuild.md) elements. Every item used in a [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project must be specified as a child of an `ItemGroup` element.  
   
  \<Project>  

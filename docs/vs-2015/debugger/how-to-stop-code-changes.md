@@ -27,7 +27,7 @@ manager: jillfra
 While Edit and Continue is in the process of applying code changes, you can stop the operation.  
   
 > [!CAUTION]
->  Stopping code changes in managed code can produce unexpected results. Applying changes to managed code is normally a quick process, so there is seldom a need to stop code changes in managed code.  
+> Stopping code changes in managed code can produce unexpected results. Applying changes to managed code is normally a quick process, so there is seldom a need to stop code changes in managed code.  
   
 ### To stop applying code changes  
   
@@ -39,4 +39,4 @@ While Edit and Continue is in the process of applying code changes, you can stop
   
 ## See Also  
  [Edit and Continue](../debugger/edit-and-continue.md)   
- [Edit and Continue, Debugging, Options Dialog Box](http://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)
+ [Edit and Continue, Debugging, Options Dialog Box](https://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)

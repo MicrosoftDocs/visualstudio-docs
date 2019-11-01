@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "load tests, adding browsers"
   - "load tests, removing browsers"
 ms.assetid: 47f981d9-3038-45cc-a486-82b9daf9a9a1
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Edit the test mix to specify which web browsers types in a load test scenario
@@ -28,52 +28,52 @@ After you have specified a browser mix, you can later add and remove web browser
 
 ### To add new browsers to a scenario
 
-1.  While in the process of specifying the browser mix for a scenario choose **Add**.
+1. While in the process of specifying the browser mix for a scenario choose **Add**.
 
      A new browser entry is added to the grid.
 
     > [!NOTE]
     > To display the **Edit Browser Mix** dialog box, right-click an existing scenario and then choose **Edit Browser Mix**.
 
-2.  In the **Browser Type** column, choose the arrow for the new entry and choose the desired browser type.
+2. In the **Browser Type** column, choose the arrow for the new entry and choose the desired browser type.
 
-3.  (Optional) Adjust the mix control to specify the test distribution.
+3. (Optional) Adjust the mix control to specify the test distribution.
 
-4.  When you are finished adding browsers, choose **OK**.
+4. When you are finished adding browsers, choose **OK**.
 
-##  Remove browsers from a scenario
+## Remove browsers from a scenario
 
 ### To remove browsers from a scenario
 
-1.  Open a load test.
+1. Open a load test.
 
-2.  Right-click the scenario from which you want to remove a browser and then choose **Edit Browser Mix**.
+2. Right-click the scenario from which you want to remove a browser and then choose **Edit Browser Mix**.
 
      The **Edit Browser Mix** dialog box is displayed.
 
-3.  Select the browser in the grid and then choose **Remove**.
+3. Select the browser in the grid and then choose **Remove**.
 
-4.  (Optional) Adjust the mix control to specify the test distribution.
+4. (Optional) Adjust the mix control to specify the test distribution.
 
-5.  When you are finished removing browsers, choose **OK**.
+5. When you are finished removing browsers, choose **OK**.
 
 ## About the mix control
 
- The mix control allows you to adjust the percentage of load that is distributed among tests, browser types, or network types in a load test scenario. You adjust the percentage values by moving sliders. Adjusting the mix for the browser types specifies the probability of a virtual user running a specific browser type in a load test scenario.
+The mix control allows you to adjust the percentage of load that is distributed among tests, browser types, or network types in a load test scenario. You adjust the percentage values by moving sliders. Adjusting the mix for the browser types specifies the probability of a virtual user running a specific browser type in a load test scenario.
 
- When you move a slider, the percentage values of all available items change. If you have more than two items, the amount you add or remove is distributed evenly among the other items. It is possible to override this behavior. If you select the check box in the lock column for a particular item, you lock the specified percentage value for that item. Then, when you move a slider, the amount you add or remove is only applied to any remaining unlocked items.
+When you move a slider, the percentage values of all available items change. If you have more than two items, the amount you add or remove is distributed evenly among the other items. It is possible to override this behavior. If you select the check box in the lock column for a particular item, you lock the specified percentage value for that item. Then, when you move a slider, the amount you add or remove is only applied to any remaining unlocked items.
 
- The **Distribute** button is used to allocate the percentage values equally among all items. For example, if you have three items, choosing **Distribute** sets the percentage values to 34, 33, and 33.
+The **Distribute** button is used to allocate the percentage values equally among all items. For example, if you have three items, choosing **Distribute** sets the percentage values to 34, 33, and 33.
 
 > [!WARNING]
 > The **Distribute** button overrides any items that are locked.
 
- It is also possible to type the percentage values directly into the **%** column instead of using the sliders. If you enter a percentage value directly, the other items will not adjust automatically.
+It is also possible to type the percentage values directly into the **%** column instead of using the sliders. If you enter a percentage value directly, the other items will not adjust automatically.
 
 > [!NOTE]
 > The sliders are disabled when the total does not add up to 100%, or when the percentage values entered into the **%** column are decimals.
 
- When you enter percentage values manually, you should make sure that the sum of all items is 100%. When you save a mix, if the sum is not 100%, you will be prompted to accept the percentage values as they are, or to go back and adjust them. If you choose to accept them as they are, they will be prorated to 100%.  For example, if you have two items and you manually set them to 80% and 40%, the first item will be set to 66.67% (80 divided by 120) and the second item will be set to 33.33% (40 divided by 120).
+When you enter percentage values manually, you should make sure that the sum of all items is 100%. When you save a mix, if the sum is not 100%, you will be prompted to accept the percentage values as they are, or to go back and adjust them. If you choose to accept them as they are, they will be prorated to 100%.  For example, if you have two items and you manually set them to 80% and 40%, the first item will be set to 66.67% (80 divided by 120) and the second item will be set to 33.33% (40 divided by 120).
 
 ## See also
 

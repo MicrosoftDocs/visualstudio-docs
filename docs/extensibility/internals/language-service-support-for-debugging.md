@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "debugger, language support"
   - "language services, debugging support"
 ms.assetid: 7a44067f-a410-4a6a-84d2-bda5184140bc
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -17,9 +17,9 @@ A language service can provide features that support a debugger through the <xre
 
  However, you need to have an expression evaluator to debug your language. The expression evaluator is responsible for evaluating expressions to produce values while debugging. For information about implementing CLR expression evaluators, please see:
 
--   [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators)
+- [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators)
 
--   [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)
+- [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)
 
 ## Compiler Output
  The type of compiler determines what you need to do to implement debugging for your language. If your compiler targets the Windows operating system and writes a .pdb file, you can debug programs with the native code debugging engine that is integrated into Visual Studio. If your compiler produces Microsoft intermediate language (MSIL), you can debug programs with the managed code debugging engine, which is also integrated into Visual Studio. If your compiler targets a proprietary operating system or a different runtime environment, you need to write your own debugging engine.

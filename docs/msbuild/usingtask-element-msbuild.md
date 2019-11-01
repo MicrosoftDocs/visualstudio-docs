@@ -34,6 +34,9 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
     Condition="'String A'=='String B'" />
 ```
 
+> [!NOTE]
+> Unlike properties and items, the *first* `UsingTask` element that applies to a `TaskName` will be used; to override tasks you must define a new `UsingTask` *before* the existing one.
+
 ## Attributes and elements
  The following sections describe attributes, child elements, and parent elements.
 
@@ -64,7 +67,7 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
  Environment variables, command-line properties, project-level properties, and project-level items can be referenced in the `UsingTask` elements included in the project file either directly or through an imported project file. For more information, see [Tasks](../msbuild/msbuild-tasks.md).
 
 > [!NOTE]
->  Project-level properties and items have no meaning if the `UsingTask` element is coming from one of the *.tasks* files that are globally registered with the MSBuild engine. Project-level values are not global to MSBuild.
+> Project-level properties and items have no meaning if the `UsingTask` element is coming from one of the *.tasks* files that are globally registered with the MSBuild engine. Project-level values are not global to MSBuild.
 
  In MSBuild 4.0, using tasks can be loaded from *.overridetask* files.
 

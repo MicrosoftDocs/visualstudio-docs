@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugDocumentPositionOffset2 interface"
 ms.assetid: f1b05db3-50d8-453f-a72f-e68b239236a4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -40,5 +40,5 @@ IDebugDocumentPositionOffset2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md)

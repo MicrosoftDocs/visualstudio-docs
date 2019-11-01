@@ -16,10 +16,9 @@ manager: jillfra
 # MSBuild Best Practices
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 We recommend the following best practices for writing MSBuild scripts:  
   
--   Default property values are best handled by using the `Condition` attribute, and not by declaring a property whose default value can be overridden on the command line. For example, use  
+- Default property values are best handled by using the `Condition` attribute, and not by declaring a property whose default value can be overridden on the command line. For example, use  
   
      `<MyProperty Condition="$(MyProperty)" == ''>`  
   
@@ -27,7 +26,7 @@ We recommend the following best practices for writing MSBuild scripts:
   
      `</MyProperty>`  
   
--   Avoid wildcards when you select items. Instead, specify files explicitly. This makes it easier to track down errors that may occur when you add or delete files.  
+- Avoid wildcards when you select items. Instead, specify files explicitly. This makes it easier to track down errors that may occur when you add or delete files.  
   
 ## See Also  
  [Advanced Concepts](../msbuild/msbuild-advanced-concepts.md)

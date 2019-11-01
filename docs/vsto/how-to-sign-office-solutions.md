@@ -29,15 +29,15 @@ ms.workload:
 
 ### To sign an Office solution by using a certificate
 
-1.  On the **Project** menu, click _SolutionName_**Properties**.
+1. On the **Project** menu, click _SolutionName_**Properties**.
 
-2.  Click the **Signing** tab.
+2. Click the **Signing** tab.
 
-3.  Select **Sign the ClickOnce manifests**.
+3. Select **Sign the ClickOnce manifests**.
 
-4.  Locate the certificate by clicking **Select from Store** or **Select from File** and navigating to the certificate.
+4. Locate the certificate by clicking **Select from Store** or **Select from File** and navigating to the certificate.
 
-5.  To verify that the correct certificate is being used, click **More Details** to view the certificate information.
+5. To verify that the correct certificate is being used, click **More Details** to view the certificate information.
 
 ## See also
 

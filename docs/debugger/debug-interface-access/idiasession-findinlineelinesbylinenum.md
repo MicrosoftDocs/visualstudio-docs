@@ -40,7 +40,7 @@ HRESULT findInlineeLinesByVA ( 
 [in] Specifies a one-based line number.
 
 > [!NOTE]
->  You cannot use zero to specify all lines (use the [IDiaSession::findLines](../../debugger/debug-interface-access/idiasession-findlines.md) method to find all lines).
+> You cannot use zero to specify all lines (use the [IDiaSession::findLines](../../debugger/debug-interface-access/idiasession-findlines.md) method to find all lines).
 
  `column`
 
@@ -53,7 +53,7 @@ HRESULT findInlineeLinesByVA ( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
 - [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

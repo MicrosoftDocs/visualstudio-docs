@@ -20,7 +20,7 @@ manager: jillfra
 Takes a .dll file for a Visual Studio extension as a parameter and creates a .pkgdef file to accompany the .dll. The .pkgdef file contains all the information that would otherwise be written to the system registry when the extension is installed.  
   
 > [!NOTE]
->  Most of the project templates that are included in the Visual Studio SDK automatically create .pkgdef files as part of the build process. This document is intended for those who want to create packages manually, or convert existing packages to use .pkgdef deployment.  
+> Most of the project templates that are included in the Visual Studio SDK automatically create .pkgdef files as part of the build process. This document is intended for those who want to create packages manually, or convert existing packages to use .pkgdef deployment.  
   
 ## Syntax  
   
@@ -47,7 +47,7 @@ CreatePkgDef /out=FileName [/codebase] [/assembly] AssemblyPath
  The .pkgdef files must be installed in one of the following locations: %localappdata%\Microsoft\Visual Studio\14.0\Extensions\ or %vsinstalldir%\Common7\IDE\Extensions\\. If the installation folder is %localappdata%\Microsoft\Visual Studio\14.0\Extensions\\, the extension will be recognized by Visual Studio, but will be disabled by default. The user can enable the extension by using **Extensions and Updates**. If the installation folder is %vsinstalldir%\Common7\IDE\Extensions\\, the extension is enabled by default.  
   
 > [!NOTE]
->  The **Extensions and Updates** tool cannot be used to access an extension unless it is installed as part of a VSIX package.  
+> The **Extensions and Updates** tool cannot be used to access an extension unless it is installed as part of a VSIX package.  
   
 ## See Also  
  [CreateExpInstance Utility](../../extensibility/internals/createexpinstance-utility.md)

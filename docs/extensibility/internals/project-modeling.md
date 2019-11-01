@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "automation [Visual Studio SDK], implementing project objects"
   - "project models, automation"
 ms.assetid: c8db8fdb-88c1-4b12-86fe-f3c30a18f9ee
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -47,7 +47,7 @@ Project automation
 
  If you do not implement a `Project` object, the environment will still return a generic `Project` object that contains only the name of the project.
 
-## See Also
+## See also
 - <xref:EnvDTE.Projects>
 - <xref:EnvDTE.ProjectItem>
 - <xref:EnvDTE.ProjectItems>

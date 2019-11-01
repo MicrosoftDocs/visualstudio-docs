@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule"
   - "LoadSymbolsWithCorModule"
 ms.assetid: b6abf3a4-ce60-4e66-9637-82ce911148de
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule
 Loads debug symbols given the **ICorDebugModule** object.
@@ -41,34 +44,27 @@ int LoadSymbolsWithCorModule(
 );
 ```
 
-#### Parameters
-`ulAppDomainID`
+## Parameters
+`ulAppDomainID`\
+[in] Identifier of the application domain.
 
- [in] Identifier of the application domain.
+`guidModule`\
+[in] Unique identifier of the module.
 
-`guidModule`
+`baseAddress`\
+[in] Base memory address.
 
- [in] Unique identifier of the module.
+`pUnkMetadataImport`\
+[in] Object that contains the debug symbol metadata.
 
-`baseAddress`
+`pUnkCorDebugModule`\
+[in] Object that implements the [ICorDebugModule Interface](/dotnet/framework/unmanaged-api/debugging/icordebugmodule-interface).
 
- [in] Base memory address.
+`bstrModuleName`\
+[in] Name of the module.
 
-`pUnkMetadataImport`
-
- [in] Object that contains the debug symbol metadata.
-
-`pUnkCorDebugModule`
-
- [in] Object that implements the [ICorDebugModule Interface](/dotnet/framework/unmanaged-api/debugging/icordebugmodule-interface).
-
-`bstrModuleName`
-
- [in] Name of the module.
-
-`bstrSymSearchPath`
-
- [in] Path to search for the symbol file.
+`bstrSymSearchPath`\
+[in] Path to search for the symbol file.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -168,5 +164,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)

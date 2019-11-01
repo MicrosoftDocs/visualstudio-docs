@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IPropertyProxyEESide::CreateReplacementObject"
 ms.assetid: 0cfe79b8-c3f1-48b0-a225-e39dee2c92fe
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IPropertyProxyEESide::CreateReplacementObject
 Creates a copy of a data object specific to the expression evaluator (EE).
@@ -32,14 +35,12 @@ int CreateReplacementObject(
 );
 ```
 
-#### Parameters
- `dataIn`
+## Parameters
+`dataIn`\
+[in] An [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object holding the data to be copied.
 
- [in] An [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object holding the data to be copied.
-
- `dataOut`
-
- [out] Returns a new `IEEDataStorage` object.
+`dataOut`\
+[out] Returns a new `IEEDataStorage` object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -49,6 +50,6 @@ int CreateReplacementObject(
 
  Note that the data supplied by the incoming `IEEDataStorage` object must be the same data in the outgoing `IEEDataStorage` object.
 
-## See Also
+## See also
 - [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)
 - [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)

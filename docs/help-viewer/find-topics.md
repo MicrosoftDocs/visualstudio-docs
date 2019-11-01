@@ -3,8 +3,8 @@ title: Search for topics (Help Viewer)
 ms.date: 11/02/2017
 ms.topic: conceptual
 ms.assetid: 683f1b0c-1551-4bba-91fe-3855f03fdd69
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -17,18 +17,18 @@ To open the **Search** tab, choose the **Search** tab in the **Help Viewer** win
 
 ## To perform a full-text search
 
-1.  In the search box, type the word that you want to find.
+1. In the search box, type the word that you want to find.
 
-2.  In the search query, specify which logical or advanced search operators to apply to the search, if any. To search all available help, don't use operators.
+2. In the search query, specify which logical or advanced search operators to apply to the search, if any. To search all available help, don't use operators.
 
     > [!NOTE]
     > In the **Viewer Options** dialog box, you can specify additional preferences such as the maximum number of search results to display at a time and whether to include English content if your primary locale is not English.
 
-3.  Choose the **Enter** key.
+3. Choose the **Enter** key.
 
      A search returns a maximum of 200 hits, by default, and displays them in the search results area. Additional version information for each result may appear, depending on the content.
 
-4.  To view a topic, choose its title from the results list.
+4. To view a topic, choose its title from the results list.
 
 ## Full-text search tips
 
@@ -60,11 +60,11 @@ You can further restrict search results by using advanced search operators. Help
 
 The search algorithm applies certain criteria to help rank search results higher or lower in the results list. In general:
 
-1.  Content that includes search words in the title is ranked higher than content that doesn't.
+1. Content that includes search words in the title is ranked higher than content that doesn't.
 
-2.  Content that includes search words in close proximity is ranked higher than content that doesn't.
+2. Content that includes search words in close proximity is ranked higher than content that doesn't.
 
-3.  Content that contains a higher density of the search words is ranked higher than content that has a lower density of the search words.
+3. Content that contains a higher density of the search words is ranked higher than content that has a lower density of the search words.
 
 ### <a name="stopwords"> Words ignored in searches (stop words) </a>
 

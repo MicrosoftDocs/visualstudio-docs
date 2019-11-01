@@ -3,8 +3,8 @@ title: Quickstart - Create a Python project using Cookiecutter
 description: In this quickstart, you create a Visual Studio project for Python using a Cookiecutter template.
 ms.date: 02/25/2019
 ms.topic: quickstart
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
@@ -14,7 +14,7 @@ ms.workload:
 
 # Quickstart: Create a project from a Cookiecutter template
 
-Once you've [installed Python support in Visual Studio 2017](installing-python-support-in-visual-studio.md), it's easy to create a new project from a Cookiecutter template, including many that are published to GitHub. [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) provides a graphical user interface to discover templates, input template options, and create projects and files. It's included with Visual Studio 2017 and can be installed separately in earlier versions of Visual Studio.
+Once you've [installed Python support in Visual Studio](installing-python-support-in-visual-studio.md), it's easy to create a new project from a Cookiecutter template, including many that are published to GitHub. [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) provides a graphical user interface to discover templates, input template options, and create projects and files. It's included with Visual Studio 2017 and later and can be installed separately in earlier versions of Visual Studio.
 
 1. For this quickstart, first install the Anaconda3 Python distribution, which includes the necessary Python packages for the Cookiecutter template shown here. Run the Visual Studio installer, select **Modify**, expand the options for **Python development** on the right side, and select **Anaconda3** (either 32-bit or 64-bit). Note that installation may take some time depending on your Internet speed, but this is the simplest way to install the needed packages.
 

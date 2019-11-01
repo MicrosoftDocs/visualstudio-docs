@@ -91,7 +91,7 @@ TRACE( "x = %d and y = %d\n", x, y );
 TRACE( "x = %d and y = %x and z = %f\n", x, y, z );
 ```
 
-The TRACE macro appropriately handles both char* and wchar_t\* parameters. The following examples demonstrate the use of the TRACE macro together with different types of string parameters.
+The TRACE macro appropriately handles both char\* and wchar_t\* parameters. The following examples demonstrate the use of the TRACE macro together with different types of string parameters.
 
 ```cpp
 TRACE( "This is a test of the TRACE macro that uses an ANSI string: %s %d\n", "The number is:", 2);
@@ -224,7 +224,7 @@ Non-object blocks include arrays and structures allocated with `new`. In this ca
 In an MFC program, you can use [CMemoryState::DumpAllObjectsSince](/cpp/mfc/reference/cmemorystate-structure#dumpallobjectssince) to dump a description of all objects on the heap that have not been deallocated. `DumpAllObjectsSince` dumps all objects allocated since the last [CMemoryState::Checkpoint](/cpp/mfc/reference/cmemorystate-structure#checkpoint). If no `Checkpoint` call has taken place, `DumpAllObjectsSince` dumps all objects and nonobjects currently in memory.
 
 > [!NOTE]
-> Before you can use MFC object dumping, you must [enable diagnostic tracing](#BKMK_Enabling_Memory_Diagnostics).
+> Before you can use MFC object dumping, you must [enable diagnostic tracing](#BKMK_Enabling_memory_diagnostics).
 
 > [!NOTE]
 > MFC automatically dumps all leaked objects when your program exits, so you do not need to create code to dump objects at that point.
@@ -416,7 +416,7 @@ The debug information for a large MFC application can take up a lot of disk spac
     [In this topic](#BKMK_In_this_topic)
 
 ### <a name="BKMK_Building_an_MFC_app_with_debug_information_for_selected_modules"></a> Building an MFC app with debug information for selected modules
-Building selected modules with the MFC debug libraries enables you to use stepping and the other debug facilities in those modules. This procedure makes use of both the Debug and Release modes of the Visual C++ makefile, thus necessitating the changes described in the following steps (and also making a "rebuild all" necessary when a full Release build is required).
+Building selected modules with the MFC debug libraries enables you to use stepping and the other debug facilities in those modules. This procedure makes use of both the Debug and Release configurations of the project, thus necessitating the changes described in the following steps (and also making a "rebuild all" necessary when a full Release build is required).
 
 1. In Solution Explorer, select the project.
 
@@ -474,5 +474,5 @@ Building selected modules with the MFC debug libraries enables you to use steppi
 
    [In this topic](#BKMK_In_this_topic)
 
-## See Also
-[Debugging Visual C++](../debugger/debugging-native-code.md)
+## See also
+[Debugging Native Code](../debugger/debugging-native-code.md)

@@ -5,8 +5,8 @@ ms.topic: reference
 f1_keywords:
   - "System.ServiceModel.Activities.Receive.UI"
 ms.assetid: f58d3c70-944d-4bb4-90a7-e68c103caddc
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -30,7 +30,6 @@ Alternatively, the **ReceiveAndSendReply** template designer in the **Messaging*
 ### The Receive Activity Properties
 
 The following table shows the <xref:System.ServiceModel.Activities.Receive> properties and describes how they are used in the designer. These properties can be edited in properties grid or on the Workflow Designer surface. The only required property is the <xref:System.ServiceModel.Activities.Receive.OperationName%2A> property.
-
 
 | Property Name | Required | Usage |
 |-|----------|-|

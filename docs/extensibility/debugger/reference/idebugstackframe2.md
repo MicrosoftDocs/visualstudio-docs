@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugStackFrame2 interface"
 ms.assetid: bd212a6a-dcc6-4756-a77a-e8dfda38b104
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -54,5 +54,5 @@ IDebugStackFrame2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)

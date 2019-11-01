@@ -38,7 +38,7 @@ ms.workload:
 4. Configure the type descriptor as an entity collection type descriptor. For more information about how to create an entity collection type descriptor, see [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md).
 
    > [!NOTE]
-   >  You do not have to perform this step if you have added a Specific Finder method to the entity. Visual Studio uses the type descriptor that you defined in the Specific Finder method.
+   > You do not have to perform this step if you have added a Specific Finder method to the entity. Visual Studio uses the type descriptor that you defined in the Specific Finder method.
 
 5. In **Solution Explorer**, open the shortcut menu of the service code file that was generated for the entity, and then choose **View Code**. For more information about the service code file, see [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md).
 
@@ -51,7 +51,7 @@ ms.workload:
      The following example returns a collection of `Contact` entities by using data from the AdventureWorks sample database for SQL Server.
 
    > [!NOTE]
-   >  Replace the value of the `ServerName` field with the name of your server.
+   > Replace the value of the `ServerName` field with the name of your server.
 
     [!code-csharp[SP_BDC#2](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#2)]
     [!code-vb[SP_BDC#2](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#2)]

@@ -23,11 +23,11 @@ You can implement language-based features such as outlining by defining the kind
   
 #### To create a MEF project  
   
-1.  Create an VSIX project. Name the solution `OutlineRegionTest`.  
+1. Create an VSIX project. Name the solution `OutlineRegionTest`.  
   
-2.  Add an Editor Classifier item template to the project. For more information, see [Creating an Extension with an Editor Item Template](../extensibility/creating-an-extension-with-an-editor-item-template.md).  
+2. Add an Editor Classifier item template to the project. For more information, see [Creating an Extension with an Editor Item Template](../extensibility/creating-an-extension-with-an-editor-item-template.md).  
   
-3.  Delete the existing class files.  
+3. Delete the existing class files.  
   
 ## Implementing an Outlining Tagger  
  Outlining regions are marked by a kind of tag (<xref:Microsoft.VisualStudio.Text.Tagging.OutliningRegionTag>). This tag provides the standard outlining behavior. The outlined region can be expanded or collapsed. The outlined region is marked by a PLUS SIGN if it is collapsed or a MINUS SIGN if it is expanded, and the expanded region is demarcated by a vertical line.  
@@ -36,39 +36,39 @@ You can implement language-based features such as outlining by defining the kind
   
 #### To implement an outlining tagger  
   
-1.  Add a class file and name it `OutliningTagger`.  
+1. Add a class file and name it `OutliningTagger`.  
   
-2.  Import the following namespaces.  
+2. Import the following namespaces.  
   
      [!code-csharp[VSSDKOutlineRegionTest#1](../snippets/csharp/VS_Snippets_VSSDK/vssdkoutlineregiontest/cs/outliningtagger.cs#1)]
      [!code-vb[VSSDKOutlineRegionTest#1](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkoutlineregiontest/vb/outliningtagger.vb#1)]  
   
-3.  Create a class named `OutliningTagger`, and have it implement <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601>:  
+3. Create a class named `OutliningTagger`, and have it implement <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601>:  
   
      [!code-csharp[VSSDKOutlineRegionTest#2](../snippets/csharp/VS_Snippets_VSSDK/vssdkoutlineregiontest/cs/outliningtagger.cs#2)]
      [!code-vb[VSSDKOutlineRegionTest#2](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkoutlineregiontest/vb/outliningtagger.vb#2)]  
   
-4.  Add some fields to track the text buffer and snapshot and to accumulate the sets of lines that should be tagged as outlining regions. This code includes a list of Region objects (to be defined later) that represent the outlining regions.  
+4. Add some fields to track the text buffer and snapshot and to accumulate the sets of lines that should be tagged as outlining regions. This code includes a list of Region objects (to be defined later) that represent the outlining regions.  
   
      [!code-csharp[VSSDKOutlineRegionTest#3](../snippets/csharp/VS_Snippets_VSSDK/vssdkoutlineregiontest/cs/outliningtagger.cs#3)]
      [!code-vb[VSSDKOutlineRegionTest#3](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkoutlineregiontest/vb/outliningtagger.vb#3)]  
   
-5.  Add a tagger constructor that initializes the fields, parses the buffer, and adds an event handler to the <xref:Microsoft.VisualStudio.Text.ITextBuffer.Changed> event.  
+5. Add a tagger constructor that initializes the fields, parses the buffer, and adds an event handler to the <xref:Microsoft.VisualStudio.Text.ITextBuffer.Changed> event.  
   
      [!code-csharp[VSSDKOutlineRegionTest#4](../snippets/csharp/VS_Snippets_VSSDK/vssdkoutlineregiontest/cs/outliningtagger.cs#4)]
      [!code-vb[VSSDKOutlineRegionTest#4](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkoutlineregiontest/vb/outliningtagger.vb#4)]  
   
-6.  Implement the <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601.GetTags%2A> method, which instantiates the tag spans. This example assumes that the spans in the <xref:Microsoft.VisualStudio.Text.NormalizedSpanCollection> passed in to the method are contiguous, although this may not always be the case. This method instantiates a new tag span for each of the outlining regions.  
+6. Implement the <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601.GetTags%2A> method, which instantiates the tag spans. This example assumes that the spans in the <xref:Microsoft.VisualStudio.Text.NormalizedSpanCollection> passed in to the method are contiguous, although this may not always be the case. This method instantiates a new tag span for each of the outlining regions.  
   
      [!code-csharp[VSSDKOutlineRegionTest#5](../snippets/csharp/VS_Snippets_VSSDK/vssdkoutlineregiontest/cs/outliningtagger.cs#5)]
      [!code-vb[VSSDKOutlineRegionTest#5](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkoutlineregiontest/vb/outliningtagger.vb#5)]  
   
-7.  Declare a `TagsChanged` event handler.  
+7. Declare a `TagsChanged` event handler.  
   
      [!code-csharp[VSSDKOutlineRegionTest#6](../snippets/csharp/VS_Snippets_VSSDK/vssdkoutlineregiontest/cs/outliningtagger.cs#6)]
      [!code-vb[VSSDKOutlineRegionTest#6](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkoutlineregiontest/vb/outliningtagger.vb#6)]  
   
-8.  Add a `BufferChanged` event handler that responds to <xref:Microsoft.VisualStudio.Text.ITextBuffer.Changed> events by parsing the text buffer.  
+8. Add a `BufferChanged` event handler that responds to <xref:Microsoft.VisualStudio.Text.ITextBuffer.Changed> events by parsing the text buffer.  
   
      [!code-csharp[VSSDKOutlineRegionTest#7](../snippets/csharp/VS_Snippets_VSSDK/vssdkoutlineregiontest/cs/outliningtagger.cs#7)]
      [!code-vb[VSSDKOutlineRegionTest#7](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkoutlineregiontest/vb/outliningtagger.vb#7)]  
@@ -98,12 +98,12 @@ You can implement language-based features such as outlining by defining the kind
   
 #### To implement a tagger provider  
   
-1.  Create a class named `OutliningTaggerProvider` that implements <xref:Microsoft.VisualStudio.Text.Tagging.ITaggerProvider>, and export it with the ContentType and TagType attributes.  
+1. Create a class named `OutliningTaggerProvider` that implements <xref:Microsoft.VisualStudio.Text.Tagging.ITaggerProvider>, and export it with the ContentType and TagType attributes.  
   
      [!code-csharp[VSSDKOutlineRegionTest#12](../snippets/csharp/VS_Snippets_VSSDK/vssdkoutlineregiontest/cs/outliningtagger.cs#12)]
      [!code-vb[VSSDKOutlineRegionTest#12](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkoutlineregiontest/vb/outliningtagger.vb#12)]  
   
-2.  Implement the <xref:Microsoft.VisualStudio.Text.Tagging.ITaggerProvider.CreateTagger%2A> method by adding an `OutliningTagger` to the properties of the buffer.  
+2. Implement the <xref:Microsoft.VisualStudio.Text.Tagging.ITaggerProvider.CreateTagger%2A> method by adding an `OutliningTagger` to the properties of the buffer.  
   
      [!code-csharp[VSSDKOutlineRegionTest#13](../snippets/csharp/VS_Snippets_VSSDK/vssdkoutlineregiontest/cs/outliningtagger.cs#13)]
      [!code-vb[VSSDKOutlineRegionTest#13](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkoutlineregiontest/vb/outliningtagger.vb#13)]  
@@ -113,11 +113,11 @@ You can implement language-based features such as outlining by defining the kind
   
 #### To build and test the OutlineRegionTest solution  
   
-1.  Build the solution.  
+1. Build the solution.  
   
-2.  When you run this project in the debugger, a second instance of Visual Studio is instantiated.  
+2. When you run this project in the debugger, a second instance of Visual Studio is instantiated.  
   
-3.  Create a text file. Type some text that includes both the opening brace and the closing brace.  
+3. Create a text file. Type some text that includes both the opening brace and the closing brace.  
   
     ```  
     [  
@@ -125,7 +125,7 @@ You can implement language-based features such as outlining by defining the kind
     ]  
     ```  
   
-4.  There should be an outlining region that includes both braces. You should be able to click the MINUS SIGN to the left of the open brace to collapse the outlining region. When the region is collapsed, the ellipsis symbol (...) should appear to the left of the collapsed region, and a popup containing the text **hover text** should appear when you move the pointer over the ellipsis.  
+4. There should be an outlining region that includes both braces. You should be able to click the MINUS SIGN to the left of the open brace to collapse the outlining region. When the region is collapsed, the ellipsis symbol (...) should appear to the left of the collapsed region, and a popup containing the text **hover text** should appear when you move the pointer over the ellipsis.  
   
 ## See Also  
  [Walkthrough: Linking a Content Type to a File Name Extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

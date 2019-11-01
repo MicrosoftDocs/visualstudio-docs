@@ -4,8 +4,8 @@ ms.date: "11/04/2016"
 ms.topic: reference
 helpviewer_keywords:
   - "IDebugStopCompleteEvent2 interface"
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

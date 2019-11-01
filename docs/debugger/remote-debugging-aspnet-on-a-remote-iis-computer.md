@@ -11,18 +11,27 @@ ms.workload:
   - "aspnet"
   - "dotnetcore"
 ---
-# Remote Debug ASP.NET Core on a Remote IIS Computer in Visual Studio 2017
+# Remote Debug ASP.NET Core on a Remote IIS Computer in Visual Studio
 To debug an ASP.NET application that has been deployed to IIS, install and run the remote tools on the computer where you deployed your app, and then attach to your running app from Visual Studio.
 
 ![Remote debugger components](../debugger/media/remote-debugger-aspnet.png "Remote_debugger_components")
 
-This guide explains how to set up and configure a Visual Studio 2017 ASP.NET Core, deploy it to IIS, and attach the remote debugger from Visual Studio. To remote debug ASP.NET 4.5.2, see [Remote Debug ASP.NET on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md). You can also deploy and debug on IIS using Azure. For Azure App Service, you can easily deploy and debug on a preconfigured instance of IIS and the remote debugger using either the [Snapshot Debugger](../debugger/debug-live-azure-applications.md) or by [attaching the debugger from Server Explorer](../debugger/remote-debugging-azure.md).
+This guide explains how to set up and configure a Visual Studio ASP.NET Core, deploy it to IIS, and attach the remote debugger from Visual Studio. To remote debug ASP.NET 4.5.2, see [Remote Debug ASP.NET on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md). You can also deploy and debug on IIS using Azure. For Azure App Service, you can easily deploy and debug on a preconfigured instance of IIS and the remote debugger using either the [Snapshot Debugger](../debugger/debug-live-azure-applications.md) or by [attaching the debugger from Server Explorer](../debugger/remote-debugging-azure.md).
+
+## Prerequisites
+
+::: moniker range=">=vs-2019"
+Visual Studio 2019 is required to follow the steps shown in this article.
+::: moniker-end
+::: moniker range="vs-2017"
+Visual Studio 2017 is required to follow the steps shown in this article.
+::: moniker-end
 
 These procedures have been tested on these server configurations:
 * Windows Server 2012 R2 and IIS 8
 * Windows Server 2016 and IIS 10
 
-## Requirements
+## Network requirements
 
 Debugging between two computers connected through a proxy is not supported. Debugging over a high latency or low-bandwidth connection, such as dialup Internet, or over the Internet across countries is not recommended and may fail or be unacceptably slow. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
 
@@ -34,15 +43,16 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
 * If you want help to make sure that your app is set up, deployed, and running correctly in IIS so that you can debug, follow all the steps in this topic.
 
-## Create the ASP.NET Core application on the Visual Studio 2017 computer
+## Create the ASP.NET Core application on the Visual Studio computer
 
-1. Create a new ASP.NET Core application. (**File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application**).
+1. Create a new ASP.NET Core web application. 
 
-    In the **ASP.NET Core** templates section, select **Web Application**.
-
-2. Make sure that **ASP.NET Core 2.0** is selected, that **Enable Docker Support** is **not** selected and that **Authentication** is set to **No Authentication**.
-
-3. Name the project **MyASPApp** and click **OK** to create the new solution.
+    ::: moniker range=">=vs-2019"
+    In Visual Studio 2019, type **Ctrl + Q** to open the search box, type **asp.net**, choose **Templates**, then choose **Create new ASP.NET Core Web Application**. In the dialog box that appears, name the project **MyASPApp**, and then choose **Create**. Next, choose **Web Application (Model-View-Controller)**, and then choose **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    In Visual Studio 2017, choose **File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application**. In the ASP.NET Core templates section, select **Web Application (Model-View-Controller)**. Make sure that ASP.NET Core 2.1 is selected, that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.
+    ::: moniker-end
 
 4. Open the About.cshtml.cs file and set a breakpoint in the `OnGet` method (in older templates, open HomeController.cs instead and set the breakpoint in the `About()` method).
 
@@ -138,7 +148,7 @@ You can also publish and deploy the app using the file system or other tools.
 
 ## <a name="BKMK_msvsmon"></a> Download and Install the remote tools on Windows Server
 
-In this tutorial, we are using Visual Studio 2017.
+Download the version of the remote tools that matches your version of Visual Studio.
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
 
@@ -157,9 +167,20 @@ For information on running the remote debugger as a service, see [Run the remote
 2. In Visual Studio, click **Debug > Attach to Process** (Ctrl + Alt + P).
 
     > [!TIP]
-    > In Visual Studio 2017, you can reattach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift + Alt + P).
+    > In Visual Studio 2017 and later versions, you can reattach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift + Alt + P).
 
-3. Set the Qualifier field to **\<remote computer name>:4022**.
+3. Set the Qualifier field to **\<remote computer name>** and press **Enter**.
+
+    Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
+
+    ::: moniker range=">=vs-2019"
+    On Visual Studio 2019, you should see **\<remote computer name>:4024**
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    On Visual Studio 2017, you should see **\<remote computer name>:4022**
+    ::: moniker-end
+    The port is required. If you don't see the port number, add it manually.
+
 4. Click **Refresh**.
     You should see some processes appear in the **Available Processes** window.
 
@@ -168,9 +189,21 @@ For information on running the remote debugger as a service, see [Run the remote
     If you want to use the **Find** button, you may need to [open UDP port 3702](#bkmk_openports) on the server.
 
 5. Check  **Show processes from all users**.
-6. Type the first letter of a process name to quickly find **dotnet.exe** (for ASP.NET Core).
 
-    ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg_attachtoprocess_aspnetcore.png "RemoteDBG_AttachToProcess")
+6. Type the first letter of your process name to quickly find your app.
+
+    * Select **dotnet.exe**.
+
+      If you have multiple processes showing **dotnet.exe**, check the **User Name** column. In some scenarios, the **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. If you see the App Pool, an easy way to identify the correct process is to create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
+
+    * In some IIS scenarios, you may find your app name in the process list, such as **MyASPApp.exe**. You can attach to this process instead.
+
+    ::: moniker range=">=vs-2019"
+    ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
+    ::: moniker-end
 
 7. Click **Attach**.
 
@@ -187,14 +220,18 @@ For information on running the remote debugger as a service, see [Run the remote
 In most setups, required ports are opened by the installation of ASP.NET and the remote debugger. However, you may need to verify that ports are open.
 
 > [!NOTE]
-> On an Azure VM, you must open ports through the [Network security group](/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80-for-web-traffic).
+> On an Azure VM, you must open ports through the [Network security group](/azure/virtual-machines/windows/nsg-quickstart-portal).
 
 Required ports:
 
-- 80 - Required for IIS
-- 4022 - Required for remote debugging from Visual Studio 2017 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for detailed information.
-- 8172 - (Optional) Required for Web Deploy to deploy the app from Visual Studio.
-- UDP 3702 - (Optional) Discovery port enables you to the **Find** button when attaching to the remote debugger in Visual Studio.
+* 80 - Required for IIS
+::: moniker range=">=vs-2019"
+* 4024 - Required for remote debugging from Visual Studio 2019 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
+::: moniker-end
+::: moniker range="vs-2017"
+* 4022 - Required for remote debugging from Visual Studio 2017 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
+::: moniker-end
+* UDP 3702 - (Optional) Discovery port enables you to the **Find** button when attaching to the remote debugger in Visual Studio.
 
 1. To open a port on Windows Server, open the **Start** menu, search for **Windows Firewall with Advanced Security**.
 

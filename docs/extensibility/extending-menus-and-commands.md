@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "VSPackages, menu tasks"
   - ".vsct files, common menu tasks"
 ms.assetid: 7b2be4b9-e3fe-4412-874f-ae72ebc84c4b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

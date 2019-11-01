@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEngine3::SetSymbolPath"
 ms.assetid: 47b48f84-8a96-401f-84df-0baa8a96d26e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugEngine3::SetSymbolPath
 Sets the path or paths that are searched for debugging symbols.
@@ -34,13 +37,16 @@ int SetSymbolPath(
 );
 ```
 
-#### Parameters
+## Parameters
 
-|Parameter|Description|
-|---------------|-----------------|
-|`szSymbolSearchPath`|[in] String containing the symbol search path or paths. See "Remarks" for details. Cannot be null.|
-|`szSymbolCachePath`|[in] String containing the local path where symbols can be cached. Cannot be null.|
-|`Flags`|[in] Not used; always set to 0.|
+`szSymbolSearchPath`\
+[in] String containing the symbol search path or paths. See "Remarks" for details. Cannot be null.
+
+`szSymbolCachePath`\
+[in] String containing the local path where symbols can be cached. Cannot be null.
+
+`Flags`\
+[in] Not used; always set to 0.
 
 ## Return Value
  If successful, returns S_OK; otherwise returns an error code.
@@ -56,6 +62,6 @@ int SetSymbolPath(
 
  The [LoadSymbols](../../../extensibility/debugger/reference/idebugengine3-loadsymbols.md) method performs the actual load of the symbols.
 
-## See Also
+## See also
 - [LoadSymbols](../../../extensibility/debugger/reference/idebugengine3-loadsymbols.md)
 - [IDebugEngine3](../../../extensibility/debugger/reference/idebugengine3.md)

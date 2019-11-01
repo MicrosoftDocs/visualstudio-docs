@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1049"
 ms.assetid: 084e587d-0e45-4092-b767-49eed30d6a35
 caps.latest.revision: 19
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1049: Types that own native resources should be disposable
@@ -56,4 +56,4 @@ manager: "wpickett"
  [CA1001: Types that own disposable fields should be disposable](../code-quality/ca1001-types-that-own-disposable-fields-should-be-disposable.md)
 
 ## See Also
-  [Dispose Pattern](http://msdn.microsoft.com/library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)
+  [Dispose Pattern](https://msdn.microsoft.com/library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)

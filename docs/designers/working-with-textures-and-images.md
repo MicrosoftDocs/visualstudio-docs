@@ -3,8 +3,8 @@ title: Working with Textures and Images
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: b9fbc8fa-66d1-4055-8460-24d8b8fbe43e
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -47,4 +47,4 @@ Cube maps can contain different types of dataâ€”for example, colors or normalsâ€
 |Title|Description|
 |-----------|-----------------|
 |[Image Editor](../designers/image-editor.md)|Describes how to use the Image Editor to work with textures and images.|
-|[Image Editor examples](../designers/image-editor-examples.md)|Provides links to topics that demonstrate how to use the Image Editor to perform common image processing tasks.|
+|[Image Editor examples](../designers/how-to-create-a-basic-texture.md)|Provides links to topics that demonstrate how to use the Image Editor to perform common image processing tasks.|

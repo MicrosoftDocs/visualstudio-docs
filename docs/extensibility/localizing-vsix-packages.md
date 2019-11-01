@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "localize extension"
   - "localized deployment"
 ms.assetid: 10e80b13-b39e-466c-a7c8-774a862355af
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -47,7 +47,7 @@ When you create a vsixlangpack file, you must set the `Include in Vsix` property
 
 1. In **Solution Explorer**, right-click the Extension.vsixlangpack file, and then click **Properties**.
 
-2.  In the **Property Grid**, click **Include in Vsix**, and set its value to `true`.
+2. In the **Property Grid**, click **Include in Vsix**, and set its value to `true`.
 
 ## Example
 
@@ -97,6 +97,6 @@ The following example shows relevant portions of an *Extension.vsixmanifest* fil
 
 |Title|Description|
 |-----------|-----------------|
-|[VSIX Language Pack schema 2.0 reference](/visualstudio/extensibility/vsix-language-pack-schema-2-0-reference)|A VSIX language pack describes the localization information of a .vsix deployment file.|
+|[VSIX Language Pack schema 2.0 reference](vsix-language-pack-schema-2-0-reference.md)|A VSIX language pack describes the localization information of a .vsix deployment file.|
 |[Anatomy of a VSIX package](../extensibility/anatomy-of-a-vsix-package.md)|Describes the structure and contents of a vsix package.|
 |[Localize menu commands](../extensibility/localizing-menu-commands.md)|Shows how to localize other text resources in an extension.|

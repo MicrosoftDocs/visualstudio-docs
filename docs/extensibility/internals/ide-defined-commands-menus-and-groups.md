@@ -7,8 +7,8 @@ helpviewer_keywords:
   - ".vsct files, environment-defined constants"
   - "command groups, environment-defined"
 ms.assetid: 86b3af13-7163-48c6-986b-7beeedbc26cc
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -42,7 +42,7 @@ Many menus, commands and command groups are already defined for use by the [!INC
 
  Gives the GUID and ID values of commands defined by the Visual Studio IDE.
 
-## See Also
+## See also
 - [Visual Studio Command Table (.Vsct) Files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
 - [IDE-Defined Commands for Extending Project Systems](../../extensibility/internals/ide-defined-commands-for-extending-project-systems.md)
 - [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)

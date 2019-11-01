@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerControl::StopProfiling | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -39,5 +38,5 @@ HRESULT StopProfiling(
 |`S_OK`|The method succeeded.|  
 |`ACTIVPROF_E_PROFILER_ABSENT`|Profiling is not enabled.|  
   
-## See Also  
+## See also  
  [IActiveScriptProfilerControl Interface](../../winscript/reference/iactivescriptprofilercontrol-interface.md)

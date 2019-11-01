@@ -16,7 +16,7 @@ manager: jillfra
 The VSPerfCmd.exe **PF** option sets the profiling event that is sampled to page faults, and it optionally changes the number of page faults in a sampling interval from the default of 10.  
   
 > [!NOTE]
->  PF can not be used on 64 bit systems.  
+> PF can not be used on 64 bit systems.  
   
  **Note PF** is not supported on 64 bit computers.**PF** can only be used in a command line that also contains the **Launch** or the **Attach** option.  
   

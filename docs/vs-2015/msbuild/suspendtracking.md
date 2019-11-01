@@ -21,7 +21,6 @@ manager: jillfra
 # SuspendTracking
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Suspends tracking in the current context.  
   
 ## Syntax  

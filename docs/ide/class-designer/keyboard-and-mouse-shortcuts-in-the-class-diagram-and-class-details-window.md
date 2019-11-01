@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "class diagrams, keyboard shortcuts"
   - "class diagrams, mouse shortcuts"
 ms.assetid: c12d8dac-9902-4fde-b721-2a8116da53b7
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -97,3 +97,6 @@ Use the following keys to navigate the **Class Details** window:
 ## See also
 
 - [Create and configure type members](creating-and-configuring-type-members.md)
+- [How to use the keyboard exclusively](../reference/how-to-use-the-keyboard-exclusively.md)
+- [Default keyboard shortcuts in Visual Studio](../default-keyboard-shortcuts-in-visual-studio.md)
+- [Keyboard shortcuts in Blend](../../xaml-tools/keyboard-shortcuts-in-blend.md)

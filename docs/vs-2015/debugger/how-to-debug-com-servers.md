@@ -33,11 +33,11 @@ Debugging COM server applications poses a unique set of problems that are not al
   
 ### To debug a server application without container information  
   
-1.  Start debugging the server as a normal application.  
+1. Start debugging the server as a normal application.  
   
-2.  Set breakpoints as desired.  
+2. Set breakpoints as desired.  
   
-3.  Start the container application.  
+3. Start the container application.  
   
 ## See Also  
  [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)   

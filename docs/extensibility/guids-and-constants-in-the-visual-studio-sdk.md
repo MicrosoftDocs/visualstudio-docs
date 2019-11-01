@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "constants, Visual Studio SDK"
   - "GUIDs, Visual Studio SDK"
 ms.assetid: 438c1079-0747-4995-ae7a-32aa399c96f5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

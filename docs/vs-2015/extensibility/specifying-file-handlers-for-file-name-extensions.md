@@ -30,7 +30,7 @@ HKEY_CLASSES_ROOT\
 ```  
   
 > [!NOTE]
->  The keys specifying applications are from the list under HKEY_CLASSES_ROOT\Applications.  
+> The keys specifying applications are from the list under HKEY_CLASSES_ROOT\Applications.  
   
  By adding an OpenWithList key, you declare that your application supports a file extension even if another application takes ownership of the extension. This could be a future version of your application or another application.  
   
@@ -46,7 +46,7 @@ HKEY_CLASSES_ROOT\
  You can register different applications that are able to open a particular file extension by adding versioned ProgIDs as values to the HKEY_CLASSES_ROOT\\*\<extension>*\OpenWithProgids key. This registry key contains a list of alternate ProgIDs associated with the file extension. The applications associated with the listed ProgIDs appear in the **Open With**_Product Name_ submenu. If the same application is specified in both the `OpenWithList` and `OpenWithProgids` keys, the operating system merges the duplicates.  
   
 > [!NOTE]
->  The `OpenWithProgids` key is only supported in Windows XP. Because other operating systems ignore this key, do not use it as the only registration for file handlers. Use this key to provide a better user experience in Windows XP.  
+> The `OpenWithProgids` key is only supported in Windows XP. Because other operating systems ignore this key, do not use it as the only registration for file handlers. Use this key to provide a better user experience in Windows XP.  
   
  Add the desired ProgIDs as values of the type REG_NONE. The following code provides an example of registering ProgIDs for a file extension (.*ext*).  
   

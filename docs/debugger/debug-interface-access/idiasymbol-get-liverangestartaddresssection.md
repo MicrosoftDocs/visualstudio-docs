@@ -33,7 +33,7 @@ HRESULT get_liveRangeStartAddressSection ( 
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 > [!NOTE]
->  A returned error code means that the symbol does not have live range information.
+> A returned error code means that the symbol does not have live range information.
 
 ## Remarks
  The address formed by the section and offset is the beginning of the range in which the symbol is valid.
@@ -47,5 +47,5 @@ HRESULT get_liveRangeStartAddressSection ( 
 
  DLL: msdia100.dll
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

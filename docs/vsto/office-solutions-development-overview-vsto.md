@@ -37,11 +37,11 @@ ms.workload:
 
  For more information about customizations, see the following topics:
 
--   [Get started programming document-level customizations for Excel](../vsto/getting-started-programming-document-level-customizations-for-excel.md)
+- [Get started programming document-level customizations for Excel](../vsto/getting-started-programming-document-level-customizations-for-excel.md)
 
--   [Get started programming document-level customizations for Word](../vsto/getting-started-programming-document-level-customizations-for-word.md)
+- [Get started programming document-level customizations for Word](../vsto/getting-started-programming-document-level-customizations-for-word.md)
 
--   [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md)
+- [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md)
 
 ### VSTO Add-ins
  VSTO Add-ins consist of an assembly that is associated with a Microsoft Office application. Typically, the VSTO Add-in runs when the associated application is started, although users can also load VSTO Add-ins after the application is already running. Features in VSTO Add-ins that you create are available to the application itself, regardless of which documents are open.
@@ -50,9 +50,9 @@ ms.workload:
 
  For more information about VSTO Add-ins, see the following topics:
 
--   [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)
+- [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)
 
--   [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)
+- [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)
 
 ## Automate Office applications by using primary interop assemblies
  You can programmatically incorporate the features of an Office application into your solution by writing code that accesses the application's object model. Object models are an arrangement of classes that expose functionality through various properties and methods. The object model for each Office application is different.
@@ -63,9 +63,9 @@ ms.workload:
 
  For more information about using the PIAs in VSTO Office solutions, see the following topics:
 
--   [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
+- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
 
--   [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)
+- [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)
 
 ## Run Microsoft VSTO Office solutions on end-user computers
  When you create a VSTO Office solution, consider how the deployment requirements might affect your development choices.

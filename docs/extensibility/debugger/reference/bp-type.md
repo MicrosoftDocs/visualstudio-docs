@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_TYPE enumeration"
 ms.assetid: ef07191e-7966-43ab-96fb-1a0b1db3115d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # BP_TYPE
 Specifies whether the breakpoint is at a code location, is a data location, or is another type of breakpoint.
@@ -37,17 +40,17 @@ public enum enum_BP_TYPE {
 };
 ```
 
-## Members
-BPT_NONE
+## Fields
+`BPT_NONE`\
 Specifies no breakpoint type.
 
-BPT_CODE
+`BPT_CODE`\
 Specifies a code breakpoint.
 
-BPT_DATA
+`BPT_DATA`\
 Specifies a data breakpoint.
 
-BPT_SPECIAL
+`BPT_SPECIAL`\
 Specifies a breakpoint that is neither a code nor a data type. This type is deprecated and should not be used.
 
 ## Remarks
@@ -60,7 +63,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetBreakpointType](../../../extensibility/debugger/reference/idebugbreakpointresolution2-getbreakpointtype.md)
 - [GetBreakpointType](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2-getbreakpointtype.md)

@@ -28,7 +28,7 @@ You can use the performance session **Method** property to specify the most appr
 |----------------------------| - |
 | **CPU Sampling** | Collects application statistics that are useful for initial analysis and for analyzing CPU utilization issues. |
 | **Instrumentation** | Collects detailed timing data that are useful for focused analysis and for analyzing input/output performance issues. |
-| **.NET Memory Allocation** | Collects [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] memory allocation data by using the sampling profiling method. |
+| **.NET Memory Allocation** | Collects .NET Framework memory allocation data by using the sampling profiling method. |
 | **Concurrency** | Collects numeric resource contention data. |
 
 ## Performance Explorer
@@ -69,7 +69,7 @@ You can use the performance session **Method** property to specify the most appr
 
 4. Click **Sampling** or **Instrumentation**.
 
-5. Click **Collect .NET object allocation information** to collect the size and number of [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] object allocations.
+5. Click **Collect .NET object allocation information** to collect the size and number of .NET Framework object allocations.
 
 6. (Optional) Click **Also collect .NET object lifetime information** to collect data about the garbage collection generations in which the object memory was reclaimed.
 

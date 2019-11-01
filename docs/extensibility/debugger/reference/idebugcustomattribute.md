@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCustomAttribute interface"
 ms.assetid: c5ae41e9-00b9-4cca-871d-b8de9ef390d1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -48,7 +48,7 @@ IDebugCustomAttribute : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
 - [IDebugCustomAttributeQuery2](../../../extensibility/debugger/reference/idebugcustomattributequery2.md)

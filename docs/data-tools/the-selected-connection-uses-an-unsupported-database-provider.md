@@ -3,8 +3,8 @@ title: The selected connection uses an unsupported database provider
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 4d25dfa1-8fa4-4529-9b90-973bc2ec2993
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"
@@ -20,5 +20,4 @@ To correct this error, add only items from data connections that use the .NET Fr
 ## See also
 
 - <xref:System.Data.SqlClient>
-- [O/R Designer messages](../data-tools/o-r-designer-messages.md)
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

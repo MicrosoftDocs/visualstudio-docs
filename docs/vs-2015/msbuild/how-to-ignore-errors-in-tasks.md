@@ -16,7 +16,6 @@ manager: jillfra
 # How to: Ignore Errors in Tasks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Sometimes you want a build to be tolerant of faults in certain tasks. If those non-critical tasks fail, you want the build to continue because it can still produce the required output. For example, if a project uses a `SendMail` task to send an e-mail message after each component is built, you might consider it acceptable for the build to proceed to completion even when the mail servers are unavailable and the status messages cannot be sent. Or, for example, if intermediate files are usually deleted during the build, you might consider it acceptable for the build to proceed to completion even when those files cannot be deleted.  
   
 ## Using the ContinueOnError Attribute  
@@ -36,7 +35,7 @@ Sometimes you want a build to be tolerant of faults in certain tasks. If those n
   
 #### To ignore an error in a task  
   
--   Use the `ContinueOnError` attribute of the task. For example:  
+- Use the `ContinueOnError` attribute of the task. For example:  
   
      `<Delete Files="@(Files)" ContinueOnError="WarnAndContinue"/>`  
   

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDisassemblyStream2::GetCodeContext"
 ms.assetid: a6d0ae82-7617-4915-9713-369abe3e2e53
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDisassemblyStream2::GetCodeContext
 Returns a code context object corresponding to a specified code location identifier.
@@ -32,14 +35,12 @@ int GetCodeContext( 
 );
 ```
 
-#### Parameters
- `uCodeLocationId`
+## Parameters
+`uCodeLocationId`\
+[in] Specifies the code location identifier. See the Remarks section for the [GetCodeLocationId](../../../extensibility/debugger/reference/idebugdisassemblystream2-getcodelocationid.md) method for a description of a code location identifier.
 
- [in] Specifies the code location identifier. See the Remarks section for the [GetCodeLocationId](../../../extensibility/debugger/reference/idebugdisassemblystream2-getcodelocationid.md) method for a description of a code location identifier.
-
- `ppCodeContext`
-
- [out] Returns an [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that represents the associated code context.
+`ppCodeContext`\
+[out] Returns an [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that represents the associated code context.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -49,7 +50,7 @@ int GetCodeContext( 
 
  To convert a code context into a code location identifier, call the [GetCodeLocationId](../../../extensibility/debugger/reference/idebugdisassemblystream2-getcodelocationid.md) method.
 
-## See Also
+## See also
 - [IDebugDisassemblyStream2](../../../extensibility/debugger/reference/idebugdisassemblystream2.md)
 - [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)
 - [GetCodeLocationId](../../../extensibility/debugger/reference/idebugdisassemblystream2-getcodelocationid.md)

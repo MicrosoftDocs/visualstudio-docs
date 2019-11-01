@@ -17,7 +17,7 @@ manager: jillfra
 # IDiaSymbol::get_hasSecurityChecks
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-Retrieves a flag that specifies whether the compiland or function has been compiled with buffer-overrun security checks (for example, the [/GS (Buffer Security Check)](http://msdn.microsoft.com/library/8d8a5ea1-cd5e-42e1-bc36-66e1cd7e731e) compiler switch).  
+Retrieves a flag that specifies whether the compiland or function has been compiled with buffer-overrun security checks (for example, the [/GS (Buffer Security Check)](https://msdn.microsoft.com/library/8d8a5ea1-cd5e-42e1-bc36-66e1cd7e731e) compiler switch).  
   
 ## Syntax  
   
@@ -35,7 +35,7 @@ HRESULT get_hasSecurityChecks(
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.  
   
 > [!NOTE]
->  A return value of `S_FALSE` means that the property is not available for the symbol.  
+> A return value of `S_FALSE` means that the property is not available for the symbol.  
   
 ## Requirements  
   
@@ -46,4 +46,4 @@ HRESULT get_hasSecurityChecks(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [/GS (Buffer Security Check)](http://msdn.microsoft.com/library/8d8a5ea1-cd5e-42e1-bc36-66e1cd7e731e)
+ [/GS (Buffer Security Check)](https://msdn.microsoft.com/library/8d8a5ea1-cd5e-42e1-bc36-66e1cd7e731e)

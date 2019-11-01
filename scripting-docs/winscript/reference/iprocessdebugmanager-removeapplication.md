@@ -2,7 +2,6 @@
 title: "IProcessDebugManager::RemoveApplication | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -44,6 +43,6 @@ HRESULT RemoveApplication(
 ## Remarks  
  This method removes an application from the running application list.  
   
-## See Also  
+## See also  
  [IProcessDebugManager::AddApplication](../../winscript/reference/iprocessdebugmanager-addapplication.md)   
  [IProcessDebugManager Interface](../../winscript/reference/iprocessdebugmanager-interface.md)

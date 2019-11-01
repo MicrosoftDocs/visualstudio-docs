@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "debugging [Debugging SDK], interfaces"
 ms.assetid: 79875cbb-f946-49d4-94eb-941d0e1a40b2
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -32,5 +32,5 @@ Methods are listed alphabetically under each interface in the table of contents 
 
  Contains documentation for the interfaces, enumerators, and structures of the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] Debugging SDK.
 
-## See Also
+## See also
 - [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugFunctionPosition2 interface"
 ms.assetid: a835f65b-91b0-48ad-8485-04534c814b1b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -46,7 +46,7 @@ IDebugFunctionPosition2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [BP_LOCATION_CODE_FUNC_OFFSET](../../../extensibility/debugger/reference/bp-location-code-func-offset.md)
 - [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)

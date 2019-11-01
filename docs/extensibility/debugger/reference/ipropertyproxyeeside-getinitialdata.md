@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IPropertyProxyEESide::GetInitialData"
 ms.assetid: 36cceb19-2604-4ef9-b42b-5dd30cbe24b1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IPropertyProxyEESide::GetInitialData
 Returns the initial data for this object.
@@ -30,14 +33,13 @@ int GetInitialData(
 );
 ```
 
-#### Parameters
- `dataOut`
-
- [out] Returns an [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object containing the initial data of this object.
+## Parameters
+`dataOut`\
+[out] Returns an [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object containing the initial data of this object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)
 - [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)

@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "<ProjectItem> element [Visual Studio item templates]"
   - "ProjectItem element [Visual Studio item templates]"
 ms.assetid: 9ed94112-0c38-49df-b728-0dd2d0d1eb47
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -19,7 +19,7 @@ ms.workload:
 Specifies a file that is included in the item template.
 
 > [!NOTE]
->  The `ProjectItem` element accepts different attributes depending on whether the template is for a project or an item. This topic explains the `ProjectItem` element for item. For an explanation of the `ProjectItem` element for project templates, see [ProjectItem element (Visual Studio project templates)](../extensibility/projectitem-element-visual-studio-project-templates.md).
+> The `ProjectItem` element accepts different attributes depending on whether the template is for a project or an item. This topic explains the `ProjectItem` element for item. For an explanation of the `ProjectItem` element for project templates, see [ProjectItem element (Visual Studio project templates)](../extensibility/projectitem-element-visual-studio-project-templates.md).
 
  \<VSTemplate>
  \<TemplateContent>

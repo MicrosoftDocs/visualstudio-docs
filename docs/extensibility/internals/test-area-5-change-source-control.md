@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], changing"
   - "source control plug-ins, changing source control"
 ms.assetid: fdf09e00-108c-4d51-bbd5-72452d52a490
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -40,7 +40,6 @@ This source-control plug-in test area covers changing the source control via the
 ### Case 5a: Bind
  Bind allows the user to add source code control info to the selected projects and solutions. The user is typically prompted to identify a project in source control to which these are to be added. The user may not create a new project in source control as part of this operation (contrast with Add to Source Control).
 
-
 | Action | Test Steps | Expected Results to Verify |
 | - | - | - |
 | Bind to empty location | 1.  Create a project.<br />2.  Add the solution to source control.<br />3.  Open **Change Source Control** dialog box (**File**, **Source Control**, **Change Source Control**).<br />4.  Click **Unbind**.<br />5.  Accept warning dialog box if it appears.<br />6.  Select all items.<br />7.  Click **Bind**.<br />8.  Browse to an empty location in a source control store.<br />9. Click **OK** to close the **Change Source Control** dialog box.<br />10. Click **Continue with these bindings** in confirmation dialog box.<br />11. Click **OK** in the warning dialog box if it appears.<br />12. Check in everything. If this step succeeds, continue to next step.<br />13. Open solution from source control to a new location. | `Result from Step 12:`<br /><br /> Solution and project are bound to and written to the new target in the version store.<br /><br /> Solution and project files are checked in.<br /><br /> Version store project hierarchy matches folder hierarchy of the project on disk.<br /><br /> `Result from Step 13:`<br /><br /> All project items are downloaded. |
@@ -67,5 +66,5 @@ This source-control plug-in test area covers changing the source control via the
 |Rebind solution only without closing **Change Source Control** dialog box|1.  Create a project.<br />2.  Add only the solution to source control using (**File**, **Source Control**, **Add Selected Projects to Source Control**.<br />3.  Open the **Change Source Control** dialog box.<br />4.  Unbind only the solution (Do not close **Change Source Control** dialog box.)<br />5.  Bind only the solution.<br />6.  Click **OK** to close the dialog box.<br />7.  Check out solution and solution items (if any.)|Solution remains controlled.<br /><br /> Project remains uncontrolled.|
 |Rebind solution/project only when in same directory|1.  Create a project.<br />2.  Add only the project to source control using (**File**, **Source Control**, **Add Selected Projects to Source Control**.<br />3.  Close the solution.<br />4.  Create a new solution with at least two projects.<br />5.  Add the solution to source control.<br />6.  Add the project created in Step 1 from source control.<br />7.  Accept the checkout of the solution if prompted.<br />8.  Check in the entire solution.<br />9. Open the **Change Source Control** dialog box.<br />10. Select the added project (from Step 6) and click **Unbind**.<br />11. Click **OK** to close the dialog box.<br />12. Accept the checkout if prompted.<br />13. Reopen **Change Source Control** dialog box.<br />14. Select the added project (from Step 6) and click **Bind**.<br />15. Select the original location.|Solution and projects remain controlled.|
 
-## See Also
+## See also
 - [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

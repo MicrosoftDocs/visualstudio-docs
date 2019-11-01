@@ -2,7 +2,6 @@
 title: "IActiveScriptErrorDebug110 Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,7 +18,7 @@ manager: "ghogen"
 Adds functionality to the [IActiveScriptDebug Interface](../../winscript/reference/iactivescriptdebug-interface.md). This interface is implemented by the JavaScript engine to determine why a BREAKREASON_ERROR event has occurred.  
   
 > [!IMPORTANT]
->  This interface is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> This interface is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Methods  
  The `IActiveScriptErrorDebug110` interface exposes the following methods.  

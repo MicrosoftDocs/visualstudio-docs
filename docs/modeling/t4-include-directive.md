@@ -2,8 +2,8 @@
 title: T4 Include Directive
 ms.date: 11/04/2016
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -59,7 +59,7 @@ Output message 5 (from top template).
 
 ```
    Output Message 2 (from included file).
-<#@include file="TextFile2.t4" #>
+<#@ include file="TextFile2.t4" #>
    Output Message 4 (from included file).
 <#+ // Start of class feature control block.
 void GenerateMessage(int n)

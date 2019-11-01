@@ -24,9 +24,9 @@ The debugger stopped execution of code on the Web site. This caused Internet Inf
 
 1. Open the **Administrative Tools** window.
 
-   1.  Click **Start**, and then choose **Control Panel**.
+   1. Click **Start**, and then choose **Control Panel**.
 
-   2.  In **Control Panel**, choose **Switch to Classic View**, if necessary, and then double-click **Administrative Tools**.
+   2. In **Control Panel**, choose **Switch to Classic View**, if necessary, and then double-click **Administrative Tools**.
 
 2. In the **Administrative Tools** window, double-click **Internet Information Services (IIS) Manager**.
 
@@ -50,5 +50,5 @@ The debugger stopped execution of code on the Web site. This caused Internet Inf
 
 8. Close IIS Manager and the **Administrative Tools** window.
 
-## See Also
+## See also
 - [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)

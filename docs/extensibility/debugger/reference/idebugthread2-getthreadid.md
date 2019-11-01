@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugThread2::GetThreadId"
 ms.assetid: db8b1c07-6b86-47f9-b292-bac19c276d36
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugThread2::GetThreadId
 Gets the system thread identifier.
@@ -30,10 +33,9 @@ int GetThreadId (
 );
 ```
 
-#### Parameters
-`pdwThreadId`
-
- [out] Returns the system thread identifier.
+## Parameters
+`pdwThreadId`\
+[out] Returns the system thread identifier.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -51,5 +53,5 @@ HRESULT CProgram::GetThreadId(DWORD* pdwThreadId) {
 }
 ```
 
-## See Also
+## See also
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)

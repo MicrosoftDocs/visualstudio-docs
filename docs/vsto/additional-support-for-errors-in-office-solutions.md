@@ -65,19 +65,19 @@ You can use the following resources to help you find answers to problems you enc
 
 For assistance with some common errors in Office solutions, see the following topics:
 
--   [Troubleshoot errors in Office solutions](../vsto/troubleshooting-errors-in-office-solutions.md)
+- [Troubleshoot errors in Office solutions](../vsto/troubleshooting-errors-in-office-solutions.md)
 
--   [Troubleshoot Office solution security](../vsto/troubleshooting-office-solution-security.md)
+- [Troubleshoot Office solution security](../vsto/troubleshooting-office-solution-security.md)
 
--   [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)
+- [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)
 
 ## Other resources
 
-[Visual Studio tools for Office forum](http://go.microsoft.com/fwlink/?LinkId=149744)
+[Visual Studio tools for Office forum](https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?forum=vsto)
 
 Provides a forum for questions about the Office developer tools in Visual Studio.
 
-[Microsoft help and support](http://go.microsoft.com/fwlink/?LinkID=108287)
+[Microsoft help and support](https://support.microsoft.com)
 
 Provides access to Knowledge Base (KB) articles, downloads and updates, support Webcasts, and other services.
 

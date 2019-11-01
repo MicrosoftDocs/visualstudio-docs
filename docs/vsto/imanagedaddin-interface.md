@@ -76,7 +76,7 @@ interface IManagedAddin : IUnknown
  Microsoft Office applications use this CLSID to create the COM object that implements IManagedAddin.
 
 > [!CAUTION]
->  This CLSID is also used by *VSTOLoader.dll* in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]. Therefore, if you use IManagedAddin to create your own VSTO Add-in loader and runtime component, you cannot deploy your component to computers that are running VSTO Add-ins that rely on the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
+> This CLSID is also used by *VSTOLoader.dll* in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]. Therefore, if you use IManagedAddin to create your own VSTO Add-in loader and runtime component, you cannot deploy your component to computers that are running VSTO Add-ins that rely on the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
 
 ## See also
 - [Unmanaged API reference &#40;Office development in Visual Studio&#41;](../vsto/unmanaged-api-reference-office-development-in-visual-studio.md)

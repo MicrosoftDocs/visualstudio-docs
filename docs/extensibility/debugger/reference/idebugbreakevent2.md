@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugBreakEvent2 interface"
 ms.assetid: 57dfdbc2-4e68-4dbf-9579-006cd6fb1c62
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -38,7 +38,7 @@ IDebugBreakEvent2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [CauseBreak](../../../extensibility/debugger/reference/idebugprogram2-causebreak.md)
 - [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)
 - [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)

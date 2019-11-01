@@ -18,7 +18,7 @@ ms.workload:
 
 ## To correct the error
 
-1.  Install the Microsoft Office application associated with the project type, including the primary interop assemblies. For more information about supported versions of Microsoft Office, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).
+1. Install the Microsoft Office application associated with the project type, including the primary interop assemblies. For more information about supported versions of Microsoft Office, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).
 
 ## See also
 - [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md)

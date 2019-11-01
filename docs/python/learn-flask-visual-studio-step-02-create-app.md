@@ -4,8 +4,8 @@ titleSuffix: ""
 description: A walkthrough of Flask basics in the context of Visual Studio projects, specifically steps of creating an app and using views and templates.
 ms.date: 01/07/2019
 ms.topic: tutorial
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
@@ -72,6 +72,7 @@ In the code created by the "Blank Flask Web Project" template, you have a single
 
         app.run(HOST, PORT)
     ```
+
 6. Your project structure should look like the following image:
 
     ![Project structure after refactoring the code](media/flask/step02-project-structure.png)
@@ -214,5 +215,5 @@ Answer: Yes, you can use subfolders and then refer to the relative path under *t
 
 ## Go deeper
 
-- [Flask Quickstart - Rendering Templates](http://flask.pocoo.org/docs/1.0/quickstart/#rendering-templates) (flask.pocoo.org)
+- [Flask Quickstart - Rendering Templates](https://flask.palletsprojects.com/en/1.0.x/quickstart/#rendering-templates) (flask.pocoo.org)
 - Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-flask](https://github.com/Microsoft/python-sample-vs-learning-flask)

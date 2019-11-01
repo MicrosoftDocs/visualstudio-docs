@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "wizards, context parameters"
   - "context parameters"
 ms.assetid: 1a062dcb-8a8f-40dd-bea9-3d10f9448966
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -52,7 +52,7 @@ In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated d
 | `InstallationDirectory` | Directory path of the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] installation. |
 | `Silent` | Boolean that indicates whether the wizard should run silently as if **Finish** were clicked (`TRUE`). |
 
-## See Also
+## See also
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject2>
 - [Custom parameters](../../extensibility/internals/custom-parameters.md)

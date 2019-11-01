@@ -2,7 +2,6 @@
 title: "IDebugApplicationThread::QueryIsDebuggerThread | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -42,5 +41,5 @@ HRESULT QueryIsDebuggerThread();
 ## Remarks  
  This method determines if this thread is the debugger thread.  
   
-## See Also  
+## See also  
  [IDebugApplicationThread Interface](../../winscript/reference/idebugapplicationthread-interface.md)

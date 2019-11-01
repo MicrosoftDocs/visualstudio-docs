@@ -6,8 +6,8 @@ ms.technology: "devlang-csharp"
 ms.topic: conceptual
 ms.assetid: 5f31211b-d1d4-4029-9876-ec6eaaca1ac6
 caps.latest.revision: 6
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Create custom window layouts

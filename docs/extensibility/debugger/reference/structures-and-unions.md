@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "structures [Visual Studio SDK]"
 ms.assetid: 9ff0a8f8-1ee6-4fdd-8b80-206436ff589b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -189,5 +189,5 @@ The following are structures and unions in the Visual Studio Debugging SDK.
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDisassemblyStream2::GetSize"
 ms.assetid: 8f512704-12d0-46d2-959a-4f8dffe117b5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDisassemblyStream2::GetSize
 Gets the size in instructions of this disassembly stream.
@@ -30,10 +33,9 @@ int GetSize( 
 );
 ```
 
-#### Parameters
- `pnSize`
-
- [out] Returns the size, in instructions.
+## Parameters
+`pnSize`\
+[out] Returns the size, in instructions.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -41,7 +43,7 @@ int GetSize( 
 ## Remarks
  The value returned from this method can be used to allocate an array of [DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md) structures which is then passed to the [Read](../../../extensibility/debugger/reference/idebugdisassemblystream2-read.md) method.
 
-## See Also
+## See also
 - [IDebugDisassemblyStream2](../../../extensibility/debugger/reference/idebugdisassemblystream2.md)
 - [DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md)
 - [Read](../../../extensibility/debugger/reference/idebugdisassemblystream2-read.md)

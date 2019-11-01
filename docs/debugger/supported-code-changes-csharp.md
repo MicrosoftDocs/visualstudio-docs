@@ -1,6 +1,6 @@
 ---
 title: "Supported Code Changes (C# and Visual Basic) | Microsoft Docs"
-ms.date: "10/11/2017"
+ms.date: "10/11/2018"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -39,7 +39,7 @@ The table below shows the changes that may be made to C# and Visual Basic code d
 ## Unsupported changes to code
  The following changes cannot be applied to C# and Visual Basic code during a debugging session:
 
--   Changes to the current statement or any other active statement.
+- Changes to the current statement or any other active statement.
 
      Active statements include any statements, in functions on the call stack, that were called to get to the current statement.
 
@@ -57,6 +57,7 @@ The table below shows the changes that may be made to C# and Visual Basic code d
 |Types|Add abstract or virtual member, add override (see [details](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits))|
 |Types|Add destructor|
 |Members|Modify a member referencing an embedded interop type|
+|Members|Modify a static member after it has already been accessed by executing code|
 |Members (Visual Basic)|Modify a member with On Error or Resume statement|
 |Members (Visual Basic)|Modify a member containing an Aggregate, Group By, Simple Join, or Group Join LINQ query clause|
 |Methods|Modify signatures|
@@ -84,20 +85,20 @@ Unsupported apps and platforms include ASP.NET 5, Silverlight 5, and Windows 8.1
 ## Unsupported scenarios
  Edit and Continue is not available in the following debugging scenarios:
 
--   Mixed-mode (native/managed) debugging.
+- Mixed-mode (native/managed) debugging.
 
--   SQL debugging.
+- SQL debugging.
 
--   Debugging a Dr. Watson dump.
+- Debugging a Dr. Watson dump.
 
--   Debugging an embedded runtime application.
+- Debugging an embedded runtime application.
 
--   Debugging an application using attach to process (**Debug > Attach to Process**) instead of running the application by choosing **Start** from the **Debug** menu.
+- Debugging an application using attach to process (**Debug > Attach to Process**) instead of running the application by choosing **Start** from the **Debug** menu.
 
--   Debugging optimized code.
+- Debugging optimized code.
 
--   Debugging an old version of your code after a new version failed to build because of build errors.
+- Debugging an old version of your code after a new version failed to build because of build errors.
 
-## See Also
+## See also
 - [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)
 - [How to: Use Edit and Continue (C#)](../debugger/how-to-use-edit-and-continue-csharp.md)

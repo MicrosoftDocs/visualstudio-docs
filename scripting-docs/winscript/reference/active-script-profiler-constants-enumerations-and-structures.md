@@ -2,7 +2,6 @@
 title: "Active Script Profiler Constants, Enumerations and Structures | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -42,5 +41,5 @@ The following enumerations are used by Active Script Profiler Interfaces.
 |[PROFILER_HEAP_OBJECT_SCOPE_LIST Structure](../../winscript/reference/profiler-heap-object-scope-list-structure.md)|This structure is associated with function objects only. The scope list represents the closure for the function as a list of scopes where each scope is a heap object with an associated property list that represents variables in each given scope. In some cases, the names of objects in that scope might not be available, only their ids.|  
 |[PROFILER_PROPERTY_TYPE_SUBSTRING_INFO Structure](../../winscript/reference/profiler-property-type-substring-info-structure.md)|Represents information about the type of the substring.|  
   
-## See Also  
+## See also  
  [Active Script Profiler Interfaces](../../winscript/reference/active-script-profiler-interfaces.md)

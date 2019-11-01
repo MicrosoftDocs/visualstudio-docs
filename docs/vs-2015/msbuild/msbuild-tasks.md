@@ -16,7 +16,6 @@ manager: jillfra
 # MSBuild Tasks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 A build platform needs the ability to execute any number of actions during the build process. [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] uses *tasks* to perform these actions. A task is a unit of executable code used by [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] to perform atomic build operations.  
   
 ## Task Logic  

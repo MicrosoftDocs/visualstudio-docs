@@ -5,8 +5,8 @@ ms.topic: reference
 f1_keywords:
   - "TypeCollectionEditor.UI"
 ms.assetid: 63cdea6b-bca2-4c06-b8b4-c8faabd40726
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -25,16 +25,16 @@ The following table describes the user interface (UI) elements of the **Type Col
 
 ## To bring up the Type Collection Editor for the Send and Receive activities
 
-1.  Select the **Send** or **Receive** activity in the design view.
+1. Select the **Send** or **Receive** activity in the design view.
 
-2.  Press **F4** to bring up the **Properties** window.
+2. Press **F4** to bring up the **Properties** window.
 
-3.  In the **Properties** window, click the ellipsis button next to the **KnownTypes** property.
+3. In the **Properties** window, click the ellipsis button next to the **KnownTypes** property.
 
 ## To bring up the Type Collection Editor for the InvokeMethod activity
 
-1.  Select the **InvokeMethod** activity in the design view.
+1. Select the **InvokeMethod** activity in the design view.
 
-2.  Press **F4** to bring up the **Properties** window.
+2. Press **F4** to bring up the **Properties** window.
 
-3.  In the **Properties** window, click the ellipsis button next to the **GenericTypeArguments** property.
+3. In the **Properties** window, click the ellipsis button next to the **GenericTypeArguments** property.

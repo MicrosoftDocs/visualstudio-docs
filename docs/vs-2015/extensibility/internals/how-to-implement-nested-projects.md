@@ -22,7 +22,7 @@ When you create a nested project type there are a several additional steps that 
 1. The integrated development environment (IDE) loads the parent project's project file and startup information by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory> interface. The parent project is created and added to the solution.  
   
    > [!NOTE]
-   >  At this point, it is too early in the process for the parent project to create the nested project because the parent project must be created before the child projects can be created. Following this sequence, the parent project can apply settings to the child projects and the child projects can acquire information from the parent projects if needed. This sequence is if it is needed on by clients such as source code control (SCC) and Solution Explorer.  
+   > At this point, it is too early in the process for the parent project to create the nested project because the parent project must be created before the child projects can be created. Following this sequence, the parent project can apply settings to the child projects and the child projects can acquire information from the parent projects if needed. This sequence is if it is needed on by clients such as source code control (SCC) and Solution Explorer.  
   
     The parent project must wait for the <xref:Microsoft.VisualStudio.Shell.Interop.IVsParentProject.OpenChildren%2A> method to be called by the IDE before it can create its nested (child) project or projects.  
   
@@ -51,7 +51,7 @@ When you create a nested project type there are a several additional steps that 
     If it does not already exist, the parent project creates a GUID for each nested project by calling `CoCreateGuid`.  
   
    > [!NOTE]
-   >  `CoCreateGuid` is a COM API called when a GUID is to be created. For more information, see `CoCreateGuid` and GUIDs in the MSDN Library.  
+   > `CoCreateGuid` is a COM API called when a GUID is to be created. For more information, see `CoCreateGuid` and GUIDs in the MSDN Library.  
   
     The parent project stores this GUID in its project file to be retrieved the next time that it is opened in the IDE. See step 4 for more information relating to the calling of `AddVirtualProjectEX` to retrieve the `guidProjectID` for the child project.  
   
@@ -60,7 +60,7 @@ When you create a nested project type there are a several additional steps that 
      Because parent and child projects are instantiated programmatically, you can set properties for nested projects at this point.  
   
     > [!NOTE]
-    >  Not only do you receive the context information from the nested project, but you can also ask if the parent project has any context for that item by checking <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID>. In that way, you can add extra Dynamic Help attributes and menu options specific to individual nested projects.  
+    > Not only do you receive the context information from the nested project, but you can also ask if the parent project has any context for that item by checking <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID>. In that way, you can add extra Dynamic Help attributes and menu options specific to individual nested projects.  
   
 10. The hierarchy is built for display in Solution Explorer with a call to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetNestedHierarchy%2A> method.  
   

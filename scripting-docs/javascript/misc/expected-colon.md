@@ -20,8 +20,8 @@ You attempted to create an expression using the ternary conditional operator, bu
   
 ### To correct this error  
   
--   Insert a colon between the second and third operands.  
+- Insert a colon between the second and third operands.  
   
-## See Also  
+## See also  
  [Conditional (Ternary) Operator (?:)](../../javascript/reference/conditional-ternary-operator-decrement-javascript.md)   
  [Operators](../../javascript/operators-javascript.md)

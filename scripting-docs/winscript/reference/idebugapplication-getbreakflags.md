@@ -2,7 +2,6 @@
 title: "IDebugApplication::GetBreakFlags | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -48,6 +47,6 @@ HRESULT GetBreakFlags(
 ## Remarks  
  This method returns the current break flags for the application.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)   
  [APPBREAKFLAGS Enumeration](../../winscript/reference/appbreakflags-enumeration.md)

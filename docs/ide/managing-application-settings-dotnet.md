@@ -6,15 +6,15 @@ f1_keywords:
   - "msvse_settingsdesigner.err.nameblank"
 helpviewer_keywords:
   - "application settings [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Manage application settings (.NET)
 
-Application settings enable you to store application information dynamically. Settings allow you to store information on the client computer that should not be included in the application code (for example a connection string), user preferences, and other information you need at runtime.
+Application settings enable you to store application information dynamically. Settings allow you to store information on the client computer that should not be included in the application code (for example a connection string), user preferences, and other information you need at run time.
 
 Application settings replace the dynamic properties used in earlier versions of Visual Studio.
 
@@ -78,7 +78,9 @@ If any user-scoped settings are changed during run time, for example in testing 
 
 We strongly recommend that you use the `My.Settings` object and the default *.settings* file to access settings. This is because you can use the **Settings Designer** to assign properties to settings, and, additionally, user settings are automatically saved before application shutdown. However, your Visual Basic application can access settings directly. In that case you have to access the `MySettings` class and use a custom *.settings* file in the root of the project. You must save the user settings before ending the application, as you would do for a C# application; this is described in the following section.
 
-## Access or change application settings at run time in C# #
+<!-- markdownlint-disable MD003 MD020 -->
+## Access or change application settings at run time in C#
+<!-- markdownlint-enable MD003 MD020 -->
 
 In languages other than Visual Basic, such as C#, you must access the `Settings` class directly, as shown in the following [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] example.
 

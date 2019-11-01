@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "programs, termination events"
   - "debugging [Debugging SDK], terminating a program"
 ms.assetid: eedda0a3-5e05-44fe-841d-a2f4866ac72d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

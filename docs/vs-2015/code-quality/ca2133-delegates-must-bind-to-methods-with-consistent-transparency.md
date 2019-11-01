@@ -8,8 +8,8 @@ f1_keywords:
   - "CA2133"
 ms.assetid: a09672e2-63cb-4abd-9e8f-dff515e101ce
 caps.latest.revision: 13
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2133: Delegates must bind to methods with consistent transparency
@@ -23,7 +23,7 @@ manager: "wpickett"
 |Breaking Change|Breaking|
 
 > [!NOTE]
->  This warning is only applied to code that is running the CoreCLR (the version of the CLR that is specific to Silverlight Web applications).
+> This warning is only applied to code that is running the CoreCLR (the version of the CLR that is specific to Silverlight Web applications).
 
 ## Cause
  This warning fires on a method that binds a delegate that is marked with the <xref:System.Security.SecurityCriticalAttribute> to a method that is transparent or that is marked with the <xref:System.Security.SecuritySafeCriticalAttribute>. The warning also fires a method that binds a delegate that is transparent or safe-critical to a critical method.

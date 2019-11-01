@@ -8,11 +8,14 @@ helpviewer_keywords:
   - "EnumBoundBreakpoints method"
   - "IDebugPendingBreakpoint2::EnumBoundBreakpoints method"
 ms.assetid: 179c7c54-8446-462d-b099-e0f9cf06dc52
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPendingBreakpoint2::EnumBoundBreakpoints
 Enumerates all breakpoints bound from this pending breakpoint.
@@ -31,10 +34,9 @@ int EnumBoundBreakpoints( 
 );
 ```
 
-#### Parameters
- `ppEnum`
-
- [out] Returns an [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md) object that enumerates the bound breakpoints.
+## Parameters
+`ppEnum`\
+[out] Returns an [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md) object that enumerates the bound breakpoints.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_BP_DELETED` if the breakpoint has been deleted.
@@ -112,6 +114,6 @@ HRESULT CPendingBreakpoint::EnumBoundBreakpoints(IEnumDebugBoundBreakpoints2** p
 }
 ```
 
-## See Also
+## See also
 - [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
 - [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md)

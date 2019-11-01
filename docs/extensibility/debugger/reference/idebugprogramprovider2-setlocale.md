@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramProvider2::SetLocale"
 ms.assetid: b41d20a7-ba40-4c42-a450-16f413d6a04f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramProvider2::SetLocale
 Establishes a locale to be used for any locale-specific resources.
@@ -30,13 +33,12 @@ int SetLocale(
 );
 ```
 
-#### Parameters
- `wLangID`
-
- [in] Language ID to establish. For example, 1033 for English.
+## Parameters
+`wLangID`\
+[in] Language ID to establish. For example, 1033 for English.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md)

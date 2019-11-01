@@ -35,7 +35,7 @@ HRESULT get_type ( 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.  
   
 > [!NOTE]
->  A return value of `S_FALSE` means the property is not available for the symbol.  
+> A return value of `S_FALSE` means the property is not available for the symbol.  
   
 ## Remarks  
  To determine the type a symbol has, you must call this method and examine the resulting [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object. Note that it is possible for a symbol to not have a type. For example, the name of a structure has no type but it might have children symbols (use the [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md) method to examine those children).  

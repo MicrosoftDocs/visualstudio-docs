@@ -30,9 +30,9 @@ ms.workload:
 
  There are two types of custom properties you can add to a node:
 
--   Properties that display a set of read-only data from the SharePoint site. The data describes the SharePoint component that the node represents. For a walkthrough that demonstrates how to do this, see [Walkthrough: Extend Server Explorer to display web parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md).
+- Properties that display a set of read-only data from the SharePoint site. The data describes the SharePoint component that the node represents. For a walkthrough that demonstrates how to do this, see [Walkthrough: Extend Server Explorer to display web parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md).
 
--   Properties that display custom read/write data. For a code example that demonstrates how to do this, see [How to: Extend a SharePoint node in Server Explorer](../sharepoint/how-to-extend-a-sharepoint-node-in-server-explorer.md).
+- Properties that display custom read/write data. For a code example that demonstrates how to do this, see [How to: Extend a SharePoint node in Server Explorer](../sharepoint/how-to-extend-a-sharepoint-node-in-server-explorer.md).
 
 ## Get data for built-in nodes
  All of the built-in nodes provided by Visual Studio include some data about the SharePoint component that they represent. For example, a node that represents a list on the SharePoint site provides some data about the list, such as the title and the URL of the default view for the list.

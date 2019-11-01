@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::GetSymAttribute"
   - "GetSymAttribute"
 ms.assetid: 6cbaac92-a60b-4165-a7f5-c34407770f3c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetSymAttribute
 Retrieves the debug symbols with the given parent attribute for the specified module.
@@ -41,34 +44,27 @@ int GetSymAttribute (
 );
 ```
 
-#### Parameters
-`ulAppDomainID`
+## Parameters
+`ulAppDomainID`\
+[in] Identifier of the application domain.
 
- [in] Identifier of the application domain.
+`guidModule`\
+[in] Unique identifier of the module.
 
-`guidModule`
+`tokParent`\
+[in] Token for the parent attribute.
 
- [in] Unique identifier of the module.
+`pstrName`\
+[in] Name of the module.
 
-`tokParent`
+`cBuffer`\
+[in] Number of bytes required for the output `buffer`.
 
- [in] Token for the parent attribute.
+`pcBuffer`\
+[out] Length of the output `buffer`.
 
-`pstrName`
-
- [in] Name of the module.
-
-`cBuffer`
-
- [in] Number of bytes required for the output `buffer`.
-
-`pcBuffer`
-
- [out] Length of the output `buffer`.
-
-`buffer`
-
- [out] Array that contains the symbols.
+`buffer`\
+[out] Array that contains the symbols.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -104,5 +100,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

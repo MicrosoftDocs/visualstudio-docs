@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1000"
 ms.assetid: 5c0da594-f8d0-4f40-953d-56bf7fbd2087
 caps.latest.revision: 19
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1000: Do not declare static members on generic types
@@ -72,4 +72,4 @@ someObject.GenericMethod<int>();
  [CA1007: Use generics where appropriate](../code-quality/ca1007-use-generics-where-appropriate.md)
 
 ## See Also
- [Generics](http://msdn.microsoft.com/library/75ea8509-a4ea-4e7a-a2b3-cf72482e9282)
+ [Generics](https://msdn.microsoft.com/library/75ea8509-a4ea-4e7a-a2b3-cf72482e9282)

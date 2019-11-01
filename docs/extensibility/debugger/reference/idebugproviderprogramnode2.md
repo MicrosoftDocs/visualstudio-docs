@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProviderProgramNode2"
 ms.assetid: f0bca1cc-afbe-44cf-b5aa-d078aa685d24
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -45,6 +45,6 @@ IDebugProviderProgramNode2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

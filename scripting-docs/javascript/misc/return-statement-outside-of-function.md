@@ -33,9 +33,9 @@ return [ expression ];
   
 ### To correct this error  
   
--   Remove the `return` statement from the main body of your code (the global scope).  
+- Remove the `return` statement from the main body of your code (the global scope).  
   
-## See Also  
+## See also  
  [return Statement](../../javascript/reference/return-statement-javascript.md)   
  [Function Object](../../javascript/reference/function-object-javascript.md)   
  [caller Property (Function)](../../javascript/reference/caller-property-function-javascript.md)

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "DUMPTYPE enumeration"
 ms.assetid: ea8160db-8732-4056-a1d7-892ef72da71e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # DUMPTYPE
 Specifies how much of a program's state (such as running threads, stack frames, and current instruction address) to dump.
@@ -33,11 +36,11 @@ public enum enum_DUMPTYPE {
 };
 ```
 
-## Members
-DUMP_MINIDUMP
+## Fields
+`DUMP_MINIDUMP`\
 Specifies a small, compact dump.
 
-DUMP_FULLDUMP
+`DUMP_FULLDUMP`\
 Specifies a large, complete dump.
 
 ## Remarks
@@ -50,6 +53,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [WriteDump](../../../extensibility/debugger/reference/idebugprogram2-writedump.md)

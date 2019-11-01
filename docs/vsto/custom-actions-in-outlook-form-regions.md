@@ -22,7 +22,7 @@ ms.workload:
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
 ## Add custom actions to a form region
- To add a custom action to a form region, use the **Custom Actions** dialog box. You can open the **Custom Actions** dialog box in **Solution Explorer** by expanding the **Manifest** node, selecting the **CustomActions** property, and then clicking the ellipsis button (![ASP.NET mobile designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")).
+ To add a custom action to a form region, use the **Custom Actions** dialog box. You can open the **Custom Actions** dialog box by selecting the Form Region in **Solution Explorer**, expanding the **Manifest** node in the **Properties Window**, selecting the **CustomActions** property, and then clicking on the ellipsis button (![ASP.NET mobile designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")).
 
  You can use the **Custom Actions** dialog box to specify a *target form*. A target form is the form that appears when the user executes the custom action.
 
@@ -42,7 +42,7 @@ ms.workload:
 |**TargetForm**|Specifies the message class name of the target form. For example, type **IPM.Task** to open a task form.|
 |**Title**|Specifies the label of the custom action button.|
 
-## Customize a custom action at runtime
+## Customize a custom action at run time
  You can also add behavior to the custom action using code. For example, you can add code that takes the names of e-mail recipients and adds those names as attendees in a new appointment item. To do this, handle the [CustomAction](/office/vba/api/Outlook.MailItem.CustomAction) event of the [MailItem object](/office/vba/api/Outlook.MailItem).
 
 ## See also

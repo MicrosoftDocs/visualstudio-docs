@@ -19,13 +19,13 @@ You can serialize symbols that you must have to analyze your application. Symbol
 
 ### To automatically serialize symbol information
 
-1.  On the **Tools** menu, click **Options**.
+1. On the **Tools** menu, click **Options**.
 
      The **Options** dialog box is displayed.
 
-2.  Click **Performance Tools**.
+2. Click **Performance Tools**.
 
-3.  Under **General Setting**, select **Automatically serialize symbol information**.
+3. Under **General Setting**, select **Automatically serialize symbol information**.
 
 ## See also
 - [Configure performance sessions](../profiling/configuring-performance-sessions.md)

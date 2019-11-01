@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA2208"
 ms.assetid: e2a48939-d9fa-478c-b2f9-3bdbce07dff7
 caps.latest.revision: 21
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2208: Instantiate argument exceptions correctly
@@ -29,9 +29,9 @@ manager: "wpickett"
 ## Cause
  Possible causes include the following situations:
 
--   A call is made to the default (parameterless) constructor of an exception type that is, or derives from [System.ArgumentException](<!-- TODO: review code entity reference <xref:assetId:///System.ArgumentException?qualifyHint=True&amp;autoUpgrade=True>  -->).
+- A call is made to the default (parameterless) constructor of an exception type that is, or derives from [System.ArgumentException](<!-- TODO: review code entity reference <xref:assetId:///System.ArgumentException?qualifyHint=True&amp;autoUpgrade=True>  -->).
 
--   An incorrect string argument is passed to a parameterized constructor of an exception type that is, or derives from [System.ArgumentException.](<!-- TODO: review code entity reference <xref:assetId:///System.ArgumentException.?qualifyHint=True&amp;autoUpgrade=True>  -->)
+- An incorrect string argument is passed to a parameterized constructor of an exception type that is, or derives from [System.ArgumentException.](<!-- TODO: review code entity reference <xref:assetId:///System.ArgumentException.?qualifyHint=True&amp;autoUpgrade=True>  -->)
 
 ## Rule Description
  Instead of calling the default constructor, call one of the constructor overloads that allows a more meaningful exception message to be provided. The exception message should target the developer and clearly explain the error condition and how to correct or avoid the exception.

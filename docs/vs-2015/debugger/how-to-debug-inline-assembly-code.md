@@ -26,7 +26,7 @@ manager: jillfra
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
  The debugger provides two windows for debugging inline assembly code, the **Disassembly** window and the **Registers** window.  
   
@@ -34,9 +34,9 @@ NOTE]
   
 #### To debug inline assembly code  
   
-1.  Use the **Disassembly** window to view the assembly instructions.  
+1. Use the **Disassembly** window to view the assembly instructions.  
   
-2.  Use the **Registers** window to view register contents.  
+2. Use the **Registers** window to view register contents.  
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   

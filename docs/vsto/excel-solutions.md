@@ -1,6 +1,6 @@
 ---
 title: "Excel solutions"
-ms.date: "02/02/2017"
+ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -32,25 +32,24 @@ ms.workload:
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
 
-> [!NOTE]
->  Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
+[!include[Add-ins note](includes/addinsnote.md)]
 
  This topic provides the following information:
 
--   [Automate Excel](#automating).
+- [Automate Excel](#automating).
 
--   [Develop document-level customizations for Excel](#doclevel).
+- [Develop document-level customizations for Excel](#doclevel).
 
--   [Develop VSTO Add-ins for Excel](#applevel).
+- [Develop VSTO Add-ins for Excel](#applevel).
 
--   [Customize the user interface of Excel](#UI).
+- [Customize the user interface of Excel](#UI).
 
-##  <a name="automating"></a> Automate Excel
+## <a name="automating"></a> Automate Excel
  The Excel object model exposes many types that you can use to automate Excel. For example, you can programmatically create charts, format worksheets, and set the values of ranges and cells. For more information, see [Excel object model overview](../vsto/excel-object-model-overview.md).
 
  When developing Excel solutions in Visual Studio, you can also use *host items* and *host controls* in your solutions. These are objects that extend certain commonly used objects in the Excel object model, such as the <xref:Microsoft.Office.Interop.Excel.Worksheet> and <xref:Microsoft.Office.Interop.Excel.Range> objects. The extended objects behave like the Excel objects they are based on, but they add additional events and data binding capabilities to the objects. For more information, see [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md).
 
-##  <a name="doclevel"></a> Develop document-level customizations for Excel
+## <a name="doclevel"></a> Develop document-level customizations for Excel
  A document-level customization for Microsoft Office Excel consists of an assembly that is associated with a specific workbook. The assembly typically extends the workbook by customizing the UI and by automating Excel. Unlike a VSTO Add-in, which is associated with Excel itself, functionality that you implement in a customization is available only when the associated workbook is open in Excel.
 
  To create a document-level customization project for Excel, use the Excel workbook or Excel template project templates in the **New Project** dialog box of Visual Studio. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
@@ -62,7 +61,7 @@ ms.workload:
 
  For more information about these generated classes and other features you can use in a document-level project, see [Program document-level customizations](../vsto/programming-document-level-customizations.md).
 
-##  <a name="applevel"></a> Develop VSTO Add-ins for Excel
+## <a name="applevel"></a> Develop VSTO Add-ins for Excel
  A VSTO Add-in for Microsoft Office Excel consists of an assembly that is loaded by Excel. The assembly typically extends Excel by customizing the UI and by automating Excel. Unlike a document-level customization, which is associated with a specific workbook, functionality that you implement in a VSTO Add-in is not restricted to any single workbook.
 
  To create a VSTO Add-in project for Excel, use the Excel workbook or Excel template project templates in the **New Project** dialog box of Visual Studio. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
@@ -74,7 +73,7 @@ ms.workload:
 
  For more information about the `ThisAddIn` class and other Visual Studio features you can use in a VSTO Add-in, see [Program VSTO Add-Ins](../vsto/programming-vsto-add-ins.md).
 
-##  <a name="UI"></a> Customize the user interface of Excel
+## <a name="UI"></a> Customize the user interface of Excel
  There are several different ways to customize the user interface of Excel. Some options are available to all project types, and other options are available only to VSTO Add-ins or document-level customizations.
 
 ### Options for all project types
@@ -110,6 +109,6 @@ ms.workload:
 | [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md) | Describes how you can add Windows Forms controls to Excel worksheets. |
 | [Walkthrough: Create your first document-level customization for Excel](../vsto/walkthrough-creating-your-first-document-level-customization-for-excel.md) | Demonstrates how to create a basic document-level customization for Excel. |
 | [Walkthrough: Create your first VSTO Add-in for Excel](../vsto/walkthrough-creating-your-first-vsto-add-in-for-excel.md) | Demonstrates how to create a basic VSTO Add-in for Excel. |
-| [Walkthrough: Add controls to a worksheet at runtime in VSTO Add-in project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md) | Demonstrates how to add a Windows Forms button, a <xref:Microsoft.Office.Tools.Excel.NamedRange>, and a <xref:Microsoft.Office.Tools.Excel.ListObject> to a worksheet at runtime by using a VSTO Add-in. |
+| [Walkthrough: Add controls to a worksheet at run time in VSTO Add-in project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md) | Demonstrates how to add a Windows Forms button, a <xref:Microsoft.Office.Tools.Excel.NamedRange>, and a <xref:Microsoft.Office.Tools.Excel.ListObject> to a worksheet at run time by using a VSTO Add-in. |
 | [Understand co-authoring and Add-ins](./understanding-coauthoring-and-addins.md) | Describes adjustments you might need to make to your solutions to accommodate coauthoring. |
-| [Excel 2010 in Office development](http://go.microsoft.com/fwlink/?LinkId=199011) | Provides links to articles and reference documentation about developing Excel solutions. These are not specific to Office development using Visual Studio. |
+| [Excel 2010 in Office development](/previous-versions/office/developer/office-2010/ee658205(v=office.14)) | Provides links to articles and reference documentation about developing Excel solutions. These are not specific to Office development using Visual Studio. |

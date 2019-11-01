@@ -21,7 +21,6 @@ A deployment manifest is an XML file that describes a [!INCLUDE[ndptecclick](../
 
  Deployment manifests have the following elements and attributes.
 
-
 | Element | Description | Attributes |
 | - | - | - |
 | [\<assembly> Element](../deployment/assembly-element-clickonce-deployment.md) | Required. Top-level element. | `manifestVersion` |

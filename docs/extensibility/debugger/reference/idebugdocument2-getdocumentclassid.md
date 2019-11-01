@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDocument2::GetDocumentClassID"
 ms.assetid: 111c2b85-ebfa-487f-b896-2ec4a3eac4d1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDocument2::GetDocumentClassID
 Gets the class identifier of the document.
@@ -30,10 +33,9 @@ int GetDocumentClassID( 
 );
 ```
 
-#### Parameters
- `pclsid`
-
- [out] Returns a GUID that is the class ID of the document.
+## Parameters
+`pclsid`
+[out] Returns a GUID that is the class ID of the document.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -41,5 +43,5 @@ int GetDocumentClassID( 
 ## Remarks
  The class GUID can be used to instantiate individual classes each of which represents a document.
 
-## See Also
+## See also
 - [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)

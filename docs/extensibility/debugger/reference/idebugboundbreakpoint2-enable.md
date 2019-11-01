@@ -8,11 +8,14 @@ helpviewer_keywords:
   - "Enable method"
   - "IDebugBoundBreakpoint2::Enable method"
 ms.assetid: 1b4e3f73-c94d-4aa3-9aa8-0d8cb8a6c5ca
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBoundBreakpoint2::Enable
 Enables or disables the breakpoint.
@@ -31,10 +34,9 @@ int Enable( 
 );
 ```
 
-#### Parameters
-`fEnable`
-
- [in] Set to non-zero (`TRUE`) to enable or to zero (`FALSE`) to disable the breakpoint.
+## Parameters
+`fEnable`\
+[in] Set to non-zero (`TRUE`) to enable or to zero (`FALSE`) to disable the breakpoint.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_BP_DELETED` if the state of the bound breakpoint object is set to `BPS_DELETED` (part of the [BP_STATE](../../../extensibility/debugger/reference/bp-state.md) enumeration).
@@ -89,6 +91,6 @@ HRESULT CBoundBreakpoint::Enable(BOOL fEnable)
 }
 ```
 
-## See Also
+## See also
 - [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
 - [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)

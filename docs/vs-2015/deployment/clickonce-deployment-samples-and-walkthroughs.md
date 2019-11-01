@@ -35,5 +35,5 @@ This section contains sample applications, example code, and step-by-step walkth
 |[Downloading Assemblies On Demand with the ClickOnce Deployment API Using the Designer](../deployment/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md)|Explains how to download application assemblies only when they are first used by the application.|  
   
 ## See Also  
- [Visual Studio Walkthroughs](http://msdn.microsoft.com/f5399a1f-2d3d-42fb-b989-134ccda2159f)   
+ [Visual Studio Walkthroughs](https://msdn.microsoft.com/f5399a1f-2d3d-42fb-b989-134ccda2159f)   
  [Visual Studio Samples](../ide/visual-studio-samples.md)

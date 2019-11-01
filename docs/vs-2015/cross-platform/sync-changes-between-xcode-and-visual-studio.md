@@ -12,7 +12,6 @@ manager: jillfra
 # Sync Changes Between XCode and Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-
 The Microsoft Visual C++ for Mobile Development component includes remote capabilities for syncing your work between your PC and your Mac. When your Visual Studio and Mac machines are paired, new options are available for iOS Application projects in Visual Studio that you can use to open your project in XCode, move your code between XCode and Visual Studio, and clean the temporary XCode project directory.
 
  To use the Remote Machine options, your project must be an iOS Application project, and Visual Studio must be paired with your Mac. For prerequisites and instructions on how to pair a Mac, see [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md).

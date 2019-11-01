@@ -30,7 +30,7 @@ From within Visual Studio, applications can be published directly to the followi
 - [Azure App Service](#azure-app-service)
 - [Azure Virtual Machines](#azure-virtual-machines)
 - [File system](#file-system)
-- [Custom targets (IIS, FTP, etc.)](#custom-targets), which includes all arbitrary web servers.
+- [Custom targets (IIS, FTP, etc.)](#custom-targets-iis-ftp), which includes all arbitrary web servers.
 
 On the **Publish** tab, you can select an existing publish profile, import an existing one, or create a new one using the options described here. For a tour of the publishing options in the IDE for different app types, see [First look at deployment](../deployment/deploying-applications-services-and-components.md).
 
@@ -113,7 +113,7 @@ Tutorials:
 
 - [Deploy a .NET Core application with the publish tool](/dotnet/core/deploying/deploy-with-vs?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
 - [Publish an ASP.NET core app to Azure](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
-- [Deployment in Visual C++](/cpp/ide/deployment-in-visual-cpp)
+- [Deployment in Visual C++](/cpp/windows/deployment-in-visual-cpp)
 - [Deploy UWP apps](/windows/uwp/packaging/packaging-uwp-apps?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
 - [Publish a Node.js app to Azure using Web Deploy](https://github.com/Microsoft/nodejstools/wiki/Publish-to-Azure-Website-using-Web-Deploy?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
 - [Publish a Python app to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)

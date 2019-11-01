@@ -2,15 +2,15 @@
 title: Environment settings
 ms.date: 11/21/2018
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Environment settings for Visual Studio
 
-When you start Visual Studio for the first time, you can optimize the development environment for the type of development that you do the most by choosing a collection of settings. Each collection optimizes elements such as keyboard shortcuts, window layouts, project and item templates, and command visibility.
+When you open Visual Studio for the first time, you can optimize the development environment for the type of development that you do the most by choosing a collection of settings. Each collection optimizes elements such as keyboard shortcuts, window layouts, project and item templates, and command visibility.
 
 The following settings collections are available:
 
@@ -24,7 +24,7 @@ The following settings collections are available:
 
 ## Reset settings
 
-To change your development settings after you start Visual Studio for the first time, follow these steps:
+To change your development settings after you open Visual Studio for the first time, follow these steps:
 
 1. Select **Tools** > **Import and Export Settings** from the menu bar to open the **Import and Export Settings Wizard**.
 

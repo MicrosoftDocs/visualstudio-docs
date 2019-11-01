@@ -33,10 +33,10 @@ HRESULT get_volatileType ( 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 > [!NOTE]
->  A return value of `S_FALSE` means the property is not available for the symbol.
+> A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## Remarks
  In C++, a UDT can be marked with the `volatile` keyword, indicating that its contents cannot be assumed to exist from one access to the next.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

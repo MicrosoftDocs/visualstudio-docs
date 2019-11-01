@@ -37,11 +37,11 @@ ms.workload:
 
 #### To set the time-out value
 
-1.  In the registry, navigate to the following key:
+1. In the registry, navigate to the following key:
 
      **HKEY_CURRENT_USER\Software\Microsoft\VSTA**
 
-2.  In the **AddInTimeout** subkey, set the time-out value in milliseconds.
+2. In the **AddInTimeout** subkey, set the time-out value in milliseconds.
 
      If the **AddInTimeout** subkey doesn't exist, create it as a DWORD.
 
@@ -67,9 +67,12 @@ ms.workload:
 
 2. On the **Application** page, choose **Assembly Information**.
 
-3. In the first **Assembly Version** box, enter an asterisk (\*), and then choose the **OK** button.
+3. Set the revision number, third field, of the **Assembly Version**, to a wild card (\*). For example, "1.0.*".  Then choose the **OK** button.
 
    After you change the assembly version, you can continue to sign your assembly with a strong name, and Fusion will load the most recent version of the customization.
+
+ [!NOTE]
+> Starting with Visual Studio 2017, if you try using wild cards in the Assembly Version a build error will occur.  This is because wild cards in the assembly version will break the MSBuild Deterministic feature. You will be instructed to either remove the wildcards from the assembly version, or disable determinism.  To learn more about the Deterministic feature see: [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md) and [Customize your build](../msbuild/customize-your-build.md)
 
 ## Installation fails when the URI has characters that aren't US-ASCII
  When you publish an Office solution to an HTTP/HTTPS/FTP location, the path can't have any Unicode characters that aren't in US-ASCII. Such characters can cause inconsistent behavior in the Setup program. Use US-ASCII characters for the installation path.
@@ -112,7 +115,7 @@ ms.workload:
 ## Can't install a ClickOnce solution by opening the deployment manifest from the web
  Users can install Office solutions by opening the deployment manifest from the web. However, some installations of Internet Information Services (IIS) block the *.vsto* file name extension. You must define the MIME type in IIS before you use it to deploy an Office solution.
 
- For information about how to define the MIME type in IIS 7, see [Add a MIME Type (IIS7)](http://technet.microsoft.com/library/cc725608(WS.10).aspx).
+ For information about how to define the MIME type in IIS 7, see [Add a MIME Type (IIS7)](https://technet.microsoft.com/library/cc725608(WS.10).aspx).
 
  Set the extension to **.vsto** and the MIME type to **application/x-ms-vsto**.
 

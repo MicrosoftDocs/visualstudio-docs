@@ -18,23 +18,23 @@ The Disk Operations Report shows disk I/O operations in the disk channels.
 
  For each disk access that occurs on behalf of the process that's being profiled in the currently visible time window, this information is reported:
 
--   The name and PID of the process that performed the disk access
+- The name and PID of the process that performed the disk access
 
--   The ID of the thread that accessed the disk
+- The ID of the thread that accessed the disk
 
--   The name of the file that was accessed
+- The name of the file that was accessed
 
--   The number of reads per file
+- The number of reads per file
 
--   The number of bytes read
+- The number of bytes read
 
--   The read latency, in milliseconds
+- The read latency, in milliseconds
 
--   The number of writes
+- The number of writes
 
--   The number of bytes written
+- The number of bytes written
 
--   The write latency, in milliseconds
+- The write latency, in milliseconds
 
 ## See also
 - [Threads View](../profiling/threads-view-parallel-performance.md)

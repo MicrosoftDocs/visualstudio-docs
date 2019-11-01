@@ -13,10 +13,10 @@
       tocHref: /visualstudio/cross-platform/
       topicHref: /visualstudio/cross-platform/index
     - name: Data Tools
-      tocHref: /visualstudio/data-tools/ 
+      tocHref: /visualstudio/data-tools/
       topicHref: /visualstudio/data-tools/index
     - name: Debugging
-      tocHref: /visualstudio/debugger/ 
+      tocHref: /visualstudio/debugger/
       topicHref: /visualstudio/debugger/index
       items:
       - name: Debug Interface Access SDK
@@ -28,9 +28,6 @@
     - name: Deployment
       tocHref: /visualstudio/deployment/
       topicHref: /visualstudio/deployment/deploying-applications-services-and-components
-    - name: Designers
-      tocHref: /visualstudio/designers/
-      topicHref: /visualstudio/designers/designing-user-interfaces
     - name: Extensibility
       tocHref: /visualstudio/extensibility/
       topicHref: /visualstudio/extensibility/index
@@ -47,7 +44,7 @@
           topicHref: /visualstudio/extensibility/debugger/reference/reference-visual-studio-debugging-apis
       - name: User Experience Guidelines
         tocHref: /visualstudio/extensibility/ux-guidelines/
-        topicHref: /visualstudio/extensibility/visual-studio-user-experience-guidelines
+        topicHref: /visualstudio/extensibility/ux-guidelines/visual-studio-user-experience-guidelines
     - name: IDE Class Designer
       tocHref: /visualstudio/ide/class-designer
       topicHref: /visualstudio/ide/class-designer/designing-and-viewing-classes-and-types
@@ -71,12 +68,12 @@
       topicHref: /visualstudio/rtvs/index
     - name: Office and SharePoint
       tocHref: /visualstudio/vsto/
-      topicHref: /visualstudio/vsto/office-and-sharepoint-development-in-visual-studio      
+      topicHref: /visualstudio/vsto/office-and-sharepoint-development-in-visual-studio
       items:
       - name: SharePoint
         tocHref: /visualstudio/sharepoint/
         topicHref: /visualstudio/sharepoint/create-sharepoint-solutions
-      - name: VSTO 
+      - name: VSTO
         tocHref: /visualstudio/vsto/
         topicHref: /visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio
     - name: Testing
@@ -85,6 +82,9 @@
     - name: Workflow Designer
       tocHref: /visualstudio/workflow-designer/
       topicHref: /visualstudio/workflow-designer/developing-applications-with-the-workflow-designer
+    - name: XAML Tools
+      tocHref: /visualstudio/xaml-tools/
+      topicHref: /visualstudio/xaml-tools/
     - name: XML Tools
       tocHref: /visualstudio/xml-tools/
       topicHref: /visualstudio/xml-tools/xml-tools-in-visual-studio

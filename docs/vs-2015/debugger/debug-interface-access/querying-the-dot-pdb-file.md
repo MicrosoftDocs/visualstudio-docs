@@ -18,11 +18,11 @@ manager: jillfra
 # Querying the .Pdb File
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-A program database file (extension .pdb) is a binary file that contains type and symbolic debugging information gathered over the course of compiling and linking the project. A PDB file is created when you compile a C/C++ program with **/ZI** or **/Zi** or a [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)], [!INCLUDE[csprcs](../../includes/csprcs-md.md)], or [!INCLUDE[jsprjscript](../../includes/jsprjscript-md.md)] program with the **/debug** option. Object files contain references into the .pdb file for debugging information. For more information on pdb files, see [PDB Files](http://msdn.microsoft.com/1761c84e-8c2c-4632-9649-b5f99964ed3f). A DIA application can use the following general steps to obtain details about the various symbols, objects, and data elements within an executable image.  
+A program database file (extension .pdb) is a binary file that contains type and symbolic debugging information gathered over the course of compiling and linking the project. A PDB file is created when you compile a C/C++ program with **/ZI** or **/Zi** or a [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)], [!INCLUDE[csprcs](../../includes/csprcs-md.md)], or [!INCLUDE[jsprjscript](../../includes/jsprjscript-md.md)] program with the **/debug** option. Object files contain references into the .pdb file for debugging information. For more information on pdb files, see [PDB Files](https://msdn.microsoft.com/1761c84e-8c2c-4632-9649-b5f99964ed3f). A DIA application can use the following general steps to obtain details about the various symbols, objects, and data elements within an executable image.  
   
 ### To query the .pdb file  
   
-1.  Acquire a data source by creating an [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md) interface.  
+1. Acquire a data source by creating an [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md) interface.  
   
     ```cpp#  
     CComPtr<IDiaDataSource> pSource;  
@@ -38,7 +38,7 @@ A program database file (extension .pdb) is a binary file that contains type and
     }  
     ```  
   
-2.  Call [IDiaDataSource::loadDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md) or [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md) to load the debugging information.  
+2. Call [IDiaDataSource::loadDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md) or [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md) to load the debugging information.  
   
     ```cpp#  
     wchar_t wszFilename[ _MAX_PATH ];  
@@ -52,7 +52,7 @@ A program database file (extension .pdb) is a binary file that contains type and
     }  
     ```  
   
-3.  Call [IDiaDataSource::openSession](../../debugger/debug-interface-access/idiadatasource-opensession.md) to open an [IDiaSession](../../debugger/debug-interface-access/idiasession.md) to gain access to the debugging information.  
+3. Call [IDiaDataSource::openSession](../../debugger/debug-interface-access/idiadatasource-opensession.md) to open an [IDiaSession](../../debugger/debug-interface-access/idiasession.md) to gain access to the debugging information.  
   
     ```cpp#  
     CComPtr<IDiaSession> psession;  
@@ -62,7 +62,7 @@ A program database file (extension .pdb) is a binary file that contains type and
     }  
     ```  
   
-4.  Use the methods in `IDiaSession` to query for the symbols in the data source.  
+4. Use the methods in `IDiaSession` to query for the symbols in the data source.  
   
     ```cpp#  
     CComPtr<IDiaSymbol> pglobal;  
@@ -72,7 +72,7 @@ A program database file (extension .pdb) is a binary file that contains type and
     }  
     ```  
   
-5.  Use the `IDiaEnum*` interfaces to enumerate and scan through the symbols or other elements of debug information.  
+5. Use the `IDiaEnum*` interfaces to enumerate and scan through the symbols or other elements of debug information.  
   
     ```cpp#  
     CComPtr<IDiaEnumTables> pTables;  

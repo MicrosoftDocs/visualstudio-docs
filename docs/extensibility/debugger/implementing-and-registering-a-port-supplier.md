@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], registering port suppliers"
   - "port suppliers, registering"
 ms.assetid: fb057052-ee16-4272-8e16-a4da5dda0ad4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -49,7 +49,7 @@ RemoveMetric(metrictypePortSupplier,
 ```
 
 > [!NOTE]
->  The [SDK helpers for debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)`SetMetric` and `RemoveMetric` are static functions defined in *dbgmetric.h* and compiled into *ad2de.lib*. The `metrictypePortSupplier`, `metricCLSID`, and `metricName` helpers are also defined in *dbgmetric.h*.
+> The [SDK helpers for debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)`SetMetric` and `RemoveMetric` are static functions defined in *dbgmetric.h* and compiled into *ad2de.lib*. The `metrictypePortSupplier`, `metricCLSID`, and `metricName` helpers are also defined in *dbgmetric.h*.
 
  A port supplier can supply its name and GUID through the methods [GetPortSupplierName](../../extensibility/debugger/reference/idebugportsupplier2-getportsuppliername.md) and [GetPortSupplierId](../../extensibility/debugger/reference/idebugportsupplier2-getportsupplierid.md), respectively.
 

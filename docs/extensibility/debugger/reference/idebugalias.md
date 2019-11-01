@@ -7,15 +7,15 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugAlias interface"
 ms.assetid: 3cc4c9a4-7805-4239-b00e-eb4a024f3c55
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
 ---
 # IDebugAlias
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
+> In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
  Represents a numeric alias for a variable. An alias is simply a different name for a variable.
 
@@ -51,7 +51,7 @@ IDebugAlias : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Expression Evaluation Interfaces](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)
 - [CreateAlias](../../../extensibility/debugger/reference/idebugobject2-createalias.md)
 - [FindAlias](../../../extensibility/debugger/reference/idebugbinder3-findalias.md)

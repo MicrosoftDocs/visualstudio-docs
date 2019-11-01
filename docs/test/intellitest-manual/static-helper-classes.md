@@ -4,11 +4,11 @@ ms.date: 05/02/2017
 ms.topic: reference
 helpviewer_keywords:
   - "IntelliTest, Static helper classes"
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Static helper classes
 
@@ -134,7 +134,6 @@ PexObserve.Value<string>("result", result);
 public static class MathEx {
      public static int Square(int value) { return value * value; }
 }
-
 
 // fixture
 [TestClass]

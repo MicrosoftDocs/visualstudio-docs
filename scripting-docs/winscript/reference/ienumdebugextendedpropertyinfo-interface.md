@@ -2,7 +2,6 @@
 title: "IEnumDebugExtendedPropertyInfo Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -36,5 +35,5 @@ Enumerates `ExtendedDebugPropertyInfo` structures.
 ## Requirements  
  Header: dbgprop.h  
   
-## See Also  
+## See also  
  [ExtendedDebugPropertyInfo Structure](../../winscript/reference/extendeddebugpropertyinfo-structure.md)

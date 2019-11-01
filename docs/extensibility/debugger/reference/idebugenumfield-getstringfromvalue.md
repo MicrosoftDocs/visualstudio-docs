@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEnumField::GetStringFromValue method"
 ms.assetid: 5f95fd0c-fdce-497f-9f54-2ad8749494e9
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugEnumField::GetStringFromValue
 This method obtains the name of the enumeration constant given its value.
@@ -32,14 +35,12 @@ int GetStringFromValue(
 );
 ```
 
-#### Parameters
- `value`
+## Parameters
+`value`\
+[in] The value for which to get the name of the enumeration constant.
 
- [in] The value for which to get the name of the enumeration constant.
-
- `pbstrValue`
-
- [out] Returns the name of the enumeration constant.
+`pbstrValue`\
+[out] Returns the name of the enumeration constant.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` if the value has no associated name, or returns an error code.
@@ -47,5 +48,5 @@ int GetStringFromValue(
 ## Remarks
  If there is more than one name associated with the same value, the first name defined in the enumeration will be returned.
 
-## See Also
+## See also
 - [IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md)

@@ -15,10 +15,10 @@ ms.workload:
 You can use the Concurrency Visualizer command-line utility (*CVCollectionCmd.exe*) to collect traces from the command line so that you can view them in the Concurrency Visualizer for Visual Studio. The tools can be used on computers that do not have Visual Studio installed.
 
 > [!NOTE]
->  Starting in Visual Studio 2013, the Concurrency Visualizer is an optional extension. (Previously it had been included in Visual Studio.) You can download the [Concurrency Visualizer collection tools for Visual Studio 2015](http://www.microsoft.com/download/details.aspx?id=49103) from the Download Center.
+> Starting in Visual Studio 2013, the Concurrency Visualizer is an optional extension. (Previously it had been included in Visual Studio.) You can download the [Concurrency Visualizer collection tools for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=49103) from the Download Center.
 
 ## Download the Concurrency Visualizer command-line utility
- To download and install the command-line utility, go to [Concurrency Visualizer Collection Tools for Visual Studio 2015](http://www.microsoft.com/download/details.aspx?id=49103) and follow the instructions. By default, *CVCollectionCmd.exe* is installed in %ProgramFiles%\Microsoft Concurrency Visualizer Collection Tools\ (%ProgramFiles(x86)%\Microsoft Concurrency Visualizer Collection Tools\ on x64 computers).
+ To download and install the command-line utility, go to [Concurrency Visualizer Collection Tools for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=49103) and follow the instructions. By default, *CVCollectionCmd.exe* is installed in %ProgramFiles%\Microsoft Concurrency Visualizer Collection Tools\ (%ProgramFiles(x86)%\Microsoft Concurrency Visualizer Collection Tools\ on x64 computers).
 
 ## Collect a trace with CVCollectionCmd
  You can collect a trace by starting the app with CVCollectionCmd, or by attaching to it. See the command reference below for your options. For example
@@ -48,13 +48,12 @@ You can use the Concurrency Visualizer command-line utility (*CVCollectionCmd.ex
  If you use CVCollectionCmd to collect traces and you want to customize the collection settings, then use a configuration file to specify them.
 
 > [!NOTE]
->  When you use Visual Studio to collect traces, don't directly modify the configuration file.  Instead, use the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box to modify settings.
+> When you use Visual Studio to collect traces, don't directly modify the configuration file.  Instead, use the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box to modify settings.
 
  To modify collection settings, create a configuration file on the machine where you will run the CVCollectionCmd utility. You can create the configuration file from scratch, or you can copy the configuration file on the computer that has Visual Studio installed and modify that. The file is named *UserConfig.xml* and is located in the *Local AppData* folder. When you run the utility, use the Config option in conjunction with the Launch, Attach, or Analyze command.  In the parameter that's associated with the Config option, specify the path of the configuration file.
 
 ### Configuration file tags
  The configuration file is XML-based. Here are the valid tags and values:
-
 
 | Tag | Description | Values |
 |-------------------------| - | - |
@@ -63,7 +62,7 @@ You can use the Concurrency Visualizer command-line utility (*CVCollectionCmd.ex
 | MinorVersion | Specifies the minor version of the config file. | Must be 0 for [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] projects. If not 0, the utility will not work. |
 | IncludeEnvSymbolPath | Sets a value that determines whether the environment symbol path (_NT_SYMBOL_PATH) is used. | -   True<br />-   False |
 | DeleteEtlsAfterAnalysis | Sets a value that determines whether the ETL files are deleted when analysis completes. | -   True<br />-   False |
-| SymbolPath | Specifies the path of the symbol server. For more information, see [Use the Microsoft Symbol Server to obtain debug symbol files](http://go.microsoft.com/fwlink/?LinkID=149389). | A directory name or URL. |
+| SymbolPath | Specifies the path of the symbol server. For more information, see [Use the Microsoft Symbol Server to obtain debug symbol files](/windows/win32/dxtecharts/debugging-with-symbols). | A directory name or URL. |
 | Markers | Contains the list of marker providers. | May contain zero or more MarkerProvider elements. |
 | MarkerProvider | Specifies a single marker provider. | Must contain these elements:<br /><br /> -   Level<br />-   GUID<br />-   Name<br /><br /> Can contain these elements:<br /><br /> -   Categories<br />-   IsEnabled |
 | Level | Sets the importance level of a MarkerProvider. | -   Low<br />-   Normal<br />-   High<br />-   Critical<br />-   Everything |

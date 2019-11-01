@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1005"
 ms.assetid: 372b2f28-5c59-4815-9753-6c65b2bb3589
 caps.latest.revision: 20
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1005: Avoid excessive parameters on generic types
@@ -54,4 +54,4 @@ manager: "wpickett"
  [CA1007: Use generics where appropriate](../code-quality/ca1007-use-generics-where-appropriate.md)
 
 ## See Also
- [Generics](http://msdn.microsoft.com/library/75ea8509-a4ea-4e7a-a2b3-cf72482e9282)
+ [Generics](https://msdn.microsoft.com/library/75ea8509-a4ea-4e7a-a2b3-cf72482e9282)

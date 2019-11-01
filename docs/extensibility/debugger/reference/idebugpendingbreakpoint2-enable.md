@@ -8,11 +8,14 @@ helpviewer_keywords:
   - "IDebugPendingBreakpoint2::Enable method"
   - "Enable method"
 ms.assetid: 09e32d05-464b-40a6-a41d-76f2759cf2cd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPendingBreakpoint2::Enable
 Toggles the enabled state of the pending breakpoint.
@@ -31,10 +34,9 @@ int Enable(
 );
 ```
 
-#### Parameters
-`fEnable`
-
- [in] Set to nonzero (`TRUE`) to enable a pending breakpoint, or to zero (`FALSE`) to disable.
+## Parameters
+`fEnable`\
+[in] Set to nonzero (`TRUE`) to enable a pending breakpoint, or to zero (`FALSE`) to disable.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_BP_DELETED` if the breakpoint has been deleted.
@@ -77,5 +79,5 @@ HRESULT CPendingBreakpoint::Enable(BOOL fEnable)
 }
 ```
 
-## See Also
+## See also
 - [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)

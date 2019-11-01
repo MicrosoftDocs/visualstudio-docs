@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "glossary [Visual Studio SDK]"
   - "source control plug-ins, glossary"
 ms.assetid: f224bbc9-38fc-4c80-ab09-51dcc8969f8e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -58,5 +58,5 @@ The following helpful terms and definitions pertain to the Source Control Plug-i
  Revision
  A committed change in the history of a file or set of files. A revision is one snapshot in a continuously changing project.
 
-## See Also
+## See also
 - [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)

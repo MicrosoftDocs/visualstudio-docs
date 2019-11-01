@@ -32,7 +32,7 @@ HRESULT get_compilerName (
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 > [!NOTE]
->  A return value of `S_FALSE` means the property is not available for the symbol.
+> A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## Remarks
 
@@ -43,5 +43,5 @@ HRESULT get_compilerName (
 |Header:|dia2.h|
 |Version:|DIA SDK v8.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

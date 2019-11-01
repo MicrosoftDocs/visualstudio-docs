@@ -3,8 +3,8 @@ title: "Visual Studio Template Manifest Schema Reference | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: bc7d0a81-0df5-41a9-a912-1b30e5da1d13
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -15,22 +15,22 @@ This schema describes the format of the Visual Studio template manifest (*.vstma
  : Because there are separate item and project template directories, a manifest should never have a mix of item and project templates.
 
 > [!IMPORTANT]
->  This manifest is available starting in Visual Studio 2017.
+> This manifest is available starting in Visual Studio 2017.
 
 ## VSTemplateManifest element
  The root element of the manifest.
 
 ### Attributes
 
--   **Version**: A string representing the version of the template manifest. Required.
+- **Version**: A string representing the version of the template manifest. Required.
 
--   **Locale**: A string representing the locale or locales of the template manifest. The locale value applies to all templates. You  must use a separate manifest for each locale. Optional.
+- **Locale**: A string representing the locale or locales of the template manifest. The locale value applies to all templates. You  must use a separate manifest for each locale. Optional.
 
 ### Child elements
 
--   **VSTemplateContainer** Optional.
+- **VSTemplateContainer** Optional.
 
--   **VSTemplateDir** Optional.
+- **VSTemplateDir** Optional.
 
 ### Parent element
  None.
@@ -43,9 +43,9 @@ This schema describes the format of the Visual Studio template manifest (*.vstma
 
 ### Child elements
 
--   **RelativePathOnDisk**:  The relative path of the template file on disk. This location also defines the placement of the template in the template tree shown in the **New Project** or **New Item** dialog. For templates deployed as a directory and individual files, this path refers to the directory containing the template files. For templates deployed as a *.zip* file, this path should be the path to the *.zip* file.
+- **RelativePathOnDisk**:  The relative path of the template file on disk. This location also defines the placement of the template in the template tree shown in the **New Project** or **New Item** dialog. For templates deployed as a directory and individual files, this path refers to the directory containing the template files. For templates deployed as a *.zip* file, this path should be the path to the *.zip* file.
 
--   **VSTemplateHeader: A [TemplateData](../extensibility/templatedata-element-visual-studio-templates.md) element that describes the header.
+- **VSTemplateHeader: A [TemplateData](../extensibility/templatedata-element-visual-studio-templates.md) element that describes the header.
 
 ### Parent element
  **VSTemplateManifest**
@@ -60,13 +60,13 @@ This schema describes the format of the Visual Studio template manifest (*.vstma
 
 ### Child elements
 
--   **RelativePath**: The path of the template. There can  be only one entry per path, so the first one will win for all manifests.
+- **RelativePath**: The path of the template. There can  be only one entry per path, so the first one will win for all manifests.
 
--   **LocalizedName**: A **NameDescriptionIcon** element that specifies the localized name. Optional.
+- **LocalizedName**: A **NameDescriptionIcon** element that specifies the localized name. Optional.
 
--   **SortOrder**: A string that specifies the sort order. Optional.
+- **SortOrder**: A string that specifies the sort order. Optional.
 
--   **ParentFolderOverrideName**: The overridden name of the parent folder. Optional. This element has a **Name** attribute, which is a string value that specifies the name.
+- **ParentFolderOverrideName**: The overridden name of the parent folder. Optional. This element has a **Name** attribute, which is a string value that specifies the name.
 
 ### Parent element
  **VSTemplateManifest**
@@ -76,9 +76,9 @@ This schema describes the format of the Visual Studio template manifest (*.vstma
 
 ### Attributes
 
--   **Package**: A string value that specifies the package. Optional.
+- **Package**: A string value that specifies the package. Optional.
 
--   **ID**: A string value that specifies the ID. Optional.
+- **ID**: A string value that specifies the ID. Optional.
 
 ### Child elements
  None.
@@ -116,7 +116,7 @@ This schema describes the format of the Visual Studio template manifest (*.vstma
  The following code is an example of an item template *.vstman* file.
 
 ```xml
-VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
+<VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
   <VSTemplateContainer TemplateType="Item">
     <RelativePathOnDisk>CSharp\1033\ItemTemplate1</RelativePathOnDisk>
     <TemplateFileName>ItemTemplate1.vstemplate</TemplateFileName>

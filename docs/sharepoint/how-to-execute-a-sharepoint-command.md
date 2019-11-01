@@ -20,21 +20,21 @@ ms.workload:
 
 ### To execute a SharePoint command
 
-1.  In your SharePoint tools extension, get an <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> object. The way you get an <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> object depends on the type of extension you are creating:
+1. In your SharePoint tools extension, get an <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> object. The way you get an <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> object depends on the type of extension you are creating:
 
-    -   In an extension of the SharePoint project system, use the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject.SharePointConnection%2A> property.
+    - In an extension of the SharePoint project system, use the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject.SharePointConnection%2A> property.
 
          For more information about project system extensions, see [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md).
 
-    -   In an extension of the **SharePoint Connections** node in **Server Explorer**, use the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeContext.SharePointConnection%2A> property. To get an <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeContext> object, use the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNode.Context%2A> property.
+    - In an extension of the **SharePoint Connections** node in **Server Explorer**, use the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeContext.SharePointConnection%2A> property. To get an <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeContext> object, use the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNode.Context%2A> property.
 
          For more information about **Server Explorer** extensions, see [Extend the SharePoint connections node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md).
 
-    -   In code that is not part of an extension of the SharePoint tools, such as a project template wizard, use the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService.SharePointConnection%2A> property.
+    - In code that is not part of an extension of the SharePoint tools, such as a project template wizard, use the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService.SharePointConnection%2A> property.
 
          For more information about retrieving the project service, see [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md).
 
-2.  Call one of the ExecuteCommand methods of the <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> object. Pass the name of the command you want to execute to the first argument of the ExecuteCommand method. If your command has a custom parameter, pass that parameter to the second argument of the ExecuteCommand method.
+2. Call one of the ExecuteCommand methods of the <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> object. Pass the name of the command you want to execute to the first argument of the ExecuteCommand method. If your command has a custom parameter, pass that parameter to the second argument of the ExecuteCommand method.
 
      There is a different ExecuteCommand overload for each supported command signature. The following table lists the supported signatures and which overload to use for each signature.
 
@@ -55,11 +55,11 @@ ms.workload:
 
  Note the following details about the call to the <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection.ExecuteCommand%2A> method:
 
--   The first parameter identifies the command that you want to call. This string matches the value that you pass to the <xref:Microsoft.VisualStudio.SharePoint.Commands.SharePointCommandAttribute> on the command definition.
+- The first parameter identifies the command that you want to call. This string matches the value that you pass to the <xref:Microsoft.VisualStudio.SharePoint.Commands.SharePointCommandAttribute> on the command definition.
 
--   The second parameter is the value that you want to pass to the custom second parameter of the command. In this case, it is the full path of the *.wsp* file that is being upgraded to the SharePoint site.
+- The second parameter is the value that you want to pass to the custom second parameter of the command. In this case, it is the full path of the *.wsp* file that is being upgraded to the SharePoint site.
 
--   The code does not pass the implicit <xref:Microsoft.VisualStudio.SharePoint.Commands.ISharePointCommandContext> parameter to the command. This parameter is passed into the command automatically when you call the command from an extension of the SharePoint project system or an extension of the **SharePoint Connections** node in **Server Explorer**. In other types of solutions, such as in a project template wizard that implements the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface, this parameter is **null**.
+- The code does not pass the implicit <xref:Microsoft.VisualStudio.SharePoint.Commands.ISharePointCommandContext> parameter to the command. This parameter is passed into the command automatically when you call the command from an extension of the SharePoint project system or an extension of the **SharePoint Connections** node in **Server Explorer**. In other types of solutions, such as in a project template wizard that implements the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface, this parameter is **null**.
 
 ## Compile the code
  This example requires a reference to the Microsoft.VisualStudio.SharePoint assembly.

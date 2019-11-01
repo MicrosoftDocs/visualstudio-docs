@@ -18,7 +18,6 @@ manager: jillfra
 # AssignProjectConfiguration Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This task accepts a list configuration strings and assigns them to specified projects.  
   
 ## Task Parameters  

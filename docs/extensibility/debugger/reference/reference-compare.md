@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "REFERENCE_COMPARE enumeration"
 ms.assetid: e31cdc78-f621-498b-9ca4-aefa790b9f6f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # REFERENCE_COMPARE
 Specifies the type of comparison for references.
@@ -35,14 +38,14 @@ public enum enum_REFERENCE_COMPARE { 
 };
 ```
 
-## Members
- REF_COMPARE_EQUAL
+## Fields
+ `REF_COMPARE_EQUAL`\
  Specifies an equal-to comparison.
 
- REF_COMPARE_LESS_THAN
+ `REF_COMPARE_LESS_THAN`\
  Specifies a less-than comparison.
 
- REF_COMPARE_GREATER_THAN
+ `REF_COMPARE_GREATER_THAN`\
  Specifies a greater-than comparison.
 
 ## Remarks
@@ -55,6 +58,6 @@ public enum enum_REFERENCE_COMPARE { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [Compare](../../../extensibility/debugger/reference/idebugreference2-compare.md)

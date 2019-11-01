@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider2::IsAddressSequencePoint"
   - "IsAddressSequencePoint"
 ms.assetid: 89b27c57-5295-428b-8229-a402500d8cd3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider2::IsAddressSequencePoint
 Determines if the specified debug address is a sequence point.
@@ -29,10 +32,9 @@ int IsAddressSequencePoint(
 );
 ```
 
-#### Parameters
-`pAddress`
-
- [in] Debug address that is represented by the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
+## Parameters
+`pAddress`\
+[in] Debug address that is represented by the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
 ## Return Value
 If the debug address is a sequence point, returns `S_OK`; otherwise, returns `S_FALSE`.
@@ -78,5 +80,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)

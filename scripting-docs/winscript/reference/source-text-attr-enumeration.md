@@ -2,7 +2,6 @@
 title: "SOURCE_TEXT_ATTR Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -39,11 +38,11 @@ enum enum_SOURCE_TEXT_ATTR{    SOURCETEXT_ATTR_KEYWORD    = 0x0001,    SOURCETEX
 ## Remarks  
  Typically, the `IDebugDocumentHost::GetScriptTextAttributes`, `IActiveScriptDebug::GetScriptletTextAttributes`, and `IActiveScriptDebug::GetScriptTextAttributes` methods return one text attribute per character, unless:  
   
--   The GETATTRTYPE_DEPSCAN flag is set, in which case the method may return the SOURCETEXT_ATTR_IDENTIFIER and SOURCETEXT_ATTR_MEMBERLOOKUP flags,  
+- The GETATTRTYPE_DEPSCAN flag is set, in which case the method may return the SOURCETEXT_ATTR_IDENTIFIER and SOURCETEXT_ATTR_MEMBERLOOKUP flags,  
   
--   The GETATTRFLAG_THIS flag is set, in which case the method may return the SOURCETEXT_ATTR_THIS flag,  
+- The GETATTRFLAG_THIS flag is set, in which case the method may return the SOURCETEXT_ATTR_THIS flag,  
   
--   The GETATTRFLAG_HUMANTEXT flag is set, in which case the method may return the SOURCETEXT_ATTR_HUMANTEXT flag.  
+- The GETATTRFLAG_HUMANTEXT flag is set, in which case the method may return the SOURCETEXT_ATTR_HUMANTEXT flag.  
   
-## See Also  
+## See also  
  [Active Script Debugger Constants, Enumerations, and Structures](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)

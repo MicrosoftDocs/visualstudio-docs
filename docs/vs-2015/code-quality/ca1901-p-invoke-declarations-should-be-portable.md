@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "PInvokeDeclarationsShouldBePortable"
 ms.assetid: 90361812-55ca-47f7-bce9-b8775d3b8803
 caps.latest.revision: 25
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1901: P/Invoke declarations should be portable
@@ -32,9 +32,9 @@ manager: "wpickett"
 ## Rule Description
  Either of the following scenarios violates this rule occurs:
 
--   The return value or parameter is typed as a fixed-size integer when it should be typed as an `IntPtr`.
+- The return value or parameter is typed as a fixed-size integer when it should be typed as an `IntPtr`.
 
--   The return value or parameter is typed as an `IntPtr` when it should be typed as a fixed-size integer.
+- The return value or parameter is typed as an `IntPtr` when it should be typed as a fixed-size integer.
 
 ## How to Fix Violations
  You can fix this violation by using `IntPtr` or `UIntPtr` to represent handles instead of `Int32` or `UInt32`.
@@ -66,7 +66,7 @@ HICON ExtractIcon(HINSTANCE hInst, LPCTSTR lpszExeFileName,
 
 ```csharp
 internal class NativeMethods{
-    [DllImport("shell32.dll", CharSet=CharSet.Auto)] 
+    [DllImport("shell32.dll", CharSet=CharSet.Auto)]
     internal static extern IntPtr ExtractIcon(IntPtr hInst,
         string lpszExeFileName, uint nIconIndex);
 }

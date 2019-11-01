@@ -2,7 +2,6 @@
 title: "IDebugExpression::GetResultAsString | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -51,5 +50,5 @@ HRESULT GetResultAsString(
   
  This method returns `S_OK` and `phrResult` returns `E_ABORT` if `Abort` aborts the operation.  
   
-## See Also  
+## See also  
  [IDebugExpression Interface](../../winscript/reference/idebugexpression-interface.md)

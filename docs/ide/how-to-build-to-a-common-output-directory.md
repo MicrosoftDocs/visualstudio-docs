@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "builds [Visual Studio], common directory"
   - "common directory"
 ms.assetid: 1fcc2c48-07cb-4c4f-9556-36945e7dfc4e
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -20,13 +20,13 @@ By default, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] builds eac
 
 ## To place all solution outputs in a common directory
 
-1.  Click on one project in the solution.
+1. Click on one project in the solution.
 
-2.  On the **Project** menu, click **Properties**.
+2. On the **Project** menu, click **Properties**.
 
-3.  Depending on the type of project, click on either the **Compile** tab or the **Build** tab, and set the **Output path** to a folder to use for all projects in the solution.
+3. Depending on the type of project, click on either the **Compile** tab or the **Build** tab, and set the **Output path** to a folder to use for all projects in the solution.
 
-4.  Repeat steps 1-3 for all projects in the solution.
+4. Repeat steps 1-3 for all projects in the solution.
 
 ## See also
 

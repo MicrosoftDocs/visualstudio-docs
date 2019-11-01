@@ -23,7 +23,6 @@ manager: jillfra
 # WPF MSBuild Task Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Windows Presentation Foundation (WPF) build process extends Microsoft build engine (MSBuild) with an additional set of build tasks, including tasks to compile markup and process resources.  
   
 ## In This Section  
@@ -55,4 +54,4 @@ The Windows Presentation Foundation (WPF) build process extends Microsoft build 
  Adds the **\<hostInBrowser />** element to the application manifest (*projectname*.exe.manifest) when a [!INCLUDE[TLA#tla_xbap](../includes/tlasharptla-xbap-md.md)] project is built.  
   
 ## See Also  
- [MSBuild](http://msdn.microsoft.com/7c49aba1-ee6c-47d8-9de1-6f29a906e20b)
+ [MSBuild](https://msdn.microsoft.com/7c49aba1-ee6c-47d8-9de1-6f29a906e20b)

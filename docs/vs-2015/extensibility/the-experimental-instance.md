@@ -25,8 +25,8 @@ To safeguard your Visual Studio development environment from untested applicatio
  "*\<Visual studio installation path>*\Common7\IDE\devenv.exe" /RootSuffix Exp  
   
 > [!NOTE]
->  The experimental instance is written to the registry under the `<version number>Exp` and `<version number>Exp_Config` nodes. For example the Visual Studio 2015 experimental registry area is  
+> The experimental instance is written to the registry under the `<version number>Exp` and `<version number>Exp_Config` nodes. For example the Visual Studio 2015 experimental registry area is  
 >   
->  `HKCU\Software\Microsoft\VisualStudio\14.0Exp` and `HKCU\Software\Microsoft\VisualStudio\14.0Exp_Config`  
+> `HKCU\Software\Microsoft\VisualStudio\14.0Exp` and `HKCU\Software\Microsoft\VisualStudio\14.0Exp_Config`  
   
  We recommend that you run your extension in the experimental instance while you are developing it. When you deploy the extension, it runs in the development instance. For more information about registering applications, see [Registering VSPackages](../extensibility/internals/registering-vspackages.md).

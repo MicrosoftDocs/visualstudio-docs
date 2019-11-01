@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "setup, VSPackages"
   - "launch conditions"
 ms.assetid: 0ba94acf-bf0b-4bb3-8cca-aaac1b5d6737
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -18,16 +18,16 @@ A VSPackage cannot function unless Visual Studio is installed. When you use Micr
 ## Detect Visual Studio editions
  To determine whether an edition of Visual Studio is installed, verify that the value of the **Install** registry key is *(REG_DWORD) 1* in the appropriate folder, as listed in the following table. Note that there is a hierarchy of Visual Studio editions:
 
-1.  Enterprise
+1. Enterprise
 
-2.  Professional
+2. Professional
 
-3.  Community
+3. Community
 
 When a newer edition is installed, the registry keys for that edition are added as well as for earlier editions. That is, if the Enterprise edition is installed, the **Install** key is set to *1* for Enterprise, as well as for the Professional and Community editions. Therefore, you need to check only for the most recent edition you need.
 
 > [!NOTE]
->  In the 64-bit version of the registry editor, 32-bit keys are displayed under **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\\**. The Visual Studio keys are under **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\DevDiv\vs\Servicing\\**.
+> In the 64-bit version of the registry editor, 32-bit keys are displayed under **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\\**. The Visual Studio keys are under **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\DevDiv\vs\Servicing\\**.
 
 |Product|Key|
 |-------------|---------|

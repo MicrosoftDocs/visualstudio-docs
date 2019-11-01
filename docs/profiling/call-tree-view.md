@@ -30,7 +30,7 @@ The Call Tree view displays the function execution paths that were traversed in 
  The Call Tree view can be configured for noise reduction by limiting the amount of data that is presented. By using noise reduction, performance problems are more prominent in the view. When performance problems are easy to distinguish, analysis is easier. For more information, see [How to: Configure noise reduction in report views](../profiling/how-to-configure-noise-reduction-in-report-views.md).
 
 > [!NOTE]
->  If noise reduction is configured to display a warning when it is enabled, an information bar will be displayed in the report.
+> If noise reduction is configured to display a warning when it is enabled, an information bar will be displayed in the report.
 
  For more information about definitions for columns in the Call Tree view, see the following:
 

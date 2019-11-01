@@ -2,7 +2,6 @@
 title: "IActiveScriptSiteInterruptPoll::QueryContinue | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -44,6 +43,6 @@ HRESULT QueryContinue();
   
  A multithreaded host may use the `IActiveScript::InterruptScriptThread` method to terminate a script.  
   
-## See Also  
+## See also  
  [IActiveScriptSiteInterruptPoll Interface](../../winscript/reference/iactivescriptsiteinterruptpoll-interface.md)   
  [IActiveScript::InterruptScriptThread](../../winscript/reference/iactivescript-interruptscriptthread.md)

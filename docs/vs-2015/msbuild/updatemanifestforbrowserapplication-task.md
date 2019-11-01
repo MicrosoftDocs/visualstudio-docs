@@ -23,7 +23,6 @@ manager: jillfra
 # UpdateManifestForBrowserApplication Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> task is run to add the **\<hostInBrowser />** element to the application manifest (*projectname*.exe.manifest) when a [!INCLUDE[TLA#tla_xbap](../includes/tlasharptla-xbap-md.md)] project is built.  
   
 ## Task Parameters  
@@ -34,7 +33,7 @@ The <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> tas
 |`HostInBrowser`|Required **Boolean** parameter.<br /><br /> Specifies whether to modify the application manifest to include the **\<hostInBrowser />** element. If **true**, a new `<`**hostInBrowser />** element is included in the **\<entryPoint />** element. Note that element inclusion is cumulative: if a **\<hostInBrowser />** element already exists, it is not removed or overwritten. Instead, an additional **\<hostInBrowser />** element is created. If **false**, the application manifest is not modified.|  
   
 ## Remarks  
- [!INCLUDE[TLA2#tla_xbap#plural](../includes/tla2sharptla-xbapsharpplural-md.md)] are run by using [!INCLUDE[TLA#tla_clickonce](../includes/tlasharptla-clickonce-md.md)] deployment and, therefore, must by published with supporting deployment and application manifests. [!INCLUDE[TLA#tla_msbuild](../includes/tlasharptla-msbuild-md.md)] uses the [GenerateApplicationManifest](http://msdn2.microsoft.com/library/6wc2ccdc.aspx) task to generate an application manifest.  
+ [!INCLUDE[TLA2#tla_xbap#plural](../includes/tla2sharptla-xbapsharpplural-md.md)] are run by using [!INCLUDE[TLA#tla_clickonce](../includes/tlasharptla-clickonce-md.md)] deployment and, therefore, must by published with supporting deployment and application manifests. [!INCLUDE[TLA#tla_msbuild](../includes/tlasharptla-msbuild-md.md)] uses the [GenerateApplicationManifest](/dotnet/api/microsoft.build.tasks.generateapplicationmanifest) task to generate an application manifest.  
   
  Then, to configure an application to be hosted from a browser, an additional element, **\<hostInBrowser />** must be added to the application manifest, as show in the following example:  
   
@@ -75,5 +74,5 @@ The <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> tas
  [Task Reference](../msbuild/wpf-msbuild-task-reference.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Building a WPF Application (WPF)](http://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c)   
- [WPF XAML Browser Applications Overview](http://msdn.microsoft.com/library/3a7a86a8-75d5-4898-96b9-73da151e5e16)
+ [Building a WPF Application (WPF)](https://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c)   
+ [WPF XAML Browser Applications Overview](https://msdn.microsoft.com/library/3a7a86a8-75d5-4898-96b9-73da151e5e16)

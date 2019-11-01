@@ -3,8 +3,8 @@ title: Symbols for mixed-mode Python/C++ debugging
 description: How Visual Studio provides the ability to load symbols for complete mixed-mode C++ and Python debugging.
 ms.date: 11/12/2018
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
   - python
@@ -15,7 +15,7 @@ ms.workload:
 
 To provide a full debugging experience, the [mixed-mode Python debugger](debugging-mixed-mode-c-cpp-python-in-visual-studio.md) in Visual Studio needs debug symbols for the Python interpreter being used to parse numerous internal data structures. For *python27.dll*, for example, the corresponding symbol file is *python27.pdb*; for *python36.dll*, the symbol file is *python36.pdb*. Each version of the interpreter also supplies symbol files for a variety of modules.
 
-With Visual Studio 2017, the Python 3 and Anaconda 3 interpreters automatically install their respective symbols and Visual Studio finds those symbols automatically. For Visual Studio 2015 and earlier, or when using other interpreters, you need to download symbols separately and then point Visual Studio to them through the **Tools** > **Options** dialog in the **Debugging** > **Symbols** tab. These steps are detailed in the following sections.
+With Visual Studio 2017 and later, the Python 3 and Anaconda 3 interpreters automatically install their respective symbols and Visual Studio finds those symbols automatically. For Visual Studio 2015 and earlier, or when using other interpreters, you need to download symbols separately and then point Visual Studio to them through the **Tools** > **Options** dialog in the **Debugging** > **Symbols** tab. These steps are detailed in the following sections.
 
 Visual Studio may prompt you when it needs symbols, typically when starting a mixed-mode debugging session. In this case, it displays a dialog with two choices:
 
@@ -49,7 +49,7 @@ If you downloaded symbols separately, follow the steps below to make Visual Stud
 
     ![Mixed mode debugger symbols options](media/mixed-mode-debugging-symbols.png)
 
-1. During a debugging session, Visual Studio might also prompt you for the location of a source file for the Python interpreter. If you've downloaded source files (from [python.org/downloads](https://www.python.org/downloads), for example), then you of course can point to them as well.
+1. During a debugging session, Visual Studio might also prompt you for the location of a source file for the Python interpreter. If you've downloaded source files (from [python.org/downloads/](https://www.python.org/downloads/), for example), then you of course can point to them as well.
 
 > [!Note]
 > The symbol caching features shown in the dialog are used to create a local cache of symbols obtained from an online source. These features aren't needed with the Python interpreter symbols as symbols are already present locally. In any case, refer to [Specify symbols and source files in the Visual Studio debugger](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) for details.

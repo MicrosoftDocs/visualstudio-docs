@@ -24,19 +24,19 @@ myFunction() = 42;  // Attempting to assign the value 42 to the result of the fu
   
 ### To correct this error  
   
--   Do not use the value of a function call result as something you can *assign to*. You can assign the result of the function call *to a variable* though.  
+- Do not use the value of a function call result as something you can *assign to*. You can assign the result of the function call *to a variable* though.  
   
     ```JavaScript  
     myVar = myFunction(42);  
     ```  
   
--   Alternatively, you can assign the function itself (and not its return value) to a variable.  
+- Alternatively, you can assign the function itself (and not its return value) to a variable.  
   
     ```JavaScript  
     myFunction = new Function("return 42;");  
     ```  
   
-## See Also  
+## See also  
  [Function Object](../../javascript/reference/function-object-javascript.md)   
  [Writing JavaScript Code](../../javascript/writing-javascript-code.md)   
  [Functions](../../javascript/functions-javascript.md)

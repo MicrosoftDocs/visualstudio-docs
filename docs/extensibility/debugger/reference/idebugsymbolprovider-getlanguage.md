@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugSymbolProvider::GetLanguage method"
 ms.assetid: e4142183-3d8b-418f-907f-4ee4c753d8ce
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugSymbolProvider::GetLanguage
 This method gets the language that was used to compile the code at the debug address.
@@ -34,18 +37,15 @@ int GetLanguage(
 );
 ```
 
-#### Parameters
- `pAddress`
+## Parameters
+`pAddress`\
+[in] An address object represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
- [in] An address object represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
+`pguidLanguage`\
+[out] Returns a `GUID` that specifies the language.
 
- `pguidLanguage`
-
- [out] Returns a `GUID` that specifies the language.
-
- `pguidLanguageVendor`
-
- [out] Returns a `GUID` that specifies the language vendor.
+`pguidLanguageVendor`\
+[out] Returns a `GUID` that specifies the language vendor.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -53,6 +53,6 @@ int GetLanguage(
 ## Remarks
  The debug engine calls this method to obtain the information it needs to select the correct expression evaluator.
 
-## See Also
+## See also
 - [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
 - [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)

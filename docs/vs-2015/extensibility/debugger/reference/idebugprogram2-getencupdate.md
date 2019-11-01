@@ -40,7 +40,7 @@ int GetENCUpdate(
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
 > [!NOTE]
->  A custom debug engine should always return `E_NOTIMPL`.  
+> A custom debug engine should always return `E_NOTIMPL`.  
   
 ## See Also  
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

@@ -70,7 +70,7 @@ DXCap.exe -info
  Under validation mode, `events` specifies the set of graphics events whose immediate results are compared. For example, `-examine present,draw,copy,clear` limits the comparison to only the events belonging to those categories.
 
 > [!TIP]
->  We recommend starting with `-examine present,draw,copy,clear` because this will reveal most issues but take significantly less time than a more extensive set of events. If necessary, you can specify a larger or different set of events to validate those events and reveal other kinds of issues.
+> We recommend starting with `-examine present,draw,copy,clear` because this will reveal most issues but take significantly less time than a more extensive set of events. If necessary, you can specify a larger or different set of events to validate those events and reveal other kinds of issues.
 
  `-haltonfail`
  Under validation mode, `-haltonfail` halts validation when differences are detected between the hardware and WARP renderer. Validation resumes after a key is pressed.
@@ -131,7 +131,7 @@ DXCap.exe -c "C:\Program Files\Internet Explorer\iexplorer.exe" "www.fishgl.com"
  The command in the example above captures graphics information from the desktop version of Internet Explorer while viewing the webpage located at www.fishgl.com which uses the WebGL API to render 3-D content.
 
 > [!NOTE]
->  Because command line arguments that appear after the app are passed to it, you must specify the arguments intended for DXCap.exe before using the `-c` option.
+> Because command line arguments that appear after the app are passed to it, you must specify the arguments intended for DXCap.exe before using the `-c` option.
 
 ### Capture graphics information from a UWP app.
  You can capture graphics information from a UWP app.

@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], checking out"
   - "source control [Visual Studio SDK], undo checkout"
 ms.assetid: ce00c5a5-d472-4f45-8776-d77a1fbe9d37
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -27,21 +27,21 @@ The following [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integ
 
 ##### Check Out:
 
--   **File**, **Source Control**, **Check Out**.
+- **File**, **Source Control**, **Check Out**.
 
--   **File**, **Check Out**.
+- **File**, **Check Out**.
 
--   Shortcut Menu, **Check Out**.
+- Shortcut Menu, **Check Out**.
 
--   Undo Checkout: **File**, **Source Control**, **Undo Checkout**.
+- Undo Checkout: **File**, **Source Control**, **Undo Checkout**.
 
 ## Common Expected Behavior
 
--   After the check out operation, the target file(s) and/or folder(s) are marked as checked out in the version store.
+- After the check out operation, the target file(s) and/or folder(s) are marked as checked out in the version store.
 
--   The version store attributes the checkout to the correct user.
+- The version store attributes the checkout to the correct user.
 
--   The time and date of the checkout are correct (per the user's settings).
+- The time and date of the checkout are correct (per the user's settings).
 
 ## Test Cases
 
@@ -68,11 +68,11 @@ When the user reconnects to the version store, the checkout states of all of the
 
 #### Expected Behavior
 
--   Cannot use **Check Out Exclusively** command while disconnected from the version store.
+- Cannot use **Check Out Exclusively** command while disconnected from the version store.
 
--   Cannot use **Undo Checkout** command while disconnected from the version store.
+- Cannot use **Undo Checkout** command while disconnected from the version store.
 
--   **Shared Check Out** command works.
+- **Shared Check Out** command works.
 
 |Action|Test Steps|Expected Results to Verify|
 |------------|----------------|--------------------------------|
@@ -83,13 +83,13 @@ When the user reconnects to the version store, the checkout states of all of the
 
 #### Expected Behavior
 
--   After the check out operation, the target file(s) and/or folder(s) are marked as checked out in the version store.
+- After the check out operation, the target file(s) and/or folder(s) are marked as checked out in the version store.
 
--   The version store attributes the check out to the correct user.
+- The version store attributes the check out to the correct user.
 
--   The time and date of the check out are correct (per the user's settings).
+- The time and date of the check out are correct (per the user's settings).
 
--   The local copy of the target file or folder is writeable.
+- The local copy of the target file or folder is writeable.
 
 |Action|Test Steps|Expected Results to Verify|
 |------------|----------------|--------------------------------|
@@ -102,13 +102,13 @@ When the user reconnects to the version store, the checkout states of all of the
 
 #### Expected Behavior
 
--   After the check out operation, the target file(s) and/or folder(s) are marked as checked out in the version store.
+- After the check out operation, the target file(s) and/or folder(s) are marked as checked out in the version store.
 
--   The version store attributes the check out to the correct user.
+- The version store attributes the check out to the correct user.
 
--   The time and date of the check out is correct (per the user's settings).
+- The time and date of the check out is correct (per the user's settings).
 
--   The local copy of the target file or folder is writeable.
+- The local copy of the target file or folder is writeable.
 
 |Action|Test Steps|Expected Results to Verify|
 |------------|----------------|--------------------------------|
@@ -120,9 +120,9 @@ When the user reconnects to the version store, the checkout states of all of the
 
 #### Expected Behavior
 
--   The default is based upon the user's **Check out Local Version** setting. If the user has chosen to check out local version, then the default for undo checkout is to always revert to the version checked out.
+- The default is based upon the user's **Check out Local Version** setting. If the user has chosen to check out local version, then the default for undo checkout is to always revert to the version checked out.
 
--   Upon acceptance of the undo, the icons in **Solution Explorer** are updated for affected files and the item is removed from the **Pending Checkins** window.
+- Upon acceptance of the undo, the icons in **Solution Explorer** are updated for affected files and the item is removed from the **Pending Checkins** window.
 
 |Action|Test Steps|Expected Results to Verify|
 |------------|----------------|--------------------------------|
@@ -131,5 +131,5 @@ When the user reconnects to the version store, the checkout states of all of the
 |Undo Checkout of a project after adding file(s) to the project|1.  Create a new project and add it to source control.<br />2.  Check out the project.<br />3.  Add a file to the project.<br />4.  Undo Checkout of the project.|Added file is removed from the project in Solution Explorer.<br /><br /> Project is no longer checked out.|
 |Undo Checkout of a project after deleting file(s) from the project|1.  Create a new project and add it to source control.<br />2.  Check out the project.<br />3.  Delete a file from the project.<br />4.  Undo Checkout of the project.|Deleted file appears under the project in Solution Explorer.<br /><br /> Project is no longer checked out.|
 
-## See Also
+## See also
 - [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

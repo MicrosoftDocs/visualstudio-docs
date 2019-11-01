@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Start command"
   - "Debug.Start command"
 ms.assetid: dc4e4aa2-b0ab-4e00-92db-6dc3058ddc21
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -24,21 +24,21 @@ Debug.Start [address]
 ```
 
 ## Arguments
- `address`
+`address`
 
- Optional. The address at which the program suspends execution, similar to a breakpoint in source code. This argument is only valid in debug mode.
+Optional. The address at which the program suspends execution, similar to a breakpoint in source code. This argument is only valid in debug mode.
 
 ## Remarks
- The **Start** command, when executed, performs a RunToCursor operation to the specified address.
+The **Start** command, when executed, performs a RunToCursor operation to the specified address.
 
 ## Example
- This example starts the debugger and ignores any exceptions that occur.
+This example starts the debugger and ignores any exceptions that occur.
 
 ```cmd
 >Debug.Start
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

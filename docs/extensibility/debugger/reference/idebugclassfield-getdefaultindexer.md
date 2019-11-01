@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugClassField::GetDefaultIndexer method"
 ms.assetid: 47ce4f45-3816-4b40-909c-5032d0692d75
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugClassField::GetDefaultIndexer
 Gets the name of the default indexer.
@@ -30,10 +33,9 @@ int GetDefaultIndexer(
 );
 ```
 
-#### Parameters
- `pbstrIndexer`
-
- [out] Returns a string containing the name of the default indexer.
+## Parameters
+`pbstrIndexer`
+[out] Returns a string containing the name of the default indexer.
 
 ## Return Value
  If successful, returns S_OK or returns S_FALSE if there is no default indexer. Otherwise, returns an error code.
@@ -71,5 +73,5 @@ Function GetItem(Index as Integer) as Integer
 End Function
 ```
 
-## See Also
+## See also
 - [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)

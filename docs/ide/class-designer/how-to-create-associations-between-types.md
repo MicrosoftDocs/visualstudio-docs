@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "associations, types"
   - "association lines"
 ms.assetid: adccb9c8-2f8a-4086-9fa9-f70f99fb6e00
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

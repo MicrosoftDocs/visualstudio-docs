@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::CreateTypeFromPrimitive"
   - "CreateTypeFromPrimitive"
 ms.assetid: 37213cc2-a038-42ea-9b28-3ae40d4cfe69
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::CreateTypeFromPrimitive
 Creates a type from the specified primitive type.
@@ -33,18 +36,15 @@ int CreateTypeFromPrimitive(
 );
 ```
 
-#### Parameters
-`dwPrimType`
+## Parameters
+`dwPrimType`\
+[in] Value from the [CorElementType Enumeration](/dotnet/framework/unmanaged-api/metadata/corelementtype-enumeration) that represents the primitive type.
 
- [in] Value from the [CorElementType Enumeration](/dotnet/framework/unmanaged-api/metadata/corelementtype-enumeration) that represents the primitive type.
+`pAddress`\
+[in] An address object represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
-`pAddress`
-
- [in] An address object represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
-
-`ppType`
-
- [in] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that describes the type.
+`ppType`\
+[in] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that describes the type.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -89,5 +89,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

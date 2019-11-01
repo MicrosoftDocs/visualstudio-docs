@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], breakpoint methods"
   - "breakpoints, methods"
 ms.assetid: a6f77bf0-bf81-443f-8683-5f12075bbe10
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -15,11 +15,11 @@ ms.workload:
 # Breakpoint-related methods
 A debug engine (DE) must support the setting of breakpoints. Visual Studio debugging supports the following types of breakpoints:
 
--   Bound
+- Bound
 
      Requested through the UI and successfully bound to a specified code location
 
--   Pending
+- Pending
 
      Requested through the UI but not yet bound to actual instructions
 

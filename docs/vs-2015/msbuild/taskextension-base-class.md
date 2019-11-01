@@ -21,7 +21,6 @@ manager: jillfra
 # TaskExtension Base Class
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Many tasks inherit from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. This inheritance chain adds several parameters to the tasks that derive from them. These parameters are listed in this document.  
   
 ## Parameters  

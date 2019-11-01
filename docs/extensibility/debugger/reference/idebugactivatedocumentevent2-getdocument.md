@@ -8,11 +8,14 @@ helpviewer_keywords:
   - "GetDocument method"
   - "IDebugActivateDocumentEvent2::GetDocument method"
 ms.assetid: b3c32f1b-f3de-409d-920d-ba7b3fa84fcd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugActivateDocumentEvent2::GetDocument
 Gets the document to activate.
@@ -31,14 +34,13 @@ int GetDocument ( 
 );
 ```
 
-#### Parameters
- `ppDoc`
-
- [out] Returns an [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) object that represents the document to be activated.
+## Parameters
+`ppDoc`\
+[out] Returns an [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) object that represents the document to be activated.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugActivateDocumentEvent2](../../../extensibility/debugger/reference/idebugactivatedocumentevent2.md)
 - [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)

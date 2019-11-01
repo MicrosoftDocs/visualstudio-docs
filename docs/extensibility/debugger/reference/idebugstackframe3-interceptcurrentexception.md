@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugStackFrame3::InterceptCurrentException"
 ms.assetid: 116c7324-7645-4c15-b484-7a5cdd065ef5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugStackFrame3::InterceptCurrentException
 Called by the debugger on the current stack frame when it wants to intercept the current exception.
@@ -32,14 +35,12 @@ int InterceptCurrentException(
 );
 ```
 
-#### Parameters
- `dwFlags`
+## Parameters
+`dwFlags`\
+[in] Specifies different actions. Currently, only the [INTERCEPT_EXCEPTION_ACTION](../../../extensibility/debugger/reference/intercept-exception-action.md) value `IEA_INTERCEPT` is supported and must be specified.
 
- [in] Specifies different actions. Currently, only the [INTERCEPT_EXCEPTION_ACTION](../../../extensibility/debugger/reference/intercept-exception-action.md) value `IEA_INTERCEPT` is supported and must be specified.
-
- `pqwCookie`
-
- [out] Unique value identifying a particular exception.
+`pqwCookie`\
+[out] Unique value identifying a particular exception.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.
@@ -58,11 +59,11 @@ int InterceptCurrentException(
  When the debugger wants to know if the exception should be intercepted, it calls this method on the current stack frame object. This method is responsible for handling all details of the exception. If the [IDebugStackFrame3](../../../extensibility/debugger/reference/idebugstackframe3.md) interface is not implemented or the `InterceptStackException` method returns any error, then the debugger continues processing the exception normally.
 
 > [!NOTE]
->  Exceptions can be intercepted only in managed code, that is, when the program being debugged is running under the .NET run time. Of course, third-party language implementers can implement `InterceptStackException` in their own debug engines if they so choose.
+> Exceptions can be intercepted only in managed code, that is, when the program being debugged is running under the .NET run time. Of course, third-party language implementers can implement `InterceptStackException` in their own debug engines if they so choose.
 
  After the interception is complete, an [IDebugInterceptExceptionCompleteEvent2](../../../extensibility/debugger/reference/idebuginterceptexceptioncompleteevent2.md) is signaled.
 
-## See Also
+## See also
 - [IDebugStackFrame3](../../../extensibility/debugger/reference/idebugstackframe3.md)
 - [INTERCEPT_EXCEPTION_ACTION](../../../extensibility/debugger/reference/intercept-exception-action.md)
 - [IDebugInterceptExceptionCompleteEvent2](../../../extensibility/debugger/reference/idebuginterceptexceptioncompleteevent2.md)

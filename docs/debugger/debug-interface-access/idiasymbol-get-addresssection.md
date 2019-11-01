@@ -33,7 +33,7 @@ HRESULT get_addressSection ( 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 > [!NOTE]
->  A return value of `S_FALSE` means that the property is not available for the symbol.
+> A return value of `S_FALSE` means that the property is not available for the symbol.
 
 ## Remarks
  For static members located in an external DLL, the section returned by this method may be 0 as this method relies on obtaining the virtual address of the member. Virtual addresses are valid only if the [IDiaSession::put_loadAddress](../../debugger/debug-interface-access/idiasession-put-loadaddress.md) method in the [IDiaSession](../../debugger/debug-interface-access/idiasession.md) interface has been called with a nonzero parameter specifying the load address of the DLL.
@@ -47,6 +47,6 @@ HRESULT get_addressSection ( 
 |Header:|dia2.h|
 |Version:|DIA SDK v7.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)

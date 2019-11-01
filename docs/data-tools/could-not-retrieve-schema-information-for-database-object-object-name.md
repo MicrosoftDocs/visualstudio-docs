@@ -3,8 +3,8 @@ title: Could not retrieve schema information for database object
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: a1c8f833-c918-4a86-9679-d2a791f938a9
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"
@@ -15,5 +15,4 @@ This message typically appears when an object in **Server Explorer** or **Databa
 
 ## See also
 
-- [O/R Designer messages](../data-tools/o-r-designer-messages.md)
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccDiff function"
 ms.assetid: d49bc8c5-f631-4153-9d3c-feb3564da305
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -71,7 +71,7 @@ SCCRTN SccDiff(
  As a performance optimization, the source control plug-in may use an alternative based on a checksum or a timestamp instead of the byte-by-byte comparison called for by `SCC_DIFF_CONTENTS`: these forms of comparison are obviously faster but less reliable. Not all source control systems may support these alternative comparison methods, and the plug-in may have to fall back to a contents comparison. All source control plug-ins must, at a minimum, support a contents comparison.
 
 > [!NOTE]
->  The quick difference flags are mutually exclusive. It is valid to pass no flags, but it is not valid to simultaneously pass more than one. `SCC_DIFF_QUICK_DIFF`, which is a mask that combines all flags, can be used to test, but it should never be passed as a parameter.
+> The quick difference flags are mutually exclusive. It is valid to pass no flags, but it is not valid to simultaneously pass more than one. `SCC_DIFF_QUICK_DIFF`, which is a mask that combines all flags, can be used to test, but it should never be passed as a parameter.
 
 |`fOption`|Meaning|
 |---------------|-------------|

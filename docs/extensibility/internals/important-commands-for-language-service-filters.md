@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "language services, filters"
   - "language services, commands to support"
 ms.assetid: 4948c494-3d4d-4f50-b3f9-959e73f90e4d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -18,7 +18,7 @@ If you want to create a fully featured language service filter, consider handlin
 ## Commands to Handle
 
 > [!NOTE]
->  It is not mandatory to filter for every command in the following table.
+> It is not mandatory to filter for every command in the following table.
 
 |Command|Description|
 |-------------|-----------------|
@@ -32,5 +32,5 @@ If you want to create a fully featured language service filter, consider handlin
 |<xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID>|Typically sent when the user types CTRL+SPACEBAR. This command tells the language service to call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.UpdateCompletionStatus%2A> method on the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>.|
 |<xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID><br /><br /> <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID>|Sent from a menu, typically **Comment Selection** or **Uncomment Selection** from **Advanced** in the **Edit** menu. <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID> indicates that the user wants to comment out the selected text; <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID> indicates that the user wants to uncomment the selected text. These commands can be implemented only by the language service.|
 
-## See Also
+## See also
 - [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)

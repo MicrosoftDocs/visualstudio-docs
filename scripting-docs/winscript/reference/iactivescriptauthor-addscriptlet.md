@@ -2,7 +2,6 @@
 title: "IActiveScriptAuthor::AddScriptlet | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -71,5 +70,5 @@ HRESULT AddScriptlet(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IActiveScriptAuthor Interface](../../winscript/reference/iactivescriptauthor-interface.md)

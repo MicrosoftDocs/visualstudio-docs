@@ -31,15 +31,15 @@ When publishing a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applica
   
 ### To specify a support URL  
   
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
   
-2.  Click the **Publish** tab.  
+2. Click the **Publish** tab.  
   
-3.  Click the **Options** button to open the **Publish Options** dialog box.  
+3. Click the **Options** button to open the **Publish Options** dialog box.  
   
-4.  Click **Description**.  
+4. Click **Description**.  
   
-5.  In the **Support URL** field, enter a fully qualified path to a Web site, Web page, or UNC share.  
+5. In the **Support URL** field, enter a fully qualified path to a Web site, Web page, or UNC share.  
   
 ## See Also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   

@@ -59,7 +59,7 @@ Visual Studio *Graphics Diagnostics* is a set of tools for recording and then an
 
 ##### To open the DirectX control panel
 
--   On the menu bar, choose **Debug**, **Graphics**, **DirectX Control Panel**.
+- On the menu bar, choose **Debug**, **Graphics**, **DirectX Control Panel**.
 
 ## Graphics Analyzer
  The Visual Studio Graphics Analyzer is a dedicated interface for examining rendering and performance problems in frames you've already captured. Inside Graphics Analyzer, you'll find several tools to help you explore and understand the rendering behavior of your app. Each tool exposes a different kind of information about the frame that's being inspected, and the tools are designed to be used in concert to intuitively narrow-in on the source of a rendering problem, starting from the its appearance in the framebuffer.

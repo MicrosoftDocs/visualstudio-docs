@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugReference2::SetValueAsReference"
 ms.assetid: 94a545d2-16b9-45e9-b2e7-4e49ff90aad0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugReference2::SetValueAsReference
 Sets the value of a reference from another reference. Reserved for future use.
@@ -36,25 +39,21 @@ int SetValueAsReference ( 
 );
 ```
 
-#### Parameters
- `rgpArgs`
+## Parameters
+`rgpArgs`\
+[in] An array of [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) objects used to determine how to set the reference value.
 
- [in] An array of [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) objects used to determine how to set the reference value.
+`dwArgCount`\
+[in] The number of references in the array.
 
- `dwArgCount`
+`pValue`\
+[in] An [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object from which to set the property value.
 
- [in] The number of references in the array.
-
- `pValue`
-
- [in] An [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object from which to set the property value.
-
- `dwTimeout`
-
- [in] Maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
+`dwTimeout`\
+[in] Maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
 
 ## Return Value
  Always returns `E_NOTIMPL`.
 
-## See Also
+## See also
 - [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)

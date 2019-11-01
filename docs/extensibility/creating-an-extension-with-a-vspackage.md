@@ -1,23 +1,25 @@
 ---
 title: "Creating an Extension with a VSPackage | Microsoft Docs"
-ms.date: "11/04/2016"
+ms.date: "3/16/2019"
 ms.topic: "conceptual"
 ms.assetid: c0cc5e08-4897-44f2-8309-e3478f1f999e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
 ---
 # Create an extension with a VSPackage
+
 This walkthrough shows you how to create a VSIX project and add a VSPackage project item. We will use the VSPackage to get the UI Shell service in order to show a message box.
 
 ## Prerequisites
+
 Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create a VSPackage
 
-1. Create a VSIX project named **FirstPackage**. You can find the VSIX project template in the **New Project** dialog under **Visual C#** > **Extensibility**.
+1. Create a VSIX project named **FirstPackage**. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".
 
 2. When the project opens, add a Visual Studio package item template named **FirstPackage**. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. In the **Add New Item** dialog, go to **Visual C#** > **Extensibility** and select **Visual Studio Package**. In the **Name** field at the bottom of the window, change the command file name to *FirstPackage.cs*.
 
@@ -28,9 +30,10 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 4. In the experimental instance, open the **Tools** > **Extensions and Updates** window. You should see the **FirstPackage** extension here. (If you open **Extensions and Updates** in your working instance of Visual Studio, you won't see **FirstPackage**).
 
 ## Load the VSPackage
-At this point the extension does not load, because there is nothing that causes it to load. You can generally load an extension when you interact with its UI (clicking a menu command, opening a tool window), or by specifying that the VSPackage should load in a specific UI context. For more information about loading VSPackages and UI contexts, see [Loading VSPackages](../extensibility/loading-vspackages.md). For this procedure, we'll show you how to load a VSPackage when a solution is open.
 
-1. Open the *FirstPackage.cs* file. Look for the declaration of the `FirstPackage` class. Replace the existing attributes with following:
+At this point, the extension does not load because there is nothing that causes it to load. You can generally load an extension when you interact with its UI (clicking a menu command, opening a tool window), or by specifying that the VSPackage should load in a specific UI context. For more information about loading VSPackages and UI contexts, see [Loading VSPackages](../extensibility/loading-vspackages.md). For this procedure, we'll show you how to load a VSPackage when a solution is open.
+
+1. Open the *FirstPackage.cs* file. Look for the declaration of the `FirstPackage` class. Replace the existing attributes with the following attributes:
 
     ```csharp
     [PackageRegistration(UseManagedResourcesOnly = true)]

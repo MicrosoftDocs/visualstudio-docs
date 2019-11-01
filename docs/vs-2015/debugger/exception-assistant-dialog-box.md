@@ -54,6 +54,6 @@ The **Exception Assistant** dialog box appears when a run-time exception is thro
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [Use the Exception Assistant](http://msdn.microsoft.com/library/e0a78c50-7318-4d54-af51-40c00aea8711)   
- [How to: Correct Run-Time Errors with the Exception Assistant](http://msdn.microsoft.com/library/23b08d45-7b20-42c9-bdc9-fb3157ad823b)   
- [Error Types](http://msdn.microsoft.com/library/3048aabf-8c97-4e13-9150-853769cb5f6f)
+ [Use the Exception Assistant](https://msdn.microsoft.com/library/e0a78c50-7318-4d54-af51-40c00aea8711)   
+ [How to: Correct Run-Time Errors with the Exception Assistant](https://msdn.microsoft.com/library/23b08d45-7b20-42c9-bdc9-fb3157ad823b)   
+ [Error Types](https://msdn.microsoft.com/library/3048aabf-8c97-4e13-9150-853769cb5f6f)

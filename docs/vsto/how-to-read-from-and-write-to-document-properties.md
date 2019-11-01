@@ -19,8 +19,6 @@ ms.workload:
 # How to: Read from and write to document properties
   You can store document properties along with a document. Office applications provide a number of built-in properties, such as author, title, and subject. This topic shows how to set document properties in Microsoft Office Excel and Microsoft Office Word.
 
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Access and manipulate custom document properties in Microsoft Word?](http://go.microsoft.com/fwlink/?LinkId=136772).
-
  [!INCLUDE[appliesto_docprops](../vsto/includes/appliesto-docprops-md.md)]
 
 ## Set document properties in Excel
@@ -36,12 +34,12 @@ ms.workload:
 
 ### To change the Revision Number property in Excel
 
-1.  Assign the built-in document properties to a variable.
+1. Assign the built-in document properties to a variable.
 
      [!code-vb[Trin_VstcoreProgramming#7](../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingExcelVB/ThisWorkbook.vb#7)]
      [!code-csharp[Trin_VstcoreProgramming#7](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingExcelCS/ThisWorkbook.cs#7)]
 
-2.  Increment the `Revision Number` property by one.
+2. Increment the `Revision Number` property by one.
 
      [!code-vb[Trin_VstcoreProgramming#8](../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingExcelVB/ThisWorkbook.vb#8)]
      [!code-csharp[Trin_VstcoreProgramming#8](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingExcelCS/ThisWorkbook.cs#8)]
@@ -59,12 +57,12 @@ ms.workload:
 
 ### To change the Subject property
 
-1.  Assign the built-in document properties to a variable.
+1. Assign the built-in document properties to a variable.
 
      [!code-csharp[Trin_VstcoreProgrammingWord#1](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingWordCS/ThisDocument.cs#1)]
      [!code-vb[Trin_VstcoreProgrammingWord#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingWordVB/ThisDocument.vb#1)]
 
-2.  Change the `Subject` property to "Whitepaper".
+2. Change the `Subject` property to "Whitepaper".
 
      [!code-csharp[Trin_VstcoreProgrammingWord#2](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingWordCS/ThisDocument.cs#2)]
      [!code-vb[Trin_VstcoreProgrammingWord#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingWordVB/ThisDocument.vb#2)]

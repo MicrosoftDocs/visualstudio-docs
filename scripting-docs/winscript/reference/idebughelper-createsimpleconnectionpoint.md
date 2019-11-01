@@ -2,7 +2,6 @@
 title: "IDebugHelper::CreateSimpleConnectionPoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -48,6 +47,6 @@ HRESULT CreateSimpleConnectionPoint(
 ## Remarks  
  Returns an event interface that wraps the given `IDispatch` (see [ISimpleConnectionPoint Interface](../../winscript/reference/isimpleconnectionpoint-interface.md)).  
   
-## See Also  
+## See also  
  [IDebugHelper Interface](../../winscript/reference/idebughelper-interface.md)   
  [ISimpleConnectionPoint Interface](../../winscript/reference/isimpleconnectionpoint-interface.md)

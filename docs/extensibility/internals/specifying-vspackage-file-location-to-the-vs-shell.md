@@ -6,15 +6,14 @@ helpviewer_keywords:
   - "managed VSPackages, file location"
   - "VSPackages, managed package file location"
 ms.assetid: beb8607a-4183-4ed2-9ac8-7527f11513b1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
 ---
 # Specifying VSPackage File Location to the VS Shell
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] must be able to locate the assembly DLL to load the VSPackage. You can locate it in various ways, as described in the following table.
-
 
 | Method | Description |
 | - | - |
@@ -24,4 +23,4 @@ ms.workload:
 | Place the DLL into the **PublicAssemblies** directory. | Finally, the assembly can also be placed into the **PublicAssemblies** subdirectory. Assemblies located in **PublicAssemblies** are automatically detected, and will also appear in the **Add References** dialog box in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].<br /><br /> VSPackage assemblies should only be placed in the **PublicAssemblies** directory if they contain managed components that are intended to be reused by other VSPackage developers. The majority of assemblies do not meet this criterion. |
 
 > [!NOTE]
->  Use strong-named, signed assemblies for all of your dependent assemblies. These assemblies should also be installed in your own directory or the global assembly cache (GAC). This protects against conflicts with assemblies that have the same base file name, known as weak-name binding.
+> Use strong-named, signed assemblies for all of your dependent assemblies. These assemblies should also be installed in your own directory or the global assembly cache (GAC). This protects against conflicts with assemblies that have the same base file name, known as weak-name binding.

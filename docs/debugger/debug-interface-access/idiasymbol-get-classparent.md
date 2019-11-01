@@ -33,7 +33,7 @@ HRESULT get_classParent ( 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 > [!NOTE]
->  A return value of `S_FALSE` means that the property is not available for the symbol.
+> A return value of `S_FALSE` means that the property is not available for the symbol.
 
 ## Requirements
 
@@ -45,6 +45,6 @@ HRESULT get_classParent ( 
 ## Remarks
  The types of symbols that can be class parents are documented in [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md).
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)

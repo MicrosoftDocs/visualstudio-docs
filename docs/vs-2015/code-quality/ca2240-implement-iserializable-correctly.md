@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "ImplementISerializableCorrectly"
 ms.assetid: cf05936d-0d6c-49ed-a1b4-220032e50b97
 caps.latest.revision: 23
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2240: Implement ISerializable correctly
@@ -29,9 +29,9 @@ manager: "wpickett"
 ## Cause
  An externally visible type is assignable to the <xref:System.Runtime.Serialization.ISerializable?displayProperty=fullName> interface and one of the following conditions is true:
 
--   The type inherits but does not override the <xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A?displayProperty=fullName> method and the type declares instance fields that are not marked with the <xref:System.NonSerializedAttribute?displayProperty=fullName> attribute.
+- The type inherits but does not override the <xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A?displayProperty=fullName> method and the type declares instance fields that are not marked with the <xref:System.NonSerializedAttribute?displayProperty=fullName> attribute.
 
--   The type is not sealed and the type implements a <xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A> method that is not externally visible and overridable.
+- The type is not sealed and the type implements a <xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A> method that is not externally visible and overridable.
 
 ## Rule Description
  Instance fields that are declared in a type that inherits the <xref:System.Runtime.Serialization.ISerializable?displayProperty=fullName> interface are not automatically included in the serialization process. To include the fields, the type must implement the <xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A> method and the serialization constructor. If the fields should not be serialized, apply the <xref:System.NonSerializedAttribute> attribute to the fields to explicitly indicate the decision.

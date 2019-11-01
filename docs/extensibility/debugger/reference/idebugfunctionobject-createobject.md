@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugFunctionObject::CreateObject method"
 ms.assetid: c4c99dd5-609a-4e7c-8f29-eb728f57e995
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugFunctionObject::CreateObject
 Creates an object using a constructor.
@@ -36,22 +39,18 @@ int CreateObject(
 );
 ```
 
-#### Parameters
- `pConstructor`
+## Parameters
+`pConstructor`\
+[in] An [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) object representing the constructor of the object to be created.
 
- [in] An [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) object representing the constructor of the object to be created.
+`dwArgs`\
+[in] The number of parameters in the `pArg` array. Represents the number of parameters passed to the constructor.
 
- `dwArgs`
+`pArg`\
+[in] An array of [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) objects representing the parameters passed to the constructor.
 
- [in] The number of parameters in the `pArg` array. Represents the number of parameters passed to the constructor.
-
- `pArg`
-
- [in] An array of [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) objects representing the parameters passed to the constructor.
-
- `ppObject`
-
- [out] Returns an `IDebugObject` representing the newly created object.
+`ppObject`\
+[out] Returns an `IDebugObject` representing the newly created object.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.
@@ -61,6 +60,6 @@ int CreateObject(
 
  If the object parameter does not require a constructor, call the [CreateObjectNoConstructor](../../../extensibility/debugger/reference/idebugfunctionobject-createobjectnoconstructor.md) method.
 
-## See Also
+## See also
 - [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md)
 - [CreateObjectNoConstructor](../../../extensibility/debugger/reference/idebugfunctionobject-createobjectnoconstructor.md)

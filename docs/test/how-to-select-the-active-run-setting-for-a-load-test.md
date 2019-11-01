@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, run settings, active"
 ms.assetid: ed6ff546-acfa-4dd8-b3a2-6e7455930ca4
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Select the active run setting for a load test
@@ -26,11 +26,11 @@ In the **Load Test Editor**, the active run setting is identified by the "[Activ
 
 ## Select the active run setting
 
-1.  Open a load test.
+1. Open a load test.
 
-2.  Expand the **Run Settings** folder.
+2. Expand the **Run Settings** folder.
 
-3.  Right-click the run settings node that you want to be the active node, and then choose **Set As Active**.
+3. Right-click the run settings node that you want to be the active node, and then choose **Set As Active**.
 
      In the **Load Test Edito**r, the affected run setting node is updated with the "[Active]" suffix.
 

@@ -19,16 +19,16 @@ A script tried to access data from a source other than the host of the current p
   
  For example, if the current page is `https://employees.mycompany.com`, you can't access data from the following URLs:  
   
--   `http://data.contoso.com`, because it is using HTTP instead of HTTPS.  
+- `http://data.contoso.com`, because it is using HTTP instead of HTTPS.  
   
--   `https://somedatasource.com`, because it is a different domain.  
+- `https://somedatasource.com`, because it is a different domain.  
   
--   `https://employees.mycompany.com:8888`, because it uses a different port.  
+- `https://employees.mycompany.com:8888`, because it uses a different port.  
   
 ### To correct this error  
   
--   Investigate whether the API you're trying to call supports JSONP or CORS, which are two approaches that safely allow cross-origin scripting.  
+- Investigate whether the API you're trying to call supports JSONP or CORS, which are two approaches that safely allow cross-origin scripting.  
   
--   If you're trying to call a REST API, refactor this call to your server-side code, then expose a new REST endpoint for your client-side scripts.  
+- If you're trying to call a REST API, refactor this call to your server-side code, then expose a new REST endpoint for your client-side scripts.  
   
      For additional information, look for online documentation related to the Same Origin Policy, JSONP, and CORS.

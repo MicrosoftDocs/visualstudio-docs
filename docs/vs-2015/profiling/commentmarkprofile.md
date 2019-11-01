@@ -54,7 +54,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkProfile(
  Profile marks are global in scope. For example, a profile mark inserted in one thread can be used to mark the start or end of a data segment in any thread in the .vsp file.  
   
 > [!IMPORTANT]
->  CommentMarkProfile method can only be used with instrumentation.  
+> CommentMarkProfile method can only be used with instrumentation.  
   
 ## .NET Framework Equivalent  
  Microsoft.VisualStudio.Profiler.dll  

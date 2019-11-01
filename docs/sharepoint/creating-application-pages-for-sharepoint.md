@@ -23,14 +23,14 @@ ms.workload:
  Visual Studio enables you to design application pages by using a designer. The designer displays a content area for each content placeholder that is defined in a master page. You can design the application page by dragging controls to these content areas.
 
 ## Application pages
- Application pages are shared across all sites on the server, whereas a site page is specific to one site. For more information, [SharePoint Page Types](http://go.microsoft.com/fwlink/?LinkID=211584).
+ Application pages are shared across all sites on the server, whereas a site page is specific to one site. For more information, [SharePoint Page Types](/previous-versions/office/developer/sharepoint-2010/aa979592(v=office.14)).
 
  By default, most of the pages that appear when you create a SharePoint site are site pages. A site page can be added to a SharePoint page library. Users can customize a site page by using tools such as SharePoint Designer. A site page can also host features such as dynamic Web Parts, and Web Part Zones.
 
  Application pages cannot do these things. However an application page is the best type of page to create if you want the page to contain custom code. Although you can add custom code to a site page, the code stops running when the user customizes the page by using tools such as SharePoint Designer.
 
 > [!NOTE]
->  Visual Studio does not provide templates that help you create site pages for a SharePoint site. For more information, see [SharePoint Page Types](http://go.microsoft.com/fwlink/?LinkID=211584).
+> Visual Studio does not provide templates that help you create site pages for a SharePoint site. For more information, see [SharePoint Page Types](/previous-versions/office/developer/sharepoint-2010/aa979592(v=office.14)).
 
 ## Create an application page
  To create an application page, add an **Application Page** item to a SharePoint project. When you create an application page, Visual Studio adds the following folders to your project:
@@ -52,7 +52,7 @@ ms.workload:
  Design the contents of an application page by using the designer view in Visual Studio. This designer appears when you open the application page in your project (by double-clicking it or by opening its shortcut menu and then choosing **Open**) and then choose the **Design** button at the bottom of the editor.
 
 > [!NOTE]
->  You can design the page only in the **Source** view of the designer. The **Design** view of the designer is disabled for application pages.
+> You can design the page only in the **Source** view of the designer. The **Design** view of the designer is disabled for application pages.
 
  You can debug an application page just as you would debug other SharePoint project items in Visual Studio. When you start the Visual Studio debugger, Visual Studio opens the SharePoint site.
 
@@ -63,9 +63,9 @@ ms.workload:
 ## Choose a master page
  By default, an **Application Page** item references the master page of the site that you are using to debug your project. That page is named v4.master and you can find it listed in the **Master Page Gallery** of the SharePoint site.
 
- You can explicitly change which master page is used by the application page by setting the `MasterPageFile` attribute of the application `Page` element. (For example: `MasterPageFile="~/_layouts/applicationv4.master"`). In fact, you must set this attribute if dynamic master pages are not enabled on the SharePoint server. For more information about master pages in SharePoint, see [Master Pages](http://go.microsoft.com/fwlink/?LinkID=169281).
+ You can explicitly change which master page is used by the application page by setting the `MasterPageFile` attribute of the application `Page` element. (For example: `MasterPageFile="~/_layouts/applicationv4.master"`). In fact, you must set this attribute if dynamic master pages are not enabled on the SharePoint server. For more information about master pages in SharePoint, see [Master Pages](/previous-versions/office/developer/sharepoint-2010/ms443795(v=office.14)).
 
 ## See also
-- [SharePoint Foundation Development in Depth](http://go.microsoft.com/fwlink/?LinkID=182103)
+- [SharePoint Foundation Development in Depth](/previous-versions/office/developer/sharepoint-2010/ee539092(v=office.14))
 - [ASP.NET overview](/aspnet/overview)
 - [ASP.NET Web Pages](/aspnet/web-pages/index)

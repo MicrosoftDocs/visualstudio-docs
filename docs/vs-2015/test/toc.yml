@@ -1,0 +1,186 @@
+- name: Improve Code Quality
+  items:
+  - name: Unit Test Your Code
+# Auto-expanded node
+    items:
+    - name: Unit Test Your Code
+      href: unit-test-your-code.md
+    - name: Unit Test Basics
+      href: unit-test-basics.md
+    - name: Create a unit test project
+      href: create-a-unit-test-project.md
+    - name: Generate unit tests for your code with IntelliTest
+      href: generate-unit-tests-for-your-code-with-intellitest.md
+    - name: Install third-party unit test frameworks
+      href: install-third-party-unit-test-frameworks.md
+    - name: Upgrade Visual Studio 2010 unit test projects
+      href: upgrade-visual-studio-2010-unit-test-projects.md
+    - name: Run unit tests with Test Explorer
+# Auto-expanded node
+      items:
+      - name: Run unit tests with Test Explorer
+        href: run-unit-tests-with-test-explorer.md
+      - name: Run a unit test as a 64-bit process
+        href: run-a-unit-test-as-a-64-bit-process.md
+      - name: Creating and Running Unit Tests for Windows Store Apps
+        href: walkthrough-creating-and-running-unit-tests-for-windows-store-apps.md
+    - name: Configure unit tests by using a .runsettings file
+      href: configure-unit-tests-by-using-a-dot-runsettings-file.md
+    - name: Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code
+# Auto-expanded node
+      items:
+      - name: Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code
+        href: writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md
+      - name: Creating and Running Unit Tests for Managed Code
+        href: walkthrough-creating-and-running-unit-tests-for-managed-code.md
+      - name: Test Driven Development with Test Explorer
+        href: quick-start-test-driven-development-with-test-explorer.md
+      - name: Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests
+        href: using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md
+      - name: Using the Assert Classes
+        href: using-the-assert-classes.md
+      - name: Isolating Code Under Test with Microsoft Fakes
+# Auto-expanded node
+        items:
+        - name: Isolating Code Under Test with Microsoft Fakes
+          href: isolating-code-under-test-with-microsoft-fakes.md
+        - name: Using stubs to isolate parts of your application from each other for unit testing
+          href: using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md
+        - name: Using shims to isolate your application from other assemblies for unit testing
+          href: using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md
+        - name: Code generation, compilation, and naming conventions in Microsoft Fakes
+          href: code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md
+      - name: Create a Data-Driven Unit Test
+# Auto-expanded node
+        items:
+        - name: Create a Data-Driven Unit Test
+          href: how-to-create-a-data-driven-unit-test.md
+        - name: Using a Configuration File to Define a Data Source
+          href: walkthrough-using-a-configuration-file-to-define-a-data-source.md
+      - name: Unit tests for Generic Methods
+        href: unit-tests-for-generic-methods.md
+      - name: Target an Earlier Version of .NET
+        href: how-to-configure-unit-tests-to-target-an-earlier-version-of-the-dotnet-framework.md
+      - name: Sample Project for Creating Unit Tests
+        href: sample-project-for-creating-unit-tests.md
+    - name: Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++
+# Auto-expanded node
+      items:
+      - name: Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++
+        href: writing-unit-tests-for-c-cpp-with-the-microsoft-unit-testing-framework-for-cpp.md
+      - name: Adding unit tests to existing C++ applications
+        href: unit-testing-existing-cpp-applications-with-test-explorer.md
+      - name: Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework
+        href: using-microsoft-visualstudio-testtools-cppunittestframework.md
+    - name: Using Code Coverage to Determine How Much Code is being Tested
+# Auto-expanded node
+      items:
+      - name: Using Code Coverage to Determine How Much Code is being Tested
+        href: using-code-coverage-to-determine-how-much-code-is-being-tested.md
+      - name: Customizing Code Coverage Analysis
+        href: customizing-code-coverage-analysis.md
+      - name: Analyzing Code Coverage in Build Verification Tests
+        href: analyzing-code-coverage-in-build-verification-tests.md
+      - name: Troubleshooting Code Coverage
+        href: troubleshooting-code-coverage.md
+    - name: Using emulators to isolate Sharepoint 2010 unit tests
+      href: using-emulators-to-isolate-unit-tests-for-sharepoint-2010-applications.md
+  - name: Use UI Automation To Test Your Code
+# Auto-expanded node
+    items:
+    - name: Use UI Automation To Test Your Code
+      href: use-ui-automation-to-test-your-code.md
+    - name: Creating, Editing and Maintaining a Coded UI Test
+      href: walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md
+    - name: Test Windows UWP and 8.1 Store Apps with Coded UI Tests
+      href: test-windows-store-8-1-apps-with-coded-ui-tests.md
+    - name: Test Windows UWP and 8.1 Phone Apps with Coded UI Tests
+      href: test-windows-phone-8-1-apps-with-coded-ui-tests.md
+    - name: Set a Unique Automation Property for Windows Store Controls for Testing
+      href: set-a-unique-automation-property-for-windows-store-controls-for-testing.md
+    - name: Using HTML5 Controls in Coded UI Tests
+      href: using-html5-controls-in-coded-ui-tests.md
+    - name: Testing SharePoint 2010 Applications with Coded UI Tests
+      href: testing-sharepoint-2010-applications-with-coded-ui-tests.md
+    - name: Creating a Data-Driven Coded UI Test
+      href: creating-a-data-driven-coded-ui-test.md
+    - name: Making Coded UI Tests Wait For Specific Events During Playback
+      href: making-coded-ui-tests-wait-for-specific-events-during-playback.md
+    - name: Using Different Web Browsers with Coded UI Tests
+      href: using-different-web-browsers-with-coded-ui-tests.md
+    - name: Editing Coded UI Tests Using the Coded UI Test Editor
+      href: editing-coded-ui-tests-using-the-coded-ui-test-editor.md
+    - name: Analyzing Coded UI Tests Using Coded UI Test Logs
+      href: analyzing-coded-ui-tests-using-coded-ui-test-logs.md
+    - name: Anatomy of a Coded UI Test
+      href: anatomy-of-a-coded-ui-test.md
+    - name: Best Practices for Coded UI Tests
+      href: best-practices-for-coded-ui-tests.md
+    - name: Testing a Large Application with Multiple UI Maps
+      href: testing-a-large-application-with-multiple-ui-maps.md
+    - name: Enable Coded UI Testing of Your Controls
+      href: enable-coded-ui-testing-of-your-controls.md
+    - name: Supported Configurations and Platforms for Coded UI Tests and Action Recordings
+      href: supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md
+    - name: Extending Coded UI Tests and Action Recordings to Support Microsoft Excel
+# Auto-expanded node
+      items:
+      - name: Extending Coded UI Tests and Action Recordings to Support Microsoft Excel
+        href: extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md
+      - name: Sample Excel Add-In for Coded UI Testing
+        href: sample-excel-add-in-for-coded-ui-testing.md
+      - name: Sample Excel Communicator Interface
+        href: sample-excel-communicator-interface.md
+      - name: Sample Coded UI Test Extension for Excel
+# Auto-expanded node
+        items:
+        - name: Sample Coded UI Test Extension for Excel
+          href: sample-coded-ui-test-extension-for-excel.md
+        - name: ExtensionPackage Class
+          href: sample-excel-extension-extensionpackage-class.md
+        - name: TechnologyManager Class
+          href: sample-excel-extension-technologymanager-class.md
+        - name: PropertyProvider Class
+          href: sample-excel-extension-propertyprovider-class.md
+        - name: Element Classes
+          href: sample-excel-extension-element-classes.md
+        - name: ActionFilter Class
+          href: sample-excel-extension-actionfilter-class.md
+    - name: Upgrading Coded UI Tests from Visual Studio 2010
+      href: upgrading-coded-ui-tests-from-visual-studio-2010.md
+  - name: Analyzing Application Quality
+    href: ../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md
+  - name: Troubleshooting Quality Tools
+# Auto-expanded node
+    items:
+    - name: Troubleshooting Quality Tools
+      href: troubleshooting-quality-tools.md
+    - name: Troubleshooting Code Analysis Issues
+      href: troubleshooting-code-analysis-issues.md
+    - name: Troubleshooting Code Metrics Issues
+      href: troubleshooting-code-metrics-issues.md
+  - name: Testing Store apps with Visual Studio
+# Auto-expanded node
+    items:
+    - name: Testing Store apps with Visual Studio
+      href: testing-store-apps-with-visual-studio.md
+    - name: Create and run unit tests
+# Auto-expanded node
+      items:
+      - name: Create and run unit tests
+        href: create-and-run-unit-tests-for-a-store-app-in-visual-studio.md
+      - name: Unit testing a C++ DLL
+        href: unit-testing-a-visual-cpp-dll-for-store-apps.md
+      - name: Unit test C# code
+        href: unit-testing-visual-csharp-code-in-a-store-app.md
+      - name: Run unit tests in Test Explorer
+        href: run-unit-tests-for-store-apps-in-visual-studio.md
+    - name: Analyze code quality using static code analysis
+# Auto-expanded node
+      items:
+      - name: Analyze code quality using static code analysis
+        href: analyze-the-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md
+      - name: Analyze Visual Basic and C# code quality
+        href: analyze-visual-basic-and-csharp-code-quality-in-store-apps-using-visual-studio-static-code-analysis.md
+      - name: Analyze C++ code quality
+        href: analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md

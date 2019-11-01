@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugBinder::GetFunctionObject method"
 ms.assetid: 8fb789df-8f30-420d-8ca5-bb496a6738f1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBinder::GetFunctionObject
 This method gets an [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) object used to create function parameters.
@@ -30,14 +33,13 @@ int GetFunctionObject(
 );
 ```
 
-#### Parameters
- `ppFunction`
-
- [out] Returns the [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) interface that is used to create function parameters.
+## Parameters
+`ppFunction`\
+[out] Returns the [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) interface that is used to create function parameters.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md)
 - [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md)

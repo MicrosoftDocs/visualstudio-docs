@@ -23,7 +23,6 @@ Creates a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]-style manife
 ## Parameters
  The following table describes the parameters of the [CreateVisualBasicManifestResourceName task](../msbuild/createvisualbasicmanifestresourcename-task.md).
 
-
 | Parameter | Description |
 | - | - |
 | `ManifestResourceNames` | <xref:Microsoft.Build.Framework.ITaskItem> `[]` output read-only parameter.<br /><br /> The resulting manifest names. |

@@ -3,8 +3,8 @@ title: "How to: Create a Basic 3D Model"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: a0d97966-2df8-449b-a8cf-5a19684dc773
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -13,24 +13,24 @@ ms.workload:
 
 This article demonstrates how to use the Model Editor to create a basic 3D model. The following activities are covered:
 
--   Adding objects to a scene
+- Adding objects to a scene
 
--   Selecting faces and edges
+- Selecting faces and edges
 
--   Translating selections
+- Translating selections
 
--   Using the **Subdivide face** and **Extrude face** tools
+- Using the **Subdivide face** and **Extrude face** tools
 
--   Using the **Triangulate** command
+- Using the **Triangulate** command
 
 ## Create a basic 3D model
- You can use the Model Editor to create and modify 3D models and scenes for your game or app. The following steps show how to use the Model Editor to create a simplified 3D model of a house. A simplified model can be used as a stand-in for final art assets that are still being created, as a mesh for collision detection, or as a low-detail model to be used when the object that it represents is too far away to benefit from more detailed rendering.
+You can use the Model Editor to create and modify 3D models and scenes for your game or app. The following steps show how to use the Model Editor to create a simplified 3D model of a house. A simplified model can be used as a stand-in for final art assets that are still being created, as a mesh for collision detection, or as a low-detail model to be used when the object that it represents is too far away to benefit from more detailed rendering.
 
- When you're finished, the model should look like this:
+When you're finished, the model should look like this:
 
- ![The completed model of the simplified house](../designers/media/gfx_model_demo_house_final.png)
+![The completed model of the simplified house](../designers/media/gfx_model_demo_house_final.png)
 
- Before you begin, make sure that the **Properties** window and **Toolbox** are displayed.
+Before you begin, make sure that the **Properties** window and **Toolbox** are displayed.
 
 ### To create a simplified 3D model of a house
 

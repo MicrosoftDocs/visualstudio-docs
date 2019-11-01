@@ -2,7 +2,6 @@
 title: "IActiveScript::GetScriptThreadID | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -52,5 +51,5 @@ HRESULT GetScriptThreadID(
   
  This method can be called from non-base threads without resulting in a non-base callout to host objects or to the [IActiveScript::InterruptScriptThread](../../winscript/reference/iactivescript-interruptscriptthread.md) interface.  
   
-## See Also  
+## See also  
  [IActiveScript](../../winscript/reference/iactivescript.md)

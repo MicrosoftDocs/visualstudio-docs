@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEngine2::RemoveAllSetExceptions"
 ms.assetid: 165fbe89-802d-4d99-85ca-c10fd6cccc09
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugEngine2::RemoveAllSetExceptions
 Removes the list of exceptions the IDE has set for a particular run-time architecture or language.
@@ -30,10 +33,9 @@ int RemoveAllSetExceptions( 
 );
 ```
 
-#### Parameters
- `guidType`
-
- [in] Either the GUID for the language or the GUID for the debug engine that is specific to a run-time architecture.
+## Parameters
+`guidType`\
+[in] Either the GUID for the language or the GUID for the debug engine that is specific to a run-time architecture.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -43,7 +45,7 @@ int RemoveAllSetExceptions( 
 
  To remove a specific exception, call the [RemoveSetException](../../../extensibility/debugger/reference/idebugengine2-removesetexception.md) method.
 
-## See Also
+## See also
 - [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
 - [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
 - [RemoveSetException](../../../extensibility/debugger/reference/idebugengine2-removesetexception.md)

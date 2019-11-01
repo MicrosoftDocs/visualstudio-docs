@@ -32,5 +32,5 @@ HRESULT Skip ( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` if there are no more source files to skip.
 
-## See Also
+## See also
 - [IDiaEnumSourceFiles](../../debugger/debug-interface-access/idiaenumsourcefiles.md)

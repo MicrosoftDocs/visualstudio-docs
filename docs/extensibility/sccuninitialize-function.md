@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccUninitialize function"
 ms.assetid: 17cf5337-d251-4422-bc96-93fe7d48f2ae
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -39,6 +39,6 @@ SCCRTN SccUninitialize (
 ## Remarks
  The source control plug-in is responsible for preparing to be shut down and for freeing memory that the plug-in has allocated for the context structure. The function is called once for each given instance of a plug-in. A call to the [SccInitialize](../extensibility/sccinitialize-function.md) precedes this call. No projects can still be open at the time of the call to `SccUninitialize`.
 
-## See Also
+## See also
 - [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
 - [SccInitialize](../extensibility/sccinitialize-function.md)

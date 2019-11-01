@@ -2,13 +2,13 @@
 title: "Debug C++"
 description: "Debug native code using the Visual Studio debugger"
 ms.custom: "mvc"
-ms.date: "08/06/2018"
-ms.topic: "quickstart"
+ms.date: 08/06/2018
+ms.topic: quickstart
 helpviewer_keywords:
   - "debugger"
 ms.assetid: 639e430b-6d2d-46bd-b738-8c60dfb384f1
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "cplusplus"
@@ -19,17 +19,20 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 ## Create a new project
 
-1. In Visual Studio, choose **File > New Project**.
+1. Open Visual Studio and create a project.
 
-2. Under **Visual C++**, choose **Windows Desktop**, and then in the middle pane choose **Windows Console Application**.
+    ::: moniker range=">=vs-2019"
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **c++**, choose **Templates**, then choose **Create new Console App project**. In the dialog box that appears, choose **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C++**, choose **Windows Desktop**, and then in the middle pane choose **Windows Console Application**. Then, type a name like **MyDbgApp** and click **OK**.
+    ::: moniker-end
 
-    If you don't see the **Windows Console Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
-
-3. Type a name like **MyDbgApp** and click **OK**.
+    If you don't see the **Windows Console Application** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
 
     Visual Studio creates the project.
 
-4. In MyDbgApp.cpp, replace the following code
+1. In MyDbgApp.cpp, replace the following code
 
     ```c++
     int main()
@@ -88,7 +91,7 @@ A *breakpoint* is a marker that indicates where Visual Studio should suspend you
 
 ## Navigate code
 
-There are different commands to instruct the debugger to continue. We show a useful code navigation command that is new in Visual Studio 2017.
+There are different commands to instruct the debugger to continue. We show a useful code navigation command that is available starting in Visual Studio 2017.
 
 While paused at the breakpoint, hover over the statement `c1.push_back(20)` until the green **Run to click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears, and then press the **Run to click** button.
 
@@ -129,4 +132,4 @@ For more information on using edit-and-continue and on feature limitations, see 
 In this tutorial, you've learned how to start the debugger, step through code, and inspect variables. You may want to get a high-level look at debugger features along with links to more information.
 
 > [!div class="nextstepaction"]
-> [Debugger feature tour](../debugger/debugger-feature-tour.md)
+> [First look at the debugger](../debugger/debugger-feature-tour.md)

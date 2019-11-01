@@ -1,8 +1,8 @@
 ---
 title: Debugging with Xamarin
 description: Debugging is a common, and necessary, part of programming. As a mature IDE, Visual Studio for Mac contains a whole suite of features to make debugging easy. From safe debugging, to data visualization, this article will explain how to use the full potential of debugging in Visual Studio for Mac.
-author: conceptdev
-ms.author: crdun
+author: jmatthiesen
+ms.author: jomatthi
 ms.date: 05/06/2018
 ms.technology: vs-ide-debug
 ms.assetid: BB7A084D-9AC2-48B5-8076-6C8518796BBA
@@ -73,10 +73,10 @@ When a breakpoint has been reached, the Debug tools enable you to get control ov
 
 Here are the four buttons:
 
-*	**Play** - This will begin executing the code, until the next breakpoint.
-*	**Step Over** - This will execute the next line of code. If the next line is a function call, Step Over will execute the function, and will stop at the next line of code *after* the function.
-*	**Step Into** - This will also execute the next line of code. If the next line is a function call, Step Into will stop at the first line of the function, allowing you to continue line-by-line debugging of the function. If the next line is not a function, it will behave the same as Step Over.
-*	**Step Out** - This will return to the line where the current function was called.
+* **Play** - This will begin executing the code, until the next breakpoint.
+* **Step Over** - This will execute the next line of code. If the next line is a function call, Step Over will execute the function, and will stop at the next line of code *after* the function.
+* **Step Into** - This will also execute the next line of code. If the next line is a function call, Step Into will stop at the first line of the function, allowing you to continue line-by-line debugging of the function. If the next line is not a function, it will behave the same as Step Over.
+* **Step Out** - This will return to the line where the current function was called.
 
 ## Debugging Mono's class libraries
 

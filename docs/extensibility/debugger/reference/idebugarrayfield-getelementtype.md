@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugArrayField::GetElementType method"
 ms.assetid: c46bf625-0a48-4cbb-8f1f-286356f2c065
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugArrayField::GetElementType
 Gets the type of element in the array.
@@ -30,10 +33,9 @@ int GetElementType(
 );
 ```
 
-#### Parameters
- `ppType`
-
- [out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that describes the type of element.
+## Parameters
+`ppType`\
+[out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that describes the type of element.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.
@@ -41,6 +43,6 @@ int GetElementType(
 ## Remarks
  The [IDebugArrayField](../../../extensibility/debugger/reference/idebugarrayfield.md) object assumes that all elements of the array are the same type.
 
-## See Also
+## See also
 - [IDebugArrayField](../../../extensibility/debugger/reference/idebugarrayfield.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

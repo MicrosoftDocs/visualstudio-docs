@@ -35,4 +35,4 @@ The Markers Report lists the markers in the displayed time frame.  Panning or zo
   Choose the **Export** button to save the Markers Report as a CSV file. You can use the data in the CSV file with other apps or tools.
 
 > [!NOTE]
->  The Markers Report can display 1,000 markers. To see all markers, export the full report to a CSV file.
+> The Markers Report can display 1,000 markers. To see all markers, export the full report to a CSV file.

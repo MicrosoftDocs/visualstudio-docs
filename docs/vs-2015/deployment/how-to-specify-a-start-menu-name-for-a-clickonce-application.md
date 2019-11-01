@@ -31,17 +31,17 @@ When a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application is ins
   
 ### To specify a Start menu name  
   
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
   
-2.  Click the **Publish** tab.  
+2. Click the **Publish** tab.  
   
-3.  Click the **Options** button to open the **Publish Options** dialog box.  
+3. Click the **Options** button to open the **Publish Options** dialog box.  
   
-4.  Click **Description**.  
+4. Click **Description**.  
   
-5.  In the **Publish Options** dialog box, enter the name to display in **Product name**.  
+5. In the **Publish Options** dialog box, enter the name to display in **Product name**.  
   
-6.  Optionally, you can enter a publisher name in **Publisher name**.  
+6. Optionally, you can enter a publisher name in **Publisher name**.  
   
 ## See Also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   

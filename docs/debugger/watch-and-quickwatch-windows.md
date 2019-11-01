@@ -86,6 +86,19 @@ The rules for evaluating expressions in the **Watch** window are generally the s
 
 A circle with two wavy lines icon may appear in the **Watch** window. This icon means the debugger doesn't evaluate the expression because of a potential cross-thread dependency. Evaluating the code requires other threads in your app to run temporarily, but since you are in break mode, all threads in your app are usually stopped. Allowing other threads to run temporarily can have unexpected effects on the state of your app, and the debugger may ignore events such as breakpoints and exceptions on those threads.
 
+::: moniker range=">= vs-2019" 
+## Search in the Watch window
+
+You can search for keywords in the Name, Value, and Type columns of the **Watch** window using the search bar above each window. Hit ENTER or select one of the arrows to execute a search. To cancel an ongoing search, select the "x" icon in the search bar.
+
+Use the left and right arrows (Shift+F3 and F3, respectively) to navigate between found matches.
+
+![Search in Watch Window](../debugger/media/ee-search-watch.png "Search in Watch Window")
+
+To make your search more or less thorough, use the **Search Deeper** dropdown at the top of the **Watch** window to select how many levels deep you want to search into nested objects. 
+
+::: moniker-end
+
 ### <a name="bkmk_refreshWatch"></a> Refresh watch values
 
 A refresh icon (circular arrow) might appear in the **Watch** window when an expression is evaluated. The refresh icon indicates an error or a value that is out of date.

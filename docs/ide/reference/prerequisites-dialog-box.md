@@ -1,13 +1,14 @@
 ---
 title: Prerequisites Dialog Box
 ms.date: 06/29/2018
+ms.technology: vs-ide-deployment
 ms.topic: reference
 f1_keywords:
   - "Microsoft.VisualStudio.Publish.BaseProvider.Dialog.Bootstrapper"
 helpviewer_keywords:
   - "Prerequisites dialog box"
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -30,16 +31,19 @@ To access the dialog box, select a project node in **Solution Explorer**, and th
 |**Download prerequisites from the same location as my application**|Specifies that the prerequisite components be installed from the same location as the application. This copies all the prerequisite packages to the publish location. For this option to work, the prerequisite packages must be on the development computer.|
 |**Download prerequisites from the following location**|Specifies that the prerequisite components be installed from the location that you enter. You can use the **Browse** button to select a location.|
 
+> [!NOTE]
+> For information on where to put prerequisites, see [Create bootstrapper packages](../../deployment/creating-bootstrapper-packages.md#create-custom-bootstrapper-packages).
+
 ## Prerequisites information
 
 The prerequisite components that appear in the **Prerequisites** dialog box might differ from those in the following list. The prerequisite packages listed in the **Prerequisites Dialog Box** are set automatically the first time that you open the dialog box. If you subsequently change the project's target framework, you have to select the prerequisites manually to match the new target framework.
 
 |Element|Description|
 |-------------|-----------------|
-|**.NET Framework 3.5 SP1**|This package installs the following:<br /><br /> -   .NET Framework versions 2.0, 3.0, and 3.5.<br />-   Support for all .NET Framework versions on 32-bit (x86) and 64-bit (x64) operating systems.<br />-   Language packs for each .NET Framework version that is installed with the package.<br />-   Service packs for .NET Framework 2.0 and 3.0.<br /><br /> .NET Framework 3.0 is included with Windows Vista, and .NET Framework 3.5 is included with Visual Studio. .NET Framework 3.5 is required for all Visual Basic and C# projects that are compiled for 32-bit operating systems and for which the target framework is set to **.NET Framework 3.5**, and for Visual Basic and C# projects compiled for 64-bit operating systems. (IA64 is not supported.) Note that Visual Basic and C# projects are compiled for any CPU architecture by default. For more information, see [Visual Studio Multi-Targeting Overview](../../ide/visual-studio-multi-targeting-overview.md) and [Deploy prerequisites for 64-bit apps](../../deployment/deploying-prerequisites-for-64-bit-applications.md).|
+|**.NET Framework 3.5 SP1**|This package installs the following:<br /><br /> -   .NET Framework versions 2.0, 3.0, and 3.5.<br />-   Support for all .NET Framework versions on 32-bit (x86) and 64-bit (x64) operating systems.<br />-   Language packs for each .NET Framework version that is installed with the package.<br />-   Service packs for .NET Framework 2.0 and 3.0.<br /><br /> .NET Framework 3.0 is included with Windows Vista, and .NET Framework 3.5 is included with Visual Studio. .NET Framework 3.5 is required for all Visual Basic and C# projects that are compiled for 32-bit operating systems and for which the target framework is set to **.NET Framework 3.5**, and for Visual Basic and C# projects compiled for 64-bit operating systems. (IA64 is not supported.) Note that Visual Basic and C# projects are compiled for any CPU architecture by default. For more information, see [Framework targeting overview](../../ide/visual-studio-multi-targeting-overview.md) and [Deploy prerequisites for 64-bit apps](../../deployment/deploying-prerequisites-for-64-bit-applications.md).|
 |**Microsoft .NET Framework 4.x**|This package installs the .NET Framework 4.x for both the x86 and x64 platforms.|
 |**Microsoft System CLR Types for SQL Server 2014 (x64 and x86)**|This package installs Microsoft System CLR Types for SQL Server 2014 for either x64 or x86.|
-|**SQL Server 2008 R2 Express**|This package installs Microsoft SQL Server 2008 R2 Express, a free edition of Microsoft SQL Server 2008 R2, an ideal database for small web, server or desktop applications. It can be used for free for development and production.|
+|**SQL Server 2008 R2 Express**|This package installs Microsoft SQL Server 2008 R2 Express, a free edition of Microsoft SQL Server 2008 R2, an ideal database for small web, server, or desktop applications. It can be used for free for development and production.|
 |**SQL Server 2012 Express**|This package installs Microsoft SQL Server 2012 Express.|
 |**SQL Server 2012 Express LocalDB**|This package installs Microsoft SQL Server 2012 Express LocalDB.|
 |**Visual C++ "14" Runtime Libraries (ARM)**|This package installs the Visual C++ run-time libraries for the Itanium architecture, which provide routines for programming for the Microsoft Windows operating system. These routines automate many common programming tasks that are not provided by the C and C++ languages.<br /><br /> For more information, see [C Run-Time Library Reference](/cpp/c-runtime-library/c-run-time-library-reference).|
@@ -51,4 +55,4 @@ The prerequisite components that appear in the **Prerequisites** dialog box migh
 - [Publish Page, Project Designer](../../ide/reference/publish-page-project-designer.md)
 - [Application Deployment Prerequisites](../../deployment/application-deployment-prerequisites.md)
 - [Deploying Prerequisites for 64-bit Applications](../../deployment/deploying-prerequisites-for-64-bit-applications.md)
-- [Visual Studio Multi-Targeting Overview](../../ide/visual-studio-multi-targeting-overview.md)
+- [Framework targeting overview](../../ide/visual-studio-multi-targeting-overview.md)

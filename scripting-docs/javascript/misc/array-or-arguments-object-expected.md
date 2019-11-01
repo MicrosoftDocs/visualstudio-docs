@@ -20,9 +20,9 @@ You did not supply an array as an argument. This error applies to the **Function
   
 ### To correct this error  
   
--   Specify either an `Array` or an **Arguments** object as the second argument.  
+- Specify either an `Array` or an **Arguments** object as the second argument.  
   
-## See Also  
+## See also  
  [Using Arrays](../../javascript/advanced/using-arrays-javascript.md)   
  [apply Method (Function)](../../javascript/reference/apply-method-function-javascript.md)   
  [Functions](../../javascript/functions-javascript.md)

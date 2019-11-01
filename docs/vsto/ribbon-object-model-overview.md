@@ -14,18 +14,18 @@ ms.workload:
   - "office"
 ---
 # Ribbon object model overview
-  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] exposes a strongly typed object model that you can use to get and set the properties of Ribbon controls at runtime. For example, you can dynamically populate menu controls, or show and hide controls contextually. You can also add tabs, groups, and controls to a ribbon, but only before the ribbon is loaded by the Office application. For information, see [Set properties that become read-only](#SettingReadOnlyProperties).
+  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] exposes a strongly typed object model that you can use to get and set the properties of Ribbon controls at run time. For example, you can dynamically populate menu controls, or show and hide controls contextually. You can also add tabs, groups, and controls to a ribbon, but only before the ribbon is loaded by the Office application. For information, see [Set properties that become read-only](#SettingReadOnlyProperties).
 
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]
 
  This Ribbon object model consists mainly of the [Ribbon class](#RibbonClass), [Ribbon events](#RibbonEvents), and [Ribbon control classes](#RibbonControlClasses).
 
-##  <a name="RibbonClass"></a> Ribbon class
+## <a name="RibbonClass"></a> Ribbon class
  When you add a new **Ribbon (Visual Designer)** item to a project, Visual Studio adds a **Ribbon** class to your project. The **Ribbon** class inherits from the <xref:Microsoft.Office.Tools.Ribbon.RibbonBase> class.
 
  This class appears as a partial class that is split between the Ribbon code file and the Ribbon Designer code file.
 
-##  <a name="RibbonEvents"></a> Ribbon events
+## <a name="RibbonEvents"></a> Ribbon events
  The **Ribbon** class contains the following three events:
 
 |Event|Description|
@@ -34,7 +34,7 @@ ms.workload:
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonBase.LoadImage>|Enables you to cache images in the Ribbon customization when the ribbon loads. You can get a slight performance gain if you write code to cache the Ribbon images in this event handler. For more information, see <xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon.LoadImage>.|
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonBase.Close>|Raised when the Ribbon instance closes.|
 
-##  <a name="RibbonControlClasses"></a> Ribbon controls
+## <a name="RibbonControlClasses"></a> Ribbon controls
  The <xref:Microsoft.Office.Tools.Ribbon> namespace contains a type for each control that you see in the **Office Ribbon Controls** group of the **Toolbox**.
 
  The following table shows the type for each `Ribbon` control. For a description of each control, see [Ribbon overview](../vsto/ribbon-overview.md).
@@ -83,7 +83,7 @@ ms.workload:
 |Get the groups on a <xref:Microsoft.Office.Tools.Ribbon.RibbonTab>.|Use the <xref:Microsoft.Office.Tools.Ribbon.RibbonTab.Groups%2A> property.|
 |Specify the number of rows and columns that appear in a <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery>.|Use the <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery.RowCount%2A> and <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery.ColumnCount%2A> properties.|
 
-##  <a name="SettingReadOnlyProperties"></a> Set properties that become read-only
+## <a name="SettingReadOnlyProperties"></a> Set properties that become read-only
  Some properties can only be set before the ribbon loads. There are three places to set these properties:
 
 - In the Visual Studio **Properties** window.
@@ -92,7 +92,7 @@ ms.workload:
 
 - In the `CreateRibbonExtensibilityObject` method of the `ThisAddin`, `ThisWorkbook`, or `ThisDocument` class of your project.
 
-  Dynamic menus provide some exceptions. You can create new controls, set their properties, and then add them to a dynamic menu at runtime, even after the ribbon that contains the menu is loaded.
+  Dynamic menus provide some exceptions. You can create new controls, set their properties, and then add them to a dynamic menu at run time, even after the ribbon that contains the menu is loaded.
 
   Properties of controls that you add to a dynamic menu can be set at any time.
 
@@ -120,11 +120,11 @@ ms.workload:
  [!code-vb[Trin_Ribbon_ObjectModel#2](../vsto/codesnippet/VisualBasic/trin_Ribbon_objectmodel_dotnet4/ThisWorkbook.vb#2)]
  [!code-csharp[Trin_Ribbon_ObjectModel#2](../vsto/codesnippet/CSharp/trin_Ribbon_objectmodel_dotnet4/ThisWorkbook.cs#2)]
 
-###  <a name="ReadOnlyProperties"></a> Properties that become read-only
+### <a name="ReadOnlyProperties"></a> Properties that become read-only
  The following table shows properties that can only be set before the ribbon loads.
 
 > [!NOTE]
->  You can set the properties of controls on dynamic menus at any time. This table does not apply in that case.
+> You can set the properties of controls on dynamic menus at any time. This table does not apply in that case.
 
 |Property|Ribbon control class|
 |--------------|--------------------------|
@@ -157,7 +157,7 @@ ms.workload:
  If you have conditional logic that sets any of these properties to a different value when other instances of the ribbon are created, this code will have no effect.
 
 > [!NOTE]
->  Ensure that the **Name** property is set for each control that you add to an Outlook Ribbon. If you add a control to an Outlook Ribbon at runtime, you must set this property in your code. If you add a control to an Outlook Ribbon at design time, the Name property is set automatically.
+> Ensure that the **Name** property is set for each control that you add to an Outlook Ribbon. If you add a control to an Outlook Ribbon at run time, you must set this property in your code. If you add a control to an Outlook Ribbon at design time, the Name property is set automatically.
 
 ## Ribbon control events
  Each control class contains one or more events. The following table describes these events.
@@ -179,12 +179,12 @@ ms.workload:
 |*e*|A <xref:Microsoft.Office.Tools.Ribbon.RibbonControlEventArgs> that contains a <xref:Microsoft.Office.Core.IRibbonControl>. Use this control to access any property that is not available in the Ribbon object model provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].|
 
 ## See also
-- [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
+- [Access the ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)
 - [Ribbon Designer](../vsto/ribbon-designer.md)
 - [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)
-- [Walkthrough: Update the controls on a ribbon at runtime](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)
+- [Walkthrough: Update the controls on a ribbon at run time](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)
 - [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md)
 - [How to: Customize a built-in tab](../vsto/how-to-customize-a-built-in-tab.md)
 - [How to: Add controls to the Backstage view](../vsto/how-to-add-controls-to-the-backstage-view.md)

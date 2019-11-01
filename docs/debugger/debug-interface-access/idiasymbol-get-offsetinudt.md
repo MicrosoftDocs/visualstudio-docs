@@ -33,7 +33,7 @@ HRESULT get_offsetInUdt( 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 > [!NOTE]
->  A return value of `S_FALSE` means the property is not available for the symbol.
+> A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## Remarks
  This function is used only in local records in an optimized build.
@@ -45,5 +45,5 @@ HRESULT get_offsetInUdt( 
 
  DLL: msdia100.dll
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

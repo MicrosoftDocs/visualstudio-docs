@@ -149,7 +149,7 @@ The following GPU hardware and drivers are supported:
 
 - [Solve the Tough Graphics Problems with your Game Using DirectX Tools (video)](https://channel9.msdn.com/Events/GDC/GDC-2015/Solve-the-Tough-Graphics-Problems-with-your-Game-Using-DirectX-Tools)
 - [GPU Usage Tool in Visual Studio (video)](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2014/715)
-- [GPU Usage tool in Visual Studio 2013 Update 4 CTP1 (blog)](https://blogs.msdn.microsoft.com/vcblog/2014/09/04/gpu-usage-tool-in-visual-studio-2013-update-4-ctp1/)
+- [GPU Usage tool in Visual Studio 2013 Update 4 CTP1 (blog)](https://devblogs.microsoft.com/cppblog/gpu-usage-tool-in-visual-studio-2013-update-4-ctp1/)
 - [GPU Usage for DirectX in Visual Studio (blog)](https://blogs.msdn.microsoft.com/ianhu/2014/12/16/gpu-usage-for-directx-in-visual-studio/)
 - [GPUView](/windows-hardware/drivers/display/using-gpuview)
 - [Windows Performance Analyzer](/windows-hardware/test/wpt/windows-performance-analyzer)

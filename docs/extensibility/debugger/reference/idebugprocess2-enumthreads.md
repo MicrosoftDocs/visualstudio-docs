@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProcess2::EnumThreads"
 ms.assetid: 05677385-7a7f-4545-8438-af00dde85db0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProcess2::EnumThreads
 Retrieves a list of all the threads running in the process.
@@ -30,10 +33,9 @@ int EnumThreads(
 );
 ```
 
-#### Parameters
- `ppEnum`
-
- [out] Returns an [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md) object that contains a list of all threads in all programs in the process.
+## Parameters
+`ppEnum`\
+[out] Returns an [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md) object that contains a list of all threads in all programs in the process.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -43,7 +45,7 @@ int EnumThreads(
 
  This method presents a list of the process's threads without duplicates. Otherwise, to enumerate the threads running in a particular program, use the [EnumThreads](../../../extensibility/debugger/reference/idebugprogram2-enumthreads.md) method.
 
-## See Also
+## See also
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
 - [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md)
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)

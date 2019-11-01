@@ -20,7 +20,7 @@ manager: jillfra
 
 The Visual Studio debugger is easy to use in any language. Here we’ll show how to debug a simple C# program, but you can apply the same steps to code in other languages such as C++ and JavaScript.  
   
-##  <a name="BKMK_Start_debugging_a_VS_project"></a> Debug a Basic C# Project  
+## <a name="BKMK_Start_debugging_a_VS_project"></a> Debug a Basic C# Project  
  Let’s start with a simple C# console application (**File / New / Project**, then select **Visual C#** and then select **Console Application**). If you’ve never worked with Visual Studio before, see [Walkthrough: Create a Simple Application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md). The **Main** method just adds 1 to an integer variable 10 times and prints the result to the console:  
   
 ```csharp  
@@ -45,7 +45,7 @@ static void Main(string[] args)
   
  For more information about breakpoints, see [Using Breakpoints](../debugger/using-breakpoints.md).  
   
-##  <a name="BKMK_Inspect_Variables"></a> Inspect Variables  
+## <a name="BKMK_Inspect_Variables"></a> Inspect Variables  
  Debugging often involves finding variables that don't contain the values you expect at a particular point. We will show some of the ways that you can inspect variables.  
   
  Start debugging again. Execution stops before the `Console.WriteLine` code executes. You can cause it to execute by stepping ahead (click **Debug / Step Over** or **F10**). In this case you could have chosen **Step Into** (**F11**) and gotten the same result; we’ll explain the difference later on. The line with the last curly brace of the method should have turned yellow. Look at the Console window. You should see **10**.  

@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "Assembly element [Visual Studio templates]"
   - "<Assembly> element [Visual Studio templates]"
 ms.assetid: 9242f76a-1273-4b8a-8f26-6606f91829ef
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -50,7 +50,7 @@ Specifies information about an assembly, which the template uses to add a refere
 
  This text specifies the assembly to add to a project when the item template is instantiated. This assembly name must be specified in one of the following ways:
 
--   As a full assembly name. For example:
+- As a full assembly name. For example:
 
     ```
     <Assembly>
@@ -58,7 +58,7 @@ Specifies information about an assembly, which the template uses to add a refere
     </Assembly>
     ```
 
--   As simple text reference. For example:
+- As simple text reference. For example:
 
     ```
     <Assembly> System </Assembly>

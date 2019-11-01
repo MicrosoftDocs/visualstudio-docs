@@ -1,7 +1,7 @@
 ---
 title: "Install and use behind a firewall or proxy server"
-description: "Review the domain URLs, ports, and protocols that you might want to whitelist or open if your organization uses a firewall or a proxy server"
-ms.date: 07/10/2018
+description: "Review the domain URLs, ports, and protocols that you might want to add to an allow list or open if your organization uses a firewall or a proxy server"
+ms.date: 05/22/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,23 +15,25 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Install and use Visual Studio and Azure Services behind a firewall or proxy server
 
-If you or your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to "whitelist" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio and Azure Services.
+If you or your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to add to an "allow list" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio and Azure Services.
 
-* **[Install Visual Studio](#install-visual-studio)**: These tables include the domain URLs to whitelist so that you have access to all the components and workloads that you want.
+* **[Install Visual Studio](#install-visual-studio)**: These tables include the domain URLs to add to an allow list so that you have access to all the components and workloads that you want.
 
-* **[Use Visual Studio and Azure Services](#use-visual-studio-and-azure-services)**: This table includes the domain URLs to whitelist and the ports and protocols to open so that you have access to all the features and services that you want.
+* **[Use Visual Studio and Azure Services](#use-visual-studio-and-azure-services)**: This table includes the domain URLs to add to an allow list and the ports and protocols to open so that you have access to all the features and services that you want.
 
 > [!NOTE]
 > This article was written for Visual Studio on Windows, but certain information is also applicable to [installing Visual Studio for Mac](/visualstudio/mac/install-behind-a-firewall-or-proxy-server) behind a firewall or proxy server.
 
 ## Install Visual Studio
 
-### URLs to whitelist
+### URLs to add to an allow list
 
-Because the Visual Studio Installer downloads files from various domains and their download servers, here are the domain URLs that you might want to whitelist as trusted in the UI or in your deployment scripts.
+Because the Visual Studio Installer downloads files from various domains and their download servers, here are the domain URLs that you might want to add to an allow list as trusted in the UI or in your deployment scripts.
 
 #### Microsoft domains
 
@@ -43,6 +45,7 @@ Because the Visual Studio Installer downloads files from various domains and the
 | download.microsoft.com | Setup packages download location |
 | download.visualstudio.com | Setup packages download location |
 | dl.xamarin.com | Setup packages download location |
+| xamarin-downloads.azureedge.net | Android SDK packages download list location |
 | marketplace.visualstudio.com | Visual Studio Extensions download location |
 | visualstudio.microsoft.com | Documentation location |
 | docs.microsoft.com | Documentation location |
@@ -71,9 +74,9 @@ Because the Visual Studio Installer downloads files from various domains and the
 
 ## Use Visual Studio and Azure Services
 
-### URLs to whitelist and ports and protocols to open
+### URLs to add to an allow list and ports and protocols to open
 
-To make sure that you have access to everything you need when you use Visual Studio or Azure Services behind a firewall or proxy server, here are the URLs you should whitelist and the ports and protocols that you might want to open.
+To make sure that you have access to everything you need when you use Visual Studio or Azure Services behind a firewall or proxy server, here are the URLs you should add to an allow list and the ports and protocols that you might want to open.
 
 | Service or scenario | DNS endpoint | Protocol | Port | Description |
 | - | - | - | - | - |
@@ -94,7 +97,7 @@ To make sure that you have access to everything you need when you use Visual Stu
 | GitHub repository information | api.github.com | https | 443 | Required for getting additional information about bower packages |
 | Web Linters | Eslint.org<br><br>www.Bing.com <br><br>www.coffeelint.org | http | 80 | |
 | Cookiecutter<br>Explorer template<br>discovery <br><br>Cookiecutter <br>Explorer project<br> creation | api.github.com <br>raw.githubusercontent.com <br>go.microsoft.com<br><br>pypi.org <br> pypi.python.org | https | 443<br> | Used to discover online templates from our recommended feed and from GitHub repositories <br><br>Used to create a project from a cookiecutter template that requires a one-time on-demand installation of a cookiecutter Python package from the Python package index (PyPI) |
-| Python package <br>discovery<br><br>Python package <br>management<br><br>Python <br>New Project <br>templates | pypi.org<br> <br>pypi.python.org <br>bootstrap.pypa.io<br><br>go.microsoft.com | https | 443 | Provides the ability to search for pip packages<br><br>Used to install pip automatically if it is missing <br><br> Used to create the <br><br>Used to resolve the following Python project templates in the New Project dialog to cookiecutter template URLs:<br> - Classifier Project<br>- Clustering Project <br> - Regression Project <br> - PyGame using PyKinect <br> - Pyvot Project |
+| Python package <br>discovery<br><br>Python package <br>management<br><br>New <br>Python <br> project <br>templates | pypi.org<br> <br>pypi.python.org <br>bootstrap.pypa.io<br><br>go.microsoft.com | https | 443 | Provides the ability to search for pip packages<br><br>Used to install pip automatically if it is missing <br><br>Used to resolve the following new Python project templates to cookiecutter template URLs:<br> - Classifier Project<br>- Clustering Project <br> - Regression Project <br> - PyGame using PyKinect <br> - Pyvot Project |
 | Office web <br>add-in <br> Manifest <br>Verification <br>Service | verificationservice.osi.office.net | https | 443 | Used to validate manifests for Office web add-ins |
 | SharePoint and <br>Office Add-ins | sharepoint.com | https | 443 | Used to publish and test SharePoint and Office Add-ins to SharePoint Online |
 | Workflow Manager <br>Test Service<br> Host | | http | 12292 | A firewall rule that is created automatically for testing SharePoint add-ins with workflows |
@@ -110,11 +113,11 @@ To make sure that you have access to everything you need when you use Visual Stu
 | Cloud explorer | 1. &#60;clusterendpoint&#62; <br>Service Fabric <br>2. &#60;management endpoint&#62;<br>General Cloud Exp <br>3. &#60;graph endpoint&#62;<br>General Cloud Exp<br>4. &#60;storage account endpoint&#62;<br>Storage Nodes <br>5. &#60;Azure portal URLs&#62;<br>General Cloud Exp <br>6. &#60;key vault endpoints&#62; <br>Azure Resource Manager VM Nodes<br>7. &#60;PublicIPAddressOfCluster&#62;<br>Service Fabric Remote debugging and ETW Traces | <br>1. https<br>2. https<br>3. https<br>4. https<br>5. https<br>6. https<br>7: tcp | 1. 19080<br>2. 443 <br>3. 443 <br>4. 443 <br>5. 443 <br>6. 443 <br>7. dynamic | 1. Example: test12.eastus.cloudapp.com<br>2. Retrieves subscriptions and retrieves/manages Azure resources<br>3. Retrieves Azure Stack subscriptions<br>4. Manages Storage resources (example: mystorageaccount.blob.core.windows.net)<br>5. "Open in Portal" context menu option (opens a resource in the Azure portal)<br>6. Creates and uses key vaults for VM debugging (Example: myvault.vault.azure.net) <br><br>7. Dynamically allocates block of ports based on number of nodes in the cluster and the available ports. <br><br>A port block will try to get three times the number of nodes with minimum of 10 ports.<br><br>For Streaming traces, an attempt is made to get the port block from 810. If any of that port block is already used, then an attempt is made to get the next block, and so on. (It the load balancer is empty, then ports from 810 are most likely used) <br><br>Similarly for debugging, four sets of the ports blocks are reserved: <br>- connectorPort: 30398, <br>- forwarderPort: 31398, <br>- forwarderPortx86: 31399,<br>- fileUploadPort: 32398<br> |
 | Cloud Services | 1. RDP<br><br>2. core.windows.net <br><br>3.  management.azure.com<br> management.core.windows.net <br><br>4. &#42;.blob.core.windows.net <br>&#42;.queue.core.windows.net<br>&#42;.table.core.windows.net <br><br>5. portal.azure.com <br><br>6. &#60;user's cloud service&#62;.cloudapp.net <br> &#60;user's VM&#62;.&#60;region&#62;.azure.com | 1. rdp <br><br> 2. https <br><br> 3. https <br><br> 4. https <br><br> 5. https <br><br>6. tcp | 1. 3389 <br><br> 2. 443 <br><br> 3. 443 <br><br>4. 443 <br><br>5. 443 <br><br> 6. a) 30398 <br> 6. b) 30400 <br> 6. c) 31398 <br> 6. d) 31400 <br> 6. e) 32398 <br> 6. f) 32400 | 1.  Remote Desktop to Cloud Services VM <br><br> 2.  Storage account component of the private diagnostics configuration <br><br> 3.  Azure portal <br><br> 4. Server Explorer - Azure Storage  &#42;  is customer named storage account  <br><br> 5.  Links to open the portal &#47; Download the subscription certificate &#47; Publish settings file <br><br>6. a)  Connector local port for remote debug for cloud service and VM<br> 6. b)  Connector public port for remote debug for cloud service and VM <br> 6. c)  Forwarder local port for remote debug for cloud service and VM <br> 6. d) Forwarder public port for remote debug for cloud service and VM  <br> 6. e) File uploader local port for remote debug for cloud service and VM <br> 6. f) File uploader public port for remote debug for cloud service and VM |
 | Service Fabric | 1. <br>ocs.Microsoft.com<br>aka.ms <br>go.microsoft.com <br><br>2. <br>vssftools.blob.core.windows.net <br>Vault.azure.com <br>Portal.azure.com <br><br> 3. &#42; vault.azure.net<br><br> 4. <br>app.vsaex.visualstudio.com<br>&#42; .vsspsext.visualstudio.com<br>clouds.vsrm.visualstudio.com <br>clouds.visualstudio.com<br>app.vssps.visualstudio.com <br>&#42; .visualstudio.com | https | 443 | 1. Documentation <br><br> 2. Create Cluster feature <br><br>3. The &#42; is the Azure key vault name (Example:- test11220180112110108.vault.azure.net  <br><br>  4. The &#42; is dynamic (Example: vsspsextprodch1su1.vsspsext.visualstudio.com) |
-| Snapshot <br>Debugger | 1. go.microsoft.com <br>2. management.azure.com <br> 3. &#42;azurewebsites.net <br> 4. &#42;scm.azurewebsites.net<br>5. api.nuget.org/v3/index.json <br>6. msvsmon | 1. https <br>2. https  <br>3. http <br>4. https <br>5. https <br>6. Concord <br> | 1. 443<br> 2. 443<br>3. 80  <br>4. 443<br> 5. 443<br> 6. 4022 (Visual Studio version dependent) | 1. Query .json file for app service SKU size <br>2. Various Azure RM calls <br>3. Site warmup call via  <br>4. Customer's targeted App Service Kudu endpoint <br>5. Query Site Extension version published in nuget.org <br>6. Remote debugging channel |
+| Snapshot <br>Debugger | 1. go.microsoft.com <br>2. management.azure.com <br> 3. &#42;azurewebsites.net <br> 4. &#42;scm.azurewebsites.net<br>5. api.nuget.org/v3/index.json <br>6. msvsmon (.exe) | 1. https <br>2. https  <br>3. http <br>4. https <br>5. https <br>6. Concord <br> | 1. 443<br> 2. 443<br>3. 80  <br>4. 443<br> 5. 443<br> 6. 4022 (Visual Studio version dependent) | 1. Query .json file for app service SKU size <br>2. Various Azure RM calls <br>3. Site warmup call via  <br>4. Customer's targeted App Service Kudu endpoint <br>5. Query Site Extension version published in nuget.org <br>6. Remote debugging channel |
 | Azure Stream Analytics <br><br>HDInsight | Management.azure.com | https | 443 | Used to view, submit, run, and manage ASA jobs <br><br> Used to browse HDI clusters, and to submit, diagnose, and debug HDI jobs |
 | Azure Data Lake | &#42;.azuredatalakestore.net <br>&#42;.azuredatalakeanalytics.net | https | 443 | Used to compile, submit, view, diagnose, and debug  jobs; used to browse ADLS files; used to upload and download files |
 | Packaging Service | [account].visualstudio.com <br/> [account].\*.visualstudio.com <br/> \*.blob.core.windows.net <br/> registry.npmjs.org </br> nodejs.org <br/> dist.nuget.org <br/> nuget.org | https | 443 | The \*.npmjs.org, \*.nuget.org, and \*.nodejs.org are only required for certain build task scenarios (for example: NuGet Tool Installer, Node Tool Installer) or if you intend to use public upstreams with your Feeds. The other three domains are required for core functionality of the Packaging service. |
-| Azure DevOps Services | \*.vsassets.io <br/> static2.sharepointonline.com | | | Used to connect with Azure DevOps Services |
+| Azure DevOps Services | \*.vsassets.io <br/> static2.sharepointonline.com <br/> dev.azure.com | | | Used to connect with Azure DevOps Services |
 | | | | | |
 
 ## Troubleshoot network-related errors
@@ -133,6 +136,7 @@ Here are a few more support options:
 
 ## See also
 
+* [Connectivity requirements for Live Share](/visualstudio/liveshare/reference/connectivity/)
 * [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Troubleshoot network-related errors in Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)

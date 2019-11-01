@@ -2,7 +2,6 @@
 title: "IDebugPropertyEnumType_All Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -43,5 +42,5 @@ IDebugPropertyEnumType_LocalsPlusArgs : IDebugPropertyEnumType_All 
 IDebugPropertyEnumType_Registers : IDebugPropertyEnumType_All  
 ```  
   
-## See Also  
+## See also  
  [IDebugProperty::EnumMembers](../../winscript/reference/idebugproperty-enummembers.md)

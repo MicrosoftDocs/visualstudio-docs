@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "WPF data binding [Visual Studio], walkthroughs"
   - "WPF Designer, data binding"
 ms.assetid: 8823537c-82f0-41f7-bf30-705f0e5e59fd
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"
@@ -40,35 +40,23 @@ You need the following components to complete this walkthrough:
 
 - Visual Studio
 
-- Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex website](http://go.microsoft.com/fwlink/?linkid=87843).
+- Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex website](https://archive.codeplex.com/?p=SqlServerSamples).
 
 Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:
 
-- WCF Data Services. For more information, see [Overview](/dotnet/framework/data/wcf/wcf-data-services-overview).
+- [WCF Data Services](/dotnet/framework/data/wcf/wcf-data-services-overview).
 
 - Data models in [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)].
 
 - Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework overview](/dotnet/framework/data/adonet/ef/overview).
 
-- WPF data binding. For more information, see [Data Binding overview](/dotnet/framework/wpf/data/data-binding-overview).
+- WPF data binding. For more information, see [Data Binding overview](/dotnet/desktop-wpf/data/data-binding-overview).
 
 ## Create the service project
 
-Start this walkthrough by creating a project for a WCF Data Service:
+1. Start this walkthrough by creating a C# or Visual Basic **ASP.NET Web Application** project. Name the project **AdventureWorksService**.
 
-1. Start Visual Studio.
-
-2. On the **File** menu, point to **New**, and then click **Project**.
-
-3. Expand **Visual C#** or **Visual Basic**, and then select **Web**.
-
-4. Select the **ASP.NET Web Application** project template.
-
-5. In the **Name** box, type **AdventureWorksService** and click **OK**.
-
-     Visual Studio creates the **AdventureWorksService** project.
-
-6. In **Solution Explorer**, right-click **Default.aspx** and select **Delete**. This file is not necessary in this walkthrough.
+2. In **Solution Explorer**, right-click **Default.aspx** and select **Delete**. This file is not necessary for the walkthrough.
 
 ## Create an Entity Data Model for the service
 
@@ -307,4 +295,4 @@ After completing this walkthrough, you can perform the following related tasks:
 - [Bind WPF controls to a dataset](../data-tools/bind-wpf-controls-to-a-dataset.md)
 - [WCF overview (.NET Framework)](/dotnet/framework/data/wcf/wcf-data-services-overview)
 - [Entity Framework overview (.NET Framework)](/dotnet/framework/data/adonet/ef/overview)
-- [Data Binding overview (.NET Framework)](/dotnet/framework/wpf/data/data-binding-overview)
+- [Data Binding overview (.NET Framework)](/dotnet/desktop-wpf/data/data-binding-overview)

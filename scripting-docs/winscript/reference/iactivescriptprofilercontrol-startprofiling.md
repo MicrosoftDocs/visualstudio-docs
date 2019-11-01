@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerControl::StartProfiling | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,7 +17,7 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IActiveScriptProfilerControl::StartProfiling
-Starts profiling on the scripting engine. The scripting engine creates an instance of the profiler object by making a call to [CoCreateInstance](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).  
+Starts profiling on the scripting engine. The scripting engine creates an instance of the profiler object by making a call to [CoCreateInstance](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).  
   
 ## Syntax  
   
@@ -47,5 +46,5 @@ HRESULT StartProfiling(
 |`S_OK`|The method succeeded.|  
 |`ACTIVPROF_E_PROFILER_PRESENT`|Profiling is already enabled.|  
   
-## See Also  
+## See also  
  [IActiveScriptProfilerControl Interface](../../winscript/reference/iactivescriptprofilercontrol-interface.md)

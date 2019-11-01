@@ -28,7 +28,7 @@ IPropertyProxyProvider : IUnknown
  The expression evaluator (EE) implements this interface on the same object that implements the [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md) interface as part of the EE's support of type visualizers.  
   
 ## Notes for Callers  
- Call [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on an `IDebugProperty3` interface to obtain this interface.  
+ Call [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on an `IDebugProperty3` interface to obtain this interface.  
   
 ## Methods in Vtable order  
  The `IPropertyProxyProvider` interface implements the following method:  

@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "IDE, context"
   - "IDE, user feedback"
 ms.assetid: 2d472a24-3813-4f5f-9783-b491ad8a71ad
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

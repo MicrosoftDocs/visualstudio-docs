@@ -73,11 +73,11 @@ You have made an edit to a section of code that is not allowed in Visual C# Edit
   
 ### To correct this error  
   
-1.  On the **Debug** menu, choose **Undo** to undo the change.  
+1. On the **Debug** menu, choose **Undo** to undo the change.  
   
      -or-  
   
-2.  Stop the debugging session, make your edits, and start a new debugging session.  
+2. Stop the debugging session, make your edits, and start a new debugging session.  
   
 ## See Also  
  [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)

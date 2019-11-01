@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramPublisher2::PublishProgramNode"
 ms.assetid: d4b72e04-f726-46cf-8e56-5203ff205b12
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramPublisher2::PublishProgramNode
 Makes a program node available for use by debug engines (DEs) and the session debug manager (SDM).
@@ -30,10 +33,9 @@ int PublishProgramNode(
 );
 ```
 
-#### Parameters
- `pProgramNode`
-
- [in] An [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object that represents the program node to make available.
+## Parameters
+`pProgramNode`\
+[in] An [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object that represents the program node to make available.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -43,7 +45,7 @@ int PublishProgramNode(
 
  To remove a program node from availability, call the [UnpublishProgramNode](../../../extensibility/debugger/reference/idebugprogrampublisher2-unpublishprogramnode.md) method.
 
-## See Also
+## See also
 - [IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md)
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
 - [UnpublishProgramNode](../../../extensibility/debugger/reference/idebugprogrampublisher2-unpublishprogramnode.md)

@@ -2,7 +2,6 @@
 title: "IJsDebugProcess::CreateStackWalker Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -44,5 +43,5 @@ HRESULT CreateStackWalker(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsDebugProcess Interface](../../winscript/reference/ijsdebugprocess-interface.md)

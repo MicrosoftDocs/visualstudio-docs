@@ -28,12 +28,12 @@ VsPerfCLREnv [/option]
  The option that you choose depends on which of the three types of profiling you use: sampling, instrumentation, or global. A separate option is required to include tier interaction data in the profiling data. The syntax for each option is described in the following tables.  
   
 > [!NOTE]
->  When you are finished profiling, run **VSPerfCLREnv** with the **/off** or **/globaloff** option to delete the environment variables necessary for profiling. For more information, see VSPerfCLREnv Options to Delete Environment Settings shown here.  
+> When you are finished profiling, run **VSPerfCLREnv** with the **/off** or **/globaloff** option to delete the environment variables necessary for profiling. For more information, see VSPerfCLREnv Options to Delete Environment Settings shown here.  
   
  **VSPerfCLREnv Options for Including Tier-Interaction Data**  
   
 > [!WARNING]
->  Tier interaction profiling can be collected using [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], or [!INCLUDE[vs_pro_current_short](../includes/vs-pro-current-short-md.md)]. However, tier interaction profiling data can be viewed only in [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)] and [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)].  
+> Tier interaction profiling can be collected using [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], or [!INCLUDE[vs_pro_current_short](../includes/vs-pro-current-short-md.md)]. However, tier interaction profiling data can be viewed only in [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)] and [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)].  
   
  Tier interaction profiling provides additional information about ADO.NET queries in multi-tiered applications. Data is collected only for synchronous function calls. Interaction data can be added to any profiling run using any profiling method.  
   

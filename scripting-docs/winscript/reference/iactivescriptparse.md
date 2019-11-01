@@ -2,7 +2,6 @@
 title: "IActiveScriptParse | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -26,5 +25,5 @@ If the Windows Script engine allows raw text code scriptlets to be added to the 
 |[IActiveScriptParse::AddScriptlet](../../winscript/reference/iactivescriptparse-addscriptlet.md)|Adds a code scriptlet to the script.|  
 |[IActiveScriptParse::ParseScriptText](../../winscript/reference/iactivescriptparse-parsescripttext.md)|Parses the given code scriptlet, adding declarations into the name space and evaluating code as appropriate.|  
   
-## See Also  
+## See also  
  [Active Script Interfaces](../../winscript/reference/active-script-interfaces.md)

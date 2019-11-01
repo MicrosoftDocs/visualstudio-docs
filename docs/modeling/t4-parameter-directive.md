@@ -2,8 +2,8 @@
 title: T4 Parameter Directive
 ms.date: 11/04/2016
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -93,4 +93,4 @@ string resultText = t.TransformText();
 ## Obtaining arguments from TextTemplate.exe
 
 > [!IMPORTANT]
->  The `parameter` directive does not retrieve values set in the `-a` parameter of the `TextTransform.exe` utility. To get those values, set `hostSpecific="true"` in the `template` directive, and use `this.Host.ResolveParameterValue("","","argName")`.
+> The `parameter` directive does not retrieve values set in the `-a` parameter of the `TextTransform.exe` utility. To get those values, set `hostSpecific="true"` in the `template` directive, and use `this.Host.ResolveParameterValue("","","argName")`.

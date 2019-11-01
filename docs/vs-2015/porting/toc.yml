@@ -1,0 +1,9 @@
+- name: Porting, Migrating, and Upgrading Visual Studio Projects
+# Auto-expanded node
+  items:
+  - name: Porting, Migrating, and Upgrading Visual Studio Projects
+    href: porting-migrating-and-upgrading-visual-studio-projects.md
+  - name: Upgrade Visual C++ Projects to Visual Studio 2015
+    href: how-to-upgrade-visual-cpp-projects-to-visual-studio-2015.md
+  - name: Troubleshoot Unsuccessful Visual Studio Project Upgrades
+    href: how-to-troubleshoot-unsuccessful-visual-studio-project-upgrades.md

@@ -15,17 +15,17 @@ You can create an XML-based .vsct file from an existing command table .ctc sourc
   
 ### To create a .vsct file from a .ctc file  
   
-1.  Obtain a copy of the Perl language.  
+1. Obtain a copy of the Perl language.  
   
-2.  Obtain a copy of the Perl script ConvertCTCToVSCT.pl, typically located in the *\<Visual Studio SDK installation path>*\VisualStudioIntegration\Tools\bin folder.  
+2. Obtain a copy of the Perl script ConvertCTCToVSCT.pl, typically located in the *\<Visual Studio SDK installation path>*\VisualStudioIntegration\Tools\bin folder.  
   
-3.  Obtain a copy of the .ctc source file that you want to convert.  
+3. Obtain a copy of the .ctc source file that you want to convert.  
   
-4.  Place the files in the same directory.  
+4. Place the files in the same directory.  
   
-5.  In the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Command Prompt window, navigate to the directory.  
+5. In the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Command Prompt window, navigate to the directory.  
   
-6.  Type  
+6. Type  
   
     ```  
     perl.exe ConvertCTCtoVSCT.pl PkgCmd.ctc PkgCmd.vsct  
@@ -36,7 +36,7 @@ You can create an XML-based .vsct file from an existing command table .ctc sourc
      This creates a new .vsct XML command table source file. You can compile the file by using Vsct.exe, the VSCT compiler, as you would any other .vsct file.  
   
     > [!NOTE]
-    >  You can improve the readability of the .vsct file by reformatting the XML comments.  
+    > You can improve the readability of the .vsct file by reformatting the XML comments.  
   
 ## See Also  
  [How to: Create a .Vsct File](../extensibility/internals/how-to-create-a-dot-vsct-file.md)   

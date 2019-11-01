@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "IDebugExpressionEvaluator2::SetCallback"
   - "SetCallback"
 ms.assetid: 31e3a99e-e784-44a3-8b19-cc5ef31ed546
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExpressionEvaluator2::SetCallback
 Enables the expression evaluator (EE) to specify the callback interface that the debugger engine (DE) will use to read metric settings.
@@ -29,10 +32,9 @@ int SetCallback (
 );
 ```
 
-#### Parameters
-`pCallback`
-
- [in] Interface to use for the settings callback.
+## Parameters
+`pCallback`\
+[in] Interface to use for the settings callback.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -68,5 +70,5 @@ HRESULT CEE::SetCallback(IDebugSettingsCallback2* in_pCallback)
 }
 ```
 
-## See Also
+## See also
 - [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)

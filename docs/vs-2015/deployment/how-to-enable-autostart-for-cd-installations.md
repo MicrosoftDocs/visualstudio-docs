@@ -27,17 +27,17 @@ When deploying a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applicat
   
 ### To enable AutoStart  
   
-1.  With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.  
+1. With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.  
   
-2.  Click the **Publish** tab.  
+2. Click the **Publish** tab.  
   
-3.  Click the **Options** button.  
+3. Click the **Options** button.  
   
      The **Publish Options** dialog box appears.  
   
-4.  Click **Deployment**.  
+4. Click **Deployment**.  
   
-5.  Select the **For CD installations, automatically start Setup when CD is inserted** check box.  
+5. Select the **For CD installations, automatically start Setup when CD is inserted** check box.  
   
      An Autorun.inf file will be copied to the publish location when the application is published.  
   

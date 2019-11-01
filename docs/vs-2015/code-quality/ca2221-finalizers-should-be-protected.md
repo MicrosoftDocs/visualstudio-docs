@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA2221"
 ms.assetid: bda03aee-4cce-45d3-907d-17f4ee030acc
 caps.latest.revision: 16
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2221: Finalizers should be protected
@@ -75,4 +75,4 @@ manager: "wpickett"
 ```
 
 ## See Also
- [Dispose Pattern](http://msdn.microsoft.com/library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)
+ [Dispose Pattern](https://msdn.microsoft.com/library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)

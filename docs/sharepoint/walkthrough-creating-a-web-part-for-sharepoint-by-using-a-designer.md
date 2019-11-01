@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Web Part for SharePoint by Using a Designer | Microsoft Docs"
+title: "Create web part for SharePoint using designer"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

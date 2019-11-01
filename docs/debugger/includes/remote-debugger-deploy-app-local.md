@@ -38,7 +38,7 @@
 1. Copy the ASP.NET project directory from the Visual Studio computer to the local directory configured for the ASP.NET app (in this example, **C:\Publish**) on the Windows Server computer. In this tutorial, we assume you are copying manually, but you can use other tools like PowerShell, Xcopy, or Robocopy.
 
     > [!CAUTION]
-    >  If you need to make changes to the code or rebuild, you must republish and repeat this step. The executable you copied to the remote machine must exactly match your local source and symbols.    If you do not do this you will receive a `cannot find or open the PDB file` warning in Visual Studio when you attempt to debug the process.
+    > If you need to make changes to the code or rebuild, you must republish and repeat this step. The executable you copied to the remote machine must exactly match your local source and symbols.    If you do not do this you will receive a `cannot find or open the PDB file` warning in Visual Studio when you attempt to debug the process.
 
 1. On the Windows Server, verify that you can run the app correctly by opening the app in your browser.
 

@@ -27,17 +27,17 @@ The Lines view is available only for profiler data that was collected by using t
   
  A statement is identified by the following:  
   
--   The source file that contains the function statement.  
+- The source file that contains the function statement.  
   
--   The function that contains the statement.  
+- The function that contains the statement.  
   
--   The source line at which the statement starts.  
+- The source line at which the statement starts.  
   
--   The character in the source line at which the statement starts.  
+- The character in the source line at which the statement starts.  
   
--   The source line at which the statement ends.  
+- The source line at which the statement ends.  
   
--   The character in the source line at which the statement ends.  
+- The character in the source line at which the statement ends.  
   
 ## See Also  
  [Lines View](../profiling/lines-view-sampling-data.md)   

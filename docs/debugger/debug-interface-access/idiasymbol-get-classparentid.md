@@ -33,7 +33,7 @@ HRESULT get_classParentId ( 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.
 
 > [!NOTE]
->  A return value of `S_FALSE` means the property is not available for the symbol.
+> A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## Remarks
  The identifier is a unique value created by the DIA SDK to mark all symbols as unique.
@@ -45,5 +45,5 @@ HRESULT get_classParentId ( 
 |Header:|dia2.h|
 |Version:|DIA SDK v7.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

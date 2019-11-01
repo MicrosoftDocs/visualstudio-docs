@@ -25,9 +25,9 @@ manager: jillfra
 
 Debugging [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications is similar to debugging a Windows Form or any other Windows application because both kinds of applications involve controls and events. However, there are also basic differences between the two kinds of applications:  
   
--   Keeping track of state is more complex in a Web application.  
+- Keeping track of state is more complex in a Web application.  
   
--   In a Windows application, the code to be debugged is mostly in one location; in a Web application, the code can be on the client and on the server. While [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] code is all on the server, there might also be JavaScript or [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] code on the client.  
+- In a Windows application, the code to be debugged is mostly in one location; in a Web application, the code can be on the client and on the server. While [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] code is all on the server, there might also be JavaScript or [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] code on the client.  
   
 ## In This Section  
  [Preparing to Debug ASP.NET](../debugger/preparing-to-debug-aspnet.md)  
@@ -40,7 +40,7 @@ Debugging [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications is s
  [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)  
  Explains why Just My Code must be enabled for debugging [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] exceptions.  
   
- [Debugging and Tracing Ajax Applications Overview](http://msdn.microsoft.com/library/92684ea0-7bb4-4a34-9203-3aa6394ce375)  
+ [Debugging and Tracing Ajax Applications Overview](https://msdn.microsoft.com/library/92684ea0-7bb4-4a34-9203-3aa6394ce375)  
  Discusses some techniques and tools that can help you debug your AJAX code.  
   
  [IntelliTrace](../debugger/intellitrace.md)  

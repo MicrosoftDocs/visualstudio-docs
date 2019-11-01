@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugMethodField::EnumAllLocals method"
 ms.assetid: 0bc7cc13-2628-4bd8-8c06-4d2aa6755ea8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugMethodField::EnumAllLocals
 Creates an enumerator for all local variables of the method, including those generated internally by a compiler.
@@ -32,14 +35,12 @@ int EnumAllLocals(
 );
 ```
 
-#### Parameters
- `pAddress`
+## Parameters
+`pAddress`\
+[in] An [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) object representing a debug address within the method, pointing to a particular scope or context.
 
- [in] An [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) object representing a debug address within the method, pointing to a particular scope or context.
-
- `ppLocals`
-
- [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of all locals in the specified scope; otherwise, returns a null value indicating no locals.
+`ppLocals`\
+[out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of all locals in the specified scope; otherwise, returns a null value indicating no locals.
 
 ## Return Value
  If successful, returns S_OK or returns S_FALSE if there are no locals. Otherwise, returns an error code.
@@ -49,7 +50,7 @@ int EnumAllLocals(
 
  A method can contain multiple scoping contexts or blocks.
 
-## See Also
+## See also
 - [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md)
 - [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)
 - [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)

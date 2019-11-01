@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "UseEventsWhereAppropriate"
 ms.assetid: ea051367-deeb-40f9-9b65-eb818f1e133a
 caps.latest.revision: 18
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1030: Use events where appropriate
@@ -29,13 +29,13 @@ manager: "wpickett"
 ## Cause
  A public, protected, or private method name begins with one of the following:
 
--   AddOn
+- AddOn
 
--   RemoveOn
+- RemoveOn
 
--   Fire
+- Fire
 
--   Raise
+- Raise
 
 ## Rule Description
  This rule detects methods that have names that ordinarily would be used for events. Events follow the Observer or Publish-Subscribe design pattern; they are used when a state change in one object must be communicated to other objects. If a method gets called in response to a clearly defined state change, the method should be invoked by an event handler. Objects that call the method should raise events instead of calling the method directly.

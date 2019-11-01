@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugReference2 interface"
 ms.assetid: 3cfed312-f532-4bce-84a5-1677c14567d7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -17,7 +17,7 @@ ms.workload:
 This interface represents a reference to a stack frame property or some other property.
 
 > [!NOTE]
->  `IDebugReference2` is reserved for future use, and all its methods should return `E_NOTIMPL`.
+> `IDebugReference2` is reserved for future use, and all its methods should return `E_NOTIMPL`.
 
 ## Syntax
 
@@ -51,7 +51,7 @@ IDebugReference2 : IUnknown
 ## Remarks
 
 > [!NOTE]
->  This use of "property" should not be confused with that meaning a member variable of a class, although an `IDebugReference2` can represent such an entity.
+> This use of "property" should not be confused with that meaning a member variable of a class, although an `IDebugReference2` can represent such an entity.
 
 - [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) represents a property, while `IDebugReference2` represents a reference to a property, typically a reference to an object in the program being debugged.
 
@@ -66,7 +66,7 @@ IDebugReference2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md)
 - [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)

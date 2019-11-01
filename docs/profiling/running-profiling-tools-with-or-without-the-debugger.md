@@ -27,7 +27,7 @@ To help decide which tools and results to use, consider the following points:
 - The debugger itself changes performance times as it does necessary debugger operations like intercepting exception and module load events.
 - Release build performance numbers in the **Performance Profiler** tools are the most precise and accurate. Debugger-integrated tool results are most useful to compare with other debugging-related measurements.
 
-##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Collect profiling data while debugging
+## <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Collect profiling data while debugging
 
 When you start debugging in Visual Studio by selecting **Debug** > **Start Debugging** or pressing **F5**, the **Diagnostic Tools** window appears by default. To open it manually, select **Debug** > **Windows** > **Show Diagnostic Tools**. The **Diagnostic Tools** window shows information about events, process memory, and CPU usage.
 
@@ -61,7 +61,7 @@ For more information, see [Searching and filtering the Events tab of the Diagnos
 
 ## Collect profiling data without debugging
 
-To collect performance data without debugging, you can run the **Performance Profiler** tools. Some of the profiling tools require administrator privileges to run. You can start Visual Studio as an administrator, or you can run the tools as an administrator when you start the diagnostic session.
+To collect performance data without debugging, you can run the **Performance Profiler** tools. Some of the profiling tools require administrator privileges to run. You can open Visual Studio as an administrator, or you can run the tools as an administrator when you start the diagnostic session.
 
 1. With a project open in Visual Studio, select **Debug** > **Performance Profiler**, or press **Alt**+**F2**.
 

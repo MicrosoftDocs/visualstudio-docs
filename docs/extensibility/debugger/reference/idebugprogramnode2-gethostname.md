@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramNode2::GetHostName"
 ms.assetid: 16aad1ff-ad34-4394-a2e4-5621374a7729
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramNode2::GetHostName
 Gets the name of the process hosting the program.
@@ -32,14 +35,12 @@ int GetHostName (
 );
 ```
 
-#### Parameters
-`dwHostNameType`
+## Parameters
+`dwHostNameType`\
+[in] A value from the [GETHOSTNAME_TYPE](../../../extensibility/debugger/reference/gethostname-type.md) enumeration that specifies the type of name to return.
 
- [in] A value from the [GETHOSTNAME_TYPE](../../../extensibility/debugger/reference/gethostname-type.md) enumeration that specifies the type of name to return.
-
-`pbstrHostName`
-
- [out] Returns the name of the hosting process.
+`pbstrHostName`\
+[out] Returns the name of the hosting process.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -89,7 +90,7 @@ HRESULT CProgram::GetHostName(DWORD dwHostNameType, BSTR* pbstrHostName) {
 }
 ```
 
-## See Also
+## See also
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
 - [GETHOSTNAME_TYPE](../../../extensibility/debugger/reference/gethostname-type.md)
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

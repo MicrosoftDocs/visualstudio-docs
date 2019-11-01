@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "STEPUNIT enumeration"
 ms.assetid: cb8441f2-f744-4e73-acfe-ae8542df9649
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # STEPUNIT
 Specifies the step unit for stepping.
@@ -35,14 +38,14 @@ enum enum_STEPUNIT { 
 };
 ```
 
-## Members
- STEP_STATEMENT
+## Fields
+ `STEP_STATEMENT`\
  Steps by statement.
 
- STEP_LINE
+ `STEP_LINE`\
  Steps by line.
 
- STEP_INSTRUCTION
+ `STEP_INSTRUCTION`\
  Steps by instruction.
 
 ## Remarks
@@ -55,6 +58,6 @@ enum enum_STEPUNIT { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [Step](../../../extensibility/debugger/reference/idebugprocess3-step.md)

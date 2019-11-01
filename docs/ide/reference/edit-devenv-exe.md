@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "Devenv, /Edit switch"
   - "/Edit Devenv switch"
 ms.assetid: 02b3d6e7-a2b1-4d83-a747-aa8c2fb758b7
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -38,6 +38,8 @@ devenv /Edit [File1[ FileN]...]
 When a file isn't specified, an existing Visual Studio instance receives focus. If no file is specified and no instance of Visual Studio exists, the tool creates an instance with a simplified window layout.
 
 If the existing Visual Studio instance is in a modal state, the file opens in the existing instance when Visual Studio exits the modal state. For example, this situation may occur when the [Options dialog box](../../ide/reference/options-dialog-box-visual-studio.md) is open.
+
+If more than one instance of Visual Studio is open, the file is opened in the most recently opened instance.
 
 ## Example
 

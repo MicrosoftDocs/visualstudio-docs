@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEngineProgram2::WatchForThreadStep"
 ms.assetid: b70922a3-1313-409a-b3b7-50c7cd13e394
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugEngineProgram2::WatchForThreadStep
 Watches for execution (or stops watching for execution) to occur on the given thread.
@@ -36,22 +39,18 @@ int WatchForThreadStep( 
 );
 ```
 
-#### Parameters
- `pOriginatingProgram`
+## Parameters
+`pOriginatingProgram`\
+[in] An [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) object representing the program being stepped.
 
- [in] An [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) object representing the program being stepped.
+`dwTid`\
+[in] Specifies the identifier of the thread to watch.
 
- `dwTid`
+`fWatch`\
+[in] Non-zero (`TRUE`) means start watching for execution on the thread identified by `dwTid`; otherwise, zero (`FALSE`) means stop watching for execution on `dwTid`.
 
- [in] Specifies the identifier of the thread to watch.
-
- `fWatch`
-
- [in] Non-zero (`TRUE`) means start watching for execution on the thread identified by `dwTid`; otherwise, zero (`FALSE`) means stop watching for execution on `dwTid`.
-
- `dwFrame`
-
- [in] Specifies a frame index that controls the step type. When this is value is zero (0), the step type is "step into" and the program should stop whenever the thread identified by `dwTid` executes. When `dwFrame` is non-zero, the step type is "step over" and the program should stop only if the thread identified by `dwTid` is running in a frame whose index is equal to or higher on the stack than `dwFrame`.
+`dwFrame`\
+[in] Specifies a frame index that controls the step type. When this is value is zero (0), the step type is "step into" and the program should stop whenever the thread identified by `dwTid` executes. When `dwFrame` is non-zero, the step type is "step over" and the program should stop only if the thread identified by `dwTid` is running in a frame whose index is equal to or higher on the stack than `dwFrame`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -61,6 +60,6 @@ int WatchForThreadStep( 
 
  This method is applicable only to same-thread stepping.
 
-## See Also
+## See also
 - [IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md)
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

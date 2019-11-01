@@ -21,7 +21,7 @@ ms.workload:
 
 ## To open an existing workbook
 
-1.  Use the <xref:Microsoft.Office.Interop.Excel.Workbooks.Open%2A> method of the <xref:Microsoft.Office.Interop.Excel.Workbooks> collection, passing in the path to the workbook.
+1. Use the <xref:Microsoft.Office.Interop.Excel.Workbooks.Open%2A> method of the <xref:Microsoft.Office.Interop.Excel.Workbooks> collection, passing in the path to the workbook.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#2](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#2)]
      [!code-vb[Trin_VstcoreExcelAutomation#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#2)]
@@ -29,7 +29,7 @@ ms.workload:
 ## Compile the code
  This code example requires the following:
 
--   A workbook named `YourWorkbook.xls` must exist in a directory named `Test` on drive C.
+- A workbook named `YourWorkbook.xls` must exist in a directory named `Test` on drive C.
 
 ## See also
 - [Work with workbooks](../vsto/working-with-workbooks.md)

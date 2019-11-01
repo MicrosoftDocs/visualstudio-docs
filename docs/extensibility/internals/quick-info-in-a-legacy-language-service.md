@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "IntelliSense, Quick Info"
   - "language services [managed package framework], IntelliSense Quick Info"
 ms.assetid: 159ccb0b-f5d6-4912-b88b-e9612924ed5e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -19,7 +19,7 @@ IntelliSense Quick Info shows information about an identifier in the source when
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more, see [Walkthrough: Displaying QuickInfo Tooltips](../../extensibility/walkthrough-displaying-quickinfo-tooltips.md).
 
 > [!NOTE]
->  We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.
+> We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.
 
  The managed package framework (MPF) language service classes provide full support for displaying the IntelliSense Quick Info tool tip. All you have to do is supply the text to be displayed and enable the quick info feature.
 

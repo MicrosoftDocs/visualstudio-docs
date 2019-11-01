@@ -2,7 +2,7 @@
 title: "Get started (Office development in Visual Studio)"
 titleSuffix: ""
 ms.custom: "seodec18"
-ms.date: "02/02/2017"
+ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -18,8 +18,7 @@ ms.workload:
 # Get started (Office development in Visual Studio)
   This section contains topics that help you get started using the Microsoft Office developer tools in Visual Studio.
 
-> [!NOTE]
->  Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
+[!include[Add-ins note](includes/addinsnote.md)]
 
 ## In this section
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
@@ -83,5 +82,5 @@ ms.workload:
 
  Provides information about how to make Office solutions available to your users, and describes the major issues to consider when you choose a deployment method and set security.
 
-- [Visual Studio Tools for Office technical articles and Visual How Tos](http://go.microsoft.com/fwlink/?LinkID=106640)
+- [Visual Studio Tools for Office technical articles and Visual How Tos](/previous-versions/office/developer/office-2007/bb871648(v=office.12))
  Contains links into videos and technical articles about Office solutions created by using Visual Studio.

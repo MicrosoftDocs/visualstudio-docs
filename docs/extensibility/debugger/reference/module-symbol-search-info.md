@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "MODULE_SYMBOL_SEARCH_INFO structure"
 ms.assetid: 432aff03-08a5-4c5a-b2d5-e212090fc70a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # MODULE_SYMBOL_SEARCH_INFO
 
@@ -34,14 +37,12 @@ public struct MODULE_SYMBOL_SEARCH_INFO {
 }
 ```
 
-## Parameters
+## Members
 
-`dwValidFields`
-
+`dwValidFields`\
 A combination of flags from the [SYMBOL_SEARCH_INFO_FIELDS](../../../extensibility/debugger/reference/symbol-search-info-fields.md) enumeration specifying the kind of search information described in this structure.
 
-`bstrVerboseSearchInfo`
-
+`bstrVerboseSearchInfo`\
 Search path and results concatenated into a single string.
 
 ## Remarks

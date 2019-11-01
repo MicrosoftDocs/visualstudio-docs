@@ -28,32 +28,32 @@ There are several ways to create an XML-based Visual Studio Command Table config
   
 ### To manually create a new .vsct file  
   
-1.  Start [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  
+1. Start [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  
   
-2.  On the **File** menu, point to **New**, and then click **File**.  
+2. On the **File** menu, point to **New**, and then click **File**.  
   
-3.  In the **Templates** pane, click **XML File** and then click **Open**.  
+3. In the **Templates** pane, click **XML File** and then click **Open**.  
   
-4.  On the **View** menu, click **Properties Window** to display the properties of the XML file.  
+4. On the **View** menu, click **Properties Window** to display the properties of the XML file.  
   
-5.  In the **Properties** window, click the Browse (…) button on the Schemas property.  
+5. In the **Properties** window, click the Browse (…) button on the Schemas property.  
   
-6.  In the list of XSD schemas, select the vsct.xsd schema. If it is not in the list, click **Add** and then find the file on a local drive. Click **OK** when you are finished.  
+6. In the list of XSD schemas, select the vsct.xsd schema. If it is not in the list, click **Add** and then find the file on a local drive. Click **OK** when you are finished.  
   
-7.  In the XML file, type `<CommandTable` and then press TAB. Close the tag by typing `>`.  
+7. In the XML file, type `<CommandTable` and then press TAB. Close the tag by typing `>`.  
   
      This creates a basic .vsct file.  
   
-8.  Fill in the elements of the XML file that you want to add, according to the [VSCT Schema](../../extensibility/vsct-xml-schema-reference.md). For more information, see [Authoring .Vsct Files](../../extensibility/internals/authoring-dot-vsct-files.md)  
+8. Fill in the elements of the XML file that you want to add, according to the [VSCT Schema](../../extensibility/vsct-xml-schema-reference.md). For more information, see [Authoring .Vsct Files](../../extensibility/internals/authoring-dot-vsct-files.md)  
   
 ## Compiling the Code  
  Simply adding a .vsct file to a project does not cause it to compile. You must incorporate it in the build process.  
   
 ### To add a .vsct file to project compilation  
   
-1.  Open your project file in the editor. If the project is loaded, you must unload it first.  
+1. Open your project file in the editor. If the project is loaded, you must unload it first.  
   
-2.  Add an [ItemGroup element](../../msbuild/itemgroup-element-msbuild.md) that contains a VSCTCompile element, as shown in the following example.  
+2. Add an [ItemGroup element](../../msbuild/itemgroup-element-msbuild.md) that contains a VSCTCompile element, as shown in the following example.  
   
     ```xml  
     <ItemGroup>  
@@ -66,7 +66,7 @@ There are several ways to create an XML-based Visual Studio Command Table config
   
      The ResourceName element should always be set to `Menus.ctmenu`.  
   
-3.  If your project contains a .resx file, add an EmbeddedResource element that contains a MergeWithCTO element, as shown in the following example.  
+3. If your project contains a .resx file, add an EmbeddedResource element that contains a MergeWithCTO element, as shown in the following example.  
   
     ```xml  
     <EmbeddedResource Include="VSPackage.resx">  
@@ -78,9 +78,9 @@ There are several ways to create an XML-based Visual Studio Command Table config
   
      This markup should go inside the ItemGroup element that contains embedded resources.  
   
-4.  Open the package file, usually named *ProjectName*Package.cs or *ProjectName*Package.vb, in the editor.  
+4. Open the package file, usually named *ProjectName*Package.cs or *ProjectName*Package.vb, in the editor.  
   
-5.  Add a ProvideMenuResource attribute to the package class, as shown in the following example.  
+5. Add a ProvideMenuResource attribute to the package class, as shown in the following example.  
   
     ```csharp  
     [ProvideMenuResource("Menus.ctmenu", 1)]  

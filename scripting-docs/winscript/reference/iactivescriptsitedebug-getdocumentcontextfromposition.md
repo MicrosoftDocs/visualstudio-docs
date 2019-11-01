@@ -2,7 +2,6 @@
 title: "IActiveScriptSiteDebug::GetDocumentContextFromPosition | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -56,5 +55,5 @@ HRESULT GetDocumentContextFromPosition(
 ## Remarks  
  Language engines use this method to delegate `IDebugCodeContext::GetSourceContext`.  
   
-## See Also  
+## See also  
  [IActiveScriptSiteDebug Interface](../../winscript/reference/iactivescriptsitedebug-interface.md)

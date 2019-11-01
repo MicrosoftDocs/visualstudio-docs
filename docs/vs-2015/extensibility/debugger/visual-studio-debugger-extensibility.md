@@ -21,7 +21,7 @@ Visual Studio includes a fully interactive source code debugger, providing a pow
   
  The [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] includes a complete reference to all [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] elements required to create a new DE. In addition, there are samples and tutorials that will help get you started.  
   
- For an end-to-end sample of a language project system with debugging support, see the [IronPython sample](http://msdn.microsoft.com/4c41695c-12c1-4670-b43b-d8d84c9e4089).  
+ For an end-to-end sample of a language project system with debugging support, see the [IronPython sample](https://msdn.microsoft.com/4c41695c-12c1-4670-b43b-d8d84c9e4089).  
   
  The following sections describe how to extend the debugger by using the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)].  
   

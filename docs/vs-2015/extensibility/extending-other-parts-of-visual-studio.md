@@ -23,9 +23,9 @@ There are many more parts of the Visual Studio UI that you can extend. Here we s
 ## Extending the Toolbox
  Learn how to add new controls and other items to the Toolbox and how to use Toolbox functionality:
 
--   [Creating a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)
+- [Creating a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)
 
--   [Creating a Windows Forms Toolbox Control](../extensibility/creating-a-windows-forms-toolbox-control.md)
+- [Creating a Windows Forms Toolbox Control](../extensibility/creating-a-windows-forms-toolbox-control.md)
 
 ## Extending the Status Bar
  Learn how to read and write to the status bar and the progress bar, and how to provide animations and other UI: [Extending the Status Bar](../extensibility/extending-the-status-bar.md).

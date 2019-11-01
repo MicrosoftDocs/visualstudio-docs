@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugThread2::SetNextStatement"
 ms.assetid: 9e2834dd-4ecf-45af-8e6c-f9318ebdac06
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugThread2::SetNextStatement
 Sets the current instruction pointer to the given code context.
@@ -32,13 +35,12 @@ int SetNextStatement ( 
 );
 ```
 
-#### Parameters
- `pStackFrame`
- Reserved for future use; set to a null value.
+## Parameters
+`pStackFrame`\
+Reserved for future use; set to a null value.
 
- `pCodeContext`
-
- [in] An [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that describes the code location about to be executed and its context.
+`pCodeContext`\
+[in] An [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that describes the code location about to be executed and its context.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. The following table shows other possible values.
@@ -52,7 +54,7 @@ int SetNextStatement ( 
 ## Remarks
  The instruction pointer indicates the next instruction or statement to execute. This method is used to retry a line of source code or to force execution to continue in another function, for example.
 
-## See Also
+## See also
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
 - [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)
 - [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)

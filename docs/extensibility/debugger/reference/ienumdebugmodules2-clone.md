@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumDebugModules2::Clone"
 ms.assetid: fd6d3abc-20d9-4f6f-9c8e-5bd29f68d47d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEnumDebugModules2::Clone
 Returns a copy of the current enumeration as a separate object.
@@ -30,10 +33,9 @@ int Clone(
 );
 ```
 
-#### Parameters
- `ppEnum`
-
- [out] Returns a copy of this enumeration as a separate object.
+## Parameters
+`ppEnum`\
+[out] Returns a copy of this enumeration as a separate object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -41,5 +43,5 @@ int Clone(
 ## Remarks
  The copy of the enumeration has the same state as the original at the time this method is called. However, the copy's and the original's states are separate and can be changed individually.
 
-## See Also
+## See also
 - [IEnumDebugModules2](../../../extensibility/debugger/reference/ienumdebugmodules2.md)

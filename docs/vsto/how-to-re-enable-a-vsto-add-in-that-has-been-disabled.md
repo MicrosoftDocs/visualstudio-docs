@@ -27,45 +27,45 @@ ms.workload:
 
 ### To re-enable a VSTO Add-in
 
-1.  In the application, click the **File** tab.
+1. In the application, click the **File** tab.
 
-2.  Click the *ApplicationName* **Options** button.
+2. Click the *ApplicationName* **Options** button.
 
-3.  In the categories pane, click **Add-ins**.
+3. In the categories pane, click **Add-ins**.
 
-4.  In the details pane, verify that the VSTO Add-in appears in the **Disabled Application Add-ins** list.
+4. In the details pane, verify that the VSTO Add-in appears in the **Disabled Application Add-ins** list.
 
      The **Name** column specifies the name of the assembly, and the **Location** column specifies the full path of the application manifest.
 
-5.  In the **Manage** box, click **Disabled Items**, and then click **Go**.
+5. In the **Manage** box, click **Disabled Items**, and then click **Go**.
 
-6.  Select the VSTO Add-in and click **Enable**.
+6. Select the VSTO Add-in and click **Enable**.
 
-7.  Click **Close**.
+7. Click **Close**.
 
 ## Soft-disabled VSTO Add-ins
  Soft disabling can occur when a VSTO Add-in produces an error that does not cause the application to unexpectedly close. For example, an application might soft disable a VSTO Add-in if it throws an unhandled exception while the <xref:Microsoft.Office.Tools.AddIn.Startup> event handler is executing.
 
 > [!NOTE]
->  When you re-enable a soft-disabled VSTO Add-in, the application immediately attempts to load the VSTO Add-in. If the problem that initially caused the application to soft disable the VSTO Add-in has not been fixed, the application will soft disable the VSTO Add-in again.
+> When you re-enable a soft-disabled VSTO Add-in, the application immediately attempts to load the VSTO Add-in. If the problem that initially caused the application to soft disable the VSTO Add-in has not been fixed, the application will soft disable the VSTO Add-in again.
 
 ### To re-enable a VSTO Add-in
 
-1.  In the application, click the **File** tab.
+1. In the application, click the **File** tab.
 
-2.  Click the *ApplicationName* **Options** button.
+2. Click the *ApplicationName* **Options** button.
 
-3.  In the categories pane, click **Add-ins**.
+3. In the categories pane, click **Add-ins**.
 
-4.  In the details pane, verify that the VSTO Add-in appears in the **Inactive Application Add-ins** list.
+4. In the details pane, verify that the VSTO Add-in appears in the **Inactive Application Add-ins** list.
 
      The **Name** column specifies the name of the assembly, and the **Location** column specifies the full path of the application manifest.
 
-5.  In the **Manage** box, click **COM Add-ins**, and then click **Go**.
+5. In the **Manage** box, click **COM Add-ins**, and then click **Go**.
 
-6.  In the **COM Add-Ins** dialog box, select the check box next to the disabled VSTO Add-in.
+6. In the **COM Add-Ins** dialog box, select the check box next to the disabled VSTO Add-in.
 
-7.  Click **OK**.
+7. Click **OK**.
 
 ## See also
 - [Build Office solutions](../vsto/building-office-solutions.md)

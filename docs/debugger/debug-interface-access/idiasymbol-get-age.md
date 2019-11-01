@@ -33,7 +33,7 @@ HRESULT get_age ( 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.
 
 > [!NOTE]
->  A return value of `S_FALSE` means the property is not available for the symbol.
+> A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## Remarks
  The age does not necessarily correspond to any known time value; it is typically used to determine if a .pdb file is out of sync with a corresponding .exe file.
@@ -45,5 +45,5 @@ HRESULT get_age ( 
 |Header:|dia2.h|
 |Version:|DIA SDK v7.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

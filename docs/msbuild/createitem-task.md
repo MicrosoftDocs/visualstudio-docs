@@ -23,7 +23,7 @@ ms.workload:
 Populates item collections with the input items. This allows items to be copied from one list to another.
 
 > [!NOTE]
->  This task is deprecated. Starting with .NET Framework 3.5, item groups may be placed within [Target](../msbuild/target-element-msbuild.md) elements. For more information, see [Items](../msbuild/msbuild-items.md).
+> This task is deprecated. Starting with .NET Framework 3.5, item groups may be placed within [Target](../msbuild/target-element-msbuild.md) elements. For more information, see [Items](../msbuild/msbuild-items.md).
 
 ## Attributes
  The following table describes the parameters of the `CreateItem` task.

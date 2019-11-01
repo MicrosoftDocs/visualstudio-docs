@@ -17,6 +17,6 @@ A solution is a grouping of one or more projects that work together to create an
 ## In This Section  
  The following walkthroughs show some ways in which you can extend solutions.  
   
-1.  [Extending the Solution Explorer Filter](../extensibility/extending-the-solution-explorer-filter.md) explains how to filter what the Solution Explorer displays.  
+1. [Extending the Solution Explorer Filter](../extensibility/extending-the-solution-explorer-filter.md) explains how to filter what the Solution Explorer displays.  
   
-2.  [Managing Project Loading in a Solution](../extensibility/managing-project-loading-in-a-solution.md) explains how to manage project loading to improve the performance when a user loads a solution.
+2. [Managing Project Loading in a Solution](../extensibility/managing-project-loading-in-a-solution.md) explains how to manage project loading to improve the performance when a user loads a solution.

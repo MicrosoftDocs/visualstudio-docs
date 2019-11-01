@@ -34,16 +34,14 @@ ms.workload:
 
  To open the Ribbon Designer, add a **Ribbon (Visual Designer)** item to your project. You can then use the design tools for the following tasks:
 
--   [Design the Ribbon layout](#DesigningRibbonLayout)
+- [Design the Ribbon layout](#DesigningRibbonLayout)
 
--   [Handle events and set control properties](#HandleEventsSetProperties)
+- [Handle events and set control properties](#HandleEventsSetProperties)
 
--   [Add controls to Backstage View](#CustomizingMicrosoftOfficeButton)
+- [Add controls to Backstage View](#CustomizingMicrosoftOfficeButton)
 
 > [!NOTE]
->  There are some tasks that you cannot accomplish by using the Ribbon Designer. For more information about these tasks and how you can accomplish them, see [Ribbon overview](../vsto/ribbon-overview.md).
-
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use the Ribbon Designer to customize the ribbon in Outlook?](http://go.microsoft.com/fwlink/?LinkID=130312).
+> There are some tasks that you cannot accomplish by using the Ribbon Designer. For more information about these tasks and how you can accomplish them, see [Ribbon overview](../vsto/ribbon-overview.md).
 
 ## Add a Ribbon (Visual Designer) item to a project
  To use the Ribbon Designer, add a new **Ribbon (Visual Designer)** item to your project. For more information, see [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md).
@@ -58,7 +56,7 @@ ms.workload:
 
   If you already have a **Ribbon (Visual Designer)** item from another project, you can reuse it in your current project by using the **Add Existing Item** dialog box.
 
-##  <a name="DesigningRibbonLayout"></a> Design a ribbon
+## <a name="DesigningRibbonLayout"></a> Design a ribbon
  There are three ways to open the Ribbon Designer:
 
 - In **Solution Explorer**, double-click the Ribbon code file.
@@ -92,7 +90,7 @@ ms.workload:
 
    You cannot drag controls from one tab to another on the ribbon. If you want to move a control to another tab, you must use the **Cut** command to remove the control from one tab, and then paste the control on another tab. If you do cut the control and paste it, the event handler stops working. You can reconnect the event handler in the **Properties** window. For more information, see [Properties window](../ide/reference/properties-window.md).
 
-###  <a name="AddTabToRibbon"></a> Add custom tabs to the ribbon
+### <a name="AddTabToRibbon"></a> Add custom tabs to the ribbon
  There are three ways to add a custom tab to the ribbon:
 
 - Add a tab from the **Toolbox**.
@@ -108,11 +106,11 @@ ms.workload:
 #### Remove custom tabs from the ribbon
  There are three ways to remove a custom tab from the ribbon:
 
--   Right-click the designer, and then click **Remove Ribbon Tab**.
+- Right-click the designer, and then click **Remove Ribbon Tab**.
 
--   In the **Commands** pane of the **Properties** window, click **Remove Ribbon Tab**.
+- In the **Commands** pane of the **Properties** window, click **Remove Ribbon Tab**.
 
--   Open the **Tab Collection Editor**, select the tab, and then click **Remove**.
+- Open the **Tab Collection Editor**, select the tab, and then click **Remove**.
 
 #### Change the position of a tab on the ribbon
  You can change the order of custom tabs on a ribbon. You can also position custom tabs before or after a built-in tab on the ribbon. For more information, see [How to: Change the position of a tab on the ribbon](../vsto/how-to-change-the-position-of-a-tab-on-the-ribbon.md).
@@ -126,10 +124,10 @@ ms.workload:
 
  For details about how to customize a built-in tab, see [How to: Customize a built-in tab](../vsto/how-to-customize-a-built-in-tab.md).
 
-###  <a name="AddGroupsToTab"></a> Add groups to a tab
+### <a name="AddGroupsToTab"></a> Add groups to a tab
  Groups logically organize controls on the ribbon. Add groups to tabs. Add all other controls to the group.
 
-###  <a name="AddControlsToGroups"></a> Add controls to groups
+### <a name="AddControlsToGroups"></a> Add controls to groups
  Add one or more controls to a group. The following table describes each control.
 
 |Control|Description|
@@ -138,8 +136,8 @@ ms.workload:
 |**Button**|A button that starts an action. You can add a button to a group, a button group, a drop-down list, a gallery, a menu, or a split button.|
 |**ButtonGroup**|A group that contains one or more buttons, toggle buttons, menus, split buttons, and galleries. You can add a button group to a group or a menu.|
 |**CheckBox**|A box that is selected or cleared to turn on or off an option.|
-|**ComboBox**|An edit box with a list box attached. Users can either type or select their choice. The box displays the current selection. Use the <xref:Microsoft.Office.Tools.Ribbon.RibbonComboBox.Items%2A> property to add and remove items at runtime before or after the ribbon is loaded into the Office application.|
-|**DropDown**|A list of items that the user can select. The user cannot type a new item in a drop-down list.<br /><br /> Use the <xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown.Items%2A> property to add items to the list. You can add and remove items at runtime.<br /><br /> Use the <xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown.Buttons%2A> property to add buttons to the list. However, you cannot add and remove buttons at run time after the ribbon is loaded into the Office application.|
+|**ComboBox**|An edit box with a list box attached. Users can either type or select their choice. The box displays the current selection. Use the <xref:Microsoft.Office.Tools.Ribbon.RibbonComboBox.Items%2A> property to add and remove items at run time before or after the ribbon is loaded into the Office application.|
+|**DropDown**|A list of items that the user can select. The user cannot type a new item in a drop-down list.<br /><br /> Use the <xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown.Items%2A> property to add items to the list. You can add and remove items at run time.<br /><br /> Use the <xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown.Buttons%2A> property to add buttons to the list. However, you cannot add and remove buttons at run time after the ribbon is loaded into the Office application.|
 |**EditBox**|A box in which the user can type text.|
 |**Gallery**|A menu that presents an array or grid of visual choices from which users can select. You can control the layout of the selections in the menu. Use the <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery.ColumnCount%2A> and the <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery.RowCount%2A> properties to specify the number of rows and columns that will display the items and buttons of the gallery.|
 |**Label**|Text that you can use to identify controls on the ribbon.|
@@ -148,25 +146,25 @@ ms.workload:
 |**SplitButton**|A button with a menu attached. A split button can contain any of the following controls:<br /><br /> -   Button<br />-   Check box<br />-   Gallery<br />-   Menu<br />-   Split button<br />-   Toggle button<br />-   Separator<br /><br /> Like the menu, the split button has its own design surface. However, unlike a menu, you can only update the items in a split button before the ribbon is loaded into the Office application. For information about how to update the items in a split button, see [Ribbon object model overview](../vsto/ribbon-object-model-overview.md).|
 |**ToggleButton**|A button that appears pressed or not pressed.|
 
-##  <a name="HandleEventsSetProperties"></a> Handle events and setting properties
- The Ribbon Designer enables you to set control properties at design time by using the **Properties** window. In addition, the ribbon exposes a strongly typed object model that you can use to get and set the properties of Ribbon controls at runtime.
+## <a name="HandleEventsSetProperties"></a> Handle events and setting properties
+ The Ribbon Designer enables you to set control properties at design time by using the **Properties** window. In addition, the ribbon exposes a strongly typed object model that you can use to get and set the properties of Ribbon controls at run time.
 
  You can double-click any control on the designer to open an event handler for the control's default event. You can create event handlers for all other control events by using the **Properties** window.
 
  Ribbon events and properties are located in the <xref:Microsoft.Office.Tools.Ribbon> namespace. The **Ribbon (Visual Designer)** item automatically adds a reference to this assembly in the project and inserts the appropriate **using** or **Imports** statement at the top of the Ribbon code file.
 
- For information about handling Ribbon events and setting the properties of Ribbon controls at runtime, see [Ribbon object model overview](../vsto/ribbon-object-model-overview.md).
+ For information about handling Ribbon events and setting the properties of Ribbon controls at run time, see [Ribbon object model overview](../vsto/ribbon-object-model-overview.md).
 
-##  <a name="CustomizingMicrosoftOfficeButton"></a> Customize Backstage view
+## <a name="CustomizingMicrosoftOfficeButton"></a> Customize Backstage view
  You can use the Ribbon Designer to add controls to the menu that opens when you click the **File** tab. This menu is called the Backstage view.
 
- You cannot position controls before or after built-in controls by using the Ribbon designer. A built-in control is a control that already appears in Backstage view. If you want to position controls before or after built-in controls, you must use Ribbon XML. For more information about **Ribbon (XML)**, see [Ribbon XML](../vsto/ribbon-xml.md). For more information about customizing the Backstage view, see [Introduction to the Office 2010 Backstage view for developers](http://go.microsoft.com/fwlink/?LinkId=182189) and [Customize the Office 2010 Backstage view for developers](http://go.microsoft.com/fwlink/?LinkId=182188).
+ You cannot position controls before or after built-in controls by using the Ribbon designer. A built-in control is a control that already appears in Backstage view. If you want to position controls before or after built-in controls, you must use Ribbon XML. For more information about **Ribbon (XML)**, see [Ribbon XML](../vsto/ribbon-xml.md). For more information about customizing the Backstage view, see [Introduction to the Office 2010 Backstage view for developers](/previous-versions/office/developer/office-2010/ee691833(v=office.14)) and [Customize the Office 2010 Backstage view for developers](/previous-versions/office/developer/office-2010/ee815851(v=office.14)).
 
  [!INCLUDE[appliesto_ribbon_2010](../vsto/includes/appliesto-ribbon-2010-md.md)]
 
  For information about how to add controls to the Backstage view, see [How to: Add controls to the Backstage view](../vsto/how-to-add-controls-to-the-backstage-view.md).
 
-##  <a name="Accessibility"></a> Accessibility in the Ribbon Designer
+## <a name="Accessibility"></a> Accessibility in the Ribbon Designer
  You can use keyboard shortcuts to move controls in the Ribbon Designer. Some keyboard shortcuts apply to all controls, and some apply only to controls that have menus.
 
  The keyboard shortcuts that apply to all controls are shown in the following table.
@@ -202,4 +200,4 @@ ms.workload:
 - [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)
 - [How to: Export a ribbon from the Ribbon Designer to Ribbon XML](../vsto/how-to-export-a-ribbon-from-the-ribbon-designer-to-ribbon-xml.md)
 - [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)
-- [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
+- [Access the ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)

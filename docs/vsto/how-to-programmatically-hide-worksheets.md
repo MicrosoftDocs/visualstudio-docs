@@ -24,7 +24,7 @@ ms.workload:
 
 ### To hide a worksheet using a worksheet host item
 
-1.  Set the <xref:Microsoft.Office.Tools.Excel.Worksheet.Visible%2A> property of the `Sheet1` host item to the <xref:Microsoft.Office.Interop.Excel.XlSheetVisibility.xlSheetHidden> enumeration value.
+1. Set the <xref:Microsoft.Office.Tools.Excel.Worksheet.Visible%2A> property of the `Sheet1` host item to the <xref:Microsoft.Office.Interop.Excel.XlSheetVisibility.xlSheetHidden> enumeration value.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#25](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#25)]
      [!code-vb[Trin_VstcoreExcelAutomation#25](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#25)]
@@ -32,13 +32,13 @@ ms.workload:
 ## Use the Sheets collection of the Excel workbook
  Access worksheets through the Microsoft Office Excel <xref:Microsoft.Office.Interop.Excel.Sheets> collection in the following cases:
 
--   You want to hide a worksheet in a VSTO Add-in.
+- You want to hide a worksheet in a VSTO Add-in.
 
--   The worksheet that you want to hide was created at run time in a document-level customization.
+- The worksheet that you want to hide was created at run time in a document-level customization.
 
 ### To hide a worksheet using the Sheets collection of the Excel workbook
 
-1.  Set the <xref:Microsoft.Office.Interop.Excel.Worksheets.Visible%2A> property of the worksheet to the <xref:Microsoft.Office.Interop.Excel.XlSheetVisibility.xlSheetHidden> enumeration value.
+1. Set the <xref:Microsoft.Office.Interop.Excel.Worksheets.Visible%2A> property of the worksheet to the <xref:Microsoft.Office.Interop.Excel.XlSheetVisibility.xlSheetHidden> enumeration value.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#26](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#26)]
      [!code-vb[Trin_VstcoreExcelAutomation#26](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#26)]

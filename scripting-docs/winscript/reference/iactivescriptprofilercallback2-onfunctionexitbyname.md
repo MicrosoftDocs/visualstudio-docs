@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerCallback2::OnFunctionExitByName | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -40,6 +39,6 @@ HRESULT OnFunctionExitByName(
 ## Remarks  
  For DOM calls, the scripting engine calls this method instead of calling [IActiveScriptProfilerCallback::OnFunctionExit](../../winscript/reference/iactivescriptprofilercallback-onfunctionexit.md). This is due to the large number of unique methods and properties in the DOM.  
   
-## See Also  
+## See also  
  [IActiveScriptProfilerCallback2::OnFunctionEnterByName](../../winscript/reference/iactivescriptprofilercallback2-onfunctionenterbyname.md)   
  [IActiveScriptProfilerCallback2 Interface](../../winscript/reference/iactivescriptprofilercallback2-interface.md)

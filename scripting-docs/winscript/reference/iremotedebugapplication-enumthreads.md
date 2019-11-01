@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplication::EnumThreads | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -44,5 +43,5 @@ HRESULT EnumThreads(
 ## Remarks  
  This method enumerates all threads known to be associated with the application. New threads may be added at any time.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)

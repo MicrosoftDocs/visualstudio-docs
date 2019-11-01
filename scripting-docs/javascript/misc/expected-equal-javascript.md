@@ -20,12 +20,12 @@ You attempted to create a variable to be used with conditional compilation state
   
 ### To correct this error  
   
--   Add an equal sign. For example:  
+- Add an equal sign. For example:  
   
     ```JavaScript  
     @set @myvar1 = 1  
     ```  
   
-## See Also  
+## See also  
  [Conditional Compilation](../../javascript/advanced/conditional-compilation-javascript.md)   
  [Conditional Compilation Variables](../../javascript/advanced/conditional-compilation-variables-javascript.md)

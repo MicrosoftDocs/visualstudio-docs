@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPropertyDestroyEvent2 interface"
 ms.assetid: 301b7a75-ecfa-46f1-9131-66cf3e4be147
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -45,7 +45,7 @@ IDebugPropertyDestroyEvent2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)
 - [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)

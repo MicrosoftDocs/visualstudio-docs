@@ -2,7 +2,6 @@
 title: "IDebugSessionProviderEx:StartDebugSession | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -46,6 +45,6 @@ HRESULT StartDebugSession(
 ## Remarks  
  This method initiates a debug session with the specified application. The debugger should call `IRemoteDebugApplication::ConnectDebugger` before returning from this call.  
   
-## See Also  
+## See also  
  [IDebugSessionProviderEx Interface](../../winscript/reference/idebugsessionproviderex-interface.md)   
  [IRemoteDebugApplication::ConnectDebugger](../../winscript/reference/iremotedebugapplication-connectdebugger.md)

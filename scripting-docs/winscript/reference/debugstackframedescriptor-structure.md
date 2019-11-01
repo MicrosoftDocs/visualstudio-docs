@@ -2,7 +2,6 @@
 title: "DebugStackFrameDescriptor Structure | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -53,5 +52,5 @@ typedef struct tagDebugStackFrameDescriptor {
 ## Remarks  
  The process debug manager uses this structure to sort the stack frames from multiple script engines. By convention, stacks grow down. Consequently, on architectures where stacks grow up, the addresses should be twos-complemented.  
   
-## See Also  
+## See also  
  [Active Script Debugger Constants, Enumerations, and Structures](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)

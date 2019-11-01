@@ -48,7 +48,7 @@ ms.workload:
  There are two default event handlers in the `ThisAddIn` class. To run code when the VSTO Add-in is loaded, add code to the `ThisAddIn_Startup` event handler. To run code just before the VSTO Add-in is unloaded, add code to the `ThisAddIn_Shutdown` event handler. For more information about these event handlers, see [Events in Office projects](../vsto/events-in-office-projects.md).
 
 > [!NOTE]
->  In Outlook, by default the `ThisAddIn_Shutdown` event handler is not always called when the VSTO Add-in is unloaded. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
+> In Outlook, by default the `ThisAddIn_Shutdown` event handler is not always called when the VSTO Add-in is unloaded. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
 
 ### Access the object model of the host application
  To access the object model of the host application, use the `Application` field of the `ThisAddIn` class. This field returns an object that represents the current instance of the host application. The following table lists the type of the return value for the `Application` field in each VSTO Add-in project.
@@ -58,7 +58,7 @@ ms.workload:
 |Microsoft Office Excel|<xref:Microsoft.Office.Interop.Excel.Application>|
 |Microsoft Office InfoPath|<xref:Microsoft.Office.Interop.InfoPath.Application>|
 |Microsoft Office Outlook|<xref:Microsoft.Office.Interop.Outlook.Application>|
-|Microsoft Office PowerPoint|<xref:Microsoft.Office.Interop.PowerPoint.Application>|
+|Microsoft Office PowerPoint|[Application](/previous-versions/office/developer/office-2010/ff764034(v=office.14))|
 |Microsoft Office Project|Microsoft.Office.Interop.MSProject.Application|
 |Microsoft Office Visio|Microsoft.Office.Interop.Visio.Application|
 |Microsoft Office Word|<xref:Microsoft.Office.Interop.Word.Application>|
@@ -85,21 +85,21 @@ Excel.Workbook newWorkbook = Globals.ThisAddIn.Application.Workbooks.Add(System.
 
  For more information about the object models of specific Microsoft Office applications, see the following topics:
 
--   [Excel object model overview](../vsto/excel-object-model-overview.md)
+- [Excel object model overview](../vsto/excel-object-model-overview.md)
 
--   [Word object model overview](../vsto/word-object-model-overview.md)
+- [Word object model overview](../vsto/word-object-model-overview.md)
 
--   [Outlook object model overview](../vsto/outlook-object-model-overview.md)
+- [Outlook object model overview](../vsto/outlook-object-model-overview.md)
 
--   [InfoPath solutions](../vsto/infopath-solutions.md)
+- [InfoPath solutions](../vsto/infopath-solutions.md)
 
--   [PowerPoint solutions](../vsto/powerpoint-solutions.md)
+- [PowerPoint solutions](../vsto/powerpoint-solutions.md)
 
--   [Project solutions](../vsto/project-solutions.md)
+- [Project solutions](../vsto/project-solutions.md)
 
--   [Visio object model overview](../vsto/visio-object-model-overview.md)
+- [Visio object model overview](../vsto/visio-object-model-overview.md)
 
-###  <a name="AccessingDocuments"></a> Access a document when the Office application starts
+### <a name="AccessingDocuments"></a> Access a document when the Office application starts
  Not all [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)] applications automatically open a document when you start them, and none of the [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] applications open a document when you start them. Therefore, don't add code in the `ThisAdd-In_Startup` event handler if the code requires a document to be open. Instead, add that code to an event that the Office application raises when a user creates or opens a document. That way, you can guarantee that a document is open before your code performs operations on it.
 
  The following code example works with a document in Word only when the user creates a document or opens an existing document.
@@ -130,7 +130,7 @@ Excel.Workbook newWorkbook = Globals.ThisAddIn.Application.Workbooks.Add(System.
 
  If you want to customize one of these features in a way that is not supported by the classes and designers, you can also customize these features by implementing an *extensibility interface* in your VSTO Add-in. For more information, see [Customize UI features by using extensibility interfaces](../vsto/customizing-ui-features-by-using-extensibility-interfaces.md).
 
- In addition, you can modify the UI of Word documents and Excel workbooks by generating host items that extend the behavior of documents and workbooks. This enables you to add managed controls to documents and worksheets. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
+ In addition, you can modify the UI of Word documents and Excel workbooks by generating host items that extend the behavior of documents and workbooks. This enables you to add managed controls to documents and worksheets. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
 
 ## Call code in VSTO Add-ins from other solutions
  You can expose objects in your VSTO Add-in to other solutions, including other Office solutions. This is useful if your VSTO Add-in provides a service that you want to enable other solutions to use. For example, if you have a VSTO Add-in for Microsoft Office Excel that performs calculations on financial data from a web service, other solutions can perform these calculations by calling into the Excel VSTO Add-in at run time.
@@ -139,7 +139,7 @@ Excel.Workbook newWorkbook = Globals.ThisAddIn.Application.Workbooks.Add(System.
 
 ## See also
 - [Develop Office solutions](../vsto/developing-office-solutions.md)
-- [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
+- [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
 - [Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md)
 - [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md)
 - [Customize UI features By using extensibility interfaces](../vsto/customizing-ui-features-by-using-extensibility-interfaces.md)

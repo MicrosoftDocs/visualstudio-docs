@@ -1,19 +1,19 @@
 ---
-title: "Analyze CPU usage data (managed code)"
+title: "Analyze CPU usage data (C#, Visual Basic)"
 description: "Measure app performance in C# and Visual Basic using the CPU Usage diagnostics tool"
 ms.custom: "mvc"
-ms.date: "08/06/2018"
-ms.topic: "quickstart"
+ms.date: 08/06/2018
+ms.topic: quickstart
 helpviewer_keywords:
   - "Profiling Tools, quick start"
   - "Diagnostics Tools, CPU Usage"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# Quickstart: Analyze CPU usage data in Visual Studio (managed code)
+# Quickstart: Analyze CPU usage data in Visual Studio (C#, Visual Basic)
 
 The Visual Studio provides many powerful features to help you analyze performance issues in your application. This topic provides a quick way to learn some of the basic features. Here, we look at the tool to identify performance bottlenecks due to high CPU usage. The Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, and for native/C++ development.
 
@@ -154,9 +154,9 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
     > [!NOTE]
     > In Visual Basic, make sure the startup object is set to `Sub Main` (**Properties** > **Application** > **Startup Object**).
 
-##  Step 1: Collect profiling data
+## Step 1: Collect profiling data
 
-1.  First, set a breakpoint in your app on this line of code in the `Main` function:
+1. First, set a breakpoint in your app on this line of code in the `Main` function:
 
     `for (int i = 0; i < 200; i++)`
 
@@ -166,20 +166,20 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
     Set a breakpoint by clicking in the gutter to the left of the line of code.
 
-2.  Next, set a second breakpoint on the closing brace at the end of the `Main` function:
+2. Next, set a second breakpoint on the closing brace at the end of the `Main` function:
 
      ![Set breakpoints for profiling](../profiling/media/quickstart-cpu-usage-breakpoints.png "Set breakpoints for profiling")
 
     > [!TIP]
     > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
 
-3.  The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
+3. The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
-4.  Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
+4. Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
 
      When the app finishes loading, the **Summary** view of the Diagnostics Tools appears.
 
-5.  While the debugger is paused, enable the collection of the CPU Usage data by choosing **Record CPU Profile**, and then open the **CPU Usage** tab.
+5. While the debugger is paused, enable the collection of the CPU Usage data by choosing **Record CPU Profile**, and then open the **CPU Usage** tab.
 
      ![Diagnostics Tools Enable CPU Profiling](../profiling/media/quickstart-cpu-usage-summary.png "Diagnostics Tools Enable CPU Profiling")
 
@@ -187,7 +187,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
      When you choose **Record CPU Profile**, Visual Studio will begin recording your functions and how much time they take to execute, and also provides a timeline graph you can use to focus on specific segments of the sampling session.You can only view this collected data when your application is halted at a breakpoint.
 
-6.  Press **F5** to run the app to your second breakpoint.
+6. Press **F5** to run the app to your second breakpoint.
 
      Now, you now have performance data for your application specifically for the region of code that runs between the two breakpoints.
 
@@ -231,5 +231,5 @@ We recommend that you begin analyzing your data by examining the list of functio
 
 ## See also
 
-- [Profiling in Visual Studio](../profiling/index.md)
+- [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)

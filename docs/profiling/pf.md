@@ -13,7 +13,7 @@ ms.workload:
 The *VSPerfCmd.exe* **PF** option sets the profiling event that is sampled to page faults, and it optionally changes the number of page faults in a sampling interval from the default of 10.
 
 > [!NOTE]
->  **PF** cannot be used on 64-bit systems.
+> **PF** cannot be used on 64-bit systems.
 
 **PF** can only be used in a command line that also contains the **Launch** or the **Attach** option.
 

@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "SupportsCodeSeparation element [Visual Studio Templates]"
   - "<SupportsCodeSeparation> element [Visual Studio Templates]"
 ms.assetid: 8112aac8-a269-40e5-b92b-9b9a6ff5a542
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -80,6 +80,6 @@ Specifies whether or not the **Place code in separate file** check box is enable
 </VSTemplate>
 ```
 
-## See Also
+## See also
 - [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
 - [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)

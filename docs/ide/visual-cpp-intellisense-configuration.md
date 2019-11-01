@@ -2,17 +2,15 @@
 title: Configure a C++ project for IntelliSense
 ms.date: 10/08/2018
 ms.topic: conceptual
-author: mblome
+author: mikeblome
 ms.author: mblome
-manager: wpickett
+manager: markl
 ms.workload:
   - "cplusplus"
 ---
 # Configure a C++ project for IntelliSense
 
 In some cases, you might need to manually configure your C++ project to get IntelliSense working properly. For MSBuild projects (based on .vcxproj files), you can adjust settings in project properties. For non-MSBuild projects, you adjust settings in the CppProperties.json file in the root directory of the project. In some cases, you may need to create a hint file to help IntelliSense understand macro definitions. The Visual Studio IDE helps you identify and fix IntelliSense problems.
-
-
 
 ## Single-file IntelliSense
 
@@ -34,7 +32,7 @@ If you run your builds outside of the Visual Studio IDE, and your builds are suc
 
 ![VC++ Include Directories](media/vcpp-intellisense-include-paths.png)
 
- To see the current values for build macros such as **VC_IncludePath**, select the Include Directories line and click the dropdown on the right. Then choose **\<Edit>** and click on the **Macros** button.
+To see the current values for build macros such as **VC_IncludePath**, select the Include Directories line and click the dropdown on the right. Then choose **\<Edit>** and click on the **Macros** button.
 
 ### Makefile projects
 
@@ -42,11 +40,9 @@ For Makefile projects that are based on the NMake project template, choose **NMa
 
 ![Makefile project include paths](media/vcpp-intellisense-makefile-include-paths.png)
 
-For more information, see [How to: Enable IntelliSense for Makefile Projects](/cpp/ide/how-to-enable-intellisense-for-makefile-projects).
-
 ### Open Folder projects
 
-For CMake projects, make sure that #include paths are specified correctly for all configurations in CMakeLists.txt. Other project types might require a CppProperties.json file. For more information, see [Configure IntelliSense with CppProperties.json](/cpp/ide/non-msbuild-projects#cppproperties). Make sure that the paths are correct for each configuration that is defined in the file.
+For CMake projects, make sure that #include paths are specified correctly for all configurations in CMakeLists.txt. Other project types might require a CppProperties.json file. For more information, see [Configure IntelliSense with CppProperties.json](/cpp/build/open-folder-projects-cpp#configure-code-navigation-with-cpppropertiesjson). Make sure that the paths are correct for each configuration that is defined in the file.
 
 If there is a syntax error in the CppProperties.json file, IntelliSense in the affected files will be incorrect. Visual Studio will display the error in the Output Window.
 
@@ -66,9 +62,9 @@ There are two common ways in which this problem manifests in Visual Studio:
 
    ![Tag parser offers to define existing function](media/vcpp-intellisense-tag-parser-function.png)
 
-To fix these kinds of problems, add a file named **cpp.hint** to the root of your solution directory. For more information, see [Hint Files](/cpp/ide/hint-files).
+To fix these kinds of problems, add a file named **cpp.hint** to the root of your solution directory. For more information, see [Hint Files](/cpp/build/reference/hint-files).
 
-**Visual Studio 2017 version 15.7** Tag Parser errors appear in the Error List window.
+Tag parser errors appear in the **Error List** window.
 
 ## Validate project settings with diagnostic logging
 
@@ -77,18 +73,18 @@ To check whether IntelliSense compiler is using correct compiler options, includ
 The Output Window will now show the command lines that are passed to the IntelliSense compiler. Here is a sample output:
 
 ```output
- [IntelliSense] Configuration Name: Debug|Win32
- [IntelliSense] Toolset IntelliSense Identifier:
- [IntelliSense] command line options:
- /c
- /I.
- /IC:\Repo\Includes
- /DWIN32
- /DDEBUG
- /D_DEBUG
- /Zc:wchar_t-
- /Zc:forScope
- /Yustdafx.h
+[IntelliSense] Configuration Name: Debug|Win32
+[IntelliSense] Toolset IntelliSense Identifier:
+[IntelliSense] command line options:
+/c
+/I.
+/IC:\Repo\Includes
+/DWIN32
+/DDEBUG
+/D_DEBUG
+/Zc:wchar_t-
+/Zc:forScope
+/Yustdafx.h
 ```
 
 This information may help you understand why IntelliSense is providing inaccurate information. For example, if your project’s Include directory contains **$(MyVariable)\Include**, and the diagnostic log shows **/I\Include** as an Include path, it means that **$(MyVariable)** wasn’t evaluated, and was removed from the final include path.
@@ -101,23 +97,23 @@ However, in some cases Visual Studio might not update the IntelliSense database 
 
 ## Troubleshooting IntelliSense build failures
 
-An IntelliSense build does not produce binaries, but it can still fail. One possible cause for failure is custom .props or .targets files. In  Visual Studio 2017 version 15.6, IntelliSense-only build errors are logged to the Output window. To see them, set **Show output from** to **Solution**:
+An IntelliSense build does not produce binaries, but it can still fail. One possible cause for failure is custom .props or .targets files. In Visual Studio 2017 version 15.6 and later, IntelliSense-only build errors are logged to the Output window. To see them, set **Show output from** to **Solution**:
 
 ![Output window for solution errors](media/vcpp-intellisense-output-window.png)
 
 The error message might instruct you to enable design-time tracing:
 
 ```output
- error: Designtime build failed for project 'E:\src\MyProject\MyProject.vcxproj',
- configuration 'Debug|x64'. IntelliSense might be unavailable.
- Set environment variable TRACEDESIGNTIME=true and restart
- Visual Studio to investigate.
+error: Designtime build failed for project 'E:\src\MyProject\MyProject.vcxproj',
+configuration 'Debug|x64'. IntelliSense might be unavailable.
+Set environment variable TRACEDESIGNTIME=true and restart
+Visual Studio to investigate.
 ```
 
 If you set the environment variable TRACEDESIGNTIME to true and restart Visual Studio, you will see a log file in the %TEMP% directory, which might help diagnose the build failure.
 
 To learn more about TRACEDESIGNTIME environment variable, see [Roslyn](https://github.com/dotnet/roslyn/wiki/Diagnosing-Project-System-Build-Errors) and [Common Project System](https://github.com/dotnet/project-system/blob/master/docs/design-time-builds.md). The information in these articles is relevant for C++ projects.
 
-## See Also
+## See also
 
 - [Visual C++ IntelliSense](visual-cpp-intellisense.md)

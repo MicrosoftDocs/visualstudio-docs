@@ -40,8 +40,8 @@ An expression in SAL can be a C/C++ expression provided that it is an expression
 |Annotation|Description|  
 |----------------|-----------------|  
 |`_String_length_(param)`|`param` is the number of elements in the string up to but not including a null terminator. This annotation is reserved for string-of-character types.|  
-|`strlen(param)`|`param` is the number of elements in the string up to but not including a null terminator. This annotation is reserved for use on character arrays and resembles the C Runtime function [strlen()](http://msdn.microsoft.com/library/16462f2a-1e0f-4eb3-be55-bf1c83f374c2).|  
-|`wcslen(param)`|`param` is the number of elements in the string up to (but not including) a null terminator. This annotation is reserved for use on wide character arrays and resembles the C Runtime function [wcslen()](http://msdn.microsoft.com/library/16462f2a-1e0f-4eb3-be55-bf1c83f374c2).|  
+|`strlen(param)`|`param` is the number of elements in the string up to but not including a null terminator. This annotation is reserved for use on character arrays and resembles the C Runtime function [strlen()](https://msdn.microsoft.com/library/16462f2a-1e0f-4eb3-be55-bf1c83f374c2).|  
+|`wcslen(param)`|`param` is the number of elements in the string up to (but not including) a null terminator. This annotation is reserved for use on wide character arrays and resembles the C Runtime function [wcslen()](https://msdn.microsoft.com/library/16462f2a-1e0f-4eb3-be55-bf1c83f374c2).|  
   
 ## See Also  
  [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   

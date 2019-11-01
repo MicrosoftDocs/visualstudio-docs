@@ -2,7 +2,6 @@
 title: "IDebugDocumentHelper::SetLongName | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -44,5 +43,5 @@ HRESULT SetLongName(
 ## Remarks  
  This method sets a new long name for the document.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)

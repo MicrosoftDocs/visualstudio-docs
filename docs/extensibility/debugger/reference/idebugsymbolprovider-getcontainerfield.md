@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugSymbolProvider::GetContainerField method"
 ms.assetid: d6b56b4f-a96b-4fa7-87c1-bac4e58fa766
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugSymbolProvider::GetContainerField
 This method gets the field that contains the debug address.
@@ -32,19 +35,17 @@ int GetContainerField(
 );
 ```
 
-#### Parameters
- `pAddress`
+## Parameters
+`pAddress`\
+[in] The address as represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
- [in] The address as represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
-
- `ppContainerField`
-
- [out] Returns a container field represented by an [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) interface.
+`ppContainerField`\
+[out] Returns a container field represented by an [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) interface.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
 - [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)
 - [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)

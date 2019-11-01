@@ -16,7 +16,6 @@ manager: jillfra
 # How to: Use Reserved XML Characters in Project Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you author project files, you might need to use reserved XML characters, for example, in property values or in task parameter values. However, some reserved characters must be replaced by a named entity so that the project file can be parsed.  
   
 ## Using Reserved Characters  
@@ -32,7 +31,7 @@ When you author project files, you might need to use reserved XML characters, fo
   
 #### To use double quotes in a project file  
   
--   Replace the double quotes with the corresponding named entity, &quot;. For example, to place double quotes around the `EXEFile` item list, type:  
+- Replace the double quotes with the corresponding named entity, &quot;. For example, to place double quotes around the `EXEFile` item list, type:  
   
     ```  
     <Message Text="The output file is "@(EXEFile)"."/>  

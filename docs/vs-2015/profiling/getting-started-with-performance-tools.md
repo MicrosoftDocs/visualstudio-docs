@@ -20,9 +20,9 @@ This section provides an overview of the concepts and tasks that you will apply 
   
  These tools provide you with several ways to collect and analyze performance data. But in many cases, the best way to begin is to use the default settings of Performance Wizard, which allows you to  collect application statistics that can point you to performance issues in your code.  
   
--   *Performance warnings* notify you of common coding issues. Warnings are displayed in the Visual Studio Errors window. You can navigate from the warning to your source code and to detailed help topics that help you write more efficient code.  
+- *Performance warnings* notify you of common coding issues. Warnings are displayed in the Visual Studio Errors window. You can navigate from the warning to your source code and to detailed help topics that help you write more efficient code.  
   
--   Performance reports provide views on the different levels of your application structure from source code lines to processes, and program execution data from the calling and called functions of a specific function to the call tree of the entire application.  
+- Performance reports provide views on the different levels of your application structure from source code lines to processes, and program execution data from the calling and called functions of a specific function to the call tree of the entire application.  
   
 ## Common Tasks  
   

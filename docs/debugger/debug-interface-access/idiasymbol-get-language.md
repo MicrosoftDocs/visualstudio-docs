@@ -33,8 +33,8 @@ HRESULT get_language ( 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.
 
 > [!NOTE]
->  A return value of `S_FALSE` means the property is not available for the symbol.
+> A return value of `S_FALSE` means the property is not available for the symbol.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [CV_CFL_LANG Enumeration](../../debugger/debug-interface-access/cv-cfl-lang.md)

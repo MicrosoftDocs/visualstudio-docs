@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "IDebugCustomAttributeQuery::IsCustomAttributeDefined"
   - "IsCustomAttributeDefined"
 ms.assetid: c7425db6-4347-4f69-8f88-337ddaa34fa6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCustomAttributeQuery::IsCustomAttributeDefined
 Determines if the specified custom attribute is defined.
@@ -29,10 +32,9 @@ int IsCustomAttributeDefined(
 );
 ```
 
-#### Parameters
-`pszCustomAttributeName`
-
- [in] Name of the custom attribute.
+## Parameters
+`pszCustomAttributeName`\
+[in] Name of the custom attribute.
 
 ## Return Value
 If the custom attribute is defined, returns `S_OK`; otherwise, returns `S_FALSE`.
@@ -77,5 +79,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugCustomAttributeQuery](../../../extensibility/debugger/reference/idebugcustomattributequery.md)

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "INTERCEPT_EXCEPTION_ACTION enumeration"
 ms.assetid: e647f1eb-2932-4447-8c78-3b0d706fb972
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # INTERCEPT_EXCEPTION_ACTION
 Specifies what actions to take when intercepting exceptions.
@@ -33,8 +36,9 @@ public enum enum_INTERCEPT_EXCEPTION_ACTION
 }
 ```
 
-#### Parameters
-IEA_INTERCEPT
+## Parameters
+
+`IEA_INTERCEPT`\
 Enables intercepting the current exception. This is the only value supported at present and must be specified.
 
 ## Remarks
@@ -47,6 +51,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [InterceptCurrentException](../../../extensibility/debugger/reference/idebugstackframe3-interceptcurrentexception.md)

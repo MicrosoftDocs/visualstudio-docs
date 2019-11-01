@@ -2,7 +2,6 @@
 title: "SCRIPT_E_REPORTED Error Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,5 +21,5 @@ The scripting engine has reported an unhandled exception to the host via [IActiv
 SCRIPT_E_REPORTED   0x80020101L  
 ```  
   
-## See Also  
+## See also  
  [Active Script Constants, Enumerations, and Error Codes](../../winscript/reference/active-script-constants-enumerations-and-error-codes.md)

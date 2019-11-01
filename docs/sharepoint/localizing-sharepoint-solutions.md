@@ -22,10 +22,10 @@ ms.workload:
 
   The process of preparing your applications so that they can be used worldwide is known as localization. Localization is translating resources to a specific culture. For more information, see [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md). This topic provides an overview on how to localize a SharePoint solution.
 
- To localize a solution, you remove hard-coded strings from the code and abstract them into resource files. A Resource file is an [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)]-based file with a *.resx* extension. The resource file contains the translated versions of the strings used in your solution. For more information, see [Resources in Applications](http://go.microsoft.com/fwlink/?LinkID=155844).
+ To localize a solution, you remove hard-coded strings from the code and abstract them into resource files. A Resource file is an [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)]-based file with a *.resx* extension. The resource file contains the translated versions of the strings used in your solution. For more information, see [Resources in Applications](/previous-versions/dotnet/netframework-4.0/f45fce5x(v=vs.100)).
 
 > [!NOTE]
->  Add only string resources to SharePoint solution resource files. Although the Resource Editor enables you to add non-string resources, non-string resources do not deploy to SharePoint.
+> Add only string resources to SharePoint solution resource files. Although the Resource Editor enables you to add non-string resources, non-string resources do not deploy to SharePoint.
 
 ## Resource files
  There are three kinds of resource files: default, language-neutral, and language-specific.
@@ -36,7 +36,7 @@ ms.workload:
 |Language-neutral|A resource file that contains strings localized for a language, but not a specific culture. For example, "fr" for French.|
 |Language-specific|A resource file that contains strings localized for a language and a culture. For example, "fr-CA" for French Canadian.|
 
- For more information, see [Hierarchical Organization of Resources for Localization](http://go.microsoft.com/fwlink/?LinkId=178360).
+ For more information, see [Hierarchical Organization of Resources for Localization](../ide/globalizing-and-localizing-applications.md).
 
  To specify default resource files in SharePoint projects that you develop in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], choose **Invariant Language (Invariant Country)** in the culture list of the **Add Resource** dialog box when you add a resource file.
 
@@ -70,7 +70,7 @@ $Resources:String ID
  Set the **Deployment Type** property of each resource file to **AppGlobalResource**. This causes the resource files to deploy to the App_GlobalResources folder, where they are available to all ASPX pages and controls in the solution. The App_GlobalResources folder is located in C:\inetpub\wwwroot\wss\VirtualDirectories\\<port number\>\App_GlobalResources.
 
 > [!NOTE]
->  If you use non-global resource files, move them into the project item folder to enable the Deployment Type property and other SharePoint-specific properties.
+> If you use non-global resource files, move them into the project item folder to enable the Deployment Type property and other SharePoint-specific properties.
 
  ASPX markup resource files can also be used to localize code. If you are using the resources to localize code in addition to ASPX markup, leave the Build Action property setting of each file as Embedded Resource to cause the resource to compile into a satellite assembly. However, if you are using the resource files only to localize markup, you can optionally change Build Action to Content to prevent the file from being compiled into the main application assembly.
 
@@ -103,7 +103,7 @@ $Resources:String ID
 ### Localize code
  In addition to localizing Feature strings and [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] markup, you also have to localize the message strings and error strings that appear in your solution code. Localized informational and error messages are contained in satellite assemblies. Satellite assemblies contain strings that are visible to users, such as [!INCLUDE[TLA2#tla_ui](../sharepoint/includes/tla2sharptla-ui-md.md)] text and output messages like exceptions.
 
- [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] uses the standard .NET Framework hub and spoke model. The hub, or main program assembly, contains the default language resources. The spokes, or satellite assemblies, contain the language-specific resources. For more information, see [Packaging and Deploying Resources](http://go.microsoft.com/fwlink/?LinkId=179280). Satellite assemblies are compiled from resource (*.resx*) files. When you add language-specific resource files to your project and the solution package, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] compiles the resource files into satellite assemblies named *{Project Name}.resources.dll*.
+ [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] uses the standard .NET Framework hub and spoke model. The hub, or main program assembly, contains the default language resources. The spokes, or satellite assemblies, contain the language-specific resources. For more information, see [Packaging and Deploying Resources](/previous-versions/dotnet/netframework-4.0/sb6a8618(v=vs.100)). Satellite assemblies are compiled from resource (*.resx*) files. When you add language-specific resource files to your project and the solution package, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] compiles the resource files into satellite assemblies named *{Project Name}.resources.dll*.
 
  As with ASPX markup, localize SharePoint application code by adding separate Resources File project items to your project; one for the default language and one for each localized language. However, as mentioned previously, if you already have resource files for localizing ASPX markup, you can reuse them for localizing code. If you need to create resource files, give the default language resource file a name of your choice appended with a *.resx* extension. Name the localized resource files the same name appended with the language-specific culture [!INCLUDE[TLA2#tla_id](../sharepoint/includes/tla2sharptla-id-md.md)]. Set the Build Action property of each resource file to Embedded Resource to enable the creation of satellite resource assemblies.
 

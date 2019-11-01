@@ -16,7 +16,6 @@ manager: jillfra
 # How to: Use the Same Target in Multiple Project Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If you have authored several [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project files, you might have discovered that you need to use the same tasks and targets in different project files. Instead of including the complete description of those tasks or targets in every project file, you can save a target in a separate project file and then import that project into any other project that needs to use the target.  
   
 ## Using the Import Element  
@@ -24,13 +23,13 @@ If you have authored several [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md
   
 #### To import a project  
   
-1.  Define, in the importing project file, all properties and items that are used as parameters for properties and items in the imported project.  
+1. Define, in the importing project file, all properties and items that are used as parameters for properties and items in the imported project.  
   
-2.  Use the `Import` element to import the project. For example:  
+2. Use the `Import` element to import the project. For example:  
   
      `<Import Project="MyCommon.targets"/>`  
   
-3.  Following the `Import` element, define all properties and items that must override default definitions of properties and items in the imported project.  
+3. Following the `Import` element, define all properties and items that must override default definitions of properties and items in the imported project.  
   
 ## Order of Evaluation  
  When [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] reaches an `Import` element, the imported project is effectively inserted into the importing project at the location of the `Import` element. Therefore, the location of the `Import` element can affect the values of properties and items. It is important to understand the properties and items that are set by the imported project, and the properties and items that the imported project uses.  
@@ -72,11 +71,11 @@ If you have authored several [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md
   
 #### Use the following approach when importing projects  
   
-1.  Define, in the project file, all properties and items that are used as parameters for properties and items in the imported project.  
+1. Define, in the project file, all properties and items that are used as parameters for properties and items in the imported project.  
   
-2.  Import the project.  
+2. Import the project.  
   
-3.  Define in the project file all properties and items that must override default definitions of properties and items in the imported project.  
+3. Define in the project file all properties and items that must override default definitions of properties and items in the imported project.  
   
 ## Example  
  The following code example shows the MyCommon.targets file that the second code example imports. The .targets file evaluates properties from the importing project to configure the build.  

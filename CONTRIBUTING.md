@@ -25,3 +25,7 @@ Follow the guidance for [quick edits to existing documents](https://docs.microso
 ### Larger edits
 
 Review the guidance for [pull requests](https://docs.microsoft.com/contribute/how-to-write-workflows-major#pull-request-processing) in the contributors guide.
+
+**NOTE**
+
+We are not actively working on the files in the `docs/vs-2015` folder as these are for Visual Studio 2015, an older version of our product. We don't accept pull requests for trivial changes to these files.

@@ -25,7 +25,6 @@ Logs a warning during a build based on an evaluated conditional statement.
 ## Parameters
  The following table describes the parameters of the `Warning` task.
 
-
 | Parameter | Description |
 |---------------| - |
 | `Code` | Optional `String` parameter.<br /><br /> The warning code to associate with the warning. |

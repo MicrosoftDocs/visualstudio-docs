@@ -49,7 +49,7 @@ public struct DEBUG_ADDRESS {
  The token identifying the class or type of this address.  
   
 > [!NOTE]
->  This value is specific to a symbol provider and therefore has no general meaning other than as an identifier for a class type.  
+> This value is specific to a symbol provider and therefore has no general meaning other than as an identifier for a class type.  
   
  addr  
  A [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) structure, which contains a union of structures that describe the individual address types. The value `addr`.`dwKind` comes from the [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md) enumeration, which explains how to interpret the union.  

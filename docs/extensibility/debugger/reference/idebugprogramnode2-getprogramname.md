@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramNode2::GetProgramName"
 ms.assetid: 510c7f5d-48ff-4d9f-ad79-fbad9f15239d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramNode2::GetProgramName
 Gets the name of the program.
@@ -30,10 +33,9 @@ int GetProgramName (
 );
 ```
 
-#### Parameters
-`pbstrProgramName`
-
- [out] Returns the name of the program.
+## Parameters
+`pbstrProgramName`\
+[out] Returns the name of the program.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -55,5 +57,5 @@ HRESULT CProgram::GetProgramName(BSTR* pbstrProgramName) {
 }
 ```
 
-## See Also
+## See also
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

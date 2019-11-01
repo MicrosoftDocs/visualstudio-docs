@@ -21,7 +21,6 @@ manager: jillfra
 # StopTrackingAndCleanup
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Stops all tracking and frees any memory used by the tracking session.  
   
 ## Syntax  

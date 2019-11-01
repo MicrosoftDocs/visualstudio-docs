@@ -21,7 +21,6 @@ manager: jillfra
 # UpdateManifest Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Updates selected properties in a manifest and resigns.  
   
 ## Parameters  

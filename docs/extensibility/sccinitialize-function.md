@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccInitialize function"
 ms.assetid: 5bc0d28b-2c68-4d43-9e51-541506a8f76e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -85,7 +85,7 @@ SCCRTN SccInitialize (
 
  The `lpSccCaps` parameter gives the source control plug-in a place to store bitflags indicating the plug-in's capabilities. (For a full list of capability bitflags, see [Capability Flags](../extensibility/capability-flags.md)). For instance, if the plug-in plans to write results into a caller-provided callback function, the plug-in would set the capability bit SCC_CAP_TEXTOUT. This would signal the IDE to create a window for version control results.
 
-## See Also
+## See also
 - [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
 - [SccUninitialize](../extensibility/sccuninitialize-function.md)
 - [SccOpenProject](../extensibility/sccopenproject-function.md)

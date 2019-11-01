@@ -18,15 +18,15 @@ If you are accessing the text buffer by using the legacy API, you should registe
   
 ### To advise text buffer events  
   
-1.  From a pointer to one of the interfaces on <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer>, call `QueryInterface` for a pointer to <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer>.  
+1. From a pointer to one of the interfaces on <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer>, call `QueryInterface` for a pointer to <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer>.  
   
-2.  Call the <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer.FindConnectionPoint%2A> method, and pass in the interface ID of the events for which you want to register.  
+2. Call the <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer.FindConnectionPoint%2A> method, and pass in the interface ID of the events for which you want to register.  
   
      For example, if you want to register for <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLinesEvents>, then pass in an interface ID of IID_IVsTextLinesEvents.  
   
      The text buffer returns a pointer to the <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPoint> interface for the appropriate connection point object.  
   
-3.  Using this pointer, call the <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPoint.Advise%2A> method, passing in a pointer to your implementation of the events interface for which you want to register, for example, the `IVsTextLinesEvents` interface.  
+3. Using this pointer, call the <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPoint.Advise%2A> method, passing in a pointer to your implementation of the events interface for which you want to register, for example, the `IVsTextLinesEvents` interface.  
   
      The environment returns a cookie that you can then use to stop listening to events by calling the <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPoint.Unadvise%2A> method.  
   

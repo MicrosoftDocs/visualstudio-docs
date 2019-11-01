@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProcess2::CanDetach"
 ms.assetid: 2830f7c3-69fb-474a-97b8-5b869e38d546
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProcess2::CanDetach
 Determines if the session debug manager (SDM) can detach the process.
@@ -31,6 +34,6 @@ int CanDetach();
 ## Return Value
  If successful, returns `S_OK.` Returns `S_FALSE` if the debugger cannot detach from the process. Otherwise, returns an error code.
 
-## See Also
+## See also
 - [CanDetach](../../../extensibility/debugger/reference/idebugprogram2-candetach.md)
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)

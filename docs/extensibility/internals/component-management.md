@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "installation [Visual Studio SDK], components"
   - "installation [Visual Studio SDK], file management"
 ms.assetid: 029bffa2-6841-4caa-a41a-442467e1aedc
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -21,23 +21,23 @@ Units of tasks in the Windows Installer are referred to as Windows Installer com
 
 ## Guidelines of authoring setup for side-by-side installation
 
--   Author files and registry keys that are shared among versions into their own components.
+- Author files and registry keys that are shared among versions into their own components.
 
      Doing so allows you to easily consume them in the next version. For example, type libraries that are registered globally, file extensions, other items registered in **HKEY_CLASSES_ROOT**, and so on.
 
--   Group shared components into separate merge modules.
+- Group shared components into separate merge modules.
 
      This strategy helps you author correctly for side-by-side installation moving forward.
 
--   Install shared files and registry keys by using the same Windows Installer components across versions.
+- Install shared files and registry keys by using the same Windows Installer components across versions.
 
      If you use a different component, files and registry entries are uninstalled when one versioned VSPackage is uninstalled but another VSPackage is still installed.
 
--   Do not mix versioned and shared items in the same component.
+- Do not mix versioned and shared items in the same component.
 
      Doing so makes it impossible to install shared items to a global location and versioned items to isolated locations.
 
--   Do not have shared registry keys that point to versioned files.
+- Do not have shared registry keys that point to versioned files.
 
      If you do, the shared keys will be overwritten when another versioned VSPackage is installed. After you remove the second version, the file to which the key is pointing is gone.
 

@@ -28,8 +28,6 @@ ms.workload:
 
  Both Windows Forms and host controls use the Windows Forms data binding model, which supports both *simple data binding* and *complex data binding* to data sources such as datasets and data tables. For complete information about the data binding model in Windows Forms, see [Data bind and Windows Forms](/dotnet/framework/winforms/data-binding-and-windows-forms).
 
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Consume database data in Excel?](http://go.microsoft.com/fwlink/?LinkID=130287).
-
 ## Simple data binding
  Simple data binding exists when a control property is bound to a single data element, such as a value in a data table. For example, the <xref:Microsoft.Office.Tools.Excel.NamedRange> control has a <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> property that can be bound to a field in a dataset. When the field in the dataset changes, the value in the named range also changes. All host controls, except for the <xref:Microsoft.Office.Tools.Word.XMLNodes> control, support simple data binding. The <xref:Microsoft.Office.Tools.Word.XMLNodes> control is a collection, and therefore it does not support data binding.
 
@@ -67,22 +65,22 @@ ms.workload:
 ### Bind data in document-level projects at design time
  The following topics show examples of binding data at design time:
 
--   [How to: Populate worksheets with data from a database](../vsto/how-to-populate-worksheets-with-data-from-a-database.md)
+- [How to: Populate worksheets with data from a database](../vsto/how-to-populate-worksheets-with-data-from-a-database.md)
 
--   [How to: Populate documents with data from a database](../vsto/how-to-populate-documents-with-data-from-a-database.md)
+- [How to: Populate documents with data from a database](../vsto/how-to-populate-documents-with-data-from-a-database.md)
 
--   [How to: Populate documents with data from objects](../vsto/how-to-populate-documents-with-data-from-objects.md)
+- [How to: Populate documents with data from objects](../vsto/how-to-populate-documents-with-data-from-objects.md)
 
--   [How to: Populate documents with data from services](../vsto/how-to-populate-documents-with-data-from-services.md)
+- [How to: Populate documents with data from services](../vsto/how-to-populate-documents-with-data-from-services.md)
 
--   [How to: Scroll through database records in a worksheet](../vsto/how-to-scroll-through-database-records-in-a-worksheet.md)
+- [How to: Scroll through database records in a worksheet](../vsto/how-to-scroll-through-database-records-in-a-worksheet.md)
 
 ### Bind data in VSTO Add-in projects
- In VSTO Add-in projects, you can add controls only at runtime. The following topics show examples of binding data at runtime:
+ In VSTO Add-in projects, you can add controls only at run time. The following topics show examples of binding data at run time:
 
--   [Walkthrough: Simple data binding in VSTO Add-in project](../vsto/walkthrough-simple-data-binding-in-vsto-add-in-project.md)
+- [Walkthrough: Simple data binding in VSTO Add-in project](../vsto/walkthrough-simple-data-binding-in-vsto-add-in-project.md)
 
--   [Walkthrough: Complex data binding in VSTO Add-in project](../vsto/walkthrough-complex-data-binding-in-vsto-add-in-project.md)
+- [Walkthrough: Complex data binding in VSTO Add-in project](../vsto/walkthrough-complex-data-binding-in-vsto-add-in-project.md)
 
 ## Update data that is bound to host controls
  Data binding between a data source and a host control involves a two-way data update. In simple data binding, changes in the data source are reflected automatically in the host control, but changes in the host control require an explicit call to update the data source. The reason is that in some cases, changes in one data-bound field are not accepted unless they are accompanied by changes in another data-bound field. For example, you might have two fields, one for age and one for years of experience. Experience cannot exceed age. A user cannot update the age from 50 to 25 and then the experience from 30 to 10 unless he or she makes the changes at the same time. To solve this problem, fields with simple data binding are not updated until the updates are explicitly sent by code.

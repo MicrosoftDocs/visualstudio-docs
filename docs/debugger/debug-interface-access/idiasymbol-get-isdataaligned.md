@@ -33,7 +33,7 @@ HRESULT get_isDataAligned(
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.
 
 > [!NOTE]
->  A return value of `S_FALSE` means that the property is not available for the symbol.
+> A return value of `S_FALSE` means that the property is not available for the symbol.
 
 ## Remarks
  This property is generally set when the executable is compiled with nondefault data alignment. For example, the Microsoft C++ compiler can change the data alignment with the command-line option, /Zp<em>#</em>, where *#* is a byte value.
@@ -45,5 +45,5 @@ HRESULT get_isDataAligned(
 |Header:|dia2.h|
 |Version:|DIA SDK v8.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

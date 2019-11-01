@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramProvider2 interface"
 ms.assetid: a9ec7b3e-a59c-4069-b2ee-6f45916eeb78
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -76,7 +76,7 @@ IDebugProgramProvider2 *GetProgramProvider(GUID *pDebugEngineGuid)
 }
 ```
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md)
 - [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)

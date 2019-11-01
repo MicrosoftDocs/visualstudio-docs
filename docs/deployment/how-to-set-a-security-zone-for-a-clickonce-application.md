@@ -24,17 +24,17 @@ When setting code access security permissions for a ClickOnce application, you n
 
 ### To set a security zone
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.
 
-2.  Click the **Security** tab.
+2. Click the **Security** tab.
 
-3.  Select the **Enable ClickOnce Security Settings** check box.
+3. Select the **Enable ClickOnce Security Settings** check box.
 
-4.  Select the **This is a partial trust application** option button.
+4. Select the **This is a partial trust application** option button.
 
      The controls in the **ClickOnce security permissions** section are enabled.
 
-5.  In the **Zone your application will be installed from** drop-down list, select a security zone.
+5. In the **Zone your application will be installed from** drop-down list, select a security zone.
 
 ## See also
 - [How to: Set custom permissions for a ClickOnce application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)

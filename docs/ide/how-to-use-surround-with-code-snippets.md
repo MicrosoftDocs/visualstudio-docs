@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "surround-with snippets"
   - "snippets [C#], surround with"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

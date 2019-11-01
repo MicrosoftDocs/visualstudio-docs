@@ -2,7 +2,6 @@
 title: "IPerPropertyBrowsing2::GetDisplayString | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -44,5 +43,5 @@ HRESULT GetDisplayString(
 ## Remarks  
  The returned string is not a legal value of the property. It is just a string display of the property.  
   
-## See Also  
+## See also  
  [IPerPropertyBrowsing2 Interface 1](../../winscript/reference/iperpropertybrowsing2-interface-1.md)

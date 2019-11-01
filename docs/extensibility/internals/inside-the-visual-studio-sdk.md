@@ -7,13 +7,14 @@ helpviewer_keywords:
   - "Visual Studio integration SDK roadmap"
   - "integration roadmap, Visual Studio SDK"
 ms.assetid: 9118eaa4-0453-4dc5-9e16-c7062d254869
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
 ---
 # Inside the Visual Studio SDK
+
 This section provides in-depth information about Visual Studio extensions, including Visual Studio architecture, components, services, schemas, utilities, and the like.
 
 ## Extensibility Architecture
@@ -78,14 +79,15 @@ Generalized view of the Visual Studio architecture
  At the heart of a language service are a parser and a scanner. A scanner (or lexer) divides a source file into elements that are known as tokens, and a parser establishes the relationships among those tokens. When you create a language service, you must implement the parser and the scanner so that Visual Studio can understand the tokens and grammar of the language. You can create managed or unmanaged language services. For more information, see [Legacy Language Service Extensibility](../../extensibility/internals/legacy-language-service-extensibility.md).
 
 ## Projects
- In Visual Studio, projects are the containers that developers use to organize and build the source code and other resources. Projects let you organize, build, debug, and deploy source code, references to Web services and databases, and other resources. VSPackages can extend the Visual Studio project system by providing project types, project subtypes, and custom tools.
 
- Projects may also be gathered into a solution, which is a grouping of one or more projects that work together to create an application. Project and status information that pertains to the solution is stored in two solution files, the text-based solution (.sln) file and the binary solution user option (.suo) file. These files are similar to the group (.vbg) files that were used in earlier versions of [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)], and the workspace (.dsw) and user options (.opt) files that were used in earlier versions of [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)].
+In Visual Studio, projects are the containers that developers use to organize and build the source code and other resources. Projects let you organize, build, debug, and deploy source code, references to Web services and databases, and other resources. VSPackages can extend the Visual Studio project system by providing project types, project subtypes, and custom tools.
 
- For more information, see [Projects](../../extensibility/internals/projects.md) and [Solutions](../../extensibility/internals/solutions.md).
+Projects may also be gathered together in a *solution*, which is a grouping of one or more projects that work together to create an application. Project and status information that pertains to the solution is stored in two solution files, the text-based [solution (.sln) file](solution-dot-sln-file.md) and the binary [solution user option (.suo) file](solution-user-options-dot-suo-file.md). These files are similar to the group (.vbg) files that were used in earlier versions of Visual Basic, and the workspace (.dsw) and user options (.opt) files that were used in earlier versions of C++.
+
+For more information, see [Projects](../../extensibility/internals/projects.md) and [Solutions](../../extensibility/internals/solutions-overview.md).
 
 ## Project and Item Templates
- Visual Studio includes predefined project templates and project item templates. You can also make your own templates or acquire templates from the community, and then integrate them into Visual Studio. The [MSDN Code Gallery](http://code.msdn.microsoft.com/Project/ProjectDirectory.aspx?ProjectSearchText=visual%20studio) is the place to go for templates and extensions.
+ Visual Studio includes predefined project templates and project item templates. You can also make your own templates or acquire templates from the community, and then integrate them into Visual Studio. The [MSDN Code Gallery](https://code.msdn.microsoft.com/site/search?query=visual%20studio) is the place to go for templates and extensions.
 
  Templates contain the project structure and basic files that are required to build a particular kind of application, control, library, or class. When you want to develop software that resembles one of the templates, create a project that is based on the template and then modify the files in that project.
 

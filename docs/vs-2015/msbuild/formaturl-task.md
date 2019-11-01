@@ -21,7 +21,6 @@ manager: jillfra
 # FormatUrl Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Converts a URL to a correct URL format.  
   
 ## Parameters  

@@ -44,7 +44,7 @@ The section covers some common debugging problems and techniques for native appl
  Links you to debugging techniques for the C Run-Time Library, including using the CRT Debug Library, macros for reporting, differences between malloc and _malloc_dbg, writing debug hook functions, and the CRT debug heap.
 
  [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
- Provides answers to frequently asked questions about debugging Visual C++ programs
+ Provides answers to frequently asked questions about debugging C++ programs
 
  [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)
  Provides information on debugging COM and ActiveX applications, including tools you can use for COM and ActiveX debugging.
@@ -56,8 +56,8 @@ The section covers some common debugging problems and techniques for native appl
  Describes how to use the **Parallel Tasks** and **Parallel Stacks** tool windows to debug a parallel application.
 
 ## Related Sections
- [Visual C++ Project Types](../debugger/debugging-preparation-visual-cpp-project-types.md)
- Provides links to topics that describe how to debug the native project types created by the Visual C++ project templates.
+ [Prepare to debug C++ projects](../debugger/debugging-preparation-visual-cpp-project-types.md)
+ Provides links to topics that describe how to debug the native project types created by the C++ project templates.
 
  [Debugging DLL Projects](../debugger/debugging-dll-projects.md)
  Provides information on how to debug native and managed DLLs.
@@ -65,6 +65,7 @@ The section covers some common debugging problems and techniques for native appl
  [First look at the debugger](../debugger/debugger-feature-tour.md)
  Provides links to the larger sections of the debugging documentation. Information includes what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging native code, debugging SQL, and the user interface references.
 
-## See Also
- [Debugger Security](../debugger/debugger-security.md)
- [Debugging in Visual Studio](../debugger/index.md)
+## See also
+
+- [Debugger Security](../debugger/debugger-security.md)
+- [Debugging in Visual Studio](../debugger/index.yml)

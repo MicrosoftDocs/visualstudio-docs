@@ -10,48 +10,51 @@ ms.author: gregvanl
 manager: jillfra
 ---
 # Shared Colors for Visual Studio
+
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 When you are designing UI that uses common Visual Studio shell elements, or you would like your interface element to be consistent with similar features, use existing token names in package definition files to choose and assign colors. This ensures that your UI stays consistent with the overall Visual Studio environment and that it updates automatically when themes are added or updated.
 
- This article describes common UI elements and the token names that they use, which you can reference when building similar UI. For specific information about how to access these color tokens, see [The VSColor Service](../../extensibility/ux-guidelines/colors-and-styling-for-visual-studio.md#BKMK_TheVSColorService).
+This article describes common UI elements and the token names that they use, which you can reference when building similar UI. For specific information about how to access these color tokens, see [The VSColor Service](../../extensibility/ux-guidelines/colors-and-styling-for-visual-studio.md#BKMK_TheVSColorService).
 
- Make sure to use token names correctly:
+Make sure to use token names correctly:
 
--   **Use token names based on function, not on the color itself.** The common shared colors are associated with specific interface elements and are only intended to be used for the same or similar features. For example, don't reuse the color of a pressed combo box for a spinning progress animation just because you like the color. The functions of the combo box and the animation are different, and if the color associated with the combo box changes, it may no longer be an appropriate color for your animation element. Consistent use of color helps orient your users and prevent confusion.
+- **Use token names based on function, not on the color itself.** The common shared colors are associated with specific interface elements and are only intended to be used for the same or similar features. For example, don't reuse the color of a pressed combo box for a spinning progress animation just because you like the color. The functions of the combo box and the animation are different, and if the color associated with the combo box changes, it may no longer be an appropriate color for your animation element. Consistent use of color helps orient your users and prevent confusion.
 
--   **Use background and text colors in the correct combination.** Background colors that are intended to be used with text will have an associated text color. Don't use text colors other than what is specified for that background. If there is not an associated text color, don't use that background color for any surface on which you expect to display text. Other combinations of text and background colors may result in an unreadable interface.
+- **Use background and text colors in the correct combination.** Background colors that are intended to be used with text will have an associated text color. Don't use text colors other than what is specified for that background. If there is not an associated text color, don't use that background color for any surface on which you expect to display text. Other combinations of text and background colors may result in an unreadable interface.
 
--   **Use control colors that are appropriate for their location.** In certain states, some Visual Studio controls do not have separate border and background colors. Instead, they pick up those colors from the surfaces behind them. Make sure that you always use the token names that are appropriate for the location where you are placing the control.
+- **Use control colors that are appropriate for their location.** In certain states, some Visual Studio controls do not have separate border and background colors. Instead, they pick up those colors from the surfaces behind them. Make sure that you always use the token names that are appropriate for the location where you are placing the control.
 
 > [!IMPORTANT]
->  Do not use tokens found in the categories "Start Page" or "Cider."
+> Do not use tokens found in the categories "Start Page" or "Cider."
 
 ## Command structures
 
-###  <a name="BKMK_CommandMenus"></a> Menus
- Menus can occur at several places within Visual Studio: the main menu bar, embedded in document or tool windows, or on right-click in various locations throughout the IDE. Implementations of menus associated with other UI elements are discussed in the section for the respective element. You should always use the standard menu implementation provided by the Visual Studio environment. However, in some rare instances you might not have access to the standard Visual Studio menus. In these situations, use the following token names to ensure that your UI is consistent with other menus in Visual Studio.
+### <a name="BKMK_CommandMenus"></a> Menus
 
- ![Menus redline](../../extensibility/ux-guidelines/media/0303-000-menuredline.png "0303-000_MenuRedline")
+Menus can occur at several places within Visual Studio: the main menu bar, embedded in document or tool windows, or on right-click in various locations throughout the IDE. Implementations of menus associated with other UI elements are discussed in the section for the respective element. You should always use the standard menu implementation provided by the Visual Studio environment. However, in some rare instances you might not have access to the standard Visual Studio menus. In these situations, use the following token names to ensure that your UI is consistent with other menus in Visual Studio.
 
- Use …
- -   whenever you need to create a custom menu.
+![Menus redline](../../extensibility/ux-guidelines/media/0303-000-menuredline.png "0303-000_MenuRedline")
+
+Use …
+- whenever you need to create a custom menu.
 
 - when you have a new UI component that you want to match the Visual Studio menus.
 
-  Do not use …
-  the background color alone. Always use the background/foreground combination as specified.
+Do not use …
+the background color alone. Always use the background/foreground combination as specified.
 
 #### Menu title
- Menu titles consist of a background, a border, and the title text, as well as an optional glyph, usually when the menu is found in a command bar.
 
- ![Menu title redline](../../extensibility/ux-guidelines/media/0303-001-menutitleredline.png "0303-001_MenuTitleRedline")
+Menu titles consist of a background, a border, and the title text, as well as an optional glyph, usually when the menu is found in a command bar.
 
- Use…
- whenever you are creating a custom menu title.
+![Menu title redline](../../extensibility/ux-guidelines/media/0303-001-menutitleredline.png "0303-001_MenuTitleRedline")
 
- Do not use…
- -   for anything that you don't want to always match the menu title.
+Use…
+whenever you are creating a custom menu title.
+
+Do not use…
+- for anything that you don't want to always match the menu title.
 
 - in any background/foreground combination other than specified.
 
@@ -186,15 +189,16 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
   None
 
 #### Menu
- An individual menu item consists of the menu text and an optional icon, check box, or submenu glyph. Its background and text color change on hover. This color token is a background/foreground pair.
 
- ![Menu items redline](../../extensibility/ux-guidelines/media/0303-009-menuitemredline.png "0303-009_MenuItemRedline")
+An individual menu item consists of the menu text and an optional icon, check box, or submenu glyph. Its background and text color change on hover. This color token is a background/foreground pair.
 
- Use…
- for any drop-down list that is launched from a menu bar or command bar.
+![Menu items redline](../../extensibility/ux-guidelines/media/0303-009-menuitemredline.png "0303-009_MenuItemRedline")
 
- Do not use…
- -   for any drop-down list that occurs in another context.
+Use…
+for any drop-down list that is launched from a menu bar or command bar.
+
+Do not use…
+- for any drop-down list that occurs in another context.
 
 - in any background/foreground combination other than specified.
 
@@ -345,32 +349,34 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
   `Environment.CommandBarSelectedIconDisabled`
 
 ### Command bar
- The command bar can appear in multiple places within the Visual Studio IDE, most notably the command shelf and embedded in tool or document windows.
 
- In general, always use the standard command bar implementation provided by the Visual Studio environment. Using the standard mechanism ensures that all visual details will appear correctly and that interactive elements, will behave consistently with other Visual Studio command bar controls. However, if it is necessary for you to build your own command bar, make sure you style it correctly using the following token names.
+The command bar can appear in multiple places within the Visual Studio IDE, most notably the command shelf and embedded in tool or document windows.
 
- ![Command bar redline](../../extensibility/ux-guidelines/media/0303-018-commandbarredline.png "0303-018_CommandBarRedline")
+In general, always use the standard command bar implementation provided by the Visual Studio environment. Using the standard mechanism ensures that all visual details will appear correctly and that interactive elements, will behave consistently with other Visual Studio command bar controls. However, if it is necessary for you to build your own command bar, make sure you style it correctly using the following token names.
 
- ![Overflow button redline](../../extensibility/ux-guidelines/media/0303-019-overflowbuttonredline.png "0303-019_OverflowButtonRedline")
+![Command bar redline](../../extensibility/ux-guidelines/media/0303-018-commandbarredline.png "0303-018_CommandBarRedline")
 
- Use…
- in places where you need an embedded command bar but are unable to use the standard Visual Studio command bar implementation.
+![Overflow button redline](../../extensibility/ux-guidelines/media/0303-019-overflowbuttonredline.png "0303-019_OverflowButtonRedline")
 
- Do not use…
- -   for UI elements that are not similar to a command bar.
+Use…
+in places where you need an embedded command bar but are unable to use the standard Visual Studio command bar implementation.
 
--   for command bar components other than the ones for which token names are specified.
+Do not use…
+- for UI elements that are not similar to a command bar.
+
+- for command bar components other than the ones for which token names are specified.
 
 #### Command bar group
- A command bar group consists of a related set of command bar controls and might contain any number of buttons, split buttons, drop-down menus, combo boxes, or menus. Colors for those controls are regulated by separate token names and are discussed individually elsewhere in this guide. A separator line is used to divide a command bar group into related subgroups.
 
- ![Command bar group redline](../../extensibility/ux-guidelines/media/0303-020-commandbargroupredline.png "0303-020_CommandBarGroupRedline")
+A command bar group consists of a related set of command bar controls and might contain any number of buttons, split buttons, drop-down menus, combo boxes, or menus. Colors for those controls are regulated by separate token names and are discussed individually elsewhere in this guide. A separator line is used to divide a command bar group into related subgroups.
 
- Use…
- in places where you need an embedded command bar but are unable to use the standard Visual Studio command bar implementation.
+![Command bar group redline](../../extensibility/ux-guidelines/media/0303-020-commandbargroupredline.png "0303-020_CommandBarGroupRedline")
 
- Do not use…
- -   for UI elements that are not similar to a command bar.
+Use…
+in places where you need an embedded command bar but are unable to use the standard Visual Studio command bar implementation.
+
+Do not use…
+- for UI elements that are not similar to a command bar.
 
 - for command bar components other than the ones for which token names are specified.
 
@@ -401,15 +407,16 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
   `Environment.CommandBarToolBarSeparatorHighlight`
 
 #### Command icons
- ![Command icon redline](../../extensibility/ux-guidelines/media/0303-021-commandiconredline1.png "0303-021_CommandIconRedline1")
 
- ![Command icon redline](../../extensibility/ux-guidelines/media/0303-022-commandiconredline2.png "0303-022_CommandIconRedline2")
+![Command icon redline](../../extensibility/ux-guidelines/media/0303-021-commandiconredline1.png "0303-021_CommandIconRedline1")
 
- Use…
- for any buttons that will be placed on a command bar.
+![Command icon redline](../../extensibility/ux-guidelines/media/0303-022-commandiconredline2.png "0303-022_CommandIconRedline2")
 
- Do not use…
- -   for controls that have their own token names.
+Use…
+for any buttons that will be placed on a command bar.
+
+Do not use…
+- for controls that have their own token names.
 
 - in any background/foreground combination other than specified.
 
@@ -545,20 +552,20 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
 
   N/A
 
-####  <a name="BKMK_CommandComboBox"></a> Combo box
+#### <a name="BKMK_CommandComboBox"></a> Combo box
 
 > [!IMPORTANT]
->  Combo boxes are similar to drop-downs, but include an editable text region. If your drop-down does not include an editable text region, use the color tokens found under [Drop-down](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandDropDown).
+> Combo boxes are similar to drop-downs, but include an editable text region. If your drop-down does not include an editable text region, use the color tokens found under [Drop-down](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandDropDown).
 
- ![Combo box redline](../../extensibility/ux-guidelines/media/0303-029-comboboxredline.png "0303-029_ComboBoxRedline")
+![Combo box redline](../../extensibility/ux-guidelines/media/0303-029-comboboxredline.png "0303-029_ComboBoxRedline")
 
- Use …
- -   when building custom combo boxes.
+Use …
+- when building custom combo boxes.
 
 - when creating a command bar control that is similar to a combo box.
 
   Do not use …
-  -   for anything you don’t want always to match the command bar UI.
+  - for anything you don’t want always to match the command bar UI.
 
 - when you have access to a styled combo box.
 
@@ -792,18 +799,18 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
 
   `Environment.ComboBoxDisabledGlyph`
 
-####  <a name="BKMK_CommandDropDown"></a> Drop-down
+#### <a name="BKMK_CommandDropDown"></a> Drop-down
 
 > [!IMPORTANT]
->  Drop-downs are similar to combo boxes, but lack editable text regions. If your drop-down includes an editable text region, use the color tokens found under [Combo box](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandComboBox).
+> Drop-downs are similar to combo boxes, but lack editable text regions. If your drop-down includes an editable text region, use the color tokens found under [Combo box](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandComboBox).
 
- ![Drop&#45;down redline](../../extensibility/ux-guidelines/media/0303-042-dropdownredline.png "0303-042_DropdownRedline")
+![Drop&#45;down redline](../../extensibility/ux-guidelines/media/0303-042-dropdownredline.png "0303-042_DropdownRedline")
 
- Use …
- when you are creating custom drop-down list controls.
+Use …
+when you are creating custom drop-down list controls.
 
- Do not use …
- -   for anything that is not similar to a drop-down list.
+Do not use …
+- for anything that is not similar to a drop-down list.
 
 - for combo boxes or split buttons.
 
@@ -1004,15 +1011,16 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
   `Environment.DropDownDisabledGlyph`
 
 #### Split button
- Split buttons share many token names with other command bar controls, such as buttons, menus, and command bar text. All necessary action and drop-down button token names are repeated here for convenience. Split button drop-down lists are implementations of command bar [Menus](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandMenus).
 
- ![Split button redline](../../extensibility/ux-guidelines/media/0303-053-splitbuttonredline.png "0303-053_SplitButtonRedline")
+Split buttons share many token names with other command bar controls, such as buttons, menus, and command bar text. All necessary action and drop-down button token names are repeated here for convenience. Split button drop-down lists are implementations of command bar [Menus](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandMenus).
 
- Use …
- when you are building a custom split button.
+![Split button redline](../../extensibility/ux-guidelines/media/0303-053-splitbuttonredline.png "0303-053_SplitButtonRedline")
 
- Do not use …
- -   for other kinds of buttons.
+Use …
+when you are building a custom split button.
+
+Do not use …
+- for other kinds of buttons.
 
 - in any background/foreground combination other than specified.
 
@@ -1419,7 +1427,7 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
   when you are creating custom document tabs.
 
   Do not use …
-  -   for provisional (preview) tabs.
+  - for provisional (preview) tabs.
 
 - for any UI that you don't want to change automatically if the shell has a theme update.
 
@@ -1532,15 +1540,16 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  Set to same color as background.
 
 #### Preview tab
- The preview tab appears on the right side of the document tab channel when the user clicks an item in the Solution Explorer tool window. It acts as a preview of the document and also gives the user the option to keep the document open on the left side of the document tab channel. Only one preview tab open can be open at a time. Preview tabs have both background and selected states, like open tabs, and can be focused or unfocused in their active state.
 
- ![Preview tab redline](../../extensibility/ux-guidelines/media/0303-078-previewtabredline.png "0303-078_PreviewTabRedline")
+The preview tab appears on the right side of the document tab channel when the user clicks an item in the Solution Explorer tool window. It acts as a preview of the document and also gives the user the option to keep the document open on the left side of the document tab channel. Only one preview tab open can be open at a time. Preview tabs have both background and selected states, like open tabs, and can be focused or unfocused in their active state.
 
- Use …
- anywhere you are creating provisional preview and want some element to match the current preview tab color.
+![Preview tab redline](../../extensibility/ux-guidelines/media/0303-078-previewtabredline.png "0303-078_PreviewTabRedline")
 
- Do not use …
- -   for any kind of document or tab that is not provisional (preview).
+Use …
+anywhere you are creating provisional preview and want some element to match the current preview tab color.
+
+Do not use …
+- for any kind of document or tab that is not provisional (preview).
 
 - for any UI that you don't want to change automatically if the shell has a theme update.
 
@@ -1655,15 +1664,16 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
   Set to same color as background.
 
 #### Document overflow button
- The document overflow button is present if there are one or more documents open, regardless of whether there is vertical space in the current configuration to fit all document tabs. The document overflow drop-down menu, which is controlled by the **CommandBarMenu** colors (see [Menus](../../misc/shared-colors.md#BKMK_CommandMenus)), displays a list of all open documents, both visible and hidden, and the overflow glyph changes depending on whether all the open documents are displayed in the tab channel.
 
- ![Overflow redline](../../extensibility/ux-guidelines/media/0303-083-overflowredline.png "0303-083_OverflowRedline")
+The document overflow button is present if there are one or more documents open, regardless of whether there is vertical space in the current configuration to fit all document tabs. The document overflow drop-down menu, which is controlled by the **CommandBarMenu** colors (see [Menus](../../misc/shared-colors.md#BKMK_CommandMenus)), displays a list of all open documents, both visible and hidden, and the overflow glyph changes depending on whether all the open documents are displayed in the tab channel.
 
- Use …
- when you are creating a custom document overflow button.
+![Overflow redline](../../extensibility/ux-guidelines/media/0303-083-overflowredline.png "0303-083_OverflowRedline")
 
- Do not use …
- -   for UI that is not similar to an overflow button.
+Use …
+when you are creating a custom document overflow button.
+
+Do not use …
+- for UI that is not similar to an overflow button.
 
 - for command bar overflow buttons.
 
@@ -1889,13 +1899,14 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  `Environment.TitleBarDragHandle`
 
 #### Title bar buttons
- ![Title bar button redline](../../extensibility/ux-guidelines/media/0303-095-titlebarbuttonredline.png "0303-095_TitleBarButtonRedline")
 
- Use …
- for buttons that appear in UI that uses color tokens from the tool window title bars.
+![Title bar button redline](../../extensibility/ux-guidelines/media/0303-095-titlebarbuttonredline.png "0303-095_TitleBarButtonRedline")
 
- Do not use …
- -   for buttons that appear in other locations.
+Use …
+for buttons that appear in UI that uses color tokens from the tool window title bars.
+
+Do not use …
+- for buttons that appear in other locations.
 
 - in any background/foreground combination other than specified.
 
@@ -2221,7 +2232,7 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
   when you are designing a custom search box.
 
   Do not use …
-  -   for anything that is not a search box.
+  - for anything that is not a search box.
 
 - for anything that you do not want always to match the search box UI.
 
@@ -2510,17 +2521,18 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
   None
 
 #### Search drop-down lists
- The search box dropdown menu has the potential to be slightly more complex than other dropdown menus in Visual Studio. The "suggested searches" and "search options" sections can appear alone or together in the menu and each one is colored separately. A line also separates these two sections when they appear together and a border surrounds the entire dropdown menu.
 
- ![Search drop&#45;down redline](../../extensibility/ux-guidelines/media/0303-124-searchdropdownredline.png "0303-124_SearchDropdownRedline")
+The search box dropdown menu has the potential to be slightly more complex than other dropdown menus in Visual Studio. The "suggested searches" and "search options" sections can appear alone or together in the menu and each one is colored separately. A line also separates these two sections when they appear together and a border surrounds the entire dropdown menu.
 
- Use …
- -   when you are creating a custom search dropdown list.
+![Search drop&#45;down redline](../../extensibility/ux-guidelines/media/0303-124-searchdropdownredline.png "0303-124_SearchDropdownRedline")
+
+Use …
+- when you are creating a custom search dropdown list.
 
 - the correct token names for the correct list components.
 
   Do not use …
-  -   for dropdown lists that appear in other contexts.
+  - for dropdown lists that appear in other contexts.
 
 - in any background/foreground combination other than specified.
 
@@ -2901,16 +2913,17 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
 
  `Environment.ScrollBarArrowGlyphPressed`
 
-###  <a name="BKMK_TreeView"></a> Tree view
- Several tool windows, including the Solution Explorer, Server Explorer, and Class View, implement a hierarchical organizational scheme whose colors are controlled by color names in the TreeView category. All items in a tree view have background and text colors. Items that have nested child elements also have glyphs that indicate whether the item is expanded or collapsed.
+### <a name="BKMK_TreeView"></a> Tree view
 
- ![Tree view redline](../../extensibility/ux-guidelines/media/0303-147-treeviewredline.png "0303-147_TreeViewRedline")
+Several tool windows, including the Solution Explorer, Server Explorer, and Class View, implement a hierarchical organizational scheme whose colors are controlled by color names in the TreeView category. All items in a tree view have background and text colors. Items that have nested child elements also have glyphs that indicate whether the item is expanded or collapsed.
 
- Use …
- anywhere you need to implement a hierarchical organizational view.
+![Tree view redline](../../extensibility/ux-guidelines/media/0303-147-treeviewredline.png "0303-147_TreeViewRedline")
 
- Do not use …
- -   for anything that is not similar to a tree view.
+Use …
+anywhere you need to implement a hierarchical organizational view.
+
+Do not use …
+- for anything that is not similar to a tree view.
 
 - in any background/foreground combination other than specified.
 
@@ -3327,13 +3340,14 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  `CommonControls.CheckBoxGlyphFocused`
 
 ### Drop box/combo box controls
- ![Drop&#45;down&#47;combo box redline](../../extensibility/ux-guidelines/media/0303-167-dropdowncomboboxredline.png "0303-167_DropDownComboBoxRedline")
 
- Use …
- for drop-downs and combo boxes that are part of the document well.
+![Drop&#45;down&#47;combo box redline](../../extensibility/ux-guidelines/media/0303-167-dropdowncomboboxredline.png "0303-167_DropDownComboBoxRedline")
 
- Do not use …
- -   for any UI that is not a drop-down or combo box.
+Use …
+for drop-downs and combo boxes that are part of the document well.
+
+Do not use …
+- for any UI that is not a drop-down or combo box.
 
 - for a [Drop-down](../../misc/shared-colors.md#BKMK_CommandDropDown) or [Combo box](../../misc/shared-colors.md#BKMK_CommandComboBox) in the command bar.
 
@@ -3685,17 +3699,18 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  None
 
 ## Manifest Designer
- The Manifest Designer was designed as a way to make it easier to edit the manifest file in Windows 8 and Windows Phone 8 projects. While there is no shared framework available for consumption, it might be appropriate for you to match the design layout and colors of the orientation/navigation tabs and overall structure. For more information about layout details, see [Layout for Visual Studio](../../extensibility/ux-guidelines/layout-for-visual-studio.md).
 
- ![Manifest Designer redline](../../extensibility/ux-guidelines/media/0303-175-manifestdesignerredline.png "0303-175_ManifestDesignerRedline")
+The Manifest Designer was designed as a way to make it easier to edit the manifest file in Windows 8 and Windows Phone 8 projects. While there is no shared framework available for consumption, it might be appropriate for you to match the design layout and colors of the orientation/navigation tabs and overall structure. For more information about layout details, see [Layout for Visual Studio](../../extensibility/ux-guidelines/layout-for-visual-studio.md).
 
- Use …
- -   for designers that are similar to the Manifest Designer.
+![Manifest Designer redline](../../extensibility/ux-guidelines/media/0303-175-manifestdesignerredline.png "0303-175_ManifestDesignerRedline")
+
+Use …
+- for designers that are similar to the Manifest Designer.
 
 - in place of using common tab controls at the top of an editor within the document well.
 
-  Do not use …
-  -   if you have more than six tabs.
+Do not use …
+- if you have more than six tabs.
 
 - for any UI that is not structured like the Manifest Designer.
 
@@ -3959,15 +3974,16 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
 ## Shell
 
 ### Background
- The environment background consists of two layers. The bottom layer is a solid color that covers the entire IDE. The top layer fits under the command shelf and between the tool window auto-hide channels on the left and right edges of the IDE. As of Visual Studio 2013, the top and bottom background layers are set to the same color in the Light and Dark themes.
 
- ![Shell background redline](../../extensibility/ux-guidelines/media/0303-187-shellbackgroundredline.png "0303-187_ShellBackgroundRedline")
+The environment background consists of two layers. The bottom layer is a solid color that covers the entire IDE. The top layer fits under the command shelf and between the tool window auto-hide channels on the left and right edges of the IDE. As of Visual Studio 2013, the top and bottom background layers are set to the same color in the Light and Dark themes.
 
- Use …
- for places that you want to match the background of the Visual Studio environment.
+![Shell background redline](../../extensibility/ux-guidelines/media/0303-187-shellbackgroundredline.png "0303-187_ShellBackgroundRedline")
 
- Do not use …
- -   as a fill for places that are not background surfaces.
+Use …
+for places that you want to match the background of the Visual Studio environment.
+
+Do not use …
+- as a fill for places that are not background surfaces.
 
 - as a background on which you wish to place foreground elements.
 
@@ -4004,17 +4020,18 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
   `Environment.EnvironmentBackgroundGradientMiddle2`
 
 ### Command shelf
- Two sets of token names are used for the command shelf backgrounds: one set for where the menu bar sits and one for where the command bars sit. An individual command bar group has its own background color values, which are discussed in more detail in the "command bar" section. Menu bar and command bar text is discussed in the menu and command bar sections, respectively.
 
- ![Command shelf redline](../../extensibility/ux-guidelines/media/0303-188-commandshelfredline.png "0303-188_CommandShelfRedline")
+Two sets of token names are used for the command shelf backgrounds: one set for where the menu bar sits and one for where the command bars sit. An individual command bar group has its own background color values, which are discussed in more detail in the "command bar" section. Menu bar and command bar text is discussed in the menu and command bar sections, respectively.
 
- Use …
- -   for areas where you place menus or toolbars.
+![Command shelf redline](../../extensibility/ux-guidelines/media/0303-188-commandshelfredline.png "0303-188_CommandShelfRedline")
+
+Use …
+- for areas where you place menus or toolbars.
 
 - with the correct background/?foreground token name combination.
 
-  Do not use …
-  for areas that are not similar to a command shelf.
+Do not use …
+for areas that are not similar to a command shelf.
 
   Component
 

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "AD_PROCESS_ID union"
 ms.assetid: 4cb40d12-2e92-4f09-83f4-689928bd65b3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # AD_PROCESS_ID
 Specifies the process ID, which may be either a system ID or a GUID.
@@ -39,13 +42,13 @@ public struct AD_PROCESS_ID {
 ```
 
 ## Members
-`ProcessIdType`
+`ProcessIdType`\
 A value from the [AD_PROCESS_ID_TYPE](../../../extensibility/debugger/reference/ad-process-id-type.md) enumeration specifying how to interpret the `ProcessId` union (or, for managed code, which member of the structure to access).
 
-dwProcessId
+`dwProcessId`\
 The process ID as a value from the system.
 
-guidProcessId
+`guidProcessId`\
 The process ID as a GUID.
 
 dwUnused
@@ -75,7 +78,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [GetProcess](../../../extensibility/debugger/reference/idebugport2-getprocess.md)
 - [PROCESS_INFO](../../../extensibility/debugger/reference/process-info.md)

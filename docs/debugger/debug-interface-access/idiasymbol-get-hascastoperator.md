@@ -33,7 +33,7 @@ HRESULT get_hasCastOperator ( 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 > [!NOTE]
->  A return value of `S_FALSE` means that the property is not available for the symbol.
+> A return value of `S_FALSE` means that the property is not available for the symbol.
 
 ## Requirements
 
@@ -42,5 +42,5 @@ HRESULT get_hasCastOperator ( 
 |Header:|dia2.h|
 |Version:|DIA SDK v7.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

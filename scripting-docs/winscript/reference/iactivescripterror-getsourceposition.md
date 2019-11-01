@@ -2,7 +2,6 @@
 title: "IActiveScriptError::GetSourcePosition | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -45,5 +44,5 @@ HRESULT GetSourcePosition(
 ## Return Value  
  Returns `S_OK` if successful, or `E_FAIL` if the location was not retrieved.  
   
-## See Also  
+## See also  
  [IActiveScriptError](../../winscript/reference/iactivescripterror.md)

@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "class diagrams, adding comment shapes"
   - "comment shapes"
 ms.assetid: d54005d5-a29d-4c4e-b153-feb6e84dd44f
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -25,9 +25,9 @@ You can resize a comment shape but you cannot change other aspects of its appear
 
 ## To add a comment
 
-1.  Drag a comment from the **Class Designer Toolbox** onto the class diagram.
+1. Drag a comment from the **Class Designer Toolbox** onto the class diagram.
 
-2.  Click in the new comment shape on the diagram and type the text you want.
+2. Click in the new comment shape on the diagram and type the text you want.
 
 ## See also
 

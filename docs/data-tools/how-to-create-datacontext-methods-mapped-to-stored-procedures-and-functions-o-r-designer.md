@@ -1,10 +1,10 @@
 ---
-title: "How to: Create DataContext methods mapped to stored procedures and functions (O-R Designer)"
+title: "Map DataContext methods to sprocs and functions (O-R Designer)"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: e7ca32f1-50b3-48af-ad92-ceafd749296a
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"
@@ -14,7 +14,7 @@ ms.workload:
 You can add stored procedures and functions to the **O/R Designer** as <xref:System.Data.Linq.DataContext> methods. Calling the method and passing in the required parameters runs the stored procedure or function on the database and returns the data in the return type of the <xref:System.Data.Linq.DataContext> method. For detailed information about <xref:System.Data.Linq.DataContext> methods, see [DataContext methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md).
 
 > [!NOTE]
-> You can also use stored procedures to override the default [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] runtime behavior that performs Inserts, Updates, and Deletes when changes are saved from entity classes to a database. For more information, see [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md).
+> You can also use stored procedures to override the default [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] run-time behavior that performs Inserts, Updates, and Deletes when changes are saved from entity classes to a database. For more information, see [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md).
 
 ## Create DataContext methods
 
@@ -27,17 +27,17 @@ You can create <xref:System.Data.Linq.DataContext> methods by dragging stored pr
 
 ### To create DataContext methods that return automatically generated types
 
-1.  In **Server Explorer** or **Database Explorer**, expand the **Stored Procedures** node of the database with which you are working.
+1. In **Server Explorer** or **Database Explorer**, expand the **Stored Procedures** node of the database with which you are working.
 
-2.  Locate the desired stored procedure and drag it onto an empty area of the **O/R Designer**.
+2. Locate the desired stored procedure and drag it onto an empty area of the **O/R Designer**.
 
      The <xref:System.Data.Linq.DataContext> method is created with an automatically generated return type and appears in the **Methods** pane.
 
 ### To create DataContext methods that have the return type of an entity class
 
-1.  In **Server Explorer** or **Database Explorer**, expand the **Stored Procedures** node of the database with which you are working.
+1. In **Server Explorer** or **Database Explorer**, expand the **Stored Procedures** node of the database with which you are working.
 
-2.  Locate the desired stored procedure and drag it onto an existing entity class in the **O/R Designer**.
+2. Locate the desired stored procedure and drag it onto an existing entity class in the **O/R Designer**.
 
      The <xref:System.Data.Linq.DataContext> method is created with the return type of the selected entity class and appears in the **Methods** pane.
 

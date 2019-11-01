@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugBinder3::GetTypeArguments method"
 ms.assetid: fa0c37a7-327f-463e-9a9d-bb3f534584cb
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBinder3::GetTypeArguments
 This method retrieves a list of argument types associated with this object.
@@ -36,22 +39,18 @@ int GetTypeArguments(
 );
 ```
 
-#### Parameters
- `skip`
+## Parameters
+`skip`\
+[in]Number of fields to skip before getting argument types.
 
- [in]Number of fields to skip before getting argument types.
+`count`\
+[in] The number of argument fields to return (also specifies the size of the `ppFields` array).
 
- `count`
+`ppFields`\
+[in, out] An array of fields that will be filled in on return of this method.
 
- [in] The number of argument fields to return (also specifies the size of the `ppFields` array).
-
- `ppFields`
-
- [in, out] An array of fields that will be filled in on return of this method.
-
- `pFetched`
-
- [out] \(optional) The number of argument type fields actually returned.
+`pFetched`\
+[out] \(optional) The number of argument type fields actually returned.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -59,6 +58,6 @@ int GetTypeArguments(
 ## Remarks
  The number of argument types can be obtained beforehand with [GetTypeArgumentCount](../../../extensibility/debugger/reference/idebugbinder3-gettypeargumentcount.md).
 
-## See Also
+## See also
 - [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)
 - [GetTypeArgumentCount](../../../extensibility/debugger/reference/idebugbinder3-gettypeargumentcount.md)

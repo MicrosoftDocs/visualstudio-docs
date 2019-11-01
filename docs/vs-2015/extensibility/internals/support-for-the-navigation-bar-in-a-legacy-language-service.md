@@ -64,24 +64,24 @@ namespace TestLanguagePackage
   
   An implementation of the <xref:Microsoft.VisualStudio.Package.TypeAndMemberDropdownBars.OnSynchronizeDropdowns%2A> method typically performs the following steps:  
   
-1.  Get a list of current declarations for the source file.  
+1. Get a list of current declarations for the source file.  
   
      There are a number of ways to populate the lists. One approach is to create a custom method on your version of the <xref:Microsoft.VisualStudio.Package.LanguageService> class that calls the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method with a custom parse reason that returns a list of all declarations. Another approach might be to call the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method directly from the <xref:Microsoft.VisualStudio.Package.TypeAndMemberDropdownBars.OnSynchronizeDropdowns%2A> method with the custom parse reason. A third approach might be to cache the declarations in the <xref:Microsoft.VisualStudio.Package.AuthoringScope> class returned by the last full parsing operation in the <xref:Microsoft.VisualStudio.Package.LanguageService> class and retrieve that from the <xref:Microsoft.VisualStudio.Package.TypeAndMemberDropdownBars.OnSynchronizeDropdowns%2A> method.  
   
-2.  Populate or update the list of types.  
+2. Populate or update the list of types.  
   
      The contents of the types list may to be updated when the source has changed or if you have chosen to change the text styling of the types based on the current caret position. Note that this position is passed to the <xref:Microsoft.VisualStudio.Package.TypeAndMemberDropdownBars.OnSynchronizeDropdowns%2A> method.  
   
-3.  Determine the type to select in the types list based on the current caret position.  
+3. Determine the type to select in the types list based on the current caret position.  
   
      You can search the declarations that were obtained in step 1 to find the type that encloses the current caret position, and then search the types list for that type to determine its index into the types list.  
   
-4.  Populate or update the list of members based on the selected type.  
+4. Populate or update the list of members based on the selected type.  
   
      The members list reflects what is currently displayed in the **Members** drop-down. The contents of the members list may need to be updated if the source has changed or if you are displaying only the members of the selected type and the selected type has changed. If you choose to display all the members in the source file, then the text styling of each member in the list needs to be updated if the currently selected type has changed.  
   
-5.  Determine the member to select in the members list based on the current caret position.  
+5. Determine the member to select in the members list based on the current caret position.  
   
      Search the declarations that were obtained in step 1 for the member that contains the current caret position, then search the members list for that member to determine its index into the member list.  
   
-6.  Return `true` if any changes have been made to the lists or the selections in either list.
+6. Return `true` if any changes have been made to the lists or the selections in either list.

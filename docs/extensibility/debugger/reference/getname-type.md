@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "GETNAME_TYPE enumeration"
 ms.assetid: 2f9f1679-e9e8-4c9c-ac90-aa07bfe69914
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # GETNAME_TYPE
 Specifies the name type of files to retrieve.
@@ -43,26 +46,26 @@ public enum enum_GETNAME_TYPE {
 };
 ```
 
-## Members
-GN_NAME
+## Fields
+`GN_NAME`\
 Specifies a friendly name of the document or context.
 
-GN_FILENAME
+`GN_FILENAME`\
 Specifies the full path of the document or context.
 
-GN_BASENAME
+`GN_BASENAME`\
 Specifies a base file name instead of a full path of the document or context.
 
-GN_MONIKERNAME
+`GN_MONIKERNAME`\
 Specifies a unique name of the document or context in the form of a moniker.
 
-GN_URL
+`GN_URL`\
 Specifies a URL name of the document or context.
 
-GN_TITLE
+`GN_TITLE`\
 Specifies a title of the document, if one exists.
 
-GN_STARTPAGEURL
+`GN_STARTPAGEURL`\
 Gets the starting page URL for processes.
 
 ## Remarks
@@ -75,7 +78,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetName](../../../extensibility/debugger/reference/idebugdocument2-getname.md)
 - [GetName](../../../extensibility/debugger/reference/idebugdocumentcontext2-getname.md)

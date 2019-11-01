@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEngineProgram2::Stop"
 ms.assetid: 6e1c3d56-fb67-4a5b-80f9-8ee5131972bf
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugEngineProgram2::Stop
 Stops all threads running in this program.
@@ -36,6 +39,6 @@ int Stop();
 
  No debug event is sent in response to this method.
 
-## See Also
+## See also
 - [IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md)
 - [CauseBreak](../../../extensibility/debugger/reference/idebugprogram2-causebreak.md)

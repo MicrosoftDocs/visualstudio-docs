@@ -17,8 +17,8 @@ manager: jillfra
 
 [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] installs a new project-type aggregator (ProjectAggregator2.dll) and also a Windows Installer package for redistribution (ProjectAggregator2.msi). You must use the new aggregator for managed-code project types. ProjectAggregator2 works arounds limitations in the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] project aggregator that prevent managed-code project types from working correctly. The following steps describe how to change your VSPackage to use the new aggregator.  
   
-1.  Remove the NativeHierarchyWrapper project from your solution.  
+1. Remove the NativeHierarchyWrapper project from your solution.  
   
-2.  Remove any NativeHierarchyWrapper binaries from your setup.  
+2. Remove any NativeHierarchyWrapper binaries from your setup.  
   
-3.  Add ProjectAggregator2.msi to your setup.
+3. Add ProjectAggregator2.msi to your setup.

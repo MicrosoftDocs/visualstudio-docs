@@ -17,19 +17,19 @@ Visual Studio 2010 Premium provides filtering for performance reports so that th
   
 ### To enable Just My Code  
   
-1.  On the **Tools** menu, click **Options**.  
+1. On the **Tools** menu, click **Options**.  
   
-2.  In the **Options** dialog box, expand **Performance Tools** and then select the **General** node.  
+2. In the **Options** dialog box, expand **Performance Tools** and then select the **General** node.  
   
-3.  Under **General settings**, select the **Enable Just My Code** check box.  
+3. Under **General settings**, select the **Enable Just My Code** check box.  
   
 ### To disable Just My Code  
   
-1.  On the **Tools** menu, click **Options**.  
+1. On the **Tools** menu, click **Options**.  
   
-2.  In the **Options** dialog box, expand **Performance Tools** and then select the **General** node.  
+2. In the **Options** dialog box, expand **Performance Tools** and then select the **General** node.  
   
-3.  Under **General settings**, clear the **Enable Just My Code** check box.  
+3. Under **General settings**, clear the **Enable Just My Code** check box.  
   
 ## See Also  
  [Customizing Performance Tools Report Views](../profiling/customizing-performance-tools-report-views.md)

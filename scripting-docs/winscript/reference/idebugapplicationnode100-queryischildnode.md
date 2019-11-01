@@ -2,7 +2,6 @@
 title: "IDebugApplicationNode100::QueryIsChildNode | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,7 +18,7 @@ manager: "ghogen"
 Determines whether the specified document belongs to one of the child nodes of this node.  
   
 > [!IMPORTANT]
->  [IDebugApplicationNode100 Interface](../../winscript/reference/idebugapplicationnode100-interface.md) is implemented by PDM v10.0 and greater. Found in activdbg100.h.  
+> [IDebugApplicationNode100 Interface](../../winscript/reference/idebugapplicationnode100-interface.md) is implemented by PDM v10.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   
@@ -31,5 +30,5 @@ HRESULT QueryIsChildNode(        [in] IDebugDocument* pSearchKey        );
  `pSearchKey`  
  The search key.  
   
-## See Also  
+## See also  
  [IDebugApplicationNode100 Interface](../../winscript/reference/idebugapplicationnode100-interface.md)

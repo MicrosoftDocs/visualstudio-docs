@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "StaticHolderTypesShouldNotHaveConstructors"
 ms.assetid: 10302b9a-fa5e-4935-a06a-513d9600f613
 caps.latest.revision: 17
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1053: Static holder types should not have constructors
@@ -36,7 +36,7 @@ manager: "wpickett"
  To fix a violation of this rule, remove the default constructor or make it private.
 
 > [!NOTE]
->  Some compilers automatically create a public default constructor if the type does not define any constructors. If this is the case with your type, add a private default constructor to eliminate the violation.
+> Some compilers automatically create a public default constructor if the type does not define any constructors. If this is the case with your type, add a private default constructor to eliminate the violation.
 
 ## When to Suppress Warnings
  Do not suppress a warning from this rule. The presence of the constructor suggests that the type is not a static type.

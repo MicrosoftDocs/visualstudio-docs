@@ -78,7 +78,7 @@ void main() {
   
  You can also see the return values of functions and methods in certain circumstances. See [View return values of method calls](#bkmk_returnValue) below.  
   
-##  <a name="bkmk_returnValue"></a> View return values of method calls  
+## <a name="bkmk_returnValue"></a> View return values of method calls  
  In .NET and C++ code you can examine return values when you step over or out of a method call. This functionality is useful when the result of a method call is not stored in a local variable, for example when a method is used as a parameter or as a return value of another    method.  
   
  The following C# code adds the return values of two functions:  
@@ -127,11 +127,11 @@ private static int subtractVars(int i, int j)
   
  However, you should exercise caution when changing values. Here are some possible issues:  
   
--   Evaluating some expressions can change the value of a variable or otherwise affect the state of your program. For example, evaluating `var1 = ++var2` changes the value of `var1` and `var2`.  
+- Evaluating some expressions can change the value of a variable or otherwise affect the state of your program. For example, evaluating `var1 = ++var2` changes the value of `var1` and `var2`.  
   
      Expressions that change data are said to have [side effects](https://en.wikipedia.org/wiki/Side_effect_\(computer_science\)), which can produce unexpected results if you are not aware of them. Make sure you understand the consequences of such a change before you make it.  
   
--   Editing floating-point values can result in minor inaccuracies because of decimal-to-binary conversion of fractional components. Even a seemingly harmless edit can result in changes to some of the least significant bits in the floating-point variable.  
+- Editing floating-point values can result in minor inaccuracies because of decimal-to-binary conversion of fractional components. Even a seemingly harmless edit can result in changes to some of the least significant bits in the floating-point variable.  
   
 ## Debug Location toolbar  
  You can use the **Debug Location** toolbar to select the desired function, thread, or process. Set a breakpoint and start debugging. (If you do not see this toolbar, you can enable it by clicking in an empty part of the toolbar area. You should see a list of toolbars; select **Debug Location**). When the breakpoint is hit, execution stops and you can see the Debug Location toolbar, which is the bottom row of the following graphic:  

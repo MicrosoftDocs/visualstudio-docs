@@ -26,7 +26,6 @@ Wraps *vbc.exe*, which produces executables (*.exe*), dynamic-link libraries (*.
 ## Parameters
  The following table describes the parameters of the `Vbc` task.
 
-
 | Parameter | Description |
 |------------------------------| - |
 | `AdditionalLibPaths` | Optional `String[]` parameter.<br /><br /> Specifies additional folders in which to look for assemblies specified in the References attribute. |

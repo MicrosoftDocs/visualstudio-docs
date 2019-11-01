@@ -51,7 +51,7 @@ Specifies information about an assembly, which the template uses to add a refere
   
  This text specifies the assembly to add to a project when the item template is instantiated. This assembly name must be specified in one of the following ways:  
   
--   As a full assembly name. For example:  
+- As a full assembly name. For example:  
   
     ```  
     <Assembly>  
@@ -59,7 +59,7 @@ Specifies information about an assembly, which the template uses to add a refere
     </Assembly>  
     ```  
   
--   As simple text reference. For example:  
+- As simple text reference. For example:  
   
     ```  
     <Assembly> System </Assembly>  

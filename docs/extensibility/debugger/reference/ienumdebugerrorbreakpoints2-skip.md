@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumDebugErrorBreakpoints2::Skip"
 ms.assetid: a5a02b38-4e3a-4f0e-b529-f770c3485c8b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEnumDebugErrorBreakpoints2::Skip
 Skips over the specified number of elements.
@@ -30,10 +33,9 @@ int Skip(
 );
 ```
 
-#### Parameters
- `celt`
-
- [in] Number of elements to skip.
+## Parameters
+`celt`\
+[in] Number of elements to skip.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if `celt` is greater than the number of remaining elements; otherwise, returns an error code.
@@ -41,5 +43,5 @@ int Skip(
 ## Remarks
  If `celt` specifies a value greater than the number of remaining elements, the enumeration is set to the end and `S_FALSE` is returned.
 
-## See Also
+## See also
 - [IEnumDebugErrorBreakpoints2](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md)

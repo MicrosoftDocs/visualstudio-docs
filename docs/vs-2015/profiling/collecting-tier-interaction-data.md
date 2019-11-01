@@ -36,11 +36,11 @@ Tier interaction profiling provides additional information about the execution t
   
 ### To add tier interaction data to a profiling run by using the performance session property pages  
   
-1.  In Performance Explorer, choose **Properties** from the context menu.  
+1. In Performance Explorer, choose **Properties** from the context menu.  
   
-2.  Select **Tier Interactions** page and then check the **Enable tier interaction profiling** check box.  
+2. Select **Tier Interactions** page and then check the **Enable tier interaction profiling** check box.  
   
-3.  In Performance Explorer, select the **Targets** node, and then specify the project, executable, or web site that you want to profile.  
+3. In Performance Explorer, select the **Targets** node, and then specify the project, executable, or web site that you want to profile.  
   
 ## See Also  
  [Tier Interactions View](../profiling/tier-interactions-view.md)

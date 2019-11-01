@@ -32,21 +32,21 @@ You can use remote procedure call (RPC) debugging to debug COM client/server app
 
 ### To enable RPC debugging
 
-1.  On the **Tools** menu, click **Options**.
+1. On the **Tools** menu, click **Options**.
 
-2.  In the **Options** dialog box, click the **Debugging** folder.
+2. In the **Options** dialog box, click the **Debugging** folder.
 
-3.  Click the **Native** page.
+3. Click the **Native** page.
 
-4.  Select the **RPC debugging** check box.
-
-    > [!NOTE]
-    >  To debug RPC calls, you must have Administrator or Power User privileges.
+4. Select the **RPC debugging** check box.
 
     > [!NOTE]
-    >  RPC stepping into a remote server that runs Microsoft Windows Vista will work only if a native debugger is attached to the remote server. Otherwise, the RPC call will fail without an error message. Otherwise the RPC call will complete, but the step-into the RPC call will not work.
+    > To debug RPC calls, you must have Administrator or Power User privileges.
 
-## See Also
+    > [!NOTE]
+    > RPC stepping into a remote server that runs Microsoft Windows Vista will work only if a native debugger is attached to the remote server. Otherwise, the RPC call will fail without an error message. Otherwise the RPC call will complete, but the step-into the RPC call will not work.
+
+## See also
 - [COM Server and Container Debugging](../debugger/com-server-and-container-debugging.md)
-- [Debugging in Visual Studio](../debugger/index.md)
+- [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

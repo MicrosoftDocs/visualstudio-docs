@@ -20,8 +20,8 @@ You attempted to invoke the **RegExp.prototype.toString** or **RegExp.prototype.
   
 ### To correct this error  
   
--   Only invoke the **RegExp.prototype.toString** or **RegExp.prototype.valueOf** methods on objects of type `RegExp`.  
+- Only invoke the **RegExp.prototype.toString** or **RegExp.prototype.valueOf** methods on objects of type `RegExp`.  
   
-## See Also  
+## See also  
  [Regular Expression Object](../../javascript/reference/regular-expression-object-javascript.md)   
  [Regular Expression Syntax (JavaScript)](https://msdn.microsoft.com/library/1400241x)

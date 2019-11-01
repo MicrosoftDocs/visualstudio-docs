@@ -1,5 +1,5 @@
 ---
-title: Using Emulator Express to run and debug an Azure cloud service on a local machine | Microsoft Docs
+title: Emulator Express to run/debug Azure cloud service on local box
 description: Using Emulator Express to run and debug a cloud service on a local machine
 author: mikejo5000
 manager: jillfra
@@ -21,7 +21,7 @@ When you create an Azure project in Azure SDK 2.3 or later, Emulator Express is 
 
 1. In the projects properties pages, select the **Web** tab.
 
-	![Properties for an Azure cloud service project](./media/vs-azure-tools-emulator-express-debug-run/web-properties.png)
+    ![Properties for an Azure cloud service project](./media/vs-azure-tools-emulator-express-debug-run/web-properties.png)
 
 1. Under **Local Development Server**, select **Use IIS Express option**.
 
@@ -29,9 +29,9 @@ When you create an Azure project in Azure SDK 2.3 or later, Emulator Express is 
 
 1. To launch the Emulator Express, run the following command at a command prompt:
 
-	```
-	csrun.exe /useemulatorexpress
-	```
+    ```
+    csrun.exe /useemulatorexpress
+    ```
 
 ## Emulator Express limitations
 The following issues are known limitations of Emulator Express:
@@ -39,7 +39,7 @@ The following issues are known limitations of Emulator Express:
 - Emulator Express is not compatible with IIS Web Server.
 - Your cloud service can contain multiple roles, but each role is limited to one instance.
 - You can't access port numbers below 1000. If you use an authentication provider that normally uses a port below 1000, you might need to change this value to a port number that's above 1000.
-- Any limitations that apply to the Azure Compute Emulator also apply to Emulator Express. For example, you can't have more than 50 role instances per deployment. For more information about the Azure Compute Emulator, see [Run an Azure Application in the Compute Emulator](http://go.microsoft.com/fwlink/p/?LinkId=623050).
+- Any limitations that apply to the Azure Compute Emulator also apply to Emulator Express. For example, you can't have more than 50 role instances per deployment. For more information about the Azure Compute Emulator, see [Run an Azure Application in the Compute Emulator](vs-azure-tools-performance-profiling-cloud-services.md).
 
 ## Next steps
-[Debugging Azure cloud services](https://msdn.microsoft.com/library/azure/ee405479.aspx)
+[Debugging Azure cloud services](vs-azure-tools-debugging-cloud-services-overview.md)

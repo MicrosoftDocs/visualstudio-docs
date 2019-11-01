@@ -2,7 +2,6 @@
 title: "IDebugDocumentHost::GetFileName | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -44,5 +43,5 @@ HRESULT GetFileName(
 ## Remarks  
  This method returns the short name of the document without path information. The short name is typically used in situations such as the **Save As...** dialog box.  
   
-## See Also  
+## See also  
  [IDebugDocumentHost Interface](../../winscript/reference/idebugdocumenthost-interface.md)

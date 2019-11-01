@@ -5,11 +5,14 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugProcessQueryProperties"
 ms.assetid: ce29a248-81a0-42c0-99a7-1606e8c548ec
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProcessQueryProperties
 This interface is an extension interface implemented by [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) implementers. It allows the implementer to get information on the debugging process environment.
@@ -41,6 +44,6 @@ IDebugProcessQueryProperties: IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)

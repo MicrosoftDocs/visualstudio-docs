@@ -19,15 +19,15 @@ In this procedure, you learn how to use the VSIX project template and the **Cust
   
 ### Creating a Tool Window  
   
-1.  Create a VSIX project named **FirstWindow**. You can find the VSIX project template in the **New Project** dialog under **Visual C# / Extensibility**.  
+1. Create a VSIX project named **FirstWindow**. You can find the VSIX project template in the **New Project** dialog under **Visual C# / Extensibility**.  
   
-2.  When the project opens, add a tool window item template named **FirstWindow**. In the **Solution Explorer**, right-click the project node and select **Add / New Item**. In the **Add New Item** dialog, go to **Visual C# / Extensibility** and select **Custom Tool Window**. In the **Name** field at the bottom of the window, change the tool window file name to **FirstWindow.cs**.  
+2. When the project opens, add a tool window item template named **FirstWindow**. In the **Solution Explorer**, right-click the project node and select **Add / New Item**. In the **Add New Item** dialog, go to **Visual C# / Extensibility** and select **Custom Tool Window**. In the **Name** field at the bottom of the window, change the tool window file name to **FirstWindow.cs**.  
   
-3.  Build the project and start debugging.  
+3. Build the project and start debugging.  
   
      The experimental instance of Visual Studio appears. For more information about the experimental instance, see [The Experimental Instance](../extensibility/the-experimental-instance.md).  
   
-4.  In the experimental instance, go to **View / Other Windows**.  
+4. In the experimental instance, go to **View / Other Windows**.  
   
      You should see a menu item for **FirstWindow**. Click it.  
   

@@ -34,6 +34,6 @@
    * If you are unable to connect to the remote host in Visual Studio using the host name (in later steps), test the IP address in place of the host name.
 
      > [!NOTE]
-     > If you are publishing to IIS running on an Azure VM, you must open the Web Deploy and IIS ports in the Network Security group. For detailed information, see [Install and run IIS](/azure/virtual-machines/windows/quick-create-portal#open-port-80-for-web-traffic).
+     > If you are publishing to IIS running on an Azure VM, you must open the Web Deploy and IIS ports in the Network Security group. For detailed information, see [Install and run IIS](/azure/virtual-machines/windows/quick-create-portal#install-web-server).
 
 5. Copy this file to the computer where you are running Visual Studio.

@@ -78,7 +78,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI NameProfile(
  If you specify a process or thread other than the current one, you must make sure that it has initialized and started running before you name it. Otherwise, the NameProfile method fails.  
   
 > [!IMPORTANT]
->  CreateProcess() and CreateThread() API functions can return before the thread or process is initialized.  
+> CreateProcess() and CreateThread() API functions can return before the thread or process is initialized.  
   
 ## .NET Framework Equivalent  
  Microsoft.VisualStudio.Profiler.dll  

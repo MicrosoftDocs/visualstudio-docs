@@ -16,35 +16,35 @@ manager: jillfra
 
 ### 1. Be consistent within the Visual Studio environment.
 
--   Follow existing interaction patterns within the shell.
+- Follow existing interaction patterns within the shell.
 
--   Design features to be consistent with the shell’s visual language and craftsmanship requirements.
+- Design features to be consistent with the shell’s visual language and craftsmanship requirements.
 
--   Use shared commands and controls when they exist.
+- Use shared commands and controls when they exist.
 
--   Understand the Visual Studio hierarchy and how it establishes context and drives the UI.
+- Understand the Visual Studio hierarchy and how it establishes context and drives the UI.
 
 ### 2. Use the environment service for fonts and colors.
 
--   UI should respect the current environment font setting unless it is exposed for customization in the Fonts and Colors page in the Options dialog.
+- UI should respect the current environment font setting unless it is exposed for customization in the Fonts and Colors page in the Options dialog.
 
--   UI elements must use the VSColor Service, using shared environment tokens or feature-specific tokens.
+- UI elements must use the VSColor Service, using shared environment tokens or feature-specific tokens.
 
 ### 3. Make all imagery consistent with the new VS style.
 
--   Follow Visual Studio design principles for icons, glyphs, and other graphics.
+- Follow Visual Studio design principles for icons, glyphs, and other graphics.
 
--   Do not place text in graphic elements.
+- Do not place text in graphic elements.
 
 ### 4. Design from a user-centric perspective.
 
--   Create the task flow before the individual features within it.
+- Create the task flow before the individual features within it.
 
--   Be familiar with your users and make that knowledge explicit in your spec.
+- Be familiar with your users and make that knowledge explicit in your spec.
 
--   When reviewing the UI, evaluate the complete experience as well as the details.
+- When reviewing the UI, evaluate the complete experience as well as the details.
 
--   Design your UI so that it remains functional and attractive regardless of locale or language.
+- Design your UI so that it remains functional and attractive regardless of locale or language.
 
 ## Screen resolution
 
@@ -63,9 +63,9 @@ manager: jillfra
 
 #### Feature team goals
 
--   Warn users that they have added an element that must be configured.
+- Warn users that they have added an element that must be configured.
 
--   Draw the user’s attention to the areas that need input.
+- Draw the user’s attention to the areas that need input.
 
 #### Anti-pattern solution
  As soon as the user has initiated an action and before they have completed the task, immediately place critical-stop icons next to the areas that need configuration.
@@ -82,11 +82,11 @@ manager: jillfra
 #### Alternatives
  A much better solution to this problem would be to:
 
--   Allow the user to add a declaration without warning and then move immediately to set properties on the item.
+- Allow the user to add a declaration without warning and then move immediately to set properties on the item.
 
--   Add the warning icon (gold triangle) when focus moves from the item, such as to add another declaration to the list or to attempt to change tabs within the designer.
+- Add the warning icon (gold triangle) when focus moves from the item, such as to add another declaration to the list or to attempt to change tabs within the designer.
 
--   If the user attempts to change tabs before setting properties on any declarations, pop a dialog explaining that the application will not build (or whatever the implications) until the warnings are resolved. If the user dismisses the dialog and changes tabs anyway then an icon (critical or warning, as appropriate) is added to the Declarations tab.
+- If the user attempts to change tabs before setting properties on any declarations, pop a dialog explaining that the application will not build (or whatever the implications) until the warnings are resolved. If the user dismisses the dialog and changes tabs anyway then an icon (critical or warning, as appropriate) is added to the Declarations tab.
 
 ### Forcing the user to read text before dismissing UI
 
@@ -167,9 +167,9 @@ manager: jillfra
 
    **Better solution:** Pose the question the user would be asking by clicking the link.
 
--   How do Windows Azure services work?
+- How do Windows Azure services work?
 
--   When do I need a Windows Azure Mobile Services project?
+- When do I need a Windows Azure Mobile Services project?
 
 #### Using “Click here” for links
  Hyperlinks should be self-descriptive. It is an anti-pattern to use "Click here" or any similar variation.

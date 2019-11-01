@@ -16,9 +16,9 @@ Spy++ takes a "snapshot" of the system tables and refreshes a view based on this
 
 ### To refresh the currently active view
 
--   Choose **Refresh** from the **Window** menu, or click the **Refresh** button in the toolbar.
+- Choose **Refresh** from the **Window** menu, or click the **Refresh** button in the toolbar.
 
-## See Also
+## See also
 - [Using Spy++](../debugger/using-spy-increment.md)
 - [SSpy++ Views](../debugger/spy-increment-views.md)
 - [Spy++ Reference](../debugger/spy-increment-reference.md)

@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "VSCT files, designing"
 ms.assetid: bb87a322-bac4-4258-92bc-9a876f05d653
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -92,19 +92,19 @@ You can use the *vsct.exe* compiler to convert an existing *.cto* file into a *.
 ## .vsct file design guidelines
  To successfully design a *.vsct* file, follow these guidelines.
 
--   Commands can be placed only in groups, groups can be placed only in menus, and menus can be placed only in groups. Only menus are actually displayed in the IDE, groups and commands are not.
+- Commands can be placed only in groups, groups can be placed only in menus, and menus can be placed only in groups. Only menus are actually displayed in the IDE, groups and commands are not.
 
--   Submenus cannot be directly assigned to a menu, but must be assigned to a group, which is in turn assigned to a menu.
+- Submenus cannot be directly assigned to a menu, but must be assigned to a group, which is in turn assigned to a menu.
 
--   Commands, submenus, and groups can be assigned to one parenting group or menu using the parent field of their defining directive.
+- Commands, submenus, and groups can be assigned to one parenting group or menu using the parent field of their defining directive.
 
--   Organizing a command table solely through the parent fields in the directives has a significant limitation. The directives that define objects can take only one parent argument.
+- Organizing a command table solely through the parent fields in the directives has a significant limitation. The directives that define objects can take only one parent argument.
 
--   Reusing commands, groups, or submenus requires the use of a new directive to create a new instance of the object with its own `GUID:ID` pair.
+- Reusing commands, groups, or submenus requires the use of a new directive to create a new instance of the object with its own `GUID:ID` pair.
 
--   Each `GUID:ID` pair must be unique. Reusing a command that has, for example, been placed on a menu, a toolbar, or on a context menu, is handled by the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface.
+- Each `GUID:ID` pair must be unique. Reusing a command that has, for example, been placed on a menu, a toolbar, or on a context menu, is handled by the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface.
 
--   Commands and submenus can also be assigned to multiple groups, and groups can be assigned to multiple menus using the [Commands element](../../extensibility/commands-element.md).
+- Commands and submenus can also be assigned to multiple groups, and groups can be assigned to multiple menus using the [Commands element](../../extensibility/commands-element.md).
 
 ## .vsct file notes
  If you make any changes to a *.vsct* file after you both compile it and place it in a native satellite DLL, you should run **devenv.exe /setup /nosetupvstemplates**. Doing so forces the VSPackage resources specified in the experimental registry to be reread and the internal database that describes [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to be rebuilt.

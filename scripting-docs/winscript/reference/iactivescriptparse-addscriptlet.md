@@ -2,7 +2,6 @@
 title: "IActiveScriptParse::AddScriptlet | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -93,5 +92,5 @@ HRESULT AddScriptlet(
 |`OLESCRIPT_E_INVALIDNAME`|The default name supplied is invalid in this scripting language.|  
 |`OLESCRIPT_E_SYNTAX`|An unspecified syntax error occurred in the scriptlet.|  
   
-## See Also  
+## See also  
  [IActiveScriptParse](../../winscript/reference/iactivescriptparse.md)

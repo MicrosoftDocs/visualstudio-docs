@@ -27,8 +27,8 @@ You can open most debugger windows while you are debugging your program. To see 
 |Parallel Watch|CTR:+SHIFT+D, (1, 2, 3, 4)|[Using the Parallel Stacks Window](../debugger/using-the-parallel-stacks-window.md)|  
 |Watch|CTRL+ALT+W, (1, 2, 3, 4)|[Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)|  
 |QuickWatch|SHIFT+F9|[Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)|  
-|Auto|CTRL+ALT+V, A|[Variable Windows](http://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)|  
-|Locals|CTRL+ALT+V, L|[Variable Windows](http://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)|  
+|Auto|CTRL+ALT+V, A|[Variable Windows](https://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)|  
+|Locals|CTRL+ALT+V, L|[Variable Windows](https://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)|  
 |Immediate|CTRL+ALT+I|[Immediate Window](../ide/reference/immediate-window.md)|  
 |Python Debug Interactive|SHIFT+ALT+I|[Getting Started with PTVS: Interactive Python](../python/getting-started-with-ptvs-interactive-python.md)|  
 |JavaScript Console|CTRL+ALT+V, C|[QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md)|  

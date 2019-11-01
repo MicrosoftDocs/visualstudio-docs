@@ -67,4 +67,4 @@ Required. Provides the root element for a VSIX language pack. The VSIX language 
 ## See Also  
  [VSX Language Pack Schema Reference](../extensibility/vsx-language-pack-schema-reference.md)   
  [Localizing VSIX Packages](../extensibility/localizing-vsix-packages.md)   
- [VSIX Extension Schema 1.0 Reference](http://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)
+ [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)

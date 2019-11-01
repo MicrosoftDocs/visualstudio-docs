@@ -20,7 +20,7 @@ manager: jillfra
 Specifies a file that is included in the project template.  
   
 > [!NOTE]
->  The `ProjectItem` element accepts different attributes depending on whether the template is for a project or an item. This topic explains the `ProjectItem` element for project templates. For an explanation of the `ProjectItem` element for item templates, see [ProjectItem Element (Visual Studio Item Templates)](../extensibility/projectitem-element-visual-studio-item-templates.md).  
+> The `ProjectItem` element accepts different attributes depending on whether the template is for a project or an item. This topic explains the `ProjectItem` element for project templates. For an explanation of the `ProjectItem` element for item templates, see [ProjectItem Element (Visual Studio Item Templates)](../extensibility/projectitem-element-visual-studio-item-templates.md).  
   
  \<VSTemplate>  
  \<TemplateContent>  
@@ -84,21 +84,21 @@ Specifies a file that is included in the project template.
   
 ### To rename files with parameters  
   
-1.  Use the following XML in the .vstemplate file:  
+1. Use the following XML in the .vstemplate file:  
   
     ```  
     <ProjectItem TargetFileName="$safeprojectname$.vb">MyFile.vb</ProjectItem>  
     ```  
   
-2.  Open the project file (.vbproj for a [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] project) in a text editor or [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+2. Open the project file (.vbproj for a [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] project) in a text editor or [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
-3.  Locate the line in the project file that looks similar to the following XML:  
+3. Locate the line in the project file that looks similar to the following XML:  
   
     ```  
     <Compile Include="MyFile.vb">  
     ```  
   
-4.  Replace the line of code with the following XML:  
+4. Replace the line of code with the following XML:  
   
     ```  
     <Compile Include="$safeprojectname$.vb">  

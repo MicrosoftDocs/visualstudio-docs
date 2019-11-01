@@ -6,8 +6,8 @@ f1_keywords:
   - "System.ServiceModel.Activities.ReceiveAndSendReply.UI"
   - "System.ServiceModel.Activities.SendReply.UI"
 ms.assetid: d1d9a058-df7e-48f5-a2e7-3caeeba7eaa6
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -35,7 +35,6 @@ For more information about using the **Receive** designer to configure the <xref
 ### Properties of SendReply
 
 The following table shows the <xref:System.ServiceModel.Activities.SendReply> properties and describes how they are used in the designer. These properties can be edited in the properties grid, and some can be edited on the Workflow Designer surface.
-
 
 | Property Name | Required | Usage |
 |-|----------|-|

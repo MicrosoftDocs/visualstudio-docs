@@ -1,21 +1,29 @@
 - name: Debug Interface Access SDK
-  href: debug-interface-access-sdk.md
+# Auto-expanded node
   items:
+  - name: Debug Interface Access SDK
+    href: debug-interface-access-sdk.md
   - name: Getting Started (Debug Interface Access SDK)
-    href: getting-started-debug-interface-access-sdk.md
+# Auto-expanded node
     items:
+    - name: Getting Started (Debug Interface Access SDK)
+      href: getting-started-debug-interface-access-sdk.md
     - name: Overview (Debug Interface Access SDK)
       href: overview-debug-interface-access-sdk.md
     - name: Querying the .Pdb File
       href: querying-the-dot-pdb-file.md
   - name: Symbols and Symbol Tags
-    href: symbols-and-symbol-tags.md
+# Auto-expanded node
     items:
+    - name: Symbols and Symbol Tags
+      href: symbols-and-symbol-tags.md
     - name: Symbol Locations
       href: symbol-locations.md
     - name: Lexical Hierarchy of Symbol Types
-      href: lexical-hierarchy-of-symbol-types.md
+# Auto-expanded node
       items:
+      - name: Lexical Hierarchy of Symbol Types
+        href: lexical-hierarchy-of-symbol-types.md
       - name: Annotation
         href: annotation.md
       - name: Block
@@ -47,8 +55,10 @@
       - name: UsingNameSpace
         href: usingnamespace.md
     - name: Class Hierarchy of Symbol Types
-      href: class-hierarchy-of-symbol-types.md
+# Auto-expanded node
       items:
+      - name: Class Hierarchy of Symbol Types
+        href: class-hierarchy-of-symbol-types.md
       - name: ArrayType
         href: arraytype.md
       - name: BaseClass
@@ -80,14 +90,20 @@
       - name: VTableShape
         href: vtableshape.md
   - name: Debug Interface Access SDK Reference
-    href: debug-interface-access-sdk-reference.md
+# Auto-expanded node
     items:
+    - name: Debug Interface Access SDK Reference
+      href: debug-interface-access-sdk-reference.md
     - name: Interfaces (Debug Interface Access SDK)
-      href: interfaces-debug-interface-access-sdk.md
+# Auto-expanded node
       items:
+      - name: Interfaces (Debug Interface Access SDK)
+        href: interfaces-debug-interface-access-sdk.md
       - name: IDiaAddressMap
-        href: idiaaddressmap.md
+# Auto-expanded node
         items:
+        - name: IDiaAddressMap
+          href: idiaaddressmap.md
         - name: IDiaAddressMap::get_addressMapEnabled
           href: idiaaddressmap-get-addressmapenabled.md
         - name: IDiaAddressMap::get_imageAlign
@@ -105,8 +121,10 @@
         - name: IDiaAddressMap::set_imageHeaders
           href: idiaaddressmap-set-imageheaders.md
       - name: IDiaDataSource
-        href: idiadatasource.md
+# Auto-expanded node
         items:
+        - name: IDiaDataSource
+          href: idiadatasource.md
         - name: IDiaDataSource::get_lastError
           href: idiadatasource-get-lasterror.md
         - name: IDiaDataSource::loadAndValidateDataFromPdb
@@ -120,8 +138,10 @@
         - name: IDiaDataSource::openSession
           href: idiadatasource-opensession.md
       - name: IDiaEnumDebugStreamData
-        href: idiaenumdebugstreamdata.md
+# Auto-expanded node
         items:
+        - name: IDiaEnumDebugStreamData
+          href: idiaenumdebugstreamdata.md
         - name: IDiaEnumDebugStreamData::Clone
           href: idiaenumdebugstreamdata-clone.md
         - name: IDiaEnumDebugStreamData::get_name
@@ -139,8 +159,10 @@
         - name: IDiaEnumDebugStreamData::Skip
           href: idiaenumdebugstreamdata-skip.md
       - name: IDiaEnumDebugStreams
-        href: idiaenumdebugstreams.md
+# Auto-expanded node
         items:
+        - name: IDiaEnumDebugStreams
+          href: idiaenumdebugstreams.md
         - name: IDiaEnumDebugStreams::Clone
           href: idiaenumdebugstreams-clone.md
         - name: IDiaEnumDebugStreams::get__NewEnum
@@ -156,8 +178,10 @@
         - name: IDiaEnumDebugStreams::Skip
           href: idiaenumdebugstreams-skip.md
       - name: IDiaEnumFrameData
-        href: idiaenumframedata.md
+# Auto-expanded node
         items:
+        - name: IDiaEnumFrameData
+          href: idiaenumframedata.md
         - name: IDiaEnumFrameData::Clone
           href: idiaenumframedata-clone.md
         - name: IDiaEnumFrameData::frameByRVA
@@ -177,8 +201,10 @@
         - name: IDiaEnumFrameData::Skip
           href: idiaenumframedata-skip.md
       - name: IDiaEnumInjectedSources
-        href: idiaenuminjectedsources.md
+# Auto-expanded node
         items:
+        - name: IDiaEnumInjectedSources
+          href: idiaenuminjectedsources.md
         - name: IDiaEnumInjectedSources::Clone
           href: idiaenuminjectedsources-clone.md
         - name: IDiaEnumInjectedSources::get__NewEnum
@@ -194,8 +220,10 @@
         - name: IDiaEnumInjectedSources::Skip
           href: idiaenuminjectedsources-skip.md
       - name: IDiaEnumLineNumbers
-        href: idiaenumlinenumbers.md
+# Auto-expanded node
         items:
+        - name: IDiaEnumLineNumbers
+          href: idiaenumlinenumbers.md
         - name: IDiaEnumLineNumbers::Clone
           href: idiaenumlinenumbers-clone.md
         - name: IDiaEnumLineNumbers::get__NewEnum
@@ -211,8 +239,10 @@
         - name: IDiaEnumLineNumbers::Skip
           href: idiaenumlinenumbers-skip.md
       - name: IDiaEnumSectionContribs
-        href: idiaenumsectioncontribs.md
+# Auto-expanded node
         items:
+        - name: IDiaEnumSectionContribs
+          href: idiaenumsectioncontribs.md
         - name: IDiaEnumSectionContribs::Clone
           href: idiaenumsectioncontribs-clone.md
         - name: IDiaEnumSectionContribs::get__NewEnum
@@ -228,8 +258,10 @@
         - name: IDiaEnumSectionContribs::Skip
           href: idiaenumsectioncontribs-skip.md
       - name: IDiaEnumSegments
-        href: idiaenumsegments.md
+# Auto-expanded node
         items:
+        - name: IDiaEnumSegments
+          href: idiaenumsegments.md
         - name: IDiaEnumSegments::Clone
           href: idiaenumsegments-clone.md
         - name: IDiaEnumSegments::get__NewEnum
@@ -245,8 +277,10 @@
         - name: IDiaEnumSegments::Skip
           href: idiaenumsegments-skip.md
       - name: IDiaEnumSourceFiles
-        href: idiaenumsourcefiles.md
+# Auto-expanded node
         items:
+        - name: IDiaEnumSourceFiles
+          href: idiaenumsourcefiles.md
         - name: IDiaEnumSourceFiles::Clone
           href: idiaenumsourcefiles-clone.md
         - name: IDiaEnumSourceFiles::get__NewEnum
@@ -262,15 +296,19 @@
         - name: IDiaEnumSourceFiles::Skip
           href: idiaenumsourcefiles-skip.md
       - name: IDiaEnumStackFrames
-        href: idiaenumstackframes.md
+# Auto-expanded node
         items:
+        - name: IDiaEnumStackFrames
+          href: idiaenumstackframes.md
         - name: IDiaEnumStackFrames::Next
           href: idiaenumstackframes-next.md
         - name: IDiaEnumStackFrames::Reset
           href: idiaenumstackframes-reset.md
       - name: IDiaEnumSymbols
-        href: idiaenumsymbols.md
+# Auto-expanded node
         items:
+        - name: IDiaEnumSymbols
+          href: idiaenumsymbols.md
         - name: IDiaEnumSymbols::Clone
           href: idiaenumsymbols-clone.md
         - name: IDiaEnumSymbols::get__NewEnum
@@ -286,8 +324,10 @@
         - name: IDiaEnumSymbols::Skip
           href: idiaenumsymbols-skip.md
       - name: IDiaEnumSymbolsByAddr
-        href: idiaenumsymbolsbyaddr.md
+# Auto-expanded node
         items:
+        - name: IDiaEnumSymbolsByAddr
+          href: idiaenumsymbolsbyaddr.md
         - name: IDiaEnumSymbolsByAddr::Clone
           href: idiaenumsymbolsbyaddr-clone.md
         - name: IDiaEnumSymbolsByAddr::Next
@@ -301,8 +341,10 @@
         - name: IDiaEnumSymbolsByAddr::symbolByVA
           href: idiaenumsymbolsbyaddr-symbolbyva.md
       - name: IDiaEnumTables
-        href: idiaenumtables.md
+# Auto-expanded node
         items:
+        - name: IDiaEnumTables
+          href: idiaenumtables.md
         - name: IDiaEnumTables::Clone
           href: idiaenumtables-clone.md
         - name: IDiaEnumTables::get__NewEnum
@@ -318,8 +360,10 @@
         - name: IDiaEnumTables::Skip
           href: idiaenumtables-skip.md
       - name: IDiaFrameData
-        href: idiaframedata.md
+# Auto-expanded node
         items:
+        - name: IDiaFrameData
+          href: idiaframedata.md
         - name: IDiaFrameData::execute
           href: idiaframedata-execute.md
         - name: IDiaFrameData::get_addressOffset
@@ -357,8 +401,10 @@
         - name: IDiaFrameData::get_virtualAddress
           href: idiaframedata-get-virtualaddress.md
       - name: IDiaImageData
-        href: idiaimagedata.md
+# Auto-expanded node
         items:
+        - name: IDiaImageData
+          href: idiaimagedata.md
         - name: IDiaImageData::get_imageBase
           href: idiaimagedata-get-imagebase.md
         - name: IDiaImageData::get_relativeVirtualAddress
@@ -366,8 +412,10 @@
         - name: IDiaImageData::get_virtualAddress
           href: idiaimagedata-get-virtualaddress.md
       - name: IDiaInjectedSource
-        href: idiainjectedsource.md
+# Auto-expanded node
         items:
+        - name: IDiaInjectedSource
+          href: idiainjectedsource.md
         - name: IDiaInjectedSource::get_crc
           href: idiainjectedsource-get-crc.md
         - name: IDiaInjectedSource::get_filename
@@ -383,8 +431,10 @@
         - name: IDiaInjectedSource::get_virtualFilename
           href: idiainjectedsource-get-virtualfilename.md
       - name: IDiaLineNumber
-        href: idialinenumber.md
+# Auto-expanded node
         items:
+        - name: IDiaLineNumber
+          href: idialinenumber.md
         - name: IDiaLineNumber::get_addressOffset
           href: idialinenumber-get-addressoffset.md
         - name: IDiaLineNumber::get_addressSection
@@ -414,8 +464,10 @@
         - name: IDiaLineNumber::get_virtualAddress
           href: idialinenumber-get-virtualaddress.md
       - name: IDiaLoadCallback
-        href: idialoadcallback.md
+# Auto-expanded node
         items:
+        - name: IDiaLoadCallback
+          href: idialoadcallback.md
         - name: IDiaLoadCallback::NotifyDebugDir
           href: idialoadcallback-notifydebugdir.md
         - name: IDiaLoadCallback::NotifyOpenDBG
@@ -427,8 +479,10 @@
         - name: IDiaLoadCallback::RestrictSymbolServerAccess
           href: idialoadcallback-restrictsymbolserveraccess.md
       - name: IDiaLoadCallback2
-        href: idialoadcallback2.md
+# Auto-expanded node
         items:
+        - name: IDiaLoadCallback2
+          href: idialoadcallback2.md
         - name: IDiaLoadCallback2::RestrictDBGAccess
           href: idialoadcallback2-restrictdbgaccess.md
         - name: IDiaLoadCallback2::RestrictOriginalPathAccess
@@ -438,8 +492,10 @@
         - name: IDiaLoadCallback2::RestrictSystemRootAccess
           href: idialoadcallback2-restrictsystemrootaccess.md
       - name: IDiaPropertyStorage
-        href: idiapropertystorage.md
+# Auto-expanded node
         items:
+        - name: IDiaPropertyStorage
+          href: idiapropertystorage.md
         - name: IDiaPropertyStorage::ReadBOOL
           href: idiapropertystorage-readbool.md
         - name: IDiaPropertyStorage::ReadBSTR
@@ -457,18 +513,24 @@
         - name: IDiaPropertyStorage::ReadULONGLONG
           href: idiapropertystorage-readulonglong.md
       - name: IDiaReadExeAtOffsetCallback
-        href: idiareadexeatoffsetcallback.md
+# Auto-expanded node
         items:
+        - name: IDiaReadExeAtOffsetCallback
+          href: idiareadexeatoffsetcallback.md
         - name: IDiaReadExeAtOffsetCallback::ReadExecutableAt
           href: idiareadexeatoffsetcallback-readexecutableat.md
       - name: IDiaReadExeAtRVACallback
-        href: idiareadexeatrvacallback.md
+# Auto-expanded node
         items:
+        - name: IDiaReadExeAtRVACallback
+          href: idiareadexeatrvacallback.md
         - name: IDiaReadExeAtRVACallback::ReadExecutableAtRVA
           href: idiareadexeatrvacallback-readexecutableatrva.md
       - name: IDiaSectionContrib
-        href: idiasectioncontrib.md
+# Auto-expanded node
         items:
+        - name: IDiaSectionContrib
+          href: idiasectioncontrib.md
         - name: IDiaSectionContrib::get_addressOffset
           href: idiasectioncontrib-get-addressoffset.md
         - name: IDiaSectionContrib::get_addressSection
@@ -518,8 +580,10 @@
         - name: IDiaSectionContrib::get_write
           href: idiasectioncontrib-get-write.md
       - name: IDiaSegment
-        href: idiasegment.md
+# Auto-expanded node
         items:
+        - name: IDiaSegment
+          href: idiasegment.md
         - name: IDiaSegment::get_addressSection
           href: idiasegment-get-addresssection.md
         - name: IDiaSegment::get_execute
@@ -539,8 +603,10 @@
         - name: IDiaSegment::get_write
           href: idiasegment-get-write.md
       - name: IDiaSession
-        href: idiasession.md
+# Auto-expanded node
         items:
+        - name: IDiaSession
+          href: idiasession.md
         - name: IDiaSession::findAcceleratorInlineesByLinenum
           href: idiasession-findacceleratorinlineesbylinenum.md
         - name: IDiaSession::findAcceleratorInlineesByName
@@ -614,8 +680,10 @@
         - name: IDiaSession::symsAreEquiv
           href: idiasession-symsareequiv.md
       - name: IDiaSourceFile
-        href: idiasourcefile.md
+# Auto-expanded node
         items:
+        - name: IDiaSourceFile
+          href: idiasourcefile.md
         - name: IDiaSourceFile::get_checksum
           href: idiasourcefile-get-checksum.md
         - name: IDiaSourceFile::get_checksumType
@@ -627,8 +695,10 @@
         - name: IDiaSourceFile::get_uniqueId
           href: idiasourcefile-get-uniqueid.md
       - name: IDiaStackFrame
-        href: idiastackframe.md
+# Auto-expanded node
         items:
+        - name: IDiaStackFrame
+          href: idiastackframe.md
         - name: IDiaStackFrame::get_allocatesBasePointer
           href: idiastackframe-get-allocatesbasepointer.md
         - name: IDiaStackFrame::get_base
@@ -662,15 +732,19 @@
         - name: IDiaStackFrame::get_type
           href: idiastackframe-get-type.md
       - name: IDiaStackWalker
-        href: idiastackwalker.md
+# Auto-expanded node
         items:
+        - name: IDiaStackWalker
+          href: idiastackwalker.md
         - name: IDiaStackWalker::getEnumFrames
           href: idiastackwalker-getenumframes.md
         - name: IDiaStackWalker::getEnumFrames2
           href: idiastackwalker-getenumframes2.md
       - name: IDiaStackWalkFrame
-        href: idiastackwalkframe.md
+# Auto-expanded node
         items:
+        - name: IDiaStackWalkFrame
+          href: idiastackwalkframe.md
         - name: IDiaStackWalkFrame::get_registerValue
           href: idiastackwalkframe-get-registervalue.md
         - name: IDiaStackWalkFrame::put_registerValue
@@ -682,8 +756,10 @@
         - name: IDiaStackWalkFrame::searchForReturnAddressStart
           href: idiastackwalkframe-searchforreturnaddressstart.md
       - name: IDiaStackWalkHelper
-        href: idiastackwalkhelper.md
+# Auto-expanded node
         items:
+        - name: IDiaStackWalkHelper
+          href: idiastackwalkhelper.md
         - name: IDiaStackWalkHelper::frameForVA
           href: idiastackwalkhelper-frameforva.md
         - name: IDiaStackWalkHelper::imageForVA
@@ -703,8 +779,10 @@
         - name: IDiaStackWalkHelper::symbolForVA
           href: idiastackwalkhelper-symbolforva.md
       - name: IDiaSymbol
-        href: idiasymbol.md
+# Auto-expanded node
         items:
+        - name: IDiaSymbol
+          href: idiasymbol.md
         - name: IDiaSymbol::findChildren
           href: idiasymbol-findchildren.md
         - name: IDiaSymbol::findChildrenEx
@@ -1094,8 +1172,10 @@
         - name: IDiaSymbol::get_volatileType
           href: idiasymbol-get-volatiletype.md
       - name: IDiaTable
-        href: idiatable.md
+# Auto-expanded node
         items:
+        - name: IDiaTable
+          href: idiatable.md
         - name: IDiaTable::get__NewEnum
           href: idiatable-get-newenum.md
         - name: IDiaTable::get_Count
@@ -1105,8 +1185,10 @@
         - name: IDiaTable::Item
           href: idiatable-item.md
     - name: Enumerations and Structures
-      href: enumerations-and-structures.md
+# Auto-expanded node
       items:
+      - name: Enumerations and Structures
+        href: enumerations-and-structures.md
       - name: BasicType
         href: basictype.md
       - name: CV_access_e

@@ -23,7 +23,6 @@ manager: jillfra
 # ItemDefinitionGroup Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The `ItemDefinitionGroup` element lets you define a set of Item Definitions, which are metadata values that are applied to all items in the project, by default. ItemDefinitionGroup supersedes the need to use the [CreateItem Task](../msbuild/createitem-task.md) and the [CreateProperty Task](../msbuild/createproperty-task.md). For more information, see [Item Definitions](../msbuild/item-definitions.md).  
   
  \<Project>  

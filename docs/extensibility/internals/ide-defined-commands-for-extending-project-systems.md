@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "commands, project systems"
   - "project systems, environment-defined commands"
 ms.assetid: 0e33b8e9-16fa-4400-a941-e92d56120e7e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -63,7 +63,7 @@ When you want to extend project systems, you can use commands and command groups
 |IDG_VS_CTXT_PROJECT_TRANSFER|Commands for cut, copy and paste operations.|
 |IDG_VS_CTXT_PROJECT_PROPERTIES|Commands that provide access to the **Project Properties** dialog box.|
 
-## See Also
+## See also
+
 - [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
-- [MenuCommands Vs. OleMenuCommands](../../extensibility/menucommands-vs-olemenucommands.md)
 - [Creating Reusable Groups of Buttons](../../extensibility/creating-reusable-groups-of-buttons.md)

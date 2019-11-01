@@ -24,13 +24,13 @@ ms.workload:
 
 ### To cache data in a Word document that is protected with a password
 
-1.  In the `ThisDocument` class, mark a public field or property to be cached. For more information, see [Cache data](../vsto/caching-data.md).
+1. In the `ThisDocument` class, mark a public field or property to be cached. For more information, see [Cache data](../vsto/caching-data.md).
 
-2.  Override the <xref:Microsoft.Office.Tools.Word.DocumentBase.UnprotectDocument%2A> method in the `ThisDocument` class and remove protection from the document.
+2. Override the <xref:Microsoft.Office.Tools.Word.DocumentBase.UnprotectDocument%2A> method in the `ThisDocument` class and remove protection from the document.
 
      When the document is saved, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] calls this method to give you an opportunity to unprotect the document. This enables changes to the cached data to be saved.
 
-3.  Override the <xref:Microsoft.Office.Tools.Word.DocumentBase.ProtectDocument%2A> method in the `ThisDocument` class and reapply protection to the document.
+3. Override the <xref:Microsoft.Office.Tools.Word.DocumentBase.ProtectDocument%2A> method in the `ThisDocument` class and reapply protection to the document.
 
      After the document is saved, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] calls this method to give you an opportunity to reapply protection to the document.
 
@@ -48,13 +48,13 @@ ms.workload:
 
 ### To cache data in an Excel workbook that is protected with a password
 
-1.  In the `ThisWorkbook` class or one of the `Sheet`*n* classes, mark a public field or property to be cached. For more information, see [Cache data](../vsto/caching-data.md).
+1. In the `ThisWorkbook` class or one of the `Sheet`*n* classes, mark a public field or property to be cached. For more information, see [Cache data](../vsto/caching-data.md).
 
-2.  Override the <xref:Microsoft.Office.Tools.Excel.WorkbookBase.UnprotectDocument%2A> method in the `ThisWorkbook` class and remove protection from the workbook.
+2. Override the <xref:Microsoft.Office.Tools.Excel.WorkbookBase.UnprotectDocument%2A> method in the `ThisWorkbook` class and remove protection from the workbook.
 
      When the workbook is saved, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] calls this method to give you an opportunity to unprotect the workbook. This enables changes to the cached data to be saved.
 
-3.  Override the <xref:Microsoft.Office.Tools.Excel.WorkbookBase.ProtectDocument%2A> method in the `ThisWorkbook` class and reapply protection to the document.
+3. Override the <xref:Microsoft.Office.Tools.Excel.WorkbookBase.ProtectDocument%2A> method in the `ThisWorkbook` class and reapply protection to the document.
 
      After the workbook is saved, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] calls this method to give you an opportunity to reapply protection to the workbook.
 

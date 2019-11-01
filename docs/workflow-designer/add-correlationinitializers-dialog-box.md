@@ -5,8 +5,8 @@ ms.topic: reference
 f1_keywords:
   - "AddCorrelationInitializers.UI"
 ms.assetid: c0517467-d54a-4ee6-aef0-c19b96b6f395
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -38,5 +38,4 @@ The following table describes the user interface (UI) elements of the **Add Corr
 
 ## See also
 
-- [Add Correlation Dialog Box](http://msdn.microsoft.com/en-us/9e41a149-e8ab-41b1-8886-ea06a63041b6)
 - [Initialize Correlation Dialog Box](../workflow-designer/initialize-correlation-dialog-box.md)

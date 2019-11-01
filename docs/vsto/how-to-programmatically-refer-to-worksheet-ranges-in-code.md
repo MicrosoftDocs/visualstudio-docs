@@ -26,7 +26,7 @@ ms.workload:
 
 ### To refer to a NamedRange control
 
-1.  Assign a string to the <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> property of the <xref:Microsoft.Office.Tools.Excel.NamedRange> control. This code must be placed in a sheet class, not in the `ThisWorkbook` class.
+1. Assign a string to the <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> property of the <xref:Microsoft.Office.Tools.Excel.NamedRange> control. This code must be placed in a sheet class, not in the `ThisWorkbook` class.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#46](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#46)]
      [!code-vb[Trin_VstcoreExcelAutomation#46](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#46)]
@@ -36,7 +36,7 @@ ms.workload:
 
 ### To refer to a native range object
 
-1.  Assign a string to the <xref:Microsoft.Office.Interop.Excel.Range.Value2%2A> property of the range.
+1. Assign a string to the <xref:Microsoft.Office.Interop.Excel.Range.Value2%2A> property of the range.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#47](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#47)]
      [!code-vb[Trin_VstcoreExcelAutomation#47](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#47)]

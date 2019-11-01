@@ -52,8 +52,7 @@ Identifies the attributes used for the deployment of updates and exposure to the
 ```
 
 ## Elements and attributes
- The `deployment` element is required and is in the `urn:schemas-microsoft-com:asm.v1` namespace. The element has the following attributes.
-
+ The `deployment` element is required and is in the `urn:schemas-microsoft-com:asm.v2` namespace. The element has the following attributes.
 
 | Attribute | Description |
 |--------------------------| - |
@@ -90,7 +89,6 @@ Identifies the attributes used for the deployment of updates and exposure to the
  For the .NET Framework 2.0, this element is required if the deployment manifest contains a `subscription` section. For the .NET Framework 3.5 and later, this element is optional, and will default to the server and file path in which the deployment manifest was discovered.
 
  This element is a child of the `deployment` element and has the following attribute.
-
 
 | Attribute | Description |
 |------------| - |

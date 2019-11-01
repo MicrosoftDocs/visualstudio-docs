@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEntryPointEvent2 interface"
 ms.assetid: a15d1cc3-97b7-438c-8d24-c23149708f42
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -40,6 +40,6 @@ IDebugEntryPointEvent2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)
 - [IDebugLoadCompleteEvent2](../../../extensibility/debugger/reference/idebugloadcompleteevent2.md)

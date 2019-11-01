@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically change formatting in worksheet rows containing selected cells"
+title: "Change formats in rows containing selected cells through code"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

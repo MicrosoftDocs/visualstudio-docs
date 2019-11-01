@@ -23,7 +23,6 @@ manager: jillfra
 # OnError Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Causes one or more targets to execute, if the `ContinueOnError` attribute is `false` for a failed task.  
   
  \<Project>  

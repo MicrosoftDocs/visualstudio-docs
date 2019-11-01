@@ -22,14 +22,14 @@ manager: jillfra
 
 There are three different strategies for deploying a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application; the strategy that you choose depends primarily on the type of application that you are deploying. The three deployment strategies are as follows:  
   
--   Install from the Web or a Network Share  
+- Install from the Web or a Network Share  
   
--   Install from a CD  
+- Install from a CD  
   
--   Start the application from the Web or a Network Share  
+- Start the application from the Web or a Network Share  
   
     > [!NOTE]
-    >  In addition to selecting a deployment strategy, you will also want to select a strategy for providing application updates. For more information, see [Choosing a ClickOnce Update Strategy](../deployment/choosing-a-clickonce-update-strategy.md).  
+    > In addition to selecting a deployment strategy, you will also want to select a strategy for providing application updates. For more information, see [Choosing a ClickOnce Update Strategy](../deployment/choosing-a-clickonce-update-strategy.md).  
   
 ## Install from the Web or a Network Share  
  When you use this strategy, your application is deployed to a Web server or a network file share. When an end user wants to install the application, he or she clicks an icon on a Web page or double-clicks an icon on the file share. The application is then downloaded, installed, and started on the end user's computer. Items are added to the **Start** menu and **Add or Remove Programs** in **Control Panel**.  
@@ -55,7 +55,7 @@ There are three different strategies for deploying a [!INCLUDE[ndptecclick](../i
  This strategy is like the first, except the application behaves like a Web application. When the user clicks a link on a Web page (or double-clicks an icon on the file share), the application is started. When users close the application, it is no longer available on their local computer; nothing is added to the **Start** menu or **Add or Remove Programs** in **Control Panel**.  
   
 > [!NOTE]
->  Technically, the application is downloaded and installed to an application cache on the local computer, just as a Web application is downloaded to the Web cache. As with the Web cache, the files are eventually scavenged from the application cache. However, the perception of the user is that the application is being run from the Web or file share.  
+> Technically, the application is downloaded and installed to an application cache on the local computer, just as a Web application is downloaded to the Web cache. As with the Web cache, the files are eventually scavenged from the application cache. However, the perception of the user is that the application is being run from the Web or file share.  
   
  This strategy works best for applications that are used infrequently—for example, an employee-benefits tool that is typically run only one time each year.  
   

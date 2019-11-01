@@ -1,5 +1,5 @@
 ---
-title: "How to: Deploy and Publish a SharePoint Solution to a Local SharePoint Site | Microsoft Docs"
+title: "Deploy & publish SharePoint solution to local SharePoint site"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -19,19 +19,19 @@ ms.workload:
 
 ## To deploy a SharePoint solution to the local SharePoint server
 
-1.  In **Solution Explorer**, choose the project that you want to deploy.
+1. In **Solution Explorer**, choose the project that you want to deploy.
 
-2.  On the menu bar, choose **Build**, **Deploy Solution**.
+2. On the menu bar, choose **Build**, **Deploy Solution**.
 
      The *.wsp* file is created and installed on the local SharePoint server. Also, the features are activated.
 
 ## To publish a SharePoint solution to a local SharePoint server
 
-1.  In **Solution Explorer**, open the shortcut menu for the SharePoint project that you want to publish and then choose **Publish**.
+1. In **Solution Explorer**, open the shortcut menu for the SharePoint project that you want to publish and then choose **Publish**.
 
-2.  In the **Publish** dialog box, choose the **Publish to File System** option button.
+2. In the **Publish** dialog box, choose the **Publish to File System** option button.
 
-3.  In the **Target Location** text box, enter a local path, and then choose the **Publish** button.
+3. In the **Target Location** text box, enter a local path, and then choose the **Publish** button.
 
      The publishing progress appears in the Visual Studio **Output** window. When the process is finished, the solution (*.wsp*) file is installed on the local SharePoint server. However, it must still be activated to be used in SharePoint. If the solution file already exists, an error occurs and asks whether you want to overwrite the existing file. For information on upgrading the package, see the section on upgrading remote packages in [How to: Deploy, publish, and upgrade SharePoint solutions on a remote server](../sharepoint/how-to-deploy-publish-and-upgrade-sharepoint-solutions-on-a-remote-server.md).
 

@@ -25,13 +25,13 @@ Enables block compression on textures that have a pixel format that's a variatio
   
 - The `D3D11_TEXTURE2D_DESC` object passed in `pDesc` describes an unchanging shader resource; that is:  
   
-  -   The BindFlags member has only the D3D11_BIND_SHADER_RESOURCE flag set.  
+  - The BindFlags member has only the D3D11_BIND_SHADER_RESOURCE flag set.  
   
-  -   The Usage member is set to either D3D11_USAGE_DEFAULT or D3D11_USAGE_IMMUTABLE.  
+  - The Usage member is set to either D3D11_USAGE_DEFAULT or D3D11_USAGE_IMMUTABLE.  
   
-  -   The CPUAccessFlags member is set to 0 (no CPU access).  
+  - The CPUAccessFlags member is set to 0 (no CPU access).  
   
-  -   The SamplerDesc member has its Count member set to 1 (no Multi-Sample Anti-Aliasing (MSAA)).  
+  - The SamplerDesc member has its Count member set to 1 (no Multi-Sample Anti-Aliasing (MSAA)).  
   
 - Initial data is provided to the call to `CreateTexture2D`.  
   

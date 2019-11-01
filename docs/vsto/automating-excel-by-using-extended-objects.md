@@ -31,11 +31,11 @@ ms.workload:
 ## Excel host items
  Excel projects give you access to several host items:
 
--   <xref:Microsoft.Office.Tools.Excel.Worksheet>. This host item contains and represents a worksheet in your project. It also acts as a container for managed controls, including host controls and Windows Forms controls, and it maintains information about the controls on its surface. For more information, see [Worksheet host item](../vsto/worksheet-host-item.md).
+- <xref:Microsoft.Office.Tools.Excel.Worksheet>. This host item contains and represents a worksheet in your project. It also acts as a container for managed controls, including host controls and Windows Forms controls, and it maintains information about the controls on its surface. For more information, see [Worksheet host item](../vsto/worksheet-host-item.md).
 
--   <xref:Microsoft.Office.Tools.Excel.Workbook>. This host item represents the workbook in your project, and acts as a container for components that are shared by all worksheets in the workbook. For more information, see [Workbook host item](../vsto/workbook-host-item.md).
+- <xref:Microsoft.Office.Tools.Excel.Workbook>. This host item represents the workbook in your project, and acts as a container for components that are shared by all worksheets in the workbook. For more information, see [Workbook host item](../vsto/workbook-host-item.md).
 
--   <xref:Microsoft.Office.Tools.Excel.ChartSheet>. This host item a worksheet in Excel that contains only a chart and exposes events.
+- <xref:Microsoft.Office.Tools.Excel.ChartSheet>. This host item a worksheet in Excel that contains only a chart and exposes events.
 
      When you add a chart sheet at design time as a new sheet in your Microsoft Office Excel document-level customization project, Visual Studio automatically creates a <xref:Microsoft.Office.Tools.Excel.ChartSheet> host item.
 
@@ -46,13 +46,13 @@ ms.workload:
 
  For more information about the host controls you can use in Excel projects, see the following topics:
 
--   [Chart control](../vsto/chart-control.md)
+- [Chart control](../vsto/chart-control.md)
 
--   [ListObject control](../vsto/listobject-control.md)
+- [ListObject control](../vsto/listobject-control.md)
 
--   [NamedRange control](../vsto/namedrange-control.md)
+- [NamedRange control](../vsto/namedrange-control.md)
 
--   [XmlMappedRange control](../vsto/xmlmappedrange-control.md)
+- [XmlMappedRange control](../vsto/xmlmappedrange-control.md)
 
 ## See also
 - [How to: Fill ListObject controls with data](../vsto/how-to-fill-listobject-controls-with-data.md)
@@ -65,8 +65,8 @@ ms.workload:
 - [How to: Validate data when a new row is added to a ListObject control](../vsto/how-to-validate-data-when-a-new-row-is-added-to-a-listobject-control.md)
 - [How to: Map ListObject columns to data](../vsto/how-to-map-listobject-columns-to-data.md)
 - [Walkthrough: Program against events of a NamedRange control](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md)
-- [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
+- [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
-- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
 - [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)

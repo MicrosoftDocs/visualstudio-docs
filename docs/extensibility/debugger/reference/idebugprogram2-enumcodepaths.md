@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgram2::EnumCodePaths"
 ms.assetid: fb100c3c-9c29-4d63-bd1f-a3e531cb395f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgram2::EnumCodePaths
 Retrieves a list of the code paths for a given position in a source file.
@@ -40,30 +43,24 @@ int EnumCodePaths( 
 );
 ```
 
-#### Parameters
- `pszHint`
+## Parameters
+`pszHint`\
+[in] The word under the cursor in the **Source** or **Disassembly** view in the IDE.
 
- [in] The word under the cursor in the **Source** or **Disassembly** view in the IDE.
+`pStart`\
+[in] An [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object representing the current code context.
 
- `pStart`
+`pFrame`\
+[in] An [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) object representing the stack frame associated with the current breakpoint.
 
- [in] An [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object representing the current code context.
+`fSource`\
+[in] Nonzero (`TRUE`) if in the **Source** view, or zero (`FALSE`) if in the **Disassembly** view.
 
- `pFrame`
+`ppEnum`\
+[out] Returns an [IEnumCodePaths2](../../../extensibility/debugger/reference/ienumcodepaths2.md) object containing a list of the code paths.
 
- [in] An [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) object representing the stack frame associated with the current breakpoint.
-
- `fSource`
-
- [in] Nonzero (`TRUE`) if in the **Source** view, or zero (`FALSE`) if in the **Disassembly** view.
-
- `ppEnum`
-
- [out] Returns an [IEnumCodePaths2](../../../extensibility/debugger/reference/ienumcodepaths2.md) object containing a list of the code paths.
-
- `ppSafety`
-
- [out] Returns an [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object representing an additional code context to be set as a breakpoint in case the chosen code path is skipped. This can happen in the case of a short-circuited Boolean expression, for example.
+`ppSafety`\
+[out] Returns an [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object representing an additional code context to be set as a breakpoint in case the chosen code path is skipped. This can happen in the case of a short-circuited Boolean expression, for example.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -71,7 +68,7 @@ int EnumCodePaths( 
 ## Remarks
  A code path describes the name of a method or function that was called to get to the current point in the execution of the program. A list of code paths represents the call stack.
 
-## See Also
+## See also
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
 - [IEnumCodePaths2](../../../extensibility/debugger/reference/ienumcodepaths2.md)
 - [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)

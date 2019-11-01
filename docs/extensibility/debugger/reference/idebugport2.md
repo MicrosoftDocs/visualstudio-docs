@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPort2 interface"
 ms.assetid: 8fd87f05-a950-4d14-b925-98be29d4facc
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -52,7 +52,7 @@ IDebugPort2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)
 - [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)

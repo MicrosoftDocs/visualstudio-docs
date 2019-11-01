@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "project subtypes, design"
 ms.assetid: 405488bb-1362-40ed-b0f1-04a57fc98c56
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -17,11 +17,11 @@ Project subtypes let VSPackages extend projects based on the Microsoft Build Eng
 
  The following topics detail the basic design and implementation of project subtypes:
 
--   Project Subtype Design.
+- Project Subtype Design.
 
--   Multi-level Aggregation.
+- Multi-level Aggregation.
 
--   Supporting Interfaces.
+- Supporting Interfaces.
 
 ## Project Subtype Design
 
@@ -67,11 +67,11 @@ Project subtypes can further extend the base project system by extending the aut
 
 A project subtype implementation that wraps a lower level project subtype needs to be programmed cooperatively to allow the inner project subtype to function properly. A list of programming responsibilities includes:
 
--   The <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> implementation of the project subtype that is wrapping the inner subtype must delegate to the <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> implementation of the inner project subtype for both <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.Load%2A> and <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.Save%2A> methods.
+- The <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> implementation of the project subtype that is wrapping the inner subtype must delegate to the <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> implementation of the inner project subtype for both <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.Load%2A> and <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.Save%2A> methods.
 
--   The <xref:EnvDTE80.IInternalExtenderProvider> implementation of the wrapper project subtype must delegate to that of its inner project subtype. In particular, the implementation of <xref:EnvDTE80.IInternalExtenderProvider.GetExtenderNames%2A> needs to get the string of names from the inner project subtype and then concatenate the strings it wants to add as extenders.
+- The <xref:EnvDTE80.IInternalExtenderProvider> implementation of the wrapper project subtype must delegate to that of its inner project subtype. In particular, the implementation of <xref:EnvDTE80.IInternalExtenderProvider.GetExtenderNames%2A> needs to get the string of names from the inner project subtype and then concatenate the strings it wants to add as extenders.
 
--   The <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfgProvider> implementation of a wrapper project subtype must instantiate the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFlavorCfg> object of its inner project subtype and hold it as a private delegate, since only the base project's project configuration object directly knows that the wrapper project subtype configuration object exists. The outer project subtype can initially choose configuration interfaces it wants to handle directly, and then delegate the rest to the inner project subtype's implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFlavorCfg.get_CfgType%2A>.
+- The <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfgProvider> implementation of a wrapper project subtype must instantiate the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFlavorCfg> object of its inner project subtype and hold it as a private delegate, since only the base project's project configuration object directly knows that the wrapper project subtype configuration object exists. The outer project subtype can initially choose configuration interfaces it wants to handle directly, and then delegate the rest to the inner project subtype's implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFlavorCfg.get_CfgType%2A>.
 
 ## Supporting Interfaces
 

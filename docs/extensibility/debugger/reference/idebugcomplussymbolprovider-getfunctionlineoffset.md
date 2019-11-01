@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::GetFunctionLineOffset"
   - "GetFunctionLineOffset"
 ms.assetid: 51460f5a-4e98-427a-8315-27246e24fb61
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetFunctionLineOffset
 Retrieves the address within a function that represents the given line offset.
@@ -33,18 +36,15 @@ int GetFunctionLineOffset(
 );
 ```
 
-#### Parameters
-`pAddress`
+## Parameters
+`pAddress`\
+[in] Address that represents function.
 
- [in] Address that represents function.
+`dwLine`\
+[in] Line offset from beginning of function.
 
-`dwLine`
-
- [in] Line offset from beginning of function.
-
-`ppNewAddress`
-
- [out] New address that represents line offset from beginning of function.
+`ppNewAddress`\
+[out] New address that represents line offset from beginning of function.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -97,5 +97,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

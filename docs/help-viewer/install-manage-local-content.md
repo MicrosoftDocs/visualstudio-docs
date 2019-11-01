@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Help Viewer, installing local content"
   - "Help Viewer, downloading content"
 ms.assetid: efd9df4c-2e69-4c50-992c-9678a8d8cf19
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -36,18 +36,18 @@ By default, Help Viewer installs content by using a Microsoft online service as 
 
 ### To change the content installation source
 
-1.  On the **Manage Content** tab, choose the **Disk** option button.
+1. On the **Manage Content** tab, choose the **Disk** option button.
 
     > [!NOTE]
     > The **Disk** option isn't available if your administrator has prevented you from modifying the content installation source. For more information, see the [Help Viewer administrator guide](../help-viewer/administrator-guide.md).
 
-2.  Perform one of the following steps:
+2. Perform one of the following steps:
 
-    -   Enter the path of an *.msha* file or the URL of a service endpoint.
+    - Enter the path of an *.msha* file or the URL of a service endpoint.
 
-    -   Choose the Browse (**...**) button to navigate to an *.msha* file.
+    - Choose the Browse (**...**) button to navigate to an *.msha* file.
 
-    -   In the list, choose the entry that was used most recently.
+    - In the list, choose the entry that was used most recently.
 
 ## Download and install content locally
 
@@ -61,13 +61,13 @@ If you download and install content on your local computer, you can view topics 
 
 ### To download and install content
 
-1.  Choose the **Manage Content** tab.
+1. Choose the **Manage Content** tab.
 
-2.  In the content list, choose the **Add** link next to the book or books that you want to download and install.
+2. In the content list, choose the **Add** link next to the book or books that you want to download and install.
 
      The book is added to the **Pending changes** list, and the estimated size of the book or books that you specified appears below that list. Because some books share topics, the total download size of multiple books might be smaller than the result of adding together the sizes of every book that you specified.
 
-3.  Choose the **Update** button.
+3. Choose the **Update** button.
 
      The book or books that you specified are installed along with any updates for books that you already have on your computer. Installation times vary, but you can view the progress in the status bar.
 
@@ -83,13 +83,13 @@ You can save disk space by removing unwanted content from your computer.
 
 ### To remove content
 
-1.  Choose the **Manage Content** tab.
+1. Choose the **Manage Content** tab.
 
-2.  In the content list, choose the **Remove** link next to the book or books that you want to remove.
+2. In the content list, choose the **Remove** link next to the book or books that you want to remove.
 
      The book is added to the **Pending changes** list.
 
-3.  Choose the **Update** button.
+3. Choose the **Update** button.
 
      The book or books that you specified are removed from your computer.
 
@@ -115,13 +115,13 @@ You can save disk space by moving installed content from your local computer to 
 
 ### To move local content
 
-1.  On the **Manage Content** tab, choose the **Move** button under **Local Store Path**.
+1. On the **Manage Content** tab, choose the **Move** button under **Local Store Path**.
 
      The **Move Content** dialog box opens.
 
-2.  In the **To** text box, enter a different location for the content, and then choose the **OK** button.
+2. In the **To** text box, enter a different location for the content, and then choose the **OK** button.
 
-3.  Choose the **Close** button when the content has been moved.
+3. Choose the **Close** button when the content has been moved.
 
 ## See also
 

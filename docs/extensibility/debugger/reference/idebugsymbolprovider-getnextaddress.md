@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugSymbolProvider::GetNextAddress method"
 ms.assetid: 704eeb94-cb13-49d1-82b6-7d83ed0f19c0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugSymbolProvider::GetNextAddress
 Gets the debug address that follows a given debug address in a method.
@@ -34,21 +37,18 @@ int GetNextAddress( 
 );
 ```
 
-#### Parameters
- `pAddress`
+## Parameters
+`pAddress`\
+[in] Given debug address.
 
- [in] Given debug address.
+`fStatementOnly`\
+[in] If TRUE, limits the debug addresses to a single statement.
 
- `fStatementOnly`
-
- [in] If TRUE, limits the debug addresses to a single statement.
-
- `ppAddress`
-
- [out] Returns the next debug address.
+`ppAddress`\
+[out] Returns the next debug address.
 
 ## Return Value
  Returns a valid `HRESULT`, typically S_OK.
 
-## See Also
+## See also
 - [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)

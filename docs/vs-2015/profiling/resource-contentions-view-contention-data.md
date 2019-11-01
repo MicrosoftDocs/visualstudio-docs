@@ -27,9 +27,9 @@ The Resource Contention view lists contention data for the resources that were t
 ### Function values  
  Function values are based on the instances of the function that occurred in the execution path represented in the call tree.  
   
--   Exclusive values are based on the events that occurred when the function was executing statements in its function body. Events that occurred in functions that were called by the function are not included in exclusive values.  
+- Exclusive values are based on the events that occurred when the function was executing statements in its function body. Events that occurred in functions that were called by the function are not included in exclusive values.  
   
--   Inclusive values are based on the events that occurred when the function or a function called by the function was executing.  
+- Inclusive values are based on the events that occurred when the function or a function called by the function was executing.  
   
 ### Percentage values  
  Percentage values are based on the total time or contention events in the profiling data. If the report or view of the profiling run is filtered, only the blocked time and contentions in the filtered data are used as the total value.  

@@ -17,7 +17,7 @@ Programmatic capture is useful in scenarios such as:
 
 - Begin capture programmatically when your app doesn't render at all, such as when it uses DirectCompute to perform calculations.
 
-- Call `CaptureCurrentFrame`when a rendering problem is difficult to anticipate and capture in manual testing but can be predicted programmatically by using information about the state of the app at runtime.
+- Call `CaptureCurrentFrame`when a rendering problem is difficult to anticipate and capture in manual testing but can be predicted programmatically by using information about the state of the app at run time.
 
 ## <a name="CaptureDX11_2"></a> Programmatic capture in Windows 10
 This part of the walkthrough demonstrates programmatic capture in apps that use the DirectX 11.2 API on Windows 10, which uses the robust capture method.
@@ -108,7 +108,7 @@ This walkthrough demonstrated how to capture graphics information programmatical
 
 - Learn how to analyze captured graphics information by using the Graphics Diagnostics tools. See [Overview](overview-of-visual-studio-graphics-diagnostics.md).
 
-## See Also
+## See also
 - [Walkthrough: Capturing Graphics Information](walkthrough-capturing-graphics-information.md)
 - [Capturing Graphics Information](capturing-graphics-information.md)
 - [Command-Line Capture Tool](command-line-capture-tool.md)

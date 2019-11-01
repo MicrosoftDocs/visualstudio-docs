@@ -4,7 +4,7 @@ ms.date: 10/08/2018
 ms.topic: conceptual
 author: mikeblome
 ms.author: mblome
-manager: wpickett
+manager: markl
 ms.workload:
   - "cplusplus"
 ---

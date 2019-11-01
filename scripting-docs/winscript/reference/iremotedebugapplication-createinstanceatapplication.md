@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplication::CreateInstanceAtApplication | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -60,5 +59,5 @@ HRESULT CreateInstanceAtApplication(
 ## Remarks  
  This method delegates to `CoCreateInstance`.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)

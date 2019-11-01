@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDocumentText2 interface"
 ms.assetid: e85f50a3-211c-4220-a9f4-789950ba2782
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -46,6 +46,6 @@ IDebugDocumentText2 : IDebugDocument2
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)
 - [IDebugDocumentTextEvents2](../../../extensibility/debugger/reference/idebugdocumenttextevents2.md)

@@ -46,7 +46,7 @@ Syntax: vsct <infile> [<outfile>] [-S[symbols file]] [-D<preprocessor-define>]*
 ```  
   
 > [!NOTE]
->  The characters - (dash) and / (forward slash) are both accepted notation for indicating command-line parameters.  
+> The characters - (dash) and / (forward slash) are both accepted notation for indicating command-line parameters.  
   
  Acceptable flags and what they mean are as follows.  
   

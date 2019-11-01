@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "toolbars [Visual Studio], best practices"
   - "menu commands, best practices"
 ms.assetid: 3ffc4312-c6db-4759-a946-a4bb85f4a17a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -144,7 +144,6 @@ Also notice that every UI context must be given in a separate `VisibilityItem` e
 ## See also
 
 - [Add a command to the Solution Explorer toolbar](../../extensibility/adding-a-command-to-the-solution-explorer-toolbar.md)
-- [MenuCommands Vs. OleMenuCommands](../../extensibility/menucommands-vs-olemenucommands.md)
 - [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
 - [Command Routing in VSPackages](../../extensibility/internals/command-routing-in-vspackages.md)
 - [Dynamically Adding Menu Items](../../extensibility/dynamically-adding-menu-items.md)

@@ -23,6 +23,6 @@ void EndCapture();
 
  To capture an interval, you must prepare your app to capture and record graphics information—that is, you must have called [Init](init.md) through an instance of the `VsgDbg` class before you call `BeginCapture` or `EndCapture`.
 
-## See Also
+## See also
 - [BeginCapture](begincapture.md)
 - [CaptureCurrentFrame](capturecurrentframe.md)

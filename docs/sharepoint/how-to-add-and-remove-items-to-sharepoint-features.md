@@ -40,9 +40,9 @@ ms.workload:
 
 #### To remove SharePoint items with the Feature Designer
 
-1.  Choose one or more items in the **Items in the Feature** list.
+1. Choose one or more items in the **Items in the Feature** list.
 
-2.  Choose the **Remove** button (<) to remove one item at a time, or choose the **Remove All** button (<<) to remove all items.
+2. Choose the **Remove** button (<) to remove one item at a time, or choose the **Remove All** button (<<) to remove all items.
 
      The SharePoint Project Items appear in the **Items in the Solution** list.
 

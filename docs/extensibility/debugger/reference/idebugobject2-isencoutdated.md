@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugObject2::IsEncOutdated method"
 ms.assetid: d3a8c02d-895b-478c-9957-d663130f308e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugObject2::IsEncOutdated
 This method determines whether the Edit and Continue status of this object or of the parent container is out of date. A custom expression evaluator does not implement this method and always returns `E_NOTIMPL`.
@@ -30,16 +33,15 @@ int IsEncOutdated(
 );
 ```
 
-#### Parameters
- `pfEncOutdated`
-
- [out] Nonzero (`TRUE`) if the Edit and Continue state is out of date, zero (`FALSE`) if it is not.
+## Parameters
+`pfEncOutdated`\
+[out] Nonzero (`TRUE`) if the Edit and Continue state is out of date, zero (`FALSE`) if it is not.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 > [!NOTE]
->  A custom expression evaluator should always return `E_NOTIMPL`.
+> A custom expression evaluator should always return `E_NOTIMPL`.
 
-## See Also
+## See also
 - [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)

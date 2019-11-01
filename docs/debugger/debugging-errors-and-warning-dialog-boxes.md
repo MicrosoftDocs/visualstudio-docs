@@ -31,6 +31,8 @@ Below are the errors and warning dialog boxes you may encounter while debugging 
  [Cannot Change Value Dialog Box](../debugger/cannot-change-value-dialog-box.md)
 
  [Debugger Cannot Display Source Code or Disassembly](../debugger/debugger-cannot-display-source-code-or-disassembly.md)
+ 
+ [Debugger Services Running Out of Memory](../debugger/error-debugger-services-no-memory.md)
 
  [Executable for Debugging Session Dialog Box](../debugger/executable-for-debugging-session-dialog-box.md)
 
@@ -59,6 +61,6 @@ Below are the errors and warning dialog boxes you may encounter while debugging 
 
  [Troubleshooting SQL Debugging Setup](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/s7ahaxtd(v=vs.100))
 
- [Debugging Visual C++ FAQs](../debugger/debugging-native-code-faqs.md)
+ [Debugging native code FAQs](../debugger/debugging-native-code-faqs.md)
 
  [Debugger Security](../debugger/debugger-security.md)

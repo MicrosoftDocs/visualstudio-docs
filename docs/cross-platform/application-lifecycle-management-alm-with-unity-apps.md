@@ -20,7 +20,7 @@ The following tables identify how DevOps features in Visual Studio apply or don'
 
 ## Agile tools
 
-Reference link: [About Agile tools and Agile project management](/azure/devops/boards/backlogs/overview?view=vsts) (using Azure Boards or TFS, including Team Explorer Everywhere)
+Reference link: [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts) (using Azure Boards or TFS, including Team Explorer Everywhere)
 
 General Comment: all planning and tracking features are independent of project type and coding languages.
 
@@ -61,11 +61,11 @@ General Comment: Although these design features are either independent of coding
 
 Special considerations for version control with Unity:
 
-1. Unity tracks metadata about game assets in a single, opaque library that is hidden by default. To keep files and metadata in sync, it is necessary to make the metadata visible and to store it in more-manageable chunks. For details, refer to [Using External Version Control Systems with Unity](http://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html) (Unity documentation).
+1. Unity tracks metadata about game assets in a single, opaque library that is hidden by default. To keep files and metadata in sync, it is necessary to make the metadata visible and to store it in more-manageable chunks. For details, refer to [Using External Version Control Systems with Unity](https://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html) (Unity documentation).
 
-2. Not all files and folders in a Unity project are appropriate for source control, as is also described in the link above. The Assets and ProjectSettings folders should be added, but the Library and Temp folders should not. For an additional list of generated files that would not go into source control, see the discussion [How to use Git for Unity3D source control?](http://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control) on StackOverflow. Many developers have also blogged on this subject independently.
+2. Not all files and folders in a Unity project are appropriate for source control, as is also described in the link above. The Assets and ProjectSettings folders should be added, but the Library and Temp folders should not. For an additional list of generated files that would not go into source control, see the discussion [How to use Git for Unity3D source control?](https://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control) on StackOverflow. Many developers have also blogged on this subject independently.
 
-3. Binary assets in a Unity project—such as textures or audio files—can take up a large amount of storage. Various source control systems like Git store a unique copy of a file for every change that is made, even if the change affects only a small portion of the file. This can cause the Git repository to become bloated. To address this, Unity developers often elect to add only final assets to their repository, and use a different means of keeping a working history of their assets, such as OneDrive, DropBox, or git-annex. This approach works because such assets typically don't need to be versioned along with source code changes. Developers also typically set the project editor's Asset Serialization Mode to Force Text to store scene files in text rather than binary format, which allows for merges in source control. For details, see [Editor Settings](http://docs.unity3d.com/Manual/class-EditorManager.html) (Unity documentation).
+3. Binary assets in a Unity project—such as textures or audio files—can take up a large amount of storage. Various source control systems like Git store a unique copy of a file for every change that is made, even if the change affects only a small portion of the file. This can cause the Git repository to become bloated. To address this, Unity developers often elect to add only final assets to their repository, and use a different means of keeping a working history of their assets, such as OneDrive, DropBox, or git-annex. This approach works because such assets typically don't need to be versioned along with source code changes. Developers also typically set the project editor's Asset Serialization Mode to Force Text to store scene files in text rather than binary format, which allows for merges in source control. For details, see [Editor Settings](https://docs.unity3d.com/Manual/class-EditorManager.html) (Unity documentation).
 
 ## Build
 
@@ -73,7 +73,7 @@ Reference link: **[Azure Pipelines](/azure/devops/pipelines/index?view=vsts)**
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
-|On-premises Team Foundation Server (TFS)|Possible|Unity projects are built through the Unity environment and not through the Visual Studio build system (building within the Visual Studio Tools for Unity will compile the scripts but not produce an executable). It is possible to [build Unity projects from the command line](http://docs.unity3d.com/Manual/CommandLineArguments.html) (Unity documentation), so it possible to configure an MSBuild process on a TFS server to execute the appropriate Unity commands, provided that Unity itself is installed on that computer.<br /><br /> Unity also offers [Unity Cloud Build](https://build.cloud.unity3d.com/landing/), which monitors a Git or SVN repository and runs periodic builds. At present it does not work with TFVC or Azure DevOps Services.|
+|On-premises Team Foundation Server (TFS)|Possible|Unity projects are built through the Unity environment and not through the Visual Studio build system (building within the Visual Studio Tools for Unity will compile the scripts but not produce an executable). It is possible to [build Unity projects from the command line](https://docs.unity3d.com/Manual/CommandLineArguments.html) (Unity documentation), so it possible to configure an MSBuild process on a TFS server to execute the appropriate Unity commands, provided that Unity itself is installed on that computer.<br /><br /> Unity also offers [Unity Cloud Build](https://build.cloud.unity3d.com/landing/), which monitors a Git or SVN repository and runs periodic builds. At present it does not work with TFVC or Azure DevOps Services.|
 |On-premises build server linked to Azure DevOps Services|Possible|Given the same conditions as above, it is further possible to direct builds triggered through Azure DevOps Services to use an on-premises TFS computer. See [Build and release agents](/azure/devops/pipelines/agents/agents?view=vsts) for instructions.|
 |Hosted controller service of Azure DevOps Services|No|Unity builds are not presently supported.|
 |Build definitions with pre- and post-scripts|Yes|A custom build definition that uses the Unity command line to run a build can also be configured for pre- and post-build scripts.|
@@ -99,7 +99,7 @@ Reference link: **[Improve code quality](../test/improve-code-quality.md)**
 |[Analyze managed code quality](../code-quality/code-analysis-for-managed-code-overview.md)|Yes|Can analyze the C# script code within Visual Studio.|
 |[Find duplicate code by using code clone detection](https://msdn.microsoft.com/library/hh205279.aspx)|Yes|Can analyze the C# script code within Visual Studio.|
 |[Measure complexity and maintainability of managed code](../code-quality/code-metrics-values.md)|Yes|Can analyze the C# script code within Visual Studio.|
-|[Performance Explorer](../profiling/performance-explorer.md)|No|Use the [Unity Profiler](http://docs.unity3d.com/Manual/Profiler.html) (Unity website).|
+|[Performance Explorer](../profiling/performance-explorer.md)|No|Use the [Unity Profiler](https://docs.unity3d.com/Manual/Profiler.html) (Unity website).|
 |[Analyze .NET Framework memory issues](https://msdn.microsoft.com/library/dn342825.aspx)|No|Visual Studio tools do not have hooks into the Mono framework (as used by Unity) for profiling. Use the [Unity Profiler](http://docs.unity3d.com/Manual/Profiler.html) (Unity documentation).|
 
 ## Release management

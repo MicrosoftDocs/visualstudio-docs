@@ -3,8 +3,8 @@ title: Warning - changes have been made to the Configure Behavior dialog box tha
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: ce5822dd-4f10-4c86-b707-7766837be216
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"
@@ -23,5 +23,4 @@ The **Configure Behavior** dialog box enables you to configure `Insert`, `Update
 
 ## See also
 
-- [O/R Designer messages](../data-tools/o-r-designer-messages.md)
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

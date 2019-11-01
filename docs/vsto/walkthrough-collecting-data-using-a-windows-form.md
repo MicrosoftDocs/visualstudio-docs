@@ -26,19 +26,19 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
+- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
 
 > [!NOTE]
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
+> Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 ## Create a new project
  The first step is to create an Excel Workbook project.
 
 ### To create a new project
 
-1.  Create an Excel Workbook project with the name **WinFormInput**, and select **Create a new document** in the wizard. For more information, see [How to: create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
+1. Create an Excel Workbook project with the name **WinFormInput**, and select **Create a new document** in the wizard. For more information, see [How to: create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
      Visual Studio opens the new Excel workbook in the designer and adds the **WinFormInput** project to **Solution Explorer**.
 
@@ -46,13 +46,13 @@ ms.workload:
 
 ### To add a named range to Sheet1
 
-1.  Select cell **A1** on `Sheet1`.
+1. Select cell **A1** on `Sheet1`.
 
-2.  In the **Name** box, type **formInput**.
+2. In the **Name** box, type **formInput**.
 
      The **Name** box is located to the left of the formula bar, just above column **A** of the worksheet.
 
-3.  Press **Enter**.
+3. Press **Enter**.
 
      A <xref:Microsoft.Office.Tools.Excel.NamedRange> control is added to cell **A1**. There is no visible indication on the worksheet, but **formInput** appears in the **Name** box (just above the worksheet on the left side) and in the **Properties** window when cell **A1** is selected.
 
@@ -85,7 +85,7 @@ ms.workload:
 2. In the <xref:Microsoft.Office.Tools.Excel.Workbook.Open> event handler of `ThisWorkbook`, add the following code to declare a variable for the form `GetInputString` and then show the form.
 
    > [!NOTE]
-   >  In C#, you must add an event handler as shown in the <xref:Microsoft.Office.Tools.Excel.Workbook.Startup> event below. For information about creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).
+   > In C#, you must add an event handler as shown in the <xref:Microsoft.Office.Tools.Excel.Workbook.Startup> event below. For information about creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
     [!code-csharp[Trin_VstcoreProgrammingCollectingData#1](../vsto/codesnippet/CSharp/WinFormInputCS/ThisWorkbook.cs#1)]
     [!code-vb[Trin_VstcoreProgrammingCollectingData#1](../vsto/codesnippet/VisualBasic/WinFormInput/ThisWorkbook.vb#1)]
@@ -101,11 +101,11 @@ ms.workload:
 
 ### To send information to the worksheet
 
-1.  Right-click **GetInputString** in **Solution Explorer**, and then click **View Designer**.
+1. Right-click **GetInputString** in **Solution Explorer**, and then click **View Designer**.
 
-2.  Double-click the button to open the code file with the button's <xref:System.Windows.Forms.Control.Click> event handler added.
+2. Double-click the button to open the code file with the button's <xref:System.Windows.Forms.Control.Click> event handler added.
 
-3.  Add code to the event handler to take the input from the text box, send it to the function `WriteStringToCell`, and then close the form.
+3. Add code to the event handler to take the input from the text box, send it to the function `WriteStringToCell`, and then close the form.
 
      [!code-csharp[Trin_VstcoreProgrammingCollectingData#3](../vsto/codesnippet/CSharp/WinFormInputCS/GetInputString.cs#3)]
      [!code-vb[Trin_VstcoreProgrammingCollectingData#3](../vsto/codesnippet/VisualBasic/WinFormInput/GetInputString.vb#3)]
@@ -115,20 +115,20 @@ ms.workload:
 
 ### To test your workbook
 
-1.  Press **F5** to run your project.
+1. Press **F5** to run your project.
 
-2.  Confirm that the Windows Form appears.
+2. Confirm that the Windows Form appears.
 
-3.  Type **Hello World** in the text box, and then click **OK**.
+3. Type **Hello World** in the text box, and then click **OK**.
 
-4.  Confirm that **Hello World** appears in cell **A1** of the worksheet.
+4. Confirm that **Hello World** appears in cell **A1** of the worksheet.
 
 ## Next steps
  This walkthrough shows the basics of showing a Windows Form and passing data to a worksheet. Other tasks you may want to perform include:
 
--   Use Windows Forms controls on an Excel workbook or a Word document. For more information, see [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md).
+- Use Windows Forms controls on an Excel workbook or a Word document. For more information, see [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md).
 
--   Modify the user interface of a Microsoft Office application from a document-level customization or a VSTO Add-in. For more information, see [Office UI customization](../vsto/office-ui-customization.md).
+- Modify the user interface of a Microsoft Office application from a document-level customization or a VSTO Add-in. For more information, see [Office UI customization](../vsto/office-ui-customization.md).
 
 ## See also
 - [Develop Office solutions](../vsto/developing-office-solutions.md)

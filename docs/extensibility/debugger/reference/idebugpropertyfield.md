@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPropertyField interface"
 ms.assetid: b50edb2c-fb8d-4def-993d-17d23d2027c1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -46,6 +46,6 @@ IDebugPropertyField : IDebugContainerField
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
 - [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)

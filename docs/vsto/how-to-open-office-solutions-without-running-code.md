@@ -30,16 +30,16 @@ ms.workload:
 
 ## To bypass the assembly by using the Shift key
 
--   Open documents and workbooks from the **File** menu while holding down the **Shift** key to prevent Word and Excel from raising initialization events while the document is opening.
+- Open documents and workbooks from the **File** menu while holding down the **Shift** key to prevent Word and Excel from raising initialization events while the document is opening.
 
     > [!NOTE]
-    >  If you open a document or workbook from the **Getting Started** task pane, holding down **Shift** does not bypass the code. Also, holding down SHIFT does not prevent events from being raised after the document is open.
+    > If you open a document or workbook from the **Getting Started** task pane, holding down **Shift** does not bypass the code. Also, holding down SHIFT does not prevent events from being raised after the document is open.
 
      This method is useful if you want to open a document to make changes without the code running and altering the document first.
 
 ## To bypass an assembly by renaming or removing it
 
--   If you have the necessary permissions on the computer where the assembly is located, you can rename or remove the assembly so the document or workbook cannot find it. This results in an error being raised every time the Office document is opened.
+- If you have the necessary permissions on the computer where the assembly is located, you can rename or remove the assembly so the document or workbook cannot find it. This results in an error being raised every time the Office document is opened.
 
      If the solution is used by multiple people, this method prevents the solution from running for all of them. This can be useful if a problem is found in the code or a referenced server and you want to stop all users from executing it.
 

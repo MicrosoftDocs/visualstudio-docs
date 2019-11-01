@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "editors [Visual Studio SDK], new -"
 ms.assetid: 8d04f8db-eda7-4b3e-b6eb-c06df104502a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -30,7 +30,7 @@ You can add language service features (such as IntelliSense) to your own editor,
 |[Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)|Lists the extension points of the editor. Extension points represent the editor features that can be extended.|
 |[Walkthrough: Create a view adornment, commands, and settings (column guides)](../extensibility/walkthrough-creating-a-view-adornment-commands-and-settings-column-guides.md)|Walks through and explains building a view adornment that draws column guide lines to help you keep code to a certain display width.  Also shows reading and writing settings as well as declaring and implementing commands that you can invoke from the Command Window.|
 |[Editor imports](../extensibility/editor-imports.md)|Lists the services that an extension can import.|
-|[Adapt legacy code to the editor](../extensibility/adapting-legacy-code-to-the-editor.md)|Explains different ways to adapt legacy code (pre-Visual Studio 2010) to extend the editor.|
+|[Adapt legacy code to the editor](/visualstudio/extensibility/adapting-legacy-code-to-the-editor?view=vs-2015)|Explains different ways to adapt legacy code (pre-Visual Studio 2010) to extend the editor.|
 |[Migrate a legacy language service](../extensibility/internals/migrating-a-legacy-language-service.md)|Explains how to migrate a VSPackage based language service.|
 |[Walkthrough: Link a content type to a file name extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)|Shows how to link a content type to a file name extension.|
 |[Walkthrough: Create a margin glyph](../extensibility/walkthrough-creating-a-margin-glyph.md)|Shows how to add an icon to a margin.|

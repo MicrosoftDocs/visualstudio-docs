@@ -23,7 +23,6 @@ manager: jillfra
 # Warning Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Logs a warning during a build based on an evaluated conditional statement.  
   
 ## Parameters  

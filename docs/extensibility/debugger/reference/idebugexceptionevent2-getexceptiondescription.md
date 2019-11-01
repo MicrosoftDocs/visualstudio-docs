@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugExceptionEvent2::GetExceptionDescription"
 ms.assetid: d07d458f-5729-47e4-9b77-1bd59c61a75a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExceptionEvent2::GetExceptionDescription
 Gets a displayable description of the exception.
@@ -30,10 +33,9 @@ int GetExceptionDescription( 
 );
 ```
 
-#### Parameters
- `pbstrDescription`
-
- [out] Returns a displayable description of the exception.
+## Parameters
+`pbstrDescription`\
+[out] Returns a displayable description of the exception.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -41,5 +43,5 @@ int GetExceptionDescription( 
 ## Remarks
  The string returned from this method is typically the name of the exception and is shown in the **Output** window when the exception occurs.
 
-## See Also
+## See also
 - [IDebugExceptionEvent2](../../../extensibility/debugger/reference/idebugexceptionevent2.md)

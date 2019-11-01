@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "Web services [Visual Studio ALM], creating"
   - "service tests, Web"
 ms.assetid: fbcd57ee-06ad-4260-8694-09f8e0f93e39
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Create a web service test
@@ -17,7 +17,7 @@ You can use a web performance test to test web services. By using the **Insert R
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
-The following procedures use a web service that is contained within the Commerce Starter Kit. You can download it from [ASP.NET commerce starter kit](http://go.microsoft.com/fwlink/?LinkId=181469).
+The following procedures use a web service that is contained within the Commerce Starter Kit. You can download it from [ASP.NET commerce starter kit](https://sourceforge.net/projects/ppcsk/).
 
 **Requirements**
 
@@ -25,21 +25,21 @@ Visual Studio Enterprise
 
 ## To test a web service
 
-1.  Create a new web performance test. As soon as the browser opens, choose **Stop**.
+1. Create a new web performance test. As soon as the browser opens, choose **Stop**.
 
-2.  In the **Web Performance Test Editor**, right-click the web performance test and select **Add Web Service Request**.
+2. In the **Web Performance Test Editor**, right-click the web performance test and select **Add Web Service Request**.
 
-3.  In the **Url** property of the new request, type the name of the web service, such as **http://localhost/storecsvs/InstantOrder.asmx**.
+3. In the **Url** property of the new request, type the name of the web service, such as **http://localhost/storecsvs/InstantOrder.asmx**.
 
-4.  Open a separate session of the browser and type the URL of the *.asmx* page in the **Address** toolbar. Select the method that you want to test and examine the SOAP message. It contains a `SOAPAction`.
+4. Open a separate session of the browser and type the URL of the *.asmx* page in the **Address** toolbar. Select the method that you want to test and examine the SOAP message. It contains a `SOAPAction`.
 
-5.  In the **Web Performance Test Editor**, right-click the request and select **Add Header** to add a new header. In the **Name** property, type `SOAPAction`. In the **Value** property, type the value that you see in `SOAPAction`, such as `"http://tempuri.org/CheckStatus"`.
+5. In the **Web Performance Test Editor**, right-click the request and select **Add Header** to add a new header. In the **Name** property, type `SOAPAction`. In the **Value** property, type the value that you see in `SOAPAction`, such as `"http://tempuri.org/CheckStatus"`.
 
-6.  Expand the URL node in the editor, choose the **String Body** node and in the **Content Type** property enter a value of `text/xml`.
+6. Expand the URL node in the editor, choose the **String Body** node and in the **Content Type** property enter a value of `text/xml`.
 
-7.  Return to the browser in step 4, select the XML portion of the SOAP request from the web service description page and copy it to the clipboard.
+7. Return to the browser in step 4, select the XML portion of the SOAP request from the web service description page and copy it to the clipboard.
 
-8.  The XML content resembles the following example:
+8. The XML content resembles the following example:
 
      ```xml
      <?xml version="1.0" encoding="utf-8"?>

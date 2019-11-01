@@ -70,7 +70,7 @@ SCCRTN SccHistory(
  Note that under certain circumstances, the file being examined may change during the execution of this call. For example, the [!INCLUDE[vsvss](../includes/vsvss-md.md)] history command gives the user a chance to get an old version of the file. In such a case, the source control plug-in returns `SCC_I_RELOAD` to warn the IDE that it needs to reload the file.  
   
 > [!NOTE]
->  If the source control plug-in does not support this function for an array of files, only the file history for the first file can be displayed.  
+> If the source control plug-in does not support this function for an array of files, only the file history for the first file can be displayed.  
   
 ## See Also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   

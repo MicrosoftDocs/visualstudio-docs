@@ -20,7 +20,7 @@ manager: jillfra
 Specifies a target register.  
   
 > [!NOTE]
->  Because the `CV_HREG_e` enumeration is too large to duplicate in its entirety here, an abbreviated version is provided as a reference. Missing entries are notated in italics. The complete enumeration is available in the cvconst.h header file.  
+> Because the `CV_HREG_e` enumeration is too large to duplicate in its entirety here, an abbreviated version is provided as a reference. Missing entries are notated in italics. The complete enumeration is available in the cvconst.h header file.  
   
 ## Syntax  
   
@@ -444,15 +444,15 @@ enum CV_HREG_e { 
   
  The values in this enumeration are passed to the following methods:  
   
--   [IDiaStackWalkFrame::get_registerValue](../../debugger/debug-interface-access/idiastackwalkframe-get-registervalue.md)  
+- [IDiaStackWalkFrame::get_registerValue](../../debugger/debug-interface-access/idiastackwalkframe-get-registervalue.md)  
   
--   [IDiaStackWalkFrame::put_registerValue](../../debugger/debug-interface-access/idiastackwalkframe-put-registervalue.md)  
+- [IDiaStackWalkFrame::put_registerValue](../../debugger/debug-interface-access/idiastackwalkframe-put-registervalue.md)  
   
--   [IDiaStackWalkHelper::get_registerValue](../../debugger/debug-interface-access/idiastackwalkhelper-get-registervalue.md)  
+- [IDiaStackWalkHelper::get_registerValue](../../debugger/debug-interface-access/idiastackwalkhelper-get-registervalue.md)  
   
--   [IDiaStackWalkHelper::put_registerValue](../../debugger/debug-interface-access/idiastackwalkhelper-put-registervalue.md)  
+- [IDiaStackWalkHelper::put_registerValue](../../debugger/debug-interface-access/idiastackwalkhelper-put-registervalue.md)  
   
--   [IDiaStackFrame::get_registerValue](../../debugger/debug-interface-access/idiastackframe-get-registervalue.md)  
+- [IDiaStackFrame::get_registerValue](../../debugger/debug-interface-access/idiastackframe-get-registervalue.md)  
   
 ## Requirements:  
  Header: cvconst.h  

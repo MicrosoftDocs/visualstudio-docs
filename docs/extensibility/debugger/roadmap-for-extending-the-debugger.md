@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], roadmap"
   - "Debugging SDK, roadmap"
 ms.assetid: 1f4096a8-f7aa-4dfa-84e1-6d59263e70bb
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

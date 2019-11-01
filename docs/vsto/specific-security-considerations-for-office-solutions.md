@@ -33,13 +33,13 @@ ms.workload:
 
 ### Recommendations
 
--   Always validate input and data, whether it comes from the user, the document, a database, a web service, or any other source.
+- Always validate input and data, whether it comes from the user, the document, a database, a web service, or any other source.
 
--   Be careful about exposing particular types of functionality, such as getting privileged data on behalf of the user and putting it into an unprotected worksheet.
+- Be careful about exposing particular types of functionality, such as getting privileged data on behalf of the user and putting it into an unprotected worksheet.
 
--   Depending on the type of application, it might make sense to verify that the original document is running before executing any code. For example, verify that it is running from a document stored at a known, secure location.
+- Depending on the type of application, it might make sense to verify that the original document is running before executing any code. For example, verify that it is running from a document stored at a known, secure location.
 
--   It might be a good idea to display a warning when the document opens if your application performs any privileged actions. For example, you might create a splash screen or a startup dialog box saying that the application will access personal information, and have the user choose to continue or cancel. If an end user gets such a warning from a seemingly innocent document, he or she will be able to quit the application before anything is compromised.
+- It might be a good idea to display a warning when the document opens if your application performs any privileged actions. For example, you might create a splash screen or a startup dialog box saying that the application will access personal information, and have the user choose to continue or cancel. If an end user gets such a warning from a seemingly innocent document, he or she will be able to quit the application before anything is compromised.
 
 ## Code is blocked by the Outlook object model guard
  Microsoft Office can restrict code from using certain properties, methods, and objects in the object model. By restricting access to these objects, Outlook helps to prevent email worms and viruses from using the object model for malicious purposes. This security feature is known as the Outlook object model guard. If a VSTO Add-in attempts to use a restricted property or method while the object model guard is enabled, Outlook displays a security warning that enables the user to stop the operation, or enables the user to grant access to the property or method for a limited period of time. If the user stops the operation, Outlook VSTO Add-ins created by using Office solutions in Visual Studio will throw a <xref:System.Runtime.InteropServices.COMException>.
@@ -50,7 +50,7 @@ ms.workload:
 
 - If Outlook is used with Exchange, an administrator can enable or disable the object model guard for all VSTO Add-ins on the computer, or the administrator can specify that certain VSTO Add-ins can run without encountering the object model guard. Administrators can also modify the behavior of the object model guard for certain areas of the object model. For example, administrators can automatically allow VSTO Add-ins to send email programmatically, even if the object model guard is enabled.
 
-  Starting in Outlook 2007, the behavior of the object model guard has been changed to improve the developer and user experience while helping to keep Outlook secure. For more information, see [Code security changes in Outlook 2007](http://go.microsoft.com/fwlink/?LinkId=73429).
+  Starting in Outlook 2007, the behavior of the object model guard has been changed to improve the developer and user experience while helping to keep Outlook secure. For more information, see [Code security changes in Outlook 2007](/previous-versions/office/developer/office-2007/bb226709(v=office.12)).
 
 ### Minimize object model guard warnings
  To help avoid security warnings when you use restricted properties and methods, make sure that your VSTO Add-in obtains Outlook objects from the `Application` field of the `ThisAddIn` class in your project. For more information about this field, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).
@@ -68,12 +68,12 @@ ms.workload:
  [!code-vb[Trin_VstcoreOutlookSecurity#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreOutlookSecurity/ThisAddIn.vb#2)]
 
 > [!NOTE]
->  If Outlook is used with Exchange, then obtaining all Outlook objects from `ThisAddIn.Application` does not guarantee that your VSTO Add-in will be able to access the entire Outlook object model. For example, if an Exchange administrator sets Outlook to automatically deny all attempts to access address information using the Outlook object model, then Outlook will not allow the previous code example to access the To property, even though the code example uses the trusted `ThisAddIn.Application` field.
+> If Outlook is used with Exchange, then obtaining all Outlook objects from `ThisAddIn.Application` does not guarantee that your VSTO Add-in will be able to access the entire Outlook object model. For example, if an Exchange administrator sets Outlook to automatically deny all attempts to access address information using the Outlook object model, then Outlook will not allow the previous code example to access the To property, even though the code example uses the trusted `ThisAddIn.Application` field.
 
 ### Specify which Add-ins to trust when using Exchange
  When Outlook is used with Exchange, administrators can specify that certain VSTO Add-ins can run without encountering the object model guard. Outlook VSTO Add-ins created by using Office solutions in Visual Studio cannot be trusted individually; they can only be trusted as a group.
 
- Outlook trusts a VSTO Add-in based on a hash code of the entry point DLL of the VSTO Add-in. All Outlook VSTO Add-ins that target the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] use the same entry point DLL (*VSTOLoader.dll*). This means that if an administrator trusts any VSTO Add-in that targets the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] to run without encountering the object model guard, then all other VSTO Add-ins that target the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] are also trusted. For more information about trusting specific VSTO Add-ins to run without encountering the object model guard, see [Specify the method Outlook uses to manage virus prevention features](http://go.microsoft.com/fwlink/?LinkId=128773).
+ Outlook trusts a VSTO Add-in based on a hash code of the entry point DLL of the VSTO Add-in. All Outlook VSTO Add-ins that target the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] use the same entry point DLL (*VSTOLoader.dll*). This means that if an administrator trusts any VSTO Add-in that targets the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] to run without encountering the object model guard, then all other VSTO Add-ins that target the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] are also trusted. For more information about trusting specific VSTO Add-ins to run without encountering the object model guard, see [Specify the method Outlook uses to manage virus prevention features](/previous-versions/office/office-2007-resource-kit/cc179194(v=office.12)).
 
 ## Permission changes do not take effect immediately
  If the administrator adjusts permissions for a document or assembly, users must quit and then restart all Office applications for those changes to be enforced.
@@ -97,17 +97,17 @@ ms.workload:
 
 #### To disable VSTO Add-ins in Microsoft Office 2010 and Microsoft [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] applications
 
-1.  Choose the **File** tab.
+1. Choose the **File** tab.
 
-2.  Choose the *ApplicationName* **Options** button.
+2. Choose the *ApplicationName* **Options** button.
 
-3.  In the categories pane, choose **Trust Center**.
+3. In the categories pane, choose **Trust Center**.
 
-4.  In the details pane, choose **Trust Center Settings**.
+4. In the details pane, choose **Trust Center Settings**.
 
-5.  In the categories pane, choose **Add-ins**.
+5. In the categories pane, choose **Add-ins**.
 
-6.  In the details pane, select **Require Application Add-ins to be Signed by Trusted Publisher** or **Disable all Application Add-ins**.
+6. In the details pane, select **Require Application Add-ins to be Signed by Trusted Publisher** or **Disable all Application Add-ins**.
 
 ## See also
 - [Secure Office solutions](../vsto/securing-office-solutions.md)

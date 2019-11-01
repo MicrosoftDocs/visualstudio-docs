@@ -17,7 +17,7 @@ manager: jillfra
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
+> In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
  This interface represents an object that the binder creates to encapsulate the values of symbols and expressions.  
   
@@ -31,7 +31,7 @@ IDebugObject : IUnknown
  An expression evaluator implements this interface to represent an object.  
   
 ## Notes for Callers  
- This interface is the base class for all objects that the expression evaluator uses in parsed expressions. It is returned by a call to the [Bind](../../../extensibility/debugger/reference/idebugbinder-bind.md) method. [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) obtains the more specialized interfaces from this interface.  
+ This interface is the base class for all objects that the expression evaluator uses in parsed expressions. It is returned by a call to the [Bind](../../../extensibility/debugger/reference/idebugbinder-bind.md) method. [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) obtains the more specialized interfaces from this interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugObject`.  

@@ -2,7 +2,6 @@
 title: "IMachineDebugManager Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -28,5 +27,5 @@ The primary interface to the Machine Debug Manager. This interface is similar to
 |[IMachineDebugManager::RemoveApplication](../../winscript/reference/imachinedebugmanager-removeapplication.md)|Removes an application from the running application list.|  
 |[IMachineDebugManager::EnumApplications](../../winscript/reference/imachinedebugmanager-enumapplications.md)|Returns an enumerator of the current list of running applications.|  
   
-## See Also  
+## See also  
  [IMachineDebugManagerCookie Interface](../../winscript/reference/imachinedebugmanagercookie-interface.md)

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgram2::GetName"
 ms.assetid: a54cbf13-b3e3-4c9f-8b8d-13573232dfb0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgram2::GetName
 Gets the name of the program.
@@ -30,10 +33,9 @@ int GetName( 
 );
 ```
 
-#### Parameters
- `pbstrName`
-
- [out] Returns the name of the program.
+## Parameters
+`pbstrName`\
+[out] Returns the name of the program.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -41,5 +43,5 @@ int GetName( 
 ## Remarks
  The name returned by this method is always a friendly, user-displayable name that describes the program.
 
-## See Also
+## See also
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

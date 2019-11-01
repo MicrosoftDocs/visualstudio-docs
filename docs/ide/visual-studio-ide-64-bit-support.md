@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "64-bit applications [C++]"
   - "Visual Studio, 64-bit support"
   - "64-bit programming [C++]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -29,9 +29,9 @@ The *.NET memory allocation* profiling method of [!INCLUDE[vsprvs](../includes/v
   
  When a .memory allocation event occurs, the profiler increments the sample counts for each function on the call stack. When the data is collected, only one function on the call stack is currently executing the code in its function body. The other functions on the stack are parents in the hierarchy of function calls that are waiting for the functions that they called  to return.  
   
--   For the allocation event, the profiler increments the *exclusive* sample count of the function that is currently executing its instructions. Because an exclusive sample is also part of the total (*inclusive*) samples of the function, the inclusive sample count of the currently active function is also incremented.  
+- For the allocation event, the profiler increments the *exclusive* sample count of the function that is currently executing its instructions. Because an exclusive sample is also part of the total (*inclusive*) samples of the function, the inclusive sample count of the currently active function is also incremented.  
   
--   The profiler increments the inclusive sample count of all other functions on the call stack.  
+- The profiler increments the inclusive sample count of all other functions on the call stack.  
   
 ## Lifetime data  
  The garbage collector of the .NET Framework manages the allocation and release of memory for your application. To optimize the performance of the garbage collector, the managed heap is divided into three generations: 0, 1, and 2. The run-time's garbage collector stores new objects in generation 0. Objects that survive collections are promoted and stored in generations 1 and 2.  

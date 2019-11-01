@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "SYMBOL_SEARCH_INFO_FIELDS enumeration"
 ms.assetid: bce35af0-722d-46d4-afa6-eaae598c51ff
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # SYMBOL_SEARCH_INFO_FIELDS
 Specifies the kind of symbol information to retrieve.
@@ -36,18 +39,18 @@ public enum enum_SYMBOL_SEARCH_INFO_FIELDS
 
 ```
 
-## Members
- SSIF_NONE
+## Fields
+ `SSIF_NONE`\
  Indicates no flags
 
- SSIF_VERBOSE_SEARCH_INFO
+ `SSIF_VERBOSE_SEARCH_INFO`\
  Returns all search paths used for finding symbols
 
 ## Remarks
  These flags are passed as a parameter to the [GetSymbolInfo](../../../extensibility/debugger/reference/idebugmodule3-getsymbolinfo.md) method to determine the amount of information returned.
 
 > [!NOTE]
->  Currently, only `SSIF_VERBOSE_SEARCH_INFO` is supported, and it must be specified as the `dwFlags` parameter to `IDebugModule3::GetSymbolInfo`. All other values return an error.
+> Currently, only `SSIF_VERBOSE_SEARCH_INFO` is supported, and it must be specified as the `dwFlags` parameter to `IDebugModule3::GetSymbolInfo`. All other values return an error.
 
 ## Requirements
  Header: msdbg.h
@@ -56,6 +59,6 @@ public enum enum_SYMBOL_SEARCH_INFO_FIELDS
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetSymbolInfo](../../../extensibility/debugger/reference/idebugmodule3-getsymbolinfo.md)

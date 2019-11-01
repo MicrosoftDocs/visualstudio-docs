@@ -9,8 +9,10 @@
 - name: Graphics Log Document
   href: graphics-log-document.md
 - name: Graphics Frame Analysis
-  href: graphics-frame-analysis.md
+# Auto-expanded node
   items:
+  - name: Graphics Frame Analysis
+    href: graphics-frame-analysis.md
   - name: 1x1 Viewport Size Variant
     href: 1x1-viewport-size-variant.md
   - name: 0x-2x-4x MSAA Variants
@@ -46,8 +48,10 @@
 - name: Command-Line Capture Tool
   href: command-line-capture-tool.md
 - name: Graphics Diagnostics Examples
-  href: graphics-diagnostics-examples.md
+# Auto-expanded node
   items:
+  - name: Graphics Diagnostics Examples
+    href: graphics-diagnostics-examples.md
   - name: "Walkthrough: Capturing Graphics Information"
     href: walkthrough-capturing-graphics-information.md
   - name: "Walkthrough: Capturing Graphics Information Programmatically"
@@ -65,11 +69,15 @@
   - name: "How to: Change the Graphics Diagnostics Playback Machine"
     href: how-to-change-the-graphics-diagnostics-playback-machine.md
 - name: Reference (Programmatic Capture)
-  href: reference-programmatic-capture.md
+# Auto-expanded node
   items:
+  - name: Reference (Programmatic Capture)
+    href: reference-programmatic-capture.md
   - name: VsgDbg Class
-    href: vsgdbg-class.md
+# Auto-expanded node
     items:
+    - name: VsgDbg Class
+      href: vsgdbg-class.md
     - name: VsgDbg::VsgDbg (Constructor)
       href: vsgdbg-vsgdbg-constructor.md
     - name: VsgDbg::~VsgDbg (Destructor)

@@ -35,7 +35,7 @@ HRESULT get_lexicalParent ( 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.  
   
 > [!NOTE]
->  A return value of `S_FALSE` means the property is not available for the symbol.  
+> A return value of `S_FALSE` means the property is not available for the symbol.  
   
 ## Remarks  
  The lexical parent of a symbol is the enclosing function or module. For example, the lexical parent of a function parameter or local variable is the function itself while the lexical parent of the function is the module it is defined in.  

@@ -39,19 +39,19 @@ After you have registered your programs with the appropriate port, you must atta
   
   After the `IDebugEngine2::Attach` method is called, follow these steps in your implementation of the `IDebugEngine2::Attach` method:  
   
-1.  Send an [IDebugEngineCreateEvent2](../../extensibility/debugger/reference/idebugenginecreateevent2.md) event object to the SDM. For more information, see [Sending Events](../../extensibility/debugger/sending-events.md).  
+1. Send an [IDebugEngineCreateEvent2](../../extensibility/debugger/reference/idebugenginecreateevent2.md) event object to the SDM. For more information, see [Sending Events](../../extensibility/debugger/sending-events.md).  
   
-2.  Call the [GetProgramId](../../extensibility/debugger/reference/idebugprogram2-getprogramid.md) method on the [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md) object that was passed to the `IDebugEngine2::Attach` method.  
+2. Call the [GetProgramId](../../extensibility/debugger/reference/idebugprogram2-getprogramid.md) method on the [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md) object that was passed to the `IDebugEngine2::Attach` method.  
   
      This returns a `GUID` that is used to identify the program. The `GUID` must be stored in the object that represents the local program to the DE, and it must be returned when the `IDebugProgram2::GetProgramId` method is called on the `IDebugProgram2` interface.  
   
     > [!NOTE]
-    >  If you implement the `IDebugProgramNodeAttach2` interface, the program's `GUID` is passed to the `IDebugProgramNodeAttach2::OnAttach` method. This `GUID` is used for the program's `GUID` returned by the `IDebugProgram2::GetProgramId` method.  
+    > If you implement the `IDebugProgramNodeAttach2` interface, the program's `GUID` is passed to the `IDebugProgramNodeAttach2::OnAttach` method. This `GUID` is used for the program's `GUID` returned by the `IDebugProgram2::GetProgramId` method.  
   
-3.  Send an [IDebugProgramCreateEvent2](../../extensibility/debugger/reference/idebugprogramcreateevent2.md) event object to notify the SDM that the local `IDebugProgram2` object was created to represent the program to the DE. For details, see [Sending Events](../../extensibility/debugger/sending-events.md).  
+3. Send an [IDebugProgramCreateEvent2](../../extensibility/debugger/reference/idebugprogramcreateevent2.md) event object to notify the SDM that the local `IDebugProgram2` object was created to represent the program to the DE. For details, see [Sending Events](../../extensibility/debugger/sending-events.md).  
   
     > [!NOTE]
-    >  This is not the same `IDebugProgram2` object that was passed into the `IDebugEngine2::Attach` method. The previously passed `IDebugProgram2` object is recognized by the port only and is a separate object.  
+    > This is not the same `IDebugProgram2` object that was passed into the `IDebugEngine2::Attach` method. The previously passed `IDebugProgram2` object is recognized by the port only and is a separate object.  
   
 ## See Also  
  [Launch-based Attachment](../../extensibility/debugger/launch-based-attachment.md)   

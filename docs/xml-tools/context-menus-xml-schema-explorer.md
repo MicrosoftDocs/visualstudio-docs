@@ -3,8 +3,8 @@ title: "Context Menus in XML Schema Explorer"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 42ab17ca-b8c1-40d7-beda-d033f66fe874
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -25,7 +25,7 @@ The following table describes the options that are available for a schema set no
 |**Properties Window**|Opens the **Properties** window (if it is not already open). This window displays information about the node.|
 
 ## Node type: Namespace
- The following table describes the options that are available for a namespace node.
+The following table describes the options that are available for a namespace node.
 
 |Option|Description|
 |-|-----------------|
@@ -36,7 +36,7 @@ The following table describes the options that are available for a schema set no
 |**Properties Window**|Opens the **Properties** window (if it is not already open). This window displays information about the node.|
 
 ## Node type: File
- The following table describes the options that are available for a file node.
+The following table describes the options that are available for a file node.
 
 |Option|Description|
 |-|-----------------|
@@ -44,21 +44,21 @@ The following table describes the options that are available for a schema set no
 |**Show All Outbound References**|Finds and highlights the following:<br /><br /> -   All namespaces specified in the namespace attributes of all import statements that do not have the `schemaLocation` attribute.<br />-   All files specified in the `schemaLocation` attributes of all import and include statements.|
 |**Show Global Types**|Finds and highlights all global types in this file.|
 |**Show Global Elements**|Finds and highlights all global elements in this file.|
-|**View Code**|Opens the file that contains the selected node in the XML Editor. The item that is selected in the XML Schema Explorer will also be selected in the XML Editor.|
+|**View Code**|Opens the file that contains the selected node in the XML editor. The item that is selected in the XML Schema Explorer will also be selected in the XML editor.|
 |**Properties Window**|Opens the **Properties** window (if it is not already open). This window displays information about the node.|
 
 ## All global node types
- The following table describes the options that are available for all global nodes.
+The following table describes the options that are available for all global nodes.
 
 |Option|Description|
 |-|-----------------|
 |**Show in Graph View**|Opens the Graph View. If the selected node is not in the workspace, adds it to the workspace and selects the node.|
 |**Show in Content Model View**|Opens the Content Model View. If the selected node is not in the workspace, adds it to the workspace and selects the node.|
-|**View Code**|Opens the file that contains the selected node in the XML Editor. The item that is selected in the XML Schema Explorer will also be selected in the XML Editor.|
+|**View Code**|Opens the file that contains the selected node in the XML editor. The item that is selected in the XML Schema Explorer will also be selected in the XML editor.|
 |**Properties Window**|Opens the **Properties** window (if it is not already open). This window displays information about the node.|
 
 ## Node type: Element
- In addition to the global node options described above, the context menu for element nodes has the following options:
+In addition to the global node options described above, the context menu for element nodes has the following options:
 
 |Option|Description|
 |-|-----------------|
@@ -70,7 +70,7 @@ The following table describes the options that are available for a schema set no
 |**Generate Sample XML**|Available only for global elements. Generates a sample XML file for the global element.|
 
 ## Node type: Global types
- In addition to the global node options described above, the context menu for global type nodes has the following options:
+In addition to the global node options described above, the context menu for global type nodes has the following options:
 
 |Option|Description|
 |-|-----------------|
@@ -80,7 +80,7 @@ The following table describes the options that are available for a schema set no
 |**Show All Ancestors**|Show all parent (base) types.|
 
 ## Node type: Attribute
- In addition to the global node options described above, the context menu for attribute nodes has the following options:
+In addition to the global node options described above, the context menu for attribute nodes has the following options:
 
 |Option|Description|
 |-|-----------------|
@@ -89,7 +89,7 @@ The following table describes the options that are available for a schema set no
 |**Show All References**|For global attributes, finds and highlights all references (other attributes that have `ref="selectedAttribute"`) to the selected attribute.|
 
 ## Node type: Attribute group
- In addition to the global node options described above, the context menu for attribute group nodes has the following options:
+In addition to the global node options described above, the context menu for attribute group nodes has the following options:
 
 |Option|Description|
 |-|-----------------|
@@ -98,7 +98,7 @@ The following table describes the options that are available for a schema set no
 |**Show All References**|Finds and highlights all references (attribute groups that have `ref="selectedAttributeGroup"`) to the selected attribute group.|
 
 ## Node type: Named group
- In addition to the global node options described above, the context menu for named group nodes has the following options:
+In addition to the global node options described above, the context menu for named group nodes has the following options:
 
 |Option|Description|
 |-|-----------------|

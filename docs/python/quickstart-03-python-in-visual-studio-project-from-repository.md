@@ -3,8 +3,8 @@ title: Quickstart - Clone a repository of Python code
 description: In this quickstart, you create a Python project in Visual Studio by cloning the Python koans repository using Visual Studio Team Explorer.
 ms.date: 12/06/2018
 ms.topic: quickstart
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
@@ -14,7 +14,7 @@ ms.workload:
 
 # Quickstart: Clone a repository of Python code in Visual Studio
 
-Once you've [installed Python support in Visual Studio 2017](installing-python-support-in-visual-studio.md), you can add the GitHub Extension for Visual Studio. The extension lets you easily clone a repository of Python code and create a project from it from within the IDE. You can always clone repositories on the command line as well, and then work with them in Visual Studio.
+Once you've [installed Python support in Visual Studio](installing-python-support-in-visual-studio.md), you can add the GitHub Extension for Visual Studio. The extension lets you easily clone a repository of Python code and create a project from it from within the IDE. You can always clone repositories on the command line as well, and then work with them in Visual Studio.
 
 ## Install the GitHub Extension for Visual Studio
 
@@ -78,5 +78,5 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 ## See also
 
 - [Manually identify an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment)
-- [Install Python support in Visual Studio 2015 and earlier](installing-python-support-in-visual-studio.md)
+- [How to install Python support in Visual Studio on Windows](installing-python-support-in-visual-studio.md)
 - [Install locations](installing-python-support-in-visual-studio.md#install-locations)

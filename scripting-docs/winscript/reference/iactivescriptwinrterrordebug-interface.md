@@ -2,7 +2,6 @@
 title: "IActiveScriptWinRTErrorDebug Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,7 +18,7 @@ manager: "ghogen"
 Implemented by the JavaScript engine to provide extended Windows Runtime error information from a [BREAKREASON Enumeration](../../winscript/reference/breakreason-enumeration.md) event. You can do a QueryInterface to get it from an [IActiveScriptError](../../winscript/reference/iactivescripterror.md) object.  
   
 > [!IMPORTANT]
->  This interface is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> This interface is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Methods  
  The `IActiveScriptWinRTErrorDebug` interface exposes the following methods.  

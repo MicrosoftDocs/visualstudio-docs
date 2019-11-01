@@ -6,11 +6,14 @@ helpviewer_keywords:
   - "GetAddressesInModuleFromPosition"
   - "IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition"
 ms.assetid: f901c66e-f53c-4ea0-8004-d8fcbf46f916
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition
 Maps a document position in the specified module to an array of debug addresses.
@@ -39,30 +42,24 @@ int GetAddressesInModuleFromPosition(
 );
 ```
 
-#### Parameters
- `ulAppDomainID`
+## Parameters
+`ulAppDomainID`\
+[in] Application domain identifier.
 
- [in] Application domain identifier.
+`guidModule`\
+[in] Unique identifier of the module.
 
- `guidModule`
+`pDocPos`\
+[in] The document position.
 
- [in] Unique identifier of the module.
+`fStatmentOnly`\
+[in] If `TRUE`, limits the debug addresses to a single statement.
 
- `pDocPos`
+`ppEnumBegAddresses`\
+[out] Returns an enumerator for the starting debug addresses that are associated with this statement or line.
 
- [in] The document position.
-
- `fStatmentOnly`
-
- [in] If `TRUE`, limits the debug addresses to a single statement.
-
- `ppEnumBegAddresses`
-
- [out] Returns an enumerator for the starting debug addresses that are associated with this statement or line.
-
- `ppEnumEndAddresses`
-
- [out] Returns an enumerator for the ending debug addresses that are associated with this statement or line.
+`ppEnumEndAddresses`\
+[out] Returns an enumerator for the ending debug addresses that are associated with this statement or line.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -219,5 +216,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

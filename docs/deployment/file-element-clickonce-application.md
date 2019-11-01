@@ -160,14 +160,12 @@ Identifies all nonassembly files downloaded and used by the application.
 ## dsig:Transform
  The `dsig:Transform` element is a required child of the `dsig:Transforms` element. The `dsig:Transform` element has the following attributes.
 
-
 | Attribute | Description |
 |-------------| - |
 | `Algorithm` | The algorithm used to calculate the digest for this file. Currently the only value used by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] is `urn:schemas-microsoft-com:HashTransforms.Identity`. |
 
 ## dsig:DigestMethod
  The `dsig:DigestMethod` element is a required child of the `hash` element. The `dsig:DigestMethod` element has the following attributes.
-
 
 | Attribute | Description |
 |-------------| - |

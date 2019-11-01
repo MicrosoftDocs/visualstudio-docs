@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "EXCEPTION_STATE enumeration"
 ms.assetid: 597f4f4c-9b70-485c-b5dc-3c2e3aecc664
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # EXCEPTION_STATE
 Specifies the exception state.
@@ -67,50 +70,50 @@ public enum enum_EXCEPTION_STATE {
 };
 ```
 
-## Members
-EXCEPTION_NONE
+## Fields
+`EXCEPTION_NONE`\
 Do not stop at the exception.
 
-EXCEPTION_STOP_FIRST_CHANCE
+`EXCEPTION_STOP_FIRST_CHANCE`\
 Stop at first firing of exception. When describing an exception event, this flag indicates that the exception event is a first-chance exception event.
 
-EXCEPTION_STOP_SECOND_CHANCE
+`EXCEPTION_STOP_SECOND_CHANCE`\
 Stop at second firing of exception. When describing an exception event, indicates that the exception event is a second-chance exception event.
 
-EXCEPTION_STOP_USER_FIRST_CHANCE
+`EXCEPTION_STOP_USER_FIRST_CHANCE`\
 Stop at first firing of a user mode exception. When describing an exception event, indicates that the exception event is a first-chance user exception event.
 
-EXCEPTION_STOP_USER_UNCAUGHT
+`EXCEPTION_STOP_USER_UNCAUGHT`\
 Stop when a user mode exception is not caught. When describing an exception event, indicates that the exception event is an uncaught user mode exception event.
 
-EXCEPTION_STOP_ALL
+`EXCEPTION_STOP_ALL`\
 Stop on any exception. Not used when describing an exception event.
 
-EXCEPTION_CANNOT_BE_CONTINUED
+`EXCEPTION_CANNOT_BE_CONTINUED`\
 When describing an exception event, indicates that the exception cannot be continued from.
 
-EXCEPTION_CODE_SUPPORTED
+`EXCEPTION_CODE_SUPPORTED`\
 Indicates that the exception has code supporting it. Used in displaying an exception
 
-EXCEPTION_CODE_DISPLAY_IN_HEX
+`EXCEPTION_CODE_DISPLAY_IN_HEX`\
 Indicates that the exception code should be displayed in hexadecimal. Used in displaying an exception.
 
-EXCEPTION_JUST_MY_CODE_SUPPORTED
+`EXCEPTION_JUST_MY_CODE_SUPPORTED`\
 Indicates that the exception code supports JustMyCode. Used in displaying an exception.
 
-EXCEPTION_MANAGED_DEBUG_ASSISTANT
+`EXCEPTION_MANAGED_DEBUG_ASSISTANT`\
 Indicates that the managed code debugger should handle exceptions. If not set, the default debugger handles the exceptions. This is passed to the [SetAllExceptions](../../../extensibility/debugger/reference/idebugengine3-setallexceptions.md) method and not used in the [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) structure.
 
-EXCEPTION_STOP_FIRST_CHANCE_USE_PARENT
+`EXCEPTION_STOP_FIRST_CHANCE_USE_PARENT`\
 OBSOLETE, DO NOT USE.
 
-EXCEPTION_STOP_SECOND_CHANCE_USE_PARENT
+`EXCEPTION_STOP_SECOND_CHANCE_USE_PARENT`\
 OBSOLETE, DO NOT USE.
 
-EXCEPTION_STOP_USER_FIRST_CHANCE_USE_PARENT
+`EXCEPTION_STOP_USER_FIRST_CHANCE_USE_PARENT`\
 OBSOLETE, DO NOT USE.
 
-EXCEPTION_STOP_USER_SECOND_CHANCE_USE_PARENT
+`EXCEPTION_STOP_USER_SECOND_CHANCE_USE_PARENT`\
 OBSOLETE, DO NOT USE.
 
 ## Remarks
@@ -127,7 +130,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md)
 - [SetAllExceptions](../../../extensibility/debugger/reference/idebugengine3-setallexceptions.md)

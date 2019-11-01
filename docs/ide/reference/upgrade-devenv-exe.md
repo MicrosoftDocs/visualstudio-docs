@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "Devenv, /upgrade switch"
   - "upgrade Devenv switch"
 ms.assetid: 3468045c-5cc9-4157-9a9d-622452145d27
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -43,7 +43,7 @@ Backups are automatically created and copied to a directory named Backup that's 
 
 Source-controlled solutions or projects must be checked out before they can be upgraded.
 
-Using the `/Upgrade` switch doesn't start Visual Studio. Results of the upgrade can be seen in the Upgrade Report for the development language of the solution or project. No error or usage info is returned. For more information on upgrading projects in Visual Studio, see [Port, Migrate, and Upgrade Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md).
+Using the `/Upgrade` switch doesn't open Visual Studio. Results of the upgrade can be seen in the Upgrade Report for the development language of the solution or project. No error or usage info is returned. For more information on upgrading projects in Visual Studio, see [Port, Migrate, and Upgrade Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md).
 
 ## Example
 

@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplication::ResumeFromBreakPoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -52,7 +51,7 @@ HRESULT ResumeFromBreakPoint(
 ## Remarks  
  This method continues an application that is currently in a breakpoint.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)   
  [BREAKRESUMEACTION Enumeration](../../winscript/reference/breakresumeaction-enumeration.md)   
  [ERRORRESUMEACTION Enumeration](../../winscript/reference/errorresumeaction-enumeration.md)

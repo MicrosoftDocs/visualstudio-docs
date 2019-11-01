@@ -2,7 +2,6 @@
 title: "IActiveScriptSite::GetItemInfo | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -64,5 +63,5 @@ HRESULT GetItemInfo(
 ## Remarks  
  This method retrieves only the information indicated by the `dwReturnMask` parameter; this improves performance. For example, if an `ITypeInfo` interface is not needed for an item, it is simply not specified in `dwReturnMask`.  
   
-## See Also  
+## See also  
  [IActiveScriptSite](../../winscript/reference/iactivescriptsite.md)

@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "saving data"
   - "TableAdapters"
 ms.assetid: 012c5924-91f7-4790-b2a6-f51402b7014b
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"
@@ -36,7 +36,7 @@ Call the TableAdapter `DbDirect` method that performs the task you are trying to
 
 ### To insert new records directly into a database
 
--   Call the TableAdapter's `Insert` method, passing in the values for each column as parameters. The following procedure uses the `Region` table in the Northwind database as an example.
+- Call the TableAdapter's `Insert` method, passing in the values for each column as parameters. The following procedure uses the `Region` table in the Northwind database as an example.
 
     > [!NOTE]
     > If you do not have an instance available, instantiate the TableAdapter that you want to use.
@@ -46,7 +46,7 @@ Call the TableAdapter `DbDirect` method that performs the task you are trying to
 
 ### To update records directly in a database
 
--   Call the TableAdapter's `Update` method, passing in the new and original values for each column as parameters.
+- Call the TableAdapter's `Update` method, passing in the new and original values for each column as parameters.
 
     > [!NOTE]
     > If you do not have an instance available, instantiate the TableAdapter that you want to use.
@@ -56,7 +56,7 @@ Call the TableAdapter `DbDirect` method that performs the task you are trying to
 
 ### To delete records directly from a database
 
--   Call the TableAdapter's `Delete` method, passing in the values for each column as parameters of the `Delete` method. The following procedure uses the `Region` table in the Northwind database as an example.
+- Call the TableAdapter's `Delete` method, passing in the values for each column as parameters of the `Delete` method. The following procedure uses the `Region` table in the Northwind database as an example.
 
     > [!NOTE]
     > If you do not have an instance available, instantiate the TableAdapter that you want to use.

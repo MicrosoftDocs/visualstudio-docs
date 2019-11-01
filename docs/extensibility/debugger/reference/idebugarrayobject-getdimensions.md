@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugArrayObject::GetDimensions method"
 ms.assetid: 113e0aff-9028-49d6-b104-9fe7be4772d7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -32,14 +32,12 @@ int GetDimensions(
 );
 ```
 
-#### Parameters
- `dwCount`
+## Parameters
+`dwCount`\
+[in] The number of dimensions to retrieve.
 
- [in] The number of dimensions to retrieve.
-
- `dwDimensions`
-
- [in, out] An array that is filled in with the sizes of each dimension. `dwCount` specifies the maximum size of the `dwDimensions` array.
+`dwDimensions`\
+[in, out] An array that is filled in with the sizes of each dimension. `dwCount` specifies the maximum size of the `dwDimensions` array.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.
@@ -47,5 +45,5 @@ int GetDimensions(
 ## Remarks
  A multi-dimensional array can have different sizes for each dimension. For example, given the three-dimensional array `myarray[3][2][6]`, this method would return 3, 2, and 6 in the `dwDimensions` parameter in that order.
 
-## See Also
+## See also
 - [IDebugArrayObject](../../../extensibility/debugger/reference/idebugarrayobject.md)

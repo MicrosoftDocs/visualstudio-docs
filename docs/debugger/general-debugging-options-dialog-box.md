@@ -55,7 +55,7 @@ Enables advanced features for debugging at the address level (the **Disassembly*
 Enables you to set filters on breakpoints so that they will affect only specific processes, threads, or computers.
 
 **Use the new Exception Helper**:
-Enables the Exception Helper (Visual Studio 2017) that replaces the exception assistant.
+Enables the Exception Helper that replaces the exception assistant. (Exception Helper is supported starting in Visual Studio 2017)
 
 > [!NOTE]
 > For managed code, this option was previously called **Enable the exception assistant** .
@@ -97,7 +97,7 @@ Tells the Visual Studio debugger to get source files from source servers that im
     Tells the Visual Studio debugger to download source files for *.pdb* files that contain Source Link information. For more information about Source Link, see the [Source link specification](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/source_link.md).
 
 > [!IMPORTANT]
->  Because Source Link will download files using http or https, make sure you trust the *.pdb* file.
+> Because Source Link will download files using http or https, make sure you trust the *.pdb* file.
 
 - **Fall back to Git Credential Manager authentication for all Source Link requests**:
     When Source Link support is enabled, and a Source Link request fails authentication, Visual Studio then calls the Git Credential Manager.
@@ -112,16 +112,16 @@ Tells the debugger to verify that a source file matches the version of the sourc
 Sends all debugger messages that would ordinarily appear in the **Output** window to the **Immediate** window instead.
 
 **Show raw structure of objects in variables windows**:
-Turns off all object structure view customizations. For more information about view customizations, see [Create custom views of .managed objects](../debugger/create-custom-views-of-dot-managed-objects.md).
+Turns off all object structure view customizations. For more information about view customizations, see [Create custom views of managed objects](../debugger/create-custom-views-of-managed-objects.md).
 
 **Suppress JIT optimization on module load (Managed only)**:
 Disables the JIT optimization of managed code when a module is loaded and JIT is compiled while the debugger is attached. Disabling optimization may make it easier to debug some problems, although at the expense of performance. If you are using Just My Code, suppressing JIT optimization can cause non-user code to appear as user code ("My Code"). For more information, see [JIT optimization and debugging](../debugger/jit-optimization-and-debugging.md).
 
-**Enable JavaScript debugging for ASP.NET (Chrome, Edge, and IE)**:
+**Enable JavaScript debugging for ASP.NET (Chrome, Microsoft Edge, and IE)**:
 Enables the script debugger for ASP.NET apps. On first use in Chrome, you may need to sign into the browser to enable Chrome extensions that you have installed. Disable this option to revert to legacy behavior.
 
 **Enable Edge Developer Tools for UWP JavaScript Apps (Experimental)**:
-Enables developer tools for UWP JavaScript apps in Edge.
+Enables developer tools for UWP JavaScript apps in Microsoft Edge.
 
 **Enable legacy Chrome JavaScript debugger for ASP.NET**:
 Enables the legacy Chrome JavaScript script debugger for ASP.NET apps. On first use in Chrome, you may need to sign into the browser to enable Chrome extensions that you have installed.
@@ -143,7 +143,7 @@ Ignores race conditions that were detected during debugging if the data didn't c
 **Use Managed Compatibility Mode**:
 Replaces the default debugging engine with a legacy version to enable these scenarios:
 
-- You are using a .NET Framework language other than C#, Visual Basic, or F# that provides its own Expression Evaluator (this includes C++/CLI).
+- You are using a .NET language other than C#, Visual Basic, or F# that provides its own Expression Evaluator (this includes C++/CLI).
 
 - You want to enable Edit and Continue for C++ projects during mixed mode debugging.
 
@@ -160,7 +160,7 @@ Visual Studio warns you when you are using a custom debugger visualizer that is 
 Enables the windows debug heap to improve heap diagnostics. Enabling this option will impact debugging performance.
 
 **Enable UI Debugging Tools for XAML**:
-The Live Visual Tree and the Live Property Explore windows will appear when you start debugging (**F5**) a supported project type. For more information, see [Inspect XAML properties while debugging](../debugger/inspect-xaml-properties-while-debugging.md).
+The Live Visual Tree and the Live Property Explore windows will appear when you start debugging (**F5**) a supported project type. For more information, see [Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md).
 
 - **Preview selected elements in Live Visual Tree**:
     The XAML element whose context is selected is also selected in the **Live Visual Tree** window.
@@ -168,8 +168,8 @@ The Live Visual Tree and the Live Property Explore windows will appear when you 
 - **Show runtime tools in application**:
     Shows the **Live Visual Tree** commands in a toolbar on the main window of the XAML application that is being debugged. This option was introduced in Visual Studio 2015 Update 2.
 
-- **Enable XAML Edit and Continue**:
-    Allows you to use the Edit and Continue feature with XAML code.
+- **Enable XAML Hot Reload**:
+    Allows you to use the XAML Hot Reload feature with XAML code when your app is running. (This feature was previously called "XAML Edit and Continue")
 
 **Enable Diagnostic Tools while debugging**:
 The **Diagnostic Tools** window appears while you are debugging.
@@ -181,7 +181,7 @@ The code window displays the elapsed time of a given method call when you are de
 Enables the Edit and Continue functionality while debugging.
 
 - **Enable Native Edit and Continue**:
-    You can use the Edit and Continue functionality while debugging native C++ code. For more information, see [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md).
+    You can use the Edit and Continue functionality while debugging native C++ code. For more information, see [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md).
 
 - **Apply changes on continue (Native only)**:
     Visual Studio automatically compiles and applies any outstanding code changes you have made when continuing the process from a break state. If not selected, you can choose to apply changes using the **Apply Code Changes** item under the **Debug** menu.
@@ -190,17 +190,22 @@ Enables the Edit and Continue functionality while debugging.
     Get warnings about stale code.
 
 **Show Run to Click button in editor while debugging**:
-When this option is selected, the [Run to Click](debugger-feature-tour.md#run-to-a-point-in-your-code-quickly-using-the-mouse) button will be shown while debugging.
+When this option is selected, the [Run to Click](../debugger/debugger-feature-tour.md#run-to-a-point-in-your-code-quickly-using-the-mouse) button will be shown while debugging.
 
 **Automatically close the console when debugging stops**:
 Tells Visual Studio to close the console at the end of a debugging session.
+
+::: moniker range=">= vs-2019"
+**Enable fast expression evaluation (Managed only)**:
+Allows the debugger to attempt faster evaluation by simulating execution of simple properties and methods.
+::: moniker-end
 
 ## Options available in older versions of Visual Studio
 
 If you're using an older version of Visual Studio, some additional options might be present.
 
 **Enable the exception assistant**:
-For managed code, enables the exception assistant. In Visual Studio 2017, the Exception Helper replaced the exception assistant.
+For managed code, enables the exception assistant. Starting in Visual Studio 2017, the Exception Helper replaced the exception assistant.
 
 **Unwind the call stack on unhandled exceptions**:
 Causes the **Call Stack** window to roll back the call stack to the point before the unhandled exception occurred.
@@ -218,5 +223,5 @@ When this option is selected, the debugger uses the Visual Studio 2010 native de
 
 ## See also
 
-- [Debugging in Visual Studio](../debugger/index.md)
-- [Debugger feature tour](../debugger/debugger-feature-tour.md)
+- [Debugging in Visual Studio](../debugger/index.yml)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)

@@ -26,29 +26,29 @@ Code access security for ClickOnce applications must be enabled in order to publ
 
 ### To enable ClickOnce security settings
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
-2.  Click the **Security** tab.
+2. Click the **Security** tab.
 
-3.  Select the **Enable ClickOnce Security Settings** check box.
+3. Select the **Enable ClickOnce Security Settings** check box.
 
      You can now customize the security settings for your application on the Security page.
 
     > [!NOTE]
-    >  This check box is automatically selected each time the application is published with the **Publish** wizard.
+    > This check box is automatically selected each time the application is published with the **Publish** wizard.
 
 ### To disable ClickOnce security settings
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
-2.  Click the **Security** tab.
+2. Click the **Security** tab.
 
-3.  Clear the **Enable ClickOnce Security Settings** check box.
+3. Clear the **Enable ClickOnce Security Settings** check box.
 
      Your application will be run with the full trust security settings; any settings on the **Security** page will be ignored.
 
     > [!NOTE]
-    >  Each time the application is published with the Publish wizard, this check box will be selected; you must clear it again after each successful publish.
+    > Each time the application is published with the Publish wizard, this check box will be selected; you must clear it again after each successful publish.
 
 ## See also
 - [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)

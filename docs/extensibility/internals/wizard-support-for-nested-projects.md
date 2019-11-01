@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "nested projects, wizard support"
   - "New Project wizard"
 ms.assetid: 1b496acc-b326-4cdb-bb48-e3b5c6f12e05
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -22,6 +22,6 @@ The IDE runs two wizards that the parent project for nested projects can impleme
 
  For more information about wizards, see [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md), [Context Parameters](../../extensibility/internals/context-parameters.md) and [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md).
 
-## See Also
+## See also
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy>
 - [Nesting Projects](../../extensibility/internals/nesting-projects.md)

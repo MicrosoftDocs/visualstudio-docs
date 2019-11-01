@@ -19,7 +19,7 @@ The Call Tree view displays the function execution paths that were traversed in 
 ## Highlight the execution hot path
  The Call Tree view can expand and highlight the execution path of the process or function that created the most contentions.
 
--   To display the most active path, right-click the process or function, and then click **Expand Hot Path**.
+- To display the most active path, right-click the process or function, and then click **Expand Hot Path**.
 
 ## Set the Call Tree root node
  Each process in the profiling run appears as a root node. To set the starting node of the Call Tree view, right-click the node that you want to set as the start node, and then click **Set Root**.

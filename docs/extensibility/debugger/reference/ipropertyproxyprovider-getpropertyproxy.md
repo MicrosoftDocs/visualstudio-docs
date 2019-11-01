@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IPropertyProxyProvider::GetPropertyProxy"
 ms.assetid: 3ebb7515-5bfe-48f4-9b8d-721b8f664eb6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IPropertyProxyProvider::GetPropertyProxy
 Retrieves the property proxy interface for the specified proxy ID.
@@ -32,14 +35,12 @@ int GetPropertyProxy(
 );
 ```
 
-#### Parameters
- `dwID`
+## Parameters
+`dwID`\
+[in] ID of the desired property proxy.
 
- [in] ID of the desired property proxy.
-
- `proxy`
-
- [out] Returns an [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) object.
+`proxy`\
+[out] Returns an [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -47,7 +48,7 @@ int GetPropertyProxy(
 ## Remarks
  To support external type visualizers, this method typically forwards the call to the [GetPropertyProxy](../../../extensibility/debugger/reference/ieevisualizerservice-getpropertyproxy.md) method. See [Visualizing and Viewing Data](../../../extensibility/debugger/visualizing-and-viewing-data.md) for details on how the IEEVisualizerService is obtained.
 
-## See Also
+## See also
 - [IPropertyProxyProvider](../../../extensibility/debugger/reference/ipropertyproxyprovider.md)
 - [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)
 - [GetPropertyProxy](../../../extensibility/debugger/reference/ieevisualizerservice-getpropertyproxy.md)

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "MarkWindowsFormsEntryPointsWithStaThread"
 ms.assetid: a3c95130-8e7f-4419-9fcd-b67d077e8efb
 caps.latest.revision: 18
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2232: Mark Windows Forms entry points with STAThread
@@ -33,7 +33,7 @@ manager: "wpickett"
  <xref:System.STAThreadAttribute> indicates that the COM threading model for the application is single-threaded apartment. This attribute must be present on the entry point of any application that uses Windows Forms; if it is omitted, the Windows components might not work correctly. If the attribute is not present, the application uses the multithreaded apartment model, which is not supported for Windows Forms.
 
 > [!NOTE]
->  [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] projects that use the Application Framework do not have to mark the **Main** method with STAThread. The [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] compiler does it automatically.
+> [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] projects that use the Application Framework do not have to mark the **Main** method with STAThread. The [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] compiler does it automatically.
 
 ## How to Fix Violations
  To fix a violation of this rule, add the <xref:System.STAThreadAttribute> attribute to the entry point. If the <xref:System.MTAThreadAttribute?displayProperty=fullName> attribute is present, remove it.

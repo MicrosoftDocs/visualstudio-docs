@@ -28,7 +28,7 @@ ms.workload:
 You can change the project settings for a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] debug configuration in the **Property Pages** window, as discussed in [Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** window.
 
 > [!WARNING]
->  This topic does not apply to UWP apps. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)
+> This topic does not apply to UWP apps. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)
 
 ### Debug tab
 
@@ -51,5 +51,5 @@ You can change the project settings for a [!INCLUDE[vbprvb](../code-quality/incl
 | **Define DEBUG Constant** | Defining this symbol enables conditional compiling of output functions from the [Debug class](/dotnet/api/system.diagnostics.debug). With this symbol defined, Debug class methods generate output to the [Output window](../ide/reference/output-window.md). Without this symbol, Debug class methods are not compiled and no output is generated. This symbol should be defined in the Debug version and not defined in the Release version. Defining this symbol in a Release version creates unnecessary code that slows your program down. |
 | **Define TRACE Constant** | Defining this symbol enables conditional compiling of output functions from the [Trace class](/dotnet/api/system.diagnostics.trace). With this symbol defined, the Trace class methods generate output to the [Output window](../ide/reference/output-window.md). Without this symbol, Trace class methods are not compiled and no Trace output is generated. This symbol is defined by default for both Debug and Release versions. |
 
-## See Also
+## See also
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

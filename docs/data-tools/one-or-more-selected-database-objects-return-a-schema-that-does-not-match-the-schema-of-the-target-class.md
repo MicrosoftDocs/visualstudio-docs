@@ -3,8 +3,8 @@ title: One or more selected database objects return a schema that does not match
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 3794e88b-4d3d-4e7a-ade6-8208eabe3eae
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"
@@ -23,5 +23,4 @@ When you drag database objects onto existing entity classes, the data returned b
 
 ## See also
 
-- [O/R Designer messages](../data-tools/o-r-designer-messages.md)
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

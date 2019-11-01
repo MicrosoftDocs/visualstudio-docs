@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProperty3 interface"
 ms.assetid: 8f9be68d-4490-4eca-8f6b-8a10ed77e226
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -16,13 +16,13 @@ ms.workload:
 # IDebugProperty3
 This interface provides support for:
 
--   Retrieving an arbitrarily long string associated with the property.
+- Retrieving an arbitrarily long string associated with the property.
 
--   Associating a unique ID with the property.
+- Associating a unique ID with the property.
 
--   Retrieving a list of custom viewers for the property.
+- Retrieving a list of custom viewers for the property.
 
--   Setting the value of a property with the ability to report any resulting errors
+- Setting the value of a property with the ability to report any resulting errors
 
 ## Syntax
 
@@ -59,7 +59,7 @@ IDebugProperty3 : IDebugProperty2
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
 - [IDebugCustomViewer](../../../extensibility/debugger/reference/idebugcustomviewer.md)

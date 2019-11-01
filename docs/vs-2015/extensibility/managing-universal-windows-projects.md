@@ -12,18 +12,18 @@ manager: jillfra
 # Managing Universal Windows Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8.1, allowing developers to use code and other assets on both platforms. The shared code and resources are kept in a shared project, while the platform-specific code and resources are kept in separate projects, one for Windows and the other for Windows Phone. For more information about universal Windows apps, see [Universal Windows Apps](http://msdn.microsoft.com/library/windows/apps/dn609832.aspx). Visual Studio extensions that manage projects should be aware that universal Windows app projects have a structure that differs from single-platform apps. This walkthrough shows you how to navigate the shared project and manage the shared items.  
+Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8.1, allowing developers to use code and other assets on both platforms. The shared code and resources are kept in a shared project, while the platform-specific code and resources are kept in separate projects, one for Windows and the other for Windows Phone. For more information about universal Windows apps, see [Universal Windows Apps](https://msdn.microsoft.com/library/windows/apps/dn609832.aspx). Visual Studio extensions that manage projects should be aware that universal Windows app projects have a structure that differs from single-platform apps. This walkthrough shows you how to navigate the shared project and manage the shared items.  
   
 ## Prerequisites  
  Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
   
 ### Navigate the shared project  
   
-1.  Create a C# VSIX project named **TestUniversalProject**. (**File, New, Project** and then **C#, Extensibility, Visual Studio Package**). Add a **Custom Command** project item template (on the Solution Explorer, right-click the project node and select **Add / New Item**, then go to **Extensibility**). Name the file **TestUniversalProject**.  
+1. Create a C# VSIX project named **TestUniversalProject**. (**File, New, Project** and then **C#, Extensibility, Visual Studio Package**). Add a **Custom Command** project item template (on the Solution Explorer, right-click the project node and select **Add / New Item**, then go to **Extensibility**). Name the file **TestUniversalProject**.  
   
-2.  Add a reference to Microsoft.VisualStudio.Shell.Interop.12.1.DesignTime.dll and Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime.dll (in the **Extensions** section).  
+2. Add a reference to Microsoft.VisualStudio.Shell.Interop.12.1.DesignTime.dll and Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime.dll (in the **Extensions** section).  
   
-3.  Open TestUniversalProject.cs and add the following `using` statements:  
+3. Open TestUniversalProject.cs and add the following `using` statements:  
   
     ```csharp  
     using EnvDTE;  
@@ -36,7 +36,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
     using System.Windows.Forms;  
     ```  
   
-4.  In the TestUniversalProject class add a private field pointing to the **Output** window.  
+4. In the TestUniversalProject class add a private field pointing to the **Output** window.  
   
     ```csharp  
     public sealed class TestUniversalProject   
@@ -46,7 +46,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
     }  
     ```  
   
-5.  Set the reference to the output pane inside TestUniversalProject constructor:  
+5. Set the reference to the output pane inside TestUniversalProject constructor:  
   
     ```csharp  
     private TestUniversalProject(Package package)  
@@ -71,7 +71,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
     }  
     ```  
   
-6.  Remove the existing code from the `ShowMessageBox` method:  
+6. Remove the existing code from the `ShowMessageBox` method:  
   
     ```csharp  
     private void ShowMessageBox(object sender, EventArgs e)   
@@ -79,7 +79,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
     }  
     ```  
   
-7.  Get the DTE object, which we will use for several different purposes in this walkthrough. Also, make sure that a solution is loaded when the menu button is clicked.  
+7. Get the DTE object, which we will use for several different purposes in this walkthrough. Also, make sure that a solution is loaded when the menu button is clicked.  
   
     ```csharp  
     private void ShowMessageBox(object sender, EventArgs e)  
@@ -97,7 +97,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
     }  
     ```  
   
-8.  Find the shared project. The shared project is a pure container; it does not build or produce outputs. The following method finds the first shared project in the solution by looking for the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> object that has the shared project capability.  
+8. Find the shared project. The shared project is a pure container; it does not build or produce outputs. The following method finds the first shared project in the solution by looking for the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> object that has the shared project capability.  
   
     ```csharp  
     private IVsHierarchy FindSharedProject()  
@@ -229,7 +229,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
     ```  
   
     > [!IMPORTANT]
-    >  If the user has opened a C++ universal Windows app project in the experimental instance, the code above throws an exception. This is a known issue. To avoid the exception, replace the `foreach` block above with the following:  
+    > If the user has opened a C++ universal Windows app project in the experimental instance, the code above throws an exception. This is a known issue. To avoid the exception, replace the `foreach` block above with the following:  
   
     ```csharp  
     var importingProjects = sharedAssetsProject.EnumImportingProjects();  
@@ -300,7 +300,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
   
 ### Manage the shared items in the platform project  
   
-1.  Find the shared items in the platform project. The items in the shared project appear in the platform project as shared items. You can’t see them in the **Solution Explorer**, but you can walk the project hierarchy to find them. The following method walks the hierarchy and collects all the shared items. It optionally outputs the caption of each item,. The shared items are identified by the new property <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID7>.  
+1. Find the shared items in the platform project. The items in the shared project appear in the platform project as shared items. You can’t see them in the **Solution Explorer**, but you can walk the project hierarchy to find them. The following method walks the hierarchy and collects all the shared items. It optionally outputs the caption of each item,. The shared items are identified by the new property <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID7>.  
   
     ```csharp  
     private void InspectHierarchyItems(IVsHierarchy hier, uint itemid, int level, List<uint> itemIds, bool getSharedItems, bool printItems)  
@@ -332,7 +332,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
     }  
     ```  
   
-2.  In the `ShowMessageBox` method, add the following code to walk the platform project hierarchy items. Insert it inside the `foreach` block.  
+2. In the `ShowMessageBox` method, add the following code to walk the platform project hierarchy items. Insert it inside the `foreach` block.  
   
     ```csharp  
     output.OutputStringThreadSafe("Walk the active platform project:\n");  
@@ -340,7 +340,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
     this.InspectHierarchyItems(activePlatformHier, (uint)VSConstants.VSITEMID.Root, 1, sharedItemIds, true, true);  
     ```  
   
-3.  Read the shared items. The shared items appear in the platform project as hidden linked files, and you can read all the properties as ordinary linked files. The following code reads the full path of the first shared item.  
+3. Read the shared items. The shared items appear in the platform project as hidden linked files, and you can read all the properties as ordinary linked files. The following code reads the full path of the first shared item.  
   
     ```csharp  
     var sharedItemId = sharedItemIds[0];  
@@ -349,7 +349,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
     output.OutputStringThreadSafe(string.Format("Shared item full path: {0}\n", fullPath));  
     ```  
   
-4.  Now try it out. Press F5 to launch the experimental instance. Create a C# universal hub app project in the experimental instance (in the **New Project** dialog box, **Visual C# / Windows / Windows 8 / Universal / Hub App**) go to the **Tools** menu and click **Invoke TestUniversalProject**, and then check the text in the **Output** pane. You should see something like the following:  
+4. Now try it out. Press F5 to launch the experimental instance. Create a C# universal hub app project in the experimental instance (in the **New Project** dialog box, **Visual C# / Windows / Windows 8 / Universal / Hub App**) go to the **Tools** menu and click **Invoke TestUniversalProject**, and then check the text in the **Output** pane. You should see something like the following:  
   
     ```  
     Found shared project: HubApp.Shared  
@@ -519,7 +519,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
 9. Modify the shared item. You can’t modify shared items in a platform project; instead, you must modify them in the shared project that is the actual owner of these items. You can get the corresponding item ID in the shared project with <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject.IsDocumentInProject%2A>, giving it the shared item’s full path. Then you can modify the shared item. The change is propagated to the platform projects.  
   
     > [!IMPORTANT]
-    >  You should find out whether or not a project item is a shared item before modifying it.  
+    > You should find out whether or not a project item is a shared item before modifying it.  
   
      The following method modifies the name of a project item file.  
   

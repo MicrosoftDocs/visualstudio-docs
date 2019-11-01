@@ -23,7 +23,6 @@ manager: jillfra
 # ResolveComReference Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Takes a list of one or more type library names or .tlb files and resolves those type libraries to locations on disk.  
   
 ## Parameters  
@@ -70,7 +69,7 @@ Takes a list of one or more type library names or .tlb files and resolves those 
 |`WrapperTool`|Optional item metadata.<br /><br /> Specifies the wrapper tool that is used to generate the assembly wrapper for this type library. If this item metadata is not specified, the task uses a default wrapper tool of "tlbimp". The available, case insensitive choices of typelibs are:<br /><br /> -   `Primary`: Use this wrapper tool when you want to use an already generated primary interop assembly for the COM component. When you use this wrapper tool, do not specify a wrapper output directory because that will cause the task to fail.<br />-   `TLBImp`: Use this wrapper tool when you want to generate an interop assembly for the COM component.<br />-   `AXImp`: Use this wrapper tool when you want to generate an interop assembly for an ActiveX Control.|  
   
 > [!NOTE]
->  The more information that you provide to uniquely identify a type library, the greater the possibility that the task will resolve to the correct file on disk.  
+> The more information that you provide to uniquely identify a type library, the greater the possibility that the task will resolve to the correct file on disk.  
   
 ## Remarks  
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [Task Base Class](../msbuild/task-base-class.md).  

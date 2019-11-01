@@ -20,7 +20,7 @@ You are calling the **Array** constructor with an argument that is not a whole n
   
 ### To correct this error  
   
--   Use positive integers only when creating a new `Array` object. If you want to create an array with a single element that is not an integer, do it in a two-step process. First create an array with one element, then place the value in the first element (array[0]). The following is an example that generates this error.  
+- Use positive integers only when creating a new `Array` object. If you want to create an array with a single element that is not an integer, do it in a two-step process. First create an array with one element, then place the value in the first element (array[0]). The following is an example that generates this error.  
   
     ```JavaScript  
     var piArray = new Array(3.14159);  
@@ -35,5 +35,5 @@ You are calling the **Array** constructor with an argument that is not a whole n
   
      There is no upper limit for the size of an array, other than the maximum integer value (approximately 4 billion).  
   
-## See Also  
+## See also  
  [Using Arrays](../../javascript/advanced/using-arrays-javascript.md)

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "PInvokesShouldNotBeVisible"
 ms.assetid: 0f4d96c1-f9de-414e-b223-4dc7f691bee3
 caps.latest.revision: 19
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1401: P/Invokes should not be visible

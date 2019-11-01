@@ -2,7 +2,6 @@
 title: "ISimpleConnectionPoint::Advise | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -48,6 +47,6 @@ HRESULT Advise(
 ## Remarks  
  This method establishes a connection between the simple connection point object and the client's sink.  
   
-## See Also  
+## See also  
  [ISimpleConnectionPoint Interface](../../winscript/reference/isimpleconnectionpoint-interface.md)   
  [ISimpleConnectionPoint::Unadvise](../../winscript/reference/isimpleconnectionpoint-unadvise.md)

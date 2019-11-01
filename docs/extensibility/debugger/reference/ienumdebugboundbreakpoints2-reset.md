@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumDebugBoundBreakpoints2::Reset"
 ms.assetid: 0f0522a5-6a97-4c4e-859b-cc4476e6c527
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEnumDebugBoundBreakpoints2::Reset
 Resets the enumeration to the first element.
@@ -34,5 +37,5 @@ int Reset();
 ## Remarks
  After this method is called, the next call to the [Next](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2-next.md) method returns the first element of the enumeration.
 
-## See Also
+## See also
 - [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md)

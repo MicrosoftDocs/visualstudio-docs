@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
   - "Project Designer, Application page"
   - "Application page in Project Designer"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"
@@ -44,14 +44,18 @@ To access this property programmatically, see <xref:VSLangProj.ProjectProperties
 
 **Target Framework**
 
-Specifies the version of the .NET Framework that the application targets. This option can have different values depending on which versions of the .NET Framework are installed on your computer.
+Specifies the version of .NET that the application targets. This option can have different values depending on which versions of .NET are installed on your computer.
 
-By default, the value is the same as the target framework that you selected in the **New Project** dialog box.
+For .NET Framework projects, the default value matches the target framework that you specified when you created the project.
+
+For a project that targets .NET Core, the available versions may appear as follows:
+
+![Target framework versions for a .NET Core project](../media/application-target-framework.png)
 
 > [!NOTE]
 > The prerequisite packages listed in the [Prerequisites Dialog Box](../../ide/reference/prerequisites-dialog-box.md) are set automatically the first time that you open the dialog box. If you subsequently change the project's target framework, you must select the prerequisites manually to match the new target framework.
 
-For more information, see [How to: Target a Version of the .NET Framework](../../ide/how-to-target-a-version-of-the-dotnet-framework.md) and [Visual Studio Multi-Targeting Overview](../../ide/visual-studio-multi-targeting-overview.md).
+For more information, see [Framework targeting overview](../../ide/visual-studio-multi-targeting-overview.md).
 
 **Output type**
 
@@ -65,7 +69,7 @@ For information about how to access this property programmatically, see <xref:VS
 
 **Auto-generate binding redirects**
 
-Binding redirects are added to your project if your app or its components reference more than one version of the same assembly. If you want to manually define binding redirects in the project file, deselect **Auto-generate binding redirects**. This checkbox was introduced in Visual Studio 2017 version 15.7.
+Binding redirects are added to your project if your app or its components reference more than one version of the same assembly. If you want to manually define binding redirects in the project file, deselect **Auto-generate binding redirects**.
 
 For more information about redirection, see [Redirecting assembly versions](/dotnet/framework/configure-apps/redirect-assembly-versions).
 
@@ -87,13 +91,15 @@ The **Resources** options help you configure resource settings for your app.
 
 **Icon and manifest**
 
-By default, this radio button is selected and the **Icon** and **Manifest** options are enabled. This enables you to select your own icon, or to select different manifest generation options. Leave this radio button selected unless you're providing a resource file for the project.
+By default, this radio button is selected and the **Icon** and **Manifest** options are enabled. This enables you to select your own icon or to select different manifest generation options. Leave this radio button selected unless you're providing a resource file for the project.
 
 **Icon**
 
 Sets the *.ico* file that you want to use as your program icon. Click **Browse** to browse for an existing graphic, or type the name of the file that you want. See [/win32icon (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/win32icon-compiler-option) for more information.
 
 To access this property programmatically, see <xref:VSLangProj.ProjectProperties.ApplicationIcon%2A>.
+
+For information about creating an icon, see [Image editor for icons](/cpp/windows/image-editor-for-icons).
 
 **Manifest**
 
@@ -110,3 +116,5 @@ Selects a manifest generation option when the application runs on Windows Vista 
 Select this radio button when you're providing a resource file for the project. Selecting this option disables the **Icon** and **Manifest** options.
 
 Enter a path name or use the Browse button (**...**) to add a Win32 resource file to the project.
+
+For more information, see [Create resource files for .NET apps](/dotnet/framework/resources/creating-resource-files-for-desktop-apps).

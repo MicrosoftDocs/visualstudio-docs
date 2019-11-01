@@ -27,7 +27,6 @@ ClickOnce deployment supports the installation of applications on 64-bit platfor
 
  If you select a prerequisite that does not have 64-bit components, you may see a warning stating that the selected packages are not available for the 64-bit platform.
 
-
 | Redistributable | x64 support | IA64 support |
 | - |-------------|--------------|
 | [!INCLUDE[vsto_runtime](../deployment/includes/vsto_runtime_md.md)] | Yes | No |

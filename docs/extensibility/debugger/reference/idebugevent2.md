@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEvent2 interface"
 ms.assetid: de3d714d-96fb-4e12-b66b-a75391472153
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -45,7 +45,7 @@ IDebugEvent2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [Event](../../../extensibility/debugger/reference/idebugportevents2-event.md)
 - [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)

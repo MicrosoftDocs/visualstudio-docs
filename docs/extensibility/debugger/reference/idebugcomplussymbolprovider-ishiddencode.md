@@ -5,11 +5,14 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::IsHiddenCode"
 ms.assetid: 1352c6ab-7b92-4a16-b2d2-6520b628830e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::IsHiddenCode
 Determines if the code at the specified debugger address is hidden.
@@ -28,10 +31,9 @@ int IsHiddenCode(
 );
 ```
 
-#### Parameters
-`pAddress`
-
- [in] The debug address that is represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
+## Parameters
+`pAddress`\
+[in] The debug address that is represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
 ## Return Value
 If the code is hidden, returns `S_OK`; otherwise, returns `S_FALSE`.
@@ -84,5 +86,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

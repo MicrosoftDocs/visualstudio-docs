@@ -15,7 +15,6 @@ manager: jillfra
 # Starting a Build from within the IDE
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Custom project systems must use <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildManagerAccessor> to start builds. This topic describes the reasons for this and outlines the procedure.  
   
 ## Parallel Builds and Threads  

@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "Debug.ListRegisters command"
   - "ListRegisters command"
 ms.assetid: 19a9d789-f6c9-46b3-b1f6-4934fc33e055
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -27,39 +27,39 @@ Debug.ListRegisters [/Display [{register|registerGroup}...]] [/List]
 ```
 
 ## Switches
- /Display [{`register`&#124;`registerGroup`}...]
+/Display [{`register`&#124;`registerGroup`}...]
 
- Displays the values of the specified `register` or `registerGroup`. If no `register` or `registerGroup` is specified, the default list of registers is displayed. If no switch is specified, the behavior is the same. For example:
+Displays the values of the specified `register` or `registerGroup`. If no `register` or `registerGroup` is specified, the default list of registers is displayed. If no switch is specified, the behavior is the same. For example:
 
- `Debug.ListRegisters /Display eax`
+`Debug.ListRegisters /Display eax`
 
- is equivalent to
+is equivalent to
 
- `Debug.ListRegisters eax`
+`Debug.ListRegisters eax`
 
- /List
+/List
 
- Displays all register groups in the list.
+Displays all register groups in the list.
 
- /Watch [{`register`&#124;`registerGroup`}...]
+/Watch [{`register`&#124;`registerGroup`}...]
 
- Adds one or more `register` or `registerGroup` values to the list.
+Adds one or more `register` or `registerGroup` values to the list.
 
- /Unwatch [{`register`&#124;`registerGroup`}...]
+/Unwatch [{`register`&#124;`registerGroup`}...]
 
- Removes one or more `register` or `registerGroup` values from the list.
+Removes one or more `register` or `registerGroup` values from the list.
 
 ## Remarks
- The alias `r` can be used in place of `Debug.ListRegisters`.
+The alias `r` can be used in place of `Debug.ListRegisters`.
 
 ## Example
- This example uses the `Debug.ListRegisters` alias `r` to display the values of the register group `Flags`.
+This example uses the `Debug.ListRegisters` alias `r` to display the values of the register group `Flags`.
 
 ```cmd
 r /Display Flags
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Debugging Basics: Registers Window](../../debugger/debugging-basics-registers-window.md)

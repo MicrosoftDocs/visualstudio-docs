@@ -23,7 +23,6 @@ manager: jillfra
 # FindUnderPath Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Determines which items in the specified item collection have paths that are in or below the specified folder.  
   
 ## Parameters  

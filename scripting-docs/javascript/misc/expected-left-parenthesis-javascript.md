@@ -26,4 +26,4 @@ statement;
   
 ### To correct this error  
   
--   Add the left parenthesis to the evaluation expression.
+- Add the left parenthesis to the evaluation expression.

@@ -1,5 +1,5 @@
 ---
-title: Visual C++ Classes in Class Designer
+title: C++ Classes in Class Designer
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -7,13 +7,13 @@ f1_keywords:
 helpviewer_keywords:
   - "Class Designer [Visual Studio], classes"
 ms.assetid: 75e56f8c-11ef-42a3-b7ec-3d2cf25c581b
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "cplusplus"
 ---
-# Visual C++ classes in Class Designer
+# C++ classes in Class Designer
 
 **Class Designer** supports C++ classes and visualizes native C++ classes in the same way as Visual Basic and C# class shapes, except that C++ classes can have multiple inheritance relationships. You can expand the class shape to show more fields and methods in the class or collapse it to conserve space.
 
@@ -123,7 +123,6 @@ For more information about anonymous classes, see [Anonymous Class Types](/cpp/c
 
 **Class Designer** supports the visualization of template classes. Nested declarations are supported. The following table shows some typical declarations.
 
-
 | Code element | Class Designer view |
 | - | - |
 | `template <class T>`<br /><br /> `class A {};` | `A<T>`<br /><br /> Template Class |
@@ -169,7 +168,7 @@ The following table shows some examples of canonical specialized class connectio
 
 ## See also
 
-- [Working with Visual C++ Code](working-with-visual-cpp-code.md)
+- [Working with C++ Code](working-with-visual-cpp-code.md)
 - [Classes and Structs](/cpp/cpp/classes-and-structs-cpp)
 - [Anonymous Class Types](/cpp/cpp/anonymous-class-types)
 - [Multiple Inheritance](https://msdn.microsoft.com/library/6td5yws2.aspx)

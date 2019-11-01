@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "TypesShouldNotExtendCertainBaseTypes"
 ms.assetid: 8446ee40-beb1-49fa-8733-4d8e813471c0
 caps.latest.revision: 26
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1058: Types should not extend certain base types
@@ -29,21 +29,21 @@ manager: "wpickett"
 ## Cause
  An externally visible type extends certain base types. Currently, this rule reports types that derive from the following types:
 
--   <xref:System.ApplicationException?displayProperty=fullName>
+- <xref:System.ApplicationException?displayProperty=fullName>
 
--   <xref:System.Xml.XmlDocument?displayProperty=fullName>
+- <xref:System.Xml.XmlDocument?displayProperty=fullName>
 
--   <xref:System.Collections.CollectionBase?displayProperty=fullName>
+- <xref:System.Collections.CollectionBase?displayProperty=fullName>
 
--   <xref:System.Collections.DictionaryBase?displayProperty=fullName>
+- <xref:System.Collections.DictionaryBase?displayProperty=fullName>
 
--   <xref:System.Collections.Queue?displayProperty=fullName>
+- <xref:System.Collections.Queue?displayProperty=fullName>
 
--   <xref:System.Collections.ReadOnlyCollectionBase?displayProperty=fullName>
+- <xref:System.Collections.ReadOnlyCollectionBase?displayProperty=fullName>
 
--   <xref:System.Collections.SortedList?displayProperty=fullName>
+- <xref:System.Collections.SortedList?displayProperty=fullName>
 
--   <xref:System.Collections.Stack?displayProperty=fullName>
+- <xref:System.Collections.Stack?displayProperty=fullName>
 
 ## Rule Description
  For [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] version 1, it was recommended to derive new exceptions from <xref:System.ApplicationException>. The recommendation has changed and new exceptions should derive from <xref:System.Exception?displayProperty=fullName> or one of its subclasses in the <xref:System> namespace.

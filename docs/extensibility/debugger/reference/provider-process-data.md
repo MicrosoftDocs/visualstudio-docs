@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "PROVIDER_PROCESS_DATA structure"
 ms.assetid: ec2362ed-4a0c-4a09-9d66-8ff04e4f41ee
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # PROVIDER_PROCESS_DATA
 This structure provides information about processes running on a machine.
@@ -35,13 +38,13 @@ public struct PROVIDER_PROCESS_DATA {
 ```
 
 ## Members
- Fields
+ `Fields`\
  A combination of flags from the [PROVIDER_FIELDS](../../../extensibility/debugger/reference/provider-fields.md) enumeration, indicating which fields are filled in.
 
- ProgramNodes
+ `ProgramNodes`\
  A [PROGRAM_NODE_ARRAY](../../../extensibility/debugger/reference/program-node-array.md) structure that contains an array of program nodes.
 
- fIsDebuggerPresent
+ `fIsDebuggerPresent`\
  Nonzero (`TRUE`) if the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] debugger is running, zero (`FALSE`) if it is not.
 
 ## Remarks
@@ -54,7 +57,7 @@ public struct PROVIDER_PROCESS_DATA {
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [PROVIDER_FIELDS](../../../extensibility/debugger/reference/provider-fields.md)
 - [PROGRAM_NODE_ARRAY](../../../extensibility/debugger/reference/program-node-array.md)

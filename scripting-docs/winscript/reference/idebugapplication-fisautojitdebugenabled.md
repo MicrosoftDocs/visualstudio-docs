@@ -2,7 +2,6 @@
 title: "IDebugApplication::FIsAutoJitDebugEnabled | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -37,5 +36,5 @@ BOOL FIsAutoJitDebugEnabled();
 ## Remarks  
  This method determines if a JIT debugger is registered to auto-debug dumb hosts.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)

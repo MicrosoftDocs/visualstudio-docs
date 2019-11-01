@@ -66,7 +66,7 @@ ms.workload:
  The following code example illustrates the `customizations` element for a document-level customization.
 
 > [!NOTE]
->  This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
+> This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
 
 ### Code
 

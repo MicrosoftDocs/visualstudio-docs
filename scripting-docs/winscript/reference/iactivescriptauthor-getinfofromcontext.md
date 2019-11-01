@@ -2,7 +2,6 @@
 title: "IActiveScriptAuthor::GetInfoFromContext | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -97,6 +96,6 @@ HRESULT GetInfoFromContext(
   
 ## Remarks  
   
-## See Also  
- [IProvideMultipleClassInfo Interface](https://docs.microsoft.com/dotnet/api/microsoft.visualstudio.ole.interop.iprovidemultipleclassinfo)   
+## See also  
+ [IProvideMultipleClassInfo Interface](/dotnet/api/microsoft.visualstudio.ole.interop.iprovidemultipleclassinfo)   
  [IActiveScriptAuthor Interface](../../winscript/reference/iactivescriptauthor-interface.md)

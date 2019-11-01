@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerCallback::Shutdown | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -34,5 +33,5 @@ HRESULT Shutdown(
 ## Return Value  
  The return value of this method is ignored by the scripting engine.  
   
-## See Also  
+## See also  
  [IActiveScriptProfilerCallback Interface](../../winscript/reference/iactivescriptprofilercallback-interface.md)

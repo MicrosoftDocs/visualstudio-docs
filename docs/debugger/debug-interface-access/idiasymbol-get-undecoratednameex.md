@@ -38,13 +38,13 @@ HRESULT get_undecoratedNameEx( 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 > [!NOTE]
->  A return value of `S_FALSE` means the property is not available for the symbol.
+> A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## Remarks
  The `undecorateOptions` can be a combination of the following flags.
 
 > [!NOTE]
->  The flag names are not defined in the DIA SDK, so you need to either add the declarations to your code or use the raw values.
+> The flag names are not defined in the DIA SDK, so you need to either add the declarations to your code or use the raw values.
 
 |Flag|Value|Description|
 |----------|-----------|-----------------|
@@ -69,5 +69,5 @@ HRESULT get_undecoratedNameEx( 
 |UNDNAME_NO_IDENT_CHAR_CHECK|0x10000|Suppresses check for valid identifier characters.|
 |UNDNAME_NO_PTR64|0x20000|Does not include ptr64 in output.|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

@@ -23,7 +23,7 @@ ms.workload:
 
 ### To print a complete document
 
--   Call the `Microsoft.Office.Interop.Visio.Document.Print` method of the `Microsoft.Office.Interop.Visio.Document` object that you want to print.
+- Call the `Microsoft.Office.Interop.Visio.Document.Print` method of the `Microsoft.Office.Interop.Visio.Document` object that you want to print.
 
      The following code example prints the active document. To use this example, run the code from the `ThisAddIn` class in your project.
 
@@ -34,7 +34,7 @@ ms.workload:
 
 ### To print a page of a document
 
--   Call the `Microsoft.Office.Interop.Visio.Pages.Print` method of the `Microsoft.Office.Interop.Visio.Pages` object that you want to print.
+- Call the `Microsoft.Office.Interop.Visio.Pages.Print` method of the `Microsoft.Office.Interop.Visio.Pages` object that you want to print.
 
      The following code example prints the first page of the active document. To use this example, run the code from the `ThisAddIn` class in your project.
 

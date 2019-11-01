@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "commands, routing"
   - "command routing, Visual Studio SDK"
 ms.assetid: a9c7f9ae-3594-4557-a314-8cf76f5f8772
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

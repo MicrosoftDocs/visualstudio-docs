@@ -8,11 +8,14 @@ helpviewer_keywords:
   - "SetPassCount method"
   - "IDebugPendingBreakpoint2::SetPassCount method"
 ms.assetid: 08ddd328-57eb-42e0-baa9-8424dcd1bf04
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPendingBreakpoint2::SetPassCount
 Sets or changes the pass count associated with the pending breakpoint.
@@ -31,10 +34,9 @@ int SetPassCount( 
 );
 ```
 
-#### Parameters
- `bpPassCount`
-
- [in] A [BP_PASSCOUNT](../../../extensibility/debugger/reference/bp-passcount.md) structure that contains the pass count.
+## Parameters
+`bpPassCount`\
+[in] A [BP_PASSCOUNT](../../../extensibility/debugger/reference/bp-passcount.md) structure that contains the pass count.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_BP_DELETED` if the breakpoint has been deleted.
@@ -42,6 +44,6 @@ int SetPassCount( 
 ## Remarks
  Any pass count that was previously associated with the pending breakpoint is lost. All breakpoints bound from this pending breakpoint are called to set their pass count to the `bpPassCount` parameter.
 
-## See Also
+## See also
 - [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
 - [BP_PASSCOUNT](../../../extensibility/debugger/reference/bp-passcount.md)

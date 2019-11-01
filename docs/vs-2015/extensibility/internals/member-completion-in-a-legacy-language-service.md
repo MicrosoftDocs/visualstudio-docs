@@ -23,7 +23,7 @@ The IntelliSense Member Completion is a tool tip that displays a list of possibl
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more, see [Extending the Editor and Language Services](../../extensibility/extending-the-editor-and-language-services.md).  
   
 > [!NOTE]
->  We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.  
+> We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.  
   
 ## How It Works  
  The following are the two ways in which a member list is shown using the MPF classes:  

@@ -16,7 +16,6 @@ manager: jillfra
 # Using Multiple Processors to Build Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 MSBuild can take advantage of systems that have multiple processors, or multiple-core processors. A separate build process is created for each available processor. For example, if the system has four processors, then four build processes are created. [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] can process these builds simultaneously, and therefore overall build time is reduced. However, parallel building introduces some changes in how build processes occur. This topic discusses those changes.  
   
 ## Project to Project References  

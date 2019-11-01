@@ -15,7 +15,6 @@ manager: jillfra
 # Cross-Platform Mobile Development Examples
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Several of the templates installed by Visual C++ for Cross-Platform Mobile Development generate complete examples that you can use to learn from. Additionally, the Windows Dev Center has several example applications that you can download and try out in Visual Studio.  
   
 - [hello-jni Android Application Sample](https://code.msdn.microsoft.com/hello-jni-Android-790ab73d)  

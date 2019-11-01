@@ -25,11 +25,11 @@ manager: jillfra
   
  Tasks include:  
   
--   Deploying applications in predesigned configurations from outside the IDE.  
+- Deploying applications in predesigned configurations from outside the IDE.  
   
--   Automatically building projects using preset build settings or debug configurations.  
+- Automatically building projects using preset build settings or debug configurations.  
   
--   Loading the IDE in specific configurations, all from outside the IDE. In addition, you can customize the IDE upon launch.  
+- Loading the IDE in specific configurations, all from outside the IDE. In addition, you can customize the IDE upon launch.  
   
 ## Guidelines for Switches  
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] documentation describes the user-level devenv command line switches. For more information, see [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md). Devenv also supports additional command-line switches that are useful with VSPackage development, deployment, and debugging.  

@@ -2,7 +2,6 @@
 title: "IJsDebugProperty::GetMembers Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -41,5 +40,5 @@ HRESULT GetMembers(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsDebugProperty Interface](../../winscript/reference/ijsdebugproperty-interface.md)

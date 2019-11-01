@@ -29,9 +29,9 @@ The debugger provides two windows for debugging inline assembly code, the **Disa
 
 ## Debug inline assembly code
 
-1.  Use the **Disassembly** window to view the assembly instructions.
+1. Use the **Disassembly** window to view the assembly instructions.
 
-2.  Use the **Registers** window to view register contents.
+2. Use the **Registers** window to view register contents.
 
 ## See also
 

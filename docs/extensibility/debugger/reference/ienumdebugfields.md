@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumDebugFields interface"
 ms.assetid: 403c2a51-3ba5-431f-a1dd-2f3b2046c00c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -48,7 +48,7 @@ IEnumDebugFields : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
 - [GetMethodFieldsByName](../../../extensibility/debugger/reference/idebugsymbolprovider-getmethodfieldsbyname.md)

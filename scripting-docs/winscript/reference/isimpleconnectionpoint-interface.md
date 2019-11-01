@@ -2,7 +2,6 @@
 title: "ISimpleConnectionPoint Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -31,5 +30,5 @@ Provides a simple way for describing and enumerating the events fired on a parti
 |[ISimpleConnectionPoint::GetEventCount](../../winscript/reference/isimpleconnectionpoint-geteventcount.md)|Returns the number of events exposed on this interface.|  
 |[ISimpleConnectionPoint::Unadvise](../../winscript/reference/isimpleconnectionpoint-unadvise.md)|Terminates an advisory connection previously established through `ISimpleConnectionPoint::Advise`.|  
   
-## See Also  
+## See also  
  [IDebugProperty Interface](../../winscript/reference/idebugproperty-interface.md)

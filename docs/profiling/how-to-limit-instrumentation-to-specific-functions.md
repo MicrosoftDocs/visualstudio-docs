@@ -21,7 +21,7 @@ You can limit instrumentation and data collection to one or more functions by se
   Limiting data collection in this manner is supported only when the instrumentation profiling method is selected.
 
 > [!NOTE]
->  You can also use the **Advanced** page of the **Performance Session** property pages to set other options that are available to the Profiling Tools [VSInstr](../profiling/vsinstr.md) command line instrumentation tool.
+> You can also use the **Advanced** page of the **Performance Session** property pages to set other options that are available to the Profiling Tools [VSInstr](../profiling/vsinstr.md) command line instrumentation tool.
 
 ### To limit instrumentation to specific functions in a performance session
 
@@ -38,7 +38,7 @@ You can limit instrumentation and data collection to one or more functions by se
     `FuncSpec` is the namespace and function name. It has the format `Namespace`**::**`FunctionName`. Use a semicolon to separate multiple functions. Use an asterisk (\*) to specify a wildcard for one or more characters. For example, **/include:MyNS::\\*** specifies all functions in the MyNS namespace.
 
    > [!NOTE]
-   >  To list the functions in a binary, open a command prompt window in the Profiling Tools installation directory (see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)) and then type **vsinstr /DumpFuncs**
+   > To list the functions in a binary, open a command prompt window in the Profiling Tools installation directory (see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)) and then type **vsinstr /DumpFuncs**
 
 ### To limit instrumentation to specific functions in a binary
 
@@ -57,7 +57,7 @@ You can limit instrumentation and data collection to one or more functions by se
     `FuncSpec` is the namespace and function name. It has the format `Namespace`**::**`FunctionName`. Use a semicolon to separate multiple functions. Use an asterisk (\*) to specify a wildcard for one or more characters. For example, **/include:MyNS::\\*** specifies all functions in the MyNS namespace.
 
    > [!NOTE]
-   >  To list the functions in a binary, open a command prompt window in the Profiling Tools installation directory (see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)) and then type **vsinstr /DumpFuncs**
+   > To list the functions in a binary, open a command prompt window in the Profiling Tools installation directory (see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)) and then type **vsinstr /DumpFuncs**
 
 ## See also
 - [Control data collection](../profiling/controlling-data-collection.md)

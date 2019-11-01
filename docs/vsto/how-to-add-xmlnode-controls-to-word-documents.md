@@ -22,38 +22,38 @@ ms.workload:
  When you map a non-repeating XML schema element to a Microsoft Office Word document, Visual Studio automatically adds an <xref:Microsoft.Office.Tools.Word.XMLNode> control to your document. For information about mapping repeating XML schema elements, see [How to: Add XMLNodes controls to Word documents](../vsto/how-to-add-xmlnodes-controls-to-word-documents.md).
 
 > [!NOTE]
->  The <xref:Microsoft.Office.Tools.Word.XMLNode> control is not available from the **Toolbox** or the **Data Sources** window, and it cannot be created programmatically.
+> The <xref:Microsoft.Office.Tools.Word.XMLNode> control is not available from the **Toolbox** or the **Data Sources** window, and it cannot be created programmatically.
 
  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 
 ### To add an XMLNode control to a document
 
-1.  In the document in the Visual Studio designer, on the ribbon, click the **Developer** tab.
+1. In the document in the Visual Studio designer, on the ribbon, click the **Developer** tab.
 
     > [!NOTE]
-    >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
+    > If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
 
-2.  In the **XML** group, click **Schema**.
+2. In the **XML** group, click **Schema**.
 
      The **Templates and Add-ins** dialog box opens.
 
-3.  Click the **XML Schema** tab.
+3. Click the **XML Schema** tab.
 
-4.  Click **Add Schema**.
+4. Click **Add Schema**.
 
      The **Add Schema** dialog box opens.
 
-5.  Select an XML schema that contains non-repeating schema elements from the **Add Schema** dialog box and click **Open**.
+5. Select an XML schema that contains non-repeating schema elements from the **Add Schema** dialog box and click **Open**.
 
      The **Schema Settings** dialog box appears.
 
-6.  Assign an alias or click **OK** to add the schema without an alias.
+6. Assign an alias or click **OK** to add the schema without an alias.
 
      The schema is added to the **Add Schema** dialog box.
 
-7.  In the **Add Schema** dialog box, click **OK**.
+7. In the **Add Schema** dialog box, click **OK**.
 
-8.  The **XML Structure** task pane opens.
+8. The **XML Structure** task pane opens.
 
 9. Click the non-repeating schema element on the **XML Structure** task pane to add it to the document.
 

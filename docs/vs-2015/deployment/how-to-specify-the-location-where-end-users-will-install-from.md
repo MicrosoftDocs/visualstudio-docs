@@ -32,11 +32,11 @@ When publishing a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applica
   
 ### To specify an Installation URL  
   
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
   
-2.  Click the **Publish** tab.  
+2. Click the **Publish** tab.  
   
-3.  In the Installation URL field, enter the installation location using a fully qualified URL using the format http://www.microsoft.com/ApplicationName, or a UNC path using the format \\\Server\ApplicationName.  
+3. In the Installation URL field, enter the installation location using a fully qualified URL using the format http://www.microsoft.com/ApplicationName, or a UNC path using the format \\\Server\ApplicationName.  
   
 ## See Also  
  [How to: Specify Where Visual Studio Copies the Files](../deployment/how-to-specify-where-visual-studio-copies-the-files.md)   

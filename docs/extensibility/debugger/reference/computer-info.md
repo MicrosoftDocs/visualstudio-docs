@@ -5,11 +5,14 @@ ms.topic: reference
 helpviewer_keywords:
   - "COMPUTER_INFO structure"
 ms.assetid: 943085b2-f165-462d-9a4e-2086f0cdfff4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # COMPUTER_INFO
 Describes the computer on which the debugger is running.
@@ -34,14 +37,14 @@ public struct COMPUTER_INFO
 }
 ```
 
-## Terms
-wProcessorArchitecture
+## Members
+`wProcessorArchitecture`\
 Identifies the architecture of the microprocessor.
 
-wSuiteMask
+`wSuiteMask`\
 Identifies the suite mask.
 
-dwOperatingSystemVersion
+`dwOperatingSystemVersion`\
 Operating system version number.
 
 ## Remarks
@@ -54,6 +57,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [GetComputerInfo](../../../extensibility/debugger/reference/idebugwindowscomputerport2-getcomputerinfo.md)

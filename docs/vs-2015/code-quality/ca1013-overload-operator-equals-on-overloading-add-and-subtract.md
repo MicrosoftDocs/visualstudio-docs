@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "OverloadOperatorEqualsOnOverloadingAddAndSubtract"
 ms.assetid: 5bd28d68-c179-49ff-af47-5250b8b18a10
 caps.latest.revision: 24
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1013: Overload operator equals on overloading add and subtract
@@ -76,4 +76,4 @@ return left.Equals(right);
 **Bad type:  {2,2} {9,9} are equal? No**
 **Good type: {3,3} {9,9} are == ?   No**
 ## See Also
- [Equality Operators](http://msdn.microsoft.com/library/bc496a91-fefb-4ce0-ab4c-61f09964119a)
+ [Equality Operators](https://msdn.microsoft.com/library/bc496a91-fefb-4ce0-ab4c-61f09964119a)

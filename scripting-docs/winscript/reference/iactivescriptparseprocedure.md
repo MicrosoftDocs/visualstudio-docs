@@ -2,7 +2,6 @@
 title: "IActiveScriptParseProcedure | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -25,5 +24,5 @@ If the Windows Script engine allows the source code text for procedures to be ad
 |Method|Description|  
 |[IActiveScriptParseProcedure::ParseProcedureText](../../winscript/reference/iactivescriptparseprocedure-parseproceduretext.md)|Parses the given code procedure and adds the procedure to the namespace.|  
   
-## See Also  
+## See also  
  [Active Script Interfaces](../../winscript/reference/active-script-interfaces.md)

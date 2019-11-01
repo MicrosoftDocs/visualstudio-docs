@@ -2,7 +2,6 @@
 title: "SCRIPTGCTYPE Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -29,5 +28,5 @@ typedef enum tagSCRIPTGCTYPE {    SCRIPTGCTYPE_NORMAL           = 0,    SCRIPTGC
 |SCRIPTGCTYPE_NORMAL|Do normal garbage collection. The integer value is 0.|  
 |SCRIPTGCTYPE_EXHAUSTIVE|Do exhaustive garbage collection. The integer value is 1.|  
   
-## See Also  
+## See also  
  [Active Script Constants, Enumerations, and Error Codes](../../winscript/reference/active-script-constants-enumerations-and-error-codes.md)

@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEnumField::GetUnderlyingSymbol method"
 ms.assetid: c3b8a117-6708-4cfd-8ffc-5f007d706bc5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugEnumField::GetUnderlyingSymbol
 This method returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) that represents the name of the enumeration.
@@ -30,10 +33,9 @@ int GetUnderlyingSymbol(
 );
 ```
 
-#### Parameters
- `ppField`
-
- [out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) describing the name of this enumeration.
+## Parameters
+`ppField`\
+[out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) describing the name of this enumeration.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -41,7 +43,7 @@ int GetUnderlyingSymbol(
 ## Remarks
  The name of the enumeration also contains the type of the enumeration, which is bound to a memory location by using [Bind](../../../extensibility/debugger/reference/idebugbinder-bind.md).
 
-## See Also
+## See also
 - [IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
 - [Bind](../../../extensibility/debugger/reference/idebugbinder-bind.md)

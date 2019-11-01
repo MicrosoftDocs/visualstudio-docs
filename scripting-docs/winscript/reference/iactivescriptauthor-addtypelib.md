@@ -2,7 +2,6 @@
 title: "IActiveScriptAuthor::AddTypeLib | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -56,7 +55,7 @@ HRESULT AddTypeLib(
 ## Remarks  
  This method calls `LoadTypeLib` to load the type library. Upon success, this method calls `IActiveScriptAuthor::AddNamedItem` to add type information.  
   
-## See Also  
+## See also  
  [IActiveScriptAuthor Interface](../../winscript/reference/iactivescriptauthor-interface.md)   
  [IActiveScriptAuthor::AddNamedItem](../../winscript/reference/iactivescriptauthor-addnameditem.md)   
- [LoadTypeLib](https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-loadtypelib)
+ [LoadTypeLib](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-loadtypelib)

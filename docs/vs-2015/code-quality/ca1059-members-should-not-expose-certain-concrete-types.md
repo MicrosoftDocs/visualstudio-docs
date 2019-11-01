@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1059"
 ms.assetid: 59f61f52-8d6c-49cb-aefb-191910523a3c
 caps.latest.revision: 20
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1059: Members should not expose certain concrete types
@@ -29,7 +29,7 @@ manager: "wpickett"
 ## Cause
  An externally visible member is a certain concrete type or exposes certain concrete types through one of its parameters or return value. Currently, this rule reports exposure of the following concrete types:
 
--   A type derived from <xref:System.Xml.XmlNode?displayProperty=fullName>.
+- A type derived from <xref:System.Xml.XmlNode?displayProperty=fullName>.
 
 ## Rule Description
  A concrete type is a type that has a complete implementation and therefore can be instantiated. To allow widespread use of the member, replace the concrete type with the suggested interface. This allows the member to accept any type that implements the interface or be used where a type that implements the interface is expected.

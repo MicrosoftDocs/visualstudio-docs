@@ -23,55 +23,55 @@ Performance reports can be configured for noise reduction by limiting the amount
   
  Noise reduction configuration options include the following settings:  
   
--   **Trimming** When a report is analyzed, the view will omit functions that fall in the value and threshold settings that you have configured, as described in the trimming procedure that follows. By default, trimming is enabled.  
+- **Trimming** When a report is analyzed, the view will omit functions that fall in the value and threshold settings that you have configured, as described in the trimming procedure that follows. By default, trimming is enabled.  
   
--   **Folding** If you enable folding, consecutive functions on a path that meet the settings that you have configured will be merged, as described in the folding procedure that follows. By default, folding is enabled by default.  
+- **Folding** If you enable folding, consecutive functions on a path that meet the settings that you have configured will be merged, as described in the folding procedure that follows. By default, folding is enabled by default.  
   
 ### To configure trimming for a performance report  
   
-1.  When either a Call Tree view or Allocation view is displayed in the generated report, on the **Developer** menu, click **Profiler** and then click **Noise Reduction Options**.  
+1. When either a Call Tree view or Allocation view is displayed in the generated report, on the **Developer** menu, click **Profiler** and then click **Noise Reduction Options**.  
   
      The **Noise Reduction** dialog box appears.  
   
-2.  To enable trimming, follow these steps:  
+2. To enable trimming, follow these steps:  
   
-    1.  Select **Enable Trimming**. This is the default setting.  
+    1. Select **Enable Trimming**. This is the default setting.  
   
         > [!NOTE]
-        >  If noise reduction is enabled, an information bar will display in the report. For more information, see [Call Tree View](../profiling/call-tree-view.md) and [Allocations View](../profiling/dotnet-memory-allocations-view.md).  
+        > If noise reduction is enabled, an information bar will display in the report. For more information, see [Call Tree View](../profiling/call-tree-view.md) and [Allocations View](../profiling/dotnet-memory-allocations-view.md).  
   
-    2.  Configure the value setting by using the **Value** drop-down list and choosing the applicable setting.  
+    2. Configure the value setting by using the **Value** drop-down list and choosing the applicable setting.  
   
-    3.  Configure the desired threshold setting by typing a percentage value in the **Threshold** text box.  
+    3. Configure the desired threshold setting by typing a percentage value in the **Threshold** text box.  
   
-    4.  To enable the noise reduction warning in the generated report, select **Display warning when Noise Reduction is enabled**. This is the default setting.  
+    4. To enable the noise reduction warning in the generated report, select **Display warning when Noise Reduction is enabled**. This is the default setting.  
   
-3.  To disable trimming, clear **Enable Trimming**.  
+3. To disable trimming, clear **Enable Trimming**.  
   
-4.  Click **OK**.  
+4. Click **OK**.  
   
 ### To configure folding for a performance report  
   
-1.  On the **Developer** menu, click **Profiler** and then click **Noise Reduction Options**.  
+1. On the **Developer** menu, click **Profiler** and then click **Noise Reduction Options**.  
   
      The **Noise Reduction** dialog box appears.  
   
-2.  To enable folding, follow these steps:  
+2. To enable folding, follow these steps:  
   
-    1.  Select **Enable Folding**. This is the default setting.  
+    1. Select **Enable Folding**. This is the default setting.  
   
         > [!NOTE]
-        >  If noise reduction is enabled, an information bar will display in the report. For more information, see [Call Tree View](../profiling/call-tree-view.md) and [Allocations View](../profiling/dotnet-memory-allocations-view.md).  
+        > If noise reduction is enabled, an information bar will display in the report. For more information, see [Call Tree View](../profiling/call-tree-view.md) and [Allocations View](../profiling/dotnet-memory-allocations-view.md).  
   
-    2.  Configure the value setting by using the **Value** drop-down list and selecting the applicable setting.  
+    2. Configure the value setting by using the **Value** drop-down list and selecting the applicable setting.  
   
-    3.  Configure the desired threshold setting by typing a percentage value in the **Threshold** text box.  
+    3. Configure the desired threshold setting by typing a percentage value in the **Threshold** text box.  
   
-    4.  To enable the noise reduction warning in the generated report, select **Display warning when Noise Reduction is enabled**. This is the default setting.  
+    4. To enable the noise reduction warning in the generated report, select **Display warning when Noise Reduction is enabled**. This is the default setting.  
   
-3.  To disable folding, clear **Enable Folding**.  
+3. To disable folding, clear **Enable Folding**.  
   
-4.  Click **OK**.  
+4. Click **OK**.  
   
 ## See Also  
  [Customizing Performance Tools Report Views](../profiling/customizing-performance-tools-report-views.md)   

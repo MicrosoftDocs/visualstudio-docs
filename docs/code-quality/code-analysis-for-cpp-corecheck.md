@@ -7,7 +7,7 @@ helpviewer_keywords:
 ms.assetid: f1429463-136e-41ed-8a75-a8dbf0b4fd89
 author: mikeblome
 ms.author: mblome
-manager: wpickett
+manager: markl
 ms.workload:
   - "cplusplus"
 ---
@@ -135,14 +135,11 @@ Function '%symbol%' should be marked with 'override'. See [C.128: Virtual functi
 [C26435 SINGLE_VIRTUAL_SPECIFICATION](c26435.md)
 Function '%symbol%' should specify exactly one of 'virtual', 'override', or 'final'. See [C.128: Virtual functions should specify exactly one of virtual, override, or final](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md).
 
-
 [C26436 NEED_VIRTUAL_DTOR](C26436.md)
   The type '%symbol%' with a virtual function needs either public virtual or protected nonvirtual destructor. See [C++ Core Guidelines C.35](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#c35-a-base-class-destructor-should-be-either-public-and-virtual-or-protected-and-nonvirtual).
 
-
 [C26443 NO_EXPLICIT_DTOR_OVERRIDE](c26443.md)
 Overriding destructor should not use explicit 'override' or 'virtual' specifiers. See [C.128: Virtual functions should specify exactly one of virtual, override, or final](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md).
-
 
 ## TYPE Group
 
@@ -271,7 +268,6 @@ Consider using `gsl::finally` if final action is intended. See [C++ Core Guideli
 `gsl::span` or `std::string_view` created from a temporary will be invalid when the temporary is invalidated. See
 [C++ Core Guidelines: GSL.view: Views](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#gslview-views).
 
-
 ## Deprecated Warnings
 
 The following warnings are present in an early experimental rule set of the core guidelines checker, but are now deprecated and can be safely ignored. The warnings are superceded by warnings from the list above.
@@ -286,5 +282,5 @@ The following warnings are present in an early experimental rule set of the core
 - 26425 ASSIGNING_TO_STATIC
 - 26499 NO_LIFETIME_TRACKING
 
-## See Also
+## See also
 [Using the C++ Core Guidelines Checkers](using-the-cpp-core-guidelines-checkers.md)

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccCheckin function"
 ms.assetid: e3f26ac2-6163-42e1-a764-22cfea5a3bc6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

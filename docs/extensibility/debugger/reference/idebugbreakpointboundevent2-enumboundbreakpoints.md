@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugBreakpointBoundEvent2::EnumBoundBreakpoints"
 ms.assetid: 1f588feb-522e-488d-be92-7bc19b9e3688
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBreakpointBoundEvent2::EnumBoundBreakpoints
 Creates an enumerator of breakpoints that were bound on this event.
@@ -30,10 +33,9 @@ int EnumBoundBreakpoints( 
 );
 ```
 
-#### Parameters
-`ppEnum`
-
- [out] Returns an [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md) object that enumerates all the breakpoints bound from this event.
+## Parameters
+`ppEnum`\
+[out] Returns an [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md) object that enumerates all the breakpoints bound from this event.
 
 ## Return Value
 If successful, returns `S_OK`. Returns `S_FALSE` if there are no bound breakpoints; otherwise, returns an error code.
@@ -69,7 +71,7 @@ STDMETHODIMP CBreakpointSetDebugEventBase::EnumBoundBreakpoints(
 }
 ```
 
-## See Also
+## See also
 - [IDebugBreakpointBoundEvent2](../../../extensibility/debugger/reference/idebugbreakpointboundevent2.md)
 - [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md)
 - [GetPendingBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointboundevent2-getpendingbreakpoint.md)

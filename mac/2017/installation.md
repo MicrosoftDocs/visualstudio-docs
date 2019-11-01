@@ -11,6 +11,13 @@ ms.custom: video
 
 # Install Visual Studio 2017 for Mac
 
+> [!NOTE]
+> Visual Studio 2019 for Mac is [now available](installation.md?view=vsmac-2019). For older versions of Visual Studio for Mac, see the Visual Studio [downloads page](https://my.visualstudio.com/Downloads?q=Visual%20Studio%202017%20for%20Mac).
+
+## Downgrading from Visual Studio 2019 for Mac?
+
+For the best experience, before you downgrade you should ensure that you [uninstall](uninstall.md) Visual Studio 2019 for Mac. If you have issues that are causing you to download, make sure to let us know by [reporting a problem](report-a-problem.md).
+ 
 ## Requirements
 
 To start developing native, cross-platform apps when you download Visual Studio for Mac there are a couple of things that you must install and set up in preparation.
@@ -18,15 +25,12 @@ To start developing native, cross-platform apps when you download Visual Studio 
 For working with iOS in Visual Studio you need the following pieces:
 
 - a Mac with macOS Sierra 10.12 or above
-- Xcode 8.3 or above. The latest stable version is usually recommended.
+- Xcode 9.3 or above. The latest stable version is usually recommended.
 - An Apple ID. If you don't have an Apple ID already you can create a new one at https://appleid.apple.com. It's necessary to have an Apple ID for installing and signing into Xcode.
-
-> [!NOTE]
-> Visual Studio 2019 for Mac preview is [now available for installation](installation.md?view=vsmac-2019) and testing.
 
 ## Install
 
-1. Download Visual Studio for Mac from [https://visualstudio.microsoft.com/](https://visualstudio.microsoft.com/)
+1. Download Visual Studio for Mac from [my.visualstudio.com](https://my.visualstudio.com/Downloads?q=Visual%20Studio%202017%20for%20Mac)
 
 2. Once the installer package is downloaded, click the **VisualStudioForMacInstaller.dmg** file to mount the installer and then run it by double-clicking the logo, as illustrated by the following image:
 
@@ -58,7 +62,7 @@ For working with iOS in Visual Studio you need the following pieces:
       - Fully cross-platform Xamarin apps – Select **Android**, **iOS**, and **macOS** platforms.
    * **.NET Core applications** – Select **.NET Core** platform.
    * **ASP.NET Core Web Applications** – Select **.NET Core** platform.
-   * **Cross-platform Unity Game Development** – No additional platforms need to be installed beyond Visual Studio for Mac. Refer to the [Unity setup guide](/visualstudio/macm/setup-vsmac-tools-unity) for more information on installing the Unity extension.
+   * **Cross-platform Unity Game Development** – No additional platforms need to be installed beyond Visual Studio for Mac. Refer to the [Unity setup guide](/visualstudio/mac/setup-vsmac-tools-unity) for more information on installing the Unity extension.
 
    This installation screen displays the version and size of each individual component. You can click each component to display a list of dependencies for that component (for Android), see additional packages that it downloads (for .NET Core), or view any additional applications required (for iOS and macOS):
 

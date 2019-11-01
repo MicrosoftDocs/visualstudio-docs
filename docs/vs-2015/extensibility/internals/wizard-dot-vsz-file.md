@@ -37,7 +37,7 @@ Param="WIZARDUI = FALSE"
 |Wizard|This field contains the OLE ProgID of the wizard, or alternatively a GUID string representation of the CLSID of the wizard that is cocreated by the IDE.|  
 |Param|These parts are optional. You can add as many as needed.|  
   
- The parameters enable the .vsz file to pass additional custom parameters to the wizard. Each value is passed as a string element in an array of variants to the wizard. For more information, see [Custom Parameters](../../extensibility/internals/custom-parameters.md). For information about how to use a .vsz file in the development of custom wizards, see [.Vsz File (Project Control)](http://msdn.microsoft.com/library/b8678fee-6795-46d1-9338-48b22d5e9207)  
+ The parameters enable the .vsz file to pass additional custom parameters to the wizard. Each value is passed as a string element in an array of variants to the wizard. For more information, see [Custom Parameters](../../extensibility/internals/custom-parameters.md). For information about how to use a .vsz file in the development of custom wizards, see [.Vsz File (Project Control)](https://msdn.microsoft.com/library/b8678fee-6795-46d1-9338-48b22d5e9207)  
   
  To add a default locale ID to your .vsz file, specify `FALLBACK_LCID`=xxxx, where xxxx is the locale ID, for example, 1033 for English. When `FALLBACK_LCID` parameter is defined, the wizard uses the supplied fallback locale ID if the current ID is not found.  
   

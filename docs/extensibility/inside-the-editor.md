@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "editors [Visual Studio SDK], new - architecture"
 ms.assetid: 822cbb8d-7ab4-40ee-bd12-44016ebcce81
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -102,7 +102,7 @@ A <xref:Microsoft.VisualStudio.Text.SnapshotPoint> represents a character positi
 
 #### Spans and NormalizedSpanCollections
 
-A <xref:Microsoft.VisualStudio.Text.Span> represents an interval that can be applied to a span of text in a text snapshot. Snapshot positions are zero-based, so spans can start at any position including zero. The `End` property of a span is equal to the sum of its `Start` property and its `Length` property. A `Span` does not include the character that is indexed by the `End` property. For example, a span that has Start=5 and Length=3 has End=8, and it includes the characters at positions 5, 6, and 7. The notation for this span is 5..8).
+A <xref:Microsoft.VisualStudio.Text.Span> represents an interval that can be applied to a span of text in a text snapshot. Snapshot positions are zero-based, so spans can start at any position including zero. The `End` property of a span is equal to the sum of its `Start` property and its `Length` property. A `Span` does not include the character that is indexed by the `End` property. For example, a span that has Start=5 and Length=3 has End=8, and it includes the characters at positions 5, 6, and 7. The notation for this span is [5..8).
 
 Two spans intersect if they have any positions in common, including the End position. Therefore, the intersection of [3, 5) and [2, 7) is [3, 5) and the intersection of [3, 5) and [5, 7) is [5, 5). (Notice that [5, 5) is an empty span.)
 
@@ -196,19 +196,19 @@ The text view formats one <xref:Microsoft.VisualStudio.Text.ITextSnapshotLine> a
 
 The features of the editor are designed so that the definition of the feature is separate from its implementation. The editor includes these features:
 
--   Tags and classifiers
+- Tags and classifiers
 
--   Adornments
+- Adornments
 
--   Projection
+- Projection
 
--   Outlining
+- Outlining
 
--   Mouse and key bindings
+- Mouse and key bindings
 
--   Operations and primitives
+- Operations and primitives
 
--   IntelliSense
+- IntelliSense
 
 ### Tags and classifiers
 
@@ -256,7 +256,7 @@ Embedded adornments are graphics that form part of the formatted text view. They
 
 Pop-up adornments are graphics that appear in a small window above the text view, for example, tooltips.
 
-###  <a name="projection"></a> Projection
+### <a name="projection"></a> Projection
 
 Projection is a technique for constructing a different kind of text buffer that does not actually store text, but instead combines text from other text buffers. For example, a projection buffer can be used to concatenate the text from two other buffers and present the result as if it is in just one buffer, or to hide parts of the text in one buffer. A projection buffer can act as a source buffer to another projection buffer. A set of buffers that are related by projection can be constructed to rearrange text in many different ways. (Such a set is also known as a *buffer graph*.) The Visual Studio text outlining feature is implemented by using a projection buffer to hide the collapsed text, and the Visual Studio editor for ASP.NET pages uses projection to support embedded languages such as Visual Basic and C#.
 

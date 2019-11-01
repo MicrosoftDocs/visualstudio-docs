@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "text searches, replacing text"
   - "find and replace"
   - "replace in files"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumDebugReferenceInfo2"
 ms.assetid: 7ed01441-686f-4032-8268-a4c750f19f85
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -49,7 +49,7 @@ IEnumDebugReferenceInfo2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md)
 - [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)

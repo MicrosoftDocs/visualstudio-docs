@@ -25,10 +25,10 @@ var x = example();           // Try and call example as if it were a function.
   
 ### To correct this error  
   
--   Only call **Function prototype** methods on `Function` objects.  
+- Only call **Function prototype** methods on `Function` objects.  
   
--   Ensure that you use the function call operator `()` to call functions only.  
+- Ensure that you use the function call operator `()` to call functions only.  
   
-## See Also  
+## See also  
  [Function Object](../../javascript/reference/function-object-javascript.md)   
  [prototype Property (Object)](../../javascript/reference/prototype-property-object-javascript.md)

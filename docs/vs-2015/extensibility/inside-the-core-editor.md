@@ -18,17 +18,17 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] core editor is a set of several
   
  The following areas are some important aspects of the core editor:  
   
--   Text buffer  
+- Text buffer  
   
--   Text view  
+- Text view  
   
--   Code window  
+- Code window  
   
--   Text markers  
+- Text markers  
   
--   Text manager  
+- Text manager  
   
--   Integration with language services  
+- Integration with language services  
   
 ## In This Section  
  [Instantiating the Core Editor By Using the Legacy API](../extensibility/instantiating-the-core-editor-by-using-the-legacy-api.md)  

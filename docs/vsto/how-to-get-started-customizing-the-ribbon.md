@@ -31,40 +31,40 @@ ms.workload:
 
     Names cannot contain the following characters:
 
-   -   Pound (#)
+   - Pound (#)
 
-   -   Percent (%)
+   - Percent (%)
 
-   -   Ampersand (&)
+   - Ampersand (&)
 
-   -   Asterisk (*)
+   - Asterisk (*)
 
-   -   Vertical bar (|)
+   - Vertical bar (|)
 
-   -   Backslash (\\)
+   - Backslash (\\)
 
-   -   Colon (:)
+   - Colon (:)
 
-   -   Double quotation mark (")
+   - Double quotation mark (")
 
-   -   Less than (\<)
+   - Less than (\<)
 
-   -   Greater than (>)
+   - Greater than (>)
 
-   -   Question mark (?)
+   - Question mark (?)
 
-   -   Forward slash (/)
+   - Forward slash (/)
 
-   -   Leading or trailing spaces (' ')
+   - Leading or trailing spaces (' ')
 
-   -   Names reserved for Windows or DOS such as ("nul", "aux", "con", "com1", "lpt1", and so on)
+   - Names reserved for Windows or DOS such as ("nul", "aux", "con", "com1", "lpt1", and so on)
 
 4. Click **OK**.
 
    The Ribbon item appears in **Solution Explorer**. For information about the next steps, see [Ribbon overview](../vsto/ribbon-overview.md).
 
 ## See also
-- [Access the Ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
+- [Access the Ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)
 - [Ribbon Designer](../vsto/ribbon-designer.md)
 - [Ribbon XML](../vsto/ribbon-xml.md)
 - [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)

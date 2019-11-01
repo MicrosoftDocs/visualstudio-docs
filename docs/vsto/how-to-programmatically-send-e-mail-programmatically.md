@@ -1,6 +1,6 @@
 ---
 title: "How to: Programmatically send email"
-ms.date: "02/02/2017"
+ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -21,13 +21,15 @@ ms.workload:
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
+[!include[Add-ins note](includes/addinsnote.md)]
+
 ## Example
  [!code-csharp[Trin_OL_ProgramEmail#1](../vsto/codesnippet/CSharp/Trin_OL_ProgramEMail/thisaddin.cs#1)]
 
 ## Compile the code
  This example requires:
 
--   Contacts that have the domain name **example.com** in their email addresses.
+- Contacts that have the domain name **example.com** in their email addresses.
 
 ## Robust programming
  Do not remove the filter code that searches for the domain name **example.com**. Your solution will send email messages to all of your contacts if you remove the filter.

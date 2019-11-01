@@ -27,10 +27,10 @@ To make a ClickOnce application available to users, you must publish it to a fil
  Before you run the Publish Wizard, you should set the publishing properties appropriately. For example, if you want to designate a key to sign your ClickOnce application, you can do so on the **Signing** page of the **Project Designer**. For more information, see [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md).  
   
 > [!NOTE]
->  When you install more than one version of an application by using ClickOnce, the installation moves earlier versions of the application into a folder named Archive, in the publish location that you specify. Archiving earlier versions in this manner keeps the installation directory clear of folders from the earlier version.  
+> When you install more than one version of an application by using ClickOnce, the installation moves earlier versions of the application into a folder named Archive, in the publish location that you specify. Archiving earlier versions in this manner keeps the installation directory clear of folders from the earlier version.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, click **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, click **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ### To publish to a file share or path  
   
@@ -44,11 +44,11 @@ To make a ClickOnce application available to users, you must publish it to a fil
   
 4. In the **How will users install the application?** page, select the location where users will go to install the application:  
   
-   -   If users will install from a Web site, click **From a Web site** and enter a URL that corresponds to the file path entered in the previous step. Click **Next**. (This option is typically used when you specify an FTP address as the publishing location. Direct download from FTP is not supported. Therefore, you have to enter a URL here.)  
+   - If users will install from a Web site, click **From a Web site** and enter a URL that corresponds to the file path entered in the previous step. Click **Next**. (This option is typically used when you specify an FTP address as the publishing location. Direct download from FTP is not supported. Therefore, you have to enter a URL here.)  
   
-   -   If users will install the application directly from the file share, click **From a UNC path or file share**, and then click **Next**. (This is for publishing locations of the form c:\deploy\myapp or \\\server\myapp.)  
+   - If users will install the application directly from the file share, click **From a UNC path or file share**, and then click **Next**. (This is for publishing locations of the form c:\deploy\myapp or \\\server\myapp.)  
   
-   -   If users will install from removable media, click **From a CD-ROM or DVD-ROM**, and then click **Next**.  
+   - If users will install from removable media, click **From a CD-ROM or DVD-ROM**, and then click **Next**.  
   
 5. On the **Will the application be available offline?** page, click the appropriate option:  
   
@@ -77,7 +77,7 @@ To make a ClickOnce application available to users, you must publish it to a fil
 4. On the **How will users install the application?** page, click From a **CD-ROM or DVD-ROM**, and then click **Next**.  
   
    > [!NOTE]
-   >  If you want the installation to run automatically when the CD-ROM is inserted into the drive, open the **Publish** page in the **Project Designer** and click the **Options** button, and then, in the **Publish Options** wizard, select **For CD installations, automatically start Setup when CD is inserted**.  
+   > If you want the installation to run automatically when the CD-ROM is inserted into the drive, open the **Publish** page in the **Project Designer** and click the **Options** button, and then, in the **Publish Options** wizard, select **For CD installations, automatically start Setup when CD is inserted**.  
   
 5. If you distribute your application on CD-ROM, you might want to provide updates from a Web site. In the **Where will the application check for updates?** page, choose an update option:  
   
@@ -92,9 +92,9 @@ To make a ClickOnce application available to users, you must publish it to a fil
     Publishing status is displayed in the status notification area.  
   
    > [!NOTE]
-   >  After publishing is complete, you will have to use a CD-Rewriter or DVD-Rewriter to copy the files from the location specified in step 3 to the CD-ROM or DVD-ROM media.  
+   > After publishing is complete, you will have to use a CD-Rewriter or DVD-Rewriter to copy the files from the location specified in step 3 to the CD-ROM or DVD-ROM media.  
   
 ## See Also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
- [Deploying an Office Solution by Using ClickOnce](http://msdn.microsoft.com/library/feb516b3-5e4d-449a-9fd2-347d08d90252)
+ [Deploying an Office Solution by Using ClickOnce](https://msdn.microsoft.com/library/feb516b3-5e4d-449a-9fd2-347d08d90252)

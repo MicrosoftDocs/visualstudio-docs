@@ -27,5 +27,5 @@ You can extend most features of the Visual Studio code editor. The editor is bas
 |[Legacy Interfaces in the Editor](../extensibility/legacy-interfaces-in-the-editor.md)|Links to documents that explain how to access the core editor from existing code.|  
 |[Creating Custom Editors and Designers](../extensibility/creating-custom-editors-and-designers.md)|Links to documents that explain how to create custom editors.|  
 |[Legacy Language Service Extensibility](../extensibility/internals/legacy-language-service-extensibility.md)|Links to documents that describe how to integrate programming languages into Visual Studio.|  
-|[Managed Extensibility Framework (MEF)](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)|Introduces the Managed Extensibility Framework (MEF).|  
-|[Windows Presentation Foundation](http://msdn.microsoft.com/library/f667bd15-2134-41e9-b4af-5ced6fafab5d)|Introduces the Windows Presentation Foundation (WPF).|
+|[Managed Extensibility Framework (MEF)](https://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)|Introduces the Managed Extensibility Framework (MEF).|  
+|[Windows Presentation Foundation](https://msdn.microsoft.com/library/f667bd15-2134-41e9-b4af-5ced6fafab5d)|Introduces the Windows Presentation Foundation (WPF).|

@@ -2,8 +2,8 @@
 title: Sharing Classes between DSLs by using a DSL Library
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -15,11 +15,11 @@ In the Visual Studio Visualization and Modeling SDK, you can create an incomplet
 
 #### To create a DSL Library
 
-1.  Create a new DSL project, and choose the DSL Library solution template.
+1. Create a new DSL project, and choose the DSL Library solution template.
 
      A single DSL project will be created with an empty model.
 
-2.  You can add domain classes, relationships, shapes and so on.
+2. You can add domain classes, relationships, shapes and so on.
 
      The elements in the library do not have to form a single embedding tree.
 
@@ -27,15 +27,15 @@ In the Visual Studio Visualization and Modeling SDK, you can create an incomplet
 
      Consider setting the **Inheritance Modifier** of the domain classes to `Abstract`.
 
-3.  You can add elements that you define in DSL Explorer, such as Connection Builders.
+3. You can add elements that you define in DSL Explorer, such as Connection Builders.
 
-4.  You can add customizations that require additional code, such as validation constraints.
+4. You can add customizations that require additional code, such as validation constraints.
 
-5.  Click **Transform All Templates**.
+5. Click **Transform All Templates**.
 
-6.  Build the project.
+6. Build the project.
 
-7.  When you distribute the DSL for other people to use, you must provide both the compiled assembly (DLL) and the file `DslDefinition.dsl`. You can find the compiled assembly in a folder under `Dsl\bin\*`
+7. When you distribute the DSL for other people to use, you must provide both the compiled assembly (DLL) and the file `DslDefinition.dsl`. You can find the compiled assembly in a folder under `Dsl\bin\*`
 
 #### To import a DSL Library
 
@@ -55,7 +55,7 @@ In the Visual Studio Visualization and Modeling SDK, you can create an incomplet
 
    A DSL Library can import other libraries. When you import a library, its imports also automatically appear in DSL Explorer.
 
-## See Also
+## See also
 
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
 

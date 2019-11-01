@@ -22,25 +22,25 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
 ## Locations for the Visual Studio Package Project template  
  The Visual Studio Package project template can be found in three different locations in the **New Project** dialog:  
   
-1.  Under Visual Basic Extensibility. The default language of the project is Visual Basic.  
+1. Under Visual Basic Extensibility. The default language of the project is Visual Basic.  
   
-2.  Under C# Extensibility. The default language of the project is C#.  
+2. Under C# Extensibility. The default language of the project is C#.  
   
-3.  Under Other Project Types Extensibility. The default language of the project is C++.  
+3. Under Other Project Types Extensibility. The default language of the project is C++.  
   
 ### To create the VSPackage  
   
--   Start [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and create a [!INCLUDE[csprcs](../includes/csprcs-md.md)] VSPackage named `MyPackage`, as outlined in [Walkthrough: Creating a Menu Command VSPackage](http://msdn.microsoft.com/d699c149-5d1e-47ff-94c7-e1222af02c32).  
+- Start [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and create a [!INCLUDE[csprcs](../includes/csprcs-md.md)] VSPackage named `MyPackage`, as outlined in [Walkthrough: Creating a Menu Command VSPackage](https://msdn.microsoft.com/d699c149-5d1e-47ff-94c7-e1222af02c32).  
   
 ### To add the editor factory  
   
-1.  Right-click the **MyPackage** project, point to **Add** and then click **Class**.  
+1. Right-click the **MyPackage** project, point to **Add** and then click **Class**.  
   
-2.  In the **Add New Item** dialog box, make sure the **Class** template is selected, type `EditorFactory.cs` for the name, and then click **Add** to add the class to your project.  
+2. In the **Add New Item** dialog box, make sure the **Class** template is selected, type `EditorFactory.cs` for the name, and then click **Add** to add the class to your project.  
   
      The EditorFactory.cs file should be automatically opened.  
   
-3.  Reference the following assemblies from your code.  
+3. Reference the following assemblies from your code.  
   
     ```vb  
     Imports System.Runtime.InteropServices  
@@ -63,7 +63,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
     ```  
   
-4.  Add a GUID to the `EditorFactory` class by adding the `Guid` attribute immediately before the class declaration.  
+4. Add a GUID to the `EditorFactory` class by adding the `Guid` attribute immediately before the class declaration.  
   
      You can generate a new GUID by using the guidgen.exe program at the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] command prompt, or by clicking **Create GUID** on the **Tools** menu. The GUID used here is only an example; do not use it in your project.  
   
@@ -75,7 +75,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
     [Guid("0eea3187-c5fa-48d4-aa72-b5eecd3b17b1")]   
     ```  
   
-5.  In the class definition, add two private variables to contain the parent package and a service provider.  
+5. In the class definition, add two private variables to contain the parent package and a service provider.  
   
     ```vb  
     Class EditorFactory  
@@ -92,7 +92,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
     ```  
   
-6.  Add a public class constructor that takes one parameter of type <xref:Microsoft.VisualStudio.Shell.Package>:  
+6. Add a public class constructor that takes one parameter of type <xref:Microsoft.VisualStudio.Shell.Package>:  
   
     ```vb  
     Public Sub New(ByVal parentPackage As Package)  
@@ -107,7 +107,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
     }  
     ```  
   
-7.  Modify the `EditorFactory` class declaration to derive from the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface.  
+7. Modify the `EditorFactory` class declaration to derive from the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface.  
   
     ```vb  
     Class EditorFactory Implements IVsEditorFacto  
@@ -118,7 +118,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
     ```  
   
-8.  Right-click <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>, click **Implement Interface**, and then click **Implement Interface Explicitly**.  
+8. Right-click <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>, click **Implement Interface**, and then click **Implement Interface Explicitly**.  
   
      This adds the four methods that must be implemented in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface.  
   
@@ -314,20 +314,20 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 ### To register the editor factory  
   
-1.  In **Solution Explorer**, double-click the Resources.resx file to open it to the string table, in which the entry **String1 is** selected.  
+1. In **Solution Explorer**, double-click the Resources.resx file to open it to the string table, in which the entry **String1 is** selected.  
   
-2.  Change the name of the identifier to `IDS_EDITORNAME` and the text to **MyPackage Editor.** This string will appear as the name of your editor.  
+2. Change the name of the identifier to `IDS_EDITORNAME` and the text to **MyPackage Editor.** This string will appear as the name of your editor.  
   
-3.  Open the VSPackage.resx file and add a new string, set the name to **101** and the value to `IDS_EDITORNAME`. This provides the package with a resource ID to access the string you just created.  
+3. Open the VSPackage.resx file and add a new string, set the name to **101** and the value to `IDS_EDITORNAME`. This provides the package with a resource ID to access the string you just created.  
   
     > [!NOTE]
-    >  If the VSPackage.resx file contains another string that the `name` attribute set to **101**, substitute another unique, numeric value, here and in the following steps.  
+    > If the VSPackage.resx file contains another string that the `name` attribute set to **101**, substitute another unique, numeric value, here and in the following steps.  
   
-4.  In **Solution Explorer**, open the MyPackagePackage.cs file.  
+4. In **Solution Explorer**, open the MyPackagePackage.cs file.  
   
      This is the main package file.  
   
-5.  Add the following user attributes just before the `Guid` attribute.  
+5. Add the following user attributes just before the `Guid` attribute.  
   
     ```vb  
     <ProvideEditorFactoryAttribute(GetType(EditorFactory), 101)> _  
@@ -343,7 +343,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
      The <xref:Microsoft.VisualStudio.Shell.ProvideEditorExtensionAttribute> attribute associates the .myext file extension with your editor factory so that any time a file that has that extension is loaded, your editor factory is invoked.  
   
-6.  Add a private variable to the `MyPackage` class, just before the constructor, and give it the type `EditorFactory`.  
+6. Add a private variable to the `MyPackage` class, just before the constructor, and give it the type `EditorFactory`.  
   
     ```vb  
     Private editorFactory As EditorFactory  
@@ -353,7 +353,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
     private EditorFactory editorFactory;  
     ```  
   
-7.  Find the `Initialize` method (you may have to open the `Package Members` hidden region) and add the following code after the call to `base.Initialize()`.  
+7. Find the `Initialize` method (you may have to open the `Package Members` hidden region) and add the following code after the call to `base.Initialize()`.  
   
     ```vb  
     'Create our editor factory and register it.   
@@ -368,7 +368,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
     ```  
   
-8.  Compile the program and make sure there are no errors.  
+8. Compile the program and make sure there are no errors.  
   
      This step registers the editor factory in the experimental registry hive for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. If you are prompted to override the resource.h file, click **OK**.  
   

@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "VS SDK (see Visual Studio SDK)"
   - "Visual Studio, SDK"
 ms.assetid: 1f7c348a-114c-4243-b392-3531e9c9c6fd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -48,7 +48,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
  Take advantage of the [Image service and catalog](../extensibility/image-service-and-catalog.md) for great image management and support for high DPI and theming.
 
 ## Find and install existing Visual Studio extensions
- You can find Visual Studio extensions in the **Extensions and Updates** dialog on the **Tools** menu. For more information, see [Find and Use Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md). You can also find extensions in the [Visual Studio marketplace](https://marketplace.visualstudio.com/)
+ You can find Visual Studio extensions in the **Extensions and Updates** dialog on the **Tools** menu. For more information, see [Find and Use Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md). You can also find extensions in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/)
 
 ## Visual Studio SDK reference
  You can find the Visual Studio SDK API reference at [Visual Studio SDK Reference](../extensibility/visual-studio-sdk-reference.md).
@@ -61,13 +61,14 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
 
  You can find more information in the [VSX Arcana blog](https://blogs.msdn.microsoft.com/vsx/) and a number of blogs written by Microsoft MVPs:
 
--   [Favorite Visual Studio extensions](http://geekswithblogs.net/sdorman/archive/2014/10/05/favorite-visual-studio-extensions.aspx)
+- [Favorite Visual Studio extensions](https://scottdorman.blog/2014/10/05/favorite-visual-studio-extensions/)
 
--   [Visual Studio extensibility](http://www.visualstudioextensibility.com/overview/vs/)
+- [Visual Studio extensibility](http://www.visualstudioextensibility.com/overview/vs/)
 
--   [Extending Visual Studio](http://blog.slaks.net/2013-10-18/extending-visual-studio-part-1-getting-started/)
+- [Extending Visual Studio](https://blog.slaks.net/2013-10-18/extending-visual-studio-part-1-getting-started/)
 
 ## See also
+
 - [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md)
 - [How to: Migrate extensibility projects to Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md)
 - [FAQ: Converting add-ins to VSPackage extensions](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md)
@@ -83,9 +84,8 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
 - [Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
 - [Use and providing services](../extensibility/using-and-providing-services.md)
 - [Manage VSPackages](../extensibility/managing-vspackages.md)
-- [Visual Studio isolated shell](/visualstudio/extensibility/shell/visual-studio-isolated-shell)
+- [Visual Studio isolated shell](https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/)
 - [Ship Visual Studio extensions](../extensibility/shipping-visual-studio-extensions.md)
 - [Inside the Visual Studio SDK](../extensibility/internals/inside-the-visual-studio-sdk.md)
 - [Support for the Visual Studio SDK](../extensibility/support-for-the-visual-studio-sdk.md)
-- [Archive](../extensibility/archive.md)
 - [Visual Studio SDK reference](../extensibility/visual-studio-sdk-reference.md)

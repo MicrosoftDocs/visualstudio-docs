@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "DEBUG_CUSTOM_VIEWER structure"
 ms.assetid: 8e0ef3f0-0107-48e8-a037-6e52b4c4ed9d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # DEBUG_CUSTOM_VIEWER
 A structure that identifies a custom viewer or type visualizer.
@@ -41,22 +44,22 @@ public struct DEBUG_CUSTOM_VIEWER {
 ```
 
 ## Members
-dwID
+`dwID`\
 An ID to differentiate multiple viewers or visualizers implemented by one `GUID`.
 
-bstrMenuName
+`bstrMenuName`\
 The text that will appear in the drop-down menu.
 
-bstrDescription
+`bstrDescription`\
 A description of the custom viewer or type visualizer (must be a null value if not used).
 
-guidLang
+`guidLang`\
 Language of the providing expression evaluator.
 
-guidVendor
+`guidVendor`\
 Vendor of the providing expression evaluator.
 
-bstrMetric
+`bstrMetric`\
 Metric under which the custom viewer or type visualizer `CLSID` is stored.
 
 ## Remarks
@@ -69,7 +72,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [GetCustomViewerList](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md)
 - [GetCustomViewerList](../../../extensibility/debugger/reference/ieevisualizerservice-getcustomviewerlist.md)

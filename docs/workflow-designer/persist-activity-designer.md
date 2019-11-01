@@ -5,8 +5,8 @@ ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.Persist.UI"
 ms.assetid: be8648dd-3eb9-4a50-8ec1-57a8be804692
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -17,7 +17,7 @@ The **Persist** activity designer is used to create and configure a <xref:System
 
 ## The Persist Activity
 
-The <xref:System.Activities.Statements.Persist> activity saves a workflow to disk, if possible. The <xref:System.Activities.Statements.Persist> activity cannot be executed in a non-persistence zone as, for example, within a <xref:System.Activities.Statements.TransactionScope> activity. If you do use a <xref:System.Activities.Statements.Persist> activity in a non-persistence scope, an exception is thrown at runtime.
+The <xref:System.Activities.Statements.Persist> activity saves a workflow to disk, if possible. The <xref:System.Activities.Statements.Persist> activity cannot be executed in a non-persistence zone as, for example, within a <xref:System.Activities.Statements.TransactionScope> activity. If you do use a <xref:System.Activities.Statements.Persist> activity in a non-persistence scope, an exception is thrown at run time.
 
 ### Using the Persist Activity Designer
 

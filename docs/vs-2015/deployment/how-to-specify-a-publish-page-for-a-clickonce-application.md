@@ -30,29 +30,29 @@ When publishing a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applica
   
 ### To specify a custom Web page for a ClickOnce application  
   
-1.  With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.  
+1. With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.  
   
-2.  Select the **Publish** pane.  
+2. Select the **Publish** pane.  
   
-3.  Click the **Options** button to open the **Publish Options** dialog box.  
+3. Click the **Options** button to open the **Publish Options** dialog box.  
   
-4.  Click **Deployment**.  
+4. Click **Deployment**.  
   
-5.  In the **Publish Options** dialog box, make sure that the **Open deployment web page after publish** check box is selected (it should be selected by default).  
+5. In the **Publish Options** dialog box, make sure that the **Open deployment web page after publish** check box is selected (it should be selected by default).  
   
-6.  In the **Deployment web page:** box, enter the name for your Web page, and then click **OK**.  
+6. In the **Deployment web page:** box, enter the name for your Web page, and then click **OK**.  
   
 ### To prevent the publish page from launching each time you publish  
   
-1.  With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.  
+1. With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.  
   
-2.  Select the **Publish** pane.  
+2. Select the **Publish** pane.  
   
-3.  Click the **Options** button to open the **Publish Options** dialog box.  
+3. Click the **Options** button to open the **Publish Options** dialog box.  
   
-4.  Click **Deployment**.  
+4. Click **Deployment**.  
   
-5.  In the **Publish Options** dialog box, clear the **Open deployment web page after publish** check box.  
+5. In the **Publish Options** dialog box, clear the **Open deployment web page after publish** check box.  
   
 ## See Also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   

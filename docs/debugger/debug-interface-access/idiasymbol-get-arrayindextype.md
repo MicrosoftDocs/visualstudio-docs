@@ -33,7 +33,7 @@ HRESULT get_arrayIndexType ( 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.
 
 > [!NOTE]
->  A return value of `S_FALSE` means the property is not available for the symbol.
+> A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## Remarks
  Some languages can specify the type used as an index to an array. The symbol returned from this method specifies that type.
@@ -45,5 +45,5 @@ HRESULT get_arrayIndexType ( 
 |Header:|dia2.h|
 |Version:|DIA SDK v7.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

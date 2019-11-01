@@ -23,7 +23,6 @@ manager: jillfra
 # Target Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Contains a set of tasks for [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] to execute sequentially.  
   
  \<Project>  

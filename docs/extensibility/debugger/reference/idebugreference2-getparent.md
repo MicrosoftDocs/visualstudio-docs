@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugReference2::GetParent"
 ms.assetid: e3061665-ad3e-4c1b-b33f-82755fa21be3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugReference2::GetParent
 Gets the parent reference of a reference. Reserved for future use.
@@ -30,13 +33,12 @@ int GetParent ( 
 );
 ```
 
-#### Parameters
- `ppParent`
-
- [out] Returns an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object that represents the parent of this property.
+## Parameters
+`ppParent`\
+[out] Returns an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object that represents the parent of this property.
 
 ## Return Value
  Always returns `E_NOTIMPL`.
 
-## See Also
+## See also
 - [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)

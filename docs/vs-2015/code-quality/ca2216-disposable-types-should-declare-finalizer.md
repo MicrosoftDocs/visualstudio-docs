@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "DisposableTypesShouldDeclareFinalizer"
 ms.assetid: 0cabcc5e-b526-452b-8c2a-0cbe3b93c0ef
 caps.latest.revision: 16
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2216: Disposable types should declare finalizer
@@ -32,11 +32,11 @@ manager: "wpickett"
 ## Rule Description
  A violation of this rule is reported if the disposable type contains fields of the following types:
 
--   <xref:System.IntPtr?displayProperty=fullName>
+- <xref:System.IntPtr?displayProperty=fullName>
 
--   <xref:System.UIntPtr?displayProperty=fullName>
+- <xref:System.UIntPtr?displayProperty=fullName>
 
--   <xref:System.Runtime.InteropServices.HandleRef?displayProperty=fullName>
+- <xref:System.Runtime.InteropServices.HandleRef?displayProperty=fullName>
 
 ## How to Fix Violations
  To fix a violation of this rule, implement a finalizer that calls your <xref:System.IDisposable.Dispose%2A> method.
@@ -62,4 +62,4 @@ manager: "wpickett"
  <xref:System.Runtime.InteropServices.HandleRef?displayProperty=fullName>
  <xref:System.UIntPtr?displayProperty=fullName>
  <xref:System.Object.Finalize%2A?displayProperty=fullName>
- [Dispose Pattern](http://msdn.microsoft.com/library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)
+ [Dispose Pattern](https://msdn.microsoft.com/library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)

@@ -24,9 +24,9 @@ ms.workload:
 ## Compile the code
  This example requires:
 
--   An Outlook mail folder named **Test**.
+- An Outlook mail folder named **Test**.
 
--   An email message that arrives with the word **Test** in the `Subject` field.
+- An email message that arrives with the word **Test** in the `Subject` field.
 
 ## See also
 - [Work with folders](../vsto/working-with-folders.md)

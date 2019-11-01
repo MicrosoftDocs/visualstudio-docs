@@ -29,26 +29,26 @@ You can debug a 64-bit application that is running on the local computer or on a
 ## Debug a 64-bit Application
  To try debugging a 64-bit application:
 
-1.  Create a Visual Studio solution, for example a C# console application.
+1. Create a Visual Studio solution, for example a C# console application.
 
-2.  Set the configuration to 64-bit using the Configuration Manager. For more information, see [How to: Configure Projects to Target Platforms](../ide/how-to-configure-projects-to-target-platforms.md).
+2. Set the configuration to 64-bit using the Configuration Manager. For more information, see [How to: Configure Projects to Target Platforms](../ide/how-to-configure-projects-to-target-platforms.md).
 
-3.  At this point the 64-bit version of the remote debugger (msvsmon.exe) starts. It runs as long as the solution with the 64-bit configuration is open.
+3. At this point the 64-bit version of the remote debugger (msvsmon.exe) starts. It runs as long as the solution with the 64-bit configuration is open.
 
-4.  Start debugging. You should have the same experience as with a 32-bit configuration. If you get errors, see the Troubleshooting section below.
+4. Start debugging. You should have the same experience as with a 32-bit configuration. If you get errors, see the Troubleshooting section below.
 
 ## Troubleshooting 64-bit debugging
  You may see an error: "A 64-bit debugging operation is taking longer than expected." In this case, Visual Studio has sent a request to the 64-bit version of msvsmon.exe, and it has taken a long time for the result of that request to come back.
 
  There are two main causes for this error:
 
--   You have networking security software installed on your computer that has caused the networking stack to be unreliable, and it has dropped packets going over localhost. Try disabling all network security software and see if this resolves it. If so, report to your network security software vendor that the software is interfering with localhost traffic.
+- You have networking security software installed on your computer that has caused the networking stack to be unreliable, and it has dropped packets going over localhost. Try disabling all network security software and see if this resolves it. If so, report to your network security software vendor that the software is interfering with localhost traffic.
 
--   You are running into a hang or performance problem with Visual Studio. If the problem happens regularly, you can collect dumps of Visual Studio (devenv.exe) and the worker process (msvsmon.exe) and send them to Microsoft. For information about reporting a problem, see [How to Report a Problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md).
+- You are running into a hang or performance problem with Visual Studio. If the problem happens regularly, you can collect dumps of Visual Studio (devenv.exe) and the worker process (msvsmon.exe) and send them to Microsoft. For information about reporting a problem, see [How to Report a Problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md).
 
-## See Also
+## See also
 
-- [64-bit Applications](https://docs.microsoft.com/dotnet/framework/64-bit-apps)
+- [64-bit Applications](/dotnet/framework/64-bit-apps)
 - [Configuring Programs for 64-Bit](/cpp/build/configuring-programs-for-64-bit-visual-cpp)
 - [Visual Studio IDE 64-Bit Support](../ide/visual-studio-ide-64-bit-support.md)
 - [Using Dump Files](../debugger/using-dump-files.md)

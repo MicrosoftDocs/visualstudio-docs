@@ -24,13 +24,13 @@ You attempted to use a conditional compilation variable without first turning co
   
 ### To correct this error  
   
--   Add the following statement to the beginning of your conditional code:  
+- Add the following statement to the beginning of your conditional code:  
   
     ```JavaScript  
     /*@cc_on @*/  
     ```  
   
-## See Also  
+## See also  
  [Conditional Compilation](../../javascript/advanced/conditional-compilation-javascript.md)   
  [Conditional Compilation Variables](../../javascript/advanced/conditional-compilation-variables-javascript.md)   
  [@cc_on Statement](../../javascript/reference/at-cc-on-statement-javascript.md)   

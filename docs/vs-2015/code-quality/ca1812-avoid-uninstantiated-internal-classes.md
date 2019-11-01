@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1812"
 ms.assetid: 1bb92a42-322a-44cc-98a8-8858212c1e1f
 caps.latest.revision: 28
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1812: Avoid uninstantiated internal classes
@@ -53,9 +53,9 @@ manager: "wpickett"
 ## How to Fix Violations
  To fix a violation of this rule, remove the type or add the code that uses it. If the type contains only static methods, add one of the following to the type to prevent the compiler from emitting a default public instance constructor:
 
--   A private constructor for types that target [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] versions 1.0 and 1.1.
+- A private constructor for types that target [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] versions 1.0 and 1.1.
 
--   The `static` (`Shared` in Visual Basic) modifier for types that target [!INCLUDE[dnprdnlong](../includes/dnprdnlong-md.md)].
+- The `static` (`Shared` in Visual Basic) modifier for types that target [!INCLUDE[dnprdnlong](../includes/dnprdnlong-md.md)].
 
 ## When to Suppress Warnings
  It is safe to suppress a warning from this rule. We recommend that you suppress this warning in the following situations:

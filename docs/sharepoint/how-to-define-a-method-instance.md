@@ -19,19 +19,19 @@ ms.workload:
 # How to: Define a method instance
   You must define at least one method instance for every method in your model.
 
- Add a method instance by using the **BDC Method Details** window. When you add the method instance, Visual Studio adds a `<MethodInstance>` element to the XML of the model file in your project. For more information about the attributes of a `<MethodInstance>` element, see [MethodInstance](http://go.microsoft.com/fwlink/?LinkID=169282).
+ Add a method instance by using the **BDC Method Details** window. When you add the method instance, Visual Studio adds a `<MethodInstance>` element to the XML of the model file in your project. For more information about the attributes of a `<MethodInstance>` element, see [MethodInstance](/previous-versions/office/developer/sharepoint-2010/ee556838(v=office.14)).
 
 ### To define a method instance
 
-1.  In the **BDC Method Details** window, expand the node of a method, and then expand the **Instances** node.
+1. In the **BDC Method Details** window, expand the node of a method, and then expand the **Instances** node.
 
-2.  In the **Add a Method Instance** list, choose **Create Finder Instance**.
+2. In the **Add a Method Instance** list, choose **Create Finder Instance**.
 
      A new method instance appears beneath the **Instances** node.
 
-3.  On the menu bar, choose **View** > **Properties Window**.
+3. On the menu bar, choose **View** > **Properties Window**.
 
-4.  In the **Properties** window, set the properties of the method instance. For more information about each property, see [MethodInstance](http://go.microsoft.com/fwlink/?LinkID=169282).
+4. In the **Properties** window, set the properties of the method instance. For more information about each property, see [MethodInstance](/previous-versions/office/developer/sharepoint-2010/ee556838(v=office.14)).
 
 ## See also
 - [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)

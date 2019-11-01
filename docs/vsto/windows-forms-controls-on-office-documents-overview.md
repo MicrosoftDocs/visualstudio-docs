@@ -29,26 +29,27 @@ ms.workload:
   - "office"
 ---
 # Windows Forms controls on Office documents overview
-  Windows Forms controls are objects that users can interact with to enter or manipulate data. In document-level projects for Microsoft Office Excel and Microsoft Office Word, you can add Windows Forms controls to the document or workbook in your project at design time, or you can programmatically add these controls at runtime. You can programmatically add these controls to any open document or worksheet at runtime in a VSTO Add-in for Excel or Word.
+  Windows Forms controls are objects that users can interact with to enter or manipulate data. In document-level projects for Microsoft Office Excel and Microsoft Office Word, you can add Windows Forms controls to the document or workbook in your project at design time, or you can programmatically add these controls at run time. You can programmatically add these controls to any open document or worksheet at run time in a VSTO Add-in for Excel or Word.
 
  For more information, see [How to: Add Windows Forms controls to Office documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md).
 
  [!INCLUDE[appliesto_controls](../vsto/includes/appliesto-controls-md.md)]
 
 ## Use Windows Forms controls
- You can add Windows Forms controls to documents and to customizable user interface (UI) elements, including actions panes, custom task panes, and Windows Forms. Windows Forms controls generally have the same behavior on documents as on these other UI elements, but some differences do exist. For information, see [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md).
 
- The decision whether to add Windows Forms controls to a document or some other UI element depends on several factors. When designing the UI of your solution, consider the uses of Windows Forms controls as described in the following table.
+You can add Windows Forms controls to documents and to customizable user interface (UI) elements, including actions panes, custom task panes, and Windows Forms. Windows Forms controls generally have the same behavior on documents as on these other UI elements, but some differences do exist. For information, see [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md).
 
- On a document.
- -   When you want to display the controls 100% of the time.
+The decision whether to add Windows Forms controls to a document or some other UI element depends on several factors. When designing the UI of your solution, consider the uses of Windows Forms controls as described in the following table.
+
+On a document.
+- When you want to display the controls 100% of the time.
 
 - When you want users to enter data directly in the document, for example, in forms-based documents where the editing surface is locked.
 
 - When you want the controls to display in line with the data in the document. For example, if you are adding buttons to each row of a list object, you would want them in line with each list item.
 
-  On the actions pane or a custom task pane.
-  -   When you want to provide contextual information to the user.
+On the actions pane or a custom task pane.
+- When you want to provide contextual information to the user.
 
 - When you want only the results to appear in the document, and not the query controls and data.
 
@@ -56,17 +57,17 @@ ms.workload:
 
 - When you want to ensure that controls do not interfere with the view of the document.
 
-  On a Windows Form.
-  -   When you want to control the size of the UI.
+On a Windows Form.
+- When you want to control the size of the UI.
 
 - When you want to prevent users from hiding or deleting the controls.
 
 - When you want to get input from the user, and prevent the user from doing anything in the document until the input is received.
 
 ## Add Windows Forms controls programmatically
- You can add Windows Forms controls to Word documents and Excel worksheets at runtime. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] provides helper methods for adding the most common Windows Forms controls. These helper methods enable you to quickly add controls to your Office document and access the combined Windows Forms control functionality and Office-related functionality of these controls.
+ You can add Windows Forms controls to Word documents and Excel worksheets at run time. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] provides helper methods for adding the most common Windows Forms controls. These helper methods enable you to quickly add controls to your Office document and access the combined Windows Forms control functionality and Office-related functionality of these controls.
 
- For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+ For more information, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
 ## Use Windows Forms controls in document-level projects
  Some aspects of using Windows Forms controls on documents are unique to document-level projects, which enable you to design the UI of your document by using the Visual Studio designer.
@@ -74,35 +75,35 @@ ms.workload:
 ### Create custom user controls
  You can add a user control to your project and then add it to the **Toolbox**. You can then drag the user control directly to your document in the same way you would add a Windows Forms control to your document. There are some things to keep in mind when you create user controls:
 
--   Do not create a **sealed** user control. When you drag the control to your document, Visual Studio generates a wrapper class derived from the user control to extend it and support its use on the document. If the user control is **sealed**, Visual Studio cannot generate the wrapper class.
+- Do not create a **sealed** user control. When you drag the control to your document, Visual Studio generates a wrapper class derived from the user control to extend it and support its use on the document. If the user control is **sealed**, Visual Studio cannot generate the wrapper class.
 
--   User controls must have the <xref:System.Runtime.InteropServices.ComVisibleAttribute> attribute set to **true**. User controls created inside an Office project have this attribute set to **true** by default, but user controls that are part of outside projects might not have this attribute set to **true**.
+- User controls must have the <xref:System.Runtime.InteropServices.ComVisibleAttribute> attribute set to **true**. User controls created inside an Office project have this attribute set to **true** by default, but user controls that are part of outside projects might not have this attribute set to **true**.
 
--   After you have added a user control to the document, do not rename or delete the <xref:System.Windows.Forms.UserControl> class from the project. If you need to change the name of a user control you must first delete it from the document, and then add it again after the name has been changed.
+- After you have added a user control to the document, do not rename or delete the <xref:System.Windows.Forms.UserControl> class from the project. If you need to change the name of a user control you must first delete it from the document, and then add it again after the name has been changed.
 
 ### Arrange controls at design time
  If you add multiple controls to your Word and Excel documents at design time, you can quickly set the alignment of all of the selected controls by using the **Microsoft Office Word** and **Microsoft Office Excel** toolbars in Visual Studio. These toolbars are available only when a document or worksheet is open in the designer.
 
  When you select multiple controls in the designer, you can use the following buttons on these toolbars to arrange the controls:
 
--   **Align Lefts**
+- **Align Lefts**
 
--   **Align Centers**
+- **Align Centers**
 
--   **Align Rights**
+- **Align Rights**
 
--   **Align Tops**
+- **Align Tops**
 
--   **Align Middles**
+- **Align Middles**
 
--   **Align Bottoms**
+- **Align Bottoms**
 
--   **Make Horizontal Spacing Equal**
+- **Make Horizontal Spacing Equal**
 
--   **Make Vertical Spacing Equal**
+- **Make Vertical Spacing Equal**
 
 > [!NOTE]
->  In Word projects, these buttons are enabled only if the selected controls are not in line with text. By default, controls that you add to the document at design time are in line with text.
+> In Word projects, these buttons are enabled only if the selected controls are not in line with text. By default, controls that you add to the document at design time are in line with text.
 
 ### Prevent old data from appearing in Excel workbooks during loading
  When you add Windows Forms controls to documents or worksheets at design time, the controls remain in the document when the user closes the document. Controls added at design time are also called *static controls*.
@@ -123,13 +124,13 @@ ms.workload:
 ### Layout style of controls on a Word document
  When you add a control to the Word document in a document-level project by using the Visual Studio designer, the control is added in line with text. To change the layout style of the control, right-click the control and then click **Format Control**. Select a wrapping style on the **Layout** page of the **Format Object** dialog box.
 
- When you add a control to a Word document at runtime, you can specify the layout style of the new control by using different `Add`\<*control class*> method overloads of the <xref:Microsoft.Office.Tools.Word.ControlCollection> class:
+ When you add a control to a Word document at run time, you can specify the layout style of the new control by using different `Add`\<*control class*> method overloads of the <xref:Microsoft.Office.Tools.Word.ControlCollection> class:
 
 - To add the control in line with text, use an overload that accepts a <xref:Microsoft.Office.Interop.Word.Range> that specifies the location of the control.
 
 - To add the control as a floating shape, use an overload that accepts the left and top coordinates of the control.
 
-  For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+  For more information, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
   If you open a Word template in the Visual Studio designer, non-inline controls on the template might not be visible because Visual Studio opens the template in **Normal** view. To view the controls, change the view to **Print Layout**.
 
@@ -141,7 +142,7 @@ ms.workload:
 
 ## See also
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
-- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
 - [Actions pane overview](../vsto/actions-pane-overview.md)
 - [Windows Forms controls](/dotnet/framework/winforms/controls/index)

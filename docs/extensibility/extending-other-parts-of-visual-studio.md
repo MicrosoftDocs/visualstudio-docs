@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "user interfaces"
 ms.assetid: 27d2f1e1-2503-4aca-9cfc-707abd07ccf0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -23,9 +23,9 @@ The basic building blocks of Visual Studio Extensibility are VSPackages.  Learn 
 
 Learn how to add new controls and other items to the Toolbox and how to use Toolbox functionality:
 
--   [Create a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)
+- [Create a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)
 
--   [Create a Windows Forms Toolbox Control](../extensibility/creating-a-windows-forms-toolbox-control.md)
+- [Create a Windows Forms Toolbox Control](../extensibility/creating-a-windows-forms-toolbox-control.md)
 
 ## Extend the status bar
 

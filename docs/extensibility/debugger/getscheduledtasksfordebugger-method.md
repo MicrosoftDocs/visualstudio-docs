@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "GetScheduledTasksForDebugger method, TaskScheduler class [.NET Framework debug engines]"
 ms.assetid: 7c9b4cde-6e4a-4cef-929f-7d02b1da5762
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

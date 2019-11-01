@@ -54,7 +54,7 @@ The Source Control Plug-in SDK reference section contains the complete interface
  Describes how to disable warnings.  
   
 ## Related Sections  
- [Source Control Plug-in Sample](http://msdn.microsoft.com/61de7d2b-71db-451e-8e3e-d41b11c7a4ca)  
+ [Source Control Plug-in Sample](https://msdn.microsoft.com/61de7d2b-71db-451e-8e3e-d41b11c7a4ca)  
  Provides a sample of source control plug-in functionality.  
   
  [Test Guide for Source Control Plug-ins](../extensibility/internals/test-guide-for-source-control-plug-ins.md)  

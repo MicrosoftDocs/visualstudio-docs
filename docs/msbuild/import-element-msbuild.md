@@ -41,6 +41,7 @@ Imports the contents of one project file into another project file.
 |---------------|-----------------|
 |`Project`|Required attribute.<br /><br /> The path of the project file to import. The path can include wildcards. The matching files are imported in sorted order. By using this feature, you can add code to a project just by adding the code file to a directory.|
 |`Condition`|Optional attribute.<br /><br /> A condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|
+|`Sdk`| Optional attribute.<br /><br /> References a project SDK.|
 
 ### Child elements
  None
@@ -64,7 +65,6 @@ Imports the contents of one project file into another project file.
  If the imported project does not have a `DefaultTargets` attribute, imported projects are inspected in the order that they are imported, and the value of the first discovered `DefaultTargets` attribute is used. For example, if ProjectA imports ProjectB and ProjectC (in that order), and ProjectB imports ProjectD, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] first looks for `DefaultTargets` specified on ProjectA, then ProjectB, then ProjectD, and finally ProjectC.
 
  The schema of an imported project is identical to that of a standard project. Although [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] may be able to build an imported project, it is unlikely because an imported project typically does not contain information about which properties to set or the order in which to run targets. The imported project depends on the project into which it is imported to provide that information.
-
 
 ## Wildcards
  In the .NET Framework 4, MSBuild allows wildcards in the Project attribute. When there are wildcards, all matches found are sorted (for reproducibility), and then they are imported in that order as if the order had been explicitly set.

@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "language services, registry information"
   - "registry, language services"
 ms.assetid: ca312aa3-f9f1-4572-8553-89bf3a724deb
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -231,5 +231,5 @@ ExampleHKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\
         MaxRegions            = reg_dword:0x0000000a
 ```
 
-## See Also
+## See also
 - [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)

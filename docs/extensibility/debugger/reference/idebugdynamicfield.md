@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDynamicField interface"
 ms.assetid: caffbd95-7596-4714-84b1-b964e89a78bb
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -38,6 +38,6 @@ IDebugDynamicField : IDebugField
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

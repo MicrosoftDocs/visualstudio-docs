@@ -20,7 +20,7 @@ manager: jillfra
 Specifies the calling convention for a function.  
   
 > [!NOTE]
->  Only the most common enumeration values are documented here. The complete enumeration is available in the cvconst.h header file.  
+> Only the most common enumeration values are documented here. The complete enumeration is available in the cvconst.h header file.  
   
 ## Syntax  
   

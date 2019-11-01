@@ -6,8 +6,8 @@ ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: 89604bcf-da25-4180-a1d2-c5f22ab67bb6
 caps.latest.revision: 7
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # WPF Community Resources

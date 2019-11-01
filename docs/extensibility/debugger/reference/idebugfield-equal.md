@@ -7,11 +7,14 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugField::Equal method"
 ms.assetid: 75369fe6-ddd3-497d-80d1-2488e6100e9f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugField::Equal
 This method compares this field with the specified field for equality.
@@ -30,13 +33,12 @@ int Equal(
 );
 ```
 
-#### Parameters
- `pField`
-
- [in] The field to compare to this one.
+## Parameters
+`pField`\
+[in] The field to compare to this one.
 
 ## Return Value
  If the fields are the same, returns `S_OK`. If the fields are different, returns `S_FALSE.` Otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

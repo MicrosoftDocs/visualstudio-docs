@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccGetVersion function"
 ms.assetid: a6e786bf-744e-4272-9e21-0be44d23b1a1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,5 +36,5 @@ LONG SccGetVersion(void);
 ## Remarks
  For example, if a source control plug-in supports version 1.3 of the Source Control Plug-in API, this function would return 0x0103.
 
-## See Also
+## See also
 - [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

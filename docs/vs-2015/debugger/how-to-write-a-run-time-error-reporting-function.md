@@ -61,7 +61,7 @@ int MyErrorFunc(int errorType, const wchar_t *filename,
 ```  
   
 ## Example  
- The following example shows a more complex custom reporting function. In this example, the switch statement handles various error types, as defined by the `reportType` parameter of `_CrtDbgReportW`. Because you are replacing `_CrtDbgReportW`, you cannot use `_CrtSetReportMode`. Your function must handle the output. The first variable argument in this function takes a run-time error number. For more information, see [_RTC_SetErrorType](http://msdn.microsoft.com/library/f5f99be7-d357-4b11-b8f5-ddd3428f2b06).  
+ The following example shows a more complex custom reporting function. In this example, the switch statement handles various error types, as defined by the `reportType` parameter of `_CrtDbgReportW`. Because you are replacing `_CrtDbgReportW`, you cannot use `_CrtSetReportMode`. Your function must handle the output. The first variable argument in this function takes a run-time error number. For more information, see [_RTC_SetErrorType](https://msdn.microsoft.com/library/f5f99be7-d357-4b11-b8f5-ddd3428f2b06).  
   
 ```  
 #include <windows.h>  
@@ -106,7 +106,7 @@ int Catch_RTC_Failure(int errType, const wchar_t *file, int line,
 ```  
   
 ## Example  
- Use `_RTC_SetErrorFuncW` to install your custom function in place of `_CrtDbgReportW`. For more information, see [_RTC_SetErrorFuncW](http://msdn.microsoft.com/library/b3e0d71f-1bd3-4c37-9ede-2f638eb3c81a). The `_RTC_SetErrorFuncW` return value is the previous reporting function, which you can save and restore if necessary.  
+ Use `_RTC_SetErrorFuncW` to install your custom function in place of `_CrtDbgReportW`. For more information, see [_RTC_SetErrorFuncW](https://msdn.microsoft.com/library/b3e0d71f-1bd3-4c37-9ede-2f638eb3c81a). The `_RTC_SetErrorFuncW` return value is the previous reporting function, which you can save and restore if necessary.  
   
 ```  
 #include <rtcapi.h>  

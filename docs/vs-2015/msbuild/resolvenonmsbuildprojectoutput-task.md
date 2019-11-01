@@ -21,7 +21,6 @@ manager: jillfra
 # ResolveNonMSBuildProjectOutput Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Determines the output files for non-MSBuild project references.  
   
 ## Parameters  

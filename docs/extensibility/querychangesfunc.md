@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "QUERYCHANGESFUNC callback function"
   - "QUERYCHANGESDATA structure"
 ms.assetid: 9d383e2c-eee1-4996-973a-0652d4c5951c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -46,7 +46,7 @@ typedef BOOL (*QUERYCHANGESFUNC)(
 |SCC_I_OPERATIONCANCELED|Stop processing.|
 |SCC_E_xxx|Any appropriate SCC error should stop processing.|
 
-##  <a name="LinkQUERYCHANGESDATA"></a> QUERYCHANGESDATA Structure
+## <a name="LinkQUERYCHANGESDATA"></a> QUERYCHANGESDATA Structure
  The structure passed in for each file looks like the following:
 
 ```cpp

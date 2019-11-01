@@ -18,7 +18,6 @@ manager: jillfra
 # Task Base Class
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Many tasks ultimately inherit from the <xref:Microsoft.Build.Utilities.Task> class. This class adds several parameters to the tasks that derive from them. These parameters are listed in this document.  
   
 ## Parameters  

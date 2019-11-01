@@ -20,12 +20,12 @@ You attempted to encode a string as a URI (Uniform Resource Identifier), but it 
   
 ### To correct this error  
   
--   Ensure the string to be encoded contains only valid Unicode sequences. A complete URI is composed of a sequence of components and separators. The names in angle brackets represent components, and the ":", "/", ";" and "?" are reserved characters used as separators. The general form is:  
+- Ensure the string to be encoded contains only valid Unicode sequences. A complete URI is composed of a sequence of components and separators. The names in angle brackets represent components, and the ":", "/", ";" and "?" are reserved characters used as separators. The general form is:  
   
     ```JavaScript  
     <Scheme>:<first>/<second>;<third>?<fourth>  
     ```  
   
-## See Also  
+## See also  
  [encodeURI Function](../../javascript/reference/encodeuri-function-javascript.md)   
  [encodeURIComponent Function](../../javascript/reference/encodeuricomponent-function-javascript.md)

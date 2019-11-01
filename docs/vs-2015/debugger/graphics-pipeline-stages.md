@@ -40,20 +40,20 @@ The Graphics Pipeline Stages window helps you understand how an individual draw 
   
 ##### To view a shader's source code  
   
--   In the **Graphics Pipeline Stages** window, locate the shader stage that corresponds to the shader you want to examine. Then, below the preview image, follow the shader stage title link—for example, follow the link **Vertex Shader obj:30** to view the vertex shader source code.  
+- In the **Graphics Pipeline Stages** window, locate the shader stage that corresponds to the shader you want to examine. Then, below the preview image, follow the shader stage title link—for example, follow the link **Vertex Shader obj:30** to view the vertex shader source code.  
   
     > [!TIP]
-    >  The object number, **obj:30**, identifies this shader throughout the Graphics Analyzer interface such as in the object table and pixel history window.  
+    > The object number, **obj:30**, identifies this shader throughout the Graphics Analyzer interface such as in the object table and pixel history window.  
   
 ##### To debug a shader  
   
--   In the **Graphics Pipeline Stages** window, locate the shader stage that corresponds to the shader you want to debug. Then, below the preview image, choose **Start Debugging**. This entry point into the HLSL debugger defaults to the first invocation of the shader for the corresponding stage—that is, the first pixel, vertex, or primitive that's processed by the shader during this draw call. Invocations of this shader for a specific pixel or vertex can be accessed through the **Graphics Pixel History**.  
+- In the **Graphics Pipeline Stages** window, locate the shader stage that corresponds to the shader you want to debug. Then, below the preview image, choose **Start Debugging**. This entry point into the HLSL debugger defaults to the first invocation of the shader for the corresponding stage—that is, the first pixel, vertex, or primitive that's processed by the shader during this draw call. Invocations of this shader for a specific pixel or vertex can be accessed through the **Graphics Pixel History**.  
   
 ### The pipeline stages  
  The Pipeline Stages window visualizes only the stages of the pipeline that were active during the draw call. Each stage of the graphics pipeline transforms input from the previous stage and passes the result to the next stage. The very first stage—the Input Assembler—takes index and vertex data from your app as its input; the very last stage—the Output Merger—combines newly rendered pixels together with the current contents of the framebuffer or render target as its output to produce the final image you see on your screen.  
   
 > [!NOTE]
->  Compute shaders are not supported in the **Graphics Pipeline Stages** window.  
+> Compute shaders are not supported in the **Graphics Pipeline Stages** window.  
   
  **Input Assembler**  
  The Input Assembler reads index and vertex data specified by your app and assembles it for the graphics hardware.  
@@ -61,7 +61,7 @@ The Graphics Pipeline Stages window helps you understand how an individual draw 
  In the Pipeline Stages window, the Input Assembler output is visualized as a wireframe model. To take a closer look at the result, select **Input Assembler** in the **Graphics Pipeline Stages** window to view the assembled vertices in full 3D using the Model Editor.  
   
 > [!NOTE]
->  If the `POSITION` semantic is not present in the input assembler output, then nothing is displayed in the **Input Assembler** stage.  
+> If the `POSITION` semantic is not present in the input assembler output, then nothing is displayed in the **Input Assembler** stage.  
   
  **Vertex Shader**  
  The vertex shader stage processes vertices, typically performing operations such as transformation, skinning, and lighting. Vertex shaders produce the same number of vertices that they takes as input.  
@@ -69,7 +69,7 @@ The Graphics Pipeline Stages window helps you understand how an individual draw 
  In the Pipeline Stages window, the Vertex Shader output is visualized as a wireframe raster image. To take a closer look at the result, select **Vertex Shader** in the **Graphics Pipeline Stages** windows to view the processed vertices in the Image Editor.  
   
 > [!NOTE]
->  If the `POSITION` or `SV_POSITION` semantics are not present in the vertex shader output, then nothing is displayed in the **Vertex Shader** stage.  
+> If the `POSITION` or `SV_POSITION` semantics are not present in the vertex shader output, then nothing is displayed in the **Vertex Shader** stage.  
   
  **Hull Shader** (Direct3D 11 and Direct3D 12 only)  
  The hull shader stage processes control points that define a low-order surface such as a line, triangle, or quad. As output it produces a higher-order geometry patch and patch constants that are passed to the fixed-function tessellation stage.  

@@ -40,25 +40,25 @@ The **Disassembly** window shows assembly-language instructions that correspond 
 
 ## To turn on Source Annotation
 
--   Right-click the **Disassembly** window, and choose **Show Source Code** from the shortcut menu.
+- Right-click the **Disassembly** window, and choose **Show Source Code** from the shortcut menu.
 
      If you know the location of an attribute in a source window, you can use the shortcut menu to find the injected code in the **Disassembly** window.
 
 ## To view injected code
 
-1.  The debugger must be in break mode.
+1. The debugger must be in break mode.
 
-2.  In a source code window, place the cursor in front of the attribute whose injected code you want to view.
+2. In a source code window, place the cursor in front of the attribute whose injected code you want to view.
 
-3.  Right-click, and select **Go To Disassembly** from the shortcut menu.
+3. Right-click, and select **Go To Disassembly** from the shortcut menu.
 
      If the attribute location is near the current execution point, you can select the **Disassembly** window from the **Debug** menu.
 
 ## To view the disassembly code at the current execution point
 
-1.  The debugger must be in break mode.
+1. The debugger must be in break mode.
 
-2.  From the **Debug** menu, choose **Windows**, and click **Disassembly**.
+2. From the **Debug** menu, choose **Windows**, and click **Disassembly**.
 
 ## See also
 

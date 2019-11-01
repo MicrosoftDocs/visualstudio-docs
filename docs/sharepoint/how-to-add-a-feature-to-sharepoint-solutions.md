@@ -18,7 +18,7 @@ ms.workload:
 
 ### To add a feature through Solution Explorer
 
-1.  In **Solution Explorer**, open the shortcut menu for **Features**, and then choose **Add Feature**.
+1. In **Solution Explorer**, open the shortcut menu for **Features**, and then choose **Add Feature**.
 
 ## See also
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

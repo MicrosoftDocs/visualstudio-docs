@@ -20,9 +20,9 @@ ms.workload:
 ## Add features to the SharePoint solution
  You can add a Feature to the SharePoint solution by using Solution Explorer or the Packaging Explorer. You can use one of the following methods to add a Feature.
 
--   In **Solution Explorer**, open the shortcut menu for **Features**, and then choose **Add Feature**.
+- In **Solution Explorer**, open the shortcut menu for **Features**, and then choose **Add Feature**.
 
--   In **Packaging Explorer**, open the shortcut menu for the package, and then choose **Add Feature**.
+- In **Packaging Explorer**, open the shortcut menu for the package, and then choose **Add Feature**.
 
 ## Using the feature designer
  A SharePoint solution can contain one or more SharePoint Features, which are grouped under the Feature node in Solution Explorer. Each Feature has its own **Feature Designer** that you can use to customize the Feature properties. For more information, see [How to: Customize a SharePoint feature](../sharepoint/how-to-customize-a-sharepoint-feature.md). To distinguish Features from one another, you can configure the Feature properties such as the title, description, version, and scope.

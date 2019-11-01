@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a WCF Data Service with WPF and Entity Framework"
+title: "Create WCF Data Service with WPF & Entity Framework"
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "ADO.NET Data Services, Visual Studio"
   - "WCF data services in Visual Studio"
 ms.assetid: da66ad1b-a25d-485c-af13-2d18f0422e3d
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"
@@ -84,11 +84,11 @@ In the next step, you create an [!INCLUDE[adonet_edm](../data-tools/includes/ado
 
 5. On the **Choose Your Data Connection** page, perform one of the following steps:
 
-    -   If a data connection to the Northwind sample database is available in the drop-down list, choose it.
+    - If a data connection to the Northwind sample database is available in the drop-down list, choose it.
 
          -or-
 
-    -   Choose the **New Connection** button to configure a new data connection. For more information, see [Add new connections](../data-tools/add-new-connections.md).
+    - Choose the **New Connection** button to configure a new data connection. For more information, see [Add new connections](../data-tools/add-new-connections.md).
 
 6. If the database requires a password, choose the **Yes, include sensitive data in the connection string** option button, and then choose the **Next** button.
 
@@ -98,7 +98,7 @@ In the next step, you create an [!INCLUDE[adonet_edm](../data-tools/includes/ado
 7. On the **Choose your version** page, choose the **Entity Framework 5.0** option button, and then choose the **Next** button.
 
     > [!NOTE]
-    > In order to use the latest version of the Entity Framework 6 with WCF Services, you'll need to install the WCF Data Services Entity Framework Provider NuGet package. See [Using WCF Data Services 5.6.0 with Entity Framework 6+](https://blogs.msdn.microsoft.com/odatateam/2013/10/02/using-wcf-data-services-5-6-0-with-entity-framework-6/).
+    > In order to use the latest version of the Entity Framework 6 with WCF Services, you'll need to install the WCF Data Services Entity Framework Provider NuGet package. See [Using WCF Data Services 5.6.0 with Entity Framework 6+](https://devblogs.microsoft.com/odata/using-wcf-data-services-5-6-0-with-entity-framework-6/).
 
 8. On the **Choose Your Database Objects** page, expand the **Tables** node, select the **Customers** check box, and then choose the **Finish** button.
 
@@ -140,9 +140,9 @@ In the next step, you create and test the data service.
 In the next steps, you create a Windows Forms client application to consume the service.
 
 ## Creating the Client Application
- To create the client application, you add a second project, add a service reference to the project, configure a data source, and create a user interface to display the data from the service.
+To create the client application, you add a second project, add a service reference to the project, configure a data source, and create a user interface to display the data from the service.
 
- In the first step, you add a Windows Forms project to the solution and set it as the startup project.
+In the first step, you add a Windows Forms project to the solution and set it as the startup project.
 
 ### To create the client application
 
@@ -237,7 +237,7 @@ In the next step, you create the user interface that displays the data from the 
 In the next optional step, you learn how to filter the data that is returned by the service.
 
 ## Adding Filtering Capabilities
- In this step, you customize the application to filter the data by the customer's city.
+In this step, you customize the application to filter the data by the customer's city.
 
 ### To add filtering by city
 

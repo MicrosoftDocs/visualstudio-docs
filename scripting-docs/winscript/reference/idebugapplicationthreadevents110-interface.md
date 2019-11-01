@@ -2,7 +2,6 @@
 title: "IDebugApplicationThreadEvents110 Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,10 +15,10 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IDebugApplicationThreadEvents110 Interface
-Adds more thread events. These events are local only. That is, you can subscribe to them only in the process being debugged, using the [IConnectionPoint](http://go.microsoft.com/fwlink/?LinkId=232738) advise and unadvise methods on PDM application thread objects (objects that implement [IDebugApplicationThread Interface](../../winscript/reference/idebugapplicationthread-interface.md)). They occur on the thread they are coming from.  
+Adds more thread events. These events are local only. That is, you can subscribe to them only in the process being debugged, using the [IConnectionPoint](/windows/win32/api/ocidl/nn-ocidl-iconnectionpoint) advise and unadvise methods on PDM application thread objects (objects that implement [IDebugApplicationThread Interface](../../winscript/reference/idebugapplicationthread-interface.md)). They occur on the thread they are coming from.  
   
 > [!IMPORTANT]
->  This interface is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> This interface is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Methods  
  The `IDebugActivationThreadEvents110` interface exposes the following methods.  

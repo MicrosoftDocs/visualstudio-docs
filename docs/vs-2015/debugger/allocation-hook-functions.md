@@ -28,10 +28,10 @@ manager: jillfra
 # Allocation Hook Functions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-An allocation hook function, installed using [_CrtSetAllocHook](http://msdn.microsoft.com/library/405df37b-2fd1-42c8-83bc-90887f17f29d), is called every time memory is allocated, re-allocated, or freed. This type of hook can be used for many different purposes. Use it to test how an application handles insufficient memory situations, for example, or to examine allocation patterns, or to log allocation information for later analysis.  
+An allocation hook function, installed using [_CrtSetAllocHook](https://msdn.microsoft.com/library/405df37b-2fd1-42c8-83bc-90887f17f29d), is called every time memory is allocated, re-allocated, or freed. This type of hook can be used for many different purposes. Use it to test how an application handles insufficient memory situations, for example, or to examine allocation patterns, or to log allocation information for later analysis.  
   
 > [!NOTE]
->  Be aware of the restriction about using C run-time library functions in an allocation hook function, described in [Allocation Hooks and C Run-Time Memory Allocations](../debugger/allocation-hooks-and-c-run-time-memory-allocations.md).  
+> Be aware of the restriction about using C run-time library functions in an allocation hook function, described in [Allocation Hooks and C Run-Time Memory Allocations](../debugger/allocation-hooks-and-c-run-time-memory-allocations.md).  
   
  An allocation hook function should have a prototype like the following:  
   
@@ -41,7 +41,7 @@ int YourAllocHook(int nAllocType, void *pvData,
         const unsigned char * szFileName, int nLine )  
 ```  
   
- The pointer that you pass to [_CrtSetAllocHook](http://msdn.microsoft.com/library/405df37b-2fd1-42c8-83bc-90887f17f29d) is of type **_CRT_ALLOC_HOOK**, as defined in CRTDBG.H:  
+ The pointer that you pass to [_CrtSetAllocHook](https://msdn.microsoft.com/library/405df37b-2fd1-42c8-83bc-90887f17f29d) is of type **_CRT_ALLOC_HOOK**, as defined in CRTDBG.H:  
   
 ```  
 typedef int (__cdecl * _CRT_ALLOC_HOOK)  
@@ -53,4 +53,4 @@ typedef int (__cdecl * _CRT_ALLOC_HOOK)
 ## See Also  
  [Allocation Hooks and C Run-Time Memory Allocations](../debugger/allocation-hooks-and-c-run-time-memory-allocations.md)   
  [Debug Hook Function Writing](../debugger/debug-hook-function-writing.md)   
- [crt_dbg2 Sample](http://msdn.microsoft.com/21e1346a-6a17-4f57-b275-c76813089167)
+ [crt_dbg2 Sample](https://msdn.microsoft.com/21e1346a-6a17-4f57-b275-c76813089167)

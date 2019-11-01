@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "LCID devenv switch"
   - "/LCID Devenv switch"
 ms.assetid: 3a3f4e70-ea66-4351-9d62-acb1dec30e8e
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

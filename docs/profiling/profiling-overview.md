@@ -20,4 +20,4 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
 
 * [Analyze CPU usage](../profiling/cpu-usage.md) for more in-depth information on the CPU usage tool.
 
-* [Analyze memory usage](../profiling/memory-usage.md)to identify performance bottlenecks.
+* [Analyze memory usage](../profiling/memory-usage.md) to identify performance bottlenecks.

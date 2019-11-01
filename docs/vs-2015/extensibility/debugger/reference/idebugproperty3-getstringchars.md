@@ -55,7 +55,7 @@ int GetStringChars(
  In C++, care must be taken to insure that the buffer is at least `buflen` Unicode characters long. Note that a Unicode character is 2 bytes long.  
   
 > [!NOTE]
->  In C++, the returned string does not include a terminating null character. If given, `pceltFetched` will specify the number of characters in the string.  
+> In C++, the returned string does not include a terminating null character. If given, `pceltFetched` will specify the number of characters in the string.  
   
 ## Example  
 <!-- TODO: review snippet reference  [!CODE [[cpp]]([cpp])]  -->  

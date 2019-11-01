@@ -3,8 +3,8 @@ title: Cannot create an association - property listed twice
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 3ced8bda-210e-4caf-9d8f-96cdbba19251
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"
@@ -29,6 +29,5 @@ The property in the message appears more than one time in either the Parent or C
 
 ## See also
 
-- [O/R Designer messages](../data-tools/o-r-designer-messages.md)
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [How to: Create an association between LINQ to SQL classes (O/R Designer)](../data-tools/how-to-create-an-association-relationship-between-linq-to-sql-classes-o-r-designer.md)

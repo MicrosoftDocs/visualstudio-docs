@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "IVsAppCommandLine::GetOption method"
   - "command line, switches"
 ms.assetid: 8bbbd87e-76fe-4fb5-8ef9-65f5e31967cf
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -67,4 +67,4 @@ cmdline.GetOption("MySwitch", out isPresent, out optionValue);
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A>
 - [Devenv command-line switches](../ide/reference/devenv-command-line-switches.md)
 - [CreatePkgDef utility](../extensibility/internals/createpkgdef-utility.md)
-- [.Pkgdef files](/visualstudio/extensibility/shell/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file)
+- [.Pkgdef files](https://devblogs.microsoft.com/visualstudio/whats-a-pkgdef-and-why/)

@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugPortSupplierEx2 interface"
 ms.assetid: dae0050a-a50a-4f35-bfbd-e538f537b20f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -37,7 +37,7 @@ IDebugPortSupplierEx2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)
 - [IDebugPortSupplier3](../../../extensibility/debugger/reference/idebugportsupplier3.md)

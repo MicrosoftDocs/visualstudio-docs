@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "Assembly element [Visual Studio Template Wizard Extension]"
   - "<Assembly> element [Visual Studio Template Wizard Extension]"
 ms.assetid: 0c3dc280-1753-4ea2-a13c-d31d13b935b2
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

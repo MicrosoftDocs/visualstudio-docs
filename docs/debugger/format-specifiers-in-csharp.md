@@ -46,6 +46,14 @@ Add the `my_var1` variable to the **Watch** window while debugging, **Debug** > 
 
 ![WatchFormatCSharp](../debugger/media/watchformatcsharp.png "WatchFormatCSharp")
 
+::: moniker range=">= vs-2019" 
+
+You can view and select from a list of available format specifiers by appending a comma (,) to the value in the **Watch** window. 
+
+![FormatSpecCSharp](../debugger/media/vs-2019/format-specs-csharp.png "FormatSpecCSharp")
+
+::: moniker-end
+
 ## Format specifiers
 The following table describes the C# format specifiers for the Visual Studio debugger.
 

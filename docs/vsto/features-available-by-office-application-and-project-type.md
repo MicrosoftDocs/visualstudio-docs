@@ -30,7 +30,7 @@ ms.workload:
   Not all applications can use every project type. For example, document-level projects are available only for Microsoft Office Word and Microsoft Office Excel. Similarly, some features are available only for certain types of projects or applications. For example, the actions pane is available only in document-level projects, and Ribbon extensions are available only for some applications. For more information about the different project types, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).
 
 > [!NOTE]
->  Office project templates are available only in some editions of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).
+> Office project templates are available only in some editions of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).
 
 ## Project types available for different Microsoft Office applications
  The following table shows the applications that you can use with each project type.
