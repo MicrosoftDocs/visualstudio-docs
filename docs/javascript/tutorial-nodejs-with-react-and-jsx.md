@@ -2,7 +2,7 @@
 title: "Create a Node.js and React app"
 description: In this tutorial, you create an app in using Node.js tools for Visual Studio
 ms.custom: "mvc"
-ms.date: 11/01/2018
+ms.date: 11/01/2019
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -140,7 +140,9 @@ This app requires a number of npm modules to run correctly.
     }
     ```
 
-    If there is already a `dependencies` section in your version of the blank template, just replace it with the preceding JSON code. For more information on use of this file, see [package.json configuration](../javascript/configure-packages-with-package-json.md)
+    If there is already a `dependencies` section in your version of the blank template, just replace it with the preceding JSON code. For more information on use of this file, see [package.json configuration](../javascript/configure-packages-with-package-json.md).
+
+1. Save the changes.
 
 1. Right-click **npm** node in your project and choose **Update npm Packages**.
 
@@ -166,7 +168,7 @@ For this simple app, you add the new project files in the project root. (In most
 
 1. In Solution Explorer, right-click the project **NodejsWebAppBlank** and choose **Add** > **New Item**.
 
-1. In the **Add New Item** dialog box, choose **TypeScript JSX file**, type the name *app.tsx*, and select **OK**.
+1. In the **Add New Item** dialog box, choose **TypeScript JSX file**, type the name *app.tsx*, and select **Add** or **OK**.
 
 1. Repeat these steps to add *webpack-config.js*. Instead of a TypeScript JSX file, choose **JavaScript file**.
 
@@ -337,7 +339,12 @@ Starting in Visual Studio 2019, a build script is required. Instead of transpili
     ![Select Chrome as debug target](../javascript/media/tutorial-nodejs-react-debug-target.png)
     ::: moniker-end
 
-    If Chrome is available on your machine, but does not show up as an option, choose **Web Browser (browsername)** > **Google Chrome** from the debug target dropdown list, and select Chrome as the default browser target.
+    ::: moniker range=">=vs-2019"
+    If Chrome is available on your machine, but does not show up as an option, choose **Web Browser (browsername)** > **Select Web Browser** from the debug target dropdown list, and select **Chrome** as the default browser target.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    If Chrome is available on your machine, but does not show up as an option, choose **Web Browser (browsername)** > **Google Chrome** from the debug target dropdown list, and select **Chrome** as the default browser target.
+    ::: moniker-end
 
 1. To run the app, press **F5** (**Debug** > **Start Debugging**) or the green arrow button.
 
@@ -388,7 +395,7 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 
     ::: moniker-end
 
-3. Switch to Visual Studio and set a breakpoint in *app-bundle.js* code in the `render()` function as shown in the following illustration:
+3. Switch to Visual Studio and then set a breakpoint in *app-bundle.js* code in the `render()` function as shown in the following illustration:
 
     ![Set a breakpoint](../javascript/media/tutorial-nodejs-react-set-breakpoint-client-code.png)
 
