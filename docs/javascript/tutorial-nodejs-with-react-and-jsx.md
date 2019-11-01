@@ -389,6 +389,8 @@ For this scenario, use Chrome.
 
 1. Close all windows for the target browser.
 
+   Other browser instances can prevent the debugger from attaching.
+
 2. Open the **Run** command from the Windows **Start** button (right-click and choose **Run**), and enter the following command:
 
     `chrome.exe --remote-debugging-port=9222`
