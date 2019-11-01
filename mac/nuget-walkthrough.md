@@ -3,7 +3,7 @@ title: "Including a NuGet package in your project"
 description: This document covers how to include a NuGet package in a project using Visual Studio for Mac. It walks through finding and downloading a package, as well as introducing the IDE integration features.
 author: jmatthiesen
 ms.author: jomatthi
-ms.date: 09/18/2019
+ms.date: 11/01/2019
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ms.custom: conceptual
 ---
@@ -78,6 +78,32 @@ In the menu shown, you have two options:
 
 * **Update** - Checks the source server and downloads a newer version (if it exists).
 * **Remove** - Removes the package from this project and removes the relevant assemblies from the project's References.
+
+## Manage packages for the solution
+
+Managing packages for a solution is a convenient means to work with multiple projects simultaneously.
+
+1. Right-click the solution and select **Manage NuGet Packages...**:
+
+    ![Manage NuGet packages for the solution](media/nuget-walkthrough-manage-packages-solution.png)
+
+1. When managing packages for the solution, the UI lets you select the projects that are affected by the operations:
+
+    ![Project selector when managing packages for the solution](media/nuget-walkthrough-add-to-projects.png)
+
+### Consolidate tab
+
+Developers typically consider it bad practice to use different versions of the same NuGet package across different projects in the same solution. When you choose to manage packages for a solution, the Package Manager UI provides a **Consolidate** tab on which you can easily see where packages with distinct version numbers are used by different projects in the solution:
+
+![Package Manager UI Consolidate tab](media/nuget-walkthrough-consolidate-tab.png)
+
+In this example, the NuGetDemo project is using Microsoft.EntityFrameworkCore 2.20, whereas NuGetDemo.Shared is using Microsoft.EntityFrameworkCore 2.2.6. To consolidate package versions, do the following:
+
+- Select the projects to update in the project list.
+- Select the version to use in all those projects in the **New Version** list, such as Microsoft.EntityFrameworkCore 3.0.0.
+- Select the **Consolidate Package** button.
+
+The Package Manager installs the selected package version into all selected projects, after which the package no longer appears on the **Consolidate** tab.
 
 ## Adding Package Sources
 
