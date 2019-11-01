@@ -133,6 +133,8 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 | Include | Becomes the first parameter (the key) in the `AssemblyMetadataAttribute` attribute constructor. |
 | Value | Required string. Becomes the second parameter (the value) in the `AssemblyMetadataAttribute` attribute constructor. |
 
+> [!NOTE]
+> This applies to projects using the .NET Core SDK only.
 ### BaseApplicationManifest
  Represents the base application manifest for the build, and contains [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment security information.
 
