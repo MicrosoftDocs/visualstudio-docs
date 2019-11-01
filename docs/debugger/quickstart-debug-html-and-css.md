@@ -176,7 +176,7 @@ In the procedure that follows, we'll go through the process of interactively deb
 14. In the main window, double-click `width: 100px;height: 100px;`, press the **Delete** key, and then press **Enter**. After you press Enter, the new values are immediately reflected in the app, although you haven't stopped your debugging session.
 
     > [!IMPORTANT]
-    > As you can update attributes in the DOM Explorer window, you can also update values that appear on the **Styles**, **Computed**, and **Layout** tabs. For more info, see [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md) and [Debug layout using DOM Explorer](quickstart-debug-html-and-css.md).
+    > As you can update attributes in the DOM Explorer window, you can also update values that appear on the **Styles**, **Computed**, and **Layout** tabs. For more info, see [Debug CSS styles using DOM Explorer](quickstart-debug-html-and-css.md) and [Debug layout using DOM Explorer](quickstart-debug-html-and-css.md).
 
 15. Switch to the app by selecting it or by using Alt+Tab.
 
