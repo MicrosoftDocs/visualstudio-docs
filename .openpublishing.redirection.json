@@ -1258,7 +1258,7 @@
     {
       "source_path": "docs/docker/docker-tools.md",
       "redirect_url": "/visualstudio/containers/container-tools",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/docker/index.md",
@@ -1268,12 +1268,12 @@
     {
       "source_path": "docs/docker/vs-azure-tools-docker-edit-and-refresh.md",
       "redirect_url": "/visualstudio/containers/edit-and-refresh",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/docker/vs-azure-tools-docker-hosting-web-apps-in-docker.md",
       "redirect_url": "/visualstudio/containers/hosting-web-apps-in-docker",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/docker/vs-azure-tools-docker-machine-azure-config.md",
@@ -1288,7 +1288,7 @@
     {
       "source_path": "docs/docker/vs-azure-tools-docker-troubleshooting-docker-errors.md",
       "redirect_url": "/visualstudio/containers/troubleshooting-docker-errors",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/accessing-stored-font-and-color-settings.md",
