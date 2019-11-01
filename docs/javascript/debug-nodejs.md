@@ -38,7 +38,12 @@ You can debug JavaScript and TypeScript code using Visual Studio. You can set an
 
 ## Debug client-side script
 
+::: moniker range=">=vs-2019"
 Visual Studio provides client-side debugging support for Chrome and Microsoft Edge (Chromium) only. In some scenarios, the debugger automatically hits breakpoints in JavaScript and TypeScript code and in embedded scripts on HTML files.
+::: moniker-end
+::: moniker range="vs-2017"
+Visual Studio provides client-side debugging support for Chrome and Internet Explorer only. In some scenarios, the debugger automatically hits breakpoints in JavaScript and TypeScript code and in embedded scripts on HTML files.
+::: moniker-end
 
 If your source is minified or created by a transpiler like TypeScript or Babel, the use of [source maps](#generate_sourcemaps) is required for the best debugging experience. Without source maps, you can still attach the debugger to a running client-side script. However, you may only be able to set and hit breakpoints in the minified or transpiled file, not in the original source file. For example, in a Vue.js app, minified script gets passed as a string to an `eval` statement, and there is no way to step through this code effectively using the Visual Studio debugger, unless you use source maps. In these more complex debugging scenarios, you might instead use Chrome Developer Tools or F12 Tools for Microsoft Edge.
 
