@@ -1,7 +1,7 @@
 ---
 title: "Debug a JavaScript or TypeScript app"
 description: Visual Studio provides support for debugging JavaScript and TypeScript apps in Visual Studio
-ms.date: "12/03/2018"
+ms.date: "11/01/2019"
 ms.topic: "conceptual"
 ms.devlang: javascript
 author: "mikejo5000"
