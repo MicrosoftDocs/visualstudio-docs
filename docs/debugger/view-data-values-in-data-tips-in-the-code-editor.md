@@ -88,6 +88,14 @@ You can also pin expanded items to the pinned DataTip by hovering over them and 
 
 To edit the value of a variable or element in a DataTip, select the value, type a new value, and press **Enter**. Selection is disabled for read-only values.
 
+## Pin Properties in DataTips
+
+You can quickly inspect objects by their properties in DataTips with the **Pinnable Properties** tool.  To use this tool, hover over a property and select the pin icon that appears or right-click and select the **Pin Member as Favorite** option in the resulting context menu.  This will bubble up that property to the top of the object’s property list, and the property name and value will be displayed in the right column of the DataTip.  To unpin a property, select the pin icon again or select the **Unpin Member as Favorite** option in the context menu.
+
+![Pinning a property in a DataTip](../debugger/basic-pin-datatip.gif "Pinning a property in a DataTip")
+
+You can also toggle property names and filter out non-pinned properties when viewing the object’s property list in a datatip.  Both can be accessed by right-clicking a row containing a property and selecting the **Show only pinned members** or **Hide pinned member names in values** options in the context menu.
+
 ## Visualize complex data types
 
 A magnifying glass icon next to a variable or element in a DataTip means that one or more [visualizers](../debugger/create-custom-visualizers-of-data.md), such as the [Text Visualizer](../debugger/string-visualizer-dialog-box.md), are available for the variable. Visualizers display information in a more meaningful, sometimes graphical, manner.
