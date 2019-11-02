@@ -69,12 +69,12 @@ To make your search more or less thorough, use the **Search Deeper** dropdown at
 
 You can quickly inspect objects by their properties in the Autos and Locals windows with the **Pinnable Properties** tool.  To use this tool, hover over a property and select the pin icon that appears or right-click and select the **Pin Member as Favorite** option in the resulting context menu.  This will bubble up that property to the top of the object’s property list, and the property name and value will be displayed in the Values column of the window.  To unpin a property, select the pin icon again or select the **Unpin Member as Favorite** option in the context menu.
 
-![Pin properties in the Locals window](../debugger/media/BasicPin.gif "Pin properties in the Locals window")
+![Pin properties in the Locals window](../debugger/media/basic-pin.gif "Pin properties in the Locals window")
 
 You can also toggle property names and filter out non-pinned properties when viewing the object’s property list in the Autos or Locals windows.  Both can be accessed by selecting the buttons in the toolbar above the Autos or Locals windows.
 
-![Filter favorite properties](../debugger/media/FilterFavorites.gif "Filter favorite properties")
-![Toggle property names](../debugger/media/TogglePropertyNames.gif "Toggle property names")
+![Filter favorite properties](../debugger/media/filter-favorites.gif "Filter favorite properties")
+![Toggle property names](../debugger/media/toggle-property-names.gif "Toggle property names")
 
 ::: moniker-end
 
