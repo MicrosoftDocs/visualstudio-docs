@@ -9404,6 +9404,106 @@
       "source_path": "docs/code-quality/ca1726-use-preferred-terms.md",
       "redirect_url": "/visualstudio/code-quality/ca1726",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2300-do-not-use-insecure-deserializer-binaryformatter.md",
+      "redirect_url": "/visualstudio/code-quality/ca2300",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2301-do-not-call-binaryformatter-deserialize-without-first-setting-binaryformatter-binder.md",
+      "redirect_url": "/visualstudio/code-quality/ca2301",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2302-ensure-binaryformatter-binder-is-set-before-calling-binaryformatter-deserialize.md",
+      "redirect_url": "/visualstudio/code-quality/ca2302",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2305-do-not-use-insecure-deserializer-losformatter.md",
+      "redirect_url": "/visualstudio/code-quality/ca2305",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2310-do-not-use-insecure-deserializer-netdatacontractserializer.md",
+      "redirect_url": "/visualstudio/code-quality/ca2310",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2311-do-not-deserialize-without-first-setting-netdatacontractserializer-binder.md",
+      "redirect_url": "/visualstudio/code-quality/ca2311",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2312-ensure-netdatacontractserializer-binder-is-set-before-deserializing.md",
+      "redirect_url": "/visualstudio/code-quality/ca2312",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2315-do-not-use-insecure-deserializer-objectstateformatter.md",
+      "redirect_url": "/visualstudio/code-quality/ca2315",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3001-review-code-for-sql-injection-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3001",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3002-review-code-for-xss-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3002",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3003-review-code-for-file-path-injection-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3003",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3004-review-code-for-information-disclosure-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3004",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3005-review-code-for-ldap-injection-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3005",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3006-review-code-for-process-command-injection-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3006",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3007-review-code-for-open-redirect-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3007",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3008-review-code-for-xpath-injection-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3008",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3009-review-code-for-xml-injection-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3009",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3010-review-code-for-xaml-injection-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3010",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3011-review-code-for-dll-injection-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3011",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3012-review-code-for-regex-injection-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3012",
+      "redirect_document_id": true
     }
   ]
 }
