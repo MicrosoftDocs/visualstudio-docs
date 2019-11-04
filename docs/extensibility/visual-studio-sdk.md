@@ -71,7 +71,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
 
 - [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md)
 - [How to: Migrate extensibility projects to Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md)
-- [FAQ: Converting add-ins to VSPackage extensions](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md)
+- [FAQ: Converting add-ins to VSPackage extensions](/visualstudio/extensibility/faq-converting-add-ins-to-vspackage-extensions?view=vs-2015)
 - [Manage multiple threads in managed code](../extensibility/managing-multiple-threads-in-managed-code.md)
 - [Extend menus and commands](../extensibility/extending-menus-and-commands.md)
 - [Add commands to toolbars](../extensibility/adding-commands-to-toolbars.md)

@@ -176,7 +176,7 @@ In the procedure that follows, we'll go through the process of interactively deb
 14. In the main window, double-click `width: 100px;height: 100px;`, press the **Delete** key, and then press **Enter**. After you press Enter, the new values are immediately reflected in the app, although you haven't stopped your debugging session.
 
     > [!IMPORTANT]
-    > As you can update attributes in the DOM Explorer window, you can also update values that appear on the **Styles**, **Computed**, and **Layout** tabs. For more info, see [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md) and [Debug layout using DOM Explorer](quickstart-debug-html-and-css.md).
+    > As you can update attributes in the DOM Explorer window, you can also update values that appear on the **Styles**, **Computed**, and **Layout** tabs.
 
 15. Switch to the app by selecting it or by using Alt+Tab.
 
@@ -249,6 +249,7 @@ You can select DOM elements in three ways when debugging an app:
 > Highlighting elements by hovering over them is only partially supported in the Windows Phone Emulator.
 
 ## See also
+
 - [Debug apps in Visual Studio](debugging-windows-store-and-windows-universal-apps.md)
 - [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)
 - [Debug a WebView control](../debugger/debug-a-webview-control.md)

@@ -32,7 +32,7 @@ After you create a custom editor, you can add more features to it.
 
 4. Decide whether you want your editor to use in-place activation or simplified embedding to manage the document view object window.
 
-     A simplified embedding editor window hosts a standard document view, while an in-place activation editor window hosts an ActiveX control or other active object as its document view. For more information, see [Simplified Embedding](../extensibility/simplified-embedding.md) and [In-place activation](../extensibility/in-place-activation.md).
+     A simplified embedding editor window hosts a standard document view, while an in-place activation editor window hosts an ActiveX control or other active object as its document view. For more information, see [Simplified Embedding](../extensibility/simplified-embedding.md) and [In-place activation](/visualstudio/misc/in-place-activation?view=vs-2015).
 
 5. Implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface to handle commands.
 
