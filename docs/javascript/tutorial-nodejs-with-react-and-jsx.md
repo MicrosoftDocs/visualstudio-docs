@@ -458,6 +458,10 @@ For this scenario, use Chrome.
 
 3. Select your target browser as the debug target in Visual Studio, then press **Ctrl**+**F5** (**Debug** > **Start Without Debugging**) to run the app in the browser.
 
+    ::: moniker range=">=vs-2019"
+    If you created a browser configuration with a friendly name, choose that as your debug target.
+    ::: moniker-end
+
     The app opens in a new browser tab.
 
 4. Choose **Debug** > **Attach to Process**.
@@ -468,7 +472,7 @@ For this scenario, use Chrome.
 5. In the **Attach to Process** dialog box, get a filtered list of browser instances that you can attach to.
 
     ::: moniker range=">=vs-2019"
-    In Visual Studio 2019, choose the correct debugger for your target browser, **JavaScript (Chrome)** or **JavaScript (Microsoft Edge - Chromium)** in the **Attach to** field, type **chrome** or **edge** in the filter box to filter the search results. If you created a browser configuration with a friendly name, choose that instead.
+    In Visual Studio 2019, choose the correct debugger for your target browser, **JavaScript (Chrome)** or **JavaScript (Microsoft Edge - Chromium)** in the **Attach to** field, type **chrome** or **edge** in the filter box to filter the search results.
     ::: moniker-end
     ::: moniker range="vs-2017"
     In Visual Studio 2017, choose **Webkit code** in the **Attach to** field, type **chrome** in the filter box to filter the search results.

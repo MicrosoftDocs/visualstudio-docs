@@ -100,15 +100,19 @@ For this scenario, use Chrome.
 
 To attach the debugger from Visual Studio and hit breakpoints in client-side code, the debugger needs help to identify the correct process. Here is one way to enable this.
 
-1. Switch to Visual Studio and then set a breakpoint in your source code, which might be a JavaScript file, TypeScript file, or a JSX file. (Set the breakpoint in a line of code that allows breakpoints, such as a return statement or a var declaration.)
+1. Switch to Visual Studio and then set a breakpoint in your source code, which might be a JavaScript file, TypeScript file, *.vue* file, or a JSX file. (Set the breakpoint in a line of code that allows breakpoints, such as a return statement or a var declaration.)
 
     ![Set a breakpoint](../javascript/media/tutorial-nodejs-react-set-breakpoint-client-code.png)
 
     To find the specific code in a transpiled file, use **Ctrl**+**F** (**Edit** > **Find and Replace** > **Quick Find**).
 
-    For client-side code, to hit a breakpoint in a TypeScript file or JSX file typically requires the use of [source maps](#generate_sourcemaps). A source map must be configured correctly to support debugging in Visual Studio.
+    For client-side code, to hit a breakpoint in a TypeScript file, *.vue*, or JSX file typically requires the use of [source maps](#generate_sourcemaps). A source map must be configured correctly to support debugging in Visual Studio.
 
 2. Select your target browser as the debug target in Visual Studio, then press **Ctrl**+**F5** (**Debug** > **Start Without Debugging**) to run the app in the browser.
+
+    ::: moniker range=">=vs-2019"
+    If you created a browser configuration with a friendly name, choose that as your debug target.
+    ::: moniker-end
 
     The app opens in a new browser tab.
 
@@ -120,7 +124,7 @@ To attach the debugger from Visual Studio and hit breakpoints in client-side cod
 4. In the **Attach to Process** dialog box, get a filtered list of browser instances that you can attach to.
 
     ::: moniker range=">=vs-2019"
-    In Visual Studio 2019, choose the correct debugger for your target browser, **JavaScript (Chrome)** or **JavaScript (Microsoft Edge - Chromium)** in the **Attach to** field, type **chrome** or **edge** in the filter box to filter the search results. If you created a browser configuration with a friendly name, choose that instead.
+    In Visual Studio 2019, choose the correct debugger for your target browser, **JavaScript (Chrome)** or **JavaScript (Microsoft Edge - Chromium)** in the **Attach to** field, type **chrome** or **edge** in the filter box to filter the search results.
     ::: moniker-end
     ::: moniker range="vs-2017"
     In Visual Studio 2017, choose **Webkit code** in the **Attach to** field, type **chrome** in the filter box to filter the search results.
@@ -162,7 +166,7 @@ If you need to break into code in a TypeScript, JSX, or *.vue* source file and a
       
 * Make sure you [start the browser in debug mode](#prepare_the_browser_for_debugging).
 
-* Make sure that your source map file includes a reference to to your source file that doesn't include unsupported prefixes such as *webpack:///*, which prevents the Visual Studio debugger from locating *app.tsx*. For example, this reference might be corrected to *./app.tsx*. You can do this manually in the source map file or through a custom build configuration. For more information, see [Generate source maps for debugging](#generate_sourcemaps).
+* Make sure that your source map file includes the correct reference to your source file and that it doesn't include unsupported prefixes such as *webpack:///*, which prevents the Visual Studio debugger from locating *app.tsx*. For example, this reference might be corrected to *./app.tsx*. You can do this manually in the source map file or through a custom build configuration. For more information, see [Generate source maps for debugging](#generate_sourcemaps).
 
 Alternatively, if you need to break into code in a source file (for example, *app.tsx*) and are unable to do it, try using the `debugger;` statement in the source file, or set breakpoints in the Chrome Developer Tools (or F12 Tools for Microsoft Edge) instead.
 
