@@ -97,6 +97,10 @@ To configure debugger options and debugger project settings, see [Debugger setti
 
 ## Additional tasks
 
+### Fix an exception
+
+See [Fix an exception](write-better-code-with-visual-studio.md#fix-an-exception).
+
 ### Edit code during a debugging session
 
 Use [Edit and continue](edit-and-continue.md). For XAML, use [XAML Hot Reload](../xaml-tools/xaml-hot-reload.md).
