@@ -389,7 +389,11 @@ For this scenario, use Chrome.
 
 1. Close all windows for the target browser.
 
-   Other browser instances can prevent the debugger from attaching.
+   Other browser instances can prevent the browser from opening with debugging enabled. (Browser extensions may be running and preventing full debug mode, so you may need to open Task Manager to find unexpected instances of Chrome.)
+
+   ::: moniker range=">=vs-2019"
+   For Microsoft Edge (Chromium), also shut down all instances of Chrome. Because both browsers share the chromium code base, this gives the best results.
+   ::: moniker-end
 
 2. Open the **Run** command from the Windows **Start** button (right-click and choose **Run**), and enter the following command:
 
@@ -412,19 +416,44 @@ For this scenario, use Chrome.
 
     The app is not yet running, so you get an empty browser page.
 
-3. Switch to Visual Studio and then set a breakpoint in *app-bundle.js* code in the `render()` function as shown in the following illustration:
+3. Switch to Visual Studio and then set a breakpoint in your source code, either *app-bundle.js*  or *app.tsx*.
+
+    For *app-bundle.js*, set the breakpoint in the `render()` function as shown in the following illustration:
 
     ![Set a breakpoint](../javascript/media/tutorial-nodejs-react-set-breakpoint-client-code.png)
 
-    To find the `render()` function in *app-bundle.js*, use **Ctrl**+**F** (**Edit** > **Find and Replace** > **Quick Find**).
+    To find the `render()` function in the transpiled *app-bundle.js* file, use **Ctrl**+**F** (**Edit** > **Find and Replace** > **Quick Find**).
 
-4. Select your target browser as the debug target in Visual Studio, then press **Ctrl**+**F5** (**Debug** > **Start Without Debugging**) to run the app in the browser.
+    For *app.tsx*, set the breakpoint inside the `render()` function, on the `return` statement.
+
+    ![Set a breakpoint](../javascript/media/tutorial-nodejs-react-set-breakpoint-in-tsx-file.png)
+
+4. If you are setting the breakpoint in the *.tsx* file (rather than *app-bundle.js*), you need to update *webpack-config.js*. Replace the following code:
+
+    ```javascript
+    output: {
+        filename: "./app-bundle.js",
+    },
+    ```
+
+    with this code:
+
+    ```javascript
+    output: {
+        filename: "./app-bundle.js",
+        devtoolModuleFilenameTemplate: '[resource-path]'  // removes the webpack:/// prefix
+    },
+    ```
+
+    This is a development-only setting to enable debugging in Visual Studio. This setting allows you to override the generated references in the sourcemap file, *app-bundle.js.map*, when building the app. By default, webpack references in the sourcemap file include the *webpack:///* prefix, which prevents Visual Studio from finding the source file, *app.tsx*. Specifically, when you make this change, the reference to the source file, *app.tsx*, gets changed from *webpack:///./app.tsx* to *./app.tsx*, which enables debugging.
+
+5. Select your target browser as the debug target in Visual Studio, then press **Ctrl**+**F5** (**Debug** > **Start Without Debugging**) to run the app in the browser.
 
     The app opens in a new browser tab.
 
-5. Choose **Debug** > **Attach to Process**.
+6. Choose **Debug** > **Attach to Process**.
 
-6. In the **Attach to Process** dialog box, get a filtered list of browser instances that you can attach to.
+7. In the **Attach to Process** dialog box, get a filtered list of browser instances that you can attach to.
 
     ::: moniker range=">=vs-2019"
     In Visual Studio 2019, choose the correct target browser, **JavaScript (Chrome)** or **JavaScript (Microsoft Edge - Chromium)** in the **Attach to** field, type **chrome** or **edge** in the filter box to filter the search results. If you created a browser configuration with a friendly name, choose that instead.
@@ -433,7 +462,7 @@ For this scenario, use Chrome.
     In Visual Studio 2017, choose **Webkit code** in the **Attach to** field, type **chrome** in the filter box to filter the search results.
     ::: moniker-end
 
-7. Select the browser process with the correct host port (localhost in this example), and select **Attach**.
+8. Select the browser process with the correct host port (localhost in this example), and select **Attach**.
 
     The port (1337) may also appear in the **Title** field to help you select the correct browser instance.
 
@@ -451,15 +480,19 @@ For this scenario, use Chrome.
     > [!TIP]
     > If the debugger does not attach and you see the message "Unable to attach to the process. An operation is not legal in the current state.", use the Task Manager to close all instances of the target browser before starting the browser in debugging mode. Browser extensions may be running and preventing full debug mode.
 
-8. Because the code with the breakpoint already executed, refresh your browser page to hit the breakpoint.
+9. Because the code with the breakpoint already executed, refresh your browser page to hit the breakpoint.
 
     While paused in the debugger, you can examine your app state by hovering over variables and using debugger windows. You can advance the debugger by stepping through code (**F5**, **F10**, and **F11**).
 
-    You may hit the breakpoint in either *app-bundle.js* or its mapped location in *app.tsx*, depending on your environment and browser state. Either way, you can step through code and examine variables.
+    You may hit the breakpoint in either *app-bundle.js* or its mapped location in *app.tsx*, depending on which steps you followed previously, along with your environment and browser state. Either way, you can step through code and examine variables.
 
-   * If you need to break into code in *app.tsx* and are unable to do it, use **Attach to Process** as described in the previous steps to attach the debugger. Then open the dynamically generated *app.tsx* file from Solution Explorer by opening **Script Documents** > **app.tsx**, set a breakpoint, and refresh the page in your browser (set the breakpoint in a line of code that allows breakpoints, such as the `return` statement or a `var` declaration).
+   * If you need to break into code in *app.tsx* and are unable to do it, use **Attach to Process** as described in the previous steps to attach the debugger. Make sure you that your environment is set up correctly:
 
-       Alternatively, if you need to break into code in *app.tsx* and are unable to do it, try using the `debugger;` statement in *app.tsx*, or set breakpoints in the Chrome Developer Tools (or F12 Tools for Microsoft Edge) instead. For sourcemap files generated by Webpack, the browser tools (**F12**) typically work best for debugging.
+      * You closed all browser instances, including Chrome extensions (using the Task Manager), so that you can run the browser in debug mode. Make sure you start the browser in debug mode.
+
+      * Make sure that your sourcemap file includes a reference to *./app.tsx* and not *webpack:///./app.tsx*, which prevents the Visual Studio debugger from locating *app.tsx*.
+
+       Alternatively, if you need to break into code in *app.tsx* and are unable to do it, try using the `debugger;` statement in *app.tsx*, or set breakpoints in the Chrome Developer Tools (or F12 Tools for Microsoft Edge) instead.
 
    * If you need to break into code in *app-bundle.js* and are unable to do it, remove the sourcemap file, *app-bundle.js.map*.
 
