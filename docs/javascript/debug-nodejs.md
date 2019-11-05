@@ -49,7 +49,7 @@ For applications other than ASP.NET, follow the steps described here.
 
 ### Prepare your app for debugging
 
-If your source is minified or created by a transpiler like TypeScript or Babel, the use of [source maps](#generate_sourcemaps) is required for the best debugging experience. Without source maps, you can still attach the debugger to a running client-side script. However, you may only be able to set and hit breakpoints in the minified or transpiled file, not in the original source file. For example, in a Vue.js app, minified script gets passed as a string to an `eval` statement, and there is no way to step through this code effectively using the Visual Studio debugger, unless you use source maps. In complex debugging scenarios, you might instead use Chrome Developer Tools or F12 Tools for Microsoft Edge.
+If your source is minified or created by a transpiler like TypeScript or Babel, the use of [source maps](#generate_sourcemaps) is required for the best debugging experience. Without source maps, you can still attach the debugger to a running client-side script. However, you may only be able to set and hit breakpoints in the minified or transpiled file, not in the original source file. For example, in a Vue.js app, minified script gets passed as a string to an `eval` statement, and there is no way to step through this code effectively using the Visual Studio debugger, unless you use source maps. In complex debugging scenarios, you might also use Chrome Developer Tools or F12 Tools for Microsoft Edge instead.
 
 For help to generate source maps, see [Generate source maps for debugging](#generate_sourcemaps).
 
@@ -73,7 +73,7 @@ For this scenario, use Chrome.
 2. Start your browser with debugging enabled.
 
     ::: moniker range=">=vs-2019"
-    Starting in Visual Studio 2019, you can set the `--remote-debugging-port` flag at browser launch by selecting **Browse With...** > from the **Debug** toolbar, then choosing **Add**, and then setting the flag in the **Arguments** field. Use a different friendly name for the browser such as **Edge with Debugging** or **Chrome with Debugging**. For details, see the [Release Notes](/visualstudio/releases/2019/release-notes-v16.2).
+    Starting in Visual Studio 2019, you can set the `--remote-debugging-port=9222` flag at browser launch by selecting **Browse With...** > from the **Debug** toolbar, then choosing **Add**, and then setting the flag in the **Arguments** field. Use a different friendly name for the browser such as **Edge with Debugging** or **Chrome with Debugging**. For details, see the [Release Notes](/visualstudio/releases/2019/release-notes-v16.2).
 
     ![Set your browser to open with debugging enabled](../javascript/media/tutorial-nodejs-react-edge-with-debugging.png)
 
@@ -200,7 +200,7 @@ with this code:
 
 This is a development-only setting to enable debugging of client-side code in Visual Studio.
 
-For complicated scenarios, the browser tools (**F12**) may work best for debugging, and don't require changes to custom prefixes.
+For complicated scenarios, the browser tools (**F12**) sometimes work best for debugging, because they don't require changes to custom prefixes.
 
 ### Configure source maps using a tsconfig.json file
 
