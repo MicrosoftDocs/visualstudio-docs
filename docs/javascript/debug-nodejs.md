@@ -53,7 +53,7 @@ If your source is minified or created by a transpiler like TypeScript or Babel, 
 
 For help to generate source maps, see [Generate source maps for debugging](#generate_sourcemaps).
 
-### Prepare the browser for debugging
+### <a name="prepare_the_browser_for_debugging"></a> Prepare the browser for debugging
 
 ::: moniker range=">=vs-2019"
 For this scenario, use either Microsoft Edge (Chromium), currently named **Microsoft Edge Beta** in the IDE, or Chrome.
@@ -106,7 +106,7 @@ To attach the debugger from Visual Studio and hit breakpoints in client-side cod
 
     To find the specific code in a transpiled file, use **Ctrl**+**F** (**Edit** > **Find and Replace** > **Quick Find**).
 
-    For client-side code, to hit a breakpoint in a TypeScript file, *.vue*, or JSX file typically requires the use of [source maps](#generate_sourcemaps). A source map must be configured correctly to support debugging in Visual Studio.
+    For client-side code, to hit a breakpoint in a TypeScript file, *.vue*, or JSX file typically requires the use of [source maps](#generate_source_maps). A source map must be configured correctly to support debugging in Visual Studio.
 
 2. Select your target browser as the debug target in Visual Studio, then press **Ctrl**+**F5** (**Debug** > **Start Without Debugging**) to run the app in the browser.
 
@@ -154,11 +154,11 @@ To attach the debugger from Visual Studio and hit breakpoints in client-side cod
 
     You may hit the breakpoint in either the transpiled *.js* file or the source file, depending on which steps you followed previously, along with your environment and browser state. Either way, you can step through code and examine variables.
 
-   * If you need to break into code in a TypeScript, JSX, or *.vue* source file and are unable to do it, make sure you that your environment is set up correctly, as described in the [Troubleshooting](#troubleshooting_breakpoints_and_source_maps) section.
+   * If you need to break into code in a TypeScript, JSX, or *.vue* source file and are unable to do it, make sure you that your environment is set up correctly, as described in the [Troubleshooting](#troubleshooting__source_maps) section.
 
    * If you need to break into code in a transpiled JavaScript file (for example, *app-bundle.js*) and are unable to do it, remove the source map file, *filename.js.map*.
 
-### Troubleshooting breakpoints and source maps
+### <a name="troubleshooting_sourcemaps"></a> Troubleshooting breakpoints and source maps
 
 If you need to break into code in a TypeScript, JSX, or *.vue* source file and are unable to do it, use **Attach to Process** as described in the previous steps to attach the debugger. Make sure you that your environment is set up correctly:
 
@@ -166,15 +166,15 @@ If you need to break into code in a TypeScript, JSX, or *.vue* source file and a
       
 * Make sure you [start the browser in debug mode](#prepare_the_browser_for_debugging).
 
-* Make sure that your source map file includes the correct reference to your source file and that it doesn't include unsupported prefixes such as *webpack:///*, which prevents the Visual Studio debugger from locating *app.tsx*. For example, this reference might be corrected to *./app.tsx*. You can do this manually in the source map file or through a custom build configuration. For more information, see [Generate source maps for debugging](#generate_sourcemaps).
+* Make sure that your source map file includes the correct reference to your source file and that it doesn't include unsupported prefixes such as *webpack:///*, which prevents the Visual Studio debugger from locating a source file. For example, a reference like *webpack:///.app.tsx* might be corrected to *./app.tsx*. You can do this manually in the source map file or through a custom build configuration. For more information, see [Generate source maps for debugging](#generate_source_maps).
 
 Alternatively, if you need to break into code in a source file (for example, *app.tsx*) and are unable to do it, try using the `debugger;` statement in the source file, or set breakpoints in the Chrome Developer Tools (or F12 Tools for Microsoft Edge) instead.
 
-## <a name="generate_sourcemaps"></a> Generate source maps for debugging
+## <a name="generate_source_maps"></a> Generate source maps for debugging
 
 Visual Studio has the capability to use and generate source maps on JavaScript source files. This is often required if your source is minified or created by a transpiler like TypeScript or Babel. The options available depend on the project type.
 
-* A TypeScript project in Visual Studio generates source maps for you by default. For more information, see [Configure source maps using a tsconfig.json file](#Configure_source_maps_using_a_tsconfig.json_file).
+* A TypeScript project in Visual Studio generates source maps for you by default. For more information, see [Configure source maps using a tsconfig.json file](#Configure_source_maps).
 
 * In a JavaScript project, you can generate source maps using a bundler like webpack and a compiler like the TypeScript compiler (or Babel), which you can add to your project. For the TypeScript compiler, you must also add a *tsconfig.json* file and set the `sourceMap` compiler option. For an example that shows how to do this using a basic webpack configuration, see [Create a Node.js app with React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
 
@@ -206,7 +206,7 @@ This is a development-only setting to enable debugging of client-side code in Vi
 
 For complicated scenarios, the browser tools (**F12**) sometimes work best for debugging, because they don't require changes to custom prefixes.
 
-### Configure source maps using a tsconfig.json file
+### <a name="configure_source_maps"></a> Configure source maps using a tsconfig.json file
 
 If you add a *tsconfig.json* file to your project, Visual Studio treats the directory root as a TypeScript project. To add the file, right-click your project in Solution Explorer, and then choose **Add > New Item > TypeScript JSON Configuration File**. A *tsconfig.json* file like the following gets added to your project.
 
@@ -248,9 +248,14 @@ These project settings are available.
 
 ## Debug JavaScript in dynamic files using Razor (ASP.NET)
 
-Visual Studio provides debugging support for Chrome and Internet Explorer only. It will automatically attach breakpoints to JavaScript/TypeScript and embedded scripts on HTML files.
+::: moniker range=">=vs-2019"
+Starting in Visual Studio 2019, Visual Studio provides debugging support for Chrome and Microsoft Edge (Chromium) only.
+::: moniker-end
+::: moniker range="vs-2017"
+Visual Studio provides debugging support for Chrome and Internet Explorer only.
+::: moniker-end
 
-Debugging dynamically generated files is not automatic. You cannot automatically hit breakpoints on files generated with Razor syntax (cshtml, vbhtml). There are two approaches you can use to debug this kind of file:
+However, you cannot automatically hit breakpoints on files generated with Razor syntax (cshtml, vbhtml). There are two approaches you can use to debug this kind of file:
 
 * **Place the `debugger;` statement where you want to break**: This causes the dynamic script to stop execution and start debugging immediately while it is being created.
 * **Load the page and open the dynamic document on Visual Studio**: You'll need to open the dynamic file while debugging, set your breakpoint, and refresh the page for this method to work. Depending on whether you're using Chrome or Internet Explorer, you'll find the file using one of the following strategies:
@@ -260,6 +265,12 @@ Debugging dynamically generated files is not automatic. You cannot automatically
     > [!NOTE]
     > When using Chrome, you might get a message **no source is available between \<script> tags**. This is OK, just continue debugging.
 
+   ::: moniker range=">=vs-2019"
+   For Microsoft Edge (Chromium), use the same procedure as Chrome.
+   ::: moniker-end
+
+   ::: moniker range="vs-2017"
    For Internet Explorer, go to **Solution Explorer > Script Documents > Windows Internet Explorer > YourPageName**.
+   ::: moniker-end
 
 For more information, see [Client-side debugging of ASP.NET projects in Google Chrome](https://devblogs.microsoft.com/aspnet/client-side-debugging-of-asp-net-projects-in-google-chrome/).
