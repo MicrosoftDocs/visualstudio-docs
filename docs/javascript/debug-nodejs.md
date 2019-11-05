@@ -1,7 +1,7 @@
 ---
 title: "Debug a JavaScript or TypeScript app"
 description: Visual Studio provides support for debugging JavaScript and TypeScript apps in Visual Studio
-ms.date: "12/03/2018"
+ms.date: "11/01/2019"
 ms.topic: "conceptual"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -38,74 +38,106 @@ You can debug JavaScript and TypeScript code using Visual Studio. You can set an
 
 ## Debug client-side script
 
-Visual Studio provides debugging support for Chrome and Internet Explorer only. In some scenarios, the debugger automatically hits breakpoints in JavaScript and TypeScript code and in embedded scripts on HTML files.
+::: moniker range=">=vs-2019"
+Visual Studio provides client-side debugging support for Chrome and Microsoft Edge (Chromium) only. In some scenarios, the debugger automatically hits breakpoints in JavaScript and TypeScript code and in embedded scripts on HTML files.
+::: moniker-end
+::: moniker range="vs-2017"
+Visual Studio provides client-side debugging support for Chrome and Internet Explorer only. In some scenarios, the debugger automatically hits breakpoints in JavaScript and TypeScript code and in embedded scripts on HTML files.
+::: moniker-end
 
-If your source is minified or created by a transpiler like TypeScript or Babel, the use of [source maps](#generate_sourcemaps) is required for the best debugging experience. Without source maps, you can still attach the debugger to a running client-side script. However, you may only be able to set and hit breakpoints in the minified or transpiled file, not in the original source file. For example, in a Vue.js app, minified script gets passed as a string to an `eval` statement, and there is no way to step through this code effectively using the Visual Studio debugger, unless you use source maps. In some complex debugging scenarios, you might also use Chrome Developer Tools or F12 Tools for Microsoft Edge.
+If your source is minified or created by a transpiler like TypeScript or Babel, the use of [source maps](#generate_sourcemaps) is required for the best debugging experience. Without source maps, you can still attach the debugger to a running client-side script. However, you may only be able to set and hit breakpoints in the minified or transpiled file, not in the original source file. For example, in a Vue.js app, minified script gets passed as a string to an `eval` statement, and there is no way to step through this code effectively using the Visual Studio debugger, unless you use source maps. In these more complex debugging scenarios, you might instead use Chrome Developer Tools or F12 Tools for Microsoft Edge.
 
 To attach the debugger from Visual Studio and hit breakpoints in client-side code, the debugger typically needs help to identify the correct process. Here is one way to enable this using Chrome.
 
-### Attach the debugger to client-side script using Chrome
+### Attach the debugger to client-side script
 
-1. Close all Chrome windows.
+To attach the debugger from Visual Studio and hit breakpoints in client-side code, the debugger needs help to identify the correct process. Here is one way to enable this.
 
-    This action is necessary before you can run Chrome in debug mode.
+::: moniker range=">=vs-2019"
+For this scenario, use either Microsoft Edge (Chromium), currently named **Microsoft Edge Beta** in the IDE, or Chrome.
+::: moniker-end
+::: moniker range="vs-2017"
+For this scenario, use Chrome.
+::: moniker-end
+
+1. Close all windows for the target browser.
+
+   Other browser instances can prevent the debugger from attaching.
 
 2. Open the **Run** command from the Windows **Start** button (right-click and choose **Run**), and enter the following command:
 
     `chrome.exe --remote-debugging-port=9222`
+    ::: moniker range=">=vs-2019"
+    or,
+    `msedge --remote-debugging-port=9222`
+    ::: moniker-end
 
-    This command starts Chrome with debugging enabled.
+    This starts your browser with debugging enabled.
 
     ::: moniker range=">=vs-2019"
 
-    > [!NOTE]
-    > You can also set the `--remote-debugging-port` flag at browser launch by selecting **Browse With...** > from the **Debug** toolbar, then choosing **Add**, and then setting the flag in the **Arguments** field. Use a different friendly name for the browser such as **Chrome with Debugging**. For details, see the [Release Notes](/visualstudio/releases/2019/release-notes-preview).
+    > [!TIP]
+    > Starting in Visual Studio 2019, you can set the `--remote-debugging-port` flag at browser launch by selecting **Browse With...** > from the **Debug** toolbar, then choosing **Add**, and then setting the flag in the **Arguments** field. Use a different friendly name for the browser such as **Edge with Debugging** or **Chrome with Debugging**. For details, see the [Release Notes](/visualstudio/releases/2019/release-notes-v16.2).
+
+    ![Set your browser to open with debugging enabled](../javascript/media/tutorial-nodejs-react-edge-with-debugging.png)
 
     ::: moniker-end
 
-3. Switch to Visual Studio and set a breakpoint in your source code. (Set the breakpoint in a line of code that allows breakpoints, such as a `return` statement or a `var` declaration).
+    The app is not yet running, so you get an empty browser page.
+
+3. Switch to Visual Studio and set a breakpoint in your source code. (Set the breakpoint in a line of code that allows breakpoints, such as a return statement or a var declaration).
 
     ![Set a breakpoint](../javascript/media/tutorial-nodejs-react-set-breakpoint-client-code.png)
 
     If you need to find particular code in a large, generated file, use **Ctrl**+**F** (**Edit** > **Find and Replace** > **Quick Find**).
 
-4. With Chrome selected as the debug target in Visual Studio, press **Ctrl**+**F5** (**Debug** > **Start Without Debugging**) to run the app in the browser.
+4. Select your target browser as the debug target in Visual Studio, then press **Ctrl**+**F5** (**Debug** > **Start Without Debugging**) to run the app in the browser.
 
     The app opens in a new browser tab.
 
-    If Chrome is available on your machine, but does not show up as an option, choose **Browse With** from the debug target dropdown list, and select Chrome as the default browser target (choose **Set as Default**).
-
 5. Choose **Debug** > **Attach to Process**.
 
-6. In the **Attach to Process** dialog box, choose **WebKit code** in the **Attach to** field, type **chrome** in the filter box to filter the search results.
+6. In the **Attach to Process** dialog box, get a filtered list of browser instances that you can attach to.
 
-    **WebKit code** is the required value for Chrome, which is a Webkit-based browser.
+    ::: moniker range=">=vs-2019"
+    In Visual Studio 2019, choose the correct target browser, **JavaScript (Chrome)** or **JavaScript (Microsoft Edge - Chromium)** in the **Attach to** field, type **chrome** or **edge** in the filter box to filter the search results. If you created a browser configuration with a friendly name, choose that instead.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    In Visual Studio 2017, choose **Webkit code** in the **Attach to** field, type **chrome** in the filter box to filter the search results.
+    ::: moniker-end
 
-7. Select the Chrome process with the correct host port (1337 in this illustration), and select **Attach**.
+7. Select the browser process with the correct host port (localhost in this example), and select **Attach**.
 
+    The port (for example, 1337) may also appear in the **Title** field to help you select the correct browser instance.
+
+    ::: moniker range=">=vs-2019"
+    The following example shows how this looks for the Microsoft Edge (Chromium) browser.
+
+    ![Attach to process](../javascript/media/tutorial-nodejs-react-attach-to-process-edge.png)
+    ::: moniker-end
+    ::: moniker range="vs-2017"
     ![Attach to process](../javascript/media/tutorial-nodejs-react-attach-to-process.png)
 
-    ::: moniker range="vs-2017"
     You know the debugger has attached correctly when the DOM Explorer and the JavaScript Console open in Visual Studio. These debugging tools are similar to Chrome Developer Tools and F12 Tools for Microsoft Edge.
     ::: moniker-end
 
-    > [!NOTE]
-    > If the debugger does not attach and you see the message "Unable to attach to the process. An operation is not legal in the current state", use the Task Manager to close all instances of Chrome before starting Chrome in debugging mode. Chrome Extensions may be running and preventing full debug mode.
+    > [!TIP]
+    > If the debugger does not attach and you see the message "Failed to launch debug adapter" or "Unable to attach to the process. An operation is not legal in the current state.", use the Windows Task Manager to close all instances of the target browser before starting the browser in debugging mode. Browser extensions may be running and preventing full debug mode.
 
-8. If the code with the breakpoint already executed, refresh your browser page to hit the breakpoint.
+8. Because the code with the breakpoint may have already executed, refresh your browser page. If necessary, take action to cause the code with the breakpoint to execute.
 
     While paused in the debugger, you can examine your app state by hovering over variables and using debugger windows. You can advance the debugger by stepping through code (**F5**, **F10**, and **F11**).
 
-    For minified or transpiled JavaScript, you may hit the breakpoint in either the transpiled JavaScript or its mapped location in your TypeScript file (using source maps), depending on your environment and browser state. Either way, you can step through code and examine variables.
+    You may hit the breakpoint in either the transpiled JavaScript or its mapped location in your TypeScript file (using sourcemaps), depending on your environment and browser state. Either way, you can step through code and examine variables.
 
-    * If you need to break into code in a TypeScript file and are unable to do it, use **Attach to Process** as described in the previous steps to attach the debugger. Then open the dynamically generated TypeScript file from Solution Explorer by opening **Script Documents** > **filename.tsx**, set a breakpoint, and refresh the page in your browser (set the breakpoint in a line of code that allows breakpoints, such as the `return` statement or a `var` declaration).
+   * If you need to break into code in a TypeScript file and are unable to do it, use **Attach to Process** as described in the previous steps to attach the debugger. In Solution Explorer, open **Script Documents** and check if your TypeScript file (*.ts*) is listed. If it is listed, open it and set a breakpoint, and refresh the page in your browser (set the breakpoint in a line of code that allows breakpoints, such as the `return` statement or a `var` declaration).
 
-        Alternatively, if you need to break into code in a TypeScript file and are unable to do it, try using the `debugger;` statement in the TypeScript file, or set breakpoints in the Chrome Developer Tools instead.
+       Alternatively, if you need to break into code in a TypeScript file and are unable to do it, try using the `debugger;` statement in the TypeScript file. If this fails, you may need to set breakpoints in the Chrome Developer Tools (or F12 Tools for Microsoft Edge) instead. For sourcemap files generated by bundlers like Webpack, the browser tools typically work best.
 
-    * If you need to break into code in a transpiled JavaScript file (for example, *app-bundle.js*), and are unable to do it, remove the source map file, *filename.js.map*.
+   * If you need to break into code in a transpiled JavaScript file (for example, *app-bundle.js*) and are unable to do it, remove the sourcemap file, *filename.js.map*.
 
      > [!TIP]
-     > Once you attach to the process the first time by following these steps, you can quickly reattach to the same process by choosing **Debug** > **Reattach to Process**.
+     > Once you attach to the process the first time by following these steps, you can quickly reattach to the same process in Visual Studio 2017 by choosing **Debug** > **Reattach to Process**.
 
 ## <a name="generate_sourcemaps"></a> Generate source maps for debugging
 
@@ -113,7 +145,7 @@ Visual Studio has the capability to use and generate source maps on JavaScript s
 
 * A TypeScript project in Visual Studio generates source maps for you by default.
 
-* In a JavaScript project, you need to generate source maps using a bundler like webpack and a compiler like the TypeScript compiler (or Babel), which you can add to your project. For the TypeScript compiler, you must also add a *tsconfig.json* file. For an example that shows how to do this using a basic webpack configuration, see [Create a Node.js app with React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
+* In a JavaScript project, you need to generate source maps using a bundler like webpack and a compiler like the TypeScript compiler (or Babel), which you can add to your project. For the TypeScript compiler, you must also add a *tsconfig.json* file. For an example that shows how to do this using a basic webpack configuration, see [Create a Node.js app with React](../javascript/tutorial-nodejs-with-react-and-jsx.md). For sourcemap files generated by bundlers like Webpack, the browser tools (**F12**) typically work best for debugging.
 
 > [!NOTE]
 > If you are new to source maps, please read [Introduction to JavaScript Source Maps](https://www.html5rocks.com/en/tutorials/developertools/sourcemaps/) before continuing.
