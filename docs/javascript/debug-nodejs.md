@@ -150,13 +150,13 @@ To attach the debugger from Visual Studio and hit breakpoints in client-side cod
 
     You may hit the breakpoint in either the transpiled *.js* file or the source file, depending on which steps you followed previously, along with your environment and browser state. Either way, you can step through code and examine variables.
 
-   * If you need to break into code in a TypeScript or JSX source file and are unable to do it, use **Attach to Process** as described in the previous steps to attach the debugger. Make sure you that your environment is set up correctly, as described in the [Troubleshooting](#troubleshooting_breakpoints_and_source_maps) section.
+   * If you need to break into code in a TypeScript, JSX, or *.vue* source file and are unable to do it, make sure you that your environment is set up correctly, as described in the [Troubleshooting](#troubleshooting_breakpoints_and_source_maps) section.
 
    * If you need to break into code in a transpiled JavaScript file (for example, *app-bundle.js*) and are unable to do it, remove the source map file, *filename.js.map*.
 
 ### Troubleshooting breakpoints and source maps
 
-If you need to break into code in a TypeScript or JSX source file and are unable to do it, use **Attach to Process** as described in the previous steps to attach the debugger. Make sure you that your environment is set up correctly:
+If you need to break into code in a TypeScript, JSX, or *.vue* source file and are unable to do it, use **Attach to Process** as described in the previous steps to attach the debugger. Make sure you that your environment is set up correctly:
 
 * You closed all browser instances, including Chrome extensions (using the Task Manager), so that you can run the browser in debug mode.
       
@@ -164,7 +164,7 @@ If you need to break into code in a TypeScript or JSX source file and are unable
 
 * Make sure that your source map file includes a reference to to your source file that doesn't include unsupported prefixes such as *webpack:///*, which prevents the Visual Studio debugger from locating *app.tsx*. For example, this reference might be corrected to *./app.tsx*. You can do this manually in the source map file or through a custom build configuration. For more information, see [Generate source maps for debugging](#generate_sourcemaps).
 
-Alternatively, if you need to break into code in a source file (for example, *app.tsx) and are unable to do it, try using the `debugger;` statement in the source file, or set breakpoints in the Chrome Developer Tools (or F12 Tools for Microsoft Edge) instead.
+Alternatively, if you need to break into code in a source file (for example, *app.tsx*) and are unable to do it, try using the `debugger;` statement in the source file, or set breakpoints in the Chrome Developer Tools (or F12 Tools for Microsoft Edge) instead.
 
 ## <a name="generate_sourcemaps"></a> Generate source maps for debugging
 
@@ -179,7 +179,7 @@ Visual Studio has the capability to use and generate source maps on JavaScript s
 
 To configure advanced settings for source maps, use either a *tsconfig.json* or the project settings in a TypeScript project, but not both.
 
-To enable debugging using Visual Studio, you need to make sure that the reference(s) to your source file in the generated source map are correct (this may require testing). For example, if you are using webpack, references in the source map file include the *webpack:///* prefix, which prevents Visual Studio from finding a TypeScript or JSX source file. Specifically, when you correct this for debugging purposes, the reference to the source file (such as *app.tsx*), must be changed from something like *webpack:///./app.tsx* to something like *./app.tsx*, which enables debugging (the path is relative to your source file). The following example shows how you can correct source maps with webpack, which is one of the most common bundlers.
+To enable debugging using Visual Studio, you need to make sure that the reference(s) to your source file in the generated source map are correct (this may require testing). For example, if you are using webpack, references in the source map file include the *webpack:///* prefix, which prevents Visual Studio from finding a TypeScript or JSX source file. Specifically, when you correct this for debugging purposes, the reference to the source file (such as *app.tsx*), must be changed from something like *webpack:///./app.tsx* to something like *./app.tsx*, which enables debugging (the path is relative to your source file). The following example shows how you can configure source maps in webpack, which is one of the most common bundlers, so that they work with Visual Studio.
 
 (Webpack only) If you are setting the breakpoint in a TypeScript of JSX file (rather than a transpiled JavaScript file), you need to update your webpack configuration. For example, in *webpack-config.js*, you might need to replace the following code:
 
