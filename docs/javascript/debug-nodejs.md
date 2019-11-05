@@ -49,9 +49,9 @@ For applications other than ASP.NET, follow the steps described here.
 
 ### Prepare your app for debugging
 
-If your source is minified or created by a transpiler like TypeScript or Babel, the use of [source maps](#generate_sourcemaps) is required for the best debugging experience. Without source maps, you can still attach the debugger to a running client-side script. However, you may only be able to set and hit breakpoints in the minified or transpiled file, not in the original source file. For example, in a Vue.js app, minified script gets passed as a string to an `eval` statement, and there is no way to step through this code effectively using the Visual Studio debugger, unless you use source maps. In complex debugging scenarios, you might also use Chrome Developer Tools or F12 Tools for Microsoft Edge instead.
+If your source is minified or created by a transpiler like TypeScript or Babel, the use of [source maps](#generate_source_maps) is required for the best debugging experience. Without source maps, you can still attach the debugger to a running client-side script. However, you may only be able to set and hit breakpoints in the minified or transpiled file, not in the original source file. For example, in a Vue.js app, minified script gets passed as a string to an `eval` statement, and there is no way to step through this code effectively using the Visual Studio debugger, unless you use source maps. In complex debugging scenarios, you might also use Chrome Developer Tools or F12 Tools for Microsoft Edge instead.
 
-For help to generate source maps, see [Generate source maps for debugging](#generate_sourcemaps).
+For help to generate source maps, see [Generate source maps for debugging](#generate_source_maps).
 
 ### <a name="prepare_the_browser_for_debugging"></a> Prepare the browser for debugging
 
@@ -154,11 +154,11 @@ To attach the debugger from Visual Studio and hit breakpoints in client-side cod
 
     You may hit the breakpoint in either the transpiled *.js* file or the source file, depending on which steps you followed previously, along with your environment and browser state. Either way, you can step through code and examine variables.
 
-   * If you need to break into code in a TypeScript, JSX, or *.vue* source file and are unable to do it, make sure you that your environment is set up correctly, as described in the [Troubleshooting](#troubleshooting__source_maps) section.
+   * If you need to break into code in a TypeScript, JSX, or *.vue* source file and are unable to do it, make sure you that your environment is set up correctly, as described in the [Troubleshooting](#troubleshooting_source_maps) section.
 
    * If you need to break into code in a transpiled JavaScript file (for example, *app-bundle.js*) and are unable to do it, remove the source map file, *filename.js.map*.
 
-### <a name="troubleshooting_sourcemaps"></a> Troubleshooting breakpoints and source maps
+### <a name="troubleshooting_source_maps"></a> Troubleshooting breakpoints and source maps
 
 If you need to break into code in a TypeScript, JSX, or *.vue* source file and are unable to do it, use **Attach to Process** as described in the previous steps to attach the debugger. Make sure you that your environment is set up correctly:
 
@@ -174,7 +174,7 @@ Alternatively, if you need to break into code in a source file (for example, *ap
 
 Visual Studio has the capability to use and generate source maps on JavaScript source files. This is often required if your source is minified or created by a transpiler like TypeScript or Babel. The options available depend on the project type.
 
-* A TypeScript project in Visual Studio generates source maps for you by default. For more information, see [Configure source maps using a tsconfig.json file](#Configure_source_maps).
+* A TypeScript project in Visual Studio generates source maps for you by default. For more information, see [Configure source maps using a tsconfig.json file](#configure_source_maps).
 
 * In a JavaScript project, you can generate source maps using a bundler like webpack and a compiler like the TypeScript compiler (or Babel), which you can add to your project. For the TypeScript compiler, you must also add a *tsconfig.json* file and set the `sourceMap` compiler option. For an example that shows how to do this using a basic webpack configuration, see [Create a Node.js app with React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
 
