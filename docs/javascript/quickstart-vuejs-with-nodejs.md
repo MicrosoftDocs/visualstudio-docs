@@ -1,11 +1,10 @@
 ---
 title: "Quickstart: Create your first Vue.js app"
 description: In this quickstart, you create a Vue.js app in Visual Studio using the Node.js Tools for Visual Studio
-ms.custom: "seodec18"
-ms.date: 09/24/2018
+ms.custom: ""
+ms.date: 10/31/2019
 ms.topic: quickstart
 ms.devlang: javascript
-ms.assetid: b0e4ebed-1a01-41ef-aad1-4d8465ce5322
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
@@ -98,9 +97,13 @@ First, you'll create a Vue.js web application project.
 
 1. (TypeScript project only) From Visual Studio, choose **Build** > **Clean Solution**.
 
+    ::: moniker range=">=vs-2019"
+    In the TypeScript template included with Visual Studio 2019, skip this step.
+    ::: moniker-end
+
 1. Next, choose **Build** > **Build Solution** to build the project. Check the **Output** window to see build results, and choose **Build** from the **Show output from** list.
 
-    The Vue.js project template uses the `build` npm script by configuring a post build event. If you want to modify this setting, open the project file (*\<projectname\>.njsproj*) from Windows Explorer and locate this line of code:
+    The JavaScript Vue.js project template (and older versions of the TypeScript template) use the `build` npm script by configuring a post build event. If you want to modify this setting, open the project file (*\<projectname\>.njsproj*) from Windows Explorer and locate this line of code:
 
     ```xml
     <PostBuildEvent>npm run build</PostBuildEvent>
@@ -113,6 +116,8 @@ First, you'll create a Vue.js web application project.
    In the console, you see a message *Starting Development Server*.
 
    Then, the app opens in a browser.
+   
+   If you don't see the running app, refresh the page.
 
    ![Vue.js app running in the browser](../javascript/media/vuejs-running-app.png)
 
