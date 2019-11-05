@@ -1063,7 +1063,7 @@
     {
       "source_path": "docs/debugger/limitations-on-script-debugging.md",
       "redirect_url": "/visualstudio/debugger/debugging-web-applications",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/designers/keyboard-shortcuts-for-xaml-designer.md",
