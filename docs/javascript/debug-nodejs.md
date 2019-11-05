@@ -45,6 +45,8 @@ Visual Studio provides client-side debugging support for Chrome and Microsoft Ed
 Visual Studio provides client-side debugging support for Chrome and Internet Explorer only. In some scenarios, the debugger automatically hits breakpoints in JavaScript and TypeScript code and in embedded scripts on HTML files. For debugging client-side script in ASP.NET apps, see the blog post [Client-side debugging of ASP.NET projects in Google Chrome](https://devblogs.microsoft.com/aspnet/client-side-debugging-of-asp-net-projects-in-google-chrome/).
 ::: moniker-end
 
+For applications other than ASP.NET, follow the steps described here.
+
 ### Prepare your app for debugging
 
 If your source is minified or created by a transpiler like TypeScript or Babel, the use of [source maps](#generate_sourcemaps) is required for the best debugging experience. Without source maps, you can still attach the debugger to a running client-side script. However, you may only be able to set and hit breakpoints in the minified or transpiled file, not in the original source file. For example, in a Vue.js app, minified script gets passed as a string to an `eval` statement, and there is no way to step through this code effectively using the Visual Studio debugger, unless you use source maps. In complex debugging scenarios, you might instead use Chrome Developer Tools or F12 Tools for Microsoft Edge.
@@ -71,15 +73,16 @@ For this scenario, use Chrome.
 2. Start your browser with debugging enabled.
 
     ::: moniker range=">=vs-2019"
-    > [!TIP]
-    > Starting in Visual Studio 2019, you can set the `--remote-debugging-port` flag at browser launch by selecting **Browse With...** > from the **Debug** toolbar, then choosing **Add**, and then setting the flag in the **Arguments** field. Use a different friendly name for the browser such as **Edge with Debugging** or **Chrome with Debugging**. For details, see the [Release Notes](/visualstudio/releases/2019/release-notes-v16.2).
+    Starting in Visual Studio 2019, you can set the `--remote-debugging-port` flag at browser launch by selecting **Browse With...** > from the **Debug** toolbar, then choosing **Add**, and then setting the flag in the **Arguments** field. Use a different friendly name for the browser such as **Edge with Debugging** or **Chrome with Debugging**. For details, see the [Release Notes](/visualstudio/releases/2019/release-notes-v16.2).
 
     ![Set your browser to open with debugging enabled](../javascript/media/tutorial-nodejs-react-edge-with-debugging.png)
 
     Alternatively, open the **Run** command from the Windows **Start** button (right-click and choose **Run**), and enter the following command:
 
     `msedge --remote-debugging-port=9222`
+
     or,
+
     `chrome.exe --remote-debugging-port=9222`
     ::: moniker-end
 
@@ -111,10 +114,13 @@ To attach the debugger from Visual Studio and hit breakpoints in client-side cod
 
 3. Choose **Debug** > **Attach to Process**.
 
+    > [!TIP]
+    > Starting in Visual Studio 2017, once you attach to the process the first time by following these steps, you can quickly reattach to the same process by choosing **Debug** > **Reattach to Process**.
+
 4. In the **Attach to Process** dialog box, get a filtered list of browser instances that you can attach to.
 
     ::: moniker range=">=vs-2019"
-    In Visual Studio 2019, choose the correct target browser, **JavaScript (Chrome)** or **JavaScript (Microsoft Edge - Chromium)** in the **Attach to** field, type **chrome** or **edge** in the filter box to filter the search results. If you created a browser configuration with a friendly name, choose that instead.
+    In Visual Studio 2019, choose the correct debugger for your target browser, **JavaScript (Chrome)** or **JavaScript (Microsoft Edge - Chromium)** in the **Attach to** field, type **chrome** or **edge** in the filter box to filter the search results. If you created a browser configuration with a friendly name, choose that instead.
     ::: moniker-end
     ::: moniker range="vs-2017"
     In Visual Studio 2017, choose **Webkit code** in the **Attach to** field, type **chrome** in the filter box to filter the search results.
@@ -140,16 +146,13 @@ To attach the debugger from Visual Studio and hit breakpoints in client-side cod
 
 6. Because the code with the breakpoint may have already executed, refresh your browser page. If necessary, take action to cause the code with the breakpoint to execute.
 
-    While paused in the debugger, you can examine your app state by hovering over variables and using debugger windows. You can advance the debugger by stepping through code (**F5**, **F10**, and **F11**).
+    While paused in the debugger, you can examine your app state by hovering over variables and using debugger windows. You can advance the debugger by stepping through code (**F5**, **F10**, and **F11**). For more information on basic debugging features, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
     You may hit the breakpoint in either the transpiled *.js* file or the source file, depending on which steps you followed previously, along with your environment and browser state. Either way, you can step through code and examine variables.
 
    * If you need to break into code in a TypeScript or JSX source file and are unable to do it, use **Attach to Process** as described in the previous steps to attach the debugger. Make sure you that your environment is set up correctly, as described in the [Troubleshooting](#troubleshooting_breakpoints_and_source_maps) section.
 
    * If you need to break into code in a transpiled JavaScript file (for example, *app-bundle.js*) and are unable to do it, remove the source map file, *filename.js.map*.
-
-     > [!TIP]
-     > Once you attach to the process the first time by following these steps, you can quickly reattach to the same process in Visual Studio 2017 by choosing **Debug** > **Reattach to Process**.
 
 ### Troubleshooting breakpoints and source maps
 
